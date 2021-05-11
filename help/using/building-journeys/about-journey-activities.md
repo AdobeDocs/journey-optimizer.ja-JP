@@ -1,0 +1,65 @@
+---
+title: ジャーニーアクティビティについて
+description: ジャーニーアクティビティについて
+translation-type: tm+mt
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 46%
+
+---
+
+# ジャーニーアクティビティについて{#about-journey-activities}
+
+![](../assets/do-not-localize/badge.png)
+
+様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。
+
+## イベントアクティビティ {#event-activities}
+
+テクニカルユーザーが設定したイベント（[このページ](../event/about-events.md)を参照）は、画面の左側のパレットの最初のカテゴリにすべて表示されます。次のイベントアクティビティを使用できます。
+
+* [一般イベント](../building-journeys/general-events.md)
+* [反応](../building-journeys/reaction-events.md)
+* [セグメントの資格](../building-journeys/segment-qualification-events.md)
+
+![](../assets/journey43.png)
+
+イベントアクティビティをドラッグ&amp;ドロップしてジャーニーを開始します。 ダブルクリックでも開始できます。
+
+![](../assets/journey44.png)
+
+## オーケストレーションアクティビティ {#orchestration-activities}
+
+パレットの画面左側で、次のオーケストレーションアクティビティを使用できます。
+
+* [条件](../building-journeys/condition-activity.md)
+* [終了](../building-journeys/end-activity.md)
+* [待機](../building-journeys/wait-activity.md)
+* [セグメントの読み取り](../building-journeys/read-segment.md)
+
+![](../assets/journey49.png)
+
+## アクションアクティビティ {#action-activities}
+
+パレットの左側の画面の&#x200B;**[!UICONTROL イベント]**&#x200B;と&#x200B;**[!UICONTROL オーケストレーション]**&#x200B;の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。 次のアクションアクティビティを使用できます。
+
+* [メッセージ](../building-journeys/journeys-message.md)
+* [カスタムアクション](../building-journeys/using-custom-actions.md)
+* [ジャンプ](../building-journeys/jump.md)
+
+![](../assets/journey58.png)
+
+これらのアクティビティは、様々な通信チャネルを表します。これらを組み合わせて、クロスチャネルシナリオを作成できます。
+
+カスタムアクションを設定した場合は、ここに表示されます（[このページ](../building-journeys/using-custom-actions.md)を参照）。
+
+## ベストプラクティス {#best-practices}
+
+ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。 これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。 これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別できる場合に便利です。 また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
+
+![](../assets/journey59bis.png)
+
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+
+![](../assets/journey42.png)
