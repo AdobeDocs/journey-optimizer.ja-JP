@@ -1,0 +1,112 @@
+---
+title: 条件アクティビティ
+description: 条件のアクティビティについて
+translation-type: tm+mt
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+workflow-type: tm+mt
+source-wordcount: '922'
+ht-degree: 10%
+
+---
+
+# 条件アクティビティ{#section_e2n_pft_dgb}
+
+![](../assets/do-not-localize/badge.png)
+
+次の4種類の条件を使用できます。
+
+* [データソースの条件](#data_source_condition)
+* [時間条件](#time_condition)
+* [割合の分割](#percentage_split)
+* [日付条件](#date_condition)
+
+![](../assets/journey49.png)
+
+## 条件アクティビティについて{#about_condition}
+
+ジャーニーで複数の条件を使用する場合、各条件のラベルを定義すると、ラベルを識別しやすくなります。
+
+複数の条件を定義する場合は、**[!UICONTROL 追加パス]**&#x200B;をクリックします。 条件ごとに、キャンバスのアクティビティの後に新しいパスが追加されます。
+
+![](../assets/journey47.png)
+
+ジャーニーの設計には、機能的な影響があることに注意してください。 条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。 つまり、パスを重ね合わせるか、重ね合わせることで、パスの優先順位付けを変更できます。
+
+例えば、最初のパスの条件「The person is a VIP」と2番目のパスの条件「The person is a male」を例にとってみましょう。 この手順は、両方の条件を満たす人(VIPの男性)が通過した場合に、最初のパスが2番目のパスにも適格である場合でも選択されます。1番目のパスは「上」なのです。 この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
+
+![](../assets/journey48.png)
+
+****&#x200B;より上の以外のケースのパスを表示をオンにすると、定義した条件に適合しないオーディエンスのパスを別に作成できます。 このオプションは、分割条件では使用できません。 [割合の分割](#percentage_split)を参照してください。
+
+シンプルモードでは、フィールドの組み合わせに基づいて単純なクエリを実行できます。 使用可能なすべてのフィールドが画面の左側に表示されます。 フィールドをメインゾーンにドラッグ&amp;ドロップします。 異なる要素を組み合わせるには、それらを互いに連動させて異なるグループやグループレベルを作成します。 次に、論理演算子を選択して、同じレベルの要素を組み合わせることができます。
+
+* AND:2つの条件の交点。 すべての条件に一致する要素のみが考慮されます。
+* OR:2つの基準の和集合。 2 つの条件の少なくとも 1 つに一致する要素が考慮されます。
+
+![](../assets/journey64.png)
+
+[Adobe Experience Platformセグメントサービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を使用してセグメントを作成する場合は、ジャーニー条件で利用できます。 [条件でのセグメントの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+
+
+>[!NOTE]
+>
+>単純なエディターでは、時系列(購入のリスト、メッセージの過去のクリックなど)に対してクエリを実行できません。 このためには、高度なエディタを使用する必要があります。 [このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)を参照してください。
+
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+
+## データソースの条件{#data_source_condition}
+
+これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントーに基づいて条件を定義できます。 式エディタの使用方法については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)を参照してください。 アドバンス式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。 [このページ](../datasource/external-data-sources.md)を参照してください。
+
+![](../assets/journey50.png)
+
+## 時間条件{#time_condition}
+
+これにより、時間帯や曜日に応じて異なるアクションを実行できます。 例えば、日中にSMSメッセージを送信し、平日の夜に電子メールを送信するように指定できます。
+
+>[!NOTE]
+>
+>タイムゾーンが条件に固有ではなくなり、ジャーニーのプロパティでジャーニーレベルで定義されるようになりました。 [このページ](../building-journeys/timezone-management.md)を参照してください。
+
+![](../assets/journey51.png)
+
+## 割合の分割{#percentage_split}
+
+このオプションを使用すると、オーディエンスをランダムに分割して、グループごとに異なるアクションを定義できます。 各パスの分割数と再分割数を定義します。 分割計算は統計的なもので、ジャーニーのこのアクティビティで何人の人が流れるかを予測できません。 その結果、分割のエラーマージンは非常に低くなります。 この関数は、Javaのランダムメカニズムに基づいています（[ページ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)を参照）。
+
+>[!NOTE]
+>
+>パーセンテージ分割条件では、パスを追加するボタンはありません。 パスの数は、分割数によって異なります。 分割条件では、他のケースではパスは発生しないので、パスを追加できません。 ユーザーは常に、分割されたパスの1つに入ります。
+
+![](../assets/journey52.png)
+
+## 日付条件{#date_condition}
+
+これにより、日付に基づいて異なるフローを定義できます。 例えば、「sales」期間中にステップに入ったユーザーには、特定のメッセージが送信されます。 残りの年は、別のメッセージを送ります。
+
+>[!NOTE]
+>
+>タイムゾーンが条件に固有ではなくなり、ジャーニーのプロパティでジャーニーレベルで定義されるようになりました。 [このページ](../building-journeys/timezone-management.md)を参照してください。
+
+![](../assets/journey53.png)
+
+## 条件でのセグメントの使用 {#using-a-segment}
+
+ここでは、ジャーニー条件でセグメントを使用する方法について説明します。 セグメントとその構築方法について詳しくは、[このセクション](../segment/about-segments.md)を参照してください。
+
+ジャーニー条件でセグメントを使用するには、次の手順に従います。
+
+1. ジャーニーを開き、**[!UICONTROL 条件]**&#x200B;アクティビティをドロップし、**データソース条件**を選択します。
+   ![](../assets/journey47.png)
+
+1. 必要な追加パスごとに&#x200B;**[!UICONTROL 追加パス]**&#x200B;をクリックします。 各パスに対して、**[!UICONTROL 式]**&#x200B;フィールドをクリックします。
+
+   ![](../assets/segment3.png)
+
+1. 左側で、**[!UICONTROL セグメント]**&#x200B;ノードを展開します。 条件に使用するセグメントをドラッグ&amp;ドロップします。 デフォルトでは、セグメントの条件はtrueです。
+
+   ![](../assets/segment4.png)
+
+   >[!NOTE]
+   >
+   >**実現**&#x200B;および&#x200B;**既存の**&#x200B;セグメントパーティシペーションのステータスの個人のみが、セグメントのメンバーと見なされます。 セグメントの評価方法について詳しくは、[Segmentation Serviceドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)を参照してください。
