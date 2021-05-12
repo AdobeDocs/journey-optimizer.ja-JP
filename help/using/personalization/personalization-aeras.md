@@ -2,10 +2,10 @@
 title: Journey Optimizerの個人コンテキスト
 description: 個人設定を追加できるコンテキストについて説明します
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 2%
 
 ---
 
@@ -65,8 +65,8 @@ Journey Optimizerが配信するメッセージの内容や表示は、様々な
 画面の左側には、パーソナライゼーションのソースを選択できるドメインセレクターが表示されます。
 
 * **プロファイル** :「 [Adobe Experience Platformデータモデル(XDM)」ドキュメントで説明されているプロファイルスキーマに関連付けられているすべての参照リスト](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)。
-* **セグメントのメンバーシップ** :Adobe Experience PlatformSegmentationサービスで作成されたすべてのセグメントをリストします。分類の詳細については、[ここ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)を参照
-* **オファー** :特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。 オファーの管理方法に関する完全なドキュメントについては、[このセクション](https://experienceleague.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)を参照してください。
+* **セグメントのメンバーシップ** :Adobe Experience PlatformSegmentationサービスで作成されたすべてのセグメントをリストします。セグメント化の詳細については、[ここ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)を参照してください。
+* **オファー** :特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。 オファーの管理方法に関する詳細なドキュメントについては、[このセクション](../../using/offers/get-started/starting-offer-decisioning.md)を参照してください。
 
 選択すると、エディタに参照が追加されます。
 
