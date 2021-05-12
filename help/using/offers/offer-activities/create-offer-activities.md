@@ -2,7 +2,7 @@
 title: 意思決定の作成
 description: 意思決定の作成方法を学ぶ
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 51%
@@ -13,11 +13,11 @@ ht-degree: 51%
 
 決定(旧称オファーアクティビティ)は、オファーのコンテナです。オファーのターゲットに応じて、提供する最適なオファーを選ぶために、配信決定エンジンを利用します。
 
-![](../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 決定のリストは、**[!UICONTROL オファー]**&#x200B;メニュー/**[!UICONTROL 決定]**&#x200B;タブからアクセスできます。 フィルターは、ステータスや開始、終了日に応じた決定を取得するのに役立ちます。
 
-![](../assets/activities-list.png)
+![](../../assets/activities-list.png)
 
 決定を作成する前に、以下のコンポーネントがオファーライブラリに作成されていることを確認してください。
 
@@ -32,21 +32,21 @@ ht-degree: 51%
 
 1. 決定の名前と開始、終了日時を指定し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](../assets/activities-name.png)
+   ![](../../assets/activities-name.png)
 
 ## 決定の追加 {#add-decisions}
 
 1. リストから配置をドラッグ&amp;ドロップして決定に追加し、**[!UICONTROL 追加コレクション]**&#x200B;をクリックします。
 
-   ![](../assets/activities-placement.png)
+   ![](../../assets/activities-placement.png)
 
 1. 考慮するオファーを含んだコレクションを選択し、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](../assets/activities-collection.png)
+   ![](../../assets/activities-collection.png)
 
 1. 選択したオファーがプレースメントに追加されます。 この例では、コールセンターソリューションにオファーを提示することを目的とした JSON タイプのプレースメントに表示される 2 つのオファーを選択しました。
 
-   ![](../assets/offers-added.png)
+   ![](../../assets/offers-added.png)
 
 1. このプレースメントに対して、実施要件を満たすオファーが複数ある場合、デフォルトでは、優先度スコアが最も高いオファーが顧客に配信されます。
 
@@ -56,23 +56,23 @@ ht-degree: 51%
 
    オファーの選択を Adobe Experience Platform セグメントのメンバーに限定するには、「**[!UICONTROL セグメント]**」を選択し、「**[!UICONTROL セグメントを追加]**」をクリックします。
 
-   ![](../assets/activity_constraint_segment.png)
+   ![](../../assets/activity_constraint_segment.png)
 
    左側のペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合したあと、「**[!UICONTROL 選択]**」をクリックして確認します。
 
    セグメントの操作方法について詳しくは、[セグメンテーションサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
 
-   ![](../assets/activity_constraint_segment2.png)
+   ![](../../assets/activity_constraint_segment2.png)
 
    決定ルールを使用してこのプレースメントに選択制約を追加する場合は、「**[!UICONTROL 決定ルール]**」オプションを選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。 決定ルールの作成方法について詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
 
-   ![](../assets/activity_constraint_rule.png)
+   ![](../../assets/activity_constraint_rule.png)
 
 ## フォールバックオファーの追加 {#add-fallback}
 
 オファーの実施要件ルールと制約に一致しない顧客に最後の手段として提示するフォールバックオファーを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-![](../assets/add-fallback-offer.png)
+![](../../assets/add-fallback-offer.png)
 
 ## 決定を確認して保存{#review}
 
@@ -80,7 +80,7 @@ ht-degree: 51%
 
 また、後で編集してアクティブにするために、決定をドラフトとして保存することもできます。
 
-![](../assets/save-activities.png)
+![](../../assets/save-activities.png)
 
 この決定は、リストで&#x200B;**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL ドラフト]**&#x200B;のステータスと共に表示されます。状態は、前の手順でアクティブにしたかどうかによって異なります。
 
@@ -91,7 +91,7 @@ ht-degree: 51%
 * [メッセージの追加パーソナライズされたオファー](../../deliver-personalized-offers.md)
 * [APIを使用したオファーの配信](../api-reference/decisions-api/deliver-offers.md)
 
-![](../assets/activities-created.png)
+![](../../assets/activities-created.png)
 
 >[!NOTE]
 >
