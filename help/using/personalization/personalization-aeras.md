@@ -4,8 +4,8 @@ description: 個人設定を追加できるコンテキストについて説明�
 translation-type: tm+mt
 source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
