@@ -2,7 +2,7 @@
 title: Decision Managementイベントの概要
 description: Adobe Experience Platformでデシジョン管理レポートを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 46%
@@ -17,7 +17,7 @@ Decision Managementが特定のプロファイルに対して決定を行うた�
 
 Decision Managementイベントを含むデータセットは、Adobe Experience Platform **[!UICONTROL データセット]**&#x200B;メニューからアクセスできます。 各インスタンスのプロビジョニング時に、データセットが 1 つ自動的に作成されます。
 
-![](../assets/events-datasets-list.png)
+![](../../assets/events-datasets-list.png)
 
 これらのデータセットは、**[!UICONTROL ODE DecisionEvents]**&#x200B;スキーマに基づいています。この中には、Decision ManagementからAdobe Experience Platformに情報を送信するために必要なすべてのXDMフィールドが含まれています。
 
