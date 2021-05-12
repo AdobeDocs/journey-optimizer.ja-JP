@@ -2,7 +2,7 @@
 title: オファーの配信
 description: Decision Managementは、サービスとUIプログラムの集まりです。これにより、マーケティング担当者は、ビジネスロジックと決定ルールを使用して、チャネルやアプリケーション全体でエンドユーザーにパーソナライズされたオファーエクスペリエンスを作成および配信できます。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 69%
@@ -17,7 +17,7 @@ ht-degree: 69%
 
 このチュートリアルでは、API、特に意思決定管理に関する作業的な理解が必要です。 詳しくは、[Decision Management API開発者ガイド](../getting-started.md)を参照してください。 また、このチュートリアルでは、一意のプレースメントIDとデシジョンIDの値を使用できる必要があります。 これらの値を取得していない場合は、[プレースメント](../offers-api/placements/create.md)の作成および[決定](../activities-api/activities/create.md)の作成に関するチュートリアルを参照してください。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 ## Accept ヘッダーと Content-Type ヘッダー
 
