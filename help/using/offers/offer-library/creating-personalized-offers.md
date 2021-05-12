@@ -2,45 +2,14 @@
 title: パーソナライズされたオファーの作成
 description: Adobe Experience Platform でパーソナライズされたオファーを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 92%
+source-wordcount: '965'
+ht-degree: 90%
 
 ---
 
 # パーソナライズされたオファーの作成 {#creating-personalized-offers}
-
->[!CONTEXTUALHELP]
->id="od_offer_constraints"
->title="オファー制約について"
->abstract="制約を使用すると、オファーを他のオファーと比較して優先順位付けしユーザーに提示する方法を指定できます。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
-
->[!CONTEXTUALHELP]
->id="od_offer_eligibility"
->title="オファー実施要件について"
->abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
->additional-url="https://experienceleague.adobe.com/docs/offer-decisioning/using/managing-offers-in-the-offer-library/creating-decision-rules.html?lang=ja" text="決定ルールの作成"
->additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
-
->[!CONTEXTUALHELP]
->id="od_offer_priority"
->title="オファーの優先度について"
->abstract="このフィールドでは、オファーの優先度設定を指定できます。 優先度は、実施要件、日付、制限などのすべての制約を満たすオファーをランク付けするための数値です。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
-
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="オファー制限について"
->abstract="このフィールドでは、すべてのユーザーにオファーを提示できる回数を指定できます。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
-
->[!CONTEXTUALHELP]
->id="od_offer_attributes"
->title="オファー属性について"
->abstract="オファー属性を使用すると、レポートおよび分析を目的としてキーと値のペアをオファーに関連付けることができます。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
 
 オファーを作成する前に、以下が作成済みであることを確認してください。
 
@@ -48,11 +17,11 @@ ht-degree: 92%
 * オファーを表示する条件を定義する&#x200B;**決定ルール**。[決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
 * オファーに関連付ける 1 つまたは複数の&#x200B;**タグ**。[タグを作成](../offer-library/creating-tags.md)を参照してください。
 
-![](../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 パーソナライズされたオファーのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 ## オファーの作成 {#create-offer}
 
@@ -60,11 +29,11 @@ ht-degree: 92%
 
 1. 「オファーを作成&#x200B;**[!UICONTROL 」をクリックし、「オファーを作成]**」を選択します。次に、「**[!UICONTROL パーソナライズされた]**」を選択します。
 
-   ![](../assets/create_offer.png)
+   ![](../../assets/create_offer.png)
 
 1. オファーの名前とともに開始日時と終了日時を指定します。また、既存の 1 つまたは複数のタグをオファーに関連付けることもできます。これにより、オファーライブラリの検索と整理がしやすくなります。
 
-   ![](../assets/offer_details.png)
+   ![](../../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -80,11 +49,11 @@ ht-degree: 92%
 
 1. 表示域ごとに、オファーを表示する 「**[!UICONTROL チャネル]**」と「**[!UICONTROL プレースメント]**」を指定します。
 
-   ![](../assets/channel-placement.png)
+   ![](../../assets/channel-placement.png)
 
    「**[!UICONTROL 参照]**」ボタンを使用すると、使用可能なプレースメントをチャネルやコンテンツタイプに従ってフィルターできます。
 
-   ![](../assets/browse-placements.png)
+   ![](../../assets/browse-placements.png)
 
 1. Adobe Experience Cloud アセットライブラリや外部の公共の場所から得られるコンテンツを各表示域に追加します。
 
@@ -94,13 +63,13 @@ ht-degree: 92%
       >
       >コンテンツは、左側のパネルのアセットピッカーからのみドラッグ＆ドロップできます。プレースメントのコンテンツタイプに対応するコンテンツのみが使用できます。
 
-      ![](../assets/offer_drag_content.png)
+      ![](../../assets/offer_drag_content.png)
 
    * 外部の公共の場所からコンテンツを追加するには、「**[!UICONTROL コンテンツを追加]**」ボタンをクリックし、追加するコンテンツの名前、URL、および宛先リンクを指定します。
 
       追加するコンテンツが、選択したプレースメントのコンテンツタイプに対応していることを確認します。
 
-      ![](../assets/offer_add_content.png)
+      ![](../../assets/offer_add_content.png)
 
    * また、テキストタイプのコンテンツを挿入することもできます。それには、「**[!UICONTROL コンテンツを追加]**」ボタンをクリックし、「**[!UICONTROL カスタムテキスト]**」オプションを選択します。 「**[!UICONTROL テキスト]**」フィールドに、オファーに表示するテキストを入力します。
 
@@ -108,7 +77,7 @@ ht-degree: 92%
       >
       >このオプションは、画像タイプのプレースメントには使用できません。
 
-      ![](../assets/offer_text_content.png)
+      ![](../../assets/offer_text_content.png)
 
 ## 実施要件ルールと制約の追加 {#eligibility}
 
@@ -120,11 +89,11 @@ ht-degree: 92%
 
    セグメントの操作方法について詳しくは、[セグメンテーションサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
 
-   ![](../assets/offer-eligibility-segment.png)
+   ![](../../assets/offer-eligibility-segment.png)
 
    特定の決定ルールをオファーに関連付ける場合は、「**[!UICONTROL 定義済みの決定ルール]**」を選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。 決定ルールの作成方法について詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
 
-   ![](../assets/offer_rule.png)
+   ![](../../assets/offer_rule.png)
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。 オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
 
@@ -136,7 +105,7 @@ ht-degree: 92%
    >
    >E メール配信を削除した場合、または送信前に再度準備した場合、オファーのキャッピング値は自動的に更新されます。
 
-   ![](../assets/offer_capping.png)
+   ![](../../assets/offer_capping.png)
 
    上の例では、次のようになります。
 
@@ -150,13 +119,13 @@ ht-degree: 92%
 
 オファーは、ドラフトとして保存し、後で編集して承認することもできます。
 
-![](../assets/offer_review.png)
+![](../../assets/offer_review.png)
 
 オファーは、前のステップで承認したかどうかに応じて、**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL ドラフト]**&#x200B;のステータスでリストに表示されます。
 
 これで、ユーザーに配信する用意ができました。 オファーを選択してプロパティを表示できます。また、オファーを編集したり抑制したりできます。
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 オファーが作成されたら、リスト内の名前をクリックして詳細情報にアクセスできます。また、「**[!UICONTROL 変更ログ]**」タブを使用して、オファーに対して行われた変更をすべて監視できます（[および決定に対する変更の監視](../get-started/user-interface.md#monitoring-changes)を参照）。
 
