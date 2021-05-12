@@ -2,7 +2,7 @@
 title: ユーザーインターフェイス
 description: オファーライブラリユーザーインターフェイスの詳細を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 33%
@@ -21,7 +21,7 @@ ht-degree: 33%
 
 * **[!UICONTROL 判断]**:オファーを提供するための意思決定を作成し、管理します。[決定を作成する](../offer-activities/create-offer-activities.md)を参照してください。
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 **[!UICONTROL コンポーネント]**&#x200B;メニューを使用して、オファーの作成に必要なコンポーネントを管理します。
 
@@ -33,7 +33,7 @@ ht-degree: 33%
 
 * **[!UICONTROL ランク]**:ランキング式を作成および管理して、特定のプレースメントに対して最初に表示するオファーを決定します。[ランキング式の作成](../offer-library/create-ranking-formulas.md)を参照してください。
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## 情報の検索とフィルター
 
@@ -41,7 +41,7 @@ ht-degree: 33%
 
 **フィルター**&#x200B;にアクセスするには、リストの左上にあるフィルターアイコンをクリックすることもできます。使用すると、様々な条件に従って表示される要素をフィルターできます。例えば、E メール通信チャネル用に作成したプレースメントや画像タイプのコンテンツをフィルターできます。
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## 表示情報のカスタマイズ
 
@@ -51,21 +51,21 @@ ht-degree: 33%
 
 列のカスタマイズは、ユーザごとに保存されることに注意してください。
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## 情報ペイン
 
 様々なリストで、要素を選択して情報ペインを表示し、要素に関する情報を取得したり、基本的な操作を実行したりできます。
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 オファーと決定リストを使用して、複数の要素に対してバルクアクションを実行することもできます。 これを行うには、目的のオファーまたは決定を選択し、実行するアクションを情報ペインから選択します。
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 また、既存のオファーを重複したり、**[!UICONTROL ドラフト]**&#x200B;の状態でコピーを作成する場合にも注意してください。 これは、情報ペイン、オファー、または意思決定の詳細表示から実行できます。
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## オファーと決定の変更ログ{#changes-logs}
 
@@ -73,4 +73,4 @@ ht-degree: 33%
 
 加えられたすべての変更と、変更を行ったユーザーの名前がこの画面に表示されます。
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)
