@@ -2,7 +2,7 @@
 title: パーソナライゼーションの構文
 description: パーソナライゼーション構文の使用方法を説明します。
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 3%
@@ -111,7 +111,7 @@ Segmentation and Segmentationサービスの詳細については、[セクシ�
 3 -アクティビティID
 4 -オファー固有の属性。 オファータイプに応じて、サポートされている属性を使用できます。 例えば、`deliveryUrl`画像の場合です。
 
-決定APIについて詳しくは、[ページ](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)を参照してください。
+Decisions APIについて詳しくは、[ページ](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)を参照してください。
 
 オファー表現の詳細については、[ページ](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)を参照してください。
 
