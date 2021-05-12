@@ -2,9 +2,9 @@
 title: 配置データセット
 description: このセクションでは、エクスポートされた配置データセットで使用されるすべてのフィールドをリストします。
 translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '354'
 ht-degree: 4%
 
 ---
@@ -21,54 +21,71 @@ ht-degree: 4%
 >
 >[このセクション](../export-catalog/access-dataset.md)で、オファーライブラリの各オブジェクト用に書き出したデータセットにアクセスする方法を説明します。
 
-プレースメントは、パーソナライズされたメッセージの場所または場所を表します。 これは、パーソナライゼーションの判断が提供するコンテンツの技術的な制約を設定するために使用します。 また、配置は、この配置が関係するエクスペリエンスイベントが生成される場合に、特定のタイプの指標を生成する要求を表します。 例えば、この配置により、エンドユーザーに表示される電子メール内のクリック可能なパーソナライズされた画像を容易にすることができます。 配置は、例えば、アセンブルされたエクスペリエンスから、画像のクリックがエクスペリエンスイベントー内でhttps://ns.adobe.com/xdm/data/metrics/web/linkclicksという指標とこの配置への参照と共にレポートされるようにリクエストする場合があります。
-
 以下に、**[!UICONTROL Decision Object Repository - Placements]**&#x200B;データセットで使用できるすべてのフィールドのリストを示します。
+
+<!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
 ## 識別子
 
-レコードの一意の識別子。
-
-型：文字列
+**Field:** _id 
+**Title:** Identifier 
+**** Description：レコードの一意の識別子。**型：**&#x200B;文字列
 
 ## _エクスペリエンス
 
+**フィールド：** _experience 
+**Type:** object
+
 ### 判定
+
+**フィールド：** 判定の
+**種類：** オブジェクト
 
 #### プレースメントのチャネルID
 
-提案がなされたチャネル。 値は有効なチャネルURIです。 https://ns.adobe.com/xdm/channels/channelを参照してください。
-
-型：文字列
+**Field:** channelID 
+**Title:** PlacementのチャネルID 
+**** Description：提案が行われたチャネル。値は有効なチャネルURIです。 https://ns.adobe.com/xdm/channels/channelを参照してください。
+**型：**&#x200B;文字列
 
 #### コンテンツコンポーネントの種類
 
-各値がコンテンツコンポーネントに指定された型にマップされるURIの列挙型セットです。 コンテンツ表現の一部のコンシューマーは、@type値が、コンテンツコンポーネントの追加のプロパティを説明するスキーマの参照であることを期待しています。
+**Field:** componentType 
+**Title:** Content Component Type 
+**** Description:URIの列挙型のセット。各値は、コンテンツコンポーネントに指定された型にマップされます。コンテンツ表現の一部のコンシューマーは、@type値が、コンテンツコンポーネントの追加のプロパティを説明するスキーマの参照であることを期待しています。
+**型：**&#x200B;文字列
 
-型：文字列
+#### contentTypes
 
-#### MIMEメディアタイプ
+**Field:** contentTypes 
+**Type:** array
 
-その配置に必要なコンポーネントのメディアタイプに対する制約。 異なる画像形式など、1つのコンポーネントに複数のメディアタイプが存在する可能性があります。
+* **MIMEメディアタイプ**
 
-型：文字列
+   **タイトル：** MIME Media Type
+   **説明：** その配置に必要なコンポーネントのメディアタイプに対する制約。異なる画像形式など、1つのコンポーネントに複数のメディアタイプが存在する可能性があります。
+   **型：**&#x200B;文字列
 
 #### 配置の説明
 
-メッセージ配信全体での動的コンテンツの使用方法について、人間が理解できる意図を伝えるために使用されます。 Webページ内の特定のスペースが「バナー」であることは、正式な方法ではなく、説明を介して伝えられることがよくあります。
-
-型：文字列
+**フィールド：** 説明
+**タイトル：** 配置の説明
+**** ：説明：メッセージ配信全体での動的コンテンツの使用方法について、人が読める意図を伝えるために使用します。Webページ内の特定のスペースが「バナー」であることは、正式な方法ではなく、説明を介して伝えられることがよくあります。
+**型：**&#x200B;文字列
 
 #### 配置名
 
-人間の操作で参照する配置の割り当て名。
-
-型：文字列
+**Field:** name 
+**Title:** Placement Name 
+**** Description：人間の操作によってプレースメントを参照するために割り当てられたプレースメント名。**型：**&#x200B;文字列
 
 ## _repo
 
+**Field:** _repo 
+**Type:** object
+
 ### ETagの配置
 
-スナップショットが作成された時点での決定オプションオブジェクトのリビジョン。
-
-型：文字列
+**Field:** etag 
+**Title:** Placement ETag 
+**Description：スナップショットが作成された** 時点で、決定オプションオブジェクトが置かれていたリビジョン。**型：**&#x200B;文字列
