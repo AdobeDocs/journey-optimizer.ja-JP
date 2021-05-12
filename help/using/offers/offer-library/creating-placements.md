@@ -2,7 +2,7 @@
 title: プレースメントの作成
 description: Adobe Experience Platform でプレースメントを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 81%
@@ -13,21 +13,21 @@ ht-degree: 81%
 
 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 
-![](../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 下の例では、異なるタイプのコンテンツ（画像、テキスト、HTML）に対応する 3 つのプレースメントがあります。
 
-![](../assets/offers_placement_schema.png)
+![](../../assets/offers_placement_schema.png)
 
 配置のリストは、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。 フィルターは、特定のチャネルやコンテンツに従ってプレースメントを取得するのに役立ちます。
 
-![](../assets/placements_filter.png)
+![](../../assets/placements_filter.png)
 
 プレースメントを作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL プレースメントを作成]**」をクリックします。
 
-   ![](../assets/offers_placement_creation.png)
+   ![](../../assets/offers_placement_creation.png)
 
 1. プレースメントのプロパティを定義します。
 
@@ -36,13 +36,13 @@ ht-degree: 81%
    * **[!UICONTROL コンテンツタイプ]**：プレースメントに表示できるコンテンツのタイプ（テキスト、HTML、画像リンク）。
    * **[!UICONTROL 説明]**：プレースメントの説明（オプション）。
 
-   ![](../assets/offers_placement_creation_properties.png)
+   ![](../../assets/offers_placement_creation_properties.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
 1. プレースメントが作成されると、プレースメントリストに表示されます。選択してプロパティを表示し、編集できます。
 
-   ![](../assets/placement_created.png)
+   ![](../../assets/placement_created.png)
 
 ## チュートリアルビデオ {#video}
 
