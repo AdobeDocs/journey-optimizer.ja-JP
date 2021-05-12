@@ -2,10 +2,10 @@
 title: 待機アクティビティ
 description: 待機アクティビティについて
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 4%
+source-wordcount: '406'
+ht-degree: 5%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ![](../assets/do-not-localize/badge.png)
 
-パス内の次のアクティビティを実行する前に待つ場合は、**[!UICONTROL Wait]**&#x200B;アクティビティを使用できます。 次のアクティビティを実行するタイミングを定義できます。 次の4つのオプションが使用できます。
+パス内の次のアクティビティを実行する前に待つ場合は、**[!UICONTROL Wait]**&#x200B;アクティビティを使用できます。 次のアクティビティを実行するタイミングを定義できます。 次の 3 つのオプションを選択できます。
 
 * [デュレーション](#duration)
 * [固定日付](#fixed_date)
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```。イベントのフィールドの形式は2016-08-12T09:46:06Zです。
+>dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。toDateTimeOnly(@{イベント.offerOpened.アクティビティ.endTime})(イベント内のフィールドの形式は2016-08-12T09:46:06Z)。
 >
 >**タイムゾーン**&#x200B;は、ジャーニーのプロパティに必要です。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
