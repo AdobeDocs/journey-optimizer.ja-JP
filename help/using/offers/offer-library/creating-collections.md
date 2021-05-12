@@ -2,7 +2,7 @@
 title: コレクションの作成
 description: コレクションを使用してオファーを整理する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 86%
@@ -13,11 +13,11 @@ ht-degree: 86%
 
 コレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。例えば、スポーツ関連のオファーのみを含む「スポーツ」コレクションを作成できます。
 
-![](../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 オファーコレクションのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
-![](../assets/collections_list.png)
+![](../../assets/collections_list.png)
 
 2 種類のコレクションを作成できます。
 
@@ -31,17 +31,17 @@ ht-degree: 86%
 
 1. 作成するコレクションの名前とタイプを指定します。
 
-   ![](../assets/collection_create.png)
+   ![](../../assets/collection_create.png)
 
 1. 動的コレクションを作成するには、左ペインを使用してコレクションに追加するオファーのタグを選択し、「**[!UICONTROL 保存]**」をクリックします。選択したタグを持つすべてのオファーがコレクションに保存されます。
 
    タグの作成について詳しくは、[タグの作成](../offer-library/creating-tags.md)を参照してください。
 
-   ![](../assets/dynamic_collection.png)
+   ![](../../assets/dynamic_collection.png)
 
 1. 静的コレクションを作成するには、左側のペインを使用してオファーのリスト（ステータス、タグ、日付、チャネル、コンテンツタイプ）をフィルターし、コレクションに追加するオファーを選択します。
 
-   ![](../assets/static_collection.png)
+   ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ ht-degree: 86%
 
 1. コレクションが作成されると、リストに表示されます。選択して編集または削除できます。
 
-   ![](../assets/collection_created.png)
+   ![](../../assets/collection_created.png)
 
 ## チュートリアルビデオ {#video}
 
