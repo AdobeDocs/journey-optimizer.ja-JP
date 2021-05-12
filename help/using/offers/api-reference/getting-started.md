@@ -2,7 +2,7 @@
 title: はじめに
 description: オファーライブラリAPIを使用して開始を行い、Decision Management Engineを使用して主要な操作を実行する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 82%
@@ -13,7 +13,7 @@ ht-degree: 82%
 
 このデベロッパーガイドでは、[!DNL Offer Library] API の使用を開始する際に役立つ手順を説明します。次に、Decision Management Engineを使用して主要な操作を実行するためのサンプルAPI呼び出しを提供します。
 
-![](../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 ## 前提条件
 
