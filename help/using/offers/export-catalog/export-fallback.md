@@ -2,7 +2,7 @@
 title: フォールバックオファーデータセット
 description: この節では、フォールバックオファー用に書き出したデータセットで使用されるすべてのフィールドをリストします。
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 オファーが変更されるたびに、フォールバックオファー用の自動生成データセットが更新されます。
 
-![](../assets/dataset-fallback.png)
+![](../../assets/dataset-fallback.png)
 
 データセット内で成功した最新のバッチが右側に表示されます。 データセットのスキーマの階層表示が左側のペインに表示されます。
 
