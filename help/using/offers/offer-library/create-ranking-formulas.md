@@ -2,7 +2,7 @@
 title: ランキング式の作成
 description: Adobe Experience Platform でランキング式を作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 72%
@@ -27,16 +27,16 @@ ht-degree: 72%
 
 * 「**[!UICONTROL 数式を作成]**」をクリックして、新しいランキング式を作成します。
 
-   ![](../assets/ranking-create-formula.png)
+   ![](../../assets/ranking-create-formula.png)
 
 * ランキング式の名前、説明、数式を指定します。
 
    この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、**contextData.weather=hot** を判定の呼び出し時に渡しています。
 
-   ![](../assets/ranking-syntax.png)
+   ![](../../assets/ranking-syntax.png)
 
 * 「**[!UICONTROL 保存]**」をクリックします。 ランキング式が作成されたら、リストからその式を選択して、詳細を取得したり編集または削除したりできます。
 
    これで、プレースメントに適格なオファーをランク付けする決定に使用する準備が整いました([決定でのオファーの選択の設定](../offer-activities/configure-offer-selection.md)を参照)。
 
-   ![](../assets/ranking-formula-created.png)
+   ![](../../assets/ranking-formula-created.png)
