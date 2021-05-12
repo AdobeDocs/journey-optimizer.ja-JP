@@ -2,7 +2,7 @@
 title: オファーを作成するための主な手順
 description: オファーの作成に必要な主な手順を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">プレースメントの作成</a></p></td>
-<td><img src="../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">決定ルールの作成</a></p></td>
-<td><img src="../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">タグの作成</a></p></td>
-<td><img src="../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">オファーのコンテンツとプロパティの作成</a></p></td>
-<td><img src="../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">フォールバックオファーの作成</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">プレースメントの作成</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">決定ルールの作成</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">タグの作成</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">オファーのコンテンツとプロパティの作成</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">フォールバックオファーの作成</a></p></td></tr>
 </table>
