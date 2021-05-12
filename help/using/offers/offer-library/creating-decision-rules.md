@@ -2,7 +2,7 @@
 title: 決定ルールの作成
 description: Adobe Experience Platform での決定ルールを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 85%
@@ -15,17 +15,17 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 例えば、性別が女性で地域が北東部の場合にのみ「婦人冬服」オファーを表示するように指定できます。
 
-![](../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 作成した決定ルールのリストは、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 決定ルールを作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL ルール]**」タブに移動し、「**[!UICONTROL ルールを作成]**」をクリックします。
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. ルールに名前を付け、説明を入力し、必要に応じてルールを設定します。
 
@@ -33,7 +33,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
    この例では、「ゴールド」ロイヤルティレベルの顧客をターゲットします。
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールを作成すると、ルールリストに表示されます。選択するとプロパティが表示され、編集することも削除することもできます。
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 ## チュートリアルビデオ {#video}
 
