@@ -2,7 +2,7 @@
 title: オファーカタログエクスポートの基本を学ぶ
 description: このセクションでは、エクスポートしたデータセットで使用されるすべてのフィールドをリストして決定します。
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 オファーが変更されるたびに、自動生成された判断データセットが更新されます。
 
-![](../assets/dataset-activities.png)
+![](../../assets/dataset-activities.png)
 
 データセット内で成功した最新のバッチが右側に表示されます。 データセットのスキーマの階層表示が左側のペインに表示されます。
 
