@@ -2,7 +2,7 @@
 title: 配置データセット
 description: このセクションでは、エクスポートされた配置データセットで使用されるすべてのフィールドをリストします。
 translation-type: tm+mt
-source-git-commit: d96a2b179ce652a119b6008e02b1409666f36402
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 オファーが変更されるたびに、自動生成された配置のデータセットが更新されます。
 
-![](../assets/dataset-placements.png)
+![](../../assets/dataset-placements.png)
 
 データセット内で成功した最新のバッチが右側に表示されます。 データセットのスキーマの階層表示が左側のペインに表示されます。
 
