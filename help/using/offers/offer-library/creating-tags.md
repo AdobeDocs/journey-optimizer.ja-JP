@@ -2,7 +2,7 @@
 title: タグの作成
 description: Adobe Experience Platform でオファーを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 76%
@@ -15,11 +15,11 @@ ht-degree: 76%
 
 また、タグを使用して、オファーをオファーコレクションにグループ化することもできます。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-![](../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 作成したタグのリストは、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 タグを作成するには、次の手順に従います。
 
@@ -27,11 +27,11 @@ ht-degree: 76%
 
 1. タグ名を指定して「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. タグが作成されると、リストに表示されます。オファーを選択してプロパティを表示できます。また、オファーを編集したり抑制したりできます。
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## チュートリアルビデオ {#video}
 
