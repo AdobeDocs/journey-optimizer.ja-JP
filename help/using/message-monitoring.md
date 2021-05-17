@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![](assets/message-execution-tab-filters.png)
 
-<!--**[!UICONTROL Quick action]**-->2番目の列は、対応する[メッセージ](create-message.md)を開き、**[!UICONTROL ライブ表示]**&#x200B;にいる場合は[ライブレポート](reports/live-report.md)に、[グローバル表示](reports/global-report.md)にアクセスできます。>.****
+2番目の列は、対応する[メッセージ](create-message.md)を開き、**[!UICONTROL ライブ表示]**&#x200B;にいる場合は[ライブレポート](reports/live-report.md)に、[グローバル表示](reports/global-report.md)にアクセスできます。>.****
 
 ![](assets/message-execution-open-live-report.png)
 
