@@ -1,84 +1,88 @@
 ---
 title: テストプロファイルの作成
 description: テストプロファイルの作成方法
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 2%
+source-wordcount: '988'
+ht-degree: 74%
 
 ---
 
-# テストプロファイルを作成{#create-test-profiles}
+# テストプロファイルを作成 {#create-test-profiles}
 
 ![](../assets/do-not-localize/badge.png)
 
-テストプロファイルは、ジャーニーでテストモードを使用する場合に必要です。 [既存のプロファイル](../building-journeys/creating-test-profiles.md#turning-profile-into-test)をテストプロファイルにするか、[テストプロファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)を作成します。 テストモードの使い方については、[この](../building-journeys/testing-the-journey.md)を参照してください。
+テストプロファイルは、ジャーニーでテストモードを使用する場合に必要です。 [既存のプロファイル](../building-journeys/creating-test-profiles.md#turning-profile-into-test)をテストプロファイルにするか、[テストプロファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)を作成します。テストモードの使い方については、[この節](../building-journeys/testing-the-journey.md)を参照してください。
 
-Adobe Experience Platformでテストプロファイルを作成するには、様々な方法があります。 このドキュメントでは、次の2つの方法に焦点を当てます。[csvファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)をアップロードし、[APIを使用して](../building-journeys/creating-test-profiles.md#create-test-profiles-api)を呼び出します。 また、データセットにjsonファイルをアップロードすることもできます。[データ収集ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)を参照してください。
+Adobe Experience Platform でテストプロファイルを作成するには、様々な方法があります。 このドキュメントでは、次の 2 つの方法に焦点を当てています。[CSV ファイル](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)のアップロードと、[API コール](../building-journeys/creating-test-profiles.md#create-test-profiles-api)の使用です。また、データセットに JSON ファイルをアップロードすることもできます。[データインジェストドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset)を参照してください。
 
-テストプロファイルの作成は、Adobe Experience Platformで正規プロファイルを作成するのと似ています。 詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
+テストプロファイルの作成は、Adobe Experience Platform で正規プロファイルを作成するのと似ています。 詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
 
 ## 前提条件{#test-profile-prerequisites}
 
-プロファイルを作成するには、まずAdobe Experience Platformでスキーマとデータセットを作成する必要があります。
+プロファイルを作成するには、まずAdobe[!DNL Journey Optimizer]でスキーマとデータセットを作成する必要があります。
 
-まず、**スキーマ**&#x200B;を作成する必要があります。 次の手順に従います。
+まず、**スキーマを作成**&#x200B;する必要があります。 次の手順に従います。
 
-1. Adobe Experience Platformで、左のメニューの&#x200B;**スキーマ**をクリックします。
+1. 「管理」セクションで、「**[!UICONTROL スキーマ]**」をクリックします。
    ![](../assets/test-profiles-0.png)
-1. 右上の「**スキーマを作成**」をクリックし、スキーマの種類を選択します(例：**XDM個別プロファイル**)。
+1. 右上の「**[!UICONTROL スキーマを作成]**」をクリックし、スキーマの種類を選択します（例：**XDM 個人版プロファイル**）。
    ![](../assets/test-profiles-1.png)
-1. スキーマの名前を選択します。
-1. 「**ミックスイン**」セクションで、「**追加**」をクリックします。
-   ![](../assets/test-profiles-1-bis.png)
-1. 適切なミックスインを選択します。 **プロファイルテストの詳細**&#x200B;ミックスインを追加してください。 **ミックスイン追加**をクリックします。
+1. 適切なフィールドグループを選択します。 必ず&#x200B;**Profile test details**フィールドグループを追加してください。
    ![](../assets/test-profiles-1-ter.png)
-ミックスインのリストは、スキーマの概要画面に表示されます。
-
+完了したら、「 **[!UICONTROL Add field groups]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
    ![](../assets/test-profiles-2.png)
-1. フィールドのリストで、主IDとして定義するフィールドをクリックします。
+
+   >[!NOTE]
+   >
+   >* スキーマの名前をクリックして変更し、そのプロパティを更新します。
+      >
+      >
+   * 「フィールドグループ」セクションの「**[!UICONTROL 追加]**」ボタンをクリックして、スキーマに追加する他のフィールドグループを選択します
+
+
+1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
    ![](../assets/test-profiles-3.png)
-1. **フィールドのプロパティ**&#x200B;右パネルで、**ID**&#x200B;および&#x200B;**プライマリID**&#x200B;オプションを確認し、名前空間を選択します。 プライマリIDを電子メールアドレスにする場合は、**電子メール**&#x200B;名前空間を選択します。 「**適用**」をクリックします。
+1. **[!UICONTROL フィールドのプロパティ]**&#x200B;の右パネルで、「****[!UICONTROL ID]**」および「****[!UICONTROL プライマリID]**」オプションをオンにし、名前空間を選択します。 プライマリ ID を E メールアドレスにする場合は、「**E メール**」名前空間を選択します。 「**適用**」をクリックします。
    ![](../assets/test-profiles-4.png)
-1. スキーマを選択し、**スキーマのプロパティ**&#x200B;で&#x200B;**プロファイル**オプションを有効にします。
+1. スキーマを選択し、「**[!UICONTROL スキーマのプロパティ]**」で「**[!UICONTROL プロファイル]**」オプションを有効にします。
    ![](../assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
 >[!NOTE]
 >
->スキーマの作成について詳しくは、[XDMドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)を参照してください。
+>スキーマ作成の詳細については、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites)を参照してください。
 
-次に、プロファイルを読み込むデータセット&#x200B;**を**&#x200B;作成する必要があります。 次の手順に従います。
+次に、プロファイルを読み込む&#x200B;**データセット**&#x200B;を作成する必要があります。 次の手順に従います。
 
-1. Adobe Experience Platformで、左のメニューで「**データセット**」をクリックし、「**データセットを作成**」をクリックします。
+1. **[!UICONTROL データセット]**&#x200B;を参照し、「**[!UICONTROL データセットを作成]**」をクリックします。
    ![](../assets/test-profiles-6.png)
-1. 「**スキーマからデータセットを作成**」を選択します。
+1. 「**[!UICONTROL スキーマからデータセットを作成]**」を選択します。
    ![](../assets/test-profiles-7.png)
-1. 以前に作成したスキーマを選択し、「**次へ**」をクリックします。
+1. 以前に作成したスキーマを選択し、「**[!UICONTROL 次へ]**」をクリックします。
    ![](../assets/test-profiles-8.png)
-1. 名前を選択し、**完了**をクリックします。
+1. 名前を選択し、「**[!UICONTROL 完了]**」をクリックします。
    ![](../assets/test-profiles-9.png)
-1. **プロファイル**オプションを有効にします。
+1. 「**[!UICONTROL プロファイル]**」オプションを有効にします。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)を参照してください。
+> データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started)を参照してください。
 
-## プロファイルをテストプロファイルに変換{#turning-profile-into-test}
+## プロファイルをテストプロファイルに変換する{#turning-profile-into-test}
 
-既存のプロファイルをテストプロファイルに変換できます。 Adobe Experience Platformでは、プロファイルの作成時と同じ方法でプロファイル属性を更新できます。
+既存のプロファイルをテストプロファイルに変換できます。プロファイルの作成時と同じ方法でプロファイル属性を更新できます。
 
-これを行うには、ジャーニーで&#x200B;**プロファイル**&#x200B;の更新アクションアクティビティを使用し、testProfileブール値フィールドをfalseからtrueに変更します。
+これをおこなう簡単な方法は、ジャーニーで&#x200B;**[!UICONTROL プロファイル]**&#x200B;を更新アクションアクティビティを使用し、 testProfileブール値フィールドをfalseからtrueに変更することです。
 
-ジャーニーは、**読み取りセグメント**&#x200B;と&#x200B;**更新プロファイル**&#x200B;アクティビティで構成されます。 まず、テストプロファイルにしたいプロファイルをターゲットにしたセグメントを作成する必要があります。
+ジャーニーは、「**[!UICONTROL セグメントを読み取り]**」と「**[!UICONTROL プロファイルを更新]**」アクティビティで構成されます。 まず、テストプロファイルにするプロファイルをターゲットにしたセグメントを作成する必要があります。
 
 >[!NOTE]
 >
-> **testProfile**&#x200B;フィールドを更新するので、選択したプロファイルにこのフィールドを含める必要があります。 関連するスキーマには、**プロファイルテストの詳細**&#x200B;ミックスインが必要です。 詳しくは、[この節](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)を参照してください。
+> **testProfile** フィールドを更新するので、選択したプロファイルにこのフィールドを含める必要があります。関連するスキーマには、**プロファイルテストの詳細** Mixin が必要です。詳しくは、[このセクション](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)を参照してください。
 
-1. Journey Optimizerで、左のメニューから「**セグメント**」をクリックし、右上の「**セグメントを作成**」をクリックします。
+1. **Segments**&#x200B;を参照し、右上の&#x200B;**Create segment**を選択します。
    ![](../assets/test-profiles-22.png)
 1. セグメント名を定義し、セグメントを作成します。目的のプロファイルをターゲットするフィールドと値を選択します。
    ![](../assets/test-profiles-23.png)
@@ -89,54 +93,53 @@ Adobe Experience Platformでテストプロファイルを作成するには、�
    >
    > セグメントの計算には時間がかかる場合があります。 セグメントの詳細については、[このセクション](../segment/about-segments.md)を参照してください。
 
-1. 次に、**セグメント**&#x200B;を読み取るオーケストレーションアクティビティを使用して、新しいジャーニーと開始を作成します。
+1. 次に、**[!UICONTROL セグメントの読み取り]**&#x200B;オーケストレーションアクティビティを使用して、新しいジャーニーを作成し開始します。
 1. 以前に作成したセグメントと、プロファイルが使用する名前空間を選択します。
    ![](../assets/test-profiles-25.png)
-1. &lt;追加a0/>プロファイル&#x200B;**の更新アクティビティ。**
-1. スキーマ、**testProfiles**フィールド、データセットを選択し、値を「true」に設定します。
+1.  **[!UICONTROL プロファイル更新]** アクションアクティビティを追加します。
+1. スキーマ、**testProfiles**&#x200B;フィールド、データセットを選択し、値を&#x200B;**True**&#x200B;に設定します。 これを実行するには、「**[!UICONTROL 値]**」フィールドで、右側の&#x200B;**ペン**&#x200B;アイコンをクリックし、「**[!UICONTROL 詳細設定モード]**」を選択して、「**true**」と入力します。
    ![](../assets/test-profiles-26.png)
-1. 追加&#x200B;****&#x200B;アクティビティを終了し、**発行**をクリックします。
-   ![](../assets/test-profiles-27.png)
-1. Adobe Experience Platformで、プロファイルが正しく更新されていることを確認します。
+1. Add an **終了**&#x200B;アクティビティを追加して、 **[!UICONTROL 公開]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Segments]**」セクションで、プロファイルが正しく更新されていることを確認します。
    ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > **プロファイル**&#x200B;の更新アクティビティの詳細については、[この](../building-journeys/update-profiles.md)を参照してください。
+   >  **[!UICONTROL プロファイルの更新]** アクティビティにつていは,   [このセクション](../building-journeys/update-profiles.md)を参照してください。
 
-## CSVファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
+## csvファイル{#create-test-profiles-csv}を使用したテストプロファイルの作成
 
-Adobe Experience Platformでは、様々なプロファイルフィールドを含むCSVファイルをプロファイルセットにアップロードして、を作成できます。 これが最も簡単な方法です。
+Adobe Experience Platformでは、様々なプロファイルフィールドを含むCSVファイルをプロファイルセットにアップロードして、プロファイルを作成できます。 これが最も簡単なメソッドです。
 
 1. スプレッドシートソフトウェアを使用して、単純なCSVファイルを作成します。
-1. 必要な各フィ追加ールドに対して1列。 主IDフィールド（上記の例では「personID」）と「testProfile」フィールドを「true」に設定して追加します。
+1. 必要な各フィールドごとに1つの列を追加しますプライマリIDフィールド（上記の例では「personID」）と「testProfile」フィールドを「true」に設定して追加します。
    ![](../assets/test-profiles-11.png)
-1. プロファイルご追加とに1行を入力し、各フィールドの値を入力します。
+1. プロフィールごとに1行追加し、各フィールドの値を入力します。
    ![](../assets/test-profiles-12.png)
 1. スプレッドシートをCSVファイルとして保存します。 カンマが区切り文字として使用されていることを確認します。
-1. Adobe Experience Platformで、左のメニューの&#x200B;**ワークフロー**をクリックします。
+1. Adobe Experience Platform **ワークフロー**を参照します。
    ![](../assets/test-profiles-14.png)
-1. 「**CSVをXDMスキーマにマップ**」を選択し、「****を起動」をクリックします。
+1. 「**CSVをXDMスキーマにマップ**」を選択し、「**起動**」をクリックします。
    ![](../assets/test-profiles-16.png)
-1. プロファイルの読み込み先のデータセットを選択します。 「**Next**」をクリックします。
+1. プロファイルをインポートしたいデータセットを選択します。「**次へ**」をクリックします。
    ![](../assets/test-profiles-17.png)
 1. 「**ファイルを選択**」をクリックし、csvファイルを選択します。 ファイルをアップロードしたら、「**次へ**」をクリックします。
    ![](../assets/test-profiles-18.png)
 1. ソースcsvフィールドをスキーマフィールドにマップし、「**完了**」をクリックします。
    ![](../assets/test-profiles-19.png)
-1. データのインポートが開始されます。 ステータスが&#x200B;**処理**&#x200B;から&#x200B;**成功**&#x200B;に変わります。 右上の&#x200B;**プレビューデータセット**をクリックします。
+1. データのインポートが開始されます。 ステータスが&#x200B;**処理中**&#x200B;から&#x200B;**成功**&#x200B;に変わります。 右上の&#x200B;**プレビューデータセット**をクリックします。
    ![](../assets/test-profiles-20.png)
 1. テストプロファイルが正しく追加されていることを確認します。
    ![](../assets/test-profiles-21.png)
 
-テストプロファイルが追加され、ジャーニーをテストする際に使用できるようになりました。 [こちらの節](../building-journeys/testing-the-journey.md)を参照してください。
+テストプロファイルが追加され、ジャーニーをテストする際に使用できるようになりました。 [このセクション](../building-journeys/testing-the-journey.md)を参照してください。
 >[!NOTE]
 >
-> CSVのインポートについて詳しくは、[データ収集ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)を参照してください。
+> CSVのインポートについて詳しくは、[データ取得ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials)を参照してください。
 
 ## API呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
-また、API呼び出しを使用してテストプロファイルを作成することもできます。 詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
+また、API呼び出しを使用してテストプロファイルを作成することもできます。 詳しくは、 [こちらのページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
 
 「プロファイルテストの詳細」ミックスインが含まれるプロファイルスキーマを使用する必要があります。 testProfileフラグは、このmixinの一部です。
 
