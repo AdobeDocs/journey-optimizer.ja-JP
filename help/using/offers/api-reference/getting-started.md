@@ -1,17 +1,16 @@
 ---
 title: はじめに
-description: オファーライブラリAPIを使用して開始を行い、Decision Management Engineを使用して主要な操作を実行する方法を説明します。
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+description: 決定管理エンジンで主要な操作を実行するために必要な、オファーライブラリ API の使用方法を説明します。
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 82%
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# Decision Management API開発ガイド
+# 決定管理 API デベロッパーガイド
 
-このデベロッパーガイドでは、[!DNL Offer Library] API の使用を開始する際に役立つ手順を説明します。次に、Decision Management Engineを使用して主要な操作を実行するためのサンプルAPI呼び出しを提供します。
+このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
 
 ![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
@@ -19,18 +18,18 @@ ht-degree: 82%
 
 このガイドは、Adobe Experience Platform の次のコンポーネントを実際に利用および理解しているユーザーを対象としています。
 
-* [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)：顧客体験データを編成する際に [!DNL Experience Platform] に使用される標準化されたフレームワーク。
-   * [スキーマ構成の基本](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/schema/composition.html)：XDM スキーマの基本的な構成要素について説明します。
-* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md):Experience Decisioningの一般的な概念とコンポーネント、特にOffer decisioningについて説明します。顧客のエクスペリエンスで提示できる最適なオプションを選択するための戦略を示します。
-* [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/pql/overview.html)：PQL は XDM インスタンス上で式を書くための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)：顧客体験データを編成する際に [!DNL Experience Platform] に使用される標準化されたフレームワーク。
+   * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)：XDM スキーマの基本的な構成要素について説明します。
+* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md)：一般なエクスペリエンス判定と、特にオファーの判定において使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示できる最適なオプションを選択するための戦略を示します。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)：PQL は XDM インスタンス上で式を書くための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
 ## API 呼び出し例の読み取り
 
-ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切に書式設定されたリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。サンプル API 呼び出しのドキュメントで使用されている規則については、[!DNL Experience Platform] トラブルシューテングガイドの[サンプル API 呼び出しの読み方](https://docs.adobe.com/content/help/ja-JP/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)に関する節を参照してください。
+ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切に書式設定されたリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、 トラブルシューテングガイドの[API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)に関する節を参照してください[!DNL Experience Platform]。
 
 ## 必須ヘッダーの値の収集
 
-[!DNL Platform] API を呼び出すには、まず[認証チュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-platform/tutorials/authentication.html)を完了する必要があります。次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
+[!DNL Platform] API を呼び出すには、まず[認証チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html)を完了する必要があります。次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -46,7 +45,7 @@ ht-degree: 82%
 
 管理者は、類似したプリンシパル、リソースおよびアクセス権限をプロファイルにグループ化できます。これにより、管理上の負担が軽減され、[Adobe Admin Console](https://adminconsole.adobe.com/) でサポートされます。プロファイルを作成し、ユーザーを割り当てるには、組織内の Adobe Experience Platform の製品管理者である必要があります。1 回限りの手順で特定の権限に一致する製品プロファイルを作成し、その後、それらのユーザーにプロファイルを追加するだけで十分です。プロファイルは、権限が付与されたグループとして機能し、そのグループ内のすべての実際のユーザーまたは技術ユーザーは、権限を継承します。
 
-管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/) を通じて、ユーザーに権限を付与または取り消すことができます。詳しくは、[アクセス制御の概要](https://docs.adobe.com/content/help/ja-JP/experience-platform/access-control/home.html)を参照してください。
+管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/) を通じて、ユーザーに権限を付与または取り消すことができます。詳しくは、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
 
 ### ユーザーと統合機能からアクセス可能なコンテナのリスト
 
@@ -75,7 +74,7 @@ curl -X GET \
 
 **応答** 
 
-「Successful response」は、意思決定管理コンテナに関する情報を返します。 これには `instanceId` 属性が含まれ、値がコンテナ ID になります。
+正常な応答では、Decision Management コンテナに関する情報が返されます。これには `instanceId` 属性が含まれ、値がコンテナ ID になります。
 
 ```json
 {
@@ -126,10 +125,10 @@ curl -X GET \
 
 ## チュートリアルビデオ {#video}
 
-次のビデオでは、Decision Managementのコンポーネントについて理解を深めることを目的としています。
+次のビデオは、「決定マネジメント」の構成要素の理解をサポートするためのものです。
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platformで構築されたOffer decisioningアプリケーションサービスに適用されます。 しかし、Journey Optimizerの状況でオファーを使用する際の一般的なガイダンスを提供しています。
+>このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。 しかし、Journey Optimizer の状況でオファーを使用する際の一般的なガイダンスを提供しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
