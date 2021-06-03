@@ -1,11 +1,10 @@
 ---
 title: 決定ルールの作成
 description: Adobe Experience Platform での決定ルールを作成する方法を説明します。
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 85%
+source-wordcount: '271'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +16,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 ![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
-作成した決定ルールのリストは、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
+作成した決定ルールのリストには、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
 
 ![](../../assets/decision_rules_list.png)
 
@@ -29,7 +28,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールに名前を付け、説明を入力し、必要に応じてルールを設定します。
 
-   これをおこなうには、Adobe Experience Platform の&#x200B;**セグメントビルダー**&#x200B;を使用して、ルールの条件を作成できます。使用方法について詳しくは、[専用のドキュメント](https://docs.adobe.com/content/help/jp/experience-platform/segmentation/ui/segment-builder.html)を参照してください。
+   これをおこなうには、Adobe Experience Platform の&#x200B;**セグメントビルダー**&#x200B;を使用して、ルールの条件を作成できます。使用方法について詳しくは、[専用のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)を参照してください。
 
    この例では、「ゴールド」ロイヤルティレベルの顧客をターゲットします。
 
@@ -49,6 +48,6 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platformで構築されたOffer decisioningアプリケーションサービスに適用されます。 しかし、Journey Optimizerの状況でオファーを使用する際の一般的なガイダンスを提供しています。
+>このビデオは、Adobe Experience Platformで構築された Offer decisioning アプリケーションサービスに適用されます。 しかし、Journey Optimizer の状況でオファーを使用する際の一般的なガイダンスを提供しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
