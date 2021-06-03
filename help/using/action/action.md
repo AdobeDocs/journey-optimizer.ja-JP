@@ -2,11 +2,10 @@
 solution: Journey Orchestration
 title: アクションについて
 description: アクションの設定方法を説明します
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 72%
+source-wordcount: '243'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 72%
 
 アクションとは、プッシュ通知、電子メール、SMS、またはビジネスで使用するその他のデジタルエンゲージメントの手段など、パーソナライズされたリアルタイムのエクスペリエンスを顧客に提供するための接続です。
 
-[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。[こちらの節](../get-started-content.md)を参照してください。
+[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。[このセクション](../get-started-content.md)を参照してください。
 
 サードパーティシステムを使用して Epsilon、Facebook、Adobe.io、Firebase などのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
@@ -29,12 +28,12 @@ ht-degree: 72%
 
 >[!CAUTION]
 >
->カスタムアクションの設定は、**テクニカルユーザー**&#x200B;が行う必要があります。
+>カスタムアクションの設定は、常に **技術ユーザー**&#x200B;が実行します。
 
-アクションは、ジャーニーーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで使用できます。 [このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
+アクションは、ジャーニーの左側のパレットの **[!UICONTROL Action]** カテゴリで使用できます。[このページ](../building-journeys/about-journey-activities.md#action-activities)をご覧ください・
 
-**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。ショートカットについて詳しくは、[このセクション](../user-interface.md#cjm-accessibility)を参照してください。
+**アクション**&#x200B;のリストで「c」を押すと、新しいジャーニー、アクション、データソース、イベントを作成できます。ショートカットについて詳しくは、[このセクション](../user-interface.md#cjm-accessibility)をご覧ください。
 
-アクションリストを表示したり、新しいアクションを設定したりするには、左のメニューで&#x200B;**[!UICONTROL 管理者]** / **[!UICONTROL アクション]**&#x200B;をクリックします。 アクションのリストが表示されます。インターフェイスの詳細は、[このページ](../user-interface.md)を参照してください。
+アクションリストを表示したり、新しいアクションを設定したりするには、左側のナビゲーションで&#x200B;**[!UICONTROL 管理]** / **[!UICONTROL 設定]**&#x200B;を参照します。 アクションのリストが表示されます。インターフェイスの詳細については、 [このページ](../user-interface.md) をご覧ください。
 
 ![](../assets/custom1.png)
