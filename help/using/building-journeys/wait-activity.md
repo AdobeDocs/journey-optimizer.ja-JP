@@ -1,11 +1,10 @@
 ---
 title: 待機アクティビティ
-description: 待機アクティビティについて
-translation-type: tm+mt
-source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
+description: 待機アクティビティについて説明します
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/badge.png)
 
-パス内の次のアクティビティを実行する前に待つ場合は、**[!UICONTROL Wait]**&#x200B;アクティビティを使用できます。 次のアクティビティを実行するタイミングを定義できます。 次の 3 つのオプションを選択できます。
+パス内で次のアクティビティを実行する前に待機したい場合は、**[!UICONTROL 待機]**&#x200B;アクティビティを使用できます。 後に続くアクティビティを実行するタイミングを定義できます。選択肢が 3 つあります。
 
 * [デュレーション](#duration)
 * [固定日付](#fixed_date)
@@ -23,47 +22,43 @@ ht-degree: 5%
 
 ## 待機アクティビティについて{#about_wait}
 
-複数の待機を並行して使用する場合、待機の優先順位は次のように設定されます。 設定が同じで、重なり合う条件が異なる場合、上に配置した待機が優先付けされます。 例えば、最初の待ち時間が「女性」、2回目の待ち時間が「VIP」となる。 最初の待機アクティビティが優先付けされます
+並行して複数の待機を行う場合、待機の優先順位は次のように設定されます。 設定時間が同じで、重なる条件が異なる場合、上位に配置した待機が優先されます。 例えば、1 つ目の待機条件が「女性である」、並行する 2 つ目の待機条件が「VIP である」などです。 1 つ目の待機アクティビティが優先されます。
 
-また、2つの異なる待機が並行している場合は、その垂直位置に関係なく、最初に発生した待機が優先付けされます。 例えば、1時間の待機を超え、30分の待機を超えた場合、30分の待機が処理されます。
+また、2 つの異なる待機が並行している場合、上位か下位かに関係なく、最初に発生した待機が優先されます。例えば、1 時間の待機が上位にあり、30 分の待機が下位にある場合、30 分後には 30 分の待機が処理されます。
 
-特定の母集団の待ち時間を制限する場合は、条件を定義できます。
+特定の母集団に対して待機を制限したい場合、条件を定義できます。
 
 >[!NOTE]
 >
->最大の待機時間は30日です。
+>最大の待機時間は 30 日です。
 >
->テストモードでは、**[!UICONTROL Wait time in test]**&#x200B;パラメーターを使用して、各待機アクティビティが持続する時間を定義できます。 デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。 [このページ](../building-journeys/testing-the-journey.md)を参照
+>テストモードでは、**[!UICONTROL テスト時の待機時間]**&#x200B;パラメーターを使用すると、各待機アクティビティが持続する時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
-## 待機時間{#duration}
+## デュレーション待機{#duration}
 
-次のアクティビティを実行するまでの待機時間を選択します。
+次のアクティビティを実行するまでの待機のデュレーションを選択します。
 
 ![](../assets/journey55.png)
 
-## 固定日の待機{#fixed_date}
+## 固定日待機{#fixed_date}
 
 次のアクティビティの実行日を選択します。
 
 ![](../assets/journey56.png)
 
-## カスタムの待機{#custom}
+## カスタム待機{#custom}
 
-このオプションを使用すると、カスタムの日付を定義できます。例えば、2020年7月12日午後5時に、イベントまたはデータソースからのフィールドに基づくアドバンス式を使用して、カスタムの日付を定義できます。 カスタムの期間（例：7日）を定義することはできません。 式エディターの式は、dateTimeOnly形式を提供する必要があります。 [このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)を参照してください。dateTimeOnly形式について詳しくは、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)を参照してください。
+このオプションを使用すると、カスタムの日付を定義できます。例えば、イベントやデータソースのフィールドを高度な式で計算して、2020年 7月 12日午後 5時などと定義できます。 カスタムの期間（たとえば 7日など）を定義することはできません。式は、式エディターで dateTimeOnly 形式にする必要があります。[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)を参照してください。dateTimeOnly 形式の詳細については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
->dateTimeOnly式を使用するか、関数を使用してdateTimeOnlyに変換できます。 次に例を示します。toDateTimeOnly(@{イベント.offerOpened.アクティビティ.endTime})(イベント内のフィールドの形式は2016-08-12T09:46:06Z)。
+>dateTimeOnly 式を使用するか、関数を使用して dateTimeOnly に変換することもできます。例：toDateTimeOnly(@{Event.offerOpened.activity.endTime}) （2016-08-12T09:46:06Z 形式の場合のフィールド）
 >
->**タイムゾーン**&#x200B;は、ジャーニーのプロパティに必要です。 その結果、現在、2016-08-12T09:46:06.982-05のような完全なISO-8601タイムスタンプの混合時間とタイムゾーンのオフセットを、インターフェイスから直接指定することはできません。 [このページ](../building-journeys/timezone-management.md)を参照してください。
+>**タイムゾーン**&#x200B;は、ジャーニーのプロパティに必要です。 そのため、2016-08-12T09:46:06.982-05 のような完全な ISO-8601 タイムスタンプの混合時間とタイムゾーンのオフセットを、現在、インターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
-
->[!CAUTION]
->
->The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
