@@ -1,15 +1,14 @@
 ---
-title: Journey Optimizerの個人コンテキスト
-description: 個人設定を追加できるコンテキストについて説明します
-translation-type: tm+mt
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+title: Journey Optimizerのパーソナライゼーションコンテキスト
+description: パーソナライゼーション設定を追加できるコンテキストについて説明します
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
-# パーソナライゼーション領域{#personalization-areas}
+# パーソナライゼーションコンテキストとツール{#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,25 +20,23 @@ Journey Optimizerが配信するメッセージの内容や表示は、様々な
 
 ## 電子メールのパーソナライズ
 
-電子メールチャネルメッセージの作成時に、**電子メールの件名**&#x200B;フィールドがパーソナライズ可能になります。
+Eメールを作成する際に、メッセージの「**Eメールの件名**」フィールドにパーソナライゼーションを追加できます。
 
 ![](assets/perso_subject.png)
 
 電子メールデザイナーでは、コンテンツをパーソナライズできます。
 
-* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**パーソナライズ**&#x200B;アイコンをクリックして、「**パーソナライズ**&#x200B;を挿入」フィールドを選択します。 電子メールデザイナーインターフェイスについて詳しくは、[](../design-emails.md)を参照してください。
+* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**パーソナライズ**&#x200B;アイコンをクリックして、「**パーソナライズを挿入**」フィールドを選択します。 電子メールデザイナーインターフェイスについて詳しくは、[このセクション](../design-emails.md)を参照してください。
 
    ![](assets/perso_insert.png)
 
-* **リンク**&#x200B;の場合：テキストブロック内のテキストまたは画像を選択し、コンテキストツールバーから&#x200B;**リンク**&#x200B;を挿入アイコンをクリックします。 このウィンドウで、パーソナライゼーションブロックを追加するには、**パーソナライゼーション追加**&#x200B;アイコンをクリックします。
+* **リンク**&#x200B;の場合：テキストブロック内のテキストまたは画像を選択し、コンテキストツールバーから&#x200B;**リンクを挿入**&#x200B;アイコンをクリックします。 このウィンドウで、パーソナライゼーションブロックを追加するには、**パーソナライゼーション追加**&#x200B;アイコンをクリックします。
 
    ![](assets/perso_link.png)
 
-## プッシュ通知のカスタマイズ
+## プッシュ通知のパーソナライズ
 
-**プッシュチャネル**&#x200B;では、パーソナライゼーションを使用してプッシュ通知を微調整できます。
-
-次のフィールドでパーソナライゼーションを追加できます。
+次のフィールドで、**プッシュ通知**&#x200B;をパーソナライズすることもできます。
 
 * **タイトル**
 * **本文**
@@ -49,10 +46,9 @@ Journey Optimizerが配信するメッセージの内容や表示は、様々な
 
 ![](assets/perso_push.png)
 
-プッシュ通知の設定に関する詳細なドキュメントについては、[このセクション](../configure-push.md)を参照してください。
+プッシュ通知の設定について詳しくは、[この節](../create-push.md)を参照してください。
 
-
-## 式エディターの使用
+## 式エディターを使用する
 
 式エディターは、Journey Optimizerのパーソナライゼーションの中心です。
 
@@ -64,9 +60,13 @@ Journey Optimizerが配信するメッセージの内容や表示は、様々な
 
 画面の左側には、パーソナライゼーションのソースを選択できるドメインセレクターが表示されます。
 
-* **プロファイル** :「 [Adobe Experience Platformデータモデル(XDM)」ドキュメントで説明されているプロファイルスキーマに関連付けられているすべての参照リスト](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)。
-* **セグメントのメンバーシップ** :Adobe Experience PlatformSegmentationサービスで作成されたすべてのセグメントをリストします。セグメント化の詳細については、[ここ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)を参照してください。
-* **オファー** :特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。 オファーの管理方法に関する詳細なドキュメントについては、[このセクション](../../using/offers/get-started/starting-offer-decisioning.md)を参照してください。
+* **プロファイル** : [Adobe Experience Platformデータモデル(XDM)」ドキュメントで説明されているプロファイルスキーマに関連付けられているすべての参照リスト](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)。
+* **セグメントのメンバーシップ** :Adobe Experience Platform Segmentationサービスで作成されたすべてのセグメントをリストします。利用可能なセグメント化の詳細[こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)
+* **オファー** ：特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。 オファーの管理方法に関する完全なドキュメントについては、[この節](../deliver-personalized-offers.md)を参照してください。
+* **コンテキスト** :ジャーニー **** でMessageアクティビティを使用する場合、このメニューでコンテキストジャーニーフィールドを使用できます。[この節](personalization-use-case.md)を参照してください。
+* **ヘルパー関数** :に、計算、データのフォーマットやコンバージョン、条件、パーソナライゼーションのコンテキストでの操作など、データに対して実行できるすべてのヘルパー関数を示します。[詳細情報](functions/functions.md)
+
+
 
 選択すると、エディタに参照が追加されます。
 
