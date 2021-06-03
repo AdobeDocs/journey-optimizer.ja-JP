@@ -1,50 +1,49 @@
 ---
 title: 関数ライブラリ
 description: 関数ライブラリ
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 89%
+source-wordcount: '55'
+ht-degree: 60%
 
 ---
 
-# オブジェクト関数{#objects}
+# オブジェクト関数 {#objects}
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Isnull
+## Isnull{#isNull}
 
 `isNull` 関数は、オブジェクト参照が存在しないかどうかを判定します。
 
 **形式**
 
 ```sql
-isNull({OBJECT})
+{%= isNull(object) %}
 ```
 
 **例**
 
-次の PQL クエリは、ユーザーの自宅住所が存在しないかどうかを確認します。
+次の操作は、その人の自宅住所が存在しないかどうかを確認します。
 
 ```sql
-isNull(person.homeAddress)
+{%= isNull(person.homeAddress) %}
 ```
 
-## isNotNull
+## isNotNull{#isNotNull}
 
 `isNotNull` 関数は、オブジェクト参照が存在するかどうかを判定します。
 
 **形式**
 
 ```sql
-isNotNull({OBJECT})
+{%= isNotNull(object) %}
 ```
 
 **例**
 
-次の PQL クエリは、ユーザーの自宅住所が存在するかどうかを確認します。
+次の操作は、その人の自宅住所が存在するかどうかを確認します。
 
 ```sql
-isNotNull(person.homeAddress)
+{%= isNotNull(person.homeAddress) %}
 ```
