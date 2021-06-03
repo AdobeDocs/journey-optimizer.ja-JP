@@ -1,0 +1,90 @@
+---
+title: 抑制リスト
+description: 抑制リストの内容、目的、および抑制リストに含まれる内容について説明します。
+source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 63%
+
+---
+
+# 抑制リスト{#suppression-list}
+
+![](assets/do-not-localize/badge.png)
+
+抑制リストは、配信から除外するEメールアドレスで構成されます。これらの連絡先に送信すると、送信のレピュテーションと配信率が低下する可能性があるからです。
+
+ [!DNL Journey Optimizer]抑制リストは、独自の環境レベルで管理されます。 
+
+1つのクライアント環境で、すべてのメールにわたって抑制される電子メールアドレスとドメイン（サンドボックスIDに関連付けられたIMS組織IDに固有）を収集します。
+
+<!--It gathers spam complaints, hard bounces, and soft bounces that occur consistently.-->
+
+## なぜサプレッションリストなの？{#why-suppression-list}
+
+受信ボックスの所有者が受信する電子メールメッセージを制御し、必要なものだけを受信できるようにするために、インターネットサービスプロバイダー（ISP）と商用スパムフィルターは、使用する IP アドレスと送信ドメインに基づいて E メール送信者の全体的な評判を追跡する独自のアルゴリズムを持っています。
+
+フィードバック（スパムの苦情やバウンスなど）を受け取らない場合 考慮して、評判を下げる評価をします。 抑制リストは、ISP のフィードバックを尊重するのに役立ちます。
+
+E メールアドレスが抑制されている受信者は、メッセージ配信から自動的に除外されます。 エラー率は配信速度に大きな影響を与えるため、これにより配信が迅速になります。
+
+## 抑制リストには何が入っていますか？{#what-s-on-suppression-list}
+
+E メールアドレスは、次のように抑制リストに追加されます。
+
+* すべての&#x200B;**ハードバウンス**&#x200B;および&#x200B;**スパムの苦情**&#x200B;は、1 回発生した後、対応する E メールアドレスを抑制リストに自動的に送信します。
+
+* **ソフトバ** ウンスと一 **** 時的なignorederrorは、抑制リストに電子メールアドレスを即座に送信しませんが、エラーカウンターを増分します。その後、複数の再試行が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。 [再試行](configuration/retries.md)の詳細を説明します。
+
+<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+
+>[!NOTE]
+>
+>購読解除されたユーザーのアドレスは、[!DNL Journey Optimizer]からのEメールを受信していないので、抑制リストに送信できません。 選択は、Experience Platformレベルで処理されます。 [オプトアウト](../using/consent.md)の詳細をご覧ください。
+<!--Email addresses of recipients who **unsubscribe** from your sendings are NOT sent to the suppression list. Confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
+
+各アドレスについて、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど） が非表示リストに表示されます。 [この節](configuration/manage-suppression-list.md)の抑制リストへのアクセスと管理について詳しくは、こちらを参照してください。
+
+<!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
+
+### 配信エラー {#delivery-failures}
+
+配信が失敗したときのエラーには次の 3 つのタイプがあります。
+
+* **ハードバウンス**. ハードバウンスは、無効な E メールアドレス（存在しない E メールアドレスなど）を示します。 これには、「不明なユーザー」など、アドレスが無効であることを明示的に示す受信側のメールサーバーからのバウンスメッセージが含まれます。
+* **ソフトバウンス**. これは、有効な E メールアドレスに対して発生した一時的な E メールバウンスです。
+* **無視**. これは、有効な E メールアドレスに対して発生した E メールのバウンスですが、接続試行の失敗、一時的なスパム関連の問題（E メールの評判）、一時的な技術的問題など、一時的なものであることがわかっています。<!--does it exist in CJM?-->
+
+**ハードバウンス**&#x200B;は、電子メールアドレスを抑制リストに自動的に追加します。
+
+何度も繰り返し再試行した後に、**ソフトバウンス**&#x200B;または&#x200B;**無視**&#x200B;のエラーが抑制リストに送信されます。 [再試行の詳細を説明します](configuration/retries.md)
+
+これらのアドレスに送信し続けると、配信率に影響が及ぶ可能性があります。これは、E メールアドレスリストのメンテナンスのベストプラクティスに従っていない可能性があり、したがって信頼できる送信者ではない可能性があることを ISP に伝えるためです。
+
+### スパムの苦情 {#spam-complaints}
+
+抑制リストは、メッセージをスパムとしてマークする E メールアドレスを収集します。 例えば、メールを二度と受け取りたくないという要望がカスタマーサービスに寄せられた場合、そのユーザーの E メールアドレスはインスタンス全体で抑制され、そのアドレスに配信できなくなります。
+
+受信者がスパムの苦情を提出した後に受信者に送信すると、迷惑メールを送信したり受信者の声を聞かなかったりする可能性があることを ISP に通知するため、送信の評価に大きな影響を与える可能性があります。
+
+これにより、IP アドレスや送信ドメインがブロックされる可能性がありますが、これらのアドレスが抑制リストに入っていれば回避できます。
+
+<!--### Unsubscriptions {#unsubscriptions}
+
+Every email sent to recipients must include an unsubscribe link. Upon clicking this link, if a recipient confirms [opting out](consent.md), the corresponding email address is immediately sent to the suppression list. This user must not receive communication from your brand until subscribed again.
+NOT TRUE > "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
+
+<!--MOVED to Configuration/Retries section
+
+The threshold is set at three errors:
+* For the same delivery, at the third attempt, the address is suppressed.
+* If there are different deliveries and two errors occur at least 24 hours apart, the error counter is incremented upon each error and the address is also suppressed at the third attempt.
+When a delivery is successful after a retry, the error counter of the address is reinitialized.
+
+### Retries {#retries}
+
+If a message fails due to a temporary bounce of the **Ignored** type, retries will be performed for **3.5 days** from the time the message was added to the email queue.
+
+The minimum delay between retries and the maximum number of retries to be performed are ///managed by the Enhanced MTA/// based on how well an IP is performing, both historically and currently at a given domain.
+
+After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
