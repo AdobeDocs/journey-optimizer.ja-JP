@@ -1,11 +1,10 @@
 ---
-keywords: Journey Optimizer；ホーム；人気の高いトピック
-title: Journey Optimizer製品ドキュメント
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+keywords: Journey Optimizer：ホーム：人気の高いトピック
+title: Journey Optimizer 製品ドキュメント
+source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 5%
+source-wordcount: '223'
+ht-degree: 79%
 
 ---
 
@@ -16,31 +15,32 @@ ht-degree: 5%
 ![](using/assets/do-not-localize/badge.png)
 **[!DNL Journey Optimizer]** は、現在 **ベータ版で、予告なく頻繁に変更される可能性があり** ます。ユーザーとして、製品UIの「ベータフィードバック」ボタンからエクスペリエンスを共有します。 既知の問題は、この[ページ](using/known-issues.md)に記載されています。
 
-## 最新情報?
+## 最新情報？
 
+* [アクセ](using/administration/permissions-overview.md) </br> ス制御ユーザーに割り当てる権限を定義および管理する方法を説明 [!DNL Journey Optimizer] します
 
-* [意思決定](using/offers/get-started/starting-offer-decisioning.md) </br> 管理オファーを作成し、最適なオファーと経験を顧客に提供
+* [ヘルパー関](using/personalization/functions/functions.md) </br> 数式エディターのヘルパー関数を活用して、メッセージの内容をパーソナライズします
 
-* [プレビューとテスト](using/preview.md) </br> メッセージテストプロファイルを使用してプレビューメッセージを送信し、配達確認を送信し、電子メールのレンダリングを制御します
+* [決定管理](using/offers/get-started/starting-offer-decisioning.md) </br> オファーを作成し、最適なオファーとエクスペリエンスを顧客に提供します
 
-* [ライブ](using/reports/live-report.md) </br> レポートジャーニーとメッセージに関するリアルタイムレポートを検出します。
+* [プレビューとテストメッセージ](using/preview.md) </br> テストプロファイルを使用してメッセージをプレビューし、配達確認を送信し、電子メールのレンダリングをコントロールします
 
-* [グローバル](using/reports/global-report.md) </br> レポートジャーニーとメッセージの有効性を追跡し測定する方法について説明します。
+* [ライブレ](using/reports/live-report.md) ポート [とグ](using/reports/global-report.md)</br> ローバルレポートジャーニーとメッセージの効果を追跡、測定するレポート機能を発見します
 
-* [テスト](using/building-journeys/creating-test-profiles.md) </br> プロファイルの作成テストプロファイルを作成し、それらを使用してメッセージやジャーニーをテストします。
+* [テストプロファイルの作成](using/building-journeys/creating-test-profiles.md) </br> テストプロファイルを作成し、それらを使用してメッセージやジャーニーをテストします。
 
 ## 基本を学ぶ
 
-* [Journey Optimizerとは？](using/get-started.md) </br> Discoverの主な機能と使い始める方法
+* [Journey Optimizer とは](using/get-started.md) </br> Discoverの主な機能と使い始める方法
 
-* [電子メール](using/design-emails.md) </br>コンテンツの設計新しい電子メールの設計または既存のHTMLコンテンツの読み込み
+* [電子メールコンテンツの設計](using/design-emails.md) </br>新しい電子メールの設計または既存のHTMLコンテンツのインポート
 
 * [メッセージの送信](using/building-journeys/journey.md) </br> 顧客ジャーニーにプッシュメッセージと電子メールメッセージを追加する方法について説明します。
 
-* [初めての](using/building-journeys/journeys-uc.md) </br>遍歴の作成ジャーニーを構築し実行する方法を学ぶ
+* [初めてのジャーニーの作成](using/building-journeys/journeys-uc.md) </br>ジャーニーの作成と実行する方法を説明します
 
 ## その他のリソース
 
-* [Adobe Experience Platformガイド](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)
-* [Adobe Experience Platformアクセスの概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)
-* [Adobe Experience Platform開発者資源](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
+* [Adobe Experience Platform ガイド](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja)
+* [Adobe Experience Platform Launchの概要](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
+* [Adobe Experience Platformデベロッパーリソース](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
