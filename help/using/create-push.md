@@ -1,7 +1,7 @@
 ---
 title: プッシュ通知の設定
 description: Journey Optimizer でプッシュ通知を作成する方法を説明します
-source-git-commit: 9ea3f4eb7767f9ad4c608d9c28d9ee7ca4bb8e3b
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 73%
@@ -83,7 +83,7 @@ iOSバージョンでは、最大4つのボタンを追加できます。 Androi
 
 ## カスタムデータ
 
-**[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。 Adobe Experience Platform と Adobe ローンチでのプッシュ通知の設定方法の詳細については、[このセクション](push-configuration.md)を参照してください。
+**[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。 Adobe Experience Platform と Adobe ローンチでのプッシュ通知の設定方法の詳細については、[このセクション](push-gs.md)を参照してください。
 
 ## 詳細オプション
 
@@ -109,7 +109,7 @@ iOSバージョンでは、最大4つのボタンを追加できます。 Androi
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [プッシュチャネルの設定](push-configuration.md)
+* [プッシュチャネルの設定](push-gs.md)
 * [新しいメッセージを作成します。](create-message.md)
 * [ジャーニーへのメッセージの追加](building-journeys/journeys-message.md)
 
