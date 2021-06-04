@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 69%
+source-wordcount: '347'
+ht-degree: 70%
 
 ---
 
@@ -47,13 +47,21 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 1. **[!UICONTROL 製品プロファイル]**&#x200B;を選択します。
 
+   ![](../assets/sandbox_1.png)
+
 1. 「**[!UICONTROL 権限]**」タブを選択します。
 
-1. **[!UICONTROL サンドボックスアクセス]**&#x200B;機能を選択します。
+1. **[!UICONTROL サンドボックス]**&#x200B;機能を選択します。
+
+   ![](../assets/sandbox_2.png)
 
 1. 「**[!UICONTROL 利用可能な権限項目]**」で、プラス（+）アイコンをクリックして、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細を説明します](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。
 
+   ![](../assets/sandbox_3.png)
+
 1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で、横のXアイコンをクリックして、**[!UICONTROL 製品プロファイル]**&#x200B;へのサンドボックスアクセスを削除します。
+
+   ![](../assets/sandbox_4.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
