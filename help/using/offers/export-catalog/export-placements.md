@@ -1,10 +1,10 @@
 ---
 title: 配置データセット
 description: このセクションでは、エクスポートされた配置データセットで使用されるすべてのフィールドをリストします。
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 92%
+source-wordcount: '369'
+ht-degree: 86%
 
 ---
 
@@ -59,13 +59,12 @@ ht-degree: 92%
 **フィールド：** contentTypes 
 **型：** 配列
 
-* **MIMEメディアタイプ**
+**_experience /判定/ contentTypes / MIMEメディアタイプ**
 
-   **タイトル：** MIME メディアタイプ
-   **説明：** その配置に必要なコンポーネントのメディアタイプに対する制約。異なる画像形式など、1 つのコンポーネントに対して複数のメディアタイプが存在する場合があります。
-   **型：**&#x200B;文字列
+**タイトル：** MIME Media Type 
+**Description:** その配置に必要なコンポーネントのメディアタイプの制約。異なる画像形式など、1 つのコンポーネントに対して複数のメディアタイプが存在する場合があります。**型：**&#x200B;文字列
 
-#### _エクスペリエンス/判定/配置の説明
+#### _experience /判定/配置の説明
 
 **フィールド：** 説明
 **タイトル：** 配置の説明
