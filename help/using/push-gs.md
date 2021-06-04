@@ -1,9 +1,9 @@
 ---
 title: プッシュ設定の基本を学ぶ
 description: プッシュ通知のデータフローとコンポーネントについて
-source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '861'
 ht-degree: 2%
 
 ---
@@ -58,8 +58,7 @@ AdobeJourney Optimizerでプッシュ通知を送信するには、次の手順�
    * クライアント側モバイルプロパティの作成と拡張機能の追加。 SDKは、これらの拡張機能と密接に統合され、シームレスなデータ収集エクスペリエンスを提供します。
    * モバイルアプリバンドル識別子とアプリの資格情報の登録
 
-* **Adobe Experience Platformリアルタイム顧客プロファ**
-イルは、Web、モバイル、CRM、サードパーティなど複数のチャネルのデータを組み合わせることで、各顧客の全体像を把握します。プロファイルを使用すると、顧客データを統合ビューに統合し、顧客とのやり取りごとに実用的なタイムスタンプ付きの説明を提供できます。 特定のアプリユーザーのプッシュトークンは、レコードデータとしてユーザーのプロファイルに対して保存されますが、プッシュ通知とのインタラクションは、時系列イベントデータとして追跡されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
+* **Adobe Experience Platformリアルタイム顧客プロファ**  イルは、Web、モバイル、CRM、サードパーティなど複数のチャネルのデータを組み合わせることで、各顧客の全体像を把握します。プロファイルを使用すると、顧客データを統合ビューに統合し、顧客とのやり取りごとに実用的なタイムスタンプ付きの説明を提供できます。 特定のアプリユーザーのプッシュトークンは、レコードデータとしてユーザーのプロファイルに対して保存されますが、プッシュ通知とのインタラクションは、時系列イベントデータとして追跡されます。 [Adobe Experience Platformリアルタイム顧客プロファイルの詳細](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
 
 * **[!DNL Adobe Journey Optimizer]** :上記のコンポーネントとのモバイルアプリ統合が確立され、Adobe Experience Platformの顧客プロファイルが作成されたら、AdobeJourney Optimizerでプッシュ通知の作成と調整をおこなって、ユーザーと関わり合うことができます。
 
