@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizerを使用して、接続され、状況
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 83%
       + [技術設定](using/administration/administration.md)
       + [メッセージプリセットの作成](using/configuration/message-presets.md)
       + プッシュ通知の設定{#push-config}
-         + [プッシュ通知の概要](using/push-gs.md)
+         + [プッシュ設定の基本を学ぶ](using/push-gs.md)
          + [プッシュチャネルの設定](using/push-configuration.md)
       + 電子メールの設定{#email-config}
          + サブドメインをデリゲート{#delegate-subdomains}
