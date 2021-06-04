@@ -1,7 +1,9 @@
 ---
 title: プッシュ通知の設定
 description: プッシュ通知を送信するために Journey Optimizer で環境を設定する方法を説明します
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+hide: true
+hidefromtoc: true
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 77%
