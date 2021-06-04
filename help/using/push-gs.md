@@ -1,14 +1,14 @@
 ---
 title: プッシュ設定の基本を学ぶ
 description: プッシュ通知のデータフローとコンポーネントについて
-source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
 
-# プッシュ設定の基本を学ぶ{#get-started-push}
+# プッシュ通知の設定{#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -68,5 +68,3 @@ AdobeJourney Optimizerでプッシュ通知を送信するには、次の手順�
 
 ![](assets/user-flow.png)
 
-
-[!DNL Journey Optimizer]でプッシュチャネルを設定し、プッシュ通知を有効にする詳細な手順については、[このページ](push-configuration.md)を参照してください。
