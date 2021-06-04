@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 17%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 17%
 
 ドメイン名の委任によって、ドメイン名（技術的には DNS ゾーン）の所有者はその一部（技術的には、その下にある DNS ゾーンで、サブゾーンと呼ばれることもあります）を別のエンティティに委任できます。基本的に、顧客がゾーン「example.com」を処理する場合、サブゾーン「marketing.example.com」をAdobeにデリゲートできます。
 
-Adobeオプティマイザーで使用するサブドメインをデリゲートすることで、クライアントはAdobeを利用して、Eメールマーケティング送信ドメインの業界標準の配信品質要件を満たすのに必要なDNSインフラストラクチャを維持し、DNSの維持と制御を続けます
-内部電子メールドメイン。
+[!DNL Journey Optimizer]で使用するサブドメインをデリゲートすることで、クライアントは、社内EメールドメインのDNSの維持管理を続けながら、Eメールマーケティング送信ドメインの業界標準の配信品質要件を満たすために必要なDNSインフラストラクチャをAdobeに依存できます。
 
-Journey Optimizerを使用すると、サブドメインをAdobeに完全にデリゲートできます。 これにより、Adobeは、Eメールキャンペーンの配信、レンダリング、トラッキングに必要なDNSのあらゆる側面を制御し、維持することで、メッセージを管理対象サービスとして配信できます。
+[!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接Adobeに完全にデリゲートできます。これにより、Adobeは、Eメールキャンペーンの配信、レンダリング、トラッキングに必要なDNSのあらゆる側面を制御し、維持することで、メッセージを管理対象サービスとして配信できます。
 
 >[!NOTE]
 >
