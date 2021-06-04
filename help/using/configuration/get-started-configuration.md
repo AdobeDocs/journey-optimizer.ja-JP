@@ -8,7 +8,7 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 29%
@@ -24,7 +24,7 @@ ht-degree: 29%
 
 1. **メッセージとチャネルの設定**:プリセットの定義、Eメールおよびプッシュメッセージの適応とカスタマイズ
 
-   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。 [詳細情報](../push-configuration.md)
+   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。 [詳細情報](../push-gs.md)
 
    * メッセージプリセットを作成して、電子メールおよびプッシュ通知メッセージに必要なすべての技術的パラメーターを設定します。 [詳細情報](message-presets.md)
 
