@@ -1,7 +1,7 @@
 ---
 title: メッセージプリセットの作成
 description: メッセージプリセットの設定と監視の方法について説明します
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -18,6 +18,7 @@ ht-degree: 0%
 > メッセージプリセットの設定は、ジャーニー管理者に制限されています。 [詳細情報](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 メッセージプリセットを設定したら、**[!UICONTROL プリセット]**&#x200B;リストからメッセージを作成する際に、メッセージプリセットを選択できます。
 
 ## メッセージプリセット{#create-message-preset}の作成
@@ -27,6 +28,7 @@ ht-degree: 0%
 1. **[!UICONTROL チャネル]** / **[!UICONTROL メッセージプリセット]**&#x200B;メニューにアクセスし、「**[!UICONTROL メッセージプリセットを作成]**」をクリックします。
 
    ![](../assets/preset-create.png)
+
 
 1. プリセットの名前と説明（オプション）を入力し、設定するチャネルを選択します。
 
@@ -80,6 +82,7 @@ ht-degree: 0%
 
    これらのチェックには、配信品質チームが実行する配信品質Adobeが含まれます。
 
+
    * SPF検証
    * DKIM検証
    * MXレコードの検証
@@ -87,6 +90,7 @@ ht-degree: 0%
    * Heloホストチェック
    * IPプールの検証
    * A/PTRレコード、t/m/resサブドメインの検証
+
 
 1. チェックが正常に完了すると、メッセージプリセットに「**[!UICONTROL アクティブ]**」ステータスが設定されます。 メッセージの配信に使用する準備が整いました。
 
