@@ -3,8 +3,8 @@ title: ランキング式の作成
 description: Adobe Experience Platform でランキング式を作成する方法を説明します。
 source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 93%
 
 ---
 
