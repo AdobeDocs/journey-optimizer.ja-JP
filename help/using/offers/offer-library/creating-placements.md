@@ -1,11 +1,10 @@
 ---
 title: プレースメントの作成
 description: Adobe Experience Platform でプレースメントを作成する方法を説明します。
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 81%
 
 ![](../../assets/offers_placement_schema.png)
 
-配置のリストは、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。 フィルターは、特定のチャネルやコンテンツに従ってプレースメントを取得するのに役立ちます。
+プレースメントのリストには、**[!UICONTROL コンポーネント]**&#x200B;メニューでアクセスできます。フィルターは、特定のチャネルやコンテンツに従ってプレースメントを取得するのに役立ちます。
 
 ![](../../assets/placements_filter.png)
 
@@ -31,7 +30,7 @@ ht-degree: 81%
 
 1. プレースメントのプロパティを定義します。
 
-   * **[!UICONTROL 名前]**：プレースメントの名前。 わかりやすい名前を定義して、取得しやすくします。
+   * **[!UICONTROL 名前]**：プレースメントの名前。わかりやすい名前を定義して、取得しやすくします。
    * **[!UICONTROL チャネルタイプ]**：プレースメントの使用先となるチャネル。
    * **[!UICONTROL コンテンツタイプ]**：プレースメントに表示できるコンテンツのタイプ（テキスト、HTML、画像リンク）。
    * **[!UICONTROL 説明]**：プレースメントの説明（オプション）。
@@ -48,6 +47,6 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platformで構築されたOffer decisioningアプリケーションサービスに適用されます。 しかし、Journey Optimizerの状況でオファーを使用する際の一般的なガイダンスを提供しています。
+>このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。ただし、Journey Optimizer のコンテキストでオファーを使用する際の一般的なガイダンスを提供しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
