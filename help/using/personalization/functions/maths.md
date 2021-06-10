@@ -1,19 +1,18 @@
 ---
 title: 関数ライブラリ
 description: 関数ライブラリ
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# 数学関数{#math}
+# 数学関数 {#math}
 
 ![](../../assets/do-not-localize/badge.png)
 
-演算関数は、[!DNL Profile Query Language] (PQL)の値に対して基本的な演算を行うのに使用されます。
+数論的関数は、[!DNL Profile Query Language]（PQL）の値に対する基本的な計算を実行するために使用されます。
 
 ## 加算
 
