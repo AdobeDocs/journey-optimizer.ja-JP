@@ -1,22 +1,21 @@
 ---
 title: カスタムアクションの使用
-description: カスタムアクションの使用方法を学びます
-translation-type: tm+mt
+description: カスタムアクションの使用方法を説明します
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# カスタムアクション{#section_f2c_hbg_nhb}を使用
+# カスタムアクションの使用 {#section_f2c_hbg_nhb}
 
 ![](../assets/do-not-localize/badge.png)
 
-カスタムアクションを使用している場合は、読み取り専用で、アクション設定画面に&#x200B;**[!UICONTROL URL設定]**&#x200B;と&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターが定義されています（[このページ](../action/about-custom-action-configuration.md)を参照）。
+カスタムアクションを使用している場合は、**[!UICONTROL URL 設定]**&#x200B;および&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターが、アクション設定画面に読み取り専用で定義されています（[このページ](../action/about-custom-action-configuration.md)を参照）。
 
 >[!NOTE]
 >
->カスタムアクションパラメーターでコレクションを渡すことはできません。 カスタムアクションでコレクションが必要な場合は、動作しません。 また、パラメーターの形式が正しいことにも注意してください(例：文字列、10進数など)。 これらの想定される形式には注意が必要です。
+>カスタムアクションのパラメーターでコレクションを渡すことはできません。コレクションが必要な場合、カスタムアクションは動作しません。また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。
 
-**[!UICONTROL アクションパラメーター]**&#x200B;セクションには、_&quot;変数&quot;_&#x200B;として定義されたメッセージパラメーターが表示されます。 これらのパラメーターに対して、この情報を取得する場所を定義できます(例：イベント、データソースなど)、値を手動で渡すか、高度な用途にはアドバンス式エディターを使用します。 高度な使用例としては、データ操作やその他の関数の使用が考えられます。 [このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)を参照
+「**[!UICONTROL アクションパラメーター]**」セクションには、_「変数」_&#x200B;として定義されたメッセージパラメーターが表示されます。これらのパラメーターについては、この情報の取得先（例：イベント、データソース）を定義したり、値を手動で渡したり、高度なユースケースに高度な式エディターを使用したりできます。高度なユースケースとしては、データ操作などの関数の使用が考えられます。[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)を参照してください。
