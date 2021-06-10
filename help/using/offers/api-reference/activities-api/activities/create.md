@@ -1,17 +1,16 @@
 ---
-title: 意思決定の作成
-description: 決定には、オファーを選択に通知するロジックが含まれます。
-translation-type: tm+mt
+title: 決定の作成
+description: 決定には、オファーの選択を通知するロジックが含まれています。
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# 意思決定の作成
+# 決定の作成
 
-コンテナIDを提供しながら[!DNL Offer Library] APIにPOSTリクエストを行うことで、オファーアクティビティ（旧称「決定」）を作成できます。
+コンテナ ID を提供しながら、[!DNL Offer Library] API に対して POST リクエストを実行することで、決定（旧称：オファーアクティビティ）を作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー
 
@@ -31,7 +30,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリー API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
 
@@ -65,7 +64,7 @@ curl -X POST \
 
 **応答** 
 
-成功した応答は、新たに作成された決定に関する情報（一意のインスタンスIDと配置`@id`を含む）を返します。 インスタンスIDを後の手順で使用して、決定を更新または削除できます。
+正常な応答では、新たに作成された決定に関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用して決定を更新または削除できます。
 
 ```json
 {
