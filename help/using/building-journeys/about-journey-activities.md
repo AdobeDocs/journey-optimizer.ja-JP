@@ -1,37 +1,36 @@
 ---
 title: ジャーニーアクティビティについて
-description: ジャーニーアクティビティについて
-translation-type: tm+mt
+description: ジャーニーアクティビティについて学ぶ
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# ジャーニーアクティビティについて{#about-journey-activities}
+# ジャーニーアクティビティについて {#about-journey-activities}
 
 ![](../assets/do-not-localize/badge.png)
 
-様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。
+様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを作成します。
 
 ## イベントアクティビティ {#event-activities}
 
-テクニカルユーザーが設定したイベント（[このページ](../event/about-events.md)を参照）は、画面の左側のパレットの最初のカテゴリにすべて表示されます。次のイベントアクティビティを使用できます。
+技術ユーザーが設定したイベント（[このページ](../event/about-events.md)を参照）はすべて、画面左側のパレットの最初のカテゴリに表示されます。次のイベントアクティビティを使用できます。
 
 * [一般イベント](../building-journeys/general-events.md)
 * [反応](../building-journeys/reaction-events.md)
-* [セグメントの資格](../building-journeys/segment-qualification-events.md)
+* [セグメントの選定](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
-イベントアクティビティをドラッグ&amp;ドロップしてジャーニーを開始します。 ダブルクリックでも開始できます。
+ジャーニーを開始するには、イベントアクティビティをドラッグ＆ドロップします。ダブルクリックでも開始できます。
 
 ![](../assets/journey44.png)
 
 ## オーケストレーションアクティビティ {#orchestration-activities}
 
-パレットの画面左側で、次のオーケストレーションアクティビティを使用できます。
+画面左側にあるパレットで、次のオーケストレーションアクティビティを使用できます。
 
 * [条件](../building-journeys/condition-activity.md)
 * [終了](../building-journeys/end-activity.md)
@@ -42,7 +41,7 @@ ht-degree: 46%
 
 ## アクションアクティビティ {#action-activities}
 
-パレットの左側の画面の&#x200B;**[!UICONTROL イベント]**&#x200B;と&#x200B;**[!UICONTROL オーケストレーション]**&#x200B;の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。 次のアクションアクティビティを使用できます。
+画面左側にあるパレットの「**[!UICONTROL イベント]**」と「**[!UICONTROL オーケストレーション]**」の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。次のアクションアクティビティを使用できます。
 
 * [メッセージ](../building-journeys/journeys-message.md)
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
@@ -56,7 +55,7 @@ ht-degree: 46%
 
 ## ベストプラクティス {#best-practices}
 
-ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。 これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。 これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別できる場合に便利です。 また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
+ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別したい場合に便利です。また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
 ![](../assets/journey59bis.png)
 
