@@ -1,11 +1,10 @@
 ---
 title: フォールバックオファーの作成
 description: Adobe Experience Platform でオファーを作成する方法を説明します。
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 84%
 
 ![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
-フォールバックオファーのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
+フォールバックオファーのリストへは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
 ![](../../assets/offers_list.png)
 
@@ -37,7 +36,7 @@ ht-degree: 84%
 
    ![](../../assets/fallback_content.png)
 
-1. フォールバックオファーの表示域が追加されると、概要が表示されます。すべてが適切に設定され、フォールバックオファーが顧客に提示できる状態になったら、「**[!UICONTROL 完了]**」をクリックしたあと、「**[!UICONTROL 保存して承認]**」を選択します。
+1. フォールバックオファーの表示域が追加されると、概要が表示されます。すべてが適切に設定され、フォールバックオファーが顧客に提示できる状態になったら、「**[!UICONTROL 終了]**」をクリックしたあと、「**[!UICONTROL 保存して承認]**」を選択します。
 
    フォールバックオファーは、ドラフトとして保存し、後で編集して承認することもできます。
 
@@ -53,6 +52,6 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platformで構築されたOffer decisioningアプリケーションサービスに適用されます。 しかし、Journey Optimizerの状況でオファーを使用する際の一般的なガイダンスを提供しています。
+>このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。ただし、Journey Optimizer のコンテキストでオファーを使用する際の一般的なガイダンスを提供しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
