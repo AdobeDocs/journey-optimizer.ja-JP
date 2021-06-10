@@ -1,11 +1,10 @@
 ---
 title: ジャーニーにイベントを送信するための追加手順
-description: ジャーニーにイベントを送信するための追加手順を説明します。
-translation-type: tm+mt
+description: ジャーニーにイベントを送信するための追加手順を学ぶ
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -13,20 +12,20 @@ ht-degree: 3%
 
 ![](../assets/do-not-localize/badge.png)
 
-**[!UICONTROL ストリーミング取り込みAPI]**&#x200B;に送信し、[!DNL Journey Optimizer]で使用するイベントを設定するには、次の手順に従う必要があります。
+イベントを&#x200B;**[!UICONTROL ストリーミング取得 API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience PlatformAPIからインレットURLを取得します。 詳しくは、[ストリーミング取り込みAPIの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)を参照してください。
-1. ペイロードプレビューの&#x200B;**[!UICONTROL イベント]**&#x200B;メニュー内のペイロードをコピーします。 詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。
+1. Adobe Experience Platform API からインレット URL を取得します。詳しくは、[ストリーミング取得 API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja)を参照してください。
+1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。
 
-次に、コピーしたペイロードを使用してイベントをストリーミングインジェストAPIにプッシュするデータシステムを設定する必要があります。
+次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータ システムを設定する必要があります。
 
-1. ストリーミング取り込みAPIのURLに対するPOSTAPI呼び出しを設定します（入口と呼ばれます）。
-1. [!DNL Journey Optimizer]からコピーしたペイロードを、ストリーミングインジェストAPIへのAPI呼び出しの本文(「data section」)で使用します。 以下に例を示します
-1. ペイロード内のすべての変数を取得する場所を決定します。 例：イベントが住所を伝えると想定されている場合、貼り付けられたペイロードには「住所」が表示されます。&quot;string&quot;. 「string」は、メッセージの送信先の電子メールである適切な値を自動的に設定する変数に置き換える必要があります。 ペイロードプレビューの&#x200B;**[!UICONTROL Header]**&#x200B;セクションでは、作業を容易にするために予想される多くの値が自動的に入力されます。
-1. 「application/json」をbodyタイプとして選択します。
-1. 「x-gw-ims-org-id」キーを使用して、IMS組織IDをヘッダーで渡します。 値には、IMS組織ID(「XXX@AdobeOrg」)を使用します。
+1. ストリーミング取得 API URL（インレットと呼びます) に対する POST API 呼び出しを設定します。
+1. ストリーミング取得 API への API 呼び出しの本文（&quot;data section&quot;）で、[!DNL Journey Optimizer] からコピーしたペイロードを使用します。以下に例を示します
+1. ペイロードに存在するすべての変数を取得する場所を決定します。例：イベントがアドレスを伝えることになっている場合、貼り付けられたペイロードには &quot;address&quot;: &quot;string&quot; と表示されます。&quot;string&quot; は、正しい値（メッセージを送信する相手のメール）を自動的に入力する変数に置き換える必要があります。ペイロードプレビューの&#x200B;**[!UICONTROL ヘッダー]**&#x200B;セクションでは、作業を容易にするために多くの値が自動的に入力されます。
+1. 本文タイプとして &quot;application/json&quot; を選択します。
+1. &quot;x-gw-ims-org-id&quot; キーを使用して、ヘッダーに IMS 組織 ID を渡します。値には、IMS 組織 ID（&quot;XXX@AdobeOrg&quot;）を使用します。
 
-以下に、ストリーミング取り込みAPIイベントの例を示します。
+以下にストリーミング取得 API イベントの例を示します。
 
 ```
 {
@@ -83,6 +82,6 @@ ht-degree: 3%
 }
 ```
 
-「data」部分を貼り付ける場所の特定を容易にするために、[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)などのJSONビジュアライゼーションツールを使用できます。
+ &quot;data&quot; 部分をどこに貼り付けるかを特定しやすくするために、[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com?lang=ja) などの JSON ビジュアライゼーションツールを使用できます。
 
-ストリーミング取り込みAPIのトラブルシューティングについては、[ページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)を参照してください。
+ストリーミング取得 API のトラブルシューティングについては、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)を参照してください。
