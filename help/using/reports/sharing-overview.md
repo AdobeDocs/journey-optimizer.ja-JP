@@ -1,11 +1,10 @@
 ---
-title: ジャーニーステップの共有の概要
-description: ジャーニーステップの共有の概要
-translation-type: tm+mt
+title: ジャーニーステップ共有の概要
+description: ジャーニーステップ共有の概要
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
@@ -13,29 +12,29 @@ ht-degree: 6%
 
 ![](../assets/do-not-localize/badge.png)
 
-[リアルタイムレポート](live-report.md)と組み込みの[グローバルレポート機能](global-report.md)に加え、[!DNL Journey Optimizer]は、ジャーニーパフォーマンスデータをAdobe Experience Platformに自動的に送信し、分析のために他のデータと組み合わせることができます。
+[リアルタイムレポート](live-report.md)と組み込みの[グローバルレポート機能](global-report.md)に加え、[!DNL Journey Optimizer] では、ジャーニーパフォーマンスデータを Adobe Experience Platform に自動的に送信でき、他のデータと組み合わて分析できるようになります。
 
 >[!NOTE]
 >
->この機能は、デフォルトでは、新しくデプロイされたすべてのインスタンスでアクティブ化されません。 アクティベーションは要求に応じている。
+>新しくデプロイしたインスタンスでは、この機能はデフォルトではアクティブ化されません。リクエストに応じて有効化されます。
 
-例えば、複数の電子メールを送信するジャーニーを設定したとします。 この機能を使用すると、[!DNL Journey Optimizer]データを、コンバージョン数、Webサイトで発生したアクション数、ストアで発生したトランザクション数など、ダウンストリームイベントデータと結合できます。 ジャーニー情報は、他のデジタルプロパティまたはオフラインプロパティから、Adobe Experience Platform上のデータと組み合わせて、より包括的なパフォーマンス表示を提供できます。
+たとえば、複数の メールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Optimizer] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。ジャーニー情報を Adobe Experience Platform のデータ（他のデジタルプロパティのデータまたはオフラインプロパティのデータ）と組み合わせて、パフォーマンスをより包括的に把握することができます。
 
-[!DNL Journey Optimizer] 個々のジャーニーがステップごとに必要なスキーマとデータセットを自動的に作成し、Adobe Experience Platformにストリームします。ステップイベントは、ジャーニー内であるノードから別のノードに移動する個々のノードに対応する。 例えば、イベント、条件、およびアクションを持つジャーニーでは、3つのステップイベントがAdobe Experience Platformに送信されます。
+[!DNL Journey Optimizer] は、個人がジャーニーで実行するステップごとに、必要なスキーマとデータセットへのストリームを Adobe Experience Platform に対して自動的に作成します。ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを備えたジャーニーでは、3 つのステップイベントが Adobe Experience Platform に送信されます。
 
-渡されるXDMフィールドのリストは包括的です。 システムで生成されたコードを含むコードもあれば、人間が解読可能なフレンドリ名を持つコードもあります。 例えば、ジャーニーアクティビティのラベルやステップステータスがあります。アクションがタイムアウトした、またはエラーが発生して終了した回数。
+渡される XDM フィールドのリストは多岐にわたります。システムで生成されたコードを含むものもあれば、人間が理解できるわかりやすい名前を持つものもあります。例えば、ジャーニーアクティビティやステップステータスのラベルがあります。アクションがタイムアウトした回数や、エラーで終了した回数などです。
 
 >[!CAUTION]
 >
->リアルタイムプロファイルサービスでは、データセットを有効にできません。 **[!UICONTROL プロファイル]**&#x200B;の切り替えがオフになっていることを確認してください。
+>リアルタイムプロファイルサービスの場合は、データセットを有効にできません。**[!UICONTROL プロファイル]**&#x200B;の切り替えがオフになっていることを確認してください。
 
-ジャーニーは、発生時にデータをストリーミング方式で送信します。 このデータは、クエリサービスを使用してクエリできます。 Customer Journey Analyticsまたは他のBIツールに接続して、これらの手順に関連する表示データを取得できます。
+ジャーニーは、発生時にストリーミング方式でデータを送信します。このデータは、クエリサービスを使用してクエリできます。Customer Journey Analytics またはその他の BI ツールに接続して、これらのステップに関連するデータを表示できます。
 
 次のスキーマが作成されます。
 
-* [!DNL Journey Orchestration]のジャーニーステッププロファイルイベントスキーマ — 個々のジャーニー参加者へのマッピングに使用するIDマップと共にジャーニーで実行される手順のエクスペリエンスイベント。
-* [!DNL Journey Orchestration]のジャーニーステップイベントスキーマ-ジャーニーメタデータに関連付けられているジャーニーステップイベント。
-* [!DNL Journey Orchestration]用のジャーニーフィールドのジャーニースキーマ-ジャーニーを説明するジャーニーメタデータ。
+* [!DNL Journey Orchestration] のジャーニーステッププロファイルイベントスキーマ：ジャーニーで実行されるステップのエクスペリエンスイベントと、個々のジャーニー参加者へのマッピングに使用される ID マップ。
+* [!DNL Journey Orchestration] のジャーニーステップイベントスキーマ：ジャーニーメタデータに関連付けられているジャーニーステップイベント。
+* [!DNL Journey Orchestration] のジャーニーフィールドを含むジャーニースキーマ：ジャーニーを記述するジャーニーメタデータ。
 
 ![](../assets/sharing1.png)
 
@@ -43,13 +42,13 @@ ht-degree: 6%
 
 次のデータセットが渡されます。
 
-* [!DNL Journey Orchestration]のジャーニーステッププロファイルイベントスキーマ
-* ジャーニー手順のイベント
+* [!DNL Journey Orchestration] のジャーニーステッププロファイルイベントスキーマ
+* ジャーニーステップイベント
 * ジャーニー
 
 ![](../assets/sharing3.png)
 
-Adobe Experience Platformに渡されるXDMフィールドのリストについては、以下を参照してください。
+Adobe Experience Platform に渡される XDM フィールドのリストについて詳しくは、以下を参照してください。
 
 * [journeySteps イベントの共通フィールド](../reports/sharing-common-fields.md)
 * [journeyStep イベントのアクション実行フィールド](../reports/sharing-execution-fields.md)
@@ -57,4 +56,4 @@ Adobe Experience Platformに渡されるXDMフィールドのリストについ�
 * [journeyStep イベントの ID フィールド](../reports/sharing-identity-fields.md)
 * [ジャーニーのフィールド](../reports/sharing-journey-fields.md)
 
-Adobe Experience Platformへのステップイベントレポートの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)をご覧ください。
+Adobe Experience Platform にレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja)をご覧ください。
