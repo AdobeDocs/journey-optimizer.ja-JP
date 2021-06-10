@@ -1,21 +1,20 @@
 ---
 title: イベントの XDM フィールドへのアクセス
 description: DecisioningEvents XDM スキーマについて説明します。
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # イベントの XDM フィールドへのアクセス {#decisioningevents-xdm-schema}
 
-DecisioningEvents XDMスキーマには、Decision Managementイベントを含むデータセットから直接アクセスできます。
+決定管理イベントを含むデータセットから、DecisioningEvents XDM スキーマに直接アクセスできます。
 
 ![](../../assets/access-schema.png)
 
-スキーマには、Decision ManagementからAdobe Experience Platformに情報を送信するために必要なすべてのフィールドが含まれます。
+このスキーマには、決定管理から Adobe Experience Platform へ情報を送信するために必要なすべてのフィールドが含まれています。
 
 特定のフィールドの詳細を取得するには、そのフィールドを選択して、フィールドのプロパティを一覧できる情報ペインを表示します。
 
