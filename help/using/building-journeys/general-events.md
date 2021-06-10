@@ -1,7 +1,7 @@
 ---
 solution: Journey Orchestration
 title: 一般イベント
-description: 一般的なイベントの使用方法を説明します
+description: 一般イベントの使用方法を学ぶ
 source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
 workflow-type: tm+mt
 source-wordcount: '368'
@@ -13,11 +13,11 @@ ht-degree: 76%
 
 ![](../assets/do-not-localize/badge.png)
 
-このタイプのイベントでは、ラベルと説明のみを追加できます。 その他の設定は編集できません。 技術ユーザーが実施しています。[このページ](../event/about-events.md)を参照してください。
+このタイプのイベントでは、ラベルと説明のみを追加できます。その他の設定は編集できません。技術ユーザーによって実施します。[このページ](../event/about-events.md)を参照してください。
 
 ![](../assets/general-events.png)
 
-ビジネスイベントをドロップすると、**セグメントの読み取り**&#x200B;アクティビティが自動的に追加されます。ビジネスイベントの詳細については、[このセクション](../event/about-events.md)を参照してください。
+ビジネスイベントをドロップすると、**セグメントを読み取り**&#x200B;アクティビティが自動的に追加されます。ビジネスイベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
 ## 一定時間内のイベントのリッスン {#events-specific-time}
 
