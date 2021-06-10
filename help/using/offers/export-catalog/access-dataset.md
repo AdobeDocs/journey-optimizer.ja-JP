@@ -1,17 +1,16 @@
 ---
-title: エクスポートしたオファーカタログへのアクセス
-description: Adobe Experience Platform にエクスポートしたオファーカタログにアクセスする方法を説明します。
-translation-type: tm+mt
+title: 書き出したオファーカタログへのアクセス
+description: Adobe Experience Platform に書き出したオファーカタログにアクセスする方法を説明します。
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
 ---
 
-# エクスポートしたオファーカタログへのアクセス {#access-exported-catalog}
+# 書き出したオファーカタログへのアクセス {#access-exported-catalog}
 
-書き出しされたオファーカタログには、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューでアクセスできます。 オファーライブラリのオブジェクトごとに 1 つのデータセットが作成されます。
+書き出したオファーカタログには、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューでアクセスできます。オファーライブラリのオブジェクトごとに 1 つのデータセットが作成されます。
 
 ![](../../assets/datasets-list.png)
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 ![](../../assets/dataset-activity.png)
 
-「**[!UICONTROL データセットをプレビュー]**」ボタンを使用すると、データセット内の最新の成功したバッチを表示できます。 左側のパネルには、エクスポートされたデータのタイプに関する情報が表示されます。
+「**[!UICONTROL データセットをプレビュー]**」ボタンを使用すると、データセット内の最新の成功したバッチを表示できます。左側のパネルには、エクスポートされたデータのタイプに関する情報が表示されます。
 
 ![](../../assets/dataset-preview.png)
 
