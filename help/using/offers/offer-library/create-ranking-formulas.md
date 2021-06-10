@@ -14,9 +14,9 @@ ht-degree: 93%
 
 **ランキング式** を使用すると、オファーの優先度スコアを考慮するのではなく、指定されたプレースメントに対して最初に提示するオファーを決定するルールを定義できます。
 
-ランキング式は **PQL 構文**&#x200B;で表され、式中でプロファイル属性、コンテキストデータ、オファー属性を利用できます。 PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
+ランキング式は **PQL 構文**&#x200B;で表され、式中でプロファイル属性、コンテキストデータ、オファー属性を利用できます。PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
 
-ランキング式を作成したら、決定（旧称：オファー アクティビティ）内のプレースメントに割り当てることができます。詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
+ランキング式を作成したら、決定（旧称：オファーアクティビティ）内のプレースメントに割り当てることができます。詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
 
 ## ランキング式の作成 {#create-ranking-formula}
 
@@ -36,8 +36,8 @@ ht-degree: 93%
 
    ![](../../assets/ranking-syntax.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックします。 ランキング式が作成されたら、リストからその式を選択し、詳細を取得、編集、または削除できます。
+1. 「**[!UICONTROL 保存]**」をクリックします。ランキング式が作成されたら、リストからその式を選択し、詳細を取得、編集、または削除できます。
 
-   これで、この式を決定で使用し、プレースメントの対象となるオファーをランク付けできるようになりました。 「( [決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md))」を参照）。
+   これで、この式を決定で使用し、プレースメントの実施要件を満たすオファーをランク付けできるようになりました。（[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照）。
 
    ![](../../assets/ranking-formula-created.png)
