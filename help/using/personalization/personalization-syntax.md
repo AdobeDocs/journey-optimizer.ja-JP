@@ -16,7 +16,7 @@ ht-degree: 69%
 [!DNL Journey Optimizer]でのパーソナライゼーションは、Handlebarsと呼ばれるテンプレート構文に基づいています。
 Handlebars構文の詳細は、[HandlebarsJSのドキュメント](https://handlebarsjs.com/)を参照してください。
 
-テンプレートと入力オブジェクトを使用して、HTMLやその他のテキスト形式を生成します。Handlebars テンプレートは、埋め込まれた Handlebars 式を含む標準のテキストのように見えます。
+テンプレートと入力オブジェクトを使用して、HTML やその他のテキスト形式を生成します。Handlebars テンプレートは、Handlebars 式が埋め込まれた標準のテキストのように見えます。
 
 簡単な式のサンプル：
 
@@ -26,12 +26,12 @@ Handlebars構文の詳細は、[HandlebarsJSのドキュメント](https://handl
 
 各パラメーターの意味は次のとおりです。
 
-* **profile** は、名前空間です。
-* **person.name** は、属性で構成されるトークンです。属性構造は、Adobe Experience PlatformXDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja).
+* **profile** は名前空間です。
+* **person.name** は、属性で構成されるトークンです。属性構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)。
 
 ## 構文の一般的なルール
 
-識別子には、次を除く任意の Unicode 文字を使用できます。
+識別子には、以下を除く任意の Unicode 文字を使用できます。
 
 ```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -39,13 +39,13 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 構文では大文字と小文字が区別されます。
 
-**true**, **false**, **null** and **undefined**&#x200B;という語は、パス式ーの最初の部分でのみ使用できます。
+**true**、**false**、**null** および **undefined**&#x200B;という語は、パス式の最初の部分でのみ使用できます。
 
-Handlebars では、{{式}} から返される値は、**HTML-escaped**&#x200B;です。 式に`&`が含まれる場合、返されたHTMLエスケープ出力は`&amp;`として生成されます。 Handlebars の値をエスケープしない場合は、「triple-stash」を使用します。
+Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x200B;されています。式に`&`が含まれる場合、返されたHTMLエスケープ出力は`&amp;`として生成されます。 Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
 
 ## プロファイル
 
-この名前空間を使用すると、[Adobe Experience Platform Data Model (XDM)ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)で説明されているプロファイルスキーマで定義されているすべての属性を参照できます。
+この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)で説明されています。
 
 属性は、[!DNL Journey Optimizer]パーソナライゼーションブロックで参照する前に、スキーマで定義する必要があります。
 
@@ -76,7 +76,7 @@ Handlebars では、{{式}} から返される値は、**HTML-escaped**&#x200B;�
 ## オファー
 
 この名前空間では、既存のオファー決定を参照できます。
-オファーを参照するには、オファーを定義する別の情報を使用してパスを宣言する必要があります。
+オファーを参照するには、オファーを定義する様々な情報を使用してパスを宣言する必要があります。
 
 このパスは次の構造を持ちます。
 
@@ -97,15 +97,15 @@ Decisions APIとオファー表示域について詳しくは、[このページ
 
 **サンプルリファレンス：**
 
-* 画像がホストされる場所 :
+* 画像がホストされる場所：
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* 画像をクリックしたときのターゲット URL :
+* 画像をクリックしたときのターゲット URL：
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* 意思決定エンジンからのオファーのテキストコンテンツ：
+* Offer Decisioning エンジンから得られるオファーのテキストコンテンツ：
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -116,10 +116,11 @@ Decisions APIとオファー表示域について詳しくは、[このページ
 
 ## ヘルパー{#helpers-all}
 
-ハンドルバーヘルパーは、パラメーターの後に続く単純な識別子です。
-各パラメータは、Handlebars 式です。 これらのヘルパーは、テンプレート内の任意のコンテキストからアクセスできます。
+Handlebars ヘルパーは、パラメーターの後に付けられる単純な識別子です。
+各パラメーターは、Handlebars 式です。これらのヘルパーは、テンプレート内の任意のコンテキストからアクセスできます。
 
-これらのブロックヘルパーは、ヘルパー名の前に # を付けることで識別され、/ で同じ名前を閉じる必要があります。ブロックとは、ブロックの開き({{# }})と閉じ({{/}})を持つ式です。
+これらのブロックヘルパーは、ヘルパー名の先頭に # を付けることで識別され、対となる同じ名前の「/」タグで閉じる必要があります。
+ブロックは、ブロック開始タグ（{{# }}）と終了タグ（{{/}}）を持つ式です。
 
 
 >[!NOTE]
@@ -140,4 +141,4 @@ Decisions APIとオファー表示域について詳しくは、[このページ
 
 >[!CAUTION]
 >
->**xEvent**&#x200B;変数は、パーソナライズ式では使用できません。 xEvent を参照すると、検証エラーが発生します。
+>**xEvent** 変数は、パーソナライズ式では使用できません。xEvent を参照すると、検証エラーが発生します。
