@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用すると、つながりの�
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
+source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 83%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 83%
    + [Journey Optimizer とは](using/get-started.md)
    + [クイックスタート](using/quick-start.md)
    + [ユーザーインターフェイス](using/user-interface.md)
-   + [権限の管理](using/permissions.md)
    + [既知の問題](using/known-issues.md)
 + メッセージ {#create-messages}
    + [メッセージの概要](using/get-started-content.md)
