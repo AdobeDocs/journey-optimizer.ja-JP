@@ -3,11 +3,10 @@ cloud: Experience Cloud
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/journey-optimizer.ja-JP
 hide: true
-translation-type: tm+mt
 source-git-commit: 1b876ac7b9ca937d0b652bd0911dd96e9dae26bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
