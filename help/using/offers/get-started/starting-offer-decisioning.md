@@ -1,23 +1,22 @@
 ---
-title: Decision Managementの概要
-description: Decision Managementの概要を説明します。 アーキテクチャ、オファー、決定、および実行に役立つ一般的な使用例について詳しく説明します。
-translation-type: tm+mt
+title: 決定管理の概要
+description: 決定管理の概要。アーキテクチャ、オファー、決定、および実行できる一般的な使用事例の詳細をご確認ください。
 source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 
-# Decision Managementについて{#about-offer-decision}
+# 決定管理について {#about-offer-decision}
 
-[!DNL Journey Optimizer] を使用すると、すべてのタッチポイントにわたって適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。設計が完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットできます。
+[!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
 
-Decision Management機能は、2つの主なコンポーネントで構成されています。
+決定管理の機能は、2 つの主要コンポーネントで構成されています。
 
-* **集中オファーライブラリ**&#x200B;は、オファーを構成する様々な要素を作成および管理し、それらの規則と制約を定義するインターフェイスです。
-* 適切な時間、顧客、およびオファーを配信するチャネルを選択するために、Adobe Experience Platformのデータとリアルタイムの顧客プロファイルをオファーライブラリと共に活用する&#x200B;**オファー決定エンジン**。
+* **一元化されたオファーライブラリ**&#x200B;は、オファーを構成する様々な要素を作成および管理し、それらの規則と制約を定義するインターフェイスです。
+* **Offer Decisioning エンジン**&#x200B;は、Adobe Experience Platform のデータとリアルタイム顧客プロファイルをオファーライブラリとともに活用し、オファーの配信に適切な時間、顧客およびチャネルを選択します。
 
 ![](../../assets/architecture.png)
 
@@ -27,9 +26,9 @@ Decision Management機能は、2つの主なコンポーネントで構成され
 * ワークフローの向上：マーケティングチームは、配信やキャンペーンを複数作成する代わりに、単一の配信を作成し、テンプレートの各部分のオファーを変えることでワークフローを向上させることができます。
 * キャンペーンと顧客全体にオファーを表示する回数を制御します。
 
-![](../../assets/do-not-localize/how-to-video.png) [Decision Managementについて詳しくは、次のチュートリアル](#tutorial-videos) ビデオをご覧ください。
+![](../../assets/do-not-localize/how-to-video.png)決定管理の詳細については、[こちらのチュートリアルビデオ](#tutorial-videos)をご覧ください。
 
-## オファーと決定について{#offers-offer-activities}
+## オファーと決定について {#offers-offer-activities}
 
 **オファー**&#x200B;は、顧客に提示する条件を定義するコンテンツ、実施要件ルール、制約で構成されます。
 
@@ -37,13 +36,13 @@ Decision Management機能は、2つの主なコンポーネントで構成され
 
 ![](../../assets/offer_structure.png)
 
-オファーライブラリがオファーで強化されたら、オファーを&#x200B;**決定**(旧称「オファーアクティビティ」)に統合できます。
+オファーライブラリをオファーで強化した後は、オファーを&#x200B;**決定**（旧称：オファーアクティビティ）に統合することができます。
 
-決定は、オファーのコンテナです。配信のターゲットに応じて提供すべき最適なオファーを選択するために、オファー決定エンジンを利用します。
+決定とは、配信ターゲットに応じて提供すべき最適なオファーを選択するために、Offer Decisioning エンジンを利用するオファーのコンテナです。
 
-## 一般的な使用例
+## よくあるユースケース
 
-意思決定管理機能とAdobe Experience Platformとの統合により、顧客の関与やコンバージョンを高めるのに役立つ多くの使用例をカバーできます。
+決定管理の機能および Adobe Experience Platform との統合により、多くのユースケースが対象となり、顧客エンゲージメントやコンバージョンを向上できます。
 
 * Adobe Experience Platform からのデータに基づいて、訪問顧客の興味ポイントに一致する Web サイトのホームページオファーを表示します。
 
@@ -53,7 +52,7 @@ Decision Management機能は、2つの主なコンポーネントで構成され
 
    ![](../../assets/push_sample.png)
 
-* また、意思決定管理は、サポートチームに連絡する際の顧客体験を強化するのに役立ちます。 Decision Management APIを使用すると、お客様の引き換え後のベストオファーに関する情報をコールセンターエージェントのポータルに表示できます。
+* 決定管理は、顧客がサポートチームに連絡する際のエクスペリエンスを向上できるようサポートします。決定管理 API を使用すると、顧客が取り消したオファーと次善のオファーに関する情報を、コールセンター担当者のポータルに表示することができます。
 
    ![](../../assets/call-center.png)
 
@@ -61,16 +60,16 @@ Decision Management機能は、2つの主なコンポーネントで構成され
 
 >[!NOTE]
 >
->これらのビデオは、Adobe Experience Platformで構築されたOffer decisioningアプリケーションサービスに適用され、[!DNL Adobe Journey Optimizer]に固有のものではありません。 ただし、[!DNL Journey Optimizer]のコンテキストでデシジョン管理を使用する際の一般的なガイダンスを提供します。
+>これらのビデオは、Adobe Experience Platform で作成された Offer Decisioning アプリケーションサービスを対象としており、[!DNL Adobe Journey Optimizer] に限定したものではありません。ただし、[!DNL Journey Optimizer] に関連して、 決定管理を使用する際の一般的なガイダンスを提供します。
 
-### Decision Managementとは{#what-is-offer-decisioning}
+### 決定管理とは? {#what-is-offer-decisioning}
 
-次のビデオでは、Decision Managementの主な機能、アーキテクチャ、使用例について説明します。
+以下のビデオでは、 決定管理の主な機能、アーキテクチャおよびユースケースを紹介しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### オファーの定義と管理 {#use-offer-decisioning}
 
-次のビデオでは、Decision Managementを使用してオファーを定義、管理し、リアルタイムの顧客データを活用する方法を示します。
+次のビデオでは、決定管理を使用してオファーを定義および管理し、リアルタイムの顧客データを活用する方法を示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
