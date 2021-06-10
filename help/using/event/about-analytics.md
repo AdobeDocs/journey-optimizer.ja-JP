@@ -1,34 +1,33 @@
 ---
-title: Adobe Analyticsデータについて
-description: Adobe Analyticsデータの活用方法を学ぶ
-translation-type: tm+mt
+title: Adobe Analytics データについて
+description: Adobe Analytics データの活用方法について説明します
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Analyticsのデータを活用{#analytics-data}
+# Adobe Analytics データの活用{#analytics-data}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!NOTE]
 >
->この節は、ルールベースのイベントおよびAdobe Analyticsデータを使用する必要があるお客様に対してのみ適用されます。
+>この節は、ルールベースのイベントと、Adobe Analytics データを使用する必要があるお客様にのみ当てはまります。
 
-トリガージャーニーや顧客のエクスペリエンスの自動化のために、既にキャプチャおよびプラットフォームへのストリーミングを行っているAdobe Analytics行動イベントのすべてのデータを活用できます。
+ジャーニーをトリガーし顧客向けのエクスペリエンスを自動化するために、既にキャプチャして Platform にストリーミングしている Adobe Analytics のあらゆる行動イベントデータを活用できます。
 
-この機能を動作させるには、活用するレポートスイートをAdobe Experience Platformでアクティブ化する必要があります。
+そのためには、利用するレポートスイートを Adobe Experience Platform で有効化する必要があります。
 
-1. Adobe Experience Platformで、「ソース&#x200B;**[!UICONTROL 」を選択してから、「Adobe Analytics」セクションで「追加データ]**」を選択します。 ****&#x200B;使用可能なAdobe Analyticsレポートスイートのリストが表示されます。
+1. Adobe Experience Platform の「Adobe Analytics」セクションで、「**[!UICONTROL ソース]**」を選択してから「**[!UICONTROL データを追加]**」を選択します。使用可能な Adobe Analytics レポートスイートのリストが表示されます。
 
-1. 有効にするレポートスイートを選択し、「**[!UICONTROL 次へ]**」をクリックし、「**[!UICONTROL 完了]**」をクリックします。
+1. 有効にするレポートスイートを選択し、「**[!UICONTROL 次へ]**」をクリックして、「**[!UICONTROL 終了]**」をクリックします。
 
-1. ソースデータIDをベータプログラムの連絡先と共有します。
+1. ソースデータ ID をベータプログラムの連絡窓口と共有します。
 
-これにより、そのレポートスイートのAnalyticsソースコネクタが有効になります。 データが入ってくるたびに、そのデータはエクスペリエンスイベントに変換され、Adobe Experience Platformに送信されます。
+これにより、そのレポートスイートの Analytics ソースコネクタが有効になります。データが入ってくるたびに、データはエクスペリエンスイベントに変換され、Adobe Experience Platform に送信されます。
 
 ![](../assets/jo-event9.png)
 
-Adobe Analyticsのソースコネクタの詳細については、[ドキュメント]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)と[チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)を参照してください。
+Adobe Analytics ソースコネクタの詳細については、[ドキュメント]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja) および[チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja)を参照してください。
