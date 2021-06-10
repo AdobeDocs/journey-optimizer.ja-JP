@@ -1,18 +1,24 @@
 ---
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '17'
-ht-degree: 100%
+source-git-commit: 9e97178e45f36745ec6155e163918c1265600890
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 31%
 
 ---
-# customer-journey-management.en
+# journey-optimizer.en
 
 Journey Optimizer 製品ドキュメント
 
-以下の機能を含む Journey Optimizer のドキュメント。
+AdobeJourney Optimizerは、パーソナライズされ、接続され、タイムリーに提供する、機敏で拡張性の高いアプリケーションです
+の顧客体験をすべてのアプリ、デバイスまたはチャネルで利用できます。
 
+トピック：
+
+* はじめに
+* メッセージ
+* セグメント
 * ジャーニー
-* メッセージ、コンテンツ
-* オファー
-* 管理者
-
+* レポート
+* offer decisioning/判定管理
+* 設定のガイドライン
+* アクセス制御
