@@ -1,11 +1,10 @@
 ---
 title: データソースについて
-description: データソースの設定方法を説明します
-translation-type: tm+mt
+description: データソースの設定方法を学ぶ
 source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +17,14 @@ ht-degree: 86%
 >title="データソースについて"
 >abstract="データソースの設定は、常に技術ユーザーが実行します。データソースを設定すると、システムへの接続を定義して、ジャーニーで使用される（条件定義、アクションのパラメーターとパーソナライゼーションデータ、カスタム待機定義、タイムゾーン定義に対する）追加情報を取得できます。"
 
-データソースを設定すると、次のような目的で、ジャーニーで使用される追加情報を取得するためのシステムへの接続を定義できます。
+データソース設定を使用すると、システムへの接続を定義して、ジャーニーにおいて次の目的でジャーニーで使用される追加情報を取得できます。
 
-* [条件定義](../building-journeys/condition-activity.md)
-* [アクション](../action/action.md)のパラメーターとパーソナライズ機能データ
-* [カスタム待機定義](../building-journeys/wait-activity.md#custom)
-* [タイムゾーン定義](../building-journeys/timezone-management.md)
+* [条件の定義](../building-journeys/condition-activity.md)
+* [アクション](../action/action.md)のパラメーターとパーソナライゼーションデータ
+* [カスタムの待機の定義](../building-journeys/wait-activity.md#custom)
+* [タイムゾーンの定義](../building-journeys/timezone-management.md)
 
-この設定は、ジャーニーがイベントペイロードからのローカルデータのみを活用する場合は必要ありません。例えば、ジャーニーがイベントの後に、イベントのデータのみを使用するメッセージアクティビティが続く構成の場合、データソースを設定する必要はありません。
+ジャーニーがイベントペイロードからのローカルデータのみを活用する場合、この設定は必要ありません。例えば、ジャーニーがイベントと、そのイベントのデータのみを使用するメッセージアクティビティのみで構成される場合、データソースを設定する必要はありません。
 
 データソースには次の 2 種類があります。
 
@@ -34,4 +33,4 @@ ht-degree: 86%
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[このページ](../datasource/configure-data-sources.md#define-field-groups)を参照してください。
 
-Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアル動画](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html)をご覧ください。
+Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=ja)をご覧ください。
