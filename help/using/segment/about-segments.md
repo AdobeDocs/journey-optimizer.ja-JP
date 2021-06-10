@@ -1,28 +1,27 @@
 ---
-title: Adobe Experience Platformセグメントについて
-description: Adobe Experience Platformセグメントの設定方法
-translation-type: tm+mt
+title: Adobe Experience Platform セグメントについて
+description: Adobe Experience Platform セグメントの設定方法について説明します
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platformセグメントについて{#about-segments}
+# Adobe Experience Platform セグメントについて {#about-segments}
 
 ![](../assets/do-not-localize/badge.png)
 
-Journey Optimizerでは、**[!UICONTROL セグメント]**&#x200B;メニューから直接、リアルタイム顧客プロファイルデータを使用してAdobe Experience Platformセグメントを作成でき、ジャーニーに活用できます。
+Journey Optimizer では、**[!UICONTROL セグメント]**&#x200B;メニューから直接、リアルタイム顧客プロファイルデータを使用して Adobe Experience Platform セグメントを作成して、ジャーニーに活用することができます。
 
-セグメントはSegmentationサービス自体からも作成できます。 詳しくは、[Adobe Experience Platformセグメントサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
+セグメントはセグメント化サービス自体からも作成できます。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
 
-様々な方法で、ジャーニーー内のセグメントを活用できます。
+ジャーニーでセグメントを活用するには、次のように様々な方法があります。
 
-* **セグメント**&#x200B;の読み取りオーケストレーションアクティビティを使用して、指定したセグメントに属するすべての個人をジャーニーに入れます。 ジャーニーに含まれるメッセージは、そのセグメントに属する個人に送信されます。 「シルバー顧客」セグメントがあるとします。 このアクティビティを使用すると、すべての銀の顧客にジャーニーを送信し、パーソナライズされた一連のメッセージを送信できます。
+* 「**セグメントを読み取り**」オーケストレーションアクティビティを使用して、指定したセグメントに属するすべての個人をジャーニーにエントリさせる。ジャーニーに含まれるメッセージは、そのセグメントに属する複数の個人に送信されます。「シルバー顧客」セグメントがあるとします。このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせ、一連のパーソナライズされたメッセージをそれらの顧客に送信できます。
 
-   **[!UICONTROL セグメント]**&#x200B;を読むアクティビティの使い方について詳しくは、[このセクション](../building-journeys/read-segment.md#configuring-segment-trigger-activity)を参照してください。
+   「**[!UICONTROL セグメントを読み取り]**」アクティビティの使用方法について詳しくは、[この節](../building-journeys/read-segment.md#configuring-segment-trigger-activity)を参照してください。
 
-* **セグメント資格**&#x200B;イベントアクティビティを使用して、Adobe Experience Platformのセグメントの入口と出口に基づいて、個人がジャーニーに入るか進むようにします。 例えば、新規のシルバー顧客全員にジャーニーを入力させ、メッセージを送信させることができます。 このアクティビティの使い方の詳細は、[](../building-journeys/segment-qualification-events.md)を参照してください。
+* 「**セグメントの選定**」イベントアクティビティを使用して、Adobe Experience Platform セグメントのエントリと離脱に基づいて、個人をジャーニーにエントリさせたり進行させたりする。例えば、新規のシルバー顧客全員をジャーニーにエントリさせ、それらの顧客にメッセージを送信することができます。このアクティビティの使用方法について詳しくは、[この節](../building-journeys/segment-qualification-events.md)を参照してください。
 
-* ジャーニーーで&#x200B;**複雑な条件**&#x200B;を作成するには、単純なエディターまたは高度な式エディターを使用します。 詳しくは、[この節](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+* シンプルな式エディターまたは高度な式エディターを使用して、ジャーニーに&#x200B;**複雑な条件**&#x200B;を組み込むことができます。詳しくは、[この節](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
