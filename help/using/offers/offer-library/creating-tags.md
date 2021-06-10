@@ -1,11 +1,10 @@
 ---
 title: タグの作成
 description: Adobe Experience Platform でオファーを作成する方法を説明します。
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 76%
 
 ![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
-作成したタグのリストは、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
+作成されたタグのリストには、 **[!UICONTROL コンポーネント]**&#x200B;メニューでアクセスできます。
 
 ![](../../assets/tags_list.png)
 
@@ -29,7 +28,7 @@ ht-degree: 76%
 
    ![](../../assets/tags_create.png)
 
-1. タグが作成されると、リストに表示されます。オファーを選択してプロパティを表示できます。また、オファーを編集したり抑制したりできます。
+1. タグが作成されると、リストに表示されます。選択してプロパティを表示し、編集または抑制できます。
 
    ![](../../assets/tags_created.png)
 
@@ -37,6 +36,6 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platformで構築されたOffer decisioningアプリケーションサービスに適用されます。 しかし、Journey Optimizerの状況でオファーを使用する際の一般的なガイダンスを提供しています。
+>このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。ただし、Journey Optimizer のコンテキストでオファーを使用する際の一般的なガイダンスを提供しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
