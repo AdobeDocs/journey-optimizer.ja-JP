@@ -1,30 +1,29 @@
 ---
-title: 電子メールの設定
-description: Journey Optimizerで電子メールを設定する方法を学びます。
-translation-type: tm+mt
+title: メールの設定
+description: Journey Optimizer でメールを設定する方法を学ぶ
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 電子メールの設定{#configure-email}
+# メールの設定 {#configure-email}
 
 ![](assets/do-not-localize/badge.png)
 
-メッセージの作成時に電子メールが設定されます。「**[!UICONTROL 電子メール]**」タブ（「[メッセージの作成](create-message.md)」を参照）
+メールは、メッセージ作成時に「**[!UICONTROL メール]**」タブで設定します（[メッセージの作成](create-message.md)を参照）。
 
 ![](assets/emails-configuration.png)
 
 >[!NOTE]
 >
->**[!UICONTROL 電子メール]**&#x200B;から&#x200B;**[!UICONTROL および差出人名]**&#x200B;は読み取り専用で、[メッセージ](create-message.md)の作成時に選択された&#x200B;**[!UICONTROL プリセット]**&#x200B;によって決定されます。
+>「**[!UICONTROL 送信元メール]**」と「**[!UICONTROL 送信者名]**」は読み取り専用であり、[メッセージの作成](create-message.md)時に選択した&#x200B;**[!UICONTROL プリセット]**&#x200B;によって決定されます。
 
-電子メールを設定する手順は次のとおりです。
+メールの設定手順は次のとおりです。
 
-1. **[!UICONTROL 電子メールの件名]**&#x200B;を指定します。 これを行うには、右側のボタンをクリックして式エディターを開き、電子メールの件名を作成します。 [このセクション](personalization/personalization-aeras.md)でパーソナライゼーションを追加する方法を説明します
+1. **[!UICONTROL メールの件名]**&#x200B;を指定します。右側のボタンをクリックして式エディターを開き、メールの件名を作成します。パーソナライゼーションの追加方法については、[この節](personalization/personalization-aeras.md)を参照してください。
 
-1. 「**[!UICONTROL 電子メールデザイナー]**」ボタンをクリックして、電子メールをデザインします。 [このセクション](design-emails.md)で電子メールをデザインする方法を説明します。
+1. 「**[!UICONTROL E メールデザイナー]**」をクリックして、メールをデザインします。メールのデザイン方法については、[この節](design-emails.md)を参照してください。
 
-1. リンクの開口部やクリック数を通して受信者の動作を追跡する場合は、**[!UICONTROL 電子メール]**&#x200B;のために開く追跡と&#x200B;**[!UICONTROL 電子メール]**&#x200B;のためのクリック追跡のオプションが有効になっていることを確認します。 追跡の詳細については、[このセクション](message-tracking.md)を参照してください。
+1. 受信者の動作を開封数やリンクのクリック数で追跡する場合、「**[!UICONTROL メールの開封トラッキング]**」オプションと「**[!UICONTROL メールのクリックトラッキング]**」オプションが有効になっていることを確認します。トラッキングの詳細については、[この節](message-tracking.md)を参照してください。
