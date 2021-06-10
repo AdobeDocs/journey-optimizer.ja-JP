@@ -1,19 +1,18 @@
 ---
-title: リスト決定
-description: 決定には、オファーを選択に通知するロジックが含まれます。
-translation-type: tm+mt
+title: 決定のリスト
+description: 決定には、オファーの選択を通知するロジックが含まれています。
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# リスト決定
+# 決定のリスト
 
-決定(旧称「オファーアクティビティ」)には、オファーを選択に通知するロジックが含まれます。
+決定（旧称：オファーアクティビティ）には、オファーの選択を通知するロジックがあります。
 
-[!DNL Offer Library] APIに対して1回のGETリクエストを実行することで、コンテナ内のすべての決定のリストを表示できます。
+[!DNL Offer Library] API に対して GET リクエストを 1 回送信すると、コンテナ内のすべての決定のリストを表示できます。
 
 **API 形式**
 
@@ -24,8 +23,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリー API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | 決定に関連するスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | 決定に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=2` |
 
 **リクエスト**
@@ -54,11 +53,11 @@ curl -X GET \
 | `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
 | `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
 | `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
-| `limit` | 返される決定の数を制限する。 | `limit=5` |
+| `limit` | 返される決定の数を制限します。 | `limit=5` |
 
 **応答**
 
-成功した場合は、アクセス権のあるコンテナ内に存在する決定のリストが返されます。
+応答に成功すると、アクセス権を持つコンテナ内に存在する決定のリストが返されます。
 
 ```json
 {
