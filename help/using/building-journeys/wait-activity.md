@@ -12,9 +12,9 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/badge.png)
 
-パス内で次のアクティビティを実行する前に待機したい場合は、**[!UICONTROL 待機]**&#x200B;アクティビティを使用できます。 後に続くアクティビティを実行するタイミングを定義できます。選択肢が 3 つあります。
+パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。
 
-* [デュレーション](#duration)
+* [期間](#duration)
 * [固定日付](#fixed_date)
 * [カスタム](#custom)
 
@@ -22,21 +22,21 @@ ht-degree: 100%
 
 ## 待機アクティビティについて{#about_wait}
 
-並行して複数の待機を行う場合、待機の優先順位は次のように設定されます。 設定時間が同じで、重なる条件が異なる場合、上位に配置した待機が優先されます。 例えば、1 つ目の待機条件が「女性である」、並行する 2 つ目の待機条件が「VIP である」などです。 1 つ目の待機アクティビティが優先されます。
+並行して複数の待機を使用する場合、待機の優先順位は次のように設定されます。時間設定が同じで、条件が異なるが重複している場合は、上位に配置した待機が優先されます。例えば、1 つ目の待機の条件が「女性である」で、並行する 2 つ目の待機の条件が「VIP である」といった場合です。この場合は、1 つ目の待機アクティビティが優先されます。
 
 また、2 つの異なる待機が並行している場合、上位か下位かに関係なく、最初に発生した待機が優先されます。例えば、1 時間の待機が上位にあり、30 分の待機が下位にある場合、30 分後には 30 分の待機が処理されます。
 
-特定の母集団に対して待機を制限したい場合、条件を定義できます。
+待機を特定の母集団に制限したい場合は、条件を定義できます。
 
 >[!NOTE]
 >
->最大の待機時間は 30 日です。
+>最大の待機期間は 30 日です。
 >
->テストモードでは、**[!UICONTROL テスト時の待機時間]**&#x200B;パラメーターを使用すると、各待機アクティビティが持続する時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
+>テストモードでは、「**[!UICONTROL テストの待機時間]**」パラメーターを使用すると、各待機アクティビティの持続時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
-## デュレーション待機{#duration}
+## 期間待機{#duration}
 
-次のアクティビティを実行するまでの待機のデュレーションを選択します。
+次のアクティビティを実行するまでの待機期間を選択します。
 
 ![](../assets/journey55.png)
 
@@ -48,13 +48,13 @@ ht-degree: 100%
 
 ## カスタム待機{#custom}
 
-このオプションを使用すると、カスタムの日付を定義できます。例えば、イベントやデータソースのフィールドを高度な式で計算して、2020年 7月 12日午後 5時などと定義できます。 カスタムの期間（たとえば 7日など）を定義することはできません。式は、式エディターで dateTimeOnly 形式にする必要があります。[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)を参照してください。dateTimeOnly 形式の詳細については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja)を参照してください。
+このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)を参照してください。dateTimeOnly 形式の詳細については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
->dateTimeOnly 式を使用するか、関数を使用して dateTimeOnly に変換することもできます。例：toDateTimeOnly(@{Event.offerOpened.activity.endTime}) （2016-08-12T09:46:06Z 形式の場合のフィールド）
+>dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例えば、toDateTimeOnly(@{Event.offerOpened.activity.endTime}) では、イベント内のフィールドが 2016-08-12T09:46:06Z の形式になります。
 >
->**タイムゾーン**&#x200B;は、ジャーニーのプロパティに必要です。 そのため、2016-08-12T09:46:06.982-05 のような完全な ISO-8601 タイムスタンプの混合時間とタイムゾーンのオフセットを、現在、インターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
+>ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、今のところ、時間とタイムゾーンオフセットを組み合わせた 2016-08-12T09:46:06.982-05 のような完全な ISO-8601 タイムスタンプをインターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey57.png)
 
