@@ -74,7 +74,7 @@ ht-degree: 56%
    {%= contains(profile.person.name.firstName, "A", false) %}
    ```
 
-* 次のクエリでは、大文字と小文字を区別したうえで、人のメールアドレスが「2010@gm」という文字列を含んでいるかどうかを判定します。
+* 次のクエリでは、大文字と小文字を区別したうえで、人物のメールアドレスが「2010@gm」という文字列を含んでいるかどうかを判定します。
 
    ```sql
    {%= contains(profile.person.emailAddress,"2010@gm") %}
@@ -98,7 +98,7 @@ ht-degree: 56%
 
 **例**
 
-次のクエリでは、大文字と小文字を区別したうえで、人のメールアドレスが「2010@gm」という文字列を含んでいないかどうかを判定します。
+次のクエリでは、大文字と小文字を区別したうえで、人物のメールアドレスが「2010@gm」という文字列を含んでいないかどうかを判定します。
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
@@ -123,7 +123,7 @@ ht-degree: 56%
 
 **例**
 
-次のクエリでは、大文字と小文字を区別したうえで、人のメールアドレスが「.com」で終わらないかどうかを判定します。
+次のクエリでは、大文字と小文字を区別したうえで、人物のメールアドレスが「.com」で終わらないかどうかを判定します。
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
@@ -147,7 +147,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリでは、大文字と小文字を区別したうえで、人の名前が「Joe」で始まらないかどうかを判断します。
+次のクエリでは、大文字と小文字を区別したうえで、人物の名前が「Joe」で始まらないかどうかを判定します。
 
 ```sql
 {%= doesNotStartWith(person.name,"Joe")%}
@@ -181,7 +181,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリでは、大文字と小文字を区別したうえで、人のメールアドレスが「.com」で終わるかどうかを判定します。
+次のクエリでは、大文字と小文字を区別したうえで、人物のメールアドレスが「.com」で終わるかどうかを判定します。
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -205,7 +205,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリでは、大文字と小文字を区別したうえで、人の名前が「John」かどうかを判定します。
+次のクエリでは、大文字と小文字を区別したうえで、人物の名前が「John」かどうかを判定します。
 
 ```sql
 {%=equals(profile.person.name,"John") %}
@@ -374,7 +374,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリでは、大文字と小文字を区別したうえで、人の名前が「John」でないかどうかを判定します。
+次のクエリでは、大文字と小文字を区別したうえで、人物の名前が「John」でないかどうかを判定します。
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
@@ -484,7 +484,7 @@ The following function .
 
 **例**
 
-次のクエリでは、大文字と小文字を区別したうえで、人の名前が「Joe」で始まるかどうかを判定します。
+次のクエリでは、大文字と小文字を区別したうえで、人物の名前が「Joe」で始まるかどうかを判定します。
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
