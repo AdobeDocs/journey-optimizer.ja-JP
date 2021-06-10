@@ -1,9 +1,8 @@
 ---
 title: フォールバックオファーのリスト
-description: フォールバックオファーは、実施要件を満たすオファーが他にない場合に顧客に送信されます。
-translation-type: tm+mt
+description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
