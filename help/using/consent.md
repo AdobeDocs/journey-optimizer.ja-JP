@@ -12,16 +12,16 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/badge.png)
 
-[!DNL Journey Optimizer]を使用して、受信者のコミュニケーションに対する同意を追跡し、受信者の好みや購読を管理して自社ブランドとどのように関わりたいかを理解します。<!--Their preferences and subscriptions are handled through Consent management.-->
+[!DNL Journey Optimizer]を使用すると、通信に対する受信者の同意を追跡でき、受信者の好みや購読を管理して受信者がブランドとどのように関わりたいと思っているかを理解できます。<!--Their preferences and subscriptions are handled through Consent management.-->
 
-GDPRなどの規制では、データサブジェクトからの情報を使用する前に、特定の要件を満たす必要があると規定されています。 また、データサブジェクトは、いつでも同意を変更できる必要があります。
+GDPR などの規制では、データサブジェクトからの情報を使用するには、特定の要件を満たす必要があると規定されています。また、データサブジェクトは、いつでも同意を変更できる必要があります。
 
-**なぜそれが重要なのですか？**
+**なぜそれが重要なのでしょうか？**
 
-* これらの規制に準拠できないと、ブランドに関する法律上のリスクが生じます。
-* この機能を使用すると、迷惑メールとしてメッセージをマークしたり、評判を害したりする可能性のある、迷惑メールを受信者に送信しないようにできます。
+* これらの規制に準拠できないと、ブランドに法規制上のリスクが生じます。
+* この機能を使用すると、未承諾の通信を受信者に送信して、メッセージがスパムと見なされたり、ブランドの評判が損なわれたりする危険性を避けることができます。
 
-プライバシーの管理と適用される規則について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)をご覧ください。
+プライバシーの管理と適用される法規制について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)を参照してください。
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -29,17 +29,17 @@ GDPRなどの規制では、データサブジェクトからの情報を使用�
 
 ## オプトアウト管理 {#opt-out-management}
 
-受信者がブランドからの通信を登録解除する機能を提供することは、法的要件です。 該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations)をご覧ください。
+ブランドからの通信を登録解除する機能を受信者に提供することは、法的要件の 1 つです。該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations)を参照してください。
 
-したがって、受信者に送信されるすべての電子メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
-* このリンクをクリックすると、受信者に、オプトアウトを確認するボタンを含むランディングページが表示されます。
-* オプトアウトボタンをクリックすると、Adobe I/Oコールが実行され、プロファイルデータがこの情報で更新されます。 [この詳細を説明します](#consent-service-api)。
+したがって、受信者に送信されるすべての メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
+* 受信者がこのリンクをクリックすると、オプトアウトを確認するボタンを含んだランディングページが表示されます。
+* オプトアウトボタンをクリックすると、Adobe I/O が呼び出され、プロファイルデータにこの情報が反映されます。[この詳細を説明します](#consent-service-api)。
 
 登録解除リンクを追加するには、次の手順に従います。
 
 1. 登録解除ランディングページを作成します。
 1. ランディングページを任意のサードパーティ製システムでホストします。
-1. [メッセージを作成](../../help/using/create-message.md) し [!DNL Journey Optimizer]ます。
+1. [!DNL Journey Optimizer] で[メッセージを作成](../../help/using/create-message.md)します。
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->
 
@@ -47,58 +47,58 @@ GDPRなどの規制では、データサブジェクトからの情報を使用�
 
    ![](assets/opt-out-insert-link.png)
 
-1. **[!UICONTROL リンクタイプ]**&#x200B;ドロップダウンリストから&#x200B;**[!UICONTROL 登録解除リンク]**&#x200B;を選択します。
+1. **[!UICONTROL リンクタイプ]**&#x200B;ドロップダウンリストから「**[!UICONTROL 登録解除リンク]**」を選択します。
 
    ![](assets/opt-out-link-type.png)
 
-1. **[!UICONTROL 登録解除ページのURL]**&#x200B;フレームで、リンクをランディングページにコピーします。
+1. **[!UICONTROL 登録解除ページの URL]**&#x200B;フレームに、ランディングページへのリンクをコピーします。
 
    ![](assets/opt-out-link-url.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. コンテンツを保存し、[メッセージ](../../help/using/publish-manage-message.md)を公開します。
+1. コンテンツを保存し、[メッセージを公開](../../help/using/publish-manage-message.md)します。
 
    >[!NOTE]
    >
-   >サードパーティランディングページのURLには、プロファイル呼び出しを通じてAdobe I/Oの環境設定を更新するために使用される3つのパラメーターが含まれます。 [詳しくは、このセクション](#consent-service-api)を参照してください。
+   >サードパーティランディングページの URL には、Adobe I/O を呼び出してプロファイルの環境設定を更新するための 3 つのパラメーターが含まれています。詳しくは、[この節](#consent-service-api)を参照してください。
 
-1. [ジャーニー](building-journeys/journey.md)を通じて、ランディングページへのリンクを含むメッセージを送信します。
+1. [ジャーニー](building-journeys/journey.md)を通じて、ランディングページへのリンクを含んだメッセージを送信します。
 
-1. メッセージを受け取ると、受信者が登録解除リンクをクリックすると、ランディングページが表示されます。
+1. メッセージを受け取った受信者が登録解除リンクをクリックすると、ランディングページが表示されます。
 
    ![](assets/opt-out-lp-example.png)
 
-1. 受信者がランディングページ内のオプトアウトボタン（ここでは「**登録解除**」ボタン）をクリックすると、[Adobe I/Oコール](#opt-out-api)によってプロファイルデータが更新されます。
+1. 受信者がランディングページ内のオプトアウトボタン（ここでは「**登録解除**」ボタン）をクリックすると、[Adobe I/O 呼び出し](#opt-out-api)を通じてプロファイルデータが更新されます。
 
-   その後、オプトアウト受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
+   その後、オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
 
    ![](assets/opt-out-confirmation-example.png)
 
-   その結果、このユーザーは再度登録しない限り、ブランドからの連絡を受けることはありません。
+   その結果、購読を再度登録しない限り、このユーザーはブランドから連絡を受けることはありません。
 
-対応するプロファイルの選択が更新されたことを確認するには、「Experience Platform」に移動し、ID名前空間と対応するID値を選択してプロファイルにアクセスします。 詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started)をご覧ください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started)を参照してください。
 
 ![](assets/opt-out-profile-choice.png)
 
-「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]**&#x200B;の値が&#x200B;**[!UICONTROL no]**&#x200B;に変更されたことを確認できます。
+「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## オプトアウトAPI呼び出し{#opt-out-api}
+## オプトアウト API 呼び出し {#opt-out-api}
 
-受信者が登録解除リンクをクリックしてオプトアウトすると、Adobe I/OAPI <!--Consent service API to capture the encrypted data and-->が呼び出され、対応するプロファイルの環境設定が更新されます。
+受信者が登録解除リンクをクリックしてオプトアウトすると、Adobe I/O API <!--Consent service API to capture the encrypted data and-->が呼び出され、対応するプロファイルの環境設定が更新されます。
 
-このAdobe I/OPOST呼び出しは次のとおりです。
+Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 エンドポイント：cjm.adobe.io/imp/consent/preferences
 
-クエリパラメーター:
-* **params**: 暗号化されたペイロードを含む
-* **sig**: signature  <!--which signature?-->
-* **pid**: 暗号化されたプロファイルID
+クエリパラメーター：
+* **params**：暗号化されたペイロードが格納されています
+* **sig**：署名 <!--which signature?-->
+* **pid**：暗号化されたプロファイル ID
 
-これらのパラメーターは、受信者に送信される登録解除リンク(特定の受信者のサードパーティランディングページを開くURLなど)から利用できます。
+これらのパラメーターは、受信者に送信される登録解除リンク（特定の受信者のサードパーティランディングページを開く URL など）から入手できます。
 
 ![](assets/opt-out-parameters.png)
 
@@ -127,8 +127,8 @@ GDPRなどの規制では、データサブジェクトからの情報を使用�
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## プッシュオプトアウト管理 {#push-opt-out-management}
+## プッシュのオプトアウト管理 {#push-opt-out-management}
 
 プッシュの受信者は、自分のデバイスから登録を解除できます。
 
-例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。 同様に、モバイルオペレーティングシステムから通知設定を変更することもできます。
+例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。同様に、モバイルオペレーティングシステムから通知設定を変更することもできます。
