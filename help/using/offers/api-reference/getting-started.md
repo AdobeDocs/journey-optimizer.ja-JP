@@ -20,7 +20,7 @@ ht-degree: 96%
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)：顧客体験データを編成する際に [!DNL Experience Platform] に使用される標準化されたフレームワーク。
    * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)：XDM スキーマの基本的な構成要素について説明します。
-* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md)：一般なエクスペリエンス判定と、特にオファーの判定において使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示できる最適なオプションを選択するための戦略を示します。
+* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md)：エクスペリエンス判定全般（特に Offer Decisioning）で使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示できる最適なオプションを選択するための戦略を示します。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)：PQL は XDM インスタンス上で式を書くための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
 ## API 呼び出し例の読み取り
@@ -74,7 +74,7 @@ curl -X GET \
 
 **応答** 
 
-正常な応答では、Decision Management コンテナに関する情報が返されます。これには `instanceId` 属性が含まれ、値がコンテナ ID になります。
+正常な応答では、決定管理コンテナに関する情報が返されます。これには `instanceId` 属性が含まれ、値がコンテナ ID になります。
 
 ```json
 {
@@ -129,6 +129,6 @@ curl -X GET \
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。 しかし、Journey Optimizer の状況でオファーを使用する際の一般的なガイダンスを提供しています。
+>このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。ただし、Journey Optimizer のコンテキストでオファーを使用する際の一般的なガイダンスを提供しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
