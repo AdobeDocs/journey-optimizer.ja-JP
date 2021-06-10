@@ -1,17 +1,16 @@
 ---
-title: リスト決定
-description: 決定には、オファーを選択に通知するロジックが含まれます。
-translation-type: tm+mt
+title: 決定のリスト
+description: 決定には、オファーの選択を通知するロジックが含まれています。
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # 決定の検索
 
-[!DNL Offer Library] APIにGETリクエストを行い、決定`@id`または要求パスのオファー名を含めることで、特定の決定(以前は「宣言アクティビティ」と呼ばれていました)を検索できます。
+[!DNL Offer Library] API に対してリクエストパスに決定の `@id` または決定の名前のいずれかを含む GET リクエストを実行することで、特定の決定（旧称：オファーアクティビティ）を検索できます。
 
 **API 形式**
 
@@ -22,8 +21,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリー API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | 決定に関連するスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | 決定に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター「id」と「name」は一緒に使用できません。 | `LBAR` |
 
@@ -41,7 +40,7 @@ curl -X GET \
 
 **応答** 
 
-成功した応答は、コンテナID、インスタンスIDおよび一意の決定`@id`に関する情報を含む配置の詳細を返します。
+応答が成功すると、プレースメントに関する詳細（コンテナ ID、インスタンス ID、一意の決定 `@id` に関する情報を含む）が返されます。
 
 ```json
 {
