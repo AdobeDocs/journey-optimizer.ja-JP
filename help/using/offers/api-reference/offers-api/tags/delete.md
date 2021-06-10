@@ -1,9 +1,8 @@
 ---
 title: タグの削除
-description: タグを使用すると、オファーをより適切に整理し並べ替えることができます。
-translation-type: tm+mt
+description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
