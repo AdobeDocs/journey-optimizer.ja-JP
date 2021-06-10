@@ -1,32 +1,31 @@
 ---
-title: メッセージの基本を学ぶ
-description: Journey Optimizerでメッセージを作成する方法を学ぶ
-translation-type: tm+mt
+title: メッセージの概要
+description: Journey Optimizer でメッセージを作成する方法を学ぶ
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-# メッセージの基本を学ぶ {#get-sarted-contents-messages}
+# メッセージの概要 {#get-sarted-contents-messages}
 
 ![](assets/do-not-localize/badge.png)
 
-[!DNL Journey Optimizer]を使用すると、アセットやコンテンツなど複数のリソースを1か所で活用し、パーソナライズされたプッシュ通知や電子メールメッセージを作成して発行できます。
+[!DNL Journey Optimizer] を使用すると、アセットやコンテンツなど複数のリソースを 1 か所で活用し、パーソナライズされたプッシュ通知やメールメッセージを作成して公開することができます。
 
-* [!DNL Journey Optimizer] **電子メールデザイン機能**&#x200B;を活用して、レスポンシブ電子メールを作成またはインポートします。
+* [!DNL Journey Optimizer] **メールデザイン機能**&#x200B;を活用して、レスポンシブなメールを作成または読み込みます。
 
-* **Adobe Experience Manager Assets Essentials**&#x200B;を活用して独自の資産データベースを構築し、電子メールを拡充します。
+* **Adobe Experience Manager Assets Essentials** を活用して独自のアセットデータベースを構築し、メールを強化します。
 
-* プロファイル属性に基づいて&#x200B;**パーソナライズされたプッシュメッセージと電子メールメッセージ**&#x200B;を作成し、顧客体験を強化します。
+* プロファイル属性に基づいて&#x200B;**パーソナライズされたプッシュ通知とメールメッセージ**&#x200B;を作成し、顧客体験を強化します。
 
-* **これらのコンテンツに基づいてプッシュメッセージと電子メール** メッセージを作成し、公開します。
+* これらのコンテンツに基づいて&#x200B;**プッシュ通知とメールメッセージを作成** し、それらを公開します。
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-emails.md">電子メールのデザイン</a></p></td>
+<td><img src="assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-emails.md">メールのデザイン</a></p></td>
 <td><img src="assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="assets-essentials.md">アセットの管理</a></p></td>
-<td><img src="assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="personalization/personalize.md">追加パーソナライズ</a></p></td>
+<td><img src="assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="personalization/personalize.md">パーソナライゼーションの追加</a></p></td>
 <td><img src="assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="create-message.md">メッセージの作成</a></p></td></tr>
 </table>
