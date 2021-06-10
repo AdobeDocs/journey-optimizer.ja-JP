@@ -1,25 +1,24 @@
 ---
-title: Decision Managementイベントの概要
-description: Adobe Experience Platformでデシジョン管理レポートを作成する方法を説明します。
-translation-type: tm+mt
+title: 決定管理イベントの概要
+description: Adobe Experience Platform で 決定管理レポートを作成する方法を説明します。
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Decision Managementイベントの使い始めに{#monitor-offer-events}
+# 決定管理イベントの概要 {#monitor-offer-events}
 
-Decision Managementが特定のプロファイルに対して決定を行うたびに、これらのイベントに関連する情報がAdobe Experience Platformに自動的に送信されます。
+決定管理サービスで特定のプロファイルに対する決定が行われるたびに、これらのイベントに関連する情報が Adobe Experience Platform へと自動的に送信されます。
 
 これにより、これらのデータをエクスポートして、その分析結果を独自のレポートシステムに送信できます。また、分析やレポートの強化を目的として、Adobe Experience Platform の[クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)を他のツールと組み合わせて利用することもできます。
 
-Decision Managementイベントを含むデータセットは、Adobe Experience Platform **[!UICONTROL データセット]**&#x200B;メニューからアクセスできます。 各インスタンスのプロビジョニング時に、データセットが 1 つ自動的に作成されます。
+決定管理イベントを含むデータセットは、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューからアクセスできます。各インスタンスのプロビジョニング時、データセットが自動的に 1 つ作成されます。
 
 ![](../../assets/events-datasets-list.png)
 
-これらのデータセットは、**[!UICONTROL ODE DecisionEvents]**&#x200B;スキーマに基づいています。この中には、Decision ManagementからAdobe Experience Platformに情報を送信するために必要なすべてのXDMフィールドが含まれています。
+これらのデータセットは、**[!UICONTROL ODE DecisionEvents]** スキーマに基づいています。このスキーマには、決定管理サービスから Adobe Experience Platform に情報を送信するために必要なすべての XDM フィールドが含まれています。
 
 >[!NOTE]
 >
@@ -27,5 +26,5 @@ Decision Managementイベントを含むデータセットは、Adobe Experience
 
 **関連トピック：**
 
-* [Decision Managementイベントの主な情報](../reports/key-information.md)
-* [イベントの XDM フィールドへのアクセス ](../reports/xdm-fields.md)
+* [決定管理イベントの主な情報](../reports/key-information.md)
+* [イベントの XDM フィールドへのアクセス](../reports/xdm-fields.md)
