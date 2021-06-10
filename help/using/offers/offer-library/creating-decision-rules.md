@@ -36,7 +36,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
    >[!NOTE]
    >
-   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Audience Destinations]** サービスで使用されるものと比較して、特異性がいくつかあります。 例えば、「**[!UICONTROL セグメント]**」タブは使用できません。 ただし、セグメントビルダーのドキュメントで説明されているグローバルプロセスは、オファーの決定ルールを作成する場合にも有効です。
+   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Audience Destinations]** サービスで使用されるものと比較して、特異性がいくつかあります。例えば、「**[!UICONTROL セグメント]**」タブは使用できません。ただし、セグメントビルダーのドキュメントで説明されているグローバルプロセスは、オファーの決定ルールを作成する場合にも有効です。
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
@@ -48,6 +48,6 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platformで構築された Offer decisioning アプリケーションサービスに適用されます。 しかし、Journey Optimizer の状況でオファーを使用する際の一般的なガイダンスを提供しています。
+>このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。ただし、Journey Optimizer のコンテキストでオファーを使用する際の一般的なガイダンスを提供しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
