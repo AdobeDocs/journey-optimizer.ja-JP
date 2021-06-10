@@ -1,17 +1,16 @@
 ---
-title: 判断の更新
-description: 決定には、オファーを選択に通知するロジックが含まれます。
-translation-type: tm+mt
+title: 決定の更新
+description: 決定には、オファーの選択を通知するロジックが含まれています。
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# 意思決定の更新
+# 決定の更新
 
-[!DNL Offer Library] APIにPATCHリクエストを行うことで、コンテナ内の決定を変更または更新できます。
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内の決定を変更または更新できます。
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
 
@@ -33,7 +32,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリー API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | 決定のインスタンスID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **リクエスト**
@@ -64,7 +63,7 @@ curl -X PATCH \
 
 **応答**
 
-成功した応答は、一意のインスタンスIDと決定`@id`を含む、決定の更新された詳細を返します。
+応答が成功すると、更新された決定の詳細（一意のインスタンス ID と決定 `@id` を含む）が返されます。
 
 ```json
 {
