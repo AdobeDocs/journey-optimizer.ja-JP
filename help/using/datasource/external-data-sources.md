@@ -1,11 +1,10 @@
 ---
 title: '外部データソース '
-description: 外部データソースの設定方法を説明します
-translation-type: tm+mt
+description: 外部データソースの設定方法を学ぶ
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1321'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +31,7 @@ API 呼び出しの例を 2 つ示します。
 
    ![](../assets/journey25.png)
 
-   画面の右側にデータソース設定ペインが開きます。
+   画面の右側にデータソース設定ウィンドウが開きます。
 
    ![](../assets/journey26.png)
 
@@ -51,7 +50,7 @@ API 呼び出しの例を 2 つ示します。
 
    ![](../assets/journey27.png)
 
-1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;に設定します。カスタム認証モードについて詳しくは、[このセクション](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。 この例では、次を選択します。
+1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;のいずれかに設定します。カスタム認証モードについて詳しくは、[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。この例では、次を選択します。
 
 
    * **[!UICONTROL タイプ]**：API キー
@@ -69,12 +68,12 @@ API 呼び出しの例を 2 つ示します。
 * **[!UICONTROL メソッド]**：POST または GET メソッドを選択します。ここでは GET メソッドを選択します。
 * **[!UICONTROL キャッシュ時間]**：ここでは、天気を 10 分間キャッシュします。
 * **[!UICONTROL 応答ペイロード]**：「**[!UICONTROL ペイロード]**」フィールド内をクリックし、呼び出しによって返されたペイロードの例を貼り付けます。この例では、天気 API の web サイトで見つかったペイロードを使用しました。フィールドタイプが正しいことを確認します。API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。現在渡されているペイロードを変更する場合は、「**[!UICONTROL 新しいペイロードを貼り付け]**」をクリックできます。
-* **[!UICONTROL 動的値]**：この例では、コンマで区切られた異なるパラメーター「long,lat」を入力します。パラメーター値は実行コンテキストに依存するので、ジャーニーで定義されます。[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)を参照してください。
+* **[!UICONTROL 動的値]**：この例では、コンマで区切られた異なるパラメーター「long,lat」を入力します。パラメーター値は実行コンテキストに依存するので、ジャーニーで定義されます。[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)を参照してください。
 * **[!UICONTROL 送信済みペイロード]**：このフィールドは、この例では表示されません。このフィールドは POST メソッドを選択した場合にのみ使用できます。サードパーティシステムに送信するペイロードを貼り付けます。
 
-パラメータが必要なGET呼び出しの場合は、**[!UICONTROL 動的値]**&#x200B;フィールドにパラメータを入力すると、呼び出しの最後に自動的に追加されます。 POST 呼び出しの場合は、次の操作が必要です。
+GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL 動的な値]**」フィールドにパラメーターを入力すると、呼び出しの最後に自動的に追加されます。POST 呼び出しの場合は、次の操作が必要です。
 
-* 呼び出し時に渡すパラメーターを&#x200B;**[!UICONTROL 動的値]**&#x200B;フィールドにリストします（次の例を参照）。&quot;識別子&quot;)。
+* 呼び出し時に渡すパラメーターを「**[!UICONTROL 動的な値]**」フィールドにリストします（以下の例では「identifier」）。
 * また、送信済みペイロードの本文で同じ構文を使用して指定します。そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例ではパラメーター名は「identifier」）を追加する必要があります。以下の構文に従います。
 
    ```
@@ -85,7 +84,7 @@ API 呼び出しの例を 2 つ示します。
 
 「**[!UICONTROL 保存]**」をクリックします。
 
-これで、データソースが設定され、ジャーニーで使用できる状態になりました。これで、状況に応じて、電子メールをパーソナライズできます。例えば、気温が 30 ℃を超える場合に特定の通信を送信したりできます。
+これで、データソースが設定され、ジャーニーで使用できる状態になりました。これで、状況に応じて、メールをパーソナライズできます。例えば、気温が 30 ℃を超える場合に特定の通信を送信したりできます。
 
 ## カスタム認証モード{#section_wjp_nl5_nhb}
 
@@ -117,12 +116,12 @@ API 呼び出しの例を 2 つ示します。
 * method：エンドポイントでの HTTP リクエストのメソッド（GET または POST）。
 * headers：必要に応じて、この呼び出しでヘッダーとして挿入されるキーと値のペア。
 * body：メソッドが POST の場合の呼び出しの本文を説明します。bodyParams（キーと値のペア）で定義される、制限付きの本文構造をサポートしています。bodyType は、次の呼び出しでの本文の形式とエンコーディングを記述します。
-   * &#39;form&#39;：コンテンツタイプは application/x-www-form-urlencoded (charset UTF-8) になり、キーと値のペアは key1=value1&amp;key2=value2&amp;... のようにシリアル化されます。
-   * &#39;json&#39;：コンテンツタイプは application/json (charset UTF-8) になり、キーと値のペアは&#x200B;_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のように json オブジェクトとしてシリアル化されます。
+   * &#39;form&#39;：コンテンツタイプは application/x-www-form-urlencoded（文字セット UTF-8）になり、キーと値のペアは key1=value1&amp;key2=value2&amp;... のようにシリアル化されます。
+   * &#39;json&#39;：コンテンツタイプは application/json（文字セット UTF-8）になり、キーと値のペアは&#x200B;_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のように json オブジェクトとしてシリアル化されます。
 
 アクションの HTTP リクエストにアクセストークンを挿入する方法の定義：
 
-* authorizationType：生成されたアクセストークンを、アクションの HTTP 呼び出しに挿入する方法を定義します。次のいずれかの値となります。
+* authorizationType：生成されたアクセストークンを、アクションの HTTP 呼び出しに挿入する方法を定義します。使用可能な値は次のとおりです。
 
    * bearer：アクセストークンを認証ヘッダーに挿入する必要があることを示します（_Authorization: Bearer &lt;アクセストークン>_）。
    * header：アクセストークンをヘッダーとして挿入する必要があることを示します。ヘッダー名は、tokenTarget プロパティで定義されます。例えば、tokenTarget が myHeader の場合、アクセストークンは _myHeader: &lt;アクセストークン>_&#x200B;のようにヘッダーとして挿入されます。
