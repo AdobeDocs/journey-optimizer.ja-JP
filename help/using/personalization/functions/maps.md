@@ -12,7 +12,7 @@ ht-degree: 66%
 
 ![](../../assets/do-not-localize/badge.png)
 
-[!DNL Profile Query Language]（PQL）の機能を使用すると、マップと容易に対話できます。
+[!DNL Profile Query Language]（PQL）の機能を使用すると、マップの操作が容易になります。
 
 ## get{#get}
 
