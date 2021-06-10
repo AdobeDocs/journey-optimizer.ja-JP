@@ -1,29 +1,28 @@
 ---
 title: ジャーニーのフィールド
 description: ジャーニーのフィールド
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
-# ジャーニーフィールド{#sharing-journey-fields}
+# ジャーニーのフィールド {#sharing-journey-fields}
 
 ![](../assets/do-not-localize/badge.png)
 
-このミックスインは、ジャーニースキーマで（jearryStepEventとの関連で）使用されます。 これには、次のフィールドが含まれます。
+この Mixin は、ジャーニーのスキーマで（journeyStepEvent との関連で）使用します。次のフィールドが含まれます。
 
-## jurneryID
+## journeyID
 
-メインジャーニーのID。
+メインジャーニーの ID。
 
 型：文字列
 
-## jeurneyVersionID
+## journeyVersionID
 
-ジャーニーバージョンのID。 このIDは、ジャーニーのIDを表します。
+ジャーニーバージョンの ID。この ID はジャーニーを表します。
 
 型：文字列
 
@@ -33,14 +32,14 @@ ht-degree: 25%
 
 型：文字列
 
-## 説明
+## description
 
 ジャーニーの説明。
 
 型：文字列
 
-## version
+## バージョン
 
-バージョン。`major`.`minor`で表します。
+バージョン。`major``minor` で表します。
 
 型：文字列
