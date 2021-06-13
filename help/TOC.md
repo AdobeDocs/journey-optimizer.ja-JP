@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 83%
@@ -132,15 +132,15 @@ ht-degree: 83%
       + [判定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
-   + オファーカタログのエクスポート {#export-catalog}
-      + [オファーカタログの書き出しの概要 ](using/offers/export-catalog/get-started-export.md)
-      + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
+   + オファーカタログのエクスポート{#export-catalog}
+      + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)
+      + [エクスポートしたオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
       + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
       + [決定データセット](using/offers/export-catalog/export-decisions.md)
       + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
       + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
-   + API リファレンス {#api-reference}
-      + [はじめに](using/offers/api-reference/getting-started.md)
+   + API リファレンス{#api-reference}
+      + [概要](using/offers/api-reference/getting-started.md)
       + API を使用したオファーの作成と管理 {#offers-api}
          + プレースメント {#placements}
             + [プレースメントのリスト](using/offers/api-reference/offers-api/placements/placements-list.md)
@@ -148,37 +148,37 @@ ht-degree: 83%
             + [プレースメントの作成](using/offers/api-reference/offers-api/placements/create.md)
             + [プレースメントの更新](using/offers/api-reference/offers-api/placements/update.md)
             + [プレースメントの削除](using/offers/api-reference/offers-api/placements/delete.md)
-         + 決定ルール {#decision-rules}
+         + 決定ルール{#decision-rules}
             + [決定ルールのリスト](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
             + [決定ルールの参照](using/offers/api-reference/offers-api/decision-rules/lookup.md)
             + [決定ルールの作成](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [決定ルールの更新](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [決定ルールの削除](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + タグ {#tags}
+         + タグ{#tags}
             + [タグのリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [タグの参照](using/offers/api-reference/offers-api/tags/lookup.md)
             + [タグの作成](using/offers/api-reference/offers-api/tags/create.md)
             + [タグの更新](using/offers/api-reference/offers-api/tags/update.md)
             + [タグの削除](using/offers/api-reference/offers-api/tags/delete.md)
-         + パーソナライズされたオファー {#personalized-offers}
+         + パーソナライズされたオファー{#personalized-offers}
             + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
             + [パーソナライズされたオファーの作成](using/offers/api-reference/offers-api/personalized-offers/create.md)
             + [パーソナライズされたオファーの更新](using/offers/api-reference/offers-api/personalized-offers/update.md)
             + [パーソナライズされたオファーの削除](using/offers/api-reference/offers-api/personalized-offers/delete.md)
-         + コレクション {#collections}
+         + コレクション{#collections}
             + [コレクションのリスト](using/offers/api-reference/offers-api/collections/collections-list.md)
             + [コレクションの参照](using/offers/api-reference/offers-api/collections/lookup.md)
             + [コレクションの作成](using/offers/api-reference/offers-api/collections/create.md)
             + [コレクションの更新](using/offers/api-reference/offers-api/collections/update.md)
             + [コレクションの削除](using/offers/api-reference/offers-api/collections/delete.md)
-         + フォールバックオファー {#fallback-offers}
+         + フォールバックオファー{#fallback-offers}
             + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [フォールバックオファーの参照](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
             + [フォールバックオファーの作成](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [フォールバックオファーの更新](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [フォールバックオファーの削除](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + API を使用した決定の作成と管理 {#activities-api}
+      + API を使用した決定の作成と管理{#activities-api}
          + [決定のリスト](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [決定の参照](using/offers/api-reference/activities-api/activities/lookup.md)
          + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
