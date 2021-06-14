@@ -11,9 +11,13 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 4b515b497de3721794f22c6833ed1f5269110171
+feature: アプリケーション設定
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '650'
 ht-degree: 8%
 
 ---
@@ -24,11 +28,11 @@ ht-degree: 8%
 [!DNL Journey Optimizer]を使用すると、ジャーニーでの送信から自動的に除外されるすべてのEメールアドレスを監視できます。例：
 
 * 無効なアドレス（ハードバウンス）や、常にソフトバウンスで、配信にEメールを引き続き含めると、Eメールのレピュテーションに悪影響を与える可能性があるアドレス。
-* E メールメッセージに対して何らかの形でスパムの苦情を申し立てる受信者。
+* メールメッセージに対して何らかの形でスパムを申し立てる受信者。
 
 <!--Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md). NOT TRUE as confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
-このような電子メールアドレスは、Journey Optimizerの&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。 詳しくは、[このセクション](../suppression-list.md)を参照してください。
+このような電子メールアドレスは、Journey Optimizerの&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。 詳しくは、[この節](../suppression-list.md)を参照してください。
 
 ## 抑制リスト{#access-suppression-list}にアクセスします
 
