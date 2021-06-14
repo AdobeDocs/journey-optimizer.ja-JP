@@ -1,9 +1,13 @@
 ---
 title: 条件アクティビティ
 description: 条件アクティビティについて学ぶ
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '922'
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '925'
 ht-degree: 100%
 
 ---
@@ -55,7 +59,7 @@ ht-degree: 100%
 
 ## データソースの条件 {#data_source_condition}
 
-これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントーに基づいて条件を定義できます。式エディターの使用方法については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)を参照してください。高度な式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。[このページ](../datasource/external-data-sources.md)を参照してください。
+これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントーに基づいて条件を定義できます。式エディターの使用方法については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)を参照してください。高度な式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。[このページ](../datasource/external-data-sources.md)を参照してください。
 
 ![](../assets/journey50.png)
 
