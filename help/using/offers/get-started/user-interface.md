@@ -1,9 +1,13 @@
 ---
 title: ユーザーインターフェイス
 description: オファーライブラリユーザーインターフェイスの詳細を説明します。
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '461'
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -16,21 +20,21 @@ ht-degree: 100%
 
 * **[!UICONTROL オファー]**：パーソナライズされたフォールバックオファーにアクセスするか、新しいオファーを作成します。[オファーの作成](../offer-library/creating-personalized-offers.md)および[フォールバックオファーの作成](../offer-library/creating-fallback-offers.md)を参照してください。
 
-* **[!UICONTROL コレクション]**：静的なオファーコレクションと動的なオファーコレクションを作成および管理します。[オファーコレクションについて](../offer-library/creating-collections.md)を参照してください。
+* **[!UICONTROL コレクション]**：静的なオファーコレクションと動的なオファーコレクションを作成および管理します。詳細は[オファーコレクションについて](../offer-library/creating-collections.md)を参照してください。
 
-* **[!UICONTROL 決定]**：オファーを配信するための決定を作成し、管理します。[決定を作成する](../offer-activities/create-offer-activities.md)を参照してください。
+* **[!UICONTROL 決定]**：オファーを提供するための決定を作成および管理します。[決定を作成する](../offer-activities/create-offer-activities.md)を参照してください。
 
 ![](../../assets/offers_menu.png)
 
 **[!UICONTROL コンポーネント]**&#x200B;メニューを使用して、オファーの作成に必要なコンポーネントを管理します。
 
-* **[!UICONTROL プレースメント]**：オファーを表示するプレースメントを作成および管理します。[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
+* **[!UICONTROL プレースメント]**：オファーを表示するプレースメントを作成および管理します。詳細は[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
 
-* **[!UICONTROL タグ]**：タグを作成および管理して、オファーを整理およびフィルタリングします。[タグの作成](../offer-library/creating-tags.md)を参照してください。
+* **[!UICONTROL タグ]**：タグを作成および管理して、オファーを整理およびフィルタリングします。詳細は[タグの作成](../offer-library/creating-tags.md)を参照してください。
 
-* **[!UICONTROL ルール]**：オファーが提示される条件を管理します。[決定ルールの作成](../offer-library/creating-decision-rules.md)を参照してください。
+* **[!UICONTROL ルール]**：オファーが提示される条件を管理します。詳細は[決定ルールの作成](../offer-library/creating-decision-rules.md)を参照してください。
 
-* **[!UICONTROL ランキング]**：ランキング式を作成および管理し、特定のプレースメントに対して最初に表示するオファーを決定します。[ランキング式の作成](../offer-library/create-ranking-formulas.md)を参照してください。
+* **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。See [ランキング式の作成](../offer-library/create-ranking-formulas.md)を参照してください。
 
 ![](../../assets/offer_activities.png)
 
@@ -66,9 +70,9 @@ ht-degree: 100%
 
 ![](../../assets/duplicate-offer.png)
 
-## オファーと決定の変更ログ {#changes-logs}
+## オファーと決定の変更ログ{#changes-logs}
 
-オファーライブラリを使用すると、オファーまたは決定に対して実行されたすべての変更を表示できます。これをおこなうには、リスト内の名前をクリックしてオファーまたは決定を開「**[!UICONTROL ログの変更]**」タブを選択します。
+オファーライブラリを使用すると、オファーまたは決定に対して実行されたすべての変更を表示できます。すべての変更を表示するには、リストでオファーまたは決定の名前をクリックして開き、「 **[!UICONTROL 変更ログ]**」タブを選択します。
 
 加えられたすべての変更と、変更を行ったユーザーの名前がこの画面に表示されます。
 
