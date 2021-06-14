@@ -1,10 +1,14 @@
 ---
-title: 関数ライブラリ
-description: 関数ライブラリ
-source-git-commit: cd1b07bbb4b247d1d8c0cc87be9e4bdad22377ed
+title: 演算関数ライブラリ
+description: 演算関数ライブラリ
+feature: パーソナライズ機能
+topic: パーソナライズ機能
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 51%
+source-wordcount: '182'
+ht-degree: 48%
 
 ---
 
