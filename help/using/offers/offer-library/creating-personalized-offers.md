@@ -1,14 +1,18 @@
 ---
 title: パーソナライズされたオファーの作成
 description: Adobe Experience Platform でパーソナライズされたオファーを作成する方法を説明します。
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '965'
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '967'
 ht-degree: 100%
 
 ---
 
-# パーソナライズされたオファーの作成 {#creating-personalized-offers}
+# パーソナライズされたオファーの作成{#creating-personalized-offers}
 
 オファーを作成する前に、以下が作成済みであることを確認してください。
 
@@ -16,7 +20,7 @@ ht-degree: 100%
 * オファーを表示する条件を定義する&#x200B;**決定ルール**。[決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
 * オファーに関連付ける 1 つまたは複数の&#x200B;**タグ**。[タグを作成](../offer-library/creating-tags.md)を参照してください。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
 
 パーソナライズされたオファーのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
@@ -126,7 +130,7 @@ ht-degree: 100%
 
 ![](../../assets/offer_created.png)
 
-オファーが作成されたら、リスト内の名前をクリックして詳細情報にアクセスできます。また、オファーに加えられたすべての変更を「**[!UICONTROL 変更ログ]**」タブで監視することもできます（[オファーおよび決定に対する変更の監視](../get-started/user-interface.md#monitoring-changes)を参照）。
+オファーが作成されたら、リスト内のオファー名をクリックして詳細情報にアクセスしたり、オファーに加えられたすべての変更を「**[!UICONTROL 変更ログ]**」タブで監視したりできます（[オファーおよび決定に対する変更の監視](../get-started/user-interface.md#monitoring-changes)を参照）。
 
 ## チュートリアルビデオ {#video}
 
