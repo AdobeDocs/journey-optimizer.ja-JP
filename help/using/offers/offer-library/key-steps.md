@@ -1,9 +1,13 @@
 ---
 title: オファーを作成するための主な手順
 description: オファーの作成に必要な主な手順を説明します。
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: ht
-source-wordcount: '149'
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
