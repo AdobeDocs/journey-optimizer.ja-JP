@@ -1,9 +1,13 @@
 ---
 title: ジャーニーのバージョン
 description: ジャーニーのバージョンについて学ぶ
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
