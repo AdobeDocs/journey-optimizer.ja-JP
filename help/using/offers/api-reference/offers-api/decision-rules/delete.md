@@ -1,9 +1,13 @@
 ---
 title: 決定ルールの削除
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '159'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
@@ -36,7 +40,7 @@ curl -X DELETE \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答** 
+**応答**
 
 正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
 
