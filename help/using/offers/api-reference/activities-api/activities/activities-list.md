@@ -1,18 +1,22 @@
 ---
 title: 決定のリスト
 description: 決定には、オファーの選択を通知するロジックが含まれています。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '256'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
 
 # 決定のリスト
 
-決定（旧称：オファーアクティビティ）には、オファーの選択を通知するロジックがあります。
+決定（旧称：オファーアクティビティ）には、選択したオファーを通知するロジックが含まれます。
 
-[!DNL Offer Library] API に対して GET リクエストを 1 回送信すると、コンテナ内のすべての決定のリストを表示できます。
+[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内のすべての決定のリストを表示できます。
 
 **API 形式**
 
@@ -53,11 +57,11 @@ curl -X GET \
 | `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
 | `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
 | `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
-| `limit` | 返される決定の数を制限します。 | `limit=5` |
+| `limit` | 返す決定の数を制限します。 | `limit=5` |
 
 **応答**
 
-応答に成功すると、アクセス権を持つコンテナ内に存在する決定のリストが返されます。
+正常な応答では、アクセス可能なコンテナ内に存在する決定のリストが返されます。
 
 ```json
 {
