@@ -1,9 +1,13 @@
 ---
 title: 決定管理イベントの概要
 description: Adobe Experience Platform で 決定管理レポートを作成する方法を説明します。
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '175'
+feature: オファー
+topic: 統合
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
