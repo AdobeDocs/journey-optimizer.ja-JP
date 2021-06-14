@@ -2,9 +2,13 @@
 solution: Journey Orchestration
 title: アクションについて
 description: アクションの設定方法を説明します
-source-git-commit: 8ae771014808f0bf87087fe3dc926bf94d94495e
+feature: アクション
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '218'
 ht-degree: 91%
 
 ---
