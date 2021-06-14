@@ -1,9 +1,13 @@
 ---
 title: パーソナライゼーション構文
 description: パーソナライゼーション構文の使用方法を説明します。
-source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
+feature: パーソナライズ機能
+topic: パーソナライズ機能
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 69%
 
 ---
