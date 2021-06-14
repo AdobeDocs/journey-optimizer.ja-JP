@@ -1,9 +1,13 @@
 ---
 title: 書き出したオファーカタログへのアクセス
 description: Adobe Experience Platform に書き出したオファーカタログにアクセスする方法を説明します。
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '113'
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
