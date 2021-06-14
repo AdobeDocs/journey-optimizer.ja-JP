@@ -1,9 +1,13 @@
 ---
 title: メッセージ実行の監視
 description: 監視と配信品質のガイドラインについて学ぶ
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: 配信品質
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '557'
 ht-degree: 98%
 
 ---
