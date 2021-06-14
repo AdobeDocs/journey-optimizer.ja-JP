@@ -1,10 +1,14 @@
 ---
 title: ヘルパー
-description: 関数ライブラリ
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+description: ヘルパー
+feature: パーソナライズ機能
+topic: パーソナライズ機能
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 63%
+source-wordcount: '327'
+ht-degree: 60%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 63%
 
 ## 条件{#if-function}
 
-`if`ヘルパーを使用して、条件付きブロックを定義します。
+`if` ヘルパーは、条件ブロックを定義します。
 式の評価が true を返す場合、ブロックはレンダリングされます。true を返さない場合はスキップされます。
 
 **構文**
@@ -26,8 +30,8 @@ ht-degree: 63%
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-`if`ヘルパーの後に、`else`ステートメントを入力して、同じ条件が false の場合に実行するコードのブロックを指定できます。
-`elseif`ステートメントは、最初のステートメントがfalse を返した場合にテストする新しい条件を指定します。
+`if` ヘルパーの後に、`else` ステートメントを入力して、同じ条件が false の場合に実行するコードのブロックを指定できます。
+`elseif` ステートメントは、最初のステートメントが false を返した場合にテストする新しい条件を指定します。
 
 
 **形式**
@@ -45,7 +49,7 @@ ht-degree: 63%
 
 **例**
 
-1. **条件付き式に基づいて異なるストアリンクをレンダリングする**
+1. **条件式に基づいて異なるストアリンクをレンダリング**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -55,7 +59,7 @@ ht-degree: 63%
    {%/if%}
    ```
 
-1. **電子メールアドレスの拡張子を決定する**
+1. **Eメールアドレスの拡張を決定する**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -103,12 +107,12 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->セグメント化とセグメント化サービスの詳細については、こちらの[セクション](../../segment/about-segments.md)をご覧ください。
+>セグメント化とセグメント化サービスの詳細については、こちらの[節](../../segment/about-segments.md)を参照してください。
 
 
 ## Unless{#unless}
 
-`unless`ヘルパーを使用して、条件付きブロックを定義します。
+`unless` ヘルパーは、条件ブロックを定義します。
 `if`ヘルパーとの対立により、式の評価がfalseを返した場合、ブロックがレンダリングされます。
 
 **構文**
@@ -119,7 +123,7 @@ ht-degree: 63%
 
 **例**
 
-電子メールアドレスの拡張子に基づいてコンテンツをレンダリングする:
+メールアドレスの拡張子に基づいてコンテンツをレンダリングする：
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -131,9 +135,9 @@ Some edu specific content Content
 
 ## Each{#each}
 
-`each`ヘルパーは、配列に対して反復処理を行うために使用します。
-ヘルパーの構文は```{{#each ArrayName}}``` YourContent {{/each}}です
-個々の配列項目は、ブロック内でキーワード**this**&#x200B;を使用して参照できます。 配列の要素のインデックスは、{{@index}}を使用してレンダリングできます。
+`each` ヘルパーは、配列に対して反復処理をおこなうために使用します。
+ヘルパーの構文は ```{{#each ArrayName}}``` YourContent {{/each}}です
+個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、{{@index}} を使用してレンダリングできます。
 
 **構文**
 
@@ -154,7 +158,7 @@ Some edu specific content Content
 
 **例**
 
-このユーザーが買い物かごに入れている商品のリストをレンダリングします。
+このユーザーが買い物かごに入れている商品のリストをレンダリングする：
 
 ```sql
 {{#each profile.products as |product|}}
@@ -179,7 +183,7 @@ template-partの評価トークンを変更するには、 `with`ヘルパーを
 
 **例**
 
-長い変数名を短い変数名にエイリアシングする場合に使用します。
+長い変数名を短い変数名にエイリアシングする場合に使用する：
 
 ```sql
 {{#with profile.person.name as |name|}}
