@@ -1,9 +1,13 @@
 ---
 title: パーソナライズされたオファーのリスト
 description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '174'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -40,7 +44,7 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答** 
+**応答**
 
 正常な応答では、パーソナライズされたオファーに関するプレースメントの詳細（コンテナ ID とインスタンス ID に関する情報と一意のパーソナライズされたオファー `@id` を含む）が返されます。
 
