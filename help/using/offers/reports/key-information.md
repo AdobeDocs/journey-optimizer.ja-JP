@@ -1,9 +1,13 @@
 ---
 title: 決定管理イベントの主な情報
 description: 各 決定管理イベントで送信される主な情報について詳しく説明します。
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '139'
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '141'
 ht-degree: 100%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 100%
 * **[!UICONTROL フォールバック]**：フォールバックオファーの名前と ID（パーソナライズされたオファーが選択されていない場合）
 * **[!UICONTROL プレースメント]**：オファーの配信に使用するプレースメントの名前、ID、チャネル
 * **[!UICONTROL 選択]**：プロファイルに対して選択したオファーの名前と ID
-* **[!UICONTROL アクティビティ]**：決定の名前と ID （旧称：オファーアクティビティ）。
+* **[!UICONTROL アクティビティ]**：決定の名前と ID（旧称：オファーアクティビティ）。
 
 さらに、**[!UICONTROL identityMap]** と **[!UICONTROL Timestamp]** の各フィールドを利用して、オファー配信時のプロファイルと時刻に関する情報を取得することもできます。
 
