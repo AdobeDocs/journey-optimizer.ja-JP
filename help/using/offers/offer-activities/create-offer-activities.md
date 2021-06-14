@@ -1,41 +1,45 @@
 ---
 title: 決定の作成
-description: 決定の作成方法を学ぶ
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '605'
+description: 決定の作成方法を説明します
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
 
-# 決定の作成 {#create-offer-activities}
+# 決定を作成{#create-offer-activities}
 
-決定（旧称：オファーアクティビティ）はオファーのコンテナです。オファー決定エンジンを活用し、配信ターゲットに応じて最適なオファーを選び出します。
+決定（旧称：オファーアクティビティ）は、オファーのコンテナです。配信のターゲットに応じて、提供する最適なオファーを選ぶために Offer Decisioning エンジンを使用します。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
 
-決定のリストは、**[!UICONTROL オファー]**&#x200B;メニューの「**[!UICONTROL 決定]**」タブからアクセスできます。フィルターを利用すると、ステータスや開始日、終了日に応じてアクティビティを取得できます。
+決定のリストは、**[!UICONTROL オファー]**&#x200B;メニュー／「**[!UICONTROL 決定]**」タブでアクセスできます。フィルターは、ステータスや開始日、終了日に応じて決定を取得するのに役立ちます。
 
 ![](../../assets/activities-list.png)
 
-決定を作成する前に、オファーライブラリで以下のコンポーネントが作成されていることを確認してください。
+決定を作成する前に、以下のコンポーネントがオファーライブラリに作成されていることを確認してください。
 
 * [プレースメント](../offer-library/creating-placements.md),
 * [コレクション](../offer-library/creating-collections.md),
 * [パーソナライズされたオファー](../offer-library/creating-personalized-offers.md)
 * [フォールバックオファー](../offer-library/creating-fallback-offers.md)
 
-## 決定の作成 {#create-activity}
+## 決定の作成{#create-activity}
 
-1. 決定リストにアクセスし、「**[!UICONTROL アクティビティの作成]**」をクリックします。
+1. 決定リストにアクセスし、「**[!UICONTROL アクティビティを作成]**」をクリックします。
 
 1. 決定の名前、開始日時、終了日時を指定して、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](../../assets/activities-name.png)
 
-## 決定の追加 {#add-decisions}
+## 決定の追加{#add-decisions}
 
-1. リストからプレースメントをドラッグ＆ドロップして決定に追加し、「**[!UICONTROL コレクションを追加]**」をクリックします。
+1. リストからプレースメントをドラッグ＆ドロップして決定に追加し、「 **[!UICONTROL コレクションを追加]**」をクリックします。
 
    ![](../../assets/activities-placement.png)
 
@@ -75,13 +79,13 @@ ht-degree: 100%
 
 ## 決定のレビューと保存 {#review}
 
-すべてが適切に設定され、決定が顧客にオファーを提供できる状態になっている場合は、「**[!UICONTROL 終了]**」をクリックし、「**[!UICONTROL 保存して有効化]**」を選択します。
+すべてが適切に設定され、決定が顧客にオファーを提供できる状態になっている場合は、「**[!UICONTROL 完了]**」をクリックし、「**[!UICONTROL 保存してアクティベート]**」を選択します。
 
-決定を、ドラフトとして保存し、後で編集して有効にすることもできます。
+決定はドラフトとして保存し、後で編集してアクティベートできるようにします。
 
 ![](../../assets/save-activities.png)
 
-決定は、前のステップで有効にしたかどうかに応じて、**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL ドラフト]**&#x200B;のステータスでリストに表示されます。
+決定は前のステップでアクティベートしたかどうかに応じて、 **[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL ドラフト]**&#x200B;のステータスでリストに表示されます。
 
 これで、顧客にオファーを提供するために使用する準備が整いました。選択してプロパティを表示し、編集または抑制できます。
 
