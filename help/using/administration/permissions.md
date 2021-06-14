@@ -1,6 +1,6 @@
 ---
 title: ユーザーと製品プロファイルの管理
-description: 権限の管理方法を説明します
+description: 権限の管理方法を学ぶ
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -12,9 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: コントロール母集団
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 16%
 
 ---
@@ -53,15 +57,15 @@ ht-degree: 16%
 
    ![](../assets/access_control_3.png)
 
-1. ユーザーの名前またはメールアドレスを入力し、ユーザーを選択します。 
+1. ユーザーの名前またはメールアドレスを入力し、ユーザーを選択します。
 
    ユーザーが以前に[!DNL Admin Console]に作成されていない場合は、[ユーザーの追加のドキュメント](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](../assets/access_control_4.png)
 
-1. 上記と同じ手順を実行して、他のユーザーを&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に追加します。 **[!UICONTROL 保存]**&#x200B;をクリックします。
+1. 上記と同じ手順を実行して、他のユーザーを&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に追加します。 次に、「**[!UICONTROL 保存]**」をクリックします。
 
-その後、 インスタンスにリダイレクトする電子メールがユーザーに送信されます。
+その後、 インスタンスにリダイレクトするメールがユーザーに送信されます。
 
 ユーザー管理の詳細については、[Admin Consoleのドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html)を参照してください。
 
@@ -99,7 +103,7 @@ ht-degree: 16%
 
 1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で、横の X アイコンをクリックして製品プロファイルに対する権限を削除します。
 
-1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
+1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](../assets/access_control_8.png)
 
@@ -115,7 +119,7 @@ ht-degree: 16%
 
 読み取り専用の&#x200B;**ジャーニー** **[!UICONTROL 製品プロファイル]**&#x200B;を作成するには：
 
-1. [!DNL Admin Console]にアクセスします。
+1. [!DNL Admin Console] にアクセスします。
 
 1. 「**[!UICONTROL Experience Cloud]**」タブから、「**[!UICONTROL 製品 — Platformが使用するアプリケーション]**」製品を選択します。
 
@@ -149,9 +153,9 @@ ht-degree: 16%
 
    ![](../assets/access_control_13.png)
 
-1. 「**[!UICONTROL 利用可能な権限項目]**」で、プラス（+）アイコンをクリックして、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細を説明します](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。
+1. 「**[!UICONTROL 利用可能な権限項目]**」で、プラス（+）アイコンをクリックして、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。
 
-1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
+1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
 これで、**[!UICONTROL 製品プロファイル]**&#x200B;が作成され、設定されました。 次に、ユーザーに割り当てる必要があります。
 
