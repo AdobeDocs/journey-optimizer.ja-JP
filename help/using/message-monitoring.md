@@ -1,9 +1,13 @@
 ---
 title: メッセージ実行の監視
 description: 監視ガイドラインについて学ぶ
-source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
+feature: 監視
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 85%
 
 ---
@@ -48,7 +52,7 @@ ht-degree: 85%
 
 ![](assets/message-execution-tab-filters.png)
 
-2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。
+<!--**[!UICONTROL Quick action]**-->2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。
 
 ![](assets/message-execution-open-live-report.png)
 
