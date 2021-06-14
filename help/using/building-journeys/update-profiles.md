@@ -1,9 +1,13 @@
 ---
 title: プロファイルの更新
 description: 「プロファイルを更新」アクティビティをジャーニーで使用する方法を説明します
-source-git-commit: ce9484905b359900096858e46c05aef09efaa760
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 93%
 
 ---
