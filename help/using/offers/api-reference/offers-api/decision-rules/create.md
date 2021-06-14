@@ -1,9 +1,13 @@
 ---
 title: 決定ルールの作成
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '138'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '140'
 ht-degree: 100%
 
 ---
@@ -65,7 +69,7 @@ curl -X POST \
     }'
 ```
 
-**応答** 
+**応答**
 
 正常な応答では、新たに作成された決定ルールに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用して決定ルールを更新または削除できます。後のチュートリアルで、独自の決定ルール `@id` を使用してパーソナライズされたオファーを作成できます。
 
