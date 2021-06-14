@@ -1,9 +1,13 @@
 ---
 title: フォールバックオファーの検索
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '158'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '160'
 ht-degree: 100%
 
 ---
@@ -38,7 +42,7 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答** 
+**応答**
 
 正常な応答では、フォールバックオファーに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のフォールバックオファー `@id` に関する情報を含む）が返されます。
 
