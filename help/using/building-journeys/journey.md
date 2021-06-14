@@ -1,9 +1,13 @@
 ---
 title: 一般原則
 description: 一般原則
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '118'
 ht-degree: 85%
 
 ---
