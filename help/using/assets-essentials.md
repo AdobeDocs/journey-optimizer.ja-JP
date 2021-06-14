@@ -1,10 +1,14 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Assets Essentialsの概要
-source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
+feature: 概要
+topic: コンテンツ管理
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '407'
+ht-degree: 4%
 
 ---
 
@@ -12,7 +16,7 @@ ht-degree: 3%
 
 ![](assets/do-not-localize/badge.png)
 
-## [!DNL Assets Essentials] の基本を学ぶ {#get-started-assets-essentials}
+## [!DNL Assets Essentials] の概要 {#get-started-assets-essentials}
 
 [!DNL Adobe Experience Manager Assets Essentials] は、メッセージの入力に使用できるアセットの単一の一元的なリポジトリを提供します。[!DNL Adobe Journey Optimizer]から&#x200B;**[!UICONTROL Assets]**&#x200B;セクションを通じて直接アクセスできます。 また、Eメールコンテンツをデザインする際に、アセットやフォルダーにアクセスすることもできます。 [Eメールデザインの詳細を説明します](design-emails.md)。
 
