@@ -12,9 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: acf9ab50e0afee0a83c164524f060f891627e9c9
+feature: コントロール母集団
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1032'
 ht-degree: 6%
 
 ---
