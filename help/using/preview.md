@@ -1,9 +1,13 @@
 ---
 title: メッセージのプレビューと配達確認の送信
 description: メッセージのプレビューおよびテスト方法を学ぶ
-source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '810'
 ht-degree: 97%
 
 ---
