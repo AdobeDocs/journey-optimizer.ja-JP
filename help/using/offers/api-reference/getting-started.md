@@ -1,9 +1,13 @@
 ---
 title: はじめに
 description: 決定管理エンジンで主要な操作を実行するために必要な、オファーライブラリ API の使用方法を説明します。
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 96%
 
 ---
@@ -12,7 +16,7 @@ ht-degree: 96%
 
 このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
 
 ## 前提条件
 
@@ -25,7 +29,7 @@ ht-degree: 96%
 
 ## API 呼び出し例の読み取り
 
-ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切に書式設定されたリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、 トラブルシューテングガイドの[API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)に関する節を参照してください[!DNL Experience Platform]。
+ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、 トラブルシューテングガイドの[API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)に関する節を参照してください[!DNL Experience Platform]。
 
 ## 必須ヘッダーの値の収集
 
@@ -72,7 +76,7 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答** 
+**応答**
 
 正常な応答では、決定管理コンテナに関する情報が返されます。これには `instanceId` 属性が含まれ、値がコンテナ ID になります。
 
