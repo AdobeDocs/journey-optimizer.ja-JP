@@ -1,14 +1,18 @@
 ---
-title: プッシュ設定の基本を学ぶ
+title: プッシュ設定の概要
 description: プッシュ通知のデータフローとコンポーネントについて
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: アプリケーション設定
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
 
-# プッシュ通知の設定{#get-started-push}
+# プッシュ通知の設定 {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
