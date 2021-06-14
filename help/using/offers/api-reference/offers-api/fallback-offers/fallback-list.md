@@ -1,16 +1,20 @@
 ---
 title: フォールバックオファーのリスト
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '283'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
 
 # フォールバックオファーのリスト
 
-フォールバックオファーは、他のオファーに対する資格がない場合に顧客に送信されます。フォールバックオファーを作成する手順は、オファーを作成する場合など、1 つまたは複数の表示域を作成することで構成されます。
+フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。。フォールバックオファーを作成する手順は、オファーを作成する場合など、1 つまたは複数の表示域を作成することで構成されます。
 
 [!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内のすべてのフォールバックオファーのリストを表示できます。
 
