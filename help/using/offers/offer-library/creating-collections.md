@@ -1,9 +1,13 @@
 ---
 title: コレクションの作成
 description: コレクションを使用してオファーを整理する方法を説明します。
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '296'
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -12,9 +16,9 @@ ht-degree: 100%
 
 コレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。例えば、スポーツ関連のオファーのみを含む「スポーツ」コレクションを作成できます。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
 
-オファーコレクションのリストには、「 **[!UICONTROL オファー]**」メニューでアクセスできます。
+オファーコレクションのリストには、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
 ![](../../assets/collections_list.png)
 
