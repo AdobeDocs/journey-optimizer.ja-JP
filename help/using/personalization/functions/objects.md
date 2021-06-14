@@ -1,10 +1,14 @@
 ---
-title: 関数ライブラリ
-description: 関数ライブラリ
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+title: オブジェクト関数ライブラリ
+description: オブジェクト関数ライブラリ
+feature: パーソナライズ機能
+topic: パーソナライズ機能
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 60%
+source-wordcount: '59'
+ht-degree: 52%
 
 ---
 
