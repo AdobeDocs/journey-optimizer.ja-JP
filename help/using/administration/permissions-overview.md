@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e954db290e69ce64a3900e4c52764858214ca439
+feature: コントロール母集団
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 18%
+source-wordcount: '158'
+ht-degree: 20%
 
 ---
 
@@ -33,6 +37,6 @@ ht-degree: 18%
 
 * **[!UICONTROL サンドボックス]**:インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[サンドボックスの使用](sandboxes.md)を参照してください。
 
-各概念は、Admin Consoleにアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。 [Adobe Admin Consoleの詳細について説明します](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html?lang=ja)。
+各概念は、Admin Consoleにアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。 [Adobe Admin Console の詳細情報](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)。
 
 ![](../assets/do-not-localize/permissions_2.png)
