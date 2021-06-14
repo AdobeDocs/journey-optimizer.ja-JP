@@ -1,16 +1,20 @@
 ---
 title: 決定の作成
 description: 決定には、オファーの選択を通知するロジックが含まれています。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '119'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '121'
 ht-degree: 100%
 
 ---
 
 # 決定の作成
 
-コンテナ ID を提供しながら、[!DNL Offer Library] API に対して POST リクエストを実行することで、決定（旧称：オファーアクティビティ）を作成できます。
+コンテナ ID を提供しながら [!DNL Offer Library]API に対して POST リクエストを実行することで、決定（旧オファーアクティビティ）を作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー
 
@@ -62,7 +66,7 @@ curl -X POST \
     }'
 ```
 
-**応答** 
+**応答**
 
 正常な応答では、新たに作成された決定に関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用して決定を更新または削除できます。
 
