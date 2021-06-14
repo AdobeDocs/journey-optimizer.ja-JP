@@ -1,9 +1,13 @@
 ---
 title: ビジネスイベントの設定
 description: ビジネスイベントの作成方法
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: イベント
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '838'
 ht-degree: 98%
 
 ---
