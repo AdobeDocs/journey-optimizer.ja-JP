@@ -1,9 +1,13 @@
 ---
 title: 決定でのオファー選択の設定
-description: 決定でのオファー選択を管理する方法を学ぶ
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '255'
+description: 決定でのオファー選択を管理する方法を説明します。
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 100%
 
 ランキング式を作成したら、決定内のプレースメントに割り当てることができます。これをおこなうには、以下の手順に従います。
 
-* 決定を作成するか、既存の決定を編集したあと、オファーを含むプレースメントを作成します（「[決定の作成](../offer-activities/create-offer-activities.md)」を参照）。
+* 決定を作成するか、既存の決定を編集し、オファーを含んだプレースメントを作成します（「 [決定の作成](../offer-activities/create-offer-activities.md)」を参照）。
 
 * プレースメントごとに、ドロップダウンリストから 「**[!UICONTROL ランキング]**」を選択して、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
