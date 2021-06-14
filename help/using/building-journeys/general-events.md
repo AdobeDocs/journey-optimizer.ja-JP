@@ -2,10 +2,14 @@
 solution: Journey Orchestration
 title: 一般イベント
 description: 一般イベントの使用方法を学ぶ
-source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 76%
+source-wordcount: '371'
+ht-degree: 77%
 
 ---
 
