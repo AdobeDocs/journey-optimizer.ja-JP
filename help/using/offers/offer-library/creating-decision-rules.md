@@ -1,9 +1,13 @@
 ---
 title: 決定ルールの作成
 description: Adobe Experience Platform での決定ルールを作成する方法を説明します。
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: オファー
+topic: 統合
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 97%
 
 ---
@@ -14,9 +18,9 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 例えば、性別が女性で地域が北東部の場合にのみ「婦人冬服」オファーを表示するように指定できます。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
 
-作成した決定ルールのリストには、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
+作成した決定ルールのリストには、 **[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
 
 ![](../../assets/decision_rules_list.png)
 
