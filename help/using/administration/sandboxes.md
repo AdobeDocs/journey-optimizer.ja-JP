@@ -12,9 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
+feature: コントロール母集団
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 70%
 
 ---
@@ -26,9 +30,9 @@ ht-degree: 70%
 ## サンドボックス{#using-sandbox}の使用
 
 [!DNL Journey Optimizer] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
-サンドボックスは、Admin Console の製品プロファイルから割り当てられます。[サンドボックスの割り当て方法を説明します](permissions.md#create-product-profile)。
+サンドボックスは、Admin Console の製品プロファイルから割り当てられます。[サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer]  には、任意の組織用に作成された Adobe Experience Platform サンドボックスが反映されます。
+[!DNL Journey Optimizer] は、特定の組織用に作成された Adobe Experience Platform サンドボックスを反映します。
 Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳しくは、Sandboxユーザーガイドを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)。
 
 画面の左上に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
@@ -55,7 +59,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
    ![](../assets/sandbox_2.png)
 
-1. 「**[!UICONTROL 利用可能な権限項目]**」で、プラス（+）アイコンをクリックして、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細を説明します](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。
+1. 「**[!UICONTROL 利用可能な権限項目]**」で、プラス（+）アイコンをクリックして、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。
 
    ![](../assets/sandbox_3.png)
 
@@ -67,10 +71,10 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 ## コンテンツへのアクセス {#content-access}
 
-コンテンツのアクセシビリティを設定するには、コンテンツの共有フォルダーを各サンドボックスに割り当てる必要があります。 [!DNL Admin Console]に表示される「ストレージ&#x200B;**[!UICONTROL 」タブで、管理者向けに共有フォルダーを作成し、設定できます。]**&#x200B;システム管理者として[!DNL Admin Console]にアクセスできる場合は、共有フォルダを作成し、異なるアクセスレベルの委任を共有フォルダに追加できます。
+コンテンツのアクセシビリティを設定するには、コンテンツの共有フォルダーを各サンドボックスに割り当てる必要があります。管理者向けの [!DNL Admin Console] に表示される「**[!UICONTROL ストレージ]**」タブで、共有フォルダーを作成し、設定できます。システム管理者として [!DNL Admin Console] にアクセスできる場合は、共有フォルダーを作成し、異なるアクセスレベルの委任を共有フォルダーに追加できます。
 
 ![](../assets/do-not-localize/content_access.png)
 
-コンテンツを正しいサンドボックスと同期させるには、サンドボックスと同じ構文に従う必要があります。例えば、サンドボックスが開発と呼ばれる場合、共有フォルダーは同じ名前にする必要があります。
+コンテンツを正しいサンドボックスと同期させるには、サンドボックスと同じ構文に従う必要があります。例えば、サンドボックスの名前が「開発」の場合、共有フォルダーも同じ名前にする必要があります。
 
-[共有フォルダーを管理する方法を説明します](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html)。
+[共有フォルダーの管理方法を学ぶ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html)。
