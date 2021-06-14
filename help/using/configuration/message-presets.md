@@ -1,10 +1,14 @@
 ---
 title: メッセージプリセットの作成
 description: メッセージプリセットの設定と監視の方法について説明します
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: アプリケーション設定
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 1%
 
 ---
 
