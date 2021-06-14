@@ -1,6 +1,6 @@
 ---
 title: PTRレコード
-description: xxxxの方法を説明します
+description: 「ptr-recordsの管理方法の詳細」
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
+feature: アプリケーション設定
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 0%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
