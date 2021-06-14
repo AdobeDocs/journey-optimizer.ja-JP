@@ -1,9 +1,13 @@
 ---
 title: オプトアウトの管理
 description: オプトアウトとプライバシーを管理する方法について説明します。
-source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '616'
 ht-degree: 100%
 
 ---
