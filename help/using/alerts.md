@@ -1,9 +1,13 @@
 ---
 title: メッセージ内のアラート
 description: メッセージコンテンツの検証の確認とトラブルシューティングの方法を説明します。
-source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
+feature: ジャーニー
+topic: コンテンツ管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
