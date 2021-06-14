@@ -1,16 +1,20 @@
 ---
 title: 決定の削除
 description: 決定には、オファーの選択を通知するロジックが含まれています。
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '146'
+feature: オファー
+topic: 統合
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
 
 # 決定の削除
 
-場合によっては、決定（旧称オファーアクティビティ）を削除（DELETE）する必要があります自身がテナントコンテナで作成した決定のみを削除できます。これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
+決定（旧称：オファーアクティビティ）を削除（DELETE）する必要が生じる場合があります。テナントコンテナで作成した決定のみを削除できます。これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
 
 **API 形式**
 
@@ -36,7 +40,7 @@ curl -X DELETE \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答** 
+**応答**
 
 正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
 
