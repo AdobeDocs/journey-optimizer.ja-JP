@@ -9,7 +9,7 @@ hide: true
 source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 83%
    + [メッセージの概要](using/get-started-content.md)
    + メッセージの作成 {#create-message}
       + [メッセージの作成](using/create-message.md)
-      + [E メールの作成](using/create-email.md)
+      + [メールの作成](using/create-email.md)
       + [プッシュ通知の作成](using/create-push.md)
    + [アセットの追加と管理](using/assets-essentials.md)
    + E メールデザイナー {#email-designer}
@@ -44,10 +44,10 @@ ht-degree: 83%
          + [ヘルパー関数のリスト](using/personalization/functions/functions.md)
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
-         + [配列とリスト関数](using/personalization/functions/arrays-list.md)
+         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
          + [ブール関数と比較関数](using/personalization/functions/operators.md)
          + [ヘルパー](using/personalization/functions/helpers.md)
-         + [map 関数](using/personalization/functions/maps.md)
+         + [マップ関数](using/personalization/functions/maps.md)
          + [オブジェクト関数](using/personalization/functions/objects.md)
          + [文字列関数](using/personalization/functions/string.md)
    + [パーソナライズされたオファーの追加](using/deliver-personalized-offers.md)
@@ -111,9 +111,9 @@ ht-degree: 83%
    + 配信品質 {#deliverability}
       + [配信品質の概要](using/deliverability.md)
       + [抑制リスト](using/suppression-list.md)
-+ 判定管理{#offer-decisioniong}
++ 決定管理 {#offer-decisioniong}
    + 決定管理の概要 {#get-started}
-      + [判定管理について](using/offers/get-started/starting-offer-decisioning.md)
+      + [決定管理について](using/offers/get-started/starting-offer-decisioning.md)
       + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
       + [用語集](using/offers/get-started/glossary.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
@@ -129,7 +129,7 @@ ht-degree: 83%
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
    + 決定管理レポートの作成 {create-reports}
-      + [判定管理イベントの概要](using/offers/reports/get-started-events.md)
+      + [決定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
@@ -184,30 +184,30 @@ ht-degree: 83%
          + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
          + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
          + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
-      + APIを使用したオファー配信{#offer-delivery}
+      + API を使用したオファー配信 {#offer-delivery}
          + [決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + 設定 {#get-started}
-   + [Journey Optimizer設定の概要](using/configuration/get-started-configuration.md)
-   + メッセージの設定{#configuration}
+   + [Journey Optimizer の設定の概要](using/configuration/get-started-configuration.md)
+   + メッセージの設定 {#configuration}
       + [技術設定](using/administration/administration.md)
       + [メッセージプリセットの作成](using/configuration/message-presets.md)
       + [プッシュチャネルの設定](using/push-configuration.md)
       + [プッシュ通知の設定](using/push-gs.md)
-      + 電子メールの設定{#email-config}
-         + サブドメインをデリゲート{#delegate-subdomains}
+      + メールの設定 {#email-config}
+         + サブドメインのデリゲート {#delegate-subdomains}
             + [サブドメインデリゲーションの概要](using/configuration/about-subdomain-delegation.md)
             + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
             + [デリゲートされたサブドメインへのアクセス](using/configuration/access-subdomains.md)
             + [Google TXTレコードの追加](using/configuration/google-txt.md)
-            + [PTRレコードへのアクセス](using/configuration/ptr-records.md)
-         + [IPプールの作成](using/configuration/ip-pools.md)
-         + Eメールアドレスの監視{#monitor-reputation}
+            + [PTR レコードへのアクセス](using/configuration/ptr-records.md)
+         + [IP プールの作成](using/configuration/ip-pools.md)
+         + メールアドレスの監視 {#monitor-reputation}
             + [抑制リストの管理](using/configuration/manage-suppression-list.md)
             + [再試行](using/configuration/retries.md)
-         + [電子メールの主アドレスの変更](using/configuration/primary-email-addresses.md)
-   + ジャーニーの設定{#configure-journeys}
-      + [データソース、イベントおよびアクションについて](using/configuration/about-data-sources-events-actions.md)
+         + [メールのメインアドレスの変更 ](using/configuration/primary-email-addresses.md)
+   + ジャーニーの設定 {#configure-journeys}
+      + [データソース、イベント、およびアクションの作成](using/configuration/about-data-sources-events-actions.md)
       + [外部システムとの統合](using/configuration/external-systems.md)
       + イベント設定 {#events-journeys}
          + [一般原則](using/event/about-events.md)
