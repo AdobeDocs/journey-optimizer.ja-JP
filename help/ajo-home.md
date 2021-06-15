@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 80%
 
 ## 新着情報
 
-* [アクセ](using/administration/permissions-overview.md) </br> ス制御ユーザーに割り当てる権限を定義および管理する方法を説明 [!DNL Journey Optimizer] します
+* [ アクセス制御 ](using/administration/permissions-overview.md) </br> ユーザーに割り当てる権限を定義および管理する方法を説明します [!DNL Journey Optimizer] 
 
-* [ヘルパー関](using/personalization/functions/functions.md) </br> 数式エディターのヘルパー関数を活用して、メッセージの内容をパーソナライズします
+* [ヘルパー関数](using/personalization/functions/functions.md) </br> 数式エディターのヘルパー関数を活用して、メッセージの内容をパーソナライズします
 
 * [決定管理](using/offers/get-started/starting-offer-decisioning.md) </br>オファーを作成し、最適なオファーとエクスペリエンスを顧客に提供します
 
 * [プレビューとテストメッセージ](using/preview.md) </br>テストプロファイルを使用してメッセージをプレビュー、配達確認を送信、メールのレンダリングをコントロールします
 
-* [ライブレ](using/reports/live-report.md) ポート [とグ](using/reports/global-report.md)</br> ローバルレポートジャーニーとメッセージの効果を追跡、測定するレポート機能を発見します
+* [ ライブレポート ](using/reports/live-report.md) と [ グローバルレポートジャーニーとメッセージの効果を追跡、測定するレポート機能を発見します ](using/reports/global-report.md)</br> 
 
 * [テストプロファイルの作成](using/building-journeys/creating-test-profiles.md) </br> テストプロファイルを作成し、それらを使用してメッセージやジャーニーをテストします。
 
