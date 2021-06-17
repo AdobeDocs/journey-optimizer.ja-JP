@@ -5,22 +5,20 @@ feature: イベント
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
-# Adobe Analytics データの活用{#analytics-data}
+# Adobe Analyticsデータを活用{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+ジャーニーをトリガーし顧客向けのエクスペリエンスを自動化するために、既にキャプチャして Platform にストリーミングしている Adobe Analytics のあらゆる行動イベントデータを活用できます。
 
 >[!NOTE]
 >
 >この節は、ルールベースのイベントと、Adobe Analytics データを使用する必要があるお客様にのみ当てはまります。
-
-ジャーニーをトリガーし顧客向けのエクスペリエンスを自動化するために、既にキャプチャして Platform にストリーミングしている Adobe Analytics のあらゆる行動イベントデータを活用できます。
 
 そのためには、利用するレポートスイートを Adobe Experience Platform で有効化する必要があります。
 
@@ -34,4 +32,4 @@ ht-degree: 100%
 
 ![](../assets/jo-event9.png)
 
-Adobe Analytics ソースコネクタの詳細については、[ドキュメント]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja) および[チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja)を参照してください。
+Adobe Analyticsソースコネクタについて詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)と[チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)を参照してください。
