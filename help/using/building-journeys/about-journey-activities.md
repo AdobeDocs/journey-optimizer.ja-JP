@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # ジャーニーアクティビティについて {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを作成します。
 
@@ -24,7 +22,7 @@ ht-degree: 100%
 
 * [一般イベント](../building-journeys/general-events.md)
 * [反応](../building-journeys/reaction-events.md)
-* [セグメントの選定](../building-journeys/segment-qualification-events.md)
+* [セグメント認定](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
@@ -39,7 +37,7 @@ ht-degree: 100%
 * [条件](../building-journeys/condition-activity.md)
 * [終了](../building-journeys/end-activity.md)
 * [待機](../building-journeys/wait-activity.md)
-* [セグメントの読み取り](../building-journeys/read-segment.md)
+* [セグメントを読み取り](../building-journeys/read-segment.md)
 
 ![](../assets/journey49.png)
 
