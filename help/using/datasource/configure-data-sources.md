@@ -5,16 +5,14 @@ feature: データソース
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 98%
 
 ---
 
 # データソースの設定 {#configure-data-source}
-
-![](../assets/do-not-localize/badge.png)
 
 主なデータソース設定手順は次のとおりです。
 
@@ -22,9 +20,7 @@ ht-degree: 100%
 >
 >データソースの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-1. **[!UICONTROL 管理者]**／**[!UICONTROL データソース]**&#x200B;メニューを選択します。
-
-   データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../user-interface.md)を参照してください。
+1. 「管理」メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../user-interface.md)を参照してください。
 
    ![](../assets/journey18.png)
 
