@@ -1,17 +1,15 @@
 ---
 title: ジャーニーの実行の開始
 description: ジャーニーを開始し、メッセージを送信する方法を学ぶ
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 
 # ジャーニーの実行 {#message-execution}
-
-![](../assets/do-not-localize/badge.png)
 
 ## ジャーニーのテスト
 
@@ -46,11 +44,11 @@ ht-degree: 100%
 
 ## メッセージのスケジュール {#schedule-messages}
 
-メッセージは、[ジャーニー](journey.md)の&#x200B;**[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティを通じてスケジュールできます。セグメントがジャーニーにエントリするタイミングを指定できます。[セグメントを読み取りアクティビティの詳細情報](read-segment.md)。
+メッセージは、**[!UICONTROL ジャーニー](journey.md)の[セグメントの読み取り]**&#x200B;アクティビティを通じてスケジュールできます。 セグメントがジャーニーにエントリするタイミングを指定できます。[セグメントを読み取りアクティビティの詳細を説明します](read-segment.md)。
 
-これをおこなうには、以下の手順に従います。
+これを行うには、以下の手順に従います。
 
-1. ジャーニーを編集し、**[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティをドラッグ＆ドロップして設定を開始します。[セグメントの読み取りクティビティの設定の詳細情報](read-segment.md#configuring-segment-trigger-activity)。
+1. ジャーニーを編集し、「**[!UICONTROL セグメントを読み取り]**」アクティビティをドラッグ&amp;ドロップして、設定を開始します。 [「セグメントを読み取り」アクティビティの設定について説明します](read-segment.md#configuring-segment-trigger-activity)。
 
 1. 「**[!UICONTROL ジャーニースケジュールを編集]**」リンクをクリックして、ジャーニーのプロパティにアクセスします。
 
