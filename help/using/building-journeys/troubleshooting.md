@@ -5,7 +5,7 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 99%
@@ -13,8 +13,6 @@ ht-degree: 99%
 ---
 
 # トラブルシューティング{#concept_nlv_bcv_2fb}
-
-![](../assets/do-not-localize/badge.png)
 
 この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法を説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。テストモードで以下のすべてのチェックをおこない、公開に進むことをお勧めします。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
