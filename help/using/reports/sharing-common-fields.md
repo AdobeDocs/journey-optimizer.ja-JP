@@ -5,18 +5,16 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 98%
 
 ---
 
 # journeySteps イベントの共通フィールド {#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-この Mixin は、journeyStepEvent と journeyStepProfileEvent が共有します。
+このフィールドグループは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
 
 [!DNL Journey Optimizer] が Adobe Experience Platform に送信する一般的な XDM フィールドです。共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
