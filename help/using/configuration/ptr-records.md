@@ -15,7 +15,7 @@ feature: アプリケーション設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -33,7 +33,7 @@ PTRレコードを使用すると、受信側のメールサーバーは、IPア
 
 ## サブドメインのPTRレコードへのアクセス
 
-Customer Journey Managementでサブドメインがデリゲートされると、PTRレコードが自動的に作成され、このサブドメインに関連付けられます。 **[!UICONTROL チャネル]** / **[!UICONTROL PTRレコード]**&#x200B;メニューからアクセスできます。
+Customer Journey Managementでサブドメインがデリゲートされると、PTRレコードが自動的に作成され、このサブドメインに関連付けられます。 **[!UICONTROL チャネル]** `>` **[!UICONTROL PTRレコード]**&#x200B;メニューからアクセスできます。
 
 ![](../assets/ptr-records.png)
 
