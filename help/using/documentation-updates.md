@@ -1,8 +1,8 @@
 ---
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
+workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 100%
 
@@ -10,8 +10,6 @@ ht-degree: 100%
 
 
 # ドキュメントの更新
-
-![](assets/do-not-localize/badge.png)
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新をすべてリストします。
 [リリースノート](release-notes.md)も参照してください。
