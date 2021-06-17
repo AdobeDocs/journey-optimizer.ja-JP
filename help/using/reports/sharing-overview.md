@@ -5,22 +5,20 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 91%
 
 ---
 
 # ジャーニーレポートの作成{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 [リアルタイムレポート](live-report.md)と組み込みの[グローバルレポート機能](global-report.md)に加え、[!DNL Journey Optimizer] では、ジャーニーパフォーマンスデータを Adobe Experience Platform に自動的に送信でき、他のデータと組み合わて分析できるようになります。
 
 >[!NOTE]
 >
->新しくデプロイしたインスタンスでは、この機能はデフォルトではアクティブ化されません。リクエストに応じて有効化されます。
+>この機能は、ジャーニーステップのイベントのすべてのインスタンスで、デフォルトで有効になっています。 ジャーニープロファイルステップのイベントの場合、アクティベーションはリクエストに応じておこなわれます。 この機能のプロビジョニング中に作成したスキーマとデータセットは変更しないでください。
 
 たとえば、複数の メールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Optimizer] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。ジャーニー情報を Adobe Experience Platform のデータ（他のデジタルプロパティのデータまたはオフラインプロパティのデータ）と組み合わせて、パフォーマンスをより包括的に把握することができます。
 
