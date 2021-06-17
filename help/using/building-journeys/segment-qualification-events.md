@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 89%
 
 ---
 
-# セグメントの選定イベント {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
+# セグメントの選定イベント{#segment-qualification}
 
 ## セグメント選定イベントについて{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ ht-degree: 100%
 >選択したセグメントがストリーミングされると、このセグメントに属する個人がリアルタイムでジャーニーにエントリする可能性があります。セグメントがバッチの場合、新たにこのセグメントに選定された訪問者は、セグメントの計算が Adobe Experience Platform で実行されるとジャーニーにエントリする可能性があります。
 
 
-1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL セグメントの選定]**&#x200B;アクティビティをキャンバスにドロップします。
+1. 「**[!UICONTROL イベント]**」カテゴリを展開し、「**[!UICONTROL セグメント認定]**」アクティビティをキャンバスにドロップします。
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ ht-degree: 100%
 * 選定のタイムスタンプ
 * セグメント ID。
 
-**[!UICONTROL セグメントの選定]**&#x200B;アクティビティに続く条件または操作で式エディターを使用する場合、**[!UICONTROL SegmentQualification]** ノードにアクセスできます。**[!UICONTROL 前回の選定時間]**&#x200B;と&#x200B;**[!UICONTROL ステータス]**&#x200B;のどちらかを選択できます（エントリまたは離脱）。
+**[!UICONTROL Segment Qualification]**&#x200B;アクティビティに続く条件やアクションで式エディターを使用する場合は、**[!UICONTROL SegmentQualification]**&#x200B;ノードにアクセスできます。 **[!UICONTROL 前回の選定時間]**&#x200B;と&#x200B;**[!UICONTROL ステータス]**&#x200B;のどちらかを選択できます（エントリまたは離脱）。
 
 [条件アクティビティ](../building-journeys/condition-activity.md#about_condition)を参照してください。
 
 ![](../assets/segment8.png)
+
+セグメントの選定イベントを含む新しいジャーニーは、公開してから10分後に動作します。 この期間は、専用サービスのキャッシュ更新間隔に対応します。 したがって、このジャーニーを使用する前に10分待つ必要があります。
 
 ## ベストプラクティス {#best-practices-segments}
 
