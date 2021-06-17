@@ -1,20 +1,18 @@
 ---
-title: E メールの作成
+title: メールの作成
 description: Journey OptimizerでEメールを作成する方法を説明します
 feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 82%
+ht-degree: 76%
 
 ---
 
-# E メールの作成 {#configure-email}
-
-![](assets/do-not-localize/badge.png)
+# メールの作成 {#configure-email}
 
 [メッセージ](create-message.md)を作成したら、「**[!UICONTROL Eメール]**」タブを使用して、Eメールチャネルの設定とコンテンツを定義します。
 
@@ -26,8 +24,8 @@ ht-degree: 82%
 
 メールの設定手順は次のとおりです。
 
-1. **[!UICONTROL メールの件名]**&#x200B;を指定します。右側のボタンをクリックして式エディターを開き、メールの件名を作成します。パーソナライゼーションの追加方法については、[この節](personalization/personalization-aeras.md)を参照してください。
+1. **[!UICONTROL メールの件名]**&#x200B;を指定します。右側のボタンをクリックして式エディターを開き、メールの件名を作成します。パーソナライゼーションの追加方法については、[この節](personalization/personalize.md)を参照してください。
 
-1. 「**[!UICONTROL E メールデザイナー]**」をクリックして、メールをデザインします。メールのデザイン方法については、[この節](design-emails.md)を参照してください。
+1. 「**[!UICONTROL E メールデザイナー]**」をクリックして、メールをデザインします。[この節](design-emails.md)でEメールをデザインする方法を説明します。
 
 1. 受信者の動作を開封数やリンクのクリック数で追跡する場合、「**[!UICONTROL メールの開封トラッキング]**」オプションと「**[!UICONTROL メールのクリックトラッキング]**」オプションが有効になっていることを確認します。トラッキングの詳細については、[この節](message-tracking.md)を参照してください。
