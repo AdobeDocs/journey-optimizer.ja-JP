@@ -5,18 +5,16 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 96%
 
 ---
 
 # journeyStep イベントのアクション実行フィールド {#sharing-execution-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-この Mixin は、journeyStepEvent と journeyStepProfileEvent が共有します。
+このフィールドグループは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
 
 処理が必要なアクションがステップにある場合、これらのフィールドはイベントペイロードに追加されます。
 
