@@ -5,7 +5,7 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # メールコンテンツの読み込みまたはコーディング {#existing-content}
-
-![](assets/do-not-localize/badge.png)
 
 Journey Optimizer では、既存の HTML コンテンツを読み込んメールを設計できます。このコンテンツには、Raw HTML コードや、既存の HTML ファイルまたは zip フォルダーから取得したコンテンツを使用できます。
 
@@ -57,7 +55,6 @@ HTML コンテンツのコーディングを作成したり、既存のコンテ
 1. コードの準備が整ったら、「**[!UICONTROL 保存]**」をクリックし、メッセージ作成画面に戻ってメッセージを完成させます。
 
    ![](assets/code-editor-save.png)
-
 
 ## HTML の読み込み{#import-html-content-from-file}
 
