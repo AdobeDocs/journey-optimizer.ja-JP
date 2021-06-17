@@ -5,17 +5,15 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 69%
+source-wordcount: '559'
+ht-degree: 68%
 
 ---
 
 
 # パーソナライゼーション構文 {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]でのパーソナライゼーションは、Handlebarsと呼ばれるテンプレート構文に基づいています。
 Handlebars構文の詳細は、[HandlebarsJSのドキュメント](https://handlebarsjs.com/)を参照してください。
@@ -24,14 +22,12 @@ Handlebars構文の詳細は、[HandlebarsJSのドキュメント](https://handl
 
 簡単な式のサンプル：
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 各パラメーターの意味は次のとおりです。
 
-* **profile** は名前空間です。
-* **person.name** は、属性で構成されるトークンです。属性構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)。
+* `profile` は名前空間です。
+* `person.name` は、属性で構成されるトークンです。属性構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)。
 
 ## 構文の一般的なルール
 
@@ -59,15 +55,19 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
 **サンプルリファレンス：**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## セグメント{#perso-segments}
 
@@ -84,16 +84,14 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
 このパスは次の構造を持ちます。
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 各パラメーターの意味は次のとおりです。
 
 * `offers` オファー名前空間に属するパス式を識別します。
 * `Type`  は、オファー表示域のタイプを決定します。次の値を指定できます。`image`、`html`および`text`
 * `Placement Id` とは配置 `Activity Id` とアクティビティの識別子です。
-* `Attributes` は、オファータイプに依存するオファー固有の属性です。例：`deliveryUrl`（画像の場合）
+* `Attributes` は、オファータイプに依存するオファー固有の属性です。例：画像の場合は`deliveryUrl`
 
 Decisions APIとオファー表示域について詳しくは、[このページ](../../using/offers/api-reference/decisions-api/deliver-offers.md)を参照してください。
 
