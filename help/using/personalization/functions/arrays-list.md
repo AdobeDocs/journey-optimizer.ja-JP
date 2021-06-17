@@ -5,16 +5,14 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 66%
 
 ---
 
-# 配列とリスト関数 {#arrays}
-
-![](../../assets/do-not-localize/badge.png)
+# 配列およびリスト関数 {#arrays}
 
 これらの関数を使用すると、配列、リスト、文字列とのやり取りが容易になります。
 
