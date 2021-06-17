@@ -5,26 +5,29 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 84%
+source-wordcount: '1241'
+ht-degree: 63%
 
 ---
 
 # ユーザーインターフェイス {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
-このドキュメントは、製品の最近の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、実際のインターフェイスと多少異なる場合があります。
-
-## ワークスペース {#cjm-workspace}
-
 [Adobe Experience Cloud](http://experience.adobe.com) に接続したら、[!DNL Journey Optimizer] を参照します。
 
 >[!NOTE]
 >
->ユーザーインターフェイスのブラウジング時の主要な概念については、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide)を参照してください。
+>* ユーザーインターフェイスを参照する際の主要な概念は、Adobe Experience Platformで共通です。 詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide)を参照してください。
+   >
+   >
+* このドキュメントは、製品のユーザーインターフェイスに最新の変更を反映するために頻繁に更新されています。 ただし、一部のスクリーンショットは、実際のインターフェイスと多少異なる場合があります。
+   >
+   > 
+* UIで使用できるコンポーネントと機能は、権限とライセンスパッケージによって異なります。 ご質問は、担当のAdobeカスタマーサクセスマネージャーにお問い合わせください。
+
+
+## 左ナビゲーション
 
 左側のリンクを使用して、機能を参照します。
 
@@ -84,9 +87,39 @@ ht-degree: 84%
 
 * **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と発展に役立てることができます。[サンドボックスの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)
 
-## ブラウザーと言語のサポート
+
+## 製品内の使用例
+
+ホームページの[!DNL Adobe Journey Optimizer]の使用例を活用し、カスタマージャーニーを作成するための簡単な入力をいくつか提供します。
+
+![](assets/use-cases-home.png)
+
+使用可能な使用例は次のとおりです。
+
+* **テストプロファイルを作成**&#x200B;し、CSVテンプレートを使用してテストプロファイルを作成し、パーソナライズされたメッセージとジャーニーをテストします。この使用例[の実装方法については、このページ](building-journeys/creating-test-profiles.md#use-case-1)を参照してください。
+* **顧客に誕生日のメッセージを送信します**。顧客の誕生日を祝うEメールを自動的に送信します。（近日公開）
+* **新規登録された顧客を歓迎するために**、最大2通の電子メールを簡単に送信できるように、新規顧客に電子メールを送信します。（近日公開）
+* **読み込まれた顧客のリストにプッシュメッセージを送信**:CSVファイルから読み込まれた顧客のリストにプッシュ通知をすばやく送信します。（近日公開）
+
+各使用例の詳細を確認するには、「**[!UICONTROL 詳細を表示]**」をクリックします。
+
+「**[!UICONTROL 開始]**」ボタンをクリックして、使用例を開始します。
+
+「**[!UICONTROL ユースケースライブラリを表示]**」ボタンから、実行済みのユースケースにアクセスできます。
+
+## ヘルプとサポートを検索
+
+Adobe Journey Optimizerの主要なヘルプページには、ホームページの下部のセクションからアクセスできます。
+
+**ヘルプ**&#x200B;アイコンを使用して、ヘルプページにアクセスし、サポートに連絡して、フィードバックを共有します。 検索フィールドからヘルプ記事やビデオを検索できます。
+
+![](assets/ajo-help.png)
+
+## サポートされているブラウザー
 
 Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージョンの Google Chrome で最適に動作するようにデザインされています。古いバージョンや他のブラウザーでは、特定の機能を使用すると問題が発生する場合があります。
+
+## 言語の環境設定
 
 現在、ユーザーインターフェイスは次の言語で利用できます。
 
@@ -106,7 +139,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ## 検索
 
-上部バーの中央にあるAdobe Experience Cloud検索を使用して、サンドボックス間のアセット、ジャーニー、メッセージを検索します。 上位の結果を表示するコンテンツの入力を開始します。
+Adobe Journey Optimizerインターフェイスの任意の場所で、上部バーの中央にあるAdobe Experience Cloud検索を使用して、サンドボックス間のアセット、ジャーニー、メッセージを検索します。 上位の結果を表示するコンテンツの入力を開始します。
 
 ![](assets/unified-search.png)
 
@@ -138,17 +171,3 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 様々なリストで、各要素に対して基本的な操作を実行できます。例えば、項目の複製や削除が可能です。
 
 ![](assets/journey4.png)
-
-## Adobe Experience Platform フィールドの参照 {#friendly-names-display}
-
-[イベントペイロード](event/about-creating.md#define-the-payload-fields)と[フィールドグループペイロード](datasource/configure-data-sources.md#define-field-groups)を定義して[式エディター](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
-
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。この変数は、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
-
-![](assets/xdm-from-descriptors.png)
-
-わかりやすい名前が使用できる場合は、フィールドが `<friendly-name>(<name>)` と表示されます。わかりやすい名前がない場合は、表示名（例：`<display-name>(<name>)`）が表示されます。いずれも定義されていない場合は、フィールドの技術的な名前のみ（`<name>`）が表示されます。
-
->[!NOTE]
->
->スキーマの和集合からフィールドを選択した場合、わかりやすい名前は取得されません。
