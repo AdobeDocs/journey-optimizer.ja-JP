@@ -5,33 +5,17 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 81%
 
 ---
 
-# ヘルプセンター {#cjm-documentation}
+# Adobe Journey Optimizerドキュメント{#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
-![](using/assets/do-not-localize/badge.png)
-**[!DNL Journey Optimizer]** は現在 **ベータ版**&#x200B;で、予告なく頻繁に変更される可能性があります。製品 UI の「ベータ版フィードバック」ボタンからエクスペリエンスを共有してください。既知の問題は、この[ページ](using/known-issues.md)に記載されています。
-
-## 新着情報
-
-* [ アクセス制御 ](using/administration/permissions-overview.md) </br> ユーザーに割り当てる権限を定義および管理する方法を説明します [!DNL Journey Optimizer] 
-
-* [ヘルパー関数](using/personalization/functions/functions.md) </br> 数式エディターのヘルパー関数を活用して、メッセージの内容をパーソナライズします
-
-* [決定管理](using/offers/get-started/starting-offer-decisioning.md) </br>オファーを作成し、最適なオファーとエクスペリエンスを顧客に提供します
-
-* [プレビューとテストメッセージ](using/preview.md) </br>テストプロファイルを使用してメッセージをプレビュー、配達確認を送信、メールのレンダリングをコントロールします
-
-* [ ライブレポート ](using/reports/live-report.md) と [ グローバルレポートジャーニーとメッセージの効果を追跡、測定するレポート機能を発見します ](using/reports/global-report.md)</br> 
-
-* [テストプロファイルの作成](using/building-journeys/creating-test-profiles.md) </br> テストプロファイルを作成し、それらを使用してメッセージやジャーニーをテストします。
 
 ## はじめに
 
@@ -39,9 +23,15 @@ ht-degree: 100%
 
 * [メールコンテンツの設計](using/design-emails.md) </br>新しいメールを設計または既存の HTML コンテンツを読み込みます
 
-* [メッセージの送信](using/building-journeys/journey.md) </br> カスタマージャーニーでのプッシュメッセージおよびメールメッセージの追加方法について説明します。
+* [メッセージの送信](using/building-journeys/journeys-message.md) </br> カスタマージャーニーでのプッシュメッセージおよびメールメッセージの追加方法について説明します。
 
 * [初めてのジャーニーの作成](using/building-journeys/journeys-uc.md) </br>ジャーニーの作成および実行方法を説明します
+
+* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Journey Optimizerを設定するための主な手順
+
+* [アクセス権の [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> 付与ユーザーに割り当てる権限を定義および管理する方法を説明 [!DNL Journey Optimizer] します
+
+* [決定管理](using/offers/get-started/starting-offer-decisioning.md) </br>オファーを作成し、最適なオファーとエクスペリエンスを顧客に提供します
 
 ## その他のリソース
 
