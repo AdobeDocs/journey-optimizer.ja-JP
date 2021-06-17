@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 決定を作成する前に、以下のコンポーネントがオファーライブラリに作成されていることを確認してください。
 
-* [プレースメント](../offer-library/creating-placements.md),
-* [コレクション](../offer-library/creating-collections.md),
+* [プレースメント](../offer-library/creating-placements.md)
+* [コレクション](../offer-library/creating-collections.md)
 * [パーソナライズされたオファー](../offer-library/creating-personalized-offers.md)
 * [フォールバックオファー](../offer-library/creating-fallback-offers.md)
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
    ![](../../assets/activities-name.png)
 
-## 決定の追加{#add-decisions}
+## オファーを追加 {#add-offers}
 
 1. リストからプレースメントをドラッグ＆ドロップして決定に追加し、「 **[!UICONTROL コレクションを追加]**」をクリックします。
 
