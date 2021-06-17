@@ -5,7 +5,7 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # 待機アクティビティ{#section_rlm_nft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。
 
