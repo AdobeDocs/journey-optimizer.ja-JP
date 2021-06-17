@@ -5,16 +5,14 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
-# メールのグローバルレポート {#email-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Eメールグローバルレポート{#email-global-report}
 
 メールの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、特定のメール配信のみを対象としています。
 
@@ -42,7 +40,21 @@ ht-degree: 97%
 
 * **[!UICONTROL スパム苦情率]**：配信されたメッセージに対して、受信者がスパムと見なしたメールの割合。苦情の詳細については、[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability)を参照してください。
 
-* **[!UICONTROL 登録解除率]**：配信されたメッセージに対する、一意の購読解除の数。
+* **[!UICONTROL 購読解除率]**:配信されたメッセージ数に対する、一意の購読解除の割合。この指標は、購読解除リンクのクリック数に依存しませんが、受信者によって開始された購読解除数に基づきます。 購読解除について詳しくは、この[ページ](../consent.md)を参照してください。
+
+**[!UICONTROL メール - トラッキング統計情報]**&#x200B;には、配信に対する受信者のアクティビティを確認できるデータが表示されます。
+
+* **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
+
+* **[!UICONTROL ユニーク開封数]**：開封された配信の割合。
+
+* **[!UICONTROL 開封率]**：配信されたメール数に対して、開封されたメールの合計数。
+
+* **[!UICONTROL クリック数]**：メールのコンテンツがクリックされた回数。
+
+* **[!UICONTROL ユニーククリック数]**：メールのコンテンツをクリックした受信者の数。
+
+* **[!UICONTROL クリックスルー率]**：ジャーニーに対して何らかのアクションを起こしたユーザーの割合。
 
 **[!UICONTROL 送信統計]**&#x200B;のグラフは、配信の成功の詳細を示します。
 
@@ -51,6 +63,8 @@ ht-degree: 97%
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+
+![](../assets/global_report_5.png)
 
 **[!UICONTROL バウンスの理由]**&#x200B;ウィジェットおよび&#x200B;**[!UICONTROL バウンスのカテゴリ]**&#x200B;ウィジェットには、次のようなバウンスメッセージに関するデータが含まれています。
 
@@ -62,27 +76,13 @@ ht-degree: 97%
 
 バウンスについて詳しくは、[抑制リスト](../suppression-list.md)のページを参照してください。
 
-![](../assets/global_report_5.png)
-
 「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
-
-「**[!UICONTROL メール - 最も多い受信者ドメイン]**」のグラフと表は、受信者がメールを開くために最も多く使用しているドメインの詳細を示しています。
 
 ![](../assets/global_report_6.png)
 
-**[!UICONTROL メール - トラッキング統計情報]**&#x200B;の表には、配信の受信者アクティビティに使用できるデータが表示されます。
+**[!UICONTROL Eメール — 上位の受信者ドメイン]**&#x200B;グラフおよびテーブル詳細は、Eメールを開く際に受信者が最も使用するドメインを示します。
 
-* **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
-
-* **[!UICONTROL ユニーク開封数]**：配信されたメッセージを開いた受信者の数。
-
-* **[!UICONTROL 開封率]**：開封されたメッセージの割合。
-
-* **[!UICONTROL クリック数]**：メールのコンテンツがクリックされた回数。
-
-* **[!UICONTROL ユニーククリック数]**：メールのコンテンツをクリックした受信者の数。
-
-* **[!UICONTROL クリックスルー率]**：配信内のクリックの割合。
+「**[!UICONTROL メール - 上位の URL]**」のグラフと表は、配信されたメールの中で最もアクセス頻度の高い URL の詳細を示しています。
 
 「**[!UICONTROL 開封とクリック]**」は、受信者による配信の操作を識別します。
 
@@ -90,4 +90,4 @@ ht-degree: 97%
 
 * **[!UICONTROL ユニーク開封数]**：配信されたメッセージを開いた受信者の数。
 
-「**[!UICONTROL メール - 上位の URL]**」のグラフと表は、配信されたメールの中で最もアクセス頻度の高い URL の詳細を示しています。
+
