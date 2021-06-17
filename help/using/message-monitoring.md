@@ -5,7 +5,7 @@ feature: 監視
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 85%
@@ -13,8 +13,6 @@ ht-degree: 85%
 ---
 
 # メッセージの監視 {#monitor-message-execution}
-
-![](assets/do-not-localize/badge.png)
 
 メッセージが正常に実行、送信、および配信されていることを確認するため、[!DNL Journey Optimizer] では、現在公開およびトリガーされているメッセージを監視する機能を提供しています。**[!UICONTROL 実行]**&#x200B;リストから、ジャーニー<!--and APIs-->をまたいでメッセージがどのように実行されているかをリアルタイムで確認できます。
 
@@ -52,7 +50,7 @@ ht-degree: 85%
 
 ![](assets/message-execution-tab-filters.png)
 
-2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。
+<!--**[!UICONTROL Quick action]**-->2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。
 
 ![](assets/message-execution-open-live-report.png)
 
