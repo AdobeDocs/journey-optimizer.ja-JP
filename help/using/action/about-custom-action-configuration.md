@@ -6,23 +6,21 @@ feature: アクション
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 98%
+source-wordcount: '624'
+ht-degree: 88%
 
 ---
 
 # アクションの設定 {#configure-an-action}
-
-![](../assets/do-not-localize/badge.png)
 
 サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、ここでジャーニーへの接続を設定します。技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照）。カスタムアクションを使用して接続できるシステムには、Epsilon、Facebook、Adobe.io、Firebase などが挙げられます。
 制限に関しては[このページ](../building-journeys/limitations.md)に記載されています。
 
 カスタムアクションを設定する際に必要となる、主な手順は次のとおりです。
 
-1. 「**[!UICONTROL アクション]**」リストで「**[!UICONTROL 追加]**」をクリックして、新しいアクションを作成します。画面右側にアクション設定ウィンドウが開きます。
+1. 「管理」メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 「**[!UICONTROL アクションを作成]**」をクリックして、新しいアクションを作成します。 画面右側にアクション設定ウィンドウが開きます。
 
    ![](../assets/custom2.png)
 
@@ -36,7 +34,7 @@ ht-degree: 98%
 1. このイベントを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
 1. さまざまな **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。[このページ](../action/about-custom-action-configuration.md#url-configuration)を参照してください。
 1. 「**[!UICONTROL 認証]**」セクションを設定します。この設定はデータソースの場合と同じです。[この節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)を参照してください。
-1. **[!UICONTROL メッセージパラメーター]**&#x200B;の定義[このページ](../action/about-custom-action-configuration.md#define-the-message-parameters)を参照してください。
+1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。 [このページ](../action/about-custom-action-configuration.md#define-the-message-parameters)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    カスタムアクションが設定され、ジャーニーで使用できる状態になります。[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
@@ -58,7 +56,7 @@ ht-degree: 98%
    >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。また、一般公開されていないアドビのアドレスの使用および IP アドレスの使用は許可されていません。
 
 1. 呼び出し&#x200B;**[!UICONTROL メソッド]**&#x200B;を選択します。**[!UICONTROL POST]** または **[!UICONTROL PUT]** を指定できます。
-1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL ヘッダーフィールドを追加]**」をクリックして、新しいキーと値のペアを定義します。これらは、外部サービスに対しておこなわれたリクエストの HTTP ヘッダーに対応します。キーと値のペアを削除するには、「**[!UICONTROL ヘッダー]**」フィールドにカーソルを置き、**[!UICONTROL 削除]**&#x200B;アイコンをクリックします。
+1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL ヘッダーフィールドを追加]**」をクリックして、新しいキーと値のペアを定義します。これらは、外部サービスに対しておこなわれたリクエストの HTTP ヘッダーに対応します。キーと値のペアを削除するには、ヘッダーフィールドにカーソルを置き、**[!UICONTROL 削除]**&#x200B;アイコンをクリックします。
 
    **[!UICONTROL Content-Type]** と **[!UICONTROL Charset]** はデフォルトで設定され、削除または上書きすることはできません。
 
@@ -66,11 +64,11 @@ ht-degree: 98%
    >
    >以下の[解析ルール](https://tools.ietf.org/html/rfc7230#section-3.2.4)に従って、ヘッダーの検証が行われます。
 
-## メッセージパラメーターの定義 {#define-the-message-parameters}
+## アクションパラメーター{#define-the-message-parameters}を定義します。
 
 ![](../assets/messageparameterssection.png)
 
-「**[!UICONTROL メッセージパラメーター]**」セクションに、外部サービスに送信する JSON ペイロードの例を貼り付けます。
+「**[!UICONTROL アクションパラメーター]**」セクションに、外部サービスに送信するJSONペイロードの例を貼り付けます。
 
 ![](../assets/customactionpayloadmessage.png)
 
