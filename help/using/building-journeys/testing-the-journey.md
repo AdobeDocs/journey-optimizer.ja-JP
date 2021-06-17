@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 100%
+source-wordcount: '1641'
+ht-degree: 98%
 
 ---
 
 # ジャーニーのテスト{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 エラーがある場合は、ジャーニーをテストする前にすべてのエラーを解決する必要があります。[この節](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。
 
@@ -61,6 +59,7 @@ ht-degree: 100%
 * テストモードを無効にすると、過去にジャーニーにエントリしたすべての人々と、現在エントリしているすべての人々がジャーニーから削除されます。また、レポートも消去します。
 * テストモードは、必要であれば何回でも有効または無効にできます。
 * テストモードがアクティブになっているときは、ジャーニーを変更できません。テストモードではジャーニーを直接公開できるので、事前にテストモードを無効にしておく必要はありません。
+* 分割に達すると、常に上部の分岐が選択されます。 テストで別のパスを選択する場合は、分割ブランチの位置を再編成できます。
 
 ## イベントの実行 {#firing_events}
 
