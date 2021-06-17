@@ -5,17 +5,15 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 95%
+source-wordcount: '606'
+ht-degree: 92%
 
 ---
 
 
 # パーソナライゼーションのユースケース {#personalization-use-case}
-
-![](../assets/do-not-localize/badge.png)
 
 このユースケースでは、1 つのプッシュ通知メッセージで複数のタイプのパーソナライゼーションを使用する方法を確認できます。次の 3 種類のパーソナライゼーションが使用されます。
 
@@ -23,7 +21,7 @@ ht-degree: 95%
 * **オファーの決定**:オファー判定変数に基づくパーソナライゼーション
 * **コンテキスト**:ジャーニーのコンテキストデータに基づくパーソナライゼーション
 
-この例では、顧客の注文が更新されるたびにイベントを Journey Optimizer にプッシュすることを目標としています。その後、注文に関する情報およびパーソナライズされたオファーを含むプッシュ通知が顧客に送信されます
+この例の目的は、顧客の注文が更新されるたびにイベントを[!DNL Journey Optimizer]にプッシュすることです。 その後、注文に関する情報およびパーソナライズされたオファーを含むプッシュ通知が顧客に送信されます
 
 このユースケースでは、次の前提条件が必要です。
 
