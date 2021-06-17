@@ -6,7 +6,7 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
@@ -14,8 +14,6 @@ ht-degree: 100%
 ---
 
 # メッセージを公開 {#publish-manage-messages}
-
-![](assets/do-not-localize/badge.png)
 
 ## メッセージを公開する {#publish-message}
 
@@ -58,4 +56,4 @@ ht-degree: 100%
 
 新しいバージョンが公開されるとすぐ、次回の API 呼び出し時に新しいメッセージ実行が生成されます。次回の受信プロファイルは、新しいバージョンを受け取ります。
 
-<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version.-->
+<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version. -->
