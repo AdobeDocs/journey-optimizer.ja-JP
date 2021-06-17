@@ -5,18 +5,16 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '63'
+ht-degree: 60%
 
 ---
 
 # journeyStep イベントの ID フィールド　{#sharing-identity-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-この Mixin は、journeyStepEventに固有です。このイベントはジャーニーと関係があり、identityMap を持たず、（存在する場合）プロファイル ID を示しています。
+このフィールドグループはjourneyStepEventに固有です。このイベントはジャーニーと関連しており、プロファイルIDを記述するidentityMap（存在する場合）を持ちません。
 
 journeyStepEvent の場合、ID に関連するフィールドも追加する必要があります。
 
