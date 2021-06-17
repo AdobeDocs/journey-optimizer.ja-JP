@@ -5,7 +5,7 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # 反応イベント {#section_dhx_gss_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 パレットに表示される多数のイベントアクティビティの中に、組み込みの&#x200B;**[!UICONTROL 反応]**&#x200B;イベントがあります。このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに、反応することができます。この情報は、Adobe Experience Platform と共有した時点でリアルタイムに取り込まれます。プッシュ通知では、メッセージのクリック、送信、失敗に反応できます。SMS メッセージでは、メッセージの送信と失敗に反応できます。メールでは、メッセージのクリック、送信、開封、失敗に反応できます。
 
