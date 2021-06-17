@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
+source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 87%
+source-wordcount: '740'
+ht-degree: 85%
 
 ---
 
@@ -131,15 +131,17 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 ## ヘッダー{#unsubscribe-email}のリンクの購読解除
 
-受信者のEメールクライアントソフトウェアが、Eメールヘッダーへの購読解除リンクの表示をサポートしている場合、[!DNL Journey Optimizer]と共に送信されるEメールには、このリンクが自動的に含まれます。
+受信者のEメールクライアントがEメールヘッダーに購読解除リンクを表示できる場合、[!DNL Journey Optimizer]と共に送信されるEメールには自動的にこのリンクが含まれます。
 
 例えば、購読解除リンクはGmailでは次のように表示されます。
 
 ![](assets/unsubscribe-email.png)
 
-受信者がこのリンクをクリックすると、対応するプロファイルが直ちにオプトアウトされ、この選択内容がExperience Platformで更新されます。
+Eメールクライアントに応じて、ヘッダーから登録解除リンクをクリックすると、次のいずれかの影響を受けます。
 
-ヘッダーから登録解除リンクをクリックすると、Eメールコンテンツの登録解除リンクをクリックした場合と同じ効果があります。 オプトアウト管理について詳しくは、[この節](#opt-out-management)を参照してください。
+* 対応するプロファイルが直ちにオプトアウトされ、この選択内容がExperience Platformで更新されます。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started)を参照してください。
+
+* これは、Eメールコンテンツから購読解除リンクをクリックするのと同じ効果があります。受信者は、オプトアウトを確認するボタンを含むランディングページにリダイレクトされます。 オプトアウト管理について詳しくは、[この節](#opt-out-management)を参照してください。
 
 ## プッシュのオプトアウト管理 {#push-opt-out-management}
 
