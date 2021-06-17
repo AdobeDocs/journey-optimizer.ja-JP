@@ -5,16 +5,14 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 91%
 
 ---
 
 # ジャーニーライブレポート {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 ジャーニーライブレポートは、「**[!UICONTROL ライブレポート]**」ボタンを使用して、ジャーニーから直接アクセスできます。
 
@@ -64,7 +62,7 @@ ht-degree: 100%
 
 ![](../assets/report_email_1.png)
 
-**[!UICONTROL 統計情報の送信]**&#x200B;および&#x200B;**[!UICONTROL メールでの指標の送信]**&#x200B;ウィジェットには、配信の成功の詳細が表示されます。
+**[!UICONTROL Eメール送信統計情報]**&#x200B;ウィジェットは、メッセージに関する主な情報の詳細を示します。
 
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 
@@ -72,9 +70,7 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
-<!--Hard and bounce - by Email-->
-
-**[!UICONTROL メールの概要]**&#x200B;グラフには、メッセージに関連する主な情報の詳細が表示されます。
+**[!UICONTROL 電子メール]**&#x200B;テーブルと&#x200B;**[!UICONTROL 電子メールの概要]**&#x200B;グラフに、配信の成功の詳細を示します。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
@@ -88,9 +84,13 @@ ht-degree: 100%
 
 * **[!UICONTROL クリック数]**：配信でコンテンツがクリックされた回数。
 
+* **[!UICONTROL 購読解除]**:購読解除リンクのクリック数。
+
+* **[!UICONTROL スパムの苦情]**:メッセージがスパムまたは迷惑メールとして宣言された回数。
+
 ![](../assets/report_email_2.png)
 
-**[!UICONTROL バウンスの理由]**&#x200B;ウィジェットおよび&#x200B;**[!UICONTROL バウンスのカテゴリ]**&#x200B;ウィジェットには、次のようなバウンスメッセージに関するデータが含まれています。
+**[!UICONTROL バウンス理由]**、**[!UICONTROL バウンスカテゴリ]**&#x200B;および&#x200B;**[!UICONTROL ハードとバウンス — 電子メール]**&#x200B;ウィジェットには、バウンスメッセージに関連して使用可能なデータが含まれます。
 
 * **[!UICONTROL ハードバウンス]**：永続的なエラー（メールアドレスの間違いなど）の合計数。このエラーは、アドレスが無効であることを明示的に示すエラーメッセージ（例：「不明なユーザー」）を伴います。
 
