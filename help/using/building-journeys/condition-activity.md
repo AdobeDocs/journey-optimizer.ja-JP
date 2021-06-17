@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 96%
 
 ---
 
 # 条件アクティビティ{#section_e2n_pft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 次の 4 種類の条件を使用できます。
 
@@ -76,6 +74,8 @@ ht-degree: 100%
 ## パーセンテージ分割 {#percentage_split}
 
 このオプションを使用すると、オーディエンスをランダムに分割して、グループごとに異なるアクションを定義できます。各パスの分割数と再分割数を定義します。分割計算は統計的なもので、システムはジャーニーのこのアクティビティに流れる人数を予測することはできません。その結果、分割の許容誤差は非常に小さくなります。この関数は、Java のランダムメカニズムに基づいています（この[ページ](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)を参照）。
+
+テストモードでは、分割に達すると、常に上部の分岐が選択されます。 テストで別のパスを選択する場合は、分割ブランチの位置を再編成できます。 [このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
 >[!NOTE]
 >
