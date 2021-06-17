@@ -16,7 +16,7 @@ feature: コントロール母集団
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 20%
@@ -24,8 +24,6 @@ ht-degree: 20%
 ---
 
 # ユーザー管理の概要 {#permissions-overview}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] を使用すると、さまざまなユーザーに割り当てる権限を定義および管理できます。権限とは、製品内の機能および機能へのアクセスを許可または拒否する一連の権限と制限です。
 
