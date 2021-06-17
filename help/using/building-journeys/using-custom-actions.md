@@ -5,7 +5,7 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # カスタムアクションの使用 {#section_f2c_hbg_nhb}
-
-![](../assets/do-not-localize/badge.png)
 
 カスタムアクションを使用している場合は、**[!UICONTROL URL 設定]**&#x200B;および&#x200B;**[!UICONTROL 認証]**&#x200B;パラメーターが、アクション設定画面に読み取り専用で定義されています（[このページ](../action/about-custom-action-configuration.md)を参照）。
 
