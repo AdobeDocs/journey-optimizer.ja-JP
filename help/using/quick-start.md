@@ -5,32 +5,40 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 92%
+source-wordcount: '345'
+ht-degree: 52%
 
 ---
 
 # クイックスタート {#cjm-quick-start}
 
-![](assets/do-not-localize/badge.png)
-
 ## 開始の主な手順 {#cjm-key-steps}
 
-Journey Optimizer では、既存コンテンツの読み込み、新しいコンテンツの設計、顧客プロファイルデータを使用したメッセージのパーソナライズ、メッセージをトリガーするイベントの作成、セグメントの定義、オーディエンスの絞り込み、複数チャネルメッセージの送信、レポートおよび監視ツール一式の利用が可能です。
+[!DNL Adobe Journey Optimizer]を使用すると、既存のメッセージコンテンツをインポートしたり、新しいコンテンツをデザインしたり、顧客プロファイルデータでメッセージをパーソナライズしたり、トリガーメッセージのイベントを作成したり、セグメントを定義してオーディエンスを絞り込んだりできます。
 
 組織に基づいて、複数のタイプのユーザーを定義し、ユーザーの権限に応じて特定の機能に対するアクセス権をユーザーに付与できます。
 
 ### 前提条件 {#cjm-prerequisites}
 
-Adobe Journey Optimizer の使用を開始する前に、次の操作をおこなう必要があります。
+[!DNL Adobe Journey Optimizer]の使用を開始する前に、次の操作が必要です。
 
-* **ユーザー権限の定義**：Journey Optimizer にログインし、チームメンバーにアクセス権を与えます。[詳細を読む](../using/administration/permissions.md)
+* **ユーザー権限の設定**:にログインし [!DNL Adobe Journey Optimizer] て、チームメンバーにアクセス権を付与します。[詳細情報](../using/administration/permissions.md)
 
-* **チャネルとプリセットの設定**:Adobeと連携して、電子メールおよびプッシュ通知の設定を定義し、プリセットを作成します。[詳細を読む](../using/configuration/message-presets.md)
+* **チャネルの設定**:eメール通知とプッシュ通知の設定を定義します。[詳細情報](../using/configuration/get-started-configuration.md)
 
-* **データの特定とスキーマおよびデータセットの作成**：Adobe Experience Platform にデータを取り込み、プロファイルに対して有効な ID 名前空間とデータセットを作成し、セグメントを作成してプロファイルをテストします。[詳細を読む](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja)
+* **プリセットを定義します**。プリセットを作成し、ブランディングパラメーターを設定します。[詳細情報](../using/configuration/message-presets.md)
+
+* **データの特定とスキーマおよびデータセットの作成**：Adobe Experience Platform にデータを取り込み、プロファイルに対して有効な ID 名前空間とデータセットを作成し、セグメントを作成してプロファイルをテストします。
+
+   * [Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)でデータセットをプレビューして作成する方法を説明します
+
+   * [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces)でID名前空間を作成する方法を説明します
+
+   * [このページ](../using/building-journeys/creating-test-profiles.md)でテストプロファイルを作成する方法を説明します。
+
+   * データ取り込みについて詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja)を参照してください。
 
 
 ### 使用状況フロー
@@ -41,7 +49,9 @@ Adobe Journey Optimizer の使用を開始する前に、次の操作をおこ�
 
 * **アセットのアップロード**：Adobe Experience Manager Assets Essentials を使用して、アセットや画像を管理します。[詳細を読む](assets-essentials.md)
 
-<!--* **Define audience**: create segments, create events, manage consent and privacy. [Read more](audiences.md)-->
+* **オファーの追加**:Journey Optimizer Decision Managementを使用して、パーソナライズされたオファーをメッセージに追加します。[詳細情報](../using/offers/get-started/starting-offer-decisioning.md)
+
+* **オーディエンスの定義**:セグメントの作成、イベントの作成、同意とプライバシーの管理を行います。[詳細を読む](../using/segment/about-segments.md)
 
 * **ジャーニーの作成**：メッセージの送信、コンテキストデータの活用、オーディエンスの絞り込み、複数手順のユースケースの設計と実行をおこないます。[詳細を読む](building-journeys/journey.md)
 
