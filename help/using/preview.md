@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '877'
+ht-degree: 87%
 
 ---
 
 # メッセージのプレビューとテスト{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストをおこなうことができます。[パーソナライズされたコンテンツ](personalization/personalize.md)を挿入している場合は、テストプロファイルデータを利用して、その内容がメッセージにどのように表示されるかを確認できます。
 
@@ -22,7 +20,10 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->メッセージのプレビューや配達確認の送信をおこなうには、テストプロファイルを使用可能にしておく必要があります。[このページ](building-journeys/creating-test-profiles.md)でテストプロファイルを作成する方法を説明します。
+>メッセージのプレビューや配達確認の送信をおこなうには、テストプロファイルを使用可能にしておく必要があります。
+>
+>[このページ](building-journeys/creating-test-profiles.md)でテストプロファイルを作成する方法を説明します。
+
 
 メッセージコンテンツをテストするには、次の操作が必要です。
 
@@ -33,13 +34,18 @@ ht-degree: 97%
 
 さらに、**Litmus** アカウントを [!DNL Journey Optimizer] に活用すると、よく使うメールクライアントで、**メールのレンダリング**&#x200B;を即座にプレビューすることができます。すべてのインボックスでメールコンテンツが適切に表示され、正しく機能することを確認できます。Litmus メールプレビューのロックを解除する方法については、[この節](#email-rendering)を参照してください。
 
+>[!CAUTION]
+>
+>メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。 イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。 [この使用例](personalization/personalization-use-case.md)でのパーソナライゼーションのテスト方法を説明します。
+
+
 ## テストプロファイルの選択{#select-test-profiles}
 
 [テストプロファイル](building-journeys/creating-test-profiles.md)を使用して、定義されたターゲティング条件に一致しない追加の受信者をターゲットに設定します。
 
 テストプロファイルを選択する手順は、次のとおりです。
 
-1. メッセージインターフェイスまたは E メールデザイナーで「**[!UICONTROL プレビュー]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
+1. メッセージインターフェイスまたはEメールデザイナーで、「**[!UICONTROL プレビューを表示]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
    ![](assets/email-preview-button.png)
 
@@ -124,6 +130,10 @@ ht-degree: 97%
    ![](assets/send-proof-view.png)
 
 メッセージの内容を変更した場合は、配達確認を送信する必要があります。
+
+>[!NOTE]
+>
+> テストプロファイルに送信される配達確認で、ミラーページへのリンクがアクティブになっていません。 有効にするのは、最終的なメッセージ内のみです。
 
 ## メールのレンダリング{#email-rendering}
 
