@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 93%
 
 ---
 
 # ジャーニーでのセグメントの使用 {#segment-trigger-activity}
-
-![](../assets/do-not-localize/badge.png)
 
 ## セグメントの読み取りアクティビティについて {#about-segment-trigger-actvitiy}
 
@@ -25,10 +23,12 @@ ht-degree: 100%
 >[!NOTE]
 >
 >1 時間未満の時間枠でセグメントベースのジャーニーをトリガーすることはできません。
+>
+>バースト有料アドオンを使用すると、読み取りセグメントとシンプルなプッシュメッセージを含むシンプルなジャーニーに対して、非常に高速なプッシュメッセージを大量に送信できます。 詳しくは、[この節](../building-journeys/journey-gs.md#burst)を参照してください。
 
 ### アクティビティの設定 {#configuring-segment-trigger-activity}
 
-セグメントの読み取りアクティビティを設定する手順は次のとおりです。
+「セグメントを読み取り」アクティビティを設定する手順は次のとおりです。
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、「**[!UICONTROL セグメントを読み取り]**」アクティビティをキャンバスにドロップします。
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 ## セグメントベースのジャーニーでのオーディエンスのターゲティング
 
-セグメントベースのジャーニーは常に、Adobe Experience Platform セグメントに属する個人を取得する「**セグメントを読み取り**」アクティビティで開始します。
+セグメントベースのジャーニーは、常に&#x200B;**セグメントの読み取り**&#x200B;アクティビティで開始し、Adobe Experience Platformセグメントに属する個人を取得します。
 
 セグメントに属するオーディエンスは、1 回のみ、または定期的に取得されます。
 
