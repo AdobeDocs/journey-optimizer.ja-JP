@@ -5,7 +5,7 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 96%
@@ -13,8 +13,6 @@ ht-degree: 96%
 ---
 
 # メッセージの作成 {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 メッセージは、左側のナビゲーションの「**[!UICONTROL メッセージ]**」ショートカットから使用できます。 すべてのメッセージが、公開日（公開済みメッセージの場合）または作成日（ドラフトメッセージの場合）順にリストされます。
 
@@ -62,7 +60,7 @@ ht-degree: 96%
 
    メッセージの内容を作成し、設定を調整できるようになりました。メールおよびプッシュ通知の設定に関する詳細は、次の節で確認できます。
 
-   * [E メールの作成](create-email.md)
+   * [メールの作成](create-email.md)
    * [プッシュ通知の作成](create-push.md)
 
    >[!NOTE]
