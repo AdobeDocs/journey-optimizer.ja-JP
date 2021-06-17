@@ -5,16 +5,14 @@ feature: イベント
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 93%
 
 ---
 
 # イベントについて{#concept_gfj_fqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -51,6 +49,8 @@ ht-degree: 100%
    >キャッピングルールは、ルールベースのイベントに対して定義します。ジャーニーが処理できる対象イベントの数を、特定の組織（ORG）で 1 秒あたり 5,000 個に制限します。これは Journey Optimizer の SLA に対応しています。この[ページ](https://helpx.adobe.com/jp/legal/product-descriptions/journey-orchestration.html)を参照してください。
 
 * **システム生成**&#x200B;イベント：このイベントでは eventID が必要です。eventID フィールドは、イベントの作成時に自動的に生成されます。イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。
+
+Journey Optimizerでは、イベントをストリーミングまたはAdobe Experience Platformにバッチ処理する必要があります。 このデータは、必ずしもリアルタイムプロファイルに送信する必要はありません。 イベントを別のジャーニーでセグメント化や参照に使用する場合は、プロファイルのデータセットを有効にすることをお勧めします。
 
 ## データサイクル {#section_r1f_xqt_pgb}
 
