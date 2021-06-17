@@ -16,16 +16,14 @@ feature: コントロール母集団
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
-# ユーザーと製品プロファイルの管理{#manage-permissions}
-
-![](../assets/do-not-localize/badge.png)
+# ユーザーと製品プロファイルの管理 {#manage-permissions}
 
 >[!IMPORTANT]
 >
@@ -59,7 +57,7 @@ ht-degree: 16%
 
 1. ユーザーの名前またはメールアドレスを入力し、ユーザーを選択します。
 
-   ユーザーが以前に[!DNL Admin Console]に作成されていない場合は、[ユーザーの追加のドキュメント](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
+   ユーザーが以前に[!DNL Admin Console]に作成されていない場合は、[ユーザーの追加のドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](../assets/access_control_4.png)
 
@@ -87,7 +85,7 @@ ht-degree: 16%
 
 1. 「**[!UICONTROL 権限]**」タブを選択します。
 
-   「**[!UICONTROL 権限]**」タブには、***[!UICONTROL Experience Cloud- Platformが提供するアプリケーション]**&#x200B;製品に適用される機能のリストが表示されます。
+   「**[!UICONTROL 権限]**」タブには、**[!UICONTROL Experience Cloud- Platformが稼働するアプリケーション]**&#x200B;製品に適用される機能のリストが表示されます。
 
    ![](../assets/access_control_5.png)
 
