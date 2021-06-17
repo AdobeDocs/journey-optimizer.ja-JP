@@ -5,18 +5,16 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 61%
+source-wordcount: '104'
+ht-degree: 51%
 
 ---
 
 # マップ関数{#maps}
 
-![](../../assets/do-not-localize/badge.png)
-
-[!DNL Profile Query Language]（PQL）の機能を使用すると、マップの操作が容易になります。
+パーソナライゼーションでマップ関数を使用すると、マップとのやり取りが容易になります。
 
 ## get{#get}
 
