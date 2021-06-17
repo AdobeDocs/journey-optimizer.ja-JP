@@ -5,18 +5,16 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 97%
 
 ---
 
 # journeyStep イベントのデータ取得フィールド {#sharing-fetch-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-この Mixin は、journeyStepEvent と journeyStepProfileEvent が共有します。
+このフィールドグループは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
 
 ステップの処理中に、フィールドグループで N 個のデータを取得できます。
 
