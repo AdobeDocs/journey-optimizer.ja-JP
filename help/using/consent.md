@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '702'
+ht-degree: 87%
 
 ---
 
 # オプトアウトの管理 {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]を使用すると、通信に対する受信者の同意を追跡でき、受信者の好みや購読を管理して受信者がブランドとどのように関わりたいと思っているかを理解できます。<!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,18 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## ヘッダー{#unsubscribe-email}のリンクの購読解除
+
+受信者のEメールクライアントソフトウェアが、Eメールヘッダーへの購読解除リンクの表示をサポートしている場合、[!DNL Journey Optimizer]と共に送信されるEメールには、このリンクが自動的に含まれます。
+
+例えば、購読解除リンクはGmailでは次のように表示されます。
+
+![](assets/unsubscribe-email.png)
+
+受信者がこのリンクをクリックすると、対応するプロファイルが直ちにオプトアウトされ、この選択内容がExperience Platformで更新されます。
+
+ヘッダーから登録解除リンクをクリックすると、Eメールコンテンツの登録解除リンクをクリックした場合と同じ効果があります。 オプトアウト管理について詳しくは、[この節](#opt-out-management)を参照してください。
 
 ## プッシュのオプトアウト管理 {#push-opt-out-management}
 
