@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 100%
 
    この例では、**属性**&#x200B;と&#x200B;**イベント**&#x200B;の各フィールドを使用してセグメントを作成する必要があります。
 
-   * **属性**：1980 年以降、アトランタ、サンフランシスコ、シアトルに住むプロファイル。
-   * **イベント**：過去 7 日間に Luma アプリを開き、アプリを開いてから 2 時間以内に購入したプロファイル。
+   * **属性**:1980年以降に生まれたアトランタ、サンフランシスコ、シアトルに住むプロファイル
 
       ![](../assets/add-attributes.png)
+
+   * **イベント**：過去 7 日間に Luma アプリを開き、アプリを開いてから 2 時間以内に購入したプロファイル。
 
       ![](../assets/add-events.png)
 
