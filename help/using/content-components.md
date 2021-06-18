@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 100%
 >title="コンテンツコンポーネントについて"
 >abstract="コンテンツコンポーネントは、メールのレイアウト作成に使用できる空のコンテンツプレースホルダーです。"
 
-![](assets/do-not-localize/badge.png)
 
 メールコンテンツを一から作成する際は、**[!UICONTROL コンテンツコンポーネント]**を使用すると、メールに配置して使用できる空の Raw コンポーネントで、メールをさらにパーソナライズできます。
 メールのレイアウトを定義する**[!UICONTROL 構造コンポーネント]**&#x200B;内には、必要な数だけ&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;を追加できます。
@@ -104,8 +103,6 @@ ht-degree: 100%
 
 1. 追加する HTML コードをメールにコピー＆ペーストし、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/email_designer_24.png)
-
 1. HTML をさらにパーソナライズするには、**[!UICONTROL スタイル]**、**[!UICONTROL マージン]**、**[!UICONTROL ボーダー]**&#x200B;を変更したり、オーディエンスを別の内容にリダイレクトするリンクを追加したりします。
 
 ## 画像 {#image}
@@ -116,9 +113,9 @@ ht-degree: 100%
 
    ![](assets/email_designer_9.png)
 
-1. 「**[!UICONTROL 参照]**」をクリックして、コンピューターから画像ファイルを選択します。
+1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。
 
-   「**[!UICONTROL アセットピッカー]**」をクリックして、メールにアセットを追加することもできます。アセットの詳細については、この[節](assets-essentials.md)を参照してください。
+   [!DNL Assets Essentials]について詳しくは、[Adobe Experience Manager Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)を参照してください。
 
 1. 新しく追加したコンポーネントをクリックして&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;の設定を開始し、E メールデザイナーの右側ウィンドウにある「**[!UICONTROL コンポーネント設定]**」にアクセスできるようにします。
 
