@@ -15,21 +15,21 @@ feature: アプリケーション設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 7%
 
 ---
 
 
-# プロファイルのプライマリアドレスの決定
+# プライマリEメールアドレスの変更
 
 プロファイルをターゲットにする場合、データベース内で複数の電子メールアドレス（個人用、職業用の電子メールアドレスなど）を使用できる場合があります。
 
-Journey Optimizerでは、プロファイルサービスから使用する電子メールアドレスを決定し、複数のアドレスが使用可能な場合に優先順位を付けることができます。 それをおこなうには、次の手順に従います。
+Journey Optimizerでは、プロファイルサービスから使用する電子メールアドレスを決定し、複数のアドレスが使用可能な場合に優先順位を付けることができます。 次の手順に従います。
 
-1. **[!UICONTROL チャネル]** / **[!UICONTROL 一般]**&#x200B;メニューにアクセスします。
+1. **[!UICONTROL チャネル]** `>` **[!UICONTROL 一般]**&#x200B;メニューにアクセスします。
 1. プロファイルのEメールアドレスを決定するために現在デフォルトで使用されているフィールドがこの画面に表示されます。 「**[!UICONTROL 編集]**」をクリックして変更します。
 
    ![](../assets/primary-address.png)
