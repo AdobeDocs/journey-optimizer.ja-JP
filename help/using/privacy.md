@@ -1,9 +1,9 @@
 ---
 title: プライバシー
 description: プライバシーの管理方法について学ぶ
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '720'
 ht-degree: 100%
 
 ---
@@ -11,9 +11,7 @@ ht-degree: 100%
 
 # プライバシー {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。
+[!DNL Journey Optimizer] は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。
 
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
