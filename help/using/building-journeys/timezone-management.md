@@ -5,16 +5,14 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 85%
 
 ---
 
 # タイムゾーン管理 {#timezone_management}
-
-![](../assets/do-not-localize/badge.png)
 
 タイムゾーンは、ジャーニーの[プロパティ](../building-journeys/journey-gs.md#change-properties)で定義できます。
 
@@ -29,11 +27,15 @@ ht-degree: 100%
 
 タイムゾーンを選択するか、ユーザープロファイルで定義されたタイムゾーンを使用するかを選択できます。
 
+>[!NOTE]
+>
+>プロファイルタイムゾーンは、**Preference Details**&#x200B;フィールドグループに存在する&#x200B;**timeZone**&#x200B;フィールドと連携します。
+
 ## 固定タイムゾーンの定義 {#fixed-timezone}
 
 タイムゾーンを固定することもできます。定義済みのタイムゾーンをクリアし、ドロップダウンリストからタイムゾーンを選択します。固定タイムゾーンを使用すると、ジャーニーにエントリするすべての個人のタイムゾーンは同じになります。
 
-これをおこなうには、「**[!UICONTROL プロパティ]**」でタイムゾーンを選択します。
+それには、**[!UICONTROL ジャーニーのプロパティ]**&#x200B;ウィンドウでタイムゾーンを選択します。
 
 ![](../assets/journey72.png)
 
@@ -45,7 +47,7 @@ Adobe Experience Platform プロファイルでタイムゾーンが定義され
 
 個人のプロファイルにタイムゾーンが含まれていない場合、取得されるタイムゾーンはタイムゾーンフィールドに定義されているものになります。
 
-これをおこなうには、「**[!UICONTROL プロパティ]**」で、「**[!UICONTROL タイマーと条件でプロファイルのタイムゾーンを使用する]**」をチェックします。
+これをおこなうには、**[!UICONTROL プロパティ]**&#x200B;で、「**[!UICONTROL 待機と条件でプロファイルタイムゾーンを使用]**」をオンにします。
 
 ![](../assets/journey73.png)
 
