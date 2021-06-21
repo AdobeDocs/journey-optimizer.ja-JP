@@ -1,17 +1,20 @@
 ---
-title: プライバシー
+title: 'プライバシー in [!DNL Journey Optimizer] '
 description: プライバシーの管理方法について学ぶ
-source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
+topic: プライバシー
+role: User
+level: Intermediate
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 95%
 
 ---
 
 
-# プライバシー {#privacy}
+# [!DNL Journey Optimizer]によるプライバシー管理{#privacy}
 
-[!DNL Journey Optimizer] は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。
+[!DNL Journey Optimizer] は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。より良い顧客体験を提供するには、顧客の個人データを収集して保存する必要があります。 このデータを使用する場合、顧客のプライバシーを理解し、尊重することが重要です。 新しい法規制や組織の規制により、ユーザーは要求に応じて、データストアから個人データにアクセスしたり、個人データを削除したりする権利が与えられます。
 
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
