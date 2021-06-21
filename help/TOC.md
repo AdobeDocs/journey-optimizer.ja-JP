@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
       + [メールコンテンツの読み込みまたはコーディング](using/existing-content.md)
       + [E メールデザイナーのコンテンツコンポーネントの使用](using/content-components.md)
    + パーソナライゼーション{#personalization}
-      + [はじめに パーソナライゼーション](using/personalization/personalize.md)
+      + [はじめに パーソナライゼーションの使用](using/personalization/personalize.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
       + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
       + [パーソナライゼーションのユースケース](using/personalization/personalization-use-case.md)
@@ -81,24 +81,24 @@ ht-degree: 89%
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
       + [メッセージ](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
-      + [Adobe Campaign v7/v8アクション](using/building-journeys/using-adobe-campaign-classic.md)
+      + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルの更新](using/building-journeys/update-profiles.md)
    + ユースケース {#journey-use-cases}
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
-      + [Campaign v7/v8を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
+      + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
 + トラッキングと監視 {#reporting}
    + [メッセージトラッキング](using/message-tracking.md)
    + [メッセージの監視](using/message-monitoring.md)
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
-      + [電子メールのライブレポート](using/reports/email-live-report.md)
+      + [E メールライブレポート](using/reports/email-live-report.md)
       + [プッシュライブレポート](using/reports/push-live-report.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートダッシュボードへのアクセス](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
-      + [電子メールグローバルレポート](using/reports/email-global-report.md)
+      + [E メールグローバルレポート](using/reports/email-global-report.md)
       + [プッシュグローバルレポート](using/reports/push-global-report.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
@@ -111,17 +111,17 @@ ht-degree: 89%
       + [配信品質の概要](using/deliverability.md)
       + [抑制リスト](using/suppression-list.md)
 + 決定管理 {#offer-decisioniong}
-   + 判定管理の概要{#get-started}
+   + 決定管理の基本を学ぶ {#get-started}
       + [決定管理について](using/offers/get-started/starting-offer-decisioning.md)
       + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
-      + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
-      + [使用例：Eメールにオファーを挿入する](using/offers/offers-e2e.md)
-   + コンポーネント{#create-components}を作成します。
+      + [オファーを作成および管理するための主要ステップ](using/offers/offer-library/key-steps.md)
+      + [ユースケース：E メールへのオファーの挿入](using/offers/offers-e2e.md)
+   + コンポーネントの作成 {#create-components}
       + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
       + [ランキング式の作成](using/offers/offer-library/create-ranking-formulas.md)
-   + オファーの作成と管理{#managing-offers-in-the-offer-library}
+   + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
       + [フォールバックオファーの作成](using/offers/offer-library/creating-fallback-offers.md)
       + [コレクションの作成](using/offers/offer-library/creating-collections.md)
@@ -190,8 +190,8 @@ ht-degree: 89%
 + 設定 {#get-started}
    + [Journey Optimizer の設定の概要](using/configuration/get-started-configuration.md)
    + メッセージの設定 {#configuration}
-      + プッシュ通知の設定{#push-config}
-         + [プッシュ設定の概要](using/push-gs.md)
+      + プッシュ通知の設定 {#push-config}
+         + [プッシュ設定の基本を学ぶ](using/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push-configuration.md)
       + メールの設定 {#email-config}
          + サブドメインのデリゲート {#delegate-subdomains}
@@ -204,7 +204,7 @@ ht-degree: 89%
          + メールアドレスの監視 {#monitor-reputation}
             + [抑制リストの管理](using/configuration/manage-suppression-list.md)
             + [再試行](using/configuration/retries.md)
-         + [メールのメインアドレスの変更 ](using/configuration/primary-email-addresses.md)
+         + [E メールのメインアドレスの変更 ](using/configuration/primary-email-addresses.md)
       + [メッセージプリセットの作成](using/configuration/message-presets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、およびアクションの作成](using/configuration/about-data-sources-events-actions.md)
@@ -225,7 +225,7 @@ ht-degree: 89%
       + アクション設定 {#action-journeys}
          + [アクションについて](using/action/action.md)
          + [アクションの設定](using/action/about-custom-action-configuration.md)
-         + [Adobe Campaign v7/v8との統合](using/action/acc-action.md)
+         + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
 + アクセス制御 {#administration}
    + [アクセス制御の概要](using/administration/permissions-overview.md)
    + [組み込みの製品プロファイル](using/administration/ootb-product-profiles.md)
