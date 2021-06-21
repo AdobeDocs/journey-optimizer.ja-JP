@@ -6,13 +6,13 @@ topic: コンテンツ管理
 role: User
 level: Beginner
 source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Adobe Journey Optimizerドキュメント{#cjm-documentation}
+# Adobe Journey Optimizer ドキュメント {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -27,9 +27,9 @@ ht-degree: 81%
 
 * [初めてのジャーニーの作成](using/building-journeys/journeys-uc.md) </br>ジャーニーの作成および実行方法を説明します
 
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Journey Optimizerを設定するための主な手順
+* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) の設定</br>Journey Optimizer を設定するための主要な手順を説明します
 
-* [アクセス権の [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> 付与ユーザーに割り当てる権限を定義および管理する方法を説明 [!DNL Journey Optimizer] します
+* [ [!DNL Journey Optimizer]](using/administration/permissions-overview.md) へのアクセスの許可</br> [!DNL Journey Optimizer] ユーザーに割り当てる権限を定義および管理する方法を説明します
 
 * [決定管理](using/offers/get-started/starting-offer-decisioning.md) </br>オファーを作成し、最適なオファーとエクスペリエンスを顧客に提供します
 
