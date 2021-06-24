@@ -8,15 +8,14 @@ level: Intermediate
 source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 68%
+ht-degree: 96%
 
 ---
 
 
 # パーソナライゼーション構文 {#personalization-syntax}
 
-[!DNL Journey Optimizer]でのパーソナライゼーションは、Handlebarsと呼ばれるテンプレート構文に基づいています。
-Handlebars構文の詳細は、[HandlebarsJSのドキュメント](https://handlebarsjs.com/)を参照してください。
+[!DNL Journey Optimizer] のパーソナライゼーションは、Handlebars と呼ばれるテンプレート構文に基づいています。Handlebars 構文の詳細については、[HandlebarsJS ドキュメント](https://handlebarsjs.com/) を参照してください。
 
 テンプレートと入力オブジェクトを使用して、HTML やその他のテキスト形式を生成します。Handlebars テンプレートは、Handlebars 式が埋め込まれた標準のテキストのように見えます。
 
@@ -41,19 +40,19 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 **true**、**false**、**null** および **undefined**&#x200B;という語は、パス式の最初の部分でのみ使用できます。
 
-Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x200B;されています。式に`&`が含まれる場合、返されたHTMLエスケープ出力は`&amp;`として生成されます。 Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
+Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x200B;されています。式に「`&`」が含まれている場合、返される HTML エスケープ出力は「`&amp;`」として生成されます。Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
 
 ## プロファイル
 
 この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)で説明されています。
 
-属性は、[!DNL Journey Optimizer]パーソナライゼーションブロックで参照する前に、スキーマで定義する必要があります。
+属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
 
 >[!NOTE]
 >
->[この節](functions/helpers.md#if-function)では、条件でプロファイル属性を活用する方法を説明します。
+>で条件でプロファイル属性を活用する方法については、[この節](functions/helpers.md#if-function)を参照してください。
 
-**サンプルリファレンス：**
+**参照の例：**
 
 `{{profile.person.name.fullName}}`
 
@@ -71,10 +70,10 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
 ## セグメント{#perso-segments}
 
-[この節](functions/helpers.md#if-function)では、条件でプロファイル属性を活用する方法を説明します。
+条件でプロファイル属性を活用する方法について詳しくは、[この節](functions/helpers.md#if-function)を参照してください。
 
 >[!NOTE]
->セグメント化とセグメント化サービスについて詳しくは、[この節](../segment/about-segments.md)を参照してください。
+>セグメント化とセグメント化サービスの詳細については、[この節](../segment/about-segments.md)を参照してください。
 
 
 ## オファー
@@ -82,18 +81,18 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 この名前空間では、既存のオファー決定を参照できます。
 オファーを参照するには、オファーを定義する様々な情報を使用してパスを宣言する必要があります。
 
-このパスは次の構造を持ちます。
+このパスの構造は次のようになります。
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-各パラメーターの意味は次のとおりです。
+ここで：
 
-* `offers` オファー名前空間に属するパス式を識別します。
-* `Type`  は、オファー表示域のタイプを決定します。次の値を指定できます。`image`、`html`および`text`
-* `Placement Id` とは配置 `Activity Id` とアクティビティの識別子です。
+* `offers` はオファー名前空間に属するパス式を識別します。
+* `Type` はオファー表示域のタイプを決定します。`image`、`html` および `text` などの値が使用されます。
+* `Placement Id` と `Activity Id` は配置とアクティビティの識別子です。
 * `Attributes` は、オファータイプに依存するオファー固有の属性です。例：画像の場合は`deliveryUrl`
 
-Decisions APIとオファー表示域について詳しくは、[このページ](../../using/offers/api-reference/decisions-api/deliver-offers.md)を参照してください。
+意思決定 API とオファー表示域について詳しくは、[このページ](../../using/offers/api-reference/decisions-api/deliver-offers.md)を参照してください。
 
 すべての参照は、[このページ](personalization-validation.md)で説明されている検証メカニズムを使用して、オファースキーマに対して検証されます。
 
@@ -136,10 +135,10 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 | リテラル | 定義 |
 | ------- | ---------- |
-| 文字列 | 1 つ以上の文字で構成され、二重引用符で囲まれたデータタイプです。<br>例: `"prospect"`, `"jobs"`, `"articles"` |
+| 文字列 | 文字で構成され、ダブルコーテーションで囲まれたデータタイプです。<br>例：`"prospect"`、`"jobs"`、`"articles"` |
 | ブール | true か false のいずれかであるデータタイプです。 |
-| 整数 | 整数を表すデータタイプです。正、負、ゼロのいずれかです。<br>例: `-201`, `0`, `412` |
-| 配列 | 他のリテラル値のグループとして構成されるデータ型です。複数の値を区切る場合は、角括弧で囲んでグループ化し、カンマで区切ります。<br> **注意**：配列内の項目のプロパティに直接アクセスすることはできません。<br> 例: `[1, 4, 7]`, `["US", "FR"]` |
+| 整数 | 整数を表すデータタイプです。正、負、ゼロのいずれかです。<br>例：`-201`、`0`、`412` |
+| 配列 | 他のリテラル値のグループとして構成されるデータ型です。複数の値を区切る場合は、角括弧で囲んでグループ化し、カンマで区切ります。<br> **注意**：配列内の項目のプロパティに直接アクセスすることはできません。<br> 例：`[1, 4, 7]`、`["US", "FR"]` |
 
 >[!CAUTION]
 >
