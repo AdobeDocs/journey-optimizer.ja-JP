@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 60%
 
 ## 条件{#if-function}
 
-`if` ヘルパーは、条件ブロックを定義します。
-式の評価が true を返す場合、ブロックはレンダリングされます。true を返さない場合はスキップされます。
+`if` ヘルパーを使用して、条件ブロックを定義します。
+式の評価結果が true の場合、ブロックはレンダリングされます。true でない場合はスキップされます。
 
 **構文**
 
@@ -27,7 +27,7 @@ ht-degree: 60%
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-`if` ヘルパーの後に、`else` ステートメントを入力して、同じ条件が false の場合に実行するコードのブロックを指定できます。
+`if` ヘルパーの後に、`else` ステートメントを入れて、その条件の結果が false の場合に実行するコードのブロックを指定することもできます。
 `elseif` ステートメントは、最初のステートメントが false を返した場合にテストする新しい条件を指定します。
 
 
@@ -46,7 +46,7 @@ ht-degree: 60%
 
 **例**
 
-1. **条件式に基づいて異なるストアリンクをレンダリング**
+1. **条件式に基づいて異なるストアのリンクをレンダリングする**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -56,7 +56,7 @@ ht-degree: 60%
    {%/if%}
    ```
 
-1. **Eメールアドレスの拡張を決定する**
+1. **メールアドレスの拡張子の判断**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -70,7 +70,7 @@ ht-degree: 60%
 
 1. **条件付きリンクの追加**
 
-   次の操作では、「.edu」のEメールアドレスを持つプロファイルの場合のみ、「www.adobe.com/org&#39;」のWebサイトへのリンクを「.org」のEメールアドレスを持つプロファイルの場合は、その他のすべてのプロファイルの場合は、デフォルトURL「www.adobe.com/users&#39;」に追加します。
+   次の操作では、メールアドレスが「.edu」のプロファイルについては Web サイト「www.adobe.com/academia」へのリンク、メールアドレスが「.org」のプロファイルについては「www.adobe.com/org」へのリンク、その他のすべてのプロファイルについてはデフォルトの URL「www.adobe.com/users」へのリンクを追加します。
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -92,7 +92,7 @@ ht-degree: 60%
    {%/if%}
    ```
 
-1. **プロファイルが既にメンバーであるかどうかを確認する**
+1. **プロファイルがすでにメンバーであるか判断する**
 
    ```sql
    {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
@@ -104,13 +104,12 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->セグメント化とセグメント化サービスの詳細については、こちらの[節](../../segment/about-segments.md)を参照してください。
+>セグメント化とセグメント化サービスの詳細については、[この節](../../segment/about-segments.md)を参照してください。
 
 
 ## Unless{#unless}
 
-`unless` ヘルパーは、条件ブロックを定義します。
-`if`ヘルパーとの対立により、式の評価がfalseを返した場合、ブロックがレンダリングされます。
+`unless` ヘルパーを使用して、条件ブロックを定義します。`if` ヘルパーとは異なり、式の評価結果が false の場合にブロックがレンダリングされます。
 
 **構文**
 
@@ -120,7 +119,7 @@ ht-degree: 60%
 
 **例**
 
-メールアドレスの拡張子に基づいてコンテンツをレンダリングする：
+メールアドレスの拡張子に基づいてコンテンツをレンダリングする。
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -132,7 +131,7 @@ Some edu specific content Content
 
 ## Each{#each}
 
-`each` ヘルパーは、配列に対して反復処理をおこなうために使用します。
+`each` ヘルパーを使用して、配列に対して反復処理を行います。
 ヘルパーの構文は ```{{#each ArrayName}}``` YourContent {{/each}}です
 個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、{{@index}} を使用してレンダリングできます。
 
@@ -155,7 +154,7 @@ Some edu specific content Content
 
 **例**
 
-このユーザーが買い物かごに入れている商品のリストをレンダリングする：
+ユーザーが買い物かごに入れた商品のリストをレンダリングする。
 
 ```sql
 {{#each profile.products as |product|}}
@@ -166,7 +165,7 @@ Some edu specific content Content
 
 ## With{#with}
 
-template-partの評価トークンを変更するには、 `with`ヘルパーを使用します。
+`with` ヘルパーを使用して、template-part の評価トークンを変更します。
 
 **構文**
 
@@ -176,11 +175,11 @@ template-partの評価トークンを変更するには、 `with`ヘルパーを
 {{/with}}
 ```
 
-`with`ヘルパーは、ショートカット変数を定義する場合にも役立ちます。
+`with` ヘルパーは、ショートカット変数を定義する場合にも使用できます。
 
 **例**
 
-長い変数名を短い変数名にエイリアシングする場合に使用する：
+with は、長い変数名に短い別名を付ける場合にも使用できます。
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -201,7 +200,7 @@ template-partの評価トークンを変更するには、 `with`ヘルパーを
 
 **例**
 
-次の例では、合計が$100以上$1,000未満のトランザクションでの製品合計の合計をすべて米ドルで示します。
+次の例では、合計が $100 以上 $1,000 未満のトランザクションで、すべての製品合計を米ドルで示します。
 
 ```sql
 {% let variable = expression %} {{variable}}
