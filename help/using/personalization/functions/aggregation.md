@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 52%
+ht-degree: 96%
 
 ---
 
 # 集計関数 {#aggregation}
 
-集計関数は、複数の値をグループ化して単一の要約値を形成するために使用します。
+集計関数は、複数の値をまとめて 1 つの値に要約するために使用します。
 
 ## Count{#count}
 
@@ -28,7 +28,7 @@ ht-degree: 52%
 
 **例**
 
-次の操作は、配列内の注文数を返します。
+次の操作は、配列内の注文の数を返します。
 
 ```sql
 {%= count(orders) %}
