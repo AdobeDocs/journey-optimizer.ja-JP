@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
    ![](../../assets/fallback_review.png)
 
-1. フォールバックオファーは、前のステップで承認したかどうかに応じて、**[!UICONTROL ライブ]** または&#x200B;**[!UICONTROL ドラフト]**&#x200B;のステータスでリストに表示されます。
+1. フォールバックオファーは、前の手順で承認したかどうかに応じて、「**[!UICONTROL ライブ]**」ステータスまたは「**[!UICONTROL ドラフト]**」ステータスでリストに表示されます。
 
    これで、顧客に配信する準備が整いました。選択してプロパティを表示し、編集できます。<!-- no suppression? -->
 
