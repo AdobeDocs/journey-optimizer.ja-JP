@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 87%
 >
 >メッセージのプレビューや配達確認の送信をおこなうには、テストプロファイルを使用可能にしておく必要があります。
 >
->[このページ](building-journeys/creating-test-profiles.md)でテストプロファイルを作成する方法を説明します。
+>テストプロファイルの作成方法については、[このページ](building-journeys/creating-test-profiles.md)を参照してください。
 
 
 メッセージコンテンツをテストするには、次の操作が必要です。
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 ## テストプロファイルの選択{#select-test-profiles}
 
-[テストプロファイル](building-journeys/creating-test-profiles.md)を使用して、定義されたターゲティング条件に一致しない追加の受信者をターゲットに設定します。
+[テストプロファイル](building-journeys/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、追加の受信者をターゲットに設定できます。
 
 テストプロファイルを選択する手順は、次のとおりです。
 
