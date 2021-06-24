@@ -1,6 +1,6 @@
 ---
 title: 抑制リスト
-description: 抑制リストの内容、目的、および抑制リストに含まれる内容について説明します。
+description: 抑制リストの内容、目的、および含まれる内容について説明します。
 feature: 配信品質
 topic: コンテンツ管理
 role: User
@@ -8,21 +8,21 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # 抑制リスト {#suppression-list}
 
-抑制リストは、配信から除外するEメールアドレスで構成されます。これらの連絡先に送信すると、送信のレピュテーションと配信率が低下する可能性があるからです。
+抑制リストは、これらのメールアドレスに送信すると、送信者の評判や配信率が低下する可能性があるなどの理由により、配信から除外するメールアドレスで構成されます。
 
- [!DNL Journey Optimizer]抑制リストは、独自の環境レベルで管理されます。
+[!DNL Journey Optimizer] 抑制リストは、独自の環境レベルで管理されます。
 
-1つのクライアント環境で、すべてのメールにわたって抑制される電子メールアドレスとドメイン（サンドボックスIDに関連付けられたIMS組織IDに固有）を収集します。
+単一のクライアント環境（サンドボックス ID に関連付けられた IMS 組織 ID に固有の環境）で、すべてのメーリングをまたいで抑制されるメールアドレスとドメインを収集します。
 
 <!--It gathers spam complaints, hard bounces, and soft bounces that occur consistently.-->
 
-## なぜサプレッションリストなの？{#why-suppression-list}
+## 抑制リストを使用する理由 {#why-suppression-list}
 
 インボックスの所有者が受信するメールメッセージを制御し、希望するメッセージだけを受信できるようにするために、インターネットサービスプロバイダー（ISP）と商用スパムフィルターは、メール送信者が使用する IP アドレスと送信ドメインに基づいて、メール送信者の全体的な評判を追跡する独自のアルゴリズムを持っています。
 
@@ -30,22 +30,22 @@ ht-degree: 64%
 
 メールアドレスが抑制されている受信者は、メッセージ配信から自動的に除外されます。エラー率は配信速度に大きな影響を与えるため、こうすることで配信が迅速になります。
 
-## 抑制リストには何が含まれますか？ {#what-s-on-suppression-list}
+## 抑制リストには何が含まれますか？  {#what-s-on-suppression-list}
 
 メールアドレスは、次のように抑制リストに追加されます。
 
 * すべての&#x200B;**ハードバウンス**&#x200B;および&#x200B;**スパム通報**&#x200B;は、1 回発生した後、対応するメールアドレスを抑制リストに自動的に送信します。
 
-* **ソフトバ** ウンスと一 **** 時的なignorederrorは、抑制リストに電子メールアドレスを即座に送信しませんが、エラーカウンターを増分します。その後、複数の再試行が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。 [再試行](configuration/retries.md)の詳細を説明します。
+* **ソフトバウンス**&#x200B;や一時的に&#x200B;**無視**&#x200B;されたエラーでは、直ちにメールアドレスが抑制リストに送られることはありませんが、エラーカウンターが増加します。その後、再試行が複数回実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。 詳しくは、[再試行](configuration/retries.md)を参照してください。
 
 <!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
 
 >[!NOTE]
 >
->購読解除されたユーザーのアドレスは、[!DNL Journey Optimizer]からのEメールを受信していないので、抑制リストに送信できません。 選択は、Experience Platformレベルで処理されます。 [オプトアウト](../using/consent.md)の詳細をご覧ください。
+>購読を解除したユーザーのアドレスは、[!DNL Journey Optimizer] からのメールを受信していないので、抑制リストに送信できません。選択は、Experience Platform レベルで処理されます。詳しくは、[オプトアウト](../using/consent.md)を参照してください。
 <!--Email addresses of recipients who **unsubscribe** from your sendings are NOT sent to the suppression list. Confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
-各アドレスについて、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど） が非表示リストに表示されます。 [この節](configuration/manage-suppression-list.md)の抑制リストへのアクセスと管理について詳しくは、こちらを参照してください。
+各アドレスについて、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど） が抑制リストに表示されます。 抑制リストへのアクセスと管理について詳しくは、[この節](configuration/manage-suppression-list.md)を参照してください。
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
@@ -57,11 +57,11 @@ ht-degree: 64%
 * **ソフトバウンス**。これは、有効なメールアドレスに対して発生した一時的なメールバウンスです。
 * **無視**。有効なメールアドレスに対して発生し、接続試行の失敗、一時的なスパム関連の問題（メールの評判）、一時的かつ技術的な問題など、一時的なものであることがわかっているメールのバウンスです。<!--does it exist in CJM?-->
 
-**ハードバウンス**&#x200B;は、電子メールアドレスを抑制リストに自動的に追加します。
+**ハードバウンス**&#x200B;は、メールアドレスを抑制リストに自動的に追加します。
 
-何度も繰り返し再試行した後に、**ソフトバウンス**&#x200B;または&#x200B;**無視**&#x200B;のエラーが抑制リストに送信されます。 [再試行の詳細を説明します](configuration/retries.md)
+何度も繰り返し再試行した後に、**ソフトバウンス**&#x200B;または&#x200B;**無視**&#x200B;されたエラーが何度も発生し、そのメールアドレスは抑制リストに送信されます。[再試行の詳細情報](configuration/retries.md)
 
-これらのアドレスへの送信を継続すると、メールアドレスリストのメンテナンスのベストプラクティスに従っていない可能性があり、信頼できる送信者ではない可能性があると ISP に認識され、配信率に影響が及ぶ可能性があります。
+これらのアドレスへの送信を継続すると、メールアドレスリストのメンテナンスのベストプラクティスに従っていない可能性があるため、信頼できる送信者ではない可能性があると ISP に認識され、配信率に影響が及ぶ可能性があります。
 
 ### スパム通報 {#spam-complaints}
 
