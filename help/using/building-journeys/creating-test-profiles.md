@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 39%
+ht-degree: 55%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 39%
 
 ## 前提条件 {#test-profile-prerequisites}
 
-プロファイルを作成するには、まずAdobe[!DNL Journey Optimizer]でスキーマとデータセットを作成する必要があります。
+プロファイルを作成するには、まず Adobe [!DNL Journey Optimizer] でスキーマとデータセットを作成する必要があります。
 
 まず、**スキーマを作成**&#x200B;する必要があります。次の手順に従います。
 
@@ -36,9 +36,9 @@ ht-degree: 39%
    ![](../assets/test-profiles-0.png)
 1. 右上の「**[!UICONTROL スキーマを作成]**」をクリックして、スキーマの種類を選択します（例：**XDM 個人プロファイル**）。
    ![](../assets/test-profiles-1.png)
-1. 適切なフィールドグループを選択します。 必ず&#x200B;**Profile test details**フィールドグループを追加してください。
+1. 適切なフィールドグループを選択します。 「**プロファイルテストの詳細**」フィールドグループを必ず追加してください。
    ![](../assets/test-profiles-1-ter.png)
-完了したら、「 **[!UICONTROL Add field groups]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
+完了したら、「 **[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
    ![](../assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -88,7 +88,7 @@ Adobe Journey Optimizerのホームページから、製品内ユースケース
 
 次の情報が必要です。
 
-1. **ID名前空間**:テストプ [ロ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) ファイルを一意に識別するために使用されるID名前空間。例えば、電子メールを使用してテストプロファイルを識別する場合は、ID名前空間&#x200B;**Email**&#x200B;を選択する必要があります。 一意の識別子が電話番号の場合は、ID名前空間&#x200B;**Phone**&#x200B;を選択する必要があります。
+1. **ID名前空間**:テストプ [ロ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja) ファイルを一意に識別するために使用されるID名前空間。例えば、電子メールを使用してテストプロファイルを識別する場合は、ID名前空間&#x200B;**Email**&#x200B;を選択する必要があります。 一意の識別子が電話番号の場合は、ID名前空間&#x200B;**Phone**&#x200B;を選択する必要があります。
 
 2. **CSVファイル**:作成するテストプロファイルのリストを含む、コンマ区切りファイル。この使用例では、作成するテストプロファイルのリストを含むCSVファイルに、事前に定義された形式が必要です。 ファイルの各行には、次のフィールドが次のように正しい順序で含まれている必要があります。
 
@@ -106,9 +106,9 @@ ID名前空間を選択し、上記の形式に基づいてCSVファイルを指
 >
 >テストプロファイルは、既存のプロファイルを上書きする場合があります。 使用例を実行する前に、CSVにテストプロファイルのみが含まれ、正しいサンドボックスに対して実行されていることを確認してください。
 
-## プロファイルをテストプロファイルに変換する{#turning-profile-into-test}
+## プロファイルからテストプロファイルへの変換{#turning-profile-into-test}
 
-既存のプロファイルをテストプロファイルに変換できます。プロファイルの作成時と同じ方法でプロファイル属性を更新できます。
+既存のプロファイルをテストプロファイルに変換したり、プロファイルの作成時と同じ方法でプロファイル属性を更新したりできます。
 
 これをおこなう簡単な方法は、ジャーニーで&#x200B;**[!UICONTROL Update Profile]**&#x200B;アクションアクティビティを使用し、testProfile booleanフィールドをfalseからtrueに変更することです。
 
@@ -118,7 +118,7 @@ ID名前空間を選択し、上記の形式に基づいてCSVファイルを指
 >
 > **testProfile** フィールドを更新することになるので、選択したプロファイルには、このフィールドを含める必要があります。関連するスキーマには、**Profile test details**&#x200B;フィールドグループが必要です。 [この節](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)を参照してください。
 
-1. **Segments**&#x200B;を参照し、右上の&#x200B;**Create segment**を選択します。
+1. **セグメント**&#x200B;を参照し、右上の「**セグメントを作成**」を選択します。
    ![](../assets/test-profiles-22.png)
 1. セグメント名を定義してセグメントを作成する：目的のプロファイルをターゲットするフィールドと値を選択します。
    ![](../assets/test-profiles-23.png)
@@ -133,17 +133,17 @@ ID名前空間を選択し、上記の形式に基づいてCSVファイルを指
 1. 以前に作成したセグメントと、プロファイルが使用する名前空間を選択します。
    ![](../assets/test-profiles-25.png)
 1. 「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを追加します。
-1. スキーマ、**testProfiles**&#x200B;フィールド、データセットを選択し、値を&#x200B;**True**&#x200B;に設定します。 これを実行するには、「**[!UICONTROL 値]**」フィールドで、右側の&#x200B;**ペン**&#x200B;アイコンをクリックし、「**[!UICONTROL 詳細設定モード]**」を選択して、「**true**」と入力します。
+1. スキーマ、**testProfiles** フィールド、データセットを選択し、値を「**true**」に設定します。これを実行するには、「**[!UICONTROL 値]**」フィールドで、右側の「**ペン**」アイコンをクリックし、「**[!UICONTROL 詳細設定モード]**」を選択して、「**true**」と入力します。
    ![](../assets/test-profiles-26.png)
 1. **終了**&#x200B;アクティビティを追加して、「**[!UICONTROL 公開]**」をクリックします。
-1. 「**[!UICONTROL Segments]**」セクションで、プロファイルが正しく更新されていることを確認します。
+1. 「**[!UICONTROL セグメント]**」セクションで、プロファイルが正しく更新されていることを確認します。
    ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
    > 「**[!UICONTROL プロファイル]**&#x200B;を更新」アクティビティについて詳しくは、[この節](../building-journeys/update-profiles.md)を参照してください。
 
-## csvファイル{#create-test-profiles-csv}を使用したテストプロファイルの作成
+## CSV ファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
 
 Adobe Experience Platform では、様々なプロファイルフィールドを含む CSV ファイルをデータセットにアップロードして、プロファイルを作成できます。これが最も簡単なメソッドです。
 
@@ -173,7 +173,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 >
 > CSV の読み込みについて詳しくは、[データ取得ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials)を参照してください。
 
-## API呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
+## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
 また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
 
