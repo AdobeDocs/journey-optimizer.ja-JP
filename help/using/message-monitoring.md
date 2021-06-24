@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->メッセージが複数のジャーニーで使用されている場合、各実行につき1行が表示されます。
+>メッセージが複数のジャーニーで使用されている場合、各実行に対してジャーニーごとに 1 行が表示されます。
 
 <!--![](assets/message-execution-multichannel.png)-->
 
@@ -50,20 +50,20 @@ ht-degree: 85%
 
 ![](assets/message-execution-tab-filters.png)
 
-2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。
+<!--**[!UICONTROL Quick action]**-->2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。
 
 ![](assets/message-execution-open-live-report.png)
 
 メッセージの実行ごとに、多数のインジケーターが表示されます。
 
-* **[!UICONTROL メッセージラベル]**：[メッセージの作成](create-message.md)時に定義したメッセージのタイトル。自動的に生成される実行IDは括弧で囲まれて表示されます。
+* **[!UICONTROL メッセージラベル]**：[メッセージの作成](create-message.md)時に定義したメッセージのタイトル。自動的に生成される実行 ID が括弧で囲まれて表示されます。
 
    <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
   **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
 
-* **[!UICONTROL ジャーニー — バージョン — アクション]**:メッセージを活用するジャーニーの名前、ジャーニーのバージョン、ジャーニー内のメッセージを活用するアクションのラベル。
+* **[!UICONTROL ジャーニー - バージョン - アクション]**：メッセージ配信を行うジャーニーの名前、ジャーニーのバージョン、メッセージ配信を行うジャーニー内のアクションのラベル。
 
-* **[!UICONTROL ステータス]**:メッセージの実行ステータス。  <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
+* **[!UICONTROL ステータス]**：メッセージ実行ステータス。  <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
 
 * **[!UICONTROL 開始日]**：ジャーニーからメッセージが実行された日時。
 
@@ -75,7 +75,7 @@ ht-degree: 85%
 
 * **[!UICONTROL 配信済み]**：バウンスやその他の配信エラーを生成せずに、受信者のメールボックス（メール）またはデバイス（プッシュ通知）に正常に配信されたメッセージの数。
 
-* **[!UICONTROL バウンス数]**：配信エラーによって不達となったメッセージの数。[バウンスの詳細を表示します](suppression-list.md)。
+* **[!UICONTROL バウンス数]**：配信エラーによって不達となったメッセージの数。[バウンスについての詳細](suppression-list.md)。
 
 * **[!UICONTROL 開封数]**：開かれたメッセージの数。
 
@@ -87,6 +87,6 @@ ht-degree: 85%
 
 * **[!UICONTROL エラー]** : 技術的なエラーが原因で送信できないメッセージの数。
 
-* **[!UICONTROL スパムの苦情]**:受信者によってスパムとマークされたメッセージの数。[苦情の詳細](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability)。
+* **[!UICONTROL スパム報告]**：受信者がスパムとマークしたメッセージの数。[スパム報告についての詳細](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability?lang=ja)。
 
 各ハイパーリンクをクリックすると、対応するメッセージの概要表示が開きます。[メッセージの詳細情報](create-message.md)。
