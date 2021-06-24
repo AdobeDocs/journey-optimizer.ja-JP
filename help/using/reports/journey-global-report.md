@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 88%
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
 
-バウンスについて詳しくは、[抑制リスト](../suppression-list.md)のページを参照してください。
+バウンスの詳細については、[抑制リスト](../suppression-list.md)のページを参照してください。
 
 ![](../assets/global_report_16.png)
 
