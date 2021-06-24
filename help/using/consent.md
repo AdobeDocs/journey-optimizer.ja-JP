@@ -129,7 +129,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## ヘッダー{#unsubscribe-email}のリンクの購読解除
+## ヘッダーのリンクの購読解除 {#unsubscribe-email}
 
 受信者のEメールクライアントがEメールヘッダーに購読解除リンクを表示できる場合、[!DNL Journey Optimizer]と共に送信されるEメールには自動的にこのリンクが含まれます。
 
