@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 87%
 
 **アクション**
 
-**メッセージ**&#x200B;アクティビティが表示され、[!DNL Journey Optimizer]で設計されたメッセージを含めることができます。 [メッセージアクティビティの詳細情報](journeys-message.md)
+ここには、[!DNL Journey Optimizer] で設計されたメッセージを含めることができる&#x200B;**メッセージ**&#x200B;アクティビティがあります。[メッセージアクティビティの詳細情報](journeys-message.md)
 
 また、サードパーティ製システムでメッセージを送信するように設定したカスタムアクションもあります。詳しくは、[この節](about-journey-activities.md#action-activities)を参照してください。
 
