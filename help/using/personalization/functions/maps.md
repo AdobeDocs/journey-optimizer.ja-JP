@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 51%
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 51%
 
 **例**
 
-次の操作は、キー`example@example.com`のIDマップの値を取得します。
+次の操作は、キー `example@example.com` の ID マップの値を取得します。
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -46,7 +46,7 @@ ht-degree: 51%
 
 **例**
 
-次の操作は、マップ`identityMap`のすべてのキーを取得します。
+次の操作は、マップ `identityMap` のすべてのキーを取得します。
 
 ```sql
 {%= keys(identityMap) %}
@@ -64,7 +64,7 @@ ht-degree: 51%
 
 **例**
 
-次の操作は、マップ`identityMap`のすべての値を取得します。
+次の操作は、マップ `identityMap` のすべての値を取得します。
 
 ```sql
 {%= values(identityMap) %}
