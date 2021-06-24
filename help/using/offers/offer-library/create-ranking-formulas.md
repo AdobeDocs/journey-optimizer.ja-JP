@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 ランキング式を作成するには、次の手順に従います。
 
-1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、 **[!UICONTROL ランキング]**&#x200B;タブを選択します。作成済みのランク付けのリストが表示されます。
+1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL ランキング]**」タブを選択します。作成済みのランキングのリストが表示されます。
 
    ![](../../assets/rankings-list.png)
 
