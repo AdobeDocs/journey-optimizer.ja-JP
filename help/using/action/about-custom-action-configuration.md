@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 88%
    >
    >以下の[解析ルール](https://tools.ietf.org/html/rfc7230#section-3.2.4)に従って、ヘッダーの検証が行われます。
 
-## アクションパラメーター{#define-the-message-parameters}を定義します。
+## アクションパラメーターの定義 {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
@@ -74,7 +74,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->ペイロード内のフィールド名に「。」を含めることはできません。 文字.
+>ペイロード内のフィールド名に「。」文字を含めることはできません。
 
 パラメーターのタイプ（例：文字列、整数など）を定義できます。
 
