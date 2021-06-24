@@ -1,6 +1,6 @@
 ---
 title: 権限レベル
-description: 高レベルおよび低レベルの権限について説明します
+description: 高レベルおよび低レベル権限について学ぶ
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -19,75 +19,75 @@ level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 権限レベル{#high-low-permissions}
+# 権限レベル {#high-low-permissions}
 
 ![](../assets/do-not-localize/permissions.png)
 
 各製品プロファイルは、ユーザーが様々な機能にアクセスできる権限で構成されています。
-次の2つのタイプに分けることができます。
+権限は次の 2 つのタイプに分けることができます。
 
-* **高レベルの権限**:は、公開ジャーニーやサブドメインデリゲーシ **[!UICONTROL ョンの管]** 理など、 [!DNL Admin console]で製品プロファイルに割り当て **[!UICONTROL ることができる様々]** な権限を表します ****。高レベルの権限は、低レベルの権限を含みます。
+* **高レベル権限**：**[!UICONTROL ジャーニーの公開]**&#x200B;や&#x200B;**[!UICONTROL サブドメインのデリゲーションの管理]**&#x200B;など、[!DNL Admin console] で&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てることができる様々な権限を表します。高レベル権限は、低レベル権限を含みます。
 
-* **低レベルの権限**:は、高レベルの権限から取得される様々な権限を表します。
+* **低レベル権限**：高レベル権限から取得される様々な権限を表します。
 
-例えば、**[!UICONTROL ジャーニー管理者]**&#x200B;製品プロファイルに、**[!UICONTROL ジャーニーの管理]**&#x200B;権限が割り当てられます。 この権限により、ジャーニー管理者がジャーニーの書き込み、読み取り、削除をおこなえる低レベルの権限が生じます。
+例えば、**[!UICONTROL ジャーニー管理者]**&#x200B;製品プロファイルには、**[!UICONTROL ジャーニーの管理]**&#x200B;権限が割り当てられます。 この権限により、ジャーニー管理者がジャーニーの書き込み、読み取りおよび削除ができる低レベル権限が生じます。
 
-## ジャーニー機能{#journey-capability}
+## ジャーニー機能 {#journey-capability}
 
-### ジャーニー権限の管理{#manage-journeys}
+### ジャーニー管理の権限 {#manage-journeys}
 
-**[!UICONTROL ジャーニーの管理]**&#x200B;の高レベル権限を使用すると、新しいジャーニーの作成や、既存のジャーニーの編集/削除、ジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへのアクセスができます。
+**[!UICONTROL ジャーニーの管理]**&#x200B;の高レベル権限を持つユーザーは、新しいジャーニーの作成や、既存のジャーニーの編集／削除、ジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへのアクセスができます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
 
    * segments.read
    * profiles.read
    * datasets.read
    * schemas.read
 
-### ジャーニーの公開権限{#publish-journeys}
+### ジャーニーの公開権限 {#publish-journeys}
 
-**[!UICONTROL ジャーニーの公開]**&#x200B;の高レベル権限を使用すると、ユーザーはジャーニーを公開できます。
+**[!UICONTROL ジャーニーの公開]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーを公開できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * journeys.publish
    * journeys.read
 
-### ジャーニー権限{#view-journeys}の表示
+### ジャーニーの表示権限 {#view-journeys}
 
-**[!UICONTROL ジャーニー]**&#x200B;の高レベル権限を使用すると、ユーザーはジャーニーを参照および表示できます。
+**[!UICONTROL ジャーニーの表示]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーを参照および表示できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * journeys.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * segments.read
    * profiles.read
 
-### ジャーニーイベント、データソース、アクションの権限を管理します。{#manage-journeys-events}
+### ジャーニーイベント、データソース、アクションの管理権限 {#manage-journeys-events}
 
-**[!UICONTROL ジャーニーイベント、データソース、アクションの管理]**&#x200B;の高レベル権限を使用すると、イベントとデータの設定を行うことができます。
+**[!UICONTROL ジャーニーイベント、データソース、アクションの管理]**&#x200B;の高レベル権限を持つユーザーは、イベントとデータの設定を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * journeys_events.read
    * journeys_events.write
    * journeys_events.delete
@@ -97,73 +97,73 @@ ht-degree: 0%
    * journeys_actions.read
    * journeys_actions.write
    * journeys_actions.delete
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### ジャーニーイベント、データソース、アクションの権限を表示{#view-journeys-event}
+### ジャーニーイベント、データソース、アクションの表示権限 {#view-journeys-event}
 
-**[!UICONTROL ジャーニーイベント、データソース、アクションの表示]**&#x200B;の高レベル権限を使用すると、ユーザーはジャーニーフローでイベントとデータを使用できます。
+**[!UICONTROL ジャーニーイベント、データソース、アクションの表示]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * journeys_events.read
    * journeys_data_sources.read
    * journeys_actions.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### ジャーニーレポートの権限{#view-journeys-report}を表示
+### ジャーニーレポートの表示権限 {#view-journeys-report}
 
-**[!UICONTROL ジャーニーレポート]**&#x200B;の高レベル権限を持つユーザーは、読み取り専用のジャーニーレポートを作成できます。
+**[!UICONTROL ジャーニーレポートの表示]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーレポートを読み取ることのみが可能です。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * journeys_report.read
    * messages_report.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * datasets.read
    * queries.read
    * queries.write
    * queries.delete
 
-## メッセージ機能{#message-capability}
+## メッセージ機能 {#message-capability}
 
-### メッセージの管理権限{#manage-messages}
+### メッセージの管理権限 {#manage-messages}
 
-**[!UICONTROL メッセージの管理]**&#x200B;の高レベル権限を使用すると、ユーザーはメッセージを作成および編集/削除できます。
+**[!UICONTROL メッセージの管理]**&#x200B;の高レベル権限を持つユーザーは、メッセージを作成および編集／削除できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages.write
    * messages.read
    * messages.delete
    * messages_presets.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * segments.read
    * schemas.read
 
-### メッセージのプレビューとテストの権限を管理します{#mange-messages-preview}
+### メッセージのプレビューとテストの管理権限 {#mange-messages-preview}
 
-**[!UICONTROL メッセージのプレビューおよびテストの管理]**&#x200B;の高レベル権限を使用すると、パーソナライズされたメッセージをプレビューできます。
+**[!UICONTROL メッセージのプレビューおよびテストの管理]**&#x200B;の高レベル権限を持つユーザーは、パーソナライズされたメッセージをプレビューできます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages.publish
    * messages_preview_and_test.write
    * messages.publish
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * profiles.read
    * profiles.write
    * schemas.read
@@ -174,41 +174,41 @@ ht-degree: 0%
    * queries.write
    * merge_policies.read
 
-### メッセージの公開権限{#publish-messages}
+### メッセージの公開権限 {#publish-messages}
 
-**[!UICONTROL メッセージの公開]**&#x200B;の高レベル権限を使用すると、ユーザーはメッセージを公開できます。
+**[!UICONTROL メッセージの公開]**&#x200B;の高レベル権限を持つユーザーは、メッセージを公開できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages.publish
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * profiles.read
    * schemas.read
    * datasets.read
 
-### メッセージの表示権限{#view-messages}
+### メッセージの表示権限 {#view-messages}
 
 **[!UICONTROL メッセージの表示]**&#x200B;の高レベル権限を持つユーザーは、メッセージの読み取りのみ可能です。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages.read
    * messages_presets.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * schemas.read
    * segments.read
 
-### メッセージレポートの権限{#view-message-reports}の表示
+### メッセージレポートの表示権限 {#view-message-reports}
 
-**[!UICONTROL メッセージレポート]**&#x200B;の表示権限を持つユーザーは、読み取り専用の電子メールおよびプッシュレポートを実行できます。
+**[!UICONTROL メッセージレポートの表示]**&#x200B;の高レベル権限を持つユーザーは、読み取り専用のメールおよびプッシュレポートが許可されます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages_report.read
    * datasets.read
    * queries.read
@@ -216,15 +216,15 @@ ht-degree: 0%
    * queries.delete
    * journey.read
 
-## 判定管理機能{#decisions-permissions}
+## 決定管理機能 {#decisions-permissions}
 
-### 決定権限の管理{#manage-decisioning}
+### 決定の管理権限 {#manage-decisioning}
 
-**[!UICONTROL 意思決定を管理]**&#x200B;大まかな権限を持つユーザーは、新しい&#x200B;**[!UICONTROL アクティビティエンティティ]**&#x200B;の作成や編集、削除を行えるほか、これらのアクティビティで使用されるオブジェクトを管理できます。
+**[!UICONTROL 決定管理]**&#x200B;の高レベル権限を持つユーザーは、既存の&#x200B;**[!UICONTROL アクティビティエンティティ]**&#x200B;の編集／削除、新規作成をおこなえるほか、これらのアクティビティで使用されるオブジェクトを管理し、決定することができます。
 
 これには、次の低レベル権限が含まれます。
 
-* 判定管理固有：
+* 決定管理固有：
    * activities.read
    * activities.write
    * activities.delete
@@ -236,7 +236,7 @@ ht-degree: 0%
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -244,32 +244,32 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### 表示決定権限{#view-decisions}
+### 決定の表示権限 {#view-decisions}
 
-**[!UICONTROL 意思決定を表示]**&#x200B;する高レベルの権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定をおこなうことができます。
+**[!UICONTROL 決定を表示]**&#x200B;の高レベル権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定をおこなうことができます。
 
 これには、次の低レベル権限が含まれます。
 
-* 判定管理固有：
+* 決定管理固有：
    * activities.read
    * offers.read
    * placements.read
    * ranking_strategy.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * schemas.read
    * segment.read
    * datasets.read
    * datasets.write
    * datasets.delete
 
-### オファー判定権限の公開{#publish-decisions}
+### オファー決定の公開権限 {#publish-decisions}
 
-**[!UICONTROL オファー判定]**&#x200B;の公開の高レベル権限を使用すると、ユーザーはオファーアクティビティの承認/未承認にアクセスできます。
+**[!UICONTROL オファー決定の公開]**&#x200B;の高レベル権限を持つユーザーは、オファーアクティビティを承認／未承認する権限を持ちます。
 
 これには、次の低レベル権限が含まれます。
 
-* 判定管理固有：
+* 決定管理固有：
    * offers_activity.read
    * offers.read
    * offers.write
@@ -279,19 +279,19 @@ ht-degree: 0%
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * schemas.read
    * segment.read
    * datasets.read
    * profiles.read
 
-### ランキング戦略の権限{#manage-decisions}の管理
+### ランキング戦略の管理権限 {#manage-decisions}
 
-**[!UICONTROL ランキング戦略の管理]**&#x200B;の高レベル権限を使用すると、カスタムメッセージレポートの読み取り、作成、編集、削除や、アクション機能の使用が可能になります。
+**[!UICONTROL ランキング戦略の管理]**&#x200B;の高レベル権限を持つユーザーは、カスタムメッセージレポートの読み取り、作成、編集および削除や、アクション機能を使用できます。
 
 これには、次の低レベル権限が含まれます。
 
-* 判定管理固有：
+* 決定管理固有：
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -299,11 +299,11 @@ ht-degree: 0%
    * offers.read
    * placements.read
 
-## 管理機能{#administration-permissions}
+## 管理機能 {#administration-permissions}
 
-### サブドメインのデリゲーション権限を管理します{#manage-subdomain}
+### サブドメインのデリゲーション管理権限 {#manage-subdomain}
 
-**[!UICONTROL サブドメインデリゲーションの管理]**&#x200B;の高レベル権限を使用すると、サブドメインデリゲーション（IPプールを含む）を作成、編集および削除できます。
+**[!UICONTROL サブドメインのデリゲーション管理]**&#x200B;の高レベル権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除ができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -311,16 +311,16 @@ ht-degree: 0%
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### PTRレコードのアクセス許可{#view-ptr}の表示
+### PTR レコードのアクセス表示権限 {#view-ptr}
 
-**[!UICONTROL View PTR records]**&#x200B;高レベル権限を使用すると、サブドメインに基づいて構成され、次の低レベル権限を含むPTRレコードを表示できます。
+**[!UICONTROL PTR レコードの表示]**&#x200B;の高レベル権限を持つユーザーは、サブドメインに基づいて構成された、次の低レベル権限を含む PTR レコードを表示できます。
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### IPプールのアクセス許可{#manage-ip-pools}を管理します
+### IP プールの管理権限 {#manage-ip-pools}
 
-**[!UICONTROL IPプールの管理]**&#x200B;の高レベル権限を使用すると、アフィニティ定義の作成、編集、削除を行うことができます。
+**[!UICONTROL IP プールの管理]**&#x200B;の高レベル権限を持つユーザーは、アフィニティ定義を作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -328,59 +328,59 @@ ht-degree: 0%
 * IP_pools.write
 * IP_pools.delete
 
-### メッセージの全般設定の権限{#manage-message-settings}を管理します
+### メッセージの一般設定の管理権限 {#manage-message-settings}
 
-**[!UICONTROL メッセージの一般設定を管理]**&#x200B;高レベル権限を使用すると、サンドボックスレベルでグローバル設定を作成、編集、削除できます。
+**[!UICONTROL メッセージの一般設定の管理]**&#x200B;の高レベル権限をを持つユーザーは、サンドボックスレベルでグローバル設定を作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * schemas.read
 
-### メッセージの一般設定のアクセス許可{#view-message-settings}を表示
+### メッセージの一般設定の表示権限 {#view-message-settings}
 
-**[!UICONTROL メッセージの一般設定]**&#x200B;の高レベル権限を使用すると、抑制ルールや実行アドレスなどのメッセージの一般設定を表示できます。
+**[!UICONTROL メッセージの一般設定の表示]**&#x200B;の高レベル権限を持つユーザーは、抑制ルールや実行アドレスなどの、メッセージの一般設定を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages_general_settings.read
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * schemas.read
 
-### メッセージプリセットの権限{#manage-message-presets}の管理
+### メッセージプリセットの管理権限 {#manage-message-presets}
 
-**[!UICONTROL メッセージプリセットの管理]**&#x200B;の高レベル権限を使用すると、ユーザーはサンドボックスレベルでチャネル間でメッセージプリセットを作成、編集および削除できます。
+**[!UICONTROL メッセージプリセットの管理]**&#x200B;の高レベル権限を持つユーザーは、サンドボックスレベルでチャネル間のメッセージプリセットを作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * messages_presets.read
    * messages_presets.write
    * messages_presets.delete
    * subdomains_delegation.read
    * IP_pools.read
-   * mobile_setting.read (Adobe Experience Platform Launchから)
+   * mobile_setting.read（Adobe Experience Platform Launch から）
 
-### メッセージプリセットの権限{#view-message-presets}の表示
+### メッセージプリセットの表示権限 {#view-message-presets}
 
-「**[!UICONTROL メッセージプリセットを表示]**」の高レベル権限を使用すると、メッセージの作成時に使用するメッセージプリセットを知るために、メッセージプリセットを表示できます。
+**[!UICONTROL メッセージプリセットの表示]**&#x200B;の高レベル権限を持つユーザーは、メッセージの作成時にどのメッセージプリセットを使うべきか理解できるように、メッセージプリセットを表示できます。
 
 これには、次の低レベル権限が含まれます。
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (Adobe Experience Platform Launchから)
+* mobile_setting.read（Adobe Experience Platform Launch から）
 
-### 抑制ルールの権限を管理{#manage-suppression-rules}
+### 抑制ルールの管理権限 {#manage-suppression-rules}
 
-**[!UICONTROL 抑制ルールの管理]**&#x200B;の高レベル権限を使用すると、ユーザーの電子メールアドレスが抑制リストに追加される前に、バウンス数を定義できます。
+**[!UICONTROL 抑制ルールの管理]**&#x200B;の高レベル権限を持つユーザーは、自身のメールアドレスが抑制リストに追加される前に、バウンス数を定義できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -388,24 +388,24 @@ ht-degree: 0%
 * suppression_rules.write
 * suppression_rules.delete
 
-### 表示抑制リストの権限{#view-suppresion-list}
+### 抑制リストの表示権限 {#view-suppresion-list}
 
-**[!UICONTROL 表示抑制リスト]**&#x200B;の高レベル権限を使用すると、メッセージプリセットや一般的なメッセージ設定などのメッセージ設定を表示できます。
+**[!UICONTROL 抑制リストの表示]**&#x200B;の高レベル権限を持つユーザーは、メッセージプリセットや一般的なメッセージ設定などのメッセージ設定を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer固有：
+* Journey Optimizer 固有：
    * suppression_list.view
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read
 
-### 書き出し抑制リストの権限{#export-suppression-list}
+### 抑制リストの書き出し権限 {#export-suppression-list}
 
-**[!UICONTROL 書き出し抑制リスト]**&#x200B;の高レベル権限を使用すると、メッセージプリセットや一般的なメッセージ設定などのメッセージ設定を行うことができます。
+**[!UICONTROL 抑制リストの書き出し]**&#x200B;の高レベル権限を持つユーザーは、メッセージプリセットや一般的なメッセージ設定などのメッセージ設定を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
-* Adobe Experience Platform固有：
+* Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read
