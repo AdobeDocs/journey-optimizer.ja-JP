@@ -5,10 +5,10 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 91%
+source-wordcount: '818'
+ht-degree: 88%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 91%
 
 ![](../assets/report_journey_2.png)
 
-「**[!UICONTROL ジャーニーのパフォーマンス]**」には、ターゲットとするプロファイルのパスがジャーニーの初めから終わりまで段階的に表示されます。
+**[!UICONTROL ジャーニー]** のパフォーマンスを使用すると、ジャーニーを順を追ってターゲットプロファイルのパスを確認できます。
 
-**[!UICONTROL ジャーニーの統計情報]**&#x200B;ウィジェットには、次の KPI が表示されます。
+**[!UICONTROL ジャーニー統計]**&#x200B;ウィジェットには、次のKPIが表示されます。
 
 * **[!UICONTROL エントリしたプロファイル]**：ジャーニーのエントリイベントに到達した個人の合計数。
 
@@ -54,7 +54,7 @@ ht-degree: 91%
 
 * **[!UICONTROL アクションのエラー]**：アクションで発生したエラーの合計数。
 
-## 「メール」タブ {#email-live}
+## 「メール」タブ  {#email-live}
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、ジャーニーで送信されるメール配信に関連する主な情報の詳細が表示されます。
 
@@ -100,7 +100,7 @@ ht-degree: 91%
 
 「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
 
-## 「プッシュ」タブ {#push-live}
+## 「プッシュ」タブ  {#push-live}
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ]**」タブには、ジャーニーで送信されたプッシュ配信に関連する主な情報の詳細が表示されます。
 
