@@ -19,29 +19,29 @@ level: Intermediate
 source-git-commit: 344bcff33895867d650f98b778cdf76c52a4b75e
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # ジャーニーの設定
 
-ジャーニーを含むメッセージを送信するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;を設定する必要があります。
+ジャーニーでメッセージを送信するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;を設定する必要があります。
 
 ![](../assets/admin-menu.png)
 
 ## データソース
 
-データソースを設定すると、ジャーニーで使用される追加情報を取得するため、システムへの接続を定義できます。[詳細情報](../../using/datasource/about-data-sources.md)
+データソースを設定すると、システムへの接続を定義して、ジャーニーで使用する追加情報を取得することができます。[詳細](../../using/datasource/about-data-sources.md)
 
 ## イベント
 
 イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。
 
-イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から取得します。[詳細情報](../../using/event/about-events.md)
+イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から取得します。[詳細](../../using/event/about-events.md)
 
 ## アクション
 
-Journey Optimizerメッセージ機能は次の組み込み機能です。必要なのは、コンテンツのデザインとメッセージのパブリッシュだけです。 サードパーティシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../../using/action/action.md)
+Journey Optimizer にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細](../../using/action/action.md)
 
 ## Adobe Experience Platform フィールドの参照 {#friendly-names-display}
 
