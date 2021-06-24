@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 60%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 ## ブール関数
 
-ブール関数 は、異なる要素に対してブール論理を実行するために使用されます。
+ブール関数は、異なる要素に対してブール論理を実行するために使用します。
 
 ### And{#and}
 
@@ -30,7 +30,7 @@ ht-degree: 60%
 
 **例**
 
-次の作戦は、母国をフランスとし、1985年の生年を持つすべての人々を返す。
+次の操作は、母国がフランスで、かつ 1985 年に生まれたすべての人を返します。
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -48,7 +48,7 @@ ht-degree: 60%
 
 **例**
 
-次の作戦は、母国をフランスとし、1985年生まれの年とすべての人々を返す。
+次の操作は、母国がフランス、または 1985 年に生まれたすべての人を返します。
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -81,7 +81,7 @@ not (homeAddress.countryISO = "CA")
 
 ## 比較関数
 
-比較関数 を使用して異なる式と値を比較し、適宜trueまたはfalseを返します。
+比較関数は、異なる式と値を比較するために使用され、それに応じて true または false を返します。
 
 ### Equals{#equals}
 
@@ -131,7 +131,7 @@ not (homeAddress.countryISO = "CA")
 
 **例**
 
-以下の操作は、1970年以降に生まれた人々を厳格に定める。
+次の操作は、1970 年より後（1970 年は含まない）に生まれた人々を定義します。
 
 ```sql
 {%= profile.person.birthYear > 1970 %}
@@ -149,7 +149,7 @@ not (homeAddress.countryISO = "CA")
 
 **例**
 
-以下の操作は、1970年以降に生まれた人々を定義します。
+以下の操作は、1970 年以降に生まれた人々を定義します。
 
 ```sql
 {%= profile.person.birthYear >= 1970 %}
@@ -167,7 +167,7 @@ not (homeAddress.countryISO = "CA")
 
 **例**
 
-次の操作は、2000年より前に生まれた人々を定義します。
+次の操作は、2000 年より前（2000 年を含まない）に生まれた人々を定義します。
 
 ```sql
 {%= profile.person.birthYear < 2000 %}
@@ -185,7 +185,7 @@ not (homeAddress.countryISO = "CA")
 
 **例**
 
-次の操作は、2000年以前に生まれた人々を定義します。
+次の操作は、2000 年以前に生まれた人々を定義します。
 
 ```sql
 {%= profile.person.birthYear <= 2000 %}
