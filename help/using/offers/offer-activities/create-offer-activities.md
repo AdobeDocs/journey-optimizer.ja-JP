@@ -5,14 +5,14 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# 決定を作成{#create-offer-activities}
+# 決定の作成 {#create-offer-activities}
 
 決定（旧称：オファーアクティビティ）は、オファーのコンテナです。配信のターゲットに応じて、提供する最適なオファーを選ぶために Offer Decisioning エンジンを使用します。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * [パーソナライズされたオファー](../offer-library/creating-personalized-offers.md)
 * [フォールバックオファー](../offer-library/creating-fallback-offers.md)
 
-## 決定の作成{#create-activity}
+## 決定の作成 {#create-activity}
 
 1. 決定リストにアクセスし、「**[!UICONTROL アクティビティを作成]**」をクリックします。
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ![](../../assets/save-activities.png)
 
-決定は前のステップでアクティベートしたかどうかに応じて、 **[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL ドラフト]**&#x200B;のステータスでリストに表示されます。
+判定は、前の手順で有効化したかどうかに応じて、「**[!UICONTROL ライブ]**」ステータスまたは「**[!UICONTROL ドラフト]**」ステータスでリストに表示されます。
 
 これで、顧客にオファーを提供するために使用する準備が整いました。選択してプロパティを表示し、編集または抑制できます。
 
