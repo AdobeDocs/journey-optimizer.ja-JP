@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ISP は、通常、受け取ったメッセージをスパムとしてレポー�
 
 配信品質を保護するため、受信者のアドレスが抑制リストに含まれている場合、デフォルトでは、今後のすべての配信からそのアドレスが除外されます。これらの連絡先に送信すると、評価が下がる可能性があるからです。
 
-[抑制リストの詳細を説明します](suppression-list.md)。
+[抑制リストについての詳細](suppression-list.md)。
 
 ## 監視ツールの使用 {#monitoring-tools}
 
