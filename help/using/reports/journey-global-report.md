@@ -5,14 +5,14 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 90%
+source-wordcount: '1093'
+ht-degree: 88%
 
 ---
 
-# ジャーニーグローバルレポート{#journey-global-report}
+# ジャーニーグローバルレポート {#journey-global-report}
 
 ジャーニーのグローバルレポートにジャーニーから直接アクセスするには、「**[!UICONTROL グローバルレポート]**」ボタンを押します。
 
@@ -26,15 +26,15 @@ ht-degree: 90%
 
 ジャーニーの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、ジャーニーの成功とエラーについて説明する様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](global-report.md#modify-dashboard)を参照してください。
 
-## 「ジャーニー」タブ{#journey-global}
+## 「ジャーニー」タブ {#journey-global}
 
 ジャーニーの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL ジャーニー]**」タブには、ジャーニーに関する重要なトラッキングデータが明確に表示されます。
 
 ![](../assets/global_report_2.png)
 
-**[!UICONTROL ジャーニーのパフォーマンス]**&#x200B;ウィジェットを使用すると、ターゲットにしたプロファイルのパスを、ジャーニーを通じて確認できます。
+**[!UICONTROL ジャーニーパフォーマンス]**&#x200B;ウィジェットを使用すると、ターゲットプロファイルのパスをジャーニー全体を順を追って確認できます。
 
-**[!UICONTROL ジャーニーの統計情報]**&#x200B;ウィジェットには、次の KPI が表示されます。
+**[!UICONTROL ジャーニー統計]**&#x200B;ウィジェットには、次のKPIが表示されます。
 
 * **[!UICONTROL エントリしたプロファイル]**：ジャーニーのエントリイベントに到達した個人の合計数。
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 
 * **[!UICONTROL アクションのエラー]**：**[!UICONTROL アクション]**&#x200B;で発生したエラーの合計数。
 
-## 「メール」タブ {#email-global}
+## 「メール」タブ  {#email-global}
 
 ジャーニーの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、ジャーニーで送信したメールの配信に関する主な情報が表示されます。
 
@@ -124,7 +124,7 @@ ht-degree: 90%
 
 **[!UICONTROL Eメール — 上位の受信者ドメイン]**&#x200B;グラフおよびテーブル詳細は、Eメールを開く際に受信者が最も使用するドメインを示します。
 
-## プッシュタブ {#push-global}
+## 「プッシュ」タブ  {#push-global}
 
 ジャーニーの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL プッシュ]**」タブには、ジャーニーで送信されるプッシュ配信に関連する主な情報が詳しく表示されます。
 
