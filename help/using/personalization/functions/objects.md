@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 52%
+ht-degree: 89%
 
 ---
 
 # オブジェクト関数 {#objects}
 
-## Isnull{#isNull}
+## Is null{#isNull}
 
 `isNull` 関数は、オブジェクト参照が存在しないかどうかを判定します。
 
@@ -26,13 +26,13 @@ ht-degree: 52%
 
 **例**
 
-次の操作は、その人の自宅住所が存在しないかどうかを確認します。
+次の操作は、ユーザーの自宅の住所が存在しないかどうかを確認します。
 
 ```sql
 {%= isNull(person.homeAddress) %}
 ```
 
-## isNotNull{#isNotNull}
+## Is not null{#isNotNull}
 
 `isNotNull` 関数は、オブジェクト参照が存在するかどうかを判定します。
 
@@ -44,7 +44,7 @@ ht-degree: 52%
 
 **例**
 
-次の操作は、その人の自宅住所が存在するかどうかを確認します。
+次の操作は、ユーザーの自宅の住所が存在するかどうかを確認します。
 
 ```sql
 {%= isNotNull(person.homeAddress) %}
