@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 19%
+ht-degree: 22%
 
 ---
 
@@ -118,9 +118,9 @@ Adobe Experience Platform Mobile SDKは、AndroidおよびiOS互換のSDKを介�
 この作業が完了するまでに、Adobe Experience Platform Launchでモバイルプロパティも作成および設定する必要があります。 通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。 [Adobe Experience Platform Launchのドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)でモバイルプロパティを作成および設定する方法を説明します。
 
 
-## 手順1:Adobe Experience Platform Launch {#push-credentials-launch}にアプリのプッシュ資格情報を追加します
+## 手順1:Adobe Experience Platform Launchでのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
 
-正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ資格情報を[!DNL Adobe Experience Platform Launch]に追加する必要があります。
+正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ認証情報を [!DNL Adobe Experience Platform Launch] に追加する必要があります。
 
 モバイルアプリのプッシュ証明書の登録は、Adobeが自分に代わってプッシュ通知を送信することを承認するために必要です。 以下に説明する手順を参照してください。
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 手順3:イベント{#mobile-app-test}を使用してモバイルアプリをテストする
+## 手順3:イベントでモバイルアプリをテストする {#mobile-app-test}
 
 Adobe Experience PlatformとAdobeLaunchの両方でモバイルアプリを設定した後、プッシュ通知をプロファイルに送信する前にテストできるようになりました。 この使用例では、モバイルアプリをターゲットにするジャーニーを作成し、プッシュ通知をトリガーにするイベントを設定します。
 
@@ -343,11 +343,11 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 イベントがトリガーされ、モバイルアプリにプッシュ通知が届きます。
 
-## 手順4:プッシュのメッセージプリセットの作成{#message-preset}
+## 手順4:プッシュ用のメッセージプリセットの作成{#message-preset}
 
-モバイルアプリを[!DNL Adobe Experience Platform Launch]で設定したら、**[!DNL Journey Optimizer]**&#x200B;からプッシュ通知を送信できるように、メッセージプリセットを作成する必要があります。
+モバイルアプリケーションを [!DNL Adobe Experience Platform Launch] で設定したら、**[!DNL Journey Optimizer]** からプッシュ通知を送信できるように、メッセージプリセットを作成する必要があります。
 
-[この節](configuration/message-presets.md)でメッセージプリセットを作成して設定する方法を説明します。
+[この節](configuration/message-presets.md)では、メッセージプリセットを作成して設定する方法を説明します。
 
 これで、Journey Optimizerでプッシュ通知を送信する準備が整いました。
 
