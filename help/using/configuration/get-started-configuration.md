@@ -1,6 +1,6 @@
 ---
-title: Journey Optimizer設定と設定のガイドライン
-description: メッセージとジャーニー設定のガイドラインを説明します
+title: Journey Optimizer の設定と設定のガイドライン
+description: メッセージとジャーニー設定のガイドラインを学ぶ
 audience: administrators
 content-type: reference
 role: Administrator
@@ -13,45 +13,45 @@ topic: 管理
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Optimizer]設定の基本を学ぶ
+# [!DNL Journey Optimizer] 設定の基本を学ぶ
 
-[!DNL Journey Optimizer]に初めてアクセスする場合は、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数のIPが割り当てられます。
+[!DNL Journey Optimizer]に初めてアクセスする際には、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
 ジャーニーを作成してメッセージを送信するには、次の設定手順に従う必要があります。
 
-1. **メッセージとチャネルの設定**:プリセットの定義、Eメールおよびプッシュメッセージの適応とカスタマイズ
+1. **メッセージとチャネルを設定**：プリセットの定義、メールおよびプッシュメッセージの適応とカスタマイズ
 
-   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。 [詳細情報](../push-gs.md)
+   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。 [詳細](../push-gs.md)
 
-   * メッセージプリセットを作成して、電子メールおよびプッシュ通知メッセージに必要なすべての技術的パラメーターを設定します。 [詳細情報](message-presets.md)
+   * メッセージプリセットを作成して、メールおよびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。 [詳細](message-presets.md)
 
-   * Adobe Experience Platformで複数のアドレスが使用可能な場合、受信者に優先して使用する電子メールアドレスを決定します。 [詳細情報](primary-email-addresses.md)
+   * Adobe Experience Platform で使用可能なアドレスが複数ある場合、受信者に優先して使用するメールアドレスを決定します。 [詳細](primary-email-addresses.md)
 
-   * 抑制リストに電子メールアドレスを送信する前に再試行が実行される日数を管理します。 [詳細情報](manage-suppression-list.md)
+   * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。 [詳細](manage-suppression-list.md)
 
    <!--
     * Understand push notification flow. [Learn more](../push-gs.md)
     -->
 
-1. **サブドメインをデリゲート**:Journey Optimizerで使用される新しいサブドメインの場合、最初の手順はそれをデリゲートすることです。[詳細情報](about-subdomain-delegation.md)
+1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細](about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **IPプールの作成**:インスタンスでプロビジョニングされたIPアドレスをグループ化することで、Eメールの配信品質とレピュテーションを向上させます。[詳細情報](ip-pools.md)
+1. **IP プールの作成**：インスタンスでプロビジョニングされた IP アドレスをグループ化することで、E メールの配信品質と評判を向上させます。[詳細](ip-pools.md)
 
    ![](../assets/ip-pool.png)
 
-1. **ジャーニーの設定**:ジャーニーを作成するには、データソース **[!UICONTROL 、イベン]**&#x200B;ト、アクション **** を設定する **[!UICONTROL 必要]**&#x200B;があります。[詳細情報](about-data-sources-events-actions.md)
+1. **ジャーニーの設定**：ジャーニーを作成するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]** と **[!UICONTROL アクション]**&#x200B;を設定する必要があります。[詳細](about-data-sources-events-actions.md)
 
    ![](../assets/admin-menu.png)
 
-   * **データソース**&#x200B;設定を使用すると、システムへの接続を定義して、ジャーニーで使用される追加情報を取得できます。 データソースについて詳しくは、この[節](../datasource/about-data-sources.md)を参照してください
+   * **データソース**&#x200B;を設定すると、ジャーニーで使用される追加情報を取得するため、システムへの接続を定義できます。データソースについて詳しくは、この[節](../datasource/about-data-sources.md)を参照してください
 
-   * **イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。**&#x200B;イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から取得します。イベントについて詳しくは、この[節](../event/about-events.md)を参照してください
+   * **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から取得します。イベントについて詳しくは、この[節](../event/about-events.md)を参照してください
 
-   * [!DNL Journey Optimizer] には、次の組み込みのメッセージ機能が備わっています。コンテンツをデザインし、メッセージを公開できます。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。 アクションについて詳しくは、この[節](../action/action.md)を参照してください
+   * [!DNL Journey Optimizer] には、コンテンツをデザインし、メッセージを公開できる組み込みのメッセージ機能が備わっています。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、この[節](../action/action.md)を参照してください
