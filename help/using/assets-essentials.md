@@ -5,16 +5,16 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
+source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 2%
 
 ---
 
-# 用途 [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
+# 用途 [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
-## [!DNL Assets Essentials] の概要 {#get-started-assets-essentials}
+## [!DNL Assets Essentials] の概要  {#get-started-assets-essentials}
 
 [!DNL Adobe Experience Manager Assets Essentials] は、メッセージの入力に使用できるアセットの単一の一元的なリポジトリを提供します。[!DNL Adobe Journey Optimizer]から&#x200B;**[!UICONTROL Assets]**&#x200B;セクションを通じて直接アクセスできます。 また、Eメールコンテンツをデザインする際に、アセットやフォルダーにアクセスすることもできます。 [Eメールデザインの詳細を説明します](design-emails.md)。
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 [!DNL Assets Essentials]にファイルをアップロードするには、まずそのファイルを格納するフォルダーを参照または作成する必要があります。 その後、Eメールコンテンツに挿入できます。
 
-アセットのアップロード方法について詳しくは、[Adobe Experience Manager Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html)を参照してください。
+アセットのアップロード方法について詳しくは、[Adobe Experience Manager Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html)を参照してください。
 
 1. [!DNL Adobe Journey Optimizer]ホームページから、**[!UICONTROL コンテンツ管理]**&#x200B;メニューの下にある「**[!UICONTROL アセット]**」タブを選択し、[!DNL Assets Essentials]にアクセスします。
 
