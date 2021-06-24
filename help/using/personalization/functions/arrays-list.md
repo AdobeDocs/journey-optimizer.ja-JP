@@ -8,17 +8,17 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 66%
+ht-degree: 98%
 
 ---
 
 # 配列およびリスト関数 {#arrays}
 
-これらの関数を使用すると、配列、リスト、文字列とのやり取りが容易になります。
+これらの関数を使用すると、配列、リスト、および文字列の操作が容易になります。
 
 ## Distinct{#distinct}
 
-`distinct`関数は、重複値が削除された配列またはリストから値を取得するために使用されます。
+`distinct` 関数は、重複値を削除して配列またはリストから値を取得するために使用します。
 
 **形式**
 
@@ -28,7 +28,7 @@ ht-degree: 66%
 
 **例**
 
-次の操作は、複数の店舗で注文した人を指定します。
+次の操作は、複数の店舗で注文した人物を特定します。
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
@@ -46,13 +46,13 @@ ht-degree: 66%
 
 **例**
 
-次の演算は、最も高い価格を持つ上位5件の注文の最初の値を返します。 `topN` 関数の詳細については、[配列の最初の `n` 個](#first-n)の節を参照してください 。
+次の操作は、最も金額が高い注文の上位 5 件のうち最初の項目を返します。`topN` 関数の詳細については、[配列の最初の `n`](#first-n)の節を参照してください 。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 配列の`n`最初の {#first-n}
+## First `n` in array {#first-n}
 
 `topN` 関数は、指定した数値式に基づいて昇順で並べ替えられた場合、配列の最初の `N` 項目を返すために使用します。
 
@@ -70,7 +70,7 @@ ht-degree: 66%
 
 **例**
 
-次の操作は、最も高い価格の上位5件の注文を返します。
+次の操作は、最も金額が高い注文の上位 5 件を返します。
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -88,7 +88,7 @@ ht-degree: 66%
 
 **例**
 
-次の操作は、誕生日が3月、6月または9月の人を定義します。
+次の操作は、誕生日が 3 月、6 月または 9 月の人を定義します。
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
@@ -106,7 +106,7 @@ ht-degree: 66%
 
 **例**
 
-次の操作は、お気に入りの色に赤が含まれる人を定義します。
+次の操作は、お気に入りの色に赤が含まれる人物を定義します。
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
@@ -124,7 +124,7 @@ ht-degree: 66%
 
 **例**
 
-次の操作は、お気に入りの色に赤、青、緑の少なくとも1つが含まれる人を定義します。
+次の操作は、お気に入りの色に赤、青、緑のうち 1 つ以上が含まれる人を定義します。
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -168,7 +168,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **例**
 
-次の操作は、最も安い価格の上位5件の注文を返します。
+次の操作は、最も金額が低い注文の上位 5 件を返します。
 
 ```sql
 {%= bottomN(orders,price, 5) %}
@@ -191,7 +191,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **例**
 
-次の操作は、誕生日が3月、6月または9月でない人を定義します。
+次の操作は、誕生日が 3 月、6 月または 9 月でない人を定義します。
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
@@ -228,7 +228,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **例**
 
-寿司とピザを1回以上食べた人を定義する。
+次の操作は、寿司とピザを 1 回以上食べたことがある人を定義しています。
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
