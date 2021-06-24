@@ -8,11 +8,11 @@ level: Intermediate
 source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
-# Eメールグローバルレポート{#email-global-report}
+# E メールグローバルレポート {#email-global-report}
 
 メールの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、特定のメール配信のみを対象としています。
 
@@ -74,7 +74,7 @@ ht-degree: 85%
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
 
-バウンスについて詳しくは、[抑制リスト](../suppression-list.md)のページを参照してください。
+バウンスの詳細については、[抑制リスト](../suppression-list.md)のページを参照してください。
 
 「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
 
