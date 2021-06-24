@@ -1,6 +1,6 @@
 ---
-title: メールの作成
-description: Journey OptimizerでEメールを作成する方法を説明します
+title: E メールの作成
+description: Journey Optimizer でメールを作成する方法を学ぶ
 feature: 概要
 topic: コンテンツ管理
 role: User
@@ -8,13 +8,13 @@ level: Beginner
 source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 76%
+ht-degree: 94%
 
 ---
 
-# メールの作成 {#configure-email}
+# E メールの作成 {#configure-email}
 
-[メッセージ](create-message.md)を作成したら、「**[!UICONTROL Eメール]**」タブを使用して、Eメールチャネルの設定とコンテンツを定義します。
+[メッセージを作成](create-message.md)したら、「**[!UICONTROL E メール]**」タブを使用して、E メールチャネルの設定と内容を定義します。
 
 ![](assets/emails-configuration.png)
 
