@@ -8,17 +8,17 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 55%
+ht-degree: 99%
 
 ---
 
 # 文字列関数 {#string}
 
-式エディターでの文字列関数の使用方法を説明します。
+式エディターで文字列関数を使用する方法を説明します。
 
-## キャメルケース {#camelCase}
+## Camel Case {#camelCase}
 
-`camelCase`関数は、文字列の各単語の最初の文字を大文字にします。
+`camelCase` 関数は、文字列の各単語の最初の文字を大文字にします。
 
 **形式**
 
@@ -36,7 +36,7 @@ ht-degree: 55%
 
 ## Concat {#concate}
 
-`concat`関数は、2つの文字列を1つに結合します。
+`concat` 関数は、2 つの文字列を 1 つに結合します。
 
 **形式**
 
@@ -46,7 +46,7 @@ ht-degree: 55%
 
 **例**
 
-次の関数は、プロファイルの市区町村と国を1つの文字列に組み合わせます。
+次の関数は、プロファイルの国と市区町村を 1 つの文字列に組み合わせます。
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -66,11 +66,11 @@ ht-degree: 55%
 | --------- | ----------- |
 | `STRING_1` | チェックの実行対象となる文字列です。 |
 | `STRING_2` | 最初の文字列内で検索する文字列です。 |
-| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。可能な値：true（デフォルト）/false。 |
+| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
-* 次の関数は、プロファイルの名に（大文字または小文字の）Aが含まれているかどうかを確認します。 この場合は「true」が返され、そうでない場合は「false」が返されます。
+* 次の関数は、プロファイルの名に A （大文字または小文字）が含まれているかどうかを確認します。この場合は「true」が返され、そうでない場合は「false」が返されます。
 
    ```sql
    {%= contains(profile.person.name.firstName, "A", false) %}
@@ -82,7 +82,7 @@ ht-degree: 55%
    {%= contains(profile.person.emailAddress,"2010@gm") %}
    ```
 
-## doesNotContain{#doesNotContain}
+## Does not contain{#doesNotContain}
 
 `doesNotContain` 関数は、文字列が指定の部分文字列を含んでいないかどうかを判定するために使用されます。
 
@@ -96,7 +96,7 @@ ht-degree: 55%
 | --------- | ----------- |
 | `STRING_1` | チェックの実行対象となる文字列です。 |
 | `STRING_2` | 最初の文字列内で検索する文字列です。 |
-| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。可能な値：true（デフォルト）/false。 |
+| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -107,7 +107,7 @@ ht-degree: 55%
 ```
 
 
-## doesNotEndWith{#doesNotEndWith}
+## Does not end with{#doesNotEndWith}
 
 `doesNotEndWith` 関数は、文字列が指定の部分文字列で終わらないかどうかを判定するために使用されます。
 
@@ -121,7 +121,7 @@ ht-degree: 55%
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
-| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。可能な値：true（デフォルト）/false。 |
+| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -131,7 +131,7 @@ ht-degree: 55%
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## doesNotStartWith{#doesNotStartWith}
+## Does not start with{#doesNotStartWith}
 
 `doesNotStartWith` 関数は、文字列が指定の部分文字列で始まらないかどうかを判定するために使用されます。
 
@@ -145,7 +145,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
-| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。可能な値：true（デフォルト）/false。 |
+| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -155,9 +155,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= doesNotStartWith(person.name,"Joe")%}
 ```
 
-## エンコード64{#encode64}
+## Encode 64{#encode64}
 
-`encode64`関数は、例えばURLに含める場合に個人情報(PI)を保持する文字列をエンコードするために使用します。
+`encode64` 関数は、個人情報（PI）を URL などに含める必要がある場合に、個人情報を保持する文字列をエンコードするために使用します。
 
 **形式**
 
@@ -165,7 +165,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
-## endsWith{#endsWith}
+## Ends with{#endsWith}
 
 `endsWith` 関数は、文字列が指定の部分文字列で終わるかどうかを判定するために使用されます。
 
@@ -179,7 +179,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
-| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。可能な値：true（デフォルト）/false。 |
+| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -190,9 +190,9 @@ doesNotEndWith(person.emailAddress,".com")
 ```
 
 
-## equals{#equals}
+## Equals{#equals}
 
-`equals`関数は、文字列が指定の文字列と等しいかどうかを判定するために使用され、大文字と小文字が区別されます。
+`equals` 関数は、文字列が指定の文字列に等しいかどうかを判定するために使用します。
 
 **形式**
 
@@ -213,9 +213,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## 大文字と小文字が等しい{#equalsIgnoreCase}
+## Equals Ignore Case{#equalsIgnoreCase}
 
-`equalsIgnoreCase`関数は、文字列が指定の文字列と等しいかどうかを、大文字と小文字を区別せずに判定するために使用されます。
+`equalsIgnoreCase` 関数は、大文字と小文字を区別せずに、文字列が指定の文字列に等しいかどうかを判定するために使用します。
 
 **形式**
 
@@ -230,15 +230,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリでは、大文字と小文字を区別せずに、人の名前が「John」かどうかを判定します。
+次のクエリでは、大文字と小文字を区別せずに、名前が「John」かどうかを判定します。
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
 
-## Eメールドメインの抽出 {#extractEmailDomain}
+## Extract Email Domain {#extractEmailDomain}
 
-`extractEmailDomain`関数は、電子メールアドレスのドメインを抽出するために使用されます。
+`extractEmailDomain` 関数は、メールアドレスのドメインを抽出するために使用します。
 
 **形式**
 
@@ -248,15 +248,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリは、個人のEメールアドレスのEメールドメインを抽出します。
+次のクエリは、個人のメールアドレスのメールドメインを抽出します。
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
-## 空である {#isEmpty}
+## Is empty {#isEmpty}
 
-`isEmpty`関数は、文字列が空かどうかを判断するために使用されます。
+`isEmpty` 関数は、文字列が空かどうかを判断するために使用します。
 
 **形式**
 
@@ -272,9 +272,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## 左トリミング {#leftTrim}
+## Left trim {#leftTrim}
 
-`leftTrim`関数は、文字列の先頭から空白を削除するために使用します。
+`leftTrim` 関数は、文字列の先頭から空白を削除するために使用します。
 
 **形式**
 
@@ -284,7 +284,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Length {#length}
 
-`length`関数は、文字列または式の文字数を取得するために使用されます。
+`length` 関数は、文字列または式の文字数を取得するために使用します。
 
 **形式**
 
@@ -317,15 +317,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリは、「es」のパターンを含むプロファイルが住んでいるすべての市区町村を取得します。
+次のクエリでは、「es」というパターンを含む住所の市区町村をすべて取得します。
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
 ```
 
-## 小文字{#lower}
+## Lower Case{#lower}
 
-`lowerCase`関数は、文字列を小文字に変換します。
+`lowerCase` 関数は、文字列を小文字に変換します。
 
 **構文**
 
@@ -395,8 +395,8 @@ doesNotEndWith(person.emailAddress,".com")
 | 引数 | 説明 |
 | --------- | ----------- |
 | `{STRING}` | チェックの実行対象となる文字列です。 |
-| `{EXPRESSION}` | 最初の文字列と照合する正規表現です。 |
-| `{GROUP}` | 照合する式グループ。 |
+| `{EXPRESSION}` | 最初の文字列列と照合する正規表現です。 |
+| `{GROUP}` | 照合する式のグループです。 |
 
 **例**
 
@@ -406,9 +406,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
-## 置換 {#replace}
+## Replace {#replace}
 
-`replace`関数は、文字列内の特定の部分文字列を別の部分文字列で置き換えるために使用します。
+`replace` 関数は、文字列内の特定の部分文字列を別の部分文字列で置き換えるために使用します。
 
 **形式**
 
@@ -425,9 +425,9 @@ doesNotEndWith(person.emailAddress,".com")
 ```
 
 
-## すべてを置換{#replaceAll}
+## Replace All{#replaceAll}
 
-`replaceAll`関数は、「target」に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。 置換は、文字列の先頭から末尾まで続きます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+`replaceAll` 関数は、「target」に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。 置換は、文字列の先頭から末尾に向けておこなわれます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 **形式**
 
@@ -436,9 +436,9 @@ doesNotEndWith(person.emailAddress,".com")
 ```
 
 
-## 右トリミング {#rightTrim}
+## Right trim {#rightTrim}
 
-`rightTrim`関数を使用すると、文字列の末尾から空白が削除されます。
+`rightTrim` 関数は、文字列の末尾から空白を削除するために使用します。
 
 
 **形式**
@@ -449,7 +449,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Split {#split}
 
-`split`関数は、文字列を特定の文字で分割する場合に使用します。
+`split` 関数は、文字列を特定の文字で分割する場合に使用します。
 
 **形式**
 
@@ -468,7 +468,7 @@ The following function .
 
 -->
 
-## startsWith{#startsWith}
+## Starts with{#startsWith}
 
 `startsWith` 関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます。
 
@@ -492,9 +492,9 @@ The following function .
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## 単語の先頭のみ大文字{#titleCase}
+## Title Case{#titleCase}
 
-**titleCase**&#x200B;関数は、文字列の各単語の最初の文字を大文字にするために使用します。
+**titleCase** 関数は、文字列の各単語の最初の文字を大文字にするために使用します。
 
 **構文**
 
@@ -504,15 +504,15 @@ The following function .
 
 **例**
 
-ワシントンのハイストリートに住んでいる場合、この機能はワシントンハイストリートを返します。
+その人物が「Washington high street」に住んでいる場合、この関数は「Washington high street」を返します。
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## トリミング{#trim}
+## Trim{#trim}
 
-**trim**&#x200B;関数は、文字列の先頭と末尾にあるすべての空白を削除します。
+**trim** 関数は、文字列の先頭と末尾にあるすべての空白を削除します。
 
 **構文**
 
@@ -520,9 +520,9 @@ The following function .
 {%= trim(string) %}
 ```
 
-## 大文字{#upper}
+## Upper Case{#upper}
 
-**upperCase**&#x200B;関数は、文字列を大文字に変換します。
+**upperCase** 関数は、文字列を大文字に変換します。
 
 **構文**
 
