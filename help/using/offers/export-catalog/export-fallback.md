@@ -7,12 +7,12 @@ role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 100%
+source-wordcount: '1052'
+ht-degree: 98%
 
 ---
 
-# フォールバックオファーデータセット{#fallback-dataset}
+# フォールバックオファーデータセット {#fallback-dataset}
 
 オファーが変更されるたびに、フォールバックオファーの自動生成データセットが更新されます。
 
@@ -37,10 +37,10 @@ ht-degree: 100%
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
 
-### _experience > decisioning
+### _experience／決定
 
-**フィールド：** decisioning
-**タイプ：**&#x200B;オブジェクト
+**フィールド：**decisioning
+**型：**&#x200B;オブジェクト
 
 #### _experience > decisioning > characteristics
 
@@ -60,10 +60,9 @@ ht-degree: 100%
 
 **_experience > decisioning > contents > components**
 
-**フィールド：** components
-**説明：**決定オプションを表すコンテンツのコンポーネント（言語のバリアントをすべて含む）。特定のコンポーネントは、「dx:format」、「dc:subject」および「dc:language」またはその組み合わせで見つかります。このメタデータは、オファーに関連付けられたコンテンツを検索または表すために使用され、配置契約に従ってコンテンツを統合します。
-**タイプ：**配列
-**必須：**&quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
+**フィールド：**components
+**説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントを見つけるには、「dx:format」、「dc:subject」、「dc:language」、またはこれらの組み合わせを使用します。このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
+**必須：**&quot;_type&quot;, &quot;_dc&quot;<!--TBC?-->
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
@@ -104,7 +103,7 @@ ht-degree: 100%
       **フィールド：** id
       **説明：**コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
       **タイプ：**文字列
-      **例：**&quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **例：**  &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **名前**
 
@@ -148,26 +147,25 @@ ht-degree: 100%
 
 **_experience > decisioning > contents > Placement**
 
-**フィールド：** placement
-**タイトル：**配置
-**説明：**準拠する配置。値は、参照されるオファー配置の URI（@id）です。https://ns.adobe.com/experience/decisioning/placement のスキーマを参照してください。
-**タイプ：**&#x200B;文字列
+**フィールド：**placement
+**タイトル：**プレースメント
+**説明：**&#x200B;準拠するプレースメント。この値は、参照するオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。**型：**&#x200B;文字列
 
 #### _experience > decisioning > Lifecycle Status
 
 **フィールド：** lifecycleStatus
 **タイトル：**ライフサイクルステータス
 **説明：**ライフサイクルステータスを使用すると、オブジェクトを使用してワークフローを実行できます。ステータスは、オブジェクトの表示場所や関連性が高いと見なされる場所に影響を与える場合があります。ステータスの変更は、オブジェクトを使用するクライアントまたはサービスによって実行されます。
-**タイプ：**文字列 
-**可能な値：**&quot;Draft&quot;（デフォルト）、&quot;Approved&quot;、&quot;Live&quot;、&quot;Completed&quot;、&quot;Archived&quot;
+**型：**文字列
+**使用可能な値：** &quot;ドラフト&quot;（デフォルト）、&quot;承認済み&quot;、&quot;ライブ&quot;、&quot;完了&quot;、&quot;アーカイブ済み&quot;
 
-#### _experience > decisioning > Decision Option Name
+#### _experience／決定／決定オプション名
 
 **フィールド：** name
 **タイトル：**決定オプション名
 **説明：**&#x200B;様々なユーザーインターフェイスに表示されるオプション名。**タイプ：**&#x200B;文字列
 
-#### _experience > decisioning > tags
+#### _experience／決定／タグ
 
 **フィールド：** tags
 **タイトル：**タグ
@@ -181,7 +179,7 @@ ht-degree: 100%
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト
 
-### _repo > Decision Option ETag
+### _repo／決定オプション ETag
 
 **フィールド：**etag
 **タイトル：**決定オプション ETag
