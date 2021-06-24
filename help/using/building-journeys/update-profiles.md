@@ -8,11 +8,11 @@ level: Intermediate
 source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 65%
+ht-degree: 68%
 
 ---
 
-# プロファイル{#update-profile}を更新
+# プロファイルを更新 {#update-profile}
 
 「**[!UICONTROL プロファイル]**&#x200B;を更新」アクションアクティビティを使用すると、既存のAdobe Experience Platformプロファイルを、イベント、データソース、または特定の値を使用して取得した情報で更新できます。
 
