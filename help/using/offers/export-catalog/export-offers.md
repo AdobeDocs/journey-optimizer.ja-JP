@@ -7,12 +7,12 @@ role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '2012'
-ht-degree: 100%
+source-wordcount: '2010'
+ht-degree: 99%
 
 ---
 
-# パーソナライズされたオファーデータセット{#offers-dataset}
+# パーソナライズされたオファーデータセット {#offers-dataset}
 
 オファーを変更するたびに、パーソナライズされたコンテンツオファーの自動生成データセットが更新されます。
 
@@ -39,10 +39,10 @@ ht-degree: 100%
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
 
-### _experience > decisioning
+### _experience／決定
 
-**フィールド：** decisioning
-**タイプ：**&#x200B;オブジェクト
+**フィールド：**decisioning
+**型：**&#x200B;オブジェクト
 
 #### _experience > decisioning > calendarConstraints
 
@@ -81,10 +81,9 @@ ht-degree: 100%
 
 **_experience > decisioning > contents > components**
 
-**フィールド：** components
-**説明：**決定オプションを表すコンテンツのコンポーネント（言語のバリアントをすべて含む）。特定のコンポーネントは、「dx:format」、「dc:subject」および「dc:language」またはその組み合わせで見つかります。このメタデータは、オファーに関連付けられたコンテンツを検索または表すために使用され、配置契約に従ってコンテンツを統合します。
-**タイプ：**配列
-**必須：**&quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
+**フィールド：**components
+**説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントを見つけるには、「dx:format」、「dc:subject」、「dc:language」、またはこれらの組み合わせを使用します。このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
+**必須：**&quot;_type&quot;, &quot;_dc&quot;<!--TBC?-->
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
@@ -124,7 +123,7 @@ ht-degree: 100%
       **フィールド：** id
       **説明：**コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
       **タイプ：**文字列
-      **例：**&quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **例：**  &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **名前**
 
@@ -168,20 +167,19 @@ ht-degree: 100%
 
 **_experience > decisioning > contents > Placement**
 
-**フィールド：** placement
-**タイトル：**配置
-**説明：**準拠する配置。値は、参照されるオファー配置の URI（@id）です。https://ns.adobe.com/experience/decisioning/placement のスキーマを参照してください。
-**タイプ：**&#x200B;文字列
+**フィールド：**placement
+**タイトル：**プレースメント
+**説明：**&#x200B;準拠するプレースメント。この値は、参照するオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。**型：**&#x200B;文字列
 
 #### _experience > decisioning > Lifecycle Status
 
 **フィールド：** lifecycleStatus
 **タイトル：**ライフサイクルステータス
 **説明：**ライフサイクルステータスを使用すると、オブジェクトを使用してワークフローを実行できます。ステータスは、オブジェクトの表示場所や関連性が高いと見なされる場所に影響を与える場合があります。ステータスの変更は、オブジェクトを使用するクライアントまたはサービスによって実行されます。
-**タイプ：**文字列 
-**可能な値：**&quot;Draft&quot;（デフォルト）、&quot;Approved&quot;、&quot;Live&quot;、&quot;Completed&quot;、&quot;Archived&quot;
+**型：**文字列
+**使用可能な値：** &quot;ドラフト&quot;（デフォルト）、&quot;承認済み&quot;、&quot;ライブ&quot;、&quot;完了&quot;、&quot;アーカイブ済み&quot;
 
-#### _experience > decisioning > Decision Option Name
+#### _experience／決定／決定オプション名
 
 **フィールド：** name
 **タイトル：**決定オプション名
@@ -196,26 +194,24 @@ ht-degree: 100%
 
 **_experience > decisioning > profileConstraints > Description**
 
-**フィールド：** description
+**フィールド：**description
 **タイトル：**説明
-**説明：**プロファイル制約の説明。このプロファイル制約の構築方法や構築理由、およびこの制約に含まれる、または除外されるオプションについて、人が読み取れる意図を伝えるために使用されます。
-**タイプ：**&#x200B;文字列
+**説明：**&#x200B;プロファイル制約の説明。このプロファイルの制約が設けられた経緯や理由、どのオプションが含まれ、除外されるかについて、人間が判読できる形で意図を伝えるために使用します。**型：**&#x200B;文字列
 
 **_experience > decisioning > profileConstraints > Eligibility Rule**
 
-**フィールド：** eligibilityRule 
+**フィールド：**eligibilityRule
 **タイトル：**実施要件ルール
-**説明：**特定のプロファイルやその他の特定のコンテキスト XDM オブジェクトに対して true または false と評価される決定ルールへの参照。ルールは、オプションが特定のプロファイルに該当するかどうかを決定するために使用されます。値は、参照される決定ルールの URI（@id）です。https://ns.adobe.com/experience/decisioning/rule のスキーマを参照してください。
-**タイプ：**&#x200B;文字列
+**説明：**&#x200B;特定のプロファイルや、その他の特定のコンテキスト XDM オブジェクトに対して、「true」または「false」と評価される決定ルールへの参照。ルールは、オプションが特定のプロファイルに該当するかどうかを決定するために使用されます。値は、参照される決定ルールの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/rule を参照してください。**型：**&#x200B;文字列
 
 **_experience > decisioning > profileConstraints > Profile Constraint Type**
 
-**フィールド：** profileConstraintType
+**フィールド：**profileConstraintType
 **タイトル：**プロファイル制約タイプ
-**説明：**現在制約が設定されているかどうか、および制約の表現方法を決定します。ルールを使用するか、1 つ以上のセグメントメンバーシップを使用する場合があります。
-**タイプ：**文字列
-**可能な値：**
-* 「none」（デフォルト）
+**説明：**現在制約が設定されているかどうか、および制約の表現方法を決定します。ルールを通じて、または 1 つ以上のセグメントメンバーシップを通じて決定されます。
+**型：**文字列
+**使用可能な値：**
+* 「なし」（デフォルト）
 * 「eligibilityRule」:「プロファイル制約は、制約付きアクションが許可される前に true と評価される必要がある単一の規則として表されます。」
 * 「anySegments」:「プロファイル制約は 1 つ以上のセグメントとして表され、制約付きアクションが許可される前に、プロファイルは少なくとも 1 つのセグメントのメンバーである必要があります。」
 * 「allSegments」:「プロファイル制約は 1 つ以上のセグメントとして表され、制約付きアクションが許可される前に、プロファイルはすべてのセグメントのメンバーである必要があります。」
@@ -223,7 +219,7 @@ ht-degree: 100%
 
 **_experience > decisioning > profileConstraints > Segment Identifiers**
 
-**フィールド：** segmentIdentities
+**フィールド：**segmentIdentities
 **タイトル：**セグメント識別子
 **説明：**セグメントの識別子
 **タイプ：**&#x200B;配列
@@ -266,10 +262,9 @@ ht-degree: 100%
 
 **_experience > decisioning > ranking > Order Evaluation**
 
-**フィールド：** order
+**フィールド：**order
 **タイトル：**順序評価
-**説明：**1 つ以上の決定オプションの相対的な順序の評価。序数の値が大きいオプションは、序数の値が小さいオプションよりも優先的に選択されます。この方法で決定された値は順序付けできますが、それらの間の距離は測定できず、合計も積も計算できません。中央値とモードは、序数データに使用できる唯一の代表値です。
-**タイプ：**&#x200B;オブジェクト
+**説明：** 1 つ以上の決定オプションの相対的な順序の評価。序数の値が大きいオプションは、序数の値が小さいオプションよりも優先的に選択されます。この方法で決定された値は順序付けできますが、それらの間の距離は測定できず、合計も積も計算できません。主な傾向を測る数値として序数データに使用できるのは、中央値とモードだけです。**タイプ：**&#x200B;オブジェクト
 
 * **スコア関数**
 
@@ -295,14 +290,14 @@ ht-degree: 100%
 
 **_experience > decisioning > ranking > Priority**
 
-**フィールド：** priority
+**フィールド：**優先度
 **タイトル：**優先度
-**説明：**1 つの判定オプションの他のすべてのオプションに対する優先度。order 関数が指定されていないオプションは、このプロパティを使用して優先順位付けされます。優先度が高いオプションは、優先度が低いオプションの前に選択されます。2 つ以上の絞り込みオプションが最も高い優先度の値を共有する場合、1 つは均一なランダムで選択され、決定の提案に使用されます。
-**タイプ：**integer 
+**説明：**1 つの決定オプションの他のすべてのオプションに対する優先度。order 関数が指定されていないオプションは、このプロパティを使用して優先順位付けされます。優先度が高いオプションは、優先度が低いオプションの前に選択されます。条件を満たす、最高優先度のオプションが複数ある場合、1 つがランダムに選択され、決定の提案に使用されます。
+**型：**整数
 **最小値：**0
 **デフォルト値：** 0
 
-#### _experience > decisioning > tags
+#### _experience／決定／タグ
 
 **フィールド：** tags
 **タイトル：**タグ
@@ -316,7 +311,7 @@ ht-degree: 100%
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト
 
-### _repo > Decision Option ETag
+### _repo／決定オプション ETag
 
 **フィールド：**etag
 **タイトル：**決定オプション ETag
