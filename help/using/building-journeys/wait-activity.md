@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -54,9 +54,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例えば、toDateTimeOnly(@{Event.offerOpened.activity.endTime}) では、イベント内のフィールドが 2016-08-12T09:46:06Z の形式になります。
+>dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例：toDateTimeOnly(@{Event.offerOpened.activity.endTime})：イベントのフィールドの形式は2016-08-12T09:46:06Zです。
 >
->ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、今のところ、時間とタイムゾーンオフセットを組み合わせた 2016-08-12T09:46:06.982-05 のような完全な ISO-8601 タイムスタンプをインターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
+>ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。その結果、現在のインターフェイスから、2016-08-12T09:46:06.982-05のような、完全なISO-8601タイムスタンプを組み合わせた時間とタイムゾーンのオフセットを直接指すことはできません。 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey57.png)
 
