@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 例えば、性別が女性で地域が北東部の場合にのみ「婦人冬服」オファーを表示するように指定できます。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
+![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 作成した決定ルールのリストには、 **[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
 
@@ -32,7 +32,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールに名前を付け、説明を入力し、必要に応じてルールを設定します。
 
-   これをおこなうには、Adobe Experience Platform の&#x200B;**セグメントビルダー**&#x200B;を使用して、ルールの条件を作成できます。使用方法について詳しくは、[専用のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)を参照してください。
+   これをおこなうには、Adobe Experience Platform の&#x200B;**セグメントビルダー**&#x200B;を使用して、ルールの条件を作成できます。使用方法について詳しくは、[専用のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
 
    この例では、「ゴールド」ロイヤルティレベルの顧客をターゲットします。
 
