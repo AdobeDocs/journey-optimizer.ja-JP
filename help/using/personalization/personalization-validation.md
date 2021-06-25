@@ -5,10 +5,10 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 86%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 100%
 
 ## 検証メカニズム
 
-式エディター画面で、「**検証**」ボタンを使用すると、パーソナライゼーション構文を検証できます。
+**式エディター**&#x200B;画面で、「**検証**」ボタンを使用して、パーソナライゼーション構文を確認します。
 
 >[!NOTE]
-> 「**追加**」をクリックしてエディターウィンドウを閉じると、検証は自動的に実行されます。
+> 検証は、「****&#x200B;を追加」ボタンをクリックしてエディターウィンドウを閉じると、自動的に実行されます。
 
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> パーソナライゼーション構文が無効な場合、式エディターウィンドウを閉じることはできません。
+> パーソナライゼーション構文が無効な場合は、式エディターウィンドウを閉じることはできません。
 
 
 ## 一般的なエラー
@@ -69,7 +69,7 @@ ht-degree: 100%
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### オファーに関連する特定のエラー
+## オファーに関連する特定のエラー
 
 メールまたはプッシュメッセージ内のオファー統合に関連するエラーは、次のパターンになります。
 
