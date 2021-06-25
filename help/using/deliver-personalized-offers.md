@@ -5,18 +5,16 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 43%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
 # パーソナライズされたオファーの追加 {#deliver-personalized-offers}
 
-## 決定管理について{#about-offer-decisioning}
-
-[!DNL Journey Optimizer] を使用すると、オファー決定エンジンを利用して顧客に提供する最適なオファーを選択する決定（旧称：オファーアクティビティ）をメールメッセージに挿入できます。
+[!DNL Journey Optimizer] Eメールメッセージでは、オファー判定エンジンを活用して顧客に提供する最適なオファーを選択する決定（旧称「オファーアクティビティ」）を挿入できます。
 
 例えば、受信者のロイヤルティレベルに応じて変わる特別割引オファーを、メールに表示する決定を追加できます。
 
@@ -29,7 +27,7 @@ ht-degree: 43%
 
 >[!CAUTION]
 >
->最初に、オファーの決定を定義する必要があります。 [この節](offers/offer-activities/create-offer-activities.md)で意思決定を行う方法を説明します。
+>開始する前に、[オファーの決定](offers/offer-activities/create-offer-activities.md)を定義する必要があります。
 
 メールメッセージに決定を挿入するには、次の手順に従います。
 
@@ -60,7 +58,7 @@ ht-degree: 43%
 これで、オファーアクティビティがコンポーネントに追加されました。
 
 
-## Eメール内のオファーのプレビュー{#preview-offers-in-email}
+## Eメール内のオファーのプレビュー {#preview-offers-in-email}
 
 **[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印を使用して、Eメールに追加された判定の一部となる様々なオファーをプレビューできます。
 
