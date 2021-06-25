@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 37%
+source-wordcount: '547'
+ht-degree: 35%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 37%
 ランキング式の作成方法について詳しくは、[この節](offers/get-started/starting-offer-decisioning.md)を参照してください。
 
 オファーの設定方法を示す&#x200B;**の完全なエンドツーエンドの例**&#x200B;については、この決定をEメールで活用し、オファーを使用する方法を示しています。[この節](offers/offers-e2e.md#insert-decision-in-email)を参照してください。
+
+[!DNL :arrow_forward:] [パーソナライゼーションとしてオファーを追加する方法については、このビデオを参照してください](#video-offers)
 
 
 ## メールへの決定の挿入 {#insert-offers}
@@ -101,3 +103,9 @@ ht-degree: 37%
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
 [この節](#preview-your-messages)でメッセージのプレビューを確認する詳細な手順について詳しく説明します。
+
+## ハウツービデオ{#video-offers}
+
+[!DNL Journey Optimizer]内のメッセージにoffer decisioningコンポーネントを追加する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
