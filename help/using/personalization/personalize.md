@@ -5,16 +5,18 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Beginner
-source-git-commit: 9656fc4b9f0935949abfd83db194c00da0f35cf4
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 75%
+source-wordcount: '663'
+ht-degree: 71%
 
 ---
 
 # パーソナライゼーションの基本を学ぶ {#add-personalization}
 
 [!DNL Adobe Journey Optimizer]のパーソナライゼーション機能を利用して、特定の受信者に関するデータと情報を活用し、メッセージを個々の受信者に合わせて調整します。 この情報には、名前、興味、居住地および購入履歴などが含まれます。
+
+[!DNL :arrow_forward:] [次のビデオで、メッセージをパーソナライズする方法を説明します](#video-perso)
 
 [!DNL Journey Optimizer] は、Handlebarsに **** 基づくinlinesimpleパーソナライゼーション構文を使用して、中括弧{}}で囲まれたコンテンツを含む式を作&#x200B;**成できます。**&#x200B;同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
 
@@ -103,3 +105,12 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ![](assets/perso_ee2.png)
 
+## ハウツービデオ{#video-perso}
+
+ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+
+ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
