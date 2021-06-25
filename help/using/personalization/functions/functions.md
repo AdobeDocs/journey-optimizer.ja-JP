@@ -5,21 +5,25 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 100%
+source-wordcount: '1181'
+ht-degree: 97%
 
 ---
 
 
-# テンプレート言語およびヘルパー関数 {#functionsL}
+# ヘルパー関数ライブラリ{#functionsL}
 
 [!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など、データに対して操作を実行します。パーソナライゼーション構文のガイドラインについては、[このページ](../personalization-syntax.md)を参照してください。
+
+[!DNL :arrow_forward:] [ヘルパー関数の使用方法をビデオで確認](#video)
 
 テンプレート言語は、次に示すように、式エディターのパーソナライゼーションドロップダウンリストで使用できるヘルパー関数で利用されます。
 
 ![](../assets/access-helper-functions.png)
+
+
 
 [!DNL Journey Optimizer] 式エディターでは、ヘルパー関数は[関数](#functions-helper)、[ヘルパー](#helper-helper)および[演算子](#operators-helper)の 3 つのカテゴリにグループ化されます。
 
@@ -279,3 +283,8 @@ ht-degree: 100%
     </tr>
 </table>
 
+## ハウツービデオ{#video}
+
+パーソナライゼーションヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々な使用例を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
