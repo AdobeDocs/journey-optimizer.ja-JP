@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 93%
 
 ---
 
@@ -37,11 +37,15 @@ ht-degree: 96%
 
    ![](../../assets/activities-name.png)
 
-## オファーを追加 {#add-offers}
+## 判定範囲の追加 {#add-decision-scopes}
 
 1. リストからプレースメントをドラッグ＆ドロップして決定に追加し、「 **[!UICONTROL コレクションを追加]**」をクリックします。
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >同じ配置を、判定で複数回選択できます。
 
 1. 考慮するオファーを含んだコレクションを選択し、「**[!UICONTROL 追加]**」をクリックします。
 
