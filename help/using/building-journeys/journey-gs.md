@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
+source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 78%
+source-wordcount: '1768'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ ht-degree: 78%
 
 管理者は、ジャーニー名の変更、説明の追加、再エントリの許可、開始日と終了日の選択、**[!UICONTROL タイムアウトとエラー]**&#x200B;の時間を定義できます。
 
-「**技術詳細をコピー**」を使用すると、ジャーニーに関するテクニカル情報をコピーし、サポートチームはこの情報をトラブルシューティングに使用できます。JourneyVersion UID、OrgID、orgName、sandboxName などの情報がコピーされます。
+ライブジャーニーの場合、この画面には、ジャーニーを公開した日付とユーザーの名前が表示されます。
+
+「**技術詳細をコピー**」を使用すると、ジャーニーに関するテクニカル情報をコピーし、サポートチームはこの情報をトラブルシューティングに使用できます。次の情報がコピーされます。JourneyVersion UID、OrgID、orgName、sandboxName、lastDeployedBy、lastDeployedAt。
 
 ![](../assets/journey32.png)
 
