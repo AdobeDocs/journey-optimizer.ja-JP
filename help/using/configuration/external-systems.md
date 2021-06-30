@@ -7,10 +7,10 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 30e916e834bfed304f246264cdb091cb5ad60d41
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,11 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 ## キャッピング{#capping}
 
-組み込みのキャッピング API を使用すると上流でテクニカルガードレールを設けることができ、外部システムの保護に役立ちます。 事前に、外部 API の処理能力を評価しておく必要があります。 例えば、Journey Optimizer が 1 秒あたり 1000 件の呼び出しを送信しているのに対し、システムが 1 秒あたり 100 件の呼び出ししかサポートできない場合、システムが飽和しないようにキャッピングルールを定義する必要があります。
+組み込みのキャッピング API を使用すると上流でテクニカルガードレールを設けることができ、外部システムの保護に役立ちます。 
+
+外部データソースの場合、1秒あたりの最大呼び出し数は15に設定されます。 1秒あたりの呼び出し数が15を超えると、残りの呼び出しは破棄されます。 この制限は、プライベート外部データソースに対して増やすことができます。 Adobeに問い合わせて、エンドポイントをホワイトリストに登録します。 パブリック外部データソースに対しては、この操作はできません。
+
+カスタムアクションの場合は、外部APIの処理能力を評価する必要があります。 例えば、Journey Optimizer が 1 秒あたり 1000 件の呼び出しを送信しているのに対し、システムが 1 秒あたり 100 件の呼び出ししかサポートできない場合、システムが飽和しないようにキャッピングルールを定義する必要があります。
 
 キャッピングルールは、特定のエンドポイント（呼び出し先の URL）のサンドボックスレベルで定義されます。 実行時に、Journey Optimizer は、キャッピングルールが定義されているかどうかを確認し、定義された上限をエンドポイントへの呼び出し中に適用します。呼び出しの数が定義された上限を超えると、残りの呼び出しは破棄され、レポートではエラーとしてカウントされます。
 
@@ -68,7 +72,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 **キャッピングルールはどのようにして設定できますか？デフォルトのキャッピングルールはありますか？**
 
-デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 この[節](../configuration/external-systems.md#capping)と[このページ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja)を参照してください。
+デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 この[節](../configuration/external-systems.md#capping)と[このページ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)を参照してください。
 
 **再試行は何回おこなわれますか？再試行の回数を変更したり、再試行間の最小待ち時間を定義したりできますか？**
 
