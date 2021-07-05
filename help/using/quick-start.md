@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 47%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 52%
 [!DNL Adobe Journey Optimizer]の使用を開始する前に、次の操作が必要です。
 
 * **ユーザー権限の設定**:にログインし [!DNL Adobe Journey Optimizer] て、チームメンバーにアクセス権を付与します。[詳細情報](../using/administration/permissions.md)
+
+* **デプロイ[!DNL Adobe Experience Manager Assets Essentials]**:メッセージ内のアセットや画像を管理するには、組織にをデプロイ [!DNL Assets Essentials] し、自分が **Assets Essentials Consumer UsersまたはAssets Essentials** UsersProductプロファイル（またはその両方）に属していることを確認する必要があ **** ります。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **チャネルの設定**:eメール通知とプッシュ通知の設定を定義します。[詳細情報](../using/configuration/get-started-configuration.md)
 
