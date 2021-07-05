@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
+source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 57%
 
 ---
 
@@ -17,24 +17,132 @@ ht-degree: 100%
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 
-## はじめに
-
-* [Journey Optimizer とは](using/get-started.md) </br> 主な機能と使い始める方法を確認する
-
-* [メールコンテンツの設計](using/design-emails.md) </br>新しいメールを設計または既存の HTML コンテンツを読み込みます
-
-* [メッセージの送信](using/building-journeys/journeys-message.md) </br> カスタマージャーニーでのプッシュメッセージおよびメールメッセージの追加方法について説明します。
-
-* [初めてのジャーニーの作成](using/building-journeys/journeys-uc.md) </br>ジャーニーの作成および実行方法を説明します
-
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) の設定</br>Journey Optimizer を設定するための主要な手順を説明します
-
-* [ [!DNL Journey Optimizer]](using/administration/permissions-overview.md) へのアクセスの許可</br> [!DNL Journey Optimizer] ユーザーに割り当てる権限を定義および管理する方法を説明します
-
-* [決定管理](using/offers/get-started/starting-offer-decisioning.md) </br>オファーを作成し、最適なオファーとエクスペリエンスを顧客に提供します
-
-## その他のリソース
-
-* [Adobe Experience Platform ガイド](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja)
-* [Adobe Experience Platform アクセスの概要](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
-* [Adobe Experience Platform デベロッパーリソース](https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html)
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <div><strong>はじめに</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <div>
+      <a href="using/get-started.md">Journey Optimizer とは?</a>
+    </div>
+    <p>主な機能と使い始める方法を確認する
+    <p>
+    <div>
+      <a href="using/design-emails.md">Eメールコンテンツのデザイン</a>
+    </div>
+    <p>
+    新しいEメールのデザインまたは既存のHTMLコンテンツの読み込み
+    <p>
+    <div>
+      <a href="using/building-journeys/journeys-message.md">メッセージの送信</a>
+    </div>
+    <p>カスタマージャーニーにプッシュメッセージとEメールメッセージを追加する方法を説明します
+    <p>
+    <div>
+    <a href="using/building-journeys/journeys-uc.md">最初のジャーニーの作成</a>
+    </div>
+    <p>ジャーニーの構築と実行方法を説明します
+    <p>
+    <div>
+    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]の設定</a>
+    </div>
+    <p>[!DNL Journey Optimizer]を設定するための主な手順について説明します
+    <p>
+    <div>
+    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]へのアクセス権の付与</a>
+    </div>
+    <p>[!DNL Journey Optimizer]ユーザーに割り当てる権限を定義および管理する方法について説明します
+    <p>
+    <div>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
+    </div>
+    <p>オファーを作成し、顧客に最適なオファーとエクスペリエンスを提供する
+    <p>
+    <p>
+    <div><strong>その他のリソース</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja">Adobe Experience Platformドキュメント</a>
+    </div>
+      <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja">Adobe Experience Platform アクセスの概要</a>
+    </div>
+      <div>
+      <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform デベロッパーリソース</a>
+    </div>
+  </td>
+   <td>
+   <div><strong>主要リソースへの直接リンク</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <p>ジャーニー管理</p>
+    <li>
+      <a href="using/building-journeys/journey-gs.md">ジャーニー</a>
+    </li>
+    <li>
+      <a href="using/create-message.md">メッセージ</a>
+    </li>
+    <p>
+    <p>決定管理</p>
+    <li>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">オファー</a>
+    </li>
+     <li>
+      <a href="using/offers/offer-library/key-steps.md">コンポーネント</a>
+    </li>
+    <p>
+    <p>コンテンツ管理</p>
+    <li>
+      <a href="using/assets-essentials.md">Assets</a>
+    </li>
+    <p>
+    <p>データ管理</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja">スキーマ</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット</a>
+    </li>
+        <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ja">クエリ</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja">監視</a>
+    </li>
+    <p>
+    <p>接続</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja">ソース</a>
+    </li>
+    <p>
+    <p>顧客</p>
+    <li>
+      <a href="using/segment/about-segments.md">セグメント</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja">プロファイル</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">ID</a>
+    </li>
+    <p>
+    <p>管理</p>
+    <li>
+      <a href="using/configuration/about-data-sources-events-actions.md">設定 </a>
+    </li>
+    <li>
+      <a href="using/configuration/get-started-configuration.md">チャネル</a>
+    </li>
+     <li>
+      <a href="using/administration/sandboxes.md">サンドボックス</a>
+    </li>
+  </td>
+</tr>
+</table>
