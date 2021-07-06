@@ -5,10 +5,10 @@ feature: 監視
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '540'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ![](assets/message-execution-tab-filters.png)
 
-&#x200B;<!--**[!UICONTROL Quick action]**-->2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。
+2 番目の列を使用すると、対応する[メッセージ](create-message.md)を開いたり、「**[!UICONTROL ライブ表示]**」を開いている場合は[ライブレポート](reports/live-report.md)、「**[!UICONTROL グローバル表示]**」を開いている場合は[グローバルレポート](reports/global-report.md)にアクセスしたりできます。<!--**[!UICONTROL Quick action]**-->
 
 ![](assets/message-execution-open-live-report.png)
 
@@ -87,6 +87,6 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー]** : 技術的なエラーが原因で送信できないメッセージの数。
 
-* **[!UICONTROL スパム報告]**：受信者がスパムとマークしたメッセージの数。[スパム報告についての詳細](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability?lang=ja)。
+* **[!UICONTROL スパム報告]**：受信者がスパムとマークしたメッセージの数。苦情に関する詳細は、「配信品質のベストプラクティスガイド[{target=&quot;_blank&quot;}」を参照してください。](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability?lang=ja)
 
 各ハイパーリンクをクリックすると、対応するメッセージの概要表示が開きます。[メッセージの詳細情報](create-message.md)。
