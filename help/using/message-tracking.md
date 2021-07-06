@@ -1,22 +1,22 @@
 ---
 title: メッセージの追跡
-description: 送信済みメッセージを追跡する方法を学ぶ
+description: リンクを追加し、送信済みメッセージをトラッキングする方法を説明します
 feature: 監視
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 9%
+source-wordcount: '573'
+ht-degree: 8%
 
 ---
 
-# メッセージトラッキング {#tracking}
+# リンクの追加とメッセージのトラッキング {#tracking}
 
-[!DNL Journey Optimizer]を使用して、送信されたメッセージと受信者の行動を追跡します。
+[!DNL Journey Optimizer]を使用して、コンテンツにリンクを追加し、送信されたメッセージをトラッキングして、受信者の行動を監視します。
 
-## 追跡を有効にする{#enable-tracking}
+## トラッキングの有効化 {#enable-tracking}
 
 **[!UICONTROL Open Tracking for email]**&#x200B;や&#x200B;**[!UICONTROL Click Tracking for email]**（[メッセージ](create-message.md)を作成する際）オプションをオンにすることで、メッセージレベルで追跡を有効にできます。
 
@@ -30,7 +30,7 @@ ht-degree: 9%
 * **[!UICONTROL Eメールの追跡を開く]**:開封されたメッセージ。
 * **[!UICONTROL Eメールのクリック追跡]**:Eメール内のリンクのクリック数。
 
-## リンクを挿入{#insert-links}
+## リンクの挿入 {#insert-links}
 
 メッセージをデザインする際に、コンテンツにリンクを追加できます。
 
@@ -50,7 +50,7 @@ Eメールコンテンツにリンクを挿入するには、次の手順に従�
 
    * **[!UICONTROL 購読解除リンク]**:ブランドからのコミュニケーションの受信を登録解除するリンクを挿入します。オプトアウト管理について詳しくは、[この節](consent.md#opt-out-management)を参照してください。
 
-   * **[!UICONTROL ミラーページ]**:WebブラウザーにEメールコンテンツを表示するためのリンクを挿入します。
+   * **[!UICONTROL ミラーページ]**:WebブラウザーにEメールコンテンツを表示するためのリンクを挿入します。詳しくは、[この節](#mirror-page)を参照してください。
 
    ![](assets/message-tracking-links.png)
 
@@ -65,7 +65,29 @@ Eメールコンテンツにリンクを挿入するには、次の手順に従�
 
    ![](assets/message-tracking-link-settings.png)
 
-## 追跡を管理{#manage-tracking}
+## ミラーページへのリンク {#mirror-page}
+
+ミラーページは、web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツはEメールの内容と同じです。
+
+Eメール内のミラーページにリンクを追加するには、[リンク](#insert-links)を挿入し、リンクのタイプとして&#x200B;**[!UICONTROL ミラーページ]**&#x200B;を選択します。
+
+![](assets/message-tracking-mirror-page.png)
+
+ミラーページが自動的に作成されます。
+
+>[!NOTE]
+>
+>自動生成されたリンクは編集できません。
+
+Eメールが送信されると、受信者がミラーページのリンクをクリックすると、EメールのコンテンツがデフォルトのWebブラウザーに表示されます。
+
+>[!NOTE]
+>
+>テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクがアクティブになっていません。 有効にするのは、最終的なメッセージ内のみです。
+
+ミラーページの保持期間は60日です。 その後、ミラーページは使用できなくなります。
+
+## トラッキングの管理 {#manage-tracking}
 
 [Eメールデザイナー](create-email-content.md)を使用すると、追跡するURLを管理できます（各リンクのトラッキングタイプの編集など）。
 
