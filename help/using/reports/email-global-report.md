@@ -5,10 +5,10 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 88%
 
 * **[!UICONTROL クリック率]**：配信でのクリック数の割合。
 
-* **[!UICONTROL スパム苦情率]**：配信されたメッセージに対して、受信者がスパムと見なしたメールの割合。苦情の詳細については、[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability)を参照してください。
+* **[!UICONTROL スパム苦情率]**：配信されたメッセージに対して、受信者がスパムと見なしたメールの割合。苦情に関する詳細は、『配信品質のベストプラクティスガイド[{target=&quot;_blank&quot;}』を参照してください。](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability)
 
 * **[!UICONTROL 購読解除率]**:配信されたメッセージ数に対する、一意の購読解除の割合。この指標は、購読解除リンクのクリック数に依存しませんが、受信者によって開始された購読解除数に基づきます。 購読解除について詳しくは、この[ページ](../consent.md)を参照してください。
 
