@@ -5,14 +5,14 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '102'
+ht-degree: 86%
 
 ---
 
-# 書き出したオファーカタログへのアクセス {#access-exported-catalog}
+# エクスポートしたオファーカタログへのアクセス {#access-exported-catalog}
 
 書き出したオファーカタログには、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューでアクセスできます。オファーライブラリのオブジェクトごとに 1 つのデータセットが作成されます。
 
@@ -26,4 +26,4 @@ ht-degree: 100%
 
 ![](../../assets/dataset-preview.png)
 
-データセットを参照および使用する方法の詳細については、[Adobe Experience Platform データセットのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started)を参照してください。
+データセットの参照と使用方法の詳細については、[このページ](../../get-started-datasets.md)を参照してください。
