@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 68%
 
 テストモードでは、プロファイルの更新はシミュレーションされません。更新はテストプロファイルに対して実行されます。
 
-テストモードでは、テストプロファイルのみがジャーニーにエントリできます。新しいテストプロファイルを作成するか、既存のプロファイルをテストプロファイルに変換します。Adobe Experience Platform では、csv ファイルのインポートまたは API の呼び出しを使用してプロファイル属性を更新できます。より簡単な方法は、「 **プロファイルを更新** 」アクションアクティビティを使用して、テストプロファイルのブール値フィールドをfalseからtrueに変更することです。
+テストモードでは、テストプロファイルのみがジャーニーにエントリできます。新しいテストプロファイルを作成するか、既存のプロファイルをテストプロファイルに変換します。Adobe Experience Platformでは、CSVファイルのインポートまたはAPI呼び出しを使用してプロファイル属性を更新できます。 より簡単な方法は、「 **プロファイルを更新** 」アクションアクティビティを使用して、テストプロファイルのブール値フィールドをfalseからtrueに変更することです。
 
 既存のプロファイルをテストプロファイルに変換する方法について詳しくは、[この節](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)を参照してください。
 
