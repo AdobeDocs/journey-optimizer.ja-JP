@@ -5,7 +5,7 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Beginner
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 71%
@@ -90,7 +90,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 画面の左側には、パーソナライゼーションのソースを選択できるドメインセレクターが表示されます。利用可能なソースは次のとおりです。
 
 * **プロファイル** : [Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)に記載されているプロファイルスキーマに関連付けられたすべての参照をリストします。
-* **セグメントのメンバーシップ**：Adobe Experience Platform Segmentation Service で作成されたすべてのセグメントをリストします。セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
+* **セグメントのメンバーシップ**：Adobe Experience Platform Segmentation Service で作成されたすべてのセグメントをリストします。セグメント化の詳細については、[ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
 * **オファー** ：特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../deliver-personalized-offers.md)を参照してください。
 * **コンテキスト**：ジャーニー で&#x200B;**メッセージ**&#x200B;アクティビティを使用する場合、このメニューからコンテキストジャーニーフィールドを使用できます。詳しくは、[この節](personalization-use-case.md)を参照してください。
 * **ヘルパー関数**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライズ機能のコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。
