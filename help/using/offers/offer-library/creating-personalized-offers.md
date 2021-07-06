@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 95%
@@ -20,7 +20,7 @@ ht-degree: 95%
 * オファーを表示する条件を定義する&#x200B;**決定ルール**。[決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
 * オファーに関連付ける 1 つまたは複数の&#x200B;**タグ**。[タグを作成](../offer-library/creating-tags.md)を参照してください。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
+➡️ [この機能をビデオで確認](#video)
 
 パーソナライズされたオファーのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
