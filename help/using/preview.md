@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 85%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/previewselect-namespace.png)
 
-   Adobe Experience Platform の ID 名前空間については、[この節](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#getting-started)を参照してください。
+   Adobe Experience Platform ID名前空間[について詳しくは、この節](get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
 
    以下の例では、**メール**&#x200B;名前空間を使用します。
 
