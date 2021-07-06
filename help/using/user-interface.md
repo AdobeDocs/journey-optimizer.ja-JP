@@ -5,9 +5,9 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1274'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->* ユーザーインターフェイスを参照する際の主要な概念は、Adobe Experience Platformで共通です。 詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide)を参照してください。
+>* ユーザーインターフェイスを参照する際の主要な概念は、Adobe Experience Platformで共通です。 詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}を参照してください。
    >
    >
 * このドキュメントは、製品のユーザーインターフェイスに最新の変更を反映するために頻繁に更新されています。 ただし、一部のスクリーンショットは、実際のインターフェイスと多少異なる場合があります。
@@ -61,31 +61,31 @@ ht-degree: 74%
 
 **[!UICONTROL データ管理]**
 
-* **[!UICONTROL スキーマ]**：Adobe Experience Platform を使用すると、スキーマエディターと呼ばれるインタラクティブなビジュアルキャンバスで Experience Data Model（XDM）スキーマを作成および管理できます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja)。
+* **[!UICONTROL スキーマ]**：Adobe Experience Platform を使用すると、スキーマエディターと呼ばれるインタラクティブなビジュアルキャンバスで Experience Data Model（XDM）スキーマを作成および管理できます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja)。{target=&quot;_blank&quot;}
 
-* **[!UICONTROL データセット]**：Adobe Experience Platform に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。[このドキュメントでは、データセットのプレビュー方法と作成方法を説明します。](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)
+* **[!UICONTROL データセット]**：Adobe Experience Platform に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。[このドキュメントでは、データセットのプレビュー方法と作成方法を説明します。](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;}
 
-* **[!UICONTROL クエリ]**：Adobe Experience Platform クエリサービスを使用すると、クエリの作成と実行、実行済みのクエリの表示、組織内のユーザーが保存したクエリへのアクセスなどを行えます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ja)。
+* **[!UICONTROL クエリ]**：Adobe Experience Platform クエリサービスを使用すると、クエリの作成と実行、実行済みのクエリの表示、組織内のユーザーが保存したクエリへのアクセスなどを行えます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ja)。{target=&quot;_blank&quot;}
 
-* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内のデータ取得を監視できます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja)。
+* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内のデータ取得を監視できます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja)。{target=&quot;_blank&quot;}
 
 **[!UICONTROL 接続]**
 
-* **[!UICONTROL ソース]**：このメニューを使用すると、Adobe アプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込み、受信データの構造化、ラベル付けおよび拡充を行えます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。
+* **[!UICONTROL ソース]**：このメニューを使用すると、Adobe アプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込み、受信データの構造化、ラベル付けおよび拡充を行えます。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。{target=&quot;_blank&quot;}
 
 **[!UICONTROL 顧客]**
 
 * **[!UICONTROL セグメント]** - Experience Platform セグメントの定義を作成および管理し、それらをジャーニーで活用します。詳しくは、[このページ](segment/about-segments.md)を参照してください。
 
-* **[!UICONTROL プロファイル]** - リアルタイム顧客プロファイルは、オンライン、オフライン、CRM、サードパーティデータなど複数のチャネルからのデータを組み合わせて、個々の顧客の全体像を作成します。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja)。
+* **[!UICONTROL プロファイル]** - リアルタイム顧客プロファイルは、オンライン、オフライン、CRM、サードパーティデータなど複数のチャネルからのデータを組み合わせて、個々の顧客の全体像を作成します。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja)。{target=&quot;_blank&quot;}
 
-* **[!UICONTROL ID]** - Adobe Experience Platform ID サービスは、クロスデバイス、クロスチャネル、ほぼリアルタイムでの顧客の ID（Adobe Experience Platform 内の ID グラフ）を管理します。[ID 名前空間の作成方法の詳細情報](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces)
+* **[!UICONTROL ID]** - Adobe Experience Platform ID サービスは、クロスデバイス、クロスチャネル、ほぼリアルタイムでの顧客の ID（Adobe Experience Platform 内の ID グラフ）を管理します。[ID 名前空間の作成方法の詳細情報](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces){target=&quot;_blank&quot;}
 
 **[!UICONTROL 管理]**
 
 * **[!UICONTROL ジャーニー管理]** - このメニューを使用して、ジャーニーで使用する [イベント](event/about-events.md)、[データソース](datasource/about-data-sources.md)、[アクション](action/action.md) を設定します。
 
-* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と発展に役立てることができます。[サンドボックスの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)
+* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と発展に役立てることができます。[サンドボックスの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}
 
 
 ## 製品内の使用例
