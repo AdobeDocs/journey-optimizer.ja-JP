@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->決定を作成したら、リストから決定の名前をクリックして詳細情報にアクセスしたり、「**[!UICONTROL 変更ログ]**」タブで決定に加えられたすべての変更を視覚化したりできます。「[オファーと決定の変更ログ](../get-started/user-interface.md#changes-log)」を参照してください。
+>決定が作成されたら、リスト内の名前をクリックして詳細情報にアクセスし、**[!UICONTROL 変更ログ]**&#x200B;タブを使用して、それに加えられたすべての変更を視覚化できます（[オファーと決定の変更ログ](../get-started/user-interface.md#changes-log)を参照）。
 
 ## チュートリアルビデオ {#video}
 
