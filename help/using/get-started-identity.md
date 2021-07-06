@@ -4,10 +4,10 @@ description: Adobe Journey OptimizerでIDを管理する方法を説明します
 feature: プロファイル
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,7 @@ ID とは、エンティティ（通常は個人）に固有のデータです�
 
 **IDサービス**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-## ID名前空間
+## ID 名前空間
 
 **** ID 名前空間は、ID が関連するコンテキストのインジケーターとして機能する ID サービスのコンポーネントです。例えば、`name@email.com`の値を電子メールアドレスとして、または`443522`を数値CRM IDとして区別します。 ID 名前空間を使用するには、関連する様々な Adobe Experience Platform サービスについて理解している必要があります。名前空間の使用を開始する前に、次のサービスのドキュメントを確認してください。
 
