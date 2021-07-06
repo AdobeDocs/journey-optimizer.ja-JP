@@ -15,10 +15,10 @@ feature: アプリケーション設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 | 理由 | 説明 | 抑制カテゴリ |
 ---------|----------|--------- |
-| **[!UICONTROL 未確定]** | 受信者ドメインメッセージ転送エージェント（MTA）から受け取ったバウンスの理由を識別できませんでした。 | 無視 |
+| **[!UICONTROL 未確定]** | 受信者ドメインメッセージ転送エージェント(MTA)から受け取ったバウンスの理由を識別できませんでした。 | 無視 |
 | **[!UICONTROL 無効な受信者]** | 受信者が無効、または存在しません。 | ハード |
 | **[!UICONTROL ソフトバウンス]** | メッセージソフトは、この表に示すソフトエラー以外の理由（ISP が推奨する許可率を超えた場合など）でバウンスしました。 | ソフト |
 | **[!UICONTROL DNS エラー]** | DNS エラーが原因でメッセージがバウンスされました。 | ソフト |
