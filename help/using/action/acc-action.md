@@ -1,18 +1,18 @@
 ---
-title: Adobe Campaign v7/v8との統合
+title: Adobe Campaign v7／v8 との統合
 description: Adobe Campaign v7/v8との統合方法を説明します
 feature: アクション
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 41%
+source-wordcount: '450'
+ht-degree: 42%
 
 ---
 
-# Adobe Campaign v7/v8との統合{#integrating-with-adobe-campaign-classic}
+# Adobe Campaign v7／v8 との統合 {#integrating-with-adobe-campaign-classic}
 
 この統合は、21.1リリース以降のAdobe Campaign Classic v7およびAdobe Campaign v8で使用できます。 Adobe Campaignのトランザクションメッセージ機能を使用して、Eメール、プッシュ通知、SMSを送信できます。
 
@@ -36,7 +36,7 @@ Journey OptimizerインスタンスとCampaignインスタンス間の接続は�
 
 ## 前提条件
 
-Campaignでは、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。 [Adobe Campaign のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)を参照してください。
+Campaignでは、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。 [Adobe Campaignのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}を参照してください。
 
 以下のパターンに従う各メッセージに対応するJSONペイロードを作成できます。 その後、Journey Orchestrationでアクションを設定する際に、このペイロードを貼り付けます（以下を参照）
 
