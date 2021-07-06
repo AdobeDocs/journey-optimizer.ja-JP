@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 87%
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 決定（旧称：オファーアクティビティ）は、オファーのコンテナです。配信のターゲットに応じて、提供する最適なオファーを選ぶために Offer Decisioning エンジンを使用します。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
+➡️ [この機能をビデオで確認](#video)
 
 決定のリストは、**[!UICONTROL オファー]**&#x200B;メニュー／「**[!UICONTROL 決定]**」タブでアクセスできます。フィルターは、ステータスや開始日、終了日に応じて決定を取得するのに役立ちます。
 
