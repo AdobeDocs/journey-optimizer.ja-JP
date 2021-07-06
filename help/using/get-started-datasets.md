@@ -4,7 +4,7 @@ description: Adobe Journey OptimizerでのAdobe Experience Platformデータセ�
 feature: データセット
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 18%
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 Adobe Experience Platformに取り込まれるすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。
 
-[このドキュメント](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}でデータセットを作成する方法を説明します。
+[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}でデータセットを作成する方法を説明します。
 
 Adobe Experience Platformへのデータの追加は、プロファイルを構築するための基盤です。 その後、[!DNL Adobe Journey Optimizer]でプロファイルを活用できます。 最初にスキーマを定義し、ETLツールを使用してデータを準備および標準化し、次にスキーマに基づいてデータセットを作成します。
 
