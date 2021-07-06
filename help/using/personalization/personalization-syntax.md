@@ -5,10 +5,10 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 96%
+ht-degree: 88%
 
 ---
 
@@ -106,11 +106,11 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Offer Decisioning エンジンから得られるオファーのテキストコンテンツ：
+* 判定エンジンからのオファーのテキストコンテンツ：
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 決定エンジンからのオファー HTMLコンテンツ：
+* 判定エンジンからのオファーのHTMLコンテンツ：
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -120,7 +120,7 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 Handlebars ヘルパーは、パラメーターの後に付けられる単純な識別子です。
 各パラメーターは、Handlebars 式です。これらのヘルパーは、テンプレート内の任意のコンテキストからアクセスできます。
 
-これらのブロックヘルパーは、ヘルパー名の先頭に # を付けることで識別され、対となる同じ名前の「/」タグで閉じる必要があります。
+これらのブロックヘルパーは、ヘルパー名の前に#が付いて識別され、同じ名前の対応する終了/が必要です。
 ブロックは、ブロック開始タグ（{{# }}）と終了タグ（{{/}}）を持つ式です。
 
 
