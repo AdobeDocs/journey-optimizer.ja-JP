@@ -1,14 +1,15 @@
 ---
 keywords: Journey Optimizer;ホーム;人気のトピック
 title: Journey Optimizer 製品ドキュメント
+description: Adobe Journey Optimizer製品ヘルプセンター
 feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 6a2304fc3b6262d339b7bf1f229f12ba68f1a993
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 44%
+source-wordcount: '202'
+ht-degree: 43%
 
 ---
 
