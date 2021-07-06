@@ -5,10 +5,10 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 90%
+source-wordcount: '626'
+ht-degree: 89%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 90%
 1. **コンテキスト**&#x200B;カテゴリを選択します。この項目は、ジャーニーでメッセージにコンテキストデータが渡された場合にのみ使用できます。「**Journey Orchestration**」をクリックします。次のコンテキスト情報が表示されます。
 
    * **イベント**：このカテゴリは、ジャーニーの&#x200B;**メッセージ**&#x200B;アクティビティの前に配置されたイベントのすべてのフィールドを再グループ化します。
-   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。[Journey Orchestration ドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=ja#building-advanced-conditions-journeys?lang=ja)を参照してください。
+   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=ja#building-advanced-conditions-journeys?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
    ![](assets/perso-uc10.png)
 
