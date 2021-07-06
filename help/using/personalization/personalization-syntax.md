@@ -5,10 +5,10 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 88%
+source-wordcount: '563'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 各パラメーターの意味は次のとおりです。
 
 * `profile` は名前空間です。
-* `person.name` は、属性で構成されるトークンです。属性構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)。
+* `person.name` は、属性で構成されるトークンです。属性構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}。
 
 ## 構文の一般的なルール
 
@@ -44,7 +44,7 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
 ## プロファイル
 
-この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)で説明されています。
+この名前空間では、[Adobe Experience Platformデータモデル(XDM)ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}で説明されているプロファイルスキーマで定義されているすべての属性を参照できます。
 
 属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
 
