@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 55%
+source-wordcount: '1374'
+ht-degree: 50%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 55%
 
 * [csvファイル](#create-test-profiles-csv)をアップロードするか、[API呼び出し](#create-test-profiles-api)を使用して、テストプロファイルを作成できます。 これら2つの方法に加えて、Adobe Journey Optimizerには、テストプロファイルの作成を容易にする特定の[製品内ユースケース](#use-case-1)が用意されています。
 
-* データセットにjsonファイルをアップロードすることもできます。 詳しくは、[データ取得のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset)を参照してください。
+* データセットにjsonファイルをアップロードすることもできます。 詳しくは、[データ取得のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target=&quot;_blank&quot;}を参照してください。
 
-テストプロファイルの作成は、Adobe Experience Platformでの通常のプロファイルの作成と似ています。 詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
+テストプロファイルの作成は、Adobe Experience Platformでの通常のプロファイルの作成と似ています。 詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## 前提条件 {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->スキーマ作成の詳細については、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites)を参照してください。
+>スキーマの作成について詳しくは、[XDMのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target=&quot;_blank&quot;}を参照してください。
 
 次に、プロファイルのインポート先となる&#x200B;**データセットを作成**&#x200B;する必要があります。次の手順に従います。
 
@@ -76,7 +76,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
-> データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started)を参照してください。
+> データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
 
 ## 製品内の使用例{#use-case-1}
 
@@ -88,7 +88,7 @@ Adobe Journey Optimizerのホームページから、製品内ユースケース
 
 次の情報が必要です。
 
-1. **ID名前空間**:テストプ [ロ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja) ファイルを一意に識別するために使用されるID名前空間。例えば、電子メールを使用してテストプロファイルを識別する場合は、ID名前空間&#x200B;**Email**&#x200B;を選択する必要があります。 一意の識別子が電話番号の場合は、ID名前空間&#x200B;**Phone**&#x200B;を選択する必要があります。
+1. **ID名前空間**:テストプ [ロ](../get-started-identity.md) ファイルを一意に識別するために使用されるID名前空間。例えば、電子メールを使用してテストプロファイルを識別する場合は、ID名前空間&#x200B;**Email**&#x200B;を選択する必要があります。 一意の識別子が電話番号の場合は、ID名前空間&#x200B;**Phone**&#x200B;を選択する必要があります。
 
 2. **CSVファイル**:作成するテストプロファイルのリストを含む、コンマ区切りファイル。この使用例では、作成するテストプロファイルのリストを含むCSVファイルに、事前に定義された形式が必要です。 ファイルの各行には、次のフィールドが次のように正しい順序で含まれている必要があります。
 
@@ -171,11 +171,11 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 テストプロファイルが追加され、ジャーニーのテストで使用できるようになりました。[この節](../building-journeys/testing-the-journey.md)を参照してください。
 >[!NOTE]
 >
-> CSV の読み込みについて詳しくは、[データ取得ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials)を参照してください。
+> csvのインポートについて詳しくは、[データ取得のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target=&quot;_blank&quot;}を参照してください。
 
 ## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
-また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)を参照してください。
+また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}を参照してください。
 
 「Profile test details」フィールドグループを含むプロファイルスキーマを使用する必要があります。 testProfileフラグは、このフィールドグループに含まれています。
 プロファイルを作成する場合は、次の値を渡す必要があります：testProfile = true
