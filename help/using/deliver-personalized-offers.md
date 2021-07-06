@@ -5,9 +5,9 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '545'
 ht-degree: 35%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 35%
 
 オファーの設定方法を示す&#x200B;**の完全なエンドツーエンドの例**&#x200B;については、この決定をEメールで活用し、オファーを使用する方法を示しています。[この節](offers/offers-e2e.md#insert-decision-in-email)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [パーソナライゼーションとしてオファーを追加する方法については、このビデオを参照してください。](#video-offers)
+&lt;a0➡️/>パーソナライゼーションとしてオファーを追加する方法](#video-offers) （ビデオ）[
 
 ## メールへの決定の挿入 {#insert-offers}
 
