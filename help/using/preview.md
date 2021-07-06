@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 90%
+source-wordcount: '914'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 90%
 >
 >テストプロファイルの作成方法については、[このページ](building-journeys/creating-test-profiles.md)を参照してください。
 
-
 メッセージコンテンツをテストするには、次の操作が必要です。
 
 * [テストプロファイルの選択](#select-test-profiles)
@@ -38,6 +37,7 @@ ht-degree: 90%
 >
 >メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。 イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。 [この使用例](personalization/personalization-use-case.md)でのパーソナライゼーションのテスト方法を説明します。
 
+![](assets/do-not-localize/how-to-video.png) [このビデオでは、Eメールのプレビュー、配達確認、および投稿方法を説明します](#video-preview)
 
 ## テストプロファイルの選択{#select-test-profiles}
 
@@ -166,3 +166,8 @@ ht-degree: 90%
 >
 >**Litmus** アカウントを [!DNL Journey Optimizer] に接続する際は、テストメッセージが Litmus に送信されることに同意する必要があります。一度送信すると、これらのメールはアドビでは管理できなくなります。その結果、テストメッセージに含まれる可能性のあるパーソナライゼーションデータも含め、Litmus データ保持メールポリシーがこれらのメールに適用されます。
 
+## ハウツービデオ{#video-preview}
+
+受信ボックス間でのEメールのレンダリングをテストする方法、テストプロファイルに対してパーソナライズされたEメールをプレビューする方法、配達確認を送信し、Eメールを公開する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
