@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 92%
 
    ![](../assets/read-segment-log.png)
 
-テストが正常に完了すると、ジャーニーを公開できます（[ジャーニーの公開](publishing-the-journey.md)を参照）。セグメントに属する個人は、ジャーニーのプロパティの「**[!UICONTROL スケジューラー]**」セクションで指定された日時にジャーニーにエントリします。
+テストが成功したら、ジャーニーを公開できます（[ジャーニーの公開](publishing-the-journey.md)を参照）。 セグメントに属する個人は、ジャーニーのプロパティの「**[!UICONTROL スケジューラー]**」セクションで指定された日時にジャーニーにエントリします。
 
 >[!NOTE]
 >
