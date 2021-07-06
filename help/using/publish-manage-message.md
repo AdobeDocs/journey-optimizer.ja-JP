@@ -6,7 +6,7 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->公開する前に、アラートを確認して解決します。[詳細情報](alerts.md)。
+>公開する前に、アラートを確認して解決します。[詳細](alerts.md)
 
 ![](assets/publish-message.png)
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 これで、1 つ以上の[ジャーニー](building-journeys/journey.md)によってトリガーされる準備が整いました。
 
-## 読み取り専用メッセージの更新{#modify-message}
+## 読み取り専用メッセージの更新 {#modify-message}
 
 公開後、メッセージは読み取り専用モードになります。そのメッセージの新しいドラフトを作成して、更新することはできます。
 
