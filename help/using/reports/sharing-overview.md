@@ -5,10 +5,10 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 91%
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -58,4 +58,4 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 * [journeyStep イベントの ID フィールド](../reports/sharing-identity-fields.md)
 * [ジャーニーのフィールド](../reports/sharing-journey-fields.md)
 
-Adobe Experience Platform にレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja)をご覧ください。
+Adobe Experience Platformにレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
