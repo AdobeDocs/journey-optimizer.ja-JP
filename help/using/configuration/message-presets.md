@@ -5,10 +5,10 @@ feature: アプリケーション設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 75%
+source-wordcount: '920'
+ht-degree: 71%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 75%
 
 
 メッセージプリセットを設定すると、メッセージを作成する際に「**[!UICONTROL プリセット]**」リストからメッセージプリセットを選択できるようになります。
+
+![](../assets/do-not-localize/how-to-video.png) [このビデオでは、Eメールプリセットの作成と使用方法を説明します](#video-presets)
 
 ## メッセージプリセットの作成 {#create-message-preset}
 
@@ -108,7 +110,7 @@ ht-degree: 75%
    * IP プールの検証
    * A/PTR レコード、t/m/res サブドメインの検証
 
-1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」に設定されます。メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、メッセージプリセットに&#x200B;**[!UICONTROL アクティブ]**&#x200B;ステータスが設定されます。 メッセージの配信に使用する準備が整いました。
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -148,3 +150,8 @@ ht-degree: 75%
    >
    >非アクティブのメッセージプリセットは削除できません。メッセージの送信にそのプリセットを使用しているジャーニーへの影響を避けるためです。
 
+## ハウツービデオ{#video-presets}
+
+メッセージプリセットの作成方法、メッセージプリセットの使用方法、サブドメインをデリゲートしてIPプールを作成する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
