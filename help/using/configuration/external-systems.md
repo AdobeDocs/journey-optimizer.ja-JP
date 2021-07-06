@@ -7,10 +7,10 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 93%
+source-wordcount: '1027'
+ht-degree: 89%
 
 ---
 
@@ -66,7 +66,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 * 最初の呼び出しが 5 秒以上続く：呼び出しがキャンセルされ、再試行はありません。 レポートでは、タイムアウトエラーとしてカウントされます。
 * 最初の呼び出しが 2 秒後に失敗する（外部システムがエラーを返す）：キャッピングスロットが使用可能な場合、再試行の残り時間は 3 秒です。
    * 3 回の再試行のうち 1 回が 5 秒以内に成功した場合は、呼び出しが実行され、エラーは発生しません。
-   * 再試行中にタイムアウト時間の終わりに達した場合、呼び出しはキャンセルされ、レポートではタイムアウトエラーとしてカウントされます。
+   * 再試行中にタイムアウト時間の終わりに達した場合、呼び出しはキャンセルされ、レポートのタイムアウトエラーとしてカウントされます。
 
 ## よくある質問{#faq}
 
@@ -74,7 +74,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 この[節](../configuration/external-systems.md#capping)と[このページ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)を参照してください。
 
-**再試行は何回おこなわれますか？再試行の回数を変更したり、再試行間の最小待ち時間を定義したりできますか？**
+**再試行は何回おこなわれますか？再試行回数を変更したり、再試行の間隔を設定したりできますか？**
 
 特定の呼び出しに対しては、最初の呼び出しの後、タイムアウト時間の終わりに達するまで、最大 3 回の再試行を実行できます。 再試行の回数と各再試行間の時間は変更できません。 この[節](../configuration/external-systems.md#timeout)を参照してください。
 
