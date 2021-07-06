@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f0fe5079b32103aec6160f22900c14db7b0d304
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 97%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
    + [パーソナライズされたオファーの追加](using/deliver-personalized-offers.md)
 + セグメント、プロファイル、ID{#segment}
    + セグメント {#segments}
-      + [セグメントについて](using/segment/about-segments.md)
+      + [セグメントの概要](using/segment/about-segments.md)
       + [セグメントの作成](using/segment/creating-a-segment.md)
    + [プロファイル](using/get-started-profiles.md)
    + [ID](using/get-started-identity.md)
