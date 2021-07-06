@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -70,9 +70,9 @@ ht-degree: 100%
 
 ![](../../assets/duplicate-offer.png)
 
-## オファーと決定の変更ログ{#changes-logs}
+## オファーと決定の変更ログ {#changes-logs}
 
-オファーライブラリを使用すると、オファーまたは決定に対して実行されたすべての変更を表示できます。すべての変更を表示するには、リストでオファーまたは決定の名前をクリックして開き、「 **[!UICONTROL 変更ログ]**」タブを選択します。
+オファーライブラリを使用すると、オファーまたは決定に加えられたすべての変更を視覚化できます。 すべての変更を表示するには、リストでオファーまたは決定の名前をクリックして開き、「 **[!UICONTROL 変更ログ]**」タブを選択します。
 
 加えられたすべての変更と、変更を行ったユーザーの名前がこの画面に表示されます。
 
