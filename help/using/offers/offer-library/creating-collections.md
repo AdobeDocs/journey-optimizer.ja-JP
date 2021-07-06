@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 95%
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 コレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。例えば、スポーツ関連のオファーのみを含む「スポーツ」コレクションを作成できます。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
+➡️ [この機能をビデオで確認](#video)
 
 オファーコレクションのリストには、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
