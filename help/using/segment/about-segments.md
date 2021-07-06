@@ -5,18 +5,18 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 58%
+source-wordcount: '388'
+ht-degree: 54%
 
 ---
 
-# Adobe Experience Platform セグメントについて {#about-segments}
+# セグメントの概要 {#about-segments}
 
 [!DNL Journey Optimizer] では、**[!UICONTROL セグメント]**&#x200B;メニューから直接、リアルタイム顧客プロファイルデータを使用して Adobe Experience Platform セグメントを作成して、ジャーニーに活用することができます。
 
-セグメントはセグメント化サービス自体からも作成できます。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
+セグメントはセグメント化サービス自体からも作成できます。詳しくは、[Adobe Experience Platformセグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ジャーニーでセグメントを活用するには、次のように様々な方法があります。
 
