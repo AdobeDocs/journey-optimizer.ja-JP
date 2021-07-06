@@ -5,7 +5,7 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Beginner
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 71%
@@ -16,7 +16,7 @@ ht-degree: 71%
 
 [!DNL Adobe Journey Optimizer]のパーソナライゼーション機能を利用して、特定の受信者に関するデータと情報を活用し、メッセージを個々の受信者に合わせて調整します。 この情報には、名前、興味、居住地および購入履歴などが含まれます。
 
-[!DNL :arrow_forward:] [次のビデオで、メッセージをパーソナライズする方法を説明します](#video-perso)
+&lt;➡️a0/>次のビデオでメッセージをパーソナライズする方法を説明します。](#video-perso)[
 
 [!DNL Journey Optimizer] は、Handlebarsに **** 基づくinlinesimpleパーソナライゼーション構文を使用して、中括弧{}}で囲まれたコンテンツを含む式を作&#x200B;**成できます。**&#x200B;同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
 
