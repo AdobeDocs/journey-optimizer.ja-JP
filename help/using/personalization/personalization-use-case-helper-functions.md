@@ -5,9 +5,9 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1084'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      [個人名データ型](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html)の詳細をご覧ください。
+      [Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}で、ユーザー名データ型について詳しく説明します。
 
 6. 「****&#x200B;を検証&#x200B;**[!UICONTROL 保存]**」をクリックします。
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 1. スキーマに`productListItems`配列が含まれるイベントを作成します。
 2. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
 
-   [製品リスト項目データ型](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html)の詳細をご覧ください。
+   製品リスト項目のデータ型について詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}を参照してください。
 
 3. このイベントで始まるジャーニーを作成します。
 4. ジャーニーにメッセージを追加します。
@@ -328,15 +328,15 @@ ht-degree: 3%
 
 ### Handlebars関数
 
-[ヘルパー](functions/helpers.md)
+* [ヘルパー](functions/helpers.md)
 
-[文字列関数](functions/string.md)
+* [文字列関数](functions/string.md)
 
 ### 使用例
 
-[プロファイル情報、コンテキスト、オファーを使用したパーソナライゼーション](personalization-use-case.md)
+* [プロファイル情報、コンテキスト、オファーを使用したパーソナライゼーション](personalization-use-case.md)
 
-[判定ベースのオファーを使用したパーソナライゼーション](../offers/offers-e2e.md)
+* [判定ベースのオファーを使用したパーソナライゼーション](../offers/offers-e2e.md)
 
 ## チュートリアルビデオ{#helper-functions-video}
 
