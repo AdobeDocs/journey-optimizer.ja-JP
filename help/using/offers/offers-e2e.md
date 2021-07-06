@@ -5,14 +5,14 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 4%
 
 ---
 
-# 使用例：パーソナライズされたオファーをEメールで使用するように設定する{#configure-add-personalized-offers-email}
+# 使用例：パーソナライズされたオファーをEメールで使用するように設定する {#configure-add-personalized-offers-email}
 
 この節では、以前に作成した決定に基づいてオファーを設定し、Eメールで使用する方法を示すエンドツーエンドの例を示します。
 
@@ -58,7 +58,7 @@ Eメールでオファーを使用する全体的な意思決定管理プロセ�
 
 ![](../assets/offers-e2e-process.png)
 
-## コンポーネント{#define-components}を定義します。
+## コンポーネントの定義 {#define-components}
 
 オファーの作成を開始する前に、オファーで使用する複数のコンポーネントを定義する必要があります。
 
@@ -109,7 +109,7 @@ Eメールでオファーを使用する全体的な意思決定管理プロセ�
    >
    >この例では、優先度スコアのみを使用します。 [実施要件ルールと制約](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)の詳細を説明します。
 
-## オファーの設定{#configure-offers}
+## オファーの設定 {#configure-offers}
 
 これで、オファーを作成および設定できます。 この例では、特定の各プロファイルに従って表示するオファーを4つ作成します。
 
@@ -186,7 +186,7 @@ Eメールでオファーを使用する全体的な意思決定管理プロセ�
 
 コレクションを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-collections.md)で説明します。
 
-## 決定{#configure-decision}を設定します
+## 決定の設定 {#configure-decision}
 
 次に、配置を、先ほど作成したパーソナライズされたオファーおよびフォールバックオファーと組み合わせる決定を作成する必要があります。
 
@@ -204,7 +204,7 @@ Eメールでオファーを使用する全体的な意思決定管理プロセ�
 
    ![](../assets/offers-e2e-decision-collection.png)
 
-1. [コンポーネント](#define-components)の構築時にランキングを定義した場合は、判定の配置に割り当てることができます。 複数のオファーがこの配置で提示される資格がある場合、決定はこの数式を使用して、最初に配信するオファーを計算します。
+1. [コンポーネント](#define-components)の構築時にランキングを定義した場合は、判定の配置に割り当てることができます。 この配置で複数のオファーを提示する資格がある場合、決定はこの数式を使用して、最初に配信するオファーを計算します。
 
    ランキング式を配置に割り当てる詳細な手順については、[この節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula)を参照してください。
 
@@ -220,7 +220,7 @@ Eメールでオファーを使用する全体的な意思決定管理プロセ�
 
 判定を作成し設定する詳細な手順については、[この節](../../using/offers/offer-activities/create-offer-activities.md)で説明します。
 
-## 決定を電子メールに挿入します。 {#insert-decision-in-email}
+## 決定を電子メールに挿入する {#insert-decision-in-email}
 
 これで決定が完了し、電子メールメッセージに挿入できます。 これをおこなうには、以下の手順に従います。
 
