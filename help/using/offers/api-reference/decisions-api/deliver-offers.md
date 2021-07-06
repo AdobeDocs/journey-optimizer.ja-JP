@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 このチュートリアルでは、特に 決定管理に関して、API の実用的な理解が必要です。詳しくは、[決定管理 API デベロッパー ガイド](../getting-started.md)を参照してください。このチュートリアルでは、一意のプレースメント ID と決定 ID も必要です。これらの値を取得していない場合は、[プレースメントの作成](../offers-api/placements/create.md)および[決定の作成](../activities-api/activities/create.md)に関するチュートリアルを参照してください。
 
-![](../../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+➡️  [この機能をビデオで確認](#video)
 
 ## Accept ヘッダーと Content-Type ヘッダー
 
