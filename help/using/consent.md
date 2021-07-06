@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 85%
+source-wordcount: '748'
+ht-degree: 79%
 
 ---
 
@@ -23,7 +23,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 * これらの規制に準拠できないと、ブランドに法規制上のリスクが生じます。
 * この機能を使用すると、未承諾の通信を受信者に送信して、メッセージがスパムと見なされたり、ブランドの評判が損なわれたりする危険性を避けることができます。
 
-プライバシーの管理と適用される法規制について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)を参照してください。
+プライバシーの管理と適用される規制について詳しくは、[Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -31,7 +31,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 ## オプトアウト管理 {#opt-out-management}
 
-ブランドからの通信を登録解除する機能を受信者に提供することは、法的要件の 1 つです。該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations)を参照してください。
+ブランドからの通信を登録解除する機能を受信者に提供することは、法的要件の 1 つです。該当する法律について詳しくは、[Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target=&quot;_blank&quot;}を参照してください。
 
 したがって、受信者に送信されるすべての メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
 * 受信者がこのリンクをクリックすると、オプトアウトを確認するボタンを含んだランディングページが表示されます。
@@ -79,7 +79,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
    その結果、購読を再度登録しない限り、このユーザーはブランドから連絡を受けることはありません。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started)を参照してください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -139,7 +139,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 Eメールクライアントに応じて、ヘッダーから登録解除リンクをクリックすると、次のいずれかの影響を受けます。
 
-* 対応するプロファイルが直ちにオプトアウトされ、この選択内容がExperience Platformで更新されます。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started)を参照してください。
+* 対応するプロファイルが直ちにオプトアウトされ、この選択内容がExperience Platformで更新されます。 詳しくは、[Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}を参照してください。
 
 * これは、Eメールコンテンツから購読解除リンクをクリックするのと同じ効果があります。受信者は、オプトアウトを確認するボタンを含むランディングページにリダイレクトされます。 オプトアウト管理について詳しくは、[この節](#opt-out-management)を参照してください。
 
