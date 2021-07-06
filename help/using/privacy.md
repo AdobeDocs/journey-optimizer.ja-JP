@@ -4,7 +4,7 @@ description: プライバシーの管理方法について学ぶ
 topic: プライバシー
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 95%
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 * 迷惑メール（「スパム」）を送信しない。アドビは、顧客の生涯価値およびロイヤリティを促進するうえで許可型マーケティングの原則を重要視しています。したがって、未承諾メッセージの送信に Journey Optimizer を使用することを固く禁止しています。
 
-Journey Optimizer では、様々な事前定義済み製品やカスタム製品のプロファイルを使用して、ユーザーに割り当てられた権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできる人物を管理できます。ユーザーのアクセス権の管理について詳しくは、[権限の管理](../administration/permissions.md)を参照してください。
+Journey Optimizer では、様々な事前定義済み製品やカスタム製品のプロファイルを使用して、ユーザーに割り当てられた権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできる人物を管理できます。ユーザーのアクセス権の管理について詳しくは、[権限の管理](administration/permissions.md)を参照してください。
 
 また、Journey Optimizer では、リンクの開封やクリックを通して送信されたメッセージや、受信者の行動を追跡することもできます。[トラッキング管理の詳細情報](message-tracking.md)。
 
