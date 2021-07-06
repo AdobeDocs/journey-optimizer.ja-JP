@@ -5,10 +5,10 @@ feature: アプリケーション設定
 topic: プッシュ
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 98%
+source-wordcount: '793'
+ht-degree: 89%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 98%
 
 [!DNL Adobe Journey Optimizer]でプッシュチャネルを設定する手順について詳しくは、[このページ](push-configuration.md)を参照してください。
 
-## プッシュ通知と Adobe Journey Optimizer
+## プッシュ通知と[!DNL Adobe Journey Optimizer]
 
 次の図は、関連付けられたデータフローを使用するシステムおよびサービスを示しています。エンドツーエンドのサービスの観点から、プッシュ通知がどのように配信されるかを重点的に示しています。
 
 ![](assets/push-flow.png)
 
 1. Apple の APNs および Google FCM プッシュメッセージのメッセージサービスを使用したブランドモバイルアプリ（Android または iOS）の登録
-1. メッセージサービスは、プッシュトークンを生成します。プッシュトークンは、Journey Optimizer が、プッシュ通知を使用して特定のデバイスをターゲテットとするために使用する識別子です。
+1. メッセージングサービスは、プッシュトークンを生成します。これは、[!DNL Adobe Journey Optimizer]がプッシュ通知で特定のデバイスをターゲットにする際に使用する識別子です。
 1. 以前に生成されたプッシュトークンは Adobe Experience Platform に渡され、リアルタイム顧客プロファイルと同期されます。これは、簡単に統合できるクライアント SDK ですぐに実行できます。
-1. プッシュメッセージは、Adobe Journey Optimizer で、メッセージプリセットに対して作成されます
+1. プッシュメッセージは[!DNL Adobe Journey Optimizer]で作成され、プッシュメッセージはメッセージプリセットに対して作成されます
 1. プッシュメッセージは、ジャーニーのオーケストレーションキャンバスに含めることができます
 1. ジャーニーを公開すると、ジャーニー条件に基づく顧客プロファイルがプッシュ通知を受信する資格を得ます。プッシュメッセージペイロードは、この手順でパーソナライズされます。
 1. パーソナライズされたプッシュペイロードは、内部のプッシュメッセージ配信サービスに転送されます
@@ -47,7 +47,7 @@ ht-degree: 98%
    * [Firebase Cloud Messaging（FCM）](https://firebase.google.com/docs/cloud-messaging) - Android モバイルアプリに通知を送信します。
    * [Apple Push Notification Service（APN）](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - iOS モバイルアプリに通知を送信します。
 
-* **Adobe Experience Platform Mobile SDK** は Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。SDK は、プッシュメッセージ専用の様々な API を公開する Adobe Journey Optimizer 拡張機能を提供します。また、プッシュトークンの登録や、Adobe Experience Platform へのプッシュトラッキングイベントおよびその他のカスタムエクスペリエンスイベントの送信などの、データフローを有効にします。 また、SDK は、他の Adobe Experience Cloud およびサードパーティパートナー機能を有効にする、他の様々な拡張機能も提供します。
+* **Adobe Experience Platform Mobile SDK** は Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。SDKには、プッシュメッセージ専用の様々なAPIを公開する[!DNL Adobe Journey Optimizer]拡張機能が用意されており、プッシュトークンの登録や、Adobe Experience Platformへのプッシュトラッキングイベントやその他のカスタムエクスペリエンスイベントの送信など、データフローを有効にします。 また、SDK は、他の Adobe Experience Cloud およびサードパーティパートナー機能を有効にする、他の様々な拡張機能も提供します。
 
    SDK 統合には、次のような Adobe Experience Platform [データ収集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)サービスのセットアップも必要です。
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 * **Adobe Experience Platform リアルタイム顧客プロファイル**&#x200B;は、Web、モバイル、CRM、サードパーティなど複数のチャネルのデータを組み合わせることで、各顧客の全体像を把握します。プロファイルを使用すると、個別の顧客データを統合ビューに表示し、顧客インタラクションごとに実用的なタイムスタンプ付きの説明を提供できます。特定のアプリユーザーのプッシュトークンは、レコードデータとしてユーザーのプロファイルに保存されますが、プッシュ通知とのインタラクションは、時系列イベントデータとして追跡されます。[Adobe Experience Platform リアルタイム顧客プロファイルの詳細](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 
-* **[!DNL Adobe Journey Optimizer]**：上記のコンポーネントとのモバイルアプリ統合が確立され、Adobe Experience Platform の顧客プロファイルが作成されたら、Adobe Journey Optimizer でプッシュ通知の作成と調整をおこなって、ユーザーと関わり合うことができます。
+* **[!DNL Adobe Journey Optimizer]**[!DNL Adobe Journey Optimizer]：上記のコンポーネントとのモバイルアプリ統合が確立され、Adobe Experience Platform の顧客プロファイルが作成されたら、 でプッシュ通知の作成と調整をおこなって、ユーザーと関わり合うことができます。
 
 ## プッシュテクニカルセットアップおよび実践者ワークフロー
 
