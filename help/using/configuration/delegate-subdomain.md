@@ -15,10 +15,10 @@ feature: アプリケーション設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '465'
+ht-degree: 93%
 
 ---
 
@@ -47,6 +47,10 @@ ht-degree: 100%
 
    ![](../assets/subdomain-name.png)
 
+   >[!CAUTION]
+   >
+   >marketing.company.comなどの有効なサブドメインを入力していることを確認します。 無効なサブドメインをAdobeにデリゲートできません。
+
 1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
    ドメインをホストするソリューションに、すべての DNS レコードが生成されていることを確認してください。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
@@ -73,7 +77,7 @@ ht-degree: 100%
 
    ![](../assets/subdomain-processing.png)
 
-1. チェックが正常に完了すると、サブドメインは「**[!UICONTROL 成功]**」ステータスを取得します。 メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、サブドメインは&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスを取得します。 メッセージの配信に使用する準備が整いました。
 
    <!-- later on, users will be notified in Pulse -->
 
