@@ -5,10 +5,10 @@ feature: アプリケーション設定
 topic: プッシュ
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 89%
+source-wordcount: '797'
+ht-degree: 87%
 
 ---
 
@@ -49,13 +49,13 @@ ht-degree: 89%
 
 * **Adobe Experience Platform Mobile SDK** は Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。SDKには、プッシュメッセージ専用の様々なAPIを公開する[!DNL Adobe Journey Optimizer]拡張機能が用意されており、プッシュトークンの登録や、Adobe Experience Platformへのプッシュトラッキングイベントやその他のカスタムエクスペリエンスイベントの送信など、データフローを有効にします。 また、SDK は、他の Adobe Experience Cloud およびサードパーティパートナー機能を有効にする、他の様々な拡張機能も提供します。
 
-   SDK 統合には、次のような Adobe Experience Platform [データ収集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)サービスのセットアップも必要です。
+   SDK統合には、次のようなAdobe Experience Platform [データ収集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja){target=&quot;_blank&quot;}サービスのセットアップも必要です。
 
    * Adobe Experience Platform にデータが取り込まれる、プロファイルおよびエクスペリエンスイベントデータセットを設定するデータストリームの作成
    * クライアントサイドモバイルプロパティの作成と拡張機能の追加。 SDK は、これらの拡張機能と密接に統合し、シームレスなデータ収集エクスペリエンスを提供します。
    * モバイルアプリバンドル識別子とアプリの資格情報の登録
 
-* **Adobe Experience Platform リアルタイム顧客プロファイル**&#x200B;は、Web、モバイル、CRM、サードパーティなど複数のチャネルのデータを組み合わせることで、各顧客の全体像を把握します。プロファイルを使用すると、個別の顧客データを統合ビューに表示し、顧客インタラクションごとに実用的なタイムスタンプ付きの説明を提供できます。特定のアプリユーザーのプッシュトークンは、レコードデータとしてユーザーのプロファイルに保存されますが、プッシュ通知とのインタラクションは、時系列イベントデータとして追跡されます。[Adobe Experience Platform リアルタイム顧客プロファイルの詳細](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
+* **Adobe Experience Platform リアルタイム顧客プロファイル**&#x200B;は、Web、モバイル、CRM、サードパーティなど複数のチャネルのデータを組み合わせることで、各顧客の全体像を把握します。プロファイルを使用すると、個別の顧客データを統合ビューに表示し、顧客インタラクションごとに実用的なタイムスタンプ付きの説明を提供できます。特定のアプリユーザーのプッシュトークンは、レコードデータとしてユーザーのプロファイルに保存されますが、プッシュ通知とのインタラクションは、時系列イベントデータとして追跡されます。[Adobe Experience Platform リアルタイム顧客プロファイルの詳細](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}。
 
 * **[!DNL Adobe Journey Optimizer]**[!DNL Adobe Journey Optimizer]：上記のコンポーネントとのモバイルアプリ統合が確立され、Adobe Experience Platform の顧客プロファイルが作成されたら、 でプッシュ通知の作成と調整をおこなって、ユーザーと関わり合うことができます。
 
