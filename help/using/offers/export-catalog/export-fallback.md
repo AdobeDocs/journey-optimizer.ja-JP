@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 98%
    * **resolveURL**
 
       **フィールド：** resolveURL
-      **説明：** コンテンツリポジトリー内のアセットを読み取るための一意のリソースロケーター（オプション）。これにより、クライアントがアセットの管理場所と呼び出す API を把握していなくても、アセットを簡単に取得できます。これは HAL リンクに似ていますが、セマンティクスはより単純で目的があります。
+      **説明：** コンテンツリポジトリー内のアセットを読み取るための一意のリソースロケーター（オプション）。これにより、アセットの管理場所と呼び出すAPIをクライアントが把握しなくても、アセットを簡単に取得できます。 これは HAL リンクに似ていますが、セマンティクスはより単純で目的があります。
       **タイプ：**文字列
       **例：**&quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
