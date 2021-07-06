@@ -7,10 +7,10 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 89%
+source-wordcount: '1033'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 たとえば、外部システムに対して 1 秒あたり 100 呼び出しまで、というキャッピングルールを定義したとします。 システムは、10 の異なるジャーニーのカスタムアクションによって呼び出されます。 1 つのジャーニーが 1 秒間に 200 通の呼び出しを受け取った場合、使用可能な 100 個のスロットを使用し、残りの 100 個のスロットを破棄します。 最大レートを超えたので、他の 9 つのジャーニーにはスロットは残りません。この精度は、外部システムを過負荷やクラッシュから保護するのに役立ちます。
 
-キャッピング API の詳細とキャッピングルールの設定方法については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)を参照してください。
+キャッピングAPIの詳細とキャッピングルールの設定方法については、[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}を参照してください。
 
 ## タイムアウトと再試行{#timeout}
 
@@ -72,7 +72,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 **キャッピングルールはどのようにして設定できますか？デフォルトのキャッピングルールはありますか？**
 
-デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 この[節](../configuration/external-systems.md#capping)と[このページ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)を参照してください。
+デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 [この節](../configuration/external-systems.md#capping)と[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}を参照してください。
 
 **再試行は何回おこなわれますか？再試行回数を変更したり、再試行の間隔を設定したりできますか？**
 
