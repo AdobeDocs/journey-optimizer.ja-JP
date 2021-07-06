@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 97%
 
 ---
@@ -56,9 +56,12 @@ ht-degree: 97%
       + [オブジェクト関数](using/personalization/functions/objects.md)
       + [文字列関数](using/personalization/functions/string.md)
    + [パーソナライズされたオファーの追加](using/deliver-personalized-offers.md)
-+ セグメント{#segment}
-   + [セグメントについて](using/segment/about-segments.md)
-   + [セグメントの作成](using/segment/creating-a-segment.md)
++ セグメント、プロファイル、ID{#segment}
+   + セグメント {#segments}
+      + [セグメントについて](using/segment/about-segments.md)
+      + [セグメントの作成](using/segment/creating-a-segment.md)
+   + [プロファイル](using/get-started-profiles.md)
+   + [ID](using/get-started-identity.md)
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
@@ -189,6 +192,10 @@ ht-degree: 97%
       + API を使用したオファー配信 {#offer-delivery}
          + [決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
++ データ管理 {#data-management}
+   + [スキーマ](using/get-started-schemas.md)
+   + [データセット](using/get-started-datasets.md)
+   + [クエリ](using/get-started-queries.md)
 + 設定 {#get-started}
    + [Journey Optimizer の設定の概要](using/configuration/get-started-configuration.md)
    + メッセージの設定 {#configuration}
@@ -228,6 +235,7 @@ ht-degree: 97%
          + [アクションについて](using/action/action.md)
          + [アクションの設定](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
+      + [ソース](using/get-started-sources.md)
 + アクセス制御 {#administration}
    + [アクセス制御の概要](using/administration/permissions-overview.md)
    + [組み込みの製品プロファイル](using/administration/ootb-product-profiles.md)
