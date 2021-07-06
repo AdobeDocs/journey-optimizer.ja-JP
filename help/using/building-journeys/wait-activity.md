@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 89%
+source-wordcount: '415'
+ht-degree: 85%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 89%
 
 ## カスタム待機{#custom}
 
-このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja)を参照してください。dateTimeOnly 形式の詳細については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja)を参照してください。
+このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}を参照してください。 dateTimeOnly形式について詳しくは、[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!NOTE]
 >
