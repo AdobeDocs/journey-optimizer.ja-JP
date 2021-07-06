@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 85%
 
 ---
 
@@ -44,4 +44,4 @@ ht-degree: 95%
 
 これで、ランキング式がプレースメントに関連付けられました。
 
-このプレースメントで提示するための実施要件を満たすオファーが複数ある場合、決定はランキング式を使用して、最初に配信するオファーを計算します。
+この配置で複数のオファーを提示する資格がある場合、決定では、ランキング式の数式を使用して、最初に配信するオファーを計算します。
