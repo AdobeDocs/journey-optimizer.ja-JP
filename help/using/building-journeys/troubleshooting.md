@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 99%
+source-wordcount: '1062'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。そのため、イベントに関する問題が発生した場合は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)でストリーミング取得 API のトラブルシューティングを確認してください。
+イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。その結果、イベントに関する問題が発生した場合は、ストリーミング取得APIのトラブルシューティングに関する[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target=&quot;_blank&quot;}を参照できます。
 
 ## ジャーニーへのエントリを確認する{#section_x4v_zzs_dgb}
 
@@ -81,7 +81,7 @@ ht-degree: 99%
 
 個人がジャーニーを適切に進んでいるのに、受信すべきメッセージが届いていない場合は、以下の点を確認します。
 
-* [!DNL Journey Optimizer] はメッセージの送信リクエストを正しく認識している。ビジネスユーザーは、送信すべきメッセージにアクセスでき、最新の実行時刻がジャーニーの実行時刻と一致するかを確認できます。また、受け取った最新の API 呼び出しやイベントも確認できます。
-* [!DNL Journey Optimizer] はメッセージを正常に送信しました。メッセージの送信ログで、各実行のステータスを確認できます。ステータスの色（緑または赤）、および問題の詳細を確認できます。ビジネスユーザーはこの画面にアクセスし、詳細な調査のためにログを管理者に送信できます。
+* [!DNL Journey Optimizer] がメッセージの送信リクエストを正しく認識している。ビジネスユーザーは、送信すべきメッセージにアクセスでき、最新の実行時刻がジャーニーの実行時刻と一致するかを確認できます。また、受け取った最新の API 呼び出しやイベントも確認できます。
+* [!DNL Journey Optimizer] が正常にメッセージを送信している。メッセージの送信ログで、各実行のステータスを確認できます。ステータスの色（緑または赤）、および問題の詳細を確認できます。ビジネスユーザーはこの画面にアクセスし、詳細な調査のためにログを管理者に送信できます。
 
 カスタムアクションを介して送信されたメッセージの場合、ジャーニーテストで確認できるのは、カスタムアクションのシステムを呼び出すことでエラーが発生するかどうかだけです。カスタムアクションに関連付けられた外部システムへの呼び出しがエラーにならず、それでもメッセージが送信されない場合は、外部システム側で調査する必要があります。
