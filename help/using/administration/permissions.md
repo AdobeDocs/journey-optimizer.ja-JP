@@ -6,10 +6,10 @@ feature: コントロール母集団
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 97%
+source-wordcount: '853'
+ht-degree: 95%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 97%
 
 [!DNL Journey Optimizer] では、独自の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。**[!UICONTROL 製品プロファイル]**&#x200B;を使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
-サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja)を参照してください。
+サンドボックスの作成と管理の方法について詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 この例では、「**ジャーニー読み取り専用**」という名前の製品プロファイルを作成し、ジャーニー機能に読み取り専用の権限を付与します。ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の&#x200B;**[!UICONTROL 決定管理]**&#x200B;や&#x200B;**[!UICONTROL メッセージ]**&#x200B;など、他の機能にはアクセスできません。
 
@@ -141,7 +141,7 @@ ht-degree: 97%
 
    ![](../assets/access_control_13.png)
 
-1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。
+1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細情報](sandboxes.md)。
 
 1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
