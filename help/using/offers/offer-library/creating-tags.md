@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 また、タグを使用して、オファーをオファーコレクションにグループ化することもできます。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
+➡️ [この機能をビデオで確認](#video)
 
 作成したタグのリストには、「 **[!UICONTROL コンポーネント]**&#x200B;メニューでアクセスできます。
 
