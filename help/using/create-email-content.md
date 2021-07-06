@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1597'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -180,7 +180,7 @@ HTML コンテンツを表示できない場合に使用するため、メール
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景の設定"
->abstract="E メールデザイナーでは、コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべてのメールクライアントでサポートされているわけではありません。"
+>abstract="Eメールデザイナーを使用すると、コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべてのEメールクライアントでサポートされているわけではありません。"
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="追加情報"
 
 E メールデザイナーで背景を設定する場合、アドビでは次の操作を推奨します。
