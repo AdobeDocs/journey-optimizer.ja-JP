@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 46%
+ht-degree: 42%
 
 ---
 
@@ -57,4 +57,4 @@ ht-degree: 46%
 
 * **ジャーニーの作成**：メッセージの送信、コンテキストデータの活用、オーディエンスの絞り込み、複数手順のユースケースの設計と実行をおこないます。[詳細を読む](building-journeys/journey.md)
 
-* **メッセージとジャーニーの監視**：メッセージ実行の制御、メッセージおよびジャーニーレポートの確認、配信品質指標のフォローアップをおこないます。[詳細を読む](message-monitoring.md)
+* **メッセージとジャーニーの監視**:メッセージの実行、メッセージおよびジャーニーレポートの確認、フォローアップ配信品質の指標を制御します。[詳細情報](message-monitoring.md)
