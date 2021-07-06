@@ -5,7 +5,7 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
+source-git-commit: 6a2304fc3b6262d339b7bf1f229f12ba68f1a993
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 44%
@@ -68,22 +68,22 @@ ht-degree: 44%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizerの製品説明</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizerの製品説明</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja">Adobe Experience Platformドキュメント</a>
+      <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja" target="_blank">Adobe Experience Platformドキュメント</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja">Adobe Experience Platform アクセスの概要</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja" target="_blank">Adobe Experience Platform アクセスの概要</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform デベロッパーリソース</a>
+      <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform デベロッパーリソース</a>
     </li>
     </div>
   </td>
@@ -125,7 +125,7 @@ ht-degree: 44%
       <a href="using/get-started-queries.md">クエリ</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja">監視</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja" target="_blank">監視</a>
     </li>
     <p>
     <p>接続</p>
