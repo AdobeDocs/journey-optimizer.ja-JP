@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 99%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 99%
       + [UI でのメールコンテンツの設計](using/create-email-content.md)
       + [メールコンテンツの読み込みまたはコーディング](using/existing-content.md)
       + [E メールデザイナーのコンテンツコンポーネントの使用](using/content-components.md)
+   + [リンクの追加とメッセージのトラッキング](using/message-tracking.md)
    + 検証と公開 {#create-message}
       + [プレビューと配達確認](using/preview.md)
       + [アラートの確認](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 99%
    + [はじめに パーソナライゼーションの使用](using/personalization/personalize.md)
    + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
    + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
-   + [使用例：プッシュ通知へのパーソナライゼーションの追加](using/personalization/personalization-use-case.md)
+   + ユースケース{#personalization-use-cases}
+      + [注文ステータスの通知](using/personalization/personalization-use-case.md)
+      + [買い物かご放棄のEメール](using/personalization/personalization-use-case-helper-functions.md)
    + ヘルパー関数{#functions}
       + [ヘルパー関数のリスト](using/personalization/functions/functions.md)
       + [集計関数](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 99%
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
       + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
 + トラッキングと監視 {#reporting}
-   + [メッセージトラッキング](using/message-tracking.md)
    + [メッセージの監視](using/message-monitoring.md)
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
