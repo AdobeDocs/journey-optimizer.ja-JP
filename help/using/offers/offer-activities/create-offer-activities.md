@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 87%
+source-wordcount: '607'
+ht-degree: 86%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 87%
 
    左側のペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合したあと、「**[!UICONTROL 選択]**」をクリックして確認します。
 
-   セグメントの評価方法について詳しくは、[Segmentation Service　ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
+   セグメントの使用方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->決定が作成されたら、リスト内の名前をクリックして詳細情報にアクセスし、**[!UICONTROL 変更ログ]**&#x200B;タブを使用して、それに加えられたすべての変更を視覚化できます（[オファーと決定の変更ログ](../get-started/user-interface.md#changes-log)を参照）。
+>決定が作成されたら、リスト内の名前をクリックして詳細情報にアクセスし、**[!UICONTROL 「変更ログ]**」タブを使用して、それに加えられたすべての変更を視覚化できます。 [詳細情報](../get-started/user-interface.md#changes-log)。
 
 ## チュートリアルビデオ {#video}
 
