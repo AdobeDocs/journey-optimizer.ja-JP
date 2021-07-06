@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールに名前を付け、説明を入力し、必要に応じてルールを設定します。
 
-   これをおこなうには、Adobe Experience Platform の&#x200B;**セグメントビルダー**&#x200B;を使用して、ルールの条件を作成できます。使用方法について詳しくは、[専用のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
+   そのためには、ルールの条件を作成する際に役立つ&#x200B;**セグメントビルダー**&#x200B;を使用できます。 [詳細](../../segment/about-segments.md)
 
    この例では、「ゴールド」ロイヤルティレベルの顧客をターゲットします。
 
