@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 81%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 100%
 
 このガイドは、Adobe Experience Platform の次のコンポーネントを実際に利用および理解しているユーザーを対象としています。
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)：顧客体験データをまとめる際に [!DNL Experience Platform] に使用される標準化されたフレームワーク。
-   * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja)：XDM スキーマの基本的な構成要素について説明します。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}:顧客体験データを整理する際に使用す [!DNL Experience Platform] る標準化されたフレームワーク。
+   * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target=&quot;_blank&quot;}:XDMスキーマの基本的な構成要素について説明します。
 * [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md)：エクスペリエンス判定全般（特に Offer Decisioning）で使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示できる最適なオプションを選択するための戦略を示します。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)：PQL は XDM インスタンス上で式を書くための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target=&quot;_blank&quot;}:PQLは、XDMインスタンスを使用して式を書く強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
 ## API 呼び出し例の読み取り
 
-ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、 トラブルシューテングガイドの[API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request?lang=ja)に関する節を参照してください[!DNL Experience Platform]。
+ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用されるAPI呼び出し例の表記について詳しくは、[!DNL Experience Platform]トラブルシューティングガイドの[API呼び出し例](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request?lang=ja){target=&quot;_blank&quot;}の読み方に関する節を参照してください。
 
 ## 必須ヘッダーの値の収集
 
-[!DNL Platform] API を呼び出すには、まず[認証チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja)を完了する必要があります。次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
+[!DNL Platform] APIを呼び出すには、まず[認証に関するチュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target=&quot;_blank&quot;}を完了する必要があります。 次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 管理者は、類似したプリンシパル、リソースおよびアクセス権限をプロファイルにグループ化できます。これにより、管理上の負担が軽減され、[Adobe Admin Console](https://adminconsole.adobe.com/) でサポートされます。プロファイルを作成し、ユーザーを割り当てるには、組織内の Adobe Experience Platform の製品管理者である必要があります。1 回限りの手順で特定の権限に一致する製品プロファイルを作成し、その後、それらのユーザーにプロファイルを追加するだけで十分です。プロファイルは、権限が付与されたグループとして機能し、そのグループ内のすべての実際のユーザーまたは技術ユーザーは、権限を継承します。
 
-管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/) を通じて、ユーザーに権限を付与または取り消すことができます。詳しくは、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja)を参照してください。
+管理者権限を付与された場合は、[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}を使用して、ユーザーに権限を付与または取り消すことができます。 詳しくは、「[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target=&quot;_blank&quot;}」を参照してください。
 
 ### ユーザーと統合機能からアクセス可能なコンテナのリスト
 
