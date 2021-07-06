@@ -7,10 +7,10 @@ feature: アプリケーション設定
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -35,5 +35,5 @@ ht-degree: 100%
 **詳細**
 
 * インターフェイスから直接](delegate-subdomain.md)サブドメインをデリゲート[する方法については、こちらを参照してください。
-* Gmail アドレスへのメールの配信を確実におこなうために、サブドメインに ](google-txt.md)Google TXT レコードを追加[する方法を学ぶ
+* GmailアドレスへのEメール配信を確実におこなうために、Google TXTレコード](google-txt.md)をサブドメインに[追加する方法を説明します。
 * サブドメイン用に生成された ](ptr-records.md)PTR レコードにアクセス[し、送信メールサーバーで検証する方法を学ぶ
