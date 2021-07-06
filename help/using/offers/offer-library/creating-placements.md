@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで見る](#video)
+➡️ [この機能をビデオで確認](#video)
 
 下の例では、異なるタイプのコンテンツ（画像、テキスト、HTML）に対応する 3 つのプレースメントがあります。
 
