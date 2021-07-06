@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 58%
 
 ---
 
@@ -27,3 +27,18 @@ ht-degree: 100%
 * 「**セグメントの選定**」イベントアクティビティを使用して、Adobe Experience Platform セグメントのエントリと離脱に基づいて、個人をジャーニーにエントリさせたり進行させたりする。例えば、新規のシルバー顧客全員をジャーニーにエントリさせ、それらの顧客にメッセージを送信することができます。このアクティビティの使用方法について詳しくは、[この節](../building-journeys/segment-qualification-events.md)を参照してください。
 
 * シンプルな式エディターまたは高度な式エディターを使用して、ジャーニーに&#x200B;**複雑な条件**&#x200B;を組み込むことができます。詳しくは、[この節](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+
+## Adobe Journey Optimizerでの評価方法 {#evaluation-method-in-journey-optimizer}
+
+Adobe Journey Optimizerでは、オーディエンスは、次の評価方法の1つを使用して、セグメント定義から生成されます。
+
+* ストリーミングセグメント化 — 新しいデータがシステムにフローされる間、セグメントのオーディエンスリストはリアルタイムで最新の状態に保たれます。
+* バッチセグメント：セグメントのオーディエンスリストは、過去1時間に到達したデータに基づいて1時間ごとに更新されます。
+
+バッチセグメント化とストリーミングセグメント化の間の決定は、セグメントルールの評価の複雑さとコストに基づいて、セグメント定義ごとにシステムによっておこなわれます。
+
+セグメントリストの&#x200B;**[!UICONTROL Evaluation method]**&#x200B;列で、各セグメントの評価方法を確認できます。
+
+最初にセグメントを定義した後、プロファイルは認定されるとオーディエンスに追加されます。
+
+以前のデータからオーディエンスをバックフィルするには、最大24時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備が整います。
