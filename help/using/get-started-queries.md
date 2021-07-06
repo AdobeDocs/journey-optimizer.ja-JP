@@ -4,10 +4,10 @@ description: Adobe Journey Optimizerでクエリを作成する方法を説明�
 feature: スキーマ
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 2%
 
 **関連トピック**
 
-* [クエリサービスのドキュメント](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [クエリサービスの概要のビデオ](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [クエリサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target=&quot;_blank&quot;}
+* [クエリサービスの概要のビデオ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ja){target=&quot;_blank&quot;}
