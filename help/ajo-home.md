@@ -5,14 +5,14 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 57%
+source-wordcount: '196'
+ht-degree: 44%
 
 ---
 
-# Adobe Journey Optimizer ドキュメント {#cjm-documentation}
+# Adobe[!DNL Journey Optimizer]ドキュメント {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -26,7 +26,7 @@ ht-degree: 57%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Journey Optimizer とは?</a>
+      <a href="using/get-started.md">[!DNL Journey Optimizer]とは</a>
     </div>
     <p>主な機能と使い始める方法を確認する
     <p>
@@ -67,6 +67,9 @@ ht-degree: 57%
     <p>
     <p>
     <div>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizerの製品説明</a>
+    </div>
+    <div>
       <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja">Adobe Experience Platformドキュメント</a>
     </div>
       <div>
@@ -105,13 +108,13 @@ ht-degree: 57%
     <p>
     <p>データ管理</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja">スキーマ</a>
+      <a href="using/get-started-schemas.md">スキーマ</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット</a>
+      <a href="using/get-started-datasets.md">データセット</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=ja">クエリ</a>
+      <a href="using/get-started-queries.md">クエリ</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja">監視</a>
@@ -119,7 +122,7 @@ ht-degree: 57%
     <p>
     <p>接続</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja">ソース</a>
+      <a href="using/get-started-sources.md">ソース</a>
     </li>
     <p>
     <p>顧客</p>
@@ -127,10 +130,10 @@ ht-degree: 57%
       <a href="using/segment/about-segments.md">セグメント</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja">プロファイル</a>
+      <a href="using/get-started-profiles.md">プロファイル</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">ID</a>
+      <a href="using/get-started-identity.md">ID</a>
     </li>
     <p>
     <p>管理</p>
