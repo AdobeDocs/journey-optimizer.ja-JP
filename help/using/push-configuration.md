@@ -5,16 +5,16 @@ feature: アプリケーション設定
 topic: プッシュ
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1561'
 ht-degree: 22%
 
 ---
 
 # プッシュ通知チャネルの設定 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットを絞ったオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer]でプッシュ通知の送信を開始する前に、モバイルアプリ、および[!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]で設定と統合がおこなわれていることを確認する必要があります。 Adobeジャーニーオプティマイザーでのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
+[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットを絞ったオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer]でプッシュ通知の送信を開始する前に、モバイルアプリ、および[!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]で設定と統合がおこなわれていることを確認する必要があります。 [!DNL Adobe Journey Optimizer]のプッシュ通知データフローについては、[このページ](push-gs.md)を参照してください。
 
 ## 開始する前に
 
