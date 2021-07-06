@@ -5,10 +5,10 @@ feature: パーソナライズ機能
 topic: パーソナライズ機能
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 97%
         <td><a href="aggregation.md#max">Maximum</a></td><td>配列内の選択された値すべての最大値を返します。</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset of</a></td><td>特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかどうか、つまり配列 A に配列 B のすべての要素が含まれているかを判定します。</td>
+    <td><a href="arrays-list.md#superset">Superset of</a></td><td>この関数は、特定の配列（配列A）が別の配列（配列B）のスーパーセットであるかどうか、つまり、その配列Aに配列Bのすべての要素が含まれているかどうかを判定します</td>
     </tr>
 </table>
 
