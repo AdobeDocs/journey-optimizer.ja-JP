@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 95%
+source-wordcount: '954'
+ht-degree: 90%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 95%
 
    オファーの表示を、1 つまたは複数の Adobe Experience Platform セグメントのメンバーに限定できます。それには、「]**1 つまたは複数のセグメントに分類される訪問者**[!UICONTROL 」オプションを有効にしたあと、左ペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合します。
 
-   セグメントの評価方法について詳しくは、[Segmentation Service　ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
+   セグメントの使用方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ ht-degree: 95%
 
 ![](../../assets/offer_created.png)
 
-オファーが作成されたら、リスト内のオファー名をクリックして詳細情報にアクセスしたり、オファーに加えられたすべての変更を「**[!UICONTROL 変更ログ]**」タブで監視したりできます（[オファーおよび決定に対する変更の監視](../get-started/user-interface.md#monitoring-changes)を参照）。
+オファーを作成したら、リスト内の名前をクリックして詳細情報にアクセスし、**[!UICONTROL 「変更ログ]**」タブを使用してオファーに加えられたすべての変更を監視できます。 [詳細情報](../get-started/user-interface.md#monitoring-changes)。
 
 ## チュートリアルビデオ {#video}
 
