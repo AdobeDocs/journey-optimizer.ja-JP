@@ -5,7 +5,7 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 91%
