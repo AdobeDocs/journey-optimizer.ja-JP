@@ -4,10 +4,10 @@ description: プライバシーの管理方法について学ぶ
 topic: プライバシー
 role: User
 level: Intermediate
-source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 95%
+source-wordcount: '771'
+ht-degree: 85%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 95%
 
 * 個人情報は常に、責任を持って倫理的に使用する。
 
-* 迷惑メール（「スパム」）を送信しない。アドビは、顧客の生涯価値およびロイヤリティを促進するうえで許可型マーケティングの原則を重要視しています。したがって、未承諾メッセージの送信に Journey Optimizer を使用することを固く禁止しています。
+* 迷惑メール（「スパム」）を送信しない。Adobeは、顧客の生涯価値とロイヤリティを促進するうえで許可型マーケティングの原則を強く信じているので、未承諾メッセージの送信に[!DNL Adobe Journey Optimizer]を使用することは厳しく禁止しています。
 
-Journey Optimizer では、様々な事前定義済み製品やカスタム製品のプロファイルを使用して、ユーザーに割り当てられた権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできる人物を管理できます。ユーザーのアクセス権の管理について詳しくは、[権限の管理](administration/permissions.md)を参照してください。
+[!DNL Journey Optimizer] では、様々な事前定義済み製品やカスタム製品のプロファイルを使用して、ユーザーに割り当てられた権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできる人物を管理できます。[このページ](administration/permissions.md)でユーザー権限を管理する方法を説明します。
 
-また、Journey Optimizer では、リンクの開封やクリックを通して送信されたメッセージや、受信者の行動を追跡することもできます。[トラッキング管理の詳細情報](message-tracking.md)。
+[!DNL Journey Optimizer]また、 では、リンクの開封やクリックを通して送信されたメッセージや、受信者の行動を追跡することもできます。[このページ](message-tracking.md)でのトラッキング管理について詳しく説明します。
 
 ## プライバシーの管理 {#privacy-management}
 
@@ -52,7 +52,7 @@ Journey Optimizer では、様々な事前定義済み製品やカスタム製�
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（カリフォルニア州消費者プライバシー法）
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（タイ個人データ保護法）
 
-Journey Optimizer は、Adobe Experience Platform でおこなわれたデータセットの変更のほとんどを継承しています。
+[!DNL Journey Optimizer] は、Adobe Experience Platform でおこなわれたデータセットの変更のほとんどを継承しています。
 
 それにより、プライバシーリクエスト（アクセス権および忘れられる権利）は Experience Platform で管理されます。[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) を使用してリクエストを送信し、[プライバシーリクエストを作成](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder)する際に、製品リストから&#x200B;**プロファイル**&#x200B;と&#x200B;**AEP Data Lake** を選択する必要があります<!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->。
 
@@ -62,7 +62,7 @@ Journey Optimizer は、Adobe Experience Platform でおこなわれたデータ
 
 ## Adobe Experience Cloud のプライバシー {#experience-cloud-privacy}
 
-Journey Optimizer は、Adobe Experience Cloud ソリューションの一部です。プライバシーの取り扱いは、Adobe Experience Cloud の原則に従います。[Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html)。
+[!DNL Journey Optimizer] は、Adobe Experience Cloudソリューションの一部です。プライバシーの取り扱いは、Adobe Experience Cloud の原則に従います。Adobe Experience Cloudのプライバシーについて詳しくは、[このページ](https://www.adobe.com/jp/privacy/experience-cloud.html)を参照してください。
 
 Adobe Experience Cloud ソリューションを使用する会社は、どの情報を収集してAdobe Experience Cloud アカウントに送信するかを選択します。収集される情報のタイプの例としては、web 閲覧アクティビティ、IP アドレス、モバイルデバイスからの位置情報、キャンペーン成功率、購入品目、買い物かごに入れた品目などがあります。詳しくは、[アドビのプライバシーポリシー](https://www.adobe.com/jp/privacy/policy.html)をご覧ください。
 
@@ -73,6 +73,6 @@ Adobe Experience Cloud ソリューションを使用する会社は、どの情
 
 >[!NOTE]
 >
->すべての Adobe 製品と同様に、Journey Optimizer は、アプリや Web サイトを通じて収集した共有情報をオプトアウトできます。詳しくは、[Adobe Experience Cloud の使用状況に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) をご覧ください。
+>[!DNL Adobe Journey Optimizer]ユーザーは、すべてのAdobe製品に関して、アプリやWebサイトを通じて収集した共有情報をオプトアウトできます。 詳しくは、[Adobe Experience Cloud の使用状況に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) をご覧ください。
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
