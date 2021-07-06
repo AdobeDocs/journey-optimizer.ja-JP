@@ -5,9 +5,9 @@ feature: アプリケーション設定
 topic: プッシュ
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1583'
 ht-degree: 22%
 
 ---
@@ -31,11 +31,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 権限の設定
 
-モバイルアプリケーションを作成する前に、**Adobe Experience Platform Launch**&#x200B;で正しいユーザー権限を持っているか、割り当てておく必要があります。 詳しくは、[Adobe Experience Platform Launchのドキュメント](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=ja)を参照してください。
+モバイルアプリケーションを作成する前に、**Adobe Experience Platform Launch**&#x200B;で正しいユーザー権限を持っているか、割り当てておく必要があります。 詳しくは、[Adobe Experience Platform Launchのドキュメント](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
 >
->プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関わるペルソナに応じて、完全な権限を単一の製品プロファイルに割り当てるか、アプリ開発者と&#x200B;**Adobe Journey Optimizer**&#x200B;管理者の間で権限を共有する必要が生じる場合があります。 **Adobe Experience Platform Launch**&#x200B;の権限について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)を参照してください。
+>プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関わるペルソナに応じて、完全な権限を単一の製品プロファイルに割り当てるか、アプリ開発者と&#x200B;**Adobe Journey Optimizer**&#x200B;管理者の間で権限を共有する必要が生じる場合があります。 **Adobe Experience Platform Launch**&#x200B;の権限について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}を参照してください。
 
 <!--ou need to your have access to perform following roles :
 
@@ -52,7 +52,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    ![](assets/push_product_1.png)
 
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新しいプロファイル]**」ボタンを使用して新しい製品プロファイルを作成します。新しい&#x200B;**[!UICONTROL プロファイル]**&#x200B;を作成する方法については、[Admin Consoleのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui)を参照してください。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新しいプロファイル]**」ボタンを使用して新しい製品プロファイルを作成します。[Admin Consoleのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui){target=&quot;_blank&quot;}で新しい&#x200B;**[!UICONTROL プロファイル]**&#x200B;を作成する方法を説明します。
 
 1. 「**[!UICONTROL 権限]**」タブで、「**[!UICONTROL プロパティ権限]**」を選択します。
 
@@ -108,14 +108,14 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 以下のリンクに記載されている実装手順に従います。
 
-* **Apple iOS**&#x200B;の場合：[Appleドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)でAPNsにアプリを登録する方法を説明します。
-* **Google Android**&#x200B;の場合：[Googleドキュメント](https://firebase.google.com/docs/cloud-messaging/android/client)でAndroidにFirebase Cloud Messagingクライアントアプリをセットアップする方法を説明します。
+* **Apple iOS**&#x200B;の場合：[Appleドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}でAPNsにアプリを登録する方法を説明します
+* **Google Android**&#x200B;の場合：[Googleドキュメント](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}でAndroidにFirebase Cloud Messagingクライアントアプリをセットアップする方法を説明します
 
 ### モバイルアプリのAdobe Experience Platform SDKとの統合
 
-Adobe Experience Platform Mobile SDKは、AndroidおよびiOS互換のSDKを介して、モバイル用のクライアント側統合APIを提供します。 [Adobe Experience Platform Mobile SDKのドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/overview)に従って、アプリでAdobe Experience Platform Mobile SDKを設定します。
+Adobe Experience Platform Mobile SDKは、AndroidおよびiOS互換のSDKを介して、モバイル用のクライアント側統合APIを提供します。 アプリでAdobe Experience Platform Mobile SDKを使用する場合は、[Adobe Experience Platform Mobile SDKのドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;}を参照してください。
 
-この作業が完了するまでに、Adobe Experience Platform Launchでモバイルプロパティも作成および設定する必要があります。 通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。 [Adobe Experience Platform Launchのドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)でモバイルプロパティを作成および設定する方法を説明します。
+この作業が完了するまでに、Adobe Experience Platform Launchでモバイルプロパティも作成および設定する必要があります。 通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。 [Adobe Experience Platform Launchのドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}でモバイルプロパティを作成および設定する方法を説明します。
 
 
 ## 手順1:Adobe Experience Platform Launchでのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
@@ -138,7 +138,7 @@ Adobe Experience Platform Mobile SDKは、AndroidおよびiOS互換のSDKを介�
 
       1. **[!UICONTROL アプリID（Androidパッケージ名）]**&#x200B;を指定します。通常、パッケージ名は`build.gradle`ファイル内のアプリidです。
 
-      1. FCMプッシュ資格情報をドラッグ&amp;ドロップします。 プッシュ資格情報の取得方法の詳細については、[Googleドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
+      1. FCMプッシュ資格情報をドラッグ&amp;ドロップします。 プッシュ資格情報の取得方法の詳細については、[Googleドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}を参照してください。
    * **iOS の場合**
 
       ![](assets/add-app-config-ios.png)
@@ -176,7 +176,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 Adobe Experience Platform Mobile SDK用&#x200B;**Adobe Journey Optimizer拡張機能**&#x200B;は、モバイルアプリに対するプッシュ通知を強化し、ユーザープッシュトークンを収集し、Adobe Experience Platformサービスとのインタラクション測定を管理するのに役立ちます。
 
-[Adobe Experience Platform Mobile SDKドキュメント](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)でJourney Optimizer拡張機能を設定する方法について説明します。
+[Adobe Experience Platform Mobile SDKドキュメント](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}でJourney Optimizer拡張機能を設定する方法について説明します。
 
 
 <!-- 
@@ -253,7 +253,7 @@ Adobe Experience PlatformとAdobeLaunchの両方でモバイルアプリを設�
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-このジャーニーを機能させるには、XDMスキーマを作成する必要があります。 詳しくは、[XDMのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion)を参照してください。
+このジャーニーを機能させるには、XDMスキーマを作成する必要があります。 詳しくは、[XDMドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion){target=&quot;_blank&quot;}を参照してください。
 
 1. 左側のメニューで、**[!UICONTROL スキーマ]**&#x200B;を参照します。
 
@@ -263,7 +263,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 「**[!UICONTROL 新しいフィールドグループを作成]**」を選択します。
 
-1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。 フィールドグループの作成方法について詳しくは、[XDMシステムのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja)を参照してください。
+1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。 フィールドグループの作成方法について詳しくは、[XDMシステムのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 
    ![](assets/test_push_4.png)
