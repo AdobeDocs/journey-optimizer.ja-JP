@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
 
-![](../../assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+➡️ [この機能をビデオで確認](#video)
 
 ## 前提条件
 
