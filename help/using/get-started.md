@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 6783aaec0d050074624b9aa8219252ebf7618088
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 21%
+source-wordcount: '688'
+ht-degree: 20%
 
 ---
 
@@ -24,6 +24,9 @@ ht-degree: 21%
 [!DNL Adobe Journey Optimizer] は、会社が顧客に対し、連続性を持ち、顧客の期待に沿う、パーソナライズされたエクスペリエンスを提供するのに役立ちます。カスタマージャーニーは、顧客がブランドとやり取りするプロセスの全体（最初に接触した時点から顧客が離脱するまで）を表します。このジャーニーは、認知フェーズから開始します。このフェーズでは、顧客はブランドを知り、エンゲージメントを開始します。その後、顧客は企業とやり取りし、オンラインショップや実店舗の訪問、購入、メッセージの送信、レビューの投稿をおこないます。
 
 [!DNL Adobe Journey Optimizer] は、をネイティブに構築 [!DNL Adobe Experience Platform] し、統合されたリアルタイム顧客プロファイル、APIファーストのオープンフレームワーク、一元化されたoffer decisioning、人工知能(AI)と機械学習(ML)を組み合わせて、パーソナライズと最適化を実現します。Journey Optimizerを使用すると、カスタマージャーニー全体を通じて、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。 [!DNL Adobe Journey Optimizer]を使用すると、企業は、スケジュールに沿ったマーケティングキャンペーン（小売店向けの週別プロモーションなど）と、カスタマイズされた個々のコミュニケーション（ロイヤルティアプリの顧客が以前在庫切れだった品目のプッシュ通知など）の両方を同じアプリ内で作成、配信できます。
+
+➡️ [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} （ビデオ）
+
 
 ## 使用例
 
@@ -46,6 +49,13 @@ ht-degree: 21%
 * **最新のオムニチャネルオーケストレーションと実行**  - 1:1の顧客エンゲージメントとマーケティングアウトリーチのために、カスタマージャーニーを調和し最適化する単一のキャンバス。顧客のライフサイクル全体を通じて、より多くの価値を実現します。[!DNL Adobe Journey Optimizer]で設計されたカスタマージャーニーは、動的でイベントベースで、ブランドがリアルタイムのシグナルに反応し、予定されたキャンペーンとやり取りを結び付け、顧客に送信するコミュニケーション、タイミング、経路に関して適切な決定を下すことができます。
 
 * **インテリジェント判定とパーソナライゼーション**  — ブランドは、集中判定を適用し、人工知能と機械学習を組み込んで、顧客体験全体にわたって予測インサイトを提供し、意思決定を自動化し、エクスペリエンスを規模に合わせて最適化できます。offer decisioningは、[!DNL Adobe Journey Optimizer]を通じて、複数のチャネルをまたいで一元的なオファーを提供します。
+
+## アーキテクチャ
+
+[!DNL Adobe Journey Optimizer]の基本的なアーキテクチャ、統合のポイント、および[!DNL Journey Optimizer]と他のAdobeアプリケーションとの関係を理解します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+
 
 >[!NOTE]
 >
