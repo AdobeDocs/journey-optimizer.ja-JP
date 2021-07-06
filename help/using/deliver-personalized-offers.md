@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 35%
+source-wordcount: '536'
+ht-degree: 34%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 35%
 
    >[!NOTE]
    >
-   >この例では、**Email**&#x200B;名前空間を使用します。 Adobe Experience Platform の ID 名前空間については、[この節](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#getting-started)を参照してください。
+   >この例では、**Email**&#x200B;名前空間を使用します。 Adobe Experience Platform の ID 名前空間については、[この節](get-started-identity.md)を参照してください。
 
 1. ID名前空間のリストで、「**[!UICONTROL Email]**」を選択し、「**[!UICONTROL Select]**」をクリックします。
 
