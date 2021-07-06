@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 96%
+source-wordcount: '312'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
    ![](../assets/create-segment.png)
 
-   「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。セグメントの設定方法については、[Segmentation Service ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
+   「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target=&quot;_blank&quot;}でセグメントを設定する方法を説明します。
 
    ![](../assets/segment-builder.png)
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >左側のウィンドウに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、[Adobe Experience Data Model（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
+   >左側のウィンドウに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、[エクスペリエンスデータモデル(XDM)のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
    ![](../assets/drag-fields.png)
 
