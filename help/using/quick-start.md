@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 42%
+source-wordcount: '403'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 42%
 
 * **ユーザー権限の設定**:にログインし [!DNL Adobe Journey Optimizer] て、チームメンバーにアクセス権を付与します。[詳細情報](../using/administration/permissions.md)
 
-* **デプロイ[!DNL Adobe Experience Manager Assets Essentials]**:メッセージのアセットや画像を管理するには、組織にをデプロイ [!DNL Assets Essentials] し、へのアクセスを必要とするユーザーが、 [!DNL Assets Essentials]Assets Essentials Consumer Users(または **Assets Essentials** UsersProduct)プロファイルの一部であることを確認する必要がありま **** す。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **デプロイ[!DNL Adobe Experience Manager Assets Essentials]**:メッセージのアセットや画像を管理するには、組織にをデプロイ [!DNL Assets Essentials] し、へのアクセスを必要とするユーザーが、 [!DNL Assets Essentials]Assets Essentials Consumer Users(または **Assets Essentials** UsersProduct)プロファイルの一部であることを確認する必要がありま **** す。[詳細を表示](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **チャネルの設定**:eメール通知とプッシュ通知の設定を定義します。[詳細情報](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ ht-degree: 42%
 
 * **データの特定とスキーマおよびデータセットの作成**：Adobe Experience Platform にデータを取り込み、プロファイルに対して有効な ID 名前空間とデータセットを作成し、セグメントを作成してプロファイルをテストします。
 
-   * [Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)でデータセットをプレビューして作成する方法を説明します
+   * [Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;}でデータセットをプレビューして作成する方法を説明します
 
-   * [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces)でID名前空間を作成する方法を説明します
+   * [Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces){target=&quot;_blank&quot;}でID名前空間を作成する方法を説明します
 
    * [このページ](../using/building-journeys/creating-test-profiles.md)でテストプロファイルを作成する方法を説明します。
 
-   * データ取り込みについて詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja)を参照してください。
+   * データ取り込みについて詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 
 ### 使用状況フロー
