@@ -5,16 +5,16 @@ feature: オファー
 topic: 統合
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
-# 決定の検索
+# 決定ルールの検索
 
-[!DNL Offer Library] API に対してリクエストパスに決定の `@id` または決定の名前のいずれかを含む GET リクエストを実行することで、特定の決定（旧称：オファーアクティビティ）を検索できます。
+特定の決定（旧称オファーアクティビティ）を検索するには、[!DNL Offer Library] APIに対して、決定`@id`またはリクエストパスに決定の名前を含むGETリクエストを実行します。
 
 **API 形式**
 
