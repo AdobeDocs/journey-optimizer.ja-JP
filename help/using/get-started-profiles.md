@@ -4,10 +4,10 @@ description: Adobe Journey Optimizerでのプロファイルの作成および�
 feature: プロファイル
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -29,5 +29,5 @@ ht-degree: 6%
 
 **関連トピック**
 
-* [リアルタイム顧客プロファイルドキュメント](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
+* [リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target=&quot;_blank&quot;}
 * [リアルタイム顧客プロファイルの概要ビデオ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}
