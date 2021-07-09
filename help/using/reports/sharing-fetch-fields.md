@@ -6,15 +6,15 @@ topic: コンテンツ管理
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # journeyStep イベントのデータ取得フィールド {#sharing-fetch-fields}
 
-このフィールドグループは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
+このフィールドグループは、journeyStepEvent と journeyStepProfileEvent が共有します。
 
 ステップの処理中に、フィールドグループで N 個のデータを取得できます。
 
