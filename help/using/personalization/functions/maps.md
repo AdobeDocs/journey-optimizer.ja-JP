@@ -1,14 +1,14 @@
 ---
 title: マップ関数ライブラリ
 description: マップ関数ライブラリ
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: パーソナライゼーション
+topic: パーソナライゼーション
 role: Data Engineer
 level: Experienced
 source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
