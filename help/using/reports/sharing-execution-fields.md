@@ -6,15 +6,15 @@ topic: コンテンツ管理
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # journeyStep イベントのアクション実行フィールド {#sharing-execution-fields}
 
-このフィールドグループは、 journeyStepEventとjourneyStepProfileEventによって共有されます。
+このフィールドグループは、journeyStepEvent と journeyStepProfileEvent が共有します。
 
 処理が必要なアクションがステップにある場合、これらのフィールドはイベントペイロードに追加されます。
 
