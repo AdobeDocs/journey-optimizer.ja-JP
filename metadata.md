@@ -5,11 +5,11 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/journey-optimizer.ja-JP
 index: true
 product: Journey Optimizer
 solution: Journey Optimizer
-solution-title: Journey Optimizerドキュメント
+solution-title: Journey Optimizer ドキュメント
 source-git-commit: 34b567ff172444e32251e0d1d3878f44ea342d5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
