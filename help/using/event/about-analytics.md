@@ -7,18 +7,18 @@ role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Adobe Analyticsデータの活用{#analytics-data}
+# Adobe Analytics データの活用{#analytics-data}
 
-ジャーニーをトリガーし顧客向けのエクスペリエンスを自動化するために、既にキャプチャして Platform にストリーミングしている Adobe Analytics のあらゆる行動イベントデータを活用できます。
+すでにキャプチャして Platform にストリーミングしている Adobe Analytics の行動イベントデータを活用すると、ジャーニーをトリガーし、顧客向けのエクスペリエンスを自動化することができます。
 
 >[!NOTE]
 >
->この節は、ルールベースのイベントと、Adobe Analytics データを使用する必要があるお客様にのみ当てはまります。
+>この節では、ルールベースのイベントと、Adobe Analytics データを使用する必要があるお客様が対象です。
 
 そのためには、利用するレポートスイートを Adobe Experience Platform で有効化する必要があります。
 
