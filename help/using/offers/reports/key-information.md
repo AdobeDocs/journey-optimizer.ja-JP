@@ -6,13 +6,13 @@ topic: 統合
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
-# 決定管理イベントの主な情報{#events-key-information}
+# 決定管理イベントの主な情報 {#events-key-information}
 
 決定時に送信される各イベントには、分析とレポートに利用できる 4 つの主要なデータポイントが含まれています。
 
