@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 86%
 
 ## フォールバックオファーの追加 {#add-fallback}
 
-オファーの実施要件ルールと制約に一致しない顧客に最後の手段として提示するフォールバックオファーを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+オファーの実施要件ルールと制約に一致しない顧客に、最後の手段として提示するフォールバックオファーを選択し「**[!UICONTROL 次へ]**」をクリックします。
 
 ![](../../assets/add-fallback-offer.png)
 
@@ -89,7 +89,7 @@ ht-degree: 86%
 
 ![](../../assets/save-activities.png)
 
-判定は、前の手順で有効化したかどうかに応じて、「**[!UICONTROL ライブ]**」ステータスまたは「**[!UICONTROL ドラフト]**」ステータスでリストに表示されます。
+決定は、前のステップで有効にしたかどうかに応じて、**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL ドラフト]**&#x200B;のステータスでリストに表示されます。
 
 これで、顧客にオファーを提供するために使用する準備が整いました。選択してプロパティを表示し、編集または抑制できます。
 
