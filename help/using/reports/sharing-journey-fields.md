@@ -6,15 +6,15 @@ topic: コンテンツ管理
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # ジャーニーのフィールド {#sharing-journey-fields}
 
-このフィールドグループは、journeyStepEventと関係のあるジャーニースキーマで使用されます。 次のフィールドが含まれます。
+このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれます。
 
 ## journeyID
 
