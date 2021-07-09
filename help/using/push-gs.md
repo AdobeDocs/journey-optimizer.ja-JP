@@ -1,5 +1,5 @@
 ---
-title: プッシュ設定の基本を学ぶ
+title: プッシュ設定の概要
 description: プッシュ通知のデータフローとコンポーネントについて
 feature: アプリケーション設定
 topic: プッシュ
@@ -7,18 +7,18 @@ role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# プッシュ設定の基本を学ぶ {#get-started-push}
+# プッシュ設定の概要 {#get-started-push}
 
 プッシュ通知は、モバイルアプリのユーザー、特にアプリを積極的に使用していないユーザーにいつでもリーチするのに役立ちます。プッシュ通知は、サービスに関するアップデートのお知らせ、ユーザーに対するアクションの実行の依頼、新しい取引に対するユーザーへの警告など、様々なユースケースの実現に役立ちます。 デバイスプラットフォームでは、エンドユーザーが通知を受信または表示する前にオプトインが必要です。 ユーザーのオプトインは、アプリを初めてインストールした後、または必要に応じて後続のセッションまたはワークフローでアプリを起動後、なるべく早く受け取る場合があります。 [!DNL Journey Optimizer] はプッシュ通知をサポートし、関連性の高い通知を業界最高のスループット率で送信できます。Adobe Experience Cloud でのブランドのデータインサイトを活用するために、プッシュ通知には、パーソナライゼーションとジャーニーベースのコンテキストを含めることができます。
 
 このページは、[!DNL Journey Optimizer] でのプッシュ通知に関連する主要なサービスとワークフローの設定と理解に役立ちます。
 
-[!DNL Adobe Journey Optimizer]でプッシュチャネルを設定する手順について詳しくは、[このページ](push-configuration.md)を参照してください。
+[!DNL Adobe Journey Optimizer] でプッシュチャネルを設定する手順について詳しくは、[このページ](push-configuration.md)を参照してください。
 
 ## プッシュ通知と[!DNL Adobe Journey Optimizer]
 
