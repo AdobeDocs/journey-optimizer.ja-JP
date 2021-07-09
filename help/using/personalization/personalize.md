@@ -7,23 +7,23 @@ role: Data Engineer
 level: Beginner
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# パーソナライゼーションの基本を学ぶ {#add-personalization}
+# パーソナライゼーションの概要{#add-personalization}
 
-[!DNL Adobe Journey Optimizer]のパーソナライゼーション機能を利用して、特定の受信者に関するデータと情報を活用し、メッセージを個々の受信者に合わせて調整します。 この情報には、名前、興味、居住地および購入履歴などが含まれます。
+[!DNL Adobe Journey Optimizer] のパーソナライゼーション機能を学び、ユーザーに関するデータと情報を活用して、特定の受信者に合わせたメッセージを作成します。この情報には、名、興味、居住地および購入履歴などが含まれます。
 
-&lt;➡️a0/>次のビデオでメッセージをパーソナライズする方法を説明します。](#video-perso)[
+➡️ [メッセージをパーソナライズする方法については、次のビデオを参照してください](#video-perso)
 
-[!DNL Journey Optimizer] は、Handlebarsに **** 基づくinlinesimpleパーソナライゼーション構文を使用して、中括弧{}}で囲まれたコンテンツを含む式を作&#x200B;**成できます。**&#x200B;同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
+[!DNL Journey Optimizer] ではハンドルバーに基づいた、**インライン**&#x200B;のシンプルなパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **{{}}** で囲んだ式を作成することができます。同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
 
 パーソナライゼーションは、**XDM 個人版プロファイル**&#x200B;スキーマ（Adobe Experience Platform で定義）で管理されるプロファイルデータに基づいています。詳しくは、[Adobe Experience Platformデータモデル(XDM)のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
->**XDM Individual Profile**&#x200B;スキーマは、[!DNL Journey Optimizer]内のコンテンツをパーソナライズするために使用できる唯一のスキーマです。
+>**XDM 個人版プロファイル**&#x200B;スキーマは、[!DNL Journey Optimizer] でコンテンツをパーソナライズするために使用できる唯一のスキーマです。
 
 **例：**
 
@@ -31,14 +31,14 @@ ht-degree: 66%
 
 * `Hello {{profile.person.name.fullName}}`
 
-Journey Optimizerは、メッセージ（Eメールおよびプッシュ）を処理する際に、式をPlatformデータベースに含まれるExperience Cloudで置き換えます。 `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`は「Hello John Doe」になります。
+メッセージ（メールおよびプッシュ）を処理する際に、Journey Optimizer は式を、 Experience Cloud Platform データベースに含まれるデータに置き換えます。`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は “Hello John Doe” となります。
 
 
-## パーソナライゼーションコンテキスト{#personalization-areas}
+## パーソナライゼーションのコンテキスト{#personalization-areas}
 
-[!DNL Journey Optimizer]から配信されるメッセージのコンテンツと表示は、複数の方法でパーソナライズできます。
+[!DNL Journey Optimizer] が配信するメッセージの内容や表示は、様々な方法でパーソナライズできます。
 
-エディターアイコンを含むすべてのフィールドで、パーソナライゼーションエディター（式エディターとも呼ばれます）を開き、パーソナライゼーションを定義できます。
+エディターアイコンが付いているすべてのフィールドで、パーソナライゼーションエディター（式エディターとも呼ばれます）を開き、パーソナライゼーションを定義できます。
 
 ![](assets/perso_icon.png)
 
@@ -79,7 +79,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ## 式エディターの使用
 
-式エディターは、[!DNL Journey Optimizer]のパーソナライゼーションの中心となるものです。
+式エディターは、[!DNL Journey Optimizer] のパーソナライゼーションの中核です。
 
 メール、プッシュ、オファーなど、パーソナライゼーションを定義する必要があるすべてのコンテキストで利用できます。
 
@@ -93,7 +93,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 * **セグメントのメンバーシップ**：Adobe Experience Platform Segmentation Service で作成されたすべてのセグメントをリストします。セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}。
 * **オファー** ：特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../deliver-personalized-offers.md)を参照してください。
 * **コンテキスト**：ジャーニー で&#x200B;**メッセージ**&#x200B;アクティビティを使用する場合、このメニューからコンテキストジャーニーフィールドを使用できます。詳しくは、[この節](personalization-use-case.md)を参照してください。
-* **ヘルパー関数**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライズ機能のコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。
+* **ヘルパー関数**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライズ機能のコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。。
 
 選択すると、エディターに参照が追加されます。
 
