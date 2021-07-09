@@ -7,8 +7,8 @@ role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ API 呼び出しの例を 2 つ示します。
 
 新しい外部データソースを作成および設定する主な手順は次のとおりです。
 
-1. データソースのリストで、「**[!UICONTROL データソースを作成]**」をクリックして、新しい外部データソースを作成します。
+1. データソースのリストで「**[!UICONTROL データソースを作成]**」をクリックして、新しい外部データソースを作成します。
 
    ![](../assets/journey25.png)
 
@@ -56,8 +56,8 @@ API 呼び出しの例を 2 つ示します。
 
 
    * **[!UICONTROL タイプ]**：API キー
-   * **[!UICONTROL 名前]**：appid（API キーのパラメーター名）
-   * **[!UICONTROL 値]**：1234（API キーの値）
+   * **[!UICONTROL 名前]**：&quot;appid&quot;（API キーのパラメーター名）
+   * **[!UICONTROL 値]**：&quot;1234&quot;（API キーの値）
    * **[!UICONTROL 場所]**：クエリパラメーター（API キーは URL 内にあります）
 
    ![](../assets/journey28.png)
