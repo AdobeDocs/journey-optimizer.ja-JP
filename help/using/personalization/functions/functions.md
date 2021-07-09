@@ -1,21 +1,21 @@
 ---
 title: ヘルパー関数ライブラリ
 description: Journey Optimizer ヘルパー関数ライブラリ
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: パーソナライゼーション
+topic: パーソナライゼーション
 role: Data Engineer
 level: Experienced
 source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ヘルパー関数ライブラリ{#functionsL}
 
-[!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など、データに対して操作を実行します。パーソナライゼーション構文のガイドラインについては、[このページ](../personalization-syntax.md)を参照してください。
+[!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライズ機能のコンテキストでの操作など、データの操作を実行します。パーソナライゼーション構文のガイドラインについては、[このページ](../personalization-syntax.md)を参照してください。
 
 &lt;➡️a0/>ヘルパー関数の使い方を確認する](#video)（ビデオ）[
 
@@ -285,6 +285,6 @@ ht-degree: 95%
 
 ## ハウツービデオ{#video}
 
-パーソナライゼーションヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々な使用例を説明します。
+パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
