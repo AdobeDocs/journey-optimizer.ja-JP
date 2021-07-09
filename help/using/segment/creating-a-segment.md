@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 
    この例では、**属性**&#x200B;と&#x200B;**イベント**&#x200B;の各フィールドを使用してセグメントを作成する必要があります。
 
-   * **属性**:1980年以降に生まれたアトランタ、サンフランシスコ、シアトルに住むプロファイル
+   * **属性**：1980 年以降、アトランタ、サンフランシスコ、シアトルに住む人のプロファイル。
 
       ![](../assets/add-attributes.png)
 
