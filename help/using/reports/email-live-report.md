@@ -6,13 +6,13 @@ topic: コンテンツ管理
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
 ---
 
-# メールライブレポート{#email-live-report}
+# メールライブレポート {#email-live-report}
 
 メール&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、特定のメール配信のみをターゲットにします。
 
