@@ -7,8 +7,8 @@ role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,6 +84,6 @@ ht-degree: 84%
 }
 ```
 
-「データ」部分を貼り付ける場所を特定しやすくするために、[JSONフォーマッター](https://jsonformatter.curiousconcept.com?lang=ja){target=&quot;_blank&quot;}などのJSONビジュアライゼーションツールを使用できます。
+「データ」部分を貼り付ける場所を特定しやすくするために、[JSONフォーマッター](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}などのJSONビジュアライゼーションツールを使用できます。
 
 ストリーミング取得APIのトラブルシューティングについては、[Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
