@@ -16,9 +16,9 @@ topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 87%
 
 サブドメインに関する詳細情報にアクセスするには、リストからサブドメインを開きます。 次のことができます。
 
-* デリゲーションプロセス中に設定されたサブドメイン名（読み取り専用）と、生成されたURL（リソース、ミラーページ、トラッキングURL）を取得します。
+* デリゲーションプロセス中に設定されたサブドメイン名（読み取り専用）と、生成された URL（リソース、ミラーページ、トラッキング URL）を取得します。
 
 * Google サイト検証 TXT レコードをサブドメインに追加して、検証済みであることを確認します（[サブドメインに Google TXT レコードを追加する](google-txt.md)を参照）。
 
