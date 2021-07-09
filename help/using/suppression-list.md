@@ -6,7 +6,7 @@ topic: コンテンツ管理
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 これらのアドレスへの送信を継続すると、メールアドレスリストのメンテナンスのベストプラクティスに従っていない可能性があるため、信頼できる送信者ではない可能性があると ISP に認識され、配信率に影響が及ぶ可能性があります。
 
-### スパム通報 {#spam-complaints}
+### スパムの苦情数 {#spam-complaints}
 
 抑制リストは、こちらから送信したメッセージをスパムとしてマークするメールアドレスを収集します。例えば、メールを二度と受け取りたくないという要望がカスタマーサービスに寄せられた場合、そのユーザーのメールアドレスはインスタンス全体で抑制され、そのアドレスに配信できなくなります。
 
