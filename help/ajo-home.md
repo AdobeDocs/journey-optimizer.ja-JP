@@ -8,8 +8,8 @@ role: User
 level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 43%
       <a href="using/create-message.md">メッセージ</a>
     </li>
     <p>
-    <p>決定管理</p>
+    <p>判定管理</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">オファー</a>
     </li>
