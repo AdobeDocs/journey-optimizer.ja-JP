@@ -1,26 +1,26 @@
 ---
-title: Adobe Campaign v7/v8アクション
-description: Adobe Campaign v7/v8のアクションについて説明します
+title: Adobe Campaign v7／v8 のアクション
+description: Adobe Campaign v7／v8 のアクションについて説明します
 feature: アクション
 topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign v7/v8アクション {#using_campaign_classic}
+# Adobe Campaign v7／v8 のアクション {#using_campaign_classic}
 
-統合は、Adobe Campaign v7またはv8がある場合に使用できます。 Adobe Campaignのトランザクションメッセージ機能を使用して、Eメール、プッシュ通知、SMSを送信できます。
+統合は、Adobe Campaign v7 または v8 がある場合に使用できます。 これにより、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 
-Journey OptimizerインスタンスとCampaignインスタンス間の接続は、プロビジョニング時にAdobeによって設定されます。 連絡先Adobe。
+Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。アドビにご連絡ください。
 
 これを機能させるには、専用のアクションを設定する必要があります。 [この節](../action/acc-action.md)を参照してください。
 
-エンドツーエンドの使用例については、この[節](../building-journeys/campaign-classic-use-case.md)で説明します。
+エンドツーエンドのユースケースについては、この[節](../building-journeys/campaign-classic-use-case.md)を参照してください。
 
 1. イベントから始めて、ジャーニーを設計します。 この[節](../building-journeys/journey.md)を参照してください。
 1. パレットの「**アクション**」セクションで、Campaign アクションを選択してジャーニーに追加します。
