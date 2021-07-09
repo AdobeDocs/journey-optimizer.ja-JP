@@ -2,14 +2,14 @@
 title: ユーザーと製品プロファイルの管理
 description: 権限の管理方法を学ぶ
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: コントロール母集団
+feature: コントロールグループ
 topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
-> 次に説明する各手順は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html?lang=ja)を参照してください。
+> 次に説明する各手順は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html)を参照してください。
 
 **[!UICONTROL 製品プロファイル]**&#x200B;は、組織内で同じ権限とサンドボックスを共有するユーザーの集まりです。
 
@@ -75,7 +75,7 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL 権限]**」タブを選択します。
 
-   「**[!UICONTROL 権限]**」タブには、**[!UICONTROL Experience Cloud- Platformが稼働するアプリケーション]**&#x200B;製品に適用される機能のリストが表示されます。
+   「**[!UICONTROL 権限]**」タブには、**[!UICONTROL Experience Cloud - Platform を利用したアプリケーション]**&#x200B;製品に適用される機能のリストが表示されます。
 
    ![](../assets/access_control_5.png)
 
