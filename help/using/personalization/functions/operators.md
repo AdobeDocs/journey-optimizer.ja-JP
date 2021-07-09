@@ -1,14 +1,14 @@
 ---
 title: 演算子関数ライブラリ
 description: 演算子関数ライブラリ
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: パーソナライゼーション
+topic: パーソナライゼーション
 role: Data Engineer
 level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
