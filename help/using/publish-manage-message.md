@@ -8,12 +8,12 @@ role: User
 level: Intermediate
 source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# メッセージを公開 {#publish-manage-messages}
+# メッセージの公開 {#publish-manage-messages}
 
 ## メッセージを公開する {#publish-message}
 
