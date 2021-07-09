@@ -7,12 +7,12 @@ role: User
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# パーソナライズされたオファーデータセット {#offers-dataset}
+# パーソナライズされたオファーのデータセット {#offers-dataset}
 
 オファーを変更するたびに、パーソナライズされたコンテンツオファーの自動生成データセットが更新されます。
 
@@ -123,7 +123,7 @@ ht-degree: 95%
       **フィールド：** id
       **説明：**コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
       **タイプ：**文字列
-      **例：**  &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **名前**
 
