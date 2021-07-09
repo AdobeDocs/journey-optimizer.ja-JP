@@ -7,8 +7,8 @@ role: Administrator
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 92%
 
 * **システム生成**&#x200B;イベント：このイベントでは eventID が必要です。eventID フィールドは、イベントの作成時に自動的に生成されます。イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。
 
-Journey Optimizerでは、イベントをストリーミングまたはAdobe Experience Platformにバッチ処理する必要があります。 このデータは、必ずしもリアルタイムプロファイルに送信する必要はありません。 イベントを別のジャーニーでセグメント化や参照に使用する場合は、プロファイルのデータセットを有効にすることをお勧めします。
+Journey Optimizer では、イベントを Adobe Experience Platform にストリーミングまたはバッチ処理する必要があります。このデータは、必ずしもリアルタイムプロファイルに移動する必要はありません。イベントを別のジャーニーでセグメント化や参照に使用する場合は、プロファイルのデータセットを有効にすることをお勧めします。
 
 ## データサイクル {#section_r1f_xqt_pgb}
 
