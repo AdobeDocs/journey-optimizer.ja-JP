@@ -7,8 +7,8 @@ role: User
 level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
 
 ## 用語集 {#glossary}
 
-次に、判定管理を使用する際に使用する主な概念のリストを示します。
+決定管理を使用する際の主な概念のリストを以下に示します。
 
 * **キャッピング**&#x200B;または&#x200B;**フリークエンシーキャップ**：キャッピングは、オファーの表示回数を定義する制約として使用されます。キャップには 2 種類あり、組み合わせターゲットオーディエンスでオファーを提案できる回数（別名「合計キャップ」）と、同じエンドユーザーにオファーを提案できる回数（別名「プロファイルキャップ」）があります。
 
@@ -98,9 +98,9 @@ ht-degree: 96%
 >
 >これらのビデオは、Adobe Experience Platform で作成された Offer Decisioning アプリケーションサービスを対象としており、[!DNL Adobe Journey Optimizer] に限定したものではありません。ただし、[!DNL Journey Optimizer] に関連して、 決定管理を使用する際の一般的なガイダンスを提供します。
 
-### 決定管理とは? {#what-is-offer-decisioning}
+### 決定管理とは {#what-is-offer-decisioning}
 
-以下のビデオでは、 決定管理の主な機能、アーキテクチャおよびユースケースを紹介しています。
+以下のビデオでは、 決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
