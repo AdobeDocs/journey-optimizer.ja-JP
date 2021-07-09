@@ -1,14 +1,14 @@
 ---
 title: ヘルパー
 description: ヘルパー
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: パーソナライゼーション
+topic: パーソナライゼーション
 role: Data Engineer
 level: Experienced
 source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
