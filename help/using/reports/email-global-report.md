@@ -7,12 +7,12 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# E メールグローバルレポート {#email-global-report}
+# メールグローバルレポート {#email-global-report}
 
 メールの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、特定のメール配信のみを対象としています。
 
@@ -40,7 +40,7 @@ ht-degree: 85%
 
 * **[!UICONTROL スパム苦情率]**：配信されたメッセージに対して、受信者がスパムと見なしたメールの割合。苦情に関する詳細は、『配信品質のベストプラクティスガイド[{target=&quot;_blank&quot;}』を参照してください。](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability)
 
-* **[!UICONTROL 購読解除率]**:配信されたメッセージ数に対する、一意の購読解除の割合。この指標は、購読解除リンクのクリック数に依存しませんが、受信者によって開始された購読解除数に基づきます。 購読解除について詳しくは、この[ページ](../consent.md)を参照してください。
+* **[!UICONTROL 購読解除率]**：配信されたメッセージ数に対する、一意の購読解除の割合。この指標は、購読解除リンクのクリック数に依存しませんが、受信者が開始した購読解除数に基づいています。購読解除について詳しくは、この[ページ](../consent.md)を参照してください。
 
 **[!UICONTROL メール - トラッキング統計情報]**&#x200B;には、配信に対する受信者のアクティビティを確認できるデータが表示されます。
 
@@ -76,13 +76,13 @@ ht-degree: 85%
 
 バウンスの詳細については、[抑制リスト](../suppression-list.md)のページを参照してください。
 
-「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
+「**[!UICONTROL エラー理由]**」のグラフと表を使用すると、配信中に発生したエラーを確認できます。
 
 ![](../assets/global_report_6.png)
 
-**[!UICONTROL Eメール — 上位の受信者ドメイン]**&#x200B;グラフおよびテーブル詳細は、Eメールを開く際に受信者が最も使用するドメインを示します。
+「**[!UICONTROL メール - 上位の受信者ドメイン]**」のグラフと表は、受信者がメールを開くために最も頻繁に使用されているドメインの詳細を示します。
 
-「**[!UICONTROL メール - 上位の URL]**」のグラフと表は、配信されたメールの中で最もアクセス頻度の高い URL の詳細を示しています。
+「**[!UICONTROL メール - 上位の URL]**」のグラフと表は、配信から最もアクセスされた URL の詳細を示します。
 
 「**[!UICONTROL 開封とクリック]**」は、受信者による配信の操作を識別します。
 
