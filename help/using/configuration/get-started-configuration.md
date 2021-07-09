@@ -11,7 +11,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: アプリケーション設定
 topic: 管理
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
 ht-degree: 100%
 
