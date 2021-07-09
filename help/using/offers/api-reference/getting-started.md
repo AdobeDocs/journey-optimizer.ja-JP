@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 ## API 呼び出し例の読み取り
 
-ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用されるAPI呼び出し例の表記について詳しくは、[!DNL Experience Platform]トラブルシューティングガイドの[API呼び出し例](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request?lang=ja){target=&quot;_blank&quot;}の読み方に関する節を参照してください。
+ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用されるAPI呼び出し例の表記について詳しくは、[!DNL Experience Platform]トラブルシューティングガイドの[API呼び出し例](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target=&quot;_blank&quot;}の読み方に関する節を参照してください。
 
 ## 必須ヘッダーの値の収集
 
