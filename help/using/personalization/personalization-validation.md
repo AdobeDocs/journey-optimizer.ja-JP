@@ -1,14 +1,14 @@
 ---
 title: パーソナライゼーションの検証
 description: パーソナライゼーションの検証とトラブルシューティング方法についての詳細情報
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: パーソナライゼーション
+topic: パーソナライゼーション
 role: Data Engineer
 level: Intermediate
 source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 86%
 **式エディター**&#x200B;画面で、「**検証**」ボタンを使用して、パーソナライゼーション構文を確認します。
 
 >[!NOTE]
-> 検証は、「****&#x200B;を追加」ボタンをクリックしてエディターウィンドウを閉じると、自動的に実行されます。
+> 「**追加**」をクリックしてエディターウィンドウを閉じると、検証は自動的に実行されます。
 
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> パーソナライゼーション構文が無効な場合は、式エディターウィンドウを閉じることはできません。
+> パーソナライゼーション構文が無効な場合、式エディターウィンドウを閉じることはできません。
 
 
 ## 一般的なエラー
