@@ -7,9 +7,9 @@ topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 84%
 
 [!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。[この節](../get-started-content.md)を参照してください。
 
-Adobe Campaign v7またはv8をお持ちの場合は、リクエストに応じて統合を利用できます。 [このページ](../action/acc-action.md)を参照してください。
+Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応じて統合を利用できます。 [このページ](../action/acc-action.md)を参照してください。
 
 サードパーティシステムを使用して Epsilon、Facebook、Adobe.io、Firebase などのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
@@ -36,6 +36,6 @@ Adobe Campaign v7またはv8をお持ちの場合は、リクエストに応じ�
 
 アクションは、ジャーニーの左側のパレットの「**[!UICONTROL アクション]**」カテゴリで使用できます。[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 
-アクションリストを表示したり、新しいアクションを設定したりするには、「管理」メニューセクションで「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 アクションのリストが表示されます。インターフェイスの詳細については、[このページ](../user-interface.md)を参照してください。
+アクションリストを表示したり、新しいアクションを設定したりするには、「管理」メニューセクションで「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細については、[このページ](../user-interface.md)を参照してください。
 
 ![](../assets/custom1.png)
