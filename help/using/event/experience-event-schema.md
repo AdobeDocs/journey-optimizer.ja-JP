@@ -6,9 +6,9 @@ topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
    ![](../assets/schema2.png)
 
-* システム生成イベントの場合、スキーマにオーケストレーションeventIDフィールドグループを含める必要があります。 [!DNL Journey Optimizer] はこのフィールドを使用して、ジャーニーで使用されるイベントを識別します。
+* システム生成イベントの場合、オーケストレーション eventID フィールドグループがスキーマに含まれている必要があります。[!DNL Journey Optimizer] はこのフィールドを使用して、ジャーニーで使用されるイベントを識別します。
 
    ![](../assets/schema3.png)
 
