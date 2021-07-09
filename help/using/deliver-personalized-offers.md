@@ -7,20 +7,20 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # パーソナライズされたオファーの追加 {#deliver-personalized-offers}
 
-[!DNL Journey Optimizer] Eメールメッセージでは、オファー判定エンジンを活用して顧客に提供する最適なオファーを選択する決定（旧称「オファーアクティビティ」）を挿入できます。
+[!DNL Journey Optimizer] のメールメッセージでは、オファー決定エンジンを利用して、顧客に提供する最適なオファーを選択するための決定（旧称：オファーアクティビティ）を挿入できます。
 
 例えば、受信者のロイヤルティレベルに応じて変わる特別割引オファーを、メールに表示する決定を追加できます。
 
 ランキング式の作成方法について詳しくは、[この節](offers/get-started/starting-offer-decisioning.md)を参照してください。
 
-オファーの設定方法を示す&#x200B;**の完全なエンドツーエンドの例**&#x200B;については、この決定をEメールで活用し、オファーを使用する方法を示しています。[この節](offers/offers-e2e.md#insert-decision-in-email)を参照してください。
+オファーの設定方法を示す&#x200B;**完全なエンドツーエンドの例**&#x200B;については、オファーを決定で使用し、この決定をメールで活用して、[この節](offers/offers-e2e.md#insert-decision-in-email)を参照してください。
 
 &lt;a0➡️/>パーソナライゼーションとしてオファーを追加する方法](#video-offers) （ビデオ）[
 
@@ -28,7 +28,7 @@ ht-degree: 34%
 
 >[!CAUTION]
 >
->開始する前に、[オファーの決定](offers/offer-activities/create-offer-activities.md)を定義する必要があります。
+>開始する前に、[オファーの決定を定義](offers/offer-activities/create-offer-activities.md)する必要があります。
 
 メールメッセージに決定を挿入するには、次の手順に従います。
 
@@ -38,34 +38,34 @@ ht-degree: 34%
 
    ![](assets/deliver-offer-component.png)
 
-   [この節](content-components.md)では、コンテンツコンポーネントの使用方法を説明します。
+   コンテンツコンポーネントの使用方法については、[この節](content-components.md)を参照してください。
 
-1. 右側のパレットに「**[!UICONTROL オファーの決定]**」タブが表示されます。 「**[!UICONTROL オファーの決定]**&#x200B;を選択」をクリックします。
+1. 右側のパレットに「**[!UICONTROL オファーの決定]**」タブが表示されます。 「**[!UICONTROL オファーの決定を選択]**」をクリックします。
 
    ![](assets/deliver-offer-tab.png)
 
-1. 表示されるウィンドウで、表示するオファーに対応する配置を選択します。
+1. 表示されるウィンドウで、表示するオファーに対応するプレースメントを選択します。
 
-   [プレースメントは、オファーの表示に使用するコンテナです。](offers/offer-library/creating-placements.md)この例では、「メールトップ画像」のプレースメントを使用しますこのプレースメントは、オファーの上部に配置された画像タイプオファーを表示するために、オファーライブラリで作成されました。
+   [プレースメント](offers/offer-library/creating-placements.md)は、オファーの表示に使用するコンテナです。この例では、「メールトップ画像」のプレースメントを使用しますこのプレースメントは、オファーの上部に配置された画像タイプオファーを表示するために、オファーライブラリで作成されました。
 
 1. コンテンツコンポーネントで使用するオファーアクティビティを選択し、「**[!UICONTROL 追加]**」をクリックします。
 
    >[!NOTE]
    >
-   >選択した配置と互換性のある決定のみがリストに表示されます。 この例では、「メールトップ画像」のプレースメントに一致するオファーアクティビティは 1 つだけです。
+   >選択したプレースメントと互換性のある決定のみがリストに表示されます。この例では、「メールのトップ画像」プレースメントに一致するオファーアクティビティは 1 つだけです。
 
    ![](assets/deliver-offer-placement.png)
 
 これで、オファーアクティビティがコンポーネントに追加されました。
 
 
-## Eメール内のオファーのプレビュー {#preview-offers-in-email}
+## メール内のオファーのプレビュー {#preview-offers-in-email}
 
-**[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印を使用して、Eメールに追加された判定の一部となる様々なオファーをプレビューできます。
+**[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印を使用して、決定に含まれる様々なオファーをプレビューできます。
 
 ![](assets/deliver-offer-preview.png)
 
-判定の一部となる様々なオファーを顧客プロファイルで表示するには、次の手順に従います。
+決定に含まれる様々なオファーを顧客プロファイルで表示するには、次の手順に従います。
 
 1. 「**[!UICONTROL プレビュー]**」をクリックします。
 
@@ -73,17 +73,17 @@ ht-degree: 34%
 
    >[!NOTE]
    >
-   >メッセージをプレビューするには、テストプロファイルを使用できるようにする必要があります。 [テストプロファイル](building-journeys/creating-test-profiles.md)を作成する方法を説明します。
+   >メッセージのプレビューをおこなうには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](building-journeys/creating-test-profiles.md)する方法を学びます。
 
-1. テストプロファイルの識別に使用する名前空間を選択するには、「**[!UICONTROL ID名前空間]**」フィールドから「**[!UICONTROL Eメール]**」を選択します。
+1. テストプロファイルの識別に使用する名前空間を選択するには、「**[!UICONTROL ID 名前空間]**」フィールドから「**[!UICONTROL メール]**」を選択します。
 
    >[!NOTE]
    >
-   >この例では、**Email**&#x200B;名前空間を使用します。 Adobe Experience Platform の ID 名前空間については、[この節](get-started-identity.md)を参照してください。
+   >以下の例では、**メール**&#x200B;名前空間を使用します。Adobe Experience Platform の ID 名前空間については、[この節](get-started-identity.md)を参照してください。
 
-1. ID名前空間のリストで、「**[!UICONTROL Email]**」を選択し、「**[!UICONTROL Select]**」をクリックします。
+1. ID 名前空間のリストで、**[!UICONTROL メール]**&#x200B;を選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL ID値]**」フィールドに、テストプロファイルを識別する値を入力します。 この例では、テストプロファイルのEメールアドレスを入力します。
+1. **[!UICONTROL ID 値]**&#x200B;フィールドに、テストプロファイルを識別する値を入力します。 この例では、テストプロファイルのメールアドレスを入力します。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -97,14 +97,14 @@ ht-degree: 34%
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. 他のテストプロファイルを選択して、メッセージの各バリアントのEメールコンテンツをプレビューします。 メッセージコンテンツに、選択したテストプロファイル（現在は男性）に対応するオファーが表示されます。
+1. メッセージの各バリエーションに対してメールの内容をプレビューするには、他のテストプロファイルを選択します。メッセージコンテンツに、選択したテストプロファイル（現在は男性）に対応するオファーが表示されます。
 
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
-[この節](#preview-your-messages)でメッセージのプレビューを確認する詳細な手順について詳しく説明します。
+メッセージのプレビューを確認する詳細な手順については、[この節](#preview-your-messages)を参照してください。
 
 ## ハウツービデオ{#video-offers}
 
-[!DNL Journey Optimizer]内のメッセージにoffer decisioningコンポーネントを追加する方法を説明します。
+[!DNL Journey Optimizer] でメッセージに Offer Decisioning コンポーネントを追加する方法を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
