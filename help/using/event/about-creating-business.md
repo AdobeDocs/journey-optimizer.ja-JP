@@ -7,8 +7,8 @@ role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 92%
 
 ビジネスイベントを設定する最初の手順は次のとおりです。
 
-1. 「管理」メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL イベント]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 イベントのリストが表示されます。
+1. 管理メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL イベント]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 イベントのリストが表示されます。
 
    ![](../assets/jo-event1.png)
 
-1. 「**[!UICONTROL イベントを作成]**」をクリックして、新しいイベントを作成します。 画面の右側にイベント設定ペインが開きます。
+1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ウィンドウが開きます。
 
    ![](../assets/jo-event2.png)
 
@@ -80,7 +80,7 @@ ht-degree: 92%
 
 ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDMについて詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-1. リストからXDMスキーマを選択し、「**[!UICONTROL フィールド]**」フィールドまたは「****&#x200B;を編集」アイコンをクリックします。
+1. リストから XDM スキーマを選択し、**[!UICONTROL フィールド]**&#x200B;フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
    ![](../assets/journey8-business.png)
 
