@@ -1,6 +1,6 @@
 ---
 title: 一般的なメッセージ設定
-description: 電子メールアドレスの設定方法を説明します
+description: メールアドレスの設定方法を学ぶ
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -16,14 +16,14 @@ topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# プライマリEメールアドレスの変更
+# プライマリメールアドレスの変更
 
 プロファイルをターゲットにする場合、使用できるメールアドレスがデータベース内に複数ある（個人用、仕事用のメールアドレスなど）場合があります。
 
