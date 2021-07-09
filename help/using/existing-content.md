@@ -6,7 +6,7 @@ topic: コンテンツ管理
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ HTML コンテンツのコーディングを作成したり、既存のコンテ
 
 1. 「**[!UICONTROL 独自のコードを作成]**」または「**[!UICONTROL HTML をインポート]**」を選択します。次の手順については、以下に記載した節を参照してください。
 
-## 独自のコードを作成 {#import-raw-html-code}
+## 独自のコーディング {#import-raw-html-code}
 
 **[!UICONTROL 独自のコードを作成]**&#x200B;モードでは、Raw HTML を読み込んだり、メールコンテンツをコーディングしたりできます。このメソッドには HTML に関するスキルが必要です。
 
@@ -56,7 +56,7 @@ HTML コンテンツのコーディングを作成したり、既存のコンテ
 
    ![](assets/code-editor-save.png)
 
-## HTML の読み込み{#import-html-content-from-file}
+## HTML の読み込み {#import-html-content-from-file}
 
 E メールデザイナーでは HTML コンテンツを読み込むことができます。このコンテンツには次のようなものがあります。
 
