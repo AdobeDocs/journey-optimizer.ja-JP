@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 ## トラッキングの有効化 {#enable-tracking}
 
-**[!UICONTROL Open Tracking for email]**&#x200B;や&#x200B;**[!UICONTROL Click Tracking for email]**（[メッセージ](create-message.md)を作成する際）オプションをオンにすることで、メッセージレベルで追跡を有効にできます。
+メッセージレベルでのトラッキングを有効にするには、[メッセージ作成](create-message.md)時に「**[!UICONTROL E メールの開封トラッキング]**」または「**[!UICONTROL E メールのクリックトラッキング]**」オプション、あるいはその両方をオンにします。
 
 ![](assets/message-tracking.png)
 
@@ -27,18 +27,18 @@ ht-degree: 8%
 >デフォルトでは、両方のオプションが有効になっています。
 
 これにより、次の方法で受信者の行動を追跡できます。
-* **[!UICONTROL Eメールの追跡を開く]**:開封されたメッセージ。
-* **[!UICONTROL Eメールのクリック追跡]**:Eメール内のリンクのクリック数。
+* **[!UICONTROL E メールの開封トラッキング]**：開封されたメッセージ。
+* **[!UICONTROL E メールのクリックトラッキング]**：メール内のリンクのクリック数。
 
 ## リンクの挿入 {#insert-links}
 
-メッセージをデザインする際に、コンテンツにリンクを追加できます。
+メッセージをデザインする際に、リンクをコンテンツに追加できます。
 
 >[!NOTE]
 >
->[トラッキングが有効](#enable-tracking)の場合、メッセージコンテンツに含まれるすべてのリンクがトラッキングされます。
+>[トラッキングが有効](#enable-tracking)になっている場合、メッセージコンテンツに含まれるすべてのリンクがトラッキングされます。
 
-Eメールコンテンツにリンクを挿入するには、次の手順に従います。
+メールコンテンツにリンクを挿入するには、次の手順に従います。
 
 1. 要素を選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックします。
 
@@ -46,22 +46,22 @@ Eメールコンテンツにリンクを挿入するには、次の手順に従�
 
 1. 作成するリンクのタイプを選択します。
 
-   * **[!UICONTROL 外部リンク]**:外部URLへのリンクを挿入します。
+   * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
 
-   * **[!UICONTROL 購読解除リンク]**:ブランドからのコミュニケーションの受信を登録解除するリンクを挿入します。オプトアウト管理について詳しくは、[この節](consent.md#opt-out-management)を参照してください。
+   * **[!UICONTROL 購読解除リンク]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入する。オプトアウト管理の詳細については、[この節](consent.md#opt-out-management)を参照してください。
 
-   * **[!UICONTROL ミラーページ]**:WebブラウザーにEメールコンテンツを表示するためのリンクを挿入します。詳しくは、[この節](#mirror-page)を参照してください。
+   * **[!UICONTROL ミラーページ]**：Web ブラウザーにメールコンテンツを表示するためのリンクを挿入する。詳しくは、[この節](#mirror-page)を参照してください。
 
    ![](assets/message-tracking-links.png)
 
-1. 単純な式のみを使用して、リンクをパーソナライズできます。 パーソナライゼーションについて詳しくは、[この節](personalization/personalization-syntax.md)を参照してください。
+1. 簡単な式のみを使用して、リンクをパーソナライズできます。パーソナライゼーションの詳細については、[この節](personalization/personalization-syntax.md)を参照してください。
 
 1. 変更を保存します。
 
-1. リンクを作成した後も、右側の&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインから変更できます。
+1. リンクを作成した後も、右側の「**[!UICONTROL コンポーネント設定]**」ウィンドウから変更できます。
 
-   * 鉛筆アイコンをクリックして、リンクを編集します。
-   * リンクに下線を引くかどうかは、対応するオプションをオンにして選択できます。
+   * 鉛筆アイコンをクリックしてリンクを編集します。
+   * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。
 
    ![](assets/message-tracking-link-settings.png)
 
@@ -83,17 +83,17 @@ Eメールが送信されると、受信者がミラーページのリンクを�
 
 >[!NOTE]
 >
->テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクがアクティブになっていません。 有効にするのは、最終的なメッセージ内のみです。
+>テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクがアクティブになっていません。 最終的なメッセージでのみアクティブ化されます。
 
 ミラーページの保持期間は60日です。 その後、ミラーページは使用できなくなります。
 
 ## トラッキングの管理 {#manage-tracking}
 
-[Eメールデザイナー](create-email-content.md)を使用すると、追跡するURLを管理できます（各リンクのトラッキングタイプの編集など）。
+[E メールデザイナー](create-email-content.md)を使用すると、追跡する URL を管理できます（各リンクのトラッキングタイプの編集など）。
 
-1. 左側のウィンドウの&#x200B;**[!UICONTROL リンク]**&#x200B;アイコンをクリックして、追跡するコンテンツのすべてのURLのリストを表示します。
+1. 左側のウィンドウの「**[!UICONTROL リンク]**」アイコンをクリックし、追跡するコンテンツのすべての URL のリストを表示します。
 
-   このリストを使用すると、一元表示を作成し、Eメールコンテンツ内の各URLを特定できます。
+   このリストを使用すると、一元的なビューを表示したり、メールコンテンツ内の各 URL を見つけたりできます。
 
 1. リンクを編集するには、対応する鉛筆アイコンをクリックします。
 
@@ -104,15 +104,15 @@ Eメールが送信されると、受信者がミラーページのリンクを�
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   トラッキングするURLごとに、トラッキングモードを次のいずれかの値に設定できます。
+   追跡する URL ごとに、トラッキングモードを次のいずれかの値に設定できます。
 
-   * **[!UICONTROL 追跡]**:このURLのトラッキングを有効化します。
-   * **[!UICONTROL オプトアウト]**:このURLをオプトアウトまたは購読解除URLと見なします。
-   * **[!UICONTROL ミラーページ]**:このURLをミラーページのURLとみなします。
-   * **[!UICONTROL なし]**:このURLのトラッキングを有効化しません。  <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL トラッキング対象]**：この URL のトラッキングを有効化します。
+   * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
+   * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
+   * **[!UICONTROL なし]**：この URL のトラッキングを有効化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 開封されたメッセージの数とクリックされたリンクの数が、[「実行」タブ](message-monitoring.md)に表示されます。
 
-開封数とクリック数のレポートは、[Eメールのライブレポート](reports/email-live-report.md)と[Eメールのグローバルレポート](reports/email-global-report.md)で利用できます。
+開封数とクリック数に関するレポートは、[E メールのライブレポート](reports/email-live-report.md)と[E メールのグローバルレポート](reports/email-global-report.md)で利用できます。
 
 
