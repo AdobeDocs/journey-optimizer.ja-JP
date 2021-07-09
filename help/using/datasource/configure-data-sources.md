@@ -6,9 +6,9 @@ topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
