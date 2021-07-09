@@ -1,6 +1,6 @@
 ---
-title: PTRレコード
-description: 「ptr-recordsの管理方法の詳細」
+title: PTR レコード
+description: '"ptr レコードの管理方法について説明します"'
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -16,35 +16,35 @@ topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# PTRレコード
+# PTR レコード
 
-## PTRレコードについて
+## PTR レコードについて
 
-ポインタレコード(PTR)は、IPアドレスにリンクされたドメイン名を提供するDNS(Domain Name System)レコードの一種です。
+ポインタレコード（PTR）は、IP アドレスと関連付けたドメイン名を提供する DNS（Domain Name System）レコードの一種です。
 
-PTRレコードを使用すると、受信側のメールサーバーは、IPアドレスがサーバーの接続名に対応しているかどうかを識別して、送信側のメールサーバーの信頼性を確認できます。
+PTR レコードを使用すると、受信メールサーバーは、送信メールサーバーの IP アドレスが接続先の名前に対応しているかどうかを識別することにより、送信メールサーバーの信頼性を確認できます。
 
-## サブドメインのPTRレコードへのアクセス
+## サブドメインの PTR レコードへのアクセス
 
-Customer Journey Managementでサブドメインがデリゲートされると、PTRレコードが自動的に作成され、このサブドメインに関連付けられます。 **[!UICONTROL チャネル]** `>` **[!UICONTROL PTRレコード]**&#x200B;メニューからアクセスできます。
+Customer Journey Management でサブドメインをデリゲートすると、PTR レコードが自動的に作成され、サブドメインに関連付けられます。 **[!UICONTROL チャネル]** `>` **[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
 
 ![](../assets/ptr-records.png)
 
-このリストには、次の構文を使用して、各デリゲートされたサブドメインに対して生成されたPTRレコードが表示されます。
+このリストには、以下の構文を使用して、デリゲートされたサブドメインごとに生成された PTR レコードが表示されます。
 
-* 「r」（レコード）
-* IPアドレスの2つの最後の数字の場合は「xx」
+* レコードの場合は「r」。
+* IP アドレスの最後の 2 桁には「xx」。
 * サブドメイン名。
 
-リストからPTRレコードを開くと、関連するサブドメイン名とIPアドレスを表示できます。
+リストから PTR レコードを開くと、関連するサブドメイン名と IP アドレスを表示できます。
 
 >[!NOTE]
 >
->PTRレコードは読み取り専用で、IPアドレスに関連付けられたサブドメインを変更することはできません。
+>PTR レコードは読み取り専用であり、IP アドレスに関連付けられたサブドメインを変更することはできません。
