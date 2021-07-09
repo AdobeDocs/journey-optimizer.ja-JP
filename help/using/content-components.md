@@ -7,12 +7,12 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# E メールデザイナーのコンテンツ容コンポーネントを使用する {#content-components}
+# E メールデザイナーのコンテンツ用コンポーネントを使用する {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -115,7 +115,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。
 
-   [!DNL Assets Essentials]について詳しくは、[Adobe Experience Manager Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}を参照してください。
+   [!DNL Assets Essentials]について詳しくは、[Adobe Experience Manager Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. 新しく追加したコンポーネントをクリックして&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;の設定を開始し、E メールデザイナーの右側ウィンドウにある「**[!UICONTROL コンポーネント設定]**」にアクセスできるようにします。
 
