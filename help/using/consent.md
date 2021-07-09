@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -129,19 +129,19 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## ヘッダーのリンクの購読解除 {#unsubscribe-email}
+## ヘッダーの購読解除リンク {#unsubscribe-email}
 
-受信者のEメールクライアントがEメールヘッダーに購読解除リンクを表示できる場合、[!DNL Journey Optimizer]と共に送信されるEメールには自動的にこのリンクが含まれます。
+受信者の E メールクライアントがメールヘッダーに購読解除リンクを表示することをサポートしている場合、[!DNL Journey Optimizer] と共に送信されるメールには自動的にこのリンクが含まれます。
 
-例えば、購読解除リンクはGmailでは次のように表示されます。
+例えば、購読解除リンクは Gmail では次のように表示されます。
 
 ![](assets/unsubscribe-email.png)
 
-Eメールクライアントに応じて、ヘッダーから登録解除リンクをクリックすると、次のいずれかの影響を受けます。
+E メールクライアントに応じて、ヘッダーから購読解除リンクをクリックすると、次のいずれかの影響を受けます。
 
-* 対応するプロファイルが直ちにオプトアウトされ、この選択内容がExperience Platformで更新されます。 詳しくは、[Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}を参照してください。
+* 対応するプロファイルはすぐにオプトアウトされ、この選択は Experience Platform で更新されます。詳しくは、[Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}を参照してください。
 
-* これは、Eメールコンテンツから購読解除リンクをクリックするのと同じ効果があります。受信者は、オプトアウトを確認するボタンを含むランディングページにリダイレクトされます。 オプトアウト管理について詳しくは、[この節](#opt-out-management)を参照してください。
+* これは、メールコンテンツから購読解除リンクをクリックするのと同じ効果があります。受信者は、オプトアウトを確認するボタンを含むランディングページにリダイレクトされます。オプトアウト管理の詳細については、[この節](#opt-out-management)を参照してください。
 
 ## プッシュのオプトアウト管理 {#push-opt-out-management}
 
