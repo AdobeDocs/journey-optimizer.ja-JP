@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: コントロール母集団
+feature: コントロールグループ
 topic: 管理
 role: Administrator
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
 ht-degree: 100%
 
@@ -301,7 +301,7 @@ ht-degree: 100%
 
 ## 管理機能 {#administration-permissions}
 
-### サブドメインのデリゲーション管理権限 {#manage-subdomain}
+### サブドメインのデリゲーション権限の管理 {#manage-subdomain}
 
 **[!UICONTROL サブドメインのデリゲーション管理]**&#x200B;の高レベル権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除ができます。
 
@@ -311,7 +311,7 @@ ht-degree: 100%
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### PTR レコードのアクセス表示権限 {#view-ptr}
+### PTR レコードの表示権限 {#view-ptr}
 
 **[!UICONTROL PTR レコードの表示]**&#x200B;の高レベル権限を持つユーザーは、サブドメインに基づいて構成された、次の低レベル権限を含む PTR レコードを表示できます。
 
