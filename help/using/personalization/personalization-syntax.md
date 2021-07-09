@@ -1,14 +1,14 @@
 ---
 title: パーソナライゼーション構文
 description: パーソナライゼーション構文の使用方法を説明します。
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: パーソナライゼーション
+topic: パーソナライゼーション
 role: Data Engineer
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -90,9 +90,9 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 * `offers` はオファー名前空間に属するパス式を識別します。
 * `Type` はオファー表示域のタイプを決定します。`image`、`html` および `text` などの値が使用されます。
 * `Placement Id` と `Activity Id` は配置とアクティビティの識別子です。
-* `Attributes` は、オファータイプに依存するオファー固有の属性です。例：画像の場合は`deliveryUrl`
+* `Attributes` は、オファータイプに依存するオファー固有の属性です。例：`deliveryUrl`（画像の場合）
 
-意思決定 API とオファー表示域について詳しくは、[このページ](../../using/offers/api-reference/decisions-api/deliver-offers.md)を参照してください。
+決定 API とオファー表示域について詳しくは、[このページ](../../using/offers/api-reference/decisions-api/deliver-offers.md)を参照してください。
 
 すべての参照は、[このページ](personalization-validation.md)で説明されている検証メカニズムを使用して、オファースキーマに対して検証されます。
 
