@@ -7,8 +7,8 @@ role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 82%
 
    ![](../assets/jo-event1.png)
 
-1. 「**[!UICONTROL イベントを作成]**」をクリックして、新しいイベントを作成します。 画面の右側にイベント設定ペインが開きます。
+1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ウィンドウが開きます。
 
    ![](../assets/jo-event2.png)
 
@@ -34,11 +34,11 @@ ht-degree: 82%
    >
    >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
 
-1. 「**[!UICONTROL 型]**」フィールドで、「**単一**」を選択します。
+1. 「**[!UICONTROL タイプ]**」フィールドで「**単一**」を選択します。
 
    ![](../assets/jo-event3bis.png)
 
-1. 「**[!UICONTROL イベントID type]**」フィールドで、使用するイベントIDタイプを選択します。**ルールベース**&#x200B;または&#x200B;**システムで生成された**。 イベント ID のタイプの詳細については、[この節](../event/about-events.md#event-id-type)を参照してください。
+1. 「**[!UICONTROL イベント ID タイプ]**」フィールドで、使用するイベント ID タイプとして「**ルールベース**」または「**システム生成**」を選択します。イベント ID のタイプの詳細については、[この節](../event/about-events.md#event-id-type)を参照してください。
 
    ![](../assets/jo-event4.png)
 
@@ -50,7 +50,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL システムで生成された]**」タイプを選択した場合は、「eventID type」フィールドを持つスキーマのみを使用できます。 **[!UICONTROL ルールベース]**&#x200B;タイプを選択した場合は、すべてのエクスペリエンスイベントのスキーマを使用できます。
+   >**[!UICONTROL システム生成]**&#x200B;タイプを選択した場合は、eventID タイプのフィールドを持つスキーマのみを使用できます。**[!UICONTROL ルールベース]**&#x200B;タイプを選択した場合は、すべてのエクスペリエンスイベントのスキーマを使用できます。
 
 1. ルールベースのイベントの場合は、「**[!UICONTROL イベント ID 条件]**」フィールド内でクリックします。簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
    ![](../assets/jo-event6.png)
@@ -59,10 +59,10 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >**[!UICONTROL イベントID条件]**&#x200B;を定義する場合、高度な式エディターは使用できません。
+   >**[!UICONTROL イベント ID 条件]**&#x200B;を定義する際、高度な式エディターは使用できません。
 
 1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[この節](../event/about-creating.md#select-the-namespace)を参照してください。
-1. プロファイル識別子を定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する数式を定義します。 このキーは、名前空間を選択した場合に自動的に設定されます（ただし、編集は可能です）。ジャーニーは名前空間に対応するキーを選択します（たとえば、メール名前空間を選択すると、メールのキーが選択されます）。[この節](../event/about-creating.md#define-the-event-key)を参照してください。
+1. プロファイル識別子を定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する式を定義します。このキーは、名前空間を選択すると自動的に設定されます（編集は可能）。ジャーニーは名前空間に対応するキーを選択します（たとえば、メール名前空間を選択すると、メールのキーが選択されます）。[この節](../event/about-creating.md#define-the-event-key)を参照してください。
 
    ![](../assets/jo-event7.png)
 
@@ -75,7 +75,7 @@ ht-degree: 82%
 
 ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDMについて詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-1. リストからXDMスキーマを選択し、「**[!UICONTROL フィールド]**」フィールドまたは「****&#x200B;を編集」アイコンをクリックします。
+1. リストから XDM スキーマを選択し、**[!UICONTROL フィールド]**&#x200B;フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
    ![](../assets/journey8.png)
 
@@ -83,7 +83,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >システム生成イベントの場合、「オーケストレーション」フィールドグループがXDMスキーマに追加されていることを確認してください。 これにより、[!DNL Journey Optimizer] と連携するために必要な情報がスキーマにすべて含まれるようになります。
+   >システム生成イベントの場合は、「オーケストレーション」フィールドグループが XDM スキーマに追加されていることを確認してください。これにより、[!DNL Journey Optimizer] と連携するために必要な情報がスキーマにすべて含まれるようになります。
 
    ![](../assets/journey9.png)
 
@@ -93,7 +93,7 @@ ht-degree: 82%
    >
    >システム生成イベントの場合は、[!DNL Journey Optimizer] がイベントを識別できるよう、選択されたフィールドのリストに **[!UICONTROL eventID]** フィールドが自動的に追加されます。イベントをプッシュするシステムでは ID を生成しないため、ペイロードプレビューにある ID を使用する必要があります。詳しくは、[この節](../event/about-creating.md#preview-the-payload)を参照してください。
 
-1. 必要なフィールドの選択が完了したら、「**[!UICONTROL OK]**」をクリックするか、**[!UICONTROL Enter]**&#x200B;キーを押します。
+1. 必要なフィールドの選択が完了したら、「**[!UICONTROL OK]**」をクリックするか、**[!UICONTROL Enter]** キーを押します。
 
    選択したフィールドの数が「**[!UICONTROL フィールド]**」フィールドに表示されます。
 
@@ -101,11 +101,11 @@ ht-degree: 82%
 
 ## 名前空間の選択 {#select-the-namespace}
 
-名前空間を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。ジャーニーで[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}からの追加情報を取得する場合に必要です。 カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、名前空間は必要ありません。
+名前空間を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。ジャーニーで[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}からの追加情報を取得する場合に必要です。 カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、名前空間は必要ありません。
 
 事前定義済みのものを使用するか、ID 名前空間サービスを使用して新しく作成できます。[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-プライマリIDを持つスキーマを選択した場合、**[!UICONTROL Profiler identifier]**&#x200B;と&#x200B;**[!UICONTROL Namespace]**&#x200B;フィールドは事前に入力されます。 ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
+メイン ID を持つスキーマを選択した場合は、「 **[!UICONTROL プロファイラー識別子]**」および「 **[!UICONTROL 名前空間]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
 
 フィールドを選択すると、メイン ID フィールドにタグ付けされます。
 
@@ -124,7 +124,7 @@ ht-degree: 82%
 
 リアルタイム顧客プロファイルデータベースに格納されたデータを活用する予定がある場合は、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}でプロファイルのIDとして定義した情報をイベントキーとして選択する必要があります。
 
-これにより、システムはイベントと個人プロファイルの間で調整を実行できます。プライマリIDを持つスキーマを選択した場合、**[!UICONTROL Profile identifier]**&#x200B;フィールドと&#x200B;**[!UICONTROL Namespace]**&#x200B;フィールドは事前入力されます。 ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
+これにより、システムはイベントと個人プロファイルの間で調整を実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]** 」フィールドはあらかじめ入力されます。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
 
 フィールドを選択すると、メイン ID フィールドにタグ付けされます。
 
@@ -132,7 +132,7 @@ ht-degree: 82%
 
 CRM ID やメールアドレスなど、別のキーを使用する必要がある場合は、キーを手動で追加する必要があります。
 
-1. 「**[!UICONTROL Profile identifier]**」フィールド内または鉛筆アイコン上をクリックします。
+1. 「**[!UICONTROL プロファイル識別子]**」フィールド内または鉛筆アイコン上をクリックします。
 
    ![](../assets/journey16.png)
 
