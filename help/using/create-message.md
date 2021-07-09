@@ -6,9 +6,9 @@ topic: コンテンツ管理
 role: User
 level: Beginner
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->ユーザーは、製品プロファイルに応じて、メッセージのアクセス、作成、編集および公開をおこなうことができます。 ユーザー権限の詳細については、 [この節](../using/administration/permissions.md)を参照してください。
+>ユーザーは、製品プロファイルに応じて、メッセージにアクセスしたり、メッセージを作成、編集および公開したりできます。 ユーザー権限の詳細については、 [この節](../using/administration/permissions.md)を参照してください。
 
 ![](assets/messages-list.png)
 
