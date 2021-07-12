@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 92%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 0%
    >[!NOTE]
    >
    >異なる ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、ジャーニーにエントリできません。
+
+1. 「**[!UICONTROL スロットリングレート]**」フィールドで、「セグメントの読み取り」アクティビティのスループットを定義します。 この値は、ジャーニーバージョンのペイロードに保存されます。 デフォルト値は17.000で、500 ～ 17000の範囲で指定する必要があります。
 
 1. **[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティを使用すると、セグメントがジャーニーにエントリする時間を指定できます。これを行うには、「**[!UICONTROL ジャーニースケジュールを編集]** 」リンクをクリックしてジャーニーのプロパティにアクセスし、**[!UICONTROL スケジューラータイプ]**&#x200B;フィールドを設定します。
 
