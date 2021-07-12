@@ -5,9 +5,9 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
-workflow-type: ht
-source-wordcount: '541'
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -67,5 +67,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ## セグメント読み取りに関する制限
 
-* 1 時間未満の時間枠でセグメントベースのジャーニーをトリガーすることはできません。
 * ストリーミングセグメントは常に最新の状態になりますが、バッチセグメントは取得時に計算されません。毎日のバッチ評価時にのみ評価されます。
