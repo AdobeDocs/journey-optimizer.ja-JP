@@ -6,16 +6,16 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 43%
 
 ---
 
 # Adobe[!DNL Journey Optimizer]ドキュメント {#cjm-documentation}
 
-![](using/assets/do-not-localize/banner-cjm.png)
+![](using/assets/do-not-localize/banner-cjm.jpg)
 
 
 <table style="table-layout:fixed">
