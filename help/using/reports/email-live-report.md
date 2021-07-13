@@ -5,8 +5,8 @@ feature: レポート
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: ht
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ![](../assets/live_report.png)
 
 メール&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、配信の成功やエラーを示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md#modify-dashboard)を参照してください。
+
+![](../assets/live_report_5.png)
 
 **[!UICONTROL メールのパフォーマンス]**&#x200B;および&#x200B;**[!UICONTROL メールの概要]** ウィジェットでは、メッセージに関連する主な情報の詳細がグラフと KPI と共に表示されます。
 
@@ -43,6 +45,8 @@ ht-degree: 100%
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+
+![](../assets/live_report_6.png)
 
 「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
 
