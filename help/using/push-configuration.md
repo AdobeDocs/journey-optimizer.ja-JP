@@ -3,12 +3,12 @@ title: プッシュ通知の設定
 description: Journey Optimizer でプッシュ通知を送信するように環境を設定する方法を説明します
 feature: アプリケーション設定
 topic: プッシュ
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1583'
+ht-degree: 90%
 
 ---
 
