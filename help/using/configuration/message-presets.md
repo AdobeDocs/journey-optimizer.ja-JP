@@ -5,7 +5,7 @@ feature: アプリケーション設定
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 95%
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 メッセージプリセットを設定すると、メッセージを作成する際に「**[!UICONTROL プリセット]**」リストからメッセージプリセットを選択できるようになります。
 
-![](../assets/do-not-localize/how-to-video.png) [このビデオでは、Eメールプリセットの作成と使用方法を説明します](#video-presets)
+&lt;a0➡️/>このビデオでは、Eメールプリセットの作成と使用方法を説明します。](#video-presets)[
 
 ## メッセージプリセットの作成 {#create-message-preset}
 
