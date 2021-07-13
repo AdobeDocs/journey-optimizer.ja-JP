@@ -1,10 +1,10 @@
 ---
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 18%
+source-wordcount: '209'
+ht-degree: 17%
 
 ---
 
@@ -16,9 +16,10 @@ ht-degree: 18%
 
 ## 2021 年 7 月
 
-* [!DNL Journey Optimizer]ホームページおよびExperience Platform表のコンテンツサービスドキュメントへの直接リンクを追加しました。
+* [!DNL Journey Optimizer]ホームページと目次にExperience Platformサービスのドキュメントへの直接リンクを追加しました。
+* [!DNL Journey Optimizer]で利用可能なExperience Platformサービスの新しいランディングページ
 * ホームページに[!DNL Journey Optimizer]製品説明へのリンクを追加
-* ドキュメントページにチュートリアルビデオを追加しました。
+* 複数のページでのチュートリアルビデオの追加
 * ホームページの画像を最適化
 * 「メッセージトラッキング」セクションを移動し、改善し、名前を「リンクを追加してメッセージを追跡」に変更しました。 [詳細を読む](message-tracking.md)
 * ミラーページにサブセクションを追加しました。 [詳細を読む](message-tracking.md#mirror-page)
