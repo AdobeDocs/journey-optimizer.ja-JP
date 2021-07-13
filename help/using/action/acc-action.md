@@ -3,12 +3,12 @@ title: Adobe Campaign v7／v8 との統合
 description: Adobe Campaign v7／v8 との統合方法を学ぶ
 feature: アクション
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 98%
 
 ---
 
