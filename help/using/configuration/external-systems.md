@@ -4,10 +4,10 @@ solution: Journey Optimizer
 title: 外部システムとの統合
 description: 外部システムを統合する際のベストプラクティスを学ぶ
 feature: Journey Optimizer
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 87%
