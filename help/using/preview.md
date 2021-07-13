@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '907'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。 イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。 [このユースケース](personalization/personalization-use-case.md)でのパーソナライゼーションのテスト方法を説明します。
 
-![](assets/do-not-localize/how-to-video.png) [このビデオでは、Eメールのプレビュー、配達確認、および投稿方法を説明します](#video-preview)
+&lt;➡️a0/>このビデオでEメールをプレビュー、校正、公開する方法を説明します。](#video-preview)[
 
 ## テストプロファイルの選択{#select-test-profiles}
 
