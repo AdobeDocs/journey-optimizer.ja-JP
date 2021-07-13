@@ -3,15 +3,15 @@ title: Journey Optimizer の設定と設定のガイドライン
 description: メッセージとジャーニー設定のガイドラインを学ぶ
 audience: administrators
 content-type: reference
-role: Administrator
+role: Admin
 level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: アプリケーション設定
 topic: 管理
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: ht
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%
 
