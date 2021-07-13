@@ -14,10 +14,10 @@ snippet: y
 exl-id: null
 feature: コントロールグループ
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: ht
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
