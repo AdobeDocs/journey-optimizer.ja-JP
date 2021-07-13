@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 7914fd26371b9bd488256cb54f28b2dc5ab3c76b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '693'
+ht-degree: 96%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 0%
 # [!DNL Journey Optimizer] ヘルプ {#using}
 
 + [Journey Optimizerドキュメント](ajo-home.md)
++ [最新の更新](using/documentation-updates.md)
 + はじめに{#get-started}
    + [Journey Optimizer とは](using/get-started.md)
    + [クイックスタート](using/quick-start.md)
