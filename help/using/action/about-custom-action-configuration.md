@@ -4,10 +4,10 @@ title: カスタムアクション設定について
 description: カスタムアクションの設定方法を学ぶ
 feature: アクション
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
-workflow-type: ht
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
 
