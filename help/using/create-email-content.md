@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1588'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ E メールデザイナーでメールコンテンツの作成を開始するに
 
    ![](assets/email_designer_3.png)
 
-1. 各コンポーネントは、「**[!UICONTROL コンポーネント設定]**」セクションで詳細にカスタマイズできます。例えば、コンポーネントのテキストスタイル、パディング、またはマージンを変更できます。[Adobe Campaignのドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html?lang=ja){target=&quot;_blank&quot;}のEメールエディターでのスタイルについて詳しく説明します。
+1. 各コンポーネントは、「**[!UICONTROL コンポーネント設定]**」セクションで詳細にカスタマイズできます。例えば、コンポーネントのテキストスタイル、パディング、またはマージンを変更できます。[整列とパディングの詳細を説明します](#adjusting-vertical-alignment-and-padding)。
 
    ![](assets/email_designer_4.png)
 
