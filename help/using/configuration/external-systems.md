@@ -1,16 +1,16 @@
 ---
 product: adobe campaign
 solution: Journey Optimizer
-title: 外部システムとの統合
-description: 外部システムを統合する際のベストプラクティスを学ぶ
+title: Journey Optimizerと外部システムの統合
+description: Journey Optimizerを外部システムと統合する際のベストプラクティスを説明します
 feature: Journey Optimizer
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 87%
+source-wordcount: '1038'
+ht-degree: 85%
 
 ---
 
