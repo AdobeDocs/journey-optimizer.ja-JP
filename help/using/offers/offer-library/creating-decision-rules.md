@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 81%
 
 ---
 
@@ -47,6 +47,10 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 1. ルールを作成すると、ルールリストに表示されます。選択するとプロパティが表示され、編集することも削除することもできます。
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>イベントベースのオファーは、現在[!DNL Journey Optimizer]ではサポートされていません。 [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}に基づく決定ルールを作成すると、オファーで活用できなくなります。
 
 ## チュートリアルビデオ {#video}
 
