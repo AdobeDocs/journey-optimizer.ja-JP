@@ -4,10 +4,10 @@ description: Adobe Journey OptimizerでのAdobe Experience Platformスキーマ�
 feature: スキーマ
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 24%
+source-wordcount: '319'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 
 ![](assets/schemas-home.png)
 
-[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;}でスキーマユーザーインターフェイスを使用する方法を説明します
+[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}でスキーマユーザーインターフェイスを使用する方法を説明します
 
 スキーマエディターを使用してスキーマを作成する手順を追ったドキュメントは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target=&quot;_blank&quot;}で入手できます。
 
