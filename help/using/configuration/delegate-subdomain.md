@@ -15,10 +15,10 @@ feature: アプリケーション設定
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 93%
+source-wordcount: '482'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,9 @@ ht-degree: 93%
 
    >[!CAUTION]
    >
-   >marketing.company.comなどの有効なサブドメインを入力していることを確認します。 無効なサブドメインをAdobeにデリゲートできません。
+   >無効なサブドメインをAdobeにデリゲートできません。 組織が所有する有効なサブドメイン（例：marketing.yourcompany.com）を入力してください。
+   >
+   >現在、email.marketing.yourcompany.comなどのマルチレベルサブドメインはサポートされていません。
 
 1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
