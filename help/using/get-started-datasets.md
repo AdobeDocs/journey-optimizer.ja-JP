@@ -4,10 +4,10 @@ description: Adobe Journey OptimizerでのAdobe Experience Platformデータセ�
 feature: データセット
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 18%
+source-wordcount: '259'
+ht-degree: 30%
 
 ---
 
@@ -40,5 +40,5 @@ CSVファイルをXDMスキーマにマッピングする手順を追ったド�
 
 * [スキーマ、データセット、データの取り込みを作成し、Journey Optimizerにテストプロファイルを追加する](building-journeys/creating-test-profiles.md)
 * [ストリーミング取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target=&quot;_blank&quot;}
-* [データをAdobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}に取り込む
+* [データをAdobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target=&quot;_blank&quot;}に取り込む
 
