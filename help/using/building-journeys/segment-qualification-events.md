@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '833'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;セグメントパーティシペーションのステータスに対応します。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
+   >**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;セグメントパーティシペーションのステータスに対応します。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして配置されている場合にのみ必要です。
 
