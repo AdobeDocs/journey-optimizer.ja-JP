@@ -5,10 +5,10 @@ feature: 概要
 topic: コンテンツ管理
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 1. アップロードするファイルを選択します。 完了したら、「**[!UICONTROL アップロード]**」をクリックします。
 
-   アセットの管理方法について詳しくは、[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)を参照してください。
+   アセットの管理方法について詳しくは、[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)を参照してください。
 
 1. アセットがアップロードされると、電子メールデザイナーを使用してメッセージの1つにアセットを挿入できるようになります。
 
