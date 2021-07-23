@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7914fd26371b9bd488256cb54f28b2dc5ab3c76b
+source-git-commit: 35536a6661983bc4b94336a0ffa088de3f4ca919
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '692'
 ht-degree: 96%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 96%
    + 決定の作成と管理 {#create-manage-activities}
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
-   + 決定管理レポートの作成 {create-reports}
+   + 判定管理レポートの作成{#create-reports}
       + [決定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
