@@ -5,10 +5,10 @@ feature: オファー
 topic: 統合
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '621'
+ht-degree: 71%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 0%
 オファーライブラリを使用すると、プレースメントとオファーを 1 か所で作成および管理できるだけでなく、作成されたすべての決定（旧称：オファーアクティビティ）にアクセスできます。
 
 **[!UICONTROL オファー]**&#x200B;メニューを使用して、パーソナライズされたフォールバックオファーを管理し、整理してコレクションにまとめ、決定を作成して配信します。
+
+* **[!UICONTROL 概要]**:初めて [!DNL Offer Decisioning]?画面上の手順に従って、配置、オファーおよびコレクションの設定を開始します。 [!DNL Offer Decisioning]について既に理解している場合は、最新のオファー、コレクション、意思決定の概要を把握します。 [概要](#overview)を参照してください。
 
 * **[!UICONTROL オファー]**：パーソナライズされたフォールバックオファーにアクセスするか、新しいオファーを作成します。[オファーの作成](../offer-library/creating-personalized-offers.md)および[フォールバックオファーの作成](../offer-library/creating-fallback-offers.md)を参照してください。
 
@@ -37,6 +39,30 @@ ht-degree: 0%
 * **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。See [ランキング式の作成](../offer-library/create-ranking-formulas.md)を参照してください。
 
 ![](../../assets/offer_activities.png)
+
+## 概要 {#overview}
+
+[!DNL Offer Decisioning]を初めて使用する場合は、「**[!UICONTROL 概要]**」タブで、最初のオファー決定の作成を開始するために必要な主な手順を順に説明します。
+
+![](../../assets/overview_onboarding.png)
+
+画面上の手順に従って、配置、オファーおよびコレクションの作成を開始します。
+
+これらの最初の手順が完了すると、オファーの決定（旧称：オファーアクティビティ）を作成するよう求められます。
+
+![](../../assets/overview_collection-created.png)
+
+>[!NOTE]
+>
+>オファーを作成し、判定で使用する主な手順については、[この節](../offer-library/key-steps.md)を参照してください。
+
+[!DNL Offer Decisioning]に詳しく、少なくとも1つのオファーの決定を作成済みの場合は、「**[!UICONTROL 概要]**」タブに最新のオファー、コレクション、決定が表示されます。
+
+オファーまたは決定をクリックして、選択した項目の詳細に直接アクセスします。
+
+「**[!UICONTROL すべて表示]**」ボタンをクリックして、オファー、コレクションまたはデシジョンリストにアクセスします。
+
+![](../../assets/overview_view-all.png)
 
 ## 情報の検索とフィルター
 
