@@ -4,10 +4,10 @@ description: プライバシーの管理方法について学ぶ
 topic: プライバシー
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 84%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] は、Adobe Experience Platform でおこなわれたデータセットの変更のほとんどを継承しています。
 
-それにより、プライバシーリクエスト（アクセス権および忘れられる権利）は Experience Platform で管理されます。[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target=&quot;_blank&quot;}を使用してリクエストを送信し、[プライバシーリクエスト](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target=&quot;_blank&quot;}を作成する際に、製品リストから&#x200B;**Profile**&#x200B;と&#x200B;**AEP Data Lake**&#x200B;を選択する必要があります。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+それにより、プライバシーリクエスト（アクセス権および忘れられる権利）は Experience Platform で管理されます。[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target=&quot;_blank&quot;}を使用してリクエストを送信し、[プライバシーリクエスト](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}を作成する際に、製品リストから&#x200B;**Profile**&#x200B;と&#x200B;**AEP Data Lake**&#x200B;を選択する必要があります。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
