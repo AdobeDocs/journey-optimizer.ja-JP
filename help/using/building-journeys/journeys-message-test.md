@@ -7,12 +7,13 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1f0f4f63a31c4546f813dd803f06ae6aad234b71
+source-git-commit: 3530a600a4c842ff99bc23354b2d158c6d41f902
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 33%
 
 ---
+
 
 # ジャーニーへのメッセージの追加
 
