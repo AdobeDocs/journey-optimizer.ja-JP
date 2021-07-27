@@ -5,10 +5,10 @@ feature: データソース
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 87%
+source-wordcount: '291'
+ht-degree: 85%
 
 ---
 
@@ -34,5 +34,9 @@ ht-degree: 87%
 * 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[このページ](../datasource/external-data-sources.md)を参照してください。
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[このページ](../datasource/configure-data-sources.md#define-field-groups)を参照してください。
+
+>[!NOTE]
+>
+>データソースでスキーマの関係がサポートされるようになりました。
 
 Adobe Experience Platformデータソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
