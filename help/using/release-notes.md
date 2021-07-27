@@ -1,10 +1,10 @@
 ---
 title: リリースノート
 description: Journey Optimizer リリースノート
-source-git-commit: 0fb6d8f611a849696d83e0f129e6462431e5fe83
+source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 43%
+source-wordcount: '235'
+ht-degree: 40%
 
 ---
 
@@ -26,8 +26,25 @@ ht-degree: 43%
 <tr>
 <td>
 <p>Adobe Experience Platformでは、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。 Journey Optimizerは、リンクされたスキーマからのデータを活用できるようになりました。</p>
-<p>これらのフィールドは、単一のイベント設定、ジャーニー条件、メッセージのパーソナライゼーション、カスタムアクションのパーソナライゼーションで使用できます。
+<p>これらのフィールドは、単一のイベント設定、ジャーニー条件、メッセージのパーソナライゼーション、カスタムアクションのパーソナライゼーションで使用できます。</p>
 <p>詳しくは、 <a href="event/experience-event-schema.md#leverage_schema_relationships">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>許可リスト</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>特定の送信セーフリストをサンドボックスレベルで定義して、例えばテスト環境で受信者に不要なEメールが送信されるのを防ぐことができるようになりました。
+</p>
+<p>詳しくは、 <a href="allow-list.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
