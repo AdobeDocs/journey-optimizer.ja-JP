@@ -5,9 +5,9 @@ feature: データソース
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '363'
 ht-degree: 95%
 
 ---
@@ -38,7 +38,6 @@ Adobe Experience Platform のデータソースは、リアルタイム顧客プ
 
 1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドリストのプロファイルとエクスペリエンスのイベントスキーマは、Adobe Experience Platform で入手できます。[!DNL Journey Optimizer] ではスキーマの作成は実行されません。Adobe Experience Platformでおこなわれます
 1. 使用するフィールドを選択します。
-1. キャッシュ時間を定義します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 フィールドグループの名前にカーソルを置くと、右側に 2 つのアイコンが表示されます。これらのアイコンを使用すると、フィールドグループを削除および複製できます。**[!UICONTROL 削除]**&#x200B;アイコンは、フィールドグループがライブジャーニーまたはドラフトジャーニー（「**[!UICONTROL 使用されている場所]**」フィールドに表示される情報）で使用されていない場合にのみ使用できます。
