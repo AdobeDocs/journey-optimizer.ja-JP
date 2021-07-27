@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0f4f63a31c4546f813dd803f06ae6aad234b71
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '698'
 ht-degree: 95%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 95%
 # [!DNL Journey Optimizer] ヘルプ {#using}
 
 + [Journey Optimizerドキュメント](ajo-home.md)
++ [リリースノート](using/release-notes.md)
 + [最新の更新](using/documentation-updates.md)
 + はじめに{#get-started}
    + [Journey Optimizer とは](using/get-started.md)
@@ -117,6 +118,7 @@ ht-degree: 95%
    + 配信品質 {#deliverability}
       + [配信品質の概要](using/deliverability.md)
       + [抑制リスト](using/suppression-list.md)
+      + [許可リスト](using/allow-list.md)
 + 決定管理 {#offer-decisioniong}
    + 決定管理の基本を学ぶ {#get-started}
       + [決定管理について](using/offers/get-started/starting-offer-decisioning.md)
