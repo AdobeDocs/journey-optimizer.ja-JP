@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
-workflow-type: ht
+source-git-commit: 7937c3b7c9247868a7a506991850537493a76cf1
+workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
