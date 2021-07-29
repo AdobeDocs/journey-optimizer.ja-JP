@@ -5,10 +5,10 @@ feature: ジャーニー
 topic: コンテンツ管理
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 97%
+source-wordcount: '965'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 >
 >メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。 イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。 [このユースケース](personalization/personalization-use-case.md)でのパーソナライゼーションのテスト方法を説明します。
 
-&lt;➡️a0/>このビデオでEメールをプレビュー、校正、公開する方法を説明します。](#video-preview)[
+➡️ [メールのプレビュー、配達確認および公開の方法については、このビデオを参照](#video-preview)
 
 ## テストプロファイルの選択{#select-test-profiles}
 
@@ -53,7 +53,7 @@ ht-degree: 97%
 
    ![](assets/previewselect-namespace.png)
 
-   Adobe Experience Platform ID名前空間[について詳しくは、この節](get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
+   Adobe Experience Platform の ID 名前空間については、[この節](get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
 
    以下の例では、**メール**&#x200B;名前空間を使用します。
 
@@ -121,7 +121,13 @@ ht-degree: 97%
 
    ![](assets/send-proof-button.png)
 
-1. 配達確認を受け取るテストプロファイルを選択し、「**[!UICONTROL 配達確認を送信]**」をクリックします。必要に応じて、配達確認の件名行に接頭辞を追加できます。
+1. **[!UICONTROL 配達確認を送信]**&#x200B;ウィンドウで、テストプロファイルに加えて、受信者のEメールを入力し、「**[!UICONTROL 追加]**」をクリックして、自分または組織のメンバーに配達確認を送信します。
+
+   配達確認配信には、最大10人の受信者を追加できます。
+
+   ![](assets/send-proof-button_2.png)
+
+1. 次に、配達確認を受け取るテストプロファイルを選択し、「**[!UICONTROL 配達確認を送信]**」をクリックします。 必要に応じて、配達確認の件名行に接頭辞を追加できます。英数字と特殊文字(例： . - _ ( ) [ )のみ ]は、件名行のプレフィックスとして使用できます。
 
    ![](assets/send-proof-select.png)
 
@@ -168,6 +174,6 @@ ht-degree: 97%
 
 ## ハウツービデオ{#video-preview}
 
-受信ボックス間での電子メールのレンダリングをテストする方法、テストプロファイルに対してパーソナライズされた電子メールをプレビューする方法、配達確認を送信し、電子メールを公開する方法を説明します。
+受信ボックス間でメールのレンダリングをテストする方法、パーソナライズされたメールをテストプロファイルに対してプレビューする方法、配達確認を送信する方法およびメールを公開する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
