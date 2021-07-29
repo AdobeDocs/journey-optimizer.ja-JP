@@ -1,9 +1,9 @@
 ---
 title: リリースノート
 description: Journey Optimizer リリースノート
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 29%
 
 ---
@@ -51,21 +51,22 @@ ht-degree: 29%
 
 ### 機能強化
 
-* **ジャーニー**
-   * 同じサンドボックス内で同時に実行されるすべての読み取りセグメントの全体的なスロットリング率は、1秒あたり17,000メッセージに制限されます。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * **Cache duration**&#x200B;フィールドがデータソース設定ペインから削除されました。 [詳細を読む](datasource/about-data-sources.md)
-   * 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。 [詳細を読む](configuration/external-systems.md#capping)
-   * ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。 [詳細を読む](building-journeys/journey-gs.md#change-properties)
-   * ジャーニーリスト画面にジャーニータイプフィルターが追加されました。 [詳細を読む](user-interface.md#section_lgm_hpz_pgb)
-   * 「セグメントの読み取り」アクティビティに&#x200B;**[!UICONTROL Throttling rate]**&#x200B;パラメーターが追加されました。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**ジャーニー**
 
-* **プレビューとテスト**
-   * IDと名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。 [詳細を読む](preview.md#preview-your-messages)
-   * 配達確認のテストEメールの数が10個に制限されるようになりました。
-   * 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。 [詳細を読む](preview.md#send-proofs)
+* 同じサンドボックス内で同時に実行されるすべての読み取りセグメントの全体的なスロットリング率は、1秒あたり17,000メッセージに制限されます。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* **Cache duration**&#x200B;フィールドがデータソース設定ペインから削除されました。 [詳細を読む](datasource/about-data-sources.md)
+* 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。 [詳細を読む](configuration/external-systems.md#capping)
+* ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。 [詳細を読む](building-journeys/journey-gs.md#change-properties)
+* ジャーニーリスト画面にジャーニータイプフィルターが追加されました。 [詳細を読む](user-interface.md#section_lgm_hpz_pgb)
+* 「セグメントの読み取り」アクティビティに&#x200B;**[!UICONTROL Throttling rate]**&#x200B;パラメーターが追加されました。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **パーソナライゼーション式エディター**
-   * ヘルパードロップダウンリストの名前が変更され、順序が変更されました。
+**メッセージのプレビューとテスト**
+* IDと名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。 [詳細を読む](preview.md#preview-your-messages)
+* 配達確認のテストEメールの数が10個に制限されるようになりました。
+* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。 [詳細を読む](preview.md#send-proofs)
+
+**パーソナライゼーション式エディター**
+* ヘルパードロップダウンリストの名前が変更され、順序が変更されました。
 
 ### 修正点
 
