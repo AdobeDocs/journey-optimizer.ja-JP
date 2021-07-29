@@ -1,17 +1,17 @@
 ---
 title: リリースノート
 description: Journey Optimizer リリースノート
-source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
+source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 40%
+source-wordcount: '375'
+ht-degree: 29%
 
 ---
 
 
 # リリースノート {#release-notes}
 
-このページでは、Journey Optimizer の新機能と改善点をすべて挙げています。
+このページでは、[!DNL Journey Optimizer] のすべての新機能と向上した点を一覧にしています。
 最新の[ドキュメントの更新](documentation-updates.md)も参照してください。
 
 ## 2021年7月リリース {#july-2021-release}
@@ -25,7 +25,7 @@ ht-degree: 40%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platformでは、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。 Journey Optimizerは、リンクされたスキーマからのデータを活用できるようになりました。</p>
+<p>Adobe Experience Platformでは、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。 [!DNL Journey Optimizer]は、リンクされたスキーマからのデータを活用できるようになりました。</p>
 <p>これらのフィールドは、単一のイベント設定、ジャーニー条件、メッセージのパーソナライゼーション、カスタムアクションのパーソナライゼーションで使用できます。</p>
 <p>詳しくは、 <a href="event/experience-event-schema.md#leverage_schema_relationships">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -42,8 +42,7 @@ ht-degree: 40%
 <tbody>
 <tr>
 <td>
-<p>特定の送信セーフリストをサンドボックスレベルで定義して、例えばテスト環境で受信者に不要なEメールが送信されるのを防ぐことができるようになりました。
-</p>
+<p>特定の送信セーフリストをサンドボックスレベルで定義して、テスト目的の安全な環境を構築できるようになりました。 実稼動以外のインスタンスでエラーが発生する可能性がある場合は、許可リストによって、不要なメッセージが顧客に送信されるリスクがなくなります。 この機能は、抑制APIを利用することで有効になります。</p>
 <p>詳しくは、 <a href="allow-list.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -52,9 +51,26 @@ ht-degree: 40%
 
 ### 機能強化
 
-* 同じサンドボックス内で同時に実行されるすべての読み取りセグメントの全体的なスロットリング率は、1秒あたり17,000メッセージに制限されます。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* **Cache duration**&#x200B;フィールドがデータソース設定ペインから削除されました。 [詳細を読む](datasource/about-data-sources.md)
-* 外部データソースの場合、1 秒あたり 15 回というキャッピングルールが自動的に定義されるようになりました。 [詳細を読む](configuration/external-systems.md#capping)
-* ライブジャーニーの場合、ジャーニーのプロパティ画面に、ジャーニーの公開日と公開したユーザー名が表示されるようになりました。 [詳細を読む](building-journeys/journey-gs.md#change-properties)
-* ジャーニーリスト画面に、ジャーニータイプフィルターが追加されました。 [詳細を読む](user-interface.md#section_lgm_hpz_pgb)
-* 「セグメントの読み取り」アクティビティに[!UICONTROL Throttling rate]パラメーターが追加されました。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* **ジャーニー**
+   * 同じサンドボックス内で同時に実行されるすべての読み取りセグメントの全体的なスロットリング率は、1秒あたり17,000メッセージに制限されます。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+   * **Cache duration**&#x200B;フィールドがデータソース設定ペインから削除されました。 [詳細を読む](datasource/about-data-sources.md)
+   * 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。 [詳細を読む](configuration/external-systems.md#capping)
+   * ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。 [詳細を読む](building-journeys/journey-gs.md#change-properties)
+   * ジャーニーリスト画面にジャーニータイプフィルターが追加されました。 [詳細を読む](user-interface.md#section_lgm_hpz_pgb)
+   * 「セグメントの読み取り」アクティビティに&#x200B;**[!UICONTROL Throttling rate]**&#x200B;パラメーターが追加されました。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+* **プレビューとテスト**
+   * IDと名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。 [詳細を読む](preview.md#preview-your-messages)
+   * 配達確認のテストEメールの数が10個に制限されるようになりました。
+   * 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。 [詳細を読む](preview.md#send-proofs)
+
+* **パーソナライゼーション式エディター**
+   * ヘルパードロップダウンリストの名前が変更され、順序が変更されました。
+
+### 修正点
+
+* 一括Eメール配信で重複メッセージが配信される問題を修正しました。
+* 再試行期間が過ぎるとEメール送信が実行されない場合に、適宜イベントが生成されるようになりました。
+* PTRレコード画面にIP情報が表示されない問題を修正しました。
+* 式エディター内のオファーレールのローカライゼーションが実装されました。
+* 情報ポップアップの間隔の誤りを修正しました。
