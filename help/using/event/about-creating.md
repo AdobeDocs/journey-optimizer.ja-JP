@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1720'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 94%
 
 ## ペイロードフィールドの定義 {#define-the-payload-fields}
 
-ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDMについて詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDM について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. リストから XDM スキーマを選択し、**[!UICONTROL フィールド]**&#x200B;フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
@@ -101,9 +101,9 @@ ht-degree: 94%
 
 ## 名前空間の選択 {#select-the-namespace}
 
-名前空間を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。ジャーニーで[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}からの追加情報を取得する場合に必要です。 カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、名前空間は必要ありません。
+名前空間を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}から得られる追加情報をジャーニーで取得する場合には必須です。 カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、名前空間は必要ありません。
 
-事前定義済みのものを使用するか、ID 名前空間サービスを使用して新しく作成できます。[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+事前定義済みのものを使用するか、ID 名前空間サービスを使用して新しく作成できます。[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 メイン ID を持つスキーマを選択した場合は、「 **[!UICONTROL プロファイラー識別子]**」および「 **[!UICONTROL 名前空間]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
 
@@ -122,9 +122,9 @@ ht-degree: 94%
 
 キーは、イベントのペイロードデータの一部とするフィールドまたはフィールドの組み合わせです。システムはキーを使用することでイベントに関連付けられた人を識別できます。キーには、Experience Cloud ID、CRM ID、メールアドレスなどを使用できます。
 
-リアルタイム顧客プロファイルデータベースに格納されたデータを活用する予定がある場合は、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}でプロファイルのIDとして定義した情報をイベントキーとして選択する必要があります。
+リアルタイム顧客プロファイルデータベースに保存されたデータを活用する場合は、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}でプロファイルの ID として定義した情報をイベントキーとして選択する必要があります。
 
-これにより、システムはイベントと個人プロファイルの間で調整を実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]** 」フィールドはあらかじめ入力されます。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
+これにより、システムはイベントと個人プロファイルの間の紐付けを実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]** 」フィールドはあらかじめ入力されます。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
 
 フィールドを選択すると、メイン ID フィールドにタグ付けされます。
 
@@ -143,15 +143,15 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。キーは名前空間に関連付けられ（[この節](../event/about-creating.md#select-the-namespace)を参照）、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
-また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## 条件の追加 {#add-a-condition}
 
-条件は、システム生成イベントに対してのみ使用できます。 システムがイベントの処理をフィルタリングできるよう、イベント条件を定義できます。条件が true の場合、イベントが処理されます。条件が true でない場合、イベントは無視されます。
+条件はシステム生成イベントの場合にのみ使用できます。システムがイベントの処理をフィルタリングできるよう、イベント条件を定義できます。条件が true の場合、イベントが処理されます。条件が true でない場合、イベントは無視されます。
 
 イベントの条件は、イベントのペイロードで渡されたデータに基づいている場合にのみ指定できます。イベントレベルで定義された条件を、マーケターがキャンバス上で変更することはできません。目的は、このイベントを使用する際に、この条件を強化することです。例えば、買い物かごの値が小さすぎる場合に、マーケターが買い物かごの放棄イベントを使用しないようにするには、「買い物かごの値」イベントフィールドで条件を作成し、100 ドルを超える値を設定できます。
 
-イベントに条件を設定するには、単純な式エディターまたは高度な式エディターを使用できます。[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}を参照してください。
+イベントに条件を設定するには、単純な式エディターまたは高度な式エディターを使用できます。[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}を参照してください。
 
 例えば、特定のイベントタイプのイベントのみを処理し、他のタイプは無視する条件を定義できます。または、イベントが買い物かご放棄で、ペイロードに「買い物かごの値」フィールドが含まれている場合、買い物かごの値が 100 ドルを超えるときにのみイベントを処理するようイベント条件を定義できます。
 
