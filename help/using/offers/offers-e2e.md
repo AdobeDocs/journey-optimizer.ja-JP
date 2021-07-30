@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1340'
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
    ![](../assets/offers-e2e-representations.png)
 
-1. 「**[!UICONTROL オファーの実施要件]**」セクションで、「**[!UICONTROL 定義済みの判定ルール]**」を選択し、選択したルールをドラッグ&amp;ドロップします。
+1. 「**[!UICONTROL オファーの適格要件]**」セクションで、「**[!UICONTROL 定義済みの決定ルール]**」を選択し、任意のルールをドラッグ＆ドロップします。
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
    ![](../assets/offers-e2e-decision-collection.png)
 
-1. [コンポーネントの構築](#define-components)時にランキングを定義した場合は、それを決定のプレースメントに割り当てることができます。この配置で複数のオファーを提示する資格がある場合、決定はこの数式を使用して、最初に配信するオファーを計算します。
+1. [コンポーネントの構築](#define-components)時にランキングを定義した場合は、それを決定のプレースメントに割り当てることができます。このプレースメントで複数のオファーを提示できる場合、決定はこの式を使用して、どのオファーを最初に配信するかを計算します。
 
    ランキング式をプレースメントに割り当てる詳細な手順については、[この節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula)で説明します。
 
