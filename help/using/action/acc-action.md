@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 
 ## 前提条件
 
-Campaign では、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。[Adobe Campaignのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ja#transactional-messaging){target=&quot;_blank&quot;}を参照してください。
+Campaign では、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。 [Adobe Campaign のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ja#transactional-messaging){target=&quot;_blank&quot;}を参照してください。
 
 以下のパターンに従って、各メッセージに対応する JSON ペイロードを作成できます。Journey Orchestration でアクションを設定する際に、このペイロードを貼り付けてください（以下を参照）。
 
