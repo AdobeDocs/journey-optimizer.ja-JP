@@ -8,17 +8,17 @@ solution: Journey Optimizer
 source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
 
 # [!DNL Journey Optimizer] ヘルプ {#using}
 
-+ [Journey Optimizerドキュメント](ajo-home.md)
++ [Journey Optimizer ドキュメント](ajo-home.md)
 + 新着情報{#whats-new}
    + [リリースノート](using/release-notes.md)
-   + [最新の更新](using/documentation-updates.md)
+   + [最新の更新点](using/documentation-updates.md)
 + はじめに{#get-started}
    + [Journey Optimizer とは](using/get-started.md)
    + [クイックスタート](using/quick-start.md)
@@ -47,7 +47,7 @@ ht-degree: 95%
    + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
    + ユースケース{#personalization-use-cases}
       + [注文ステータスの通知](using/personalization/personalization-use-case.md)
-      + [買い物かご放棄のEメール](using/personalization/personalization-use-case-helper-functions.md)
+      + [カート放棄メール](using/personalization/personalization-use-case-helper-functions.md)
    + ヘルパー関数{#functions}
       + [ヘルパー関数のリスト](using/personalization/functions/functions.md)
       + [集計関数](using/personalization/functions/aggregation.md)
@@ -61,7 +61,7 @@ ht-degree: 95%
    + [パーソナライズされたオファーの追加](using/deliver-personalized-offers.md)
 + セグメント、プロファイル、ID{#segment}
    + セグメント {#segments}
-      + [セグメントの概要](using/segment/about-segments.md)
+      + [セグメントの基本を学ぶ](using/segment/about-segments.md)
       + [セグメントの作成](using/segment/creating-a-segment.md)
    + [プロファイル](using/get-started-profiles.md)
    + [ID](using/get-started-identity.md)
