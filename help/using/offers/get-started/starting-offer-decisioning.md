@@ -7,8 +7,8 @@ role: User
 level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '810'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 * ワークフローの向上：マーケティングチームは、配信やキャンペーンを複数作成する代わりに、単一の配信を作成し、テンプレートの各部分のオファーを変えることでワークフローを向上させることができます。
 * キャンペーンと顧客全体にオファーを表示する回数を制御します。
 
-➡️[意思決定管理について詳しくは、次のチュートリアルビデオ](#tutorial-videos)をご覧ください。
+➡️ 決定管理の詳細については、[こちらのチュートリアルビデオ](#tutorial-videos)をご覧ください。
 
 ## オファーと決定について {#offers-offer-activities}
 
