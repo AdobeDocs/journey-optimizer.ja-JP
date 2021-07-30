@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '536'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 オファーの設定方法を示す&#x200B;**完全なエンドツーエンドの例**&#x200B;については、オファーを決定で使用し、この決定をメールで活用して、[この節](offers/offers-e2e.md#insert-decision-in-email)を参照してください。
 
-&lt;a0➡️/>パーソナライゼーションとしてオファーを追加する方法](#video-offers) （ビデオ）[
+➡️ [オファーをパーソナライゼーションとして追加する方法を確認](#video-offers)（ビデオ）
 
 ## メールへの決定の挿入 {#insert-offers}
 
