@@ -7,8 +7,8 @@ role: Data Engineer
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '563'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 各パラメーターの意味は次のとおりです。
 
 * `profile` は名前空間です。
-* `person.name` は、属性で構成されるトークンです。属性構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}。
+* `person.name` は、属性で構成されるトークンです。属性の構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}。
 
 ## 構文の一般的なルール
 
@@ -44,7 +44,7 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
 ## プロファイル
 
-この名前空間では、[Adobe Experience Platformデータモデル(XDM)ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}で説明されているプロファイルスキーマで定義されているすべての属性を参照できます。
+この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}を参照してください。
 
 属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
 
@@ -106,11 +106,11 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* 判定エンジンからのオファーのテキストコンテンツ：
+* 決定エンジンから得られるオファーのテキストコンテンツ：
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 判定エンジンからのオファーのHTMLコンテンツ：
+* 決定エンジンから得られるオファーの HTML コンテンツ：
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -120,7 +120,7 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 Handlebars ヘルパーは、パラメーターの後に付けられる単純な識別子です。
 各パラメーターは、Handlebars 式です。これらのヘルパーは、テンプレート内の任意のコンテキストからアクセスできます。
 
-これらのブロックヘルパーは、ヘルパー名の前に#が付いて識別され、同じ名前の対応する終了/が必要です。
+これらのブロックヘルパーは、ヘルパー名の先頭にある＃で識別され、対となる同じ名前の「/」タグで閉じる必要があります。
 ブロックは、ブロック開始タグ（{{# }}）と終了タグ（{{/}}）を持つ式です。
 
 
