@@ -6,7 +6,7 @@ topic: 統合
 role: User
 level: Intermediate
 source-git-commit: 5631a1937b854c3e14d1816df9e8d30690588303
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
