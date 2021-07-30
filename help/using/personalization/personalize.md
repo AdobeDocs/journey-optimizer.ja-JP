@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer] のパーソナライゼーション機能を学び、ユーザーに関するデータと情報を活用して、特定の受信者に合わせたメッセージを作成します。この情報には、名、興味、居住地および購入履歴などが含まれます。
 
-➡️ [メッセージをパーソナライズする方法については、次のビデオを参照してください](#video-perso)
+➡️ [メッセージをパーソナライズする方法については、こちらのビデオをご覧ください](#video-perso)
 
 [!DNL Journey Optimizer] ではハンドルバーに基づいた、**インライン**&#x200B;のシンプルなパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **{{}}** で囲んだ式を作成することができます。同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
 
-パーソナライゼーションは、**XDM 個人版プロファイル**&#x200B;スキーマ（Adobe Experience Platform で定義）で管理されるプロファイルデータに基づいています。詳しくは、[Adobe Experience Platformデータモデル(XDM)のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+パーソナライゼーションは、**XDM 個人プロファイル**&#x200B;スキーマ（Adobe Experience Platform で定義）で管理されるプロファイルデータに基づいています。詳しくは、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
 >**XDM 個人版プロファイル**&#x200B;スキーマは、[!DNL Journey Optimizer] でコンテンツをパーソナライズするために使用できる唯一のスキーマです。
@@ -89,10 +89,10 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 画面の左側には、パーソナライゼーションのソースを選択できるドメインセレクターが表示されます。利用可能なソースは次のとおりです。
 
-* **プロファイル** : [Adobe Experience Platform Data Model(XDM)のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}で説明されているプロファイルスキーマに関連するすべての参照を示します。
-* **セグメントのメンバーシップ**：Adobe Experience Platform Segmentation Service で作成されたすべてのセグメントをリストします。セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}。
+* **プロファイル** : [Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}に記載されているプロファイルスキーマに関連付けられているすべての参照をリストします。
+* **セグメントメンバーシップ**：Adobe Experience Platform セグメント化サービスで作成されたすべてのセグメントをリストします。 セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}。
 * **オファー** ：特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../deliver-personalized-offers.md)を参照してください。
-* **コンテキスト**：ジャーニー で&#x200B;**メッセージ**&#x200B;アクティビティを使用する場合、このメニューからコンテキストジャーニーフィールドを使用できます。詳しくは、[この節](personalization-use-case.md)を参照してください。
+* **コンテキスト**：ジャーニー で&#x200B;**メッセージ**&#x200B;アクティビティを使用する場合、このメニューからコンテキストジャーニーフィールドを使用できます。 詳しくは、[この節](personalization-use-case.md)を参照してください。
 * **ヘルパー関数**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライズ機能のコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。。
 
 選択すると、エディターに参照が追加されます。
