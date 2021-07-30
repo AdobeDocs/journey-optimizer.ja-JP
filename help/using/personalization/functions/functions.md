@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1180'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライズ機能のコンテキストでの操作など、データの操作を実行します。パーソナライゼーション構文のガイドラインについては、[このページ](../personalization-syntax.md)を参照してください。
 
-&lt;➡️a0/>ヘルパー関数の使い方を確認する](#video)（ビデオ）[
+➡️ [ヘルパー関数の使用方法を確認](#video)（ビデオ）
 
 テンプレート言語は、次に示すように、式エディターのパーソナライゼーションドロップダウンリストで使用できるヘルパー関数で利用されます。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
         <td><a href="aggregation.md#max">Maximum</a></td><td>配列内の選択された値すべての最大値を返します。</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset of</a></td><td>この関数は、特定の配列（配列A）が別の配列（配列B）のスーパーセットであるかどうか、つまり、その配列Aに配列Bのすべての要素が含まれているかどうかを判定します</td>
+    <td><a href="arrays-list.md#superset">Superset of</a></td><td>この関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかどうか、つまり配列 A に配列 B のすべての要素が含まれているかどうかを判定します</td>
     </tr>
 </table>
 
