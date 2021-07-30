@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '222'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->公開する前に、アラートを確認して解決します。[詳細](alerts.md)
+>公開する前に、アラートを確認して解決します。[詳細情報](alerts.md)
 
 ![](assets/publish-message.png)
 
