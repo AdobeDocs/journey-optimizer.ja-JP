@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -49,13 +49,13 @@ ht-degree: 88%
 
    ![](../assets/segment-copy.png)
 
-1. 「**[!UICONTROL 動作]**」フィールドで、セグメントのエントリ、出口、またはその両方をリッスンするかどうかを選択します。
+1. 「**[!UICONTROL 動作]**」フィールドで、セグメントへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。
 
    >[!NOTE]
    >
-   >**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;セグメントパーティシペーションのステータスに対応します。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
+   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。 セグメントの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results)を参照してください。
 
-1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして配置されている場合にのみ必要です。
+1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。
 
    ![](../assets/segment7.png)
 
@@ -89,7 +89,7 @@ ht-degree: 88%
 
 ストリーミングセグメントに対してセグメントの選定を使用すると、セグメントの継続的な評価により、エントリと離脱のピークが大きくなるリスクを軽減できます。ただし、セグメント定義によって大量の顧客を同時に選定すると、ピークも生じる可能性があります。
 
-ストリーミングセグメント化について詳しくは、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja#api)を参照してください。
+ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja#api)を参照してください。
 
 ### オーバーロードの回避方法 {#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ ht-degree: 88%
 
 ![](../assets/segment-error.png)
 
-ジャーニーで使用するデータソースやアクションに対してキャッピングルールを配置し、過度の読み込みを回避します。 詳しくは、[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target=&quot;_blank&quot;}を参照してください。 キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
+ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target=&quot;_blank&quot;}を参照してください。 キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
 
 実稼動ジャーニーでセグメントを使用する前には、必ず、このセグメントに選定された個人の数を評価してください。そのためには、**[!UICONTROL セグメント]** メニューをチェックし、セグメントを開いてから&#x200B;**[!UICONTROL 経時的なプロファイル]**&#x200B;グラフで確認します。
 
