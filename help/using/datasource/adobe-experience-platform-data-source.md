@@ -8,13 +8,13 @@ level: Intermediate
 source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Platform のデータソース {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform のデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは事前設定され、組み込まれているため、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイム顧客プロファイルサービスの詳細については、[Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+Adobe Experience Platform のデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは事前設定され、組み込まれているため、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイム顧客プロファイルサービスの詳細については、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!NOTE]
 >
