@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. **条件付きリンクの追加**
 
-   次の操作では、「.edu」のEメールアドレスを持つプロファイルの場合のみ、「.org」のEメールアドレスを持つプロファイルの場合は「www.adobe.com/org&#39;」のWebサイトへのリンクを追加し、その他のすべてのプロファイルの場合はデフォルトのURL「www.adobe.com/users&#39;」を追加します。
+   次の操作では、メールアドレスが「.edu」のプロファイルについては web サイト「www.adobe.com/academia」へのリンク、メールアドレスが「.org」のプロファイルについては「www.adobe.com/org」へのリンク、その他のすべてのプロファイルについてはデフォルトの URL「www.adobe.com/users」へのリンクを追加します。
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
