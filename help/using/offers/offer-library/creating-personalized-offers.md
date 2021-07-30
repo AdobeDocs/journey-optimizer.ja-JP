@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 68%
 
    オファーの表示を、1 つまたは複数の Adobe Experience Platform セグメントのメンバーに限定できます。それには、「]**1 つまたは複数のセグメントに分類される訪問者**[!UICONTROL 」オプションを有効にしたあと、左ペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合します。
 
-   セグメントの使用方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
+   セグメントの操作方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
 
    ![](../../assets/offer-eligibility-segment.png)
 
