@@ -6,7 +6,7 @@ topic: コンテンツ管理
 role: User
 level: Beginner
 source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
