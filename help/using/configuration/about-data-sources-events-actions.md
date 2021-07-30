@@ -19,7 +19,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Journey Optimizer にはメッセージ機能があらかじめ組み込まれ�
 
 ## Adobe Experience Platform フィールドの参照 {#friendly-names-display}
 
-[イベントペイロード](../event/about-creating.md#define-the-payload-fields)、[フィールドグループペイロード](../datasource/configure-data-sources.md#define-field-groups)を定義し、[式エディター](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}でフィールドを選択すると、フィールド名に加えて表示名が表示されます。 この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
+ [イベントペイロード](../event/about-creating.md#define-the-payload-fields)と[フィールドグループペイロード](../datasource/configure-data-sources.md#define-field-groups)を定義し、[式エディター](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}でフィールドを選択する際に、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。この変数は、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。詳しくは、『[スキーマレジストリ開発者ガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja){target=&quot;_blank&quot;}』を参照してください。
+スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。この変数は、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ![](../assets/xdm-from-descriptors.png)
 
