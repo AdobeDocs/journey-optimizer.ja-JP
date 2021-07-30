@@ -7,8 +7,8 @@ role: User
 level: Beginner
 source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] は、[!DNL Adobe Experience Platform] にネイティブに構築され、統合されたリアルタイム顧客プロファイル、API ファーストのオープンフレームワーク、一元化された Offer Decisioning、人工知能（AI）と機械学習（ML）を組み合わせて、パーソナライゼーションと最適化を実現します。Journey Optimizer を使用すると、カスタマージャーニーをまたいで、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。 [!DNL Adobe Journey Optimizer] を使用すると、企業は、スケジュールに沿ったマーケティングキャンペーン（小売店向けの週別プロモーションなど）と、カスタマイズされた個々のコミュニケーション（ロイヤルティアプリの顧客が以前表示し、在庫切れだった品目のプッシュ通知など）の両方を同じアプリ内で作成して配信できます。
 
-➡️ [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} （ビデオ）
+➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target=&quot;_blank&quot;}（ビデオ）
 
 
 ## 使用例
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## アーキテクチャ
 
-[!DNL Adobe Journey Optimizer]の基本的なアーキテクチャ、統合のポイント、および[!DNL Journey Optimizer]と他のAdobeアプリケーションとの関係を理解します。
+[!DNL Adobe Journey Optimizer] の基本的なアーキテクチャ、統合のポイントおよび [!DNL Journey Optimizer] と他のアドビアプリケーションとの関係について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 
