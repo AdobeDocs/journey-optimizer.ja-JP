@@ -15,7 +15,7 @@ feature: アプリケーション設定
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
