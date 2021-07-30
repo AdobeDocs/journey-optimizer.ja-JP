@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '540'
+ht-degree: 100%
 
 ---
 
@@ -87,6 +87,6 @@ ht-degree: 0%
 
 * **[!UICONTROL エラー]** : 技術的なエラーが原因で送信できないメッセージの数。
 
-* **[!UICONTROL スパム報告]**：受信者がスパムとマークしたメッセージの数。苦情に関する詳細は、「配信品質のベストプラクティスガイド[{target=&quot;_blank&quot;}」を参照してください。](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability)
+* **[!UICONTROL スパム報告]**：受信者がスパムとマークしたメッセージの数。苦情の詳細については、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability){target=&quot;_blank&quot;}を参照してください。
 
 各ハイパーリンクをクリックすると、対応するメッセージの概要表示が開きます。[メッセージの詳細情報](create-message.md)。
