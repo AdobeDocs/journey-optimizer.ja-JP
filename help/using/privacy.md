@@ -7,7 +7,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 84%
 
 * 個人情報は常に、責任を持って倫理的に使用する。
 
-* 迷惑メール（「スパム」）を送信しない。Adobeは、顧客の生涯価値とロイヤリティを促進するうえで許可型マーケティングの原則を強く信じているので、未承諾メッセージの送信に[!DNL Adobe Journey Optimizer]を使用することは厳しく禁止しています。
+* 迷惑メール（「スパム」）を送信しない。アドビでは、顧客の生涯価値およびロイヤリティを促進するうえで許可型マーケティングの原則を重視しています。したがって、未承諾メッセージの送信に [!DNL Adobe Journey Optimizer] を使用することを固く禁止しています。
 
-[!DNL Journey Optimizer] では、様々な事前定義済み製品やカスタム製品のプロファイルを使用して、ユーザーに割り当てられた権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできる人物を管理できます。[このページ](administration/permissions.md)でユーザー権限を管理する方法を説明します。
+[!DNL Journey Optimizer] では、様々な事前定義済み製品やカスタム製品のプロファイルを使用して、ユーザーに割り当てられた権限を管理できます。これにより、様々なタイプのデータに対するアクセス、変更、エクスポートを行える社内の人物を管理できます。ユーザー権限の管理方法については、[このページ](administration/permissions.md)を参照してください。
 
-[!DNL Journey Optimizer]また、 では、リンクの開封やクリックを通して送信されたメッセージや、受信者の行動を追跡することもできます。[このページ](message-tracking.md)でのトラッキング管理について詳しく説明します。
+また、[!DNL Journey Optimizer] では、リンクの開封やクリックを通して、送信されたメッセージや受信者の行動を追跡することもできます。 Campaign でのトラッキング管理について詳しくは、[このページ](message-tracking.md)を参照してください。
 
 ## プライバシーの管理 {#privacy-management}
 
@@ -52,17 +52,17 @@ ht-degree: 84%
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（カリフォルニア州消費者プライバシー法）
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（タイ個人データ保護法）
 
-[!DNL Journey Optimizer] は、Adobe Experience Platform でおこなわれたデータセットの変更のほとんどを継承しています。
+[!DNL Journey Optimizer] は、Adobe Experience Platform で行われたデータセット変更のほとんどを継承しています。
 
-それにより、プライバシーリクエスト（アクセス権および忘れられる権利）は Experience Platform で管理されます。[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target=&quot;_blank&quot;}を使用してリクエストを送信し、[プライバシーリクエスト](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}を作成する際に、製品リストから&#x200B;**Profile**&#x200B;と&#x200B;**AEP Data Lake**&#x200B;を選択する必要があります。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
+その結果、プライバシーリクエスト（アクセス権および忘れられる権利）は Experience Platform で管理されます。  [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target=&quot;_blank&quot;} を使用してリクエストを送信し、[プライバシーリクエストを作成](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}する際に、製品リストから「**プロファイル**」と「**AEP Data Lake**」を選択する必要があります。<!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
->[同意管理](../../help/using/consent.md)は Journey Optimizer 内で直接取り扱います。
+>[同意管理](../../help/using/consent.md)は、Journey Optimizer 内で直接取り扱います。
 
 ## Adobe Experience Cloud のプライバシー {#experience-cloud-privacy}
 
-[!DNL Journey Optimizer] は、Adobe Experience Cloudソリューションの一部です。プライバシーの取り扱いは、Adobe Experience Cloud の原則に従います。Adobe Experience Cloudのプライバシーについて詳しくは、[このページ](https://www.adobe.com/jp/privacy/experience-cloud.html)を参照してください。
+[!DNL Journey Optimizer] は、Adobe Experience Cloud ソリューションの一部です。 プライバシーの取り扱いは、Adobe Experience Cloud の一般原則に従います。Adobe Experience Cloud のプライバシーについて詳しくは、[このページ](https://www.adobe.com/jp/privacy/experience-cloud.html)を参照してください。
 
 Adobe Experience Cloud ソリューションを使用する会社は、どの情報を収集してAdobe Experience Cloud アカウントに送信するかを選択します。収集される情報のタイプの例としては、web 閲覧アクティビティ、IP アドレス、モバイルデバイスからの位置情報、キャンペーン成功率、購入品目、買い物かごに入れた品目などがあります。詳しくは、[アドビのプライバシーポリシー](https://www.adobe.com/jp/privacy/policy.html)をご覧ください。
 
@@ -73,6 +73,6 @@ Adobe Experience Cloud ソリューションを使用する会社は、どの情
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer]ユーザーは、すべてのAdobe製品に関して、アプリやWebサイトを通じて収集した共有情報をオプトアウトできます。 詳しくは、[Adobe Experience Cloud の使用状況に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) をご覧ください。
+>すべてのアドビ製品と同様に、[!DNL Adobe Journey Optimizer] ユーザーは、アプリや web サイトを通じて収集されたユーザー情報の共有をオプトアウトできます。 詳しくは、[Adobe Experience Cloud 利用情報に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html)を参照してください。
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
