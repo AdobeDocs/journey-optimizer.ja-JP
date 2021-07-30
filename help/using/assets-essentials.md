@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> [!DNL Adobe Experience Manager Assets Essentials]を操作するには、組織に[!DNL Assets Essentials]をデプロイし、[!DNL Assets Essentials]へのアクセスを必要とするユーザーが&#x200B;**Assets Essentials Consumer Users**&#x200B;または&#x200B;**Assets Essentials Users**&#x200B;製品プロファイルの一部であることを確認する必要があります。 <br> 詳しくは、このページ [](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}を参照してください。
+> [!DNL Adobe Experience Manager Assets Essentials]を操作するには、組織に[!DNL Assets Essentials]をデプロイし、[!DNL Assets Essentials]へのアクセスを必要とするユーザーが&#x200B;**Assets Essentials Consumer Users**&#x200B;または&#x200B;**Assets Essentials Users**&#x200B;製品プロファイルの一部であることを確認する必要があります。 <br> 詳しくは、このページ [](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 [!DNL Adobe Experience Manager Assets Essentials] は、メッセージの入力に使用できるアセットの単一の一元的なリポジトリを提供します。[!DNL Adobe Journey Optimizer]から&#x200B;**[!UICONTROL Assets]**&#x200B;セクションを通じて直接アクセスできます。 また、Eメールコンテンツをデザインする際に、アセットやフォルダーにアクセスすることもできます。 [Eメールデザインの詳細を説明します](design-emails.md)。
 
-[!DNL Assets Essentials]に関する詳細な手順については、[Adobe Experience Manager Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}を参照してください。
+[!DNL Assets Essentials]に関する詳細な手順については、[Adobe Experience Manager Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## アセットのアップロードと挿入{#add-asset}
 
