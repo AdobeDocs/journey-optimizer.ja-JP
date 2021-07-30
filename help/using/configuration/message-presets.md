@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 メッセージプリセットを設定すると、メッセージを作成する際に「**[!UICONTROL プリセット]**」リストからメッセージプリセットを選択できるようになります。
 
-&lt;a0➡️/>このビデオでは、Eメールプリセットの作成と使用方法を説明します。](#video-presets)[
+➡️ [メールプリセットの作成および使用方法については、このビデオを参照](#video-presets)
 
 ## メッセージプリセットの作成 {#create-message-preset}
 
@@ -110,7 +110,7 @@ ht-degree: 95%
    * IP プールの検証
    * A/PTR レコード、t/m/res サブドメインの検証
 
-1. チェックが正常に完了すると、メッセージプリセットに&#x200B;**[!UICONTROL アクティブ]**&#x200B;ステータスが設定されます。 メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -152,6 +152,6 @@ ht-degree: 95%
 
 ## ハウツービデオ{#video-presets}
 
-メッセージプリセットの作成方法、メッセージプリセットの使用方法、サブドメインをデリゲートしてIPプールを作成する方法について説明します。
+メッセージプリセットの作成方法と使用方法、サブドメインのデリゲート方法および IP プールの作成方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
