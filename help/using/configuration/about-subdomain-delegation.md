@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,5 +35,5 @@ ht-degree: 94%
 **詳細**
 
 * インターフェイスから直接](delegate-subdomain.md)サブドメインをデリゲート[する方法については、こちらを参照してください。
-* GmailアドレスへのEメール配信を確実におこなうために、Google TXTレコード](google-txt.md)をサブドメインに[追加する方法を説明します。
-* サブドメイン用に生成された ](ptr-records.md)PTR レコードにアクセス[し、送信メールサーバーで検証する方法を学ぶ
+* Gmail アドレスへのメールの配信を確実に行うためにサブドメインに [Google TXT レコードを追加](google-txt.md)する方法を説明します
+* サブドメイン用に生成された ](ptr-records.md)PTR レコードにアクセス[して送信メールサーバーで検証できるようにする方法を説明します
