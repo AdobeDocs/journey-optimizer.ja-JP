@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ![](../../assets/dataset-preview.png)
 
-データセットの参照と使用方法の詳細については、[このページ](../../get-started-datasets.md)を参照してください。
+データセットの参照および使用方法について詳しくは、[このページ](../../get-started-datasets.md)を参照してください。
