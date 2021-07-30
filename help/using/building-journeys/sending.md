@@ -2,7 +2,7 @@
 title: ジャーニーの実行の開始
 description: ジャーニーを開始し、メッセージを送信する方法を学ぶ
 source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
