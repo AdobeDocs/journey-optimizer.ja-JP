@@ -7,14 +7,14 @@ role: Data Engineer
 level: Experienced
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 100%
 
 ---
 
-# 決定ルールの検索
+# 決定の検索
 
-特定の決定（旧称オファーアクティビティ）を検索するには、[!DNL Offer Library] APIに対して、決定`@id`またはリクエストパスに決定の名前を含むGETリクエストを実行します。
+特定の決定（旧称：オファーアクティビティ）を検索するには、リクエストパスに決定 `@id` または決定の名前を含んだ GET リクエストを [!DNL Offer Library] API に対して実行します。
 
 **API 形式**
 
