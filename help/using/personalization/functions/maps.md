@@ -6,7 +6,7 @@ topic: パーソナライゼーション
 role: Data Engineer
 level: Experienced
 source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%
 
