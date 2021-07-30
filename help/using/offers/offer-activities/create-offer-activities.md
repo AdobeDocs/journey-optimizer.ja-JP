@@ -8,13 +8,13 @@ level: Intermediate
 source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 55%
+ht-degree: 58%
 
 ---
 
 # 決定の作成 {#create-offer-activities}
 
-決定（旧称：オファーアクティビティ）は、オファーのコンテナです。配信のターゲットに応じて、提供する最適なオファーを選ぶために Offer Decisioning エンジンを使用します。
+決定（旧称：オファーアクティビティ）はオファーのコンテナで、配信のターゲットに応じて、配信する最適なオファーを選ぶために Offer Decisioning エンジンを利用します。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -37,15 +37,15 @@ ht-degree: 55%
 
    ![](../../assets/activities-name.png)
 
-## 判定範囲の追加 {#add-decision-scopes}
+## 決定範囲の追加 {#add-decision-scopes}
 
-1. リストからプレースメントをドラッグ＆ドロップして決定に追加し、「 **[!UICONTROL コレクションを追加]**」をクリックします。
+1. リストからプレースメントをドラッグ＆ドロップして決定に追加したあと、「**[!UICONTROL コレクションを追加]**」をクリックします。
 
    ![](../../assets/activities-placement.png)
 
    >[!NOTE]
    >
-   >同じ配置を、判定で複数回選択できます。
+   >同じプレースメントを、決定で複数回選択できます。
 
 1. 考慮するオファーを含んだコレクションを選択し、「**[!UICONTROL 追加]**」をクリックします。
 
@@ -67,7 +67,7 @@ ht-degree: 55%
 
    左側のペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合したあと、「**[!UICONTROL 選択]**」をクリックして確認します。
 
-   セグメントの使用方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
+   セグメントの操作方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
 
    ![](../../assets/activity_constraint_segment2.png)
 
