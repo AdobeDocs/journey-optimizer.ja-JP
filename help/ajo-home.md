@@ -1,7 +1,7 @@
 ---
 keywords: Journey Optimizer;ホーム;人気のトピック
 title: Journey Optimizer 製品ドキュメント
-description: Adobe Journey Optimizer製品ヘルプセンター
+description: Adobe Journey Optimizer 製品ヘルプセンター
 feature: 概要
 topic: コンテンツ管理
 role: User
@@ -9,11 +9,11 @@ level: Beginner
 source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# Adobe[!DNL Journey Optimizer]ドキュメント {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -21,46 +21,46 @@ ht-degree: 43%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <div><strong>はじめに</strong>
+    <div><strong>今すぐはじめる</strong>
     </div>
     <p>
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">[!DNL Journey Optimizer]とは</a>
+      <a href="using/get-started.md">Journey Optimizer とは</a>
     </div>
-    <p>主な機能と使い始める方法を確認する
+    <p>主な機能と使い始める方法を説明します
     <p>
     <div>
-      <a href="using/design-emails.md">Eメールコンテンツのデザイン</a>
+      <a href="using/design-emails.md">メールコンテンツの設計</a>
     </div>
     <p>
-    新しいEメールのデザインまたは既存のHTMLコンテンツの読み込み
+    新しいメールの設計または既存の HTML コンテンツのインポートについて説明します
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">メッセージの送信</a>
     </div>
-    <p>カスタマージャーニーにプッシュメッセージとEメールメッセージを追加する方法を説明します
+    <p>カスタマージャーニーへのプッシュメッセージおよびメールメッセージの追加方法について説明します
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">最初のジャーニーの作成</a>
+    <a href="using/building-journeys/journeys-uc.md">初めてのジャーニーの作成</a>
     </div>
-    <p>ジャーニーの構築と実行方法を説明します
+    <p>ジャーニーの作成および実行方法を説明します
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]の設定</a>
+    <a href="using/configuration/get-started-configuration.md">Journey Optimizer の設定</a>
     </div>
-    <p>[!DNL Journey Optimizer]を設定するための主な手順について説明します
+    <p>Journey Optimizer を設定するための主要な手順を説明します
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]へのアクセス権の付与</a>
+    <a href="using/administration/permissions-overview.md">Journey Optimizer へのアクセス権の付与</a>
     </div>
-    <p>[!DNL Journey Optimizer]ユーザーに割り当てる権限を定義および管理する方法について説明します
+    <p>Journey Optimizer ユーザーに割り当てる権限を定義および管理する方法について説明します
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
     </div>
-    <p>オファーを作成し、顧客に最適なオファーとエクスペリエンスを提供する
+    <p>オファーを作成し最適なオファーとエクスペリエンスを顧客に提供する方法を説明します
     <p>
     <p>
     <div><strong>その他のリソース</strong>
@@ -69,12 +69,12 @@ ht-degree: 43%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizerの製品説明</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=ja" target="_blank">Adobe Journey Optimizer 製品の説明</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja" target="_blank">Adobe Experience Platformドキュメント</a>
+      <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja" target="_blank">Adobe Experience Platform のドキュメント</a>
     </li>
     </div>
       <div>
@@ -102,7 +102,7 @@ ht-degree: 43%
       <a href="using/create-message.md">メッセージ</a>
     </li>
     <p>
-    <p>判定管理</p>
+    <p>決定管理</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">オファー</a>
     </li>
