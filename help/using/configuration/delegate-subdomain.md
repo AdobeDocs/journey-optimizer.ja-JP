@@ -18,7 +18,7 @@ level: Intermediate
 source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 90%
 
    >[!CAUTION]
    >
-   >無効なサブドメインをAdobeにデリゲートできません。 組織が所有する有効なサブドメイン（例：marketing.yourcompany.com）を入力してください。
+   >無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（例：marketing.yourcompany.com）を入力してください。
    >
    >現在、email.marketing.yourcompany.comなどのマルチレベルサブドメインはサポートされていません。
 
@@ -79,7 +79,7 @@ ht-degree: 90%
 
    ![](../assets/subdomain-processing.png)
 
-1. チェックが正常に完了すると、サブドメインは&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスを取得します。 メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;になります。 メッセージの配信に使用する準備が整いました。
 
    <!-- later on, users will be notified in Pulse -->
 
