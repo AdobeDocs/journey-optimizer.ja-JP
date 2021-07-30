@@ -1,24 +1,24 @@
 ---
-title: パーソナライゼーションのユースケース&amp；コロン；注文状況通知
-description: プロファイル、オファーの決定、コンテキスト情報を使用してメッセージをパーソナライズする方法を説明します
+title: パーソナライゼーションのユースケース&colon; 注文ステータス通知
+description: プロファイル、Offer Decisioning およびコンテキスト情報を使用してメッセージをパーソナライズする方法を説明します
 feature: パーソナライゼーション
 topic: パーソナライゼーション
 role: Data Engineer
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 100%
 
 ---
 
 
-# パーソナライゼーションのユースケース:注文状況通知 {#personalization-use-case}
+# パーソナライゼーションのユースケース：注文ステータス通知 {#personalization-use-case}
 
 このユースケースでは、1 つのプッシュ通知メッセージで複数のタイプのパーソナライゼーションを使用する方法を確認できます。次の 3 種類のパーソナライゼーションが使用されます。
 
 * **プロファイル**：プロファイルフィールドに基づくメッセージのパーソナライゼーション
-* **オファーの決定**:offer decisioning変数に基づくパーソナライゼーション
+* **Offer Decisioning**：Offer Decisioning 変数に基づくパーソナライゼーション
 * **コンテキスト**：ジャーニーのコンテキストデータに基づくパーソナライゼーション
 
 この例では、顧客の注文が更新されるたびにイベントを [!DNL Journey Optimizer] にプッシュすることを目標としています。その後、注文に関する情報およびパーソナライズされたオファーを含むプッシュ通知が顧客に送信されます
@@ -82,7 +82,7 @@ ht-degree: 0%
 1. **コンテキスト**&#x200B;カテゴリを選択します。この項目は、ジャーニーでメッセージにコンテキストデータが渡された場合にのみ使用できます。「**Journey Orchestration**」をクリックします。次のコンテキスト情報が表示されます。
 
    * **イベント**：このカテゴリは、ジャーニーの&#x200B;**メッセージ**&#x200B;アクティビティの前に配置されたイベントのすべてのフィールドを再グループ化します。
-   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、[Journey Orchestrationのドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=ja#building-advanced-conditions-journeys?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=ja#building-advanced-conditions-journeys?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
    ![](assets/perso-uc10.png)
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc17.png)
 
-1. テストに合格するよう、別の値を入力します。テストモードは、テストプロファイルでのみ機能します。プロファイル識別子は、テストプロファイルに対応している必要があります。 「**送信**」をクリックします。
+1. テストに合格するよう、別の値を入力します。テストモードは、テストプロファイルでのみ機能します。プロファイル識別子は、テストプロファイルに対応している必要があります。「**送信**」をクリックします。
 
    ![](assets/perso-uc18.png)
 
