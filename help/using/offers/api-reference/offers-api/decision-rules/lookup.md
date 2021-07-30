@@ -6,13 +6,13 @@ topic: 統合
 role: Data Engineer
 level: Experienced
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 
 ---
 
-# 決定ルールの検索
+# 決定の検索 rules
 
 [!DNL Offer Library] API に対してリクエストパスに決定ルールの `@id` または名前を含める GET リクエストを実行することで、特定の決定ルールを検索できます。
 
