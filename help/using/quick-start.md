@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 78%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 78%
 
 * **ユーザー権限の設定**：[!DNL Adobe Journey Optimizer] にログインし、チームメンバーにアクセス権を与えます。[詳細を読む](../using/administration/permissions.md)
 
-* **デプロイ[!DNL Adobe Experience Manager Assets Essentials]**:メッセージのアセットや画像を管理するには、組織にをデプロイ [!DNL Assets Essentials] し、へのアクセスを必要とするユーザーが、 [!DNL Assets Essentials]Assets Essentials Consumer Users(または **Assets Essentials** UsersProduct)プロファイルの一部であることを確認する必要がありま **** す。[詳細を表示](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
+* **デプロイ[!DNL Adobe Experience Manager Assets Essentials]**：メッセージ内のアセットや画像を管理するには、組織に [!DNL Assets Essentials] をデプロイし、[!DNL Assets Essentials] へのアクセスを必要とするユーザーが **Assets Essentials Consumer Users** または **Assets Essentials Users** 製品プロファイルに属していることを確認する必要があります。 [詳細を読む](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}
 
 * **チャネルの設定**：メール通知とプッシュ通知の設定を定義する。[詳細を読む](../using/configuration/get-started-configuration.md)
 
@@ -36,7 +36,7 @@ ht-degree: 78%
 
    * [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)では、データセットのプレビュー方法と作成方法を説明します。{target=&quot;_blank&quot;}
 
-   * [Adobe Experience Platformのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}でID名前空間を作成する方法を説明します
+   * ID 名前空間を作成する方法については、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}を参照してください
 
    * テストプロファイルの作成方法については、 [このページ](../using/building-journeys/creating-test-profiles.md)を参照してください。
 
@@ -57,4 +57,4 @@ ht-degree: 78%
 
 * **ジャーニーの作成**：メッセージの送信、コンテキストデータの活用、オーディエンスの絞り込み、複数手順のユースケースの設計と実行をおこないます。[詳細を読む](building-journeys/journey.md)
 
-* **メッセージとジャーニーの監視**:メッセージの実行、メッセージおよびジャーニーレポートの確認、フォローアップ配信品質の指標を制御します。[詳細を読む](message-monitoring.md)
+* **メッセージとジャーニーの監視**：メッセージ実行の制御、メッセージおよびジャーニーレポートの確認、配信品質指標のフォローアップを行います。 [詳細を読む](message-monitoring.md)
