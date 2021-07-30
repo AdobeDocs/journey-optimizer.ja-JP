@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
+   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
 
    ![](../assets/read-segment-selection.png)
 
@@ -68,7 +68,7 @@ ht-degree: 87%
 
    ![](../assets/read-segment-schedule.png)
 
-   デフォルトでは、セグメントは可能な限り早くジャーニー&#x200B;**[!UICONTROL に入ります。]** セグメントを特定の日時または定期的にジャーニーにエントリさせる場合は、リストから目的の値を選択します。
+   デフォルトでは、セグメントは&#x200B;**[!UICONTROL 早急に]**&#x200B;ジャーニーにエントリします。セグメントを特定の日時または定期的にジャーニーにエントリさせる場合は、リストから目的の値を選択します。
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ ht-degree: 87%
 
    ![](../assets/read-segment-log.png)
 
-テストが成功したら、ジャーニーを公開できます（[ジャーニーの公開](publishing-the-journey.md)を参照）。 セグメントに属する個人は、ジャーニーのプロパティの「**[!UICONTROL スケジューラー]**」セクションで指定された日時にジャーニーにエントリします。
+テストが正常に完了すると、ジャーニーを公開できます（[ジャーニーの公開](publishing-the-journey.md)を参照）。セグメントに属する個人は、ジャーニーのプロパティの「**[!UICONTROL スケジューラー]**」セクションで指定された日時にジャーニーにエントリします。
 
 >[!NOTE]
 >
