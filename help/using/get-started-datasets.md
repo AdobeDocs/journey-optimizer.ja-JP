@@ -1,44 +1,44 @@
 ---
-title: データセットの概要
-description: Adobe Journey OptimizerでのAdobe Experience Platformデータセットの使用方法を説明します
+title: データセットの基本を学ぶ
+description: Adobe Journey Optimizer での Adobe Experience Platform データセットの使用方法を説明します
 feature: データセット
 role: User
 level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
-# データセットの概要 {#datasets-gs}
+# データセットの基本を学ぶ {#datasets-gs}
 
-Adobe Experience Platformに取り込まれるすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。
+Adobe Experience Platform に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。
 
-[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}でデータセットを作成する方法を説明します。
+データセットの作成方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-Adobe Experience Platformへのデータの追加は、プロファイルを構築するための基盤です。 その後、[!DNL Adobe Journey Optimizer]でプロファイルを活用できます。 最初にスキーマを定義し、ETLツールを使用してデータを準備および標準化し、次にスキーマに基づいてデータセットを作成します。
+Adobe Experience Platform にデータを追加することは、プロファイルを作成するための基盤となります。 そうすれば、[!DNL Adobe Journey Optimizer] でプロファイルを活用できるようになります。 まず、スキーマを定義し、ETL ツールを使用してデータを準備および標準化したあと、スキーマに基づいてデータセットを作成します。
 
-&lt;a0➡️/>データセット](#video-dataset)の作成と設定の方法（ビデオ）[
+➡️ [データセットの作成および設定方法を確認](#video-dataset)（ビデオ）
 
-[!DNL Adobe Journey Optimizer]ユーザーインターフェイスの&#x200B;**データセット**&#x200B;ワークスペースを使用すると、データの調査とデータセットの作成ができます。
+[!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**データセット**&#x200B;ワークスペースを使用すると、データの調査とデータセットの作成を行えます。
 
 ![](assets/datasets-home.png)
 
-[データ取得の概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}でデータセットUIを使用する方法を説明します。
+データセット UI の使用方法については、[データ取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-CSVファイルをXDMスキーマにマッピングする手順を追ったドキュメントは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja){target=&quot;_blank&quot;}で入手できます。
+CSV ファイルを XDM スキーマにマッピングする手順については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 
 ## ハウツービデオ{#video-dataset}
 
-データセットの作成、スキーマへのマッピング、データの追加、データの取り込みの確認の方法について説明します。
+データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 **関連トピック**
 
-* [スキーマ、データセット、データの取り込みを作成し、Journey Optimizerにテストプロファイルを追加する](building-journeys/creating-test-profiles.md)
-* [ストリーミング取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target=&quot;_blank&quot;}
-* [データをAdobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target=&quot;_blank&quot;}に取り込む
+* [スキーマとデータセットの作成およびデータの取り込みによる Journey Optimizer へのテストプロファイルの追加](building-journeys/creating-test-profiles.md)
+* [ストリーミング取得の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target=&quot;_blank&quot;}
+* [Adobe Experience Platform へのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target=&quot;_blank&quot;}
 
