@@ -1,10 +1,10 @@
 ---
 title: リリースノート
 description: Journey Optimizer リリースノート
-source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
+source-git-commit: a1800c333bfbee178682d773c729aad7e23d86d0
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 29%
+source-wordcount: '397'
+ht-degree: 37%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 29%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platformでは、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。 [!DNL Journey Optimizer]は、リンクされたスキーマからのデータを活用できるようになりました。</p>
+<p>Adobe Experience Platform では、あるデータセットを別のデータセットのルックアップテーブルとして使用するために、スキーマ間の関係を定義できます。[!DNL Journey Optimizer]は、リンクされたスキーマからのデータを活用できるようになりました。</p>
 <p>これらのフィールドは、単一のイベント設定、ジャーニー条件、メッセージのパーソナライゼーション、カスタムアクションのパーソナライゼーションで使用できます。</p>
-<p>詳しくは、 <a href="event/experience-event-schema.md#leverage_schema_relationships">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="event/experience-event-schema.md#leverage_schema_relationships">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -54,18 +54,20 @@ ht-degree: 29%
 **ジャーニー**
 
 * 同じサンドボックス内で同時に実行されるすべての読み取りセグメントの全体的なスロットリング率は、1秒あたり17,000メッセージに制限されます。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* **Cache duration**&#x200B;フィールドがデータソース設定ペインから削除されました。 [詳細を読む](datasource/about-data-sources.md)
+* **キャッシュ時間**&#x200B;フィールドがデータソース設定ペインから削除されました。[詳細を読む](datasource/about-data-sources.md)
 * 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。 [詳細を読む](configuration/external-systems.md#capping)
 * ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。 [詳細を読む](building-journeys/journey-gs.md#change-properties)
 * ジャーニーリスト画面にジャーニータイプフィルターが追加されました。 [詳細を読む](user-interface.md#section_lgm_hpz_pgb)
 * 「セグメントの読み取り」アクティビティに&#x200B;**[!UICONTROL Throttling rate]**&#x200B;パラメーターが追加されました。 [詳細を読む](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **メッセージのプレビューとテスト**
+
 * IDと名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。 [詳細を読む](preview.md#preview-your-messages)
 * 配達確認のテストEメールの数が10個に制限されるようになりました。
 * 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。 [詳細を読む](preview.md#send-proofs)
 
 **パーソナライゼーション式エディター**
+
 * ヘルパードロップダウンリストの名前が変更され、順序が変更されました。
 
 ### 修正点
@@ -75,3 +77,5 @@ ht-degree: 29%
 * PTRレコード画面にIP情報が表示されない問題を修正しました。
 * 式エディター内のオファーレールのローカライゼーションが実装されました。
 * 情報ポップアップの間隔の誤りを修正しました。
+* `background-image`プロパティを含む内部スタイルシートがサポートされていないHTMLファイルをアップロードする際のEメールデザイナーの問題を修正しました。
+
