@@ -15,7 +15,7 @@ feature: アプリケーション設定
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
@@ -76,7 +76,7 @@ ht-degree: 100%
 配信エラーの理由として考えられるものを以下に示します。
 
 | 理由 | 説明 | 抑制カテゴリ |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL 未確定]** | 受信者ドメインメッセージ転送エージェント（MTA）から受け取ったバウンスの理由を識別できませんでした。 | 無視 |
 | **[!UICONTROL 無効な受信者]** | 受信者が無効、または存在しません。 | ハード |
 | **[!UICONTROL ソフトバウンス]** | メッセージソフトは、この表に示すソフトエラー以外の理由（ISP が推奨する許可率を超えた場合など）でバウンスしました。 | ソフト |
