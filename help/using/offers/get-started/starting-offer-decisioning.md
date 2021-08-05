@@ -5,7 +5,7 @@ feature: オファー
 topic: 統合
 role: User
 level: Beginner
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 100%
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 * 決定管理は、顧客がサポートチームに連絡する際のエクスペリエンスを向上できるようサポートします。決定管理 API を使用すると、顧客が取り消したオファーと次善のオファーに関する情報を、コールセンター担当者のポータルに表示することができます。
 
-   ![](../../assets/call-center.png)
+   ![](../../assets/do-not-localize/call-center.png)
 
 
 ## 用語集 {#glossary}
