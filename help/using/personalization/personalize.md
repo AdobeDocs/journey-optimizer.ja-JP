@@ -1,8 +1,8 @@
 ---
 title: Journey Optimizer でのコンテンツのパーソナライズ
 description: パーソナライゼーションの概要
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: パーソナライゼーション
+topic: パーソナライゼーション
 role: Data Engineer
 level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
