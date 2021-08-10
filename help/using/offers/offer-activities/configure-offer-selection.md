@@ -8,13 +8,13 @@ level: Intermediate
 source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 決定でのオファー選択の設定 {#offers-selection-in-activities}
 
-指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、決定（旧称：オファーアクティビティ）を設定する際に各プロファイルに最適なオファーを選択する方法を選べます。 オファーは次の方法でランク付けできます。
+複数のオファーが特定のプレースメントの資格を持つ場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法（旧称：オファーアクティビティ）を選択できます。オファーのランク付けは、次の基準で行えます。
 * オファーの優先度
 * ランキング式
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ![](../../assets/offer-priority.png)
 
-オファーの優先度スコアは、オファーの作成時に割り当てられます。 パーソナライズされたオファーを作成する方法については、この節](../offer-library/creating-personalized-offers.md)を参照してください。[
+オファーの優先順位スコアは、オファーの作成時に割り当てられます。パーソナライズされたオファーを作成する方法については、[この節](../offer-library/creating-personalized-offers.md)を参照してください。
 
 ## ランキング式 {#assign-ranking-formula}
 
@@ -38,11 +38,11 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
-1. オファーを含んだプレースメントを追加します。 [プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
+1. オファーを含むプレースメントを追加します。[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
 
-1. プレースメントごとにコレクションを追加します。 [コレクションの作成](../offer-library/creating-collections.md)を参照してください。
+1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-1. ドロップダウンリストから「**[!UICONTROL ランキング]**」を選択してオファーをランク付けしたあと、「**[!UICONTROL ランキングを追加]**」をクリックします。
+1. ドロップダウンリストから「**[!UICONTROL ランキング]**」を選択してオファーをランク付けし、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
    ![](../../assets/offer-activity-ranking.png)
 
