@@ -4,7 +4,7 @@ description: 最新のドキュメントの更新について学ぶ
 source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 73%
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](personalization/personalization-use-case-helper-functions.md)が追加されました
 * 「セグメントを読み取り」のドキュメントが更新され、具体化されたセグメントの影響が反映されました。[詳細を読む](building-journeys/read-segment.md)
 * ジャーニーの制限が更新されました。 [詳細を読む](building-journeys/limitations.md)
-* 「決定でのオファーの選択の設定」の節を更新しました。 [詳細を読む](offers/offer-activities/configure-offer-selection.md)
-* イベントベースのオファーは現在サポートされていないという警告を追加しました。 [詳細を読む](offers/offer-library/creating-personalized-offers.md#eligibility)
-* Decision Managementの新しい「[!UICONTROL 概要]」タブがドキュメントに追加されました。 [詳細を読む](offers/get-started/user-interface.md#overview)
-* オファーおよび判定リストで使用可能なアクションを説明する新しい節が追加されました。[オファーリスト](offers/offer-library/creating-personalized-offers.md#offer-list)と[判定リスト](offers/offer-activities/create-offer-activities.md#decision-list)。
+* 「決定でのオファー選択の設定」の節が更新されました。 [詳細情報](offers/offer-activities/configure-offer-selection.md)
+* イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](offers/offer-library/creating-personalized-offers.md#eligibility)
+* 決定管理の新しい「[!UICONTROL 概要]」タブのドキュメントが追加されました。[詳細情報](offers/get-started/user-interface.md#overview)
+* オファーリストと決定リストで利用できるアクションを説明するために、[オファーリスト](offers/offer-library/creating-personalized-offers.md#offer-list)と[決定リスト](offers/offer-activities/create-offer-activities.md#decision-list)という新しい節が追加されました。
