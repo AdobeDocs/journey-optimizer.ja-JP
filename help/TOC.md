@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 98%
    + 決定の作成と管理 {#create-manage-activities}
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
-   + 判定管理レポートの作成{#create-reports}
+   + 決定管理レポートの作成 {#create-reports}
       + [決定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
