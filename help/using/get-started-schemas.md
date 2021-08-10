@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 ![](assets/schemas-home.png)
 
-スキーマユーザーインターフェイスの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}を参照してください
+スキーマユーザーインターフェイスの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 スキーマエディターを使用してスキーマを作成する手順については、[このページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
