@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
    * [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)では、データセットのプレビュー方法と作成方法を説明します。{target=&quot;_blank&quot;}
 
-   * ID 名前空間を作成する方法については、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}を参照してください
+   * ID 名前空間を作成する方法については、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces){target=&quot;_blank&quot;}を参照してください
 
    * テストプロファイルの作成方法については、 [このページ](../using/building-journeys/creating-test-profiles.md)を参照してください。
 
