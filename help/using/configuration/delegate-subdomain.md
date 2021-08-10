@@ -18,7 +18,7 @@ level: Intermediate
 source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 94%
 
    >[!CAUTION]
    >
-   >無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（例：marketing.yourcompany.com）を入力してください。
+   >無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
    >
-   >現在、email.marketing.yourcompany.comなどのマルチレベルサブドメインはサポートされていません。
+   >email.marketing.yourcompany.com などマルチレベルのサブドメインは、現在サポートされていません。
 
 1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
