@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールに名前を付け、説明を入力したあと、ルールを必要に応じて設定します。
 
-   そのためには、ルールの条件を作成する際に役立つ&#x200B;**セグメントビルダー**&#x200B;を使用できます。 [詳細情報](../../segment/about-segments.md)
+   それには、ルールの条件の作成に役立つ&#x200B;**セグメントビルダー**&#x200B;を使用できます。[詳細情報](../../segment/about-segments.md)
 
    この例では、「ゴールド」ロイヤルティレベルの顧客がルールのターゲットになります。
 
@@ -50,7 +50,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 >[!CAUTION]
 >
->イベントベースのオファーは、現在[!DNL Journey Optimizer]ではサポートされていません。 [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}に基づく決定ルールを作成すると、オファーで活用できなくなります。
+>イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
 
 ## チュートリアルビデオ {#video}
 
