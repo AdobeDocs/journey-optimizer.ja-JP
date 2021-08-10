@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 75%
 
 **[!UICONTROL オファー]**&#x200B;メニューを使用して、パーソナライズされたフォールバックオファーを管理し、整理してコレクションにまとめ、決定を作成して配信します。
 
-* **[!UICONTROL 概要]**:初めて [!DNL Offer Decisioning]?画面上の手順に従って、配置、オファーおよびコレクションの設定を開始します。 [!DNL Offer Decisioning]について既に理解している場合は、最新のオファー、コレクション、意思決定の概要を把握します。 [概要](#overview)を参照してください。
+* **[!UICONTROL 概要]**：[!DNL Offer Decisioning] を使用するのは初めてですか？画面上の手順に従って、プレースメント、オファーおよびコレクションの設定を開始します。[!DNL Offer Decisioning] について既に熟知している場合は、最新のオファー、コレクションおよび決定の概要を把握します。[概要](#overview)を参照してください。
 
 * **[!UICONTROL オファー]**：パーソナライズされたフォールバックオファーにアクセスするか、新しいオファーを作成します。[オファーの作成](../offer-library/creating-personalized-offers.md)および[フォールバックオファーの作成](../offer-library/creating-fallback-offers.md)を参照してください。
 
@@ -42,25 +42,25 @@ ht-degree: 75%
 
 ## 概要 {#overview}
 
-[!DNL Offer Decisioning]を初めて使用する場合は、「**[!UICONTROL 概要]**」タブで、最初のオファー決定の作成を開始するために必要な主な手順を順に説明します。
+[!DNL Offer Decisioning] を初めて使用する場合は、初めてのオファー決定の作成を開始するために必要な主な手順を「**[!UICONTROL 概要]**」タブで確認します。
 
 ![](../../assets/overview_onboarding.png)
 
-画面上の手順に従って、配置、オファーおよびコレクションの作成を開始します。
+画面上の手順に従って、プレースメント、オファーおよびコレクションの作成を開始します。
 
-これらの最初の手順が完了すると、オファーの決定（旧称：オファーアクティビティ）を作成するよう求められます。
+これらの最初の手順が完了すると、オファー決定（旧称：オファーアクティビティ）を作成するよう求められます。
 
 ![](../../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
->オファーを作成し、判定で使用する主な手順については、[この節](../offer-library/key-steps.md)を参照してください。
+>オファーを作成して決定で使用するための主な手順については、[この節](../offer-library/key-steps.md)を参照してください。
 
-[!DNL Offer Decisioning]に詳しく、少なくとも1つのオファーの決定を作成済みの場合は、「**[!UICONTROL 概要]**」タブに最新のオファー、コレクション、決定が表示されます。
+[!DNL Offer Decisioning] の知識があり、少なくとも 1 つのオファー決定を作成済みの場合は、「**[!UICONTROL 概要]**」タブに最新のオファー、コレクションおよび決定が表示されます。
 
 オファーまたは決定をクリックして、選択した項目の詳細に直接アクセスします。
 
-「**[!UICONTROL すべて表示]**」ボタンをクリックして、オファー、コレクションまたはデシジョンリストにアクセスします。
+「**[!UICONTROL すべて表示]**」ボタンをクリックして、オファー、コレクションまたは決定リストにアクセスします。
 
 ![](../../assets/overview_view-all.png)
 
