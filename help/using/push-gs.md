@@ -1,11 +1,10 @@
 ---
 title: プッシュ設定の概要
 description: プッシュ通知のデータフローとコンポーネントについて
-feature: アプリケーション設定
-topic: プッシュ
+feature: アプリケーション設定, プッシュ
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
