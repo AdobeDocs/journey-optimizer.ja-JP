@@ -1,14 +1,14 @@
 ---
 title: パーソナライズされたオファーの作成
 description: Adobe Experience Platform でパーソナライズされたオファーを作成する方法を説明します。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 100%
+source-wordcount: '1223'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL オファー属性]**」セクションでは、レポートと分析のためにキーと値のペアをオファーに関連付けることができます。
+   >**[!UICONTROL オファー属性]**&#x200B;セクションを使用すると、レポートや分析のために、キーと値のペアをオファーに関連付けることができます。
 
 ## オファーの表示域の設定 {#representations}
 
