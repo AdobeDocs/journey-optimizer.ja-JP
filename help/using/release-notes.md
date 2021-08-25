@@ -1,9 +1,9 @@
 ---
 title: リリースノート
 description: Journey Optimizer リリースノート
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '966'
 ht-degree: 38%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 38%
 <tr>
 <td>
 <p>プリセットごとに再試行期間を定義して、不要になったときに再試行が実行されなくなるようになりました。 例えば、1日のみ有効なリンクを含むパスワードリセットトランザクションメッセージの再試行期間を24時間に設定できます。 なお、再試行設定はEメールチャネルにのみ適用されます。</p>
-<p>詳しくは、 <a href="configuration/retries.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="configuration/retries.md#retry-duration">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -122,9 +122,9 @@ ht-degree: 38%
 * **背景**  — 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](preview.md)
 * **ワンクリックオプトアウトリンク**  - Eメールコンテンツに新しいタイプのリンクを挿入できます。オプ **トアウトリ** ンクを使用すると、ユーザーは、オプトアウトを確認するランディングページにリダイレクトされずに、1回のクリックで通信の受信を登録解除できます。[詳細情報](message-tracking.md#one-click-opt-out-link)
 
-**パーソナライズ機能**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **メールの設定**
 
