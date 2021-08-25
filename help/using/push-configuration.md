@@ -1,13 +1,12 @@
 ---
 title: プッシュ通知の設定
 description: Journey Optimizer でプッシュ通知を送信するように環境を設定する方法を説明します
-feature: アプリケーション設定, プッシュ
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 100%
+source-wordcount: '1576'
+ht-degree: 99%
 
 ---
 
@@ -30,11 +29,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 権限の設定
 
-モバイルアプリケーションを作成する前に、まず、**Adobe Experience Platform Launch** で適切なユーザー権限が既にあるか、もしくは割り当てているかを確認する必要があります。詳しくは、[Adobe Experience Platform Launch のドキュメント](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+モバイルアプリケーションを作成する前に、まず、**Adobe Experience Platform Launch** で適切なユーザー権限が既にあるか、もしくは割り当てているかを確認する必要があります。詳しくは、[Adobe Experience Platform Launch のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
 >
->プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関わるペルソナに応じて、権限のすべてを単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Journey Optimizer** 管理者の間で権限を共有する必要が生じる場合があります。**Adobe Experience Platform Launch** の権限について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=ja#platform-launch-permissions)を参照してください。{target=&quot;_blank&quot;}。
+>プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関わるペルソナに応じて、権限のすべてを単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Journey Optimizer** 管理者の間で権限を共有する必要が生じる場合があります。**Adobe Experience Platform Launch** の権限について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions)を参照してください。{target=&quot;_blank&quot;}。
 
 <!--ou need to your have access to perform following roles :
 
