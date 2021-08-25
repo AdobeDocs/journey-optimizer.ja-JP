@@ -1,14 +1,14 @@
 ---
 title: ジャーニーイベント用の ExperienceEvent スキーマについて
 description: ジャーニーイベント用の ExperienceEvent スキーマについて学ぶ
-feature: スキーマ
-topic: 管理
+feature: Schemas
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 97%
 
 ---
 
@@ -72,14 +72,14 @@ Adobe Experience Platform では、あるデータセットを別のデータセ
 
 Journey Optimizer では、リンクされたテーブルのすべてのフィールドを次の場合に活用できます。
 
-* 単一イベントを設定する場合：[詳細情報](../event/experience-event-schema.md#unitary_event_configuration)
+* ビジネスイベントまたは単一イベントを設定する場合、[詳細を表示](../event/experience-event-schema.md#unitary_event_configuration)
 * ジャーニーで条件を使用する場合：[詳細情報](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * メッセージをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#message_personalization)
 * カスタムアクションをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### 単一イベントの設定{#unitary_event_configuration}
+### イベント設定{#unitary_event_configuration}
 
-リンクされたスキーマフィールドは、次の場合に単一イベントの設定で使用できます。
+リンクされたスキーマフィールドは、単一のイベント設定とビジネスイベント設定で使用できます。
 
 * イベント設定画面でイベントスキーマフィールドを参照する場合
 * システム生成イベントの条件を定義する場合
@@ -90,7 +90,6 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 
 * イベントキー式
 * イベント ID 条件（ルールベースのイベント）
-* ビジネスイベント（後日提供）
 
 単一イベントの設定方法については、この[ページ](../event/about-creating.md)を参照してください。
 
