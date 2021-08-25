@@ -1,14 +1,14 @@
 ---
 title: オプトアウトの管理
 description: オプトアウトとプライバシーを管理する方法について説明します。
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 89%
 
 ---
 
@@ -36,6 +36,8 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 したがって、受信者に送信されるすべての メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
 * 受信者がこのリンクをクリックすると、オプトアウトを確認するボタンを含んだランディングページが表示されます。
 * オプトアウトボタンをクリックすると、Adobe I/O が呼び出され、プロファイルデータにこの情報が反映されます。[この詳細を説明します](#consent-service-api)。
+
+### 購読解除リンクの追加 {#add-unsubscribe-link}
 
 登録解除リンクを追加するには、次の手順に従います。
 
@@ -87,7 +89,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## オプトアウト API 呼び出し {#opt-out-api}
+### オプトアウト API 呼び出し {#opt-out-api}
 
 受信者が登録解除リンクをクリックしてオプトアウトすると、Adobe I/O API <!--Consent service API to capture the encrypted data and-->が呼び出され、対応するプロファイルの環境設定が更新されます。
 
@@ -129,6 +131,14 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## ワンクリックのオプトアウト {#one-click-opt-out}
+
+多くの顧客が購読解除がより簡単なプロセスを探しているので、1回のクリックでのオプトアウトリンクをEメールコンテンツに追加することもできます。 このリンクをクリックすると、受信者はオプトアウトの確認が必要なランディングページにリダイレクトされずに、通信をすばやく購読解除できます。
+
+[この節](message-tracking.md#one-click-opt-out-link)で、メッセージコンテンツにオプトアウトリンクを追加する方法を説明します。
+
+メッセージが[ジャーニー](building-journeys/journey.md)を通じて送信されると、受信者がオプトアウトリンクをクリックすると、すぐにオプトアウトされます。
 
 ## ヘッダーの購読解除リンク {#unsubscribe-email}
 
