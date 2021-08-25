@@ -1,14 +1,14 @@
 ---
 title: ユーザーインターフェイス
 description: Journey Optimizer ユーザーインターフェイス
-feature: 概要
-topic: コンテンツ管理
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 74%
 
 ---
 
@@ -85,6 +85,9 @@ ht-degree: 100%
 
 * **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と発展に役立てることができます。[詳細情報](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## 製品内の使用例
 
@@ -94,7 +97,7 @@ ht-degree: 100%
 
 利用可能なユースケースは次のとおりです。
 
-* **テストプロファイルを作成する**：CSV テンプレートを使用してテストプロファイルを作成し、パーソナライズされたメッセージとジャーニーをテストします。このユースケースの実装方法については、[このページ](building-journeys/creating-test-profiles.md#use-case-1)を参照してください。
+* **テストプロファイルを作成する**：CSV テンプレートを使用してテストプロファイルを作成し、パーソナライズされたメッセージとジャーニーをテストします。この使用例[の実装方法については、このページ](building-journeys/creating-test-profiles.md#use-case-1)を参照してください。
 * **顧客に誕生日のメッセージを送信する**：顧客の誕生日を祝うメールを自動的に送信します。（近日公開）
 * **新規顧客をオンボーディングするためのメールを送信する**：新規登録した顧客を歓迎するために最大 2 通のメールを簡単に送信します。（近日公開）
 * **読み込んだ顧客リストにプッシュメッセージを送信する**：CSV ファイルからインポートされた顧客リストにプッシュ通知をすばやく送信します。（近日公開）
@@ -104,6 +107,139 @@ ht-degree: 100%
 「**[!UICONTROL 開始]**」ボタンをクリックして、ユースケースを開始します。
 
 「**[!UICONTROL ユースケースライブラリを表示]**」ボタンから、実行済みの使用例にアクセスできます。
+
+## アクセシビリティ{#accessibility}
+
+Adobe Journey Optimizerのアクセシビリティ機能は、Adobe Experience Platformによって提供されます。
+
+* キーボードアクセシビリティ
+* カラーコントラスト
+* 必須フィールドの検証
+
+[詳しくは](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)、Adobe Experience Platformのドキュメントの{target=&quot;_blank&quot;}を参照してください。
+
+Adobe Journey Optimizerでは、次の一般的なキーボードショートカットを使用できます。
+
+| アクション | ショートカット |
+| --- | --- |
+| ユーザインターフェイス要素、セクション、およびメニューグループ間の移動 | タブ |
+| ユーザインターフェイス要素、セクション、メニューグループ間を後ろに移動 | Shift + Tab |
+| セクション内を移動して、個々の要素にフォーカスを設定 | 矢印 |
+| フォーカスされている要素を選択またはクリアする | EnterまたはSpaceキー |
+| 選択のキャンセル、パネルの折りたたみ、またはダイアログボックスの閉じる | Esc |
+
+[詳しくは](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)、Adobe Experience Platformのドキュメントの{target=&quot;_blank&quot;}を参照してください。
+
+Journey Optimizerの特定の部分で次のショートカットを使用できます。
+
+<table>
+  <thead>
+    <tr>
+      <th>インターフェイス要素</th>
+      <th>アクション</th>
+      <th>ショートカット</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>ジャーニー、アクション、データソース、イベントのリスト</td>
+    <td>ジャーニー、アクション、データソース、イベントの作成</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">ジャーニーキャンバス（ドラフトステータス）</td>
+    <td>左側のパレットから、最初に使用可能な位置（上から下）にアクティビティを追加します。</td>
+    <td>アクティビティをダブルクリックします。</td>
+  </tr>
+  <tr>
+    <td>すべてのアクティビティを選択</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>選択したアクティビティを削除します</td>
+    <td>「削除」または「バックスペース」、「Enter」を押して削除を確定します。</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+次の要素の設定ペイン：
+
+<ul>
+  <li>ジャーニーのアクティビティ</li>
+  <li>イベント</li>
+  <li>データソース</li>
+  <li>アクション</li>
+</ul>
+
+</td>
+    <td>設定する次のフィールドに移動します</td>
+    <td>タブ</td>
+  </tr>
+  <tr>
+    <td>変更を保存し、設定ペインを閉じます。</td>
+    <td> と入力します。</td>
+  </tr>
+  <tr>
+    <td>変更を破棄して設定ペインを閉じる</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">テストモードのジャーニー</td>
+    <td>テストモードの有効化または無効化</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>イベントベースのジャーニーでのイベントのトリガー</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+**[!UICONTROL 一度に1つのプロファイル]**&#x200B;オプションがオンになっているセグメントベースのジャーニーのイベントのトリガー
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>テストログの表示</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>テキストフィールド</td>
+    <td>選択したフィールド内のすべてのテキストを選択</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">ポップアップウィンドウ</td>
+    <td>変更を保存するか、アクションを確定します。</td>
+    <td> と入力します。</td>
+  </tr>
+  <tr>
+    <td>ウィンドウを閉じる</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>シンプルな式エディター</td>
+    <td>フィールドの選択と追加</td>
+    <td>フィールドをダブルクリックします。</td>
+  </tr>
+  <tr>
+    <td>XDMフィールドの参照</td>
+    <td>ノードのすべてのフィールドの選択</td>
+    <td>親ノードを選択します。</td>
+  </tr>
+  <tr>
+    <td>ペイロードプレビュー</td>
+    <td>ペイロードの選択</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+</table>
 
 ## ヘルプとサポートを検索
 
@@ -135,16 +271,17 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
    ![](assets/select-language.png)
 
-## 検索
+## 検索{#unified-search}
 
-Adobe Journey Optimizer インターフェイスのどこからでも、上部バーの中央にある Adobe Experience Cloud 検索を使用して、すべてのサンドボックスでアセット、ジャーニー、メッセージを検索できます。上位の結果を表示するコンテンツの入力を開始します。
+Adobe Journey Optimizerインターフェイスの任意の場所で、上部バーの中央にある統合Adobe Experience Cloud検索機能を使用して、サンドボックス全体でアセット、ジャーニー、データセット、メッセージなどを検索できます。
+
+上位の結果を表示するコンテンツの入力を開始します。入力したキーワードに関するヘルプ記事も結果に表示されます。
 
 ![](assets/unified-search.png)
 
-**Enter** キーを押して、すべての結果とフィルターにアクセスします。
+**Enter**&#x200B;キーを押して、すべての結果にアクセスし、ビジネスオブジェクトでフィルターします。
 
 ![](assets/search-and-filter.png)
-
 
 ## フィルターリスト{#section_lgm_hpz_pgb}
 
