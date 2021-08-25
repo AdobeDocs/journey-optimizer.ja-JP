@@ -1,14 +1,14 @@
 ---
 title: メールライブレポート
 description: メールライブレポートからのデータの使用方法を学ぶ
-feature: レポート
-topic: コンテンツ管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 79%
 
 ---
 
@@ -57,3 +57,9 @@ ht-degree: 100%
 * **[!UICONTROL ソフトバウンス数]**：一時的なエラー（インボックスが満杯など）の合計数。
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
+
+>[!NOTE]
+>
+>「**[!UICONTROL 抑制]**」または「**[!UICONTROL 許可]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;は、ジャーニー（[セグメントの読み取り](../building-journeys/read-segment.md)および[メッセージ](../building-journeys/journeys-message.md)）を通過したとプロファイルを表示しますが、電子メールが除外される前は、**送信された**&#x200B;指標には含まれません送信中&#x200B;****
+>
+>詳しくは、[抑制リスト](../suppression-list.md)と[許可リスト](../allow-list.md)を参照してください。 すべての除外ケースの理由を調べるには、[Adobe Experience Platformクエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)を使用します。
