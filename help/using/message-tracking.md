@@ -1,14 +1,14 @@
 ---
 title: メッセージのトラッキング
 description: リンクを追加し送信済みメッセージをトラッキングする方法を説明します
-feature: 監視
-topic: コンテンツ管理
+feature: Monitoring
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## トラッキングの有効化 {#enable-tracking}
 
-メッセージレベルでのトラッキングを有効にするには、[メッセージ作成](create-message.md)時に「**[!UICONTROL E メールの開封トラッキング]**」または「**[!UICONTROL E メールのクリックトラッキング]**」オプション、あるいはその両方をオンにします。
+**[!UICONTROL Open Tracking for email]**&#x200B;や&#x200B;**[!UICONTROL Click Tracking for email]**（[メッセージ](create-message.md)を作成する際）オプションをオンにすることで、Eメールメッセージレベルでのトラッキングを有効にできます。
 
 ![](assets/message-tracking.png)
 
@@ -52,9 +52,11 @@ ht-degree: 100%
 
    * **[!UICONTROL ミラーページ]**：web ブラウザーにメールコンテンツを表示するためのリンクを挿入します。詳しくは、[この節](#mirror-page)を参照してください。
 
+   * **[!UICONTROL オプトアウト]**:ユーザーがオプトアウトを確認する必要なく、通信をすばやく購読解除できるようにするリンクを挿入します。詳しくは、[この節](#one-click-opt-out-link)を参照してください。
+
    ![](assets/message-tracking-links.png)
 
-1. 簡単な式のみを使用して、リンクをパーソナライズできます。パーソナライゼーションの詳細については、[この節](personalization/personalization-syntax.md)を参照してください。
+1. リンクをパーソナライズできます。 パーソナライズされたURLについて詳しくは、[この節](personalization/personalization-syntax.md)を参照してください。
 
 1. 変更を保存します。
 
@@ -86,6 +88,32 @@ ht-degree: 100%
 >テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクはアクティブになっていません。 最終的なメッセージでのみアクティブ化されます。
 
 ミラーページの保持期間は 60 日です。 この期間が経過すると、ミラーページは使用できなくなります。
+
+## ワンクリックオプトアウトリンク {#one-click-opt-out-link}
+
+受信者がブランドからの通信をすばやく購読解除できるようにするには、1回のクリックでのオプトアウトリンクをEメールコンテンツに挿入します。 この機能を利用すると、ユーザーが選択を確認する必要があるランディングページにリダイレクトされるのを防ぎ、購読解除プロセスを高速化できます。
+
+Eメールにオプトアウトリンクを追加するには、以下の手順に従います。
+
+1. [リンクを挿入](#insert-links) し、リンクのタ **[!UICONTROL イプとし]** て「オプトアウト」を選択します。
+
+   ![](assets/message-tracking-opt-out.png)
+
+1. オプトアウトの適用方法を選択します。チャネル、IDまたはサブスクリプションレベル。
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL チャネル]**:オプトアウトは、現在のチャネルのプロファイルのターゲット（Eメールアドレス）に送信される今後のメッセージに適用されます。複数のターゲットが1つのプロファイルに関連付けられている場合、オプトアウトはそのチャネルのプロファイル内のすべてのターゲット（Eメールアドレス）に適用されます。
+   * **[!UICONTROL ID]**:オプトアウトは、現在のメッセージで使用されている特定のターゲット（Eメールアドレス）に送信される以降のメッセージに適用されます。
+   * **[!UICONTROL 購読]**:オプトアウトは、特定の購読リストに関連付けられた今後のメッセージに適用されます。このオプションは、現在のメッセージが購読リストに関連付けられている場合にのみ選択できます。
+
+1. 購読解除後にユーザーがリダイレクトされるランディングページのURLを入力します。 このページは、オプトアウトが成功したことを確認するためにのみ表示されます。
+
+   ![](assets/message-tracking-opt-out-confirmation.png)
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+メッセージが送信されると、受信者がオプトアウトリンクをクリックすると、受信者は直ちにオプトアウトされます。
 
 ## トラッキングの管理 {#manage-tracking}
 
