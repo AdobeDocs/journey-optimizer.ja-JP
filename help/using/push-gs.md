@@ -1,13 +1,14 @@
 ---
 title: プッシュ設定の概要
 description: プッシュ通知のデータフローとコンポーネントについて
-feature: アプリケーション設定, プッシュ
+topic: Mobile
+feature: Push
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 100%
 
 * **Adobe Experience Platform Mobile SDK** は Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。SDK に用意されている [!DNL Adobe Journey Optimizer] 拡張機能は、プッシュメッセージ専用の様々な API を公開し、プッシュトークンの登録や、プッシュトラッキングイベントまたはその他の任意のカスタムエクスペリエンスイベントの Adobe Experience Platform への送信といったデータフローを可能にします。また、SDK は、他の Adobe Experience Cloud およびサードパーティパートナー機能を有効にするその他の各種拡張機能も提供します。
 
-   SDK 統合には、次のような Adobe Experience Platform [データ収集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja){target=&quot;_blank&quot;}サービスのセットアップも必要です。
+   SDK 統合には、次のような Adobe Experience Platform [データ収集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target=&quot;_blank&quot;}サービスのセットアップも必要です。
 
    * Adobe Experience Platform にデータが取り込まれる、プロファイルおよびエクスペリエンスイベントデータセットを設定するデータストリームの作成
    * クライアントサイドモバイルプロパティの作成と拡張機能の追加。 SDK は、これらの拡張機能と密接に統合し、シームレスなデータ収集エクスペリエンスを提供します。
