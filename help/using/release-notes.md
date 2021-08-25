@@ -1,10 +1,10 @@
 ---
 title: リリースノート
 description: Journey Optimizer リリースノート
-source-git-commit: ff48c78cfa5c48f32073e9df1f126504e291ab5a
+source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 37%
+source-wordcount: '967'
+ht-degree: 38%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 37%
 
 **パーソナライズ機能**
 
-* **式エディター**  — パーソナライゼーションを定義する際に、フォールバック値を簡単に追加できるようになりました。プロファイルのパーソナライゼーションフィールドが空の場合、フォールバック値が表示されます。[詳細情報](documentation-updates.md)
+<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **メールの設定**
 
