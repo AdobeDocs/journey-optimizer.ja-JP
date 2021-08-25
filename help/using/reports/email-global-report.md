@@ -1,14 +1,14 @@
 ---
 title: メールのグローバルレポート
 description: メールのグローバルレポートのデータを使用する方法を説明します
-feature: レポート
-topic: コンテンツ管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 86%
 
 ---
 
@@ -90,4 +90,8 @@ ht-degree: 100%
 
 * **[!UICONTROL ユニーク開封数]**：配信されたメッセージを開いた受信者の数。
 
-
+>[!NOTE]
+>
+>「**[!UICONTROL 抑制]**」または「**[!UICONTROL 許可]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;は、ジャーニー（[セグメントの読み取り](../building-journeys/read-segment.md)および[メッセージ](../building-journeys/journeys-message.md)）を通過したとプロファイルを表示しますが、電子メールが除外される前は、**送信された**&#x200B;指標には含まれません送信中&#x200B;****
+>
+>詳しくは、[抑制リスト](../suppression-list.md)と[許可リスト](../allow-list.md)を参照してください。 すべての除外ケースの理由を調べるには、[Adobe Experience Platformクエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)を使用します。
