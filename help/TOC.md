@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
+source-git-commit: 72f5ef1366fda47ae4341284a9aba8f0981cb6b0
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 100%
 
 ---
@@ -89,7 +89,6 @@ ht-degree: 100%
       + [待機](using/building-journeys/wait-activity.md)
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
       + [メッセージ](using/building-journeys/journeys-message.md)
-      + [メッセージテスト](using/building-journeys/journeys-message-test.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
       + [ジャンプ](using/building-journeys/jump.md)
