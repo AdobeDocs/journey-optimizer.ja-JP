@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '701'
 ht-degree: 74%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 74%
 >
 >「**[!UICONTROL 抑制]**」ステータスのプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;は、ジャーニー（[セグメントの読み取り](building-journeys/read-segment.md)および[メッセージ](building-journeys/journeys-message.md)）を通過したとプロファイルを表示しますが、電子メールが除外される前は、**送信された**&#x200B;指標には含まれません送信中&#x200B;****
 >
->[ライブレポート](reports/live-report.md)と[グローバルレポート](reports/global-report.md)の詳細をご覧ください。 すべての除外ケースの理由を調べるには、[Adobe Experience Platformクエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)を使用します。
+>[ライブレポート](reports/live-report.md)と[グローバルレポート](reports/global-report.md)の詳細をご覧ください。 すべての除外ケースの理由を調べるには、[Adobe Experience Platformクエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}を使用します。
 
 ### 配信エラー {#delivery-failures}
 
