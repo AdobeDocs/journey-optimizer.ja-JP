@@ -2,14 +2,14 @@
 keywords: Journey Optimizer;ホーム;人気のトピック
 title: Journey Optimizer 製品ドキュメント
 description: Adobe Journey Optimizer 製品ヘルプセンター
-feature: 概要
-topic: コンテンツ管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,11 @@ ht-degree: 100%
       <a href="using/get-started.md">Journey Optimizer とは</a>
     </div>
     <p>主な機能と使い始める方法を説明します
+    <p>
+    <div>
+      <a href="using/release-notes.md">リリースノート</a>
+    </div>
+    <p>新機能、最新の機能強化および修正点を確認する
     <p>
     <div>
       <a href="using/design-emails.md">メールコンテンツの設計</a>
