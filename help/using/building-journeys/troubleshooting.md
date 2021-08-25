@@ -1,14 +1,14 @@
 ---
 title: ジャーニーのトラブルシューティング
 description: ジャーニーのエラーのトラブルシューティング方法を学ぶ
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1058'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 * イベントペイロードにイベント ID が含まれているか。
 * 正しい URL をヒットしたか。
 * イベント設定ペインのペイロード構造プレビューを使用して、ストリーミング取得 API のペイロード構造に従ったか。[このページ](../event/about-creating.md#preview-the-payload)を参照してください。
-* イベントのヘッダーに使用したキーと値のペアは適切か？
+* イベントのヘッダーに適切なキーと値のペアを使用したか。
 
    ```
    X-gw-ims-org-id - your ORGID
