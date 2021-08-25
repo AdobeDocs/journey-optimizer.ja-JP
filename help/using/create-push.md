@@ -1,14 +1,14 @@
 ---
 title: プッシュ通知の設定
 description: Journey Optimizer でプッシュ通知を作成する方法を説明します
-feature: 概要
-topic: コンテンツ管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。 And
 
 「**[!UICONTROL サイレント通知]**」オプションを選択すると、アプリケーションにサイレントに通知できます。この場合、通知はアプリケーションに直接転送されます。デバイスの画面にアラートは表示されません。
 
-「**[!UICONTROL カスタムデータ]**」セクションを使用すると、キーと値のペアを追加できます。
+**[!UICONTROL カスタムデータ]**&#x200B;セクションを使用して、キー値ペアを追加します。
 
 ## カスタムデータ
 
