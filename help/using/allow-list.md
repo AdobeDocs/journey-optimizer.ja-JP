@@ -5,10 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 57%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -77,7 +77,7 @@ Found this link in Experience Platform documentation, but may not be the final o
 
 ## 除外レポート {#reporting}
 
-この機能が実稼動以外の許可リストで有効になっている場合、サンドボックス上にないので、送信から除外された電子メールアドレスまたはドメインを取得できます。 これをおこなうには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)を使用して、以下のAPI呼び出しをおこないます。
+この機能が実稼動以外の許可リストで有効になっている場合、サンドボックス上にないので、送信から除外された電子メールアドレスまたはドメインを取得できます。 これをおこなうには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}を使用して、以下のAPI呼び出しをおこないます。
 
 受信者が許可リストにいなかったために送信されなかった&#x200B;**電子メール**&#x200B;の数を取得するには、次のクエリを使用します。
 
