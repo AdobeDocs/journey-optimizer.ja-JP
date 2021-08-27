@@ -1,10 +1,10 @@
 ---
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 50%
+source-wordcount: '426'
+ht-degree: 49%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 50%
 * メッセージプリセットの監視の節を更新し、考えられるプリセット作成エラーの理由と、そのようなエラーに関する詳細を追加しました。 [詳細情報](configuration/message-presets.md#monitor-message-presets)
 * メッセージプリセットのEメールの再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。 [詳細情報](configuration/retries.md#retry-duration)
 * ワンクリックオプトアウトリンクをEメールコンテンツに挿入する方法を説明する新しい節を追加しました。 [詳細情報](message-tracking.md#one-click-opt-out-link)
+* サブドメインのデリゲートの節を更新し、Adobeが実行する検証プロセスに関する詳細情報を追加しました。 [詳細情報](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
