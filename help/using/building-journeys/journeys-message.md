@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 87%
+source-wordcount: '779'
+ht-degree: 90%
 
 ---
 
@@ -105,5 +105,4 @@ Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サー�
 
 メールメッセージの場合は、適切なラジオボタンを選択して、メールの開封数とクリックスルー数のどちらを最適化するかを選択します。プッシュメッセージではクリック数が適用されないため、デフォルトは「開封数」オプションになります。
 
-また、「**次の時間内に送信**」オプションの値を入力することで、システムで使用される送信時間を区切ることもできます。 値として「6時間」を選択した場合、[!DNL Journey Optimizer]は各ユーザープロファイルを調べ、最適な送信時間がジャーニーの実行時間から6時間以内に発生するかどうかを確認し、送信時間の最適化が決定した時間を選択します。 その時間が6時間以内でない場合、[!DNL Journey Optimizer]はデフォルトで、ジャーニーの実行時にメッセージを送信します。
-
+また、「**次の時間内に送信**」オプションの値を入力することで、システムで使用される送信時間を区切ることもできます。 値として「6時間」を選択した場合、[!DNL Journey Optimizer]は各ユーザープロファイルを確認し、ジャーニーの実行時間から6時間以内に最適な送信時間を選択します。
