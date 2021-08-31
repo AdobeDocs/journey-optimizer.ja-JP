@@ -1,10 +1,10 @@
 ---
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 49%
+source-wordcount: '456'
+ht-degree: 35%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 49%
 * メッセージプリセットのEメールの再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。 [詳細情報](configuration/retries.md#retry-duration)
 * ワンクリックオプトアウトリンクをEメールコンテンツに挿入する方法を説明する新しい節を追加しました。 [詳細情報](message-tracking.md#one-click-opt-out-link)
 * サブドメインのデリゲートの節を更新し、Adobeが実行する検証プロセスに関する詳細情報を追加しました。 [詳細情報](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* 抑制リストに電子メールアドレスとドメインを手動で追加する方法を説明する節を追加しました。 [詳細情報](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* [「抑制リスト](configuration/manage-suppression-list.md#access-suppression-list) 」セクションと「[再試行](configuration/retries.md) 」セクションを更新し、新しいユーザーインターフェイスを反映させました。
 
 
 ## 2021 年 7 月
@@ -44,9 +44,9 @@ ht-degree: 49%
 * ミラーページにサブセクションが追加されました。 [詳細を読む](message-tracking.md#mirror-page)
 * ドキュメントと画面で、「オファーアクティビティ」が「決定」に、「決定」が「決定範囲」にそれぞれ名称変更されました。 [詳細を読む](offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](personalization/personalization-use-case-helper-functions.md)が追加されました
-* 「セグメントを読み取り」のドキュメントが更新され、具体化されたセグメントの影響が反映されました。[詳細を読む](building-journeys/read-segment.md)
+* マテリアライズドセグメントの影響を反映するように、セグメントの読み取りに関するドキュメントを更新しました。 [詳細を読む](building-journeys/read-segment.md)
 * ジャーニーの制限が更新されました。 [詳細を読む](building-journeys/limitations.md)
-* 「決定でのオファー選択の設定」の節が更新されました。 [詳細情報](offers/offer-activities/configure-offer-selection.md)
+* 決定のオファーの設定の節を更新しました。 [詳細情報](offers/offer-activities/configure-offer-selection.md)
 * イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](offers/offer-library/creating-personalized-offers.md#eligibility)
-* 決定管理の新しい「[!UICONTROL 概要]」タブのドキュメントが追加されました。[詳細情報](offers/get-started/user-interface.md#overview)
-* オファーリストと決定リストで利用できるアクションを説明するために、[オファーリスト](offers/offer-library/creating-personalized-offers.md#offer-list)と[決定リスト](offers/offer-activities/create-offer-activities.md#decision-list)という新しい節が追加されました。
+* 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。 [詳細情報](offers/get-started/user-interface.md#overview)
+* オファーおよび判定リストで使用可能な操作について説明する新しい節を追加しました。[オファーリスト](offers/offer-library/creating-personalized-offers.md#offer-list)と[判定リスト](offers/offer-activities/create-offer-activities.md#decision-list)。

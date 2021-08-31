@@ -1,10 +1,10 @@
 ---
 title: リリースノート
 description: Journey Optimizer リリースノート
-source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
+source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 38%
+source-wordcount: '1045'
+ht-degree: 36%
 
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 38%
 </tr>
 </tbody>
 </table>
+
 <!--
 <table>
 <thead>
@@ -79,11 +80,28 @@ ht-degree: 38%
 <tr>
 <td>
 <p>プリセットごとに再試行期間を定義して、不要になったときに再試行が実行されなくなるようになりました。 例えば、1日のみ有効なリンクを含むパスワードリセットトランザクションメッセージの再試行期間を24時間に設定できます。 なお、再試行設定はEメールチャネルにのみ適用されます。</p>
-<p>詳しくは、 <a href="configuration/retries.md#retry-duration">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="configuration/retries.md#retry-duration">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>送信から除外するアドレスの定義 — 抑制リスト</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eメールアドレスとドメインを抑制リストに追加する機能が、CSVファイルのアップロードにより、一括モードで1つずつユーザーインターフェイスから利用できるようになりました。</p>
+<p>詳しくは、 <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--
 <table>
 <thead>
@@ -129,10 +147,8 @@ ht-degree: 38%
 **メールの設定**
 
 * **許可リスト**  -許可リストは、API呼び出しを通じて、実稼動以外のサンドボックスで有効化および無効化できるようになりました。[詳細情報](allow-list.md#enable-allow-list)
-
+* **ナビゲーション**  -  **管理/チャネル/Eメール設定/一般メニューでアクセス可能な抑制リストが、新しい** 抑制リストサブメニューに移動しまし **** た。このサブメニューでは、アクセスしやすいように、関連するすべての機能が収集されます。[詳細情報](configuration/manage-suppression-list.md#access-suppression-list)
 <!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
-<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
-
 
 ### 修正点
 

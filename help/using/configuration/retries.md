@@ -15,33 +15,49 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
+source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 38%
+source-wordcount: '392'
+ht-degree: 13%
 
 ---
 
 
 # 再試行 {#retries}
 
-一時的な&#x200B;**ソフトバウンス**&#x200B;または&#x200B;**無視**&#x200B;のエラーが原因で電子メールメッセージが失敗した場合は、いくつかの再試行が実行されます。 エラーが 1 つ発生すると、エラーカウンターを 1 つ増やします。このカウンターがしきい値の制限に達すると、アドレスが抑制リストに追加されます。
+一時的な&#x200B;**ソフトバウンス**&#x200B;エラーが原因で電子メールメッセージが失敗した場合は、いくつかの再試行が実行されます。 エラーが 1 つ発生すると、エラーカウンターを 1 つ増やします。このカウンターがしきい値の制限に達すると、アドレスが抑制リストに追加されます。
 
 >[!NOTE]
 >
 >エラーのタイプについて詳しくは、[配信エラーのタイプ](../suppression-list.md#delivery-failures)の節を参照してください。
 
-デフォルト設定では、エラー数のしきい値は 3 つです。
+デフォルトの設定では、しきい値はエラー5に設定されています。
 
-* 同じ配信の場合、3 回目に発生したエラーでアドレスが抑制されます。
+* 同じ配信で、[再試行期間](#retry-duration)内で5回目にエラーが発生した場合、アドレスは抑制されます。
 
-* 異なる配信があり、2 つのエラーが 24 時間以上の間隔で発生した場合は、エラーが発生するたびにエラーカウンターを増加し、アドレスは 3 回目の試行で抑制されます。
+* 配信が異なり、2つのエラーが少なくとも24時間間隔で発生した場合、エラーカウンターは各エラーで増加し、アドレスも5回目の試行で抑制されます。
 
 再試行後に配信が成功すると、そのアドレスのエラーカウンターは初期化されます。
 
-しきい値の制限は、**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 一般]**&#x200B;メニューの&#x200B;**[!UICONTROL 編集]**&#x200B;ボタンを使用して変更できます。
+デフォルト値の5がニーズに合わない場合は、次の手順に従ってエラーしきい値を変更できます。
 
-![](../assets/retries-edition.png)
+1. **[!UICONTROL チャネル]** > **[!UICONTROL Eメール設定]** > **[!UICONTROL 抑制リスト]**&#x200B;に移動します。
+
+1. 「**[!UICONTROL 抑制ルールを編集]**」ボタンを選択します。
+
+   ![](../assets/suppression-list-edit-retries.png)
+
+1. 必要に応じて、連続するソフトバウンスの許可数を編集します。
+
+   ![](../assets/suppression-list-edit-soft-bounces.png)
+
+   1 ～ 20の整数値を入力する必要があります。つまり、再試行の回数の最小値は1で、最大値は20です。
+
+   >[!CAUTION]
+   >
+   >値が10を超えると、配信品質のレピュテーションの問題、ISPによるIPのスロットリングやブロックリストに加えるが発生する可能性があります。 [配信品質の詳細を説明します](../deliverability.md)
+
+<!--![](../assets/retries-edition.png)-->
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
@@ -62,3 +78,5 @@ ht-degree: 38%
 [この節](message-presets.md#create-message-preset)でメッセージプリセットを作成する際のEメールの再試行パラメーターの調整方法を説明します。
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
+
+<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

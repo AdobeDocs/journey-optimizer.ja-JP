@@ -15,10 +15,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
+source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 69%
+source-wordcount: '968'
+ht-degree: 29%
 
 ---
 
@@ -31,30 +31,51 @@ ht-degree: 69%
 * 配信にEメールを引き続き含めると、一貫してソフトバウンスで、Eメールのレピュテーションに悪影響を与える可能性があるアドレス。
 * いずれかのメールメッセージに対して何らかのスパム報告を発行する受信者。
 
-このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。詳しくは、[この節](../suppression-list.md)を参照してください。
+このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。[この節](../suppression-list.md)では、抑制リストの概念と使用方法について詳しく説明します。
 
 ## 抑制リストへのアクセス {#access-suppression-list}
 
-除外されたメールアドレスの詳細なリストにアクセスするには、**[!UICONTROL チャネル]**／**[!UICONTROL E メール設定]**／**[!UICONTROL 一般]**&#x200B;メニューを開き、「**[!UICONTROL 抑制リストを表示]**」リンクをクリックします。
+除外された電子メールアドレスの詳細なリストにアクセスするには、**[!UICONTROL 管理]** / **[!UICONTROL チャネル]** / **[!UICONTROL 電子メール設定]**&#x200B;に移動し、「**[!UICONTROL 抑制リスト]**」を選択します。
 
-![](../assets/suppression-list-link.png)
+>[!CAUTION]
+>
+>抑制リストを表示、書き出し、管理する権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)に制限されます。 [!DNL Journey Optimizer]ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 
-<!--To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.
+<!--![](../assets/suppression-list-link.png)
 
-![](../assets/suppression-list-access-temp.png)-->
+You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
+
+![](../assets/suppression-list-access.png)
 
 リストの参照に役立つフィルターを使用できます。
 
-![](../assets/suppression-list-filters-temp.png)
+<!--![](../assets/suppression-list-filters-temp.png)-->
 
-<!--![](../assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
+**[!UICONTROL 抑制カテゴリ]**、**[!UICONTROL アドレスの種類]**、または&#x200B;**[!UICONTROL 理由]**&#x200B;でフィルタリングできます。 各条件で選択したオプションを選択します。 選択した後で、リストの上部に表示されている各フィルターまたはすべてのフィルターをクリアできます。
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Once selected, you can clear each filter or all filters displayed on top of the list.-->
+電子メールアドレスまたはドメインを手動で誤って追加した場合は、「**[!UICONTROL 削除]**」ボタンを押すと、そのエントリを削除できます。
+
+>[!CAUTION]
+>
+>**[!UICONTROL 削除]**&#x200B;ボタンを使用して、抑制されたEメールアドレスやドメインを削除しないでください。
+
+![](../assets/suppression-list-delete.png)
+
+抑制リストからEメールアドレスまたはドメインを削除すると、このアドレスまたはドメインへの配信が再び開始されます。 その結果、配信品質とIPのレピュテーションに重大な影響が及ぶ可能性があり、最終的にはIPアドレスや送信ドメインがブロックされる可能性があります。 [この節](../suppression-list.md)で抑制リストを維持する重要性について詳しく説明します。
+
+>[!NOTE]
+>
+>Eメールアドレスやドメインの削除を検討する場合は、追加の注意が必要です。 不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
+
+**[!UICONTROL 抑制リスト]**&#x200B;ビューから、抑制ルールを編集することもできます。 [詳細情報](retries.md)
+
+抑制リストをCSVファイルとして書き出すには、「**[!UICONTROL CSVをダウンロード]**」ボタンを選択します。
+
+![](../assets/suppression-list-download-csv.png)
 
 ## 抑制のカテゴリと理由 {#suppression-categories-and-reasons}
 
@@ -84,7 +105,7 @@ Once selected, you can clear each filter or all filters displayed on top of the 
 
 表示される各電子メールアドレスについて、「**[!UICONTROL タイプ]**（電子メールまたはドメイン）」、「**[!UICONTROL 理由]**」で除外、追加者、および抑制リストに追加された日時を確認することもできます。
 
-<!--![](../assets/suppression-list.png)-->
+![](../assets/suppression-list.png)
 
 配信エラーの理由として考えられるものを以下に示します。
 
@@ -96,10 +117,11 @@ Once selected, you can clear each filter or all filters displayed on top of the 
 | **[!UICONTROL メールボックス容量超過]** | 受信者のメールボックスがいっぱいになり、追加のメッセージを受け入れられなかったため、メッセージがバウンスされました。 | ソフト |
 | **[!UICONTROL リレー拒否]** | リレーが許可されていないため、受信者によってメッセージがブロックされました。 | ソフト |
 | **[!UICONTROL チャレンジレスポンス]** | このメッセージはチャレンジレスポンスプローブです。 | ソフト |
+| **[!UICONTROL スパムに対する苦情]** | 受信者がスパムとしてマークしたため、メッセージはブロックされました。 | ハード |
 
 >[!NOTE]
 >
->購読を解除したユーザーは [!DNL Journey Optimizer] からのメールを受信しないので、そのメールアドレスを抑制リストに送信することはできません。 選択は、Experience Platform レベルで処理されます。詳しくは、[オプトアウト](../consent.md)を参照してください。
+>購読を解除したユーザーは [!DNL Journey Optimizer] からのメールを受信しないので、そのメールアドレスを抑制リストに送信することはできません。 選択は、Experience Platform レベルで処理されます。[オプトアウトの詳細を表示します](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -119,82 +141,82 @@ Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
 -->
 
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
 
-<!--## Manually add addresses and domains {#add-addresses-and-domains}
+## アドレスとドメインの手動追加 {#add-addresses-and-domains}
 
-When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
+メッセージをEメールアドレスに配信できない場合、このアドレスは、定義された抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
 
-However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
+ただし、[!DNL Journey Optimizer]抑制リストを手動で設定して、送信から特定のEメールアドレスやドメインを除外することもできます。
 
-You may add email addresses or domains [one at a time](#add-one-address-or-domain), or [in bulk mode](#upload-csv-file) through a CSV file upload.
+CSVファイルのアップロードを通じて、電子メールアドレスやドメイン[を一度に1つずつ追加したり、](#add-one-address-or-domain)一括モード](#upload-csv-file)で[追加したりできます。
 
-To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
+それには、「**[!UICONTROL Eメールまたはドメインを追加]**」ボタンを選択し、次のいずれかの方法に従います。
 
 ![](../assets/suppression-list-add-email.png)
 
-### Add one address or domain {#add-one-address-or-domain}
+### 1つのアドレスまたはドメインを追加する {#add-one-address-or-domain}
 
-1. Select the **[!UICONTROL One by one]** option.
+1. 「**[!UICONTROL 1つずつ]**」オプションを選択します。
 
-    ![](../assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
-1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+1. アドレスの種類を選択します。**[!UICONTROL Eメールアドレス]**&#x200B;または&#x200B;**[!UICONTROL ドメインアドレス]**。
 
-1. Enter the email address or domain you want to exclude from your sending.
+1. 送信から除外するEメールアドレスまたはドメインを入力します。
 
-    >[!NOTE]
-    >
-    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+   >[!NOTE]
+   >
+   >有効な電子メールアドレス(abc@companyなど)またはドメイン（abc.company.comなど）を必ず入力してください。
 
-1. Specify a reason if needed.
+1. 必要に応じて理由を指定します。
 
-1. Click **[!UICONTROL Submit]**.
+1. 「**[!UICONTROL 送信]**」をクリックします。
 
-### Upload a CSV file {#upload-csv-file}
+### CSVファイルのアップロード {#upload-csv-file}
 
-1. Select the **[!UICONTROL Upload CSV]** option.
+1. 「**[!UICONTROL CSVをアップロード]**」オプションを選択します。
 
-    ![](../assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
-1. Download the CSV template to use, which includes the columns and format below:
+1. 使用するCSVテンプレートをダウンロードします。以下の列と形式が含まれます。
 
-    ```
-    TYPE,VALUE,COMMENT
-    EMAIL,abc@somedomain.com,Comment
-    DOMAIN,somedomain.com,Comment
-    ```
-    You can also download this template from the **[!UICONTROL Suppression list]** main view.
+   ```
+   TYPE,VALUE,COMMENT
+   EMAIL,abc@somedomain.com,Comment
+   DOMAIN,somedomain.com,Comment
+   ```
+   このテンプレートは、**[!UICONTROL 抑制リスト]**&#x200B;のメインビューからもダウンロードできます。
 
-    >[!CAUTION]
-    >
-    >Do not change the names of the columns in the CSV template.
-    >
-    >The file size should not exceed 50 MB.
+   >[!CAUTION]
+   >
+   >CSVテンプレート内の列の名前は変更しないでください。
+   >
+   >ファイルサイズは1 MB以下にする必要があります。
 
-1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
+1. CSVテンプレートに、抑制リストに追加する電子メールアドレスやドメインを入力します。
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+1. 完了したら、CSVファイルをドラッグ&amp;ドロップし、「**[!UICONTROL ファイルをアップロード]**」をクリックします。
 
-    ![](../assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
-1. Click **[!UICONTROL Submit]**.
+1. 「**[!UICONTROL 送信]**」をクリックします。
 
-### Check recent uploads status {#recent-uploads}
+### 最近のアップロードステータスの確認 {#recent-uploads}
 
-You can check the list of the latest CSV files you uploaded.
+アップロードした最新のCSVファイルのリストを確認できます。
 
-To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
+これをおこなうには、**[!UICONTROL 抑制リスト]**&#x200B;ビューで、「**[!UICONTROL 最近のアップロード]**」ボタンをクリックします。
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
-The latest uploads you submitted and their corresponding statuses are displayed.
+送信した最新のアップロードと、対応するステータスが表示されます。
 
-If an error report is associated with a file, you can download it to check the errors encountered.
+エラーレポートがファイルに関連付けられている場合は、ファイルをダウンロードして、発生したエラーを確認できます。
 
 ![](../assets/suppression-list-recent-uploads-error.png)
 
-Below is an example of the type of entries you can find in the error report:
+次に、エラーレポートに含まれるエントリのタイプの例を示します。
 
 ```
 type,value,comments,failureReason
@@ -206,6 +228,5 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
--->
 
 

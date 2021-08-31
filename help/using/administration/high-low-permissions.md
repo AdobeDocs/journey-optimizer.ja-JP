@@ -12,14 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: コントロールグループ
-topic: 管理
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 0c7ca9a87a55c04b977a29c6be446da143722e37
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1184'
+ht-degree: 83%
 
 ---
 
@@ -303,7 +303,7 @@ ht-degree: 100%
 
 ### サブドメインのデリゲーション権限の管理 {#manage-subdomain}
 
-**[!UICONTROL サブドメインのデリゲーション管理]**&#x200B;の高レベル権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除ができます。
+**[!UICONTROL サブドメインデリゲーションの管理]**&#x200B;の高レベル権限を使用すると、サブドメインデリゲーション（IPプールを含む）の作成、編集および削除をおこなうことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -313,14 +313,16 @@ ht-degree: 100%
 
 ### PTR レコードの表示権限 {#view-ptr}
 
-**[!UICONTROL PTR レコードの表示]**&#x200B;の高レベル権限を持つユーザーは、サブドメインに基づいて構成された、次の低レベル権限を含む PTR レコードを表示できます。
+**[!UICONTROL View PTR records]**&#x200B;の高レベル権限を使用すると、サブドメインに基づいて設定されたPTRレコードを表示できます。
+
+これには、次の低レベル権限が含まれます。
 
 * PTR_records.read
 * subdomains_delegation.read
 
 ### IP プールの管理権限 {#manage-ip-pools}
 
-**[!UICONTROL IP プールの管理]**&#x200B;の高レベル権限を持つユーザーは、アフィニティ定義を作成、編集および削除できます。
+**[!UICONTROL IPプールの管理]**&#x200B;の高レベル権限を使用すると、アフィニティ定義の作成、編集、削除を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -330,7 +332,7 @@ ht-degree: 100%
 
 ### メッセージの一般設定の管理権限 {#manage-message-settings}
 
-**[!UICONTROL メッセージの一般設定の管理]**&#x200B;の高レベル権限をを持つユーザーは、サンドボックスレベルでグローバル設定を作成、編集および削除できます。
+**[!UICONTROL メッセージの一般設定を管理]**&#x200B;高レベル権限を使用すると、ユーザーはサンドボックスレベルでグローバル設定を作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -338,13 +340,12 @@ ht-degree: 100%
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
-
 * Adobe Experience Platform 固有：
    * schemas.read
 
 ### メッセージの一般設定の表示権限 {#view-message-settings}
 
-**[!UICONTROL メッセージの一般設定の表示]**&#x200B;の高レベル権限を持つユーザーは、抑制ルールや実行アドレスなどの、メッセージの一般設定を表示できます。
+**[!UICONTROL メッセージの一般設定]**&#x200B;の高レベル権限を使用すると、ユーザーは、実行アドレスなどのメッセージの一般設定を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -355,7 +356,7 @@ ht-degree: 100%
 
 ### メッセージプリセットの管理権限 {#manage-message-presets}
 
-**[!UICONTROL メッセージプリセットの管理]**&#x200B;の高レベル権限を持つユーザーは、サンドボックスレベルでチャネル間のメッセージプリセットを作成、編集および削除できます。
+**[!UICONTROL メッセージプリセットの管理]**&#x200B;の高レベル権限を使用すると、ユーザーはサンドボックスレベルのチャネル間でメッセージプリセットを作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -378,19 +379,21 @@ ht-degree: 100%
 * IP_pools.read
 * mobile_setting.read（Adobe Experience Platform Launch から）
 
-### 抑制ルールの管理権限 {#manage-suppression-rules}
+### 抑制権限の管理 {#manage-suppression}
 
-**[!UICONTROL 抑制ルールの管理]**&#x200B;の高レベル権限を持つユーザーは、自身のメールアドレスが抑制リストに追加される前に、バウンス数を定義できます。
+「**[!UICONTROL 抑制を管理]**」の高レベル権限を使用すると、ユーザーは、電子メールアドレスが抑制リストに追加される前のバウンス数を定義したり、抑制リストに対するエントリの追加/削除をおこなったりできます。
 
 これには、次の低レベル権限が含まれます。
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
 ### 抑制リストの表示権限 {#view-suppresion-list}
 
-**[!UICONTROL 抑制リストの表示]**&#x200B;の高レベル権限を持つユーザーは、メッセージプリセットや一般的なメッセージ設定などのメッセージ設定を表示できます。
+**[!UICONTROL 表示抑制リスト]**&#x200B;の高レベル権限を使用すると、ユーザーは抑制リストのコンテンツと設定を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -402,10 +405,12 @@ ht-degree: 100%
 
 ### 抑制リストの書き出し権限 {#export-suppression-list}
 
-**[!UICONTROL 抑制リストの書き出し]**&#x200B;の高レベル権限を持つユーザーは、メッセージプリセットや一般的なメッセージ設定などのメッセージ設定を行うことができます。
+**[!UICONTROL 書き出し抑制リスト]**&#x200B;の高レベル権限を使用すると、抑制リストをCSVファイルとしてダウンロードできます。
 
 これには、次の低レベル権限が含まれます。
 
+* Journey Optimizer 固有：
+   * suppression_list.export
 * Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read
