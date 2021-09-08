@@ -1,19 +1,31 @@
 ---
 title: ヘルパー
 description: ヘルパー
-feature: パーソナライゼーション
-topic: パーソナライゼーション
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
-
 # ヘルパー {#gs-helpers}
+
+## デフォルトのフォールバック値{#default-value}
+
+`Default Fallback Value`ヘルパーは、属性が空またはnullの場合にデフォルトのフォールバック値を返すために使用されます。 このメカニズムは、プロファイル属性とジャーニーイベントで機能します。
+
+**構文**
+
+```sql
+Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+```
+
+この例では、このプロファイルの`firstName`属性が空またはnullの場合、値`there`が表示されます。
 
 ## 条件{#if-function}
 
