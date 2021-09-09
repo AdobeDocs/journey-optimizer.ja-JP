@@ -1,13 +1,14 @@
 ---
 title: ジャーニーのテスト
 description: ジャーニーのテストについて説明します
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
+exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1638'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,14 @@
 ---
 title: ジャーニーの公開
 description: ジャーニーの公開方法を学ぶ
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 100%
 
 ---

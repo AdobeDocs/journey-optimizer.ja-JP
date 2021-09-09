@@ -1,17 +1,17 @@
 ---
 title: Campaign v7／v8 を使用したメッセージの送信
 description: Campaign v7／v8 を使用したメッセージの送信方法を学ぶ
-feature: アクション
-topic: 管理
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
-
 
 # Campaign v7／v8 を使用したメッセージの送信 {#campaign-classic-use-case}
 

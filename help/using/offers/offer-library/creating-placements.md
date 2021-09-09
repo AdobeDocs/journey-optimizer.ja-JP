@@ -1,13 +1,14 @@
 ---
 title: プレースメントの作成
 description: Adobe Experience Platform でプレースメントを作成する方法を説明します。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---

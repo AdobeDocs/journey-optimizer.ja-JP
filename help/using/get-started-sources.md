@@ -1,12 +1,13 @@
 ---
 title: Journey Optimizer におけるソースコネクタの基本を学ぶ
 description: Adobe Journey Optimizer で外部ソースからデータを取り込む方法を説明します
-feature: スキーマ
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 105cc40b88479b8a4e70b9556dee7dff1fedc9ca
+exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '94'
 ht-degree: 100%
 
 ---

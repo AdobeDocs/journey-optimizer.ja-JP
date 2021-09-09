@@ -1,13 +1,14 @@
 ---
 title: 決定の更新
 description: 決定には、オファーの選択を通知するロジックが含まれています。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 100%
 
 ---

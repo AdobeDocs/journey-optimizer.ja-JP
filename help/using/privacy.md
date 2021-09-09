@@ -1,12 +1,12 @@
 ---
 title: プライバシー [!DNL Journey Optimizer]  の場合
 description: プライバシーの管理方法について学ぶ
-topic: プライバシー
+topic: Privacy
 role: User
 level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 100%
 
 ---

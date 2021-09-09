@@ -3,7 +3,8 @@ title: データセットの基本を学ぶ
 description: Adobe Journey Optimizer での Adobe Experience Platform データセットの使用方法を説明します
 role: User
 level: Beginner
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -40,4 +41,3 @@ CSV ファイルを XDM スキーマにマッピングする手順について�
 * [スキーマとデータセットの作成およびデータの取り込みによる Journey Optimizer へのテストプロファイルの追加](building-journeys/creating-test-profiles.md)
 * [ストリーミング取得の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target=&quot;_blank&quot;}
 * [Adobe Experience Platform へのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target=&quot;_blank&quot;}
-

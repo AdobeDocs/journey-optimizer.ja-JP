@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
+exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +83,7 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。 And
 
 「**[!UICONTROL サイレント通知]**」オプションを選択すると、アプリケーションにサイレントに通知できます。この場合、通知はアプリケーションに直接転送されます。デバイスの画面にアラートは表示されません。
 
-**[!UICONTROL カスタムデータ]**&#x200B;セクションを使用して、キー値ペアを追加します。
+「 **[!UICONTROL カスタムデータ]**」セクションを使用すると、キーと値のペアを追加できます。
 
 ## カスタムデータ
 
@@ -114,4 +115,3 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。 And
 * [プッシュチャネルの設定](push-gs.md)
 * [新規メッセージの作成](create-message.md)
 * [ジャーニーへのメッセージの追加](building-journeys/journeys-message.md)
-

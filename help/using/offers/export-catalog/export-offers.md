@@ -1,13 +1,14 @@
 ---
 title: パーソナライズされたオファーデータセット
 description: この節には、オファーのエクスポートされたデータセットで使用されるすべてのフィールドが示されています。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2008'
 ht-degree: 100%
 
 ---
@@ -316,6 +317,3 @@ ht-degree: 100%
 **フィールド：**etag
 **タイトル：**決定オプション ETag
 **説明：**&#x200B;決定オプションオブジェクトがスナップショットを取得した際に表示されたリビジョン。**タイプ：**&#x200B;文字列
-
-
-

@@ -1,13 +1,14 @@
 ---
 title: ジャーニーのバージョン
 description: ジャーニーのバージョンについて学ぶ
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---

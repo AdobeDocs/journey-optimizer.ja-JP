@@ -1,17 +1,17 @@
 ---
 title: パーソナライゼーションの検証
 description: パーソナライゼーションの検証とトラブルシューティング方法についての詳細情報
-feature: パーソナライゼーション
-topic: パーソナライゼーション
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
-
 
 # パーソナライゼーションの検証 {#personalization-validation}
 
@@ -22,12 +22,10 @@ ht-degree: 100%
 >[!NOTE]
 > 「**追加**」をクリックしてエディターウィンドウを閉じると、検証は自動的に実行されます。
 
-
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > パーソナライゼーション構文が無効な場合、式エディターウィンドウを閉じることはできません。
-
 
 ## 一般的なエラー
 
@@ -117,4 +115,3 @@ HTML：content<br/></td>
   </tr> 
  </tbody> 
 </table>
-

@@ -1,13 +1,14 @@
 ---
 title: タグの作成
 description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---

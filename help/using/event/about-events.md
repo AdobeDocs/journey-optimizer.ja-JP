@@ -1,13 +1,14 @@
 ---
 title: イベントについて
 description: イベントについて学ぶ
-feature: イベント
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 100%
 
 ---

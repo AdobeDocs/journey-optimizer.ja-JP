@@ -1,13 +1,14 @@
 ---
 title: タグの作成
 description: Adobe Experience Platform でオファーを作成する方法を説明します。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---

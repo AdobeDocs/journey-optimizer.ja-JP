@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1223'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +41,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >**[!UICONTROL オファー属性]**&#x200B;セクションを使用すると、レポートや分析のために、キーと値のペアをオファーに関連付けることができます。
+   >「**[!UICONTROL オファー属性]**」セクションでは、レポートや分析のためにキーと値のペアをオファーに関連付けることができます。
 
 ## オファーの表示域の設定 {#representations}
 

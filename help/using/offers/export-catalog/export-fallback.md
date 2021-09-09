@@ -1,13 +1,14 @@
 ---
 title: フォールバックオファーデータセット
 description: この節では、フォールバックオファー用にエクスポートされたデータセットで使用されるすべてのフィールドを示します。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1050'
 ht-degree: 100%
 
 ---

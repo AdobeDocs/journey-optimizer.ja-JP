@@ -1,13 +1,14 @@
 ---
 title: Journey Optimizer
 description: Journey Optimizer の概要
-feature: 概要
-topic: コンテンツ管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '685'
 ht-degree: 100%
 
 ---

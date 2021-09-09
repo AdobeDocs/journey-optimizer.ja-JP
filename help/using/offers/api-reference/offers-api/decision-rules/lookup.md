@@ -1,18 +1,19 @@
 ---
 title: 決定ルールの検索
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 100%
 
 ---
 
-# 決定の検索ルール
+# 決定ルールの検索
 
 [!DNL Offer Library] API に対してリクエストパスに決定ルールの `@id` または名前を含める GET リクエストを実行することで、特定の決定ルールを検索できます。
 

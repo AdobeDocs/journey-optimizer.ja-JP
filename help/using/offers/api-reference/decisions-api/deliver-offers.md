@@ -1,13 +1,14 @@
 ---
 title: オファーの配信
 description: 決定管理は、マーケターがビジネスロジックと決定ルールを使用し、あらゆるチャネルとアプリケーションをまたいで、パーソナライズされたオファーエクスペリエンスを作成してエンドユーザーに配信できるようにする、一連のサービスと UI プログラムで構成されています。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '937'
 ht-degree: 100%
 
 ---

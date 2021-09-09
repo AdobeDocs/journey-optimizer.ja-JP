@@ -1,13 +1,14 @@
 ---
 title: 演算子関数ライブラリ
 description: 演算子関数ライブラリ
-feature: パーソナライゼーション
-topic: パーソナライゼーション
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -192,4 +193,3 @@ not (homeAddress.countryISO = "CA")
 ```
 
 **数値を使用した操作**
-

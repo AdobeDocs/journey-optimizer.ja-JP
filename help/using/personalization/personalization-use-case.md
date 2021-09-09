@@ -1,19 +1,19 @@
 ---
 title: パーソナライゼーションのユースケース&colon; 注文ステータス通知
 description: プロファイル、Offer Decisioning およびコンテキスト情報を使用してメッセージをパーソナライズする方法を説明します
-feature: パーソナライゼーション
-topic: パーソナライゼーション
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 99%
 
 ---
 
-
-# パーソナライゼーションのユースケース：注文ステータス通知 {#personalization-use-case}
+# パーソナライズ機能の使用例：注文状況通知 {#personalization-use-case}
 
 このユースケースでは、1 つのプッシュ通知メッセージで複数のタイプのパーソナライゼーションを使用する方法を確認できます。次の 3 種類のパーソナライゼーションが使用されます。
 
@@ -125,4 +125,3 @@ ht-degree: 100%
    ![](assets/perso-uc19.png)
 
 1. エラーがないことを確認し、ジャーニーを公開します。
-

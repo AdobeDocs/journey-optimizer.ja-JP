@@ -1,13 +1,14 @@
 ---
 title: ユーザーインターフェイス
 description: オファーライブラリユーザーインターフェイスの詳細を説明します。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 100%
 
 ---

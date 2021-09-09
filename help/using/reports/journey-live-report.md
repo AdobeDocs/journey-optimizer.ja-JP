@@ -1,13 +1,14 @@
 ---
 title: ジャーニーライブレポート
 description: ジャーニーライブレポートのデータの使用方法について説明します
-feature: レポート
-topic: コンテンツ管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
+exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 100%
 
 ---

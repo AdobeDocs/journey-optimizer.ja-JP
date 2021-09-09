@@ -1,13 +1,14 @@
 ---
 title: 決定ルールの作成
 description: Adobe Experience Platform での決定ルールを作成する方法を説明します。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
+exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 100%
 
 ---

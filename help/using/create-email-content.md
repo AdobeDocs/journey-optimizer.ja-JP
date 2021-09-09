@@ -1,13 +1,14 @@
 ---
 title: Journey Optimizer でのメールのデザイン
 description: メールコンテンツのデザイン方法について学ぶ
-feature: 概要
-topic: コンテンツ管理
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1585'
 ht-degree: 100%
 
 ---
@@ -35,13 +36,11 @@ ht-degree: 100%
 ## ゼロからデザイン {#design-scratch}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_structure_components"
 >title="構造コンポーネントについて"
 >abstract="構造コンポーネントはメールのレイアウトを定義します。"
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_columns"
 >title="メール列の定義"
 >abstract="E メールデザイナーを使用すると、列構造を定義することで、メールのレイアウトを簡単に定義できます。"
@@ -144,7 +143,6 @@ HTML コンテンツを表示できない場合に使用するため、メール
 ## プリヘッダーの使用 {#preheader}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_preheader"
 >title="プリヘッダーの使用"
 >abstract="プリヘッダーでは、メールの追跡とカスタマイズを向上できるよう、短い概要テキストを設定できます。"
@@ -180,7 +178,6 @@ HTML コンテンツを表示できない場合に使用するため、メール
 ## 背景の設定 {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_backgroundimage"
 >title="背景の設定"
 >abstract="E メールデザイナーでは、コンテンツの背景色や背景画像をパーソナライズできます。なお、背景画像は、すべてのメールクライアントでサポートされているわけではありません。"
@@ -284,6 +281,3 @@ E メールデザイナーインターフェイスで要素を選択し、サイ
 1. 既存の属性の値を変更するか、「**+**」ボタンを使用して新しい属性を追加します。CSS に準拠する任意の属性と値を追加できます。
 
 すると、選択した要素にスタイルが適用されます。子要素に特定のスタイル設定属性が定義されていない場合、親要素のスタイル設定が継承されます。
-
-
-

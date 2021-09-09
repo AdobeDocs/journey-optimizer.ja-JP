@@ -1,14 +1,15 @@
 ---
-title: '外部データソース '
+title: 外部データソース
 description: 外部データソースの設定方法を学ぶ
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -114,10 +115,10 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 * endpoint：エンドポイントの生成に使用する URL。
 * method：エンドポイントでの HTTP リクエストのメソッド（GET または POST）。
-* headers:必要に応じて、この呼び出しでヘッダーとして挿入されるキー値ペア
-* body：メソッドが POST の場合の呼び出しの本文を説明します。bodyParams（キーと値のペア）で定義される、制限付きの本文構造をサポートしています。 bodyType は、次の呼び出しでの本文の形式とエンコーディングを記述します。
-   * &#39;form&#39;:つまり、コンテンツタイプはapplication/x-www-form-urlencoded(charset UTF-8)になり、キーと値のペアは次のようにシリアル化されます。key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;:つまり、コンテンツタイプはapplication/json(charset UTF-8)になり、キーと値のペアは次のようにjsonオブジェクトとしてシリアル化されます。_{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;, ...}_
+* headers：必要に応じて、この呼び出しにヘッダーとして挿入されるキーと値のペア
+* body：メソッドが POST の場合の呼び出しの本文を記述します。bodyParams（キーと値のペア）で定義された限定的な本文構造をサポートしています。bodyType は、呼び出しでの本文の形式とエンコーディングを記述します。
+   * 「form」：コンテンツタイプが application/x-www-form-urlencoded（文字セット UTF-8）で、キーと値のペアが key1=value1&amp;key2=value2&amp;... のようにシリアル化されることを意味します。
+   * 「json」：コンテンツタイプが application/json（文字セット UTF-8）で、キーと値のペアが JSON オブジェクトとして _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のようにシリアル化されることを意味します。
 
 アクションの HTTP リクエストにアクセストークンを挿入する方法の定義：
 

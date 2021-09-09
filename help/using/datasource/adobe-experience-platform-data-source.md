@@ -1,13 +1,14 @@
 ---
-title: 'Adobe Experience Platform のデータソース '
+title: Adobe Experience Platform のデータソース
 description: Adobe Experience Platform のデータソースの設定方法を学ぶ
-feature: データソース
-topic: 管理
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
+exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 100%
 
 ---

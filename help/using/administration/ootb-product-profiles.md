@@ -12,14 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-feature: コントロールグループ
-topic: 管理
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 99%
+source-wordcount: '975'
+ht-degree: 100%
 
 ---
 
@@ -103,4 +103,4 @@ ht-degree: 99%
 
 |機能 |権限|
 |-|-|
-|決定管理| <ul><li>**決定の管理**：決定エンティティを読み取り、作成し、編集および削除する。</li><li>**決定の表示**：決定エンティティへの読み取り専用アクセス。</li><li>**ランキング戦略の管理**：カスタムメッセージレポートを読み取り、作成し、編集および削除をおこない、アクション機能を使用する。</li><li>**公開の決定**:判定アクティビティをアクティブ化または非アクティブ化する。</li></ul>|
+|決定管理| <ul><li>**決定の管理**：決定エンティティを読み取り、作成し、編集および削除する。</li><li>**決定の表示**：決定エンティティへの読み取り専用アクセス。</li><li>**ランキング戦略の管理**：カスタムメッセージレポートを読み取り、作成し、編集および削除をおこない、アクション機能を使用する。</li><li>**決定の公開**：決定アクティビティをアクティブ化または非アクティブ化します。</li></ul>|

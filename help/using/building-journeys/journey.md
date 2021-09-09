@@ -1,13 +1,14 @@
 ---
 title: 一般原則
 description: 一般原則
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---

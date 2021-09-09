@@ -5,10 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +37,9 @@ ht-degree: 74%
 
 * すべての&#x200B;**ハードバウンス**&#x200B;および&#x200B;**スパム通報**&#x200B;は、1 回発生した後、対応するメールアドレスを抑制リストに自動的に送信します。
 
-* **ソフトバウンス**<!--and temporary **ignored** errors-->では、直ちにメールアドレスが抑制リストに送られることはありませんが、エラーカウンターが増加します。その後、複数の[再試行](configuration/retries.md)が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。
+* **ソフトバウンス**<!--and temporary **ignored** errors-->では、メールアドレスが直ちに抑制リストに送られることはありませんが、エラーカウンターが増加します。その後、数回の[再試行](configuration/retries.md)が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。
 
-* また、アドレスやドメイン](configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに手動で&#x200B;[**追加することもできます。**
+* また、アドレスやドメイン](configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;[**手動で**&#x200B;追加することもできます。
 
 ハードバウンスとソフトバウンスについて詳しくは、[この節](#delivery-failures)を参照してください。
 
@@ -53,21 +54,21 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->「**[!UICONTROL 抑制]**」ステータスのプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;は、ジャーニー（[セグメントの読み取り](building-journeys/read-segment.md)および[メッセージ](building-journeys/journeys-message.md)）を通過したとプロファイルを表示しますが、電子メールが除外される前は、**送信された**&#x200B;指標には含まれません送信中&#x200B;****
+>「**[!UICONTROL 抑制]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](building-journeys/read-segment.md)アクティビティと[メッセージ](building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート** では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->[ライブレポート](reports/live-report.md)と[グローバルレポート](reports/global-report.md)の詳細をご覧ください。 すべての除外ケースの理由を調べるには、[Adobe Experience Platformクエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}を使用します。
+>詳しくは、[ライブレポート](reports/live-report.md)と[グローバルレポート](reports/global-report.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;} を使用します。
 
-### 配信エラー {#delivery-failures}
+### 配信の失敗 {#delivery-failures}
 
-配信が失敗した場合のエラーには次の2種類があります。
+配信が失敗したときのエラーには、次の 2 つのタイプがあります。
 
-* **ハードバウンス**.ハードバウンスは、無効な メールアドレス（存在しないメールアドレスなど）を示します。これには、アドレスが無効であることを明示的に示す、受信側のEメールサーバーからのバウンスメッセージが含まれます。
+* **ハードバウンス**.ハードバウンスは、無効な メールアドレス（存在しないメールアドレスなど）を示します。これには、アドレスが無効であることを明示的に示す受信メールサーバーからのバウンスメッセージが含まれます。
 * **ソフトバウンス**。これは、有効なメールアドレスに対して発生した一時的なメールバウンスです。
 <!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
-**ハードバウンス**&#x200B;は、メールアドレスを抑制リストに自動的に追加します。
+**ハードバウンス**&#x200B;の場合は、メールアドレスが抑制リストに自動的に追加されます。
 
-何度も繰り返し発生する&#x200B;**ソフトバウンス** <!--or an **ignored** error-->も、何度か再試行した後にEメールアドレスを抑制リストに送信します。 [再試行の詳細情報](configuration/retries.md)
+**ソフトバウンス**<!--or an **ignored** error-->が何度も発生する場合も、数回再試行した後でメールアドレスが抑制リストに送信されます。[再試行の詳細情報](configuration/retries.md)
 
 これらのアドレスへの送信を継続すると、メールアドレスリストのメンテナンスのベストプラクティスに従っていない可能性があるため、信頼できる送信者ではない可能性があると ISP に認識され、配信率に影響が及ぶ可能性があります。
 

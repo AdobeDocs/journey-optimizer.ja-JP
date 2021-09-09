@@ -1,13 +1,14 @@
 ---
 title: サンドボックス管理
 description: サンドボックスの管理方法について学ぶ
-feature: コントロールグループ
-topic: 管理
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '355'
 ht-degree: 100%
 
 ---

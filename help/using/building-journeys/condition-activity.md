@@ -1,13 +1,14 @@
 ---
 title: 条件アクティビティ
 description: 条件アクティビティについて学ぶ
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '968'
 ht-degree: 100%
 
 ---

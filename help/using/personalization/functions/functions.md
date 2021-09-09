@@ -1,17 +1,17 @@
 ---
 title: ヘルパー関数ライブラリ
 description: Journey Optimizer ヘルパー関数ライブラリ
-feature: パーソナライゼーション
-topic: パーソナライゼーション
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1178'
 ht-degree: 100%
 
 ---
-
 
 # ヘルパー関数ライブラリ{#functionsL}
 

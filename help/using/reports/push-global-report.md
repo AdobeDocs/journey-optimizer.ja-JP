@@ -1,13 +1,14 @@
 ---
 title: プッシュ通知のグローバルレポート
 description: プッシュ通知のグローバルレポートのデータの使用方法を学ぶ
-feature: レポート
-topic: コンテンツ管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '317'
 ht-degree: 100%
 
 ---

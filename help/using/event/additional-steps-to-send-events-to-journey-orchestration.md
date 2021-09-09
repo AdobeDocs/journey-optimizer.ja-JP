@@ -1,13 +1,14 @@
 ---
 title: ジャーニーにイベントを送信するための追加手順
 description: ジャーニーにイベントを送信するための追加手順を学ぶ
-feature: イベント
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e0144151-6c54-4656-9650-b544d8e7be16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 100%
 
 ---

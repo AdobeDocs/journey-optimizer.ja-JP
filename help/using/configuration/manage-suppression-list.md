@@ -1,6 +1,6 @@
 ---
 title: 抑制リストの管理
-description: 'Journey Optimizer 抑制リストにアクセスして管理する方法を学ぶ '
+description: Journey Optimizer 抑制リストにアクセスして管理する方法を学ぶ
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -15,20 +15,20 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
+exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 29%
+ht-degree: 42%
 
 ---
 
-
 # 抑制リストの管理 {#manage-suppression-list}
 
-[!DNL Journey Optimizer] を使用すると、次のようにジャーニーでの送信から自動的に除外されるすべてのメールアドレスを監視できます。
+[!DNL Journey Optimizer] を使用すると、次のような、ジャーニーでの送信から自動的に除外されるメールアドレスをすべて監視できます。
 
-* 無効なアドレス（ハードバウンス）。
-* 配信にEメールを引き続き含めると、一貫してソフトバウンスで、Eメールのレピュテーションに悪影響を与える可能性があるアドレス。
+* 無効なアドレス（ハードバウンス）
+* 一貫してソフトバウンスし、引き続き配信に含めるとメールの評価に悪影響を及ぼす可能性があるアドレス
 * いずれかのメールメッセージに対して何らかのスパム報告を発行する受信者。
 
 このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。[この節](../suppression-list.md)では、抑制リストの概念と使用方法について詳しく説明します。
@@ -79,7 +79,7 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
 ## 抑制のカテゴリと理由 {#suppression-categories-and-reasons}
 
-メッセージをEメールアドレスに配信できない場合、[!DNL Journey Optimizer]は配信が失敗した理由を判断し、**[!UICONTROL 抑制カテゴリ]**&#x200B;に関連付けます。
+メッセージをメールアドレスに配信できなかった場合、[!DNL Journey Optimizer] は配信が失敗した理由を特定し、**[!UICONTROL 抑制カテゴリ]**&#x200B;に関連付けます。
 
 抑制のカテゴリは次のとおりです。
 
@@ -87,7 +87,7 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
    >[!NOTE]
    >
-   >エラーがスパムの苦情の結果である場合は、**ハード**&#x200B;カテゴリにも分類されます。 苦情を発行した受信者のEメールアドレスは、直ちに抑制リストに送信されます。
+   >エラーがスパムの苦情の結果である場合は、それも&#x200B;**ハード**&#x200B;カテゴリに分類されます。 苦情を出した受信者のメールアドレスは、直ちに抑制リストに送信されます。
 
 * **ソフト**：ソフトエラーは、エラーカウンターが制限しきい値に達すると、アドレスを抑制リストに送信します。[再試行の詳細情報](retries.md)
 
@@ -97,13 +97,13 @@ You can also display the suppression list content using the **[!UICONTROL View s
     * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
     -->
 
-* **手動**:また、抑制リストに電子メールアドレスまたはドメインを手動で追加することもできます。[詳細情報](#add-addresses-and-domains)
+* **手動**：抑制リストにメールアドレスまたはドメインを手動で追加することもできます。[詳細情報](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->ソフトバウンスとハードバウンスの詳細については、[配信エラーのタイプ](../suppression-list.md#delivery-failures)セクションを参照してください。
+>ソフトバウンスとハードバウンスについて詳しくは、[配信失敗のタイプ](../suppression-list.md#delivery-failures)の節を参照してください。
 
-表示される各電子メールアドレスについて、「**[!UICONTROL タイプ]**（電子メールまたはドメイン）」、「**[!UICONTROL 理由]**」で除外、追加者、および抑制リストに追加された日時を確認することもできます。
+一覧表示されているメールアドレスごとに、「**[!UICONTROL タイプ]**」（メールまたはドメイン）、除外する「**[!UICONTROL 理由]**」、追加したユーザーおよび抑制リストに追加された日時を確認することもできます。
 
 ![](../assets/suppression-list.png)
 
@@ -227,6 +227,3 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
-
-
-

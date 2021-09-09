@@ -1,12 +1,13 @@
 ---
 title: Journey Optimizer における ID の基本を学ぶ
 description: Adobe Journey Optimizer で ID を管理する方法を説明します
-feature: プロファイル
+feature: Profiles
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
@@ -36,4 +37,3 @@ ID とは、エンティティ（通常は個人）に固有のデータです�
 [!DNL Adobe Journey Optimizer] ユーザーインターフェイスの ID グラフビューアを使用すると、スティッチされる顧客 ID とその方法を視覚化し、より深く理解できます。 このビューアを使用すると、グラフの様々な部分をドラッグおよび操作でき、ID 間の複雑な関係を調べたり、デバッグをより効率的に実行したり、情報の利用方法に関する透明性を高めたりできます。
 
 **ID グラフ**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-

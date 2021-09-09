@@ -1,17 +1,17 @@
 ---
 title: 決定管理の概要
 description: 決定管理の概要。アーキテクチャ、オファー、決定、および実行できる一般的な使用事例の詳細をご確認ください。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Beginner
-source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
+exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '808'
 ht-degree: 100%
 
 ---
-
 
 # 決定管理について {#about-offer-decision}
 

@@ -1,17 +1,17 @@
 ---
 title: パーソナライゼーション構文
 description: パーソナライゼーション構文の使用方法を説明します。
-feature: パーソナライゼーション
-topic: パーソナライゼーション
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # パーソナライゼーション構文 {#personalization-syntax}
 
@@ -75,7 +75,6 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 >[!NOTE]
 >セグメント化とセグメント化サービスの詳細については、[この節](../segment/about-segments.md)を参照してください。
 
-
 ## オファー
 
 この名前空間では、既存のオファー決定を参照できます。
@@ -127,7 +126,6 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 >[!NOTE]
 >
 >ヘルパー関数について詳しくは、[この節](functions/helpers.md)を参照してください。
-
 
 ## リテラル型
 

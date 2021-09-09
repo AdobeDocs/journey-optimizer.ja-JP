@@ -5,10 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +21,17 @@ ht-degree: 56%
 
 >[!CAUTION]
 >
->この機能は、実稼動用サンドボックスでは使用&#x200B;**できません**。 Eメールチャネルにのみ適用されます。
+>この機能は、実稼動用サンドボックスでは使用&#x200B;**できません**。 これはメールチャネルにのみ適用されます。
 
 ## 許可リストの有効化 {#enable-allow-list}
 
-実稼動以外のサンドボックスで許可リストを有効にするには、メッセージプリセットサービスの対応するAPIエンドポイントを使用して、一般設定を更新する必要があります。
+実稼動以外のサンドボックスで許可リストを有効にするには、メッセージプリセットサービスの対応する API エンドポイントを使用して、一般設定を更新する必要があります。
 
-* このAPIを使用して、いつでもこの機能を無効にすることもできます。
+* この API を使用すると、この機能をいつでも無効にすることもできます。
 
 * この機能を有効にする前または後に許可リストを更新することができます。
 
-* 許可リストロジックは、許可リストが空でない場合に&#x200B;**および**&#x200B;が有効になっている場合に適用されます。 ****&#x200B;詳しくは、[この節](#logic)を参照してください。
+* 許可リストのロジックが適用されるのは、その機能が有効で、**かつ**、許可リストが空で&#x200B;**ない**&#x200B;場合です。詳しくは、[この節](#logic)を参照してください。
 
 <!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
@@ -71,15 +72,15 @@ Found this link in Experience Platform documentation, but may not be the final o
 
 >[!NOTE]
 >
->「**[!UICONTROL 許可されていません]**」ステータスのプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;は、ジャーニー（[セグメントの読み取り](building-journeys/read-segment.md)および[メッセージ](building-journeys/journeys-message.md)）を通過したとプロファイルを表示しますが、電子メールが除外される前は、**送信された**&#x200B;指標には含まれません送信中&#x200B;****
+>「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](building-journeys/read-segment.md)アクティビティと[メッセージ](building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->[ライブレポート](reports/live-report.md)と[グローバルレポート](reports/global-report.md)の詳細をご覧ください。
+>詳しくは、[ライブレポート](reports/live-report.md)と[グローバルレポート](reports/global-report.md)を参照してください。
 
 ## 除外レポート {#reporting}
 
-この機能が実稼動以外の許可リストで有効になっている場合、サンドボックス上にないので、送信から除外された電子メールアドレスまたはドメインを取得できます。 これをおこなうには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}を使用して、以下のAPI呼び出しをおこないます。
+実稼働以外のサンドボックスでこの機能を有効にすると、許可リストに登録されていなかったので送信から除外されたメールアドレスやドメインを取得できます。それには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;} を使用して、以下の API 呼び出しを行います。
 
-受信者が許可リストにいなかったために送信されなかった&#x200B;**電子メール**&#x200B;の数を取得するには、次のクエリを使用します。
+受信者が許可リストに登録されていなかったので送信されなかった&#x200B;**メールの数**&#x200B;を取得するには、次のクエリを使用します。
 
 ```
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -88,7 +89,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-受信者が許可リストにいなかったために送信されなかった電子メールアドレス&#x200B;**の**&#x200B;リストを取得するには、次のクエリを使用します。
+受信者が許可リストに登録されていなかったので送信されなかった&#x200B;**メールアドレスのリスト**&#x200B;を取得するには、次のクエリを使用します。
 
 ```
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
@@ -96,4 +97,3 @@ _experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT
 _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
-

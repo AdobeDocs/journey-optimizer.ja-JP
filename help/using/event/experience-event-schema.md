@@ -5,10 +5,11 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
+exl-id: f19749c4-d683-4db6-bede-9360b9610eef
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,14 +73,14 @@ Adobe Experience Platform では、あるデータセットを別のデータセ
 
 Journey Optimizer では、リンクされたテーブルのすべてのフィールドを次の場合に活用できます。
 
-* ビジネスイベントまたは単一イベントを設定する場合、[詳細を表示](../event/experience-event-schema.md#unitary_event_configuration)
+* ビジネスイベントや単一イベントを設定する場合：[詳細情報](../event/experience-event-schema.md#unitary_event_configuration)
 * ジャーニーで条件を使用する場合：[詳細情報](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * メッセージをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#message_personalization)
 * カスタムアクションをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### イベント設定{#unitary_event_configuration}
 
-リンクされたスキーマフィールドは、単一のイベント設定とビジネスイベント設定で使用できます。
+リンクされたスキーマフィールドは、次の場合に単一イベントおよびビジネスイベントの設定で使用できます。
 
 * イベント設定画面でイベントスキーマフィールドを参照する場合
 * システム生成イベントの条件を定義する場合

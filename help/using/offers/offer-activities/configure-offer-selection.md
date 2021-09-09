@@ -1,13 +1,14 @@
 ---
 title: 決定でのオファー選択の設定
 description: 決定でのオファー選択を管理する方法を説明します。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
+exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 100%
 
 ---

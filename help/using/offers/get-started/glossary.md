@@ -1,13 +1,13 @@
 ---
 title: オファーの用語集
 description: オファーの用語集
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---

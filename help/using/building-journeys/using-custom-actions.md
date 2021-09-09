@@ -5,41 +5,42 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6b18f009a3c907649fd1e0261ffc7cfcc5acaef4
+exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
 # カスタムアクションの使用 {#section_f2c_hbg_nhb}
 
-アクティビティ設定ペインに、URL設定パラメーターと、カスタムアクション用に設定された認証パラメーターが表示されます。 [詳細情報](../action/about-custom-action-configuration.md)。
+アクティビティ設定ペインには、URL 設定パラメーターと、カスタムアクション用に設定された認証パラメーターが表示されます。[詳細情報](../action/about-custom-action-configuration.md)。
 
 >[!NOTE]
 >
->単純なコレクションをカスタムアクションパラメーターに渡すことはできません。 より複雑な収集フィールド（オブジェクトの配列）はサポートされていません。  また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。
+>カスタムアクションのパラメーターでシンプルなコレクションを渡すことはできません。より複雑なコレクションフィールド（オブジェクトの配列）はサポートされていません。また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。
 
 ## URL 設定
 
 ### 動的パス
 
-URLに動的パスが含まれる場合は、「**[!UICONTROL パス]**」フィールドにパスを指定します。
+URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フィールドでパスを指定します。
 
 >[!NOTE]
 >
->URLの静的な部分をジャーニーで設定することはできませんが、カスタムアクションのグローバル設定で設定できます。 [詳細情報](../action/about-custom-action-configuration.md)。
+>ジャーニーでは URL の静的な部分を設定できませんが、カスタムアクションのグローバル設定では設定できます。[詳細情報](../action/about-custom-action-configuration.md)。
 
-フィールドとプレーンテキスト文字列を連結するには、高度な式エディターで文字列関数またはプラス記号(+)を使用します。 プレーンテキスト文字列を一重引用符(&#39;)または二重引用符(&quot;)で囲みます。 [詳細情報](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}。
+フィールドとプレーンテキスト文字列を連結するには、高度な式エディターで文字列関数またはプラス記号（+）を使用します。プレーンテキスト文字列を一重引用符（&#39;）または二重引用符（&quot;）で囲みます。[詳細情報](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}。
 
-次の表に、設定の例を示します。
+この表は、設定の例を示しています
 
 | フィールド | 値 |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Path | `The id of marketingCampaign + '/messages'` |
+| パス | `The id of marketingCampaign + '/messages'` |
 
-連結されたURLの形式は次のとおりです。
+連結された URL の形式は次のとおりです。
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;キャンペーン ID\>`/messages`
 
@@ -47,12 +48,12 @@ URLに動的パスが含まれる場合は、「**[!UICONTROL パス]**」フィ
 
 ### ヘッダー
 
-**[!UICONTROL 「URL Configuration]**」セクションには、動的ヘッダーフィールドが表示されますが、定数ヘッダーフィールドは表示されません。 動的ヘッダーフィールドは、値が変数として設定されるHTTPヘッダーフィールドです。 [詳細情報](../action/about-custom-action-configuration.md)。
+「**[!UICONTROL URL 設定]**」セクションには、動的ヘッダーフィールドが表示されますが、定数ヘッダーフィールドは表示されません。動的ヘッダーフィールドは、値が変数として設定される HTTP ヘッダーフィールドです。[詳細情報](../action/about-custom-action-configuration.md)。
 
 必要に応じて、動的ヘッダーフィールドの値を指定します。
 
 1. ジャーニーのカスタムアクションを選択します。
-1. 設定ペインで、「**[!UICONTROL URL Configuration]**」セクションのヘッダーフィールドの横にある鉛筆アイコンをクリックします。
+1. 設定ペインで、「**[!UICONTROL URL 設定]**」セクションのヘッダーフィールドの横にある鉛筆アイコンをクリックします。
 
    ![](../assets/journey-dynamicheaderfield.png)
 

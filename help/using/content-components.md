@@ -1,13 +1,14 @@
 ---
 title: E メールデザイナーのコンテンツコンポーネントの使用
 description: メールでのコンテンツコンポーネントの使用を学ぶ
-feature: 概要
-topic: コンテンツ管理
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1114'
 ht-degree: 100%
 
 ---
@@ -184,4 +185,3 @@ ht-degree: 100%
 
 * [決定管理の概要](offers/get-started/starting-offer-decisioning.md)。
 * [パーソナライズされたオファーをメッセージに追加](deliver-personalized-offers.md)。
-

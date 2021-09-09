@@ -1,12 +1,13 @@
 ---
 title: スキーマの基本を学ぶ
 description: Adobe Journey Optimizer でのAdobe Experience Platform スキーマの使用方法を説明します
-feature: スキーマ
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
@@ -43,4 +44,3 @@ ht-degree: 100%
 * [データモデリングのベストプラクティス](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ja){target=&quot;_blank&quot;}
 * [スキーマレジストリ API を使用したスキーマの作成](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=ja){target=&quot;_blank&quot;}
 * [スキーマエディターを使用した 2 つのスキーマ間の関係の定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=ja){target=&quot;_blank&quot;}
-

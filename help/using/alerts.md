@@ -1,13 +1,14 @@
 ---
 title: メッセージ内のアラート
 description: メッセージコンテンツの検証の確認とトラブルシューティングの方法を説明します。
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '455'
 ht-degree: 100%
 
 ---

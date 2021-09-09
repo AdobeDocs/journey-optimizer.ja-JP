@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -132,13 +133,13 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
 
-## ワンクリックのオプトアウト {#one-click-opt-out}
+## ワンクリックオプトアウト {#one-click-opt-out}
 
-多くの顧客が購読解除がより簡単なプロセスを探しているので、1回のクリックでのオプトアウトリンクをEメールコンテンツに追加することもできます。 このリンクをクリックすると、受信者はオプトアウトの確認が必要なランディングページにリダイレクトされずに、通信をすばやく購読解除できます。
+購読解除をするためのより簡単なプロセスを求めているお客様が多いので、ワンクリックオプトアウトリンクをメールコンテンツに追加することもできます。このリンクにより、受信者は、オプトアウトの確認が必要なランディングページにリダイレクトされることなく、コミュニケーションをすばやく購読解除できます。
 
-[この節](message-tracking.md#one-click-opt-out-link)で、メッセージコンテンツにオプトアウトリンクを追加する方法を説明します。
+メッセージコンテンツにオプトアウトリンクを追加する方法については、[この節](message-tracking.md#one-click-opt-out-link)を参照してください。
 
-メッセージが[ジャーニー](building-journeys/journey.md)を通じて送信されると、受信者がオプトアウトリンクをクリックすると、すぐにオプトアウトされます。
+メッセージが[ジャーニー](building-journeys/journey.md)を通じて送信された後、受信者がオプトアウトリンクをクリックすると、すぐにオプトアウトされます。
 
 ## ヘッダーの購読解除リンク {#unsubscribe-email}
 

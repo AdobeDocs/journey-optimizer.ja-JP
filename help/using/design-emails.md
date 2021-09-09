@@ -1,13 +1,14 @@
 ---
 title: メールのデザイン
 description: メールの設計方法を学ぶ
-feature: 概要
-topic: コンテンツ管理
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---

@@ -15,13 +15,13 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 848b6e84e0a4469be438e89dfc3e3e4a72dc6b6c
+exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 55%
 
 ---
-
 
 # サブドメインのデリゲート
 

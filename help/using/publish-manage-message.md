@@ -2,13 +2,14 @@
 title: メッセージの公開と変更
 description: メッセージを公開および更新する方法について学ぶ
 snippet: y
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---

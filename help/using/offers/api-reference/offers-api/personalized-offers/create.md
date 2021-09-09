@@ -1,13 +1,14 @@
 ---
 title: パーソナライズされたオファーの作成
 description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '136'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,14 @@
 ---
 title: journeyStep イベントの ID フィールド
 description: journeyStep イベントの ID フィールド
-feature: レポート
-topic: コンテンツ管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 100%
 
 ---

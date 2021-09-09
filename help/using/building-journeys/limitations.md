@@ -1,13 +1,14 @@
 ---
 title: ジャーニーの制限
 description: ジャーニーの制限について学ぶ
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---

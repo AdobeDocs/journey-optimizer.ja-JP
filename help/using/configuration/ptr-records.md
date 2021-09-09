@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: アプリケーション設定
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # PTR レコード
 

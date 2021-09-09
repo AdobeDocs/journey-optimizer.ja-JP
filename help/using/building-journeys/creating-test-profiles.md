@@ -1,13 +1,14 @@
 ---
 title: テストプロファイルの作成
 description: テストプロファイルの作成方法
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1371'
 ht-degree: 100%
 
 ---

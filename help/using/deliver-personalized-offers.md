@@ -1,14 +1,15 @@
 ---
 title: パーソナライズされたオファーの追加
 description: メッセージにパーソナライズされたオファーを追加する方法を学ぶ
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1f93158f89e7e05e8e7978960f09cc7e1d4cdc7a
+exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 98%
+source-wordcount: '536'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 98%
 
 オファーの設定方法を示す&#x200B;**完全なエンドツーエンドの例**&#x200B;については、オファーを決定で使用し、この決定をメールで活用して、[この節](offers/offers-e2e.md#insert-decision-in-email)を参照してください。
 
-&lt;a0➡️/>パーソナライゼーションとしてオファーを追加する方法については、このビデオ](#video-offers)を参照してください。[
+➡️ オファーをパーソナライゼーションとして追加する方法については、[このビデオ](#video-offers)をご覧ください
 
 ## メールへの決定の挿入 {#insert-offers}
 

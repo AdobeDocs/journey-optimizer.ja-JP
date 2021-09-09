@@ -1,13 +1,14 @@
 ---
 title: ジャーニーのユースケース
 description: ジャーニーのユースケース
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
+exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '859'
 ht-degree: 100%
 
 ---

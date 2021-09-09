@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 100%
@@ -40,7 +41,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
+   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#%E3%82%BB%E3%82%B0%E3%83%A1%E3%83%B3%E3%83%88%E7%B5%90%E6%9E%9C%E3%81%AE%E8%A7%A3%E9%87%88){target=&quot;_blank&quot;}を参照してください。
 
    ![](../assets/read-segment-selection.png)
 
@@ -62,7 +63,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >サンドボックスあたりの全体的なスロットルレートは、1 秒あたり 20,000 メッセージに設定されています。たがって、同じサンドボックス内で同時に実行されるすべての「セグメントを読み取り」アクティビティのスロットルレートは、合計で 1 秒あたり最大 20,000 メッセージになります。この上限は変更できません。
+   >サンドボックスあたりの全体的なスロットルレートは、1 秒あたり 20,000 メッセージに設定されています。したがって、同じサンドボックスで同時に実行されるすべての読み取りセグメントのスロットルレートは、合計で 1 秒あたり最大 20,000 メッセージになります。この上限は変更できません。
 
 1. **[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティを使用すると、セグメントがジャーニーにエントリする時間を指定できます。これを行うには、「**[!UICONTROL ジャーニースケジュールを編集]** 」リンクをクリックしてジャーニーのプロパティにアクセスし、**[!UICONTROL スケジューラータイプ]**&#x200B;フィールドを設定します。
 

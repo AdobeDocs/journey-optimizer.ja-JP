@@ -1,13 +1,14 @@
 ---
 title: オブジェクト関数ライブラリ
 description: オブジェクト関数ライブラリ
-feature: パーソナライズ機能
-topic: パーソナライズ機能
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 100%
 
 ---

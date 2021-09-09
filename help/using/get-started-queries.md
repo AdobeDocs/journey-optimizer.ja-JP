@@ -1,12 +1,13 @@
 ---
 title: Journey Optimizer におけるクエリの基本を学ぶ
 description: Adobe Journey Optimizer でクエリを作成する方法を説明します
-feature: スキーマ
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+exl-id: 6f32f068-429a-4039-bb76-d190069e7402
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '122'
 ht-degree: 100%
 
 ---

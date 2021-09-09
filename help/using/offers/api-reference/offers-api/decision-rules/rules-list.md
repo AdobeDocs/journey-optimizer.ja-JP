@@ -1,13 +1,14 @@
 ---
 title: 決定ルールのリスト
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
-feature: オファー
-topic: 統合
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '268'
 ht-degree: 100%
 
 ---

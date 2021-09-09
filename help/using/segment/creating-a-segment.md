@@ -1,13 +1,14 @@
 ---
 title: セグメントの作成
 description: セグメントの作成方法を学ぶ
-feature: ジャーニー
-topic: コンテンツ管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
