@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 91%
+source-wordcount: '1113'
+ht-degree: 88%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 91%
 
 **ジャーニー**
 
-* **動的ヘッダー** - HTTP ヘッダーパラメーターで動的データを渡すことができるようになりました。これらのパラメーターは、ジャーニーアクションの HTTP 呼び出し（タイムスタンプやトラッキング ID など）を受け取る統合システムで使用できます。 [詳細情報](action/about-custom-action-configuration.md#url-configuration)
+* **動的ヘッダー** - HTTP ヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションの HTTP 呼び出し（タイムスタンプやトラッキング ID など）を受け取る統合システムで使用できます。 [詳細情報](action/about-custom-action-configuration.md#url-configuration)
 * **動的 URL パス** - カスタムアクションの動的 URL パスを設定できるようになりました。[詳細情報](action/about-custom-action-configuration.md#url-configuration)
 * 読み取りセグメントの全体的なスロットル率が、1 秒あたり17,000 メッセージから 20,000 メッセージに変更されました。[詳細情報](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
@@ -148,7 +148,10 @@ ht-degree: 91%
 
 * **許可リスト** - API 呼び出しを通じて、実稼動以外のサンドボックスで許可リストを有効および無効にできるようになりました。[詳細情報](allow-list.md#enable-allow-list)
 * **ナビゲーション**  -  **管理/チャネル/Eメール設定/一般メニューでアクセス可能な抑制リストが、新しい** 抑制リストサブメニューに移動しまし **** た。このサブメニューでは、アクセスしやすいように、関連するすべての機能が収集されます。[詳細情報](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**決定管理**
+
+* オファーの作成時に表示域を追加および設定する方法が更新され、ユーザーエクスペリエンスが向上しました。 特に、アセットライブラリは、表現の画像タイプコンテンツを定義する場合にのみ表示されるようになりました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正点
 

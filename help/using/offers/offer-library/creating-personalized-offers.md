@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 75%
 
 ---
 
@@ -45,43 +45,67 @@ ht-degree: 100%
 
 ## オファーの表示域の設定 {#representations}
 
-1. 「**[!UICONTROL 表示域を追加]**」ボタンを使用して、オファーに 1 つまたは複数の表示域を追加します。
+オファーは、メッセージ内の様々な場所に表示できます。画像、段落内のテキスト、HTMLブロックなどを含む上部のバナー オファーが持つ表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
 
-   >[!NOTE]
-   >
-   >オファーは、メッセージの様々な場所に表示できます（画像付きトップバナー、段落内のテキスト、html ブロックなど）。オファーが持つ表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
+1つまたは複数の表示域をオファーに追加して設定するには、次の手順に従います。
 
-1. 表示域ごとに、オファーを表示する 「**[!UICONTROL チャネル]**」と「**[!UICONTROL プレースメント]**」を指定します。
+1. 1つ目の表現では、まず使用する&#x200B;**[!UICONTROL チャネル]**&#x200B;を選択します。
 
    ![](../../assets/channel-placement.png)
 
-   「**[!UICONTROL 参照]**」ボタンを使用すると、使用可能なプレースメントをチャネルやコンテンツタイプに従ってフィルターできます。
+   選択したチャネルで使用可能な配置のみが&#x200B;**[!UICONTROL 配置]**&#x200B;ドロップダウンリストに表示されます。
+
+1. リストからプレースメントを選択するか、**[!UICONTROL プレースメント]**&#x200B;ドロップダウンリストの横にあるボタンを使用して、すべてのプレースメントを参照します。
+
+   ![](../../assets/browse-button-placements.png)
+
+   チャネルやコンテンツタイプに従って配置をフィルタリングできます。 配置を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
    ![](../../assets/browse-placements.png)
 
-1. Adobe Experience Cloud アセットライブラリや外部の公共の場所から得られるコンテンツを各表示域に追加します。
+1. 表現にコンテンツを追加します。
 
-   * Adobe Experience Cloud アセットライブラリからコンテンツを追加するには、左ペインから表示域にコンテンツをドラッグ＆ドロップし、コンテンツに関連付ける URL を「**[!UICONTROL 宛先リンク]**」フィールドで指定します。
+   >[!NOTE]
+   >
+   >プレースメントのコンテンツタイプに対応するコンテンツのみが使用できます。
+
+   * 選択した配置が画像タイプの場合、Adobe Experience Cloud Assetライブラリから取得したコンテンツを追加できます。これは、[!DNL Adobe Experience Manager Assets Essentials]から提供されるアセットの一元リポジトリです。
 
       >[!NOTE]
       >
-      >コンテンツは、左側のパネルのアセットピッカーからのみドラッグ＆ドロップできます。プレースメントのコンテンツタイプに対応するコンテンツのみが使用できます。
+      > [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}を操作するには、組織に[!DNL Assets Essentials]をデプロイし、ユーザーが&#x200B;**Assets Essentials Consumer Users**&#x200B;または&#x200B;**Assets Essentials Users**&#x200B;製品プロファイルに含まれていることを確認する必要があります。 [このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}の詳細をご覧ください。
 
-      ![](../../assets/offer_drag_content.png)
+      「**[!UICONTROL アセットライブラリ]**」オプションを選択し、「**[!UICONTROL 参照]**」を選択します。
 
-   * 外部の公共の場所からコンテンツを追加するには、「**[!UICONTROL コンテンツを追加]**」ボタンをクリックし、追加するコンテンツの名前、URL、および宛先リンクを指定します。
+      ![](../../assets/offer-browse-asset-library.png)
 
-      追加するコンテンツが、選択したプレースメントのコンテンツタイプに対応していることを確認します。
+      アセットを参照して目的の画像を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
-      ![](../../assets/offer_add_content.png)
+      ![](../../assets/offer-select-asset.png)
 
-   * また、テキストタイプのコンテンツを挿入することもできます。それには、「**[!UICONTROL コンテンツを追加]**」ボタンをクリックし、「**[!UICONTROL カスタムテキスト]**」オプションを選択します。「**[!UICONTROL テキスト]**」フィールドに、オファーに表示するテキストを入力します。
+   * 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択し、追加するコンテンツのURLアドレスを入力します。
+
+      ![](../../assets/offer-content-url.png)
+
+   * 互換性のある配置を選択する際に、テキストタイプのコンテンツを挿入することもできます。 「**[!UICONTROL カスタム]**」オプションを選択し、オファーに表示するテキストを入力します。
+
+      ![](../../assets/offer-text-content.png)
 
       >[!NOTE]
       >
       >このオプションは、画像タイプのプレースメントには使用できません。
 
-      ![](../../assets/offer_text_content.png)
+1. 画像やURLなどのコンテンツを追加する際に、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
+
+   ![](../../assets/offer-destination-link.png)
+
+1. 最後に、選択した言語を選択して、ユーザーに表示する内容を識別および管理します。
+
+1. 別の表現を追加するには、「**[!UICONTROL 表現を追加]**」ボタンを使用し、必要な数の表現を追加します。
+
+   ![](../../assets/offer-add-representation.png)
+
+1. すべてのリプレゼンテーションを追加したら、「**[!UICONTROL 次へ]**」を選択します。
 
 ## 実施要件ルールと制約の追加 {#eligibility}
 

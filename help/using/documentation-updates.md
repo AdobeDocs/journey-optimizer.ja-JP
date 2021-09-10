@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 79%
+source-wordcount: '473'
+ht-degree: 76%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 79%
 * サブドメインのデリゲートの節を更新し、Adobeが実行する検証プロセスに関する詳細情報を追加しました。 [詳細情報](configuration/delegate-subdomain.md#subdomain-validation)
 * 抑制リストに電子メールアドレスとドメインを手動で追加する方法を説明する節を追加しました。 [詳細情報](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [「抑制リスト](configuration/manage-suppression-list.md#access-suppression-list) 」セクションと「[再試行](configuration/retries.md) 」セクションを更新し、新しいユーザーインターフェイスを反映させました。
+* オファーの作成時に表示域を追加および設定する新しいフローがドキュメントに追加されました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## 2021 年 7 月
