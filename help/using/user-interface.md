@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 100%
+source-wordcount: '1527'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >* このドキュメントは、製品のユーザーインターフェイスの最新の変更を反映して、頻繁に更新されます。ただし、一部のスクリーンショットは、ユーザーインターフェイスと少し異なる場合があります。
 >
-> * UI で使用できるコンポーネントと機能は、権限とライセンスパッケージによって異なります。 ご不明な点は、アドビカスタマーサクセスマネージャーまでお問い合わせください。
+>* ユーザーインターフェイスで使用できるコンポーネントと機能は、[権限](administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=ja){target=&quot;_blank&quot;}によって異なります。 ご不明な点は、アドビカスタマーサクセスマネージャーまでお問い合わせください。
 
 
 ## 左ナビゲーション
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 ## アクセシビリティ{#accessibility}
 
-Adobe Journey Optimizer のアクセシビリティ機能は、Adobe Experience Platform が提供します。
+[!DNL Adobe Journey Optimizer]のアクセシビリティ機能は、Adobe Experience Platformから継承されます。
 
 * キーボードアクセシビリティ
 * カラーコントラスト
@@ -119,7 +119,7 @@ Adobe Journey Optimizer のアクセシビリティ機能は、Adobe Experience 
 
 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-Adobe Journey Optimizer では、次の一般的なキーボードショートカットを使用できます。
+[!DNL Journey Optimizer]では、以下の一般的なキーボードショートカットを使用できます。
 
 | アクション | ショートカット |
 | --- | --- |

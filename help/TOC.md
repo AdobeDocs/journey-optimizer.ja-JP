@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72f5ef1366fda47ae4341284a9aba8f0981cb6b0
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 100%
@@ -23,6 +23,7 @@ ht-degree: 100%
    + [Journey Optimizer とは](using/get-started.md)
    + [クイックスタート](using/quick-start.md)
    + [ユーザーインターフェイス](using/user-interface.md)
+   + [制限事項](using/limitations.md)
 + メッセージ {#create-messages}
    + [メッセージの概要](using/get-started-content.md)
    + メッセージの作成 {#create-message}
@@ -68,7 +69,6 @@ ht-degree: 100%
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
-      + [制限事項](using/building-journeys/limitations.md)
       + [ジャーニーのバージョン](using/building-journeys/journey-versions.md)
       + [テストプロファイル](using/building-journeys/creating-test-profiles.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)

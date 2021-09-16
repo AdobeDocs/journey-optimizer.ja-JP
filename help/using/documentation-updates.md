@@ -2,7 +2,7 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 76%
@@ -46,7 +46,7 @@ ht-degree: 76%
 * ドキュメントと画面で、「オファーアクティビティ」が「決定」に、「決定」が「決定範囲」にそれぞれ名称変更されました。 [詳細を読む](offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](personalization/personalization-use-case-helper-functions.md)が追加されました
 * マテリアライズドセグメントの影響を反映するように、セグメントの読み取りに関するドキュメントを更新しました。 [詳細を読む](building-journeys/read-segment.md)
-* ジャーニーの制限が更新されました。 [詳細を読む](building-journeys/limitations.md)
+* ジャーニーの制限が更新されました。 [詳細を読む](limitations.md)
 * 決定のオファーの設定の節を更新しました。 [詳細情報](offers/offer-activities/configure-offer-selection.md)
 * イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](offers/offer-library/creating-personalized-offers.md#eligibility)
 * 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。 [詳細情報](offers/get-started/user-interface.md#overview)

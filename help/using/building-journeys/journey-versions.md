@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ジャーニーバージョンの制限について詳しくは、[このページ](../building-journeys/limitations.md#journey-versions-limitations)を参照してください
+>ジャーニーバージョンの制限について詳しくは、[このページ](../limitations.md#journey-versions-limitations)を参照してください
 
 1. ライブジャーニーの最新バージョンを開き、「**[!UICONTROL 新しいバージョンを作成]**」をクリックして確認します。
 
