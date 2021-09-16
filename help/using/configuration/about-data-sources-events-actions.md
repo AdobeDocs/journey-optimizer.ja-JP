@@ -1,21 +1,12 @@
 ---
 title: 管理と設定
 description: 管理と設定のガイドラインを学ぶ
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
+exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%

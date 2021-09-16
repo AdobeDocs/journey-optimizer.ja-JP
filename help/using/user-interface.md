@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 97%
@@ -17,13 +17,13 @@ ht-degree: 97%
 
 [Adobe Experience Cloud](http://experience.adobe.com?lang=ja) に接続したら、[!DNL Journey Optimizer] を参照します。
 
+ユーザーインターフェイスを参照する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}を参照してください。
+
+ユーザーインターフェイスで使用できるコンポーネントと機能は、[権限](administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=ja){target=&quot;_blank&quot;}によって異なります。 ご不明な点は、アドビカスタマーサクセスマネージャーまでお問い合わせください。
+
 >[!NOTE]
 >
->* ユーザーインターフェイスを参照する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}を参照してください。
->
->* このドキュメントは、製品のユーザーインターフェイスの最新の変更を反映して、頻繁に更新されます。ただし、一部のスクリーンショットは、ユーザーインターフェイスと少し異なる場合があります。
->
->* ユーザーインターフェイスで使用できるコンポーネントと機能は、[権限](administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=ja){target=&quot;_blank&quot;}によって異なります。 ご不明な点は、アドビカスタマーサクセスマネージャーまでお問い合わせください。
+>このドキュメントは、製品のユーザーインターフェイスの最新の変更を反映して、頻繁に更新されます。ただし、一部のスクリーンショットは、ユーザーインターフェイスと少し異なる場合があります。
 
 
 ## 左ナビゲーション

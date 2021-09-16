@@ -2,16 +2,21 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 76%
+source-wordcount: '493'
+ht-degree: 74%
 
 ---
 
 # このドキュメントの最新の更新点
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新点がすべてリストアップされています。
+
+## 2021年9月
+
+* 新しい&#x200B;**制限**&#x200B;ページを追加しました。 [詳細情報](limitations.md)
+* **クイックスタート**&#x200B;ページが改善され、様々なペルソナの手順が追加されました。 [詳細情報](quick-start.md)
 
 ## 2021 年 8 月
 
