@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 87%
 
 ---
 
@@ -141,3 +141,24 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 >[!CAUTION]
 >
 >**xEvent** 変数は、パーソナライズ式では使用できません。xEvent を参照すると、検証エラーが発生します。
+
+## URLのパーソナライゼーション{#perso-urls}
+
+Journey Orchestrationでは、パーソナライゼーションフィールドを追加して、メッセージ内の1つまたは複数のURLをパーソナライズできます。 次に手順を示します。
+
+* Eメールまたはプッシュコンテンツにリンクを作成します。 リンクの作成について詳しくは、[このページ](../message-tracking#insert-links)を参照してください。
+* パーソナライゼーションアイコンをクリックします。 このアイコンは、次の特定のタイプのリンクで使用できます。**外部リンク**、**購読解除リンク**、**オプトアウト**。
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>&#39;
+>式エディターでは、パーソナライズされたURLを編集する際、セキュリティ上の理由からヘルパー関数とセグメントのメンバーシップが無効になります。
+
+**パーソナライズされたURLの例**
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+

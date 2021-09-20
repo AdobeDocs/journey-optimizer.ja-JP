@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 88%
+source-wordcount: '1174'
+ht-degree: 86%
 
 ---
 
@@ -52,23 +52,23 @@ ht-degree: 88%
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
-<th><strong>Personalized URLs</strong><br/></th>
+<th><strong>パーソナライズされたURL</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>パーソナライズされたURLを使用すると、受信者はプロファイル属性に応じて、Webサイトの特定のページや、パーソナライズされたマイクロサイトにアクセスできます。 Adobe Journey Optimizerで、メッセージコンテンツのURLにパーソナライゼーションを追加できるようになりました。 URLのパーソナライゼーションは、テキストや画像に適用し、プロファイルデータやコンテキストデータを使用できます。</p>
+<p>詳しくは、<a href="personalization/personalization-syntax.md#perso-urls">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
@@ -95,7 +95,7 @@ ht-degree: 88%
 <tbody>
 <tr>
 <td>
-<p>Eメールアドレスとドメインを抑制リストに追加する機能が、CSVファイルのアップロードにより、一括モードで1つずつユーザーインターフェイスから利用できるようになりました。</p>
+<p>メールアドレスとドメインを抑制リストに追加する際、1 つずつユーザーインターフェイスから選択、またはCSV ファイルをアップロードした一括モードのいずれかを利用できるようになりました。</p>
 <p>詳しくは、 <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
