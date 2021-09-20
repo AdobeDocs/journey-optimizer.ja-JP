@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 87%
@@ -152,7 +152,7 @@ Journey Orchestrationでは、パーソナライゼーションフィールド�
 ![](assets/perso-url.png)
 
 >[!NOTE]
->&#39;
+>
 >式エディターでは、パーソナライズされたURLを編集する際、セキュリティ上の理由からヘルパー関数とセグメントのメンバーシップが無効になります。
 
 **パーソナライズされたURLの例**
