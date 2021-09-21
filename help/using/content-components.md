@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# E メールデザイナーのコンテンツ用コンポーネントを使用する {#content-components}
+# 電子メールデザイナーのコンテンツ用コンポーネントを使用する {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
