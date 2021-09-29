@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,6 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ![](assets/perso_ee.png)
 
-
 ### プッシュ通知のパーソナライズ
 
 以下の&#x200B;**プッシュ通知**&#x200B;のフィールドをパーソナライズすることもできます。
@@ -78,7 +77,13 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 プッシュ通知の設定については、[この節](../push-gs.md)を参照してください。
 
-## 式エディターの使用
+### オファーのパーソナライズ {#personalize-offers}
+
+テキストタイプのコンテンツをオファーの表示域に追加する際に、パーソナライゼーションエディターにアクセスすることもできます。
+
+判定管理を使用したコンテンツの管理について詳しくは、[この節](../offers/offer-library/creating-personalized-offers.md#custom-text)を参照してください。
+
+## 式エディターの使用 {#use-expression-editor}
 
 式エディターは、[!DNL Journey Optimizer] のパーソナライゼーションの中核です。
 

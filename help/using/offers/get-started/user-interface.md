@@ -6,16 +6,20 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 94%
 
 ---
 
 # ユーザーインターフェイス {#user-interface}
 
 オファーライブラリを使用すると、プレースメントとオファーを 1 か所で作成および管理できるだけでなく、作成されたすべての決定（旧称：オファーアクティビティ）にアクセスできます。
+
+>[!NOTE]
+>
+>オファーライブラリまたはその機能の一部へのアクセスで問題が発生した場合は、必要な権限が付与されていることを管理者ユーザーに確認してください。 [判定管理へのアクセス権の付与](starting-offer-decisioning.md#granting-acess-to-decision-management)を参照してください。
 
 **[!UICONTROL オファー]**&#x200B;メニューを使用して、パーソナライズされたフォールバックオファーを管理し、整理してコレクションにまとめ、決定を作成して配信します。
 
@@ -65,7 +69,7 @@ ht-degree: 100%
 
 ![](../../assets/overview_view-all.png)
 
-## 情報の検索とフィルター
+## 情報の検索とフィルタリング
 
 **検索バー**&#x200B;を使用して、特定の項目を検索します。
 

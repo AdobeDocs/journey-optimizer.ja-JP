@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
       + [メールデザインの概要](using/design-emails.md)
       + [UI でのメールコンテンツの設計](using/create-email-content.md)
       + [メールコンテンツの読み込みまたはコーディング](using/existing-content.md)
-      + [E メールデザイナーのコンテンツコンポーネントの使用](using/content-components.md)
+      + [電子メールデザイナーのコンテンツ用コンポーネントを使用する](using/content-components.md)
    + [リンクの追加とメッセージのトラッキング](using/message-tracking.md)
    + 検証と公開 {#create-message}
       + [プレビューと配達確認](using/preview.md)
@@ -96,6 +96,7 @@ ht-degree: 100%
    + ユースケース {#journey-use-cases}
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
       + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
+      + [カスタムアクションを使用してコレクションを動的に渡す](using/building-journeys/collections.md)
 + トラッキングと監視 {#reporting}
    + [メッセージの監視](using/message-monitoring.md)
    + ライブレポート {#live-report}
@@ -115,6 +116,7 @@ ht-degree: 100%
       + [アクション実行フィールド](using/reports/sharing-execution-fields.md)
       + [データ取得フィールド](using/reports/sharing-fetch-fields.md)
       + [ID フィールド](using/reports/sharing-identity-fields.md)
+      + [クエリの例](using/reports/query-examples.md)
    + 配信品質 {#deliverability}
       + [配信品質の概要](using/deliverability.md)
       + [抑制リスト](using/suppression-list.md)
@@ -130,6 +132,7 @@ ht-degree: 100%
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
       + [ランキング式の作成](using/offers/offer-library/create-ranking-formulas.md)
+      + [ランキング戦略の作成](using/offers/offer-library/create-ranking-strategies.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
       + [フォールバックオファーの作成](using/offers/offer-library/creating-fallback-offers.md)

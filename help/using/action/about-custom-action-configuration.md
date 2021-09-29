@@ -7,17 +7,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 96%
 
 ---
 
 # アクションの設定 {#configure-an-action}
 
 サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、ここでジャーニーへの接続を設定します。技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照）。カスタムアクションを使用して接続できるシステムには、Epsilon、Facebook、Adobe.io、Firebase などが挙げられます。
+
+
 制限に関しては[このページ](../limitations.md)に記載されています。
+
+カスタムアクションを使用して、コレクションを動的に渡すことができます。 この[使用例](../limitations.md)を参照してください。
 
 カスタムアクションを設定する際に必要となる、主な手順は次のとおりです。
 
@@ -56,12 +60,14 @@ ht-degree: 100%
 
    * URL に動的パスが含まれる場合は、URL の静的な部分（スキーム、ホスト、ポート、オプションでパスの静的な部分）のみを入力します。
 
-      例：`https://xxx.yyy.com:8080/somethingstatic/`
+      例：`https://xxx.yyy.com/somethingstatic/`
 
       URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。[詳細情報](../building-journeys/using-custom-actions.md)。
    >[!NOTE]
    >
    >セキュリティ上の理由から、URL には HTTPS スキームを使用することを強くお勧めします。また、一般公開されていないアドビのアドレスの使用および IP アドレスの使用は許可されていません。
+   >
+   >カスタムアクションを定義する場合は、デフォルトのポートのみが許可されます。httpの場合は80、httpsの場合は443です。
 
 1. 呼び出し&#x200B;**[!UICONTROL メソッド]**&#x200B;を選択します。**[!UICONTROL POST]** または **[!UICONTROL PUT]** を指定できます。
 1. 「**[!UICONTROL ヘッダー]**」セクションでは、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを定義します。
@@ -106,3 +112,4 @@ ht-degree: 100%
 * 変数は、パラメーターの値が変化することを意味します。ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値を受け取る場所（例：イベント、Adobe Experience Platform など）を指定したりできます。この場合、「定数／変数」トグルの右側にあるフィールドは、ジャーニーでマーケターがこのパラメーターに名前を付ける際に表示されるラベルです。
 
 ![](../assets/customactionpayloadmessage2.png)
+

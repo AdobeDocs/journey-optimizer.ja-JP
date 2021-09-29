@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 74%
+source-wordcount: '712'
+ht-degree: 56%
 
 ---
 
@@ -15,8 +15,33 @@ ht-degree: 74%
 
 ## 2021年9月
 
+* 次の機能ページが更新されました。[sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html)、[getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html)、[inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* 次の関数が追加されました。[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html)、[intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html)、[toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* dateOnly日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* カスタムアクションのキャッシュ時間の詳細を追加しました。 [詳細情報](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* カスタムアクションのデフォルトポートに関する情報を追加しました。 [詳細情報](action/about-custom-action-configuration.md#url-configuration)
+
+* 複数のビジネスイベントの使用例に関する情報を追加しました。 [詳細情報](event/about-creating-business.md#multiple-business-events)
+
+* データレイクでのイベントステップイベントのジャーニークエリによく使用される例を追加しました。 [詳細情報](reports/query-examples.md)
+
 * 新しい&#x200B;**制限**&#x200B;ページを追加しました。 [詳細情報](limitations.md)
+
 * **クイックスタート**&#x200B;ページが改善され、様々なペルソナの手順が追加されました。 [詳細情報](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* ここで、専用の節で説明しているすべてのDecision Management機能が、Decision Application Serviceを利用するAdobe Experience Platformユーザーにも適用されるようになりました。 [詳細情報](offers/get-started/starting-offer-decisioning.md)
+
+* 制約を適用して特定の配置のオファーの選択を制限する際の、セグメントと判定ルールの使用の違いを明確にする節を追加しました。 [詳細情報](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* 実際の使用例を説明するために、特定のランキング式の例を追加しました。 [詳細情報](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* IPプールの編集方法に関する節を追加しました。 [詳細情報](configuration/ip-pools.md#edit-ip-pool)
 
 ## 2021 年 8 月
 
@@ -35,7 +60,7 @@ ht-degree: 74%
 * サブドメインのデリゲートの節を更新し、Adobeが実行する検証プロセスに関する詳細情報を追加しました。 [詳細情報](configuration/delegate-subdomain.md#subdomain-validation)
 * 抑制リストに電子メールアドレスとドメインを手動で追加する方法を説明する節を追加しました。 [詳細情報](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [「抑制リスト](configuration/manage-suppression-list.md#access-suppression-list) 」セクションと「[再試行](configuration/retries.md) 」セクションを更新し、新しいユーザーインターフェイスを反映させました。
-* オファーの作成時に表示域を追加および設定する新しいフローがドキュメントに追加されました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#representations)
+* オファーの作成時に表示域を追加および設定するための新しいフローが、ドキュメントに追加されました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## 2021 年 7 月

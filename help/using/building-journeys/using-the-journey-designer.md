@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * **最近使用したアイテムのみを表示**：このフィルターでは、既製のイベントやアクションに加え、最近使用した 5 つのイベントやアクションのみを表示できます。この機能は、各ユーザーに固有です。デフォルトでは、すべての項目が表示されます。
 
-また、「**[!UICONTROL 検索]**」フィールドを使用することもできます。
+また、「**[!UICONTROL 検索]**」フィールドを使用することもできます。イベントとアクションのみがフィルタリングされます。
 
 **キャンバス**&#x200B;は、ジャーニーデザイナーの中心にあるゾーンです。アクティビティをこのゾーンにドロップすると設定できます。キャンバスのアクティビティをクリックして設定します。アクティビティ設定ウィンドウが右側に開きます。
 

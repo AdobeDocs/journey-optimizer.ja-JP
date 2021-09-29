@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 100%
+source-wordcount: '1363'
+ht-degree: 95%
 
 ---
 
@@ -182,3 +182,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>キャッシュ時間が長くなると、認証エンドポイントへの呼び出しが多くなりすぎるのを防ぐことができます。 認証トークンの保持はサービスにキャッシュされ、永続性はありません。 サービスを再起動すると、クリーンキャッシュで開始されます。 デフォルトのキャッシュ時間は1時間です。 カスタムアクションペイロードでは、別の保持期間を指定することで適応できます。

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 89%
 
 ---
 
@@ -40,6 +40,22 @@ ht-degree: 100%
 * **[!UICONTROL アクション]**：配信されたプッシュ通知に対するアクション（ボタンのクリックや解除など）の合計数。
 
 * **[!UICONTROL エンゲージメント]**：このプッシュ通知に対する開封数とアクション数（「プロファイルがプッシュを開封した」、「ボタンがクリックされた」など）の合計。
+
+**[!UICONTROL 送信指標 — プッシュによる]**&#x200B;テーブルでは、配信の成功の詳細を説明しています。
+
+* **[!UICONTROL ターゲット]**:この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
+
+* **[!UICONTROL 除外済み]**:メッセージを受信しなかった、ターゲットプロファイルから除外されたユーザープロファイルの数。
+
+* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
+
+* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+
+* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+
+* **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
 ![](../assets/live_report_4.png)
 

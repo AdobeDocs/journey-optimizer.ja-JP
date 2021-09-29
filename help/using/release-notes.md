@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 86%
+source-wordcount: '1493'
+ht-degree: 72%
 
 ---
 
@@ -13,6 +13,78 @@ ht-degree: 86%
 
 このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。最新の[ドキュメント更新](documentation-updates.md)を参照することもできます。
 
+
+
+## 2021 年 9 月リリース {#september-2021-release}
+
+### 新機能
+
+<table>
+<thead>
+<tr>
+
+<th><strong>レポート — ターゲットオーディエンスに対するインサイトの向上</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>レポートで新しい指標を使用できます。eメールおよびプッシュメッセージのターゲットオーディエンスは、ライブレポートとグローバルレポートの両方で表示されます。</p>
+<p>メッセージ実行リストの新しい列に、各メッセージ実行のターゲットプロファイル数が表示されます。 </p>
+<p>詳しくは、<a href="message-monitoring.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>カスタムアクションを使用してデータのリストを動的に渡す</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションやデータのリストを渡すことができるようになりました。 次の2種類のコレクションがサポートされています。単純なコレクションとオブジェクトコレクション。 以前に作成したカスタムアクションは引き続き機能します。 </p>
+<p>コレクションについて詳しくは、<a href="building-journeys/collections.md">詳細ドキュメント</a>を参照してください。 </p>
+<p>高度な式エディターで使用できる関数のリストに、フィルター関数と交差関数が追加されました。 これにより、コレクションのフィルタリングと比較の方法がさらに広がります。</p>
+<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a>関数と<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a>関数のドキュメントを参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### 機能強化
+
+**ジャーニー**
+
+* ステップイベント用のプロビジョニング中に作成されたシステム生成スキーマとデータセットは、読み取り専用モードになり、重大なスキーマに対する不注意な変更から保護されます。 [詳細情報](reports/sharing-overview.md)
+* 「**待機**」アクティビティに、キャンバスに表示されるラベルを明確に付けます。 ラベルは、レポートおよびテストモードのログでも使用され、何をおこなっているかを明確に示します。 [詳細情報](building-journeys/about-journey-activities.md#best-practices)
+* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけます。 オーケストレーションアクティビティはフィルタリングされなくなりました。 [詳細情報](building-journeys/using-the-journey-designer.md)
+* ルールベースまたはビジネスイベントでイベントID条件を定義する際に、「次を含む」演算子をフィールドの文字列タイプで使用できるようになりました。 [詳細情報](event/about-creating.md)
+
+**メール設定**
+
+* IPプールがメッセージプリセットに関連付けられている場合、IPプールを編集できるようになりました（更新は非同期になります）。 また、各IPプールの更新状態も確認できます。 [詳細情報](configuration/ip-pools.md#edit-ip-pool)
 
 ## 2021 年 8 月リリース {#august-2021-release}
 
@@ -151,7 +223,7 @@ ht-degree: 86%
 
 **決定管理**
 
-* オファーの作成時に表示域を追加および設定する方法が更新され、ユーザーエクスペリエンスが向上しました。 特に、アセットライブラリは、表現の画像タイプコンテンツを定義する場合にのみ表示されるようになりました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#representations)
+* オファーの作成時に表示域を追加および設定する方法が更新され、ユーザーエクスペリエンスが向上しました。 特に、アセットライブラリは、表示域に対して画像タイプのコンテンツを定義する場合にのみ表示されるようになりました。[詳細情報](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正点
 

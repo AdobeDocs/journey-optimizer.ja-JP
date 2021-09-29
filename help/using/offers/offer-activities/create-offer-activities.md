@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ➡️ [この機能をビデオで確認](#video)
 
-決定のリストは、**[!UICONTROL オファー]**&#x200B;メニュー／「**[!UICONTROL 決定]**」タブでアクセスできます。フィルターは、ステータスや開始日、終了日に応じて決定を取得するのに役立ちます。
+決定のリストは、**[!UICONTROL オファー]**&#x200B;メニュー/**[!UICONTROL 決定]**&#x200B;タブでアクセスできます。 フィルターは、ステータスや開始日、終了日に応じて決定を取得するのに役立ちます。
 
 ![](../../assets/activities-list.png)
 
@@ -34,7 +34,9 @@ ht-degree: 100%
 
 1. 決定リストにアクセスし、「**[!UICONTROL 決定を作成]**」をクリックします。
 
-1. 決定の名前、開始日時および終了日時を指定して、「**[!UICONTROL 次へ]**」をクリックします。
+1. 判定の名前を指定します。
+
+1. 開始日時と終了日時を定義し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](../../assets/activities-name.png)
 
@@ -52,29 +54,53 @@ ht-degree: 100%
 
    ![](../../assets/activities-collection.png)
 
-1. 選択したオファーがプレースメントに追加されます。この例では、コールセンターソリューションにオファーを提示することを目的とした JSON タイプのプレースメントに表示される 2 つのオファーを選択しました。
+1. 選択したオファーがプレースメントに追加されます。
+
+   この例では、コールセンターソリューションにオファーを提示することを目的とした JSON タイプのプレースメントに表示される 2 つのオファーを選択しました。
 
    ![](../../assets/offers-added.png)
 
 1. このプレースメントに対して、実施要件を満たすオファーが複数ある場合、デフォルトでは、優先度スコアが最も高いオファーが顧客に配信されます。
 
-   実施要件を満たす配信対象オファーを特定の数式を使用して選択する場合は、**[!UICONTROL Rank offers by]** ドロップダウンリストからランキング式を選択します。詳しくは、[この節](../offer-activities/configure-offer-selection.md)を参照してください。
+   特定の数式またはランキング戦略を使用して、実施要件を満たすオファーを選択する場合は、「**[!UICONTROL オファーを]**&#x200B;でランク付け」ドロップダウンリストからランキング式を選択します。 詳しくは、[この節](../offer-activities/configure-offer-selection.md)を参照してください。
 
-1. 「**[!UICONTROL 制約]**」フィールドにより、このプレースメントのオファーの選択が制限されます。この制約は、決定ルールまたは 1 つ以上の Adobe Experience Platform セグメントを使用して適用できます。
+1. 「**[!UICONTROL 制約]**」フィールドにより、このプレースメントのオファーの選択が制限されます。この制約は、**判定ルール**、または1つまたは複数の&#x200B;**Adobe Experience Platformセグメント**&#x200B;を使用して適用できます。 [この節](#segments-vs-decision-rules)では、両方について詳しく説明します。
 
-   オファーの選択を Adobe Experience Platform セグメントのメンバーに限定するには、「**[!UICONTROL セグメント]**」を選択し、「**[!UICONTROL セグメントを追加]**」をクリックします。
+   * オファーの選択を Adobe Experience Platform セグメントのメンバーに限定するには、「**[!UICONTROL セグメント]**」を選択し、「**[!UICONTROL セグメントを追加]**」をクリックします。
 
-   ![](../../assets/activity_constraint_segment.png)
+      ![](../../assets/activity_constraint_segment.png)
 
-   左側のペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合したあと、「**[!UICONTROL 選択]**」をクリックして確認します。
+      左側のペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合したあと、「**[!UICONTROL 選択]**」をクリックして確認します。
 
-   セグメントの操作方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
+      ![](../../assets/activity_constraint_segment2.png)
 
-   ![](../../assets/activity_constraint_segment2.png)
+      [この節](../../segment/about-segments.md)でセグメントを使用する方法について詳しく説明します。
 
-   決定ルールを使用してこのプレースメントに選択制約を追加する場合は、「**[!UICONTROL 決定ルール]**」オプションを選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。決定ルールの作成方法について詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
+   * 決定ルールを使用してこのプレースメントに選択制約を追加する場合は、「**[!UICONTROL 決定ルール]**」オプションを選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。
 
-   ![](../../assets/activity_constraint_rule.png)
+      ![](../../assets/activity_constraint_rule.png)
+
+      [この節](../offer-library/creating-decision-rules.md)で決定ルールを作成する方法について詳しく説明します。
+
+### セグメントと判定ルールの使用 {#segments-vs-decision-rules}
+
+<!--to move to create-offers?-->
+
+制約を適用するには、1つまたは複数の&#x200B;**Adobe Experience Platformセグメント**&#x200B;のメンバーにオファーの選択を制限するか、異なる用途に対応する&#x200B;**判定ルール**&#x200B;を使用します。
+
+基本的に、セグメントの出力はプロファイルのリストです。一方、判定ルールは、判定プロセス中に単一のプロファイルに対してオンデマンドで実行される関数です。 この2つの用途の違いについては、以下で説明します。
+
+* **セグメント**
+
+   一方、セグメントは、プロファイル属性とエクスペリエンスイベントに基づく特定のロジックに一致するAdobe Experience Platformプロファイルのグループです。 ただし、オファー管理ではセグメントが再計算されず、オファーを提示する際に最新でない可能性があります。
+
+   セグメントの詳細については、[この節](../../segment/about-segments.md)を参照してください。
+
+* **決定ルール**
+
+   一方、決定ルールは、Adobe Experience Platformで使用可能なデータに基づいており、オファーを表示できるユーザーを決定します。 特定の配置に関するオファーまたは決定で選択されると、決定がおこなわれるたびにルールが実行され、各プロファイルが最新で最適なオファーを受け取るようになります。
+
+   [この節](../offer-library/creating-decision-rules.md)では、判定ルールについて詳しく説明します。
 
 ## フォールバックオファーの追加 {#add-fallback}
 

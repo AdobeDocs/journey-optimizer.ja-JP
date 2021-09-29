@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 プッシュ通知のプレビューの場合：
 
-1. **[!UICONTROL プレビュー]**&#x200B;画面の左上にある&#x200B;**[!UICONTROL チャネル]**&#x200B;ドロップダウンリストから、**[!UICONTROL プッシュ]**&#x200B;チャネルに切り替えます。
+1. **[!UICONTROL プレビュー]**&#x200B;画面の右上にある&#x200B;**[!UICONTROL チャネル]**&#x200B;ドロップダウンリストから&#x200B;**[!UICONTROL プッシュ]**&#x200B;チャネルに切り替えます。
 
    ![](assets/preview-select-channel.png)
 

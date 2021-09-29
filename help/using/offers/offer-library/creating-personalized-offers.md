@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
+source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 75%
+source-wordcount: '1385'
+ht-degree: 90%
 
 ---
 
@@ -45,87 +45,113 @@ ht-degree: 75%
 
 ## オファーの表示域の設定 {#representations}
 
-オファーは、メッセージ内の様々な場所に表示できます。画像、段落内のテキスト、HTMLブロックなどを含む上部のバナー オファーが持つ表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
+オファーは、メッセージの様々な場所に表示できます（画像付きトップバナー、段落内のテキスト、HTML ブロックなど）。オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
 
-1つまたは複数の表示域をオファーに追加して設定するには、次の手順に従います。
+1 つ以上の表示域をオファーに追加して設定するには、以下の手順に従います。
 
-1. 1つ目の表現では、まず使用する&#x200B;**[!UICONTROL チャネル]**&#x200B;を選択します。
+1. 1 つ目の表示域で、まず、使用する&#x200B;**[!UICONTROL チャネル]**&#x200B;を選択します。
 
    ![](../../assets/channel-placement.png)
 
-   選択したチャネルで使用可能な配置のみが&#x200B;**[!UICONTROL 配置]**&#x200B;ドロップダウンリストに表示されます。
+   >[!NOTE]
+   >
+   >選択したチャネルで使用可能なプレースメントのみが&#x200B;**[!UICONTROL プレースメント]**&#x200B;ドロップダウンリストに表示されます。
 
-1. リストからプレースメントを選択するか、**[!UICONTROL プレースメント]**&#x200B;ドロップダウンリストの横にあるボタンを使用して、すべてのプレースメントを参照します。
+
+1. リストから配置を選択します。
+
+   「**[!UICONTROL プレースメント]**」ドロップダウンリストの横にあるボタンを使用して、すべての配置を参照することもできます。
 
    ![](../../assets/browse-button-placements.png)
 
-   チャネルやコンテンツタイプに従って配置をフィルタリングできます。 配置を選択し、「**[!UICONTROL 選択]**」をクリックします。
+   そこからさらに、チャネルやコンテンツタイプに従ってプレースメントをフィルタリングすることもできます。 プレースメントを選択し、「**[!UICONTROL 選択]**」をクリックします。
 
    ![](../../assets/browse-placements.png)
 
-1. 表現にコンテンツを追加します。
+1. 表示域にコンテンツを追加します。[この節](#content)では、方法を説明します。
 
-   >[!NOTE]
-   >
-   >プレースメントのコンテンツタイプに対応するコンテンツのみが使用できます。
-
-   * 選択した配置が画像タイプの場合、Adobe Experience Cloud Assetライブラリから取得したコンテンツを追加できます。これは、[!DNL Adobe Experience Manager Assets Essentials]から提供されるアセットの一元リポジトリです。
-
-      >[!NOTE]
-      >
-      > [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}を操作するには、組織に[!DNL Assets Essentials]をデプロイし、ユーザーが&#x200B;**Assets Essentials Consumer Users**&#x200B;または&#x200B;**Assets Essentials Users**&#x200B;製品プロファイルに含まれていることを確認する必要があります。 [このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}の詳細をご覧ください。
-
-      「**[!UICONTROL アセットライブラリ]**」オプションを選択し、「**[!UICONTROL 参照]**」を選択します。
-
-      ![](../../assets/offer-browse-asset-library.png)
-
-      アセットを参照して目的の画像を選択し、「**[!UICONTROL 選択]**」をクリックします。
-
-      ![](../../assets/offer-select-asset.png)
-
-   * 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択し、追加するコンテンツのURLアドレスを入力します。
-
-      ![](../../assets/offer-content-url.png)
-
-   * 互換性のある配置を選択する際に、テキストタイプのコンテンツを挿入することもできます。 「**[!UICONTROL カスタム]**」オプションを選択し、オファーに表示するテキストを入力します。
-
-      ![](../../assets/offer-text-content.png)
-
-      >[!NOTE]
-      >
-      >このオプションは、画像タイプのプレースメントには使用できません。
-
-1. 画像やURLなどのコンテンツを追加する際に、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
+1. 画像や URL などのコンテンツを追加する際は、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
 
    ![](../../assets/offer-destination-link.png)
 
-1. 最後に、選択した言語を選択して、ユーザーに表示する内容を識別および管理します。
+1. 最後に、目的の言語を選択して、ユーザーに表示する内容を識別および管理できるようにします。
 
-1. 別の表現を追加するには、「**[!UICONTROL 表現を追加]**」ボタンを使用し、必要な数の表現を追加します。
+1. さらに表示域を追加するには、「**[!UICONTROL 表示域を追加]**」ボタンを使用し、必要な数の表示域を追加します。
 
    ![](../../assets/offer-add-representation.png)
 
-1. すべてのリプレゼンテーションを追加したら、「**[!UICONTROL 次へ]**」を選択します。
+1. 表示域をすべて追加したら、「**[!UICONTROL 次へ]**」を選択します。
+
+## 表現のコンテンツを定義する {#content}
+
+表現に異なるタイプのコンテンツを追加できます。
+
+>[!NOTE]
+>
+>プレースメントのコンテンツタイプに対応するコンテンツのみが使用できます。
+
+### 画像を追加
+
+選択した配置が画像タイプの場合、**Adobe Experience Cloud Asset**&#x200B;ライブラリ（[!DNL Adobe Experience Manager Assets Essentials]から提供されるアセットの一元リポジトリ）から取得したコンテンツを追加できます。
+
+>[!NOTE]
+>
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または&#x200B;**Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+
+1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
+
+1. 「**[!UICONTROL 参照]**」を選択します。
+
+   ![](../../assets/offer-browse-asset-library.png)
+
+1. アセットを参照し、目的の画像を選択します
+
+1. 「**[!UICONTROL 選択]**」をクリックします。
+
+   ![](../../assets/offer-select-asset.png)
+
+### URLの追加
+
+外部の公開場所からコンテンツを追加するには、**[!UICONTROL URL]** を選択してから、追加するコンテンツの URL アドレスを入力します。
+
+![](../../assets/offer-content-url.png)
+
+### カスタムテキストの追加 {#custom-text}
+
+テキストタイプと互換性のあるプレースメントを選択することで、テキストタイプのコンテンツを挿入することもできます。 
+
+1. 「**[!UICONTROL カスタム]**」オプションを選択します。
+
+   >[!NOTE]
+   >
+   >このオプションは、画像タイプのプレースメントには使用できません。
+
+1. 専用の領域のオファーに表示するテキストを入力します。
+
+   ![](../../assets/offer-text-content2.png)
 
 ## 実施要件ルールと制約の追加 {#eligibility}
 
-実施要件ルールと制約を使用すると、オファーを表示する条件を定義できます。
+実施要件ルールと制約を使用すると、オファーの表示条件を定義できます。
 
-1. **[!UICONTROL オファー実施要件]**&#x200B;を設定します。デフォルトでは、「**[!UICONTROL すべての訪問者]**」決定ルールオプションが選択されています。これは、すべてのプロファイルがオファーを提示される資格があることを意味します。
+1. **[!UICONTROL オファー実施要件]**&#x200B;を設定します。
 
-   オファーの表示を、1 つまたは複数の Adobe Experience Platform セグメントのメンバーに限定できます。それには、「]**1 つまたは複数のセグメントに分類される訪問者**[!UICONTROL 」オプションを有効にしたあと、左ペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合します。
+   * デフォルトでは、「**[!UICONTROL すべての訪問者]**」決定ルールオプションが選択されています。これは、すべてのプロファイルがオファーを提示される資格があることを意味します。
 
-   セグメントの操作方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
+   * オファーの表示を、1 つまたは複数の Adobe Experience Platform セグメントのメンバーに限定できます。それには、「]**1 つまたは複数のセグメントに分類される訪問者**[!UICONTROL 」オプションを有効にしたあと、左ペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合します。
 
-   ![](../../assets/offer-eligibility-segment.png)
+      セグメントの操作方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
 
-   特定の決定ルールをオファーに関連付ける場合は、「**[!UICONTROL 定義済みの決定ルール]**」を選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。決定ルールの作成方法について詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
+      ![](../../assets/offer-eligibility-segment.png)
 
-   ![](../../assets/offer_rule.png)
+   * 特定の決定ルールをオファーに関連付ける場合は、「**[!UICONTROL 定義済みの決定ルール]**」を選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。決定ルールの作成方法について詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
 
-   >[!CAUTION]
-   >
-   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
+      ![](../../assets/offer_rule.png)
+
+      >[!CAUTION]
+      >
+      >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
+   [この節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)では、セグメントと判定ルールの使用について詳しく説明します。
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
 
