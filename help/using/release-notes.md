@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 72%
+source-wordcount: '1529'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
-<p>レポートで新しい指標を使用できます。eメールおよびプッシュメッセージのターゲットオーディエンスは、ライブレポートとグローバルレポートの両方で表示されます。</p>
+<p>レポートで新しい指標を使用できます。E メールおよびプッシュメッセージのターゲット設定と除外は、ライブレポートとグローバルレポートの両方で表示されます。 </br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズの詳細については、<a href="reports/live-report.md"> 詳細なドキュメントを参照してください。</a></p>
 <p>メッセージ実行リストの新しい列に、各メッセージ実行のターゲットプロファイル数が表示されます。 </p>
 <p>詳しくは、<a href="message-monitoring.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -46,10 +46,10 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
-<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションやデータのリストを渡すことができるようになりました。 次の2種類のコレクションがサポートされています。単純なコレクションとオブジェクトコレクション。 以前に作成したカスタムアクションは引き続き機能します。 </p>
-<p>コレクションについて詳しくは、<a href="building-journeys/collections.md">詳細ドキュメント</a>を参照してください。 </p>
+<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションやデータのリストを渡すことができるようになりました。 次の 2 種類のコレクションがサポートされています。単純なコレクションとオブジェクトコレクション。 以前に作成したカスタムアクションは引き続き機能します。 </p>
+<p>コレクションの詳細については、<a href="building-journeys/collections.md"> 詳細なドキュメント </a> を参照してください。 </p>
 <p>高度な式エディターで使用できる関数のリストに、フィルター関数と交差関数が追加されました。 これにより、コレクションのフィルタリングと比較の方法がさらに広がります。</p>
-<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a>関数と<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a>関数のドキュメントを参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> 関数と <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> 関数のドキュメントを参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -77,14 +77,14 @@ ht-degree: 72%
 
 **ジャーニー**
 
-* ステップイベント用のプロビジョニング中に作成されたシステム生成スキーマとデータセットは、読み取り専用モードになり、重大なスキーマに対する不注意な変更から保護されます。 [詳細情報](reports/sharing-overview.md)
-* 「**待機**」アクティビティに、キャンバスに表示されるラベルを明確に付けます。 ラベルは、レポートおよびテストモードのログでも使用され、何をおこなっているかを明確に示します。 [詳細情報](building-journeys/about-journey-activities.md#best-practices)
-* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけます。 オーケストレーションアクティビティはフィルタリングされなくなりました。 [詳細情報](building-journeys/using-the-journey-designer.md)
-* ルールベースまたはビジネスイベントでイベントID条件を定義する際に、「次を含む」演算子をフィールドの文字列タイプで使用できるようになりました。 [詳細情報](event/about-creating.md)
+* ステップイベントのプロビジョニング中に作成されたシステム生成スキーマとデータセットは、読み取り専用モードになり、重要なスキーマに対する不注意な変更に対する保護が強化されました。 [詳細情報](reports/sharing-overview.md)
+* 「**待機**」アクティビティに、キャンバスに表示されるラベルの明確なラベルを付けます。 ラベルは、レポートおよびテストモードのログでも使用され、何をおこなっているかを明確に示します。 [詳細情報](building-journeys/about-journey-activities.md#best-practices)
+* 検索を使用して **イベント** および **アクション** カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけることができます。 オーケストレーションアクティビティはフィルタリングされなくなりました。 [詳細情報](building-journeys/using-the-journey-designer.md)
+* ルールベースまたはビジネスイベントでイベント ID 条件を定義する際に、「次を含む」演算子をフィールドの文字列タイプで使用できるようになりました。 [詳細情報](event/about-creating.md)
 
 **メール設定**
 
-* IPプールがメッセージプリセットに関連付けられている場合、IPプールを編集できるようになりました（更新は非同期になります）。 また、各IPプールの更新状態も確認できます。 [詳細情報](configuration/ip-pools.md#edit-ip-pool)
+* IP プールがメッセージプリセットに関連付けられている場合、IP プールを編集できるようになり、更新は非同期になります。 また、各 IP プールの更新ステータスも確認できます。 [詳細情報](configuration/ip-pools.md#edit-ip-pool)
 
 ## 2021 年 8 月リリース {#august-2021-release}
 
@@ -128,13 +128,13 @@ ht-degree: 72%
 <table>
 <thead>
 <tr>
-<th><strong>パーソナライズされたURL</strong><br/></th>
+<th><strong>パーソナライズされた URL</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>パーソナライズされたURLを使用すると、受信者はプロファイル属性に応じて、Webサイトの特定のページや、パーソナライズされたマイクロサイトにアクセスできます。 Adobe Journey Optimizerで、メッセージコンテンツのURLにパーソナライゼーションを追加できるようになりました。 URLのパーソナライゼーションは、テキストや画像に適用し、プロファイルデータやコンテキストデータを使用できます。</p>
+<p>パーソナライズされた URL では、プロファイル属性に応じて、受信者を Web サイトの特定のページまたはパーソナライズされたマイクロサイトに導きます。 Adobe Journey Optimizerで、パーソナライゼーションをメッセージコンテンツの URL に追加できるようになりました。 URL のパーソナライゼーションは、テキストや画像に適用し、プロファイルデータやコンテキストデータを使用できます。</p>
 <p>詳しくは、<a href="personalization/personalization-syntax.md#perso-urls">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -214,12 +214,12 @@ ht-degree: 72%
 
 **パーソナライズ機能**
 
-* **式エディター**  — パーソナライゼーションを定義する際に、フォールバック値を簡単に追加できるようになりました。プロファイルのパーソナライゼーションフィールドが空の場合、フォールバック値が表示されます。[詳細情報](personalization/functions/helpers.md)
+* **式エディター**  — パーソナライゼーションを定義する際に、フォールバック値を簡単に追加できるようになりました。パーソナライゼーションフィールドがプロファイルの場合、フォールバック値が表示されます。[詳細情報](personalization/functions/helpers.md)
 
 **メール設定**
 
 * **許可リスト** - API 呼び出しを通じて、実稼動以外のサンドボックスで許可リストを有効および無効にできるようになりました。[詳細情報](allow-list.md#enable-allow-list)
-* **ナビゲーション**  -  **管理/チャネル/Eメール設定/一般メニューでアクセス可能な抑制リストが、新しい** 抑制リストサブメニューに移動しまし **** た。このサブメニューでは、アクセスしやすいように、関連するすべての機能が収集されます。[詳細情報](configuration/manage-suppression-list.md#access-suppression-list)
+* **ナビゲーション**  — 管理/チャネル/E メール設定/一般メニューでアクセス可能な抑制リストが、新しい **抑制リストサブメニューに移動しまし**  **** た。このサブメニューでは、アクセスしやすいように関連するすべての機能が収集されます。[詳細情報](configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 
