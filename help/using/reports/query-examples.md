@@ -5,8 +5,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 366ea4244775465e6428c6450e0d72795cb1e633
+source-git-commit: 83ac2513786168cb9178667e65614bafa2c7a704
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -47,7 +46,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 ## プロファイルベースのクエリ
 
-### プロファイルが特定のジャーニーを入力したかどうかを検索
+### プロファイルが特定のジャーニーを入力したかどうか
 
 _データレイククエリ_
 
@@ -67,11 +66,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は0より大きい値にする必要があります。 このクエリは、プロファイルがジャーニーに入った正確な回数を返します。
+結果は 0 より大きい値にする必要があります。 このクエリは、プロファイルがジャーニーに入った正確な回数を返します。
 
-### プロファイルが特定のメッセージを送信したかどうかを確認する
+### プロファイルが特定のメッセージを送信したかどうかを調べる
 
-**方法1:** メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
+**方法 1:** メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
 
 _データレイククエリ_
 
@@ -93,9 +92,9 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は0より大きい値にする必要があります。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかを示すだけです。
+結果は 0 より大きい値にする必要があります。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかを示します。
 
-**メソッド2:** メッセージの名前がジャーニー内で一意の場合。
+**方法 2:** メッセージ名がジャーニー内で一意の場合。
 
 _データレイククエリ_
 
@@ -119,7 +118,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 クエリは、すべてのメッセージのリストと、選択したプロファイルで呼び出されたメッセージの数を返します。
 
-## 過去30日間にプロファイルが受け取ったすべてのメッセージを検索する
+## 過去 30 日間にプロファイルが受け取ったすべてのメッセージを検索
 
 _データレイククエリ_
 
@@ -145,7 +144,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 クエリは、すべてのメッセージのリストと、選択したプロファイルで呼び出されたメッセージの数を返します。
 
-### 過去30日間にプロファイルが入力したすべてのジャーニーを見つける
+### 過去 30 日間にプロファイルが入力したすべてのジャーニーを検索する
 
 _データレイククエリ_
 
@@ -169,7 +168,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 クエリは、すべてのジャーニー名のリストと、クエリされたプロファイルがジャーニーに入った回数を返します。
 
-### 1日あたりのジャーニーの資格を持つプロファイルの数
+### 1 日あたりのジャーニーの対象となるプロファイルの数
 
 _データレイククエリ_
 
@@ -191,7 +190,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-クエリは、定義された期間、1日あたりにジャーニーに入ったプロファイルの数を返します。 複数のIDを使用して入力したプロファイルは、2回カウントされます。 再入場が有効な場合、別の日にジャーニーに再入場すると、異なる日にまたがってプロファイル数が重複する可能性があります。
+クエリは、定義した期間、1 日あたりのジャーニーに入ったプロファイルの数を返します。 複数の ID を使用して入力したプロファイルは、2 回カウントされます。 再入場を有効にすると、別の日にジャーニーに再入場した場合、異なる日にまたがってプロファイル数が重複する場合があります。
 
 ## ジャーニーベースのクエリ
 
@@ -215,4 +214,4 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-クエリは、定義した期間に対して、毎日トリガーされた個別ジャーニーの数を返します。 複数日でトリガーされる単一のジャーニーは、1日に1回カウントされます。
+クエリは、定義した期間に対して、1 日にトリガーした個別ジャーニーの数を返します。 複数日でトリガーされる単一のジャーニーは、1 日に 1 回とカウントされます。
