@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -139,7 +139,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 メッセージコンテンツにオプトアウトリンクを追加する方法については、[この節](message-tracking.md#one-click-opt-out-link)を参照してください。
 
-メッセージが[ジャーニー](building-journeys/journey.md)を通じて送信された後、受信者がオプトアウトリンクをクリックすると、すぐにオプトアウトされます。
+メッセージが [ ジャーニー ](building-journeys/journey.md) を通じて送信されると、受信者がオプトアウトリンクをクリックした場合、そのユーザーのプロファイルは直ちにオプトアウトされます。
 
 ## ヘッダーの購読解除リンク {#unsubscribe-email}
 

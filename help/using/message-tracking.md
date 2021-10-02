@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 98%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 1. 変更を保存します。
 
-メッセージが送信された後、受信者がオプトアウトリンクをクリックすると、すぐにオプトアウトされます。
+メッセージが送信されたら、受信者がオプトアウトリンクをクリックすると、直ちにオプトアウトされます。
 
 ## トラッキングの管理 {#manage-tracking}
 

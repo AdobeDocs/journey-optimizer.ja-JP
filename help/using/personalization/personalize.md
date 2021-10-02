@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 90%
 
 ---
 
 # パーソナライゼーションの概要{#add-personalization}
 
-[!DNL Adobe Journey Optimizer] のパーソナライゼーション機能を学び、ユーザーに関するデータと情報を活用して、特定の受信者に合わせたメッセージを作成します。この情報には、名、興味、居住地および購入履歴などが含まれます。
+[!DNL Adobe Journey Optimizer] パーソナライゼーション機能を利用して、メッセージに関するデータと情報を利用し、メッセージを特定の受信者に合わせて調整します。 名前、興味、住んでいる場所、買ったものなどを指定できます。
 
 ➡️ [メッセージをパーソナライズする方法については、こちらのビデオをご覧ください](#video-perso)
 
@@ -81,7 +81,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 テキストタイプのコンテンツをオファーの表示域に追加する際に、パーソナライゼーションエディターにアクセスすることもできます。
 
-判定管理を使用したコンテンツの管理について詳しくは、[この節](../offers/offer-library/creating-personalized-offers.md#custom-text)を参照してください。
+判定管理を使用したコンテンツの管理について詳しくは、[ この節 ](../offers/offer-library/creating-personalized-offers.md#custom-text) を参照してください。
 
 ## 式エディターの使用 {#use-expression-editor}
 

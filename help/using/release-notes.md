@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
+source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 70%
@@ -49,7 +49,7 @@ ht-degree: 70%
 <p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションやデータのリストを渡すことができるようになりました。 次の 2 種類のコレクションがサポートされています。単純なコレクションとオブジェクトコレクション。 以前に作成したカスタムアクションは引き続き機能します。 </p>
 <p>コレクションの詳細については、<a href="building-journeys/collections.md"> 詳細なドキュメント </a> を参照してください。 </p>
 <p>高度な式エディターで使用できる関数のリストに、フィルター関数と交差関数が追加されました。 これにより、コレクションのフィルタリングと比較の方法がさらに広がります。</p>
-<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> 関数と <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> 関数のドキュメントを参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> 関数と <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> 関数のドキュメントを参照してください。</p>
 </td>
 </tr>
 </tbody>
