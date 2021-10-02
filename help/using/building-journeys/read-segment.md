@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 100%
+source-wordcount: '1035'
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 セグメント化は以下に基づいて実行できます。
 
 * データソースのデータ
-* ジャーニーデータのイベント部分のコンテキスト（例：ある人物が、1 時間前に受け取ったメッセージをクリックしたか？）。
+* ジャーニーデータの一部であるイベントのコンテキスト。次に例を示します。1 時間前に受信したメッセージをクリックしたか。
 * 日付（例：ある人物がジャーニーを経験したのは 6 月だったか？）。
 * 時間（例：ある人物のタイムゾーンでは朝か？）
 * ジャーニーを経験しているオーディエンスを割合に基づいて分割するアルゴリズム（例：90% - 10%、コントロール母集団を除く）。
