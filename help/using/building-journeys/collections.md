@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: カスタムアクションを使用してコレクションを動的に渡す
 description: Campaign v7／v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 76b260de3f27d09d6676b18ca262b74be3d32d2c
+source-git-commit: 61ec1d33ab500837bc0a58961f1abf5fc436e487
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 5%
@@ -148,7 +148,7 @@ ht-degree: 5%
 
    ![](../assets/uc-collection-4.png)
 
-配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) 関数と [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html) 関数を使用します。
+配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) 関数と [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) 関数を使用します。
 
 ![](../assets/uc-collection-5.png)
 
