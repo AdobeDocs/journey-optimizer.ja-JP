@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 90%
+source-wordcount: '1394'
+ht-degree: 87%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 90%
 オファーを作成する前に、以下が作成済みであることを確認してください。
 
 * オファーを表示する&#x200B;**プレースメント**。[プレースメントを作成](../offer-library/creating-placements.md)を参照してください。
-* オファーを表示する条件を定義する&#x200B;**決定ルール**。[決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
-* オファーに関連付ける 1 つまたは複数の&#x200B;**タグ**。[タグを作成](../offer-library/creating-tags.md)を参照してください。
+* 実施要件条件を追加する場合：オファーを提示する条件を定義する **決定ルール** [決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
+* 1 つ以上の **タグ** をオファーに関連付けます。 [タグを作成](../offer-library/creating-tags.md)を参照してください。
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 パーソナライズされたオファーのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
@@ -68,7 +68,7 @@ ht-degree: 90%
 
    ![](../../assets/browse-placements.png)
 
-1. 表示域にコンテンツを追加します。[この節](#content)では、方法を説明します。
+1. 表示域にコンテンツを追加します。[ この節 ](#content) の手順を参照してください。
 
 1. 画像や URL などのコンテンツを追加する際は、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
 
@@ -84,7 +84,7 @@ ht-degree: 90%
 
 ## 表現のコンテンツを定義する {#content}
 
-表現に異なるタイプのコンテンツを追加できます。
+表現には、異なるタイプのコンテンツを追加できます。
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ ht-degree: 90%
 
 ### 画像を追加
 
-選択した配置が画像タイプの場合、**Adobe Experience Cloud Asset**&#x200B;ライブラリ（[!DNL Adobe Experience Manager Assets Essentials]から提供されるアセットの一元リポジトリ）から取得したコンテンツを追加できます。
+選択した配置が画像タイプの場合、**Adobe Experience Cloud Asset** ライブラリ（[!DNL Adobe Experience Manager Assets Essentials] から提供されるアセットの一元リポジトリ）から取得したコンテンツを追加できます。
 
 >[!NOTE]
 >
@@ -104,13 +104,13 @@ ht-degree: 90%
 
    ![](../../assets/offer-browse-asset-library.png)
 
-1. アセットを参照し、目的の画像を選択します
+1. アセットを参照し、選択した画像を選択します
 
 1. 「**[!UICONTROL 選択]**」をクリックします。
 
    ![](../../assets/offer-select-asset.png)
 
-### URLの追加
+### URL の追加
 
 外部の公開場所からコンテンツを追加するには、**[!UICONTROL URL]** を選択してから、追加するコンテンツの URL アドレスを入力します。
 
@@ -126,7 +126,7 @@ ht-degree: 90%
    >
    >このオプションは、画像タイプのプレースメントには使用できません。
 
-1. 専用の領域のオファーに表示するテキストを入力します。
+1. 専用領域のオファーに表示するテキストを入力します。
 
    ![](../../assets/offer-text-content2.png)
 
@@ -151,7 +151,7 @@ ht-degree: 90%
       >[!CAUTION]
       >
       >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
-   [この節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)では、セグメントと判定ルールの使用について詳しく説明します。
+   セグメントと判定ルールの使用について詳しくは、[ この節 ](../offer-activities/create-offer-activities.md#segments-vs-decision-rules) を参照してください。
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
 
