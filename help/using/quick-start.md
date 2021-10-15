@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -25,43 +25,43 @@ ht-degree: 40%
 
 [!DNL Adobe Journey Optimizer] の使用を開始する前に、環境の準備にいくつかの手順が必要です。
 
-システム管理者は、製品プロファイルを **理解し、サンドボックス管理とチャネル設定に対する権限** を割り当てる必要があります。 また、サンドボックスを設定し、使用可能な製品プロファイル用にサンドボックスを管理する必要もあります。
-その後、チームメンバーを製品プロファイルに割り当て、メッセージング用に **チャネル設定** を設定できます。
+システム管理者は、**製品プロファイルを把握し、サンドボックス管理とチャネル設定の権限を割り当てる**必要があります。 また、サンドボックスをセットアップし、使用可能な製品プロファイル用にサンドボックスを管理する必要もあります。
+その後、チームメンバーを製品プロファイルに割り当て、メッセージングの**チャネル設定をセットアップ**&#x200B;できます。
 
 詳しくは、次のページを参照してください。
 
-* **ユーザー権限を** 設定し、チームメンバーにアクセス権を付与します。[詳細情報](../using/administration/permissions.md)
+* **ユーザー権限を設定**&#x200B;し、チームメンバーにアクセス権を与えます。[詳細情報](../using/administration/permissions.md)
 
-* **メッセージ[!DNL Adobe Experience Manager Assets Essentials]** 内のアセットと画像を管理するには、次のようにデプロイします。へのアクセス権を必要とするユ [!DNL Assets Essentials] ーザーは、 **Assets Essentials Consumer Users または** Assets Essentials UsersProduct プロ **ファイルの一部である必要が** あります。[詳しくは、Assets Essentialsのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください
+* **[!DNL Adobe Experience Manager Assets Essentials]** をデプロイして、メッセージ内のアセットと画像を管理します。[!DNL Assets Essentials] へのアクセスを必要とするユーザーは、**Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されている必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-* **チャネルを設** 定し、電子メールおよびプッシュ通知の設定を定義します。[詳細情報](../using/configuration/get-started-configuration.md)
+* **チャネルを設定**&#x200B;し、メールおよびプッシュ通知の設定を定義します。[詳細情報](../using/configuration/get-started-configuration.md)
 
-* **プリセットを定** 義し、ブランディングパラメーターを設定します。[詳細情報](../using/configuration/message-presets.md)
+* **プリセットを定義**&#x200B;し、ブランディングパラメーターを設定します。[詳細情報](../using/configuration/message-presets.md)
 
-* **サンドボ** ックスを管理して、インスタンスを別々の仮想環境に分割します。[詳細情報](../using/administration/sandboxes.md)
+* **サンドボックスを管理** して、インスタンスを別個の仮想環境に分割します。[詳細情報](../using/administration/sandboxes.md)
 
 
 ## データの準備とジャーニーの設定
 
-データ管理者は、データを **識別し、データをAdobe Experience Platformに送信するスキーマとデータセット** を作成する必要があります。
+データ管理者は、**データを特定しスキーマとデータセットを作成**&#x200B;して、データを Adobe Experience Platform に取り込む必要があります。
 
-ID 名前空間と、プロファイルに対して有効なデータセットを作成する手順、セグメントおよびテストプロファイルを作成する手順については、次の節で詳しく説明します。
+ID 名前空間および、プロファイルに対して有効なデータセットを作成する手順や、セグメントおよびテストプロファイルを作成する手順について詳しくは、下記の節を参照してください。
 
-* [Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;} で **データセット** をプレビューして作成する方法を説明します
+* **データセット**&#x200B;のプレビュー方法と作成方法：[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;}
 
-* **ID 名前空間** を [Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces){target=&quot;_blank&quot;} で作成する方法を説明します
+* **ID 名前空間**&#x200B;の作成方法： [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces){target=&quot;_blank&quot;}
 
-* **テストプロファイル** を [ このページ ](../using/building-journeys/creating-test-profiles.md) で作成する方法を説明します。
+* **テストプロファイル**&#x200B;の作成方法：[このページ](../using/building-journeys/creating-test-profiles.md)
 
-* **データ取り込み** について詳しくは、[Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;} を参照してください
+* **データ取り込み**&#x200B;の詳細：[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}
 
-* **オーディエンスの定義**、セグメントの作成、同意とプライバシーの管理の方法については、[ このページ ](../using/segment/about-segments.md) を参照してください。
+* **オーディエンスの定義**、セグメントの作成、同意とプライバシーの管理の方法：[このページ](../using/segment/about-segments.md)
 
-また、ジャーニーでメッセージを送信するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]** を設定する必要があります。 詳しくは、[この節](../using/configuration/about-data-sources-events-actions.md)を参照してください。
+また、ジャーニーでメッセージを送信するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;を設定する必要があります。 詳しくは、[この節](../using/configuration/about-data-sources-events-actions.md)を参照してください。
 
-## メッセージ、オファー、ジャーニーの作成
+## メッセージ、オファーおよびジャーニーの作成
 
-ジャーニープラクティショナーは、次の節を参照して、最初のジャーニーの設定、オファーとアセットの追加、メッセージの送信をおこないます。
+ ジャーニー実務担当者は、下記の節を参照して、最初のジャーニーのセットアップ、オファーとアセットの追加、メッセージの送信を行います。
 
 * **メッセージの作成**：メッセージへのアクセス、メールおよびプッシュコンテンツの設計と読み込み、パーソナライゼーションとプレビューメッセージの追加をおこないます。[詳細を読む](create-message.md)
 

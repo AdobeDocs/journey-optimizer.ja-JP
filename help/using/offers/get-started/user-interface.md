@@ -9,7 +9,7 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->オファーライブラリまたはその機能の一部へのアクセスで問題が発生した場合は、必要な権限が付与されていることを管理者ユーザーに確認してください。 [判定管理へのアクセス権の付与](starting-offer-decisioning.md#granting-acess-to-decision-management)を参照してください。
+>オファーライブラリまたはその機能の一部へのアクセスで問題が発生した場合は、必要な権限が付与されているかどうかを管理者に確認してください。[意思決定管理へのアクセスの許可](starting-offer-decisioning.md#granting-acess-to-decision-management)を参照してください。
 
-**[!UICONTROL オファー]**&#x200B;メニューを使用して、パーソナライズされたフォールバックオファーを管理し、整理してコレクションにまとめ、決定を作成して配信します。
+**[!UICONTROL オファー]**&#x200B;メニューを使用すると、パーソナライズされたオファーやフォールバックオファーを管理し、それらを整理してコレクションにまとめ、決定を作成して配信することができます。
 
 * **[!UICONTROL 概要]**：[!DNL Offer Decisioning] を使用するのは初めてですか？画面上の手順に従って、プレースメント、オファーおよびコレクションの設定を開始します。[!DNL Offer Decisioning] について既に熟知している場合は、最新のオファー、コレクションおよび決定の概要を把握します。[概要](#overview)を参照してください。
 

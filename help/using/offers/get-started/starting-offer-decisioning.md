@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->[Adobe Experience Platform](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja){target=&quot;_blank&quot;}ユーザーが&#x200B;**Offer decisioning**&#x200B;アプリケーションサービスを利用している場合は、この節で説明するすべてのDecision Management機能も適用されます。
+>**Offer Decisioning** アプリケーションサービスを利用する [ Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=&quot;_blank&quot;} ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
 
 決定管理の機能は、2 つの主要コンポーネントで構成されています。
 
@@ -64,13 +64,13 @@ ht-degree: 88%
 
    ![](../../assets/do-not-localize/call-center.png)
 
-## 意思決定管理へのアクセス権の付与 {#granting-acess-to-decision-management}
+## 意思決定管理へのアクセスの許可 {#granting-acess-to-decision-management}
 
-offer decisioning機能にアクセスして使用する権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}を使用して管理されます。
+Offer Decisioning の機能にアクセスして使用する権限を管理するには、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} を使用します。
 
-Decision Management機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。 [!DNL Journey Optimizer]ユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
+意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。 [!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
 
-判定管理に関する権限の一覧は、[この節](../../administration/high-low-permissions.md#decisions-permissions)に記載されています。
+意思決定管理に特有の権限の一覧については、[この節](../../administration/high-low-permissions.md#decisions-permissions)を参照してください。
 
 ## 用語集 {#glossary}
 
@@ -107,7 +107,7 @@ Decision Management機能へのアクセス権を付与するには、**[!UICONT
 
 >[!NOTE]
 >
->これらのビデオは、Adobe Experience Platform で作成された Offer Decisioning アプリケーションサービスを対象としており、[!DNL Adobe Journey Optimizer] に限定したものではありません。ただし、[!DNL Journey Optimizer]のコンテキストで判定管理を使用するための一般的なガイダンスを提供します。
+>これらのビデオは、Adobe Experience Platform 上に作成された Offer Decisioning アプリケーションサービスを対象としており、[!DNL Adobe Journey Optimizer] に限定したものではありません。ただし、[!DNL Journey Optimizer] に関連して、 意思決定管理を使用する際の一般的なガイダンスを提供します。
 
 ### 決定管理とは {#what-is-offer-decisioning}
 

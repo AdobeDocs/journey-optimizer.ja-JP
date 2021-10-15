@@ -9,7 +9,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 87%
 
 プッシュ通知のプレビューの場合：
 
-1. **[!UICONTROL プレビュー]** 画面の右上にある **[!UICONTROL チャネル]** ドロップダウンリストから **[!UICONTROL プッシュ]** チャネルに切り替えます。
+1. **[!UICONTROL プレビュー]**&#x200B;画面の右上にある「**[!UICONTROL チャネル]**」ドロップダウンリストから選択して、「**[!UICONTROL プッシュ]**」チャネルに切り替えます。
 
    ![](assets/preview-select-channel.png)
 

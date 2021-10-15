@@ -1,6 +1,6 @@
 ---
-title: Journey Optimizerの制限
-description: Journey Optimizerの制限の詳細
+title: Journey Optimizer の制限事項
+description: Journey Optimizer の制限事項に関する詳細情報
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,28 +9,28 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: f177c9b2c7c7a7fa6182d07e773efd0683886d34
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 制限事項 {#limitations}
 
-使用権限、製品制限、パフォーマンスガードレールについては、[ Adobe Journey Optimizer製品説明ページ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=ja){target=&quot;_blank&quot;}に記載されています。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}を参照してください。
 
-[!DNL Adobe Journey Optimizer]を使用する場合は、次の追加制限があります。
+[!DNL Adobe Journey Optimizer] を使用する際には、さらに次の制限事項があります。
 
-## メッセージの制限
+## メッセージの制限事項
 
-* [!DNL Journey Optimizer]を含むEメールに添付ファイルを追加することはできません。
-* [!DNL Journey Optimizer]では、EメールBCCはサポートされていません。
+* [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
+* [!DNL Journey Optimizer] では、「BCC で E メールを送信」機能はサポートされていません。
 
-## ジャーニーの制限
+## ジャーニーの制限事項
 
 ### 一般的なアクション
 
 * 送信スロットルに制限はありません。 
 * エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、再試行の回数を調整することはできません。 
-* 組み込みの&#x200B;**Reaction**&#x200B;イベントを使用すると、すぐに使用できるアクションに反応できます。 詳しくは、[このページ](building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
+* 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに対応できます。詳しくは、[このページ](building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
 
 ### メッセージアクション
@@ -67,7 +67,7 @@ ht-degree: 83%
 
 Adobe Experience Platform では、API ベースのプロファイルの作成や更新に関連して遅延が発生します。遅延に関するサービスレベルターゲット（SLT）は、毎秒 2 万件のリクエスト（RPS）のボリュームで、95 パーセンタイルのリクエストに対し、統合プロファイルへの取得から 1 分未満です。
 
-プロファイルの作成に同時にジャーニーがトリガーされ、即座にプロファイルサービスから情報を確認/取得する場合は、正しく機能しない可能性があります。
+ジャーニーがプロファイルの作成と同時にトリガーされ、プロファイルサービスから情報を直ちに確認または取得した場合は、正常に機能しない可能性があります。
 
 次の 2 つの解決策を選択できます。
 
@@ -75,6 +75,6 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 * このプロファイルをすぐには活用しないジャーニーを設定します。例えば、アカウントの作成を確認するようにジャーニーをデザインしている場合、エクスペリエンスイベントには、最初の確認メッセージを送信するのに必要な情報（姓、名、メールアドレスなど）を含めることができます。
 
-### セグメントの読み取り
+### セグメントを読み取り
 
 * ストリーミングセグメントは常に最新の状態になりますが、バッチセグメントは取得時に計算されません。毎日のバッチ評価時にのみ評価されます。

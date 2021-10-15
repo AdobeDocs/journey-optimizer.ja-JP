@@ -9,7 +9,7 @@ exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,9 +66,9 @@ ht-degree: 98%
 
 * **[!UICONTROL ステータス]**：メッセージ実行ステータス。  <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
 
-* **[!UICONTROL 開始日]**：ジャーニーからメッセージが実行された日時。
+* **[!UICONTROL 開始日]** : ジャーニーからメッセージが実行された日時。
 
-* **[!UICONTROL ターゲット]**:各メッセージ実行のターゲットプロファイルの数。
+* **[!UICONTROL ターゲット]** : 各メッセージ実行のターゲットプロファイルの数。
 
 * **[!UICONTROL 除外]**：除外ルールによって初期ターゲットから除外されたプロファイルの数。
 

@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
 source-wordcount: '1394'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 87%
    >選択したチャネルで使用可能なプレースメントのみが&#x200B;**[!UICONTROL プレースメント]**&#x200B;ドロップダウンリストに表示されます。
 
 
-1. リストから配置を選択します。
+1. リストからプレースメントを選択します。
 
-   「**[!UICONTROL プレースメント]**」ドロップダウンリストの横にあるボタンを使用して、すべての配置を参照することもできます。
+   「**[!UICONTROL プレースメント]**」ドロップダウンリストの横にあるボタンを使用して、すべてのプレースメントを参照することもできます。
 
    ![](../../assets/browse-button-placements.png)
 
@@ -68,7 +68,7 @@ ht-degree: 87%
 
    ![](../../assets/browse-placements.png)
 
-1. 表示域にコンテンツを追加します。[ この節 ](#content) の手順を参照してください。
+1. 表示域にコンテンツを追加します。[この節](#content)の手順を参照してください。
 
 1. 画像や URL などのコンテンツを追加する際は、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
 
@@ -82,17 +82,17 @@ ht-degree: 87%
 
 1. 表示域をすべて追加したら、「**[!UICONTROL 次へ]**」を選択します。
 
-## 表現のコンテンツを定義する {#content}
+## 表示域のコンテンツの定義 {#content}
 
-表現には、異なるタイプのコンテンツを追加できます。
+表示域には、様々なタイプのコンテンツを追加できます。
 
 >[!NOTE]
 >
->プレースメントのコンテンツタイプに対応するコンテンツのみが使用できます。
+>プレースメントのコンテンツタイプに対応するコンテンツのみ使用できます。
 
-### 画像を追加
+### 画像の追加
 
-選択した配置が画像タイプの場合、**Adobe Experience Cloud Asset** ライブラリ（[!DNL Adobe Experience Manager Assets Essentials] から提供されるアセットの一元リポジトリ）から取得したコンテンツを追加できます。
+選択したプレースメントが画像タイプの場合、**Adobe Experience Cloud アセット**&#x200B;ライブラリからコンテンツを取得して追加できます。このライブラリは、[!DNL Adobe Experience Manager Assets Essentials] に用意されている一元的なアセットリポジトリです。
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ ht-degree: 87%
 
    ![](../../assets/offer-browse-asset-library.png)
 
-1. アセットを参照し、選択した画像を選択します
+1. アセットを参照して、目的の画像を選択します。
 
 1. 「**[!UICONTROL 選択]**」をクリックします。
 
@@ -112,27 +112,27 @@ ht-degree: 87%
 
 ### URL の追加
 
-外部の公開場所からコンテンツを追加するには、**[!UICONTROL URL]** を選択してから、追加するコンテンツの URL アドレスを入力します。
+外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
 ![](../../assets/offer-content-url.png)
 
 ### カスタムテキストの追加 {#custom-text}
 
-テキストタイプと互換性のあるプレースメントを選択することで、テキストタイプのコンテンツを挿入することもできます。 
+互換性のあるプレースメントを選択したときは、テキストタイプのコンテンツを挿入することもできます。 
 
-1. 「**[!UICONTROL カスタム]**」オプションを選択します。
+1. 「 **[!UICONTROL カスタム]**」オプションを選択します。
 
    >[!NOTE]
    >
    >このオプションは、画像タイプのプレースメントには使用できません。
 
-1. 専用領域のオファーに表示するテキストを入力します。
+1. オファーに表示するテキストを専用領域に入力します。
 
    ![](../../assets/offer-text-content2.png)
 
 ## 実施要件ルールと制約の追加 {#eligibility}
 
-実施要件ルールと制約を使用すると、オファーの表示条件を定義できます。
+実施要件ルールと制約を使用すると、オファーを表示する条件を定義できます。
 
 1. **[!UICONTROL オファー実施要件]**&#x200B;を設定します。
 
@@ -151,7 +151,7 @@ ht-degree: 87%
       >[!CAUTION]
       >
       >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
-   セグメントと判定ルールの使用について詳しくは、[ この節 ](../offer-activities/create-offer-activities.md#segments-vs-decision-rules) を参照してください。
+   セグメントと決定ルールの使用上の違いについて詳しくは、[この節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)を参照してください。
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
 

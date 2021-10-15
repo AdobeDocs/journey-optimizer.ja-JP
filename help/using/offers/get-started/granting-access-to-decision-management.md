@@ -10,17 +10,17 @@ exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# 意思決定管理へのアクセス権の付与 {#granting-acess-to-decision-management}
+# 意思決定管理へのアクセスの許可 {#granting-acess-to-decision-management}
 
-offer decisioning機能にアクセスして使用する権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}を使用して管理されます。
+Offer Decisioning 機能にアクセスして使用する権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} で管理されます。
 
-Decision Management機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。 [!DNL Journey Optimizer]ユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
+意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。 [!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
 
-判定管理に関する権限の一覧は、[この節](../../administration/high-low-permissions.md#manage-decisioning)に記載されています。
+意思決定管理に特有の権限の一覧については、[この節](../../administration/high-low-permissions.md#manage-decisioning)を参照してください。
 
 <!--If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
@@ -30,7 +30,7 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)を開き、**[!UICONTROL Adobe Experience Platform]**&#x200B;を選択します。
+1. [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html) を開き、「**[!UICONTROL Adobe Experience Platform]**」を選択します。
 
    <!--![](../../assets/offers_admin_console.png)-->
 
@@ -40,7 +40,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    >[!NOTE]
    >
-   >組織に対して設定する様々な役割に対応した、必要な数のプロファイルを持つことができます。
+   >組織に設定する様々な役割に応じて、必要な数のプロファイルを用意することができます。
 
 1. 製品プロファイルの名前と説明を指定し、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -52,7 +52,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    ![](../../assets/enable-services.png)
 
-1. **[!UICONTROL 「Decision Management]**」セクションで、「**+**」ボタンをクリックして製品プロファイルに権限を割り当て、「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 意思決定管理]**」セクションで、「**+**」ボタンをクリックして製品プロファイルに権限を割り当てたあと、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](../../assets/configure-profile.png)
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->Admin Consoleの権限の管理方法の詳細については、ユーザーのドキュメント[{target=&quot;_blank&quot;}を参照してください。](https://helpx.adobe.com/enterprise/managing/user-guide.html)
+>ユーザー権限の管理方法について詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}を参照してください。
 

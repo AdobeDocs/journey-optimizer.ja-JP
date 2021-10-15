@@ -9,7 +9,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -79,9 +79,9 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ### オファーのパーソナライズ {#personalize-offers}
 
-テキストタイプのコンテンツをオファーの表示域に追加する際に、パーソナライゼーションエディターにアクセスすることもできます。
+テキストタイプのコンテンツをオファーの表示域に追加する場合は、パーソナライゼーションエディターを利用することもできます。
 
-判定管理を使用したコンテンツの管理について詳しくは、[ この節 ](../offers/offer-library/creating-personalized-offers.md#custom-text) を参照してください。
+意思決定管理を使用したコンテンツ管理について詳しくは、[この節](../offers/offer-library/creating-personalized-offers.md#custom-text)を参照してください。
 
 ## 式エディターの使用 {#use-expression-editor}
 

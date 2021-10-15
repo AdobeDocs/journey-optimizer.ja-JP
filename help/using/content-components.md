@@ -1,5 +1,5 @@
 ---
-title: E メールデザイナーのコンテンツコンポーネントの使用
+title: 電子メールデザイナーのコンテンツ用コンポーネントを使用する
 description: メールでのコンテンツコンポーネントの使用を学ぶ
 feature: Overview
 topic: Content Management

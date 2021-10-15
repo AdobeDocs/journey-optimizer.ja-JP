@@ -5,7 +5,8 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
+source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 100%

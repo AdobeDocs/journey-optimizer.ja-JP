@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -83,38 +83,38 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### プロファイル属性に基づいて特定のオファー属性を持つオファーを増やす
+### プロファイル属性に基づいた特定のオファー属性を持つオファーのブースト
 
-プロファイルがオファーに対応する市に住んでいる場合、その市内のすべてのオファーの優先度を2倍にします。
+オファーに対応する市区町村にプロファイルが住んでいる場合は、その市区町村内のすべてのオファーの優先度を 2 倍にします。
 
-**ランキング式:**
+**ランキング式：**
 
 ```
 if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
-### 終了日が24時間未満のオファーを今すぐブースト
+### 終了日が今から 24 時間以内のオファーのブースト
 
-**ランキング式:**
+**ランキング式：**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### コンテキストデータに基づいて、特定のオファー属性を持つオファーをブーストする
+### コンテキストデータに基づいた特定のオファー属性を持つオファーのブースト
 
-判定呼び出しで渡されるコンテキストデータに基づいて、特定のオファーをブーストします。 例えば、判定呼び出しで`contextData.weather=hot`が渡される場合は、`attribute=hot`を含むすべてのオファーの優先度を上げる必要があります。
+決定の呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げます。 例えば、決定の呼び出しで `contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
 
-**ランキング式:**
+**ランキング式：**
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
 and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
-判定APIを使用する場合、コンテキストデータはリクエスト本文のプロファイル要素に追加されます（下図の例を参照）。
+決定 API を使用する場合は、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
 
-**リクエスト本文のスニペット：**
+**リクエスト本文から抜粋したコード：**
 
 ```
 "xdm:profiles": [
@@ -137,13 +137,13 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
  }],
 ```
 
-### 提供される製品を購入する顧客の傾向に基づいてオファーを押し上げる
+### オファーされる製品を顧客が購入する傾向に基づいたオファーのブースト
 
-航空会社の&#x200B;*travelInsurance*&#x200B;と&#x200B;*extraBagge*&#x200B;を購入する傾向を計算する&#x200B;*CustomerAI*&#x200B;の2つのインスタンスがある場合、次のランキング式は、保険に固有のオファーの優先順位（50ポイント）を上げます。0.
+航空会社の *travelInsurance* と *extraBaggage* を購入する傾向を計算する&#x200B;*顧客 AI* のインスタンスが 2 つある場合、次のランキング式では、保険または手荷物に特化したオファーについて、その商品の購入に関する顧客の傾向スコアが 90 より大きい場合は、優先度を（50 ポイントだけ）上げます。
 
-ただし、*CustomerAI*&#x200B;インスタンスごとに、統合プロファイルスキーマ内に独自のオブジェクトが作成されるので、オファーの傾向タイプに基づいてスコアを動的に選択することはできません。 したがって、`if`ステートメントを連結して、最初にオファーの傾向タイプを確認し、次に適切なプロファイルフィールドからスコアを抽出する必要があります。
+ただし、*顧客 AI* インスタンスごとに、統合プロファイルスキーマ内に独自のオブジェクトが作成されるので、オファーの傾向タイプに基づいてスコアを動的に選択することはできません。したがって、`if` ステートメントを連結して、最初にオファーの傾向タイプを確認したあと、適切なプロファイルフィールドからスコアを抽出する必要があります。
 
-**ランキング式:**
+**ランキング式：**
 
 ```
 if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
@@ -153,11 +153,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-より良い解決策は、スコアをプロファイルの配列に格納することです。 次の例は、単純なランキング式を使用して、様々な傾向スコアに対して機能します。 スコアの配列を持つプロファイルスキーマがあることが予想されます。 この例では、インスタンステナントは&#x200B;*_salesvelocity*&#x200B;で、プロファイルスキーマには次の値が含まれます。
+さらに良い解決策は、スコアをプロファイルの配列に格納することです。次の例は、単純なランキング式だけを使用して、様々な傾向スコアで機能します。スコアの配列を含んだプロファイルスキーマがあることを想定しています。 この例では、インスタンステナントは *_salesvelocity* で、プロファイルスキーマには次の情報が含まれています。
 
 ![](../../assets/ranking-example-schema.png)
 
-この場合、次のようなプロファイルに対して：
+これを前提として、例えば、次のようなプロファイルの場合、
 
 ```
 {"_salesvelocity": {"individualScoring": [
@@ -177,11 +177,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 }
 ```
 
-オファーには、スコアのカテゴリに一致する&#x200B;*propensityType*&#x200B;の属性が含まれます。
+オファーには、スコアのカテゴリに一致する *propensityType* の属性が含まれています。
 
 ![](../../assets/ranking-example-propensityType.png)
 
-次に、各オファーの優先度を、その&#x200B;*propensityType*&#x200B;の顧客&#x200B;*propensityScore*&#x200B;と等しく設定できます。 スコアが見つからない場合は、オファーに設定された静的優先度を使用します。
+この場合、ランキング式では、その *propensityType* の顧客 *propensityScore* と同じになるように各オファーの優先度を設定できます。スコアが見つからない場合は、オファーに設定された静的な優先度を使用します。
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

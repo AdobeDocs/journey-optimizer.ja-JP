@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 ## デフォルトのフォールバック値{#default-value}
 
-`Default Fallback Value`ヘルパーは、属性が空またはnullの場合にデフォルトのフォールバック値を返すために使用されます。 このメカニズムは、プロファイル属性とジャーニーイベントで機能します。
+`Default Fallback Value` ヘルパーは、属性が空または null の場合にデフォルトのフォールバック値を返すために使用されます。 このメカニズムは、プロファイル属性とジャーニーイベントで機能します。
 
 **構文**
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-この例では、このプロファイルの`firstName`属性が空またはnullの場合、値`there`が表示されます。
+この例では、このプロファイルの `firstName` 属性が空または null の場合、`there` という値が表示されます。
 
 ## 条件{#if-function}
 

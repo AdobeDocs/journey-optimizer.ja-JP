@@ -171,7 +171,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 テストプロファイルが追加され、ジャーニーのテストで使用できるようになりました。[この節](../building-journeys/testing-the-journey.md)を参照してください。
 >[!NOTE]
 >
-> CSV のインポートについて詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target=&quot;_blank&quot;}を参照してください。
+> CSV の読み込みについて詳しくは、[データ取り込みドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target=&quot;_blank&quot;}を参照してください。
 
 ## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 

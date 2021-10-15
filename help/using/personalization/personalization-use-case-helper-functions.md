@@ -13,7 +13,7 @@ ht-degree: 99%
 
 ---
 
-# パーソナライズ機能の使用例：買い物かご放棄のEメール {#personalization-use-case-helper-functions}
+# パーソナライゼーションの使用例：買い物かご放棄の E メール {#personalization-use-case-helper-functions}
 
 この例では、メールメッセージの本文をパーソナライズします。 このメッセージは、ショッピングカートに商品が残っているが購入を完了していない顧客をターゲットにします。
 

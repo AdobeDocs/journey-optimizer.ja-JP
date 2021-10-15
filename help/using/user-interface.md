@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1527'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ユーザーインターフェイスを参照する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}を参照してください。
 
-ユーザーインターフェイスで使用できるコンポーネントと機能は、[権限](administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=ja){target=&quot;_blank&quot;}によって異なります。 ご不明な点は、アドビカスタマーサクセスマネージャーまでお問い合わせください。
+このユーザーインターフェイスで使用できるコンポーネントと機能は、付与されている[権限](administration/permissions.md)と、使用している[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}によって異なります 。ご不明な点については、アドビカスタマーサクセスマネージャーまでお問い合わせください。
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ ht-degree: 97%
 
 ## アクセシビリティ{#accessibility}
 
-[!DNL Adobe Journey Optimizer]のアクセシビリティ機能は、Adobe Experience Platformから継承されます。
+[!DNL Adobe Journey Optimizer] のアクセシビリティ機能は、Adobe Experience Platform から継承したものです。
 
 * キーボードアクセシビリティ
 * カラーコントラスト
@@ -119,7 +119,7 @@ ht-degree: 97%
 
 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-[!DNL Journey Optimizer]では、以下の一般的なキーボードショートカットを使用できます。
+[!DNL Journey Optimizer]では、次の一般的なキーボードショートカットを使用できます。
 
 | アクション | ショートカット |
 | --- | --- |

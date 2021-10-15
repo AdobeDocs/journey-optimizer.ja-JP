@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -15,33 +15,33 @@ ht-degree: 56%
 
 ## 2021年9月
 
-* 次の機能ページが更新されました。[sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html)、[getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html)、[inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+* [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html?lang=ja)、[getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html?lang=ja)、[inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html?lang=ja) の各関数のページが更新されました。
 
-* 次の関数が追加されました。[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html)、[intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html)、[toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+* [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=ja)、[intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=ja)、[toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html?lang=ja) の各関数が追加されました。
 
-* dateOnly日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* dateOnly 日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja)
 
 * カスタムアクションのキャッシュ時間の詳細を追加しました。 [詳細情報](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
 * カスタムアクションのデフォルトポートに関する情報を追加しました。 [詳細情報](action/about-custom-action-configuration.md#url-configuration)
 
-* 複数のビジネスイベントの使用例に関する情報を追加しました。 [詳細情報](event/about-creating-business.md#multiple-business-events)
+* 複数のビジネスイベントユースケースに関する情報を追加しました。 [詳細情報](event/about-creating-business.md#multiple-business-events)
 
-* データレイクでのイベントステップイベントのジャーニークエリによく使用される例を追加しました。 [詳細情報](reports/query-examples.md)
+* データレイクのジャーニーステップイベントをクエリする一般的な例を追加しました。[詳細情報](reports/query-examples.md)
 
-* 新しい&#x200B;**制限**&#x200B;ページを追加しました。 [詳細情報](limitations.md)
+* **制限**&#x200B;ページを新しく追加しました。 [詳細情報](limitations.md)
 
 * **クイックスタート**&#x200B;ページが改善され、様々なペルソナの手順が追加されました。 [詳細情報](quick-start.md)
 
    <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
-* ここで、専用の節で説明しているすべてのDecision Management機能が、Decision Application Serviceを利用するAdobe Experience Platformユーザーにも適用されるようになりました。 [詳細情報](offers/get-started/starting-offer-decisioning.md)
+* 該当する節で説明しているすべての意思決定管理機能が、Offer Decisioning アプリケーションサービスを利用する Adobe Experience Platform ユーザーにも当てはまるようになりました。[詳細情報](offers/get-started/starting-offer-decisioning.md)
 
-* 制約を適用して特定の配置のオファーの選択を制限する際の、セグメントと判定ルールの使用の違いを明確にする節を追加しました。 [詳細情報](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* 制約を適用して特定のプレースメントに対応するオファーの選択を制限する際に、セグメントを使用する場合と決定ルールを使用する場合の違いを明確にするための節を追加しました。 [詳細情報](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* 実際の使用例を説明するために、特定のランキング式の例を追加しました。 [詳細情報](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* 現実的なユースケースを説明するために、ランキング式の具体的な例を追加しました。 [詳細情報](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
 
-* IPプールの編集方法に関する節を追加しました。 [詳細情報](configuration/ip-pools.md#edit-ip-pool)
+* IP プールの編集方法に関する節を追加しました。 [詳細情報](configuration/ip-pools.md#edit-ip-pool)
 
 ## 2021 年 8 月
 
@@ -57,9 +57,9 @@ ht-degree: 56%
 * 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](configuration/message-presets.md#monitor-message-presets)
 * メッセージプリセットのメール再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。 [詳細情報](configuration/retries.md#retry-duration)
 * ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](message-tracking.md#one-click-opt-out-link)
-* サブドメインのデリゲートの節を更新し、Adobeが実行する検証プロセスに関する詳細情報を追加しました。 [詳細情報](configuration/delegate-subdomain.md#subdomain-validation)
-* 抑制リストに電子メールアドレスとドメインを手動で追加する方法を説明する節を追加しました。 [詳細情報](configuration/manage-suppression-list.md#add-addresses-and-domains)
-* [「抑制リスト](configuration/manage-suppression-list.md#access-suppression-list) 」セクションと「[再試行](configuration/retries.md) 」セクションを更新し、新しいユーザーインターフェイスを反映させました。
+* 「サブドメインのデリゲート」の節を更新して、アドビで実行される検証プロセスについて詳しく説明しました。[詳細情報](configuration/delegate-subdomain.md#subdomain-validation)
+* 抑制リストにメールアドレスとドメインを手動で追加する方法に関する節を追加しました。[詳細情報](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* [抑制リストへのアクセス](configuration/manage-suppression-list.md#access-suppression-list)の節と[再試行](configuration/retries.md)の節を更新して、新しいユーザーインターフェイスを反映しました。
 * オファーの作成時に表示域を追加および設定するための新しいフローが、ドキュメントに追加されました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#representations)
 
 
@@ -75,9 +75,9 @@ ht-degree: 56%
 * ミラーページにサブセクションが追加されました。 [詳細を読む](message-tracking.md#mirror-page)
 * ドキュメントと画面で、「オファーアクティビティ」が「決定」に、「決定」が「決定範囲」にそれぞれ名称変更されました。 [詳細を読む](offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](personalization/personalization-use-case-helper-functions.md)が追加されました
-* マテリアライズドセグメントの影響を反映するように、セグメントの読み取りに関するドキュメントを更新しました。 [詳細を読む](building-journeys/read-segment.md)
+* 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。 [詳細を読む](building-journeys/read-segment.md)
 * ジャーニーの制限が更新されました。 [詳細を読む](limitations.md)
-* 決定のオファーの設定の節を更新しました。 [詳細情報](offers/offer-activities/configure-offer-selection.md)
+* 「決定でのオファー選択の設定」の節を更新しました。 [詳細情報](offers/offer-activities/configure-offer-selection.md)
 * イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](offers/offer-library/creating-personalized-offers.md#eligibility)
-* 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。 [詳細情報](offers/get-started/user-interface.md#overview)
-* オファーおよび判定リストで使用可能な操作について説明する新しい節を追加しました。[オファーリスト](offers/offer-library/creating-personalized-offers.md#offer-list)と[判定リスト](offers/offer-activities/create-offer-activities.md#decision-list)。
+* 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。[詳細情報](offers/get-started/user-interface.md#overview)
+* オファーリストと決定リストから使用できるアクションを説明するために、[オファーリスト](offers/offer-library/creating-personalized-offers.md#offer-list)と[決定リスト](offers/offer-activities/create-offer-activities.md#decision-list)の節を新しく追加しました。

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 98%
    + ユースケース {#journey-use-cases}
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
       + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
-      + [カスタムアクションを使用してコレクションを動的に渡す](using/building-journeys/collections.md)
+      + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
 + トラッキングと監視 {#reporting}
    + [メッセージの監視](using/message-monitoring.md)
    + ライブレポート {#live-report}

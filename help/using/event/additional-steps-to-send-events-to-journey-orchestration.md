@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # イベントを送信するための追加手順 {#concept_xrz_n1q_y2b}
 
-イベントを&#x200B;**[!UICONTROL ストリーミング取得 API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
+イベントを&#x200B;**[!UICONTROL ストリーミング取り込み API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
 
 1. Adobe Experience Platform API からインレット URL を取得します。詳しくは、[ストリーミング取得 API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。

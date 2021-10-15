@@ -21,7 +21,7 @@ ht-degree: 100%
 
 このチュートリアルでは、特に 決定管理に関して、API の実用的な理解が必要です。詳しくは、[決定管理 API デベロッパー ガイド](../getting-started.md)を参照してください。このチュートリアルでは、一意のプレースメント ID と決定 ID も必要です。これらの値を取得していない場合は、[プレースメントの作成](../offers-api/placements/create.md)および[決定の作成](../activities-api/activities/create.md)に関するチュートリアルを参照してください。
 
-➡️  [この機能をビデオで確認](#video)
+➡️  [ビデオでこの機能を確認する](#video)
 
 ## Accept ヘッダーと Content-Type ヘッダー
 
