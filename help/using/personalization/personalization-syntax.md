@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1cf3475d7b2b990db4b2217bb03a47b76692142c
+source-git-commit: 676f81e1cb41ea65a1dd0444424b331ce54da786
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -144,9 +144,9 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 ## URL のパーソナライゼーション{#perso-urls}
 
-Journey Orchestration では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。 その手順は次のとおりです。
+旅のオプティマイザーを使用すると、パーソナライズフィールドを追加することで、メッセージ内の1つまたは複数の Url を個人用に設定することができます。 その手順は次のとおりです。
 
-* メールまたはプッシュコンテンツにリンクを作成します。 リンクの作成について詳しくは、[このページ](../message-tracking.md#insert-links)を参照してください。
+* メールまたはプッシュコンテンツにリンクを作成します。 リンクの作成について詳しくは、このページを参照してください [ ](../message-tracking.md#insert-links) 。
 * パーソナライゼーションアイコンをクリックします。 このアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;の 3 種類のリンクで使用できます。
 
 ![](assets/perso-url.png)
@@ -155,7 +155,7 @@ Journey Orchestration では、パーソナライゼーションフィールド�
 >
 >式エディターでは、パーソナライズされた URL を編集する際、セキュリティ上の理由から、ヘルパー関数とセグメントメンバーシップが無効になります。
 
-**パーソナライズされた URL のサンプル**
+**パーソナライズされた Url のサンプル**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
