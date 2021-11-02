@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
+source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 88%
+source-wordcount: '1053'
+ht-degree: 87%
 
 ---
 
@@ -41,6 +41,15 @@ ht-degree: 88%
 ➡️ [メールのプレビュー、配達確認および公開の方法については、このビデオを参照](#video-preview)
 
 ## テストプロファイルの選択{#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="メッセージのプレビューとテスト"
+>abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストをおこなうことができます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="メールのレンダリング"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="プレビュー"
+
+
 
 [テストプロファイル](building-journeys/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、追加の受信者をターゲットに設定できます。
 
@@ -122,19 +131,19 @@ ht-degree: 88%
 
    ![](assets/send-proof-button.png)
 
-1. **[!UICONTROL 配達確認を送信]** ウィンドウで、受信者の E メールを入力し、「**[!UICONTROL 追加]**」をクリックして、自分自身または組織のメンバーに配達確認を送信します。
+1. 次の **[!UICONTROL 配達確認を送信]** ウィンドウに受信者の E メールを入力し、 **[!UICONTROL 追加]** 自分または組織のメンバーに配達確認を送信する場合。
 
-   配達確認配信には、最大 10 人の受信者を追加できます。
+   配達確認の配信には、最大 10 人の受信者を追加できます。
 
    ![](assets/send-proof-button_2.png)
 
-1. 次に、「**テストプロファイル**」を選択します。このプロファイルを使用して、メッセージコンテンツをパーソナライズします。
+1. 次に、 **テストプロファイル** メッセージの内容をパーソナライズするために使用されます。
 
-   配達確認の各受信者は、選択したテストプロファイルの数に応じて、メッセージを受け取ります。 例えば、5 つの受信者の E メールを追加し、10 件のテストプロファイルを選択した場合、配達確認メッセージが 50 件送信され、各受信者はそのうち 10 件を受信します。
+   配達確認の各受信者は、選択したテストプロファイルの数に応じて、いくつでもメッセージを受信します。 例えば、5 つの受信者の E メールを追加し、10 のテストプロファイルを選択した場合、50 件の配達確認メッセージを送信し、各受信者はそのうち 10 件を受信します。
 
 1. 必要に応じて、配達確認の件名行にプレフィックスを追加できます。英数字と特殊文字（例： . - _ ( ) [ ],）のみ、件名行のプレフィックスとして使用できます。
 
-1. 「**[!UICONTROL 配達確認を送信]**」をクリックします。
+1. クリック **[!UICONTROL 配達確認を送信]**.
 
    ![](assets/send-proof-select.png)
 
@@ -142,7 +151,7 @@ ht-degree: 88%
 
    ![](assets/send-proof-view.png)
 
-メッセージコンテンツに変更を加えるたびに、配達確認を送信することをお勧めします。
+メッセージコンテンツを変更するたびに、配達確認を送信することをお勧めします。
 
 >[!NOTE]
 >
