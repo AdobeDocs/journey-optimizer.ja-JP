@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
+source-git-commit: f99471ce5bca7272a6f25339c2de1d5f21657088
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 89%
 
 ---
 
@@ -89,5 +89,13 @@ ht-degree: 100%
 * **[!UICONTROL エラー]** : 技術的なエラーが原因で送信できないメッセージの数。
 
 * **[!UICONTROL スパム報告]**：受信者がスパムとマークしたメッセージの数。苦情の詳細については、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability){target=&quot;_blank&quot;}を参照してください。
+
+テーブルに表示する列を選択できます。 これをおこなうには、 **[!UICONTROL テーブルをカスタマイズ]** アイコンをクリックし、表示する列を選択します。
+
+![](assets/message-execution-customize-table.png)
+
+In **グローバル表示** のみ、データを数値、割合またはその両方で表示するかを選択できます。 次をクリック： **データフォーマット** 」ドロップダウンリストを使用して、3 つのオプションを切り替えることができます。
+
+![](assets/message-execution-data-format.png)
 
 各ハイパーリンクをクリックすると、対応するメッセージの概要表示が開きます。[メッセージの詳細情報](create-message.md)。

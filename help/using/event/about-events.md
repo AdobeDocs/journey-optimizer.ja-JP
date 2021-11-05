@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 >abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）です。[!DNL Journey Optimizer] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。"
 
 イベントの設定を使用すると、[!DNL Journey Optimizer] がイベントとして受け取る情報を定義できます。複数のイベントを（ジャーニーのさまざまなステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。
+
+>[!NOTE]
+>
+>イベントの設定方法について詳しくは、 [チュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >

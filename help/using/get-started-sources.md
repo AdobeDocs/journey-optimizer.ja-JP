@@ -5,17 +5,21 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 45%
 
 ---
 
 # ソースコネクタの基本を学ぶ {#sources-gs}
 
-Adobe Experience Platform を使用すると、外部ソースからデータを取り込みながら、Platform サービスを使用して受信データの構造化、ラベル付けおよび拡張を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
+Adobe Journey Optimizerを使用すると、データを外部ソースから取り込みながら、Platform サービスを使用して、受信データの構造化、ラベル付け、拡張をおこなうことができます。 アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
 
 ![](assets/sources-home.png)
 
-ソースコネクタを使用して外部ソースからデータを取り込む方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+ソースコネクタと、Journey Optimizerでのソースコネクタの設定方法については、このビデオを参照してください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+
+外部ソースからデータを取り込む方法について詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}。

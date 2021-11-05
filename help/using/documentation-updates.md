@@ -2,16 +2,31 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
+source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 87%
 
 ---
 
 # このドキュメントの最新の更新点
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新点がすべてリストアップされています。
+
+
+## 2021年10月
+
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2021 年 10 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* 追加済み **日付時間関数** リスト。 [詳細情報](personalization/functions/dates.md)
+* 新規 **ユーザーのペルソナごとの「はじめに」の節**. 目標をより早く達成するには、独自の道を選んでください。 [詳細情報](quick-start.md)
+* 新規 **メッセージプリセットの編集** 」セクションに入力します。 [詳細情報](configuration/message-presets.md#edit-message-preset)
+* 新規 **PTR レコードを編集する** 」セクションに入力します。 [詳細情報](configuration/ptr-records.md#edit-ptr-record)
+* 新規 **メッセージプリセットの非アクティブ化** 」セクションに入力します。 [詳細情報](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* に追加された新しい制限 **決定管理 API 開発者ガイド** モバイルでサポートされていないオファー制約で [!DNL Experience Edge] ワークフロー。 [詳細情報](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* 新規 **シミュレーションを作成** 」セクションに入力します。 [詳細情報](offers/offer-activities/simulation.md)
+* 更新済み **決定範囲を追加** 」セクションに入力します。 [詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 更新済み **表示域のコンテンツを定義する** 」セクションに入力します。 [詳細情報](offers/offer-library/creating-personalized-offers.md#content)
+* オファーの表示域のコンテンツを定義およびパーソナライズする方法に関する新しい節を追加しました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#content)
 
 ## 2021年9月
 
@@ -32,8 +47,6 @@ ht-degree: 100%
 * **制限**&#x200B;ページを新しく追加しました。 [詳細情報](limitations.md)
 
 * **クイックスタート**&#x200B;ページが改善され、様々なペルソナの手順が追加されました。 [詳細情報](quick-start.md)
-
-   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
 * 該当する節で説明しているすべての意思決定管理機能が、Offer Decisioning アプリケーションサービスを利用する Adobe Experience Platform ユーザーにも当てはまるようになりました。[詳細情報](offers/get-started/starting-offer-decisioning.md)
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
+source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
 workflow-type: tm+mt
 source-wordcount: '1749'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -137,7 +137,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
    ![](../assets/journey16.png)
 
-1. 「ペイロード」フィールドのリストでキーとして指定したフィールドを選択します。詳細式エディターに切り替えて、より複雑なキーを作成することもできます（例えば、イベントの 2 つのフィールドを連結）。この節では、以下を参照してください。
+1. 「ペイロード」フィールドのリストでキーとして指定したフィールドを選択します。高度な式エディターに切り替えて、より複雑なキーを作成することもできます（例えば、イベントの 2 つのフィールドを連結）。この節では、以下を参照してください。
 
    ![](../assets/journey20.png)
 
@@ -176,4 +176,4 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、[!DNL Journey Optimizer] にプッシュするイベントのセットアップを設計するのに役立ちます。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、にプッシュするイベントの設定を設計するのに役立ちます。 [!DNL Journey Optimizer]. [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。

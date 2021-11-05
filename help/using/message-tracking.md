@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 98%
@@ -28,6 +28,7 @@ ht-degree: 98%
 >デフォルトでは、両方のオプションが有効になっています。
 
 これにより、次の方法で受信者の行動を追跡できます。
+
 * **[!UICONTROL E メールの開封トラッキング]**：開封されたメッセージ。
 * **[!UICONTROL E メールのクリックトラッキング]**：メール内のリンクのクリック数。
 
@@ -116,7 +117,7 @@ ht-degree: 98%
 
 1. 変更を保存します。
 
-メッセージが送信されたら、受信者がオプトアウトリンクをクリックすると、直ちにオプトアウトされます。
+メッセージが送信されると、受信者がオプトアウトリンクをクリックした場合、直ちにオプトアウトされます。
 
 ## トラッキングの管理 {#manage-tracking}
 

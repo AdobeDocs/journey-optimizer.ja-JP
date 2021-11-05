@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 100%
@@ -266,3 +266,9 @@ ht-degree: 100%
 * メッセージの公開方法については、[この節](../../using/publish-manage-message.md)を参照してください。
 
 * 1 つ以上のジャーニーによってメッセージがトリガーされる仕組みについては、[この節](../building-journeys/journey.md)を参照してください。
+
+<!--
+* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
+-->
+
+

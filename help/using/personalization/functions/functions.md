@@ -1,19 +1,19 @@
 ---
-title: ヘルパー関数ライブラリ
+title: ヘルパー関数の概要
 description: Journey Optimizer ヘルパー関数ライブラリ
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 87%
 
 ---
 
-# ヘルパー関数ライブラリ{#functionsL}
+# ヘルパー関数の概要{#functionsL}
 
 [!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライズ機能のコンテキストでの操作など、データの操作を実行します。パーソナライゼーション構文のガイドラインについては、[このページ](../personalization-syntax.md)を参照してください。
 
@@ -23,13 +23,17 @@ ht-degree: 100%
 
 ![](../assets/access-helper-functions.png)
 
-
-
 [!DNL Journey Optimizer] 式エディターでは、ヘルパー関数は[関数](#functions-helper)、[ヘルパー](#helper-helper)および[演算子](#operators-helper)の 3 つのカテゴリにグループ化されます。
+
+サブカテゴリと関数にアクセスするカテゴリを選択します。
+
+サブカテゴリにアクセスするには、 `>` アイコン 関数を選択するには、 `+` アイコン：関数がパーソナライゼーション画面に自動的に追加されます。
+
+次をクリック： `...` アイコンをクリックして関数の説明を表示し、お気に入りに追加します。 [詳細情報](../personalize.md#fav)
 
 ## 関数{#functions-helper}
 
-**配列関数**
+### 配列関数
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ ht-degree: 100%
     </tr>
 </table>
 
+### 日付時間関数{#date-functions}
 
-**マップ関数**
+<table>
+    <tr>
+        <td><a href="dates.md#age">年齢</a></td><td>この関数は、指定された日付から年齢を取得します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">現在の時間（ミリ秒）</a></td><td>この関数は、エポックミリ秒で現在の時刻を取得します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">日付の差異</a></td><td>この関数は、2 つの日付間の差異（日数）を取得します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">曜日</a></td><td>この関数は、曜日を取得します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">年間通算日</a></td><td>この関数は、年間通算日を取得します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">日付の書式</a></td><td>この関数は、日付時刻の値をフォーマットします。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">日数を設定</a></td><td>この関数は、指定された日時の日付を設定します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">日数を設定</a></td><td>この関数は、日時の時間を設定します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">UTC に</a></td><td>この関数は、日時を UTC に変換します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">年間通算週</a></td><td>この関数は、年の週を返します。</td>
+    </tr>
+</table>
+</table>
+
+### マップ関数
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ ht-degree: 100%
     </tr>
 </table>
 
-**文字列関数**
+### 文字列関数
 
 <table>
     <tr>

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
+source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 87%
 
    ![](assets/preview-select-channel.png)
 
-1. 上記と同じ手順でテストプロファイルを選択し、コンテンツのプレビューに使用するデバイスのタイプ（**[!UICONTROL iOS]** または **[!UICONTROL Android]**）を選択します。
+1. 前述と同じ手順を適用してテストプロファイルを選択し、コンテンツをプレビューするデバイスのタイプを選択します。 **[!UICONTROL iOS]** または **[!UICONTROL Android]**.
 
    ![](assets/preview-iOS.png)
 

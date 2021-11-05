@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-1. ドロップダウンリストから「**[!UICONTROL ランキング]**」を選択してオファーをランク付けし、「**[!UICONTROL ランキングを追加]**」をクリックします。
+1. 選択 **[!UICONTROL ランキング式]** ランキングメソッドとして「 」を選択し、 **[!UICONTROL ランキングを追加]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,21 +74,15 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-1. ドロップダウンリストから&#x200B;**[!UICONTROL AI ランキング]**&#x200B;別にオファーをランク付けするように選択します。
+1. オファーのランク付けの基準を選択 **[!UICONTROL AI ランキング]** ドロップダウンリストから、 **[!UICONTROL ランキングを追加]**.
 
    ![](../../assets/ranking-selection-ai-ranking.png)
-
-1. 「**[!UICONTROL ランキングを追加]**」をクリックします。
-
-   ![](../../assets/ranking-selection-ai-ranking-add.png)
 
 1. 作成したランキング戦略を選択します。ランキング戦略の詳細がすべて表示されます。
 
    ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 「**[!UICONTROL 選択]**」をクリックします。
-
-これで、ランキング戦略がプレースメントに関連付けられました。
+1. 「**[!UICONTROL 選択]**」をクリックします。これで、ランキング戦略がプレースメントに関連付けられました。
 
 複数のオファーが適格な場合、トレーニング済みモデルシステムは、特定のプレースメントに対して最初に提示するオファーを決定します。
 

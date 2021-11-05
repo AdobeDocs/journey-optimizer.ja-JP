@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 80%
 
 ---
 
@@ -28,14 +28,21 @@ ht-degree: 100%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Journey Optimizer とは</a>
+      <a href="using/get-started.md">[!DNL Journey Optimizer] とは？</a>
     </div>
-    <p>主な機能と使い始める方法を説明します
+    <p>主な機能と使用例の確認
     <p>
     <div>
       <a href="using/release-notes.md">リリースノート</a>
     </div>
-    <p>新機能、最新の機能強化および修正点をご確認ください
+    <p>新機能、最新の機能強化および修正点です。
+   <p>
+    <div>
+      <a href="using/quick-start.md">クイックスタートガイド</a>
+    </div>
+    <p>
+    管理者、データエンジニア、またはジャーニー実務者として開始する方法を学ぶ
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">メールコンテンツの設計</a>
@@ -54,14 +61,14 @@ ht-degree: 100%
     <p>ジャーニーの作成および実行方法を説明します
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">Journey Optimizer の設定</a>
+    <a href="using/configuration/get-started-configuration.md">設定 [!DNL Journey Optimizer]</a>
     </div>
-    <p>Journey Optimizer を設定するための主要な手順を説明します
+    <p>設定の主な手順を説明します [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">Journey Optimizer へのアクセス権の付与</a>
+    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> へのアクセス付与
     </div>
-    <p>Journey Optimizer ユーザーに割り当てる権限を定義および管理する方法について説明します
+    <p>割り当て先の権限を定義および管理 [!DNL Journey Optimizer] ユーザー
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>

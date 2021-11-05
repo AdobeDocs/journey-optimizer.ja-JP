@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 94%
+source-wordcount: '691'
+ht-degree: 81%
 
 ---
 
 # パーソナライゼーションの概要{#add-personalization}
 
-[!DNL Adobe Journey Optimizer] パーソナライゼーション機能を利用して、メッセージに関するデータと情報を利用し、メッセージを特定の受信者に合わせて調整します。 名前、興味、住んでいる場所、買ったものなどを指定できます。
+Discover [!DNL Adobe Journey Optimizer] パーソナライゼーション機能を使用して、メッセージに関するデータと情報を活用し、メッセージを特定の受信者に合わせて変更できます。 名前、興味、住んでいる場所、買ったものなどを指定できます。
 
 ➡️ [メッセージをパーソナライズする方法については、こちらのビデオをご覧ください](#video-perso)
 
@@ -45,7 +45,7 @@ ht-degree: 94%
 
 ### メールのパーソナライズ
 
-メールを作成する際、メッセージの「**件名**」フィールドにパーソナライゼーションを追加できます。
+E メールを作成する際に、 **[!UICONTROL 件名]** メッセージのフィールド。
 
 ![](assets/perso_subject.png)
 
@@ -93,13 +93,17 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ![](assets/perso_ee1.png)
 
-画面の左側には、パーソナライゼーションのソースを選択できるドメインセレクターが表示されます。利用可能なソースは次のとおりです。
+画面の左側には、パーソナライゼーションのソースを選択できるドメインセレクターが表示されます。
 
-* **プロファイル** : [Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}に記載されているプロファイルスキーマに関連付けられているすべての参照をリストします。
-* **セグメントメンバーシップ**：Adobe Experience Platform セグメント化サービスで作成されたすべてのセグメントをリストします。 セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}。
-* **オファー** ：特定の配置に関連付けられているすべてのオファーをリストします。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../deliver-personalized-offers.md)を参照してください。
-* **コンテキスト**：ジャーニー で&#x200B;**メッセージ**&#x200B;アクティビティを使用する場合、このメニューからコンテキストジャーニーフィールドを使用できます。 詳しくは、[この節](personalization-use-case.md)を参照してください。
-* **ヘルパー関数**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライズ機能のコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。。
+![](assets/perso_ee3.png)
+
+利用可能なソースは次のとおりです。
+
+* **[!UICONTROL プロファイル属性]** :に、 [Adobe Experience Platform Data Model(XDM) ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+* **[!UICONTROL セグメントのメンバーシップ]** :に、Adobe Experience Platform Segmentation サービスで作成されたすべてのセグメントを示します。 使用可能なセグメント化の詳細 [ここ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target=&quot;_blank&quot;}。
+* **[!UICONTROL オファーの決定]** :特定の配置に関連付けられているすべてのオファーをリストします。 配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../deliver-personalized-offers.md)を参照してください。
+* **[!UICONTROL コンテキスト属性]** :( **メッセージ** はジャーニーで使用され、コンテキストジャーニーフィールドはこのメニューから使用できます。 詳しくは、[この節](personalization-use-case.md)を参照してください。
+* **[!UICONTROL ヘルパー関数]**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライズ機能のコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。。
 
 選択すると、エディターに参照が追加されます。
 

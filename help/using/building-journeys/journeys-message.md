@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,10 @@ ht-degree: 100%
 
 ![](../assets/jo-message4.png)
 
-特定の値を強制的に指定するには、フィールドの右側にある「**パラメーターの上書きを有効にする**」アイコンを使用します。 このオプションは、テストに役立つ場合があります。例えば、メールの場合、自分のメールアドレスを追加できます。ジャーニーを公開すると、メールが送信されます。
+特定の値を強制的に指定するには、フィールドの右側にある「**パラメーターの上書きを有効にする**」アイコンを使用します。 このオプションは、様々な目的で使用できます。
+
+* 例えば、E メールをテストするには、E メールアドレスを追加します。 ジャーニーを公開すると、メールが送信されます。
+* リストの購読者の E メールアドレスを参照できます。 参照 [使用例](message-to-subscribers-uc.md).
 
 ## 送信時間の最適化{#send-time-optimization}
 

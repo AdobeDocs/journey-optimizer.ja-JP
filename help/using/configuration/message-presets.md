@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 100%
+source-wordcount: '1743'
+ht-degree: 57%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 > * メッセージプリセットは、ジャーニー管理者のみが設定できます。 [詳細](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * メッセージプリセットを作成する前に、メールとプッシュの設定手順を実施します。
+> * 電子メール設定を実行し、 [プッシュ設定](../push-configuration.md) メッセージプリセットを作成する前の手順です。
 
 
 メッセージプリセットを設定すると、メッセージを作成する際に「**[!UICONTROL プリセット]**」リストからメッセージプリセットを選択できるようになります。
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 メッセージプリセットを作成するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューにアクセスし、「**[!UICONTROL メッセージプリセットの作成]**」をクリックします。
+1. 次にアクセス： **[!UICONTROL チャネル]** > **[!UICONTROL ブランディング]** > **[!UICONTROL メッセージプリセット]** メニュー、次に「 **[!UICONTROL メッセージプリセットを作成]**.
 
    ![](../assets/preset-create.png)
 
@@ -60,19 +60,25 @@ ht-degree: 100%
 
       >[!CAUTION]
       >
-      >**返信先（転送先メール）**&#x200B;フィールドを除き、メールアドレスのドメインは、現在選択している[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
+      >電子メールアドレスは、現在選択されている [委任サブドメイン](about-subdomain-delegation.md).
 
-      * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
+      <!--CAUTION: Except for the **Reply to (forward email)** field-->
+
+      * **[!UICONTROL 送信者名]**:送信者の名前（ブランド名など）。
 
       * **[!UICONTROL 送信者のメール]**：コミュニケーションに使用するメールアドレス。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合は、*contact@marketing.luma.com* を使用できます。
 
       * **[!UICONTROL 返信先（名前）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
 
-      * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。このアドレスに送信されたメールは、下記の&#x200B;**[!UICONTROL 返信先（転送先メール）]**&#x200B;アドレスに転送されます。 デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。使用しないと、メールは破棄されます。
-
-      * **[!UICONTROL 返信先（転送先メール）]**：デリゲートされたサブドメインに対して [!DNL Journey Optimizer] が受信したすべてのメールは、このメールアドレスに転送されます。デリゲートされたサブドメインで定義されたメールアドレスを除き、任意のアドレスを指定できます。 例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+      * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。<!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。使用しないと、メールは破棄されます。
 
       * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP が生成したすべてのエラー（非同期バウンス）は、このアドレスで受信します。
+
+      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
+
+      >[!NOTE]
+      >
+      >2021 年 10 月リリース以降は、 [!DNL Journey Optimizer] ユーザーインターフェイス。 すべてのメールを [!DNL Journey Optimizer] 特定の電子メールアドレスに転送されるデリゲートされたサブドメインについては、 [Adobeカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。 <!--move to Deprecated features section when created?-->
 
       ![](../assets/preset-header.png)
 
@@ -106,7 +112,7 @@ ht-degree: 100%
 
 1. メッセージプリセットが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
-   この段階では、メッセージプリセットが適切に設定されていることを確かめるために、いくつかのチェックが実行されています。 処理時間は、おおよそ **48 時間から 72 時間**、長くても **7 日から 10 日**&#x200B;です。
+   この段階では、メッセージプリセットが適切に設定されていることを確かめるために、いくつかのチェックが実行されています。 処理時間は約 **48h-72h**、および **7 ～ 10 営業日**.
 
    このチェックには、Adobe の配信品質チームがおこなう配信品質試験が含まれています。
 
@@ -130,7 +136,7 @@ ht-degree: 100%
 
 ## メッセージプリセットの監視 {#monitor-message-presets}
 
-すべてのメッセージプリセットは、**[!UICONTROL チャネル]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューに表示されます。フィルターを使用すると、チャネルタイプ、ユーザー、ステータスに応じてリストを参照できます。
+すべてのメッセージプリセットが **[!UICONTROL チャネル]** > **[!UICONTROL メッセージプリセット]** メニュー フィルターを使用すると、チャネルタイプ、ユーザー、ステータスに応じてリストを参照できます。
 
 ![](../assets/preset-filters.png)
 
@@ -140,11 +146,11 @@ ht-degree: 100%
 * **[!UICONTROL 処理中]**：メッセージプリセットが送信され、いくつかの検証手順を実行中です。
 * **[!UICONTROL アクティブ]**：メッセージプリセットは検証済みであり、選択してメッセージを作成できます。
 * **[!UICONTROL 失敗]**：メッセージプリセットの検証中に、1 つ以上のチェックが失敗しました。
-* **[!UICONTROL 非アクティブ]**：メッセージプリセットがアクティブ化されていません。新しいメッセージの作成には使用できません。
+* **[!UICONTROL 非アクティブ]**:メッセージプリセットが非アクティブ化されます。 新しいメッセージの作成には使用できません。
 
 メッセージプリセットの作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にご連絡ください。
+これらのエラーのいずれかが発生した場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にご連絡ください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
@@ -158,25 +164,128 @@ ht-degree: 100%
    * 対応するプリセットの IP プールで指定された IP 以外の IP からメールが送信される
    * Gmail や Yahoo などの主要な ISP の受信ボックスにメールを配信できない
 
-## メッセージプリセットの編集
+## メッセージプリセットの編集 {#edit-message-preset}
 
-メッセージプリセットを編集するには、まず、メッセージプリセットを非アクティブにして、新しいメッセージを作成できないようにしておく必要があります（このプリセットで公開済みのメッセージは影響を受けず、引き続き機能します）。 次に、メッセージプリセットを複製して、新しいメッセージの作成に使用する新しいバージョンのプリセットを作成します。
+メッセージプリセットを編集するには、次の手順に従います。
 
-1. メッセージプリセットのリストにアクセスし、編集するメッセージプリセットを非アクティブ化します。
+>[!NOTE]
+>
+>次の項目は編集できません： **[!UICONTROL プッシュ通知設定]**. メッセージプリセットがプッシュ通知チャネル用にのみ設定されている場合、編集できません。
 
-   ![](../assets/preset-deactivate.png)
+1. リストで、メッセージプリセット名をクリックして開きます。
 
-1. 非アクティブにしたメッセージプリセットを複製します。 「**[!UICONTROL ドラフト]**」ステータスのコピーが自動的にリストに追加されます。
+   ![](../assets/preset-name.png)
 
-   ![](../assets/preset-duplicated.png)
-
-1. 複製したメッセージプリセットを開き、必要に応じて変更し、変更を送信します。 メッセージプリセットは、[作成手順](#create-message-preset)と同じ検証サイクルを経ます。
-
-1. 検証が完了すると、「**[!UICONTROL アクティブ]**」ステータスになり、新しいメッセージの作成に使用できるようになります。
+1. その IP プールのプロパティを必要に応じて編集します。 
 
    >[!NOTE]
    >
-   >非アクティブ化されたメッセージプリセットは削除できません。それらのプリセットを使用してメッセージを送信するジャーニーで問題が発生しないようにするためです。
+   >メッセージプリセットに **[!UICONTROL アクティブ]** ステータス、 **[!UICONTROL 名前]**, **[!UICONTROL チャネルを選択]** および **[!UICONTROL サブドメイン]** フィールドは灰色表示になっており、編集できません。
+
+1. クリック **[!UICONTROL 送信]** 変更を確定します。
+
+   ![](../assets/preset-confirm-update.png)
+
+   >[!NOTE]
+   >
+   >また、メッセージプリセットをドラフトとして保存し、後で更新を再開することもできます。
+
+変更が送信されると、メッセージプリセットは、次の場合と同じような検証サイクルを繰り返します。 [プリセットの作成](#create-message-preset).
+
+メッセージプリセットの場合、 **[!UICONTROL アクティブ]** のステータスを確認すると、更新の詳細を確認できます。 この作業を行うには、以下の手順を実行します。
+
+* 次をクリック： **[!UICONTROL 最近の更新]** アクティブなプリセット名の横に表示されるアイコン。
+
+   ![](../assets/preset-recent-update-icon.png)
+
+* 更新の処理中に、アクティブなメッセージプリセットから更新の詳細にアクセスすることもできます。
+
+   ![](../assets/preset-view-update-details.png)
+
+の **[!UICONTROL 最近の更新]** 画面には、更新ステータス、<!--the approximate remaining time before completion (if validation is in progress)--> 要求された変更のリスト
+
+![](../assets/preset-recent-update-screen.png)
+
+### ステータスを更新 {#update-statuses}
+
+メッセージプリセットの更新には、次のステータスがあります。
+
+* **[!UICONTROL 処理中]**:メッセージプリセットの更新が送信され、いくつかの検証手順を実行しています。
+* **[!UICONTROL 成功]**:更新されたメッセージプリセットが検証され、メッセージを作成するために選択できます。
+* **[!UICONTROL 失敗]**:メッセージプリセットの更新の検証中に、1 つ以上のチェックが失敗しました。
+
+**Processing**
+
+プリセットが正しく更新されたことを確認するために、いくつかの配信品質チェックが実行されます。 処理時間は約 **48h-72h**、および **7 ～ 10 営業日**. 検証サイクルで実行されたチェックの詳細については、 [この節](#create-message-preset).
+
+>[!NOTE]
+>
+>更新中は、メッセージプリセットを変更できません。 名前はクリックできますが、すべてのフィールドが灰色表示になっています。 変更は、更新が正常に完了するまで反映されません。
+
+既にアクティブなプリセットを編集する場合：
+
+* ステータスは変わりません **[!UICONTROL アクティブ]** 検証プロセスが進行中の間に
+
+* この **[!UICONTROL 最近の更新]** メッセージプリセットリストのプリセット名の横にアイコンが表示されます。
+
+* 検証プロセス中、このプリセットを使用して設定されたメッセージは、古いバージョンのプリセットを引き続き使用します。
+
+**成功**
+
+検証プロセスが正常に完了すると、このプリセットを使用するすべてのメッセージで、新しいバージョンのプリセットが自動的に使用されます。 ただし、次の場合は待つ必要があります。
+* 単一メッセージで消費されるまで数分間
+* バッチメッセージでプリセットが有効になる次のバッチまで。
+
+<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
+
+**失敗**
+
+検証プロセスが失敗した場合でも、古いバージョンのプリセットが引き続き使用されます。
+
+更新エラーのタイプは次のとおりです。
+* **認証エラー**:bearer トークンが無効か、認証されていません。
+* **不正な変更**:1 つ以上の許可されていないフィールドに対して編集が実行されました。
+* **事前条件が失敗しました**:一部のフィールドは特定の値のみを持つことができ、これは有効ではありません。
+
+<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+
+更新が失敗すると、プリセットが再び編集可能になります。 名前をクリックし、修正する必要のある設定を更新できます。
+
+## メッセージプリセットの非アクティブ化 {#deactivate-preset}
+
+を作成するには、以下を実行します。 **[!UICONTROL アクティブ]** 新しいメッセージを作成するには、メッセージプリセットを使用できません。非アクティブにすることができます。 ただし、このプリセットを使用して公開したメッセージは影響を受けず、引き続き機能します。
+
+>[!NOTE]
+>
+>更新の処理中にメッセージプリセットを非アクティブ化することはできません。 更新が正常に完了するか、失敗するまで待つ必要があります。 詳細情報： [メッセージプリセットの編集](#edit-message-preset) そして [ステータスを更新](#update-statuses).
+
+1. メッセージプリセットリストにアクセスします。
+
+1. 任意のアクティブなプリセットの場合は、 **[!UICONTROL その他のアクション]** 」ボタンをクリックします。
+
+1. 選択 **[!UICONTROL 無効化]**.
+
+   ![](../assets/preset-deactivate.png)
+
+>[!NOTE]
+>
+>非アクティブのメッセージプリセットは削除できません。メッセージの送信にそのプリセットを使用しているジャーニーへの影響を避けるためです。
+
+非アクティブ化されたメッセージプリセットは直接編集できません。 ただし、コピーを作成してコピーを編集し、新しいバージョンを作成して新しいメッセージを作成することはできます。 また、再度アクティブ化し、更新が正常に完了するまで待って編集することもできます。
+
+![](../assets/preset-activate.png)
+
+<!--1. Access the message presets list.
+
+1. Deactivate the message preset that you want to edit.
+
+1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
+
+    ![](../assets/preset-duplicated.png)
+
+1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
+
+1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## ハウツービデオ{#video-presets}
 

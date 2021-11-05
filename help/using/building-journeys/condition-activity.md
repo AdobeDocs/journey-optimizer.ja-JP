@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 96%
+source-wordcount: '1041'
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 ジャーニーの設計には、機能的な影響があることに注意してください。条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。つまり、パスを上下に配置することで、パスの優先順位を変更できます。
 
-例えば、最初のパスの条件「この人物は VIP である」と2番目のパスの条件「この人物は男性である」を例にとってみましょう。両方の条件を満たす人 (VIPの男性 ) がこの手順を通過すると、最初のパスが「上」であるので、この人が 2 番目のパスにも該当する場合でも、最初のパスが選択されます。 この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
+例えば、最初のパスの条件「この人物は VIP である」と2番目のパスの条件「この人物は男性である」を例にとってみましょう。両方の条件を満たす人 (VIPの男性 ) がこの手順を通過すると、最初のパスは「上」なので、この人が 2 番目のパスにも該当する場合でも、最初のパスが選択されます。 この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
 
 ![](../assets/journey48.png)
 
@@ -55,6 +55,8 @@ ht-degree: 96%
 >単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。[Adobe Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+
+単純なエディターでは、イベントカテゴリとデータソースカテゴリの下に、ジャーニーのプロパティカテゴリも表示されます。 このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれます。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得される情報です。 詳しくは、 [AdobeJourney Orchestrationドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html){target=&quot;_blank&quot;}
 
 ## データソースの条件 {#data_source_condition}
 
@@ -80,19 +82,35 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->パーセンテージ条件分岐には、パスを追加するボタンはありません。パスの数は、分割数によって異なります。条件分岐では、他のケースではパスは発生しないので、パスを追加できません。ユーザーは常に、分割されたパスの 1 つに入ります。
+>割合条件分岐には、パスを追加するボタンはありません。パスの数は、分割数によって異なります。条件分岐では、他のケースではパスは発生しないので、パスを追加できません。ユーザーは常に、分割されたパスの 1 つに入ります。
 
 ![](../assets/journey52.png)
 
 ## 日付条件 {#date_condition}
 
-これにより、日付に基づいて異なるフローを定義できます。例えば、「セール」の期間中にステップにエントリしたユーザーには、特定のメッセージが送信されます。残りの期間には、別のメッセージを送信します。
+これにより、日付に基づいて異なるフローを定義できます。例えば、「販売」期間中にステップに入ったユーザーには、特定のメッセージを送信します。 残りの期間には、別のメッセージを送信します。
 
 >[!NOTE]
 >
 >タイムゾーンは条件に固有ではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](../assets/journey53.png)
+
+<!--
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+
+The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+
+The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+
+The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+
+![](../assets/profile-cap-condition.png)
+-->
 
 ## 条件でのセグメントの使用 {#using-a-segment}
 

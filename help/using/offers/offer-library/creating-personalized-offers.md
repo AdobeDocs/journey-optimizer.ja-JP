@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
+source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 97%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 97%
 オファーを作成する前に、以下が作成済みであることを確認してください。
 
 * オファーを表示する&#x200B;**プレースメント**。[プレースメントを作成](../offer-library/creating-placements.md)を参照してください。
-* 実施要件条件を追加する場合：オファーを提示する条件を定義する **決定ルール** [決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
-* 1 つ以上の **タグ** をオファーに関連付けます。 [タグを作成](../offer-library/creating-tags.md)を参照してください。
+* 実施要件条件を追加する場合：a **決定ルール** これは、オファーの提示条件を定義します。 [決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
+* 1 つまたは複数 **タグ** を設定します。 [タグを作成](../offer-library/creating-tags.md)を参照してください。
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
@@ -120,15 +120,25 @@ ht-degree: 97%
 
 互換性のあるプレースメントを選択したときは、テキストタイプのコンテンツを挿入することもできます。 
 
-1. 「 **[!UICONTROL カスタム]**」オプションを選択します。
+1. を選択します。 **[!UICONTROL カスタム]** オプションを選択し、 **[!UICONTROL コンテンツを追加]**.
+
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
    >このオプションは、画像タイプのプレースメントには使用できません。
 
-1. オファーに表示するテキストを専用領域に入力します。
+1. オファーに表示するテキストを入力します。
 
-   ![](../../assets/offer-text-content2.png)
+   ![](../../assets/offer-text-content.png)
+
+   式エディターを使用して、コンテンツをパーソナライズできます。 詳細情報： [パーソナライズ](../../personalization/personalize.md#use-expression-editor).
+
+   ![](../../assets/offer-personalization.png)
+
+   >[!NOTE]
+   >
+   >次の項目のみ **[!UICONTROL プロファイル属性]**, **[!UICONTROL セグメントのメンバーシップ]** および **[!UICONTROL ヘルパー関数]** ソースは、決定管理で使用できます。
 
 ## 実施要件ルールと制約の追加 {#eligibility}
 

@@ -5,15 +5,14 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 93%
 
 ---
 
-
-# [!DNL Journey Optimizer] ヘルプ {#using}
+# Adobe Journey Optimizer Help {#using}
 
 + [Journey Optimizer ドキュメント](ajo-home.md)
 + 新着情報{#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 100%
    + [最新の更新点](using/documentation-updates.md)
 + はじめに{#get-started}
    + [Journey Optimizer とは](using/get-started.md)
-   + [クイックスタート](using/quick-start.md)
+   + クイックスタート{#quick-start}
+      + [概要](using/quick-start.md)
+      + [マーケターとして開始](using/path/marketer.md)
+      + [データエンジニアとして開始する](using/path/data-engineer.md)
+      + [管理者としての基本を学ぶ](using/path/administrator.md)
+      + [開発者としての基本を学ぶ](using/path/developer.md)
    + [ユーザーインターフェイス](using/user-interface.md)
    + [制限事項](using/limitations.md)
 + メッセージ {#create-messages}
@@ -50,10 +54,11 @@ ht-degree: 100%
       + [注文ステータスの通知](using/personalization/personalization-use-case.md)
       + [カート放棄メール](using/personalization/personalization-use-case-helper-functions.md)
    + ヘルパー関数{#functions}
-      + [ヘルパー関数のリスト](using/personalization/functions/functions.md)
+      + [ヘルパー関数の概要](using/personalization/functions/functions.md)
       + [集計関数](using/personalization/functions/aggregation.md)
       + [演算関数](using/personalization/functions/arithmetic-functions.md)
       + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
+      + [日付関数](using/personalization/functions/dates.md)
       + [ブール関数と比較関数](using/personalization/functions/operators.md)
       + [ヘルパー](using/personalization/functions/helpers.md)
       + [マップ関数](using/personalization/functions/maps.md)
@@ -97,6 +102,7 @@ ht-degree: 100%
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
       + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
+      + [購読者へのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
 + トラッキングと監視 {#reporting}
    + [メッセージの監視](using/message-monitoring.md)
    + ライブレポート {#live-report}
@@ -111,11 +117,14 @@ ht-degree: 100%
       + [プッシュグローバルレポート](using/reports/push-global-report.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
-      + [ジャーニーのフィールド](using/reports/sharing-journey-fields.md)
-      + [共通フィールド](using/reports/sharing-common-fields.md)
-      + [アクション実行フィールド](using/reports/sharing-execution-fields.md)
-      + [データ取得フィールド](using/reports/sharing-fetch-fields.md)
-      + [ID フィールド](using/reports/sharing-identity-fields.md)
+      + [ステップイベントフィールドリスト](using/reports/sharing-field-list.md)
+      + レガシーステップのイベントフィールド {#legacy-step-event-fields}
+         + [レガシーフィールドについて](using/reports/sharing-legacy-fields.md)
+         + [ジャーニーのフィールド](using/reports/sharing-journey-fields.md)
+         + [共通フィールド](using/reports/sharing-common-fields.md)
+         + [アクション実行フィールド](using/reports/sharing-execution-fields.md)
+         + [データ取得フィールド](using/reports/sharing-fetch-fields.md)
+         + [ID フィールド](using/reports/sharing-identity-fields.md)
       + [クエリの例](using/reports/query-examples.md)
    + 配信品質 {#deliverability}
       + [配信品質の概要](using/deliverability.md)
@@ -140,6 +149,7 @@ ht-degree: 100%
    + 決定の作成と管理 {#create-manage-activities}
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
+      + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
    + 決定管理レポートの作成 {#create-reports}
       + [決定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [決定管理イベントの主な情報](using/offers/reports/key-information.md)

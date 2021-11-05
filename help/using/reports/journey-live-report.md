@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 88%
 
 ---
 
@@ -41,19 +41,35 @@ ht-degree: 100%
 
 * **[!UICONTROL 退出したプロファイル]**：ジャーニーから退出した個人の合計数。
 
-* **[!UICONTROL 失敗した個人のジャーニー]**：正常に実行されなかった個人のジャーニーの合計数。
+* **[!UICONTROL 失敗した個々のジャーニー]**:正常に実行されなかった個々のジャーニーの合計数。
 
 ![](../assets/report_journey_3.png)
 
-**[!UICONTROL 過去 24 時間以内に実行されたイベント]**、**[!UICONTROL 実行されたイベント]**&#x200B;および&#x200B;**[!UICONTROL イベント]**&#x200B;の各ウィジェットでは、どのイベントが正常に実行されたかが概要番号、グラフおよびテーブルで表示されます。
+この **[!UICONTROL 過去 24 時間に実行されたイベント]** および **[!UICONTROL イベント]** ウィジェットを使用すると、概要番号、グラフ、表を通じて、どのイベントが正常に実行されたかを確認できます。
 
 ![](../assets/report_journey_4.png)
 
-**[!UICONTROL 過去 24 時間以内に実行されたアクション]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL 実行されたアクションとエラー]**&#x200B;ウィジェットは、最も成功したアクションと、アクションがトリガーされたときに発生したエラーを表します。アクショングラフ、テーブルおよび概要番号には、次のようなアクションに使用できるデータが含まれています。
+この **[!UICONTROL 過去 24 時間に実行されたアクション]** および **[!UICONTROL 実行されたアクションとエラー]** ウィジェットは、最も成功したアクションと、アクションがトリガーされたときに発生したエラーを表します。 アクショングラフ、テーブルおよび概要番号には、次のようなアクションに使用できるデータが含まれています。
 
-* **[!UICONTROL 正常に実行されたアクション]**：ジャーニーに対して正常に実行されたアクションの合計数。
+* **[!UICONTROL 実行されたアクション]**:1 つのジャーニーで正常に実行されたアクションの合計数。
 
-* **[!UICONTROL アクションのエラー]**：アクションで発生したエラーの合計数。
+* **[!UICONTROL アクションのエラー]**:アクションで発生したエラーの合計数。
+
+<!--
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## 「メール」タブ  {#email-live}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 84%
 
 ---
 
@@ -66,6 +66,20 @@ ht-degree: 100%
 * **[!UICONTROL ソフトバウンス数]**：一時的なエラー（インボックスが満杯など）の合計数。
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
+
+![](../assets/live_report_8.png)
+
+>[!NOTE]
+>
+>オファーウィジェットと指標は、決定が電子メールに挿入された場合にのみ使用できます。 決定管理について詳しくは、次を参照してください。 [ページ](../offers/get-started/starting-offer-decisioning.md).
+
+この **[!UICONTROL オファー統計]** および **[!UICONTROL オファー統計]** 時間の経過と共に、ウィジェットは、オファーの成功と、ターゲットオーディエンスへの影響を測定します。 KPI を使用して、メッセージに関する主な情報の詳細を示します。
+
+* **[!UICONTROL 送信されたオファー]**:オファーの送信の合計数。
+
+* **[!UICONTROL オファーインプレッション]**:配信でオファーが開封された回数。
+
+* **[!UICONTROL オファークリック数]**:配信でオファーがクリックされた回数。
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 77%
 
 ---
 
@@ -101,3 +101,7 @@ curl -X POST \
     "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
+## 制限事項 {#limitations}
+
+一部のオファー制約は、現在、モバイルではサポートされていません [!DNL Experience Edge] ワークフロー、例 `Capping`. この `Capping` フィールド値は、すべてのユーザーに対して 1 つのオファーを提示できる回数を指定します。 詳しくは、 [オファー実施要件ルールと制約に関するドキュメント](../../../offer-library/creating-personalized-offers.md).

@@ -2,18 +2,123 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
+source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 95%
+source-wordcount: '2022'
+ht-degree: 74%
 
 ---
 
 # リリースノート {#release-notes}
 
-このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。最新の[ドキュメント更新](documentation-updates.md)を参照することもできます。
+このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、 [最新のドキュメントの更新](documentation-updates.md).
+
+## 2021 年 10 月リリース {#oct-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
+<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+</td>
+</tr>
+</tbody>
+</table-->
 
 
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>決定管理 — オファーのシミュレーション</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer UI で、特定の配置に対してテストプロファイルに配信されるオファーをシミュレートできるようになりました。 これにより、実稼動環境に配置する前に、実施要件の制約やランキングアルゴリズムを含む判定ロジックを簡単に検証できます。 この機能を使用すると、技術者以外のユーザーも、offer decisioningを迅速にテストし、潜在的な問題をトラブルシューティングできます。</p>
+<p>詳しくは、<a href="offers/offer-activities/simulation.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>決定管理 — オファーをパーソナライズする</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer UI 全体で見つかるのと同じ式エディターコンポーネントを使用して、Adobe Experience Platformのプロファイル属性とセグメントを使用して、オファーのコンテンツをパーソナライズできるようになりました。 </p>
+<p>詳しくは、<a href="offers/offer-library/creating-personalized-offers.md#content">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+関連トピック [Adobe Experience Platform 10 月のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+
+### 機能強化
+
+**ジャーニー**
+
+* **式エディター**  — パワーユーザーは、関数を使用してマップを操作できるようになりました。 この機能は、購読リストで利用できます。 例えば、セグメントから、購読リストから電子メールアドレスを取得できるようになりました。 [詳しくは、このサンプルを参照してください。](building-journeys/message-to-subscribers-uc.md)
+
+   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
+* **監視**  — ライブジャーニーとテストモードのステップイベントが強化されました。 [新しいフィールド](reports/sharing-field-list.md#serviceevents) プロファイル書き出しジョブに関連するが追加されました。 ユーザーエクスペリエンスを向上させるために、ステップイベントのフィールドを様々なカテゴリに整理するようになりました。 前のステップのイベントのフィールドは、引き続き [stepEvents](reports/sharing-legacy-fields.md) カテゴリ。
+* **アクセシビリティ**  — ジャーニーにアクセシビリティの強化が実装されました。
+* **コレクション** ：サブオブジェクトを含むオブジェクトの配列がサポートされるようになりました。 [詳細情報](building-journeys/collections.md)
+* **リスト** ：ジャーニー、イベント、アクション、データソースのリスト画面が改善されました。
+
+**レポート**
+
+* **グローバルビューのデータ形式** - **グローバル表示** の **実行** タブをクリックします。 [詳細情報](message-monitoring.md)
+* **新しい指標**  — で新しい指標とウィジェットを使用できるようになりました。 **ライブ** および **グローバル** レポートを使用して、受信者に対するオファーの影響を測定できます。 [詳細情報](reports/journey-global-report.md)
+
+**管理**
+
+* **メッセージプリセットの編集** ：メッセージプリセットを編集し、更新ステータスを監視できるようになりました。 [詳細情報](configuration/message-presets.md#edit-message-preset)
+* **PTR レコードを編集** :PTR レコードを編集し、更新ステータスを監視できるようになりました。 [詳細情報](configuration/ptr-records.md#edit-ptr-record)
+
+**パーソナライゼーション**
+
+* **日付の書式設定に関する新しいヘルパー関数**  — 日付文字列の表現方法を指定できるようになりました。 [詳細情報](personalization/functions/dates.md#format-date)
+
+**決定管理**
+
+* **評価順序**  — 新しく改善された判定作成フローにより、判定オブジェクト間をよりシームレスに移動できるだけでなく、判定エンジンによるオファーコレクションの評価方法を完全に制御できます。 これには、個々に対して同時に評価されるコレクションや、コレクションの評価順序が含まれます。 [詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+
+### 修正点
+
+* ブラウザーの言語が英語でない場合に、ジャーニーリスト、メッセージリスト、E メールデザイナーが表示されない問題を修正しました。
+* E メールデザイナーで式を使用してパーソナライゼーションを追加する際に発生する構文エラーを修正しました。文字は誤って逃げ出された。
+* で **管理** メニュー
+* ビジネスイベントを使用してジャーニーをテストする際に他のライブジャーニーがトリガーされる問題を修正しました。
 
 ## 2021年9月リリース {#september-2021-release}
 
@@ -28,7 +133,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p>レポートで新しい指標を使用できます。E メールおよびプッシュメッセージのターゲット設定と除外は、ライブレポートとグローバルレポートの両方で表示されます。 </br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズの詳細については、<a href="reports/live-report.md"> 詳細なドキュメントを参照してください。</a></p>
+<p>レポートで新しい指標を使用できます。電子メールおよびプッシュメッセージのターゲット設定と除外は、ライブレポートとグローバルレポートの両方に表示されます。 </br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があります。 ダッシュボードのカスタマイズについて詳しくは、 <a href="reports/live-report.md">詳細なドキュメント。</a></p>
 <p>メッセージ実行リストの新しい列に、メッセージ実行ごとのターゲットプロファイル数が表示されます。 </p>
 <p>詳しくは、<a href="message-monitoring.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -55,23 +160,7 @@ ht-degree: 95%
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 ### 機能強化
 

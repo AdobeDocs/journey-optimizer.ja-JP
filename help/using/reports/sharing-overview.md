@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 7e4b5342fc57029517ae4d6a6c1e8e03e0dc0c3b
+source-git-commit: 2731f3fef651f4d75e2d1e19199a6cd8050b3475
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 98%
 
 ---
 
@@ -53,10 +53,7 @@ ht-degree: 100%
 
 Adobe Experience Platform に渡される XDM フィールドのリストについて詳しくは、以下を参照してください。
 
-* [journeySteps イベントの共通フィールド](../reports/sharing-common-fields.md)
-* [journeyStep イベントのアクション実行フィールド](../reports/sharing-execution-fields.md)
-* [journeyStep イベントのデータ取得フィールド](../reports/sharing-fetch-fields.md)
-* [journeyStep イベントの ID フィールド](../reports/sharing-identity-fields.md)
-* [ジャーニーのフィールド](../reports/sharing-journey-fields.md)
+* [ステップイベントフィールドリスト](../reports/sharing-field-list.md)
+* [レガシーステップのイベントフィールド](../reports/sharing-legacy-fields.md)
 
 Adobe Experience Platform にレポートするステップイベントの詳細については、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。

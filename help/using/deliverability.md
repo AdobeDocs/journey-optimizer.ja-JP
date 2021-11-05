@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 100%
 * 送信者の評価
 
 [!DNL Journey Optimizer] エクスペリエンスの配信品質を最適化するには、この節に示すベストプラクティスを使用することをお勧めします。配信品質の問題は通常、インターネットサービスプロバイダー（ISP）およびメールサーバー管理者が実行するスパム対策に関係しています。
+
+配信品質の概要と主な用語、概念、アプローチについて詳しくは、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}。
 
 ## 苦情率の低減 {#reduce-complaint-rate}
 
@@ -75,3 +77,11 @@ Spammers are also known to replace text with images to stop offending text from 
 <!--**Use tools** offered by Journey Optimizer to optimize the content of your email (delivery analysis, anti-spam analysis).-->
 
 [メールコンテンツのデザインの詳細情報](design-emails.md)。
+
+<!--
+## Establish your reputation as a sender
+
+If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+
+To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).
+-->

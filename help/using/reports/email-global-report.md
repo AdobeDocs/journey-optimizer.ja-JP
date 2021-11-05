@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 78%
 
 ---
 
@@ -90,6 +90,32 @@ ht-degree: 100%
 * **[!UICONTROL ユニーククリック数]**：メールのコンテンツをクリックした受信者の数。
 
 * **[!UICONTROL ユニーク開封数]**：配信されたメッセージを開いた受信者の数。
+
+![](../assets/global_report_20.png)
+
+>[!NOTE]
+>
+>オファーウィジェットと指標は、決定が電子メールに挿入された場合にのみ使用できます。 決定管理について詳しくは、次を参照してください。 [ページ](../offers/get-started/starting-offer-decisioning.md).
+
+この **[!UICONTROL オファー統計]** および **[!UICONTROL オファー統計]** 時間の経過と共に、ウィジェットは、オファーの成功と、ターゲットオーディエンスへの影響を測定します。 KPI を使用して、メッセージに関する主な情報の詳細を示します。
+
+* **[!UICONTROL 送信されたオファー]**:オファーの送信の合計数。
+
+* **[!UICONTROL オファーインプレッション]**:配信でオファーが開封された回数。
+
+* **[!UICONTROL オファークリック数]**:配信でオファーがクリックされた回数。
+
+この **[!UICONTROL 詳細な統計を提供します]** テーブルには、オファーを含む受信者アクティビティで使用可能なデータが含まれます。
+
+* **[!UICONTROL プレースメント名]**:オファーの表示に使用する配置の名前。 配置について詳しくは、 [ページ](../offers/offer-library/creating-placements.md).
+
+* **[!UICONTROL オファー名]**:配信に追加されたオファーの名前。 配置について詳しくは、 [ページ](../offers/offer-library/creating-personalized-offers.md).
+
+* **[!UICONTROL 送信されたオファー]**:オファーの送信の合計数。
+
+* **[!UICONTROL オファーインプレッション率]**:送信されたオファーの数に対する、開封されたオファーの割合。
+
+* **[!UICONTROL オファークリック率]**:オファーでインタラクションをおこなったユーザーの割合。
 
 >[!NOTE]
 >

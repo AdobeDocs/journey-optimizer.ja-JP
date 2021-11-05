@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1618'
 ht-degree: 100%
 
 ---
@@ -136,8 +136,6 @@ ht-degree: 100%
 * _完了_：個人はジャーニーの最後にいます。
 * _エラー_：エラーが発生したため、個人のジャーニーは停止しました。
 * _タイムアウト_：時間がかかり過ぎたので、個人のジャーニーは停止しました。
-
-テストモードでイベントをトリガーすると、ソースの名前が付いたデータセットが自動的に生成されます。
 
 テストモードでイベントをトリガーすると、ソースの名前が付いたデータセットが自動的に生成されます。
 
