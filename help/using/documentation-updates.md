@@ -2,9 +2,9 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '835'
 ht-degree: 87%
 
 ---
@@ -25,8 +25,7 @@ ht-degree: 87%
 * に追加された新しい制限 **決定管理 API 開発者ガイド** モバイルでサポートされていないオファー制約で [!DNL Experience Edge] ワークフロー。 [詳細情報](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 新規 **シミュレーションを作成** 」セクションに入力します。 [詳細情報](offers/offer-activities/simulation.md)
 * 更新済み **決定範囲を追加** 」セクションに入力します。 [詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* 更新済み **表示域のコンテンツを定義する** 」セクションに入力します。 [詳細情報](offers/offer-library/creating-personalized-offers.md#content)
-* オファーの表示域のコンテンツを定義およびパーソナライズする方法に関する新しい節を追加しました。 [詳細情報](offers/offer-library/creating-personalized-offers.md#content)
+* 更新済み **表示域のコンテンツを定義する** 新しい [款](offers/offer-library/creating-personalized-offers.md#custom-text) カスタムテキストを定義し、パーソナライズする方法について説明します。 [詳細情報](offers/offer-library/creating-personalized-offers.md#content)
 
 ## 2021年9月
 

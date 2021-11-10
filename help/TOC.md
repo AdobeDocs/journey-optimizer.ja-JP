@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
+source-git-commit: d575862cf7b6803e75b80ce6d1ff714ba319341b
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 93%
+source-wordcount: '758'
+ht-degree: 92%
 
 ---
 
@@ -225,7 +225,7 @@ ht-degree: 93%
             + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
             + [デリゲートされたサブドメインへのアクセス](using/configuration/access-subdomains.md)
             + [Google TXTレコードの追加](using/configuration/google-txt.md)
-            + [PTR レコードへのアクセス](using/configuration/ptr-records.md)
+            + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
          + [IP プールの作成](using/configuration/ip-pools.md)
          + メールアドレスの監視 {#monitor-reputation}
             + [抑制リストの管理](using/configuration/manage-suppression-list.md)

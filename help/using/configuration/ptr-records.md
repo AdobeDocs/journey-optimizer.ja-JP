@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 25%
@@ -52,7 +52,7 @@ PTR レコードを変更して、IP アドレスに関連付けられたサブ�
    >
    >この **[!UICONTROL IP]** および **[!UICONTROL PTR レコード]** フィールド。
 
-1. クリック **[!UICONTROL SAve]** 変更を確定します。
+1. クリック **[!UICONTROL 保存]** 変更を確定します。
 
 An **[!UICONTROL 更新中]** リスト内の PTR レコードの名前の横にアイコンが表示されます。
 

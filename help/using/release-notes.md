@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1999'
 ht-degree: 74%
@@ -74,7 +74,7 @@ ht-degree: 74%
 <tr>
 <td>
 <p>Journey Optimizer UI 全体で見つかるのと同じ式エディターコンポーネントを使用して、Adobe Experience Platformのプロファイル属性とセグメントを使用して、オファーのコンテンツをパーソナライズできるようになりました。 </p>
-<p>詳しくは、<a href="offers/offer-library/creating-personalized-offers.md#content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="offers/offer-library/creating-personalized-offers.md#custom-text">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

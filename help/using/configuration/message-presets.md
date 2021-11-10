@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1749'
 ht-degree: 57%
 
 ---
@@ -192,6 +192,10 @@ ht-degree: 57%
 
 変更が送信されると、メッセージプリセットは、次の場合と同じような検証サイクルを繰り返します。 [プリセットの作成](#create-message-preset).
 
+>[!NOTE]
+>
+>次の項目だけを編集する場合、 **[!UICONTROL 説明]**, **[!UICONTROL E メールのタイプ]** および/または **[!UICONTROL E メールの再試行パラメーター]** フィールドを指定すると、更新が即時に実行されます。
+
 メッセージプリセットの場合、 **[!UICONTROL アクティブ]** のステータスを確認すると、更新の詳細を確認できます。 この作業を行うには、以下の手順を実行します。
 
 * 次をクリック： **[!UICONTROL 最近の更新]** アクティブなプリセット名の横に表示されるアイコン。
@@ -214,13 +218,17 @@ ht-degree: 57%
 * **[!UICONTROL 成功]**:更新されたメッセージプリセットが検証され、メッセージを作成するために選択できます。
 * **[!UICONTROL 失敗]**:メッセージプリセットの更新の検証中に、1 つ以上のチェックが失敗しました。
 
-**Processing**
+各ステータスについては、以下で詳しく説明します。
 
-プリセットが正しく更新されたことを確認するために、いくつかの配信品質チェックが実行されます。 処理時間は約 **48h-72h**、および **7 ～ 10 営業日**. 検証サイクルで実行されたチェックの詳細については、 [この節](#create-message-preset).
+### Processing
+
+プリセットが正しく更新されたことを確認するために、いくつかの配信品質チェックが実行されます。
 
 >[!NOTE]
 >
->更新中は、メッセージプリセットを変更できません。 名前はクリックできますが、すべてのフィールドが灰色表示になっています。 変更は、更新が正常に完了するまで反映されません。
+>次の項目だけを編集する場合、 **[!UICONTROL 説明]**, **[!UICONTROL E メールのタイプ]** および/または **[!UICONTROL E メールの再試行パラメーター]** フィールドを指定すると、更新が即時に実行されます。
+
+処理時間は約 **48h-72h**、および **7 ～ 10 営業日**. 検証サイクルで実行されたチェックの詳細については、 [この節](#create-message-preset).
 
 既にアクティブなプリセットを編集する場合：
 
@@ -230,7 +238,11 @@ ht-degree: 57%
 
 * 検証プロセス中、このプリセットを使用して設定されたメッセージは、古いバージョンのプリセットを引き続き使用します。
 
-**成功**
+>[!NOTE]
+>
+>更新中は、メッセージプリセットを変更できません。 名前はクリックできますが、すべてのフィールドが灰色表示になっています。 変更は、更新が正常に完了するまで反映されません。
+
+### 成功
 
 検証プロセスが正常に完了すると、このプリセットを使用するすべてのメッセージで、新しいバージョンのプリセットが自動的に使用されます。 ただし、次の場合は待つ必要があります。
 * 単一メッセージで消費されるまで数分間
@@ -238,16 +250,16 @@ ht-degree: 57%
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**失敗**
+### Failed
 
 検証プロセスが失敗した場合でも、古いバージョンのプリセットが引き続き使用されます。
 
-更新エラーのタイプは次のとおりです。
-* **認証エラー**:bearer トークンが無効か、認証されていません。
-* **不正な変更**:1 つ以上の許可されていないフィールドに対して編集が実行されました。
-* **事前条件が失敗しました**:一部のフィールドは特定の値のみを持つことができ、これは有効ではありません。
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+考えられる失敗理由について詳しくは、 [この節](#monitor-message-presets).
 
 更新が失敗すると、プリセットが再び編集可能になります。 名前をクリックし、修正する必要のある設定を更新できます。
 
