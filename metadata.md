@@ -6,10 +6,10 @@ index: true
 product: Journey Optimizer
 solution: Journey Optimizer
 feature-set: Journey Optimizer
-solution-title: Journey Optimizer ドキュメント
+solution-title: Journey Optimizer Documentation
 source-git-commit: a01e38f9cb27dc2d745920faa28cddba5e31b1e6
-workflow-type: tm+mt
-source-wordcount: '133'
+workflow-type: ht
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # 社内用のメタデータ
 
-metadata.md ファイルにはリポジトリー内のユーザーガイド TOC.md ファイルから渡される repo-level メタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
+metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
 
 | メタデータ | 説明 |
 |--- |--- |
