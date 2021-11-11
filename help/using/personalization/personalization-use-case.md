@@ -7,13 +7,13 @@ role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# パーソナライゼーションの使用例：注文状況通知 {#personalization-use-case}
+# パーソナライゼーションのユースケース：注文ステータス通知 {#personalization-use-case}
 
 このユースケースでは、1 つのプッシュ通知メッセージで複数のタイプのパーソナライゼーションを使用する方法を確認できます。次の 3 種類のパーソナライゼーションが使用されます。
 
