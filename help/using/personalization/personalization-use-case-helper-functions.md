@@ -7,13 +7,13 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# パーソナライゼーションの使用例：買い物かご放棄の E メール {#personalization-use-case-helper-functions}
+# パーソナライゼーションのユースケース：買い物かごの放棄メール {#personalization-use-case-helper-functions}
 
 この例では、メールメッセージの本文をパーソナライズします。 このメッセージは、ショッピングカートに商品が残っているが購入を完了していない顧客をターゲットにします。
 
