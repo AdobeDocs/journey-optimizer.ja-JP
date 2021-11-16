@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1527'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # ユーザーインターフェイス {#cjm-user-interface}
 
-[Adobe Experience Cloud](http://experience.adobe.com?lang=ja) に接続したら、[!DNL Journey Optimizer] を参照します。
+接続先 [Adobe Experience Cloud](http://experience.adobe.com?lang=ja) を参照して、 [!DNL Journey Optimizer].
 
 ユーザーインターフェイスを参照する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}を参照してください。
 
