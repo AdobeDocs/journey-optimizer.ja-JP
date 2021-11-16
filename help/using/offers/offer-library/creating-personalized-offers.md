@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 94%
 オファーを作成する前に、以下が作成済みであることを確認してください。
 
 * オファーを表示する&#x200B;**プレースメント**。[プレースメントを作成](../offer-library/creating-placements.md)を参照してください。
-* 実施要件条件を追加する場合：a **決定ルール** これは、オファーの提示条件を定義します。 [決定ルールを作成](../offer-library/creating-decision-rules.md)を参照してください。
-* 1 つまたは複数 **タグ** を設定します。 [タグを作成](../offer-library/creating-tags.md)を参照してください。
+* 実施要件を追加する場合は、オファーの提示条件を定義する&#x200B;**決定ルール**。[決定ルールの作成](../offer-library/creating-decision-rules.md)を参照してください。
+* オファーに関連付ける 1 つまたは複数の&#x200B;**タグ**。[タグの作成](../offer-library/creating-tags.md)を参照してください。
 
 ➡️ [ビデオでこの機能を確認する](#video)
 

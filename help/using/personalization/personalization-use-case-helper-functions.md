@@ -7,7 +7,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
 
@@ -156,7 +156,6 @@ ht-degree: 100%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-
       この例では、*event_ID* はイベントの ID を表します。
 
       ![](../assets/personalization-uc-helpers-10.png)
@@ -170,7 +169,6 @@ ht-degree: 100%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 1. 次のコードを、`{{#each}}` 開始タグと `{/each}}` 終了タグの間に貼り付けます。
 
    ```html
@@ -209,7 +207,6 @@ ht-degree: 100%
       </table>
    {{/each}}
    ```
-
 1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
    ![](../assets/personalization-uc-helpers-11.png)
 
@@ -233,7 +230,6 @@ ht-degree: 100%
          {%else%} default_render
       {%/if%}
       ```
-
       ![](../assets/personalization-uc-helpers-12.png)
 
 1. 式から次の条件を削除します。
@@ -267,7 +263,6 @@ ht-degree: 100%
          {%else%} default_render
       {%/if%}
       ```
-
       ![](../assets/personalization-uc-helpers-13.png)
 
 1. 式を次のように変更します。
@@ -298,7 +293,6 @@ ht-degree: 100%
          {%else%} default_render
       {%/if%}
       ```
-
    1. 式から「default_render」プレースホルダーを削除します。
 1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 

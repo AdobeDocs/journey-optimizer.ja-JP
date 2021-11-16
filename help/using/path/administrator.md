@@ -67,5 +67,5 @@ As a **システム管理者**、 **製品プロファイルと権限の割り�
    ![](../assets/suppression-list-filtering-example.png)
 
    * この [許可リスト](../allow-list.md) では、特定のサンドボックスから送信される電子メールを受信する権限を持つ唯一の受信者またはドメインとなる、個々の電子メールアドレスまたはドメインを指定できます。 これにより、テスト環境で実際の顧客アドレスに誤ってメールを送信するのを防ぐことができます。方法を学ぶ [許可リスト](../allow-list.md).
-   での配信品質の管理の詳細を説明します [!DNL Adobe Journey Optimizer] [このページ](../deliverability.md).
+   での配信品質の管理の詳細を説明します。 [!DNL Adobe Journey Optimizer] [このページ](../deliverability.md).
 

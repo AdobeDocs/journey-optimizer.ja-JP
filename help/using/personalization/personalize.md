@@ -9,13 +9,13 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
-# パーソナライゼーションの概要{#add-personalization}
+# パーソナライゼーションの基本を学ぶ{#add-personalization}
 
-Discover [!DNL Adobe Journey Optimizer] パーソナライゼーション機能を使用して、メッセージに関するデータと情報を活用し、メッセージを特定の受信者に合わせて変更できます。 名前、興味、住んでいる場所、買ったものなどを指定できます。
+[!DNL Adobe Journey Optimizer] のパーソナライゼーション機能を理解すると、受信者に関するデータと情報を活用して、特定の受信者に合わせてメッセージを作成できます。名前、興味、住所、購入品などの情報です。
 
 ➡️ [メッセージをパーソナライズする方法については、こちらのビデオをご覧ください](#video-perso)
 

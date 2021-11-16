@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. [Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を開き、「**[!UICONTROL Adobe Experience Platform]**」を選択します。
+1. [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html) を開き、「**[!UICONTROL Adobe Experience Platform]**」を選択します。
 
    <!--![](../../assets/offers_admin_console.png)-->
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->ユーザー権限の管理方法について詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}を参照してください。
+>ユーザー権限の管理方法について詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}を参照してください。
 

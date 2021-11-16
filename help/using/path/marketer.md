@@ -5,7 +5,7 @@ level: Intermediate
 source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 52%
+ht-degree: 56%
 
 ---
 
@@ -28,7 +28,7 @@ As a **マーケター** または **ジャーニー実習者**&#x200B;に値を
 
    ![](../personalization/assets/perso_ee2.png)
 
-1. **アセットの作成と管理**. [!DNL Adobe Experience Manager Assets Essentials] は、メッセージの入力に使用できる、アセットの単一の一元的なリポジトリを提供します。 詳しくは、[この節](../assets-essentials.md)を参照してください。
+1. **アセットの作成と管理**. [!DNL Adobe Experience Manager Assets Essentials] は、メッセージへのアセットの入力に使用できる一元的なアセットリポジトリを提供します。詳しくは、[この節](../assets-essentials.md)を参照してください。
 
 1. **オファーの追加**. [!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。判定管理の詳細を説明します [この節](../../using/offers/get-started/starting-offer-decisioning.md).
 

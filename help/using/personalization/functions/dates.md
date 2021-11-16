@@ -38,7 +38,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## 現在の時間（ミリ秒）{#current-time}
 
-この `currentTimeInMillis` 関数は、エポックミリ秒単位で現在の時刻を取得するために使用されます。
+この `currentTimeInMillis` 関数は、エポックミリ秒単位で現在の時間を取得するために使用されます。
 
 **形式**
 

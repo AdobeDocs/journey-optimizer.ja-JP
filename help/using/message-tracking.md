@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 98%
 
 1. 変更を保存します。
 
-メッセージが送信されると、受信者がオプトアウトリンクをクリックした場合、直ちにオプトアウトされます。
+メッセージが送信されたあと、受信者がオプトアウトリンクをクリックした場合、すぐにオプトアウトされます。
 
 ## トラッキングの管理 {#manage-tracking}
 

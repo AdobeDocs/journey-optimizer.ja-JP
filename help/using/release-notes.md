@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1999'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 74%
 
 * **日付の書式設定に関する新しいヘルパー関数**  — 日付文字列の表現方法を指定できるようになりました。 [詳細情報](personalization/functions/dates.md#format-date)
 
-**決定管理**
+**意思決定管理**
 
 * **評価順序**  — 新しく改善された判定作成フローにより、判定オブジェクト間をよりシームレスに移動できるだけでなく、判定エンジンによるオファーコレクションの評価方法を完全に制御できます。 これには、個々に対して同時に評価されるコレクションや、コレクションの評価順序が含まれます。 [詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
@@ -134,7 +134,7 @@ ht-degree: 74%
 <tbody>
 <tr>
 <td>
-<p>レポートで新しい指標を使用できます。電子メールおよびプッシュメッセージのターゲット設定と除外は、ライブレポートとグローバルレポートの両方に表示されます。 </br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があります。 ダッシュボードのカスタマイズについて詳しくは、 <a href="reports/live-report.md">詳細なドキュメント。</a></p>
+<p>レポートで新しい指標を使用できます。メールおよびプッシュメッセージの「ターゲット」と「除外」がライブレポートとグローバルレポートの両方に表示されます。 </br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があります。 ダッシュボードのカスタマイズについて詳しくは、<a href="reports/live-report.md">詳細ドキュメント</a>を参照してください。</p>
 <p>メッセージ実行リストの新しい列に、メッセージ実行ごとのターゲットプロファイル数が表示されます。 </p>
 <p>詳しくは、<a href="message-monitoring.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -155,7 +155,7 @@ ht-degree: 74%
 <p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。 単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。 以前に作成したカスタムアクションは引き続き機能します。 </p>
 <p>コレクションについて詳しくは、<a href="building-journeys/collections.md">詳細なドキュメント</a>を参照してください。 </p>
 <p>filter 関数と intersect 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、コレクションのフィルタリングと比較でさらに多くのことを行えるようになります。</p>
-<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=ja">filter</a> 関数と <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> 関数のドキュメントを参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=ja">filter</a> 関数と <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=ja">intersect</a> 関数のドキュメントを参照してください。</p>
 </td>
 </tr>
 </tbody>

@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -61,9 +61,9 @@ ht-degree: 80%
     <p>ジャーニーの作成および実行方法を説明します
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">設定 [!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]</a> の設定
     </div>
-    <p>設定の主な手順を説明します [!DNL Journey Optimizer]
+    <p> [!DNL Journey Optimizer] の主な設定手順を説明します
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> へのアクセス付与
