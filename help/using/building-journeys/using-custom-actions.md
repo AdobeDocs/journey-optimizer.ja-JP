@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 >
 >ジャーニーでは URL の静的な部分を設定できませんが、カスタムアクションのグローバル設定では設定できます。[詳細情報](../action/about-custom-action-configuration.md)。
 
-フィールドとプレーンテキスト文字列を連結するには、高度な式エディターで文字列関数またはプラス記号（+）を使用します。プレーンテキスト文字列を一重引用符（&#39;）または二重引用符（&quot;）で囲みます。[詳細情報](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}。
+フィールドとプレーンテキスト文字列を連結するには、高度な式エディターで文字列関数またはプラス記号（+）を使用します。プレーンテキスト文字列を一重引用符（&#39;）または二重引用符（&quot;）で囲みます。[詳細情報](expression/expressionadvanced.md)。
 
 この表は、設定の例を示しています
 
@@ -61,7 +61,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 ## アクションパラメーター
 
-「**[!UICONTROL アクションパラメーター]**」セクションには、_「変数」_&#x200B;として定義されたメッセージパラメーターが表示されます。これらのパラメーターについては、この情報の取得先（例：イベント、データソース）を定義したり、値を手動で渡したり、高度なユースケースに高度な式エディターを使用したりできます。高度なユースケースとしては、データ操作などの関数の使用が考えられます。[Adobe Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}を参照してください。
+「**[!UICONTROL アクションパラメーター]**」セクションには、_「変数」_&#x200B;として定義されたメッセージパラメーターが表示されます。これらのパラメーターについては、この情報の取得先（例：イベント、データソース）を定義したり、値を手動で渡したり、高度なユースケースに高度な式エディターを使用したりできます。高度なユースケースとしては、データ操作などの関数の使用が考えられます。詳しくは、 [AdobeJourney Orchestrationドキュメント](expression/expressionadvanced.md).
 
 **関連トピック**
 

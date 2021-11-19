@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,6 @@ ht-degree: 100%
     ]
    }
    ```
-
 * テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。 ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。コレクションは、単一の要素でのみ送信できます。
 
 ## 一般的な手順 {#general-procedure}
@@ -132,7 +131,7 @@ ht-degree: 100%
 
    ![](../assets/uc-collection-4.png)
 
-配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=ja) 関数と [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=ja) 関数を使用しています。
+配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](functions/functionfilter.md) 関数と [intersect](functions/functionintersect.md) 関数を使用しています。
 
 ![](../assets/uc-collection-5.png)
 

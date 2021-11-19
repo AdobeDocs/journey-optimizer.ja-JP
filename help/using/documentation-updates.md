@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
+source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 87%
+source-wordcount: '771'
+ht-degree: 86%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 87%
 
 ## 2021年9月
 
-* [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html?lang=ja)、[getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html?lang=ja)、[inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html?lang=ja) の各関数のページが更新されました。
+* [sethours](building-journeys/functions/functionsethours.md)、[getListItem](building-journeys/functions/functiongetlistitem.md)、[inSegment](building-journeys/functions/functioninsegment.md) の各関数のページが更新されました。
 
-* [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=ja)、[intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=ja)、[toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html?lang=ja) の各関数が追加されました。
+* [filter](building-journeys/functions/functionfilter.md)、[intersect](building-journeys/functions/functionintersect.md)、[toDateOnly](building-journeys/functions/functiontodateonly.md) の各関数が追加されました。
 
-* dateOnly 日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja)
+* dateOnly 日付タイプが式エディターのドキュメントに追加されました。 [詳細情報](building-journeys/expression/data-types.md)
 
 * カスタムアクションのキャッシュ時間の詳細を追加しました。 [詳細情報](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 

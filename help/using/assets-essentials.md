@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # [!DNL Adobe Experience Manager Assets Essentials] の使用 {#experience-manager-assets}
 
 ## [!DNL Assets Essentials] の基本を学ぶ {#get-started-assets-essentials}
-
 
 [!DNL Adobe Experience Manager Assets Essentials] は、メッセージへのアセットの入力に使用できる一元的なアセットリポジトリを提供します。「**[!UICONTROL Assets]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。また、メールコンテンツをデザインする際に、アセットやフォルダーにアクセスすることもできます。 メールデザインについて詳しくは、[こちら](design-emails.md)を参照してください。
 

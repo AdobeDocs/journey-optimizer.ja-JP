@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 5%
+source-wordcount: '301'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 5%
 
       E メールアドレスを変更するには、以前にメッセージを公開しておく必要があります。
 
-   1. 式エディターで、式を入力して、購読者の E メールアドレスを取得します。 [詳細を読む](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}.
+   1. 式エディターで、式を入力して、購読者の E メールアドレスを取得します。 [詳細を読む](expression/expressionadvanced.md)。
 
       この例では、マップフィールドへの参照を含む式を示します。
 
@@ -49,7 +50,7 @@ ht-degree: 5%
 
       この例では、購読リストの名前はです。 `daily-email`. 電子メールアドレスは、 `subscribers` map：購読リストマップにリンクされています。
 
-      詳細を表示 [フィールドへの参照](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) 式内。
+      詳細を表示 [フィールドへの参照](expression/field-references.md) 式内。
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ ht-degree: 5%
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. ジャーニーを **[!UICONTROL 終了]** アクティビティ。
-
-
-
-

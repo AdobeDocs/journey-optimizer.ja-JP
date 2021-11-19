@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 93%
+source-wordcount: '1013'
+ht-degree: 92%
 
 ---
 
@@ -52,15 +52,15 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。[Adobe Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+>単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。詳しくは、 [AdobeJourney Orchestrationドキュメント](expression/expressionadvanced.md).
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
-単純なエディターでは、イベントカテゴリとデータソースカテゴリの下に、ジャーニーのプロパティカテゴリも表示されます。 このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれます。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得される情報です。 詳しくは、 [AdobeJourney Orchestrationドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html){target=&quot;_blank&quot;}
+単純なエディターでは、イベントカテゴリとデータソースカテゴリの下に、ジャーニーのプロパティカテゴリも表示されます。 このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれます。 これは、ジャーニー ID や発生した特定のエラーなど、ライブジャーニーからシステムによって取得される情報です。 詳しくは、 [AdobeJourney Orchestrationドキュメント](expression/journey-properties.md)
 
 ## データソースの条件 {#data_source_condition}
 
-これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントーに基づいて条件を定義できます。式エディターの使用方法については、[Adobe Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}を参照してください。 高度な式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。[このページ](../datasource/external-data-sources.md)を参照してください。
+これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントーに基づいて条件を定義できます。式エディターの使用方法については、「 [AdobeJourney Orchestrationドキュメント](expression/expressionadvanced.md). 高度な式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。[このページ](../datasource/external-data-sources.md)を参照してください。
 
 ![](../assets/journey50.png)
 

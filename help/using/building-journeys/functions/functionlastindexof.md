@@ -1,0 +1,48 @@
+---
+product: adobe campaign
+title: lastIndexOf
+description: lastIndexOf 関数の詳細
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 20%
+
+---
+
+# lastIndexOf {#lastIndexOf}
+
+2 番目のパラメータが最後に現れる（最初の引数内の）位置を返します。 一致するものがない場合は —1 を返します。
+
+## カテゴリ
+
+文字列
+
+## 関数の構文
+
+`lastIndexOf(<parameters>)`
+
+## パラメーター
+
+| パラメーター | タイプ |
+|-----------|------------------|
+| string | 文字列 |
+| 指定された値 | 文字列 |
+
+## 署名と戻り値の型
+
+`lastIndexOf(<string>,<string>)`
+
+整数を返します。
+
+## 例
+
+`lastIndexOf("Hello, "l")`
+
+3 を返します。
+
+説明:
+
+「Hello」で、「l」の最後の出現は位置 3 にあります。

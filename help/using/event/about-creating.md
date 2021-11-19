@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 99%
+source-wordcount: '1731'
+ht-degree: 98%
 
 ---
 
@@ -144,7 +144,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。キーは名前空間に関連付けられ（[この節](../event/about-creating.md#select-the-namespace)を参照）、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
-また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。詳しくは、 [Journey Orchestration文書](../building-journeys/expression/expressionadvanced.md).
 
 ## 条件の追加 {#add-a-condition}
 
@@ -152,7 +152,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
 イベントの条件は、イベントのペイロードで渡されたデータに基づいている場合にのみ指定できます。イベントレベルで定義された条件を、マーケターがキャンバス上で変更することはできません。目的は、このイベントを使用する際に、この条件を強化することです。例えば、買い物かごの値が小さすぎる場合に、マーケターが買い物かごの放棄イベントを使用しないようにするには、「買い物かごの値」イベントフィールドで条件を作成し、100 ドルを超える値を設定できます。
 
-イベントに条件を設定するには、単純な式エディターまたは高度な式エディターを使用できます。[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}を参照してください。
+イベントに条件を設定するには、単純な式エディターまたは高度な式エディターを使用できます。詳しくは、 [Journey Orchestration文書](../building-journeys/expression/expressionadvanced.md).
 
 例えば、特定のイベントタイプのイベントのみを処理し、他のタイプは無視する条件を定義できます。または、イベントが買い物かご放棄で、ペイロードに「買い物かごの値」フィールドが含まれている場合、買い物かごの値が 100 ドルを超えるときにのみイベントを処理するようイベント条件を定義できます。
 

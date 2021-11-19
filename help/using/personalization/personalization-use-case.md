@@ -1,15 +1,15 @@
 ---
-title: パーソナライゼーションのユースケース&colon; 注文ステータス通知
+title: パーソナライズ機能の使用例&コロン；注文ステータス通知
 description: プロファイル、Offer Decisioning およびコンテキスト情報を使用してメッセージをパーソナライズする方法を説明します
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 97%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 1. **コンテキスト**&#x200B;カテゴリを選択します。この項目は、ジャーニーでメッセージにコンテキストデータが渡された場合にのみ使用できます。「**Journey Orchestration**」をクリックします。次のコンテキスト情報が表示されます。
 
    * **イベント**：このカテゴリは、ジャーニーの&#x200B;**メッセージ**&#x200B;アクティビティの前に配置されたイベントのすべてのフィールドを再グループ化します。
-   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=ja#building-advanced-conditions-journeys?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、 [Journey Orchestration文書](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 

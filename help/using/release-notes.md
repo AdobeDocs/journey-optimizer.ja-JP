@@ -2,9 +2,9 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
+source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '1981'
 ht-degree: 78%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 78%
 <tr>
 <td>
 <p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
-<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+<p>Learn more in the <a href="building-journeys/functions/functionfilter.md">detailed documentation</a>.</p>>
 </td>
 </tr>
 </tbody>
@@ -155,7 +155,7 @@ ht-degree: 78%
 <p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。 単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。 以前に作成したカスタムアクションは引き続き機能します。 </p>
 <p>コレクションについて詳しくは、<a href="building-journeys/collections.md">詳細なドキュメント</a>を参照してください。 </p>
 <p>filter 関数と intersect 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、コレクションのフィルタリングと比較でさらに多くのことを行えるようになります。</p>
-<p><a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=ja">filter</a> 関数と <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=ja">intersect</a> 関数のドキュメントを参照してください。</p>
+<p><a href="building-journeys/functions/functionfilter.md">filter</a> 関数と <a href="building-journeys/functions/functionintersect.md">intersect</a> 関数のドキュメントを参照してください。</p>
 </td>
 </tr>
 </tbody>

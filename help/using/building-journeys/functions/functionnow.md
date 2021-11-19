@@ -1,0 +1,53 @@
+---
+product: adobe campaign
+title: now
+description: 関数の詳細を今すぐ表示
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 18%
+
+---
+
+# now {#now}
+
+現在の日付を日時形式で返します。 データタイプについて詳しくは、 [このページ](../expression/data-types.md).
+
+## カテゴリ
+
+日付
+
+## 関数の構文
+
+`now(<parameter>)`
+
+## パラメーター
+
+| パラメーター | 説明 |
+|--- |--- |
+| 文字列 |  |
+
+## 署名と戻り値の型
+
+`now()`
+
+`now("<timeZone id>")`
+
+dateTime を返します。
+
+## 例
+
+`now()`
+
+2019-06-03T06:30Z を返します。
+
+`toString(now())`
+
+「2019-06-03T06:30Z」を返します
+
+`now("Europe/Paris")`
+
+2019-06-03T08:30+02:00 を返します。

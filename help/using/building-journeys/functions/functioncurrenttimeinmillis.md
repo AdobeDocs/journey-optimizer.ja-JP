@@ -1,0 +1,41 @@
+---
+product: adobe campaign
+title: currentTimeInMillis
+description: 関数 currentTimeInMillis の詳細
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 12%
+
+---
+
+# currentTimeInMillis {#currentTimeInMillis}
+
+現在の時刻をエポックミリ秒単位で返します。
+
+## カテゴリ
+
+日付
+
+## 関数の構文
+
+`currentTimeInMillis()`
+
+## パラメーター
+
+この関数は、パラメーターを使用しません。
+
+## 署名と戻り値の型
+
+`currentTimeInMillis()`
+
+整数を返します。
+
+## 例
+
+`currentTimeInMillis()`
+
+「1544712617131」を返します。

@@ -1,0 +1,50 @@
+---
+product: adobe campaign
+title: split
+description: 関数の分割について説明します
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 19%
+
+---
+
+# split {#split}
+
+最初の引数文字列を区切り文字列（正規表現に使用できる 2 番目の引数文字列）で分割して、文字列（トークン）のリストを作成します。
+
+## カテゴリ
+
+文字列
+
+## 関数の構文
+
+`split(<parameters>)`
+
+## パラメーター
+
+| パラメーター | タイプ |
+|-----------|------------------|
+| 入力文字列 | 文字列 |
+| 区切り文字列 | 文字列 |
+
+## 署名と戻り値の型
+
+`split(<input string>, <separator string>)`
+
+listString を返します。
+
+## 例
+
+`split(["A_B_C"], "_")`
+
+戻り値 `["A","B","C"]`
+
+イベントフィールド「event.appVersion」の値の例：&quot;20.45.2.3434&quot;
+
+`split(@{event.appVersion}, "\\.")`
+
+戻り値 `["20", "45", "2", "3434"]`

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 ## カスタム待機{#custom}
 
-このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。[Journey Orchestration ドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=ja){target=&quot;_blank&quot;}を参照してください。 dateTimeOnly 形式について詳しくは、[Journey Orchestration ドキュメント](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。詳しくは、 [Journey Orchestration文書](expression/expressionadvanced.md). dateTimeOnly 形式について詳しくは、 [Journey Orchestration文書](expression/data-types.md).
 
 >[!NOTE]
 >
