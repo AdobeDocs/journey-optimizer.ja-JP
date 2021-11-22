@@ -2,7 +2,8 @@
 title: Journey Optimizer Get Started for Data Engineer
 description: データエンジニアとして、Journey Optimizerの使用方法の詳細を学ぶ
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 47%

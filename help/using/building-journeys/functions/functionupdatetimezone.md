@@ -5,7 +5,8 @@ description: 関数 updateTimeZone の詳細
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
+exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 7%

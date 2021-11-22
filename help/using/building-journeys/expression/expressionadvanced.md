@@ -5,7 +5,8 @@ description: 高度な式の作成方法を説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
+exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 84%

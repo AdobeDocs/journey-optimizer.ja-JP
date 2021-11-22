@@ -5,7 +5,8 @@ description: ジャーニーのプロパティについて説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 6%

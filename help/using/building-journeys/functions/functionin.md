@@ -5,7 +5,8 @@ description: の関数について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: d786f3d42515d65a6574f51b6cff4b85063a0126
+exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 23%

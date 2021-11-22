@@ -5,7 +5,8 @@ description: min 関数の詳細
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: d786f3d42515d65a6574f51b6cff4b85063a0126
+exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 8%

@@ -5,7 +5,8 @@ description: 条件付き命令について学ぶ
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: d786f3d42515d65a6574f51b6cff4b85063a0126
+exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%

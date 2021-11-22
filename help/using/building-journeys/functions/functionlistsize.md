@@ -5,7 +5,8 @@ description: 関数 listSize について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: d786f3d42515d65a6574f51b6cff4b85063a0126
+exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 34%

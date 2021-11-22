@@ -5,7 +5,8 @@ description: 関数 endWithIgnoreCase について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 18%

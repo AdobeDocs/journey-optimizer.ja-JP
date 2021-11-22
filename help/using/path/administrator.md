@@ -2,7 +2,8 @@
 title: Journey Optimizer Get Started for System Admin
 description: システム管理者として、Journey Optimizerの使用方法の詳細を学ぶ
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 21%
@@ -63,9 +64,7 @@ As a **システム管理者**、 **製品プロファイルと権限の割り�
 1. **抑制と許可リストの管理**:抑制と許可リストを使用して配信品質を向上させる
 
    * A [抑制リスト](../suppression-list.md) は、配信から除外する e メールアドレスで構成されます。これらの連絡先に送信すると、送信のレピュテーションと配信率が低下する可能性があるのでです。 無効なアドレス、一貫してソフトバウンスし、E メールの評判に悪影響を与える可能性のあるアドレス、E メールメッセージの 1 つに対してスパムの苦情を発行する受信者など、ジャーニーでの送信から自動的に除外されるすべての E メールアドレスを監視できます。 を管理する方法を学ぶ [抑制リスト](../configuration/manage-suppression-list.md) および [再試行](../configuration/retries.md).
-
    ![](../assets/suppression-list-filtering-example.png)
 
    * この [許可リスト](../allow-list.md) では、特定のサンドボックスから送信される電子メールを受信する権限を持つ唯一の受信者またはドメインとなる、個々の電子メールアドレスまたはドメインを指定できます。 これにより、テスト環境で実際の顧客アドレスに誤ってメールを送信するのを防ぐことができます。方法を学ぶ [許可リスト](../allow-list.md).
    での配信品質の管理の詳細を説明します。 [!DNL Adobe Journey Optimizer] [このページ](../deliverability.md).
-

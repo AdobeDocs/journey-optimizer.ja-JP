@@ -2,13 +2,13 @@
 title: Journey Optimizer Marketers はじめに
 description: ジャーニー実行者として、Journey Optimizerの操作方法の詳細を学ぶ
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 56%
 
 ---
-
 
 # マーケター向けスタートガイド
 
@@ -51,4 +51,3 @@ As a **マーケター** または **ジャーニー実習者**&#x200B;に値を
    ジャーニーの設計と実行方法を説明します [この節](../building-journeys/journey-gs.md)
 
 1. **メッセージとジャーニーの監視**. メッセージが正常に実行、送信、および配信されていることを確認するため、[!DNL Journey Optimizer] では、現在公開およびトリガーされているメッセージを監視する機能を提供しています。パフォーマンスの監視方法を学ぶ [この節](../message-monitoring.md).
-

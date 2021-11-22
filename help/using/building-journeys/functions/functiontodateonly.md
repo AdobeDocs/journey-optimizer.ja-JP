@@ -5,7 +5,8 @@ description: toDateOnly 関数の詳細
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 21%

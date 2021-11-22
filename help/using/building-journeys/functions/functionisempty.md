@@ -5,7 +5,8 @@ description: 関数 isEmpty について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 19%

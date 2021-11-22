@@ -5,7 +5,8 @@ description: 関数 avg の詳細
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 16%

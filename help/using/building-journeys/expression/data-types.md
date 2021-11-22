@@ -5,7 +5,8 @@ description: 高度な式でのデータ型について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 7%

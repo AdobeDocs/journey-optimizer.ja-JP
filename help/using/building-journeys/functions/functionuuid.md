@@ -5,7 +5,8 @@ description: 関数 uuid について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: ac3bc4e7-7097-4efb-a6f7-22aa00d01380
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 14%
