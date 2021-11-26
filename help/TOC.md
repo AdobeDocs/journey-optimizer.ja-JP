@@ -2,44 +2,44 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer ガイド
-user-guide-description: Journey Optimizer を使用すると、つながりのある、コンテキストに応じた、パーソナライズされたエクスペリエンスを顧客に提供できます
+user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Adobe Journey Optimizer Help {#using}
+# Adobe Journey Optimizer ヘルプ {#using}
 
 + [Journey Optimizer ドキュメント](ajo-home.md)
-+ 新着情報{#whats-new}
++ 新着情報 {#whats-new}
    + [リリースノート](using/release-notes.md)
-   + [最新の更新点](using/documentation-updates.md)
-+ はじめに{#get-started}
-   + [Journey Optimizer とは](using/get-started.md)
+   + [最新の更新内容](using/documentation-updates.md)
++ はじめに {#get-started}
+   + [Journey Optimizer について](using/get-started.md)
    + クイックスタート{#quick-start}
       + [概要](using/quick-start.md)
-      + [マーケターとして開始](using/path/marketer.md)
-      + [データエンジニアとして開始する](using/path/data-engineer.md)
-      + [管理者としての基本を学ぶ](using/path/administrator.md)
-      + [開発者としての基本を学ぶ](using/path/developer.md)
+      + [マーケター向けの基本を学ぶ](using/path/marketer.md)
+      + [データエンジニア向けの基本を学ぶ](using/path/data-engineer.md)
+      + [管理者向けの基本を学ぶ](using/path/administrator.md)
+      + [開発者向けの基本を学ぶ](using/path/developer.md)
    + [ユーザーインターフェイス](using/user-interface.md)
    + [制限事項](using/limitations.md)
 + メッセージ {#create-messages}
-   + [メッセージの概要](using/get-started-content.md)
+   + [メッセージの基本を学ぶ](using/get-started-content.md)
    + メッセージの作成 {#create-message}
       + [メッセージの作成](using/create-message.md)
       + [メールの作成](using/create-email.md)
       + [プッシュ通知の作成](using/create-push.md)
    + [アセットの追加と管理](using/assets-essentials.md)
    + メールのデザイン {#email-designer}
-      + [メールデザインの概要](using/design-emails.md)
-      + [UI でのメールコンテンツの設計](using/create-email-content.md)
-      + [メールコンテンツの読み込みまたはコーディング](using/existing-content.md)
-      + [電子メールデザイナーのコンテンツ用コンポーネントを使用する](using/content-components.md)
+      + [メールデザインの基本を学ぶ](using/design-emails.md)
+      + [UI でのメールコンテンツのデザイン](using/create-email-content.md)
+      + [メールコンテンツのインポートまたはコーディング](using/existing-content.md)
+      + [電子メールデザイナーのコンテンツ用コンポーネントの使用](using/content-components.md)
    + [リンクの追加とメッセージのトラッキング](using/message-tracking.md)
    + 検証と公開 {#create-message}
       + [プレビューと配達確認](using/preview.md)
@@ -47,14 +47,14 @@ ht-degree: 93%
       + [メッセージの公開](using/publish-manage-message.md)
    + [オプトアウトの管理](using/consent.md)
 + パーソナライゼーション{#personalization}
-   + [はじめに パーソナライゼーションの使用](using/personalization/personalize.md)
+   + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
    + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
    + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
    + ユースケース{#personalization-use-cases}
       + [注文ステータスの通知](using/personalization/personalization-use-case.md)
-      + [カート放棄メール](using/personalization/personalization-use-case-helper-functions.md)
+      + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
    + ヘルパー関数{#functions}
-      + [ヘルパー関数の概要](using/personalization/functions/functions.md)
+      + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
       + [集計関数](using/personalization/functions/aggregation.md)
       + [演算関数](using/personalization/functions/arithmetic-functions.md)
       + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
@@ -78,11 +78,11 @@ ht-degree: 93%
       + [テストプロファイル](using/building-journeys/creating-test-profiles.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + ジャーニーの作成{#create-journey}
-      + [ジャーニーの概要](using/building-journeys/journey-gs.md)
+      + [ジャーニーの基本を学ぶ](using/building-journeys/journey-gs.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-      + [タイムゾーン管理](using/building-journeys/timezone-management.md)
+      + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
    + アクティビティ {#about-journey-building}
       + [ジャーニーアクティビティについて](using/building-journeys/about-journey-activities.md)
@@ -95,7 +95,7 @@ ht-degree: 93%
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
       + [メッセージ](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
-      + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
+      + [Adobe Campaign v7/v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルの更新](using/building-journeys/update-profiles.md)
    + 式の作成 {#building-advanced-conditions-journeys}
@@ -133,7 +133,7 @@ ht-degree: 93%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + 日付 {#date}
-            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
@@ -150,14 +150,14 @@ ht-degree: 93%
          + リスト {#list}
             + [distinct](using/building-journeys/functions/functiondistinct.md)
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
-            + [フィルター](using/building-journeys/functions/functionfilter.md)
+            + [filter](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
-            + [交わる](using/building-journeys/functions/functionintersect.md)
+            + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
-         + Math {#math}
+         + 数学 {#math}
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + 文字列 {#string}
@@ -186,25 +186,25 @@ ht-degree: 93%
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
-      + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
+      + [Campaign v7/v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
-      + [購読者へのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-+ トラッキングと監視 {#reporting}
-   + [メッセージの監視](using/message-monitoring.md)
+      + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
++ トラッキングとモニタリング {#reporting}
+   + [メッセージのモニタリング](using/message-monitoring.md)
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
-      + [E メールライブレポート](using/reports/email-live-report.md)
+      + [メールライブレポート](using/reports/email-live-report.md)
       + [プッシュライブレポート](using/reports/push-live-report.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートダッシュボードへのアクセス](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
-      + [E メールグローバルレポート](using/reports/email-global-report.md)
+      + [メールグローバルレポート](using/reports/email-global-report.md)
       + [プッシュグローバルレポート](using/reports/push-global-report.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
-      + [ステップイベントフィールドリスト](using/reports/sharing-field-list.md)
-      + レガシーステップのイベントフィールド {#legacy-step-event-fields}
+      + [ステップイベントフィールドのリスト](using/reports/sharing-field-list.md)
+      + レガシーステップイベントのフィールド {#legacy-step-event-fields}
          + [レガシーフィールドについて](using/reports/sharing-legacy-fields.md)
          + [ジャーニーのフィールド](using/reports/sharing-journey-fields.md)
          + [共通フィールド](using/reports/sharing-common-fields.md)
@@ -213,15 +213,15 @@ ht-degree: 93%
          + [ID フィールド](using/reports/sharing-identity-fields.md)
       + [クエリの例](using/reports/query-examples.md)
    + 配信品質 {#deliverability}
-      + [配信品質の概要](using/deliverability.md)
+      + [配信品質の基本を学ぶ](using/deliverability.md)
       + [抑制リスト](using/suppression-list.md)
       + [許可リスト](using/allow-list.md)
-+ 決定管理 {#offer-decisioniong}
-   + 決定管理の基本を学ぶ {#get-started}
-      + [決定管理について](using/offers/get-started/starting-offer-decisioning.md)
++ 意志決定管理 {#offer-decisioniong}
+   + 意志決定管理の基本を学ぶ {#get-started}
+      + [意志決定管理について](using/offers/get-started/starting-offer-decisioning.md)
       + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
       + [オファーを作成および管理するための主要ステップ](using/offers/offer-library/key-steps.md)
-      + [ユースケース：E メールへのオファーの挿入](using/offers/offers-e2e.md)
+      + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
    + コンポーネントの作成 {#create-components}
       + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
@@ -235,15 +235,15 @@ ht-degree: 93%
    + 決定の作成と管理 {#create-manage-activities}
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
-      + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
-   + 決定管理レポートの作成 {#create-reports}
-      + [決定管理イベントの概要](using/offers/reports/get-started-events.md)
-      + [決定管理イベントの主な情報](using/offers/reports/key-information.md)
+      + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
+   + 意志決定管理レポートの作成 {#create-reports}
+      + [意志決定管理イベントの基本を学ぶ](using/offers/reports/get-started-events.md)
+      + [意志決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)
       + [エクスポートしたオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
-      + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
+      + [パーソナライズされたオファーのデータセット](using/offers/export-catalog/export-offers.md)
       + [決定データセット](using/offers/export-catalog/export-decisions.md)
       + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
       + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
@@ -300,35 +300,35 @@ ht-degree: 93%
    + [データセット](using/get-started-datasets.md)
    + [クエリ](using/get-started-queries.md)
 + 設定 {#get-started}
-   + [Journey Optimizer の設定の概要](using/configuration/get-started-configuration.md)
+   + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + メッセージの設定 {#configuration}
       + プッシュ通知の設定 {#push-config}
          + [プッシュ設定の基本を学ぶ](using/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push-configuration.md)
       + メールの設定 {#email-config}
          + サブドメインのデリゲート {#delegate-subdomains}
-            + [サブドメインデリゲーションの概要](using/configuration/about-subdomain-delegation.md)
+            + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
             + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
             + [デリゲートされたサブドメインへのアクセス](using/configuration/access-subdomains.md)
-            + [Google TXTレコードの追加](using/configuration/google-txt.md)
+            + [Google TXT レコードの追加](using/configuration/google-txt.md)
             + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
          + [IP プールの作成](using/configuration/ip-pools.md)
-         + メールアドレスの監視 {#monitor-reputation}
+         + メールアドレスのモニタリング {#monitor-reputation}
             + [抑制リストの管理](using/configuration/manage-suppression-list.md)
             + [再試行](using/configuration/retries.md)
-         + [E メールのメインアドレスの変更 ](using/configuration/primary-email-addresses.md)
+         + [プライマリメールアドレスの変更](using/configuration/primary-email-addresses.md)
       + [メッセージプリセットの作成](using/configuration/message-presets.md)
    + ジャーニーの設定 {#configure-journeys}
-      + [データソース、イベント、およびアクションの作成](using/configuration/about-data-sources-events-actions.md)
+      + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + [外部システムとの統合](using/configuration/external-systems.md)
       + イベント設定 {#events-journeys}
          + [一般原則](using/event/about-events.md)
          + 単一イベントの設定 {#unitary-events}
-            + [単一イベントの概要](using/event/about-creating.md)
+            + [単一イベントの基本を学ぶ](using/event/about-creating.md)
             + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
             + [Adobe Analytics の活用](using/event/about-analytics.md)
          + [ビジネスイベントの設定](using/event/about-creating-business.md)
-         + [イベントを送信するための追加手順](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+         + [イベントを送信するための手順](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
       + データソース設定{#data-source-journeys}
          + [データソースについて](using/datasource/about-data-sources.md)
          + [データソースの設定](using/datasource/configure-data-sources.md)
@@ -337,11 +337,11 @@ ht-degree: 93%
       + アクション設定 {#action-journeys}
          + [アクションについて](using/action/action.md)
          + [アクションの設定](using/action/about-custom-action-configuration.md)
-         + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
+         + [Adobe Campaign v7/v8 との統合](using/action/acc-action.md)
    + [ソース](using/get-started-sources.md)
 + アクセス制御 {#administration}
    + [アクセス制御の概要](using/administration/permissions-overview.md)
-   + [組み込みの製品プロファイル](using/administration/ootb-product-profiles.md)
+   + [ビルトインの製品プロファイル](using/administration/ootb-product-profiles.md)
    + [ユーザーと製品プロファイルの管理](using/administration/permissions.md)
    + [権限レベル](using/administration/high-low-permissions.md)
    + [サンドボックス管理](using/administration/sandboxes.md)
