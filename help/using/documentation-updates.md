@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 86%
+source-wordcount: '795'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,12 @@ ht-degree: 86%
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新点がすべてリストアップされています。
 
 
-## 2021年10月
+## 2021 年 11 月
+
+* ジャーニーで使用される高度な式エディターの詳細を説明できます。 [詳細情報](building-journeys/expression/expressionadvanced.md)
+* 新しい CNAME サブドメインのデリゲーション方法。 [詳細情報](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+
+## 2021 年 10 月
 
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2021 年 10 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * 追加済み **日付時間関数** リスト。 [詳細情報](personalization/functions/dates.md)

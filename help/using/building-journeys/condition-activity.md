@@ -6,21 +6,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
 # 条件アクティビティ{#section_e2n_pft_dgb}
 
-次の 4 種類の条件を使用できます。
+次のタイプの条件を使用できます。
 
 * [データソースの条件](#data_source_condition)
 * [時間条件](#time_condition)
 * [パーセンテージ分割](#percentage_split)
 * [日付条件](#date_condition)
+<!--
+* [Profile cap](#profile_cap)
+-->
 
 ![](../assets/journey49.png)
 
@@ -99,15 +102,15 @@ ht-degree: 92%
 <!--
 ## Profile cap {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
 
-You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+The default cap is 1000. You can set an integer value from 1 to 20,000.
 
-The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
 
-The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
 
 ![](../assets/profile-cap-condition.png)
 -->

@@ -5,48 +5,46 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
+source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
 workflow-type: tm+mt
-source-wordcount: '11'
-ht-degree: 0%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
 
-<!--
-# Use case: ramp up your deliveries
+# 使用例：配信を強化
 
-If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+最近別の電子メールサービスプロバイダー、IP アドレス、電子メールドメインまたはサブドメインに移動した場合は、送信者としてのレピュテーションを確立する必要があります。 そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに移動したりする可能性があります。 IP ウォーミングを使用して E メールの評判を高める方法については、 [配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}。
 
-To warm up your IP, you can gradually ramp up the number of your deliveries. Read more about [optimizing deliverability in Journey Optimizer](../deliverability.md).
+IP をウォームアップするには、配信数を徐々に増やすことができます。 詳細を表示 [Journey Optimizerでの配信品質の最適化](../deliverability.md).
 
-The purpose of this use case is to create a journey to ramp up your email deliveries. To configure this journey, follow these steps:
+この使用例の目的は、E メール配信を強化するジャーニーを作成することです。 このジャーニーを設定するには、次の手順に従います。
 
-1. Create a journey. [Read more](journey-gs.md).
+1. ジャーニーの作成. [詳細を読む](journey-gs.md)。
 
-1. Add a **[!UICONTROL Condition]** activity to the journey. [Read more](condition-activity.md).
+1. を追加します。 **[!UICONTROL 条件]** アクティビティをジャーニーに追加します。 [詳細を読む](condition-activity.md)。
 
-1. In the **[!UICONTROL Condition]** activity settings, set the maximum number of recipients for your delivery:
+1. 内 **[!UICONTROL 条件]** アクティビティの設定で、配信の最大受信者数を設定します。
 
-   1. In the **[!UICONTROL Condition]** activity settings, set the **[!UICONTROL Type]** field to **[!UICONTROL Profile cap]**. [Read more](condition-activity.md#profile_cap).
+   1. 内 **[!UICONTROL 条件]** アクティビティの設定を行うには、 **[!UICONTROL タイプ]** ～に向かって **[!UICONTROL プロファイルキャップ]**. [詳細を読む](condition-activity.md#profile_cap)。
 
-   1. Set the **[!UICONTROL Limit]** field to the maximum number of recipients for this delivery.
+   1. を **[!UICONTROL 制限]** フィールドに、この配信の最大受信者数を入力します。
 
-    ![](../assets/profile-cap-condition.png)
+   ![](../assets/profile-cap-condition.png)
 
-      You can gradually increase this limit up to the total number of your subscribers.
+   この制限は、購読者の合計数まで徐々に増やすことができます。
 
-1. Add a **[!UICONTROL Message]** activity to the first path after the **[!UICONTROL Condition]** activity.
+1. を追加します。 **[!UICONTROL メッセージ]** 次の呼び出し経路に対する活動 **[!UICONTROL 条件]** アクティビティ。
 
-    ![](../assets/ramp-up-deliveries-message.png)
+   ![](../assets/ramp-up-deliveries-message.png)
 
-    When the journey runs, the message is sent the selected recipients, up to the maximum number of recipients that you have specified. When this limit is reached, the selected recipients take the second path.
+   ジャーニーの実行時に、入力したプロファイルに対し、指定した最大数のプロファイルに対して、メッセージが送信されます。 この制限に達すると、入力するプロファイルは代替パスを取ります。
 
-1. Complete the journey with the activities of your choice.
+1. 選択したアクティビティでジャーニーを完了します。
 
-After your IP has warmed up, you can remove this condition.
+IP がウォームアップされたら、この条件を削除できます。
 
--->
 
 
 

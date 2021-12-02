@@ -2,16 +2,36 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 78%
+source-wordcount: '2077'
+ht-degree: 74%
 
 ---
 
 # リリースノート {#release-notes}
 
 このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、 [最新のドキュメントの更新](documentation-updates.md).
+
+## 2021 年 11 月リリース
+
+<table>
+<thead>
+<tr>
+<th><strong>CNAME サブドメインのデリゲーション</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerは CNAME をサポートするようになりました。 CNAME（正規名レコード）とは、IP アドレスではなく別のドメインアドレスを指すレコードです。 CNAME サブドメインデリゲーションを使用すると、サブドメインを作成し、CNAME を使用してAdobe固有のレコードを指定できます。 この設定を使用すると、ユーザーとAdobeの両方が、E メールの送信、レンダリング、トラッキングの環境を設定するために、DNS の維持に関する責任を共有します。</p>
+<p>組織のポリシーで完全なサブドメインデリゲーション方法が制限されている場合は、この方法をお勧めします。</p>
+<p>CNAME サブドメインのデリゲーションについて詳しくは、 <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">詳細なドキュメント</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2021 年 10 月リリース {#oct-2021-release}
 
@@ -81,7 +101,7 @@ ht-degree: 78%
 </table>
 
 
-関連トピック [Adobe Experience Platform 10 月のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+関連トピック [Adobe Experience Platform 10 月のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} を参照してください。
 
 ### 機能強化
 
