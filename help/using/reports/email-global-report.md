@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
+source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 78%
+source-wordcount: '654'
+ht-degree: 100%
 
 ---
 
@@ -91,32 +91,33 @@ ht-degree: 78%
 
 * **[!UICONTROL ユニーク開封数]**：配信されたメッセージを開いた受信者の数。
 
+<!--
 ![](../assets/global_report_20.png)
 
 >[!NOTE]
 >
->オファーウィジェットと指標は、決定が電子メールに挿入された場合にのみ使用できます。 決定管理について詳しくは、次を参照してください。 [ページ](../offers/get-started/starting-offer-decisioning.md).
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
 
-この **[!UICONTROL オファー統計]** および **[!UICONTROL オファー統計]** 時間の経過と共に、ウィジェットは、オファーの成功と、ターゲットオーディエンスへの影響を測定します。 KPI を使用して、メッセージに関する主な情報の詳細を示します。
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
 
-* **[!UICONTROL 送信されたオファー]**:オファーの送信の合計数。
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL オファーインプレッション]**:配信でオファーが開封された回数。
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
-* **[!UICONTROL オファークリック数]**:配信でオファーがクリックされた回数。
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
 
-この **[!UICONTROL 詳細な統計を提供します]** テーブルには、オファーを含む受信者アクティビティで使用可能なデータが含まれます。
+The **[!UICONTROL Offers detailed statistic]** table contains the available data for recipient activity with your offer:
 
-* **[!UICONTROL プレースメント名]**:オファーの表示に使用する配置の名前。 配置について詳しくは、 [ページ](../offers/offer-library/creating-placements.md).
+* **[!UICONTROL Placement name]**: Name of your placement used to display your offer. For more information on placement, refer to this [page](../offers/offer-library/creating-placements.md).
 
-* **[!UICONTROL オファー名]**:配信に追加されたオファーの名前。 配置について詳しくは、 [ページ](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offer name]**: Name of the offer added in the delivery. For more information on placement, refer to this [page](../offers/offer-library/creating-personalized-offers.md).
 
-* **[!UICONTROL 送信されたオファー]**:オファーの送信の合計数。
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL オファーインプレッション率]**:送信されたオファーの数に対する、開封されたオファーの割合。
+* **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
 
-* **[!UICONTROL オファークリック率]**:オファーでインタラクションをおこなったユーザーの割合。
-
+* **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
+-->
 >[!NOTE]
 >
 >「**[!UICONTROL 抑制]**」または「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](../building-journeys/read-segment.md)アクティビティと[メッセージ](../building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
