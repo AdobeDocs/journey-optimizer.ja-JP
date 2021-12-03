@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '883'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 100%
       + [メッセージの作成](using/create-message.md)
       + [メールの作成](using/create-email.md)
       + [プッシュ通知の作成](using/create-push.md)
+      + [SMS メッセージの作成](using/create-sms.md)
    + [アセットの追加と管理](using/assets-essentials.md)
    + メールのデザイン {#email-designer}
       + [メールデザインの基本を学ぶ](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 100%
       + [配信品質の基本を学ぶ](using/deliverability.md)
       + [抑制リスト](using/suppression-list.md)
       + [許可リスト](using/allow-list.md)
++ ランディングページ {#landing-pages}
+   + [ランディングページの概要](using/landing-pages/get-started-lp.md)
+   + [ランディングページの作成](using/landing-pages/create-lp.md)
+   + [ランディングページのデザイン](using/landing-pages/design-lp.md)
+   + [購読リストの作成](using/landing-pages/subscription-list.md)
+   + [ユースケース](using/landing-pages/lp-use-cases.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意志決定管理の基本を学ぶ {#get-started}
       + [意志決定管理について](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 100%
             + [抑制リストの管理](using/configuration/manage-suppression-list.md)
             + [再試行](using/configuration/retries.md)
          + [プライマリメールアドレスの変更](using/configuration/primary-email-addresses.md)
+      + [SMS チャネルの設定](using/configuration/sms-configuration.md)
       + [メッセージプリセットの作成](using/configuration/message-presets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)

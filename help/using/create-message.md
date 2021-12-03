@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ユーザーは、製品プロファイルに応じて、メッセージにアクセスしたり、メッセージを作成、編集および公開したりできます。 ユーザー権限の詳細については、 [この節](../using/administration/permissions.md)を参照してください。
+>ユーザーは、製品プロファイルに応じて、メッセージにアクセスしたり、メッセージを作成、編集および公開したりできます。 ユーザー権限の詳細については、 [この節](administration/permissions.md)を参照してください。
 
 ![](assets/messages-list.png)
 
@@ -43,15 +43,14 @@ ht-degree: 100%
 
    * **[!UICONTROL タイトル]**（必須）と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
+   * を選択します。 **[!UICONTROL メッセージカテゴリ]**:マーケティングまたはトランザクション。
+
    * メッセージに使用する&#x200B;**[!UICONTROL プリセット]**&#x200B;を選択します。
 
-      プリセットには、ブランドに従ってメールやプッシュ通知を送信するために必要な、すべてのパラメーターが含まれます。[プリセットの詳細](../using/configuration/message-presets.md)。
+      プリセットには、ブランドに従ってメールやプッシュ通知を送信するために必要な、すべてのパラメーターが含まれます。[プリセットの詳細](configuration/message-presets.md)。
 
    * そのメッセージに使用するチャネル（メールまたはプッシュ通知）を選択します。メッセージを作成するためには、少なくとも 1 つのチャンネルを選択する必要があります。
    メッセージインターフェイスの「**[!UICONTROL プロパティ]**」ボタンを使用すると、メッセージのタイトル、説明、プリセットにいつでもアクセスして変更できます。
-
-   ![](assets/message-properties.png)
-
 
 1. 「**[!UICONTROL 作成]**」をクリックして、メッセージの作成を確定します。メッセージが、（**[!UICONTROL ドラフト]**&#x200B;ステータスで）メッセージリストに追加されます。
 

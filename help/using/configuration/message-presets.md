@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
+source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
 workflow-type: tm+mt
 source-wordcount: '1751'
 ht-degree: 56%
@@ -105,6 +105,20 @@ ht-degree: 56%
    * 各プラットフォームで使用するモバイルアプリケーションを選択します。
 
       プッシュ通知を送信する環境の設定方法については、[この節](../push-gs.md)を参照してください。
+
+<!--
+1. Configure the **SMS** settings.
+
+     ![](../assets/preset-sms.png)
+
+    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
+    
+    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
