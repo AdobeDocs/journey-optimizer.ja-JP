@@ -7,10 +7,11 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 27%
+source-wordcount: '794'
+ht-degree: 23%
 
 ---
 
@@ -25,33 +26,65 @@ ht-degree: 27%
 
 ## サービスの購読 {#subscription-to-a-service}
 
-受信者にサービスを購読登録させる主な手順を以下に示します。
+最も一般的な使用例の 1 つは、顧客を [サービスを購読する](subscription-list.md) （ニュースレターやイベントなど）ランディングページを通じて。 主な手順は次のグラフに示します。
 
 ![](../assets/lp_subscription-uc.png)
 
-例えば、来月イベントを整理し、イベント登録キャンペーンを開始して、関心のある顧客をそのイベントで更新し続けたいとします。
+例えば、イベントを来月整理し、イベント登録キャンペーンを開始するとします<!--to keep your customers that are interested updated on that event-->. これをおこなうには、受信者がこのイベントに登録できるようにするランディングページへのリンクを含む E メールを送信します。 登録したユーザーは、この目的で作成した購読リストに追加されます。
 
-1. イベント登録の購読リストを作成します。 詳細情報： [購読リスト](subscription-list.md)
+### ランディングページの設定
 
-1. [ランディングページの作成](create-lp.md)：受信者がイベントに登録できるようにします。
+1. イベント登録の購読リストを作成します。このリストには、登録済みユーザーが格納されます。 購読リストの作成方法を説明します [ここ](subscription-list.md#define-subscription-list).
 
-1. 購読リストへのリンクを含む、登録ランディングページを設定およびデザインします。 ビルドの詳細 [プライマリランディングページ](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. 受信者が登録フォームを送信した後に表示する「ありがとうございます」ページを作成します。 詳細情報： [ランディングサブページ](create-lp.md#configure-subpages)
+1. [ランディングページの作成](create-lp.md) をクリックして、受信者がイベントに登録できるようにします。
 
-1. メールメッセージを作成します。詳細情報： [メッセージの作成](../create-message.md)
+1. 登録の設定 [プライマリランディングページ](create-lp.md#configure-primary-page).
 
-1. [リンクを挿入](../message-tracking.md#insert-links) メッセージに含めます。 選択 **[!UICONTROL ランディングページ]** を **[!UICONTROL リンクタイプ]** を選択し、 [ランディングページ](create-lp.md#configure-primary-page) 登録用に作成した
+1. を設計する際に [ランディングページコンテンツ](design-lp.md)「 」で、作成した購読リストを選択し、「登録」チェックボックスをオンにしたプロファイルで更新します。
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. 受信者が登録フォームを送信すると、受信者に表示される「ありがとうございました」ページを作成します。 ランディングサブページの設定方法を説明します [ここ](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [公開](create-lp.md#publish) ランディングページ
+
+1. [電子メールメッセージの作成](../create-message.md) イベントの登録が開始されました。
+
+1. [リンクを挿入](../message-tracking.md#insert-links) をメッセージコンテンツに追加します。 選択 **[!UICONTROL ランディングページ]** を **[!UICONTROL リンクタイプ]** を選択し、 [ランディングページ](create-lp.md#configure-primary-page) 登録用に作成した
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. コンテンツを保存し、[メッセージを公開](../publish-manage-message.md)します。
 
-1. 次を通じてメッセージを送信： [ジャーニー](../building-journeys/journey.md) イベントの登録をお知らせし、登録ランディングページへのトラフィックを促すために、
+1. 次を通じてメッセージを送信： [ジャーニー](../building-journeys/journey.md) をクリックして、登録ランディングページにトラフィックを誘導します。
 
-   受信者が E メールを受け取ったら、ランディングページへのリンクをクリックすると、「ありがとうございます」ページに移動し、購読リストに追加されます。
+   ![](../assets/lp_subscription-uc-journey.png)
 
-1. イベントに登録した受信者に確認 E メールを送信できます。 それには、 **[!UICONTROL セグメントの選定]** イベントを追加し、作成した購読リストをセグメントとして選択します。
+   受信者が E メールを受け取ると、ランディングページへのリンクをクリックすると、「ありがとうございました」ページに移動し、購読リストに追加されます。
+
+### 確認 E メールを送信 {#send-confirmation-email}
+
+また、イベントに登録した受信者に確認 E メールを送信することもできます。 それには、次の手順に従います。
+
+1. 別の [ジャーニー](../building-journeys/journey.md). ランディングページで **[!UICONTROL ジャーニーを作成]** 」ボタンをクリックします。 詳細情報 [ここ](create-lp.md#configure-primary-page)
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、「**[!UICONTROL セグメントを選定]**」アクティビティをキャンバスにドロップします。詳細情報 [ここ](../building-journeys/segment-qualification-events.md)
+
+1. をクリックします。 **[!UICONTROL セグメント]** 「 」フィールドで、作成した購読リストを選択します。
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. 選択した確認 E メールを選択し、ジャーニーを通じて送信します。
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+イベントに登録したすべてのユーザーに確認メールが送信されます。
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 

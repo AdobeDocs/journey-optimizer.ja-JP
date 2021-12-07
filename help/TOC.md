@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
+source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 98%
+source-wordcount: '890'
+ht-degree: 97%
 
 ---
 
@@ -227,6 +227,9 @@ ht-degree: 98%
    + [ランディングページのデザイン](using/landing-pages/design-lp.md)
    + [購読リストの作成](using/landing-pages/subscription-list.md)
    + [ユースケース](using/landing-pages/lp-use-cases.md)
+   + レポート {#lp-reporting}
+      + [ランディングページレポート](using/landing-pages/lp-report.md)
+      + [購読リストのレポート](using/landing-pages/subscription-report.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意志決定管理の基本を学ぶ {#get-started}
       + [意志決定管理について](using/offers/get-started/starting-offer-decisioning.md)
