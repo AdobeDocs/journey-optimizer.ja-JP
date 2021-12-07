@@ -1,20 +1,19 @@
 ---
-title: シミュレーションを作成
+title: シミュレーションの作成
 description: シミュレーションの作成方法を学ぶ
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-exl-id: null
-source-git-commit: bad206b6c9b48241dbbd7758a331d602fac466b4
+source-git-commit: 899b8b47d6c6121c19e485376de368358049c05f
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# シミュレーションを作成
+# シミュレーションの作成
 
 ## シミュレーションについて
 
