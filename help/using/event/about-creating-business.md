@@ -9,7 +9,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->また、ビジネスイベントの使用例を見ることもできます [チュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=ja)を視聴することもできます。
 
 ## 重要な注意事項
 
-* 時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。次のフィールドは、必要に応じて設定する必要があります。 `_id` および `timestamp`
+* 時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。フィールド `_id` および `timestamp` を必要に応じて設定する必要があります。
 * ビジネスイベントは、ジャーニーの最初のステップとしてのみドロップできます。
 * ビジネスイベントをジャーニーの最初のステップとしてドロップする場合、ジャーニーのスケジューラータイプは「ビジネスイベント」になります。
 * ビジネスイベントの後にドロップできるのは、読み取りセグメントアクティビティだけです。次のステップとして自動的に追加されます。
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 **具体化されたセグメントの過負荷を避けるためのガードレールとは何ですか？**
 
-オンショットビジネスイベントの場合、特定のジャーニーについて、最初のイベントジョブによってプッシュされたデータが 1 時間の時間枠で再利用されます。 スケジュールされたジャーニーの場合、ガードレールはありません。セグメントの詳細については、 [Adobe Experience Platform Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja).
+1 回限りのビジネスイベントの場合、特定のジャーニーについて、最初のイベントジョブによってプッシュされたデータが 1 時間の時間枠で再利用されます。スケジュールされたジャーニーの場合、ガードレールはありません。セグメントについて詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
 
 ## ビジネスイベントの概要
 
@@ -78,7 +78,7 @@ ht-degree: 91%
 
    ![](../assets/jo-event5-business.png)
 
-   時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。次のフィールドは、必要に応じて設定する必要があります。 `_id` および `timestamp`
+   時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。フィールド `_id` および `timestamp` を必要に応じて設定する必要があります。
 
    ![](../assets/test-profiles-4.png)
 
@@ -111,7 +111,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   > 次のフィールドが選択されていることを確認します。 `_id` および `timestamp`
+   > フィールド `_id` および `timestamp` が選択されていることを確認します。
 
 1. イベントから受け取るフィールドを選択します。これらは、ビジネスユーザーがジャーニーで活用するフィールドです。
 
@@ -135,4 +135,4 @@ ht-degree: 91%
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、にプッシュするイベントの設定を設計するのに役立ちます。 [!DNL Journey Optimizer]. [このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、[!DNL Journey Optimizer]にプッシュするイベントのセットアップを設計するのに役立ちます。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。

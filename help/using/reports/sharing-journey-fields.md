@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # ジャーニーのフィールド {#sharing-journey-fields}
 
-このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれます。
+このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれています。
 
 ## journeyID
 

@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -14,23 +14,23 @@ ht-degree: 84%
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新点がすべてリストアップされています。
 
 
-## 2021 年 11 月
+## 2021年11月
 
 * ジャーニーで使用される高度な式エディターの詳細を説明できます。 [詳細情報](building-journeys/expression/expressionadvanced.md)
 * 新しい CNAME サブドメインのデリゲーション方法。 [詳細情報](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
-## 2021 年 10 月
+## 2021年10月
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2021 年 10 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
-* 追加済み **日付時間関数** リスト。 [詳細情報](personalization/functions/dates.md)
-* 新規 **ユーザーのペルソナごとの「はじめに」の節**. 目標をより早く達成するには、独自の道を選んでください。 [詳細情報](quick-start.md)
-* 新規 **メッセージプリセットの編集** 」セクションに入力します。 [詳細情報](configuration/message-presets.md#edit-message-preset)
-* 新規 **PTR レコードを編集する** 」セクションに入力します。 [詳細情報](configuration/ptr-records.md#edit-ptr-record)
-* 新規 **メッセージプリセットの非アクティブ化** 」セクションに入力します。 [詳細情報](configuration/message-presets.md#edit-message-preset#deactivate-preset)
-* に追加された新しい制限 **決定管理 API 開発者ガイド** モバイルでサポートされていないオファー制約で [!DNL Experience Edge] ワークフロー。 [詳細情報](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
-* 新規 **シミュレーションを作成** 」セクションに入力します。 [詳細情報](offers/offer-activities/simulation.md)
-* 更新済み **決定範囲を追加** 」セクションに入力します。 [詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* 更新済み **表示域のコンテンツを定義する** 新しい [款](offers/offer-library/creating-personalized-offers.md#custom-text) カスタムテキストを定義し、パーソナライズする方法について説明します。 [詳細情報](offers/offer-library/creating-personalized-offers.md#content)
+* [!DNL Journey Optimizer] 10月21日リリースに含まれているすべての新機能と機能強化について詳しくは、ドキュメントを参照してください。[詳細情報](release-notes.md)
+* **日時関数**&#x200B;の一覧を追加しました。[詳細情報](personalization/functions/dates.md)
+* **ユーザーペルソナごとの「基礎知識」節**&#x200B;を新しく用意しました。目標をより早く達成するには、自分に合ったパスを選んでください。[詳細情報](quick-start.md)
+* **メッセージプリセットの編集**&#x200B;の節を新しく用意しました。[詳細情報](configuration/message-presets.md#edit-message-preset)
+* **PTR レコードの編集**&#x200B;の節を新しく用意しました。[詳細情報](configuration/ptr-records.md#edit-ptr-record)
+* **メッセージプリセットの非アクティブ化**&#x200B;の節を新しく用意しました。 [詳細情報](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* モバイル [!DNL Experience Edge] ワークフローでサポートされていないオファー制約に関する新しい制限事項が&#x200B;**意思決定管理 API 開発者ガイド**&#x200B;に追加されました。[詳細情報](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* **シミュレーションの作成**&#x200B;の節を新しく用意しました。[詳細情報](offers/offer-activities/simulation.md)
+* **決定範囲の追加**&#x200B;の節を更新しました。 [詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* カスタムテキストの定義とパーソナライズの方法に関する新しい[サブセクション](offers/offer-library/creating-personalized-offers.md#custom-text)を追加するなど、**表示域のコンテンツの定義**&#x200B;の節を更新しました。[詳細情報](offers/offer-library/creating-personalized-offers.md#content)
 
 ## 2021年9月
 

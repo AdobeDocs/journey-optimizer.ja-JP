@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: b5ce2ea81d4091b4fa9c09e83573f9043c5e55a8
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 最近別の電子メールサービスプロバイダー、IP アドレス、電子メールドメインまたはサブドメインに移動した場合は、送信者としてのレピュテーションを確立する必要があります。 そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに移動したりする可能性があります。
 
-IP をウォームアップするには、配信数を徐々に増やすことができます。 参照 [使用例](../building-journeys/ramp-up-deliveries-uc.md).
+IP をウォームアップするには、配信数を徐々に増やすことができます。 この[ユースケース](../building-journeys/ramp-up-deliveries-uc.md)を参照してください。
 
 ## プロファイルキャップ条件のタイプ {#profile_cap}
 
@@ -28,7 +28,7 @@ IP をウォームアップするには、配信数を徐々に増やすこと�
 
 この条件タイプを使用して、ジャーニーパスの最大プロファイル数を設定します。 この制限に達すると、入力するプロファイルは別のパスを取ります。
 
-この条件タイプを使用して、配信の量を増やすことができます。 参照 [使用例](../building-journeys/ramp-up-deliveries-uc.md).
+この条件タイプを使用して、配信の量を増やすことができます。 この[ユースケース](../building-journeys/ramp-up-deliveries-uc.md)を参照してください。
 
 デフォルトのキャップは 1000 です。 1 ～ 20,000 の整数値を設定できます。
 
@@ -46,13 +46,13 @@ IP をウォームアップするには、配信数を徐々に増やすこと�
 
 この使用例の目的は、E メール配信を強化するジャーニーを作成することです。 このジャーニーを設定するには、次の手順に従います。
 
-1. ジャーニーの作成. [詳細を読む](../building-journeys/journey-gs.md)。
+1. ジャーニーの作成. [詳細情報](../building-journeys/journey-gs.md)
 
-1. を追加します。 **[!UICONTROL 条件]** アクティビティをジャーニーに追加します。 [詳細を読む](../building-journeys/condition-activity.md)。
+1. を追加します。 **[!UICONTROL 条件]** アクティビティをジャーニーに追加します。 [詳細情報](../building-journeys/condition-activity.md)
 
 1. 内 **[!UICONTROL 条件]** アクティビティの設定で、配信の最大受信者数を設定します。
 
-   1. 内 **[!UICONTROL 条件]** アクティビティの設定を行うには、 **[!UICONTROL タイプ]** ～に向かって **[!UICONTROL プロファイルキャップ]**. [詳細を読む](profile-cap.md#profile_cap)。
+   1. 内 **[!UICONTROL 条件]** アクティビティの設定を行うには、 **[!UICONTROL タイプ]** ～に向かって **[!UICONTROL プロファイルキャップ]**. [詳細情報](profile-cap.md#profile_cap)
 
    1. を **[!UICONTROL 制限]** フィールドに、この配信の最大受信者数を入力します。
 

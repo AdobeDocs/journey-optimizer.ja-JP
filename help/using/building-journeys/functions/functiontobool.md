@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toBool
-description: toBool 関数について説明します。
+description: toBool 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,20 +9,20 @@ exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # toBool {#toBool}
 
-引数の値を、型に応じてブール値に変換します。
+引数の値をタイプに応じてブール値に変換します。
 
-* 元の文字列：文字列値をブール値として変換し、文字列値が「true」の場合は「true」、それ以外の場合は「false」を変換します。
-* 数値から：数値が 0 に等しくない場合は true 、それ以外の場合は false
+* 文字列から変換する場合：文字列値をブール値として変換します。文字列値が「true」の場合は true、それ以外の場合は false を返します。
+* 数値から変換する場合：数値が 0 に等しくない場合は true 、それ以外の場合は false を返します。
 
 ## カテゴリ
 
-コンバージョン
+変換
 
 ## 関数の構文
 
@@ -30,12 +30,12 @@ ht-degree: 13%
 
 ## パラメーター
 
-* decimal
-* ブール型
+* 小数
+* ブール値
 * 文字列
 * 整数
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `toBool(<decimal>)`
 

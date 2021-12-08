@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: フィルター
-description: 関数フィルターの詳細
+title: filter
+description: filter 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # フィルター{#filter}
 
-指定されたキー値の 1 つに一致する key 属性を持つオブジェクトを持つ listObject を返します。
+指定されたキー値の 1 つに一致するキー属性を持つオブジェクトで構成される listObject（オブジェクトリスト）を返します。
 
 ## カテゴリ
 
@@ -29,11 +29,11 @@ ht-degree: 10%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToFilter | listObject | フィルタ処理するオブジェクトのリスト。 フィールド参照にする必要があります。 |
+| listToFilter | listObject（オブジェクトリスト） | フィルタリングの対象となるオブジェクトリスト。 フィールド参照にする必要があります。 |
 | keyAttributeName | 文字列 | 指定されたリストのオブジェクト内の属性名。フィルタリングのキーとして使用されます |
-| keyValueList | list | フィルタリング用のキー値の配列 |
+| keyValueList | リスト | フィルタリングに使用するキー値の配列 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `filter(listObject, string, listString)`
 
@@ -55,7 +55,7 @@ listObject を返します。
 
 ## 例
 
-次に、受信イベント「myevent」で渡されるペイロードの例を示します。
+受信イベント「myevent」で渡されるペイロードの例を次に示します。
 
 ```json
 "productListItems": [{
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-「product2」と「product3」を id として持つ 2 つのオブジェクトを含む listObject を返します。
+「product2」と「product3」を id とする 2 つのオブジェクトから成る listObject を返します。

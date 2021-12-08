@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: serializeList
-description: serializeList 関数について説明します。
+description: serializeList 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
 # serializeList {#serializeList}
 
-最初のパラメータで指定されたリスト（任意の型）を文字列に変換します。 2 番目のパラメーターは、使用する区切り文字を表します。 3 番目のパラメーターは、式の各要素に引用符を含める必要があるかどうかを示すブール値です。
+最初のパラメーターで指定されたリスト（任意のタイプ）を文字列に変換します。 2 番目のパラメーターは、使用する区切り文字を表します。 3 番目のパラメーターは、式の各要素に引用符を含めるかどうかを示すブール値です。
 
 ## カテゴリ
 
@@ -30,8 +30,8 @@ ht-degree: 22%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| Boolean | ブール値 |
-| DateTimeOnly | DateTimeOnly |
+| ブール値 | ブール値 |
+| 日時のみ | 日時のみ |
 | リスト | listString |
 | リスト | listBoolean |
 | リスト | listPoint |
@@ -41,7 +41,7 @@ ht-degree: 22%
 | リスト | listDateTimeOnly |
 | リスト | listDateOnly |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 

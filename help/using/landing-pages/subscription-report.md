@@ -7,7 +7,8 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
+source-git-commit: 1a2c87866404201ea4693ed58efe302b83db9efa
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -57,4 +58,3 @@ ht-degree: 0%
 ![](../assets/subscription_report_2.png)
 
 この **購読 — 分類** および **配信停止 — 分類** は、メッセージ、ランディングページおよびチャネルに応じて、選択した期間に購読または購読解除したユーザーの合計数を表します。
-

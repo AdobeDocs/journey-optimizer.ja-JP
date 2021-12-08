@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastHours
-description: inLastHours 関数の詳細
+description: inLastHours 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
 # inLastHours {#inLastHours}
 
-指定された日付時間が現在と現在の間にある場合は、true を返します（差分時間）。
+指定された日時が現在の日時とその delta 時間前の間にある場合、true を返します。
 
 ## カテゴリ
 
@@ -29,10 +29,10 @@ ht-degree: 20%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
-| デルタ | 整数 |
+| 日時 | 日時 |
+| delta | 整数 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `inLastHours(<dateTime>,<integer>)`
 

@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-1. 選択 **[!UICONTROL ランキング式]** ランキングメソッドとして「 」を選択し、 **[!UICONTROL ランキングを追加]**.
+1. ランキング方法として「**[!UICONTROL ランキング式]**」を選択し、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,7 +74,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-1. オファーのランク付けの基準を選択 **[!UICONTROL AI ランキング]** ドロップダウンリストから、 **[!UICONTROL ランキングを追加]**.
+1. オファーのランキング方法として「**[!UICONTROL AI ランキング]** 」をドロップダウンリストから選択して、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
    ![](../../assets/ranking-selection-ai-ranking.png)
 

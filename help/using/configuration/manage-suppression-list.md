@@ -186,7 +186,6 @@ Removed from the table provided by SparkPost/Momentum:
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-
    このテンプレートは、**[!UICONTROL 抑制リスト]**&#x200B;のメインビューからダウンロードすることもできます。
 
    >[!CAUTION]

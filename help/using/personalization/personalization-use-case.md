@@ -1,6 +1,6 @@
 ---
-title: パーソナライズ機能の使用例&コロン；注文ステータス通知
-description: プロファイル、Offer Decisioning およびコンテキスト情報を使用してメッセージをパーソナライズする方法を説明します
+title: パーソナライゼーションユースケース：注文ステータス通知
+description: プロファイル、オファー決定およびコンテキスト情報を使用してメッセージをパーソナライズする方法を説明します
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 1. **コンテキスト**&#x200B;カテゴリを選択します。この項目は、ジャーニーでメッセージにコンテキストデータが渡された場合にのみ使用できます。「**Journey Orchestration**」をクリックします。次のコンテキスト情報が表示されます。
 
    * **イベント**：このカテゴリは、ジャーニーの&#x200B;**メッセージ**&#x200B;アクティビティの前に配置されたイベントのすべてのフィールドを再グループ化します。
-   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、 [Journey Orchestration文書](../building-journeys/expression/journey-properties.md).
+   * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、[Journey Orchestration ドキュメント](../building-journeys/expression/journey-properties.md)を参照してください。
 
    ![](assets/perso-uc10.png)
 

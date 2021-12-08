@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: listSize
-description: 関数 listSize について説明します。
+description: listSize 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
 # listSize {#listSize}
 
-リスト内の要素数をカウントします。
+リスト内の要素の数をカウントします。
 
 ## カテゴリ
 
@@ -38,7 +38,7 @@ ht-degree: 34%
 | リスト | listDateTimeOnly |
 | リスト | listDateOnly |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `listSize(<listInteger>)`
 

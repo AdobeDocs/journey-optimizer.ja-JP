@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDateTimeOnly
-description: toDateTime 関数の詳細
+description: toDateTime 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,17 +9,17 @@ exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-引数の値を日時のみの値に変換します。
+引数値を日時のみの値に変換します。
 
 ## カテゴリ
 
-コンバージョン
+変換
 
 ## 関数の構文
 
@@ -29,10 +29,10 @@ ht-degree: 16%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| ISO-8601 または「YYYY-MM-DD」形式の日時（XDM 日付形式） | 文字列 |
-| 日時 | dateTime |
+| ISO-8601 形式つまり「YYYY-MM-DD」形式（XDM 日付形式）の日時 | 文字列 |
+| 日時 | 日時 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `toDateTimeOnly(<dateTime>)`
 
@@ -40,13 +40,13 @@ ht-degree: 16%
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-タイムゾーンを考慮せずに、日時を返します。
+タイムゾーンを無視して日時を返します。
 
 ## 例
 
 `toDateTimeOnly ("2016-08-18")`
 
-は、2016-08-18T00を表す dateTime を返します:00:00.000
+2016-08-18T00:00:00.000 を表す日時を返します。
 
 `toDateTimeOnly(now())`
 

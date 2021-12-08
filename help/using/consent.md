@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
    ![](assets/opt-out-link-type.png)
 
-1. 内 **[!UICONTROL リンク]** 「 」フィールドに、ランディングページへのリンクを貼り付けます。
+1. 「**[!UICONTROL リンク]**」フィールドに、ランディングページへのリンクを貼り付けます。
 
    ![](assets/opt-out-link-url.png)
 
@@ -145,7 +145,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 メッセージコンテンツにオプトアウトリンクを追加する方法については、[この節](message-tracking.md#one-click-opt-out-link)を参照してください。
 
-メッセージが [ジャーニー](building-journeys/journey.md)受信者がオプトアウトリンクをクリックすると、そのユーザーのプロファイルは直ちにオプトアウトされます。
+メッセージが[ジャーニー](building-journeys/journey.md)から送信された後、受信者がオプトアウトリンクをクリックすると、受信者のプロファイルは直ちにオプトアウトされます。
 
 ## ヘッダーの購読解除リンク {#unsubscribe-email}
 

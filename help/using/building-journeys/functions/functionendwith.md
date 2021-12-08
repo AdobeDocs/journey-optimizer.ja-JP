@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: endWith
-description: endWith 関数の詳細
+description: endWith 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: ae54c127-9de2-42fd-942c-664d2cfe66d2
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 # endWith {#endWith}
 
-2 番目のパラメーターが最初のパラメーターのサフィックスの場合は true を返します。
+2 番目のパラメーターが最初のパラメーターの末尾にある場合、true を返します。
 
 ## カテゴリ
 
@@ -30,9 +30,9 @@ ht-degree: 25%
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| サフィックス | 文字列 |
+| 末尾の文字列 | 文字列 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `endWith(<string>,<string>)`
 

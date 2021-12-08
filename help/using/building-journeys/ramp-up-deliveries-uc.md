@@ -1,6 +1,6 @@
 ---
-title: 配信のランプアップ
-description: 配信を強化する方法を説明します
+title: 配信の増強
+description: 配信を増強する方法を説明します
 feature: Journeys
 topic: Content Management
 role: User
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -21,13 +21,13 @@ IP をウォームアップするには、配信数を徐々に増やすこと�
 
 この使用例の目的は、E メール配信を強化するジャーニーを作成することです。 このジャーニーを設定するには、次の手順に従います。
 
-1. ジャーニーの作成. [詳細を読む](journey-gs.md)。
+1. ジャーニーの作成. [詳細情報](journey-gs.md)
 
-1. を追加します。 **[!UICONTROL 条件]** アクティビティをジャーニーに追加します。 [詳細を読む](condition-activity.md)。
+1. を追加します。 **[!UICONTROL 条件]** アクティビティをジャーニーに追加します。 [詳細情報](condition-activity.md)
 
 1. 内 **[!UICONTROL 条件]** アクティビティの設定で、配信の最大受信者数を設定します。
 
-   1. 内 **[!UICONTROL 条件]** アクティビティの設定を行うには、 **[!UICONTROL タイプ]** ～に向かって **[!UICONTROL プロファイルキャップ]**. [詳細を読む](condition-activity.md#profile_cap)。
+   1. 内 **[!UICONTROL 条件]** アクティビティの設定を行うには、 **[!UICONTROL タイプ]** ～に向かって **[!UICONTROL プロファイルキャップ]**. [詳細情報](condition-activity.md#profile_cap)
 
    1. を **[!UICONTROL 制限]** フィールドに、この配信の最大受信者数を入力します。
 

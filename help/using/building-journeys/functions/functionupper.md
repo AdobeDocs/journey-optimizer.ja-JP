@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: upper
-description: 関数 upper の詳細
+description: upper 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 09e11d52-2d52-4479-b67f-6dd53b00a861
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '28'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
 # upper {#upper}
 
-パラメーターの大文字のバージョンを返します。
+パラメーターを大文字にしたものを返します。
 
 ## カテゴリ
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 
 `upper(<parameters>)`
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `upper(<string>)`
 

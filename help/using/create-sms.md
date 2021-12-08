@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 6bd3d4e389c9b4bd2ac0c881d990ce7870ad180e
+exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
+source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 20%
@@ -44,7 +45,7 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
 1. メッセージの準備が整ったら、パブリッシュして、 **[!UICONTROL 公開]** 」ボタンをクリックします。 このアクションは、ジャーニーでの次回の実行に使用されるメッセージの新しいバージョンを公開します。
 
-Your SMS message can now be used in a journey. [Learn how to create journeys](building-journeys/journey-gs.md).
+SMS メッセージをジャーニーで使用できるようになりました。 [ジャーニーの作成方法を説明します](building-journeys/journey-gs.md).
 
 **関連トピック**
 

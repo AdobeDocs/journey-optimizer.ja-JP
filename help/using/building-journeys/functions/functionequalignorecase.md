@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: equalIgnoreCase
-description: equalIgnoreCase 関数の詳細
+description: equalIgnoreCase 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: b74ef5c9-0202-4a69-8870-77004a4397e0
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-最初の引数文字列と 2 番目の引数文字列を比較し、大文字と小文字を区別しません。
+大文字と小文字を区別せずに、最初の引数文字列と 2 番目の引数文字列を比較します。
 
 ## カテゴリ
 
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 * 文字列
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `equalIgnoreCase(<string>,<string>)`
 

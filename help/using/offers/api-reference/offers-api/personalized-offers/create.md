@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 制限事項 {#limitations}
 
-一部のオファー制約は、現在、モバイルではサポートされていません [!DNL Experience Edge] ワークフロー、例 `Capping`. この `Capping` フィールド値は、すべてのユーザーに対して 1 つのオファーを提示できる回数を指定します。 詳しくは、 [オファー実施要件ルールと制約に関するドキュメント](../../../offer-library/creating-personalized-offers.md).
+`Capping` など、一部のオファー制約は現在、モバイル [!DNL Experience Edge] ワークフローではサポートされていません。`Capping` フィールド値は、1 つのオファーをすべてのユーザーに対して提示できる回数を指定します。詳しくは、[オファーの実施要件ルールと制約に関するドキュメント](../../../offer-library/creating-personalized-offers.md)を参照してください。

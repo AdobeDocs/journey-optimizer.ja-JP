@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 96%
 
 互換性のあるプレースメントを選択したときは、テキストタイプのコンテンツを挿入することもできます。 
 
-1. を選択します。 **[!UICONTROL カスタム]** オプションを選択し、 **[!UICONTROL コンテンツを追加]**.
+1. 「**[!UICONTROL カスタム]**」オプションを選択し、「**[!UICONTROL コンテンツを追加]**」をクリックします。
 
    ![](../../assets/offer-add-content.png)
 
@@ -128,17 +128,17 @@ ht-degree: 96%
    >
    >このオプションは、画像タイプのプレースメントには使用できません。
 
-1. オファーに表示するテキストを入力します。
+1. オファーに表示されるテキストを入力します。
 
    ![](../../assets/offer-text-content.png)
 
-   式エディターを使用して、コンテンツをパーソナライズできます。 詳細情報： [パーソナライズ](../../personalization/personalize.md#use-expression-editor).
+   式エディターを使用して、コンテンツをパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
 
    ![](../../assets/offer-personalization.png)
 
    >[!NOTE]
    >
-   >次の項目のみ **[!UICONTROL プロファイル属性]**, **[!UICONTROL セグメントのメンバーシップ]** および **[!UICONTROL ヘルパー関数]** ソースは、決定管理で使用できます。
+   >意思決定管理に使用できるソースは、**[!UICONTROL プロファイル属性]**、**[!UICONTROL セグメントメンバーシップ]**&#x200B;および&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
 
 ## 実施要件ルールと制約の追加 {#eligibility}
 

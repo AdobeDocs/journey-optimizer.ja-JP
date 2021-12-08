@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinct
-description: 個別関数の詳細
+description: distinct 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 18%
 | リスト | listDateTimeOnly |
 | リスト | listDateOnly |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `distinct(<listInteger>)`
 
@@ -54,7 +54,7 @@ ht-degree: 18%
 
 `distinct(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに、日時のリストを返します。
+タイムゾーンを考慮しない日時のリストを返します。
 
 `distinct(<listDateTime>)`
 
@@ -76,4 +76,4 @@ ht-degree: 18%
 
 `distinct([10,2,10,null])`
 
-戻り値 `[10, 2]`.
+`[10, 2]` を返します。

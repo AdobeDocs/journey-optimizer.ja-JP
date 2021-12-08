@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 67ec0951a06bf8c7806f6c8b996cce26e3eddfb6
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 53%
 
 組織に基づいて、複数のタイプのユーザーを定義し、ユーザーの権限に応じて特定の機能に対するアクセス権をユーザーに付与できます。
 
-最初は [!DNL Journey Optimizer]? 特定の質問を持つ経験豊富なユーザー 会社インスタンスの管理者ですか？ 目標をより早く達成するには、独自の道を選んでください。
+[!DNL Journey Optimizer] を使い始めたばかりでも、具体的な質問を抱えた経験豊富なユーザーでも、会社のインスタンスの管理者でも、目標をより早く達成するには、自分に合ったパスを選んでください。
 
-ステップバイステップのガイダンスを使用してAdobe Journey Optimizerの機能を学び発見するには、プロファイルを選択します。
+ステップバイステップ方式のガイダンスを使用して Adobe Journey Optimizer の機能を習得し確認するには、プロファイルを選択します。
 
 <table>
 <tr>
@@ -30,8 +30,8 @@ ht-degree: 53%
       <img alt="管理者" src="../using/assets/do-not-localize/user-2.png" />
     </a>
     <div>
-    <a href="path/administrator.md">管理者です</a>
-     <p>環境の準備、アクセス権の付与、設定の構成
+    <a href="path/administrator.md">管理者の場合</a>
+     <p>環境を準備し、アクセス権を付与し、設定を指定します
     <p>
     </div>
     <br>
@@ -41,8 +41,8 @@ ht-degree: 53%
       <img alt="データエンジニア" src="../using/assets/do-not-localize/user-1.png"/>
     </a>
     <div>
-    <a href="path/data-engineer.md">データエンジニアです</a>
-     <p>プロファイルのインポート、オーディエンスの構築、スキーマおよびデータセットの作成
+    <a href="path/data-engineer.md">データエンジニアの場合</a>
+     <p>プロファイルをインポートし、オーディエンスを作成し、スキーマとデータセットを作成します
     <p>
     </div>
     <br>
@@ -51,8 +51,8 @@ ht-degree: 53%
       <a href="path/marketer.md">
        <img alt="マーケター" src="../using/assets/do-not-localize/user-3.png" />
        </a>
-    <div><a href="path/marketer.md">マーケター</a>
-     <p>メッセージの設計、オファー、アセットの追加、カスタマージャーニーの構築
+    <div><a href="path/marketer.md">マーケターの場合</a>
+     <p>メッセージを設計し、オファーとアセットの追加し、カスタマージャーニーを構築します
     <p>
     </div>
     <br>

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lower
-description: lower 関数の詳細
+description: lower 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # lower {#lower}
 
-パラメーターの小文字バージョンを返します。
+パラメーターを小文字にしたものを返します。
 
 ## カテゴリ
 
@@ -29,7 +29,7 @@ ht-degree: 23%
 
 * 文字列
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `lower(<string>)`
 

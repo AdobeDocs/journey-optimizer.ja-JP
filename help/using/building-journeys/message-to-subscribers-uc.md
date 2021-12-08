@@ -1,6 +1,6 @@
 ---
 title: 購読者へのメッセージの送信
-description: リストの購読者にメッセージを送信するジャーニーを構築する方法を説明します
+description: ジャーニーを作成してリスト上の購読者にメッセージを送信する方法を説明します
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,33 +9,33 @@ exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# リストの購読者にメッセージを送信
+# リスト上の購読者に対するメッセージの送信
 
-この使用例の目的は、リストの購読者にメッセージを送信するジャーニーを作成することです。
+このユースケースの目的は、ジャーニーを作成してリスト上の購読者にメッセージを送信することです。
 
-この例では、 **[!UICONTROL 同意および環境設定の詳細]** フィールドグループから [!DNL Adobe Experience Platform] が使用されます。 このフィールドグループを検索するには、 **[!UICONTROL データ管理]** メニュー、選択 **[!UICONTROL スキーマ]**. の **[!UICONTROL フィールドグループ]** 「 」タブで、検索フィールドにフィールドグループの名前を入力します。
+この例では、[!DNL Adobe Experience Platform] の「**[!UICONTROL 同意と環境設定の詳細]**」フィールドグループを使用します。このフィールドグループを見つけるには、 **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択します。「**[!UICONTROL フィールドグループ]**」タブで、検索フィールドにフィールドグループの名前を入力します。
 
-![このフィールドグループには購読要素が含まれます](../assets/consent-and-preference-details-field-group.png)
+![このフィールドグループにはサブスクリプション要素が含まれています](../assets/consent-and-preference-details-field-group.png)
 
 このジャーニーを設定するには、次の手順に従います。
 
-1. 次で始まるジャーニーの作成： **[!UICONTROL 読み取り]** アクティビティ。 [詳細を読む](journey-gs.md)。
-1. を追加します。 **[!UICONTROL メッセージ]** アクティビティをジャーニーに送信します。 [詳細を読む](journeys-message.md)。
-1. 内 **[!UICONTROL E メールパラメーター]** セクション **[!UICONTROL メッセージ]** アクティビティの設定で、デフォルトの電子メールアドレス (`PersonalEmail.adress`) にリスト購読者の電子メールアドレスを入力します。
+1. **[!UICONTROL 読み取り]**&#x200B;アクティビティで始まるジャーニーを作成します。[詳細情報](journey-gs.md)
+1. **[!UICONTROL メッセージ]**&#x200B;アクティビティとメールをジャーニーに追加します。[詳細情報](journeys-message.md)
+1. **[!UICONTROL メッセージ]**&#x200B;アクティビティ設定の「**[!UICONTROL メールパラメーター]**」セクションで、デフォルトのメールアドレス（`PersonalEmail.adress`）をリスト上の購読者のメールアドレスに置き換えます。
 
-   1. 次をクリック： **[!UICONTROL パラメーターの上書きを有効にする]** アイコン **[!UICONTROL 住所]** フィールドに値を入力し、 **[!UICONTROL 編集]** アイコン
+   1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、「**[!UICONTROL 編集]**」アイコンをクリックします。
 
       ![](../assets/message-to-subscribers-uc-1.png)
 
-      E メールアドレスを変更するには、以前にメッセージを公開しておく必要があります。
+      メールアドレスを変更できるようにするには、既にメッセージを公開してある必要があります。
 
-   1. 式エディターで、式を入力して、購読者の E メールアドレスを取得します。 [詳細を読む](expression/expressionadvanced.md)。
+   1. 式エディターで、購読者のメールアドレスを取得する式を入力します。[詳細情報](expression/expressionadvanced.md)
 
-      この例では、マップフィールドへの参照を含む式を示します。
+      この例では、マップフィールドへの参照を含む式を示しています。
 
       ```json
       #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
@@ -45,17 +45,17 @@ ht-degree: 2%
 
       | 関数 | 説明 | 例 |
       | --- | --- | --- |
-      | `entry` | 選択した名前空間に従ってマップ要素を参照します。 | 特定の購読リストを参照 |
-      | `firstEntryKey` | マップの最初のエントリキーを取得します | 購読者の最初の E メールアドレスの取得 |
+      | `entry` | 選択した名前空間に従ってマップ要素を参照します | 特定のサブスクリプションリストを参照します |
+      | `firstEntryKey` | マップの最初のエントリキーを取得します | 購読者の最初のメールアドレスを取得します |
 
-      この例では、購読リストの名前はです。 `daily-email`. 電子メールアドレスは、 `subscribers` map：購読リストマップにリンクされています。
+      この例では、サブスクリプションリストの名前は `daily-email` です。メールアドレスは、`subscribers` マップでキーとして定義されています。このマップはサブスクリプションリストマップにリンクされています。
 
-      詳細を表示 [フィールドへの参照](expression/field-references.md) 式内。
+      式におけるフィールドへの参照について詳しくは、[こちら](expression/field-references.md)を参照してください。
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
-   1. 内 **[!UICONTROL 式を追加]** ダイアログボックスで、 **[!UICONTROL Ok]**.
+   1. **[!UICONTROL 式を追加]**&#x200B;ダイアログボックスで「**[!UICONTROL OK]**」をクリックします。
 
    ![](../assets/message-to-subscribers-uc-3.png)
 
-1. ジャーニーを **[!UICONTROL 終了]** アクティビティ。
+1. **[!UICONTROL 終了]**&#x200B;アクティビティでジャーニーを終了します。

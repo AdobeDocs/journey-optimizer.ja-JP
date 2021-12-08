@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: trim
-description: 関数 trim の詳細
+description: trim 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # trim {#trim}
 
-開始スペースと終了スペースを削除します。
+先頭と末尾のスペースを削除します。
 
 ## カテゴリ
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 |-----------|------------------|
 | 文字列 | 文字列 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `trim(<string>)`
 

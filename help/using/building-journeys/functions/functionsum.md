@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: sum
-description: 関数の合計について説明します
+description: sum 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # sum {#sum}
 
-一連の式の値の合計を返します。 Null 値は無視されます。
+ 一連の式の値の合計を返します。null 値は無視されます。
 
 ## カテゴリ
 
@@ -29,11 +29,11 @@ ht-degree: 15%
 
 * listInteger
 * listDecimal
-* duration
+* 期間
 * 整数
-* decimal
+* 小数
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `sum(<listDecimal>)`
 

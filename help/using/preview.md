@@ -9,7 +9,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
 
    ![](assets/preview-select-channel.png)
 
-1. 前述と同じ手順を適用してテストプロファイルを選択し、コンテンツをプレビューするデバイスのタイプを選択します。 **[!UICONTROL iOS]** または **[!UICONTROL Android]**.
+1. 上記と同じ手順でテストプロファイルを選択し、コンテンツをプレビューするデバイスのタイプ（**[!UICONTROL iOS]** または **[!UICONTROL Android]**）を選択します。
 
    ![](assets/preview-iOS.png)
 

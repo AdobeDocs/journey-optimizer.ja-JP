@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: countWithNull
-description: countWithNull 関数について説明します。
+description: countWithNull 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ null 値を含むリストのすべての要素をカウントします。
 | リスト | listDateTimeOnly |
 | リスト | listDateOnly |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `countWithNull(<listAny>)`
 

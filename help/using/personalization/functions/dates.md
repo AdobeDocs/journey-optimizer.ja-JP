@@ -1,6 +1,6 @@
 ---
-title: 日付時間関数ライブラリ
-description: 日付時間関数ライブラリ
+title: 日時関数ライブラリ
+description: 日時関数ライブラリ
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,17 +9,17 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# 日付時間関数{#date-time}
+# 日時関数{#date-time}
 
-日付および時間関数は、Journey Optimizer内の値に対して日付と時間の操作を実行するために使用されます。
+日時関数を使用すると、Journey Optimizer 内の値に対して日時操作を実行できます。
 
-## 年齢{#age}
+## age{#age}
 
-この `age` 関数は、指定された日付から年齢を取得するために使用されます。
+`age` 関数を使用すると、指定された日付からの経過時間を取得できます。
 
 **形式**
 
@@ -37,9 +37,9 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## 現在の時間（ミリ秒）{#current-time}
+## currentTimeInMillis{#current-time}
 
-この `currentTimeInMillis` 関数は、エポックミリ秒単位で現在の時間を取得するために使用されます。
+`currentTimeInMillis` 関数を使用すると、現在の時刻をエポックミリ秒単位で取得できます。
 
 **形式**
 
@@ -57,9 +57,9 @@ The following operation gets all the keys for the map `identityMap`.
 ```
 -->
 
-## 日付の差異{#date-diff}
+## dateDiff{#date-diff}
 
-この `dateDiff` 関数は、2 つの日付間の差を日数で取得するために使用されます。
+`dateDiff` 関数を使用すると、2 つの日付間の差異を日数単位で取得できます。
 
 **形式**
 
@@ -78,9 +78,9 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## 曜日{#day-week}
+## dayOfWeek{#day-week}
 
-この `dayOfWeek` 関数は、曜日を取得するために使用されます。
+`dayOfWeek` 関数を使用すると、曜日を取得できます。
 
 **形式**
 
@@ -98,9 +98,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 年間通算日{#day-year}
+## dayOfYear{#day-year}
 
-この `dayOfYear` 関数は、年間通算日を取得するために使用されます。
+`dayOfYear` 関数を使用すると、通日（1月1日からの通算日数）を取得できます。
 
 **形式**
 
@@ -118,9 +118,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 日付の書式{#format-date}
+## formatDate{#format-date}
 
-この `formatDate` 関数は、日付時刻の値を書式設定するために使用されます。 形式は、有効な Java DateTimeFormat パターンである必要があります。
+`formatDate` 関数を使用すると、日時値を書式設定できます。書式は、有効な Java DateTimeFormat パターンである必要があります。
 
 **形式**
 
@@ -128,25 +128,25 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(date, format) %}
 ```
 
-最初の文字列が日付属性で、2 番目の値が日付の変換方法と表示方法です。
+上記の 1 番目の文字列が日付属性で、2 番目の値が日付の変換および表示方法を示します。
 
 >[!NOTE]
 >
 > 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
 >
-> Java の日付書式設定関数を要約として使用できます。 [oracle文書](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> [Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}にまとめられている Java 日付書式設定関数を使用できます。
 
 **例**
 
-次の操作を実行すると、次の形式で日付が返されます。MM/DD/YY です。
+次の操作を実行すると、MM/DD/YY の形式で日付が返されます。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## 日数を設定{#set-days}
+## setDays{#set-days}
 
-この `setDays` 関数は、指定した日時の日付を設定するために使用されます。
+`setDays` 関数を使用すると、指定された日時の日付を設定できます。
 
 **形式**
 
@@ -164,9 +164,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 時間を設定{#set-hours}
+## setHours{#set-hours}
 
-この `setHours` 関数は、日時の時間を設定するために使用されます。
+`setHours` 関数を使用すると、日時の時を設定できます。
 
 **形式**
 
@@ -185,9 +185,9 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## UTC に{#to-utc}
+## toUTC{#to-utc}
 
-この `toUTC` 関数は、日時を UTC に変換するために使用されます。
+`toUTC` 関数を使用すると、日時を UTC に変換できます。
 
 
 **形式**
@@ -207,9 +207,9 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## 週 (UTC){#week-of-year}
+## weekOfYear{#week-of-year}
 
-この `weekOfYear` 関数は、年の週を取得するために使用されます。
+`weekOfYear` 関数を使用すると、年の週番号（何週目か）を取得できます。
 
 **形式**
 

@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 31%
+ht-degree: 34%
 
 ---
 
@@ -50,7 +51,7 @@ SMS チャネルを設定したら、SMS メッセージを送信できるよう
 
 メッセージプリセットを作成するには、次の手順に従います。
 
-1. 次にアクセス： **[!UICONTROL チャネル]** > **[!UICONTROL ブランディング]** > **[!UICONTROL メッセージプリセット]** メニュー、次に「 **[!UICONTROL メッセージプリセットを作成]**.
+1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューにアクセスし、「**[!UICONTROL メッセージプリセットを作成]**」をクリックします。
 
    ![](../assets/preset-create.png)
 

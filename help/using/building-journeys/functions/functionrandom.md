@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: random
-description: ランダム関数の詳細
+description: random 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: df006301-d309-4cb0-b505-317f623df494
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 # random {#random}
 
-0 ～ 1 の乱数を生成します。
+0 と 1 の間の乱数を生成します。
 
 ## カテゴリ
 
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 `random(<parameters>)`
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `random()`
 

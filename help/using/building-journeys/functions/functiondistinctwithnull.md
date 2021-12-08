@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinctWithNull
-description: distinctWithNull 関数の詳細
+description: distinctWithNull 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-リストのユニーク値を返します。 リストに少なくとも 1 つの null 値が含まれる場合、返されるリストに null 値が含まれます。
+リストのユニーク値を返します。リストに null 値が少なくとも 1 つ含まれる場合、返されるリストに null 値が含まれます。
 
 ## カテゴリ
 
@@ -38,7 +38,7 @@ ht-degree: 15%
 | リスト | listDateTimeOnly |
 | リスト | listDateOnly |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `distinctWithNull(<listInteger>)`
 
@@ -54,7 +54,7 @@ ht-degree: 15%
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに、日時のリストを返します。
+タイムゾーンを考慮しない日時のリストを返します。
 
 `distinctWithNull(<listDateTime>)`
 
@@ -76,4 +76,4 @@ ht-degree: 15%
 
 `distinctWithNull([10,2,10,null])`
 
-戻り値 [10, 2, null]
+[10, 2, null] を返します。

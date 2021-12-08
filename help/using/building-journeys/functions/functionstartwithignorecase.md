@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: startWithIgnoreCase
-description: startWithIgnoreCase 関数の詳細
+description: startWithIgnoreCase 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: b6bd9f77-272f-4c2b-b085-20ab5f043793
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-2 番目のパラメーターが、大文字と小文字を区別せずに最初のパラメーターのプレフィックスである場合、true を返します。
+大文字と小文字を区別しない場合に 2 番目のパラメーターが最初のパラメーターの先頭にある場合は、true を返します。
 
 ## カテゴリ
 
@@ -30,9 +30,9 @@ ht-degree: 27%
 | パラメーター | タイプ |
 |-------------|--------|
 | 文字列 | 文字列 |
-| prefix | 文字列 |
+| 先頭の文字列 | 文字列 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `startWithIgnoreCase(<string>,<string>)`
 

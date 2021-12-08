@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: contain
-description: 関数の内容について説明します。
+description: contain 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 8855c382-a91a-4fe2-92db-91ce6dfab3b0
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 # 次を含む {#contain}
 
-2 番目の引数文字列が最初の引数文字列に含まれているかどうかを確認します。
+1 番目の引数文字列に 2 番目の引数文字列が含まれているかどうかを確認します。
 
 ## カテゴリ
 
@@ -29,7 +29,7 @@ ht-degree: 19%
 
 * 文字列
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `contain(<string>,<string>)`
 

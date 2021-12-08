@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,18 +30,18 @@ ht-degree: 82%
     <div>
       <a href="using/get-started.md">[!DNL Journey Optimizer] とは？</a>
     </div>
-    <p>主な機能と使用例の確認
+    <p>主要な機能とユースケースについて説明します
     <p>
     <div>
       <a href="using/release-notes.md">リリースノート</a>
     </div>
-    <p>新機能、最新の機能強化および修正点です。
+    <p>新機能、最新の機能強化および修正点について説明します
    <p>
     <div>
       <a href="using/quick-start.md">クイックスタートガイド</a>
     </div>
     <p>
-    管理者、データエンジニア、またはジャーニー実務者として開始する方法を学ぶ
+    管理者、データエンジニアまたはジャーニー実務担当者の場合の開始方法について説明します
     <p>
     <p>
     <div>
@@ -68,7 +68,7 @@ ht-degree: 82%
     <div>
     <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> へのアクセス付与
     </div>
-    <p>割り当て先の権限を定義および管理 [!DNL Journey Optimizer] ユーザー
+    <p>[!DNL Journey Optimizer] ユーザーに割り当てられる権限を定義し管理する方法について説明します
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>

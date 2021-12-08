@@ -5,13 +5,13 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 74%
+ht-degree: 95%
 
 ---
 
 # リリースノート {#release-notes}
 
-このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、 [最新のドキュメントの更新](documentation-updates.md).
+このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。[ドキュメントの最新の更新点](documentation-updates.md)も参照してください。
 
 ## 2021 年 11 月リリース
 
@@ -33,7 +33,7 @@ ht-degree: 74%
 </table>
 
 
-## 2021 年 10 月リリース {#oct-2021-release}
+## 2021年10月リリース {#oct-2021-release}
 
 <!--table>
 <thead>
@@ -71,13 +71,13 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>決定管理 — オファーのシミュレーション</strong><br/></th>
+<th><strong>意思決定管理 - オファーのシミュレーション</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer UI で、特定の配置に対してテストプロファイルに配信されるオファーをシミュレートできるようになりました。 これにより、実稼動環境に配置する前に、実施要件の制約やランキングアルゴリズムを含む判定ロジックを簡単に検証できます。 この機能を使用すると、技術者以外のユーザーも、offer decisioningを迅速にテストし、潜在的な問題をトラブルシューティングできます。</p>
+<p>Journey Optimizer UI で、特定のプレースメントの場合にテストプロファイルに配信されるオファーをシミュレートできるようになりました。これにより、実稼動環境に配置する前に、実施要件の制約やランキングアルゴリズムなどの決定ロジックを容易に検証できます。この機能を使用すると、技術に詳しいユーザーもそうでないユーザーも Offer Decisioning を迅速にテストし、潜在的な問題をトラブルシューティングできます。</p>
 <p>詳しくは、<a href="offers/offer-activities/simulation.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -87,13 +87,13 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>決定管理 — オファーをパーソナライズする</strong><br/></th>
+<th><strong>意思決定管理 - オファーのパーソナライズ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer UI 全体で見つかるのと同じ式エディターコンポーネントを使用して、Adobe Experience Platformのプロファイル属性とセグメントを使用して、オファーのコンテンツをパーソナライズできるようになりました。 </p>
+<p>Journey Optimizer UI の至る所で登場する式エディターコンポーネントと同じものを使用して、Adobe Experience Platform のプロファイル属性とセグメントでオファーのコンテンツをパーソナライズできるようになりました。 </p>
 <p>詳しくは、<a href="offers/offer-library/creating-personalized-offers.md#custom-text">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -101,44 +101,44 @@ ht-degree: 74%
 </table>
 
 
-関連トピック [Adobe Experience Platform 10 月のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} を参照してください。
+その他の変更点については、[Adobe Experience Platform 10月リリースのリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;}を参照してください。
 
 ### 機能強化
 
 **ジャーニー**
 
-* **式エディター**  — パワーユーザーは、関数を使用してマップを操作できるようになりました。 この機能は、購読リストで利用できます。 例えば、セグメントから、購読リストから電子メールアドレスを取得できるようになりました。 [詳しくは、このサンプルを参照してください。](building-journeys/message-to-subscribers-uc.md)
+* **式エディター** - パワーユーザーは、関数を使用してマップを操作できるようになりました。この機能は、サブスクリプションリストで利用できます。例えば、セグメントでは、サブスクリプションリストからメールアドレスを取得できるようになりました。詳しくは、[このサンプル](building-journeys/message-to-subscribers-uc.md)を参照してください。
 
    <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
-* **監視**  — ライブジャーニーとテストモードのステップイベントが強化されました。 [新しいフィールド](reports/sharing-field-list.md#serviceevents) プロファイル書き出しジョブに関連するが追加されました。 ユーザーエクスペリエンスを向上させるために、ステップイベントのフィールドを様々なカテゴリに整理するようになりました。 前のステップのイベントのフィールドは、引き続き [stepEvents](reports/sharing-legacy-fields.md) カテゴリ。
-* **アクセシビリティ**  — ジャーニーにアクセシビリティの強化が実装されました。
-* **コレクション** ：サブオブジェクトを含むオブジェクトの配列がサポートされるようになりました。 [詳細情報](building-journeys/collections.md)
-* **リスト** ：ジャーニー、イベント、アクション、データソースのリスト画面が改善されました。
+* **監視** - ライブジャーニーのステップイベントとテストモードが強化されました。プロファイルエクスポートジョブに関連する[新規フィールド](reports/sharing-field-list.md#serviceevents)が追加されました。ユーザーエクスペリエンスを向上させるために、ステップイベントフィールドが様々なカテゴリに分類されるようになりました。以前のステップイベントフィールドはすべて、引き続き[stepEvents](reports/sharing-legacy-fields.md) カテゴリで使用できます。
+* **アクセシビリティ** - ジャーニーにアクセシビリティ機能の強化が実装されました。
+* **コレクション** - サブオブジェクトを含んだオブジェクトの配列がサポートされるようになりました。[詳細情報](building-journeys/collections.md)
+* **リスト** - ジャーニー、イベント、アクション、データソースのリスト画面が改善されました。
 
 **レポート**
 
-* **グローバルビューのデータ形式** - **グローバル表示** の **実行** タブをクリックします。 [詳細情報](message-monitoring.md)
+* **グローバル表示のデータフォーマット** -「**実行**」タブの&#x200B;**グローバル表示**&#x200B;で数値表示とパーセント表示を切り替えられるようになりました。[詳細情報](message-monitoring.md)
 
 <!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **管理**
 
-* **メッセージプリセットの編集** ：メッセージプリセットを編集し、更新ステータスを監視できるようになりました。 [詳細情報](configuration/message-presets.md#edit-message-preset)
-* **PTR レコードを編集** :PTR レコードを編集し、更新ステータスを監視できるようになりました。 [詳細情報](configuration/ptr-records.md#edit-ptr-record)
+* **メッセージプリセットの編集** - メッセージプリセットを編集し、その更新ステータスを監視できるようになりました。[詳細情報](configuration/message-presets.md#edit-message-preset)
+* **PTR レコードの編集** - PTR レコードを編集し、その更新ステータスを監視できるようになりました。[詳細情報](configuration/ptr-records.md#edit-ptr-record)
 
 **パーソナライゼーション**
 
-* **日付の書式設定に関する新しいヘルパー関数**  — 日付文字列の表現方法を指定できるようになりました。 [詳細情報](personalization/functions/dates.md#format-date)
+* **日付書式設定用の新しいヘルパー関数** - 日付文字列の表現方法を指定できるようになりました。 [詳細情報](personalization/functions/dates.md#format-date)
 
 **意思決定管理**
 
-* **評価順序**  — 新しく改善された判定作成フローにより、判定オブジェクト間をよりシームレスに移動できるだけでなく、判定エンジンによるオファーコレクションの評価方法を完全に制御できます。 これには、個々に対して同時に評価されるコレクションや、コレクションの評価順序が含まれます。 [詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **評価順序** - 改善された新しい決定作成フローにより、決定オブジェクト間をよりシームレスに移動できるだけでなく、決定エンジンによるオファーコレクションの評価方法を完全に制御できるようにもなりました。これには、一括で評価されるコレクションと個別に評価されるコレクションの区別や、コレクションの評価順序などが含まれます。[詳細情報](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### 修正点
 
-* ブラウザーの言語が英語でない場合に、ジャーニーリスト、メッセージリスト、E メールデザイナーが表示されない問題を修正しました。
-* E メールデザイナーで式を使用してパーソナライゼーションを追加する際に発生する構文エラーを修正しました。文字は誤って逃げ出された。
-* で **管理** メニュー
+* ブラウザー言語が英語以外の場合に、ジャーニーリスト、メッセージリストおよび E メールデザイナーが表示されない問題を修正しました。
+* E メールデザイナーで式を使用してパーソナライゼーションを追加する際に発生する構文エラーを修正しました。文字が誤ってエスケープされていました。
+* **管理**&#x200B;メニュー内を移動すると 404 エラーになる問題を修正しました。
 * ビジネスイベントを使用してジャーニーをテストする際に他のライブジャーニーがトリガーされる問題を修正しました。
 
 ## 2021年9月リリース {#september-2021-release}

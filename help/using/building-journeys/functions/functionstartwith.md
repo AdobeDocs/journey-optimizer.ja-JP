@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: startWith
-description: startWith 関数の詳細
+description: startWith 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 1abdf947-2873-4e45-a26c-cb895980e76a
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
 # startWith {#startWith}
 
-2 番目のパラメーターが最初のパラメーターのプレフィックスである場合は、true を返します。
+2 番目のパラメーターが最初のパラメーターの先頭にある場合は、true を返します。
 
 ## カテゴリ
 
@@ -30,9 +30,9 @@ ht-degree: 27%
 | パラメーター | タイプ |
 |-------------|--------|
 | 文字列 | 文字列 |
-| prefix | 文字列 |
+| 先頭の文字列 | 文字列 |
 
-## 署名と戻り値の型
+## シグネチャと戻り値のタイプ
 
 `startWith(<string>,<string>)`
 

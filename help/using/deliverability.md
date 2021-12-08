@@ -9,7 +9,7 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 4d5e4f4295997083eb257290043b014acdcd971a
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 
 [!DNL Journey Optimizer] エクスペリエンスの配信品質を最適化するには、この節に示すベストプラクティスを使用することをお勧めします。配信品質の問題は通常、インターネットサービスプロバイダー（ISP）およびメールサーバー管理者が実行するスパム対策に関係しています。
 
-配信品質の概要と主な用語、概念、アプローチについて詳しくは、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}。
+配信品質の概要と、配信品質の主要な用語、概念およびアプローチについて詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## 苦情率の低減 {#reduce-complaint-rate}
 

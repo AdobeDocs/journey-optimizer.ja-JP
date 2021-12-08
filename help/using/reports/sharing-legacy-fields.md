@@ -1,6 +1,6 @@
 ---
-title: ステップイベントフィールドリスト
-description: レガシーフィールド
+title: ステップイベントフィールドの一覧
+description: 従来のフィールド
 feature: Reporting
 topic: Content Management
 role: User
@@ -9,13 +9,13 @@ exl-id: 8cad0a6e-fd5c-44ae-9ce4-44d99504b855
 source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# レガシーフィールドについて {#sharing-legacy-fields}
+# 従来のフィールドについて {#sharing-legacy-fields}
 
-このカテゴリには、元のステップイベントフィールドが含まれます。 これらのフィールドは、次のフィールドグループの一部です。
+このカテゴリには、元のステップイベントフィールドが含まれます。これらのフィールドは、次のフィールドグループに属しています。
 
 * [journeySteps イベントの共通フィールド](../reports/sharing-common-fields.md)
 * [journeyStep イベントのアクション実行フィールド](../reports/sharing-execution-fields.md)
