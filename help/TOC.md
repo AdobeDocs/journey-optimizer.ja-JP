@@ -190,10 +190,9 @@ ht-degree: 97%
       + [Campaign v7/v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-
       <!--
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
+      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+      -->
 + トラッキングとモニタリング {#reporting}
    + [メッセージのモニタリング](using/message-monitoring.md)
    + ライブレポート {#live-report}
