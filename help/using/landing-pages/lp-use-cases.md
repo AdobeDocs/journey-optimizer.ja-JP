@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '868'
 ht-degree: 19%
 
 ---
@@ -123,7 +123,7 @@ E メールの受信者がランディングページを通じてコミュニケ
 
    >[!NOTE]
    >
-   >必ず **[!UICONTROL フォーム]** コンポーネントの **[!UICONTROL コールトゥアクション]** 」セクションに表示されます。 [詳細情報](design-lp.md)
+   >必ずプライマリページの **[!UICONTROL コールトゥアクション]** セクション **[!UICONTROL フォーム]** コンポーネント。 [詳細情報](design-lp.md)
 
 1. ページのコンテンツを設定して定義したら、 [公開](create-lp.md#publish) ランディングページ
 
@@ -147,7 +147,7 @@ E メールの受信者がランディングページを通じてコミュニケ
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. ランディングページで、受信者がボックスをオンにしてフォームを送信した場合は、次の手順を実行します。
+   受信者がボックスをオンにしてフォームを送信した場合：
 
    * オプトアウトした受信者は、確認メッセージ画面にリダイレクトされます。
 
