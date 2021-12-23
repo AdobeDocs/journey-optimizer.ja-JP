@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
 
-# 最大{#max}
+# max{#max}
 
 リストまたは 2 つの式として指定された一連の式の中から最大値を返します。null 値は無視されます。
 
