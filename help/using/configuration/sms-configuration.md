@@ -1,15 +1,15 @@
 ---
 title: SMS 設定
-description: Journey Optimizerで SMS メッセージを送信するように環境を設定する方法を説明します
+description: Journey Optimizer で SMS メッセージを送信するように環境を設定する方法を学ぶ
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
@@ -17,37 +17,37 @@ ht-degree: 34%
 
 >[!CAUTION]
 >
-> 現在、SMS チャネルは、一部のユーザーに対してのみ早期にアクセスできます。 この機能を利用する場合は、担当のAdobeアカウント担当者にお問い合わせください。
+> SMS チャネルは、現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
-[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲティングされたオーディエンスにメッセージを送信できます。
+[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。
 
-## 新しい API 資格情報を作成 {#create-api}
+## 新しい API 認証情報の作成 {#create-api}
 
-Journey Optimizerで SMS ベンダーを設定するには、次の手順に従います。
+Journey Optimizer で SMS ベンダーを設定するには、次の手順に従います。
 
-1. 次にアクセス： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL API 資格情報]** メニュー、次に「 **[!UICONTROL API 資格情報を作成]**.
+1. 「**[!UICONTROL 管理]**」／「**[!UICONTROL チャネル]**」／「**[!UICONTROL API 認証情報]**」メニューにアクセスし、「 **[!UICONTROL API 認証情報の作成]**」をクリックします。
 
    ![](../assets/sms_4.png)
 
-1. としてシンチを選択します。 **[!UICONTROL SMS ベンダー]**.
+1. **[!UICONTROL SMS ベンダー]**&#x200B;として Sinch を選択します。
 
-1. を入力します。 **[!UICONTROL 名前]** API 資格情報用に保存されます。
+1. API 認証情報の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. を入力します。 **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**.
+1. **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を入力します。
 
    >[!NOTE]
    >
-   > Sinch には特別な API 資格情報が必要です。 次を検索： **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]** Sinch アカウントから SMS / API メニューにアクセスします。
+   > Sinch には特別な API 認証情報が必要です。次を検索： **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、Sinch アカウントから SMS／API メニューにアクセスします。
 
    ![](../assets/sms_5.png)
 
-1. クリック **[!UICONTROL 送信]** API 資格情報の設定が完了したとき。
+1. API 認証情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 資格情報を作成して設定した後、SMS メッセージ用のメッセージプリセットを作成する必要があります。
+API 認証情報を作成して設定した後、SMS メッセージ用のメッセージプリセットを作成する必要があります。
 
-## SMS メッセージのメッセージプリセットの作成 {#message-preset-sms}
+## SMS メッセージ用メッセージプリセットの作成 {#message-preset-sms}
 
-SMS チャネルを設定したら、SMS メッセージを送信できるように、メッセージプリセットを作成する必要があります。 **[!DNL Journey Optimizer]**.
+SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メッセージを送信できるように、メッセージプリセットを作成する必要があります。
 
 メッセージプリセットを作成するには、次の手順に従います。
 
@@ -63,17 +63,17 @@ SMS チャネルを設定したら、SMS メッセージを送信できるよう
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. の設定 **SMS** 設定。
+1. **SMS** の設定を行います。
 
    ![](../assets/preset-sms.png)
 
-   * を選択します。 **[!UICONTROL SMS の種類]** プリセットと共に送信される **[!UICONTROL トランザクション]** または **[!UICONTROL マーケティング]**.
+   * プリセットを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択します。
 
-   * を選択します。 **[!UICONTROL SMS 設定]** プリセットに関連付けます。
+   * **[!UICONTROL SMS 設定]**&#x200B;を選択し、プリセットと関連付けます。
 
-      SMS メッセージを送信するように環境を設定する方法について詳しくは、 [この節](sms-configuration.md).
+      SMS メッセージを送信する環境の設定方法については、[この節](sms-configuration.md)を参照してください。
 
-   * 次を入力します。 **[!UICONTROL 送信者番号]** 通信に&#x200B;使用する
+   * コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
@@ -89,11 +89,11 @@ SMS チャネルを設定したら、SMS メッセージを送信できるよう
 
    ![](../assets/preset-active.png)
 
-プッシュ通知および E メールのメッセージプリセットを設定する方法については、 [この節](message-presets.md).
+プッシュ通知およびメールのメッセージプリセットを設定する方法については、[この節](message-presets.md)を参照してください。
 
-これで、Journey Optimizerで SMS メッセージを送信する準備が整いました。
+これで、Journey Optimizer で SMS メッセージを送信する準備が整いました。
 
 **関連トピック**
 
 * [SMS メッセージの作成](../create-sms.md)
-* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
