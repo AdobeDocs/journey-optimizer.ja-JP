@@ -3,9 +3,9 @@ title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2077'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 95%
 
 このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。[ドキュメントの最新の更新点](documentation-updates.md)も参照してください。
 
-## 2021 年 11 月リリース
+## 2021年11月リリース
 
 <table>
 <thead>
@@ -24,9 +24,9 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerは CNAME をサポートするようになりました。 CNAME（正規名レコード）とは、IP アドレスではなく別のドメインアドレスを指すレコードです。 CNAME サブドメインデリゲーションを使用すると、サブドメインを作成し、CNAME を使用してAdobe固有のレコードを指定できます。 この設定を使用すると、ユーザーとAdobeの両方が、E メールの送信、レンダリング、トラッキングの環境を設定するために、DNS の維持に関する責任を共有します。</p>
-<p>組織のポリシーで完全なサブドメインデリゲーション方法が制限されている場合は、この方法をお勧めします。</p>
-<p>CNAME サブドメインのデリゲーションについて詳しくは、 <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">詳細なドキュメント</a>.</p>
+<p>Adobe Journey Optimizer で CNAME がサポートされるようになりました。CNAME（正規名レコード）とは、IP アドレスではなく別のドメインアドレスを指すレコードです。CNAME サブドメインデリゲーションを使用すると、サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定できます。この設定を使用すると、 メールの送信、レンダリング、トラッキングの環境を設定するために、DNS の管理に対する責任を、お客様とアドビで共有します。</p>
+<p>組織のポリシーで完全なサブドメインデリゲーションの方法が制限されている場合は、この方法をお勧めします。</p>
+<p>CNAME サブドメインのデリゲーションについて詳しくは、 <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -101,7 +101,7 @@ ht-degree: 95%
 </table>
 
 
-その他の変更点については、[Adobe Experience Platform 10月リリースのリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;}を参照してください。
+その他の変更点については、[Adobe Experience Platform 10月リリースのリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ### 機能強化
 
