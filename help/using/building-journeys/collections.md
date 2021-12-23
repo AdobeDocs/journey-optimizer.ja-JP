@@ -5,7 +5,7 @@ title: カスタムアクションを使用したコレクションの動的な�
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -67,7 +67,6 @@ ht-degree: 100%
     ]
    }
    ```
-
 * テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。 ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。コレクションは、単一の要素でのみ送信できます。
 
 ## 一般的な手順 {#general-procedure}
