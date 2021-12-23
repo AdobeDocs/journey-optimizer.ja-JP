@@ -4,7 +4,7 @@ description: システム管理者向けに Journey Optimizer の操作方法の
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
 ht-degree: 100%
 
