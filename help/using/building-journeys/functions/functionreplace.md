@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '76'
 ht-degree: 100%
 
 ---
 
-# 置換 {#replace}
+# replace {#replace}
 
 ターゲット文字列に一致する最初の出現箇所を、ベース文字列内の置換文字列で置き換えます。
 
