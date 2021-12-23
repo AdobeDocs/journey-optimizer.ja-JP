@@ -4,7 +4,7 @@ description: データエンジニア向けに Journey Optimizer の操作方法
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
 ht-degree: 100%
 
