@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
 title: 高度な式エディターについて
-description: 高度な式の作成方法について説明します
+description: 高度な式の作成方法を学ぶ
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
