@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 ## サブドメインの PTR レコードへのアクセス
 
-1 回 [サブドメインがデリゲートされます](delegate-subdomain.md) Adobe Journey Optimizerでは、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。 **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
+Adobe Journey Optimizer で[サブドメインがデリゲート](delegate-subdomain.md)されると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
 
 ![](../assets/ptr-records.png)
 
@@ -42,7 +42,7 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 >[!CAUTION]
 >
->を使用して、Adobeにデリゲートされたサブドメインに関連付けられた PTR レコードを変更することはできません。 [CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation).
+>[CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)を使用して、アドビにデリゲートされたサブドメインに関連付けられた PTR レコードを変更することはできません。
 
 1. リストから、PTR レコード名をクリックして開きます。
 
