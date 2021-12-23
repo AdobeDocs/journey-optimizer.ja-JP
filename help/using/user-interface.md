@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
 ht-degree: 100%
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 </td>
     <td>設定する次のフィールドに移動する</td>
-    <td>タブ</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>変更内容を保存し設定ペインを閉じる</td>
@@ -219,7 +219,7 @@ ht-degree: 100%
   <tr>
     <td rowspan="2">ポップアップウィンドウ</td>
     <td>変更内容を保存するかアクションを確認する</td>
-    <td>入力</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>ウィンドウを閉じる</td>
