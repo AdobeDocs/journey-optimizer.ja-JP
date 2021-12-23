@@ -3,9 +3,9 @@ title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 97%
 
 ## 2021年11月
 
-* ジャーニーで使用される高度な式エディターの詳細を説明できます。 [詳細情報](building-journeys/expression/expressionadvanced.md)
-* 新しい CNAME サブドメインのデリゲーション方法。 [詳細情報](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* ジャーニーで使用される高度な式エディターで、完全な説明を利用できるようになりました。[詳細情報](building-journeys/expression/expressionadvanced.md)
+* 新しい CNAME サブドメインのデリゲーション方法。[詳細情報](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## 2021年10月
 
