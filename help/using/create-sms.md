@@ -1,6 +1,6 @@
 ---
 title: SMS メッセージの作成
-description: Journey Optimizerで SMS メッセージを作成する方法を説明します
+description: Journey Optimizer で SMS メッセージを作成する方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
-> 現在、SMS チャネルは、一部のユーザーに対してのみ早期にアクセスできます。 この機能を利用する場合は、担当のAdobeアカウント担当者にお問い合わせください。
+> SMS チャネルは、現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
-一度 [メッセージを作成しました](create-message.md)、 **[!UICONTROL SMS]** タブを使用して、SMS チャネルの設定とコンテンツを定義します。
+[メッセージを作成](create-message.md)したら、「**[!UICONTROL SMS]**」タブを使用して、SMS チャネルの設定とコンテンツを定義します。
 
 ![](assets/sms_1.png)
 
 SMS メッセージのパーソナライズを開始するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL テキストメッセージを追加]** 「 」フィールドをクリックして、式エディターを開きます。
+1. 「**[!UICONTROL テキストメッセージの追加]**」フィールドをクリックして、式エディターを開きます。
 
    ![](assets/sms_3.png)
 
@@ -39,13 +39,13 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
    ![](assets/sms_2.png)
 
-1. クリック **[!UICONTROL 保存]** パーソナライズされたメッセージの準備が整ったら、
+1. パーソナライズされたメッセージの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
-1. クリック **[!UICONTROL プレビュー]** を使用して、モバイルデバイスでの SMS メッセージの表示方法を視覚化します。 詳しくは、[この節](preview.md)を参照してください。
+1. 「**[!UICONTROL プレビュー]**」をクリックして、モバイルデバイスで SMS メッセージがどのように表示されるかを視覚化します。詳しくは、[この節](preview.md)を参照してください。
 
-1. メッセージの準備が整ったら、パブリッシュして、 **[!UICONTROL 公開]** 」ボタンをクリックします。 このアクションは、ジャーニーでの次回の実行に使用されるメッセージの新しいバージョンを公開します。
+1. メッセージの準備が整ったら、「**[!UICONTROL 公開]**」ボタンを使用してメッセージを公開し、実行可能な状態にできます。このアクションにより、ジャーニーの次回の実行に使用される新しいバージョンのメッセージが公開されます。
 
-SMS メッセージをジャーニーで使用できるようになりました。 [ジャーニーの作成方法を説明します](building-journeys/journey-gs.md).
+ジャーニーで SMS メッセージを使用できるようになりました。 [ジャーニーの作成方法を説明します](building-journeys/journey-gs.md)。
 
 **関連トピック**
 
