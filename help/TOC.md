@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用すると、パーソナラ�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -190,9 +190,10 @@ ht-degree: 97%
       + [Campaign v7/v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + トラッキングとモニタリング {#reporting}
    + [メッセージのモニタリング](using/message-monitoring.md)
    + ライブレポート {#live-report}
@@ -221,13 +222,13 @@ ht-degree: 97%
       + [抑制リスト](using/suppression-list.md)
       + [許可リスト](using/allow-list.md)
 + ランディングページ {#landing-pages}
-   + [ランディングページの概要](using/landing-pages/get-started-lp.md)
+   + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
-   + [ランディングページのデザイン](using/landing-pages/design-lp.md)
+   + [ランディングページの作成](using/landing-pages/design-lp.md)
    + [購読リストの作成](using/landing-pages/subscription-list.md)
    + [ユースケース](using/landing-pages/lp-use-cases.md)
    + レポート {#lp-reporting}
-      + [ランディングページレポート](using/landing-pages/lp-report.md)
+      + [ランディングページのレポート](using/landing-pages/lp-report.md)
       + [購読リストのレポート](using/landing-pages/subscription-report.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意志決定管理の基本を学ぶ {#get-started}
