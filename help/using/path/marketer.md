@@ -4,7 +4,7 @@ description: ジャーニー実務担当者向けに Journey Optimizer の操作
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
