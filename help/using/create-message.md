@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
 source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
    * **[!UICONTROL タイトル]**（必須）と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
-   * を選択します。 **[!UICONTROL メッセージカテゴリ]**:マーケティングまたはトランザクション。
+   * **[!UICONTROL メッセージカテゴリ]**（マーケティングまたはトランザクション）を選択します。
 
    * メッセージに使用する&#x200B;**[!UICONTROL プリセット]**&#x200B;を選択します。
 
