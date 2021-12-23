@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 98%
 
    * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
 
-   * **[!UICONTROL ランディングページ]**:ランディングページへのリンクを挿入します。 詳しくは、[この節](landing-pages/get-started-lp.md)を参照してください。
+   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。詳しくは、[この節](landing-pages/get-started-lp.md)を参照してください。
 
    * **[!UICONTROL 購読解除リンク]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入する。オプトアウト管理の詳細については、[この節](consent.md#opt-out-management)を参照してください。
 
