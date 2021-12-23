@@ -1,6 +1,6 @@
 ---
-title: ランディングページの概要
-description: Journey Optimizerのランディングページの詳細
+title: ランディングページの基本を学ぶ
+description: Journey Optimizer のランディングページについて学ぶ
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -9,23 +9,23 @@ hidefromtoc: true
 hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# ランディングページの概要 {#get-sarted-lp}
+# ランディングページの基本を学ぶ {#get-sarted-lp}
 
 >[!CAUTION]
 >
->現在、ランディングページは一部のユーザーに対してのみ、早期にアクセスできます。 この機能を利用する場合は、担当のAdobeアカウント担当者にお問い合わせください。
+>ランディングページは現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
-ランディングページは、電子メール、Web サイト、広告、またはその他のデジタル的な場所からユーザーがクリックスルーした後に表示されるスタンドアロン Web ページです。
+ランディングページは、メール、web サイト、広告、またはその他のデジタル化された場所からユーザーがクリックスルーした後に表示されるスタンドアロン web ページです。
 
 <!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
 
-[!DNL Journey Optimizer] を使用すると、ランディングページを作成およびデザインして、ユーザーがオンラインフォームにアクセスし、コミュニケーションのオプトインやオプトアウトを行ったり、ニュースレターなどの特定のサービスを購読したりできます。
+[!DNL Journey Optimizer] を使用すると、ランディングページを作成およびデザインして、ユーザーはオンラインフォームにアクセスし、コミュニケーションのオプトインやオプトアウトを行ったり、ニュースレターなどの特定のサービスを購読したりできます。
 
 <!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
 
@@ -34,11 +34,11 @@ ht-degree: 3%
 * Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-* 活用 [!DNL Journey Optimizer] 容易に構築できるコンテンツ設計機能 **レスポンシブランディングページ**.
-* 設定 **オプトインおよびオプトアウトフロー** 迅速かつシームレスに。
-* 購読リストを作成してユーザーが次の操作を実行できるようにします **サービスを購読する**. [詳細情報](lp-use-cases.md#subscription-to-a-service)
-* 受信者に **配信停止機能** 通信を受信してから [詳細情報](lp-use-cases.md#opt-out)
-* の送信 **確認メール** オプトインまたはオプトアウト時。 [詳細情報](lp-use-cases.md#send-confirmation-email)
+* [!DNL Journey Optimizer]のコンテンツデザイン機能を活用すると、**レスポンシブランディングページ**&#x200B;を簡単に作成できます。
+* **オプトインおよびオプトアウトフロー**&#x200B;を迅速かつシームレスに設定します。
+* 購読リストを作成して、ユーザーが&#x200B;**サービスを購読**&#x200B;できるようにします。[詳細情報](lp-use-cases.md#subscription-to-a-service)
+* 受信者に、お知らせの受信を&#x200B;**登録解除する機能**&#x200B;を提供します。[詳細情報](lp-use-cases.md#opt-out)
+* オプトインまたはオプトアウト時に&#x200B;**確認メール**&#x200B;を送信します。[詳細情報](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
