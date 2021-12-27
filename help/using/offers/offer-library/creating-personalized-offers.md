@@ -161,6 +161,7 @@ ht-degree: 100%
       >[!CAUTION]
       >
       >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
+      
    セグメントと決定ルールの使用上の違いについて詳しくは、[この節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)を参照してください。
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
