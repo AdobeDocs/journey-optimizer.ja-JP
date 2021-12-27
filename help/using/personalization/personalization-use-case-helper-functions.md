@@ -207,6 +207,7 @@ ht-degree: 100%
       </table>
    {{/each}}
    ```
+   
 1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
    ![](../assets/personalization-uc-helpers-11.png)
 
