@@ -249,8 +249,7 @@ ht-degree: 99%
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
       + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
    + 意思決定管理レポートの作成 {#create-reports}
-      + [意思決定管理イベントの概要
-](using/offers/reports/get-started-events.md)
+      + [意思決定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [意思決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
