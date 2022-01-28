@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
-workflow-type: ht
+source-git-commit: ac60e5a3bdf2369d7a5c83dbf9dcdb97580af9f4
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -48,8 +48,6 @@ ht-degree: 100%
 >abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=ja#email-rendering" text="メールのレンダリング"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=ja#preview-your-messages" text="プレビュー"
-
-
 
 [テストプロファイル](building-journeys/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、追加の受信者をターゲットに設定できます。
 

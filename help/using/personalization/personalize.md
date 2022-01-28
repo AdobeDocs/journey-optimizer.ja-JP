@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
-workflow-type: ht
-source-wordcount: '691'
-ht-degree: 100%
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 89%
 
 ---
 
@@ -99,7 +99,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 利用可能なソースは次のとおりです。
 
-* **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}に記載のプロファイルスキーマに関連付けられているすべての参照を一覧表示します。
+* **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}に記載のプロファイルスキーマに関連付けられているすべての参照を一覧表示します。
 * **[!UICONTROL セグメントメンバーシップ]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのセグメントを一覧表示します。セグメント化について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../deliver-personalized-offers.md)を参照してください。
 * **[!UICONTROL コンテキスト属性]**：ジャーニーで&#x200B;**メッセージ**&#x200B;を使用している場合は、ジャーニーのコンテキストフィールドをこのメニューから使用できます。詳しくは、[この節](personalization-use-case.md)を参照してください。
@@ -114,6 +114,24 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 次の例では、式エディターを使用して、本日が誕生日のプロファイルを選択し、この日に対応する特定のオファーを挿入してカスタマイズを完了できます。
 
 ![](assets/perso_ee2.png)
+
+### お気に入りに追加{#fav}
+
+お気に入りメニューに異なる属性を追加すると、頻繁に使用する項目にすばやくアクセスできます。 属性をお気に入りに追加するには、楕円形メニューをクリックし、 **[!UICONTROL お気に入りに追加]**.
+
+![](assets/favorite-option.png)
+
+お気に入りに登録した項目にアクセスするには、 **[!UICONTROL お気に入り]** ドロップダウンメニューのメニューオプション。
+
+![](assets/favorite-menu.png)
+
+このリストから、パーソナライゼーションオブジェクトを現在の式にすばやく追加できます。
+
+![](assets/favorite-list.png)
+
+お気に入りの一覧に項目が表示されなくなるようにするには、お気に入りから削除します。
+
+![](assets/favorite-remove.png)
 
 ## ハウツービデオ{#video-perso}
 

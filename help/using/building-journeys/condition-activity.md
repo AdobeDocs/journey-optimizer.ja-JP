@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
-workflow-type: ht
-source-wordcount: '1013'
-ht-degree: 100%
+source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 100%
 * [時間条件](#time_condition)
 * [パーセンテージ分割](#percentage_split)
 * [日付条件](#date_condition)
-<!--
-* [Profile cap](#profile_cap)
--->
+* [プロファイルキャップ](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -99,21 +97,26 @@ ht-degree: 100%
 
 ![](../assets/journey53.png)
 
-<!--
-## Profile cap {#profile_cap}
+## プロファイルキャップ {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+この条件タイプを使用して、ジャーニーパスの最大プロファイル数を設定します。この制限に達すると、入力プロファイルは代替パスを使用します。これにより、ジャーニーが定義された制限を超えることがなくなります。
 
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+この条件タイプを使用すると、配信の量を増やすことができます。この[ユースケース](ramp-up-deliveries-uc.md)を参照してください。
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+デフォルトのキャップは 1000 です。
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+カウンターは、選択したジャーニーバージョンにのみ適用されます。カウンターは 1 か月後に 0 にリセットされます。リセット後、入力プロファイルは、カウンターの上限に到達するまでもう一度呼びパスをたどります。
 
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+ジャーニーキャンバス上で呼びパスの上に代替パスを移動した場合でも、呼びパスは常に代替パスよりも優先されます。
+
+ライブジャーニーの場合、制限に達するために考慮すべきしきい値を次に示します。
+
+* キャップが10000より大きい場合、射出する個別プロファイルの数は、キャップの 1.3 倍以上である必要があります。
+* キャップが10000未満の場合は、注入する個別プロファイルの数が 1,000 にキャップを加えた数になる必要があります。
+
+テストモードでは、プロファイルキャップは考慮されません。
 
 ![](../assets/profile-cap-condition.png)
--->
 
 ## 条件でのセグメントの使用 {#using-a-segment}
 

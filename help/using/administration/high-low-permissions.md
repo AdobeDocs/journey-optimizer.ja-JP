@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
-workflow-type: ht
-source-wordcount: '1184'
-ht-degree: 100%
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,17 +30,17 @@ ht-degree: 100%
 各製品プロファイルは、ユーザーが様々な機能にアクセスできる権限で構成されています。
 権限は次の 2 つのタイプに分けることができます。
 
-* **高レベル権限**：**[!UICONTROL ジャーニーの公開]**&#x200B;や&#x200B;**[!UICONTROL サブドメインのデリゲーションの管理]**&#x200B;など、[!DNL Admin console] で&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てることができる様々な権限を表します。高レベル権限は、低レベル権限を含みます。
+* **高レベル権限**:は、割り当て可能な様々な権限を表します **[!UICONTROL 製品プロファイル]** 内 [!DNL Admin console]例： **[!DNL Publish journeys]** および **[!DNL Manage subdomains delegation]**. 高レベル権限は、低レベル権限を含みます。
 
 * **低レベル権限**：高レベル権限から取得される様々な権限を表します。
 
-例えば、**[!UICONTROL ジャーニー管理者]**&#x200B;製品プロファイルには、**[!UICONTROL ジャーニーの管理]**&#x200B;権限が割り当てられます。 この権限により、ジャーニー管理者がジャーニーの書き込み、読み取りおよび削除ができる低レベル権限が生じます。
+例えば、 **[!DNL Journey administrator]** 製品プロファイルが割り当てられます **[!DNL Manage journeys]** 権限。 この権限により、ジャーニー管理者がジャーニーの書き込み、読み取りおよび削除ができる低レベル権限が生じます。
 
 ## ジャーニー機能 {#journey-capability}
 
-### ジャーニー管理の権限 {#manage-journeys}
+### [!DNL Manage journeys] 権限 {#manage-journeys}
 
-**[!UICONTROL ジャーニーの管理]**&#x200B;の高レベル権限を持つユーザーは、新しいジャーニーの作成や、既存のジャーニーの編集／削除、ジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへのアクセスができます。
+この **[!DNL Manage journeys]** 高レベルの権限を持つユーザーは、新しいジャーニーの作成、既存のアクションの編集/削除、およびジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへのアクセスが可能です。
 
 これには、次の低レベル権限が含まれます。
 
@@ -58,9 +58,9 @@ ht-degree: 100%
    * datasets.read
    * schemas.read
 
-### ジャーニーの公開権限 {#publish-journeys}
+### [!DNL Publish journeys] 権限 {#publish-journeys}
 
-**[!UICONTROL ジャーニーの公開]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーを公開できます。
+この **[!DNL Publish journeys]** 高レベル権限を持つユーザーは、ジャーニーを公開できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -68,9 +68,9 @@ ht-degree: 100%
    * journeys.publish
    * journeys.read
 
-### ジャーニーの表示権限 {#view-journeys}
+### [!DNL View journeys] 権限 {#view-journeys}
 
-**[!UICONTROL ジャーニーの表示]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーを参照および表示できます。
+この **[!DNL View journeys]** 高レベル権限を持つユーザーは、ジャーニーを参照および表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -81,9 +81,9 @@ ht-degree: 100%
    * segments.read
    * profiles.read
 
-### ジャーニーイベント、データソース、アクションの管理権限 {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] 権限 {#manage-journeys-events}
 
-**[!UICONTROL ジャーニーイベント、データソース、アクションの管理]**&#x200B;の高レベル権限を持つユーザーは、イベントとデータの設定を行うことができます。
+この **[!DNL Manage journeys events, data sources and actions]** 高レベル権限を持つユーザーは、イベントとデータの設定をおこなうことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -97,14 +97,15 @@ ht-degree: 100%
    * journeys_actions.read
    * journeys_actions.write
    * journeys_actions.delete
+
 * Adobe Experience Platform 固有：
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### ジャーニーイベント、データソース、アクションの表示権限 {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] 権限 {#view-journeys-event}
 
-**[!UICONTROL ジャーニーイベント、データソース、アクションの表示]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
+この **[!DNL View journeys events, data sources and actions]** 高レベル権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -118,9 +119,9 @@ ht-degree: 100%
    * datasets.read
    * identity_namespace.read
 
-### ジャーニーレポートの表示権限 {#view-journeys-report}
+### [!DNL View journeys report] 権限 {#view-journeys-report}
 
-**[!UICONTROL ジャーニーレポートの表示]**&#x200B;の高レベル権限を持つユーザーは、ジャーニーレポートを読み取ることのみが可能です。
+この **[!DNL View journeys report]** 高レベルの権限を持つユーザーは、読み取り専用のジャーニーレポートを使用できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -136,9 +137,9 @@ ht-degree: 100%
 
 ## メッセージ機能 {#message-capability}
 
-### メッセージの管理権限 {#manage-messages}
+### [!DNL Manage messages] 権限 {#manage-messages}
 
-**[!UICONTROL メッセージの管理]**&#x200B;の高レベル権限を持つユーザーは、メッセージを作成および編集／削除できます。
+この **[!DNL Manage messages]** 高レベル権限を持つユーザーは、メッセージの作成と編集/削除ができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -152,9 +153,9 @@ ht-degree: 100%
    * segments.read
    * schemas.read
 
-### メッセージのプレビューとテストの管理権限 {#mange-messages-preview}
+### [!DNL Manage messages preview and test] 権限 {#mange-messages-preview}
 
-**[!UICONTROL メッセージのプレビューおよびテストの管理]**&#x200B;の高レベル権限を持つユーザーは、パーソナライズされたメッセージをプレビューできます。
+この **[!DNL Manage messages preview and test]** 高レベル権限を持つユーザーは、パーソナライズされたメッセージをプレビューできます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -174,9 +175,9 @@ ht-degree: 100%
    * queries.write
    * merge_policies.read
 
-### メッセージの公開権限 {#publish-messages}
+### [!DNL Publish messages] 権限 {#publish-messages}
 
-**[!UICONTROL メッセージの公開]**&#x200B;の高レベル権限を持つユーザーは、メッセージを公開できます。
+この **[!DNL Publish messages]** 高レベル権限を持つユーザーは、メッセージを公開できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -188,9 +189,9 @@ ht-degree: 100%
    * schemas.read
    * datasets.read
 
-### メッセージの表示権限 {#view-messages}
+### [!DNL View messages] 権限 {#view-messages}
 
-**[!UICONTROL メッセージの表示]**&#x200B;の高レベル権限を持つユーザーは、メッセージの読み取りのみ可能です。
+この **[!DNL View messages]** 高レベル権限を持つユーザーは、メッセージの読み取りのみ可能です。
 
 これには、次の低レベル権限が含まれます。
 
@@ -202,9 +203,9 @@ ht-degree: 100%
    * schemas.read
    * segments.read
 
-### メッセージレポートの表示権限 {#view-message-reports}
+### [!DNL View messages report] 権限 {#view-message-reports}
 
-**[!UICONTROL メッセージレポートの表示]**&#x200B;の高レベル権限を持つユーザーは、読み取り専用のメールおよびプッシュレポートが許可されます。
+この **[!DNL View messages report]** 高レベル権限を持つユーザーは、電子メールおよびプッシュレポートを読み取り専用で使用できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -216,15 +217,17 @@ ht-degree: 100%
    * queries.delete
    * journey.read
 
-## 決定管理機能 {#decisions-permissions}
+## 意思決定管理機能
+ {#decisions-permissions}
 
-### 決定の管理権限 {#manage-decisioning}
+### [!DNL Manage decisions] 権限 {#manage-decisioning}
 
-**[!UICONTROL 決定管理]**&#x200B;の高レベル権限を持つユーザーは、既存の&#x200B;**[!UICONTROL アクティビティエンティティ]**&#x200B;の編集／削除、新規作成をおこなえるほか、これらのアクティビティで使用されるオブジェクトを管理し、決定することができます。
+この **[!DNL Manage decisions]** 高レベルの権限を持つユーザーは、新規作成や既存の編集/削除が可能です **[!DNL Activity entities]**&#x200B;を管理し、判定をおこなうためにこれらのアクティビティで使用されるオブジェクトを管理します。
 
 これには、次の低レベル権限が含まれます。
 
-* 決定管理固有：
+* 意思決定管理固有：
+
    * activities.read
    * activities.write
    * activities.delete
@@ -244,13 +247,14 @@ ht-degree: 100%
    * profile.read
    * segments.read
 
-### 決定の表示権限 {#view-decisions}
+### [!DNL View decisions] 権限 {#view-decisions}
 
-**[!UICONTROL 決定を表示]**&#x200B;の高レベル権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定をおこなうことができます。
+この **[!DNL View decisions]** 高レベル権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定をおこなうことができます。
 
 これには、次の低レベル権限が含まれます。
 
-* 決定管理固有：
+* 意思決定管理固有：
+
    * activities.read
    * offers.read
    * placements.read
@@ -263,13 +267,14 @@ ht-degree: 100%
    * datasets.write
    * datasets.delete
 
-### オファー決定の公開権限 {#publish-decisions}
+### [!DNL Publish offers decisioning] 権限 {#publish-decisions}
 
-**[!UICONTROL オファー決定の公開]**&#x200B;の高レベル権限を持つユーザーは、オファーアクティビティを承認／未承認する権限を持ちます。
+この **[!DNL Publish offers decisioning]** 高レベル権限を持つユーザーは、オファーアクティビティの承認/承認取消にアクセスできます。
 
 これには、次の低レベル権限が含まれます。
 
-* 決定管理固有：
+* 意思決定管理固有：
+
    * offers_activity.read
    * offers.read
    * offers.write
@@ -285,13 +290,14 @@ ht-degree: 100%
    * datasets.read
    * profiles.read
 
-### ランキング戦略の管理権限 {#manage-decisions}
+### [!DNL Manage ranking strategies] 権限 {#manage-decisions}
 
-**[!UICONTROL ランキング戦略の管理]**&#x200B;の高レベル権限を持つユーザーは、カスタムメッセージレポートの読み取り、作成、編集および削除や、アクション機能を使用できます。
+この **[!DNL Manage ranking strategies]** 高レベル権限を持つユーザーは、カスタムメッセージレポートの読み取り、作成、編集、削除を行い、アクション機能を使用できます。
 
 これには、次の低レベル権限が含まれます。
 
-* 決定管理固有：
+* 意思決定管理固有：
+
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -301,9 +307,9 @@ ht-degree: 100%
 
 ## 管理機能 {#administration-permissions}
 
-### サブドメインのデリゲーション権限の管理 {#manage-subdomain}
+### [!DNL Manage subdomains delegation] 権限 {#manage-subdomain}
 
-「**[!UICONTROL サブドメインのデリゲーションの管理]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行えます。
+この **[!DNL Manage subdomains delegation]** 高レベル権限を持つユーザーは、サブドメインの委任（IP プールを含む）を作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -311,18 +317,28 @@ ht-degree: 100%
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### PTR レコードの表示権限 {#view-ptr}
+### [!DNL Manage PTR records] 権限 {#manage-ptr}
 
-「**[!UICONTROL PTR レコードの表示]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定されたPTR レコードを表示できます。
+この **[!DNL Manage PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取り、作成、編集、削除を行うことができます。
+
+これには、次の低レベル権限が含まれます。
+
+* PTR_records.read
+* PTR_records.write
+* subdomains_delegation.read
+
+### [!DNL View PTR records] 権限 {#view-ptr}
+
+この **[!DNL View PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
 
 これには、次の低レベル権限が含まれます。
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### IP プールの管理権限 {#manage-ip-pools}
+### [!DNL Manage IP pools] 権限 {#manage-ip-pools}
 
-「**[!UICONTROL IP プールの管理]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行えます。
+この **[!DNL Manage IP pools]** 高レベル権限を持つユーザーは、アフィニティ定義を作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -330,9 +346,9 @@ ht-degree: 100%
 * IP_pools.write
 * IP_pools.delete
 
-### メッセージの一般設定の管理権限 {#manage-message-settings}
+### [!DNL Manage messages general settings] 権限 {#manage-message-settings}
 
-「**[!UICONTROL メッセージの一般設定の管理]**」という高レベルの権限を持つユーザーは、サンドボックスレベルでグローバル設定の作成、編集および削除を行えます。
+この **[!DNL Manage messages general settings]** 高レベル権限を持つユーザーは、サンドボックスレベルでグローバル設定を作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -343,9 +359,9 @@ ht-degree: 100%
 * Adobe Experience Platform 固有：
    * schemas.read
 
-### メッセージの一般設定の表示権限 {#view-message-settings}
+### [!DNL View messages general settings] 権限 {#view-message-settings}
 
-「**[!UICONTROL メッセージの一般設定の表示]**」という高レベルの権限を持つユーザーは、実行アドレスなどの、メッセージの一般設定を表示できます。
+この **[!DNL View messages general settings]** 高レベル権限を持つユーザーは、実行アドレスなどのメッセージの一般設定を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -354,9 +370,9 @@ ht-degree: 100%
 * Adobe Experience Platform 固有：
    * schemas.read
 
-### メッセージプリセットの管理権限 {#manage-message-presets}
+### [!DNL Manage messages presets] 権限 {#manage-message-presets}
 
-「**[!UICONTROL メッセージプリセットの管理]**」という高レベルの権限を持つユーザーは、チャネルをまたぐメッセージプリセットの作成、編集および削除をサンドボックスレベルで行えます。
+この **[!DNL Manage messages presets]** 高レベル権限を持つユーザーは、サンドボックスレベルでチャネルをまたいでメッセージプリセットを作成、編集および削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -368,20 +384,20 @@ ht-degree: 100%
    * IP_pools.read
    * mobile_setting.read（Adobe Experience Platform Launch から）
 
-### メッセージプリセットの表示権限 {#view-message-presets}
+### [!DNL View messages presets] 権限 {#view-message-presets}
 
-**[!UICONTROL メッセージプリセットの表示]**&#x200B;の高レベル権限を持つユーザーは、メッセージの作成時にどのメッセージプリセットを使うべきか理解できるように、メッセージプリセットを表示できます。
+この **[!DNL View messages presets]** 高レベル権限を持つユーザーは、メッセージの作成時に使用するメッセージプリセットを知るために、メッセージプリセットを表示できます。
 
 これには、次の低レベル権限が含まれます。
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read（Adobe Experience Platform Launch から）
+* mobile_setting.read(Adobe Experience Platform Data Collection から )
 
-### 抑制権限の管理 {#manage-suppression}
+### [!DNL Manage suppression] 権限 {#manage-suppression}
 
-「**[!UICONTROL 抑制を管理]**」という高レベルの権限を持つユーザーは、メールアドレスが抑制リストに追加されるまでのバウンス数を定義できるほか、抑制リストに対するエントリの追加や削除も行うことができます。
+この **[!DNL Manage suppression]** 高レベル権限を使用すると、ユーザーは、電子メールアドレスが抑制リストに追加される前にバウンス数を定義したり、抑制リストに対するエントリの追加や削除をおこなうことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -391,26 +407,28 @@ ht-degree: 100%
 * suppression_list.write
 * suppression_list.delete
 
-### 「抑制リストの表示」権限 {#view-suppresion-list}
+### [!DNL View suppression list] 権限 {#view-suppression-list}
 
-「**[!UICONTROL 抑制リストの表示]**」という高レベルの権限を持つユーザーは、抑制リストの内容と設定を表示できます。
+この **[!DNL View suppression list]** 高レベル権限を持つユーザーは、抑制リストのコンテンツと設定を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
 * Journey Optimizer 固有：
    * suppression_list.view
+
 * Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read
 
-### 抑制リストの書き出し権限 {#export-suppression-list}
+### [!DNL Export suppression list] 権限 {#export-suppression-list}
 
-「**[!UICONTROL 抑制リストのエクスポート]**」という高レベルの権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
+この **[!DNL Export suppression list]** 高レベル権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
 
 これには、次の低レベル権限が含まれます。
 
 * Journey Optimizer 固有：
    * suppression_list.export
+
 * Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read

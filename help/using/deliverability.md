@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 4d5e4f4295997083eb257290043b014acdcd971a
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: 99bbe96fb4e6e001c4eaba38ff445afb847670eb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,10 +78,8 @@ Spammers are also known to replace text with images to stop offending text from 
 
 [メールコンテンツのデザインの詳細情報](design-emails.md)。
 
-<!--
-## Establish your reputation as a sender
+## 送信者としての評判を確立する
 
-If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立する必要があります。そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに送られる可能性があります。
 
-To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).
--->
+IP をウォームアップするために、配信数を徐々に増やすことができます。この[ユースケース](building-journeys/ramp-up-deliveries-uc.md)を参照してください。

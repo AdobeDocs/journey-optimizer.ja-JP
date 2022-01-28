@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '219'
-ht-degree: 100%
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 100%
 メッセージが公開されると、**[!UICONTROL 公開中のアイテム]**&#x200B;ステータスでメッセージリストに追加されます。
 
 これで、1 つ以上の[ジャーニー](building-journeys/journey.md)によってトリガーされる準備が整いました。
+
+>[!NOTE]
+>
+>公開されたメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、またはオファーの決定を更新する場合、再公開する必要なく、更新内容が対応するメッセージに自動的に反映されるようになりました。 [オファーの詳細を表示](offers/get-started/starting-offer-decisioning.md)
 
 ## 読み取り専用メッセージの更新 {#modify-message}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 96%
 
 ---
 
@@ -77,11 +77,33 @@ ht-degree: 100%
 
    ![](../assets/read-segment-schedule-list.png)
 
+   この **増分読み取り** 「 」オプションを使用すると、ジャーニーの最後の実行以降にセグメントにエントリした個人のみをターゲットにすることができます。 最初の実行では、常にすべてのセグメントメンバーがターゲットになります。 このオプションは、繰り返しの場合にのみ使用できます **セグメントを読み取り** アクティビティ。
+
+<!--
+
+### Segment filters {#segment-filters}
+
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
+
+-->
+
 ### ジャーニーのテストと公開 {#testing-publishing}
 
 **[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティを使用すると、ジャーニーを単一プロファイル、またはセグメントに該当するプロファイルからランダムに選択した 100 個のテストプロファイルでテストを実行できます。
 
-これをおこなうには、テストモードをアクティブにし、左側のウィンドウから目的のオプションを選択します。
+これを行うには、テストモードをアクティブにし、左側のペインから目的のオプションを選択します。
+
 
 ![](../assets/read-segment-test-mode.png)
 
@@ -102,7 +124,6 @@ ht-degree: 100%
 >[!NOTE]
 >
 >繰り返しセグメントベースのジャーニーの場合、ジャーニーは、最後の処理が実行されると自動的にクローズします。終了日時が指定されていない場合は、新しいエントリに対するジャーニーを手動でクローズして終了する必要があります。
-
 
 ## セグメントベースのジャーニーでのオーディエンスのターゲティング
 

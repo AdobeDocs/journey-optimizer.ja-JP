@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+source-git-commit: ffd92f3e4ddaa3d31ea0f39e876958262a058a85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -195,7 +195,7 @@ _`<listExpression>.last(<condition>)`_
 この式は、バージョンが 1.0 のモバイルアプリケーションに関連付けられた最後のプッシュ通知トークンを返します。
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
 ```
 
 結果は「token_2」です。

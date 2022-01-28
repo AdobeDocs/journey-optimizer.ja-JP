@@ -6,10 +6,10 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-この例では、「**ジャーニー読み取り専用**」という名前の製品プロファイルを作成し、ジャーニー機能に読み取り専用の権限を付与します。ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の&#x200B;**[!UICONTROL 決定管理]**&#x200B;や&#x200B;**[!UICONTROL メッセージ]**&#x200B;など、他の機能にはアクセスできません。
+この例では、「**ジャーニー読み取り専用**」という名前の製品プロファイルを作成し、ジャーニー機能に読み取り専用の権限を付与します。ユーザーはジャーニーにのみアクセスして表示でき、次のような他の機能にはアクセスできません。 **[!DNL  Decision management]** または **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 **ジャーニー読み取り専用****[!UICONTROL 製品プロファイル]**&#x200B;を作成するには：
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 1. ユーザーがさまざまな機能にアクセスするための権限を追加するには、「**[!UICONTROL 権限]**」タブを選択します。
 
-1. 左側のメニューに表示されている、[!DNL Journey Optimizer] で利用可能な **[!UICONTROL メッセージ]**、**[!UICONTROL セグメント]**、**[!UICONTROL 決定管理]**&#x200B;などのさまざまな機能を選択します。
+1. 次のような様々な機能を選択します。 **[!DNL Messages]**, **[!DNL Segments]** または **[!DNL Decision management]** 次の場所で使用可能： [!DNL Journey Optimizer] リストが左側のメニューに表示されます。
 
    ここでは、**[!UICONTROL ジャーニー]**&#x200B;機能を選択します。
 
@@ -133,7 +133,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 使用可能な権限項目]**」リストでプラス（+）アイコンをクリックし、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる権限を選択します。
 
-   ここでは、「**[!UICONTROL ジャーニーを表示]**」と「**[!UICONTROL ジャーニーイベント、データソース、およびアクションを表示]**」を選択します。
+   ここでは、 **[!DNL View journeys]** および **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

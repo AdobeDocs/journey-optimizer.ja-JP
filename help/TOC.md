@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: ht
-source-wordcount: '890'
-ht-degree: 100%
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
       + [オブジェクト関数](using/personalization/functions/objects.md)
       + [文字列関数](using/personalization/functions/string.md)
    + [パーソナライズされたオファーの追加](using/deliver-personalized-offers.md)
-+ セグメント、プロファイル、ID{#segment}
++ セグメント、プロファイルおよび ID{#segment}
    + セグメント {#segments}
       + [セグメントの基本を学ぶ](using/segment/about-segments.md)
       + [セグメントの作成](using/segment/creating-a-segment.md)
@@ -190,9 +190,7 @@ ht-degree: 100%
       + [Campaign v7/v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [配信のランプアップ](using/building-journeys/ramp-up-deliveries-uc.md)
 + トラッキングとモニタリング {#reporting}
    + [メッセージのモニタリング](using/message-monitoring.md)
    + ライブレポート {#live-report}
@@ -230,8 +228,9 @@ ht-degree: 100%
       + [ランディングページのレポート](using/landing-pages/lp-report.md)
       + [購読リストのレポート](using/landing-pages/subscription-report.md)
 + 意志決定管理 {#offer-decisioniong}
-   + 意志決定管理の基本を学ぶ {#get-started}
-      + [意志決定管理について](using/offers/get-started/starting-offer-decisioning.md)
+   + 意思決定管理の基本を学ぶ {#get-started}
+
+      + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
       + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
       + [オファーを作成および管理するための主要ステップ](using/offers/offer-library/key-steps.md)
       + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
@@ -249,9 +248,10 @@ ht-degree: 100%
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
       + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
-   + 意志決定管理レポートの作成 {#create-reports}
-      + [意志決定管理イベントの基本を学ぶ](using/offers/reports/get-started-events.md)
-      + [意志決定管理イベントの主な情報](using/offers/reports/key-information.md)
+   + 意思決定管理レポートの作成 {#create-reports}
+      + [意思決定管理イベントの概要
+](using/offers/reports/get-started-events.md)
+      + [意思決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)

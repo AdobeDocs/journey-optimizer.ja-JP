@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: e01aacc63f0d395aed70bf9c332db19b322380f0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,22 @@ ht-degree: 100%
 <!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
 ランキング戦略を作成したら、決定内のプレースメントに割り当てます。詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
+
+### 自動最適化モデル {#auto-optimization}
+
+現在 [!DNL Journey Optimizer] AI ランキングでサポートされているモデルタイプは次のとおりです。 **自動最適化**.
+
+自動最適化モデルは、設定した主要業績評価指標 (KPI) に基づいて、収益を最大化するオファーを提供することを目的としています。 <!--These KPIs could be in the form of conversion rates, revenue, etc.-->この時点で、自動最適化は、オファーコンバージョンをターゲットとするオファークリック数の最適化に焦点を当てます。
+
+>[!NOTE]
+>
+>自動最適化モデルでは、コンテキストデータやユーザープロファイルデータは使用されません。 オファーのグローバルパフォーマンスに基づいて結果を最適化します。
+
+自動最適化では、探索的学習とその学習の活用のバランスを取ることが課題です。 この原則は、 **「マルチアームバンディット」アプローチ**.
+
+この課題に取り組むために、自動最適化モデルでは、 **トンプソンサンプリング** メソッド：期待される報酬を最大化するために追跡するオプションを特定できます。 つまり、トンプソンサンプリングは、マルチアームバンディット問題での探査 — 搾取のジレンマを解決するための強化学習手法の一種です。
+
+また、トンプソンサンプリング方式を使用すると、「コールドスタート」の問題（キャンペーンに新しいオファーが導入された場合に、そのキャンペーンでトレーニングできる履歴がない）に対処できます。
 
 ## ランキング戦略の作成 {#create-ranking-strategy}
 
@@ -78,7 +94,7 @@ ht-degree: 100%
 
    ![](../../assets/ai-ranking-save-activate.png)
 
-これで、プレースメントに対して適格なオファーをランク付けする決定で使用する準備が整いました。詳しくは、[この節](../offer-activities/configure-offer-selection.md#use-ranking-strategy)を参照してください。<!--TBC?-->
+これで、プレースメントに対して実施要件を満たすオファーをランク付けする決定で使用する準備が整いました。詳しくは、[この節](../offer-activities/configure-offer-selection.md#use-ranking-strategy)を参照してください。<!--TBC?-->
 
 ## イベントを収集するデータセットの作成 {#create-dataset}
 
@@ -139,9 +155,80 @@ ht-degree: 100%
 
    ![](../../assets/ai-ranking-dataset-name.png)
 
-これで、[ランキング戦略](#create-ranking-strategy)を作成したときにコンバージョンイベントを収集するためのデータセットを選択できる状態になりました。
+これで、データセットを選択して、イベントデータを収集する準備が整いました。 [ランキング戦略の作成](#create-ranking-strategy).
 
-<!--## Using a ranking strategy {#using-ranking}
+## オファースキーマの要件 {#schema-requirements}
+
+この時点で、次の条件を満たす必要があります。
+
+* ランキング戦略を作り上げ
+* キャプチャするイベントのタイプを定義 — 表示されたオファー（インプレッション）やクリックされたオファー（コンバージョン）
+* イベントデータを収集するデータセット。
+
+これで、オファーが表示またはクリックされるたびに、対応するイベントが **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** フィールドグループを [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} または Mobile SDK。
+
+イベントタイプ（表示されたオファーまたはオファーをクリックしたオファー）を送信できるようにするには、Adobe Experience Platformに送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。 JavaScript コードに実装する必要があるスキーマ要件を次に示します。
+
+**シナリオ：** 表示されたオファー
+**イベントタイプ：** `decisioning.propositionDisplay`
+**ソース：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) またはバッチ取得
+**サンプルペイロード：**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionDisplay",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4",
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5",
+                }
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+        }
+    ]
+}
+```
+
+**シナリオ：** オファーのクリック
+**イベントタイプ：** `decisioning.propositionInteract`
+**ソース：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) またはバッチ取得
+**サンプルペイロード：**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionInteract",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4"
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5"
+                },
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id
+        }
+    ]
+}
+```
+
+<!--
+## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
@@ -156,5 +243,6 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 1. Click Next to confirm.
 1. Save your decision.
 
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).-->
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
+-->
 

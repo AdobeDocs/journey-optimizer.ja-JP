@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
-workflow-type: ht
-source-wordcount: '1338'
-ht-degree: 100%
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
    * プレースメントの作成
    * 決定ルールの作成
    * タグの作成
-   * ランク付けの作成（オプション）
+   * ランキングを作成（オプション）
 
 1. [オファーの設定](#configure-offers)
 
@@ -55,7 +55,8 @@ ht-degree: 100%
    * 選択したプレースメントと互換性のある項目から決定を選択する
    * オファーのプレビュー
 
-電子メールでオファーを使用する全体的な決定管理プロセスは、次のように説明できます。
+電子メールでオファーを使用する全体的な意思決定管理プロセスは、次のように説明できます。
+
 
 ![](../assets/offers-e2e-process.png)
 
@@ -63,7 +64,8 @@ ht-degree: 100%
 
 オファーの作成を開始する前に、オファーで使用する複数のコンポーネントを定義する必要があります。
 
-これらは、**[!UICONTROL 決定管理]**／**[!UICONTROL コンポーネントメニュー]**&#x200B;の下に表示されます。
+これらは、**[!UICONTROL 意思決定管理]**／**[!UICONTROL コンポーネントメニュー]**の下に表示されます。
+
 
 1. 最初に、オファーの&#x200B;**プレースメント**&#x200B;を作成します。
 
@@ -77,7 +79,8 @@ ht-degree: 100%
 
    ![](../assets/offers-e2e-placements.png)
 
-   配置を作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-placements.md)で説明します。
+   プレースメントを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-placements.md)で説明します。
+
 
 1. **決定ルール**&#x200B;を作成します。
 
@@ -209,7 +212,8 @@ ht-degree: 100%
 
    ランキング式をプレースメントに割り当てる詳細な手順については、[この節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula)で説明します。
 
-1. 作成したフォールバックオファーを選択します。 これは、選択した 3 つの配置に対して使用可能なフォールバックオファーとして表示されます。
+1. 作成したフォールバックオファーを選択します。 これは、選択した 3 つのプレースメントに対して使用可能なフォールバックオファーとして表示されます。
+
 
    ![](../assets/offers-e2e-decision-fallback.png)
 
@@ -239,7 +243,8 @@ ht-degree: 100%
 
 1. 表示するオファーに対応するプレースメントを「**[!UICONTROL プレースメント]**」ドロップダウンリストから選択します。
 
-   この場合、この例の一部として以前に作成したプレースメントから、電子メールで決定を使用する際に使用可能なのは「 **メール - 画像**」プレースメントのみです。詳細は、[配置の作成](../../using/offers/offer-library/creating-placements.md)を参照してください。
+   この場合、この例の一部として以前に作成したプレースメントから、電子メールで決定を使用する際に使用可能なのは「 **メール - 画像**」プレースメントのみです。詳細は、[プレースメントの作成](../../using/offers/offer-library/creating-placements.md)を参照してください。
+
 
    ![](../assets/offers-e2e-select-placement-in-decision.png)
 
@@ -251,13 +256,18 @@ ht-degree: 100%
    >
    >選択したプレースメントと互換性のある決定のみがリストに表示されます。
 
-これで、パーソナライズされたすべてのオファーとフォールバックオファーが電子メールデザイナーで視覚化されて表示されるようになります。
+これで、すべてのパーソナライズされたオファーとフォールバックオファーが電子メールデザイナーで視覚化されて表示されるようになります。
+
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
 **[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印（右向き矢印と左向き矢印）を使用して、データを参照します。 また、顧客プロファイルを使用して、決定の一部である様々なオファーを表示することもできます。詳しくは、[この節](../../using/deliver-personalized-offers.md#preview-offers-in-email)を参照してください。
 
 変更を保存し、メッセージを公開すると、ジャーニーの一部としてメッセージを送信する際に、関連するプロファイルにオファーが表示されるようになります。
+
+>[!NOTE]
+>
+>オファー、フォールバックオファー、オファーコレクション、または [公開済み](../../using/publish-manage-message.md) メッセージを再公開する必要なく、更新内容が対応するメッセージに自動的に反映されるようになりました。
 
 **関連トピック：**
 

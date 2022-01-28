@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,11 +13,18 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新点がすべてリストアップされています。
 
+## 2022年1月
+
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 1 月リリースの詳細は、ドキュメントに記載されています。 [詳細情報](release-notes.md)
+
+* offer decisioningAI ランキングの節が更新され、自動最適化モデルの詳細な説明が追加されました。 [詳細情報](offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* ランキング戦略を使用する際にイベントタイプを送信できるようにする必要があるスキーマ要件に関する新しい節が追加されました。 [詳細情報](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## 2021年11月
 
 * ジャーニーで使用される高度な式エディターで、完全な説明を利用できるようになりました。[詳細情報](building-journeys/expression/expressionadvanced.md)
-* 新しい CNAME サブドメインのデリゲーション方法。[詳細情報](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* CNAME サブドメインのデリゲーション方法に関する新しい節が追加されました。 [詳細情報](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## 2021年10月
 
@@ -63,7 +70,8 @@ ht-degree: 100%
 ## 2021 年 8 月
 
 *  [!DNL Journey Optimizer] の 8 月 21 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。 [詳細情報](release-notes.md)
-* 決定管理権限を更新しました。 [詳細情報](administration/ootb-product-profiles.md)
+* 意思決定管理権限を更新しました。
+[詳細情報](administration/ootb-product-profiles.md)
 * 電子メールデザイナーのスクリーンショットに最新の UI を反映しました。
 * カスタムアクションの設定手順に動的 URL パスと動的ヘッダーを反映しました。[詳細情報](action/about-custom-action-configuration.md#url-configuration)
 * アクセシビリティ機能とショートカットに関する節を追加しました。[詳細情報](user-interface.md#accessibility)

@@ -6,10 +6,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,8 +88,6 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
    ![](../assets/preset-active.png)
-
-プッシュ通知およびメールのメッセージプリセットを設定する方法については、[この節](message-presets.md)を参照してください。
 
 これで、Journey Optimizer で SMS メッセージを送信する準備が整いました。
 

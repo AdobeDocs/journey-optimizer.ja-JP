@@ -2,16 +2,99 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
-workflow-type: ht
-source-wordcount: '2077'
-ht-degree: 100%
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # リリースノート {#release-notes}
 
-このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。[ドキュメントの最新の更新点](documentation-updates.md)も参照してください。
+このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、 [最新のドキュメント更新](documentation-updates.md) ページを参照してください。
+
+## 2022 年 1 月リリース
+
+### 新機能
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニー — プロファイルキャップ条件で IP ランプを最適化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>を設定する際 <strong>条件</strong> ジャーニーのアクティビティで、プロファイルのキャップを定義できるようになりました。 この新しい条件タイプでは、ジャーニーパスのプロファイルの最大数を設定できます。 この制限に達すると、入力プロファイルは代替パスを使用します。これにより、配信のボリュームを増やす（IP ランプアップ）ことができます。 例えば、実行を分割して、1 つのドメインで配信をランプアップしたい場合があります。1 日目に 1,000 通のメッセージを送信し、2 日目に 2,000 通のメッセージを送信します。</p>
+<p>詳しくは、 <a href="building-journeys/condition-activity.md#profile_cap">詳細なドキュメント</a> および関連 <a href="building-journeys/ramp-up-deliveries-uc.md">使用例の例</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<!--th><strong>Journeys - Leverage segment entrances and exits in Read segment</strong><br/></th-->
+<th><strong>ジャーニー — セグメントの読み取りの改善</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<!--p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p-->
+<p>この <strong>増分読み取り</strong> オプションが繰り返しに追加されました <strong>セグメントを読み取り</strong> アクティビティ。 このオプションを使用すると、ジャーニーの最後の実行以降にセグメントに入った個人のみをターゲットにすることができます。 最初の実行では、常にすべてのセグメントメンバーがターゲットになります。</p>
+<p>詳しくは、 <a href="building-journeys/read-segment.md#configuring-segment-trigger-activity">詳細なドキュメント</a>を参照してください。
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化
+
+<!--
+**Performances**
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
+-->
+
+**ジャーニー**
+
+* Journey Optimizerステップイベントを [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja). この **profileID** フィールド ( 組み込みのジャーニーステップイベントスキーマ ) は、id フィールドとして定義されます。 [詳細情報](reports/sharing-overview.md#integration-cja)
+
+<!--
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
+-->
+
+**Offer Decisioning**
+
+<!--* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)-->
+
+* 公開されたメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、またはオファーの決定を更新する場合、再公開する必要なく、更新内容が対応するメッセージに自動的に反映されるようになりました。 [詳細情報](offers/offers-e2e.md#insert-decision-in-email)
+
+**管理**
+
+* 管理者は、CNAME が設定されたサブドメインで PTR レコードを編集できるようになりました。 [詳細情報](configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+**パーソナライゼーション**
+
+* **お気に入りに追加**  — パーソナライゼーションを使用する際の効率を高めるために、お気に入りの保存という概念を導入しました。 お気に入りメニューに異なる属性を追加すると、頻繁に使用する項目にすばやくアクセスできます。 [詳細情報](personalization/personalize.md#fav)
+
+<!--
+
+**Reporting**
+
+* New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
+* Deliveries can now be filtered depending on their status:
+
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
+    * From your Live/Global reports, you can choose to exclude journey test events.
+
+    [Learn more](message-monitoring.md)
+
+* From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
+
+-->
 
 ## 2021年11月リリース
 
@@ -32,7 +115,6 @@ ht-degree: 100%
 </tbody>
 </table>
 
-
 ## 2021年10月リリース {#oct-2021-release}
 
 <!--table>
@@ -51,22 +133,7 @@ ht-degree: 100%
 </tbody>
 </table-->
 
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journeys - Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### 新機能
 
 <table>
 <thead>
@@ -109,7 +176,6 @@ ht-degree: 100%
 
 * **式エディター** - パワーユーザーは、関数を使用してマップを操作できるようになりました。この機能は、サブスクリプションリストで利用できます。例えば、セグメントでは、サブスクリプションリストからメールアドレスを取得できるようになりました。詳しくは、[このサンプル](building-journeys/message-to-subscribers-uc.md)を参照してください。
 
-   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 * **監視** - ライブジャーニーのステップイベントとテストモードが強化されました。プロファイルエクスポートジョブに関連する[新規フィールド](reports/sharing-field-list.md#serviceevents)が追加されました。ユーザーエクスペリエンスを向上させるために、ステップイベントフィールドが様々なカテゴリに分類されるようになりました。以前のステップイベントフィールドはすべて、引き続き[stepEvents](reports/sharing-legacy-fields.md) カテゴリで使用できます。
 * **アクセシビリティ** - ジャーニーにアクセシビリティ機能の強化が実装されました。
 * **コレクション** - サブオブジェクトを含んだオブジェクトの配列がサポートされるようになりました。[詳細情報](building-journeys/collections.md)
@@ -129,6 +195,7 @@ ht-degree: 100%
 **パーソナライゼーション**
 
 * **日付書式設定用の新しいヘルパー関数** - 日付文字列の表現方法を指定できるようになりました。 [詳細情報](personalization/functions/dates.md#format-date)
+
 
 **意思決定管理**
 
