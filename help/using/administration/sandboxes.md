@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: 7d466d87c337053b32489df6dedbfd4c350230bb
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 100%
 [!DNL Journey Optimizer] は、特定の組織用に作成された Adobe Experience Platform サンドボックスを反映します。
 Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳細については、Sandbox ユーザーガイドを参照](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}してください。
 
-画面の左上に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
+画面の右上の組織名の横に、サンドボックス切り替えコントロールがあります。 サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
+
+![](../assets/sandbox_5.png)
 
 ➡️ [この機能をビデオで確認](#video)
 

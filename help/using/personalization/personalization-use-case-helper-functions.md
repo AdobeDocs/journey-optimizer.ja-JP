@@ -1,13 +1,13 @@
 ---
 title: パーソナライゼーションのユースケース&colon; カート放棄メール
-description: ヘルパー関数を使用してメッセージをパーソナライズする方法を説明します
+description: ヘルパー関数を使用してメッセージをパーソナライズする方法を説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
 
@@ -207,7 +207,6 @@ ht-degree: 100%
       </table>
    {{/each}}
    ```
-   
 1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
    ![](../assets/personalization-uc-helpers-11.png)
 

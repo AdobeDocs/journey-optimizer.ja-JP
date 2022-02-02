@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1050'
+ht-degree: 55%
 
 ---
 
@@ -319,7 +319,7 @@ ht-degree: 0%
 
 ### [!DNL Manage PTR records] 権限 {#manage-ptr}
 
-この **[!DNL Manage PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取り、作成、編集、削除を行うことができます。
+この **[!DNL Manage PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集が可能です。
 
 これには、次の低レベル権限が含まれます。
 

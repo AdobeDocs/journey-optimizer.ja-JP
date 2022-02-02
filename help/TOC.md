@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+source-git-commit: 01573675c28972f863e3516577d8a06b403de312
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 99%
+source-wordcount: '910'
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 99%
       + [プッシュ通知の作成](using/create-push.md)
       + [SMS メッセージの作成](using/create-sms.md)
    + [アセットの追加と管理](using/assets-essentials.md)
+   + [パーソナライズされたオファーの追加](using/deliver-personalized-offers.md)
    + メールのデザイン {#email-designer}
       + [メールデザインの基本を学ぶ](using/design-emails.md)
       + [UI でのメールコンテンツのデザイン](using/create-email-content.md)
@@ -49,24 +50,28 @@ ht-degree: 99%
    + [オプトアウトの管理](using/consent.md)
 + パーソナライゼーション{#personalization}
    + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
-   + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-   + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
+   + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
+   + 式エディターの操作 {#expression-editor}
+      + [式エディターについて](using/personalization/personalization-build-expressions.md)
+      + [属性をお気に入りに追加](using/personalization/personalization-favorites.md)
+      + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
+   + 式の作成 {#build-expressions}
+      + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
+      + ヘルパー関数{#functions}
+         + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
+         + [集計関数](using/personalization/functions/aggregation.md)
+         + [演算関数](using/personalization/functions/arithmetic-functions.md)
+         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
+         + [日付関数](using/personalization/functions/dates.md)
+         + [ブール関数と比較関数](using/personalization/functions/operators.md)
+         + [ヘルパー](using/personalization/functions/helpers.md)
+         + [マップ関数](using/personalization/functions/maps.md)
+         + [オブジェクト関数](using/personalization/functions/objects.md)
+         + [文字列関数](using/personalization/functions/string.md)
    + ユースケース{#personalization-use-cases}
       + [注文ステータスの通知](using/personalization/personalization-use-case.md)
       + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
-   + ヘルパー関数{#functions}
-      + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
-      + [集計関数](using/personalization/functions/aggregation.md)
-      + [演算関数](using/personalization/functions/arithmetic-functions.md)
-      + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
-      + [日付関数](using/personalization/functions/dates.md)
-      + [ブール関数と比較関数](using/personalization/functions/operators.md)
-      + [ヘルパー](using/personalization/functions/helpers.md)
-      + [マップ関数](using/personalization/functions/maps.md)
-      + [オブジェクト関数](using/personalization/functions/objects.md)
-      + [文字列関数](using/personalization/functions/string.md)
-   + [パーソナライズされたオファーの追加](using/deliver-personalized-offers.md)
-+ セグメント、プロファイルおよび ID{#segment}
++ セグメント、プロファイル、ID{#segment}
    + セグメント {#segments}
       + [セグメントの基本を学ぶ](using/segment/about-segments.md)
       + [セグメントの作成](using/segment/creating-a-segment.md)

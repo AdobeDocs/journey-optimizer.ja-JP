@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 |-|-|
 |ジャーニー| <ul><li> **[!DNL Manage journeys]**:ジャーニーの読み取り、作成、編集、削除を行います。</li><li>**[!DNL Publish journeys]**:ジャーニーを公開します。</li><li>**[!DNL Manage journeys events, data sources and actions]**:イベント、ソース、アクションの読み取り、作成、編集、削除</li><li>**[!DNL View journeys report]**:ジャーニーレポートを読み取り、編集します。</li></ul>|
 |メッセージ|<ul><li> **[!DNL Manage messages]**:メッセージのプレビューを読み取り、作成、編集し、テスト/配達確認を送信します。</li><li>**[!DNL Manage messages preview and test]**:メッセージを公開します。</li><li>**[!DNL Publish messages]**:メッセージのプレビューを読み取り、作成および編集し、テスト/配達確認を送信します。</li><li>**[!DNL View messages report]**:メッセージレポートを読み取り、編集します。</li></ul>|
-|管理|<ul><li>**[!DNL Manage subdomains delegation]**:サブドメインデリゲーションの読み取り、作成、編集および削除</li><li>**[!DNL Manage IP pools]**:ip プールを読み取り、作成、編集、削除します。</li><li>**[!DNL Manage PTR records]**:PTR レコードを読み取り、作成、編集、削除します。</li><li>**[!DNL View PTR records]**:PTR レコードへの読み取り専用アクセス</li><li> **[!DNL Manage messages general settings]**:メッセージの一般設定の読み取り、作成、編集、削除</li><li>**[!DNL Manage messages presets]**:コンテンツのブランディングを読み取り、作成、編集および削除します。</li><li>**[!DNL Manage suppression rules]**:抑制ルールの読み取り、作成、編集および削除にアクセスします。</li><li>**[!DNL View suppression list]**:ローカル抑制リストの読み取りと書き出しを行います。</li><li>**[!DNL Manage alerts]**:ジャーニー、メッセージ、権限に関するアラートを有効/無効にします。</li></ul>|
+|管理|<ul><li>**[!DNL Manage subdomains delegation]**:サブドメインデリゲーションの読み取り、作成、編集および削除</li><li>**[!DNL Manage IP pools]**:ip プールを読み取り、作成、編集、削除します。</li><li>**[!DNL Manage PTR records]**:PTR レコードを読み取り、編集します。</li><li>**[!DNL View PTR records]**:PTR レコードへの読み取り専用アクセス</li><li> **[!DNL Manage messages general settings]**:メッセージの一般設定の読み取り、作成、編集、削除</li><li>**[!DNL Manage messages presets]**:コンテンツのブランディングを読み取り、作成、編集および削除します。</li><li>**[!DNL Manage suppression rules]**:抑制ルールの読み取り、作成、編集および削除にアクセスします。</li><li>**[!DNL View suppression list]**:ローカル抑制リストの読み取りと書き出しを行います。</li><li>**[!DNL Manage alerts]**:ジャーニー、メッセージ、権限に関するアラートを有効/無効にします。</li></ul>|
 |意思決定管理|<ul><li>**[!DNL Manage decisions]**:決定の読み取り、作成、編集および削除</li><li>**[!DNL Manage ranking strategies]**:カスタムメッセージレポートの読み取り、作成、編集、削除、およびアクション機能の使用</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**:サンドボックスへのアクセス権を付与する。</li><li>**[!DNL Manage segments]**:セグメントの読み取り、作成、編集、削除</li><li>**[!DNL Manage profiles]**:プロファイルの読み取り、作成、編集、削除</li><li>**[!DNL Read datasets]**:データセットへの読み取り専用アクセス</li><li>**[!DNL Read schemas]**:スキーマへの読み取り専用アクセス</li><li>**[!DNL Read Identity namespace]**:id 名前空間への読み取り専用アクセス</li><li>**[!DNL Manage merge policies]**:結合ポリシーの読み取り、作成、編集、削除</li></ul>|
 

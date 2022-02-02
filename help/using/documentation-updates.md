@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '879'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 * offer decisioningAI ランキングの節が更新され、自動最適化モデルの詳細な説明が追加されました。 [詳細情報](offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
 * ランキング戦略を使用する際にイベントタイプを送信できるようにする必要があるスキーマ要件に関する新しい節が追加されました。 [詳細情報](offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
+* 関連するセクション [!DNL Journey Optimizer] パーソナライゼーション機能が再編成され、読みやすくなりました。 [詳細情報](personalization/personalize.md)
 
 ## 2021年11月
 
