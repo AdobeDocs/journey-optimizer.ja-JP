@@ -7,8 +7,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
-workflow-type: ht
+source-git-commit: e36b81fd3cdfa0cc6efe1a85316fcb4f5a9c9764
+workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
 
@@ -17,7 +17,6 @@ ht-degree: 100%
 # Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
-
 
 <table style="table-layout:fixed">
 <tr>
@@ -71,7 +70,7 @@ ht-degree: 100%
     <p>[!DNL Journey Optimizer] ユーザーに割り当てられる権限を定義し管理する方法について説明します
     <p>
     <div>
-    <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">意思決定管理</a>
     </div>
     <p>オファーを作成し最適なオファーとエクスペリエンスを顧客に提供する方法を説明します
     <p>
@@ -115,7 +114,8 @@ ht-degree: 100%
       <a href="using/create-message.md">メッセージ</a>
     </li>
     <p>
-    <p>決定管理</p>
+    <p>意思決定管理
+</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">オファー</a>
     </li>
