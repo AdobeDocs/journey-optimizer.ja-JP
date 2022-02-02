@@ -16,14 +16,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
+source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 95%
+source-wordcount: '1468'
+ht-degree: 93%
 
 ---
 
 # サブドメインのデリゲート
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname"
+>title="サブドメインのデリゲーションについて"
+>abstract="Journey Optimizerを使用すると、サブドメインをAdobeに完全にデリゲートできます。 Adobeは、DNS のあらゆる側面を制御し、維持することで、管理対象のサービスとしてメッセージを配信できます。"
+
 
 ドメイン名のデリゲーションによって、ドメイン名（技術的には DNS ゾーン）の所有者はその一部（技術的にはその配下の DNS ゾーン。サブゾーンと呼ばれることもあります）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。
 
@@ -89,7 +95,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]****
+>現在、サブドメインの並列実行は、 [!DNL Journey Optimizer]. 別のドメインに **[!UICONTROL 処理中]** のステータスに値を指定すると、エラーメッセージが表示されます。
 
 ## CNAME サブドメインのデリゲーション {#cname-subdomain-delegation}
 
@@ -157,7 +163,7 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]****
+>現在、サブドメインの並列実行は、 [!DNL Journey Optimizer]. 別のドメインに **[!UICONTROL 処理中]** のステータスに値を指定すると、エラーメッセージが表示されます。
 
 ## サブドメインの検証 {#subdomain-validation}
 
