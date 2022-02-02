@@ -6,8 +6,8 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -49,22 +49,25 @@ curl -X POST \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}' \
   -d '{
-        "xdm:name": "Activity 1",
-        "xdm:startDate": "2020-10-01T16:00:00Z",
-        "xdm:endDate": "2021-12-13T16:00:00Z",
-        "xdm:status": "live",
-        "xdm:criteria": [
-            {
-                "xdm:placements": [
-                    "xcore:offer-placement:122204529514a2c0"
-                ],
-                "xdm:optionSelection": {
-                    "xdm:filter": "xcore:offer-filter:122a120f234dac7f"
-                }
-            }
-        ],
-        "xdm:fallback": "xcore:fallback-offer:1233160780eaa2ef"
-    }'
+      "_instance": {
+          "xdm:name": "Test API",
+          "xdm:startDate": "2022-01-20T16:00:00Z",
+          "xdm:endDate": "2022-01-27T16:00:00Z",
+          "xdm:status": "live",
+          "xdm:criteria": [
+              {
+                  "xdm:placements": [
+                      "xcore:offer-placement:1457f9322f005194"
+                  ],
+                  "xdm:optionSelection": {
+                      "xdm:filter": "xcore:offer-filter:1457f93227d0b6f0"
+                  }
+              }
+          ],
+          "xdm:fallback": "xcore:fallback-offer:13c259399d8bf013"
+      },
+      "_links": {}
+  }'
 ```
 
 **応答**
