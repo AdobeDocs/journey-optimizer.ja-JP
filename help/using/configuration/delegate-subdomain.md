@@ -16,7 +16,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
+source-git-commit: 6e5bdf6a23621b7f645283dc6486d485bd8ee8cf
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 93%
@@ -29,7 +29,6 @@ ht-degree: 93%
 >id="ajo_admin_subdomainname"
 >title="サブドメインのデリゲーションについて"
 >abstract="Journey Optimizerを使用すると、サブドメインをAdobeに完全にデリゲートできます。 Adobeは、DNS のあらゆる側面を制御し、維持することで、管理対象のサービスとしてメッセージを配信できます。"
-
 
 ドメイン名のデリゲーションによって、ドメイン名（技術的には DNS ゾーン）の所有者はその一部（技術的にはその配下の DNS ゾーン。サブゾーンと呼ばれることもあります）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。
 
