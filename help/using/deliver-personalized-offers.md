@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 695eec156c7d159d2ab10a6aeb27a35108d704c0
+workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 100%
 
@@ -19,7 +19,8 @@ ht-degree: 100%
 
 例えば、受信者のロイヤルティレベルに応じて変わる特別割引オファーを、メールに表示する決定を追加できます。
 
-ランキング式の作成方法について詳しくは、[この節](offers/get-started/starting-offer-decisioning.md)を参照してください。
+オファーの管理および作成方法について詳しくは、[この節](offers/get-started/starting-offer-decisioning.md)を参照してください。
+
 
 オファーの設定方法を示す&#x200B;**完全なエンドツーエンドの例**&#x200B;については、オファーを決定で使用し、この決定をメールで活用して、[この節](offers/offers-e2e.md#insert-decision-in-email)を参照してください。
 
@@ -109,3 +110,4 @@ ht-degree: 100%
 [!DNL Journey Optimizer] でメッセージに Offer Decisioning コンポーネントを追加する方法を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
+
