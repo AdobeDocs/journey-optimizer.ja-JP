@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: cbb9aa1df7efd60407f4538edf519d96780c4961
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 72%
 
 ---
 
-# PTR レコード
+# PTR レコード {#ptr-records}
 
 ## PTR レコードについて
 

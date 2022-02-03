@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
-# プライマリメールアドレスの変更
+# プライマリメールアドレスの変更 {#change-primary-email}
 
 プロファイルをターゲットにする場合、使用できるメールアドレスがデータベース内に複数ある（個人用、仕事用のメールアドレスなど）場合があります。
 

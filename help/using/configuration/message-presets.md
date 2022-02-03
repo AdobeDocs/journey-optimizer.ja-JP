@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
-workflow-type: ht
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+workflow-type: tm+mt
 source-wordcount: '1751'
 ht-degree: 100%
 
 ---
 
-# メッセージプリセットの作成
+# メッセージプリセットの作成 {#message-presets-creation}
 
 [!DNL Journey Optimizer] では、メッセージプリセットを設定して、メールとプッシュ通知メッセージに必要な技術的パラメーター（メールのタイプ、送信者のメールと名前、モバイルアプリなど）を定義しておくことができます。
 
@@ -164,7 +164,7 @@ ht-degree: 100%
 
 メッセージプリセットの作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にご連絡ください。
+これらのエラーのいずれかが発生した場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にご連絡ください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 

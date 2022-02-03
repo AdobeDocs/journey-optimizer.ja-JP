@@ -9,15 +9,15 @@ solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
-workflow-type: ht
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Optimizer] 設定の基本を学ぶ
+# [!DNL Journey Optimizer] 設定の基本を学ぶ {#start-optimizer-configuration}
 
 [!DNL Journey Optimizer]に初めてアクセスする際には、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 

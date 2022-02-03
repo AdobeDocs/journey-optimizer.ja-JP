@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6e5bdf6a23621b7f645283dc6486d485bd8ee8cf
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 93%
 
 ---
 
-# サブドメインのデリゲート
+# サブドメインのデリゲート {#delegate-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"

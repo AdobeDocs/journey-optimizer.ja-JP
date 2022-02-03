@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
-workflow-type: ht
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
 ---
 
-# [!DNL Journey Optimizer] でのサブドメインのデリゲーション
+# [!DNL Journey Optimizer] でのサブドメインのデリゲーション {#subdomain-delegation}
 
 メールキャンペーン用のサブドメインを作成すると、異なるタイプのトラフィック（マーケティングと企業など）を特定の IP プールと特定のドメインに分離できるので、IP ウォーミングプロセスが加速し、全体の配信品質が向上します。ドメインを共有している場合、そのドメインがブロックされたり、ブロックリストに追加されたりすると、会社のメール配信に影響を与える可能性があります。ただし、メールマーケティングのやりとりに固有のドメインを使用していると、ドメインに関するレピュテーション問題やブロックが与える影響は、そのドメインのメールのフローにとどまります。メインドメインを複数のメールストリームの送信者や「送信元」アドレスとして使用すると、メールの認証が機能せず、メッセージがブロックされたり、スパムフォルダーに仕分けられたりする可能性があります。
 

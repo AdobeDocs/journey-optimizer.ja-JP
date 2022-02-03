@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 98%
@@ -28,7 +28,7 @@ ht-degree: 98%
       + [開発者向けの基本を学ぶ](using/path/developer.md)
    + [ユーザーインターフェイス](using/user-interface.md)
    + [制限事項](using/limitations.md)
-+ メッセージ {#create-messages}
++ メッセージ {#messages}
    + [メッセージの基本を学ぶ](using/get-started-content.md)
    + メッセージの作成 {#create-message}
       + [メッセージの作成](using/create-message.md)
@@ -43,7 +43,7 @@ ht-degree: 98%
       + [メールコンテンツのインポートまたはコーディング](using/existing-content.md)
       + [電子メールデザイナーのコンテンツ用コンポーネントの使用](using/content-components.md)
    + [リンクの追加とメッセージのトラッキング](using/message-tracking.md)
-   + 検証と公開 {#create-message}
+   + 検証と公開 {#validate}
       + [プレビューと配達確認](using/preview.md)
       + [アラートの確認](using/alerts.md)
       + [メッセージの公開](using/publish-manage-message.md)
@@ -233,7 +233,7 @@ ht-degree: 98%
       + [ランディングページのレポート](using/landing-pages/lp-report.md)
       + [購読リストのレポート](using/landing-pages/subscription-report.md)
 + 意志決定管理 {#offer-decisioniong}
-   + 意思決定管理の基本を学ぶ {#get-started}
+   + 意思決定管理の基本を学ぶ {#get-started-decision}
 
       + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
       + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
@@ -316,13 +316,13 @@ ht-degree: 98%
    + [スキーマ](using/get-started-schemas.md)
    + [データセット](using/get-started-datasets.md)
    + [クエリ](using/get-started-queries.md)
-+ 設定 {#get-started}
++ 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
-   + メッセージの設定 {#configuration}
+   + メッセージの設定 {#configuration-message}
       + プッシュ通知の設定 {#push-config}
          + [プッシュ設定の基本を学ぶ](using/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push-configuration.md)
-      + メールの設定 {#email-config}
+      + メールの設定 {#email-configuration}
          + サブドメインのデリゲート {#delegate-subdomains}
             + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
             + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
@@ -357,7 +357,7 @@ ht-degree: 98%
          + [アクションの設定](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign v7/v8 との統合](using/action/acc-action.md)
    + [ソース](using/get-started-sources.md)
-+ アクセス制御 {#administration}
++ アクセス制御 {#access-control}
    + [アクセス制御の概要](using/administration/permissions-overview.md)
    + [ビルトインの製品プロファイル](using/administration/ootb-product-profiles.md)
    + [ユーザーと製品プロファイルの管理](using/administration/permissions.md)

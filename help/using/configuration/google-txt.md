@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 1d7f661dc0a89e4754a76ecf2cdce1e43a5275ec
-workflow-type: ht
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
 
 ---
 
-# サブドメインへの Google TXT レコードの追加
+# サブドメインへの Google TXT レコードの追加 {#google-txt-record}
 
 TXT レコードは、ドメインに関するテキスト情報を提供するための一種の DNS レコードで、外部ソースから読み取ることができます。
 
