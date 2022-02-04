@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
 ---
 
-# 条件命令（if、then、else） {#section_cdz_lsk_w3b}
+# 条件命令（if、then、else） {#conditional-instruction}
 
 高度なエディターでは、条件命令（if、then、else）をサポートしています。これにより、より複雑な式を定義できます。条件命令は、次の要素で構成されています。
 

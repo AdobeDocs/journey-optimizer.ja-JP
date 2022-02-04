@@ -1,29 +1,32 @@
 ---
 title: オファーの配信
-description: 決定管理は、マーケターがビジネスロジックと決定ルールを使用し、あらゆるチャネルとアプリケーションをまたいで、パーソナライズされたオファーエクスペリエンスを作成してエンドユーザーに配信できるようにする、一連のサービスと UI プログラムで構成されています。
+description: '意思決定管理は、マーケターがビジネスロジックと決定ルールを使用し、あらゆるチャネルとアプリケーションをまたいで、パーソナライズされたオファーエクスペリエンスを作成してエンドユーザーに配信できるようにする、一連のサービスと UI プログラムで構成されています。 '
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
 ---
 
-# 決定 API を使用したオファーの配信
+# 決定 API を使用したオファーの配信 {#deliver-offers-using-decisions-api}
 
-決定管理を使用すると、ビジネスロジックと決定ルールを使用し、あらゆるチャネルやアプリケーションをまたいで、パーソナライズされたオファーエクスペリエンスを作成し、エンドユーザーに配信できます。オファーとは、オファーを表示する資格のあるユーザーを指定するルールが関連付けられているマーケティングメッセージです。
+意思決定管理を使用すると、ビジネスロジックと決定ルールを使用し、あらゆるチャネルやアプリケーションをまたいで、パーソナライズされたオファーエクスペリエンスを作成し、エンドユーザーに配信できます。
+オファーとは、オファーを表示する資格のあるユーザーを指定するルールが関連付けられているマーケティングメッセージです。
 
 [!DNL Decisions] API に対して POST リクエストを実行することで、オファーを作成し、配信できます。
 
-このチュートリアルでは、特に 決定管理に関して、API の実用的な理解が必要です。詳しくは、[決定管理 API デベロッパー ガイド](../getting-started.md)を参照してください。このチュートリアルでは、一意のプレースメント ID と決定 ID も必要です。これらの値を取得していない場合は、[プレースメントの作成](../offers-api/placements/create.md)および[決定の作成](../activities-api/activities/create.md)に関するチュートリアルを参照してください。
+このチュートリアルでは、特に 意思決定管理に関して、API の実用的な理解が必要です。
+詳しくは、[意思決定管理 API デベロッパー ガイド](../getting-started.md)を参照してください。
+このチュートリアルでは、一意のプレースメント ID と決定 ID も必要です。これらの値を取得していない場合は、[プレースメントの作成](../offers-api/placements/create.md)および[決定の作成](../activities-api/activities/create.md)に関するチュートリアルを参照してください。
 
 ➡️  [ビデオでこの機能を確認する](#video)
 
-## Accept ヘッダーと Content-Type ヘッダー
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
 次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
@@ -109,12 +112,12 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | 一意の決定 ID。 | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 返されるオファーの数。最大値は 30 です。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | このオブジェクトは、決定がリクエストされるプロファイルに関する情報を保持します。API リクエストの場合は、プロファイルが 1 つ含まれます。 |
-| `xdm:profiles.xdm:identityMap` | このオブジェクトは、ID の名前空間統合コードに基づく一連のエンドユーザー ID を保持します。ID マップには各名前空間の複数の ID を保持できます。名前空間の詳細については、[このページ](../../../get-started-identity.md)を参照してください。 | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | このオブジェクトは、ID の名前空間統合コードに基づく一連のエンドユーザー ID を保持します。ID マップには各名前空間の複数の ID を保持できます。名前空間の詳細については、[このページ](../../../start/get-started-identity.md)を参照してください。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | プロファイルの決定リクエストを一意に識別するために使用できる、クライアントによって生成された ID。この ID は応答内にエコーバックされ、決定の結果に影響を与えません。 | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | このオブジェクトは、重複除外ルールの制御構造を表します。特定のディメンションに対して同じオプションを提案できるかどうかを示す一連のフラグで構成されます。フラグを true に設定した場合は、重複が許可され、フラグで示されるカテゴリ全体で削除されません。フラグを false に設定した場合、決定エンジンはディメンション全体で同じ提案をおこなわず、代わりにサブデシジョンの 1 つに対して次に最適なオプションを選択する必要があります。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | True に設定すると、複数の決定に同じオプションが割り当てられる場合があります。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | True に設定すると、複数のプレースメントに同じオプションが割り当てられる場合があります。 | `"xdm:acrossPlacements": true` |
-| `xdm:mergePolicy.xdm:id` | プロファイルアクセスサービスが返すデータを制御する結合ポリシーを指定します。リクエストで指定されていない場合、決定管理はプロファイルアクセスサービスに何も渡さず、指定されている場合は呼び出し元が提供する ID を渡します。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
+| `xdm:mergePolicy.xdm:id` | プロファイルアクセスサービスが返すデータを制御する結合ポリシーを指定します。リクエストで指定されていない場合、意思決定管理はプロファイルアクセスサービスに何も渡さず、指定されている場合は呼び出し元が提供する ID を渡します。  | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 応答コンテンツをフォーマットする一連のフラグ。 |
 | `xdm:responseFormat.xdm:includeContent` | ブール値で、`true` に設定した場合、応答にコンテンツを含めます。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 返される追加のメタデータを指定するために使用されるオブジェクト。このプロパティが含まれていない場合、デフォルトでは `xdm:id` と `repo:etag` が返されます。 | `name` |
@@ -195,7 +198,8 @@ curl -X POST \
 
 ## チュートリアルビデオ {#video}
 
-次のビデオは、「決定マネジメント」の構成要素の理解をサポートするためのものです。
+次のビデオは、「意思決定管理」の構成要素の理解をサポートするためのものです。
+
 
 >[!NOTE]
 >
@@ -203,6 +207,7 @@ curl -X POST \
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
-## 次の手順
+## 次の手順 {#next-steps}
 
-この API ガイドに従うことで、[!DNL Decisions] API を使用してオファーを作成し、配信できます。詳しくは、[決定マネジメントの概要](../../../offers/get-started/starting-offer-decisioning.md)をご覧ください。
+この API ガイドに従うことで、[!DNL Decisions] API を使用してオファーを作成し、配信できます。詳しくは、[意思決定管理の概要](../../../offers/get-started/starting-offer-decisioning.md)をご覧ください。
+

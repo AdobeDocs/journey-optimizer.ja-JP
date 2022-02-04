@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
 
-# 決定ルールのリスト
+# 決定ルールのリスト {#list-decision-rules}
 
 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内の既存の決定ルールのリストを表示できます。
 
@@ -30,11 +30,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | 決定ルールに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=1` |
 
-## クエリパラメーターの使用
+## クエリパラメーターの使用 {#using-query-parameters}
 
 リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
 
-### ページング
+### ページング {#paging}
 
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 

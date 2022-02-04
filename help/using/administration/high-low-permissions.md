@@ -1,22 +1,11 @@
 ---
 title: 権限レベル
 description: 高レベルおよび低レベル権限について学ぶ
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
+source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 55%

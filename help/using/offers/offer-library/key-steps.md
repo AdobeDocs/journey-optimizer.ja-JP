@@ -1,19 +1,19 @@
 ---
 title: オファーを作成するための主な手順
-description: オファーの作成に必要な主な手順を説明します。
+description: オファーの作成に必要な主な手順を確認する
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# オファーを作成および管理するための主な手順 {#key-steps}
+# オファーを作成および管理するための主な手順 {#key-steps-to-manage-offers}
 
 オファーを作成、設定、管理し、決定に使用するための主な手順を以下に示します。
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 オファーを設定して決定で使用し、この決定をメールで活用する方法を示す完全なエンドツーエンドの例については、[このページ](../offers-e2e.md)を参照してください。
 
-## コンポーネントの作成
+## コンポーネントの作成 {#create-components}
 
 オファーの作成を開始する前に、オファーで使用する複数のコンポーネントを定義する必要があります。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">ランキング式の作成</a></p></td>
 </table>
 
-## オファーの作成と管理
+## オファーの作成と管理 {#create-and-manage-offers}
 
 1. **オファーを作成**&#x200B;し、そのコンテンツとプロパティを設定します。
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">コレクションの作成</a></p></td></tr>
 </table>
 
-## 決定の作成と設定
+## 決定の作成と設定 {#create-and-configure-decisions}
 
 1. パーソナライズされたオファーおよびフォールバックオファーとプレースメントを組み合わせる&#x200B;**決定を作成**&#x200B;します。この組み合わせは、Offer Decisioning エンジンが特定のプロフィールに最適なオファーを見つけるために使用されます。
 

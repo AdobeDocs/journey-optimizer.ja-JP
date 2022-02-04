@@ -1,23 +1,13 @@
 ---
 title: 再試行
 description: アドレスを抑制リストに送信する前に再試行が行われるしくみを学ぶ
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -29,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->エラーのタイプについて詳しくは、[配信失敗のタイプ](../suppression-list.md#delivery-failures)の節を参照してください。
+>エラーのタイプについて詳しくは、[配信失敗のタイプ](../messages/suppression-list.md#delivery-failures)の節を参照してください。
 
 デフォルト設定では、しきい値は 5 回のエラーに設定されています。
 
@@ -55,11 +45,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >値が 10 を超えると、配信品質の評価の問題や、IP スロットル、ISP によるブロックリストへの登録などにつながる可能性があります。 [配信品質の詳細](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >値が 10 を超えると、配信品質の評価の問題や、IP スロットル、ISP によるブロックリストへの登録などにつながる可能性があります。 [配信品質の詳細](../messages/deliverability.md)
 
 ## 再試行期間 {#retry-duration}
 
@@ -77,6 +63,3 @@ ht-degree: 100%
 
 メッセージプリセットの作成時にメール再試行パラメーターを調整する方法については、[この節](message-presets.md#create-message-preset)を参照してください。
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

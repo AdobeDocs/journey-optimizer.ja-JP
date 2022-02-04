@@ -1,19 +1,18 @@
 ---
 title: フォールバックオファーの作成
-description: Adobe Experience Platform でオファーを作成する方法を説明します。
-feature: Offers
+description: どのオファーも受ける資格のない顧客に対して表示するフォールバックオファーを作成する方法を説明します
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 94%
 
 ---
 
-# フォールバックオファーの作成 {#creating-fallback-offers}
+# フォールバックオファーの作成 {#create-fallback-offers}
 
 フォールバックオファーは、他のオファーに対する資格がない場合に顧客に送信されます。フォールバックオファーを作成する手順は、オファーを作成する場合など、1 つまたは複数の表示域を作成することで構成されます。
 
@@ -37,7 +36,8 @@ ht-degree: 100%
 
    ![](../../assets/fallback_details.png)
 
-1. フォールバックオファーの 1 つまたは複数の表示域を作成します。パーソナライズされたオファーを作成する場合などに、これを行うには、左側のペインからプレースメントをドラッグ&amp;ドロップします。[パーソナライズされたオファーの作成](../offer-library/creating-personalized-offers.md)を参照してください。
+1. フォールバックオファーの 1 つまたは複数の表示域を作成します。パーソナライズされたオファーを作成する場合などに、これを行うには、左側のペインからプレースメントをドラッグ&amp;ドロップします。
+[パーソナライズされたオファーの作成](../offer-library/creating-personalized-offers.md)を参照してください。
 
    ![](../../assets/fallback_content.png)
 

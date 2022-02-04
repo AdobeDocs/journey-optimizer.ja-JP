@@ -1,15 +1,15 @@
 ---
 title: オファーカタログの書き出しの概要
-description: オファーカタログをデータセットとして書き出す方法を説明します。
+description: オファーカタログをデータセットとしてエクスポートする方法を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

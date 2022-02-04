@@ -1,23 +1,25 @@
 ---
-title: サブドメインのデリゲート
+title: ' [!DNL Journey Optimizer] でのサブドメインのデリゲーション'
 description: サブドメインのデリゲート方法を学ぶ
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 97%
 
 ---
 
 # [!DNL Journey Optimizer] でのサブドメインのデリゲーション {#subdomain-delegation}
 
 メールキャンペーン用のサブドメインを作成すると、異なるタイプのトラフィック（マーケティングと企業など）を特定の IP プールと特定のドメインに分離できるので、IP ウォーミングプロセスが加速し、全体の配信品質が向上します。ドメインを共有している場合、そのドメインがブロックされたり、ブロックリストに追加されたりすると、会社のメール配信に影響を与える可能性があります。ただし、メールマーケティングのやりとりに固有のドメインを使用していると、ドメインに関するレピュテーション問題やブロックが与える影響は、そのドメインのメールのフローにとどまります。メインドメインを複数のメールストリームの送信者や「送信元」アドレスとして使用すると、メールの認証が機能せず、メッセージがブロックされたり、スパムフォルダーに仕分けられたりする可能性があります。
+
+>[!NOTE]
+>
+>同じ送信ドメインを使用してからメッセージを送信することはできません [!DNL Adobe Journey Optimizer] 別の製品 ( [!DNL Adobe Campaign] または [!DNL Adobe Marketo Engage].
 
 ## サブドメインを設定する理由 {#why-setting-up-subdomains}
 

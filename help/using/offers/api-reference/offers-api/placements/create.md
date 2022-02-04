@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
 ---
 
-# プレースメントの作成
+# プレースメントの作成 {#create-placement}
 
 コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、プレースメントを作成できます。
 
-## Accept ヘッダーと Content-Type ヘッダー
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
 次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 

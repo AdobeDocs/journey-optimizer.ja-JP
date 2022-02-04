@@ -1,15 +1,15 @@
 ---
 title: ユーザーインターフェイス
-description: オファーライブラリユーザーインターフェイスの詳細を説明します。
+description: オファーライブラリのユーザーインターフェイスの詳細を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ![](../../assets/overview_view-all.png)
 
-## 情報の検索とフィルタリング
+## 情報の検索とフィルタリング {#search-and-filter-information}
 
 **検索バー**&#x200B;を使用して、特定の項目を検索します。
 
@@ -77,9 +77,10 @@ ht-degree: 100%
 
 ![](../../assets/filters.png)
 
-## 表示情報のカスタマイズ
+## 表示情報のカスタマイズ {#customize-displayed-information}
 
-決定管理メニューのリストは、リストの右上にある設定ボタンを使用してパーソナライズできます。
+意思決定管理メニューのリストは、リストの右上にある設定ボタンを使用してパーソナライズできます。
+
 
 これにより、表示する情報を必要に応じて選択できます。
 
@@ -87,17 +88,18 @@ ht-degree: 100%
 
 ![](../../assets/columns.png)
 
-## 情報ペイン
+## 情報ペイン {#information-pane}
 
 様々なリストで、要素を選択して情報ペインを表示し、要素に関する情報を取得したり、基本的な操作を実行したりできます。
 
 ![](../../assets/information-pane.png)
 
-オファーと決定リストを使用して、複数の要素に対して一括アクションを実行することもできます。これをおこなうには、目的のオファーまたは決定を選択し、情報ウィンドウから実行するアクションを選択します。
+オファーと決定リストを使用して、複数の要素に対して一括アクションを実行することもできます。これを行うには、目的のオファーまたは決定を選択し、情報ペインから実行するアクションを選択します。
+
 
 ![](../../assets/bulk-actions.png)
 
-また、既存のオファーや決定を複製して、 **[!UICONTROL ドラフト]**&#x200B;ステータスのコピーを作成することもできます。これは、情報ウィンドウ、オファー、または決定の詳細表示から実行できます。
+また、既存のオファーや決定を複製して、 **[!UICONTROL ドラフト]**&#x200B;ステータスのコピーを作成することもできます。これは、情報ペイン、オファーまたは決定の詳細表示から実行できます。
 
 ![](../../assets/duplicate-offer.png)
 

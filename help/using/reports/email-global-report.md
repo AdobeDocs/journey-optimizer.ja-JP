@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
-workflow-type: ht
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 * **[!UICONTROL スパム苦情率]**：配信されたメッセージに対して、受信者がスパムと見なしたメールの割合。苦情の詳細については、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja#metrics-for-deliverability){target=&quot;_blank&quot;}を参照してください。
 
-* **[!UICONTROL 購読解除率]**：配信されたメッセージ数に対する、一意の購読解除の割合。この指標は、購読解除リンクのクリック数に依存しませんが、受信者が開始した購読解除数に基づいています。購読解除について詳しくは、この[ページ](../consent.md)を参照してください。
+* **[!UICONTROL 購読解除率]**：配信されたメッセージ数に対する、一意の購読解除の割合。この指標は、購読解除リンクのクリック数に依存しませんが、受信者が開始した購読解除数に基づいています。購読解除について詳しくは、この[ページ](../messages/consent.md)を参照してください。
 
 **[!UICONTROL メール - トラッキング統計情報]**&#x200B;には、配信に対する受信者のアクティビティを確認できるデータが表示されます。
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
 
-バウンスの詳細については、[抑制リスト](../suppression-list.md)のページを参照してください。
+バウンスの詳細については、[抑制リスト](../messages/suppression-list.md)のページを参照してください。
 
 「**[!UICONTROL エラー理由]**」のグラフと表を使用すると、配信中に発生したエラーを確認できます。
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >「**[!UICONTROL 抑制]**」または「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](../building-journeys/read-segment.md)アクティビティと[メッセージ](../building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->詳しくは、[抑制リスト](../suppression-list.md)と[許可リスト](../allow-list.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;} を使用します。
+>詳しくは、[抑制リスト](../messages/suppression-list.md)と[許可リスト](../messages/allow-list.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;} を使用します。

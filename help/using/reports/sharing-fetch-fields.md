@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 ステップの処理中に、フィールドグループで N 個のデータを取得できます。
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 ステップ処理中のデータ取得に費やした合計時間（ミリ秒単位）です。
 
 型：long
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 エラーの取得先を Adobe Experience Platform 上とするか、カスタムデータソース上とするかを定義します。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 * aep
 * custom
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 データ取得の処理時に発生するエラーの種類です。
 
@@ -47,13 +47,13 @@ ht-degree: 100%
 * timedout
 * error
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 取得エラーコード。エラーにコードがあるかどうかを示します（HTTP など）。例えば、actionExecError が http の場合、コード 404 は HTTP 404 エラーを表します。
 
 型：文字列
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 タイムアウトは、次の 2 つの場合に発生する可能性があります。
 
@@ -73,37 +73,37 @@ ht-degree: 100%
 
 型：文字列
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 システム [!DNL Journey Orchestration] から提供されたエラーコードを問い合わせています。例えば、404、500などのエラーコード。
 
 型：文字列
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 データの取得回数（ソースのタイプを問わない）。
 
 型：long
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 Adobe Experience Platform からデータを取得するのに要した合計時間（ミリ秒）。備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます。
 
 型：long
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 Adobe Experience Platform からデータが取得された回数。
 
 型：long
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 カスタムデータの取得にかかる時間（ミリ秒）。備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます
 
 型：long
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 外部システムからカスタムデータを取得した回数。
 

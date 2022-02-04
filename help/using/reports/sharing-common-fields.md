@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 イベントのサイズを制限するため、これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。
 
-## エントリ
+## エントリ {#entrance-field}
 
 ユーザーがジャーニーにエントリしたかどうかを示します。存在しない場合、値は false とみなします。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 値：true/false
 
-## 再エントリ
+## 再エントリ {#reentrance-field}
 
 ユーザーが同じインスタンスでジャーニーに再度エントリしたかどうかを示します。存在しない場合、値は false とみなします。
 
@@ -37,37 +37,37 @@ ht-degree: 100%
 
 値：true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 インスタンスが終了したかどうか（成功または失敗）を示します。
 
 型：ブール型
 
-## eventID
+## eventID {#eventid-field}
 
 ステップ処理など、処理中のイベント ID。イベントが外部イベントの場合、値は eventId です。イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedActionなど）です。
 
 型：文字列
 
-## nodeID
+## nodeID {#nodeid-field}
 
 （キャンバスから得られる）クライアントノード ID。
 
 型：文字列
 
-## stepID
+## stepID {#stepdid-field}
 
 現在処理中のステップを表す一意の ID です。
 
 型：文字列
 
-## stepName
+## stepName {#stepname-field}
 
 現在処理中のステップの名前。
 
 型：文字列
 
-## stepType
+## stepType {#steptype-field}
 
 ステップのタイプ。
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 * スケジューラー
 * タイマー
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 処理が完了（およびステップイベントが実行された）ときの、ステップのステータス。
 
@@ -95,79 +95,79 @@ ht-degree: 100%
 * timedout：ステップは、アクションまたはエンリッチメント中に発生したタイムアウトエラーで失敗しました。
 * instanceTimedout：インスタンスがタイムアウトに到達したので、ステップの処理が停止しました。
 
-## journeyID
+## journeyID {#journeyid-field}
 
 ジャーニー ID。
 
 型：文字列
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 ジャーニーバージョンの ID。この ID は、journeyStepEvent においてジャーニーを参照する ID です。
 
 型：文字列
 
-## journeyVersionName
+## journeyVersionName {#journeyversionname-field}
 
 ジャーニーバージョンの名前。
 
 型：文字列
 
-## journeyVersion
+## journeyVersion {#journeyversion-field}
 
 ジャーニーのバージョン。
 
 型：文字列
 
-## instanceID
+## instanceID {#instanceid-field}
 
 ジャーニーインスタンスの内部 ID。
 
 型：文字列
 
-## externalKey
+## externalKey {#externalkey-field}
 
 イベントから抽出された外部キーを処理します。
 
 型：文字列
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 インスタンス内で現在処理されているステップの親ステップ ID。
 
 型：文字列
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 現在のステップの親ステップ名。
 
 型：文字列
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 処理済みのステップにインスタンスを導いたトランジションの ID。
 
 型：文字列
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 インスタンスを処理済みのステップに導いたトランジションの名前。
 
 型：文字列
 
-## inTest
+## inTest {#intest-field}
 
 このジャーニーがテストモードになっているかどうかを示します。
 
 型：ブール型
 
-## processingTime
+## processingTime {#processingtime-field}
 
 インスタンスステップのエントリから処理の終了までの合計時間（ミリ秒）です。
 
 型：long
 
-## instanceType
+## instanceType {#instancetype-field}
 
 インスタンスの種類（バッチまたは単一の場合）を示します。
 
@@ -175,31 +175,31 @@ ht-degree: 100%
 
 値：バッチ／単一
 
-## recurrenceIndex
+## recurrenceIndex {#recurrenceindex-field}
 
 ジャーニーがバッチおよび定期的な場合の繰り返しのインデックス（最初の実行はrecurrenceIndex = 1）。
 
 型：long
 
-## isBatchToUnitary
+## isBatchToUnitary {#isbatchtounitary-field}
 
 この単一インスタンスがバッチインスタンスからトリガーされたかどうかを示します。
 
 型：ブール型
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 バッチイベントの外部キー。
 
 型：文字列
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 これは、バッチインスタンス ID です。
 
 型：文字列
 
-## batchUnitaryBranchID
+## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 インスタンスがバッチインスタンスからトリガーされた場合は、単一の分岐 ID。
 

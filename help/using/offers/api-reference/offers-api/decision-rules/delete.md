@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# 決定ルールの削除
+# 決定ルールの削除 {#delete-decision-rule}
 
 場合によっては、決定ルールを削除（DELETE）する必要があります。テナントコンテナで作成した決定ルールのみを削除できます。これは、削除する決定ルールのインスタンス ID を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
 

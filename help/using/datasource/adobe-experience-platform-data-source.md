@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform のデータソース {#concept_zrb_nqt_52b}
+# Adobe Experience Platform のデータソース {#adobe-experience-platform-data-source}
 
 Adobe Experience Platform のデータソースは、リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは事前設定され、組み込まれているため、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイム顧客プロファイルサービスの詳細については、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
@@ -29,7 +29,8 @@ Adobe Experience Platform のデータソースは、リアルタイム顧客プ
 
 1. データソースのリストから、組み込みの Adobe Experience Platform データソースを選択します。
 
-   画面の右側にデータソース設定ウィンドウが開きます。
+   画面の右側にデータソース設定ペインが開きます。
+
 
    ![](../assets/journey23.png)
 

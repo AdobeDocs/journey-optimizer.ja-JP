@@ -8,23 +8,23 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: ht
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 購読リスト {#create-subscription-list}
 
-## 購読リストとは 
+## 購読リストとは  {#subscription-list-definition}
 
 購読サービスとは、特定の対象、イベント、興味などに関するコミュニケーションの受信を選択した顧客に対して継続的に提供される、マーケティング商品やサービスを指します。[!DNL Journey Optimizer] では、これらのオプトイン済みの顧客は、購読リストに収集されます。
 
 購読サービスには、次のようなものがあります。
 
-* ニュースレター（例：「シリーズを実行中」）
-* イベント（例：「Summit 2021」）
+* ニュースレターの例：&quot;シリーズを実行中&quot;
+* イベントの例：&quot;Summit 2021&quot;
 * ウェビナー（例：「暗号の詳細を学ぼう」）
 * 特定の製品、スポーツ、サービスなどに対する興味（例：「今後 12 か月で家を購入することに関心がある」）
 * 通知方法に関する環境設定（例：「新曲のお知らせをメールで受信する」）

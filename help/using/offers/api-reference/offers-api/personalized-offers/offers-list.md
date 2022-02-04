@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
 
-# パーソナライズされたオファーのリスト
+# パーソナライズされたオファーのリスト {#list-personalized-offers}
 
 パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## クエリパラメーターの使用
+## クエリパラメーターの使用 {#using-query-parameters}
 
 リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
 
-### ページング
+### ページング {#paging}
 
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 

@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
 ---
 
-# 高度な式の例
+# 高度な式の例{#advanced-expression-examples}
 
 高度な式エディターを使用すると、ジャーニーでユーザーをフィルタリングできる条件を作成できます。これらの条件を使用すると、時刻、日付、場所、期間またはアクション（買い物かごの購入や放棄など）に基づいてユーザーをターゲットに設定して、ジャーニーでユーザーを再ターゲット化できるようになります。
 

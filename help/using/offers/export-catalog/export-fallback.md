@@ -1,15 +1,15 @@
 ---
 title: フォールバックオファーデータセット
-description: この節では、フォールバックオファー用にエクスポートされたデータセットで使用されるすべてのフィールドを示します。
+description: この節では、フォールバックオファー用にエクスポートされたデータセットで使用されるすべてのフィールドを示します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,19 +21,20 @@ ht-degree: 100%
 
 データセット内の最新の成功したバッチが右側に表示されます。データセットのスキーマの階層ビューが左側のペインに表示されます。
 
+
 >[!NOTE]
 >
 >[この節](../export-catalog/access-dataset.md)では、オファーライブラリの各オブジェクト用に書き出されたデータセットにアクセスする方法を説明します。
 
 次に、**[!UICONTROL 決定オブジェクトリポジトリー（フォールバックオファー）]**&#x200B;データセットで使用できるすべてのフィールドのリストを示します。
 
-## 識別子
+## 識別子 {#identifier}
 
 **フィールド：**_id
 **タイトル：**識別子
 **説明：**&#x200B;レコードの一意の識別子。**タイプ：**&#x200B;文字列
 
-## _experience
+## _experience {#experience}
 
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
@@ -175,7 +176,7 @@ ht-degree: 100%
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト

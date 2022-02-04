@@ -8,8 +8,8 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >ランディングページは現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
-## ランディングページへのアクセス
+## ランディングページへのアクセス {#access-landing-pages}
 
 ランディングページのリストにアクセスするには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ![](../assets/lp_access-list-filter.png)
 
-## ランディングページの作成
+## ランディングページの作成 {#create-landing-page}
 
 ランディングページの作成手順は次のとおりです。
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
    ![](../assets/lp_add-subpage.png)
 
-[プライマリページ](#configure-primary-page)と[サブページ](#configure-subpages)（存在する場合）を設定およびデザインしたら、ランディングページを[テスト](#test)して[公開](#publish)できます。
+[プライマリページ](#configure-primary-page)と[サブページ](#configure-subpages)（存在する場合）を設定およびデザインしたら、ランディングページを[テスト](#test-landing-page)して[公開](#publish-landing-page)できます。
 
 ## プライマリページの設定 {#configure-primary-page}
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
    ![](../assets/lp_open-designer.png)
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
 
    >[!CAUTION]
    >
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
 
    >[!CAUTION]
    >
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 ![](../assets/lp_subpage-settings.png)
 
-## ランディングページのテスト {#test}
+## ランディングページのテスト {#test-landing-page}
 
 ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、そのコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
    ![](../assets/lp_test-profiles.png)
 
-   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../preview.md#select-test-profiles)を参照してください。
+   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../messages/preview.md#select-test-profiles)を参照してください。
 
 1. 「**[!UICONTROL プレビュー]**」タブを選択し、「**[!UICONTROL プレビューを開く]**」をクリックしてランディングページをテストします。
 
@@ -153,7 +153,7 @@ ht-degree: 100%
 
 1. ランディングページの各バリエーションに対してレンダリングをプレビューするには、別のテストプロファイルを選択します。
 
-## アラートの確認 {#alerts}
+## アラートの確認 {#check-alerts}
 
 ランディングページの作成中、公開前に重要なアクションを実行する必要がある場合は、アラートが表示されます。
 
@@ -192,7 +192,7 @@ ht-degree: 100%
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## ランディングページの公開 {#publish}
+## ランディングページの公開 {#publish-landing-page}
 
 ランディングページの準備が整ったら、ページを公開し、メッセージで使用できる状態にできます。
 
@@ -200,11 +200,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->公開する前に、アラートを確認して解決します。[詳細情報](#alerts)
+>公開する前に、アラートを確認して解決します。[詳細情報](#check-alerts)
 
 ランディングページが公開されると、**[!UICONTROL 公開中のアイテム]**&#x200B;ステータスでランディングページリストに追加されます。
 
-これでライブになり、[!DNL Journey Optimizer] [ メッセージ](../create-message.md)で使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
+これでライブになり、[!DNL Journey Optimizer] [ メッセージ](../messages/create-message.md)で使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
 
 >[!NOTE]
 >

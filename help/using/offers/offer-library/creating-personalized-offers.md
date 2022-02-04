@@ -1,19 +1,19 @@
 ---
 title: パーソナライズされたオファーの作成
-description: Adobe Experience Platform でパーソナライズされたオファーを作成する方法を説明します。
+description: オファーの作成、設定、管理方法について説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 99%
 
 ---
 
-# パーソナライズされたオファーの作成 {#creating-personalized-offers}
+# パーソナライズされたオファーの作成 {#create-personalized-offers}
 
 オファーを作成する前に、以下が作成済みであることを確認してください。
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 >
 >プレースメントのコンテンツタイプに対応するコンテンツのみ使用できます。
 
-### 画像の追加
+### 画像の追加 {#images}
 
 選択したプレースメントが画像タイプの場合、**Adobe Experience Cloud アセット**&#x200B;ライブラリからコンテンツを取得して追加できます。このライブラリは、[!DNL Adobe Experience Manager Assets Essentials] に用意されている一元的なアセットリポジトリです。
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
    ![](../../assets/offer-select-asset.png)
 
-### URL の追加
+### URL の追加 {#urls}
 
 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
@@ -161,7 +161,6 @@ ht-degree: 100%
       >[!CAUTION]
       >
       >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
-      
    セグメントと決定ルールの使用上の違いについて詳しくは、[この節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)を参照してください。
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。

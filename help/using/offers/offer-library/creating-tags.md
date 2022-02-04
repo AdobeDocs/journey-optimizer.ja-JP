@@ -1,19 +1,19 @@
 ---
 title: タグの作成
-description: Adobe Experience Platform でオファーを作成する方法を説明します。
+description: オファー用のタグの作成方法を学ぶ
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 95%
 
 ---
 
-# タグの作成 {#creating-tags}
+# タグの作成 {#create-tags}
 
 タグをオファーに関連付けると、タグを整理しやすくなります。例えば、ブラックフライデーオファーに「ブラックフライデー」タグのラベルを付けることができます。オファーライブラリの検索機能を使用して、そのタグを持つすべてのオファーを簡単に見つけることができるようになります。
 

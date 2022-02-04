@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
 ---
 
-# 演算子 {#concept_wd5_pj5_dgb}
+# 演算子 {#operators}
 
 演算子には、単項演算子と二項演算子の 2 種類があります。左単項演算子と右単項演算子があります。
 

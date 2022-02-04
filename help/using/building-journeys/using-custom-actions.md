@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
 ---
 
-# カスタムアクションの使用 {#section_f2c_hbg_nhb}
+# カスタムアクションの使用 {#use-custom-actions}
 
 アクティビティ設定ペインには、URL 設定パラメーターと、カスタムアクション用に設定された認証パラメーターが表示されます。[詳細情報](../action/about-custom-action-configuration.md)。
 

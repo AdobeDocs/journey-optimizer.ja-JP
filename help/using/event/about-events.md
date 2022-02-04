@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 100%
 
 ---
 
-# イベントについて{#concept_gfj_fqt_52b}
+# イベントについて{#about-events}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 Journey Optimizer では、イベントを Adobe Experience Platform にストリーミングまたはバッチ処理する必要があります。このデータは、必ずしもリアルタイムプロファイルに移動する必要はありません。イベントを別のジャーニーでセグメント化や参照に使用する場合は、プロファイルのデータセットを有効にすることをお勧めします。
 
-## データサイクル {#section_r1f_xqt_pgb}
+## データサイクル {#data-cycle}
 
 イベントは POST API 呼び出しです。イベントは、ストリーミング取り込み API を使用して Adobe Experience Platform に送信されます。トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。イベントのペイロードは、XDM 形式に従います。
 

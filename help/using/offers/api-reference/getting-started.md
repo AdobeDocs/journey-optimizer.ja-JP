@@ -1,38 +1,41 @@
 ---
 title: はじめに
-description: 決定管理エンジンで主要な操作を実行するために必要な、オファーライブラリ API の使用方法を説明します。
+description: '意思決定管理エンジンで主要な操作を実行するために必要な、オファーライブラリ API の使用方法を説明します。 '
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
 ---
 
-# 決定管理 API デベロッパーガイド
+# 意思決定管理 API デベロッパーガイド
+ {#decision-management-api-developer-guide}
 
-このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
+このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。意思決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
+
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
-## 前提条件
+## 前提条件 {#prerequisites}
 
 このガイドは、Adobe Experience Platform の次のコンポーネントを実際に利用および理解しているユーザーを対象としています。
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}：[!DNL Experience Platform] で顧客体験データの編成に使用される標準化されたフレームワーク。
    * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target=&quot;_blank&quot;}：XDM スキーマの基本的な構成要素について説明します。
-* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md)：エクスペリエンス判定全般（特に Offer Decisioning）で使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
+* [意思決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：エクスペリエンス判定全般（特に Offer Decisioning）で使用される概念とコンポーネントについて説明します。
+顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target=&quot;_blank&quot;}：PQL は XDM インスタンスに関する式を記述するための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
-## API 呼び出し例の読み取り
+## API 呼び出し例の読み取り {#reading-sample-api-calls}
 
 ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。サンプル API 呼び出しのドキュメントで使用されている規則については、[!DNL Experience Platform] トラブルシューテングガイドの[サンプル API 呼び出しの読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target=&quot;_blank&quot;}に関する節を参照してください。
 
-## 必須ヘッダーの値の収集
+## 必須ヘッダーの値の収集 {#gather-values-for-required-headers}
 
 [!DNL Platform] API を呼び出すには、まず[認証チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target=&quot;_blank&quot;}を完了する必要があります。次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
 
@@ -44,7 +47,7 @@ ht-degree: 100%
 
 * `Content-Type: application/json`
 
-## コンテナへのアクセスの管理
+## コンテナへのアクセスの管理 {#manage-access-to-container}
 
 コンテナとは、異なる関心事を切り分けるための分離メカニズムです。コンテナ ID は、すべてのリポジトリー API の最初のパス要素です。すべての決定オブジェクトはコンテナ内に存在します。
 
@@ -52,7 +55,7 @@ ht-degree: 100%
 
 管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} を通じて、ユーザーの権限を付与または取り消すことができます。 詳しくは、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-### ユーザーと統合機能からアクセス可能なコンテナのリスト
+### ユーザーと統合機能からアクセス可能なコンテナのリスト {#list-containers-accessible-to-users-and-integrations}
 
 **API 形式**
 
@@ -79,7 +82,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、決定管理コンテナに関する情報が返されます。これには `instanceId` 属性が含まれ、値がコンテナ ID になります。
+正常な応答では、意思決定管理コンテナに関する情報が返されます。これには `instanceId` 属性が含まれ、値がコンテナ ID になります。
 
 ```json
 {
@@ -124,13 +127,14 @@ curl -X GET \
 }
 ```
 
-## 次の手順
+## 次の手順 {#next-steps}
 
 このドキュメントでは、コンテナ ID の取得など、[!DNL Offer Library] API を呼び出すために必要な前提条件に関する知識を説明しました。これで、この開発者ガイドに記載されているサンプル呼び出しに進んで、その手順に従うことができます。
 
 ## チュートリアルビデオ {#video}
 
-次のビデオは、「決定マネジメント」の構成要素の理解をサポートするためのものです。
+次のビデオは、「意思決定管理」の構成要素の理解をサポートするためのものです。
+
 
 >[!NOTE]
 >

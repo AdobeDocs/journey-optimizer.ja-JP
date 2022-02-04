@@ -1,19 +1,19 @@
 ---
 title: コレクションの作成
-description: コレクションを使用してオファーを整理する方法を説明します。
+description: コレクションを使用してオファーを整理する方法を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# コレクションの作成 {#creating-collections}
+# コレクションの作成 {#create-collections}
 
 コレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。例えば、スポーツ関連のオファーのみを含む「スポーツ」コレクションを作成できます。
 

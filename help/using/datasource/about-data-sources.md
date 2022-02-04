@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
 ---
 
-# データソースについて {#concept_s1s_dqt_52b}
+# データソースについて {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"

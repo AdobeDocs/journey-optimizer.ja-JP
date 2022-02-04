@@ -1,18 +1,15 @@
 ---
-title: Journey Optimizer の設定と設定のガイドライン
-description: メッセージとジャーニー設定のガイドラインを学ぶ
-audience: administrators
-content-type: reference
+title: ' [!DNL Journey Optimizer]  設定の基本を学ぶ'
+description: 詳細情報： [!DNL Journey Optimizer] 設定
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +22,7 @@ ht-degree: 100%
 
 1. **メッセージとチャネルを設定**：プリセットの定義、メールおよびプッシュメッセージの適応とカスタマイズ
 
-   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。 [詳細](../push-gs.md)
+   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。 [詳細](../messages/push-gs.md)
 
    * メッセージプリセットを作成して、メールおよびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。 [詳細](message-presets.md)
 
@@ -34,7 +31,7 @@ ht-degree: 100%
    * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。 [詳細](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
 
 1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細](about-subdomain-delegation.md)

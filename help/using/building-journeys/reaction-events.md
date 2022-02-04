@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
 ---
 
-# 反応イベント {#section_dhx_gss_dgb}
+# 反応イベント {#reaction-events}
 
 パレットに表示される多数のイベントアクティビティの中に、組み込みの&#x200B;**[!UICONTROL 反応]**&#x200B;イベントがあります。このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに、反応することができます。この情報は、Adobe Experience Platform と共有した時点でリアルタイムに取り込まれます。プッシュ通知では、メッセージのクリック、送信、失敗に反応できます。SMS メッセージでは、メッセージの送信と失敗に反応できます。メールでは、メッセージのクリック、送信、開封、失敗に反応できます。
 

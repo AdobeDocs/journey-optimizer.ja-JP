@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
 ---
 
-# コレクションの作成
+# コレクションの作成 {#create-collection}
 
 コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
 コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行して、コレクションを作成できます。
 
-## Accept ヘッダーと Content-Type ヘッダー
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
 次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 

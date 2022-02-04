@@ -1,15 +1,15 @@
 ---
 title: 書き出したオファーカタログへのアクセス
-description: Adobe Experience Platform に書き出したオファーカタログにアクセスする方法を説明します。
+description: 書き出し後にAdobe Experience Platformでオファーカタログにアクセスする方法を説明します。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 100%
 
 ![](../../assets/dataset-activity.png)
 
-「**[!UICONTROL データセットをプレビュー]**」ボタンを使用すると、データセット内の最新の成功したバッチを表示できます。左側のパネルには、エクスポートされたデータのタイプに関する情報が表示されます。
+「**[!UICONTROL データセットをプレビュー]**」ボタンを使用すると、データセット内の最新の成功したバッチを表示できます。左側のペインには、エクスポートされたデータのタイプに関する情報が表示されます。
 
 ![](../../assets/dataset-preview.png)
 
-データセットの参照および使用方法について詳しくは、[このページ](../../get-started-datasets.md)を参照してください。
+データセットの参照および使用方法について詳しくは、[このページ](../../start/get-started-datasets.md)を参照してください。

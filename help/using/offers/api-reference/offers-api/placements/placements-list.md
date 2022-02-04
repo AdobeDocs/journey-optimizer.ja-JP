@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
 
-# プレースメントのリスト
+# プレースメントのリスト {#list-placements}
 
 プレースメントは、オファーの表示に使用するコンテナです。プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 
@@ -32,11 +32,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | プレースメントに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=2` |
 
-## クエリパラメーターの使用
+## クエリパラメーターの使用 {#using-query-parameters}
 
 リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
 
-### ページング
+### ページング {#paging}
 
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 

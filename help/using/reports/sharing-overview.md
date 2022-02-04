@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 81%
 
 ---
 
-# ジャーニーレポートの作成{#design-jo-reports}
+# ジャーニーレポートの作成 {#design-jo-reports}
 
 [!DNL Journey Optimizer] を使用すると、[リアルタイムレポート](live-report.md)や組み込みの[グローバルなレポート機能](global-report.md)に加え、ジャーニーのパフォーマンスデータを Adobe Experience Platform に自動的に送信し、他のデータと組み合わて分析できるようになります。
 
@@ -58,7 +58,7 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 
 Adobe Experience Platform に通知されるステップイベントについて詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
 
-## 顧客ジャーニー分析との統合{#integration-cja}
+## 顧客ジャーニー分析との統合 {#integration-cja}
 
 Journey Optimizerステップイベントを [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja). 一般的なワークフローを次に示します。
 

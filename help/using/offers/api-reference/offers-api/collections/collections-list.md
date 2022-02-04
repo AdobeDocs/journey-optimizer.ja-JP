@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
-# コレクションのリスト
+# コレクションのリスト {#list-collections}
 
 コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## クエリパラメーターの使用
+## クエリパラメーターの使用 {#using-query-parameters}
 
 リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
 
-### ページング
+### ページング {#paging}
 
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 

@@ -1,15 +1,15 @@
 ---
-title: 管理と設定
-description: 管理と設定のガイドラインを学ぶ
+title: ジャーニーの設定
+description: データソース、イベント、アクションの設定方法について説明します。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 97%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 100%
 
 ![](../assets/admin-menu.png)
 
-## データソース
+## データソース {#data-sources}
 
 データソースを設定すると、システムへの接続を定義して、ジャーニーで使用する追加情報を取得することができます。[詳細](../../using/datasource/about-data-sources.md)
 
-## イベント
+## イベント {#events}
 
 イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。
 
 イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取り込み API から取り込みます。[詳細](../../using/event/about-events.md)
 
-## アクション
+## アクション {#actions}
 
 Journey Optimizer にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細](../../using/action/action.md)
 

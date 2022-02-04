@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
-# プレースメントの削除
+# プレースメントの削除 {#delete-placement}
 
 場合によっては、プレースメントを削除（DELETE）する必要があります。テナントコンテナで作成したプレースメントのみを削除できます。これは、削除するプレースメントのインスタンス ID を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
 

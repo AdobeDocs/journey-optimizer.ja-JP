@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
    ![](../assets/jo-datasource.png)
 
-1. **アクションの設定**：メッセージ機能は Journey Optimizer に組み込まれており、ユーザーはコンテンツのデザインと、メッセージの公開をするだけです。[この節](../get-started-content.md)を参照してください。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成します。詳しくは、[この節](../action/action.md)を参照してください。このステップは、**技術ユーザー**&#x200B;が実行します。
+1. **アクションの設定**：メッセージ機能は Journey Optimizer に組み込まれており、ユーザーはコンテンツのデザインと、メッセージの公開をするだけです。[この節](../messages/get-started-content.md)を参照してください。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成します。詳しくは、[この節](../action/action.md)を参照してください。このステップは、**技術ユーザー**&#x200B;が実行します。
 
    ![](../assets/create-content-push.png)
 

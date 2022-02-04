@@ -6,20 +6,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
-# [!DNL Journey Optimizer] イベントの ExperienceEvent スキーマについて
+# [!DNL Journey Optimizer] イベントの ExperienceEvent スキーマについて {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer] イベントは、ストリーミング取得を介して Adobe Experience Platform に送信される XDM エクスペリエンスイベントです。
 
 そのため、[!DNL Journey Optimizer] のイベントを設定するための重要な前提条件は、Adobe Experience Platform の Experience Data Model（または XDM）と XDM Experience Data スキーマの作成方法、および XDM 形式のデータを Adobe Experience Platform にストリーミングする方法に精通していることです。
 
-## [!DNL Journey Optimizer] イベントのスキーマ要件
+## [!DNL Journey Optimizer] イベントのスキーマ要件  {#schema-requirements}
 
 [!DNL Journey Optimizer] のイベントを設定する最初の手順は、イベントを表す XDM スキーマと、Adobe Experience Platform でイベントのインスタンスを記録するために作成されたデータセットを確実に用意することです。イベント用データセットは必ずしも必要ではありませんが、特定のデータセットにイベントを送信すると、ユーザーのイベント履歴を保持して後から参照および分析できるので便利です。イベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方を Adobe Experience Platform の Web インターフェイスで実行できます。
 

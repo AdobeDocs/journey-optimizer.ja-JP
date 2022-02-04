@@ -1,14 +1,15 @@
 ---
 title: パーソナライゼーション構文
-description: パーソナライゼーション構文の使用方法を説明します。
+description: パーソナライゼーション構文の使用方法を説明します。。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '659'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 0%
 * `profile` は名前空間です。
 * `person.name` は、属性で構成されるトークンです。属性の構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}。
 
-## 構文の一般的なルール
+## 構文の一般的なルール {#general-rules}
 
 識別子には、以下を除く任意の Unicode 文字を使用できます。
 
@@ -74,7 +75,7 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 >[!NOTE]
 >セグメント化とセグメント化サービスの詳細については、[この節](../segment/about-segments.md)を参照してください。
 
-## オファー
+## オファー {#offers-syntax}
 
 この名前空間では、既存のオファー決定を参照できます。
 オファーを参照するには、オファーを定義する様々な情報を使用してパスを宣言する必要があります。
@@ -126,7 +127,7 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 >
 >ヘルパー関数について詳しくは、[この節](functions/helpers.md)を参照してください。
 
-## リテラル型
+## リテラル型 {#literal-types}
 
 [!DNL Adobe Journey Optimizer] では、次のリテラル型をサポートしています。
 
@@ -145,7 +146,7 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 Journey Optimizer では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。その手順は次のとおりです。
 
-* メールまたはプッシュコンテンツにリンクを作成します。 リンクの作成について詳しくは、[このページ](../message-tracking.md#insert-links)を参照してください。
+* メールまたはプッシュコンテンツにリンクを作成します。 リンクの作成について詳しくは、[このページ](../messages/message-tracking.md#insert-links)を参照してください。
 * パーソナライゼーションアイコンをクリックします。 このアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;の 3 種類のリンクで使用できます。
 
 ![](assets/perso-url.png)

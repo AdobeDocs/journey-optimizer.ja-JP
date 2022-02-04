@@ -8,8 +8,8 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
 
@@ -23,15 +23,15 @@ ht-degree: 100%
 
 ここから、次のことができます。
 
-* コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロからデザイン**&#x200B;し、[Adobe Experience Manager Assets Essentials](../assets-essentials.md) の画像を活用します。メールコンテンツの作成方法や、組み込みのテンプレートについては、[この節](../create-email-content.md)を参照してください。
+* コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロからデザイン**&#x200B;し、[Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md) の画像を活用します。メールコンテンツの作成方法や、組み込みのテンプレートについては、[この節](../messages/create-email-content.md)を参照してください。
 
-* コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](../existing-content.md#import-raw-html-code)を参照してください。
+* コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](../messages/existing-content.md#import-raw-html-code)を参照してください。
 
-* ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。コンテンツの読み込み方法については、[この節](../existing-content.md#import-html-content-from-file)を参照してください。
+* ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。コンテンツの読み込み方法については、[この節](../messages/existing-content.md#import-html-content-from-file)を参照してください。
 
 >[!NOTE]
 >
->ランディングページのコンテンツデザイナーは、メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../design-emails.md) でのコンテンツのデザインを参照してください。
+>ランディングページのコンテンツデザイナーは、メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../messages/design-emails.md) でのコンテンツのデザインを参照してください。
 
 ## ランディングページ固有のコンテンツの定義 {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   マウスポインタ―を置いたときにボタンのラベルの色などの設定の一部をプレビューするには、「**[!UICONTROL プレビュー]**」ボタンを使用します。 ランディングページのテストについては、[こちら](create-lp.md#test)を参照してください。
+   マウスポインタ―を置いたときにボタンのラベルの色などの設定の一部をプレビューするには、「**[!UICONTROL プレビュー]**」ボタンを使用します。 ランディングページのテストについては、[こちら](create-lp.md#test-landing-page)を参照してください。
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

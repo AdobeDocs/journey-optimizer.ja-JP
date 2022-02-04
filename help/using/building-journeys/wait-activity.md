@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
 
-# 待機アクティビティ{#section_rlm_nft_dgb}
+# 待機アクティビティ{#wait-activity}
 
 パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。
 

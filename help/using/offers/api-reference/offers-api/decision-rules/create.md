@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
 
-# 決定ルールの作成
+# 決定ルールの作成 {#create-decision-rule}
 
 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 
-## Accept ヘッダーと Content-Type ヘッダー
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
 次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 

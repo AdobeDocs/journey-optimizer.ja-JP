@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -19,37 +19,37 @@ ht-degree: 100%
 
 処理が必要なアクションがステップにある場合、これらのフィールドはイベントペイロードに追加されます。
 
-## actionID
+## actionID {#actionid-field}
 
 実行中のアクションの ID。
 
 型：文字列
 
-## actionName
+## actionName {#actionname-field}
 
 アクションの名前。名前が設定されていない場合、stepName が使用されます。
 
 型：文字列
 
-## actionType
+## actionType {#actionType-field}
 
 アクションのタイプ。
 
 型：文字列
 
-## actionParameterized
+## actionParameterized {#actionparameterized-field}
 
 アクションがパラメータ化されているかどうかを示します。
 
 型：ブール型
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 現在のアクションを実行するのに費やした時間（ミリ秒）。
 
 型：long
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 アクションが呼び出されたときに発生するエラーの種類。
 
@@ -61,13 +61,13 @@ ht-degree: 100%
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 アクション実行エラーのコード。エラーにコードがあるかどうかを示します（HTTP など）。
 
 型：文字列
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 タイムアウトは、次の 2 つの場合に発生する可能性があります。
 
@@ -89,13 +89,13 @@ ht-degree: 100%
 
 型：文字列
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 actionExecOrigError のエラーコード。
 
 型：文字列
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 アクションのタイプを示します。
 
@@ -111,25 +111,25 @@ actionExecOrigError のエラーコード。
 
 型：文字列
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 バッチジャーニーの配信ジョブ ID を示します。
 
 型：文字列
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 バッチジャーニーの配信 ID を示します。
 
 型：文字列
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを示します。
 
 型：ブール型
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 ステップの処理中にスケジューラーサービスに送信されたスケジューラー通知リクエストの数。
 

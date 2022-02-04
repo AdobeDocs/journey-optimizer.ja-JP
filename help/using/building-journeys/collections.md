@@ -4,15 +4,15 @@ solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 98%
 
 ---
 
 
-# カスタムアクションを使用したコレクションの動的な受け渡し{#passing-collection}
+# 使用例：カスタムアクションを使用してコレクションを動的に渡す{#passing-collection}
 
 実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。 次の 2 種類のコレクションがサポートされています。
 
@@ -67,7 +67,6 @@ ht-degree: 100%
     ]
    }
    ```
-   
 * テストモードを使用してコレクションをテストするには、コードビューモードを使用する必要があります。 ビジネスイベントに対しては、現時点ではコードビューモードはサポートされていません。コレクションは、単一の要素でのみ送信できます。
 
 ## 一般的な手順 {#general-procedure}

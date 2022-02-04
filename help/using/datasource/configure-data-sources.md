@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >データソースの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
 
-1. 「管理」メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../user-interface.md)を参照してください。
+1. 「管理」メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../start/user-interface.md)を参照してください。
 
    ![](../assets/journey18.png)
 

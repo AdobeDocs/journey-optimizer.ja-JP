@@ -1,13 +1,12 @@
 ---
 title: PTR レコード
 description: PTR レコードの管理方法について説明します
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 72%
@@ -16,13 +15,13 @@ ht-degree: 72%
 
 # PTR レコード {#ptr-records}
 
-## PTR レコードについて
+## PTR レコードについて {#about-ptr-records}
 
 ポインタレコード（PTR）は、IP アドレスと関連付けたドメイン名を提供する DNS（Domain Name System）レコードの一種です。
 
 PTR レコードを使用すると、受信メールサーバーは、送信メールサーバーの IP アドレスが接続先の名前に対応しているかどうかを識別することにより、送信メールサーバーの信頼性を確認できます。
 
-## サブドメインの PTR レコードへのアクセス
+## サブドメインの PTR レコードへのアクセス {#access-ptr-records}
 
 Adobe Journey Optimizer で[サブドメインがデリゲート](delegate-subdomain.md)されると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
 
@@ -44,7 +43,7 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 >
 >「**[!UICONTROL IP]**」フィールドと「**[!UICONTROL PTR レコード]**」フィールドは変更できません。
 
-### 完全にデリゲートされたサブドメイン
+### 完全にデリゲートされたサブドメイン {#fully-delegated-subdomains}
 
 サブドメイン ( [完全に委任された](delegate-subdomain.md#full-subdomain-delegation) をAdobeするには、次の手順に従います。
 
@@ -83,7 +82,7 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 1. 「 **[!UICONTROL 保存]**」をクリックして変更を確定します。
 
-## PTR レコードの更新の詳細を確認
+## PTR レコードの更新の詳細を確認 {#check-ptr-record-update}
 
 A **[!UICONTROL 処理中]** リスト内の PTR レコードの名前の横にアイコンが表示されます。
 
@@ -97,7 +96,7 @@ PTR レコードの更新の詳細を確認するには、「**[!UICONTROL 更�
 
 ![](../assets/ptr-record-updates.png)
 
-## PTR レコードの更新ステータス
+## PTR レコードの更新ステータス {#ptr-record-update-statuses}
 
 PTR レコードの更新には、次のステータスがあります。
 
@@ -105,9 +104,9 @@ PTR レコードの更新には、次のステータスがあります。
 * ![](../assets/do-not-localize/ptr-record-success.png)**[!UICONTROL 成功]**：更新された PTR レコードが検証され、新しいサブドメインが IP アドレスに関連付けられました。
 * ![](../assets/do-not-localize/ptr-record-failed.png)**[!UICONTROL 失敗]**：PTR レコードの更新を検証中に、1 つまたは複数の検査に失敗しました。
 
-### 処理中
+### 処理中 {#processing}
 
-IP アドレスに関連付ける新しいサブドメインが有効であることを検証するために、いくつかの配信品質チェックが実行されます。 <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+IP アドレスに関連付ける新しいサブドメインが有効であることを検証するために、いくつかの配信品質チェックが実行されます。 <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
@@ -115,11 +114,11 @@ IP アドレスに関連付ける新しいサブドメインが有効である�
 
 検証中は、古いサブドメインがまだ IP アドレスに関連付けられています。
 
-### 成功
+### 成功 {#success}
 
 検証が成功すると、新しいサブドメインが IP アドレスに自動的に関連付けられます。
 
-### 失敗
+### 失敗 {#failes}
 
 検証プロセスが失敗した場合は、古い PTR レコードが表示されます。以前に IP アドレスに関連付けられていた有効なサブドメインは変更されません。
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 94%
 
 ---
 
-# シミュレーションの作成
+# シミュレーションの作成 {#create-simulations}
 
 ## シミュレーションについて
 
@@ -47,7 +47,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。 Adobe Experience Platform の ID 名前空間について詳しくは、[この節](../../get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
+   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。 Adobe Experience Platform の ID 名前空間について詳しくは、[この節](../../start/get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
 
 1. ID 値を入力し、「**[!UICONTROL 表示]**」をクリックして、使用可能なプロファイルを一覧表示します。
 
@@ -63,7 +63,7 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL プロファイルの詳細]**」リンクをクリックすると、選択したプロファイルデータが表示されます。
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## 決定範囲の追加
 

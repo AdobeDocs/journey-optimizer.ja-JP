@@ -1,19 +1,19 @@
 ---
 title: 決定でのオファー選択の設定
-description: 決定でのオファー選択を管理する方法を説明します。
+description: 決定に基づいてオファーの選択を管理する方法を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
-workflow-type: ht
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# 決定でのオファー選択の設定 {#offers-selection-in-activities}
+# 決定でのオファー選択の設定 {#offers-selection-in-decisions}
 
 複数のオファーが特定のプレースメントの資格を持つ場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法（旧称：オファーアクティビティ）を選択できます。オファーのランク付けは、次の基準で行えます。
 * オファーの優先度
@@ -22,13 +22,13 @@ ht-degree: 100%
 
 ![](../../assets/offer-rank-by.png)
 
-## オファーの優先度 {#about-offers-priority}
+## オファーの優先度 {#offer-priority}
 
 デフォルトでは、決定（旧称：オファーアクティビティ）で指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、**優先度**&#x200B;が最も高いオファーが最初に顧客に配信されます。
 
 ![](../../assets/offer-priority.png)
 
-オファーの優先順位スコアは、オファーの作成時に割り当てられます。パーソナライズされたオファーを作成する方法については、[この節](../offer-library/creating-personalized-offers.md)を参照してください。
+オファーの優先度スコアは、オファーの作成時に割り当てられます。パーソナライズされたオファーを作成する方法については、[この節](../offer-library/creating-personalized-offers.md)を参照してください。
 
 ## ランキング式 {#assign-ranking-formula}
 
@@ -86,6 +86,3 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 複数のオファーが適格な場合、トレーニング済みモデルシステムは、特定のプレースメントに対して最初に提示するオファーを決定します。
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

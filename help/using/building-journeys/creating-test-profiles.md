@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # テストプロファイルの作成 {#create-test-profiles}
 
-テストモードを使用する場合、テストプロファイルが必要です。ジャーニーでの[テストモード](../building-journeys/testing-the-journey.md)の使用方法、および[メッセージのプレビューとテスト](../preview.md)の方法を説明します。
+テストモードを使用する場合、テストプロファイルが必要です。ジャーニーでの[テストモード](../building-journeys/testing-the-journey.md)の使用方法、および[メッセージのプレビューとテスト](../messages/preview.md)の方法を説明します。
 
 次に、使用可能なテストプロファイルの作成方法を示します。
 
@@ -51,9 +51,10 @@ ht-degree: 100%
 
 1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
    ![](../assets/test-profiles-3.png)
-1. 右の&#x200B;**[!UICONTROL フィールドのプロパティ]**&#x200B;パネルで、「**[!UICONTROL ID]**」オプションと「**[!UICONTROL メイン ID]**」オプションをオンにし、名前空間を選択します。メールアドレスをプライマリ ID にする場合は、「**[!UICONTROL メール]**」名前空間を選択します。「**[!UICONTROL 適用]**」をクリックします。
+1. 右の&#x200B;**[!UICONTROL フィールドのプロパティ]**&#x200B;ペインで、「**[!UICONTROL ID]**」オプションと「**[!UICONTROL メイン ID]**」オプションをオンにし、名前空間を選択します。メールアドレスをプライマリ ID にする場合は、「**[!UICONTROL メール]**」名前空間を選択します。「**[!UICONTROL 適用]**」をクリックします。
    ![](../assets/test-profiles-4bis.png)
-1. スキーマを選択し、**[!UICONTROL スキーマのプロパティ]**&#x200B;パネルで「**[!UICONTROL プロファイル]** 」オプションを有効にします。
+1. スキーマを選択し、**[!UICONTROL スキーマのプロパティ]**&#x200B;ペインで「**[!UICONTROL プロファイル]** 」オプションを有効にします。
+
    ![](../assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
@@ -88,7 +89,7 @@ Adobe Journey Optimizer のホームページから、製品内ユースケー�
 
 次の情報が必要です。
 
-1. **ID 名前空間**：[テストプロファイル](../get-started-identity.md) を一意に識別するために使用される ID 名前空間。例えば、メールを使用してテストプロファイルを識別する場合は、ID 名前空間の&#x200B;**メール**&#x200B;を選択する必要があります。 一意の識別子が電話番号の場合は、ID 名前空間の&#x200B;**電話**&#x200B;を選択する必要があります。
+1. **ID 名前空間**：[テストプロファイル](../start/get-started-identity.md) を一意に識別するために使用される ID 名前空間。例えば、メールを使用してテストプロファイルを識別する場合は、ID 名前空間の&#x200B;**メール**&#x200B;を選択する必要があります。 一意の識別子が電話番号の場合は、ID 名前空間の&#x200B;**電話**&#x200B;を選択する必要があります。
 
 2. **CSV ファイル**：作成するテストプロファイルのリストを含む、コンマ区切りファイル。このユースケースでは、作成するテストプロファイルのリストを含む CSV ファイルに対し、形式を事前に定義しておく必要があります。 ファイルの各行には、次のフィールドが次のように正しい順序で含まれている必要があります。
 
@@ -175,7 +176,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 
 ## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
-また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}を参照してください。
 
 「プロファイルテストの詳細」フィールドグループを含むプロファイルスキーマを使用する必要があります。testProfile フラグは、このフィールドグループの一部です。プロファイルを作成する場合は、次の値を渡す必要があります：testProfile = true
 

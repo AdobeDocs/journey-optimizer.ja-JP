@@ -1,15 +1,15 @@
 ---
 title: ランキング式の作成
-description: Adobe Experience Platform でランキング式を作成する方法を説明します。
+description: オファーをランク付けする数式を作成する方法を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 

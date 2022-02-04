@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
-workflow-type: ht
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # ジャーニーのテスト{#testing_the_journey}
 
-エラーがある場合は、ジャーニーをテストする前にすべてのエラーを解決する必要があります。[この節](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。
+エラーがある場合は、ジャーニーをテストする前にすべてのエラーを解決する必要があります。[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。
 
 テストプロファイルを使用して、ジャーニーを公開する前にテストすることができます。これにより、公開前に、個人がジャーニー内をどのように移動するかを分析し、トラブルシューティングをおこなうことができます。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 テストモードを使用するには、次の手順に従います。
 
-1. ジャーニーをテストする前に、ジャーニーが有効であり、エラーがないことを確認します。ジャーニーにエラーがある場合は、テストを開始できません。[この節](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)を参照してください。エラーがある場合は、警告記号が表示されます。
+1. ジャーニーをテストする前に、ジャーニーが有効であり、エラーがないことを確認します。ジャーニーにエラーがある場合は、テストを開始できません。[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。エラーがある場合は、警告記号が表示されます。
 
 1. テストモードをアクティブにするには、右上隅にある「**[!UICONTROL テスト]**」トグルをクリックします。
 

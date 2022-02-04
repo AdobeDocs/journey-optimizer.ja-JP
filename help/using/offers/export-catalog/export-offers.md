@@ -1,15 +1,15 @@
 ---
 title: パーソナライズされたオファーデータセット
-description: この節には、オファーのエクスポートされたデータセットで使用されるすべてのフィールドが示されています。
+description: この節では、オファー用にエクスポートされたデータセットで使用されるすべてのフィールドを示します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '2008'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 
 データセット内の最新の成功したバッチが右側に表示されます。データセットのスキーマの階層ビューが左側のペインに表示されます。
 
+
 >[!NOTE]
 >
 >[この節](../export-catalog/access-dataset.md)では、オファーライブラリの各オブジェクト用に書き出されたデータセットにアクセスする方法を説明します。
@@ -29,13 +30,13 @@ ht-degree: 100%
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## 識別子
+## 識別子 {#identifier}
 
 **フィールド：**_id
 **タイトル：**識別子
 **説明：**&#x200B;レコードの一意の識別子。**タイプ：**&#x200B;文字列
 
-## _experience
+## _experience {#experience}
 
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
@@ -307,7 +308,7 @@ ht-degree: 100%
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト

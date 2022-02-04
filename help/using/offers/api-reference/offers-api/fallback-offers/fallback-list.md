@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
 
-# フォールバックオファーのリスト
+# フォールバックオファーのリスト {#list-fallback-offers}
 
 フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。。フォールバックオファーを作成する手順は、オファーを作成する場合など、1 つまたは複数の表示域を作成することで構成されます。
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## クエリパラメーターの使用
+## クエリパラメーターの使用 {#using-query-parameters}
 
 リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
 
-### ページング
+### ページング {#paging}
 
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 

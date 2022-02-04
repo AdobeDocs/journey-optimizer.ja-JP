@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1751'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 > * メッセージプリセットは、ジャーニー管理者のみが設定できます。 [詳細](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * メッセージプリセットを作成する前に、メール設定ステップと[プッシュ設定](../push-configuration.md)ステップを実行する必要があります。
+> * メッセージプリセットを作成する前に、メール設定ステップと[プッシュ設定](../messages/push-configuration.md)ステップを実行する必要があります。
 
 
 メッセージプリセットを設定したら、メッセージを作成する際に「**[!UICONTROL プリセット]**」リストからメッセージプリセットを選択できるようになります。
@@ -62,23 +62,18 @@ ht-degree: 100%
       >
       >メールアドレスでは、現在選択されている[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
 
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
-
       * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 
       * **[!UICONTROL 送信者のメール]**：コミュニケーションに使用するメールアドレス。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合は、*contact@marketing.luma.com* を使用できます。
 
       * **[!UICONTROL 返信先（名前）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
 
-      * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。<!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->デリゲートされたサブドメインで定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。そうでない場合、メールは破棄されます。
+      * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。使用しないと、メールは破棄されます。
 
       * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >2021年10月リリース以降、[!DNL Journey Optimizer] ユーザーインターフェイスから転送メールアドレスを定義できなくなりました。 [!DNL Journey Optimizer] で受信される、デリゲートされたサブドメイン向けのすべてのメールを特定のメールアドレスに転送する場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。<!--move to Deprecated features section when created?-->
+      >2021年10月リリース以降、[!DNL Journey Optimizer] ユーザーインターフェイスから転送メールアドレスを定義できなくなりました。 [!DNL Journey Optimizer] で受信される、デリゲートされたサブドメイン向けのすべてのメールを特定のメールアドレスに転送する場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ ht-degree: 100%
 
    * 各プラットフォームで使用するモバイルアプリケーションを選択します。
 
-      プッシュ通知を送信する環境の設定方法については、[この節](../push-gs.md)を参照してください。
+      プッシュ通知を送信する環境の設定方法については、[この節](../messages/push-gs.md)を参照してください。
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ ht-degree: 100%
    >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-message-presets)を参照してください。
 
 1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ ht-degree: 100%
 
    ![](../assets/preset-view-update-details.png)
 
-**[!UICONTROL 最新の更新]**&#x200B;画面では、更新ステータスや<!--the approximate remaining time before completion (if validation is in progress)-->リクエストされた変更のリストなどの情報が表示されます。
+**[!UICONTROL 最新の更新]**&#x200B;画面では、更新ステータスやリクエストされた変更のリストなどの情報が表示されます。
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ ht-degree: 100%
 >
 >更新中は、メッセージプリセットを変更できません。 名前はクリックできますが、フィールドはすべて灰色表示になっています。 変更は、更新が正常に完了するまで反映されません。
 
-### 成功
+### 成功 {#success}
 
 検証プロセスが正常に完了すると、このプリセットを使用するすべてのメッセージで、新しいバージョンのプリセットが自動的に使用されます。 ただし、次の待機時間が必要になることがあります。
 * 単一メッセージで使用されるまでに数分間
 * バッチメッセージで有効になるには、そのプリセットの次のバッチまで
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### 失敗
+### 失敗 {#failed}
 
 検証プロセスが失敗した場合は、古いバージョンのプリセットが引き続き使用されます。
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 考えられる失敗理由について詳しくは、[この節](#monitor-message-presets)を参照してください。
 
@@ -300,18 +286,6 @@ ht-degree: 100%
 非アクティブ化されたメッセージプリセットは直接編集できません。 ただし、プリセットのコピーを作成し編集して新しいバージョンを作成し、それを使用して新しいメッセージを作成することはできます。 また、プリセットを再度アクティブにし、更新が正常に完了するまで待って編集することもできます。
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## ハウツービデオ{#video-presets}
 

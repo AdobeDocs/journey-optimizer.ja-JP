@@ -6,8 +6,8 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 高度な式エディターの構文 {#syntax}
 
-## 括弧と式の優先順位{#section_edf_fks_bgb}
+## 括弧と式の優先度{#parentheses-and-expression-priority}
 
 括弧を使用すると、複雑な式が読みやすくなります。_(&lt;expression>)_ は _&lt;expression>_&#x200B;と同等です。括弧を使用して、評価順序と結合規則を定義することもできます。
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 | 式 | 評価結果 |
 |--- |--- |
 | `4 + 2 * 10` | <ul><li>「*」は「+」よりも優先されます：2 * 10 の評価結果は → 20</li><li>4 + 20 → 24</li></ul> |
-| `(4 + 2) * 10` | <ul><li>括弧によって優先順位が変わります：(4 + 2) の評価結果は → 6</li><li> 6 * 10 → 60</li></ul> |
+| `(4 + 2) * 10` | <ul><li>括弧によって優先度が変わります：(4 + 2) の評価結果は → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## 大文字と小文字の区別{#section_lrb_xh5_dgb}
+## 大文字と小文字の区別{#case-sensitivity}
 
 大文字と小文字の区別に関する様々なルールを次に示します。
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 * すべての関数名では大文字と小文字が区別されます。例： _inSegment()_ は有効なのに対して、_INSEGMENT()_ 関数は有効ではありません。
 * フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語の組み込み要素ではなく、エンドユーザーが作成します。
 
-## 式の戻り値のタイプ{#section_gyc_435_53b}
+## 式の戻り値のタイプ{#returned-expression-type}
 
 使用コンテキストに応じて、式エディターは異なる値を返す可能性があります。
 

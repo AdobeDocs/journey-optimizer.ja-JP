@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
 ---
 
-# 決定の作成
+# 決定の作成 {#create-decision}
 
 コンテナ ID を提供しながら [!DNL Offer Library]API に対して POST リクエストを実行することで、決定（旧オファーアクティビティ）を作成できます。
 
-## Accept ヘッダーと Content-Type ヘッダー
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
 次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 

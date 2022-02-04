@@ -1,12 +1,12 @@
 ---
-title: パーソナライゼーション構文
+title: パーソナライゼーションのコンテキスト
 description: 'コンテンツをパーソナライズし、メッセージを表示する方法について詳しく説明します。 '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 93%
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 ![](assets/perso_icon.png)
 
-## メールのパーソナライズ
+## メールのパーソナライズ {#personalize-emails}
 
 メールを作成する際に、メッセージの「**[!UICONTROL 件名]**」フィールドにパーソナライゼーションを追加できます。
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 
 E メールデザイナーでは、コンテンツをパーソナライズできます。
 
-* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**パーソナライズ**&#x200B;アイコンをクリックして、「**パーソナライゼーションを挿入**」フィールドを選択します。E メールデザイナーインターフェイスについて詳しくは、この[節](../design-emails.md)を参照してください。
+* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**パーソナライズ**&#x200B;アイコンをクリックして、「**パーソナライゼーションを挿入**」フィールドを選択します。E メールデザイナーインターフェイスについて詳しくは、この[節](../messages/design-emails.md)を参照してください。
 
    ![](assets/perso_insert.png)
 
@@ -41,7 +41,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ![](assets/perso_ee.png)
 
-## プッシュ通知のパーソナライズ
+## プッシュ通知のパーソナライズ {#personalize-push}
 
 以下の&#x200B;**プッシュ通知**&#x200B;のフィールドをパーソナライズすることもできます。
 
@@ -53,7 +53,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ![](assets/perso_push.png)
 
-プッシュ通知の設定については、[この節](../push-gs.md)を参照してください。
+プッシュ通知の設定については、[この節](../messages/push-gs.md)を参照してください。
 
 ## オファーのパーソナライズ {#personalize-offers}
 

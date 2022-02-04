@@ -1,15 +1,15 @@
 ---
 title: パーソナライゼーションのユースケース&colon; カート放棄メール
-description: ヘルパー関数を使用してメッセージをパーソナライズする方法を説明します。
+description: ユースケースを通じて、電子メールメッセージの本文をパーソナライズする方法を説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 98%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
-* メールメッセージ。 [詳細情報](../create-message.md)
-* メールの本文。 [詳細情報](../create-email-content.md)。
+* メールメッセージ。 [詳細情報](../messages/create-message.md)
+* メールの本文。 [詳細情報](../messages/create-email-content.md)。
 * 単一のイベント。 [詳細情報](../event/about-events.md)。
 * イベントで開始されるジャーニー。 [詳細情報](../building-journeys/using-the-journey-designer.md)。
 
@@ -324,15 +324,15 @@ ht-degree: 100%
 1. エラーがないことを確認し、ジャーニーを公開します。
 
 
-## 関連トピック
+## 関連トピック {#related-topics}
 
-### Handlebars 関数
+### Handlebars 関数 {#handlebars}
 
 * [ヘルパー](functions/helpers.md)
 
 * [文字列関数](functions/string.md)
 
-### ユースケース
+### ユースケース {#use-case}
 
 * [プロファイル情報、コンテキストおよびオファーを使用したパーソナライゼーション](personalization-use-case.md)
 

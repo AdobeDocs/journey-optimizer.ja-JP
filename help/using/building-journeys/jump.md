@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# ジャーニー間でのジャンプ {#jump}
+# ジャーニー間を移動する {#jump}
 
 **[!UICONTROL ジャンプ]**&#x200B;アクションアクティビティを使って、個々のユーザーをジャーニー間でプッシュできるようになりました。この機能を使うと次のことができます。
 

@@ -1,16 +1,15 @@
 ---
-product: experience platform
-solution: Experience Platform
 title: Offer Decisioning へのアクセス付与
-description: Adobe Admin Console 経由で Offer Decisioning サービスに対するユーザーの権限を管理する方法について説明します。
-feature: Collections
+description: Adobe Admin Consoleを使用して Users サービスのOffer Decisioning権限を管理する方法を説明します
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +29,7 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. [Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を開き、「**[!UICONTROL Adobe Experience Platform]**」を選択します。
+1. [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html) を開き、「**[!UICONTROL Adobe Experience Platform]**」を選択します。
 
    <!--![](../../assets/offers_admin_console.png)-->
 
@@ -84,5 +83,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->ユーザー権限の管理方法について詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}を参照してください。
+>ユーザー権限の管理方法について詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}を参照してください。
 

@@ -1,15 +1,15 @@
 ---
-title: オファーカタログエクスポートの基本を学ぶ
-description: この節では、決定のためにエクスポートされたデータセットで使用されるすべてのフィールドを示します。
+title: オファーカタログの書き出しの概要
+description: この節では、決定用にエクスポートされたデータセットで使用されるすべてのフィールドを示します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '1554'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 
 データセット内の最新の成功したバッチが右側に表示されます。データセットのスキーマの階層ビューが左側のペインに表示されます。
 
+
 >[!NOTE]
 >
 >[この節](../export-catalog/access-dataset.md)では、オファーライブラリの各オブジェクト用に書き出されたデータセットにアクセスする方法を説明します。
@@ -29,13 +30,13 @@ ht-degree: 100%
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## 識別子
+## 識別子 {#identifier}
 
 **フィールド：**_id
 **タイトル：**識別子
 **説明：**&#x200B;レコードの一意の識別子。**タイプ：**&#x200B;文字列
 
-## _experience
+## _experience {#experience}
 
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
@@ -248,7 +249,7 @@ ht-degree: 100%
 **説明：**決定（旧称：アクティビティ）の開始日と終了時刻。プロパティに、schema.org の「startTime」プロパティの意味が http://schema.org/Action で定義されています。
 **タイプ：**&#x200B;文字列
 
-## _repo
+## _repo {#repo}
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト

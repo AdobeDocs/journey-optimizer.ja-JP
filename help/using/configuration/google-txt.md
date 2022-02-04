@@ -1,25 +1,15 @@
 ---
-title: サブドメインのデリゲート
-description: サブドメインのデリゲート方法を学ぶ
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: サブドメインへの Google TXT レコードの追加
+description: サブドメインにGoogle TXT レコードを追加する方法を説明します
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 93%
 
 ---
 

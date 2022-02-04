@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 
 設定したアクションごとに、1 つのアクションアクティビティをジャーニーデザイナーパレットで使用できます。[この節](../building-journeys/using-adobe-campaign-classic.md)を参照してください。
 
-## 重要な注意事項
+## 重要な注意事項 {#important-notes}
 
 * メッセージのスロットル処理はおこなわれません。Campaign の現行の SLA に基づいて、送信できるメッセージの数を 1 時間あたり 50,000 件に制限しています。この理由から、Journey Optimizer は単一のユースケース（セグメントではなく個々のイベント）でのみ使用してください。
 
@@ -33,9 +33,10 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 
 * ペイロード、または Campaign メッセージが正しいかどうかは検証されません。
 
-* セグメントの認定イベントでは、Campaign アクションを使用できません。
+* セグメントの選定イベントでは、Campaign アクションを使用できません。
 
-## 前提条件
+
+## 前提条件 {#prerequisites}
 
 Campaign では、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。 [Adobe Campaign のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ja#transactional-messaging){target=&quot;_blank&quot;}を参照してください。
 
@@ -58,7 +59,7 @@ Campaign では、トランザクションメッセージとそれに関連す�
 * **eventType**：Campaign イベントの内部名
 * **ctx**：メッセージに含めるパーソナライズ機能に基づく変数。
 
-## アクションの設定
+## アクションの設定 {#configure-action}
 
 Journey Optimizer では、トランザクションメッセージごとに 1 つのアクションを設定する必要があります。次の手順に従います。
 

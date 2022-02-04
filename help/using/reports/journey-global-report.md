@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: aef6ac3f153e5d42f9557afef1e9f1b310d3fa12
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
 
-バウンスの詳細については、[抑制リスト](../suppression-list.md)のページを参照してください。
+バウンスの詳細については、[抑制リスト](../messages/suppression-list.md)のページを参照してください。
 
 ![](../assets/global_report_16.png)
 

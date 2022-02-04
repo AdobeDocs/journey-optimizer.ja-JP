@@ -1,15 +1,15 @@
 ---
 title: プレースメントデータセット
-description: この節では、エクスポートしたプレースメントデータセットで使用されるすべてのフィールドを示します。
+description: この節では、エクスポートした配置データセットで使用されるすべてのフィールドを示します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 
 データセット内の最新の成功したバッチが右側に表示されます。データセットのスキーマの階層ビューが左側のペインに表示されます。
 
+
 >[!NOTE]
 >
 >[この節](../export-catalog/access-dataset.md)では、オファーライブラリの各オブジェクト用に書き出されたデータセットにアクセスする方法を説明します。
@@ -29,13 +30,13 @@ ht-degree: 100%
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## 識別子
+## 識別子 {#identifier}
 
 **フィールド：**_id
 **タイトル：**識別子
 **説明：**&#x200B;レコードの一意の識別子。**タイプ：**&#x200B;文字列
 
-## _experience
+## _experience {#experience}
 
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
@@ -83,7 +84,7 @@ ht-degree: 100%
 **タイトル：**プレースメント名
 **説明：**&#x200B;ヒューマンインタラクションでプレースメントを参照するために割り当てられた名前。**タイプ：**&#x200B;文字列
 
-## _repo
+## _repo {#repo}
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト

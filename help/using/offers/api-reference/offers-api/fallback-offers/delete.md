@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
 
-# フォールバックオファーの削除
+# フォールバックオファーの削除 {#delete-fallback-offer}
 
 場合によっては、フォールバックオファーを削除（DELETE）する必要があります。テナントコンテナで作成したフォールバックオファーのみを削除できます。これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
 

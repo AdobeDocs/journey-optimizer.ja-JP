@@ -1,13 +1,13 @@
 ---
 title: パーソナライゼーションの検証
-description: パーソナライゼーションの検証とトラブルシューティング方法についての詳細情報
+description: パーソナライゼーションの検証とトラブルシューティング方法についての詳細情報.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # パーソナライゼーションの検証 {#personalization-validation}
 
-## 検証メカニズム
+## 検証メカニズム {#validation-mechanisms}
 
 **式エディター**&#x200B;画面で、「**検証**」ボタンを使用して、パーソナライゼーション構文を確認します。
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 > パーソナライゼーション構文が無効な場合、式エディターウィンドウを閉じることはできません。
 
-## 一般的なエラー
+## 一般的なエラー {#common-errors}
 
 * **パス「XYZ」が見つかりません**
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## オファーに関連する特定のエラー
+## オファーに関連する特定のエラー {#specific-errors}
 
 メールまたはプッシュメッセージ内のオファー統合に関連するエラーは、次のパターンになります。
 

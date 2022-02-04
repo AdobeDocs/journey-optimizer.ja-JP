@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
 ---
 
-# データタイプ {#concept_gp3_rj5_dgb}
+# データタイプ {#data-types}
 
 厳密に言えば、定数には常にデータタイプが含まれています。リテラル式では、値のみを指定します。このデータタイプは、値（文字列、整数、小数など）から推測できます。 日時などの特定のケースでは、表現に専用の関数を使用します。
 

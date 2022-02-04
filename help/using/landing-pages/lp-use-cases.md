@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 77%
@@ -32,7 +32,7 @@ ht-degree: 77%
 
 例えば、来月イベントを開催し、<!--to keep your customers that are interested updated on that event-->イベント登録キャンペーンを開始するとします。これを行うには、受信者がこのイベントに登録できるようにするランディングページへのリンクを含むメールを送信します。登録したユーザーは、この目的で作成した購読リストに追加されます。
 
-### ランディングページの設定
+### ランディングページの設定 {#set-up-lp}
 
 1. イベント登録の購読リストを作成します。このリストには、登録済みユーザーが格納されます。購読リストの作成方法については、[こちら](subscription-list.md#define-subscription-list)を参照してください。
 
@@ -52,13 +52,13 @@ ht-degree: 77%
 
 1. ランディングページを[公開](create-lp.md#publish)します。
 
-1. イベントの登録が開始されたことを通知する[メールメッセージを作成](../create-message.md)します。
+1. イベントの登録が開始されたことを通知する[メールメッセージを作成](../messages/create-message.md)します。
 
-1. メッセージコンテンツに[リンクを挿入](../message-tracking.md#insert-links)します。「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
+1. メッセージコンテンツに[リンクを挿入](../messages/message-tracking.md#insert-links)します。「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. コンテンツを保存し、[メッセージを公開](../publish-manage-message.md)します。
+1. コンテンツを保存し、[メッセージを公開](../messages/publish-manage-message.md)します。
 
 1. 登録ランディングページにトラフィックを誘導するための[ジャーニー](../building-journeys/journey.md)を通じてメッセージを送信します。
 
@@ -92,7 +92,7 @@ ht-degree: 77%
 
 受信者がお知らせの登録を解除止できるように、オプトアウトのランディングページへのリンクをメールに含めることができます。
 
-[この節](../consent.md)では、受信者の同意の管理と、これが重要である理由について説明します。
+[この節](../messages/consent.md)では、受信者の同意の管理と、これが重要である理由について説明します。
 
 ### オプトアウト管理 {#opt-out-management}
 
@@ -129,9 +129,9 @@ E メールの受信者がランディングページを通じてコミュニケ
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [電子メールメッセージの作成](../create-message.md) in [!DNL Journey Optimizer].
+1. [電子メールメッセージの作成](../messages/create-message.md) in [!DNL Journey Optimizer].
 
-1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
+1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../messages/message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
 
    ![](../assets/lp_opt-out-insert-link.png)
 
@@ -139,7 +139,7 @@ E メールの受信者がランディングページを通じてコミュニケ
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. コンテンツを保存し、[メッセージを公開](../publish-manage-message.md)します。
+1. コンテンツを保存し、[メッセージを公開](../messages/publish-manage-message.md)します。
 
 1. ジャーニーを通じてメッセージを送信します。[詳細情報](../building-journeys/journey.md)。
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

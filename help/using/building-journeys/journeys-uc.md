@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '859'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 99%
 
 ---
 
-# マルチチャネルメッセージの送信
+# 使用例：マルチチャネルメッセージの送信{#send-multi-channel-messages}
 
 この節では、セグメントの読み取り、イベント、反応イベント、メールやプッシュメッセージを組み合わせたユースケースを示します。
 
@@ -47,9 +47,11 @@ ht-degree: 100%
 
 1. セグメントリストの右上にある「**[!UICONTROL セグメントを作成]**」ボタンをクリックします。
 
-1. 「**[!UICONTROL セグメントのプロパティ]**」ウィンドウに、セグメントの名前を入力します。
+1. 「**[!UICONTROL セグメントのプロパティ]**」ペインに、セグメントの名前を入力します。
 
-1. 目的のフィールドを左ウィンドウから中央のワークスペースにドラッグ＆ドロップし、必要に応じて設定します。この例では、「**市区町村**」と「**誕生年**」の属性フィールドを使用します。
+
+1. 目的のフィールドを左ペインから中央のワークスペースにドラッグ＆ドロップし、必要に応じて設定します。
+この例では、「**市区町村**」と「**誕生年**」の属性フィールドを使用します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

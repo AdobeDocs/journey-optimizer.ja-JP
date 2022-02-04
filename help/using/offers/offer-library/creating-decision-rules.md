@@ -1,19 +1,19 @@
 ---
 title: 決定ルールの作成
-description: Adobe Experience Platform での決定ルールを作成する方法を説明します。
+description: オファーを表示できるユーザーを定義する決定ルールの作成方法を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
-# 決定ルールの作成 {#creating-decision-rules}
+# 決定ルールの作成 {#create-decision-rules}
 
 Adobe Experience Platform で利用可能なデータに基づいて、オファーの決定ルールを作成できます。決定ルールは、オファーを表示する対象を決定します。
 

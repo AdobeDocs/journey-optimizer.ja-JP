@@ -5,19 +5,19 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
-workflow-type: ht
+exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
 
-
-# ユースケース：配信を増やす
+# ユースケース：配信を増やす{#use-case-ramp-up-your-deliveries}
 
 最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立する必要があります。そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに送られる可能性があります。IP ウォーミングを使用してメールの評判を高める方法については、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-IP をウォームアップするために、配信数を徐々に増やすことができます。詳しくは、[Journey Optimizer での配信品質の最適化](../deliverability.md)を参照してください。
+IP をウォームアップするために、配信数を徐々に増やすことができます。詳しくは、[Journey Optimizer での配信品質の最適化](../messages/deliverability.md)を参照してください。
 
 この使用例の目的は、ジャーニーを作成してメール配信を増やすことです。このジャーニーを設定するには、次の手順に従います。
 
@@ -44,8 +44,3 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 1. 選択したアクティビティでジャーニーを完了します。
 
 IP がウォームアップされたら、この条件を削除できます。
-
-
-
-
-

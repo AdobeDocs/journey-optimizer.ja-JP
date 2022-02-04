@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 * プロファイルフィールド
 * サービスイベントフィールド
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
 | requestId | 文字列 | リクエストのフローを追跡するために Journey Orchestration で使用されるリクエスト ID です。 |
 
-## journey
+## journey {#journey-field}
 
 このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれています。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 | description | 文字列 | ジャーニーの説明 |
 | version | 文字列 | バージョン（`major`.`minor` のように表されます） |
 
-## profile
+## profile {#profile-field}
 
 このフィールドグループは、journeyStepEvent に固有のものです。このイベントはジャーニーと関連しており、identityMap を持たず、存在する場合はプロファイル ID を示しています。
 
@@ -51,7 +51,7 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 | ID | 文字列 | プロファイル識別子は、ジャーニーで送信／使用されたプロファイルを識別します。例：foo@adobe.com |
 | namespace | 文字列 | このフィールドは、ジャーニーで使用されるプロファイルで参照される名前空間を記述します。例：Email、ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 この Mixin には、プロファイルエクスポートジョブに対応するすべてのフィールドが含まれています。
 
@@ -66,6 +66,6 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 | eventType | 文字列 | エラーイベントか情報イベントかを示すイベントタイプ：Info、Error |
 | eventCode | 文字列 | 対応する eventType の理由を示すエラーコード |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 このカテゴリには、元のステップイベントフィールドが含まれます。この[節](../reports/sharing-legacy-fields.md)を参照してください。

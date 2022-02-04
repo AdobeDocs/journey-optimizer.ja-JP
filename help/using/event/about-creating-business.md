@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
-workflow-type: ht
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >
 >また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=ja)を視聴することもできます。
 
-## 重要な注意事項
+## 重要な注意事項 {#important-notes}
 
 * 時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。フィールド `_id` および `timestamp` を必要に応じて設定する必要があります。
 * ビジネスイベントは、ジャーニーの最初のステップとしてのみドロップできます。
@@ -36,7 +36,7 @@ ht-degree: 100%
 * ビジネスイベントをテストする場合は、イベントパラメーターと、テストジャーニーにエントリするテストプロファイルの ID を渡す必要があります。また、ビジネスイベントベースのジャーニーをテストする場合は、1 つのプロファイルエントリのみをトリガーできます。[この節](../building-journeys/testing-the-journey.md#test-business)を参照してください。テストモードでは、「コードビュー」モードは使用できません。
 * 新しいビジネスイベントが発生した場合、現在ジャーニーにいる個人はどうなりますか？新しい繰り返しが発生しても、個人は引き続き繰り返しジャーニー内に留まるのと同様です。パスは終了しました。その結果、頻繁なビジネスイベントが予測される場合、マーケターは作成するジャーニーが長くなりすぎるのを避けるために注意を払う必要があります。
 
-## 複数のビジネスイベント
+## 複数のビジネスイベント {#multiple-business-events}
 
 複数のビジネスイベントを続けて受け取る場合に適用される重要な注意事項を以下に示します。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 1 回限りのビジネスイベントの場合、特定のジャーニーについて、最初のイベントジョブによってプッシュされたデータが 1 時間の時間枠で再利用されます。スケジュールされたジャーニーの場合、ガードレールはありません。セグメントについて詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
 
-## ビジネスイベントの概要
+## ビジネスイベントの概要 {#gs-business-events}
 
 ビジネスイベントを設定する最初の手順は次のとおりです。
 
@@ -56,7 +56,8 @@ ht-degree: 100%
 
    ![](../assets/jo-event1.png)
 
-1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ウィンドウが開きます。
+1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ペインが開きます。
+
 
    ![](../assets/jo-event2.png)
 

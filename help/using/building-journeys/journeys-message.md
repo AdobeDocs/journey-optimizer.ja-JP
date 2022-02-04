@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
-# ジャーニーへのメッセージの追加
+# ジャーニーへのメッセージの追加{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。[この節](../get-started-content.md)を参照してください。次に、Journey Optimizer でデザインしたプッシュメッセージまたはメールメッセージをジャーニーに追加します。
+[!DNL Journey Optimizer] にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。[この節](../messages/get-started-content.md)を参照してください。次に、Journey Optimizer でデザインしたプッシュメッセージまたはメールメッセージをジャーニーに追加します。
 
 サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成します。詳しくは、この[節](../action/action.md)を参照してください。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## メールパラメーターとプッシュパラメーター
 
-**[!UICONTROL メールパラメーター]**&#x200B;および&#x200B;**[!UICONTROL プッシュパラメーター]**&#x200B;のセクションには、読み取り専用フィールドが表示されます。通常、この設定はメッセージの作成時に実行します。 [この節](../get-started-content.md)を参照してください。
+**[!UICONTROL メールパラメーター]**&#x200B;および&#x200B;**[!UICONTROL プッシュパラメーター]**&#x200B;のセクションには、読み取り専用フィールドが表示されます。通常、この設定はメッセージの作成時に実行します。 [この節](../messages/get-started-content.md)を参照してください。
 
 ![](../assets/jo-message4.png)
 

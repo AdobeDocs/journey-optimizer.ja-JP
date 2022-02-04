@@ -1,19 +1,19 @@
 ---
 title: プレースメントの作成
-description: Adobe Experience Platform でプレースメントを作成する方法を説明します。
+description: オファーの配置の作成方法を学ぶ
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '225'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 96%
 
 ---
 
-# プレースメントの作成 {#creating-placements}
+# プレースメントの作成 {#create-placements}
 
 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 

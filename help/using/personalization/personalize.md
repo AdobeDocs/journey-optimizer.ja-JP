@@ -1,12 +1,12 @@
 ---
 title: Journey Optimizer でのコンテンツのパーソナライズ
-description: パーソナライゼーションの概要
+description: パーソナライゼーションの概要。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: bd4a66d4d0c280c83b37241ccba53843b9442509
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
