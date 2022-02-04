@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: 5866a5ad181b9b745cedc4fa740d131cf7c88863
+workflow-type: tm+mt
+source-wordcount: '1262'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 100%
 デバイスのプレビューセクションを使用すると、iOS 端末と Android 端末で表示されるプッシュ通知を視覚化できます。
 
 ## クリック時の動作 {#on-click-behavior}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-onclick"
+>title="クリック動作について"
+>abstract="受信者がプッシュ通知の本文をクリックしたときの動作を選択します。"
 
 受信者がプッシュ通知の本文をクリックしたときの動作を選択します。
 
