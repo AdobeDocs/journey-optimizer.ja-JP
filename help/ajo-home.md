@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 750542adf2c8d468b34cc0d0f61c87afc9cd001f
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 87%
 
 ---
 
@@ -86,15 +86,20 @@ ht-degree: 100%
     </div>
     <div>
     <li>
+      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer Security の概要</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Adobe Journey Optimizer FAQ</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja" target="_blank">Adobe Experience Platform のドキュメント</a>
     </li>
     </div>
-      <div>
-      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja" target="_blank">Adobe Experience Platform アクセスの概要</a>
-    </li>
-    </div>
-      <div>
+    <div>
       <li>
       <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform デベロッパーリソース</a>
     </li>
