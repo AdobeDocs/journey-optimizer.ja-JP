@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1075'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#%E3%82%BB%E3%82%B0%E3%83%A1%E3%83%B3%E3%83%88%E7%B5%90%E6%9E%9C%E3%81%AE%E8%A7%A3%E9%87%88){target=&quot;_blank&quot;}を参照してください。
+   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
 
    ![](../assets/read-segment-selection.png)
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
    ![](../assets/read-segment-schedule-list.png)
 
-   この **増分読み取り** 「 」オプションを使用すると、ジャーニーの最後の実行以降にセグメントにエントリした個人のみをターゲットにすることができます。 最初の実行では、常にすべてのセグメントメンバーがターゲットになります。 このオプションは、繰り返しの場合にのみ使用できます **セグメントを読み取り** アクティビティ。
+   **増分読み取り**&#x200B;オプションを使用すると、ジャーニーの最後の実行以降にセグメントにエントリした個人のみをターゲットにすることができます。最初の実行では、常にすべてのセグメントメンバーがターゲットになります。このオプションは、繰り返し発生する&#x200B;**セグメントを読み取り**&#x200B;アクティビティでのみ使用できます。
 
 <!--
 
