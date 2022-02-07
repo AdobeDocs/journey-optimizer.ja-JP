@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
 
-# filter{#filter}
+# フィルター{#filter}
 
 指定されたキー値の 1 つに一致するキー属性を持つオブジェクトで構成される listObject（オブジェクトリスト）を返します。
 

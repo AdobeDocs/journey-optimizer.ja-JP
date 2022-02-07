@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -36,7 +36,8 @@ ht-degree: 100%
 
 タイムゾーンを固定することもできます。定義済みのタイムゾーンをクリアし、ドロップダウンリストからタイムゾーンを選択します。固定タイムゾーンを使用すると、ジャーニーにエントリするすべての個人のタイムゾーンは同じになります。
 
-「**[!UICONTROL ジャーニーのプロパティ]**」ウィンドウで、タイムゾーンを選択します。
+「**[!UICONTROL ジャーニーのプロパティ]**」ペインで、タイムゾーンを選択します。
+
 
 ![](../assets/journey72.png)
 

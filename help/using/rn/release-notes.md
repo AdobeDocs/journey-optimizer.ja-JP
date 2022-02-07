@@ -5,13 +5,13 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '2382'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # リリースノート {#release-notes}
 
-このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、 [最新のドキュメント更新](documentation-updates.md) ページを参照してください。
+このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、その他の変更点については、[最新のドキュメント更新](documentation-updates.md)ページを参照してください。
 
 
 ## 2022年1月リリース {#january-2022-release}
@@ -21,14 +21,14 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー — プロファイルキャップ条件で IP ランプを最適化</strong><br/></th>
+<th><strong>ジャーニー - プロファイルキャップ条件による IP ランプアップの最適化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>を設定する際 <strong>条件</strong> ジャーニーのアクティビティで、プロファイルのキャップを定義できるようになりました。 この新しい条件タイプでは、ジャーニーパスのプロファイルの最大数を設定できます。 この制限に達すると、入力プロファイルは代替パスを使用します。これにより、配信のボリュームを増やす（IP ランプアップ）ことができます。 例えば、実行を分割して、1 つのドメインで配信をランプアップしたい場合があります。1 日目に 1,000 通のメッセージを送信し、2 日目に 2,000 通のメッセージを送信します。</p>
-<p>詳しくは、 <a href="../building-journeys/condition-activity.md#profile_cap">詳細なドキュメント</a> および関連 <a href="../building-journeys/ramp-up-deliveries-uc.md">使用例の例</a>.</p>
+<p>ジャーニーで<strong>条件</strong>アクティビティを設定する際、プロファイルのキャップを定義できるようになりました。この新しい条件タイプを使用すると、ジャーニーパスの最大プロファイル数を設定できます。この制限に到達すると、エントリするプロファイルは代替パスを使用します。これにより、配信の量を増やすことができます（IP ランプアップ）。 例えば、1 日目に 1000 通のメッセージ、2 日目に 2000 通というように、ドメインでの実行を分割して配信を増やす場合があります。</p>
+<p>詳しくは、<a href="../building-journeys/condition-activity.md#profile_cap">詳細なドキュメント</a>および関連する<a href="../building-journeys/ramp-up-deliveries-uc.md">サンプルユースケース</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -37,13 +37,13 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー — セグメントの読み取りの改善</strong><br/></th>
+<th><strong>ジャーニー - セグメントの読み取りの向上</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>この <strong>増分読み取り</strong> オプションが繰り返しに追加されました <strong>セグメントを読み取り</strong> アクティビティ。 このオプションを使用すると、ジャーニーの最後の実行以降にセグメントに入った個人のみをターゲットにすることができます。 最初の実行では、常にすべてのセグメントメンバーがターゲットになります。</p>
+<p><strong>増分読み取り</strong>オプションが、繰り返しの<strong>セグメントを読み取り</strong>アクティビティに追加されました 。このオプションを使用すると、ジャーニーの最後の実行以降にセグメントにエントリした個人のみをターゲットにすることができます。最初の実行では、常にすべてのセグメントメンバーがターゲットになります。</p>
 <p>詳しくは、 <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
@@ -54,20 +54,20 @@ ht-degree: 89%
 
 **ジャーニー**
 
-* Journey Optimizerステップイベントを [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja). ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer ステップイベントを、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできるようになりました。ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../reports/sharing-overview.md#integration-cja)
 
 
 **Offer Decisioning**
 
-* 公開されたメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、またはオファーの決定を更新する場合、再公開する必要なく、更新内容が対応するメッセージに自動的に反映されるようになりました。 [詳細情報](../offers/offers-e2e.md#insert-decision-in-email)
+* 公開済みメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、オファー決定を更新すると、その更新は、対応するメッセージに自動的に反映されるようになり、再公開する必要がなくなりました。[詳細情報](../offers/offers-e2e.md#insert-decision-in-email)
 
 **管理**
 
-* 管理者は、CNAME が設定されたサブドメインで PTR レコードを編集できるようになりました。 [詳細情報](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+* 管理者は、CNAME を設定したサブドメインを使用して PTR レコードを編集できるようになりました。[詳細情報](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
 **パーソナライゼーション**
 
-* **お気に入りに追加**  — パーソナライゼーションを使用する際の効率を高めるために、お気に入りの保存という概念を導入しました。 お気に入りメニューに異なる属性を追加すると、頻繁に使用する項目にすばやくアクセスできます。 [詳細情報](../personalization/personalize.md#fav)
+* **お気に入りに追加** - パーソナライゼーションを使用する際の効率を向上させるために、お気に入りを保存するという概念を導入しました。お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。 [詳細情報](../personalization/personalize.md#fav)
 
 ## 2021年11月リリース {#november-2021-release}
 

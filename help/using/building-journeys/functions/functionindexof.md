@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| string | String |
+| string | 文字列 |
 | 指定値 | 文字列 |
 
 ## シグネチャと戻り値のタイプ

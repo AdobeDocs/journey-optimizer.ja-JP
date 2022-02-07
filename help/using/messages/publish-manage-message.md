@@ -9,7 +9,7 @@ exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->公開されたメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、またはオファーの決定を更新する場合、再公開する必要なく、更新内容が対応するメッセージに自動的に反映されるようになりました。 [オファーの詳細を表示](../offers/get-started/starting-offer-decisioning.md)
+>公開済みメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、オファー決定を更新すると、その更新は、対応するメッセージに自動的に反映されるようになり、再公開する必要がなくなりました。[オファーの詳細情報](../offers/get-started/starting-offer-decisioning.md)
 
 ## 読み取り専用メッセージの更新 {#modify-message}
 

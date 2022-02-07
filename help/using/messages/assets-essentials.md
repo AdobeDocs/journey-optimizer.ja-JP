@@ -9,7 +9,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 88%
 
 [!DNL Adobe Experience Manager Assets Essentials] は、メッセージへのアセットの入力に使用できる一元的なアセットリポジトリを提供します。「**[!UICONTROL Assets]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。また、メールコンテンツをデザインする際に、アセットやフォルダーにアクセスすることもできます。 メールデザインについて詳しくは、[こちら](design-emails.md)を参照してください。
 
-使用する前に [!DNL Adobe Experience Manager Assets Essentials]に設定する場合、ユーザーを **Assets Essentials Consumer Users** または/および **Assets Essentials Users** 製品プロファイル。 詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+ [!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;製品プロファイルに追加する必要があります。 詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 >[!NOTE]
->2022 年 1 月 6 日より前に入手したJourney Optimizer製品の場合、 [!DNL Adobe Experience Manager Assets Essentials] 組織の 詳しくは、 [Assets Essentialsをデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} セクションに追加しました。
+>2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。 詳しくは、 [Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} の節をご覧ください。
 
 ## アセットのアップロードと挿入{#add-asset}
 

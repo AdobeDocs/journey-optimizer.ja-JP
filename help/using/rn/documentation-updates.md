@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 89%
 
 ## 2022年1月 {#january-2022}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 1 月リリースの詳細は、ドキュメントに記載されています。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2022年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 
-* offer decisioningAI ランキングの節が更新され、自動最適化モデルの詳細な説明が追加されました。 [詳細情報](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+* Offer Decisioning AI ランキングの節が更新され、自動最適化モデルの詳細な説明が追加されました。[詳細情報](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
-* ランキング戦略を使用する際にイベントタイプを送信できるようにする必要があるスキーマ要件に関する新しい節が追加されました。 [詳細情報](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* ランキング戦略を使用する際にイベントタイプを送信できるようにするために必要な、スキーマ要件に関する新しい節が追加されました。[詳細情報](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 * 関連するセクション [!DNL Journey Optimizer] パーソナライゼーション機能が再編成され、読みやすくなりました。 [詳細情報](../personalization/personalize.md)
 
@@ -28,7 +28,7 @@ ht-degree: 89%
 ## 2021年11月 {#november-2021}
 
 * ジャーニーで使用される高度な式エディターで、完全な説明を利用できるようになりました。[詳細情報](../building-journeys/expression/expressionadvanced.md)
-* CNAME サブドメインのデリゲーション方法に関する新しい節が追加されました。 [詳細情報](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* CNAME サブドメインのデリゲーション方法に関する新しい節が追加されました。[詳細情報](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## 2021年10月 {#october-2021}

@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -25,15 +25,18 @@ ht-degree: 100%
 
    ![](../assets/segment-builder.png)
 
-1. **[!UICONTROL セグメントプロパティ]**&#x200B;ウィンドウで、セグメントの名前と説明（オプション）を入力します。
+1. **[!UICONTROL セグメントプロパティ]**ペインで、セグメントの名前と説明（オプション）を入力します。
+
 
    ![](../assets/segment-properties.png)
 
-1. 必要なフィールドを左ウィンドウから中央のワークスペースにドラッグ＆ドロップし、必要に応じて設定します。
+1. 必要なフィールドを左ペインから中央のワークスペースにドラッグ＆ドロップし、必要に応じて設定します。
+
 
    >[!NOTE]
    >
-   >左側のウィンドウに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、[Adobe Experience Data Model（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。
+詳しくは、[Adobe Experience Data Model（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
    ![](../assets/drag-fields.png)
 
@@ -47,7 +50,7 @@ ht-degree: 100%
 
       ![](../assets/add-events.png)
 
-1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL セグメントのプロパティ]**&#x200B;ウィンドウが自動的に更新され、セグメントに属する予測プロファイルに関する情報が表示されます。
+1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL セグメントのプロパティ]**&#x200B;ペインが自動的に更新され、セグメントに属する予測プロファイルに関する情報が表示されます。
 
    ![](../assets/segment-estimate.png)
 

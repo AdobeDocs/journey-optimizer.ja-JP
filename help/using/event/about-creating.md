@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 100%
 
@@ -23,7 +23,8 @@ ht-degree: 100%
 
    ![](../assets/jo-event1.png)
 
-1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ウィンドウが開きます。
+1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ペインが開きます。
+
 
    ![](../assets/jo-event2.png)
 
@@ -123,7 +124,7 @@ ht-degree: 100%
 
 キーは、イベントのペイロードデータの一部とするフィールドまたはフィールドの組み合わせです。システムはキーを使用することでイベントに関連付けられた人を識別できます。キーには、Experience Cloud ID、CRM ID、メールアドレスなどを使用できます。
 
-リアルタイム顧客プロファイルデータベースに保存されたデータを活用する場合は、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}でプロファイルの ID として定義した情報をイベントキーとして選択する必要があります。
+リアルタイム顧客プロファイルデータベースに保存されたデータを活用する場合は、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}でプロファイルの ID として定義した情報をイベントキーとして選択する必要があります。
 
 これにより、システムはイベントと個人プロファイルの間の紐付けを実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]** 」フィールドはあらかじめ入力されます。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
 

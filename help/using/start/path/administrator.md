@@ -6,7 +6,7 @@ exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 93%
 
 1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){_blank} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当する、ジャーニー、メッセージ、オファーなどの機能の下に集約されています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
 
-さらに、Assets Essentialsへのアクセスを必要とするユーザーを **Assets Essentials Consumer Users** または/および **Assets Essentials Users** 製品プロファイル。 詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials Consumer Users** または／および **Assets Essentials Users** の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 >[!NOTE]
->2022 年 1 月 6 日より前に入手したJourney Optimizer製品の場合、 [!DNL Adobe Experience Manager Assets Essentials] 組織の 詳しくは、 [Assets Essentialsをデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} セクションに追加しました。
+>2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。 詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} の節を参照してください。
 
 [!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 

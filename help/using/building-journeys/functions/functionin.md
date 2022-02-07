@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 |-----------|------------------|
 | 文字列 | 文字列 |
 | ブール値 | ブール値 |
-| Integer | Integer |
+| Integer | 整数 |
 | 小数 | 小数 |
 | 期間 | 期間 |
 | 日時 | 日時 |

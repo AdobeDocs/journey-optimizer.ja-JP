@@ -1,19 +1,19 @@
 ---
-title: 決定管理イベントの主な情報
-description: 各 決定管理イベントで送信される主な情報について詳しく説明します。
+title: 意思決定管理イベントの主な情報
+description: '各意思決定管理イベントで送信される主な情報について詳しく説明します。 '
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
-# 決定管理イベントの主な情報 {#events-key-information}
+# 意思決定管理イベントの主な情報 {#events-key-information}
 
 決定時に送信される各イベントには、分析とレポートに利用できる 4 つの主要なデータポイントが含まれています。
 
