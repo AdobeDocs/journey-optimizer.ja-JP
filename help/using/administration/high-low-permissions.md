@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 55%
+ht-degree: 98%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 55%
 各製品プロファイルは、ユーザーが様々な機能にアクセスできる権限で構成されています。
 権限は次の 2 つのタイプに分けることができます。
 
-* **高レベル権限**:は、割り当て可能な様々な権限を表します **[!UICONTROL 製品プロファイル]** 内 [!DNL Admin console]例： **[!DNL Publish journeys]** および **[!DNL Manage subdomains delegation]**. 高レベル権限は、低レベル権限を含みます。
+* **高レベルの権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、[!DNL Admin console] で&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てることができる様々な権限を表します。高レベル権限は、低レベル権限を含みます。
 
 * **低レベル権限**：高レベル権限から取得される様々な権限を表します。
 
-例えば、 **[!DNL Journey administrator]** 製品プロファイルが割り当てられます **[!DNL Manage journeys]** 権限。 この権限により、ジャーニー管理者がジャーニーの書き込み、読み取りおよび削除ができる低レベル権限が生じます。
+例えば、**[!DNL Journey administrator]** 製品プロファイルには、**[!DNL Manage journeys]** 権限が割り当てられます。この権限により、ジャーニー管理者に対してジャーニーの書き込み、読み取りおよび削除を許可する低レベルの権限が生じます。
 
 ## ジャーニー機能 {#journey-capability}
 
 ### [!DNL Manage journeys] 権限 {#manage-journeys}
 
-この **[!DNL Manage journeys]** 高レベルの権限を持つユーザーは、新しいジャーニーの作成、既存のアクションの編集/削除、およびジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへのアクセスが可能です。
+「**[!DNL Manage journeys]**」という高レベルの権限を持つユーザーは、新しいジャーニーの作成や、既存のジャーニーの編集／削除を行い、ジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへアクセスできます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -49,7 +49,7 @@ ht-degree: 55%
 
 ### [!DNL Publish journeys] 権限 {#publish-journeys}
 
-この **[!DNL Publish journeys]** 高レベル権限を持つユーザーは、ジャーニーを公開できます。
+「**[!DNL Publish journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを公開できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -59,7 +59,7 @@ ht-degree: 55%
 
 ### [!DNL View journeys] 権限 {#view-journeys}
 
-この **[!DNL View journeys]** 高レベル権限を持つユーザーは、ジャーニーを参照および表示できます。
+「**[!DNL View journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを参照および表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -72,7 +72,7 @@ ht-degree: 55%
 
 ### [!DNL Manage journeys events, data sources and actions] 権限 {#manage-journeys-events}
 
-この **[!DNL Manage journeys events, data sources and actions]** 高レベル権限を持つユーザーは、イベントとデータの設定をおこなうことができます。
+「**[!DNL Manage journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、イベントとデータの設定を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -94,7 +94,7 @@ ht-degree: 55%
 
 ### [!DNL View journeys events, data sources and actions] 権限 {#view-journeys-event}
 
-この **[!DNL View journeys events, data sources and actions]** 高レベル権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
+「**[!DNL View journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -110,7 +110,7 @@ ht-degree: 55%
 
 ### [!DNL View journeys report] 権限 {#view-journeys-report}
 
-この **[!DNL View journeys report]** 高レベルの権限を持つユーザーは、読み取り専用のジャーニーレポートを使用できます。
+**[!DNL View journeys report]** 高レベルの権限を持つユーザーは、ジャーニーレポートに対する読み取り専用のアクセス権を持ちます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -128,7 +128,7 @@ ht-degree: 55%
 
 ### [!DNL Manage messages] 権限 {#manage-messages}
 
-この **[!DNL Manage messages]** 高レベル権限を持つユーザーは、メッセージの作成と編集/削除ができます。
+「**[!DNL Manage messages]**」という高レベルの権限を持つユーザーは、メッセージを作成および編集／削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -144,7 +144,7 @@ ht-degree: 55%
 
 ### [!DNL Manage messages preview and test] 権限 {#mange-messages-preview}
 
-この **[!DNL Manage messages preview and test]** 高レベル権限を持つユーザーは、パーソナライズされたメッセージをプレビューできます。
+「**[!DNL Manage messages preview and test]**」という高レベルの権限を持つユーザーは、パーソナライズされたメッセージをプレビューできます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -166,7 +166,7 @@ ht-degree: 55%
 
 ### [!DNL Publish messages] 権限 {#publish-messages}
 
-この **[!DNL Publish messages]** 高レベル権限を持つユーザーは、メッセージを公開できます。
+「**[!DNL Publish messages]**」という高レベルの権限を持つユーザーは、メッセージを公開できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -180,7 +180,7 @@ ht-degree: 55%
 
 ### [!DNL View messages] 権限 {#view-messages}
 
-この **[!DNL View messages]** 高レベル権限を持つユーザーは、メッセージの読み取りのみ可能です。
+「**[!DNL View messages]**」という高レベルの権限を持つユーザーは、メッセージに対する読み取り専用のアクセス権を持ちます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -194,7 +194,7 @@ ht-degree: 55%
 
 ### [!DNL View messages report] 権限 {#view-message-reports}
 
-この **[!DNL View messages report]** 高レベル権限を持つユーザーは、電子メールおよびプッシュレポートを読み取り専用で使用できます。
+「**[!DNL View messages report]**」という高レベルの権限を持つユーザーは、メールおよびプッシュレポートに対する読み取り専用のアクセス権を持ちます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -211,7 +211,7 @@ ht-degree: 55%
 
 ### [!DNL Manage decisions] 権限 {#manage-decisioning}
 
-この **[!DNL Manage decisions]** 高レベルの権限を持つユーザーは、新規作成や既存の編集/削除が可能です **[!DNL Activity entities]**&#x200B;を管理し、判定をおこなうためにこれらのアクティビティで使用されるオブジェクトを管理します。
+「**[!DNL Manage decisions]**」という高レベルの権限を持つユーザーは、既存の **[!DNL Activity entities]** の編集／削除、新規作成を行なえるほか、これらのアクティビティで使用されるオブジェクトを管理し、決定することができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -238,7 +238,7 @@ ht-degree: 55%
 
 ### [!DNL View decisions] 権限 {#view-decisions}
 
-この **[!DNL View decisions]** 高レベル権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定をおこなうことができます。
+「**[!DNL View decisions]**」という高レベルの権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -258,7 +258,7 @@ ht-degree: 55%
 
 ### [!DNL Publish offers decisioning] 権限 {#publish-decisions}
 
-この **[!DNL Publish offers decisioning]** 高レベル権限を持つユーザーは、オファーアクティビティの承認/承認取消にアクセスできます。
+「**[!DNL Publish offers decisioning]**」という高レベルの権限を持つユーザーは、オファーアクティビティを承認／未承認するアクセス権を持ちます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -281,7 +281,7 @@ ht-degree: 55%
 
 ### [!DNL Manage ranking strategies] 権限 {#manage-decisions}
 
-この **[!DNL Manage ranking strategies]** 高レベル権限を持つユーザーは、カスタムメッセージレポートの読み取り、作成、編集、削除を行い、アクション機能を使用できます。
+「**[!DNL Manage ranking strategies]**」という高レベルの権限を持つユーザーは、カスタムメッセージレポートの読み取り、作成、編集および削除を行い、アクション機能を使用できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -298,7 +298,7 @@ ht-degree: 55%
 
 ### [!DNL Manage subdomains delegation] 権限 {#manage-subdomain}
 
-この **[!DNL Manage subdomains delegation]** 高レベル権限を持つユーザーは、サブドメインの委任（IP プールを含む）を作成、編集および削除できます。
+「**[!DNL Manage subdomains delegation]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -318,7 +318,7 @@ ht-degree: 55%
 
 ### [!DNL View PTR records] 権限 {#view-ptr}
 
-この **[!DNL View PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
+「**[!DNL View PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -327,7 +327,7 @@ ht-degree: 55%
 
 ### [!DNL Manage IP pools] 権限 {#manage-ip-pools}
 
-この **[!DNL Manage IP pools]** 高レベル権限を持つユーザーは、アフィニティ定義を作成、編集および削除できます。
+「**[!DNL Manage IP pools]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -337,7 +337,7 @@ ht-degree: 55%
 
 ### [!DNL Manage messages general settings] 権限 {#manage-message-settings}
 
-この **[!DNL Manage messages general settings]** 高レベル権限を持つユーザーは、サンドボックスレベルでグローバル設定を作成、編集および削除できます。
+**[!DNL Manage messages general settings]** 高レベルの権限を持つユーザーは、サンドボックスレベルでグローバル設定の作成、編集および削除を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -350,7 +350,7 @@ ht-degree: 55%
 
 ### [!DNL View messages general settings] 権限 {#view-message-settings}
 
-この **[!DNL View messages general settings]** 高レベル権限を持つユーザーは、実行アドレスなどのメッセージの一般設定を表示できます。
+「**[!DNL View messages general settings]**」という高レベルの権限を持つユーザーは、メッセージの一般設定（実行アドレスなど）を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -361,7 +361,7 @@ ht-degree: 55%
 
 ### [!DNL Manage messages presets] 権限 {#manage-message-presets}
 
-この **[!DNL Manage messages presets]** 高レベル権限を持つユーザーは、サンドボックスレベルでチャネルをまたいでメッセージプリセットを作成、編集および削除できます。
+「**[!DNL Manage messages presets]**」という高レベルの権限を持つユーザーは、チャネルをまたぐメッセージプリセットの作成、編集および削除をサンドボックスレベルで行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -375,18 +375,18 @@ ht-degree: 55%
 
 ### [!DNL View messages presets] 権限 {#view-message-presets}
 
-この **[!DNL View messages presets]** 高レベル権限を持つユーザーは、メッセージの作成時に使用するメッセージプリセットを知るために、メッセージプリセットを表示できます。
+「**[!DNL View messages presets]**」という高レベルの権限を持つユーザーは、メッセージの作成時にどのメッセージプリセットを使用すればよいか把握するために、メッセージプリセットを表示できます。
 
 これには、次の低レベル権限が含まれます。
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read(Adobe Experience Platform Data Collection から )
+* mobile_setting.read（Adobe Experience Platform データ収集から）
 
 ### [!DNL Manage suppression] 権限 {#manage-suppression}
 
-この **[!DNL Manage suppression]** 高レベル権限を使用すると、ユーザーは、電子メールアドレスが抑制リストに追加される前にバウンス数を定義したり、抑制リストに対するエントリの追加や削除をおこなうことができます。
+**[!DNL Manage suppression]** 高レベル権限を持つユーザーは、メールアドレスが抑制リストに追加されるまでのバウンス数を定義できるほか、抑制リストに対するエントリの追加や削除も行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -398,7 +398,7 @@ ht-degree: 55%
 
 ### [!DNL View suppression list] 権限 {#view-suppression-list}
 
-この **[!DNL View suppression list]** 高レベル権限を持つユーザーは、抑制リストのコンテンツと設定を表示できます。
+**[!DNL View suppression list]** 高レベル権限を持つユーザーは、抑制リストの内容と設定を表示できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -411,7 +411,7 @@ ht-degree: 55%
 
 ### [!DNL Export suppression list] 権限 {#export-suppression-list}
 
-この **[!DNL Export suppression list]** 高レベル権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
+**[!DNL Export suppression list]** 高レベル権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
 
 これには、次の低レベル権限が含まれます。
 

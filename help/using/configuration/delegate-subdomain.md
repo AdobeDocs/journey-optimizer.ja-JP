@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->現在、サブドメインの並列実行は、 [!DNL Journey Optimizer]. 別のドメインに **[!UICONTROL 処理中]** のステータスに値を指定すると、エラーメッセージが表示されます。
+>サブドメインの並列実行は、現在 [!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
 
 ## CNAME サブドメインのデリゲーション {#cname-subdomain-delegation}
 
@@ -150,7 +150,7 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
 
 >[!CAUTION]
 >
->現在、サブドメインの並列実行は、 [!DNL Journey Optimizer]. 別のドメインに **[!UICONTROL 処理中]** のステータスに値を指定すると、エラーメッセージが表示されます。
+>サブドメインの並列実行は、現在 [!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
 
 ## サブドメインの検証 {#subdomain-validation}
 

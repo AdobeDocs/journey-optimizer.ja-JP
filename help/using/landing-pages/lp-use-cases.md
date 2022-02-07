@@ -11,7 +11,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -105,37 +105,37 @@ ht-degree: 77%
 
 ### オプトアウトの設定 {#configure-opt-out}
 
-E メールの受信者がランディングページを通じてコミュニケーションを購読解除できるようにするには、次の手順に従います。
+メールの受信者がランディングページを通じてお知らせなどのメッセージを登録解除できるようにするには、次の手順に従います。
 
 1. ランディングページを作成します。 [詳細情報](create-lp.md)
 
 1. プライマリページを定義します。 [詳細情報](create-lp.md#configure-primary-page)
 
-1. [デザイン](design-lp.md) プライマリページコンテンツ：ランディングページ固有のを使用 **[!UICONTROL フォーム]** コンポーネント、定義 **[!UICONTROL オプトアウト]** チェックボックスをオンにして更新を選択 **[!UICONTROL チャネル（E メール）]**:ランディングページのオプトアウトボックスをチェックするプロファイルは、すべてのコミュニケーションからオプトアウトされます。
+1. プライマリページコンテンツの[デザイン](design-lp.md)：ランディングページ固有の&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用して、「**[!UICONTROL オプトアウト]**」チェックボックスを定義し、**[!UICONTROL チャネル（E メール）]**&#x200B;の更新を選択します。ランディングページでオプトアウトボックスをオンにしたプロファイルは、すべてのお知らせからオプトアウトされます。
 
    ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. 確認を追加 [サブページ](create-lp.md#configure-subpages) フォームを送信するユーザーに表示されます。
+1. フォームを送信するユーザーに表示される確認用の[サブページ](create-lp.md#configure-subpages)を追加します。
 
    ![](../assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
-   >必ずプライマリページの **[!UICONTROL コールトゥアクション]** セクション **[!UICONTROL フォーム]** コンポーネント。 [詳細情報](design-lp.md)
+   >必ずプライマリページの&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントの「**[!UICONTROL コールトゥアクション]**」セクションにあるサブページを参照してください。[詳細情報](design-lp.md)
 
-1. ページのコンテンツを設定して定義したら、 [公開](create-lp.md#publish) ランディングページ
+1. ページのコンテンツを設定して定義したら、ランディングページを[公開](create-lp.md#publish)します。
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [電子メールメッセージの作成](../messages/create-message.md) in [!DNL Journey Optimizer].
+1. [!DNL Journey Optimizer] で [メールメッセージを作成します](../messages/create-message.md)。
 
 1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../messages/message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. 選択 **[!UICONTROL ランディングページ]** から **[!UICONTROL リンクタイプ]** ドロップダウンリストから、 [ランディングページ](create-lp.md#configure-primary-page) オプトアウト用に作成した
+1. **[!UICONTROL リンクタイプ]**&#x200B;ドロップダウンリストから「**[!UICONTROL ランディングページ]**」を選択し、オプトアウト用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
    ![](../assets/lp_opt-out-landing-page.png)
 
@@ -143,7 +143,7 @@ E メールの受信者がランディングページを通じてコミュニケ
 
 1. ジャーニーを通じてメッセージを送信します。[詳細情報](../building-journeys/journey.md)。
 
-1. メッセージを受け取ると、受信者が E メールの購読解除リンクをクリックすると、ランディングページが表示されます。
+1. メッセージを受け取った受信者がメールの登録解除リンクをクリックすると、ランディングページが表示されます。
 
    ![](../assets/lp_opt-out-submit-form.png)
 
@@ -151,7 +151,7 @@ E メールの受信者がランディングページを通じてコミュニケ
 
    * オプトアウトした受信者は、確認メッセージ画面にリダイレクトされます。
 
-   * プロファイルデータは更新され、再度購読しない限り、ブランドからの通信は受信されません。
+   * プロファイルデータは更新され、再度登録しない限り、ブランドからのお知らせは届きません。
 
 対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
 

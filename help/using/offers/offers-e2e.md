@@ -9,7 +9,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->オファー、フォールバックオファー、オファーコレクション、または [公開済み](../../using/messages/publish-manage-message.md) メッセージを再公開する必要なく、更新内容が対応するメッセージに自動的に反映されるようになりました。
+>[公開済み](../../using/messages/publish-manage-message.md)メッセージで直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、オファー決定を更新すると、その更新は、対応するメッセージに自動的に反映されるようになり、再公開する必要がなくなりました。
 
 **関連トピック：**
 

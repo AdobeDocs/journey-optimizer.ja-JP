@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -45,13 +45,13 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 ### 完全にデリゲートされたサブドメイン {#fully-delegated-subdomains}
 
-サブドメイン ( [完全に委任された](delegate-subdomain.md#full-subdomain-delegation) をAdobeするには、次の手順に従います。
+アドビに[完全にデリゲートされた](delegate-subdomain.md#full-subdomain-delegation)サブドメインを持つ PTR レコードを編集するには、次の手順に従います。
 
-1. リストから、PTR レコード名をクリックして開きます。
+1. リストで PTR レコード名をクリックして開きます。
 
    ![](../assets/ptr-record-select.png)
 
-1. サブドメインを選択 [完全に委任された](delegate-subdomain.md#full-subdomain-delegation) をリストからAdobeに追加します。
+1. リストからアドビに[完全にデリゲートされた](delegate-subdomain.md#full-subdomain-delegation)サブドメインを選択します。
 
    ![](../assets/ptr-record-subdomain.png)
 
@@ -59,32 +59,32 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 ### CNAME メソッドを使用したデリゲートされたサブドメイン {#edit-ptr-subdomains-cname}
 
-を使用して、Adobeにデリゲートされたサブドメインを持つ PTR レコードを編集するには [CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)、次の手順に従います。
+[CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされたサブドメインを持つ PTR レコードを編集するには、次の手順に従います。
 
-1. リストから、PTR レコード名をクリックして開きます。
+1. リストで PTR レコード名をクリックして開きます。
 
    ![](../assets/ptr-record-select-cname.png)
 
-1. 次を使用して、ドメインにデリゲートされたAdobeのサブドメインを選択 [CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation) を選択します。
+1. リストの [CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)を使用して、アドビにデリゲートされたサブドメインを選択します。
 
    ![](../assets/ptr-record-subdomain-cname.png)
 
-1. ホスティングプラットフォーム上に新しい転送 DNS レコードを作成する必要があります。 これをおこなうには、「Adobe」で生成されたレコードをコピーします。 完了したら、「I confirm...」チェックボックスをオンにします。
+1. ホスティングプラットフォーム上に新しい転送 DNS レコードを作成する必要があります。これを行うには、アドビが生成したレコードをコピーします。完了したら、「確認しました」チェックボックスをオンにします。
 
    ![](../assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
-   >このメッセージが表示された場合：「最初にフォワード DNS を作成してから、もう一度やり直してください」と、以下の手順に従ってください。
+   >「最初に転送 DNS を作成してからもう一度お試しください」というメッセージが表示された場合は、以下の手順に従ってください。
    >   * 転送 DNS レコードが正常に作成されたかどうかを DNS プロバイダーで確認します。
-   >   * DNS 全体のレコードがすぐに同期されない場合があります。 数分待ってから、もう一度やり直してください。
+   >   * DNS をまたいだレコードはただちに同期されない場合があります。数分待ってから、もう一度お試しください。
 
 
 1. 「 **[!UICONTROL 保存]**」をクリックして変更を確定します。
 
 ## PTR レコードの更新の詳細を確認 {#check-ptr-record-update}
 
-A **[!UICONTROL 処理中]** リスト内の PTR レコードの名前の横にアイコンが表示されます。
+リスト内の PTR レコード名の横に「**[!UICONTROL 処理中]**」アイコンが表示されます。
 
 ![](../assets/ptr-record-updating.png)
 
@@ -100,9 +100,9 @@ PTR レコードの更新の詳細を確認するには、「**[!UICONTROL 更�
 
 PTR レコードの更新には、次のステータスがあります。
 
-* ![](../assets/do-not-localize/ptr-record-processing.png)**[!UICONTROL 処理中]**：PTR レコードの更新が送信され、検証中です。
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL 処理中]**：PTR レコードの更新が送信され、検証プロセスを実行中です。
 * ![](../assets/do-not-localize/ptr-record-success.png)**[!UICONTROL 成功]**：更新された PTR レコードが検証され、新しいサブドメインが IP アドレスに関連付けられました。
-* ![](../assets/do-not-localize/ptr-record-failed.png)**[!UICONTROL 失敗]**：PTR レコードの更新を検証中に、1 つまたは複数の検査に失敗しました。
+* ![](../assets/do-not-localize/ptr-record-failed.png)**[!UICONTROL 失敗]**：PTR レコードの更新を検証中に、1 つ以上のチェックが失敗しました。
 
 ### 処理中 {#processing}
 

@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 94%
    >
    >複数の決定範囲を定義した場合でも、シミュレートされるのは 1 つの API リクエストのみです。
    >
-   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンは重複を許可し、複数の決定/配置間で同じ提案をおこなうことができます。 [!DNL Decisions] API リクエストのプロパティについて詳しくは、[この節](../api-reference/decisions-api/deliver-offers.md)を参照してください。<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
+   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているため、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisions] API リクエストのプロパティについて詳しくは、[この節](../api-reference/decisions-api/deliver-offers.md)を参照してください。<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
 
 <!--SIMULATIONS V2
 

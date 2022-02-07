@@ -195,7 +195,7 @@ ht-degree: 98%
       + [Campaign v7/v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      + [配信のランプアップ](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
 + トラッキングとモニタリング {#reporting}
    + [メッセージのモニタリング](using/messages/message-monitoring.md)
    + ライブレポート {#live-report}
@@ -359,7 +359,7 @@ ht-degree: 98%
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + [アクセス制御の概要](using/administration/permissions-overview.md)
-   + [ビルトインの製品プロファイル](using/administration/ootb-product-profiles.md)
+   + [組み込みの製品プロファイル](using/administration/ootb-product-profiles.md)
    + [ユーザーと製品プロファイルの管理](using/administration/permissions.md)
    + [権限レベル](using/administration/high-low-permissions.md)
    + [サンドボックス管理](using/administration/sandboxes.md)
