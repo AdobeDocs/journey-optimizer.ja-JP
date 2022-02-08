@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 100%
+source-wordcount: '2419'
+ht-degree: 98%
 
 ---
 
@@ -56,10 +56,11 @@ ht-degree: 100%
 
 * Journey Optimizer ステップイベントを、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできるようになりました。ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../reports/sharing-overview.md#integration-cja)
 
-
 **Offer Decisioning**
 
 * 公開済みメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、オファー決定を更新すると、その更新は、対応するメッセージに自動的に反映されるようになり、再公開する必要がなくなりました。[詳細情報](../offers/offers-e2e.md#insert-decision-in-email)
+
+* 特定のテストプロファイルに配信されるオファーをシミュレートする際に、デフォルトのシミュレーション設定を変更し、トラブルシューティング用に使用できるシミュレーションに対応するコードを表示できるようになりました。 [詳細情報](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 

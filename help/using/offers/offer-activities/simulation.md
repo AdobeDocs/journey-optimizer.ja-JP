@@ -1,21 +1,21 @@
 ---
 title: シミュレーションの作成
-description: シミュレーションの作成方法を説明します
+description: 決定ロジックを検証するために、特定の場所に配信されるオファーをシミュレートする方法を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 60ccb9b918284b3fcb62101bc94bf64d2272e8e2
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 64%
 
 ---
 
 # シミュレーションの作成 {#create-simulations}
 
-## シミュレーションについて
+## シミュレーションについて {#about-simulation}
 
 決定ロジックを検証するために、特定のプレースメントの場合にテストプロファイルに配信されるオファーをシミュレートできます。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## テストプロファイルの選択
+## テストプロファイルの選択 {#select-test-profiles}
 
 まず、シミュレーションに使用するテストプロファイルを選択する必要があります。
 
@@ -61,11 +61,15 @@ ht-degree: 100%
 
    ![](../../assets/offers_simulation-saved-profiles.png)
 
+   >[!NOTE]
+   >
+   >選択したプロファイルは、 **[!UICONTROL シミュレーション]** を使用して削除されるまで、セッションからセッションへのタブ **[!UICONTROL プロファイルを管理]**.
+
 1. 「**[!UICONTROL プロファイルの詳細]**」リンクをクリックすると、選択したプロファイルデータが表示されます。
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
-## 決定範囲の追加
+## 決定範囲の追加 {#add-decision-scopes}
 
 テストプロファイルでシミュレートするオファー決定を選択します。
 
@@ -103,39 +107,38 @@ ht-degree: 100%
    >[!NOTE]
    >
    >複数の決定範囲を定義した場合でも、シミュレートされるのは 1 つの API リクエストのみです。
+
+## シミュレーション設定の定義 {#define-simulation-settings}
+
+シミュレーションのデフォルト設定を編集するには、次の手順に従います。
+
+1. クリック **[!UICONTROL 設定]**.
+
+   ![](../../assets/offers_simulation-settings.png)
+
+1. 内 **[!UICONTROL 重複排除]** 「 」セクションで、決定や配置間の重複オファーを許可するように選択できます。 つまり、複数の決定/配置に同じオファーが割り当てられる場合があります。
+
+   ![](../../assets/offers_simulation-settings-deduplication.png)
+
+   >[!NOTE]
    >
-   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているため、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisions] API リクエストのプロパティについて詳しくは、[この節](../api-reference/decisions-api/deliver-offers.md)を参照してください。<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
+   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているため、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisions] API リクエストのプロパティについて詳しくは、[この節](../api-reference/decisions-api/deliver-offers.md)を参照してください。
 
-<!--SIMULATIONS V2
+1. 内 **[!UICONTROL 応答の形式]** セクションで、コードビューにメタデータを含めるように選択できます。 対応するオプションをオンにし、目的のメタデータを選択します。 これらは、選択時にリクエストおよび応答ペイロードに表示されます **[!UICONTROL コードを表示]**. 詳しくは、 [シミュレーション結果の表示](#simulation-results) 」セクションに入力します。
 
-## Define simulation settings {#define-simulation-settings}
+   ![](../../assets/offers_simulation-settings-response-format.png)
 
-To edit the default settings for your simulations, follow the steps below.
+   >[!NOTE]
+   >
+   >このオプションをオンにすると、すべての項目がデフォルトで選択されます。
 
-1. Click **[!UICONTROL Settings]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-    ![](../../assets/offers_simulation-settings.png)
+>[!NOTE]
+>
+>現在、シミュレーションデータの場合は、 **[!UICONTROL ハブ]** API
 
-1. In the **[!UICONTROL Deduplication]** section, you can choose to allow duplicate offers accross decisions and/or placements. It means that multiple decisions/placements may get assigned the same offer.
-
-    ![](../../assets/offers_simulation-settings-deduplication.png)
-
-    >[!NOTE]
-    >
-    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
-
-1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata of your choice. They will be displayed in the request and response payloads when selecting **[!UICONTROL View code]**. Learn more in the [View simulation results](#simulation-results) section.
-
-    ![](../../assets/offers_simulation-settings-response-format.png)
-
-    >[!NOTE]
-    >
-    >When turning on the option, all items are selected by default.
-
-1. Click **[!UICONTROL Save]**.-->
-
-<!--NOT FOR SIMULATIONS V2
-
+<!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
 Hub and Edge are two different end points for simulation data.
 
@@ -143,7 +146,7 @@ In the **[!UICONTROL Context data]** section, you can add as many elements as ne
 
     >[!NOTE]
     >
-    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context Data, Edge does not.
+    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context data, Edge does not.
 
 Context data allows the user to add contextual data that could affect the simulation score.
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
@@ -163,9 +166,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../../assets/offers_simulation-offer-details.png)
 
-   <!--
-    SIMULATIONS V2
-    1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)-->
+1. クリック **[!UICONTROL コードを表示]** をクリックして、リクエストと応答のペイロードを表示します。 [詳細情報](#view-code)
 
 1. リストから別のプロファイルを選択して、別のテストプロファイルに対するオファー決定の結果を表示します。
 
@@ -175,62 +176,27 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 >
 >プロファイルを変更したり決定範囲を更新したりするたびに、「**[!UICONTROL 結果を表示]**」ボタンを使用して結果を更新する必要があります。
 
-<!--
-SIMULATIONS V2
+## コードを表示 {#view-code}
 
-## View code {#view-code}
+1. 以下を使用： **[!UICONTROL コードを表示]** ボタンをクリックして、リクエストと応答のペイロードを表示します。
 
-To use the request payload outside of [!DNL Journey Optimizer] - for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
-    
->[!NOTE]
->
->You cannot copy the response payload.
+   ![](../../assets/offers_simulation-view-code.png)
 
-Below is an example of code view:
+   コードビューには、現在のユーザーの開発者情報が表示されます。 デフォルトでは、 **[!UICONTROL 応答ペイロード]** が表示されます。
 
-    ```
-    curl -X POST \
-    'https://platform.adobe.io/data/core/ode/{CONTAINER_ID}/decisions' \
-    -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
-    -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"' \
-    -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsIng1dSI6Imltc19uYTEtc3RnMS1rZXktMS5jZXIifQ.eyJpZCI6IjE2NDMxMzg3NDMxODlfOTIzY2ZjZjgtOWVkYy00MjE1LWJjODgtYmEyYTY2ZGIyYmMyX3VlMSIsInR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjbGllbnRfaWQiOiJhY3BfdWlfcGxhdGZvcm0iLCJ1c2VyX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJzdGF0ZSI6IntcInNlc3Npb25cIjpcImh0dHBzOi8vaW1zLW5hMS1zdGcxLmFkb2JlbG9naW4uY29tL2ltcy9zZXNzaW9uL3YxL1l6azNNakE0TXpNdFpXVTVaUzAwTVdOaExUZ3pNamd0TmpFM1pqZ3lOak5qTmpSakxTMDBPRVExTnpRM1FUWXdOemMyUkVSRk1FRTBPVFF3TVVSQVFXUnZZbVZKUkFcIn0iLCJhcyI6Imltcy1uYTEtc3RnMSIsImFhX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJjdHAiOjAsImZnIjoiV0VQQTNUSUY0UjRaQTZEWlBDUk1BMklBQ1U9PT09PT0iLCJzaWQiOiIxNjQzMDYwMDg0NzI2XzYzNGJkNDEzLWMwYTktNDA0NS1iNTM3LWRmMzgzYzU5ZGIxY191ZTEiLCJydGlkIjoiMTY0MzEzODc0MzE4OV9lYWMxOWY5Yi00ZjhhLTQ1NWMtOWVmMi1mNjYwNmQ0ODY4N2ZfdWUxIiwibW9pIjoiYmVjOTQzYzIiLCJwYmEiOiIiLCJvYyI6InJlbmdhKm5hMXItc3RnMSoxN2U5MmIzNzYzNCo2MEJEVjBGUlhOMFlRMkdHSkRON0E5Tk1HOCIsInJ0ZWEiOiIxNjQ0MzQ4MzQzMTg5IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiJvcGVuaWQsc2Vzc2lvbixyZWFkX29yZ2FuaXphdGlvbnMsYWRkaXRpb25hbF9pbmZvLnByb2plY3RlZFByb2R1Y3RDb250ZXh0LGFkZGl0aW9uYWxfaW5mby5yb2xlcyxhdWRpZW5jZW1hbmFnZXJfYXBpLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTY0MzEzODc0MzE4OSJ9.TgZ998KHA4Zeoyq7b_NbPv8aPHb2cs9GgP3uJKrTbzosylKKRYqLpj_8HkloI-bFVQFCBCOWbCwtJtkcRIvFlQFruTr5bpMatPV8izEUVutO6smkYBFoGFYyEGuN5Xe97uOJZEHzFSWguGZtgttSrNhXr-j0hFloofjXDJXPB_911dzXALp5s15sd3HLH9XWTwwlqF_a5SMNDXaSj1800RxsB9bJ8_YL0x4pqQwjYJxRGMhiy7Y9IOpwogSBEiqCQitlKYgaO7yaJzFwhfyisnqM7_MWX2ETn-kGFEOoBHxXDTx9P2OPojzb8ChWQgmGf7Expyvtc1ke3nJkppzrxg' \
-    -H 'x-api-key: {API_KEY}' \
-    -H 'x-gw-ims-org-id: 5D1328435BF324E90A49402A@AdobeOrg' \
-    -H 'x-sandbox-name: prod' \
-    -D '{
-      "xdm:propositionRequests": [
-            {
-                  "xdm:placementId": "xcore:offer-placement:1416f4109d9d292c",
-                  "xdm:activityId": "xcore:offer-activity:1416f4aad9fd99d7",
-                  "xdm:itemCount": 2
-            }
-      ],
-      "xdm:profiles": [
-            {
-                  "xdm:identityMap": {
-                        "email": [
-                              {
-                                    "xdm:id": "poyfair@adobe.com"
-                              }
-                        ]
-                  }
-            }
-      ],
-      "xdm:allowDuplicatePropositions": {
-            "xdm:acrossActivities": true,
-            "xdm:acrossPlacements": true
-      },
-      "xdm:responseFormat": {
-            "xdm:includeMetadata": {
-                  "xdm:activity": [],
-                  "xdm:option": [],
-                  "xdm:placement": []
-            }
-      }
-    }'
-    ```
+   ![](../../assets/offers_simulation-request-payload.png)
 
->[!NOTE]
->
->When copying the request payload into your own code, make sure you replace CONTAINER_ID and API_KEY with your own values.-->
+1. クリック **[!UICONTROL 応答ペイロード]** または **[!UICONTROL リクエストペイロード]** :2 つのタブ間を移動します。
+
+   ![](../../assets/offers_simulation-response-payload.png)
+
+1. の外部でリクエストペイロードを使用するには [!DNL Journey Optimizer]  — トラブルシューティングの目的などで、 **[!UICONTROL クリップボードにコピー]** ボタンを使用して、コードビューの上に配置できます。
+
+   ![](../../assets/offers_simulation-copy-payload.png)
+
+   <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
+
+   >[!NOTE]
+   >
+   >リクエストまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} および {API_KEY} を有効な値に置き換えてください。 これらの値を [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target=&quot;_blank&quot;} ドキュメント。
 

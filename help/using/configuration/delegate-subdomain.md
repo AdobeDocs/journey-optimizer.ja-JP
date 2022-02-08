@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 97%
+source-wordcount: '1472'
+ht-degree: 96%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 97%
 
 [!DNL Journey Optimizer] で使用するサブドメインをデリゲートすると、クライアントはメールマーケティングに関する業界標準の配信品質要件を満たすために必要な DNS インフラストラクチャの管理をアドビに依存しながら、自社で社内メール用ドメインの DNS を管理および制御できます。
 
-## 完全なサブドメインのデリゲーション {#full-subdomain-delegation}
-
-[!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接アドビに、完全にデリゲートできます。アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理することで、メッセージをマネージドサービスとして提供できます。
-
 >[!NOTE]
 >
 >デフォルトでは、[!DNL Journey Optimizer] ライセンス契約で、最大 10 個のサブドメインをデリゲートできます。この制限を引き上げる場合は、アドビの担当者にお問い合わせください。
 
-新しいサブドメインをデリゲートするには、次の手順に従います。
+## 完全なサブドメインのデリゲーション {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接アドビに、完全にデリゲートできます。アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理することで、メッセージをマネージドサービスとして提供できます。
+
+新しいサブドメインをAdobeに完全にデリゲートするには、次の手順に従います。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL サブドメイン]**&#x200B;メニューにアクセスし、「**[!UICONTROL サブドメインの設定]**」をクリックします。
 
