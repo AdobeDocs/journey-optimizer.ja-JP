@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法を説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。テストモードで以下のすべてのチェックをおこない、公開に進むことをお勧めします。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
-## テストの前にエラーを確認する{#checking-for-errors-before-testing}
+## テスト前のエラーチェック{#checking-for-errors-before-testing}
 
 ジャーニーをテストおよび公開する前に、すべてのアクティビティが正しく設定されていることを確認します。システムでエラーが検出される場合は、テストまたは公開を実行できません。
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
-## イベントが正しく送信されていることを確認します。{#checking-that-events-are-properly-sent}
+## イベントが適切に送信されているかを確認{#checking-that-events-are-properly-sent}
 
 ジャーニーの開始点は常にイベントです。Postman などのツールを使用してテストを実行できます。
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 
 イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、 [Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target=&quot;_blank&quot;}でストリーミング取得 API のトラブルシューティングを参照してください。
 
-## ジャーニーにエントリするかどうかを確認{#checking-if-people-enter-the-journey}
+## ジャーニーへのエントリを確認{#checking-if-people-enter-the-journey}
 
 ジャーニー レポートでは、ジャーニーへのエントリをリアルタイムで測定します。
 
@@ -78,7 +78,7 @@ ht-degree: 97%
 * 停止の原因が、該当するユーザーを除外する条件であるか。例えば、条件が「性別 = 男性」で、ユーザーが女性の場合。このチェックは、条件が複雑すぎない場合、ビジネスユーザーが実行できます。
 * データソースへの呼び出しが応答しないためか。この情報は、ジャーニーのテスト中にテストモードログに表示されます。このジャーニーがライブになると、管理者はデータソースへの直接呼び出しをテストし、受け取った回答を確認できます。管理者は、このジャーニーを複製してテストすることもできます。
 
-## メッセージが正常に送信されたことを確認する{#checking-that-messages-are-sent-successfully}
+## メッセージが正常に送信されたかを確認{#checking-that-messages-are-sent-successfully}
 
 個人がジャーニーを適切に進んでいるのに、受信すべきメッセージが届いていない場合は、以下の点を確認します。
 
