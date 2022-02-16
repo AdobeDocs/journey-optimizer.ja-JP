@@ -7,7 +7,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Handlebars では、{{式}} から返される値は **HTML エスケープ**&#x
 
 ## プロファイル
 
-この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}を参照してください。
+この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
 
