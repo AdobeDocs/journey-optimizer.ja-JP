@@ -1,15 +1,15 @@
 ---
 title: ユーザーインターフェイス
-description: Journey Optimizer User Interface の詳細
+description: Journey Optimizer のユーザーインターフェイスの詳細情報
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1532'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,9 +82,9 @@ ht-degree: 98%
 
 **[!UICONTROL 管理]**
 
-* **[!UICONTROL ジャーニー管理]**  — このメニューを使用して、 [イベント]../event/about-events.md), [データソース](../datasource/about-data-sources.md) および [アクション](../action/action.md) を使用して、ジャーニーでを使用します。
+* **[!UICONTROL ジャーニー管理]** - このメニューを使用して、ジャーニーで使用する [イベント]../event/about-events.md)、[データソース](../datasource/about-data-sources.md)、[アクション](../action/action.md)を設定します。
 
-* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と発展に役立てることができます。[詳細情報](../administration/sandboxes.md)
+* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。[詳細情報](../administration/sandboxes.md)
 
 <!--
 * **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
@@ -173,7 +173,7 @@ ht-degree: 98%
 
 </td>
     <td>設定する次のフィールドに移動する</td>
-    <td>タブ</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>変更内容を保存し設定ペインを閉じる</td>
@@ -219,7 +219,7 @@ ht-degree: 98%
   <tr>
     <td rowspan="2">ポップアップウィンドウ</td>
     <td>変更内容を保存するかアクションを確認する</td>
-    <td>入力</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>ウィンドウを閉じる</td>
