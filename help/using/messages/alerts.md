@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# メッセージに関するアラートを確認する {#publish-manage-messages}
+# メッセージに関するアラートのチェック {#publish-manage-messages}
 
 ## 公開前にチェック {#message-alerting}
 
