@@ -1,15 +1,15 @@
 ---
 title: サブドメインへの Google TXT レコードの追加
-description: サブドメインにGoogle TXT レコードを追加する方法を説明します
+description: サブドメインに Google TXT レコードを追加する方法を説明します
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
