@@ -6,9 +6,9 @@ role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -308,7 +308,7 @@ ht-degree: 98%
 
 ### [!DNL Manage PTR records] 権限 {#manage-ptr}
 
-この **[!DNL Manage PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集が可能です。
+「**[!DNL Manage PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
