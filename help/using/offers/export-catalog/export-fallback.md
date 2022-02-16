@@ -1,15 +1,15 @@
 ---
 title: フォールバックオファーデータセット
-description: この節では、フォールバックオファー用にエクスポートされたデータセットで使用されるすべてのフィールドを示します
+description: この節では、フォールバックオファー用に書き出したデータセットで使用するすべてのフィールドをリストします。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
