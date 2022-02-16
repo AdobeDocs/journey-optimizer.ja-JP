@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1565'
 ht-degree: 99%
 
 ---
@@ -28,6 +28,12 @@ ht-degree: 99%
 ![](../../assets/offers_list.png)
 
 ## オファーの作成 {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="オファー属性について"
+>abstract="オファー属性を使用すると、レポートおよび分析を目的としてキーと値のペアをオファーに関連付けることができます。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
 
 **オファー**&#x200B;を作成するには、次の手順に従います。
 
@@ -141,6 +147,30 @@ ht-degree: 99%
    >意思決定管理に使用できるソースは、**[!UICONTROL プロファイル属性]**、**[!UICONTROL セグメントメンバーシップ]**&#x200B;および&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
 
 ## 実施要件ルールと制約の追加 {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="オファー制約について"
+>abstract="制約を使用すると、オファーを他のオファーと比較して優先順位付けしユーザーに提示する方法を指定できます。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="オファー実施要件について"
+>abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
+>additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="オファーの優先度について"
+>abstract="このフィールドでは、オファーの優先度設定を指定できます。 優先度は、実施要件、日付、制限などのすべての制約を満たすオファーをランク付けするための数値です。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="オファー制限について"
+>abstract="このフィールドでは、すべてのユーザーにオファーを提示できる回数を指定できます。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
 
 実施要件ルールと制約を使用すると、オファーを表示する条件を定義できます。
 
