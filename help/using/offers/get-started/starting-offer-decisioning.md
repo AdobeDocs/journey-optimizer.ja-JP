@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 97%
+source-wordcount: '910'
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ Offer Decisioning の機能にアクセスして使用する権限を管理す�
 
 * **コレクション**：コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-* **決定**（旧称はオファーアクティビティ）：決定には、オファーの選択を通知するロジックが含まれています。
+* **決定**:決定には、オファーの選択を通知するロジックが含まれています。
 
 * **決定ルール**：決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 

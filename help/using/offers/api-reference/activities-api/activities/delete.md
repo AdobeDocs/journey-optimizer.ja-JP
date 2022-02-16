@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 92%
 
 ---
 
 # 決定の削除 {#delete-decision}
 
-決定（旧称：オファーアクティビティ）を削除（DELETE）する必要が生じる場合があります。テナントコンテナで作成した決定のみを削除できます。これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
+決定を削除 (DELETE) する必要が生じる場合があります。 テナントコンテナで作成した決定のみを削除できます。これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
 
 **API 形式**
 

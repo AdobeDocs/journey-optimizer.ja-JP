@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 3e22c572ba05f1d084c87e550c80f521e39d7520
 workflow-type: tm+mt
 source-wordcount: '1051'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 100%
 >id="ac_preview_testprofiles"
 >title="メッセージのプレビューとテスト"
 >abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=ja#email-rendering" text="メールのレンダリング"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=ja#preview-your-messages" text="プレビュー"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#email-rendering" text="メールのレンダリング"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#preview-your-messages" text="プレビュー"
 
 [テストプロファイル](../building-journeys/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、追加の受信者をターゲットに設定できます。
 

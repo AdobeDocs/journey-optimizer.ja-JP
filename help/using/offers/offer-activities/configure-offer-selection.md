@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 98%
+source-wordcount: '473'
+ht-degree: 78%
 
 ---
 
 # 決定でのオファー選択の設定 {#offers-selection-in-decisions}
 
-複数のオファーが特定のプレースメントの資格を持つ場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法（旧称：オファーアクティビティ）を選択できます。オファーのランク付けは、次の基準で行えます。
+複数のオファーが特定のプレースメントに適格な場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法を選択できます。 オファーのランク付けは、次の基準で行えます。
 * オファーの優先度
 * ランキング式
 * [AI ランキング](#use-ranking-strategy)（一部のユーザーの早期アクセスのみ）
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 ## オファーの優先度 {#offer-priority}
 
-デフォルトでは、決定（旧称：オファーアクティビティ）で指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、**優先度**&#x200B;が最も高いオファーが最初に顧客に配信されます。
+デフォルトでは、決定内の特定の配置を受ける資格が複数のオファーにある場合、最も高い **優先度** が最初にお客様に配信されます。
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 ランキング式を作成する方法については、 [この節](../offer-library/create-ranking-formulas.md)を参照してください。
 
-ランキング式を作成したら、決定（旧称：オファーアクティビティ）内のプレースメントに割り当てることができます。これを行うには、以下の手順に従います。
+ランキング式を作成したら、決定内のプレースメントに割り当てることができます。これをおこなうには、以下の手順に従います。
 
 1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
@@ -60,13 +60,15 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 ## AI ランキング {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+また、ランキング戦略を選択することで、特定のプロファイルに対して表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。 ランキング戦略を作成する方法については、[この節](../offer-library/create-ranking-strategies.md)を参照してください。
 
 >[!CAUTION]
 >
 >AI ランキングは、現在、一部のユーザーのみが早期アクセスで利用できます。
 
-ランキング戦略を作成したら、決定（旧称：オファーアクティビティ）内のプレースメントに割り当てることができます。これを行うには、次の手順に従います。
+ランキング戦略を作成したら、その戦略を決定内の配置に割り当てることができます。 これを行うには、次の手順に従います。
 
 1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 

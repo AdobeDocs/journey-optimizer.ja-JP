@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
 # 決定のリスト {#list-decisions}
 
-決定（旧称：オファーアクティビティ）には、選択したオファーを通知するロジックが含まれます。
+決定には、オファーの選択を通知するロジックが含まれています。
 
 [!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内のすべての決定のリストを表示できます。
 

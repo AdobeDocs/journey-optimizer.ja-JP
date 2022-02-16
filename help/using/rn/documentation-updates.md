@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 97%
+source-wordcount: '920'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 97%
 
 * 関連するセクション [!DNL Journey Optimizer] パーソナライゼーション機能が再編成され、読みやすくなりました。 [詳細情報](../personalization/personalize.md)
 
+* 「メッセージプリセットを作成」の節は、複数の節に分割され、わかりやすくなりました。 [詳細情報](../configuration/message-presets.md#create-message-preset)
+
+* オプトアウト管理の節が明確になり、若干の再編成がおこなわれました。 [詳細情報](../messages/consent.md#opt-out-management)
+
+* リンクの挿入の節が更新され、最近のユーザーインターフェイスの変更が反映されました。 [詳細情報](../messages/message-tracking.md#insert-links)
 
 ## 2021年11月 {#november-2021}
 
@@ -88,7 +93,7 @@ ht-degree: 97%
 * 「許可リストの有効化」の節を更新しました。 [詳細情報](../messages/allow-list.md#enable-allow-list)
 * 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/message-presets.md#monitor-message-presets)
 * メッセージプリセットのメール再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。 [詳細情報](../configuration/retries.md#retry-duration)
-* ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](../messages/message-tracking.md#one-click-opt-out-link)
+* ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](../messages/consent.md#one-click-opt-out-link)
 * 「サブドメインのデリゲート」の節を更新して、アドビで実行される検証プロセスについて詳しく説明しました。[詳細情報](../configuration/delegate-subdomain.md#subdomain-validation)
 * 抑制リストにメールアドレスとドメインを手動で追加する方法に関する節を追加しました。[詳細情報](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [抑制リストへのアクセス](../configuration/manage-suppression-list.md#access-suppression-list)の節と[再試行](../configuration/retries.md)の節を更新して、新しいユーザーインターフェイスを反映しました。

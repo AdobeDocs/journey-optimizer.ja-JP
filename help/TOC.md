@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 98%
@@ -47,7 +47,7 @@ ht-degree: 98%
       + [プレビューと配達確認](using/messages/preview.md)
       + [アラートの確認](using/messages/alerts.md)
       + [メッセージの公開](using/messages/publish-manage-message.md)
-   + [オプトアウトの管理](using/messages/consent.md)
+   + [同意の管理](using/messages/consent.md)
 + パーソナライゼーション{#personalization}
    + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
    + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ IDが activityID でタイプが OfferActivity のリソースが見つかりま
    <td>画像オファー（決定とプレースメントのペアに関連付けられたすべてのパーソナライズオファーおよびフォールバック）には、パブリック URL を入力する必要があります（deliveryURL を空にすることはできません）。</td> 
   </tr> 
   <tr> 
-   <td>決定（旧称オファーアクティビティ）には、プロファイル以外の属性が含まれています。</td> 
+   <td>決定にプロファイル以外の属性が含まれています。</td> 
    <td>オファーモデルの使用には、プロファイル属性のみを含める必要があります。</td> 
   </tr> 
   <tr> 

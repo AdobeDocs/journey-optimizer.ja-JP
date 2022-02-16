@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 100%
+source-wordcount: '1761'
+ht-degree: 98%
 
 ---
 
@@ -44,76 +44,11 @@ ht-degree: 100%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. **メール**&#x200B;の設定を行います。
+1. **メール**&#x200B;の設定を行います。[詳細情報](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. **プッシュ通知**&#x200B;の設定を行います。[詳細情報](#configure-push-settings)
 
-   * プリセットを使用して送信するメッセージのタイプ（**トランザクション**&#x200B;または&#x200B;**マーケティング**）を選択します。
-
-      >[!CAUTION]
-      >
-      > **トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。トランザクションメッセージは、パスワードのリセット、注文のステータス、配信の通知など、特定のコンテキストでのみ送信できます。
-
-   * メールの送信に使用するサブドメインを選択します。 [詳細](about-subdomain-delegation.md)
-   * プリセットに関連付ける IP プールを選択します。 [詳細](ip-pools.md)
-   * そのプリセットを使用して送信するメールのヘッダーパラメーターを入力します。
-
-      >[!CAUTION]
-      >
-      >メールアドレスでは、現在選択されている[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
-
-      * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
-
-      * **[!UICONTROL 送信者のメール]**：コミュニケーションに使用するメールアドレス。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合は、*contact@marketing.luma.com* を使用できます。
-
-      * **[!UICONTROL 返信先（名前）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
-
-      * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。使用しないと、メールは破棄されます。
-
-      * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
-      >[!NOTE]
-      >
-      >2021年10月リリース以降、[!DNL Journey Optimizer] ユーザーインターフェイスから転送メールアドレスを定義できなくなりました。 [!DNL Journey Optimizer] で受信される、デリゲートされたサブドメイン向けのすべてのメールを特定のメールアドレスに転送する場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
-
-   * **メール再試行パラメーター**&#x200B;を設定します。デフォルトでは、[再試行期間](retries.md#retry-duration)は 84 時間に設定されていますが、必要に応じてこの設定を調整できます。
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      次の範囲内の整数値（時間または分）を入力する必要があります。
-      * マーケティングメールタイプの場合、再試行期間の下限は 6 時間です。
-      * トランザクションメールタイプの場合、再試行期間の下限は 10 分です。
-      * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
-
-
-1. **プッシュ通知**&#x200B;の設定を行います。
-
-   ![](../assets/preset-push.png)
-
-   * 少なくとも 1 つのプラットフォーム（**iOS** または／および **Android**）を選択します。
-
-   * 各プラットフォームで使用するモバイルアプリケーションを選択します。
-
-      プッシュ通知を送信する環境の設定方法については、[この節](../messages/push-gs.md)を参照してください。
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
@@ -140,6 +75,78 @@ ht-degree: 100%
 1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
    ![](../assets/preset-active.png)
+
+## 電子メールの設定 {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. プリセットと共に送信されるメッセージのタイプを選択します。 **トランザクション** または **マーケティング**.
+
+   >[!CAUTION]
+   >
+   > **トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。トランザクションメッセージは、パスワードのリセット、注文のステータス、配信の通知など、特定のコンテキストでのみ送信できます。
+
+1. メールの送信に使用するサブドメインを選択します。 [詳細](about-subdomain-delegation.md)
+
+1. プリセットに関連付ける IP プールを選択します。 [詳細](ip-pools.md)
+
+1. そのプリセットを使用して送信するメールのヘッダーパラメーターを入力します。
+
+   >[!CAUTION]
+   >
+   >メールアドレスでは、現在選択されている[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
+
+   * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
+
+   * **[!UICONTROL 送信者のメール]**：コミュニケーションに使用するメールアドレス。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合は、*contact@marketing.luma.com* を使用できます。
+
+   * **[!UICONTROL 返信先（名前）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
+
+   * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。使用しないと、メールは破棄されます。
+
+   * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
+   >[!NOTE]
+   >
+   >2021年10月リリース以降、[!DNL Journey Optimizer] ユーザーインターフェイスから転送メールアドレスを定義できなくなりました。 [!DNL Journey Optimizer] で受信される、デリゲートされたサブドメイン向けのすべてのメールを特定のメールアドレスに転送する場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+
+1. **メール再試行パラメーター**&#x200B;を設定します。デフォルトでは、[再試行期間](retries.md#retry-duration)は 84 時間に設定されていますが、必要に応じてこの設定を調整できます。
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   次の範囲内の整数値（時間または分）を入力する必要があります。
+   * マーケティングメールタイプの場合、再試行期間の下限は 6 時間です。
+   * トランザクションメールタイプの場合、再試行期間の下限は 10 分です。
+   * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
+
+## プッシュ設定の構成 {#configure-push-settings}
+
+1. プラットフォームを少なくとも 1 つ選択してください： **iOS** および/または **Android**.
+
+1. 各プラットフォームで使用するモバイルアプリケーションを選択します。
+
+![](../assets/preset-push.png)
+
+プッシュ通知を送信する環境の設定方法については、[この節](../messages/push-gs.md)を参照してください。
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## メッセージプリセットの監視 {#monitor-message-presets}
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 * **[!UICONTROL フォールバック]**：フォールバックオファーの名前と ID（パーソナライズされたオファーが選択されていない場合）
 * **[!UICONTROL プレースメント]**：オファーの配信に使用するプレースメントの名前、ID、チャネル
 * **[!UICONTROL 選択]**：プロファイルに対して選択したオファーの名前と ID
-* **[!UICONTROL アクティビティ]**：決定の名前と ID（旧称：オファーアクティビティ）。
+* **[!UICONTROL アクティビティ]**:決定の名前と ID。
 
 さらに、**[!UICONTROL identityMap]** と **[!UICONTROL Timestamp]** の各フィールドを利用して、オファー配信時のプロファイルと時刻に関する情報を取得することもできます。
 

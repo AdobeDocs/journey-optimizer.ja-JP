@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '2419'
 ht-degree: 98%
@@ -326,7 +326,7 @@ ht-degree: 98%
 **コンテンツデザイン**
 
 * **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../messages/preview.md)
-* **ワンクリックオプトアウトリンク** - メールコンテンツに新しいタイプのリンクを挿入できます。この&#x200B;**オプトアウト**&#x200B;リンクを使用すると、ユーザーがワンクリックでコミュニケーションの受信登録を解除でき、オプトアウトを確認するためにランディングページにリダイレクトされることはありません。[詳細情報](../messages/message-tracking.md#one-click-opt-out-link)
+* **ワンクリックオプトアウトリンク** - メールコンテンツに新しいタイプのリンクを挿入できます。この&#x200B;**オプトアウト**&#x200B;リンクを使用すると、ユーザーがワンクリックでコミュニケーションの受信登録を解除でき、オプトアウトを確認するためにランディングページにリダイレクトされることはありません。[詳細情報](../messages/consent.md#one-click-opt-out-link)
 
 **パーソナライゼーション**
 

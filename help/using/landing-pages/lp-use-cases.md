@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 100%
@@ -167,7 +167,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/consent.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 

@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 ## AI ランキングの概要 {#get-started-with-ai-rankings}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
 
 >[!CAUTION]
 >
@@ -168,10 +168,11 @@ ht-degree: 99%
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
 
-**シナリオ：**表示されたオファー
+### 表示されるオファーのシナリオ
+
 **イベントタイプ：** `decisioning.propositionDisplay`
-**ソース：** Web.sdk／Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
-**サンプルペイロード：**
+**ソース：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) またはバッチ取得
++++**サンプルペイロード：**
 
 ```
 {
@@ -197,10 +198,13 @@ ht-degree: 99%
 }
 ```
 
-**シナリオ：**クリックされたオファー
++++
+
+### オファークリック済みシナリオ
+
 **イベントタイプ：** `decisioning.propositionInteract`
-**ソース：** Web.sdk／Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
-**サンプルペイロード：**
+**ソース：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) またはバッチ取得
++++**サンプルペイロード：**
 
 ```
 {
@@ -226,12 +230,14 @@ ht-degree: 99%
 }
 ```
 
++++
+
 <!--
 ## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
-Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 1. Create a decision.
 1. Add a placement.

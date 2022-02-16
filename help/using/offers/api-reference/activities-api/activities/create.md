@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 84%
 
 ---
 
 # 決定の作成 {#create-decision}
 
-コンテナ ID を提供しながら [!DNL Offer Library]API に対して POST リクエストを実行することで、決定（旧オファーアクティビティ）を作成できます。
+決定を作成するには、 [!DNL Offer Library] API でコンテナ ID を指定します。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
