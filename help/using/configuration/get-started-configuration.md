@@ -1,15 +1,15 @@
 ---
-title: ' [!DNL Journey Optimizer]  設定の基本を学ぶ'
-description: 詳細情報： [!DNL Journey Optimizer] 設定
+title: ' [!DNL Journey Optimizer]  設定の概要'
+description: ' [!DNL Journey Optimizer]  設定について説明します。'
 role: Admin
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
