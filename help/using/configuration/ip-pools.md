@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ IP プールを編集するには :
 更新は、IP プールが[メッセージプリセット](message-presets.md)に関連付けられているかどうかに応じて、直ちにまたは非同期に有効になります。
 
 * IP プールがメッセージプリセットで選択されて&#x200B;**いない**&#x200B;場合、更新は直ちに行われます（**[!UICONTROL 成功]**&#x200B;ステータス）。
-* IP プールの場合 **が** メッセージプリセットで選択した場合、更新には最大 7 ～ 10 営業日かかる場合があります (**[!UICONTROL 処理中]** ステータス )。
+* IP プールがメッセージプリセットで選択されて&#x200B;**いる**&#x200B;場合、更新には最大 7 ～ 10 営業日かかることがあります（**[!UICONTROL 処理中]**&#x200B;ステータス）。
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。
 
