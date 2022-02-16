@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 96%
 
 購読サービスには、次のようなものがあります。
 
-* ニュースレターの例：&quot;シリーズを実行中&quot;
-* イベントの例：&quot;Summit 2021&quot;
+* ニュースレター（例：「連載中のシリーズ」）
+* イベント（例：「Summit 2021」）
 * ウェビナー（例：「暗号の詳細を学ぼう」）
 * 特定の製品、スポーツ、サービスなどに対する興味（例：「今後 12 か月で家を購入することに関心がある」）
 * 通知方法に関する環境設定（例：「新曲のお知らせをメールで受信する」）
