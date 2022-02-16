@@ -5,14 +5,14 @@ title: カスタムアクションを使用したコレクションの動的な�
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# 使用例：カスタムアクションを使用してコレクションを動的に渡す{#passing-collection}
+# ユースケース：カスタムアクションを使用してコレクションを動的に渡す{#passing-collection}
 
 実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。 次の 2 種類のコレクションがサポートされています。
 
