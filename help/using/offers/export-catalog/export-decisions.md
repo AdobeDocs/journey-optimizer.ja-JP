@@ -1,15 +1,15 @@
 ---
 title: オファーカタログの書き出しの概要
-description: この節では、決定用にエクスポートされたデータセットで使用されるすべてのフィールドを示します
+description: この節では、決定のためにエクスポートしたデータセットで使用するすべてのフィールドをリストアップします。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1554'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
