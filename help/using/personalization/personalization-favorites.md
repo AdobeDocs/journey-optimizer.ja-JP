@@ -1,5 +1,5 @@
 ---
-title: 属性をお気に入りに追加
+title: お気に入りに属性を追加
 description: お気に入りに属性を追加する方法を説明します。
 feature: Personalization
 topic: Personalization
@@ -7,13 +7,13 @@ role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: 06067a9fb5c7fb436bfa4843d07fc0a46fdf74ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# 属性をお気に入りに追加 {#fav}
+# お気に入りに属性を追加 {#fav}
 
 お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。 属性をお気に入りに追加するには、「...」メニューをクリックし、**[!UICONTROL お気に入りに追加]**&#x200B;を選択します。
 
