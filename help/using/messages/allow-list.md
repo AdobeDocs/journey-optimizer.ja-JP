@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Learn more on the allowed list logic in this section.
 >
 >許可リストには、最大 1,000 個のエントリを含めることができます。
 
-での API 呼び出しの実行について詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;} リファレンスドキュメント。
+API 呼び出しについて詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target=&quot;_blank&quot;} リファレンスドキュメントを参照してください。
 
 ## 許可リストロジック {#logic}
 
