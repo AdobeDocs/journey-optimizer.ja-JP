@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1568'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ E メールデザイナーでメールコンテンツの作成を開始するに
    >
    >リンクとメッセージの追跡について詳しくは、[このページ](message-tracking.md)を参照してください。
 
-1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックしてコードエディターに切り替え、メールをさらにパーソナライズできます。コードエディターについて詳しくは、 [このページ](existing-content.md#import-raw-html-code).
+1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックしてコードエディターに切り替え、メールをさらにパーソナライズできます。コードエディターについて詳しくは、[このページ](existing-content.md#import-raw-html-code)を参照してください。
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ E メールデザイナーでメールコンテンツの作成を開始するに
 
 1. 「**[!UICONTROL プレビューを表示]**」をクリックして、メールのレンダリングを確認します。デスクトップまたはモバイル表示を選択できます。
 
-   E メールのプレビュー方法について詳しくは、 [このページ](preview.md).
+   メールのプレビュー方法について詳しくは、[このページ](preview.md)を参照してください。
 
    ![](assets/email_designer_8.png)
 
