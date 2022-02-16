@@ -1,15 +1,15 @@
 ---
 title: デリゲートされたサブドメインへのアクセス
-description: デリゲートされたサブドメインにアクセスする方法を説明します。
+description: 委任されたサブドメインにアクセスする方法を説明します。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
