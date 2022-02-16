@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 60ccb9b918284b3fcb62101bc94bf64d2272e8e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 64%
 
    >[!NOTE]
    >
-   >選択したプロファイルは、 **[!UICONTROL シミュレーション]** を使用して削除されるまで、セッションからセッションへのタブ **[!UICONTROL プロファイルを管理]**.
+   >選択したプロファイルは、**[!UICONTROL プロファイルの管理]**&#x200B;を使用して削除されるまで、セッションからセッションへの「**[!UICONTROL シミュレーション]**」タブにテストプロファイルとしてリストアップされたままになります。
 
 1. 「**[!UICONTROL プロファイルの詳細]**」リンクをクリックすると、選択したプロファイルデータが表示されます。
 
@@ -112,19 +112,19 @@ ht-degree: 64%
 
 シミュレーションのデフォルト設定を編集するには、次の手順に従います。
 
-1. クリック **[!UICONTROL 設定]**.
+1. 「**[!UICONTROL 設定]**」をクリックします。
 
    ![](../../assets/offers_simulation-settings.png)
 
-1. 内 **[!UICONTROL 重複排除]** 「 」セクションで、決定や配置間の重複オファーを許可するように選択できます。 つまり、複数の決定/配置に同じオファーが割り当てられる場合があります。
+1. 「**[!UICONTROL 重複排除]**」セクションで、決定や配置をまたいだ重複オファーを許可するように選択できます。つまり、複数の決定や配置に同じオファーを割り当てることができます。
 
    ![](../../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているため、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisions] API リクエストのプロパティについて詳しくは、[この節](../api-reference/decisions-api/deliver-offers.md)を参照してください。
+   >デフォルトでは、重複排除フラグはシミュレーションに対してすべて有効になっています。つまり、決定エンジンで重複が許可されているため、複数の決定や配置にまたがって同じオファーを行うことができます。[!DNL Decisions] API リクエストのプロパティについて詳しくは、[この節](../api-reference/decisions-api/deliver-offers.md)を参照してください。
 
-1. 内 **[!UICONTROL 応答の形式]** セクションで、コードビューにメタデータを含めるように選択できます。 対応するオプションをオンにし、目的のメタデータを選択します。 これらは、選択時にリクエストおよび応答ペイロードに表示されます **[!UICONTROL コードを表示]**. 詳しくは、 [シミュレーション結果の表示](#simulation-results) 」セクションに入力します。
+1. 「**[!UICONTROL 応答の形式]**」セクションで、コードビューにメタデータを含めるように選択できます。対応するオプションのチェックをオンにし、目的のメタデータを選択します。これらは、「**[!UICONTROL コードを表示]**」を選択すると、リクエストペイロードと応答ペイロードに表示されます。詳しくは、「[シミュレーション結果の表示](#simulation-results) 」セクションを参照してください。
 
    ![](../../assets/offers_simulation-settings-response-format.png)
 
@@ -136,7 +136,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->現在、シミュレーションデータの場合は、 **[!UICONTROL ハブ]** API
+>現在、シミュレーションデータの場合は、**[!UICONTROL Hub]** API のみを使用できます。
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -166,7 +166,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../../assets/offers_simulation-offer-details.png)
 
-1. クリック **[!UICONTROL コードを表示]** をクリックして、リクエストと応答のペイロードを表示します。 [詳細情報](#view-code)
+1. 「**[!UICONTROL コードを表示]**」をクリックして、リクエストと応答のペイロードを表示します。 [詳細情報](#view-code)
 
 1. リストから別のプロファイルを選択して、別のテストプロファイルに対するオファー決定の結果を表示します。
 
@@ -178,19 +178,19 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 ## コードを表示 {#view-code}
 
-1. 以下を使用： **[!UICONTROL コードを表示]** ボタンをクリックして、リクエストと応答のペイロードを表示します。
+1. 「**[!UICONTROL コードを表示]**」ボタンを使用して、リクエストと応答のペイロードを表示します。
 
    ![](../../assets/offers_simulation-view-code.png)
 
-   コードビューには、現在のユーザーの開発者情報が表示されます。 デフォルトでは、 **[!UICONTROL 応答ペイロード]** が表示されます。
+   コードビューには、現在のユーザーの開発者情報が表示されます。デフォルトでは、**[!UICONTROL 応答ペイロード]**&#x200B;が表示されます。
 
    ![](../../assets/offers_simulation-request-payload.png)
 
-1. クリック **[!UICONTROL 応答ペイロード]** または **[!UICONTROL リクエストペイロード]** :2 つのタブ間を移動します。
+1. 「**[!UICONTROL 応答ペイロード]**」または「**[!UICONTROL リクエストペイロード]**」をクリックして、2 つのタブ間を移動します。
 
    ![](../../assets/offers_simulation-response-payload.png)
 
-1. の外部でリクエストペイロードを使用するには [!DNL Journey Optimizer]  — トラブルシューティングの目的などで、 **[!UICONTROL クリップボードにコピー]** ボタンを使用して、コードビューの上に配置できます。
+1. [!DNL Journey Optimizer] の外部でリクエストペイロードを使用するには（トラブルシューティングの目的など）、コードビューの上部にある「**[!UICONTROL クリップボードにコピー]**」ボタンを使用してコピーします。
 
    ![](../../assets/offers_simulation-copy-payload.png)
 
@@ -198,5 +198,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >リクエストまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} および {API_KEY} を有効な値に置き換えてください。 これらの値を [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target=&quot;_blank&quot;} ドキュメント。
+   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。これらの値を取得する方法について詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target=&quot;_blank&quot;} ドキュメントを参照してください。
 
