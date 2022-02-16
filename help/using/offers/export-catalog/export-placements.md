@@ -1,15 +1,15 @@
 ---
 title: プレースメントデータセット
-description: この節では、エクスポートした配置データセットで使用されるすべてのフィールドを示します
+description: この節では、プレースメント用に書き出したデータセットで使用するすべてのフィールドをリストします。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
