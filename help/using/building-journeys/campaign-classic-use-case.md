@@ -7,13 +7,13 @@ role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 使用例：Campaign v7/v8 を使用したメッセージの送信 {#campaign-classic-use-case}
+# ユースケース：Campaign v7／v8 を使用したメッセージの送信 {#campaign-classic-use-case}
 
 この使用例では、Adobe Campaign Classic v7 および Adobe Campaign v8 との統合を使用して電子メールを送信するために必要なすべての手順を示します。
 
