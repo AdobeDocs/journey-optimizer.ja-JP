@@ -1,5 +1,5 @@
 ---
-title: ' [!DNL Journey Optimizer] でのサブドメインのデリゲーション'
+title: ' [!DNL Journey Optimizer] でのサブドメインの委任'
 description: サブドメインのデリゲート方法を学ぶ
 feature: Application Settings
 topic: Administration
@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->同じ送信ドメインを使用してからメッセージを送信することはできません [!DNL Adobe Journey Optimizer] 別の製品 ( [!DNL Adobe Campaign] または [!DNL Adobe Marketo Engage].
+>[!DNL Adobe Journey Optimizer] と別の製品（[!DNL Adobe Campaign] または [!DNL Adobe Marketo Engage] など）から同じ送信ドメインを使用してメッセージを送信することはできません。
 
 ## サブドメインを設定する理由 {#why-setting-up-subdomains}
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 
 * **Adobe への完全なサブドメインデリゲーション**（推奨）：サブドメインはアドビに完全にデリゲートされます。アドビは、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理できます。[完全なサブドメインデリゲーションの詳細情報](delegate-subdomain.md#full-subdomain-delegation)
 
-* **CNAME の使用**：サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定します。この設定を使用すると、お客様とAdobeの両方が DNS の維持に対する責任を共有します。 [CNAME サブドメインのデリゲーションの詳細情報](delegate-subdomain.md#cname-subdomain-delegation)
+* **CNAME の使用**：サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定します。この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。[CNAME サブドメインのデリゲーションの詳細情報](delegate-subdomain.md#cname-subdomain-delegation)
 
 次の表に、これらの方法の仕組みと、黙示的な作業レベルの概要を示します。
 
