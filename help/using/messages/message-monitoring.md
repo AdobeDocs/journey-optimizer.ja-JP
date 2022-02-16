@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 * **[!UICONTROL ジャーニー - バージョン - アクション]**：メッセージ配信を行うジャーニーの名前、ジャーニーのバージョン、メッセージ配信を行うジャーニー内のアクションのラベル。
 
-* **[!UICONTROL ステータス]**：メッセージ実行ステータス。  
+* **[!UICONTROL ステータス]**：メッセージ実行ステータス。
 
 * **[!UICONTROL 開始日]** : ジャーニーからメッセージが実行された日時。
 
