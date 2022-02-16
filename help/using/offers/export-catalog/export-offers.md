@@ -1,15 +1,15 @@
 ---
 title: パーソナライズされたオファーデータセット
-description: この節では、オファー用にエクスポートされたデータセットで使用されるすべてのフィールドを示します
+description: この節では、オファー用に書き出したデータセットで使用するすべてのフィールドをリストアップします。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
