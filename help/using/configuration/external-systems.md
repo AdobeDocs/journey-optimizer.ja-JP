@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 **キャッピングルールはどのようにして設定できますか？デフォルトのキャッピングルールはありますか？**
 
-デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 [この節](../configuration/external-systems.md#capping)と [Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}を参照してください。
+デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 [この節](../configuration/external-systems.md#capping)と [Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 **再試行は何回行われますか？再試行の回数を変更したり、再試行間の最小待ち時間を定義したりできますか？**
 
