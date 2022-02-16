@@ -1,15 +1,15 @@
 ---
 title: オファーを作成するための主な手順
-description: オファーの作成に必要な主な手順を確認する
+description: オファーの作成に必要な主な手順を見つける
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
