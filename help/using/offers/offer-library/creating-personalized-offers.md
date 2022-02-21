@@ -1,6 +1,6 @@
 ---
 title: パーソナライズされたオファーの作成
-description: オファーの作成、設定、管理方法について説明します
+description: オファーの作成、設定、管理する方法について学ぶ
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

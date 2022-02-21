@@ -1,6 +1,6 @@
 ---
 title: 意思決定管理の概要
-description: 意思決定管理の概要。アーキテクチャ、オファー、決定、および実行できる一般的な使用例について詳しく説明します
+description: 意思決定管理の概要。アーキテクチャ、オファー、決定、および実践可能な一般的なユースケースについて学ぶ
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 

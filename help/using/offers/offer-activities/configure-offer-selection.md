@@ -1,6 +1,6 @@
 ---
 title: 決定でのオファー選択の設定
-description: 決定に基づいてオファーの選択を管理する方法を説明します
+description: 決定へのオファー選択を管理する方法を学ぶ
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 

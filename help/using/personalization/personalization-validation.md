@@ -1,6 +1,6 @@
 ---
 title: パーソナライゼーションの検証
-description: パーソナライゼーションの検証とトラブルシューティング方法についての詳細情報.
+description: パーソナライゼーションの検証とトラブルシューティング方法について説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer

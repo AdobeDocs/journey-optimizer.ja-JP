@@ -102,12 +102,12 @@ ht-degree: 98%
 
    * **[!UICONTROL 返信先（名前）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
 
-   * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。使用しないと、メールは破棄されます。
+   * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。このアドレスを使用していないメールは破棄されます。
 
    * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
    >[!NOTE]
    >
-   >2021年10月リリース以降、[!DNL Journey Optimizer] ユーザーインターフェイスから転送メールアドレスを定義できなくなりました。 [!DNL Journey Optimizer] で受信される、デリゲートされたサブドメイン向けのすべてのメールを特定のメールアドレスに転送する場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+   >2021年10月リリース以降、[!DNL Journey Optimizer] ユーザーインターフェイスから転送メールアドレスを定義できなくなりました。 [!DNL Journey Optimizer] が受信する、デリゲートされたサブドメイン向けのすべてのメールを、特定のメールアドレスに転送する場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} にお問い合わせください。
 
    ![](../assets/preset-header.png)
 
@@ -220,7 +220,7 @@ ht-degree: 98%
 
    ![](../assets/preset-view-update-details.png)
 
-**[!UICONTROL 最新の更新]**&#x200B;画面では、更新ステータスやリクエストされた変更のリストなどの情報が表示されます。
+**[!UICONTROL 最新の更新]**&#x200B;画面には、更新ステータスやリクエストされた変更のリストなどの情報が表示されます。
 
 ![](../assets/preset-recent-update-screen.png)
 

@@ -5,7 +5,7 @@ title: カスタムアクションを使用したコレクションの動的な�
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 

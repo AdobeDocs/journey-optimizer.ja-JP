@@ -1,6 +1,6 @@
 ---
 title: ランキング式の作成
-description: オファーをランク付けする数式を作成する方法を説明します
+description: オファーをランク付けする数式を作成する方法を学ぶ
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

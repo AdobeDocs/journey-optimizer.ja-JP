@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 * ランキング戦略を使用する際にイベントタイプを送信できるようにするために必要な、スキーマ要件に関する新しい節が追加されました。[詳細情報](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* 関連するセクション [!DNL Journey Optimizer] パーソナライゼーション機能が再編成され、読みやすくなりました。 [詳細情報](../personalization/personalize.md)
+* [!DNL Journey Optimizer] パーソナライズ機能に関連する節が再編成され、読みやすくなりました。[詳細情報](../personalization/personalize.md)
 
 * 「メッセージプリセットを作成」の節は、複数の節に分割され、わかりやすくなりました。 [詳細情報](../configuration/message-presets.md#create-message-preset)
 
@@ -110,7 +110,7 @@ ht-degree: 93%
 * ホームページの画像が最適化されました
 * 「メッセージトラッキング」の節が移動し、改善され、タイトルが「リンクの追加とメッセージのトラッキング」に変更されました。 [詳細を読む](../messages/message-tracking.md)
 * ミラーページにサブセクションが追加されました。 [詳細を読む](../messages/message-tracking.md#mirror-page)
-* ドキュメントおよび画面の「オファーアクティビティ」の名前を「決定」に、「決定」を「決定範囲」に変更しました。 [詳細を読む](../offers/get-started/starting-offer-decisioning.md)
+* ドキュメントと画面上で、「オファーアクティビティ」が「決定」、「決定」が「決定範囲」に名称変更されました。[詳細を読む](../offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](../personalization/personalization-use-case-helper-functions.md)が追加されました
 * 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。 [詳細を読む](../building-journeys/read-segment.md)
 * ジャーニーの制限が更新されました。 [詳細を読む](../start/limitations.md)
