@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 100%
+source-wordcount: '1646'
+ht-degree: 98%
 
 ---
 
@@ -61,6 +61,7 @@ ht-degree: 100%
 * テストモードは、必要であれば何回でも有効または無効にできます。
 * テストモードがアクティブになっているときは、ジャーニーを変更できません。テストモードではジャーニーを直接公開できるので、事前にテストモードを無効にしておく必要はありません。
 * 分割に達すると、常に一番上の分岐を選択します。テストで別のパスを選択する場合は、分割された分岐の位置を再編成できます。
+* パフォーマンスを最適化し、古くなったリソースの使用を防ぐために、1 週間トリガーされていないテストモードのすべてのジャーニーがドラフトステータスに戻ります。
 
 ## イベントの実行 {#firing_events}
 

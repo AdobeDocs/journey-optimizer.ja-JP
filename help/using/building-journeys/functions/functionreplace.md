@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 55%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 | パラメーター | タイプ |
 |-----------|--------------|
 | base（ベース文字列） | 文字列 |
-| target（ターゲット文字列） | 文字列 |
+| target（ターゲット文字列） | 文字列 （正規表現） |
 | replacement（置換文字列） | 文字列 |
 
 ## シグネチャと戻り値のタイプ
@@ -41,8 +41,28 @@ ht-degree: 100%
 
 文字列を返します。
 
-## 例
+## 例 1
 
 `replace("Hello World", "l", "x")`
 
 「Hexlo World」を返します。
+
+## 例 2 {#example_2}
+
+target パラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。 次に例を示します。
+
+* 評価する文字列： `|OFFER_A|OFFER_B`
+* プロファイル属性によって提供される `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* 置き換える文字列： `|OFFER_A`
+* 次に置き換えられた文字列： `''`
+* を追加する必要があります `\\` の前 `|` 文字。
+
+式は次のとおりです。
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
+
+返される文字列は次のとおりです。 `|OFFER_B`
+
+指定した属性から置き換える文字列を構築することもできます。
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

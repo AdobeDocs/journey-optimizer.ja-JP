@@ -1,35 +1,29 @@
 ---
 title: カスタムアクションの使用
 description: カスタムアクションの使用方法を説明します
-feature: Journeys
+feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # カスタムアクションの使用 {#use-custom-actions}
 
-アクティビティ設定ペインには、URL 設定パラメーターと、カスタムアクション用に設定された認証パラメーターが表示されます。[詳細情報](../action/about-custom-action-configuration.md)。
-
->[!NOTE]
->
->カスタムアクションのパラメーターでシンプルなコレクションを渡すことはできません。より複雑なコレクションフィールド（オブジェクトの配列）はサポートされていません。また、パラメーターは想定される形式（例：文字列、10 進数など）になっています。これらの想定される形式に従うように注意する必要があります。
+カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
 
 ## URL 設定
+
+の設定ペイン **カスタムアクション** 「 」アクティビティには、URL 設定パラメーターと、カスタムアクション用に設定された認証パラメーターが表示されます。 ジャーニーでは URL の静的な部分を設定できませんが、カスタムアクションのグローバル設定では設定できます。[詳細情報](../action/about-custom-action-configuration.md)。
 
 ### 動的パス
 
 URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フィールドでパスを指定します。
-
->[!NOTE]
->
->ジャーニーでは URL の静的な部分を設定できませんが、カスタムアクションのグローバル設定では設定できます。[詳細情報](../action/about-custom-action-configuration.md)。
 
 フィールドとプレーンテキスト文字列を連結するには、高度な式エディターで文字列関数またはプラス記号（+）を使用します。プレーンテキスト文字列を一重引用符（&#39;）または二重引用符（&quot;）で囲みます。[詳細情報](expression/expressionadvanced.md)。
 

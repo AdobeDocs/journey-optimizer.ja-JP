@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 84%
 
 ---
 
@@ -29,17 +29,21 @@ ht-degree: 100%
 
 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。ウィジェットを変更して影響を受けるのは、現在のユーザーのダッシュボードのみです。他のユーザーには、各自のダッシュボードまたはデフォルトで設定されたダッシュボードが表示されます。
 
-1. ライブレポートで、「**[!UICONTROL 変更]**」をクリックします。
+1. 切り替えバーを使用して、レポートからテストイベントを除外する場合に選択します。 テストイベントについて詳しくは、 [このページ](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_1.png)
+   ![](../assets/report_modify_6.png)
+
+1. ウィジェットのサイズを変更または削除するには、 **[!UICONTROL 変更]**.
+
+   ![](../assets/report_modify_7.png)
 
 1. ウィジェットの右下隅をドラッグして、ウィジェットのサイズを調整します。
 
-   ![](../assets/report_modify_2.png)
+   ![](../assets/report_modify_8.png)
 
-1. バウンスを追跡する必要のない他のウィジェットを削除するには、「**[!UICONTROL 削除]**」をクリックします。
+1. クリック **[!UICONTROL 削除]** 不要なウィジェットを削除します。
 
-   ![](../assets/report_modify_3.png)
+   ![](../assets/report_modify_9.png)
 
 1. ウィジェットの表示順とサイズが定まったら、「**[!UICONTROL 保存]**」をクリックします。
 

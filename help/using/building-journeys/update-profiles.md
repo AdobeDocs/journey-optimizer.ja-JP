@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
 * 「**プロファイルを更新**」アクションを使用して、購入などのエクスペリエンスイベントを生成することはできません。
 * 他のアクションのように、エラーやタイムアウトの場合の代替パスを定義でき、2 つのアクションを並行して配置することはできません。
 * Platform に送信される更新リクエストは高速ですが、1 秒以内や即時というわけではありません。通常は数秒かかりますが、もっと時間がかかる場合もあり、保証はありません。そのため、例えば、アクションで使用している「フィールド 1」が、そのアクションの直前に配置された「プロファイルを更新」アクションで更新される場合でも、更新された「フィールド 1」が必ず使用されるとは限りません。
+* この **プロファイルを更新** アクティビティは、列挙として定義された XDM フィールドをサポートしていません。
 
 ## テストモードの使用 {#using-the-test-mode}
 

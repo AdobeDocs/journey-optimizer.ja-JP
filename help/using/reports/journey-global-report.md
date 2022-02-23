@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 59272469ef0ea5cc43c553bab72236b89a76c643
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 100%
+source-wordcount: '1412'
+ht-degree: 88%
 
 ---
 
@@ -119,11 +119,34 @@ ht-degree: 100%
 
 バウンスの詳細については、[抑制リスト](../messages/suppression-list.md)のページを参照してください。
 
+![](../assets/global_report_22.png)
+
+「**[!UICONTROL エラー理由]**」のグラフと表を使用すると、配信中に発生したエラーを確認できます。
+
+この **[!UICONTROL 除外された理由]** グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
+
 ![](../assets/global_report_16.png)
 
 「**[!UICONTROL メール - 上位の URL]**」のグラフと表は、配信されたメールの中で最もアクセス頻度の高い URL の詳細を示しています。
 
 「**[!UICONTROL メール - 上位の受信者ドメイン]**」のグラフと表は、受信者が電子メールを開くために最も多く使用しているドメインの詳細を示しています。
+
+![](../assets/global_report_23.png)
+
+>[!NOTE]
+>
+>この **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]**  ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。 送信時間の最適化の詳細については、 [ページ](../building-journeys/journeys-message.md#send-time-optimization).
+
+この **[!UICONTROL 最適化済みと最適化されていない]** グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
+
+* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
+* **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
+* **[!UICONTROL クリック数]**：メールのコンテンツがクリックされた回数。
+
+この **[!UICONTROL 送信時間の最適化]** は、送信方法に応じて、配信の成功を詳細に示します。最適化または標準。
+
+* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
 <!--
 ![](../assets/global_report_21.png)
@@ -200,6 +223,21 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+
+>[!NOTE]
+>
+>この **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]**  ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。 送信時間の最適化の詳細については、 [ページ](../building-journeys/journeys-message.md#send-time-optimization).
+
+この **[!UICONTROL 最適化済みと最適化されていない]** グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
+
+* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
+* **[!UICONTROL アクション]**：配信されたプッシュ通知に対するアクション（ボタンのクリックや解除など）の合計数。
+
+この **[!UICONTROL 送信時間の最適化]** は、送信方法に応じて、配信の成功を詳細に示します。最適化または標準。
+
+* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
 ![](../assets/global_report_18.png)
 

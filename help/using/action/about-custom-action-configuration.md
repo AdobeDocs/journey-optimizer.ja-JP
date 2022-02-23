@@ -1,26 +1,35 @@
 ---
 solution: Journey Orchestration
-title: カスタムアクション設定について
+title: カスタムアクションの設定
 description: カスタムアクションの設定方法を学ぶ
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 84%
 
 ---
 
-# アクションの設定 {#configure-an-action}
+# カスタムアクションの設定 {#configure-an-action}
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、ここでジャーニーへの接続を設定します。技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照）。カスタムアクションを使用して接続できるシステムには、Epsilon、Slack、Adobe.io、Firebase などが挙げられます。
+サードパーティのシステムを使用してメッセージを送信する場合、またはジャーニーからサードパーティのシステムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。 例えば、カスタムアクションを使用して次のシステムに接続できます。Epsilon、Slack、Adobe.io、Firebase など
 
-制限事項については、[このページ](../start/limitations.md)を参照してください。
+カスタムアクションは、技術ユーザーが定義し、マーケターが使用できる追加のアクションです。 設定が完了すると、ジャーニーの左側のパレットの **[!UICONTROL アクション]** カテゴリ。 詳しくは、[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 
-カスタムアクションを使用して、コレクションを動的に渡すことができます。 この[ユースケース](../building-journeys/collections.md)を参照してください。
+## 制限事項{#custom-actions-limitations}
+
+カスタムアクションには、 [このページ](../start/limitations.md).
+
+カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。 コレクションの制限について詳しくは、 [このページ](../building-journeys/collections.md#limitations).
+
+また、カスタムアクションのパラメーターの形式は想定されています ( 例：文字列、小数など )。 これらの想定される形式に従うように注意する必要があります。詳しくは、こちらを参照してください。 [使用例](../building-journeys/collections.md).
+
+
+## 設定の手順 {#configuration-steps}
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
 

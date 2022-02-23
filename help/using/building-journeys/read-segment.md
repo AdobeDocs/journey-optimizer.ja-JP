@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
+source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 100%
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL スロットルレート]**」フィールドを、「セグメントを読み取り」アクティビティのスループット限度に設定します。
 
-   この値は、ジャーニーバージョンのペイロードに格納されます。デフォルト値は、1 秒あたり 17,000 メッセージです。この値は、1 秒あたり 500 メッセージから 17,000 メッセージの範囲で変更できます。
+   この値は、ジャーニーバージョンのペイロードに格納されます。デフォルト値は、1 秒あたり 20,000 メッセージです。この値は、1 秒あたり 500 メッセージから 20,000 メッセージの範囲で変更できます。
 
    >[!NOTE]
    >
