@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 85%
 
 ---
 
@@ -60,3 +60,10 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 テキストタイプのコンテンツをオファーの表示域に追加する場合は、パーソナライゼーションエディターを利用することもできます。
 
 意思決定管理を使用したコンテンツ管理について詳しくは、[この節](../offers/offer-library/creating-personalized-offers.md#custom-text)を参照してください。
+
+## パーソナライズされた URL{#personalize-urls}
+
+メッセージコンテンツ内に、パーソナライゼーションを使用したリンクを作成できます。 例えば、新規顧客向けに Web サイトの特定のページへのリンクを追加します。
+
+パーソナライゼーション機能を使用してパーソナライズされた URL を挿入する方法を説明します。 [この節](personalization-syntax.md#perso-urls).
+

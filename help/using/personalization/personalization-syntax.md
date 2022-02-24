@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 98%
 
 ---
 
@@ -146,8 +146,8 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 Journey Optimizer では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。その手順は次のとおりです。
 
-* メールまたはプッシュコンテンツにリンクを作成します。 リンクの作成について詳しくは、[このページ](../messages/message-tracking.md#insert-links)を参照してください。
-* パーソナライゼーションアイコンをクリックします。 このアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;の 3 種類のリンクで使用できます。
+* メッセージコンテンツにリンクを作成します。 リンクの作成について詳しくは、[このページ](../messages/message-tracking.md#insert-links)を参照してください。
+* パーソナライゼーションアイコンを選択します。 このアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;の 3 種類のリンクで使用できます。
 
 ![](assets/perso-url.png)
 
