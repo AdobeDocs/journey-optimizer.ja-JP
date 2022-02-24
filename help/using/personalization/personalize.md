@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 64%
 
 ---
 
@@ -17,22 +17,38 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] のパーソナライゼーション機能を理解すると、受信者に関するデータと情報を活用して、特定の受信者に合わせてメッセージを作成できます。名前、興味、住所、購入品などの情報です。
 
-➡️ [メッセージをパーソナライズする方法については、こちらのビデオをご覧ください](#video-perso)
+➡️ [メッセージをパーソナライズする方法については、次のビデオを参照してください](#video-perso)
+➡️ [パーソナライゼーションを活用した Discover の使用例](personalization-use-case.md)
+
+## 専用の構文を使用したパーソナライゼーション式の構築 {#syntax}
 
 [!DNL Journey Optimizer] ではハンドルバーに基づいた、**インライン**&#x200B;のシンプルなパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **{{}}** で囲んだ式を作成することができます。同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
+
+**例：**
+
+* `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
+* `Hello {{profile.person.name.fullName}}`
+
+メッセージ（メールおよびプッシュ）を処理する際に、Journey Optimizer は式を、 Experience Platform データベースに含まれるデータに置き換えます。`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は “Hello John Doe” となります。
+
+## プロファイルデータを活用してメッセージをパーソナライズする {#data}
 
 パーソナライゼーションは、**XDM 個人プロファイル**&#x200B;スキーマ（Adobe Experience Platform で定義）で管理されるプロファイルデータに基づいています。詳しくは、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
 >**XDM 個人版プロファイル**&#x200B;スキーマは、[!DNL Journey Optimizer] でコンテンツをパーソナライズするために使用できる唯一のスキーマです。
 
-**例：**
+## 様々なコンテキストでのパーソナライゼーションの追加 {#contexts}
 
-* `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
+[!DNL Journey Optimizer] では、メッセージの内容や表示を複数の方法でパーソナライズできます。 パーソナライゼーションを実行できるコンテキストについて詳しくは、 [この節](personalization-contexts.md).
 
-* `Hello {{profile.person.name.fullName}}`
+## 式エディターの操作 {#editor}
 
-メッセージ（メールおよびプッシュ）を処理する際に、Journey Optimizer は式を、 Experience Cloud Platform データベースに含まれるデータに置き換えます。`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は “Hello John Doe” となります。
+[!DNL Journey Optimizer] 式エディターを使用して、すべてのデータを選択、整理、カスタマイズおよび検証し、コンテンツに合わせてカスタマイズされたパーソナライゼーションを作成できます。
+
+パーソナライゼーションコンテンツを構築するのに役立つツールがいくつか用意されています（ヘルパー関数、事前定義された式ライブラリ、属性の優先…）
+
+詳細情報： [!DNL Journey Optimizer] 式エディター [この節](personalization-build-expressions.md)
 
 ## ハウツービデオ{#video-perso}
 

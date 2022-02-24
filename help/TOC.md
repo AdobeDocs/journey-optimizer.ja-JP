@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 99%
 
 ---
 
@@ -56,6 +56,7 @@ ht-degree: 100%
       + 式エディターの操作 {#expression-editor}
          + [式エディターについて](using/personalization/personalization-build-expressions.md)
          + [属性をお気に入りに追加](using/personalization/personalization-favorites.md)
+         + [保存済み式の使用](using/personalization/personalization-library.md)
          + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
       + ヘルパー関数{#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)

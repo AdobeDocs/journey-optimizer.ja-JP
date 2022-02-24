@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 0160c6b95c980bc54b4d196828c05a822ec0d8fd
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >   
-   >式エディターでプロファイルのデータを使用し、メッセージをパーソナライズできます。パーソナライズ機能について詳しくは、[この節](../personalization/personalize.md)参照してください。
+   >式エディターを使用して、プロファイルのデータを使用してメッセージをパーソナライズできます。 パーソナライズ機能について詳しくは、[この節](../personalization/personalize.md)参照してください。
 
 1. メッセージのレンダリングを制御し、左側の「プレビュー」セクションを使用して、テストプロファイルでパーソナライゼーションの設定を確認します。詳しくは、[この節](preview.md)を参照してください。
 

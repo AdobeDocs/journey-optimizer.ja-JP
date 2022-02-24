@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
+source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 97%
 
 ---
 
@@ -421,3 +421,14 @@ ht-degree: 100%
 * Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read
+
+## Journey Optimizer Library 機能 {library-permissions}
+
+### ライブラリ項目を管理 {#library-items}
+
+この **[!DNL Manage Library Items]** 高レベル権限を持つユーザーは、 [!DNL Journey Optimizer] ライブラリ。
+
+これには、次の低レベル権限が含まれます。
+
+* library_item.create
+* ibrary_item.delete

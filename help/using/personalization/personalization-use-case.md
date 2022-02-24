@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 91%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
    ![](assets/perso-uc9.png)
 
-1. **コンテキスト**&#x200B;カテゴリを選択します。この項目は、ジャーニーでメッセージにコンテキストデータが渡された場合にのみ使用できます。「**Journey Orchestration**」をクリックします。次のコンテキスト情報が表示されます。
+1. を選択します。 **コンテキスト属性** メニュー コンテキスト属性は、ジャーニーがコンテキストデータをメッセージに渡している場合にのみ使用できます。 「**Journey Orchestration**」をクリックします。次のコンテキスト情報が表示されます。
 
    * **イベント**：このカテゴリは、ジャーニーの&#x200B;**メッセージ**&#x200B;アクティビティの前に配置されたイベントのすべてのフィールドを再グループ化します。
    * **ジャーニープロパティ**：ジャーニー ID や発生した特定のエラーなど、特定のプロファイルのジャーニーに関連する技術的なフィールド。詳しくは、[Journey Orchestration ドキュメント](../building-journeys/expression/journey-properties.md)を参照してください。
@@ -94,11 +94,11 @@ ht-degree: 100%
 
    ![](assets/perso-uc12.png)
 
-1. メッセージを入力し、**コンテキスト**&#x200B;カテゴリから、注文品目名と注文の進行状況を挿入します。
+1. メッセージを入力し、次の場所から挿入します****[!UICONTROL コンテキスト属性]** メニュー、注文項目名および注文の進行状況。
 
    ![](assets/perso-uc13.png)
 
-1. ドロップダウンから、「**オファーの決定**」を選択して、Offer Decisioning 変数を挿入します。プレースメントを選択し、決定（旧称「オファーアクティビティ」）の横にある「**+**」アイコンをクリックし、本文に追加します。
+1. 左側のメニューから、「 」を選択します。 **オファーの決定** をクリックして、offer decisioning変数を挿入します。 プレースメントを選択し、決定（旧称「オファーアクティビティ」）の横にある「**+**」アイコンをクリックし、本文に追加します。
 
    ![](assets/perso-uc14.png)
 

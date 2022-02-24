@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 92%
 
 ---
 
@@ -58,8 +58,8 @@ ht-degree: 100%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`upperCase` 文字列関数を追加します。
-   1. リストで「**[!UICONTROL ヘルパー関数]**」を選択します。
-   1. 検索フィールドを使用して、「uppercase」を検索します。
+   1. 左側のメニューで、 **[!UICONTROL ヘルパー関数]**.
+   1. 検索フィールドを使用して、「大文字」を検索します。
    1. 検索結果から、`upperCase` 関数を追加します。 それには、`{%= upperCase(string) %}: string` の横のプラス記号（+）をクリックします。
 
       式エディターには、次の式が表示されます。
@@ -72,8 +72,8 @@ ht-degree: 100%
 
 1. 式から「string」プレースホルダーを削除します。
 1. 名トークンを追加します。
-   1. リストで「**[!UICONTROL プロファイル]**」を選択します。
-   1. **[!UICONTROL プロファイル]**／**[!UICONTROL ユーザー]**／**[!UICONTROL 姓名]**&#x200B;を選択します。
+   1. 左側のメニューで、 **[!UICONTROL プロファイル属性]**.
+   1. 選択 **[!UICONTROL 人物]** > **[!UICONTROL 氏名]**.
    1. 式に&#x200B;**[!UICONTROL 名]**&#x200B;トークンを追加します。
 
       式エディターには、次の式が表示されます。
@@ -84,7 +84,7 @@ ht-degree: 100%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+      ユーザー名データタイプの詳細については、 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target=&quot;_blank&quot;}。
 
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -126,7 +126,7 @@ ht-degree: 100%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`each` ヘルパーを追加します。
-   1. リストで「**[!UICONTROL ヘルパー関数]**」を選択します。
+   1. 左側のメニューで、 **[!UICONTROL ヘルパー関数]**.
    1. 検索フィールドを使用して、「each」を検索します。
    1. 検索結果から、`each` ヘルパーを追加します。
 
@@ -141,9 +141,9 @@ ht-degree: 100%
 1. 式に `productListItems` 配列を追加します。
 
    1. 式から「someArray」プレースホルダーを削除します。
-   1. リストで「**[!UICONTROL コンテキスト]**」を選択します。
+   1. 左側のメニューで、 **[!UICONTROL コンテキスト属性]**.
 
-      「**[!UICONTROL コンテキスト]**」オプションは、ジャーニーコンテキストがメッセージに渡された後でのみ使用できます。
+      **[!UICONTROL コンテキスト属性]** は、ジャーニーコンテキストがメッセージに渡された後でのみ使用できます。
 
    1. **[!UICONTROL Journey Orchestration]**／**[!UICONTROL イベント]**／***[!UICONTROL event_name]*** を選択し、**[!UICONTROL productListItems]** ノードを展開します。
 
@@ -218,7 +218,7 @@ ht-degree: 100%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`if` ヘルパーを追加します。
-   1. リストで「**[!UICONTROL ヘルパー関数]**」を選択します。
+   1. 左側のメニューで、 **[!UICONTROL ヘルパー関数]**.
    1. 検索フィールドを使用して、「if」を検索します。
    1. 検索結果から、`if` ヘルパーを追加します。
 
@@ -248,7 +248,7 @@ ht-degree: 100%
 
 1. 製品名トークンを条件に追加します。
    1. 式から「condition1」プレースホルダーを削除します。
-   1. リストで「**[!UICONTROL コンテキスト]**」を選択します。
+   1. 左側のメニューで、 **[!UICONTROL コンテキスト属性]**.
    1. **[!UICONTROL Journey Orchestration]**／**[!UICONTROL イベント]**／***[!UICONTROL event_name]*** を選択し、**[!UICONTROL productListItems]** ノードを展開します。
 
       この例では、*event_name* はイベントの名前を表します。
