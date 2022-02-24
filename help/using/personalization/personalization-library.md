@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 163211f95436a37dee7deffea9ced1a3fa09dc34
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,22 @@ ht-degree: 0%
 
    ![](assets/library-save.png)
 
-1. 右側のウィンドウで、式にタイトルと説明を付け、式を見つけやすくします。次に、 **[!UICONTROL 追加]**.
+1. 右側のウィンドウで、式のタイトルと説明を入力し、式を見つけやすくします。その後、「 **[!UICONTROL 追加]**.
 
    ![](assets/add-expression.png)
 
 1. 式がライブラリに追加されます。 これで、ユーザーはこの機能を使用してパーソナライゼーションコンテンツを構築できるようになります。
+
+
+>[!NOTE]
+>
+>* ライブラリには、最大 40 個の式を保存できます。
+>
+>* 式は 200 KB を超えることはできません。
+>
+>* 保存済みの式は作成日別に並べ替えられます。最近追加された式がリストの最初に表示されます。
+
+
 
 既存の式を編集するには、式をエディターに追加し、必要に応じて変更します。 クリック **[!UICONTROL ライブラリに追加]** 構文を検証し、式を保存する場合。
 
