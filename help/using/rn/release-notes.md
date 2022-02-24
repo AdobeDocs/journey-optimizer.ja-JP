@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
+source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 92%
@@ -81,7 +81,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>Journey Optimizerのメッセージコンテンツで、リンクに UTM パラメーターを追加できるようになりました。顧客は、そのリンクに関する追加データを提供し、顧客がリンクをクリックした場所と理由を特定するのに役立ちます。</p>
-<p>詳しくは、 <a href="../configuration/message-presets.md">詳細なドキュメント</a>を参照してください。</p-->
+<p>詳しくは、 <a href="../configuration/message-presets.md#configure-email-settings">詳細なドキュメント</a>を参照してください。</p-->
 </td>
 </tr>
 </tbody>
