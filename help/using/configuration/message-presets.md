@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 98%
+source-wordcount: '1944'
+ht-degree: 83%
 
 ---
 
@@ -78,7 +78,11 @@ ht-degree: 98%
 
 ## 電子メールの設定 {#configure-email-settings}
 
+電子メールの設定は、メッセージプリセット設定の専用のセクションで定義します。
+
 ![](../assets/preset-email.png)
+
+メッセージプリセットに関連付けられる電子メール設定を定義するには、次の手順に従います。
 
 1. プリセットと共に送信されるメッセージのタイプを選択します。 **トランザクション** または **マーケティング**.
 
@@ -90,7 +94,31 @@ ht-degree: 98%
 
 1. プリセットに関連付ける IP プールを選択します。 [詳細](ip-pools.md)
 
-1. そのプリセットを使用して送信するメールのヘッダーパラメーターを入力します。
+1. ユーザーがリンクをクリックした場所と理由を特定するために、  **[!UICONTROL URL トラッキング設定（Web 分析）]** 」セクションに入力します。
+
+   定義したパラメーターに基づいて、UTM コードがメッセージコンテンツに含まれる URL の末尾に適用されます。 その後、Adobe Analyticsなどの Web 分析ツールで結果を比較できます。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >最大 10 個のトラッキングパラメーターを追加できます。
+
+   目的のテキストを **[!UICONTROL 名前]** および **[!UICONTROL 値]** フィールド。
+
+   次のオブジェクトに移動して、事前定義済みの値のリストから選択することもできます。
+
+   * ジャーニー属性：ソース ID、ソース名、ソースバージョン ID
+   * メッセージ属性：アクション ID、アクション名
+   * Offer decisioning属性：オファー ID、オファー名
+
+   >[!CAUTION]
+   >
+   >必要なフォルダーを参照し、UTM 値として使用するプロファイル属性を選択します。
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. 次を入力します。 **[!UICONTROL ヘッダーパラメーター]** 」と入力します。
 
    >[!CAUTION]
    >
@@ -107,15 +135,15 @@ ht-degree: 98%
    * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
    >[!NOTE]
    >
-   >2021年10月リリース以降、[!DNL Journey Optimizer] ユーザーインターフェイスから転送メールアドレスを定義できなくなりました。 [!DNL Journey Optimizer] が受信する、デリゲートされたサブドメイン向けのすべてのメールを、特定のメールアドレスに転送する場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} にお問い合わせください。
+   >転送用メールアドレスを [!DNL Journey Optimizer] ユーザーインターフェイス。 すべてのメールを [!DNL Journey Optimizer] 特定の電子メールアドレスに転送されるデリゲートされたサブドメインについては、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+   >名前は、文字 (A ～ Z) で始まる必要があり、英数字のみを含めることができます。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. **メール再試行パラメーター**&#x200B;を設定します。デフォルトでは、[再試行期間](retries.md#retry-duration)は 84 時間に設定されていますが、必要に応じてこの設定を調整できます。
+1. の設定 **E メールの再試行パラメーター**. デフォルトでは、[再試行期間](retries.md#retry-duration)は 84 時間に設定されていますが、必要に応じてこの設定を調整できます。
 
    ![](../assets/preset-retry-paramaters.png)
 
@@ -125,6 +153,10 @@ ht-degree: 98%
    * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
 
 ## プッシュ設定の構成 {#configure-push-settings}
+
+プッシュ設定は、メッセージプリセット設定の専用のセクションで定義します。
+
+メッセージプリセットに関連付けられたプッシュ設定を定義するには、次の手順に従います。
 
 1. プラットフォームを少なくとも 1 つ選択してください： **iOS** および/または **Android**.
 
@@ -154,7 +186,7 @@ ht-degree: 98%
 
 ![](../assets/preset-filters.png)
 
-メッセージプリセットには、次のステータスがあります。
+メッセージプリセットを作成すると、次のステータスを持つことができます。
 
 * **[!UICONTROL ドラフト]**：メッセージプリセットは下書きとして保存されており、まだ送信されていません。設定を再開するには、これを開きます。
 * **[!UICONTROL 処理中]**：メッセージプリセットが送信され、いくつかの検証手順を実行中です。
@@ -164,7 +196,7 @@ ht-degree: 98%
 
 メッセージプリセットの作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、[アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にご連絡ください。
+これらのエラーのいずれかが発生した場合は、 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} でサポートを受けてください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
