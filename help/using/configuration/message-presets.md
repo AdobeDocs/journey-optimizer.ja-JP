@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
+source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 83%
+source-wordcount: '1980'
+ht-degree: 79%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 83%
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューにアクセスし、「**[!UICONTROL メッセージプリセットを作成]**」をクリックします。
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. プリセットの名前と説明（オプション）を入力し、設定するチャネルを選択します。
 
-   ![](../assets/preset-general.png)
+   ![](assets/preset-general.png)
 
    >[!NOTE]
    >
@@ -52,7 +52,7 @@ ht-degree: 83%
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
-   ![](../assets/preset-submit.png)
+   ![](assets/preset-submit.png)
 
 1. メッセージプリセットが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
@@ -74,83 +74,96 @@ ht-degree: 83%
 
 1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 ## 電子メールの設定 {#configure-email-settings}
 
 電子メールの設定は、メッセージプリセット設定の専用のセクションで定義します。
 
-![](../assets/preset-email.png)
+![](assets/preset-email.png)
 
-メッセージプリセットに関連付けられる電子メール設定を定義するには、次の手順に従います。
+以下の説明に従って、設定を指定します。
 
-1. プリセットと共に送信されるメッセージのタイプを選択します。 **トランザクション** または **マーケティング**.
 
-   >[!CAUTION]
-   >
-   > **トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。トランザクションメッセージは、パスワードのリセット、注文のステータス、配信の通知など、特定のコンテキストでのみ送信できます。
+### 電子メールのタイプ{#email-type}
+
+内 **電子メールのタイプ** 「 」セクションで、プリセットと共に送信されるメッセージのタイプを選択します。 **マーケティング** または **トランザクション**.
+
+選択 **マーケティング** プロモーションメッセージの場合：これらのメッセージにはユーザーの同意が必要です。
+
+選択 **トランザクション** （注文の確認、パスワードリセット通知、配信情報など、非商用メッセージの場合）
+
+>[!CAUTION]
+>
+>**トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
+
+
+### サブドメインおよび IP プール {#subdomains-and-ip-pools}
+
+内 **サブドメインおよび IP プールの詳細** セクションで、以下を実行する必要があります。
 
 1. メールの送信に使用するサブドメインを選択します。 [詳細](about-subdomain-delegation.md)
 
 1. プリセットに関連付ける IP プールを選択します。 [詳細](ip-pools.md)
 
-1. ユーザーがリンクをクリックした場所と理由を特定するために、  **[!UICONTROL URL トラッキング設定（Web 分析）]** 」セクションに入力します。
+### URL トラッキング{#url-tracking}
 
-   定義したパラメーターに基づいて、UTM コードがメッセージコンテンツに含まれる URL の末尾に適用されます。 その後、Adobe Analyticsなどの Web 分析ツールで結果を比較できます。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+ユーザーがリンクをクリックした場所と理由を特定するために、  **[!UICONTROL URL トラッキング設定（WEB 分析）]** 」セクションに入力します。
 
-   ![](../assets/preset-url-tracking.png)
+定義したパラメーターに基づいて、UTM コードがメッセージコンテンツに含まれる URL の末尾に適用されます。 その後、Adobe Analyticsなどの Web 分析ツールで結果を比較できます。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
-   >[!NOTE]
-   >
-   >最大 10 個のトラッキングパラメーターを追加できます。
+![](assets/preset-url-tracking.png)
 
-   目的のテキストを **[!UICONTROL 名前]** および **[!UICONTROL 値]** フィールド。
+デフォルトでは、3 つの UTM パラメーターが使用可能です。 最大 10 個のトラッキングパラメーターを追加できます。 UTM パラメーターを追加するには、 **[!UICONTROL 新しい UTM パラメーターの追加]** 」ボタンをクリックします。
 
-   次のオブジェクトに移動して、事前定義済みの値のリストから選択することもできます。
+UTM パラメーターを設定するには、目的の値を **[!UICONTROL 名前]** および **[!UICONTROL 値]** フィールドを選択するか、次のオブジェクトに移動して、事前定義済みの値のリストから選択します。
 
-   * ジャーニー属性：ソース ID、ソース名、ソースバージョン ID
-   * メッセージ属性：アクション ID、アクション名
-   * Offer decisioning属性：オファー ID、オファー名
+* ジャーニー属性：ソース ID、ソース名、ソースバージョン ID
+* メッセージ属性：アクション ID、アクション名
+* Offer decisioning属性：オファー ID、オファー名
 
-   >[!CAUTION]
-   >
-   >必要なフォルダーを参照し、UTM 値として使用するプロファイル属性を選択します。
+![](assets/preset-url-tracking-source.png)
 
-   ![](../assets/preset-url-tracking-source.png)
+>[!CAUTION]
+>
+>フォルダーは選択しないでください：必要なフォルダーを参照し、UTM 値として使用するプロファイル属性を選択します。
 
-1. 次を入力します。 **[!UICONTROL ヘッダーパラメーター]** 」と入力します。
+### ヘッダーパラメーター{#email-header}
 
-   >[!CAUTION]
-   >
-   >メールアドレスでは、現在選択されている[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
+内 **[!UICONTROL ヘッダーパラメーター]** 「 」セクションで、そのプリセットを使用して送信されたメッセージに関連付けられた電子メールアドレスを入力します。 これらのメールアドレスは、現在選択されている [委任サブドメイン](about-subdomain-delegation.md).
 
-   * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
+次の電子メールアドレスを設定する必要があります
 
-   * **[!UICONTROL 送信者のメール]**：コミュニケーションに使用するメールアドレス。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合は、*contact@marketing.luma.com* を使用できます。
+* **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 
-   * **[!UICONTROL 返信先（名前）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
+* **[!UICONTROL 送信者のメール]**：コミュニケーションに使用するメールアドレス。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合は、*contact@marketing.luma.com* を使用できます。
 
-   * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。このアドレスを使用していないメールは破棄されます。
+* **[!UICONTROL 返信先（名前）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
 
-   * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
-   >[!NOTE]
-   >
-   >転送用メールアドレスを [!DNL Journey Optimizer] ユーザーインターフェイス。 すべてのメールを [!DNL Journey Optimizer] 特定の電子メールアドレスに転送されるデリゲートされたサブドメインについては、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+* **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。このアドレスを使用していないメールは破棄されます。
 
-   ![](../assets/preset-header.png)
+* **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
 
-   >[!NOTE]
-   >
-   >名前は、文字 (A ～ Z) で始まる必要があり、英数字のみを含めることができます。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. の設定 **E メールの再試行パラメーター**. デフォルトでは、[再試行期間](retries.md#retry-duration)は 84 時間に設定されていますが、必要に応じてこの設定を調整できます。
+![](assets/preset-header.png)
 
-   ![](../assets/preset-retry-paramaters.png)
+>[!NOTE]
+>
+>アドレスは、文字 (A ～ Z) で始まる必要があり、英数字のみを含めることができます。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-   次の範囲内の整数値（時間または分）を入力する必要があります。
-   * マーケティングメールタイプの場合、再試行期間の下限は 6 時間です。
-   * トランザクションメールタイプの場合、再試行期間の下限は 10 分です。
-   * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
+### E メールの再試行パラメーター{#email-retry}
+
+次の項目を設定できます。 **E メールの再試行パラメーター**.
+
+![](assets/preset-retry-parameters.png)
+
+デフォルトでは、[再試行期間](retries.md#retry-duration)は 84 時間に設定されていますが、必要に応じてこの設定を調整できます。
+
+次の範囲内の整数値（時間または分）を入力する必要があります。
+
+* マーケティング E メールの場合、再試行の最小期間は 6 時間です。
+* トランザクション E メールの場合、再試行の最小期間は 10 分です。
+* どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
 
 ## プッシュ設定の構成 {#configure-push-settings}
 
@@ -162,7 +175,7 @@ ht-degree: 83%
 
 1. 各プラットフォームで使用するモバイルアプリケーションを選択します。
 
-![](../assets/preset-push.png)
+![](assets/preset-push.png)
 
 プッシュ通知を送信する環境の設定方法については、[この節](../messages/push-gs.md)を参照してください。
 
@@ -171,7 +184,7 @@ ht-degree: 83%
 
 1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-    ![](../assets/preset-sms.png)
+    ![](assets/preset-sms.png)
     
 1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -184,7 +197,7 @@ ht-degree: 83%
 
 すべてのメッセージプリセットは、**[!UICONTROL チャネル]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューに表示されます。フィルターを使用すると、チャネルタイプ、ユーザー、ステータスに応じてリストを参照できます。
 
-![](../assets/preset-filters.png)
+![](assets/preset-filters.png)
 
 メッセージプリセットを作成すると、次のステータスを持つことができます。
 
@@ -196,7 +209,7 @@ ht-degree: 83%
 
 メッセージプリセットの作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} でサポートを受けてください。
+これらのエラーのいずれかが発生した場合は、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} でサポートを受けてください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
@@ -220,7 +233,7 @@ ht-degree: 83%
 
 1. リストでメッセージプリセット名をクリックして開きます。
 
-   ![](../assets/preset-name.png)
+   ![](assets/preset-name.png)
 
 1. そのプロパティを必要に応じて編集します。
 
@@ -230,7 +243,7 @@ ht-degree: 83%
 
 1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
 
-   ![](../assets/preset-confirm-update.png)
+   ![](assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
@@ -246,15 +259,15 @@ ht-degree: 83%
 
 * アクティブなプリセットの名前の横に表示されている「**[!UICONTROL 最新の更新]**」アイコンをクリックします。
 
-   ![](../assets/preset-recent-update-icon.png)
+   ![](assets/preset-recent-update-icon.png)
 
 * 更新の処理中に、アクティブなメッセージプリセットの更新の詳細にアクセスすることもできます。
 
-   ![](../assets/preset-view-update-details.png)
+   ![](assets/preset-view-update-details.png)
 
 **[!UICONTROL 最新の更新]**&#x200B;画面には、更新ステータスやリクエストされた変更のリストなどの情報が表示されます。
 
-![](../assets/preset-recent-update-screen.png)
+![](assets/preset-recent-update-screen.png)
 
 ### 更新ステータス {#update-statuses}
 
@@ -316,7 +329,7 @@ ht-degree: 83%
 
 1. 「**[!UICONTROL 非アクティブ化]**」を選択します。
 
-   ![](../assets/preset-deactivate.png)
+   ![](assets/preset-deactivate.png)
 
 >[!NOTE]
 >
@@ -324,7 +337,7 @@ ht-degree: 83%
 
 非アクティブ化されたメッセージプリセットは直接編集できません。 ただし、プリセットのコピーを作成し編集して新しいバージョンを作成し、それを使用して新しいメッセージを作成することはできます。 また、プリセットを再度アクティブにし、更新が正常に完了するまで待って編集することもできます。
 
-![](../assets/preset-activate.png)
+![](assets/preset-activate.png)
 
 ## ハウツービデオ{#video-presets}
 
