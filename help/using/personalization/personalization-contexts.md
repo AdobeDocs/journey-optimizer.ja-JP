@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '282'
+ht-degree: 91%
 
 ---
 
@@ -63,7 +63,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ## パーソナライズされた URL{#personalize-urls}
 
-メッセージコンテンツ内に、パーソナライゼーションを使用したリンクを作成できます。 例えば、新規顧客向けに Web サイトの特定のページへのリンクを追加します。
+パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。 Adobe Journey Optimizerでは、メッセージコンテンツの URL にパーソナライゼーションを追加できます。 URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。
 
-パーソナライゼーション機能を使用してパーソナライズされた URL を挿入する方法を説明します。 [この節](personalization-syntax.md#perso-urls).
+にパーソナライズ URL を挿入する方法を説明します。 [この節](personalization-syntax.md#perso-urls).
 
