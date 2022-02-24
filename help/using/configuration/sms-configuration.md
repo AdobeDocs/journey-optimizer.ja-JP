@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -53,11 +53,11 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューにアクセスし、「**[!UICONTROL メッセージプリセットを作成]**」をクリックします。
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. プリセットの名前と説明（オプション）を入力し、SMS チャネルを選択します。
 
-   ![](../assets/sms_preset.png)
+   ![](assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. **SMS** の設定を行います。
 
-   ![](../assets/preset-sms.png)
+   ![](assets/preset-sms.png)
 
    * プリセットを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択します。
 
@@ -77,7 +77,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
-   ![](../assets/sms_preset_2.png)
+   ![](assets/sms_preset_2.png)
 
 1. メッセージプリセットが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
@@ -87,7 +87,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 これで、Journey Optimizer で SMS メッセージを送信する準備が整いました。
 
