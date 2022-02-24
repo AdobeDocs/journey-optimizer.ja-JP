@@ -1,12 +1,12 @@
 ---
 title: ユーザー管理の概要
 description: 権限の詳細
-feature: Control Groups
+feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

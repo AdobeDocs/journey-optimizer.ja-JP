@@ -1,12 +1,12 @@
 ---
 title: 組み込みの製品プロファイル
 description: 組み込みの製品プロファイルの詳細
-feature: Control Groups
+feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
