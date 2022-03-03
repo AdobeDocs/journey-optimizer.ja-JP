@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 このタイプのイベントでは、ラベルと説明のみを追加できます。その他の設定は編集できません。技術ユーザーによって実施します。[このページ](../event/about-events.md)を参照してください。
 
-![](../assets/general-events.png)
+![](assets/general-events.png)
 
 ビジネスイベントをドロップすると、「**セグメントを読み取り**」アクティビティが自動的に追加されます。ビジネスイベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 1. 指定のタイムアウト内でイベントの受け取りが発生しなかったとき、対象者をタイムアウトのパスに送信したい場合は「**[!UICONTROL タイムアウトのパスを設定]**」オプションを有効にします。このオプションを有効にしない場合、ジャーニーはタイムアウト値に達すると終了します。
 
-   ![](../assets/event-timeout.png)
+   ![](assets/event-timeout.png)
 
 この例のジャーニーでは、まず顧客に最初のウェルカムプッシュが送信されます。次に、顧客が翌日中にレストランに入店した場合に限り、食事割引プッシュが送信されます。レストランのイベントは 1 日でタイムアウトするように設定してあります。
 
@@ -47,4 +47,4 @@ ht-degree: 100%
 
 このタイムアウトは、**[!UICONTROL 待機]**&#x200B;アクティビティの後に配置されるすべてのイベントに適用されます。指定したタイムアウトの前にイベントの受け取りが発生しなかった場合、個人は単一のタイムアウトパスに進むか、ジャーニーが終了します。
 
-![](../assets/event-timeout-group.png)
+![](assets/event-timeout-group.png)

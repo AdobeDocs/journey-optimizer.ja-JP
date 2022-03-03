@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 **[!UICONTROL メッセージ]**&#x200B;メニューの「**[!UICONTROL 実行]**」タブで、「**[!UICONTROL グローバル表示]**」をクリックしてから、選択した配信の詳細メニューで「**[!UICONTROL グローバルレポート]**」を選択します。
 
-![](../assets/global_report_3.png)
+![](assets/global_report_3.png)
 
 メールの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、配信の成功とエラーを示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](global-report.md#modify-dashboard)を参照してください。
 
-![](../assets/global_report_4.png)
+![](assets/global_report_4.png)
 
 **[!UICONTROL メールのパフォーマンス]**&#x200B;では、メッセージに関連する主な情報と次の KPI の詳細を説明します。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
-![](../assets/global_report_5.png)
+![](assets/global_report_5.png)
 
 **[!UICONTROL バウンスの理由]**&#x200B;ウィジェットおよび&#x200B;**[!UICONTROL バウンスのカテゴリ]**&#x200B;ウィジェットには、次のようなバウンスメッセージに関するデータが含まれています。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 「**[!UICONTROL エラー理由]**」のグラフと表を使用すると、配信中に発生したエラーを確認できます。
 
-![](../assets/global_report_6.png)
+![](assets/global_report_6.png)
 
 「**[!UICONTROL メール - 上位の受信者ドメイン]**」のグラフと表は、受信者がメールを開くために最も頻繁に使用されているドメインの詳細を示します。
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 * **[!UICONTROL ユニーク開封数]**：配信されたメッセージを開いた受信者の数。
 
 <!--
-![](../assets/global_report_20.png)
+![](assets/global_report_20.png)
 
 >[!NOTE]
 >

@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ID とは、エンティティ（通常は個人）に固有のデータです�
 
  [!DNL Adobe Journey Optimizer] では、**ID** はデバイスやチャネルをまたいで消費者をリンクします。その結果が [ID グラフ](#id-graph)になります。 リンクされた ID グラフは、すべてのビジネスタッチポイントにわたるインタラクションに基づいてエクスペリエンスをパーソナライズするために使用します。
 
-![](../assets/identities-home.png)
+![](assets/identities-home.png)
 
 **ID サービス**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 

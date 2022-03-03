@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 意思決定管理イベントを含むデータセットは、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**メニューからアクセスできます。
 各インスタンスのプロビジョニング時、データセットが自動的に 1 つ作成されます。
 
-![](../../assets/events-datasets-list.png)
+![](../assets/events-datasets-list.png)
 
 これらのデータセットは、**[!UICONTROL ODE DecisionEvents]** スキーマに基づいています。このスキーマには、意思決定管理サービスから Adobe Experience Platform に情報を送信するために必要なすべての XDM フィールドが含まれています。
 

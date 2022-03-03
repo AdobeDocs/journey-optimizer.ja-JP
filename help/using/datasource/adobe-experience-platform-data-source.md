@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
@@ -32,11 +32,11 @@ Adobe Experience Platform のデータソースは、リアルタイム顧客プ
    画面の右側にデータソース設定ペインが開きます。
 
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、新しく取得する一連のフィールドを定義します。[このページ](../datasource/configure-data-sources.md#define-field-groups)を参照してください。
 
-   ![](../assets/journey24.png)
+   ![](assets/journey24.png)
 
 1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドリストのプロファイルとエクスペリエンスのイベントスキーマは、Adobe Experience Platform で入手できます。[!DNL Journey Optimizer] ではスキーマの作成は実行されません。Adobe Experience Platformでおこなわれます
 1. 使用するフィールドを選択します。

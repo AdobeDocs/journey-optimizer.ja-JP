@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 * 「**プロファイルを更新**」アクションを使用して、購入などのエクスペリエンスイベントを生成することはできません。
 * 他のアクションのように、エラーやタイムアウトの場合の代替パスを定義でき、2 つのアクションを並行して配置することはできません。
 * Platform に送信される更新リクエストは高速ですが、1 秒以内や即時というわけではありません。通常は数秒かかりますが、もっと時間がかかる場合もあり、保証はありません。そのため、例えば、アクションで使用している「フィールド 1」が、そのアクションの直前に配置された「プロファイルを更新」アクションで更新される場合でも、更新された「フィールド 1」が必ず使用されるとは限りません。
-* この **プロファイルを更新** アクティビティは、列挙として定義された XDM フィールドをサポートしていません。
+* この&#x200B;**プロファイルを更新**&#x200B;アクティビティは、定義済みリストとして定義された XDM フィールドをサポートしていません。
 
 ## テストモードの使用 {#using-the-test-mode}
 
@@ -40,13 +40,13 @@ ht-degree: 96%
 
 1. パレットの「**アクション**」セクションで、「**プロファイルを更新**」アクティビティをキャンバスにドロップします。
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. リストからスキーマを選択します。
 
 1. 「**フィールド**」をクリックして、更新するフィールドを選択します。選択できるフィールドは 1 つだけです。
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. リストからデータセットを選択します。
 
@@ -58,12 +58,12 @@ ht-degree: 96%
 
    * 簡単な式エディターを使用して、データソースまたは受信イベントからフィールドを選択できます。
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * 特定の値を定義する場合や高度な機能を利用する場合は、「**詳細設定モード**」をクリックします。
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 これで、「**プロファイルを更新**」を設定できました。
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -29,7 +29,7 @@ IP プールを作成するには、次の手順に従います。
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL IP プール]**&#x200B;メニューにアクセスし、**[!UICONTROL IP プールの作成]**&#x200B;をクリックします。
 
-   ![](../assets/ip-pool-create.png)
+   ![](assets/ip-pool-create.png)
 
 1. IP プールの名前と説明（オプション）を入力します。
 
@@ -39,7 +39,7 @@ IP プールを作成するには、次の手順に従います。
 
 1. プールに含める IP アドレスをドロップダウンリストから選択し、「**[!UICONTROL 送信]**」をクリックします。
 
-   ![](../assets/ip-pool-config.png)
+   ![](assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ IP プールを作成するには、次の手順に従います。
 
 IP プールが作成され、リストに表示されるようになりました。 選択してプロパティにアクセスし、関連するメッセージプリセットを表示することができます。 メッセージプリセットと IP プールを関連付ける方法の詳細は、[この節](message-presets.md))を参照してください。
 
-![](../assets/ip-pool-created.png)
+![](assets/ip-pool-created.png)
 
 ## IP プールの編集 {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ IP プールを編集するには :
 
 1. リストで IP プール名をクリックして開きます。
 
-   ![](../assets/ip-pool-list.png)
+   ![](assets/ip-pool-list.png)
 
 1. その IP プールのプロパティを必要に応じて編集します。 説明を変更したり、IP アドレスを追加または削除したりできます。
 
-   ![](../assets/ip-pool-edit.png)
+   ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ IP プールを編集するには :
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。
 
-![](../assets/ip-pool-recent-update.png)
+![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

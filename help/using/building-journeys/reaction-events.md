@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [アクションアクティビティについて](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 
-![](../assets/journey45.png)
+![](assets/journey45.png)
 
 反応イベントはさまざまな手順で設定できます。
 

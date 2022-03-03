@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、「**[!UICONTROL セグメントの選定]**」アクティビティをキャンバスにドロップします。
 
-   ![](../assets/segment5.png)
+   ![](assets/segment5.png)
 
 1. アクティビティに&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加します。この手順はオプションです。
 
@@ -43,13 +43,13 @@ ht-degree: 100%
    >
    >リストに表示される列はカスタマイズして並べ替えることができます。
 
-   ![](../assets/segment6.png)
+   ![](assets/segment6.png)
 
    セグメントが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、セグメントの名前と ID をコピーできます。
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/segment-copy.png)
+   ![](assets/segment-copy.png)
 
 1. 「**[!UICONTROL 動作]**」フィールドで、セグメントへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。
 
-   ![](../assets/segment7.png)
+   ![](assets/segment7.png)
 
 ペイロードには、条件とアクションで使用できる次のコンテキスト情報が含まれています。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 [条件アクティビティ](../building-journeys/condition-activity.md#about_condition)を参照してください。
 
-![](../assets/segment8.png)
+![](assets/segment8.png)
 
 セグメントの選定イベントを含む新しいジャーニーは、公開してから 10 分後に運用を開始します。 この時間間隔は、専用サービスのキャッシュ更新間隔に対応します。したがって、このジャーニーを使用する前に 10 分待つ必要があります。
 
@@ -100,10 +100,10 @@ ht-degree: 100%
 
 **[!UICONTROL セグメントの選定]**&#x200B;アクティビティでは、作成直後のバッチセグメントを使用しないでください。最初の計算のピークは回避されます。まだ計算されていないセグメントを使用しようとすると、ジャーニーキャンバスに黄色の警告が表示されます。
 
-![](../assets/segment-error.png)
+![](assets/segment-error.png)
 
 ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target=&quot;_blank&quot;}を参照してください。 キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
 
 実稼動ジャーニーでセグメントを使用する前には、必ず、このセグメントに選定された個人の数を評価してください。そのためには、**[!UICONTROL セグメント]** メニューをチェックし、セグメントを開いてから&#x200B;**[!UICONTROL 経時的なプロファイル]**&#x200B;グラフで確認します。
 
-![](../assets/segment-overload.png)
+![](assets/segment-overload.png)

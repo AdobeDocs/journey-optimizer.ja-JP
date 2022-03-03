@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 オファーを作成、設定、管理し、決定に使用するための主な手順を以下に示します。
 
-![](../../assets/offer-create-manage-process.png)
+![](../assets/offer-create-manage-process.png)
 
 オファーを設定して決定で使用し、この決定をメールで活用する方法を示す完全なエンドツーエンドの例については、[このページ](../offers-e2e.md)を参照してください。
 

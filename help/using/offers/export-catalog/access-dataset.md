@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
@@ -17,14 +17,14 @@ ht-degree: 100%
 
 書き出したオファーカタログには、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューでアクセスできます。オファーライブラリのオブジェクトごとに 1 つのデータセットが作成されます。
 
-![](../../assets/datasets-list.png)
+![](../assets/datasets-list.png)
 
 データセットをクリックすると、その詳細が表示されます。
 
-![](../../assets/dataset-activity.png)
+![](../assets/dataset-activity.png)
 
 「**[!UICONTROL データセットをプレビュー]**」ボタンを使用すると、データセット内の最新の成功したバッチを表示できます。左側のペインには、エクスポートされたデータのタイプに関する情報が表示されます。
 
-![](../../assets/dataset-preview.png)
+![](../assets/dataset-preview.png)
 
 データセットの参照および使用方法について詳しくは、[このページ](../../start/get-started-datasets.md)を参照してください。

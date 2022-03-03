@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**スキーマ**&#x200B;ワークスペースを使用すると、スキーマ、クラス、スキーマフィールドグループ、データタイプなどの Experience Data Model（XDM）リソースを管理できます。 アドビから提供されるコアリソースを表示および調査し、組織のカスタムリソースおよびスキーマを作成できます。
 
-![](../assets/schemas-home.png)
+![](assets/schemas-home.png)
 
 スキーマユーザーインターフェイスの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 

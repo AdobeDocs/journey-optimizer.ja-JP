@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 100%
@@ -21,19 +21,19 @@ ht-degree: 100%
 
 1. **イベントの設定**：イベントを受信したときに個別にジャーニーをトリガーする場合は、イベントを設定する必要があります。想定する情報とその情報の処理方法を定義します。このステップは、**技術ユーザー**&#x200B;が実行します。[詳細情報](../event/about-events.md)。
 
-   ![](../assets/jo-event7bis.png)
+   ![](assets/jo-event7bis.png)
 
 1. **セグメントの作成**：指定した一連のプロファイルにメッセージを一括送信するため、ジャーニーで Adobe Experience Platform のセグメントをリッスンすることもできます。この場合、セグメントを作成する必要があります。[詳細を読む](../segment/about-segments.md)。
 
-   ![](../assets/segment2.png)
+   ![](assets/segment2.png)
 
 1. **データソースの設定**：ジャーニーで使用する追加情報（条件など）を取得するために、システムへの接続を定義します。組み込みの Adobe Experience Platform データソースも、プロビジョニング時に設定されます。イベントのデータのみをジャーニーで活用する場合、このステップは必要ありません。このステップは、**技術ユーザー**&#x200B;が実行します。[詳細を読む](../datasource/about-data-sources.md)
 
-   ![](../assets/jo-datasource.png)
+   ![](assets/jo-datasource.png)
 
 1. **アクションの設定**：メッセージ機能は Journey Optimizer に組み込まれており、ユーザーはコンテンツのデザインと、メッセージの公開をするだけです。[この節](../messages/get-started-content.md)を参照してください。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成します。詳しくは、[この節](../action/action.md)を参照してください。このステップは、**技術ユーザー**&#x200B;が実行します。
 
-   ![](../assets/create-content-push.png)
+   ![](assets/create-content-push.png)
 
 ## ジャーニーの作成 {#jo-build}
 
@@ -43,17 +43,17 @@ ht-degree: 100%
 
 1. 「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。ジャーニーのリストが表示されます。
 
-   ![](../assets/interface-journeys.png)
+   ![](assets/interface-journeys.png)
 
 1. 「**[!UICONTROL ジャーニーの作成]**」をクリックして、新規のジャーニーを作成します。
 
 1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。詳しくは、[この節](journey-gs.md#change-properties)を参照してください。
 
-   ![](../assets/jo-properties.png)
+   ![](assets/jo-properties.png)
 
 1. 最初に、イベントまたは「**セグメントを読み取り**」アクティビティを、パレットからキャンバスにドラッグ＆ドロップします。ジャーニーのデザインの詳細については、[この節](using-the-journey-designer.md)を参照してください。
 
-   ![](../assets/read-segment.png)
+   ![](assets/read-segment.png)
 
 1. 次に個人が従う手順をドラッグ＆ドロップします。例えば、条件を追加してメッセージを送信できます。アクティビティの詳細については、[この節](using-the-journey-designer.md)を参照してください。
 
@@ -61,11 +61,11 @@ ht-degree: 100%
 
 1. ジャーニーを公開してアクティブ化します。詳しくは、[この節](publishing-the-journey.md)を参照してください。
 
-   ![](../assets/jo-journeyuc2_32bis.png)
+   ![](assets/jo-journeyuc2_32bis.png)
 
 1. 専用のレポートツールを使用してジャーニーを監視し、ジャーニーの有効性を測定できます。詳しくは、[この節](../reports/live-report.md)を参照してください。
 
-   ![](../assets/jo-dynamic_report_journey_12.png)
+   ![](assets/jo-dynamic_report_journey_12.png)
 
 ## プロパティの変更 {#change-properties}
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 「**技術的な詳細をコピー**」を使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。 JourneyVersion UID、OrgID、orgName、sandboxName、lastDeployedBy、lastDeployedAt などの情報がコピーされます。
 
-![](../assets/journey32.png)
+![](assets/journey32.png)
 
 ### エントリ{#entrance}
 
@@ -133,11 +133,11 @@ ht-degree: 100%
 
 バーストモードを有効化するには、ジャーニーを開き、右上の鉛筆アイコンをクリックして、ジャーニーのプロパティにアクセスします。 次に、「**バーストモードを有効にする**」トグルを有効化します。
 
-![](../assets/burst.png)
+![](assets/burst.png)
 
 バーストジャーニーを変更し、バーストに準拠していないアクティビティ（メッセージ、その他のアクション、イベントなど）を追加すると、バーストモードが無効になります。 メッセージが表示されます。
 
-![](../assets/burst2.png)
+![](assets/burst2.png)
 
 その後、ジャーニーを通常どおりテストして公開します。 テストモードメッセージは、バーストモードでは送信されません。
 
@@ -178,14 +178,14 @@ ht-degree: 100%
 
 ジャーニーのリストからジャーニーをクローズするには、ジャーニー名の右側にある&#x200B;**[!UICONTROL 省略記号]**&#x200B;ボタンをクリックし、「**[!UICONTROL 新しいエントリをクローズ]**」を選択します。
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 以下の手順でも可能です。
 
 1. **[!UICONTROL ジャーニー]**&#x200B;リストで、クローズするジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
-   ![](../assets/finish_drop_down_list.png)
+   ![](assets/finish_drop_down_list.png)
 
 1. 「**[!UICONTROL 新規エントリをクローズ]**」をクリックします。ダイアログボックスが表示されます。
 1. 「**[!UICONTROL 新規エントリをクローズ]**」をクリックして確認します。
@@ -200,14 +200,14 @@ ht-degree: 100%
 
 例えば、ジャーニーが誤ったオーディエンスをターゲットにしていることをマーケターが認識した場合や、メッセージの配信に想定されるカスタムアクションが正しく機能していない場合に、ジャーニーを停止できます。 ジャーニーのリストからジャーニーを停止するには、ジャーニー名の右側にある&#x200B;**[!UICONTROL 省略記号]**&#x200B;ボタンをクリックし、「**[!UICONTROL 停止]**」を選択します。
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 以下の手順でも可能です。
 
 1. **[!UICONTROL ジャーニー]**&#x200B;リストで、停止するジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
-![](../assets/finish_drop_down_list.png)
+![](assets/finish_drop_down_list.png)
 
 1. 「**[!UICONTROL 停止]**」をクリックします。ダイアログボックスが表示されます。
 1. 「**[!UICONTROL 停止]**」をクリックして確認します。

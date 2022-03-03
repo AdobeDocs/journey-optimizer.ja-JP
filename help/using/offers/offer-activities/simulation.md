@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 60ccb9b918284b3fcb62101bc94bf64d2272e8e2
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 この機能にアクセスするには、**[!UICONTROL 意思決定管理]**／**[!UICONTROL オファー]**&#x200B;メニューから「**[!UICONTROL シミュレーション]**」タブを選択します。
 
-![](../../assets/offers_simulation-tab.png)
+![](../assets/offers_simulation-tab.png)
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL プロファイルを管理]**」をクリックします。
 
-   ![](../../assets/offers_simulation-manage-profile.png)
+   ![](../assets/offers_simulation-manage-profile.png)
 
 1. テストプロファイルの識別に使用する ID 名前空間を選択します。以下の例では、**Email** 名前空間を使用します。
 
@@ -51,15 +51,15 @@ ht-degree: 100%
 
 1. ID 値を入力し、「**[!UICONTROL 表示]**」をクリックして、使用可能なプロファイルを一覧表示します。
 
-   ![](../../assets/offers_simulation-add-profile.png)
+   ![](../assets/offers_simulation-add-profile.png)
 
 1. 別のプロファイルデータをテストする場合は、他のプロファイルを追加し、選択を保存します。
 
-   ![](../../assets/offers_simulation-save-profiles.png)
+   ![](../assets/offers_simulation-save-profiles.png)
 
 1. 追加すると、すべてのプロファイルが「**[!UICONTROL テストプロファイル]**」ドロップダウンリストに一覧表示されます。保存したテストプロファイルを切り替えて、選択したプロファイルごとに結果を表示できます。
 
-   ![](../../assets/offers_simulation-saved-profiles.png)
+   ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
@@ -75,11 +75,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 決定範囲を追加]**」を選択します。
 
-   ![](../../assets/offers_simulation-add-decision.png)
+   ![](../assets/offers_simulation-add-decision.png)
 
 1. リストからプレースメントを選択します。
 
-   ![](../../assets/offers_simulation-add-decision-scope.png)
+   ![](../assets/offers_simulation-add-decision-scope.png)
 
 1. 使用可能な決定が表示されます。
 
@@ -88,13 +88,13 @@ ht-degree: 100%
 
    任意の決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](../../assets/offers_simulation-add-decision-scope-add.png)
+   ![](../assets/offers_simulation-add-decision-scope-add.png)
 
 1. 定義した決定範囲は、メインワークスペースに表示されます。
 
    リクエストするオファーの数を調整できます。 例えば、2 を選択した場合、この決定範囲では最適な 2 つのオファーが表示されます。
 
-   ![](../../assets/offers_simulation-request-offer.png)
+   ![](../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 1. 上記の手順を繰り返して、決定を必要な数だけ追加します。
 
-   ![](../../assets/offers_simulation-add-more-decisions.png)
+   ![](../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
@@ -114,11 +114,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 設定]**」をクリックします。
 
-   ![](../../assets/offers_simulation-settings.png)
+   ![](../assets/offers_simulation-settings.png)
 
 1. 「**[!UICONTROL 重複排除]**」セクションで、決定や配置をまたいだ重複オファーを許可するように選択できます。つまり、複数の決定や配置に同じオファーを割り当てることができます。
 
-   ![](../../assets/offers_simulation-settings-deduplication.png)
+   ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 応答の形式]**」セクションで、コードビューにメタデータを含めるように選択できます。対応するオプションのチェックをオンにし、目的のメタデータを選択します。これらは、「**[!UICONTROL コードを表示]**」を選択すると、リクエストペイロードと応答ペイロードに表示されます。詳しくは、「[シミュレーション結果の表示](#simulation-results) 」セクションを参照してください。
 
-   ![](../../assets/offers_simulation-settings-response-format.png)
+   ![](../assets/offers_simulation-settings-response-format.png)
 
    >[!NOTE]
    >
@@ -158,13 +158,13 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. 「**[!UICONTROL 結果を表示]**」をクリックします。
 
-   ![](../../assets/offers_simulation-view-results.png)
+   ![](../assets/offers_simulation-view-results.png)
 
 1. 決定ごとに、選択したプロファイルに応じて、利用可能な最適なオファーが表示されます。
 
    詳細を表示するオファーを選択します。
 
-   ![](../../assets/offers_simulation-offer-details.png)
+   ![](../assets/offers_simulation-offer-details.png)
 
 1. 「**[!UICONTROL コードを表示]**」をクリックして、リクエストと応答のペイロードを表示します。 [詳細情報](#view-code)
 
@@ -180,19 +180,19 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. 「**[!UICONTROL コードを表示]**」ボタンを使用して、リクエストと応答のペイロードを表示します。
 
-   ![](../../assets/offers_simulation-view-code.png)
+   ![](../assets/offers_simulation-view-code.png)
 
    コードビューには、現在のユーザーの開発者情報が表示されます。デフォルトでは、**[!UICONTROL 応答ペイロード]**&#x200B;が表示されます。
 
-   ![](../../assets/offers_simulation-request-payload.png)
+   ![](../assets/offers_simulation-request-payload.png)
 
 1. 「**[!UICONTROL 応答ペイロード]**」または「**[!UICONTROL リクエストペイロード]**」をクリックして、2 つのタブ間を移動します。
 
-   ![](../../assets/offers_simulation-response-payload.png)
+   ![](../assets/offers_simulation-response-payload.png)
 
 1. [!DNL Journey Optimizer] の外部でリクエストペイロードを使用するには（トラブルシューティングの目的など）、コードビューの上部にある「**[!UICONTROL クリップボードにコピー]**」ボタンを使用してコピーします。
 
-   ![](../../assets/offers_simulation-copy-payload.png)
+   ![](../assets/offers_simulation-copy-payload.png)
 
    <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
 

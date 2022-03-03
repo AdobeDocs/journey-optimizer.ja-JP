@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 左側のリンクを使用して、機能を参照します。
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 ホームページの [!DNL Adobe Journey Optimizer] のユースケースを活用し、カスタマージャーニーを作成するための簡単な入力をいくつか提供します。
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 利用可能なユースケースは次のとおりです。
 
@@ -248,7 +248,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 **ヘルプ**&#x200B;アイコンを使用して、ヘルプページにアクセスしたり、サポートに問い合わせたり、フィードバックを共有したりします。検索フィールドからヘルプ記事やビデオを検索できます。
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## サポートされているブラウザー {#browsers}
 
@@ -267,10 +267,10 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 言語を変更するには：
 
 * 右上のアバターから「**環境設定**」をクリックします。
-   ![](../assets/preferences.png)
+   ![](assets/preferences.png)
 * 次に、メールアドレスの下に表示される言語をクリックします
 * 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
-   ![](../assets/select-language.png)
+   ![](assets/select-language.png)
 
 ## 検索{#unified-search}
 
@@ -278,11 +278,11 @@ Adobe Journey Optimizer インターフェイスのどこからでも、上部�
 
 コンテンツの入力を開始すると、上位の結果が表示されます。入力したキーワードに関するヘルプ記事も結果に表示されます。
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 **Enter** キーを押すと、すべての結果にアクセスでき、ビジネスオブジェクトでフィルタリングできます。
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## フィルターリスト{#filter-lists}
 
@@ -298,12 +298,12 @@ Adobe Journey Optimizer インターフェイスのどこからでも、上部�
 
 **[!UICONTROL 最終更新日]**&#x200B;列と&#x200B;**[!UICONTROL 最終更新者]**&#x200B;の列を使用すると、最新のジャーニーを更新した日時とユーザーを確認できます。
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 イベント、データソース、アクションの設定ウィンドウの「**[!UICONTROL 使用されている場所]**」フィールドには、特定のイベント、フィールドグループ、アクションを使用するジャーニーの数が表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、対応するジャーニーのリストを表示できます。
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 様々なリストで、各要素に対して基本的な操作を実行できます。例えば、項目の複製や削除が可能です。
 
-![](../assets/journey4.png)
+![](assets/journey4.png)

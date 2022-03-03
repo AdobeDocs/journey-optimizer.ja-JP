@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 100%
@@ -21,16 +21,16 @@ ht-degree: 100%
 
 1. 「管理」メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL イベント]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 イベントのリストが表示されます。
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ペインが開きます。
 
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. イベントの名前を入力します。説明を追加することもできます。
 
-   ![](../assets/jo-event3.png)
+   ![](assets/jo-event3.png)
 
    >[!NOTE]
    >
@@ -38,24 +38,24 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL タイプ]**」フィールドで「**単一**」を選択します。
 
-   ![](../assets/jo-event3bis.png)
+   ![](assets/jo-event3bis.png)
 
 1. 「**[!UICONTROL イベント ID タイプ]**」フィールドで、使用するイベント ID タイプとして「**ルールベース**」または「**システム生成**」を選択します。イベント ID のタイプの詳細については、[この節](../event/about-events.md#event-id-type)を参照してください。
 
-   ![](../assets/jo-event4.png)
+   ![](assets/jo-event4.png)
 
 1. このイベントを使用するジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。**[!UICONTROL ジャーニーを表示]**&#x200B;アイコンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
 
 1. スキーマとペイロードのフィールドを定義します。ジャーニーが受け取るイベント情報（通常、ペイロードと呼びます）は、ここで選択します。その後、この情報をジャーニーに使うことができます。[この節](../event/about-creating.md#define-the-payload-fields)を参照してください。
 
-   ![](../assets/jo-event5.png)
+   ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
    >**[!UICONTROL システム生成]**&#x200B;タイプを選択した場合は、eventID タイプのフィールドを持つスキーマのみを使用できます。**[!UICONTROL ルールベース]**&#x200B;タイプを選択した場合は、すべてのエクスペリエンスイベントのスキーマを使用できます。
 
 1. ルールベースのイベントの場合は、「**[!UICONTROL イベント ID 条件]**」フィールド内でクリックします。簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
-   ![](../assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
    この例では、プロファイルの市区町村に基づいて条件を作成しました。つまり、システムはこの条件（**[!UICONTROL 市区町村]**&#x200B;フィールドと&#x200B;**[!UICONTROL パリ]**&#x200B;という値）を満たすイベントを受け取るたびに、ジャーニーにイベントを渡します。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[この節](../event/about-creating.md#select-the-namespace)を参照してください。
 1. プロファイル識別子を定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する式を定義します。このキーは、名前空間を選択すると自動的に設定されます（編集は可能）。ジャーニーは名前空間に対応するキーを選択します（たとえば、メール名前空間を選択すると、メールのキーが選択されます）。[この節](../event/about-creating.md#define-the-event-key)を参照してください。
 
-   ![](../assets/jo-event7.png)
+   ![](assets/jo-event7.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 1. リストから XDM スキーマを選択し、**[!UICONTROL フィールド]**&#x200B;フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
-   ![](../assets/journey8.png)
+   ![](assets/journey8.png)
 
    スキーマで定義されているすべてのフィールドが表示されます。フィールドのリストは、スキーマによって異なります。特定のフィールドを検索し、フィルターを使用してすべてのノードとフィールドを表示、または選択したフィールドのみを表示できます。スキーマ定義によっては、一部のフィールドが必須となっており、事前に選択されている場合があります。選択を解除することはできません。ジャーニーがイベントを適切に受け取るために必須のフィールドはすべて、デフォルトで選択されます。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
    >
    >システム生成イベントの場合は、「オーケストレーション」フィールドグループが XDM スキーマに追加されていることを確認してください。これにより、[!DNL Journey Optimizer] と連携するために必要な情報がスキーマにすべて含まれるようになります。
 
-   ![](../assets/journey9.png)
+   ![](assets/journey9.png)
 
 1. イベントから受け取るフィールドを選択します。これらは、ビジネスユーザーがジャーニーで活用するフィールドです。また、イベントに関連付けられた人物を識別するために使用するキーも含める必要があります（[この節](../event/about-creating.md#define-the-event-key)を参照）。
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
    選択したフィールドの数が「**[!UICONTROL フィールド]**」フィールドに表示されます。
 
-   ![](../assets/journey12.png)
+   ![](assets/journey12.png)
 
 ## 名前空間の選択 {#select-the-namespace}
 
@@ -110,12 +110,12 @@ ht-degree: 100%
 
 フィールドを選択すると、メイン ID フィールドにタグ付けされます。
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 
 ドロップダウンリストから名前空間を選択します。
 
-![](../assets/journey17.png)
+![](assets/journey17.png)
 
 1 つのジャーニーで使用できる名前空間は 1 つだけです。同じジャーニーで複数のイベントを使用する場合は、同じ名前空間を使用する必要があります。[このページ](../building-journeys/journey.md)を参照してください。
 
@@ -129,17 +129,17 @@ ht-degree: 100%
 
 フィールドを選択すると、メイン ID フィールドにタグ付けされます。
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 CRM ID やメールアドレスなど、別のキーを使用する必要がある場合は、キーを手動で追加する必要があります。
 
 1. 「**[!UICONTROL プロファイル識別子]**」フィールド内または鉛筆アイコン上をクリックします。
 
-   ![](../assets/journey16.png)
+   ![](assets/journey16.png)
 
 1. 「ペイロード」フィールドのリストでキーとして指定したフィールドを選択します。高度な式エディターに切り替えて、より複雑なキーを作成することもできます（例えば、イベントの 2 つのフィールドを連結）。この節では、以下を参照してください。
 
-   ![](../assets/journey20.png)
+   ![](assets/journey20.png)
 
 イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。キーは名前空間に関連付けられ（[この節](../event/about-creating.md#select-the-namespace)を参照）、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
@@ -156,11 +156,11 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
 1. 「**[!UICONTROL ペイロードを表示]**」アイコンをクリックして、システムが想定するペイロードをプレビューします。
 
-   ![](../assets/journey13.png)
+   ![](assets/journey13.png)
 
    選択したフィールドが表示されていることに注意してください。
 
-   ![](../assets/journey14.png)
+   ![](assets/journey14.png)
 
 1. ペイロード定義を検証するプレビューを確認します。
 

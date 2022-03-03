@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 この例では、[!DNL Adobe Experience Platform] の「**[!UICONTROL 同意と環境設定の詳細]**」フィールドグループを使用します。このフィールドグループを見つけるには、 **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択します。「**[!UICONTROL フィールドグループ]**」タブで、検索フィールドにフィールドグループの名前を入力します。
 
-![このフィールドグループにはサブスクリプション要素が含まれています](../assets/consent-and-preference-details-field-group.png)
+![このフィールドグループにはサブスクリプション要素が含まれています](assets/consent-and-preference-details-field-group.png)
 
 このジャーニーを設定するには、次の手順に従います。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
    1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、「**[!UICONTROL 編集]**」アイコンをクリックします。
 
-      ![](../assets/message-to-subscribers-uc-1.png)
+      ![](assets/message-to-subscribers-uc-1.png)
 
       メールアドレスを変更できるようにするには、既にメッセージを公開してある必要があります。
 
@@ -52,10 +52,10 @@ ht-degree: 100%
 
       式におけるフィールドへの参照について詳しくは、[こちら](expression/field-references.md)を参照してください。
 
-      ![](../assets/message-to-subscribers-uc-2.png)
+      ![](assets/message-to-subscribers-uc-2.png)
 
    1. **[!UICONTROL 式を追加]**&#x200B;ダイアログボックスで「**[!UICONTROL OK]**」をクリックします。
 
-   ![](../assets/message-to-subscribers-uc-3.png)
+   ![](assets/message-to-subscribers-uc-3.png)
 
 1. **[!UICONTROL 終了]**&#x200B;アクティビティでジャーニーを終了します。

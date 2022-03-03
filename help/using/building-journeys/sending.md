@@ -1,7 +1,7 @@
 ---
 title: ジャーニーの実行の開始
 description: ジャーニーを開始し、メッセージを送信する方法を学ぶ
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
@@ -21,14 +21,14 @@ ht-degree: 100%
 
 ジャーニーを公開して有効化する必要があります。
 
-![](../assets/jo-journeyuc2_32bis.png)
+![](assets/jo-journeyuc2_32bis.png)
 
 詳しくは、この[節](publishing-the-journey.md)を参照してください。
 
 
 公開したら、専用のレポートツールを使用してジャーニーを監視し、ジャーニーの有効性を測定できます。
 
-![](../assets/jo-dynamic_report_journey_12.png)
+![](assets/jo-dynamic_report_journey_12.png)
 
 [レポートの詳細情報](../reports/live-report.md)
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL ジャーニースケジュールを編集]**」リンクをクリックして、ジャーニーのプロパティにアクセスします。
 
-   ![](../assets/message-read-segment-schedule.png)
+   ![](assets/message-read-segment-schedule.png)
 
 1. 「**[!UICONTROL スケジューラータイプ]**」フィールドを設定します。リストから目的の値を選択し、特定の日時または定期的にセグメントがジャーニーにエントリするようにします。
 
@@ -60,15 +60,15 @@ ht-degree: 100%
    >
    >「**[!UICONTROL スケジュール]**」セクションは、**[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティがキャンバスにドロップされた場合にのみ使用できます。
 
-   ![](../assets/message-read-segment-scheduler.png)
+   ![](assets/message-read-segment-scheduler.png)
 
 1. 「**[!UICONTROL 1 回]**」を選択した場合は、セグメントがジャーニーにエントリする特定の日時を定義します。
 
-   ![](../assets/message-read-segment-scheduler-once.png)
+   ![](assets/message-read-segment-scheduler-once.png)
 
 1. 繰り返しメソッドを選択した場合は、開始日時を編集します。オプションで終了日時を定義することもできます。
 
-   ![](../assets/message-read-segment-scheduler-daily.png)
+   ![](assets/message-read-segment-scheduler-daily.png)
 
    >[!NOTE]
    >

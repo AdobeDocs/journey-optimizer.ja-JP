@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 パーソナライズされたオファーのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
-![](../../assets/offers_list.png)
+![](../assets/offers_list.png)
 
 ## オファーの作成 {#create-offer}
 
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL オファーを作成]**」をクリックし、「**[!UICONTROL パーソナライズされたオファー]**」を選択します。
 
-   ![](../../assets/create_offer.png)
+   ![](../assets/create_offer.png)
 
 1. オファーの名前とともに開始日時と終了日時を指定します。また、既存の 1 つまたは複数のタグをオファーに関連付けることもできます。これにより、オファーライブラリの検索と整理がしやすくなります。
 
-   ![](../../assets/offer_details.png)
+   ![](../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 1. 1 つ目の表示域で、まず、使用する&#x200B;**[!UICONTROL チャネル]**&#x200B;を選択します。
 
-   ![](../../assets/channel-placement.png)
+   ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ ht-degree: 100%
 
    「**[!UICONTROL プレースメント]**」ドロップダウンリストの横にあるボタンを使用して、すべてのプレースメントを参照することもできます。
 
-   ![](../../assets/browse-button-placements.png)
+   ![](../assets/browse-button-placements.png)
 
    そこからさらに、チャネルやコンテンツタイプに従ってプレースメントをフィルタリングすることもできます。 プレースメントを選択し、「**[!UICONTROL 選択]**」をクリックします。
 
-   ![](../../assets/browse-placements.png)
+   ![](../assets/browse-placements.png)
 
 1. 表示域にコンテンツを追加します。[この節](#content)の手順を参照してください。
 
 1. 画像や URL などのコンテンツを追加する際は、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
 
-   ![](../../assets/offer-destination-link.png)
+   ![](../assets/offer-destination-link.png)
 
 1. 最後に、目的の言語を選択して、ユーザーに表示する内容を識別および管理できるようにします。
 
 1. さらに表示域を追加するには、「**[!UICONTROL 表示域を追加]**」ボタンを使用し、必要な数の表示域を追加します。
 
-   ![](../../assets/offer-add-representation.png)
+   ![](../assets/offer-add-representation.png)
 
 1. 表示域をすべて追加したら、「**[!UICONTROL 次へ]**」を選択します。
 
@@ -108,19 +108,19 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 参照]**」を選択します。
 
-   ![](../../assets/offer-browse-asset-library.png)
+   ![](../assets/offer-browse-asset-library.png)
 
 1. アセットを参照して、目的の画像を選択します。
 
 1. 「**[!UICONTROL 選択]**」をクリックします。
 
-   ![](../../assets/offer-select-asset.png)
+   ![](../assets/offer-select-asset.png)
 
 ### URL の追加 {#urls}
 
 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
-![](../../assets/offer-content-url.png)
+![](../assets/offer-content-url.png)
 
 ### カスタムテキストの追加 {#custom-text}
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL カスタム]**」オプションを選択し、「**[!UICONTROL コンテンツを追加]**」をクリックします。
 
-   ![](../../assets/offer-add-content.png)
+   ![](../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ ht-degree: 100%
 
 1. オファーに表示されるテキストを入力します。
 
-   ![](../../assets/offer-text-content.png)
+   ![](../assets/offer-text-content.png)
 
    式エディターを使用して、コンテンツをパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
 
-   ![](../../assets/offer-personalization.png)
+   ![](../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ ht-degree: 100%
 
       セグメントの操作方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
 
-      ![](../../assets/offer-eligibility-segment.png)
+      ![](../assets/offer-eligibility-segment.png)
 
    * 特定の決定ルールをオファーに関連付ける場合は、「**[!UICONTROL 定義済みの決定ルール]**」を選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。決定ルールの作成方法について詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
 
-      ![](../../assets/offer_rule.png)
+      ![](../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ ht-degree: 100%
    >
    >E メール配信を削除した場合、または送信前に再度準備した場合、オファーのキャッピング値は自動的に更新されます。
 
-   ![](../../assets/offer_capping.png)
+   ![](../assets/offer_capping.png)
 
    上の例では、次のようになります。
 
@@ -221,7 +221,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存して承認]**」を選択します。
 
-   ![](../../assets/offer_review.png)
+   ![](../assets/offer_review.png)
 
    オファーは、ドラフトとして保存し、後で編集して承認することもできます。
 
@@ -229,13 +229,13 @@ ht-degree: 100%
 
 これで、ユーザーに配信する準備ができました。
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 ## オファーリスト {#offer-list}
 
 オファーリストからオファーを選択して、そのプロパティを表示できます。 また、編集やステータス（**ドラフト**、**承認済み**、**アーカイブ済み**）の変更、オファーの複製、削除もできます。
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 「**[!UICONTROL 編集]**」ボタンを選択してオファー編集モードに戻ります。このモードでは、オファーの[詳細](#create-offer)や[表示域](#representations)を変更したり、[実施要件ルールと制約](#eligibility)を編集したりできます。
 
@@ -243,11 +243,11 @@ ht-degree: 100%
 
 ステータスを再度&#x200B;**[!UICONTROL 承認済み]**&#x200B;に設定するには、表示されている該当ボタンを選択します。
 
-![](../../assets/offer_approve.png)
+![](../assets/offer_approve.png)
 
 「**[!UICONTROL その他のアクション]**」ボタンをクリックすると、以下に示すアクションが有効になります。
 
-![](../../assets/offer_more-actions.png)
+![](../assets/offer_more-actions.png)
 
 * **[!UICONTROL 複製]**：同じプロパティ、表示域、実施要件ルールおよび制約を持つオファーを作成します。デフォルトでは、新しいオファーのステータスは&#x200B;**[!UICONTROL ドラフト]**&#x200B;になります。
 * **[!UICONTROL 削除]**：リストからオファーを削除します。
@@ -262,19 +262,19 @@ ht-degree: 100%
 
 該当するチェックボックスを選択して、複数のオファーのステータスを同時に削除または変更することもできます。
 
-![](../../assets/offer_multiple-selection.png)
+![](../assets/offer_multiple-selection.png)
 
 ステータスが異なる複数のオファーのステータスを変更する場合は、関係のあるステータスのみ変更されます。
 
-![](../../assets/offer_change-status.png)
+![](../assets/offer_change-status.png)
 
 オファーを作成したら、リストからその名前をクリックできます。
 
-![](../../assets/offer_click-name.png)
+![](../assets/offer_click-name.png)
 
 これにより、そのオファーの詳細情報にアクセスできます。「**[!UICONTROL ログを変更]**」タブを選択して、オファーに加えられた[すべての変更を監視](../get-started/user-interface.md#monitoring-changes)します。
 
-![](../../assets/offer_information.png)
+![](../assets/offer_information.png)
 
 ## チュートリアルビデオ {#video}
 

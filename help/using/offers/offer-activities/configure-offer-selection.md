@@ -6,27 +6,27 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # 決定でのオファー選択の設定 {#offers-selection-in-decisions}
 
-複数のオファーが特定のプレースメントに適格な場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法を選択できます。 オファーのランク付けは、次の基準で行えます。
+指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法を選べます。オファーのランク付けは、次の基準で行えます。
 * オファーの優先度
 * ランキング式
 * [AI ランキング](#use-ranking-strategy)（一部のユーザーの早期アクセスのみ）
 
-![](../../assets/offer-rank-by.png)
+![](../assets/offer-rank-by.png)
 
 ## オファーの優先度 {#offer-priority}
 
-デフォルトでは、決定内の特定の配置を受ける資格が複数のオファーにある場合、最も高い **優先度** が最初にお客様に配信されます。
+決定において指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、デフォルトでは、**優先度**&#x200B;が最も高いオファーが最初に顧客に配信されます。
 
-![](../../assets/offer-priority.png)
+![](../assets/offer-priority.png)
 
 オファーの優先度スコアは、オファーの作成時に割り当てられます。パーソナライズされたオファーを作成する方法については、[この節](../offer-library/creating-personalized-offers.md)を参照してください。
 
@@ -48,11 +48,11 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. ランキング方法として「**[!UICONTROL ランキング式]**」を選択し、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
-   ![](../../assets/offer-activity-ranking.png)
+   ![](../assets/offer-activity-ranking.png)
 
 1. 目的のランキング式を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
-   ![](../../assets/ranking-selection.png)
+   ![](../assets/ranking-selection.png)
 
 これで、ランキング式がプレースメントに関連付けられました。
 
@@ -62,13 +62,13 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-また、ランキング戦略を選択することで、特定のプロファイルに対して表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。 ランキング戦略を作成する方法については、[この節](../offer-library/create-ranking-strategies.md)を参照してください。
+ランキング戦略を選択することで、特定のプロファイルに対して表示するオファーを自動的にランク付けするトレーニング済みモデルシステムを使用することもできます。ランキング戦略を作成する方法については、[この節](../offer-library/create-ranking-strategies.md)を参照してください。
 
 >[!CAUTION]
 >
->AI ランキングは、現在、一部のユーザーのみが早期アクセスで利用できます。
+>AI ランキングは現在、一部のユーザーのみが早期アクセスで利用できます。
 
-ランキング戦略を作成したら、その戦略を決定内の配置に割り当てることができます。 これを行うには、次の手順に従います。
+ランキング戦略を作成したら、決定内のプレースメントに割り当てることができます。これを行うには、次の手順に従います。
 
 1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
@@ -78,11 +78,11 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. オファーのランキング方法として「**[!UICONTROL AI ランキング]** 」をドロップダウンリストから選択して、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
-   ![](../../assets/ranking-selection-ai-ranking.png)
+   ![](../assets/ranking-selection-ai-ranking.png)
 
 1. 作成したランキング戦略を選択します。ランキング戦略の詳細がすべて表示されます。
 
-   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+   ![](../assets/ranking-selection-ai-ranking-selected.png)
 
 1. 「**[!UICONTROL 選択]**」をクリックします。これで、ランキング戦略がプレースメントに関連付けられました。
 

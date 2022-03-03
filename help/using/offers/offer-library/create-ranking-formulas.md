@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
@@ -29,23 +29,23 @@ ht-degree: 100%
 
 1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL ランキング]**」タブを選択します。作成済みのランキングのリストが表示されます。
 
-   ![](../../assets/rankings-list.png)
+   ![](../assets/rankings-list.png)
 
 1. 「**[!UICONTROL ランキングを作成]**」をクリックして、新しいランキング式を作成します。
 
-   ![](../../assets/ranking-create-formula.png)
+   ![](../assets/ranking-create-formula.png)
 
 1. ランキング式の名前、説明、数式を指定します。
 
    この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、**contextData.weather=hot** を判定の呼び出し時に渡しています。
 
-   ![](../../assets/ranking-syntax.png)
+   ![](../assets/ranking-syntax.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。ランキング式が作成されたら、リストからその式を選択して詳細を取得し、式を編集または削除したりできます。
 
    これで、ランキング式を決定で使用して、プレースメントに対する実施要件を満たすオファーをランク付けする準備が整いました（「 [決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)」を参照してください）。
 
-   ![](../../assets/ranking-formula-created.png)
+   ![](../assets/ranking-formula-created.png)
 
 ## ランキング式の例 {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 さらに良い解決策は、スコアをプロファイルの配列に格納することです。次の例は、単純なランキング式だけを使用して、様々な傾向スコアで機能します。スコアの配列を含んだプロファイルスキーマがあることを想定しています。 この例では、インスタンステナントは *_salesvelocity* で、プロファイルスキーマには次の情報が含まれています。
 
-![](../../assets/ranking-example-schema.png)
+![](../assets/ranking-example-schema.png)
 
 これを前提として、例えば、次のようなプロファイルの場合、
 
@@ -179,7 +179,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 オファーには、スコアのカテゴリに一致する *propensityType* の属性が含まれています。
 
-![](../../assets/ranking-example-propensityType.png)
+![](../assets/ranking-example-propensityType.png)
 
 この場合、ランキング式では、その *propensityType* の顧客 *propensityScore* と同じになるように各オファーの優先度を設定できます。スコアが見つからない場合は、オファーに設定された静的な優先度を使用します。
 

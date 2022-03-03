@@ -6,7 +6,7 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
+source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 100%
@@ -39,17 +39,17 @@ ht-degree: 100%
 
 1. **[!UICONTROL 製品プロファイル]**&#x200B;を選択します。
 
-   ![](../assets/do-not-localize/access_control_2.png)
+   ![](assets/do-not-localize/access_control_2.png)
 
 1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
-   ![](../assets/do-not-localize/access_control_3.png)
+   ![](assets/do-not-localize/access_control_3.png)
 
 1. ユーザーの名前またはメールアドレスを入力し、ユーザーを選択します。
 
    [!DNL Admin Console] でまだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
-   ![](../assets/do-not-localize/access_control_4.png)
+   ![](assets/do-not-localize/access_control_4.png)
 
 1. 上記と同じ手順を実行して、**[!UICONTROL 製品プロファイル]**&#x200B;に管理者を追加します。次に、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 インスタンスにアクセスすると、**[!UICONTROL 製品プロファイル]**&#x200B;で割り当てられた権限に応じて、特定のビューが表示されます。 ユーザーが機能にアクセスする権限を持っていない場合は、次の画面が表示されます。
 
-![](../assets/do-not-localize/access_control_1.png)
+![](assets/do-not-localize/access_control_1.png)
 
 ## 既存の製品プロファイルの編集 {#edit-product-profile}
 
@@ -77,23 +77,23 @@ ht-degree: 100%
 
    「**[!UICONTROL 権限]**」タブには、**[!UICONTROL Experience Cloud - Platform を利用したアプリケーション]**&#x200B;製品に適用される機能のリストが表示されます。
 
-   ![](../assets/do-not-localize/access_control_5.png)
+   ![](assets/do-not-localize/access_control_5.png)
 
 1. **[!UICONTROL メッセージ]**&#x200B;機能を選択します。
 
-   ![](../assets/do-not-localize/access_control_6.png)
+   ![](assets/do-not-localize/access_control_6.png)
 
 1. 「**[!UICONTROL 使用可能な権限項目]**」リストでプラス（+）アイコンをクリックし、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる権限を選択します。
 
    ここでは、**[!UICONTROL メッセージの公開]**&#x200B;権限を追加します。
 
-   ![](../assets/do-not-localize/access_control_7.png)
+   ![](assets/do-not-localize/access_control_7.png)
 
 1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で横の X アイコンをクリックすると、製品プロファイルに対する権限を削除できます。
 
 1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](../assets/do-not-localize/access_control_8.png)
+   ![](assets/do-not-localize/access_control_8.png)
 
 必要に応じて、特定の権限を持つ新しい製品プロファイルを作成することもできます。 詳しくは、[製品プロファイルの作成](#create-product-profile)を参照してください。
 
@@ -113,11 +113,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
 
-   ![](../assets/do-not-localize/access_control_9.png)
+   ![](assets/do-not-localize/access_control_9.png)
 
 1. 新しい&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に、**[!UICONTROL 製品プロファイル名]**、**[!UICONTROL 表示名]**、**[!UICONTROL 説明]**&#x200B;を追加します。
 
-   ![](../assets/do-not-localize/access_control_10.png)
+   ![](assets/do-not-localize/access_control_10.png)
 
 1. 「**[!UICONTROL 通知]**」カテゴリで、ユーザーがこの製品プロファイルに追加されたとき、または削除されたときにメールで通知するかどうかを選択します。
 
@@ -129,17 +129,17 @@ ht-degree: 100%
 
    ここでは、**[!UICONTROL ジャーニー]**&#x200B;機能を選択します。
 
-   ![](../assets/do-not-localize/access_control_11.png)
+   ![](assets/do-not-localize/access_control_11.png)
 
 1. 「**[!UICONTROL 使用可能な権限項目]**」リストでプラス（+）アイコンをクリックし、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる権限を選択します。
 
    ここでは、**[!DNL View journeys]** と **[!DNL View journeys event, data sources, actions]** を選択します。
 
-   ![](../assets/do-not-localize/access_control_12.png)
+   ![](assets/do-not-localize/access_control_12.png)
 
 1. **[!UICONTROL サンドボックスアクセス]**&#x200B;機能を選択して、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てるサンドボックスを選択します。
 
-   ![](../assets/do-not-localize/access_control_13.png)
+   ![](assets/do-not-localize/access_control_13.png)
 
 1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細情報](sandboxes.md)。
 
