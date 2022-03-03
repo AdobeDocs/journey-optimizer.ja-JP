@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2646'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 
 
-## 2022 年 2 月リリース {#feb-2022-release}
+## 2022年2月リリース {#feb-2022-release}
 
 ### 新機能
 
@@ -80,7 +80,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerのメッセージコンテンツで、リンクに UTM パラメーターを追加できるようになりました。顧客は、そのリンクに関する追加データを提供し、顧客がリンクをクリックした場所と理由を特定するのに役立ちます。</p>
+<p>Journey Optimizer のメッセージコンテンツで、リンクに UTM パラメーターを追加できるようになりました。これにより、そのリンクに関する追加データが提供され、ユーザーがリンクをクリックした場所と理由を特定するのに役立ちます。</p>
 <p>詳しくは、 <a href="../configuration/message-presets.md#configure-email-settings">詳細なドキュメント</a>を参照してください。</p-->
 </td>
 </tr>
@@ -91,16 +91,16 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **ジャーニー**
 
-* パフォーマンスを最適化するために、1 週間トリガーされていないテストモードのすべてのジャーニーが、ドラフトステータスに戻るようになりました。 [詳細情報](../building-journeys/testing-the-journey.md#important_notes)
-* Journey OptimizerとAdobe Campaign Classicの統合は、パフォーマンスを向上させるために最適化されています。 上限のデフォルト設定は、4,000 呼び出し/ 5 分に変更されました。	[詳細情報](../action/acc-action.md#important-notes)
+* パフォーマンスを最適化するために、1 週間トリガーされていないテストモードのすべてのジャーニーが、ドラフトステータスに戻るようになりました。[詳細情報](../building-journeys/testing-the-journey.md#important_notes)
+* Journey Optimizer と Adobe Campaign Classic の統合は、パフォーマンスを向上させるために最適化されています。キャッピングのデフォルト設定は、5 分につき呼び出し 4,000 件に変更されました。[詳細情報](../action/acc-action.md#important-notes)
 
-**レポート**
+**レポーティング**
 
 * 配信は、ステータスに応じてフィルタリングできるようになりました。
-   * 「メッセージの実行」リストで、配信のリストから配達確認を除外できるようになりました。
+   * メッセージの実行リストで、配信のリストから配達確認を除外できるようになりました。
    * ライブレポートまたはグローバルレポートから、テストイベントの除外を選択できます。
 
-* 送信時間の最適化データに関するレポートにアクセスできるようになりました。即時にメッセージを送信した人の数、1 時間の最適化、2 時間の最適化などでメッセージを送信した人の数
+* 即時にメッセージを送信した人の数、1 時間の最適化、2 時間の最適化などでメッセージを送信した人の数などの、送信時間の最適化データに関するレポートにアクセスできるようになりました。
 
 <!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 

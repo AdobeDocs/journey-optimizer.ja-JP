@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,26 +14,26 @@ ht-degree: 87%
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
 
-## 2022 年 2月 {#feb-2022}
+## 2022年2月 {#feb-2022}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 2 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
-* この [置換](../building-journeys/functions/functionreplace.md#example_2) および [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、target パラメーターに関する追加情報と例を追加しました。
-* にベストプラクティスが追加されました。 [演算子](../building-journeys/expression/operators.md#important-notes) ページ。
+* [!DNL Journey Optimizer] の 2022年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* この [replace](../building-journeys/functions/functionreplace.md#example_2) および [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、target パラメーターに関する追加情報と例を追加しました。
+* [演算子](../building-journeys/expression/operators.md#important-notes)ページにベストプラクティスが追加されました。
 
 ## 2022年1月 {#january-2022}
 
 * [!DNL Journey Optimizer] の 2022年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* この **Offer decisioningAI ランキング** の節が更新され、自動最適化モデルの詳細な説明が追加されました。 [詳細情報](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+* **Offer Decisioning AI ランキング**&#x200B;の節が更新され、自動最適化モデルの詳細な説明が追加されました。[詳細情報](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 * ランキング戦略を使用する際にイベントタイプを送信できるようにするために必要な、スキーマ要件に関する新しい節が追加されました。[詳細情報](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 * [!DNL Journey Optimizer] パーソナライズ機能に関連する節が再編成され、読みやすくなりました。[詳細情報](../personalization/personalize.md)
-* この **メッセージプリセットの作成** の節は、わかりやすくするために、複数のセクションに分かれています。 [詳細情報](../configuration/message-presets.md#create-message-preset)
-* この **オプトアウト管理** の節が明確になり、少し再編成されました。 [詳細情報](../messages/consent.md#opt-out-management)
-* この **リンクを挿入** の節が更新され、最近のユーザーインターフェイスの変更が反映されました。 [詳細情報](../messages/message-tracking.md#insert-links)
+* この&#x200B;**メッセージプリセットの作成**&#x200B;の節は、わかりやすくするために複数のセクションに分かれています。[詳細情報](../configuration/message-presets.md#create-message-preset)
+* この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../messages/consent.md#opt-out-management)
+* この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../messages/message-tracking.md#insert-links)
 
 ## 2021年11月 {#november-2021}
 
-* 詳細な説明 **高度な式エディター** ジャーニーで使用できるようになりました。 [詳細情報](../building-journeys/expression/expressionadvanced.md)
-* 次に関する新しい節： **CNAME サブドメインのデリゲーション方法** が追加されました。 [詳細情報](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* ジャーニーで使用される&#x200B;**高度な式エディター**&#x200B;で、完全な説明が利用できるようになりました。[詳細情報](../building-journeys/expression/expressionadvanced.md)
+* **CNAME サブドメインのデリゲーション方法**&#x200B;に関する新しい節が追加されました。[詳細情報](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## 2021年10月 {#october-2021}

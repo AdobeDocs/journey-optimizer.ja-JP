@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 79%
 
    ![](assets/preset-active.png)
 
-## 電子メールの設定 {#configure-email-settings}
+## メール設定 {#configure-email-settings}
 
 電子メールの設定は、メッセージプリセット設定の専用のセクションで定義します。
 
@@ -165,13 +165,13 @@ UTM パラメーターを設定するには、目的の値を **[!UICONTROL 名�
 * トランザクション E メールの場合、再試行の最小期間は 10 分です。
 * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
 
-## プッシュ設定の構成 {#configure-push-settings}
+## プッシュ設定 {#configure-push-settings}
 
 プッシュ設定は、メッセージプリセット設定の専用のセクションで定義します。
 
 メッセージプリセットに関連付けられたプッシュ設定を定義するには、次の手順に従います。
 
-1. プラットフォームを少なくとも 1 つ選択してください： **iOS** および/または **Android**.
+1. 少なくとも 1 つのプラットフォーム（**iOS**、**Android** もしくは両方）を選択します。
 
 1. 各プラットフォームで使用するモバイルアプリケーションを選択します。
 

@@ -9,7 +9,7 @@ exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 71%
 | パラメーター | タイプ |
 |-----------|--------------|
 | base（ベース文字列） | 文字列 |
-| target（ターゲット文字列） | 文字列 （正規表現） |
+| target（ターゲット文字列） | 文字列（RegExp） |
 | replacement（置換文字列） | 文字列 |
 
 ## シグネチャと戻り値のタイプ
@@ -47,4 +47,4 @@ ht-degree: 71%
 
 「Hexxo Worxd」を返します。
 
-target パラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。 例については、 [このページ](../functions/functionreplace.md#example_2).
+ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。例については、[このページ](../functions/functionreplace.md#example_2)を参照してください。

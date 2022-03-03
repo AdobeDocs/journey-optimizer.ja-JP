@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 5d1dc2d1711ba43b8270423acb1a5ca0ab862230
 workflow-type: tm+mt
 source-wordcount: '1098'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -28,26 +28,26 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer]の場合、同意はExperience Platformで処理されます [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target=&quot;_blank&quot;}。 デフォルトでは、同意フィールドの値は空で、通信を受信する同意として扱われます。 このデフォルト値は、リストに表示されている値の 1 つにオンボーディングする際に変更できます [ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target=&quot;_blank&quot;}。
+>[!DNL Journey Optimizer] の場合、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja)で処理されます{target=&quot;_blank&quot;}。デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。このデフォルト値は、[ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values)に一覧表示されている値の 1 つにオンボーディングする際に変更できます{target=&quot;_blank&quot;}。
 
-## E メールのオプトアウト管理 {#opt-out-management}
+## 電子メールのオプトアウト管理 {#opt-out-management}
 
 ブランドからの連絡を購読解除する機能を受信者に提供することは、法的要件です。適用される法律について詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target=&quot;_blank&quot;}を参照してください。
 
-したがって、受信者に送信されるすべての メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
+したがって、受信者に送信されるすべての メールに&#x200B;**購読解除リンク**&#x200B;を必ず含める必要があります。
 
-* 受信者は、このリンクをクリックすると、オプトアウトを確認するランディングページに誘導されます。
-* 選択を確認した後、プロファイルのデータはこの情報で更新されます。
+* 受信者がこのリンクをクリックすると、オプトアウトを確認するランディングページが表示されます。
+* 選択内容を確認した後、プロファイルのデータはこの情報で更新されます。
 
 ### 外部オプトアウト {#opt-out-external-lp}
 
-これをおこなうには、ユーザーがブランドからのコミュニケーションの受信を登録解除できるように、外部のランディングページへのリンクを E メールに挿入します。
+これを行うには、外部のランディングページへのリンクをメールに挿入し、ユーザーがブランドからの通信内容の受信を購読解除できるようにします。
 
 #### 購読解除リンクの追加 {#add-unsubscribe-link}
 
-最初にメッセージに購読解除リンクを追加する必要があります。 これを行うには、以下の手順に従います。
+最初にメッセージに購読解除リンクを追加する必要があります。これを行うには、以下の手順に従います。
 
-1. 独自の購読解除ランディングページを作成する。
+1. 登録解除ランディングページを作成します。
 
 1. 任意のサードパーティ製システムでホストします。
 
@@ -57,11 +57,11 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
    ![](assets/opt-out-insert-link.png)
 
-1. 選択 **[!UICONTROL 外部のオプトアウト/購読解除]** から **[!UICONTROL リンクタイプ]** 」ドロップダウンリストから選択できます。
+1. 「**[!UICONTROL リンクタイプ]**」ドロップダウンリストから「**[!UICONTROL 外部のオプトアウト／購読解除]**」を選択します。
 
    ![](assets/opt-out-link-type.png)
 
-1. 内 **[!UICONTROL リンク]** 「 」フィールドに、サードパーティのランディングページへのリンクを貼り付けます。
+1. 「**[!UICONTROL リンク]**」フィールドに、サードパーティ製のランディングページへのリンクを貼り付けます。
 
    ![](assets/opt-out-link-url.png)
 
@@ -71,7 +71,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 #### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** Adobe I/Oを使用して、対応するプロファイルの環境設定を更新します。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、Adobe I/Oを使用して&#x200B;**購読 API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新します。
 
 Adobe I/O のこの POST 呼び出しは次のとおりです。
 
@@ -109,19 +109,19 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 }
 ```
 
-[!DNL Journey Optimizer] はこれらのパラメーターを使用し、Adobe I/O呼び出しを通じて対応するプロファイルの選択を更新します。
+[!DNL Journey Optimizer] はこれらのパラメーターを使用し、Adobe I/O 呼び出しを通じて対応するプロファイルの選択内容を更新します。
 
-#### 配信停止リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
+#### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 
-ランディングページの配信停止リンクを設定し、API 呼び出しを実装すると、メッセージを送信する準備が整います。
+ランディングページの購読解除リンクを設定し、API 呼び出しを実装すると、メッセージを送信する準備が整います。
 
-1. リンクを含むメッセージを [ジャーニー](../building-journeys/journey.md).
+1. [ジャーニー](../building-journeys/journey.md)を通してリンクを含むメッセージを送信します。
 
-1. メッセージを受け取った受信者が登録解除リンクをクリックすると、ランディングページが表示されます。
+1. メッセージを受け取った受信者が購読解除リンクをクリックすると、ランディングページが表示されます。
 
    ![](assets/opt-out-lp-example.png)
 
-1. 受信者がフォームを送信した場合 ( ここでは、 **配信停止** 」ボタンをクリックすると、 [Adobe I/O呼び出し](#opt-out-api).
+1. 受信者がフォームを送信した場合（ここではランディングページの「**購読解除**」ボタンをクリック）、[Adobe I/O 呼び出し](#opt-out-api)を通してプロファイルデータが更新されます。
 
 1. その後、オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
 
@@ -137,11 +137,11 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 ### ワンクリックオプトアウト {#one-click-opt-out}
 
-購読解除をするためのより簡単なプロセスを求めているお客様が多いので、ワンクリックオプトアウトリンクをメールコンテンツに追加することもできます。このリンクを使用すると、受信者は選択を確認する必要があるランディングページにリダイレクトされずに、通信を素早く登録解除でき、購読解除プロセスが高速化されます。
+購読解除をするためのより簡単なプロセスを求めているお客様が多いので、ワンクリックオプトアウトリンクをメールコンテンツに追加することもできます。このリンクにより、選択内容の確認が必要なランディングページにリダイレクトされることなく、受信者は通信内容を素早く購読解除できます。これにより、購読解除プロセスを加速することができます。
 
 メールにオプトアウトリンクを追加するには、次の手順に従います。
 
-1. [リンクを挿入](message-tracking.md#insert-links) を選択し、 **[!UICONTROL ワンクリックのオプトアウト]** をリンクのタイプとして設定します。
+1. [リンクを挿入](message-tracking.md#insert-links)し、リンクのタイプとして「**[!UICONTROL オプトアウトをワンクリック]**」を選択します。
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -161,9 +161,9 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 1. 変更を保存します。
 
-メッセージが[ジャーニー](../building-journeys/journey.md)から送信された後、受信者がオプトアウトリンクをクリックすると、受信者のプロファイルは直ちにオプトアウトされます。
+メッセージが[ジャーニー](../building-journeys/journey.md)を通して送信された後、受信者がオプトアウトリンクをクリックすると、受信者のプロファイルは直ちにオプトアウトされます。
 
-### メッセージヘッダーのリンクを購読解除 {#unsubscribe-email}
+### メッセージヘッダーの購読解除リンク {#unsubscribe-email}
 
 受信者の E メールクライアントがメールヘッダーに購読解除リンクを表示することをサポートしている場合、[!DNL Journey Optimizer] と共に送信されるメールには自動的にこのリンクが含まれます。
 

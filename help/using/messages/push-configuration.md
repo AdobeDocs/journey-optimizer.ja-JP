@@ -259,7 +259,7 @@ Adobe Experience Platform と [!DNL Adobe Experience Platform Data Collection] �
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-このジャーニーを機能させるには、XDM スキーマを作成する必要があります。 詳しくは、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#schemas-and-data-ingestion)を参照してください。
+このジャーニーを機能させるには、XDM スキーマを作成する必要があります。 詳しくは、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#schemas-and-data-ingestion){target=&quot;_blank&quot;}を参照してください。
 
 1. 左のメニューで、「**[!UICONTROL スキーマ]**」を参照します。
 
