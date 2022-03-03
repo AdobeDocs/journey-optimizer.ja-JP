@@ -7,46 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
-# AI ランキング {#ai-rankings}
-
-## AI ランキングの概要 {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->AI ランキングは、現在、一部のユーザーのみが早期アクセスで利用できます。
-
-この機能を使用すると、ビジネス目標に基づいて異なる&#x200B;**ランキング戦略**&#x200B;を作成できます。 決定（以前のオファーアクティビティ）でこれらの様々な目標ベースの戦略を使用すると、トレーニング済みモデルシステムが目標に影響を与える様々なランキング戦略を理解するのに役立ちます。
-
-例えば、電子メールチャネル用にあるランキング戦略を選択し、プッシュチャネル用に別のランキング戦略を選択できます。各チャネルについて、トレーニング済みモデルシステムは、複数のデータポイントを活用して、オファーの優先度スコアや[ランキング式](create-ranking-formulas.md)を考慮するのではなく、特定のプレースメントに対して最初に提示するオファーを決定します。
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-ランキング戦略を作成したら、決定内のプレースメントに割り当てます。詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
-
-### 自動最適化モデル {#auto-optimization}
-
-現在 [!DNL Journey Optimizer] でサポートされている AI ランキングのモデルタイプは、**自動最適化**&#x200B;のみです。
-
-自動最適化モデルは、設定した主要業績評価指標（KPI）に基づいて、収益を最大化するオファーを提供することを目的としています。<!--These KPIs could be in the form of conversion rates, revenue, etc.-->現段階では、自動最適化は、オファーコンバージョンをターゲットとするオファークリック数の最適化に焦点を当てています。
-
->[!NOTE]
->
->自動最適化モデルでは、コンテキストデータやユーザープロファイルデータは使用されません。オファーのグローバルパフォーマンスに基づいて結果を最適化します。
-
-自動最適化では、探索的学習とその学習の利用のバランスを取ることが課題となります。この原則は、**「多腕バンディット」アプローチ**&#x200B;として知られています。
-
-この課題に取り組むために、自動最適化モデルでは、期待される報酬を最大化するためどのオプションを追求すべきかを特定できる&#x200B;**トンプソンサンプリング**&#x200B;メソッドを使用します。つまり、トンプソンサンプリングは、多腕バンディット問題における探索と利用のジレンマを解決するための強化学習手法の一種です。
-
-また、トンプソンサンプリングメソッドは、「コールドスタート」問題（キャンペーンに新しいオファーが導入されたとき、そのオファーにはトレーニングできる履歴がない）などの課題にも対応できます。
+# AI モデルの作成 {#ai-rankings}
 
 ## ランキング戦略の作成 {#create-ranking-strategy}
 
@@ -66,7 +34,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 名前]**：指定する必要がある一意の名前。
 
-   * **[!UICONTROL モデルタイプ]**：現在サポートされているモデルタイプは **[!UICONTROL 自動最適化]**&#x200B;のみです。<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL モデルタイプ]**:現在 [!DNL Journey Optimizer] サポートされているモデルのタイプは次のみです。 **[!UICONTROL 自動最適化]**. [詳細情報](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL 最適化指標]**：
 
