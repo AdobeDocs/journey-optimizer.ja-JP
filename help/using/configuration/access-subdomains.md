@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 デリゲートされたすべてのサブドメインが&#x200B;**[!UICONTROL チャネル]**／**[!UICONTROL サブドメイン]**&#x200B;メニューに表示されます。 フィルターを使用して、リスト（デリゲーション日、ユーザー、ステータス）を絞り込むことができます。
 
-![](assets/subdomain-list.png)
+![](../assets/subdomain-list.png)
 
 **[!UICONTROL ステータス]**&#x200B;列には、サブドメインのデリゲーションプロセスに関する情報が表示されます。
 
@@ -32,4 +32,4 @@ ht-degree: 100%
 
 * Google サイト検証 TXT レコードをサブドメインに追加して、検証済みであることを確認します（[サブドメインに Google TXT レコードを追加する](google-txt.md)を参照）。
 
-![](assets/subdomain-delegated.png)
+![](../assets/subdomain-delegated.png)

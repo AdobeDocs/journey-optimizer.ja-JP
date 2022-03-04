@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 **[!UICONTROL メッセージ]**&#x200B;メニューの「**[!UICONTROL 実行]**」タブで、「**[!UICONTROL ライブ表示]**」を選択し、選択した配信の詳細メニューで「**[!UICONTROL ライブレポート]**」を選択します。
 
-![](assets/live_report_2.png)
+![](../assets/live_report_2.png)
 
 プッシュ&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、配信の成功とエラーを示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md#modify-dashboard)を参照してください。
 
-![](assets/live_report_3.png)
+![](../assets/live_report_3.png)
 
 「**[!UICONTROL プッシュ通知のパフォーマンス]**」および「**[!UICONTROL プッシュ通知の概要]**」ウィジェットは、グラフと KPI を含むメッセージに関する主な情報を詳細に示します。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
-![](assets/live_report_4.png)
+![](../assets/live_report_4.png)
 
 **[!UICONTROL プラットフォーム別トラッキング]**、**[!UICONTROL プラットフォーム別送信]**、**[!UICONTROL プラットフォーム別分類]**&#x200B;のグラフとテーブルには、プッシュ通知の成功の詳細がオペレーティングシステムに応じて表示されます。
 

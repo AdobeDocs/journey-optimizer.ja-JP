@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
@@ -23,33 +23,33 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] のイベントを設定する最初の手順は、イベントを表す XDM スキーマと、Adobe Experience Platform でイベントのインスタンスを記録するために作成されたデータセットを確実に用意することです。イベント用データセットは必ずしも必要ではありませんが、特定のデータセットにイベントを送信すると、ユーザーのイベント履歴を保持して後から参照および分析できるので便利です。イベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方を Adobe Experience Platform の Web インターフェイスで実行できます。
 
-![](assets/schema1.png)
+![](../assets/schema1.png)
 
 [!DNL Journey Optimizer] イベントに使用される XDM スキーマは、以下の要件を満たす必要があります。
 
 * スキーマは、XDM ExperienceEvent クラスである必要があります。
 
-   ![](assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * システム生成イベントの場合、オーケストレーション eventID フィールドグループがスキーマに含まれている必要があります。[!DNL Journey Optimizer] はこのフィールドを使用して、ジャーニーで使用されるイベントを識別します。
 
-   ![](assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * イベントの件名を識別するための ID フィールドを宣言します。ID が指定されていない場合は、ID マップを使用できます。この方法は推奨されません。
 
-   ![](assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * このデータを後からジャーニーで参照できるようにする場合は、プロファイルのスキーマとデータセットをマークします。
 
-   ![](assets/schema5.png)
+   ![](../assets/schema5.png)
 
-   ![](assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めたいその他のコンテキストデータを取り込むためのデータフィールドを自由に含めることができます。
 
-   ![](assets/schema7.png)
+   ![](../assets/schema7.png)
 
-   ![](assets/schema8.png)
+   ![](../assets/schema8.png)
 
 ## スキーマ間の関係の活用{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Adobe Experience Platform では、あるデータセットを別のデータセ
 
 ここでは、製品 ID をプライマリ ID として定義したプロファイルに有効な製品カタログスキーマを示します。
 
-![](assets/schema9.png)
+![](../assets/schema9.png)
 
 ここでは、製品 ID フィールドで定義された関係を持つ購入スキーマを示します。
 
-![](assets/schema10.png)
+![](../assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 * イベント設定画面でイベントスキーマフィールドを参照する場合
 * システム生成イベントの条件を定義する場合
 
-![](assets/schema11.png)
+![](../assets/schema11.png)
 
 リンクされたフィールドは次の場所では使用できません。
 
@@ -100,7 +100,7 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 
 式エディターでジャーニーに条件を追加し、式を編集し、イベントノードを展開します。
 
-![](assets/schema12.png)
+![](../assets/schema12.png)
 
 ジャーニー条件の定義方法については、この[ページ](../building-journeys/condition-activity.md)を参照してください。
 
@@ -108,7 +108,7 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 
 リンクされたフィールドは、メッセージをパーソナライズする際に使用できます。関連するフィールドは、ジャーニーからメッセージに渡されるコンテキストで表示されます。
 
-![](assets/schema14.png)
+![](../assets/schema14.png)
 
 コンテキストジャーニー情報を使用してメッセージをパーソナライズする方法については、この[ページ](../personalization/personalization-use-case.md)を参照してください。
 
@@ -116,6 +116,6 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 
 リンクされたフィールドは、ジャーニーのカスタムアクションアクティビティのアクションパラメーターを設定する際に使用できます。
 
-![](assets/schema13.png)
+![](../assets/schema13.png)
 
 カスタムアクションの使用方法については、この[ページ](../building-journeys/using-custom-actions.md)を参照してください。

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
@@ -58,7 +58,7 @@ ht-degree: 100%
 電子メールでオファーを使用する全体的な意思決定管理プロセスは、次のように説明できます。
 
 
-![](assets/offers-e2e-process.png)
+![](../assets/offers-e2e-process.png)
 
 ## コンポーネントの定義 {#define-components}
 
@@ -77,7 +77,7 @@ ht-degree: 100%
    * *メール - 画像*
    * *非デジタル - テキスト*
 
-   ![](assets/offers-e2e-placements.png)
+   ![](../assets/offers-e2e-placements.png)
 
    プレースメントを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-placements.md)で説明します。
 
@@ -91,7 +91,7 @@ ht-degree: 100%
    * *女性の顧客*
    * *男性の顧客*
 
-   ![](assets/offers-e2e-rules.png)
+   ![](../assets/offers-e2e-rules.png)
 
    ルールを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-decision-rules.md)で説明します。
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
    この例では、*Yoga* タグを作成します。
 
-   ![](assets/offers-e2e-tag.png)
+   ![](../assets/offers-e2e-tag.png)
 
    タグを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-tags.md)を参照してください。
 
@@ -133,17 +133,17 @@ ht-degree: 100%
 
 1. 最初の 2 つのプレースメントに適切な画像を選択します。「*非デジタル - テキスト*」プレースメントのカスタムテキストを入力します。
 
-   ![](assets/offers-e2e-representations.png)
+   ![](../assets/offers-e2e-representations.png)
 
 1. 「**[!UICONTROL オファーの適格要件]**」セクションで、「**[!UICONTROL 定義済みの決定ルール]**」を選択し、任意のルールをドラッグ＆ドロップします。
 
-   ![](assets/offers-e2e-eligibility.png)
+   ![](../assets/offers-e2e-eligibility.png)
 
 1. **[!UICONTROL 優先度]**&#x200B;を入力します。この例では、*25* を追加します。
 
 1. オファーを確認し、「**[!UICONTROL 保存して承認]**」をクリックします。
 
-   ![](assets/offers-e2e-review.png)
+   ![](../assets/offers-e2e-review.png)
 
 1. この例では、同じ表示域で異なるアセットを持つ 3 つのオファーを作成します。次のような様々なルールと優先度を割り当てます。
 
@@ -152,7 +152,7 @@ ht-degree: 100%
    * 3 番目のオファー - 決定ルール：*男性の顧客*、優先度：*25*
    * 4 番目のオファー - 決定ルール：*男性の顧客*、優先度：*15*
 
-   ![](assets/offers-e2e-offers-created.png)
+   ![](../assets/offers-e2e-offers-created.png)
 
 オファーを作成および設定する詳細な手順については、[この節](../../using/offers/offer-library/creating-personalized-offers.md)を参照してください。
 
@@ -168,11 +168,11 @@ ht-degree: 100%
    * 「*メール - 画像*」プレースメントに対応するもの
    * 「*非デジタル - テキスト*」プレースメントに対応するもの
 
-   ![](assets/offers-e2e-fallback-representations.png)
+   ![](../assets/offers-e2e-fallback-representations.png)
 
 1. フォールバックオファーを確認し、「**[!UICONTROL 保存して承認]**」をクリックします。
 
-![](assets/offers-e2e-fallback.png)
+![](../assets/offers-e2e-fallback.png)
 
 これで、フォールバックオファーを決定で使用する準備が整いました。
 
@@ -186,7 +186,7 @@ ht-degree: 100%
 
 1. *Yoga* タグを使用して、以前作成した 4 つのパーソナライズされたオファーを選択します。
 
-   ![](assets/offers-e2e-collection-using-tag.png)
+   ![](../assets/offers-e2e-collection-using-tag.png)
 
 コレクションを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-collections.md)で説明します。
 
@@ -202,11 +202,11 @@ ht-degree: 100%
 
 1. 「*Web - 画像*」、「*メール - 画像*」および「*非デジタル - テキスト*」のプレースメントを選択します。
 
-   ![](assets/offers-e2e-decision-placements.png)
+   ![](../assets/offers-e2e-decision-placements.png)
 
 1. 各プレースメントに対して、作成したコレクションを追加します。
 
-   ![](assets/offers-e2e-decision-collection.png)
+   ![](../assets/offers-e2e-decision-collection.png)
 
 1. [コンポーネントの構築](#define-components)時にランキングを定義した場合は、それを決定のプレースメントに割り当てることができます。このプレースメントで複数のオファーを提示できる場合、決定はこの式を使用して、どのオファーを最初に配信するかを計算します。
 
@@ -215,11 +215,11 @@ ht-degree: 100%
 1. 作成したフォールバックオファーを選択します。 これは、選択した 3 つのプレースメントに対して使用可能なフォールバックオファーとして表示されます。
 
 
-   ![](assets/offers-e2e-decision-fallback.png)
+   ![](../assets/offers-e2e-decision-fallback.png)
 
 1. 決定を確認し、「**[!UICONTROL 保存して承認]**」をクリックします。
 
-   ![](assets/offers-e2e-review-decision.png)
+   ![](../assets/offers-e2e-review-decision.png)
 
 これで、最適化され、パーソナライズされたオファーを配信するために、決定を使用する準備が整いました。
 
@@ -235,22 +235,22 @@ ht-degree: 100%
 
 1. **[!UICONTROL オファーの決定]**&#x200B;コンテンツコンポーネントを追加します。 コンテンツコンポーネントの使用方法については、[この節](../../using/messages/content-components.md)を参照してください。
 
-   ![](assets/offers-e2e-decision-component.png)
+   ![](../assets/offers-e2e-decision-component.png)
 
 1. 選択します。右側のパレットで、「**[!UICONTROL オファーの決定を選択]**」をクリックして、決定を追加します。
 
-   ![](assets/offers-e2e-select-offer-decision.png)
+   ![](../assets/offers-e2e-select-offer-decision.png)
 
 1. 表示するオファーに対応するプレースメントを「**[!UICONTROL プレースメント]**」ドロップダウンリストから選択します。
 
    この場合、この例の一部として以前に作成したプレースメントから、電子メールで決定を使用する際に使用可能なのは「 **メール - 画像**」プレースメントのみです。詳細は、[プレースメントの作成](../../using/offers/offer-library/creating-placements.md)を参照してください。
 
 
-   ![](assets/offers-e2e-select-placement-in-decision.png)
+   ![](../assets/offers-e2e-select-placement-in-decision.png)
 
 1. 「**メール - 画像**」プレースメントに一致する決定が表示されます。コンテンツコンポーネントで使用する決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
+   ![](../assets/offers-e2e-matching-placement-in-decision.png)
 
    >[!NOTE]
    >
@@ -259,7 +259,7 @@ ht-degree: 100%
 これで、すべてのパーソナライズされたオファーとフォールバックオファーが電子メールデザイナーで視覚化されて表示されるようになります。
 
 
-![](assets/offers-e2e-offers-displayed.png)
+![](../assets/offers-e2e-offers-displayed.png)
 
 **[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印（右向き矢印と左向き矢印）を使用して、データを参照します。 また、顧客プロファイルを使用して、決定の一部である様々なオファーを表示することもできます。詳しくは、[この節](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email)を参照してください。
 

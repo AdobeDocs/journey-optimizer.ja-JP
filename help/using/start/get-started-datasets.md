@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer での Adobe Experience Platform データ�
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: e7db3204754b07b29f488c987c01d2a2378e70d9
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Adobe Experience Platform にデータを追加することは、プロファイ
 
 [!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**データセット**&#x200B;ワークスペースを使用すると、データの調査とデータセットの作成を行えます。
 
-![](assets/datasets-home.png)
+![](../assets/datasets-home.png)
 
 データセット UI の使用方法については、[データ取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 

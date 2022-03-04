@@ -5,7 +5,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 97%
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 # 権限レベル {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
+![](../assets/do-not-localize/permissions.png)
 
 各製品プロファイルは、ユーザーが様々な機能にアクセスできる権限で構成されています。
 権限は次の 2 つのタイプに分けることができます。

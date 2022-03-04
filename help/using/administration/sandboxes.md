@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 画面の右上の組織名の横に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
 
-![](assets/sandbox_5.png)
+![](../assets/sandbox_5.png)
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -43,21 +43,21 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 1. 「**[!UICONTROL 製品プロファイル]**」を選択します。
 
-   ![](assets/sandbox_1.png)
+   ![](../assets/sandbox_1.png)
 
 1. 「**[!UICONTROL 権限]**」タブを選択します。
 
 1. 「**[!UICONTROL サンドボックス]**」機能を選択します。
 
-   ![](assets/sandbox_2.png)
+   ![](../assets/sandbox_2.png)
 
 1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細については、こちらを参照](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target=&quot;_blank&quot;}してください。
 
-   ![](assets/sandbox_3.png)
+   ![](../assets/sandbox_3.png)
 
 1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で横の X アイコンをクリックすると、**[!UICONTROL 製品プロファイル]**&#x200B;に対する権限を削除できます。
 
-   ![](assets/sandbox_4.png)
+   ![](../assets/sandbox_4.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -65,7 +65,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 コンテンツのアクセシビリティを設定するには、コンテンツの共有フォルダーを各サンドボックスに割り当てる必要があります。管理者向けの [!DNL Admin Console] に表示される「**[!UICONTROL ストレージ]**」タブで、共有フォルダーを作成し、設定できます。システム管理者として [!DNL Admin Console] にアクセスできる場合は、共有フォルダーを作成し、異なるアクセスレベルの委任を共有フォルダーに追加できます。
 
-![](assets/do-not-localize/content_access.png)
+![](../assets/do-not-localize/content_access.png)
 
 コンテンツを正しいサンドボックスと同期させるには、サンドボックスと同じ構文に従う必要があります。例えば、サンドボックスの名前が「開発」の場合、共有フォルダーも同じ名前にする必要があります。
 

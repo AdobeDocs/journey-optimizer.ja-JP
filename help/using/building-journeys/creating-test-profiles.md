@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
@@ -34,13 +34,13 @@ ht-degree: 100%
 まず、**スキーマを作成**&#x200B;する必要があります。次の手順に従います。
 
 1. 「データ管理」メニュー セクションで、「**[!UICONTROL スキーマ]**」をクリックします。
-   ![](assets/test-profiles-0.png)
+   ![](../assets/test-profiles-0.png)
 1. 右上の「**[!UICONTROL スキーマを作成]**」をクリックして、スキーマの種類を選択します（例：**XDM 個人プロファイル**）。
-   ![](assets/test-profiles-1.png)
+   ![](../assets/test-profiles-1.png)
 1. 適切なフィールドグループを選択します。 「**プロファイルテストの詳細**」フィールドグループを必ず追加してください。
-   ![](assets/test-profiles-1-ter.png)
+   ![](../assets/test-profiles-1-ter.png)
 完了したら、「 **[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
-   ![](assets/test-profiles-2.png)
+   ![](../assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,12 +50,12 @@ ht-degree: 100%
 
 
 1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
-   ![](assets/test-profiles-3.png)
+   ![](../assets/test-profiles-3.png)
 1. 右の&#x200B;**[!UICONTROL フィールドのプロパティ]**&#x200B;ペインで、「**[!UICONTROL ID]**」オプションと「**[!UICONTROL メイン ID]**」オプションをオンにし、名前空間を選択します。メールアドレスをプライマリ ID にする場合は、「**[!UICONTROL メール]**」名前空間を選択します。「**[!UICONTROL 適用]**」をクリックします。
-   ![](assets/test-profiles-4bis.png)
+   ![](../assets/test-profiles-4bis.png)
 1. スキーマを選択し、**[!UICONTROL スキーマのプロパティ]**&#x200B;ペインで「**[!UICONTROL プロファイル]** 」オプションを有効にします。
 
-   ![](assets/test-profiles-5.png)
+   ![](../assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
 >[!NOTE]
@@ -65,15 +65,15 @@ ht-degree: 100%
 次に、プロファイルのインポート先となる&#x200B;**データセットを作成**&#x200B;する必要があります。次の手順に従います。
 
 1. **[!UICONTROL データセット]**&#x200B;を参照し、「**[!UICONTROL データセットを作成]**」をクリックします。
-   ![](assets/test-profiles-6.png)
+   ![](../assets/test-profiles-6.png)
 1. 「**[!UICONTROL スキーマからデータセットを作成]**」を選択します。
-   ![](assets/test-profiles-7.png)
+   ![](../assets/test-profiles-7.png)
 1. 作成済みのスキーマを選択し、「**[!UICONTROL 次へ]**」をクリックします。
-   ![](assets/test-profiles-8.png)
+   ![](../assets/test-profiles-8.png)
 1. 名前を選択し、「**[!UICONTROL 終了]**」をクリックします。
-   ![](assets/test-profiles-9.png)
+   ![](../assets/test-profiles-9.png)
 1. 「**[!UICONTROL プロファイル]**」オプションを有効にします。
-   ![](assets/test-profiles-10.png)
+   ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer のホームページから、製品内ユースケースのテストプロファイルを活用できます。 このユースケースは、公開前にジャーニーのテストに使用するテストプロファイルの作成を容易にします。
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 「**[!UICONTROL 開始]**」ボタンをクリックして、ユースケースを開始します。
 
@@ -120,11 +120,11 @@ ID 名前空間を選択し、上記の形式に基づいて CSV ファイルを
 > **testProfile** フィールドを更新することになるので、選択したプロファイルには、このフィールドを含める必要があります。関連するスキーマには、「**プロファイルテストの詳細**」フィールドグループが必要です。[このセクション](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)をご覧ください。
 
 1. **セグメント**&#x200B;を参照し、右上の「**セグメントを作成**」を選択します。
-   ![](assets/test-profiles-22.png)
+   ![](../assets/test-profiles-22.png)
 1. セグメント名を定義してセグメントを作成する：目的のプロファイルをターゲットするフィールドと値を選択します。
-   ![](assets/test-profiles-23.png)
+   ![](../assets/test-profiles-23.png)
 1. 「**保存**」をクリックし、セグメントによってターゲットとするプロファイルが正しくされていることを確認します。
-   ![](assets/test-profiles-24.png)
+   ![](../assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -132,13 +132,13 @@ ID 名前空間を選択し、上記の形式に基づいて CSV ファイルを
 
 1. 次に、**[!UICONTROL セグメントの読み取り]**&#x200B;オーケストレーションアクティビティを使用して、新しいジャーニーを作成および開始します。
 1. 以前に作成したセグメントと、プロファイルが使用する名前空間を選択します。
-   ![](assets/test-profiles-25.png)
+   ![](../assets/test-profiles-25.png)
 1. 「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを追加します。
 1. スキーマ、**testProfiles** フィールド、データセットを選択し、値を「**true**」に設定します。これを実行するには、「**[!UICONTROL 値]**」フィールドで、右側の「**ペン**」アイコンをクリックし、「**[!UICONTROL 詳細設定モード]**」を選択して、「**true**」と入力します。
-   ![](assets/test-profiles-26.png)
+   ![](../assets/test-profiles-26.png)
 1. **終了**&#x200B;アクティビティを追加して、「**[!UICONTROL 公開]**」をクリックします。
 1. 「**[!UICONTROL セグメント]**」セクションで、プロファイルが正しく更新されていることを確認します。
-   ![](assets/test-profiles-28.png)
+   ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -150,24 +150,24 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 
 1. スプレッドシートソフトウェアを使用して、単純な CSV ファイルを作成します。
 1. 必要な各フィールドごとに 1 列ずつ追加しますプライマリ ID フィールド（上記の例では「personID」）を追加し、「testProfile」フィールドを「true」に設定するようにしてください。
-   ![](assets/test-profiles-11.png)
+   ![](../assets/test-profiles-11.png)
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
-   ![](assets/test-profiles-12.png)
+   ![](../assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り文字として使用されていることを確認します。
 1. Adobe Experience Platform **ワークフロー**を参照します。
-   ![](assets/test-profiles-14.png)
+   ![](../assets/test-profiles-14.png)
 1. 「**CSV を XDM スキーマにマッピング**」を選択し、「**開始**」をクリックします。
-   ![](assets/test-profiles-16.png)
+   ![](../assets/test-profiles-16.png)
 1. プロファイルの読み込み先となるデータセットを選択します。「**次へ**」をクリックします。
-   ![](assets/test-profiles-17.png)
+   ![](../assets/test-profiles-17.png)
 1. 「**ファイルを選択**」をクリックし、csv ファイルを選択します。ファイルをアップロードしたら、「**次へ**」をクリックします。
-   ![](assets/test-profiles-18.png)
+   ![](../assets/test-profiles-18.png)
 1. ソース csv フィールドをスキーマフィールドにマッピングし、「**終了**」をクリックします。
-   ![](assets/test-profiles-19.png)
+   ![](../assets/test-profiles-19.png)
 1. データの読み込みが開始します。ステータスが「**処理中**」から「**成功**」に変わります。右上の「**データセットのプレビュー**」をクリックします。
-   ![](assets/test-profiles-20.png)
+   ![](../assets/test-profiles-20.png)
 1. テストプロファイルが正しく追加されていることを確認します。
-   ![](assets/test-profiles-21.png)
+   ![](../assets/test-profiles-21.png)
 
 テストプロファイルが追加され、ジャーニーのテストで使用できるようになりました。[この節](../building-journeys/testing-the-journey.md)を参照してください。
 >[!NOTE]

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 決定]**：オファーを提供するための決定を作成および管理します。[決定を作成する](../offer-activities/create-offer-activities.md)を参照してください。
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 **[!UICONTROL コンポーネント]**&#x200B;メニューを使用して、オファーの作成に必要なコンポーネントを管理します。
 
@@ -43,19 +43,19 @@ ht-degree: 100%
 
 * **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。See [ランキング式の作成](../offer-library/create-ranking-formulas.md)を参照してください。
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## 概要 {#overview}
 
 [!DNL Offer Decisioning] を初めて使用する場合は、初めてのオファー決定の作成を開始するために必要な主な手順を「**[!UICONTROL 概要]**」タブで確認します。
 
-![](../assets/overview_onboarding.png)
+![](../../assets/overview_onboarding.png)
 
 画面上の手順に従って、プレースメント、オファーおよびコレクションの作成を開始します。
 
 これらの最初の手順が完了すると、オファー決定（旧称：オファーアクティビティ）を作成するよう求められます。
 
-![](../assets/overview_collection-created.png)
+![](../../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 「**[!UICONTROL すべて表示]**」ボタンをクリックして、オファー、コレクションまたは決定リストにアクセスします。
 
-![](../assets/overview_view-all.png)
+![](../../assets/overview_view-all.png)
 
 ## 情報の検索とフィルタリング {#search-and-filter-information}
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 **フィルター**&#x200B;にアクセスするには、リストの左上にあるフィルターアイコンをクリックすることもできます。使用すると、様々な条件に従って表示される要素をフィルターできます。例えば、メール通信チャネル用に作成したプレースメントや画像タイプのコンテンツをフィルターできます。
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## 表示情報のカスタマイズ {#customize-displayed-information}
 
@@ -86,22 +86,22 @@ ht-degree: 100%
 
 列のカスタマイズは、各ユーザーに対して保存されます。
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## 情報ペイン {#information-pane}
 
 様々なリストで、要素を選択して情報ペインを表示し、要素に関する情報を取得したり、基本的な操作を実行したりできます。
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 オファーと決定リストを使用して、複数の要素に対して一括アクションを実行することもできます。これを行うには、目的のオファーまたは決定を選択し、情報ペインから実行するアクションを選択します。
 
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 また、既存のオファーや決定を複製して、 **[!UICONTROL ドラフト]**&#x200B;ステータスのコピーを作成することもできます。これは、情報ペイン、オファーまたは決定の詳細表示から実行できます。
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## オファーと決定の変更ログ {#changes-logs}
 
@@ -109,4 +109,4 @@ ht-degree: 100%
 
 加えられたすべての変更と、変更を行ったユーザーの名前がこの画面に表示されます。
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)

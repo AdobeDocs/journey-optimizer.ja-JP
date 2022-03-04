@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
 
 1. 「**[!UICONTROL 管理]**」／「**[!UICONTROL チャネル]**」／「**[!UICONTROL API 認証情報]**」メニューにアクセスし、「 **[!UICONTROL API 認証情報の作成]**」をクリックします。
 
-   ![](assets/sms_4.png)
+   ![](../assets/sms_4.png)
 
 1. **[!UICONTROL SMS ベンダー]**&#x200B;として Sinch を選択します。
 
@@ -39,7 +39,7 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
    >
    > Sinch には特別な API 認証情報が必要です。次を検索： **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、Sinch アカウントから SMS／API メニューにアクセスします。
 
-   ![](assets/sms_5.png)
+   ![](../assets/sms_5.png)
 
 1. API 認証情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 

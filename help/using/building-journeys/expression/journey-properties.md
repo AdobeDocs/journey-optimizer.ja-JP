@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >ジャーニーのプロパティ属性は、シンプルな式エディターでも使用できます。この[節](../condition-activity.md#about_condition)を参照してください
 
-![](../assets/journey-properties.png)
+![](../../assets/journey-properties.png)
 
 例えば、次の情報が表示されます。
 

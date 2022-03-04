@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
@@ -32,12 +32,12 @@ API 呼び出しの例を 2 つ示します。
 
 1. データソースのリストで「**[!UICONTROL データソースを作成]**」をクリックして、新しい外部データソースを作成します。
 
-   ![](assets/journey25.png)
+   ![](../assets/journey25.png)
 
    画面の右側にデータソース設定ペインが開きます。
 
 
-   ![](assets/journey26.png)
+   ![](../assets/journey26.png)
 
 1. データソースの名前を入力します。
 
@@ -52,7 +52,7 @@ API 呼び出しの例を 2 つ示します。
    >
    >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。また、一般公開されていないアドビのアドレスの使用および IP アドレスの使用は許可されていません。
 
-   ![](assets/journey27.png)
+   ![](../assets/journey27.png)
 
 1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**、**[!UICONTROL API キー]**&#x200B;のいずれかに設定します。カスタム認証モードについて詳しくは、[この節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。この例では、次を選択します。
 
@@ -61,7 +61,7 @@ API 呼び出しの例を 2 つ示します。
    * **[!UICONTROL 値]**：&quot;1234&quot;（API キーの値）
    * **[!UICONTROL 場所]**：クエリパラメーター（API キーは URL 内にあります）
 
-   ![](assets/journey28.png)
+   ![](../assets/journey28.png)
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを作成します。フィールドグループ名にはスペースや特殊文字を使用しないでください。この例では、パラメーターセット（city と longlat）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
 
@@ -82,7 +82,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
    {"id":{"param":"identifier"}}
    ```
 
-![](assets/journey29.png)
+![](../assets/journey29.png)
 
 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -99,11 +99,11 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 カスタム認証を設定する場合、下のボタンをクリックして、カスタム認証ペイロードが正しく設定されているかどうかを確認できます。
 
-![](assets/journey29-bis.png)
+![](../assets/journey29-bis.png)
 
 テストが成功すると、ボタンが緑色に変わります。
 
-![](assets/journey29-ter.png)
+![](../assets/journey29-ter.png)
 
 この認証を使用すると、アクションの実行は次の 2 つの手順で構成されるプロセスになります。
 

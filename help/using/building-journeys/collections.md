@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL アクションパラメーター]**」セクションに、JSON の例を貼り付けます。表示される構造は静的です。ペイロードを貼り付けたときに、すべてのフィールドが定数として定義されます。
 
-   ![](assets/uc-collection-1.png)
+   ![](../assets/uc-collection-1.png)
 
 1. 必要に応じて、フィールドタイプを調整します。コレクションでは、listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject の各フィールドタイプがサポートされています。
 
@@ -119,27 +119,27 @@ ht-degree: 100%
 
 1. フィールドごとに、ジャーニーキャンバスに表示されるラベルを定義します。
 
-   ![](assets/uc-collection-2.png)
+   ![](../assets/uc-collection-2.png)
 
 1. ジャーニーを作成し、作成したカスタムアクションを追加します。[このページ](../building-journeys/using-custom-actions.md)を参照してください。
 
 1. 「**[!UICONTROL アクションパラメーター]**」セクションで、高度な式エディターを使用して配列パラメーター（この例では「products」）を定義します。
 
-   ![](assets/uc-collection-3.png)
+   ![](../assets/uc-collection-3.png)
 
 1. 次のオブジェクトフィールドごとに、ソース XDM スキーマ内の対応するフィールド名を入力します。名前が同じ場合は、この操作は不要です。この例では、「product id」と「color」のみを定義する必要があります。
 
-   ![](assets/uc-collection-4.png)
+   ![](../assets/uc-collection-4.png)
 
 配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](functions/functionfilter.md) 関数と [intersect](functions/functionintersect.md) 関数を使用しています。
 
-![](assets/uc-collection-5.png)
+![](../assets/uc-collection-5.png)
 
 ## 特殊な例{#examples}
 
 異種混在タイプと配列の配列の場合、配列は listAny タイプで定義されます。 個々の項目のみをマッピングできますが、配列を変数に変更することはできません。
 
-![](assets/uc-collection-heterogeneous.png)
+![](../assets/uc-collection-heterogeneous.png)
 
 異種混在タイプの例：
 

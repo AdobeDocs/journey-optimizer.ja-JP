@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2267f82453cc00be86f1a279496aaf4e9218c5f
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '915'
+ht-degree: 99%
 
 ---
 
@@ -245,9 +245,7 @@ ht-degree: 98%
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
       + [ランキング式の作成](using/offers/offer-library/create-ranking-formulas.md)
-      + AI ランキングモデルの作成 {#create-ai-ranking-models}
-         + [AI モデルについて](using/offers/offer-library/ai-ranking.md)
-         + [AI モデルの作成](using/offers/offer-library/create-ranking-strategies.md)
+      + [ランキング戦略の作成](using/offers/offer-library/create-ranking-strategies.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
       + [フォールバックオファーの作成](using/offers/offer-library/creating-fallback-offers.md)

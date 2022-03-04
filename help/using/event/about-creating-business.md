@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
@@ -54,16 +54,16 @@ ht-degree: 100%
 
 1. 管理メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL イベント]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 イベントのリストが表示されます。
 
-   ![](assets/jo-event1.png)
+   ![](../assets/jo-event1.png)
 
 1. 新しいイベントを作成するには、「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ペインが開きます。
 
 
-   ![](assets/jo-event2.png)
+   ![](../assets/jo-event2.png)
 
 1. イベントの名前を入力します。説明を追加することもできます。
 
-   ![](assets/jo-event3-business.png)
+   ![](../assets/jo-event3-business.png)
 
    >[!NOTE]
    >
@@ -71,20 +71,20 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL タイプ]**」フィールドで、「**ビジネス**」を選択します。
 
-   ![](assets/jo-event3bis-business.png)
+   ![](../assets/jo-event3bis-business.png)
 
 1. このイベントを使用するジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。**[!UICONTROL ジャーニーを表示]**&#x200B;アイコンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
 
 1. スキーマとペイロードのフィールドを定義します。ジャーニーが受け取るイベント情報（通常、ペイロードと呼びます）は、ここで選択します。その後、この情報をジャーニーに使うことができます。[この節](../event/about-creating-business.md#define-the-payload-fields)を参照してください。
 
-   ![](assets/jo-event5-business.png)
+   ![](../assets/jo-event5-business.png)
 
    時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。フィールド `_id` および `timestamp` を必要に応じて設定する必要があります。
 
-   ![](assets/test-profiles-4.png)
+   ![](../assets/test-profiles-4.png)
 
 1.  「**[!UICONTROL イベント ID 条件]** 」フィールド内をクリックします。簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
-   ![](assets/jo-event6-business.png)
+   ![](../assets/jo-event6-business.png)
 
    この例では、製品の ID に基づいて条件を作成しました。つまり、システムがこの条件に一致するイベントを受け取るたびに、ジャーニーに渡されます。
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/journey7-business.png)
+   ![](../assets/journey7-business.png)
 
    これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
 
@@ -104,11 +104,11 @@ ht-degree: 100%
 
 1. リストから XDM スキーマを選択し、**[!UICONTROL フィールド]**&#x200B;フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
-   ![](assets/journey8-business.png)
+   ![](../assets/journey8-business.png)
 
    スキーマで定義されているすべてのフィールドが表示されます。フィールドのリストは、スキーマによって異なります。特定のフィールドを検索し、フィルターを使用してすべてのノードとフィールドを表示、または選択したフィールドのみを表示できます。スキーマ定義によっては、一部のフィールドが必須となっており、事前に選択されている場合があります。選択を解除することはできません。ジャーニーがイベントを適切に受け取るために必須のフィールドはすべて、デフォルトで選択されます。
 
-   ![](assets/journey9-business.png)
+   ![](../assets/journey9-business.png)
 
    >[!NOTE]
    >
@@ -120,7 +120,7 @@ ht-degree: 100%
 
    選択したフィールドの数が「**[!UICONTROL フィールド]**」フィールドに表示されます。
 
-   ![](assets/journey12-business.png)
+   ![](../assets/journey12-business.png)
 
 ## ペイロードのプレビュー {#preview-the-payload}
 
@@ -128,11 +128,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL ペイロードを表示]**」アイコンをクリックして、システムが想定するペイロードをプレビューします。
 
-   ![](assets/journey13-business.png)
+   ![](../assets/journey13-business.png)
 
    選択したフィールドが表示されていることに注意してください。
 
-   ![](assets/journey14-business.png)
+   ![](../assets/journey14-business.png)
 
 1. ペイロード定義を検証するプレビューを確認します。
 
