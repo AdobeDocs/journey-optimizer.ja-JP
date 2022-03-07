@@ -6,8 +6,8 @@ description: オファーをランク付けできる AI モデルについて説
 feature: Ranking Formulas
 role: User
 level: Intermediate
-exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec34
-source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
+source-git-commit: 60081eedd02d3f9e5654f8a91f6d486b75953daf
 workflow-type: tm+mt
 source-wordcount: '1582'
 ht-degree: 4%
@@ -121,4 +121,3 @@ AI モデルが作成されたら、そのモデルを決定内の配置に割�
 ### 再トレーニング頻度
 
 いくつかの統計テストを実施し、再トレーニング頻度の堅牢な値を見つけ出すことと、自動最適化のルックバック期間をデータ主導で決定しました。 ランキングサービスの最初の実装では、ルックバック期間は 15 日、再トレーニング頻度は 2 時間で、トンプソンサンプリングモデルを構築します。
-

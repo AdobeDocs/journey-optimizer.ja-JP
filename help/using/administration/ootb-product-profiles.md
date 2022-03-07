@@ -1,6 +1,6 @@
 ---
-title: 組み込みの製品プロファイル
-description: 組み込みの製品プロファイルの詳細
+title: ビルトインの製品プロファイル
+description: ビルトインの製品プロファイルの詳細
 feature: Access Management
 topic: Administration
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 ---
 
-# 組み込みの製品プロファイル {#ootb-product-profiles}
+# ビルトインの製品プロファイル {#ootb-product-profiles}
 
 ## [!DNL Journey Administrator] {#journey-administrator}
 

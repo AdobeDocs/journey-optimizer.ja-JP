@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 決定時に送信される各イベントには、分析とレポートに利用できる 4 つの主要なデータポイントが含まれています。
 
-![](../../assets/events-dataset-preview.png)
+![](../assets/events-dataset-preview.png)
 
 * **[!UICONTROL フォールバック]**：フォールバックオファーの名前と ID（パーソナライズされたオファーが選択されていない場合）
 * **[!UICONTROL プレースメント]**：オファーの配信に使用するプレースメントの名前、ID、チャネル

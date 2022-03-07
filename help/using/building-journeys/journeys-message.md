@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -15,7 +15,8 @@ ht-degree: 100%
 
 # ジャーニーへのメッセージの追加{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。[この節](../messages/get-started-content.md)を参照してください。次に、Journey Optimizer でデザインしたプッシュメッセージまたはメールメッセージをジャーニーに追加します。
+[!DNL Journey Optimizer] にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。
+[この節](../messages/get-started-content.md)を参照してください。次に、Journey Optimizer でデザインしたプッシュメッセージまたはメールメッセージをジャーニーに追加します。
 
 サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成します。詳しくは、この[節](../action/action.md)を参照してください。
 
@@ -23,27 +24,27 @@ ht-degree: 100%
 
 1. 通常どおり、ジャーニーをイベントまたは「**セグメントを読み取り**」アクティビティで開始します。
 
-   ![](../assets/jo-message0.png)
+   ![](assets/jo-message0.png)
 
 1. パレットの「**アクション**」セクションから、**メッセージ**&#x200B;アクティビティをキャンバスにドラッグ＆ドロップします。
 
-   ![](../assets/jo-message1.png)
+   ![](assets/jo-message1.png)
 
 1. ラベルと説明を追加します。
 
-   ![](../assets/jo-message2.png)
+   ![](assets/jo-message2.png)
 
 1. 「**メッセージ**」フィールド内でクリックします。Journey Optimizer でデザインした、利用可能なメッセージのリストが表示されます。ステータスでリストを絞り込むことができます。
 
-   ![](../assets/jo-message3.png)
+   ![](assets/jo-message3.png)
 
 1. メッセージを選択し、「**選択**」をクリックします。「**メッセージの作成**」をクリックして、この画面から直接新しいメッセージを作成することもできます。
 
-   ![](../assets/jo-message4-ter.png)
+   ![](assets/jo-message4-ter.png)
 
    メッセージを確認する場合は、「**メッセージ**」フィールドの「**メッセージを開く**」アイコンをクリックします。メッセージが新しいタブで開きます。
 
-   ![](../assets/jo-message4-bis.png)
+   ![](assets/jo-message4-bis.png)
 
 1. ジャーニーに次のステップを追加します。
 
@@ -51,7 +52,7 @@ ht-degree: 100%
 
 **[!UICONTROL メールパラメーター]**&#x200B;および&#x200B;**[!UICONTROL プッシュパラメーター]**&#x200B;のセクションには、読み取り専用フィールドが表示されます。通常、この設定はメッセージの作成時に実行します。 [この節](../messages/get-started-content.md)を参照してください。
 
-![](../assets/jo-message4.png)
+![](assets/jo-message4.png)
 
 特定の値を強制的に指定するには、フィールドの右側にある「**パラメーターの上書きを有効にする**」アイコンを使用します。 このオプションは、次のような様々な目的に役立つ場合があります。
 
@@ -105,7 +106,7 @@ Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サー�
 
 「メッセージ」アクティビティのパラメーターから&#x200B;**送信時間の最適化**&#x200B;スイッチを選択して、メールまたはプッシュメッセージの送信時間の最適化を有効にします。
 
-![](../assets/jo-message5.png)
+![](assets/jo-message5.png)
 
 メールメッセージの場合は、適切なラジオボタンを選択して、メールの開封数とクリックスルー数のどちらを最適化するかを選択します。プッシュメッセージではクリック数が適用されないため、デフォルトは「開封数」オプションになります。
 

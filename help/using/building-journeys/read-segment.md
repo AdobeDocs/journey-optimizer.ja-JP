@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 100%
@@ -43,13 +43,13 @@ ht-degree: 100%
    >
    >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
 
-   ![](../assets/read-segment-selection.png)
+   ![](assets/read-segment-selection.png)
 
    セグメントが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、セグメントの名前と ID をコピーできます。
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/read-segment-copy.png)
+   ![](assets/read-segment-copy.png)
 
 1. **[!UICONTROL 名前空間]**&#x200B;フィールドで、個人の識別に使用する名前空間を選択します。[名前空間の詳細情報](../event/about-creating.md#select-the-namespace)。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティを使用すると、セグメントがジャーニーにエントリする時間を指定できます。これを行うには、「**[!UICONTROL ジャーニースケジュールを編集]** 」リンクをクリックしてジャーニーのプロパティにアクセスし、**[!UICONTROL スケジューラータイプ]**&#x200B;フィールドを設定します。
 
-   ![](../assets/read-segment-schedule.png)
+   ![](assets/read-segment-schedule.png)
 
    デフォルトでは、セグメントは&#x200B;**[!UICONTROL 早急に]**&#x200B;ジャーニーにエントリします。セグメントを特定の日時にまたは繰り返しジャーニーにエントリさせる場合は、リストから目的の値を選択します。
 
@@ -75,7 +75,7 @@ ht-degree: 100%
    >
    >「**[!UICONTROL スケジュール]**」セクションは、「**[!UICONTROL セグメントを読み取り]**」アクティビティがキャンバスにドロップされた場合にのみ使用できます。
 
-   ![](../assets/read-segment-schedule-list.png)
+   ![](assets/read-segment-schedule-list.png)
 
    **増分読み取り**&#x200B;オプションを使用すると、ジャーニーの最後の実行以降にセグメントにエントリした個人のみをターゲットにすることができます。最初の実行では、常にすべてのセグメントメンバーがターゲットになります。このオプションは、繰り返し発生する&#x200B;**セグメントを読み取り**&#x200B;アクティビティでのみ使用できます。
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 これを行うには、テストモードをアクティブにし、左側のペインから目的のオプションを選択します。
 
 
-![](../assets/read-segment-test-mode.png)
+![](assets/read-segment-test-mode.png)
 
 その後、通常どおりテストモードを設定して実行できます。[ジャーニーのテスト方法を学ぶ](testing-the-journey.md)。方法を学ぶ
 
@@ -117,7 +117,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
    最大 100 個のプロファイルを一度に使用してジャーニーをテストした場合、視覚的なフローを使用してジャーニー内の個人の進行状況を追跡することはできません。
 
-   ![](../assets/read-segment-log.png)
+   ![](assets/read-segment-log.png)
 
 テストが正常に完了すると、ジャーニーを公開できます（[ジャーニーの公開](publishing-the-journey.md)を参照）。セグメントに属する個人は、ジャーニーのプロパティの「**[!UICONTROL スケジューラー]**」セクションで指定された日時にジャーニーにエントリします。
 
@@ -145,7 +145,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * 時間（例：ある人物のタイムゾーンでは朝か？）
 * ジャーニーを経験しているオーディエンスを割合に基づいて分割するアルゴリズム（例：90% - 10%、コントロール母集団を除く）。
 
-![](../assets/read-segment-audience1.png)
+![](assets/read-segment-audience1.png)
 
 **除外**
 
@@ -153,7 +153,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 この除外は、セグメントの取得直後に発生する可能性があります。これは、母集団のカウント目的や、複数手順のジャーニーに沿ったものです。
 
-![](../assets/read-segment-audience2.png)
+![](assets/read-segment-audience2.png)
 
 **結合**
 
@@ -165,4 +165,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 結合した後、セグメント化や除外を実行してオーディエンスを再度分割できます。
 
-![](../assets/read-segment-audience3.png)
+![](assets/read-segment-audience3.png)

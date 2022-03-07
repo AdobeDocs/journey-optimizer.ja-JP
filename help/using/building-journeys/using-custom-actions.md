@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -38,7 +38,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;キャンペーン ID\>`/messages`
 
-![](../assets/journey-custom-action-url.png)
+![](assets/journey-custom-action-url.png)
 
 ### ヘッダー
 
@@ -49,7 +49,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 1. ジャーニーのカスタムアクションを選択します。
 1. 設定ペインで、「**[!UICONTROL URL 設定]**」セクションのヘッダーフィールドの横にある鉛筆アイコンをクリックします。
 
-   ![](../assets/journey-dynamicheaderfield.png)
+   ![](assets/journey-dynamicheaderfield.png)
 
 1. フィールドを選択し、「**[!UICONTROL OK]**」をクリックします。
 

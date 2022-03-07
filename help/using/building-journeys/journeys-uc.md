@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 この節では、セグメントの読み取り、イベント、反応イベント、メールやプッシュメッセージを組み合わせたユースケースを示します。
 
-![](../assets/jo-uc1.png)
+![](assets/jo-uc1.png)
 
 ## ユースケースの説明
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](../assets/add-attributes.png)
+   ![](assets/add-attributes.png)
 
 セグメントが作成され、ジャーニーで使用できる状態になります。「**セグメントを読み取り**」アクティビティを使用すると、セグメントに属するすべての個人をジャーニーに入れることができます。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](../assets/jo-uc2.png)
+   ![](assets/jo-uc2.png)
 
 イベントが設定され、ジャーニーで使用できる状態になります。対応するイベントアクティビティを使用すると、顧客が購入を行うたびにアクションをトリガーできます。
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 * 「ありがとうございました」というプッシュメッセージ
 * メールでのフォローアップメッセージ
 
-![](../assets/jo-uc3.png)
+![](assets/jo-uc3.png)
 
 これらのメッセージを設計して公開する方法については、この[節](../segment/about-segments.md)を参照してください。
 
@@ -99,11 +99,11 @@ ht-degree: 100%
 
 1. 「**セグメントを読み取り**」アクティビティでジャーニーを開始します。前に作成したセグメントを選択します。セグメントに属するすべての個人がジャーニーに入ります。
 
-   ![](../assets/jo-uc4.png)
+   ![](assets/jo-uc4.png)
 
 1. **メッセージ**&#x200B;アクティビティをドロップし、プッシュとメールによる最初のメッセージを選択します。ジャーニー内のすべての個人にこのメッセージが送信されます。
 
-   ![](../assets/jo-uc5.png)
+   ![](assets/jo-uc5.png)
 
 1. メッセージアクティビティにカーソルを置き、「+」記号をクリックして新規のパスを作成します。
 

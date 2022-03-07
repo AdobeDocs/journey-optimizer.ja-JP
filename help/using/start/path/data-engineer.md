@@ -3,7 +3,7 @@ title: Journey Optimizer の基本を学ぶ（データエンジニア向け）
 description: データエンジニア向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -38,7 +38,7 @@ ID 名前空間、プロファイルに対して有効化されたデータセ�
 
 ©さらに、ジャーニーでメッセージを送信できるようにするには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;を設定する必要があります。詳しくは、[この節](../../configuration/about-data-sources-events-actions.md)を参照してください。
 
-![](../../assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 * **データソース**&#x200B;を設定すると、システムへの接続を定義して、ジャーニーで使用する追加情報を取得することができます。データソースについて詳しくは、[この節](../../datasource/about-data-sources.md)を参照してください。
 

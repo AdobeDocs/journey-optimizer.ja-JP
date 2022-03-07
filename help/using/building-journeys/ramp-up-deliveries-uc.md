@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
@@ -31,13 +31,13 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
    1. 「**[!UICONTROL 制限]**」フィールドをこの配信の最大受信者数に設定します。
 
-   ![](../assets/profile-cap-condition.png)
+   ![](assets/profile-cap-condition.png)
 
    この制限は、購読者の合計数まで徐々に増やすことができます。
 
 1. **[!UICONTROL メッセージ]**&#x200B;アクティビティを&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティの後の呼びパスに追加します。
 
-   ![](../assets/ramp-up-deliveries-message.png)
+   ![](assets/ramp-up-deliveries-message.png)
 
    ジャーニーが実行されると、指定したプロファイルの最大数まで、メッセージが入力プロファイルに送信されます。この制限に達すると、入力したプロファイルは代替パスを使用します。
 

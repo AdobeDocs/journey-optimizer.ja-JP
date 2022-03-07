@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
@@ -15,7 +15,8 @@ ht-degree: 100%
 
 # ジャーニーレポートの作成 {#design-jo-reports}
 
-[!DNL Journey Optimizer] を使用すると、[リアルタイムレポート](live-report.md)や組み込みの[グローバルなレポート機能](global-report.md)に加え、ジャーニーのパフォーマンスデータを Adobe Experience Platform に自動的に送信し、他のデータと組み合わて分析できるようになります。
+[!DNL Journey Optimizer] を使用すると、[リアルタイムレポート](live-report.md)やビルトインの[グローバルなレポート機能](global-report.md)に加え、ジャーニーのパフォーマンスデータを Adobe Experience Platform に自動的に送信し、他のデータと組み合わせて分析できるようになります。
+
 
 >[!NOTE]
 >
@@ -39,9 +40,9 @@ ht-degree: 100%
 * [!DNL Journey Orchestration] のジャーニーステップイベントスキーマ：ジャーニーメタデータに関連付けられているジャーニーステップイベント。
 * [!DNL Journey Orchestration] のジャーニーフィールドを含むジャーニースキーマ：ジャーニーを記述するジャーニーメタデータ。
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 次のデータセットが渡されます。
 
@@ -49,7 +50,7 @@ ht-degree: 100%
 * ジャーニーステップイベント
 * ジャーニー
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 Adobe Experience Platform に渡される XDM フィールドのリストについて詳しくは、以下を参照してください。
 

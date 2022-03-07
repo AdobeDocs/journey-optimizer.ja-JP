@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 オファーを変更するたびに、プレースメントの自動生成データセットが更新されます。
 
-![](../../assets/dataset-placements.png)
+![](../assets/dataset-placements.png)
 
 データセット内の最新の成功したバッチが右側に表示されます。データセットのスキーマの階層ビューが左側のペインに表示されます。
 

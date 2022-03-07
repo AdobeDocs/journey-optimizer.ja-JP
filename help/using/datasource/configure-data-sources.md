@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -23,11 +23,12 @@ ht-degree: 100%
 
 1. 「管理」メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../start/user-interface.md)を参照してください。
 
-   ![](../assets/journey18.png)
+   ![](assets/journey18.png)
 
-1. 次に、組み込みデータソースにフィールドグループを追加するか（[このページ](../datasource/adobe-experience-platform-data-source.md)を参照）、新しい外部データソース（[このページ](../datasource/external-data-sources.md)を参照）および関連付けられたフィールドグループを作成する（[このページ](../datasource/configure-data-sources.md#define-field-groups)を参照）ことができます。
+1. 次に、ビルトインデータソースにフィールドグループを追加するか（[このページ](../datasource/adobe-experience-platform-data-source.md)を参照）、新しい外部データソース（[このページ](../datasource/external-data-sources.md)を参照）および関連付けられたフィールドグループを作成する（[このページ](../datasource/configure-data-sources.md#define-field-groups)を参照）ことができます。
 
-   ![](../assets/journey23.png)
+
+   ![](assets/journey23.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -51,7 +52,7 @@ ht-degree: 100%
 >
 >フィールドグループにフィールドがない場合は、式エディターに表示されません。
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 ## フィールドグループのライフサイクル {#field-group-lifecycle}
 

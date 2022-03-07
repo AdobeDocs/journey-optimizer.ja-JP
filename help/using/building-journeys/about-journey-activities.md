@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -25,11 +25,11 @@ ht-degree: 100%
 * [反応](../building-journeys/reaction-events.md)
 * [セグメントの選定](../building-journeys/segment-qualification-events.md)
 
-![](../assets/journey43.png)
+![](assets/journey43.png)
 
 ジャーニーを開始するには、イベントアクティビティをドラッグ＆ドロップします。ダブルクリックでも開始できます。
 
-![](../assets/journey44.png)
+![](assets/journey44.png)
 
 ## オーケストレーションアクティビティ {#orchestration-activities}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 * [待機](../building-journeys/wait-activity.md)
 * [セグメントの読み取り](../building-journeys/read-segment.md)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## アクションアクティビティ {#action-activities}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
 * [ジャンプ](../building-journeys/jump.md)
 
-![](../assets/journey58.png)
+![](assets/journey58.png)
 
 これらのアクティビティは、様々な通信チャネルを表します。これらを組み合わせて、クロスチャネルシナリオを作成できます。
 
@@ -60,8 +60,8 @@ ht-degree: 100%
 
 ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別したい場合に便利です。また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
-![](../assets/journey42.png)
+![](assets/journey42.png)

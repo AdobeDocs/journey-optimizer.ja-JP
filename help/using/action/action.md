@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
@@ -23,7 +23,8 @@ ht-degree: 100%
 
 アクションとは、プッシュ通知、メール、SMS、またはビジネスで使用するその他のデジタルエンゲージメントの手段など、パーソナライズされたリアルタイムのエクスペリエンスを顧客に提供するための接続です。
 
-[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。[この節](../messages/get-started-content.md)を参照してください。
+[!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。
+[この節](../messages/get-started-content.md)を参照してください。
 
 Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応じて統合を利用できます。 [このページ](../action/acc-action.md)を参照してください。
 
@@ -39,4 +40,4 @@ Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応�
 
 アクションリストを表示したり、新しいアクションを設定したりするには、「管理」メニューセクションで「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。アクションのリストが表示されます。インターフェイスの詳細については、[このページ](../start/user-interface.md)を参照してください。
 
-![](../assets/custom1.png)
+![](assets/custom1.png)

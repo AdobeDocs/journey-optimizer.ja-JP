@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: c2052a2c4468239d22d8a8d57b4ceac0329773d1
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer では、外部ソースからデータを取り込みながら、Platform サービスを使用して入力データの構造化、ラベル付けおよび強化を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
 
-![](../assets/sources-home.png)
+![](assets/sources-home.png)
 
 このビデオでは、ソースコネクタと、Journey Optimizer でのソースコネクタの設定方法について説明します。
 

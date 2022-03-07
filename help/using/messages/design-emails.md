@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でメールコンテンツを作成する際には、次のことができます。
 
-* E メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、 [Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。メールコンテンツの設計方法や、組み込みのテンプレートについては、[この節](create-email-content.md)を参照してください。
+* E メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、 [Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。メールコンテンツの設計方法や、ビルトインテンプレートについては、[この節](create-email-content.md)を参照してください。
 
 * E メールデザイナーで直接 **Raw HTMLをコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](existing-content.md#import-raw-html-code)を参照してください。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 * [日付条件](#date_condition)
 * [プロファイルキャップ](#profile_cap)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## 条件アクティビティについて {#about_condition}
 
@@ -31,13 +31,13 @@ ht-degree: 100%
 
 複数の条件を定義する場合は、「は、**[!UICONTROL パスを追加]**」をクリックします。条件ごとに、キャンバスのアクティビティの後に新しいパスが追加されます。
 
-![](../assets/journey47.png)
+![](assets/journey47.png)
 
 ジャーニーの設計には、機能的な影響があることに注意してください。条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。つまり、パスを上下に配置することで、パスの優先順位を変更できます。
 
 例えば、最初のパスの条件「この人物は VIP である」と2番目のパスの条件「この人物は男性である」を例にとってみましょう。両方の条件を満たす人物（VIP の男性）がこのステップを通過した場合、最初のパスが「上」に配置されているため、この人物が 2 番目のパスに該当しても最初のパスが選択されます。この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
 
-![](../assets/journey48.png)
+![](assets/journey48.png)
 
 定義された条件に該当しないオーディエンス向けに、別のパスを作成するには、「**[!UICONTROL 上記以外の事例のパスを表示]**」をオンにします。このオプションは、条件分岐では使用できません。[分割された割合](#percentage_split)を参照してください。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 * AND：2 つの基準の積集合（共通部分）。すべて条件に一致する要素のみが考慮されます。
 * OR：2つの基準の和集合。2 つの条件の少なくとも 1 つに一致する要素が考慮されます。
 
-![](../assets/journey64.png)
+![](assets/journey64.png)
 
 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target=&quot;_blank&quot;} を使用してセグメントを作成する場合は、それらのセグメントをジャーニー条件で利用できます。[条件でのセグメントの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントーに基づいて条件を定義できます。式エディターの使用方法については、[Adobe Journey Orchestration ドキュメント](expression/expressionadvanced.md)を参照してください。高度な式エディターを使用すると、コレクションを操作する、またはパラメーターを渡す必要があるデータソースを使用する、より高度な条件を設定できます。[このページ](../datasource/external-data-sources.md)を参照してください。
 
-![](../assets/journey50.png)
+![](assets/journey50.png)
 
 ## 時間条件{#time_condition}
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 >
 >タイムゾーンは条件に固有ではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
-![](../assets/journey51.png)
+![](assets/journey51.png)
 
 ## パーセンテージ分割 {#percentage_split}
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 >
 >割合条件分岐には、パスを追加するボタンはありません。パスの数は、分割数によって異なります。条件分岐では、他のケースではパスは発生しないので、パスを追加できません。ユーザーは常に、分割されたパスの 1 つに入ります。
 
-![](../assets/journey52.png)
+![](assets/journey52.png)
 
 ## 日付条件 {#date_condition}
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 >
 >タイムゾーンは条件に固有ではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
-![](../assets/journey53.png)
+![](assets/journey53.png)
 
 ## プロファイルキャップ {#profile_cap}
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 テストモードでは、プロファイルキャップは考慮されません。
 
-![](../assets/profile-cap-condition.png)
+![](assets/profile-cap-condition.png)
 
 ## 条件でのセグメントの使用 {#using-a-segment}
 
@@ -125,15 +125,15 @@ ht-degree: 100%
 ジャーニー条件でセグメントを使用するには、次の手順に従います。
 
 1. ジャーニーを開いて&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティをドロップし、「**データソース条件**」を選択します。
-   ![](../assets/journey47.png)
+   ![](assets/journey47.png)
 
 1. 必要な追加パスごとに「**[!UICONTROL パスを追加]**」をクリックします。各パスに対して「**[!UICONTROL 式]**」フィールドをクリックします。
 
-   ![](../assets/segment3.png)
+   ![](assets/segment3.png)
 
 1. 左側で、**[!UICONTROL セグメント]**&#x200B;ノードを展開します。条件に使用するセグメントをドラッグ＆ドロップします。デフォルトでは、セグメントの条件は true です。
 
-   ![](../assets/segment4.png)
+   ![](assets/segment4.png)
 
    >[!NOTE]
    >

@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 クエリエディターでは、分析およびデータ調査のためのクエリを作成できます。また、開発目的でインタラクティブクエリを実行できるほか、非インタラクティブクエリを実行して[データセット](get-started-datasets.md)に入力することもできます。
 
 
-![](../assets/queries-home.png)
+![](assets/queries-home.png)
 
 クエリエディターの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
