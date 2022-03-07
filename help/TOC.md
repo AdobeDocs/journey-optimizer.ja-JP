@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: f2267f82453cc00be86f1a279496aaf4e9218c5f
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 99%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -245,7 +245,9 @@ ht-degree: 99%
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
       + [ランキング式の作成](using/offers/offer-library/create-ranking-formulas.md)
-      + [ランキング戦略の作成](using/offers/offer-library/create-ranking-strategies.md)
+      + AI ランキングモデルの作成 {#create-ai-ranking-models}
+         + [AI モデルについて](using/offers/offer-library/ai-ranking.md)
+         + [AI モデルの作成](using/offers/offer-library/create-ranking-strategies.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
       + [フォールバックオファーの作成](using/offers/offer-library/creating-fallback-offers.md)
@@ -360,7 +362,7 @@ ht-degree: 99%
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + [アクセス制御の概要](using/administration/permissions-overview.md)
-   + [組み込みの製品プロファイル](using/administration/ootb-product-profiles.md)
+   + [ビルトインの製品プロファイル](using/administration/ootb-product-profiles.md)
    + [ユーザーと製品プロファイルの管理](using/administration/permissions.md)
    + [権限レベル](using/administration/high-low-permissions.md)
    + [サンドボックス管理](using/administration/sandboxes.md)
