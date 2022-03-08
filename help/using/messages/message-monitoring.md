@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '620'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >メッセージが複数のジャーニーで使用されている場合、各実行に対してジャーニーごとに 1 行が表示されます。
 
-デフォルトでは、メッセージは直近の実行日から表示されます。チャネル、開始日、終了日に従ってメッセージを検索するには、**[!UICONTROL フィルター]**&#x200B;アイコンをクリックし、します。
+デフォルトでは、メッセージは直近の実行日から表示されます。チャネル、開始日、終了日に従ってメッセージを検索するには、**[!UICONTROL フィルター]**&#x200B;アイコンをクリックします。また、**実行リスト**&#x200B;からテストイベントの除外を選択することもできます。
 
 ![](assets/message-execution-tab-filters.png)
 

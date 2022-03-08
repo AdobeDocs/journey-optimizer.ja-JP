@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 自動生成された決定データセットは、オファーを変更するたびに更新されます。
 
-![](../../assets/dataset-activities.png)
+![](../assets/dataset-activities.png)
 
 データセット内の最新の成功したバッチが右側に表示されます。データセットのスキーマの階層ビューが左側のペインに表示されます。
 

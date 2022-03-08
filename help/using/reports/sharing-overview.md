@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 100%
 * [!DNL Journey Orchestration] のジャーニーステップイベントスキーマ：ジャーニーメタデータに関連付けられているジャーニーステップイベント。
 * [!DNL Journey Orchestration] のジャーニーフィールドを含むジャーニースキーマ：ジャーニーを記述するジャーニーメタデータ。
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 次のデータセットが渡されます。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 * ジャーニーステップイベント
 * ジャーニー
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 Adobe Experience Platform に渡される XDM フィールドのリストについて詳しくは、以下を参照してください。
 
@@ -59,7 +59,7 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 
 Adobe Experience Platform に通知されるステップイベントについて詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
 
-## Customer Journey Analytics との統合 {#integration-cja}
+## Customer Journey Analyticsとの統合 {#integration-cja}
 
 Journey Optimizer のステップイベントは、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできます。次に一般的なワークフローを示します。
 

@@ -5,19 +5,34 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+hidefromtoc: true
+hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
 
 # ランディングページの基本を学ぶ {#get-sarted-lp}
 
+>[!CAUTION]
+>
+>ランディングページは現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
+
 ランディングページは、メール、web サイト、広告、またはその他のデジタル化された場所からユーザーがクリックスルーした後に表示されるスタンドアロン web ページです。
 
+<!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
+
 [!DNL Journey Optimizer] を使用すると、ランディングページを作成およびデザインして、ユーザーはオンラインフォームにアクセスし、コミュニケーションのオプトインやオプトアウトを行ったり、ニュースレターなどの特定のサービスを購読したりできます。
+
+<!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
+
+<!--[!DNL Journey Optimizer] now allows you to:
+* Easily build landing pages to make users subscribe to your communications.
+* Enable your customers to opt-in or opt-out from your communications.
+To move to RN-->
 
 * [!DNL Journey Optimizer]のコンテンツデザイン機能を活用すると、**レスポンシブランディングページ**&#x200B;を簡単に作成できます。
 * **オプトインおよびオプトアウトフロー**&#x200B;を迅速かつシームレスに設定します。

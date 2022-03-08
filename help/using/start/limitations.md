@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 32113acec8df619efc024e555766cbf532720529
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 94%
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,6 @@ ht-degree: 94%
 * [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
 * [!DNL Journey Optimizer] では、「BCC で E メールを送信」機能はサポートされていません。
 * [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
-
-## ランディングページの制限 {#limitations-lp}
-
-* 1 つだけ **フォーム** コンポーネントは、単一のプライマリページで使用できます。
-* この **フォーム** コンポーネントはサブページでは使用できません。
-* ランディングページにプリヘッダーを追加することはできません。
-
-<!--You cannot select the **Code your own** option when designing a primary landing page.-->
 
 ## ジャーニーの制限事項 {#limitations-journeys}
 
