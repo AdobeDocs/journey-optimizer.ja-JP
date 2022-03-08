@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 **[!UICONTROL メッセージ]**&#x200B;メニューの「**[!UICONTROL 実行]**」タブで、「**[!UICONTROL ライブ表示]**」を選択し、選択した配信の詳細メニューで「**[!UICONTROL ライブレポート]**」を選択します。
 
-![](assets/live_report.png)
+![](../assets/live_report.png)
 
 メール&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、配信の成功やエラーを示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md#modify-dashboard)を参照してください。
 
-![](assets/live_report_5.png)
+![](../assets/live_report_5.png)
 
 **[!UICONTROL メールのパフォーマンス]**&#x200B;および&#x200B;**[!UICONTROL メールの概要]** ウィジェットでは、メッセージに関連する主な情報の詳細がグラフと KPI と共に表示されます。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
-![](assets/live_report_6.png)
+![](../assets/live_report_6.png)
 
 「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
 
 <!--
-![](assets/live_report_8.png)
+![](../assets/live_report_8.png)
 
 >[!NOTE]
 >

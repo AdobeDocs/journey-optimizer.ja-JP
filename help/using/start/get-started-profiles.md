@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >[!DNL Adobe Journey Optimizer] を初めて使用する組織で、アクティブなプロファイルデータセットや結合ポリシーが作成されていない場合は、**プロファイル**&#x200B;ダッシュボードは表示されません。 代わりに、「**概要**」タブに、リアルタイム顧客プロファイルを初めて使用する際に役立つ Adobe Experience Platform ドキュメントへのリンクが表示されます。
 
-![](assets/profiles-home.png)
+![](../assets/profiles-home.png)
 
 **プロファイルダッシュボード**&#x200B;にアクセスして操作する方法と、ダッシュボードに表示される指標の詳細については、[この節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 

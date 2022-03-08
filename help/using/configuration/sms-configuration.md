@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
 
 1. 「**[!UICONTROL 管理]**」／「**[!UICONTROL チャネル]**」／「**[!UICONTROL API 認証情報]**」メニューにアクセスし、「 **[!UICONTROL API 認証情報の作成]**」をクリックします。
 
-   ![](assets/sms_4.png)
+   ![](../assets/sms_4.png)
 
 1. **[!UICONTROL SMS ベンダー]**&#x200B;として Sinch を選択します。
 
@@ -39,7 +39,7 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
    >
    > Sinch には特別な API 認証情報が必要です。次を検索： **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、Sinch アカウントから SMS／API メニューにアクセスします。
 
-   ![](assets/sms_5.png)
+   ![](../assets/sms_5.png)
 
 1. API 認証情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
@@ -53,11 +53,11 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューにアクセスし、「**[!UICONTROL メッセージプリセットを作成]**」をクリックします。
 
-   ![](assets/preset-create.png)
+   ![](../assets/preset-create.png)
 
 1. プリセットの名前と説明（オプション）を入力し、SMS チャネルを選択します。
 
-   ![](assets/sms_preset.png)
+   ![](../assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. **SMS** の設定を行います。
 
-   ![](assets/preset-sms.png)
+   ![](../assets/preset-sms.png)
 
    * プリセットを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択します。
 
@@ -77,7 +77,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
-   ![](assets/sms_preset_2.png)
+   ![](../assets/sms_preset_2.png)
 
 1. メッセージプリセットが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
@@ -87,7 +87,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
-   ![](assets/preset-active.png)
+   ![](../assets/preset-active.png)
 
 これで、Journey Optimizer で SMS メッセージを送信する準備が整いました。
 

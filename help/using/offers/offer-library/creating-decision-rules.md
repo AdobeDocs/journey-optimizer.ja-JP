@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
@@ -23,13 +23,13 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 作成した決定ルールのリストには、 **[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 決定ルールを作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL ルール]**」タブに移動し、「**[!UICONTROL ルールを作成]**」をクリックします。
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. ルールに名前を付け、説明を入力したあと、ルールを必要に応じて設定します。
 
@@ -37,7 +37,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
    この例では、「ゴールド」ロイヤルティレベルの顧客がルールのターゲットになります。
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールを作成すると、ルールリストに表示されます。選択するとプロパティが表示され、編集することも削除することもできます。
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 >[!CAUTION]
 >

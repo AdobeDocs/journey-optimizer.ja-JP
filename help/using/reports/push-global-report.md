@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 **[!UICONTROL メッセージ]**&#x200B;メニューの「**[!UICONTROL 実行]**」タブで、「**[!UICONTROL グローバル表示]**」をクリックしてから、選択した配信の詳細メニューで「**[!UICONTROL グローバルレポート]**」を選択します。
 
-![](assets/global_report_11.png)
+![](../assets/global_report_11.png)
 
 プッシュの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、配信の成功とエラーを示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](global-report.md#modify-dashboard)を参照してください。
 
-![](assets/push_global_report.png)
+![](../assets/push_global_report.png)
 
 **[!UICONTROL プッシュ通知のパフォーマンス]**&#x200B;ウィジェットは、KPI を使用して、プッシュ通知に関する主な情報の詳細を示します。
 
@@ -51,6 +51,6 @@ ht-degree: 100%
 
 「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
 
-![](assets/push_global_report_2.png)
+![](../assets/push_global_report_2.png)
 
 **[!UICONTROL プラットフォーム別トラッキング]**、**[!UICONTROL プラットフォーム別送信]**、**[!UICONTROL プラットフォーム別分類]**&#x200B;のグラフとテーブルには、プッシュ通知の成功の詳細がオペレーティングシステムに応じて表示されます。

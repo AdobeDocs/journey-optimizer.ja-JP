@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -24,27 +24,27 @@ ht-degree: 100%
 
 1. 通常どおり、ジャーニーをイベントまたは「**セグメントを読み取り**」アクティビティで開始します。
 
-   ![](assets/jo-message0.png)
+   ![](../assets/jo-message0.png)
 
 1. パレットの「**アクション**」セクションから、**メッセージ**&#x200B;アクティビティをキャンバスにドラッグ＆ドロップします。
 
-   ![](assets/jo-message1.png)
+   ![](../assets/jo-message1.png)
 
 1. ラベルと説明を追加します。
 
-   ![](assets/jo-message2.png)
+   ![](../assets/jo-message2.png)
 
 1. 「**メッセージ**」フィールド内でクリックします。Journey Optimizer でデザインした、利用可能なメッセージのリストが表示されます。ステータスでリストを絞り込むことができます。
 
-   ![](assets/jo-message3.png)
+   ![](../assets/jo-message3.png)
 
 1. メッセージを選択し、「**選択**」をクリックします。「**メッセージの作成**」をクリックして、この画面から直接新しいメッセージを作成することもできます。
 
-   ![](assets/jo-message4-ter.png)
+   ![](../assets/jo-message4-ter.png)
 
    メッセージを確認する場合は、「**メッセージ**」フィールドの「**メッセージを開く**」アイコンをクリックします。メッセージが新しいタブで開きます。
 
-   ![](assets/jo-message4-bis.png)
+   ![](../assets/jo-message4-bis.png)
 
 1. ジャーニーに次のステップを追加します。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 **[!UICONTROL メールパラメーター]**&#x200B;および&#x200B;**[!UICONTROL プッシュパラメーター]**&#x200B;のセクションには、読み取り専用フィールドが表示されます。通常、この設定はメッセージの作成時に実行します。 [この節](../messages/get-started-content.md)を参照してください。
 
-![](assets/jo-message4.png)
+![](../assets/jo-message4.png)
 
 特定の値を強制的に指定するには、フィールドの右側にある「**パラメーターの上書きを有効にする**」アイコンを使用します。 このオプションは、次のような様々な目的に役立つ場合があります。
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サー�
 
 「メッセージ」アクティビティのパラメーターから&#x200B;**送信時間の最適化**&#x200B;スイッチを選択して、メールまたはプッシュメッセージの送信時間の最適化を有効にします。
 
-![](assets/jo-message5.png)
+![](../assets/jo-message5.png)
 
 メールメッセージの場合は、適切なラジオボタンを選択して、メールの開封数とクリックスルー数のどちらを最適化するかを選択します。プッシュメッセージではクリック数が適用されないため、デフォルトは「開封数」オプションになります。
 

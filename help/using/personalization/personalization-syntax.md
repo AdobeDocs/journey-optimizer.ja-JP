@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 92%
+source-wordcount: '659'
+ht-degree: 100%
 
 ---
 
@@ -144,12 +144,10 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 ## URL のパーソナライゼーション{#perso-urls}
 
-パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。 Adobe Journey Optimizerでは、メッセージコンテンツの URL にパーソナライゼーションを追加できます。 URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。
+Journey Optimizer では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。その手順は次のとおりです。
 
-Journey Optimizer では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。URL をパーソナライズするには、次の手順に従います。
-
-1. メッセージコンテンツにリンクを作成します。 [詳細情報](../messages/message-tracking.md#insert-links)
-1. パーソナライゼーションアイコンから、属性を選択します。 パーソナライゼーションアイコンは、次のタイプのリンクでのみ使用できます。 **外部リンク**, **購読解除リンク** および **オプトアウト**.
+* メールまたはプッシュコンテンツにリンクを作成します。 リンクの作成について詳しくは、[このページ](../messages/message-tracking.md#insert-links)を参照してください。
+* パーソナライゼーションアイコンをクリックします。 このアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;の 3 種類のリンクで使用できます。
 
 ![](assets/perso-url.png)
 

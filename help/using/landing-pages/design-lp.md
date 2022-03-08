@@ -5,10 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
@@ -19,7 +17,7 @@ ht-degree: 100%
 
 ランディング用のコンテンツの作成を開始するには[プライマリページ](create-lp.md#configure-primary-page)または[サブページ](create-lp.md#configure-subpages)をクリックし、プライマリページコンテンツにマウスポインターを置いて、「**[!UICONTROL Designer を開く]**」をクリックします。右側のパレットで、対応するボタンをクリックすることもできます。
 
-![](assets/lp_open-designer.png)
+![](../assets/lp_open-designer.png)
 
 ここから、次のことができます。
 
@@ -39,7 +37,7 @@ ht-degree: 100%
 
 1. ランディングページ固有の&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントを左側のパレットからメインのワークスペースにドラッグ＆ドロップします。
 
-   ![](assets/lp_designer-form-component.png)
+   ![](../assets/lp_designer-form-component.png)
 
    >[!NOTE]
    >
@@ -47,7 +45,7 @@ ht-degree: 100%
 
 1. 選択します。「**[!UICONTROL フォームコンテンツ]**」タブが右側のパレットに表示され、フォームの様々なフィールドを編集できます。
 
-   ![](assets/lp_designer-form-content-options.png)
+   ![](../assets/lp_designer-form-content-options.png)
 
    >[!NOTE]
    >
@@ -57,15 +55,15 @@ ht-degree: 100%
 
 1. このチェックボックスでユーザーのオプトイン／オプトアウトを行うかどうかを定義します（お知らせの受信に同意する、または以降の連絡を望まない）。
 
-   ![](assets/lp_designer-form-update.png)
+   ![](../assets/lp_designer-form-update.png)
 
 1. 次の 3 つのオプションの間で、更新する項目を選択します。
 
-   ![](assets/lp_designer-form-update-options.png)
+   ![](../assets/lp_designer-form-update-options.png)
 
    * **[!UICONTROL 購読リスト]**：プロファイルがこのチェックボックスを選択した場合に更新される購読リストを選択する必要があります。詳しくは、[購読リスト](subscription-list.md)を参照してください。
 
-      ![](assets/lp_designer-form-subs-list.png)
+      ![](../assets/lp_designer-form-subs-list.png)
 
    * **[!UICONTROL チャネル（メール）]**：オプトインまたはオプトアウトは、チャネル全体に適用されます。 例えば、オプトアウトするプロファイルに 2 つのメールアドレスがある場合、両方のアドレスはすべてのコミュニケーションから除外されます。
 
@@ -73,11 +71,11 @@ ht-degree: 100%
 
 1. **[!UICONTROL フィールドを追加]**／**[!UICONTROL チェックボックス]**&#x200B;をクリックし、別のチェックボックスを追加します。上記の手順を繰り返して、プロパティを定義します。
 
-   ![](assets/lp_designer-form-checkbox-2.png)
+   ![](../assets/lp_designer-form-checkbox-2.png)
 
 1. 必要なチェックボックスをすべて追加したら、「**[!UICONTROL コールトゥアクション]**」をクリックして、対応するセクションを展開します。これにより、**[!UICONTROL フォーム]**&#x200B;コンポーネントでボタンの動作を定義できるようになります。
 
-   ![](assets/lp_designer-form-call-to-action.png)
+   ![](../assets/lp_designer-form-call-to-action.png)
 
 1. ボタンをクリックしたときの動作を定義します。
 
@@ -85,7 +83,7 @@ ht-degree: 100%
    * **[!UICONTROL 確認テキスト]**：表示する確認テキストを入力します。
    * **[!UICONTROL サブページへのリンク]**：[サブページ](create-lp.md#configure-subpages)を設定し、表示されるドロップダウンリストから選択します。
 
-   ![](assets/lp_designer-form-confirmation-action.png)
+   ![](../assets/lp_designer-form-confirmation-action.png)
 
 1. エラーが発生した場合にボタンをクリックしたときの動作を定義します。
 
@@ -94,15 +92,15 @@ ht-degree: 100%
 
    * **[!UICONTROL サブページへのリンク]**：[サブページ](create-lp.md#configure-subpages)を設定し、表示されるドロップダウンリストから選択します。
 
-   ![](assets/lp_designer-form-error.png)
+   ![](../assets/lp_designer-form-error.png)
 
 1. フォームの送信時に追加の更新を行う場合は、「**[!UICONTROL オプトイン]**」または「**[!UICONTROL オプトアウト]**」を選択し、購読リスト、チャネル、または使用するメールアドレスのみを更新するかどうかを定義します。
 
-   ![](assets/lp_designer-form-additionnal-update.png)
+   ![](../assets/lp_designer-form-additionnal-update.png)
 
 1. コンテンツを保存し、ページ名の横の矢印をクリックして、[ランディングページのプロパティ](create-lp.md#configure-primary-page)に戻ります。
 
-   ![](assets/lp_designer-form-save.png)
+   ![](../assets/lp_designer-form-save.png)
 
 <!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
 
@@ -110,25 +108,25 @@ ht-degree: 100%
 
 1. フォームコンポーネントコンテンツのスタイルを変更するには、いつでも「**[!UICONTROL フォームスタイル]**」タブに切り替えます。
 
-   ![](assets/lp_designer-form-style.png)
+   ![](../assets/lp_designer-form-style.png)
 
 1. 「**[!UICONTROL チェックボックス]**」セクションを展開し、チェックボックスと対応するテキストの外観を定義します。例えば、フォントファミリーやサイズ、チェックボックスの境界線の色を調整できます。
 
-   ![](assets/lp_designer-form-style-checkboxes.png)
+   ![](../assets/lp_designer-form-style-checkboxes.png)
 
 1. 「**[!UICONTROL ボタン]**」セクションを展開し、コンポーネントフォーム内のボタンの外観を変更します。例えば、境界線を追加したり、マウスポインターを置いたときのラベルの色を編集したり、ボタンの配置を調整したりできます。
 
-   ![](assets/lp_designer-form-style-buttons.png)
+   ![](../assets/lp_designer-form-style-buttons.png)
 
    マウスポインタ―を置いたときにボタンのラベルの色などの設定の一部をプレビューするには、「**[!UICONTROL プレビュー]**」ボタンを使用します。 ランディングページのテストについては、[こちら](create-lp.md#test-landing-page)を参照してください。
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   ![](../assets/lp_designer-form-style-buttons-preview.png)
 
 1. 「**[!UICONTROL フォームレイアウト]**」セクションを展開し、背景色、パディング、余白などのレイアウト設定を編集します。
 
-   ![](assets/lp_designer-form-style-layout.png)
+   ![](../assets/lp_designer-form-style-layout.png)
 
 1. 「**[!UICONTROL フォームエラー]**」セクションを展開し、問題が発生した場合に表示されるエラーメッセージの表示を調整します。 フォーム上のエラーテキストをプレビューするには、対応するオプションをオンにします。
 
-   ![](assets/lp_designer-form-error-preview.png)
+   ![](../assets/lp_designer-form-error-preview.png)
 

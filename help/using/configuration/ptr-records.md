@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
@@ -25,7 +25,7 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 Adobe Journey Optimizer で[サブドメインがデリゲート](delegate-subdomain.md)されると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
 
-![](assets/ptr-records.png)
+![](../assets/ptr-records.png)
 
 このリストには、以下の構文を使用して、デリゲートされたサブドメインごとに生成された PTR レコードが表示されます。
 
@@ -49,11 +49,11 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 1. リストで PTR レコード名をクリックして開きます。
 
-   ![](assets/ptr-record-select.png)
+   ![](../assets/ptr-record-select.png)
 
 1. リストからアドビに[完全にデリゲートされた](delegate-subdomain.md#full-subdomain-delegation)サブドメインを選択します。
 
-   ![](assets/ptr-record-subdomain.png)
+   ![](../assets/ptr-record-subdomain.png)
 
 1. 「 **[!UICONTROL 保存]**」をクリックして変更を確定します。
 
@@ -63,15 +63,15 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 1. リストで PTR レコード名をクリックして開きます。
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](../assets/ptr-record-select-cname.png)
 
 1. リストの [CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)を使用して、アドビにデリゲートされたサブドメインを選択します。
 
-   ![](assets/ptr-record-subdomain-cname.png)
+   ![](../assets/ptr-record-subdomain-cname.png)
 
 1. ホスティングプラットフォーム上に新しい転送 DNS レコードを作成する必要があります。これを行うには、アドビが生成したレコードをコピーします。完了したら、「確認しました」チェックボックスをオンにします。
 
-   ![](assets/ptr-record-subdomain-confirm.png)
+   ![](../assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 リスト内の PTR レコード名の横に「**[!UICONTROL 処理中]**」アイコンが表示されます。
 
-![](assets/ptr-record-updating.png)
+![](../assets/ptr-record-updating.png)
 
 PTR レコードの更新の詳細を確認するには、「**[!UICONTROL 更新中]**」アイコンまたは「**[!UICONTROL 最近の更新]**」アイコンをクリックします。
 
-![](assets/ptr-record-recent-update.png)
+![](../assets/ptr-record-recent-update.png)
 
 更新ステータスやリクエストされた変更などの情報が表示されます。
 
-![](assets/ptr-record-updates.png)
+![](../assets/ptr-record-updates.png)
 
 ## PTR レコードの更新ステータス {#ptr-record-update-statuses}
 
 PTR レコードの更新には、次のステータスがあります。
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL 処理中]**：PTR レコードの更新が送信され、検証プロセスを実行中です。
-* ![](assets/do-not-localize/ptr-record-success.png)**[!UICONTROL 成功]**：更新された PTR レコードが検証され、新しいサブドメインが IP アドレスに関連付けられました。
-* ![](assets/do-not-localize/ptr-record-failed.png)**[!UICONTROL 失敗]**：PTR レコードの更新を検証中に、1 つ以上のチェックが失敗しました。
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL 処理中]**：PTR レコードの更新が送信され、検証プロセスを実行中です。
+* ![](../assets/do-not-localize/ptr-record-success.png)**[!UICONTROL 成功]**：更新された PTR レコードが検証され、新しいサブドメインが IP アドレスに関連付けられました。
+* ![](../assets/do-not-localize/ptr-record-failed.png)**[!UICONTROL 失敗]**：PTR レコードの更新を検証中に、1 つ以上のチェックが失敗しました。
 
 ### 処理中 {#processing}
 

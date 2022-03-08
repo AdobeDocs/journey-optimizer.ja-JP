@@ -5,31 +5,41 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: bd940f023795da1bc93f8dba537ef3a04258e033
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '990'
+ht-degree: 87%
 
 ---
 
 # ランディングページの作成と公開 {#create-lp}
 
->[!CAUTION]
->
->ランディングページは現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
-
 ## ランディングページへのアクセス {#access-landing-pages}
 
 ランディングページのリストにアクセスするには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
-![](assets/lp_access-list.png)
+![](../assets/lp_access-list.png)
 
 **[!UICONTROL ランディングページ]**&#x200B;のリストには、作成されたすべての項目が表示されます。ステータスや変更日に基づいてフィルター処理できます。
 
-![](assets/lp_access-list-filter.png)
+![](../assets/lp_access-list-filter.png)
+
+このリストから、 [ランディングページレポート](lp-report.md) 公開された項目の場合。
+
+ランディングページの削除、複製、非公開もおこなえます。
+
+>[!CAUTION]
+>
+>非公開のメッセージで参照されているランディングページを非公開にした場合、ランディングページが再び公開されるまでメッセージは公開できません。 メッセージが既に公開されている場合、ランディングページへのリンクが壊れ、エラーページが表示されます。
+
+ランディングページの横にある 3 つのドットをクリックし、目的のアクションを選択します。
+
+![](../assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>公開済みのランディングページは削除できません。 削除するには、まず非公開にする必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -37,29 +47,25 @@ ht-degree: 100%
 
 1. ランディングページのリストから、「**[!UICONTROL ランディングページの作成]**」をクリックします。
 
-   ![](assets/lp_create-lp.png)
+   ![](../assets/lp_create-lp.png)
 
 1. タイトルを追加します。 必要に応じて、説明を追加できます。
 
-   ![](assets/lp_create-lp-details.png)
+   ![](../assets/lp_create-lp-details.png)
 
-1. プリセットを選択します。
+1. プリセットを選択します。でランディングページプリセットを作成する方法を説明します。 [この節](../configuration/lp-configuration.md#lp-create-preset).
 
-   ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >ランディングページのプリセットを定義するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+   ![](../assets/lp_create-lp-presets.png)
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
 1. プライマリページとそのプロパティが表示されます。 プライマリページの設定方法については、[こちら](#configure-primary-page)を参照してください。
 
-   ![](assets/lp_primary-page.png)
+   ![](../assets/lp_primary-page.png)
 
 1. 「+」アイコンをクリックしてサブページを追加します。サブページの設定方法については、[こちら](#configure-subpages)を参照してください。
 
-   ![](assets/lp_add-subpage.png)
+   ![](../assets/lp_add-subpage.png)
 
 [プライマリページ](#configure-primary-page)と[サブページ](#configure-subpages)（存在する場合）を設定およびデザインしたら、ランディングページを[テスト](#test-landing-page)して[公開](#publish-landing-page)できます。
 
@@ -73,15 +79,15 @@ ht-degree: 100%
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
 
-   ![](assets/lp_open-designer.png)
+   ![](../assets/lp_open-designer.png)
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。 [詳細情報](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
    >ランディングページの URL は一意にする必要があります。
 
-   ![](assets/lp_access-url.png)
+   ![](../assets/lp_access-url.png)
 
 1. ページの有効期限を定義できます。その場合、ページの有効期限が切れたらアクションを選択する必要があります。
 
@@ -89,17 +95,17 @@ ht-degree: 100%
    * **[!UICONTROL カスタムページ]**：[サブページを設定](#configure-subpages)し、表示されるドロップダウンリストから選択します。
    * **[!UICONTROL ブラウザーエラー]**：ページの代わりに表示するエラーテキストを入力します。
 
-   ![](assets/lp_expiry-date.png)
+   ![](../assets/lp_expiry-date.png)
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
 1. [プライマリページのデザイン時に](design-lp.md) 1 つ以上の購読リストを選択した場合、「**[!UICONTROL 購読リスト]**」セクションに表示されます。
 
-   ![](assets/lp_subscription-list.png)
+   ![](../assets/lp_subscription-list.png)
 
 1. ランディングページから直接、ユーザーがフォームを送信したときに確認メッセージを送信する[ジャーニーを作成](../building-journeys/journey-gs.md#jo-build)できます。この[ユースケース](lp-use-cases.md#subscription-to-a-service)の最後に、このようなジャーニーの作成方法について説明します。
 
-   ![](assets/lp_create-journey.png)
+   ![](../assets/lp_create-journey.png)
 
    「**[!UICONTROL ジャーニーを作成]**」をクリックして、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;リストにリダイレクトします。
 
@@ -113,13 +119,13 @@ ht-degree: 100%
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
 
    >[!CAUTION]
    >
    >ランディングページの URL は一意にする必要があります。
 
-![](assets/lp_subpage-settings.png)
+![](../assets/lp_subpage-settings.png)
 
 ## ランディングページのテスト {#test-landing-page}
 
@@ -131,7 +137,7 @@ ht-degree: 100%
 
 1. ランディングページのインターフェイスから、「**[!UICONTROL プレビューとテスト]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
-   ![](assets/lp_preview-button.png)
+   ![](../assets/lp_preview-button.png)
 
    >[!NOTE]
    >
@@ -139,17 +145,17 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL プレビューとテスト]**」画面から、1 つ以上のテストプロファイルを選択します。
 
-   ![](assets/lp_test-profiles.png)
+   ![](../assets/lp_test-profiles.png)
 
    テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../messages/preview.md#select-test-profiles)を参照してください。
 
 1. 「**[!UICONTROL プレビュー]**」タブを選択し、「**[!UICONTROL プレビューを開く]**」をクリックしてランディングページをテストします。
 
-   ![](assets/lp_open-preview.png)
+   ![](../assets/lp_open-preview.png)
 
 1. ランディングページのプレビューが新しいタブで開きます。パーソナライズされた要素が、選択したテストプロファイルデータに置き換えられます。
 
-   ![](assets/lp_preview.png)
+   ![](../assets/lp_preview.png)
 
 1. ランディングページの各バリエーションに対してレンダリングをプレビューするには、別のテストプロファイルを選択します。
 
@@ -159,7 +165,7 @@ ht-degree: 100%
 
 次に示すように、画面の右上にアラートが表示されます。
 
-![](assets/lp_alerts.png)
+![](../assets/lp_alerts.png)
 
 >[!NOTE]
 >
@@ -196,7 +202,7 @@ ht-degree: 100%
 
 ランディングページの準備が整ったら、ページを公開し、メッセージで使用できる状態にできます。
 
-![](assets/lp_publish.png)
+![](../assets/lp_publish.png)
 
 >[!CAUTION]
 >

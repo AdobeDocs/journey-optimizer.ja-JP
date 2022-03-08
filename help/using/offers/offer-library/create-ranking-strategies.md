@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 97%
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL AI ランキング]**」タブを選択します。
 
-   ![](../assets/ai-ranking-list.png)
+   ![](../../assets/ai-ranking-list.png)
 
    これまでに作成したランキング戦略がすべてリストされます。
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 1. 次のフィールドに入力します。
 
-   ![](../assets/ai-ranking-fields.png)
+   ![](../../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL 名前]**：指定する必要がある一意の名前。
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 
    * **[!UICONTROL データセット ID]**：コンバージョンの場合は、ドロップダウンリストからイベントを選択して収集するデータセットを指定する必要があります。そのようなデータセットを作成する方法については、[こちらの節](#create-dataset)を参照してください。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../assets/ai-ranking-dataset-id.png)
+   ![](../../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -60,7 +60,7 @@ ht-degree: 97%
 
 1. ランキング戦略を保存して有効化します。
 
-   ![](../assets/ai-ranking-save-activate.png)
+   ![](../../assets/ai-ranking-save-activate.png)
 
 これで、プレースメントに対して実施要件を満たすオファーをランク付けする決定で使用する準備が整いました。詳しくは、[この節](../offer-activities/configure-offer-selection.md#use-ranking-strategy)を参照してください。<!--TBC?-->
 
@@ -70,11 +70,11 @@ ht-degree: 97%
 
 1. **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択し、「**[!UICONTROL 参照]**」タブに移動して、「**[!UICONTROL スキーマを作成]**」をクリックします。
 
-   ![](../assets/ai-ranking-create-schema.png)
+   ![](../../assets/ai-ranking-create-schema.png)
 
 1. **[!UICONTROL XDM ExperienceEvent]** を選択します。
 
-   ![](../assets/ai-ranking-xdm-event.png)
+   ![](../../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 検索]**」フィールドに「提案インタラクション」と入力し、「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループを選択します。
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+   ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL フィールドグループを追加]**」をクリックします。
 
-   ![](../assets/ai-ranking-add-field-group.png)
+   ![](../../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >フィールドグループは、以前は mixin と呼ばれていました。
@@ -106,21 +106,21 @@ ht-degree: 97%
 
 1. **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL データセット]**」を選択し、「**[!UICONTROL 参照]**」タブに移動して、「**[!UICONTROL データセットを作成]**」をクリックします。
 
-   ![](../assets/ai-ranking-create-dataset.png)
+   ![](../../assets/ai-ranking-create-dataset.png)
 
 1. 「**[!UICONTROL スキーマからデータセットを作成]**」をクリックします。
 
-   ![](../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. 作成したスキーマをリストから選択します。
 
-   ![](../assets/ai-ranking-dataset-select-schema.png)
+   ![](../../assets/ai-ranking-dataset-select-schema.png)
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
 1. 「**[!UICONTROL 名前]**」フィールドにデータセットの一意の名前を入力し、「**[!UICONTROL 完了]**」をクリックします。
 
-   ![](../assets/ai-ranking-dataset-name.png)
+   ![](../../assets/ai-ranking-dataset-name.png)
 
 これで、[ランキング戦略の作成](#create-ranking-strategy)時に、イベントデータを収集するデータセットを選択できる状態になりました。
 

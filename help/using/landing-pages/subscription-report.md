@@ -5,10 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -25,11 +23,11 @@ ht-degree: 100%
 
 レポートにアクセスするには、選択した購読リストの詳細メニューから「**ライブ**」または「**[!UICONTROL グローバルレポート]**」を選択します。
 
-![](assets/subscription_report_6.png)
+![](../assets/subscription_report_6.png)
 
 ## 購読ライブレポート {#subscription-live}
 
-![](assets/subscription_report_3.png)
+![](../assets/subscription_report_3.png)
 
 **[!UICONTROL 購読パフォーマンス]** KPI と&#x200B;**[!UICONTROL ジャーニー別の購読]**/**[!UICONTROL ジャーニー別の購読解除]**&#x200B;テーブルには、ランディングページに対する訪問者のエンゲージメントに関する主な情報の詳細が示されます。テーブルと KPI には、次のように、ランディングページに関連して使用できるデータが含まれています。
 
@@ -39,13 +37,13 @@ ht-degree: 100%
 
 **[!UICONTROL 購読パフォーマンス]**&#x200B;グラフには、過去 24 時間の購読の推移が表示されます。
 
-![](assets/subscription_report_4.png)
+![](../assets/subscription_report_4.png)
 
 **購読 - 分類**&#x200B;および&#x200B;**購読解除 - 分類**&#x200B;グラフは、メッセージ、ランディングページ、チャネルに応じて、過去 24 時間に購読または購読解除したユーザーの合計数を表します。
 
 ## 購読のグローバルレポート {#subscription-global}
 
-![](assets/subscription_report_1.png)
+![](../assets/subscription_report_1.png)
 
 **[!UICONTROL 購読パフォーマンス]** KPI と&#x200B;**[!UICONTROL ジャーニー別の購読]**/**[!UICONTROL ジャーニー別の購読解除]**&#x200B;テーブルには、ランディングページに対する訪問者のエンゲージメントに関する主な情報の詳細が示されます。テーブルと KPI には、次のように、ランディングページに関連して使用できるデータが含まれています。
 
@@ -55,6 +53,6 @@ ht-degree: 100%
 
 **[!UICONTROL 購読パフォーマンス]**&#x200B;グラフには、該当する期間中の購読の推移が表示されます。
 
-![](assets/subscription_report_2.png)
+![](../assets/subscription_report_2.png)
 
 **購読 - 分類**&#x200B;および&#x200B;**購読解除 - 分類**&#x200B;は、メッセージ、ランディングページおよびチャネルに応じて、選択した期間に購読または購読解除したユーザーの合計数を表します。

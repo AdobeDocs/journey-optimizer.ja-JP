@@ -5,7 +5,7 @@ description: AI サービスの概要
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
@@ -26,5 +26,5 @@ Adobe Experience Platform 上に構築された [!DNL Intelligent Services] は�
 
 その結果、これらは Journey Optimizer の条件（最適な決定を下すためのもの）、アクション、セグメントの作成において、他のプロファイル属性として使用できます。
 
-![](assets/customer-ai.png)
+![](../assets/customer-ai.png)
 

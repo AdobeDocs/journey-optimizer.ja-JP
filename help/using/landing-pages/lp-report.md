@@ -5,10 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
@@ -25,11 +23,11 @@ ht-degree: 100%
 
 レポートにアクセスするには、**ライブ**&#x200B;または&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;を、選択したランディングページの詳細メニューから選択します。
 
-![](assets/landing_page_report_1.png)
+![](../assets/landing_page_report_1.png)
 
 ## ランディングページのライブレポート {#lp-live}
 
-![](assets/landing_page_report_2.png)
+![](../assets/landing_page_report_2.png)
 
 **[!UICONTROL ランディングページのパフォーマンス]**&#x200B;ウィジェットは、過去 24 時間のメッセージに関する主な情報の詳細を、KPI を通じて示します。
 
@@ -53,7 +51,7 @@ ht-degree: 100%
 
 **[!UICONTROL その他のソース]**&#x200B;ウィジェットは、ジャーニーではなく外部ソースからランディングページへの訪問回数を表します。
 
-![](assets/landing_page_report_3.png)
+![](../assets/landing_page_report_3.png)
 
 **[!UICONTROL メッセージ別の訪問回数]**／**[!UICONTROL メッセージ別のコンバージョン数]**&#x200B;のグラフは、過去 24 時間に、送信されたメッセージに応じてランディングページで正常にインタラクションを起こした訪問回数とユーザー数の合計を表します。
 
@@ -61,7 +59,7 @@ ht-degree: 100%
 
 ## ランディングページのグローバルレポート {#lp-global}
 
-![](assets/landing_page_report_4.png)
+![](../assets/landing_page_report_4.png)
 
 **[!UICONTROL 訪問回数]**&#x200B;および&#x200B;**[!UICONTROL 訪問回数の推移]**&#x200B;ウィジェットを使用すると、次の指標を含むグラフおよび KPI を使用して、選択した期間におけるランディングページの影響を確認できます。
 
@@ -75,7 +73,7 @@ ht-degree: 100%
 
 * **[!UICONTROL バウンス率]**：訪問の合計回数に対する、ランディングページでインタラクションを起こさず、購読のアクションを完了していない人数のパーセンテージ。
 
-![](assets/landing_page_report_5.png)
+![](../assets/landing_page_report_5.png)
 
 **[!UICONTROL 訪問ソース]**&#x200B;ウィジェットは、訪問者がランディングページにアクセスした方法を表します。
 
@@ -95,7 +93,7 @@ ht-degree: 100%
 
 **[!UICONTROL その他のソース]**&#x200B;ウィジェットは、ジャーニーではなく外部ソースからランディングページへの訪問回数を表します。
 
-![](assets/landing_page_report_6.png)
+![](../assets/landing_page_report_6.png)
 
 **[!UICONTROL メッセージ別の訪問回数]**／**[!UICONTROL メッセージ別のコンバージョン数]**&#x200B;のグラフは、送信されたメッセージに応じて、該当する期間中にランディングページで正常にインタラクションを起こした訪問回数とユーザーの合計数を表します。
 

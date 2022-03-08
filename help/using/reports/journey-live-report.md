@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ジャーニーライブレポートは、「**[!UICONTROL ライブレポート]**」ボタンを使用して、ジャーニーから直接アクセスできます。
 
-![](assets/report_1.png)
+![](../assets/report_1.png)
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;ページは次のタブで表示されます。
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL ジャーニー]**」タブには、ジャーニーに関する最も重要なトラッキングデータが明確に表示されます。
 
-![](assets/report_journey_2.png)
+![](../assets/report_journey_2.png)
 
 **[!UICONTROL ジャーニーのパフォーマンス]**&#x200B;を使用すると、ターゲットとするプロファイルのパスをジャーニーの初めから終わりまで段階的に表示できます。
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 * **[!UICONTROL 失敗した個別のジャーニー]**：正常に実行されなかった個別のジャーニーの総数。
 
-![](assets/report_journey_3.png)
+![](../assets/report_journey_3.png)
 
 「**[!UICONTROL 過去 24 時間以内に実行されたイベント]**」ウィジェットと「**[!UICONTROL イベント]**」ウィジェットを使用すると、どのイベントが正常に実行されたかをサマリー番号、グラフおよびテーブルから確認できます。
 
-![](assets/report_journey_4.png)
+![](../assets/report_journey_4.png)
 
 「**[!UICONTROL 過去 24 時間以内に実行されたアクション]**」ウィジェットと「**[!UICONTROL 実行されたアクションとエラー]**」ウィジェットは、最も成功したアクションと、アクションがトリガーされたときに発生したエラーを表します。アクションのグラフ、テーブルおよびサマリー番号には、アクションに関する次のようなデータが含まれています。
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 * **[!UICONTROL アクションのエラー]**：アクションで発生したエラーの総数。
 
 <!--
-![](assets/live_report_7.png)
+![](../assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 特定のメール配信に関する詳細なレポートについては、[メールライブレポート](email-live-report.md)の節を参照してください。
 
-![](assets/report_email_1.png)
+![](../assets/report_email_1.png)
 
 **[!UICONTROL メール送信統計情報]**&#x200B;ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 
@@ -105,7 +105,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL スパムの苦情数]**：メッセージがスパムまたは迷惑メールとして宣言された回数。
 
-![](assets/report_email_2.png)
+![](../assets/report_email_2.png)
 
 **[!UICONTROL バウンス理由]**、**[!UICONTROL バウンスカテゴリ]**、**[!UICONTROL ハードとバウンス - メール別]**&#x200B;などのウィジェットには、バウンスメッセージに関して利用できるデータが含まれます。
 
@@ -123,7 +123,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 特定のプッシュ配信に関する詳細なレポートについては、[プッシュライブレポート](push-live-report.md)の節を参照してください。
 
-![](assets/report_push_1.png)
+![](../assets/report_push_1.png)
 
 **[!UICONTROL プッシュ通知の送信パフォーマンス]**、 **[!UICONTROL プッシュ通知の概要]**&#x200B;および&#x200B;**[!UICONTROL 送信指標（プッシュ別）]**&#x200B;の各ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 
@@ -143,7 +143,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
 
-![](assets/report_push_2.png)
+![](../assets/report_push_2.png)
 
 **[!UICONTROL プラットフォーム別トラッキング]**、**[!UICONTROL プラットフォーム別送信]**、**[!UICONTROL プラットフォーム別分類]**&#x200B;のグラフとテーブルには、プッシュ通知の成功の詳細がオペレーティングシステムに応じて表示されます。
 

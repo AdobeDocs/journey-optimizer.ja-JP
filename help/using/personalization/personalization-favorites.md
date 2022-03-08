@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 84%
+source-wordcount: '94'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 84%
 
 ![](assets/favorite-option.png)
 
-お気に入りに登録した項目にアクセスするには、 **[!UICONTROL お気に入り]** メニューを開きます。
+お気に入りの項目にアクセスするには、ドロップダウンメニューの&#x200B;**[!UICONTROL お気に入り]**&#x200B;メニューオプションを使用します。
+
+![](assets/favorite-menu.png)
 
 このリストから、パーソナライゼーションオブジェクトを現在の式にすばやく追加できます。
 

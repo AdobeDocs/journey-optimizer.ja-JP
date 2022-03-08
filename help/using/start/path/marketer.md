@@ -3,7 +3,7 @@ title: Journey Optimizer の基本を学ぶ（マーケター向け）
 description: ジャーニー実務担当者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 56f7ec7f69f39ee0715ba65f52c194976f4aa479
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -22,17 +22,17 @@ ht-degree: 100%
 
 1. **メッセージを作成**&#x200B;します。Journey Optimizer でメールおよびプッシュ通知を作成する方法については、[このページ](../../messages/create-message.md)を参照してください。
 
-   ![](../assets/email_designer_7.png)
+   ![](../../assets/email_designer_7.png)
 
 1. **パーソナライゼーションを追加**&#x200B;します。Journey Optimizer のパーソナライズ機能を活用して、メッセージをオーディエンスに合わせて調整します。パーソナライズ機能について詳しくは、[この節](../../personalization/personalize.md)を参照してください。
 
-   ![](../assets/perso_ee2.png)
+   ![](../../personalization/assets/perso_ee2.png)
 
 1. **アセットを作成し管理**&#x200B;します。[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的な集中リポジトリを提供します。詳しくは、[この節](../../messages/assets-essentials.md)を参照してください。
 
 1. **オファーを追加**&#x200B;します。[!DNL Journey Optimizer] を使用すると、顧客に最適なオファーとエクスペリエンスをすべてのタッチポイントにわたって適切なタイミングで提供できます。設計を終えたら、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定します。意思決定管理について詳しくは、[この節](../../offers/get-started/starting-offer-decisioning.md)を参照してください。
 
-   ![](../assets/offers-e2e-offers-displayed.png)
+   ![](../../assets/offers-e2e-offers-displayed.png)
 
 1. **メッセージをテストし検証**&#x200B;します。メッセージのコンテンツを定義したら、テストプロファイルを使用してコンテンツのプレビューとテストを行います。[パーソナライズされたコンテンツ](../../personalization/personalize.md)を挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを利用して確認できます。さらに、**Litmus** アカウントを [!DNL Journey Optimizer] に活用すると、よく使うメールクライアントで、**メールのレンダリング**&#x200B;を即座にプレビューすることができます。すべてのインボックスでメールコンテンツが適切に表示され、正しく機能することを確認できます。メッセージのテストと検証の方法については、[この節](../../messages/preview.md)を参照してください。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
    * **ジャーニーデザイナー**&#x200B;を使用すると、エントリイベントやセグメントの読み取りアクティビティを簡単にドラッグ＆ドロップして、条件を追加し、パーソナライズされたメッセージを送信するなど、複数の手順から成るユースケースを作成できます。
 
-   ![](../assets/copy-paste3.png)
+   ![](../../assets/copy-paste3.png)
 
    ジャーニーを設計して実行する方法については、[この節](../../building-journeys/journey-gs.md)を参照してください。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
@@ -19,16 +19,16 @@ ht-degree: 100%
 
 1. **[!UICONTROL セグメント]**&#x200B;メニューにアクセスし、「**[!UICONTROL セグメントを作成]**」ボタンをクリックします。
 
-   ![](assets/create-segment.png)
+   ![](../assets/create-segment.png)
 
    「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。セグメントの設定方法については、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-   ![](assets/segment-builder.png)
+   ![](../assets/segment-builder.png)
 
 1. **[!UICONTROL セグメントプロパティ]**ペインで、セグメントの名前と説明（オプション）を入力します。
 
 
-   ![](assets/segment-properties.png)
+   ![](../assets/segment-properties.png)
 
 1. 必要なフィールドを左ペインから中央のワークスペースにドラッグ＆ドロップし、必要に応じて設定します。
 
@@ -38,21 +38,21 @@ ht-degree: 100%
    >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。
 詳しくは、[Adobe Experience Data Model（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-   ![](assets/drag-fields.png)
+   ![](../assets/drag-fields.png)
 
    この例では、「**属性**」フィールドと「**イベント**」フィールドに基づいてセグメントを作成する必要があります。
 
    * **属性**：1980 年以降、アトランタ、サンフランシスコ、シアトルに住む人のプロファイル。
 
-      ![](assets/add-attributes.png)
+      ![](../assets/add-attributes.png)
 
    * **イベント**：過去 7 日間に Luma アプリを開き、アプリを開いてから 2 時間以内に購入したプロファイル。
 
-      ![](assets/add-events.png)
+      ![](../assets/add-events.png)
 
 1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL セグメントのプロパティ]**&#x200B;ペインが自動的に更新され、セグメントに属する予測プロファイルに関する情報が表示されます。
 
-   ![](assets/segment-estimate.png)
+   ![](../assets/segment-estimate.png)
 
 1. セグメントの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。Adobe Experience Platform セグメントのリストに表示されます。リストで特定のセグメントを検索する際に役立つ検索バーが用意されています。
 

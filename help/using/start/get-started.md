@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] は、アプリケーション、デバイス、チャネルを問わず、パーソナライズされ、接続されたタイムリーな顧客エクスペリエンスを作成して提供するための、アジャイルで拡張性の高いアプリケーションです。
 
-![](assets/ajo-capabilities.png)
+![](../assets/ajo-capabilities.png)
 
 主な機能は次のとおりです。
 
@@ -70,5 +70,5 @@ ht-degree: 100%
 * [最初のメッセージの作成](../messages/get-started-content.md)
 * [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
 * [ライブレポート](../reports/live-report.md)
-* [Journey Optimizer に関する FAQ](assets/do-not-localize/AJO-FAQ.pdf) (PDF)
+* [Journey Optimizer に関する FAQ](../assets/do-not-localize/AJO-FAQ.pdf) (PDF)
 * [Journey Optimizer Security の概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）

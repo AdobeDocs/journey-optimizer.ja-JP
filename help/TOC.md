@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2267f82453cc00be86f1a279496aaf4e9218c5f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '921'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [アラートの確認](using/messages/alerts.md)
       + [メッセージの公開](using/messages/publish-manage-message.md)
    + [同意の管理](using/messages/consent.md)
++ ランディングページ {#landing-pages}
+   + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
+   + [ランディングページの作成](using/landing-pages/create-lp.md)
+   + [ランディングページの作成](using/landing-pages/design-lp.md)
+   + [購読リストの作成](using/landing-pages/subscription-list.md)
+   + [ユースケース](using/landing-pages/lp-use-cases.md)
+   + レポート {#lp-reporting}
+      + [ランディングページのレポート](using/landing-pages/lp-report.md)
+      + [購読リストのレポート](using/landing-pages/subscription-report.md)
 + パーソナライゼーション{#personalization}
    + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
    + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
@@ -56,7 +65,6 @@ ht-degree: 98%
       + 式エディターの操作 {#expression-editor}
          + [式エディターについて](using/personalization/personalization-build-expressions.md)
          + [属性をお気に入りに追加](using/personalization/personalization-favorites.md)
-         + [保存済み式の使用](using/personalization/personalization-library.md)
          + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
       + ヘルパー関数{#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
@@ -224,15 +232,6 @@ ht-degree: 98%
       + [配信品質の基本を学ぶ](using/messages/deliverability.md)
       + [抑制リスト](using/messages/suppression-list.md)
       + [許可リスト](using/messages/allow-list.md)
-+ ランディングページ {#landing-pages}
-   + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
-   + [ランディングページの作成](using/landing-pages/create-lp.md)
-   + [ランディングページの作成](using/landing-pages/design-lp.md)
-   + [購読リストの作成](using/landing-pages/subscription-list.md)
-   + [ユースケース](using/landing-pages/lp-use-cases.md)
-   + レポート {#lp-reporting}
-      + [ランディングページのレポート](using/landing-pages/lp-report.md)
-      + [購読リストのレポート](using/landing-pages/subscription-report.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
@@ -339,6 +338,7 @@ ht-degree: 98%
          + [プライマリメールアドレスの変更](using/configuration/primary-email-addresses.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
       + [メッセージプリセットの作成](using/configuration/message-presets.md)
+   + [ランディングページの設定](using/configuration/lp-configuration.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + [外部システムとの統合](using/configuration/external-systems.md)

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 7da910df3eda84884c7cda56af6ce5dcabc3a3db
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
@@ -27,4 +27,4 @@ ht-degree: 100%
 
 各概念は、Admin Console にアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。[Adobe Admin Console の詳細](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)。
 
-![](assets/do-not-localize/permissions_2.png)
+![](../assets/do-not-localize/permissions_2.png)

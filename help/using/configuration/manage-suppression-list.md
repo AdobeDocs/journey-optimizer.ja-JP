@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 100%
@@ -31,15 +31,15 @@ ht-degree: 100%
 >
 >抑制リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 
-![](assets/suppression-list-access.png)
+![](../assets/suppression-list-access.png)
 
 リストの参照に役立つフィルターを使用できます。
 
-![](assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
 **[!UICONTROL 抑制カテゴリ]**、**[!UICONTROL アドレスタイプ]**、**[!UICONTROL 理由]**&#x200B;のいずれかでフィルタリングできます。 条件ごとに目的のオプションを選択します。 選択したら、リストの上部に表示されている各フィルターまたはすべてのフィルターをクリアできます。
 
-![](assets/suppression-list-filtering-example.png)
+![](../assets/suppression-list-filtering-example.png)
 
 メールアドレスまたはドメインを手動で誤って追加した場合は、「**[!UICONTROL 削除]**」ボタンをクリックして、そのエントリを削除できます。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 >
 >抑制されたメールアドレスやドメインの削除に「**[!UICONTROL 削除]**」ボタンを使用しないでください。
 
-![](assets/suppression-list-delete.png)
+![](../assets/suppression-list-delete.png)
 
 抑制リストからメールアドレスまたはドメインを削除すると、このアドレスまたはドメインへの配信が再び開始されることになります。 その結果、配信品質と IP の評価に重大な影響を及ぼす可能性があり、最終的には IP アドレスや送信ドメインがブロックされる可能性があります。 抑制リストの維持の重要性について詳しくは、[この節](../messages/suppression-list.md)を参照してください。
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 抑制リストを CSV ファイルとしてエクスポートするには、「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。
 
-![](assets/suppression-list-download-csv.png)
+![](../assets/suppression-list-download-csv.png)
 
 ## 抑制のカテゴリと理由 {#suppression-categories-and-reasons}
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 一覧表示されているメールアドレスごとに、「**[!UICONTROL タイプ]**」（メールまたはドメイン）、除外する「**[!UICONTROL 理由]**」、追加したユーザーおよび抑制リストに追加された日時を確認することもできます。
 
-![](assets/suppression-list.png)
+![](../assets/suppression-list.png)
 
 配信エラーの理由として考えられるものを以下に示します。
 
@@ -111,13 +111,13 @@ ht-degree: 100%
 
 それには、「**[!UICONTROL メールまたはドメインを追加]**」ボタンを選択し、次のいずれかの方法に従います。
 
-![](assets/suppression-list-add-email.png)
+![](../assets/suppression-list-add-email.png)
 
 ### 1 つのアドレスまたはドメインの追加 {#add-one-address-or-domain}
 
 1. 「**[!UICONTROL 1 つずつ]**」オプションを選択します。
 
-   ![](assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
 1. アドレスタイプとして、「**[!UICONTROL メールアドレス]**」または「**[!UICONTROL ドメインアドレス]**」を選択します。
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL CSV をアップロード]**」オプションを選択します。
 
-   ![](assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
 1. 使用する CSV テンプレートをダウンロードします。これには、以下の列と形式が含まれています。
 
@@ -156,7 +156,7 @@ ht-degree: 100%
 
 1. 完了したら、CSV ファイルをドラッグ＆ドロップしたあと、「**[!UICONTROL ファイルをアップロード]**」をクリックします。
 
-   ![](assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -166,13 +166,13 @@ ht-degree: 100%
 
 それには、**[!UICONTROL 抑制リスト]**&#x200B;ビューで、「**[!UICONTROL 最近のアップロード]**」ボタンをクリックします。
 
-![](assets/suppression-list-recent-uploads-button.png)
+![](../assets/suppression-list-recent-uploads-button.png)
 
 送信した最新のアップロードと、それに対応するステータスが表示されます。
 
 エラーレポートがファイルに関連付けられている場合は、そのファイルをダウンロードして、発生したエラーを確認できます。
 
-![](assets/suppression-list-recent-uploads-error.png)
+![](../assets/suppression-list-recent-uploads-error.png)
 
 エラーレポートに表示されるエントリのタイプの例を以下に示します。
 

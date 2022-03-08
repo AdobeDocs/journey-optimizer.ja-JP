@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
@@ -39,7 +39,7 @@ ht-degree: 100%
 「**[!UICONTROL ジャーニーのプロパティ]**」ペインで、タイムゾーンを選択します。
 
 
-![](assets/journey72.png)
+![](../assets/journey72.png)
 
 ## プロファイルを使用したジャーニータイムゾーンの定義 {#timezone-from-profiles}
 
@@ -51,7 +51,7 @@ Adobe Experience Platform プロファイルでタイムゾーンが定義され
 
 **[!UICONTROL プロパティ]**&#x200B;で、「**[!UICONTROL タイマーと条件でプロファイルのタイムゾーンを使用する]**」のチェックをオンにします。
 
-![](assets/journey73.png)
+![](../assets/journey73.png)
 
 ## タイムゾーン式の使用 {#timezone-in-expressions}
 

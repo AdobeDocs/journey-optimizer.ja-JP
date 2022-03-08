@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ジャーニーを検索すると、アプリを初めて開いたときに、リストの先頭に最新のバージョンが表示されます。次に、必要な並べ替えを定義します。アプリケーションはこの定義をユーザーの環境設定として扱います。ジャーニーのバージョンは、ジャーニー版インターフェイスの上部（キャンバスの上）にも表示されます。
 
-![](assets/journeyversions1.png)
+![](../assets/journeyversions1.png)
 
 ライブジャーニーを変更する必要がある場合は、ジャーニーの新しいバージョンを作成する必要があります。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. ライブジャーニーの最新バージョンを開き、「**[!UICONTROL 新しいバージョンを作成]**」をクリックして確認します。
 
-   ![](assets/journeyversions2.png)
+   ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 1. 変更を加え、「**[!UICONTROL 公開]**」をクリックして確認します。
 
-   ![](assets/journeyversions3.png)
+   ![](../assets/journeyversions3.png)
 
 ジャーニーが公開された時点から、最新版ジャーニーに個人利用者がエントリし始めます。既に前のバージョンにエントリしている人物は、ジャーニーが終了するまで古いバージョンを継続します。後で同じジャーニーに再度エントリする場合は、最新バージョンに移行します。
 

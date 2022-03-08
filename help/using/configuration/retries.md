@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -35,11 +35,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 抑制ルールを編集]**」ボタンを選択します。
 
-   ![](assets/suppression-list-edit-retries.png)
+   ![](../assets/suppression-list-edit-retries.png)
 
 1. 必要に応じて、連続するソフトバウンスの許容数を編集します。
 
-   ![](assets/suppression-list-edit-soft-bounces.png)
+   ![](../assets/suppression-list-edit-soft-bounces.png)
 
    1～20 の整数値を入力する必要があります。つまり、再試行の最小回数は 1 で、最大回数は 20 です。
 

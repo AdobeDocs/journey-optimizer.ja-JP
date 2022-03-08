@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: a7899319145aa8b8dafc8d120836507e34f85e30
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,7 @@ ht-degree: 100%
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-## 重要な注意事項{#important-notes}
-
-* 乗算（`*`）の場合、両方の演算フィールドのタイプは整数または 10 進数で同じにする必要があります。例：
-   * 以下の例は正しいです。`3.0 * 4.0`
-   * `3 * 4.0` はエラーを引き起こします
+サポートされている演算子の一覧を以下に示します。
 
 ## 論理  {#logical}
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 * **一元化されたオファーライブラリ**&#x200B;は、オファーを構成する様々な要素を作成および管理し、それらの規則と制約を定義するインターフェイスです。
 * **Offer Decisioning エンジン**&#x200B;は、Adobe Experience Platform のデータとリアルタイム顧客プロファイルをオファーライブラリとともに活用し、オファーの配信に適切な時間、顧客およびチャネルを選択します。
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 次のような利点があります。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 オファーは&#x200B;**オファーライブラリ**&#x200B;を使用して作成されます。このライブラリは、実施要件ルールや制約を複数のコンテンツに関連付けてオファーを作成および公開できる中央オファーカタログを提供します（「[オファーライブラリユーザーインターフェイス](../get-started/user-interface.md)」を参照）。
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 オファーライブラリをオファーで強化した後は、オファーを&#x200B;**決定**（旧称：オファーアクティビティ）に統合することができます。
 
@@ -57,11 +57,11 @@ ht-degree: 100%
 
 * Adobe Experience Platform からのデータに基づいて、訪問顧客の興味ポイントに一致する Web サイトのホームページオファーを表示します。
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * 顧客がいずれかの店舗のそばを通りかかった場合、属性（ロイヤルティ、性別、以前の購入など）に応じて利用可能なオファーを通知するプッシュ通知を送信します。
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * 意思決定管理は、顧客がサポートチームに連絡する際のエクスペリエンスを向上できるようサポートします。
 意思決定管理 API を使用すると、顧客が取り消したオファーと次善のオファーに関する情報を、コールセンター担当者のポータルに表示することができます。

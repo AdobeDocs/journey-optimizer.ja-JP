@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
@@ -36,15 +36,15 @@ ht-degree: 100%
 
 1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細](about-subdomain-delegation.md)
 
-   ![](assets/subdomain.png)
+   ![](../assets/subdomain.png)
 
 1. **IP プールの作成**：インスタンスでプロビジョニングされた IP アドレスをグループ化することで、E メールの配信品質と評判を向上させます。[詳細](ip-pools.md)
 
-   ![](assets/ip-pool.png)
+   ![](../assets/ip-pool.png)
 
 1. **ジャーニーの設定**：ジャーニーを作成するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]** と **[!UICONTROL アクション]**&#x200B;を設定する必要があります。[詳細](about-data-sources-events-actions.md)
 
-   ![](assets/admin-menu.png)
+   ![](../assets/admin-menu.png)
 
    * **データソース**&#x200B;を設定すると、ジャーニーで使用される追加情報を取得するため、システムへの接続を定義できます。データソースについて詳しくは、この[節](../datasource/about-data-sources.md)を参照してください
 

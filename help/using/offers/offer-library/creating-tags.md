@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 作成したタグのリストには、**[!UICONTROL コンポーネント]**&#x200B;メニューでアクセスできます。
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 タグを作成するには、次の手順に従います。
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 
 1. タグ名を指定して「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. タグが作成されると、リストに表示されます。タグを選択してプロパティを表示できます。また、タグを編集したり抑制したりできます。
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## チュートリアルビデオ {#video}
 

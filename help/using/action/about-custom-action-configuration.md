@@ -1,42 +1,33 @@
 ---
 solution: Journey Orchestration
-title: カスタムアクションの設定
+title: カスタムアクション設定について
 description: カスタムアクションの設定方法を学ぶ
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '844'
 ht-degree: 100%
 
 ---
 
-# カスタムアクションの設定 {#configure-an-action}
+# アクションの設定 {#configure-an-action}
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して Epsilon、Slack、Adobe.io、Firebase などのシステムに接続できます。
+サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、ここでジャーニーへの接続を設定します。技術ユーザーが定義したカスタムアクションは、ジャーニーの左側のパレットの&#x200B;**[!UICONTROL アクション]**&#x200B;カテゴリーで利用できます（[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照）。カスタムアクションを使用して接続できるシステムには、Epsilon、Slack、Adobe.io、Firebase などが挙げられます。
 
-カスタムアクションは、技術ユーザーが定義し、マーケターが使用できる追加のアクションです。設定が完了すると、**[!UICONTROL アクション]**&#x200B;カテゴリの、ジャーニーの左側のパレットに表示されます。詳しくは、[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
+制限事項については、[このページ](../start/limitations.md)を参照してください。
 
-## 制限事項{#custom-actions-limitations}
-
-カスタムアクションには、[このページ](../start/limitations.md)に一覧表示されるいくつかの制限事項が伴います。
-
-カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。コレクションの制限事項について詳しくは、[このページ](../building-journeys/collections.md#limitations)を参照してください。
-
-また、カスタムアクションパラメーターには想定される形式（例：文字列、10 進数など）があります。これらの想定される形式に従うように注意する必要があります。詳しくは、この[ユースケース](../building-journeys/collections.md)を参照してください。
-
-
-## 設定の手順 {#configuration-steps}
+カスタムアクションを使用して、コレクションを動的に渡すことができます。 この[ユースケース](../building-journeys/collections.md)を参照してください。
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
 
 1. 管理メニューセクションで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 「**[!UICONTROL アクションを作成]**」をクリックして、新規のアクションを作成します。画面右側にアクション設定ペインが開きます。
 
 
-   ![](assets/custom2.png)
+   ![](../assets/custom2.png)
 
 1. アクションの名前を入力します。
 
@@ -61,7 +52,7 @@ ht-degree: 100%
 
 カスタムアクションを設定する場合、次の **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義する必要があります。
 
-![](assets/journeyurlconfiguration.png)
+![](../assets/journeyurlconfiguration.png)
 
 1. 「**[!UICONTROL URL]**」フィールドに、外部サービスの URL を指定します。
 
@@ -90,7 +81,7 @@ ht-degree: 100%
 
       「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。[詳細情報](../building-journeys/using-custom-actions.md)。
 
-      ![](assets/journeyurlconfiguration2.png)
+      ![](../assets/journeyurlconfiguration2.png)
 
    1. ヘッダーフィールドを削除するには、ヘッダーフィールドをポイントし、「**[!UICONTROL 削除]**」アイコンをクリックします。
    **[!UICONTROL Content-Type]** および **[!UICONTROL Charset]** ヘッダーフィールドは、デフォルトで設定されます。これらのフィールドは変更または削除できません。
@@ -103,11 +94,11 @@ ht-degree: 100%
 
 ## アクションパラメーターの定義 {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
+![](../assets/messageparameterssection.png)
 
 「**[!UICONTROL アクションパラメーター]**」セクションに、外部サービスに送信する JSON ペイロードの例を貼り付けます。
 
-![](assets/customactionpayloadmessage.png)
+![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -121,5 +112,5 @@ ht-degree: 100%
 この値は、ジャーニーをまたいで常に同じになります。ジャーニーでカスタムアクションを使用する場合、この値は変わらず、マーケターには表示されません。例えば、サードパーティのシステムが予期する ID を指定できます。この場合、「定数／変数」トグルの右側にあるフィールドの値が渡されます。
 * 変数は、パラメーターの値が変化することを意味します。ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値をどこから取得するか（例：イベント、Adobe Experience Platform など）を指定したりすることが自由にできます。この場合、定数／変数トグルの右側にあるフィールドは、マーケターがこのパラメーターに名前を付ける際にジャーニーで表示されるラベルです。
 
-![](assets/customactionpayloadmessage2.png)
+![](../assets/customactionpayloadmessage2.png)
 

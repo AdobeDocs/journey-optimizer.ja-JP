@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 100%
 | パラメーター | タイプ |
 |-----------|--------------|
 | base（ベース文字列） | 文字列 |
-| target（ターゲット文字列） | 文字列（RegExp） |
+| target（ターゲット文字列） | 文字列 |
 | replacement（置換文字列） | 文字列 |
 
 ## シグネチャと戻り値のタイプ
@@ -41,10 +41,8 @@ ht-degree: 100%
 
 文字列を返します。
 
-## 例{#example}
+## 例
 
 `replaceAll("Hello World", "l", "x")`
 
 「Hexxo Worxd」を返します。
-
-ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。例については、[このページ](../functions/functionreplace.md#example_2)を参照してください。
