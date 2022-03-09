@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 97%
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
@@ -422,13 +422,16 @@ ht-degree: 97%
    * profiles.read
    * datasets.read
 
-## Journey Optimizer Library 機能 {library-permissions}
+### [!DNL Manage landing page settings] 権限 {#manage-landing-page-settings}
 
-### ライブラリ項目を管理 {#library-items}
-
-この **[!DNL Manage Library Items]** 高レベル権限を持つユーザーは、 [!DNL Journey Optimizer] ライブラリ。
+この **[!DNL Manage landing page settings]** 高レベル権限を持つユーザーは、ランディングページのサブドメインとプリセット設定を読み取り、作成および編集できます。
 
 これには、次の低レベル権限が含まれます。
 
-* library_item.create
-* ibrary_item.delete
+* Journey Optimizer 固有：
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete

@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 93%
 
 ---
 
 # ランディングページのユースケース {#lp-use-cases}
 
 以下に、 [!DNL Journey Optimizer] ランディングページを使用して、顧客が一部またはすべてのお知らせの受信をオプトイン／オプトアウトできるようにする例を示します。
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## サービスの購読 {#subscription-to-a-service}
 
@@ -39,6 +32,8 @@ ht-degree: 100%
    ![](assets/lp_subscription-uc-list.png)
 
 1. [ランディングページを作成](create-lp.md)し、受信者がイベントに登録できるようにします。
+
+   ![](assets/lp_create-lp-details.png)
 
 1. 登録の[プライマリランディングページ](create-lp.md#configure-primary-page)を設定します。
 
@@ -57,6 +52,10 @@ ht-degree: 100%
 1. メッセージコンテンツに[リンクを挿入](../messages/message-tracking.md#insert-links)します。「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >メッセージを公開するには、選択したランディングページがまだ期限切れでないことを確認します。 有効期限の更新方法を説明します [この節](create-lp.md#configure-primary-page).
 
 1. コンテンツを保存し、[メッセージを公開](../messages/publish-manage-message.md)します。
 
@@ -115,7 +114,7 @@ ht-degree: 100%
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. フォームを送信するユーザーに表示される確認用の[サブページ](create-lp.md#configure-subpages)を追加します。
 
@@ -138,6 +137,10 @@ ht-degree: 100%
 1. **[!UICONTROL リンクタイプ]**&#x200B;ドロップダウンリストから「**[!UICONTROL ランディングページ]**」を選択し、オプトアウト用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >メッセージを公開するには、選択したランディングページがまだ期限切れでないことを確認します。 有効期限の更新方法を説明します [この節](create-lp.md#configure-primary-page).
 
 1. コンテンツを保存し、[メッセージを公開](../messages/publish-manage-message.md)します。
 

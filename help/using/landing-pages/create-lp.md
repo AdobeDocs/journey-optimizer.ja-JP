@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '990'
+ht-degree: 87%
 
 ---
 
 # ランディングページの作成と公開 {#create-lp}
-
->[!CAUTION]
->
->ランディングページは現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
@@ -30,6 +24,22 @@ ht-degree: 100%
 **[!UICONTROL ランディングページ]**&#x200B;のリストには、作成されたすべての項目が表示されます。ステータスや変更日に基づいてフィルター処理できます。
 
 ![](assets/lp_access-list-filter.png)
+
+このリストから、 [ランディングページレポート](lp-report.md) 公開された項目の場合。
+
+ランディングページの削除、複製、非公開もおこなえます。
+
+>[!CAUTION]
+>
+>非公開のメッセージで参照されているランディングページを非公開にした場合、ランディングページが再び公開されるまでメッセージは公開できません。 メッセージが既に公開されている場合、ランディングページへのリンクが壊れ、エラーページが表示されます。
+
+ランディングページの横にある 3 つのドットをクリックし、目的のアクションを選択します。
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>公開済みのランディングページは削除できません。 削除するには、まず非公開にする必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -43,13 +53,9 @@ ht-degree: 100%
 
    ![](assets/lp_create-lp-details.png)
 
-1. プリセットを選択します。
+1. プリセットを選択します。でランディングページプリセットを作成する方法を説明します。 [この節](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >ランディングページのプリセットを定義するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -75,7 +81,7 @@ ht-degree: 100%
 
    ![](assets/lp_open-designer.png)
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。 [詳細情報](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ ht-degree: 100%
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
 
    >[!CAUTION]
    >
