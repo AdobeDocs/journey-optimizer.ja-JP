@@ -3,9 +3,10 @@ title: ランディングページの設定
 description: Journey Optimizerでランディングページを作成して使用するように環境を設定する方法を説明します
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '865'
 ht-degree: 15%
 
 ---
@@ -65,7 +66,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >そのサブドメインを使用してメッセージを送信する前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >そのサブドメインを使用してメッセージを送信できるようにする前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. チェックが正常に完了すると、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;になります。 ランディングページプリセットの作成に使用する準備が整いました。
 
@@ -91,9 +92,9 @@ ht-degree: 15%
 
    現在、「email.marketing.yourcompany.com」などの複数レベルのサブドメインはサポートされていません。
 
-1. DNS サーバーに配置するレコードが表示されます。 このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
+1. DNS サーバーに配置するレコードが表示されます。 このレコードをコピーするか、CSV ファイルをダウンロードして、ドメインをホストするソリューションに移動して、一致する DNS レコードを生成します。
 
-1. DNS レコードがドメインホスティングソリューションに生成されていることを確認します。 すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
+1. DNS レコードがドメインホストソリューションに生成されていることを確認します。 すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -105,7 +106,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >そのサブドメインを使用してメッセージを送信する前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。<!--Learn more in [this section](#subdomain-validation).-->
+   >そのサブドメインを使用してメッセージを送信できるようにする前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. チェックが正常に完了すると、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;になります。 ランディングページプリセットの作成に使用する準備が整いました。
 

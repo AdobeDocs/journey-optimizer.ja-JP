@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 93%
+source-wordcount: '926'
+ht-degree: 91%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 93%
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。
+内 **[!UICONTROL 属性]** 」タブをクリックすると、 **[!UICONTROL 選択]** は次の値に変更されました： **[!UICONTROL いいえ]**.
 
 <!--
 

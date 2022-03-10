@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 85%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    >
    >**[!UICONTROL フォーム]**&#x200B;コンポーネントは、同じページで 1 回だけ使用できます。
 
-1. 選択します。「**[!UICONTROL フォームコンテンツ]**」タブが右側のパレットに表示され、フォームの様々なフィールドを編集できます。
+1. 選択します。この **[!UICONTROL フォームコンテンツ]** タブが右側のパレットに表示され、フォームの各種フィールドを編集できます。
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL チェックボックス 1]**」セクションでは、このチェックボックスに対応するラベルを編集できます。
 
-1. このチェックボックスでユーザーのオプトイン／オプトアウトを行うかどうかを定義します（お知らせの受信に同意する、または以降の連絡を望まない）。
+1. このチェックボックスでユーザーのオプトイン/オプトアウトを行うかどうかを定義します。通信の受信に同意するか、連絡を受けないように求めるか。
 
    ![](assets/lp_designer-form-update.png)
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
    ![](assets/lp_designer-form-error.png)
 
-1. フォームの送信時に追加の更新を行う場合は、「**[!UICONTROL オプトイン]**」または「**[!UICONTROL オプトアウト]**」を選択し、購読リスト、チャネル、または使用するメールアドレスのみを更新するかどうかを定義します。
+1. フォームの送信時に追加の更新を行う場合は、 **[!UICONTROL オプトイン]** または **[!UICONTROL オプトアウト]**&#x200B;をクリックし、使用する E メールアドレスのみ、またはチャネルのサブスクリプションリストを更新するかを定義します。
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. 「**[!UICONTROL ボタン]**」セクションを展開し、コンポーネントフォーム内のボタンの外観を変更します。例えば、境界線を追加したり、マウスポインターを置いたときのラベルの色を編集したり、ボタンの配置を調整したりできます。
+1. 「**[!UICONTROL ボタン]**」セクションを展開し、コンポーネントフォーム内のボタンの外観を変更します。例えば、境界線の追加、マウスポインターを置いたときのラベルの色の編集、ボタンの配置の調整を行うことができます。
 
    ![](assets/lp_designer-form-style-buttons.png)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
-workflow-type: ht
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 ステータスは次のいずれかになります。
 
-* **[!UICONTROL 未開始]**：定義された開始日は本日より後の日付です。購読されたプロファイルは、この購読リストに関するお知らせをまだ受け取っていません。
+* **[!UICONTROL 未開始]**：定義された開始日は本日より後の日付です。購読済みのプロファイルは、この購読リストに関する通信をまだ受信しません。
 * **[!UICONTROL ライブ]**：現在の日付が、購読リストの開始日と終了日の間にある、または終了日／開始日を定義していませんん（つまり、購読リストが常にライブになっています）。
 * **[!UICONTROL 期限切れ]**：終了日が過ぎたので、購読リストは無効になりました。購読されたプロファイルには、今後この購読リストに関するお知らせは届きません。
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 80%
@@ -110,7 +110,7 @@ ht-degree: 80%
 
 ユーザーがリンクをクリックした場所と理由を特定するために、  **[!UICONTROL URL トラッキング設定（WEB 分析）]** 」セクションに入力します。
 
-定義したパラメーターに基づいて、UTM コードがメッセージコンテンツに含まれる URL の末尾に適用されます。 その後、Adobe Analyticsなどの Web 分析ツールで結果を比較できます。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+定義したパラメーターに基づいて、UTM コードがメッセージコンテンツに含まれる URL の末尾に適用されます。 その後、Google Analyticsなどの Web 分析ツールで結果を比較できます。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
 ![](assets/preset-url-tracking.png)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 87%
+source-wordcount: '955'
+ht-degree: 81%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 87%
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ドメインのデリゲーションを実行する必要があります。事前入力されており、ユーザーインターフェイスから編集することはできません。設定するには、アドビアカウント担当者または [アドビカスタマーケアサポートチーム](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}にお問い合わせください。
+1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。 [詳細情報](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->メッセージのプレビューや配達確認の送信をおこなうには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../building-journeys/creating-test-profiles.md)する方法について説明します。
+>メッセージをプレビューし、配達確認を送信するには、使用可能なテストプロファイルが必要です。 [テストプロファイルを作成](../building-journeys/creating-test-profiles.md)する方法について説明します。
 
 1. ランディングページのインターフェイスから、「**[!UICONTROL プレビューとテスト]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
@@ -161,7 +161,7 @@ ht-degree: 87%
 
 ## アラートの確認 {#check-alerts}
 
-ランディングページの作成中、公開前に重要なアクションを実行する必要がある場合は、アラートが表示されます。
+ランディングページを作成している間、は、公開する前に重要なアクションを実行する必要がある場合に警告を表示します。
 
 次に示すように、画面の右上にアラートが表示されます。
 
@@ -181,7 +181,7 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
-> 公開する前に、すべての&#x200B;**エラー**&#x200B;アラートを解決する必要があります。
+> すべてを解決する必要があります **エラー** 公開前のアラート。
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## ランディングページの公開 {#publish-landing-page}

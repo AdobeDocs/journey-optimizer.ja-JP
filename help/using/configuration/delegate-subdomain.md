@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '1472'
-ht-degree: 100%
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+workflow-type: tm+mt
+source-wordcount: '1470'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
    ![](assets/subdomain-processing.png)
 
-   そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 3 時間かかることがあります）。詳しくは、[この節](#subdomain-validation)を参照してください。
+   そのサブドメインを使用してメッセージを送信できるようにする前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 3 時間かかる場合があります）。 詳しくは、[この節](#subdomain-validation)を参照してください。
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
 
 1. CNAME サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](access-subdomains.md)を参照してください。
 
-   そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（通常 2〜3 時間かかります）。詳しくは、[この節](#subdomain-validation)を参照してください。
+   そのサブドメインを使用してメッセージを送信できるようにする前に、Adobeが必要なチェックを実行するまで待つ必要があります。通常は、2 ～ 3 時間かかります。 詳しくは、[この節](#subdomain-validation)を参照してください。
 
 1. チェックが正常に完了すると<!--i.e Adobe validates the record you created and installs it-->、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。メッセージの配信に使用する準備が整いました。
 
