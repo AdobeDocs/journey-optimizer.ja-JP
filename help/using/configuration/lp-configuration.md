@@ -4,9 +4,9 @@ description: Journey Optimizerでランディングページを作成して使�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
+source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '874'
 ht-degree: 15%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="ランディングページのサブドメインの設定"
->abstract="サブドメインを選択できるようにするには、少なくとも 1 つのランディングページサブドメインを事前に設定済みであることを確認してください。"
+>title="ランディングページプリセットの作成"
+>abstract="ランディングページプリセットを作成するには、少なくとも 1 つのランディングページサブドメインを事前に設定して、 **サブドメイン名** リスト。"
 
 次の操作を実行できます。 [ランディングページプリセットを作成](#lp-create-preset)の場合は、ランディングページに使用するサブドメインを設定する必要があります。
 
