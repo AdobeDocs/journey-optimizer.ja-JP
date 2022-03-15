@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。意思決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
 
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [決定管理のコンポーネントについて詳しくは、このビデオを参照してください。](#video)
 
 ## 前提条件 {#prerequisites}
 
@@ -131,13 +131,13 @@ curl -X GET \
 
 このドキュメントでは、コンテナ ID の取得など、[!DNL Offer Library] API を呼び出すために必要な前提条件に関する知識を説明しました。これで、この開発者ガイドに記載されているサンプル呼び出しに進んで、その手順に従うことができます。
 
-## チュートリアルビデオ {#video}
+## ハウツービデオ {#video}
 
 次のビデオは、「意思決定管理」の構成要素の理解をサポートするためのものです。
 
 
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
+
 >[!NOTE]
 >
 >このビデオは、Adobe Experience Platformで構築された Offer Decisioning アプリケーションサービスに当てはまります。ただし、Journey Optimizer のコンテキストでオファーを使用する際の一般的なガイダンスを提供しています。
-
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '367'
+ht-degree: 1%
 
 ---
 
@@ -22,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] は、管理者ユーザーが追加した、以前に保存したパーソナライゼーション式にアクセスできるライブラリを提供します。
 
-1. 保存された式にアクセスするには、 **[!UICONTROL ライブラリ]** ボタンをクリックします。 リストには、管理者ユーザーが保存したすべての式が表示されます ( [ライブラリへの式の保存](#save-expressions)) をクリックします。
+➡️ [保存した式の使用方法については、このビデオを参照してください。](#video-preview)
 
-   >[!NOTE]
-   >
-   >情報ボタンを使用して、保存した式の内容に関する詳細情報を取得できます。 ライブラリ項目を管理する権限を持っている場合は、情報ボタンが楕円メニューに表示されます。
+保存された式にアクセスするには、 **[!UICONTROL ライブラリ]** ボタンをクリックします。 リストには、管理者ユーザーが保存したすべての式が表示されます ( [ライブラリへの式の保存](#save-expressions)) をクリックします。
 
-   ![](assets/library-list.png)
+    >[！注意 ]
+    >
+    > 情報ボタンを使用すると、保存した式の内容に関する詳細情報を取得できます。 ライブラリ項目を管理する権限を持っている場合は、情報ボタンが楕円メニューに表示されます。
+    
+    ![](assets/library-list.png)
 
-1. 「 + 」をクリックして、式をエディターに挿入します。 その後、通常どおりにパーソナライゼーションコンテンツをカスタマイズして検証できます。 [詳細情報](../personalization/personalization-build-expressions.md)
+「 + 」をクリックして、式をエディターに挿入します。 その後、通常どおりにパーソナライゼーションコンテンツをカスタマイズして検証できます。 [詳細情報](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## ライブラリへの式の保存 {#save-expressions}
 
@@ -68,3 +70,10 @@ ht-degree: 0%
 既存の式を編集するには、式をエディターに追加し、必要に応じて変更します。 クリック **[!UICONTROL ライブラリに追加]** 構文を検証し、式を保存する場合。
 
 式を削除するには、楕円形ボタンをクリックし、 **[!UICONTROL 削除]**.
+
+## ハウツービデオ{#video}
+
+保存したパーソナライゼーションライブラリ項目をメッセージで使用する方法と、パーソナライゼーションライブラリ項目を作成および管理する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+

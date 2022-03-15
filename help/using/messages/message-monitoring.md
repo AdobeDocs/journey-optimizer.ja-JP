@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 96%
 
 ---
 
 # メッセージの監視 {#monitor-message-execution}
 
 メッセージが正常に実行、送信、および配信されていることを確認するため、[!DNL Journey Optimizer] では、現在公開およびトリガーされているメッセージを監視する機能を提供しています。**[!UICONTROL 実行]**&#x200B;リストから、ジャーニー<!--and APIs-->をまたいでメッセージがどのように実行されているかをリアルタイムで確認できます。
+
+➡️ [この機能をビデオで確認](#video)
 
 このリストにアクセスするには、**[!DNL Journey Optimizer]** ホームページで「**[!UICONTROL メッセージ]**」を選択し、「**[!UICONTROL 実行]**」タブをクリックします。
 
@@ -93,3 +95,9 @@ ht-degree: 100%
 ![](assets/message-execution-data-format.png)
 
 各ハイパーリンクをクリックすると、対応するメッセージの概要表示が開きます。[メッセージの詳細情報](create-message.md)。
+
+## ハウツービデオ {#video}
+
+ライブレポートおよびグローバルレポート、ジャーニーおよびメッセージ固有のレポートにアクセスして分析する方法、およびレポートダッシュボードを変更する方法の詳細を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)

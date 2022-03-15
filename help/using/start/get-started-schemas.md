@@ -5,10 +5,10 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 スキーマは Experience Platform での標準的なデータ記述方法で、スキーマに適合するすべてのデータを組織間で競合なく再利用可能にし、さらに複数の組織間で共有できるようになります。
 
-➡️ [スキーマの作成および設定方法を確認](#video-schema)（ビデオ）
+➡️ [スキーマの作成と設定の方法については、このビデオを参照してください](#video-schema) （ビデオ）
 
 スキーマは、データの構造と形式を表し、検証する一連のルールです。スキーマは、高いレベルで、実世界のオブジェクト（人など）の抽象的な定義を提供し、そのオブジェクトの各インスタンスに含めるデータ（名、姓、誕生日など）の概要を示します。
 

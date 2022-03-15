@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1380'
 ht-degree: 94%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 94%
 また、既存のデータセットに json ファイルをアップロードすることもできます。 詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target=&quot;_blank&quot;}を参照してください。
 
 テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+
+➡️ [テストプロファイルの作成方法については、このビデオを参照してください](#video)
 
 ## 前提条件 {#test-profile-prerequisites}
 
@@ -227,3 +229,8 @@ curl -X POST \
 }
 }'
 ```
+## ハウツービデオ {#video}
+
+テストプロファイルを作成する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

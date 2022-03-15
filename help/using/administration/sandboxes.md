@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 ![](assets/sandbox_5.png)
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [サンドボックスの詳細については、このビデオを参照してください](#video)
 
 ## サンドボックスの割り当て {#assign-sandboxes}
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 92%
+source-wordcount: '1111'
+ht-degree: 91%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 92%
 * `if`ヘルパー：関連製品がカートに入っている場合に製品固有のメモを挿入します。 [詳細情報](functions/helpers.md#if-function)。
 
 <!-- **Context**: personalization based on contextual data from the journey -->
+
+➡️ [ヘルパー関数の使用方法については、このビデオを参照してください。](#video)
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
 * メールメッセージ。 [詳細情報](../messages/create-message.md)
@@ -338,6 +340,8 @@ ht-degree: 92%
 
 * [決定ベースのオファーを使用したパーソナライゼーション](../offers/offers-e2e.md)
 
-## チュートリアルビデオ{#helper-functions-video}
+## ハウツービデオ{#video}
+
+ヘルパー関数の使用方法を学びます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

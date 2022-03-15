@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1615'
 ht-degree: 94%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 94%
 # ユーザーインターフェイスでのメールコンテンツのデザイン {#create-email-content}
 
 [メッセージを作成](create-message.md)したら、メールコンテンツの作成に取り掛かることができます。
+
+➡️ [この機能をビデオで確認](#video)
 
 1. 新しく作成したメッセージから、「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL E メールデザイナー]**」を選択します。
 
@@ -282,3 +284,9 @@ E メールデザイナーインターフェイスで要素を選択し、サイ
 1. 既存の属性の値を変更するか、「**+**」ボタンを使用して新しい属性を追加します。CSS に準拠する任意の属性と値を追加できます。
 
 すると、選択した要素にスタイルが適用されます。子要素に特定のスタイル設定属性が定義されていない場合、親要素のスタイル設定が継承されます。
+
+## ハウツービデオ {#video}
+
+メッセージエディターで E メールコンテンツを作成する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

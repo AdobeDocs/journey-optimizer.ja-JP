@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 100%
 * [カスタムの待機の定義](../building-journeys/wait-activity.md#custom)
 * [タイムゾーンの定義](../building-journeys/timezone-management.md)
 
+➡️ [この機能をビデオで確認](#video)
+
 ジャーニーがイベントペイロードからのローカルデータのみを活用する場合、この設定は必要ありません。例えば、ジャーニーがイベントと、そのイベントのデータのみを使用するメッセージアクティビティのみで構成される場合、データソースを設定する必要はありません。
 
 データソースには次の 2 種類があります。
@@ -41,3 +43,10 @@ ht-degree: 100%
 >スキーマ間の関係がデータソースでサポートされるようになりました。
 
 Adobe Experience Platform データソースと外部データソースの設定方法と、ジャーニーでデータを検索および使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
+
+## ハウツービデオ {#video}
+
+データソースとは何かを理解し、Experience Platform と外部データソースを設定する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+

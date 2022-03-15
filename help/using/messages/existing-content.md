@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 100%
 # メールコンテンツの読み込みまたはコーディング {#existing-content}
 
 Journey Optimizer では、既存の HTML コンテンツを読み込んメールを設計できます。このコンテンツには、Raw HTML コードや、既存の HTML ファイルまたは zip フォルダーから取得したコンテンツを使用できます。
+
+➡️ [この機能をビデオで確認](#video)
 
 HTML コンテンツのコーディングを作成したり、既存のコンテンツを読み込んだりするには、次の手順に従います。
 
@@ -80,3 +82,9 @@ HTML コンテンツを含むファイルを読み込むには、次の手順に
 1. HTML コンテンツがアップロードされると、E メールデザイナーの機能を利用してメールの編集とプレビューをおこなうことができます。[詳しくは、この節](create-email-content.md)を参照してください。
 
    ![](assets/html-imported.png)
+
+## ハウツービデオ {#video}
+
+既存の HTML コンテンツの読み込み、デザインの調整、ミラーページと購読解除リンクの追加およびコンテンツのコーディング方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

@@ -4,7 +4,7 @@ description: Journey Optimizerでランディングページを作成して使�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 ## ランディングページのサブドメインの設定 {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_configure_subdomain"
+>id="ajo_admin_config_lp_subdomain"
 >title="ランディングページのサブドメインの設定"
 >abstract="サブドメインを選択できるようにするには、少なくとも 1 つのランディングページサブドメインを事前に設定済みであることを確認してください。"
 
