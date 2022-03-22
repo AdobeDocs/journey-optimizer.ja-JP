@@ -7,18 +7,28 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 97%
+source-wordcount: '749'
+ht-degree: 88%
 
 ---
 
 # AI モデルの作成 {#ai-rankings}
 
+[!DNL Journey Optimizer] を使用すると、 **AI モデル** ：ビジネス目標に基づいてオファーをランク付けします。
+
+>[!CAUTION]
+>
+>AI モデルを作成、編集または削除するには、 **ランキング戦略を管理** 権限。 [詳細情報](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>
+>現在、AI モデルの使用は、一部のユーザーのみが早期に利用できます。
+
+AI モデルが作成されたら、そのモデルを決定内の配置に割り当てます。 詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
+
 ## ランキング戦略の作成 {#create-ranking-strategy}
 
-ランキング戦略を作成するには、次の手順に従います。
+ランキング戦略として AI モデルを作成するには、次の手順に従います。
 
 1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL AI ランキング]**」タブを選択します。
 

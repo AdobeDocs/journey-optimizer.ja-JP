@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 4%
+source-wordcount: '1508'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## AI モデルの概要 {#get-started-with-ai-rankings}
 
-特定のプロファイルに対して表示するオファーをランク付けする、トレーニング済みモデルシステムを使用できます。
+[!DNL Journey Optimizer] では、特定のプロファイルに対して表示するオファーをランク付けする、トレーニング済みモデルシステムを使用できます。
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ ht-degree: 4%
 この機能を使用すると、異なる **AI モデル** ビジネス目標に基づいて トレーニング済みモデルシステムは、これらの様々な目標ベースの戦略を決定に使用し、様々な AI モデルが目標に与える影響を理解するのに役立ちます。
 
 例えば、E メールチャネル用の AI モデルと、プッシュチャネル用の AI モデルを選択できます。 各チャネルについて、トレーニング済みモデルシステムは、複数のデータポイントを活用して、オファーの優先度スコアや[ランキング式](create-ranking-formulas.md)を考慮するのではなく、特定のプレースメントに対して最初に提示するオファーを決定します。
-
-AI モデルが作成されたら、そのモデルを決定内の配置に割り当てます。 詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
 
 >[!NOTE]
 >

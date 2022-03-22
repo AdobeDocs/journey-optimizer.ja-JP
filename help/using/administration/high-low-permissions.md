@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 96%
+source-wordcount: '1089'
+ht-degree: 95%
 
 ---
 
@@ -279,9 +279,9 @@ ht-degree: 96%
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] 権限 {#manage-decisions}
+### [!DNL Manage ranking strategies] 権限 {#manage-ranking-strategies}
 
-「**[!DNL Manage ranking strategies]**」という高レベルの権限を持つユーザーは、カスタムメッセージレポートの読み取り、作成、編集および削除を行い、アクション機能を使用できます。
+この **[!DNL Manage ranking strategies]** 高レベル権限を持つユーザーは、ランキング戦略の読み取り、作成、編集、削除をおこなうことができます。
 
 これには、次の低レベル権限が含まれます。
 
