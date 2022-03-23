@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 100%
+source-wordcount: '1455'
+ht-degree: 98%
 
 ---
 
 # プッシュ通知の作成 {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push"
+>title="プッシュメッセージの作成"
+>abstract="プッシュメッセージを追加し、式エディターを使用してパーソナライズを開始します。"
+
 
 プッシュ通知は、モバイルアプリのユーザー、特にアプリを積極的に使用していないユーザーにいつでもリーチするのに役立ちます。プッシュ通知は、サービスに関するアップデートのお知らせ、ユーザーに対するアクションの実行の依頼、新しい取引に対するユーザーへの警告など、様々なユースケースの実現に役立ちます。 デバイスプラットフォームでは、エンドユーザーが通知を受信または表示する前にオプトインが必要です。 ユーザーのオプトインは、インストール後にアプリを初めて起動した後の早い段階で受け取ることも、必要に応じて後続のセッションやワークフローで受け取ることもできます。
 

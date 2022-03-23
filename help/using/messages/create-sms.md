@@ -8,14 +8,20 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 93%
 
 ---
 
 # SMS メッセージの作成 {#create-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_sms"
+>title="SMS の作成"
+>abstract="テキストメッセージを追加し、式エディターを使用してパーソナライズを開始します。"
+
 
 >[!CAUTION]
 >
