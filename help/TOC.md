@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用すると、パーソナラ�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -245,9 +245,9 @@ ht-degree: 98%
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
       + [ランキング式の作成](using/offers/offer-library/create-ranking-formulas.md)
-      + AI ランキングモデルの作成 {#create-ai-ranking-models}
+      + AI ランキングモデル {#create-ai-ranking-models} を作成
          + [AI モデルについて](using/offers/offer-library/ai-ranking.md)
-         + [AI モデルの作成](using/offers/offer-library/create-ranking-strategies.md)
+         + [AI モデルを作成](using/offers/offer-library/create-ranking-strategies.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
       + [フォールバックオファーの作成](using/offers/offer-library/creating-fallback-offers.md)
