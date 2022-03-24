@@ -3,9 +3,9 @@ title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## 2022年3月 {#march-2022}
 
-* AI モデルの概要に関する新しいページが、 **Offer decisioning** セクション ( [自動最適化モデル](../offers/offer-library/ai-ranking.md#auto-optimization)、使用するアルゴリズム、より技術的な詳細。 [詳細情報](../offers/offer-library/ai-ranking.md)
+* [自動最適化モデル](../offers/offer-library/ai-ranking.md#auto-optimization)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/offer-library/ai-ranking.md)
 
 ## 2022年2月 {#feb-2022}
 
