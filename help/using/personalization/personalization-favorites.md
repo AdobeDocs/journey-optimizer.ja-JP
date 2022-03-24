@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 ![](assets/favorite-option.png)
 
-お気に入りに登録した項目にアクセスするには、 **[!UICONTROL お気に入り]** メニューを開きます。
+お気に入りの項目にアクセスするには、左ウィンドウの&#x200B;**[!UICONTROL お気に入り]**&#x200B;メニューを使用します。
 
 このリストから、パーソナライゼーションオブジェクトを現在の式にすばやく追加できます。
 
