@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Handlebars では、{{expression}} から返される値は **HTML エスケー�
 
 ## プロファイル
 
-この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}を参照してください。
+この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
 
@@ -144,12 +144,12 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 ## URL のパーソナライゼーション{#perso-urls}
 
-パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。 Adobe Journey Optimizerでは、メッセージコンテンツの URL にパーソナライゼーションを追加できます。 URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。
+パーソナライズされた URL は、プロファイルの属性に応じて、受信者を web サイトの特定のページまたはパーソナライズされたマイクロサイトに誘導します。Adobe Journey Optimizer では、メッセージコンテンツの URL にパーソナライゼーションを追加できます。URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。
 
 Journey Optimizer では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。URL をパーソナライズするには、次の手順に従います。
 
-1. メッセージコンテンツにリンクを作成します。 [詳細情報](../messages/message-tracking.md#insert-links)
-1. パーソナライゼーションアイコンから、属性を選択します。 パーソナライゼーションアイコンは、次のタイプのリンクでのみ使用できます。 **外部リンク**, **購読解除リンク** および **オプトアウト**.
+1. メッセージコンテンツにリンクを作成します。[詳細情報](../messages/message-tracking.md#insert-links)
+1. パーソナライゼーションアイコンから、属性を選択します。パーソナライゼーションアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;のリンクでのみ使用できます。
 
 ![](assets/perso-url.png)
 
