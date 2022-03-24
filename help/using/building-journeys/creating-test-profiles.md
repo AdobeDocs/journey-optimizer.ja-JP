@@ -9,23 +9,23 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1380'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 # テストプロファイルの作成 {#create-test-profiles}
 
-テストプロファイルは、 [テストモード](../building-journeys/testing-the-journey.md) 旅の中で [コンテンツのプレビューとテスト](../messages/preview.md).
+ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../messages/preview.md)には、テストプロファイルが必要です。
 
-テストプロファイルを作成する方法はいくつかあります。 このページの詳細は次のとおりです。
+テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 
-* を回転 [既存のプロファイル](#turning-profile-into-test) テストプロファイルに
+* [既存のプロファイル](#turning-profile-into-test)をテストプロファイルに変換する
 
-* テストプロファイルの作成 ( [csv ファイル](#create-test-profiles-csv) または [API 呼び出し](#create-test-profiles-api).
+* [csv ファイル](#create-test-profiles-csv)をアップロードするか、[API 呼び出し](#create-test-profiles-api)を使用して、テストプロファイルを作成する
 
-   これら 2 つの方法に加えて、Adobe Journey Optimizer には、テストプロファイルの作成を容易にする特定の[製品内ユースケース](#use-case-1)が用意されています。
+   これら 2 つの方法に加えて、Adobe Journey Optimizer には、テストプロファイルを容易に容易できる特定の[製品内ユースケース](#use-case-1)が用意されています。
 
-また、既存のデータセットに json ファイルをアップロードすることもできます。 詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target=&quot;_blank&quot;}を参照してください。
+既存のデータセットで json ファイルをアップロードすることもできます。詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target=&quot;_blank&quot;}を参照してください。
 
 テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 プロファイルを作成するには、まず Adobe [!DNL Journey Optimizer] でスキーマとデータセットを作成する必要があります。
 
-宛先 **スキーマの作成**&#x200B;を使用する場合は、次の手順に従います。
+**スキーマを作成する**&#x200B;には、次の手順に従います。
 
 1. 「データ管理」メニュー セクションで、「**[!UICONTROL スキーマ]**」をクリックします。
    ![](assets/test-profiles-0.png)
@@ -115,7 +115,7 @@ ID 名前空間を選択し、上記の形式に基づいて CSV ファイルを
 
 既存のプロファイルをテストプロファイルに変換したり、プロファイルの作成時と同じ方法でプロファイル属性を更新したりできます。
 
-簡単な方法として、ジャーニーで「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを使用し、ブール値フィールド testProfile を「false」から「true」に変更します。****
+簡単な方法として、ジャーニーで「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを使用し、ブール値フィールド **testProfile** を「false」から「true」に変更します。
 
 ジャーニーは、「**[!UICONTROL セグメントを読み取り]** 」アクティビティと「**[!UICONTROL プロファイルを更新]**」アクティビティで構成されます。まず、テストプロファイルに変換するプロファイルをターゲットにしたセグメントを作成する必要があります。
 

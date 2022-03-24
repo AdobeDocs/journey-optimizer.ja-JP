@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -424,7 +424,7 @@ ht-degree: 95%
 
 ### [!DNL Manage landing page settings] 権限 {#manage-landing-page-settings}
 
-この **[!DNL Manage landing page settings]** 高レベル権限を持つユーザーは、ランディングページのサブドメインとプリセット設定を読み取り、作成および編集できます。
+「**[!DNL Manage landing page settings]**」という高レベルの権限を持つユーザーは、ランディングページのサブドメインとプリセット設定の読み取り、作成および編集を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 

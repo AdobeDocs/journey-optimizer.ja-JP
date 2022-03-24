@@ -10,11 +10,11 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
-# AI モデルの作成 {#ai-rankings}
+# AI モデルを作成 {#ai-rankings}
 
 [!DNL Journey Optimizer] を使用すると、 **AI モデル** ：ビジネス目標に基づいてオファーをランク付けします。
 
@@ -22,9 +22,9 @@ ht-degree: 88%
 >
 >AI モデルを作成、編集または削除するには、 **ランキング戦略を管理** 権限。 [詳細情報](../../administration/high-low-permissions.md#manage-ranking-strategies)
 >
->現在、AI モデルの使用は、一部のユーザーのみが早期に利用できます。
+>AI モデルは、現在、一部のユーザーのみが早期アクセスで利用できます。
 
-AI モデルが作成されたら、そのモデルを決定内の配置に割り当てます。 詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
+AI モデルを作成したら、決定内のプレースメントに割り当てます。詳しくは、[決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)を参照してください。
 
 ## ランキング戦略の作成 {#create-ranking-strategy}
 
@@ -44,7 +44,7 @@ AI モデルが作成されたら、そのモデルを決定内の配置に割�
 
    * **[!UICONTROL 名前]**：指定する必要がある一意の名前。
 
-   * **[!UICONTROL モデルタイプ]**:現在 [!DNL Journey Optimizer] サポートされているモデルのタイプは次のみです。 **[!UICONTROL 自動最適化]**. [詳細情報](ai-ranking.md#auto-optimization)
+   * **[!UICONTROL モデルタイプ]**：現在 [!DNL Journey Optimizer] でサポートされているモデルタイプは&#x200B;**[!UICONTROL 自動最適化]**&#x200B;のみです。[詳細情報](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL 最適化指標]**：
 

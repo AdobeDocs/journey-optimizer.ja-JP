@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer を使用すると、パーソナラ�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 100%
 
