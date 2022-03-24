@@ -3,9 +3,9 @@ title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2700'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでランディングページを作成およびデザインし、ユーザーがオンラインフォームにアクセスして、コミュニケーションのオプトインやオプトアウトを行ったり、ニュースレターなどの特定のサービスを購読したりできるようになりました。</p>
+<p>Journey Optimizer でランディングページを作成およびデザインし、ユーザーをオンラインフォームに誘導して、コミュニケーションの受信をオプトインまたはオプトアウトしたり、ニュースレターなどの特定のサービスに購読したりできるようになりました。</p>
 <p>詳しくは、<a href="../landing-pages/create-lp.md">詳細なドキュメント</a>および関連する<a href="../landing-pages/lp-use-cases.md">サンプルユースケース</a>を参照してください。</p>
 </td>
 </tr>
@@ -44,7 +44,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerには、事前定義されたパーソナライゼーション式にアクセスできるライブラリが用意されています。 式は管理者ユーザーが設定します。</p>
+<p>Journey Optimizer には、事前定義されたパーソナライゼーション式にアクセスできるライブラリが用意されるようになりました。これらの式は、管理者ユーザーが設定します。</p>
 <p>詳しくは、<a href="../personalization/personalization-library.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
