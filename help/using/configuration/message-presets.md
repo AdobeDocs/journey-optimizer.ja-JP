@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -78,20 +78,20 @@ ht-degree: 80%
 
 ## メール設定 {#configure-email-settings}
 
-電子メールの設定は、メッセージプリセット設定の専用のセクションで定義します。
+メール設定は、メッセージプリセット設定の専用のセクションで定義します。
 
 ![](assets/preset-email.png)
 
 以下の説明に従って、設定を指定します。
 
 
-### 電子メールのタイプ{#email-type}
+### メールのタイプ{#email-type}
 
-内 **電子メールのタイプ** 「 」セクションで、プリセットと共に送信されるメッセージのタイプを選択します。 **マーケティング** または **トランザクション**.
+「**メールのタイプ**」セクションで、プリセットと共に送信されるメッセージのタイプ（「**マーケティング**」または「**トランザクション**」）を選択します。
 
-選択 **マーケティング** プロモーションメッセージの場合：これらのメッセージにはユーザーの同意が必要です。
+プロモーションメッセージの場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
 
-選択 **トランザクション** （注文の確認、パスワードリセット通知、配信情報など、非商用メッセージの場合）
+注文確認、パスワードリセット通知、配信情報など、非商用メッセージの場合は、「**トランザクション**」を選択します。
 
 >[!CAUTION]
 >
@@ -100,7 +100,7 @@ ht-degree: 80%
 
 ### サブドメインおよび IP プール {#subdomains-and-ip-pools}
 
-内 **サブドメインおよび IP プールの詳細** セクションで、以下を実行する必要があります。
+「**サブドメインおよび IP プールの詳細**」セクションでは、以下を実行する必要があります。
 
 1. メールの送信に使用するサブドメインを選択します。 [詳細](about-subdomain-delegation.md)
 
@@ -108,31 +108,31 @@ ht-degree: 80%
 
 ### URL トラッキング{#url-tracking}
 
-ユーザーがリンクをクリックした場所と理由を特定するために、  **[!UICONTROL URL トラッキング設定（WEB 分析）]** 」セクションに入力します。
+ユーザーがリンクをクリックした場所と理由を特定するために、「**[!UICONTROL URL トラッキング設定（web 分析）]**」セクションで URL トラッキング用の UTM パラメーターを追加できます。
 
-定義したパラメーターに基づいて、UTM コードがメッセージコンテンツに含まれる URL の末尾に適用されます。 その後、Google Analyticsなどの Web 分析ツールで結果を比較できます。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+定義したパラメーターに基づいて、メッセージコンテンツに含まれる URL の末尾に UTM コードが適用されます。その後、Google Analytics などの web 分析ツールで結果を比較できるようになります。<!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
 ![](assets/preset-url-tracking.png)
 
-デフォルトでは、3 つの UTM パラメーターが使用可能です。 最大 10 個のトラッキングパラメーターを追加できます。 UTM パラメーターを追加するには、 **[!UICONTROL 新しい UTM パラメーターの追加]** 」ボタンをクリックします。
+デフォルトでは、3 つの UTM パラメーターが使用可能です。最大 10 個のトラッキングパラメーターを追加できます。 UTM パラメーターを追加するには、「**[!UICONTROL 新しい UTM パラメーターの追加]**」ボタンを選択します。
 
-UTM パラメーターを設定するには、目的の値を **[!UICONTROL 名前]** および **[!UICONTROL 値]** フィールドを選択するか、次のオブジェクトに移動して、事前定義済みの値のリストから選択します。
+UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フィールドと「**[!UICONTROL 値]**」フィールドに目的の値を直接入力するか、次のオブジェクトに移動して事前定義済みの値のリストから選択します。
 
 * ジャーニー属性：ソース ID、ソース名、ソースバージョン ID
 * メッセージ属性：アクション ID、アクション名
-* Offer decisioning属性：オファー ID、オファー名
+* Offer Decisioning 属性：オファー ID、オファー名
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->フォルダーは選択しないでください：必要なフォルダーを参照し、UTM 値として使用するプロファイル属性を選択します。
+>フォルダーは選択しないでください。必要なフォルダーを参照し、UTM 値として使用するプロファイル属性を選択します。
 
 ### ヘッダーパラメーター{#email-header}
 
-内 **[!UICONTROL ヘッダーパラメーター]** 「 」セクションで、そのプリセットを使用して送信されたメッセージに関連付けられた電子メールアドレスを入力します。 これらのメールアドレスは、現在選択されている [委任サブドメイン](about-subdomain-delegation.md).
+「**[!UICONTROL ヘッダーパラメーター]**」セクションで、そのプリセットを使用して送信されたメッセージに関連付けられているメールアドレスを入力します。これらのメールアドレスでは、現在選択されている[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
 
-次の電子メールアドレスを設定する必要があります
+次のメールアドレスを設定する必要があります
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 
@@ -149,11 +149,11 @@ UTM パラメーターを設定するには、目的の値を **[!UICONTROL 名�
 
 >[!NOTE]
 >
->アドレスは、文字 (A ～ Z) で始まる必要があり、英数字のみを含めることができます。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+>アドレスは、文字（A ～ Z）で始まる必要があり、英数字のみを使用できます。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-### E メールの再試行パラメーター{#email-retry}
+### メールの再試行パラメーター{#email-retry}
 
-次の項目を設定できます。 **E メールの再試行パラメーター**.
+**メールの再試行パラメーター**&#x200B;を設定できます。
 
 ![](assets/preset-retry-parameters.png)
 
@@ -161,8 +161,8 @@ UTM パラメーターを設定するには、目的の値を **[!UICONTROL 名�
 
 次の範囲内の整数値（時間または分）を入力する必要があります。
 
-* マーケティング E メールの場合、再試行の最小期間は 6 時間です。
-* トランザクション E メールの場合、再試行の最小期間は 10 分です。
+* マーケティングメールの場合、再試行期間の下限は 6 時間です。
+* トランザクションメールの場合、再試行期間の下限は 10 分です。
 * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
 
 ## プッシュ設定 {#configure-push-settings}
@@ -195,11 +195,11 @@ UTM パラメーターを設定するには、目的の値を **[!UICONTROL 名�
 
 ## メッセージプリセットの監視 {#monitor-message-presets}
 
-すべてのメッセージプリセットは、**[!UICONTROL チャネル]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューに表示されます。フィルターを使用すると、チャネルタイプ、ユーザー、ステータスに応じてリストを参照できます。
+すべてのメッセージプリセットは、**[!UICONTROL チャネル]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューに表示されます。フリスト（チャネルタイプ、ユーザー、ステータス）を参照するのに役立つフィルターを使用できます。
 
 ![](assets/preset-filters.png)
 
-メッセージプリセットを作成すると、次のステータスを持つことができます。
+作成されると、メッセージプリセットは次のステータスになります。
 
 * **[!UICONTROL ドラフト]**：メッセージプリセットは下書きとして保存されており、まだ送信されていません。設定を再開するには、これを開きます。
 * **[!UICONTROL 処理中]**：メッセージプリセットが送信され、いくつかの検証手順を実行中です。
@@ -209,7 +209,7 @@ UTM パラメーターを設定するには、目的の値を **[!UICONTROL 名�
 
 メッセージプリセットの作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} でサポートを受けてください。
+これらのエラーのいずれかが発生した場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} にご連絡ください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
