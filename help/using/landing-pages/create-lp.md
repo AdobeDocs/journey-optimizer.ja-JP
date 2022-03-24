@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -25,21 +25,21 @@ ht-degree: 81%
 
 ![](assets/lp_access-list-filter.png)
 
-このリストから、 [ランディングページレポート](lp-report.md) 公開された項目の場合。
+このリストから、公開中のアイテムの[ランディングページレポート](lp-report.md)にアクセスできます。
 
-ランディングページの削除、複製、非公開もおこなえます。
+ランディングページの削除、複製、非公開も行えます。
 
 >[!CAUTION]
 >
->非公開のメッセージで参照されているランディングページを非公開にした場合、ランディングページが再び公開されるまでメッセージは公開できません。 メッセージが既に公開されている場合、ランディングページへのリンクが壊れ、エラーページが表示されます。
+>非公開のメッセージで参照されているランディングページを非公開にした場合、ランディングページが再び公開されるまでメッセージは公開できません。メッセージが既に公開されている場合、ランディングページへのリンクが壊れ、エラーページが表示されます。
 
-ランディングページの横にある 3 つのドットをクリックし、目的のアクションを選択します。
+ランディングページの横にある「...」をクリックし、目的のアクションを選択します。
 
 ![](assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
->公開済みのランディングページは削除できません。 削除するには、まず非公開にする必要があります。
+>公開済みのランディングページは削除できません。削除するには、まず非公開にする必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -53,7 +53,7 @@ ht-degree: 81%
 
    ![](assets/lp_create-lp-details.png)
 
-1. プリセットを選択します。でランディングページプリセットを作成する方法を説明します。 [この節](../configuration/lp-configuration.md#lp-create-preset).
+1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../configuration/lp-configuration.md#lp-create-preset)を参照してください。
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -133,7 +133,7 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
->メッセージをプレビューし、配達確認を送信するには、使用可能なテストプロファイルが必要です。 [テストプロファイルを作成](../building-journeys/creating-test-profiles.md)する方法について説明します。
+>メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../building-journeys/creating-test-profiles.md)する方法について説明します。
 
 1. ランディングページのインターフェイスから、「**[!UICONTROL プレビューとテスト]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
@@ -161,7 +161,7 @@ ht-degree: 81%
 
 ## アラートの確認 {#check-alerts}
 
-ランディングページを作成している間、は、公開する前に重要なアクションを実行する必要がある場合に警告を表示します。
+ランディングページの作成中、公開前に重要なアクションを実行する必要がある場合は、アラートが表示されます。
 
 次に示すように、画面の右上にアラートが表示されます。
 
@@ -181,7 +181,7 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
-> すべてを解決する必要があります **エラー** 公開前のアラート。
+> 公開する前に、すべての&#x200B;**エラー**&#x200B;アラートを解決する必要があります。
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
