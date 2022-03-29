@@ -9,7 +9,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 85%
+ht-degree: 91%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 85%
 
 ## ハウツービデオ{#video}
 
-保存したパーソナライゼーションライブラリ項目をメッセージで使用する方法と、パーソナライゼーションライブラリ項目を作成および管理する方法について説明します。
+保存済みのパーソナライゼーションライブラリ項目をメッセージで使用する方法と、パーソナライゼーションライブラリ項目を作成および管理する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 
