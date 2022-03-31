@@ -59,7 +59,7 @@ Adobe Experience Platform に通知されるステップイベントについて
 
 ## Customer Journey Analytics との統合 {#integration-cja}
 
-[!DNL Journey Optimizer] ステップイベントを [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja){target=&quot;_blank&quot;}。
+[!DNL Journey Optimizer] ステップイベントを [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja){target=&quot;_blank&quot;}。
 
 一般的なワークフローは次のとおりです。
 
