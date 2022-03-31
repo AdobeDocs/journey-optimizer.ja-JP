@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,15 @@ ht-degree: 100%
 
 * ジャーニーまたはジャーニーのコンテキストの配信をターゲットにする場合は、**[!UICONTROL ジャーニー]**&#x200B;メニューからジャーニーにアクセスし、**[!UICONTROL グローバルレポート]**&#x200B;アイコンをクリックします。ジャーニー、メール、プッシュなどの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;が見つかります。
 
+   ![](assets/report_6.png)
+
 * 特定の配信をターゲットにする場合は、メッセージの「**[!UICONTROL 実行]**」タブの&#x200B;**[!UICONTROL グローバル表示]**&#x200B;で、選択した配信の詳細メニューから「**[!UICONTROL グローバルレポート]**」を選択します。
+
+   ![](assets/report_4.png)
+
+* を **[!UICONTROL グローバルレポート]** から **[!UICONTROL ライブレポート]** 配信の場合は、「 **[!UICONTROL ライブ表示]** 」をクリックします。
+
+   ![](assets/report_5.png)
 
 ## ダッシュボードのカスタマイズ {#modify-dashboard}
 
@@ -34,6 +42,8 @@ ht-degree: 100%
    ![](assets/report_modify_1.png)
 
 1. 切り替えバーを使用して、レポートからテストイベントを除外する場合に選択します。テストイベントについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+
+   なお、 **[!UICONTROL テストイベントの除外]** オプションは、ジャーニーレポートでのみ使用できます。
 
    ![](assets/report_modify_2.png)
 

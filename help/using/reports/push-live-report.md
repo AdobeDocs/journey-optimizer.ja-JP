@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 90%
 
 ---
 
@@ -57,10 +57,13 @@ ht-degree: 100%
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
+![](assets/live_report_9.png)
+
+この **[!UICONTROL エラー理由]** および **[!UICONTROL 理由を除外]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+
+この **[!UICONTROL 統計の送信 — 失敗]** ウィジェットを使用すると、発生したエラー数とバウンス数を確認できます。
+
 ![](assets/live_report_4.png)
 
 **[!UICONTROL プラットフォーム別トラッキング]**、**[!UICONTROL プラットフォーム別送信]**、**[!UICONTROL プラットフォーム別分類]**&#x200B;のグラフとテーブルには、プッシュ通知の成功の詳細がオペレーティングシステムに応じて表示されます。
 
-**[!UICONTROL 送信の統計 - 失敗]**&#x200B;ウィジェットには、発生したエラーとバウンスの数が表示されます。
-
-「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。

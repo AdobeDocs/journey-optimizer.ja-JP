@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
@@ -229,11 +229,11 @@ ht-degree: 100%
 
 これで決定が有効になったので、メールメッセージに挿入できます。これをおこなうには、以下の手順に従います。
 
-1. メールを作成し、[E メールデザイナー](../../using/messages/design-emails.md)を開いてコンテンツを設定します。
+1. メールを作成し、[E メールデザイナー](../../using/design/design-emails.md)を開いてコンテンツを設定します。
 
 1. 左側のパレットから構造コンポーネントを追加します。
 
-1. **[!UICONTROL オファーの決定]**&#x200B;コンテンツコンポーネントを追加します。 コンテンツコンポーネントの使用方法については、[この節](../../using/messages/content-components.md)を参照してください。
+1. **[!UICONTROL オファーの決定]**&#x200B;コンテンツコンポーネントを追加します。 コンテンツコンポーネントの使用方法については、[この節](../../using/design/content-components.md)を参照してください。
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -261,7 +261,7 @@ ht-degree: 100%
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-**[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印（右向き矢印と左向き矢印）を使用して、データを参照します。 また、顧客プロファイルを使用して、決定の一部である様々なオファーを表示することもできます。詳しくは、[この節](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email)を参照してください。
+**[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印（右向き矢印と左向き矢印）を使用して、データを参照します。 また、顧客プロファイルを使用して、決定の一部である様々なオファーを表示することもできます。詳しくは、[この節](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)を参照してください。
 
 変更を保存し、メッセージを公開すると、ジャーニーの一部としてメッセージを送信する際に、関連するプロファイルにオファーが表示されるようになります。
 
@@ -271,7 +271,7 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [この節](../../using/messages/preview.md#preview-your-messages)では、メッセージのプレビューを確認する方法を説明します。
+* [この節](../../using/design/preview.md#preview-your-messages)では、メッセージのプレビューを確認する方法を説明します。
 
 * メッセージの公開方法については、[この節](../../using/messages/publish-manage-message.md)を参照してください。
 

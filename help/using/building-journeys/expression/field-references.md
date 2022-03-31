@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 構文の色を使用して、イベントフィールド（緑）とフィールドグループ（青）を視覚的に区別します。
 
-## フィールド参照のデフォルト値
+## フィールド参照のデフォルト値 {#default-value}
 
 デフォルト値をフィールド名に関連付けることができます。構文は以下のとおりです。
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+任意の種類の式をデフォルト値として追加できます。 唯一の制約は、式が期待されるデータ型を返す必要があるということです。 関数を使用する場合は、() で関数をカプセル化する必要があります。
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## コレクション内のフィールドへの参照

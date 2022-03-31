@@ -1,19 +1,25 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
 title: 高度な式エディターについて
 description: 高度な式の作成方法を学ぶ
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
 
 # 高度な式エディターについて {#about-the-advanced-expression-editor}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_advanced"
+>title="高度な式エディターについて"
+>abstract="高度な式エディターを使用すると、インターフェイスの様々な画面で高度な式を作成できます。 例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。
+"
 
 高度な式エディターを使用すると、インターフェイスの様々な画面で高度な式を作成できます。 例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。
 また、特定のデータ操作を必要とするアクションパラメーターを定義する必要が生じるたびに使用することもできます。イベントから取得したデータや、データソースから取得した追加情報を活用できます。ジャーニーで表示されるイベントフィールドのリストは状況に応じて異なり、ジャーニーに追加されたイベントに応じて変化します。

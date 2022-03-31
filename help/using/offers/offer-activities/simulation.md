@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
+source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '793'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## テストプロファイルの選択 {#select-test-profiles}
 
-まず、シミュレーションに使用するテストプロファイルを選択する必要があります。テストプロファイルの詳細については、 [このページ](../../building-journeys/creating-test-profiles.md).
+まず、シミュレーションに使用するテストプロファイルを選択する必要があります。テストプロファイルの詳細については、 [このページ](../../segment/creating-test-profiles.md).
 
 1. 「**[!UICONTROL プロファイルを管理]**」をクリックします。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。 Adobe Experience Platform の ID 名前空間について詳しくは、[この節](../../start/get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
+   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。 Adobe Experience Platform の ID 名前空間について詳しくは、[この節](../../segment/get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
 
 1. ID 値を入力し、「**[!UICONTROL 表示]**」をクリックして、使用可能なプロファイルを一覧表示します。
 

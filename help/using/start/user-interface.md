@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 100%
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 * **[!UICONTROL ジャーニー]** ：お客様のジャーニーを作成、設定および調整します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL メッセージ]**：メールメッセージとプッシュメッセージを作成、デザイン、テストおよび公開します。[詳細情報](../messages/create-message.md)
+* **[!UICONTROL メッセージ]**：メールメッセージとプッシュメッセージを作成、デザイン、テストおよび公開します。[詳細情報](../messages/get-started-content.md)
 
 **[!UICONTROL 意思決定管理]**
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 **[!UICONTROL コンテンツ管理]**
 
-* **[!UICONTROL アセット]**：[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的リポジトリーです。[詳細情報](../messages/assets-essentials.md)
+* **[!UICONTROL アセット]**：[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的リポジトリーです。[詳細情報](../design/assets-essentials.md)
 
 **[!UICONTROL データ管理]**
 
@@ -76,9 +76,9 @@ ht-degree: 100%
 
 * **[!UICONTROL セグメント]** - Experience Platform セグメントの定義を作成および管理し、それらをジャーニーで活用します。[詳細情報](../segment/about-segments.md)
 
-* **[!UICONTROL プロファイル]**：リアルタイム顧客プロファイルは、オンライン、オフライン、CRM、サードパーティデータなど複数のチャネルからのデータを組み合わせて、個々の顧客の全体像を作成します。[詳細情報](get-started-profiles.md)
+* **[!UICONTROL プロファイル]**：リアルタイム顧客プロファイルは、オンライン、オフライン、CRM、サードパーティデータなど複数のチャネルからのデータを組み合わせて、個々の顧客の全体像を作成します。[詳細情報](../segment/get-started-profiles.md)
 
-* **[!UICONTROL ID]**：Adobe Experience Platform ID サービスは、クロスデバイス、クロスチャネル、ほぼリアルタイムの顧客識別を Adobe Experience Platform 内のいわゆる ID グラフで管理します。[詳細情報](get-started-identity.md)
+* **[!UICONTROL ID]**：Adobe Experience Platform ID サービスは、クロスデバイス、クロスチャネル、ほぼリアルタイムの顧客識別を Adobe Experience Platform 内のいわゆる ID グラフで管理します。[詳細情報](../segment/get-started-identity.md)
 
 **[!UICONTROL 管理]**
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 利用可能なユースケースは次のとおりです。
 
-* **テストプロファイルを作成する**：CSV テンプレートを使用してテストプロファイルを作成し、パーソナライズされたメッセージとジャーニーをテストします。このユースケースの実装方法については、[このページ](../building-journeys/creating-test-profiles.md#use-case-1)を参照してください。
+* **テストプロファイルを作成する**：CSV テンプレートを使用してテストプロファイルを作成し、パーソナライズされたメッセージとジャーニーをテストします。このユースケースの実装方法については、[このページ](../segment/creating-test-profiles.md#use-case-1)を参照してください。
 * **顧客に誕生日のメッセージを送信する**：顧客の誕生日を祝うメールを自動的に送信します。（近日公開）
 * **新規顧客をオンボーディングするためのメールを送信する**：新規登録した顧客を歓迎するために最大 2 通のメールを簡単に送信します。（近日公開）
 * **読み込んだ顧客リストにプッシュメッセージを送信する**：CSV ファイルからインポートされた顧客リストにプッシュ通知をすばやく送信します。（近日公開）

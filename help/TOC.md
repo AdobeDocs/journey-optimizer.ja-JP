@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用すると、パーソナライズされたエクスペリエンスをコンテキストに即してスムーズに顧客に提供できます
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 95%
 
 ---
 
@@ -30,33 +30,38 @@ ht-degree: 100%
    + [制限事項](using/start/limitations.md)
 + メッセージ {#messages}
    + [メッセージの基本を学ぶ](using/messages/get-started-content.md)
-   + メッセージの作成 {#create-message}
-      + [メッセージの作成](using/messages/create-message.md)
-      + [メールの作成](using/messages/create-email.md)
-      + [プッシュ通知の作成](using/messages/create-push.md)
-      + [SMS メッセージの作成](using/messages/create-sms.md)
-   + [アセットの追加と管理](using/messages/assets-essentials.md)
-   + [パーソナライズされたオファーの追加](using/messages/deliver-personalized-offers.md)
-   + メールのデザイン {#email-designer}
-      + [メールデザインの基本を学ぶ](using/messages/design-emails.md)
-      + [UI でのメールコンテンツのデザイン](using/messages/create-email-content.md)
-      + [メールコンテンツのインポートまたはコーディング](using/messages/existing-content.md)
-      + [電子メールデザイナーのコンテンツ用コンポーネントの使用](using/messages/content-components.md)
-   + [リンクの追加とメッセージのトラッキング](using/messages/message-tracking.md)
+   + [メールの作成](using/messages/create-email.md)
+   + [プッシュ通知の作成](using/messages/create-push.md)
+   + [SMS メッセージの作成](using/messages/create-sms.md)
    + 検証と公開 {#validate}
-      + [プレビューと配達確認](using/messages/preview.md)
       + [アラートの確認](using/messages/alerts.md)
       + [メッセージの公開](using/messages/publish-manage-message.md)
    + [同意の管理](using/messages/consent.md)
++ コンテンツのデザイン {#design}
+   + [メールデザインの基本を学ぶ](using/design/design-emails.md)
+   + [最初から開始 ](using/design/create-email-content.md)
+   + [E メールコンテンツを読み込む](using/design/existing-content.md)
+   + [独自のコンテンツをコーディング](using/design/code-content.md)
+   + コンテンツデザイン {#design-content}
+      + [コンテンツコンポーネントの使用](using/design/content-components.md)
+      + [背景の設定](using/design/backgrounds.md)
+      + [垂直方向の整列とパディングを調整する](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [リンクのスタイルの定義](using/design/styling-links.md)
+      + [インラインのスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
+   + メールの設定 {#design-email}
+      + [テキストバージョンを生成](using/design/text-version-email.md)
+      + [プリヘッダーを追加](using/design/preheader.md)
+   + アセットの追加と管理 {#manage-asset}
+      + [Assets Essentialsの操作](using/design/assets-essentials.md)
+   + [パーソナライズされたオファーの追加](using/design/deliver-personalized-offers.md)
+   + [リンクの追加とメッセージのトラッキング](using/design/message-tracking.md)
+   + [プレビューと配達確認](using/design/preview.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
    + [ランディングページの作成](using/landing-pages/design-lp.md)
    + [購読リストの作成](using/landing-pages/subscription-list.md)
    + [ユースケース](using/landing-pages/lp-use-cases.md)
-   + レポート {#lp-reporting}
-      + [ランディングページのレポート](using/landing-pages/lp-report.md)
-      + [購読リストのレポート](using/landing-pages/subscription-report.md)
 + パーソナライゼーション{#personalization}
    + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
    + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
@@ -85,13 +90,14 @@ ht-degree: 100%
    + セグメント {#segments}
       + [セグメントの基本を学ぶ](using/segment/about-segments.md)
       + [セグメントの作成](using/segment/creating-a-segment.md)
-   + [プロファイル](using/start/get-started-profiles.md)
-   + [ID](using/start/get-started-identity.md)
+   + [プロファイル] {#profiles}
+      + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
+      + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
+   + [ID](using/segment/get-started-identity.md)
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [ジャーニーのバージョン](using/building-journeys/journey-versions.md)
-      + [テストプロファイルの作成](using/building-journeys/creating-test-profiles.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + ジャーニーの作成{#create-journey}
       + [ジャーニーの基本を学ぶ](using/building-journeys/journey-gs.md)
@@ -207,17 +213,21 @@ ht-degree: 100%
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
 + トラッキングとモニタリング {#reporting}
-   + [メッセージのモニタリング](using/messages/message-monitoring.md)
+   + [メッセージのモニタリング](using/reports/message-monitoring.md)
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
       + [メールライブレポート](using/reports/email-live-report.md)
       + [プッシュライブレポート](using/reports/push-live-report.md)
+      + [ランディングページライブレポート](using/reports/lp-report-live.md)
+      + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートダッシュボードへのアクセス](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
       + [メールグローバルレポート](using/reports/email-global-report.md)
       + [プッシュグローバルレポート](using/reports/push-global-report.md)
+      + [ランディングページのグローバルレポート](using/reports/lp-report-global.md)
+      + [購読リストのグローバルレポート](using/reports/subscription-report-global.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドのリスト](using/reports/sharing-field-list.md)
@@ -230,9 +240,9 @@ ht-degree: 100%
          + [ID フィールド](using/reports/sharing-identity-fields.md)
       + [クエリの例](using/reports/query-examples.md)
    + 配信品質 {#deliverability}
-      + [配信品質の基本を学ぶ](using/messages/deliverability.md)
-      + [抑制リスト](using/messages/suppression-list.md)
-      + [許可リスト](using/messages/allow-list.md)
+      + [配信品質の基本を学ぶ](using/reports/deliverability.md)
+      + [抑制リスト](using/reports/suppression-list.md)
+      + [許可リスト](using/reports/allow-list.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
@@ -314,6 +324,7 @@ ht-degree: 100%
          + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
       + API を使用したオファー配信 {#offer-delivery}
          + [決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [バッチ判定 API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + データ管理 {#data-management}
    + [スキーマ](using/start/get-started-schemas.md)
@@ -323,8 +334,8 @@ ht-degree: 100%
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + メッセージの設定 {#configuration-message}
       + プッシュ通知の設定 {#push-config}
-         + [プッシュ設定の基本を学ぶ](using/messages/push-gs.md)
-         + [プッシュ通知チャネルの設定](using/messages/push-configuration.md)
+         + [プッシュ設定の基本を学ぶ](using/configuration/push-gs.md)
+         + [プッシュ通知チャネルの設定](using/configuration/push-configuration.md)
       + メールの設定 {#email-configuration}
          + サブドメインのデリゲート {#delegate-subdomains}
             + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
@@ -339,6 +350,7 @@ ht-degree: 100%
          + [プライマリメールアドレスの変更](using/configuration/primary-email-addresses.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
       + [メッセージプリセットの作成](using/configuration/message-presets.md)
+      + [頻度ルールの設定](using/configuration/frequency-rules.md)
    + [ランディングページの設定](using/configuration/lp-configuration.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)

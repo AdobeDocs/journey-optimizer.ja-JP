@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
-
 ## 2022年3月 {#march-2022}
 
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 3 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * [自動最適化モデル](../offers/offer-library/ai-ranking.md#auto-optimization)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/offer-library/ai-ranking.md)
+* テストプロファイル作成ページは、  **セグメント、プロファイル、ID** 」セクションに入力します。 [詳細情報](../segment/creating-test-profiles.md)
+* 式エディターで式をデフォルト値として追加する方法の例を追加しました。 [詳細情報](../building-journeys/expression/field-references.md#default-value)
+* この **プライマリ E メールアドレスの変更** の節が更新され、ユーザーインターフェイスの変更が反映されました。 [詳細情報](../configuration/primary-email-addresses.md)
 
 ## 2022年2月 {#feb-2022}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 * [!DNL Journey Optimizer] パーソナライズ機能に関連する節が再編成され、読みやすくなりました。[詳細情報](../personalization/personalize.md)
 * この&#x200B;**メッセージプリセットの作成**&#x200B;の節は、わかりやすくするために複数のセクションに分かれています。[詳細情報](../configuration/message-presets.md#create-message-preset)
 * この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../messages/consent.md#opt-out-management)
-* この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../messages/message-tracking.md#insert-links)
+* この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../design/message-tracking.md#insert-links)
 
 ## 2021年11月 {#november-2021}
 
@@ -93,8 +96,8 @@ ht-degree: 100%
 * アクセシビリティ機能とショートカットに関する節を追加しました。[詳細情報](../start/user-interface.md#accessibility)
 * セグメント評価方法に関する節を追加しました。[詳細情報](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/email-global-report.md)
-* 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../messages/allow-list.md#reporting)
-* 「許可リストの有効化」の節を更新しました。 [詳細情報](../messages/allow-list.md#enable-allow-list)
+* 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../reports/allow-list.md#reporting)
+* 「許可リストの有効化」の節を更新しました。 [詳細情報](../reports/allow-list.md#enable-allow-list)
 * 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/message-presets.md#monitor-message-presets)
 * メッセージプリセットのメール再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。 [詳細情報](../configuration/retries.md#retry-duration)
 * ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](../messages/consent.md#one-click-opt-out-link)
@@ -112,8 +115,8 @@ ht-degree: 100%
 * [!DNL Journey Optimizer] 製品説明へのリンクがホームページに追加されました
 * 複数のページにチュートリアルビデオが追加されました
 * ホームページの画像が最適化されました
-* 「メッセージトラッキング」の節が移動し、改善され、タイトルが「リンクの追加とメッセージのトラッキング」に変更されました。 [詳細を読む](../messages/message-tracking.md)
-* ミラーページにサブセクションが追加されました。 [詳細を読む](../messages/message-tracking.md#mirror-page)
+* 「メッセージトラッキング」の節が移動し、改善され、タイトルが「リンクの追加とメッセージのトラッキング」に変更されました。 [詳細を読む](../design/message-tracking.md)
+* ミラーページにサブセクションが追加されました。 [詳細を読む](../design/message-tracking.md#mirror-page)
 * ドキュメントと画面上で、「オファーアクティビティ」が「決定」、「決定」が「決定範囲」に名称変更されました。[詳細を読む](../offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](../personalization/personalization-use-case-helper-functions.md)が追加されました
 * 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。 [詳細を読む](../building-journeys/read-segment.md)

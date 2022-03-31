@@ -1,10 +1,9 @@
 ---
-product: adobe campaign
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%

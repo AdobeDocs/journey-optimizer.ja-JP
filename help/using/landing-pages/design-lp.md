@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 100%
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 ここから、次のことができます。
 
-* コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロからデザイン**&#x200B;し、[Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md) の画像を活用します。メールコンテンツの作成方法や、組み込みのテンプレートについては、[この節](../messages/create-email-content.md)を参照してください。
+* コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロからデザイン**&#x200B;し、[Adobe Experience Manager Assets Essentials](../design/assets-essentials.md) の画像を活用します。メールコンテンツの作成方法や、組み込みのテンプレートについては、[この節](../design/create-email-content.md)を参照してください。
 
-* コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](../messages/existing-content.md#import-raw-html-code)を参照してください。
+* コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](../design/code-content.md)を参照してください。
 
-* ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。コンテンツの読み込み方法については、[この節](../messages/existing-content.md#import-html-content-from-file)を参照してください。
+* ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。コンテンツの読み込み方法については、[この節](../design/existing-content.md)を参照してください。
 
 >[!NOTE]
 >
->ランディングページのコンテンツデザイナーは、メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../messages/design-emails.md) でのコンテンツのデザインを参照してください。
+>ランディングページのコンテンツデザイナーは、メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../design/design-emails.md) でのコンテンツのデザインを参照してください。
 
 ## ランディングページ固有のコンテンツの定義 {#define-lp-specific-content}
 

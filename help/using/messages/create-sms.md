@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 93%
@@ -27,7 +27,7 @@ ht-degree: 93%
 >
 > SMS チャネルは、現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
-[メッセージを作成](create-message.md)したら、「**[!UICONTROL SMS]**」タブを使用して、SMS チャネルの設定とコンテンツを定義します。
+[メッセージを作成](get-started-content.md)したら、「**[!UICONTROL SMS]**」タブを使用して、SMS チャネルの設定とコンテンツを定義します。
 
 ![](assets/sms_1.png)
 
@@ -47,7 +47,7 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
 1. パーソナライズされたメッセージの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
-1. 「**[!UICONTROL プレビュー]**」をクリックして、モバイルデバイスで SMS メッセージがどのように表示されるかを視覚化します。詳しくは、[この節](preview.md)を参照してください。
+1. 「**[!UICONTROL プレビュー]**」をクリックして、モバイルデバイスで SMS メッセージがどのように表示されるかを視覚化します。詳しくは、[この節](../design/preview.md)を参照してください。
 
 1. メッセージの準備が整ったら、「**[!UICONTROL 公開]**」ボタンを使用してメッセージを公開し、実行可能な状態にできます。このアクションにより、ジャーニーの次回の実行に使用される新しいバージョンのメッセージが公開されます。
 
@@ -56,5 +56,5 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 **関連トピック**
 
 * [SMS チャネルの設定](../configuration/sms-configuration.md)
-* [新規メッセージの作成](create-message.md)
+* [新規メッセージの作成](get-started-content.md)
 * [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)

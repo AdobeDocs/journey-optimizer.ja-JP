@@ -1,0 +1,106 @@
+---
+title: 許可リスト
+description: 許可リストの使用方法を説明します。
+feature: Deliverability
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 91%
+
+---
+
+# 許可リスト {#allow-list}
+
+特定の送信セーフリストを [サンドボックス](../administration/sandboxes.md) レベルを設定し、テスト目的で安全な環境を構築します。 ミスが発生する可能性のある非実稼働インスタンスでは、許可リストにより、不要なメッセージが顧客に送信されるリスクがなくなります。
+
+許可リストを使用すると、特定のサンドボックスから送信するメールを受信する権限のある唯一の受信者またはドメインとなる個々のメールアドレスまたはドメインを指定できます。これにより、テスト環境で実際の顧客アドレスに誤ってメールを送信するのを防ぐことができます。
+
+>[!CAUTION]
+>
+>この機能は、実稼動用サンドボックスでは使用&#x200B;**できません**。 これはメールチャネルにのみ適用されます。
+
+## 許可リストの有効化 {#enable-allow-list}
+
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+
+<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+
+実稼動以外のサンドボックスで許可リストを有効にするには、次の手順に従います。
+
+1. 次にアクセス：  **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]** > **[!UICONTROL 許可リスト]** メニュー
+
+   ![](assets/allow-list-access.png)
+
+1. 「**[!UICONTROL 編集]**」をクリックします。
+
+   ![](assets/allow-list-edit.png)
+
+1. 選択 **[!UICONTROL 「Enable」許可リスト]**.
+
+   ![](assets/allow-list-enable.png)
+
+1. 「**[!UICONTROL 保存]**」をクリックします。この許可リストは有効です。
+
+   ![](assets/allow-list-enabled.png)
+
+許可リストのロジックが適用されるのは、その機能が有効で、**かつ**、許可リストが空で&#x200B;**ない**&#x200B;場合です。詳しくは、[この節](#logic)を参照してください。
+
+>[!NOTE]
+>
+>有効にすると、ジャーニーの実行時に許可リスト機能がアクティブになりますが、[配達確認](../design/preview.md#send-proofs)を使用してメッセージをテストし、[テストモード](../building-journeys/testing-the-journey.md)を使用してジャーニーをテストする場合にも機能します。
+
+## 許可リストへのエンティティの追加 {#add-entities}
+
+特定のサンドボックスの許可リストに新しいメールアドレスまたはドメインを追加するには、`listType` 属性に `ALLOWED` の値を指定して抑制 API を呼び出す必要があります。例えば：
+
+![](assets/allow-list-api.png)
+
+「**追加**」、「**削除**」および「**取得**」の操作を実行できます。
+
+>[!NOTE]
+>
+>許可リストには、最大 1,000 個のエントリを含めることができます。
+
+API 呼び出しについて詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target=&quot;_blank&quot;} リファレンスドキュメントを参照してください。
+
+## 許可リストロジック {#logic}
+
+許可リストが&#x200B;**空**&#x200B;の場合、許可リストロジックは適用されません。 つまり、プロファイルが[抑制リスト](suppression-list.md)に含まれていない限り、任意のプロファイルにメールを送信できるということです。
+
+許可リストが&#x200B;**空でない**&#x200B;場合、許可リストロジックが適用されます。
+
+* エンティティが&#x200B;**許可リストになく**、抑制リストにもない場合、対応する受信者はメールを受信しません（**[!UICONTROL 許可されていない]**&#x200B;ことが理由）。
+
+* エンティティが&#x200B;**許可リストにあり**、抑制リストにない場合は、対応する受信者にメールを送信できます。ただし、エンティティが[抑制リスト](suppression-list.md)にも登録されている場合、対応する受信者はメールを受信しません（**[!UICONTROL 抑制されている]**&#x200B;ことが理由）。
+
+>[!NOTE]
+>
+>「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](../building-journeys/read-segment.md)アクティビティと[メッセージ](../building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
+>
+>詳しくは、[ライブレポート](../reports/live-report.md)と[グローバルレポート](../reports/global-report.md)を参照してください。
+
+## 除外レポート {#reporting}
+
+実稼働以外のサンドボックスでこの機能を有効にすると、許可リストに登録されていなかったので送信から除外されたメールアドレスやドメインを取得できます。それには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;} を使用して、以下の API 呼び出しを行います。
+
+受信者が許可リストに登録されていなかったので送信されなかった&#x200B;**メールの数**&#x200B;を取得するには、次のクエリを使用します。
+
+```sql
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+受信者が許可リストに登録されていなかったので送信されなかった&#x200B;**メールアドレスのリスト**&#x200B;を取得するには、次のクエリを使用します。
+
+```sql
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```

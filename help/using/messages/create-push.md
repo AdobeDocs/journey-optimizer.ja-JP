@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 98%
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 [!DNL Journey Optimizer] はプッシュ通知をサポートし、関連性の高い通知を業界最高のスループット率で送信できます。Adobe Experience Cloud でのブランドのデータインサイトを活用するために、プッシュ通知には、パーソナライゼーションとジャーニーベースのコンテキストを含めることができます。
 
-[メッセージ](create-message.md)を作成したら、「**[!UICONTROL プッシュ通知]**」タブをクリックして、プッシュ通知の設定と内容を定義します。
+[メッセージ](get-started-content.md)を作成したら、「**[!UICONTROL プッシュ通知]**」タブをクリックして、プッシュ通知の設定と内容を定義します。
 
 ![](assets/create-content-push.png)
 
@@ -68,7 +68,7 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 
 * 「**[!UICONTROL メディアを追加]**」ボタンを使用して、**[!DNL Adobe Experience Manager Assets Essentials]** 内のアセットを選択します。
 
-   **[!DNL Adobe Experience Manager Assets Essentials]** の使用方法について詳しくは、[このページ](assets-essentials.md)を参照してください。
+   **[!DNL Adobe Experience Manager Assets Essentials]** の使用方法について詳しくは、[このページ](../design/assets-essentials.md)を参照してください。
 
 * または、「**[!UICONTROL メディアを追加]**」フィールドにメディアの URL を入力します。この場合、パーソナライズ機能を URL に追加できます。
 
@@ -102,7 +102,7 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。Andr
 
 ## カスタムデータ
 
-**[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。Adobe Experience Platform と Adobe Launch でのプッシュ通知の設定方法の詳細については、[この節](push-gs.md)を参照してください。
+**[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。Adobe Experience Platform と Adobe Launch でのプッシュ通知の設定方法の詳細については、[この節](../configuration/push-gs.md)を参照してください。
 
 ## 詳細オプション {#advanced-options-push}
 
@@ -127,6 +127,6 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。Andr
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [プッシュチャネルの設定](push-gs.md)
-* [新規メッセージの作成](create-message.md)
+* [プッシュチャネルの設定](../configuration/push-gs.md)
+* [新規メッセージの作成](get-started-content.md)
 * [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)

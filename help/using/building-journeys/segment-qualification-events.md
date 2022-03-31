@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 100%
 
 ## セグメントの選定イベントについて
 {#about-segment-qualification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification"
+>title="セグメントの選定イベント"
+>abstract="セグメントの選定イベントを使用すると、ジャーニーは Adobe Experience Platform セグメントでプロファイルのエントリや離脱をリッスンして、ユーザーをジャーニーにエントリさせたり、ジャーニーを先に進ませたりできます。"
 
 セグメントの選定イベントを使用すると、ジャーニーは Adobe Experience Platform セグメントでプロファイルのエントリや離脱をリッスンして、ユーザーをジャーニーにエントリさせたり、ジャーニーを先に進ませたりできます。この機能について詳しくは、この[節](../segment/about-segments.md)を参照してください。
 

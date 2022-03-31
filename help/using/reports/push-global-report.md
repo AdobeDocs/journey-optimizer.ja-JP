@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,9 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
-「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
+![](assets/push_global_report_3.png)
+
+この **[!UICONTROL エラー理由]** および **[!UICONTROL 理由を除外]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
 ![](assets/push_global_report_2.png)
 

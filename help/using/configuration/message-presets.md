@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 100%
+source-wordcount: '2151'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 > * メッセージプリセットは、ジャーニー管理者のみが設定できます。 [詳細](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * メッセージプリセットを作成する前に、メール設定ステップと[プッシュ設定](../messages/push-configuration.md)ステップを実行する必要があります。
+> * メッセージプリセットを作成する前に、メール設定ステップと[プッシュ設定](../configuration/push-configuration.md)ステップを実行する必要があります。
 
 
 メッセージプリセットを設定したら、メッセージを作成する際に「**[!UICONTROL プリセット]**」リストからメッセージプリセットを選択できるようになります。
@@ -106,11 +106,47 @@ ht-degree: 100%
 
 1. プリセットに関連付ける IP プールを選択します。 [詳細](ip-pools.md)
 
+### List-Unsubscribe {#list-unsubscribe}
+
+指定日 [サブドメインの選択](#subdomains-and-ip-pools) リストから、 **[!UICONTROL List-Unsubscribe を有効にする]** オプションが表示されます。
+
+![](assets/preset-list-unsubscribe.png)
+
+このオプションは、デフォルトでは有効になっています。
+
+有効にしたままにすると、次のような配信停止リンクが E メールヘッダーに自動的に含まれます。
+
+![](assets/preset-list-unsubscribe-header.png)
+
+このオプションを無効にした場合、E メールヘッダーに配信停止リンクは表示されません。
+
+配信停止リンクは、次の 2 つの要素で構成されます。
+
+* An **配信停止メールアドレス**：すべての登録解除要求の送信先。
+
+   In [!DNL Journey Optimizer]の場合、配信停止の E メールアドレスがデフォルトです **[!UICONTROL 宛先（配信停止）]** メッセージプリセットに表示されるアドレス ( [選択したサブドメイン](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* この **配信停止 URL**：購読解除後にユーザーがリダイレクトされるランディングページの URL。
+
+   次の場合、 [ワンクリックオプトアウトリンク](../messages/consent.md#one-click-opt-out) このプリセットを使用して作成されたメッセージの場合、配信停止 URL は、ワンクリックオプトアウトリンク用に定義された URL になります。
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >メッセージコンテンツに 1 回のクリックでのオプトアウトリンクを追加しない場合、ユーザーにランディングページは表示されません。
+
+メッセージにヘッダー配信停止リンクを追加する方法について詳しくは、 [この節](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+
 ### URL トラッキング{#url-tracking}
 
 ユーザーがリンクをクリックした場所と理由を特定するために、「**[!UICONTROL URL トラッキング設定（web 分析）]**」セクションで URL トラッキング用の UTM パラメーターを追加できます。
 
-定義したパラメーターに基づいて、メッセージコンテンツに含まれる URL の末尾に UTM コードが適用されます。その後、Google Analytics などの web 分析ツールで結果を比較できるようになります。<!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+定義したパラメーターに基づいて、メッセージコンテンツに含まれる URL の末尾に UTM コードが適用されます。その後、Google Analytics などの web 分析ツールで結果を比較できるようになります。
 
 ![](assets/preset-url-tracking.png)
 
@@ -130,9 +166,11 @@ UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フ�
 
 ### ヘッダーパラメーター{#email-header}
 
-「**[!UICONTROL ヘッダーパラメーター]**」セクションで、そのプリセットを使用して送信されたメッセージに関連付けられているメールアドレスを入力します。これらのメールアドレスでは、現在選択されている[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
+内 **[!UICONTROL ヘッダーパラメーター]** 「 」セクションでは、そのプリセットを使用して送信されるメッセージのタイプに関連付けられた送信者の名前と E メールアドレスを入力します。
 
-次のメールアドレスを設定する必要があります
+>[!CAUTION]
+>
+>電子メールアドレスは、現在選択されている [委任サブドメイン](about-subdomain-delegation.md).
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 
@@ -143,7 +181,6 @@ UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フ�
 * **[!UICONTROL 返信先（メール）]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。デリゲートされたサブドメインに定義されたアドレス（例：*reply@marketing.luma.com*）を使用する必要があります。このアドレスを使用していないメールは破棄されます。
 
 * **[!UICONTROL エラーメール]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。
-
 
 ![](assets/preset-header.png)
 
@@ -177,7 +214,7 @@ UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フ�
 
 ![](assets/preset-push.png)
 
-プッシュ通知を送信する環境の設定方法については、[この節](../messages/push-gs.md)を参照してください。
+プッシュ通知を送信する環境の設定方法については、[この節](../configuration/push-gs.md)を参照してください。
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1796'
 ht-degree: 100%
 
 ---
@@ -68,6 +68,11 @@ ht-degree: 100%
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## プロパティの変更 {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="ジャーニーのプロパティ"
+>abstract="管理者は、ジャーニー名の変更、説明の追加、再エントリの許可、開始日と終了日の選択、タイムアウトとエラーの時間を定義できます。"
 
 右上の鉛筆アイコンをクリックして、ジャーニーのプロパティにアクセスします。
 

@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 100%
+source-wordcount: '1539'
+ht-degree: 98%
 
 ---
 
 # 単一イベントの設定 {#configure-an-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="単一イベント"
+>abstract="イベントの設定を使用すると、Journey Optimizerがイベントとして受け取る情報を定義できます。 複数のイベントを（ジャーニーのさまざまなステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。単一イベントは、特定のプロファイルにリンクされます。ルールベースによるものと、システムで生成されるものがあります。"
 
 単一イベントは、特定のプロファイルにリンクされます。ルールベースによるものと、システムで生成されるものがあります。単一イベントの詳細については、[この節](../event/about-events.md)を参照してください。
 

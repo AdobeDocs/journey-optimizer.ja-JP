@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '112'
 ht-degree: 100%
 
 ---
 
 # 終了アクティビティ{#end-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_end"
+>title="終了アクティビティ"
+>abstract="終了アクティビティを使用すると、ジャーニーの各パスの終了箇所をマークできます。必須ではありませんが、見やすくするためにお勧めします。実際に、ジャーニーに複数の終了アクティビティがある場合は、レポートを読みやすくするために、各終了箇所にラベルを追加することをお勧めします。"
 
 **[!UICONTROL 終了]**&#x200B;アクティビティを使用すると、ジャーニーの各パスの終了箇所をマークできます。必須ではありませんが、見やすくするためにお勧めします。実際に、ジャーニーに複数の終了アクティビティがある場合は、レポートを読みやすくするために、各終了箇所にラベルを追加することをお勧めします。[このページ](../reports/live-report.md)を参照してください。
 

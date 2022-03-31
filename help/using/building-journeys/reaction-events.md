@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
 # 反応イベント {#reaction-events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_reaction"
+>title="反応イベント"
+>abstract="このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに、反応することができます。この情報は、Adobe Experience Platform と共有した時点でリアルタイムに取り込まれます。プッシュ通知では、メッセージのクリック、送信、失敗に反応できます。SMS メッセージでは、メッセージの送信と失敗に反応できます。メールでは、メッセージのクリック、送信、開封、失敗に反応できます。"
 
 パレットに表示される多数のイベントアクティビティの中に、ビルトインの&#x200B;**[!UICONTROL 反応]**イベントがあります。
 このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに、反応することができます。この情報は、Adobe Experience Platform と共有した時点でリアルタイムに取り込まれます。プッシュ通知では、メッセージのクリック、送信、失敗に反応できます。SMS メッセージでは、メッセージの送信と失敗に反応できます。メールでは、メッセージのクリック、送信、開封、失敗に反応できます。

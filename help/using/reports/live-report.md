@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 87%
 
 ---
 
@@ -25,11 +25,17 @@ ht-degree: 100%
 
    ![](assets/report_2.png)
 
+* を **[!UICONTROL ライブレポート]** から **[!UICONTROL グローバルレポート]** 配信の場合は、「 **[!UICONTROL グローバル表示]** 」をクリックします。
+
+   ![](assets/report_3.png)
+
 ## ダッシュボードのカスタマイズ {#modify-dashboard}
 
 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。ウィジェットを変更して影響を受けるのは、現在のユーザーのダッシュボードのみです。他のユーザーには、各自のダッシュボードまたはデフォルトで設定されたダッシュボードが表示されます。
 
 1. 切り替えバーを使用して、レポートからテストイベントを除外する場合に選択します。テストイベントについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+
+   なお、 **[!UICONTROL テストイベントの除外]** オプションは、ジャーニーレポートでのみ使用できます。
 
    ![](assets/report_modify_6.png)
 

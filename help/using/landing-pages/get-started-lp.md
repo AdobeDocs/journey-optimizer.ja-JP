@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8a2e1bca59dfb291b459c729e4fbc62de4c5353f
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">ランディングページの作成</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">購読リストの作成</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">ランディングページのデザイン</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">レポート</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="../reports/lp-report-live.md">レポート</a></p></td>
 </tr>
 </table>
 

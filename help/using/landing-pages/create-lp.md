@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![](assets/lp_access-list-filter.png)
 
-このリストから、公開中のアイテムの[ランディングページレポート](lp-report.md)にアクセスできます。
+このリストから、 [ランディングページライブレポート](../reports/lp-report-live.md) または [ランディングページのグローバルレポート](../reports/lp-report-global.md) 公開された項目の場合。
 
 ランディングページの削除、複製、非公開も行えます。
 
@@ -133,7 +133,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../building-journeys/creating-test-profiles.md)する方法について説明します。
+>メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法について説明します。
 
 1. ランディングページのインターフェイスから、「**[!UICONTROL プレビューとテスト]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
@@ -147,7 +147,7 @@ ht-degree: 100%
 
    ![](assets/lp_test-profiles.png)
 
-   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../messages/preview.md#select-test-profiles)を参照してください。
+   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../design/preview.md#select-test-profiles)を参照してください。
 
 1. 「**[!UICONTROL プレビュー]**」タブを選択し、「**[!UICONTROL プレビューを開く]**」をクリックしてランディングページをテストします。
 
@@ -210,9 +210,9 @@ ht-degree: 100%
 
 ランディングページが公開されると、**[!UICONTROL 公開中のアイテム]**&#x200B;ステータスでランディングページリストに追加されます。
 
-これでライブになり、[!DNL Journey Optimizer] [ メッセージ](../messages/create-message.md)で使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
+これでライブになり、[!DNL Journey Optimizer] [ メッセージ](../messages/get-started-content.md)で使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
 
 >[!NOTE]
 >
->特定のレポートを通じて、ランディングページの影響を監視できます。[詳細情報](lp-report.md)
+>特定のレポートを通じて、ランディングページの影響を監視できます。[詳細情報](../reports/lp-report-live.md)
 

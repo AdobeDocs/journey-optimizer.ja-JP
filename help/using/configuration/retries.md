@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->エラーのタイプについて詳しくは、[配信失敗のタイプ](../messages/suppression-list.md#delivery-failures)の節を参照してください。
+>エラーのタイプについて詳しくは、[配信失敗のタイプ](../reports/suppression-list.md#delivery-failures)の節を参照してください。
 
 デフォルト設定では、しきい値は 5 回のエラーに設定されています。
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >値が 10 を超えると、配信品質の評価の問題や、IP スロットル、ISP によるブロックリストへの登録などにつながる可能性があります。 [配信品質の詳細](../messages/deliverability.md)
+   >値が 10 を超えると、配信品質の評価の問題や、IP スロットル、ISP によるブロックリストへの登録などにつながる可能性があります。 [配信品質の詳細](../reports/deliverability.md)
 
 ## 再試行期間 {#retry-duration}
 

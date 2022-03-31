@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 99%
 
 ---
 
 # プロファイルの更新 {#update-profile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="プロファイルを更新アクティビティ"
+>abstract="「プロファイルを更新」アクションアクティビティを使用すると、イベントやデータソースから得られた情報または特定の値を使用して、既存の Adobe Experience Platform のプロファイルを更新できます。"
 
 「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを使用すると、イベントやデータソースから得られた情報または特定の値を使用して、既存の Adobe Experience Platform のプロファイルを更新できます。
 
@@ -32,7 +37,7 @@ ht-degree: 100%
 
 テストモードでは、テストプロファイルのみがジャーニーにエントリできます。新しいテストプロファイルを作成するか、既存のプロファイルをテストプロファイルに変換します。Adobe Experience Platform では、csv ファイルのインポートまたは API の呼び出しを使用してプロファイル属性を更新できます。さらに簡単な方法として、「**プロファイルを更新**」アクションアクティビティを使用し、テストプロファイルのブール値フィールドを false から true に変更します。
 
-既存のプロファイルをテストプロファイルに変換する方法について詳しくは、[この節](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)を参照してください。
+既存のプロファイルをテストプロファイルに変換する方法について詳しくは、[この節](../segment/creating-test-profiles.md#create-test-profiles-csv)を参照してください。
 
 ## プロファイル更新の使用
 

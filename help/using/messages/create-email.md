@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 93%
@@ -20,18 +20,18 @@ ht-degree: 93%
 >title="E メールの作成"
 >abstract="電子メールのパラメーターを 3 つの簡単な手順で定義します。"
 
-[メッセージを作成](create-message.md)したら、「**[!UICONTROL E メール]**」タブを使用して、E メールチャネルの設定と内容を定義します。
+[メッセージを作成](get-started-content.md)したら、「**[!UICONTROL E メール]**」タブを使用して、E メールチャネルの設定と内容を定義します。
 
 ![](assets/emails-configuration.png)
 
 >[!NOTE]
 >
->「**[!UICONTROL 送信元メール]**」と「**[!UICONTROL 送信者名]**」は読み取り専用であり、[メッセージの作成](create-message.md)時に選択した&#x200B;**[!UICONTROL プリセット]**&#x200B;によって決定されます。
+>「**[!UICONTROL 送信元メール]**」と「**[!UICONTROL 送信者名]**」は読み取り専用であり、[メッセージの作成](get-started-content.md)時に選択した&#x200B;**[!UICONTROL プリセット]**&#x200B;によって決定されます。
 
 メールの設定手順は次のとおりです。
 
 1. メールの件名を「**[!UICONTROL 件名]**」フィールドに入力します。右側のボタンをクリックして式エディターを開き、メールの件名を作成します。パーソナライゼーションの追加方法については、[この節](../personalization/personalize.md)を参照してください。
 
-1. 「**[!UICONTROL E メールデザイナー]**」をクリックして、メールをデザインします。メールのデザイン方法については、[この節](design-emails.md)を参照してください。
+1. 「**[!UICONTROL E メールデザイナー]**」をクリックして、メールをデザインします。メールのデザイン方法については、[この節](../design/design-emails.md)を参照してください。
 
-1. 受信者の動作を開封数やリンクのクリック数で追跡する場合、「**[!UICONTROL メールの開封トラッキング]**」オプションと「**[!UICONTROL メールのクリックトラッキング]**」オプションが有効になっていることを確認します。トラッキングの詳細については、[この節](message-tracking.md)を参照してください。
+1. 受信者の動作を開封数やリンクのクリック数で追跡する場合、「**[!UICONTROL メールの開封トラッキング]**」オプションと「**[!UICONTROL メールのクリックトラッキング]**」オプションが有効になっていることを確認します。トラッキングの詳細については、[この節](../design/message-tracking.md)を参照してください。

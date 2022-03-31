@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '359'
 ht-degree: 91%
 
 ---
@@ -59,8 +59,6 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->* ライブラリには、最大 40 個の式を保存できます。
->
 >* 式は 200 KB 以内にする必要があります。
 >
 >* 保存済みの式は作成日別に並べ替えられ、最近追加された式がリストの最初に表示されます。
@@ -73,7 +71,7 @@ ht-degree: 91%
 
 ## ハウツービデオ{#video}
 
-保存済みのパーソナライゼーションライブラリ項目をメッセージで使用する方法と、パーソナライゼーションライブラリ項目を作成および管理する方法について説明します。
+保存したパーソナライゼーションライブラリ項目をメッセージで使用する方法と、パーソナライゼーションライブラリ項目を作成および管理する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

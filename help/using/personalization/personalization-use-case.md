@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 このユースケースでは、次の前提条件が必要です。
 
-* プッシュ通知メッセージを公開せずに作成およびデザインします。この[節](../messages/create-message.md)を参照してください。
+* プッシュ通知メッセージを公開せずに作成およびデザインします。この[節](../messages/get-started-content.md)を参照してください。
 * 注文番号、ステータス、品目名を含む注文イベントを設定します。この[節](../event/about-events.md)を参照してください。
 * 決定（旧称「オファーアクティビティ」）を作成するには、この[節](../offers/offer-activities/create-offer-activities.md)を参照してください。
 

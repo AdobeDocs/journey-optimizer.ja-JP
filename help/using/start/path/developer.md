@@ -5,7 +5,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 開発者は、**モバイルアプリを設定**&#x200B;して、[!DNL Adobe Journey Optimizer] でプッシュ通知を送信できる必要があります。
 
-[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲティングされたオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリ、および [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] で設定と統合がおこなわれていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](../../messages/push-gs.md)を参照してください。
+[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲティングされたオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリ、および [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] で設定と統合がおこなわれていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](../../configuration/push-gs.md)を参照してください。
 
-プッシュ通知チャネルを設定しモバイルアプリ統合をテストする手順について詳しくは、[このページ](../../messages/push-configuration.md)を参照してください。
+プッシュ通知チャネルを設定しモバイルアプリ統合をテストする手順について詳しくは、[このページ](../../configuration/push-configuration.md)を参照してください。
 
 ## API の操作 {#work-apis}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 100%
+source-wordcount: '1243'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 1. 任意のサードパーティ製システムでホストします。
 
-1. [!DNL Journey Optimizer] で[メッセージを作成](create-message.md)します。
+1. [!DNL Journey Optimizer] で[メッセージを作成](get-started-content.md)します。
 
-1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](message-tracking.md#insert-links)します。
+1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../design/message-tracking.md#insert-links)します。
 
    ![](assets/opt-out-insert-link.png)
 
@@ -141,7 +141,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 メールにオプトアウトリンクを追加するには、次の手順に従います。
 
-1. [リンクを挿入](message-tracking.md#insert-links)し、リンクのタイプとして「**[!UICONTROL オプトアウトをワンクリック]**」を選択します。
+1. [リンクを挿入](../design/message-tracking.md#insert-links)し、リンクのタイプとして「**[!UICONTROL オプトアウトをワンクリック]**」を選択します。
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -155,6 +155,10 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 1. 購読解除後にユーザーがリダイレクトされるランディングページの URL を入力します。このページは、オプトアウトが成功したことを確認するためにのみ表示されます。
 
+   >[!NOTE]
+   >
+   >を有効にした場合、 **List-Unsubscribe** オプション（メッセージプリセットレベル）の場合、この URL は、ユーザーが E メールヘッダーの配信停止リンクをクリックした場合にも使用されます。 [詳細情報](#unsubscribe-header)
+
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    リンクをパーソナライズできます。パーソナライズされた URL について詳しくは、[この節](../personalization/personalization-syntax.md)を参照してください。
@@ -163,19 +167,41 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 メッセージが[ジャーニー](../building-journeys/journey.md)を通して送信された後、受信者がオプトアウトリンクをクリックすると、受信者のプロファイルは直ちにオプトアウトされます。
 
-### メッセージヘッダーの購読解除リンク {#unsubscribe-email}
+### メッセージヘッダーの購読解除リンク {#unsubscribe-header}
 
-受信者の E メールクライアントがメールヘッダーに購読解除リンクを表示することをサポートしている場合、[!DNL Journey Optimizer] と共に送信されるメールには自動的にこのリンクが含まれます。
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="メールヘッダーに配信停止リンクを追加"
+>abstract="List-Unsubscribe を有効にして、E メールヘッダーに配信停止リンクを追加します。 配信停止 URL を設定するには、E メールメッセージのコンテンツにワンクリックオプトアウトリンクを挿入します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="ワンクリックオプトアウト"
+
+この [List-Unsubscribe オプション](../configuration/message-presets.md#list-unsubscribe) がメッセージプリセットレベルで有効になっている場合、対応する電子メールが [!DNL Journey Optimizer] 電子メールヘッダーに配信停止リンクが含まれます。
 
 例えば、購読解除リンクは Gmail では次のように表示されます。
 
-![](assets/unsubscribe-email.png)
+![](assets/unsubscribe-header.png)
 
-E メールクライアントに応じて、ヘッダーから購読解除リンクをクリックすると、次のいずれかの影響を受けます。
+>[!NOTE]
+>
+>E メールヘッダーに配信停止リンクを表示するには、受信者の E メールクライアントがこの機能をサポートしている必要があります。
+
+配信停止アドレスがデフォルトです **[!UICONTROL 宛先（配信停止）]** 対応するメッセージプリセットに表示されるアドレス。 [詳細情報](../configuration/message-presets.md#list-unsubscribe)。
+
+パーソナライズされた購読解除 URL を設定するには、E メールメッセージコンテンツに 1 回のクリックでのオプトアウトリンクを挿入し、目的の URL を入力します。 [詳細情報](#one-click-opt-out)
+
+E メールクライアントによっては、ヘッダーから配信停止リンクをクリックすると、次の影響を受ける場合があります。
+
+* 配信停止リクエストが配信停止アドレスに送信されます。
+
+* 受信者は、メッセージにオプトアウトリンクを追加する際に指定したランディングページ URL に移動します。
+
+   >[!NOTE]
+   >
+   >メッセージコンテンツに 1 回のクリックでのオプトアウトリンクを追加しない場合、ランディングページは表示されません。
 
 * 対応するプロファイルはすぐにオプトアウトされ、この選択は Experience Platform で更新されます。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}を参照してください。
 
-* これは、メールコンテンツから購読解除リンクをクリックするのと同じ効果があります。受信者は、オプトアウトを確認するボタンを含むランディングページにリダイレクトされます。オプトアウト管理の詳細については、[この節](#opt-out-management)を参照してください。
+<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## プッシュのオプトアウト管理 {#push-opt-out-management}
 

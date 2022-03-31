@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 98%
 ➡️ [ヘルパー関数の使用方法については、このビデオを参照してください。](#video)
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
-* メールメッセージ。 [詳細情報](../messages/create-message.md)
-* メールの本文。 [詳細情報](../messages/create-email-content.md)。
+* メールメッセージ。 [詳細情報](../messages/get-started-content.md)
+* メールの本文。 [詳細情報](../design/create-email-content.md)。
 * 単一のイベント。 [詳細情報](../event/about-events.md)。
 * イベントで開始されるジャーニー。 [詳細情報](../building-journeys/using-the-journey-designer.md)。
 
@@ -147,7 +147,7 @@ ht-degree: 98%
 
       **[!UICONTROL コンテキスト属性]**&#x200B;は、ジャーニーコンテキストがメッセージに渡された後でのみ使用できます。
 
-   1. **[!UICONTROL Journey Orchestration]**／**[!UICONTROL イベント]**／***[!UICONTROL event_name]*** を選択し、**[!UICONTROL productListItems]** ノードを展開します。
+   1. 選択 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL イベント]** > ***[!UICONTROL event_name]***、次に、 **[!UICONTROL productListItems]** ノード。
 
       この例では、*event_name* はイベントの名前を表します。
 

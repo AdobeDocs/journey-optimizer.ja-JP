@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/messages/design-emails.md">メールコンテンツの設計</a>
+      <a href="using/design/design-emails.md">メールコンテンツの設計</a>
     </div>
     <p>
     新しいメールの設計または既存の HTML コンテンツのインポートについて説明します
@@ -116,7 +116,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">ジャーニー</a>
     </li>
     <li>
-      <a href="using/messages/create-message.md">メッセージ</a>
+      <a href="using/messages/get-started-content.md">メッセージ</a>
     </li>
     <p>
     <p>意思決定管理
@@ -130,7 +130,7 @@ ht-degree: 100%
     <p>
     <p>コンテンツ管理</p>
     <li>
-      <a href="using/messages/assets-essentials.md">Assets</a>
+      <a href="using/design/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>データ管理</p>
@@ -157,10 +157,10 @@ ht-degree: 100%
       <a href="using/segment/about-segments.md">セグメント</a>
     </li>
      <li>
-      <a href="using/start/get-started-profiles.md">プロファイル</a>
+      <a href="using/segment/get-started-profiles.md">プロファイル</a>
     </li>
     <li>
-      <a href="using/start/get-started-identity.md">ID</a>
+      <a href="using/segment/get-started-identity.md">ID</a>
     </li>
     <p>
     <p>管理</p>

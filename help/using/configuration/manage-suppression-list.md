@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 * 一貫してソフトバウンスし、引き続き配信に含めるとメールの評価に悪影響を及ぼす可能性があるアドレス
 * いずれかのメールメッセージに対して何らかのスパム報告を発行する受信者。
 
-このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。抑制リストの概念と使用方法について詳しくは、[この節](../messages/suppression-list.md)を参照してください。
+このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。抑制リストの概念と使用方法について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
 
 ## 抑制リストへのアクセス {#access-suppression-list}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ![](assets/suppression-list-delete.png)
 
-抑制リストからメールアドレスまたはドメインを削除すると、このアドレスまたはドメインへの配信が再び開始されることになります。 その結果、配信品質と IP の評価に重大な影響を及ぼす可能性があり、最終的には IP アドレスや送信ドメインがブロックされる可能性があります。 抑制リストの維持の重要性について詳しくは、[この節](../messages/suppression-list.md)を参照してください。
+抑制リストからメールアドレスまたはドメインを削除すると、このアドレスまたはドメインへの配信が再び開始されることになります。 その結果、配信品質と IP の評価に重大な影響を及ぼす可能性があり、最終的には IP アドレスや送信ドメインがブロックされる可能性があります。 抑制リストの維持の重要性について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ソフトバウンスとハードバウンスについて詳しくは、[配信失敗のタイプ](../messages/suppression-list.md#delivery-failures)の節を参照してください。
+>ソフトバウンスとハードバウンスについて詳しくは、[配信失敗のタイプ](../reports/suppression-list.md#delivery-failures)の節を参照してください。
 
 一覧表示されているメールアドレスごとに、「**[!UICONTROL タイプ]**」（メールまたはドメイン）、除外する「**[!UICONTROL 理由]**」、追加したユーザーおよび抑制リストに追加された日時を確認することもできます。
 

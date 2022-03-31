@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 82%
 
 ---
 
 # ジャーニーの設定 {#configure-journeys}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_configuration_dashboard"
+>title="ジャーニー設定について"
+>abstract="ジャーニーでメッセージを送信するには、データソース、イベント、アクションを設定する必要があります。データソースを使用すると、システムへの接続を定義して、ジャーニーで使用される追加情報（状況に応じて使用される場合など）を取得できます。 イベントを使用すると、イベントを受信したときにジャーニーをトリガー化できます。 カスタムアクションを使用すると、サードパーティのシステムに接続してメッセージを送信できます。 Journey Optimizerの組み込みメッセージ機能を使用している場合は、アクションを設定する必要はありません。"
 
 ジャーニーでメッセージを送信するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;を設定する必要があります。
 

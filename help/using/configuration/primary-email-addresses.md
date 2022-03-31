@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5071de634c9dbb13908d3190fe1157831c372c7d
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 42%
 
 ---
 
@@ -17,19 +17,28 @@ ht-degree: 100%
 
 プロファイルをターゲットにする場合、使用できるメールアドレスがデータベース内に複数ある（個人用、仕事用のメールアドレスなど）場合があります。
 
-Journey Optimizer では、プロファイルサービスから使用するメールアドレスを決定し、複数のアドレスが使用可能な場合に優先順位を付けることができます。 それをおこなうには、次の手順に従います。
+を使用 [!DNL Journey Optimizer]を使用すると、プロファイルサービスから、使用する電子メールアドレスを決定し、複数のアドレスが使用可能な場合に優先付けをおこなうことができます。 それには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]** `>` **[!UICONTROL 一般]**&#x200B;メニューにアクセスします。
-1. プロファイルのメールアドレスを判断するために、現在デフォルトで使用されているフィールドがこの画面に表示されます。 「**[!UICONTROL 編集]**」をクリックして変更します。
+1. 次にアクセス：  **[!UICONTROL チャネル]** > **[!UICONTROL 一般]** > **[!UICONTROL 実行フィールド]** メニュー
+
+   ![](assets/primary-address-execution-fields.png)
+
+1. プロファイルの E メールアドレスを決定するためにデフォルトで使用されているフィールドがこの画面に表示されます。 「**[!UICONTROL 編集]**」をクリックして変更します。
 
    ![](assets/primary-address.png)
 
-1. 「変更」ボタンをクリックし、プライマリメールアドレスとして使用する新しいフィールドを選択します。
+1. 現在のフィールドまたは編集アイコンをクリックして、新しいフィールドを選択します。
 
    ![](assets/primary-address-edit.png)
 
-1. 使用可能なメールタイプの XDM フィールドのリストが表示されます。 使用するフィールドを選択し、「**[!UICONTROL 保存]**」をクリックします。
+1. 使用可能なメールタイプの XDM フィールドのリストが表示されます。 使用するフィールドを選択します。
 
    ![](assets/primary-address-field.png)
 
-<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. >> will be done later on-->
+1. クリック **[!UICONTROL 保存]** をクリックして選択を確定します。
+
+   ![](assets/primary-address-save.png)
+
+   実行フィールドが更新され、プライマリアドレスとして使用されるようになります。
+
+<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->

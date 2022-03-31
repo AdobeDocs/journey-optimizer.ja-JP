@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1435'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
 
-バウンスの詳細については、[抑制リスト](../messages/suppression-list.md)のページを参照してください。
+バウンスの詳細については、[抑制リスト](../reports/suppression-list.md)のページを参照してください。
 
 ![](assets/global_report_22.png)
 
@@ -212,6 +212,8 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 * **[!UICONTROL エンゲージメント率]**：このプッシュ通知の開封とアクションの割合（プロファイルによるプッシュの開封や、ボタンのクリックなど）。
 
+![](assets/global_report_24.png)
+
 「**[!UICONTROL プッシュ通知の概要]**」グラフには、次のような送信済みプッシュ通知に使用できるデータが含まれています。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
@@ -241,7 +243,9 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 ![](assets/global_report_18.png)
 
-「**[!UICONTROL エラー理由]**」グラフと表を使用すると、配信中に発生したエラーを確認できます。
+「**[!UICONTROL エラー理由]**」のグラフと表を使用すると、配信中に発生したエラーを確認できます。
+
+この&#x200B;**[!UICONTROL 除外された理由]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
 
 ![](assets/global_report_19.png)
 

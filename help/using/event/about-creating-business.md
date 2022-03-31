@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 93%
 
 ---
 
 # ビジネスイベントの設定 {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="ビジネスイベント"
+>abstract="イベントの設定を使用すると、Journey Optimizerがイベントとして受け取る情報を定義できます。 複数のイベントを（ジャーニーのさまざまなステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。単一ベントとは異なり、ビジネスイベントは特定のプロファイルにリンクされません。イベント ID タイプは常にルールベースです。"
 
 単一ベントとは異なり、ビジネスイベントは特定のプロファイルにリンクされません。イベント ID タイプは常にルールベースです。ビジネスイベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
@@ -23,11 +28,12 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=ja)を視聴することもできます。
+>また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=ja)を視聴することもできます。プロファイルでスキーマを有効にする必要はありません。
 
 ## 重要な注意事項 {#important-notes}
 
-* 時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。フィールド `_id` および `timestamp` を必要に応じて設定する必要があります。
+* 時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。
+* イベントスキーマには、人ベース以外のプライマリ ID が含まれている必要があります。 イベントを定義する際は、次のフィールドを選択する必要があります。 `_id` および `timestamp`
 * ビジネスイベントは、ジャーニーの最初のステップとしてのみドロップできます。
 * ビジネスイベントをジャーニーの最初のステップとしてドロップする場合、ジャーニーのスケジューラータイプは「ビジネスイベント」になります。
 * ビジネスイベントの後にドロップできるのは、読み取りセグメントアクティビティだけです。次のステップとして自動的に追加されます。
@@ -79,7 +85,7 @@ ht-degree: 100%
 
    ![](assets/jo-event5-business.png)
 
-   時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。フィールド `_id` および `timestamp` を必要に応じて設定する必要があります。
+   時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、人ベース以外のプライマリ ID が含まれている必要があります。 イベントを定義する際は、次のフィールドを選択する必要があります。 `_id` および `timestamp`
 
    ![](assets/test-profiles-4.png)
 

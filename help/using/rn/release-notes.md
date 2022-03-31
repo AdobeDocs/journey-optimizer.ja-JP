@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 100%
+source-wordcount: '2824'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +13,28 @@ ht-degree: 100%
 
 このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、その他の変更点については、[最新のドキュメント更新](documentation-updates.md)ページを参照してください。
 
+## 2022 年 3 月リリース {#march-2022-release}
 
+### 機能強化
+
+**ジャーニー**
+
+* 統合プロファイルスキーマに不要なフィールドを含めないようにするために、ジャーニーステップイベントスキーマは、プロファイルに対してデフォルトで有効になっていません。 必要に応じて、アクティブ化できます。 [詳細情報](../reports/sharing-overview.md)
+* 書き出しジョブに関連する新しいステップイベントが、Journey OptimizerからAdobe Experience Platformに送信されるようになりました。 クエリの例がドキュメントに追加されました。 [詳細情報](../reports/query-examples.md)
+
+**意思決定管理**
+
+<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* バッチ判定 API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対してoffer decisioning機能を使用できます。 セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。 [詳細情報](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+<!--**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+
+**パーソナライゼーション**
+
+* 40 件を超えるパーソナライゼーション式をライブラリに保存できるようになりました。 [詳細情報](../personalization/personalization-library.md)
 
 ## 2022年2月リリース {#feb-2022-release}
 
@@ -236,7 +257,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **レポート**
 
-* **グローバル表示のデータフォーマット** -「**実行**」タブの&#x200B;**グローバル表示**&#x200B;で数値表示とパーセント表示を切り替えられるようになりました。[詳細情報](../messages/message-monitoring.md)
+* **グローバル表示のデータフォーマット** -「**実行**」タブの&#x200B;**グローバル表示**&#x200B;で数値表示とパーセント表示を切り替えられるようになりました。[詳細情報](../reports/message-monitoring.md)
 
 
 **管理**
@@ -276,7 +297,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <td>
 <p>レポートで新しい指標を使用できます。メールおよびプッシュメッセージの「ターゲット」と「除外」がライブレポートとグローバルレポートの両方に表示されます。 </br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があります。 ダッシュボードのカスタマイズについて詳しくは、<a href="../reports/live-report.md">詳細ドキュメント</a>を参照してください。</p>
 <p>メッセージ実行リストの新しい列に、メッセージ実行ごとのターゲットプロファイル数が表示されます。 </p>
-<p>詳しくは、<a href="../messages/message-monitoring.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../reports/message-monitoring.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -419,7 +440,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **コンテンツデザイン**
 
-* **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../messages/preview.md)
+* **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../design/preview.md)
 * **ワンクリックオプトアウトリンク** - メールコンテンツに新しいタイプのリンクを挿入できます。この&#x200B;**オプトアウト**&#x200B;リンクを使用すると、ユーザーがワンクリックでコミュニケーションの受信登録を解除でき、オプトアウトを確認するためにランディングページにリダイレクトされることはありません。[詳細情報](../messages/consent.md#one-click-opt-out-link)
 
 **パーソナライゼーション**
@@ -428,7 +449,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **メール設定**
 
-* **許可リスト** - API 呼び出しを通じて、実稼動以外のサンドボックスで許可リストを有効および無効にできるようになりました。[詳細情報](../messages/allow-list.md#enable-allow-list)
+* **許可リスト** - API 呼び出しを通じて、実稼動以外のサンドボックスで許可リストを有効および無効にできるようになりました。[詳細情報](../reports/allow-list.md#enable-allow-list)
 * **ナビゲーション** - 抑制リストは&#x200B;**管理／チャネル／メール設定／一般**&#x200B;メニューでアクセス可能でしたが、新しい&#x200B;**抑制リスト**&#x200B;サブメニューに移動しました。このサブメニューには、関連するすべての機能が集約されているので、アクセスしやすくなっています。[詳細情報](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **意思決定管理**
@@ -475,7 +496,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>特定の送信セーフリストをサンドボックスレベルで定義して、テスト目的の安全な環境を構築できるようになりました。 ミスが発生する可能性のある非実稼働インスタンスでは、許可リストにより、不要なメッセージが顧客に送信されるリスクがなくなります。この機能は、抑制 API を利用することで有効になります。</p>
-<p>詳しくは、 <a href="../messages/allow-list.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../reports/allow-list.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -494,9 +515,9 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **メッセージのプレビューとテスト**
 
-* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../messages/preview.md#preview-your-messages)
+* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../design/preview.md#preview-your-messages)
 * 配達確認のテストメールの数が 10 個に制限されるようになりました。
-* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。 [詳細情報](../messages/preview.md#send-proofs)
+* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。 [詳細情報](../design/preview.md#send-proofs)
 
 **パーソナライゼーション式エディター**
 
