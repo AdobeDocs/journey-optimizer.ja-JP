@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 76%
+source-wordcount: '1246'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 #### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](developer.adobe.com) をクリックして、対応するプロファイルの環境設定を更新します。
+受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;} をクリックし、対応するプロファイルの環境設定を更新します。
 
 このPOST呼び出しは次のとおりです。
 
@@ -109,7 +109,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 }
 ```
 
-[!DNL Journey Optimizer] がこれらのパラメーターを使用し、 [Adobe開発者](developer.adobe.com) API 呼び出し。
+[!DNL Journey Optimizer] がこれらのパラメーターを使用し、 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼び出し。
 
 #### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 

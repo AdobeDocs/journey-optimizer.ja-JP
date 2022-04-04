@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 96%
+source-wordcount: '963'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="カスタムアクション"
->abstract="サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して次のシステムに接続できます。エプシロン、Slack、 [Adobe開発者](developer.adobe.com)、Firebase など"
+>abstract="サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して次のシステムに接続できます。エプシロン、Slack、 [Adobe開発者](https://developer.adobe.com)、Firebase など"
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して次のシステムに接続できます。エプシロン、Slack、 [Adobe開発者](developer.adobe.com)、Firebase など
+サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して次のシステムに接続できます。エプシロン、Slack、 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase など
 
 カスタムアクションは、技術ユーザーが定義し、マーケターが使用できる追加のアクションです。設定が完了すると、**[!UICONTROL アクション]**&#x200B;カテゴリの、ジャーニーの左側のパレットに表示されます。詳しくは、[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 

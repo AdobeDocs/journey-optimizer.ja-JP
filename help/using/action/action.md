@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 87%
+source-wordcount: '257'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 87%
 
 Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応じて統合を利用できます。 [このページ](../action/acc-action.md)を参照してください。
 
-サードパーティ製システムを使用して Epsilon、Facebook、 [Adobe開発者](developer.adobe.com)、Firebase などでは、カスタムアクションを追加して設定する必要があります。 [このページ](../action/about-custom-action-configuration.md)を参照してください。
+サードパーティ製システムを使用して Epsilon、Facebook、 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase など。カスタムアクションを追加して設定する必要があります。 [このページ](../action/about-custom-action-configuration.md)を参照してください。
 
 カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
 
