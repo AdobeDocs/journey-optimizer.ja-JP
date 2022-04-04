@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 82%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 #### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、Adobe I/Oを使用して&#x200B;**購読 API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新します。
+受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](developer.adobe.com) をクリックして、対応するプロファイルの環境設定を更新します。
 
-Adobe I/O のこの POST 呼び出しは次のとおりです。
+このPOST呼び出しは次のとおりです。
 
 エンドポイント：platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 }
 ```
 
-[!DNL Journey Optimizer] はこれらのパラメーターを使用し、Adobe I/O 呼び出しを通じて対応するプロファイルの選択内容を更新します。
+[!DNL Journey Optimizer] がこれらのパラメーターを使用し、 [Adobe開発者](developer.adobe.com) API 呼び出し。
 
 #### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
    ![](assets/opt-out-lp-example.png)
 
-1. 受信者がフォームを送信した場合（ここではランディングページの「**購読解除**」ボタンをクリック）、[Adobe I/O 呼び出し](#opt-out-api)を通してプロファイルデータが更新されます。
+1. 受信者がフォームを送信した場合 ( ここでは、 **配信停止** 」ボタンをクリックすると、 [API 呼び出し](#opt-out-api).
 
 1. その後、オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
 
