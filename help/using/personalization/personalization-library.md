@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 91%
+source-wordcount: '354'
+ht-degree: 97%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 91%
 
 保存済みの式にアクセスするには、左側のパネルの「**[!UICONTROL ライブラリ]**」ボタンをクリックします。 リストには、管理者ユーザーが保存したすべての式が表示されます（[ライブラリに式を保存](#save-expressions)を参照）。
 
-    >[！注意 ]
-    >
-    > 情報ボタンを使用すると、保存した式の内容に関する詳細情報を取得できます。 ライブラリ項目を管理する適切な権限を持っている場合、楕円形のメニューに情報ボタンが表示されます。
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>情報ボタンを使用して、保存済みの式の内容に関する詳細情報を取得できます。ライブラリ項目を管理する適切な権限を持っている場合、楕円形のメニューに情報ボタンが表示されます。
+
+![](assets/library-list.png)
 
 「+」をクリックして、エディターに式を挿入します。その後、通常どおりにパーソナライゼーションコンテンツをカスタマイズして検証できます。[詳細情報](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## ライブラリに式を保存 {#save-expressions}
 
