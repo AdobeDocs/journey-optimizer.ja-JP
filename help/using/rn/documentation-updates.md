@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 94%
+source-wordcount: '1055'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 * [自動最適化モデル](../offers/offer-library/ai-ranking.md#auto-optimization)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/offer-library/ai-ranking.md)
 * テストプロファイル作成ページは、  **セグメント、プロファイル、ID** 」セクションに入力します。 [詳細情報](../segment/creating-test-profiles.md)
 * 式エディターで式をデフォルト値として追加する方法の例を追加しました。 [詳細情報](../building-journeys/expression/field-references.md#default-value)
-* この **プライマリ E メールアドレスの変更** の節が更新され、ユーザーインターフェイスの変更が反映されました。 [詳細情報](../configuration/primary-email-addresses.md)
+<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## 2022年2月 {#feb-2022}
 

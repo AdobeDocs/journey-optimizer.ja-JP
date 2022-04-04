@@ -2,16 +2,19 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '2824'
-ht-degree: 96%
+source-wordcount: '2915'
+ht-degree: 93%
 
 ---
 
 # リリースノート {#release-notes}
 
 このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、その他の変更点については、[最新のドキュメント更新](documentation-updates.md)ページを参照してください。
+
+![ニュースレター](../assets/do-not-localize/nl-icon.png) 新規登録 [Adobe Journey Optimizer四半期ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} を今すぐご利用いただき、最新の製品アップデート、素晴らしいストーリー、使用例、ヒントなどを四半期ごとにインボックスに直接配信していただけます。
+
 
 ## 2022 年 3 月リリース {#march-2022-release}
 
@@ -27,10 +30,10 @@ ht-degree: 96%
 <!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
 * バッチ判定 API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対してoffer decisioning機能を使用できます。 セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。 [詳細情報](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
-<!--**Administration**
+**管理**
 
-* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+* これで、メッセージプリセットレベルで E メールヘッダー内または E メールヘッダー内の配信停止リンクを有効/無効にし、メッセージレベルでカスタム配信停止 URL を設定できるようになりました。 [詳細情報](../configuration/message-presets.md#list-unsubscribe)
+* 許可リストは、 [!DNL Journey Optimizer] 実稼動用サンドボックスと非実稼動用サンドボックスのインターフェイス。 [詳細情報](../reports/allow-list.md#enable-allow-list)
 
 **パーソナライゼーション**
 

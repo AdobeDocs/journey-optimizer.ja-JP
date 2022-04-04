@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1244'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ Adobe I/O のこの POST 呼び出しは次のとおりです。
 
 E メールクライアントによっては、ヘッダーから配信停止リンクをクリックすると、次の影響を受ける場合があります。
 
-* 配信停止リクエストが配信停止アドレスに送信されます。
+* 配信停止リクエストは、デフォルトの配信停止アドレスに送信されます。
 
 * 受信者は、メッセージにオプトアウトリンクを追加する際に指定したランディングページ URL に移動します。
 
@@ -200,8 +200,6 @@ E メールクライアントによっては、ヘッダーから配信停止リ
    >メッセージコンテンツに 1 回のクリックでのオプトアウトリンクを追加しない場合、ランディングページは表示されません。
 
 * 対応するプロファイルはすぐにオプトアウトされ、この選択は Experience Platform で更新されます。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}を参照してください。
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## プッシュのオプトアウト管理 {#push-opt-out-management}
 

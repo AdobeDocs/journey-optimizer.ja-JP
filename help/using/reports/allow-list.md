@@ -6,30 +6,36 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 91%
+source-wordcount: '572'
+ht-degree: 84%
 
 ---
 
 # 許可リスト {#allow-list}
 
-特定の送信セーフリストを [サンドボックス](../administration/sandboxes.md) レベルを設定し、テスト目的で安全な環境を構築します。 ミスが発生する可能性のある非実稼働インスタンスでは、許可リストにより、不要なメッセージが顧客に送信されるリスクがなくなります。
+特定の送信セーフリストを [サンドボックス](../administration/sandboxes.md) レベルを設定し、テスト目的で安全な環境を構築します。
+
+例えば、ミスが発生する可能性がある非実稼動インスタンスでは、許可リストによって、望ましくないメッセージが顧客に送信されるリスクがなくなります。
+
+>[!NOTE]
+>
+>この機能は、実稼動用サンドボックスと非実稼動用サンドボックスで使用できるようになりました。
 
 許可リストを使用すると、特定のサンドボックスから送信するメールを受信する権限のある唯一の受信者またはドメインとなる個々のメールアドレスまたはドメインを指定できます。これにより、テスト環境で実際の顧客アドレスに誤ってメールを送信するのを防ぐことができます。
 
 >[!CAUTION]
 >
->この機能は、実稼動用サンドボックスでは使用&#x200B;**できません**。 これはメールチャネルにのみ適用されます。
+>この機能は、E メールチャネルにのみ適用されます。
 
 ## 許可リストの有効化 {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.-->
 
-実稼動以外のサンドボックスで許可リストを有効にするには、次の手順に従います。
+許可リストを有効にするには、次の手順に従います。
 
 1. 次にアクセス：  **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]** > **[!UICONTROL 許可リスト]** メニュー
 

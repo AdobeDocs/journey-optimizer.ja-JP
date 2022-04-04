@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 90%
@@ -97,7 +97,6 @@ ht-degree: 90%
 >
 >**トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
 
-
 ### サブドメインおよび IP プール {#subdomains-and-ip-pools}
 
 「**サブドメインおよび IP プールの詳細**」セクションでは、以下を実行する必要があります。
@@ -140,7 +139,7 @@ ht-degree: 90%
 
 メッセージにヘッダー配信停止リンクを追加する方法について詳しくは、 [この節](../messages/consent.md#unsubscribe-header).
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ### URL トラッキング{#url-tracking}
 

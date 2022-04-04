@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 68%
 
 ---
 
@@ -176,3 +176,16 @@ ht-degree: 100%
   </td>
 </tr>
 </table>
+
+
+
+![ニュースレター](using/assets/do-not-localize/nl-icon.png) 新規登録 [Adobe Journey Optimizer四半期ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} 今日！
+
+最新の製品アップデート、魅力的なストーリー、使用例、ヒントなどを四半期ごとにインボックスに直接配信します。
+
+各ニュースレターでは、次の情報を確認できます。
+* 最近リリースされた機能を含む製品ニュースおよびアップデート
+* 最近のウェビナーのイベントやウェビナー、録画への招待
+* Adobe Journey OptimizerExperience League
+* 他のAdobe Journey Optimizerのお客様の事例と使用例
+* ビジネスを成功に導く優れたカスタマーエクスペリエンスを実現するためのヒントとテクニック
