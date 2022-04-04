@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 100%
 >id="od_offer_attributes"
 >title="オファー属性について"
 >abstract="オファー属性を使用すると、レポートおよび分析を目的としてキーと値のペアをオファーに関連付けることができます。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
 
 **オファー**&#x200B;を作成するには、次の手順に従います。
 
@@ -41,175 +40,27 @@ ht-degree: 100%
 
    ![](../assets/create_offer.png)
 
-1. オファーの名前とともに開始日時と終了日時を指定します。また、既存の 1 つまたは複数のタグをオファーに関連付けることもできます。これにより、オファーライブラリの検索と整理がしやすくなります。
+1. オファーの名前とともに開始日時と終了日時を指定します。これらの日付以外の日付では、オファーは判定エンジンによって選択されません。
 
    ![](../assets/offer_details.png)
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >「**[!UICONTROL オファー属性]**」セクションでは、レポートや分析のためにキーと値のペアをオファーに関連付けることができます。
+   >開始日/終了日を更新すると、制限に影響を与える可能性があります。 [詳細情報](add-constraints.md#capping-change-date)
 
-## オファーの表示域の設定 {#representations}
+1. 1 つまたは複数の既存の **[!UICONTROL タグ]** をオファーに追加すると、オファーライブラリをより簡単に検索および整理できます。 [詳細情報](creating-tags.md)。
 
-オファーは、メッセージの様々な場所に表示できます（画像付きトップバナー、段落内のテキスト、HTML ブロックなど）。オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
+1. 「**[!UICONTROL オファー属性]**」セクションでは、レポートや分析のためにキーと値のペアをオファーに関連付けることができます。
 
-1 つ以上の表示域をオファーに追加して設定するには、以下の手順に従います。
-
-1. 1 つ目の表示域で、まず、使用する&#x200B;**[!UICONTROL チャネル]**&#x200B;を選択します。
+1. 表示域を追加して、メッセージでオファーを表示する場所を定義します。 [詳細情報](add-representations.md)
 
    ![](../assets/channel-placement.png)
 
-   >[!NOTE]
-   >
-   >選択したチャネルで使用可能なプレースメントのみが&#x200B;**[!UICONTROL プレースメント]**&#x200B;ドロップダウンリストに表示されます。
+1. 制約を追加して、表示するオファーの条件を設定します。 [詳細情報](add-constraints.md)
 
+   ![](../assets/offer-constraints-example.png)
 
-1. リストからプレースメントを選択します。
-
-   「**[!UICONTROL プレースメント]**」ドロップダウンリストの横にあるボタンを使用して、すべてのプレースメントを参照することもできます。
-
-   ![](../assets/browse-button-placements.png)
-
-   そこからさらに、チャネルやコンテンツタイプに従ってプレースメントをフィルタリングすることもできます。 プレースメントを選択し、「**[!UICONTROL 選択]**」をクリックします。
-
-   ![](../assets/browse-placements.png)
-
-1. 表示域にコンテンツを追加します。[この節](#content)の手順を参照してください。
-
-1. 画像や URL などのコンテンツを追加する際は、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
-
-   ![](../assets/offer-destination-link.png)
-
-1. 最後に、目的の言語を選択して、ユーザーに表示する内容を識別および管理できるようにします。
-
-1. さらに表示域を追加するには、「**[!UICONTROL 表示域を追加]**」ボタンを使用し、必要な数の表示域を追加します。
-
-   ![](../assets/offer-add-representation.png)
-
-1. 表示域をすべて追加したら、「**[!UICONTROL 次へ]**」を選択します。
-
-## 表示域のコンテンツの定義 {#content}
-
-表示域には、様々なタイプのコンテンツを追加できます。
-
->[!NOTE]
->
->プレースメントのコンテンツタイプに対応するコンテンツのみ使用できます。
-
-### 画像の追加 {#images}
-
-選択したプレースメントが画像タイプの場合、**Adobe Experience Cloud アセット**&#x200B;ライブラリからコンテンツを取得して追加できます。このライブラリは、[!DNL Adobe Experience Manager Assets Essentials] に用意されている一元的なアセットリポジトリです。
-
->[!NOTE]
->
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または&#x200B;**Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
-
-1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
-
-1. 「**[!UICONTROL 参照]**」を選択します。
-
-   ![](../assets/offer-browse-asset-library.png)
-
-1. アセットを参照して、目的の画像を選択します。
-
-1. 「**[!UICONTROL 選択]**」をクリックします。
-
-   ![](../assets/offer-select-asset.png)
-
-### URL の追加 {#urls}
-
-外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
-
-![](../assets/offer-content-url.png)
-
-### カスタムテキストの追加 {#custom-text}
-
-互換性のあるプレースメントを選択したときは、テキストタイプのコンテンツを挿入することもできます。 
-
-1. 「**[!UICONTROL カスタム]**」オプションを選択し、「**[!UICONTROL コンテンツを追加]**」をクリックします。
-
-   ![](../assets/offer-add-content.png)
-
-   >[!NOTE]
-   >
-   >このオプションは、画像タイプのプレースメントには使用できません。
-
-1. オファーに表示されるテキストを入力します。
-
-   ![](../assets/offer-text-content.png)
-
-   式エディターを使用して、コンテンツをパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
-
-   ![](../assets/offer-personalization.png)
-
-   >[!NOTE]
-   >
-   >意思決定管理に使用できるソースは、**[!UICONTROL プロファイル属性]**、**[!UICONTROL セグメントメンバーシップ]**&#x200B;および&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
-
-## 実施要件ルールと制約の追加 {#eligibility}
-
->[!CONTEXTUALHELP]
->id="od_offer_constraints"
->title="オファー制約について"
->abstract="制約を使用すると、オファーを他のオファーと比較して優先順位付けしユーザーに提示する方法を指定できます。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
-
->[!CONTEXTUALHELP]
->id="od_offer_eligibility"
->title="オファー実施要件について"
->abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
->additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
-
->[!CONTEXTUALHELP]
->id="od_offer_priority"
->title="オファーの優先度について"
->abstract="このフィールドでは、オファーの優先度設定を指定できます。 優先度は、実施要件、日付、制限などのすべての制約を満たすオファーをランク付けするための数値です。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
-
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="オファー制限について"
->abstract="このフィールドでは、すべてのユーザーにオファーを提示できる回数を指定できます。"
->additional-url="https://video.tv.adobe.com/v/329375" text="デモビデオを見る"
-
-実施要件ルールと制約を使用すると、オファーを表示する条件を定義できます。
-
-1. **[!UICONTROL オファー実施要件]**&#x200B;を設定します。
-
-   * デフォルトでは、「**[!UICONTROL すべての訪問者]**」決定ルールオプションが選択されています。これは、すべてのプロファイルがオファーを提示される資格があることを意味します。
-
-   * オファーの表示を、1 つまたは複数の Adobe Experience Platform セグメントのメンバーに限定できます。それには、「]**1 つまたは複数のセグメントに分類される訪問者**[!UICONTROL 」オプションを有効にしたあと、左ペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合します。
-
-      セグメントの操作方法について詳しくは、[このページ](../../segment/about-segments.md)を参照してください。
-
-      ![](../assets/offer-eligibility-segment.png)
-
-   * 特定の決定ルールをオファーに関連付ける場合は、「**[!UICONTROL 定義済みの決定ルール]**」を選択し、目的のルールを左ペインから「**[!UICONTROL 決定ルール]**」領域にドラッグします。決定ルールの作成方法について詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
-
-      ![](../assets/offer_rule.png)
-
-      >[!CAUTION]
-      >
-      >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
-   セグメントと決定ルールの使用上の違いについて詳しくは、[この節](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)を参照してください。
-
-1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
-
-1. オファーの「**[!UICONTROL キャッピング]**」を指定します。これは、すべてのユーザーに対するオファーの提示回数の合計を意味します。すべてのユーザーに、このフィールドで指定した回数だけオファーが配信された場合、その配信は停止します。
-
-   >[!NOTE]
-   >
-   >E メールの準備時に、オファーが提案された回数が計算されます。例えば、複数のオファーを含んだメールを準備する場合、そのメールが送信されるかどうかに関係なく、それらのオファーの数はオファーの提示回数に加算されます。
-   >
-   >E メール配信を削除した場合、または送信前に再度準備した場合、オファーのキャッピング値は自動的に更新されます。
-
-   ![](../assets/offer_capping.png)
-
-   上の例では、次のようになります。
-
-   * オファーの優先度は「50」に設定されています。つまり、このオファーは優先度が 1～49 のオファーより先に、優先度が 51 以上のオファーより後に表示されます。
-   * このオファーは、「ゴールドロイヤルティ顧客」決定ルールに一致するユーザーに対してのみ考慮されます。
-   * オファーは、1 人のユーザーにつき 1 回だけ表示されます。
+1. オファーを確認して保存します。 [詳細情報](#review)
 
 ## オファーのレビュー {#review}
 
@@ -231,7 +82,7 @@ ht-degree: 100%
 
 ![](../assets/offer_created.png)
 
-## オファーリスト {#offer-list}
+## オファーを管理 {#offer-list}
 
 オファーリストからオファーを選択して、そのプロパティを表示できます。 また、編集やステータス（**ドラフト**、**承認済み**、**アーカイブ済み**）の変更、オファーの複製、削除もできます。
 

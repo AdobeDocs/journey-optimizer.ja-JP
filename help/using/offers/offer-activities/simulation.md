@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 98%
+source-wordcount: '807'
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,17 @@ ht-degree: 98%
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>シミュレーションでは決定イベントが生成されないので、 [上限](../offer-library/creating-personalized-offers.md#capping) カウントに影響はありません。
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
 ## テストプロファイルの選択 {#select-test-profiles}
 
-まず、シミュレーションに使用するテストプロファイルを選択する必要があります。テストプロファイルの詳細については、 [このページ](../../segment/creating-test-profiles.md).
+まず、シミュレーションに使用するテストプロファイルを選択する必要があります。テストプロファイルの詳細については、 [この節](../../segment/creating-test-profiles.md).
 
 1. 「**[!UICONTROL プロファイルを管理]**」をクリックします。
 
