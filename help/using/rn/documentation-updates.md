@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 95%
+source-wordcount: '1096'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 95%
 * [自動最適化モデル](../offers/offer-library/ai-ranking.md#auto-optimization)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/offer-library/ai-ranking.md)
 * テストプロファイル作成ページは、  **セグメント、プロファイル、ID** 」セクションに入力します。 [詳細情報](../segment/creating-test-profiles.md)
 * 式エディターで式をデフォルト値として追加する方法の例を追加しました。 [詳細情報](../building-journeys/expression/field-references.md#default-value)
+* この **パーソナライズされたオファーの作成** の節が再編成され、読みやすさが向上しました。 [詳細情報](../offers/offer-library/creating-personalized-offers.md)
+* オファーの開始日や終了日がこのオファーの頻度キャップに与える影響を説明する新しい節が追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping-change-date)
 <!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## 2022年2月 {#feb-2022}

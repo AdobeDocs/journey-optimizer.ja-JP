@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '2915'
-ht-degree: 93%
+source-wordcount: '2941'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 **意思決定管理**
 
-<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* すべてのユーザーに対して、または 1 つの特定のプロファイルに対して、およびすべての配置に対して、または配置ごとに、オファーキャッピングを適用するかどうかを指定できるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 * バッチ判定 API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対してoffer decisioning機能を使用できます。 セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。 [詳細情報](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **管理**
