@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 98%
+source-wordcount: '420'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 
 ## カスタム待機{#custom}
 
-このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。[Journey Orchestration ドキュメント](expression/expressionadvanced.md)を参照してください。日時のみ形式について詳しくは、[Journey Orchestration ドキュメント](expression/data-types.md)を参照してください。
+このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。この[ページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式について詳しくは、次を参照してください [ページ](expression/data-types.md).
 
 >[!NOTE]
 >

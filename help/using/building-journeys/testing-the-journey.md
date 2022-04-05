@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 83%
+source-wordcount: '1545'
+ht-degree: 82%
 
 ---
 
@@ -156,12 +156,3 @@ ht-degree: 83%
 
 テストモードでは、エクスペリエンスイベントが自動的に作成され、Adobe Experience Platform に送信されます。このエクスペリエンスイベントのソース名は、「Journey Orchestration テストイベント」です。
 
-<!--
-In the case of multiple events triggered from multiple journeys
-
-There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
--->
-
-出力先データセットがエクスペリエンスイベントに含まれていない場合は、これらのデータセットが自動的に作成されて命名されます。「航海者向けデータセットが自動的に作成されました」というメッセージが表示されるのはそのためです。
-
-ソースに名前を付けると、自動的にメッセージが作成されます。複数のイベントがある場合は、それらを「Journey Orchestration テストイベント - スキーマ名」とつなげます。これにより、メッセージが自動的に「Journey Orchestration テストイベント - スキーマ名のデータセットが自動的に作成されました」に変わります。

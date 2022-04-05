@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '862'
 ht-degree: 97%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->また、[こちら](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ja){target=&quot;_blank&quot;}で Journey Orchestration のチュートリアルビデオも参照してください。
+>[こちら](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ja)のチュートリアルビデオも参照してください。{target=&quot;_blank&quot;}
 
 ## ライフサイクル
 

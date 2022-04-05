@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1538'
 ht-degree: 98%
 
 ---
@@ -149,7 +149,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。キーは名前空間に関連付けられ（[この節](../event/about-creating.md#select-the-namespace)を参照）、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
-また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。[Journey Orchestration ドキュメント](../building-journeys/expression/expressionadvanced.md)を参照してください。
+また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。この[ページ](../building-journeys/expression/expressionadvanced.md)を参照してください。
 
 ## ペイロードのプレビュー {#preview-the-payload}
 
