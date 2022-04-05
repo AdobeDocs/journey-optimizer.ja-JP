@@ -4,10 +4,10 @@ description: Journey Optimizer でランディングページを作成し、使�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 >title="ランディングページプリセットの作成"
 >abstract="ランディングページプリセットを作成できるようにするには、少なくとも 1 つのランディングページサブドメインを「サブドメイン名」リストから選択するように事前に設定しておく必要があります。"
 
-[ランディングページプリセットを作成](#lp-create-preset)できるようにするためには、ランディングページに使用するサブドメインを設定する必要があります。
+次の操作を実行できます。 [ランディングページプリセットを作成](#lp-create-preset)の場合は、ランディングページに使用するサブドメインを設定する必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](delegate-subdomain.md)で説明します。
 

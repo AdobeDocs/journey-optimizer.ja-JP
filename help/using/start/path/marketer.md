@@ -3,16 +3,14 @@ title: Journey Optimizer の基本を学ぶ（マーケター向け）
 description: ジャーニー実務担当者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
 
 # マーケター向けの基礎知識 {#get-started-marketers}
-
-![マーケター](assets/do-not-localize/user-3.png)
 
 **マーケター**&#x200B;つまり&#x200B;**ジャーニー実務担当者**&#x200B;は、メッセージ、オファーおよびジャーニーの作成を担当します。[システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 

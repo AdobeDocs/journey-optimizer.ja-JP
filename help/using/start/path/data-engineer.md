@@ -3,16 +3,14 @@ title: Journey Optimizer の基本を学ぶ（データエンジニア向け）
 description: データエンジニア向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
 
 # データエンジニア向けの基礎知識 {#data-engineer}
-
-![データエンジニア](assets/do-not-localize/user-1.png)
 
 **Adobe Journey Optimizer データエンジニア**&#x200B;は、[!DNL Journey Optimizer] で調整されたエクスペリエンスを強化するための顧客プロファイルデータの準備と維持、スキーマによる顧客データとビジネスデータのモデル化、データを取り込むためのソースコネクタの設定を行います。[システム管理者](administrator.md) からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 

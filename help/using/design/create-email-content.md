@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 91%
+source-wordcount: '497'
+ht-degree: 92%
 
 ---
 
@@ -94,9 +94,3 @@ E メールデザイナーでメールコンテンツの作成を開始するに
 1. メールの準備が整ったら、「**[!UICONTROL 保存して閉じる]**」をクリックします。
 
 これで、メッセージでメールコンテンツを使用できるようになります。[メッセージの送信方法の詳細情報](../messages/publish-manage-message.md)。
-
-## ハウツービデオ {#video}
-
-メッセージエディターで E メールコンテンツを作成する方法を説明します。
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 93%
+source-wordcount: '202'
+ht-degree: 78%
 
 ---
 
@@ -35,3 +35,7 @@ ht-degree: 93%
 1. 「**[!UICONTROL E メールデザイナー]**」をクリックして、メールをデザインします。メールのデザイン方法については、[この節](../design/design-emails.md)を参照してください。
 
 1. 受信者の動作を開封数やリンクのクリック数で追跡する場合、「**[!UICONTROL メールの開封トラッキング]**」オプションと「**[!UICONTROL メールのクリックトラッキング]**」オプションが有効になっていることを確認します。トラッキングの詳細については、[この節](../design/message-tracking.md)を参照してください。
+
+>[!NOTE]
+>
+>マーケティングタイプの電子メールメッセージには、 [オプトアウトリンク](consent.md#opt-out-management)：トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](get-started-content.md#create-new-message).

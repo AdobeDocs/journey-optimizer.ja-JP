@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 75%
+source-wordcount: '1279'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 * 受信者がこのリンクをクリックすると、オプトアウトを確認するランディングページが表示されます。
 * 選択内容を確認した後、プロファイルのデータはこの情報で更新されます。
+
+>[!NOTE]
+>
+>マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これは、トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](get-started-content.md#create-new-message).
 
 ### 外部オプトアウト {#opt-out-external-lp}
 
@@ -71,7 +75,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 #### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;} をクリックし、対応するプロファイルの環境設定を更新します。
+受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](https://developer.adobe.com/){target=&quot;_blank&quot;} をクリックし、対応するプロファイルの環境設定を更新します。
 
 このPOST呼び出しは次のとおりです。
 

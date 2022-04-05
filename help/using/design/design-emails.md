@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 94%
 
 ---
 
@@ -35,4 +35,12 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->下の領域のテンプレートは静的で、編集できないことに注意してください。これらは、説明の目的でのみ使用できます。[メッセージを作成](../messages/get-started-content.md)したら、メールコンテンツの作成に取り掛かることができます。
+>下の領域のテンプレートは静的で、編集できないことに注意してください。これらは、説明の目的でのみ使用できます。
+>
+>[メッセージを作成](../messages/get-started-content.md)したら、メールコンテンツの作成に取り掛かることができます。
+
+## ハウツービデオ {#video}
+
+メッセージエディターで E メールコンテンツを作成する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

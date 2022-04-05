@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 98%
+source-wordcount: '995'
+ht-degree: 93%
 
 ---
 
@@ -88,6 +88,10 @@ ht-degree: 98%
    >ランディングページの URL は一意にする必要があります。
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >公開済みの場合でも、この URL を Web ブラウザーにコピー&amp;ペーストするだけでランディングページにアクセスすることはできません。 代わりに、 [この節](#test-landing-page).
 
 1. ページの有効期限を定義できます。その場合、ページの有効期限が切れたらアクションを選択する必要があります。
 
@@ -175,7 +179,7 @@ ht-degree: 98%
 
 * **警告**&#x200B;は、推奨奨事項とベストプラクティスを表します。<!--For example, a message will display if -->
 
-* **エラー**&#x200B;は、解決されない限り、メッセージを公開することができません。例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
+* **エラー** ランディングページが解決されていない限り、ランディングページを公開できません。 例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

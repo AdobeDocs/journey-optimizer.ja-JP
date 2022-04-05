@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -24,50 +24,14 @@ ht-degree: 100%
 
 ステップバイステップ方式のガイダンスを使用して Adobe Journey Optimizer の機能を習得し確認するには、プロファイルを選択します。
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="管理者" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">管理者の場合</a>
-     <p>環境を準備し、アクセス権を付与し、設定を指定します
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="データエンジニア" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">データエンジニアの場合</a>
-     <p>プロファイルをインポートし、オーディエンスを作成し、スキーマとデータセットを作成します
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="マーケター" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">マーケターの場合</a>
-     <p>メッセージを設計し、オファーとアセットの追加し、カスタマージャーニーを構築します
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* 私は **管理者**
+
+   環境を準備し、アクセス権を付与し、設定を指定します. [詳細情報](path/administrator.md)
+
+* 私は **データエンジニア**
+
+   プロファイルをインポートし、オーディエンスを作成し、スキーマとデータセットを作成します. [詳細情報](path/data-engineer.md)
+
+* 私は **マーケター**
+
+   メッセージを設計し、オファーとアセットの追加し、カスタマージャーニーを構築します. [詳細情報](path/marketer.md)

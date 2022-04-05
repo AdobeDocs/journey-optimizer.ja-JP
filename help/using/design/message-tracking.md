@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 94%
 
 ---
 
@@ -73,6 +73,10 @@ ht-degree: 100%
    * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>マーケティングタイプの電子メールメッセージには、 [オプトアウトリンク](../messages/consent.md#opt-out-management)：トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](../messages/get-started-content.md#create-new-message).
 
 ## ミラーページへのリンク {#mirror-page}
 

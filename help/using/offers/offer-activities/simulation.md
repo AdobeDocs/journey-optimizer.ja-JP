@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 97%
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,11 @@ ht-degree: 97%
 
 ## テストプロファイルの選択 {#select-test-profiles}
 
-まず、シミュレーションに使用するテストプロファイルを選択する必要があります。テストプロファイルの詳細については、 [この節](../../segment/creating-test-profiles.md).
+まず、シミュレーションに使用するテストプロファイルを選択する必要があります。
+
+>[!CAUTION]
+>
+>メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../../segment/creating-test-profiles.md)する方法について説明します。
 
 1. 「**[!UICONTROL プロファイルを管理]**」をクリックします。
 

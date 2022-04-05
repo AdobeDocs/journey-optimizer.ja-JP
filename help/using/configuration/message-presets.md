@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 90%
+source-wordcount: '2182'
+ht-degree: 87%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 90%
 
 >[!CAUTION]
 >
-> * メッセージプリセットは、ジャーニー管理者のみが設定できます。 [詳細](../administration/ootb-product-profiles.md#journey-administrator)
+> * メッセージプリセットの設定は次に制限されています： [ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator). メッセージプリセットを作成、編集、削除するには、 [メッセージプリセットの管理](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * メッセージプリセットを作成する前に、メール設定ステップと[プッシュ設定](../configuration/push-configuration.md)ステップを実行する必要があります。
+> * 次を実行する必要があります。 [電子メール設定](#configure-email-settings) および [プッシュ設定](../configuration/push-configuration.md) メッセージプリセットを作成する前の手順です。
 
 
-メッセージプリセットを設定したら、メッセージを作成する際に「**[!UICONTROL プリセット]**」リストからメッセージプリセットを選択できるようになります。
+メッセージプリセットを設定すると、メッセージを **[!UICONTROL プリセット]** リスト。
 
 ➡️ [メールプリセットの作成および使用方法については、このビデオを参照](#video-presets)
 
@@ -84,14 +84,15 @@ ht-degree: 90%
 
 以下の説明に従って、設定を指定します。
 
-
 ### メールのタイプ{#email-type}
 
 「**メールのタイプ**」セクションで、プリセットと共に送信されるメッセージのタイプ（「**マーケティング**」または「**トランザクション**」）を選択します。
 
-プロモーションメッセージの場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
+* プロモーションメッセージの場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
 
-注文確認、パスワードリセット通知、配信情報など、非商用メッセージの場合は、「**トランザクション**」を選択します。
+* 注文確認、パスワードリセット通知、配信情報など、非商用メッセージの場合は、「**トランザクション**」を選択します。
+
+条件 [メッセージの作成](../messages/get-started-content.md#create-new-message)に設定する場合は、選択したカテゴリとチャネルに対して有効なメッセージプリセットを選択する必要があります。
 
 >[!CAUTION]
 >
