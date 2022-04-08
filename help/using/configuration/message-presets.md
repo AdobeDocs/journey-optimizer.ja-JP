@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2194'
 ht-degree: 87%
 
 ---
@@ -85,6 +85,11 @@ ht-degree: 87%
 以下の説明に従って、設定を指定します。
 
 ### メールのタイプ{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="E メールのタイプ"
+>abstract="完了"
 
 「**メールのタイプ**」セクションで、プリセットと共に送信されるメッセージのタイプ（「**マーケティング**」または「**トランザクション**」）を選択します。
 
@@ -189,6 +194,11 @@ UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フ�
 >アドレスは、文字（A ～ Z）で始まる必要があり、英数字のみを使用できます。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 ### メールの再試行パラメーター{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="E メールの再試行期間"
+>abstract="完了"
 
 **メールの再試行パラメーター**&#x200B;を設定できます。
 
