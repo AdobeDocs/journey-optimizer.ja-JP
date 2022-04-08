@@ -5,14 +5,20 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '488'
+ht-degree: 89%
 
 ---
 
 # オファーに表示域を追加する {#add-representations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_representation"
+>title="表示域"
+>abstract="表示域を追加して、メッセージでオファーを表示する場所を定義します。 オファーが持つ表示域が多いほど、異なる配置コンテキストでそのオファーを使用する機会が多くなります。」
 
 オファーは、メッセージの様々な場所に表示できます（画像付きトップバナー、段落内のテキスト、HTML ブロックなど）。オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
 

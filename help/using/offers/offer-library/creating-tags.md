@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
 # タグの作成 {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="タグ"
+>abstract="1 つまたは複数のタグをオファーに関連付けて、オファーライブラリを整理し、オファーをより簡単に見つけられるようにします。 タグは「コンポーネント」メニューから作成します。"
 
 タグをオファーに関連付けると、タグを整理しやすくなります。例えば、ブラックフライデーオファーに「ブラックフライデー」タグのラベルを付けることができます。オファーライブラリの検索機能を使用して、そのタグを持つすべてのオファーを簡単に見つけることができるようになります。
 

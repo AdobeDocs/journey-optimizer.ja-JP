@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '271'
+ht-degree: 84%
 
 ---
 
 # プレースメントの作成 {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="配置"
+>abstract="配置は、オファーのショーケースに使用されるコンテナです。 これにより、メッセージ内の適切な場所に適切なオファーコンテンツを表示できます。 配置は、「コンポーネント」メニューから作成します。"
 
 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 

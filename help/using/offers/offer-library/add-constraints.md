@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 34%
+source-wordcount: '1589'
+ht-degree: 33%
 
 ---
 
@@ -23,6 +24,11 @@ ht-degree: 34%
 >id="od_offer_priority"
 >title="オファーの優先度について"
 >abstract="このフィールドでは、オファーの優先度設定を指定できます。 優先度は、実施要件、日付、制限などのすべての制約を満たすオファーをランク付けするための数値です。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="優先度"
+>abstract="優先度は、ユーザーが複数のオファーに該当する場合に、他のオファーと比較して、オファーの優先度を定義するのに役立ちます。 オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。"
 
 制約を使用すると、オファーの表示条件を定義できます。
 
@@ -49,6 +55,11 @@ ht-degree: 34%
 * オファーは、すべての配置をまたいで、ユーザーごとに 1 回だけ表示されます。
 
 ## 適格要件 {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="適格要件"
+>abstract="オファーの実施要件を使用すると、セグメントや決定ルールを使用して定義した特定のプロファイルにオファーを制限できます。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ ht-degree: 34%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="オファー制限について"
->abstract="このフィールドでは、オファーの提示回数を指定できます。"
+>title="キャッピング"
+>abstract="キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。"
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
