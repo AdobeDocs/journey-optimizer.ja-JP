@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 69%
 
 ---
 
 # サブドメインへの Google TXT レコードの追加 {#google-txt-record}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_google"
+>title="Google TXT レコード"
+>abstract="Gmail アドレス宛ての E メールを確実に配信するには、サブドメインに特別なGoogleサイト検証 TXT レコードを追加して、サブドメインが確実に検証されていることを確認します。"
+
 TXT レコードは、ドメインに関するテキスト情報を提供するための一種の DNS レコードで、外部ソースから読み取ることができます。
 
-[!DNL Journey Optimizer] では、Gmail アドレス宛てのメールの配信品質を確保して確実な配信をおこなうために、サブドメインに Google サイト検証用の特別な TXT レコードを追加して、サブドメインを確実に検証できます。
+Gmail アドレスへの E メールの配信品質を最適化し、正常な配信を実現するには、次の手順を実行します。 [!DNL Journey Optimizer] では、サブドメインに特別なGoogleサイト検証 TXT レコードを追加して、検証されていることを確認できます。
 
 >[!CAUTION]
 >
