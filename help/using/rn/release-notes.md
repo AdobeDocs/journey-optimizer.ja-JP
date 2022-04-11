@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2941'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,31 +13,31 @@ ht-degree: 92%
 
 このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、その他の変更点については、[最新のドキュメント更新](documentation-updates.md)ページを参照してください。
 
-![ニュースレター](../assets/do-not-localize/nl-icon.png) 新規登録 [Adobe Journey Optimizer四半期ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} を今すぐご利用いただき、最新の製品アップデート、素晴らしいストーリー、使用例、ヒントなどを四半期ごとにインボックスに直接配信していただけます。
+![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
 
-## 2022 年 3 月リリース {#march-2022-release}
+## 2022年3月リリース {#march-2022-release}
 
 ### 機能強化
 
 **ジャーニー**
 
-* 統合プロファイルスキーマに不要なフィールドを含めないようにするために、ジャーニーステップイベントスキーマは、プロファイルに対してデフォルトで有効になっていません。 必要に応じて、アクティブ化できます。 [詳細情報](../reports/sharing-overview.md)
-* 書き出しジョブに関連する新しいステップイベントが、Journey OptimizerからAdobe Experience Platformに送信されるようになりました。 クエリの例がドキュメントに追加されました。 [詳細情報](../reports/query-examples.md)
+* 統合プロファイルスキーマに不要なフィールドが含まれないようにするために、ジャーニーステップイベントスキーマはプロファイルに対してデフォルトでは有効にならなくなりました。必要に応じて、有効にすることができます。[詳細情報](../reports/sharing-overview.md)
+* エクスポートジョブに関連する新しいステップイベントが、Journey Optimizer から Adobe Experience Platform に送信されるようになりました。クエリの例がドキュメントに追加されました。[詳細情報](../reports/query-examples.md)
 
 **意思決定管理**
 
-* すべてのユーザーに対して、または 1 つの特定のプロファイルに対して、およびすべての配置に対して、または配置ごとに、オファーキャッピングを適用するかどうかを指定できるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
-* バッチ判定 API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対してoffer decisioning機能を使用できます。 セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。 [詳細情報](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [詳細情報](../offers/offer-library/add-constraints.md#capping)
+* Batch Decisioning API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対して Offer Decisioning 機能を使用できます。セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。[詳細情報](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **管理**
 
-* これで、メッセージプリセットレベルで E メールヘッダー内または E メールヘッダー内の配信停止リンクを有効/無効にし、メッセージレベルでカスタム配信停止 URL を設定できるようになりました。 [詳細情報](../configuration/message-presets.md#list-unsubscribe)
-* 許可リストは、 [!DNL Journey Optimizer] 実稼動用サンドボックスと非実稼動用サンドボックスのインターフェイス。 [詳細情報](../reports/allow-list.md#enable-allow-list)
+* メールヘッダー内の購読解除リンクをメッセージプリセットレベルで有効／無効にでき、カスタム購読解除 URL をメッセージレベルで設定できるようになりました。[詳細情報](../configuration/message-presets.md#list-unsubscribe)
+* 許可リストは、実稼働サンドボックスと非実稼働サンドボックスの [!DNL Journey Optimizer] インターフェイスを介して、有効または無効にできるようになりました。[詳細情報](../reports/allow-list.md#enable-allow-list)
 
 **パーソナライゼーション**
 
-* 40 件を超えるパーソナライゼーション式をライブラリに保存できるようになりました。 [詳細情報](../personalization/personalization-library.md)
+* 40 を超えるパーソナライゼーション式をライブラリに保存できるようになりました。[詳細情報](../personalization/personalization-library.md)
 
 ## 2022年2月リリース {#feb-2022-release}
 

@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1279'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これは、トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](get-started-content.md#create-new-message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. ********[](../configuration/message-presets.md#email-type)[](get-started-content.md#create-new-message)
 
 ### 外部オプトアウト {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 #### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](https://developer.adobe.com/){target=&quot;_blank&quot;} をクリックし、対応するプロファイルの環境設定を更新します。
+****[](https://developer.adobe.com/)
 
-このPOST呼び出しは次のとおりです。
+This POST call is as follows:
 
 エンドポイント：platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 }
 ```
 
-[!DNL Journey Optimizer] がこれらのパラメーターを使用し、 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼び出し。
+[!DNL Journey Optimizer][](https://developer.adobe.com)
 
 #### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
    ![](assets/opt-out-lp-example.png)
 
-1. 受信者がフォームを送信した場合 ( ここでは、 **配信停止** 」ボタンをクリックすると、 [API 呼び出し](#opt-out-api).
+1. ****[](#opt-out-api)
 
 1. その後、オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
 
@@ -161,7 +161,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
    >[!NOTE]
    >
-   >を有効にした場合、 **List-Unsubscribe** オプション（メッセージプリセットレベル）の場合、この URL は、ユーザーが E メールヘッダーの配信停止リンクをクリックした場合にも使用されます。 [詳細情報](#unsubscribe-header)
+   >**List-Unsubscribe** オプションをメッセージプリセットレベルで有効にした場合、この URL は、ユーザーがメールヘッダーの購読解除リンクをクリックしたときにも使用されます。[詳細情報](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -175,11 +175,11 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="メールヘッダーに配信停止リンクを追加"
->abstract="List-Unsubscribe を有効にして、E メールヘッダーに配信停止リンクを追加します。 配信停止 URL を設定するには、E メールメッセージのコンテンツにワンクリックオプトアウトリンクを挿入します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="ワンクリックオプトアウト"
+>title="メールヘッダーへの購読解除リンクの追加"
+>abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除リンクを追加します。購読解除 URL を設定するには、メールメッセージのコンテンツにワンクリックオプトアウトリンクを挿入します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=ja#one-click-opt-out" text="ワンクリックオプトアウト"
 
-この [List-Unsubscribe オプション](../configuration/message-presets.md#list-unsubscribe) がメッセージプリセットレベルで有効になっている場合、対応する電子メールが [!DNL Journey Optimizer] 電子メールヘッダーに配信停止リンクが含まれます。
+[List-Unsubscribe オプション](../configuration/message-presets.md#list-unsubscribe)がメッセージプリセットレベルで有効になっている場合、[!DNL Journey Optimizer] で送信される対応するメールには、メールヘッダーに購読解除リンクが含まれています。
 
 例えば、購読解除リンクは Gmail では次のように表示されます。
 
@@ -187,23 +187,23 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!NOTE]
 >
->E メールヘッダーに配信停止リンクを表示するには、受信者の E メールクライアントがこの機能をサポートしている必要があります。
+>メールヘッダーに購読解除リンクを表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
 
-配信停止アドレスがデフォルトです **[!UICONTROL 宛先（配信停止）]** 対応するメッセージプリセットに表示されるアドレス。 [詳細情報](../configuration/message-presets.md#list-unsubscribe)。
+購読解除アドレスは、対応するメッセージプリセットに表示されるデフォルトの **[!UICONTROL mailto（購読解除）]**&#x200B;アドレスです。[詳細情報](../configuration/message-presets.md#list-unsubscribe)。
 
-パーソナライズされた購読解除 URL を設定するには、E メールメッセージコンテンツに 1 回のクリックでのオプトアウトリンクを挿入し、目的の URL を入力します。 [詳細情報](#one-click-opt-out)
+パーソナライズした購読解除 URL を設定するには、メールメッセージコンテンツにワンクリックオプトアウトリンクを挿入し、自分で選んだ URL を入力します。[詳細情報](#one-click-opt-out)
 
-E メールクライアントによっては、ヘッダーから配信停止リンクをクリックすると、次の影響を受ける場合があります。
+メールクライアントによっては、ヘッダーの購読解除リンクをクリックすると、次のような影響が出ることがあります。
 
-* 配信停止リクエストは、デフォルトの配信停止アドレスに送信されます。
+* 購読解除リクエストがデフォルトの購読解除アドレスに送信されます。
 
-* 受信者は、メッセージにオプトアウトリンクを追加する際に指定したランディングページ URL に移動します。
+* メッセージにオプトアウトリンクを追加する際に指定したランディングページ URL に受信者が移動します。
 
    >[!NOTE]
    >
-   >メッセージコンテンツに 1 回のクリックでのオプトアウトリンクを追加しない場合、ランディングページは表示されません。
+   >メッセージコンテンツにワンクリックオプトアウトリンクを追加しない場合、ランディングページは表示されません。
 
-* 対応するプロファイルはすぐにオプトアウトされ、この選択は Experience Platform で更新されます。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}を参照してください。
+* 対応するプロファイルが直ちにオプトアウトされ、この選択が Experience Platform で更新されます。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}を参照してください。
 
 ## プッシュのオプトアウト管理 {#push-opt-out-management}
 

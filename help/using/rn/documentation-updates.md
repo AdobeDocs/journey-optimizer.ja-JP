@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 91%
 
 ## 2022年3月 {#march-2022}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 3 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2022年3月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
 * [自動最適化モデル](../offers/offer-library/ai-ranking.md#auto-optimization)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/offer-library/ai-ranking.md)
-* テストプロファイル作成ページは、  **セグメント、プロファイル、ID** 」セクションに入力します。 [詳細情報](../segment/creating-test-profiles.md)
-* 式エディターで式をデフォルト値として追加する方法の例を追加しました。 [詳細情報](../building-journeys/expression/field-references.md#default-value)
+* テストプロファイル作成ページは、「**セグメント、プロファイル、ID**」節に移動しました。 [詳細情報](../segment/creating-test-profiles.md)
+* 式エディターで式をデフォルト値として追加する方法の例を追加しました。[詳細情報](../building-journeys/expression/field-references.md#default-value)
 * この **パーソナライズされたオファーの作成** の節が再編成され、読みやすさが向上しました。 [詳細情報](../offers/offer-library/creating-personalized-offers.md)
 * オファーの開始日や終了日がこのオファーの頻度キャップに与える影響を説明する新しい節が追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping-change-date)
 * この **プライマリ E メールアドレスの変更** の節が更新され、ユーザーインターフェイスの変更が反映されました。 [詳細情報](../configuration/primary-email-addresses.md)

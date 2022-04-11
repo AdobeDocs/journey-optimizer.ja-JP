@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 68%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html?lang=ja" target="_blank">Adobe Journey Optimizer 製品の説明</a>
+      <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 製品の説明</a>
     </li>
     </div>
     <div>
@@ -96,7 +96,7 @@ ht-degree: 68%
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html?lang=ja" target="_blank">Adobe Experience Platform のドキュメント</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">Adobe Experience Platform のドキュメント</a>
     </li>
     </div>
     <div>
@@ -179,13 +179,13 @@ ht-degree: 68%
 
 
 
-![ニュースレター](using/assets/do-not-localize/nl-icon.png) 新規登録 [Adobe Journey Optimizer四半期ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} 今日！
+![ニュースレター](using/assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に新規登録してください。
 
-最新の製品アップデート、魅力的なストーリー、使用例、ヒントなどを四半期ごとにインボックスに直接配信します。
+最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどを、四半期ごとに受信ボックスに直接配信します。
 
-各ニュースレターでは、次の情報を確認できます。
+各ニュースレターでは、次の内容をご覧いただけます。
 * 最近リリースされた機能を含む製品ニュースおよびアップデート
-* 最近のウェビナーのイベントやウェビナー、録画への招待
-* Adobe Journey OptimizerExperience League
-* 他のAdobe Journey Optimizerのお客様の事例と使用例
+* イベントやウェビナーへの招待、最近のウェビナーの録画
+* Adobe Journey Optimizer Experience League コミュニティの選り抜きのディスカッション
+* Adobe Journey Optimizer の他のお客様の事例とユースケース
 * ビジネスを成功に導く優れたカスタマーエクスペリエンスを実現するためのヒントとテクニック

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -39,20 +39,20 @@ ht-degree: 94%
    + [同意の管理](using/messages/consent.md)
 + コンテンツのデザイン {#design}
    + [メールデザインの基本を学ぶ](using/design/design-emails.md)
-   + [最初から開始 ](using/design/create-email-content.md)
-   + [E メールコンテンツを読み込む](using/design/existing-content.md)
-   + [独自のコンテンツをコーディング](using/design/code-content.md)
+   + [ゼロからの開始 ](using/design/create-email-content.md)
+   + [メールコンテンツのインポート](using/design/existing-content.md)
+   + [独自コンテンツのコーディング](using/design/code-content.md)
    + コンテンツデザイン {#design-content}
       + [コンテンツコンポーネントの使用](using/design/content-components.md)
       + [背景の設定](using/design/backgrounds.md)
-      + [垂直方向の整列とパディングを調整する](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [垂直方向の整列とパディングの調整](using/design/adjusting-vertical-alignment-and-padding.md)
       + [リンクのスタイルの定義](using/design/styling-links.md)
-      + [インラインのスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
+      + [インラインスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
    + メールの設定 {#design-email}
-      + [テキストバージョンを生成](using/design/text-version-email.md)
-      + [プリヘッダーを追加](using/design/preheader.md)
+      + [テキストバージョンの生成](using/design/text-version-email.md)
+      + [プリヘッダーの追加](using/design/preheader.md)
    + アセットの追加と管理 {#manage-asset}
-      + [Assets Essentialsの操作](using/design/assets-essentials.md)
+      + [Assets Essentials の操作](using/design/assets-essentials.md)
    + [パーソナライズされたオファーの追加](using/design/deliver-personalized-offers.md)
    + [リンクの追加とメッセージのトラッキング](using/design/message-tracking.md)
    + [プレビューと配達確認](using/design/preview.md)
@@ -226,8 +226,8 @@ ht-degree: 94%
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
       + [メールグローバルレポート](using/reports/email-global-report.md)
       + [プッシュグローバルレポート](using/reports/push-global-report.md)
-      + [ランディングページのグローバルレポート](using/reports/lp-report-global.md)
-      + [購読リストのグローバルレポート](using/reports/subscription-report-global.md)
+      + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
+      + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドのリスト](using/reports/sharing-field-list.md)
@@ -326,8 +326,8 @@ ht-degree: 94%
          + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
          + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
       + API を使用したオファー配信 {#offer-delivery}
-         + [決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [バッチ判定 API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
+         + [意思決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + データ管理 {#data-management}
    + [スキーマ](using/start/get-started-schemas.md)
