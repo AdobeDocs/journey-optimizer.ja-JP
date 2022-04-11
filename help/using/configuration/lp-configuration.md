@@ -4,10 +4,10 @@ description: Journey Optimizer でランディングページを作成し、使�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 94%
+source-wordcount: '940'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 94%
 >id="ajo_admin_config_lp_subdomain"
 >title="ランディングページプリセットの作成"
 >abstract="ランディングページプリセットを作成できるようにするには、少なくとも 1 つのランディングページサブドメインを「サブドメイン名」リストから選択するように事前に設定しておく必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="ランディングページプリセットの作成"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="ランディングページのサブドメインをデリゲート"
+>abstract="ランディングページプリセットを作成するにはこのサブドメインが必要なので、ランディングページで使用するサブドメインを設定する必要があります。 既にドメインにデリゲートされているサブAdobeを使用するか、新しいサブドメインを設定できます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="ランディングページプリセットの作成"
 
 次の操作を実行できます。 [ランディングページプリセットを作成](#lp-create-preset)の場合は、ランディングページに使用するサブドメインを設定する必要があります。
 
