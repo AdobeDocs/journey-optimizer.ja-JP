@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] は、会社が顧客に対し、連続性を持ち、顧客の期待に沿う、パーソナライズされたエクスペリエンスを提供するのに役立ちます。カスタマージャーニーは、顧客がブランドとやり取りするプロセスの全体（最初に接触した時点から顧客が離脱するまで）を表します。このジャーニーは、認知フェーズから開始します。このフェーズでは、顧客はブランドを知り、エンゲージメントを開始します。その後、顧客は企業とやり取りし、オンラインショップや実店舗の訪問、購入、メッセージの送信、レビューの投稿をおこないます。
 
-[!DNL Adobe Journey Optimizer] は、[!DNL Adobe Experience Platform] にネイティブに構築され、統合されたリアルタイム顧客プロファイル、API ファーストのオープンフレームワーク、一元化された Offer Decisioning、人工知能（AI）と機械学習（ML）を組み合わせて、パーソナライゼーションと最適化を実現します。Journey Optimizer を使用すると、カスタマージャーニーをまたいで、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。 [!DNL Adobe Journey Optimizer] を使用すると、企業は、スケジュールに沿ったマーケティングキャンペーン（小売店向けの週別プロモーションなど）と、カスタマイズされた個々のコミュニケーション（ロイヤルティアプリの顧客が以前表示し、在庫切れだった品目のプッシュ通知など）の両方を同じアプリ内で作成して配信できます。
+[!DNL Adobe Journey Optimizer] がにネイティブで構築されている [!DNL Adobe Experience Platform] は、統合されたリアルタイムの顧客プロファイル、API ファーストのオープンフレームワーク、一元化されたoffer decisioning、人工知能 (AI) と機械学習 (ML) を組み合わせて、パーソナライゼーションと最適化を実現します。 Journey Optimizer を使用すると、カスタマージャーニーをまたいで、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。 [!DNL Adobe Journey Optimizer] を使用すると、企業は、スケジュールに沿ったマーケティングキャンペーン（小売店向けの週別プロモーションなど）と、カスタマイズされた個々のコミュニケーション（ロイヤルティアプリの顧客が以前表示し、在庫切れだった品目のプッシュ通知など）の両方を同じアプリ内で作成して配信できます。
 
 ➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target=&quot;_blank&quot;}（ビデオ）
 

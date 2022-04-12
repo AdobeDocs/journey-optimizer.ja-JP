@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5071de634c9dbb13908d3190fe1157831c372c7d
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 42%
+source-wordcount: '172'
+ht-degree: 36%
 
 ---
 
 # プライマリメールアドレスの変更 {#change-primary-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address"
+>title="使用するアドレスを定義"
+>abstract="複数のアドレスがデータベースで使用可能な場合（個人、職場など）に、送信を優先する電子メールアドレスを選択できます。"
 
 プロファイルをターゲットにする場合、使用できるメールアドレスがデータベース内に複数ある（個人用、仕事用のメールアドレスなど）場合があります。
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 100%
+source-wordcount: '1375'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 1. **決定ルール**&#x200B;を作成します。
 
-   決定ルールは、Adobe Experience Platform のプロファイルに最適なオファーを提供します。
+   決定ルールは、Adobe Experience Platformのプロファイルに最適なオファーを提供します。
 
    **[!UICONTROL XDM 個人プロファイル／人物／性別]**&#x200B;属性を使用して、2 つのシンプルなルールを設定します。
 

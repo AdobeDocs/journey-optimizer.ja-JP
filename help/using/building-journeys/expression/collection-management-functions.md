@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '600'
+ht-degree: 97%
 
 ---
 
@@ -202,7 +202,7 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->エクスペリエンスイベントは、Adobe Experience Platform からコレクションとして新しい順に取得されます。したがって、次のようになります。
+>エクスペリエンスイベントは、時系列の逆順にAdobe Experience Platformからコレクションとして取得されます。したがって、次のようになります。
 >
 >* **[!UICONTROL first]** 関数は、最新のイベントを返します。
 >* **[!UICONTROL last]** 関数は、最も古いイベントを返します。

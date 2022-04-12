@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 100%
+source-wordcount: '1049'
+ht-degree: 92%
 
 ---
 
@@ -103,6 +103,11 @@ ht-degree: 100%
 
 ## アドレスとドメインの手動追加 {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="抑制リストにメール/ドメインを追加"
+>abstract="Journey Optimizer抑制リストを手動で設定して、送信から特定の電子メールアドレスやドメインを除外することができます。"
+
 メッセージをメールアドレスに配信できない場合、このアドレスは、定義済みの抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
 
 ただし、[!DNL Journey Optimizer] 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することもできます。
@@ -114,6 +119,11 @@ ht-degree: 100%
 ![](assets/suppression-list-add-email.png)
 
 ### 1 つのアドレスまたはドメインの追加 {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="抑制リストに項目を 1 つ追加"
+>abstract="抑制リストを入力するには、E メールアドレスやドメインを 1 つずつ追加します。"
 
 1. 「**[!UICONTROL 1 つずつ]**」オプションを選択します。
 
@@ -132,6 +142,11 @@ ht-degree: 100%
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
 ### CSV ファイルのアップロード {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="CSV をアップロードして抑制リストに項目を追加"
+>abstract="抑制リストを入力するには、除外する電子メールアドレス/ドメインが入力された CSV ファイルをアップロードします。"
 
 1. 「**[!UICONTROL CSV をアップロード]**」オプションを選択します。
 

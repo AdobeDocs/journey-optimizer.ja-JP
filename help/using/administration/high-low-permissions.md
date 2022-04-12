@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 98%
+source-wordcount: '1141'
+ht-degree: 96%
 
 ---
 
@@ -435,3 +435,23 @@ ht-degree: 98%
    * landing_page_preset.read
    * landing_page_preset.write
    * landing_page_preset.delete
+
+### [!DNL Manage frequency rules] 権限 {#manage-frequency-rules}
+
+この **[!DNL Manage frequency rules]** 高レベル権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化/非アクティブ化をおこなうことができます。
+
+これには、次の低レベル権限が含まれます。
+
+* Journey Optimizer 固有：
+   * frequency_rules.read
+   * frequency_rules.write
+   * frequency_rules.delete
+
+### [!DNL View frequency rules] 権限 {#view-frequency-rules}
+
+この **[!DNL View frequency rules]** 高レベル権限を持つユーザーは、頻度ルールを表示できます。
+
+これには、次の低レベル権限が含まれます。
+
+* Journey Optimizer 固有：
+   * frequency_rules.read

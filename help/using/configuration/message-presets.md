@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2271'
-ht-degree: 84%
+source-wordcount: '2350'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 >[!CAUTION]
 >
-> * メッセージプリセットの設定は次に制限されています： [ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator). メッセージプリセットを作成、編集、削除するには、 [メッセージプリセットの管理](../administration/high-low-permissions.md#manage-message-presets).
+> * メッセージプリセットを作成、編集、削除するには、 [メッセージプリセットの管理](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * 次を実行する必要があります。 [電子メール設定](#configure-email-settings) および [プッシュ設定](../configuration/push-configuration.md) メッセージプリセットを作成する前の手順です。
 
@@ -29,6 +29,11 @@ ht-degree: 84%
 ➡️ [メールプリセットの作成および使用方法については、このビデオを参照](#video-presets)
 
 ## メッセージプリセットの作成 {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="メッセージプリセットの詳細と設定"
+>abstract="メッセージプリセットを設定することで、適用するチャネルを選択し、E メールのタイプ、使用するサブドメイン、送信者名、モバイルアプリなど、メッセージに必要なすべての技術的パラメーターを定義できます。"
 
 メッセージプリセットを作成するには、次の手順に従います。
 
@@ -97,11 +102,11 @@ ht-degree: 84%
 
 * 注文確認、パスワードリセット通知、配信情報など、非商用メッセージの場合は、「**トランザクション**」を選択します。
 
-条件 [メッセージの作成](../messages/get-started-content.md#create-new-message)に設定する場合は、選択したカテゴリとチャネルに対して有効なメッセージプリセットを選択する必要があります。
-
 >[!CAUTION]
 >
 >**トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
+
+条件 [メッセージの作成](../messages/get-started-content.md#create-new-message)に設定する場合は、メッセージに対して選択したカテゴリに一致する有効なメッセージプリセットを選択する必要があります。
 
 ### サブドメインおよび IP プール {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ ht-degree: 84%
 1. メールの送信に使用するサブドメインを選択します。 [詳細](about-subdomain-delegation.md)
 
 1. プリセットに関連付ける IP プールを選択します。 [詳細](ip-pools.md)
+
+>[!NOTE]
+>
+>非実稼動環境の場合、Adobeは、標準のテストサブドメインを作成したり、共有送信 IP プールへのアクセスを許可したりしません。 以下が必要です。 [独自のサブドメインをデリゲート](delegate-subdomain.md) および組織に割り当てられたプールの IP を使用します。
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フ�
 * マーケティングメールの場合、再試行期間の下限は 6 時間です。
 * トランザクションメールの場合、再試行期間の下限は 10 分です。
 * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
+
+再試行に関する詳細情報： [この節](retries.md).
 
 ## プッシュ設定 {#configure-push-settings}
 

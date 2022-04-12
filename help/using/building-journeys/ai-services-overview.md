@@ -5,10 +5,10 @@ description: AI サービスの概要
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Platform 上に構築された [!DNL Intelligent Services] は�
 
 顧客 AI は [!DNL Adobe Intelligent Services] の一部です。これは、顧客がとる可能性の高い行動を予測するのに役立ちます。 [Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-顧客 AI を使用すると、ブランドは、Adobe Experience Platform プロファイル（リアルタイム顧客プロファイル）のプロファイル属性として使用できる、チャーンまたはコンバージョンの機械学習に基づくスコアを作成できます。
+顧客 AI を使用すると、企業は、Adobe Experience Platformプロファイル（リアルタイム顧客プロファイル）のプロファイル属性として使用できる、チャーンスコアまたはコンバージョン機械学習ベースのスコアを作成できます。
 
 その結果、これらは Journey Optimizer の条件（最適な決定を下すためのもの）、アクション、セグメントの作成において、他のプロファイル属性として使用できます。
 

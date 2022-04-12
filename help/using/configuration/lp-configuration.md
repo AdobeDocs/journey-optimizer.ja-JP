@@ -4,10 +4,10 @@ description: Journey Optimizer でランディングページを作成し、使�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 87%
+source-wordcount: '996'
+ht-degree: 82%
 
 ---
 
@@ -78,6 +78,11 @@ ht-degree: 87%
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
 
 ### 新しいサブドメインを設定 {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="一致する DNS レコードを生成"
+>abstract="新しいランディングページのサブドメインを設定するには、Journey Optimizerインターフェイスに表示されるAdobeネームサーバー情報をコピーし、ドメインホストソリューションに貼り付けて、一致する DNS レコードを生成する必要があります。 チェックが正常に完了すると、ランディングページプリセットの作成にサブドメインを使用する準備が整います。"
 
 新しいサブドメインを設定するには、次の手順に従います。
 

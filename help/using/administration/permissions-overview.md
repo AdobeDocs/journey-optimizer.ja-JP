@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 85%
+source-wordcount: '198'
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 [!DNL Journey Optimizer] を使用すると、さまざまなユーザーに割り当てる権限を定義して管理できます。権限とは、製品内の機能へのアクセスを許可または拒否する一連の権利と制約です。
 
-➡️ [Adobe Journey Optimizerのアクセス制御システムの詳細については、このビデオを参照してください](#video)
+➡️ [アクセス制御について詳しくは、Adobe Journey Optimizerのこのビデオを参照してください](#video)
 
 [!DNL Journey Optimizer] のユーザー管理は、次の 3 つの概念に基づいています。
 
@@ -33,6 +33,6 @@ ht-degree: 85%
 
 ## ハウツービデオ{#video}
 
-Adobe Journey Optimizerのアクセス制御システムと 8 つのカスタム製品プロファイルについて詳しく説明します。 製品プロファイルと権限を管理する方法と、ユーザーを追加および管理する方法について説明します。
+Adobe Journey Optimizerでのアクセス制御システムとカスタム製品プロファイルについて詳しく説明します。 製品プロファイルと権限を管理する方法と、ユーザーを追加および管理する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

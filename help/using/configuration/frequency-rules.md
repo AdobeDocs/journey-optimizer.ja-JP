@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 2%
+source-wordcount: '790'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 2%
 
 ルールは、 **[!UICONTROL 管理]** > **[!UICONTROL ルール]** メニュー すべてのルールが、変更日順に表示されます。
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>メッセージ頻度ルールにアクセス、作成、編集または削除するには、 [頻度ルールの管理](../administration/high-low-permissions.md#manage-frequency-rules) 権限。
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 フィルターアイコンを使用して、カテゴリ、ステータスまたはチャネル（あるいはその両方）に基づいてフィルターを適用します。 また、メッセージラベルを検索することもできます。
 
@@ -134,6 +136,10 @@ ht-degree: 2%
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 配信から除外されたプロファイルの数を [ライブビューとグローバルビュー](../reports/message-monitoring.md)、および [メールライブレポート](../reports/email-live-report.md)：頻度ルールが、配信から除外されたユーザーに考えられる理由として表示されます。
+
+>[!NOTE]
+>
+>複数のルールを同じチャネルに適用できますが、下限に達すると、プロファイルは次の配信から除外されます。
 
 ## 例：複数のルールを組み合わせる {#frequency-rule-example}
 

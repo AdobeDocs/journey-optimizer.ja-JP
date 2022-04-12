@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 98%
+source-wordcount: '1646'
+ht-degree: 85%
 
 ---
 
@@ -17,20 +17,28 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="サブドメインのデリゲートについて"
->abstract="Journey Optimizer を使用すると、サブドメインをアドビに完全にデリゲートできます。アドビは、DNS のあらゆる側面を制御し、維持することで、マネージドサービスとしてメッセージを配信できるようになります。"
+>title="サブドメインのデリゲーション"
+>abstract="Journey Optimizerでは、サブドメインをAdobeにデリゲートできます。 サブドメインをAdobeに完全にデリゲートするか、CNAME を使用してサブドメインを作成し、Adobe固有のレコードを指すことができます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="サブドメインの設定方法"
 
-ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。
-
-[!DNL Journey Optimizer] で使用するサブドメインをデリゲートすると、クライアントはメールマーケティングに関する業界標準の配信品質要件を満たすために必要な DNS インフラストラクチャの管理をアドビに依存しながら、自社で社内メール用ドメインの DNS を管理および制御できます。
+ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。詳細情報： [サブドメインのデリゲーション](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
 >デフォルトでは、[!DNL Journey Optimizer] ライセンス契約で、最大 10 個のサブドメインをデリゲートできます。この制限を引き上げる場合は、アドビの担当者にお問い合わせください。
 
+サブドメインを完全にデリゲートするか、CNAME を使用してサブドメイン固有のレコードを指すAdobeを作成できます。 両者の違いについて詳しくは、 [サブドメイン設定メソッド](about-subdomain-delegation.md#subdomain-delegation-methods).
+
 ## 完全なサブドメインのデリゲーション {#full-subdomain-delegation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns"
+>title="一致する DNS レコードを生成"
+>abstract="新しいサブドメインをAdobeに完全にデリゲートするには、Journey Optimizerインターフェイスに表示されるAdobeネームサーバー情報をコピーし、ドメインホストソリューションに貼り付けて、一致する DNS レコードを生成する必要があります。 チェックが正常に完了すると、サブドメインを使用してメッセージを配信する準備が整います。"
+
 [!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接アドビに、完全にデリゲートできます。アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理することで、メッセージをマネージドサービスとして提供できます。
+
+E メールマーケティング送信ドメインに対する業界標準の配信品質要件を満たすために必要な DNS インフラストラクチャを維持しながら、社内 E メールドメインの DNS の維持と制御を継続するAdobeを利用できます。
 
 サブドメインをアドビに完全にデリゲートするには、次の手順に従います。
 
@@ -87,6 +95,11 @@ ht-degree: 98%
 >サブドメインの並列実行は、現在 [!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
 
 ## CNAME サブドメインのデリゲーション {#cname-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns_cname"
+>title="一致する DNS および検証レコードを生成"
+>abstract="CNAME を使用してサブAdobeをデリゲートするには、ドメインのネームサーバー情報と、Journey Optimizerインターフェイスに表示される SSL CDN URL 検証レコードを、ホスティングプラットフォームにコピー&amp;ペーストする必要があります。 チェックが正常に完了すると、サブドメインを使用してメッセージを配信する準備が整います。"
 
 ドメイン固有の制限ポリシーがあり、アドビが DNS の一部を制御する必要がある場合は、自社で DNS 関連のすべてのアクティビティを実行するように選択できます。
 

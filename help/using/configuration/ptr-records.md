@@ -6,20 +6,25 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 89%
 
 ---
 
 # PTR レコード {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="サブドメインの PTR レコード"
+>abstract="ポインタレコード (PTR) は、IP アドレスにリンクされたドメイン名を提供する DNS レコードの一種で、送信者の IP アドレスを確認するために、受信メールサーバーが役立ちます。"
+
 ## PTR レコードについて {#about-ptr-records}
 
 ポインタレコード（PTR）は、IP アドレスと関連付けたドメイン名を提供する DNS（Domain Name System）レコードの一種です。
 
-PTR レコードを使用すると、受信メールサーバーは、送信メールサーバーの IP アドレスが接続先の名前に対応しているかどうかを識別することにより、送信メールサーバーの信頼性を確認できます。
+PTR レコードを使用すると、受信側のメールサーバは、送信側のメールサーバの IP アドレスが、サーバが接続する名前に対応しているかどうかを識別することで、メールサーバの信頼性を確認できます。
 
 ## サブドメインの PTR レコードへのアクセス {#access-ptr-records}
 
@@ -38,6 +43,10 @@ Adobe Journey Optimizer で[サブドメインがデリゲート](delegate-subdo
 ## PTR レコードの編集 {#edit-ptr-record}
 
 PTR レコードを編集して、IP アドレスに関連付けられたサブドメインを変更できます。
+
+>[!CAUTION]
+>
+>PTR レコードを編集する際は、細心の注意を払って作業を進めます。 不明な点がある場合は、配信品質のエキスパートにお問い合わせください。<!--why?-->
 
 >[!NOTE]
 >
