@@ -1,26 +1,27 @@
 ---
 title: ランディングページのライブレポート
-description: ランディングページのライブレポートのデータの使用方法を説明します
+description: ランディングページのライブレポートに表示されるデータの使用方法を学ぶ
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # ランディングページのライブレポート {#lp-report-live}
 
-ランディングページ **[!UICONTROL ライブレポート]** レポートには、過去 24 時間のランディングページの影響に関する詳細のみが表示されます。 選択した期間でランディングページデータを測定するには、 [ランディングページのグローバルレポート](lp-report-global.md).
+ランディングページの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;には、過去 24 時間にわたるランディングページの影響についての詳細が表示されます。選択した期間のランディングページデータを測定するには、[ランディングページのグローバルレポート](lp-report-global.md)を参照してください。
 
-レポートにアクセスするには、 **[!UICONTROL ライブレポート]** を選択します。
+レポートにアクセスするには、選択したランディングページの詳細メニューから「**[!UICONTROL ライブレポート]**」を選択します。
 
 ![](assets/landing_page_report_1.png)
 
-ランディングページ **[!UICONTROL ライブレポート]** は、配信の成功とエラーを示す様々なウィジェットに分割されます。 必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md)を参照してください。
+ランディングページの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、配信の成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md)を参照してください。
 
 ![](assets/landing_page_report_2.png)
 
