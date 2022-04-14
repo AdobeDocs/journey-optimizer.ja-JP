@@ -1,14 +1,15 @@
 ---
-title: 独自の E メールコンテンツをコード化する
-description: 独自の E メールコンテンツのコーディング方法を学ぶ
+title: 独自のメールコンテンツをコーディングする
+description: 独自のメールコンテンツのコーディング方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
