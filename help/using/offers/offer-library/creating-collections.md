@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 150ad7b36f23f183d7724bdb4b69fa55d30ea4f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
 >title="オファーコレクションについて"
->abstract="オファーコレクションを使用すると、選択したカテゴリに再グループ化することで、オファーを整理できます。"
+>abstract="オファーコレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。"
 
 コレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。例えば、スポーツ関連のオファーのみを含む「スポーツ」コレクションを作成できます。
 
