@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # AI モデルを作成 {#ai-rankings}
 
-[!DNL Journey Optimizer] を使用すると、 **AI モデル** ：ビジネス目標に基づいてオファーをランク付けします。
+[!DNL Journey Optimizer] を使用すると、ビジネス目標に基づいてオファーをランク付けする **AI モデル**&#x200B;を作成できます。
 
 >[!CAUTION]
 >
->AI モデルを作成、編集または削除するには、 **ランキング戦略を管理** 権限。 [詳細情報](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>AI モデルを作成、編集または削除するには、**ランキング戦略を管理**&#x200B;する権限が必要です。[詳細情報](../../administration/high-low-permissions.md#manage-ranking-strategies)
 >
 >AI モデルは、現在、一部のユーザーのみが早期アクセスで利用できます。
 
