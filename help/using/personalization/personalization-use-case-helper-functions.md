@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1111'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [ヘルパー関数の使用方法については、このビデオを参照してください。](#video)
+➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
 * メールメッセージ。 [詳細情報](../messages/get-started-content.md)
@@ -147,7 +147,7 @@ ht-degree: 97%
 
       **[!UICONTROL コンテキスト属性]**&#x200B;は、ジャーニーコンテキストがメッセージに渡された後でのみ使用できます。
 
-   1. 選択 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL イベント]** > ***[!UICONTROL event_name]***、次に、 **[!UICONTROL productListItems]** ノード。
+   1. **[!UICONTROL Journey Optimizer]**／**[!UICONTROL イベント]**／***[!UICONTROL event_name]*** を選択し、**[!UICONTROL productListItems]** ノードを展開します。
 
       この例では、*event_name* はイベントの名前を表します。
 
@@ -342,6 +342,6 @@ ht-degree: 97%
 
 ## ハウツービデオ{#video}
 
-ヘルパー関数の使用方法を学びます。
+ヘルパー関数の使用方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
