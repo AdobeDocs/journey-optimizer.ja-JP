@@ -1,26 +1,27 @@
 ---
 title: 購読レポート
-description: 購読サービスのデータの使用方法を学ぶ 配信登録グローバルレポート
+description: 購読サービスのデータの使用方法を学ぶ（購読グローバルレポートを使用）
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-# 購読のグローバルレポート {#subscription-report-global}
+# 購読グローバルレポート {#subscription-report-global}
 
-購読 **[!UICONTROL グローバルレポート]** 選択した期間の購読者のアクティビティに関する詳細が表示されます。 過去 24 時間の購読のみを測定するには、 [配信登録ライブレポート](subscription-report-live.md).
+購読&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;では、選択した期間の購読者のアクティビティに関する詳細が表示されます。過去 24 時間の購読のみを測定するには、[購読ライブレポート](subscription-report-live.md)を参照します。
 
-レポートにアクセスするには、 **[!UICONTROL グローバルレポート]** を選択します。
+レポートにアクセスするには、選択した購読リストの詳細メニューから「**[!UICONTROL グローバルレポート]**」を選択します。
 
 ![](assets/subscription_report_7.png)
 
-購読 **[!UICONTROL グローバルレポート]** は、購読と購読解除を示す様々なウィジェットに分割されます。 必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](global-report.md)を参照してください。
+購読&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、購読と購読解除の詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](global-report.md)を参照してください。
 
 ![](assets/subscription_report_1.png)
 
