@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 91%
  [!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;製品プロファイルに追加する必要があります。 詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 >[!NOTE]
->2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。 詳しくは、 [Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} の節をご覧ください。
+>2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。 詳しくは、 [Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} の節をご覧ください。
 
 ## アセットのアップロードと挿入{#add-asset}
 
-ファイルのインポート先 [!DNL Assets Essentials]を参照する場合、まず保存先のフォルダーを参照または作成する必要があります。 その後、メールコンテンツに挿入できます。
+ファイルを [!DNL Assets Essentials] にインポートするには、まず保存先のフォルダーを参照または作成する必要があります。その後、メールコンテンツに挿入できます。
 
 アセットのアップロード方法について詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
@@ -72,4 +72,4 @@ ht-degree: 91%
 
    ![](assets/media_library_13.png)
 
-メッセージを作成し、パーソナライズしたら、パブリッシュして実行できるようにします。 [詳細情報](../messages/publish-manage-message.md)
+メッセージを作成してパーソナライズしたら、公開することで実行が可能になります。[詳細情報](../messages/publish-manage-message.md)
