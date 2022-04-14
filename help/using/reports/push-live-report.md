@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 90%
 
 ![](assets/live_report_9.png)
 
-この **[!UICONTROL エラー理由]** および **[!UICONTROL 理由を除外]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+**[!UICONTROL エラーの理由]**&#x200B;および&#x200B;**[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
-この **[!UICONTROL 統計の送信 — 失敗]** ウィジェットを使用すると、発生したエラー数とバウンス数を確認できます。
+**[!UICONTROL 送信統計 - 失敗]**&#x200B;ウィジェットには、発生したエラーとバウンスの数が表示されます。
 
 ![](assets/live_report_4.png)
 
-**[!UICONTROL プラットフォーム別トラッキング]**、**[!UICONTROL プラットフォーム別送信]**、**[!UICONTROL プラットフォーム別分類]**&#x200B;のグラフとテーブルには、プッシュ通知の成功の詳細がオペレーティングシステムに応じて表示されます。
+**[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**&#x200B;のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
 
