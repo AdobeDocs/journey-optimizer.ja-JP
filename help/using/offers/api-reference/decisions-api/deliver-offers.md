@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 7d628ecd7c54455847c2cfb48bf59ff3f602c51f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -196,7 +196,7 @@ curl -X POST \
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | コンテンツ配信ネットワークまたはサービスエンドポイントからアセットを読み取るためのオプションの URL。この URL は、ユーザーエージェントからアセットに公開でアクセスするために使用されます。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 決定応答メッセージが作成された時間。これはエポック時間として表されます。 | `"ode:createDate": 1566497582038` |
 
-## チュートリアルビデオ {#video}
+## ハウツービデオ {#video}
 
 次のビデオは、「意思決定管理」の構成要素の理解をサポートするためのものです。
 
