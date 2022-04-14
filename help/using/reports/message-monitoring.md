@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,6 +98,6 @@ ht-degree: 96%
 
 ## ハウツービデオ {#video}
 
-ライブレポートおよびグローバルレポート、ジャーニーおよびメッセージ固有のレポートにアクセスして分析する方法、およびレポートダッシュボードを変更する方法の詳細を説明します。
+ライブレポートとグローバルレポートについて、ジャーニーとメッセージ固有のレポートにアクセスして分析する方法、およびレポートダッシュボードの変更方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)
