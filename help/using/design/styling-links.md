@@ -1,17 +1,17 @@
 ---
 title: リンクのスタイルの定義
-description: リンクのスタイルを定義する方法を説明します
+description: リンクのスタイルを定義する方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # リンクのスタイルの定義 {#styling-links}
 
