@@ -1,26 +1,27 @@
 ---
 title: ランディングページのグローバルレポート
-description: ランディングページのグローバルレポートのデータの使用方法を説明します
+description: ランディングページのグローバルレポートからデータを使用する方法を学ぶ
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # ランディングページのグローバルレポート {#lp-report-global}
 
-ランディングページ **[!UICONTROL グローバルレポート]** レポートには、選択した期間におけるランディングページの影響に関する詳細が表示されます。 過去 24 時間のランディングページデータのみを測定するには、 [ランディングページのライブレポート](lp-report-live.md).
+ランディングページ&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;のレポートには、選択した期間におけるランディングページの影響に関する詳細が表示されます。過去 24 時間のランディングページデータのみを測定するには、[ランディングページのライブレポート](lp-report-live.md)を参照してください。
 
-レポートにアクセスするには、 **[!UICONTROL グローバルレポート]** を選択します。
+レポートにアクセスするには、選択したランディングページの詳細メニューから「**[!UICONTROL グローバルレポート]**」を選択します。
 
 ![](assets/landing_page_report_7.png)
 
-ランディングページ **[!UICONTROL グローバルレポート]** は、配信の成功とエラーを示す様々なウィジェットに分割されます。 必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](global-report.md)を参照してください。
+ランディングページの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、配信の成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](global-report.md)を参照してください。
 
 ![](assets/landing_page_report_4.png)
 
