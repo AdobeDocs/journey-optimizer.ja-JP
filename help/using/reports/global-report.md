@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 
    ![](assets/report_4.png)
 
-* を **[!UICONTROL グローバルレポート]** から **[!UICONTROL ライブレポート]** 配信の場合は、「 **[!UICONTROL ライブ表示]** 」をクリックします。
+* 配信を&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;から&#x200B;**[!UICONTROL ライブレポート]**&#x200B;に切り替える場合は、タブスイッチャーで「**[!UICONTROL ライブ表示]**」をクリックします。
 
    ![](assets/report_5.png)
 
@@ -43,7 +43,7 @@ ht-degree: 88%
 
 1. 切り替えバーを使用して、レポートからテストイベントを除外する場合に選択します。テストイベントについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
-   なお、 **[!UICONTROL テストイベントの除外]** オプションは、ジャーニーレポートでのみ使用できます。
+   「**[!UICONTROL テストイベントの除外]**」オプションは、ジャーニーレポートでしか使用できません。
 
    ![](assets/report_modify_2.png)
 
