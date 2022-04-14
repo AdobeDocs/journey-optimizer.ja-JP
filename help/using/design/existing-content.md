@@ -1,21 +1,21 @@
 ---
-title: E メールコンテンツを読み込む
-description: E メールコンテンツのインポート方法を説明します
+title: メールコンテンツの読み込み
+description: メールコンテンツのインポート方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# E メールコンテンツを読み込む {#existing-content}
+# メールコンテンツの読み込み {#existing-content}
 
-Journey Optimizer では、既存の HTML コンテンツを読み込んメールを設計できます。このコンテンツは次のとおりです。
+Journey Optimizer では、既存の HTML コンテンツをインポートしてメールを設計できます。このコンテンツには次のようなものがあります。
 
 * スタイルシートが組み込まれた **HTML ファイル**、
 * HTML ファイル、スタイルシート（.css）、画像を含む **.zip フォルダー**。
