@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 ![](assets/lp_access-list-filter.png)
 
-このリストから、 [ランディングページライブレポート](../reports/lp-report-live.md) または [ランディングページのグローバルレポート](../reports/lp-report-global.md) 公開された項目の場合。
+公開された項目の場合、このリストから[ランディングページのライブレポート](../reports/lp-report-live.md)または[ランディングページのグローバルレポート](../reports/lp-report-global.md)にアクセスすることができます。
 
 ランディングページの削除、複製、非公開も行えます。
 

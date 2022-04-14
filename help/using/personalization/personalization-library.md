@@ -9,7 +9,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 [!DNL Journey Optimizer] は、管理者ユーザーが追加した、以前に保存済みのパーソナライゼーション式にアクセスできるライブラリを提供します。
 
-➡️ [保存した式の使用方法については、このビデオを参照してください。](#video-preview)
+➡️ [保存した式の使用方法については、このビデオを参照してください](#video-preview)
 
 保存済みの式にアクセスするには、左側のパネルの「**[!UICONTROL ライブラリ]**」ボタンをクリックします。 リストには、管理者ユーザーが保存したすべての式が表示されます（[ライブラリに式を保存](#save-expressions)を参照）。
 

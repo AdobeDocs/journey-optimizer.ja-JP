@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '2350'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -122,37 +122,37 @@ ht-degree: 81%
 
 ### List-Unsubscribe {#list-unsubscribe}
 
-指定日 [サブドメインの選択](#subdomains-and-ip-pools) リストから、 **[!UICONTROL List-Unsubscribe を有効にする]** オプションが表示されます。
+リストの[サブドメインの選択](#subdomains-and-ip-pools)から、「**[!UICONTROL List-Unsubscribe を有効にする]**」オプションが表示されます。
 
 ![](assets/preset-list-unsubscribe.png)
 
 このオプションは、デフォルトでは有効になっています。
 
-有効にしたままにすると、次のような配信停止リンクが E メールヘッダーに自動的に含まれます。
+有効にしたままにすると、次のような登録解除リンクが電子メールヘッダーに自動的に含まれます。
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-このオプションを無効にした場合、E メールヘッダーに配信停止リンクは表示されません。
+このオプションを無効にした場合、電子メールヘッダーに登録解除リンクは表示されません。
 
-配信停止リンクは、次の 2 つの要素で構成されます。
+登録解除リンクは、次の 2 つの要素で構成されます。
 
-* An **配信停止メールアドレス**：すべての登録解除要求の送信先。
+* すべての登録解除リクエストの送信先となる&#x200B;**登録解除メールアドレス**。
 
-   In [!DNL Journey Optimizer]の場合、配信停止の E メールアドレスがデフォルトです **[!UICONTROL 宛先（配信停止）]** メッセージプリセットに表示されるアドレス ( [選択したサブドメイン](#subdomains-and-ip-pools).
+   [!DNL Journey Optimizer] の場合、登録解除の電子メールアドレスは、[選択したサブドメイン](#subdomains-and-ip-pools)に基づいてメッセージプリセットに表示されるデフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
-* この **配信停止 URL**：購読解除後にユーザーがリダイレクトされるランディングページの URL。
+* 購読解除後にユーザーがリダイレクトされるランディングページの URL である&#x200B;**登録解除 URL**。
 
-   次の場合、 [ワンクリックオプトアウトリンク](../messages/consent.md#one-click-opt-out) このプリセットを使用して作成されたメッセージの場合、配信停止 URL は、ワンクリックオプトアウトリンク用に定義された URL になります。
+   [ワンクリックオプトアウトリンク](../messages/consent.md#one-click-opt-out)をこのプリセットを使用して作成されたメッセージに加える場合、登録解除 URL は、ワンクリックオプトアウトリンク用に定義された URL になります。
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
    >[!NOTE]
    >
-   >メッセージコンテンツに 1 回のクリックでのオプトアウトリンクを追加しない場合、ユーザーにランディングページは表示されません。
+   >メッセージコンテンツにワンクリックオプトアウトリンクを追加しない場合、ユーザーにランディングページは表示されません。
 
-メッセージにヘッダー配信停止リンクを追加する方法について詳しくは、 [この節](../messages/consent.md#unsubscribe-header).
+メッセージにヘッダー登録解除リンクを追加する方法について詳しくは、[この節](../messages/consent.md#unsubscribe-header)を参照してください。
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
@@ -180,11 +180,11 @@ UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フ�
 
 ### ヘッダーパラメーター{#email-header}
 
-内 **[!UICONTROL ヘッダーパラメーター]** 「 」セクションでは、そのプリセットを使用して送信されるメッセージのタイプに関連付けられた送信者の名前と E メールアドレスを入力します。
+「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、そのプリセットを使用して送信されるメッセージのタイプに関連付けられた送信者の名前とメールアドレスを入力します。
 
 >[!CAUTION]
 >
->電子メールアドレスは、現在選択されている [委任サブドメイン](about-subdomain-delegation.md).
+>これらのメールアドレスでは、現在選択されている[デリゲートされたサブドメイン](about-subdomain-delegation.md)を使用する必要があります。
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 

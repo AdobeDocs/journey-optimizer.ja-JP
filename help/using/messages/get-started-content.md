@@ -74,7 +74,7 @@ ht-degree: 97%
       プリセットには、ブランドに従ってメールやプッシュ通知を送信するために必要な、すべてのパラメーターが含まれます。[プリセットの詳細](../configuration/message-presets.md)。
    >[!CAUTION]
    >
-   >You must choose a valid message preset for the selected category and channel(s).
+   >選択したカテゴリとチャネルに対して有効なメッセージプリセットを選択する必要があります。
 
    メッセージインターフェイスの「**[!UICONTROL プロパティ]**」ボタンを使用すると、メッセージのタイトル、説明、プリセットにいつでもアクセスして変更できます。
 

@@ -41,7 +41,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. ********[](../configuration/message-presets.md#email-type)[](get-started-content.md#create-new-message)
+>マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これは、トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](get-started-content.md#create-new-message).
 
 ### 外部オプトアウト {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 #### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-****[](https://developer.adobe.com/)
+受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](https://developer.adobe.com/){target=&quot;_blank&quot;} をクリックし、対応するプロファイルの環境設定を更新します。
 
-This POST call is as follows:
+このPOST呼び出しは次のとおりです。
 
 エンドポイント：platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ This POST call is as follows:
 }
 ```
 
-[!DNL Journey Optimizer][](https://developer.adobe.com)
+[!DNL Journey Optimizer] がこれらのパラメーターを使用し、 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼び出し。
 
 #### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ This POST call is as follows:
 
    ![](assets/opt-out-lp-example.png)
 
-1. ****[](#opt-out-api)
+1. 受信者がフォームを送信した場合 ( ここでは、 **配信停止** 」ボタンをクリックすると、 [API 呼び出し](#opt-out-api).
 
 1. その後、オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
 

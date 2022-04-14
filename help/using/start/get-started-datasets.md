@@ -7,7 +7,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 Adobe Experience Platform にデータを追加することは、プロファイルを作成するための基盤となります。 そうすれば、[!DNL Adobe Journey Optimizer] でプロファイルを活用できるようになります。 まず、スキーマを定義し、ETL ツールを使用してデータを準備および標準化したあと、スキーマに基づいてデータセットを作成します。
 
-➡️ [データセットの作成と設定の方法については、このビデオを参照してください](#video-dataset)
+➡️ [このビデオでは、データセットの作成と設定の方法を説明します](#video-dataset)
 
 この **データセット** ワークスペース [!DNL Adobe Journey Optimizer] ユーザーインターフェイスを使用すると、データの調査とデータセットの作成が可能です。
 

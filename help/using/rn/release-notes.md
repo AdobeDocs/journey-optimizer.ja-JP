@@ -29,7 +29,7 @@ ht-degree: 98%
 
 **意思決定管理**
 
-* すべてのユーザーに対して、または 1 つの特定のプロファイルに対して、およびすべての配置に対して、または配置ごとに、オファーキャッピングを適用するかどうかを指定できるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
+* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [詳細情報](../offers/offer-library/add-constraints.md#capping)
 * Batch Decisioning API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対して Offer Decisioning 機能を使用できます。セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。[詳細情報](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **管理**

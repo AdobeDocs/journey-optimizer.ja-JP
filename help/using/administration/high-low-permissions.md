@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -281,7 +281,7 @@ ht-degree: 96%
 
 ### [!DNL Manage ranking strategies] 権限 {#manage-ranking-strategies}
 
-この **[!DNL Manage ranking strategies]** 高レベル権限を持つユーザーは、ランキング戦略の読み取り、作成、編集、削除をおこなうことができます。
+この「**[!DNL Manage ranking strategies]**」という高レベル権限を持つユーザーは、ランキング戦略の読み取り、作成、編集、削除を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 

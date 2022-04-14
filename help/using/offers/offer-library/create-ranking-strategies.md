@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -110,7 +110,7 @@ AI モデルを作成したら、決定内のプレースメントに割り当�
 
 >[!NOTE]
 >
->    スキーマの構築に関して詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja?lang=ja#understanding-schemas)で説明します。
+>    スキーマの構築に関して詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas)で説明します。
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 

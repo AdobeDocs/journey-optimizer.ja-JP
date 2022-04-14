@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="E メールの作成"
->abstract="電子メールのパラメーターを 3 つの簡単な手順で定義します。"
+>title="メールの作成"
+>abstract="メールのパラメーターを 3 つの簡単な手順で定義します。"
 
 [メッセージを作成](get-started-content.md)したら、「**[!UICONTROL E メール]**」タブを使用して、E メールチャネルの設定と内容を定義します。
 

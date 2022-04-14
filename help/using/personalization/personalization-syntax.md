@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 98%
 
 ---
 
@@ -40,11 +40,11 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 **true**、**false**、**null** および **undefined**&#x200B;という語は、パス式の最初の部分でのみ使用できます。
 
-Handlebars では、{{expression}} から返される値は **HTML エスケープ**&#x200B;されています。式に「`&`」が含まれている場合、返される HTML エスケープ出力は「`&amp;`」として生成されます。Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
+Handlebars では、 {{expression}} が **HTMLエスケープ**. 式に「`&`」が含まれている場合、返される HTML エスケープ出力は「`&amp;`」として生成されます。Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
 
 ## プロファイル
 
-この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}を参照してください。
 
 属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
 

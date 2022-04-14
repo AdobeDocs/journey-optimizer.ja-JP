@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-前述の尤度関数は、成功（コンバージョン）と失敗（コンバージョンなし）の二項分布でモデル化されます。q は[ベータ分布](https://ja.wikipedia.org/wiki/ベータ分布){target=&quot;_blank&quot;}の[確率変数](https://ja.wikipedia.org/wiki/確率変数){target=&quot;_blank&quot;}です。
+前述の尤度関数は、成功（コンバージョン）と失敗（コンバージョンなし）の二項分布でモデル化されます。q は[ベータ分布](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}の[確率変数](https://ja.wikipedia.org/wiki/確率変数){target=&quot;_blank&quot;}です。
 
 事前分布はベータ分布でモデル化され、事後分布は次の形式を取ります。
 

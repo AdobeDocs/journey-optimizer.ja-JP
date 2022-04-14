@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer でのメールのデザイン
-description: メールコンテンツのデザイン方法について学ぶ ゼロから
+description: メールコンテンツのデザイン方法について学ぶゼロから
 feature: Overview
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# 最初から開始 {#create-email-content}
+# ゼロから開始 {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -27,13 +27,13 @@ ht-degree: 92%
 
 E メールデザイナーを使用すると、メールの構造を簡単に定義できます。単純なドラッグ＆ドロップ操作で構造要素を追加したり移動したりして、メールの形を数秒でデザインすることができます。
 
-E メールデザイナーでメールコンテンツの作成を開始するには、次の手順に従います。
+電子メールデザイナーでメールコンテンツの作成を開始するには、次の手順に従います。
 
-1. E メールデザイナーのホームページで、 **[!UICONTROL ゼロからデザイン]** オプション。
+1. 電子メールデザイナーのホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
 
    ![](assets/email_designer.png)
 
-1. ドラッグ&amp;ドロップで E メールコンテンツのデザインを開始 **[!UICONTROL 構造コンポーネント]** ：電子メールのレイアウトを定義します。
+1. **[!UICONTROL 構造コンポーネント]**&#x200B;をドラッグ＆ドロップして電子メールコンテンツのデザインを開始し、電子メールのレイアウトを定義します。
 
    >[!NOTE]
    >

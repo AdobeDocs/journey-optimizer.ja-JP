@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 100%
 
@@ -315,7 +315,7 @@ ht-degree: 100%
         <td><a href="operators.md#greaterthanorequal">Greater or equals to</a></td><td>最初の値が 2 番目の値より大きいか、もしくは等しいかどうかを確認します。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Not equals to</a></td><td>指定された式が指定された値に等しくないかどうかを確認します。</td>
+        <td><a href="operators.md#notequal">等しくない</a></td><td>指定された式が指定された値に等しくないかどうかを確認します。</td>
     </tr>
     <tr>
         <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>最初の値が 2 番目の値より小さいか、もしくは等しいかどうかを確認します。</td>

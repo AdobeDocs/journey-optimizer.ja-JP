@@ -9,7 +9,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,6 +41,6 @@ ht-degree: 94%
 
 ## ハウツービデオ {#video}
 
-メッセージエディターで E メールコンテンツを作成する方法を説明します。
+メッセージエディターで電子メールコンテンツを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
