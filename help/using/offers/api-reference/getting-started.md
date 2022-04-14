@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。意思決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
 
 
-➡️ [決定管理のコンポーネントについて詳しくは、このビデオを参照してください。](#video)
+➡️ [意思決定管理のコンポーネントについて詳しくは、このビデオを参照してください](#video)
 
 ## 前提条件 {#prerequisites}
 
