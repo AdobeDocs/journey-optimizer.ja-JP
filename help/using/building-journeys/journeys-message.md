@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
 >title="メッセージアクティビティ"
->abstract="「メッセージ」アクティビティでは、プッシュメッセージまたは E メールメッセージを送信できます。 Journey Optimizerのメッセージ機能は組み込みです。 メッセージは、Journey Optimizerのメッセージメニューでデザインおよび公開されます。"
+>abstract="メッセージアクティビティでは、プッシュまたは メールメッセージを送信できます。Journey Optimizer のメッセージ機能はビルトインされています。メッセージは、Journey Optimizer のメッセージメニューでデザインおよび公開されます。"
 
 [!DNL Journey Optimizer] にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。
 [この節](../messages/get-started-content.md)を参照してください。次に、Journey Optimizer でデザインしたプッシュメッセージまたはメールメッセージをジャーニーに追加します。
