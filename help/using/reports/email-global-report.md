@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
 バウンスの詳細については、[抑制リスト](../reports/suppression-list.md)のページを参照してください。
 
-この **[!UICONTROL エラー理由]** および **[!UICONTROL 理由を除外]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+**[!UICONTROL エラーの理由]**&#x200B;および&#x200B;**[!UICONTROL 理由を除外]**&#x200B;グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
 ![](assets/global_report_6.png)
 
