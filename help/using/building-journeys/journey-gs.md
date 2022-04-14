@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1796'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="ジャーニーのプロパティ"
->abstract="管理者は、ジャーニー名の変更、説明の追加、再エントリの許可、開始日と終了日の選択、タイムアウトとエラーの時間を定義できます。"
+>abstract="管理者は、ジャーニー名の変更、説明の追加、再エントリの許可、開始日と終了日の選択、タイムアウトとエラーの時間の定義を行うことができます。"
 
 右上の鉛筆アイコンをクリックして、ジャーニーのプロパティにアクセスします。
 
