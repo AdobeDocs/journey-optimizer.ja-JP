@@ -1,15 +1,15 @@
 ---
-title: ジャーニーの概要
-description: ジャーニーの概要
+title: ジャーニーの基本を学ぶ
+description: Adobe Journey Optimizerで最初のジャーニーを構築するための主な手順
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 100%
+source-wordcount: '1803'
+ht-degree: 99%
 
 ---
 

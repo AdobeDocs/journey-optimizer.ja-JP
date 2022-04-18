@@ -1,15 +1,15 @@
 ---
 title: 意思決定管理の概要
-description: 意思決定管理の概要。アーキテクチャ、オファー、決定、および実践可能な一般的なユースケースについて学ぶ
+description: Adobe Journey Optimizerが、適切なオファーを適切なタイミングで顧客に送信する方法を説明します
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 93%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
 
->[!NOTE]
->
->**Offer Decisioning** アプリケーションサービスを利用する [ Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=&quot;_blank&quot;} ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
+offer decisioningは、マーケティングオファーの一元化されたライブラリと、Adobe Experience Platformが作成するリッチなリアルタイムプロファイルにルールと制約を適用する決定エンジンを使用して、適切なオファーを適切なタイミングで顧客に送信します。
 
 意思決定管理の機能は、2 つの主要コンポーネントで構成されています。
 
@@ -37,6 +35,11 @@ ht-degree: 100%
 * キャンペーンと顧客全体にオファーを表示する回数を制御します。
 
 ➡️ [意思決定管理について詳しくは、これらのビデオをご覧ください](#video)
+
+
+>[!NOTE]
+>
+>**Offer Decisioning** アプリケーションサービスを利用する [ Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=&quot;_blank&quot;} ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 
