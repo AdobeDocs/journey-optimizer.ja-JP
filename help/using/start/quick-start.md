@@ -1,12 +1,12 @@
 ---
 title: クイックスタート
-description: マーケター、管理者、またはデータエンジニアドは、Adobe Journey Optimizerの機能を詳細に学習し、詳細な手順に従って確認します
+description: マーケター、管理者、またはデータエンジニアがAdobe Journey Optimizerの機能を学び、詳細な手順に従って確認します
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 82%
