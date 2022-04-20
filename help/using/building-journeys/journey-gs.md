@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 99%
+source-wordcount: '1837'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 99%
    ![](assets/create-content-push.png)
 
 ## ジャーニーの作成 {#jo-build}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="ジャーニーの構築"
+>abstract="この画面には、以前に作成したジャーニーのリストが表示されます。 ジャーニーを開くか「ジャーニーを作成」をクリックし、様々なイベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。"
 
 このステップは、**ビジネスユーザー**&#x200B;が実行します。ここでジャーニーを作成します。様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを作成します。
 

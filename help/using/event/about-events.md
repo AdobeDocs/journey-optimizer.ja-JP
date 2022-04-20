@@ -6,19 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 100%
+source-wordcount: '822'
+ht-degree: 98%
 
 ---
 
 # イベントについて{#about-events}
 
 >[!CONTEXTUALHELP]
->id="jo_events"
+>id="ajo_journey_event_list"
 >title="イベントについて"
->abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）です。[!DNL Journey Optimizer] はジャーニーでこのイベントをリッスンして、次の最適なアクションを編成します。"
+>abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）です。これは、Journey Optimizerが次のベストアクションを調整するためにジャーニーでリッスンするものです。"
 
 イベントの設定を使用すると、[!DNL Journey Optimizer] がイベントとして受け取る情報を定義できます。複数のイベントを（ジャーニーのさまざまなステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。
 

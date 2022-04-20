@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 89%
@@ -17,9 +17,9 @@ ht-degree: 89%
 # アクションについて {#about_actions}
 
 >[!CONTEXTUALHELP]
->id="jo_actions"
+>id="ajo_journey_action_list"
 >title="アクションについて"
->abstract="ここでは、メッセージを送信するシステムへの接続を定義します。ここで定義したアクションは、ジャーニーの左側のパレットのアクションカテゴリで使用できるようになります。 "
+>abstract="ここでは、メッセージを送信するシステムへの接続を定義します。ここで定義したアクションは、ジャーニーの左側のパレットのアクションカテゴリで使用できるようになります。"
 
 アクションとは、プッシュ通知、メール、SMS、またはビジネスで使用するその他のデジタルエンゲージメントの手段など、パーソナライズされたリアルタイムのエクスペリエンスを顧客に提供するための接続です。
 
