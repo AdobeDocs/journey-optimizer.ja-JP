@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizerを使用して、顧客とのつながり、コンテキスト、パーソナライズされたエクスペリエンスを構築し、提供する
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 98%
+source-wordcount: '980'
+ht-degree: 96%
 
 ---
 
@@ -326,9 +326,10 @@ ht-degree: 98%
          + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
          + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
       + API を使用したオファー配信 {#offer-delivery}
-         + [意思決定 API](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
-         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
+         + [判定 API と Edge Decisioning API について](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [判定 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [Edge 判定 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + データ管理 {#data-management}
    + [スキーマ](using/start/get-started-schemas.md)
    + [データセット](using/start/get-started-datasets.md)

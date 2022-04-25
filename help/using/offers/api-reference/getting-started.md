@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '668'
+ht-degree: 92%
 
 ---
 
@@ -130,6 +130,10 @@ curl -X GET \
 ## 次の手順 {#next-steps}
 
 このドキュメントでは、コンテナ ID の取得など、[!DNL Offer Library] API を呼び出すために必要な前提条件に関する知識を説明しました。これで、この開発者ガイドに記載されているサンプル呼び出しに進んで、その手順に従うことができます。
+
+>[!NOTE]
+>
+> Adobe Journey Optimizerのアプリ内メッセージチャネルは、メッセージオブジェクトをoffer decisioningします。 組織がアプリ内メッセージチャネルを使用している場合、オブジェクトの API リストリクエストには、アプリ内メッセージサービスで作成されたオブジェクトが含まれ、offer decisioningの使用例では無視できます。 アプリ内メッセージ用に作成されたオブジェクトには、 `createdBy = “Mobile_Sheliak”`.
 
 ## ハウツービデオ {#video}
 

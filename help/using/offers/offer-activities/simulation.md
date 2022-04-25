@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->この機能は、[!DNL Decisions] API への単一のリクエストをシミュレートします。詳しくは、[決定 API を使用したオファーの配信](../api-reference/decisions-api/deliver-offers.md)を参照してください。
+>この機能は、[!DNL Decisioning] API への単一のリクエストをシミュレートします。詳細情報： [判定 API を使用したオファーの配信](../api-reference/offer-delivery-api/decisioning-api.md).
 
 この機能にアクセスするには、**[!UICONTROL 意思決定管理]**／**[!UICONTROL オファー]**&#x200B;メニューから「**[!UICONTROL シミュレーション]**」タブを選択します。
 
@@ -130,7 +130,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >デフォルトでは、重複排除フラグはシミュレーションに対してすべて有効になっています。つまり、決定エンジンで重複が許可されているため、複数の決定や配置にまたがって同じオファーを行うことができます。[!DNL Decisions] API リクエストのプロパティについて詳しくは、[この節](../api-reference/decisions-api/deliver-offers.md)を参照してください。
+   >デフォルトでは、重複排除フラグはシミュレーションに対してすべて有効になっています。つまり、決定エンジンで重複が許可されているため、複数の決定や配置にまたがって同じオファーを行うことができます。[!DNL Decisioning] API リクエストのプロパティについて詳しくは、[この節](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
 
 1. 「**[!UICONTROL 応答の形式]**」セクションで、コードビューにメタデータを含めるように選択できます。対応するオプションのチェックをオンにし、目的のメタデータを選択します。これらは、「**[!UICONTROL コードを表示]**」を選択すると、リクエストペイロードと応答ペイロードに表示されます。詳しくは、「[シミュレーション結果の表示](#simulation-results) 」セクションを参照してください。
 
