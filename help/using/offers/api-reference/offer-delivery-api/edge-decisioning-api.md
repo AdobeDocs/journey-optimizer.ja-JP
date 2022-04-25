@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: ecd7b3095bf825742cad44e20d68bb3c787bcb6b
+source-git-commit: 58ebc89bf2dfc3d1e23f22c1aa37144c572b74b9
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 15%
@@ -150,7 +150,8 @@ javascript
 ```
 javascript
     alloy("sendEvent", {
-        "decisionScopes": [
+        "decisionScopes":
+        [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
         ]
     }).then(function(result) {
@@ -187,7 +188,8 @@ json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
-        "items": [
+        "items": 
+        [
             {
                 "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
                 "etag": "1",
@@ -210,12 +212,14 @@ json
 ```
 json
 {
-    "propositions": [
+    "propositions": 
+    [
     {
         "renderAttempted": false,
         "id": "e15ecb09-993e-4b66-93d8-0a4c77e3d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
-        "items": [
+        "items": 
+        [
             {
                 "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
                 "etag": "1",
@@ -231,7 +235,7 @@ json
             }
         ]
     }
-]
+    ]
 }
 ```
 
