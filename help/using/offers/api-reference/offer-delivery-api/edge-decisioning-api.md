@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 15%
@@ -96,14 +96,15 @@ Web SDK の事前にビルドされたスタンドアロンOffer decisioningを�
 
 オプション 2 から次の JavaScript スニペットを含めます。にあらかじめ組み込まれているスタンドアロンバージョン [このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 内 `<head>` 」セクションに表示されるHTMLページの
 
-```javascript
+```
+javascript
     <script>
         !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
         []).push(o),n[o]=function(){var u=arguments;return new Promise(
         function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
         (window,["alloy"]);
     </script>
-    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script> 
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
 SDK 設定をセットアップするには、Adobeアカウント内から 2 つの ID（ edgeConfigId と orgId ）が必要です。 edgeConfigId は、前提条件で設定する必要があるデータストリーム ID と同じです。
@@ -112,7 +113,8 @@ edgeConfigID/datastream ID を探すには、「データ収集」に移動し�
 
 このページの手順に従って、JavaScript で SDK を設定します。 設定関数では、必ず edgeConfigId と orgId を使用します。 このドキュメントでは、設定に存在するオプションのパラメーターについても説明します。 最終的な設定は、次のようになります。
 
-```javascript
+```
+javascript
     alloy("configure", {
         "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
         "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
@@ -133,7 +135,8 @@ Web サイトの編集時に、設定および `sendEvent` 関数を使用して
 
 **例**:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": 
         [
@@ -144,7 +147,8 @@ Web サイトの編集時に、設定および `sendEvent` 関数を使用して
 
 応答の処理方法の例については、次を参照してください。
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
@@ -166,7 +170,8 @@ Web サイトの編集時に、設定および `sendEvent` 関数を使用して
 
 この例では、返される JSON は次のようになります。
 
-```json
+```
+json
 {
    "name":"ABC Test",
    "description":"This is a test offer", 
@@ -177,7 +182,8 @@ Web サイトの編集時に、設定および `sendEvent` 関数を使用して
 
 応答オブジェクトを処理し、必要なデータを解析します。 複数の決定範囲を 1 つで送信できるように `sendEvent` を呼び出すと、応答が少し異なるように見える場合があります。
 
-```json
+```
+json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
@@ -201,7 +207,8 @@ Web サイトの編集時に、設定および `sendEvent` 関数を使用して
 }
 ```
 
-```json
+```
+json
 {
     "propositions": [
     {
@@ -232,7 +239,8 @@ Web サイトの編集時に、設定および `sendEvent` 関数を使用して
 
 JS 変数を設定するには：
 
-```javascript
+```
+javascript
 const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
 
 let offerURL = offer['link'];
