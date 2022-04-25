@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
+source-git-commit: ecd7b3095bf825742cad44e20d68bb3c787bcb6b
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1049'
 ht-degree: 15%
 
 ---
@@ -44,11 +44,11 @@ SDK は、これらのライブラリを組み合わせることができず、�
 
 1. 組織が SDK を使用するための適切な権限を持っていることと、権限を正しく設定していることを確認します。
 
-<!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
+   <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-2. [データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja) をクリックします。
+1. [データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja) をクリックします。
 
-3. SDK のインストール. 複数の方法があり、 [SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). このページは、異なる実装方法で引き続き表示されます。
+1. SDK のインストール. 複数の方法があり、 [SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). このページは、異なる実装方法で引き続き表示されます。
 
 SDK を使用するには、 [スキーマ](../../../start/get-started-schemas.md) および [datastream](../../../start/get-started-datasets.md) 定義済み
 
@@ -66,21 +66,21 @@ SDK をOffer decisioning用に設定するには、次の 2 つの手順に従�
 
 1. [タグプロパティの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-2. [ 埋め込みコードの追加](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [ 埋め込みコードの追加](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-3. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Platform Web SDK 拡張機能をインストールして設定します。 詳しくは、 [拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Platform Web SDK 拡張機能をインストールして設定します。 詳しくは、 [拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![拡張機能の設定](../../assets/configure-sdk-extension.png)
 
-4. 必要な [データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). 少なくとも、Platform Web SDK Identity Map と Platform Web SDK XDM オブジェクトデータ要素を作成する必要があります。
+1. 必要な [データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). 少なくとも、Platform Web SDK Identity Map と Platform Web SDK XDM オブジェクトデータ要素を作成する必要があります。
 
    ![ID マップ](../../assets/sdk-identity-map.png)
 
    ![XDM オブジェクト](../../assets/xdm-object.png)
 
-5. を [ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. を [ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
    i.Platform Web SDK の「イベントの送信」アクションを追加し、関連する decisionScopes をそのアクションの設定に追加します。
 
@@ -88,7 +88,7 @@ SDK をOffer decisioning用に設定するには、次の 2 つの手順に従�
 
    ![オファーをリクエスト](../../assets/rule-request-offer.png)
 
-6. [作成して公開](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 設定した関連するすべてのルール、データ要素、拡張機能を含むライブラリ
+1. [作成して公開](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 設定した関連するすべてのルール、データ要素、拡張機能を含むライブラリ
 
 ## オプション 2 — 事前にビルドされたスタンドアロンバージョンを使用して手動で実装
 
@@ -127,7 +127,7 @@ javascript
     });
 ```
 
-デバッグで使用する Debugger Chrome 拡張機能をインストールします。 これは次の場所にあります。https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
+デバッグで使用する Debugger Chrome 拡張機能をインストールします。 これは次の場所にあります。 <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 次に、デバッガー内でアカウントにログインします。 次に、「ログ」に移動し、正しいワークスペースに接続されていることを確認します。 次に、オファーから base64 エンコードされたバージョンの決定範囲をコピーします。
 
