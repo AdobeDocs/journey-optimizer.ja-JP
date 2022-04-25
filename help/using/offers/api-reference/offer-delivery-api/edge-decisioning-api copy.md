@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 source-git-commit: b02981f2c0cf74c8dba657570157709bc422d94c
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 14%
 
 ---
 
@@ -88,7 +88,7 @@ SDK をOffer decisioning用に設定するには、次の 2 つの手順に従�
 
    ![オファーをリクエスト](../../assets/rule-request-offer.png)
 
-1. [作成して公開](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 設定したすべての関連するルール、データ要素、拡張機能を含むライブラリ。
+1. [作成して公開](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 設定した関連するすべてのルール、データ要素、拡張機能を含むライブラリ
 
 ## オプション 2 — 事前にビルドされたスタンドアロンバージョンを使用して手動で実装
 
@@ -96,6 +96,164 @@ Web SDK の事前にビルドされたスタンドアロンOffer decisioningを�
 
 オプション 2 から次の JavaScript スニペットを含めます。にあらかじめ組み込まれているスタンドアロンバージョン [このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 内 `<head>` 」セクションに表示されるHTMLページの
 
+```
+javascript
+    <script>
+        !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+        []).push(o),n[o]=function(){var u=arguments;return new Promise(
+        function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+        (window,["alloy"]);
+    </script>
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
+```
+
+SDK 設定をセットアップするには、Adobeアカウント内から 2 つの ID（ edgeConfigId と orgId ）が必要です。 edgeConfigId は、前提条件で設定する必要があるデータストリーム ID と同じです。
+
+edgeConfigID/datastream ID を探すには、「データ収集」に移動し、「データストリーム」を選択します。 orgId を確認するには、自分のプロファイルに移動します。
+
+このページの手順に従って、JavaScript で SDK を設定します。 設定関数では、必ず edgeConfigId と orgId を使用します。 このドキュメントでは、設定に存在するオプションのパラメーターについても説明します。 最終的な設定は、次のようになります。
+
+```
+javascript
+    alloy("configure", {
+        "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
+        "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
+        "debugEnabled": true,
+        "edgeDomain": "edge.adobedc.net",
+        "clickCollectionEnabled": true,
+        "idMigrationEnabled": true,
+        "thirdPartyCookiesEnabled": true,
+        "defaultConsent":"in"  
+    });
+```
+
+デバッグで使用する Debugger Chrome 拡張機能をインストールします。 これは次の場所にあります。 <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
+
+次に、デバッガー内でアカウントにログインします。 次に、「ログ」に移動し、正しいワークスペースに接続されていることを確認します。 次に、オファーから base64 エンコードされたバージョンの決定範囲をコピーします。
+
+Web サイトの編集時に、設定および `sendEvent` 関数を使用して、判定範囲をAdobeに送信します。
+
+**例**:
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes": 
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    });
+```
+
+応答の処理方法の例については、次を参照してください。
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes":
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    }).then(function(result) {
+        Object.entries(result).forEach(([key, value]) => {
+            console.log(key, value);
+        });
+    });
+```
+
+デバッガーを使用して、Edge ネットワークに正常に接続されたことを確認できます。
+
+>[!NOTE]
+>
+>ログの Edge への接続が表示されない場合は、広告ブロッカーを無効にする必要がある可能性があります。
+
+オファーの作成方法と使用されている書式に戻ります。 決定で満たされた条件に基づいて、オファーが、Adobe Experience Platform内で作成する際に指定した情報を含むユーザーに返されます。
+
+この例では、返される JSON は次のようになります。
+
+```
+json
+{
+   "name":"ABC Test",
+   "description":"This is a test offer", 
+   "link":"https://sampletesting.online/",
+   "image":"https://sample-demo-URL.png"
+}
+```
+
+応答オブジェクトを処理し、必要なデータを解析します。 複数の決定範囲を 1 つで送信できるように `sendEvent` を呼び出すと、応答が少し異なるように見える場合があります。
+
+```
+json
+    {
+        "id": "abrxgl843d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"ABC Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+]
+}
+```
+
+```
+json
+{
+    "propositions": 
+    [
+    {
+        "renderAttempted": false,
+        "id": "e15ecb09-993e-4b66-93d8-0a4c77e3d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"Claire Hubacek Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+    ]
+}
+```
+
+この例では、Web ページでオファー固有の詳細を処理して使用するために必要なパスは次のとおりです。 `result['decisions'][0]['items'][0]['data']['content']`
+
+JS 変数を設定するには：
+
+```
+javascript
+const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
+
+let offerURL = offer['link'];
+let offerDescription = offer['description'];
+let offerImageURL = offer['image'];
+
+document.getElementById("offerDescription").innerHTML = offerDescription;
+document.getElementById('offerImage').src = offerImageURL;
+```
 
 ## 制限事項
 
