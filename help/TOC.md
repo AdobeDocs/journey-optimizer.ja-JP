@@ -2,13 +2,13 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer ガイド
-user-guide-description: Journey Optimizerを使用して、顧客とのつながり、コンテキスト、パーソナライズされたエクスペリエンスを構築し、提供する
+user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 

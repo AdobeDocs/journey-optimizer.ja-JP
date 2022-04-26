@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1279'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これは、トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](get-started-content.md#create-new-message).
+>マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これは、トランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[メッセージプリセットレベル](../configuration/message-presets.md#email-type)で、または[メッセージの作成](get-started-content.md#create-new-message)時に定義されます。
 
 ### 外部オプトアウト {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 #### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe開発者](https://developer.adobe.com/){target=&quot;_blank&quot;} をクリックし、対応するプロファイルの環境設定を更新します。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} を使用して&#x200B;**購読 API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
-このPOST呼び出しは次のとおりです。
+この POST 呼び出しは次の通りです。
 
 エンドポイント：platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 }
 ```
 
-[!DNL Journey Optimizer] がこれらのパラメーターを使用し、 [Adobe開発者](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼び出し。
+[!DNL Journey Optimizer] はこれらのパラメーターを使用し、[Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
 
 #### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
    ![](assets/opt-out-lp-example.png)
 
-1. 受信者がフォームを送信した場合 ( ここでは、 **配信停止** 」ボタンをクリックすると、 [API 呼び出し](#opt-out-api).
+1. 受信者がフォームを送信した場合（ここではランディングページの「**購読解除**」ボタンをクリック）、[API 呼び出し](#opt-out-api)を通してプロファイルデータが更新されます。
 
 1. その後、オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
 

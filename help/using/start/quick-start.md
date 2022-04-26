@@ -1,6 +1,6 @@
 ---
 title: クイックスタート
-description: マーケター、管理者、またはデータエンジニアがAdobe Journey Optimizerの機能を学び、詳細な手順に従って確認します
+description: マーケター、管理者、またはデータエンジニアとして、ステップごとの手順に従って Adobe Journey Optimizer の機能を学習および確認します
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 82%
 
 ステップバイステップ方式のガイダンスを使用して Adobe Journey Optimizer の機能を習得し確認するには、プロファイルを選択します。
 
-* 私は **管理者**
+* **管理者**&#x200B;の場合
 
-   環境を準備し、アクセス権を付与し、設定を指定します. [詳細情報](path/administrator.md)
+   環境を準備し、アクセス権を付与し、設定を指定します。[詳細情報](path/administrator.md)
 
-* 私は **データエンジニア**
+* **データエンジニア**&#x200B;の場合
 
-   プロファイルをインポートし、オーディエンスを作成し、スキーマとデータセットを作成します. [詳細情報](path/data-engineer.md)
+   プロファイルをインポートし、オーディエンスを作成し、スキーマとデータセットを作成します。[詳細情報](path/data-engineer.md)
 
-* 私は **マーケター**
+* **マーケター**&#x200B;の場合
 
-   メッセージを設計し、オファーとアセットの追加し、カスタマージャーニーを構築します. [詳細情報](path/marketer.md)
+   メッセージを設計し、オファーとアセットを追加し、カスタマージャーニーを構築します。[詳細情報](path/marketer.md)

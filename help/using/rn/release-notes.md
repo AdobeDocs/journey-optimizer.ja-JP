@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2972'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 このページでは、[!DNL Journey Optimizer] のすべての新機能と改善点を一覧にしています。また、その他の変更点については、[最新のドキュメント更新](documentation-updates.md)ページを参照してください。
 
-[!DNL Adobe Journey Optimizer] がにネイティブで構築されている [!DNL Adobe Experience Platform] は、最新のイノベーションや改善点を引き継いでいます。 以下の変更点の詳細： [Adobe Experience Platformリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target=&quot;_blank&quot;}。
+[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 **意思決定管理**
 
-* すべてのユーザーに対して、または 1 つの特定のプロファイルに対して、およびすべての配置に対して、または配置ごとに、オファーキャッピングを適用するかどうかを指定できるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
+* すべてのユーザーまたは 1 つの特定のプロファイルに対して、およびすべてのプレースメントまたは各プレースメントに対して、オファーキャッピングを適用するかどうかを指定できるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 * Batch Decisioning API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対して Offer Decisioning 機能を使用できます。セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。[詳細情報](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
@@ -147,7 +147,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>ジャーニーで<strong>条件</strong>アクティビティを設定する際、プロファイルのキャップを定義できるようになりました。この新しい条件タイプを使用すると、ジャーニーパスの最大プロファイル数を設定できます。この制限に到達すると、エントリするプロファイルは代替パスを使用します。これにより、配信の量を増やすことができます（IP ランプアップ）。 例えば、1 日目に 1000 通のメッセージ、2 日目に 2000 通というように、ドメインでの実行を分割して配信を増やす場合があります。</p>
+<p>ジャーニーで<strong>条件</strong>アクティビティを設定する際、プロファイルのキャップを定義できるようになりました。この新しい条件タイプを使用すると、ジャーニーパスの最大プロファイル数を設定できます。この制限に到達すると、エントリするプロファイルは代替パスを使用します。これにより、配信の量を増やすことができます（IP ランプアップ）。例えば、1 日目に 1000 通のメッセージ、2 日目に 2000 通というように、ドメインでの実行を分割して配信を増やす場合があります。</p>
 <p>詳しくは、<a href="../building-journeys/condition-activity.md#profile_cap">詳細なドキュメント</a>および関連する<a href="../building-journeys/ramp-up-deliveries-uc.md">サンプルユースケース</a>を参照してください。</p>
 </td>
 </tr>
@@ -188,7 +188,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **パーソナライゼーション**
 
-* **お気に入りに追加** - パーソナライゼーションを使用する際の効率を向上させるために、お気に入りを保存するという概念を導入しました。お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。 [詳細情報](../personalization/personalize.md#fav)
+* **お気に入りに追加** - パーソナライゼーションを使用する際の効率を向上させるために、お気に入りを保存するという概念を導入しました。お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。[詳細情報](../personalization/personalize.md#fav)
 
 ## 2021年11月リリース {#november-2021-release}
 
@@ -272,7 +272,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **パーソナライゼーション**
 
-* **日付書式設定用の新しいヘルパー関数** - 日付文字列の表現方法を指定できるようになりました。 [詳細情報](../personalization/functions/dates.md#format-date)
+* **日付書式設定用の新しいヘルパー関数** - 日付文字列の表現方法を指定できるようになりました。[詳細情報](../personalization/functions/dates.md#format-date)
 
 
 **意思決定管理**
@@ -300,7 +300,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>レポートで新しい指標を使用できます。メールおよびプッシュメッセージの「ターゲット」と「除外」がライブレポートとグローバルレポートの両方に表示されます。 </br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があります。 ダッシュボードのカスタマイズについて詳しくは、<a href="../reports/live-report.md">詳細ドキュメント</a>を参照してください。</p>
+<p>レポートで新しい指標を使用できます。メールおよびプッシュメッセージの「ターゲット」と「除外」がライブレポートとグローバルレポートの両方に表示されます。</br> 最新の指標にアクセスするには、チャネルとレポートのタイプごとに異なるレポートダッシュボードをリセットする必要があります。ダッシュボードのカスタマイズについて詳しくは、<a href="../reports/live-report.md">詳細ドキュメント</a>を参照してください。</p>
 <p>メッセージ実行リストの新しい列に、メッセージ実行ごとのターゲットプロファイル数が表示されます。 </p>
 <p>詳しくは、<a href="../reports/message-monitoring.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -318,7 +318,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。 単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。 以前に作成したカスタムアクションは引き続き機能します。 </p>
+<p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。以前に作成したカスタムアクションは引き続き機能します。 </p>
 <p>コレクションについて詳しくは、<a href="../building-journeys/collections.md">詳細なドキュメント</a>を参照してください。 </p>
 <p>filter 関数と intersect 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、コレクションのフィルタリングと比較でさらに多くのことを行えるようになります。</p>
 <p><a href="../building-journeys/functions/functionfilter.md">filter</a> 関数と <a href="../building-journeys/functions/functionintersect.md">intersect</a> 関数のドキュメントを参照してください。</p>
@@ -331,14 +331,14 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **ジャーニー**
 
-* ステップイベントのプロビジョニング時に作成されたシステム生成スキーマおよびデータセットは、読み取り専用モードになり、重要なスキーマへの不用意な変更に対する保護が強化されました。 [詳細情報](../reports/sharing-overview.md)
-* 「**待機**」アクティビティのラベルとして、キャンバスに表示されるラベルがはっきりと表示されます。このラベルは、レポートおよびテストモードのログでも使用され、実行内容がはっきりとわかるようになっています。 [詳細情報](../building-journeys/about-journey-activities.md#best-practices)
-* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけることができます。オーケストレーションアクティビティがフィルタリングされなくなりました。 [詳細情報](../building-journeys/using-the-journey-designer.md)
-* ルールベースイベントまたはビジネスイベントでイベント ID 条件を定義する際に、「次を含む」演算子を文字列タイプのフィールドで使用できるようになりました。 [詳細情報](../event/about-creating.md)
+* ステップイベントのプロビジョニング時に作成されたシステム生成スキーマおよびデータセットは、読み取り専用モードになり、重要なスキーマへの不用意な変更に対する保護が強化されました。[詳細情報](../reports/sharing-overview.md)
+* 「**待機**」アクティビティのラベルとして、キャンバスに表示されるラベルがはっきりと表示されます。このラベルは、レポートおよびテストモードのログでも使用され、実行内容がはっきりとわかるようになっています。[詳細情報](../building-journeys/about-journey-activities.md#best-practices)
+* 検索を使用して&#x200B;**イベント**&#x200B;および&#x200B;**アクション**&#x200B;カテゴリの要素をフィルタリングすることで、イベントとアクションをすばやく見つけることができます。オーケストレーションアクティビティがフィルタリングされなくなりました。[詳細情報](../building-journeys/using-the-journey-designer.md)
+* ルールベースイベントまたはビジネスイベントでイベント ID 条件を定義する際に、「次を含む」演算子を文字列タイプのフィールドで使用できるようになりました。[詳細情報](../event/about-creating.md)
 
 **メール設定**
 
-* IP プールがメッセージプリセットに関連付けられている場合に IP プールを編集できるようになり、更新は非同期になります。 また、各 IP プールの更新ステータスを確認することもできます。 [詳細情報](../configuration/ip-pools.md#edit-ip-pool)
+* IP プールがメッセージプリセットに関連付けられている場合に IP プールを編集できるようになり、更新は非同期になります。また、各 IP プールの更新ステータスを確認することもできます。[詳細情報](../configuration/ip-pools.md#edit-ip-pool)
 
 
 ## 2021 年 8 月リリース {#august-2021-release}
@@ -389,7 +389,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。 Adobe Journey Optimizer で、メッセージコンテンツの URL にパーソナライゼーションを追加できるようになりました。 URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。</p>
+<p>パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。Adobe Journey Optimizer で、メッセージコンテンツの URL にパーソナライゼーションを追加できるようになりました。URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。</p>
 <p>詳しくは、<a href="../personalization/personalization-syntax.md#perso-urls">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -434,7 +434,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **ジャーニー**
 
-* **動的ヘッダー** - HTTP ヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションの HTTP 呼び出し（タイムスタンプやトラッキング ID など）を受け取る統合システムで使用できます。 [詳細情報](../action/about-custom-action-configuration.md#url-configuration)
+* **動的ヘッダー** - HTTP ヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションの HTTP 呼び出し（タイムスタンプやトラッキング ID など）を受け取る統合システムで使用できます。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 * **動的 URL パス** - カスタムアクションの動的 URL パスを設定できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 * 読み取りセグメントの全体的なスロットル率が、1 秒あたり17,000 メッセージから 20,000 メッセージに変更されました。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
@@ -459,7 +459,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **意思決定管理**
 
-* オファーの作成時に表示域を追加および設定する方法が更新され、ユーザーエクスペリエンスが向上しました。 特に、アセットライブラリは、表示域に対して画像タイプのコンテンツを定義する場合にのみ表示されるようになりました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#representations)
+* オファーの作成時に表示域を追加および設定する方法が更新され、ユーザーエクスペリエンスが向上しました。特に、アセットライブラリは、表示域に対して画像タイプのコンテンツを定義する場合にのみ表示されるようになりました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正点
 
@@ -500,7 +500,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>特定の送信セーフリストをサンドボックスレベルで定義して、テスト目的の安全な環境を構築できるようになりました。 ミスが発生する可能性のある非実稼働インスタンスでは、許可リストにより、不要なメッセージが顧客に送信されるリスクがなくなります。この機能は、抑制 API を利用することで有効になります。</p>
+<p>特定の送信セーフリストをサンドボックスレベルで定義して、テスト目的の安全な環境を構築できるようになりました。ミスが発生する可能性のある非実稼働インスタンスでは、許可リストにより、不要なメッセージが顧客に送信されるリスクがなくなります。この機能は、抑制 API を利用することで有効になります。</p>
 <p>詳しくは、 <a href="../reports/allow-list.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -513,16 +513,16 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * 同じサンドボックスで同時に実行されるすべての「セグメントを読み取り」アクティビティの全体的なスロットルレートは、1 秒あたり 17,000 メッセージに制限されています。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * 「**キャッシュ時間**」フィールドがデータソース設定ペインから削除されました。[詳細情報](../datasource/about-data-sources.md)
-* 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。 [詳細を読む](../configuration/external-systems.md#capping)
-* ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。 [詳細を読む](../building-journeys/journey-gs.md#change-properties)
-* ジャーニーリスト画面にジャーニータイプフィルターが追加されました。 [詳細を読む](../start/user-interface.md#filter-lists)
-* **[!UICONTROL スロットルレート]**&#x200B;パラメーターが「セグメントを読み取り」アクティビティに追加されました。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。[詳細を読む](../configuration/external-systems.md#capping)
+* ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。[詳細を読む](../building-journeys/journey-gs.md#change-properties)
+* ジャーニーリスト画面にジャーニータイプフィルターが追加されました。[詳細を読む](../start/user-interface.md#filter-lists)
+* **[!UICONTROL スロットルレート]**&#x200B;パラメーターが「セグメントを読み取り」アクティビティに追加されました。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **メッセージのプレビューとテスト**
 
 * ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../design/preview.md#preview-your-messages)
 * 配達確認のテストメールの数が 10 個に制限されるようになりました。
-* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。 [詳細情報](../design/preview.md#send-proofs)
+* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../design/preview.md#send-proofs)
 
 **パーソナライゼーション式エディター**
 
