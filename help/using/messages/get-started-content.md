@@ -1,6 +1,6 @@
 ---
-title: メッセージの基本を学ぶ
-description: Journey Optimizer
+title: メッセージを使い始める
+description: Journey Optimizer でパーソナライズされたメッセージを作成、テストおよび公開する方法を学びます。
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->ユーザーは、製品プロファイルに応じて、メッセージにアクセスしたり、メッセージを作成、編集および公開したりできます。 ユーザー権限の詳細については、 [この節](../administration/permissions.md)を参照してください。
+>ユーザーは、製品プロファイルに応じて、メッセージにアクセスしたり、メッセージを作成、編集および公開したりできます。ユーザー権限の詳細については、 [この節](../administration/permissions.md)を参照してください。
 
 ![](assets/messages-list.png)
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >アーカイブ済みメッセージは開けません。 最初にアーカイブを解除する必要があります。
+   >アーカイブ済みメッセージは開けません。最初にアーカイブを解除する必要があります。
 
 ## 新規メッセージの作成 {#create-new-message}
 

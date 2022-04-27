@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 72%
+ht-degree: 79%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これは、トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](get-started-content.md#create-new-message).
+   >マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これは、トランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[メッセージプリセットレベル](../configuration/message-presets.md#email-type)で、または[メッセージの作成](get-started-content.md#create-new-message)時に定義されます。
 
 * **[!UICONTROL テキストバージョンのHTMLが空です]**:メール本文のテキストバージョンは、HTMLコンテンツを表示できない場合に使用するので、必ず定義してください。 テキストバージョンの作成方法については、[この節](../design/text-version-email.md)を参照してください。
 

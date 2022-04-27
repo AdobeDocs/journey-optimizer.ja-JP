@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、 [オプトアウトリンク](consent.md#opt-out-management)：トランザクションメッセージには必要ありません。 メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [メッセージプリセットレベル](../configuration/message-presets.md#email-type) そして [メッセージの作成](get-started-content.md#create-new-message).
+>マーケティングタイプの電子メールメッセージには、 [オプトアウトリンク](consent.md#opt-out-management)：トランザクションメッセージには必要ありません。 メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[メッセージプリセットレベル](../configuration/message-presets.md#email-type)で、または[メッセージの作成](get-started-content.md#create-new-message)時に定義されます。
