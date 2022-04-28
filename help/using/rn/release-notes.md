@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3195'
+ht-degree: 93%
 
 ---
 
@@ -19,25 +19,6 @@ ht-degree: 0%
 
 
 ## 2022 年 4 月リリース {#april-2022-release}
-
-### 新機能
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Campaign Standardとの統合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Campaign Standardをご利用のお客様は、Journey Optimizerを使用して E メール、プッシュ通知、SMS を送信できるようになりました。 新しい組み込みのアクションを使用して、Campaign Standardトランザクションメッセージ機能をJourney Optimizerに活用します。</p>
-<p>詳しくは、 <a href="../action/acs-action.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 機能強化
 
@@ -62,6 +43,11 @@ ht-degree: 0%
 **ユーザーインターフェイス**
 
 * **Journey Optimizer UI のコンテキストヘルプ** - Journey Optimizerの複数のページにコンテキストヘルプリンクを追加しました。 利用可能な場合は、「i」アイコンをクリックして、現在の機能の簡単な説明を表示し、関連記事にアクセスします。
+
+**Adobe Campaign Standardとの統合**
+
+Adobe Campaign Standardをご利用のお客様は、Journey Optimizerを使用して E メール、プッシュ通知、SMS を送信できるようになりました。 新しい組み込みのアクションを使用して、Campaign Standardトランザクションメッセージ機能をJourney Optimizerに活用します。
+[詳細情報](../action/acs-action.md)
 
 <!--
 ### Fixes
