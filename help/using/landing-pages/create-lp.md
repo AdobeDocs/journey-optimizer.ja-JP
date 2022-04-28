@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 95%
 
    ![](assets/lp_open-designer.png)
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。 [詳細情報](../configuration/lp-configuration.md#lp-subdomains)
+1. ランディングページの URL を定義します。URL の最初の部分では、以前、 [プリセット](../configuration/lp-configuration.md#lp-create-preset) を選択しました。 [詳細情報](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ ht-degree: 95%
    >[!NOTE]
    >
    >公開済みの場合でも、この URL を Web ブラウザーにコピー&amp;ペーストするだけでランディングページにアクセスすることはできません。 代わりに、 [この節](#test-landing-page).
+
+1. ランディングページで、既に使用可能なフォームデータをプリロードする場合は、 **[!UICONTROL プロファイル情報を含むフォームフィールドの事前入力]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   このオプションを有効にした場合、プロファイルが既にオプトイン/オプトアウトしているか、既に購読リストに追加されている場合、その選択はランディングページの表示時に反映されます。
+
+   例えば、プロファイルが将来のイベントに関する通信の受信をオプトインした場合、次にそのプロファイルにランディングページが表示されたときに、対応するチェックボックスが既に選択されています。
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. ページの有効期限を定義できます。その場合、ページの有効期限が切れたらアクションを選択する必要があります。
 

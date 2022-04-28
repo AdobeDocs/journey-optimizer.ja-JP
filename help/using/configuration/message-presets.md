@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2350'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,6 +58,12 @@ ht-degree: 89%
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >選択した IP プールが以下の場合は、プリセットの作成を続行できません [版](ip-pools.md#edit-ip-pool) (**[!UICONTROL 処理中]** ステータス ) との間に存在し、選択したサブドメインに関連付けられていない。 [詳細情報](#subdomains-and-ip-pools)
+   >
+   >プリセットをドラフトとして保存し、IP プールに **[!UICONTROL 成功]** ステータス：プリセットの作成を再開します。
 
 1. メッセージプリセットが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
@@ -116,6 +122,10 @@ ht-degree: 89%
 
 1. プリセットに関連付ける IP プールを選択します。 [詳細](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+選択した IP プールが以下の場合は、プリセットの作成を続行できません [版](ip-pools.md#edit-ip-pool) (**[!UICONTROL 処理中]** ステータス ) との間に存在し、選択したサブドメインに関連付けられていない。 それ以外の場合は、IP プール/サブドメインの関連付けの最も古いバージョンが引き続き使用されます。 その場合は、プリセットをドラフトとして保存し、IP プールに **[!UICONTROL 成功]** ステータス。
+
 >[!NOTE]
 >
 >非実稼動環境の場合、Adobeは、標準のテストサブドメインを作成したり、共有送信 IP プールへのアクセスを許可したりしません。 以下が必要です。 [独自のサブドメインをデリゲート](delegate-subdomain.md) および組織に割り当てられたプールの IP を使用します。
@@ -155,28 +165,6 @@ ht-degree: 89%
 メッセージにヘッダー登録解除リンクを追加する方法について詳しくは、[この節](../messages/consent.md#unsubscribe-header)を参照してください。
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### URL トラッキング{#url-tracking}
-
-ユーザーがリンクをクリックした場所と理由を特定するために、「**[!UICONTROL URL トラッキング設定（web 分析）]**」セクションで URL トラッキング用の UTM パラメーターを追加できます。
-
-定義したパラメーターに基づいて、メッセージコンテンツに含まれる URL の末尾に UTM コードが適用されます。その後、Google Analytics などの web 分析ツールで結果を比較できるようになります。
-
-![](assets/preset-url-tracking.png)
-
-デフォルトでは、3 つの UTM パラメーターが使用可能です。最大 10 個のトラッキングパラメーターを追加できます。 UTM パラメーターを追加するには、「**[!UICONTROL 新しい UTM パラメーターの追加]**」ボタンを選択します。
-
-UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フィールドと「**[!UICONTROL 値]**」フィールドに目的の値を直接入力するか、次のオブジェクトに移動して事前定義済みの値のリストから選択します。
-
-* ジャーニー属性：ソース ID、ソース名、ソースバージョン ID
-* メッセージ属性：アクション ID、アクション名
-* Offer Decisioning 属性：オファー ID、オファー名
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->フォルダーは選択しないでください。必要なフォルダーを参照し、UTM 値として使用するプロファイル属性を選択します。
 
 ### ヘッダーパラメーター{#email-header}
 
@@ -223,6 +211,35 @@ UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フ�
 * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
 
 再試行に関する詳細情報： [この節](retries.md).
+
+### URL トラッキング{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="UTM パラメーター"
+>abstract="このセクションを使用して、E メールコンテンツに存在するキャンペーン URL にトラッキングパラメーターを自動的に追加します。"
+
+ユーザーがリンクをクリックした場所と理由を特定するために、オプションで URL 追跡用の UTM パラメーターを  **[!UICONTROL URL トラッキングパラメーター]** 」セクションに入力します。
+
+定義したパラメーターに基づいて、メッセージコンテンツに含まれる URL の末尾に UTM コードが適用されます。その後、Google Analytics などの web 分析ツールで結果を比較できるようになります。
+
+![](assets/preset-url-tracking.png)
+
+デフォルトでは、3 つの UTM パラメーターが使用可能です。最大 10 個のトラッキングパラメーターを追加できます。 UTM パラメーターを追加するには、 **[!UICONTROL 新しいパラメーターを追加]** 」ボタンをクリックします。
+
+UTM パラメーターを設定するには、「**[!UICONTROL 名前]**」フィールドと「**[!UICONTROL 値]**」フィールドに目的の値を直接入力するか、次のオブジェクトに移動して事前定義済みの値のリストから選択します。
+
+* ジャーニー属性： **ソース ID**, **ソース名**, **ソースバージョン ID**
+* メッセージ属性： **アクション ID**, **アクション名**
+* Offer decisioning属性： **オファー ID**, **オファー名**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>フォルダーは選択しないでください。必要なフォルダーを参照し、UTM 値として使用するプロファイル属性を選択します。
+
+テキスト値の入力と、事前定義された値の選択を組み合わせることができます。 各 **[!UICONTROL 値]** フィールドには、合計 255 文字まで入力できます。
 
 ## プッシュ設定 {#configure-push-settings}
 

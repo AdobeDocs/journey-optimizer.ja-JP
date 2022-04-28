@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 98%
       + [プリヘッダーの追加](using/design/preheader.md)
    + アセットの追加と管理 {#manage-asset}
       + [Assets Essentials の操作](using/design/assets-essentials.md)
+      + [Adobe Stockの操作](using/design/stock.md)
    + [パーソナライズされたオファーの追加](using/design/deliver-personalized-offers.md)
    + [リンクの追加とメッセージのトラッキング](using/design/message-tracking.md)
    + [プレビューと配達確認](using/design/preview.md)
@@ -117,6 +118,7 @@ ht-degree: 98%
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
       + [メッセージ](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
+      + [Adobe Campaign Standard actions](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルの更新](using/building-journeys/update-profiles.md)
@@ -325,7 +327,7 @@ ht-degree: 98%
          + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
          + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
          + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
-      + API を使用したオファー配信 {#offer-delivery}
+      + API を使用したオファー配信 {#offer-delivery-api}
          + [判定 API と Edge Decisioning API について](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
          + [判定 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge 判定 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -375,6 +377,7 @@ ht-degree: 98%
       + アクション設定 {#action-journeys}
          + [アクションについて](using/action/action.md)
          + [アクションの設定](using/action/about-custom-action-configuration.md)
+         + [Adobe Campaign Standardとの統合](using/action/acs-action.md)
          + [Adobe Campaign v7/v8 との統合](using/action/acc-action.md)
          + [同意](using/action/consent.md)
    + [ソース](using/start/get-started-sources.md)

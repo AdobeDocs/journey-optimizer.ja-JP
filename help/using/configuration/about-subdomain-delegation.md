@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,6 +49,12 @@ ht-degree: 100%
 * **Adobe への完全なサブドメインデリゲーション**（推奨）：サブドメインはアドビに完全にデリゲートされます。アドビは、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理できます。[完全なサブドメインデリゲーションの詳細情報](delegate-subdomain.md#full-subdomain-delegation)
 
 * **CNAME の使用**：サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定します。この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。[CNAME サブドメインのデリゲーションの詳細情報](delegate-subdomain.md#cname-subdomain-delegation)
+
+>[!CAUTION]
+>
+>完全なサブドメインデリゲーションは、推奨される方法です。
+>
+>組織のポリシーで完全なサブドメインデリゲーション方法が制限されている場合は、CNAME の方法をお勧めします。 このアプローチでは、DNS レコードを自社で維持および管理する必要があります。アドビは、CNAME メソッドを使用して設定されたサブドメインの DNS の変更、維持または管理をサポートできなくなります。
 
 次の表に、これらの方法の仕組みと、黙示的な作業レベルの概要を示します。
 

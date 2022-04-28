@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 ## 時間条件{#time_condition}
 
-これにより、時間帯や曜日に応じて異なるアクションを実行できます。例えば、日中に SMS メッセージを送信し、平日の夜にメールを送信するように指定できます。
+これにより、時間帯や曜日に応じて異なるアクションを実行できます。例えば、昼間にプッシュ通知を、平日の夜に E メールを送信するように指定できます。
 
 >[!NOTE]
 >

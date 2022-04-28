@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="サブドメインのデリゲーション"
->abstract="Journey Optimizerでは、サブドメインをAdobeにデリゲートできます。 サブドメインをAdobeに完全にデリゲートするか、CNAME を使用してサブドメインを作成し、Adobe固有のレコードを指すことができます。"
+>abstract="Journey Optimizerでは、サブドメインをAdobeにデリゲートできます。 サブドメインを完全にAdobeにデリゲートできます。これは、推奨される方法です。 また、CNAME を使用してAdobe固有のレコードを指すサブドメインを作成することもできますが、この方法では、DNS レコードを独自に管理および管理する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="サブドメインの設定方法"
 
 ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。詳細情報： [サブドメインのデリゲーション](about-subdomain-delegation.md)

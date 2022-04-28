@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,11 +93,15 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 ## PTR レコードの更新の詳細を確認 {#check-ptr-record-update}
 
-リスト内の PTR レコード名の横に「**[!UICONTROL 処理中]**」アイコンが表示されます。
+PTR レコードの編集を確認すると、 **[!UICONTROL 処理中]** リスト内の PTR レコードの名前の横にアイコンが表示されます。
 
 ![](assets/ptr-record-updating.png)
 
-PTR レコードの更新の詳細を確認するには、「**[!UICONTROL 更新中]**」アイコンまたは「**[!UICONTROL 最近の更新]**」アイコンをクリックします。
+>[!NOTE]
+>
+>この [更新処理](#processing) 数時間かかる場合があります。
+
+PTR レコードの更新の詳細を確認するには、PTR レコードの横にあるアイコンをクリックします。 様々なアイコンに関連付けられたステータスについて詳しくは、 [この節](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -115,7 +119,7 @@ PTR レコードの更新には、次のステータスがあります。
 
 ### 処理中 {#processing}
 
-IP アドレスに関連付ける新しいサブドメインが有効であることを検証するために、いくつかの配信品質チェックが実行されます。 <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+IP アドレスに関連付ける新しいサブドメインが有効であることを検証するために、いくつかの配信品質チェックが実行されます。 これには数時間かかる場合があります。
 
 >[!NOTE]
 >

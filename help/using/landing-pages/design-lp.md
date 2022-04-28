@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 100%
 1. このチェックボックスでユーザーのオプトイン／オプトアウトを行うかどうかを定義します（お知らせの受信に同意する、または以降の連絡を望まない）。
 
    ![](assets/lp_designer-form-update.png)
+
+   次の 3 つのオプションの中から選択します。
+
+   * **[!UICONTROL オプトイン（オンにした場合）]**:ユーザーが同意するには、チェックボックスをオンにする必要があります（オプトイン）。
+   * **[!UICONTROL オプトアウト（オンにした場合）]**:ユーザーが同意を取り除くには、このチェックボックスをオンにする必要があります（オプトアウト）。
+   * **[!UICONTROL オンにした場合はオプトインし、オフにした場合はオプトアウトします]**:このオプションを使用すると、オプトイン/オプトアウト用の 1 つのチェックボックスを挿入できます。 ユーザーは、同意（オプトイン）するにはチェックボックスをオンにし、同意（オプトアウト）を削除するにはオフにする必要があります。
 
 1. 次の 3 つのオプションの間で、更新する項目を選択します。
 

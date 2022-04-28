@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 ## キャンバスでのパスの使用 {#paths}
 
 一部のアクティビティ（**[!UICONTROL 条件]**、**[!UICONTROL アクション]**&#x200B;アクティビティ）では、エラーやタイムアウトが発生した場合に備えて代替アクションを定義できます。アクティビティ設定ペインで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスを選択します。
-アクティビティの後に別のパスが追加されます。タイムアウト時間は、ジャーニーのプロパティで定義します（管理者ユーザーは[このページ](../building-journeys/journey-gs.md#change-properties)を参照）。例えば、メールの送信に時間がかかりすぎたり、エラーが発生した場合に、SMS を送信することを決定できます。
+アクティビティの後に別のパスが追加されます。タイムアウト時間は、ジャーニーのプロパティで定義します（管理者ユーザーは[このページ](../building-journeys/journey-gs.md#change-properties)を参照）。例えば、E メールの送信に時間がかかりすぎる場合やエラーが発生した場合は、プッシュ通知を送信することにします。
 
 ![](assets/journey42.png)
 

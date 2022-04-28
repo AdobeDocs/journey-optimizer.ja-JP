@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2972'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,59 @@ ht-degree: 100%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
+
+## 2022 年 4 月リリース {#april-2022-release}
+
+### 新機能
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Campaign Standardとの統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign Standardをご利用のお客様は、Journey Optimizerを使用して E メール、プッシュ通知、SMS を送信できるようになりました。 新しい組み込みのアクションを使用して、Campaign Standardトランザクションメッセージ機能をJourney Optimizerに活用します。</p>
+<p>詳しくは、 <a href="../action/acs-action.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 機能強化
+
+**ランディングページ**
+
+* **オプトイン/オプトアウトチェックボックスの新しいオプション。** ：サブスクリプションランディングページでのオプトイン/オプトアウト用の単一のチェックボックスを挿入できるようになりました。 ユーザーは、同意（オプトイン）するにはチェックボックスをオンにし、同意（オプトアウト）を削除するにはオフにする必要があります。 [詳細情報](../landing-pages/design-lp.md#define-lp-specific-content)
+
+* **ランディングページのフィールドの事前入力** ：ユーザーがランディングページのフィールドにプロファイル情報を事前入力できるようになりました。 [詳細情報](../landing-pages/create-lp.md#configure-primary-page)
+
+**意思決定管理**
+
+* **Edge での判定 API** - Edge Decisioning API は、Offer decisioningで管理されるパーソナライズされたオファーを配信およびレンダリングできます。 オファーとその他の関連オブジェクトは、Offer decisioningユーザーインターフェイス (UI) または API を使用して作成できます。 [詳細情報](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+
+**管理**
+
+* **PTR 送信時間** - PTR 編集が有効になるまでの期間は、数時間になりました。 [詳細情報](../configuration/ptr-records.md#processing)
+
+**電子メールデザイン**
+
+* **新しい電子メールテンプレート** は、Journey Optimizerで e メールコンテンツをデザインするために使用できるようになりました。
+
+**ユーザーインターフェイス**
+
+* **Journey Optimizer UI のコンテキストヘルプ** - Journey Optimizerの複数のページにコンテキストヘルプリンクを追加しました。 利用可能な場合は、「i」アイコンをクリックして、現在の機能の簡単な説明を表示し、関連記事にアクセスします。
+
+<!--
+### Fixes
+
+* Fixed an issue which caused tracking reports not to be available as the `JourneyActionId` was not properly populated. PLATIR-19854, CJM-26006
+* Fixed an error on business events which could block the journey publication. CJM-25931
+* Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
+-->
 
 ## 2022年3月リリース {#march-2022-release}
 

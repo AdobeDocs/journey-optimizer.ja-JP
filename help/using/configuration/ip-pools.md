@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ IP プールを作成するには、次の手順に従います。
    >
    >インスタンスでプロビジョニングされた IP アドレスがすべてリストに表示されます。
 
-IP プールが作成され、リストに表示されるようになりました。 選択してプロパティにアクセスし、関連するメッセージプリセットを表示することができます。 メッセージプリセットと IP プールを関連付ける方法の詳細は、[この節](message-presets.md))を参照してください。
+IP プールが作成され、リストに表示されるようになりました。 選択してプロパティにアクセスし、関連するメッセージプリセットを表示することができます。 メッセージプリセットと IP プールを関連付ける方法について詳しくは、 [この節](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ IP プールを編集するには :
 
 * IP プールがメッセージプリセットで選択されて&#x200B;**いない**&#x200B;場合、更新は直ちに行われます（**[!UICONTROL 成功]**&#x200B;ステータス）。
 * IP プールがメッセージプリセットで選択されて&#x200B;**いる**&#x200B;場合、更新には最大 7 ～ 10 営業日かかることがあります（**[!UICONTROL 処理中]**&#x200B;ステータス）。
+
+>[!NOTE]
+>
+>条件 [メッセージプリセットの作成](message-presets.md#create-message-preset)エディション中の IP プール (**[!UICONTROL 処理中]** ステータス ) に関連付けられ、そのプリセット用に選択されたサブドメインに関連付けられていない場合は、プリセットの作成を続行できません。 [詳細情報](message-presets.md#subdomains-and-ip-pools)
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。
 

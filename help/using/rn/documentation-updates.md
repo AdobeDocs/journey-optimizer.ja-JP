@@ -2,16 +2,26 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2022 年 4 月 {#april-2022}
+
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 4 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* この **反応** イベントドキュメントページが更新されました。 [詳細情報](../building-journeys/reaction-events.md)
+* 決定管理機能に関するビデオが更新され、Journey Optimizerのユーザーインターフェイスが反映されました。 [詳細情報](../offers/get-started/starting-offer-decisioning.md)
+* この **データセットの基本を学ぶ** の節が改善され、データセットへのアクセス方法と作成方法の詳細が追加されました。 [詳細情報](../start/get-started-datasets.md)
+* ヘルプガイドおよび製品リリースノートへのリンクが **Adobe Journey Optimizer Documentation** ホームページ。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
+* この **メッセージプリセットの作成** セクションで、選択した IP プールがエディション中 (**[!UICONTROL 処理中]** ステータス ) との間に存在し、選択したサブドメインに関連付けられていない。 [詳細情報](../configuration/message-presets.md#subdomains-and-ip-pools)
+* メッセージプリセット **URL トラッキング** の節が更新され、ユーザーインターフェイスの小さな変更が反映されました。 [詳細情報](../configuration/message-presets.md#url-tracking)
 
 ## 2022年3月 {#march-2022}
 
