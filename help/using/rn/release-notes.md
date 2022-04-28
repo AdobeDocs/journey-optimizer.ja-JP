@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
+source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
 workflow-type: tm+mt
 source-wordcount: '3195'
 ht-degree: 93%
@@ -46,8 +46,7 @@ ht-degree: 93%
 
 **Adobe Campaign Standardとの統合**
 
-Adobe Campaign Standardをご利用のお客様は、Journey Optimizerを使用して E メール、プッシュ通知、SMS を送信できるようになりました。 新しい組み込みのアクションを使用して、Campaign Standardトランザクションメッセージ機能をJourney Optimizerに活用します。
-[詳細情報](../action/acs-action.md)
+Adobe Campaign Standardをご利用のお客様は、Journey Optimizerを使用して E メール、プッシュ通知、SMS を送信できるようになりました。 新しい組み込みのアクションを使用して、Campaign Standardトランザクションメッセージ機能をJourney Optimizerに活用します。  [詳細情報](../action/acs-action.md)
 
 <!--
 ### Fixes
