@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # ジャーニーでのセグメントの使用 {#segment-trigger-activity}
 
-## セグメントの読み取りアクティビティについて {#about-segment-trigger-actvitiy}
+## 「セグメントを読み取り」アクティビティの追加 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
