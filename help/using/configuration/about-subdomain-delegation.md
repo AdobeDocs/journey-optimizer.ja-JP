@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 96%
 
 ---
 
@@ -52,9 +52,10 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->完全なサブドメインデリゲーションは、推奨される方法です。
+>* 推奨される方法は、完全なサブドメインデリゲーションです。
 >
->組織のポリシーで完全なサブドメインデリゲーション方法が制限されている場合は、CNAME の方法をお勧めします。 このアプローチでは、DNS レコードを自社で維持および管理する必要があります。アドビは、CNAME メソッドを使用して設定されたサブドメインの DNS の変更、維持または管理をサポートできなくなります。
+>* 組織のポリシーでサブドメインのデリゲーション方法全体が制限されている場合は、CNAME メソッドをお勧めします。 このアプローチでは、DNS レコードを自社で維持および管理する必要があります。アドビは、CNAME メソッドを使用して設定されたサブドメインの DNS の変更、維持または管理をサポートできなくなります。
+
 
 次の表に、これらの方法の仕組みと、黙示的な作業レベルの概要を示します。
 
