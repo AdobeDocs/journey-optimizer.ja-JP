@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 タイムゾーンは、ジャーニーの[プロパティ](../building-journeys/journey-gs.md#change-properties)で定義できます。
 
-「プロパティ」にアクセスするには、画面の右上にある鉛筆アイコンをクリックします。
+ジャーニーのプロパティにアクセスするには、画面の右上にある鉛筆アイコンをクリックします。
 
 このタイムゾーンは、次のような時間要素を含むジャーニーのすべてのアクティビティで使用されます。
 
