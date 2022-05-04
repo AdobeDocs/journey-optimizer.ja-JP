@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 1. E メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
    * E メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、 [Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。メールコンテンツの設計方法や、ビルトインテンプレートについては、[この節](create-email-content.md)を参照してください。
+
+   * **既存のメールからコピー** サンプルテンプレートのリストから。
 
    * E メールデザイナーで直接 **Raw HTMLをコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](code-content.md)を参照してください。
 

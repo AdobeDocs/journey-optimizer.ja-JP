@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
@@ -20,6 +20,10 @@ E メールデザイナーインターフェイスで要素を選択し、サイ
 1. コンテンツの要素を選択します。
 1. サイドパネルで、**[!UICONTROL インラインのスタイル]**&#x200B;設定を探します。
 
+   ![](assets/styles_1.png)
+
 1. 既存の属性の値を変更するか、「**+**」ボタンを使用して新しい属性を追加します。CSS に準拠する任意の属性と値を追加できます。
+
+   ![](assets/styles_2.png)
 
 すると、選択した要素にスタイルが適用されます。子要素に特定のスタイル設定属性が定義されていない場合、親要素のスタイル設定が継承されます。
