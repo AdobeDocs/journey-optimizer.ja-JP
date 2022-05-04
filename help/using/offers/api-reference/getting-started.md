@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '640'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 管理者は、類似したプリンシパル、リソースおよびアクセス権限をプロファイルにグループ化できます。これにより、管理上の負担が軽減され、[Adobe Admin Console](https://adminconsole.adobe.com/) でサポートされます。プロファイルを作成し、ユーザーを割り当てるには、組織内の Adobe Experience Platform の製品管理者である必要があります。1 回限りの手順で特定の権限に一致する製品プロファイルを作成し、その後、それらのユーザーにプロファイルを追加するだけで十分です。プロファイルは、権限が付与されたグループとして機能し、そのグループ内のすべての実際のユーザーまたは技術ユーザーは、権限を継承します。
 
-管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} を通じて、ユーザーの権限を付与または取り消すことができます。 詳しくは、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} を通じて、ユーザーの権限を付与または取り消すことができます。詳しくは、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ### ユーザーと統合機能からアクセス可能なコンテナのリスト {#list-containers-accessible-to-users-and-integrations}
 

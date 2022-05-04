@@ -34,7 +34,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 >[!CAUTION]
 >
->プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関わるペルソナに応じて、権限のすべてを単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Journey Optimizer** 管理者の間で権限を共有する必要が生じる場合があります。**タグ**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja#platform-launch-permissions){target=&quot;_blank&quot;}を参照してください。
+>プッシュ設定は、エキスパートユーザーが実行する必要があります。実装モデルとこの実装に関わるペルソナに応じて、権限のすべてを単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Journey Optimizer** 管理者の間で権限を共有する必要が生じる場合があります。**タグ**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja#platform-launch-permissions){target=&quot;_blank&quot;}を参照してください。
 
 <!--ou need to your have access to perform following roles :
 
@@ -103,7 +103,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### アプリの設定 {#configure-app}
 
-技術的な設定は、アプリ開発者とビジネス管理者の緊密な共同作業を伴います。 [!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、[!DNL Adobe Experience Platform Data Collection] で設定を定義し、モバイルアプリを Adobe Experience Platform Mobile SDK と統合する必要があります。
+技術的な設定は、アプリ開発者とビジネス管理者の緊密な共同作業を伴います。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、[!DNL Adobe Experience Platform Data Collection] で設定を定義し、モバイルアプリを Adobe Experience Platform Mobile SDK と統合する必要があります。
 
 以下のリンクに記載されている実装手順に従ってください。
 
@@ -121,7 +121,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
 正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ認証情報を [!DNL Adobe Experience Platform Data Collection] に追加する必要があります。
 
-モバイルアプリのプッシュ資格情報の登録は、自分の代わりに Adobe がプッシュ通知を送信することを承認するために必要です。 以下に説明する手順を参照してください。
+モバイルアプリのプッシュ資格情報の登録は、自分の代わりに Adobe がプッシュ通知を送信することを承認するために必要です。以下に説明する手順を参照してください。
 
 1. [!DNL Adobe Experience Platform Data Collection] から、左側のパネルの「**[!UICONTROL アプリのサーフェス]**」タブを選択します。
 
@@ -137,15 +137,15 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
       ![](assets/add-app-config-ios.png)
 
-      1. 「**[!UICONTROL アプリ ID（iOS バンドル ID）]**」フィールドにモバイルアプリの&#x200B;**バンドル ID** を入力します。 アプリのバンドル ID は、**XCode** のメインターゲットの「**一般**」タブにあります。
+      1. 「**[!UICONTROL アプリ ID（iOS バンドル ID）]**」フィールドにモバイルアプリの&#x200B;**バンドル ID** を入力します。アプリのバンドル ID は、**XCode** のメインターゲットの「**一般**」タブにあります。
 
       1. 「**[!UICONTROL プッシュ認証情報]**」ボタンをオンにして、認証情報を追加します。
 
       1. .p8 Apple Push Notification Authentication Key ファイルをドラッグ＆ドロップします。このキーは、**証明書**、**識別子**、**プロファイル**&#x200B;ページから取得できます。
 
-      1. **キー ID** を指定します。 これは、p8 認証キーの作成中に割り当てられた10 文字の文字列です。 これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
+      1. **キー ID** を指定します。これは、p8 認証キーの作成中に割り当てられた10 文字の文字列です。これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
 
-      1. **チーム ID** を指定します。 これは、「メンバーシップ」タブにある文字列値です。
+      1. **チーム ID** を指定します。これは、「メンバーシップ」タブにある文字列値です。
    * **Android の場合**
 
       ![](assets/add-app-config-android.png)
@@ -259,7 +259,7 @@ Adobe Experience Platform と [!DNL Adobe Experience Platform Data Collection] �
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-このジャーニーを機能させるには、XDM スキーマを作成する必要があります。 詳しくは、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#schemas-and-data-ingestion){target=&quot;_blank&quot;}を参照してください。
+このジャーニーを機能させるには、XDM スキーマを作成する必要があります。詳しくは、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#schemas-and-data-ingestion){target=&quot;_blank&quot;}を参照してください。
 
 1. 左のメニューで、「**[!UICONTROL スキーマ]**」を参照します。
 
@@ -269,17 +269,17 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 「**[!UICONTROL 新しいフィールドグループを作成]**」を選択します。
 
-1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。 フィールドグループの作成方法について詳しくは、[XDM システムのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループの作成方法について詳しくは、[XDM システムのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 
    ![](assets/test_push_4.png)
 
-1. 左側で、スキーマを選択します。 右側のペインで、スキーマの名前と説明を入力します。 **[!UICONTROL プロファイル]**&#x200B;に対してこのスキーマを有効にします。
+1. 左側で、スキーマを選択します。右側のペインで、スキーマの名前と説明を入力します。**[!UICONTROL プロファイル]**&#x200B;に対してこのスキーマを有効にします。
 
    ![](assets/test_push_4b.png)
 
 
-1. 左側でフィールドグループを選択し、「+」アイコンをクリックして新しいフィールドを作成します。 「**[!UICONTROL フィールドグループのプロパティ]**」の右側で、「**[!UICONTROL フィールド名]**」、「**[!UICONTROL 表示名]**」を入力し、「**[!UICONTROL タイプ]**」で「**[!UICONTROL 文字列]**」を選択します。
+1. 左側でフィールドグループを選択し、「+」アイコンをクリックして新しいフィールドを作成します。「**[!UICONTROL フィールドグループのプロパティ]**」の右側で、「**[!UICONTROL フィールド名]**」、「**[!UICONTROL 表示名]**」を入力し、「**[!UICONTROL タイプ]**」で「**[!UICONTROL 文字列]**」を選択します。
 
    ![](assets/test_push_5.png)
 
@@ -289,7 +289,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 次に、イベントを設定する必要があります。
 
-1. ホームページの左側のメニューの「管理」で、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL イベント]**」セクションの「**[!UICONTROL 管理]**」をクリックして、新しいイベントを作成します。
+1. ホームページの左側のメニューの「管理」で、「**[!UICONTROL 設定]**」を選択します。「**[!UICONTROL イベント]**」セクションの「**[!UICONTROL 管理]**」をクリックして、新しいイベントを作成します。
 
 1. 「**[!UICONTROL イベントを作成]**」をクリックすると、画面の右側にイベント設定ペインが開きます。
 
@@ -308,7 +308,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 「**[!UICONTROL イベント ID 条件]**」フィールドで「**[!UICONTROL 編集]**」をクリックします。 以前に追加したフィールドをドラッグ＆ドロップして、ジャーニーをトリガーするイベントを識別するためにシステムで使用される条件を定義します。
+1. 「**[!UICONTROL イベント ID 条件]**」フィールドで「**[!UICONTROL 編集]**」をクリックします。以前に追加したフィールドをドラッグ＆ドロップして、ジャーニーをトリガーするイベントを識別するためにシステムで使用される条件を定義します。
 
    ![](assets/test_push_8.png)
 
@@ -334,7 +334,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 「**[!UICONTROL アクション]**」ドロップダウンから、**[!UICONTROL メッセージ]**&#x200B;アクティビティをジャーニーにドラッグ＆ドロップします。
 
-1. 前に作成したメッセージを選択します。 プッシュ通知の作成方法の詳細については、この[ページ](../messages/get-started-content.md)を参照してください。
+1. 前に作成したメッセージを選択します。プッシュ通知の作成方法の詳細については、この[ページ](../messages/get-started-content.md)を参照してください。
 
 1. ジャーニーに&#x200B;**[!UICONTROL 終了]**&#x200B;アクティビティをドラッグ＆ドロップします。
 

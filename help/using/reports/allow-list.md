@@ -9,7 +9,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ You can update the allowed list before or after enabling the feature.-->
 
    ![](assets/allow-list-edit.png)
 
-1. 選択 **[!UICONTROL 「Enable」許可リスト]**.
+1. 「**[!UICONTROL 許可リストを有効化]**」を選択します。
 
    ![](assets/allow-list-enable.png)
 
@@ -75,7 +75,7 @@ API 呼び出しについて詳しくは、 [Adobe Experience Platform API](http
 
 ## 許可リストロジック {#logic}
 
-許可リストが&#x200B;**空**&#x200B;の場合、許可リストロジックは適用されません。 つまり、プロファイルが[抑制リスト](suppression-list.md)に含まれていない限り、任意のプロファイルにメールを送信できるということです。
+許可リストが&#x200B;**空**&#x200B;の場合、許可リストロジックは適用されません。つまり、プロファイルが[抑制リスト](suppression-list.md)に含まれていない限り、任意のプロファイルにメールを送信できるということです。
 
 許可リストが&#x200B;**空でない**&#x200B;場合、許可リストロジックが適用されます。
 
@@ -85,7 +85,7 @@ API 呼び出しについて詳しくは、 [Adobe Experience Platform API](http
 
 >[!NOTE]
 >
->「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](../building-journeys/read-segment.md)アクティビティと[メッセージ](../building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
+>「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](../building-journeys/read-segment.md)アクティビティと[メッセージ](../building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
 >詳しくは、[ライブレポート](../reports/live-report.md)と[グローバルレポート](../reports/global-report.md)を参照してください。
 

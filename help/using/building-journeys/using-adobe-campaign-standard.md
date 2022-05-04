@@ -1,18 +1,19 @@
 ---
-title: Adobe Campaign Standard actions
+title: Adobe Campaign Standard のアクション
 description: Adobe Campaign Standardのアクションの詳細
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 9%
 
 ---
 
-# Adobe Campaign Standard actions {#using_campaign_action}
+# Adobe Campaign Standard のアクション {#using_campaign_action}
 
 Adobe Campaign Standardがある場合、次の組み込みのアクションアクティビティを使用できます。 **[!UICONTROL 電子メール]**, **[!UICONTROL プッシュ]** および **[!UICONTROL SMS]**.
 

@@ -9,7 +9,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 
 ## カスタム待機{#custom}
 
-このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。この[ページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式について詳しくは、次を参照してください [ページ](expression/data-types.md).
+このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。この[ページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式の詳細については、[このページ](expression/data-types.md)を参照してください。
 
 >[!NOTE]
 >

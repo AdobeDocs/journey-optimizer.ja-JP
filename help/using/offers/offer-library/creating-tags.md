@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
 >title="タグ"
->abstract="1 つまたは複数のタグをオファーに関連付けて、オファーライブラリを整理し、オファーをより簡単に見つけられるようにします。 タグは「コンポーネント」メニューから作成します。"
+>abstract="1 つまたは複数のタグをオファーに関連付けて、オファーライブラリを整理し、オファーをより簡単に見つけられるようにします。タグは、コンポーネントメニューから作成します。"
 
 タグをオファーに関連付けると、タグを整理しやすくなります。例えば、ブラックフライデーオファーに「ブラックフライデー」タグのラベルを付けることができます。オファーライブラリの検索機能を使用して、そのタグを持つすべてのオファーを簡単に見つけることができるようになります。
 

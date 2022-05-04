@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '993'
+ht-degree: 100%
 
 ---
 
@@ -41,19 +41,19 @@ ht-degree: 0%
    + [メールデザインの基本を学ぶ](using/design/design-emails.md)
    + [ゼロからの開始 ](using/design/create-email-content.md)
    + [メールコンテンツのインポート](using/design/existing-content.md)
-   + [独自コンテンツのコーディング](using/design/code-content.md)
+   + [コンテンツを独自にコーディング](using/design/code-content.md)
    + コンテンツデザイン {#design-content}
       + [コンテンツコンポーネントの使用](using/design/content-components.md)
       + [背景の設定](using/design/backgrounds.md)
       + [垂直方向の整列とパディングの調整](using/design/adjusting-vertical-alignment-and-padding.md)
       + [リンクのスタイルの定義](using/design/styling-links.md)
-      + [インラインスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
+      + [インラインのスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
    + メールの設定 {#design-email}
       + [テキストバージョンの生成](using/design/text-version-email.md)
       + [プリヘッダーの追加](using/design/preheader.md)
    + アセットの追加と管理 {#manage-asset}
       + [Assets Essentials の操作](using/design/assets-essentials.md)
-      + [Adobe Stockの操作](using/design/stock.md)
+      + [Adobe Stock との連携](using/design/stock.md)
    + [パーソナライズされたオファーの追加](using/design/deliver-personalized-offers.md)
    + [リンクの追加とメッセージのトラッキング](using/design/message-tracking.md)
    + [プレビューと配達確認](using/design/preview.md)
@@ -70,7 +70,7 @@ ht-degree: 0%
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
       + 式エディターの操作 {#expression-editor}
          + [式エディターについて](using/personalization/personalization-build-expressions.md)
-         + [属性をお気に入りに追加](using/personalization/personalization-favorites.md)
+         + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
          + [保存済み式の使用](using/personalization/personalization-library.md)
          + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
       + ヘルパー関数{#functions}
@@ -118,7 +118,7 @@ ht-degree: 0%
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
       + [メッセージ](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
-      + [Adobe Campaign Standard actions](using/building-journeys/using-adobe-campaign-standard.md)
+      + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルの更新](using/building-journeys/update-profiles.md)
@@ -257,9 +257,9 @@ ht-degree: 0%
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
       + [ランキング式の作成](using/offers/offer-library/create-ranking-formulas.md)
-      + AI ランキングモデル {#create-ai-ranking-models} を作成
+      + AI ランキングモデルの作成 {#create-ai-ranking-models}
          + [AI モデルについて](using/offers/offer-library/ai-ranking.md)
-         + [AI モデルを作成](using/offers/offer-library/create-ranking-strategies.md)
+         + [AI モデルの作成](using/offers/offer-library/create-ranking-strategies.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + オファーの設定 {#configure-offers}
          + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
@@ -328,9 +328,9 @@ ht-degree: 0%
          + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
          + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
       + API を使用したオファー配信 {#offer-delivery-api}
-         + [判定 API と Edge Decisioning API について](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
-         + [判定 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [Edge 判定 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [Decisioning API と Edge Decisioning API について](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + データ管理 {#data-management}
    + [スキーマ](using/start/get-started-schemas.md)
@@ -377,8 +377,8 @@ ht-degree: 0%
       + アクション設定 {#action-journeys}
          + [アクションについて](using/action/action.md)
          + [アクションの設定](using/action/about-custom-action-configuration.md)
-         + [Adobe Campaign Standardとの統合](using/action/acs-action.md)
-         + [Adobe Campaign v7/v8 との統合](using/action/acc-action.md)
+         + [Adobe Campaign Standard との統合](using/action/acs-action.md)
+         + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
          + [同意](using/action/consent.md)
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}

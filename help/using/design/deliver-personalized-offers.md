@@ -42,7 +42,7 @@ ht-degree: 100%
 
    コンテンツコンポーネントの使用方法については、[この節](content-components.md)を参照してください。
 
-1. 右側のパレットに「**[!UICONTROL オファーの決定]**」タブが表示されます。 「**[!UICONTROL オファーの決定を選択]**」をクリックします。
+1. 右側のパレットに「**[!UICONTROL オファーの決定]**」タブが表示されます。「**[!UICONTROL オファーの決定を選択]**」をクリックします。
 
    ![](assets/deliver-offer-tab.png)
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 1. ID 名前空間のリストで、**[!UICONTROL メール]**&#x200B;を選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-1. **[!UICONTROL ID 値]**&#x200B;フィールドに、テストプロファイルを識別する値を入力します。 この例では、テストプロファイルのメールアドレスを入力します。
+1. **[!UICONTROL ID 値]**&#x200B;フィールドに、テストプロファイルを識別する値を入力します。この例では、テストプロファイルのメールアドレスを入力します。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 

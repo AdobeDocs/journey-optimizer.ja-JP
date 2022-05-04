@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->抑制リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>抑制リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 
 ![](assets/suppression-list-access.png)
 
@@ -37,7 +37,7 @@ ht-degree: 92%
 
 ![](assets/suppression-list-filters.png)
 
-**[!UICONTROL 抑制カテゴリ]**、**[!UICONTROL アドレスタイプ]**、**[!UICONTROL 理由]**&#x200B;のいずれかでフィルタリングできます。 条件ごとに目的のオプションを選択します。 選択したら、リストの上部に表示されている各フィルターまたはすべてのフィルターをクリアできます。
+**[!UICONTROL 抑制カテゴリ]**、**[!UICONTROL アドレスタイプ]**、**[!UICONTROL 理由]**&#x200B;のいずれかでフィルタリングできます。条件ごとに目的のオプションを選択します。選択したら、リストの上部に表示されている各フィルターまたはすべてのフィルターをクリアできます。
 
 ![](assets/suppression-list-filtering-example.png)
 
@@ -49,13 +49,13 @@ ht-degree: 92%
 
 ![](assets/suppression-list-delete.png)
 
-抑制リストからメールアドレスまたはドメインを削除すると、このアドレスまたはドメインへの配信が再び開始されることになります。 その結果、配信品質と IP の評価に重大な影響を及ぼす可能性があり、最終的には IP アドレスや送信ドメインがブロックされる可能性があります。 抑制リストの維持の重要性について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
+抑制リストからメールアドレスまたはドメインを削除すると、このアドレスまたはドメインへの配信が再び開始されることになります。その結果、配信品質と IP の評価に重大な影響を及ぼす可能性があり、最終的には IP アドレスや送信ドメインがブロックされる可能性があります。抑制リストの維持の重要性について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
 
 >[!NOTE]
 >
 >メールアドレスやドメインの削除を検討する際は、細心の注意を払う必要があります。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
 
-**[!UICONTROL 抑制リスト]**&#x200B;ビューから、抑制ルールを編集することもできます。 [ 詳細情報 ](retries.md)
+**[!UICONTROL 抑制リスト]**&#x200B;ビューから、抑制ルールを編集することもできます。[ 詳細情報 ](retries.md)
 
 抑制リストを CSV ファイルとしてエクスポートするには、「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。
 
@@ -71,7 +71,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >エラーがスパムの苦情の結果である場合は、それも&#x200B;**ハード**&#x200B;カテゴリに分類されます。 苦情を出した受信者のメールアドレスは、直ちに抑制リストに送信されます。
+   >エラーがスパムの苦情の結果である場合は、それも&#x200B;**ハード**&#x200B;カテゴリに分類されます。苦情を出した受信者のメールアドレスは、直ちに抑制リストに送信されます。
 
 * **ソフト**：ソフトエラーは、エラーカウンターが制限しきい値に達すると、アドレスを抑制リストに送信します。[再試行の詳細情報](retries.md)
 
@@ -99,14 +99,14 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->購読を解除したユーザーは [!DNL Journey Optimizer] からのメールを受信しないので、そのメールアドレスを抑制リストに送信することはできません。 選択は、Experience Platform レベルで処理されます。[オプトアウトの詳細情報](../messages/consent.md)
+>購読を解除したユーザーは [!DNL Journey Optimizer] からのメールを受信しないので、そのメールアドレスを抑制リストに送信することはできません。選択は、Experience Platform レベルで処理されます。[オプトアウトの詳細情報](../messages/consent.md)
 
 ## アドレスとドメインの手動追加 {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="抑制リストにメール/ドメインを追加"
->abstract="Journey Optimizer抑制リストを手動で設定して、送信から特定の電子メールアドレスやドメインを除外することができます。"
+>title="抑制リストにメール／ドメインを追加"
+>abstract="Journey Optimizer 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することができます。"
 
 メッセージをメールアドレスに配信できない場合、このアドレスは、定義済みの抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
 
@@ -123,7 +123,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
 >title="抑制リストに項目を 1 つ追加"
->abstract="抑制リストを入力するには、E メールアドレスやドメインを 1 つずつ追加します。"
+>abstract="抑制リストに入力するには、電子メールアドレスやドメインを 1 つずつ追加します。"
 
 1. 「**[!UICONTROL 1 つずつ]**」オプションを選択します。
 
@@ -146,7 +146,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
 >title="CSV をアップロードして抑制リストに項目を追加"
->abstract="抑制リストを入力するには、除外する電子メールアドレス/ドメインが入力された CSV ファイルをアップロードします。"
+>abstract="抑制リストに入力するには、除外する電子メールアドレス／ドメインが入力された CSV ファイルをアップロードします。"
 
 1. 「**[!UICONTROL CSV をアップロード]**」オプションを選択します。
 

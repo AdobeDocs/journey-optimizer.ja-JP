@@ -15,23 +15,23 @@ ht-degree: 100%
 
 # パーソナライゼーションのユースケース：買い物かごの放棄メール {#personalization-use-case-helper-functions}
 
-この例では、メールメッセージの本文をパーソナライズします。 このメッセージは、ショッピングカートに商品が残っているが購入を完了していない顧客をターゲットにします。
+この例では、メールメッセージの本文をパーソナライズします。このメッセージは、ショッピングカートに商品が残っているが購入を完了していない顧客をターゲットにします。
 
 次のタイプのヘルパー関数を使用します。
 
 * `upperCase` 文字列関数：顧客の名を大文字で挿入します。[詳細情報](functions/string.md#upper)。
-* `each` ヘルパー：カートに入っている商品をリストします。 [詳細情報](functions/helpers.md#each)。
-* `if`ヘルパー：関連製品がカートに入っている場合に製品固有のメモを挿入します。 [詳細情報](functions/helpers.md#if-function)。
+* `each` ヘルパー：カートに入っている商品をリストします。[詳細情報](functions/helpers.md#each)。
+* `if`ヘルパー：関連製品がカートに入っている場合に製品固有のメモを挿入します。[詳細情報](functions/helpers.md#if-function)。
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
-* メールメッセージ。 [詳細情報](../messages/get-started-content.md)
-* メールの本文。 [詳細情報](../design/create-email-content.md)。
-* 単一のイベント。 [詳細情報](../event/about-events.md)。
-* イベントで開始されるジャーニー。 [詳細情報](../building-journeys/using-the-journey-designer.md)。
+* メールメッセージ。[詳細情報](../messages/get-started-content.md)
+* メールの本文。[詳細情報](../design/create-email-content.md)。
+* 単一のイベント。[詳細情報](../event/about-events.md)。
+* イベントで開始されるジャーニー。[詳細情報](../building-journeys/using-the-journey-designer.md)。
 
 次の手順に従います。
 1. [メールメッセージを作成します](#configure-email)。
@@ -62,7 +62,7 @@ ht-degree: 100%
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`upperCase` 文字列関数を追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
    1. 検索フィールドを使用して、「uppercase」を検索します。
-   1. 検索結果から、`upperCase` 関数を追加します。 それには、`{%= upperCase(string) %}: string` の横のプラス記号（+）をクリックします。
+   1. 検索結果から、`upperCase` 関数を追加します。それには、`{%= upperCase(string) %}: string` の横のプラス記号（+）をクリックします。
 
       式エディターには、次の式が表示されます。
 
@@ -304,7 +304,7 @@ ht-degree: 100%
 
 ## 手順 6：ジャーニーのテストと公開 {#test-and-publish}
 
-1. ジャーニーを開きます。 ジャーニーが既に開いている場合は、ページの表示を更新します。
+1. ジャーニーを開きます。ジャーニーが既に開いている場合は、ページの表示を更新します。
 1. 「**[!UICONTROL テスト]**」トグルをオンにしてから、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
    テストモードは、メッセージを公開した後でのみ有効にできます。

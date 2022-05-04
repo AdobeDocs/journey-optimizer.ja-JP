@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1036'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は 0 より大きい値になります。 このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
+結果は 0 より大きい値になります。このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
 
 ### プロファイルが特定のメッセージを送信されたかどうかの確認 {#profile-specific-message}
 
@@ -95,7 +95,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は 0 より大きい値になります。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
+結果は 0 より大きい値になります。このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
 
 **方法 2：**&#x200B;メッセージの名前がジャーニー内で一意の場合。
 
@@ -193,7 +193,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。 プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。 再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
+このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
 ## 「セグメントを読み取り」に関連するクエリ {#read-segment-queries}
 
@@ -629,7 +629,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。 1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
+このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
 
 ## ジャーニーインスタンスに対するクエリ {#journey-instances-queries}
 

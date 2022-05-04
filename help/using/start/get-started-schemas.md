@@ -8,7 +8,7 @@ exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 スキーマの作成方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
-この **スキーマ** ワークスペース [!DNL Adobe Journey Optimizer] ユーザーインターフェイスを使用すると、スキーマ、クラス、スキーマフィールドグループ、データ型などの Experience Data Model(XDM) リソースを管理できます。 アドビから提供されるコアリソースを表示および調査し、組織のカスタムリソースおよびスキーマを作成できます。
+[!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**スキーマ**&#x200B;ワークスペースを使用すると、スキーマ、クラス、スキーマフィールドグループ、データタイプなどの Experience Data Model（XDM）リソースを管理できます。アドビから提供されるコアリソースを表示および調査し、組織のカスタムリソースおよびスキーマを作成できます。
 
 ![](assets/schemas-home.png)
 

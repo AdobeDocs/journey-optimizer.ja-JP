@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3195'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,35 +18,35 @@ ht-degree: 93%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
 
-## 2022 年 4 月リリース {#april-2022-release}
+## 2022年4月リリース {#april-2022-release}
 
 ### 機能強化
 
 **ランディングページ**
 
-* **オプトイン/オプトアウトチェックボックスの新しいオプション。** ：サブスクリプションランディングページでのオプトイン/オプトアウト用の単一のチェックボックスを挿入できるようになりました。 ユーザーは、同意（オプトイン）するにはチェックボックスをオンにし、同意（オプトアウト）を削除するにはオフにする必要があります。 [詳細情報](../landing-pages/design-lp.md#define-lp-specific-content)
+* **「オプトイン／オプトアウト」チェックボックスの新しいオプション** - サブスクリプションランディングページにオプトイン／オプトアウト用の単一チェックボックスを挿入できるようになりました。ユーザーは、同意（オプトイン）するにはチェックボックスをオンにし、同意を削除（オプトアウト）するにはオフにする必要があります。[詳細情報](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **ランディングページのフィールドの事前入力** ：ユーザーがランディングページのフィールドにプロファイル情報を事前入力できるようになりました。 [詳細情報](../landing-pages/create-lp.md#configure-primary-page)
+* **ランディングページのフィールドの事前入力** - ユーザーがランディングページのフィールドにプロファイル情報を事前入力できるようになりました。[詳細情報](../landing-pages/create-lp.md#configure-primary-page)
 
 **意思決定管理**
 
-* **Edge での判定 API** - Edge Decisioning API は、Offer decisioningで管理されるパーソナライズされたオファーを配信およびレンダリングできます。 オファーとその他の関連オブジェクトは、Offer decisioningユーザーインターフェイス (UI) または API を使用して作成できます。 [詳細情報](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge での Decisioning API** - Edge Decisioning API は、Offer Decisioning で管理されるパーソナライズされたオファーを配信およびレンダリングできます。Offer Decisioning ユーザーインターフェイス（UI）または API を使用して、オファーとその他の関連オブジェクトを作成できます。[詳細情報](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
-* **PTR 送信時間** - PTR 編集が有効になるまでの期間は、数時間になりました。 [詳細情報](../configuration/ptr-records.md#processing)
+* **PTR 送信時間** - PTR 編集の有効期間が数時間になりました。[詳細情報](../configuration/ptr-records.md#processing)
 
-**電子メールデザイン**
+**メールデザイン**
 
-* **20 個の新しい電子メールテンプレート** は、Journey Optimizerで e メールコンテンツをデザインするために使用できるようになりました。
+* **20 個の新しいメールテンプレート**&#x200B;が Journey Optimizer でメールコンテンツをデザインするために使用できるようになりました。
 
 **ユーザーインターフェイス**
 
-* **Journey Optimizer UI のコンテキストヘルプ** - Journey Optimizerの複数のページにコンテキストヘルプリンクを追加しました。 利用可能な場合は、「i」アイコンをクリックして、現在の機能の簡単な説明を表示し、関連記事にアクセスします。
+* **Journey Optimizer UI のコンテキストヘルプ** - Journey Optimizer の複数のページにコンテキストヘルプのリンクを追加しました。「i」アイコンが使用可能な場合は、このアイコンをクリックすると、現在の機能の簡単な説明が表示され、関連記事にアクセスできます。
 
-**Adobe Campaign Standardとの統合**
+**Adobe Campaign Standard との統合**
 
-Adobe Campaign Standardをご利用のお客様は、Journey Optimizerを使用して E メール、プッシュ通知、SMS を送信できるようになりました。 新しい組み込みのアクションを使用して、Campaign Standardトランザクションメッセージ機能をJourney Optimizerに活用します。  [詳細情報](../action/acs-action.md)
+Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使用してメール、プッシュ通知および SMS を送信できるようになりました。新しい組み込みアクションを使用すると、Journey Optimizer への Campaign Standard トランザクションメッセージ機能を活用できます。[詳細情報](../action/acs-action.md)
 
 <!--
 ### Fixes

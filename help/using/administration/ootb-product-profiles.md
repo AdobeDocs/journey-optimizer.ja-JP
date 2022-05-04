@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## [!DNL Journey Approver] {#journey-approver}
 
-**[!DNL Journey Approver]** 製品プロファイルを使用すると、ユーザーは配信を承認および公開できます。 後から **[!DNL Message]** や **[!DNL Journey]** レポートで配信の成功を確認できます。
+**[!DNL Journey Approver]** 製品プロファイルを使用すると、ユーザーは配信を承認および公開できます。後から **[!DNL Message]** や **[!DNL Journey]** レポートで配信の成功を確認できます。
 
 この製品プロファイルには、次の権限が含まれます：
 

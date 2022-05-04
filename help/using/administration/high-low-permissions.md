@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -438,7 +438,7 @@ ht-degree: 97%
 
 ### [!DNL Manage frequency rules] 権限 {#manage-frequency-rules}
 
-この **[!DNL Manage frequency rules]** 高レベル権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化/非アクティブ化をおこなうことができます。
+**[!DNL Manage frequency rules]** 高レベル権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化／非アクティブ化を行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -449,7 +449,7 @@ ht-degree: 97%
 
 ### [!DNL View frequency rules] 権限 {#view-frequency-rules}
 
-この **[!DNL View frequency rules]** 高レベル権限を持つユーザーは、頻度ルールを表示できます。
+**[!DNL View frequency rules]** 高レベル権限を持つユーザーは、頻度ルールを表示できます。
 
 これには、次の低レベル権限が含まれます。
 

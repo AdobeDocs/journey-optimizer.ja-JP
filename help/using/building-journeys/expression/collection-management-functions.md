@@ -9,7 +9,7 @@ exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 また、式言語にも、コレクションをクエリするための一連の関数が導入されています。
 
-これらの関数について以下で説明します。 次の例では、コレクションを含んだイベントペイロードを使用します。
+これらの関数について以下で説明します。次の例では、コレクションを含んだイベントペイロードを使用します。
 
 ```json
                 { 
@@ -69,11 +69,11 @@ ht-degree: 97%
 
 例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
-「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。 また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
+「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
 
 **例 1：**
 
-ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。 この目的のために、バージョンが 1.0 のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。その後、**[!UICONTROL count]** 関数で条件分けをして、返されたトークンリストに少なくとも 1 つの要素が含まれているかどうかを確認します。
+ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。この目的のために、バージョンが 1.0 のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。その後、**[!UICONTROL count]** 関数で条件分けをして、返されたトークンリストに少なくとも 1 つの要素が含まれているかどうかを確認します。
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -116,7 +116,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->**all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。 **ただし、コレクションの要素数をカウントするためには、all 関数は不要です。**
+>**all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。**ただし、コレクションの要素数をカウントするためには、all 関数は不要です。**
 
 
 ```json
@@ -127,7 +127,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **例 3：**
 
-ここでは、個人が過去 24 時間以内に連絡を受け取っていないかどうかを確認します。 ExperiencePlatform データソースから取得したエクスペリエンスイベントのコレクションを、コレクションの 2 つの要素に基づく 2 つの式を使用してフィルタリングします。 特に、イベントのタイムスタンプを、**[!UICONTROL nowWithDelta]** 関数から返される日時と比較します。
+ここでは、個人が過去 24 時間以内に連絡を受け取っていないかどうかを確認します。ExperiencePlatform データソースから取得したエクスペリエンスイベントのコレクションを、コレクションの 2 つの要素に基づく 2 つの式を使用してフィルタリングします。特に、イベントのタイムスタンプを、**[!UICONTROL nowWithDelta]** 関数から返される日時と比較します。
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -202,7 +202,7 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->エクスペリエンスイベントは、時系列の逆順にAdobe Experience Platformからコレクションとして取得されます。したがって、次のようになります。
+>エクスペリエンスイベントは、Adobe Experience Platform からコレクションとして新しい順に取得されます。したがって、次のようになります。
 >
 >* **[!UICONTROL first]** 関数は、最新のイベントを返します。
 >* **[!UICONTROL last]** 関数は、最も古いイベントを返します。

@@ -10,11 +10,11 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# AI モデルを作成 {#ai-rankings}
+# AI モデルの作成 {#ai-rankings}
 
 [!DNL Journey Optimizer] を使用すると、ビジネス目標に基づいてオファーをランク付けする **AI モデル**&#x200B;を作成できます。
 
@@ -58,7 +58,7 @@ AI モデルを作成したら、決定内のプレースメントに割り当�
       * **[!UICONTROL インプレッション]**：現在のインプレッションイベントは、表示されるすべてのオファーに対応しています。
       * **[!UICONTROL コンバージョン]**：コンバージョンイベントは、電子メールまたは web でのクリックにつながるすべてのオファーに対応します。
 
-      選択したすべてのインプレッションイベントやコンバージョンイベントは、提供された web SDK またはモバイル SDK を使用して自動的に取得されます。 詳しくは、[Adobe Experience Platform web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
+      選択したすべてのインプレッションイベントやコンバージョンイベントは、提供された web SDK またはモバイル SDK を使用して自動的に取得されます。詳しくは、[Adobe Experience Platform web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
 
    * **[!UICONTROL データセット ID]**：コンバージョンの場合は、ドロップダウンリストからイベントを選択して収集するデータセットを指定する必要があります。そのようなデータセットを作成する方法については、[こちらの節](#create-dataset)を参照してください。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -76,7 +76,7 @@ AI モデルを作成したら、決定内のプレースメントに割り当�
 
 ## イベントを収集するデータセットの作成 {#create-dataset}
 
-コンバージョンイベントを収集するデータセットを作成する必要があります。 まず、データセットで使用するスキーマを作成します。
+コンバージョンイベントを収集するデータセットを作成する必要があります。まず、データセットで使用するスキーマを作成します。
 
 1. **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択し、「**[!UICONTROL 参照]**」タブに移動して、「**[!UICONTROL スキーマを作成]**」をクリックします。
 
@@ -110,7 +110,7 @@ AI モデルを作成したら、決定内のプレースメントに割り当�
 
 >[!NOTE]
 >
->    スキーマの構築に関して詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas)で説明します。
+>    スキーマの構築に関して詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas)で説明します。
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 

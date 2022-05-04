@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、 [オプトアウトリンク](../messages/consent.md#opt-out-management)：トランザクションメッセージには必要ありません。 メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[メッセージプリセットレベル](../configuration/message-presets.md#email-type)で、または[メッセージの作成](../messages/get-started-content.md#create-new-message)時に定義されます。
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../messages/consent.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[メッセージプリセットレベル](../configuration/message-presets.md#email-type)で、また[メッセージの作成](../messages/get-started-content.md#create-new-message)時に定義されます。
 
 ## ミラーページへのリンク {#mirror-page}
 
@@ -96,9 +96,9 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクはアクティブになっていません。 最終的なメッセージでのみアクティブ化されます。
+>テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクはアクティブになっていません。最終的なメッセージでのみアクティブ化されます。
 
-ミラーページの保持期間は 60 日です。 この期間が経過すると、ミラーページは使用できなくなります。
+ミラーページの保持期間は 60 日です。この期間が経過すると、ミラーページは使用できなくなります。
 
 ## トラッキングの管理 {#manage-tracking}
 

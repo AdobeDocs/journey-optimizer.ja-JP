@@ -11,7 +11,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->メッセージ頻度ルールにアクセス、作成、編集または削除するには、 [頻度ルールの管理](../administration/high-low-permissions.md#manage-frequency-rules) 権限。
+>メッセージ頻度ルールにアクセス、作成、編集または削除するには、[頻度ルールの管理](../administration/high-low-permissions.md#manage-frequency-rules)権限を備えている必要があります。
 
 ![](assets/message-rules-access.png)
 
@@ -57,7 +57,7 @@ ht-degree: 64%
 
    >[!NOTE]
    >
-   >現在、 **[!UICONTROL マーケティング]** カテゴリが使用可能です。
+   >現在、**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが使用可能です。
 
 1. ルールにキャッピングを設定します。キャッピングは、毎月個々のユーザープロファイルに送信できるメッセージの最大数を意味します。
 
@@ -85,7 +85,7 @@ ht-degree: 64%
 
 ## ルールをアクティブ化 {#activate-rule}
 
-メッセージ頻度ルールを作成すると、 **[!UICONTROL ドラフト]** ステータスであり、まだどのメッセージにも影響を与えていません。 有効にするには、ルールの横の省略記号をクリックし、「 」を選択します。 **[!UICONTROL 有効化]**.
+作成時、メッセージ頻度ルールは&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスであり、まだどのメッセージにも影響を与えていません。有効にするには、ルールの横の楕円をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
 
 ![](assets/message-rules-activate.png)
 
@@ -109,27 +109,27 @@ ht-degree: 64%
 
 メッセージに頻度ルールを適用するには、次の手順に従います。
 
-1. メッセージを作成. [詳細情報](../messages/get-started-content.md#create-new-message)
+1. メッセージを作成。[詳細情報](../messages/get-started-content.md#create-new-message)
 
-1. 定義したカテゴリを [作成したルール](#create-new-rule).
+1. 定義したカテゴリを[作成したルール](#create-new-rule)に選択します。
 
    ![](assets/message-rules-msg-properties.png)
 
    >[!NOTE]
    >
-   >現在、 **[!UICONTROL マーケティング]** カテゴリは、メッセージ頻度ルールで使用できます。
+   >現在、**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが、メッセージ頻度ルールで使用できます。
 
 1. メッセージ用に選択したチャネルを選択します。
 
    ![](assets/message-rules-msg-channels.png)
 
-1. 次の項目をクリックします。 **[!UICONTROL 頻度ルール]** リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。
+1. **[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。
 
    ![](assets/message-rules-msg-link.png)
 
    新しいタブが開き、一致するメッセージ頻度ルールが表示されます。
 
-1. [デザイン](../design/design-emails.md) および [公開](../messages/publish-manage-message.md) メッセージ。
+1. メッセージを[デザイン](../design/design-emails.md)して[公開](../messages/publish-manage-message.md)します。
 
 選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
 
@@ -145,36 +145,36 @@ ht-degree: 64%
 
 次の例に示すように、複数のメッセージ頻度ルールを組み合わせることができます。
 
-1. [ルールの作成](#create-new-rule) 呼び出し *マーケティングキャッピング全体*:
+1. 「*全マーケティングキャッピング*」という名前の[ルールを作成](#create-new-rule)します。
 
    * すべてのチャネル（メール、プッシュ）を選択します。
    * キャッピングを 12 に設定します。
 
    ![](assets/message-rules-ex-overall-cap.png)
 
-1. ユーザーが送信されるマーケティングベースのプッシュ通知の数をさらに制限するには、2 つ目のルールとして *プッシュマーケティングキャップ*:
+1. ユーザーに送信されるマーケティングベースのプッシュ通知の数をさらに制限するには、2 つ目のルールとして「*プッシュマーケティングの上限*」という名前のルールを作成します。
 
    * 「プッシュ」チャネルを選択します。
    * キャッピングを 4 に設定します。
 
    ![](assets/message-rules-ex-push-cap.png)
 
-1. 保存して [有効化](#activate-rule) ルール。
+1. ルールを保存して[アクティブ化](#activate-rule)します。
 
-1. メッセージを作成. [詳細情報](../messages/get-started-content.md#create-new-message)
+1. メッセージを作成。[詳細情報](../messages/get-started-content.md#create-new-message)
 
-1. を選択します。 **[!UICONTROL マーケティング]** カテゴリ。
+1. **[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。
 
    ![](assets/message-rules-ex-category-maktg.png)
 
-1. を選択します。 **[!UICONTROL 電子メール]** および **[!UICONTROL プッシュ通知]** チャネル。
+1. **[!UICONTROL 電子メール]**&#x200B;および&#x200B;**[!UICONTROL プッシュ通知]**&#x200B;チャネルを選択します。
 
    ![](assets/message-rules-ex-channels.png)
 
-1. 次の項目をクリックします。 **[!UICONTROL 頻度ルール]** リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。
+1. **[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。
 
-1. [デザイン](../design/design-emails.md) および [公開](../messages/publish-manage-message.md) メッセージ。
+1. メッセージを[デザイン](../design/design-emails.md)して[公開](../messages/publish-manage-message.md)します。
 
 このシナリオでは、個々のプロファイルは次のようになります。
-* は、1 か月に最大 12 件のマーケティングメッセージを受信できます。
+* 1 か月に最大 12 件のマーケティングメッセージを受信できます。
 * ただし、4 件のプッシュ通知を受信した後は、マーケティングプッシュ通知から除外されます。

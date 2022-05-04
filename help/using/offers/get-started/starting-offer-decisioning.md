@@ -1,6 +1,6 @@
 ---
-title: 意思決定管理の概要
-description: Adobe Journey Optimizerが、適切なオファーを適切なタイミングで顧客に送信する方法を説明します
+title: 決定管理の概要
+description: Adobe Journey Optimizer が、的確なオファーを適切なタイミングで顧客に送信する方法を説明します
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
 source-wordcount: '946'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 [!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
 
-offer decisioningは、マーケティングオファーの一元化されたライブラリと、Adobe Experience Platformが作成するリッチなリアルタイムプロファイルにルールと制約を適用する決定エンジンを使用して、適切なオファーを適切なタイミングで顧客に送信します。
+Offer Decisioning は、マーケティングオファーの一元化されたライブラリと、Adobe Experience Platform が作成するリッチなリアルタイムプロファイルにルールと制約を適用する意思決定エンジンを使用して、的確なオファーを適切なタイミングで顧客に送信します。
 
 意思決定管理の機能は、2 つの主要コンポーネントで構成されています。
 
@@ -39,7 +39,7 @@ offer decisioningは、マーケティングオファーの一元化されたラ
 
 >[!NOTE]
 >
->**Offer Decisioning** アプリケーションサービスを利用する [ Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=&quot;_blank&quot;} ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
+>**Offer Decisioning** アプリケーションサービスを利用する [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=&quot;_blank&quot;} ユーザーの場合は、この節で説明する決定管理機能もすべて適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 
@@ -76,7 +76,7 @@ offer decisioningは、マーケティングオファーの一元化されたラ
 
 Offer Decisioning の機能にアクセスして使用する権限を管理するには、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} を使用します。
 
-意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。 [!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
+意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。[!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
 
 意思決定管理に特有の権限の一覧については、[この節](../../administration/high-low-permissions.md#decisions-permissions)を参照してください。
 

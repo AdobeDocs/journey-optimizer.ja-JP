@@ -9,7 +9,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
-| requestId | 文字列 | Journey Optimizerがリクエストのフローを追跡するために使用するリクエスト ID。 |
+| requestId | 文字列 | リクエストのフローをトラックするために Journey Optimizer で使用されるリクエスト ID です。 |
 
 ## journey {#journey-field}
 

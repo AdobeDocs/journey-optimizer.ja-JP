@@ -1,6 +1,6 @@
 ---
 title: オファーに表示域を追加する
-description: オファーに表示域を追加する方法を学ぶ
+description: オファーに表示域を追加する方法を説明します
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示域"
->abstract="表示域を追加して、メッセージでオファーを表示する場所を定義します。 オファーが持つ表示域が多いほど、異なる配置コンテキストでそのオファーを使用する機会が多くなります。」
+>abstract="表示域を追加して、メッセージでオファーを表示する場所を定義します。オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
 
 オファーは、メッセージの様々な場所に表示できます（画像付きトップバナー、段落内のテキスト、HTML ブロックなど）。オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 
    ![](../assets/browse-button-placements.png)
 
-   そこからさらに、チャネルやコンテンツタイプに従ってプレースメントをフィルタリングすることもできます。 プレースメントを選択し、「**[!UICONTROL 選択]**」をクリックします。
+   そこからさらに、チャネルやコンテンツタイプに従ってプレースメントをフィルタリングすることもできます。プレースメントを選択し、「**[!UICONTROL 選択]**」をクリックします。
 
    ![](../assets/browse-placements.png)
 
@@ -108,7 +108,7 @@ ht-degree: 89%
 
    ![](../assets/offer-text-content.png)
 
-   式エディターを使用して、コンテンツをパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
+   式エディターを使用して、コンテンツをパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
 
    ![](../assets/offer-personalization.png)
 

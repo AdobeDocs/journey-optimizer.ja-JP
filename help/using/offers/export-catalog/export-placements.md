@@ -50,7 +50,7 @@ ht-degree: 100%
 
 **フィールド：** channelID
 **タイトル：**プレースメントのチャンネル識別子
-**説明：**提案がおこなわれたチャンネル。値は有効なチャンネル URI です。 https://ns.adobe.com/xdm/channels/channel を参照してください。
+**説明：**提案がおこなわれたチャンネル。値は有効なチャンネル URI です。https://ns.adobe.com/xdm/channels/channel を参照してください。
 **タイプ：**&#x200B;文字列
 
 #### _experience／決定／コンテンツコンポーネントタイプ

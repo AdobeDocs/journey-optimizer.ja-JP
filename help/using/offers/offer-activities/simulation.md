@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->シミュレーションでは決定イベントが生成されないので、 [上限](../offer-library/creating-personalized-offers.md#capping) カウントに影響はありません。
+>シミュレーションでは決定イベントが生成されないので、[キャッピング](../offer-library/creating-personalized-offers.md#capping)カウントに影響はありません。
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -55,7 +55,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。 Adobe Experience Platform の ID 名前空間について詳しくは、[この節](../../segment/get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
+   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。Adobe Experience Platform の ID 名前空間について詳しくは、[この節](../../segment/get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
 
 1. ID 値を入力し、「**[!UICONTROL 表示]**」をクリックして、使用可能なプロファイルを一覧表示します。
 
@@ -100,7 +100,7 @@ ht-degree: 97%
 
 1. 定義した決定範囲は、メインワークスペースに表示されます。
 
-   リクエストするオファーの数を調整できます。 例えば、2 を選択した場合、この決定範囲では最適な 2 つのオファーが表示されます。
+   リクエストするオファーの数を調整できます。例えば、2 を選択した場合、この決定範囲では最適な 2 つのオファーが表示されます。
 
    ![](../assets/offers_simulation-request-offer.png)
 
@@ -174,7 +174,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 「**[!UICONTROL コードを表示]**」をクリックして、リクエストと応答のペイロードを表示します。 [詳細情報](#view-code)
+1. 「**[!UICONTROL コードを表示]**」をクリックして、リクエストと応答のペイロードを表示します。[詳細情報](#view-code)
 
 1. リストから別のプロファイルを選択して、別のテストプロファイルに対するオファー決定の結果を表示します。
 

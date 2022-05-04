@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1088'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    ![](assets/lp_create-lp.png)
 
-1. タイトルを追加します。 必要に応じて、説明を追加できます。
+1. タイトルを追加します。必要に応じて、説明を追加できます。
 
    ![](assets/lp_create-lp-details.png)
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. プライマリページとそのプロパティが表示されます。 プライマリページの設定方法については、[こちら](#configure-primary-page)を参照してください。
+1. プライマリページとそのプロパティが表示されます。プライマリページの設定方法については、[こちら](#configure-primary-page)を参照してください。
 
    ![](assets/lp_primary-page.png)
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >公開済みの場合でも、この URL を Web ブラウザーにコピー&amp;ペーストするだけでランディングページにアクセスすることはできません。 代わりに、 [この節](#test-landing-page).
+   >公開済みの場合でも、この URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできません。代わりに、[この節](#test-landing-page)で説明されているように、プレビュー機能を使用してテストすることができます。
 
 1. ランディングページで、既に使用可能なフォームデータをプリロードする場合は、 **[!UICONTROL プロファイル情報を含むフォームフィールドの事前入力]**.
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。 [詳細情報](../configuration/lp-configuration.md#lp-subdomains)
+1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 * **警告**&#x200B;は、推奨奨事項とベストプラクティスを表します。<!--For example, a message will display if -->
 
-* **エラー** ランディングページが解決されていない限り、ランディングページを公開できません。 例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
+* **エラー**&#x200B;を解決しない限り、ランディングページを公開することはできません。例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

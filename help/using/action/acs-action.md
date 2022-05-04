@@ -1,18 +1,19 @@
 ---
-title: Adobe Campaign Standardとの統合
+title: Adobe Campaign Standard との統合
 description: Adobe Campaign Standardとの統合方法を説明します
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 18%
 
 ---
 
-# Adobe Campaign Standardとの統合 {#using_adobe_campaign_standard}
+# Adobe Campaign Standard との統合 {#using_adobe_campaign_standard}
 
 Adobe Campaign Standardのトランザクションメッセージ機能を使用して、E メール、プッシュ通知、SMS を送信できます。
 
@@ -34,7 +35,7 @@ Journey Optimizerで使用するには、Campaign Standardトランザクショ�
 
 次に、設定手順を示します。
 
-1. 選択 **[!UICONTROL 設定]** (「管理」(ADMINISTRATION) メニューセクション内 ) 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 アクションのリストが表示されます。
+1. 選択 **[!UICONTROL 設定]** (「管理」(ADMINISTRATION) メニューセクション内 ) 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。アクションのリストが表示されます。
 
 1. 組み込み **[!UICONTROL AdobeCampaignStandard]** アクション。 画面右側にアクション設定ペインが開きます。
 

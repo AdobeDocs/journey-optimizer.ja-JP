@@ -9,7 +9,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="使用するアドレスを定義"
->abstract="複数のアドレスがデータベースで使用可能な場合（個人、職場など）に、送信を優先する電子メールアドレスを選択できます。"
+>abstract="複数のアドレスがデータベース（個人、職場など）で使用可能な場合に、優先して送信する電子メールアドレスを選択できます。"
 
 プロファイルをターゲットにする場合、使用できるメールアドレスがデータベース内に複数ある（個人用、仕事用のメールアドレスなど）場合があります。
 
@@ -36,7 +36,7 @@ ht-degree: 84%
 
    ![](assets/primary-address-edit.png)
 
-1. 使用可能なメールタイプの XDM フィールドのリストが表示されます。 使用するフィールドを選択します。
+1. 使用可能なメールタイプの XDM フィールドのリストが表示されます。使用するフィールドを選択します。
 
    ![](assets/primary-address-field.png)
 

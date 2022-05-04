@@ -9,7 +9,7 @@ exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 高度な式エディターは、購入のリストやメッセージに対する過去のクリックなどの時系列に対してクエリを実行する場合に必須です。このようなクエリは、単純なエディターでは実行できません。
 
-エクスペリエンスイベントは、時系列の逆順にAdobe Experience Platformからコレクションとして取得されます。そのため、次のようになります。
+エクスペリエンスイベントは、Adobe Experience Platform からコレクションとして新しい順に取得されます。したがって、次のようになります。
 
 * first 関数は最新のイベントを返します
 * last 関数は最も古いイベントを返します

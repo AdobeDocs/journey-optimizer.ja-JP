@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
->title="配置"
->abstract="配置は、オファーのショーケースに使用されるコンテナです。 これにより、メッセージ内の適切な場所に適切なオファーコンテンツを表示できます。 配置は、「コンポーネント」メニューから作成します。"
+>title="プレースメント"
+>abstract="プレースメントは、オファーの紹介に使用されるコンテナです。プレースメントを使用すると、メッセージ内の適切な場所にふさわしいオファーコンテンツが表示されます。プレースメントは、「コンポーネント」メニューから作成します。"
 
 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 

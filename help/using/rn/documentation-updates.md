@@ -4,8 +4,8 @@ description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1256'
+ht-degree: 100%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
-## 2022 年 4 月 {#april-2022}
+## 2022年4月 {#april-2022}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 4 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
-* この **反応** イベントドキュメントページが更新されました。 [詳細情報](../building-journeys/reaction-events.md)
-* 決定管理機能に関するビデオが更新され、Journey Optimizerのユーザーインターフェイスが反映されました。 [詳細情報](../offers/get-started/starting-offer-decisioning.md)
-* この **データセットの基本を学ぶ** の節が改善され、データセットへのアクセス方法と作成方法の詳細が追加されました。 [詳細情報](../start/get-started-datasets.md)
-* ヘルプガイドおよび製品リリースノートへのリンクが **Adobe Journey Optimizer Documentation** ホームページ。 [詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
-* この **メッセージプリセットの作成** セクションで、選択した IP プールがエディション中 (**[!UICONTROL 処理中]** ステータス ) との間に存在し、選択したサブドメインに関連付けられていない。 [詳細情報](../configuration/message-presets.md#subdomains-and-ip-pools)
-* メッセージプリセット **URL トラッキング** の節が更新され、ユーザーインターフェイスの小さな変更が反映されました。 [詳細情報](../configuration/message-presets.md#url-tracking)
+* [!DNL Journey Optimizer] の 2022年4月リリースに含まれているすべての新機能と機能強化について、このドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* **反応**&#x200B;イベントのドキュメントページが更新されました。[詳細情報](../building-journeys/reaction-events.md)
+* 意思決定管理機能に関するビデオが更新され、Journey Optimizer のユーザーインターフェイスが反映されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
+* **データセットの基本を学ぶ**&#x200B;の節が改善され、データセットへのアクセスおよび作成方法の詳細が追加されました。[詳細情報](../start/get-started-datasets.md)
+* ヘルプガイドおよび製品リリースノートへのリンクが **Adobe Journey Optimizer ドキュメント**&#x200B;のホームページに追加されました。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
+* **メッセージプリセットの作成** の節で、選択した IP プールが編集中（**[!UICONTROL 処理中]**&#x200B;ステータス）で選択したサブドメインに関連付けられていないときは、プリセットの作成を続行できないことが明記されるようになりました。[詳細情報](../configuration/message-presets.md#subdomains-and-ip-pools)
+* 「メッセージプリセットの作成」の **URL トラッキング**&#x200B;の節が更新され、ユーザーインターフェイスの小さな変更が反映されました。[詳細情報](../configuration/message-presets.md#url-tracking)
 
 ## 2022年3月 {#march-2022}
 

@@ -9,7 +9,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 97%
 
    ![](assets/perso-uc12.png)
 
-1. メッセージを入力し、 **[!UICONTROL コンテキスト属性]** メニュー、注文項目名および注文の進行状況。
+1. メッセージを入力し、**[!UICONTROL コンテキスト属性]**&#x200B;メニューから、注文品目名と注文の進行状況を挿入します。
 
    ![](assets/perso-uc13.png)
 
