@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 96%
+source-wordcount: '1678'
+ht-degree: 95%
 
 ---
 
@@ -191,7 +191,7 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
 
 1. **トラッキング URL とミラー URL の作成** : ドメインが email.example.com の場合、トラッキング／ミラードメインは data.email.example.com になります。SSL 証明書をインストールすることで保護されます。
 
-1. **CDN CloudFront のプロビジョニング** : CDN がまだセットアップされていない場合は、アドビが IMS 組織用に CDN をプロビジョニングします。
+1. **CDN CloudFront のプロビジョニング**:CDN がまだ設定されていない場合、Adobeは組織の ID に対して CDN をプロビジョニングします。
 
 1. **CDN ドメインの作成** : ドメインが email.example.com の場合、CDN ドメインは cdn.email.example.com になります。
 

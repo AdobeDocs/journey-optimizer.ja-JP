@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 1. ストリーミング取得 API への API 呼び出しの本文（&quot;data section&quot;）で、[!DNL Journey Optimizer] からコピーしたペイロードを使用します。以下に例を示します
 1. ペイロードに存在するすべての変数を取得する場所を決定します。例：イベントがアドレスを伝えることになっている場合、貼り付けられたペイロードには &quot;address&quot;: &quot;string&quot; と表示されます。&quot;string&quot; は、正しい値（メッセージを送信する相手のメール）を自動的に入力する変数に置き換える必要があります。ペイロードプレビューの&#x200B;**[!UICONTROL ヘッダー]**&#x200B;セクションでは、作業を容易にするために多くの値が自動的に入力されます。
 1. 本文タイプとして &quot;application/json&quot; を選択します。
-1. &quot;x-gw-ims-org-id&quot; キーを使用して、ヘッダーに IMS 組織 ID を渡します。値には、IMS 組織 ID（&quot;XXX@AdobeOrg&quot;）を使用します。
+1. キー「x-gw-ims-org-id」を使用して、ヘッダーに組織 ID を渡します。 値には、組織 ID(「XXX@AdobeOrg」) を使用します。
 
 以下にストリーミング取得 API イベントの例を示します。
 

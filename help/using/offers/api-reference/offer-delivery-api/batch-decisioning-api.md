@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 98%
 
 ---
 
@@ -124,7 +124,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
 | `@id` | 単一のワークロードを識別する Offer decisioning によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | IMS 組織の ID。 | `9GTO98D5F@AdobeOrg` |
+| `xdm:imsOrgId` | 組織 ID。 | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | コンテナ ID。 | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定ワークロードリクエストが作成された時間。 | `1648078924834` |
 | `ode:status` | ワークロードのステータス。 | `ode:status: "QUEUED"` |
@@ -173,7 +173,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
 | `@id` | 単一のワークロードを識別する Offer decisioning によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | IMS 組織 ID | `9GTO98D5F@AdobeOrg` |
+| `xdm:imsOrgId` | 組織 ID | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | コンテナ ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定ワークロードリクエストが作成された時間。 | `1648076994405` |
 | `ode:status` | ワークロードのステータスは「待機中」で始まり、「処理中」、「取り込み中」、「完了」または「エラー」に変わります。 | `ode:status: "COMPLETED"` |

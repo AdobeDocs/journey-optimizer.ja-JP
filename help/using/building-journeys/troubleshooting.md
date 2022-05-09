@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 100%
@@ -65,7 +65,7 @@ ht-degree: 100%
 * イベントのヘッダーで正しいキーと値のペアを使用しましたか？
 
    ```
-   X-gw-ims-org-id - your ORGID
+   X-gw-ims-org-id - your organization's ID
    Content-type - application/json
    ```
 
