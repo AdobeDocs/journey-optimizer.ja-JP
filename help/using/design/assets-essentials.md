@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: ccc78d8d4276c33164adc4cc0ba46486c2093955
+source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 74%
+source-wordcount: '496'
+ht-degree: 73%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 74%
 
 を使用してマーケティングワークフローとクリエイティブワークフローを統合する [!DNL Adobe Experience Manager Assets Essentials]. とネイティブに統合されている [!DNL Adobe Journey Optimizer]，アクセス [!DNL Assets Essentials] デジタルアセットの保存、管理、検出、配布。 メッセージの入力に使用できる、アセットの単一の一元的なリポジトリを提供します。
 
-[!DNL Adobe Experience Manager Assets Essentials] は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に利用できる、共同で一元化されたアセットワークスペースです。 承認済みの実稼動アセットを簡単に整理、タグ付け、検索して、チーム間でブランドの一貫性を確保できます。 直感的なユーザーエクスペリエンスで、AdobeのクリエイティブアプリやExperience Cloudアプリ内の共有アセットに即座にアクセスできます。
+[!DNL Adobe Experience Manager Assets Essentials] は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に統合する、共同で一元化されたアセットワークスペースです。 承認済みの実稼動アセットを簡単に整理、タグ付け、検索して、チーム間でブランドの一貫性を確保できます。 直感的なユーザーエクスペリエンスで、 [!DNL Assets Essentials] を使用すれば、AdobeクリエイティブアプリやExperience Cloudアプリ内でアセットをすぐに共有できます。
 
 詳しくは、 [Adobe Experience Manager Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;}。
 
-[!DNL Adobe Experience Manager Assets Essentials] は、から直接アクセスできます。 [!DNL Adobe Journey Optimizer] から **[!UICONTROL Assets]** 」セクションに入力します。 また、 [e メールコンテンツの設計](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] は、から直接アクセスできます。 [!DNL Adobe Journey Optimizer] 左のメニューから **[!UICONTROL Assets]** 」セクションに入力します。 また、 [e メールコンテンツの設計](design-emails.md).
 
 ## 前提条件{#assets-prerequisites}
 
