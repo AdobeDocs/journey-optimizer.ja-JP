@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 99%
 
 ---
 
@@ -118,6 +118,9 @@ ht-degree: 100%
     <li>
       <a href="using/messages/get-started-content.md">メッセージ</a>
     </li>
+    <li>
+      <a href="using/landing-pages/get-started-lp.md">ランディングページ</a>
+    </li>
     <p>
     <p>意思決定管理
 </p>
@@ -156,12 +159,24 @@ ht-degree: 100%
     <li>
       <a href="using/segment/about-segments.md">セグメント</a>
     </li>
-     <li>
+    </li>
+    <li>
+      <a href="using/landing-pages/subscription-list.md">購読リスト</a>
+    </li>     
+    <li>
       <a href="using/segment/get-started-profiles.md">プロファイル</a>
     </li>
     <li>
       <a href="using/segment/get-started-identity.md">ID</a>
     </li>
+    <p>プライバシー</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja" target="_blank">ポリシー</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja"target="_blank">リクエスト</a>
+    </li>
+    <p>
     <p>
     <p>管理</p>
     <li>
@@ -176,7 +191,6 @@ ht-degree: 100%
   </td>
 </tr>
 </table>
-
 
 
 ![ニュースレター](using/assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に新規登録してください。

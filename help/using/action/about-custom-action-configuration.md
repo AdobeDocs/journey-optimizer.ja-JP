@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '984'
+ht-degree: 97%
 
 ---
 
@@ -84,6 +84,11 @@ ht-degree: 100%
    >カスタムアクションを定義する場合は、デフォルトのポートのみ使用できます。http の場合は 80、https の場合は 443 です。
 
 1. 呼び出し&#x200B;**[!UICONTROL メソッド]**&#x200B;を選択します。**[!UICONTROL POST]** または **[!UICONTROL PUT]** を指定できます。
+
+   >[!NOTE]
+   >
+   > この **DELETE** メソッドはサポートされていません。 既存のリソースを更新する必要がある場合は、 **PUT** メソッド。
+
 1. 「**[!UICONTROL ヘッダー]**」セクションでは、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを定義します。
    1. ヘッダーフィールドを追加するには、「**[!UICONTROL ヘッダーフィールドを追加]**」をクリックします。
    1. ヘッダーフィールドのキーを入力します。
@@ -104,7 +109,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ヘッダーは、フィールド解析ルールに従って検証されます。[詳細情報](https://tools.ietf.org/html/rfc7230#section-3.2.4)。
+   >ヘッダーは、フィールド解析ルールに従って検証されます。詳しくは、 [このドキュメント](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## アクションパラメーターの定義 {#define-the-message-parameters}
 

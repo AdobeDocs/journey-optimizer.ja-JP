@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -54,8 +54,6 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 
 * [ステップイベントフィールドの一覧](../reports/sharing-field-list.md)
 * [従来のステップイベントフィールド](../reports/sharing-legacy-fields.md)
-
-Adobe Experience Platform に通知されるステップイベントについて詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
 
 ## Customer Journey Analytics との統合 {#integration-cja}
 

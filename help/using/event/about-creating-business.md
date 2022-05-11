@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1125'
+ht-degree: 92%
 
 ---
 
@@ -81,15 +81,16 @@ ht-degree: 100%
 
 1. このイベントを使用するジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。**[!UICONTROL ジャーニーを表示]**&#x200B;アイコンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
 
-1. スキーマとペイロードのフィールドを定義します。ジャーニーが受け取るイベント情報（通常、ペイロードと呼びます）は、ここで選択します。その後、この情報をジャーニーに使うことができます。[この節](../event/about-creating-business.md#define-the-payload-fields)を参照してください。
+1. スキーマフィールドとペイロードフィールドを定義します。ここで、が受け取るイベント情報（またはペイロード）ジャーニーを選択します。 この情報は、後でジャーニーで使用します。 [この節](../event/about-creating-business.md#define-the-payload-fields)を参照してください。
 
    ![](assets/jo-event5-business.png)
 
-   時系列スキーマのみ使用できます。エクスペリエンスイベント、決定イベント、ジャーニーステップイベントのスキーマは使用できません。イベントスキーマには、プライマリ ID が含まれている必要があります。イベントを定義する際は、`_id` および `timestamp` のフィールドを選択する必要があります。
+   時系列スキーマのみ使用できます。`Experience Events`, `Decision Events` および `Journey Step Events` スキーマを使用できません。 イベントスキーマには、プライマリ ID が含まれている必要があります。イベントを定義する際は、`_id` および `timestamp` のフィールドを選択する必要があります。
 
    ![](assets/test-profiles-4.png)
 
-1.  「**[!UICONTROL イベント ID 条件]** 」フィールド内をクリックします。簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
+1.  「**[!UICONTROL イベント ID 条件]** 」フィールド内をクリックします。シンプルな式エディターを使用して、ジャーニーを識別するイベントを識別するためにシステムで使用される条件を定義します。
+
    ![](assets/jo-event6-business.png)
 
    この例では、製品の ID に基づいて条件を作成しました。つまり、システムがこの条件に一致するイベントを受け取るたびに、ジャーニーに渡されます。
@@ -102,7 +103,7 @@ ht-degree: 100%
 
    ![](assets/journey7-business.png)
 
-   これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+   これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。詳しくは、[このページ](../event/additional-steps-to-send-events-to-journey.md)を参照してください。
 
 ## ペイロードフィールドの定義 {#define-the-payload-fields}
 
@@ -120,17 +121,17 @@ ht-degree: 100%
    >
    > フィールド `_id` および `timestamp` が選択されていることを確認します。
 
-1. イベントから受け取るフィールドを選択します。これらは、ビジネスユーザーがジャーニーで活用するフィールドです。
+1. イベントから受け取るフィールドを選択します。 これらは、ビジネスユーザーがジャーニーで活用するフィールドです。
 
 1. 必要なフィールドの選択が完了したら、「**[!UICONTROL 保存]**」をクリックするか、**[!UICONTROL Enter]** キーを押します。
 
-   選択したフィールドの数が「**[!UICONTROL フィールド]**」フィールドに表示されます。
+   選択したフィールドの数が **[!UICONTROL フィールド]**.
 
    ![](assets/journey12-business.png)
 
 ## ペイロードのプレビュー {#preview-the-payload}
 
-ペイロードのプレビューを使用すると、ペイロード定義を検証できます。
+ペイロードプレビューを使用して、ペイロード定義を検証します。
 
 1. 「**[!UICONTROL ペイロードを表示]**」アイコンをクリックして、システムが想定するペイロードをプレビューします。
 
@@ -142,4 +143,4 @@ ht-degree: 100%
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、[!DNL Journey Optimizer]にプッシュするイベントのセットアップを設計するのに役立ちます。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、[!DNL Journey Optimizer]にプッシュするイベントのセットアップを設計するのに役立ちます。[このページ](../event/additional-steps-to-send-events-to-journey.md)を参照してください。

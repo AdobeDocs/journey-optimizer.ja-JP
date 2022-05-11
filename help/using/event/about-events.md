@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >キャッピングルールは、ルールベースのイベントに対して定義します。ジャーニーが処理できる対象イベントの数を、特定の組織（ORG）で 1 秒あたり 5,000 個に制限します。これは Journey Optimizer の SLA に対応しています。この[ページ](https://helpx.adobe.com/jp/legal/product-descriptions/journey-orchestration.html)を参照してください。
+   >キャッピングルールは、ルールベースのイベントに対して定義します。特定の組織に対して、ジャーニーで処理できるクオリファイドイベントの数を 1 秒あたり 5000 件に制限します。 これは Journey Optimizer の SLA に対応しています。Journey Optimizerライセンスを参照し、 [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html).
 
 * **システム生成**&#x200B;イベント：このイベントでは eventID が必要です。eventID フィールドは、イベントの作成時に自動的に生成されます。イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。
 

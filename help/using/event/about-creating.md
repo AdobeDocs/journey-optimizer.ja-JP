@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 100%
+source-wordcount: '1527'
+ht-degree: 85%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+   これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。[このページ](../event/additional-steps-to-send-events-to-journey.md)を参照してください。
 
 ## ペイロードフィールドの定義 {#define-the-payload-fields}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
    ![](assets/journey9.png)
 
-1. イベントから受け取るフィールドを選択します。これらは、ビジネスユーザーがジャーニーで活用するフィールドです。また、イベントに関連付けられた人物を識別するために使用するキーも含める必要があります（[この節](../event/about-creating.md#define-the-event-key)を参照）。
+1. イベントから受け取るフィールドを選択します。 これらは、ビジネスユーザーがジャーニーで活用するフィールドです。また、イベントに関連付けられた人物を識別するために使用するキーも含める必要があります（[この節](../event/about-creating.md#define-the-event-key)を参照）。
 
    >[!NOTE]
    >
@@ -126,27 +126,27 @@ ht-degree: 100%
 
 ## プロファイル識別子の定義 {#define-the-event-key}
 
-キーは、イベントのペイロードデータの一部とするフィールドまたはフィールドの組み合わせです。システムはキーを使用することでイベントに関連付けられた人を識別できます。キーには、Experience Cloud ID、CRM ID、メールアドレスなどを使用できます。
+キーは、イベントペイロードデータの一部で、イベントに関連付けられた人物をシステムが識別できるフィールドまたはフィールドの組み合わせです。 キーには、例えば、Experience CloudID、CRM ID、電子メールアドレスなどがあります。
 
-リアルタイム顧客プロファイルデータベースに保存されたデータを活用する場合は、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}でプロファイルの ID として定義した情報をイベントキーとして選択する必要があります。
+Adobeのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーは、 [リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
 
-これにより、システムはイベントと個人プロファイルの間の紐付けを実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]** 」フィールドはあらかじめ入力されます。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL 名前空間]**&#x200B;フィールドの下に）事前入力されます。
+プロファイル識別子を使用すると、イベントと個人のプロファイルとの間で紐付けを実行できます。 メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]** 」フィールドはあらかじめ入力されます。ID が定義されていない場合、 _identityMap > id_ はプライマリキーです。 次に、名前空間を選択する必要があります。キーは、 _identityMap > id_.
 
 フィールドを選択すると、メイン ID フィールドにタグ付けされます。
 
 ![](assets/primary-identity.png)
 
-CRM ID やメールアドレスなど、別のキーを使用する必要がある場合は、キーを手動で追加する必要があります。
+CRM ID や電子メールアドレスなど、別のキーを使用する必要がある場合は、次に説明するように、手動で追加する必要があります。
 
-1. 「**[!UICONTROL プロファイル識別子]**」フィールド内または鉛筆アイコン上をクリックします。
+1. 内側をクリック **[!UICONTROL プロファイル識別子]** フィールド、または鉛筆アイコン。
 
    ![](assets/journey16.png)
 
-1. 「ペイロード」フィールドのリストでキーとして指定したフィールドを選択します。高度な式エディターに切り替えて、より複雑なキーを作成することもできます（例えば、イベントの 2 つのフィールドを連結）。この節では、以下を参照してください。
+1. 「ペイロード」フィールドのリストでキーとして指定したフィールドを選択します。高度な式エディターに切り替えて、より複雑なキーを作成することもできます（例えば、イベントの 2 つのフィールドを連結したキー）。
 
    ![](assets/journey20.png)
 
-イベントを受け取ると、キーの値によって、イベントに関連付けられた人物を識別できます。キーは名前空間に関連付けられ（[この節](../event/about-creating.md#select-the-namespace)を参照）、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
+イベントを受け取った場合、キーの値により、イベントに関連付けられた人物を識別できます。 キーは名前空間に関連付けられ（[この節](../event/about-creating.md#select-the-namespace)を参照）、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
 また、より高度な操作を実行する場合は、高度な式関数（**[!UICONTROL 詳細設定モード]**）にアクセスできます。これらの関数を使用すると、形式の変更、フィールドの連結、フィールドの一部のみを考慮する（先頭の 10 文字など）など、特定のクエリの実行に用いる値を操作できます。この[ページ](../building-journeys/expression/expressionadvanced.md)を参照してください。
@@ -169,4 +169,4 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
 1. ペイロード定義を検証するプレビューを確認します。
 
-1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、[!DNL Journey Optimizer]にプッシュするイベントのセットアップを設計するのに役立ちます。[このページ](../event/additional-steps-to-send-events-to-journey-orchestration.md)を参照してください。
+1. その後、イベント送信の担当者とペイロードプレビューを共有できます。このペイロードは、[!DNL Journey Optimizer]にプッシュするイベントのセットアップを設計するのに役立ちます。[このページ](../event/additional-steps-to-send-events-to-journey.md)を参照してください。

@@ -2,16 +2,26 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 95%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+
+## 2022 年 5 月 {#may-2022}
+
+* E メールのデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関するメンションが追加されました。 関連するスクリーンショットが更新されました。 [詳細情報](../design/design-emails.md)
+* 主要リソースへのリンクが、Journey Optimizerドキュメントのホームページで更新されました。
+* ランディングページおよび購読レポートのスクリーンショットが更新されました。 [詳細情報](../reports/live-report.md)
+* Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。 [詳細情報](../action/about-custom-action-configuration.md)
+* ハウツービデオへのリンクが更新されました。
+
 
 ## 2022年4月 {#april-2022}
 

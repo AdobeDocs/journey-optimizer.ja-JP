@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '846'
 ht-degree: 100%
 
 ---
@@ -28,10 +28,6 @@ ht-degree: 100%
 接触チャネルジャーニーで、**[!UICONTROL ジャンプ]**&#x200B;アクティビティを追加し、ターゲットジャーニーを選択します。個人が&#x200B;**[!UICONTROL ジャンプ]**&#x200B;ステップにエントリすると、内部イベントがターゲットジャーニーの最初のイベントに送られます。**[!UICONTROL ジャンプ]**&#x200B;アクションが成功した場合、個人はジャーニー内で進行を続けます。動作は他のアクションと同様です。
 
 ターゲットジャーニーでは、**[!UICONTROL ジャンプ]**&#x200B;アクティビティによって内部で最初のイベントがトリガーされ、個人はジャーニーに沿って導かれます。
-
->[!NOTE]
->
->[こちら](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=ja)のチュートリアルビデオも参照してください。{target=&quot;_blank&quot;}
 
 ## ライフサイクル
 
