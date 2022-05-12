@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bb582374f69e5c4113e22c7caed1a23d2c9ac231
+source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 62%
+source-wordcount: '984'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 62%
 
 また、カスタムアクションパラメーターには想定される形式（例：文字列、10 進数など）があります。これらの想定される形式に従うように注意する必要があります。詳しくは、この[ユースケース](../building-journeys/collections.md)を参照してください。
 
+
 ## 設定の手順 {#configuration-steps}
 
 カスタムアクションを設定する際に必要な主な手順は次のとおりです。
@@ -50,12 +51,9 @@ ht-degree: 62%
 
 1. アクションに説明を追加します。この手順はオプションです。
 1. このイベントを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
-1. このカスタムアクションに関連するチャネルを選択します。 **電子メール**, **SMS**&#x200B;または **プッシュ通知**. 選択したチャネルのデフォルトのマーケティングアクションが、必要なマーケティングアクションフィールドに事前入力されます。 次を選択した場合、 **その他**&#x200B;に値を指定しない場合、マーケティングアクションは定義されません。
-1. このカスタムアクションに同意ルールを適用する場合は、適切な **必要なマーケティングアクション**. [この節](../action/about-custom-action-configuration.md#consent-management)を参照してください。
-1. さまざまな **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。[この節](../action/about-custom-action-configuration.md#url-configuration)を参照してください。
+1. さまざまな **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。[このページ](../action/about-custom-action-configuration.md#url-configuration)を参照してください。
 1. 「**[!UICONTROL 認証]**」セクションを設定します。この設定はデータソースの場合と同じです。[この節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。
-1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。[この節](../action/about-custom-action-configuration.md#define-the-message-parameters)を参照してください。
-1. 
+1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。[このページ](../action/about-custom-action-configuration.md#define-the-message-parameters)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    カスタムアクションが設定され、ジャーニーで使用できる状態になります。[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
@@ -134,37 +132,3 @@ ht-degree: 62%
 * 変数は、パラメーターの値が変化することを意味します。ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値をどこから取得するか（例：イベント、Adobe Experience Platform など）を指定したりすることが自由にできます。この場合、定数／変数トグルの右側にあるフィールドは、マーケターがこのパラメーターに名前を付ける際にジャーニーで表示されるラベルです。
 
 ![](assets/customactionpayloadmessage2.png)
-
-## 同意管理 {#consent-management}
-
-お客様は、プライバシーに関する同意ポリシーを定義して、アクションの実行中に送信データを制御できるようになりました。 同意ポリシーは、プロファイル属性の式として機能し、特定のプロファイルに対してアクションを実行できるかどうかを定義するルールを設定します。
-
-同意スールのカスタムアクション， pas message encore コンクセント a tel type de communication ou u utilication de tel type de donnée champs プロファイル qui vont stecker ce ce coté AEP nuvelles regles de type policies auj gouvernance policies. Par Exemple Restric 電子メールのターゲティング。 DES マーケティングアクションに関連付けられたラベル (C4/C5)。 Quand tu で宛先を定義し、de marketing action と入力します。 例 SFTP crée une dest qui va exporter des données vers ce sftp, tu flague ce sftp avec une マーケティングアクション。 Egelement de marketing action rajoutée は、カスタムアクション、電子メール/SMS/プッシュマーケティングアクションを実行します。 お前の習慣だ。
-
-ラベル：quand tu def データセット (ù stocker tes données)、onglet data gouvernance、pr chaque 属性 tu peux 定義 le type de label association a cet attribute 国コードラベル C3/C4。 ラベル ootb, tu peux en def d&#39;autres en fonction besion.
-
-
-
- — ジラのコメント —
-
-「追加のマーケティングアクション」を、実行者がカスタムアクションの「意図」を説明する方法として説明する。次に例を示します。私のカスタムアクションは、トレーニングコミュニケーション、ニュースレター、フィットネスコミュニケーションなどに関するものです。
-
-最初のリリースでの同意の範囲を説明します。
-
-- カスタムアクションでパーソナライゼーションで使用されるマーケティングアクションと属性が考慮されます
-- セグメントトリガージャーニー（セグメントを読み取りで開始）の場合、そのセグメントの条件として使用される属性が考慮されます
-- 「セグメントを読み取り」または「カスタムアクション」以外の、ジャーニーで使用されるすべてのアクティビティは考慮されません
-- セグメント認定は、ジャーニーの開始に使用されている場合でも考慮されません
-
-カスタムアクションの同意ポリシーによって除外されたプロファイルが、引き続きジャーニー（メッセージと抑制リストを含む iso）を通過することを説明する
-
-予想される遅延を説明するリマインダー：https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
-+ AJO の遅延を 1 時間から 6 時間に修正する
-
-ドキュメントに記載する必要がある遅延の 2 種類：
-
-- Carolina Infante という 1 つの Carolina Infante でのユーザーの待ち時間は、次のように見て何と言えるかは分かりません。
-
-「UPS Projection/Export」を実行する必要があるかどうかを確認し、（実行時に使用するものを知りながら）プロファイルレベルで「contentTo」フィールドを更新する必要があるかどうかを確認できますか？ この場合、最大 48 時間かかると思いますが、そうでない場合は、「取得の遅延と収集の遅延」についてのみ話します（取得の急増や停止がある場合は数秒から数時間、または顧客がユーザーから更新を収集するのに長い時間がかかります）。
-
-- 同意ポリシーの遅延。ライブジャーニーは 6 時間ごとに同意ポリシーを取り込むので、「最大 6 時間」と言います。 カロライナ・インファンテフィルター遅延の影響を受けているか知っていますか？
