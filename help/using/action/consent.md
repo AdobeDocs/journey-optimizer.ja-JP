@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 107145aab223ad2c6789f46e6b467f2366c59dc2
+source-git-commit: d826ad21e821235d61db499d25abf1a96ab0bec9
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 2%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="必須のマーケティングアクションの定義"
->abstract="「必須のマーケティングアクション」を使用すると、カスタムアクションに関連するマーケティングアクションを定義できます。 例えば、このカスタムアクションを使用して E メールを送信する場合は、「E メールのターゲティング」を選択できます。 ジャーニーで使用すると、そのマーケティングアクションに関連するすべての同意ポリシーが取得され、利用されます。 これはキャンバス上では変更できません。"
+>abstract="必須マーケティングアクションを使用すると、カスタムアクションに関連するマーケティングアクションを定義できます。 例えば、このカスタムアクションを使用して E メールを送信する場合は、「E メールのターゲティング」を選択できます。 ジャーニーで使用すると、そのマーケティングアクションに関連するすべての同意ポリシーが取得され、利用されます。 これはキャンバス上では変更できません。"
 
 カスタムアクションを設定する場合、2 つのフィールドを同意管理に使用できます。
 
