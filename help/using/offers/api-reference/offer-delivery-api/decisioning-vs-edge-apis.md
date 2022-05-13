@@ -26,7 +26,7 @@ ht-degree: 100%
 
 API の使用方法について詳しくは、次の節を参照してください。
 * [判定 API](decisioning-api.md)
-* [Edge Decisioning API](edge-decisioning-api.md)
+* [Edge 判定 API](edge-decisioning-api.md)
 
 ## Edge Decisioning API の機能 {#edge}
 
