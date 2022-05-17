@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 90%
+source-wordcount: '542'
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ IP プールを作成するには、次の手順に従います。
 
    >[!NOTE]
    >
-   >サブドメインの名前は文字（A～Z）で始め、英数字または特殊文字（_, ., - ）のみを使用してください。
+   >名前は、文字 (A ～ Z) で始まり、英数字または特殊文字 ( _, ., - ) のみを含める必要があります。
 
 1. プールに含める IP アドレスをドロップダウンリストから選択し、「**[!UICONTROL 送信]**」をクリックします。
 

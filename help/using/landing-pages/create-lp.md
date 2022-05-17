@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 90%
@@ -53,7 +53,7 @@ ht-degree: 90%
 
    ![](assets/lp_create-lp-details.png)
 
-1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../configuration/lp-configuration.md#lp-create-preset)を参照してください。
+1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../configuration/lp-presets.md#lp-create-preset)を参照してください。
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ ht-degree: 90%
 
    ![](assets/lp_open-designer.png)
 
-1. ランディングページの URL を定義します。URL の最初の部分では、以前、 [プリセット](../configuration/lp-configuration.md#lp-create-preset) を選択しました。 [詳細情報](../configuration/lp-configuration.md#lp-subdomains)
+1. ランディングページの URL を定義します。URL の最初の部分では、以前、 [プリセット](../configuration/lp-presets.md#lp-create-preset) を選択しました。 [詳細情報](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ ht-degree: 90%
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../configuration/lp-configuration.md#lp-subdomains)
+1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >

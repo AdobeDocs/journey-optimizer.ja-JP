@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 99%
 
 ---
 
@@ -339,7 +339,7 @@ ht-degree: 100%
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + メッセージの設定 {#configuration-message}
-      + プッシュ通知の設定 {#push-config}
+      + プッシュ通知の設定{#push-config}
          + [プッシュ設定の基本を学ぶ](using/configuration/push-gs.md)
          + [プッシュ通知チャネルの設定](using/configuration/push-configuration.md)
       + メールの設定 {#email-configuration}
@@ -347,17 +347,22 @@ ht-degree: 100%
             + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
             + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
             + [デリゲートされたサブドメインへのアクセス](using/configuration/access-subdomains.md)
+         + サドメイン関連のアクションの管理 {#subdomain-related-actions}
             + [Google TXT レコードの追加](using/configuration/google-txt.md)
             + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
-         + [IP プールの作成](using/configuration/ip-pools.md)
+            + [IP プールの作成](using/configuration/ip-pools.md)
          + メールアドレスのモニタリング {#monitor-reputation}
             + [抑制リストの管理](using/configuration/manage-suppression-list.md)
             + [再試行](using/configuration/retries.md)
-         + [プライマリメールアドレスの変更](using/configuration/primary-email-addresses.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
-      + [メッセージプリセットの作成](using/configuration/message-presets.md)
+      + メッセージプリセットの設定 {#set-up-message-presets}
+         + [メッセージプリセットの作成](using/configuration/message-presets.md)
+         + [メール設定](using/configuration/email-settings.md)
+      + [実行アドレスを管理](using/configuration/primary-email-addresses.md)
       + [頻度ルールの設定](using/configuration/frequency-rules.md)
-   + [ランディングページの設定](using/configuration/lp-configuration.md)
+   + ランディングページの設定 {#lp-configuration}
+      + [ランディングページのサブドメインを設定](using/configuration/lp-subdomains.md)
+      + [ランディングページプリセットを定義](using/configuration/lp-presets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + [外部システムとの統合](using/configuration/external-systems.md)

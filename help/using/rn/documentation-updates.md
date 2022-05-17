@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 95%
+source-wordcount: '1357'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 95%
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。 [詳細情報](../reports/live-report.md)
 * Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。 [詳細情報](../action/about-custom-action-configuration.md)
 * ハウツービデオへのリンクが更新されました。
-
+* この [電子メール設定](../configuration/about-subdomain-delegation.md), [メッセージプリセット](../configuration/message-presets.md) および [ランディングページの設定](../configuration/lp-subdomains.md) の節が再編成され、読みやすくなりました。
+* この **URL トラッキング** の節が更新および改訂され、例が追加されました。 [詳細情報](../configuration/email-settings.md#url-tracking)
 
 ## 2022年4月 {#april-2022}
 

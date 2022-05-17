@@ -1,0 +1,85 @@
+---
+title: ランディングページプリセットを定義
+description: Journey Optimizer でランディングページを作成し、使用するために環境を設定する方法を説明
+role: Admin
+level: Intermediate
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 100%
+
+---
+
+# ランディングページプリセットを定義 {#lp-presets}
+
+[ランディングページの作成](../landing-pages/create-lp.md#create-a-lp)を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を介して活用できるように、ランディングページプリセットを選択する必要があります。
+
+## ランディングページプリセットへのアクセス {#lp-presets}
+
+ランディングページプリセットにアクセスするには、次の手順に従います。
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスします。
+
+1. **[!UICONTROL ブランディング]**／**[!UICONTROL ランディングページプリセット]**&#x200B;を選択します。
+
+   ![](assets/lp_presets-access.png)
+
+1. 任意のプリセットラベルをクリックして、ランディングページプリセットの詳細にアクセスします。
+
+   ![](assets/lp_preset-details.png)
+
+## ランディングページプリセットの作成 {#lp-create-preset}
+
+ランディングページプリセットを作成するには、次の手順に従います。
+
+>[!NOTE]
+>
+>プリセットを作成するには、少なくとも 1 つのランディングページサブドメインを既に設定してあることを確認してください。[方法についてはこちらを参照](lp-subdomains.md)
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスし、**[!UICONTROL ブランディング]**／**[!UICONTROL ランディングページプリセット]**&#x200B;を選択します。
+
+1. 「**[!UICONTROL ランディングページプリセットを作成]**」を選択します。
+
+   ![](assets/lp_create-preset-temp.png)
+
+1. プリセットの名前と説明を入力します。
+
+   >[!NOTE]
+   >
+   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+
+1. ドロップダウンリストからランディングページのサブドメインを選択します。
+
+   ![](assets/lp_preset-subdomain.png)
+
+   >[!NOTE]
+   >
+   >サブドメインを選択するには、少なくとも 1 つのランディングページサブドメインを事前に設定していることを確認してください。[方法](#lp-subdomains)
+
+   選択したサブドメインに対応する設定が表示されます。
+
+1. ランディングページサブドメインをトラッキング URL として選択する場合は、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。[トラッキングの詳細情報](../design/message-tracking.md)
+
+   ![](assets/lp_preset-subdomain-settings-same.png)
+
+   例えば、ランディングページの URL が「pages.mail.luma.com」で、トラッキング URL が「data.mail.luma.com」の場合、トラッキングサブドメインとして「pages.mail.luma.com」を使用するように選択できます。
+
+1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確認します。なお、プリセットをドラフトとして保存し、後で設定を再開することもできます。
+
+   ![](assets/lp_preset-subdomain-settings-submit.png)
+
+1. ランディングページプリセットが作成されると、リストに「**[!UICONTROL アクティブ]**」のステータスで表示されます。これで、ランディングページで使用する準備が整いました。
+
+   ![](assets/lp-preset-active-temp.png)
+
+これで、[!DNL Journey Optimizer] で[ランディングページの作成](../landing-pages/create-lp.md)を行う準備が整いました。
+
+>[!NOTE]
+>
+>[この節](message-presets.md)では、プッシュ通知とメールのメッセージプリセットを作成する方法について説明します。
+
+**関連トピック**:
+
+* [ランディングページの基本を学ぶ](../landing-pages/get-started-lp.md)
+* [ランディングページの作成](../landing-pages/create-lp.md#create-a-lp)
