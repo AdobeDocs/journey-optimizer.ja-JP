@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 99%
     <p>
     <p>管理</p>
     <li>
-      <a href="using/configuration/about-data-sources-events-actions.md">設定 </a>
+      <a href="using/configuration/about-data-sources-events-actions.md">設定</a>
     </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">チャネル</a>
