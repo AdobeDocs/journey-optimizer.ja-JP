@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 >title="イベントについて"
 >abstract="イベントは人と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）です。これは、Journey Optimizer が最適な次のアクションを調整するためにジャーニーでリッスンしているものです。"
 
-イベントの設定を使用すると、[!DNL Journey Optimizer] がイベントとして受け取る情報を定義できます。複数のイベントを（ジャーニーのさまざまなステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。
+イベントの設定を使用すると、[!DNL Journey Optimizer] がイベントとして受け取る情報を定義できます。複数のイベントを（ジャーニーの様々なステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。
 
 >[!CAUTION]
 >
@@ -49,7 +49,7 @@ ht-degree: 96%
 
    >[!CAUTION]
    >
-   >キャッピングルールは、ルールベースのイベントに対して定義します。特定の組織に対して、ジャーニーで処理できるクオリファイドイベントの数を 1 秒あたり 5000 件に制限します。 これは Journey Optimizer の SLA に対応しています。Journey Optimizerライセンスを参照し、 [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html).
+   >キャッピングルールは、ルールベースのイベントに対して定義します。ジャーニーが処理できる対象イベントの数を、特定の組織で 1 秒あたり 5,000 件に制限します。これは Journey Optimizer の SLA に対応しています。Journey Optimizer ライセンスおよび [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html) を参照します。
 
 * **システム生成**&#x200B;イベント：このイベントでは eventID が必要です。eventID フィールドは、イベントの作成時に自動的に生成されます。イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。
 
