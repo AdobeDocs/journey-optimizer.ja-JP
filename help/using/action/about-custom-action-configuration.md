@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '984'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >title="カスタムアクション"
 >abstract="サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して Epsilon、Slack、[Adobe Developer](https://developer.adobe.com/)、Firebase などのシステムに接続できます。"
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase などのシステムに接続できます。
+サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して Epsilon、Slack、[Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}、Firebase などのシステムに接続できます。
 
 カスタムアクションは、技術ユーザーが定義し、マーケターが使用できる追加のアクションです。設定が完了すると、**[!UICONTROL アクション]**&#x200B;カテゴリの、ジャーニーの左側のパレットに表示されます。詳しくは、[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 
@@ -40,7 +40,6 @@ ht-degree: 97%
 
 1. 管理メニューセクションで、「**[!UICONTROL 設定]**」を選択します。「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。「**[!UICONTROL アクションを作成]**」をクリックして、新規のアクションを作成します。画面右側にアクション設定ペインが開きます。
 
-
    ![](assets/custom2.png)
 
 1. アクションの名前を入力します。
@@ -51,7 +50,7 @@ ht-degree: 97%
 
 1. アクションに説明を追加します。この手順はオプションです。
 1. このイベントを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
-1. さまざまな **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。[このページ](../action/about-custom-action-configuration.md#url-configuration)を参照してください。
+1. 様々な **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。[このページ](../action/about-custom-action-configuration.md#url-configuration)を参照してください。
 1. 「**[!UICONTROL 認証]**」セクションを設定します。この設定はデータソースの場合と同じです。[この節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。
 1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。[このページ](../action/about-custom-action-configuration.md#define-the-message-parameters)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
@@ -87,7 +86,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   > この **DELETE** メソッドはサポートされていません。 既存のリソースを更新する必要がある場合は、 **PUT** メソッド。
+   > **DELETE** メソッドはサポートされていません。既存のリソースを更新する必要がある場合は、**PUT** メソッドを選択します。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションでは、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを定義します。
    1. ヘッダーフィールドを追加するには、「**[!UICONTROL ヘッダーフィールドを追加]**」をクリックします。
@@ -109,7 +108,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >ヘッダーは、フィールド解析ルールに従って検証されます。詳しくは、 [このドキュメント](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
+   >ヘッダーは、フィールド解析ルールに従って検証されます。詳しくは、[このドキュメント](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank} を参照してください。
 
 ## アクションパラメーターの定義 {#define-the-message-parameters}
 
