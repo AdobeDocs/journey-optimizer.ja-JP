@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 以下のリンクに記載されている実装手順に従ってください。
 
-* **Apple iOS** の場合：API でアプリを登録する方法については、[Appleドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)を参照してください{target=&quot;_blank&quot;}
+* **Apple iOS** の場合：API でアプリを登録する方法については、[Apple ドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)を参照してください{target=&quot;_blank&quot;}
 * **Google Android** の場合：Android に Firebase Cloud Messaging クライアントアプリをセットアップする方法については、[Google のドキュメント](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}を参照してください 
 
 ### モバイルアプリの Adobe Experience Platform SDK との統合 {#integrate-mobile-app}
@@ -143,7 +143,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
       1. .p8 Apple Push Notification Authentication Key ファイルをドラッグ＆ドロップします。このキーは、**証明書**、**識別子**、**プロファイル**&#x200B;ページから取得できます。
 
-      1. **キー ID** を指定します。これは、p8 認証キーの作成中に割り当てられた10 文字の文字列です。これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
+      1. **キー ID** を指定します。これは、p8 認証キーの作成中に割り当てられた 10 文字の文字列です。これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
 
       1. **チーム ID** を指定します。これは、「メンバーシップ」タブにある文字列値です。
    * **Android の場合**
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 手順 3：イベントでモバイルアプリをテストする {#mobile-app-test}
 
-Adobe Experience Platform と [!DNL Adobe Experience Platform Data Collection] の両方でモバイルアプリを設定した後、プッシュ通知をテストしてからプロファイルに送信できるようになりました。この使用例では、モバイルアプリをターゲットにするジャーニーを作成し、プッシュ通知をトリガーにするイベントを設定します。
+Adobe Experience Platform と [!DNL Adobe Experience Platform Data Collection] の両方でモバイルアプリを設定した後、プッシュ通知をテストしてからプロファイルに送信できるようになりました。このユースケースでは、モバイルアプリをターゲットにするジャーニーを作成し、プッシュ通知をトリガーするイベントを設定します。
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -308,7 +308,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 「**[!UICONTROL イベント ID 条件]**」フィールドで「**[!UICONTROL 編集]**」をクリックします。以前に追加したフィールドをドラッグ&amp;ドロップして、ジャーニーをトリガーにしたイベントを識別するためにシステムで使用される条件を定義します。
+1. 「**[!UICONTROL イベント ID 条件]**」フィールドで「**[!UICONTROL 編集]**」をクリックします。以前に追加したフィールドをドラッグ＆ドロップして、システムで使用される条件を定義し、ジャーニーをトリガーするイベントを識別します。
 
    ![](assets/test_push_8.png)
 
