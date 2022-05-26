@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1279'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 }
 ```
 
-[!DNL Journey Optimizer] はこれらのパラメーターを使用し、[Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
+[!DNL Journey Optimizer] はこれらのパラメーターを使用し、[Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
 
 #### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 
@@ -203,7 +203,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
    >
    >メッセージコンテンツにワンクリックオプトアウトリンクを追加しない場合、ランディングページは表示されません。
 
-* 対応するプロファイルが直ちにオプトアウトされ、この選択が Experience Platform で更新されます。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}を参照してください。
+* 対応するプロファイルが直ちにオプトアウトされ、この選択が Experience Platform で更新されます。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
 
 ## プッシュのオプトアウト管理 {#push-opt-out-management}
 
