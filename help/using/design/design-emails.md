@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 94%
 
 ➡️ [この機能をビデオで確認](#video)
 
-1. 新しく作成したメッセージから、「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL E メールデザイナー]**」を選択します。
+1. 新しく作成したメッセージから、「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL 電子メールデザイナー]**」を選択します。
 
    ![](assets/import-html_1.png)
 
-1. E メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
+1. 電子メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
-   * E メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、 [Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。メールコンテンツの設計方法や、ビルトインテンプレートについては、[この節](create-email-content.md)を参照してください。
+   * 電子メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。メールコンテンツの設計方法や、ビルトインテンプレートについては、[この節](create-email-content.md)を参照してください。
 
-   * **既存のメールからコピー** サンプルテンプレートのリストから。
+   * サンプルテンプレートのリストで、**既存の電子メールからコピー**&#x200B;します。
 
-   * E メールデザイナーで直接 **Raw HTMLをコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](code-content.md)を参照してください。
+   * 電子メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[この節](code-content.md)を参照してください。
 
    * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
 
    ![](assets/email_designer_25.png)
 
-これらの機能はすべて、メッセージ作成画面から E メールデザイナーにアクセスする場合に使用できます。[メッセージの作成の詳細情報](../messages/get-started-content.md)。
+これらの機能はすべて、メッセージ作成画面から電子メールデザイナーにアクセスする場合に使用できます。[メッセージの作成の詳細情報](../messages/get-started-content.md)。
 
 >[!NOTE]
 >
@@ -43,6 +43,6 @@ ht-degree: 94%
 
 ## ハウツービデオ {#video}
 
-メッセージエディターで電子メールコンテンツを作成する方法を説明します。
+メッセージエディターでメールコンテンツを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
