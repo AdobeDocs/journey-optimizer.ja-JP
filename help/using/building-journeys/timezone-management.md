@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->プロファイルタイムゾーンは、**環境設定詳細** フィールドグループにある **timeZone** フィールドと連携します。
+>プロファイルタイムゾーンは、「**環境設定詳細**」フィールドグループにある「**timeZone**」フィールドと連携します。
 
 ## 固定タイムゾーンの定義 {#fixed-timezone}
 
@@ -53,6 +53,6 @@ Adobe Experience Platform プロファイルでタイムゾーンが定義され
 
 ![](assets/journey73.png)
 
-## 式でのタイムゾーンの使用 {#timezone-in-expressions}
+## 式でタイムゾーンを使用 {#timezone-in-expressions}
 
 ジャーニーの開始日と終了日を特定のタイムゾーンにリンクすることはできません。これらはインスタンスのタイムゾーンに自動的に関連付けられます。
