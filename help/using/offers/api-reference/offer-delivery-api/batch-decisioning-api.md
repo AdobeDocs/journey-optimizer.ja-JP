@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 98%
+source-wordcount: '867'
+ht-degree: 93%
 
 ---
 
@@ -193,7 +193,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 [!DNL Batch Decisioning] API を使用する場合、 次の制限に注意してください。
 
-* **データセットごとに単一のバッチジョブ**：現在、データセットごとに、一度に 1 つのバッチジョブのみを実行できます。出力データセットが同じ他のリクエストが行われた場合、前のリクエストが終了する前に HTTP 429（リクエストが多すぎます）が返されます。
+* **データセットごとの実行中のバッチジョブの数**:一度に最大 5 つのバッチジョブを、データセットごとに実行できます。 同じ出力データセットを持つその他のバッチリクエストがキューに追加されます。 キュー内のジョブは、前のジョブの実行が完了した後に処理するために取得されます。
 * **フリークエンシーキャップ**：1 日に 1 回、プロファイルスナップショットからバッチが実行されます。[!DNL Batch Decisioning] API は頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。
 
 ## 次の手順 {#next-steps}

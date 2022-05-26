@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 90%
+source-wordcount: '1141'
+ht-degree: 85%
 
 ---
 
@@ -132,6 +132,10 @@ ht-degree: 90%
 1. ページ名（デフォルトは「**[!UICONTROL サブページ 1]**」）を変更できます。
 
 1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
+
+   >[!NOTE]
+   >
+   >同じランディングページの任意のサブページからプライマリページへのリンクを挿入できます。 例えば、間違いを犯し、再度購読したいユーザーをリダイレクトするには、確認サブページから購読プライマリページへのリンクを追加します。 にリンクを挿入する方法を説明します。 [この節](../design/message-tracking.md#insert-links).
 
 1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../configuration/lp-subdomains.md)
 

@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 84%
 
 ---
 
@@ -31,15 +31,19 @@ ht-degree: 100%
 
 ルールは、**[!UICONTROL 管理]**／**[!UICONTROL ルール]**&#x200B;メニューから利用できます。すべてのルールが、変更日順に表示されます。
 
->[!NOTE]
->
->メッセージ頻度ルールにアクセス、作成、編集または削除するには、[頻度ルールの管理](../administration/high-low-permissions.md#manage-frequency-rules)権限を備えている必要があります。
-
-![](assets/message-rules-access.png)
-
 フィルターアイコンを使用して、カテゴリ、ステータスまたはチャネル（あるいはその両方）に基づいてフィルターを適用します。また、メッセージラベルで検索することもできます。
 
 ![](assets/message-rules-filter.png)
+
+### 権限{#permissions-frequency-rules}
+
+メッセージ頻度ルールにアクセス、作成、編集または削除するには、**[!UICONTROL 頻度ルールの管理]**&#x200B;権限を備えている必要があります。
+
+を持つ **[!UICONTROL 頻度ルールを表示]** 権限ではルールを表示できますが、変更や削除はできません。
+
+![](assets/message-rules-access.png)
+
+権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
 
 ## ルールの作成 {#create-new-rule}
 
@@ -77,15 +81,15 @@ ht-degree: 100%
 
 1. 選択したすべてのチャネルに対して合計数としてキャッピングを適用する場合は、複数のチャネルを選択します。
 
-   例えば、キャッピングを 15 に設定し、メールチャネルとプッシュチャネルの両方を選択します。プロファイルが既に 10 件のマーケティングメールと 5 件のマーケティングプッシュ通知を受信している場合、このプロファイルは、次に配信されるマーケティングメールまたはプッシュ通知の対象から除外されます。
+   例えば、「キャッピング」を 15 に設定し、E メールチャネルとプッシュチャネルの両方を選択します。 プロファイルが既に 10 件のマーケティングメールと 5 件のマーケティングプッシュ通知を受信している場合、このプロファイルは、次に配信されるマーケティングメールまたはプッシュ通知の対象から除外されます。
 
-1. 「**[!UICONTROL ドラフトとして保存]**」をクリックして、ルールの作成を確定します。メッセージが、（**[!UICONTROL ドラフト]**&#x200B;ステータスで）ルールリストに追加されます。
+1. 「**[!UICONTROL ドラフトとして保存]**」をクリックして、ルールの作成を確定します。メッセージがルールリストに追加され、 **[!UICONTROL ドラフト]** ステータス。
 
    ![](assets/message-rules-created.png)
 
 ## ルールをアクティブ化 {#activate-rule}
 
-作成時、メッセージ頻度ルールは&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスであり、まだどのメッセージにも影響を与えていません。有効にするには、ルールの横の楕円をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
+メッセージ頻度ルールを作成すると、 **[!UICONTROL ドラフト]** ステータスであり、まだメッセージに影響を与えていません。 有効にするには、ルールの横の楕円をクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
 
 ![](assets/message-rules-activate.png)
 
@@ -93,7 +97,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ルールを有効にするために、メッセージやジャーニーを変更または再公開する必要はありません。
+>ルールが完全にアクティブ化されるまでに最大 10 分かかる場合があります。 ルールを有効にするために、メッセージやジャーニーを変更または再公開する必要はありません。
 
 メッセージ頻度ルールを非アクティブ化するには、ルールの横の「...」をクリックし、「**[!UICONTROL 非アクティブ化]**」を選択します。
 
@@ -132,6 +136,10 @@ ht-degree: 100%
 1. メッセージを[デザイン](../design/design-emails.md)して[公開](../messages/publish-manage-message.md)します。
 
 選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
+
+>[!NOTE]
+>
+>メッセージ <!--that do not have any selected category or messages -->選択したカテゴリが **[!UICONTROL トランザクション]** は頻度ルールに対して評価されません。
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ ht-degree: 100%
 このシナリオでは、個々のプロファイルは次のようになります。
 * 1 か月に最大 12 件のマーケティングメッセージを受信できます。
 * ただし、4 件のプッシュ通知を受信した後は、マーケティングプッシュ通知から除外されます。
+
+>[!NOTE]
+>
+>頻度ルールをテストする場合、新しく作成した [テストプロファイル](../segment/creating-test-profiles.md)を使用する場合、プロファイルの頻度キャップに達すると、翌月までカウンターをリセットする方法がなくなります。 ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることができますが、カウンター増分は削除もされません。

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: fa0e0af075f32976afb6b4f7e10b7aea12033b42
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 89%
 
 ---
 
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### コンテキストデータに基づいた特定のオファー属性を持つオファーのブースト
 
-決定の呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げます。例えば、決定の呼び出しで `contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
+判定呼び出しで渡されるコンテキストデータに基づいて、特定のオファーをブーストできます。 例えば、決定の呼び出しで `contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
 
 **ランキング式：**
 
@@ -139,21 +139,9 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ### オファーされる製品を顧客が購入する傾向に基づいたオファーのブースト
 
-航空会社の *travelInsurance* と *extraBaggage* を購入する傾向を計算する&#x200B;*顧客 AI* のインスタンスが 2 つある場合、次のランキング式では、保険または手荷物に特化したオファーについて、その商品の購入に関する顧客の傾向スコアが 90 より大きい場合は、優先度を（50 ポイントだけ）上げます。
+顧客の傾向スコアに基づいて、オファーのスコアを増加させることができます。
 
-ただし、*顧客 AI* インスタンスごとに、統合プロファイルスキーマ内に独自のオブジェクトが作成されるので、オファーの傾向タイプに基づいてスコアを動的に選択することはできません。したがって、`if` ステートメントを連結して、最初にオファーの傾向タイプを確認したあと、適切なプロファイルフィールドからスコアを抽出する必要があります。
-
-**ランキング式：**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-さらに良い解決策は、スコアをプロファイルの配列に格納することです。次の例は、単純なランキング式だけを使用して、様々な傾向スコアで機能します。スコアの配列を含んだプロファイルスキーマがあることを想定しています。この例では、インスタンステナントは *_salesvelocity* で、プロファイルスキーマには次の情報が含まれています。
+この例では、インスタンステナントはです。 *_salesvelocity* また、プロファイルスキーマには、一連のスコアが配列に格納されます。
 
 ![](../assets/ranking-example-schema.png)
 

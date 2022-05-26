@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 99%
+source-wordcount: '1040'
+ht-degree: 94%
 
 ---
 
@@ -16,16 +16,19 @@ ht-degree: 99%
 
 + [Journey Optimizer ドキュメント](ajo-home.md)
 + 新着情報 {#whats-new}
-   + [リリースノート](using/rn/release-notes.md)
-   + [最新の更新内容](using/rn/documentation-updates.md)
+   + [最新のリリースノート](using/rn/release-notes.md)
+   + 以前のリリースノート {#previous-rn-new}
+      + [2022 年リリースノート](using/rn/release-notes-2022.md)
+      + [2021 年リリースノート](using/rn/release-notes-2021.md)
+   + [ドキュメントの更新](using/rn/documentation-updates.md)
 + はじめに {#get-started}
    + [Journey Optimizer について](using/start/get-started.md)
    + クイックスタート{#quick-start}
       + [概要](using/start/quick-start.md)
-      + [マーケター向けの基本を学ぶ](using/start/path/marketer.md)
-      + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
-      + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
-      + [開発者向けの基本を学ぶ](using/start/path/developer.md)
+      + [マーケターとして開始](using/start/path/marketer.md)
+      + [データエンジニアとして開始する](using/start/path/data-engineer.md)
+      + [管理者としての基本を学ぶ](using/start/path/administrator.md)
+      + [開発者としての基本を学ぶ](using/start/path/developer.md)
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [制限事項](using/start/limitations.md)
 + メッセージ {#messages}
@@ -60,7 +63,11 @@ ht-degree: 99%
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
-   + [ランディングページの作成](using/landing-pages/design-lp.md)
+   + コンテンツのデザイン {#landing-pages-design}
+      + [ランディングページのデザインについて](using/landing-pages/design-lp.md)
+      + [ランディングページコンテンツの作成](using/landing-pages/lp-content.md)
+      + [テンプレートの作成](using/landing-pages/lp-templates.md)
+      + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
    + [購読リストの作成](using/landing-pages/subscription-list.md)
    + [ユースケース](using/landing-pages/lp-use-cases.md)
 + パーソナライゼーション{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 99%
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [制限](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + 数学 {#math}
@@ -245,6 +253,7 @@ ht-degree: 99%
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リスト](using/reports/suppression-list.md)
       + [許可リスト](using/reports/allow-list.md)
+   + [Journey Optimizerリソースに対する監査アクション](using/reports/audit-logs.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
@@ -392,3 +401,5 @@ ht-degree: 99%
    + [ユーザーと製品プロファイルの管理](using/administration/permissions.md)
    + [権限レベル](using/administration/high-low-permissions.md)
    + [サンドボックス管理](using/administration/sandboxes.md)
+   + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
+

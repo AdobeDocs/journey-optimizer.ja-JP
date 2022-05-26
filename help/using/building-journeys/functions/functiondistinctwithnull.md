@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 40%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-リストのユニーク値を返します。リストに null 値が少なくとも 1 つ含まれる場合、返されるリストに null 値が含まれます。
+指定されたリストのユニーク値またはオブジェクトを返します。 リストに少なくとも 1 つの null エントリが含まれる場合、返されるリストに null エントリが存在します。
 
 ## カテゴリ
 
@@ -23,20 +23,14 @@ ht-degree: 100%
 
 ## 関数の構文
 
-`distinctWithNull(<parameter>)`
+`distinctWithNull(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| パラメーター | タイプ | 説明 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。 listObject の場合は、フィールド参照である必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターはオプションで、 listObject に対してのみ使用できます。 パラメーターを指定しない場合、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。 それ以外の場合、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -71,6 +65,12 @@ ht-degree: 100%
 `distinctWithNull(<listDuration>)`
 
 期間のリストを返します。
+
+`distinctWithNull(<listObject>)`
+
+`distinctWithNull(<listObject>,<string>)`
+
+オブジェクトのリストを返します。
 
 ## 例
 

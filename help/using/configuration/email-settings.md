@@ -5,10 +5,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
+source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 68%
+source-wordcount: '2232'
+ht-degree: 34%
 
 ---
 
@@ -113,6 +114,216 @@ ht-degree: 68%
 >
 >アドレスは、文字（A ～ Z）で始まる必要があり、英数字のみを使用できます。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
+### メールを転送 {#forward-email}
+
+特定の電子メールアドレスに転送する場合は、 [!DNL Journey Optimizer] デリゲートされたサブドメインについては、Adobeカスタマーケアにお問い合わせください。 以下を指定する必要があります。
+
+* 選択した転送メールアドレス。 転送メールアドレスドメインは、ドメインにデリゲートされたサブドメインと一致しないことに注意してください。Adobe
+* サンドボックス名。
+* 転送メール（「返信先」）アドレスを使用するプリセット名です。
+* 現在の **[!UICONTROL 返信先（E メール）]** アドレスがプリセットレベルで設定されました。
+
+>[!NOTE]
+>
+>サブドメインごとに 1 つの転送メールアドレスのみ指定できます。 その結果、複数のプリセットが同じサブドメインを使用する場合は、それらすべてに対して同じ転送用電子メールアドレスを使用する必要があります。
+
+転送メールアドレスはAdobeが設定します。 これには 3 ～ 4 日かかる場合があります。
+
+## BCC 電子メール {#bcc-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_bcc"
+>title="BCC 電子メールアドレスを定義"
+>abstract="BCC 受信トレイに送信することで、送信済み E メールのコピーを保持できます。 送信されたすべての電子メールがこの BCC アドレスにブラインドコピーされるように、目的の電子メールアドレスを入力します。 この機能は のオプションです。
+"
+
+から送信された E メールの同一のコピー（またはブラインドカーボンコピー）を送信できます [!DNL Journey Optimizer] を BCC インボックスに追加します。 このオプション機能を使用すると、コンプライアンスやアーカイブの目的でユーザーに送信する電子メール通信のコピーを保持できます。 これは、配信の受信者には表示されません。
+
+### BCC 電子メールの有効化 {#enable-bcc}
+
+を有効にするには、以下を実行します。 **[!UICONTROL BCC 電子メール]** 」オプションの上にマウスポインターを置き、該当するフィールドに選択した E メールアドレスを入力します。 デリゲートされたサブドメインで定義された E メールアドレスを除き、任意の外部アドレスを正しい形式で指定できます。 例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+
+>[!NOTE]
+>
+>BCC 電子メールアドレスは 1 つだけ定義できます。 現在のプリセットを使用して送信されるすべての電子メールを保存するのに十分な受信容量が BCC アドレスにあることを確認します。
+
+![](assets/preset-bcc.png)
+
+このプリセットを使用するすべての電子メールメッセージは、入力した BCC 電子メールアドレスにブラインドコピーされます。 ここから、外部システムを使用して処理およびアーカイブできます。
+
+>[!CAUTION]
+>
+>BCC 機能の使用状況は、ライセンスを受けたメッセージの数に対してカウントされます。 したがって、アーカイブする重要な通信に使用されるプリセット内でのみ有効にします。 契約書でライセンスを取得したボリュームを確認します。
+
+BCC 電子メールアドレスの設定は、事前設定されたレベルで直ちに保存および処理されます。 次の場合： [新しいメッセージを作成](../messages/get-started-content.md#create-new-message) このプリセットを使用すると、BCC 電子メールアドレスが自動的に表示されます。
+
+![](assets/preset-bcc-in-msg.png)
+
+ただし、BCC アドレスは、次のロジックに従って通信を送信するために取得されます。
+
+* バッチジャーニーとバーストジャーニーの場合、BCC 設定がおこなわれる前に既に開始していたバッチ実行やバースト実行には適用されません。 変更は、次回の繰り返しまたは新しい実行時に取得されます。
+
+* トランザクションメッセージの場合、変更は次の通信で直ちに取得されます（1 分以内）。
+
+>[!NOTE]
+>
+>BCC 設定を取得するために、メッセージやジャーニーを再公開する必要はありません。
+
+### Recommendationsと限界 {#recommendations-limitations}
+
+* BCC 電子メールアドレスが正しく設定されていることを確認します。 該当しない場合、クライアントの個人を特定できる情報 (PII) が不要なアドレスに送信される可能性があります。
+
+* プライバシー上の理由から、BCC電子メールは、個人の身元を特定できる情報(PII)を安全に保存できるアーカイブシステムで処理する必要があります。
+
+* この機能は、受信者に配信する前に BCC 電子メールアドレスに配信される可能性があり、元の配信に含まれている場合でも BCC メッセージが送信される可能性があります [バウンス](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* BCC アドレスに送信された電子メールが開封され、クリックされた場合は、送信分析からの合計開封数とクリック数に考慮されます。これは、 [レポート](../reports/message-monitoring.md). 同様に、受信ボックスにランディングした BCC 電子メールをスパムとしてマークすると、電子メールが受信ボックスのスパムフォルダーに送られる可能性があります。
+
+* BCC に使用するインボックスは、領域と配信に対して適切に管理される必要があります。 インボックスがバウンスを返した場合、一部の E メールが受信されないので、アーカイブに失敗します。
+
+>[!CAUTION]
+>
+>BCC アドレスに送信される E メールの配信停止リンクをクリックするのを避けます。対応する受信者を直ちに配信停止にするからです。
+
+### GDPR への準拠 {#gdpr-compliance}
+
+GDPR などの規制では、データ主体はいつでも同意を変更できると規定されています。 Journey Optimizerで送信する BCC 電子メールには、安全に個人を特定できる情報 (PII) が含まれているので、 **[!UICONTROL CJM 電子メール BCC フィードバックイベントスキーマ]** を使用すれば、GDPR や同様の規制に準拠してこれらの PII を管理できます。
+
+それには、次の手順に従います。
+
+1. に移動します。 **[!UICONTROL データ管理]** > **[!UICONTROL スキーマ]** > **[!UICONTROL 参照]** を選択し、 **[!UICONTROL CJM 電子メール BCC フィードバックイベントスキーマ]**.
+
+   ![](assets/preset-bcc-schema.png)
+
+1. クリックして展開 **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** その後 **[!UICONTROL secondaryRecipientDetail]**.
+
+1. 選択 **[!UICONTROL originalRecipientAddress]**.
+
+1. 内 **[!UICONTROL フィールドプロパティ]** 右側で、 **[!UICONTROL ID]** チェックボックス。
+
+1. 選択し、「 」も選択します。 **[!UICONTROL プライマリID]**.
+
+1. ドロップダウンリストから名前空間を選択します。
+
+   ![](assets/preset-bcc-schema-identity.png)
+
+1. 「**[!UICONTROL 適用]**」をクリックします。
+
+>[!NOTE]
+>
+>プライバシーの管理と適用される法規制について詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+
+### BCC レポートデータ {#bcc-reporting}
+
+BCC に関するようなレポートは、ジャーニーレポートとメッセージレポートでは使用できません。 ただし、情報は、 **[!UICONTROL AJO BCC フィードバックイベントデータセット]**. このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
+
+このデータセットには、ユーザーインターフェイスからアクセスできます。 選択 **[!UICONTROL データ管理]** > **[!UICONTROL データセット]** > **[!UICONTROL 参照]** また、 **[!UICONTROL システムデータセットを表示]** フィルターを切り替えて、システム生成データセットを表示します。 でデータセットにアクセスする方法の詳細 [この節](../start/get-started-datasets.md#access-datasets).
+
+![](assets/preset-bcc-dataset.png)
+
+このデータセットに対してクエリを実行するには、 [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;}。 アクセスするには、 **[!UICONTROL データ管理]** > **[!UICONTROL クエリ]** をクリックし、 **[!UICONTROL クエリを作成]**. [詳細情報](../start/get-started-queries.md)
+
+![](assets/preset-bcc-queries.png)
+
+どの情報を探しているかに応じて、次のクエリを実行できます。
+
+1. 以下に示すその他すべてのクエリには、ジャーニーアクション ID が必要です。 このクエリを実行して、過去 2 日間に特定のジャーニーバージョン ID に関連付けられたすべてのアクション ID を取得します。
+
+       &quot;&#39;
+       選択
+       DISTINCT
+       CAST(TIMESTAMP AS DATE) AS EventTime,
+       _experience.journeyOrchestration.stepEvents.journeyVersionID,
+       _experience.journeyOrchestration.stepEvents.actionName,
+       _experience.journeyOrchestration.stepEvents.actionID
+       FROM journey_step_events
+       ここで、
+       _experience.journeyOrchestration.stepEvents.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39;および
+       _experience.journeyOrchestration.stepEvents.actionID が NULL ではなく、
+       TIMESTAMP > NOW() — 間隔&#39;2&#39;日
+       ORDER BY EventTime DESC;
+       &quot;&#39;
+   
+   >[!NOTE]
+   >
+   >次の手順で `<journey version id>`パラメーターを選択し、 [ジャーニーバージョン](../building-journeys/journey-versions.md) から **[!UICONTROL ジャーニー管理]** > **[!UICONTROL ジャーニー]** メニュー ジャーニーバージョン ID は、Web ブラウザーに表示される URL の末尾に表示されます。
+   >
+   >![](assets/preset-bcc-action-id.png)
+
+1. このクエリを実行すると、過去 2 日間に特定のユーザーをターゲットとした特定のメッセージに対して生成されたすべてのメッセージフィードバックイベント（特にフィードバックステータス）が取得されます。
+
+       &quot;&#39;
+       選択
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+       _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID,
+       timestamp AS EventTime,
+       _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+       _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+       CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+       「送信済み」の場合、「送信済み」
+       WHEN &#39;delay&#39; THEN &#39;Retry&#39;
+       WHEN &#39;out_of_band&#39; THEN &#39;Bounce&#39;
+       「バウンス」の場合は「バウンス」
+       END AS FeedbackStatusCategory
+       FROM cjm_message_feedback_event_dataset
+       ここで、
+       timestamp > now() - INTERVAL &#39;2&#39;日 AND
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39;および
+       _experience.customerJourneyManagement.messageExecution.journeyActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>&#39;および
+       _experience.customerJourneyManagement.emailChannelContext.address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39;
+       ORDER BY EventTime DESC;
+       &quot;&#39;
+   
+   >[!NOTE]
+   >
+   >次の手順で `<journey action id>` パラメーターを使用する場合は、上記の最初のクエリを、ジャーニーバージョン id を使用して実行します。 この `<recipient email address>` パラメーターは、ターゲットとなる、または実際の受信者の E メールアドレスです。
+
+1. このクエリを実行して、過去 2 日間に特定のユーザーをターゲットとした特定のメッセージに対して生成されたすべての BCC メッセージフィードバックイベントを取得します。
+
+   ```
+   SELECT   
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+   _experience.customerJourneyManagement.emailChannelContext.address AS BccEmailAddress,
+   timestamp AS EventTime, 
+   _experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddress, 
+   _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+   CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+               WHEN 'sent' THEN 'Sent'
+               WHEN 'delay' THEN 'Retry'
+               WHEN 'out_of_band' THEN 'Bounce' 
+               WHEN 'bounce' THEN 'Bounce'
+           END AS FeedbackStatusCategory 
+   FROM ajo_bcc_feedback_event_dataset  
+   WHERE  
+   timestamp > now() - INTERVAL '2' day  AND
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journeyaction id>' AND 
+   _experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress = '<recipient email address>'
+   ORDER BY EventTime DESC;
+   ```
+
+1. このクエリを実行すると、過去 30 日以内に BCC エントリが存在するのに対し、メッセージを受信しなかったすべての受信者アドレスが取得されます。
+
+   ```
+   SELECT
+       DISTINCT 
+   bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddressesNotRecievedMessage
+   FROM ajo_bcc_feedback_event_dataset bcc
+   LEFT JOIN cjm_message_feedback_event_dataset mfe
+   ON 
+   bcc._experience.customerJourneyManagement.messageExecution.journeyVersionID =
+           mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AND    bcc._experience.customerJourneyManagement.messageExecution.journeyActionID = mfe._experience.customerJourneyManagement.messageExecution.journeyActionID AND 
+   bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress = mfe._experience.customerJourneyManagement.emailChannelContext.address AND
+   mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+   mfe._experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND
+   mfe.timestamp > now() - INTERVAL '30' DAY AND
+   mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
+   WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
+   ```
+
 ## メールの再試行パラメーター {#email-retry}
 
 >[!CONTEXTUALHELP]
@@ -154,7 +365,7 @@ ht-degree: 68%
 URL トラッキングパラメーターを設定するには、目的の値を **[!UICONTROL 名前]** および **[!UICONTROL 値]** フィールドを選択するか、次のオブジェクトに移動して、事前定義済みの値のリストから選択します。
 
 * ジャーニー属性： **ソース ID**, **ソース名**, **ソースバージョン ID**
-* メッセージ属性： **アクション ID**, **アクション名**
+* アクション属性： **アクション ID**, **アクション名**
 * Offer decisioning属性： **オファー ID**, **オファー名**
 
 ![](assets/preset-url-tracking-source.png)

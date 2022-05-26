@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '151'
+ht-degree: 44%
 
 ---
 
 # distinct {#distinct}
 
-リストのユニーク値を null 値なしで返します。
+指定されたリストのユニーク値またはオブジェクトを返します。 Null エントリは無視されます。
 
 ## カテゴリ
 
@@ -23,20 +23,14 @@ ht-degree: 100%
 
 ## 関数の構文
 
-`distinct(<parameter>)`
+`distinct(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| パラメーター | タイプ | 説明 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。 listObject の場合は、フィールド参照である必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターはオプションで、 listObject に対してのみ使用できます。 パラメーターを指定しない場合、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。 それ以外の場合、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -71,6 +65,13 @@ ht-degree: 100%
 `distinct(<listDuration>)`
 
 期間のリストを返します。
+
+`distinct(<listObject>)`
+
+`distinct(<listObject>,<string>)`
+
+オブジェクトのリストを返します。
+
 
 ## 例
 

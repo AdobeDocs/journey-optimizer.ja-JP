@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 名前]**：プレースメントの名前。わかりやすい名前を定義して、取得しやすくします。
    * **[!UICONTROL チャネルタイプ]**：プレースメントの使用先となるチャネル。
-   * **[!UICONTROL コンテンツタイプ]**：プレースメントに表示できるコンテンツのタイプ（テキスト、HTML、画像リンク）。
+   * **[!UICONTROL コンテンツタイプ]**:配置で表示できるコンテンツのタイプ：テキスト、HTML、画像リンク、JSON のいずれかです。
    * **[!UICONTROL 説明]**：プレースメントの説明（オプション）。
 
    ![](../assets/offers_placement_creation_properties.png)

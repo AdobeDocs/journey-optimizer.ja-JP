@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 99%
+source-wordcount: '1140'
+ht-degree: 97%
 
 ---
 
@@ -102,6 +102,10 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
+
+>[!NOTE]
+>
+>1 回限りのセグメント読み取りジャーニーは、ジャーニーの実行から 30 日後に完了ステータスに移行します。 スケジュールされた読み取りセグメントの場合、最後のセグメントの実行から 30 日後になります。
 
 ### ジャーニーのテストと公開 {#testing-publishing}
 

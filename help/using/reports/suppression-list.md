@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '771'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 [!DNL Journey Optimizer] 抑制リストは、独自の環境レベルで管理されます。
 
 単一のクライアント環境（サンドボックス ID に関連付けられた 組織 ID に固有の環境）で、すべてのメーリングをまたいで抑制されるメールアドレスとドメインを収集します。
+
+>[!NOTE]
+>
+>Adobeは、エンゲージメントやメーリングの評判に悪影響を与えると証明されている、既知の不正な E メールアドレスのリストを更新し、E メールが配信されないようにします。 このリストは、すべてのAdobeのお客様に共通のグローバル抑制リストで管理されます。 グローバル抑止リストに含まれているアドレスやドメイン名は非公開です。除外された受信者の数のみが配信レポートに表示されます。
 
 ## 抑制リストを使用する理由 {#why-suppression-list}
 

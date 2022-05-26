@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 93%
+source-wordcount: '1414'
+ht-degree: 89%
 
 ---
 
@@ -13,9 +13,13 @@ ht-degree: 93%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
+## 2022 年 6 月 {#june-2022}
+
+* 関連する新しいクエリの例： [セグメントの選定](../reports/query-examples.md#segment-qualification-queries) および [イベント](../reports/query-examples.md#event-based-queries) これに追加されました
 
 ## 2022 年 5 月 {#may-2022}
 
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 5 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * E メールのデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関するメンションが追加されました。 関連するスクリーンショットが更新されました。 [詳細情報](../design/design-emails.md)
 * 主要リソースへのリンクが、Journey Optimizerドキュメントのホームページで更新されました。
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。 [詳細情報](../reports/live-report.md)
@@ -23,6 +27,7 @@ ht-degree: 93%
 * ハウツービデオへのリンクが更新されました。
 * この [電子メール設定](../configuration/about-subdomain-delegation.md), [メッセージプリセット](../configuration/message-presets.md) および [ランディングページの設定](../configuration/lp-subdomains.md) の節が再編成され、読みやすくなりました。
 * この **URL トラッキング** の節が更新および改訂され、例が追加されました。 [詳細情報](../configuration/email-settings.md#url-tracking)
+* 転送メールアドレスの設定に関する新しい節が追加されました。 ユーザーインターフェイスでは実行できません。 [詳細情報](../configuration/email-settings.md#forward-email)
 
 ## 2022年4月 {#april-2022}
 

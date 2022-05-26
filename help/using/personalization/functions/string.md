@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 97%
 
 ---
 
@@ -359,6 +359,26 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
 ```
+
+## マスク (#mask)
+
+この `Mask` 関数は、文字列の一部を「X」文字に置き換えるために使用されます。
+
+**形式**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**例**
+
+次のクエリでは、「123456789」文字列を「X」文字に置き換えます（最初と最後の 2 文字を除く）。
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+クエリが返すクエリ `1XXXXXX89`.
 
 ## notEqualTo{#notEqualTo}
 

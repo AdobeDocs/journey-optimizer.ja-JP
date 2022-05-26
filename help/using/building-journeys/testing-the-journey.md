@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 100%
+source-wordcount: '1548'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,6 @@ ht-degree: 100%
 >
 >ジャーニーをテストする前に、エラーが発生した場合はすべて解決する必要があります。テストする前にエラーを確認する方法については、[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。
 
-
 テストモードを使用するには、次の手順に従います。
 
 1. テストモードをアクティブにするには、右上隅にある「**[!UICONTROL テスト]**」切り替えスイッチをオンにします。
@@ -41,7 +40,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ジャーニーで反応イベントを使用する場合、待機時間のデフォルト値は最小値の 40 秒になります。[この節](../building-journeys/reaction-events.md)を参照してください。
+   >タイムアウトを含む反応イベントがジャーニーで使用される場合、待機時間のデフォルト値と最小値は 40 秒です。 [この節](../building-journeys/reaction-events.md)を参照してください。
 
 1. 「**[!UICONTROL イベントをトリガー]**」ボタンを使用してイベントを設定し、ジャーニーに送信します。
 

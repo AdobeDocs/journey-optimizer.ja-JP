@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1089'
 ht-degree: 100%
 
 ---
@@ -436,22 +436,24 @@ ht-degree: 100%
    * landing_page_preset.write
    * landing_page_preset.delete
 
-### [!DNL Manage frequency rules] 権限 {#manage-frequency-rules}
+<!--
+### [!DNL Manage frequency rules] permission {#manage-frequency-rules}
 
-**[!DNL Manage frequency rules]** 高レベル権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化／非アクティブ化を行うことができます。
+The **[!DNL Manage frequency rules]** high-level permission allows users to read, create, edit, delete and activate/deactivate frequency rules.
 
-これには、次の低レベル権限が含まれます。
+It includes the following low-level permissions:
 
-* Journey Optimizer 固有：
-   * frequency_rules.read
-   * frequency_rules.write
-   * frequency_rules.delete
+* Journey Optimizer specific: 
+  * frequency_rules.read
+  * frequency_rules.write
+  * frequency_rules.delete
 
-### [!DNL View frequency rules] 権限 {#view-frequency-rules}
+### [!DNL View frequency rules] permission {#view-frequency-rules}
 
-**[!DNL View frequency rules]** 高レベル権限を持つユーザーは、頻度ルールを表示できます。
+The **[!DNL View frequency rules]** high-level permission allows users to view frequency rules. 
 
-これには、次の低レベル権限が含まれます。
+It includes the following low-level permissions:
 
-* Journey Optimizer 固有：
-   * frequency_rules.read
+* Journey Optimizer specific: 
+  * frequency_rules.read
+-->
