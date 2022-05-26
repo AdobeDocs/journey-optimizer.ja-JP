@@ -1,6 +1,6 @@
 ---
 title: Adobe Stock
-description: Adobe Stockの概要
+description: Adobe Stock の基本を学ぶ
 feature: Overview
 topic: Content Management
 role: User
@@ -9,74 +9,74 @@ hide: true
 hidefromtoc: true
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
-# 管理 [!DNL Adobe Stock] 画像 {#stock}
+# [!DNL Adobe Stock] 画像の管理 {#stock}
 
 ## [!DNL Adobe Stock] の基本を学ぶ {#get-started-stock}
 
 >[!IMPORTANT]
 >
-> の使用 [!DNL Adobe Stock] 現在、の統合は一部のユーザーに対してのみ早期に利用できます。 この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
+> [!DNL Adobe Stock] 統合は現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
-[!DNL Adobe Stock] は、何百万もの高品質で厳選された、ロイヤリティフリーの写真、ビデオ、イラスト、ベクトルグラフィックを利用できます。 クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して Standard または Extended のライセンスを 1 つだけ購入するかを選択できます。 Adobe Stockはまた、アセットの無料コレクションを提供しています。
+[!DNL Adobe Stock] では、数百万もの高品質で厳選された、ロイヤリティフリーの写真、ビデオ、イラスト、ベクターグラフィックを利用できます。クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
 
-詳しくは、 [!DNL Adobe Stock]（を参照） [Adobe Stockはじめに](https://helpx.adobe.com/stock/get-started.html).
+[!DNL Adobe Stock] について詳しくは、[Adobe Stock 入門](https://helpx.adobe.com/jp/stock/get-started.html)を参照してください。
 
-を使用 [!DNL Adobe Journey Optimizer]を使用すると、 [!DNL Adobe Stock] をクリックし、Assets フォルダーに追加します。 この **[!UICONTROL 類似画像を検索]** オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索できます。
+[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] から画像を直接メールにアップロードし、Assets フォルダーに追加することができます。「**[!UICONTROL 類似画像を検索]**」オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索することができます。
 メールデザインについて詳しくは、[こちら](design-emails.md)を参照してください。
 
-## 挿入と読み込み [!DNL Adobe Stock] 画像 {#add-stock-image}
+## [!DNL Adobe Stock] 画像の挿入および読み込み {#add-stock-image}
 
-E メールを編集およびパーソナライズした後、 [!DNL Adobe Stock] をテンプレートに追加します。
+メールを編集およびパーソナライズした後、[!DNL Adobe Stock] から画像をテンプレートに追加できます。
 
-1. 画像をドラッグ&amp;ドロップ **[!UICONTROL コンテンツコンポーネント]** を電子メールに送信します。
+1. 画像の&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;をメールにドラッグ＆ドロップします。
 
    ![](assets/stock_1.png)
 
-1. 次の **[!UICONTROL コンポーネント設定]** メニュー、選択 **[!UICONTROL Adobe Stockの写真を検索]**.
+1. **[!UICONTROL コンポーネント設定]**&#x200B;メニューから、**[!UICONTROL Adobe Stock 写真の検索]**&#x200B;を選択します。
 
    ![](assets/stock_2.png)
 
-1. ライブラリを参照するか、フィールドに検索語句を入力します。 選択した画像を選択し、 **[!UICONTROL 保存]**.
+1. ライブラリを参照するか、フィールドに検索語句を入力します。選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/stock_3.png)
 
-1. 画像のライセンスを取得してダウンロードするには、画像を選択します **[!UICONTROL コンテンツコンポーネント]** をクリックし、 **[!UICONTROL Adobe Stock画像のライセンス]**. 次のページにリダイレクトされます： [!DNL Adobe Stock] web サイト。
+1. 画像のライセンスを取得してダウンロードするには、画像の&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;を選択し、**[!UICONTROL ライセンス Adobe Stock 画像]**&#x200B;をクリックします。[!DNL Adobe Stock] web サイトにリダイレクトされます。
 
    >[!NOTE]
-   > 画像が既にライセンスされている場合は、 ![](assets/stock_10.png) アイコン その場合は、手順 7 に進むことができます。
+   > 画像がライセンス済みの場合は、![](assets/stock_10.png) アイコンによって表示されます。その場合は、手順 7 に進みます。
 
    ![](assets/stock_4.png)
 
-1. 次の [!DNL Adobe Stock] web サイトで画像をダウンロードして透かしを削除するには、アセットを購入する必要があります。
+1. [!DNL Adobe Stock] web サイトで、画像をダウンロードして透かしを削除するには、アセットを購入する必要があります。
 
-   この購入は、Adobe Stockのプランまたはサブスクリプションによって異なります。 詳しくは、この[ページ](https://stock.adobe.com/plans)を参照してください。
+   価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。詳しくは、この[ページ](https://stock.adobe.com/jp/plans)を参照してください。
 
    >[!WARNING]
-   > ライセンスが不要な画像を含む E メールが送信された場合、画像は、ライセンスが不要なフォームの透かしを保持します。
+   > 未ライセンスの画像を含むメールが送信された場合、画像は透かしのある未ライセンスのフォームを保持します。
 
    ![](assets/stock_5.png)
 
-1. 購入が完了したら、次のページで E メールに戻ることができます。 [!DNL Adobe Journey Optimizer] を選択し、 **[!UICONTROL 在庫画像をインポート]** をクリックして、ライセンス済みの画像をアセットに読み込みます。
+1. 購入が完了したら、[!DNL Adobe Journey Optimizer] でメールに戻り、「**[!UICONTROL ストック画像を読み込み]**」を選択して、ライセンス済みの画像をアセットに読み込むことができます。
 
    ![](assets/stock_6.png)
 
-1. アセットを保存するフォルダーを選択します。 詳しくは、 [!DNL Assets Essentials]（これを参照） [ページ](assets-essentials.md#get-started-assets-essentials).
+1. アセットを保存するフォルダーを選択します。[!DNL Assets Essentials] について詳しくは、[この節](assets-essentials.md#get-started-assets-essentials)を参照してください。
 
    ![](assets/stock_7.png)
 
-1. 次から画像を選択した後： [!DNL Adobe Stock]、 **[!UICONTROL 類似の写真を検索]** 」オプションを使用して、画像のコンテンツ、カラーおよび構成に一致するアセットを検索できます。
+1. 画像を [!DNL Adobe Stock] から選択した後、「**[!UICONTROL 類似したストック写真の検索]**」オプションを使用して、画像のコンテンツ、カラーおよび構成に一致するアセットを検索できます。
 
-   このオプションは、Assets フォルダー内のライセンス済み/ライセンス未取得の Stock 画像と画像に対して使用できます。
+   このオプションは、Assets フォルダー内のライセンス済み／未ライセンスのストック画像と画像に対して使用できます。
 
    ![](assets/stock_8.png)
 
-1. 画像を **[!UICONTROL コンポーネント設定]** メニュー コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
+1. 画像を&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;メニューでさらにカスタマイズします。コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
 
    ![](assets/stock_11.png)
 
