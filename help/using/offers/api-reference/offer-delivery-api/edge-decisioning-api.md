@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -21,14 +21,13 @@ ht-degree: 100%
 
  Experience Platform Web SDK では、意思決定管理を含む Adobe のパーソナライゼーションソリューションのクエリをサポートしており、API またはオファーライブラリを使用して作成した、パーソナライズされたオファーを取得およびレンダリングできます。詳しい手順については、[オファーの作成](../../get-started/starting-offer-decisioning.md)についてのドキュメントを参照してください。
 
-[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) を使用して Offer Decisioning を実装するには、次の 2 つの方法があります。1 つ目は、開発者が対象の、web サイトやプログラミングに関する知識を必要とする方法です。もう 1 つは、Adobe Experience Platform のユーザーインターフェイスを使用して、HTML ページのヘッダーで参照する小さなスクリプトのみを必要とするオファーを設定する方法です。
+[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja#video-overview) を使用して Offer Decisioning を実装するには、次の 2 つの方法があります。1 つ目は、開発者が対象の、web サイトやプログラミングに関する知識を必要とする方法です。もう 1 つは、Adobe Experience Platform のユーザーインターフェイスを使用して、HTML ページのヘッダーで参照する小さなスクリプトのみを必要とするオファーを設定する方法です。
 
 Platform Web SDK を使用してパーソナライズされたオファーを配信する方法の詳細については、[Offer Decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ja#enabling-offer-decisioning) に関するドキュメントを参照してください。
 
 >[!NOTE]
 >
->現在、Adobe Experience Platform Web SDK での意思決定管理は、一部のユーザーに対する早期アクセスで利用いただけます。
-この機能は、一部の 組織ではご利用いただけきません。
+>現在、Adobe Experience Platform Web SDK での意思決定管理は、一部のユーザーに対する早期アクセスで利用いただけます。この機能は、一部の組織ではご利用いただけきません。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
@@ -47,7 +46,7 @@ SDK は、これらのライブラリを組み合わせることができず、�
 
 1. Adobe Experience Cloud のアカウントにある「データ収集」タブで[データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)します。
 
-1. SDK をインストールします。 [SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)に記載されているように、複数の方法があります。このページでは、様々な実装方法を使用して説明を続けます。
+1. SDK をインストールします。[SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)に記載されているように、複数の方法があります。このページでは、様々な実装方法を使用して説明を続けます。
 
 SDK を使用するには、[スキーマ](../../../start/get-started-schemas.md)および[データストリーム](../../../start/get-started-datasets.md)を定義する必要があります。
 
@@ -93,7 +92,7 @@ Offer Decisioning の SDK を設定するには、次の 2 つの手順に従い
 
 Web SDK が事前にビルドされたスタンドアロンインストールを使用した Offer Decisioning を使用するために必要な手順を次に示します。このガイドは、SDK を初めて実装する場合を想定しています。そのため、すべての手順が当てはまるとは限りません。このガイドは、ある程度の開発経験も前提としています。
 
-オプション 2 から次の JavaScript スニペットを含める：HTML ページの「`<head>` 」セクションに表示される[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en)のビルド済みスタンドアロンバージョン。
+オプション 2 から次の JavaScript スニペットを含める：HTML ページの「`<head>` 」セクションに表示される[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)のビルド済みスタンドアロンバージョン。
 
 ```
 javascript
@@ -126,7 +125,7 @@ javascript
     });
 ```
 
-デバッグで使用する Debugger Chrome 拡張機能をインストールします。 詳細はこちら <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob> をご覧ください。
+デバッグで使用する Debugger Chrome 拡張機能をインストールします。詳細はこちら <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob> をご覧ください。
 
 次に、デバッガー内でアカウントにログインします。次に、ログに移動し、正しいワークスペースに接続されていることを確認します。次に、オファーから base64 エンコードされたバージョンの決定範囲をコピーします。
 
