@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->この機能は、[!DNL Decisioning] API への単一のリクエストをシミュレートします。詳細情報： [判定 API を使用したオファーの配信](../api-reference/offer-delivery-api/decisioning-api.md).
+>この機能は、[!DNL Decisioning] API への単一のリクエストをシミュレートします。詳しくは、[Decisioning API を使用したオファーの配信](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
 
 この機能にアクセスするには、**[!UICONTROL 意思決定管理]**／**[!UICONTROL オファー]**&#x200B;メニューから「**[!UICONTROL シミュレーション]**」タブを選択します。
 
