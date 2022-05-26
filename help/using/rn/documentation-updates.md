@@ -2,9 +2,9 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1411'
 ht-degree: 89%
 
 ---
@@ -13,13 +13,10 @@ ht-degree: 89%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
-## 2022 年 6 月 {#june-2022}
-
-* 関連する新しいクエリの例： [セグメントの選定](../reports/query-examples.md#segment-qualification-queries) および [イベント](../reports/query-examples.md#event-based-queries) これに追加されました
-
 ## 2022 年 5 月 {#may-2022}
 
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 5 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* 関連する新しいクエリの例： [セグメントの選定](../reports/query-examples.md#segment-qualification-queries) および [イベント](../reports/query-examples.md#event-based-queries) が追加されました。
 * E メールのデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関するメンションが追加されました。 関連するスクリーンショットが更新されました。 [詳細情報](../design/design-emails.md)
 * 主要リソースへのリンクが、Journey Optimizerドキュメントのホームページで更新されました。
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。 [詳細情報](../reports/live-report.md)
