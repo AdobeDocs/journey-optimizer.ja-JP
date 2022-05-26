@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 73%
 
 ## [!DNL Assets Essentials] の基本を学ぶ {#get-started-assets-essentials}
 
-を使用してマーケティングワークフローとクリエイティブワークフローを統合する [!DNL Adobe Experience Manager Assets Essentials]. とネイティブに統合されている [!DNL Adobe Journey Optimizer]，アクセス [!DNL Assets Essentials] デジタルアセットの保存、管理、検出、配布。 メッセージの入力に使用できる、アセットの単一の一元的なリポジトリを提供します。
+[!DNL Adobe Experience Manager Assets Essentials] を使用してマーケティングワークフローとクリエイティブワークフローを統合します。[!DNL Adobe Journey Optimizer] とネイティブに統合され、[!DNL Assets Essentials] へアクセスして、デジタルアセットの保存、管理、検出、配布を行います。メッセージの入力に使用できる、アセットの一元的なリポジトリを提供します。
 
-[!DNL Adobe Experience Manager Assets Essentials] は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に統合する、共同で一元化されたアセットワークスペースです。 承認済みの実稼動アセットを簡単に整理、タグ付け、検索して、チーム間でブランドの一貫性を確保できます。 直感的なユーザーエクスペリエンスで、 [!DNL Assets Essentials] を使用すれば、AdobeクリエイティブアプリやExperience Cloudアプリ内でアセットをすぐに共有できます。
+[!DNL Adobe Experience Manager Assets Essentials] は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に統合するために共同作業できる、一元化されたアセットワークスペースです。承認済みの実稼動アセットを簡単に整理、タグ付け、検索して、チーム間でブランドの一貫性を確保できます。直感的なユーザーエクスペリエンスによって、[!DNL Assets Essentials] を使用すれば、Adobe Creative アプリや Experience Cloud アプリ内でアセットをすぐに共有できます。
 
-詳しくは、 [Adobe Experience Manager Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;}。
+詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
-[!DNL Adobe Experience Manager Assets Essentials] は、から直接アクセスできます。 [!DNL Adobe Journey Optimizer] 左のメニューから **[!UICONTROL Assets]** 」セクションに入力します。 また、 [e メールコンテンツの設計](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] は左メニューの「**[!UICONTROL アセット]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。また、[メールのコンテンツをデザイン](design-emails.md)する際に、アセットやフォルダーにアクセスすることもできます。
 
 ## 前提条件{#assets-prerequisites}
 
- [!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;製品プロファイルに追加する必要があります。 詳しくは、 [Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;}。
+ [!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 >[!NOTE]
->2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、 [Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} の節をご覧ください。
+>2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} の節をご覧ください。
 
 ## アセットのアップロードと挿入{#add-asset}
 
