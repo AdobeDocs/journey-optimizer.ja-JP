@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 92%
 
 ## コンテナへのアクセスの管理 {#manage-access-to-container}
 
-コンテナとは、異なる関心事を切り分けるための分離メカニズムです。コンテナ ID は、すべてのリポジトリー API の最初のパス要素です。すべての決定オブジェクトはコンテナ内に存在します。
+コンテナとは、異なる関心事を切り分けるための分離メカニズムです。コンテナ ID は、すべてのリポジトリ API の最初のパス要素です。すべての決定オブジェクトはコンテナ内に存在します。
 
 管理者は、類似したプリンシパル、リソースおよびアクセス権限をプロファイルにグループ化できます。これにより、管理上の負担が軽減され、[Adobe Admin Console](https://adminconsole.adobe.com/) でサポートされます。プロファイルを作成し、ユーザーを割り当てるには、組織内の Adobe Experience Platform の製品管理者である必要があります。1 回限りの手順で特定の権限に一致する製品プロファイルを作成し、その後、それらのユーザーにプロファイルを追加するだけで十分です。プロファイルは、権限が付与されたグループとして機能し、そのグループ内のすべての実際のユーザーまたは技術ユーザーは、権限を継承します。
 
@@ -65,7 +65,7 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリー API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{PRODUCT_CONTEXT}` | コンテナのリストを、製品コンテキストとの関連付けによってフィルターします。 | `acp` |
 | `{PROPERTY}` | 返されるコンテナの種類をフィルターします。 | `_instance.containerType==decisioning` |
 
@@ -133,12 +133,11 @@ curl -X GET \
 
 >[!NOTE]
 >
-> Adobe Journey Optimizerのアプリ内メッセージチャネルは、メッセージオブジェクトをoffer decisioningします。 組織がアプリ内メッセージチャネルを使用している場合、オブジェクトの API リストリクエストには、アプリ内メッセージサービスで作成されたオブジェクトが含まれ、offer decisioningの使用例では無視できます。 アプリ内メッセージ用に作成されたオブジェクトには、 `createdBy = “Mobile_Sheliak”`.
+> Adobe Journey Optimizer のアプリ内メッセージチャネルは、オファー決定支援オブジェクトを使用します。組織がアプリ内メッセージチャネルを使用している場合、オブジェクトの API リストリクエストには、アプリ内メッセージサービスで作成されたオブジェクトが含まれ、オファー決定支援のユースケースでは無視できます。アプリ内メッセージ用に作成されたオブジェクトには、`createdBy = “Mobile_Sheliak”` があります。
 
 ## ハウツービデオ {#video}
 
-次のビデオは、「意思決定管理」の構成要素の理解をサポートするためのものです。
-
+次のビデオは、「意思決定管理」のコンポーネントの理解をサポートするためのものです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 

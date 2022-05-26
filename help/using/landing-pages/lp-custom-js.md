@@ -1,6 +1,6 @@
 ---
 title: ランディングページでのカスタム JavaScript の使用
-description: Journey Optimizerでランディングページのコンテンツを作成する方法を説明します。
+description: Journey Optimizer でランディングページのコンテンツを作成する方法を説明します。
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -26,7 +26,7 @@ ht-degree: 7%
 
    ![](assets/lp_designer-html-component.png)
 
-* JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。 独自のコンテンツの作成方法については、[iこの節](../design/code-content.md)を参照してください。
+* JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。 独自のコンテンツの作成方法については、[この節](../design/code-content.md)を参照してください。
 
 >[!NOTE]
 >

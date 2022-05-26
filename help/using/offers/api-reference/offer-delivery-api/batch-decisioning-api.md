@@ -9,7 +9,7 @@ exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -67,7 +67,7 @@ POST {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリー API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ode` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
@@ -109,7 +109,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 詳しくは、[意志決定管理ドキュメント](../../get-started/starting-offer-decisioning.md)で、主な概念とプロパティの概要を参照してください。
 
-**応答** 
+**応答**
 
 ```json
 {
@@ -141,7 +141,7 @@ GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリー API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ode` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{WORKLOAD_ID}` | 単一のワークロードを識別する Offer decisioning によって生成される UUID。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
@@ -158,7 +158,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 -H 'Authorization: Bearer {ACCESS_TOKEN}'
 ```
 
-**応答** 
+**応答**
 
 ```json
 {

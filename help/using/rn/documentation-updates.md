@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 89%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
-## 2022 年 5 月 {#may-2022}
+## 2022年5月 {#may-2022}
 
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 5 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * 関連する新しいクエリの例： [セグメントの選定](../reports/query-examples.md#segment-qualification-queries) および [イベント](../reports/query-examples.md#event-based-queries) が追加されました。
-* E メールのデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関するメンションが追加されました。 関連するスクリーンショットが更新されました。 [詳細情報](../design/design-emails.md)
-* 主要リソースへのリンクが、Journey Optimizerドキュメントのホームページで更新されました。
-* ランディングページおよび購読レポートのスクリーンショットが更新されました。 [詳細情報](../reports/live-report.md)
-* Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。 [詳細情報](../action/about-custom-action-configuration.md)
-* ハウツービデオへのリンクが更新されました。
+* メールデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関する記述が追加されました。関連するスクリーンショットを更新しました。[詳細情報](../design/design-emails.md)
+* 主要リソースへのリンクが、Journey Optimizer ドキュメントのホームページで更新されました。
+* ランディングページおよび購読レポートのスクリーンショットが更新されました。[詳細情報](../reports/live-report.md)
+* Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。[詳細情報](../action/about-custom-action-configuration.md)
+* チュートリアルビデオへのリンクが更新されました。
 * この [電子メール設定](../configuration/about-subdomain-delegation.md), [メッセージプリセット](../configuration/message-presets.md) および [ランディングページの設定](../configuration/lp-subdomains.md) の節が再編成され、読みやすくなりました。
 * この **URL トラッキング** の節が更新および改訂され、例が追加されました。 [詳細情報](../configuration/email-settings.md#url-tracking)
 * 転送メールアドレスの設定に関する新しい節が追加されました。 ユーザーインターフェイスでは実行できません。 [詳細情報](../configuration/email-settings.md#forward-email)
@@ -33,7 +33,7 @@ ht-degree: 89%
 * 意思決定管理機能に関するビデオが更新され、Journey Optimizer のユーザーインターフェイスが反映されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 * **データセットの基本を学ぶ**&#x200B;の節が改善され、データセットへのアクセスおよび作成方法の詳細が追加されました。[詳細情報](../start/get-started-datasets.md)
 * ヘルプガイドおよび製品リリースノートへのリンクが **Adobe Journey Optimizer ドキュメント**&#x200B;のホームページに追加されました。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
-* **メッセージプリセットの作成** の節で、選択した IP プールが編集中（**[!UICONTROL 処理中]**&#x200B;ステータス）で選択したサブドメインに関連付けられていないときは、プリセットの作成を続行できないことが明記されるようになりました。[詳細情報](../configuration/message-presets.md#subdomains-and-ip-pools)
+* **メッセージプリセットの作成**&#x200B;の節で、選択した IP プールが編集中（**[!UICONTROL 処理中]**&#x200B;ステータス）で選択したサブドメインに関連付けられていないときは、プリセットの作成を続行できないことが明記されるようになりました。[詳細情報](../configuration/message-presets.md#subdomains-and-ip-pools)
 * 「メッセージプリセットの作成」の **URL トラッキング**&#x200B;の節が更新され、ユーザーインターフェイスの小さな変更が反映されました。[詳細情報](../configuration/message-presets.md#url-tracking)
 
 ## 2022年3月 {#march-2022}
@@ -140,12 +140,12 @@ ht-degree: 89%
 * [!DNL Journey Optimizer] 製品説明へのリンクがホームページに追加されました
 * 複数のページにチュートリアルビデオが追加されました
 * ホームページの画像が最適化されました
-* 「メッセージトラッキング」の節が移動し、改善され、タイトルが「リンクの追加とメッセージのトラッキング」に変更されました。[詳細を読む](../design/message-tracking.md)
-* ミラーページにサブセクションが追加されました。[詳細を読む](../design/message-tracking.md#mirror-page)
-* ドキュメントと画面上で、「オファーアクティビティ」が「決定」、「決定」が「決定範囲」に名称変更されました。[詳細を読む](../offers/get-started/starting-offer-decisioning.md)
+* 「メッセージトラッキング」の節が移動し、改善され、タイトルが「リンクの追加とメッセージのトラッキング」に変更されました。[詳細情報](../design/message-tracking.md)
+* ミラーページにサブセクションが追加されました。[詳細情報](../design/message-tracking.md#mirror-page)
+* ドキュメントと画面上で、「オファーアクティビティ」が「決定」、「決定」が「決定範囲」に名称変更されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](../personalization/personalization-use-case-helper-functions.md)が追加されました
-* 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。[詳細を読む](../building-journeys/read-segment.md)
-* ジャーニーの制限が更新されました。[詳細を読む](../start/limitations.md)
+* 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。[詳細情報](../building-journeys/read-segment.md)
+* ジャーニーの制限が更新されました。[詳細情報](../start/limitations.md)
 * 「決定でのオファー選択の設定」の節を更新しました。[詳細情報](../offers/offer-activities/configure-offer-selection.md)
 * イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。[詳細情報](../offers/get-started/user-interface.md#overview)

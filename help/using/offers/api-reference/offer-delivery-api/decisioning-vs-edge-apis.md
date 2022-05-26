@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 | Edge Decisioning API | 5,000 | &lt;250 ms |
 
 API の使用方法について詳しくは、次の節を参照してください。
-* [Decisioning API](decisioning-api.md)
-* [Edge Decisioning API](edge-decisioning-api.md)
+* [判定 API](decisioning-api.md)
+* [Edge 判定 API](edge-decisioning-api.md)
 
 ## Edge Decisioning API の機能 {#edge}
 

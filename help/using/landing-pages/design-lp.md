@@ -1,6 +1,6 @@
 ---
 title: ランディングページの作成
-description: Journey Optimizerでランディングページのコンテンツを作成する方法を説明します。
+description: Journey Optimizer でランディングページのコンテンツを作成する方法を説明します。
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 * コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロからデザイン**&#x200B;し、[Adobe Experience Manager Assets Essentials](../design/assets-essentials.md) の画像を活用します。コンテンツのデザイン方法を学ぶ <!--or use built-in templates--> [この節](../design/create-email-content.md).
 
-* コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[iこの節](../design/code-content.md)を参照してください。
+* コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[この節](../design/code-content.md)を参照してください。
 
 * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。コンテンツの読み込み方法については、[この節](../design/existing-content.md)を参照してください。
 
