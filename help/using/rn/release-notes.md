@@ -2,9 +2,9 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 35%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
+<p>使用可能な日付： <strong>5 月 31 日</strong></p>
 <p>「BCC で E メールを送信」（ブラインドカーボンコピー）機能を使用して、Adobe Journey Optimizerから送信された E メールを保存できるようになりました。 電子メールプリセットでこのオプションを有効にして、送信されたすべての電子メールが BCC アドレスにブラインドコピーされるようにします。</p>
 <img src="assets/bcc-rn.gif"/>
 <p>詳しくは、<a href="../configuration/email-settings.md#bcc-email">詳細なドキュメント</a>を参照してください。</p>

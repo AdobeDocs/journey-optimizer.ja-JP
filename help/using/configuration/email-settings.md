@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 39%
+source-wordcount: '2246'
+ht-degree: 38%
 
 ---
 
@@ -134,9 +134,14 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="BCC 電子メールアドレスを定義"
->abstract="BCC 受信トレイに送信することで、送信済み E メールのコピーを保持できます。 送信されたすべての電子メールがこの BCC アドレスにブラインドコピーされるように、目的の電子メールアドレスを入力します。 この機能は のオプションです。"
+>abstract="BCC 受信トレイに送信することで、送信済み E メールのコピーを保持できます。 送信されたすべての電子メールがこの BCC アドレスにブラインドコピーされるように、目的の電子メールアドレスを入力します。 この機能は のオプションです。
+"
 
 から送信された E メールの同一のコピー（またはブラインドカーボンコピー）を送信できます [!DNL Journey Optimizer] を BCC インボックスに追加します。 このオプション機能を使用すると、コンプライアンスやアーカイブの目的でユーザーに送信する電子メール通信のコピーを保持できます。 これは、配信の受信者には表示されません。
+
+>[!CAUTION]
+>
+>この機能は、以降で使用できるようになります。 **5 月 31 日**.
 
 ### BCC 電子メールの有効化 {#enable-bcc}
 
@@ -145,6 +150,8 @@ ht-degree: 39%
 >[!NOTE]
 >
 >BCC 電子メールアドレスは 1 つだけ定義できます。 現在のプリセットを使用して送信されるすべての電子メールを保存するのに十分な受信容量が BCC アドレスにあることを確認します。
+>
+>その他のレコメンデーションの一覧は、 [この節](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +175,26 @@ BCC 電子メールアドレスの設定は、事前設定されたレベルで�
 >
 >BCC 設定を取得するために、メッセージやジャーニーを再公開する必要はありません。
 
-### Recommendationsと限界 {#recommendations-limitations}
+### Recommendationsと限界 {#bcc-recommendations-limitations}
 
-* BCC 電子メールアドレスが正しく設定されていることを確認します。 該当しない場合、クライアントの個人を特定できる情報 (PII) が不要なアドレスに送信される可能性があります。
+* プライバシーコンプライアンスを確保するには、BCC 電子メールは、個人を特定できる情報 (PII) を安全に保存できるアーカイブシステムで処理する必要があります。
 
-* プライバシー上の理由から、BCC電子メールは、個人の身元を特定できる情報(PII)を安全に保存できるアーカイブシステムで処理する必要があります。
-
-* この機能は、受信者に配信する前に BCC 電子メールアドレスに配信される可能性があり、元の配信に含まれている場合でも BCC メッセージが送信される可能性があります [バウンス](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* BCC アドレスに送信された電子メールが開封され、クリックされた場合は、送信分析からの合計開封数とクリック数に考慮されます。これは、 [レポート](../reports/message-monitoring.md). 同様に、受信ボックスにランディングした BCC 電子メールをスパムとしてマークすると、電子メールが受信ボックスのスパムフォルダーに送られる可能性があります。
+* メッセージには、個人を特定できる情報 (PII) などの機密データや非公開データを含めることができるので、BCC アドレスが正しいことを確認し、メッセージへのアクセスを保護します。
 
 * BCC に使用するインボックスは、領域と配信に対して適切に管理される必要があります。 インボックスがバウンスを返した場合、一部の E メールが受信されないので、アーカイブに失敗します。
 
+* メッセージは、ターゲット受信者の前の BCC 電子メールアドレスに配信される場合があります。 BCC メッセージは、元のメッセージに含まれている場合でも送信できます [バウンス](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* BCC アドレスに送信された電子メールを開いたりクリックしたりしないでください。送信分析の合計開封数とクリック数が考慮されます。これにより、 [レポート](../reports/message-monitoring.md).
+
+* BCC 受信ボックスでメッセージをスパムとしてマークしないでください。このアドレスに送信される他のすべての E メールに影響を与えます。
+
+
 >[!CAUTION]
 >
->BCC アドレスに送信される E メールの配信停止リンクをクリックするのを避けます。対応する受信者を直ちに配信停止にするからです。
+>BCC アドレスに送信される E メールの配信停止リンクをクリックしないでください。対応する受信者を直ちに配信停止にするからです。
 
 ### GDPR への準拠 {#gdpr-compliance}
 
