@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 35%
+source-wordcount: '422'
+ht-degree: 34%
 
 ---
 
@@ -58,22 +58,22 @@ ht-degree: 35%
 </table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Decision Management - AI Ranking auto-optimization model</strong><br/></th>
+<th><strong>決定管理 — AI ランキング自動最適化モデル</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
+<p>判定管理で、トレーニング済みモデルシステムを使用できるようになりました。 この新しい機能は、特定のプロファイルに対して表示するオファーをランク付けします。</p>
 <img src="assets/optimization.gif"/>
-<p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
+<p>詳しくは、<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>

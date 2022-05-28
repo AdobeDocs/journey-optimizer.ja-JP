@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 * **[!UICONTROL ルール]**：オファーが提示される条件を管理します。詳細は[決定ルールの作成](../offer-library/creating-decision-rules.md)を参照してください。
 
-* **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。See [ランキング式の作成](../offer-library/create-ranking-formulas.md)を参照してください。
+* **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。See [ランキング式の作成](../ranking/create-ranking-formulas.md)を参照してください。
 
 ![](../assets/offer_activities.png)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 100%
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 1. （オファーの優先度スコアを考慮するのではなく）特定の配置に対して最初に提示するオファーを決定するルールを定義する場合は、**ランキング式**&#x200B;を作成できます。
 
-   ランキング式を作成する詳細な手順については、[この節](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula)を参照してください。
+   ランキング式を作成する詳細な手順については、[この節](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula)を参照してください。
 
    >[!NOTE]
    >

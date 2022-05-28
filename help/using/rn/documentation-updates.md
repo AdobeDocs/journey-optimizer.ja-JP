@@ -2,7 +2,7 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 94%
@@ -39,7 +39,7 @@ ht-degree: 94%
 ## 2022年3月 {#march-2022}
 
 * [!DNL Journey Optimizer] の 2022年3月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
-* [自動最適化モデル](../offers/offer-library/ai-ranking.md#auto-optimization)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/offer-library/ai-ranking.md)
+* [自動最適化モデル](../offers/ranking/auto-optimization-model.md)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/ranking/ai-models.md)
 * テストプロファイル作成ページは、「**セグメント、プロファイル、ID**」節に移動しました。[詳細情報](../segment/creating-test-profiles.md)
 * 式エディターで式をデフォルト値として追加する方法の例を追加しました。[詳細情報](../building-journeys/expression/field-references.md#default-value)
 * **パーソナライズされたオファーの作成**&#x200B;の節が再編成され、読みやすくなりました。[詳細情報](../offers/offer-library/creating-personalized-offers.md)
@@ -55,8 +55,8 @@ ht-degree: 94%
 ## 2022年1月 {#january-2022}
 
 * [!DNL Journey Optimizer] の 2022年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* **Offer Decisioning AI ランキング**&#x200B;の節が更新され、自動最適化モデルの詳細な説明が追加されました。[詳細情報](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* ランキング戦略を使用する際にイベントタイプを送信できるようにするために必要な、スキーマ要件に関する新しい節が追加されました。[詳細情報](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* **Offer Decisioning AI ランキング**&#x200B;の節が更新され、自動最適化モデルの詳細な説明が追加されました。[詳細情報](../offers/ranking/auto-optimization-model.md)
+* ランキング戦略を使用する際にイベントタイプを送信できるようにするために必要な、スキーマ要件に関する新しい節が追加されました。[詳細情報](../offers/ranking/schema-requirement.md)
 * [!DNL Journey Optimizer] パーソナライズ機能に関連する節が再編成され、読みやすくなりました。[詳細情報](../personalization/personalize.md)
 * この&#x200B;**メッセージプリセットの作成**&#x200B;の節は、わかりやすくするために複数のセクションに分かれています。[詳細情報](../configuration/message-presets.md#create-message-preset)
 * この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../messages/consent.md#opt-out-management)
@@ -106,7 +106,7 @@ ht-degree: 94%
 
 * 制約を適用して特定のプレースメントに対応するオファーの選択を制限する際に、セグメントを使用する場合と決定ルールを使用する場合の違いを明確にするための節を追加しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* 現実的なユースケースを説明するために、ランキング式の具体的な例を追加しました。[詳細情報](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* 現実的なユースケースを説明するために、ランキング式の具体的な例を追加しました。[詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * IP プールの編集方法に関する節を追加しました。[詳細情報](../configuration/ip-pools.md#edit-ip-pool)
 

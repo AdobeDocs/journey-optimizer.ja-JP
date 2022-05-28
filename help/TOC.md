@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 94%
+source-wordcount: '1058'
+ht-degree: 93%
 
 ---
 
@@ -265,10 +265,16 @@ ht-degree: 94%
       + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
-      + [ランキング式の作成](using/offers/offer-library/create-ranking-formulas.md)
-      + AI ランキングモデルの作成 {#create-ai-ranking-models}
-         + [AI モデルについて](using/offers/offer-library/ai-ranking.md)
-         + [AI モデルの作成](using/offers/offer-library/create-ranking-strategies.md)
+   + ランキングの作成 {#rankings}
+      + [ランキングの概要](using/offers/ranking/get-started-rankings.md)
+      + [ランキング式](using/offers/ranking/create-ranking-formulas.md)
+      + AI モデル {#ai-models}
+         + [AI モデルについて](using/offers/ranking/ai-models.md)
+         + [自動最適化モデル](using/offers/ranking/auto-optimization-model.md)
+         + AI モデルの作成 {#configure-ai-model}
+            + [イベントを収集するデータセットの作成](using/offers/ranking/create-dataset.md)
+            + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
+            + [イベントキャプチャの設定](using/offers/ranking/schema-requirement.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + オファーの設定 {#configure-offers}
          + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)

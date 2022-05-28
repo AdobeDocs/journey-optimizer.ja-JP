@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法を選べます。オファーのランク付けは、次の基準で行えます。
 * オファーの優先度
 * ランキング式
-* [AI ランキング](#use-ranking-strategy)（一部のユーザーの早期アクセスのみ）
+* [AI ランキング](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -36,7 +36,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。
 
-ランキング式を作成する方法については、 [この節](../offer-library/create-ranking-formulas.md)を参照してください。
+ランキング式を作成する方法については、 [この節](../ranking/create-ranking-formulas.md)を参照してください。
 
 ランキング式を作成したら、決定内のプレースメントに割り当てることができます。これをおこなうには、以下の手順に従います。
 
@@ -62,11 +62,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-ランキング戦略を選択することで、特定のプロファイルに対して表示するオファーを自動的にランク付けするトレーニング済みモデルシステムを使用することもできます。ランキング戦略を作成する方法については、[この節](../offer-library/create-ranking-strategies.md)を参照してください。
-
->[!CAUTION]
->
->AI ランキングは現在、一部のユーザーのみが早期アクセスで利用できます。
+ランキング戦略を選択することで、特定のプロファイルに対して表示するオファーを自動的にランク付けするトレーニング済みモデルシステムを使用することもできます。ランキング戦略を作成する方法については、[この節](../ranking/create-ranking-strategies.md)を参照してください。
 
 ランキング戦略を作成したら、決定内のプレースメントに割り当てることができます。これを行うには、次の手順に従います。
 
