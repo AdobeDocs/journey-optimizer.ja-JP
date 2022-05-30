@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 9f7339069a9ccfbe3fa2bf8bf8e06fe90bd0d407
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 93%
@@ -185,8 +185,8 @@ ht-degree: 93%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [制限](using/building-journeys/functions/functionlimit.md)
+            + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + 数学 {#math}
