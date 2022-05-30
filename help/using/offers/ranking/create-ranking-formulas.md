@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 92%
 
 ---
 
@@ -139,21 +139,9 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ### オファーされる製品を顧客が購入する傾向に基づいたオファーのブースト
 
-航空会社の *travelInsurance* と *extraBaggage* を購入する傾向を計算する&#x200B;*顧客 AI* のインスタンスが 2 つある場合、次のランキング式では、保険または手荷物に特化したオファーについて、その商品の購入に関する顧客の傾向スコアが 90 より大きい場合は、優先度を（50 ポイントだけ）上げます。
+顧客の傾向スコアに基づいて、オファーのスコアを増加させることができます。
 
-ただし、*顧客 AI* インスタンスごとに、統合プロファイルスキーマ内に独自のオブジェクトが作成されるので、オファーの傾向タイプに基づいてスコアを動的に選択することはできません。したがって、`if` ステートメントを連結して、最初にオファーの傾向タイプを確認したあと、適切なプロファイルフィールドからスコアを抽出する必要があります。
-
-**ランキング式：**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-さらに良い解決策は、スコアをプロファイルの配列に格納することです。次の例は、単純なランキング式だけを使用して、様々な傾向スコアで機能します。スコアの配列を含んだプロファイルスキーマがあることを想定しています。この例では、インスタンステナントは *_salesvelocity* で、プロファイルスキーマには次の情報が含まれています。
+この例では、インスタンステナントはです。 *_salesvelocity* また、プロファイルスキーマには、一連のスコアが配列に格納されます。
 
 ![](../assets/ranking-example-schema.png)
 
