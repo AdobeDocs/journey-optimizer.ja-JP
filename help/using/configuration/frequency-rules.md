@@ -5,10 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 84%

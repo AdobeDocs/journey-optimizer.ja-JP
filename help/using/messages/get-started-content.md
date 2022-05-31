@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 99%
+source-wordcount: '696'
+ht-degree: 98%
 
 ---
 
@@ -68,12 +68,9 @@ ht-degree: 99%
    * **[!UICONTROL メッセージカテゴリ]**（マーケティングまたはトランザクション）を選択します。
 
    * そのメッセージに使用するチャネル（メールまたはプッシュ通知）を選択します。メッセージを作成するためには、少なくとも 1 つのチャンネルを選択する必要があります。
-
-   <!--
    >[!NOTE]
    >
-   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
-   -->
+   >**[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。詳細情報： [頻度ルール](../configuration/frequency-rules.md).
 
    * メッセージに使用する&#x200B;**[!UICONTROL プリセット]**&#x200B;を選択します。
 
