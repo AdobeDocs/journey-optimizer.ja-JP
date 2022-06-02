@@ -1,16 +1,17 @@
 ---
-title: 以前のリリースノート（2021 年）
-description: Journey Optimizer 2021 年リリースノート
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
+title: 以前のリリースノート（2021）
+description: Journey Optimizer 2021 リリースノート
+exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '2073'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # リリースノート 2021 {#release-notes-2021}
 
-このページには、 [!DNL Journey Optimizer] 2021 年にリリースされました。
+このページは、2021年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
 
 
 ## 2021年11月リリース {#november-2021-release}

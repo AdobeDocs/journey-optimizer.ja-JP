@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 35%
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 35%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
-## 2022 年 5 月リリース {#may-2022-release}
+## 2022年5月リリース {#may-2022-release}
 
 ### 新機能
 
@@ -30,7 +30,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外する、クロスチャネルのビジネスルールを設定できるようになりました。</p>
+<p>過度に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルのビジネスルールを設定できるようになりました。</p>
 <img src="assets/frequency-rn.gif"/>
 <p>詳しくは、<a href="../configuration/frequency-rules.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -95,13 +95,13 @@ ht-degree: 35%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer監査ログ</strong><br/></th>
+<th><strong>Journey Optimizer 監査ログ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerリソースでユーザーが実行したアクションを監視できるようになりました。</p>
+<p>Adobe Journey Optimizer リソースでユーザーが実行したアクションを監視できるようになりました。</p>
 <img src="assets/audit-rn.gif"/>
 <p>詳しくは、 <a href="../reports/audit-logs.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -113,14 +113,14 @@ ht-degree: 35%
 
 **パーソナライゼーション**
 
-* **文字を非表示にする新しいヘルパー関数** - `mask` ヘルパー関数を使用すると、文字列の一部を「X」文字に置き換えることができます。 [詳細情報](../personalization/functions/string.md#mask)
+* **文字を非表示にする新しいヘルパー関数** - `mask` ヘルパー関数を使用すると、文字列の一部を「X」文字に置き換えることができます。[詳細情報](../personalization/functions/string.md#mask)
 
 **ランディングページ**
 
-* **フォームのないランディングページ**  — フォームを含まず、訪問者のアクションを必要としないランディングページを作成して発行できるようになりました。
-* **ランディングページテンプレート**  — ランディングページをテンプレートとして保存し、他のランディングページを作成する際に再利用できるようになりました。 [詳細情報](../landing-pages/lp-templates.md)
-* **プライマリページに戻る**  — 同じランディングページ内の任意のサブページからプライマリページへのリンクを追加できるようになりました。
-* **カスタム JavaScript のサポート**  — ランディングページコンテンツにカスタム JavaScript を追加して、高度なスタイル設定を実行したり、ランディングページにカスタム動作を追加したりできるようになりました。	[詳細情報](../landing-pages/lp-custom-js.md)
+* **フォームのないランディングページ** - フォームを含まず、訪問者のアクションを必要としないランディングページを作成および公開できるようになりました。
+* **ランディングページテンプレート** - ランディングページをテンプレートとして保存し、他のランディングページを作成する際に再利用できるようになりました。[詳細情報](../landing-pages/lp-templates.md)
+* **プライマリページに戻る** - 同じランディングページ内の任意のサブページからプライマリページへのリンクを追加できるようになりました。
+* **カスタム JavaScript のサポート** - ランディングページコンテンツにカスタム JavaScript を追加して、高度なスタイル設定を実行したり、ランディングページにカスタム動作を追加したりできるようになりました。[詳細情報](../landing-pages/lp-custom-js.md)
 
 <!--**Decision management**
 
@@ -128,5 +128,5 @@ ht-degree: 35%
 
 **ジャーニー**
 
-* **セグメントを読み取り**  — 一回限りのセグメント読み取りジャーニーは、ジャーニーの実行から 30 日後に、完了ステータスに移動するようになりました。 スケジュールされた読み取りセグメントの場合、最後のセグメントの実行から 30 日後になります。 [詳細情報](../building-journeys/read-segment.md)
-* **式エディター** - [制限](../building-journeys/functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。 この [並べ替え](../building-journeys/functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。 listObject のサポートも [discint](../building-journeys/functions/functiondistinct.md) および [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 関数
+* **セグメントを読み取り** - 一回限りのセグメントを読み取りジャーニーは、ジャーニーの実行から 30 日後に、完了ステータスに移動するようになりました。スケジュールされた読み取りセグメントの場合、最後の実行から 30 日後になります。[詳細情報](../building-journeys/read-segment.md)
+* **式エディター** - [limit](../building-journeys/functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。[sort](../building-journeys/functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。また、listObject のサポートが [discint](../building-journeys/functions/functiondistinct.md) および [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 関数に追加されました。

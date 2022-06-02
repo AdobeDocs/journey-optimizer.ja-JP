@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9f7339069a9ccfbe3fa2bf8bf8e06fe90bd0d407
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 93%
 + 新着情報 {#whats-new}
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
-      + [2022 年リリースノート](using/rn/release-notes-2022.md)
-      + [2021 年リリースノート](using/rn/release-notes-2021.md)
+      + [2022年リリースノート](using/rn/release-notes-2022.md)
+      + [2021年リリースノート](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
 + はじめに {#get-started}
    + [Journey Optimizer について](using/start/get-started.md)
    + クイックスタート{#quick-start}
       + [概要](using/start/quick-start.md)
-      + [マーケターとして開始](using/start/path/marketer.md)
-      + [データエンジニアとして開始する](using/start/path/data-engineer.md)
-      + [管理者としての基本を学ぶ](using/start/path/administrator.md)
-      + [開発者としての基本を学ぶ](using/start/path/developer.md)
+      + [マーケター向けの基本を学ぶ](using/start/path/marketer.md)
+      + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
+      + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
+      + [開発者向けの基本を学ぶ](using/start/path/developer.md)
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [制限事項](using/start/limitations.md)
 + メッセージ {#messages}
@@ -64,8 +64,8 @@ ht-degree: 93%
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
    + コンテンツのデザイン {#landing-pages-design}
-      + [ランディングページのデザインについて](using/landing-pages/design-lp.md)
-      + [ランディングページコンテンツの作成](using/landing-pages/lp-content.md)
+      + [ランディングページの設計について](using/landing-pages/design-lp.md)
+      + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
       + [テンプレートの作成](using/landing-pages/lp-templates.md)
       + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
    + [購読リストの作成](using/landing-pages/subscription-list.md)
@@ -185,7 +185,7 @@ ht-degree: 93%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [制限](using/building-journeys/functions/functionlimit.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -253,7 +253,7 @@ ht-degree: 93%
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リスト](using/reports/suppression-list.md)
       + [許可リスト](using/reports/allow-list.md)
-   + [Journey Optimizerリソースに対する監査アクション](using/reports/audit-logs.md)
+   + [Journey Optimizer リソースに対する監査アクション](using/reports/audit-logs.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 

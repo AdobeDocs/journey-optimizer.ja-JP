@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 94%
 
 ## 2022年5月 {#may-2022}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 5 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2022年5月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * 関連する新しいクエリの例： [セグメントの選定](../reports/query-examples.md#segment-qualification-queries) および [イベント](../reports/query-examples.md#event-based-queries) が追加されました。
 * メールデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関する記述が追加されました。関連するスクリーンショットを更新しました。[詳細情報](../design/design-emails.md)
 * 主要リソースへのリンクが、Journey Optimizer ドキュメントのホームページで更新されました。
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。[詳細情報](../reports/live-report.md)
 * Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。[詳細情報](../action/about-custom-action-configuration.md)
 * チュートリアルビデオへのリンクが更新されました。
-* この [電子メール設定](../configuration/about-subdomain-delegation.md), [メッセージプリセット](../configuration/message-presets.md) および [ランディングページの設定](../configuration/lp-subdomains.md) の節が再編成され、読みやすくなりました。
-* この **URL トラッキング** の節が更新および改訂され、例が追加されました。 [詳細情報](../configuration/email-settings.md#url-tracking)
-* 転送メールアドレスの設定に関する新しい節が追加されました。 ユーザーインターフェイスでは実行できません。 [詳細情報](../configuration/email-settings.md#forward-email)
+* [メール設定](../configuration/about-subdomain-delegation.md)、[メッセージプリセット](../configuration/message-presets.md)および[ランディングページの設定](../configuration/lp-subdomains.md)の節が再編成され、読みやすくなりました。
+* **URL トラッキング**&#x200B;の節が更新および改訂され、例が追加されました。[詳細情報](../configuration/email-settings.md#url-tracking)
+* 転送メールアドレスの設定に関する新しい節が追加されました。ユーザーインターフェイスでは実行できません。[詳細情報](../configuration/email-settings.md#forward-email)
 
 ## 2022年4月 {#april-2022}
 

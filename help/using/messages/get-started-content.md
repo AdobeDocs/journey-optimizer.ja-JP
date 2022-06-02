@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ ht-degree: 98%
    * そのメッセージに使用するチャネル（メールまたはプッシュ通知）を選択します。メッセージを作成するためには、少なくとも 1 つのチャンネルを選択する必要があります。
    >[!NOTE]
    >
-   >**[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。詳細情報： [頻度ルール](../configuration/frequency-rules.md).
+   >**[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。[頻度ルール](../configuration/frequency-rules.md)の詳細情報。
 
    * メッセージに使用する&#x200B;**[!UICONTROL プリセット]**&#x200B;を選択します。
 
-      プリセットには、ブランドに従ってメールやプッシュ通知を送信するために必要な、すべてのパラメーターが含まれます。詳細情報： [プリセット](../configuration/message-presets.md).
+      プリセットには、ブランドに従ってメールやプッシュ通知を送信するために必要な、すべてのパラメーターが含まれます。[プリセット](../configuration/message-presets.md)の詳細情報。
    >[!CAUTION]
    >
    >選択したカテゴリとチャネルに対して有効なメッセージプリセットを選択する必要があります。
