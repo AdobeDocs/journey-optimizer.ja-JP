@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 100%
+source-wordcount: '1070'
+ht-degree: 98%
 
 ---
 
 # メッセージのプレビューとテスト{#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="テストプロファイルを追加"
+>abstract="識別名前空間と対応する ID 値を選択して、テストプロファイルを追加できます。"
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストをおこなうことができます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入している場合は、テストプロファイルデータを利用して、その内容がメッセージにどのように表示されるかを確認できます。
 
