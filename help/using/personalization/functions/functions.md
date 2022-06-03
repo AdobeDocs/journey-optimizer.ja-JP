@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 100%
+source-wordcount: '1361'
+ht-degree: 98%
 
 ---
 
@@ -198,6 +198,9 @@ ht-degree: 100%
     </tr>
     <tr>
         <td><a href="string.md#matches">Matches</a></td><td>文字列が特定の正規表現と一致するかどうかを判定するために使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#mask">マスク</a></td><td>この関数は、文字列の一部を「X」文字に置き換えるために使用されます。</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">Not equals to</a></td><td>文字列が指定の文字列に等しくないかどうかを判定するために使用します。</td>

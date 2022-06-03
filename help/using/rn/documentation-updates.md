@@ -2,7 +2,7 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 99%
@@ -98,7 +98,7 @@ ht-degree: 99%
 
 * データレイクのジャーニーステップイベントをクエリする一般的な例を追加しました。[詳細情報](../reports/query-examples.md)
 
-* **制限**&#x200B;ページを新しく追加しました。[詳細情報](../start/limitations.md)
+* **制限**&#x200B;ページを新しく追加しました。[詳細情報](../start/guardrails.md)
 
 * **クイックスタート**&#x200B;ページが改善され、様々なペルソナの手順が追加されました。[詳細情報](../start/quick-start.md)
 
@@ -145,7 +145,7 @@ ht-degree: 99%
 * ドキュメントと画面上で、「オファーアクティビティ」が「決定」、「決定」が「決定範囲」に名称変更されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](../personalization/personalization-use-case-helper-functions.md)が追加されました
 * 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。[詳細情報](../building-journeys/read-segment.md)
-* ジャーニーの制限が更新されました。[詳細情報](../start/limitations.md)
+* ジャーニーの制限が更新されました。[詳細情報](../start/guardrails.md)
 * 「決定でのオファー選択の設定」の節を更新しました。[詳細情報](../offers/offer-activities/configure-offer-selection.md)
 * イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。[詳細情報](../offers/get-started/user-interface.md#overview)
