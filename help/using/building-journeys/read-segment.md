@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->1 回限りのセグメント読み取りジャーニーは、ジャーニーの実行から 30 日後に完了ステータスに移行します。 スケジュールされた読み取りセグメントの場合、最後のセグメントの実行から 30 日後になります。
+>1 回限りのセグメント読み取りジャーニーは、ジャーニーの実行から 30 日後に完了ステータスに移行します。 スケジュールされた読み取りセグメントの場合、最後の実行から 30 日後になります。
 
 ### ジャーニーのテストと公開 {#testing-publishing}
 
