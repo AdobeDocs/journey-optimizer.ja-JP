@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 93%
 
 ---
 
@@ -41,11 +41,17 @@ ht-degree: 100%
 
 ## テストプロファイルの選択 {#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="テストプロファイルの追加"
+>abstract="ID 名前空間と対応する ID 値を選択して、テストプロファイルを追加できます。 シミュレーションで使用するには、既に使用可能なテストプロファイルが必要です。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="テストプロファイルの作成"
+
 まず、シミュレーションに使用するテストプロファイルを選択する必要があります。
 
 >[!CAUTION]
 >
->メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../../segment/creating-test-profiles.md)する方法について説明します。
+>どのオファーが配信されるかをシミュレートするには、テストプロファイルを使用できる必要があります。 [テストプロファイルを作成](../../segment/creating-test-profiles.md)する方法について説明します。
 
 1. 「**[!UICONTROL プロファイルを管理]**」をクリックします。
 
