@@ -1,6 +1,6 @@
 ---
-title: ランディングページプリセットを定義
-description: Journey Optimizer でランディングページを作成し、使用するために環境を設定する方法を説明
+title: ランディングページプリセットの定義
+description: Journey Optimizer でランディングページを作成および使用するための環境を設定する方法を説明します。
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# ランディングページプリセットを定義 {#lp-presets}
+# ランディングページプリセットの定義 {#lp-presets}
 
 [ランディングページの作成](../landing-pages/create-lp.md#create-a-lp)を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を介して活用できるように、ランディングページプリセットを選択する必要があります。
 

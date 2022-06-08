@@ -9,13 +9,13 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # 並べ替え {#sort}
 
-値またはオブジェクトのリストを自然な順序で並べ替えます。
+値のリストやオブジェクトを自然な順序に並べ替えます。
 
 ## カテゴリ
 
@@ -29,9 +29,9 @@ ht-degree: 48%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。 listObject の場合は、フィールド参照である必要があります。 |
-| keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。 指定されたリストのオブジェクト内の属性名が、並べ替えのキーとして使用されます。 |
-| sortingOrder | ブール値 | 昇順 (true) または降順 (false) |
+| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。指定されたリストのオブジェクト内の属性名は、並べ替えのキーとして使用されます。 |
+| sortingOrder | ブール値 | 昇順（true）または降順（false） |
 
 ## シグネチャと戻り値のタイプ
 

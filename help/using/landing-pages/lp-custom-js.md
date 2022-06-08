@@ -5,40 +5,41 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # ランディングページでのカスタム JavaScript の使用 {#lp-custom-js}
 
-カスタム JavaScript を使用してランディングページのコンテンツを定義できます。 例えば、高度なスタイル設定を実行する必要がある場合や、ランディングページにカスタムビヘイビアーを追加する場合は、独自のコントロールを作成し、 [!DNL Journey Optimizer].
+カスタム JavaScript を使用してランディングページのコンテンツを定義できます。例えば、高度なスタイル設定を実行する必要がある場合や、ランディングページにカスタム動作を追加する場合は、[!DNL Journey Optimizer] で独自のコントロールを作成し、実行することができます。
 
 ## ランディングページへの JavaScript コードの挿入
 
 ランディングページコンテンツにカスタム JavaScript を挿入するには、次のいずれかを実行します。
 
-* コンテンツの作成を開始する際に既存のHTMLコンテンツを読み込み、カスタム JavaScript コードを含むファイルを選択します。 コンテンツの読み込み方法については、[この節](../design/existing-content.md)を参照してください。
+* コンテンツの作成を開始する際に既存の HTML コンテンツを読み込み、カスタム JavaScript コードを含むファイルを選択します。コンテンツの読み込み方法については、[この節](../design/existing-content.md)を参照してください。
 
-* ランディングページを最初から、または保存済みのテンプレートからデザインします。 次をドラッグ&amp;ドロップ： **[!UICONTROL HTML]** コンテンツコンポーネントをキャンバスに挿入し、JavaSCript をコンポーネントに追加するためのソースコードを表示します。 でのHTMLコンポーネントの使用方法を説明します。 [この節](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* ランディングページを最初から、または保存済みのテンプレートから設計します。**[!UICONTROL HTML]** コンテンツコンポーネントをキャンバスにドラッグ＆ドロップし、JavaSCript をコンポーネントに追加するためのソースコードを表示します。HTML コンポーネントの使用方法については、[この節](../design/content-components.md#HTML)を参照してください。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。 独自のコンテンツの作成方法については、[この節](../design/code-content.md)を参照してください。
+* JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。独自のコンテンツの作成方法については、[この節](../design/code-content.md)を参照してください。
 
 >[!NOTE]
 >
->現在、JavaScript を実行中に [ランディングページのプレビュー](create-lp.md#test-landing-page).
+>現在、[ランディングページのプレビュー](create-lp.md#test-landing-page)時に実行中の JavaScript を表示することはできません。
 
 ランディングページを正しく表示するには、以下の節で説明するように、次の構文を使用します。
 
 ## コードの初期化
 
-JavaScript コードを初期化するには、 `lpRuntimeReady` イベント。 このイベントは、ライブラリの初期化が成功した後にトリガーされます。 コールバックは、 `lpRuntime` オブジェクトを使用して、ライブラリのメソッドとフックを公開します。
+JavaScript コードを初期化するには、`lpRuntimeReady` イベントを使用する必要があります。このイベントは、ライブラリの初期化が成功した後にトリガーされます。コールバックは、`lpRuntime` オブジェクトを使用して実行され、ライブラリのメソッドとフックを公開します。
 
-`LpRuntime` は、「ランディングページランタイム」を意味します。 このオブジェクトは、メインライブラリ識別子です。 カスタム JavaScript で使用できるフック、フォーム送信メソッド、その他のユーティリティメソッドが公開されます。
+`LpRuntime` は、「ランディングページランタイム」を意味します。このオブジェクトは、メインライブラリ識別子です。カスタム JavaScript で使用できるフック、フォーム送信メソッドおよびその他のユーティリティメソッドが公開されます。
 
 **例：**
 
@@ -58,13 +59,13 @@ function init(lpRuntime){
 
 ## フック
 
-フックを使用すると、フォーム送信のライフサイクル中にメソッドを添付できます。 例えば、フックを使用して、フォームが実際に送信される前に、フォームの検証を実行できます。
+フックを使用すると、フォーム送信のライフサイクル中にメソッドを添付できます。例えば、フックを使用して、フォームが実際に送信される前にフォームの検証を実行できます。
 
-次に、使用できるフックを示します。
+使用できるフックは次のとおりです。
 
 | 名前 | 説明 |
 |--- |--- |
-| addBeforeSubmitHook | フォーム送信前に呼び出されるカスタムフック。 送信を続行する場合は true を返し、送信をブロックする場合は false を返します。 |
+| addBeforeSubmitHook | フォーム送信前に呼び出されるカスタムフック。送信を続行する場合は true を返し、送信をブロックする場合は false を返します。 |
 | addBeforeSubmitHook | 失敗したフォーム送信時に呼び出されるカスタムフック。 |
 | addOnSuccessHook | フォーム送信が成功したときに呼び出されるカスタムフック。 |
 
@@ -79,16 +80,16 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 
 ## カスタムフォームの送信
 
-以下に示す方法は、カスタムフォーム送信の実行に使用されます。
+以下に示すメソッドは、カスタムフォーム送信の実行に使用されます。
 
 >[!NOTE]
 >
->フォームの送信はカスタム JavaScript で処理されるので、デフォルトの送信をグローバル変数を設定して明示的に無効にする必要があります `disableDefaultFormSubmission` から `true`.
+>フォームの送信はカスタム JavaScript で処理されるので、グローバル変数 `disableDefaultFormSubmission` を `true` に設定してデフォルトの送信を明示的に無効にする必要があります。
 
 | 名前 | 説明 |
 |--- |--- |
 | submitForm | このメソッドは、フォームを送信し、送信後のフローを処理します。 |
-| submitFormPartial | このメソッドはまた、フォームを送信しますが、送信後のフローはスキップします。 例えば、送信が成功した後に成功ページへのリダイレクトを設定した場合、部分的なフォーム送信の場合はリダイレクトは発生しません。 |
+| submitFormPartial | このメソッドもフォームを送信しますが、送信後のフローはスキップします。例えば、送信が成功した後に成功ページへのリダイレクトを設定した場合、部分的なフォーム送信の場合にはリダイレクトは発生しません。 |
 
 **例：**
 
@@ -109,7 +110,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | 名前 | 説明 |
 |--- |--- |
-| getFormData | このメソッドを使用して、 `formData` を JSON オブジェクトの形式で指定します。 このオブジェクトはに渡すことができます。 `submitForm` フォーム送信用 |
+| getFormData | このメソッドを使用すると、`formData` を JSON オブジェクトの形式で取得できます。このオブジェクトはフォーム送信用に `submitForm` に渡すことができます。 |
 
 **例：**
 
@@ -121,7 +122,7 @@ lpRuntime.submitForm(formData);
 
 ## ユースケース
 
-### 使用例 1:フォーム送信前の検証の追加
+### ユースケース 1：フォーム送信前の検証の追加
 
 ```
 <html>
@@ -156,9 +157,9 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### 使用例 2:部分的なフォーム送信
+### ユースケース 2：部分的なフォーム送信
 
-例えば、ページ上に複数のチェックボックスがあるフォームがあるとします。 任意のチェックボックスをオンにすると、ユーザーが送信ボタンをクリックするのを待たずに、このデータをバックエンドに保存する必要があります。
+例えば、ページ上に複数のチェックボックスを備えたフォームがあるとします。任意のチェックボックスをオンにすると、ユーザーが送信ボタンをクリックするのを待たずに、このデータをバックエンドに保存する必要があります。
 
 ```
 <html>
@@ -189,9 +190,9 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### 使用例 3:カスタム分析タグ
+### ユースケース 3：カスタム分析タグ
 
-JavaScript を使用して、入力フィールドのリスナーを追加し、カスタムの Analytics 呼び出しトリガーをアタッチできます。
+JavaScript を使用して、入力フィールドのリスナーを追加し、カスタム分析呼び出しトリガーを追加できます。
 
 ```
 <html>
@@ -222,7 +223,7 @@ JavaScript を使用して、入力フィールドのリスナーを追加し、
 </html>
 ```
 
-### 使用例 4:ダイナミックフォーム
+### ユースケース 4：ダイナミックフォーム
 
 ```
 <html>

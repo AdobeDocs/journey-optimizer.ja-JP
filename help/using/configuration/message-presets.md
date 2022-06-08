@@ -9,13 +9,13 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # メッセージプリセットの設定 {#message-presets-creation}
 
-[!DNL Journey Optimizer] では、メッセージプリセットを設定して、メールとプッシュ通知メッセージに必要な技術的パラメーター（メールのタイプ、送信者のメールと名前、モバイルアプリなど）を定義しておくことができます。
+[!DNL Journey Optimizer] では、メッセージプリセットを設定して、メールおよびプッシュ通知メッセージに必要な技術的パラメーター（メールのタイプ、送信者のメールと名前、モバイルアプリなど）を定義しておくことができます。
 
 >[!CAUTION]
 >
@@ -93,7 +93,7 @@ ht-degree: 99%
 
 ![](assets/preset-email.png)
 
-設定を指定します ( [この節](email-settings.md).
+[この節](email-settings.md)で説明している通り、設定します。
 
 ## プッシュ設定 {#configure-push-settings}
 

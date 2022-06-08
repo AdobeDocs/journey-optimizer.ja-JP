@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 名前]**：プレースメントの名前。わかりやすい名前を定義して、取得しやすくします。
    * **[!UICONTROL チャネルタイプ]**：プレースメントの使用先となるチャネル。
-   * **[!UICONTROL コンテンツタイプ]**:配置で表示できるコンテンツのタイプ：テキスト、HTML、画像リンク、JSON のいずれかです。
+   * **[!UICONTROL コンテンツタイプ]**：プレースメントに表示できるコンテンツのタイプ（テキスト、HTML、画像リンク、JSON のいずれか）。
    * **[!UICONTROL 説明]**：プレースメントの説明（オプション）。
 
    ![](../assets/offers_placement_creation_properties.png)

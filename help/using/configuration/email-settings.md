@@ -1,6 +1,6 @@
 ---
 title: メール設定
-description: メッセージプリセットレベルで電子メールを設定する方法を説明します
+description: メッセージプリセットレベルでメールを設定する方法を説明します
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,13 +9,13 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
 # メール設定 {#email-settings}
 
-メッセージプリセット設定の専用のセクションで電子メール設定を定義します。 メッセージプリセットを [この節](message-presets.md).
+メッセージプリセットの専用セクションでメール設定を定義します。メッセージプリセットを作成する方法については、[この節](message-presets.md)を参照してください。
 
 ![](assets/preset-email.png)
 
@@ -114,20 +114,20 @@ ht-degree: 69%
 >
 >アドレスは、文字（A ～ Z）で始まる必要があり、英数字のみを使用できます。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-### メールを転送 {#forward-email}
+### メールの転送 {#forward-email}
 
-特定の電子メールアドレスに転送する場合は、 [!DNL Journey Optimizer] デリゲートされたサブドメインについては、Adobeカスタマーケアにお問い合わせください。 以下を指定する必要があります。
+デリゲートされたサブドメインの [!DNL Journey Optimizer] で受信したすべてのメールを特定のメールアドレスに転送する場合は、アドビカスタマーケアにお問い合わせください。以下を指定する必要があります。
 
-* 選択した転送メールアドレス。 転送メールアドレスドメインは、ドメインにデリゲートされたサブドメインと一致しないことに注意してください。Adobe
+* 選択した転送メールアドレス。転送メールアドレスドメインは、アドビにデリゲートされたサブドメインと同じにはできないことに注意してください。
 * サンドボックス名。
 * 転送メールアドレスを使用するプリセット名。
-* 現在の **[!UICONTROL 返信先（E メール）]** アドレスがプリセットレベルで設定されました。
+* プリセットレベルで設定されている現在の&#x200B;**[!UICONTROL 返信先（メール）]**&#x200B;アドレス。
 
 >[!NOTE]
 >
->サブドメインごとに 1 つの転送メールアドレスのみ指定できます。 その結果、複数のプリセットが同じサブドメインを使用する場合は、それらすべてに対して同じ転送用電子メールアドレスを使用する必要があります。
+>サブドメインごとに 1 つの転送メールアドレスのみ指定できます。したがって、複数のプリセットで同じサブドメインを使用する場合は、それらすべてに同じ転送メールアドレスを使用する必要があります。
 
-転送メールアドレスはAdobeが設定します。 これには 3 ～ 4 日かかる場合があります。
+転送メールアドレスはアドビが設定します。これには 3～4 日かかる場合があります。
 
 <!--
 ## BCC email {#bcc-email}
@@ -361,34 +361,33 @@ Depending on what information you are looking for, you can run the following que
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="URL トラッキングパラメーター"
->abstract="このセクションを使用して、E メールコンテンツに存在するキャンペーン URL にトラッキングパラメーターを自動的に追加します。"
+>abstract="このセクションを使用すると、メールコンテンツに存在するキャンペーン URL にトラッキングパラメーターを自動的に追加できます。"
 
-以下を使用できます。 **[!UICONTROL URL トラッキングパラメーター]** チャネルをまたいでマーケティング活動の効果を測定する。 この機能は のオプションです。
+**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を使用して、チャネルをまたいでマーケティング活動の有効性を測定することができます。この機能はオプションです。
 
-
-このセクションで定義されたパラメーターは、E メールメッセージコンテンツに含まれる URL の末尾に追加されます。 その後、これらのパラメーターをAdobe AnalyticsやGoogle Analyticsなどの Web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
+このセクションで定義されたパラメーターは、メールメッセージコンテンツに含まれる URL の末尾に追加されます。その後、これらのパラメーターを Adobe Analytics や Google Analytics などの web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
 
 ![](assets/preset-url-tracking.png)
 
-例として、3 つの URL トラッキングパラメーターがメッセージプリセットの作成時に自動入力されます。 これらを編集し、を使用して最大 10 個のトラッキングパラメーターを追加できます。 **[!UICONTROL 新しいパラメーターを追加]** 」ボタンをクリックします。
+例として、3 つの URL トラッキングパラメーターがメッセージプリセットの作成時に自動入力されます。これらを編集し、「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
 
-URL トラッキングパラメーターを設定するには、目的の値を **[!UICONTROL 名前]** および **[!UICONTROL 値]** フィールドを選択するか、次のオブジェクトに移動して、事前定義済みの値のリストから選択します。
+URL トラッキングパラメーターを設定するには、「**[!UICONTROL 名前]**」フィールドと「**[!UICONTROL 値]**」フィールドに目的の値を直接入力するか、次のオブジェクトに移動して事前定義済みの値のリストから選択します。
 
 * ジャーニー属性：**ソース ID**、**ソース名**、**ソースバージョン ID**
-* アクション属性： **アクション ID**, **アクション名**
+* アクション属性：**アクション ID**、**アクション名**
 * Offer Decisioning 属性：**オファー ID**、**オファー名**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->フォルダーは選択しないでください：必要なフォルダーを参照し、トラッキングパラメーター値として使用するプロファイル属性を選択します。
+>フォルダーは選択しないでください。必要なフォルダーを参照し、トラッキングパラメーター値として使用するプロファイル属性を選択します。
 
-以下に、Adobe AnalyticsとGoogle Analytics互換 URL の例を示します。
+以下に、Adobe Analytics および Google Analytics 互換 URL の例を示します。
 
-* Adobe Analytics互換 URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
+* Adobe Analytics 互換 URL：`www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Google Analytics互換 URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
+* Google Analytics 互換 URL：`www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 >[!NOTE]
 >

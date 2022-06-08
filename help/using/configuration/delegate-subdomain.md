@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
 source-wordcount: '1706'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="一致する DNS レコードを生成"
->abstract="新しいサブAdobeをAdobeに完全にデリゲートするには、Journey Optimizerインターフェイスに表示されるドメインネームサーバー情報を、ドメインホストソリューションにコピー&amp;ペーストして、一致する DNS レコードを生成する必要があります。 CNAME を使用してサブドメインをデリゲートするには、SSL CDN URL 検証レコードもコピー&amp;ペーストする必要があります。 チェックが正常に完了すると、サブドメインをメッセージの配信に使用する準備が整います。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME サブドメインのデリゲーション"
+>abstract="新しいサブドメインをアドビに完全にデリゲートするには、Journey Optimizer インターフェイスに表示されるアドビのネームサーバー情報を、ドメインホストソリューションにコピー＆ペーストし、一致する DNS レコードを生成する必要があります。CNAME を使用してサブドメインをデリゲートするには、SSL CDN URL 検証レコードもコピー＆ペーストする必要があります。チェックが正常に完了すると、サブドメインをメッセージの配信に使用する準備が整います。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html?lang=ja#cname-subdomain-delegation" text="CNAME サブドメインのデリゲーション"
 
 [!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接アドビに、完全にデリゲートできます。アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理することで、メッセージをマネージドサービスとして提供できます。
 

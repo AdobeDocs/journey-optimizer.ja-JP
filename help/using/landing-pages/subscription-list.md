@@ -9,7 +9,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 93%
 
    ![](assets/lp_create-subscription-list.png)
 
-1. タイトルと説明を追加します。 これらのフィールドは必須です。
+1. 名前と説明を追加します。これらのフィールドは必須です。
 
    ![](assets/lp_subscription-list-name.png)
 
    >[!CAUTION]
    >
-   >現在、内の別の配信登録リストに既に存在する名前を入力したり、間隔を指定することはできません。 **[!UICONTROL タイトル]** フィールドに入力します。
+   >現在、「**[!UICONTROL タイトル]**」フィールドには、別の購読リストに既に存在する名前やスペースを入力することはできません。
 
 1. 開始日と終了日を定義できます。
 

@@ -6,7 +6,8 @@ description: イベントをキャプチャするためのオファースキー�
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: f70ba749-f517-4e09-a381-243b21713b48
+source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 88%
@@ -107,4 +108,3 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
 It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
 -->
-

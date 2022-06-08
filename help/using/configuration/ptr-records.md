@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="サブドメインの PTR レコード"
->abstract="ポインターレコード（PTR）は、IP アドレスにリンクされたドメイン名を提供する DNS レコードの一種で、受信メールサーバーが送信者の IP アドレスを確認するのに役立ちます。配信品質のエキスパートとの間で検討および検討が終わった後に、PTR レコードを編集する必要があります。"
+>abstract="ポインターレコード（PTR）は、IP アドレスにリンクされたドメイン名を提供する DNS レコードの一種で、受信メールサーバーが送信者の IP アドレスを確認するのに役立ちます。配信品質のエキスパートとの間で検討および議論が終わった後に、PTR レコードを編集するだけです。"
 
 ## PTR レコードについて {#about-ptr-records}
 

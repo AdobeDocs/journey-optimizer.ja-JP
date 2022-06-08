@@ -376,8 +376,8 @@ ht-degree: 98%
       + [実行アドレスを管理](using/configuration/primary-email-addresses.md)
       + [頻度ルールの設定](using/configuration/frequency-rules.md)
    + ランディングページの設定 {#lp-configuration}
-      + [ランディングページのサブドメインを設定](using/configuration/lp-subdomains.md)
-      + [ランディングページプリセットを定義](using/configuration/lp-presets.md)
+      + [ランディングページのサブドメインの設定](using/configuration/lp-subdomains.md)
+      + [ランディングページプリセットの定義](using/configuration/lp-presets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + [外部システムとの統合](using/configuration/external-systems.md)

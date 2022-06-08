@@ -4,7 +4,8 @@ description: ランキングの使用方法を学ぶ
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
+source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 31%

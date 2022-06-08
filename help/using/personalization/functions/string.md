@@ -9,7 +9,7 @@ exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -267,7 +267,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。 それ以外の場合は、「false」を返します。
+次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。それ以外の場合は、「false」を返します。
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -360,9 +360,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## マスク (#mask)
+## mask（#mask）
 
-この `Mask` 関数は、文字列の一部を「X」文字に置き換えるために使用されます。
+`Mask` 関数は、文字列の一部を「X」の文字に置き換えるために使用されます。
 
 **形式**
 
@@ -372,13 +372,13 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリでは、「123456789」文字列を「X」文字に置き換えます（最初と最後の 2 文字を除く）。
+次のクエリでは、「123456789」文字列を「X」の文字に置き換えます（最初と最後の 2 文字を除きます）。
 
 ```sql
 {%= mask("123456789",1,2) %}
 ```
 
-クエリが返すクエリ `1XXXXXX89`.
+このクエリは `1XXXXXX89` を返します。
 
 ## notEqualTo{#notEqualTo}
 
@@ -448,7 +448,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Replace All{#replaceAll}
 
-`replaceAll` 関数は、「target」に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。 置換は、文字列の先頭から末尾に向けておこなわれます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+`replaceAll` 関数は、「target」に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。置換は、文字列の先頭から末尾に向けておこなわれます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 **形式**
 

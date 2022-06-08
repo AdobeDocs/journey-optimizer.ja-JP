@@ -9,7 +9,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >タイムアウトを含む反応イベントがジャーニーで使用される場合、待機時間のデフォルト値と最小値は 40 秒です。 [この節](../building-journeys/reaction-events.md)を参照してください。
+   >タイムアウトのある反応イベントをジャーニーで使用する場合、待機時間のデフォルト値は最小値の 40 秒になります。[この節](../building-journeys/reaction-events.md)を参照してください。
 
 1. 「**[!UICONTROL イベントをトリガー]**」ボタンを使用してイベントを設定し、ジャーニーに送信します。
 

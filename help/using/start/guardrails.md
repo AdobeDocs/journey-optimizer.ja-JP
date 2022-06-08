@@ -22,7 +22,7 @@ ht-degree: 96%
 ## メッセージの制限事項 {#limitations-messages}
 
 * [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
-* [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
+* [!DNL Adobe Journey Optimizer] や、他の製品（例えば [!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
 
 ## ランディングページの制限 {#limitations-lp}
 

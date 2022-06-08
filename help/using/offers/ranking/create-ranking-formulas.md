@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -139,9 +139,9 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ### オファーされる製品を顧客が購入する傾向に基づいたオファーのブースト
 
-顧客の傾向スコアに基づいて、オファーのスコアを増加させることができます。
+顧客の傾向スコアに基づいて、オファーのスコアを上げることができます。
 
-この例では、インスタンステナントはです。 *_salesvelocity* また、プロファイルスキーマには、一連のスコアが配列に格納されます。
+この例では、インスタンステナントは *_salesvelocity* です。また、プロファイルスキーマには、一連のスコアが配列に格納されます。
 
 ![](../assets/ranking-example-schema.png)
 

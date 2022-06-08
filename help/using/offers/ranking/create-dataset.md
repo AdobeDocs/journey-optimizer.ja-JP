@@ -6,7 +6,8 @@ description: イベントを収集するデータセットの作成方法を説�
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
+source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 89%

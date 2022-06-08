@@ -1,20 +1,21 @@
 ---
 product: adobe campaign
-title: 制限
-description: 関数制限の詳細
+title: limit
+description: 関数 limit について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # 制限 {#limit}
 
-リストの最初または最後の N 個の要素を返します。
+リストの先頭または末尾の N 個の要素を返します。
 
 ## カテゴリ
 
@@ -28,9 +29,9 @@ ht-degree: 45%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。 listObject の場合は、フィールド参照である必要があります。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
 | numberOfItems | 整数 | 指定されたリストから返される項目の数。 |
-| firstOrLastItems | ブール値 | このパラメーターはオプションです（デフォルトは true）。 true の場合は、最初の項目を返します。 false の場合、最後の項目を返します。 |
+| firstOrLastItems | ブール値 | このパラメーターはオプションです（デフォルトは true）。true の場合は、先頭の項目を返します。false の場合は、末尾の項目を返します。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -88,4 +89,3 @@ ht-degree: 45%
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
 `["C","D","E"]` を返します。
-
