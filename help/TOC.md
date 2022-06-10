@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 97%
+source-wordcount: '1063'
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 97%
       + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
       + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
-   + [ライセンス使用状況ダッシュボード](using/start/licence-usage.md)
+   + [ライセンスの使用](using/segment/licence-usage.md)
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
