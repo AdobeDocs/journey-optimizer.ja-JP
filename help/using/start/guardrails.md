@@ -1,6 +1,6 @@
 ---
-title: Journey Optimizer Guardrail と制限
-description: Journey Optimizer Guardrail の詳細
+title: Journey Optimizer ガードレールと制限
+description: Journey Optimizer のガードレールの詳細を学ぶ
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 96%
 
 使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}を参照してください。
 
-次に、を使用する際の追加のガードレールと制限を示します。 [!DNL Adobe Journey Optimizer].
+[!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
 
 ## メッセージの制限事項 {#limitations-messages}
 
 * [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
-* [!DNL Adobe Journey Optimizer] や、他の製品（例えば [!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
+* [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
 
 ## ランディングページの制限 {#limitations-lp}
 

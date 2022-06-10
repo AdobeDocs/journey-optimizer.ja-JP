@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 98%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [limit](using/building-journeys/functions/functionlimit.md)
+            + [制限](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -268,7 +268,7 @@ ht-degree: 98%
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
       + [タグの作成](using/offers/offer-library/creating-tags.md)
    + ランキングの作成 {#rankings}
-      + [ランキングの概要](using/offers/ranking/get-started-rankings.md)
+      + [ランキングの基本を学ぶ](using/offers/ranking/get-started-rankings.md)
       + [ランキング式](using/offers/ranking/create-ranking-formulas.md)
       + AI モデル {#ai-models}
          + [AI モデルについて](using/offers/ranking/ai-models.md)

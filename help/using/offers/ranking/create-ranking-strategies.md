@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 39%
 
 ## AI モデルの作成 {#create-ranking-strategy}
 
-AI モデルを作成するには、次の手順に従います。
+AI モデルを作成するには、次の手順を行います。
 
-1. 内 **[!UICONTROL コンポーネント]** メニュー、 **[!UICONTROL ランキング]** 「 」タブで、「 **[!UICONTROL AI モデル]**.
+1. **[!UICONTROL コンポーネント]**&#x200B;メニューで、「**[!UICONTROL ランキング]**」タブに移動し、「**[!UICONTROL AI モデル]**」を選択します。
 
    ![](../assets/ai-ranking-list.png)
 
-   これまでに作成した AI モデルがすべて表示されます。
+   これまでに作成した AI モデルがすべてリストされます。
 
-1. 次をクリック： **[!UICONTROL AI モデルを作成]** 」ボタンをクリックします。
+1. 「**[!UICONTROL AI モデルを作成]**」ボタンをクリックします。
 
 1. AI モデルの一意の名前と説明を指定します。
 
@@ -43,16 +43,16 @@ AI モデルを作成するには、次の手順に従います。
 
    >[!NOTE]
    >
-   >この **[!UICONTROL 最適化指標]** 「 」セクションでは、AI モデルがオファーのランク付けを計算する際に使用するコンバージョンイベントに関する情報を提供します。
+   >「**[!UICONTROL 最適化指標]**」セクションでは、AI モデルがオファーのランク付けを計算する際に使用するコンバージョンイベントに関する情報が提供されます。
    >
-   >[!DNL Journey Optimizer] 次に基づいてオファーをランク付け **コンバージョン率** （コンバージョン率=コンバージョンイベントの合計数/インプレッションイベントの合計数）。 コンバージョン率は、次の 2 種類の指標を使用して計算されます。
-   >* **インプレッションイベント** （表示されるオファー）
-   >* **コンバージョンイベント** （電子メールまたは web でのクリックにつながるオファー）
+   >[!DNL Journey Optimizer] は&#x200B;**コンバージョン率**&#x200B;に基づいてオファーをランク付けします（コンバージョン率 = コンバージョンイベントの合計数／インプレッションイベントの合計数）。コンバージョン率は、次の 2 種類の指標を使用して計算されます。
+   >* **インプレッションイベント**（表示されるオファー）
+   >* **コンバージョンイベント**（メールまたは web でのクリックにつながるオファー）
 
    >
-   >これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。 詳しくは、[Adobe Experience Platform web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
+   >これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。詳しくは、[Adobe Experience Platform web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
 
-1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。 そのようなデータセットを作成する方法については、[こちらの節](#create-dataset)を参照してください。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。そのようなデータセットを作成する方法については、[こちらの節](#create-dataset)を参照してください。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../assets/ai-ranking-dataset-id.png)
 
@@ -68,6 +68,6 @@ AI モデルを作成するには、次の手順に従います。
     >
     >You can select up to 5 segments.-->
 
-1. AI モデルを保存してアクティブ化します。
+1. AI モデルを保存して有効化します。
 
    ![](../assets/ai-ranking-save-activate.png)

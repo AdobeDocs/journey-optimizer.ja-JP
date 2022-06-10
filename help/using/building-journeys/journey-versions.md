@@ -9,7 +9,7 @@ exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->ジャーニーバージョンのガードレールと制限について詳しくは、 [このページ](../start/guardrails.md#journey-versions-limitations)
+>ジャーニーバージョンのガードレールと制限について詳しくは、[このページ](../start/guardrails.md#journey-versions-limitations)を参照してください
 
 1. ライブジャーニーの最新バージョンを開き、「**[!UICONTROL 新しいバージョンを作成]**」をクリックして確認します。
 

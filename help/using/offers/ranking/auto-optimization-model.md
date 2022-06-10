@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: 自動最適化モデル
-description: 自動最適化モデルの詳細を説明します
+description: 自動最適化モデルの詳細を学ぶ
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,7 +10,7 @@ exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 96%
 
 ## 制限事項 {#limitations}
 
-自動最適化モデルをOffer decisioningに使用する場合、次の制限が適用されます。
+自動最適化モデルを Offer Decisioning に使用する場合、次の制限が適用されます。
 
-* 自動最適化モデルは、バッチ判定 API では機能しません。
-* モデルの作成に必要なフィードバックは、エクスペリエンスイベントとして送信する必要があります。 次の場所で自動的に送信しないでください。 [!DNL Journey Optimizer] チャネル。
+* 自動最適化モデルは Batch Decisioning API と連携しません。
+* モデルの構築に必要なフィードバックは、エクスペリエンスイベントとして送信する必要があります。[!DNL Journey Optimizer] チャネルで自動的に送信されないようにする必要があります。
 
 ## 用語 {#terminology}
 

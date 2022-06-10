@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 84%
+ht-degree: 90%
 
 ---
 
@@ -61,13 +61,13 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>決定管理 — AI ランキング自動最適化モデル</strong><br/></th>
+<th><strong>意思決定管理 - AI ランキング自動最適化モデル</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>判定管理で、トレーニング済みモデルシステムを使用できるようになりました。 この新しい機能は、特定のプロファイルに対して表示するオファーをランク付けします。</p>
+<p>意思決定管理で、トレーニング済みモデルシステムを使用できるようになりました。この新しい機能は、特定のプロファイルに対して表示するオファーをランク付けします。</p>
 <img src="assets/optimization.gif"/>
 <p>詳しくは、<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細なドキュメント</a>を参照してください。</p>
 </td>

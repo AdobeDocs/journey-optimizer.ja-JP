@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: イベントキャプチャの設定
-description: イベントをキャプチャするためのオファースキーマの設定方法を説明します
+description: イベントをキャプチャするためのオファースキーマの設定方法を学ぶ
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,7 +10,7 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 
 この時点で、次の条件を満たす必要があります。
 
-* AI モデルを作成した
+* AI モデルが作成済みであり、
 * キャプチャするイベントのタイプ（表示されたオファー（インプレッション）やクリックされたオファー（コンバージョン））、
 * およびイベントデータを収集するデータセットが定義済みであること。
 

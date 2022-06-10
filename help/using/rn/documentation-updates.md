@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 ## 2022年5月 {#may-2022}
 
 * [!DNL Journey Optimizer] の 2022年5月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* 関連する新しいクエリの例： [セグメントの選定](../reports/query-examples.md#segment-qualification-queries) および [イベント](../reports/query-examples.md#event-based-queries) が追加されました。
+* [セグメントの選定](../reports/query-examples.md#segment-qualification-queries)および[イベント](../reports/query-examples.md#event-based-queries)に関連する新しいクエリの例が追加されました。
 * メールデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関する記述が追加されました。関連するスクリーンショットを更新しました。[詳細情報](../design/design-emails.md)
 * 主要リソースへのリンクが、Journey Optimizer ドキュメントのホームページで更新されました。
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。[詳細情報](../reports/live-report.md)

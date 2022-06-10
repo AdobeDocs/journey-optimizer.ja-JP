@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 91%
 
 このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。抑制リストの概念と使用方法について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
 
-また、アドレスやドメイン](#add-addresses-and-domains)を抑制リストに&#x200B;[**手動で**&#x200B;追加することもできます。
+また、アドレスやドメインを抑制リストに&#x200B;[**手動で**&#x200B;追加](#add-addresses-and-domains)することもできます。
 
 >[!NOTE]
 >
->0 ～ 60 分かかります。 [!DNL Journey Optimizer] 送信メールの抑制済みアドレスを考慮に入れるため。
+>[!DNL Journey Optimizer] が送信メールの抑制済みアドレスを考慮するには 0 ～ 60 分かかります。
 
 ## 抑制リストへのアクセス {#access-suppression-list}
 
@@ -111,7 +111,7 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="抑制リストにメールまたはドメインを追加"
+>title="抑制リストにメールもしくはドメインを追加"
 >abstract="Journey Optimizer 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することができます。"
 
 メッセージをメールアドレスに配信できない場合、このアドレスは、定義済みの抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
@@ -147,7 +147,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >32 ～ 126 の間の ASCII 文字のみを使用できます。 完全なリストは、 [このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} など。
+   >32 ～ 126 文字の ASCII 文字のみを使用できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -171,7 +171,7 @@ ht-degree: 91%
    ```
    >[!NOTE]
    >
-   >「コメント」列では、32 ～ 126 の間の ASCII 文字のみを使用できます。 完全なリストは、 [このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} など。
+   >コメント列では、32 ～ 126 文字の ASCII 文字のみを使用できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
 
    このテンプレートは、**[!UICONTROL 抑制リスト]**&#x200B;のメインビューからダウンロードすることもできます。
 
@@ -191,7 +191,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->アップロードが完了したら、インターフェイスでそのステータスを確認して、成功したことを確認します。 [方法についてはこちらを参照](#recent-uploads)
+>アップロードが完了したら、インターフェイスでそのステータスを確認して、成功したことを確認します。[方法についてはこちらを参照](#recent-uploads)
 
 ### 最近のアップロードステータスの確認 {#recent-uploads}
 
