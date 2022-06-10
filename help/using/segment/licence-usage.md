@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ライセンス使用状況ダッシュボード {#licence-usage}
 
-この [!DNL Adobe Journey Optimizer] [ユーザーインターフェイス](user-interface.md) は、毎日のスナップショットでキャプチャされた、組織のライセンス使用状況に関する重要な情報を表示するダッシュボードを提供します。
+この [!DNL Adobe Journey Optimizer] [ユーザーインターフェイス](../start/user-interface.md) は、毎日のスナップショットでキャプチャされた、組織のライセンス使用状況に関する重要な情報を表示するダッシュボードを提供します。
 
 このダッシュボードにアクセスするには、に移動します。 **[!UICONTROL 管理]** > **[!UICONTROL ライセンスの使用状況]**. これにより、 **[!UICONTROL 概要]** タブに表示されるダッシュボード。
 
