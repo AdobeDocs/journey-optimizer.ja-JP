@@ -6,16 +6,51 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 87%
 
 ---
 
 # 配列およびリスト関数 {#arrays}
 
 これらの関数を使用すると、配列、リスト、および文字列の操作が容易になります。
+
+## null のみをカウント {#count-only-null}
+
+この `countOnlyNull` 関数は、リスト内の null 値の数をカウントするために使用されます。
+
+**形式**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**例**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+3 を返します。
+
+## null でカウント {#count-with-null}
+
+この `countWithNull` 関数は、null 値を含むリストのすべての要素をカウントするために使用されます。
+
+**形式**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**例**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+6 を返します。
 
 ## Distinct{#distinct}
 
@@ -34,15 +69,32 @@ ht-degree: 100%
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## null を含むユニークカウント {#distinct-count-with-null}
 
-## First item{#head}
-
-`head` 関数は、配列またはリスト内の最初の項目を返すために使用されます。
+この `distinctCountWithNull` 関数は、null 値を含むリスト内の異なる値の数をカウントするために使用されます。
 
 **形式**
 
 ```sql
-{%= head({array}) %}
+{%= distinctCountWithNull(array) %}
+```
+
+**例**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+3 を返します。
+
+## First item{#head}
+
+この `head` 関数は、配列またはリスト内の最初の項目を返すために使用されます。
+
+**形式**
+
+```sql
+{%= head(array) %}
 ```
 
 **例**
@@ -174,7 +226,6 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## Not in{#notin}
 

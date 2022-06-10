@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1530'
 ht-degree: 100%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 **[!UICONTROL 管理]**
 
-* **[!UICONTROL ジャーニー管理]** - このメニューを使用して、ジャーニーで使用する [イベント]../event/about-events.md)、[データソース](../datasource/about-data-sources.md)、[アクション](../action/action.md)を設定します。
+* **[!UICONTROL ジャーニー管理]** - このメニューを使用して、ジャーニーで使用する [イベント](../event/about-events.md)、[データソース](../datasource/about-data-sources.md)、[アクション](../action/action.md) を設定します。
 
 * **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。[詳細情報](../administration/sandboxes.md)
 

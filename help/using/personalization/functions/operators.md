@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
@@ -75,10 +75,6 @@ The following operation will return all people who do not have their home countr
 not (homeAddress.countryISO = "CA")
 ```
 -->
-
-
-
-
 
 ## 比較関数 {#comparison-functions}
 

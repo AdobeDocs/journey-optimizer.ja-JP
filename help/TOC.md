@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1064'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
          + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
-         + [日付関数](using/personalization/functions/dates.md)
+         + [日付時間関数](using/personalization/functions/dates.md)
          + [ブール関数と比較関数](using/personalization/functions/operators.md)
          + [ヘルパー](using/personalization/functions/helpers.md)
          + [マップ関数](using/personalization/functions/maps.md)
@@ -103,6 +103,7 @@ ht-degree: 98%
       + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
       + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
+   + [ライセンス使用状況ダッシュボード](using/start/licence-usage.md)
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)

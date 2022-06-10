@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 81%
+source-wordcount: '445'
+ht-degree: 84%
 
 ---
 
@@ -129,4 +129,4 @@ ht-degree: 81%
 
 **管理**
 
-**ライセンス使用状況ダッシュボードの更新** - Adobe Experience Platform UI で使用できるライセンス使用ダッシュボードに、 **ライセンス済み** 平均的なプロファイル充実度。 Journey Optimizerをご利用のお客様には、この指標表現にドロップが表示されます。つまり、ライセンスを取得した使用状況が正しくレポートされるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **ライセンス使用状況ダッシュボードの更新**  — で利用できるライセンス使用状況ダッシュボード [!DNL Adobe Journey Optimizer] ユーザーインターフェイスに **ライセンス済み** 平均的なプロファイル充実度。 この指標表現にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../start/licence-usage.md)

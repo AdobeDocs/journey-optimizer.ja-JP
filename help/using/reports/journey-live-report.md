@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '934'
 ht-degree: 100%
 
 ---
@@ -54,22 +54,6 @@ ht-degree: 100%
 * **[!UICONTROL 実行されたアクション]**：ジャーニーで正常に実行されたアクションの総数。
 
 * **[!UICONTROL アクションのエラー]**：アクションで発生したエラーの総数。
-
-<!--
-![](assets/live_report_7.png)
-
->[!NOTE]
->
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
-
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
-
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
--->
 
 ## 「メール」タブ  {#email-live}
 
@@ -121,7 +105,21 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 「**[!UICONTROL メール - 上位の受信者ドメイン]**」のグラフと表は、受信者が電子メールを開くために最も多く使用しているドメインの詳細を示しています。
 
-## 「プッシュ」タブ {#push-live}
+![](assets/live_report_7.png)
+
+>[!NOTE]
+>
+>オファーのウィジェットと指標は、決定がメールに挿入された場合にのみ使用できます。 意思決定管理について詳しくは、[このページ](../offers/get-started/starting-offer-decisioning.md)を参照してください。
+
+**[!UICONTROL オファーの統計情報]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL オファーの時系列の統計情報]**&#x200B;ウィジェットは、オファーの成功とターゲットオーディエンスへの影響を測定します。メッセージに関連する主な情報について、以下の KPI を使用して詳しく説明します。
+
+* **[!UICONTROL 送信されたオファー]**：オファーの送信の総数。
+
+* **[!UICONTROL オファーのインプレッション]**：オファーが配信で開かれた回数。
+
+* **[!UICONTROL オファーのクリック数]**：配信でオファーがクリックされた回数。
+
+## 「プッシュ」タブ  {#push-live}
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ]**」タブには、ジャーニーで送信されたプッシュ配信に関連する主な情報の詳細が表示されます。
 

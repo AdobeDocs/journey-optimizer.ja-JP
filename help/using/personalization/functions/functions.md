@@ -6,14 +6,14 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 98%
+source-wordcount: '1738'
+ht-degree: 76%
 
 ---
 
-# ヘルパー関数の基本を学ぶ{#functionsL}
+# ヘルパー関数の基本を学ぶ{#functions}
 
 [!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など、データの操作を実行します。パーソナライゼーション構文のガイドラインについては、[このページ](../personalization-syntax.md)を参照してください。
 
@@ -33,50 +33,59 @@ ht-degree: 98%
 
 ## 関数{#functions-helper}
 
-### 配列関数
+### 集計関数と配列関数
 
 <table>
     <tr>
         <td><a href="aggregation.md#average">Average</a></td><td>配列内の選択された値すべての算術平均を返します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>項目が配列またはリストのメンバーであるかどうかを判断するために使用します。</td>
-    </tr>
-    <tr>
-        <td><a href="aggregation.md#min">Minimum</a></td><td>配列内の選択された値すべての最小値を返します。</td>
-    </tr>
-    <tr>
         <td><a href="aggregation.md#count">Count</a></td><td>指定された配列内の要素数を返します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">Includes</a></td><td>配列またはリストに指定した項目が含まれているかどうかを判定します。</td>
+        <td><a href="aggregation.md#count-only-null">Null のみをカウント</a></td><td>この関数は、リスト内の null 値の数をカウントします。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Not in</a></td><td>項目が配列またはリストのメンバーではないかどうかを判定します。</td>
+        <td><a href="aggregation.md#count-with-null">null でカウント</a></td><td>この関数は、null 値を含むリストのすべての要素をカウントします</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#distinct">Distinct</a></td><td>重複する値が削除された配列またはリストから値を取得します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>2 つの配列またはリストに、共通メンバーが 1 つ以上あるかどうかを判断します。</td>
-    </tr>
-    <tr>
-        <td><a href="arrays-list.md#subset">Subset of</a></td><td>特定の配列（配列 A）が別の配列（配列 B）のサブセットであるか、つまり、配列 A のすべての要素が配列 B の要素であるかを判定します。</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">null を含むユニークカウント</a></td><td>この関数は、null 値を含む異なる値の数をカウントします</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">First item</a></td><td>配列またはリスト内の最初の項目を返します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">Last n in array</a></td><td>指定した数値式に基づいて昇順で並べ替えられた場合、配列の最後の「N」項目を返します。</td>
-    </tr>
-    <tr>
-        <td><a href="aggregation.md#sum">Sum</a></td><td>配列内の選択された値すべての合計を返します。</td>
-    </tr>
-    <tr>
         <td><a href="arrays-list.md#first-n">First n in array</a></td><td>指定した数値式に基づいて昇順で並べ替えられた場合、配列の最初の「N」項目を返します。</td>
     </tr>
     <tr>
+        <td><a href="arrays-list.md#in">In</a></td><td>項目が配列またはリストのメンバーであるかどうかを判断するために使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#includes">Includes</a></td><td>配列またはリストに指定した項目が含まれているかどうかを判定します。</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>2 つの配列またはリストに、共通メンバーが 1 つ以上あるかどうかを判断します。</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#last-n">Last n in array</a></td><td>指定した数値式に基づいて昇順で並べ替えられた場合、配列の最後の「N」項目を返します。</td>
+    </tr>
+    <tr>
         <td><a href="aggregation.md#max">Maximum</a></td><td>配列内の選択された値すべての最大値を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="aggregation.md#min">Minimum</a></td><td>配列内の選択された値すべての最小値を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#notin">Not in</a></td><td>項目が配列またはリストのメンバーではないかどうかを判定します。</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#subset">Subset of</a></td><td>特定の配列（配列 A）が別の配列（配列 B）のサブセットであるか、つまり、配列 A のすべての要素が配列 B の要素であるかを判定します。</td>
+    </tr>
+    <tr>
+        <td><a href="aggregation.md#sum">Sum</a></td><td>配列内の選択された値すべての合計を返します。</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">Superset of</a></td><td>この関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかどうか、つまり配列 A に配列 B のすべての要素が含まれているかどうかを判定します</td>
@@ -105,10 +114,10 @@ ht-degree: 98%
         <td><a href="dates.md#format-date">formatDate</a></td><td>この関数は、日時値を書式設定します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">setDays</a></td><td>この関数は、指定された日時の日付を設定します。</td>
+        <td><a href="dates.md#set-days">日数を設定</a></td><td>この関数は、指定された日時の日付を設定します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">setDays</a></td><td>この関数は、日時の時を設定します。</td>
+        <td><a href="dates.md#set-hours">時間を設定</a></td><td>この関数は、日時の時を設定します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">toUTC</a></td><td>この関数は、日時を UTC に変換します。</td>
@@ -133,7 +142,30 @@ ht-degree: 98%
     </tr>
 </table>
 
-**オブジェクト関数**
+### 数学関数 {#math-functions}
+
+<table>
+    <tr>
+        <td><a href="objects.md#absolute">絶対パス</a></td><td>この関数は、数値をその絶対値に変換します。</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#random">ランダム</a></td><td>この関数は、0 ～ 1 の間のランダムな値を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#round-down">切り捨て</a></td><td>この関数は、数値を切り捨てます。</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#round-up">切り上げ</a></td><td>この関数は、数値を切り上げます。</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#to-percentage">割合 (%) に</a></td><td>この関数は、数値をパーセンテージに変換します。</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#to-precision">精度</a></td><td>この関数は、数値を必要な精度に変換します。</td>
+    </tr>
+</table>
+
+### オブジェクト関数 {#object-functions}
 
 <table>
     <tr>
@@ -182,7 +214,25 @@ ht-degree: 98%
         <td><a href="string.md#extractEmailDomain">Extract Email Domain</a></td><td>メールアドレスのドメインを抽出するために使用します。</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-host">URL ホストを取得</a></td><td>この関数は、URL ホストを取得するために使用されます。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#get-url-path">URL パスを取得</a></td><td>この関数は、URL パスの取得に使用されます。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#get-url-protocol">URL プロトコルを取得</a></td><td>この関数は、URL プロトコルの取得に使用されます。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#index-of">インデックス</a></td><td>この関数は、2 番目のパラメーターの最初の値の（最初の引数内の）位置を返します。 一致するものがない場合は —1 を返します。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>文字列や式が空かどうかを確認するために使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#is-not-empty">Is Not Empty（空ではない）</a></td><td>この関数は、パラメーターの文字列が空でない場合、true を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#last-index-of">最後のインデックス</a></td><td>この関数は、2 番目のパラメーターの最後の値（最初の引数内）の位置を返します。 一致するものがない場合は -1 を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">Left trim</a></td><td>文字列の先頭から空白を削除します。</td>
@@ -197,13 +247,19 @@ ht-degree: 98%
         <td><a href="string.md#lower">Lower Case</a></td><td>文字列を小文字に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">Matches</a></td><td>文字列が特定の正規表現と一致するかどうかを判定するために使用します。</td>
-    </tr>
-    <tr>
         <td><a href="string.md#mask">マスク</a></td><td>この関数は、文字列の一部を「X」文字に置き換えるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Not equals to</a></td><td>文字列が指定の文字列に等しくないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#matches">Matches</a></td><td>文字列が特定の正規表現と一致するかどうかを判定するために使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#md5">MD5</a></td><td>この関数は、入力文字列の md5 ハッシュを返します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">notEqualTo</a></td><td>文字列が指定の文字列に等しくないかどうかを判定するために使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#not-equal-with-ignore-case">次と等しくない（大文字と小文字を区別しない）</a></td><td>この関数は、大文字と小文字を区別せずに、2 つの文字列を比較します。</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">正規表現グループ</a></td><td>指定された正規表現に基づいて特定の情報を抽出するために使用します。</td>
@@ -224,13 +280,40 @@ ht-degree: 98%
         <td><a href="string.md#startsWith">Starts with</a></td><td>この関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます</td>
     </tr>
     <tr>
+        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#string-to-integer">文字列を整数に</a></td><td>この関数は、文字列値を整数値に変換します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#string-to-number">文字列から数値へ</a></td><td>この関数は、文字列を数値に変換するために使用されます。 無効な入力の出力と同じ文字列を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#sub-string">サブ文字列</a></td><td>この関数は、開始インデックスと終了インデックスの間の文字列式の部分文字列を返します。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#titleCase">Title Case</a></td><td>文字列の各単語の最初の文字を大文字にするために使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-bool">ブール値に</a></td><td>この関数は、引数の値を、その型に応じてブール値に変換します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は、引数値を日時のみの値に変換します。 無効な入力に対する出力として、エポック日を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Trim</a></td><td>文字列の先頭と末尾の空白を削除します</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Upper case</a></td><td>文字列を大文字に変換します。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#url-decode">URL デコード</a></td><td>この関数は、URL エンコードされた文字列をデコードするために使用されます。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#url-encode">Url encore</a></td><td>この関数は、文字列を URL エンコードするために使用されます。</td>
     </tr>
 </table>
 
@@ -241,6 +324,9 @@ ht-degree: 98%
 
 
 <table>
+    <tr>
+        <td><a href="helpers.md#default">デフォルトのフォールバック値</a></td><td>この関数を使用すると、デフォルトで変数をレンダリングできます。</td>
+    </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>配列を繰り返すために使用します。</td>
     </tr>
@@ -292,12 +378,6 @@ ht-degree: 98%
         <td><a href="operators.md#and">And</a></td><td>この演算子は論理積を作成します。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#not">If</a></td><td>この演算子は、指定された条件が true かどうかに応じて式を解きます。</td>
-    </tr>
-    <tr>
-        <td><a href="operators.md#not">Not</a></td><td>この演算子は論理否定を作成します。</td>
-    </tr>
-    <tr>
         <td><a href="operators.md#or">Or</a></td><td>この演算子は論理和を作成します。</td>
     </tr>
 </table>
@@ -309,7 +389,7 @@ ht-degree: 98%
 
 <table>
     <tr>
-        <td><a href="operators.md#and">Equals to</a></td><td>値が等しいかどうかを確認します。</td>
+        <td><a href="operators.md#equals">次と等しい</a></td><td>値が等しいかどうかを確認します。</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Greater than</a></td><td>最初の値が 2 番目の値より大きいかどうかを確認します。</td>
@@ -318,10 +398,10 @@ ht-degree: 98%
         <td><a href="operators.md#greaterthanorequal">Greater or equals to</a></td><td>最初の値が 2 番目の値より大きいか、もしくは等しいかどうかを確認します。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">等しくない</a></td><td>指定された式が指定された値に等しくないかどうかを確認します。</td>
+        <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>最初の値が 2 番目の値より小さいか、もしくは等しいかどうかを確認します。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>最初の値が 2 番目の値より小さいか、もしくは等しいかどうかを確認します。</td>
+        <td><a href="operators.md#notequal">Not equals to</a></td><td>指定された式が指定された値に等しくないかどうかを確認します。</td>
     </tr>
 </table>
 
