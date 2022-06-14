@@ -1,18 +1,18 @@
 ---
 title: BCC 電子メールを使用
-description: メッセージプリセットレベルでメールを設定する方法を説明します
+description: メッセージプリセットレベルで BCC 電子メールを設定する方法について説明します。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1116'
 ht-degree: 84%
 
 ---
 
-# BCC 電子メールを使用 {#bcc-email}
+# BCC メール {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
