@@ -2,7 +2,7 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 100%
@@ -121,8 +121,8 @@ ht-degree: 100%
 * アクセシビリティ機能とショートカットに関する節を追加しました。[詳細情報](../start/user-interface.md#accessibility)
 * セグメント評価方法に関する節を追加しました。[詳細情報](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/email-global-report.md)
-* 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../reports/allow-list.md#reporting)
-* 「許可リストの有効化」の節を更新しました。[詳細情報](../reports/allow-list.md#enable-allow-list)
+* 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../configuration/allow-list.md#reporting)
+* 「許可リストの有効化」の節を更新しました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/message-presets.md#monitor-message-presets)
 * メッセージプリセットのメール再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。[詳細情報](../configuration/retries.md#retry-duration)
 * ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](../messages/consent.md#one-click-opt-out-link)

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1064'
 ht-degree: 99%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 99%
       + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
       + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
-   + [ライセンスの使用](using/segment/licence-usage.md)
+   + [ライセンス使用状況](using/segment/license-usage.md)
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 99%
       + [クエリの例](using/reports/query-examples.md)
    + 配信品質 {#deliverability}
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
-      + [抑制リスト](using/reports/suppression-list.md)
-      + [許可リスト](using/reports/allow-list.md)
+      + [抑制リストについて](using/reports/suppression-list.md)
    + [Journey Optimizer リソースに対する監査アクション](using/reports/audit-logs.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
@@ -369,8 +368,9 @@ ht-degree: 99%
             + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
             + [IP プールの作成](using/configuration/ip-pools.md)
          + メールアドレスのモニタリング {#monitor-reputation}
-            + [抑制リストの管理](using/configuration/manage-suppression-list.md)
+            + [抑制リスト](using/configuration/manage-suppression-list.md)
             + [再試行](using/configuration/retries.md)
+            + [許可リスト](using/configuration/allow-list.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
       + メッセージプリセットの設定 {#set-up-message-presets}
          + [メッセージプリセットの作成](using/configuration/message-presets.md)

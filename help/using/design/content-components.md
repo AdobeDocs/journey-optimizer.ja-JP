@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 100%
+source-wordcount: '1109'
+ht-degree: 99%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 
 ## オファーの決定 {#offer-decision}
 
-**[!UICONTROL Offer Decisioning]** コンポーネントを使用すると、メッセージに決定（旧称：オファーアクティビティ）を挿入できます。決定は、意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
+以下を使用： **[!UICONTROL オファーの決定]** メッセージに決定を挿入するコンポーネントです。 決定は、意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
 
 
 関連トピック：

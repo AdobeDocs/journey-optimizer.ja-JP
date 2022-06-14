@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 100%
+source-wordcount: '1267'
+ht-degree: 97%
 
 ---
 
 # 決定の作成 {#create-offer-activities}
 
-決定（旧称：オファーアクティビティ）はオファーのコンテナで、配信のターゲットに応じて、配信する最適なオファーを選ぶために Offer Decisioning エンジンを利用します。
+決定は、オファーのコンテナで、配信のターゲットに応じて、配信する最適なオファーを選択するためにオファー決定エンジンを活用します。
 
 ➡️ [オファーアクティビティを作成する方法については、このビデオをご覧ください](#video)
 

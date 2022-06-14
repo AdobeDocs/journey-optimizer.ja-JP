@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 80%
 
 ---
 
 # 決定の検索 {#look-up-decision}
 
-特定の決定（旧称：オファーアクティビティ）を検索するには、リクエストパスに決定 `@id` または決定の名前を含んだ GET リクエストを [!DNL Offer Library] API に対して実行します。
+特定の決定を検索するには、 [!DNL Offer Library] 決定のいずれかを含む API `@id` またはリクエストパス内の決定の名前。
 
 **API 形式**
 

@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 90%
@@ -129,4 +129,4 @@ ht-degree: 90%
 
 **管理**
 
-* **ライセンス使用状況ダッシュボードの更新**  — で利用できるライセンス使用状況ダッシュボード [!DNL Adobe Journey Optimizer] ユーザーインターフェイスに **ライセンス済み** 平均的なプロファイル充実度。 この指標表現にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../segment/licence-usage.md)
+* **ライセンス使用状況ダッシュボードの更新**  — で利用できるライセンス使用状況ダッシュボード [!DNL Adobe Journey Optimizer] ユーザーインターフェイスに **ライセンス済み** 平均的なプロファイル充実度。 この指標表現にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../segment/license-usage.md)

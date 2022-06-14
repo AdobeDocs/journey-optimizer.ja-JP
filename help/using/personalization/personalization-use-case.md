@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '606'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 * プッシュ通知メッセージを公開せずに作成およびデザインします。この[節](../messages/get-started-content.md)を参照してください。
 * 注文番号、ステータス、品目名を含む注文イベントを設定します。この[節](../event/about-events.md)を参照してください。
-* 決定（旧称「オファーアクティビティ」）を作成するには、この[節](../offers/offer-activities/create-offer-activities.md)を参照してください。
+* 決定を作成する（これを参照） [セクション](../offers/offer-activities/create-offer-activities.md).
 
 ## 手順 1 - プロファイルでのパーソナライゼーションの追加 {#add-perso}
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
    ![](assets/perso-uc13.png)
 
-1. 左側のメニューから「**オファーの決定**」を選択して、Offer Decisioning 変数を挿入します。プレースメントを選択し、決定（旧称「オファーアクティビティ」）の横にある「**+**」アイコンをクリックし、本文に追加します。
+1. 左側のメニューから「**オファーの決定**」を選択して、Offer Decisioning 変数を挿入します。配置を選択し、 **+** 決定の横にあるアイコンをクリックし、本文に追加します。
 
    ![](assets/perso-uc14.png)
 

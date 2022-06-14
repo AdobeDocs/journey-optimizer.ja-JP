@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Journey Optimizer を使用すると、オファーカタログを Adobe Experie
 * パーソナライズされたオファー
 * フォールバックオファー
 * プレースメント
-* 決定（旧称：オファーアクティビティ）
+* 判断
 
 オファーライブラリでこれらのオブジェクトの 1 つが変更されるたびに、新しいエクスポートジョブが自動的に実行され、データセットが更新されます。
 

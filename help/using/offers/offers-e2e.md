@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 100%
+source-wordcount: '1086'
+ht-degree: 99%
 
 ---
 
@@ -227,58 +227,6 @@ ht-degree: 100%
 
 ## メールへの決定の挿入 {#insert-decision-in-email}
 
-これで決定が有効になったので、メールメッセージに挿入できます。これをおこなうには、以下の手順に従います。
-
-1. メールを作成し、[E メールデザイナー](../../using/design/design-emails.md)を開いてコンテンツを設定します。
-
-1. 左側のパレットから構造コンポーネントを追加します。
-
-1. **[!UICONTROL オファーの決定]**&#x200B;コンテンツコンポーネントを追加します。コンテンツコンポーネントの使用方法については、[この節](../../using/design/content-components.md)を参照してください。
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. 選択します。右側のパレットで、「**[!UICONTROL オファーの決定を選択]**」をクリックして、決定を追加します。
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. 表示するオファーに対応するプレースメントを「**[!UICONTROL プレースメント]**」ドロップダウンリストから選択します。
-
-   この場合、この例の一部として以前に作成したプレースメントから、電子メールで決定を使用する際に使用可能なのは「 **メール - 画像**」プレースメントのみです。詳細は、[プレースメントの作成](../../using/offers/offer-library/creating-placements.md)を参照してください。
-
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. 「**メール - 画像**」プレースメントに一致する決定が表示されます。コンテンツコンポーネントで使用する決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >選択したプレースメントと互換性のある決定のみがリストに表示されます。
-
-これで、すべてのパーソナライズされたオファーとフォールバックオファーが電子メールデザイナーで視覚化されて表示されるようになります。
-
+これで決定が有効になったので、メールメッセージに挿入できます。それには、 [このページ](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-**[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印（右向き矢印と左向き矢印）を使用して、データを参照します。また、顧客プロファイルを使用して、決定の一部である様々なオファーを表示することもできます。詳しくは、[この節](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)を参照してください。
-
-変更を保存し、メッセージを公開すると、ジャーニーの一部としてメッセージを送信する際に、関連するプロファイルにオファーが表示されるようになります。
-
->[!NOTE]
->
->[公開済み](../../using/messages/publish-manage-message.md)メッセージで直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、オファー決定を更新すると、その更新は、対応するメッセージに自動的に反映されるようになり、再公開する必要がなくなりました。
-
-**関連トピック：**
-
-* [この節](../../using/design/preview.md#preview-your-messages)では、メッセージのプレビューを確認する方法を説明します。
-
-* メッセージの公開方法については、[この節](../../using/messages/publish-manage-message.md)を参照してください。
-
-* 1 つ以上のジャーニーによってメッセージがトリガーされる仕組みについては、[この節](../building-journeys/journey.md)を参照してください。
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

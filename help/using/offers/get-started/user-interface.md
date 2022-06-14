@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 93%
 
 ---
 
 # ユーザーインターフェイス {#user-interface}
 
-オファーライブラリを使用すると、プレースメントとオファーを 1 か所で作成および管理できるだけでなく、作成されたすべての決定（旧称：オファーアクティビティ）にアクセスできます。
+オファーライブラリを使用すると、配置とオファーを 1 か所で作成および管理でき、作成したすべての決定にアクセスできます。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 画面上の手順に従って、プレースメント、オファーおよびコレクションの作成を開始します。
 
-これらの最初の手順が完了すると、オファー決定（旧称：オファーアクティビティ）を作成するよう求められます。
+これらの最初の手順が完了したら、オファーの決定を作成するよう求められます。
 
 ![](../assets/overview_collection-created.png)
 

@@ -2,7 +2,7 @@
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 100%
@@ -70,7 +70,7 @@ Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使�
 **管理**
 
 * メールヘッダー内の購読解除リンクをメッセージプリセットレベルで有効／無効にでき、カスタム購読解除 URL をメッセージレベルで設定できるようになりました。[詳細情報](../configuration/message-presets.md#list-unsubscribe)
-* 許可リストは、実稼働サンドボックスと非実稼働サンドボックスの [!DNL Journey Optimizer] インターフェイスを介して、有効または無効にできるようになりました。[詳細情報](../reports/allow-list.md#enable-allow-list)
+* 許可リストは、実稼働サンドボックスと非実稼働サンドボックスの [!DNL Journey Optimizer] インターフェイスを介して、有効または無効にできるようになりました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 
 **パーソナライゼーション**
 

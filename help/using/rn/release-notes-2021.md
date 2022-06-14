@@ -2,7 +2,7 @@
 title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '2073'
 ht-degree: 100%
@@ -278,7 +278,7 @@ ht-degree: 100%
 
 **メール設定**
 
-* **許可リスト** - API 呼び出しを通じて、実稼動以外のサンドボックスで許可リストを有効および無効にできるようになりました。[詳細情報](../reports/allow-list.md#enable-allow-list)
+* **許可リスト** - API 呼び出しを通じて、実稼動以外のサンドボックスで許可リストを有効および無効にできるようになりました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * **ナビゲーション** - 抑制リストは&#x200B;**管理／チャネル／メール設定／一般**&#x200B;メニューでアクセス可能でしたが、新しい&#x200B;**抑制リスト**&#x200B;サブメニューに移動しました。このサブメニューには、関連するすべての機能が集約されているので、アクセスしやすくなっています。[詳細情報](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **意思決定管理**
@@ -325,7 +325,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>特定の送信セーフリストをサンドボックスレベルで定義して、テスト目的の安全な環境を構築できるようになりました。ミスが発生する可能性のある非実稼働インスタンスでは、許可リストにより、不要なメッセージが顧客に送信されるリスクがなくなります。この機能は、抑制 API を利用することで有効になります。</p>
-<p>詳しくは、 <a href="../reports/allow-list.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../configuration/allow-list.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

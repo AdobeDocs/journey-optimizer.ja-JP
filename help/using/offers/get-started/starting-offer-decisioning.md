@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '941'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Offer Decisioning は、マーケティングオファーの一元化された�
 
 ![](../assets/offer_structure.png)
 
-オファーライブラリをオファーで強化した後は、オファーを&#x200B;**決定**（旧称：オファーアクティビティ）に統合することができます。
+オファーライブラリがオファーで強化されたら、オファーを&#x200B;**決定**&#x200B;に統合できます。
 
 決定とは、配信ターゲットに応じて提供すべき最適なオファーを選択するために、Offer Decisioning エンジンを利用するオファーのコンテナです。
 
