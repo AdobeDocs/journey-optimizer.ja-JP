@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 85%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 ジャーニーを検索すると、アプリを初めて開いたときに、リストの先頭に最新のバージョンが表示されます。次に、必要な並べ替えを定義します。アプリケーションはこの定義をユーザーの環境設定として扱います。ジャーニーのバージョンは、ジャーニー版インターフェイスの上部（キャンバスの上）にも表示されます。
 
 ![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>ほとんどの場合、1 つのプロファイルを同じジャーニー内で複数回同時に存在させることはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは再エントリできません。 [詳細情報](../building-journeys/journey-end.md)
 
 ライブジャーニーを変更する必要がある場合は、ジャーニーの新しいバージョンを作成する必要があります。
 

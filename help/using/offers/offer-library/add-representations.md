@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
+source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 80%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;} を参照してください。
 
 1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
 
@@ -85,6 +85,16 @@ ht-degree: 100%
 1. 「**[!UICONTROL 選択]**」をクリックします。
 
    ![](../assets/offer-select-asset.png)
+
+### HTMLまたは JSON ファイルを追加 {#html-json}
+
+選択した配置がHTMLタイプの場合は、 [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}) です。
+
+例えば、でHTML電子メールテンプレートを作成したとします。 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} と呼ばれ、オファーコンテンツにそのファイルを使用する場合。 新しいファイルを作成する代わりに、テンプレートを **アセットライブラリ** を使用して、オファーの表示域で再利用できるようにします。
+
+表示域でコンテンツを再利用するには、 **アセットライブラリ** の説明に従って、 [この節](#images) をクリックし、HTMLまたは JSON ファイルを選択します。
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### URL の追加 {#urls}
 
@@ -115,3 +125,4 @@ ht-degree: 100%
    >[!NOTE]
    >
    >意思決定管理に使用できるソースは、**[!UICONTROL プロファイル属性]**、**[!UICONTROL セグメントメンバーシップ]**&#x200B;および&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
+

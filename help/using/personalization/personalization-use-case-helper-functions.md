@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -104,7 +104,6 @@ ht-degree: 100%
 
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーにメッセージを追加します。
-1. 終了アクティビティでジャーニーを終了します。
 
    メッセージをまだ公開していないので、ジャーニーをテストすることも公開することもできません。
 

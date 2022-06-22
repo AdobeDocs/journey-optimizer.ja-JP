@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 100%
 
 ![](assets/live_report_5.png)
 
-**[!UICONTROL メールのパフォーマンス]**&#x200B;および&#x200B;**[!UICONTROL メールの概要]** ウィジェットでは、メッセージに関連する主な情報の詳細がグラフと KPI と共に表示されます。
+**[!UICONTROL メールの効果]** および **[!UICONTROL 電子メールの概要]** ウィジェットは、メッセージに関する主な情報の詳細をグラフと KPI で示します。
 
 * **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルと認定されるユーザープロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 配信済み]**:正常に送信されたメッセージ数。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
 * **[!UICONTROL クリック数]**：配信でコンテンツがクリックされた回数。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+* **[!UICONTROL バウンス]**:配信と自動返品処理の間に累積したエラーの合計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
@@ -49,9 +49,9 @@ ht-degree: 100%
 
 **[!UICONTROL 送信統計]**&#x200B;ウィジェットは、配信の成功の詳細を表示します。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 配信済み]**:正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+* **[!UICONTROL バウンス]**:配信と自動返品処理の間に累積したエラーの合計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 

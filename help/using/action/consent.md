@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 6d20cf5bc235178c7698a9595c551d7b12f4cd13
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,8 @@ Journey Optimizer では、同意をカスタムアクションで利用でき�
 
 * セグメントを読み取り：取得したセグメントが考慮されます。
 * カスタムアクション：同意管理では、使用される属性（[アクションパラメーター](../action/about-custom-action-configuration.md#define-the-message-parameters)）と、定義されたマーケティングアクション（必須のマーケティングアクションと追加のマーケティングアクション）が考慮されます。
+
+同意は、マーケティングアクション（必須または追加）がカスタムアクションレベルで設定されている場合にのみ適用されます。
 
 ジャーニーで使用されるその他のアクティビティは、すべて考慮されません。セグメントの選定でジャーニーを開始した場合、そのセグメントは考慮されません。
 

@@ -3,21 +3,15 @@ title: SMS 設定
 description: Journey Optimizer で SMS メッセージを送信するように環境を設定する方法を学ぶ
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 86%
 
 ---
 
 # SMS チャネルの設定 {#sms-configuration}
-
->[!CAUTION]
->
-> SMS チャネルは、現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。
 
@@ -29,15 +23,14 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
 
    ![](assets/sms_4.png)
 
-1. **[!UICONTROL SMS ベンダー]**&#x200B;として Sinch を選択します。
+1. を選択します。 **[!UICONTROL SMS ベンダー]**:
+
+   * [!DNL Sinch]。次を検索： **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]** Sinch アカウントから SMS / API メニューにアクセスします。
+   * [!DNL Twilio]。次を検索： **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**&#x200B;をクリックし、コンソールダッシュボードページの「アカウント情報」ペインにアクセスします。
 
 1. API 認証情報の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
 1. **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を入力します。
-
-   >[!NOTE]
-   >
-   > Sinch には特別な API 認証情報が必要です。次を検索： **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、Sinch アカウントから SMS／API メニューにアクセスします。
 
    ![](assets/sms_5.png)
 
@@ -74,6 +67,8 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
       SMS メッセージを送信する環境の設定方法については、[この節](sms-configuration.md)を参照してください。
 
    * コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
+
+   * を選択します。 **[!UICONTROL SMS 実行フィールド]** をクリックし、 **[!UICONTROL プロファイル属性]** プロファイルの電話番号に関連付けられています。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 

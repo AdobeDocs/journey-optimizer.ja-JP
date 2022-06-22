@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer での Adobe Experience Platform データ�
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
+source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '622'
+ht-degree: 98%
 
 ---
 
@@ -70,6 +70,8 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 データセットの作成について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 データセット UI の使用方法については、[データ取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+
+クエリの例を含む使用例のリストを利用できます [ここ](../start/datasets-query-examples.md).
 
 **関連トピック**
 

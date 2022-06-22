@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [開発者向けの基本を学ぶ](using/start/path/developer.md)
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [ガードレール](using/start/guardrails.md)
++ キャンペーン {#campaigns}
+   + [キャンペーンの概要](using/campaigns/get-started-with-campaigns.md)
+   + [キャンペーンの作成](using/campaigns/create-campaign.md)
+   + [キャンペーンの変更または停止](using/campaigns/modify-stop-campaign.md)
+   + レポート {#reports}
+      + [キャンペーンのライブレポート](using/campaigns/campaign-live-report.md)
+      + [キャンペーングローバルレポート](using/campaigns/campaign-global-report.md)
 + メッセージ {#messages}
    + [メッセージの基本を学ぶ](using/messages/get-started-content.md)
    + [メールの作成](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
+      + [ジャーニーライフサイクル](using/building-journeys/journey-end.md)
       + [ジャーニーのバージョン](using/building-journeys/journey-versions.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + ジャーニーの作成{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
+      + [ジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
    + アクティビティ {#about-journey-building}
       + [ジャーニーアクティビティについて](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + 配信品質 {#deliverability}
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リストについて](using/reports/suppression-list.md)
-   + [Journey Optimizer リソースに対する監査アクション](using/reports/audit-logs.md)
 + 意志決定管理 {#offer-decisioniong}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
@@ -350,7 +358,9 @@ ht-degree: 98%
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + データ管理 {#data-management}
    + [スキーマ](using/start/get-started-schemas.md)
-   + [データセット](using/start/get-started-datasets.md)
+   + データセット {#datasets}
+      + [データセットの基本を学ぶ](using/start/get-started-datasets.md)
+      + [クエリの例](using/start/datasets-query-examples.md)
    + [クエリ](using/start/get-started-queries.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
@@ -411,4 +421,7 @@ ht-degree: 98%
    + [権限レベル](using/administration/high-low-permissions.md)
    + [サンドボックス管理](using/administration/sandboxes.md)
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
-
++ プライバシー {#privacy}
+   + [データ使用ポリシー](using/privacy/policies.md)
+   + [プライバシーリクエスト](using/privacy/requests.md)
+   + [Journey Optimizer リソースに対する監査アクション](using/privacy/audit-logs.md)

@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 90%
+source-wordcount: '325'
+ht-degree: 53%
 
 ---
 
@@ -17,116 +17,145 @@ ht-degree: 90%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
-## 2022年5月リリース {#may-2022-release}
+## 2022 年 6 月リリース {#june-2022-release}
 
 ### 新機能
 
 <table>
 <thead>
 <tr>
-<th><strong>メッセージ頻度ルール</strong><br/></th>
+<th><strong>ユーザーに SMS を送信する</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>過度に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルのビジネスルールを設定できるようになりました。</p>
-<img src="assets/frequency-rn.gif"/>
-<p>詳しくは、<a href="../configuration/frequency-rules.md">詳細なドキュメント</a>を参照してください。</p>
+<p>使用可能な日付： <b>6 月 27 日</b></p>
+<p></p>
+<p>Journey Optimizerで、 <b>シンチ</b> または <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>詳しくは、<a href="../messages/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email BCC</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Availability date: <strong>May, 31</strong></p>
-<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
-<img src="assets/bcc-rn.gif"/>
-<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 
 <table>
 <thead>
 <tr>
-<th><strong>意思決定管理 - AI ランキング自動最適化モデル</strong><br/></th>
+<th><strong>Adobe Stockとの統合により、より効果的な画像をより迅速に見つける</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>意思決定管理で、トレーニング済みモデルシステムを使用できるようになりました。この新しい機能は、特定のプロファイルに対して表示するオファーをランク付けします。</p>
-<img src="assets/optimization.gif"/>
-<p>詳しくは、<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細なドキュメント</a>を参照してください。</p>
+<p>使用可能な日付： <b>6 月 24 日</b></p>
+<p></p>
+<p>Adobe StockとAdobe Journey Optimizerの Email Designer 統合プラグインを使用すると、メッセージのオーサリングで使用するために、画像のナビゲーション、ライセンス、保存を簡単におこなうことができます。 </br> 新しい <b>類似の写真を検索</b> また、画像のコンテンツ、色、構成に一致する Stock 写真を探すこともできます。 </p>
+<img src="assets/do-not-localize/stock-rn.gif"/>
+<p>詳しくは、<a href="../design/stock.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
+<th><strong>すべてのメールで BCC で E メールを使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Permission management in Journey Optimizer has been extended to data access. You can now manage data access for specific teams or groups of users (i.e. internal, external, 3rd parties) ​and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
-<p>This capability is available for a limited set of customers.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+<p>BCC（ブラインドカーボンコピー）でメールを送信機能を使用して、Adobe Journey Optimizer から送信されたメールを保存できるようになりました。メールプリセットでこのオプションを有効にして、送信されたすべてのメールが BCC アドレスにブラインドコピーされるようにします。</p>
+<img src="assets/do-not-localize/bcc-rn.gif"/>
+<p>詳しくは、<a href="../configuration/bcc-email.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Copy objects between sandboxes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now re-create the experiences from a Journey Optimizer sandbox to another, for example from a non-production sandbox to a production sandbox. This new capability copies an entire Journey, including any objects the Journey depends on to run correctly, from one environment to another. In addition to Journeys, you can also copy other components, such as Offers, Messages, Schemas, Datasets, Data Sources, Events, and Actions.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer 監査ログ</strong><br/></th>
+<th><strong>Dynamic Expression Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer リソースでユーザーが実行したアクションを監視できるようになりました。</p>
-<img src="assets/audit-rn.gif"/>
-<p>詳しくは、 <a href="../reports/audit-logs.md">詳細なドキュメント</a>を参照してください。</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
+
 
 ### 機能強化
 
-**パーソナライゼーション**
+**意思決定管理**
 
-* **文字を非表示にする新しいヘルパー関数** - `mask` ヘルパー関数を使用すると、文字列の一部を「X」文字に置き換えることができます。[詳細情報](../personalization/functions/string.md#mask)
+* **HTMLと JSON ファイルのサポート**  — 外部HTMLファイルと JSON ファイルをAdobe Experience Cloud Asset ライブラリからオファー表示域のコンテンツにドラッグ&amp;ドロップできるようになりました。 [詳細情報](../offers/offer-library/add-representations.md#html-json)
 
-**ランディングページ**
+<!--
+**Email**
 
-* **フォームのないランディングページ** - フォームを含まず、訪問者のアクションを必要としないランディングページを作成および公開できるようになりました。
-* **ランディングページテンプレート** - ランディングページをテンプレートとして保存し、他のランディングページを作成する際に再利用できるようになりました。[詳細情報](../landing-pages/lp-templates.md)
-* **プライマリページに戻る** - 同じランディングページ内の任意のサブページからプライマリページへのリンクを追加できるようになりました。
-* **カスタム JavaScript のサポート** - ランディングページコンテンツにカスタム JavaScript を追加して、高度なスタイル設定を実行したり、ランディングページにカスタム動作を追加したりできるようになりました。[詳細情報](../landing-pages/lp-custom-js.md)
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
 
-**ジャーニー**
+**Journeys**
 
-* **セグメントを読み取り** - 一回限りのセグメントを読み取りジャーニーは、ジャーニーの実行から 30 日後に、完了ステータスに移動するようになりました。スケジュールされた読み取りセグメントの場合、最後の実行から 30 日後になります。[詳細情報](../building-journeys/read-segment.md)
-* **式エディター** - [limit](../building-journeys/functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。[sort](../building-journeys/functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。また、listObject のサポートが [discint](../building-journeys/functions/functiondistinct.md) および [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 関数に追加されました。
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
+
+-->
 
 **管理**
 
-* **ライセンス使用状況ダッシュボードの更新**  — で利用できるライセンス使用状況ダッシュボード [!DNL Adobe Journey Optimizer] ユーザーインターフェイスに **ライセンス済み** 平均的なプロファイル充実度。 この指標表現にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../segment/license-usage.md)
+<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+
+* **トラッキング URL パラメーターのプレビュー**  — メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。 [詳細情報](../configuration/email-settings.md#url-tracking)
+
+<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+
+<!--
+**Reporting**
+
+* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
+-->

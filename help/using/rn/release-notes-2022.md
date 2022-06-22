@@ -2,10 +2,10 @@
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
+workflow-type: tm+mt
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
@@ -14,6 +14,103 @@ ht-degree: 100%
 このページは、2022年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
 
 最新のリリースノートが[このページ](release-notes.md)で確認できます。
+
+毎四半期ごとにインボックスに
+
+## 2022年5月リリース {#may-2022-release}
+
+### 新機能
+
+<table>
+<thead>
+<tr>
+<th><strong>メッセージ頻度ルール</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>過度に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルのビジネスルールを設定できるようになりました。</p>
+<img src="assets/do-not-localize/frequency-rn.gif"/>
+<p>詳しくは、<a href="../configuration/frequency-rules.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>意思決定管理 - AI ランキング自動最適化モデル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>意思決定管理で、トレーニング済みモデルシステムを使用できるようになりました。この新しい機能は、特定のプロファイルに対して表示するオファーをランク付けします。</p>
+<img src="assets/do-not-localize/optimization.gif"/>
+<p>詳しくは、<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Permission management in Journey Optimizer has been extended to data access. You can now manage data access for specific teams or groups of users (i.e. internal, external, 3rd parties) ​and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
+<p>This capability is available for a limited set of customers.</p>
+<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer 監査ログ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer リソースでユーザーが実行したアクションを監視できるようになりました。</p>
+<img src="assets/do-not-localize/audit-rn.gif"/>
+<p>詳しくは、 <a href="../privacy/audit-logs.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化
+
+**パーソナライゼーション**
+
+* **文字を非表示にする新しいヘルパー関数** - `mask` ヘルパー関数を使用すると、文字列の一部を「X」文字に置き換えることができます。[詳細情報](../personalization/functions/string.md#mask)
+
+**ランディングページ**
+
+* **フォームのないランディングページ** - フォームを含まず、訪問者のアクションを必要としないランディングページを作成および公開できるようになりました。
+* **ランディングページテンプレート** - ランディングページをテンプレートとして保存し、他のランディングページを作成する際に再利用できるようになりました。[詳細情報](../landing-pages/lp-templates.md)
+* **プライマリページに戻る** - 同じランディングページ内の任意のサブページからプライマリページへのリンクを追加できるようになりました。
+* **カスタム JavaScript のサポート** - ランディングページコンテンツにカスタム JavaScript を追加して、高度なスタイル設定を実行したり、ランディングページにカスタム動作を追加したりできるようになりました。[詳細情報](../landing-pages/lp-custom-js.md)
+
+**ジャーニー**
+
+* **セグメントを読み取り** - 一回限りのセグメントを読み取りジャーニーは、ジャーニーの実行から 30 日後に、完了ステータスに移動するようになりました。スケジュールされた読み取りセグメントの場合、最後の実行から 30 日後になります。[詳細情報](../building-journeys/read-segment.md)
+* **式エディター** - [limit](../building-journeys/functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。[sort](../building-journeys/functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。また、listObject のサポートが [discint](../building-journeys/functions/functiondistinct.md) および [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 関数に追加されました。
+
+**管理**
+
+* **ライセンス使用状況ダッシュボードの更新**  — で利用できるライセンス使用状況ダッシュボード [!DNL Adobe Journey Optimizer] ユーザーインターフェイスに **ライセンス済み** 平均的なプロファイル充実度。 この指標表現にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../segment/license-usage.md)
+
 
 ## 2022年4月リリース {#april-2022-release}
 

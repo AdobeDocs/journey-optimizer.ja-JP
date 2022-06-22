@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '394'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
    ![](assets/accintegration-uc-10.png)
 
-1. **終了**&#x200B;アクティビティを追加し、ジャーニーをテストします。
+1. ジャーニーのテスト.
 
    ![](assets/accintegration-uc-11.png)
 

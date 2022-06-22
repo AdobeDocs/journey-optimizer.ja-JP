@@ -2,16 +2,30 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 100%
+source-wordcount: '1555'
+ht-degree: 92%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+
+## 2022年6月 {#june-2022}
+
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 6 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* データ使用ポリシーに関する新しい節がドキュメントに追加されました。 [詳細情報](../privacy/policies.md)
+* プライバシーリクエストに関する新しい節がドキュメントに追加されました。 [詳細情報](../privacy/requests.md)
+* リソースに関する監査ログに関する新しい節がドキュメントに追加されました。 [詳細情報](../privacy/audit-logs.md)
+* Adobe Experience Cloud Asset ライブラリからオファー表示域にHTMLまたは JSON コンテンツを追加する方法に関する新しい節がドキュメントに追加されました。 [詳細情報](../offers/offer-library/add-representations.md#html-json)
+* ジャーニーのライフサイクルに新しいページを追加しました。 [詳細情報](../building-journeys/journey-end.md)
+* 待機アクティビティページを更新しました。 [詳細情報](../building-journeys/wait-activity.md)
+* Adobe Journey Optimizerデータセットのリストとクエリ例を追加しました。 [詳細情報](../start/datasets-query-examples.md)
+* 許可リストページは、「設定」セクションに移動されました。 [詳細情報](../configuration/allow-list.md)
+* 抑制リストページが更新されました。 [詳細情報](../configuration/manage-suppression-list.md)
 
 ## 2022年5月 {#may-2022}
 

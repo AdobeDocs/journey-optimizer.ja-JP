@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 95%
+source-wordcount: '1226'
+ht-degree: 86%
 
 ---
 
@@ -163,10 +163,15 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL トラッキングパラメーター"
->abstract="このセクションを使用すると、メールコンテンツに存在するキャンペーン URL にトラッキングパラメーターを自動的に追加できます。"
+>title="URL トラッキングパラメーターの定義"
+>abstract="このセクションを使用して、E メールコンテンツに存在する URL にトラッキングパラメーターを自動的に追加します。 この機能はオプションです。"
 
-**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を使用して、チャネルをまたいでマーケティング活動の有効性を測定することができます。この機能はオプションです。
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="URL トラッキングパラメーターをプレビュー"
+>abstract="E メールコンテンツに存在する URL にトラッキングパラメーターを追加する方法を確認します。"
+
+以下を使用できます。 **[!UICONTROL URL トラッキングパラメーター]** チャネルをまたいでマーケティング活動の効果を測定する。 この機能はオプションです。
 
 このセクションで定義されたパラメーターは、メールメッセージコンテンツに含まれる URL の末尾に追加されます。その後、これらのパラメーターを Adobe Analytics や Google Analytics などの web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
 
@@ -174,8 +179,9 @@ ht-degree: 95%
 
 例として、3 つの URL トラッキングパラメーターがメッセージプリセットの作成時に自動入力されます。これらを編集し、「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
 
-URL トラッキングパラメーターを設定するには、「**[!UICONTROL 名前]**」フィールドと「**[!UICONTROL 値]**」フィールドに目的の値を直接入力するか、次のオブジェクトに移動して事前定義済みの値のリストから選択します。
+URL トラッキングパラメーターを設定するには、目的の値を **[!UICONTROL 名前]** および **[!UICONTROL 値]** フィールド。
 
+次のオブジェクトに移動して、事前定義済みの値のリストから選択することもできます。
 * ジャーニー属性：**ソース ID**、**ソース名**、**ソースバージョン ID**
 * アクション属性：**アクション ID**、**アクション名**
 * Offer Decisioning 属性：**オファー ID**、**オファー名**
@@ -186,6 +192,10 @@ URL トラッキングパラメーターを設定するには、「**[!UICONTROL
 >
 >フォルダーは選択しないでください。必要なフォルダーを参照し、トラッキングパラメーター値として使用するプロファイル属性を選択します。
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 以下に、Adobe Analytics および Google Analytics 互換 URL の例を示します。
 
 * Adobe Analytics 互換 URL：`www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ URL トラッキングパラメーターを設定するには、「**[!UICONTROL
 >[!NOTE]
 >
 >テキスト値の入力と、事前定義された値の選択を組み合わせることができます。各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドには、合計 255 文字まで入力できます。
+
+結果のトラッキング URL を動的にプレビューできます。 パラメータを追加、編集、または削除するたびに、プレビューが自動的に更新されます。
+
+![](assets/preset-url-tracking-preview.png)

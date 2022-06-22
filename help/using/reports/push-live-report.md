@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 配信済み]**:正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+* **[!UICONTROL バウンス]**:配信と自動返品処理の間に累積したエラーの合計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
@@ -49,9 +49,9 @@ ht-degree: 100%
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 配信済み]**:正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+* **[!UICONTROL バウンス]**:配信と自動返品処理の間に累積したエラーの合計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 

@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 89%
 
 ---
 
@@ -22,10 +20,9 @@ ht-degree: 100%
 >title="SMS の作成"
 >abstract="テキストメッセージを追加し、式エディターを使用してパーソナライズを開始します。"
 
-
->[!CAUTION]
+>[!NOTE]
 >
-> SMS チャネルは、現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
+>規制では、SMS 受信者はオプトインおよびオプトアウトキーワードを使用して返信できる必要があります。 Adobe Journey Optimizerは、次のキーワードを自動的に処理します。開始、停止、停止解除。
 
 [メッセージを作成](get-started-content.md)したら、「**[!UICONTROL SMS]**」タブを使用して、SMS チャネルの設定とコンテンツを定義します。
 
@@ -56,5 +53,6 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 **関連トピック**
 
 * [SMS チャネルの設定](../configuration/sms-configuration.md)
+* [SMS レポート](../reports/journey-global-report.md#sms-global)
 * [新規メッセージの作成](get-started-content.md)
 * [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)

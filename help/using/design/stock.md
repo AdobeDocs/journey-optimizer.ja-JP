@@ -5,23 +5,17 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 84%
 
 ---
 
 # [!DNL Adobe Stock] 画像の管理 {#stock}
 
 ## [!DNL Adobe Stock] の基本を学ぶ {#get-started-stock}
-
->[!IMPORTANT]
->
-> [!DNL Adobe Stock] 統合は現在、一部のユーザーのみが早期アクセスで利用できます。この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
 [!DNL Adobe Stock] では、数百万もの高品質で厳選された、ロイヤリティフリーの写真、ビデオ、イラスト、ベクターグラフィックを利用できます。クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
 
@@ -31,6 +25,10 @@ ht-degree: 100%
 メールデザインについて詳しくは、[こちら](design-emails.md)を参照してください。
 
 ## [!DNL Adobe Stock] 画像の挿入および読み込み {#add-stock-image}
+
+>[!NOTE]
+>
+> この **[!UICONTROL Adobe Stockの写真を検索]** オプションは、AEM Assets Essentials 製品プロファイルへのアクセス権を持つユーザーのみが使用できます。 詳しくは、 [Assets の基本ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 メールを編集およびパーソナライズした後、[!DNL Adobe Stock] から画像をテンプレートに追加できます。
 
@@ -55,7 +53,8 @@ ht-degree: 100%
 
 1. [!DNL Adobe Stock] web サイトで、画像をダウンロードして透かしを削除するには、アセットを購入する必要があります。
 
-   価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。詳しくは、この[ページ](https://stock.adobe.com/jp/plans)を参照してください。
+   価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。複数のAdobe Stockアカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
+詳しくは、この[ページ](https://stock.adobe.com/jp/plans)を参照してください。
 
    >[!WARNING]
    > 未ライセンスの画像を含むメールが送信された場合、画像は透かしのある未ライセンスのフォームを保持します。

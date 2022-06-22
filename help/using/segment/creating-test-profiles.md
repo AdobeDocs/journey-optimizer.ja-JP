@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1375'
 ht-degree: 100%
 
 ---
@@ -140,7 +140,7 @@ ID 名前空間を選択し、上記の形式に基づいて CSV ファイルを
 1. 「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを追加します。
 1. スキーマ、**testProfiles** フィールド、データセットを選択し、値を「**true**」に設定します。これを実行するには、「**[!UICONTROL 値]**」フィールドで、右側の「**ペン**」アイコンをクリックし、「**[!UICONTROL 詳細設定モード]**」を選択して、「**true**」と入力します。
    ![](assets/test-profiles-26.png)
-1. **終了**&#x200B;アクティビティを追加して、「**[!UICONTROL 公開]**」をクリックします。
+1. 「**[!UICONTROL 公開]**」をクリックします。
 1. 「**[!UICONTROL セグメント]**」セクションで、プロファイルが正しく更新されていることを確認します。
    ![](assets/test-profiles-28.png)
 

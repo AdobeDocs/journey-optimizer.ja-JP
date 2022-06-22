@@ -4,9 +4,9 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1554'
 ht-degree: 100%
 
 ---
@@ -335,8 +335,6 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 「**[!UICONTROL アクション]**」ドロップダウンから、**[!UICONTROL メッセージ]**&#x200B;アクティビティをジャーニーにドラッグ＆ドロップします。
 
 1. 前に作成したメッセージを選択します。プッシュ通知の作成方法の詳細については、この[ページ](../messages/get-started-content.md)を参照してください。
-
-1. ジャーニーに&#x200B;**[!UICONTROL 終了]**&#x200B;アクティビティをドラッグ＆ドロップします。
 
 1. 「**[!UICONTROL テスト]**」トグルをクリックしてプッシュ通知のテストを開始し、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
