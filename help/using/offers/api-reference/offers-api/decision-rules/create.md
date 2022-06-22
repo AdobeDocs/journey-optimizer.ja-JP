@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: a7d4ab7f7430a93fb87af390ba0a8defb36ea9e9
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
@@ -49,25 +49,25 @@ curl -X POST \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}' \
   -d '{
-        "xdm:name": "Sales rule",
-        "description": "Decisioning rule for sales",
-        "condition": {
-            "type": "PQL",
-            "format": "pql/text",
-            "value": "profile.person.name.firstName.equals(\"Joe\", false)"
-        },
-        "xdm:definedOn": {
-            "profile": {
-                "xdm:schema": {
-                    "$ref": "https://ns.adobe.com/xdm/context/profile_union",
-                    "version": "1"
-                },
-                "xdm:referencePaths": [
-                    "person.name.firstName"
-                ]
-            }
+    "xdm:name": "Sales rule",
+    "description": "Decisioning rule for sales",
+    "xdm:condition": {
+        "xdm:type": "PQL",
+        "xdm:format": "pql/text",
+        "xdm:value": "profile.person.name.firstName.equals(\"Joe\", false)"
+    },
+    "xdm:definedOn": {
+        "profile": {
+            "xdm:schema": {
+                "$ref": "https://ns.adobe.com/xdm/context/profile_union",
+                "version": "1"
+            },
+            "xdm:referencePaths": [
+                "person.name.firstName"
+            ]
         }
-    }'
+    }
+}'
 ```
 
 **応答**
