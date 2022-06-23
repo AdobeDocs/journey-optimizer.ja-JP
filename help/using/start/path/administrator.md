@@ -3,10 +3,10 @@ title: Journey Optimizer の基本を学ぶ（システム管理者向け）
 description: システム管理者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials Consumer Users** または／および **Assets Essentials Users** の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 >[!NOTE]
->2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} の節を参照してください。
+>2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} の節を参照してください。
 
 [!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
@@ -49,6 +49,8 @@ ht-degree: 100%
    * [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方で、**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../configuration/push-gs.md)
 
    * およ&#x200B;**メッセージプリセット**&#x200B;を作成して、メールおよびプッシュ通知メッセージに必要なすべてのテクニカルパラメーターを設定します。[詳細情報](../../configuration/message-presets.md)
+
+   * の設定 **SMS チャネル** :SMS に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/sms-configuration.md)
 
    * 抑制リストにメールアドレスを送信するまでに&#x200B;**再試行**&#x200B;を実行する日数を管理します。[詳細](../../configuration/manage-suppression-list.md)
 

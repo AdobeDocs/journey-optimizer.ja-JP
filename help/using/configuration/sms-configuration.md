@@ -4,16 +4,18 @@ description: Journey Optimizer で SMS メッセージを送信するように�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 82%
+source-wordcount: '450'
+ht-degree: 76%
 
 ---
 
 # SMS チャネルの設定 {#sms-configuration}
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。
+
+SMS を送信する前に、インスタンスを設定します。 以下が必要です。 [プロバイダー設定の統合](#create-api) Journey Optimizerと [SMS プリセットの作成](#message-preset-sms). これらの手順は、 [Adobe Journey Optimizerシステム管理者](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >

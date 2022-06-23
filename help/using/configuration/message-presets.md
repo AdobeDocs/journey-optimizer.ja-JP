@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 100%
+source-wordcount: '1552'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 1. **プッシュ通知**&#x200B;の設定を行います。[詳細情報](#configure-push-settings)
 
-   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. 設定 **SMS** 設定。 [詳細情報](sms-configuration.md)
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
