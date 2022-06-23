@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
+source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 75%
@@ -20,7 +20,7 @@ ht-degree: 75%
 >title="SMS の作成"
 >abstract="テキストメッセージを追加し、式エディターを使用してパーソナライズを開始します。"
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >SMS チャネルは現在、一連の組織でのみ使用できます（使用が制限されています）。 詳しくは、Adobe担当者にお問い合わせください。
 
