@@ -4,7 +4,7 @@ description: Journey Optimizer で SMS メッセージを送信するように�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 76%
@@ -70,7 +70,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
    * **[!UICONTROL SMS 設定]**&#x200B;を選択し、プリセットと関連付けます。
 
-      SMS メッセージを送信する環境の設定方法については、[この節](sms-configuration.md)を参照してください。
+      SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
 
    * コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
 
