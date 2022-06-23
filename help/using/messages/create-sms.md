@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 89%
+source-wordcount: '269'
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->規制では、SMS 受信者はオプトインおよびオプトアウトキーワードを使用して返信できる必要があります。 Adobe Journey Optimizerは、次のキーワードを自動的に処理します。開始、停止、停止解除。
+>SMS チャネルは現在、一連の組織でのみ使用できます（使用が制限されています）。 詳しくは、Adobe担当者にお問い合わせください。
 
 [メッセージを作成](get-started-content.md)したら、「**[!UICONTROL SMS]**」タブを使用して、SMS チャネルの設定とコンテンツを定義します。
 
@@ -49,6 +49,10 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 1. メッセージの準備が整ったら、「**[!UICONTROL 公開]**」ボタンを使用してメッセージを公開し、実行可能な状態にできます。このアクションにより、ジャーニーの次回の実行に使用される新しいバージョンのメッセージが公開されます。
 
 ジャーニーで SMS メッセージを使用できるようになりました。[ジャーニーの作成方法を説明します](../building-journeys/journey-gs.md)。
+
+## オプトインとオプトアウト{#sms-opt-in-out}
+
+SMS 受信者は、オプトインおよびオプトアウトのキーワードを使用して返信できます。 Adobe Journey Optimizerは、業界標準および規制に従って、受信メッセージで次のキーワードを自動的に処理します。START、STOP、および UNSTOP。 これらのキーワードトリガーは、SMS プロバイダーからの自動標準返信です。
 
 **関連トピック**
 

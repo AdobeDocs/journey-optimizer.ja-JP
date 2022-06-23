@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 53%
+source-wordcount: '352'
+ht-degree: 47%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 53%
 <table>
 <thead>
 <tr>
-<th><strong>ユーザーに SMS を送信する</strong><br/></th>
+<th><strong>ユーザーに SMS を送信する（使用を制限）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -34,7 +34,8 @@ ht-degree: 53%
 <p></p>
 <p>Journey Optimizerで、 <b>シンチ</b> または <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>詳しくは、<a href="../messages/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
+<p>SMS チャネルは現在、一連の組織でのみ使用できます（使用が制限されています）。 詳しくは、Adobe担当者にお問い合わせください。</p>
+<p>SMS を作成して送信する方法を説明します <a href="../messages/create-sms.md">詳細なドキュメント</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 5a6e18e6ff236d25bd5f81b42430be2998208321
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 [メッセージフィードバックイベントデータセット](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [プッシュ追跡エクスペリエンスイベントデータセット](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [ジャーニーステップイベント](../start/datasets-query-examples.md#journey-step-event)
-[オファー判定イベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
+[offer decisioningイベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
 [同意サービスデータセット](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC フィードバックイベントデータセット](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -116,7 +116,7 @@ SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.addr
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-特定の電子メール ID が電子メールを受け取ったかどうか、受け取っていない場合はエラー、バウンスカテゴリ、コードは何でしたかを調べます。
+特定の電子メール ID が電子メールを受け取ったかどうか、受け取っていない場合は、エラー、バウンスカテゴリ、コードは何でしたかを調べます。
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
@@ -198,7 +198,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## オファー判定イベントデータセット{#ode-decisionevents}
+## offer decisioningイベントデータセット{#ode-decisionevents}
 
 _インターフェイスの名前：ODE DecisionEvents （システムデータセット）_
 
