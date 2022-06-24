@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
+source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 24%
+source-wordcount: '605'
+ht-degree: 21%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 24%
 
 [Adobe Stock](https://helpx.adobe.com/jp/stock/get-started.html){target=&quot;_blank&quot;} は、何百万もの高品質で厳選された、ロイヤリティーフリーの写真、ビデオ、イラスト、ベクトルグラフィックを利用できます。 クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
 
-[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] から画像を直接メールにアップロードし、Assets フォルダーに追加することができます。この **[!UICONTROL 類似画像を検索]** 「 」オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索できます。
+を使用 [!DNL Adobe Journey Optimizer]を使用すると、 [!DNL Adobe Stock] をクリックし、 **[!UICONTROL Adobe Stockの写真を検索]** オプション。 また、 **[!UICONTROL 類似画像を検索]** 「 」オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索できます。
 
 ## 権限{#stock-permissions}
 
-この **[!UICONTROL Adobe Stockの写真を検索]** オプションは、AEM Assets Essentials 製品プロファイルへのアクセス権を持つユーザーが使用できます。
+この **[!UICONTROL Adobe Stockの写真を検索]** および **[!UICONTROL 類似画像を検索]** オプションは、AEM Assets Essentials 製品プロファイルへのアクセス権を持つユーザーが使用できます。
 
 詳しくは、 [Assets の基本ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}。
 
