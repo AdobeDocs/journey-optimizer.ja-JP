@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
+source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 24%
@@ -48,6 +48,28 @@ ht-degree: 24%
    選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
 
 
+## 類似の写真を検索 {#similar-stock-image}
+
+E メールコンテンツ内の既存の画像を、次の写真で置き換えることができます： [!DNL Adobe Stock]. このオプションは、すべての画像で使用できます。ライセンス済み/ライセンス未取得の Stock 画像と画像を Assets フォルダーから取得します。
+
+類似した写真を参照するには、次の手順に従います。
+
+1. 置き換える画像を選択します。
+1. 次をクリック： **[!UICONTROL 類似の写真を検索]** ボタン [!DNL Adobe Stock] 画像のコンテンツ、色、構成に一致する
+
+   ![](assets/stock-similar.png)
+
+1. 選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
+
+   ![](assets/stock-similar-results.png)
+
+   選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
+
+1. 必要に応じて、 **[!UICONTROL コンポーネント設定]** メニュー コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
+
+メッセージを作成してパーソナライズしたら、公開することで実行が可能になります。[詳細情報](../messages/publish-manage-message.md)
+
+
 ## ライセンスの取得元 [!DNL Adobe Stock] {#license-stock-image}
 
 画像が既にライセンスされている場合は、 ![](assets/stock_10.png) アイコン ライセンスがない場合は、ライセンスが必要です。
@@ -76,28 +98,6 @@ ht-degree: 24%
    ![](assets/stock_6.png)
 
 1. アセットを保存するフォルダーを選択します。 [!DNL Assets Essentials] について詳しくは、[この節](assets-essentials.md#get-started-assets-essentials)を参照してください。
-
-## 類似の写真を検索 {#similar-stock-image}
-
-E メールコンテンツ内の既存の画像を、次の写真で置き換えることができます： [!DNL Adobe Stock]. このオプションは、すべての画像で使用できます。ライセンス済み/ライセンス未取得の Stock 画像と画像を Assets フォルダーから取得します。
-
-類似した写真を参照するには、次の手順に従います。
-
-1. 置き換える画像を選択します。
-1. 次をクリック： **[!UICONTROL 類似の写真を検索]** ボタン [!DNL Adobe Stock] 画像のコンテンツ、色、構成に一致する
-
-   ![](assets/stock-similar.png)
-
-1. 選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
-
-   ![](assets/stock-similar-results.png)
-
-   選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
-
-1. 必要に応じて、 **[!UICONTROL コンポーネント設定]** メニュー コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
-
-メッセージを作成してパーソナライズしたら、公開することで実行が可能になります。[詳細情報](../messages/publish-manage-message.md)
-
 
 ### 関連トピック{#stock-related-topics}
 
