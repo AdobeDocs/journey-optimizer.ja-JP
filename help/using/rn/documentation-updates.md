@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
+source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 92%
+source-wordcount: '1570'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 * Adobe Journey Optimizerデータセットのリストとクエリ例を追加しました。 [詳細情報](../start/datasets-query-examples.md)
 * 許可リストページは、「設定」セクションに移動されました。 [詳細情報](../configuration/allow-list.md)
 * 抑制リストページが更新されました。 [詳細情報](../configuration/manage-suppression-list.md)
+* 決定管理のガードレールおよび静的制限へのリンクが追加されました。 [詳細情報](../start/guardrails.md)
+
 
 ## 2022年5月 {#may-2022}
 

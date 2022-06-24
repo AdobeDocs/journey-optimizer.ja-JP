@@ -1,82 +1,107 @@
 ---
-title: Adobe Stock
+title: Adobe Stock画像の操作
 description: Adobe Stock の基本を学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
+source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 84%
+source-wordcount: '592'
+ht-degree: 24%
 
 ---
 
-# [!DNL Adobe Stock] 画像の管理 {#stock}
+# の操作 [!DNL Adobe Stock] 画像 {#stock}
 
 ## [!DNL Adobe Stock] の基本を学ぶ {#get-started-stock}
 
-[!DNL Adobe Stock] では、数百万もの高品質で厳選された、ロイヤリティフリーの写真、ビデオ、イラスト、ベクターグラフィックを利用できます。クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
+この [!DNL Adobe Stock] および [!DNL Adobe Journey Optimizer] Email Designer 統合プラグインを使用すると、メッセージのオーサリングで使用するために、画像のナビゲーション、ライセンス取得、保存を簡単におこなえます。
 
-[!DNL Adobe Stock] について詳しくは、[Adobe Stock 入門](https://helpx.adobe.com/jp/stock/get-started.html)を参照してください。
+[Adobe Stock](https://helpx.adobe.com/jp/stock/get-started.html){target=&quot;_blank&quot;} は、何百万もの高品質で厳選された、ロイヤリティーフリーの写真、ビデオ、イラスト、ベクトルグラフィックを利用できます。 クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
 
-[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] から画像を直接メールにアップロードし、Assets フォルダーに追加することができます。「**[!UICONTROL 類似画像を検索]**」オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索することができます。
-メールデザインについて詳しくは、[こちら](design-emails.md)を参照してください。
+[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] から画像を直接メールにアップロードし、Assets フォルダーに追加することができます。この **[!UICONTROL 類似画像を検索]** 「 」オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索できます。
 
-## [!DNL Adobe Stock] 画像の挿入および読み込み {#add-stock-image}
+## 権限{#stock-permissions}
 
->[!NOTE]
->
-> この **[!UICONTROL Adobe Stockの写真を検索]** オプションは、AEM Assets Essentials 製品プロファイルへのアクセス権を持つユーザーのみが使用できます。 詳しくは、 [Assets の基本ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
+この **[!UICONTROL Adobe Stockの写真を検索]** オプションは、AEM Assets Essentials 製品プロファイルへのアクセス権を持つユーザーが使用できます。
 
-メールを編集およびパーソナライズした後、[!DNL Adobe Stock] から画像をテンプレートに追加できます。
+詳しくは、 [Assets の基本ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}。
 
-1. 画像の&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;をメールにドラッグ＆ドロップします。
+## 画像の挿入元 [!DNL Adobe Stock] {#add-stock-image}
 
-   ![](assets/stock_1.png)
+画像を追加するには [!DNL Adobe Stock] をコンテンツに追加するには、次の手順に従います。
 
-1. **[!UICONTROL コンポーネント設定]**&#x200B;メニューから、**[!UICONTROL Adobe Stock 写真の検索]**&#x200B;を選択します。
+1. 次の **[!UICONTROL コンテンツコンポーネント]** E メールデザイナーのセクションで、 **画像**.
 
-   ![](assets/stock_2.png)
+1. 次をクリック： **[!UICONTROL Adobe Stockの写真を検索]** ボタンをクリックします。
 
-1. ライブラリを参照するか、フィールドに検索語句を入力します。選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
+   ![](assets/stock-find-photos.png)
 
-   ![](assets/stock_3.png)
+1. ライブラリを参照するか、検索フィールドに用語を入力します。
 
-1. 画像のライセンスを取得してダウンロードするには、画像の&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;を選択し、**[!UICONTROL ライセンス Adobe Stock 画像]**&#x200B;をクリックします。[!DNL Adobe Stock] web サイトにリダイレクトされます。
+   ![](assets/stock-select-from-lib.png)
 
-   >[!NOTE]
-   > 画像がライセンス済みの場合は、![](assets/stock_10.png) アイコンによって表示されます。その場合は、手順 7 に進みます。
+1. 選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/stock_4.png)
+   選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
 
-1. [!DNL Adobe Stock] web サイトで、画像をダウンロードして透かしを削除するには、アセットを購入する必要があります。
 
-   価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。複数のAdobe Stockアカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
-詳しくは、この[ページ](https://stock.adobe.com/jp/plans)を参照してください。
+## ライセンスの取得元 [!DNL Adobe Stock] {#license-stock-image}
+
+画像が既にライセンスされている場合は、 ![](assets/stock_10.png) アイコン ライセンスがない場合は、ライセンスが必要です。
+
+画像のライセンスを取得してダウンロードするには、次の手順に従います。
+
+1. 選択し、 **[!UICONTROL Adobe Stock画像のライセンス]** アイコン
+
+   ![](assets/stock-license-icon.png)
+
+   その後、 [!DNL Adobe Stock] web サイトからライセンスを除く。
+
+   ![](assets/stock-license-photo.png)
+
+1. 次の [!DNL Adobe Stock] web サイトで画像をダウンロードして透かしを削除するには、アセットを購入する必要があります。
+
+   この購入は、Adobe Stockのプランまたはサブスクリプションによって異なります。 複数のAdobe Stockアカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
+
+   でのAdobe Stockの計画と価格について詳しくは、 [Adobe Stockドキュメント](https://stock.adobe.com/jp/plans){target=&quot;_blank&quot;}。
 
    >[!WARNING]
-   > 未ライセンスの画像を含むメールが送信された場合、画像は透かしのある未ライセンスのフォームを保持します。
-
-   ![](assets/stock_5.png)
+   > ライセンスが不要な画像を含む E メールが送信された場合、画像は、ライセンスが不要なフォームに透かしが付いたままになります。
 
 1. 購入が完了したら、[!DNL Adobe Journey Optimizer] でメールに戻り、「**[!UICONTROL ストック画像を読み込み]**」を選択して、ライセンス済みの画像をアセットに読み込むことができます。
 
    ![](assets/stock_6.png)
 
-1. アセットを保存するフォルダーを選択します。[!DNL Assets Essentials] について詳しくは、[この節](assets-essentials.md#get-started-assets-essentials)を参照してください。
+1. アセットを保存するフォルダーを選択します。 [!DNL Assets Essentials] について詳しくは、[この節](assets-essentials.md#get-started-assets-essentials)を参照してください。
 
-   ![](assets/stock_7.png)
+## 類似の写真を検索 {#similar-stock-image}
 
-1. 画像を [!DNL Adobe Stock] から選択した後、「**[!UICONTROL 類似したストック写真の検索]**」オプションを使用して、画像のコンテンツ、カラーおよび構成に一致するアセットを検索できます。
+E メールコンテンツ内の既存の画像を、次の写真で置き換えることができます： [!DNL Adobe Stock]. このオプションは、すべての画像で使用できます。ライセンス済み/ライセンス未取得の Stock 画像と画像を Assets フォルダーから取得します。
 
-   このオプションは、Assets フォルダー内のライセンス済み／未ライセンスのストック画像と画像に対して使用できます。
+類似した写真を参照するには、次の手順に従います。
 
-   ![](assets/stock_8.png)
+1. 置き換える画像を選択します。
+1. 次をクリック： **[!UICONTROL 類似の写真を検索]** ボタン [!DNL Adobe Stock] 画像のコンテンツ、色、構成に一致する
 
-1. 画像を&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;メニューでさらにカスタマイズします。コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
+   ![](assets/stock-similar.png)
 
-   ![](assets/stock_11.png)
+1. 選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
+
+   ![](assets/stock-similar-results.png)
+
+   選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
+
+1. 必要に応じて、 **[!UICONTROL コンポーネント設定]** メニュー コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
 
 メッセージを作成してパーソナライズしたら、公開することで実行が可能になります。[詳細情報](../messages/publish-manage-message.md)
+
+
+### 関連トピック{#stock-related-topics}
+
+* [Journey Optimizerでの E メールデザイン](design-emails.md)
+* [電子メールデザインのコンポーネント設定](content-components.md)
+* [Adobe Stockはじめに](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}。
+

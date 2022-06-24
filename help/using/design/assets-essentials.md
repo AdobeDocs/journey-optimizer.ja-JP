@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
+source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
 
-# アセットの作成と管理 {#experience-manager-assets}
+# アセットの作成と管理以下に置き換えます。[!DNL Assets Essentials]{#experience-manager-assets}
 
 ## [!DNL Assets Essentials] の基本を学ぶ {#get-started-assets-essentials}
 

@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 47%
@@ -51,7 +51,7 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
-<p>使用可能な日付： <b>6 月 24 日</b></p>
+<p>使用可能な日付： <b>6 月 27 日</b></p>
 <p></p>
 <p>Adobe StockとAdobe Journey Optimizerの Email Designer 統合プラグインを使用すると、メッセージのオーサリングで使用するために、画像のナビゲーション、ライセンス、保存を簡単におこなうことができます。 </br> 新しい <b>類似の写真を検索</b> また、画像のコンテンツ、色、構成に一致する Stock 写真を探すこともできます。 </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
