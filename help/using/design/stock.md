@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
+source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 24%
@@ -99,7 +99,7 @@ E メールコンテンツ内の既存の画像を、次の写真で置き換え
 
 1. アセットを保存するフォルダーを選択します。 [!DNL Assets Essentials] について詳しくは、[この節](assets-essentials.md#get-started-assets-essentials)を参照してください。
 
-### 関連トピック{#stock-related-topics}
+## 関連トピック{#stock-related-topics}
 
 * [Journey Optimizerでの E メールデザイン](design-emails.md)
 * [電子メールデザインのコンポーネント設定](content-components.md)
