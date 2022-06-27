@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1107'
 ht-degree: 97%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 97%
    + [ゼロからの開始 ](using/design/create-email-content.md)
    + [メールコンテンツのインポート](using/design/existing-content.md)
    + [コンテンツを独自にコーディング](using/design/code-content.md)
+   + [テンプレートの操作](using/design/email-templates.md)
    + コンテンツデザイン {#design-content}
       + [コンテンツコンポーネントの使用](using/design/content-components.md)
       + [背景の設定](using/design/backgrounds.md)

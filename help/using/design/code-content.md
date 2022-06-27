@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '169'
+ht-degree: 90%
 
 ---
 
 # コンテンツを独自にコーディング {#code-content}
 
-**[!UICONTROL 独自のコードを作成]**&#x200B;モードでは、Raw HTML を読み込んだり、メールコンテンツをコーディングしたりできます。このメソッドには HTML に関するスキルが必要です。
+以下を使用： **[!UICONTROL 独自のコーディング]** モード：生のHTMLを読み込んだり、e メールコンテンツをコード化したりします。 このメソッドには HTML に関するスキルが必要です。
 
 ➡️ [この機能をビデオで確認](#video)
 
