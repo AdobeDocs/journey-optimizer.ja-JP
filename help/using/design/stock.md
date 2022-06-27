@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
+source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 24%
+source-wordcount: '606'
+ht-degree: 21%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 24%
 
 [Adobe Stock](https://helpx.adobe.com/jp/stock/get-started.html){target=&quot;_blank&quot;} は、何百万もの高品質で厳選された、ロイヤリティーフリーの写真、ビデオ、イラスト、ベクトルグラフィックを利用できます。 クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
 
-[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] から画像を直接メールにアップロードし、Assets フォルダーに追加することができます。この **[!UICONTROL 類似画像を検索]** 「 」オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索できます。
+を使用 [!DNL Adobe Journey Optimizer]を使用すると、 [!DNL Adobe Stock] をクリックし、 **[!UICONTROL Adobe Stockの写真を検索]** オプション。 また、 **[!UICONTROL 類似した写真を検索]** 「 」オプションを使用すると、配信で使用されるアセットのコンテンツ、色、構成に一致する画像を検索できます。
 
 ## 権限{#stock-permissions}
 
-この **[!UICONTROL Adobe Stockの写真を検索]** オプションは、AEM Assets Essentials 製品プロファイルへのアクセス権を持つユーザーが使用できます。
+この **[!UICONTROL Adobe Stockの写真を検索]** および **[!UICONTROL 類似画像を検索]** オプションは、AEM Assets Essentials 製品プロファイルへのアクセス権を持つユーザーが使用できます。
 
 詳しくは、 [Assets の基本ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}。
 
@@ -46,6 +46,28 @@ ht-degree: 24%
 1. 選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
 
    選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
+
+
+## 類似の写真を検索 {#similar-stock-image}
+
+E メールコンテンツ内の既存の画像を、次の写真で置き換えることができます： [!DNL Adobe Stock]. このオプションは、すべての画像で使用できます。ライセンス済み/ライセンス未取得の Stock 画像と画像を Assets フォルダーから取得します。
+
+類似した写真を参照するには、次の手順に従います。
+
+1. 置き換える画像を選択します。
+1. 次をクリック： **[!UICONTROL 類似の写真を検索]** ボタン [!DNL Adobe Stock] 画像のコンテンツ、色、構成に一致する
+
+   ![](assets/stock-similar.png)
+
+1. 選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
+
+   ![](assets/stock-similar-results.png)
+
+   選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
+
+1. 必要に応じて、 **[!UICONTROL コンポーネント設定]** メニュー コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
+
+メッセージを作成してパーソナライズしたら、公開することで実行が可能になります。[詳細情報](../messages/publish-manage-message.md)
 
 
 ## ライセンスの取得元 [!DNL Adobe Stock] {#license-stock-image}
@@ -77,29 +99,7 @@ ht-degree: 24%
 
 1. アセットを保存するフォルダーを選択します。 [!DNL Assets Essentials] について詳しくは、[この節](assets-essentials.md#get-started-assets-essentials)を参照してください。
 
-## 類似の写真を検索 {#similar-stock-image}
-
-E メールコンテンツ内の既存の画像を、次の写真で置き換えることができます： [!DNL Adobe Stock]. このオプションは、すべての画像で使用できます。ライセンス済み/ライセンス未取得の Stock 画像と画像を Assets フォルダーから取得します。
-
-類似した写真を参照するには、次の手順に従います。
-
-1. 置き換える画像を選択します。
-1. 次をクリック： **[!UICONTROL 類似の写真を検索]** ボタン [!DNL Adobe Stock] 画像のコンテンツ、色、構成に一致する
-
-   ![](assets/stock-similar.png)
-
-1. 選んだ画像を選択し、「**[!UICONTROL 保存]**」をクリックします。
-
-   ![](assets/stock-similar-results.png)
-
-   選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
-
-1. 必要に応じて、 **[!UICONTROL コンポーネント設定]** メニュー コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
-
-メッセージを作成してパーソナライズしたら、公開することで実行が可能になります。[詳細情報](../messages/publish-manage-message.md)
-
-
-### 関連トピック{#stock-related-topics}
+## 関連トピック{#stock-related-topics}
 
 * [Journey Optimizerでの E メールデザイン](design-emails.md)
 * [電子メールデザインのコンポーネント設定](content-components.md)
