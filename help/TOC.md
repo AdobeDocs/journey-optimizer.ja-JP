@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
          + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
-         + [日付時間関数](using/personalization/functions/dates.md)
+         + [日時関数](using/personalization/functions/dates.md)
          + [ブール関数と比較関数](using/personalization/functions/operators.md)
          + [ヘルパー](using/personalization/functions/helpers.md)
          + [マップ関数](using/personalization/functions/maps.md)
@@ -385,7 +385,7 @@ ht-degree: 96%
       + メッセージプリセットの設定 {#set-up-message-presets}
          + [メッセージプリセットの作成](using/configuration/message-presets.md)
          + [メール設定](using/configuration/email-settings.md)
-         + [BCC 電子メールを使用](using/configuration/bcc-email.md)
+         + [BCC メールを使用](using/configuration/bcc-email.md)
       + [実行アドレスを管理](using/configuration/primary-email-addresses.md)
       + [頻度ルールの設定](using/configuration/frequency-rules.md)
    + ランディングページの設定 {#lp-configuration}

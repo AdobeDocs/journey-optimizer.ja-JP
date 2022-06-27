@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >32 ～ 126 の間の ASCII 文字は、 **[!UICONTROL 理由]** フィールドに入力します。 完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -171,7 +171,7 @@ ht-degree: 97%
    ```
    >[!NOTE]
    >
-   >32 ～ 126 の間の ASCII 文字は、 **コメント** 列。 完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**コメント**」列に入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
 
    このテンプレートは、**[!UICONTROL 抑制リスト]**&#x200B;のメインビューからダウンロードすることもできます。
 

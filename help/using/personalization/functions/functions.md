@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -43,16 +43,16 @@ ht-degree: 76%
         <td><a href="aggregation.md#count">Count</a></td><td>指定された配列内の要素数を返します。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">Null のみをカウント</a></td><td>この関数は、リスト内の null 値の数をカウントします。</td>
+        <td><a href="aggregation.md#count-only-null">Null のみをカウント</a></td><td>この関数はリスト内の null 値の数をカウントします。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-with-null">null でカウント</a></td><td>この関数は、null 値を含むリストのすべての要素をカウントします</td>
+        <td><a href="aggregation.md#count-with-null">null でカウント</a></td><td>この関数は null 値を含むリストのすべての要素をカウントします。</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#distinct">Distinct</a></td><td>重複する値が削除された配列またはリストから値を取得します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">null を含むユニークカウント</a></td><td>この関数は、null 値を含む異なる値の数をカウントします</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">null で個別カウント</a></td><td>この関数は null 値を含む、異なる値の数をカウントします。</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">First item</a></td><td>配列またはリスト内の最初の項目を返します。</td>
@@ -88,7 +88,7 @@ ht-degree: 76%
         <td><a href="aggregation.md#sum">Sum</a></td><td>配列内の選択された値すべての合計を返します。</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset of</a></td><td>この関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかどうか、つまり配列 A に配列 B のすべての要素が含まれているかどうかを判定します</td>
+    <td><a href="arrays-list.md#superset">スーパーセット</a></td><td>この関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかどうか、つまり配列 A に配列 B のすべての要素が含まれているかどうかを判定します</td>
     </tr>
 </table>
 
@@ -158,10 +158,10 @@ ht-degree: 76%
         <td><a href="objects.md#round-up">切り上げ</a></td><td>この関数は、数値を切り上げます。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">割合 (%) に</a></td><td>この関数は、数値をパーセンテージに変換します。</td>
+        <td><a href="objects.md#to-percentage">パーセンテージに</a></td><td>この関数は、数値をパーセンテージに変換します。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">精度</a></td><td>この関数は、数値を必要な精度に変換します。</td>
+        <td><a href="objects.md#to-precision">精度に</a></td><td>この関数は、数値を必要な精度に変換します。</td>
     </tr>
 </table>
 
@@ -223,16 +223,16 @@ ht-degree: 76%
         <td><a href="string.md#get-url-protocol">URL プロトコルを取得</a></td><td>この関数は、URL プロトコルの取得に使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#index-of">インデックス</a></td><td>この関数は、2 番目のパラメーターの最初の値の（最初の引数内の）位置を返します。 一致するものがない場合は —1 を返します。</td>
+        <td><a href="string.md#index-of">インデックス</a></td><td>この関数は 2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>文字列や式が空かどうかを確認するために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">Is Not Empty（空ではない）</a></td><td>この関数は、パラメーターの文字列が空でない場合、true を返します。</td>
+        <td><a href="string.md#is-not-empty">空でない</a></td><td>この関数はパラメーター内の文字列が空でない場合、true を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">最後のインデックス</a></td><td>この関数は、2 番目のパラメーターの最後の値（最初の引数内）の位置を返します。 一致するものがない場合は -1 を返します。</td>
+        <td><a href="string.md#last-index-of">最後のインデックス</a></td><td>この関数は 2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">Left trim</a></td><td>文字列の先頭から空白を削除します。</td>
@@ -247,7 +247,7 @@ ht-degree: 76%
         <td><a href="string.md#lower">Lower Case</a></td><td>文字列を小文字に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#mask">マスク</a></td><td>この関数は、文字列の一部を「X」文字に置き換えるために使用されます。</td>
+        <td><a href="string.md#mask">マスク</a></td><td>この関数は、文字列の一部を「X」の文字に置き換えるために使用されます。</td>
     </tr>
     <tr>
         <td><a href="string.md#matches">Matches</a></td><td>文字列が特定の正規表現と一致するかどうかを判定するために使用します。</td>
@@ -256,10 +256,10 @@ ht-degree: 76%
         <td><a href="string.md#md5">MD5</a></td><td>この関数は、入力文字列の md5 ハッシュを返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">notEqualTo</a></td><td>文字列が指定の文字列に等しくないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#notEqualTo">次と等しくない</a></td><td>文字列が指定の文字列に等しくないかどうかを判定するために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">次と等しくない（大文字と小文字を区別しない）</a></td><td>この関数は、大文字と小文字を区別せずに、2 つの文字列を比較します。</td>
+        <td><a href="string.md#not-equal-with-ignore-case">等しくない (大文字と小文字を区別しない)</a></td><td>この関数は、大文字と小文字を区別せずに、2 つの文字列を比較します。</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">正規表現グループ</a></td><td>指定された正規表現に基づいて特定の情報を抽出するために使用します。</td>
@@ -280,28 +280,28 @@ ht-degree: 76%
         <td><a href="string.md#startsWith">Starts with</a></td><td>この関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日を返します。</td>
+        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">文字列を整数に</a></td><td>この関数は、文字列値を整数値に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">文字列から数値へ</a></td><td>この関数は、文字列を数値に変換するために使用されます。 無効な入力の出力と同じ文字列を返します。</td>
+        <td><a href="string.md#string-to-number">文字列から数値へ</a></td><td>この関数は、文字列を数値に変換するために使用されます。無効な入力の出力と同じ文字列を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">サブ文字列</a></td><td>この関数は、開始インデックスと終了インデックスの間の文字列式の部分文字列を返します。</td>
+        <td><a href="string.md#sub-string">部分文字列</a></td><td>この関数は文字列式の開始インデックスと終了インデックスの間にある部分文字列を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#titleCase">Title Case</a></td><td>文字列の各単語の最初の文字を大文字にするために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">ブール値に</a></td><td>この関数は、引数の値を、その型に応じてブール値に変換します。</td>
+        <td><a href="string.md#to-bool">ブール値に</a></td><td>この関数雨は引数の値をタイプに応じてブール値に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日を返します。</td>
+        <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は、引数値を日時のみの値に変換します。 無効な入力に対する出力として、エポック日を返します。</td>
+        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は引数値を日時のみの値に変換します。無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Trim</a></td><td>文字列の先頭と末尾の空白を削除します</td>
@@ -313,7 +313,7 @@ ht-degree: 76%
         <td><a href="string.md#url-decode">URL デコード</a></td><td>この関数は、URL エンコードされた文字列をデコードするために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Url encore</a></td><td>この関数は、文字列を URL エンコードするために使用されます。</td>
+        <td><a href="string.md#url-encode">URL エンコード</a></td><td>この関数は、文字列を URL エンコードするために使用されます。</td>
     </tr>
 </table>
 
@@ -389,7 +389,7 @@ ht-degree: 76%
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">次と等しい</a></td><td>値が等しいかどうかを確認します。</td>
+        <td><a href="operators.md#equals">次に等しい</a></td><td>値が等しいかどうかを確認します。</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Greater than</a></td><td>最初の値が 2 番目の値より大きいかどうかを確認します。</td>

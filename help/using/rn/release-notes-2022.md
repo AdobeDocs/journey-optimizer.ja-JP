@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 96%
 
 **管理**
 
-* **ライセンス使用状況ダッシュボードの更新**  — で利用できるライセンス使用状況ダッシュボード [!DNL Adobe Journey Optimizer] ユーザーインターフェイスに **ライセンス済み** 平均的なプロファイル充実度。 この指標表現にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../segment/license-usage.md)
+* **ライセンス使用状況ダッシュボードの更新** - [!DNL Adobe Journey Optimizer] でユーザーインターフェイス使用できるライセンス使用状況ダッシュボードに、**ライセンス済み**&#x200B;の平均的なプロファイル充実度の正確な値を反映できるようになりました。この指標表示域にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../segment/license-usage.md)
 
 
 ## 2022年4月リリース {#april-2022-release}

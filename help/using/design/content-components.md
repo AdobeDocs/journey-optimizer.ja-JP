@@ -9,7 +9,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 99%
 
 ## オファーの決定 {#offer-decision}
 
-以下を使用： **[!UICONTROL オファーの決定]** メッセージに決定を挿入するコンポーネントです。 決定は、意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
+**[!UICONTROL オファーの決定]**コンポーネントを使用し、メッセージに決定を挿入します。決定は、意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
 
 
 関連トピック：

@@ -9,13 +9,13 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # ユーザーインターフェイス {#user-interface}
 
-オファーライブラリを使用すると、配置とオファーを 1 か所で作成および管理でき、作成したすべての決定にアクセスできます。
+オファーライブラリを使用すると、プレースメントとオファーを 1 か所で作成および管理し、作成したすべての決定にアクセスできます。
 
 >[!NOTE]
 >

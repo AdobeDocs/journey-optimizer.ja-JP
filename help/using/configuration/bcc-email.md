@@ -1,14 +1,15 @@
 ---
-title: BCC 電子メールを使用
-description: メッセージプリセットレベルで BCC 電子メールを設定する方法について説明します。
+title: BCC メールを使用
+description: メッセージプリセットレベルで BCC メールを設定する方法を学ぶ
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: d535a782bd1008cbbf35794bf44aa8ac4eae3d13
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 84%
 >
 >BCC に設定できるメールアドレスは 1 つだけです。現在のプリセットを使用して送信されるすべてのメールを保存するのに十分な受信容量が BCC アドレスにあることを確認します。
 >
->その他のレコメンデーションの一覧は、 [この節](#bcc-recommendations-limitations).
+>その他の推奨事項の一覧は、[この節](#bcc-recommendations-limitations)を参照してください。
 
 ![](assets/preset-bcc.png)
 
@@ -55,24 +56,24 @@ BCC メールアドレスの設定は、プリセットレベルで直ちに保�
 
 ## 推奨事項と制限事項 {#bcc-recommendations-limitations}
 
-* プライバシーコンプライアンスを確保するには、BCC 電子メールは、個人を特定できる情報 (PII) を安全に保存できるアーカイブシステムで処理する必要があります。
+* プライバシー上の理由から、BCC メールは、個人を特定できる情報（PII）を安全に保存できるアーカイブシステムで処理する必要があります。
 
-* メッセージには、個人を特定できる情報 (PII) などの機密データや非公開データを含めることができるので、BCC アドレスが正しいことを確認し、メッセージへのアクセスを保護します。
+* メッセージには、個人を特定できる情報（PII）などの機密データや非公開データを含めることができるので、BCC アドレスが正しいことを確認し、メッセージへのアクセスを保護します。
 
 * BCC に使用するインボックスは、領域と配信について適切に管理される必要があります。インボックスがバウンスを返した場合、一部のメールが受信されないのでアーカイブに失敗する可能性があります。
 
-* メッセージは、ターゲット受信者の前の BCC 電子メールアドレスに配信される場合があります。 BCC メッセージは、元のメッセージに含まれている場合でも送信できます [バウンス](../reports/suppression-list.md#delivery-failures).
+* メッセージは、ターゲット受信者よりも前に、BCC メールアドレスに配信される場合があります。BCC メッセージは、元のメッセージが[バウンス](../reports/suppression-list.md#delivery-failures)された場合でも送信できます。
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* BCC アドレスに送信された電子メールを開いたりクリックしたりしないでください。送信分析の合計開封数とクリック数が考慮されます。これにより、 [レポート](../reports/message-monitoring.md).
+* BCC アドレスに送信されたメールを開いたり、クリックしたりしないでください。送信分析の合計開封数とクリック数に考慮され、[レポート](../reports/message-monitoring.md)で計算ミスが起きる可能性があります。
 
-* BCC 受信ボックスでメッセージをスパムとしてマークしないでください。このアドレスに送信される他のすべての E メールに影響を与えます。
+* BCC インボックスでメッセージをスパムとしてマークしないでください。このアドレスに送信される他のすべてのメールに影響を与えます。
 
 
 >[!CAUTION]
 >
->BCC アドレスに送信される E メールの配信停止リンクをクリックしないでください。対応する受信者を直ちに配信停止にするからです。
+>対応する受信者を直ちに登録解除する際には、BCC アドレスに送信されたメールの登録解除リンクをクリックしないようにしてください。
 
 ## GDPR への準拠 {#gdpr-compliance}
 

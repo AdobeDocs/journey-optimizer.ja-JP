@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 比較関数は、異なる式と値を比較するために使用され、それに応じて true または false を返します。
 
-### Equals{#equals}
+### 次に等しい{#equals}
 
 `=`（equals）関数は、ある値または式が別の値または式と等しいかどうかを確認します。
 

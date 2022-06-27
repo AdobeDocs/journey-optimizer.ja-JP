@@ -9,7 +9,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 
 メッセージ頻度ルールにアクセス、作成、編集または削除するには、**[!UICONTROL 頻度ルールの管理]**&#x200B;権限を備えている必要があります。
 
-を持つ **[!UICONTROL 頻度ルールを表示]** 権限ではルールを表示できますが、変更や削除はできません。
+**[!UICONTROL 頻度ルールの表示]**&#x200B;権限を持つユーザーはルールを表示できますが、変更や削除はできません。
 
 ![](assets/message-rules-access.png)
 

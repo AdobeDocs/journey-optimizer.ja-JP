@@ -9,7 +9,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 * プッシュ通知メッセージを公開せずに作成およびデザインします。この[節](../messages/get-started-content.md)を参照してください。
 * 注文番号、ステータス、品目名を含む注文イベントを設定します。この[節](../event/about-events.md)を参照してください。
-* 決定を作成する（これを参照） [セクション](../offers/offer-activities/create-offer-activities.md).
+* 決定を作成するには、この[節](../offers/offer-activities/create-offer-activities.md)を参照してください。
 
 ## 手順 1 - プロファイルでのパーソナライゼーションの追加 {#add-perso}
 
@@ -98,7 +98,7 @@ ht-degree: 94%
 
    ![](assets/perso-uc13.png)
 
-1. 左側のメニューから「**オファーの決定**」を選択して、Offer Decisioning 変数を挿入します。配置を選択し、 **+** 決定の横にあるアイコンをクリックし、本文に追加します。
+1. 左側のメニューから「**オファーの決定**」を選択して、Offer Decisioning 変数を挿入します。プレースメントを選択し、決定の横にある「**+**」アイコンをクリックし、本文に追加します。
 
    ![](assets/perso-uc14.png)
 

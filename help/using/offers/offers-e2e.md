@@ -9,7 +9,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -227,6 +227,6 @@ ht-degree: 99%
 
 ## メールへの決定の挿入 {#insert-decision-in-email}
 
-これで決定が有効になったので、メールメッセージに挿入できます。それには、 [このページ](../../using/design/deliver-personalized-offers.md).
+これで決定が有効になったので、メールメッセージに挿入できます。それには、[このページ](../../using/design/deliver-personalized-offers.md)で詳細に説明されている手順に従ってください。
 
 ![](assets/offers-e2e-offers-displayed.png)

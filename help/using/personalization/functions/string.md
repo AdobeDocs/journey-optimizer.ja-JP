@@ -9,7 +9,7 @@ exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '1686'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -257,7 +257,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## URL ホストを取得 {#get-url-host}
 
-この `getUrlHost` 関数は、URL のホスト名を取得するために使用されます。
+`getUrlHost` 関数は、URL のホスト名を取得するために使用されます。
 
 **形式**
 
@@ -271,11 +271,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= getUrlHost("http://www.myurl.com/contact") %}
 ```
 
-&quot;www.myurl.com&quot;を返します
+「www.myurl.com」を返します
 
 ## URL パスを取得 {#get-url-path}
 
-この `getUrlPath` 関数は、URL のドメイン名の後にパスを取得するために使用されます。
+`getUrlPath` 関数は、URL のドメイン名の後のパスを取得するために使用されます。
 
 **形式**
 
@@ -289,11 +289,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= getUrlPath("http://www.myurl.com/contact.html") %}
 ```
 
-&quot;/contact.html&quot;を返します
+「/contact.html」を返します
 
 ## URL プロトコルを取得 {#get-url-protocol}
 
-この `getUrlProtocol` 関数は、URL のプロトコルを取得するために使用されます。
+`getUrlProtocol` 関数は、URL のプロトコルを取得するために使用されます。
 
 **形式**
 
@@ -311,7 +311,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## インデックス {#index-of}
 
-この `indexOf` 関数は、2 番目のパラメーターの最初の値の（最初の引数内の）位置を返すために使用されます。 一致するものがない場合は -1 を返します。
+`indexOf` 関数は、2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返すために使用されます。一致するものがない場合は「-1」を返します。
 
 **形式**
 
@@ -330,11 +330,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= indexOf("hello world","world" ) %}
 ```
 
-6 を返します。
+「6」を返します。
 
-## Is empty {#isEmpty}
+## 空である {#isEmpty}
 
-この `isEmpty` 関数は、文字列が空かどうかを判定するために使用されます。
+`isEmpty` 関数は、文字列が空かどうかを判断するために使用します。
 
 **形式**
 
@@ -350,9 +350,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Is Not Empty（空ではない） {#is-not-empty}
+## 空でない {#is-not-empty}
 
-この `isNotEmpty` 関数は、文字列が空でないかどうかを判定するために使用されます。
+`isNotEmpty` 関数は、文字列が空でないかどうかを判定するために使用されます。
 
 **形式**
 
@@ -362,7 +362,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次の関数は、プロファイルの携帯電話番号が空でない場合に「true」を返します。 それ以外の場合は、「false」を返します。
+次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。それ以外の場合は、「false」を返します。
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -370,7 +370,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 最後のインデックス {#last-index-of}
 
-この `lastIndexOf` 関数は、2 番目のパラメーターの最後の値の（最初の引数内の）位置を返すために使用されます。 一致するものがない場合は -1 を返します。
+`lastIndexOf` 関数は、2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返すために使用されます。一致するものがない場合は「-1」を返します。
 
 **形式**
 
@@ -389,7 +389,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= lastIndexOf("hello world","o" ) %}
 ```
 
-7 を返します。
+「7」を返します。
 
 ## Left trim {#leftTrim}
 
@@ -500,7 +500,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## MD5 {#md5}
 
-この `md5` 関数は、文字列の md5 ハッシュを計算して返すために使用されます。
+`md5` 関数は、文字列の md5 ハッシュを計算して返すために使用されます。
 
 **形式**
 
@@ -514,7 +514,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= md5("hello world") %}
 ```
 
-「5eb63bbe01eed093cb22bb8f5acdc3」を返します。
+「5eb63bbbe01eeed093cb22bb8f5acdc3」を返します。
 
 ## notEqualTo{#notEqualTo}
 
@@ -539,9 +539,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 次と等しくない（大文字と小文字を区別しない） {#not-equal-with-ignore-case}
+## 等しくない (大文字と小文字を区別しない) {#not-equal-with-ignore-case}
 
-この `notEqualWithIgnoreCase` 関数は、大文字と小文字を区別せずに、2 つの文字列を比較するために使用されます。
+`notEqualWithIgnoreCase` 関数は、大文字と小文字を区別せずに、2 つの文字列を比較するために使用されます。
 
 **形式**
 
@@ -556,7 +556,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次のクエリでは、人の名前が「john」でないかどうかを判定し、大文字と小文字を区別しません。
+次のクエリでは、大文字と小文字を区別せずに、ユーザーの名前が「john」でないかどうかを判定します。
 
 ```sql
 {%= notEqualTo(profile.person.name,"john") %}
@@ -666,7 +666,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 文字列を整数に {#string-to-integer}
 
-この `string_to_integer` 関数は、文字列値を整数値に変換するために使用されます。
+`string_to_integer` 関数は、文字列値を整数値に変換するために使用されます。
 
 **形式**
 
@@ -676,7 +676,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 文字列から数値へ {#string-to-number}
 
-この `stringToNumber` 関数は、文字列を数値に変換するために使用されます。 無効な入力の出力と同じ文字列を返します。
+`stringToNumber` 関数は、文字列を数値に変換するために使用されます。無効な入力の出力と同じ文字列を返します。
 
 **形式**
 
@@ -684,9 +684,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= stringToNumber(string) %}: double
 ```
 
-## サブ文字列 {#sub-string}
+## 部分文字列 {#sub-string}
 
-この `Count string` 関数は、begin インデックスと end インデックスの間の文字列式のサブ文字列を返すために使用されます。
+`Count string` 関数は、開始インデックスと終了インデックスの間の文字列式の部分文字列を返すために使用されます。
 **形式**
 
 ```sql
@@ -713,7 +713,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## ブール値に {#to-bool}
 
-この `toBool` 関数は、引数の値を、型に応じてブール値に変換するために使用します。
+`toBool` 関数は、引数の値を、型に応じてブール値に変換するために使用されます。
 
 **形式**
 
@@ -723,7 +723,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 日時に {#to-date-time}
 
-この `toDateTime` 関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日を返します。
+`toDateTime` 関数は、文字列を日付型に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。
 
 **形式**
 
@@ -733,7 +733,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 日時のみに {#to-date-time-only}
 
-この `toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用します。 無効な入力に対する出力として、エポック日を返します。
+`toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。
 
 **形式**
 
@@ -769,9 +769,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## url デコード {#url-decode}
+## URL デコード {#url-decode}
 
-この `urlDecode` 関数は、url エンコードされた文字列をデコードするために使用されます。
+`urlDecode` 関数は、URL エンコードされた文字列をデコードするために使用されます。
 
 **形式**
 
@@ -781,7 +781,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## URL エンコード {#url-encode}
 
-この `Count only null` 関数は、文字列を url エンコードするために使用されます。
+`Count only null` 関数は、文字列を URL エンコードするために使用されます。
 
 **形式**
 

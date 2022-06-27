@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '837'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 ![](assets/global_report_6.png)
 
-「**[!UICONTROL メール - 上位の受信者ドメイン]**」のグラフと表は、受信者がメールを開くために最も頻繁に使用されているドメインの詳細を示します。
+「**[!UICONTROL 電子メール - 上位の受信者ドメイン]**」のグラフと表は、受信者が電子メールを開くために最も多く使用しているドメインの詳細を示しています。
 
 「**[!UICONTROL メール - 上位の URL]**」のグラフと表は、配信から最もアクセスされた URL の詳細を示します。
 

@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 87%
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
 
-6 を返します。
+「6」を返します。
 
 ## Distinct{#distinct}
 
@@ -69,7 +69,7 @@ ht-degree: 87%
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
-## null を含むユニークカウント {#distinct-count-with-null}
+## null で個別カウント {#distinct-count-with-null}
 
 この `distinctCountWithNull` 関数は、null 値を含むリスト内の異なる値の数をカウントするために使用されます。
 
@@ -87,9 +87,9 @@ ht-degree: 87%
 
 3 を返します。
 
-## First item{#head}
+## 最初の項目{#head}
 
-この `head` 関数は、配列またはリスト内の最初の項目を返すために使用されます。
+`head` 関数は、配列またはリスト内の最初の項目を返すために使用されます。
 
 **形式**
 

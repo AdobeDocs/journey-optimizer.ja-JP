@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -131,9 +131,9 @@ ht-degree: 86%
 
 ## BCC メール {#bcc-email}
 
-から送信された E メールの同一のコピー（またはブラインドカーボンコピー）を送信できます [!DNL Journey Optimizer] を BCC 受信ボックスに追加します。BCC は、コンプライアンスやアーカイブの目的で保存されます。
+[!DNL Journey Optimizer] から送信された電子メールの同一のコピー（またはブラインドカーボンコピー）を BCC インボックスに送信できます。BCC インボックスは、コンプライアンスやアーカイブの目的で保存されます。
 
-これをおこなうには、 **[!UICONTROL BCC 電子メール]** プリセットレベルのオプション機能。 [詳細情報](bcc-email.md)
+これを行うには、プリセットレベルの「**[!UICONTROL BCC メール]**」オプション機能を有効化します。[詳細情報](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 

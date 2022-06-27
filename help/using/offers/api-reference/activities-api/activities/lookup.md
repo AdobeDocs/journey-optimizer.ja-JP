@@ -9,13 +9,13 @@ exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # 決定の検索 {#look-up-decision}
 
-特定の決定を検索するには、 [!DNL Offer Library] 決定のいずれかを含む API `@id` またはリクエストパス内の決定の名前。
+[!DNL Offer Library] API に対してリクエストパスに決定 `@id` または決定の名前を含める GET リクエストを実行することで、特定の決定を検索できます。
 
 **API 形式**
 
