@@ -4,10 +4,10 @@ description: Journey Optimizer でランディングページのサブドメイ�
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: e57ea0f4beda9c0e3e58074339633187cc0bc02b
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,10 @@ ht-degree: 100%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   同じ親ドメインの複数のデリゲートサブドメインを使用することはできません。 例えば、marketing1.yourcompany.com が既にランディングページのAdobeに委任されている場合、marketing2.yourcompany.com を使用することはできません。 ただし、ランディングページでは複数レベルのサブドメインがサポートされているので、「email.marketing1.yourcompany.com」を使用できます。
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >[CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。[この節](#lp-configure-new-subdomain)でその方法を説明します。
@@ -100,7 +104,11 @@ ht-degree: 100%
 
    無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
 
-   「email.marketing.yourcompany.com」などマルチレベルのサブドメインは、現在サポートされていません。
+   >[!NOTE]
+   >
+   >ランディングページでは、複数レベルのサブドメインがサポートされます。 例えば、「email.marketing.yourcompany.com」を使用できます。
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. DNS サーバーに配置するレコードが表示されます。このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインをホストするソリューションに移動し、一致する DNS レコードを生成します。
 

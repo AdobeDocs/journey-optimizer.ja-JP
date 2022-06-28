@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: d535a782bd1008cbbf35794bf44aa8ac4eae3d13
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 100%
+source-wordcount: '1136'
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="BCC メールアドレスの定義"
->abstract="BCC インボックスに送信することで、送信済みメールのコピーを保持できます。送信されたすべてのメールがこの BCC アドレスにブラインドコピーされるように、目的のメールアドレスを入力します。この機能はオプションです。"
+>abstract="BCC インボックスに送信することで、送信済みメールのコピーを保持できます。送信されたすべてのメールがこの BCC アドレスにブラインドコピーされるように、目的のメールアドレスを入力します。BCC アドレスドメインは、BCC にデリゲートされたサブドメインと同じでないことに注意してください。Adobe この機能はオプションです。"
 
 [!DNL Journey Optimizer] から BCC インボックスに送信されたメールと同一のコピー（またはブラインドカーボンコピー）を送信できます。このオプション機能を使用すると、ユーザーに送信するメール通信のコピーをコンプライアンスやアーカイブの目的で保持できます。これは、配信の受信者には表示されません。
 
 ## BCC メールの有効化 {#enable-bcc}
 
-「**[!UICONTROL BCC メール]**」オプションを有効にするには、選択したメールアドレスを専用のフィールドに入力します。デリゲートされたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+「**[!UICONTROL BCC メール]**」オプションを有効にするには、選択したメールアドレスを専用のフィールドに入力します。Adobeにデリゲートされたサブドメインで定義された E メールアドレスを除き、任意の外部アドレスを正しい形式で指定できます。 例えば、 *marketing.luma.com* サブドメインからAdobeへ、次のような任意のアドレス *abc@marketing.luma.com* は禁止されています。
 
 >[!NOTE]
 >
