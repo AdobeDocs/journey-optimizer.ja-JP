@@ -2,9 +2,9 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '369'
 ht-degree: 45%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>使用可能な日付： <b>6 月 27 日</b></p>
-<p></p>
 <p>Journey Optimizerで、 <b>シンチ</b> または <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
 <p>SMS チャネルは現在、一連の組織でのみ使用できます（使用が制限されています）。 詳しくは、Adobe担当者にお問い合わせください。</p>
@@ -51,8 +49,6 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>使用可能な日付： <b>6 月 27 日</b></p>
-<p></p>
 <p>Adobe StockとAdobe Journey Optimizerの Email Designer 統合プラグインを使用すると、メッセージのオーサリングで使用するために、画像のナビゲーション、ライセンス、保存を簡単におこなうことができます。 </br> 新しい <b>類似の写真を検索</b> また、画像のコンテンツ、色、構成に一致する Stock 写真を探すこともできます。 </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>詳しくは、<a href="../design/stock.md">詳細なドキュメント</a>を参照してください。</p>

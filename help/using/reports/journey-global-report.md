@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 96%
@@ -253,6 +253,8 @@ ht-degree: 96%
 SMS **[!UICONTROL グローバルレポート]** は、配信の成功とエラーを示す様々なウィジェットに分割されます。 必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](global-report.md#modify-dashboard)を参照してください。
 
 ## 「SMS」タブ {#sms-global}
+
+![](assets/report_sms_global.png)
 
 この **[!UICONTROL SMS — 送信統計]** テーブルには、配信の成功の詳細が表示されます。
 
