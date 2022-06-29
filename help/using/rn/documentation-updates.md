@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 90%
+source-wordcount: '1608'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 90%
 * 許可リストページは、「設定」セクションに移動されました。 [詳細情報](../configuration/allow-list.md)
 * 抑制リストのページが更新され、抑制フィールドの理由で 32～126 の間に含まれるすべての ASCII 文字が許可されるなど、一部の情報が明確になりました。 [詳細情報](../configuration/manage-suppression-list.md)
 * 決定管理のガードレールおよび静的制限へのリンクが追加されました。 [詳細情報](../start/guardrails.md)
+* すべてのお客様が送信時間の最適化を利用できるようになりました。 ベータ版のメンションは削除されました。 [詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## 2022年5月 {#may-2022}
