@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ ht-degree: 2%
 
 アクションを順に実行するように設計されたジャーニーとは異なり、キャンペーンは、アクションを即座に、または指定したスケジュールで同時に実行します。 例えば、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などを配信する場合に使用できます。
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-キャンペーンの管理方法の詳細 &lt;!> — およびコンテンツ実験 &lt;>:
+キャンペーンの操作方法を学ぶ：
 * [キャンペーンの作成](create-campaign.md)
 * [キャンペーンの変更または停止](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [キャンペーンのライブレポート](campaign-live-report.md)
+* [キャンペーングローバルレポート](campaign-global-report.md)
 
 ## キャンペーンへのアクセス {#access}
 
