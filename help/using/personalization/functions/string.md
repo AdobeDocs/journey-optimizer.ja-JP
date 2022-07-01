@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1686'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 式エディターで文字列関数を使用する方法を説明します。
 
-## Camel Case {#camelCase}
+## キャメルケース {#camelCase}
 
 `camelCase` 関数は、文字列の各単語の最初の文字を大文字にします。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
-## Concat {#concate}
+## 連結 {#concate}
 
 `concat` 関数は、2 つの文字列を 1 つに結合します。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## contains {#contains}
+## 次を含む {#contains}
 
 `contains` 関数は、文字列が指定の部分文字列を含んでいるかどうかを判定するために使用されます。
 
@@ -83,7 +83,7 @@ ht-degree: 100%
    {%= contains(profile.person.emailAddress,"2010@gm") %}
    ```
 
-## Does not contain{#doesNotContain}
+## 次を含まない{#doesNotContain}
 
 `doesNotContain` 関数は、文字列が指定の部分文字列を含んでいないかどうかを判定するために使用されます。
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 ```
 
 
-## Does not end with{#doesNotEndWith}
+## 次で終わらない{#doesNotEndWith}
 
 `doesNotEndWith` 関数は、文字列が指定の部分文字列で終わらないかどうかを判定するために使用されます。
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Does not start with{#doesNotStartWith}
+## 次で始まらない{#doesNotStartWith}
 
 `doesNotStartWith` 関数は、文字列が指定の部分文字列で始まらないかどうかを判定するために使用されます。
 
@@ -156,7 +156,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= doesNotStartWith(person.name,"Joe")%}
 ```
 
-## Encode 64{#encode64}
+## エンコード 64{#encode64}
 
 `encode64` 関数は、個人情報（PI）を URL などに含める必要がある場合に、個人情報を保持する文字列をエンコードするために使用します。
 
@@ -166,7 +166,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
-## Ends with{#endsWith}
+## 次で終わる{#endsWith}
 
 `endsWith` 関数は、文字列が指定の部分文字列で終わるかどうかを判定するために使用されます。
 
@@ -191,7 +191,7 @@ doesNotEndWith(person.emailAddress,".com")
 ```
 
 
-## Equals{#equals}
+## 次に等しい{#equals}
 
 `equals` 関数は、文字列が指定の文字列に等しいかどうかを判定するために使用します。
 
@@ -214,7 +214,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Equals Ignore Case{#equalsIgnoreCase}
+## 等しい (大文字と小文字を区別しない){#equalsIgnoreCase}
 
 `equalsIgnoreCase` 関数は、大文字と小文字を区別せずに、文字列が指定の文字列に等しいかどうかを判定するために使用します。
 
@@ -237,7 +237,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
 
-## Extract Email Domain {#extractEmailDomain}
+## 電子メールドメインを抽出 {#extractEmailDomain}
 
 `extractEmailDomain` 関数は、メールアドレスのドメインを抽出するために使用します。
 
@@ -391,7 +391,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 「7」を返します。
 
-## Left trim {#leftTrim}
+## 左トリミング {#leftTrim}
 
 `leftTrim` 関数は、文字列の先頭から空白を削除するために使用します。
 
@@ -401,7 +401,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## 長さ {#length}
 
 `length` 関数は、文字列または式の文字数を取得するために使用します。
 
@@ -419,7 +419,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= length(profile.homeAddress.city) %}
 ```
 
-## like{#like}
+## 類似{#like}
 
 `like` 関数は、文字列が指定のパターンと一致するかどうかを判定するために使用されます。
 
@@ -442,7 +442,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= like(profile.homeAddress.city, "%es%")%}
 ```
 
-## Lower Case{#lower}
+## 小文字{#lower}
 
 `lowerCase` 関数は、文字列を小文字に変換します。
 
@@ -460,7 +460,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## matches{#matches}
+## 一致{#matches}
 
 `matches` 関数は、文字列が特定の正規表現と一致するかどうかを判定するために使用されます。正規表現でのパターンマッチングについて詳しくは、[こちらのドキュメント](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
 
@@ -516,7 +516,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 「5eb63bbbe01eeed093cb22bb8f5acdc3」を返します。
 
-## notEqualTo{#notEqualTo}
+## 次と等しくない{#notEqualTo}
 
 `notEqualTo` 関数は、文字列が指定の文字列に等しくないかどうかを判定するために使用されます。
 
@@ -586,7 +586,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## 置換 {#replace}
 
 `replace` 関数は、文字列内の特定の部分文字列を別の部分文字列で置き換えるために使用します。
 
@@ -610,7 +610,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 「Hello Mark, here is your monthly newsletter!」を返します。
 
-## Replace All{#replaceAll}
+## すべて置換{#replaceAll}
 
 `replaceAll` 関数は、「target」に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。置換は、文字列の先頭から末尾に向けておこなわれます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
@@ -620,7 +620,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= replaceAll(string,string,string) %}
 ```
 
-## Right trim {#rightTrim}
+## 右トリミング {#rightTrim}
 
 `rightTrim` 関数は、文字列の末尾から空白を削除するために使用します。
 
@@ -630,7 +630,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## 分割 {#split}
 
 `split` 関数は、文字列を特定の文字で分割する場合に使用します。
 
@@ -640,7 +640,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= split(string,string) %}
 ```
 
-## Starts with{#startsWith}
+## 次で始まる{#startsWith}
 
 `startsWith` 関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます。
 
@@ -693,7 +693,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= substr(string, integer, integer) %}: string
 ```
 
-## Title Case{#titleCase}
+## タイトルケース{#titleCase}
 
 **titleCase** 関数は、文字列の各単語の最初の文字を大文字にするために使用します。
 
@@ -741,7 +741,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## Trim{#trim}
+## トリミング{#trim}
 
 **trim** 関数は、文字列の先頭と末尾にあるすべての空白を削除します。
 
@@ -751,7 +751,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= trim(string) %}
 ```
 
-## Upper Case{#upper}
+## 大文字{#upper}
 
 **upperCase** 関数は、文字列を大文字に変換します。
 
