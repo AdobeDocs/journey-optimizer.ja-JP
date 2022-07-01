@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # オブジェクト関数 {#objects}
 
-## Is null{#isNull}
+## null である{#isNull}
 
 `isNull` 関数は、オブジェクト参照が存在しないかどうかを判定します。
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 {%= isNull(person.homeAddress) %}
 ```
 
-## Is not null{#isNotNull}
+## null でない{#isNotNull}
 
 `isNotNull` 関数は、オブジェクト参照が存在するかどうかを判定します。
 
