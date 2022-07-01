@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 パーソナライゼーションでマップ関数を使用すると、マップとのやり取りが容易になります。
 
-## get{#get}
+## 取得{#get}
 
 `get` 関数は、特定のキーのマップの値を取得するために使用されます。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 {%= get(identityMap,"example@example.com") %}
 ```
 
-## keys{#keys}
+## キー{#keys}
 
 `keys` 関数は、特定のマップのすべてのキーを取得するために使用されます。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 {%= keys(identityMap) %}
 ```
 
-## values{#values}
+## 値{#values}
 
 `values` 関数は、特定のマップのすべての値を取得するために使用されます。
 
