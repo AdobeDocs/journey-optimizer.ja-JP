@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 集計関数は、複数の値をまとめて 1 つの値に要約するために使用します。
 
-## Average{#average}
+## 平均{#average}
 
 `average` 関数は、配列内の選択された値すべての算術平均を返します。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 {%=average(orders.order.price)%}
 ```
 
-## Count{#count}
+## カウント{#count}
 
 `count` 関数は、渡された配列内の要素数を返します。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 {%= count(orders) %}
 ```
 
-## Maximum{#max}
+## 最大{#max}
 
 `max` 関数は、配列内の選択された値すべての最大値を返します。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 {%=max(orders.order.price)%}
 ```
 
-## Minimum{#min}
+## 最小{#min}
 
 `min` 関数は、配列内の選択された値すべての最小値を返します。
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 {%=min(orders.order.price) %}
 ```
 
-## Sum{#sum}
+## 合計{#sum}
 
 `sum` 関数は、配列内の選択された値すべての合計を返します。
 
