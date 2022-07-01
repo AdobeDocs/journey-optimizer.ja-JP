@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 日時関数を使用すると、Journey Optimizer 内の値に対して日時操作を実行できます。
 
-## age{#age}
+## 年齢{#age}
 
 `age` 関数を使用すると、指定された日付からの経過時間を取得できます。
 
@@ -37,7 +37,7 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## currentTimeInMillis{#current-time}
+## 現在の時刻 (ミリ秒){#current-time}
 
 `currentTimeInMillis` 関数を使用すると、現在の時刻をエポックミリ秒単位で取得できます。
 
@@ -57,7 +57,7 @@ The following operation gets all the keys for the map `identityMap`.
 ```
 -->
 
-## dateDiff{#date-diff}
+## 日付の差異{#date-diff}
 
 `dateDiff` 関数を使用すると、2 つの日付間の差異を日数単位で取得できます。
 
@@ -78,7 +78,7 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## dayOfWeek{#day-week}
+## 曜日{#day-week}
 
 `dayOfWeek` 関数を使用すると、曜日を取得できます。
 
@@ -98,7 +98,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## dayOfYear{#day-year}
+## 通日{#day-year}
 
 `dayOfYear` 関数を使用すると、通日（1月1日からの通算日数）を取得できます。
 
@@ -118,7 +118,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## formatDate{#format-date}
+## 日付をフォーマット{#format-date}
 
 `formatDate` 関数を使用すると、日時値を書式設定できます。書式は、有効な Java DateTimeFormat パターンである必要があります。
 
@@ -144,7 +144,7 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## setDays{#set-days}
+## 日数を設定{#set-days}
 
 `setDays` 関数を使用すると、指定された日時の日付を設定できます。
 
@@ -164,7 +164,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## setHours{#set-hours}
+## 時間を設定{#set-hours}
 
 `setHours` 関数を使用すると、日時の時を設定できます。
 
@@ -185,7 +185,7 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## toUTC{#to-utc}
+## UTC に{#to-utc}
 
 `toUTC` 関数を使用すると、日時を UTC に変換できます。
 
@@ -207,7 +207,7 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## weekOfYear{#week-of-year}
+## 年間通算週 (UTC){#week-of-year}
 
 `weekOfYear` 関数を使用すると、年の週番号（何週目か）を取得できます。
 
