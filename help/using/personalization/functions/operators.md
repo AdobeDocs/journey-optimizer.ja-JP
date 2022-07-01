@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ブール関数は、異なる要素に対してブール論理を実行するために使用します。
 
-### And{#and}
+### および{#and}
 
 `and` 関数は、論理積を作成するために使用されます。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
 ```
 
-### Or{#or}
+### または{#or}
 
 `or` 関数は、論理和を作成するために使用されます。
 
@@ -82,7 +82,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 次に等しい{#equals}
 
-`=`（equals）関数は、ある値または式が別の値または式と等しいかどうかを確認します。
+`=`（次に等しい）関数は、ある値または式が別の値または式と等しいかどうかを確認します。
 
 **形式**
 
@@ -98,9 +98,9 @@ not (homeAddress.countryISO = "CA")
 {%= profile.homeAddress.country = "France" %}
 ```
 
-### Not equal{#notequal}
+### 次と等しくない{#notequal}
 
-`!=`（not equal）関数は、ある値または式が別の値または式と等しく&#x200B;**ない**&#x200B;かどうかを確認します。
+`!=`（次と等しくない）関数は、ある値または式が別の値または式と等しく&#x200B;**ない**&#x200B;かどうかを確認します。
 
 **形式**
 
@@ -116,9 +116,9 @@ not (homeAddress.countryISO = "CA")
 {%= profile.homeAddress.country != "France" %}
 ```
 
-### Greater than{#greaterthan}
+### 次より大きい{#greaterthan}
 
-`>`（greater than）関数は、最初の値が 2 番目の値より大きいかどうかを確認するために使用します。
+`>`（次より大きい）関数は、最初の値が 2 番目の値より大きいかどうかを確認するために使用します。
 
 **形式**
 
@@ -134,9 +134,9 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear > 1970 %}
 ```
 
-### Greater than or equal to{#greaterthanorequal}
+### 同じかそれ以上{#greaterthanorequal}
 
-`>=`（greater than or equal to）は、1 つ目の値が 2 つ目の値以上かどうかを確認するために使用されます。
+`>=`（同じかそれ以上）は、1 つ目の値が 2 つ目の値以上かどうかを確認するために使用されます。
 
 **形式**
 
@@ -152,9 +152,9 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### Less than{#lessthan}
+### 次より小さい{#lessthan}
 
-`<`（less than）比較関数は、最初の値が 2 番目の値より小さいかどうかを調べるために使用されます。
+`<`（次より小さい）比較関数は、最初の値が 2 番目の値より小さいかどうかを調べるために使用されます。
 
 **形式**
 
@@ -170,9 +170,9 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear < 2000 %}
 ```
 
-### Less than or equal to{#lessthanorequal}
+### 同じかそれ以下{#lessthanorequal}
 
-`<=`（less than or equal to）比較関数は、最初の値が 2 番目の値以下かどうかを確認するために使用されます。
+`<=`（同じかそれ以下）比較関数は、最初の値が 2 番目の値以下かどうかを確認するために使用されます。
 
 **形式**
 
