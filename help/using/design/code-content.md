@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # コンテンツを独自にコーディング {#code-content}
 
-以下を使用： **[!UICONTROL 独自のコーディング]** モード：生のHTMLを読み込んだり、e メールコンテンツをコード化したりします。 このメソッドには HTML に関するスキルが必要です。
+**[!UICONTROL 独自にコーディング]**&#x200B;モードを使用すると、Raw HTML をインポートしたり、メールコンテンツをコーディングしたりできます。この方法を使用するには、HTML に関するスキルが必要です。
 
 ➡️ [この機能をビデオで確認](#video)
 
