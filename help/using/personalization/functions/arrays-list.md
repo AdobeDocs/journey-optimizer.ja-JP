@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 「6」を返します。
 
-## Distinct{#distinct}
+## 個別{#distinct}
 
 `distinct` 関数は、重複値を削除して配列またはリストから値を取得するために使用します。
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## First `n` in array {#first-n}
+## 配列の最初の `n` {#first-n}
 
 `topN` 関数は、指定した数値式に基づいて昇順で並べ替えられた場合、配列の最初の `N` 項目を返すために使用します。
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 {%= topN(orders,price, 5) %}
 ```
 
-## In{#in}
+## 次に含まれる{#in}
 
 `in` 関数は、項目が配列またはリストのメンバーであるかどうかを判断するために使用されます。
 
@@ -147,7 +147,7 @@ ht-degree: 100%
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## Includes{#includes}
+## 次を含む{#includes}
 
 `includes` 関数は、配列またはリストに特定の項目が含まれているかどうかを判断るために使用されます。
 
@@ -165,7 +165,7 @@ ht-degree: 100%
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersects{#intersects}
+## 交わり{#intersects}
 
 `intersects` 関数は、2つの配列またはリストに、共通メンバーが 1 つ以上あるかどうかを判断するために使用されます。
 
@@ -203,7 +203,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Last `n` in array{#last-n}
+## 配列の最後の `n`{#last-n}
 
 `bottomN` 関数は、指定した数値式に基づいて昇順で並べ替えられた場合、配列の最後の `N` 項目を返すために使用します。
 
@@ -227,7 +227,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Not in{#notin}
+## 次に含まれない{#notin}
 
 `notIn` 関数は、項目が配列またはリストのメンバーでないかどうかを判断するために使用されます。
 
@@ -250,7 +250,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 
-## Subset of{#subset}
+## サブセット{#subset}
 
 `subsetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のサブセットであるかを判断するために使用されます。つまり、配列 A 内のすべての要素が配列 B の要素であるということです。
 
@@ -268,7 +268,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Superset of{#superset}
+## スーパーセット{#superset}
 
 `supersetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかを判断するために使用されます。つまり、その配列 Aには配列 B のすべての要素が含まれます。
 
