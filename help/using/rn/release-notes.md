@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
+source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 39%
+source-wordcount: '486'
+ht-degree: 78%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 39%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
-## 2022 年 6 月リリース {#june-2022-release}
+## 2022年6月リリース {#june-2022-release}
 
 ### 新機能
 
 <table>
 <thead>
 <tr>
-<th><strong>ユーザーに SMS を送信する（使用を制限）</strong><br/></th>
+<th><strong>ユーザーへの SMS の送信（使用制限あり）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerで、 <b>シンチ</b> または <b>Twilio</b>.</p>
+<p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS チャネルは現在、一連の組織でのみ使用できます（使用が制限されています）。 詳しくは、Adobe担当者にお問い合わせください。</p>
-<p>SMS を作成して送信する方法を説明します <a href="../messages/create-sms.md">詳細なドキュメント</a>.</p>
+<p>SMS チャネルは現在、一連の組織でのみ使用できます（使用制限があります）。 詳しくは、アドビ担当者にお問い合わせください。</p>
+<p>SMS の作成および送信方法については、この<a href="../messages/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -43,13 +43,13 @@ ht-degree: 39%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Stockとの統合により、より効果的な画像をより迅速に見つける</strong><br/></th>
+<th><strong>Adobe Stock との統合による効果的な画像の迅速な検索</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe StockとAdobe Journey Optimizerの Email Designer 統合プラグインを使用すると、メッセージのオーサリングで使用するために、画像のナビゲーション、ライセンス、保存を簡単におこなうことができます。 </br> 新しい <b>類似の写真を検索</b> また、画像のコンテンツ、色、構成に一致する Stock 写真を探すこともできます。 </p>
+<p>Adobe Stock と Adobe Journey Optimizer 電子メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。</br> 新しい「<b>類似のストックフォトを検索</b>」オプションを使用すると、画像の内容、カラーおよび構成に一致するストックフォトを見つけることもできます。 </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>詳しくは、<a href="../design/stock.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -60,7 +60,7 @@ ht-degree: 39%
 <table>
 <thead>
 <tr>
-<th><strong>すべてのメールで BCC で E メールを使用</strong><br/></th>
+<th><strong>すべてのメールでの「BCC で E メールを送信」の使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -129,12 +129,12 @@ ht-degree: 39%
 
 **意思決定管理**
 
-* **HTMLと JSON ファイルのサポート**  — 外部HTMLファイルと JSON ファイルをAdobe Experience Cloud Asset ライブラリからオファー表示域のコンテンツにドラッグ&amp;ドロップできるようになりました。 [詳細情報](../offers/offer-library/add-representations.md#html-json)
+* **HTML および JSON ファイルのサポート** - 外部の HTML ファイルと JSON ファイルを Adobe Experience Cloud アセットライブラリからオファー表示域のコンテンツにドラッグ＆ドロップできるようになりました。[詳細情報](../offers/offer-library/add-representations.md#html-json)
 
 
-**E メール**
+**メール**
 
-* **テンプレートとして保存** - E メールコンテンツをテンプレートとして保存し、他のメッセージを作成する際に再利用できるようになりました。 [詳細情報](../design/email-templates.md)
+* **テンプレートとして保存** - メールコンテンツをテンプレートとして保存し、他のメッセージを作成する際に再利用できるようになりました。[詳細情報](../design/email-templates.md)
 
 <!--
 **Journeys**
@@ -147,7 +147,11 @@ ht-degree: 39%
 
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
-* **トラッキング URL パラメーターのプレビュー**  — メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。 [詳細情報](../configuration/email-settings.md#url-tracking)
+* **トラッキング URL パラメーターのプレビュー** - メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。[詳細情報](../configuration/email-settings.md#url-tracking)
+
+* **メッセージプリセットの作成**  — メッセージプリセットを作成する際の処理時間は最大 3 時間になりました。 [詳細情報](../configuration/message-presets.md#create-message-preset)
+
+* **IP プールのエディション** - IP プールの更新の処理時間は最大 3 時間に制限されるようになりました。 [詳細情報](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
