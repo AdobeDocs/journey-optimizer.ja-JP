@@ -2,9 +2,9 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 78%
 
 ---
@@ -149,9 +149,9 @@ ht-degree: 78%
 
 * **トラッキング URL パラメーターのプレビュー** - メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。[詳細情報](../configuration/email-settings.md#url-tracking)
 
-* **メッセージプリセットの作成**  — メッセージプリセットを作成する際の処理時間は最大 3 時間になりました。 [詳細情報](../configuration/message-presets.md#create-message-preset)
+* **メッセージプリセットの編集**  — メッセージプリセットを更新する際、処理時間は最大 3 時間に制限されるようになりました。 [詳細情報](../configuration/message-presets.md#edit-message-preset)
 
-* **IP プールのエディション** - IP プールの更新の処理時間は最大 3 時間に制限されるようになりました。 [詳細情報](../configuration/ip-pools.md#edit-ip-pool)
+* **IP プールのエディション** - IP プールを更新する際、処理時間は最大 3 時間に制限されるようになりました。 [詳細情報](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
