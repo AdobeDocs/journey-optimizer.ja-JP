@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >メッセージ頻度ルールは、ユーザーがブランドからの通信の受信を登録解除できる、オプトアウト管理とは異なります。[詳細情報](../messages/consent.md#opt-out-management)
+
+➡️ [この機能をビデオで確認](#video)
 
 ## アクセスルール {#access-rules}
 
@@ -188,3 +190,9 @@ ht-degree: 100%
 >[!NOTE]
 >
 >プロファイルの頻度キャップに達すると、翌月までカウンターをリセットする方法はないので、頻度ルールをテストする場合は、新しく作成した[テストプロファイル](../segment/creating-test-profiles.md)を使用して開始すると便利です。ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
+
+## ハウツービデオ {#video}
+
+頻度ルールを作成、アクティブ化、テスト、およびレポートする方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

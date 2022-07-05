@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 89%
+source-wordcount: '1634'
+ht-degree: 97%
 
 ---
 
@@ -13,22 +13,24 @@ ht-degree: 89%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
+## 2022年7月 {#july-2022}
+
+* この **メッセージプリセットの作成** の節に、SMS チャネルの設定方法を説明するページへのリンクが追加され、明確になり、更新されました。 [詳細情報](../configuration/message-presets.md#create-message-preset)
 
 ## 2022年6月 {#june-2022}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 6 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
-* データ使用ポリシーに関する新しい節がドキュメントに追加されました。 [詳細情報](../privacy/policies.md)
-* プライバシーリクエストに関する新しい節がドキュメントに追加されました。 [詳細情報](../privacy/requests.md)
-* リソースに関する監査ログに関する新しい節がドキュメントに追加されました。 [詳細情報](../privacy/audit-logs.md)
-* Adobe Experience Cloud Asset ライブラリからオファー表示域にHTMLまたは JSON コンテンツを追加する方法に関する新しい節がドキュメントに追加されました。 [詳細情報](../offers/offer-library/add-representations.md#html-json)
-* ジャーニーのライフサイクルに新しいページを追加しました。 [詳細情報](../building-journeys/journey-end.md)
-* 待機アクティビティページを更新しました。 [詳細情報](../building-journeys/wait-activity.md)
-* Adobe Journey Optimizerデータセットのリストとクエリ例を追加しました。 [詳細情報](../start/datasets-query-examples.md)
-* 許可リストページは、「設定」セクションに移動されました。 [詳細情報](../configuration/allow-list.md)
-* 抑制リストのページが更新され、抑制フィールドの理由で 32～126 の間に含まれるすべての ASCII 文字が許可されるなど、一部の情報が明確になりました。 [詳細情報](../configuration/manage-suppression-list.md)
-* 決定管理のガードレールおよび静的制限へのリンクが追加されました。 [詳細情報](../start/guardrails.md)
+* [!DNL Journey Optimizer] の 2022年6月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* データ使用ポリシーに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/policies.md)
+* プライバシーリクエストに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/requests.md)
+* リソースの監査ログに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/audit-logs.md)
+* Adobe Experience Cloud アセットライブラリからオファー表示域に HTML または JSON コンテンツを追加する方法に関する新しい節がドキュメントに追加されました。[詳細情報](../offers/offer-library/add-representations.md#html-json)
+* ジャーニーのライフサイクルに新しいページを追加しました。[詳細情報](../building-journeys/journey-end.md)
+* 待機アクティビティページを更新しました。[詳細情報](../building-journeys/wait-activity.md)
+* Adobe Journey Optimizer データセットのリストとクエリ例を追加しました。[詳細情報](../start/datasets-query-examples.md)
+* 許可リストページが「設定」セクションに移動しました。[詳細情報](../configuration/allow-list.md)
+* 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
+* 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
 * すべてのお客様が送信時間の最適化を利用できるようになりました。 ベータ版のメンションは削除されました。 [詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
-
 
 
 ## 2022年5月 {#may-2022}
@@ -41,7 +43,7 @@ ht-degree: 89%
 * Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。[詳細情報](../action/about-custom-action-configuration.md)
 * チュートリアルビデオへのリンクが更新されました。
 * [メール設定](../configuration/about-subdomain-delegation.md)、[メッセージプリセット](../configuration/message-presets.md)および[ランディングページの設定](../configuration/lp-subdomains.md)の節が再編成され、読みやすくなりました。
-* **URL トラッキング**&#x200B;の節が更新および改訂され、例が追加されました。[詳細情報](../configuration/email-settings.md#url-tracking)
+* URL トラッキングの節が更新および改訂され、例が追加されました。[詳細情報](../configuration/email-settings.md#url-tracking)
 * 転送メールアドレスの設定に関する新しい節が追加されました。ユーザーインターフェイスでは実行できません。[詳細情報](../configuration/email-settings.md#forward-email)
 
 ## 2022年4月 {#april-2022}

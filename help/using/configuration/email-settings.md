@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 90%
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 メッセージプリセットの専用セクションでメール設定を定義します。メッセージプリセットを作成する方法については、[この節](message-presets.md)を参照してください。
 
-![](assets/preset-email.png)
+![](assets/preset-email-settings.png)
 
 ## メールのタイプ {#email-type}
 

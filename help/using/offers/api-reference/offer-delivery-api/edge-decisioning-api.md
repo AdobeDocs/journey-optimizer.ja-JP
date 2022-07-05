@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1054'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Platform Web SDK を使用してパーソナライズされたオファーを配
 
 >[!NOTE]
 >
->現在、Adobe Experience Platform Web SDK での意思決定管理は、一部のユーザーに対する早期アクセスで利用いただけます。この機能は、一部の組織ではご利用いただけきません。
+>Adobe Experience Platform Web SDK での決定管理の使用は、一連の組織（限定提供）でのみ使用できます。 この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 

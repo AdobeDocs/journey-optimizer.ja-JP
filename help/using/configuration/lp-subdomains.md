@@ -4,10 +4,10 @@ description: Journey Optimizer でランディングページのサブドメイ�
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 91%
+source-wordcount: '737'
+ht-degree: 89%
 
 ---
 
@@ -59,9 +59,7 @@ ht-degree: 91%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   同じ親ドメインの複数のデリゲートサブドメインを使用することはできません。 例えば、&#39;marketing1.yourcompany.com&#39;がランディングページのAdobeに既に委任されている場合、&#39;marketing2.yourcompany.com&#39;を使用することはできません。 ただし、ランディングページでは複数レベルのサブドメインがサポートされているので、「email.marketing1.yourcompany.com」を使用できます。
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   同じ親ドメインの複数のデリゲートサブドメインを使用することはできません。 例えば、&#39;marketing1.yourcompany.com&#39;がランディングページのAdobeに既に委任されている場合、&#39;marketing2.yourcompany.com&#39;を使用することはできません。 ただし、ランディングページで複数レベルのサブドメインがサポートされている場合は、「marketing1.yourcompany.com」のサブドメイン（「email.marketing1.yourcompany.com」など）または別の親ドメインを使用して続行できます。
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ ht-degree: 91%
    >[!NOTE]
    >
    >ランディングページでは、複数レベルのサブドメインがサポートされます。 例えば、「email.marketing.yourcompany.com」を使用できます。
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. DNS サーバーに配置するレコードが表示されます。このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインをホストするソリューションに移動し、一致する DNS レコードを生成します。
 

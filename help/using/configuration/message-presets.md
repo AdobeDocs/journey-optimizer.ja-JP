@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 98%
+source-wordcount: '1537'
+ht-degree: 95%
 
 ---
 
@@ -49,11 +49,25 @@ ht-degree: 98%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. **メール**&#x200B;の設定を行います。[詳細情報](#configure-email-settings)
+1. 選択した **[!UICONTROL 電子メール]** チャネルで、 [この節](email-settings.md).
 
-1. **プッシュ通知**&#x200B;の設定を行います。[詳細情報](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. 設定 **SMS** 設定。 [詳細情報](sms-configuration.md)
+1. 選択した **[!UICONTROL プッシュ通知]** チャネル、少なくとも 1 つのプラットフォーム (**iOS** および/または **Android**) をクリックし、各プラットフォームで使用するモバイルアプリケーションを選択します。
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >プッシュ通知を送信する環境の設定方法については、[この節](push-gs.md)を参照してください。
+
+1. 選択した **[!UICONTROL SMS]** チャネルで、 [この節](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >SMS メッセージを送信する環境の設定方法については、[この節](sms-configuration.md)を参照してください。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
 
@@ -86,42 +100,6 @@ ht-degree: 98%
 1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
    ![](assets/preset-active.png)
-
-## メール設定 {#configure-email-settings}
-
-メール設定は、メッセージプリセット設定の専用のセクションで定義します。
-
-![](assets/preset-email.png)
-
-[この節](email-settings.md)で説明している通り、設定します。
-
-## プッシュ設定 {#configure-push-settings}
-
-プッシュ設定は、メッセージプリセット設定の専用のセクションで定義します。
-
-メッセージプリセットに関連付けられたプッシュ設定を定義するには、次の手順に従います。
-
-1. 少なくとも 1 つのプラットフォーム（**iOS**、**Android** もしくは両方）を選択します。
-
-1. 各プラットフォームで使用するモバイルアプリケーションを選択します。
-
-![](assets/preset-push.png)
-
-プッシュ通知を送信する環境の設定方法については、[この節](../configuration/push-gs.md)を参照してください。
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## メッセージプリセットの監視 {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ ht-degree: 98%
 >
 >編集するフィールドが「**[!UICONTROL 説明]**」、「**[!UICONTROL メールタイプ]**」または「**[!UICONTROL メールの再試行パラメーター]**」のみの場合、更新は即時に行われます。
 
+### 更新の詳細 {#update-details}
+
 ステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;のメッセージプリセットの場合は、更新内容の詳細を確認できます。それには、以下の手順を実行します。
 
 * アクティブなプリセットの名前の横に表示されている「**[!UICONTROL 最新の更新]**」アイコンをクリックします。
@@ -209,7 +189,7 @@ ht-degree: 98%
 
 各ステータスについて以下で詳しく説明します。
 
-### 処理中
+#### 処理中
 
 いくつかの配信品質チェックが実行されて、プリセットが正しく更新されたかどうかが検証されます。
 
@@ -231,13 +211,13 @@ ht-degree: 98%
 >
 >更新中は、メッセージプリセットを変更できません。名前はクリックできますが、フィールドはすべて灰色表示になっています。変更は、更新が正常に完了するまで反映されません。
 
-### 成功 {#success}
+#### 成功 {#success}
 
 検証プロセスが正常に完了すると、このプリセットを使用するすべてのメッセージで、新しいバージョンのプリセットが自動的に使用されます。ただし、次の待機時間が必要になることがあります。
 * 単一メッセージで使用されるまでに数分間
 * バッチメッセージで有効になるには、そのプリセットの次のバッチまで
 
-### 失敗 {#failed}
+#### 失敗 {#failed}
 
 検証プロセスが失敗した場合は、古いバージョンのプリセットが引き続き使用されます。
 
