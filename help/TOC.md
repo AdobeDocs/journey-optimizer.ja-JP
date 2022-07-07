@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 97%
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [ガードレール](using/start/guardrails.md)
 + キャンペーン {#campaigns}
-   + [キャンペーンの概要](using/campaigns/get-started-with-campaigns.md)
+   + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
    + [キャンペーンの変更または停止](using/campaigns/modify-stop-campaign.md)
    + レポート {#reports}
       + [キャンペーンのライブレポート](using/campaigns/campaign-live-report.md)
-      + [キャンペーングローバルレポート](using/campaigns/campaign-global-report.md)
+      + [キャンペーンのグローバルレポート](using/campaigns/campaign-global-report.md)
 + メッセージ {#messages}
    + [メッセージの基本を学ぶ](using/messages/get-started-content.md)
    + [メールの作成](using/messages/create-email.md)
@@ -124,7 +124,7 @@ ht-degree: 97%
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
-      + [別のサンドボックスにジャーニーをコピーする](using/building-journeys/copy-to-sandbox.md)
+      + [ジャーニーのコピー 別のサンドボックスに](using/building-journeys/copy-to-sandbox.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
    + アクティビティ {#about-journey-building}
       + [ジャーニーアクティビティについて](using/building-journeys/about-journey-activities.md)
