@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 1b181ae4330f0efe209944980344c6726e8d595c
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -36,8 +36,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL プレースメントを作成]**」をクリックします。
 
-   !![](../assets/offers
-_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. プレースメントのプロパティを定義します。
 
