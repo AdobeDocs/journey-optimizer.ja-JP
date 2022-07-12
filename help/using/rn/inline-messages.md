@@ -1,34 +1,34 @@
 ---
-title: ジャーニーインラインオーサリングへの移行
+title: ジャーニーインラインオーサリングに移行
 description: メッセージの移行方法を説明します。
-hide: true
-hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: cf6cdd7c555bd3480e0defce450883bbd4e660dd
+source-git-commit: cddee8d37e53c3bc6fa662143c3751f35b5e764f
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 83%
+source-wordcount: '277'
+ht-degree: 61%
 
 ---
 
-# ジャーニーインラインオーサリングへの移行{#inline-authoring}
 
+# インラインオーサリングの移行の概要{#inline-authoring}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
 >title="新しいインラインオーサリングメッセージの詳細を学ぶ"
->abstract="Journey Optimizer の 2022年7月リリースより、メッセージはジャーニーから直接作成されます。既存のメッセージは、新しいモデルに自動的に移行されます。移行後には、追加のアクションが必要になります。"
+>abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 既存のメッセージは、新しいモデルに自動的に移行されます。移行後には、追加のアクションが必要になります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="移行手順"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="状況を把握する"
->abstract="Journey Optimizer の 2022年7月リリースより、メッセージはジャーニーから直接作成されます。お使いの環境を移行中です。移行後には、追加のアクションが必要になります。"
-
+>abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 お使いの環境を移行中です。移行後には、追加のアクションが必要になります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="移行手順"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="メッセージの移行方法を説明します。"
->abstract="Journey Optimizer の 2022年7月リリースより、メッセージはジャーニーから直接作成されます。既存のメッセージは、新しいモデルに移行されました。ジャーニーの実践者は、追加のアクションが必要になりました。"
+>abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 既存のメッセージは、新しいモデルに移行されました。ジャーニーの実践者は、追加のアクションが必要になりました。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="移行手順"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
