@@ -4,10 +4,10 @@ description: メッセージの移行方法を説明します。
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
+source-git-commit: cf6cdd7c555bd3480e0defce450883bbd4e660dd
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 87%
+source-wordcount: '260'
+ht-degree: 83%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 87%
 >id="ajo_messages_depecrated_inventory"
 >title="メッセージの移行方法を説明します。"
 >abstract="2022 年 7 月 25 日以降、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージが作成されます。 従来のメッセージをジャーニーで再利用する場合は、テンプレートとして保存する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="メッセージをテンプレートとして保存"
 
 Adobe Journey Optimizer は、Journey Optimizer が配信するチャネル（メール、プッシュ、SMS など）に関する実践者のエクスペリエンスを改善する新機能をリリースします。この機能を使用するには、メッセージを使用している既存のジャーニーを移行する必要があります。
 
