@@ -4,8 +4,8 @@ description: メッセージの移行方法を説明します。
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: cddee8d37e53c3bc6fa662143c3751f35b5e764f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 61%
 
 ---
 
