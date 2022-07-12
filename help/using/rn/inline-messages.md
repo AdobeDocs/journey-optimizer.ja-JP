@@ -2,7 +2,7 @@
 title: ジャーニーインラインオーサリングに移行
 description: メッセージの移行方法を説明します。
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 5%
@@ -114,8 +114,8 @@ GA（7 月 25 日）では、この新しいユーザーフローは、すべて
 
 移行は、夜間に各地域に対して数回繰り返し実行されます。 移行タイムラインを次に示します。
 
-* 2002 年 7 月 25 日：GA — 第 1 イテレーション
-* 2002 年 8 月 1 日：第 2 反復
+* 2022 年 7 月 26 日：GA — 第 1 イテレーション
+* 2022 年 8 月 1 日：第 2 反復
 * 2022 年 9 月 6 日：3 番目の反復
 * 2022 年 9 月 7 日：廃止
 
