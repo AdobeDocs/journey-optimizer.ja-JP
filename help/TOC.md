@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ebc96f7dfd3f3e4b49e0379904dd2244dda04bc3
+source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1116'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 99%
       + [2022年リリースノート](using/rn/release-notes-2022.md)
       + [2021年リリースノート](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
-   + [メッセージの移行](using/rn/inline-messages.md)
+   + 新しいインラインオーサリング機能 {#inline-authoring}
+      + [移行の概要](using/rn/inline-messages.md)
+      + [移行手順](using/rn/inline-messages-steps.md)
 + はじめに {#get-started}
    + [Journey Optimizer について](using/start/get-started.md)
    + クイックスタート{#quick-start}
