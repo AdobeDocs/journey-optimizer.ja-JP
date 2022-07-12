@@ -1,5 +1,5 @@
 ---
-title: キャンペーングローバルレポート
+title: キャンペーンのグローバルレポート
 description: キャンペーンのグローバルレポートのデータの使用方法を説明します
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 82%
+source-wordcount: '1410'
+ht-degree: 83%
 
 ---
 
-# キャンペーングローバルレポート {#campaign-global-report}
+# キャンペーンのグローバルレポート {#campaign-global-report}
 
 キャンペーンのグローバルレポートには、 **[!UICONTROL グローバル表示]** 」ボタンをクリックします。
 
@@ -205,3 +205,11 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 この&#x200B;**[!UICONTROL 除外された理由]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
 
 **[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**&#x200B;のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
+
+## その他のリソース
+
+* [キャンペーンの基本を学ぶ](get-started-with-campaigns.md)
+* [キャンペーンの作成](create-campaign.md)
+* [API でトリガーされるキャンペーンの作成](api-triggered-campaigns.md)
+* [キャンペーンの変更または停止](modify-stop-campaign.md)
+* [キャンペーンのライブレポート](campaign-live-report.md)

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b1210a562f809d368e251a6652aed9a920436804
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 3%
+source-wordcount: '212'
+ht-degree: 15%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 3%
 キャンペーンの新しいバージョンを変更および作成するには、次の手順に従います。
 
 1. キャンペーンを開き、 **[!UICONTROL キャンペーンを変更]** 」ボタンをクリックします。
-
-   ![](assets/create-campaign-edit.png)
 
 1. キャンペーンの新しいバージョンが作成されます。 ライブバージョンを確認するには、 **[!UICONTROL ライブバージョンを開く]**.
 
@@ -41,8 +39,6 @@ ht-degree: 3%
    >
    >下書きを有効化すると、キャンペーンのライブバージョンが置き換えられます。
 
-   ![](assets/create-campaign-activate-draft.png)
-
 ## キャンペーンを停止 {#stop}
 
 キャンペーンを停止するには、キャンペーンを開いてから **[!UICONTROL キャンペーンを停止]** 」ボタンをクリックします。
@@ -52,3 +48,11 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >キャンペーンを停止すると、読み取り専用モードでのみ使用できるようになります。 再度アクティブ化することも、新しいキャンペーンの作成に使用することもできません。
+
+## その他のリソース
+
+* [キャンペーンの基本を学ぶ](get-started-with-campaigns.md)
+* [キャンペーンの作成](create-campaign.md)
+* [API でトリガーされるキャンペーンの作成](api-triggered-campaigns.md)
+* [キャンペーンのライブレポート](campaign-live-report.md)
+* [キャンペーンのグローバルレポート](campaign-global-report.md)

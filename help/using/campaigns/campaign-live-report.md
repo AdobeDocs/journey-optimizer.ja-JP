@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 82%
+source-wordcount: '711'
+ht-degree: 83%
 
 ---
 
@@ -110,3 +110,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 **[!UICONTROL 送信統計 - 失敗]**&#x200B;ウィジェットには、発生したエラーとバウンスの数が表示されます。
 
 **[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**&#x200B;のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
+
+## その他のリソース
+
+* [キャンペーンの基本を学ぶ](get-started-with-campaigns.md)
+* [キャンペーンの作成](create-campaign.md)
+* [API でトリガーされるキャンペーンの作成](api-triggered-campaigns.md)
+* [キャンペーンの変更または停止](modify-stop-campaign.md)
+* [キャンペーンのグローバルレポート](campaign-global-report.md)

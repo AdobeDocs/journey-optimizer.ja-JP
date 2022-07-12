@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 3%
+source-wordcount: '753'
+ht-degree: 5%
 
 ---
 
@@ -33,20 +33,22 @@ ht-degree: 3%
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. 内 **[!UICONTROL プロパティ]** 「 」セクションで、いつキャンペーンを実行するかを指定します。
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date,
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.-->
+   * **[!UICONTROL 予定]**:すぐに、または指定した日付にキャンペーンを実行します。 スケジュールされたキャンペーンの対象は送信です。 **マーケティング** メッセージを入力します。
+   * **[!UICONTROL API トリガー]**:API 呼び出しを使用してキャンペーンを実行します。 API トリガーキャンペーンは、送信を対象としています **トランザクション** メッセージとは、個人が実行したアクションの後に送信されたメッセージのことです。パスワードのリセット、カードの放棄など [API を使用してキャンペーンをトリガーする方法を説明します](api-triggered-campaigns.md)
 
-1. 内 **[!UICONTROL アクション]** 「 」セクションで、メッセージの送信に使用するチャネルとメッセージの表面（メッセージプリセット）を選択します。
+1. 内 **[!UICONTROL アクション]** 「 」セクションで、メッセージの送信に使用するチャネルとメッセージ表面（メッセージプリセット）を選択し、「 」をクリックします。 **[!UICONTROL 作成]**.
 
    ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >ドロップダウンリストには、キャンペーンのタイプ（マーケティングまたはトランザクション）と互換性のあるメッセージサーフェスのみが表示されます。
 
 1. キャンペーンのタイトルと説明を指定します。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
-
-   ![](assets/create-campaign-properties.png)
 
 1. 内 **[!UICONTROL アクション]** 「 」セクションで、キャンペーンと共に送信するメッセージを設定します。
 
@@ -60,13 +62,11 @@ ht-degree: 3%
 
       トラッキング結果には、キャンペーンが実行されると、キャンペーンレポートからアクセスできるようになります。 [キャンペーンレポートの詳細を説明します](campaign-global-report.md)
 
-      ![](assets/create-campaign-action-properties.png)
-
 1. ターゲットとするオーディエンスを定義します。 これをおこなうには、 **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformセグメントのリストを表示します。 [セグメントの詳細](../segment/about-segments.md)
 
-   ![](assets/create-campaign-audience.png)
-
-   <!--By default, the targeted audience for in-app messages includes all the users of the selected mobile application.-->
+   >[!NOTE]
+   >
+   >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを介して設定する必要があります。 [詳細情報](api-triggered-campaigns.md)
 
    内 **[!UICONTROL ID 名前空間]** 「 」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。 [名前空間の詳細を説明します](../event/about-creating.md#select-the-namespace)
 
@@ -74,18 +74,19 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >異なる ID の中で選択された ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットにされません。 <!--info vue dans section journeys, read segment-->
+   >異なる ID の中で選択された ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットにされません。
 
-   <!--If you are creating a campaign to send an in-app message, you can choose how and when the message will be shown to the audience using existing mobile app triggers.-->
-   <!-- where are triggers configured?-->
+1. キャンペーンの開始日と終了日を設定します。 デフォルトでは、キャンペーンは、手動でアクティブ化された後に開始し、メッセージが 1 回送信されたときにスーンとして終了するように設定されています。
 
-1. キャンペーンの開始日と終了日を設定します。
+1. さらに、キャンペーンに設定されたアクションの実行頻度を指定できます。
 
-   デフォルトでは、キャンペーンは、手動でアクティブ化された後に開始し、メッセージが 1 回送信されたときにスーンとして終了するように設定されています。
-
-1. さらに、キャンペーンに設定されたアクションの実行頻度を設定できます。
+   >[!NOTE]
+   >
+   >API トリガーキャンペーンの場合、API を介してアクションがトリガーされるので、特定の日時に繰り返しを含むスケジュールは使用できません。 ただし、開始日と終了日は、がウィンドウの後に API 呼び出しがよりも前におこなわれた場合に、それらの呼び出しがエラーになることを確認するのに関連しています。
 
    ![](assets/create-campaign-schedule.png)
+
+1. API トリガーキャンペーンを作成している場合、 **[!UICONTROL cURL リクエスト]** 「 」セクションでは、 **[!UICONTROL キャンペーン ID]** を API 呼び出しで使用する場合に使用します。 [詳細情報](api-triggered-campaigns.md)
 
 キャンペーンの準備が整ったら、レビューおよびパブリッシュできます ( [キャンペーンの確認とアクティブ化](#review-activate)) をクリックします。
 
@@ -124,3 +125,11 @@ ht-degree: 3%
    >[!IMPORTANT]
    >
    >キャンペーンで作成されるメッセージは、次のものに固有です。 [!DNL Journey Optimizer] キャンペーン機能を使用します。 作成すると、キャンペーンからのみアクセス可能になり、 **[!UICONTROL メッセージ]** メニュー
+
+## その他のリソース
+
+* [キャンペーンの基本を学ぶ](get-started-with-campaigns.md)
+* [API でトリガーされるキャンペーンの作成](api-triggered-campaigns.md)
+* [キャンペーンの変更または停止](modify-stop-campaign.md)
+* [キャンペーンのライブレポート](campaign-live-report.md)
+* [キャンペーンのグローバルレポート](campaign-global-report.md)

@@ -1,5 +1,5 @@
 ---
-title: キャンペーンの概要
+title: キャンペーンの基本を学ぶ
 description: キャンペーンの詳細については、 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '313'
+ht-degree: 7%
 
 ---
 
 
-# キャンペーンの概要 {#get-started-campaigns}
+# キャンペーンの基本を学ぶ {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
@@ -24,15 +24,19 @@ ht-degree: 2%
 
 ## キャンペーンについて {#about}
 
-キャンペーンでは、複数のチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。
+キャンペーンでは、複数のチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。 アクションを順に実行するように設計されたジャーニーとは異なり、キャンペーンは、アクションを即座に、または指定したスケジュールで同時に実行します。
 
-アクションを順に実行するように設計されたジャーニーとは異なり、キャンペーンは、アクションを即座に、または指定したスケジュールで同時に実行します。 例えば、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などを配信する場合に使用できます。
+次の 2 種類のキャンペーンを作成できます。
+
+* **予定キャンペーン** プロモーション、エンゲージメントキャンペーン、お知らせ、法律上の注意、ポリシーの更新など、マーケティングの使用例に対するシンプルなアドホックバッチ通信を可能にします。
+* **API トリガーキャンペーン** を使用すると、REST API（パスワードリセット、カードの放棄など）を使用したシンプルなトランザクション/操作可能なメッセージで、プロファイル属性とペイロードのコンテキストデータを使用したパーソナライゼーションが必要になる場合があります。
 
 キャンペーンの操作方法を学ぶ：
 * [キャンペーンの作成](create-campaign.md)
+* [API でトリガーされるキャンペーンの作成](api-triggered-campaigns.md)
 * [キャンペーンの変更または停止](modify-stop-campaign.md)
 * [キャンペーンのライブレポート](campaign-live-report.md)
-* [キャンペーングローバルレポート](campaign-global-report.md)
+* [キャンペーンのグローバルレポート](campaign-global-report.md)
 
 ## キャンペーンへのアクセス {#access}
 
