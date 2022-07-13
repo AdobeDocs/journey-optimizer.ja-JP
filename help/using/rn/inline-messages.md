@@ -2,9 +2,9 @@
 title: ジャーニーインラインオーサリングに移行
 description: メッセージの移行方法を説明します。
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1684'
 ht-degree: 5%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 5%
 >id="ajo_messages_migration_before"
 >title="新しいインラインオーサリングメッセージの詳細を学ぶ"
 >abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 既存のメッセージは、新しいモデルに自動的に移行されます。移行後には、追加のアクションが必要になります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="移行手順"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="移行手順"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="状況を把握する"
 >abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 お使いの環境を移行中です。移行後には、追加のアクションが必要になります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="移行手順"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="移行手順"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="メッセージの移行方法を説明します。"
 >abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 既存のメッセージは、新しいモデルに移行されました。ジャーニーの実践者は、追加のアクションが必要になりました。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="移行手順"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="移行手順"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="メッセージの移行方法を説明します。"
 >abstract="2022 年 7 月 25 日以降、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージが作成されます。 従来のメッセージをジャーニーで再利用する場合は、テンプレートとして保存する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="メッセージをテンプレートとして保存"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template?lang=en" text="メッセージをテンプレートとして保存"
 
 Adobe Journey Optimizerでは、Journey Optimizerチャネル（E メール、プッシュ、SMS）のコンテンツのオーサリング方法を改善する新機能がリリースされます。 Journey Optimizerの実践者は、ジャーニーから直接メッセージを作成し、オーサリングできるようになりました。
 
