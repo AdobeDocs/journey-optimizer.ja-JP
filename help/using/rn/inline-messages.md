@@ -2,10 +2,10 @@
 title: ジャーニーインラインオーサリングに移行
 description: メッセージの移行方法を説明します。
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 5%
+source-wordcount: '1692'
+ht-degree: 4%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="新しいインラインオーサリングメッセージの詳細を学ぶ"
->abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 既存のメッセージは、新しいモデルに自動的に移行されます。移行後には、追加のアクションが必要になります。"
+>title="新しいインラインオーサリング機能の詳細を説明します"
+>abstract="2022 年 7 月 25 日以降、メッセージはジャーニーから直接作成されます。 既存のメッセージは、新しいモデルに自動的に移行されます。現在ジャーニー内でメッセージを使用している場合は、移行後に追加のアクションが必要になります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="移行手順"
 
 >[!CONTEXTUALHELP]
