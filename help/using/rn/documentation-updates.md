@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 97%
+source-wordcount: '1653'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 * 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
 * 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
 * すべてのお客様が送信時間の最適化を利用できるようになりました。 ベータ版のメンションは削除されました。 [詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
-
+* パーソナライズされたオファーを配信するために、バッチ判定 API が使用可能な API のリストに追加されました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022年5月 {#may-2022}
 
@@ -170,3 +170,4 @@ ht-degree: 97%
 * イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。[詳細情報](../offers/get-started/user-interface.md#overview)
 * オファーリストと決定リストから使用できるアクションを説明するために、[オファーリスト](../offers/offer-library/creating-personalized-offers.md#offer-list)と[決定リスト](../offers/offer-activities/create-offer-activities.md#decision-list)の節を新しく追加しました。
+
