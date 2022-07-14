@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >id="ajo_admin_subdomain_lp"
 >title="ランディングページのサブドメインをデリゲート"
 >abstract="ランディングページプリセットを作成するにはこのサブドメインが必要なので、ランディングページで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="ランディングページプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html?lang=ja#lp-create-preset" text="ランディングページプリセットを作成"
 
 [ランディングページプリセットの作成](lp-presets.md)を可能にするには、ランディングページに使用するサブドメインをセットアップする必要があります。
 
@@ -59,7 +59,7 @@ ht-degree: 89%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   同じ親ドメインの複数のデリゲートサブドメインを使用することはできません。 例えば、&#39;marketing1.yourcompany.com&#39;がランディングページのAdobeに既に委任されている場合、&#39;marketing2.yourcompany.com&#39;を使用することはできません。 ただし、ランディングページで複数レベルのサブドメインがサポートされている場合は、「marketing1.yourcompany.com」のサブドメイン（「email.marketing1.yourcompany.com」など）または別の親ドメインを使用して続行できます。
+   同じ親ドメインの複数のデリゲートされたサブドメインを使用することはできないことに注意してください。 例えば、「marketing1.yourcompany.com」が既にランディングページ用にアドビにデリゲートされている場合、「marketing2.yourcompany.com」を使用することはできません。ただし、ランディングページ用に複数レベルのサブドメインがサポートされている場合は、「marketing1.yourcompany.com」のサブドメイン（「email.marketing1.yourcompany.com」など）または別の親ドメインを使用して続行できます。
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >ランディングページでは、複数レベルのサブドメインがサポートされます。 例えば、「email.marketing.yourcompany.com」を使用できます。
+   >ランディングページでは、複数レベルのサブドメインがサポートされています。 例えば、「email.marketing.yourcompany.com」を使用できます。
 
 1. DNS サーバーに配置するレコードが表示されます。このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインをホストするソリューションに移動し、一致する DNS レコードを生成します。
 
