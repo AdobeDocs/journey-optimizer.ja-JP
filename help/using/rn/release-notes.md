@@ -3,9 +3,9 @@ title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerサンドボックスから別のサンドボックスに、例えば非実稼動サンドボックスから実稼動サンドボックスに、エクスペリエンスを再作成できるようになりました。 この新しい機能は、ジャーニー全体をコピーします。ジャーニーが正しく実行するために使用するオブジェクトも含まれます。ある環境から別の環境にコピーされます。 ジャーニーに加えて、オファー、メッセージ、スキーマ、データセット、データソース、イベント、アクションなど、他のコンポーネントをコピーすることもできます。</p>
+<p>Journey Optimizer サンドボックスから別のサンドボックスに（例：非実稼動サンドボックスから実稼動サンドボックスに）、エクスペリエンスを再作成できるようになりました。この新しい機能では、ジャーニーが正しく実行されるために必要なオブジェクトを含め、ジャーニー全体が一方の環境からもう一方の環境にコピーされます。ジャーニーに加えて、オファー、メッセージ、スキーマ、データセット、データソース、イベント、アクションなど、他のコンポーネントもコピーできます。</p>
 <p>詳しくは、 <a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
@@ -149,9 +149,9 @@ ht-degree: 78%
 
 * **トラッキング URL パラメーターのプレビュー** - メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。[詳細情報](../configuration/email-settings.md#url-tracking)
 
-* **メッセージプリセットの編集**  — メッセージプリセットを更新する際、処理時間は最大 3 時間に制限されるようになりました。 [詳細情報](../configuration/message-presets.md#edit-message-preset)
+* **メッセージプリセットの編集** - メッセージプリセットを更新する際、処理時間は最大 3 時間に制限されるようになりました。[詳細情報](../configuration/message-presets.md#edit-message-preset)
 
-* **IP プールのエディション** - IP プールを更新する際、処理時間は最大 3 時間に制限されるようになりました。 [詳細情報](../configuration/ip-pools.md#edit-ip-pool)
+* **IP プールの編集** - IP プールを更新する際、処理時間は最大 3 時間に制限されるようになりました。[詳細情報](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
