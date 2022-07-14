@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,8 +96,8 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。Andr
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
->title="無音の通知について"
->abstract="ユーザーを妨げずに通知を送信すると、通知センターや通知バーに通知が表示されません。"
+>title="サイレント通知について"
+>abstract="ユーザーを煩わせずに通知を送信すると、通知センターや通知バーに通知が表示されません。"
 
 サイレントプッシュ通知（バックグラウンド通知）は、アプリケーションに配信される非表示の命令です。これは、例えば、新しいコンテンツが利用可能であることをアプリケーションに通知したり、バックグラウンドでダウンロードを開始したりする場合に使用します。
 
