@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 ## 2022年7月 {#july-2022}
 
-* この **メッセージプリセットの作成** の節に、SMS チャネルの設定方法を説明するページへのリンクが追加され、明確になり、更新されました。 [詳細情報](../configuration/message-presets.md#create-message-preset)
+* 「**メッセージプリセットの作成**」の節が更新され、より明確になり、SMS チャネルの設定方法を説明するページへのリンクが追加されました。[詳細情報](../configuration/message-presets.md#create-message-preset)
 
 ## 2022年6月 {#june-2022}
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 * 許可リストページが「設定」セクションに移動しました。[詳細情報](../configuration/allow-list.md)
 * 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
 * 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
-* すべてのお客様が送信時間の最適化を利用できるようになりました。 ベータ版のメンションは削除されました。 [詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
+* すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
 * パーソナライズされたオファーを配信するために、バッチ判定 API が使用可能な API のリストに追加されました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022年5月 {#may-2022}

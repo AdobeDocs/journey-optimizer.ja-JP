@@ -127,7 +127,7 @@ ht-degree: 98%
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
-      + [ジャーニーのコピー 別のサンドボックスに](using/building-journeys/copy-to-sandbox.md)
+      + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
    + アクティビティ {#about-journey-building}
       + [ジャーニーアクティビティについて](using/building-journeys/about-journey-activities.md)
