@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '824'
 ht-degree: 8%
 
 ---
 
-# チャネルアクションの概要 {#get-started-messages}
+# メッセージを使い始める {#get-started-messages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"

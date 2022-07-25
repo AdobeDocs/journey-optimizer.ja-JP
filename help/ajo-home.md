@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 83%
+source-wordcount: '401'
+ht-degree: 80%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 83%
     <div>
       <a href="using/messages/get-started-content.md">メッセージの送信</a>
     </div>
-    <p>カスタマージャーニーへのプッシュメッセージおよびメールメッセージの追加方法について説明します
+    <p>カスタマージャーニーにプッシュ、SMS、E メールメッセージを追加する方法を説明します
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">初めてのジャーニーの作成</a>
