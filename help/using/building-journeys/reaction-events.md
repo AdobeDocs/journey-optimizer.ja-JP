@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 このしくみを使用して、メッセージに対する反応がない場合にアクションを実行することもできます。これには、反応アクティビティと並行して 2 つ目のパスを作成し、待機アクティビティを追加します。待機アクティビティで定義した期間に反応がない場合は、2 つ目のパスが選択されます。例えば、フォローアップメッセージを送信することもできます。
 
-キャンバスで反応アクティビティを使用できるのは、事前に&#x200B;**メッセージ**&#x200B;アクティビティがおこなわれている場合のみです。
+キャンバスで反応アクティビティを使用できるのは、その前にチャネルアクションアクティビティがある場合（E メール、プッシュ、SMS）のみです。
 
 [アクションアクティビティについて](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 

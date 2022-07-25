@@ -7,10 +7,11 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 83%
+source-wordcount: '1378'
+ht-degree: 81%
 
 ---
 
@@ -49,8 +50,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## 「メール」タブ {#email-global}
 
 キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL 電子メール]** 「 」タブには、キャンペーンで送信される e メール配信に関する主な情報の詳細が表示されます。
-
-特定のメール配信に関する詳細なレポートについては、[メールのグローバルレポート](../reports/email-global-report.md)のセクションを参照してください。
 
 **[!UICONTROL メール送信統計]**&#x200B;グラフは、成功した配信の詳細を示します。
 
@@ -122,7 +121,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化について詳しくは、この[ページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化の詳細については、 [このページ](../messages/send-time-optimization.md).
 
 この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
 
@@ -138,8 +137,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## 「プッシュ」タブ {#push-global}
 
 キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL プッシュ]** 「 」タブには、キャンペーンで送信されたプッシュ配信に関する主な情報の詳細が表示されます。
-
-特定のプッシュ配信に関する詳細なレポートについては、[プッシュグローバルレポート](../reports/push-global-report.md)を参照してください。
 
 「**[!UICONTROL プッシュ通知 - 送信統計]**」テーブルは、プッシュ通知に関連するメイン情報の詳細をグラフと KPI で示します。
 
@@ -187,7 +184,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化について詳しくは、この[ページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化の詳細については、 [このページ](../messages/send-time-optimization.md).
 
 この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
 

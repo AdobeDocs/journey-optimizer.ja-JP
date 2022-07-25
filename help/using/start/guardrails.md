@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 82%
+source-wordcount: '730'
+ht-degree: 81%
 
 ---
 
@@ -47,10 +47,6 @@ ht-degree: 82%
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
 * 今日のジャーニーには、プロファイルが同じジャーニー内で複数回同時に存在するのを防ぐ技術的な制限があります。 プロファイルは、引き続き（設定に基づいて）ジャーニーに再度エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは再度ジャーニーに進むことはできません。
 * ほとんどの場合、1 つのプロファイルを同じジャーニー内で複数回同時に存在させることはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは再エントリできません。 [詳細情報](../building-journeys/journey-end.md)
-
-### メッセージアクション {#message-action-g}
-
-* マルチチャネルメッセージを追加すると、2 つのメッセージが送信されます。
 
 ### ジャーニーのバージョン {#journey-versions-g}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -186,6 +186,5 @@ ht-degree: 100%
 
 関連トピック：
 
-* [意思決定管理の概要](../offers/get-started/starting-offer-decisioning.md)。
-
-* [パーソナライズされたオファーをメッセージに追加](deliver-personalized-offers.md)。
+* [決定管理の概要](../offers/get-started/starting-offer-decisioning.md)
+* [パーソナライズされたオファーを E メールに追加](deliver-personalized-offers.md)

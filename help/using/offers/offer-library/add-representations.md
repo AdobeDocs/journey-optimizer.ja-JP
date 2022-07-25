@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 80%
 
    ![](../assets/offer-text-content.png)
 
-   式エディターを使用して、コンテンツをパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
+   式エディターを使用して、コンテンツをパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
 
    ![](../assets/offer-personalization.png)
 

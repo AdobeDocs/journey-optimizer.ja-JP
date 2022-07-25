@@ -1,15 +1,15 @@
 ---
 title: BCC メールを使用
-description: メッセージプリセットレベルで BCC メールを設定する方法を学ぶ
+description: チャネルの表面レベルで BCC 電子メールを設定する方法を説明します
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
-workflow-type: ht
-source-wordcount: '1136'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 88%
 
 ---
 
@@ -24,23 +24,23 @@ ht-degree: 100%
 
 ## BCC メールの有効化 {#enable-bcc}
 
-「**[!UICONTROL BCC メール]**」オプションを有効にするには、選択したメールアドレスを専用のフィールドに入力します。アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+を有効にするには、以下を実行します。 **[!UICONTROL BCC 電子メール]** 」オプションを選択し、選択した E メールアドレスを [チャンネル表面](message-presets.md) （例：メッセージプリセット）。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
 
 >[!NOTE]
 >
->BCC に設定できるメールアドレスは 1 つだけです。現在のプリセットを使用して送信されるすべてのメールを保存するのに十分な受信容量が BCC アドレスにあることを確認します。
+>BCC に設定できるメールアドレスは 1 つだけです。BCC アドレスに、現在のチャネルの表面を使用して送信されるすべての E メールを保存するのに十分な受信容量があることを確認します。
 >
 >その他の推奨事項の一覧は、[この節](#bcc-recommendations-limitations)を参照してください。
 
 ![](assets/preset-bcc.png)
 
-このプリセットを使用するすべてのメールメッセージは、入力した BCC メールアドレスにブラインドコピーされます。そこから、外部システムを使用して処理およびアーカイブできます。
+このサーフェスを使用するすべての電子メールメッセージは、入力した BCC 電子メールアドレスにブラインドコピーされます。 そこから、外部システムを使用して処理およびアーカイブできます。
 
 >[!CAUTION]
 >
->BCC 機能の使用状況は、ライセンスを取得したメッセージ数に照らしてカウントされます。したがって、アーカイブする重要な通信に使用されるプリセット内でのみ有効にします。ライセンスを取得したボリュームを契約書で確認します。
+>BCC 機能の使用状況は、ライセンスを取得したメッセージ数に照らしてカウントされます。したがって、アーカイブする重要な通信に使用されるサーフェスでのみ有効にします。 ライセンスを取得したボリュームを契約書で確認します。
 
-BCC メールアドレスの設定は、プリセットレベルで直ちに保存および処理されます。このプリセットを使用して[新しいメッセージを作成](../messages/get-started-content.md#create-new-message)すると、BCC メールアドレスが自動的に表示されます。
+BCC 電子メールアドレスの設定は直ちに保存され、表面レベルで処理されます。 次の場合： [新しいメッセージを作成](../messages/get-started-content.md#create-new-message) この表面を使用すると、BCC 電子メールアドレスが自動的に表示されます。
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ BCC メールアドレスの設定は、プリセットレベルで直ちに保�
 
 >[!NOTE]
 >
->BCC 設定をピックアップするために、メッセージやジャーニーを再公開する必要はありません。
+>BCC 設定を取得するために、ジャーニーを再公開する必要はありません。
 
 ## 推奨事項と制限事項 {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ BCC メールアドレスの設定は、プリセットレベルで直ちに保�
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* BCC アドレスに送信されたメールを開いたり、クリックしたりしないでください。送信分析の合計開封数とクリック数に考慮され、[レポート](../reports/message-monitoring.md)で計算ミスが起きる可能性があります。
+* BCC アドレスに送信されたメールを開いたり、クリックしたりしないでください。送信分析の合計開封数とクリック数に考慮され、[レポート](../reports/global-report.md)で計算ミスが起きる可能性があります。
 
 * BCC インボックスでメッセージをスパムとしてマークしないでください。このアドレスに送信される他のすべてのメールに影響を与えます。
 

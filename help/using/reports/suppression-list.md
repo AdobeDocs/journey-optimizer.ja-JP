@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->「**[!UICONTROL 抑制]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;には、これらのプロファイルがジャーニー（[セグメントを読み取り](../building-journeys/read-segment.md)アクティビティと[メッセージ](../building-journeys/journeys-message.md)アクティビティ）を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
+>「**[!UICONTROL 抑制]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、 **ジャーニーレポート** これらのプロファイルがジャーニーを通じて移動したとして表示されます ([セグメントを読み取り](../building-journeys/read-segment.md) および [メッセージアクティビティ](../building-journeys/journeys-message.md))、 **メールレポート** は、 **[!UICONTROL 送信済み]** 指標は、E メール送信前に除外されるので、ご注意ください。
 >
 >詳しくは、[ライブレポート](../reports/live-report.md)と[グローバルレポート](../reports/global-report.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;} を使用します。
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 97%
 
 ---
 
@@ -28,22 +28,38 @@ ht-degree: 100%
 ➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
-* メールメッセージ。[詳細情報](../messages/get-started-content.md)
-* メールの本文。[詳細情報](../design/create-email-content.md)。
+
 * 単一のイベント。[詳細情報](../event/about-events.md)。
 * イベントで開始されるジャーニー。[詳細情報](../building-journeys/using-the-journey-designer.md)。
+* ジャーニー内の電子メールメッセージ。 [詳細情報](../messages/get-started-content.md)
+* メールの本文。[詳細情報](../design/create-email-content.md)。
 
 次の手順に従います。
+
+1. [最初のイベントとジャーニーを作成します](#create-context)。
 1. [メールメッセージを作成します](#configure-email)。
 1. [顧客の名を大文字で挿入します](#uppercase-function)。
-1. [最初のイベントとジャーニーを作成します](#create-context)。
 1. [カートの内容をメールに追加します](#each-helper)。
 1. [製品固有のメモを挿入します](#if-helper)。
 1. [ジャーニーをテストし公開します](#test-and-publish)。
 
-## 手順 1： メールの作成{#configure-email}
+## 手順 1：最初のイベントと関連ジャーニーの作成 {#create-context}
 
-1. メールメッセージを作成または変更したあと、「**[!UICONTROL E メールデザイナー]**」をクリックします。
+カートの内容は、ジャーニーからのコンテキスト情報です。したがって、カート固有の情報をメールに追加する前に、最初のイベントとメールをジャーニーに追加する必要があります。
+
+1. スキーマに `productListItems` 配列が含まれるイベントを作成します。
+1. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
+
+   製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+
+1. このイベントで開始されるジャーニーを作成します。
+1. を追加します。 **電子メール** アクティビティをジャーニーに追加します。
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## 手順 2： メールの作成{#configure-email}
+
+1. 内 **電子メール** アクティビティ、クリック **[!UICONTROL コンテンツを編集]**&#x200B;を選択し、「 **[!UICONTROL メールデザイナー]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. E メールデザイナーホームページの左側のパレットから、3 つの構造コンポーネントをメッセージの本文にドラッグ＆ドロップします。
@@ -52,7 +68,7 @@ ht-degree: 100%
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## 手順 2： 顧客の名（大文字）の挿入 {#uppercase-function}
+## 手順 3： 顧客の名（大文字）の挿入 {#uppercase-function}
 
 1. E メールデザイナーのホームページで、顧客の名を追加する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
@@ -93,33 +109,9 @@ ht-degree: 100%
    ![](assets/personalization-uc-helpers-6.png)
 1. メッセージを保存します。
 
-## 手順 3：最初のイベントと関連ジャーニーの作成 {#create-context}
-
-カートの内容は、ジャーニーからのコンテキスト情報です。したがって、カート固有の情報をメールに追加する前に、最初のイベントとメールをジャーニーに追加する必要があります。
-
-1. スキーマに `productListItems` 配列が含まれるイベントを作成します。
-1. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
-
-   製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-
-1. このイベントで開始されるジャーニーを作成します。
-1. ジャーニーにメッセージを追加します。
-
-   メッセージをまだ公開していないので、ジャーニーをテストすることも公開することもできません。
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. 「**[!UICONTROL OK]**」をクリックします。
-
-   ジャーニーのコンテキストがメッセージに渡されたことを示すメッセージが表示されます。
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## 手順 4：カート内の商品リストの挿入 {#each-helper}
 
-1. メッセージを再度開きます。
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. メッセージコンテンツを再度開きます。
 
 1. E メールデザイナーのホームページで、カートの内容を一覧表示する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
@@ -295,18 +287,15 @@ ht-degree: 100%
       {%/if%}
       ```
    1. 式から「default_render」プレースホルダーを削除します。
-1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
+1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. メッセージを保存して公開します。
+1. メッセージを保存します。
 
 ## 手順 6：ジャーニーのテストと公開 {#test-and-publish}
 
-1. ジャーニーを開きます。ジャーニーが既に開いている場合は、ページの表示を更新します。
 1. 「**[!UICONTROL テスト]**」トグルをオンにしてから、「**[!UICONTROL イベントをトリガー]**」をクリックします。
-
-   テストモードは、メッセージを公開した後でのみ有効にできます。
 
    ![](assets/personalization-uc-helpers-15.png)
 

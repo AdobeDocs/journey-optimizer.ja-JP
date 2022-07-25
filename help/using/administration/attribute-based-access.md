@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
-source-wordcount: '993'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '991'
+ht-degree: 96%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer では、ABAC を使用することで、データを保
 **[!UICONTROL 役割]**&#x200B;は、組織内で同じ権限、ラベル、サンドボックスを共有するユーザーの集まりです。 ある&#x200B;**[!UICONTROL 役割]**に属する各ユーザーには、製品に含まれる Adobe のアプリとサービスに対する権限が付与されます。
 独自の**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトに対するユーザーのアクセスを微調整することもできます。
 
-ここでは、特定のユーザーに、「C2」というラベルの付いた&#x200B;**国籍**&#x200B;フィールドへのアクセス権を付与します。これをおこなうには、特定のユーザーの集まりで新しい&#x200B;**[!UICONTROL 役割]**&#x200B;を作成し、C2 ラベルを付与して、**[!UICONTROL メッセージ]**&#x200B;または&#x200B;**[!UICONTROL ジャーニー]**&#x200B;の&#x200B;**国籍**&#x200B;詳細を使用できるようにする必要があります。
+ここでは、特定のユーザーに、「C2」というラベルの付いた&#x200B;**国籍**&#x200B;フィールドへのアクセス権を付与します。これをおこなうには、新しい **[!UICONTROL 役割]** を設定し、C2 ラベルを付与して、 **国籍** 詳細 **[!UICONTROL ジャーニー]**.
 
 1. [!DNL Permissions] 製品で、左側のパネルのメニューから「**[!UICONTROL 役割]**」を選択し、「**[!UICONTROL 役割を作成]**」をクリックします。**[!UICONTROL ラベル]**&#x200B;は、組み込みの役割に追加することもできます。
 

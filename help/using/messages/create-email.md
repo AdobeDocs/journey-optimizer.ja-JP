@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 21%
 
 ---
 
@@ -20,22 +20,39 @@ ht-degree: 100%
 >title="メールの作成"
 >abstract="メールのパラメーターを 3 つの簡単な手順で定義します。"
 
-[メッセージを作成](get-started-content.md)したら、「**[!UICONTROL E メール]**」タブを使用して、E メールチャネルの設定と内容を定義します。
 
-![](assets/emails-configuration.png)
+一度 [電子メールを追加しました](get-started-content.md) ジャーニー内 <!--or a campaign--> を設定し、基本的な設定を定義したら、e メールを設定して、そのコンテンツを定義できます。
+
+## E メールコンテンツを定義{#email-content}
+
+次をクリック： **[!UICONTROL コンテンツを編集]** ボタンをクリックして、E メールをデザインします。
+
+![](assets/email-edit-content.png)
+
+用途 [!DNL Journey Optimizer] メールデザイナーの宛先 [メールをゼロからデザインする](../design/create-email-content.md). 既存のコンテンツがある場合は、 [E メールデザイナーに読み込む](../design/existing-content.md)または [独自のコンテンツをコーディング](../design/code-content.md) in [!DNL Journey Optimizer].
+
+[!DNL Journey Optimizer] 一連の [ビルトインテンプレート](../design/email-templates.md) 足を止めるために どの電子メールもテンプレートとして保存できます。
+
+電子メールデザインの詳細 [この節](../design/design-emails.md).
+
+用途 [!DNL Journey Optimizer] 式エディターを使用して、プロファイルのデータを使用してメッセージをパーソナライズします。 パーソナライズ機能について詳しくは、[この節](../personalization/personalize.md)参照してください。
+
+## E メールトラッキング{#email-tracking}
+
+リンクの開封やクリックを通じて受信者の行動を追跡する場合は、次のオプションを有効にします。 **[!UICONTROL メール開封数]** および **[!UICONTROL メールをクリック]**. トラッキングの詳細については、[この節](../design/message-tracking.md)を参照してください。
+
+
+## E メールコンテンツの検証{#email-content-validate}
+
+左側のプレビューセクションを使用して、E メールのレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。 詳しくは、[この節](../design/preview.md)を参照してください。
+
+![](assets/messages-simple-preview.png)
+
+
+また、エディターの上部セクションでアラートを確認する必要があります。  単純な警告もありますが、メッセージの使用を妨げる可能性もあります。 詳しくは、[この節](alerts.md)を参照してください。
+
 
 >[!NOTE]
 >
->「**[!UICONTROL 送信元メール]**」と「**[!UICONTROL 送信者名]**」は読み取り専用であり、[メッセージの作成](get-started-content.md)時に選択した&#x200B;**[!UICONTROL プリセット]**&#x200B;によって決定されます。
+>この **[!UICONTROL 送信元メール]** および **[!UICONTROL 送信者名]** は、 **[!UICONTROL サーフェス]** が選択された回数： [メッセージの作成](get-started-content.md).
 
-メールの設定手順は次のとおりです。
-
-1. メールの件名を「**[!UICONTROL 件名]**」フィールドに入力します。右側のボタンをクリックして式エディターを開き、メールの件名を作成します。パーソナライゼーションの追加方法については、[この節](../personalization/personalize.md)を参照してください。
-
-1. 「**[!UICONTROL E メールデザイナー]**」をクリックして、メールをデザインします。メールのデザイン方法については、[この節](../design/design-emails.md)を参照してください。
-
-1. 受信者の動作を開封数やリンクのクリック数で追跡する場合、「**[!UICONTROL メールの開封トラッキング]**」オプションと「**[!UICONTROL メールのクリックトラッキング]**」オプションが有効になっていることを確認します。トラッキングの詳細については、[この節](../design/message-tracking.md)を参照してください。
-
->[!NOTE]
->
->マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](consent.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[メッセージプリセットレベル](../configuration/message-presets.md#email-type)で、また[メッセージの作成](get-started-content.md#create-new-message)時に定義されます。

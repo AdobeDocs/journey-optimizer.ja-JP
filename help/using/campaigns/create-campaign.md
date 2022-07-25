@@ -7,21 +7,21 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '727'
 ht-degree: 5%
 
 ---
-
 
 # キャンペーンの作成 {#create-campaign}
 
 >[!NOTE]
 >
->新しいキャンペーンを作成する前に、メッセージプリセットとAdobe Experience Platformセグメントが使用できる状態になっていることを確認します。 詳しくは、次の節を参照してください。
+>新しいキャンペーンを作成する前に、サーフェスチャネル（例：メッセージプリセット）とAdobe Experience Platformセグメントを使用できる状態にしておく必要があります。 詳しくは、次の節を参照してください。
 >
->* [メッセージプリセットの作成](../configuration/message-presets.md)
+>* [チャネルサーフェスの作成](../configuration/message-presets.md)
 >* [セグメントの基本を学ぶ](../segment/about-segments.md)
 
 
@@ -38,13 +38,13 @@ ht-degree: 5%
    * **[!UICONTROL 予定]**:すぐに、または指定した日付にキャンペーンを実行します。 スケジュールされたキャンペーンの対象は送信です。 **マーケティング** メッセージを入力します。
    * **[!UICONTROL API トリガー]**:API 呼び出しを使用してキャンペーンを実行します。 API トリガーキャンペーンは、送信を対象としています **トランザクション** メッセージとは、個人が実行したアクションの後に送信されたメッセージのことです。パスワードのリセット、カードの放棄など [API を使用してキャンペーンをトリガーする方法を説明します](api-triggered-campaigns.md)
 
-1. 内 **[!UICONTROL アクション]** 「 」セクションで、メッセージの送信に使用するチャネルとメッセージ表面（メッセージプリセット）を選択し、「 」をクリックします。 **[!UICONTROL 作成]**.
+1. 内 **[!UICONTROL アクション]** 「 」セクションで、メッセージの送信に使用するチャネルとチャネルサーフェスを選択し、「 」をクリックします。 **[!UICONTROL 作成]**.
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >ドロップダウンリストには、キャンペーンのタイプ（マーケティングまたはトランザクション）と互換性のあるメッセージサーフェスのみが表示されます。
+   >ドロップダウンリストには、キャンペーンのタイプ（マーケティングまたはトランザクション）と互換性のあるチャネルサーフェスのみが表示されます。
 
 1. キャンペーンのタイトルと説明を指定します。
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 1. 内 **[!UICONTROL アクション]** 「 」セクションで、キャンペーンと共に送信するメッセージを設定します。
 
-   1. 次をクリック： **[!UICONTROL コンテンツを編集]** ボタンをクリックし、メッセージを設定およびデザインします。 [メッセージの設定方法を説明します](../messages/get-started-content.md).
+   1. 次をクリック： **[!UICONTROL コンテンツを編集]** ボタンをクリックし、メッセージコンテンツを設定およびデザインします。 [メッセージの詳細情報](../messages/get-started-content.md)。
 
       コンテンツの準備が整ったら、矢印をクリックしてキャンペーンの作成画面に戻ります。
 
@@ -121,10 +121,6 @@ ht-degree: 5%
    また、 **[!UICONTROL レポート]** 」ボタンをクリックします。 [詳細情報](campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-   >[!IMPORTANT]
-   >
-   >キャンペーンで作成されるメッセージは、次のものに固有です。 [!DNL Journey Optimizer] キャンペーン機能を使用します。 作成すると、キャンペーンからのみアクセス可能になり、 **[!UICONTROL メッセージ]** メニュー
 
 ## その他のリソース
 

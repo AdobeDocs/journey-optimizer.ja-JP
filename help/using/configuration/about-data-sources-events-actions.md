@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## アクション {#actions}
 
-Journey Optimizer にはメッセージ機能があらかじめ組み込まれているので、コンテンツをデザインし、メッセージを公開するだけで済みます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細](../../using/action/action.md)
+Journey Optimizerメッセージ機能は次の組み込み機能です。必要なのは、ジャーニーにチャネルアクションアクティビティを追加することだけです。 サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細](../../using/action/action.md)
 
 ## Adobe Experience Platform フィールドの参照 {#friendly-names-display}
 

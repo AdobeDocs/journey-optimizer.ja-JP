@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 98%
    + [メールの作成](using/messages/create-email.md)
    + [プッシュ通知の作成](using/messages/create-push.md)
    + [SMS メッセージの作成](using/messages/create-sms.md)
-   + 検証と公開 {#validate}
-      + [アラートの確認](using/messages/alerts.md)
-      + [メッセージの公開](using/messages/publish-manage-message.md)
+   + [アラートの確認](using/messages/alerts.md)
    + [同意の管理](using/messages/consent.md)
+   + [送信時間の最適化](using/messages/send-time-optimization.md)
 + コンテンツのデザイン {#design}
    + [メールデザインの基本を学ぶ](using/design/design-emails.md)
    + [ゼロからの開始 ](using/design/create-email-content.md)
@@ -138,7 +137,7 @@ ht-degree: 98%
       + [終了](using/building-journeys/end-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
-      + [メッセージ](using/building-journeys/journeys-message.md)
+      + [メール、SMS、プッシュ](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
@@ -238,19 +237,14 @@ ht-degree: 98%
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
 + トラッキングとモニタリング {#reporting}
-   + [メッセージのモニタリング](using/reports/message-monitoring.md)
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
-      + [メールライブレポート](using/reports/email-live-report.md)
-      + [プッシュライブレポート](using/reports/push-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートダッシュボードへのアクセス](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
-      + [メールグローバルレポート](using/reports/email-global-report.md)
-      + [プッシュグローバルレポート](using/reports/push-global-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
       + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
    + ジャーニーレポート {#reports}
@@ -386,8 +380,8 @@ ht-degree: 98%
             + [再試行](using/configuration/retries.md)
             + [許可リスト](using/configuration/allow-list.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
-      + メッセージプリセットの設定 {#set-up-message-presets}
-         + [メッセージプリセットの作成](using/configuration/message-presets.md)
+      + チャネルサーフェスを設定する {#set-up-message-presets}
+         + [チャネルサーフェスの作成](using/configuration/message-presets.md)
          + [メール設定](using/configuration/email-settings.md)
          + [BCC メールを使用](using/configuration/bcc-email.md)
       + [実行アドレスを管理](using/configuration/primary-email-addresses.md)

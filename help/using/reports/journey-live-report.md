@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
 # ジャーニーライブレポート {#journey-live-report}
 
-ジャーニーライブレポートは、「**[!UICONTROL ライブレポート]**」ボタンを使用して、ジャーニーから直接アクセスできます。
+ジャーニーのライブレポートには、 **[!UICONTROL レポートを表示]** 」ボタンをクリックします。
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;ページは次のタブで表示されます。
 
@@ -44,8 +44,6 @@ ht-degree: 100%
 
 * **[!UICONTROL 失敗した個別のジャーニー]**：正常に実行されなかった個別のジャーニーの総数。
 
-![](assets/report_journey_3.png)
-
 「**[!UICONTROL 過去 24 時間以内に実行されたイベント]**」ウィジェットと「**[!UICONTROL イベント]**」ウィジェットを使用すると、どのイベントが正常に実行されたかをサマリー番号、グラフおよびテーブルから確認できます。
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ ht-degree: 100%
 ## 「メール」タブ  {#email-live}
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、ジャーニーで送信されるメール配信に関連する主な情報の詳細が表示されます。
-
-特定のメール配信に関する詳細なレポートについては、[メールライブレポート](email-live-report.md)の節を参照してください。
 
 ![](assets/report_email_1.png)
 
@@ -80,7 +76,7 @@ ht-degree: 100%
 
 * **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
@@ -124,19 +120,17 @@ ht-degree: 100%
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ]**」タブには、ジャーニーで送信されたプッシュ配信に関連する主な情報の詳細が表示されます。
 
-特定のプッシュ配信に関する詳細なレポートについては、[プッシュライブレポート](push-live-report.md)の節を参照してください。
-
 ![](assets/report_push_1.png)
 
 **[!UICONTROL プッシュ通知の送信パフォーマンス]**、 **[!UICONTROL プッシュ通知の概要]**&#x200B;および&#x200B;**[!UICONTROL 送信指標（プッシュ別）]**&#x200B;の各ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 
-* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
 * **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
 * **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 

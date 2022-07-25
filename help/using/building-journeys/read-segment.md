@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 100%
+source-wordcount: '1135'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="「セグメントを読み取り」アクティビティ"
 >abstract="セグメントの読み取りアクティビティを使用すると、Adobe Experience Platform セグメントに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回きりと定期的のいずれも可能です。"
 
-セグメントの読み取りアクティビティを使用すると、Adobe Experience Platform セグメントに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回きりと定期的のいずれも可能です。
+以下を使用： **セグメントを読み取り** 「 」アクティビティを使用して、セグメントのすべての個人をジャーニーにエントリさせることができます。 ジャーニーへのエントリは、1 回きりと定期的のいずれも可能です。
 
 例として、[セグメントの作成](../segment/about-segments.md)のユースケースで作成した「Luma アプリのオープンとチェックアウト」セグメントを見てみましょう。セグメントの読み取りアクティビティを使用すると、このセグメントに属するすべての個人をジャーニーがエントリし、すべてのジャーニー機能 （条件、タイマー、イベント、アクション）を活用したカスタムジャーニーの流れに沿うようにします。
 

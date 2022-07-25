@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>7 月 25 日に、Adobe Journey Optimizerは [新機能](using/rn/inline-messages.md) これにより、Journey Optimizerチャネル（E メール、プッシュ、SMS）のコンテンツを作成する方法が向上します。 Journey Optimizerの開業医として、今は [作成および作成](using/messages/get-started-content.md) メッセージをジャーニーから直接送信します。 ジャーニーの自動コンバージョンが実行されます。 しかし、いくつかの手順に関して、皆様のご協力が必要となります。 詳しくは、 [必須手順](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +54,7 @@ ht-degree: 100%
     新しいメールの設計または既存の HTML コンテンツのインポートについて説明します
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">メッセージの送信</a>
+      <a href="using/messages/get-started-content.md">メッセージの送信</a>
     </div>
     <p>カスタマージャーニーへのプッシュメッセージおよびメールメッセージの追加方法について説明します
     <p>
@@ -114,9 +118,6 @@ ht-degree: 100%
     <p>ジャーニー管理</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">ジャーニー</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">メッセージ</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">ランディングページ</a>

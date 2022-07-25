@@ -3,10 +3,10 @@ title: Journey Optimizer の基本を学ぶ（システム管理者向け）
 description: システム管理者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 98%
+source-wordcount: '729'
+ht-degree: 89%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 1. **製品プロファイルを把握**&#x200B;します。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにするための単一権限のセットです。詳しくは、[標準の製品プロファイル](../../administration/ootb-product-profiles.md)の節を参照してください。
 
-1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){_blank} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当する、ジャーニー、メッセージ、オファーなどの機能の下に集約されています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
+1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){_blank} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、機能 ( 例： [!DNL Journey Optimizer]. 詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
 
 さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials Consumer Users** または／および **Assets Essentials Users** の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
@@ -37,18 +37,18 @@ ht-degree: 98%
 
 [!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
-ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]**&#x200B;メニューを参照して、メールメッセージとプリセットを設定します。
+ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。次を参照： **[!UICONTROL チャネル]** メニューを使用して、メッセージとサーフェス（つまりプリセット）を設定します。
 
 >[!NOTE]
 >**システム管理者**&#x200B;の場合、**[!UICONTROL チャネル]**&#x200B;メニューが [!DNL Journey Optimizer] に表示されなければ、[Admin Console](https://adminconsole.adobe.com/){_blank} で権限を更新します。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
 
 以下の手順に従います。
 
-1. **メッセージとチャネルを設定**：プリセットを定義し、メールおよびプッシュメッセージの設定を調整しカスタマイズします。
+1. **メッセージとチャネルの設定**:表面の定義、電子メールおよびプッシュメッセージの設定の調整とカスタマイズ
 
    * [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方で、**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../configuration/push-gs.md)
 
-   * およ&#x200B;**メッセージプリセット**&#x200B;を作成して、メールおよびプッシュ通知メッセージに必要なすべてのテクニカルパラメーターを設定します。[詳細情報](../../configuration/message-presets.md)
+   * 作成 **チャンネルサーフェス** （例：メッセージプリセット）電子メールおよびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/message-presets.md)
 
    * の設定 **SMS チャネル** :SMS に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/sms-configuration.md)
 

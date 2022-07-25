@@ -3,13 +3,13 @@ title: API を使用したトリガーキャンペーン
 description: を使用してキャンペーンをトリガー化する方法を説明します。 [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 3%
 
 ---
-
 
 # API を使用したトリガーキャンペーン {#trigger-campaigns}
 
@@ -33,7 +33,7 @@ API トリガーキャンペーンを作成するには、次の手順に従い�
 
 1. 新しいキャンペーンを作成し、 **[!UICONTROL API トリガー]** タイプ。
 
-1. メッセージの送信に使用するチャネルとメッセージ表面を選択し、「 **[!UICONTROL 作成]**.
+1. メッセージの送信に使用するチャネルとチャネルサーフェスを選択し、「 **[!UICONTROL 作成]**.
 
    ![](assets/api-triggered-type.png)
 

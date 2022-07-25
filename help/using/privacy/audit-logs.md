@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Journey Optimizer を使用すると、ジャーニー、メッセージ、ラ�
 | AJO ランディングページプリセット | 作成／削除／更新 |
 | AJO ランディングページサブドメイン | 作成／削除／更新 |
 | AJO メッセージ | 作成／削除／更新／公開 |
-| AJO メッセージプリセット | 作成／削除／更新 |
+| AJO チャネルサーフェス | 作成／削除／更新 |
 | AJO PTR レコード | 作成／削除／更新 |
 | AJO で保存された式テンプレート | 作成／削除／更新 |
 | AJO SMS API 資格情報 | 作成／削除／更新 |

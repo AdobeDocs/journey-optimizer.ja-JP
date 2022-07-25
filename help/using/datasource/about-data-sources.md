@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ➡️ [この機能をビデオで確認](#video)
 
-ジャーニーがイベントペイロードからのローカルデータのみを活用する場合、この設定は必要ありません。例えば、ジャーニーがイベントと、そのイベントのデータのみを使用するメッセージアクティビティのみで構成される場合、データソースを設定する必要はありません。
+ジャーニーがイベントペイロードからのローカルデータのみを活用する場合、この設定は必要ありません。例えば、ジャーニーがイベントと、そのイベントのデータのみを使用するチャネルアクションアクティビティで構成されている場合、データソースを設定する必要はありません。
 
 データソースには次の 2 種類があります。
 

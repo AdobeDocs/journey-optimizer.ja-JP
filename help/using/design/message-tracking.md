@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## トラッキングの有効化 {#enable-tracking}
 
-[メッセージの作成](../messages/get-started-content.md)時に「**[!UICONTROL 電子メールの開封トラッキング]**」オプションや「**[!UICONTROL 電子メールのクリックトラッキング]**」オプションをオンにすることで、メールメッセージレベルでのトラッキングを有効にできます。
+E メールメッセージレベルでトラッキングを有効にするには、 **[!UICONTROL メール開封数]** および/または **[!UICONTROL メールをクリック]** オプション [メッセージの作成](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ ht-degree: 100%
 
 これにより、次の方法で受信者の行動を追跡できます。
 
-* **[!UICONTROL E メールの開封トラッキング]**：開封されたメッセージ。
-* **[!UICONTROL E メールのクリックトラッキング]**：メール内のリンクのクリック数。
+* **[!UICONTROL メール開封数]**:開封されたメッセージ。
+* **[!UICONTROL メールをクリック]**:E メール内のリンクのクリック数。
 
 ## リンクの挿入 {#insert-links}
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../messages/consent.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[メッセージプリセットレベル](../configuration/message-presets.md#email-type)で、また[メッセージの作成](../messages/get-started-content.md#create-new-message)時に定義されます。
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../messages/consent.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/message-presets.md#email-type) （例：メッセージプリセット）レベルとタイミング [メッセージの作成](../messages/get-started-content.md#create-new-message).
 
 ## ミラーページへのリンク {#mirror-page}
 
@@ -124,6 +124,4 @@ ht-degree: 100%
    * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
    * **[!UICONTROL なし]**：この URL のトラッキングを有効化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-開封されたメッセージの数とクリックされたリンクの数が、[「実行」タブ](../reports/message-monitoring.md)に表示されます。
-
-開封数とクリック数に関するレポートは、[E メールのライブレポート](../reports/email-live-report.md)と[E メールのグローバルレポート](../reports/email-global-report.md)で利用できます。
+開封数とクリック数のレポートは、 [ライブレポート](../reports/live-report.md) そして [グローバルレポート](../reports/global-report.md).

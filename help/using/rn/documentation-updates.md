@@ -2,7 +2,7 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 98%
@@ -30,7 +30,7 @@ ht-degree: 98%
 * 許可リストページが「設定」セクションに移動しました。[詳細情報](../configuration/allow-list.md)
 * 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
 * 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
-* すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
+* すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../messages/send-time-optimization.md)
 * パーソナライズされたオファーを配信するために、バッチ判定 API が使用可能な API のリストに追加されました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022年5月 {#may-2022}
@@ -140,7 +140,7 @@ ht-degree: 98%
 * カスタムアクションの設定手順に動的 URL パスと動的ヘッダーを反映しました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 * アクセシビリティ機能とショートカットに関する節を追加しました。[詳細情報](../start/user-interface.md#accessibility)
 * セグメント評価方法に関する節を追加しました。[詳細情報](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/email-global-report.md)
+* 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/global-report.md)
 * 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../configuration/allow-list.md#reporting)
 * 「許可リストの有効化」の節を更新しました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/message-presets.md#monitor-message-presets)

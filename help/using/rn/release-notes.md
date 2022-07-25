@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 88%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
+
+>[!CAUTION]
+>
+>7 月 25 日に、Adobe Journey Optimizerは [新機能](../rn/inline-messages.md) これにより、Journey Optimizerチャネル（E メール、プッシュ、SMS）のコンテンツを作成する方法が向上します。 Journey Optimizerの開業医として、今は [作成および作成](../messages/get-started-content.md) メッセージをジャーニーから直接送信します。 ジャーニーの自動コンバージョンが実行されます。 しかし、いくつかの手順に関して、皆様のご協力が必要となります。 詳しくは、 [必須手順](../rn/inline-messages-steps.md).
 
 ## 2022年6月リリース {#june-2022-release}
 
@@ -117,7 +121,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -153,7 +157,7 @@ ht-degree: 100%
 
 * **IP プールの編集** - IP プールを更新する際、処理時間は最大 3 時間に制限されるようになりました。[詳細情報](../configuration/ip-pools.md#edit-ip-pool)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
 <!--
 **Reporting**

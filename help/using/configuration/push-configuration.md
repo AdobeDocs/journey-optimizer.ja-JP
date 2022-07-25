@@ -4,10 +4,10 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '1554'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1555'
+ht-degree: 92%
 
 ---
 
@@ -75,7 +75,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL アプリ設定の管理]**
    * **[!UICONTROL プロパティの管理]**
 
-   モバイルアプリ開発者が **Adobe Experience Launch** でプッシュ資格情報を設定し、**Adobe Journey Optimizer** でプッシュ通知プリセットを定義するには、これらの権限が必要です。
+   モバイルアプリ開発者がでプッシュ資格情報を設定するには、これらの権限が必要です **Adobe Experience Launch** で、プッシュ通知チャネルの表面（メッセージプリセット）を定義します。 **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
 1. [!DNL Adobe Experience Platform Data Collection] から、左側のパネルの「**[!UICONTROL アプリのサーフェス]**」タブを選択します。
 
-1. 「**[!UICONTROL アプリのサーフェスの作成]**」をクリックし、新しい設定を作成します。 
+1. クリック **[!UICONTROL アプリサーフェスを作成]** 新しい設定を作成します。
 
    ![](assets/add-app-config.png)
 
@@ -332,9 +332,9 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_11.png)
 
-1. 「**[!UICONTROL アクション]**」ドロップダウンから、**[!UICONTROL メッセージ]**&#x200B;アクティビティをジャーニーにドラッグ＆ドロップします。
+1. 次の **[!UICONTROL アクション]** ドロップダウン、 **[!UICONTROL プッシュ]** アクティビティをジャーニーに追加します。
 
-1. 前に作成したメッセージを選択します。プッシュ通知の作成方法の詳細については、この[ページ](../messages/get-started-content.md)を参照してください。
+1. プッシュ通知を設定します。 プッシュ通知の作成方法の詳細については、この[ページ](../messages/get-started-content.md)を参照してください。
 
 1. 「**[!UICONTROL テスト]**」トグルをクリックしてプッシュ通知のテストを開始し、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
@@ -348,13 +348,13 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 イベントがトリガーされ、モバイルアプリにプッシュ通知が届きます。
 
-## 手順 4：プッシュ用のメッセージプリセットの作成{#message-preset}
+## 手順 4:プッシュ用のチャネルサーフェスを作成する{#message-preset}
 
-モバイルアプリケーションを [!DNL Adobe Experience Platform Data Collection] で設定したら、**[!DNL Journey Optimizer]** からプッシュ通知を送信できるように、メッセージプリセットを作成する必要があります。
+モバイルアプリがで設定されたら、 [!DNL Adobe Experience Platform Data Collection]からプッシュ通知を送信するには、サーフェスを作成する必要があります。 **[!DNL Journey Optimizer]**.
 
-[この節](../configuration/message-presets.md)では、メッセージプリセットを作成して設定する方法を説明します。
+でチャネルサーフェスを作成および設定する方法を説明します。 [この節](../configuration/message-presets.md).
 
 これで、Journey Optimizer でプッシュ通知を送信する準備が整いました。
 
 * プッシュメッセージを作成する方法については、[このページ](../messages/create-push.md)を参照してください。
-* ジャーニーにメッセージを追加して送信する方法については、[この節](../building-journeys/journeys-message.md)を参照してください。
+* ジャーニーにメッセージを追加する方法については、 [この節](../building-journeys/journeys-message.md).

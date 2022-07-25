@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: '1123'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->非公開のメッセージで参照されているランディングページを非公開にした場合、ランディングページが再び公開されるまでメッセージは公開できません。メッセージが既に公開されている場合、ランディングページへのリンクが壊れ、エラーページが表示されます。
+>非公開のメッセージで参照されているランディングページを非公開にした場合、ランディングページへのリンクが壊れ、エラーページが表示されます。
 
 ランディングページの横にある「...」をクリックし、目的のアクションを選択します。
 

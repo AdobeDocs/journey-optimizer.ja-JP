@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 99%
+source-wordcount: '1297'
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 99%
 
    ![](assets/jo-datasource.png)
 
-1. **アクションの設定**：メッセージ機能は Journey Optimizer に組み込まれており、ユーザーはコンテンツのデザインと、メッセージの公開をするだけです。[この節](../messages/get-started-content.md)を参照してください。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成します。詳しくは、[この節](../action/action.md)を参照してください。このステップは、**技術ユーザー**&#x200B;が実行します。
+1. **アクションの設定**:サードパーティシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。 詳しくは、[この節](../action/action.md)を参照してください。このステップは、**技術ユーザー**&#x200B;が実行します。Journey Optimizerの組み込みメッセージ機能を使用している場合は、ジャーニーにチャネルアクションを追加し、コンテンツをデザインするだけで済みます。 [この節](../messages/get-started-content.md)を参照してください。
 
-   ![](assets/create-content-push.png)
+   ![](assets/custom2.png)
 
 ## ジャーニーの作成{#jo-build}
 
@@ -60,7 +60,7 @@ ht-degree: 99%
 
    ![](assets/read-segment.png)
 
-1. 次に個人が従う手順をドラッグ＆ドロップします。例えば、条件を追加してメッセージを送信できます。アクティビティの詳細については、[この節](using-the-journey-designer.md)を参照してください。
+1. 次に個人が従う手順をドラッグ＆ドロップします。例えば、条件を追加し、その後にチャネルアクションを追加できます。 アクティビティの詳細については、[この節](using-the-journey-designer.md)を参照してください。
 
 1. テストプロファイルを使用してジャーニーをテストします。詳しくは、[この節](testing-the-journey.md)を参照してください。
 

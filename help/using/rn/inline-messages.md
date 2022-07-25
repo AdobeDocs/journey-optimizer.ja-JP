@@ -2,10 +2,10 @@
 title: ジャーニーインラインオーサリングに移行
 description: メッセージの移行方法を説明します。
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 2%
+source-wordcount: '1734'
+ht-degree: 3%
 
 ---
 
@@ -287,10 +287,7 @@ The **details** section gives, for each of the above indicators, the list of rel
 
 ### 機能が失われる可能性はありますか？{#functionality}
 
-メッセージの作成方法に変更が生じます。 機能が失われることはありません。 7 月 25 日（インラインオーサリング機能リリース）以降、制限はを使用してジャーニーで実行できるアクションに適用されることに注意してください。 **メッセージ** アクティビティ：
-
-* コピー/貼り付けはできません **メッセージ** アクティビティ。 ただし、新しいチャネルアクションアクティビティをコピー/貼り付けることはできます。
-* これらのジャーニーに対して、次のアクションを実行することはできません。テスト、公開、複製、新しいバージョンの作成、別のサンドボックスの閉じる、または別のサンドボックスにコピーします。 これらの制限は、 **メッセージ** アクティビティは、これらのジャーニーに存在します。 移行プロセスが実行されて更新されるまで待つことができます **メッセージ** アクティビティを削除して、アクションアクティビティをチャネルします。 **メッセージ** 手動で。
+メッセージの作成方法に変更が生じます。 機能が失われることはありません。
 
 ### 移行プロセス中に環境にアクセスできますか？
 
@@ -303,6 +300,12 @@ The **details** section gives, for each of the above indicators, the list of rel
 ### 移行が完了したことを確認する方法を教えてください。
 
 バナーが消えると、移行は完了です。 この[節](../rn/inline-messages.md#inform)を参照してください。
+
+### メッセージ関連の権限はどのように影響を受けますか？
+
+インラインオーサリング機能は、権限に影響を与えます。 すべてのメッセージ関連の権限。例： [!DNL View Messages] または [!DNL Manage Messages]は、「ジャーニー」機能にリンクされた権限に自動的に含まれます。
+
+詳しくは、この[ページ](../administration/ootb-product-profiles.md)を参照してください。
 
 <!--
 * Improved authoring flow and navigation

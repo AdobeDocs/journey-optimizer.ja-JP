@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,11 @@ ht-degree: 100%
 
 1. ランディングページを[公開](create-lp.md#publish)します。
 
-1. イベントの登録が開始されたことを通知する[メールメッセージを作成](../messages/get-started-content.md)します。
+1. 内 [ジャーニー](../building-journeys/journey.md)、 **電子メール** トラフィックを登録ランディングページに導く「 」アクティビティ。
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [E メールのデザイン](../messages/get-started-content.md) イベントの登録が開始されました。
 
 1. メッセージコンテンツに[リンクを挿入](../design/message-tracking.md#insert-links)します。「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
@@ -55,13 +59,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >メッセージを公開するには、選択したランディングページがまだ期限切れでないことを確認します。有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
-
-1. コンテンツを保存し、[メッセージを公開](../messages/publish-manage-message.md)します。
-
-1. 登録ランディングページにトラフィックを誘導するための[ジャーニー](../building-journeys/journey.md)を通じてメッセージを送信します。
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >メッセージを送信するには、選択したランディングページがまだ期限切れでないことを確認します。 有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
 
    メールを受信した受信者がランディングページへのリンクをクリックすると、「ありがとうございました」ページに移動し、購読リストに追加されます。
 
@@ -79,7 +77,7 @@ ht-degree: 100%
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. 選択した確認メールを選択し、ジャーニーを通じて送信します。
+1. 選択した確認 E メールを追加し、ジャーニーを通じて送信します。
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ ht-degree: 100%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [!DNL Journey Optimizer] で [メールメッセージを作成します](../messages/get-started-content.md)。
+1. [電子メールメッセージの作成](../messages/get-started-content.md) ジャーニーで。
 
 1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../design/message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
 
@@ -140,11 +138,9 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >メッセージを公開するには、選択したランディングページがまだ期限切れでないことを確認します。有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
+   >メッセージを送信するには、選択したランディングページがまだ期限切れでないことを確認します。 有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
 
-1. コンテンツを保存し、[メッセージを公開](../messages/publish-manage-message.md)します。
-
-1. ジャーニーを通じてメッセージを送信します。[詳細情報](../building-journeys/journey.md)。
+1. ジャーニーを公開して実行します。 [詳細情報](../building-journeys/journey.md)。
 
 1. メッセージを受け取った受信者がメールの登録解除リンクをクリックすると、ランディングページが表示されます。
 

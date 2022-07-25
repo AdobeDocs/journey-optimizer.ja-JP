@@ -6,10 +6,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 76%
 
 ---
 
@@ -20,19 +20,20 @@ ht-degree: 100%
 
 ジャーニーを作成してメッセージを送信するには、次の設定手順に従う必要があります。
 
-1. **メッセージとチャネルを設定**：プリセットの定義、メールおよびプッシュメッセージの適応とカスタマイズ
+1. **メッセージとチャネルの設定**:チャネルサーフェスを定義し、メッセージを調整してカスタマイズします。
 
-   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。[詳細](../configuration/push-gs.md)
-
-   * メッセージプリセットを作成して、メールおよびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。[詳細](message-presets.md)
+   * チャネルサーフェスを作成して、メッセージの配信に必要なすべての技術的パラメータを設定します。 [詳細](message-presets.md)
 
    * Adobe Experience Platform で使用可能なアドレスが複数ある場合、受信者に優先して使用するメールアドレスを決定します。[詳細](primary-email-addresses.md)
 
    * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
 
-   <!--
-    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
-    -->
+   * [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。[詳細](../configuration/push-gs.md)
+
+   <!--* Understand the push notification flow. [Learn more](../configuration/push-gs.md)-->
+
+   * SMS を送信するようにインスタンスを設定します（現在は一連の組織でのみ使用可能 — 限定提供）。 [詳細](sms-configuration.md)
+
 
 1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細](about-subdomain-delegation.md)
 
@@ -46,8 +47,8 @@ ht-degree: 100%
 
    ![](assets/admin-menu.png)
 
-   * **データソース**&#x200B;を設定すると、ジャーニーで使用される追加情報を取得するため、システムへの接続を定義できます。データソースについて詳しくは、この[節](../datasource/about-data-sources.md)を参照してください
+   * この **データソース** 設定を使用すると、システムへの接続を定義して、ジャーニーで使用される追加情報を取得できます。 [詳細情報](../datasource/about-data-sources.md)
 
-   * **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取り込み API から取り込みます。イベントについて詳しくは、この[節](../event/about-events.md)を参照してください
+   * **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取り込み API から取り込みます。[詳細](../event/about-events.md)
 
-   * [!DNL Journey Optimizer] には、コンテンツをデザインし、メッセージを公開できるビルトインのメッセージ機能が備わっています。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、この[節](../action/action.md)を参照してください
+   * [!DNL Journey Optimizer] には、コンテンツのデザインと送信を可能にする組み込みのメッセージ機能が付属しています。 サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。[詳細情報](../action/action.md)

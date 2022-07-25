@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ルールが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。ルールを有効にするために、メッセージやジャーニーを変更または再公開する必要はありません。
+>ルールが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開する必要はありません。
 
 メッセージ頻度ルールを非アクティブ化するには、ルールの横の「...」をクリックし、「**[!UICONTROL 非アクティブ化]**」を選択します。
 
@@ -113,37 +113,26 @@ ht-degree: 100%
 
 メッセージに頻度ルールを適用するには、次の手順に従います。
 
-1. メッセージを作成。[詳細情報](../messages/get-started-content.md#create-new-message)
+1. [メッセージの作成](../messages/get-started-content.md#create-new-message) ルールに定義したチャネルの 1 つを選択します。
 
 1. 定義したカテゴリを[作成したルール](#create-new-rule)に選択します。
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >現在、**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが、メッセージ頻度ルールで使用できます。
 
-1. メッセージ用に選択したチャネルを選択します。
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. 選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
 
-1. **[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。
+   >[!NOTE]
+   >
+   >**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択したメッセージは、頻度ルールに照らして評価されません。
 
-   ![](assets/message-rules-msg-link.png)
-
-   新しいタブが開き、一致するメッセージ頻度ルールが表示されます。
-
-1. メッセージを[デザイン](../design/design-emails.md)して[公開](../messages/publish-manage-message.md)します。
-
-選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
-
->[!NOTE]
->
->**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択したメッセージ<!--that do not have any selected category or messages -->は、頻度ルールに照らして評価されません。
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-配信から除外されたプロファイルの数を[ライブ表示とグローバル表示](../reports/message-monitoring.md)および[メールライブレポート](../reports/email-live-report.md)で表示でき、配信から除外されたユーザーの理由として考えられる頻度ルールが示されます。
+1. 配信から除外されたプロファイルの数を [グローバルレポート](../reports/global-report.md)、および [ライブレポート](../reports/live-report.md)：頻度ルールが、配信から除外されたユーザーに考えられる理由として表示されます。
 
 >[!NOTE]
 >
@@ -155,7 +144,7 @@ ht-degree: 100%
 
 1. 「*全マーケティングキャッピング*」という名前の[ルールを作成](#create-new-rule)します。
 
-   * すべてのチャネル（メール、プッシュ）を選択します。
+   * 「電子メール」および「プッシュ」チャネルを選択します。
    * キャッピングを 12 に設定します。
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -169,19 +158,9 @@ ht-degree: 100%
 
 1. ルールを保存して[アクティブ化](#activate-rule)します。
 
-1. メッセージを作成。[詳細情報](../messages/get-started-content.md#create-new-message)
+1. E メールを作成し、 **[!UICONTROL マーケティング]** カテゴリに表示されます。 [詳細情報](../messages/get-started-content.md#create-new-message)
 
-1. **[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. **[!UICONTROL 電子メール]**&#x200B;および&#x200B;**[!UICONTROL プッシュ通知]**&#x200B;チャネルを選択します。
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. **[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。
-
-1. メッセージを[デザイン](../design/design-emails.md)して[公開](../messages/publish-manage-message.md)します。
+1. プッシュ通知を作成し、 **[!UICONTROL マーケティング]** カテゴリに表示されます。 [詳細情報](../messages/get-started-content.md#create-new-message)
 
 このシナリオでは、個々のプロファイルは次のようになります。
 * 1 か月に最大 12 件のマーケティングメッセージを受信できます。
@@ -189,7 +168,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->プロファイルの頻度キャップに達すると、翌月までカウンターをリセットする方法はないので、頻度ルールをテストする場合は、新しく作成した[テストプロファイル](../segment/creating-test-profiles.md)を使用して開始すると便利です。ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
+>頻度ルールをテストする場合は、新しく作成した [テストプロファイル](../segment/creating-test-profiles.md)を使用する場合、プロファイルの頻度キャップに達すると、翌月までカウンターをリセットする方法がなくなります。 ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
 
 ## ハウツービデオ {#video}
 

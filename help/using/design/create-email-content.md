@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '481'
 ht-degree: 100%
 
 ---
@@ -93,4 +93,3 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 1. メールの準備が整ったら、「**[!UICONTROL 保存して閉じる]**」をクリックします。
 
-これで、メッセージでメールコンテンツを使用できるようになります。[メッセージの送信方法の詳細情報](../messages/publish-manage-message.md)。

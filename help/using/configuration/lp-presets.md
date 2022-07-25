@@ -4,9 +4,9 @@ description: Journey Optimizer でランディングページを作成および�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -74,10 +74,10 @@ ht-degree: 100%
    ![](assets/lp-preset-active-temp.png)
 
 これで、[!DNL Journey Optimizer] で[ランディングページの作成](../landing-pages/create-lp.md)を行う準備が整いました。
-
+<!--
 >[!NOTE]
 >
->[この節](message-presets.md)では、プッシュ通知とメールのメッセージプリセットを作成する方法について説明します。
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **関連トピック**:
 

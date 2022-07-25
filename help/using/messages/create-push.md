@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: ht
-source-wordcount: '1475'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +25,16 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] はプッシュ通知をサポートし、関連性の高い通知を業界最高のスループット率で送信できます。Adobe Experience Cloud でのブランドのデータインサイトを活用するために、プッシュ通知には、パーソナライゼーションとジャーニーベースのコンテキストを含めることができます。
 
-[メッセージ](get-started-content.md)を作成したら、「**[!UICONTROL プッシュ通知]**」タブをクリックして、プッシュ通知の設定と内容を定義します。
+一度 [プッシュを追加しました](get-started-content.md) アクティビティをジャーニーに追加し、基本設定を定義した場合は、 **[!UICONTROL アクション：プッシュ]** プッシュ通知のコンテンツを作成する右側のウィンドウ
+
+![](assets/add-a-push.png)
+
+
+専用のタブを使用して、**iOS**&#x200B;および&#x200B;**Android**&#x200B;オペレーティングシステムのプッシュ通知設定を定義します。
 
 ![](assets/create-content-push.png)
 
-専用のタブを使用して、**iOS**&#x200B;および&#x200B;**Android**&#x200B;オペレーティングシステムのプッシュ通知設定を定義します。
+プッシュ通知を初めて作成する場合は、プッシュチャネルが設定されていることを確認してください。 [詳細情報](../configuration/push-gs.md)。
 
 >[!NOTE]
 >
@@ -37,7 +42,7 @@ ht-degree: 100%
 
 ## タイトルと本文 {#push-title-body}
 
-メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。式エディターを使用して、コンテンツとパーソナライゼーションデータを定義します。[この節で、](../personalization/personalize.md)式エディターでのパーソナライゼーションについて詳しく説明します
+メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。式エディターを使用して、コンテンツとパーソナライゼーションデータを定義します。 パーソナライゼーションについて詳しくは、 [この節](../personalization/personalize.md)
 
 デバイスのプレビューセクションを使用すると、iOS 端末と Android 端末で表示されるプッシュ通知を視覚化できます。
 
@@ -52,7 +57,7 @@ ht-degree: 100%
 
 ![](assets/title-body-push.png)
 
-* アプリを開くには、「**[!UICONTROL アプリを開く]**」オプションを選択します。通知に関連付けるアプリは、メッセージ&#x200B;**[!UICONTROL プリセット]**&#x200B;内で定義します。メッセージプリセットについて詳しくは、[詳細情報](../configuration/message-presets.md)を参照してください。
+* アプリを開くには、「**[!UICONTROL アプリを開く]**」オプションを選択します。通知に関連付けられているアプリは、 [チャンネル表面](../configuration/message-presets.md) （例：メッセージプリセット）。
 * アプリ内の特定のコンテンツ部分にユーザーをリダイレクトするには、「**[!UICONTROL ディープリンク]**」オプションを選択します。特定のコンテンツには、特定のビュー、ページの特定のセクション、特定のタブがあります。オプションを選択したら、関連するフィールドにディープリンクを入力します。
 * ユーザーを外部 URL にリダイレクトするには、「**[!UICONTROL Web URL]**」オプションを使用します。オプションを選択したら、関連するフィールドに URL を入力します。
 
@@ -125,6 +130,17 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。Andr
 | **[!UICONTROL 通知の表示]**（Android のみ） | プッシュ通知の表示を定義します。<br/><b>プライベート</b>に設定すると、すべてのロック画面に通知が表示されますが、保護されたロック画面では機密情報やプライベートな情報を非表示にします。<br/><b>パブリック</b>に設定すると、すべてのロック画面に通知全体を表示します。<br/><b>シークレット</b>に設定すると、保護されたロック画面に通知を一切表示しません。<br/>詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/reference/android/app/Notification)を参照してください。 |
 | **[!UICONTROL 通知の優先度]**（Android のみ） | プッシュ通知の重要度を「低」から「最高」まで定義します。プッシュ通知が配信された際の、プッシュ通知の「割り込み」の度合いを決定します。詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)を参照してください。 |
 | **[!UICONTROL 配信の優先順位]**（Android のみ） | プッシュ通知の優先度を「高」または「通常」に設定します。メッセージの優先度の詳細については、[Google 開発者向けドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)を参照してください。 |
+
+
+## プッシュ通知を検証します{#push-preview}
+
+メッセージのコンテンツを定義したら、テストプロファイルを使用してコンテンツのプレビューとテストを行います。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
+
+モバイルデバイスでのプッシュ通知の表示を視覚化するには、 **[!UICONTROL コンテンツをシミュレート]** タブをクリックします。 コンテンツシミュレーションの詳細については、 [この節](../design/preview.md).
+
+また、エディターの上部セクションでアラートを確認する必要があります。  単純な警告もありますが、メッセージの使用を妨げる可能性もあります。 詳しくは、[この節](alerts.md)を参照してください。
+
+![](assets/push-alert-button.png)
 
 **関連トピック**
 

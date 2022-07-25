@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 製品プロファイル]**：インターフェイス内の特定の機能やオブジェクトへユーザーがアクセスできる単一権限のセット。[標準提供の製品プロファイル](ootb-product-profiles.md)の節を参照してください。
 
-* **[!UICONTROL 権限]**：**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権限。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、メッセージ、オファーなど）の下に集められています。[権限レベル](high-low-permissions.md)の節を参照してください。
+* **[!UICONTROL 権限]**：**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権限。各権限は、機能 ( 例： [!DNL Journey Optimizer]. [権限レベル](high-low-permissions.md)の節を参照してください。
 
 * **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[サンドボックスの使用](sandboxes.md)を参照してください。
 

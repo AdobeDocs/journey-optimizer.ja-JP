@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -54,8 +54,6 @@ ISP は、通常、受け取ったメッセージをスパムとしてレポー�
 メッセージリストの「**[!UICONTROL 実行]**」タブを使用すると、一連のリアルタイムインジケーターを使用して、配信のパフォーマンスを確認できます。このタブには次の項目も表示されます。
 * 正常に実行、送信および配信されたメッセージの数。
 * 開封されたメッセージの数と、クリックされたメッセージやリンクの数。
-
-[メッセージ実行の監視の詳細情報](message-monitoring.md)。
 
 ## メッセージコンテンツの調整 {#adapt-message-content}
 

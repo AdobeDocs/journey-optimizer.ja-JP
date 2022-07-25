@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d0d914156eaa7fe54a513ee7b4e870edbc76c846
+exl-id: 57bdeadc-5801-4036-a272-c622634d5281
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 57%
@@ -107,7 +108,5 @@ While authoring a journey, an "end node" is displayed at the end of each path. T
 
 1. **[!UICONTROL ジャーニー]**&#x200B;リストで、停止するジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
-
-![](assets/finish_drop_down_list.png)
-
+   ![](assets/finish_drop_down_list.png)
 1. 「**[!UICONTROL 停止]**」をクリックし、ダイアログボックスで確定します。

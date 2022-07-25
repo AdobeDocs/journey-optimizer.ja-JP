@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 98%
+source-wordcount: '311'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ## 検証メカニズム {#validation-mechanisms}
 
-**式エディター**&#x200B;画面で、「**検証**」ボタンを使用して、パーソナライゼーション構文を確認します。
+内 **式エディター** 画面、 **検証** ボタンをクリックして、パーソナライゼーションの構文を確認します。
 
 >[!NOTE]
 > 「**追加**」をクリックしてエディターウィンドウを閉じると、検証は自動的に実行されます。
@@ -75,7 +75,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-検証は、メッセージの公開中、または式エディターでのパーソナライゼーションコンテンツの検証中に実行されます。
+検証は、式エディターでのパーソナライゼーションコンテンツの検証中に実行されます。
 
 <table> 
  <thead> 

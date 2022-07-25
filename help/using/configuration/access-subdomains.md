@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '169'
+ht-degree: 93%
 
 ---
 
 # デリゲートされたサブドメインへのアクセス {#access-delegated-subdomains}
 
-デリゲートされたすべてのサブドメインが&#x200B;**[!UICONTROL チャネル]**／**[!UICONTROL サブドメイン]**&#x200B;メニューに表示されます。フィルターを使用して、リスト（デリゲーション日、ユーザー、ステータス）を絞り込むことができます。
+すべてのデリゲートサブドメインが **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL サブドメイン]** メニュー フィルターを使用して、リスト（デリゲーション日、ユーザー、ステータス）を絞り込むことができます。
 
 ![](assets/subdomain-list.png)
 

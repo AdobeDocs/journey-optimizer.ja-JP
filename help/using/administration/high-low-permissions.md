@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 96%
 
 ---
 
@@ -123,88 +123,6 @@ ht-degree: 100%
    * queries.read
    * queries.write
    * queries.delete
-
-## メッセージ機能 {#message-capability}
-
-### [!DNL Manage messages] 権限 {#manage-messages}
-
-「**[!DNL Manage messages]**」という高レベルの権限を持つユーザーは、メッセージを作成および編集／削除できます。
-
-これには、次の低レベル権限が含まれます。
-
-* Journey Optimizer 固有：
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets.read
-
-* Adobe Experience Platform 固有：
-   * segments.read
-   * schemas.read
-
-### [!DNL Manage messages preview and test] 権限 {#mange-messages-preview}
-
-「**[!DNL Manage messages preview and test]**」という高レベルの権限を持つユーザーは、パーソナライズされたメッセージをプレビューできます。
-
-これには、次の低レベル権限が含まれます。
-
-* Journey Optimizer 固有：
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* Adobe Experience Platform 固有：
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace.read
-   * segments.read
-   * queries.write
-   * merge_policies.read
-
-### [!DNL Publish messages] 権限 {#publish-messages}
-
-「**[!DNL Publish messages]**」という高レベルの権限を持つユーザーは、メッセージを公開できます。
-
-これには、次の低レベル権限が含まれます。
-
-* Journey Optimizer 固有：
-   * messages.publish
-
-* Adobe Experience Platform 固有：
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### [!DNL View messages] 権限 {#view-messages}
-
-「**[!DNL View messages]**」という高レベルの権限を持つユーザーは、メッセージに対する読み取り専用のアクセス権を持ちます。
-
-これには、次の低レベル権限が含まれます。
-
-* Journey Optimizer 固有：
-   * messages.read
-   * messages_presets.read
-
-* Adobe Experience Platform 固有：
-   * schemas.read
-   * segments.read
-
-### [!DNL View messages report] 権限 {#view-message-reports}
-
-「**[!DNL View messages report]**」という高レベルの権限を持つユーザーは、メールおよびプッシュレポートに対する読み取り専用のアクセス権を持ちます。
-
-これには、次の低レベル権限が含まれます。
-
-* Journey Optimizer 固有：
-   * messages_report.read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## 意思決定管理機能
  {#decisions-permissions}
@@ -335,33 +253,34 @@ ht-degree: 100%
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] 権限 {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-**[!DNL Manage messages general settings]** 高レベルの権限を持つユーザーは、サンドボックスレベルでグローバル設定の作成、編集および削除を行うことができます。
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-これには、次の低レベル権限が含まれます。
+It includes the following low-level permissions: 
 
-* Journey Optimizer 固有：
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* Adobe Experience Platform 固有：
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### [!DNL View messages general settings] 権限 {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-「**[!DNL View messages general settings]**」という高レベルの権限を持つユーザーは、メッセージの一般設定（実行アドレスなど）を表示できます。
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-これには、次の低レベル権限が含まれます。
+It includes the following low-level permissions:
 
-* Journey Optimizer 固有：
-   * messages_general_settings.read
-* Adobe Experience Platform 固有：
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### [!DNL Manage channel surface] 権限 {#manage-channel-surface}
 
-### [!DNL Manage messages presets] 権限 {#manage-message-presets}
-
-「**[!DNL Manage messages presets]**」という高レベルの権限を持つユーザーは、チャネルをまたぐメッセージプリセットの作成、編集および削除をサンドボックスレベルで行うことができます。
+この **[!DNL Manage channel surface]** 高レベル権限を持つユーザーは、サンドボックスレベルでチャネルをまたいでチャネルサーフェスを作成、編集、削除できます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -373,9 +292,9 @@ ht-degree: 100%
    * IP_pools.read
    * mobile_setting.read（Adobe Experience Platform Launch から）
 
-### [!DNL View messages presets] 権限 {#view-message-presets}
+### [!DNL View channel surface] 権限 {#view-channel-surface}
 
-「**[!DNL View messages presets]**」という高レベルの権限を持つユーザーは、メッセージの作成時にどのメッセージプリセットを使用すればよいか把握するために、メッセージプリセットを表示できます。
+この **[!DNL View channel surface]** 高レベル権限を使用すると、使用するチャネルサーフェスを知るためにチャネルサーフェスを表示できます。
 
 これには、次の低レベル権限が含まれます。
 

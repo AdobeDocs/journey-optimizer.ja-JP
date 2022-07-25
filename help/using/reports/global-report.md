@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 85%
 
 ---
 
@@ -21,15 +21,11 @@ ht-degree: 100%
 
 **[!UICONTROL グローバルレポート]**&#x200B;を使用すると、選択した期間におけるジャーニーと配信の効果を測定できます。
 
-* ジャーニーまたはジャーニーのコンテキストの配信をターゲットにする場合は、**[!UICONTROL ジャーニー]**&#x200B;メニューからジャーニーにアクセスし、**[!UICONTROL グローバルレポート]**&#x200B;アイコンをクリックします。ジャーニー、メール、プッシュなどの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;が見つかります。
+* ジャーニーのコンテキストでジャーニーまたは配信をターゲットにする場合は、 **[!UICONTROL ジャーニー]** メニューで、ジャーニーにアクセスして、 **[!UICONTROL レポートを表示]** 」ボタンをクリックします。 その後、ジャーニー、E メール、SMS およびプッシュのグローバルレポートを検索できます。
 
-   ![](assets/report_6.png)
+   ![](assets/report_journey.png)
 
-* 特定の配信をターゲットにする場合は、メッセージの「**[!UICONTROL 実行]**」タブの&#x200B;**[!UICONTROL グローバル表示]**&#x200B;で、選択した配信の詳細メニューから「**[!UICONTROL グローバルレポート]**」を選択します。
-
-   ![](assets/report_4.png)
-
-* 配信を&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;から&#x200B;**[!UICONTROL ライブレポート]**&#x200B;に切り替える場合は、タブスイッチャーで「**[!UICONTROL ライブ表示]**」をクリックします。
+* 配信を&#x200B;**[!UICONTROL ライブレポート]**&#x200B;から&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;に切り替える場合は、タブスイッチャーで「**[!UICONTROL グローバル表示]**」をクリックします。
 
    ![](assets/report_5.png)
 

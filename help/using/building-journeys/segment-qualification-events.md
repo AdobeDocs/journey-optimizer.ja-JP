@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 ### オーバーロードの回避方法 {#overloads-speed-segment-qualification}
 
-ジャーニーで使用するシステム（データソース、カスタムアクション、**メッセージ**&#x200B;アクティビティ）の過負荷を回避するのに役立つ、いくつかのベストプラクティスを示します。
+ジャーニーで使用するシステム（データソース、カスタムアクション、チャネルアクションアクティビティ）の過負荷を回避するのに役立つ、いくつかのベストプラクティスを以下に示します。
 
 **[!UICONTROL セグメントの選定]**&#x200B;アクティビティでは、作成直後のバッチセグメントを使用しないでください。最初の計算のピークは回避されます。まだ計算されていないセグメントを使用しようとすると、ジャーニーキャンバスに黄色の警告が表示されます。
 

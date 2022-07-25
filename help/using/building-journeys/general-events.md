@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="一般イベント"
->abstract="このタイプのイベントでは、ラベルと説明のみを追加できます。その他の設定は編集できません。技術ユーザーによって実施します。"
+>abstract="イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。このタイプのイベントでは、ラベルと説明のみを追加できます。イベントの設定はデータエンジニアが実行し、編集できません。"
+
+イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。
 
 このタイプのイベントでは、ラベルと説明のみを追加できます。その他の設定は編集できません。技術ユーザーによって実施します。[このページ](../event/about-events.md)を参照してください。
 

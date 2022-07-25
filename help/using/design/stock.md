@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 21%
+source-wordcount: '586'
+ht-degree: 17%
 
 ---
 
@@ -65,10 +65,7 @@ E メールコンテンツ内の既存の画像を、次の写真で置き換え
 
    選択した画像がライセンスされていない場合、 [免許を取る](#license-stock-image).
 
-1. 必要に応じて、 **[!UICONTROL コンポーネント設定]** メニュー コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
-
-メッセージを作成してパーソナライズしたら、公開することで実行が可能になります。[詳細情報](../messages/publish-manage-message.md)
-
+1. 必要に応じて、 **[!UICONTROL コンポーネント設定]** メニュー [コンポーネント設定の詳細](content-components.md).
 
 ## ライセンスの取得元 [!DNL Adobe Stock] {#license-stock-image}
 

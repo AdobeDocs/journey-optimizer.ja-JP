@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e6d0b4ab3d66d65f7575e63f85ab5c125107615b
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
    ![](assets/content_experiment_1.png)
 
-1. 選択 **[!UICONTROL 電子メール]** その後 **[!UICONTROL プリセット]** この配信にを使用します。 詳しくは、プリセットページを参照してください。
+1. 選択 **[!UICONTROL 電子メール]** その後 **[!UICONTROL サーフェス]** この配信にを使用します。 詳しくは、 [チャンネルサーフェス](../configuration/message-presets.md) ページ。
 
    ![](assets/content_experiment_2.png)
 

@@ -7,10 +7,11 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 83%
+source-wordcount: '679'
+ht-degree: 82%
 
 ---
 
@@ -43,19 +44,17 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL 電子メール]** 「 」タブには、キャンペーンで送信された e メール配信に関する主な情報の詳細が表示されます。
 
-特定のメール配信に関する詳細なレポートについては、[メールライブレポート](../reports/email-live-report.md)の節を参照してください。
-
 **[!UICONTROL メール送信統計情報]**&#x200B;ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
 **[!UICONTROL メール別送信指標]**&#x200B;テーブルと&#x200B;**[!UICONTROL メールの概要]**&#x200B;グラフに、配信が成功した詳細を示します。
 
-* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 
@@ -86,8 +85,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 「プッシュ」タブ {#push-live}
 
 キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL プッシュ]** 「 」タブには、キャンペーンで送信されたプッシュ配信に関する主な情報の詳細が表示されます。
-
-特定のプッシュ配信に関する詳細なレポートについては、[プッシュライブレポート](../reports/push-live-report.md)の節を参照してください。
 
 **[!UICONTROL プッシュ通知の送信パフォーマンス]**、 **[!UICONTROL プッシュ通知の概要]**&#x200B;および&#x200B;**[!UICONTROL 送信指標（プッシュ別）]**&#x200B;の各ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 

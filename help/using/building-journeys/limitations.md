@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 * ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。
 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
-
-## メッセージアクションの制限
-
-* マルチチャネルメッセージを追加すると、2 つのメッセージが送信されます。
 
 ## ジャーニーバージョンの制限 {#journey-versions-limitations}
 

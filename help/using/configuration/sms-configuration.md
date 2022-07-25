@@ -4,10 +4,10 @@ description: Journey Optimizer で SMS メッセージを送信するように�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 76%
+source-wordcount: '456'
+ht-degree: 47%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 76%
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。
 
-SMS を送信する前に、インスタンスを設定します。 以下が必要です。 [プロバイダー設定の統合](#create-api) Journey Optimizerと [SMS プリセットの作成](#message-preset-sms). これらの手順は、 [Adobe Journey Optimizerシステム管理者](../start/path/administrator.md).
+SMS を送信する前に、インスタンスを設定します。 以下が必要です。 [プロバイダー設定の統合](#create-api) Journey Optimizerと [SMS サーフェスの作成](#message-preset-sms) （例：SMS プリセット）。 これらの手順は、 [Adobe Journey Optimizerシステム管理者](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >
->SMS チャネルは現在、一連の組織でのみ使用できます（使用が制限されています）。 詳しくは、Adobe担当者にお問い合わせください。
+>SMS チャネルは現在、一連の組織でのみ使用できます（使用制限があります）。 詳しくは、アドビ担当者にお問い合わせください。
 
 ## 新しい API 認証情報の作成 {#create-api}
 
@@ -42,19 +42,19 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
 
 1. API 認証情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、SMS メッセージ用のメッセージプリセットを作成する必要があります。
+API 資格情報を作成して設定した後、SMS メッセージのチャネル面（メッセージプリセット）を作成する必要があります。
 
-## SMS メッセージ用メッセージプリセットの作成 {#message-preset-sms}
+## SMS メッセージのチャネルサーフェスを作成する {#message-preset-sms}
 
-SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メッセージを送信できるように、メッセージプリセットを作成する必要があります。
+SMS チャネルを設定したら、SMS メッセージを送信するチャネルサーフェスを作成する必要があります。 **[!DNL Journey Optimizer]**.
 
-メッセージプリセットを作成するには、次の手順に従います。
+チャネルサーフェスを作成するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL メッセージプリセット]**&#x200B;メニューにアクセスし、「**[!UICONTROL メッセージプリセットを作成]**」をクリックします。
+1. 次にアクセス： **[!UICONTROL チャネル]** > **[!UICONTROL ブランディング]** > **[!UICONTROL チャンネルサーフェス]** メニュー、次に「 **[!UICONTROL チャンネルサーフェスを作成]**.
 
    ![](assets/preset-create.png)
 
-1. プリセットの名前と説明（オプション）を入力し、SMS チャネルを選択します。
+1. サーフェスの名前と説明（オプション）を入力し、SMS チャネルを選択します。
 
    ![](assets/sms_preset.png)
 
@@ -66,9 +66,9 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
    ![](assets/preset-sms.png)
 
-   * プリセットを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択します。
+   * を選択します。 **[!UICONTROL SMS の種類]** それは表面と共に送られる **[!UICONTROL トランザクション]** または **[!UICONTROL マーケティング]**.
 
-   * **[!UICONTROL SMS 設定]**&#x200B;を選択し、プリセットと関連付けます。
+   * を選択します。 **[!UICONTROL SMS 設定]** サーフェスに関連付ける
 
       SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
 
@@ -76,17 +76,17 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
    * を選択します。 **[!UICONTROL SMS 実行フィールド]** をクリックし、 **[!UICONTROL プロファイル属性]** プロファイルの電話番号に関連付けられています。
 
-1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、メッセージプリセットをドラフトとして保存し、後で設定を再開することもできます。
+1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。また、チャンネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 
    ![](assets/sms_preset_2.png)
 
-1. メッセージプリセットが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
+1. チャネルサーフェスが作成されると、リストには次の情報が表示されます。 **[!UICONTROL 処理中]** ステータス。
 
    >[!NOTE]
    >
    >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-message-presets)を参照してください。
 
-1. チェックが正常に完了すると、メッセージプリセットのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、チャネルサーフェスは **[!UICONTROL アクティブ]** ステータス。 メッセージの配信に使用する準備が整いました。
 
    ![](assets/preset-active.png)
 

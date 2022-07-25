@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ![](../assets/access-helper-functions.png)
 
-[!DNL Journey Optimizer] 式エディターでは、ヘルパー関数は[関数](#functions-helper)、[ヘルパー](#helper-helper)および[演算子](#operators-helper)の 3 つのカテゴリにグループ化されます。
+内 [!DNL Journey Optimizer] 式エディター、ヘルパー関数は次の 3 つのカテゴリに分類されます。 [関数](#functions-helper), [ヘルパー](#helper-helper) および [演算子](#operators-helper).
 
 サブカテゴリと関数にアクセスするには、カテゴリを選択します。
 

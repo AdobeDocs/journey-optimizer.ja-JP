@@ -3,10 +3,10 @@ title: Journey Optimizer の基本を学ぶ（データエンジニア向け）
 description: データエンジニア向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 97%
 
 ---
 
@@ -42,4 +42,4 @@ ID 名前空間、プロファイルに対して有効化されたデータセ�
 
 * **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取り込み API から取り込みます。イベントについて詳しくは、[この節](../../event/about-events.md)を参照してください。
 
-* [!DNL Journey Optimizer] には、メッセージ機能が組み込まれており、コンテンツをデザインしメッセージを公開することができます。Adobe Campaign などのサードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、[この節](../../action/action.md)を参照してください。
+* [!DNL Journey Optimizer] には、次の組み込みのメッセージ機能が備わっています。ジャーニー内でメッセージを作成し、コンテンツをデザインできます。 Adobe Campaign などのサードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、[この節](../../action/action.md)を参照してください。

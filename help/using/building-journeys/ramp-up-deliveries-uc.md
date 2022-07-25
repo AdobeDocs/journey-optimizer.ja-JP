@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
    この制限は、購読者の合計数まで徐々に増やすことができます。
 
-1. **[!UICONTROL メッセージ]**&#x200B;アクティビティを&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティの後の呼びパスに追加します。
+1. を追加します。 **[!UICONTROL 電子メール]** アクションアクティビティは、 **[!UICONTROL 条件]** アクティビティ。
 
    ![](assets/ramp-up-deliveries-message.png)
 

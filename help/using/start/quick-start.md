@@ -6,17 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 70%
 
 ---
 
 # クイックスタート {#cjm-quick-start}
 
-[!DNL Adobe Journey Optimizer] では、既存メッセージコンテンツの読み込み、新しいコンテンツの設計、顧客プロファイルデータを使用したメッセージのパーソナライズ、メッセージをトリガーするイベントの作成、セグメントの定義、オーディエンスの絞り込み、複数チャネルメッセージの送信、オファーの作成と追加、メッセージやカスタマージャーニーの影響を測定するためのレポートツールおよびモニタリングツール一式の利用が可能です。
-
+を使用 [!DNL Adobe Journey Optimizer]を使用すると、既存のメッセージコンテンツをインポートしたり、新しいコンテンツを設計したり、顧客プロファイルデータでメッセージをパーソナライズしたり、トリガーメッセージのイベントを作成したり、セグメントを定義してオーディエンスを絞り込んだり、
 
 組織に基づいて、複数のタイプのユーザーを定義し、ユーザーの権限に応じて特定の機能に対するアクセス権をユーザーに付与できます。
 

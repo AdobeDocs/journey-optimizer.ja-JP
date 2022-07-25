@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 79%
+source-wordcount: '316'
+ht-degree: 72%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="キャンペーン"
->abstract="キャンペーンを使用すれば、複数のチャネルをまたいだ特定のセグメントに 1 回限りのコンテンツを配信できます。新しいキャンペーンを作成する前に、メッセージプリセットと Adobe Experience Platform セグメントが使用できる状態になっていることを確認します。"
+>abstract="キャンペーンを使用すれば、複数のチャネルをまたいだ特定のセグメントに 1 回限りのコンテンツを配信できます。新しいキャンペーンを作成する前に、チャネルサーフェス（例：メッセージプリセット）とAdobe Experience Platformセグメントが使用可能になっていることを確認します。"
 
 ## キャンペーンについて {#about}
 
