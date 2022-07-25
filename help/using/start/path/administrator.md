@@ -3,10 +3,10 @@ title: Journey Optimizer の基本を学ぶ（システム管理者向け）
 description: システム管理者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 89%
+source-wordcount: '732'
+ht-degree: 87%
 
 ---
 
@@ -37,18 +37,18 @@ ht-degree: 89%
 
 [!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
-ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。次を参照： **[!UICONTROL チャネル]** メニューを使用して、メッセージとサーフェス（つまりプリセット）を設定します。
+ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。次を参照： **[!UICONTROL チャネル]** メニューを使用して、メッセージとチャネルの表示（メッセージプリセット）を設定します。
 
 >[!NOTE]
 >**システム管理者**&#x200B;の場合、**[!UICONTROL チャネル]**&#x200B;メニューが [!DNL Journey Optimizer] に表示されなければ、[Admin Console](https://adminconsole.adobe.com/){_blank} で権限を更新します。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
 
 以下の手順に従います。
 
-1. **メッセージとチャネルの設定**:表面の定義、電子メールおよびプッシュメッセージの設定の調整とカスタマイズ
+1. **メッセージとチャネルの設定**:表面の定義、e メール、sms、プッシュメッセージの設定の適応とカスタマイズ
 
    * [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方で、**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../configuration/push-gs.md)
 
-   * 作成 **チャンネルサーフェス** （例：メッセージプリセット）電子メールおよびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/message-presets.md)
+   * 作成 **チャンネルサーフェス** （例：メッセージプリセット）e メール、sms およびプッシュ通知に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/message-presets.md)
 
    * の設定 **SMS チャネル** :SMS に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/sms-configuration.md)
 
@@ -62,7 +62,7 @@ ht-degree: 89%
 
    ![](../assets/ip-pool.png)
 
-1. **抑制リストと許可リストを管理**：抑制リストと許可リストを使用して配信品質を向上させます。
+1. **抑制と許可リスト**:抑制と許可リストを使用して配信品質を向上させる
 
    * [抑制リスト](../../reports/suppression-list.md)は、配信の対象外とするメールアドレスの一覧です。これらのアドレスに送信すると、送信の評判や配信率が低下する可能性があるなどの理由から対象外にします。無効なアドレス、絶えずソフトバウンスしメールの評判に悪影響を与える可能性のあるアドレス、送信したメールメッセージに対して何らかのスパム苦情を出す受信者など、ジャーニーでの送信から自動的に除外されるすべてのメールアドレスを監視できます。[抑制リスト](../../configuration/manage-suppression-list.md)と[再試行](../../configuration/retries.md)の管理方法については、それぞれのページを参照してください。
    ![](../assets/suppression-list-filtering-example.png)

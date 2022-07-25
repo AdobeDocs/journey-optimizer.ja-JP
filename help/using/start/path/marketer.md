@@ -3,10 +3,10 @@ title: Journey Optimizer の基本を学ぶ（マーケター向け）
 description: ジャーニー実務担当者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 82%
+source-wordcount: '447'
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ As a **マーケター** または **ジャーニー実習者**&#x200B;の場合
 
    * イベント、Adobe Experience Platform の情報、サードパーティの API サービスのデータなどの&#x200B;**コンテキストデータ**&#x200B;を活用できます。
 
-   * 以下を使用： **組み込みチャネルアクション** デザインしたメッセージを送信するには [!DNL Journey Optimizer] または **カスタムアクション** サードパーティ製システムを使用してメッセージを送信する場合。
+   * 以下を使用： **組み込みチャネルアクション** （E メール、SMS、プッシュ）: [!DNL Journey Optimizer] または **カスタムアクション** サードパーティ製システムを使用してメッセージを送信する場合。
 
    * **ジャーニーデザイナー**&#x200B;を使用すると、エントリイベントやセグメントの読み取りアクティビティを簡単にドラッグ＆ドロップして、条件を追加し、パーソナライズされたメッセージを送信するなど、複数の手順から成るユースケースを作成できます。
 
