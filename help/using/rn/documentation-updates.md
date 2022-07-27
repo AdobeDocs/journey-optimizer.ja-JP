@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 98%
+source-wordcount: '1733'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 98%
 
 ## 2022年7月 {#july-2022}
 
-* 「**メッセージプリセットの作成**」の節が更新され、より明確になり、SMS チャネルの設定方法を説明するページへのリンクが追加されました。[詳細情報](../configuration/message-presets.md#create-message-preset)
+* [!DNL Journey Optimizer] の 7 月 22 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* この **チャネルサーフェスを設定する** の節に、SMS チャネルの設定方法を説明するページへのリンクが追加され、明確になり、更新されました。 [詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
+* ジャーニーのプロパティで、 **プロファイルのタイムゾーン** オプションは、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 内 **待機** アクティビティ **固定日付** オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
+* 詳しくは、 **増分読み取り** オプション **セグメントを読み取り** アクティビティ。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* レコメンデーションを **プロファイルキャップ** 条件タイプ。 [詳細情報](../building-journeys/condition-activity.md#profile_cap)
+* ビジネスイベントに関する制限を追加しました。 [詳細情報](../start/guardrails.md#events-g)
 
 ## 2022年6月 {#june-2022}
 
@@ -42,7 +48,7 @@ ht-degree: 98%
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。[詳細情報](../reports/live-report.md)
 * Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。[詳細情報](../action/about-custom-action-configuration.md)
 * チュートリアルビデオへのリンクが更新されました。
-* [メール設定](../configuration/about-subdomain-delegation.md)、[メッセージプリセット](../configuration/message-presets.md)および[ランディングページの設定](../configuration/lp-subdomains.md)の節が再編成され、読みやすくなりました。
+* [メール設定](../configuration/about-subdomain-delegation.md)、[メッセージプリセット](../configuration/channel-surfaces.md)および[ランディングページの設定](../configuration/lp-subdomains.md)の節が再編成され、読みやすくなりました。
 * URL トラッキングの節が更新および改訂され、例が追加されました。[詳細情報](../configuration/email-settings.md#url-tracking)
 * 転送メールアドレスの設定に関する新しい節が追加されました。ユーザーインターフェイスでは実行できません。[詳細情報](../configuration/email-settings.md#forward-email)
 
@@ -53,8 +59,8 @@ ht-degree: 98%
 * 意思決定管理機能に関するビデオが更新され、Journey Optimizer のユーザーインターフェイスが反映されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 * **データセットの基本を学ぶ**&#x200B;の節が改善され、データセットへのアクセスおよび作成方法の詳細が追加されました。[詳細情報](../start/get-started-datasets.md)
 * ヘルプガイドおよび製品リリースノートへのリンクが **Adobe Journey Optimizer ドキュメント**&#x200B;のホームページに追加されました。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
-* **メッセージプリセットの作成**&#x200B;の節で、選択した IP プールが編集中（**[!UICONTROL 処理中]**&#x200B;ステータス）で選択したサブドメインに関連付けられていないときは、プリセットの作成を続行できないことが明記されるようになりました。[詳細情報](../configuration/message-presets.md#subdomains-and-ip-pools)
-* 「メッセージプリセットの作成」の **URL トラッキング**&#x200B;の節が更新され、ユーザーインターフェイスの小さな変更が反映されました。[詳細情報](../configuration/message-presets.md#url-tracking)
+* **メッセージプリセットの作成**&#x200B;の節で、選択した IP プールが編集中（**[!UICONTROL 処理中]**&#x200B;ステータス）で選択したサブドメインに関連付けられていないときは、プリセットの作成を続行できないことが明記されるようになりました。[詳細情報](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* 「メッセージプリセットの作成」の **URL トラッキング**&#x200B;の節が更新され、ユーザーインターフェイスの小さな変更が反映されました。[詳細情報](../configuration/channel-surfaces.md#url-tracking)
 
 ## 2022年3月 {#march-2022}
 
@@ -78,7 +84,7 @@ ht-degree: 98%
 * **Offer Decisioning AI ランキング**&#x200B;の節が更新され、自動最適化モデルの詳細な説明が追加されました。[詳細情報](../offers/ranking/auto-optimization-model.md)
 * ランキング戦略を使用する際にイベントタイプを送信できるようにするために必要な、スキーマ要件に関する新しい節が追加されました。[詳細情報](../offers/ranking/schema-requirement.md)
 * [!DNL Journey Optimizer] パーソナライズ機能に関連する節が再編成され、読みやすくなりました。[詳細情報](../personalization/personalize.md)
-* この&#x200B;**メッセージプリセットの作成**&#x200B;の節は、わかりやすくするために複数のセクションに分かれています。[詳細情報](../configuration/message-presets.md#create-message-preset)
+* この&#x200B;**メッセージプリセットの作成**&#x200B;の節は、わかりやすくするために複数のセクションに分かれています。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 * この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../messages/consent.md#opt-out-management)
 * この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../design/message-tracking.md#insert-links)
 
@@ -93,14 +99,13 @@ ht-degree: 98%
 * [!DNL Journey Optimizer] 10月21日リリースに含まれているすべての新機能と機能強化について詳しくは、ドキュメントを参照してください。[詳細情報](release-notes.md)
 * **日時関数**&#x200B;の一覧を追加しました。[詳細情報](../personalization/functions/dates.md)
 * **ユーザーペルソナごとの「基礎知識」節**&#x200B;を新しく用意しました。目標をより早く達成するには、自分に合ったパスを選んでください。[詳細情報](../start/quick-start.md)
-* **メッセージプリセットの編集**&#x200B;の節を新しく用意しました。[詳細情報](../configuration/message-presets.md#edit-message-preset)
+* **メッセージプリセットの編集**&#x200B;の節を新しく用意しました。[詳細情報](../configuration/channel-surfaces.md#edit-channel-surface)
 * **PTR レコードの編集**&#x200B;の節を新しく用意しました。[詳細情報](../configuration/ptr-records.md#edit-ptr-record)
-* **メッセージプリセットの非アクティブ化**&#x200B;の節を新しく用意しました。[詳細情報](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* **メッセージプリセットの非アクティブ化**&#x200B;の節を新しく用意しました。[詳細情報](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
 * モバイル [!DNL Experience Edge] ワークフローでサポートされていないオファー制約に関する新しい制限事項が&#x200B;**意思決定管理 API 開発者ガイド**&#x200B;に追加されました。[詳細情報](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * **シミュレーションの作成**&#x200B;の節を新しく用意しました。[詳細情報](../offers/offer-activities/simulation.md)
 * **決定範囲の追加**&#x200B;の節を更新しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * カスタムテキストの定義とパーソナライズの方法に関する新しい[サブセクション](../offers/offer-library/creating-personalized-offers.md#custom-text)を追加するなど、**表示域のコンテンツの定義**&#x200B;の節を更新しました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#content)
-
 
 ## 2021年9月 {#september-2021}
 
@@ -143,7 +148,7 @@ ht-degree: 98%
 * 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/global-report.md)
 * 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../configuration/allow-list.md#reporting)
 * 「許可リストの有効化」の節を更新しました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
-* 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/message-presets.md#monitor-message-presets)
+* 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * メッセージプリセットのメール再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。[詳細情報](../configuration/retries.md#retry-duration)
 * ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](../messages/consent.md#one-click-opt-out-link)
 * 「サブドメインのデリゲート」の節を更新して、アドビで実行される検証プロセスについて詳しく説明しました。[詳細情報](../configuration/delegate-subdomain.md#subdomain-validation)

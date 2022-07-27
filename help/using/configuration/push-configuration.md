@@ -4,7 +4,7 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 92%
@@ -352,7 +352,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 モバイルアプリがで設定されたら、 [!DNL Adobe Experience Platform Data Collection]からプッシュ通知を送信するには、サーフェスを作成する必要があります。 **[!DNL Journey Optimizer]**.
 
-でチャネルサーフェスを作成および設定する方法を説明します。 [この節](../configuration/message-presets.md).
+でチャネルサーフェスを作成および設定する方法を説明します。 [この節](../configuration/channel-surfaces.md).
 
 これで、Journey Optimizer でプッシュ通知を送信する準備が整いました。
 

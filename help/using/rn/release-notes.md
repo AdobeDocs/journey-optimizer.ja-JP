@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 28%
 
 ---
 
@@ -17,27 +17,22 @@ ht-degree: 88%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
 
->[!CAUTION]
->
->7 月 25 日に、Adobe Journey Optimizerは [新機能](../rn/inline-messages.md) これにより、Journey Optimizerチャネル（E メール、プッシュ、SMS）のコンテンツを作成する方法が向上します。 Journey Optimizerの開業医として、今は [作成および作成](../messages/get-started-content.md) メッセージをジャーニーから直接送信します。 ジャーニーの自動コンバージョンが実行されます。 しかし、いくつかの手順に関して、皆様のご協力が必要となります。 詳しくは、 [必須手順](../rn/inline-messages-steps.md).
-
-## 2022年6月リリース {#june-2022-release}
+## 2022年7月リリース {#july-2022-release}
 
 ### 新機能
 
 <table>
 <thead>
 <tr>
-<th><strong>ユーザーへの SMS の送信（使用制限あり）</strong><br/></th>
+<th><strong>新しいインラインメッセージフロー</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
-<img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS チャネルは現在、一連の組織でのみ使用できます（使用制限があります）。 詳しくは、アドビ担当者にお問い合わせください。</p>
-<p>SMS の作成および送信方法については、この<a href="../messages/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
+<p>Journey Optimizerでは、メッセージをオーサリングするための新しいフローがジャーニーで提供されます。 インラインメッセージにより、Journey Optimizerで E メール、プッシュ通知または SMS を作成および配信する際のユーザーの時間を大幅に節約し、ワークフロープロセスを合理化します。 メッセージを別の手順として削除し、ジャーニーキャンバス上での操作の一環としてインラインで編集可能にすることで、ユーザーはボタンを少なくし、画面を移動してコンテンツをデザインおよび編集する必要があります。</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>詳しくは、<a href="../messages/get-started-content.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -47,15 +42,15 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Stock との統合による効果的な画像の迅速な検索</strong><br/></th>
+<th><strong>属性ベースのアクセス制御（限られた可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock と Adobe Journey Optimizer 電子メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。</br> 新しい「<b>類似のストックフォトを検索</b>」オプションを使用すると、画像の内容、カラーおよび構成に一致するストックフォトを見つけることもできます。 </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
-<p>詳しくは、<a href="../design/stock.md">詳細なドキュメント</a>を参照してください。</p>
+<p>組織またはデータの使用範囲を定義するラベルを持つスキーマフィールドを識別できるようになりました。 管理者は、権限インターフェイスを使用して、XDM スキーマフィールドをカバーするアクセスポリシーを定義し、ユーザーまたはユーザーのグループ（内部、外部、またはサードパーティのユーザー）に与えるアクセスをより管理し、特定の種類のデータ（機密の個人データ/SPD）にアクセスできます。</p>
+<p>属性ベースのアクセス制御の使用は、現在、選択したユーザーに制限されており、将来のリリースですべての環境にデプロイされます。</p>
+<p>詳しくは、<a href="../administration/attribute-based-access.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -64,24 +59,25 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>すべてのメールでの「BCC で E メールを送信」の使用</strong><br/></th>
+<th><strong>バッチ判定ジョブ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>BCC（ブラインドカーボンコピー）でメールを送信機能を使用して、Adobe Journey Optimizer から送信されたメールを保存できるようになりました。メールプリセットでこのオプションを有効にして、送信されたすべてのメールが BCC アドレスにブラインドコピーされるようにします。</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
-<p>詳しくは、<a href="../configuration/bcc-email.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ユーザーインターフェイスからバッチ判定ジョブを実行できるようになり、開発者がバッチ api ジョブを実行する必要がなくなり、マーケティングに必要な時間を短縮できます。 この新しいインターフェイスでは、ジョブを作成し、現在/過去のジョブを管理できます。</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>詳しくは、<a href="../offers/batch-delivery.md">詳細なドキュメントを参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,77 +86,35 @@ ht-degree: 88%
 <p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>サンドボックス間でのオブジェクトのコピー</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer サンドボックスから別のサンドボックスに（例：非実稼動サンドボックスから実稼動サンドボックスに）、エクスペリエンスを再作成できるようになりました。この新しい機能では、ジャーニーが正しく実行されるために必要なオブジェクトを含め、ジャーニー全体が一方の環境からもう一方の環境にコピーされます。ジャーニーに加えて、オファー、メッセージ、スキーマ、データセット、データソース、イベント、アクションなど、他のコンポーネントもコピーできます。</p>
-<p>詳しくは、 <a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。
+<p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
-
+-->
 
 ### 機能強化
-
-**意思決定管理**
-
-* **HTML および JSON ファイルのサポート** - 外部の HTML ファイルと JSON ファイルを Adobe Experience Cloud アセットライブラリからオファー表示域のコンテンツにドラッグ＆ドロップできるようになりました。[詳細情報](../offers/offer-library/add-representations.md#html-json)
-
-
-**メール**
-
-* **テンプレートとして保存** - メールコンテンツをテンプレートとして保存し、他のメッセージを作成する際に再利用できるようになりました。[詳細情報](../design/email-templates.md)
 
 <!--
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
-
 -->
+
+**メッセージ**
+
+* メッセージプリセットが **チャンネルサーフェス**. [詳細情報](../configuration/channel-surfaces.md)
 
 **管理**
 
-<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+* **PTR レコードのエディション** - PTR レコードを更新する場合、処理時間は最大 3 時間に制限されました。 [詳細情報](../configuration/ptr-records.md#processing)
 
-* **トラッキング URL パラメーターのプレビュー** - メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。[詳細情報](../configuration/email-settings.md#url-tracking)
+* **許可リストUI** - Journey Optimizerユーザーインターフェイスを使用して、新しい電子メールアドレスまたはドメインを許可リストに追加できるようになりました。 [詳細情報](../configuration/allow-list.md)
 
-* **メッセージプリセットの編集** - メッセージプリセットを更新する際、処理時間は最大 3 時間に制限されるようになりました。[詳細情報](../configuration/message-presets.md#edit-message-preset)
+* **許可リストロジックの更新** -許可リストロジックは、機能が有効になるとすぐに、リストが空でも適用されるようになりました。 [詳細情報](../configuration/allow-list.md#logic)
 
-* **IP プールの編集** - IP プールを更新する際、処理時間は最大 3 時間に制限されるようになりました。[詳細情報](../configuration/ip-pools.md#edit-ip-pool)
+* **URL トラッキングパラメーター** ：式エディターを使用して、E メールの表面に URL トラッキングパラメーター（メッセージプリセット）を設定できるようになりました。 [詳細情報](../configuration/email-settings.md#url-tracking)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+**Offer Decisioning**
 
-<!--
-**Reporting**
-
-* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
--->
+* **オーディエンスサイズ**  — 決定ルールを作成する際、オファーの実施要件を設定するセグメントやルールを選択する際、または決定範囲にセグメントやルールを追加する際に、新しいオーディエンスサイズ予測コンポーネントがユーザーインターフェイスに表示されるようになりました。

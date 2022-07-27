@@ -3,7 +3,7 @@ title: Journey Optimizer の基本を学ぶ（システム管理者向け）
 description: システム管理者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 87%
@@ -48,7 +48,7 @@ ht-degree: 87%
 
    * [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方で、**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../configuration/push-gs.md)
 
-   * 作成 **チャンネルサーフェス** （例：メッセージプリセット）e メール、sms およびプッシュ通知に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/message-presets.md)
+   * 作成 **チャンネルサーフェス** （例：メッセージプリセット）e メール、sms およびプッシュ通知に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/channel-surfaces.md)
 
    * の設定 **SMS チャネル** :SMS に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/sms-configuration.md)
 

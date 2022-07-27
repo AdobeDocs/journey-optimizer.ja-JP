@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >新しいキャンペーンを作成する前に、サーフェスチャネル（例：メッセージプリセット）とAdobe Experience Platformセグメントを使用できる状態にしておく必要があります。 詳しくは、次の節を参照してください。
 >
->* [チャネルサーフェスの作成](../configuration/message-presets.md)
+>* [チャネルサーフェスの作成](../configuration/channel-surfaces.md)
 >* [セグメントの基本を学ぶ](../segment/about-segments.md)
 
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 8%
@@ -61,7 +61,7 @@ ht-degree: 8%
 
 1. メッセージを選択 **[!UICONTROL カテゴリ]**:選択 **マーケティング** 商用メッセージの場合は、 **トランザクション** 商用以外のメッセージ（注文の確認、パスワードのリセット通知、配信情報など）の場合。
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >定義した場合 [頻度ルール](../configuration/frequency-rules.md) 特定のチャネルとカテゴリの場合、そのチャネルとカテゴリを選択すると、それらがメッセージに自動的に適用されます。 現在、 **[!UICONTROL マーケティング]** カテゴリは頻度ルールで使用できます。
 
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 1. チャネルを選択 **[!UICONTROL サーフェス]** （例：メッセージプリセット）を使用してメッセージを送信します。
 
-   サーフェスは、 [システム管理者](../start/path/administrator.md). ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/message-presets.md)。
+   サーフェスは、 [システム管理者](../start/path/administrator.md). ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ ht-degree: 8%
 
 ![](assets/show-read-only.png)
 
-詳細設定パラメーターがメッセージウィンドウの下部に表示されます。 これらのパラメーターは、 [システム管理者](../start/path/administrator.md) 内 [チャンネル表面](../configuration/message-presets.md) （例：メッセージプリセット）をメッセージに関連付けました。
+詳細設定パラメーターがメッセージウィンドウの下部に表示されます。 これらのパラメーターは、 [システム管理者](../start/path/administrator.md) 内 [チャンネル表面](../configuration/channel-surfaces.md) （例：メッセージプリセット）をメッセージに関連付けました。
 
 プッシュ通知の場合、次のパラメーターを表示できます。トークン、AppID、AppPlatform。
 
@@ -155,7 +155,7 @@ E メールの場合は、プライマリ E メールアドレスを表示でき
 >
 >E メールの場合は、既存のメッセージをテンプレートに変換することもできます。 [詳細情報](../design/email-templates.md)。
 
-## メッセージの削除
+## メッセージの削除{#delete-message}
 
 メッセージを削除するには、チャネルアクションアクティビティウィンドウの上部にあるごみ箱アイコンを使用します。
 

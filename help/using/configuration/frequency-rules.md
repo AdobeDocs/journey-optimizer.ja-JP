@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 85%
+source-wordcount: '908'
+ht-degree: 86%
 
 ---
 
@@ -128,9 +128,19 @@ ht-degree: 85%
 
 1. 選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択したメッセージは、頻度ルールに照らして評価されません。
+1. **[!UICONTROL 頻度ルール]**&#x200B;リンクをクリックして、選択したカテゴリおよびチャネルに適用される頻度ルールを表示します。
+
+   ![](assets/message-rules-msg-link.png)
+
+   新しいタブが開き、一致するメッセージ頻度ルールが表示されます。
+
+選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
+
+>[!NOTE]
+>
+>**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択したメッセージ<!--that do not have any selected category or messages -->は、頻度ルールに照らして評価されません。
+
+<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. 配信から除外されたプロファイルの数を [グローバルレポート](../reports/global-report.md)、および [ライブレポート](../reports/live-report.md)：頻度ルールが、配信から除外されたユーザーに考えられる理由として表示されます。
 

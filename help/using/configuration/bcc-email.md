@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 88%
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 ## BCC メールの有効化 {#enable-bcc}
 
-を有効にするには、以下を実行します。 **[!UICONTROL BCC 電子メール]** 」オプションを選択し、選択した E メールアドレスを [チャンネル表面](message-presets.md) （例：メッセージプリセット）。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+を有効にするには、以下を実行します。 **[!UICONTROL BCC 電子メール]** 」オプションを選択し、選択した E メールアドレスを [チャンネル表面](channel-surfaces.md) （例：メッセージプリセット）。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
 
 >[!NOTE]
 >

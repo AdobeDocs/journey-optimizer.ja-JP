@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 68%
+source-wordcount: '1208'
+ht-degree: 63%
 
 ---
 
 # メール設定 {#email-settings}
 
-チャネルサーフェスの専用セクション（メッセージプリセット）設定で E メール設定を定義します。 でサーフェスを作成する方法を学ぶ [この節](message-presets.md).
+チャネルサーフェスの専用セクション（メッセージプリセット）設定で E メール設定を定義します。 でサーフェスを作成する方法を学ぶ [この節](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="電子メールカテゴリの定義"
->abstract="このチャネルサーフェスを使用する際に送信される E メールのタイプを選択します。ユーザーの同意を必要とするプロモーション E メールのマーケティング、または非商用 E メールのトランザクション。特定のコンテキストで購読解除されたプロファイルに送信することもできます。"
+>abstract="このサーフェスを使用する際に送信されるメッセージのタイプを選択します。ユーザーの同意を必要とするプロモーションメッセージや、商用以外のメッセージに対するトランザクションをマーケティング。特定のコンテキストで配信停止済みのプロファイルに送信することもできます。"
 
-内 **電子メールのタイプ** 「 」セクションで、チャネルサーフェスと共に送信されるメッセージのタイプを選択します。 **マーケティング** または **トランザクション**.
+内 **電子メールのタイプ** 「 」セクションで、サーフェスと共に送信されるメッセージのタイプを選択します。 **マーケティング** または **トランザクション**.
 
 * 選択 **マーケティング** プロモーション E メールの場合：これらのメッセージにはユーザーの同意が必要です。
 
@@ -181,20 +181,22 @@ ht-degree: 68%
 
 URL トラッキングパラメーターを設定するには、目的の値を&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;フィールドで直接入力することができます。
 
-次のオブジェクトに移動して、事前定義済みの値のリストから選択することもできます。
-* ジャーニー属性：**ソース ID**、**ソース名**、**ソースバージョン ID**
-* アクション属性：**アクション ID**、**アクション名**
-* Offer Decisioning 属性：**オファー ID**、**オファー名**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->フォルダーは選択しないでください。必要なフォルダーを参照し、トラッキングパラメーター値として使用するプロファイル属性を選択します。
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+また、 **[!UICONTROL 値]** を使用するフィールド [式エディター](../personalization/personalization-build-expressions.md). 編集アイコンをクリックして、式エディターを開きます。 ここから、任意のコンテキスト属性を選択したり、テキストを直接編集したりできます。
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 以下に、Adobe Analytics および Google Analytics 互換 URL の例を示します。
 
@@ -204,7 +206,7 @@ You can drag and drop the parameters to reorder them.-->
 
 >[!NOTE]
 >
->テキスト値の入力と、事前定義された値の選択を組み合わせることができます。各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドには、合計 255 文字まで入力できます。
+>テキスト値の入力と、式エディタ (Expression Editor) からのコンテキスト属性の使用を組み合わせることができます。 各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドには、合計 255 文字まで入力できます。
 
 結果のトラッキング URL を動的にプレビューできます。パラメーターを追加、編集、または削除するたびに、プレビューが自動的に更新されます。
 

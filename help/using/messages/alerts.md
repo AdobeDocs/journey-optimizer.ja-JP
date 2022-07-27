@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 72%
@@ -49,7 +49,7 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/message-presets.md#email-type) （例：メッセージプリセット）レベルとタイミング [メッセージの作成](get-started-content.md#create-new-message).
+   >マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/channel-surfaces.md#email-type) （例：メッセージプリセット）レベルとタイミング [メッセージの作成](get-started-content.md#create-new-message).
 
 * **[!UICONTROL HTML のテキストバージョンが空です]**：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。テキストバージョンの作成方法については、[この節](../design/text-version-email.md)を参照してください。
 
@@ -67,7 +67,7 @@ ht-degree: 72%
 
 * **[!UICONTROL メッセージの電子メールバージョンが空です]**：このエラーは、電子メールのコンテンツが設定されていない場合に表示されます。メールコンテンツの設計方法については、[この節](../design/design-emails.md)で説明します。
 
-* **[!UICONTROL サーフェスが存在しません]**:メッセージの作成後に選択したサーフェスを削除した場合は、メッセージを使用できません。 このエラーが発生した場合は、メッセージ内の別のサーフェスを選択します **[!UICONTROL プロパティ]**. でのチャネルサーフェスの詳細を説明します [この節](../configuration/message-presets.md).
+* **[!UICONTROL サーフェスが存在しません]**:メッセージの作成後に選択したサーフェスを削除した場合は、メッセージを使用できません。 このエラーが発生した場合は、メッセージ内の別のサーフェスを選択します **[!UICONTROL プロパティ]**. でのチャネルサーフェスの詳細を説明します [この節](../configuration/channel-surfaces.md).
 
 * **[!UICONTROL プッシュの iOS / Android ペイロードが 4KB の制限を超えています]**：プッシュ通知のサイズは、4KB を超えることはできません。この制限を守るために、画像や絵文字の使用を減らすようにしてください。プッシュ通知コンテンツの管理方法については、[この節](create-push.md)を参照してください。
 

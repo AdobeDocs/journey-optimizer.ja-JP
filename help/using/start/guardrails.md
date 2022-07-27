@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 81%
+source-wordcount: '744'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 81%
 ### イベント {#events-g}
 
 * システム生成イベントの場合、まず Journey Optimizer 内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
+* ビジネスイベントは、単一のイベントやセグメントの選定アクティビティと組み合わせて使用することはできません。
 
 ### データソース {#data-sources-g}
 

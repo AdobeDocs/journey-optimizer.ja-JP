@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 100%
+source-wordcount: '1360'
+ht-degree: 95%
 
 ---
 
@@ -112,6 +112,10 @@ ht-degree: 100%
 ## プロファイルキャップ {#profile_cap}
 
 この条件タイプを使用して、ジャーニーパスの最大プロファイル数を設定します。この制限に到達すると、エントリするプロファイルは代替パスを使用します。これにより、ジャーニーが定義された制限を超えないようにします。
+
+    >[！注意 ]
+    >
+    > 高値のプロファイルキャップを定義することをお勧めします。 母集団が正確なキャップ数に達するのは、キャップが増加するにつれてのみ増加する精度と可能性です。 小さい数（キャップ 50 など）の場合、プロファイルが代替パスを取る前に制限に達しない可能性があるので、数値は常に一致するとは限りません。
 
 この条件タイプを使用すると、配信の量を増やすことができます。この[ユースケース](ramp-up-deliveries-uc.md)を参照してください。
 

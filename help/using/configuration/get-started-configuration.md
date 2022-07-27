@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 76%
@@ -22,7 +22,7 @@ ht-degree: 76%
 
 1. **メッセージとチャネルの設定**:チャネルサーフェスを定義し、メッセージを調整してカスタマイズします。
 
-   * チャネルサーフェスを作成して、メッセージの配信に必要なすべての技術的パラメータを設定します。 [詳細](message-presets.md)
+   * チャネルサーフェスを作成して、メッセージの配信に必要なすべての技術的パラメータを設定します。 [詳細](channel-surfaces.md)
 
    * Adobe Experience Platform で使用可能なアドレスが複数ある場合、受信者に優先して使用するメールアドレスを決定します。[詳細](primary-email-addresses.md)
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 86%
@@ -53,7 +53,7 @@ ht-degree: 86%
 
 デフォルトでは、メッセージがメールキューに追加されてから **3.5 日**（**84 時間**）の間、再試行が実行されます。
 
-ただし、不要になったときに再試行が実行されなくなるように、 [チャンネル表面](message-presets.md) （例：メッセージプリセット）E メールチャネルに適用する際に使用します。
+ただし、不要になったときに再試行が実行されなくなるように、 [チャンネル表面](channel-surfaces.md) （例：メッセージプリセット）E メールチャネルに適用する際に使用します。
 
 例えば、1 日のみ有効なリンクを含むパスワードリセットに関するトランザクションメールの場合は、再試行期間を 24 時間に設定できます。同様に、真夜中のセールの場合は、再試行期間を 6 時間に設定するとよいでしょう。
 
@@ -61,5 +61,5 @@ ht-degree: 86%
 >
 >再試行期間は 84 時間を超えることはできません。再試行期間の下限は、マーケティングメールの場合は 6 時間、トランザクションメールの場合は 10 分です。
 
-でチャネルサーフェスを作成する際に E メールの再試行パラメーターを調整する方法を説明します。 [この節](message-presets.md#create-message-preset).
+でチャネルサーフェスを作成する際に E メールの再試行パラメーターを調整する方法を説明します。 [この節](channel-surfaces.md#create-channel-surface).
 

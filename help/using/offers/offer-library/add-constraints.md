@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="優先度"
+>title="優先度を設定"
 >abstract="ユーザーが複数のオファーの対象となる場合、優先度は他のオファーと比較したオファーの優先度の定義に役立ちます。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。"
 
 制約を使用すると、オファーを表示する条件を定義できます。
@@ -40,6 +40,10 @@ ht-degree: 100%
 1. **[!UICONTROL オファー実施要件]**&#x200B;を設定します。[詳細情報](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
 
@@ -63,8 +67,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="実施要件"
->abstract="オファーの実施要件を使用すると、セグメントや決定ルールを使用して定義する特定のプロファイルにオファーを制限できます。"
+>title="実施要件を定義"
+>abstract="デフォルトでは、任意のプロファイルにオファーを提示する資格がありますが、セグメントまたは決定ルールを使用して、オファーを特定のプロファイルに制限できます。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ ht-degree: 100%
 
    決定ルールについて詳しくは、[この節](creating-decision-rules.md)を参照してください。
 
-## フリークエンシーキャップ {#capping}
+## キャッピング {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="キャッピング"
->abstract="キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。"
+>title="制限を使用"
+>abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる最大回数を定義します。"
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
@@ -178,8 +182,8 @@ E メールの準備時に、オファーが提案された回数が計算され
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="日付を変更すると、キャッピングに影響を与える可能性があります"
->abstract="このオファーにキャッピングが適用されている場合、開始日または終了日を変更すると影響を受ける可能性があります。"
+>title="日付を変更すると、制限に影響を与える場合があります"
+>abstract="このオファーにキャッピングが適用されている場合、開始日または終了日を変更する際に影響を受ける可能性があります。"
 
 オファーの日付を変更する場合は、次の条件を満たすとキャッピングに影響を与える可能性があるので、慎重に行う必要があります。
 
@@ -191,7 +195,7 @@ E メールの準備時に、オファーが提案された回数が計算され
 >
 >オファーの日付を定義する方法については、[この節](creating-personalized-offers.md#create-offer)を参照してください。
 
-プロファイルごとのフリークエンシーキャップでは、各プロファイルのキャッピング回数が保存されます。承認されたオファーの開始日と終了日を変更すると、以下に説明する様々なシナリオに従って、一部のプロファイルのキャッピングカウントが影響を受ける可能性があります。
+プロファイルごとのキャッピングには、各プロファイルのキャッピング回数が格納されます。 承認されたオファーの開始日と終了日を変更すると、以下に説明する様々なシナリオに従って、一部のプロファイルのキャッピングカウントが影響を受ける可能性があります。
 
 ![](../assets/offer-capping-change-date.png)
 

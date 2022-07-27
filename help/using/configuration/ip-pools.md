@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 70%
@@ -50,7 +50,7 @@ IP プールを作成するには、次の手順に従います。
    >
    >インスタンスでプロビジョニングされた IP アドレスがすべてリストに表示されます。
 
-IP プールが作成され、リストに表示されるようになりました。これを選択してプロパティにアクセスし、関連するチャネルサーフェス（メッセージプリセット）を表示できます。 チャネルサーフェスを IP プールに関連付ける方法の詳細については、を参照してください。 [この節](message-presets.md).
+IP プールが作成され、リストに表示されるようになりました。これを選択してプロパティにアクセスし、関連するチャネルサーフェス（メッセージプリセット）を表示できます。 チャネルサーフェスを IP プールに関連付ける方法の詳細については、を参照してください。 [この節](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -76,14 +76,14 @@ IP プールを編集するには :
 
 1. 変更を保存します。
 
-更新は、 [チャンネル表面](message-presets.md) または次の場合は除外します。
+更新は、 [チャンネル表面](channel-surfaces.md) または次の場合は除外します。
 
 * IP プールが **not** チャンネルサーフェスに関連付けられている場合、更新は即時 (**[!UICONTROL 成功]** ステータス )。
 * IP プールの場合 **が** チャネルサーフェスに関連付けられている場合、更新には最大 3 時間かかる場合があります (**[!UICONTROL 処理中]** ステータス )。
 
 >[!NOTE]
 >
->条件 [チャネルサーフェスの作成](message-presets.md#create-message-preset)エディション中の IP プール (**[!UICONTROL 処理中]** ステータス ) に関連付けられ、そのサーフェスに対して選択されたサブドメインに関連付けられていない場合は、サーフェスの作成を続行できません。 [詳細情報](message-presets.md#subdomains-and-ip-pools)
+>条件 [チャネルサーフェスの作成](channel-surfaces.md#create-channel-surface)エディション中の IP プール (**[!UICONTROL 処理中]** ステータス ) に関連付けられ、そのサーフェスに対して選択されたサブドメインに関連付けられていない場合は、サーフェスの作成を続行できません。 [詳細情報](channel-surfaces.md#subdomains-and-ip-pools)
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。
 

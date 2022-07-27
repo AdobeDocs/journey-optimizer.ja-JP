@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 96%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 96%
    + 配信品質 {#deliverability}
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リストについて](using/reports/suppression-list.md)
-+ 意志決定管理 {#offer-decisioniong}
++ 意志決定管理 {#offer-decisioning}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
       + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
@@ -293,6 +293,7 @@ ht-degree: 96%
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
       + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
+   + [バッチ判定](using/offers/batch-delivery.md)
    + 意思決定管理レポートの作成 {#create-reports}
       + [意思決定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [意思決定管理イベントの主な情報](using/offers/reports/key-information.md)
@@ -380,8 +381,8 @@ ht-degree: 96%
             + [再試行](using/configuration/retries.md)
             + [許可リスト](using/configuration/allow-list.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
-      + チャネルサーフェスを設定する {#set-up-message-presets}
-         + [チャネルサーフェスの作成](using/configuration/message-presets.md)
+      + チャネルサーフェスを設定する {#set-up-channels}
+         + [チャネルサーフェスの作成](using/configuration/channel-surfaces.md)
          + [メール設定](using/configuration/email-settings.md)
          + [BCC メールを使用](using/configuration/bcc-email.md)
       + [実行アドレスを管理](using/configuration/primary-email-addresses.md)

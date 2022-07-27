@@ -4,9 +4,9 @@ description: を使用してキャンペーンをトリガー化する方法を�
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -15,15 +15,16 @@ ht-degree: 3%
 
 ## API トリガーキャンペーンについて {#about}
 
+>[!NOTE]
+>
+>インタラクティブメッセージ実行 API は現在ベータ版です。通知なしに頻繁に更新される可能性があります。
+
+
 を使用 [!DNL Journey Optimizer]を使用すると、キャンペーンを作成してから、 [インタラクティブメッセージ実行 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). これにより、運用上およびトランザクション上の様々なニーズに対応できます。例えば、パスワードのリセットや OTP トークンなどです。
 
 これをおこなうには、まずJourney Optimizerで API トリガーキャンペーンを作成し、次に API 呼び出しを通じて実行を開始する必要があります。
 
 API トリガーキャンペーンで使用できるチャネルは、E メール、SMS、プッシュメッセージです。
-
->[!NOTE]
->
->インタラクティブメッセージ実行 API は現在ベータ版です。通知なしに頻繁に更新される可能性があります。
 
 ## API トリガーキャンペーンの作成 {#create}
 
@@ -86,9 +87,11 @@ API トリガーキャンペーンを実行するには、まずその ID を取
 
 その後、この ID を API ペイロードに使用して、キャンペーンをトリガー化できます。 詳しくは、 [インタラクティブなメッセージ実行 API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) を参照してください。
 
+キャンペーンを作成する際に特定の開始日や終了日を設定している場合、そのキャンペーンはこれらの日付以外では実行されず、API 呼び出しは失敗します。
+
 >[!NOTE]
 >
->キャンペーンの作成時に特定の開始日や終了日を設定している場合、これらの日付以外ではキャンペーンが実行されず、API 呼び出しは失敗します。
+>場合によっては、システムに存在しないプロファイルにトランザクションメッセージを送信する必要があります。 例えば、不明なユーザーが Web サイトにログインしようとした場合などです。 その場合、対応するプロファイルがAdobe Experience Platformの **AJO インタラクティブメッセージプロファイルデータセット** データセット。
 
 ## その他のリソース
 

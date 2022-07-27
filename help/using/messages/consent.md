@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1331'
 ht-degree: 88%
@@ -41,7 +41,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/message-presets.md#email-type) （例：メッセージプリセット）レベルとタイミング [メッセージの作成](get-started-content.md#create-new-message).
+>マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/channel-surfaces.md#email-type) （例：メッセージプリセット）レベルとタイミング [メッセージの作成](get-started-content.md#create-new-message).
 
 ### 外部オプトアウト {#opt-out-external-lp}
 
@@ -177,7 +177,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 >abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除リンクを追加します。配信停止 URL を設定するには、E メールコンテンツにワンクリックオプトアウトリンクを挿入します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=ja#one-click-opt-out" text="ワンクリックオプトアウト"
 
-この [List-Unsubscribe オプション](../configuration/message-presets.md#list-unsubscribe) がチャネルの表面レベルで有効になっている場合、対応する e メールが [!DNL Journey Optimizer] 電子メールヘッダーに配信停止リンクが含まれます。
+この [List-Unsubscribe オプション](../configuration/channel-surfaces.md#list-unsubscribe) がチャネルの表面レベルで有効になっている場合、対応する e メールが [!DNL Journey Optimizer] 電子メールヘッダーに配信停止リンクが含まれます。
 
 例えば、購読解除リンクは Gmail では次のように表示されます。
 
@@ -187,7 +187,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 >
 >メールヘッダーに購読解除リンクを表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
 
-配信停止アドレスがデフォルトです **[!UICONTROL 宛先（配信停止）]** 対応するチャネルサーフェスに表示されるアドレス。 [詳細情報](../configuration/message-presets.md#list-unsubscribe)。
+配信停止アドレスがデフォルトです **[!UICONTROL 宛先（配信停止）]** 対応するチャネルサーフェスに表示されるアドレス。 [詳細情報](../configuration/channel-surfaces.md#list-unsubscribe)。
 
 パーソナライズした購読解除 URL を設定するには、メールメッセージコンテンツにワンクリックオプトアウトリンクを挿入し、自分で選んだ URL を入力します。[詳細情報](#one-click-opt-out)
 

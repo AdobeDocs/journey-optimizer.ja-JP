@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 90%
@@ -57,7 +57,7 @@ ht-degree: 90%
 
 ![](assets/title-body-push.png)
 
-* アプリを開くには、「**[!UICONTROL アプリを開く]**」オプションを選択します。通知に関連付けられているアプリは、 [チャンネル表面](../configuration/message-presets.md) （例：メッセージプリセット）。
+* アプリを開くには、「**[!UICONTROL アプリを開く]**」オプションを選択します。通知に関連付けられているアプリは、 [チャンネル表面](../configuration/channel-surfaces.md) （例：メッセージプリセット）。
 * アプリ内の特定のコンテンツ部分にユーザーをリダイレクトするには、「**[!UICONTROL ディープリンク]**」オプションを選択します。特定のコンテンツには、特定のビュー、ページの特定のセクション、特定のタブがあります。オプションを選択したら、関連するフィールドにディープリンクを入力します。
 * ユーザーを外部 URL にリダイレクトするには、「**[!UICONTROL Web URL]**」オプションを使用します。オプションを選択したら、関連するフィールドに URL を入力します。
 

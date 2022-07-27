@@ -4,7 +4,7 @@ description: Journey Optimizer で SMS メッセージを送信するように�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 47%
@@ -84,7 +84,7 @@ SMS チャネルを設定したら、SMS メッセージを送信するチャネ
 
    >[!NOTE]
    >
-   >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-message-presets)を参照してください。
+   >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-channel-surfaces)を参照してください。
 
 1. チェックが正常に完了すると、チャネルサーフェスは **[!UICONTROL アクティブ]** ステータス。 メッセージの配信に使用する準備が整いました。
 

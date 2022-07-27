@@ -4,7 +4,7 @@ description: Journey Optimizer でランディングページを作成および�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
@@ -77,7 +77,7 @@ ht-degree: 100%
 <!--
 >[!NOTE]
 >
->Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
+>Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
 
 **関連トピック**:
 

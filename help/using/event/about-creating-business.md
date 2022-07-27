@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1139'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 100%
 * ビジネスイベントがトリガーされた後、セグメントを書き出すのに、15 分から 1 時間の遅延が生じます。
 * ビジネスイベントをテストする場合は、イベントパラメーターと、テストジャーニーにエントリするテストプロファイルの ID を渡す必要があります。また、ビジネスイベントベースのジャーニーをテストする場合は、1 つのプロファイルエントリのみをトリガーできます。[この節](../building-journeys/testing-the-journey.md#test-business)を参照してください。テストモードでは、「コードビュー」モードは使用できません。
 * 新しいビジネスイベントが発生した場合、現在ジャーニーにいる個人はどうなりますか？新しい繰り返しが発生しても、個人は引き続き繰り返しジャーニー内に留まるのと同様です。パスは終了しました。その結果、頻繁なビジネスイベントが予測される場合、マーケターは作成するジャーニーが長くなりすぎるのを避けるために注意を払う必要があります。
+* ビジネスイベントは、単一のイベントやセグメントの選定アクティビティと組み合わせて使用することはできません。
 
 ## 複数のビジネスイベント {#multiple-business-events}
 

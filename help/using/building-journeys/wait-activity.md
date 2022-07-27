@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 89%
+source-wordcount: '327'
+ht-degree: 87%
 
 ---
 
@@ -18,15 +18,17 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="待機アクティビティ"
->abstract="パス内の次のアクティビティを実行するまで待機する場合は、「待機」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。期間、固定日およびカスタム。"
+>abstract="パス内の次のアクティビティを実行するまで待機する場合は、「待機」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。次の 2 つのオプションを使用できます。期間とカスタム。"
 
 パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。
 
 * [期間](#duration)
-* [固定日付](#fixed_date)
 * [カスタム](#custom)
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## 待機アクティビティについて{#about_wait}
 
@@ -40,11 +42,14 @@ ht-degree: 89%
 
 ![](assets/journey55.png)
 
-## 固定日待機{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-次のアクティビティの実行日を選択します。
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## カスタム待機{#custom}
 

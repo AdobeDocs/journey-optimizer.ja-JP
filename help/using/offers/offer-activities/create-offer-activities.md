@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 実施要件]**」フィールドを使用して、このプレースメントのオファーの選択を制限します。
 
-   この制約は、**決定ルール**&#x200B;または 1 つ以上の **Adobe Experience Platform セグメント**&#x200B;を使用して適用できます。この両方について詳しくは、[この節](#segments-vs-decision-rules)を参照してください。
+   この制約は、**決定ルール**&#x200B;または 1 つ以上の **Adobe Experience Platform セグメント**&#x200B;を使用して適用できます。この両方について詳しくは、[この節](../offer-library/add-constraints.md#segments-vs-decision-rules)を参照してください。
 
    * オファーの選択を Experience Platform セグメントのメンバーに限定するには、「**[!UICONTROL セグメント]**」を選択したあと、「**[!UICONTROL セグメントを追加]**」をクリックします。
 
@@ -87,6 +87,10 @@ ht-degree: 100%
       ![](../assets/activity_constraint_rule.png)
 
       決定ルールの作成方法については、 [この節](../offer-library/creating-decision-rules.md)を参照してください。
+
+      >[!NOTE]
+      >
+      >セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
 
 1. プロファイルごとに最適なオファーを選択するためのランキング方法を定義します。
 
@@ -117,26 +121,6 @@ ht-degree: 100%
 1. この決定の一部としてオファーに別のプレースメントを追加するには、「**[!UICONTROL 新しいスコープ]**」ボタンを使用します。決定範囲ごとに、上記の手順を繰り返します。
 
    ![](../assets/activity_new-scope.png)
-
-### セグメントと決定ルールの使用上の違い {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-制約を適用するには、1 つまたは複数の **Adobe Experience Platform セグメント**&#x200B;のメンバーにオファーの選択を限定するか、**決定ルール**&#x200B;を使用します。どちらの手段もそれぞれ異なる使用法に対応します。
-
-基本的に、セグメントの出力はプロファイルのリストです。一方、決定ルールは、決定プロセス中に単一プロファイルに対してオンデマンドで実行される関数です。この 2 つの使用法の違いを以下に詳しく説明します。
-
-* **セグメント**
-
-   セグメントは、プロファイル属性とエクスペリエンスイベントに基づく特定のロジックに一致する Adobe Experience Platform プロファイルのグループです。ただし、オファー管理ではセグメントの再計算は行われないので、オファーを提示する際にセグメントが最新でない可能性があります。
-
-   セグメントの詳細については、[この節](../../segment/about-segments.md)を参照してください。
-
-* **決定ルール**
-
-   一方、決定ルールは、Adobe Experience Platform で使用可能なデータに基づいており、オファーを誰に表示できるかを決定します。特定のプレースメントのオファーまたは決定でルールが選択されると、決定が行われるたびにそのルールが実行されるので、各プロファイルが最新かつ最適なオファーを確実に取得できます。
-
-   決定ルールについて詳しくは、[この節](../offer-library/creating-decision-rules.md)を参照してください。
 
 ## フォールバックオファーの追加 {#add-fallback}
 
