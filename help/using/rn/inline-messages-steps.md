@@ -3,7 +3,7 @@ title: ジャーニーのインラインオーサリングへの移行手順
 description: ジャーニーのインラインオーサリングへの移行手順
 exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
 source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
 ht-degree: 100%
 
