@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 78%
 
 ---
 
@@ -34,10 +34,10 @@ AI モデルを作成するには、次の手順を行います。
 
 1. 「**[!UICONTROL AI モデルを作成]**」ボタンをクリックします。
 
-1. AI モデルの一意の名前と説明を指定します。
+1. AI モデルの一意の名前と説明を指定し、作成する AI モデルのタイプを選択します。
 
-   <!--* **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)-->
+   * **[!UICONTROL 自動最適化]** は、過去のオファーのパフォーマンスに基づいてオファーを最適化します。 [詳細情報](auto-optimization-model.md)
+   * **[!UICONTROL パーソナライズ]** は、セグメントとオファーのパフォーマンスに基づいてオファーを最適化し、パーソナライズします。 [詳細情報](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -60,13 +60,13 @@ AI モデルを作成するには、次の手順を行います。
    >
    >「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループ（以前の mixin）に関連付けられたスキーマから作成されたデータセットのみがドロップダウンリストに表示されます。
 
-<!--1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
+1. 以下を作成する場合、 **[!UICONTROL パーソナライズ]** AI モデル：AI モデルのトレーニングに使用するセグメントを選択します。
 
-    ![](../assets/ai-ranking-segments.png)
+   ![](../assets/ai-ranking-segments.png)
 
-    >[!NOTE]
-    >
-    >You can select up to 5 segments.-->
+   >[!NOTE]
+   >
+   >最大 5 個のセグメントを選択できます。
 
 1. AI モデルを保存して有効化します。
 
