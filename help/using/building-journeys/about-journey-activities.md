@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '280'
 ht-degree: 98%
 
 ---
@@ -36,7 +36,6 @@ ht-degree: 98%
 画面左側にあるパレットで、次のオーケストレーションアクティビティを使用できます。
 
 * [条件](../building-journeys/condition-activity.md)
-* [終了](../building-journeys/end-activity.md)
 * [待機](../building-journeys/wait-activity.md)
 * [セグメントの読み取り](../building-journeys/read-segment.md)
 

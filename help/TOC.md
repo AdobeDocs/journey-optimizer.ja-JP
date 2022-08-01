@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1113'
 ht-degree: 96%
 
 ---
@@ -134,7 +134,6 @@ ht-degree: 96%
       + [反応](using/building-journeys/reaction-events.md)
       + [セグメントの選定](using/building-journeys/segment-qualification-events.md)
       + [条件](using/building-journeys/condition-activity.md)
-      + [終了](using/building-journeys/end-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
       + [メール、SMS、プッシュ](using/building-journeys/journeys-message.md)
