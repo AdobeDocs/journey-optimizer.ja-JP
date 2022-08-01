@@ -2,9 +2,9 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 24%
 
 **ジャーニー**
 
-* **ジャーニーの終了**  — ジャーニーキャンバスで、 **終了** アクティビティがパレットから削除されました。 終了タグは、デフォルトで各パスの最後に追加され、削除できなくなりました。 この改善により、ユーザーが何も操作しなくても、顧客がジャーニーから離脱した場所をより適切にレポートできるようになりました。 [詳細情報](../building-journeys/journey-end.md)
+* **ジャーニーの終了**  — ジャーニーキャンバスで、 **終了** アクティビティがパレットから削除されました。 終了タグは、デフォルトで各パスの最後に追加され、削除できなくなりました。 この改善により、ジャーニーの実行者から何のアクションも必要とせずに、お客様がジャーニーから離脱した場所をより適切にレポートできます。 詳しくは、 [ドキュメント](../building-journeys/journey-end.md) および [機能ビデオ](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 **メッセージ**
 
