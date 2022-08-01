@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 57%
+source-wordcount: '785'
+ht-degree: 51%
 
 ---
 
@@ -51,21 +51,21 @@ ht-degree: 57%
 >
 >クローズしたジャーニーや停止したジャーニーは再開できません。
 
-<!--
+### ジャーニー終了タグ{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+ジャーニーの作成時に、各パスの末尾に「終了タフ」が表示されます。 このノードは、ユーザーが追加できず、削除もできず、ラベルのみ変更できます。 ジャーニーの各パスの終わりを示します。 ジャーニーに複数のパスがある場合、レポートを読みやすくするために、各端にラベルを追加することをお勧めします。 [このページ](../reports/live-report.md)を参照してください。
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### 終了アクティビティ{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-**[!UICONTROL 終了]**&#x200B;アクティビティを使用すると、ジャーニーの各パスの終了箇所をマークできます。必須ではありませんが、見やすくするためにお勧めします。[このページ](../building-journeys/end-activity.md)を参照してください。
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### ジャーニーをクローズ{#close-journey}
 
