@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
+source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 51%
@@ -53,7 +53,7 @@ ht-degree: 51%
 
 ### ジャーニー終了タグ{#end-tag}
 
-ジャーニーの作成時に、各パスの末尾に「終了タフ」が表示されます。 このノードは、ユーザーが追加できず、削除もできず、ラベルのみ変更できます。 ジャーニーの各パスの終わりを示します。 ジャーニーに複数のパスがある場合、レポートを読みやすくするために、各端にラベルを追加することをお勧めします。 [このページ](../reports/live-report.md)を参照してください。
+ジャーニーの作成時に、各パスの末尾に「終了タグ」が表示されます。 このノードは、ユーザーが追加できず、削除もできず、ラベルのみ変更できます。 ジャーニーの各パスの終わりを示します。 ジャーニーに複数のパスがある場合、レポートを読みやすくするために、各端にラベルを追加することをお勧めします。 [このページ](../reports/live-report.md)を参照してください。
 
 ![](assets/journey-end.png)
 
