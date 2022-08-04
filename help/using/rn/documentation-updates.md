@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 94%
+source-wordcount: '1774'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 94%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
+## 2022年8月 {#august-2022}
+
+* 頻度ルールの節が更新され、新しいインラインメッセージフローが反映されました。 [詳細情報](../configuration/frequency-rules.md#apply-frequency-rule)
+* サブスクリプションの設定とランディングページの作成方法を示すビデオが、ランディングページの概要の節で参照されるようになりました。 [詳細情報](../landing-pages/get-started-lp.md#video)
+
 ## 2022年7月 {#july-2022}
 
 * [!DNL Journey Optimizer] の 7 月 22 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * この **チャネルサーフェスを設定する** の節に、SMS チャネルの設定方法を説明するページへのリンクが追加され、明確になり、更新されました。 [詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 * ジャーニーのプロパティで、 **プロファイルのタイムゾーン** オプションは、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * 内 **待機** アクティビティ **固定日付** オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
 * 詳しくは、 **増分読み取り** オプション **セグメントを読み取り** アクティビティ。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * レコメンデーションを **プロファイルキャップ** 条件タイプ。 [詳細情報](../building-journeys/condition-activity.md#profile_cap)

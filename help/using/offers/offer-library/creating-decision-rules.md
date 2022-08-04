@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 83%
+ht-degree: 75%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-1. ルールを作成すると、ルールリストに表示されます。選択するとプロパティが表示され、編集することも削除することもできます。
+1. ルールを作成すると、そのルールは「 **[!UICONTROL ルール]** リスト。 プロパティを表示するために選択し、編集または削除できます。
 
    ![](../assets/rule_created.png)
 

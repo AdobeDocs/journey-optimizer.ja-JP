@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 100%
 
 1. 制約を追加して、表示するオファーの条件を設定します。[詳細情報](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+
    ![](../assets/offer-constraints-example.png)
 
 1. オファーをレビューおよび保存します。[詳細情報](#review)
@@ -72,6 +76,10 @@ ht-degree: 100%
 実施要件ルールと制約を定義したら、オファープロパティの概要が表示されます。
 
 1. すべてが正しく設定されていることを確認します。
+
+1. 推定認定プロファイルに関する情報を表示できます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. オファーをユーザーに提示する準備ができたら、「**[!UICONTROL 完了]**」をクリックします。
 

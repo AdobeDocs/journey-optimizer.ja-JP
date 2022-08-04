@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1207'
 ht-degree: 63%
 
 ---
@@ -192,9 +192,13 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-また、 **[!UICONTROL 値]** を使用するフィールド [式エディター](../personalization/personalization-build-expressions.md). 編集アイコンをクリックして、式エディターを開きます。 ここから、任意のコンテキスト属性を選択したり、テキストを直接編集したりできます。
+また、 **[!UICONTROL 値]** を使用するフィールド [式エディター](../personalization/personalization-build-expressions.md). エディションアイコンをクリックして、エディターを開きます。 ここから、任意のコンテキスト属性を選択したり、テキストを直接編集したりできます。
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>テキスト値の入力と、式エディタ (Expression Editor) からのコンテキスト属性の使用を組み合わせることができます。 各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドには、合計 255 文字まで入力できます。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 * Adobe Analytics 互換 URL：`www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Google Analytics 互換 URL：`www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->テキスト値の入力と、式エディタ (Expression Editor) からのコンテキスト属性の使用を組み合わせることができます。 各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドには、合計 255 文字まで入力できます。
 
 結果のトラッキング URL を動的にプレビューできます。パラメーターを追加、編集、または削除するたびに、プレビューが自動的に更新されます。
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 98%
+source-wordcount: '1105'
+ht-degree: 95%
 
 ---
 
@@ -88,9 +88,9 @@ ht-degree: 98%
 
       決定ルールの作成方法については、 [この節](../offer-library/creating-decision-rules.md)を参照してください。
 
-      >[!NOTE]
-      >
-      >セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+1. セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. プロファイルごとに最適なオファーを選択するためのランキング方法を定義します。
 
@@ -142,7 +142,7 @@ ht-degree: 98%
 
    ![](../assets/review-decision.png)
 
-   各プレースメントを展開または折りたたむことができます。また、プレースメントごとに、使用可能なオファー、実施要件およびランキングの詳細をプレビューすることもできます。
+1. 各プレースメントを展開または折りたたむことができます。各配置に使用可能なオファー、実施要件、ランキングの詳細をプレビューできます。 また、推定認定プロファイルに関する情報を表示することもできます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
 
    ![](../assets/review-decision-details.png)
 

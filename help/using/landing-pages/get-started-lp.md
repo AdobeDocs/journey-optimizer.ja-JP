@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 76%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ランディングページは、メール、web サイト、広告、またはその他のデジタル化された場所からユーザーがクリックスルーした後に表示されるスタンドアロン web ページです。
 
 [!DNL Journey Optimizer] を使用すると、ランディングページを作成およびデザインして、ユーザーはオンラインフォームにアクセスし、コミュニケーションのオプトインやオプトアウトを行ったり、ニュースレターなどの特定のサービスを購読したりできます。
+
+➡️ [サブスクリプションの設定とランディングページの作成について詳しくは、このビデオを参照してください。](#video)
 
 * [!DNL Journey Optimizer]のコンテンツデザイン機能を活用すると、**レスポンシブランディングページ**&#x200B;を簡単に作成できます。
 * **オプトインおよびオプトアウトフロー**&#x200B;を迅速かつシームレスに設定します。
@@ -34,8 +36,8 @@ ht-degree: 100%
 </tr>
 </table>
 
-<!--
+## ハウツービデオ{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+次のビデオでは、購読リストの作成、サービスの購読/購読解除をおこなうためのランディングページの設定、メッセージへの（購読解除）オプションの統合、関連するジャーニーの設定方法を示します。
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

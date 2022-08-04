@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1478'
 ht-degree: 43%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 43%
 
 >[!CAUTION]
 >
-> * チャネルサーフェスを作成、編集、削除するには、 [チャンネルサーフェスを管理](../administration/high-low-permissions.md#manage-channel-surface).
+> * チャネルサーフェスを作成、編集、削除するには、 [チャンネルサーフェスを管理](../administration/high-low-permissions.md#manage-channel-surface) 権限。
 >
 > * 次の操作を実行する必要があります。 [電子メール設定](#configure-email-settings), [プッシュ設定](../configuration/push-configuration.md) および [SMS 設定](../configuration/sms-configuration.md) チャネルサーフェスを作成する前の手順です。
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1643'
 ht-degree: 93%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 93%
 1. **[!UICONTROL オファー実施要件]**&#x200B;を設定します。[詳細情報](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
 
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
 
@@ -99,6 +95,10 @@ ht-degree: 93%
    >[!CAUTION]
    >
    >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
+
+セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### セグメントと決定ルールの使用上の違い {#segments-vs-decision-rules}
 

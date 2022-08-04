@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 24%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 * **許可リストロジックの更新** -許可リストロジックは、機能が有効になるとすぐに、リストが空でも適用されるようになりました。 [詳細情報](../configuration/allow-list.md#logic)
 
-* **URL トラッキングパラメーター** ：式エディターを使用して、E メールの表面に URL トラッキングパラメーター（メッセージプリセット）を設定できるようになりました。 [詳細情報](../configuration/email-settings.md#url-tracking)
+* **URL トラッキングパラメーター** ：式エディターを使用して、電子メールの表面（つまりプリセット）で URL トラッキングパラメーターを設定できるようになりました。 [詳細情報](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
