@@ -1,6 +1,6 @@
 ---
-title: キャンペーンのグローバルレポート
-description: キャンペーンのグローバルレポートのデータの使用方法を説明します
+title: Campaign グローバルレポート
+description: Campaign のグローバルレポートのデータの使用方法を説明します
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 81%
+source-wordcount: '1736'
+ht-degree: 65%
 
 ---
 
-# キャンペーンのグローバルレポート {#campaign-global-report}
+# Campaign グローバルレポート {#campaign-global-report}
 
-キャンペーンのグローバルレポートには、 **[!UICONTROL グローバル表示]** 」ボタンをクリックします。
+Campaign グローバルレポートには、 **[!UICONTROL グローバル表示]** 」ボタンをクリックします。
 
 キャンペーン **[!UICONTROL グローバルレポート]** ページが次のタブと共に表示されます。
 
@@ -41,11 +41,53 @@ ht-degree: 81%
 
 * **[!UICONTROL アクションが%で失敗しました]**:アクションが配信されたユニーク回数の合計に対する、ジャーニーでアクションが失敗したユニーク回数の合計です。
 
-<!--
-### Experimentation tab (#experimentation-global)
+### 目標 (#objectives-global)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>コンテンツ実験機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
+
+![](assets/performance_report.gif)
+
+この **[!UICONTROL 目標]** 」タブを使用すると、1 つの特定の指標をターゲット設定することで、配信のレポートをより細かく調整できます。
+
+この **[!UICONTROL 目標]** リストは次にリンクされています： **[!UICONTROL データセット]** 追加情報を取得するためにシステムへの接続を定義する 組み込みの **[!UICONTROL 目標]** は使用できますが、新しい **[!UICONTROL データセット]**. 詳細な手順については、このドキュメントを参照してください。
+
+ターゲットにする目標を選択した後、2 つの目標 **[!UICONTROL パフォーマンスの概要]** および **[!UICONTROL キャンペーンの目的]** ウィジェットには、配信パフォーマンスの詳細な概要が表示されます。
+
+を使用 **[!UICONTROL キャンペーンの目的]** ウィジェットを使用して、主な目標を別の指標と比較することもできます。
+
+各ウィジェットは、必要に応じてサイズ変更や削除が可能です。 詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
+
+### 実験 (#experimentation-global)
+
+>[!AVAILABILITY]
+>
+>コンテンツ実験機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
+
+![](assets/experimentation_report_3.png)
+
+キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL 実験]** 「 」タブには、各バリアントのパフォーマンスに関する主な情報の詳細と、パフォーマンスが最も優れているかどうかに関する情報が表示されます。
+
+最もパフォーマーの高いものを定義するには、しばらく時間がかかる場合があります。このアイコンが表示されます ![](assets/experimentation_report_1.png).
+
+この **[!UICONTROL 実験結果]** ウィジェットは、各バリアントのパフォーマンスの詳細を説明します。 基準を変更するには、 **[!UICONTROL ベースライン]** ドロップダウン。 最も良い治療法は星のアイコンで表されます。
+
+この表は、次の指標を示しています。
+
+* **[!UICONTROL プロファイル]**:この治療の対象となるプロファイルの数。
+
+* **[!UICONTROL 個別アウトバウンドクリック数]**:アウトバウンドチャネルでのクリック総数。
+
+* **[!UICONTROL プロファイルあたりの数]**:実験の目的の指標の合計値を、プロファイル数で割った値です。
+
+* **[!UICONTROL 信頼区間]**:ベースラインと最もパフォーマンスの高い治療との間の性能差の割合。 [詳細情報](../campaigns/experiment-calculations.md#confidence-intervals)。
+
+* **[!UICONTROL 平均上昇率]**:ベースラインに対する特定の治療のコンバージョン率の改善率。 [詳細情報](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL 信頼性]**:与えられた治療が基準治療と同じであるという証拠。 [詳細情報](../campaigns/experiment-calculations.md#understand-confidence)
+
+これらの結果の詳細と解釈については、 [このページ](../campaigns/get-started-experiment.md#interpret-results).
 
 ## 「メール」タブ {#email-global}
 
@@ -73,7 +115,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 * **[!UICONTROL 除外済み]**:Adobe Journey Optimizerによって除外されたプロファイルの数。
 
-**[!UICONTROL メール - トラッキング統計情報]**&#x200B;には、配信に対する受信者のアクティビティを確認できるデータが表示されます。
+この **[!UICONTROL E メール — トラッキング統計]** ウィジェットには、配信の受信者アクティビティに使用できるデータが含まれます。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
 

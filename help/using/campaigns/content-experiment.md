@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '641'
+ht-degree: 2%
 
 ---
 
 # コンテンツ実験の作成 {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>コンテンツ実験機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
 コンテンツ実験機能を使用すると、複数の配信トリートメントを定義できます。 関心のあるオーディエンスは、関心の指標に関してどれが最も効果が高いかを判断するために、各治療にランダムに割り当てられます。 E メールの内容、件名、送信者を変更できます。
 
@@ -121,4 +127,12 @@ ht-degree: 1%
 1. キャンペーンが正しく設定されていることを確認し、 **[!UICONTROL 有効化]** をクリックして起動します。
 
    ![](assets/content_experiment_14.png)
+
+## 実験レポート {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL 実験]** 「 」タブには、各バリアントのパフォーマンスに関する主な情報の詳細と、テスト中に最もパフォーマンスの高かったかどうかに関する情報が表示されます。
+
+このレポートについて詳しくは、 [Campaign グローバルレポート](../campaigns/content-experiment.md#experimentation-report) ページ。
 
