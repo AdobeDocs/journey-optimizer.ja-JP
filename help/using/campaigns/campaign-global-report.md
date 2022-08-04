@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1734'
 ht-degree: 65%
 
 ---
@@ -41,7 +41,7 @@ Campaign グローバルレポートには、 **[!UICONTROL グローバル表�
 
 * **[!UICONTROL アクションが%で失敗しました]**:アクションが配信されたユニーク回数の合計に対する、ジャーニーでアクションが失敗したユニーク回数の合計です。
 
-### 目標 (#objectives-global)
+### 目標 {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ Campaign グローバルレポートには、 **[!UICONTROL グローバル表�
 
 各ウィジェットは、必要に応じてサイズ変更や削除が可能です。 詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
 
-### 実験 (#experimentation-global)
+### 実験 {#experimentation-global}
 
 >[!AVAILABILITY]
 >
