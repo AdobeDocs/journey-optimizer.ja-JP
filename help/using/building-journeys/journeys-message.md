@@ -9,7 +9,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 16%
+ht-degree: 37%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 16%
 
 ジャーニーにメッセージを追加するには、次の手順に従います。
 
-1. ジャーニーを開始するには、 [イベント](general-events.md) または [セグメントを読み取り](read-segment.md) アクティビティ。
+1. ジャーニーを「[イベント](general-events.md)」または「[セグメントの読み取り](read-segment.md)」アクティビティで開始します。
 
-1. 次の **アクション** パレットのセクションで、 **電子メール**、 **SMS** または **プッシュ** アクティビティをキャンバスに追加します。
+1. パレットの「**アクション**」セクションで、**メール**、**SMS** または&#x200B;**プッシュ**&#x200B;アクティビティをキャンバスに追加します。
 
    ![](../messages/assets/add-a-message.png)
 

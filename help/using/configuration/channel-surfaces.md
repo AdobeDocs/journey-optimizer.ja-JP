@@ -1,5 +1,5 @@
 ---
-title: チャネルサーフェスを設定する
+title: チャネルサーフェスの設定
 description: チャネルサーフェスを設定および監視する方法を説明します
 feature: Application Settings
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 43%
 
 ---
 
-# チャネルサーフェスを設定する {#set-up-channel-surfaces}
+# チャネルサーフェスの設定 {#set-up-channel-surfaces}
 
 を使用 [!DNL Journey Optimizer]を使用する場合は、メッセージに必要なすべての技術パラメーターを定義するチャネルサーフェス（メッセージプリセット）を設定できます。e メールのタイプ、送信者の e メールと名前、モバイルアプリなど。
 

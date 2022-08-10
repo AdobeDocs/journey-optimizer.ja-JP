@@ -4,7 +4,8 @@ description: データ使用ポリシーおよびデータガバナンスサー�
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
+exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 34%

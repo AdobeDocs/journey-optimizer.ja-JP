@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!CAUTION]
 >
->7 月 25 日に、Adobe Journey Optimizerは [新機能](using/rn/inline-messages.md) これにより、Journey Optimizerチャネル（E メール、プッシュ、SMS）のコンテンツを作成する方法が向上します。 Journey Optimizerの開業医として、今は [作成および作成](using/messages/get-started-content.md) メッセージをジャーニーから直接送信します。 ジャーニーの自動コンバージョンが実行されます。 しかし、いくつかの手順に関して、皆様のご協力が必要となります。 詳しくは、 [必須手順](using/rn/inline-messages-steps.md).
+>7月25日（PT）、Adobe Journey Optimizer は、Journey Optimizer チャネル（メール、プッシュ、SMS）用のコンテンツのオーサリング方法を改善する[新機能](using/rn/inline-messages.md)をリリースします。Journey Optimizer の実務担当者は、ジャーニーから直接メッセージを[作成およびオーサリング](using/messages/get-started-content.md)できるようになりました。ジャーニーの自動コンバージョンが行われます。とは言え、いくつかの手順に関してはユーザーの協力が必要です。詳しくは、[必須な手順](using/rn/inline-messages-steps.md)を参照してください。
 
 <table style="table-layout:fixed">
 <tr>
@@ -56,7 +56,7 @@ ht-degree: 80%
     <div>
       <a href="using/messages/get-started-content.md">メッセージの送信</a>
     </div>
-    <p>カスタマージャーニーにプッシュ、SMS、E メールメッセージを追加する方法を説明します
+    <p>カスタマージャーニーにプッシュ、SMS およびメールメッセージを追加する方法について説明します
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">初めてのジャーニーの作成</a>

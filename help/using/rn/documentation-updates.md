@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 92%
 
 ## 2022年7月 {#july-2022}
 
-* [!DNL Journey Optimizer] の 7 月 22 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* この **チャネルサーフェスを設定する** の節に、SMS チャネルの設定方法を説明するページへのリンクが追加され、明確になり、更新されました。 [詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
-* ジャーニーのプロパティで、 **プロファイルのタイムゾーン** オプションは、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
+* [!DNL Journey Optimizer] の 7月22日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* **チャネルサーフェスの設定**&#x200B;の節が更新され、より明確になり、SMS チャネルの設定方法を説明するページへのリンクが追加されました。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
+* ジャーニーのプロパティの「**プロファイルのタイムゾーン**」オプションが、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-* 内 **待機** アクティビティ **固定日付** オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
-* 詳しくは、 **増分読み取り** オプション **セグメントを読み取り** アクティビティ。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* レコメンデーションを **プロファイルキャップ** 条件タイプ。 [詳細情報](../building-journeys/condition-activity.md#profile_cap)
-* ビジネスイベントに関する制限を追加しました。 [詳細情報](../start/guardrails.md#events-g)
+* **待機**&#x200B;アクティビティで、「**固定日付**」オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
+* **セグメントを読み取り**&#x200B;アクティビティに「**増分読み取り**」オプションに関する詳細情報を追加しました。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* **プロファイルキャップ**&#x200B;条件タイプに関する推奨事項を追加しました。[詳細情報](../building-journeys/condition-activity.md#profile_cap)
+* ビジネスイベントに関する制限事項を追加しました。 [詳細情報](../start/guardrails.md#events-g)
 
 ## 2022年6月 {#june-2022}
 
@@ -43,7 +43,7 @@ ht-degree: 92%
 * 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
 * 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
 * すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../messages/send-time-optimization.md)
-* パーソナライズされたオファーを配信するために、バッチ判定 API が使用可能な API のリストに追加されました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* パーソナライズされたオファーを配信するために、Batch Decisioning API が使用可能な API のリストに追加されました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022年5月 {#may-2022}
 

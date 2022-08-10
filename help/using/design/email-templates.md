@@ -5,8 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
-workflow-type: ht
+exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
 
@@ -63,4 +64,3 @@ ht-degree: 100%
 1. 画面右上の「**[!UICONTROL この電子メールを使用]**」をクリックします。
 
 1. 電子メールデザイナーを使用して、必要に応じてコンテンツを編集します。
-

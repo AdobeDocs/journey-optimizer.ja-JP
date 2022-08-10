@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1331'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/channel-surfaces.md#email-type) （例：メッセージプリセット）レベルとタイミング [メッセージの作成](get-started-content.md#create-new-message).
+>マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)（例：メッセージプリセット）レベルで、また[メッセージの作成](get-started-content.md#create-new-message)時に定義されます。
 
 ### 外部オプトアウト {#opt-out-external-lp}
 
@@ -55,7 +55,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 1. 任意のサードパーティ製システムでホストします。
 
-1. [メッセージの作成](get-started-content.md) ジャーニーで。
+1. ジャーニーで[メッセージを作成します](get-started-content.md)。
 
 1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../design/message-tracking.md#insert-links)します。
 
@@ -159,7 +159,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
    >[!NOTE]
    >
-   >を有効にした場合、 **List-Unsubscribe** オプション（チャネルサーフェスレベル）の場合、この URL は、ユーザーが e メールヘッダーの配信停止リンクをクリックしたときにも使用されます。 [詳細情報](#unsubscribe-header)
+   >**List-Unsubscribe** オプションをチャネルサーフェスレベルで有効にした場合、この URL は、ユーザーがメールヘッダーの購読解除リンクをクリックしたときにも使用されます。[詳細情報](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -169,15 +169,15 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 メッセージが[ジャーニー](../building-journeys/journey.md)を通して送信された後、受信者がオプトアウトリンクをクリックすると、受信者のプロファイルは直ちにオプトアウトされます。
 
-### E メールヘッダーのリンクを購読解除 {#unsubscribe-header}
+### メールヘッダーの購読解除リンク {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="メールヘッダーへの購読解除リンクの追加"
->abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除リンクを追加します。配信停止 URL を設定するには、E メールコンテンツにワンクリックオプトアウトリンクを挿入します。"
+>abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除リンクを追加します。購読解除 URL を設定するには、メールのコンテンツにワンクリックオプトアウトリンクを挿入します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=ja#one-click-opt-out" text="ワンクリックオプトアウト"
 
-この [List-Unsubscribe オプション](../configuration/channel-surfaces.md#list-unsubscribe) がチャネルの表面レベルで有効になっている場合、対応する e メールが [!DNL Journey Optimizer] 電子メールヘッダーに配信停止リンクが含まれます。
+[List-Unsubscribe オプション](../configuration/channel-surfaces.md#list-unsubscribe)がチャネルサーフェスレベルで有効になっている場合、対応するメールが [!DNL Journey Optimizer] で送信される際には、メールヘッダーに購読解除リンクが含まれています。
 
 例えば、購読解除リンクは Gmail では次のように表示されます。
 
@@ -187,7 +187,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 >
 >メールヘッダーに購読解除リンクを表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
 
-配信停止アドレスがデフォルトです **[!UICONTROL 宛先（配信停止）]** 対応するチャネルサーフェスに表示されるアドレス。 [詳細情報](../configuration/channel-surfaces.md#list-unsubscribe)。
+購読解除アドレスは、対応するチャネルサーフェスに表示されるデフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。[詳細情報](../configuration/channel-surfaces.md#list-unsubscribe)。
 
 パーソナライズした購読解除 URL を設定するには、メールメッセージコンテンツにワンクリックオプトアウトリンクを挿入し、自分で選んだ URL を入力します。[詳細情報](#one-click-opt-out)
 
@@ -211,7 +211,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 
 ## SMS オプトアウト管理 {#sms-opt-out-management}
 
-SMS 受信者は、業界標準および規制に従って、オプトインおよびオプトアウトキーワードを使用して返信できます。
-Adobe Journey Optimizerは受信メッセージで次のキーワードを自動的に処理します。START、STOP、および UNSTOP。 これらのキーワードトリガーは、SMS プロバイダーからの自動標準返信です。
+業界標準および規制に従い、SMS 受信者はオプトインおよびオプトアウトのキーワードを使用して返信できます。
+Adobe Journey Optimizer では、受信メッセージ内の START、STOP および UNSTOP のキーワードを自動的に処理します。これらのキーワードトリガーは、SMS プロバイダーからの自動標準返信です。
 
-SMS オプトアウトについて詳しくは、 [ページ](../messages/create-sms.md#opt-in-and-opt-out).
+SMS オプトアウトについて詳しくは、この[ページ](../messages/create-sms.md#opt-in-and-opt-out)を参照してください。

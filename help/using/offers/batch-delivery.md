@@ -1,15 +1,15 @@
 ---
-title: バッチ判定
+title: Batch Decisioning
 description: 特定のAdobe Experience Platformセグメント内のすべてのプロファイルにオファーの決定を配信する方法を説明します。
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
+source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
-
-# バッチ判定 {#deliver}
+# Batch Decisioning {#deliver}
 
 ## バッチ判定の概要 {#start}
 

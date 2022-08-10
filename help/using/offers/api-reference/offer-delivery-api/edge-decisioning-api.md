@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
  Experience Platform Web SDK では、意思決定管理を含む Adobe のパーソナライゼーションソリューションのクエリをサポートしており、API またはオファーライブラリを使用して作成した、パーソナライズされたオファーを取得およびレンダリングできます。詳しい手順については、[オファーの作成](../../get-started/starting-offer-decisioning.md)についてのドキュメントを参照してください。
 
-[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja#video-overview) を使用して Offer Decisioning を実装するには、次の 2 つの方法があります。1 つ目は、開発者が対象の、web サイトやプログラミングに関する知識を必要とする方法です。もう 1 つは、Adobe Experience Platform のユーザーインターフェイスを使用して、HTML ページのヘッダーで参照する小さなスクリプトのみを必要とするオファーを設定する方法です。
+[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) を使用して Offer Decisioning を実装するには、次の 2 つの方法があります。1 つ目は、開発者が対象の、web サイトやプログラミングに関する知識を必要とする方法です。もう 1 つは、Adobe Experience Platform のユーザーインターフェイスを使用して、HTML ページのヘッダーで参照する小さなスクリプトのみを必要とするオファーを設定する方法です。
 
 Platform Web SDK を使用してパーソナライズされたオファーを配信する方法の詳細については、[Offer Decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ja#enabling-offer-decisioning) に関するドキュメントを参照してください。
 
@@ -92,7 +92,7 @@ Offer Decisioning の SDK を設定するには、次の 2 つの手順に従い
 
 Web SDK が事前にビルドされたスタンドアロンインストールを使用した Offer Decisioning を使用するために必要な手順を次に示します。このガイドは、SDK を初めて実装する場合を想定しています。そのため、すべての手順が当てはまるとは限りません。このガイドは、ある程度の開発経験も前提としています。
 
-オプション 2 から次の JavaScript スニペットを含める：HTML ページの「`<head>` 」セクションに表示される[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)のビルド済みスタンドアロンバージョン。
+オプション 2 から次の JavaScript スニペットを含める：HTML ページの「`<head>` 」セクションに表示される[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en)のビルド済みスタンドアロンバージョン。
 
 ```
 javascript

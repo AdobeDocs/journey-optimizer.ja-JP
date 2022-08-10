@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 
@@ -76,7 +76,7 @@ E メールメッセージレベルでトラッキングを有効にするには
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../messages/consent.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/channel-surfaces.md#email-type) （例：メッセージプリセット）レベルとタイミング [メッセージの作成](../messages/get-started-content.md#create-new-message).
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../messages/consent.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)（例：メッセージプリセット）レベルで、また[メッセージの作成](../messages/get-started-content.md#create-new-message)時に定義されます。
 
 ## ミラーページへのリンク {#mirror-page}
 

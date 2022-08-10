@@ -4,7 +4,8 @@ description: プライバシーリクエストとPrivacy Serviceの詳細
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: b800a4a1b87e5e0ea23985dce4d12c60045b1eab
+exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 17%

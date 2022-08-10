@@ -1,5 +1,5 @@
 ---
-title: オファー配信 API の概要
+title: オファー配信 API の基本を学ぶ
 description: パーソナライズされたオファーを配信するために使用できる API について詳しく説明します。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
-# オファー配信 API の概要 {#about-decisioning-apis}
+# オファー配信 API の基本を学ぶ {#about-decisioning-apis}
 
 **Decisioning** API または **Edge Decisioning** API のいずれかを使用してオファーを配信できます。また、 **バッチ判定** API を使用すると、特定のセグメント内のすべてのプロファイルに対して、1 回の呼び出しでオファーを配信できます。 セグメント内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 

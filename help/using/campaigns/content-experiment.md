@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -135,4 +136,3 @@ ht-degree: 2%
 キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL 実験]** 「 」タブには、各バリアントのパフォーマンスに関する主な情報の詳細と、テスト中に最もパフォーマンスの高かったかどうかに関する情報が表示されます。
 
 このレポートについて詳しくは、 [Campaign グローバルレポート](../campaigns/content-experiment.md#experimentation-report) ページ。
-

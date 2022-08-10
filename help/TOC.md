@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 95%
       + [コンテンツ実験の基礎知識](using/campaigns/get-started-experiment.md)
       + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
       + [統計指標について](using/campaigns/experiment-calculations.md)
-   + [API を使用したトリガーキャンペーン](using/campaigns/api-triggered-campaigns.md)
+   + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
    + レポート {#reports}
       + [キャンペーンのライブレポート](using/campaigns/campaign-live-report.md)
       + [キャンペーンのグローバルレポート](using/campaigns/campaign-global-report.md)
@@ -298,7 +298,7 @@ ht-degree: 95%
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
       + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
-   + [バッチ判定](using/offers/batch-delivery.md)
+   + [Batch Decisioning](using/offers/batch-delivery.md)
    + 意思決定管理レポートの作成 {#create-reports}
       + [意思決定管理イベントの概要](using/offers/reports/get-started-events.md)
       + [意思決定管理イベントの主な情報](using/offers/reports/key-information.md)
@@ -356,7 +356,7 @@ ht-degree: 95%
          + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
          + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
       + API を使用したオファーの配信 {#offer-delivery-api}
-         + [オファー配信 API の概要](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+         + [オファー配信 API の基本を学ぶ](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -386,7 +386,7 @@ ht-degree: 95%
             + [再試行](using/configuration/retries.md)
             + [許可リスト](using/configuration/allow-list.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
-      + チャネルサーフェスを設定する {#set-up-channels}
+      + チャネルサーフェスの設定 {#set-up-channels}
          + [チャネルサーフェスの作成](using/configuration/channel-surfaces.md)
          + [メール設定](using/configuration/email-settings.md)
          + [BCC メールを使用](using/configuration/bcc-email.md)

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 98%
 
 ---
 
@@ -120,7 +120,7 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 各パラメーターは、Handlebars 式です。これらのヘルパーは、テンプレート内の任意のコンテキストからアクセスできます。
 
 これらのブロックヘルパーは、ヘルパー名の先頭にある＃で識別され、対となる同じ名前の「/」タグで閉じる必要があります。
-ブロックは、ブロック開始タグ（{{# }}）と終了タグ（{{/}}）を持つ式です。
+ブロックとは、ブロック開き ({{# }}) and closing ({{/}}) をクリックします。
 
 
 >[!NOTE]

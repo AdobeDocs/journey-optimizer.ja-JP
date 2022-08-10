@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 15%
 
 ---
-
 
 # キャンペーンの変更または停止 {#modify-stop-campaign}
 

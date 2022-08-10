@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 ## 左側のナビゲーション {#left-nav}
 
-左側のリンクを参照して、にアクセスします [!DNL Journey Optimizer] 機能
+左側のリンクを参照して、[!DNL Journey Optimizer] 機能にアクセスします。
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ ht-degree: 93%
 >
 >使用できる機能は、ユーザーの権限と使用許諾契約によって異なる可能性があります。
 
-左側のナビゲーションで使用できるすべてのサービスと機能のリストと、関連するヘルプページへのリンクを以下に示します。
+左側のナビゲーションで利用できるサービスと機能の一覧と、関連するヘルプページへのリンクを以下に示します。
 
 **ホーム**
 
-[!DNL Journey Optimizer] ホームページには、開始するための主要なリンクとリソースが含まれています。この **[!UICONTROL 最近]** リストには、最近作成したイベントとジャーニーへのショートカットが表示されます。 このリストには、作成日と変更日およびステータスが表示されます。
+[!DNL Journey Optimizer] ホームページには、開始するための主要なリンクとリソースが含まれています。**[!UICONTROL 最近使用したもの]**&#x200B;リストには、最近作成したイベントおよびジャーニーへのショートカットが表示されます。このリストには、作成日と変更日およびステータスが表示されます。
 
 **[!UICONTROL ジャーニー管理]**
 
 * **[!UICONTROL ジャーニー]** ：お客様のジャーニーを作成、設定および調整します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL ランディングページ]**  — ランディングページの作成、デザイン、テスト、公開を行います。 [詳細情報](../landing-pages/get-started-lp.md)
+* **[!UICONTROL ランディングページ]** - ランディングページを作成、デザイン、テストおよび公開できます。[詳細情報](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL 意思決定管理]**
 
@@ -127,7 +127,7 @@ ht-degree: 93%
 | ユーザインターフェイス要素、セクションおよびメニューグループ間を後方に移動する | Shift + Tab |
 | セクション内を移動して個々の要素にフォーカスを設定する | 矢印 |
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
-| 選択をキャンセルする、ウィンドウを折りたたむ、またはダイアログボックスを閉じる | Esc |
+| 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
 
 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
@@ -274,7 +274,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ## 検索{#unified-search}
 
-Adobe Journey Optimizerインターフェイスの任意の場所で、上部バーの中央にある統合Adobe Experience Cloud検索機能を使用して、サンドボックス全体でアセット、ジャーニー、データセットなどを検索します。
+Adobe Journey Optimizer インターフェイスのどこからでも、上部バーの中央にある Adobe Experience Cloud 統合検索機能を使用して、サンドボックスをまたいでアセット、ジャーニー、データセットなどを検索できます。
 
 コンテンツの入力を開始すると、上位の結果が表示されます。入力したキーワードに関するヘルプ記事も結果に表示されます。
 
@@ -304,6 +304,6 @@ Adobe Journey Optimizerインターフェイスの任意の場所で、上部バ
 
 ![](assets/journey3bis.png)
 
-リストでは、各要素に対して基本的な操作を実行できます。 例えば、項目の複製や削除が可能です。
+リストで、各要素に対して基本的な操作を実行できます。例えば、項目の複製や削除が可能です。
 
 ![](assets/journey4.png)
