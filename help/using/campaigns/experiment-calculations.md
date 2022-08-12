@@ -4,11 +4,11 @@ description: 実験実行時に使用される統計指標の詳細を説明し�
 feature: Overview
 topic: Content Management
 role: User
-level: advanced
+level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 0%
