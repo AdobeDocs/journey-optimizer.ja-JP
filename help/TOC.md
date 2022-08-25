@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1124'
 ht-degree: 98%
 
 ---
@@ -37,16 +37,13 @@ ht-degree: 98%
 + キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
-   + [キャンペーンの変更または停止](using/campaigns/modify-stop-campaign.md)
+   + [ライブキャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験の基礎知識](using/campaigns/get-started-experiment.md)
       + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
       + [統計指標について](using/campaigns/experiment-calculations.md)
-   + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
-   + レポート {#reports}
-      + [キャンペーンのライブレポート](using/campaigns/campaign-live-report.md)
-      + [キャンペーンのグローバルレポート](using/campaigns/campaign-global-report.md)
       + [レポート設定](using/campaigns/reporting-configuration.md)
+   + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メッセージ {#messages}
    + [メッセージの基本を学ぶ](using/messages/get-started-content.md)
    + [メールの作成](using/messages/create-email.md)
@@ -244,11 +241,13 @@ ht-degree: 98%
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
+      + [キャンペーンライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートダッシュボードへのアクセス](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
+      + [Campaign グローバルレポート](using/reports/campaign-global-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
       + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
    + ジャーニーレポート {#reports}

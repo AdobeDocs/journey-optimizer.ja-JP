@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 21%
+source-wordcount: '294'
+ht-degree: 70%
 
 ---
 
@@ -20,39 +20,45 @@ ht-degree: 21%
 >title="メールの作成"
 >abstract="メールのパラメーターを 3 つの簡単な手順で定義します。"
 
+E メールは次の場所で作成できます。
 
-一度 [電子メールを追加しました](get-started-content.md) ジャーニー内 <!--or a campaign--> を設定し、基本的な設定を定義したら、e メールを設定して、そのコンテンツを定義できます。
+* 内 **ジャーニー**:ジャーニーに E メールアクティビティを追加し、基本設定を定義したら、 **[!UICONTROL アクション：電子メール]** プッシュ通知のコンテンツを作成するための右側のウィンドウ。
 
-## E メールコンテンツを定義{#email-content}
+   ジャーニーの設定方法について詳しくは、次を参照してください。 [ページ](../building-journeys/journey-gs.md).
 
-次をクリック： **[!UICONTROL コンテンツを編集]** ボタンをクリックして、E メールをデザインします。
+   ![](assets/email-edit-content.png)
 
-![](assets/email-edit-content.png)
+* 内 **Campaign**:キャンペーンを作成したら、アクションとして「 E メール」を選択し、基本設定を定義します。
 
-用途 [!DNL Journey Optimizer] メールデザイナーの宛先 [メールをゼロからデザインする](../design/create-email-content.md). 既存のコンテンツがある場合は、 [E メールデザイナーに読み込む](../design/existing-content.md)または [独自のコンテンツをコーディング](../design/code-content.md) in [!DNL Journey Optimizer].
+   キャンペーンの設定方法について詳しくは、次を参照してください。 [ページ](../campaigns/create-campaign.md#configure).
 
-[!DNL Journey Optimizer] 一連の [ビルトインテンプレート](../design/email-templates.md) 足を止めるために どの電子メールもテンプレートとして保存できます。
+   ![](assets/email_campaign.png)
 
-電子メールデザインの詳細 [この節](../design/design-emails.md).
+## メールコンテンツの定義{#email-content}
 
-用途 [!DNL Journey Optimizer] 式エディターを使用して、プロファイルのデータを使用してメッセージをパーソナライズします。 パーソナライズ機能について詳しくは、[この節](../personalization/personalize.md)参照してください。
+[!DNL Journey Optimizer] E メールデザイナーを使用[メールをゼロからデザインします](../design/create-email-content.md)。既存のコンテンツがある場合は、[E メールデザイナーに読み込む](../design/existing-content.md)または [!DNL Journey Optimizer] で[独自のコンテンツをコーディング](../design/code-content.md)できます。
 
-## E メールトラッキング{#email-tracking}
+[!DNL Journey Optimizer] 一連の [ビルトインテンプレート](../design/email-templates.md) をクリックして、作業を開始できます。 任意のメールをテンプレートとして保存することもできます。
 
-リンクの開封やクリックを通じて受信者の行動を追跡する場合は、次のオプションを有効にします。 **[!UICONTROL メール開封数]** および **[!UICONTROL メールをクリック]**. トラッキングの詳細については、[この節](../design/message-tracking.md)を参照してください。
+[!DNL Journey Optimizer] 式エディターを使用して、プロファイルのデータでメッセージをパーソナライズします。パーソナライズ機能について詳しくは、[この節](../personalization/personalize.md)参照してください。
 
+## メールトラッキング{#email-tracking}
 
-## E メールコンテンツの検証{#email-content-validate}
+受信者の動作を開封数やリンクのクリック数で追跡する場合、「**[!UICONTROL メールの開封数]**」オプションと「**[!UICONTROL メールのクリック数]**」オプションを有効にします。
 
-左側のプレビューセクションを使用して、E メールのレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。 詳しくは、[この節](../design/preview.md)を参照してください。
+トラッキングの詳細については、[この節](../design/message-tracking.md)を参照してください。
+
+## メールコンテンツの検証{#email-content-validate}
+
+メールのレンダリングを制御し、左側の「プレビュー」セクションを使用して、テストプロファイルでパーソナライゼーションの設定を確認します。詳しくは、[この節](../design/preview.md)を参照してください。
 
 ![](assets/messages-simple-preview.png)
 
 
-また、エディターの上部セクションでアラートを確認する必要があります。  単純な警告もありますが、メッセージの使用を妨げる可能性もあります。 詳しくは、[この節](alerts.md)を参照してください。
+また、エディターの上部セクションでアラートを確認します。単純な警告もありますが、メッセージの使用を妨げる可能性のある警告もあります。詳しくは、[この節](alerts.md)を参照してください。
 
 
 >[!NOTE]
 >
->この **[!UICONTROL 送信元メール]** および **[!UICONTROL 送信者名]** は、 **[!UICONTROL サーフェス]** が選択された回数： [メッセージの作成](get-started-content.md).
+>「**[!UICONTROL 送信元メール]**」と「**[!UICONTROL 送信者名]**」は、[メッセージの作成](get-started-content.md)時に選択した&#x200B;**[!UICONTROL サーフェス]**&#x200B;によって決定されます。
 

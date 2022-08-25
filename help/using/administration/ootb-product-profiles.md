@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 5087c5a13eda0b9b5894197b393788f82413690b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 96%
+source-wordcount: '1121'
+ht-degree: 85%
 
 ---
 
@@ -35,6 +35,46 @@ Adobe Journey Optimizer では、ジャーニーから直接メッセージを�
 
 **9月6日（PT）の時点で**、メッセージに関連する権限が削除され、メッセージにアクセスできなくなります。
 
+## [!DNL Campaign Administrator] {#campaign-administrator}
+
+この **[!DNL Campaign Administrator]** 製品プロファイルを使用すると、管理メニューでキャンペーンと決定管理を管理および公開できます。
+
+この製品プロファイルには、次の権限が含まれます：
+
+|機能 |権限| |-|-| |キャンペーン| <ul><li> **[!DNL Manage campaigns]**:キャンペーンの読み取り、作成、編集、削除を行います。</li><li>**[!DNL Publish campaigns]**:キャンペーンを公開します。</li><li>**[!DNL View campaigns report]**:キャンペーンレポートを読み取り、編集します。</li></ul>|
+|管理|<ul><li>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</li><li>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</li><li>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</li><li>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</li><li> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</li><li>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</li><li>**[!DNL Export suppression list]**:抑制リストを CSV ファイルとして書き出すためのアクセス権。</li><li>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。</li><li>**[!DNL Manage alerts]**:キャンペーン、メッセージおよび権利に関するアラートの有効化/無効化</li><li>**[!DNL Manage landing page settings]**:ランディングページの設定を読み取り、作成、編集、削除します。</li><li>**[!DNL Manage SMS settings]**:SMS 設定を読み取り、作成、編集および削除します。</li></ul>|
+|意思決定管理|<ul><li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li><li>**[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス。</li><li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>|
+
+## [!DNL Campaign Approver] {#campaign-approver}
+
+**[!DNL Campaign Approver]** 製品プロファイルを使用すると、ユーザーは配信を承認および公開できます。後から **[!DNL Campaigns]** レポートで配信の成功を確認できます。
+
+|機能 |権限| |-|-| |キャンペーン| <ul><li>**[!DNL Manage campaigns]**:キャンペーンの読み取り、作成、編集、削除を行います。</li><li>**[!DNL Publish campaigns]**:キャンペーンを公開します。</li><li>**[!DNL View Campaigns report]**:ジャーニーレポートの読み取り、編集。</li></ul>|
+|意思決定管理| <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムメッセージレポートの読み取り、作成、編集、削除を行い、アクション機能を使用する。</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>|
+|管理| <ul><li>**[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</li></ul>|
+
+## [!DNL Campaign Manager] {#campaign-manager}
+
+この **[!DNL Campaign Manager]** 製品プロファイルを使用すると、ユーザーは **[!UICONTROL キャンペーン]** そしてリンクされたすべての能力 **[!UICONTROL キャンペーン]** ただし、公開できません。
+
+この製品プロファイルには、次の権限が含まれます：
+
+|機能 |権限| |-|-| |キャンペーン| <ul><li>**[!DNL Manage campaigns]**:キャンペーンの読み取り、作成、編集、削除を行います。</li><li>**[!DNL View campaigns report]**：ジャーニーレポートの読み取り、編集。</li></ul>|
+|意思決定管理| <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムメッセージレポートの読み取り、作成、編集、削除を行い、アクション機能を使用する。</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>|
+|管理| <ul><li>**[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</li></ul>|
+
+## [!DNL Campaign viewer] {#campaign-viewer}
+
+この **[!DNL Campaign viewer]** 製品プロファイルを使用すると、 **[!UICONTROL キャンペーン]** および **[!UICONTROL 決定管理]** 機能
+
+この製品プロファイルに割り当てられたユーザーは、編集または公開はできません。
+
+この製品プロファイルには、次の権限が含まれます。
+
+|機能 |権限| |-|-| |キャンペーン| <ul><li>**[!DNL View campaigns]**:キャンペーンへの読み取り専用アクセス</li><li>**[!DNL View campaigns report]**:キャンペーンレポートへの読み取り専用アクセス</li></ul>|
+|意思決定管理| <ul><li>**[!DNL View decisions]**：決定エンティティへの読み取り専用アクセス。</li></ul>|
+
 ## [!DNL Journey Administrator] {#journey-administrator}
 
 **[!DNL Journey Administrator]** 製品プロファイルを使用すると、管理メニューでジャーニーおよび意思決定管理を管理および公開できます。
@@ -45,8 +85,7 @@ Adobe Journey Optimizer では、ジャーニーから直接メッセージを�
 |-|-|
 |ジャーニー| <ul><li> **[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、削除。</li><li>**[!DNL Publish journeys]**：ジャーニーの公開。</li><li>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</li><li>**[!DNL View journeys report]**：ジャーニーレポートの読み取り、編集。</li></ul>|
 |管理|<ul><li>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</li><li>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</li><li>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</li><li>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</li><li>**[!DNL Manage channel surfaces]**：コンテンツのブランディングの読み取り、作成、編集、削除。</li><li>**[!DNL Manage Landing page settings]**:ランディングページのサブドメインとランディングページのプリセットを作成、編集および削除します。</li><li> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage SMS settings]**:SMS チャネルを有効にするために必要な API 資格情報と SMS チャネル面を作成、編集および削除します。</li><li>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</li><li>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。</li><li>**[!DNL Manage alerts]**：ジャーニーおよび使用権限に関するアラートの有効化／無効化。</li></ul>|
-|意思決定管理|<ul><li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li><li>**[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス。</li><li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>| |Journey Optimizer ライブラリ|<ul><li>**[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</li></ul>|
+|意思決定管理|<ul><li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li></ul>| |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li><li>**[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス。</li><li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>| |Journey Optimizer ライブラリ|<ul><li>**[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 

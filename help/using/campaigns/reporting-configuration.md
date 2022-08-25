@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 5%
@@ -94,7 +95,7 @@ ht-degree: 5%
    >
    >イベントタイプでないデータセットを選択した場合は、続行できません。
 
-配信のレポートを作成する際に、このデータセットのデータを使用して、追加のカスタム情報を取得し、レポートをより微調整できるようになりました。 [詳細情報](campaign-global-report.md#objectives-global)
+配信のレポートを作成する際に、このデータセットのデータを使用して、追加のカスタム情報を取得し、レポートをより微調整できるようになりました。 [詳細情報](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

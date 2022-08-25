@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 93%
+source-wordcount: '467'
+ht-degree: 77%
 
 ---
 
@@ -22,9 +22,15 @@ ht-degree: 93%
 
 [!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージを送信できます。SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
 
-ジャーニーに [SMS アクティビティを追加](get-started-content.md)し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : SMS]** パネルを使用して SMS メッセージのコンテンツを作成します。
+SMS 配信は次の場所で作成できます。
 
-![](assets/sms-edit-content.png)
+* 内 **ジャーニー**:ジャーニーに SMS アクティビティを追加し、基本設定を定義したら、 **[!UICONTROL アクション：SMS]** SMS メッセージのコンテンツを作成する右側のウィンドウ
+
+   ジャーニーの設定方法について詳しくは、次を参照してください。 [ページ](../building-journeys/journey-gs.md).
+
+* 内 **Campaign**:キャンペーンを作成したら、アクションとして「 SMS 」を選択し、基本設定を定義します。
+
+   キャンペーンの設定方法について詳しくは、次を参照してください。 [ページ](../campaigns/create-campaign.md#configure).
 
 SMS メッセージを初めて作成する場合は、SMS チャネルが設定されていることを確認してください。[詳細情報](../configuration/sms-configuration.md)。
 

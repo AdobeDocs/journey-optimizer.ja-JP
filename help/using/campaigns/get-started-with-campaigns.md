@@ -5,12 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 72%
 
 ---
@@ -20,23 +18,22 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="キャンペーン"
->abstract="キャンペーンを使用すれば、複数のチャネルをまたいだ特定のセグメントに 1 回限りのコンテンツを配信できます。新しいキャンペーンを作成する前に、チャネルサーフェス（例：メッセージプリセット）とAdobe Experience Platformセグメントが使用可能になっていることを確認します。"
+>abstract="キャンペーンを使用すれば、複数のチャネルをまたいだ特定のセグメントに 1 回限りのコンテンツを配信できます。新しいキャンペーンを作成する前に、チャネルサーフェス（例：メッセージプリセット）と Adobe Experience Platform セグメントが使用できる状態になっていることを確認します。"
 
 ## キャンペーンについて {#about}
 
+>[!IMPORTANT]
+>
+>この機能は、Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど、Campaign 関連の製品プロファイルへのアクセス権を持つユーザーのみが使用できます。 製品プロファイルの割り当て方法について詳しくは、 [このページ](../administration/permissions.md).
+
 キャンペーンでは、複数のチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。アクションを順に実行するように設計されたジャーニーとは異なり、キャンペーンは、アクションを即座に、または指定したスケジュールで、同時に実行します。 
 
-次の 2 種類のキャンペーンを作成できます。
+これにより、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などのマーケティング使用例に対して、シンプルなアドホックバッチ通信を送信できます。
 
-* **予定キャンペーン** プロモーション、エンゲージメントキャンペーン、お知らせ、法律上の注意、ポリシーの更新など、マーケティングの使用例に対するシンプルなアドホックバッチ通信を可能にします。
-* **API トリガーキャンペーン** を使用すると、REST API（パスワードリセット、カードの放棄など）を使用したシンプルなトランザクション/操作可能なメッセージで、プロファイル属性とペイロードのコンテキストデータを使用したパーソナライゼーションが必要になる場合があります。
+<!--You can create two types of campaigns:
 
-キャンペーンとの連携方法を学ぶ：
-* [キャンペーンの作成](create-campaign.md)
-* [API でトリガーされるキャンペーンの作成](api-triggered-campaigns.md)
-* [キャンペーンの変更または停止](modify-stop-campaign.md)
-* [キャンペーンのライブレポート](campaign-live-report.md)
-* [キャンペーンのグローバルレポート](campaign-global-report.md)
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## キャンペーンへのアクセス {#access}
 
@@ -55,7 +52,7 @@ ht-degree: 72%
 * **[!UICONTROL ライブ]**：キャンペーンはアクティブ化されています。
 * **[!UICONTROL スケジュール済み]**：キャンペーンは、特定の開始日にアクティブ化されるように設定されています。
 * **[!UICONTROL 停止]**：キャンペーンは手動で停止されました。アクティブ化または再利用できなくなりました（[キャンペーンを停止](modify-stop-campaign.md#stop)を参照）
-* **[!UICONTROL 完了]**：キャンペーンは完了しています。
+* **[!UICONTROL 完了]**：キャンペーンは完了しています。このステータスは、キャンペーンがアクティブ化されてから 3 日後に、またはキャンペーンが繰り返し実行されている場合はキャンペーンの終了日に、自動的に割り当てられます。
 * **[!UICONTROL アーカイブ済み]**：キャンペーンはアーカイブされています。
 
 >[!NOTE]
