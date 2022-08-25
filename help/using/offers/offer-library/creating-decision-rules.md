@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 75%
+source-wordcount: '330'
+ht-degree: 83%
 
 ---
 
@@ -41,11 +41,15 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
    >[!NOTE]
    >
-   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Audience Destinations]** サービスで使用されるものと比較して、特異性がいくつかあります。例えば、「**[!UICONTROL セグメント]**」タブは使用できません。ただし、 [セグメントビルダー](../../segment/about-segments.md) ドキュメントは、オファーの決定ルールの作成に引き続き有効です。 詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
+   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Audience Destinations]** サービスで使用されるものと比較して、特異性がいくつかあります。例えば、「**[!UICONTROL セグメント]**」タブは使用できません。ただし、[セグメントビルダー](../../segment/about-segments.md)のドキュメントで説明されているグローバルプロセスは、オファーの決定ルールを作成する場合にも有効です。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
 
-1. ワークスペースで新しいフィールドを追加および設定する際に、 **[!UICONTROL セグメントのプロパティ]** パネルには、セグメントに属する推定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 見積もりを更新]** をクリックしてデータを更新します。
+1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL セグメントのプロパティ]**&#x200B;パネルに、セグメントに属する予測プロファイルに関する情報が表示されます。「**[!UICONTROL 予測を更新]**」をクリックしてデータを更新します。
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
+
+   >[!NOTE]
+   >
+   >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれないデータが含まれる場合は使用できません。 例えば、現在の天気を≥80 度にする必要がある実施要件ルールなどです。
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 

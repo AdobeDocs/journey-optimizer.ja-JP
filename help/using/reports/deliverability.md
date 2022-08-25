@@ -1,19 +1,19 @@
 ---
-title: メッセージ実行の監視
-description: 監視と配信品質のガイドラインについて学ぶ
+title: 配信品質の基本を学ぶ
+description: 配信品質のガイドラインを説明します
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 99%
 
 ---
 
-# 配信品質の管理 {#manage-deliverability}
+# 配信品質の基本を学ぶ {#manage-deliverability}
 
 配信品質は、受信者のインボックスに配信が正常に届いたかどうかを測定する手法です。
 

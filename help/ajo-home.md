@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: 4b9de36d951308425e54924908b7b80b83c94e51
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->7月25日（PT）、Adobe Journey Optimizer は、Journey Optimizer チャネル（メール、プッシュ、SMS）用のコンテンツのオーサリング方法を改善する[新機能](using/rn/inline-messages.md)をリリースします。Journey Optimizer の実務担当者は、ジャーニーから直接メッセージを[作成およびオーサリング](using/messages/get-started-content.md)できるようになりました。ジャーニーの自動コンバージョンが行われます。とは言え、いくつかの手順に関してはユーザーの協力が必要です。詳しくは、[必須な手順](using/rn/inline-messages-steps.md)を参照してください。
+>7 月 23 日、Adobe Journey Optimizerは [新機能](using/rn/inline-messages.md) これにより、Journey Optimizerチャネル（E メール、プッシュ、SMS）のコンテンツを作成する方法が向上します。 Journey Optimizer の実務担当者は、ジャーニーから直接メッセージを[作成およびオーサリング](using/messages/get-started-content.md)できるようになりました。ジャーニーの自動コンバージョンが行われます。とは言え、いくつかの手順に関してはユーザーの協力が必要です。詳しくは、[必須な手順](using/rn/inline-messages-steps.md)を参照してください。
 
 <table style="table-layout:fixed">
 <tr>

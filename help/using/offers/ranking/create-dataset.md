@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 86%
 
 ---
 
@@ -28,8 +28,11 @@ AI モデルを作成する前に、コンバージョンイベントを収集�
 
    >[!NOTE]
    >
-   >    XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
+   >XDM スキーマとフィールドグループについて詳しくは、 [XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}。
 
+1. 次の **[!UICONTROL フィールドグループ]** セクションを左側で、 **[!UICONTROL 追加]**.
+
+   ![](../assets/ai-ranking-fields-groups.png)
 
 1. 「**[!UICONTROL 検索]**」フィールドに「提案インタラクション」と入力し、「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループを選択します。
 
@@ -37,7 +40,7 @@ AI モデルを作成する前に、コンバージョンイベントを収集�
 
    >[!CAUTION]
    >
-   >    データセットで使用されるスキーマには、「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループが関連付けられている必要があります。そうしないと、ランキング戦略で使用できなくなります。
+   >データセットで使用されるスキーマには、「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループが関連付けられている必要があります。そうしないと、ランキング戦略で使用できなくなります。
 
 1. 「**[!UICONTROL フィールドグループを追加]**」をクリックします。
 
@@ -46,11 +49,11 @@ AI モデルを作成する前に、コンバージョンイベントを収集�
    >[!NOTE]
    >フィールドグループは、以前は mixin と呼ばれていました。
 
-1. 名前を入力し、スキーマを保存します。<!--How do you edit the fields in this new schema? Examples?-->
+1. 名前を入力し、スキーマを保存します。
 
 >[!NOTE]
 >
->    スキーマの構築に関して詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas)で説明します。
+>でのスキーマ構築の詳細 [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target=&quot;_blank&quot;}。
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 

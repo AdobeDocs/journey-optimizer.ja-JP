@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b0f8d97feb7a7f650395d3b91e26d2f837a274a9
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 99%
+source-wordcount: '1685'
+ht-degree: 100%
 
 ---
 
 # 文字列関数 {#string}
 
-式エディターでの文字列関数の使用方法を説明します。
+式エディターで文字列関数を使用する方法を説明します。
 
 ## キャメルケース {#camelCase}
 
@@ -478,7 +478,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## mask（#mask）
+## マスク {#mask}
 
 `Mask` 関数は、文字列の一部を「X」の文字に置き換えるために使用されます。
 

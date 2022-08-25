@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1135'
+ht-degree: 93%
 
 ---
 
@@ -88,7 +88,11 @@ ht-degree: 95%
 
       決定ルールの作成方法については、 [この節](../offer-library/creating-decision-rules.md)を参照してください。
 
-1. セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+1. セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
+
+   >[!NOTE]
+   >
+   >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれないデータが含まれる場合は使用できません。 例えば、現在の天気を≥80 度にする必要がある実施要件ルールなどです。
 
    ![](../assets/activity_constraint-estimate.png)
 
@@ -142,7 +146,7 @@ ht-degree: 95%
 
    ![](../assets/review-decision.png)
 
-1. 各プレースメントを展開または折りたたむことができます。各配置に使用可能なオファー、実施要件、ランキングの詳細をプレビューできます。 また、推定認定プロファイルに関する情報を表示することもできます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+1. 各プレースメントを展開または折りたたむことができます。各配置に使用可能なオファー、実施要件、ランキングの詳細をプレビューできます。 また、推定認定プロファイルに関する情報を表示することもできます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
    ![](../assets/review-decision-details.png)
 

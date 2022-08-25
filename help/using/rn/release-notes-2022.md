@@ -2,16 +2,119 @@
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
 workflow-type: tm+mt
-source-wordcount: '1790'
-ht-degree: 100%
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
 # リリースノート 2022 {#release-notes-2022}
 
 このページは、2022年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
+
+
+## 2022年7月リリース {#july-2022-release}
+
+### 新機能
+
+<table>
+<thead>
+<tr>
+<th><strong>新しいインラインメッセージフロー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer では、メッセージをオーサリングするための新しいフローがジャーニーで提供されるようになりました。 インラインメッセージにより、ユーザーの時間を大幅に節約し、Journey Optimizer でメール、プッシュ通知または SMS を作成して配信するためのワークフロープロセスを合理化します。メッセージを別の手順として削除し、代わりにジャーニーキャンバス上でのアクションの一部としてインラインで編集できるようにすると、ユーザーがコンテンツをデザインおよび編集するためにクリックするボタンや、ナビゲートする画面が少なくて済みます。</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>詳しくは、<a href="../messages/get-started-content.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>属性ベースのアクセス制御（使用制限あり）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>組織またはデータの使用範囲を定義するラベルが付いたスキーマフィールドを識別できるようになりました。 管理者は、権限インターフェイスを使用して、XDM スキーマフィールドをカバーするアクセスポリシーを定義し、ユーザーまたはユーザーのグループ（内部、外部、またはサードパーティのユーザー）に付与するアクセス権をより適切に管理し、特定の種類のデータ（機密性の高い個人データ／SPD など）へのアクセスを管理できます。</p>
+<p>属性ベースのアクセス制御の使用は、現在、選択したユーザーに制限されており、将来のリリースですべての環境にデプロイされます。</p>
+<p>詳しくは、<a href="../administration/attribute-based-access.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Batch Decisioning ジョブ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ユーザーインターフェイスからバッチ決定ジョブを実行できるよりました。これにより、開発者はバッチ API ジョブを実行する必要がなくなり、マーケティングに必要な時間を短縮できます。この新しいインターフェイスでは、ジョブを作成し、現在／過去のジョブを管理できます。</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>詳しくは、<a href="../offers/batch-delivery.md">詳細なドキュメントを参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>最もパフォーマンスの高いオファーを意思決定で自動的に使用（利用制限あり）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>意思決定管理で、パーソナライズされた最適化モデルシステムを使用できるようになりました。この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
+<p>パーソナライズされた最適化 AI モデルの使用は、現在、選択したユーザーに制限されており、将来のリリースですべての環境にデプロイされます。</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化
+
+**ジャーニー**
+
+* **ジャーニーの終了**  — ジャーニーキャンバスで、 **終了** アクティビティがパレットから削除されました。 終了タグは、デフォルトで各パスの最後に追加され、削除できなくなりました。 この改善により、ジャーニーの実行者から何のアクションも必要とせずに、お客様がジャーニーから離脱した場所をより適切にレポートできます。 詳しくは、 [ドキュメント](../building-journeys/journey-end.md) および [機能ビデオ](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+
+
+* この **プロファイルのタイムゾーン** ジャーニープロパティで、オプションがデフォルトでオフになりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
+
+**メッセージ**
+
+* メッセージプリセットは&#x200B;**チャネルサーフェス**&#x200B;になりました。[詳細情報](../configuration/channel-surfaces.md)
+
+**管理**
+
+* **PTR レコードの編集** - PTR レコードを更新する際の処理時間が、最大でわずか 3 時間になりました。[詳細情報](../configuration/ptr-records.md#processing)
+
+* **許可リスト UI** - Journey Optimizer ユーザーインターフェイスを使用して、新しいメールアドレスまたはドメインを許可リストに追加できるようになりました。[詳細情報](../configuration/allow-list.md)
+
+* **許可リストロジックの更新** - リストが空でも、機能が有効になるとすぐに許可リストロジックが適用されるようになりました。[詳細情報](../configuration/allow-list.md#logic)
+
+* **URL トラッキングパラメーター** ：式エディターを使用して、電子メールの表面（つまりプリセット）で URL トラッキングパラメーターを設定できるようになりました。 [詳細情報](../configuration/email-settings.md#url-tracking)
+
+**Offer Decisioning**
+
+* **オーディエンスサイズ** - 決定ルールを作成するとき、オファーの実施要件を設定するセグメントまたはルールを選択するとき、またはセグメントやルールを決定範囲に追加するとき、新しいオーディエンスサイズ推定コンポーネントがユーザーインターフェイスに表示されるようになりました。
+
 
 ## 2022年6月リリース {#june-2022-release}
 
@@ -27,7 +130,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
-<img src="assets/do-not-localize/SMS.gif"/>
+<!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>SMS チャネルは現在、一連の組織でのみ使用できます（使用制限があります）。 詳しくは、アドビ担当者にお問い合わせください。</p>
 <p>SMS の作成および送信方法については、この<a href="../messages/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -46,7 +149,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock と Adobe Journey Optimizer 電子メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。</br> 新しい「<b>類似のストックフォトを検索</b>」オプションを使用すると、画像の内容、カラーおよび構成に一致するストックフォトを見つけることもできます。 </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
+<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>詳しくは、<a href="../design/stock.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -63,7 +166,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>BCC（ブラインドカーボンコピー）でメールを送信機能を使用して、Adobe Journey Optimizer から送信されたメールを保存できるようになりました。メールプリセットでこのオプションを有効にして、送信されたすべてのメールが BCC アドレスにブラインドコピーされるようにします。</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
+<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>詳しくは、<a href="../configuration/bcc-email.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -104,21 +207,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 ### 機能強化
@@ -158,7 +247,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>過度に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルのビジネスルールを設定できるようになりました。</p>
-<img src="assets/do-not-localize/frequency-rn.gif"/>
+<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>詳しくは、<a href="../configuration/frequency-rules.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -175,7 +264,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>意思決定管理で、トレーニング済みモデルシステムを使用できるようになりました。この新しい機能は、特定のプロファイルに対して表示するオファーをランク付けします。</p>
-<img src="assets/do-not-localize/optimization.gif"/>
+<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>詳しくは、<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -209,7 +298,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Journey Optimizer リソースでユーザーが実行したアクションを監視できるようになりました。</p>
-<img src="assets/do-not-localize/audit-rn.gif"/>
+<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>詳しくは、 <a href="../privacy/audit-logs.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -435,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer ステップイベントを、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできるようになりました。ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../reports/sharing-overview.md#integration-cja)
 
-**Offer Decisioning**
+**offer decisioning**
 
 * 公開済みメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、オファー決定を更新すると、その更新は、対応するメッセージに自動的に反映されるようになり、再公開する必要がなくなりました。[詳細情報](../offers/offers-e2e.md#insert-decision-in-email)
 

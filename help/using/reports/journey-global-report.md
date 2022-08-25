@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1908'
 ht-degree: 96%
 
 ---
@@ -58,15 +58,22 @@ ht-degree: 96%
 
 * **[!UICONTROL アクションのエラー]**：**[!UICONTROL アクション]**&#x200B;で発生したエラーの合計数。
 
+![](assets/global_report_25.png)
+
+この **[!UICONTROL 同意ポリシー]** テーブルおよびグラフには、カスタムアクションで各ポリシーから除外されたプロファイルの数が表示されます。
+カスタムアクションについて詳しくは、 [詳細なドキュメント](../action/about-custom-action-configuration.md).
+
+これらのウィジェットをジャーニーレポートに表示するには、ダッシュボードをリセットする必要があります。 これをおこなうには、 **[!UICONTROL 変更]** その後 **[!UICONTROL リセット]** をクリックします。
+
 ## 「メール」タブ {#email-global}
 
 ジャーニーの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、ジャーニーで送信したメールの配信に関する主な情報が表示されます。
 
 ![](assets/global_report_14.png)
 
-**[!UICONTROL メール送信統計]**&#x200B;グラフは、成功した配信の詳細を示します。
+**[!UICONTROL メール送信統計]**&#x200B;グラフは、配信の成功の詳細を示します。
 
-* **[!UICONTROL ターゲット]**:送信 E メールや SMS などの任意のアクションに対してAdobeJourney Orchestrationがターゲットとするプロファイルの数。
+* **[!UICONTROL ターゲット]**：任意のアクション（メールや SMS の送信など）で Adobe Journey Orchestration がターゲットとするプロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
@@ -88,7 +95,7 @@ ht-degree: 96%
 
 * **[!UICONTROL ユニーク開封数]**：開封された配信の割合。
 
-* **[!UICONTROL ユニーク開封率]**:配信された E メールの数に対する、開封された E メールの合計数。
+* **[!UICONTROL ユニーク開封率]**：配信されたメール数に対して、開封されたメールの合計数。
 
 * **[!UICONTROL クリック数]**：メールのコンテンツがクリックされた回数。
 
@@ -136,7 +143,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化の詳細については、 [このページ](../messages/send-time-optimization.md).
+>この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化について詳しくは、[このページ](../messages/send-time-optimization.md)を参照してください。
 
 この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
 
@@ -183,7 +190,7 @@ ht-degree: 96%
 
 「**[!UICONTROL プッシュ通知 - 送信統計]**」テーブルは、プッシュ通知に関連するメイン情報の詳細をグラフと KPI で示します。
 
-* **[!UICONTROL ターゲット]**:送信 E メールや SMS などの任意のアクションに対してAdobeJourney Orchestrationがターゲットとするプロファイルの数。
+* **[!UICONTROL ターゲット]**：メールや SMS の送信などの任意のアクションに対して Adobe Journey Orchestration がターゲットとするプロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
@@ -227,7 +234,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化の詳細については、 [このページ](../messages/send-time-optimization.md).
+>この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化について詳しくは、[このページ](../messages/send-time-optimization.md)を参照してください。
 
 この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
 

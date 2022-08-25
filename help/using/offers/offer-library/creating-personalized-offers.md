@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '712'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,9 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+   >セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
+   >
+   >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれないデータが含まれる場合は使用できません。 例えば、現在の天気を≥80 度にする必要がある実施要件ルールなどです。
 
    ![](../assets/offer-constraints-example.png)
 
@@ -77,7 +79,7 @@ ht-degree: 94%
 
 1. すべてが正しく設定されていることを確認します。
 
-1. 推定認定プロファイルに関する情報を表示できます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+1. 推定認定プロファイルに関する情報を表示できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
    ![](../assets/offer-summary-estimate.png)
 

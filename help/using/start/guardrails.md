@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 80%
+source-wordcount: '807'
+ht-degree: 92%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 80%
 * [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
 
 
-## 決定管理ガードレール {#offer-guardrails}
+## 意思決定管理ガードレール {#offer-guardrails}
 
-決定管理のパフォーマンスガードレールと静的制限は、 [AdobeOffer decisioningアプリサービス製品説明ページ](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}。
+意思決定管理のパフォーマンスガードレールと静的制限は、[Adobe Offer Decisioning アプリケーションサービス製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;} に記載されています。
 
 
 ## ランディングページガードレール {#lp-guardrails}
@@ -45,8 +45,8 @@ ht-degree: 80%
 * エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。
 * 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに対応できます。詳しくは、[このページ](../building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応させたい場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
-* 今日のジャーニーには、プロファイルが同じジャーニー内で複数回同時に存在するのを防ぐ技術的な制限があります。 プロファイルは、引き続き（設定に基づいて）ジャーニーに再度エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは再度ジャーニーに進むことはできません。
-* ほとんどの場合、1 つのプロファイルを同じジャーニー内で複数回同時に存在させることはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは再エントリできません。 [詳細情報](../building-journeys/journey-end.md)
+* 現在のジャーニーには、プロファイルが同じジャーニー内に同時に複数回存在することを防止する技術的な制限があります。プロファイルは（設定に基づいて）引き続きジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。
+* ほとんどの場合、プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。[詳細情報](../building-journeys/journey-end.md)
 
 ### ジャーニーのバージョン {#journey-versions-g}
 
@@ -88,3 +88,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 ### セグメントを読み取り {#read-segment-g}
 
 * ストリーミングセグメントは常に最新の状態になりますが、バッチセグメントは取得時に計算されません。毎日のバッチ評価時にのみ評価されます。
+* 「セグメントを読み取り」アクティビティを使用するジャーニーの場合、同時に開始できるジャーニーの最大数があります。 再試行はシステムによって実行されますが、5～10 分の間隔で時間の経過と共に分散することで、同時に開始するジャーニーが 5 つを超える（セグメントを読み取り、スケジュールまたは開始を「可能な限り早く」）ことを避けてください。

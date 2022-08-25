@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 95%
 
 ---
 
@@ -121,7 +121,7 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-@ is not null
+@{BarBeacon.location} is not null
 ```
 
 ### has null
@@ -154,7 +154,9 @@ null は、式に評価値がないことを意味します。
 <expression1> == <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。結果はブール値です。
+>[!NOTE]
+>
+>の場合 &lt;expression1> および &lt;expression2> データタイプコントロールはありません。
 
 例：
 
@@ -174,7 +176,10 @@ null は、式に評価値がないことを意味します。
 <expression1> != <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> の両方が同じデータタイプである必要があります。結果はブール値です。
+>[!NOTE]
+の場合 &lt;expression1> および &lt;expression2> データタイプコントロールはありません。
+
+結果はブール値です。
 
 例：
 

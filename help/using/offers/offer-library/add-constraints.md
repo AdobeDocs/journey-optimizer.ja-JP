@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 93%
+source-wordcount: '1673'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="優先度を設定"
+>title="優先度の設定"
 >abstract="ユーザーが複数のオファーの対象となる場合、優先度は他のオファーと比較したオファーの優先度の定義に役立ちます。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。"
 
 制約を使用すると、オファーを表示する条件を定義できます。
@@ -63,8 +63,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="実施要件を定義"
->abstract="デフォルトでは、任意のプロファイルにオファーを提示する資格がありますが、セグメントまたは決定ルールを使用して、オファーを特定のプロファイルに制限できます。"
+>title="実施要件の定義"
+>abstract="デフォルトでは、どのプロファイルにもオファーの提示を受ける資格がありますが、セグメントまたは決定ルールを使用して、オファーを特定のプロファイルに制限できます。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -96,9 +96,13 @@ ht-degree: 93%
    >
    >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
 
-セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 クリック **[!UICONTROL 更新]** をクリックしてデータを更新します。
+セグメントまたは決定ルールを選択すると、推定認定プロファイルに関する情報が表示されます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
+
+>[!NOTE]
+>
+>プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれないデータが含まれる場合は使用できません。 例えば、現在の天気を≥80 度にする必要がある実施要件ルールなどです。
 
 ### セグメントと決定ルールの使用上の違い {#segments-vs-decision-rules}
 
@@ -127,8 +131,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="制限を使用"
->abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる最大回数を定義します。"
+>title="キャッピングの使用"
+>abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる回数の上限を定義します。"
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
@@ -182,8 +186,8 @@ E メールの準備時に、オファーが提案された回数が計算され
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="日付を変更すると、制限に影響を与える場合があります"
->abstract="このオファーにキャッピングが適用されている場合、開始日または終了日を変更する際に影響を受ける可能性があります。"
+>title="日付を変更すると、キャッピングに影響を与える場合があります"
+>abstract="このオファーにキャッピングが適用されている場合、開始日または終了日を変更するとオファーが影響を受ける可能性があります。"
 
 オファーの日付を変更する場合は、次の条件を満たすとキャッピングに影響を与える可能性があるので、慎重に行う必要があります。
 
@@ -195,7 +199,7 @@ E メールの準備時に、オファーが提案された回数が計算され
 >
 >オファーの日付を定義する方法については、[この節](creating-personalized-offers.md#create-offer)を参照してください。
 
-プロファイルごとのキャッピングには、各プロファイルのキャッピング回数が格納されます。 承認されたオファーの開始日と終了日を変更すると、以下に説明する様々なシナリオに従って、一部のプロファイルのキャッピングカウントが影響を受ける可能性があります。
+プロファイルごとのキャッピングでは、各プロファイルにキャッピング回数が保存されます。承認されたオファーの開始日と終了日を変更すると、以下に説明する様々なシナリオに従って、一部のプロファイルのキャッピングカウントが影響を受ける可能性があります。
 
 ![](../assets/offer-capping-change-date.png)
 
