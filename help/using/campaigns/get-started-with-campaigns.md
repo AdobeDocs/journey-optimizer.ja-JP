@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 71%
+source-wordcount: '403'
+ht-degree: 59%
 
 ---
 
@@ -22,20 +22,38 @@ ht-degree: 71%
 
 ## キャンペーンについて {#about}
 
->[!IMPORTANT]
->
->この機能は、Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど、Campaign 関連の製品プロファイルへのアクセス権を持つユーザーのみが使用できます。 製品プロファイルの割り当て方法について詳しくは、 [このページ](../administration/permissions.md).
-
 キャンペーンでは、複数のチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。アクションを順に実行するように設計されたジャーニーとは異なり、キャンペーンは、アクションを即座に、または指定したスケジュールで、同時に実行します。 
 
 これにより、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などのマーケティング使用例に対して、シンプルなアドホックバッチ通信を送信できます。
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 <!--You can create two types of campaigns:
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
+
+## 前提条件 {#campaign-prerequisites}
+
+キャンペーンは、キャンペーン関連の **[!UICONTROL 製品プロファイル]** （Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど）。
+
+対応する **[!UICONTROL 製品プロファイル]** をユーザーに送信します。
+
+1. 次の [!DNL Admin console]を選択し、 [!DNL Adobe Experience Platform] 製品。
+
+1. 次の **[!UICONTROL 製品プロファイル]** 」タブで、組み込みの Campaign 関連の 1 つを選択します。 **[!UICONTROL 製品プロファイル]**:Campaign 管理者、Campaign 承認者、Campaign マネージャー、または Campaign ビューア。
+
+   Campaign の詳細情報 **[!UICONTROL 製品プロファイル]** および **[!UICONTROL 権限]**（これを参照） [ページ](../administration/ootb-product-profiles.md).
+
+   ![](assets/do-not-localize/admin_1.png)
+
+1. クリック **[!UICONTROL ユーザーを追加]** 選択したユーザーに割り当てるには **[!UICONTROL 製品プロファイル]**.
+
+   ![](assets/do-not-localize/admin_2.png)
+
+1. ユーザーの名前、グループまたは電子メールアドレスを入力し、 **[!UICONTROL 保存]**.
+
+これで、ユーザーが **[!UICONTROL キャンペーン]**.
 
 ## キャンペーンへのアクセス {#access}
 
