@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 72%
+source-wordcount: '334'
+ht-degree: 71%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 72%
 キャンペーンでは、複数のチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。アクションを順に実行するように設計されたジャーニーとは異なり、キャンペーンは、アクションを即座に、または指定したスケジュールで、同時に実行します。 
 
 これにより、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などのマーケティング使用例に対して、シンプルなアドホックバッチ通信を送信できます。
+
+➡️ [この機能をビデオで確認](#video)
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ ht-degree: 72%
 >[!NOTE]
 >
 >**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;ステータスの横にある「ドラフトバージョンを開く」アイコンは、キャンペーンの新しいバージョンが作成され、まだアクティブ化されていないことを示します（[キャンペーンを変更](modify-stop-campaign.md#modify)を参照）。
+
+## ハウツービデオ {#video}
+
+最初のキャンペーンの作成方法を学びます。
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
