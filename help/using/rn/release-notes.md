@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 50%
@@ -32,7 +32,7 @@ ht-degree: 50%
 <td>
 <p>Journey Optimizerキャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションは順番に実行されるように設計されています。 キャンペーンでは、アクションは即座に、または指定したスケジュールに基づいて、同時に実行されます。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>キャンペーンを作成する方法については、 <a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a> および <a href="https://video.tv.adobe.com/v/345376">機能ビデオ</a>.
+<p>キャンペーンを作成する方法については、 <a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a> および <a href="https://video.tv.adobe.com/v/346680">機能ビデオ</a>.
 </td>
 </tr>
 </tbody>
