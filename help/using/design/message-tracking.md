@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## トラッキングの有効化 {#enable-tracking}
 
-E メールメッセージレベルでトラッキングを有効にするには、 **[!UICONTROL メール開封数]** および/または **[!UICONTROL メールをクリック]** オプション [メッセージの作成](../messages/get-started-content.md).
+[メッセージの作成](../messages/get-started-content.md)時に「**[!UICONTROL メール開封数]**」オプションや「**[!UICONTROL メールのクリック数]**」オプションをオンにすることで、メールメッセージレベルでのトラッキングを有効にできます。
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ E メールメッセージレベルでトラッキングを有効にするには
 
 これにより、次の方法で受信者の行動を追跡できます。
 
-* **[!UICONTROL メール開封数]**:開封されたメッセージ。
-* **[!UICONTROL メールをクリック]**:E メール内のリンクのクリック数。
+* **[!UICONTROL メール開封数]**：開封されたメッセージ。
+* **[!UICONTROL メールのクリック数]**：メール内のリンクのクリック数。
 
 ## リンクの挿入 {#insert-links}
 
@@ -124,4 +124,4 @@ E メールメッセージレベルでトラッキングを有効にするには
    * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
    * **[!UICONTROL なし]**：この URL のトラッキングを有効化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-開封数とクリック数のレポートは、 [ライブレポート](../reports/live-report.md) そして [グローバルレポート](../reports/global-report.md).
+開封数とクリック数に関するレポートは、[ライブレポート](../reports/live-report.md)と[グローバルレポート](../reports/global-report.md)で利用できます。

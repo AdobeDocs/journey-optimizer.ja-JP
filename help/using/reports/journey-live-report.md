@@ -9,13 +9,13 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # ジャーニーライブレポート {#journey-live-report}
 
-ジャーニーのライブレポートには、 **[!UICONTROL レポートを表示]** 」ボタンをクリックします。
+ジャーニーライブレポートは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、ジャーニーから直接アクセスできます。
 
 ![](assets/report_journey.png)
 

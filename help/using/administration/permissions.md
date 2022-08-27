@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 90%
 
 ユーザー管理の詳細については、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html)を参照してください。
 
-インスタンスにアクセスすると、**[!UICONTROL 製品プロファイル]**&#x200B;で割り当てられた権限に応じて、特定のビューが表示されます。ユーザーが機能に対する権限を持っていない場合は、次のメッセージが表示されます。
+インスタンスにアクセスすると、**[!UICONTROL 製品プロファイル]**&#x200B;で割り当てられた権限に応じて、特定のビューが表示されます。ユーザーが機能にアクセスする権限を持っていない場合は、次のメッセージが表示されます。
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
@@ -66,7 +66,7 @@ ht-degree: 90%
 
 標準またはカスタムの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;の場合は、いつでも権限を追加または削除できます。
 
-この例では、 **[!UICONTROL 権限]** 関連する **[!UICONTROL ジャーニー]** ユーザービューアに割り当てられたジャーニーの機能 **[!UICONTROL 製品プロファイル]**. その後、ユーザーはジャーニーを公開できます。
+この例では、ジャーニー閲覧者の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てられたユーザーに対して、**[!UICONTROL ジャーニー]**&#x200B;機能に関連する&#x200B;**[!UICONTROL 権限]**&#x200B;を追加します。その後、ユーザーはジャーニーを公開できます。
 
 標準またはカスタムの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を変更すると、この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てられたすべてのユーザーに影響が及びます。
 
@@ -80,13 +80,13 @@ ht-degree: 90%
 
    ![](assets/do-not-localize/access_control_5.png)
 
-1. を選択します。 **[!UICONTROL ジャーニー]** 機能
+1. **[!UICONTROL ジャーニー]**&#x200B;機能を選択します。
 
    ![](assets/do-not-localize/access_control_6.png)
 
 1. 「**[!UICONTROL 使用可能な権限項目]**」リストでプラス（+）アイコンをクリックし、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる権限を選択します。
 
-   ここでは、 **[!UICONTROL 公開ジャーニー]** 権限。
+   ここでは、**[!UICONTROL ジャーニーの公開]**&#x200B;権限を追加します。
 
 1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で横の X アイコンをクリックすると、製品プロファイルに対する権限を削除できます。
 
@@ -100,7 +100,7 @@ ht-degree: 90%
 
 サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-この例では、「**ジャーニー読み取り専用**」という名前の製品プロファイルを作成し、ジャーニー機能に読み取り専用の権限を付与します。ユーザーはジャーニーにのみアクセスして表示でき、次のような他の機能にはアクセスできません。 **[!DNL  Decision management]** in [!DNL Journey Optimizer].
+この例では、「**ジャーニー読み取り専用**」という名前の製品プロファイルを作成し、ジャーニー機能に読み取り専用の権限を付与します。ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL  Decision management]** など、他の機能にはアクセスできません。
 
 **ジャーニー読み取り専用****[!UICONTROL 製品プロファイル]**&#x200B;を作成するには：
 

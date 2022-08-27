@@ -9,7 +9,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->イベント設定： **必須** で、 **データエンジニア**.
+>イベントの設定は&#x200B;**必須**&#x200B;であり、**データエンジニア**&#x200B;が実施する必要があります。
 
 次の 2 種類のイベントを設定できます。
 

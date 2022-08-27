@@ -9,7 +9,7 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-1. ルールを作成すると、そのルールは「 **[!UICONTROL ルール]** リスト。 プロパティを表示するために選択し、編集または削除できます。
+1. ルールを作成すると、**[!UICONTROL ルール]**&#x200B;リストに表示されます。選択するとプロパティが表示され、編集することも削除することもできます。
 
    ![](../assets/rule_created.png)
 

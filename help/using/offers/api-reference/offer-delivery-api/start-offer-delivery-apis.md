@@ -1,6 +1,6 @@
 ---
-title: オファー配信 API の基本を学ぶ
-description: パーソナライズされたオファーを配信するために使用できる API について詳しく説明します。
+title: オファー配信 API の概要
+description: パーソナライズされたオファーの配信に使用できる API について詳しく説明します。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# オファー配信 API の基本を学ぶ {#about-decisioning-apis}
+# オファー配信 API の概要 {#about-decisioning-apis}
 
-**Decisioning** API または **Edge Decisioning** API のいずれかを使用してオファーを配信できます。また、 **バッチ判定** API を使用すると、特定のセグメント内のすべてのプロファイルに対して、1 回の呼び出しでオファーを配信できます。 セグメント内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
+**Decisioning** API または **Edge Decisioning** API のいずれかを使用してオファーを配信できます。また、**Batch Decisioning** API を使用すると、特定のセグメント内のすべてのプロファイルに対して、1 回の呼び出しでオファーを配信できます。セグメント内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 
-このページでは、 **判定** および **Edge Decisioning** API どちらでも顧客にオファーを配信することができますが、インバウンドのユースケースにはできるだけ **Edge Decisioning** API を使用し、プラットフォームでの待ち時間とスループットを改善することをお勧めします。
+このページでは、**Decisioning** API と **Edge Decisioning** API で利用できる特定の機能について説明します。どちらでも顧客にオファーを配信することができますが、インバウンドのユースケースにはできるだけ **Edge Decisioning** API を使用し、プラットフォームでの待ち時間とスループットを改善することをお勧めします。
 
 |  | 1 秒あたりのリクエスト数 | 待ち時間 |
 |---|---|---|

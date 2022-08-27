@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -280,7 +280,7 @@ It includes the following low-level permissions:
 -->
 ### [!DNL Manage channel surface] 権限 {#manage-channel-surface}
 
-この **[!DNL Manage channel surface]** 高レベル権限を持つユーザーは、サンドボックスレベルでチャネルをまたいでチャネルサーフェスを作成、編集、削除できます。
+「**[!DNL Manage channel surface]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの作成、編集および削除をサンドボックスレベルで行うことができます。
 
 これには、次の低レベル権限が含まれます。
 
@@ -294,7 +294,7 @@ It includes the following low-level permissions:
 
 ### [!DNL View channel surface] 権限 {#view-channel-surface}
 
-この **[!DNL View channel surface]** 高レベル権限を使用すると、使用するチャネルサーフェスを知るためにチャネルサーフェスを表示できます。
+「**[!DNL View channel surface]**」という高レベルの権限を持つユーザーは、どのチャネルサーフェスを使用すればよいかを把握するために、チャネルサーフェスを表示できます。
 
 これには、次の低レベル権限が含まれます。
 

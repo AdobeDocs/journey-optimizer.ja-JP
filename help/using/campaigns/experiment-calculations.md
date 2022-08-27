@@ -11,15 +11,15 @@ exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 統計指標について {#experiment-calculations}
+# 統計計算について {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
->コンテンツ実験機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
+>コンテンツ実験の機能は現在、一連の組織でのみ使用できます（使用制限があります）。詳しくは、アドビ担当者にお問い合わせください。
 
 この記事では、Adobe Journey Optimizerで Experiment を実行する際に使用される統計指標について説明します。 実験では、高度な統計的手法を使用して **信頼性シーケンス** および **信頼性**：必要に応じて実験を実行し、結果を継続的に監視できます。
 

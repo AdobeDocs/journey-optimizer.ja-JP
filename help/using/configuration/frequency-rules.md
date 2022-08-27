@@ -9,7 +9,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->ルールが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開する必要はありません。
+>ルールが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開したりする必要はありません。
 
 メッセージ頻度ルールを非アクティブ化するには、ルールの横の「...」をクリックし、「**[!UICONTROL 非アクティブ化]**」を選択します。
 
@@ -113,7 +113,7 @@ ht-degree: 85%
 
 メッセージに頻度ルールを適用するには、次の手順に従います。
 
-1. [メッセージの作成](../messages/get-started-content.md#create-new-message) ルールに定義したチャネルの 1 つを選択します。
+1. ルールに定義したチャネルの 1 つを選択して、[メッセージを作成します](../messages/get-started-content.md#create-new-message)。
 
 1. 定義したカテゴリを[作成したルール](#create-new-rule)に選択します。
 
@@ -134,7 +134,7 @@ ht-degree: 85%
 
    <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
-1. 配信から除外されたプロファイルの数を [グローバルレポート](../reports/global-report.md)、および [ライブレポート](../reports/live-report.md)：頻度ルールが、配信から除外されたユーザーに考えられる理由として表示されます。
+1. [グローバルレポート](../reports/global-report.md)および[ライブレポート](../reports/live-report.md)では、配信から除外されたプロファイルの数を確認でき、配信から除外されたユーザーの理由として考えられる頻度ルールが一覧表示されます。
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ ht-degree: 85%
 
 1. 「*全マーケティングキャッピング*」という名前の[ルールを作成](#create-new-rule)します。
 
-   * 「電子メール」および「プッシュ」チャネルを選択します。
+   * 「メール」および「プッシュ」チャネルを選択します。
    * キャッピングを 12 に設定します。
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -160,9 +160,9 @@ ht-degree: 85%
 
 1. ルールを保存して[アクティブ化](#activate-rule)します。
 
-1. E メールを作成し、 **[!UICONTROL マーケティング]** カテゴリに表示されます。 [詳細情報](../messages/get-started-content.md#create-new-message)
+1. メールを作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../messages/get-started-content.md#create-new-message)
 
-1. プッシュ通知を作成し、 **[!UICONTROL マーケティング]** カテゴリに表示されます。 [詳細情報](../messages/get-started-content.md#create-new-message)
+1. プッシュ通知を作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../messages/get-started-content.md#create-new-message)
 
 このシナリオでは、個々のプロファイルは次のようになります。
 * 1 か月に最大 12 件のマーケティングメッセージを受信できます。
@@ -170,7 +170,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->頻度ルールをテストする場合は、新しく作成した [テストプロファイル](../segment/creating-test-profiles.md)を使用する場合、プロファイルの頻度キャップに達すると、翌月までカウンターをリセットする方法がなくなります。 ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
+>プロファイルのフリークエンシーキャップに達すると、翌月までカウンターをリセットする方法はないので、頻度ルールをテストする場合は、新しく作成した[テストプロファイル](../segment/creating-test-profiles.md)を使用することをお勧めします。ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
 
 ## ハウツービデオ {#video}
 

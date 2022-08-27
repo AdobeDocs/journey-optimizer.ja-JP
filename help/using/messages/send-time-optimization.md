@@ -1,6 +1,6 @@
 ---
 title: 送信時間の最適化
-description: メッセージで送信時間の最適化をパラメーター化する方法を説明します
+description: メッセージで送信時間の最適化をパラメーター化する方法を学ぶ
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サー�
 >title="送信時間最適化の有効化"
 >abstract="プッシュメッセージではクリック数が適用されないため、デフォルトは「開封数」オプションになります。また、「次のオプション内で送信」に値を入力して、システムで使用される送信時間を区切ることもできます。"
 
-メールまたはプッシュメッセージで送信時の最適化を有効にするには、 **送信時間の最適化** アクティビティのパラメーターから切り替えます。
+アクティビティのパラメーターから&#x200B;**送信時間の最適化**&#x200B;スイッチを選択して、メールまたはプッシュメッセージの送信時間の最適化を有効にします。
 
 ![](../building-journeys/assets/jo-message5.png)
 

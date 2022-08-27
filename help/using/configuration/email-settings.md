@@ -192,7 +192,7 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-また、[式エディター](../personalization/personalization-build-expressions.md)を使用して各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドを編集することもできます。エディションアイコンをクリックして、エディターを開きます。 ここから、任意のコンテキスト属性を選択したり、テキストを直接編集したりできます。
+また、[式エディター](../personalization/personalization-build-expressions.md)を使用して各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドを編集することもできます。「編集」アイコンをクリックして、エディターを開きます。ここから、任意のコンテキスト属性を選択したり、テキストを直接編集したりできます。
 
 ![](assets/preset-url-tracking-editor.png)
 

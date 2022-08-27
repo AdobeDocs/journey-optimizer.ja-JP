@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# アセットの作成と管理以下に置き換えます。[!DNL Assets Essentials]{#experience-manager-assets}
+# アセットの作成と管理（[!DNL Assets Essentials] を使用）{#experience-manager-assets}
 
 ## [!DNL Assets Essentials] の基本を学ぶ {#get-started-assets-essentials}
 

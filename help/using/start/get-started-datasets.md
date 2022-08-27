@@ -7,7 +7,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 データセット UI の使用方法については、[データ取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-クエリの例を含む使用例のリストを利用できます [ここ](../start/datasets-query-examples.md).
+クエリの例を含むユースケースのリストは、[こちら](../start/datasets-query-examples.md)から入手できます。
 
 **関連トピック**
 

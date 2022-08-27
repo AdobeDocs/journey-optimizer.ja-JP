@@ -6,7 +6,7 @@ exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 1. **製品プロファイルを把握**&#x200B;します。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにするための単一権限のセットです。詳しくは、[標準の製品プロファイル](../../administration/ootb-product-profiles.md)の節を参照してください。
 
-1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){_blank} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、機能 ( 例： [!DNL Journey Optimizer]. 詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
+1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){_blank} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
 
 さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials Consumer Users** または／および **Assets Essentials Users** の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
@@ -37,20 +37,20 @@ ht-degree: 87%
 
 [!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
-ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。次を参照： **[!UICONTROL チャネル]** メニューを使用して、メッセージとチャネルの表示（メッセージプリセット）を設定します。
+ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]**&#x200B;メニューを参照し、メッセージとチャネルサーフェス（メッセージプリセットなど）を設定します。
 
 >[!NOTE]
 >**システム管理者**&#x200B;の場合、**[!UICONTROL チャネル]**&#x200B;メニューが [!DNL Journey Optimizer] に表示されなければ、[Admin Console](https://adminconsole.adobe.com/){_blank} で権限を更新します。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
 
 以下の手順に従います。
 
-1. **メッセージとチャネルの設定**:表面の定義、e メール、sms、プッシュメッセージの設定の適応とカスタマイズ
+1. **メッセージとチャネルを設定**：サーフェスを定義し、メール、SMS およびプッシュメッセージの設定を調整しカスタマイズします
 
    * [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方で、**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../configuration/push-gs.md)
 
-   * 作成 **チャンネルサーフェス** （例：メッセージプリセット）e メール、sms およびプッシュ通知に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/channel-surfaces.md)
+   * **チャネルサーフェス**（メッセージプリセットなど）を作成して、メール、SMS およびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。[詳細情報](../../configuration/channel-surfaces.md)
 
-   * の設定 **SMS チャネル** :SMS に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/sms-configuration.md)
+   * **SMS チャネル**&#x200B;で、SMS に必要なすべての技術パラメーターを設定します。[詳細情報](../../configuration/sms-configuration.md)
 
    * 抑制リストにメールアドレスを送信するまでに&#x200B;**再試行**&#x200B;を実行する日数を管理します。[詳細](../../configuration/manage-suppression-list.md)
 
@@ -62,7 +62,7 @@ ht-degree: 87%
 
    ![](../assets/ip-pool.png)
 
-1. **抑制と許可リスト**:抑制と許可リストを使用して配信品質を向上させる
+1. **抑制リストと許可リストを管理**：抑制リストと許可リストを使用して配信品質を向上させます。
 
    * [抑制リスト](../../reports/suppression-list.md)は、配信の対象外とするメールアドレスの一覧です。これらのアドレスに送信すると、送信の評判や配信率が低下する可能性があるなどの理由から対象外にします。無効なアドレス、絶えずソフトバウンスしメールの評判に悪影響を与える可能性のあるアドレス、送信したメールメッセージに対して何らかのスパム苦情を出す受信者など、ジャーニーでの送信から自動的に除外されるすべてのメールアドレスを監視できます。[抑制リスト](../../configuration/manage-suppression-list.md)と[再試行](../../configuration/retries.md)の管理方法については、それぞれのページを参照してください。
    ![](../assets/suppression-list-filtering-example.png)

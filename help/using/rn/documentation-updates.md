@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
 source-wordcount: '1814'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 96%
 ## 2022年8月 {#august-2022}
 
 *  [!DNL Journey Optimizer] の 8 月 22 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* 頻度ルールの節が更新され、新しいインラインメッセージフローが反映されました。 [詳細情報](../configuration/frequency-rules.md#apply-frequency-rule)
-* サブスクリプションの設定とランディングページの作成方法を示すビデオが、ランディングページの概要の節で参照されるようになりました。 [詳細情報](../landing-pages/get-started-lp.md#video)
+* 頻度ルールのセクションが更新され、新しいインラインメッセージフローが反映されました。[詳細情報](../configuration/frequency-rules.md#apply-frequency-rule)
+* サブスクリプションの設定とランディングページの作成方法を示すビデオが、ランディングページの概要のセクションで参照できるようになりました。[詳細情報](../landing-pages/get-started-lp.md#video)
 * 「セグメントを読み取り」アクティビティを使用するジャーニーに対する制限が追加されました。 [詳細情報](../building-journeys/read-segment.md)
 * 式エディターの演算子ページが改善されました。 [詳細情報](../building-journeys/expression/operators.md)
 

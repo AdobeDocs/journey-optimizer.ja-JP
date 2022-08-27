@@ -4,7 +4,7 @@ description: ジャーニーを開始し、メッセージを送信する方法�
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 93%
 
 ## メッセージの送信 {#send-messages}
 
-メッセージにコンテンツが定義されると、次を通じて送信できる状態になります： [ジャーニー](journey.md).
+メッセージでコンテンツを定義すると、[ジャーニー](journey.md)を介して送信できる状態になります。
 
-メッセージが送信されたら、複数のインジケーターを使用してメッセージの実行を監視できます。[レポートの詳細を説明します](../global-report.md).
+メッセージが送信されたら、複数のインジケーターを使用してメッセージの実行を監視できます。[レポートの詳細情報](../global-report.md)。
 
 ## メッセージのスケジュール {#schedule-messages}
 

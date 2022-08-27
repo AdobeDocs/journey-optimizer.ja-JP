@@ -9,7 +9,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1490'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 98%
 
 **アクション**
 
-ここに、 [!DNL Journey Optimizer]. [チャネルアクションアクティビティの詳細を説明します](journeys-message.md)
+ここには、[!DNL Journey Optimizer] で設計されたメッセージを含めることができるチャネルアクションアクティビティがあります。[チャネルアクションアクティビティの詳細情報](journeys-message.md)
 
 また、サードパーティ製システムでメッセージを送信するように設定したカスタムアクションもあります。詳しくは、[この節](about-journey-activities.md#action-activities)を参照してください。
 

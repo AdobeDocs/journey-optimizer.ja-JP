@@ -1,5 +1,5 @@
 ---
-title: コンテンツ実験の基礎知識
+title: コンテンツ実験の概要
 description: コンテンツ実験の詳細については、 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '1512'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->コンテンツ実験機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
+>コンテンツ実験の機能は現在、一連の組織でのみ使用できます（使用制限があります）。詳しくは、アドビ担当者にお問い合わせください。
 
 ## コンテンツ実験とは
 

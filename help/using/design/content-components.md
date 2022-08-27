@@ -9,7 +9,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -186,5 +186,5 @@ ht-degree: 99%
 
 関連トピック：
 
-* [決定管理の概要](../offers/get-started/starting-offer-decisioning.md)
-* [パーソナライズされたオファーを E メールに追加](deliver-personalized-offers.md)
+* [意思決定管理の概要](../offers/get-started/starting-offer-decisioning.md)
+* [パーソナライズされたオファーをメールに追加](deliver-personalized-offers.md)

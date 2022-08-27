@@ -9,7 +9,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
 >title="式エディターについて"
->abstract="式エディターでは、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたパーソナライゼーションを作成できます。"
+>abstract="式エディターインターフェイスを使用すると、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。"
 
-式エディターは、のパーソナライゼーションの中心となる機能です。 [!DNL Journey Optimizer]. メール、プッシュ、オファーなど、パーソナライゼーションを定義する必要があるすべてのコンテキストで利用できます。
+式エディターは、[!DNL Journey Optimizer] のパーソナライズ機能の中核です。メール、プッシュ、オファーなど、パーソナライゼーションを定義する必要があるすべてのコンテキストで利用できます。
 
 式エディターインターフェイスでは、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
 
@@ -35,7 +35,7 @@ ht-degree: 77%
 * **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}に記載のプロファイルスキーマに関連付けられているすべての参照を一覧表示します。
 * **[!UICONTROL セグメントメンバーシップ]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのセグメントを一覧表示します。セグメント化について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../design/deliver-personalized-offers.md)を参照してください。
-* **[!UICONTROL コンテキスト属性]** :チャネルアクションアクティビティ（E メール、プッシュ、SMS）がジャーニーで使用される場合、コンテキストジャーニーフィールドはこのメニューから使用できます。 詳しくは、[この節](personalization-use-case.md)を参照してください。
+* **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）がジャーニーで使用される場合、コンテキストジャーニーフィールドはこのメニューから使用できます。詳しくは、[この節](personalization-use-case.md)を参照してください。
 * **[!UICONTROL ヘルパー関数]**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライゼーションのコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。
 
 「+」ボタンをクリックすると、エディターに属性を追加できます。
@@ -50,4 +50,4 @@ ht-degree: 77%
 
 ![](assets/perso_ee2.png)
 
-パーソナライゼーション式の準備が整ったら、式エディターで検証する必要があります。 詳しくは、[この節](personalization-validation.md)を参照してください。
+パーソナライズ機能の式を準備できたら、式エディターで検証する必要があります。詳しくは、[この節](personalization-validation.md)を参照してください。

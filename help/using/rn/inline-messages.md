@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 >id="ajo_messages_migration_before"
 >title="新しいインラインオーサリング機能の詳細情報"
 >abstract="2022年7月25日（PT）より、メッセージはジャーニーから直接作成されます。既存のメッセージは、新しいモデルに自動的に移行されます。現在ジャーニー内でメッセージを使用している場合は、移行後に追加のアクションが必要になります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="移行手順"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=ja" text="移行手順"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
@@ -119,7 +119,7 @@ Here are the main changes in the interface:
 
 複数回のイテレーションが必要な理由
 
-イテレーションでは各ジャーニーを実行し、可能な場合は移行します。自動的に移行しない場合もあります。ジャーニーがライブの場合（つまり、ジャーニーにプロファイルが含まれている可能性があります）。 この場合は、ユーザーにアクションを実行するように依頼し、次のイテレーションでは、前回移行できなかったこれらのジャーニーを移行します。
+イテレーションでは各ジャーニーを実行し、可能な場合は移行します。ジャーニーがライブである（つまり、ジャーニーにプロファイルがまだ残っている可能性がある）場合は、自動での移行が望ましくないケースがあります。この場合は、ユーザーにアクションを実行するように依頼し、次のイテレーションでは、前回移行できなかったこれらのジャーニーを移行します。
 
 ## FAQ {#faq}
 
@@ -301,9 +301,9 @@ The **details** section gives, for each of the above indicators, the list of rel
 
 バナーが消えると、移行は完了です。この[節](../rn/inline-messages.md#inform)を参照してください。
 
-### メッセージ関連の権限はどのように影響を受けますか？
+### メッセージ関連の権限はどのような影響を受けますか？
 
-インラインオーサリング機能は、権限に影響を与えます。 すべてのメッセージ関連の権限。例： [!DNL View Messages] または [!DNL Manage Messages]は、「ジャーニー」機能にリンクされた権限に自動的に含まれます。
+インラインオーサリング機能は、権限に影響を与えます。[!DNL View Messages] や [!DNL Manage Messages] などのメッセージ関連の権限はすべて、ジャーニー機能にリンクされた権限に自動的に含まれます。
 
 詳しくは、この[ページ](../administration/ootb-product-profiles.md)を参照してください。
 

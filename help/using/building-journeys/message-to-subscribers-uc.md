@@ -9,7 +9,7 @@ exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 88%
 このジャーニーを設定するには、次の手順に従います。
 
 1. **[!UICONTROL 読み取り]**&#x200B;アクティビティで始まるジャーニーを作成します。[詳細情報](journey-gs.md)
-1. を追加します。 **[!UICONTROL 電子メール]** ジャーニーに対するアクションアクティビティ。 [詳細情報](journeys-message.md)。
-1. 内 **[!UICONTROL E メールパラメーター]** セクション **[!UICONTROL 電子メール]** アクティビティの設定で、デフォルトの電子メールアドレス (`PersonalEmail.adress`) にリスト購読者の電子メールアドレスを入力します。
+1. **[!UICONTROL メール]**&#x200B;アクションアクティビティをジャーニーに追加します。[詳細情報](journeys-message.md)。
+1. **[!UICONTROL メール]**&#x200B;アクティビティ設定の「**[!UICONTROL メールパラメーター]**」セクションで、デフォルトのメールアドレス（`PersonalEmail.adress`）をリスト上の購読者のメールアドレスに置き換えます。
 
-   1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、「**[!UICONTROL 編集]**」アイコンをクリックします。
+   1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
       ![](assets/message-to-subscribers-uc-1.png)
 

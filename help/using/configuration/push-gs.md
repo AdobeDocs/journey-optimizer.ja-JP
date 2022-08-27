@@ -9,15 +9,15 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # プッシュ設定の概要 {#get-started-push}
 
-このページは、[!DNL Journey Optimizer] のプッシュ通知に関係する主要なサービスとワークフローのセットアップと理解に役立ちます。でプッシュ通知を作成する方法を説明します。 [このページ](../messages/create-push.md).
+このページは、[!DNL Journey Optimizer] のプッシュ通知に関係する主要なサービスとワークフローのセットアップと理解に役立ちます。プッシュ通知を作成する方法については、[このページ](../messages/create-push.md)を参照してください。
 
-でプッシュチャネルを設定する手順 [!DNL Adobe Journey Optimizer] 詳しくは、を参照してください。 [このページ](push-configuration.md).
+[!DNL Adobe Journey Optimizer] でプッシュチャネルを設定する手順について詳しくは、[このページ](push-configuration.md)を参照してください。
 
 ## プッシュ通知と [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 1. Apple の APNs および Google FCM プッシュメッセージのメッセージサービスを使用したブランドモバイルアプリ（Android または iOS）の登録
 1. メッセージサービスがプッシュトークンを生成します。プッシュトークンは、[!DNL Adobe Journey Optimizer] で特定のデバイスをプッシュ通知のターゲットとするために使用される識別子です。
 1. 生成済みのプッシュトークンが Adobe Experience Platform に渡され、リアルタイム顧客プロファイルと同期されます。これは、統合しやすいクライアント SDK を使用して標準で実行されます。
-1. プッシュメッセージはで作成されました [!DNL Adobe Journey Optimizer]の場合、プッシュメッセージはチャネルサーフェス（メッセージプリセット）に対して作成されます
+1. プッシュメッセージは、[!DNL Adobe Journey Optimizer] で、チャネルサーフェス（メッセージプリセットなど）に対して作成されます
 1. プッシュメッセージは、ジャーニーのオーケストレーションキャンバスに含めることができます
 1. ジャーニーを公開すると、ジャーニー条件に基づく顧客プロファイルがプッシュ通知を受信する資格を得ます。プッシュメッセージペイロードは、この手順でパーソナライズされます。
 1. パーソナライズされたプッシュペイロードは、内部のプッシュメッセージ配信サービスに転送されます

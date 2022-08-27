@@ -9,7 +9,7 @@ exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 ## 検証メカニズム {#validation-mechanisms}
 
-内 **式エディター** 画面、 **検証** ボタンをクリックして、パーソナライゼーションの構文を確認します。
+**式エディター**&#x200B;画面で、「**検証**」ボタンを使用して、パーソナライゼーション構文を確認します。
 
 >[!NOTE]
 > 「**追加**」をクリックしてエディターウィンドウを閉じると、検証は自動的に実行されます。
@@ -55,7 +55,7 @@ ht-degree: 90%
 
 無効なハンドルバー構文が使用される場合。
 
-ハンドルバー式は **{{expression}}**
+ハンドルバー式は **{{expression}}** で囲まれます
 
 ```
    {{[profile.person.name.firstName}}

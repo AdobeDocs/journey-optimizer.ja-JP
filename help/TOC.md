@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 98%
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
    + [ライブキャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + コンテンツ実験 {#content-experiment}
-      + [コンテンツ実験の基礎知識](using/campaigns/get-started-experiment.md)
+      + [コンテンツ実験の概要](using/campaigns/get-started-experiment.md)
       + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
-      + [統計指標について](using/campaigns/experiment-calculations.md)
+      + [統計計算について](using/campaigns/experiment-calculations.md)
       + [レポート設定](using/campaigns/reporting-configuration.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メッセージ {#messages}

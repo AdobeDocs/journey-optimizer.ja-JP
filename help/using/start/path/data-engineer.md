@@ -6,7 +6,7 @@ exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ID 名前空間、プロファイルに対して有効化されたデータセ�
 
 1. **ソースコネクタを設定**&#x200B;します。Adobe Experience Platform では、外部ソースからデータを取り込みながら、Platform サービスを使用して入力データの構造化、ラベル付けおよび強化を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。ソースコネクタについて詳しくは、[このページ](../get-started-sources.md)を参照してください。
 
-1. **テストプロファイルを作成**&#x200B;します。ジャーニーで[テストモード](../../building-journeys/testing-the-journey.md)を使用する際や、送信前に[メッセージをプレビューしてテストする](../../design/preview.md)には、テストプロファイルが必要です。テストプロファイルの作成手順の詳細を説明します [このページ](../../segment/creating-test-profiles.md).
+1. **テストプロファイルを作成**&#x200B;します。ジャーニーで[テストモード](../../building-journeys/testing-the-journey.md)を使用する際や、送信前に[メッセージをプレビューしてテストする](../../design/preview.md)には、テストプロファイルが必要です。テストプロファイルの作成手順について詳しくは、[このページ](../../segment/creating-test-profiles.md)を参照してください。
 
 
 ©さらに、ジャーニーでメッセージを送信できるようにするには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;を設定する必要があります。詳しくは、[この節](../../configuration/about-data-sources-events-actions.md)を参照してください。
@@ -42,4 +42,4 @@ ID 名前空間、プロファイルに対して有効化されたデータセ�
 
 * **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取り込み API から取り込みます。イベントについて詳しくは、[この節](../../event/about-events.md)を参照してください。
 
-* [!DNL Journey Optimizer] に付属 [組み込みのメッセージ機能](../../messages/get-started-content.md):ジャーニー内でメッセージを作成し、コンテンツをデザインできます。 Adobe Campaign などのサードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、[この節](../../action/action.md)を参照してください。
+* [!DNL Journey Optimizer] には、[組み込みのメッセージ機能](../../messages/get-started-content.md)が備わっています。ジャーニー内でメッセージを作成し、コンテンツをデザインできます。 Adobe Campaign などのサードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、[この節](../../action/action.md)を参照してください。

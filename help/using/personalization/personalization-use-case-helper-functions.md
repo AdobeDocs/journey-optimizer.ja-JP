@@ -9,7 +9,7 @@ exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 * 単一のイベント。[詳細情報](../event/about-events.md)。
 * イベントで開始されるジャーニー。[詳細情報](../building-journeys/using-the-journey-designer.md)。
-* ジャーニー内の電子メールメッセージ。 [詳細情報](../messages/get-started-content.md)
+* ジャーニーでのメールメッセージ。[詳細情報](../messages/get-started-content.md)
 * メールの本文。[詳細情報](../design/create-email-content.md)。
 
 次の手順に従います。
@@ -53,13 +53,13 @@ ht-degree: 97%
    製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. このイベントで開始されるジャーニーを作成します。
-1. を追加します。 **電子メール** アクティビティをジャーニーに追加します。
+1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
 
    ![](assets/personalization-uc-helpers-8.png)
 
 ## 手順 2： メールの作成{#configure-email}
 
-1. 内 **電子メール** アクティビティ、クリック **[!UICONTROL コンテンツを編集]**&#x200B;を選択し、「 **[!UICONTROL メールデザイナー]**.
+1. **メール**&#x200B;アクティビティで、「**[!UICONTROL コンテンツを編集]**」をクリックしたあと、「**[!UICONTROL 電子メールデザイナー]**」をクリックします。
    ![](assets/personalization-uc-helpers-1.png)
 
 1. E メールデザイナーホームページの左側のパレットから、3 つの構造コンポーネントをメッセージの本文にドラッグ＆ドロップします。

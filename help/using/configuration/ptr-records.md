@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 ## サブドメインの PTR レコードへのアクセス {#access-ptr-records}
 
-Adobe Journey Optimizer で[サブドメインがデリゲート](delegate-subdomain.md)されると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。これには、 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]** > **[!UICONTROL PTR レコード]** メニュー
+Adobe Journey Optimizer で[サブドメインがデリゲート](delegate-subdomain.md)されると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
 
 ![](assets/ptr-records.png)
 
@@ -99,7 +99,7 @@ PTR レコードの編集を確認すると、リスト内の PTR レコード�
 
 >[!NOTE]
 >
->この [更新処理](#processing) は最大 3 時間かかる場合があります。
+>[更新処理](#processing)には 3 時間かかる場合があります。
 
 PTR レコードの更新の詳細を確認するには、その横にあるアイコンをクリックします。様々なアイコンに関連付けられたステータスについて詳しくは、[この節](#ptr-record-update-statuses)を参照してください。
 
