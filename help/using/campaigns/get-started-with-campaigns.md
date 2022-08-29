@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
+source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 59%
+source-wordcount: '518'
+ht-degree: 32%
 
 ---
 
@@ -18,24 +18,26 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="キャンペーン"
->abstract="キャンペーンを使用すれば、複数のチャネルをまたいだ特定のセグメントに 1 回限りのコンテンツを配信できます。新しいキャンペーンを作成する前に、チャネルサーフェス（例：メッセージプリセット）と Adobe Experience Platform セグメントが使用できる状態になっていることを確認します。"
+>abstract="キャンペーンを作成して、様々なチャネルをまたいで特定のセグメントに 1 回限りのコンテンツを配信します。 キャンペーンを作成する前に、チャネルサーフェス（例：メッセージプリセット）とAdobe Experience Platformセグメントが使用可能になっていることを確認します。"
 
-## キャンペーンについて {#about}
+Journey Optimizerキャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションは順番に実行されるように設計されています。 キャンペーンでは、アクションは即座に、または指定したスケジュールに基づいて、同時に実行されます。
 
-キャンペーンでは、複数のチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。アクションを順に実行するように設計されたジャーニーとは異なり、キャンペーンは、アクションを即座に、または指定したスケジュールで、同時に実行します。 
+キャンペーンを作成して、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などのマーケティングユースケース向けに、シンプルなアドホックバッチ通信を送信します。
 
-これにより、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などのマーケティング使用例に対して、シンプルなアドホックバッチ通信を送信できます。
-
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 <!--You can create two types of campaigns:
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
-## 前提条件 {#campaign-prerequisites}
+## 開始する前に {#campaign-prerequisites}
 
-キャンペーンは、キャンペーン関連の **[!UICONTROL 製品プロファイル]** （Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど）。
+Journey Optimizerで最初のキャンペーンの作成を開始する前に、次の前提条件を確認してください。
+
+1. **適切な権限が必要です**. キャンペーンは、キャンペーン関連の **[!UICONTROL 製品プロファイル]** （Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど）。 キャンペーンにアクセスできない場合は、権限を拡張する必要があります。 次にアクセスできる場合： [Adobe Admin Console](https://adminconsole.adobe.com/)組織の場合は、次の手順に従います。{target=&quot;_blank&quot;} そうでない場合は、Journey Optimizer管理者に問い合わせてください。
+
++++キャンペーン権限の割り当て方法を説明します
 
 対応する **[!UICONTROL 製品プロファイル]** をユーザーに送信します。
 
@@ -43,7 +45,7 @@ ht-degree: 59%
 
 1. 次の **[!UICONTROL 製品プロファイル]** 」タブで、組み込みの Campaign 関連の 1 つを選択します。 **[!UICONTROL 製品プロファイル]**:Campaign 管理者、Campaign 承認者、Campaign マネージャー、または Campaign ビューア。
 
-   Campaign の詳細情報 **[!UICONTROL 製品プロファイル]** および **[!UICONTROL 権限]**（これを参照） [ページ](../administration/ootb-product-profiles.md).
+   Journey Optimizer campaign の詳細 **[!UICONTROL 製品プロファイル]** および **[!UICONTROL 権限]**, [このページを参照してください。](../administration/ootb-product-profiles.md).
 
    ![](assets/do-not-localize/admin_1.png)
 
@@ -54,6 +56,11 @@ ht-degree: 59%
 1. ユーザーの名前、グループまたは電子メールアドレスを入力し、 **[!UICONTROL 保存]**.
 
 これで、ユーザーが **[!UICONTROL キャンペーン]**.
+
++++
+
+1. **オーディエンスが必要です**. オーディエンスセグメントは、キャンペーンを作成する前に使用可能にする必要があります。 オーディエンス作成の詳細を表示 [このページ](../segment/about-segments.md).
+1. **チャンネルサーフェスが必要です**. チャネルを選択するには、対応するチャネルサーフェスを作成し、使用可能にする必要があります。 チャネルサーフェス（プリセット）についての詳細 [このページ](../configuration/channel-surfaces.md)
 
 ## キャンペーンへのアクセス {#access}
 
