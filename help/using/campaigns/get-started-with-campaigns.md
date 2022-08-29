@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
+source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 32%
+source-wordcount: '516'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 32%
 >title="キャンペーン"
 >abstract="キャンペーンを作成して、様々なチャネルをまたいで特定のセグメントに 1 回限りのコンテンツを配信します。 キャンペーンを作成する前に、チャネルサーフェス（例：メッセージプリセット）とAdobe Experience Platformセグメントが使用可能になっていることを確認します。"
 
-Journey Optimizerキャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションは順番に実行されるように設計されています。 キャンペーンでは、アクションは即座に、または指定したスケジュールに基づいて、同時に実行されます。
+Journey Optimizerキャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションは順に実行されます。 キャンペーンでは、アクションは即座に、または指定したスケジュールに基づいて、同時に実行されます。
 
 キャンペーンを作成して、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などのマーケティングユースケース向けに、シンプルなアドホックバッチ通信を送信します。
 
@@ -43,9 +43,9 @@ Journey Optimizerで最初のキャンペーンの作成を開始する前に、
 
    対応する **[!UICONTROL 製品プロファイル]** をユーザーに送信します。
 
-   1. 次の [!DNL Admin console]を選択し、 [!DNL Adobe Experience Platform] 製品。
+   1. 送信者 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}、 [!DNL Adobe Experience Platform] 製品。
 
-   1. 次の **[!UICONTROL 製品プロファイル]** 」タブで、組み込みの Campaign 関連の 1 つを選択します。 **[!UICONTROL 製品プロファイル]**:Campaign 管理者、Campaign 承認者、Campaign マネージャー、または Campaign ビューア。
+   1. 次を参照： **[!UICONTROL 製品プロファイル]** 」タブで、組み込みのキャンペーン関連の 1 つを選択します。 **[!UICONTROL 製品プロファイル]**:Campaign 管理者、Campaign 承認者、Campaign マネージャー、または Campaign ビューア。
 
       Journey Optimizer campaign の詳細 **[!UICONTROL 製品プロファイル]** および **[!UICONTROL 権限]**, [このページを参照してください。](../administration/ootb-product-profiles.md).
 
@@ -56,12 +56,12 @@ Journey Optimizerで最初のキャンペーンの作成を開始する前に、
       ![](assets/do-not-localize/admin_2.png)
 
    1. ユーザーの名前、グループまたは電子メールアドレスを入力し、 **[!UICONTROL 保存]**.
-   これで、ユーザーが **[!UICONTROL キャンペーン]**.
+   これで、 **[!UICONTROL キャンペーン]**.
 
 +++
 
 1. **オーディエンスが必要です**. オーディエンスセグメントは、キャンペーンを作成する前に使用可能にする必要があります。 オーディエンス作成の詳細を表示 [このページ](../segment/about-segments.md).
-1. **チャンネルサーフェスが必要です**. チャネルを選択するには、対応するチャネルサーフェス（プリセット）を作成し、使用可能にする必要があります。 チャネルサーフェスの詳細を説明します [このページ](../configuration/channel-surfaces.md)
+1. **チャンネルサーフェスが必要です**. チャネルを選択するには、対応するチャネルサーフェス（プリセット）を作成し、使用可能にする必要があります。 チャネルサーフェスの詳細を説明します [このページ](../configuration/channel-surfaces.md).
 
 ## キャンペーンへのアクセス {#access}
 
@@ -78,14 +78,14 @@ Journey Optimizerで最初のキャンペーンの作成を開始する前に、
 * **[!UICONTROL ドラフト]**：キャンペーンは編集中で、アクティブ化されていません。
 * **[!UICONTROL アクティブ化中]**：キャンペーンをアクティブ化中です。
 * **[!UICONTROL ライブ]**：キャンペーンはアクティブ化されています。
-* **[!UICONTROL スケジュール済み]**：キャンペーンは、特定の開始日にアクティブ化されるように設定されています。
-* **[!UICONTROL 停止]**：キャンペーンは手動で停止されました。アクティブ化または再利用できなくなりました（[キャンペーンを停止](modify-stop-campaign.md#stop)を参照）
+* **[!UICONTROL 予定]**:キャンペーンは、特定の開始日にアクティブ化されるように設定されています。
+* **[!UICONTROL 停止]**：キャンペーンは手動で停止されました。これ以降は、アクティブ化または再利用できません。 [詳細情報](modify-stop-campaign.md#stop)
 * **[!UICONTROL 完了]**：キャンペーンは完了しています。このステータスは、キャンペーンがアクティブ化されてから 3 日後に、またはキャンペーンが繰り返し実行されている場合はキャンペーンの終了日に、自動的に割り当てられます。
 * **[!UICONTROL アーカイブ済み]**：キャンペーンはアーカイブされています。
 
 >[!NOTE]
 >
->**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;ステータスの横にある「ドラフトバージョンを開く」アイコンは、キャンペーンの新しいバージョンが作成され、まだアクティブ化されていないことを示します（[キャンペーンを変更](modify-stop-campaign.md#modify)を参照）。
+>ドラフトバージョンを開くアイコン ( **[!UICONTROL ライブ]** または **[!UICONTROL 予定]** 「 」ステータスは、キャンペーンの新しいバージョンが作成済みで、まだアクティブ化されていないことを示します。 [詳細情報](modify-stop-campaign.md#modify)。
 
 ## チュートリアルビデオ {#video}
 

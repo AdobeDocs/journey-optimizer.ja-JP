@@ -6,20 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 85%
+source-wordcount: '1125'
+ht-degree: 75%
 
 ---
 
 # ビルトインの製品プロファイル {#ootb-product-profiles}
 
-Adobe Journey Optimizer では、ジャーニーから直接メッセージを作成およびオーサリングできる新機能であるインラインオーサリングをリリースします。この新機能について詳しくは、このページを参照してください。
 
->[!WARNING]
->
->ユーザーが **[!DNL Message Manager]** 製品プロファイルのみに割り当てられ、**[!DNL Journey manager]** 製品プロファイルが割り当てられていない場合、コンテンツの編集を続行できるようにするには、新しい製品プロファイルを割り当てる必要があります。
+## メッセージに関連する権限について{#message-permissions}
+
+Adobe Journey Optimizerは、新しいインラインオーサリング機能をリリースしました。この機能を使用すると、ジャーニーやキャンペーンから直接メッセージを作成し、オーサリングできます。 この新機能の詳細は、 [このページを参照してください。](../rn/inline-messages.md).
 
 この機能は次の権限に影響を与えます。
 
@@ -31,9 +30,14 @@ Adobe Journey Optimizer では、ジャーニーから直接メッセージを�
 | **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
 | **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
 
-**7月25日（PT）以降**、メッセージにアクセスして移行を有効にすることも、メッセージをテンプレートとして保存することも引き続きできるので、メッセージに関連する権限は引き続き使用できます。
+**7 月 25 日以降**、 **メッセージ** は引き続き使用可能です。これは、トランジションを有効にするためにメッセージにアクセスでき、テンプレートとして保存できるためです。
 
-**9月6日（PT）の時点で**、メッセージに関連する権限が削除され、メッセージにアクセスできなくなります。
+**9 月 6 日現在**、 **メッセージ** が削除され、メッセージにアクセスできなくなります。
+
+>[!WARNING]
+>
+>ユーザーが **[!DNL Message Manager]** 製品プロファイルのみ（なし） **[!DNL Journey manager]** 製品プロファイルを編集する場合、コンテンツの編集を続行するには、新しい製品プロファイルを割り当てる必要があります。
+
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -64,9 +68,9 @@ Adobe Journey Optimizer では、ジャーニーから直接メッセージを�
 |意思決定管理| <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムメッセージレポートの読み取り、作成、編集、削除を行い、アクション機能を使用する。</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>|
 |管理| <ul><li>**[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</li></ul>|
 
-## [!DNL Campaign viewer] {#campaign-viewer}
+## [!DNL Campaign Viewer] {#campaign-viewer}
 
-この **[!DNL Campaign viewer]** 製品プロファイルを使用すると、 **[!UICONTROL キャンペーン]** および **[!UICONTROL 決定管理]** 機能
+この **[!DNL Campaign Viewer]** 製品プロファイルを使用すると、 **[!UICONTROL キャンペーン]** および **[!UICONTROL 決定管理]** 機能
 
 この製品プロファイルに割り当てられたユーザーは、編集または公開はできません。
 
