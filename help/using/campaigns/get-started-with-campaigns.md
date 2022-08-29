@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
+source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 32%
@@ -35,32 +35,33 @@ Journey Optimizerキャンペーンを使用すると、様々なチャネルを
 
 Journey Optimizerで最初のキャンペーンの作成を開始する前に、次の前提条件を確認してください。
 
-1. **適切な権限が必要です**. キャンペーンは、キャンペーン関連の **[!UICONTROL 製品プロファイル]** （Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど）。 キャンペーンにアクセスできない場合は、権限を拡張する必要があります。 次にアクセスできる場合： [Adobe Admin Console](https://adminconsole.adobe.com/)組織の場合は、次の手順に従います。{target=&quot;_blank&quot;} そうでない場合は、Journey Optimizer管理者に問い合わせてください。
+1. **適切な権限が必要です**. キャンペーンは、キャンペーン関連の **[!UICONTROL 製品プロファイル]** （Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど）。
 
-+++キャンペーン権限の割り当て方法を説明します
+   キャンペーンにアクセスできない場合は、権限を拡張する必要があります。 次にアクセスできる場合： [Adobe Admin Console](https://adminconsole.adobe.com/)組織の場合は、次の手順に従います。{target=&quot;_blank&quot;} そうでない場合は、Journey Optimizer管理者に問い合わせてください。
 
-対応する **[!UICONTROL 製品プロファイル]** をユーザーに送信します。
+   +++キャンペーン権限の割り当て方法を説明します
 
-1. 次の [!DNL Admin console]を選択し、 [!DNL Adobe Experience Platform] 製品。
+   対応する **[!UICONTROL 製品プロファイル]** をユーザーに送信します。
 
-1. 次の **[!UICONTROL 製品プロファイル]** 」タブで、組み込みの Campaign 関連の 1 つを選択します。 **[!UICONTROL 製品プロファイル]**:Campaign 管理者、Campaign 承認者、Campaign マネージャー、または Campaign ビューア。
+   1. 次の [!DNL Admin console]を選択し、 [!DNL Adobe Experience Platform] 製品。
 
-   Journey Optimizer campaign の詳細 **[!UICONTROL 製品プロファイル]** および **[!UICONTROL 権限]**, [このページを参照してください。](../administration/ootb-product-profiles.md).
+   1. 次の **[!UICONTROL 製品プロファイル]** 」タブで、組み込みの Campaign 関連の 1 つを選択します。 **[!UICONTROL 製品プロファイル]**:Campaign 管理者、Campaign 承認者、Campaign マネージャー、または Campaign ビューア。
 
-   ![](assets/do-not-localize/admin_1.png)
+      Journey Optimizer campaign の詳細 **[!UICONTROL 製品プロファイル]** および **[!UICONTROL 権限]**, [このページを参照してください。](../administration/ootb-product-profiles.md).
 
-1. クリック **[!UICONTROL ユーザーを追加]** 選択したユーザーに割り当てるには **[!UICONTROL 製品プロファイル]**.
+      ![](assets/do-not-localize/admin_1.png)
 
-   ![](assets/do-not-localize/admin_2.png)
+   1. クリック **[!UICONTROL ユーザーを追加]** 選択したユーザーに割り当てるには **[!UICONTROL 製品プロファイル]**.
 
-1. ユーザーの名前、グループまたは電子メールアドレスを入力し、 **[!UICONTROL 保存]**.
+      ![](assets/do-not-localize/admin_2.png)
 
-これで、ユーザーが **[!UICONTROL キャンペーン]**.
+   1. ユーザーの名前、グループまたは電子メールアドレスを入力し、 **[!UICONTROL 保存]**.
+   これで、ユーザーが **[!UICONTROL キャンペーン]**.
 
 +++
 
 1. **オーディエンスが必要です**. オーディエンスセグメントは、キャンペーンを作成する前に使用可能にする必要があります。 オーディエンス作成の詳細を表示 [このページ](../segment/about-segments.md).
-1. **チャンネルサーフェスが必要です**. チャネルを選択するには、対応するチャネルサーフェスを作成し、使用可能にする必要があります。 チャネルサーフェス（プリセット）についての詳細 [このページ](../configuration/channel-surfaces.md)
+1. **チャンネルサーフェスが必要です**. チャネルを選択するには、対応するチャネルサーフェス（プリセット）を作成し、使用可能にする必要があります。 チャネルサーフェスの詳細を説明します [このページ](../configuration/channel-surfaces.md)
 
 ## キャンペーンへのアクセス {#access}
 
