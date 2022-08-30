@@ -5,11 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 07ef1281cff9d12c39917aecf408b2405efb3fc7
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
