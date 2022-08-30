@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
       + [開発者向けの基本を学ぶ](using/start/path/developer.md)
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [ガードレール](using/start/guardrails.md)
-+ キャンペーン {#campaigns}
++ キャンペーン{#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
    + [ライブキャンペーンの管理](using/campaigns/modify-stop-campaign.md)
@@ -44,7 +44,7 @@ ht-degree: 98%
       + [統計計算について](using/campaigns/experiment-calculations.md)
       + [レポート設定](using/campaigns/reporting-configuration.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
-+ ジャーニー {#orchestrate-journeys}
++ ジャーニー{#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [ジャーニーライフサイクル](using/building-journeys/journey-end.md)
