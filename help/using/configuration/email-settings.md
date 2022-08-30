@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 96%
@@ -36,7 +36,7 @@ ht-degree: 96%
 >
 >**トランザクション**&#x200B;メールは、アドビからのお知らせの購読を解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
 
-[メッセージの作成](../messages/get-started-content.md#create-new-message)時に、メールに対して選択したカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+[メッセージの作成](../messages/get-started-content.md)時に、メールに対して選択したカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
 
 ## サブドメインおよび IP プール {#subdomains-and-ip-pools}
 

@@ -6,18 +6,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 86%
 
 ---
 
 # メールデザインの基本を学ぶ {#get-started-content-design}
 
+既存のコンテンツをにインポートできます。 [!DNL Journey Optimizer] コンテンツデザイン機能を活用するには：
+
+* 用途 [!DNL Journey Optimizer] **メールデザイン機能** レスポンシブ e メールをデザインまたは読み込みます。 [詳細情報](../design/create-email-content.md)
+
+* **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](../design/assets-essentials.md)
+
+* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを改善します。[詳細情報](../design/stock.md)
+
+* プロファイル属性に基づいてパーソナライズされたメッセージを作成することで、顧客体験を強化します。 [詳細情報](../personalization/personalize.md)
+
 ➡️ [この機能をビデオで確認](#video)
 
-1. 新しく作成したメッセージから、「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL 電子メールデザイナー]**」を選択します。
+[メッセージを作成](../messages/get-started-content.md)したら、メールコンテンツの作成に取り掛かることができます。
+
+1. 新しく作成したメッセージから、「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL E メールデザイナー]**」を選択します。
 
    ![](assets/import-html_1.png)
 
@@ -35,11 +47,6 @@ ht-degree: 100%
 
 これらの機能はすべて、メッセージ作成画面から電子メールデザイナーにアクセスする場合に使用できます。[メッセージの作成の詳細情報](../messages/get-started-content.md)。
 
->[!NOTE]
->
->下の領域のテンプレートは静的で、編集できないことに注意してください。これらは、説明の目的でのみ使用できます。
->
->[メッセージを作成](../messages/get-started-content.md)したら、メールコンテンツの作成に取り掛かることができます。
 
 ## ハウツービデオ {#video}
 

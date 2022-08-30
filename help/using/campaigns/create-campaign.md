@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 86%
+source-wordcount: '655'
+ht-degree: 69%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 86%
 >* [セグメントの基本を学ぶ](../segment/about-segments.md)
 
 
-## キャンペーンの設定 {#configure}
-
 キャンペーンの作成手順は次のとおりです。
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
@@ -33,7 +31,7 @@ ht-degree: 86%
 
    >[!NOTE]
    >
-   >また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。[詳細情報](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。 [詳細情報](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -43,6 +41,8 @@ ht-degree: 86%
 1. 「**[!UICONTROL アクション]**」セクションで、メッセージの送信に使用するチャネルとチャネルサーフェスを選択し、「**[!UICONTROL 作成]**」をクリックします。
 
    ![](assets/create-campaign-action.png)
+
+   サーフェスは、[システム管理者](../start/path/administrator.md)によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
 
    >[!NOTE]
    >
@@ -54,19 +54,22 @@ ht-degree: 86%
 
 1. 「**[!UICONTROL アクション]**」セクションで、キャンペーンで送信するメッセージを設定します。
 
-   1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メッセージコンテンツを設定およびデザインします。 [メッセージの詳細を表示](../messages/get-started-content.md)
+   1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メッセージコンテンツを設定およびデザインします。 [メッセージについて詳しくはこちらを参照](../messages/get-started-content.md)してください。
 
-      >[!NOTE]
-      >
-      >この **[!UICONTROL コンテンツをシミュレート]** ボタンをクリックすると、テストプロファイルを使用して、コンテンツをプレビューおよびテストできます。 [詳細情報](../design/preview.md)
+      メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
-   1. コンテンツの準備が整ったら、矢印をクリックしてキャンペーンの作成画面に戻ります。
+      * [E メールの作成](../messages/create-email.md)
+      * [プッシュ通知の作成](../messages/create-push.md)
+      * [SMS メッセージの作成](../messages/create-sms.md)
+   1. コンテンツを定義したら、 **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、コンテンツをテストプロファイルでプレビューおよびテストします。 [詳細情報](../design/preview.md)。
+   1. 矢印をクリックして、キャンペーン作成画面に戻ります。
 
       ![](assets/create-campaign-design.png)
 
-   1. 「**[!UICONTROL アクショントラッキング]**」セクションで、配信に対する受信者の反応をトラッキングするかどうかを指定します。
+   1. 内 **[!UICONTROL アクションのトラッキング]** セクションで、受信者が配信に対する反応を追跡するかどうかを指定します。クリック数や開封数を追跡できます。
 
       キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。[キャンペーンレポートについて詳しくはこちらを参照](../reports/campaign-global-report.md)
+
 
 1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
@@ -80,7 +83,7 @@ ht-degree: 86%
    >
    >様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。
 
-1. キャンペーンの開始日と終了日を設定します。デフォルトでは、キャンペーンは手動でアクティブ化すると開始し、メッセージが 1 回送信されるとすぐに終了するように設定されています。
+1. 開始日と終了日のフィールドで、キャンペーンのスケジュールを設定します。 デフォルトでは、キャンペーンは手動でアクティブ化された後に開始し、メッセージが 1 回送信されるとすぐに終了します。
 
 1. さらに、キャンペーンで設定されたアクションの実行頻度を指定できます。
 
@@ -90,7 +93,7 @@ ht-degree: 86%
 
 <!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-キャンペーンの準備が整ったら、レビューして公開できます（[キャンペーンのレビューとアクティブ化](#review-activate)を参照）。
+キャンペーンの準備が整ったら、キャンペーンを確認してパブリッシュできます。 [詳細情報](#review-activate);
 
 ## キャンペーンのレビューとアクティブ化 {#review-activate}
 
@@ -102,7 +105,7 @@ ht-degree: 86%
 
    >[!IMPORTANT]
    >
-   >エラーが発生した場合は、キャンペーンをアクティブ化できません。続行する前にエラーを解決します。
+   >エラーが発生した場合は、キャンペーンを有効化できません。 続行する前にエラーを解決します。
 
    ![](assets/create-campaign-alerts.png)
 
@@ -110,13 +113,15 @@ ht-degree: 86%
 
    ![](assets/create-campaign-review.png)
 
-1. キャンペーンがアクティブ化され、ステータスが&#x200B;**[!UICONTROL ライブ]**（開始日を指定した場合は&#x200B;**[!UICONTROL スケジュール済み]**）になります。[キャンペーンのステータスについて詳しくはこちらを参照](get-started-with-campaigns.md#statuses)。キャンペーンで設定されたメッセージは、すぐに実行されるか、指定日に実行されます。
+1. これで、キャンペーンがアクティブ化されます。 ステータスは次のとおりです。 **[!UICONTROL ライブ]**&#x200B;または **[!UICONTROL 予定]** 開始日を入力した場合。 [キャンペーンのステータスについて詳しくはこちらを参照](get-started-with-campaigns.md#statuses).
+
+   キャンペーンに設定されたメッセージは、即座に、または指定した日付に送信されます。
 
    >[!NOTE]
    >
    >この **[!UICONTROL 完了]** ステータスは、キャンペーンがアクティブ化されてから 3 日後、または繰り返し実行されている場合はキャンペーンの終了日に自動的に割り当てられます。
    >
-   >終了日が指定されていない場合、キャンペーンのステータスは「ライブ」のままになります。 変更するには、キャンペーンを手動で停止する必要があります。 [キャンペーンの停止方法についてはこちらを参照](modify-stop-campaign.md)
+   >終了日が指定されていない場合、キャンペーンは **[!UICONTROL ライブ]** ステータス。 変更するには、キャンペーンを手動で停止する必要があります。 [キャンペーンの停止方法についてはこちらを参照](modify-stop-campaign.md)
 
 1. キャンペーンがアクティブ化されると、キャンペーンを開いて、いつでもその情報を確認できます。概要では、ターゲットプロファイルの数と、配信されたアクションおよび失敗したアクションの数に関する統計情報を取得できます。
 

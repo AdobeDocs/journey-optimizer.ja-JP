@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 >
 >BCC 機能の使用状況は、ライセンスを取得したメッセージ数に照らしてカウントされます。したがって、アーカイブする重要な通信に使用されるサーフェス内でのみ有効にします。ライセンスを取得したボリュームを契約書で確認します。
 
-BCC メールアドレスの設定は、サーフェスレベルで直ちに保存および処理されます。このサーフェスを使用して[新しいメッセージを作成](../messages/get-started-content.md#create-new-message)すると、BCC メールアドレスが自動的に表示されます。
+BCC メールアドレスの設定は、サーフェスレベルで直ちに保存および処理されます。このサーフェスを使用して[新しいメッセージを作成](../messages/get-started-content.md)すると、BCC メールアドレスが自動的に表示されます。
 
 ![](assets/preset-bcc-in-msg.png)
 

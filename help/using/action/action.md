@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 ➡️ [この機能をビデオで確認](#video)
 
 [!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。
-[この節](../messages/get-started-content.md)を参照してください。
+[この節](../messages/messages-in-journeys.md)を参照してください。
 
 Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応じて統合を利用できます。[このページ](../action/acc-action.md)を参照してください。
 
