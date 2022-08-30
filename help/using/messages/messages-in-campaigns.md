@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 26%
@@ -20,7 +20,7 @@ ht-degree: 26%
 >[!NOTE]
 >また、トリガーメッセージを送信するジャーニーを作成することもできます。 詳しくは、[この節](messages-in-journeys.md)を参照してください。
 
-キャンペーンでメッセージを追加して設定する方法を説明します [この節](../campaigns/create-campaign.md)
+キャンペーンでメッセージを追加して設定する方法を説明します [この節](../campaigns/create-campaign.md).
 
 メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
