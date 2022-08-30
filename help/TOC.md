@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
+source-git-commit: 14b0928821e0c1815869711a0bb68a09beb1b7e4
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 98%
@@ -44,7 +44,81 @@ ht-degree: 98%
       + [統計計算について](using/campaigns/experiment-calculations.md)
       + [レポート設定](using/campaigns/reporting-configuration.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
-+ ジャーニー{#orchestrate-journeys}
++ メッセージ {#messages}
+   + [メッセージの基本を学ぶ](using/messages/get-started-content.md)
+   + [メッセージジャーニーの追加](using/messages/messages-in-journeys.md)
+   + [メッセージキャンペーンの追加](using/messages/messages-in-campaigns.md)
+   + [メールの作成](using/messages/create-email.md)
+   + [プッシュ通知の作成](using/messages/create-push.md)
+   + [SMS メッセージの作成](using/messages/create-sms.md)
+   + [アラートの確認](using/messages/alerts.md)
+   + [同意の管理](using/messages/consent.md)
+   + [送信時間の最適化](using/messages/send-time-optimization.md)
++ コンテンツのデザイン {#design}
+   + [メールデザインの基本を学ぶ](using/design/design-emails.md)
+   + [ゼロからの開始 ](using/design/create-email-content.md)
+   + [メールコンテンツのインポート](using/design/existing-content.md)
+   + [コンテンツを独自にコーディング](using/design/code-content.md)
+   + [テンプレートの操作](using/design/email-templates.md)
+   + コンテンツデザイン {#design-content}
+      + [コンテンツコンポーネントの使用](using/design/content-components.md)
+      + [背景の設定](using/design/backgrounds.md)
+      + [垂直方向の整列とパディングの調整](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [リンクのスタイルの定義](using/design/styling-links.md)
+      + [インラインのスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
+   + メールの設定 {#design-email}
+      + [テキストバージョンの生成](using/design/text-version-email.md)
+      + [プリヘッダーの追加](using/design/preheader.md)
+   + アセットの追加と管理 {#manage-asset}
+      + [Assets Essentials の操作](using/design/assets-essentials.md)
+      + [Adobe Stock との連携](using/design/stock.md)
+   + [パーソナライズされたオファーの追加](using/design/deliver-personalized-offers.md)
+   + [リンクの追加とメッセージのトラッキング](using/design/message-tracking.md)
+   + [プレビューと配達確認](using/design/preview.md)
++ ランディングページ {#landing-pages}
+   + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
+   + [ランディングページの作成](using/landing-pages/create-lp.md)
+   + コンテンツのデザイン {#landing-pages-design}
+      + [ランディングページの設計について](using/landing-pages/design-lp.md)
+      + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
+      + [テンプレートの作成](using/landing-pages/lp-templates.md)
+      + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
+   + [購読リストの作成](using/landing-pages/subscription-list.md)
+   + [ユースケース](using/landing-pages/lp-use-cases.md)
++ パーソナライゼーション{#personalization}
+   + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
+   + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
+   + 式の作成 {#build-expressions}
+      + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
+      + 式エディターの操作 {#expression-editor}
+         + [式エディターについて](using/personalization/personalization-build-expressions.md)
+         + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
+         + [保存済み式の使用](using/personalization/personalization-library.md)
+         + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
+      + ヘルパー関数{#functions}
+         + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
+         + [集計関数](using/personalization/functions/aggregation.md)
+         + [演算関数](using/personalization/functions/arithmetic-functions.md)
+         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
+         + [日時関数](using/personalization/functions/dates.md)
+         + [ブール関数と比較関数](using/personalization/functions/operators.md)
+         + [ヘルパー](using/personalization/functions/helpers.md)
+         + [マップ関数](using/personalization/functions/maps.md)
+         + [オブジェクト関数](using/personalization/functions/objects.md)
+         + [文字列関数](using/personalization/functions/string.md)
+   + ユースケース{#personalization-use-cases}
+      + [注文ステータスの通知](using/personalization/personalization-use-case.md)
+      + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
++ セグメント、プロファイル、ID{#segment}
+   + セグメント {#segments}
+      + [セグメントの基本を学ぶ](using/segment/about-segments.md)
+      + [セグメントの作成](using/segment/creating-a-segment.md)
+   + プロファイル{#profiles}
+      + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
+      + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
+   + [ID](using/segment/get-started-identity.md)
+   + [ライセンス使用状況](using/segment/license-usage.md)
++ ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [ジャーニーライフサイクル](using/building-journeys/journey-end.md)
@@ -165,80 +239,6 @@ ht-degree: 98%
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
-+ メッセージ {#messages}
-   + [メッセージの基本を学ぶ](using/messages/get-started-content.md)
-   + [メッセージジャーニーの追加](using/messages/messages-in-journeys.md)
-   + [メッセージキャンペーンの追加](using/messages/messages-in-campaigns.md)
-   + [メールの作成](using/messages/create-email.md)
-   + [プッシュ通知の作成](using/messages/create-push.md)
-   + [SMS メッセージの作成](using/messages/create-sms.md)
-   + [アラートの確認](using/messages/alerts.md)
-   + [同意の管理](using/messages/consent.md)
-   + [送信時間の最適化](using/messages/send-time-optimization.md)
-+ コンテンツのデザイン {#design}
-   + [メールデザインの基本を学ぶ](using/design/design-emails.md)
-   + [ゼロからの開始 ](using/design/create-email-content.md)
-   + [メールコンテンツのインポート](using/design/existing-content.md)
-   + [コンテンツを独自にコーディング](using/design/code-content.md)
-   + [テンプレートの操作](using/design/email-templates.md)
-   + コンテンツデザイン {#design-content}
-      + [コンテンツコンポーネントの使用](using/design/content-components.md)
-      + [背景の設定](using/design/backgrounds.md)
-      + [垂直方向の整列とパディングの調整](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [リンクのスタイルの定義](using/design/styling-links.md)
-      + [インラインのスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
-   + メールの設定 {#design-email}
-      + [テキストバージョンの生成](using/design/text-version-email.md)
-      + [プリヘッダーの追加](using/design/preheader.md)
-   + アセットの追加と管理 {#manage-asset}
-      + [Assets Essentials の操作](using/design/assets-essentials.md)
-      + [Adobe Stock との連携](using/design/stock.md)
-   + [パーソナライズされたオファーの追加](using/design/deliver-personalized-offers.md)
-   + [リンクの追加とメッセージのトラッキング](using/design/message-tracking.md)
-   + [プレビューと配達確認](using/design/preview.md)
-+ ランディングページ {#landing-pages}
-   + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
-   + [ランディングページの作成](using/landing-pages/create-lp.md)
-   + コンテンツのデザイン {#landing-pages-design}
-      + [ランディングページの設計について](using/landing-pages/design-lp.md)
-      + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
-      + [テンプレートの作成](using/landing-pages/lp-templates.md)
-      + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
-   + [購読リストの作成](using/landing-pages/subscription-list.md)
-   + [ユースケース](using/landing-pages/lp-use-cases.md)
-+ パーソナライゼーション{#personalization}
-   + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
-   + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
-   + 式の作成 {#build-expressions}
-      + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-      + 式エディターの操作 {#expression-editor}
-         + [式エディターについて](using/personalization/personalization-build-expressions.md)
-         + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
-         + [保存済み式の使用](using/personalization/personalization-library.md)
-         + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
-      + ヘルパー関数{#functions}
-         + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
-         + [集計関数](using/personalization/functions/aggregation.md)
-         + [演算関数](using/personalization/functions/arithmetic-functions.md)
-         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
-         + [日時関数](using/personalization/functions/dates.md)
-         + [ブール関数と比較関数](using/personalization/functions/operators.md)
-         + [ヘルパー](using/personalization/functions/helpers.md)
-         + [マップ関数](using/personalization/functions/maps.md)
-         + [オブジェクト関数](using/personalization/functions/objects.md)
-         + [文字列関数](using/personalization/functions/string.md)
-   + ユースケース{#personalization-use-cases}
-      + [注文ステータスの通知](using/personalization/personalization-use-case.md)
-      + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
-+ セグメント、プロファイル、ID{#segment}
-   + セグメント {#segments}
-      + [セグメントの基本を学ぶ](using/segment/about-segments.md)
-      + [セグメントの作成](using/segment/creating-a-segment.md)
-   + プロファイル{#profiles}
-      + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
-      + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
-   + [ID](using/segment/get-started-identity.md)
-   + [ライセンス使用状況](using/segment/license-usage.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
