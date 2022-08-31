@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 5%
+source-wordcount: '721'
+ht-degree: 4%
 
 ---
 
@@ -20,36 +20,63 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="レポート用のデータセットの設定"
->abstract="レポート設定を使用すると、システムへの接続を定義して、レポートで使用する追加のカスタム情報を取得できます。 技術ユーザーが実行する必要があります。"
+>abstract="レポートの設定では、キャンペーンレポートの「目標」タブで使用される追加の指標を取得できます。 技術ユーザーが実行する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="データセットの選択"
->abstract="選択できるのは、サポートされているフィールドグループの 1 つ以上を含む必要があるイベントタイプデータセットのみです。experienceevent-web、experienceevent-application、experienceevent-commerce。"
+>abstract="選択できるのは、サポートされているフィールドグループの 1 つ以上を含む必要があるイベントタイプデータセットのみです。アプリケーションの詳細、コマースの詳細、Web の詳細。"
 
-レポートデータソースの設定を使用すると、システムへの接続を定義して、レポートで使用される追加情報を取得できます。
+<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+
+レポートのデータソース設定を使用すると、 **[!UICONTROL 目標]** 」タブをクリックします。 [詳細情報](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
->データソースの設定は、技術ユーザーが実行する必要があります。 <!--Rights?-->
+>レポートの設定は、技術ユーザーが実行する必要があります。 <!--Rights?-->
 
-この設定の場合は、レポートに使用する属性を含む 1 つ以上のデータセットを追加する必要があります。 それには、次の手順に従います。
-
->[!CAUTION]
->
->データセットをレポート設定に追加する前に、データセットを作成する必要があります。 詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}。
->
->イベントタイプのデータセットのみを追加できます。追加できるデータセットには、サポートされている [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**.
+この設定の場合は、レポートに使用する追加の要素を含む 1 つ以上のデータセットを追加する必要があります。 これをおこなうには、次の手順に従います。 [下](#add-datasets).
 
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
-例えば、購入や注文などのコマースデータに対する電子メールキャンペーンの影響を把握するには、 **experienceevent-commerce** フィールドグループを使用します。 同様に、モバイルインタラクションに関するレポートを作成する場合は、 **experienceevent-application** フィールドグループを使用します。 <!--If you want to report on web interactions then you need to include the web field group.--> これらのフィールドグループを、1 つのデータセットまたは異なるデータセットで使用する 1 つまたは複数のスキーマに追加できます。
+## 前提条件
+
+
+データセットをレポート設定に追加する前に、そのデータセットを作成する必要があります。 詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}。
+
+* イベントタイプのデータセットのみを追加できます。
+
+* これらのデータセットには、次のうち少なくとも 1 つを含める必要があります [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **アプリの詳細**, **コマースの詳細**, **Web の詳細**.
+
+   >[!NOTE]
+   >
+   >現在、これらのフィールドグループのみがサポートされています。
+
+   例えば、購入や注文などのコマースデータに対する電子メールキャンペーンの影響を把握するには、 **コマースの詳細** フィールドグループを使用します。
+
+   同様に、モバイルインタラクションに関するレポートを作成する場合は、 **アプリの詳細** フィールドグループを使用します。
+
+   各フィールドグループに対応する指標が表示されます [ここ](#objective-list).
+
+* これらのフィールドグループは、1 つまたは複数のデータセットで使用する 1 つまたは複数のスキーマに追加できます。
 
 >[!NOTE]
 >
 >XDM スキーマとフィールドグループについて詳しくは、 [XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}。
+
+## 各フィールドグループに対応する目標 {#objective-list}
+
+次の表に、 **[!UICONTROL 目標]** 」タブに表示されます。
+
+| フィールドグループ | 目標 |
+|--- |--- |
+| コマースの詳細 | 価格合計<br>支払い金額<br>（個別）チェックアウト<br>（個別）製品リストの追加数<br>（個別）製品リストの開封数<br>（個別）製品リストの削除<br>（個別）製品リスト表示<br>（個別）製品表示<br>（個別）購入<br>（一意）後で使用するために保存<br>製品価格合計<br>製品数 |
+| アプリの詳細 | （個別）アプリの起動回数<br>アプリの初回起動<br>（個別）アプリインストール数<br>（個別）アプリのアップグレード |
+| Web の詳細 | （個別）ページビュー数 |
+
+## データセットを追加 {#add-datasets}
 
 1. 次の **[!UICONTROL 管理]** メニュー、選択 **[!UICONTROL 設定]**. 内  **[!UICONTROL レポート]** セクションで、 **[!UICONTROL 管理]**.
 
@@ -69,7 +96,7 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >選択できるのはイベントタイプのデータセットのみです。このデータセットには、サポートされている [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**. これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
+   >選択できるのはイベントタイプのデータセットのみです。このデータセットには、サポートされている [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **アプリの詳細**, **コマースの詳細**, **Web の詳細**. これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
 
    ![](assets/reporting-config-datasets.png)
 
@@ -95,12 +122,13 @@ ht-degree: 5%
    >
    >イベントタイプでないデータセットを選択した場合は、続行できません。
 
-配信のレポートを作成する際に、このデータセットのデータを使用して、追加のカスタム情報を取得し、レポートをより微調整できるようになりました。 [詳細情報](content-experiment.md#objectives-global)
+キャンペーンレポートを作成する際に、追加したデータセットで使用されるフィールドグループに対応する指標を表示できるようになりました。 次に移動： **[!UICONTROL 目標]** 」タブをクリックし、選択した指標を選択して、レポートを微調整します。 [詳細情報](content-experiment.md#objectives-global)
+
+![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
 >複数のデータセットを追加する場合、すべてのデータセットのすべてのデータをレポートに使用できます。
-
 
 <!--
 ## How-to video {#video}

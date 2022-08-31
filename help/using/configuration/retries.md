@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,14 @@ ht-degree: 100%
 * 異なる配信で 2 つのエラーが 24 時間以上の間隔で発生した場合は、エラーが発生するたびにエラーカウンターが増加し、5 回目の試行失敗で、やはりアドレスが抑制されます。
 
 再試行後に配信が成功すると、そのアドレスのエラーカウンターは再初期化されます。
+
+## 再試行しきい値を編集 {#edit-retry-threshold}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_bounces"
+>title="エラー数しきい値を更新"
+>abstract="デフォルト値がニーズに合わない場合は、連続するソフトバウンスの許可数を変更できます。 再試行カウンターが特定の電子メールアドレスのエラーしきい値に達すると、このアドレスは抑制リストに追加されます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="サプレッションリストについて"
 
 デフォルト値の 5 がニーズに合わない場合は、次の手順に従ってエラーのしきい値を変更できます。
 

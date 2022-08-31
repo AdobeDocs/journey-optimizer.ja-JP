@@ -4,9 +4,9 @@ description: Journey Optimizer で SMS メッセージを送信するように�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 66%
 
 ---
@@ -25,12 +25,12 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="SMS ベンダーの設定"
+>title="SMS ベンダー設定を選択"
 >abstract="ベンダーを選択し、SMS API の資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="SMS ベンダーの設定"
+>title="SMS ベンダー設定を選択"
 >abstract="SMS ベンダーに設定する API 資格情報を選択します。"
 
 Journey Optimizer で SMS ベンダーを設定するには、次の手順に従います。

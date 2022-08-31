@@ -2,9 +2,9 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1827'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 98%
 * サブスクリプションの設定とランディングページの作成方法を示すビデオが、ランディングページの概要のセクションで参照できるようになりました。[詳細情報](../landing-pages/get-started-lp.md#video)
 * 「セグメントを読み取り」アクティビティを使用するジャーニーに対する制限が追加されました。 [詳細情報](../building-journeys/read-segment.md)
 * 式エディターの演算子ページが改善されました。 [詳細情報](../building-journeys/expression/operators.md)
+* キャンペーンのスケジュール方法に関する節が追加されました。 [詳細情報](../campaigns/create-campaign.md)
 
 ## 2022年7月 {#july-2022}
 

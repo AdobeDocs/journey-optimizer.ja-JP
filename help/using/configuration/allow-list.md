@@ -5,13 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 96%
 
 ---
 
@@ -35,19 +32,9 @@ ht-degree: 100%
 
 許可されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;に移動し、「**[!UICONTROL 許可リスト]**」を選択します。
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >許可リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
-
-許可リストを CSV ファイルとしてエクスポートするには、「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。
-
-エントリを完全に削除するには、「**[!UICONTROL 削除]**」ボタンを使用します。
-
-メールアドレスまたはドメインで検索し、**[!UICONTROL アドレスタイプ]**&#x200B;でフィルタリングできます。選択したら、リストの上部に表示されているフィルターをクリアできます。
-
-![](assets/allowed-list-filtering-example.png)
 
 ## 許可リストの有効化 {#enable-allow-list}
 
@@ -55,13 +42,9 @@ ht-degree: 100%
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
 
-1. 「**[!UICONTROL 許可リストを有効化 / 無効化]**」をクリックします。
-
-   ![](assets/allow-list-edit.png)
+1. 「**[!UICONTROL 編集]**」をクリックします。
 
 1. 「**[!UICONTROL 許可リストを有効化]**」を選択します。
-
-   ![](assets/allow-list-enable.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。この許可リストは有効です。
 
@@ -73,48 +56,11 @@ ht-degree: 100%
 
 ## 許可リストへのエンティティの追加 {#add-entities}
 
-特定のサンドボックスの許可リストに新しいメールアドレスまたはドメインを追加するには、[リストに手動で入力](#manually-populate-list)するか、[API 呼び出し](#api-call-allowed-list)を使用します。
+特定のサンドボックス用に新しい電子メールアドレスまたは許可リストをドメインに追加するには、 [API 呼び出し](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >許可リストには、最大 1,000 個のエントリを含めることができます。
-
-### 許可リストへの手動入力 {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="許可リストへのアドレスまたはドメインの追加"
->abstract="新しいメールアドレスまたはドメインを 1 つずつ選択して、許可リストに手動で追加できます。"
-
-ユーザーインターフェイスを介してメールアドレスまたはドメインを追加することで、[!DNL Journey Optimizer] 許可リストに手動で入力できます。
-
->[!NOTE]
->
->メールアドレスまたはドメインは一度に 1 つだけ追加できます。
-
-それには、次の手順に従います。
-
-1. 「**[!UICONTROL メールまたはドメインの追加]**」ボタンを選択します。
-
-   ![](assets/allowed-list-add-email.png)
-
-1. アドレスタイプとして、「**[!UICONTROL メールアドレス]**」または「**[!UICONTROL ドメインアドレス]**」を選択します。
-
-1. メールの送信先となるメールアドレスまたはドメインを入力します。
-
-   >[!NOTE]
-   >
-   >必ず有効なメールアドレス（abc@company.com など）または有効なドメイン（abc.company.com など）を入力してください。
-
-1. 必要に応じて理由を指定します。
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
-
-1. 「**[!UICONTROL 送信]**」をクリックします。
 
 ### API 呼び出しを使用したエンティティの追加 {#api-call-allowed-list}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 69%
+source-wordcount: '732'
+ht-degree: 56%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 69%
 >* [セグメントの基本を学ぶ](../segment/about-segments.md)
 
 
-キャンペーンの作成手順は次のとおりです。
+## 最初のキャンペーンを作成 {#create}
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-   ![](assets/create-campaign.png)
-
    >[!NOTE]
    >
-   >また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。 [詳細情報](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。 [詳細情報](modify-stop-campaign.md#duplicate)
+
+   ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -40,13 +40,15 @@ ht-degree: 69%
 
 1. 「**[!UICONTROL アクション]**」セクションで、メッセージの送信に使用するチャネルとチャネルサーフェスを選択し、「**[!UICONTROL 作成]**」をクリックします。
 
-   ![](assets/create-campaign-action.png)
-
    サーフェスは、[システム管理者](../start/path/administrator.md)によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
+
+   ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >キャンペーンタイプ（マーケティングまたはトランザクション）と互換性のあるチャネルサーフェスのみがドロップダウンリストに一覧表示されます。
+   >ドロップダウンリストには、マーケティングキャンペーンタイプと互換性のあるチャネルサーフェスのみが表示されます。
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. キャンペーンのタイトルと説明を指定します。
 
@@ -62,6 +64,7 @@ ht-degree: 69%
       * [プッシュ通知の作成](../messages/create-push.md)
       * [SMS メッセージの作成](../messages/create-sms.md)
    1. コンテンツを定義したら、 **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、コンテンツをテストプロファイルでプレビューおよびテストします。 [詳細情報](../design/preview.md)。
+
    1. 矢印をクリックして、キャンペーン作成画面に戻ります。
 
       ![](assets/create-campaign-design.png)
@@ -83,17 +86,11 @@ ht-degree: 69%
    >
    >様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。
 
-1. 開始日と終了日のフィールドで、キャンペーンのスケジュールを設定します。 デフォルトでは、キャンペーンは手動でアクティブ化された後に開始し、メッセージが 1 回送信されるとすぐに終了します。
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. さらに、キャンペーンで設定されたアクションの実行頻度を指定できます。
+1. 特定の日付または繰り返し頻度でキャンペーンを実行するには、 **[!UICONTROL スケジュール]** 」セクションに入力します。 [キャンペーンのスケジュール方法を説明します](#schedule)
 
-   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-   ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-キャンペーンの準備が整ったら、キャンペーンを確認してパブリッシュできます。 [詳細情報](#review-activate);
+キャンペーンの準備が整ったら、キャンペーンを確認してパブリッシュできます。 [詳細情報](#review-activate)
 
 ## キャンペーンのレビューとアクティブ化 {#review-activate}
 
@@ -128,3 +125,13 @@ ht-degree: 69%
    「**[!UICONTROL レポート]**」ボタンをクリックして、専用レポートでさらに統計情報を取得することもできます。[詳細情報](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
+
+## キャンペーンのスケジュール設定 {#schedule}
+
+デフォルトでは、キャンペーンは手動でアクティブ化した後に開始し、メッセージが 1 回送信され次第終了します。
+
+キャンペーンのメッセージを送信する頻度を定義できます。 これをおこなうには、 **[!UICONTROL アクショントリガー]** オプションを使用して、キャンペーンを毎日、毎週または毎月のどれで実行するかを指定できます。
+
+有効化直後にキャンペーンを実行しない場合は、 **[!UICONTROL キャンペーン開始]** オプション。 この  **[!UICONTROL キャンペーン終了]** 「 」オプションを使用すると、繰り返しキャンペーンの実行を停止するタイミングを指定できます。
+
+![](assets/create-campaign-schedule.png)

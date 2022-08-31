@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ function init(lpRuntime){
 | 名前 | 説明 |
 |--- |--- |
 | addBeforeSubmitHook | フォーム送信前に呼び出されるカスタムフック。送信を続行する場合は true を返し、送信をブロックする場合は false を返します。 |
-| addBeforeSubmitHook | 失敗したフォーム送信時に呼び出されるカスタムフック。 |
+| addOnFailureHook | 失敗したフォーム送信時に呼び出されるカスタムフック。 |
 | addOnSuccessHook | フォーム送信が成功したときに呼び出されるカスタムフック。 |
 
 **例：**

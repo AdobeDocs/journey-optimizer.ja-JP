@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '526'
 ht-degree: 19%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 19%
 Journey Optimizerキャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションは順に実行されます。 キャンペーンでは、アクションは即座に、または指定したスケジュールに基づいて、同時に実行されます。
 
 キャンペーンを作成して、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意事項、ポリシーの更新などのマーケティングユースケース向けに、シンプルなアドホックバッチ通信を送信します。
+
+キャンペーンを作成する主な手順は次のとおりです。
+
+![](assets/create-campaign-process.png)
 
 ➡️ [この機能をビデオで確認](#video)
 
