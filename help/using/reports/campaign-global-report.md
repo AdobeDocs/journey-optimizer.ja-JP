@@ -1,6 +1,6 @@
 ---
-title: Campaign グローバルレポート
-description: Campaign のグローバルレポートのデータの使用方法を説明します
+title: キャンペーンのグローバルレポート
+description: キャンペーンのグローバルレポートからデータを使用する方法を説明します
 feature: Reporting
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
-# Campaign グローバルレポート {#campaign-global-report}
+# キャンペーンのグローバルレポート {#campaign-global-report}
 
 Campaign グローバルレポートには、 **[!UICONTROL レポート]** 」ボタンをクリックします。
 
@@ -67,7 +67,7 @@ Campaign グローバルレポートには、 **[!UICONTROL レポート]** 」�
 
 * **[!UICONTROL 除外]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
 
-この **[!UICONTROL E メール — トラッキング統計]** ウィジェットには、配信の受信者アクティビティに使用できるデータが含まれます。
+**[!UICONTROL メール - トラッキング統計情報]**&#x200B;のウィジェットには、配信の受信者アクティビティに使用できるデータが表示されます。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
 

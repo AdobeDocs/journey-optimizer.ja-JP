@@ -235,7 +235,7 @@ ht-degree: 98%
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
-      + [Campaign v7/v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
+      + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
       + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
@@ -249,7 +249,7 @@ ht-degree: 98%
    + グローバルレポート {#global-report}
       + [グローバルレポートダッシュボードへのアクセス](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
-      + [Campaign グローバルレポート](using/reports/campaign-global-report.md)
+      + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
       + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
    + ジャーニーレポート {#reports}
