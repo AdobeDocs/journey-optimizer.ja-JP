@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: 6068060e66f75a7727f4a0fdae580c11542fa13b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 89%
@@ -101,7 +101,7 @@ Journey Optimizer Content Experiment を使用して、複数の配信トリー�
 
 処理がパーソナライズされたら、コンテンツ実験の設定を開始できます。
 
-## Content Experiment の設定 {#configure-experiment}
+## コンテンツ実験の設定 {#configure-experiment}
 
 1. 両方の配信がパーソナライズされている場合は、**[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから「**[!UICONTROL コンテンツ実験を設定]**」を選択します。
 
