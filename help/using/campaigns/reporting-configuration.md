@@ -1,5 +1,5 @@
 ---
-title: レポート設定
+title: 実験用のJourney Optimizerレポートの設定
 description: レポートデータソースの設定方法を説明します
 feature: Data Sources
 topic: Administration
@@ -8,14 +8,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '727'
 ht-degree: 4%
 
 ---
 
-# レポート設定 {#reporting-configuration}
+# 実験用のレポートの設定 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 94%
+source-wordcount: '991'
+ht-degree: 89%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->コンテンツ実験機能は現在、一連の組織でのみ使用できます（使用制限があります）。詳しくは、アドビ担当者にお問い合わせください。
+>この **コンテンツ実験** 機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
+
+Journey Optimizer Content Experiment を使用して、複数の配信トリートメントを定義します。 関心のあるオーディエンスは、関心の指標に関してどれが最も効果が高いかを判断するために、各処理にランダムに割り当てられます。メールのコンテンツ、件名、送信者を変更できます。
 
 >[!NOTE]
 >
->コンテンツ実験を使用する前に、レポート設定がカスタムデータセットに対して設定されていることを確認します。 詳しくは、[この節](reporting-configuration.md)を参照してください。
-
-コンテンツ実験機能を使用すると、複数の配信トリートメントを定義できます。 関心のあるオーディエンスは、関心の指標に関してどれが最も効果が高いかを判断するために、各処理にランダムに割り当てられます。メールのコンテンツ、件名、送信者を変更できます。
+>コンテンツ実験を開始する前に、レポート設定がカスタムデータセットに対して設定されていることを確認します。 詳しくは、[この節](reporting-configuration.md)を参照してください。
 
 次の例では、配信ターゲットが 2 つのグループ（それぞれがターゲット母集団の 45％を表す）に分割されています。10％の除外グループは配信を受け取りません。
 
@@ -38,9 +38,9 @@ ht-degree: 94%
 
 ![](assets/content_experiment.png)
 
-## キャンペーンの作成 {#campaign-experiment}
+## キャンペーンを作成 {#campaign-experiment}
 
-1. **[!UICONTROL キャンペーン]**&#x200B;ページから、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
+1. 次の **[!UICONTROL キャンペーン]** ページ、クリック **[!UICONTROL キャンペーンを作成]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -55,7 +55,7 @@ ht-degree: 94%
    * **[!UICONTROL 説明]**
    * **[!UICONTROL カテゴリ]**：**[!UICONTROL マーケティング]**／**[!UICONTROL トランザクション]**
 
-1. コンテンツ実験を開始するには、「**[!UICONTROL コンテンツ実験]**」オプションを切り替えます。**[!UICONTROL コンテンツ実験]**&#x200B;メニューが表示されます。
+1. コンテンツ実験を開始するには、「**[!UICONTROL コンテンツ実験]**」オプションを切り替えます。この **[!UICONTROL コンテンツ実験]** メニューが表示されます。
 
    ![](assets/content_experiment_3.png)
 
@@ -101,7 +101,7 @@ ht-degree: 94%
 
 処理がパーソナライズされたら、コンテンツ実験の設定を開始できます。
 
-## コンテンツ実験の設定 {#configure-experiment}
+## Content Experiment の設定 {#configure-experiment}
 
 1. 両方の配信がパーソナライズされている場合は、**[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから「**[!UICONTROL コンテンツ実験を設定]**」を選択します。
 
