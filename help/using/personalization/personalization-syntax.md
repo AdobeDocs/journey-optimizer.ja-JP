@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 95%
@@ -42,7 +42,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 Handlebars では、{{expression}} から返される値は **HTML エスケープ**&#x200B;されています。式に「`&`」が含まれている場合、返される HTML エスケープ出力は「`&amp;`」として生成されます。Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
 
-リテラル関数の引数に関しては、テンプレート言語パーサーはエスケープされていない 1 つのバックスラッシュ (&#39;\&#39;) をサポートしていません。 この文字は、追加のバックスラッシュ (&#39;\&#39;) 記号でエスケープする必要があります。 例：
+リテラル関数の引数に関して、テンプレート言語パーサーはエスケープされていない 1 つのバックスラッシュ (`\`) 記号 この文字は、バックスラッシュ (`\`) 記号 例：
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
