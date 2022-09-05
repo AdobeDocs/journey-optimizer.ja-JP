@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 98%
+source-wordcount: '730'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,10 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 **true**、**false**、**null** および **undefined**&#x200B;という語は、パス式の最初の部分でのみ使用できます。
 
 Handlebars では、{{expression}} から返される値は **HTML エスケープ**&#x200B;されています。式に「`&`」が含まれている場合、返される HTML エスケープ出力は「`&amp;`」として生成されます。Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
+
+リテラル関数の引数に関しては、テンプレート言語パーサーはエスケープされていない 1 つのバックスラッシュ (&#39;\&#39;) をサポートしていません。 この文字は、追加のバックスラッシュ (&#39;\&#39;) 記号でエスケープする必要があります。 例：
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## プロファイル
 

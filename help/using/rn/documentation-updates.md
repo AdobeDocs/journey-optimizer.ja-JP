@@ -2,10 +2,10 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 98%
+source-wordcount: '1873'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 98%
 * 「セグメントを読み取り」アクティビティを使用するジャーニーに対する制限が追加されました。 [詳細情報](../building-journeys/read-segment.md)
 * 式エディターの演算子ページが改善されました。 [詳細情報](../building-journeys/expression/operators.md)
 * キャンペーンのスケジュール方法に関する節が追加されました。 [詳細情報](../campaigns/create-campaign.md)
+* 式エディターの一般的な構文規則に関する節が更新され、リテラル関数でのバックスラッシュ記号のエスケープに関する新しい規則が考慮されるようになりました。 既存の公開済みメッセージは、この変更による影響を受けません。 更新する必要があるのは、新しいメッセージまたはドラフトメッセージのみです。 [詳細情報](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022年7月 {#july-2022}
 
