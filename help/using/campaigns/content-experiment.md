@@ -1,17 +1,17 @@
 ---
 title: コンテンツ実験の作成
 description: キャンペーンでコンテンツ実験を作成する方法を学ぶ
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
+source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 89%
 
 ---
 
