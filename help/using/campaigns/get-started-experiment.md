@@ -1,14 +1,14 @@
 ---
 title: コンテンツ実験の基本を学ぶ
 description: コンテンツ実験の詳細については、 [!DNL Journey Optimizer] を参照してください。
-feature: Overview
-topic: Content Management, A/B Testing
+feature: Content Management, A/B Testing
+topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 95%
