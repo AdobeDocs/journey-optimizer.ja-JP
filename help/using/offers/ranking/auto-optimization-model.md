@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 制限事項 {#limitations}
 
-自動最適化モデルを Offer Decisioning に使用する場合、次の制限が適用されます。
+決定管理での自動最適化モデルの使用には、次の制限が適用されます。
 
 * 自動最適化モデルは Batch Decisioning API と連携しません。
 * モデルの構築に必要なフィードバックは、エクスペリエンスイベントとして送信する必要があります。[!DNL Journey Optimizer] チャネルで自動的に送信されないようにする必要があります。

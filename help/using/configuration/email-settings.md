@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 96%
+source-wordcount: '1188'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 ## サブドメインおよび IP プール {#subdomains-and-ip-pools}
 
-「**サブドメインおよび IP プールの詳細**」セクションでは、以下を実行する必要があります。
+内 **サブドメインおよび IP プール** セクションで、以下を実行する必要があります。
 
 1. メールの送信に使用するサブドメインを選択します。[詳細情報](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ ht-degree: 96%
 
 ## ヘッダーパラメーター{#email-header}
 
-「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、そのサーフェスを使用して送信されるメールのタイプに関連付けられた送信者の名前とメールアドレスを入力します。
+内 **[!UICONTROL ヘッダーパラメーター]** 「 」セクションで、送信者の名前と、その表面を使用して送信される E メールのタイプに関連する E メールアドレスを入力します。
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ ht-degree: 96%
 
 [!DNL Journey Optimizer] から送信された電子メールの同一のコピー（またはブラインドカーボンコピー）を BCC インボックスに送信できます。BCC インボックスは、コンプライアンスやアーカイブの目的で保存されます。
 
-これを行うには、チャネルサーフェスレベルの「**[!UICONTROL BCC メール]**」オプション機能を有効化します。[詳細情報](bcc-email.md)
+これをおこなうには、 **[!UICONTROL BCC 電子メール]** チャンネルサーフェスレベルでのオプション機能。 [詳細情報](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -175,9 +175,11 @@ ht-degree: 96%
 
 このセクションで定義されたパラメーターは、メールメッセージコンテンツに含まれる URL の末尾に追加されます。その後、これらのパラメーターを Adobe Analytics や Google Analytics などの web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-例として、3 つの URL トラッキングパラメーターがチャネルサーフェスの作成時に自動入力されます。これらを編集し、「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
+最大 10 個のトラッキングパラメーターを追加するには、 **[!UICONTROL 新しいパラメーターを追加]** 」ボタンをクリックします。
+
+![](assets/preset-url-tracking.png)
 
 URL トラッキングパラメーターを設定するには、目的の値を&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;フィールドで直接入力することができます。
 

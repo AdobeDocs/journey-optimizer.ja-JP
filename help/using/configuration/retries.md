@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 86%
+source-wordcount: '454'
+ht-degree: 87%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 86%
 
 再試行後に配信が成功すると、そのアドレスのエラーカウンターは再初期化されます。
 
-## 再試行しきい値を編集 {#edit-retry-threshold}
+## 再試行しきい値の編集 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="エラー数しきい値を更新"
+>title="再試行しきい値を更新"
 >abstract="デフォルト値がニーズに合わない場合は、連続するソフトバウンスの許可数を変更できます。 再試行カウンターが特定の電子メールアドレスのエラーしきい値に達すると、このアドレスは抑制リストに追加されます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="サプレッションリストについて"
 

@@ -1,23 +1,22 @@
 ---
 title: はじめに
-description: '意思決定管理エンジンで主要な操作を実行するために必要な、オファーライブラリ API の使用方法を説明します。 '
+description: オファーライブラリ API を使用して、判定エンジンを使用して主要な操作を実行する方法を説明します。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 85%
 
 ---
 
 # 意思決定管理 API デベロッパーガイド
  {#decision-management-api-developer-guide}
 
-このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。意思決定管理エンジンで主要な操作を実行するための API 呼び出しの例についても説明します。
-
+このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。次に、判定エンジンを使用して主要な操作を実行する API 呼び出しの例を示します。
 
 ➡️ [意思決定管理のコンポーネントについて詳しくは、このビデオを参照してください](#video)
 
@@ -27,8 +26,7 @@ ht-degree: 100%
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}：[!DNL Experience Platform] で顧客体験データの編成に使用される標準化されたフレームワーク。
    * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target=&quot;_blank&quot;}：XDM スキーマの基本的な構成要素について説明します。
-* [意思決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：エクスペリエンス判定全般（特に Offer Decisioning）で使用される概念とコンポーネントについて説明します。
-顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
+* [決定管理](../../../using/offers/get-started/starting-offer-decisioning.md):Experience Decisioning の一般的な管理や、特に決定管理に使用される概念とコンポーネントについて説明します。 顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target=&quot;_blank&quot;}：PQL は XDM インスタンスに関する式を記述するための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
 ## API 呼び出し例の読み取り {#reading-sample-api-calls}
@@ -133,7 +131,7 @@ curl -X GET \
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer のアプリ内メッセージチャネルは、オファー決定支援オブジェクトを使用します。組織がアプリ内メッセージチャネルを使用している場合、オブジェクトの API リストリクエストには、アプリ内メッセージサービスで作成されたオブジェクトが含まれ、オファー決定支援のユースケースでは無視できます。アプリ内メッセージ用に作成されたオブジェクトには、`createdBy = “Mobile_Sheliak”` があります。
+> Adobe Journey Optimizerのアプリ内メッセージチャネルは、決定管理オブジェクトを使用します。 組織がアプリ内メッセージチャネルを使用している場合、オブジェクトの API リストリクエストには、アプリ内メッセージサービスで作成されたオブジェクトが含まれ、決定管理の使用例では無視できます。 アプリ内メッセージ用に作成されたオブジェクトには、`createdBy = “Mobile_Sheliak”` があります。
 
 ## ハウツービデオ {#video}
 

@@ -6,17 +6,17 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '750'
+ht-degree: 95%
 
 ---
 
 
 # [!DNL Batch Decisioning] API を使用したオファーの配信 {#deliver-offers-batch}
 
-[!DNL Batch Decisioning] API を使用すると、1 回の呼び出しの特定のセグメントで、すべてのプロファイルに対して、Offer Decisioning 機能を使用できます。セグメント内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
+[!DNL Batch Decisioning] API を使用すると、1 回の呼び出しの特定のセグメントで、すべてのプロファイルに対して、 Decisioning 機能を使用できます。セグメント内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 
 [!DNL Batch Decisioning] API を使用すると、決定範囲に関する Adobe Experience Platform セグメントのすべてのプロファイルにとって最適なオファーを、データセットに入力できます。例えば、ある組織が [!DNL Batch Decisioning] を実行して、メッセージ配信ベンダーにオファーを送信できるようにします。その後、これらのオファーは、同じセグメントのユーザーに対してバッチメッセージ配信用に送信されるコンテンツとして使用されます。
 
@@ -128,7 +128,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
-| `@id` | 単一のワークロードを識別する Offer decisioning によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | 1 つのワークロードを識別する、決定管理によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 組織 ID。 | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | コンテナ ID。 | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定ワークロードリクエストが作成された時間。 | `1648078924834` |
@@ -148,7 +148,7 @@ GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{WORKLOAD_ID}` | 単一のワークロードを識別する Offer decisioning によって生成される UUID。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
+| `{WORKLOAD_ID}` | 1 つのワークロードを識別する、決定管理によって生成される UUID。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **リクエスト**
 
@@ -177,7 +177,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
-| `@id` | 単一のワークロードを識別する Offer decisioning によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | 1 つのワークロードを識別する、決定管理によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 組織 ID | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | コンテナ ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定ワークロードリクエストが作成された時間。 | `1648076994405` |

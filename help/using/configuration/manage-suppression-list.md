@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 100%
+source-wordcount: '1163'
+ht-degree: 99%
 
 ---
 
@@ -183,11 +183,9 @@ ht-degree: 100%
 
 1. 抑制リストに追加するメールアドレスやドメインを CSV テンプレートに入力します。
 
-1. 完了したら、CSV ファイルをドラッグ＆ドロップしたあと、「**[!UICONTROL ファイルをアップロード]**」をクリックします。
+1. 完了したら、CSV ファイルをドラッグ&amp;ドロップし、「 **[!UICONTROL 送信]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
-
-1. 「**[!UICONTROL 送信]**」をクリックします。
+   ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >

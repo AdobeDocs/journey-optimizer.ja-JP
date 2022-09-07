@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1085'
+ht-degree: 96%
 
 ---
 
@@ -194,7 +194,7 @@ ht-degree: 100%
 
 次に、プレースメントを、作成したパーソナライズされたオファーおよびフォールバックオファーと組み合わせる決定を作成する必要があります。
 
-この組み合わせは、特定のプロファイルに最適なオファーを見つけるために Offer Decisioning エンジンによって使用されます。この例では、各オファーに割り当てた優先度と決定ルールに基づいています。
+この組み合わせは、決定エンジンで、特定のプロファイルに最適なオファーを見つけるために使用されます。この例では、各オファーに割り当てた優先度と決定ルールに基づきます。
 
 オファー決定を作成および設定するには、次の主な手順に従います。
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 このユースケースでは、1 つのプッシュ通知メッセージで複数のタイプのパーソナライゼーションを使用する方法を確認できます。次の 3 種類のパーソナライゼーションが使用されます。
 
 * **プロファイル**：プロファイルフィールドに基づくメッセージのパーソナライゼーション
-* **Offer Decisioning**：Offer Decisioning 変数に基づくパーソナライゼーション
+* **オファーの決定**:決定管理変数に基づくパーソナライゼーション
 * **コンテキスト**：ジャーニーのコンテキストデータに基づくパーソナライゼーション
 
 この例では、顧客の注文が更新されるたびにイベントを [!DNL Journey Optimizer] にプッシュすることを目標としています。その後、注文に関する情報およびパーソナライズされたオファーを含むプッシュ通知が顧客に送信されます
@@ -77,7 +77,7 @@ ht-degree: 100%
 
    ![](assets/perso-uc13.png)
 
-1. 左側のメニューから「**オファーの決定**」を選択して、Offer Decisioning 変数を挿入します。プレースメントを選択し、決定の横にある「**+**」アイコンをクリックし、本文に追加します。
+1. 左側のメニューから、「 」を選択します。 **オファーの決定** ：判定変数を挿入します。 プレースメントを選択し、決定の横にある「**+**」アイコンをクリックし、本文に追加します。
 
    ![](assets/perso-uc14.png)
 

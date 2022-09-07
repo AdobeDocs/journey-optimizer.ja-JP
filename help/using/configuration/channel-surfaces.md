@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
@@ -153,8 +153,6 @@ ht-degree: 100%
 
 1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
 
-   ![](assets/preset-confirm-update.png)
-
    >[!NOTE]
    >
    >なお、チャネルサーフェスをドラフトとして保存し、後で更新を再開することもできます。
@@ -177,7 +175,7 @@ ht-degree: 100%
 
 **[!UICONTROL 最新の更新]**&#x200B;画面には、更新ステータスやリクエストされた変更のリストなどの情報が表示されます。
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### 更新ステータス {#update-statuses}
 

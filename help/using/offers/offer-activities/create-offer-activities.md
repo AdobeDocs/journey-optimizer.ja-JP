@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 97%
 
 ## ハウツービデオ{#video}
 
-Offer Decisioning でオファーアクティビティを作成する方法を説明します。 
+決定管理でオファーアクティビティを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 

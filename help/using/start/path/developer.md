@@ -5,10 +5,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 90%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 100%
 
 また、**[!DNL Adobe Journey Optimizer]API** で複数のアクションを実行することもできます。
 
-[!DNL Offer Library] API の使用開始に役立つ手順について詳しくは、[この節](../../offers/api-reference/getting-started.md)を参照してください。このガイドでは、意思決定管理エンジンで主要な操作を実行するための API 呼び出しのサンプルも示します。
+[!DNL Offer Library] API の使用開始に役立つ手順について詳しくは、[この節](../../offers/api-reference/getting-started.md)を参照してください。このガイドは、判定エンジンを使用して主要な操作を実行する API 呼び出しの例を提供します。

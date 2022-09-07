@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ## 決定の作成と設定 {#create-and-configure-decisions}
 
-1. パーソナライズされたオファーおよびフォールバックオファーとプレースメントを組み合わせる&#x200B;**決定を作成**&#x200B;します。この組み合わせは、Offer Decisioning エンジンが特定のプロフィールに最適なオファーを見つけるために使用されます。
+1. パーソナライズされたオファーおよびフォールバックオファーとプレースメントを組み合わせる&#x200B;**決定を作成**&#x200B;します。この組み合わせは、決定エンジンによって、特定のプロファイルに最適なオファーを見つけるために使用されます。
 
 1. **決定を設定します**。そのためには、プレースメントを選択し、各プレースメントに対してコレクションとフォールバックを選択します。
 

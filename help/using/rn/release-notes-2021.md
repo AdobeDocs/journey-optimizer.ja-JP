@@ -2,10 +2,10 @@
 title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2070'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer UI で、特定のプレースメントの場合にテストプロファイルに配信されるオファーをシミュレートできるようになりました。これにより、実稼動環境に配置する前に、実施要件の制約やランキングアルゴリズムなどの決定ロジックを容易に検証できます。この機能を使用すると、技術に詳しいユーザーもそうでないユーザーも Offer Decisioning を迅速にテストし、潜在的な問題をトラブルシューティングできます。</p>
+<p>Journey Optimizer UI で、特定のプレースメントの場合にテストプロファイルに配信されるオファーをシミュレートできるようになりました。これにより、実稼動環境に配置する前に、実施要件の制約やランキングアルゴリズムなどの決定ロジックを容易に検証できます。この機能を使用すると、技術系および技術系以外のユーザーが、意思決定管理を迅速にテストし、潜在的な問題をトラブルシューティングできます。</p>
 <p>詳しくは、<a href="../offers/offer-activities/simulation.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>

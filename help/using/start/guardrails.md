@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 92%
+source-wordcount: '806'
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 ## 意思決定管理ガードレール {#offer-guardrails}
 
-意思決定管理のパフォーマンスガードレールと静的制限は、[Adobe Offer Decisioning アプリケーションサービス製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;} に記載されています。
+パフォーマンスガードレールと判定の静的制限は、 [AdobeOffer decisioningアプリサービス製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}。
 
 
 ## ランディングページガードレール {#lp-guardrails}

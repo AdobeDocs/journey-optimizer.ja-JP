@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 [メッセージフィードバックイベントデータセット](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [プッシュトラッキングエクスペリエンスイベントデータセット](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [ジャーニーステップイベント](../start/datasets-query-examples.md#journey-step-event)
-[Offer Decisioningイベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
+[ Decisioningイベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
 [同意サービスデータセット](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC フィードバックイベントデータセット](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Offer Decisioning イベントデータセット{#ode-decisionevents}
+## 判定イベントデータセット{#ode-decisionevents}
 
 _インターフェイスの名前：ODE DecisionEvents （システムデータセット）_
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 **[!UICONTROL オファー]**&#x200B;メニューを使用すると、パーソナライズされたオファーやフォールバックオファーを管理し、それらを整理してコレクションにまとめ、決定を作成して配信することができます。
 
-* **[!UICONTROL 概要]**：[!DNL Offer Decisioning] を使用するのは初めてですか？画面上の手順に従って、プレースメント、オファーおよびコレクションの設定を開始します。[!DNL Offer Decisioning] について既に熟知している場合は、最新のオファー、コレクションおよび決定の概要を把握します。[概要](#overview)を参照してください。
+* **[!UICONTROL 概要]**：[!DNL decision management] を使用するのは初めてですか？画面上の手順に従って、プレースメント、オファーおよびコレクションの設定を開始します。[!DNL decision management] について既に熟知している場合は、最新のオファー、コレクションおよび決定の概要を把握します。[概要](#overview)を参照してください。
 
 * **[!UICONTROL オファー]**：パーソナライズされたフォールバックオファーにアクセスするか、新しいオファーを作成します。[オファーの作成](../offer-library/creating-personalized-offers.md)および[フォールバックオファーの作成](../offer-library/creating-fallback-offers.md)を参照してください。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-[!DNL Offer Decisioning] を初めて使用する場合は、初めてのオファー決定の作成を開始するために必要な主な手順を「**[!UICONTROL 概要]**」タブで確認します。
+[!DNL decision management] を初めて使用する場合は、初めてのオファー決定の作成を開始するために必要な主な手順を「**[!UICONTROL 概要]**」タブで確認します。
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 >
 >オファーを作成して決定で使用するための主な手順については、[この節](../offer-library/key-steps.md)を参照してください。
 
-[!DNL Offer Decisioning] の知識があり、少なくとも 1 つのオファー決定を作成済みの場合は、「**[!UICONTROL 概要]**」タブに最新のオファー、コレクションおよび決定が表示されます。
+[!DNL decision management] の知識があり、少なくとも 1 つのオファー決定を作成済みの場合は、「**[!UICONTROL 概要]**」タブに最新のオファー、コレクションおよび決定が表示されます。
 
 オファーまたは決定をクリックして、選択した項目の詳細に直接アクセスします。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 ## ハウツービデオ{#video-offers}
 
-[!DNL Journey Optimizer] でメッセージに Offer Decisioning コンポーネントを追加する方法を参照してください。
+でメッセージに決定管理コンポーネントを追加する方法を説明します。 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
 
