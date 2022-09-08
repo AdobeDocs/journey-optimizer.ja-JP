@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 62%
+source-wordcount: '997'
+ht-degree: 61%
 
 ---
 
@@ -149,6 +149,11 @@ ht-degree: 62%
 API 呼び出しについて詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target=&quot;_blank&quot;} リファレンスドキュメントを参照してください。
 
 ## 許可リストのロジック {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="許可リスト"
+>abstract="「 」許可リストを有効にした場合、許可リストに含まれる受信者のみがこのサンドボックスから電子メールメッセージを受け取ります。"
 
 許可リストが [アクティブ](#enable-allow-list)の場合、次のロジックが適用されます。
 
