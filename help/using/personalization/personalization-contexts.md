@@ -1,6 +1,6 @@
 ---
 title: パーソナライゼーションのコンテキスト
-description: 'コンテンツをパーソナライズし、メッセージを表示する方法について説明します。 '
+description: コンテンツをパーソナライズし、メッセージを表示する方法について説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
