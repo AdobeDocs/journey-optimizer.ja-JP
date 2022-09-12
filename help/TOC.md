@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 97%
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メッセージ {#messages}
-   + [メッセージの基本を学ぶ](using/messages/get-started-content.md)
+   + [メッセージの概要](using/messages/get-started-content.md)
    + [メッセージジャーニーの追加](using/messages/messages-in-journeys.md)
    + [メッセージキャンペーンの追加](using/messages/messages-in-campaigns.md)
    + [メールの作成](using/messages/create-email.md)
@@ -244,7 +244,7 @@ ht-degree: 97%
    + ライブレポート {#live-report}
       + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
-      + [キャンペーンライブレポート](using/reports/campaign-live-report.md)
+      + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [クエリの例](using/reports/query-examples.md)
    + 配信品質 {#deliverability}
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
-      + [抑制リストを理解する](using/reports/suppression-list.md)
+      + [抑制リストについて](using/reports/suppression-list.md)
 + 意志決定管理 {#offer-decisioning}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 

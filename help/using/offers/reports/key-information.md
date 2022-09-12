@@ -1,6 +1,6 @@
 ---
 title: 意思決定管理イベントの主な情報
-description: '各意思決定管理イベントで送信される主な情報について詳しく説明します。 '
+description: 各意思決定管理イベントで送信される主な情報について詳しく説明します。
 feature: Offers
 topic: Integrations
 role: User

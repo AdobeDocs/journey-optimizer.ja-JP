@@ -1,5 +1,5 @@
 ---
-title: 'プライマリメールアドレスの変更 '
+title: プライマリメールアドレスの変更
 description: 使用するメールアドレスをプロファイルサービスから決定する方法を説明します。
 feature: Application Settings
 topic: Administration

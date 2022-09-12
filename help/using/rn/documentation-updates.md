@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
 source-wordcount: '1873'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 96%
 
 ## 2022年8月 {#august-2022}
 
-*  [!DNL Journey Optimizer] の 8 月 22 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+*  [!DNL Journey Optimizer] の 8月22日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
 * 頻度ルールのセクションが更新され、新しいインラインメッセージフローが反映されました。[詳細情報](../configuration/frequency-rules.md#apply-frequency-rule)
 * サブスクリプションの設定とランディングページの作成方法を示すビデオが、ランディングページの概要のセクションで参照できるようになりました。[詳細情報](../landing-pages/get-started-lp.md#video)
-* 「セグメントを読み取り」アクティビティを使用するジャーニーに対する制限が追加されました。 [詳細情報](../building-journeys/read-segment.md)
+* セグメントの読み取りアクティビティを使用するジャーニーに対する制限事項が追加されました。[詳細情報](../building-journeys/read-segment.md)
 * 式エディターの演算子ページが改善されました。 [詳細情報](../building-journeys/expression/operators.md)
-* キャンペーンのスケジュール方法に関する節が追加されました。 [詳細情報](../campaigns/create-campaign.md)
+* キャンペーンのスケジュール方法に関する節が追加されました。[詳細情報](../campaigns/create-campaign.md)
 * 式エディターの一般的な構文規則に関する節が更新され、リテラル関数でのバックスラッシュ記号のエスケープに関する新しい規則が考慮されるようになりました。 既存の公開済みメッセージは、この変更による影響を受けません。 更新する必要があるのは、新しいメッセージまたはドラフトメッセージのみです。 [詳細情報](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022年7月 {#july-2022}
@@ -79,13 +79,13 @@ ht-degree: 96%
 * テストプロファイル作成ページは、「**セグメント、プロファイル、ID**」節に移動しました。[詳細情報](../segment/creating-test-profiles.md)
 * 式エディターで式をデフォルト値として追加する方法の例を追加しました。[詳細情報](../building-journeys/expression/field-references.md#default-value)
 * **パーソナライズされたオファーの作成**&#x200B;の節が再編成され、読みやすくなりました。[詳細情報](../offers/offer-library/creating-personalized-offers.md)
-* オファーの開始日や終了日の変更が、このオファーのフリークエンシーキャップに与える影響を説明する新しい節が追加されました。[詳細情報](../offers/offer-library/add-constraints.md#capping-change-date)
+* オファーの開始日や終了日の変更が、このオファーのフリークエンシーキャッピングに与える影響を説明する新しい節が追加されました。[詳細情報](../offers/offer-library/add-constraints.md#capping-change-date)
 * **プライマリメールアドレスの変更**&#x200B;の節が更新され、ユーザーインターフェイスの変更が反映されました。[詳細情報](../configuration/primary-email-addresses.md)
 
 ## 2022年2月 {#feb-2022}
 
 * [!DNL Journey Optimizer] の 2022年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* この [replace](../building-journeys/functions/functionreplace.md#example_2) および [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、target パラメーターに関する追加情報と例を追加しました。
+* この [replace](../building-journeys/functions/functionreplace.md#example_2) および [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、ターゲットパラメーターに関する追加情報と例を追加しました。”
 * [演算子](../building-journeys/expression/operators.md#important-notes)ページにベストプラクティスが追加されました。
 
 ## 2022年1月 {#january-2022}

@@ -1,6 +1,6 @@
 ---
 title: 意思決定管理イベントの概要
-description: 'Adobe Experience Platform で意思決定管理レポートを作成する方法を説明します。 '
+description: Adobe Experience Platform で意思決定管理レポートを作成する方法を説明します。
 feature: Offers
 topic: Integrations
 role: User

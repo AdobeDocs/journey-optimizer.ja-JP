@@ -9,11 +9,11 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
-# メッセージの使用の基本 {#get-started-messages}
+# メッセージの概要 {#get-started-messages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
@@ -22,16 +22,16 @@ ht-degree: 30%
 
 [!DNL Journey Optimizer] を使用して、パーソナライズされたプッシュ通知、SMS およびメールメッセージを作成して配信します。 
 
-すべてのメッセージは、 [ジャーニーキャンバス上のアクション](messages-in-journeys.md)または [キャンペーンのコンテキストで](messages-in-campaigns.md).
+すべてのメッセージは、[ジャーニーキャンバス上のアクション](messages-in-journeys.md)の一部として、または[キャンペーンのコンテキスト](messages-in-campaigns.md)でインラインで編集できます。
 
-ジャーニーまたはキャンペーンにメッセージを追加したら、以下の節でメッセージをデザインおよび設定する方法を学びます。
+ジャーニーまたはキャンペーンにメッセージを追加したら、次の節でメッセージをデザインおよび設定する方法を学びます。
 
-* **E メールの作成** - E メールコンテンツを作成し、メッセージを検証する方法を説明します [このページ](create-email.md).
+* **メールの作成** - [このページ](create-email.md)で、メールコンテンツを作成し、メッセージを検証する方法を説明します。
 
-* **プッシュ通知の作成** - iOSおよび Android デバイス用のプッシュ通知を作成する方法を説明します。 [このページ](create-push.md).
+* **プッシュ通知の作成** - [このページ](create-push.md)で、iOS および Android デバイス用のプッシュ通知を作成する方法を説明します。
 
-* **SMS の作成** - SMS コンテンツを作成し、メッセージを検証する方法を説明します [このページ](create-sms.md).
+* **SMS の作成** - [このページ](create-sms.md)で、SMS コンテンツを作成し、メッセージを検証する方法を説明します。
 
 >[!NOTE]
 >
->ユーザーは、製品プロファイルに応じて、ジャーニーやキャンペーンへのアクセス、作成、編集、公開をおこなうことができます。 ユーザー権限の詳細については、 [この節](../administration/permissions.md)を参照してください。
+>ユーザーは、製品プロファイルに応じて、ジャーニーおよびキャンペーンにアクセスしたり、それらを作成、編集および公開したりできます。ユーザー権限の詳細については、 [この節](../administration/permissions.md)を参照してください。

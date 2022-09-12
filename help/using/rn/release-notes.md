@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 50%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizerでのキャンペーンの作成と管理</strong><br/></th>
+<th><strong>Journey Optimizer でのキャンペーンの作成と管理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerキャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションは順番に実行されるように設計されています。 キャンペーンでは、アクションは即座に、または指定したスケジュールに基づいて、同時に実行されます。 </p>
+<p>Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションはシーケンスで順番に実行されるように設計されています。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>キャンペーンを作成する方法については、 <a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a> および <a href="https://video.tv.adobe.com/v/346680">機能ビデオ</a>.
+<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/346680">機能に関するビデオ</a>で説明します。
 </td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ ht-degree: 50%
 <table>
 <thead>
 <tr>
-<th><strong>ユーザーに SMS を送信する（一般公開）</strong><br/></th>
+<th><strong>ユーザーへの SMS の送信（一般公開）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -49,7 +49,7 @@ ht-degree: 50%
 <td>
 <p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS の作成および送信方法については、この<a href="../messages/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
+<p>SMS の作成および送信方法については、こちらの<a href="../messages/create-sms.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -78,10 +78,10 @@ ht-degree: 50%
 
 **レポーティング**
 
-* 同意ポリシーのテーブルとグラフがジャーニーのグローバルレポートで使用できるようになりました。 これらのウィジェットを使用すると、カスタムアクションのポリシーから除外されたプロファイルを追跡できます。 [詳細情報](../reports/journey-global-report.md#journey-global)
+* 同意ポリシーのテーブルとグラフがジャーニーのグローバルレポートで使用できるようになりました。これらのウィジェットを使用すると、カスタムアクションでポリシーから除外されたプロファイルをトラックできます。[詳細情報](../reports/journey-global-report.md#journey-global)
 
-   最新のウィジェットにアクセスするには、別のレポートダッシュボードをリセットする必要があります。 ダッシュボードのカスタマイズについて詳しくは、 [詳細なドキュメント](../reports/global-report.md).
+   最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/global-report.md)を参照してください。
 
 **管理**
 
-* SMS チャネルで使用するプライマリ電話番号を更新できるようになりました。 [詳細情報](../configuration/primary-email-addresses.md)
+* SMS チャネルで使用するプライマリ電話番号を更新できるようになりました。[詳細情報](../configuration/primary-email-addresses.md)

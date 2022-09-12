@@ -60,7 +60,7 @@ ht-degree: 56%
 
       メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
-      * [E メールの作成](../messages/create-email.md)
+      * [メールの作成](../messages/create-email.md)
       * [プッシュ通知の作成](../messages/create-push.md)
       * [SMS メッセージの作成](../messages/create-sms.md)
    1. コンテンツを定義したら、 **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、コンテンツをテストプロファイルでプレビューおよびテストします。 [詳細情報](../design/preview.md)。

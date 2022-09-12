@@ -1,6 +1,6 @@
 ---
-title: ジャーニーへのメッセージの追加
-description: ジャーニーにメッセージを追加する方法を説明します
+title: ジャーニーでのメッセージの追加
+description: ジャーニーでメッセージを追加する方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
@@ -8,12 +8,12 @@ level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# ジャーニーへのメッセージの追加{#messages-in-journeys}
+# ジャーニーでのメッセージの追加{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
@@ -25,14 +25,14 @@ ht-degree: 85%
 >title="チャネルサーフェス"
 >abstract="チャネルサーフェスは、キャンペーンまたはジャーニー経由でアクションを正常に配信するためのすべての設定を持つ、そのチャネルのインスタンスです。 このインスタンスはシステム管理者が定義します。"
 
-ジャーニーで、チャネルアクションを使用して、オーディエンスに送信するメッセージをデザインし、パーソナライズします。 ジャーニーキャンバスに E メール、SMS、またはプッシュアクションを追加すると、トリガー送信を作成します。 連絡先がそのチャネルアクションに到達すると、Adobe Journey Optimizerは自動的にメッセージを送信します。
+ジャーニーで、チャネルアクションを使用して、オーディエンスに送信するメッセージをデザインし、パーソナライズします。ジャーニーキャンバスにメール、SMS またはプッシュアクションを追加すると、トリガー送信を作成することになります。連絡先がそのチャネルアクションに到達すると、Adobe Journey Optimizer は自動的にメッセージを送信します。
 
 
 >[!NOTE]
->また、キャンペーンを作成してスケジュール済みメッセージを送信することもできます。 詳しくは、[この節](../campaigns/get-started-with-campaigns.md)を参照してください。
+>また、キャンペーンを作成してスケジュール済みメッセージを送信することもできます。詳しくは、[この節](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 
-ジャーニーにメッセージを追加するには、ジャーニーキャンバスにプッシュ、SMS、E メールアクティビティを追加します。
+ジャーニーでメッセージを追加するには、ジャーニーキャンバスでプッシュ、SMS またはメールアクティビティを追加します。
 
 1. ジャーニーを「[イベント](../building-journeys/general-events.md)」または「[セグメントを読み取り](../building-journeys/read-segment.md)」アクティビティで開始します。
 
@@ -68,7 +68,7 @@ ht-degree: 85%
 
    メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
-   * [E メールの作成](create-email.md)
+   * [メールの作成](create-email.md)
    * [プッシュ通知の作成](create-push.md)
    * [SMS メッセージの作成](create-sms.md)
 
