@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
 ht-degree: 100%
 
