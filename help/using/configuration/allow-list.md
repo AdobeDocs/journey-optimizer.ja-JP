@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 61%
+source-wordcount: '1024'
+ht-degree: 62%
 
 ---
 
@@ -102,6 +102,11 @@ ht-degree: 61%
 >許可リストには、最大 1,000 個のエントリを含めることができます。
 
 ### 許可リストへの手動入力 {#manually-populate-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add_header"
+>title="許可リストへのアドレスまたはドメインの追加"
+>abstract="新しいメールアドレスまたはドメインを 1 つずつ選択して、許可リストに手動で追加できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"

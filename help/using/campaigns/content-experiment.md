@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 6068060e66f75a7727f4a0fdae580c11542fa13b
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 89%
+source-wordcount: '997'
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 >
 >この **コンテンツ実験** 機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
-Journey Optimizer Content Experiment を使用して、複数の配信トリートメントを定義します。 関心のあるオーディエンスは、関心の指標に関してどれが最も効果が高いかを判断するために、各処理にランダムに割り当てられます。メールのコンテンツ、件名、送信者を変更できます。
+Journey Optimizer Content Experiment を使用して、複数の配信トリートメントを定義します。 関心のあるオーディエンスは、関心の指標に関してどれが最も効果が高いかを判断するために、各処理にランダムに割り当てられます。配信コンテンツ、件名、送信者を変更できます。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Journey Optimizer Content Experiment を使用して、複数の配信トリー�
 
 次の例では、配信ターゲットが 2 つのグループ（それぞれがターゲット母集団の 45％を表す）に分割されています。10％の除外グループは配信を受け取りません。
 
-ターゲットオーディエンスの各ユーザーには、1 つのバージョンのメールが届き、件名は次の 2 つのいずれかに該当します。
+ターゲットオーディエンスの各ユーザーには、1 つのバージョンの E メールが届きます。件名は次の 2 つのうち 1 つです。
 
 * 1 つは、新しいコレクションと画像に関する 10％のオファーを直接プロモーションするものです。
 * もう 1 つは、画像なしで 10％オフを指定せずに、特別なオファーを広告するだけのものです。
@@ -44,7 +44,7 @@ Journey Optimizer Content Experiment を使用して、複数の配信トリー�
 
    ![](assets/content_experiment_1.png)
 
-1. 「**[!UICONTROL メール]**」を選択し、この配信に使用する「**[!UICONTROL サーフェス]**」を選択します。詳しくは、[チャネルサーフェス](../configuration/channel-surfaces.md)ページを参照してください。
+1. チャネルを選択してから、 **[!UICONTROL サーフェス]** この配信にを使用します。 詳しくは、[チャネルサーフェス](../configuration/channel-surfaces.md)ページを参照してください。
 
    ![](assets/content_experiment_2.png)
 
@@ -59,7 +59,11 @@ Journey Optimizer Content Experiment を使用して、複数の配信トリー�
 
    ![](assets/content_experiment_3.png)
 
-1. 配信の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;と&#x200B;**[!UICONTROL スケジュール]**&#x200B;のパラメーターを設定します。[詳細情報](create-campaign.md)
+1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
+
+   「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](get-started-experiment.md#content-experiment-work)
+
+1. 特定の日付に、または繰り返し頻度でキャンペーンを実行するには、「スケジュール」セクションを設定します。 [詳細情報](create-campaign.md)
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、様々な&#x200B;**[!UICONTROL 処理]**&#x200B;のパーソナライズを開始します。
 
@@ -67,21 +71,15 @@ Journey Optimizer Content Experiment を使用して、複数の配信トリー�
 
 ## 処理の作成 {#treatment-experiment}
 
-1. **[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから、処理 A メールの&#x200B;**[!UICONTROL 件名]**&#x200B;を追加し、「**[!UICONTROL 保存]**」をクリックします。
+1. 次の **[!UICONTROL コンテンツを編集]** 窓から、治療をパーソナライズし始めます A。
 
-   この処理では、件名にオファーを直接指定します。
+   この処理の場合、件名行に直接特別オファーを指定します。
 
    ![](assets/content_experiment_5.png)
 
-1. 「**[!UICONTROL E メール デザイナー]**」をクリックし、配信のパーソナライズを開始します。
+1. 最初の治療を設計した後、 **[!UICONTROL その他のアクション]** ボタン、クリック **[!UICONTROL 複製]**.
 
-   ![](assets/content_experiment_6.png)
-
-1. メールをデザインしたら、「**[!UICONTROL 保存]**」をクリックして&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウに戻り、処理 B を作成します。
-
-1. 「**[!UICONTROL その他のアクション]**」ボタンから、「**[!UICONTROL 複製]**」をクリックします。
-
-   また、「**[!UICONTROL コンテンツ実験]**」ボタンをクリックして詳細オプションにアクセスし、「**[!UICONTROL 処理を追加]**」をクリックして、新しい処理を最初から開始することもできます。
+   また、 **[!UICONTROL コンテンツ実験]** ボタン ![](assets/content_experiment_16.png) 詳細オプションにアクセスするには、次の手順に従います。 **[!UICONTROL 処理を追加]**.
 
    ![](assets/content_experiment_7.png)
 
@@ -89,15 +87,11 @@ Journey Optimizer Content Experiment を使用して、複数の配信トリー�
 
    ![](assets/content_experiment_8.png)
 
-1. 新しく作成した&#x200B;**[!UICONTROL 処理]**&#x200B;にリンクされたメール配信を選択します。
+1. 必要に応じて、2 番目の治療をパーソナライズします。
 
-1. 配信の&#x200B;**[!UICONTROL 件名]**&#x200B;を追加します。
-
-   この処理では、**[!UICONTROL 件名]**&#x200B;にオファーを指定しないことを選択します。
+   ここでは、 **[!UICONTROL 件名]**.
 
    ![](assets/content_experiment_9.png)
-
-1. 必要に応じて、「**[!UICONTROL E メールデザイナー]**」をクリックして、処理 B の配信をさらにパーソナライズします。
 
 処理がパーソナライズされたら、コンテンツ実験の設定を開始できます。
 

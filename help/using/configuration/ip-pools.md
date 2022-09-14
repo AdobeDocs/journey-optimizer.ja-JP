@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
 # IP プールの作成 {#create-ip-pools}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool_header"
+>title="IP プールの設定"
+>abstract="IP プールを作成して、サブドメインの IP アドレスをグループ化し、電子メールの配信品質を向上させることができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"

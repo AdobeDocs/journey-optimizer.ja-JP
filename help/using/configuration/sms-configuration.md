@@ -4,10 +4,10 @@ description: Journey Optimizer で SMS メッセージを送信するように�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 66%
+source-wordcount: '711'
+ht-degree: 62%
 
 ---
 
@@ -24,9 +24,15 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 ## 新しい API 認証情報の作成 {#create-api}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_sms_api"
->title="SMS ベンダー設定を選択"
+>id="ajo_admin_sms_api_header"
+>title="SMS ベンダーをJourney Optimizerで設定する"
 >abstract="ベンダーを選択し、SMS API の資格情報を入力します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="SMS ベンダーをJourney Optimizerで設定する"
+>abstract="SMS を送信する前に、プロバイダーの設定をJourney Optimizerに統合する必要があります。 完了したら、SMS サーフェスを作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="SMS チャネルサーフェスの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

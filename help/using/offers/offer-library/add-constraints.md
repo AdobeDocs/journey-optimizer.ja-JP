@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 89%
+source-wordcount: '1715'
+ht-degree: 94%
 
 ---
 
@@ -169,18 +169,17 @@ ht-degree: 89%
    * **[!UICONTROL プロファイルごと]**&#x200B;を選択して、1 つのオファーを同じユーザーに対して提案できる回数を定義できます。
 
       例えば、「プラチナクレジットカード」のオファーを持つ銀行の場合、このオファーを 1 つのプロファイルにつき 5 回以上表示したくないとします。実際、ユーザーがオファーを 5 回見て、それに対して何らかのアクションを起こしていない場合、その次に最適なオファーに対して行動する可能性が高いと考えられます。
+   <!--
+    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
+    ![](../assets/offer-capping-frequency.png)
+    >[!NOTE]
+    >
+    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
+    
+    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
+    -->
 
-1. を **[!UICONTROL 頻度]** を使用して、キャッピングカウントをリセットする頻度を定義します。 これをおこなうには、カウントの期間（日単位、週単位、月単位）を定義し、日数/週数/月数を入力します。
-
-   ![](../assets/offer-capping-frequency.png)
-
-   >[!NOTE]
-   >
-   >リセットは、定義した日（UTC で午前 12 時）、または該当する週や月の最初の日に発生します。 週の開始日は日曜日です。
-
-   例えば、2 週間ごとに制限数をリセットする場合は、「 **[!UICONTROL 毎週]** から **[!UICONTROL 繰り返し]** ドロップダウンリストとタイプ **2** を 2 番目のフィールドに入力します。 リセットは毎週日曜日の午後 12 時 (UTC) に発生します。
-
-1. オファーの複数の[表示域](#representations)を定義した場合、キャッピングを「**[!UICONTROL すべてのプレースメントで]**」または「**[!UICONTROL プレースメントごとに]**」適用するかどうかを指定します。
+1. オファーの複数の[表示域](add-representations.md)を定義した場合、キャッピングを「**[!UICONTROL すべてのプレースメントで]**」または「**[!UICONTROL プレースメントごとに]**」適用するかどうかを指定します。
 
    ![](../assets/offer-capping-placement.png)
 

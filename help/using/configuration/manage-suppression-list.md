@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 99%
+source-wordcount: '1212'
+ht-degree: 95%
 
 ---
 
@@ -110,9 +110,14 @@ ht-degree: 99%
 ## アドレスとドメインの手動追加 {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list"
+>id="ajo_admin_suppression_list_header"
 >title="抑制リストにメールもしくはドメインを追加"
 >abstract="Journey Optimizer 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することができます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="抑制リストにメールもしくはドメインを追加"
+>abstract="Journey Optimizer抑制リストを入力するには、CSV ファイルのアップロードを通じて、電子メールアドレスまたはドメインを 1 つずつ手動で追加するか、一括モードで追加します。 これらの特定の電子メールアドレスやドメインは、送信から除外されます。"
 
 メッセージをメールアドレスに配信できない場合、このアドレスは、定義済みの抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
 
