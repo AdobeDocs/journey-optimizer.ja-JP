@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1519'
+ht-degree: 93%
 
 ---
 
@@ -42,139 +42,139 @@ ht-degree: 0%
 >title="チャネルサーフェスの設定"
 >abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、E メールのタイプ、送信者名、モバイルアプリ、SMS 設定など、メッセージに必要なすべての技術的パラメーターを定義します。"
 
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.
+<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 
-To create a channel surface, follow these steps:
+チャネルサーフェスを作成するには、次の手順に従います。
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** menu, then click **[!UICONTROL Create channel surface]**.
+1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL チャネルサーフェス]**&#x200B;メニューにアクセスし、「**[!UICONTROL チャネルサーフェスを作成]**」をクリックします。
 
-    ![](assets/preset-create.png)
+   ![](assets/preset-create.png)
 
-1. Enter a name and a description (optional) for the surface, then select the channel(s) to configure.
+1. サーフェスの名前と説明（オプション）を入力し、設定するチャネルを選択します。
 
-    ![](assets/preset-general.png)
+   ![](assets/preset-general.png)
 
-    >[!NOTE]
-    >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
+   >[!NOTE]
+   >
+   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](email-settings.md).
+1. **[!UICONTROL メール]**&#x200B;チャネルを選択した場合は、[この節](email-settings.md)の説明に従って設定を行ってください。
 
-    ![](assets/preset-email.png)
+   ![](assets/preset-email.png)
 
-1. For the **[!UICONTROL Push Notification]** channel, select at least one platform  -  **iOS** and/or **Android** -, and the mobile applications to use for each platform.
+1. **[!UICONTROL プッシュ通知]**&#x200B;チャネルの場合は、少なくとも 1 つのプラットフォーム（**iOS** または **Android**）を選択し、各プラットフォームで使用するモバイルアプリケーションを選択します。
 
-    ![](assets/preset-push.png)
-        
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send push notifications, refer to [this section](push-gs.md).
+   ![](assets/preset-push.png)
 
-1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in [this section](sms-configuration.md#message-preset-sms).
+   >[!NOTE]
+   >
+   >プッシュ通知を送信するための環境の設定方法について詳しくは、[この節](push-gs.md)を参照してください。
 
-    ![](assets/preset-sms.png)
+1. **[!UICONTROL SMS]** チャネルの場合は、[この節](sms-configuration.md#message-preset-sms)の説明に従って設定を定義します。
 
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+   ![](assets/preset-sms.png)
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
+   >[!NOTE]
+   >
+   >SMS メッセージを送信するための環境の設定方法について詳しくは、[この節](sms-configuration.md)を参照してください。
 
-    ![](assets/preset-submit.png)
+1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 
-    >[!NOTE]
-    >
-    >You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status), and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
-    >
-    >Save the surface as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume surface creation.
-    
-1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
+   ![](assets/preset-submit.png)
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+   >[!NOTE]
+   >
+   >選択した IP プールが[編集中](ip-pools.md#edit-ip-pool)（**[!UICONTROL 処理中]**&#x200B;ステータス）で、選択したサブドメインに関連付けられていない場合は、サーフェスの作成を続行できません。[詳細情報](#subdomains-and-ip-pools)
+   >
+   >サーフェスをドラフトとして保存し、IP プールが&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスになるまで待機して、サーフェスの作成を再開します。
 
-    These checks include configuration and technical tests that are performed by the Adobe team:
+1. チャネルサーフェスが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
-    * SPF validation
-    * DKIM validation
-    * MX record validation
-    * Check IPs denylisting
-    * Helo host check
-    * IP pool verification
-    * A/PTR record, t/m/res subdomain verification
+   この段階では、メッセージプリセットが適切に設定されていることを確かめるために、いくつかのチェックが実行されています。処理時間はおよそ **48～72 時間**&#x200B;で、最長で **7～10 営業日**&#x200B;かかることがあります。
 
-    >[!NOTE]
-    >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).  
+   このチェックには、アドビチームが行う設定および技術テストが含まれています。
 
-1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+   * SPF 検証
+   * DKIM 検証
+   * MX レコードの検証
+   * 拒否リストへの IP 登録の検証
+   * Helo ホストの検証
+   * IP プールの検証
+   * A/PTR レコード、t/m/res サブドメインの検証
 
-    ![](assets/preset-active.png)
+   >[!NOTE]
+   >
+   >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-channel-surfaces)を参照してください。
 
-## Monitor channel surfaces {#monitor-channel-surfaces}
+1. チェックが正常に完了すると、チャネルサーフェスのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
-All your channel surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Filters are available to help you browse through the list (channel, user, status).
+   ![](assets/preset-active.png)
+
+## チャネルサーフェスの監視 {#monitor-channel-surfaces}
+
+すべてのチャネルサーフェスが&#x200B;**[!UICONTROL チャネル]**／**[!UICONTROL チャネルサーフェス]**&#x200B;メニューに表示されます。リスト（チャネル、ユーザー、ステータス）の参照に役立つフィルターを使用できます。
 
 ![](assets/preset-filters.png)
 
-Once created, channel surfaces can have the following statuses:
+作成されると、チャネルサーフェスは次のステータスになります。
 
-* **[!UICONTROL Draft]**: The channel surface has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
-* **[!UICONTROL Processing]**: The channel surface has been submitted and is going through several verifications steps.
-* **[!UICONTROL Active]**: The channel surface has been verified and can be selected to create messages.
-* **[!UICONTROL Failed]**: One or several checks have failed during the channel surface verification.
-* **[!UICONTROL Deactivated]**: The channel surface is deactivated. It cannot be used to create new messages.
+* **[!UICONTROL ドラフト]**：チャネルサーフェスは下書きとして保存されており、まだ送信されていません。設定を再開するには、これを開きます。
+* **[!UICONTROL 処理中]**：チャネルサーフェスが送信され、いくつかの検証手順を実行中です。
+* **[!UICONTROL アクティブ]**：チャネルサーフェスは検証済みであり、選択してメッセージを作成できます。
+* **[!UICONTROL 失敗]**：チャネルサーフェスの検証中に、1 つ以上のチェックが失敗しました。
+* **[!UICONTROL 非アクティブ]**：チャネルサーフェスは非アクティブ化されています。新しいメッセージの作成には使用できません。
 
-In case a channel surface creation fails, the details on each possible failure reason are described below.
+チャネルサーフェスの作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+これらのエラーのいずれかが発生した場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} にご連絡ください。
 
-* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
+* **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
-* **DKIM validation failed**: DKIM (DomainKeys Identified Mail) allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain.:
+* **DKIM 検証に失敗しました**：DKIM（DomainKeys Identified Mail）を使用すると、受信したメッセージが関連ドメインの正規の送信者によって送信されたこと、および元のメッセージの内容が途中で改変されていないことを受信サーバーが検証できます。DKIM 検証の失敗は、メッセージコンテンツの信頼性とメッセージコンテンツの送信ドメインとの関連付けを受信メールサーバーが検証できないことを意味します。
 
-* **MX record validation failed**: MX (Mail eXchange) record validation failure means that the mail servers responsible for accepting inbound emails on behalf of a given subdomain are not correctly configured.
+* **MX レコードの検証に失敗しました**：MX（Mail eXchange）レコードの検証の失敗は、特定のサブドメインに代わって受信メールを受け取るべきメールサーバーが正しく設定されていないことを意味します。
 
-* **Deliverability configurations failed**: Deliverability configurations failure can happen due to any of the following reasons:
-    * Blocklisting of the allocated IPs
-    * Invalid `helo` name
-    * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+* **配信品質の設定に失敗しました**：配信品質の設定の失敗は、次のいずれかの理由で起こる可能性があります。
+   * 割り当てられた IP がブロックリストに登録されている
+   * `helo` 名が無効
+   * 対応するサーフェスの IP プールで指定された IP 以外の IP からメールが送信される
+   * Gmail や Yahoo などの主要な ISP の受信ボックスにメールを配信できない
 
-## Edit a channel surface {#edit-channel-surface}
+## チャネルサーフェスの編集 {#edit-channel-surface}
 
-To edit a channel surface, follow the steps below.
-
->[!NOTE]
->
->You cannot edit the **[!UICONTROL Push notification settings]**. If a channel surface is only configured for the Push notification channel, it is not editable.
-
-1. From the list, click a channel surface name to open it.
-
-    ![](assets/preset-name.png)
-
-1. Edit its properties as desired.
-
-    >[!NOTE]
-    >
-    >If a channel surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
-
-1. Click **[!UICONTROL Submit]** to confirm your changes.
-
-    >[!NOTE]
-    >
-    >You can also save the channel surface as draft and resume update later on.
-
-Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-channel-surface). The edition processing time can take up to **3 hours**.
+チャネルサーフェスを編集するには、次の手順に従います。
 
 >[!NOTE]
 >
->If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+>**[!UICONTROL プッシュ通知設定]**&#x200B;は編集できません。チャネルサーフェスがプッシュ通知チャネル用にのみ設定されている場合は、編集できません。
 
-### Update details {#update-details}
+1. リストでチャネルサーフェス名をクリックして開きます。
 
-For channel surfaces that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
+   ![](assets/preset-name.png)
 
-Click the **[!UICONTROL Recent update]** icon that is displayed next to the active surface name.
+1. そのプロパティを必要に応じて編集します。
+
+   >[!NOTE]
+   >
+   >チャネルサーフェスのステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;の場合、「**[!UICONTROL 名前]**」、「**[!UICONTROL チャネルを選択]**」および「**[!UICONTROL サブドメイン]**」フィールドは灰色表示になっており、編集できません。
+
+1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
+
+   >[!NOTE]
+   >
+   >なお、チャネルサーフェスをドラフトとして保存し、後で更新を再開することもできます。
+
+変更が送信されると、チャネルサーフェスは、[チャネルサーフェスの作成](#create-channel-surface)時と同じような検証サイクルを経ます。編集の処理時間は、最大で **3 時間**&#x200B;かかる場合があります。
+
+>[!NOTE]
+>
+>編集するフィールドが「**[!UICONTROL 説明]**」、「**[!UICONTROL メールタイプ]**」または「**[!UICONTROL メールの再試行パラメーター]**」のみの場合、更新は即時に行われます。
+
+### 更新の詳細 {#update-details}
+
+ステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;のチャネルサーフェスの場合は、更新内容の詳細を確認できます。それには、以下の手順を実行します。
+
+アクティブなサーフェスの名前の横に表示されている「**[!UICONTROL 最新の更新]**」アイコンをクリックします。
 
 ![](assets/preset-recent-update-icon.png)
 
