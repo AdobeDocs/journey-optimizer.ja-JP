@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 95%
+source-wordcount: '1193'
+ht-degree: 97%
 
 ---
 
@@ -112,12 +112,15 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="抑制リストにメールもしくはドメインを追加"
->abstract="Journey Optimizer 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することができます。"
+>abstract="Journey Optimizer抑制リストを手動で設定して、送信から特定の電子メールアドレスやドメインを除外することができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="抑制リストにメールもしくはドメインを追加"
->abstract="Journey Optimizer抑制リストを入力するには、CSV ファイルのアップロードを通じて、電子メールアドレスまたはドメインを 1 つずつ手動で追加するか、一括モードで追加します。 これらの特定の電子メールアドレスやドメインは、送信から除外されます。"
+>abstract="Journey Optimizer 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することができます。"
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 メッセージをメールアドレスに配信できない場合、このアドレスは、定義済みの抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
 
