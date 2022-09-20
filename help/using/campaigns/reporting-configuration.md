@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="データセットの選択"
->abstract="選択できるのは、サポートされているフィールドグループの 1 つ以上を含む必要があるイベントタイプデータセットのみです。アプリケーションの詳細、コマースの詳細、Web の詳細。"
+>abstract="イベントタイプのデータセットのみ選択できます。このデータセットには、サポートされている次のフィールドグループのうち少なくとも 1 つを含める必要があります。アプリケーションの詳細、コマースの詳細、Web の詳細。"
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
