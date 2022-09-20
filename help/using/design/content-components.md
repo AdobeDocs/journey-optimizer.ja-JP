@@ -6,19 +6,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 100%
+source-wordcount: '1309'
+ht-degree: 91%
 
 ---
 
 # 電子メールデザイナーのコンテンツ用コンポーネントを使用する {#content-components}
 
 >[!CONTEXTUALHELP]
->id="ac_content_components"
+>id="ac_content_components_email"
 >title="コンテンツコンポーネントについて"
 >abstract="コンテンツコンポーネントは、メールのレイアウト作成に使用できる空のコンテンツプレースホルダーです。"
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_landing_page"
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは空のコンテンツプレースホルダーで、ランディングページのレイアウトの作成に使用できます。"
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_fragment"
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは空のコンテンツプレースホルダーで、フラグメントのレイアウトの作成に使用できます。"
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_template"
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、空のコンテンツプレースホルダーで、テンプレートのレイアウトの作成に使用できます。"
 
 
 メールコンテンツを一から作成する際は、**[!UICONTROL コンテンツコンポーネント]**を使用すると、メールに配置して使用できる空の Raw コンポーネントで、メールをさらにパーソナライズできます。
@@ -134,9 +149,27 @@ ht-degree: 100%
 ## ビデオ {#Video}
 
 >[!CONTEXTUALHELP]
->id="ac_edition_video"
+>id="ac_edition_video_email"
 >title="ビデオ設定"
 >abstract="このコンポーネントを使用すると、メールにビデオを挿入できます。ビデオが機能しないメールクライアントもあります。フォールバック画像を設定することをお勧めします。"
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_landing_page"
+>title="ビデオ設定"
+>abstract="このコンポーネントを使用して、ランディングページにビデオを挿入します。 ビデオは、一部のメッセージクライアントでは機能しません。 フォールバック画像を設定することをお勧めします。"
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_fragment"
+>title="ビデオ設定"
+>abstract="このコンポーネントを使用して、フラグメントにビデオを挿入します。 ビデオは、一部のメッセージクライアントでは機能しません。 フォールバック画像を設定することをお勧めします。"
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_template"
+>title="ビデオ設定"
+>abstract="このコンポーネントを使用して、テンプレートにビデオを挿入します。 ビデオは、一部のメッセージクライアントでは機能しません。 フォールバック画像を設定することをお勧めします。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
 **[!UICONTROL ビデオ]**&#x200B;コンポーネントを使用すると、メールに URL リンクでビデオを挿入できます。

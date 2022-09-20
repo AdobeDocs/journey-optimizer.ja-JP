@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 93%
+source-wordcount: '1515'
+ht-degree: 92%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 93%
    * 割り当てられた IP がブロックリストに登録されている
    * `helo` 名が無効
    * 対応するサーフェスの IP プールで指定された IP 以外の IP からメールが送信される
-   * Gmail や Yahoo などの主要な ISP の受信ボックスにメールを配信できない
+   * 主要な ISP の受信ボックスに E メールを配信できない
 
 ## チャネルサーフェスの編集 {#edit-channel-surface}
 

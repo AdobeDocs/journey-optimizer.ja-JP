@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
+source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '1149'
+ht-degree: 98%
 
 ---
 
@@ -110,6 +110,10 @@ ht-degree: 99%
    + ユースケース{#personalization-use-cases}
       + [注文ステータスの通知](using/personalization/personalization-use-case.md)
       + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
+   + 動的コンテンツ {#dynamic}
+      + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
+      + [条件の作成](using/personalization/create-conditions.md)
+      + [条件付きコンテンツの作成](using/personalization/dynamic-content.md)
 + セグメント、プロファイル、ID{#segment}
    + セグメント {#segments}
       + [セグメントの基本を学ぶ](using/segment/about-segments.md)

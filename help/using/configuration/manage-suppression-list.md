@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 97%
 
 ---
 
@@ -177,11 +177,6 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   >[!NOTE]
-   >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**コメント**」列に入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
-
-   このテンプレートは、**[!UICONTROL 抑制リスト]**&#x200B;のメインビューからダウンロードすることもできます。
 
    >[!CAUTION]
    >
@@ -190,6 +185,10 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    >ファイルサイズは 1 MB 以下にする必要があります。
 
 1. 抑制リストに追加するメールアドレスやドメインを CSV テンプレートに入力します。
+
+   >[!NOTE]
+   >
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**コメント**」列に入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
 
 1. 完了したら、CSV ファイルをドラッグ&amp;ドロップし、「 **[!UICONTROL 送信]**.
 
