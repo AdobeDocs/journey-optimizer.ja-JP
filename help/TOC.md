@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
-      + [ライブレポートダッシュボードへのアクセス](using/reports/live-report.md)
+      + [ライブレポートの概要](using/reports/live-report.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
-      + [グローバルレポートダッシュボードへのアクセス](using/reports/global-report.md)
+      + [グローバルレポートの概要](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
       + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ランディングページの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;には、過去 24 時間にわたるランディングページの影響についての詳細が表示されます。選択した期間のランディングページデータを測定するには、[ランディングページのグローバルレポート](lp-report-global.md)を参照してください。
 
-レポートにアクセスするには、選択したランディングページの詳細メニューから「**[!UICONTROL ライブレポート]**」を選択します。
+レポートにアクセスするには、 **[!UICONTROL レポート]** を選択します。
 
-![](assets/landing_page_report_1.png)
+![](assets/landing_page_report.png)
 
 ランディングページの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、配信の成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md)を参照してください。
 
-![](assets/landing_page_report_2.png)
++++ランディングページのライブレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
 **[!UICONTROL ランディングページのパフォーマンス]**&#x200B;ウィジェットは、過去 24 時間のメッセージに関する主な情報の詳細を、KPI を通じて示します。
 
@@ -47,8 +47,9 @@ ht-degree: 100%
 
 **[!UICONTROL その他のソース]**&#x200B;ウィジェットは、ジャーニーではなく外部ソースからランディングページへの訪問回数を表します。
 
-![](assets/landing_page_report_3.png)
-
 **[!UICONTROL メッセージ別の訪問回数]**／**[!UICONTROL メッセージ別のコンバージョン数]**&#x200B;のグラフは、過去 24 時間に、送信されたメッセージに応じてランディングページで正常にインタラクションを起こした訪問回数とユーザー数の合計を表します。
 
-**[!UICONTROL チャネル別の訪問回数]**／**[!UICONTROL チャネル別のコンバージョン数]**&#x200B;のグラフは、チャネルに応じて過去 24 時間にランディングページで正常にインタラクションを起こした訪問回数とユーザー数の合計を表します。
+**[!UICONTROL チャネル別の訪問回数]**／**[!UICONTROL チャネル別のコンバージョン数]**のグラフは、チャネルに応じて過去 24 時間にランディングページで正常にインタラクションを起こした訪問回数とユーザー数の合計を表します。
++++
+
+Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、 [このページ](live-report.md#list-of-components-live).

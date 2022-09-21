@@ -6,26 +6,29 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # キャンペーンのグローバルレポート {#campaign-global-report}
 
-Campaign グローバルレポートには、 **[!UICONTROL レポート]** 」ボタンをクリックします。
+Campaign グローバルレポートには、 **[!UICONTROL 常時]** 」ボタンをクリックします。
 
-![](assets/campaign_report_1.png)
+![](assets/campaign_report_global_5.png)
 
-選択後、 **[!UICONTROL 常時]** タブ、キャンペーン **[!UICONTROL グローバルレポート]** ページが次のタブと共に表示されます。
+キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;ページは次のタブで表示されます。
 
 * [キャンペーン](#campaign-global)
 * [メール](#email-global)
 * [プッシュ](#push-global)
+* [SMS](#sms-global)
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
+
+Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、 [このページ](global-report.md#list-of-components-global.md)
 
 ## 「キャンペーン」タブ {#campaign-global}
 
@@ -43,7 +46,11 @@ Campaign グローバルレポートには、 **[!UICONTROL レポート]** 」�
 
 ## 「メール」タブ {#email-global}
 
+![](assets/campaign_report_global_2.png)
+
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、キャンペーンで送信されるメール配信に関連する主な情報の詳細が表示されます。
+
++++電子メールレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
 **[!UICONTROL メール送信統計]**&#x200B;グラフは、成功した配信の詳細を示します。
 
@@ -127,10 +134,15 @@ Campaign グローバルレポートには、 **[!UICONTROL レポート]** 」�
 
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
++++
 
-## 「プッシュ」タブ {#push-global}
+## 「プッシュ通知」タブ {#push-global}
 
-キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL プッシュ]**」タブには、キャンペーンで送信されるプッシュ配信に関連する主な情報の詳細が表示されます。
+キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL プッシュ通知]** 「 」タブには、キャンペーンで送信されたプッシュ配信に関する主な情報の詳細が表示されます。
+
+![](assets/campaign_report_global_3.png)
+
++++プッシュレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
 「**[!UICONTROL プッシュ通知 - 送信統計]**」テーブルは、プッシュ通知に関連するメイン情報の詳細をグラフと KPI で示します。
 
@@ -195,4 +207,48 @@ Campaign グローバルレポートには、 **[!UICONTROL レポート]** 」�
 
 この&#x200B;**[!UICONTROL 除外された理由]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
 
-**[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**&#x200B;のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
+**[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
++++
+
+## 「SMS」タブ {#sms-global}
+
+キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL SMS]** 「 」タブには、キャンペーンで送信される SMS 配信に関する主な情報の詳細が表示されます。
+
+![](assets/campaign_report_global_4.png)
+
++++SMS レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+
+**[!UICONTROL SMS - 送信統計]**&#x200B;テーブルは、配信の成功の詳細を示します。
+
+* **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
+
+* **[!UICONTROL 除外]** : ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
+
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+
+* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+
+* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+
+この **[!UICONTROL 日付別の SMS パフォーマンス]** widget は、メッセージに関連する主な情報の詳細をグラフで示します。
+
+* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
+
+* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+
+* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+
+この **[!UICONTROL 理由を除外]**, **[!UICONTROL バウンス理由]** および **[!UICONTROL エラー理由]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
++++
+
+## その他のリソース
+
+* [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
+* [キャンペーンの作成](../campaigns/create-campaign.md)
+* [API トリガーキャンペーンの作成](../campaigns/api-triggered-campaigns.md)
+* [キャンペーンの変更または停止](../campaigns/modify-stop-campaign.md)
+* [キャンペーンのライブレポート](campaign-live-report.md)

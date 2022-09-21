@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 購読&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;では、選択した期間の購読者のアクティビティに関する詳細が表示されます。過去 24 時間の購読のみを測定するには、[購読ライブレポート](subscription-report-live.md)を参照します。
 
-レポートにアクセスするには、選択した購読リストの詳細メニューから「**[!UICONTROL グローバルレポート]**」を選択します。
+レポートにアクセスするには、 **[!UICONTROL レポート]** 選択した購読リストのアイコン。
 
 ![](assets/subscription_report_7.png)
 

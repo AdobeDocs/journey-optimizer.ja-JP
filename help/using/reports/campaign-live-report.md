@@ -6,26 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # キャンペーンのライブレポート {#campaign-live-report}
 
-キャンペーンのライブレポートには、 **[!UICONTROL レポート]** 」ボタンをクリックします。
+キャンペーンのライブレポートは、「**[!UICONTROL ライブ表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 
-![](assets/campaign_report_1.png)
-
-選択後、 **[!UICONTROL 過去 24 時間]** タブ、キャンペーン **[!UICONTROL ライブレポート]** ページが次のタブと共に表示されます。
+キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;ページには次のタブが表示されます。
 
 * [キャンペーン](#campaign-live)
 * [メール](#email-live)
 * [プッシュ](#push-live)
+* [SMS](#sms-live)
+
 
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/live-report.md#modify-dashboard)を参照してください。
+
+Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、 [このページ](live-report.md#list-of-components-live).
 
 ## 「キャンペーン」タブ {#campaign-global}
 
@@ -44,11 +46,15 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、キャンペーンで送信されるメール配信に関連する主な情報の詳細が表示されます。
 
+![](assets/campaign_report_live_1.png)
+
++++電子メールレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+
 **[!UICONTROL メール送信統計情報]**&#x200B;ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
@@ -56,11 +62,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
@@ -81,20 +87,25 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 **[!UICONTROL エラーの理由]**&#x200B;および&#x200B;**[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
 「**[!UICONTROL 電子メール - 上位の受信者ドメイン]**」のグラフと表は、受信者が電子メールを開くために最も多く使用しているドメインの詳細を示しています。
++++
 
-## 「プッシュ」タブ {#push-live}
+## 「プッシュ通知」タブ {#push-live}
 
-キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ]**」タブには、キャンペーンで送信されるプッシュ配信に関連する主な情報の詳細が表示されます。
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL プッシュ通知]** 「 」タブには、キャンペーンで送信されたプッシュ配信に関する主な情報の詳細が表示されます。
+
+![](assets/campaign_report_live_2.png)
+
++++プッシュレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
 **[!UICONTROL プッシュ通知の送信パフォーマンス]**、 **[!UICONTROL プッシュ通知の概要]**&#x200B;および&#x200B;**[!UICONTROL 送信指標（プッシュ別）]**&#x200B;の各ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 
-* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
@@ -106,4 +117,48 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 送信統計 - 失敗]**&#x200B;ウィジェットには、発生したエラーとバウンスの数が表示されます。
 
-**[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**&#x200B;のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
+**[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
++++
+
+## 「SMS」タブ {#sms-live}
+
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL SMS]** 「 」タブには、キャンペーンで送信される SMS 配信に関する主な情報の詳細が表示されます。
+
+![](assets/campaign_report_live_3.png)
+
++++SMS レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+
+**[!UICONTROL SMS - 送信統計]**&#x200B;テーブルは、配信の成功の詳細を示します。
+
+* **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
+
+* **[!UICONTROL 除外]** : ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
+
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+
+* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
+
+* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+
+この **[!UICONTROL 日付別の SMS パフォーマンス]** widget は、メッセージに関連する主な情報の詳細をグラフで示します。
+
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+
+* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
+
+* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+
+この **[!UICONTROL 理由を除外]**, **[!UICONTROL バウンス理由]** および **[!UICONTROL エラー理由]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
++++
+
+## その他のリソース
+
+* [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
+* [キャンペーンの作成](../campaigns/create-campaign.md)
+* [API トリガーキャンペーンの作成](../campaigns/api-triggered-campaigns.md)
+* [キャンペーンの変更または停止](../campaigns/modify-stop-campaign.md)
+* [キャンペーンのグローバルレポート](campaign-global-report.md)

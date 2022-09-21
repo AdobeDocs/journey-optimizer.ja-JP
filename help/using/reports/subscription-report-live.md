@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 購読&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、過去 24 時間の購読者のアクティビティに関する詳細のみを表示します。選択した期間で購読を測定するには、[購読グローバルレポート](subscription-report-global.md)を参照してください。
 
-レポートにアクセスするには、選択した購読リストの詳細メニューから&#x200B;**[!UICONTROL ライブレポート]**&#x200B;を選択します。
+レポートにアクセスするには、 **[!UICONTROL レポート]** 選択した購読リストのアイコン。
 
-![](assets/subscription_report_6.png)
+![](assets/subscription_report_7.png)
 
 購読&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、購読と購読解除の詳細を示す様々なウィジェットに分割されています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md)を参照してください。
 
