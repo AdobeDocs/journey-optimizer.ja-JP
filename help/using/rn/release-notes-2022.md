@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
 
 * **URL トラッキングパラメーター** - 式エディターを使用して、電子メールサーフェスで URL トラッキングパラメーターを設定できるようになりました（プリセット）。[詳細情報](../configuration/email-settings.md#url-tracking)
 
-**決定管理**
+**意思決定管理**
 
 * **オーディエンスサイズ** - 決定ルールを作成するとき、オファーの実施要件を設定するセグメントまたはルールを選択するとき、またはセグメントやルールを決定範囲に追加するとき、新しいオーディエンスサイズ推定コンポーネントがユーザーインターフェイスに表示されるようになりました。
 
@@ -340,7 +340,7 @@ ht-degree: 97%
 
 **意思決定管理**
 
-* **Edge での判定 API** - Edge Decisioning API は、決定管理で管理されるパーソナライズされたオファーを配信およびレンダリングできます。 決定管理ユーザーインターフェイス (UI) または API を使用して、オファーやその他の関連オブジェクトを作成できます。 [詳細情報](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge での Decisioning API** - Edge Decisioning API では、意思決定管理で管理されるパーソナライズされたオファーを配信およびレンダリングできます。意思決定管理ユーザーインターフェイス（UI）または API を使用して、オファーとその他の関連オブジェクトを作成できます。[詳細情報](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -378,7 +378,7 @@ Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使�
 **意思決定管理**
 
 * すべてのユーザーまたは 1 つの特定のプロファイルに対して、およびすべてのプレースメントまたは各プレースメントに対して、オファーキャッピングを適用するかどうかを指定できるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
-* バッチ判定 API を使用すると、組織は 1 回の呼び出しで特定のセグメント内のすべてのプロファイルに対して判定管理機能を使用できます。 セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。[詳細情報](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Batch Decisioning API を使用すると、組織は、1 回の呼び出しで特定セグメント内のすべてのプロファイルに対して意思決定管理機能を使用できます。セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。[詳細情報](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer ステップイベントを、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできるようになりました。ビルトイン Journey Step Event スキーマの **profileID** フィールドが、ID フィールドとして定義されるようになりました。[詳細情報](../reports/sharing-overview.md#integration-cja)
 
-**決定管理**
+**意思決定管理**
 
 * 公開済みメッセージ内で直接または間接的に参照されるオファー、フォールバックオファー、オファーコレクション、オファー決定を更新すると、その更新は、対応するメッセージに自動的に反映されるようになり、再公開する必要がなくなりました。[詳細情報](../offers/offers-e2e.md#insert-decision-in-email)
 

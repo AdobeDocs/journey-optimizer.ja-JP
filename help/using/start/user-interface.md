@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 97%
 
 * **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。[詳細情報](../administration/sandboxes.md)
 
-* **[!UICONTROL アラート]**  — ユーザーインターフェイスを使用すると、Adobe Experience Platform Observability Insights で表示される指標に基づいて、受信したアラートの履歴を表示できます。 また、UI では、使用可能なアラートルールを表示、有効化および無効化することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+* **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target=&quot;_blank&quot;}
 
 
 ## 製品内の使用例 {#in-product-uc}
