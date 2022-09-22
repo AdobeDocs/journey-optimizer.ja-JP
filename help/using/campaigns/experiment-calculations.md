@@ -15,7 +15,7 @@ ht-degree: 93%
 
 ---
 
-# 統計指標について {#experiment-calculations}
+# 統計計算について {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
