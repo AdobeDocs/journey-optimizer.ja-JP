@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 91%
+source-wordcount: '1241'
+ht-degree: 90%
 
 ---
 
@@ -152,25 +152,21 @@ ht-degree: 91%
 >id="ac_edition_video_email"
 >title="ビデオ設定"
 >abstract="このコンポーネントを使用すると、メールにビデオを挿入できます。ビデオが機能しないメールクライアントもあります。フォールバック画像を設定することをお勧めします。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="ビデオ設定"
 >abstract="このコンポーネントを使用して、ランディングページにビデオを挿入します。 ビデオは、一部のメッセージクライアントでは機能しません。 フォールバック画像を設定することをお勧めします。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"
 >title="ビデオ設定"
 >abstract="このコンポーネントを使用して、フラグメントにビデオを挿入します。 ビデオは、一部のメッセージクライアントでは機能しません。 フォールバック画像を設定することをお勧めします。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_template"
 >title="ビデオ設定"
 >abstract="このコンポーネントを使用して、テンプレートにビデオを挿入します。 ビデオは、一部のメッセージクライアントでは機能しません。 フォールバック画像を設定することをお勧めします。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
 **[!UICONTROL ビデオ]**&#x200B;コンポーネントを使用すると、メールに URL リンクでビデオを挿入できます。
 
