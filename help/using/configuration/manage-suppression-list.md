@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 97%
+source-wordcount: '1213'
+ht-degree: 94%
 
 ---
 
@@ -30,6 +30,11 @@ ht-degree: 97%
 >[!DNL Journey Optimizer] が送信メールの抑制済みアドレスを考慮するには 0 ～ 60 分かかります。
 
 ## 抑制リストへのアクセス {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="リストを CSV ファイルとして書き出す"
+>abstract="抑制リストをダウンロードするには、新しいファイルを生成して現在のリストを書き出すか、以前に生成されたファイルをダウンロードします。"
 
 除外されたメールアドレスの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]** に移動し、「**[!UICONTROL 抑制リスト]**」を選択します。
 

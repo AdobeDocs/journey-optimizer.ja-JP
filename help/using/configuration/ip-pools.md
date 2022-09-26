@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="IP プールの設定"
->abstract="IP プールを作成して、サブドメインの IP アドレスをグループ化し、電子メールの配信品質を向上させることができます。"
+>abstract="Journey Optimizer では、IP プールを作成して、サブドメインの IP アドレスをグループ化できます。これにより、サブドメインのレピュテーションが他のサブドメインに影響を与えるのを防ぐことができるので、E メールの配信品質が大幅に向上する可能性があります。"
 
 ## IP プールについて {#about-ip-pools}
 
