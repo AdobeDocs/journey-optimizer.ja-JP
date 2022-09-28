@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 ## ハウツービデオ{#video}
 
-決定管理で配置を作成する方法を説明します。
+意思決定管理でプレースメントを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

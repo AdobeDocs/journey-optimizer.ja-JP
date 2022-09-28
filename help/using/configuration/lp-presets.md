@@ -7,7 +7,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="ランディングページプリセットの作成"
->abstract="ランディングページを構築してJourney Optimizerを通じて活用するには、使用するサブドメインを含むランディングページプリセットを作成する必要があります。"
+>abstract="ランディングページを構築して Journey Optimizer 全体で利用するには、使用するサブドメインを含むランディングページプリセットを作成する必要があります。"
 
 [ランディングページの作成](../landing-pages/create-lp.md#create-a-lp)を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を介して活用できるように、ランディングページプリセットを選択する必要があります。
 

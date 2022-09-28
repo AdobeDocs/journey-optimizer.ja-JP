@@ -7,7 +7,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -19,27 +19,27 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 
 >[!IMPORTANT]
 >
->Adobe Journey Optimizerは、現在、Adobe Journey Optimizerから独立した SMS サービスを提供している Sinch や Twilio などのサードパーティプロバイダーと統合されています。  SMS を設定する前に、API トークンとサービス ID を受け取るために、Adobe Journey Optimizerと該当する SMS プロバイダー間の接続を確立するための、これらの SMS プロバイダーのいずれかとのアカウントを作成する必要があります。 SMS サービスの使用には、該当する SMS プロバイダーから提供される追加の利用条件が適用されます。 Sinch と Twilio は、統合を通じてAdobe Journey Optimizerのユーザーが利用できるサードパーティ製品であり、SMS サービスに関する問題や問い合わせに対しては、Sinch または Twilio のユーザーが該当する SMS プロバイダーに問い合わせる必要があります。 Adobeはを制御せず、サードパーティ製品に対する責任も負いません。
+>Adobe Journey Optimizer は現在、Sinch や Twilio などのサードパーティプロバイダーと統合されており、そうしたプロバイダーは Adobe Journey Optimizer とは独立して SMS サービスを提供しています。SMS を設定する前に、Adobe Journey Optimizer と対象の SMS プロバイダー間の接続を確立できるようにするための API トークンとサービス ID を受け取るために、こうしたいずれかの SMS プロバイダーのアカウントを作成する必要があります。SMS サービスを使用した場合、該当する SMS プロバイダーが定める追加の利用条件に同意したとみなされます。Sinch と Twilio は、Adobe Journey Optimizer と統合することでユーザーが利用できるサードパーティ製品であるため、SMS サービスに関する問題や問い合わせについてサポートを受ける際は、Sinch または Twilio のユーザーが対象の SMS プロバイダーに問い合わせる必要があります。サードパーティ製品について、アドビは一切関係せず、責任も負いません。
 
 ## 新しい API 認証情報の作成 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="SMS ベンダーをJourney Optimizerで設定する"
->abstract="ベンダーを選択し、SMS API の資格情報を入力します。"
+>title="Journey Optimizer で SMS ベンダーを設定する"
+>abstract="ベンダーを選択し、SMS API の認証情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="SMS ベンダーをJourney Optimizerで設定する"
->abstract="ベンダーを選択し、SMS API の資格情報を入力します。"
+>title="Journey Optimizer で SMS ベンダーを設定する"
+>abstract="ベンダーを選択し、SMS API の認証情報を入力します。"
 
 <!--New contextual help content for September release: >abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Create an SMS channel surface"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="SMS ベンダー設定を選択"
->abstract="SMS ベンダーに設定する API 資格情報を選択します。"
+>title="SMS ベンダー設定の選択"
+>abstract="SMS ベンダーに設定する API 認証情報を選択します。"
 
 Journey Optimizer で SMS ベンダーを設定するには、次の手順に従います。
 
@@ -67,8 +67,8 @@ API 認証情報を作成して設定した後、SMS メッセージ用のチャ
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="SMS カテゴリの定義"
->abstract="このサーフェスを使用する際に送信される SMS メッセージのタイプを選択します。ユーザーの同意を必要とするプロモーション SMS メッセージ（非商用 SMS メッセージの場合はトランザクション）のマーケティング。特定のコンテキストで配信停止済みプロファイルにも送信できます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="マーケティング SMS メッセージのオプトアウト"
+>abstract="このサーフェスを使用する際に送信される SMS メッセージのタイプ（ユーザーの同意が必要なプロモーション SMS メッセージ用の「マーケティング」または、特定のコンテキストで購読解除済みのプロファイルにも送信できる非商用 SMS メッセージ用の「トランザクション」）を選択します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html?lang=ja#sms-opt-in-out" text="マーケティング SMS メッセージのオプトアウト"
 
 SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります。
 

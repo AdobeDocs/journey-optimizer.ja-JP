@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1188'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="電子メールカテゴリの定義"
->abstract="このサーフェスを使用する際に送信される E メールのタイプを選択します。ユーザーの同意を必要とするプロモーション E メールのマーケティング、または非商用 E メールのトランザクション。特定のコンテキストで購読解除されたプロファイルに送信することもできます。"
+>abstract="このサーフェスを使用する際に送信されるメールのタイプを選択します。ユーザーの同意が必要なプロモーションメール用の「マーケティング」または、特定のコンテキストで購読解除済みのプロファイルにも送信できる非商用メール用の「トランザクション」です。"
 
 「**メールのタイプ**」セクションで、サーフェスと共に送信されるメッセージのタイプ（「**マーケティング**」または「**トランザクション**」）を選択します。
 
@@ -40,7 +40,7 @@ ht-degree: 91%
 
 ## サブドメインおよび IP プール {#subdomains-and-ip-pools}
 
-内 **サブドメインおよび IP プール** セクションで、以下を実行する必要があります。
+「**サブドメインおよび IP プール**」セクションでは、以下を実行する必要があります。
 
 1. メールの送信に使用するサブドメインを選択します。[詳細情報](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ ht-degree: 91%
 
 ## ヘッダーパラメーター{#email-header}
 
-内 **[!UICONTROL ヘッダーパラメーター]** 「 」セクションで、送信者の名前と、その表面を使用して送信される E メールのタイプに関連する E メールアドレスを入力します。
+「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、そのサーフェスを使用して送信されるメールのタイプに関連付けられた送信者の名前とメールアドレスを入力します。
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ ht-degree: 91%
 
 [!DNL Journey Optimizer] から送信された電子メールの同一のコピー（またはブラインドカーボンコピー）を BCC インボックスに送信できます。BCC インボックスは、コンプライアンスやアーカイブの目的で保存されます。
 
-これをおこなうには、 **[!UICONTROL BCC 電子メール]** チャンネルサーフェスレベルでのオプション機能。 [詳細情報](bcc-email.md)
+これを行うには、チャネルサーフェスレベルの「**[!UICONTROL BCC メール]**」オプション機能を有効化します。[詳細情報](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -177,11 +177,11 @@ ht-degree: 91%
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-最大 10 個のトラッキングパラメーターを追加するには、 **[!UICONTROL 新しいパラメーターを追加]** 」ボタンをクリックします。
+「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
 
 ![](assets/preset-url-tracking.png)
 
-URL トラッキングパラメーターを設定するには、目的の値を&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;フィールドで直接入力することができます。
+URL トラッキングパラメーターを設定するには、目的の値を&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;フィールドに直接入力することができます。
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**

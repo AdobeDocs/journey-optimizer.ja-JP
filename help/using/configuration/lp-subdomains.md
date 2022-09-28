@@ -7,7 +7,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="ランディングページのサブドメインをデリゲート"
->abstract="ランディングページで使用するサブドメインを設定します。 既にドメインにデリゲートされているサブAdobeを使用するか、別のサブドメインを設定できます。"
+>abstract="ランディングページで使用するサブドメインを設定します。 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="ランディングページのサブドメインをデリゲート"
 >abstract="ランディングページプリセットを作成するにはこのサブドメインが必要なので、ランディングページで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="ランディングページプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=ja" text="ランディングページプリセットを作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"

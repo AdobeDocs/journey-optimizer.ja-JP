@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="抑制リストにメールもしくはドメインを追加"
->abstract="Journey Optimizer抑制リストを手動で設定して、送信から特定の電子メールアドレスやドメインを除外することができます。"
+>abstract="Journey Optimizer 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
@@ -195,7 +195,7 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    >
    >ASCII 文字はすべて 32 ～ 126 文字から成り、「**コメント**」列に入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
 
-1. 完了したら、CSV ファイルをドラッグ&amp;ドロップし、「 **[!UICONTROL 送信]**.
+1. 完了したら、CSV ファイルをドラッグ＆ドロップしたあと、「**[!UICONTROL 送信]**」をクリックします。
 
    ![](assets/suppression-list-upload-csv-submit.png)
 

@@ -9,7 +9,7 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 98%
 
 ## ハウツービデオ{#video-offers}
 
-でメッセージに決定管理コンポーネントを追加する方法を説明します。 [!DNL Journey Optimizer].
+[!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
 

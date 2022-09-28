@@ -1,6 +1,6 @@
 ---
 title: ダイレクトメールメッセージの作成
-description: Journey Optimizerでダイレクトメールメッセージを作成する方法を説明します
+description: Journey Optimizer でダイレクトメールメッセージを作成する方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ hidefromtoc: true
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -21,4 +21,4 @@ ht-degree: 0%
 >title="ダイレクトメールの作成"
 >abstract="キャンペーンでダイレクトメールメッセージを作成し、式エディターを使用してパーソナライズを開始します。"
 
-用途 [!DNL Journey Optimizer] をクリックして、顧客に対するダイレクトメールメッセージを作成します。
+[!DNL Journey Optimizer] を使用して、顧客に対するダイレクトメールメッセージを作成します。

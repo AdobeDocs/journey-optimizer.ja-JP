@@ -1,5 +1,5 @@
 ---
-title: ジャーニーのグローバルレポート
+title: ジャーニーグローバルレポート
 description: ジャーニーのグローバルレポートのデータの利用方法を学ぶ
 feature: Reporting
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1977'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
-# ジャーニーのグローバルレポート {#journey-global-report}
+# ジャーニーグローバルレポート {#journey-global-report}
 
 ジャーニーのグローバルレポートは、 **[!UICONTROL レポートを表示]** 」ボタンをクリックします。
 
@@ -58,10 +58,10 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 * **[!UICONTROL アクションのエラー]**：**[!UICONTROL アクション]**&#x200B;で発生したエラーの合計数。
 
-この **[!UICONTROL 同意ポリシー]** テーブルおよびグラフには、カスタムアクションで各ポリシーから除外されたプロファイルの数が表示されます。
-カスタムアクションについて詳しくは、 [詳細なドキュメント](../action/about-custom-action-configuration.md).
+この&#x200B;**[!UICONTROL 同意ポリシー]**テーブルおよびグラフには、カスタムアクションで各ポリシーから除外されたプロファイルの数が表示されます。
+カスタムアクションについて詳しくは、[詳細ドキュメント](../action/about-custom-action-configuration.md)を参照してください。
 
-これらのウィジェットをジャーニーレポートに表示するには、ダッシュボードをリセットする必要があります。 これをおこなうには、 **[!UICONTROL 変更]** その後 **[!UICONTROL リセット]** をクリックします。
+これらのウィジェットをジャーニーレポートに表示するには、ダッシュボードをリセットする必要があります。これを行うには、**[!UICONTROL 変更]**&#x200B;をクリックし、その後レポートの上部にある&#x200B;**[!UICONTROL リセット]**をクリックします。
 +++
 
 ## 「メール」タブ {#email-global}

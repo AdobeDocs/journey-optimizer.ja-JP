@@ -9,7 +9,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 [メッセージフィードバックイベントデータセット](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [プッシュトラッキングエクスペリエンスイベントデータセット](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [ジャーニーステップイベント](../start/datasets-query-examples.md#journey-step-event)
-[ Decisioningイベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
+[意思決定イベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
 [同意サービスデータセット](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC フィードバックイベントデータセット](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## 判定イベントデータセット{#ode-decisionevents}
+## 意思決定イベントデータセット{#ode-decisionevents}
 
 _インターフェイスの名前：ODE DecisionEvents （システムデータセット）_
 

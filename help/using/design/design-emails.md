@@ -9,21 +9,21 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # メールデザインの基本を学ぶ {#get-started-content-design}
 
-既存のコンテンツをにインポートできます。 [!DNL Journey Optimizer] コンテンツデザイン機能を活用するには：
+[!DNL Journey Optimizer] に既存のコンテンツを読み込むことも、コンテンツデザイン機能を活用することもできます。
 
-* 用途 [!DNL Journey Optimizer] **メールデザイン機能** レスポンシブ e メールをデザインまたは読み込みます。 [詳細情報](../design/create-email-content.md)
+* [!DNL Journey Optimizer] **メールデザイン機能**&#x200B;を使用して、レスポンシブなメールのデザインや読み込みを行います。[詳細情報](../design/create-email-content.md)
 
 * **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](../design/assets-essentials.md)
 
-* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを改善します。[詳細情報](../design/stock.md)
+* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。[詳細情報](../design/stock.md)
 
-* プロファイル属性に基づいてパーソナライズされたメッセージを作成することで、顧客体験を強化します。 [詳細情報](../personalization/personalize.md)
+* プロファイル属性に基づいてパーソナライズされたメッセージを作成し、顧客体験を強化します。[詳細情報](../personalization/personalize.md)
 
 ➡️ [この機能をビデオで確認](#video)
 

@@ -9,13 +9,13 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # チャネルサーフェスの設定 {#set-up-channel-surfaces}
 
-を使用 [!DNL Journey Optimizer]を使用する場合は、メッセージに必要なすべての技術パラメーターを定義するチャネルサーフェス（メッセージプリセット）を設定できます。電子メールのタイプ、送信者の電子メールと名前、モバイルアプリ、SMS 設定など。
+[!DNL Journey Optimizer] では、チャネルサーフェス（例：メッセージプリセット）を設定して、メッセージに必要なすべての技術パラメーター（メールのタイプ、送信者のメールと名前、モバイルアプリ、SMS 設定など）を定義しておくことができます。
 
 >[!CAUTION]
 >
@@ -35,12 +35,12 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="チャネルサーフェスの設定"
->abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、E メールのタイプ、サブドメイン、送信者名、モバイルアプリ、SMS 設定など、メッセージに必要なすべての技術的パラメーターを定義します。"
+>abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、メールのタイプ、サブドメイン、送信者名、モバイルアプリ、SMS 設定など、メッセージに必要なすべての技術パラメーターを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="チャネルサーフェスの設定"
->abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、E メールのタイプ、送信者名、モバイルアプリ、SMS 設定など、メッセージに必要なすべての技術的パラメーターを定義します。"
+>abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、メールのタイプ、送信者名、モバイルアプリ、SMS 設定など、メッセージに必要なすべての技術パラメーターを定義します。"
 
 <!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 

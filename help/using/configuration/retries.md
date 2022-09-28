@@ -9,7 +9,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="再試行しきい値を更新"
->abstract="デフォルト値がニーズに合わない場合は、連続するソフトバウンスの許可数を変更できます。 再試行カウンターが特定の電子メールアドレスのエラーしきい値に達すると、このアドレスは抑制リストに追加されます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="サプレッションリストについて"
+>abstract="デフォルト値がニーズに合わない場合は、連続ソフトバウンスの許容回数を変更できます。再試行カウンターが特定のメールアドレスのエラーしきい値に達すると、このアドレスは抑制リストに追加されます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=ja" text="抑制リストについて"
 
 デフォルト値の 5 がニーズに合わない場合は、次の手順に従ってエラーのしきい値を変更できます。
 

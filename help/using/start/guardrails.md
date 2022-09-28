@@ -9,7 +9,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ## 意思決定管理ガードレール {#offer-guardrails}
 
-パフォーマンスガードレールと判定の静的制限は、 [AdobeOffer decisioningアプリサービス製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}。
+意思決定のパフォーマンスガードレールと静的制限は、[Adobe Offer Decisioning アプリケーションサービス製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;} に記載されています。
 
 
 ## ランディングページガードレール {#lp-guardrails}
@@ -85,7 +85,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 * このプロファイルをすぐには活用しないジャーニーを設定します。例えば、アカウントの作成を確認するようにジャーニーをデザインしている場合、エクスペリエンスイベントには、最初の確認メッセージを送信するのに必要な情報（姓、名、メールアドレスなど）を含めることができます。
 
-### セグメントを読み取り {#read-segment-g}
+### セグメントの読み取り {#read-segment-g}
 
 * ストリーミングセグメントは常に最新の状態になりますが、バッチセグメントは取得時に計算されません。毎日のバッチ評価時にのみ評価されます。
-* 「セグメントを読み取り」アクティビティを使用するジャーニーの場合、同時に開始できるジャーニーの最大数があります。 再試行はシステムによって実行されますが、5～10 分の間隔で時間の経過と共に分散することで、同時に開始するジャーニーが 5 つを超える（セグメントを読み取り、スケジュールまたは開始を「可能な限り早く」）ことを避けてください。
+* 「セグメントを読み取り」アクティビティを使用するジャーニーの場合、同時に開始できるジャーニーの最大数があります。 再試行はシステムによって実行されますが、たとえば 5 ～10 分間隔で時間を分散させて、5 つを超えるジャーニー（読み取りセグメント、スケジュール済み、または「できるだけ早く」開始）を同時に開始することは避けてください。

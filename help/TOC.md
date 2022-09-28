@@ -39,7 +39,7 @@ ht-degree: 98%
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
    + [ライブキャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + コンテンツ実験 {#content-experiment}
-      + [コンテンツ実験の概要](using/campaigns/get-started-experiment.md)
+      + [コンテンツ実験の基本を学ぶ](using/campaigns/get-started-experiment.md)
       + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
       + [統計計算について](using/campaigns/experiment-calculations.md)
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
@@ -276,7 +276,7 @@ ht-degree: 98%
 
       + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
       + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
-      + [オファーを作成および管理するための主要ステップ](using/offers/offer-library/key-steps.md)
+      + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
       + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
    + コンポーネントの作成 {#create-components}
       + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
@@ -318,7 +318,7 @@ ht-degree: 98%
       + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
       + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
    + API リファレンス{#api-reference}
-      + [概要](using/offers/api-reference/getting-started.md)
+      + [はじめに](using/offers/api-reference/getting-started.md)
       + API を使用したオファーの作成と管理 {#offers-api}
          + プレースメント {#placements}
             + [プレースメントのリスト](using/offers/api-reference/offers-api/placements/placements-list.md)
