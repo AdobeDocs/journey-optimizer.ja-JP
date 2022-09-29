@@ -5,10 +5,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 92%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 100%
 1. フォールバックオファーの名前を指定します。また、既存の 1 つまたは複数のタグを関連付けることで、オファーライブラリの検索と整理がしやすくなります。
 
    ![](../assets/fallback_details.png)
+
+1. カスタムまたはコアのデータ使用ラベルをオファーに割り当てるには、「 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御 (OLAC) の詳細](../../administration/object-based-access.md)
 
 1. フォールバックオファーの 1 つまたは複数の表示域を作成します。パーソナライズされたオファーを作成する場合などに、これを行うには、左側のペインからプレースメントをドラッグ&amp;ドロップします。
 [パーソナライズされたオファーの作成](../offer-library/creating-personalized-offers.md)を参照してください。

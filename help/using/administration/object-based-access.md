@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 14%
 >id="ajo_olac_manage_access"
 >title="オブジェクトレベルのアクセス制御"
 >abstract="アクセス権のないラベルを適用すると、このオブジェクトへのアクセス権が失効します。"
+
+>[!IMPORTANT]
+>
+>オブジェクトレベルのアクセス制御の使用は、現在、選択した顧客に制限されており、将来のリリースですべての環境にデプロイされます。
 
 オブジェクトレベルのアクセス制御 (OLAC) を使用すると、以下のような様々なオブジェクトへのデータアクセスを管理する権限を定義できます。
 
@@ -86,6 +88,7 @@ Adobe Journey Optimizerでは、OLAC を使用して、データを保護し、�
 1. クリック **[!UICONTROL 保存]** をクリックして、このラベルの制限を適用します。
 
 このオブジェクトにアクセスするには、ユーザーが **[!UICONTROL ラベル]** に含まれる **[!UICONTROL 役割]**.
+例えば、C1 ラベルを持つユーザは、C1 ラベル付きオブジェクトまたはラベル付けされていないオブジェクトにのみアクセスできます。
 
 の割り当て方法の詳細については、 **[!UICONTROL ラベル]** から **[!UICONTROL 役割]**（を参照） [このページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

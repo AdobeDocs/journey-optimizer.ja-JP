@@ -2,16 +2,29 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 100%
+source-wordcount: '2002'
+ht-degree: 94%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2022年9月 {#september-2022}
+
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2022 年 9 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* セグメントを繰り返し読み取りジャーニーでの待機アクティビティの使用に関するベストプラクティスを追加しました。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 新しい手順のイベントクエリの例と、ID、instanceid、profileid の違いに関する情報を追加しました。 [詳細情報](../reports/query-examples.md)。
+* 関連するページを更新しました。 [toDateOnly](../building-journeys/functions/functiontodateonly.md) および [toString](../building-journeys/functions/functiontostring.md) 関数
+* 時間条件パラメーターの詳細を追加しました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
+* 組み込みデータセットに関する情報を追加しました。 [詳細情報](../start/get-started-datasets.md#access-datasets)
+* グローバルレポートの節とライブレポートの節の構成が変更され、読みやすくなりました。 [詳細情報](../reports/global-report.md)
+* Adobe Journey Optimizerで使用できるすべてのレポート指標のリストが追加されました。
+   [詳細情報](../reports/global-report.md#email-and-sms-metrics)
+* 「BCC 電子メール」の節は、新しい「アーカイブのサポート」ページに移動しました。 [詳細情報](../configuration/archiving-support.md)
 
 ## 2022年8月 {#august-2022}
 

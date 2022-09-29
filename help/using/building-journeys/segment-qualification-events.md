@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 100%
+source-wordcount: '888'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 >Adobe Experience Platform セグメントは、1 日に 1 回（**バッチ**&#x200B;セグメント）、またはリアルタイム（**ストリーム**&#x200B;セグメント）で計算されます（Adobe Experience Platform の「高頻度のオーディエンス」オプションを使用）。
 >
 >選択したセグメントがストリーミングされると、このセグメントに属する個人がリアルタイムでジャーニーにエントリする可能性があります。セグメントがバッチの場合、新たにこのセグメントに選定された訪問者は、セグメントの計算が Adobe Experience Platform で実行されるとジャーニーにエントリする可能性があります。
+>
+>エクスペリエンスイベントフィールドグループは、セグメントを読み取り、セグメントの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。
 
 
 1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、「**[!UICONTROL セグメントの選定]**」アクティビティをキャンバスにドロップします。

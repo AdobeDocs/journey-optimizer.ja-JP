@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 69%
 
 ---
 
@@ -33,10 +32,10 @@ ht-degree: 100%
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンを実行するタイミングを指定します。
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)-->
+   * **[!UICONTROL スケジュール済み]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;タイプのメッセージを送信することを目的としています。
+   * **[!UICONTROL API トリガー]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**トランザクション**&#x200B;メッセージ、つまり、個人が実行したアクション（パスワードのリセット、カードの放棄など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照](api-triggered-campaigns.md)
 
 1. 「**[!UICONTROL アクション]**」セクションで、メッセージの送信に使用するチャネルとチャネルサーフェスを選択し、「**[!UICONTROL 作成]**」をクリックします。
 
@@ -47,8 +46,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >マーケティングキャンペーンタイプと互換性のあるチャネルサーフェスのみがドロップダウンリストに一覧表示されます。
-
-<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. キャンペーンのタイトルと説明を指定します。
 
@@ -76,7 +73,9 @@ ht-degree: 100%
 
 1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
-   <!-- NOTE For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)-->
+   >[!NOTE]
+   >
+   >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。[詳細情報](api-triggered-campaigns.md)
 
    「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
 
@@ -90,41 +89,9 @@ ht-degree: 100%
 
 1. キャンペーンを特定の日付に実行したり、繰り返し実行したりするには、「**[!UICONTROL スケジュール]**」セクションを設定します。 [キャンペーンのスケジュール設定方法を学ぶ](#schedule)
 
+1. カスタムまたはコアのデータ使用ラベルをキャンペーンに割り当てるには、 **[!UICONTROL アクセスを管理]** 」ボタンをクリックします。 [オブジェクトレベルのアクセス制御 (OLA) の詳細](../administration/object-based-access.md)
+
 キャンペーンの準備が整ったら、キャンペーンをレビューして公開できます。 [詳細情報](#review-activate)
-
-## キャンペーンのレビューとアクティブ化 {#review-activate}
-
-キャンペーンを設定したら、アクティブ化する前にそのパラメーターとコンテンツをレビューする必要があります。それには、次の手順に従います。
-
-1. キャンペーンの設定画面で、「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンの概要を表示します。
-
-   概要では、必要に応じてキャンペーンを変更し、パラメーターが正しくないか、または見つからないかを確認できます。
-
-   >[!IMPORTANT]
-   >
-   >エラーが発生した場合は、キャンペーンをアクティブ化できません。続行する前にエラーを解決します。
-
-   ![](assets/create-campaign-alerts.png)
-
-1. キャンペーンが正しく設定されていることを確認してから、「**[!UICONTROL アクティブ化]**」をクリックします。
-
-   ![](assets/create-campaign-review.png)
-
-1. これで、キャンペーンがアクティブ化されました。 ステータスは&#x200B;**[!UICONTROL ライブ]**、開始日を入力した場合は&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;です。[キャンペーンのステータスについて詳しくはこちらを参照](get-started-with-campaigns.md#statuses).
-
-   キャンペーンで設定されたメッセージは、すぐに送信されるか、指定日に送信されます。
-
-   >[!NOTE]
-   >
-   >**[!UICONTROL 完了]**&#x200B;ステータスは、キャンペーンがアクティブ化されてから 3 日後、または繰り返し実行されている場合はキャンペーンの終了日に自動的に割り当てられます。
-   >
-   >終了日が指定されていない場合、キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;ステータスのままとなります。変更するには、キャンペーンを手動で停止する必要があります。[キャンペーンの停止方法についてはこちらを参照](modify-stop-campaign.md)
-
-1. キャンペーンがアクティブ化されると、キャンペーンを開いて、いつでもその情報を確認できます。概要では、ターゲットプロファイルの数と、配信されたアクションおよび失敗したアクションの数に関する統計情報を取得できます。
-
-   「**[!UICONTROL レポート]**」ボタンをクリックして、専用レポートでさらに統計情報を取得することもできます。[詳細情報](../reports/campaign-global-report.md)
-
-   ![](assets/create-campaign-summary.png)
 
 ## キャンペーンのスケジュール設定 {#schedule}
 
@@ -135,3 +102,40 @@ ht-degree: 100%
 アクティブ化直後にキャンペーンを実行しない場合は、「**[!UICONTROL キャンペーン開始]**」オプションを使用して、メッセージを送信する日時を指定することができます。「**[!UICONTROL キャンペーン終了]**」オプションを使用すると、繰り返しキャンペーンの実行を停止するタイミングを指定できます。
 
 ![](assets/create-campaign-schedule.png)
+
+## 迅速な配信モード {#rapid-delivery}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rapid_delivery"
+>title="迅速な配信モード"
+>abstract="迅速な配信モードは、3,000 万件のプロファイルを持つオーディエンスに対して、パーソナライズされていないメッセージを高速で配信するJourney Optimizerのアドオンです。"
+
+急速配信モード（旧ジャーニーでのバーストモード）は、 [!DNL Journey Optimizer] キャンペーン中に大量のプッシュメッセージを送信するのに非常に高速なアドオン。
+
+迅速な配信は、メッセージの配信が遅延がビジネスクリティカルな場合に使用します。携帯電話で緊急のプッシュアラート（ニュースチャネルアプリをインストールしたユーザーに対する速報など）を送信する場合に便利です。
+
+迅速な配信モードを使用する際のパフォーマンスについて詳しくは、 [AdobeJourney Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html).
+
+
+### 前提条件 {#prerequisites}
+
+迅速な配信メッセージには、次の要件が含まれます。
+
+* 迅速な配信が可能 **[!UICONTROL 予定]** キャンペーンのみ、API トリガーキャンペーンでは使用できません。
+* プッシュメッセージではパーソナライゼーションは許可されていません。
+* ターゲットオーディエンスに含まれるプロファイルの数は 3,000 万未満にする必要があります。
+* 迅速な配信モードを使用して、最大 5 つのキャンペーンを同時に実行できます。
+
+### 迅速な配信モードを有効化
+
+1. プッシュ通知キャンペーンを作成し、 **[!UICONTROL 迅速な配信]** オプション。
+
+![](assets/create-campaign-burst.png)
+
+1. メッセージコンテンツを設定し、ターゲットにするオーディエンスを選択します。 [キャンペーンの作成方法を説明します](#create)
+
+   >[!IMPORTANT]
+   >
+   >メッセージコンテンツにパーソナライゼーションが含まれていないこと、およびオーディエンスに含まれるプロファイルの数が 3,000 万件未満であることを確認します。
+
+1. 通常どおり、キャンペーンを確認してアクティブ化します。 テストモードでは、メッセージは高速配信モードでは送信されません。 [キャンペーンの確認とアクティブ化の方法を説明します](review-activate-campaign.md)

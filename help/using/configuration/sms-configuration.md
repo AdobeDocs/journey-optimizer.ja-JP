@@ -4,10 +4,10 @@ description: Journey Optimizer で SMS メッセージを送信するように�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 94%
 
 ---
 
@@ -31,10 +31,8 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="Journey Optimizer で SMS ベンダーを設定する"
->abstract="ベンダーを選択し、SMS API の認証情報を入力します。"
-
-<!--New contextual help content for September release: >abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Create an SMS channel surface"-->
+>abstract="SMS を送信する前に、プロバイダーの設定をJourney Optimizerに統合する必要があります。 完了したら、SMS サーフェスを作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="SMS チャネルサーフェスの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

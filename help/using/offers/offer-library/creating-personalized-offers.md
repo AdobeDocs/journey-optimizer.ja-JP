@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    ![](../assets/create_offer.png)
 
-1. オファーの名前とともに開始日時と終了日時を指定します。オファーが決定エンジンによって選択される期間は、この範囲に含まれる日のみです。
+1. オファーの名前とともに開始日時と終了日時を指定します。これらの日付以外の日付では、オファーは判定エンジンによって選択されません。
 
    ![](../assets/offer_details.png)
 
@@ -56,6 +56,10 @@ ht-degree: 100%
 1. また、1 つまたは複数の既存の&#x200B;**[!UICONTROL タグ]**&#x200B;をオファーに関連付けることもできます。これにより、オファーライブラリの検索と整理がしやすくなります。[詳細情報](creating-tags.md)。
 
 1. 「**[!UICONTROL オファー属性]**」セクションでは、レポートや分析のためにキーと値のペアをオファーに関連付けることができます。
+
+1. カスタムまたはコアのデータ使用ラベルをオファーに割り当てるには、「 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御 (OLAC) の詳細](../../administration/object-based-access.md)
+
+   ![](../assets/offer_manage-access.png)
 
 1. 表示域を追加して、メッセージでオファーを表示する場所を定義します。[詳細情報](add-representations.md)
 

@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 100%
+source-wordcount: '899'
+ht-degree: 92%
 
 ---
 
-# 同意管理（ベータ版） {#consent-management}
+# 同意 管理 {#consent-management}
 
 Adobe Experience Platform では、顧客の同意設定に従ってマーケティングポリシーを簡単に採用および実施できます。同意ポリシーは、Adobe Experience Platform で定義されます。[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy)を参照してください。
 
@@ -24,7 +22,7 @@ Journey Optimizer では、これらの同意ポリシーをカスタムアク�
 
 >[!NOTE]
 >
->この機能は非公開のベータ版としてリリースされています。すべての Journey Optimizer ユーザーにご利用いただけるわけではありません。
+>同意ポリシーは、現在、Healthcare Shield アドオン製品を購入した組織でのみ使用できます。
 
 Journey Optimizer では、同意は複数のレベルで定義されます。
 
@@ -39,8 +37,8 @@ Journey Optimizer では、同意をカスタムアクションで利用でき�
 
 * セグメントを読み取り：取得したセグメントが考慮されます。
 * カスタムアクション：同意管理では、使用される属性（[アクションパラメーター](../action/about-custom-action-configuration.md#define-the-message-parameters)）と、定義されたマーケティングアクション（必須のマーケティングアクションと追加のマーケティングアクション）が考慮されます。
-
-同意は、マーケティングアクション（必須または追加）がカスタムアクションレベルで設定されている場合にのみ適用されます。
+* 標準の和集合スキーマを使用してフィールドグループに属する属性はサポートされていません。 これらの属性は、インターフェイスで非表示になります。 別のスキーマを使用して別のフィールドグループを作成する必要があります。
+* 同意ポリシーは、マーケティングアクション（必須または追加）がカスタムアクションレベルで設定されている場合にのみ適用されます。
 
 ジャーニーで使用されるその他のアクティビティは、すべて考慮されません。セグメントの選定でジャーニーを開始した場合、そのセグメントは考慮されません。
 

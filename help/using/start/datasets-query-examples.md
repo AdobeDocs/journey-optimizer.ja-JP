@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '689'
+ht-degree: 81%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
 [意思決定イベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
 [同意サービスデータセット](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC フィードバックイベントデータセット](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
+[エンティティデータセット](../start/datasets-query-examples.md#entity-dataset)
 
 ## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
 
@@ -300,4 +301,63 @@ WHERE
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND 
             mfe._experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category = 'async' AND 
             mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus
+```
+
+## エンティティデータセット{#entity-dataset}
+
+_インターフェイスの名前：ajo_entity_dataset（システムデータセット）_
+
+エンドユーザーに送信されるメッセージのエンティティメタデータを保存するデータセット。
+
+関連するスキーマは AJO エンティティスキーマです。
+
+このデータセットを使用すると、様々なデータセットをマーケターにとってわかりやすい主要なメタデータで強化できます。 messageID 属性は、メッセージフィードバックデータセットやエクスペリエンスイベントトラッキングデータセットなどの様々なデータセットを結び付け、送信からプロファイルレベルでのトラッキングへのメッセージ配信の詳細を取得するのに役立ちます。
+
+次のクエリは、特定のキャンペーンに関連するメッセージテンプレートを取得するのに役立ちます。
+
+```sql
+SELECT
+  AE._experience.customerJourneyManagement.entities.channelDetails.template
+from
+  ajo_entity_dataset AE
+    WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
+```
+
+次のクエリは、すべてのフィードバックイベントに関連付けられたジャーニーの詳細と電子メールの件名を取得するのに役立ちます。
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject 
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
+```
+
+ジャーニーステップのイベント、メッセージフィードバックおよびトラッキングデータセットをステッチして、特定のプロファイルの統計を取得できます。
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.PROFILEID,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.NODENAME
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF 
+    ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+    INNER JOIN journey_step_events JE
+    ON AE._experience.customerJourneyManagement.entities.journey.journeyActionID = JE._experience.journeyOrchestration.stepEvents.actionID
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```

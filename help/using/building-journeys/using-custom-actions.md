@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
+source-git-commit: 951799a9986e4fd293f282ecf82496e5e7f2da9e
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 100%
 >abstract="カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。"
 
 カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
+
+## 同意とデータガバナンス {#privacy}
+
+Journey Optimizerでは、カスタムアクションにデータガバナンスと同意ポリシーを適用して、特定のフィールドがサードパーティのシステムに書き出されないようにしたり、E メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外したりできます。 詳しくは、次のページを参照してください。
+
+* [データガバナンス](../action/action-privacy.md).
+* [同意](../action/consent.md).
 
 ## URL 設定
 

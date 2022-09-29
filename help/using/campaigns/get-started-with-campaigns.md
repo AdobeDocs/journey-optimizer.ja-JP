@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 5a33508759d527a76dd7119102358ae345107652
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,16 @@ ht-degree: 100%
 
 Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションは順番に実行されます。キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。
 
-キャンペーンを作成して、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意、ポリシーの更新など、マーケティング目的のシンプルなアドホックバッチ通信を送信します。
+2 種類のキャンペーンを作成できます。
+
+* **スケジュール済みキャンペーン**&#x200B;を使用すると、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意、ポリシーの更新など、マーケティングの使用例に対するシンプルなアドホックバッチ通信が可能になります。
+* **API トリガーキャンペーン**&#x200B;を使用すると、REST API（パスワードリセット、カードの放棄など）を使用したシンプルなトランザクション／操作メッセージが可能で、プロファイル属性とペイロードのコンテキストデータを使用したパーソナライゼーションが必要になる場合があります。
 
 キャンペーンを作成するための主な手順は次のとおりです。
 
 ![](assets/create-campaign-process.png)
 
 ➡️ [この機能をビデオで確認](#video)
-
-<!--You can create two types of campaigns:
-
-* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## 開始する前に {#campaign-prerequisites}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
+source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: '1339'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,90 @@ ht-degree: 100%
 この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例をいくつか示します。
 
 クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
+
+**id、instanceid、profileid の違いは何ですか。**
+
+* id:すべてのステップイベントエントリに対して一意です。 2 つの異なるステップイベントに同じ ID を割り当てることはできません。
+* instanceId:instanceID は、ジャーニー実行内のプロファイルに関連付けられているすべてのステップイベントで同じです。 プロファイルがジャーニーに再度入ると、別の instanceId が使用されます。 この新しい instanceId は、再入力されたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
+* profileID:プロファイルの id がジャーニー名前空間に対応している。
+
+## 基本的な使用例/一般的なクエリ {#common-queries}
+
+**特定の期間にジャーニーにエントリしたプロファイルの数**
+
+このクエリは、指定された期間に指定されたジャーニーに入った個別のプロファイルの数を提供します。
+
+_データレイクのクエリ_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND _experience.journeyOrchestration.stepEvents.nodeType='start'
+AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**特定のジャーニーの各ノードで一定時間に発生したエラー数**
+
+_データレイクのクエリ_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
+**特定の期間に特定のジャーニーから破棄されたイベント数**
+
+_データレイクのクエリ_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**特定の期間内の特定のジャーニー内の特定のプロファイルへの影響**
+
+_データレイクのクエリ_
+
+このクエリは、指定されたプロファイルとジャーニーのすべての手順イベントとサービスイベントを時系列で返します。
+
+```sql
+SELECT
+timestamp,
+_experience.journeyOrchestration.stepEvents.journeyVersionID,
+_experience.journeyOrchestration.stepEvents.profileID,
+_experience.journeyOrchestration.stepEvents.nodeName,
+_experience.journeyOrchestration.stepEvents.journeyNodeProcessed,
+_experience.journeyOrchestration.serviceType,
+to_json(_experience.journeyOrchestration.profile),
+to_json(_experience.journeyOrchestration.serviceEvents)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (
+    _experience.journeyOrchestration.stepEvents.profileID='<profileID>'
+    OR _experience.journeyOrchestration.profile.ID='<profileID>'
+  );
+ORDER BY timestamp;
+```
+
 
 ## メッセージ／アクションエラー {#message-action-errors}
 

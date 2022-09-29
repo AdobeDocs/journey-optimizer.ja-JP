@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >title="依存オブジェクト"
 >abstract="これは、ジャーニーで使用される関連オブジェクトのリストです。このリストには、名前、オブジェクトタイプおよび内部 Journey Optimizer ID が表示されます。"
 
-Journey Optimizer では、1 つのサンドボックスから別のサンドボックスにジャーニー全体をコピーできます。例えば、ステージサンドボックス環境から実稼動サンドボックスにジャーニーをコピーできます。Journey Optimizer では、ジャーニー自体に加えて、ジャーニーに必要なオブジェクトのほとんど（セグメント、サーフェス（プリセットなど）、スキーマ、イベントおよびアクション）もコピーします。[制限事項](../building-journeys/copy-to-sandbox.md#limitations)を参照してください。
+Journey Optimizer では、1 つのサンドボックスから別のサンドボックスにジャーニー全体をコピーできます。例えば、ステージサンドボックス環境から実稼動サンドボックスにジャーニーをコピーできます。Journey Optimizer では、ジャーニー自体に加えて、ジャーニーに必要なオブジェクトのほとんど（セグメント、サーフェス（プリセットなど）、スキーマ、イベントおよびアクション）もコピーします。コピーしたオブジェクトの詳細については、次を参照してください。 [セクション](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >

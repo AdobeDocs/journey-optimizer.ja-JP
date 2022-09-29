@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 100%
@@ -133,7 +133,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] から送信された電子メールの同一のコピー（またはブラインドカーボンコピー）を BCC インボックスに送信できます。BCC インボックスは、コンプライアンスやアーカイブの目的で保存されます。
 
-これを行うには、チャネルサーフェスレベルの「**[!UICONTROL BCC メール]**」オプション機能を有効化します。[詳細情報](bcc-email.md)
+これを行うには、チャネルサーフェスレベルの「**[!UICONTROL BCC メール]**」オプション機能を有効化します。[詳細情報](archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 

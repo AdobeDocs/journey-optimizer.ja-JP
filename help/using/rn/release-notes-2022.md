@@ -2,16 +2,84 @@
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
 workflow-type: tm+mt
-source-wordcount: '2337'
-ht-degree: 100%
+source-wordcount: '2519'
+ht-degree: 98%
 
 ---
 
 # リリースノート 2022 {#release-notes-2022}
 
 このページは、2022年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
+
+## 2022年8月リリース {#aug-2022-release}
+
+### 新機能
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer でのキャンペーンの作成と管理</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションはシーケンスで順番に実行されるように設計されています。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。 </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/346680">機能に関するビデオ</a>で説明します。
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ユーザーへの SMS の送信（一般公開）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>SMS の作成および送信方法については、こちらの<a href="../messages/create-sms.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### 機能強化
+
+**レポーティング**
+
+* 同意ポリシーのテーブルとグラフがジャーニーのグローバルレポートで使用できるようになりました。これらのウィジェットを使用すると、カスタムアクションでポリシーから除外されたプロファイルをトラックできます。[詳細情報](../reports/journey-global-report.md#journey-global)
+
+   最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/global-report.md)を参照してください。
+
+**管理**
+
+* SMS チャネルで使用するプライマリ電話番号を更新できるようになりました。[詳細情報](../configuration/primary-email-addresses.md)
 
 
 ## 2022年7月リリース {#july-2022-release}
@@ -79,7 +147,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>意思決定管理で、パーソナライズされた最適化モデルシステムを使用できるようになりました。この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
+<p>意思決定管理でパーソナライズされた最適化モデルシステムを使用できるようになりました。 この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
 <p>パーソナライズされた最適化 AI モデルの使用は、現在、選択したユーザーに制限されており、将来のリリースですべての環境にデプロイされます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
@@ -167,7 +235,7 @@ ht-degree: 100%
 <td>
 <p>BCC（ブラインドカーボンコピー）でメールを送信機能を使用して、Adobe Journey Optimizer から送信されたメールを保存できるようになりました。メールプリセットでこのオプションを有効にして、送信されたすべてのメールが BCC アドレスにブラインドコピーされるようにします。</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>詳しくは、<a href="../configuration/bcc-email.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/archiving-support.md#bcc-email">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -438,7 +506,7 @@ Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使�
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -536,4 +604,4 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **パーソナライゼーション**
 
-* **お気に入りに追加** - パーソナライゼーションを使用する際の効率を向上させるために、お気に入りを保存するという概念を導入しました。お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。[詳細情報](../personalization/personalize.md#fav)
+* **お気に入りに追加**  — パーソナライゼーションを使用する際の効率を高めるために、お気に入りの保存という概念を導入しました。 お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。[詳細情報](../personalization/personalize.md#fav)

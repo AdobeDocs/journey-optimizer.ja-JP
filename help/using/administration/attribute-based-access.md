@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->属性ベースのアクセス制御の使用は現在、一連の組織でのみ使用できます（使用制限があります）。 この機能を利用する場合は、アドビアカウント担当者にお問い合わせください。
+>属性ベースのアクセス制御の使用は、現在、選択した顧客に制限されており、将来のリリースですべての環境にデプロイされます。
 
 属性ベースのアクセス制御（ABAC）を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。その目的は、機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることです。
 

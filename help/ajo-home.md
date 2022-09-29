@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 100%
 # Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
-
->[!CAUTION]
->
->2022年7月（PT）に Adobe Journey Optimizer は、Journey Optimizer チャネル（メール、プッシュ、SMS）用のコンテンツのオーサリング方法を改善する[新機能](using/rn/inline-messages.md)をリリースしました。Journey Optimizer の実務担当者は、ジャーニーから直接メッセージを[作成およびオーサリング](using/messages/messages-in-journeys.md)できるようになりました。ジャーニーの自動コンバージョンが行われます。とは言え、いくつかの手順に関してはユーザーの協力が必要です。詳しくは、[必須な手順](using/rn/inline-messages-steps.md)を参照してください。
 
 <table style="table-layout:fixed">
 <tr>

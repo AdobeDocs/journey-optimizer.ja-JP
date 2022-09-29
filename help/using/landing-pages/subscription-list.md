@@ -6,16 +6,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 61dac9f39ed0fc8f4403071049f14d34a43acbb4
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 92%
 
 ---
 
 # 購読リスト {#create-subscription-list}
 
 ## 購読リストとは  {#subscription-list-definition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_list"
+>title="購読リストの設定"
+>abstract="購読リストを作成して、特定の件名またはイベントに関する通信の受信をオプトインしたプロファイルを収集します。 "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="サブスクリプションリストの作成"
 
 購読サービスとは、特定の対象、イベント、興味などに関するコミュニケーションの受信を選択した顧客に対して継続的に提供される、マーケティング商品やサービスを指します。[!DNL Journey Optimizer] では、これらのオプトイン済みの顧客は、購読リストに収集されます。
 
@@ -29,7 +35,7 @@ ht-degree: 100%
 
 プロファイルは、[ランディングページ](create-lp.md)から購読リストに追加できます。例については、[この節](lp-use-cases.md#subscription-to-a-service)で示します。
 
-## 購読リストを定義 {#define-subscription-list}
+## サブスクリプションリストの作成 {#define-subscription-list}
 
 購読リストを作成するには、次の手順に従います。
 

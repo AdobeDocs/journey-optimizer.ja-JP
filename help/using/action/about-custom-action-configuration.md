@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 951799a9986e4fd293f282ecf82496e5e7f2da9e
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 100%
+source-wordcount: '1045'
+ht-degree: 94%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 100%
 カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。コレクションの制限事項について詳しくは、[このページ](../building-journeys/collections.md#limitations)を参照してください。
 
 また、カスタムアクションパラメーターには想定される形式（例：文字列、10 進数など）があります。これらの想定される形式に従うように注意する必要があります。詳しくは、この[ユースケース](../building-journeys/collections.md)を参照してください。
+
+## 同意とデータガバナンス {#privacy}
+
+Journey Optimizerでは、カスタムアクションにデータガバナンスと同意ポリシーを適用して、特定のフィールドがサードパーティのシステムに書き出されないようにしたり、E メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外したりできます。 詳しくは、次のページを参照してください。
+
+* [データガバナンス](../action/action.md).
+* [同意](../action/action.md).
 
 
 ## 設定の手順 {#configuration-steps}

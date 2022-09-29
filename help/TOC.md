@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: d6ff34a36abcf2b2233079aeddb5a5f0919f2590
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 98%
+source-wordcount: '1153'
+ht-degree: 97%
 
 ---
 
@@ -21,9 +21,6 @@ ht-degree: 98%
       + [2022年リリースノート](using/rn/release-notes-2022.md)
       + [2021年リリースノート](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
-   + 新しいインラインオーサリング機能 {#inline-authoring}
-      + [移行の概要](using/rn/inline-messages.md)
-      + [移行手順](using/rn/inline-messages-steps.md)
 + はじめに {#get-started}
    + [Journey Optimizer について](using/start/get-started.md)
    + クイックスタート{#quick-start}
@@ -37,6 +34,7 @@ ht-degree: 98%
 + キャンペーン{#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
+   + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + [ライブキャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験の基本を学ぶ](using/campaigns/get-started-experiment.md)
@@ -271,6 +269,7 @@ ht-degree: 98%
    + 配信品質 {#deliverability}
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リストについて](using/reports/suppression-list.md)
+   + [アラート](using/reports/alerts.md)
 + 意志決定管理 {#offer-decisioning}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
@@ -396,7 +395,7 @@ ht-degree: 98%
       + チャネルサーフェスの設定 {#set-up-channels}
          + [チャネルサーフェスの作成](using/configuration/channel-surfaces.md)
          + [メール設定](using/configuration/email-settings.md)
-         + [BCC メールを使用](using/configuration/bcc-email.md)
+      + [アーカイブのサポート](using/configuration/archiving-support.md)
       + [実行アドレスを管理](using/configuration/primary-email-addresses.md)
       + [頻度ルールの設定](using/configuration/frequency-rules.md)
    + ランディングページの設定 {#lp-configuration}
@@ -423,7 +422,6 @@ ht-degree: 98%
          + [アクションの設定](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign Standard との統合](using/action/acs-action.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
-         + [同意](using/action/consent.md)
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + [アクセス制御の概要](using/administration/permissions-overview.md)
@@ -436,4 +434,6 @@ ht-degree: 98%
 + プライバシー {#privacy}
    + [データ使用ポリシー](using/privacy/policies.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [Journey Optimizer リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [同意](using/action/consent.md)
+   + [データガバナンス](using/action/action-privacy.md)

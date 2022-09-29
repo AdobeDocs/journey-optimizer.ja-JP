@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 99%
+source-wordcount: '1571'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 > * チャネルサーフェスを作成する前に、[メール設定](#configure-email-settings)、[プッシュ設定](../configuration/push-configuration.md)および [SMS 設定](../configuration/sms-configuration.md)の手順を実行する必要があります。
 
 
-チャネルサーフェスを設定すると、ジャーニーからメッセージを作成する際にチャネルサーフェスを選択できるようになります。
+チャネルの表面を設定したら、ジャーニーやキャンペーンからメッセージを作成する際に、チャネルの表面を選択できます。
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="チャネルサーフェスの設定"
->abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、メールのタイプ、サブドメイン、送信者名、モバイルアプリ、SMS 設定など、メッセージに必要なすべての技術パラメーターを定義します。"
+>abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、E メールのタイプ、送信者名、モバイルアプリ、SMS 設定など、送信に必要なすべての技術的パラメーターを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="チャネルサーフェスの設定"
->abstract="チャネルサーフェスを設定する際に、適用するチャネルを選択し、メールのタイプ、送信者名、モバイルアプリ、SMS 設定など、メッセージに必要なすべての技術パラメーターを定義します。"
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="ジャーニーやキャンペーンからの E メールなどのアクションを作成するには、まずチャネルサーフェスを作成し、メッセージに必要なすべての技術設定を定義する必要があります。 チャネルサーフェスを作成、編集、削除するには、チャネルサーフェスの管理権限が必要です。"
 
 チャネルサーフェスを作成するには、次の手順に従います。
 
@@ -90,7 +88,10 @@ ht-degree: 99%
 
 1. チャネルサーフェスが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
-   この段階では、メッセージプリセットが適切に設定されていることを確かめるために、いくつかのチェックが実行されています。処理時間はおよそ **48～72 時間**&#x200B;で、最長で **7～10 営業日**&#x200B;かかることがあります。
+   この段階では、メッセージプリセットが適切に設定されていることを確かめるために、いくつかのチェックが実行されています。<!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >特定のサブドメインに対して最初のチャネルサーフェスを作成する場合、処理時間がかかる場合があります **10 分～ 10 日**. 選択したサブドメインが既に別のサーフェスで使用されている場合は、最大 3 時間しかかかりません。
 
    このチェックには、アドビチームが行う設定および技術テストが含まれています。
 
@@ -101,6 +102,7 @@ ht-degree: 99%
    * Helo ホストの検証
    * IP プールの検証
    * A/PTR レコード、t/m/res サブドメインの検証
+   * FBL 登録（このチェックは、特定のサブドメインに対して E メールサーフェスを初めて作成したときにのみ実行されます）
 
    >[!NOTE]
    >

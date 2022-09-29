@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 100%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
@@ -83,9 +83,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->タイムゾーンは条件に固有ではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。[このページ](../building-journeys/timezone-management.md)を参照してください。
+>タイムゾーンは条件に特有のものではなく、ジャーニープロパティのジャーニーレベルで定義されます。 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](assets/journey51.png)
+
+次の 3 つの時間フィルターオプションを使用できます。
+
+* 時間：では、時刻に基づいて条件を設定できます。 次に、開始時刻と終了時刻を定義します。 個人は、定義された時間範囲内にのみパスを入力します。
+* 曜日：では、曜日に基づいて条件を設定できます。 次に、パスを入力する日を選択します。
+* 曜日と時間：このオプションは、最初の 2 つのオプションを組み合わせます。
 
 ## パーセンテージ分割 {#percentage_split}
 

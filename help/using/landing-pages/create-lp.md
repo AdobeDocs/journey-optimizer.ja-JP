@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 100%
+source-wordcount: '1469'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->非公開のメッセージで参照されているランディングページを非公開にした場合、そのランディングページへのリンクが壊れ、エラーページが表示されます。
+>メッセージで参照されているランディングページを非公開にすると、ランディングページへのリンクが壊れ、エラーページが表示されます。
 
 ランディングページの横にある「...」をクリックし、目的のアクションを選択します。
 
@@ -39,9 +39,16 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->公開済みのランディングページは削除できません。削除するには、まず非公開にする必要があります。
+>次の項目は削除できません： [公開済み](#publish-landing-page) ランディングページ。 削除するには、まず非公開にする必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_create"
+>title="ランディングページの定義と設定"
+>abstract="ランディングページを作成するには、プリセットを選択し、プライマリページとサブページを設定してから、公開する前にページをテストする必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="ランディングページの公開"
 
 ランディングページの作成手順は次のとおりです。
 
@@ -52,6 +59,10 @@ ht-degree: 100%
 1. タイトルを追加します。必要に応じて、説明を追加できます。
 
    ![](assets/lp_create-lp-details.png)
+
+1. ランディングページにカスタムまたはコアのデータ使用状況ラベルを割り当てるには、「 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御 (OLAC) の詳細](../administration/object-based-access.md)
+
+   <!--You can add a tag. See AEP documentation?-->
 
 1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../configuration/lp-presets.md#lp-create-preset)を参照してください。
 
@@ -70,6 +81,19 @@ ht-degree: 100%
 [プライマリページ](#configure-primary-page)と[サブページ](#configure-subpages)（存在する場合）を設定およびデザインしたら、ランディングページを[テスト](#test-landing-page)して[公開](#publish-landing-page)できます。
 
 ## プライマリページの設定 {#configure-primary-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_primary_page"
+>title="プライマリページ設定を定義"
+>abstract="プライマリページは、E メールや Web サイトなど、ランディングページへのリンクをクリックした後、ユーザーに対して直ちに表示されます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="ランディングページのコンテンツの作成"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings"
+>title="ランディングページの URL を定義"
+>abstract="この節では、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="ランディングページのサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットを作成"
 
 プライマリページとは、メールや web サイトなど、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。
 
@@ -111,7 +135,9 @@ ht-degree: 100%
 
    ![](assets/lp_expiry-date.png)
 
-   <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
+1. 内 **[!UICONTROL 追加データ]** 「 」セクションで、1 つ以上のキーと対応するパラメータ値を定義します。 これらのキーは、 [式エディター](../personalization/personalization-build-expressions.md). 詳しくは、[この節](lp-content.md#use-form-component#use-additional-data)を参照してください。
+
+   ![](assets/lp_create-lp-additional-data.png)
 
 1. [プライマリページのデザイン時に](design-lp.md) 1 つ以上の購読リストを選択した場合、「**[!UICONTROL 購読リスト]**」セクションに表示されます。
 
@@ -124,6 +150,19 @@ ht-degree: 100%
    「**[!UICONTROL ジャーニーを作成]**」をクリックして、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;リストにリダイレクトします。
 
 ## サブページの設定 {#configure-subpages}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_subpage"
+>title="サブページ設定の定義"
+>abstract="最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="ランディングページのコンテンツの作成"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings-subpage"
+>title="ランディングページの URL を定義"
+>abstract="この節では、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="ランディングページのサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットを作成"
 
 最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。
 

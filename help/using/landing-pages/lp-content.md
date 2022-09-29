@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '1215'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->また、**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用せずにクリックスルーのランディングページを作成することもできます。この場合、ランディングページはユーザーに表示されますが、フォームの送信には必要ありません。これは、オプトインやオプトアウトなど、受信者からのアクションを必要とせずにランディングページの表示のみを行う場合や、ユーザーによる入力が不要な情報を提供する場合に役立ちます。
+>また、**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用せずにクリックスルーのランディングページを作成することもできます。この場合、ランディングページはユーザーに表示されますが、フォームの送信には必要ありません。これは、オプトインやオプトアウトなどの受信者からのアクションを必要とせずにランディングページを表示したい場合や、ユーザー入力が不要な情報を提供したい場合にのみ役立ちます。
 
 ## フォームコンポーネントの使用 {#use-form-component}
 
@@ -96,8 +96,6 @@ ht-degree: 100%
 
    ![](assets/lp_designer-form-save.png)
 
-<!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
-
 ## ランディングページのフォームスタイルを定義 {#lp-form-styles}
 
 1. フォームコンポーネントコンテンツのスタイルを変更するには、いつでも「**[!UICONTROL フォームスタイル]**」タブに切り替えます。
@@ -123,3 +121,86 @@ ht-degree: 100%
 1. 「**[!UICONTROL フォームエラー]**」セクションを展開し、問題が発生した場合に表示されるエラーメッセージの表示を調整します。フォーム上のエラーテキストをプレビューするには、対応するオプションをオンにします。
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## プライマリページコンテキストを使用 {#use-primary-page-context}
+
+同じランディングページ内の別のページから得られるコンテキストデータを使用できます。
+
+例えば、チェックボックスをリンクする場合は、<!-- or the submission of the page--> から [購読リスト](subscription-list.md) プライマリランディングページの「ありがとうございました」サブページで、その購読リストを使用できます。
+
+例えば、プライマリページの 2 つのチェックボックスを、2 つの異なる購読リストにリンクしたとします。 ユーザーがこれらのいずれかを購読している場合、選択したチェックボックスに応じて、フォームの送信時に特定のメッセージを表示する必要があります。
+
+これをおこなうには、以下の手順に従います。
+
+1. プライマリページで、各チェックボックスを該当する購読リストにリンクします。 [詳細情報](#use-form-component)。
+
+   ![](assets/lp_designer-form-luma-newsletter.png)
+
+1. サブページ上で、テキストを挿入する位置にマウスのポインターを置き、「 **[!UICONTROL パーソナライゼーションを追加]** を選択します。
+
+   ![](assets/lp_designer-form-subpage-perso.png)
+
+1. 内 **[!UICONTROL パーソナライゼーションを編集]** ウィンドウ：選択 **[!UICONTROL コンテキスト属性]** > **[!UICONTROL ランディングページ]** > **[!UICONTROL プライマリページコンテキスト]** > **[!UICONTROL 購読]**.
+
+1. プライマリページで選択したすべての購読リストが表示されます。 「 + 」アイコンを使用して、関連する項目を選択します。
+
+   ![](assets/lp_designer-form-add-subscription.png)
+
+1. 式エディターのヘルパー関数を使用して、関連する条件を追加します。 [詳細情報](../personalization/functions/functions.md)
+
+   ![](assets/lp_designer-form-add-subscription-condition.png)
+
+   >[!CAUTION]
+   >
+   >式にハイフンなどの特殊文字が含まれている場合は、ハイフンを含むテキストをエスケープする必要があります。
+
+1. 変更を保存します。
+
+![](assets/lp_designer-form-preview-checked-box.png)
+
+これで、ユーザーがチェックボックスの 1 つを選択すると、フォームの送信時に、選択したチェックボックスに対応するメッセージが表示されるようになります。
+
+![](assets/lp_designer-form-thankyou-preview.png)
+
+>[!NOTE]
+>
+>ユーザーが 2 つのチェックボックスを選択すると、両方のテキストが表示されます。
+
+
+## ランディングページの追加データを使用 {#use-additional-data}
+
+条件 [プライマリページの設定](create-lp.md#configure-primary-page)を使用すると、追加のデータを作成して、ランディングページの送信時に情報を保存できるようにすることができます。
+
+>[!NOTE]
+>
+>このデータは、ページを訪問したユーザーには表示されない場合があります。
+
+1 つ以上のキーを、対応する値で定義した場合、 [プライマリページの設定](create-lp.md#configure-primary-page)を使用すると、 [式エディター](../personalization/personalization-build-expressions.md).
+
+<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+
+これらのキーをランディングページで活用するには、次の手順に従います。
+
+1. プライマリページを設定する際に、キーと対応する値を **[!UICONTROL 追加データ]** 」セクションに入力します。 [詳細情報](create-lp.md#configure-primary-page)
+
+   ![](assets/lp_create-lp-additional-data.png)
+
+1. デザイナーでプライマリページを編集する際に、キーを挿入する場所にマウスのポインターを置き、「 」を選択します。 **[!UICONTROL パーソナライゼーションを追加]** を選択します。
+
+   ![](assets/lp_designer-context-add-perso.png)
+
+1. 内 **[!UICONTROL パーソナライゼーションを編集]** ウィンドウ：選択 **[!UICONTROL コンテキスト属性]** > **[!UICONTROL ランディングページ]** > **[!UICONTROL 追加のコンテキスト]**.
+
+   ![](assets/lp_designer-contextual-attributes.png)
+
+1. プライマリページの設定時に作成したすべてのキーが表示されます。 +アイコンを使用して、目的のキーを選択します。
+
+   ![](assets/lp_designer-context-select-key.png)
+
+1. 変更を保存し、必要な回数だけ上記の手順を繰り返します。
+
+   ![](assets/lp_designer-context-keys-inserted.png)
+
+   キーに対応するパーソナライゼーション項目が、挿入した場所に表示されるようになりました。

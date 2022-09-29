@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1115'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## メッセージに関連する権限について{#message-permissions}
 
-Adobe Journey Optimizer では、新しいインラインオーサリング機能がリリースされました。この機能を使用すると、ジャーニーやキャンペーンから直接メッセージを作成し、オーサリングできます。この新機能について詳しくは、[こちらのページを参照してください](../rn/inline-messages.md)。
+Adobe Journey Optimizer では、新しいインラインオーサリング機能がリリースされました。この機能を使用すると、ジャーニーやキャンペーンから直接メッセージを作成し、オーサリングできます。
 
 この機能は次の権限に影響を与えます。
 

@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 38%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-引数値を日付のみの値に変換します。
+引数を dateOnly 型の値に変換します。 データタイプについて詳しくは、 [セクション](../expression/data-types.md).
 
 ## カテゴリ
 
@@ -29,19 +29,33 @@ ht-degree: 100%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| ISO-8601 形式つまり「YYYY-MM-DD」形式（XDM 日付形式）の日付 | 文字列 |
-| 日付 | 日付 |
+| 「YYYY-MM-DD」（XDM 形式）としての日付の文字列表現。 ISO-8601 形式もサポートしています。のみ **full-date** パーツが考慮されます ( [RFC 3339、セクション 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 文字列 |
+| 日時 | 日時 |
+| タイムゾーンを含まない日時 | 日時のみ |
+| エポックのミリ秒単位の整数値 | 整数 |
 
 ## シグネチャと戻り値のタイプ
 
-`toDateOnly(<date>)`
+`toDateOnly(<dateTime>)`
+
+`toDateOnly(<dateTimeOnly>)`
 
 `toDateOnly(<string>)`
 
-タイムゾーンを無視して日時を返します。
+`toDateOnly(<integer>, <integer>, <integer>)`
+
+dateOnly 型の値を返します。
 
 ## 例
 
 `toDateOnly("2016-08-18")`
 
-2016/08/18 を表す dateOnly オブジェクトを返します。
+`toDateOnly("2016-08-18T00:00:00.000Z")`
+
+`toDateOnly("2016-08-18T00:00:00")`
+
+すべての場合、2016-08-18を表す dateOnly オブジェクトが返されます。
+
+`toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
+
+dateOnly を返します。

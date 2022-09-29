@@ -4,9 +4,9 @@ description: Journey Optimizer でランディングページを作成および�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -70,9 +70,9 @@ ht-degree: 100%
 
    例えば、ランディングページの URL が「pages.mail.luma.com」で、トラッキング URL が「data.mail.luma.com」の場合、トラッキングサブドメインとして「pages.mail.luma.com」を使用するように選択できます。
 
-1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確認します。なお、プリセットをドラフトとして保存し、後で設定を再開することもできます。
+1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確認します。<!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. ランディングページプリセットが作成されると、リストに「**[!UICONTROL アクティブ]**」のステータスで表示されます。これで、ランディングページで使用する準備が整いました。
 
