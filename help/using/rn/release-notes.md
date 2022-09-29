@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 28%
@@ -198,7 +198,7 @@ ht-degree: 28%
 
 ### その他の変更{#sept-2022-other}
 
-* ジャーニーバーストモードは、Campaign の迅速な配信モードに置き換えられました。 詳細情報
+* ジャーニーバーストモードは、Campaign の迅速な配信モードに置き換えられました。 [詳細情報](../campaigns/create-campaign.md#rapid-delivery})
 * パフォーマンスを向上させるために、「セグメントを読み取り」、「セグメントの選定」、「ビジネスイベント」アクティビティから始まるジャーニーでは、エクスペリエンスイベントフィールドグループを使用できなくなりました。 この変更は、新しいジャーニーにのみ適用されます。 既存のものは、現在の動作を維持します。 [詳細情報](../start/guardrails.md#expression-editor)
 * スケジュールされたセグメント読み取りジャーニーの 1 時間の制限が削除されました。 これらのジャーニーを遅延なく実行できるようになりました。
 
