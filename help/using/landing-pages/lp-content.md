@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 63%
+source-wordcount: '1018'
+ht-degree: 75%
 
 ---
 
@@ -166,41 +166,42 @@ ht-degree: 63%
 >
 >ユーザーが 2 つのチェックボックスを選択すると、両方のテキストが表示されます。
 
+<!--
+## Use landing page additional data {#use-additional-data}
 
-## ランディングページの追加データを使用 {#use-additional-data}
-
-条件 [プライマリページの設定](create-lp.md#configure-primary-page)を使用すると、追加のデータを作成して、ランディングページの送信時に情報を保存できるようにすることができます。
+When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
 
 >[!NOTE]
 >
->このデータは、ページを訪問したユーザーには表示されない場合があります。
+>This data may not be visible to users who visit the page.
 
-1 つ以上のキーを、対応する値で定義した場合、 [プライマリページの設定](create-lp.md#configure-primary-page)を使用すると、 [式エディター](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
 
-<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 
-For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).///
 
-これらのキーをランディングページで活用するには、次の手順に従います。
+To leverage these keys in a landing page, follow the steps below:
 
-1. プライマリページを設定する際に、キーと対応する値を **[!UICONTROL 追加データ]** 」セクションに入力します。 [詳細情報](create-lp.md#configure-primary-page)
+1. When configuring the primary page, define a key and its corresponding value in the **[!UICONTROL Additional data]** section. [Learn more](create-lp.md#configure-primary-page)
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)
 
-1. デザイナーでプライマリページを編集する際に、キーを挿入する場所にマウスのポインターを置き、「 」を選択します。 **[!UICONTROL パーソナライゼーションを追加]** を選択します。
+1. When editing your primary page with the designer, place the pointer of your mouse where you want to insert your key and select **[!UICONTROL Add personalization]** from the contextual toolbar.
 
-   ![](assets/lp_designer-context-add-perso.png)
+    ![](assets/lp_designer-context-add-perso.png)
 
-1. 内 **[!UICONTROL パーソナライゼーションを編集]** ウィンドウ：選択 **[!UICONTROL コンテキスト属性]** > **[!UICONTROL ランディングページ]** > **[!UICONTROL 追加のコンテキスト]**.
+1. In the **[!UICONTROL Edit Personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
 
-   ![](assets/lp_designer-contextual-attributes.png)
+    ![](assets/lp_designer-contextual-attributes.png)
 
-1. プライマリページの設定時に作成したすべてのキーが表示されます。 +アイコンを使用して、目的のキーを選択します。
+1. All the keys that you created when configuring the primary page are listed. Select the key of your choice using the + icon.
 
-   ![](assets/lp_designer-context-select-key.png)
+    ![](assets/lp_designer-context-select-key.png)
 
-1. 変更を保存し、必要な回数だけ上記の手順を繰り返します。
+1. Save your changes and repeat the steps above as many times as needed.
 
-   ![](assets/lp_designer-context-keys-inserted.png)
+    ![](assets/lp_designer-context-keys-inserted.png)
 
-   キーに対応するパーソナライゼーション項目が、挿入した場所に表示されるようになりました。
+    You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.
+-->
