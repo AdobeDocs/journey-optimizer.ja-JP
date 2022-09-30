@@ -1,11 +1,11 @@
 ---
 title: Customer Journey Analytics
 description: 使用の手引きCustomer Journey Analytics
-feature: Overview
-topic: Reporting
+feature: Reporting
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b7bda87c3e2d6e1841ca231aa4acc3a406655244
+source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 9%
