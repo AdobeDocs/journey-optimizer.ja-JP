@@ -2,7 +2,7 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 27%
@@ -174,7 +174,7 @@ ht-degree: 27%
 
 **管理**
 
-* 許可リストを有効または無効にする際に、新しい警告が表示されて、各アクションの影響の詳細を確認できるようになりました。 [詳細情報](../configuration/allow-list.md#enable-allow-list)
+* 許可リストをアクティブ化または非アクティブ化する際に、新しい警告が表示されて、各アクションの影響の詳細を確認できます。 [詳細情報](../configuration/allow-list.md#enable-allow-list)
 * チャネルサーフェスの作成、IP プールの作成、抑制リストと許可リストの管理、SMS チャネルの設定をおこなうためのユーザーインターフェイスが更新されました。
 * 指定したサブドメインに対して最初のチャネルサーフェスを作成する場合、処理時間は 10 分～ 10 日で、そのサブドメインを使用する後続のサーフェスに対しては最大 3 時間になります。 [詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 

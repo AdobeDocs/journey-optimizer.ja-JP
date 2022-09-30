@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 69%
@@ -115,7 +115,6 @@ ht-degree: 69%
 迅速な配信は、メッセージの配信が遅延がビジネスクリティカルな場合に使用します。携帯電話で緊急のプッシュアラート（ニュースチャネルアプリをインストールしたユーザーに対する速報など）を送信する場合に便利です。
 
 迅速な配信モードを使用する際のパフォーマンスについて詳しくは、 [Adobe Journey Optimizer製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html).
-
 
 ### 前提条件 {#prerequisites}
 

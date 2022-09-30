@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 89%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 89%
    この段階では、メッセージプリセットが適切に設定されていることを確かめるために、いくつかのチェックが実行されています。<!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >特定のサブドメインに対して最初のチャネルサーフェスを作成する場合、処理時間がかかる場合があります **10 分～ 10 日**. 選択したサブドメインが既に別のサーフェスで使用されている場合は、最大 3 時間しかかかりません。
+   >特定のサブドメインに対して最初の E メールサーフェスを作成する場合、処理時間がかかる場合があります **10 分～ 10 日**. 選択したサブドメインが既に別の E メールサーフェスで使用されている場合は、最大 3 時間しかかかりません。
 
    このチェックには、アドビチームが行う設定および技術テストが含まれています。
 

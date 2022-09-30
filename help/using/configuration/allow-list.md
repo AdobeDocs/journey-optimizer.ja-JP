@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+source-wordcount: '1035'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
 
-1. **[!UICONTROL 非アクティブ化]**&#x200B;をクリックします。
+1. 切り替えボタンを選択します。
 
    ![](assets/allow-list-edit.png)
 
@@ -79,7 +79,7 @@ ht-degree: 99%
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
 
-1. **[!UICONTROL アクティブ]**&#x200B;をクリックします。
+1. 切り替えボタンを選択します。
 
    ![](assets/allow-list-edit-active.png)
 
