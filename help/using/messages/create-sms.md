@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
    ![](assets/sms-content.png)
 
-1. 式エディターを使用してコンテンツを定義します。任意の属性を使用して、プロファイル名や市区町村など、コンテンツをパーソナライズできます。式エディターでのパーソナライゼーションについて詳しくは、[この節](../personalization/personalize.md)を参照してください。
+1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。 任意の属性（プロファイル名や市区町村など）を使用できます。 詳細情報： [パーソナライズ](../personalization/personalize.md) および [動的コンテンツ](../personalization/get-started-dynamic-content.md) を使用して、式エディターで設定できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。
 

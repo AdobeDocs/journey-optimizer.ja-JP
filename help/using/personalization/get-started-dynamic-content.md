@@ -5,12 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-hidefromtoc: true
-hide: true
-source-git-commit: 0fbcdbbf547f24ef78f810e34ba14c78956c760c
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +16,15 @@ ht-degree: 2%
 # 動的コンテンツの基本を学ぶ {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
->id="ajo_expression_editor_conditions"
+>id="ajo_conditions_list"
 >title="条件"
->abstract="条件とは、プロファイルの属性、セグメントのメンバーシップ、コンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。"
+>abstract="条件ルールを使用すると、プロファイル属性、コンテキストイベントまたはオーディエンスセグメントに基づいて、メッセージに複数のコンテンツのバリエーションを表示できます。"
+
+動的コンテンツを使用すると、プロファイル属性、コンテキストイベントまたはオーディエンスセグメントで構成できる条件ルールに基づいてメッセージのコンテンツを適応させることができます。
+
+条件ルールは、式エディター内のビジュアルなルールビルダーを使用して作成されます。このビジュアルなルールを保存することで、ジャーニーやキャンペーンでさらに再利用できます。
+
+![](assets/conditions-overview.png)
+
+* [条件ルールの操作方法を説明します](create-conditions.md)
+* [動的コンテンツの作成方法を説明します](dynamic-content.md)

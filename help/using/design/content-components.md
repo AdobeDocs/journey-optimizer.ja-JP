@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 90%
+source-wordcount: '1246'
+ht-degree: 89%
 
 ---
 
@@ -91,8 +91,7 @@ ht-degree: 90%
    * **[!UICONTROL 複製]**：テキストコンポーネントのコピーを追加します。
    * **[!UICONTROL 削除]**：選択したテキストコンポーネントをメールから削除します。
    * **[!UICONTROL パーソナライズの追加]**：パーソナライゼーションフィールドを追加し、プロファイルデータを使用してコンテンツをカスタマイズできます。[コンテンツのパーソナライゼーションの詳細情報](../personalization/personalize.md)。
-
-1. ユーザーエクスペリエンスを向上させるために、パーソナライゼーションフィールドを追加し、オーディエンスをターゲットに設定できます。詳しくは、この[節](../personalization/personalize.md)を参照してください。
+   * **[!UICONTROL 条件付きコンテンツを有効にする]**:条件付きコンテンツを追加して、コンポーネントのコンテンツをターゲットプロファイルに適応させます。 [動的コンテンツの詳細を説明します](../personalization/get-started-dynamic-content.md).
 
 1. **[!UICONTROL コンポーネント設定]**&#x200B;を使用すると、**[!UICONTROL テキストの色]**、**[!UICONTROL フォントファミリ]**、**[!UICONTROL サイズ]**&#x200B;を調整できます。
 
@@ -210,7 +209,7 @@ ht-degree: 90%
 
 ## オファーの決定 {#offer-decision}
 
-**[!UICONTROL オファーの決定]**コンポーネントを使用し、メッセージに決定を挿入します。決定は、意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
+**[!UICONTROL Offer Decisioning]** コンポーネントを使用すると、メッセージに決定（旧称：オファーアクティビティ）を挿入できます。決定は、意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
 
 
 関連トピック：

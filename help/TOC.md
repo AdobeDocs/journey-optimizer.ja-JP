@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1161'
+ht-degree: 96%
 
 ---
 
@@ -84,34 +84,35 @@ ht-degree: 0%
       + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
    + [購読リストの作成](using/landing-pages/subscription-list.md)
    + [ユースケース](using/landing-pages/lp-use-cases.md)
-+ パーソナライゼーション{#personalization}
-   + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
-   + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
-   + 式の作成 {#build-expressions}
-      + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-      + 式エディターの操作 {#expression-editor}
-         + [式エディターについて](using/personalization/personalization-build-expressions.md)
-         + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
-         + [保存済み式の使用](using/personalization/personalization-library.md)
-         + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
-      + ヘルパー関数{#functions}
-         + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
-         + [集計関数](using/personalization/functions/aggregation.md)
-         + [演算関数](using/personalization/functions/arithmetic-functions.md)
-         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
-         + [日時関数](using/personalization/functions/dates.md)
-         + [ブール関数と比較関数](using/personalization/functions/operators.md)
-         + [ヘルパー](using/personalization/functions/helpers.md)
-         + [マップ関数](using/personalization/functions/maps.md)
-         + [オブジェクト関数](using/personalization/functions/objects.md)
-         + [文字列関数](using/personalization/functions/string.md)
-   + ユースケース{#personalization-use-cases}
-      + [注文ステータスの通知](using/personalization/personalization-use-case.md)
-      + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
++ パーソナライズ機能と動的コンテンツ {#personalized-dynamic-content}
+   + パーソナライズ機能 {#personalization}
+      + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
+      + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
+      + 式の作成 {#build-expressions}
+         + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
+         + 式エディターの操作 {#expression-editor}
+            + [式エディターについて](using/personalization/personalization-build-expressions.md)
+            + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
+            + [保存済み式の使用](using/personalization/personalization-library.md)
+            + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
+         + ヘルパー関数{#functions}
+            + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
+            + [集計関数](using/personalization/functions/aggregation.md)
+            + [演算関数](using/personalization/functions/arithmetic-functions.md)
+            + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
+            + [日付関数](using/personalization/functions/dates.md)
+            + [ブール関数と比較関数](using/personalization/functions/operators.md)
+            + [ヘルパー](using/personalization/functions/helpers.md)
+            + [マップ関数](using/personalization/functions/maps.md)
+            + [オブジェクト関数](using/personalization/functions/objects.md)
+            + [文字列関数](using/personalization/functions/string.md)
+      + ユースケース{#personalization-use-cases}
+         + [注文ステータスの通知](using/personalization/personalization-use-case.md)
+         + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
    + 動的コンテンツ {#dynamic}
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
-      + [条件の作成](using/personalization/create-conditions.md)
-      + [条件付きコンテンツの作成](using/personalization/dynamic-content.md)
+      + [条件付きルールの作成](using/personalization/create-conditions.md)
+      + [動的コンテンツの作成](using/personalization/dynamic-content.md)
 + セグメント、プロファイル、ID{#segment}
    + セグメント {#segments}
       + [セグメントの基本を学ぶ](using/segment/about-segments.md)

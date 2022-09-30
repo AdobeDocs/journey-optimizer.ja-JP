@@ -3,10 +3,10 @@ title: Journey Optimizer の基本を学ぶ（マーケター向け）
 description: ジャーニー実務担当者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 1. **セグメントを作成**&#x200B;します。Journey Optimizer では、**セグメント**&#x200B;メニューから直接オーディエンスセグメントを作成し、それらをジャーニーに活用できます。セグメントについて詳しくは、[このページ](../../segment/about-segments.md)を参照してください。セグメントを作成する方法については、[このサンプル ](../../segment/creating-a-segment.md)を参照してください。
 
-1. **パーソナライゼーションを追加**&#x200B;します。Journey Optimizer のパーソナライズ機能を活用して、メッセージをオーディエンスに合わせて調整します。パーソナライズ機能について詳しくは、[この節](../../personalization/personalize.md)を参照してください。
+1. **パーソナライゼーションと動的コンテンツの追加**. Journey Optimizerのパーソナライゼーションおよび動的コンテンツ機能を活用して、メッセージをオーディエンスに合わせて調整します。 詳細情報： [パーソナライズ](../../personalization/personalize.md) および [動的コンテンツ](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 

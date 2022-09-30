@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,8 @@ ht-degree: 100%
 [!DNL Journey Optimizer] には、開始に役立つ一連の[ビルトインテンプレート](../design/email-templates.md)が付属しています。任意のメールをテンプレートとして保存することもできます。
 
 [!DNL Journey Optimizer] 式エディターを使用して、プロファイルのデータでメッセージをパーソナライズします。パーソナライズ機能について詳しくは、[この節](../personalization/personalize.md)参照してください。
+
+を活用して、ターゲットプロファイルに合わせてメッセージの内容を調整する [!DNL Journey Optimizer] 動的コンテンツ機能 [動的コンテンツの基本を学ぶ](../personalization/get-started-dynamic-content.md)
 
 ## メールトラッキング{#email-tracking}
 

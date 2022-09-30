@@ -2,9 +2,9 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1043'
 ht-degree: 27%
 
 ---
@@ -21,26 +21,23 @@ ht-degree: 27%
 
 ### 新機能{#sept-2022-features}
 
-
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
+<th><strong>動的コンテンツおよび新しい条件付きルールビルダー</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
-<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<p>動的コンテンツを作成して、条件ルールに基づいてメッセージのコンテンツを適応させることができるようになりました。</p> 
+<p>条件ルールは、式エディター内のビジュアルなルールビルダーを使用して作成されます。このビジュアルなルールを保存することで、ジャーニーやキャンペーンでさらに再利用できます。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>詳しくは、<a href="../personalization/get-started-dynamic-content.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>

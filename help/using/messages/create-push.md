@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 100%
+source-wordcount: '1651'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ## タイトルと本文 {#push-title-body}
 
-メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。式エディターを使用して、コンテンツとパーソナライゼーションデータを定義します。[この節](../personalization/personalize.md)で、式エディターでのパーソナライゼーションについて詳しく説明します
+メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。式エディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加をおこないます。 詳細情報： [パーソナライズ](../personalization/personalize.md) および [動的コンテンツ](../personalization/get-started-dynamic-content.md) を使用して、式エディターで設定できます。
 
 デバイスのプレビューセクションを使用すると、iOS 端末と Android 端末で表示されるプッシュ通知を視覚化できます。
 
