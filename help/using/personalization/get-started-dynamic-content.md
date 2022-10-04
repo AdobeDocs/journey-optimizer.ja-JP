@@ -5,10 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
+source-git-commit: e98bde090129ad1c32662719911ec6a3e68f69d6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 2%
 
 ---
 
@@ -28,3 +28,9 @@ ht-degree: 0%
 
 * [条件ルールの操作方法を説明します](create-conditions.md)
 * [動的コンテンツの作成方法を説明します](dynamic-content.md)
+
+## ハウツービデオ {#video}
+
+条件ルールビルダーを使用して動的コンテンツを作成する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
