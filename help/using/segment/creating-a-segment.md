@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
 # セグメントの作成 {#build-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_create_rule"
+>title="ルールの作成"
+>abstract="ビルドルールの作成方法を使用すると、Adobe Experience Platform Segmentation Service を使用して新しいセグメント定義を作成できます。"
 
 この例では、アトランタ、サンフランシスコ、シアトルに住み、1980 年以降に生まれたすべての顧客をターゲットするセグメントを作成します。これらのすべての顧客は、過去 7 日以内に Luma アプリを開き、その後 2 時間以内に購入している必要があります。
 
