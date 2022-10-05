@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
+source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="プロファイル制限を追加"
->abstract="このオプションをオンにして、コンポジションに含めるプロファイルの最大数を指定します。
+>abstract="このオプションをオンにして、コンポジションに含めるプロファイルの最大数を指定します。"
 
 この **[!UICONTROL ランク]** 「 」アクティビティを使用すると、特定の属性に基づいてプロファイルをランク付けし、構成に含めることができます。 例えば、最大量のロイヤルティポイントを持つ 50 個のプロファイルを含めることができます。
 
