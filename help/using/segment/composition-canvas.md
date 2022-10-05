@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ ht-degree: 0%
 >title="ランキングアクティビティ"
 >abstract="「ランク」アクティビティを使用すると、特定の属性に基づいてプロファイルをランク付けし、構成に含めることができます。 例えば、最大量のロイヤルティポイントを持つ 50 個のプロファイルを含めます。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="プロファイル制限を追加"
+>abstract="このオプションをオンにして、コンポジションに含めるプロファイルの最大数を指定します。
+
 この **[!UICONTROL ランク]** 「 」アクティビティを使用すると、特定の属性に基づいてプロファイルをランク付けし、構成に含めることができます。 例えば、最大量のロイヤルティポイントを持つ 50 個のプロファイルを含めることができます。
 
 1. 検索する属性を選択し、ランキング順（昇順または降順）を指定します。
@@ -138,6 +143,11 @@ ht-degree: 0%
 >id="ajo_ao_split_type"
 >title="分割タイプ"
 >abstract="プロファイルを複数のパスにランダムに分割するには、「割合」分割タイプを使用します。 「属性分割」タイプを使用すると、特定の属性に基づいてプロファイルを分割できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="その他のプロファイル"
+>abstract="他のパスで指定された条件に一致しない残りのプロファイルを含む追加のパスを作成する場合は、このオプションをオンにします。"
 
 この **[!UICONTROL 分割]** 「 」アクティビティを使用すると、コンポジションを複数のパスに分割できます。
 
