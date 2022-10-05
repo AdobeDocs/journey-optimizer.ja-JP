@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '337'
+ht-degree: 7%
 
 ---
 
 # [!DNL Customer Journey Analytics] の操作 {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] ～との統合 [!DNL Customer Journey Analytics] は、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
 
 でジャーニーを作成した後 [!DNL Journey Optimizer]を使用する場合、 [!DNL Customer Journey Analytics] レポートを開始し、ジャーニーとの顧客のやり取りがすべて与える影響を把握する。
 
@@ -23,6 +24,11 @@ ht-degree: 9%
 使用する前に [!DNL Customer Journey Analytics] ジャーニーの場合、最初にこの統合を設定する必要があります。
 
 1. [接続の作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja) in [!DNL Customer Journey Analytics] と **[!UICONTROL データセット]** を Platform に送信する場合。
+
+   以下 [!DNL Journey Optimizer] は、次のように設定できます。
+   * [ジャーニーステップイベント](../start/datasets-query-examples.md#journey-step-event):では、誰がジャーニーに入ったか、およびどのくらいの距離を得たかを表示できます。
+   * [メッセージフィードバック/トラッキングデータセット](../start/datasets-query-examples.md#message-feedback-event-dataset):では、 [!DNL Journey Optimizer].
+   * [エンティティおよびジャーニーデータセット](../start/datasets-query-examples.md#entity-dataset):では、わかりやすい名前を検索し、レポートで使用することができます。
 
 1. [データビューの作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja) を使用して、レポートに使用するディメンションと指標を設定します。
 
