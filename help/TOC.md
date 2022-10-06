@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
+source-git-commit: 9d9183a8114aff2d17fc65eddaf2a7a8424e3f95
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1178'
 ht-degree: 95%
 
 ---
@@ -122,11 +122,10 @@ ht-degree: 95%
       + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
    + [ライセンス使用状況](using/segment/license-usage.md)
-   + オーディエンスを作成 {#audience-orchestration}
-      + [オーディエンス構成の基本を学ぶ](using/segment/get-started-audience-orchestration.md)
-      + [合成ワークフローの作成](using/segment/create-compositions.md)
-      + [コンポジションキャンバスの操作](using/segment/composition-canvas.md)
-      + [オーディエンスへのアクセスと管理](using/segment/access-audiences.md)
+   + [オーディエンス構成の基本を学ぶ](using/segment/get-started-audience-orchestration.md)
+   + [合成ワークフローの作成](using/segment/create-compositions.md)
+   + [コンポジションキャンバスの操作](using/segment/composition-canvas.md)
+   + [オーディエンスへのアクセスと管理](using/segment/access-audiences.md)
 + ジャーニー {#orchestrate-journeys}
    + ジャーニーについて{#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
