@@ -2,7 +2,7 @@
 title: API を使用したキャンペーンのトリガー
 description: ' [!DNL Journey Optimizer] API を使用してキャンペーンをトリガーする方法を説明します'
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 78%
@@ -95,7 +95,7 @@ API トリガーキャンペーンを実行するには、まずその ID を取
 >
 >この機能は、次の目的で提供されます。 **非常に小さいボリュームプロファイルの作成** 大量のトランザクション送信の使用例では、プロファイルの大部分が platform に既に存在しています。
 
-キャンペーンの実行時にプロファイルの作成を有効にするには、 **[!UCONTROL 新しいプロファイルの作成]** オプションを **[!UICONTROL 対象ユーザ]** 」セクションに入力します。
+キャンペーンの実行時にプロファイルの作成を有効にするには、 **[!UICONTROL 新しいプロファイルの作成]** オプションを **[!UICONTROL 対象ユーザ]** 」セクションに入力します。
 
 ![](assets/api-triggered-create-profile.png)
 
