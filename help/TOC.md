@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -256,7 +256,7 @@ ht-degree: 95%
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
-      + [グローバルレポートの概要](using/reports/global-report.md)
+      + [グローバルレポートの基本を学ぶ](using/reports/global-report.md)
       + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
       + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
@@ -403,7 +403,7 @@ ht-degree: 95%
          + [チャネルサーフェスの作成](using/configuration/channel-surfaces.md)
          + [メール設定](using/configuration/email-settings.md)
       + [アーカイブのサポート](using/configuration/archiving-support.md)
-      + [実行アドレスを管理](using/configuration/primary-email-addresses.md)
+      + [実行アドレスの管理](using/configuration/primary-email-addresses.md)
       + [頻度ルールの設定](using/configuration/frequency-rules.md)
    + ランディングページの設定 {#lp-configuration}
       + [ランディングページのサブドメインの設定](using/configuration/lp-subdomains.md)
@@ -441,6 +441,6 @@ ht-degree: 95%
 + プライバシー {#privacy}
    + [データ使用ポリシー](using/privacy/policies.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [同意](using/action/consent.md)
    + [データガバナンス](using/action/action-privacy.md)
