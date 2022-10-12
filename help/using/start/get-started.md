@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 22672ba22713bcc354d5cc4acdba68995d47a685
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '703'
+ht-degree: 97%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 100%
 
 ## アーキテクチャ {#architecture}
 
-[!DNL Adobe Journey Optimizer] の基本的なアーキテクチャ、統合のポイントおよび [!DNL Journey Optimizer] と他のアドビアプリケーションとの関係について説明します。
+の基本的なアーキテクチャの理解 [!DNL Adobe Journey Optimizer]、統合のポイントおよび [!DNL Journey Optimizer] および [!DNL Experience Platform]を次の図に示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+![](assets/ajo-architecture.png)
 
 
 >[!NOTE]
