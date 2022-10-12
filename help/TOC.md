@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 97%
 
 ---
@@ -43,9 +43,10 @@ ht-degree: 97%
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メッセージ {#messages}
-   + [メッセージの概要](using/messages/get-started-content.md)
-   + [メッセージジャーニーの追加](using/messages/messages-in-journeys.md)
-   + [メッセージキャンペーンの追加](using/messages/messages-in-campaigns.md)
+   + メッセージの概要{#get-started-msg}
+      + [メッセージの作成](using/messages/get-started-content.md)
+      + [ジャーニーでのメッセージの追加](using/messages/messages-in-journeys.md)
+      + [キャンペーンにメッセージを追加](using/messages/messages-in-campaigns.md)
    + [メールの作成](using/messages/create-email.md)
    + [プッシュ通知の作成](using/messages/create-push.md)
    + [SMS メッセージの作成](using/messages/create-sms.md)

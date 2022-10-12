@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -44,15 +44,14 @@ ht-degree: 93%
 
 1. メッセージ&#x200B;**[!UICONTROL カテゴリ]**&#x200B;の選択：商用メッセージの場合は「**マーケティング**」を、商用以外のメッセージ（注文の確認、パスワードのリセット通知、配信情報など）の場合は「**トランザクション**」を選択します。
 
-   >[!CAUTION]
-   >
-   >特定のチャネルとカテゴリに対して[頻度ルール](../configuration/frequency-rules.md)を定義した場合、そのチャネルとカテゴリを選択すると、それらがメッセージに自動的に適用されます。 現在、頻度ルールでは&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリのみを使用できます。
-
    ![](assets/inline-message-category.png)
 
    >[!CAUTION]
    >
-   >マーケティングタイプのメッセージには、[オプトアウトリンク](../messages/consent.md#opt-out-management)を含める必要があります。この設定は、トランザクションメッセージには必要ありません。これらのメッセージは、アドビからのお知らせを購読解除したプロファイルに送信される可能性があるためです。
+   >* 特定のチャネルとカテゴリに対して[頻度ルール](../configuration/frequency-rules.md)を定義した場合、そのチャネルとカテゴリを選択すると、それらがメッセージに自動的に適用されます。 現在、頻度ルールでは&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリのみを使用できます。
+   >
+   >* マーケティングメッセージには、 [オプトアウトリンク](../messages/consent.md#opt-out-management). この設定は、トランザクションメッセージには必要ありません。これらのメッセージは、アドビからのお知らせを購読解除したプロファイルに送信される可能性があるためです。
+
 
 1. チャネル&#x200B;**[!UICONTROL サーフェス]**（メッセージプリセットなど）を選択して、メッセージを送信します。
 
