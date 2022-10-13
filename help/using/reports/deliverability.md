@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 苦情率の低減 {#reduce-complaint-rate}
 
-ISP は、通常、受け取ったメッセージをスパムとしてレポートする優れた手段を持っています。これにより、信頼性を欠くソースの特定が可能です。オプトアウト要求に迅速に対応し、自身が信頼できる送信者であることを示すことで、苦情の発生率を低減できます。[オプトアウト管理の詳細情報](../messages/consent.md#opt-out-management)。
+ISP は、通常、受け取ったメッセージをスパムとしてレポートする優れた手段を持っています。これにより、信頼性を欠くソースの特定が可能です。オプトアウト要求に迅速に対応し、自身が信頼できる送信者であることを示すことで、苦情の発生率を低減できます。[オプトアウト管理の詳細情報](../privacy/opt-out.md#opt-out-management)。
 
 原則として、オプトアウトを希望する受信者がスムーズに手続きできるよう、メールアドレスや名前などのフィールドへの入力を要求しないようにしてください。購読解除ランディングページには、確認ボタンを 1 つだけ配置してください。
 

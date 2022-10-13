@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -52,11 +52,11 @@ ht-degree: 100%
 
    * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。詳しくは、[この節](../landing-pages/get-started-lp.md)を参照してください。
 
-   * **[!UICONTROL ワンクリックオプトアウト]**：ユーザーがオプトアウトの確認を求められることなく、コミュニケーションを素早く購読解除できるリンクを挿入します。詳しくは、[この節](../messages/consent.md#one-click-opt-out)を参照してください。
+   * **[!UICONTROL ワンクリックオプトアウト]**：ユーザーがオプトアウトの確認を求められることなく、コミュニケーションを素早く購読解除できるリンクを挿入します。詳しくは、[この節](../privacy/opt-out.md#one-click-opt-out)を参照してください。
 
    * **[!UICONTROL 外部のオプトイン／購読]**：ブランドからのコミュニケーションの受信を同意するリンクを挿入します。
 
-   * **[!UICONTROL 外部オプトアウト／購読解除]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入します。オプトアウト管理の詳細については、[この節](../messages/consent.md#opt-out-management)を参照してください。
+   * **[!UICONTROL 外部オプトアウト／購読解除]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入します。オプトアウト管理の詳細については、[この節](../privacy/opt-out.md#opt-out-management)を参照してください。
 
    * **[!UICONTROL ミラーページ]**：web ブラウザーにメールコンテンツを表示するためのリンクを挿入します。詳しくは、[この節](#mirror-page)を参照してください。
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../messages/consent.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)（例：メッセージプリセット）レベルで、また[メッセージの作成](../messages/get-started-content.md#create-new-message)時に定義されます。
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)（例：メッセージプリセット）レベルで、また[メッセージの作成](../messages/get-started-content.md#create-new-message)時に定義されます。
 
 ## ミラーページへのリンク {#mirror-page}
 

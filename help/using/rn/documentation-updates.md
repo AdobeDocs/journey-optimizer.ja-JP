@@ -2,16 +2,20 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: ht
-source-wordcount: '2002'
-ht-degree: 100%
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2022年10月 {#october-2022}
+
+* オプトアウト管理および同意ポリシーに関する情報が、新しい節に再編成されました。 [詳細情報](../privacy/opt-out.md)
 
 ## 2022年9月 {#september-2022}
 
@@ -108,7 +112,7 @@ ht-degree: 100%
 * ランキング戦略を使用する際にイベントタイプを送信できるようにするために必要な、スキーマ要件に関する新しい節が追加されました。[詳細情報](../offers/ranking/schema-requirement.md)
 * [!DNL Journey Optimizer] パーソナライズ機能に関連する節が再編成され、読みやすくなりました。[詳細情報](../personalization/personalize.md)
 * この&#x200B;**メッセージプリセットの作成**&#x200B;の節は、わかりやすくするために複数のセクションに分かれています。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
-* この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../messages/consent.md#opt-out-management)
+* この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../privacy/opt-out.md#opt-out-management)
 * この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../design/message-tracking.md#insert-links)
 
 ## 2021年11月 {#november-2021}
@@ -173,7 +177,7 @@ ht-degree: 100%
 * 「許可リストの有効化」の節を更新しました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * メッセージプリセットのメール再試行設定を調整できるようになったことを反映するために、「再試行期間」の節を更新し、名前を変更しました。[詳細情報](../configuration/retries.md#retry-duration)
-* ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](../messages/consent.md#one-click-opt-out-link)
+* ワンクリックオプトアウトリンクをメールコンテンツに挿入する方法を説明する新しい節を追加しました。[詳細情報](../privacy/opt-out.md#one-click-opt-out-link)
 * 「サブドメインのデリゲート」の節を更新して、アドビで実行される検証プロセスについて詳しく説明しました。[詳細情報](../configuration/delegate-subdomain.md#subdomain-validation)
 * 抑制リストにメールアドレスとドメインを手動で追加する方法に関する節を追加しました。[詳細情報](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * [抑制リストへのアクセス](../configuration/manage-suppression-list.md#access-suppression-list)の節と[再試行](../configuration/retries.md)の節を更新して、新しいユーザーインターフェイスを反映しました。

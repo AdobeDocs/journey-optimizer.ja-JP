@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->購読を解除したユーザーのアドレスは、[!DNL Journey Optimizer] からのメールを受信していないので、抑制リストに送信できません。選択は、Experience Platform レベルで処理されます。詳しくは、[オプトアウト](../messages/consent.md)を参照してください。
+>購読を解除したユーザーのアドレスは、[!DNL Journey Optimizer] からのメールを受信していないので、抑制リストに送信できません。選択は、Experience Platform レベルで処理されます。詳しくは、[オプトアウト](../privacy/opt-out.md)を参照してください。
 
 各アドレスについて、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど）が抑制リストに表示されます。抑制リストへのアクセスと管理について詳しくは、[この節](../configuration/manage-suppression-list.md)を参照してください。
 

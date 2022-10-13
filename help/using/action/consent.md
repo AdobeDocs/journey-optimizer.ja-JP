@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
-title: 同意
-description: 同意
+title: 同意ポリシーの使用
+description: Adobe Experience Platformの同意ポリシーの操作方法を説明します
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 92%
+source-wordcount: '913'
+ht-degree: 90%
 
 ---
 
-# 同意 管理 {#consent-management}
+# 同意ポリシーの使用 {#consent-management}
 
 Adobe Experience Platform では、顧客の同意設定に従ってマーケティングポリシーを簡単に採用および実施できます。同意ポリシーは、Adobe Experience Platform で定義されます。[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy)を参照してください。
 

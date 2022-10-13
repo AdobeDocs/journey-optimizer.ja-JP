@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b81ed696d4b2b47ab9b736be695983f5e18d8ae
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 97%
+source-wordcount: '1188'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 97%
    + [SMS メッセージの作成](using/messages/create-sms.md)
    + [ダイレクトメールの作成](using/messages/create-direct-mail.md)
    + [アラートの確認](using/messages/alerts.md)
-   + [同意の管理](using/messages/consent.md)
    + [送信時間の最適化](using/messages/send-time-optimization.md)
 + コンテンツのデザイン {#design}
    + [メールデザインの基本を学ぶ](using/design/design-emails.md)
@@ -443,5 +442,7 @@ ht-degree: 97%
    + [データ使用ポリシー](using/privacy/policies.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
    + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
-   + [同意](using/action/consent.md)
+   + 同意の管理 {#consent}
+      + [オプトアウトの管理](using/privacy/opt-out.md)
+      + [同意ポリシーの使用](using/action/consent.md)
    + [データガバナンス](using/action/action-privacy.md)

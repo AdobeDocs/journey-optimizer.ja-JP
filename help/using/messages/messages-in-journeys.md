@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 92%
@@ -50,7 +50,7 @@ ht-degree: 92%
    >
    >* 特定のチャネルとカテゴリに対して[頻度ルール](../configuration/frequency-rules.md)を定義した場合、そのチャネルとカテゴリを選択すると、それらがメッセージに自動的に適用されます。 現在、頻度ルールでは&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリのみを使用できます。
    >
-   >* マーケティングメッセージには、 [オプトアウトリンク](../messages/consent.md#opt-out-management). この設定は、トランザクションメッセージには必要ありません。これらのメッセージは、アドビからのお知らせを購読解除したプロファイルに送信される可能性があるためです。
+   >* マーケティングメッセージには、 [オプトアウトリンク](../privacy/opt-out.md#opt-out-management). この設定は、トランザクションメッセージには必要ありません。これらのメッセージは、アドビからのお知らせを購読解除したプロファイルに送信される可能性があるためです。
 
 
 1. チャネル&#x200B;**[!UICONTROL サーフェス]**（メッセージプリセットなど）を選択して、メッセージを送信します。

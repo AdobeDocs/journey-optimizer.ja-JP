@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
-workflow-type: ht
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 * 購読解除後にユーザーがリダイレクトされるランディングページの URL である&#x200B;**登録解除 URL**。
 
-   [ワンクリックオプトアウトリンク](../messages/consent.md#one-click-opt-out)をこのサーフェスを使用して作成されたメッセージに加える場合、登録解除 URL は、ワンクリックオプトアウトリンク用に定義された URL になります。
+   [ワンクリックオプトアウトリンク](../privacy/opt-out.md#one-click-opt-out)をこのサーフェスを使用して作成されたメッセージに加える場合、登録解除 URL は、ワンクリックオプトアウトリンク用に定義された URL になります。
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -86,7 +86,7 @@ ht-degree: 100%
    >
    >メッセージコンテンツにワンクリックオプトアウトリンクを追加しない場合、ユーザーにランディングページは表示されません。
 
-メッセージにヘッダー登録解除リンクを追加する方法について詳しくは、[この節](../messages/consent.md#unsubscribe-header)を参照してください。
+メッセージにヘッダー登録解除リンクを追加する方法について詳しくは、[この節](../privacy/opt-out.md#unsubscribe-header)を参照してください。
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
