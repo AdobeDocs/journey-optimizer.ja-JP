@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '853'
 ht-degree: 69%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="迅速な配信モード"
->abstract="迅速な配信モードは、3,000 万件のプロファイルを持つオーディエンスに対して、パーソナライズされていないメッセージを高速で配信するJourney Optimizerのアドオンです。"
+>abstract="高速配信モードでは、プッシュチャネルで 30M 未満のオーディエンスサイズに高速でメッセージを送信できます。"
 
 急速配信モード（旧ジャーニーでのバーストモード）は、 [!DNL Journey Optimizer] キャンペーン中に大量のプッシュメッセージを送信するのに非常に高速なアドオン。
 
