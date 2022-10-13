@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 405d99f14512727f8d5e4aa9513f07f1e87f1a39
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 95%
@@ -175,7 +175,7 @@ GDPR などの規制では、データサブジェクトからの情報を使用
 >id="ajo_admin_preset_unsubscribe"
 >title="メールヘッダーへの購読解除リンクの追加"
 >abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除リンクを追加します。購読解除 URL を設定するには、メールのコンテンツにワンクリックオプトアウトリンクを挿入します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=ja#one-click-opt-out" text="ワンクリックオプトアウト"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent.html?lang=en#one-click-opt-out" text="ワンクリックオプトアウト"
 
 [List-Unsubscribe オプション](../configuration/channel-surfaces.md#list-unsubscribe)がチャネルサーフェスレベルで有効になっている場合、対応するメールが [!DNL Journey Optimizer] で送信される際には、メールヘッダーに購読解除リンクが含まれています。
 
