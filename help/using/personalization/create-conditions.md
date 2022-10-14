@@ -1,6 +1,6 @@
 ---
 title: 条件の作成
-description: 条件の作成方法を学ぶ
+description: 条件の作成方法についてはこちらから
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -39,12 +39,12 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
->title="条件を作成"
+>title="条件の作成"
 >abstract="プロファイル属性、コンテキストイベントまたはオーディエンスを組み合わせて、メッセージに表示するコンテンツを定義するルールを作成します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
->title="条件を作成"
+>title="条件の作成"
 >abstract="プロファイル属性、コンテキストイベントまたはオーディエンスを組み合わせて、メッセージに表示するコンテンツを定義するルールを作成します。"
 
 条件ルールを作成する手順は次のとおりです。

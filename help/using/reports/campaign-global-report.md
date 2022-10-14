@@ -9,13 +9,13 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1660'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # キャンペーンのグローバルレポート {#campaign-global-report}
 
-Campaign グローバルレポートには、 **[!UICONTROL 常時]** 」ボタンをクリックします。
+キャンペーンのグローバルレポートには、「**[!UICONTROL 全期間]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 
 ![](assets/campaign_report_global_5.png)
 
@@ -28,7 +28,7 @@ Campaign グローバルレポートには、 **[!UICONTROL 常時]** 」ボタ�
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
 
-Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、 [このページ](global-report.md#list-of-components-global.md)
+Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、[このページ](global-report.md#list-of-components-global.md)を参照してください。
 
 ## 「キャンペーン」タブ {#campaign-global}
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、キャンペーンで送信されるメール配信に関連する主な情報の詳細が表示されます。
 
-+++電子メールレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
++++メールレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
 **[!UICONTROL メール送信統計]**&#x200B;グラフは、成功した配信の詳細を示します。
 
@@ -138,7 +138,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ## 「プッシュ通知」タブ {#push-global}
 
-キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL プッシュ通知]** 「 」タブには、キャンペーンで送信されたプッシュ配信に関する主な情報の詳細が表示されます。
+キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL プッシュ通知]**」タブには、キャンペーンで送信されたプッシュ配信に関する主な情報が詳しく表示されます。
 
 ![](assets/campaign_report_global_3.png)
 
@@ -212,7 +212,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ## 「SMS」タブ {#sms-global}
 
-キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL SMS]** 「 」タブには、キャンペーンで送信される SMS 配信に関する主な情報の詳細が表示されます。
+キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL SMS]**」タブには、キャンペーンで送信された SMS 配信に関する主な情報が詳しく表示されます。
 
 ![](assets/campaign_report_global_4.png)
 
@@ -232,7 +232,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
-この **[!UICONTROL 日付別の SMS パフォーマンス]** widget は、メッセージに関連する主な情報の詳細をグラフで示します。
+**[!UICONTROL SMS の日別パフォーマンス]**&#x200B;ウィジェットは、メッセージに関連する主な情報の詳細をグラフで表示します。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
@@ -242,7 +242,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
-この **[!UICONTROL 理由を除外]**, **[!UICONTROL バウンス理由]** および **[!UICONTROL エラー理由]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+**[!UICONTROL 除外された理由]**、**[!UICONTROL バウンスの理由]**&#x200B;および&#x200B;**[!UICONTROL エラーの理由]**のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 +++
 
 ## その他のリソース

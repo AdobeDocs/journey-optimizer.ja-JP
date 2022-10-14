@@ -9,13 +9,13 @@ exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-引数を dateOnly 型の値に変換します。 データタイプについて詳しくは、 [セクション](../expression/data-types.md).
+引数を dateOnly 型の値に変換します。データ型について詳しくは、[こちらの節](../expression/data-types.md)を参照してください。
 
 ## カテゴリ
 
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 「YYYY-MM-DD」（XDM 形式）としての日付の文字列表現。 ISO-8601 形式もサポートしています。のみ **full-date** パーツが考慮されます ( [RFC 3339、セクション 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 文字列 |
+| 「YYYY-MM-DD」（XDM 形式）としての日付の文字列表現。ISO-8601 形式もサポートしています。**full-date** の部分に限り考慮されます（[RFC 3339、セクション 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 文字列 |
 | 日時 | 日時 |
 | タイムゾーンを含まない日時 | 日時のみ |
 | エポックのミリ秒単位の整数値 | 整数 |
@@ -54,7 +54,7 @@ dateOnly 型の値を返します。
 
 `toDateOnly("2016-08-18T00:00:00")`
 
-すべての場合、2016-08-18を表す dateOnly オブジェクトが返されます。
+すべての場合、2016-08-18 を表す dateOnly オブジェクトが返されます。
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 

@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
    ![](../assets/create_offer.png)
 
-1. オファーの名前とともに開始日時と終了日時を指定します。これらの日付以外の日付では、オファーは判定エンジンによって選択されません。
+1. オファーの名前とともに開始日時と終了日時を指定します。これらの日付以外では、オファーは Offer Decisioning エンジンによって選択されません。
 
    ![](../assets/offer_details.png)
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL オファー属性]**」セクションでは、レポートや分析のためにキーと値のペアをオファーに関連付けることができます。
 
-1. カスタムまたはコアのデータ使用ラベルをオファーに割り当てるには、「 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御 (OLAC) の詳細](../../administration/object-based-access.md)
+1. オファーにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 

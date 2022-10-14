@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizerでのアーカイブのサポート
+title: Journey Optimizer でのアーカイブのサポート
 description: チャネルサーフェスレベルで BCC メールを設定する方法を学ぶ
 feature: Application Settings
 topic: Administration
@@ -9,7 +9,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 38b8b0634ac0b1e59d848a5a661e3905abaec358
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 87%
 
 ## メッセージのアーカイブ方法 {#about-archiving}
 
-HIPAA などの規制では、 [!DNL Journey Optimizer] は、個人に送信されたメッセージをアーカイブする方法を提供する必要があります。 実際、顧客が請求を行う場合、顧客は、確認のために送信されたメッセージのコピーを取得する能力が必要です。
+HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信されたメッセージをアーカイブする方法を提供する必要があります。実際、顧客が申し立てを行った場合、確認のために送信されたメッセージのコピーを取得できる必要があります。
 
-* E メールチャネルの場合、 [!DNL Journey Optimizer] には、組み込みの BCC 電子メール機能が用意されています。 [詳細情報](#bcc-email)
+* メールチャネルの場合、[!DNL Journey Optimizer] には、組み込みの BCC メール機能が用意されています。[詳細情報](#bcc-email)
 
-* また、すべてのチャネルに対して、 **エンティティデータセット**：パーソナライズされていないメッセージテンプレートの詳細を含みます。 このフィールドでデータセットを書き出し、次のようなメタデータを保存します。誰がいつ誰にメッセージを送ったかを パーソナライズされたデータはエクスポートされず、テンプレート（メッセージの形式と構造）のみが考慮されます。 [詳細情報](../start/datasets-query-examples.md#entity-dataset)
+* さらに、すべてのチャネルの場合、パーソナライズされていないメッセージテンプレートの詳細を含む&#x200B;**エンティティデータセット**&#x200B;の「テンプレート」フィールドを使用できます。このフィールドを使用してデータセットを書き出すと、メッセージの送信者、送信先および送信時間などのメタデータを保存できます。パーソナライズされたデータは書き出されず、テンプレート （メッセージの形式と構造）のみが考慮されます。[詳細情報](../start/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。 専用のアーカイブサポートのために、SMS ベンダー（Synch または Twilio）と連携します。
+>[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。専用のアーカイブサポートについては、SMS ベンダー（Synch または Twilio）と協力してください。
 
-## E メールの BCC の使用方法 {#bcc-email}
+## メールに BCC を使用する方法 {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"

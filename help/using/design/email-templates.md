@@ -9,7 +9,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="メッセージの移行方法を説明します。"
->abstract="2022 年 7 月 26 日に、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージを作成できるようになりました。 従来のメッセージをジャーニーで再利用する場合は、それらをテンプレートとして保存する必要があります。"
+>abstract="2022年7月25日（PT）より、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージが作成されます。 従来のメッセージをジャーニーで再利用する場合は、それらをテンプレートとして保存する必要があります。"
 
 [メールコンテンツ](design-emails.md)をデザインしたら、後日再利用するために保存できます。それには、次の手順に従います。
 

@@ -10,7 +10,7 @@ hidefromtoc: true
 source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 この **[!UICONTROL プロファイル数]** 列には、オーディエンスに含まれるプロファイル数に関する情報が表示されます。 「i」ボタンをクリックすると、この情報が計算された日付の詳細が表示されます。
 
-カスタムまたはコアのデータ使用ラベルをオーディエンスに割り当てるには、楕円形ボタンをクリックし、 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御 (OLA) の詳細](../administration/object-based-access.md)
+カスタムまたはコアのデータ使用ラベルをオーディエンスに割り当てるには、楕円形ボタンをクリックし、 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

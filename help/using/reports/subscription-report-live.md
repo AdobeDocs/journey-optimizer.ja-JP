@@ -9,7 +9,7 @@ exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 購読&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、過去 24 時間の購読者のアクティビティに関する詳細のみを表示します。選択した期間で購読を測定するには、[購読グローバルレポート](subscription-report-global.md)を参照してください。
 
-レポートにアクセスするには、 **[!UICONTROL レポート]** 選択した購読リストのアイコン。
+レポートにアクセスするには、選択したサブスクリプションリストの「**[!UICONTROL レポート]**」アイコンをクリックします。
 
 ![](assets/subscription_report_7.png)
 

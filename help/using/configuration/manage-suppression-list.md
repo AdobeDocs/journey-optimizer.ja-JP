@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ When downloading the CSV file, you can choose to either:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="抑制リストにメールもしくはドメインを追加"
->abstract="抑制リストに入力するには、CSV ファイルのアップロードを通じて、電子メールアドレスまたはドメインを 1 つずつ手動で追加するか、一括モードで追加します。 これらの特定の電子メールアドレスやドメインは、送信から除外されます。"
+>abstract="抑制リストへの入力は、CSV ファイルのアップロードを通じて、手動でメールアドレスまたはドメインを 1 つずつ追加するか、一括モードで追加します。これらの特定のメールアドレスやドメインは、送信から除外されます。"
 
 メッセージをメールアドレスに配信できない場合、このアドレスは、定義済みの抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
 

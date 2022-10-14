@@ -9,7 +9,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -158,7 +158,7 @@ API 呼び出しについて詳しくは、 [Adobe Experience Platform API](http
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="許可リストの管理"
->abstract="許可リストをアクティブ化すると、許可リストに含まれる受信者にのみ、このサンドボックスからメールメッセージが届きます。無効にすると、すべての受信者が電子メールを受信します。"
+>abstract="許可リストをアクティブ化すると、許可リストに含まれる受信者にのみ、このサンドボックスからメールメッセージが届きます。非アクティブ化すると、すべての受信者にメールが届きます。"
 
 許可リストが[有効](#enable-allow-list)の場合、次のロジックが適用されます。
 

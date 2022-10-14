@@ -9,7 +9,7 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 92%
    >
    >静的コレクションは自動的には更新されません。静的コレクションにオファーを追加するには、コレクションを編集し、手動で追加する必要があります。
 
-1. カスタムまたはコアのデータ使用ラベルを静的コレクションに割り当てるには、「 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御 (OLAC) の詳細](../../administration/object-based-access.md)
+1. カスタムデータ使用ラベルまたはコアデータ使用ラベルを静的コレクションに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../../administration/object-based-access.md)
 
 1. コレクションが作成されると、リストに表示されます。選択して編集または削除できます。
 

@@ -10,7 +10,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 951799a9986e4fd293f282ecf82496e5e7f2da9e
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 94%
 
 ## 同意とデータガバナンス {#privacy}
 
-Journey Optimizerでは、カスタムアクションにデータガバナンスと同意ポリシーを適用して、特定のフィールドがサードパーティのシステムに書き出されないようにしたり、E メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外したりできます。 詳しくは、次のページを参照してください。
+Journey Optimizer では、カスタムアクションにデータガバナンスポリシーと同意ポリシーを適用して、特定のフィールドがサードパーティシステムにエクスポートされないようにしたり、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外したりできます。詳しくは、次のページを参照してください。
 
-* [データガバナンス](../action/action.md).
+* [データガバナンス](../action/action.md)。
 * [同意](../action/action.md).
 
 

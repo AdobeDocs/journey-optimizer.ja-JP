@@ -1,6 +1,6 @@
 ---
 title: 動的コンテンツの基本を学ぶ
-description: 動的コンテンツの詳細を説明します
+description: 動的コンテンツの詳細情報
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: e98bde090129ad1c32662719911ec6a3e68f69d6
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 動的コンテンツの作成
-description: メッセージに動的なを追加する方法を説明します。
+description: メッセージに動的なコンテンツを追加する方法を説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Journey Optimizerでは、ライブラリで作成した条件付きルー
 
 1. を選択します。 **[!UICONTROL 条件]** メニューを使用して、使用可能な条件付きルールのリストを表示します。 ルールの横にある「+」ボタンをクリックして、現在の式に追加します。
 
-   また、新しいルールを作成するには、「 **[!UICONTROL 新規作成]**. [条件の作成方法を学ぶ](create-conditions.md)
+   また、新しいルールを作成するには、「 **[!UICONTROL 新規作成]**. [条件の作成方法についてはこちらから](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizerでは、ライブラリで作成した条件付きルー
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="条件付きコンテンツ"
->abstract="条件付きルールを使用して、コンテンツコンポーネントの複数のバリアントを作成します。 メッセージの送信時にどの条件も満たされない場合は、デフォルトバリアントのコンテンツが表示されます。"
+>abstract="条件付きルールを使用して、コンテンツコンポーネントの複数のバリアントを作成します。 メッセージの送信時にどの条件も満たさなかった場合、デフォルトバリアントのコンテンツが表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
@@ -71,7 +71,7 @@ E メールデザイナーでコンテンツコンポーネントのバリアン
 
    ![](assets/conditions-select.png)
 
-   また、 **[!UICONTROL 新規作成]**. [条件の作成方法を学ぶ](create-conditions.md)
+   また、 **[!UICONTROL 新規作成]**. [条件の作成方法についてはこちらから](create-conditions.md)
 
 1. 条件付きルールはバリアントに関連付けられます。 可読性を高めるために、楕円メニューをクリックしてバリアントの名前を変更することをお勧めします。
 

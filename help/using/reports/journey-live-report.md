@@ -9,7 +9,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、ジャーニーの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](live-report.md#modify-dashboard)を参照してください。
 
-Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、 [このページ](live-report.md#list-of-components-live).
+Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](live-report.md#list-of-components-live)を参照してください。
 
 ## 「ジャーニー」タブ {#journey-live}
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ![](assets/journey_live_1.png)
 
-+++ジャーニーレポートで使用できる様々な指標およびウィジェットの詳細。
++++ジャーニーレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
 **[!UICONTROL ジャーニーのパフォーマンス]**&#x200B;を使用すると、ターゲットとするプロファイルのパスをジャーニーの初めから終わりまで段階的に表示できます。
 
@@ -63,7 +63,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ![](assets/journey_live_2.png)
 
-+++電子メールレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
++++メールレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
 **[!UICONTROL メール送信統計情報]**&#x200B;ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
 
@@ -118,7 +118,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ## 「プッシュ通知」タブ {#push-live}
 
-ジャーニーから **[!UICONTROL ライブレポート]**、 **[!UICONTROL プッシュ通知]** 「 」タブには、ジャーニーで送信されるプッシュ配信に関する主な情報の詳細が表示されます。
+ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ通知]**」タブには、ジャーニーで送信されたプッシュ配信に関連する主な情報の詳細が表示されます。
 
 ![](assets/journey_live_3.png)
 

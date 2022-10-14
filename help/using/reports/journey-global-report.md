@@ -9,13 +9,13 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1977'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # ジャーニーグローバルレポート {#journey-global-report}
 
-ジャーニーのグローバルレポートは、 **[!UICONTROL レポートを表示]** 」ボタンをクリックします。
+「**[!UICONTROL グローバルレポート]**」ボタンで、ジャーニーのグローバルレポートにジャーニーから直接アクセスします。
 
 ![](assets/report_journey.png)
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 
 ジャーニーの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、ジャーニーの成功とエラーについて説明する様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](global-report.md#modify-dashboard)を参照してください。
 
-Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、 [このページ](global-report.md#list-of-components-global).
+Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](global-report.md#list-of-components-global)を参照してください。
 
 ## 「ジャーニー」タブ {#journey-global}
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ![](assets/journey_global_1.png)
 
-+++ジャーニーレポートで使用できる様々な指標およびウィジェットの詳細。
++++ジャーニーレポートで使用できる様々な指標およびウィジェットの詳細情報。
 
 **[!UICONTROL ジャーニーのパフォーマンス]**&#x200B;ウィジェットを使用すると、ターゲットプロファイルのパスを、ジャーニーを通じて段階的に確認できます。
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ![](assets/journey_global_2.png)
 
-+++電子メールレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
++++メールレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
 **[!UICONTROL メール送信統計]**&#x200B;グラフは、配信の成功の詳細を示します。
 
@@ -176,7 +176,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ## 「プッシュ通知」タブ {#push-global}
 
-ジャーニーから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL プッシュ通知]** 「 」タブには、ジャーニーで送信されるプッシュ配信に関する主な情報の詳細が表示されます。
+ジャーニーの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL プッシュ通知]**」タブには、ジャーニーで送信されるプッシュ配信に関連する主な情報が詳しく表示されます。
 
 ![](assets/journey_global_3.png)
 

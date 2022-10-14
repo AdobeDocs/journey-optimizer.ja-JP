@@ -9,7 +9,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 82%
+ht-degree: 97%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="構造コンポーネントについて"
->abstract="構造コンポーネントは、ランディングページのレイアウトを定義します。"
+>abstract="構造コンポーネントはランディングページのレイアウトを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="構造コンポーネントについて"
->abstract="構造コンポーネントは、フラグメントのレイアウトを定義します。"
+>abstract="構造コンポーネントはフラグメントのレイアウトを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="構造コンポーネントについて"
->abstract="構造コンポーネントは、テンプレートのレイアウトを定義します。"
+>abstract="構造コンポーネントはテンプレートのレイアウトを定義します。"
 
 
 >[!CONTEXTUALHELP]
@@ -44,17 +44,17 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="ランディングページ列の定義"
->abstract="E メールデザイナーを使用すると、列構造を定義することで、ランディングページのレイアウトを簡単に定義できます。"
+>abstract="電子メールデザイナーを使用すると、列構造を定義することで、ランディングページのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="フラグメント列の定義"
->abstract="E メールデザイナーを使用すると、列構造を定義することで、フラグメントのレイアウトを簡単に定義できます。"
+>abstract="電子メールデザイナーを使用すると、列構造を定義することで、フラグメントのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="テンプレート列の定義"
->abstract="E メールデザイナーを使用すると、列構造を定義することで、テンプレートのレイアウトを簡単に定義できます。"
+>abstract="電子メールデザイナーを使用すると、列構造を定義することで、テンプレートのレイアウトを簡単に定義できます。"
 
 
 E メールデザイナーを使用すると、メールの構造を簡単に定義できます。単純なドラッグ＆ドロップ操作で構造要素を追加したり移動したりして、メールの形を数秒でデザインすることができます。

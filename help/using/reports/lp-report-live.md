@@ -9,7 +9,7 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 ランディングページの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;には、過去 24 時間にわたるランディングページの影響についての詳細が表示されます。選択した期間のランディングページデータを測定するには、[ランディングページのグローバルレポート](lp-report-global.md)を参照してください。
 
-レポートにアクセスするには、 **[!UICONTROL レポート]** を選択します。
+レポートにアクセスするには、選択したランディングページの詳細メニューから「**[!UICONTROL レポート]**」を選択します。
 
 ![](assets/landing_page_report.png)
 
@@ -52,4 +52,4 @@ ht-degree: 87%
 **[!UICONTROL チャネル別の訪問回数]**／**[!UICONTROL チャネル別のコンバージョン数]**のグラフは、チャネルに応じて過去 24 時間にランディングページで正常にインタラクションを起こした訪問回数とユーザー数の合計を表します。
 +++
 
-Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、 [このページ](live-report.md#list-of-components-live).
+Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](live-report.md#list-of-components-live)を参照してください。
