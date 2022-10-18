@@ -2,9 +2,9 @@
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2005'
 ht-degree: 99%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 99%
 ## 2022年6月 {#june-2022}
 
 * [!DNL Journey Optimizer] の 2022年6月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* データ使用ポリシーに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/policies.md)
 * プライバシーリクエストに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/requests.md)
 * リソースの監査ログに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/audit-logs.md)
 * Adobe Experience Cloud アセットライブラリからオファー表示域に HTML または JSON コンテンツを追加する方法に関する新しい節がドキュメントに追加されました。[詳細情報](../offers/offer-library/add-representations.md#html-json)

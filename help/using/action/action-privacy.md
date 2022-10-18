@@ -6,9 +6,9 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f2f55f42739509c50223d01e25fb1f16bf19a0de
-workflow-type: ht
-source-wordcount: '867'
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+workflow-type: tm+mt
+source-wordcount: '922'
 ht-degree: 100%
 
 ---
@@ -25,6 +25,12 @@ Data Usage Labeling and Enforcement（DULE）ガバナンスフレームワー�
 Adobe Experience Platform では、フィールドにラベルを付け、各チャネルのマーケティングアクションを作成できます。次に、ラベルとマーケティングアクションにリンクされたガバナンスポリシーを定義します。
 
 Journey Optimizer では、これらのポリシーをカスタムアクションに適用して、特定のフィールドがサードパーティのシステムに書き出されることを防ぎます。
+
+データガバナンスのフレームワークと、ラベルおよびポリシーの使用方法について詳しくは、次の Adobe Experience Platform ドキュメントを参照してください。
+
+* [データガバナンスサービスの概要](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja)
+* [データ使用ラベルの概要](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ja)
+* [データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja)
 
 ## 重要な注意事項 {#important-notes}
 

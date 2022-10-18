@@ -2,10 +2,10 @@
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 93%
+source-wordcount: '1101'
+ht-degree: 89%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 93%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に登録すると、最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどが、四半期ごとに受信トレイに直接配信されます。
+
+
+## 2022年10月 {#oct-2022-release}
+
+### 機能強化{#oct-2022-improvements}
+
+**ジャーニー**
+
+* この **繰り返し時に再入力を強制** オプションが、繰り返しのセグメント読み取りスケジュールパラメーターに追加されました。 このオプションを使用すると、ジャーニーに存在するすべてのプロファイルを、次回の実行時に自動的に終了させることができます。 このオプションを無効にした場合、プロファイルは、別のオカレンスに再入場する前にジャーニーを完了する必要があります。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 ## 2022年9月リリース{#sept-2022-release}
 

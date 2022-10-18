@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 96%
 
 ---
@@ -439,7 +439,6 @@ ht-degree: 96%
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
 + プライバシー {#privacy}
-   + [データ使用ポリシー](using/privacy/policies.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
    + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + 同意の管理 {#consent}
