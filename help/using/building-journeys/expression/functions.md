@@ -1,12 +1,13 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: 関数
 description: 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 4aa710dfa4f24cf9491e3dd5c57603b8e29fd990
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%

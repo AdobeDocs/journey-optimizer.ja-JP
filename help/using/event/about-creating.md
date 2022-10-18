@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 単一イベントの設定
 description: 単一イベントの構成方法を学ぶ
 feature: Events
@@ -6,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 100%

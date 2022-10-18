@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ジャーニーの基本を学ぶ
 description: Adobe Journey Optimizer で最初のジャーニーを作成するための主な手順
 feature: Journeys
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
-workflow-type: ht
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 100%
 

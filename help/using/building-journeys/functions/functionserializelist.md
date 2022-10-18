@@ -1,12 +1,12 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: serializeList
 description: serializeList 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%

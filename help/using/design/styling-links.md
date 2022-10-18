@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 feature: Overview
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%

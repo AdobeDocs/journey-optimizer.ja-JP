@@ -1,9 +1,11 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer の基本を学ぶ（システム管理者向け）
 description: システム管理者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%

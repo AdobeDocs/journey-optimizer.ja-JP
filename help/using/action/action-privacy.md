@@ -1,12 +1,13 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: データガバナンス
 description: データガバナンス
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 100%

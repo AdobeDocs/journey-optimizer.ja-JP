@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ランディングページの基本を学ぶ
 description: Journey Optimizer のランディングページについて学ぶ
 feature: Landing Pages
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%

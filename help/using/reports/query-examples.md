@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: クエリの例
 description: クエリの例
 feature: Reporting
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '1339'
 ht-degree: 100%
 

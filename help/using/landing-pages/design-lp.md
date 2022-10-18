@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ランディングページの作成
 description: Journey Optimizer でランディングページのコンテンツを作成する方法を説明します。
 feature: Landing Pages
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 61fcf519ca2ce241e292a86707e5ce987835a07c
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

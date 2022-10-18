@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ジャーニーでのメッセージの追加
 description: ジャーニーでメッセージを追加する方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 92%

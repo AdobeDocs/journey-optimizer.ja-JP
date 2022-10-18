@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ランディングページでのカスタム JavaScript の使用
 description: Journey Optimizer でランディングページのコンテンツを作成する方法を説明します。
 feature: Landing Pages
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%

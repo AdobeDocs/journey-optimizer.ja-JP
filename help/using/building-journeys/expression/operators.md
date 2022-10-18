@@ -1,12 +1,13 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: 演算子
 description: 高度な式で使用できる演算子について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%

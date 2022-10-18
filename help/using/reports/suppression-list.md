@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 抑制リスト
-description: 抑制リストの内容、目的、および含まれる内容について説明します。
+description: 抑制リストの使用方法を学ぶには、次の手順を実行します。
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
+source-wordcount: '765'
+ht-degree: 98%
 
 ---
 

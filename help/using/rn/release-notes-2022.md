@@ -1,9 +1,11 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 100%
 

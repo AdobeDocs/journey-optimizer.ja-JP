@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ランディングページの作成
 description: Journey Optimizer でランディングページを設定して公開する方法を学ぶ
 feature: Landing Pages
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 100%
 
@@ -93,7 +95,7 @@ ht-degree: 100%
 >title="ランディングページ URL の定義"
 >abstract="このセクションでは、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html?lang=ja" text="ランディングページのサブドメインの設定"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=ja#lp-create-preset" text="ランディングページプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットを作成"
 
 プライマリページとは、メールや web サイトなど、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。
 
@@ -155,14 +157,14 @@ ht-degree: 100%
 >id="ajo_lp_subpage"
 >title="サブページ設定の定義"
 >abstract="最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="ランディングページのコンテンツのデザイン"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="ランディングページのコンテンツのデザイン"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
 >title="ランディングページ URL の定義"
 >abstract="このセクションでは、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html?lang=ja" text="ランディングページのサブドメインの設定"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=ja#lp-create-preset" text="ランディングページプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="ランディングページのサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットを作成"
 
 最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。
 

@@ -1,10 +1,12 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: プッシュ通知の設定
 description: Journey Optimizer でプッシュ通知を送信するように環境を設定する方法を説明します
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 100%

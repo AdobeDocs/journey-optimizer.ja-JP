@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: サブドメインのデリゲート
 description: サブドメインのデリゲート方法を説明します。
 feature: Application Settings
@@ -6,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 100%

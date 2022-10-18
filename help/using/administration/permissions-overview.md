@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ユーザー管理の概要
-description: 権限の詳細
+description: 権限の定義と管理方法について説明します
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 96%
 
 ---
 

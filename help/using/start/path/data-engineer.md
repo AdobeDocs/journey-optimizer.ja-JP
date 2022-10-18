@@ -1,9 +1,11 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer の基本を学ぶ（データエンジニア向け）
 description: データエンジニア向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%

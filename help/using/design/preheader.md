@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer でのプリヘッダーの追加
 description: メールコンテンツのデザイン方法について学ぶ
 feature: Overview
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%

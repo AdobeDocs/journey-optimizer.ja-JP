@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: セグメントの選定イベント
 description: セグメントの選定イベントについて学ぶ
 feature: Journeys
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
-workflow-type: ht
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 100%
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 送信時間の最適化
 description: メッセージで送信時間の最適化をパラメーター化する方法を学ぶ
 feature: Journeys
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%

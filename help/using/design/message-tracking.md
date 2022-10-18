@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: メッセージのトラッキング
 description: リンクを追加し送信済みメッセージをトラッキングする方法を説明します
 feature: Monitoring
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 

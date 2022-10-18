@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ジャーニーグローバルレポート
 description: ジャーニーのグローバルレポートのデータの利用方法を学ぶ
 feature: Reporting
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '1977'
 ht-degree: 100%
 

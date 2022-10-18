@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ジャーニーの終了
 description: ジャーニーの終了
 feature: Journeys
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
-workflow-type: ht
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 

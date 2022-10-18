@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ランディングページ固有のコンテンツの定義
 description: Journey Optimizer でランディングページ固有のコンテンツをデザインする方法を説明します
 feature: Landing Pages
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 100%
 

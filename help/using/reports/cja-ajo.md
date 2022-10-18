@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Customer Journey Analytics
 description: 使用の手引きCustomer Journey Analytics
 feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 7%

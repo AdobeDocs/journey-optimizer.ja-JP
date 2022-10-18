@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 購読リストの作成
 description: Journey Optimizer で購読リストを設定する方法を学ぶ
 feature: Landing Pages
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 61dac9f39ed0fc8f4403071049f14d34a43acbb4
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 

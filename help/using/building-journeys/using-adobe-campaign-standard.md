@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Campaign Standard のアクション
 description: Adobe Campaign Standard アクションについて学ぶ
 feature: Actions
@@ -6,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%

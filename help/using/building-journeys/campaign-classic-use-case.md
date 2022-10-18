@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Campaign v7／v8 を使用したメッセージの送信
 description: Campaign v7／v8 を使用したメッセージの送信方法を学ぶ
 feature: Actions
@@ -6,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%

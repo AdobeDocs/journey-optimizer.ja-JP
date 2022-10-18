@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ランディングページテンプレートの操作
 description: ランディングページをテンプレートとして保存し、Journey Optimizer で再利用する方法を説明します
 feature: Landing Pages
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%

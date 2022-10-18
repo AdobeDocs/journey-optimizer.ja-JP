@@ -1,12 +1,14 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer リソースに対する監査アクション
 description: Journey Optimizer リソースで実行されたアクションを追跡する方法について説明します。
 feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 

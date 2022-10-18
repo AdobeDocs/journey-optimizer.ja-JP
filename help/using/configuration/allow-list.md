@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 許可リスト
-description: 許可リストの使用方法を説明します。
+description: 許可リスト
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 

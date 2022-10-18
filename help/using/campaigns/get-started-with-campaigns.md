@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: キャンペーンの基本を学ぶ
 description: キャンペーンについて詳しくは、 [!DNL Journey Optimizer] で説明します。
 feature: Overview
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5a33508759d527a76dd7119102358ae345107652
-workflow-type: ht
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 

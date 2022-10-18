@@ -1,12 +1,12 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: limit
 description: 関数 limit について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%

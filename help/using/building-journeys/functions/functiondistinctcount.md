@@ -1,12 +1,12 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: distinctCount
 description: distinctCount 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 100%

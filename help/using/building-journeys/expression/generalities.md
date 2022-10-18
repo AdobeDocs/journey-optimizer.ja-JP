@@ -1,12 +1,13 @@
 ---
-product: Journey Optimizer
+solution: Journey Optimizer
+product: journey optimizer
 title: 構文
 description: 高度な式エディターについて学ぶ
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%

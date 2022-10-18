@@ -1,12 +1,12 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: listSize
 description: listSize 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 100%

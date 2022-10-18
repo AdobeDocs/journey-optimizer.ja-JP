@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 頻度ルール
 description: 頻度ルールの定義方法を学ぶ
 feature: Overview
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
-workflow-type: ht
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 

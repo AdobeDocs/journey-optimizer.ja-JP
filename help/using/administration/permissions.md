@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ユーザーと製品プロファイルの管理
 description: 権限の管理方法を学ぶ
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
@@ -6,7 +8,7 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%

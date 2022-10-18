@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 購読ライブレポート
 description: 購読ライブレポートで購読サービスのデータを使用する方法を学ぶ
 feature: Journeys
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 

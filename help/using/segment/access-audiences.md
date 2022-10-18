@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: オーディエンスへのアクセスと管理
 description: オーディエンスにアクセスして管理する方法を説明します
 feature: Journeys
@@ -7,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 10%

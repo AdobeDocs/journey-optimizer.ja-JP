@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: プロファイルの更新
 description: 「プロファイルを更新」アクティビティをジャーニーで使用する方法を学ぶ
 feature: Journeys
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%

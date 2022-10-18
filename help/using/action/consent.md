@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: 同意ポリシーの使用
 description: Adobe Experience Platformの同意ポリシーの操作方法を説明します
 feature: Actions
@@ -7,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 98%

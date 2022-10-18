@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 抑制リストの管理
 description: Journey Optimizer 抑制リストにアクセスして管理する方法を学ぶ
 feature: Application Settings
@@ -6,8 +8,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
-workflow-type: ht
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 100%
 
