@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 3d0d1b7d092ffae48ded337d5a1b14a5f5c4653b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Experience Platform のアラートについて詳しくは、[ドキュ�
 
 ![](assets/alerts2.png)
 
-[Platform UI でアラートルールを表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)すると、各ルールを個別に登録できます。ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。セグメントの読み取りアラートに対応する I/O イベントサブスクリプション名は、「ジャーニーのセグメントの読み取りの遅延、失敗およびエラー」です。
+[Platform UI でアラートルールを表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)すると、各ルールを個別に登録できます。ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。セグメントの読み取りアラートに対応する I/O イベントサブスクリプション名は、「ジャーニーのセグメントの読み取りの遅延、失敗およびエラー」です。
 
 >[!WARNING]
 >
