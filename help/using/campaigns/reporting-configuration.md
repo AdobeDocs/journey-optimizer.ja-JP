@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >選択できるのは、次のサポートされている[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}のうち少なくとも 1 つを含むイベントタイプのデータセットのみです：**アプリケーションの詳細**、**コマースの詳細**、**web の詳細**。これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
+   >選択できるのは、次のサポートされている[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target=&quot;_blank&quot;}のうち少なくとも 1 つを含むイベントタイプのデータセットのみです：**アプリケーションの詳細**、**コマースの詳細**、**web の詳細**。これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
 
    ![](assets/reporting-config-datasets.png)
 
