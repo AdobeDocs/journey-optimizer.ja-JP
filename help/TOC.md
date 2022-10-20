@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1188'
 ht-degree: 96%
 
 ---
@@ -399,6 +399,7 @@ ht-degree: 96%
             + [再試行](using/configuration/retries.md)
             + [許可リスト](using/configuration/allow-list.md)
       + [SMS チャネルの設定](using/configuration/sms-configuration.md)
+      + [ダイレクトメールの設定](using/configuration/direct-mail-configuration.md)
       + チャネルサーフェスの設定 {#set-up-channels}
          + [チャネルサーフェスの作成](using/configuration/channel-surfaces.md)
          + [メール設定](using/configuration/email-settings.md)
