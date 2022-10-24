@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
-      + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
-      + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
-      + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
-      + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
+      + ビジネスの使用例 {#business-use-cases}
+         + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
+         + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
+         + [購読者へのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
+      + 技術的な使用例 {#technical-use-cases}
+         + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
+         + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [外部データソースとカスタムアクションでのスループットの制限](using/building-journeys/limit-throughput.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの概要](using/reports/live-report.md)

@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 99%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 99%
 
 ## 2022年10月 {#october-2022}
 
+* 外部データソースとカスタムアクションを使用してスループットを制限する方法に関するジャーニーの使用例が追加されました。 [詳細情報](../building-journeys/limit-throughput.md)
+* ジャーニーの使用例の節が、次の 2 つのカテゴリに再編成されました。 [ビジネスの使用例](../building-journeys/journeys-uc.md) および [技術的な使用例](../building-journeys/collections.md).
+* この **エンティティデータセット** の節が更新され、詳細が追加されました。 [詳細情報](../start/datasets-query-examples.md#entity-dataset)
 * オプトアウト管理および同意ポリシーに関する情報が、新しい節に再編成されました。 [詳細情報](../privacy/opt-out.md)
 
 ## 2022年9月 {#september-2022}
