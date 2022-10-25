@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 95%
+source-wordcount: '1222'
+ht-degree: 94%
 
 ---
 
@@ -53,6 +53,12 @@ ht-degree: 95%
    + [ダイレクトメールの作成](using/messages/create-direct-mail.md)
    + [アラートの確認](using/messages/alerts.md)
    + [送信時間の最適化](using/messages/send-time-optimization.md)
++ Web チャネル{#web}
+   + [Web チャネルの概要](using/web/get-started-web.md)
+   + [Web エクスペリエンスの作成](using/web/create-web.md)
+   + [Web ページの作成](using/web/author-web.md)
+   + [Visual Editing Helper 拡張機能](using/web/visual-editing-helper.md)
+   + [Web レポート](using/web/web-report.md)
 + コンテンツのデザイン {#design}
    + [メールデザインの基本を学ぶ](using/design/design-emails.md)
    + [ゼロからの開始 ](using/design/create-email-content.md)
