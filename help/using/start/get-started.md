@@ -11,7 +11,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 
 ## アーキテクチャ {#architecture}
 
-の基本的なアーキテクチャの理解 [!DNL Adobe Journey Optimizer]、統合のポイントおよび [!DNL Journey Optimizer] および [!DNL Experience Platform]を次の図に示します。
+下の図で、[!DNL Adobe Journey Optimizer] の基本的なアーキテクチャ、統合のポイントおよび [!DNL Journey Optimizer] と [!DNL Experience Platform] との関係について説明します。
 
 ![](assets/ajo-architecture.png)
 

@@ -8,7 +8,7 @@ exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 1. **セグメントを作成**&#x200B;します。Journey Optimizer では、**セグメント**&#x200B;メニューから直接オーディエンスセグメントを作成し、それらをジャーニーに活用できます。セグメントについて詳しくは、[このページ](../../segment/about-segments.md)を参照してください。セグメントを作成する方法については、[このサンプル ](../../segment/creating-a-segment.md)を参照してください。
 
-1. **パーソナライゼーションと動的コンテンツの追加**. Journey Optimizerのパーソナライゼーションおよび動的コンテンツ機能を活用して、メッセージをオーディエンスに合わせて調整します。 詳細情報： [パーソナライズ](../../personalization/personalize.md) および [動的コンテンツ](../../personalization/get-started-dynamic-content.md).
+1. **パーソナライズ機能と動的コンテンツを追加します**。Journey Optimizer のパーソナライズ機能と動的コンテンツ機能を活用して、メッセージをオーディエンスに合わせます。[パーソナライズ機能](../../personalization/personalize.md)と[動的コンテンツ](../../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
 
    ![](../assets/perso_ee2.png)
 

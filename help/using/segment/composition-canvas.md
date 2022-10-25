@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -181,6 +181,6 @@ Adobe Experience Platformに保存する結果のオーディエンスを設定�
 
 詳細情報:
 
-* [オーディエンス構成の基本を学ぶ](get-started-audience-orchestration.md)
-* [合成ワークフローの作成](create-compositions.md)
+* [オーディエンス作成の基本を学ぶ](get-started-audience-orchestration.md)
+* [コンポジションワークフローの作成](create-compositions.md)
 * [オーディエンスへのアクセスと管理](access-audiences.md)

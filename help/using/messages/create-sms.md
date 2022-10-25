@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->業界標準と規制に従い、すべての SMS マーケティングメッセージには、受信者が簡単に購読解除できる方法を含める必要があります。 これをおこなうには、SMS 受信者は、オプトインおよびオプトアウトのキーワードを使用して返信できます。 [オプトアウトの管理方法の詳細](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>業界標準および規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。これをおこなうには、SMS 受信者は、オプトインおよびオプトアウトのキーワードを使用して返信できます。 [オプトアウトの管理方法の詳細](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 SMS 配信を作成するには、次の手順を実行します。
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -127,9 +127,9 @@ ht-degree: 94%
       + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
       + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
-   + オーディエンスを作成 {#audience-orchestration}
-      + [オーディエンス構成の基本を学ぶ](using/segment/get-started-audience-orchestration.md)
-      + [合成ワークフローの作成](using/segment/create-compositions.md)
+   + オーディエンスの作成 {#audience-orchestration}
+      + [オーディエンス作成の基本を学ぶ](using/segment/get-started-audience-orchestration.md)
+      + [コンポジションワークフローの作成](using/segment/create-compositions.md)
       + [コンポジションキャンバスの操作](using/segment/composition-canvas.md)
       + [オーディエンスへのアクセスと管理](using/segment/access-audiences.md)
    + [ライセンス使用状況](using/segment/license-usage.md)
@@ -285,7 +285,7 @@ ht-degree: 94%
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リストについて](using/reports/suppression-list.md)
    + [アラート](using/reports/alerts.md)
-   + [Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [Customer Journey Analytics との連携](using/reports/cja-ajo.md)
 + 意志決定管理 {#offer-decisioning}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
@@ -453,5 +453,5 @@ ht-degree: 94%
    + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + 同意の管理 {#consent}
       + [オプトアウトの管理](using/privacy/opt-out.md)
-      + [同意ポリシーの使用](using/action/consent.md)
+      + [同意ポリシーの連携](using/action/consent.md)
    + [データガバナンス](using/action/action-privacy.md)

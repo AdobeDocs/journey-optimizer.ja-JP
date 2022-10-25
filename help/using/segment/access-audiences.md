@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 10%
+ht-degree: 23%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 10%
 
 詳細情報:
 
-* [オーディエンス構成の基本を学ぶ](get-started-audience-orchestration.md)
-* [合成ワークフローの作成](create-compositions.md)
+* [オーディエンス作成の基本を学ぶ](get-started-audience-orchestration.md)
+* [コンポジションワークフローの作成](create-compositions.md)
 * [コンポジションキャンバスの操作](composition-canvas.md)

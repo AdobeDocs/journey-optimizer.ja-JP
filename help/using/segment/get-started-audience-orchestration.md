@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: オーディエンス構成の基本を学ぶ
+title: オーディエンス作成の基本を学ぶ
 description: オーディエンスの構成の詳細を説明します
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
-# オーディエンス構成の基本を学ぶ {#get-start-audience-composition}
+# オーディエンス作成の基本を学ぶ {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -55,6 +55,6 @@ ht-degree: 3%
 
 詳細情報:
 
-* [合成ワークフローの作成](create-compositions.md)
+* [コンポジションワークフローの作成](create-compositions.md)
 * [コンポジションキャンバスの操作](composition-canvas.md)
 * [オーディエンスへのアクセスと管理](access-audiences.md)

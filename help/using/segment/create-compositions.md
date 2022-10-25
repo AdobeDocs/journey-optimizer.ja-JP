@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 合成ワークフローの作成
+title: コンポジションワークフローの作成
 description: 合成ワークフローを作成して、既存のオーディエンスを組み合わせ、整理する方法を説明します。
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# 合成ワークフローの作成 {#create-compositions}
+# コンポジションワークフローの作成 {#create-compositions}
 
 合成ワークフローを使用すると、既存のオーディエンスを組み合わせて配置し、新しいオーディエンスを作成できます。
 
@@ -80,6 +80,6 @@ ht-degree: 2%
 
 詳細情報:
 
-* [オーディエンス構成の基本を学ぶ](get-started-audience-orchestration.md)
+* [オーディエンス作成の基本を学ぶ](get-started-audience-orchestration.md)
 * [コンポジションキャンバスの操作](composition-canvas.md)
 * [オーディエンスへのアクセスと管理](access-audiences.md)

@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>動的コンテンツおよび新しい条件付きルールビルダー</strong><br/></th>
+<th><strong>動的コンテンツと新規条件付きルールビルダー</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>動的コンテンツを作成して、条件ルールに基づいてメッセージのコンテンツを適応させることができるようになりました。</p> 
-<p>条件ルールは、式エディター内のビジュアルなルールビルダーを使用して作成されます。このビジュアルなルールを保存することで、ジャーニーやキャンペーンでさらに再利用できます。</p>
+<p>動的コンテンツを作成して、条件ルールに基づいてメッセージのコンテンツを適応させられるようになりました。</p> 
+<p>条件ルールは、式エディター内のビジュアルルールビルダーで作成し、ジャーニーやキャンペーンで後から再利用するために保存できます。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
 <p>詳しくは、<a href="../personalization/get-started-dynamic-content.md">詳細なドキュメント</a>を参照してください。
 </td>
@@ -182,7 +182,7 @@ ht-degree: 89%
 
 **管理**
 
-* 許可リストをアクティブ化または非アクティブ化する際に、新しい警告が表示されて、各アクションの影響の詳細を確認できます。 [詳細情報](../configuration/allow-list.md#enable-allow-list)
+* 許可リストをアクティブ化または非アクティブ化すると、新しい警告が表示され、各アクションの影響の詳細を確認できるようになりました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * チャネルサーフェスの作成、IP プールの作成、抑制リストと許可リストの管理、SMS チャネルの設定を行うためのユーザーインターフェイスが更新されました。
 * 指定したサブドメインに対して最初のチャネルサーフェスを作成する場合、処理時間は 10 分から 10 日かかり、そのサブドメインを使用する後続のサーフェスに対しては最大 3 時間かかります。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 
