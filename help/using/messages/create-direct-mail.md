@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 9%
@@ -30,6 +30,7 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >ダイレクトメールメッセージを送信する前に、次の設定が完了していることを確認します。
+>
 >* A [ファイルルーティング設定](../configuration/direct-mail-configuration.md#file-routing-configuration) 抽出ファイルをアップロードして保存するサーバーを指定します。
 >* A [ダイレクトメールメッセージサーフェス](../configuration/direct-mail-configuration.md#direct-mail-surface) ファイルルーティング設定を参照する
 

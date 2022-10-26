@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 1%
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 1%
 
 直感的なビジュアルインターフェイスを通じて、この機能を使用して Web プロパティを簡単に変更し、エンドユーザーキャンペーンを実験、最適化、パーソナライズできます。
 
-<!-->
-➡️ [Web チャネルについて詳しくは、このビデオを参照してください。](#video)
-—>
+<!--
+[Learn more on web channel in this video](#video)
+-->
 
 <table>
 <tr>
@@ -42,10 +42,10 @@ ht-degree: 1%
 </tr>
 </table>
 
-<!-->
-## ハウツービデオ{#video}
+<!--
+## How-to video{#video}
 
-以下のビデオでは、
+The video below shows how to 
 
 >[!VIDEO]()
-—>
+-->

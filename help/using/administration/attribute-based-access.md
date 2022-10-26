@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ ABAC で使用される用語の詳細なリストについては、[Adobe Exper
 >役割の権限を管理する前に、まずポリシーを作成する必要があります。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja)を参照してください。
 
 **[!UICONTROL 役割]**&#x200B;は、組織内で同じ権限、ラベル、サンドボックスを共有するユーザーの集まりです。 ある&#x200B;**[!UICONTROL 役割]**に属する各ユーザーには、製品に含まれる Adobe のアプリとサービスに対する権限が付与されます。
-独自の**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトに対するユーザーのアクセスを微調整することもできます。
+独自の **[!UICONTROL 役割]** インターフェイス内の特定の機能やオブジェクトへのユーザーのアクセスを微調整する場合。
 
 ここでは、特定のユーザーに、「C2」というラベルの付いた&#x200B;**国籍**&#x200B;フィールドへのアクセス権を付与します。これを行うには、特定のユーザーの集まりで新しい&#x200B;**[!UICONTROL 役割]**&#x200B;を作成し、C2 ラベルを付与して、**[!UICONTROL ジャーニー]**&#x200B;の&#x200B;**国籍**&#x200B;詳細を使用できるようにする必要があります。
 
@@ -127,7 +127,7 @@ ABAC で使用される用語の詳細なリストについては、[Adobe Exper
 
    ![](assets/journey_1.png)
 
-1. 新しく作成した&#x200B;**[!UICONTROL スキーマ]**&#x200B;の新しい&#x200B;**[!UICONTROL フィールドグループ]**&#x200B;を組み込みの&#x200B;**[!UICONTROL データソース]**&#x200B;に追加します。また、新しい外部&#x200B;**[!UICONTROLDデータソース]**&#x200B;および関連する&#x200B;**[!UICONTROL フィールドグループ]**&#x200B;を作成することもできます。
+1. 新しく作成した&#x200B;**[!UICONTROL スキーマ]**&#x200B;の新しい&#x200B;**[!UICONTROL フィールドグループ]**&#x200B;を組み込みの&#x200B;**[!UICONTROL データソース]**&#x200B;に追加します。また、新しい外部&#x200B;**[!UICONTROL データソース]**&#x200B;および関連する&#x200B;**[!UICONTROL フィールドグループ]**&#x200B;を作成することもできます。
 
    ![](assets/journey_2.png)
 

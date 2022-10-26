@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 99%
@@ -216,18 +216,18 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 1. このクエリを実行すると、過去 30 日以内に BCC エントリが存在するにもかかわらずメッセージを受信しなかったすべての受信者アドレスを取得できます。
 
    ```
-   SELECT
-       DISTINCT 
-   bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddressesNotRecievedMessage
-   FROM ajo_bcc_feedback_event_dataset bcc
-   LEFT JOIN cjm_message_feedback_event_dataset mfe
-   ON 
+    SELECT
+        DISTINCT 
+    bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddressesNotRecievedMessage
+    FROM ajo_bcc_feedback_event_dataset bcc
+    LEFT JOIN cjm_message_feedback_event_dataset mfe
+    ON 
    bcc._experience.customerJourneyManagement.messageExecution.journeyVersionID =
-           mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AND    bcc._experience.customerJourneyManagement.messageExecution.journeyActionID = mfe._experience.customerJourneyManagement.messageExecution.journeyActionID AND 
+            mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AND    bcc._experience.customerJourneyManagement.messageExecution.journeyActionID = mfe._experience.customerJourneyManagement.messageExecution.journeyActionID AND 
    bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress = mfe._experience.customerJourneyManagement.emailChannelContext.address AND
    mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
    mfe._experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND
    mfe.timestamp > now() - INTERVAL '30' DAY AND
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
-   WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
+    WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```

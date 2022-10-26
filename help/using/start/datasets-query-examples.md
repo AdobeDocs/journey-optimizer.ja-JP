@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 82%
@@ -161,6 +161,7 @@ group by _experience.customerJourneyManagement.pushChannelContext.platform
 select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
+
 ## ジャーニーステップイベント{#journey-step-event}
 
 _内部名：ジャーニーステップイベント（システムデータセット）_

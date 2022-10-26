@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 13%
+source-wordcount: '400'
+ht-degree: 15%
 
 ---
 
@@ -26,7 +26,7 @@ Web エクスペリエンスをすばやく作成およびプレビューする�
 
 Visual Editing Helper ブラウザ拡張機能を取得してインストールするには、次の手順に従います。
 
-1. Google Chrome Web Store で、 [Adobe Experience Cloud Visual Editing Helper ]((https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}) ブラウザー拡張機能。
+1. Google Chrome Web Store で、 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} ブラウザー拡張機能。
 
 1. **[!UICONTROL Chrome に追加]**／**[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
 

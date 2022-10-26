@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
@@ -280,6 +280,7 @@ It includes the following low-level permissions:
 * Adobe Experience Platform specific: 
   * schemas.read
 -->
+
 ### [!DNL Manage channel surface] 権限 {#manage-channel-surface}
 
 「**[!DNL Manage channel surface]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの作成、編集および削除をサンドボックスレベルで行うことができます。

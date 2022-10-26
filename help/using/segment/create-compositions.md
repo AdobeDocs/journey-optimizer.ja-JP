@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 8%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 8%
 
    ![](assets/audiences-publish.png)
 
-1. 構成が完了したら、 [**!UICONTROL 公開]**ボタンをクリックして、構成を公開し、結果のオーディエンスをAdobe Experience Platformに保存します。
+1. 構成が完了したら、 **[!UICONTROL 公開]** ボタンをクリックして、構成を公開し、結果のオーディエンスをAdobe Experience Platformに保存します。
 
    公開中にエラーが発生した場合は、問題の解決方法に関する情報と共にアラートが表示されます。
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 2%
 
 1. 検索する属性を選択し、ランキング順（昇順または降順）を指定します。
 
-   >[注意]
+   >[!NOTE]
    >
    >次のデータ型を持つ属性を選択できます。整数、数値、短い <!--(other?)-->
 

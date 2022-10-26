@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
 
-### 表示されるオファーのシナリオ
+## 表示されるオファーのシナリオ
 
 **イベントタイプ：** `decisioning.propositionDisplay`
 **ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
@@ -49,8 +49,8 @@ ht-degree: 100%
                     "xdm:id": "personalized-offer:f67bab756ed6ee5",
                 }
             ],
-            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
-            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for "nextBestOffer"
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for "nextBestOffer"
         }
     ]
 }
