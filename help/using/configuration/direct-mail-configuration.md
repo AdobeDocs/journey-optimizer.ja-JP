@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="ファイルルーティング設定の設定を定義する"
->abstract="ダイレクトメールプロバイダーが使用するファイルの書き出し場所とアップロード先を定義する必要があります。"
+>abstract="ダイレクトメールメッセージを作成する際に、必要なプロファイル情報をすべて含んだファイルが生成されます。 このファイルは、ダイレクトメールプロバイダーがそのファイルにアクセスしてダイレクトメール配信に使用できるように、サーバーにエクスポートしてアップロードする必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="ファイルルーティング設定の設定を定義する"
->abstract="ダイレクトメールメッセージを作成する際に、必要なプロファイル情報をすべて含んだファイルが生成されます。 このファイルは、ダイレクトメールプロバイダーがそのファイルにアクセスしてダイレクトメール配信に使用できるように、サーバーにエクスポートしてアップロードする必要があります。"
+>abstract="ダイレクトメールプロバイダーが使用するファイルの書き出し場所とアップロード先を定義する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="ファイルルーティングのサーバータイプを選択"
->abstract="ダイレクトメールファイルのアップロードと保存に使用するサーバーを選択します。"
+>abstract="ダイレクトメールファイルのアップロードと保存に使用するサーバーを選択します。 現在、Amazon S3 と SFTP のみがサポートされています。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="AWS地域の選択"
->abstract="ダイレクトメールファイルのアップロードと保存に使用するサーバーを選択します。 現在、Amazon S3 と SFTP のみがサポートされています。"
+>abstract="ダイレクトメールファイルの書き出しおよびアップロードを行う地域を選択します。 最適な使用方法を得るには、クラウドインフラストラクチャをホストする最も近い地域を選択することをお勧めします。"
 
 1. 次にアクセス： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL ファイルルーティング設定]** > **[!UICONTROL ファイルルーティング]** メニュー、次に「 **[!UICONTROL ルーティング設定を作成]**.
 
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. 設定の名前を設定します。
 
-1. 設定を選択 **[!UICONTROL タイプ]**（ダイレクトメールファイルのアップロードと保存に使用するサーバー）。<!--why is it Type and not Server or Server type? asked to PM-->
+1. 設定を選択 **[!UICONTROL サーバータイプ]**（ダイレクトメールファイルのアップロードと保存に使用するサーバー）。
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ ht-degree: 3%
 
    ダイレクトメールメッセージを作成する際に、必要なプロファイル情報をすべて含んだファイルが生成されます。 このファイルは、ダイレクトメールプロバイダーがそのファイルにアクセスしてダイレクトメール配信に使用できるように、サーバーにエクスポートしてアップロードする必要があります。
 
-1. サーバーアドレス、アクセスキーなど、選択した設定タイプに固有の詳細と資格情報を入力します。 <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. サーバーアドレス、アクセスキーなど、選択した設定タイプに固有の詳細と資格情報を入力します。
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="ダイレクトメール設定の定義"
->abstract="ダイレクトメールサーフェスには、ダイレクトメール用のプロファイルデータを含むファイルの形式設定に関する設定が含まれています。 （並べ替え設定を定義）、重複行の削除、複数のファイルへのレコードの分割、ファイルルーティング設定の選択をおこなうことができます。"
+>abstract="ダイレクトメールサーフェスには、ダイレクトメール用のプロファイルデータを含むファイルの形式設定に関する設定が含まれています。 また、ファイルルーティング設定を選択して、ファイルの書き出し先を定義する必要があります。"
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="並べ替え順を定義"
->abstract="このオプションを選択した場合、プロファイル ID（昇順または降順）で並べ替えられます。 選択を解除すると、ジャーニーまたはキャンペーン内でダイレクトメールメッセージを作成する際に定義される並べ替え設定が変わります。"
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ ht-degree: 3%
    >
    >1 ～ 200,000 個のレコードの任意の数値を設定できます。つまり、各ファイルには少なくとも 1 つの行と 200,000 行以下の行を含める必要があります。
 
-1. 最後に、 [ファイルルーティング設定](#file-routing-configuration) 作成したものの中に含まれています。 これは、ダイレクトメールプロバイダーが使用できるように、ファイルの書き出しとアップロードを行う場所を定義します。
+1. 最後に、 **[!UICONTROL ファイルルーティング設定]** 作成したものの中に含まれています。 これは、ダイレクトメールプロバイダーが使用できるように、ファイルの書き出しとアップロードを行う場所を定義します。
 
    >[!CAUTION]
    >

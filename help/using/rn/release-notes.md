@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 95%
 **ジャーニー**
 
 * この **繰り返し時に再入力を強制** オプションが、繰り返しのセグメント読み取りスケジュールパラメーターに追加されました。 このオプションを使用すると、ジャーニーに存在するすべてのプロファイルを、次回の実行時に自動的に終了させることができます。 このオプションを無効にした場合、プロファイルは、別のオカレンスに再入場する前にジャーニーを完了する必要があります。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**キャンペーン**
+
+* これで、完了したキャンペーンと停止したキャンペーンをアーカイブできます。 [詳細情報](../campaigns/modify-stop-campaign.md#archive)
 
 ## 2022年9月リリース{#sept-2022-release}
 

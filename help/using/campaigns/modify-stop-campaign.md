@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 70%
 
 ---
 
-# ライブキャンペーンの管理 {#modify-stop-campaign}
+# キャンペーンの管理 {#modify-stop-campaign}
 
 キャンペーンがアクティブ化されると、いつでも変更または停止できます。これらの操作は、繰り返し実行されるキャンペーンでのみ使用できます。
 
-さらに、ライブキャンペーン（1 回だけ実行するもの、または繰り返し実行するもの）を複製して、新しいキャンペーンを作成できます。
+さらに、ライブキャンペーン（1 回実行するか、繰り返し実行する）を複製して新しいキャンペーンを作成し、完了したキャンペーンまたは停止したキャンペーンをアーカイブできます。
 
 ## 繰り返しキャンペーンの変更 {#modify}
 
@@ -58,3 +58,13 @@ ht-degree: 100%
 ライブキャンペーンを複製して、新しいキャンペーンを作成できます。これを行うには、キャンペーンを開き、「**[!UICONTROL 複製]**」をクリックします。
 
 ![](assets/create-campaign-duplicate.png)
+
+## キャンペーンのアーカイブ {#archive}
+
+時間が経過すると、キャンペーンのリストは増え続け、最終的には完了したキャンペーンと停止したキャンペーンを参照するのが難しくなります。
+
+これを防ぐには、不要になった完了済みおよび停止済みのキャンペーンをアーカイブします。 これをおこなうには、楕円ボタンをクリックし、「 **[!UICONTROL アーカイブ]**.
+
+![](assets/create-campaign-archive.png)
+
+アーカイブされたキャンペーンは、リスト内の専用フィルターを使用して取得できます。 [キャンペーンへのアクセス方法を説明します](get-started-with-campaigns.md#access)
