@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1045'
 ht-degree: 12%
 
 ---
@@ -40,7 +40,9 @@ Web ページにアクセスして [!DNL Journey Optimizer] ユーザーイン�
 
 Web エクスペリエンスが正しく配信されるようにするには、次の設定を定義する必要があります。
 
-* 内 [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target=&quot;_blank&quot;}。例えば、 **[!UICONTROL Adobe Experience Platform]** お客様の両方のサービス **[!UICONTROL エッジセグメント化]** および **[!UICONTROL Adobe Journey Optimizer]** オプションが有効です。 これにより、Journey OptimizerインバウンドイベントがAdobe Experience Platform Edge で正しく処理されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+* 内 [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target=&quot;_blank&quot;}。例えば、 **[!UICONTROL Adobe Experience Platform]** お客様の両方のサービス **[!UICONTROL エッジセグメント化]** および **[!UICONTROL Adobe Journey Optimizer]** オプションが有効です。
+
+   これにより、Journey OptimizerインバウンドイベントがAdobe Experience Platform Edge で正しく処理されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -49,6 +51,8 @@ Web エクスペリエンスが正しく配信されるようにするには、�
    >この **[!UICONTROL Adobe Journey Optimizer]** オプションは、 **[!UICONTROL エッジセグメント化]** オプションは既に有効になっています。
 
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}。 **[!UICONTROL エッジ上のアクティブな結合ポリシー]** オプションが有効です。 これをおこなうには、 **[!UICONTROL 顧客]** > **[!UICONTROL プロファイル]** > **[!UICONTROL 結合ポリシー]** Experience Platformメニュー。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+
+   この結合ポリシーは、次のユーザーが使用します： [!DNL Journey Optimizer] インバウンドチャネルを使用して、インバウンドキャンペーンを正しくアクティブ化し、公開することができます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-merge-policy.png)
 
