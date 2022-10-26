@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1441'
 ht-degree: 100%
 
 ---
@@ -433,3 +433,105 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
  </tbody> 
 </table>
 
+### プッシュ通知指標 {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 指標<br/> </th> 
+   <th> 定義<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>アクション<br/> </td> 
+   <td> 配信されたプッシュ通知に対するアクション（ボタンのクリックや解除など）の合計数。<br/> </td> 
+</tr>
+  <tr> 
+   <td>バウンス<br/> </td> 
+   <td> 送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> バウンス率<br/> </td> 
+   <td> 送信されたプッシュ通知と比較した、バウンスしたプッシュ通知の割合。<br/> </td>
+</tr>
+  <tr> 
+   <td> 配信済み<br/> </td> 
+   <td> 送信されたメッセージの総数に対する、正常に送信されたメッセージの数。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 配信率<br/> </td> 
+   <td> 正常に送信されたプッシュ通知の割合。<br/> </td> 
+</tr>
+  <tr> 
+   <td>エンゲージメント<br/> </td> 
+   <td> このプッシュ通知に対する開封数とアクション数（プロファイルによるプッシュの開封や、ボタンのクリックなど）の合計。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> エンゲージメント率<br/> </td> 
+   <td> このプッシュ通知の開封とアクションの割合（プロファイルによるプッシュの開封や、ボタンのクリックなど）。<br/> </td> 
+</tr>
+  <tr> 
+   <td> エラー<br/> </td> 
+   <td> 配信中に発生し、プロファイルに送信できなかったエラーの合計数。<br/> </td> 
+</tr>
+  <tr> 
+   <td> エラー率<br/> </td> 
+   <td> 送信済みのプッシュ通知に対する、配信中に発生して送信の妨げとなったエラーの割合。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 除外済み<br/> </td> 
+   <td> Adobe Journey Optimizer によって除外されたプロファイルの数。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 開封数<br/> </td> 
+   <td> デバイスに配信され、ユーザーがクリックしてアプリを起動したプッシュ通知の合計数。これは、プッシュクリックと似ていますが、通知が閉じられた場合にプッシュオープンがトリガーされない点が異なります。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 開封率<br/> </td> 
+   <td> 開封されたプッシュ通知の割合。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 送信済み<br/> </td> 
+   <td> 配信に対する送信の合計数。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> ターゲット<br/> </td> 
+   <td> 配信の分析中に処理されたプッシュメッセージの合計数。<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Click rate<br/> </td> 
+   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Dismiss rate<br/> </td> 
+   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->

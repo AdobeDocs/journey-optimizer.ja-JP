@@ -7,10 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Platform のアラートについて詳しくは、[ドキュ�
 
 ![](assets/alerts1.png)
 
-このような予期しない動作が発生した場合は、インターフェイスの右上隅にあるメールおよびアプリ内通知を通じて、アラートのサブスクライバーにアラート通知が送信されます。
+このような予期しない動作が発生した場合は、インターフェイスの右上隅にある電子メールを通じてアラートの購読者にアラート通知が送信されます。
 
 ![](assets/alerts2.png)
 

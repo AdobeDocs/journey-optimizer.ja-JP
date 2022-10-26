@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 97%
+source-wordcount: '1242'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,12 @@ ht-degree: 97%
    + [Web ページの作成](using/web/author-web.md)
    + [Visual Editing Helper 拡張機能](using/web/visual-editing-helper.md)
    + [Web レポート](using/web/web-report.md)
++ アプリ内チャネル{#in-app}
+   + [アプリ内チャネルの概要](using/in-app/get-started-in-app.md)
+   + [アプリ内チャネルの設定](using/in-app/inapp-configuration.md)
+   + [アプリ内メッセージの作成](using/in-app/create-in-app.md)
+   + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
+   + [アプリ内レポート](using/in-app/inapp-report.md)
 + コンテンツのデザイン {#design}
    + [メールデザインの基本を学ぶ](using/design/design-emails.md)
    + [ゼロからの開始 ](using/design/create-email-content.md)
