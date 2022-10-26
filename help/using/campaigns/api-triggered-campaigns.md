@@ -4,7 +4,7 @@ product: journey optimizer
 title: API を使用したキャンペーンのトリガー
 description: ' [!DNL Journey Optimizer] API を使用してキャンペーンをトリガーする方法を説明します'
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 92%
@@ -75,7 +75,9 @@ API トリガーキャンペーンを使用すると、追加のデータを API
 
 >[!IMPORTANT]
 >
->`context.system` 構文はアドビ内部での使用のみに制限されているので、コンテキスト属性を渡すために使用しないでください。なお、現時点では、左側のパネルメニューで使用できるコンテキスト属性はありません。 属性はパーソナライゼーション式に直接入力する必要がありますが、[!DNL Journey Optimizer] によるチェックは行われません。
+>`context.system` 構文はアドビ内部での使用のみに制限されているので、コンテキスト属性を渡すために使用しないでください。
+
+なお、現時点では、左側のパネルメニューで使用できるコンテキスト属性はありません。 属性はパーソナライゼーション式に直接入力する必要がありますが、[!DNL Journey Optimizer] によるチェックは行われません。
 
 ## キャンペーンの実行 {#execute}
 
