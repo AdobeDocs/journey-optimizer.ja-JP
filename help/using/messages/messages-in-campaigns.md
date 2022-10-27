@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# キャンペーンにメッセージを追加{#messages-in-campaigns}
+# キャンペーンにメッセージを追加
 
 キャンペーンで、オーディエンスに送信するメッセージをデザインおよびパーソナライズするチャネルを選択します。メール、SMS またはプッシュをキャンペーンに追加する際に、即座に送信したり、メッセージのスケジュールを設定したりできます。
 
