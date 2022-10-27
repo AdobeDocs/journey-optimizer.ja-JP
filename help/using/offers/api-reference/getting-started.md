@@ -13,8 +13,7 @@ ht-degree: 100%
 
 ---
 
-# 意思決定管理 API デベロッパーガイド
- {#decision-management-api-developer-guide}
+# 意思決定管理 API デベロッパーガイド {#decision-management-api-developer-guide}
 
 このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。次に、このガイドでは、意思決定エンジンを使用して主要な操作を実行するための API 呼び出しのサンプルを提供します。
 
@@ -24,18 +23,18 @@ ht-degree: 100%
 
 このガイドは、Adobe Experience Platform の次のコンポーネントを実際に利用および理解しているユーザーを対象としています。
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}：[!DNL Experience Platform] で顧客体験データの編成に使用される標準化されたフレームワーク。
-   * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target=&quot;_blank&quot;}：XDM スキーマの基本的な構成要素について説明します。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}：[!DNL Experience Platform] で顧客体験データの編成に使用される標準化されたフレームワーク。
+   * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"}：XDM スキーマの基本的な構成要素について説明します。
 * [意思決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：エクスペリエンス判定全般、特に意思決定管理に使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target=&quot;_blank&quot;}：PQL は XDM インスタンスに関する式を記述するための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target="_blank"}：PQL は XDM インスタンスに関する式を記述するための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
 ## API 呼び出し例の読み取り {#reading-sample-api-calls}
 
-ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。サンプル API 呼び出しのドキュメントで使用されている規則については、[!DNL Experience Platform] トラブルシューテングガイドの[サンプル API 呼び出しの読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target=&quot;_blank&quot;}に関する節を参照してください。
+ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。サンプル API 呼び出しのドキュメントで使用されている規則については、[!DNL Experience Platform] トラブルシューテングガイドの[サンプル API 呼び出しの読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target="_blank"}に関する節を参照してください。
 
 ## 必須ヘッダーの値の収集 {#gather-values-for-required-headers}
 
-[!DNL Adobe Experience Platform] API を呼び出すには、まず[認証チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target=&quot;_blank&quot;}を完了する必要があります。次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
+[!DNL Adobe Experience Platform] API を呼び出すには、まず[認証チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"}を完了する必要があります。次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 管理者は、類似したプリンシパル、リソースおよびアクセス権限をプロファイルにグループ化できます。これにより、管理上の負担が軽減され、[Adobe Admin Console](https://adminconsole.adobe.com/) でサポートされます。プロファイルを作成し、ユーザーを割り当てるには、組織内の Adobe Experience Platform の製品管理者である必要があります。1 回限りの手順で特定の権限に一致する製品プロファイルを作成し、その後、それらのユーザーにプロファイルを追加するだけで十分です。プロファイルは、権限が付与されたグループとして機能し、そのグループ内のすべての実際のユーザーまたは技術ユーザーは、権限を継承します。
 
-管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} を通じて、ユーザーの権限を付与または取り消すことができます。詳しくは、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+管理者権限を与えられた場合は、[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} を通じて、ユーザーの権限を付与または取り消すことができます。詳しくは、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target="_blank"}を参照してください。
 
 ### ユーザーと統合機能からアクセス可能なコンテナのリスト {#list-containers-accessible-to-users-and-integrations}
 

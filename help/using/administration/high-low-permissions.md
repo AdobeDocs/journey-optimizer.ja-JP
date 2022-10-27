@@ -126,8 +126,7 @@ ht-degree: 100%
    * queries.write
    * queries.delete
 
-## 意思決定管理機能
- {#decisions-permissions}
+## 意思決定管理機能 {#decisions-permissions}
 
 ### [!DNL Manage decisions] 権限 {#manage-decisioning}
 
