@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 16%
    1. 左側のドロップダウンから、メッセージのトリガーに必要なイベントを選択します。
    1. 右側のドロップダウンから、選択したイベントに必要な検証を選択します。
    1. 次をクリック： **[!UICONTROL 追加]** ボタンを使用します。 次に、上記の手順を繰り返します。
-   1. イベントのリンク方法を選択します（例： ）。 **[!UICONTROL および]** 望むなら **両方** トリガーを表示するために true に設定し、 **[!UICONTROL または]** 次の場合にメッセージを表示する **どちらか** のトリガーが真です。
+   1. イベントのリンク方法を選択します ( 例： **[!UICONTROL および]** 望むなら **両方** トリガーを表示または選択するために true に設定する **[!UICONTROL または]** 次の場合にメッセージを表示する **どちらか** のトリガーが真です。
 
    ![](assets/in_app_create_3.png)
 
