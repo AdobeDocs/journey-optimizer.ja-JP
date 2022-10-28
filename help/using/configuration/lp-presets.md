@@ -9,7 +9,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 93%
 
    選択したサブドメインに対応する設定が表示されます。
 
-1. トラッキング URL のランディングページサブドメインを選択する場合は、 **[!UICONTROL ランディングページのサブドメインと同じ]** オプション。 [トラッキングの詳細情報](../design/message-tracking.md)
+1. トラッキング URL のランディングページサブドメインを選択する場合は、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。[トラッキングの詳細情報](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

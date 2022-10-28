@@ -10,34 +10,34 @@ level: Intermediate
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
-# 条件付きルールの使用 {#conditions}
+# 条件付きルールの操作 {#conditions}
 
-条件ルールは、プロファイルの属性、セグメントのメンバーシップ、コンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
+条件付きルールとは、プロファイルの属性、セグメントメンバーシップまたはコンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
 
-条件ルールは式エディターを使用して作成し、コンテンツ間で再利用する場合に保存できます。 [ライブラリに条件ルールを保存する方法を説明します](#save)
+条件付きルールは、式エディターを使用して作成し、コンテンツ間で再利用する場合に保存できます。[ライブラリに条件付きルールを保存する方法を学ぶ](#save)
 
 >[!NOTE]
 >
->個人には [ライブラリ項目を管理](../administration/ootb-product-profiles.md) 条件ルールを保存または削除する権限。 保存した条件は、組織内のすべてのユーザーが使用できます。
+>個人が条件付きルールを保存または削除するには、[ライブラリ項目を管理](../administration/ootb-product-profiles.md)する権限が必要になります。保存した条件は、組織内のすべてのユーザーが使用できます。
 
 ## 条件付きルールビルダーへのアクセス {#access}
 
-条件ルールは **[!UICONTROL 条件]** 式エディター内のメニュー。次のいずれかにアクセスできます。
+条件付きルールは、式エディター内の&#x200B;**[!UICONTROL 条件]**&#x200B;メニューで作成されます。このメニューには次のいずれかの方法でアクセスできます。
 
-* E メールデザイナーから、E メール本文のコンポーネントに対して動的コンテンツを有効にする場合。 [E メールに動的コンテンツを追加する方法を説明します](dynamic-content.md#emails)
+* メール本文のコンポーネントに対して動的コンテンツを有効にする場合は、メールデザイナーから。[メールに動的コンテンツを追加する方法を学ぶ](dynamic-content.md#emails)
 
    ![](assets/conditions-access-email.png)
 
-* パーソナライゼーションを追加するには、 [式エディター](personalization-build-expressions.md).
+* [式エディター](personalization-build-expressions.md)を使用してパーソナライゼーションを追加できる任意のフィールド。
 
    ![](assets/conditions-access-editor.png)
 
-## 条件ルールの作成 {#create-condition}
+## 条件付きルールの作成 {#create-condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
@@ -49,48 +49,48 @@ ht-degree: 5%
 >title="条件の作成"
 >abstract="プロファイル属性、コンテキストイベントまたはオーディエンスを組み合わせて、メッセージに表示するコンテンツを定義するルールを作成します。"
 
-条件ルールを作成する手順は次のとおりです。
+条件付きルールを作成する主な手順は次のとおりです。
 
-1. 次にアクセス： **[!UICONTROL 条件]** 式エディターまたは E メールデザイナーのメニューから、 **[!UICONTROL 新規作成]**.
+1. 式エディターまたはメールデザイナーから&#x200B;**[!UICONTROL 条件]**&#x200B;メニューにアクセスし、「**[!UICONTROL 新規作成]**」をクリックします。
 
-1. 必要に応じて、条件付きルールを作成します。 これをおこなうには、左のメニューから目的の属性をキャンバスにドラッグ&amp;ドロップして配置します。
+1. 必要に応じて、条件付きルールを作成します。これを行うには、左のメニューから目的の属性をキャンバスにドラッグ&amp;ドロップして配置します。
 
-   属性をキャンバスに組み合わせる手順は、セグメント作成のエクスペリエンスと似ています。 ルールビルダーキャンバスの操作方法について詳しくは、 [このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
+   属性をキャンバスに組み合わせる手順は、セグメント作成のエクスペリエンスと似ています。ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#rule-builder-canvas)を参照してください。
 
    ![](assets/conditions-create.png)
 
    属性は次の 3 つのタブに整理されます。
 
-   * **[!UICONTROL プロファイル]**:
-      * **[!UICONTROL セグメントメンバーシップ]** には、すべてのセグメント属性（ステータス、バージョンなど）が表示されます。 対象 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja),
-      * **[!UICONTROL XDM 個別プロファイル]** に、 [エクスペリエンスデータモデル (XDM) スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja) Adobe Experience Platformで定義されます。
-   * **[!UICONTROL コンテキスト]**:メッセージをジャーニーで使用する場合、このタブからコンテキストジャーニーフィールドを使用できます。
-   * **[!UICONTROL オーディエンス]**:には、 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL プロファイル]**：
+      * **[!UICONTROL セグメントメンバーシップ]**&#x200B;には、[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)のすべてのセグメント属性（ステータス、バージョンなど）が一覧表示されます。
+      * **[!UICONTROL XDM 個別プロファイル]**&#x200B;には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に関連するすべてのプロファイル属性が一覧表示されます。
+   * **[!UICONTROL コンテキスト]**：ジャーニーでメッセージを使用している場合、コンテキストジャーニーフィールドをこのタブから使用できます。
+   * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)で作成されたセグメントから生成されたすべてのオーディエンスを一覧表示します。
 
-1. 条件ルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。 [動的コンテンツの追加方法を説明します](dynamic-content.md)
+1. 条件付きルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
 
-   また、ルールを保存して、さらに再利用することもできます。 [条件の保存方法を学ぶ](#save)
+   また、ルールを保存して、後で再利用することもできます。[条件の保存方法を学ぶ](#save)
 
 ## 条件付きルールの保存 {#save}
 
-頻繁に再利用する条件ルールがある場合は、条件ライブラリに保存できます。 保存されたルールはすべて共有され、組織内の個人がアクセスして使用できます。
+頻繁に再利用する条件付きルールがある場合は、条件ライブラリに保存できます。保存されたルールはすべて共有され、組織内の個人がアクセスして使用できます。
 
 >[!NOTE]
 >
->ジャーニーのコンテキスト属性を利用する条件ルールは、ライブラリに保存できません。
+>ジャーニーのコンテキスト属性を利用する条件付きルールは、ライブラリに保存できません。
 
-1. 条件編集画面で、 **[!UICONTROL 条件を保存]** 」ボタンをクリックします。
+1. 条件編集画面で、「**[!UICONTROL 条件を保存]**」ボタンをクリックします。
 
-1. ルールに名前と説明（オプション）を入力し、「 **[!UICONTROL 追加]**.
+1. ルールに名前と説明（オプション）を入力し、「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/conditions-name-description.png)
 
-1. 条件ルールがライブラリに保存されます。 これで、メッセージ内に動的コンテンツを作成するのに使用できます。 [動的コンテンツの追加方法を説明します](dynamic-content.md)
+1. 条件付きルールがライブラリに保存され、メッセージに動的コンテンツを作成するために使用できるようになります。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
 
-## 保存済み条件ルールの編集と削除 {#edit-delete}
+## 保存済み条件付きルールの編集と削除 {#edit-delete}
 
-楕円形ボタンを使用すれば、いつでも条件付きルールを削除できます。
+「...」ボタンを使用すれば、いつでも条件付きルールを削除できます。
 
 ![](assets/conditions-open.png)
 
-ライブラリに保存された条件付きルールは変更できません。 ただし、これらを使用して新しいルールを作成することはできます。 これをおこなうには、条件付きルールを開き、必要な変更を加えて、ライブラリに保存します。 [ライブラリに条件を保存する方法を説明します](#save)
+ライブラリに保存された条件付きルールは変更できません。ただし、これらを使用して新しいルールを作成することはできます。これを行うには、条件付きルールを開き、必要な変更を加えて、ライブラリに保存します。[ライブラリに条件を保存する方法を学ぶ](#save)

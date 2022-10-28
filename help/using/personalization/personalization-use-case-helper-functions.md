@@ -52,7 +52,7 @@ ht-degree: 100%
 1. スキーマに `productListItems` 配列が含まれるイベントを作成します。
 1. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
 
-   製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target="_blank"}を参照してください。
+   製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
@@ -104,7 +104,7 @@ ht-degree: 100%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"}を参照してください。
+      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -151,7 +151,6 @@ ht-degree: 100%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-
       この例では、*event_ID* はイベントの ID を表します。
 
       ![](assets/personalization-uc-helpers-10.png)
@@ -165,7 +164,6 @@ ht-degree: 100%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 1. 次のコードを、`{{#each}}` 開始タグと `{/each}}` 終了タグの間に貼り付けます。
 
    ```html
@@ -204,7 +202,6 @@ ht-degree: 100%
       </table>
    {{/each}}
    ```
-
 1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
    ![](assets/personalization-uc-helpers-11.png)
 
@@ -228,7 +225,6 @@ ht-degree: 100%
          {%else%} default_render
       {%/if%}
       ```
-
       ![](assets/personalization-uc-helpers-12.png)
 
 1. 式から次の条件を削除します。
@@ -262,7 +258,6 @@ ht-degree: 100%
          {%else%} default_render
       {%/if%}
       ```
-
       ![](assets/personalization-uc-helpers-13.png)
 
 1. 式を次のように変更します。
@@ -293,7 +288,6 @@ ht-degree: 100%
          {%else%} default_render
       {%/if%}
       ```
-
    1. 式から「default_render」プレースホルダーを削除します。
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 

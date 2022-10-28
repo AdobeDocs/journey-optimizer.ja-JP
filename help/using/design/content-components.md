@@ -11,7 +11,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 98%
    * **[!UICONTROL 複製]**：テキストコンポーネントのコピーを追加します。
    * **[!UICONTROL 削除]**：選択したテキストコンポーネントをメールから削除します。
    * **[!UICONTROL パーソナライズの追加]**：パーソナライゼーションフィールドを追加し、プロファイルデータを使用してコンテンツをカスタマイズできます。[コンテンツのパーソナライゼーションの詳細情報](../personalization/personalize.md)。
-   * **[!UICONTROL 条件付きコンテンツを有効にする]**:条件付きコンテンツを追加して、コンポーネントのコンテンツをターゲットプロファイルに適応させます。 [動的コンテンツの詳細を説明します](../personalization/get-started-dynamic-content.md).
+   * **[!UICONTROL 条件付きコンテンツを有効にする]**：条件付きコンテンツを追加して、コンポーネントのコンテンツをターゲットプロファイルに適応させます。[動的コンテンツの詳細情報](../personalization/get-started-dynamic-content.md)。
 
 1. **[!UICONTROL コンポーネント設定]**&#x200B;を使用すると、**[!UICONTROL テキストの色]**、**[!UICONTROL フォントファミリ]**、**[!UICONTROL サイズ]**&#x200B;を調整できます。
 

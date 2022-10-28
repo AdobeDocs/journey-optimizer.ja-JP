@@ -110,7 +110,7 @@ ht-degree: 100%
 
 ![](assets/segment-error.png)
 
-ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
+ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target=&quot;_blank&quot;}を参照してください。キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
 
 実稼動ジャーニーでセグメントを使用する前には、必ず、このセグメントに選定された個人の数を評価してください。そのためには、**[!UICONTROL セグメント]** メニューをチェックし、セグメントを開いてから&#x200B;**[!UICONTROL 経時的なプロファイル]**&#x200B;グラフで確認します。
 

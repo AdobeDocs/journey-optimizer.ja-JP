@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コンポジションワークフローの作成
-description: 合成ワークフローを作成して、既存のオーディエンスを組み合わせ、整理する方法を説明します。
+description: コンポジションワークフローを作成して、既存のオーディエンスを組み合わせて配置する方法を説明します。
 feature: Journeys
 topic: Content Management
 role: User
@@ -12,42 +12,42 @@ hidefromtoc: true
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 8%
+ht-degree: 93%
 
 ---
 
 # コンポジションワークフローの作成 {#create-compositions}
 
-合成ワークフローを使用すると、既存のオーディエンスを組み合わせて配置し、新しいオーディエンスを作成できます。
+コンポジションワークフローを使用すると、既存のオーディエンスを組み合わせて配置し、新しいオーディエンスを作成できます。
 
-## 構成ワークフローの作成 {#create}
+## コンポジションワークフローの作成 {#create}
 
-1. 次にアクセス： **[!UICONTROL セグメント]** メニューと選択 **[!UICONTROL オーディエンスを作成]**.
+1. **[!UICONTROL セグメント]**&#x200B;メニューにアクセスし、「**[!UICONTROL オーディエンスを作成]**」を選択します。
 
-1. 選択 **[!UICONTROL オーディエンスを作成]**.
+1. 「**[!UICONTROL オーディエンスを作成]**」を選択します。
 
    >[!NOTE]
    >
-   >この **[!UICONTROL ルールを作成]** 作成方法を使用すると、 [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja).
+   >**[!UICONTROL ルールを作成]**&#x200B;の作成方法を使用すると、[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を使用して新しいセグメント定義を作成できます。
 
    ![](assets/audiences-create.png)
 
 1. コンポジションキャンバスには、次の 2 つのデフォルトアクティビティが表示されます。
 
-   * **[!UICONTROL 対象ユーザ]**:構成の開始点。 このアクティビティを使用すると、ワークフローの基礎として 1 つ以上のオーディエンスを選択できます。
+   * **[!UICONTROL オーディエンス]**：コンポジションの出発点。このアクティビティを使用すると、ワークフローの基礎として 1 つ以上のオーディエンスを選択できます。
 
-   * **[!UICONTROL 保存]**:構成の最後のステップ。 このアクティビティを使用すると、ワークフローの結果を新しいオーディエンスに保存できます。
-   合成ワークフローキャンバスでアクティビティを設定する方法について詳しくは、 [コンポジションキャンバスの操作](composition-canvas.md).
+   * **[!UICONTROL 保存]**：コンポジションの最後の手順。このアクティビティを使用すると、ワークフローの結果を新しいオーディエンスに保存できます。
+   コンポジションワークフローキャンバスでアクティビティを設定する方法について詳しくは、[コンポジションキャンバスの操作](composition-canvas.md)を参照してください。
 
-1. を選択します。 **[!UICONTROL 対象ユーザ]** 「 」アクティビティを選択し、構成のラベルを指定します。
+1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティを選択し、コンポジションのラベルを指定します。
 
    >[!IMPORTANT]
    >
-   >この **[!UICONTROL 対象ユーザ]** アクティビティラベルは、構成のラベルです。 リスト内で構成をより簡単に取得できるよう、わかりやすい名前を付けてください。
+   >この&#x200B;**[!UICONTROL オーディエンス]**&#x200B;のアクティビティラベルは、コンポジションのラベルです。 リスト内でコンポジションをより簡単に取得できるよう、わかりやすい名前を付けてください。
 
    ![](assets/audiences-new-composition.png)
 
-1. 必要な数のアクティビティを **[!UICONTROL 対象ユーザ]** および **[!UICONTROL 保存]** アクティビティ。 [コンポジションキャンバスの操作方法を説明します。](composition-canvas.md)
+1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 保存]**&#x200B;アクティビティの間に必要な数のアクティビティを追加して、コンポジションを設定します。[コンポジションキャンバスの操作方法を学ぶ](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
@@ -57,29 +57,29 @@ ht-degree: 8%
 
    ![](assets/audiences-alerts.png)
 
-1. 構成が公開されます。 結果のオーディエンスは、Adobe Experience Platformに保存されます。 <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. コンポジションが公開されます。 結果のオーディエンスは、Adobe Experience Platform に保存されます。<!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
 
-## コンポジションにアクセス {#access}
+## コンポジションへのアクセス {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="オーディエンスを公開"
->abstract="構成を公開して、結果のオーディエンスをAdobe Experience Platformに保存します。"
+>title="オーディエンスの公開"
+>abstract="コンポジションを公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
 
-作成したすべてのコンポジションには、 **[!UICONTROL 構成]** タブをクリックします。 次の複数のステータスを持つことができます。
+「**[!UICONTROL コンポジション]**」タブから作成したすべてのコンポジションにアクセスできます。複数のステータスがあります。
 
-* **[!UICONTROL ドラフト]**:コンポジションは進行中で、公開されていません。
-* **[!UICONTROL 公開済み]**:構成が公開されたので、結果のオーディエンスが保存されました。 <!-- and are available for use.-->
-* **[!UICONTROL アーカイブ済み]**:構成はアーカイブされました。
+* **[!UICONTROL ドラフト]**：コンポジションは進行中で、公開されていません。
+* **[!UICONTROL 公開済み]**：コンポジションが公開され、結果のオーディエンスが保存されました。<!-- and are available for use.-->
+* **[!UICONTROL アーカイブ済み]**：コンポジションはアーカイブされています。
 
 ![](assets/audiences-compositions.png)
 
 >[!NOTE]
 >
->既存のコンポジションは、リストの楕円形ボタンを使用して、いつでも複製または削除できます。
+>既存のコンポジションは、リストの「...」ボタンを使用して、いつでも複製または削除できます。
 
-詳細情報:
+詳細情報：
 
-* [オーディエンス作成の基本を学ぶ](get-started-audience-orchestration.md)
+* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
 * [コンポジションキャンバスの操作](composition-canvas.md)
 * [オーディエンスへのアクセスと管理](access-audiences.md)

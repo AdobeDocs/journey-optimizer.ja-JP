@@ -12,37 +12,37 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 
 # オーディエンスへのアクセスと管理 {#access-manage-audiences}
 
-オーディエンスには、 **[!UICONTROL オーディエンス]** 」タブをクリックします。 **[!UICONTROL セグメント]** メニュー
+オーディエンスは、**[!UICONTROL セグメント]**&#x200B;メニューの「**[!UICONTROL オーディエンス]**」タブからアクセスできます。
 
 >[!IMPORTANT]
 >
->現時点では、合成ワークフローから生成されるオーディエンスをJourney Optimizerにターゲット設定することはできません。
+>現時点では、コンポジションワークフローから生成されるオーディエンスを Journey Optimizer でターゲットに設定することはできません。
 
-このタブには、Adobe Experience Platformに保存されているすべてのオーディエンスが一覧表示されます。 オーディエンスの構成を使用して作成されたオーディエンスは、 **[!UICONTROL オーディエンスの構成]** 接触チャネル
+このタブには、Adobe Experience Platform に保存されているすべてのオーディエンスが一覧表示されます。オーディエンスコンポジションを使用して作成されたオーディエンスは、**[!UICONTROL オーディエンスコンポジション]**&#x200B;オリジンによって識別できます。
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->Adobe Experience Platformで使用可能なその他のタイプのオーディエンスについて詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja).
+>Adobe Experience Platform で使用可能なその他のタイプのオーディエンスについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
 
-この **[!UICONTROL プロファイル数]** 列には、オーディエンスに含まれるプロファイル数に関する情報が表示されます。 「i」ボタンをクリックすると、この情報が計算された日付の詳細が表示されます。
+「**[!UICONTROL プロファイル数]**」列には、オーディエンスに含まれるプロファイル数に関する情報が表示されます。この情報が計算された日付について詳しくは、「i」ボタンをクリックしてください。
 
-カスタムまたはコアのデータ使用ラベルをオーディエンスに割り当てるには、楕円形ボタンをクリックし、 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
+カスタムまたはコアデータ使用ラベルをオーディエンスに割り当てるには、楕円形のボタンをクリックし、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
 <!--
 -edit an audience?
 -->
 
-詳細情報:
+詳細情報：
 
-* [オーディエンス作成の基本を学ぶ](get-started-audience-orchestration.md)
+* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
 * [コンポジションワークフローの作成](create-compositions.md)
 * [コンポジションキャンバスの操作](composition-canvas.md)

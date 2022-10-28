@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->業界標準および規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。これをおこなうには、SMS 受信者は、オプトインおよびオプトアウトのキーワードを使用して返信できます。 [オプトアウトの管理方法の詳細](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 SMS 配信を作成するには、次の手順を実行します。
 
@@ -48,7 +48,7 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
    ![](assets/sms-content.png)
 
-1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。 任意の属性（プロファイル名や市区町村など）を使用できます。 詳細情報： [パーソナライズ](../personalization/personalize.md) および [動的コンテンツ](../personalization/get-started-dynamic-content.md) を使用して、式エディターで設定できます。
+1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。プロファイル名や市区町村など、任意の属性を使用できます。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。
 

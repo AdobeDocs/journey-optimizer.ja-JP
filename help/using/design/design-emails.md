@@ -11,7 +11,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 * **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。[詳細情報](../design/stock.md)
 
-* プロファイル属性に基づいてパーソナライズされた動的なメッセージを作成することで、顧客体験を強化します。 [パーソナライズ機能](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
+* プロファイル属性に基づいてパーソナライズされたメッセージと動的メッセージを作成し、カスタマーエクスペリエンスを強化します。[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
 
 ➡️ [この機能をビデオで確認](#video)
 

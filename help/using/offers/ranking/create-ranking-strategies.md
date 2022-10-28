@@ -48,6 +48,7 @@ AI モデルを作成するには、次の手順を行います。
    >[!DNL Journey Optimizer] は&#x200B;**コンバージョン率**&#x200B;に基づいてオファーをランク付けします（コンバージョン率 = コンバージョンイベントの合計数／インプレッションイベントの合計数）。コンバージョン率は、次の 2 種類の指標を使用して計算されます。
    >* **インプレッションイベント**（表示されるオファー）
    >* **コンバージョンイベント**（メールまたは web でのクリックにつながるオファー）
+
    >
    >これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。詳しくは、[Adobe Experience Platform web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
 

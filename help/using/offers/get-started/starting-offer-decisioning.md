@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**Offer Decisioning** アプリケーションサービスを利用する [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーの場合は、この節で説明する決定管理機能もすべて適用されます。
+>**Offer Decisioning** アプリケーションサービスを利用する [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=&quot;_blank&quot;} ユーザーの場合は、この節で説明する決定管理機能もすべて適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ## 意思決定管理へのアクセスの許可 {#granting-acess-to-decision-management}
 
-意思決定管理機能へのアクセス権限および使用権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target="_blank"} で管理します。
+意思決定管理機能へのアクセス権限および使用権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} で管理します。
 
 意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。[!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
 
