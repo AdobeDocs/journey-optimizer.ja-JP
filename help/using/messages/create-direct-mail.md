@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 9%
+source-wordcount: '478'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 
 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルをパーソナライズおよび生成できるオフラインチャネルです。
 
-ダイレクトメールを作成すると、Journey Optimizerによって、すべてのターゲットプロファイルと選択したデータ（郵送先住所、プロファイル属性など）を含むファイルが生成されます。 その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。
+ダイレクトメールを作成すると、Journey Optimizerによって、すべてのターゲットプロファイルと選択したデータ（郵送先住所、プロファイル属性など）を含むファイルが生成されます。 その後、ダイレクトメールプロバイダーはそのファイルを取得でき、実際の送信処理をおこないます。
 
 ダイレクトメールメッセージは、スケジュールされたキャンペーンのコンテキストでのみ作成できます。 API トリガーキャンペーンやジャーニーでは使用できません。
 
@@ -31,15 +31,15 @@ ht-degree: 9%
 >
 >ダイレクトメールメッセージを送信する前に、次の設定が完了していることを確認します。
 >
->* A [ファイルルーティング設定](../configuration/direct-mail-configuration.md#file-routing-configuration) 抽出ファイルをアップロードして保存するサーバーを指定します。
->* A [ダイレクトメールメッセージサーフェス](../configuration/direct-mail-configuration.md#direct-mail-surface) ファイルルーティング設定を参照する
+>1. A [ファイルルーティング設定](../configuration/direct-mail-configuration.md#file-routing-configuration) 抽出ファイルをアップロードして保存するサーバーを指定します。
+>1. A [ダイレクトメールメッセージサーフェス](../configuration/direct-mail-configuration.md#direct-mail-surface) ファイルルーティング設定を参照する
 
 
 ## ダイレクトメールメッセージを作成する {#create}
 
 ダイレクトメールメッセージを作成して送信する手順は次のとおりです。
 
-1. 新しいスケジュール済みキャンペーンを作成し、「 **[!UICONTROL ダイレクトメール]** を選択し、使用するメッセージ表面を選択します。
+1. 新しいスケジュール済みキャンペーンを作成し、「 **[!UICONTROL ダイレクトメール]** を選択し、使用するチャネルサーフェスを選択します。 [ダイレクトメールサーフェスの作成方法を説明します](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
