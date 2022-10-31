@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 97%
+source-wordcount: '2128'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 97%
 * ジャーニーの使用例の節が、次の 2 つのカテゴリに再編成されました。 [ビジネスの使用例](../building-journeys/journeys-uc.md) および [技術的な使用例](../building-journeys/collections.md).
 * この **エンティティデータセット** の節が更新され、詳細が追加されました。 [詳細情報](../start/datasets-query-examples.md#entity-dataset)
 * オプトアウト管理および同意ポリシーに関する情報が、新しい節に再編成されました。 [詳細情報](../privacy/opt-out.md)
+* ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、E メールアドレスの上書きは特定の使用例にのみ使用するように指定されました。 ほとんどの場合、 **実行フィールド** は、使用する必要があるものです。 [詳細情報](../messages/messages-in-journeys.md#adv-settings)
+* メモを **ランディングページのサブドメインの設定** セクションを参照して、ランディングページのサブドメインで大文字を使用できないように指定します。 [詳細情報](../configuration/lp-subdomains.md)
 
 ## 2022年9月 {#september-2022}
 

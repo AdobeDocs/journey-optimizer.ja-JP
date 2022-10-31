@@ -6,10 +6,10 @@ description: Journey Optimizer でランディングページのサブドメイ�
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 100%
 [ランディングページプリセットの作成](lp-presets.md)を可能にするには、ランディングページに使用するサブドメインをセットアップする必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](delegate-subdomain.md)で説明します。
+
+>[!CAUTION]
+>
+>ランディングページのサブドメイン設定は、すべての環境で共通です。 したがって、ランディングページのサブドメインを変更すると、実稼働用サンドボックスにも影響します。
+
+大文字はサブドメインでは使用できません
 
 ## 既存のサブドメインを使用 {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ ht-degree: 100%
    >[!NOTE]
    >
    >既にランディングページのサブドメインとして使用されているサブドメインは選択できません。
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ ht-degree: 100%
    >[!CAUTION]
    >
    >既存のランディングページのサブドメインは使用できません。
+   >
+   >大文字はサブドメインでは使用できません。
 
    無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
 

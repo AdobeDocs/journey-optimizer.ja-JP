@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 97%
 
 ---
 
@@ -48,11 +48,9 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 >[!CAUTION]
 >
->PTR レコードを編集する際は、細心の注意を払って作業を進めます。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。<!--why?-->
-
->[!NOTE]
+>PTR レコードは、すべての環境に共通です。 したがって、PTR レコードを変更すると、実稼働用サンドボックスにも影響します。
 >
->「**[!UICONTROL IP]**」フィールドと「**[!UICONTROL PTR レコード]**」フィールドは変更できません。
+>PTR レコードを編集する際は、細心の注意を払って作業を進めます。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
 
 ### 完全にデリゲートされたサブドメイン {#fully-delegated-subdomains}
 
@@ -67,6 +65,10 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
    ![](assets/ptr-record-subdomain.png)
 
 1. 「 **[!UICONTROL 保存]**」をクリックして変更を確定します。
+
+>[!NOTE]
+>
+>「**[!UICONTROL IP]**」フィールドと「**[!UICONTROL PTR レコード]**」フィールドは変更できません。
 
 ### CNAME メソッドを使用したデリゲートされたサブドメイン {#edit-ptr-subdomains-cname}
 
@@ -92,6 +94,10 @@ PTR レコードを編集して、IP アドレスに関連付けられたサブ�
 
 
 1. 「 **[!UICONTROL 保存]**」をクリックして変更を確定します。
+
+>[!NOTE]
+>
+>「**[!UICONTROL IP]**」フィールドと「**[!UICONTROL PTR レコード]**」フィールドは変更できません。
 
 ## PTR レコードの更新の詳細を確認 {#check-ptr-record-update}
 

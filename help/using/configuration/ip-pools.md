@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="IP プールの設定"
->abstract="IP プールを作成して、サブドメインの IP アドレスをグループ化し、電子メールの配信品質を向上させることができます。"
+>abstract="IP プールは、E メールの配信品質を向上させるために、サブドメインの IP アドレスを収集します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ ht-degree: 100%
 メールの配信品質を高めるには、IP プールの作成を強くお勧めします。これにより、サブドメインの評判が他のサブドメインに影響を与えるのを防ぐことができます。
 
 例えば、マーケティングメッセージ用に 1 つの IP プールを用意し、トランザクションメッセージ用に別の IP プールを用意することをお勧めします。こうすることで、マーケティングメッセージの 1 つがうまく機能せず、顧客によってスパムと指定された場合でも、この顧客に送信されるトランザクションメッセージには影響せず、顧客は引き続きトランザクションメッセージ（購入確認、パスワード回復メッセージなど）を受信します。
+
+>[!CAUTION]
+>
+>IP プールの構成は、すべての環境で共通です。 したがって、IP プールの作成または編集は、実稼動用サンドボックスにも影響を与えます。
 
 ## IP プールの作成 {#create-ip-pool}
 
@@ -63,7 +67,7 @@ IP プールが作成され、リストに表示されるようになりまし�
 
 ## IP プールの編集 {#edit-ip-pool}
 
-IP プールを編集するには :
+IP プールを編集するには、次の手順に従います。
 
 1. リストで IP プール名をクリックして開きます。
 

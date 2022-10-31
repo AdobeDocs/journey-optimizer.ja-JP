@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 81%
 
 ---
 
@@ -28,10 +28,17 @@ ht-degree: 100%
 * **[!UICONTROL 成功]**：サブドメインは正常にチェックされ、メッセージの配信に使用できます。
 * **[!UICONTROL 失敗]**：サブドメインのデリゲーションが送信された後、1 つ以上の確認が失敗しました。
 
-サブドメインに関する詳細情報にアクセスするには、リストからサブドメインを開きます。次のことができます。
+を使用してサブドメインに関する詳細情報にアクセスするには **[!UICONTROL 成功]** 「 」ステータスの場合は、リストから開きます。
+
+![](assets/subdomain-delegated.png)
+
+次のことができます。
 
 * デリゲーションプロセス中に設定されたサブドメイン名（読み取り専用）と、生成された URL（リソース、ミラーページ、トラッキング URL）を取得します。
 
 * Google サイト検証 TXT レコードをサブドメインに追加して、検証済みであることを確認します（[サブドメインに Google TXT レコードを追加する](google-txt.md)を参照）。
 
-![](assets/subdomain-delegated.png)
+
+>[!CAUTION]
+>
+>サブドメインの設定は、すべての環境で共通です。 したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
