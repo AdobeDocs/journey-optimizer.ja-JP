@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 88%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->抑制リストは、サンドボックスレベルで操作されます。
+>抑制リストは、サンドボックスレベルで管理されます。
 
 このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。抑制リストの概念と使用方法について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
 
@@ -90,7 +90,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >ダウンロード時間は、ファイルサイズ（抑制リストにある電子メールアドレスの数）によって異なります。
+   >ダウンロード時間は、ファイルサイズ（抑制リストにあるアドレスの数）によって異なります。
    >
    >特定のサンドボックスに対して、一度に 1 つのダウンロードリクエストを処理できます。
 
