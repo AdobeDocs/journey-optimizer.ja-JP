@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 992f1ee215cc7f14d7f29a0bd592838fead2568c
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 96%
@@ -62,7 +62,7 @@ ht-degree: 96%
 
 再エントリが許可されているジャーニーの場合、その人物は再度エントリすることができます。[このページ](../building-journeys/journey-gs.md#change-properties)を参照してください。
 
-ライブジャーニーを終了するには、ジャーニーをクローズすることをお勧めします。そうすると、ジャーニーでの新規顧客のエントリはブロックされます。既にジャーニーにエントリしている顧客は最後までジャーニーを進めることができます。[この節](../building-journeys/.md#close-journey)を参照してください
+ライブジャーニーを終了するには、ジャーニーをクローズすることをお勧めします。そうすると、ジャーニーでの新規顧客のエントリはブロックされます。既にジャーニーにエントリしている顧客は最後までジャーニーを進めることができます。[この節](../building-journeys/journey.md#close-journey)を参照してください
 
 緊急事態が発生し、ジャーニー上のすべての処理を直ちに終了する必要がある場合にのみ、ジャーニーを停止できます。既にジャーニーにエントリしている人物は全員、進行が停止します。[この節](../building-journeys/journey.md#stop-journey)を参照してください
 
