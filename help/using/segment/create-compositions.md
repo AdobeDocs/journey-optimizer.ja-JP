@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 75%
+source-wordcount: '367'
+ht-degree: 74%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 75%
 
    ![](assets/audiences-alerts.png)
 
-1. コンポジションが公開されます。 結果のオーディエンスはAdobe Experience Platformに保存され、Journey Optimizerキャンペーンでターゲットにする準備が整います。 [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
+1. コンポジションが公開されます。 結果のオーディエンスはAdobe Experience Platformに保存され、Journey Optimizerキャンペーンでターゲットにする準備が整います。 [キャンペーンの操作方法を学ぶ](../campaigns/get-started-with-campaigns.md)
 
 ## コンポジションへのアクセス {#access}
 

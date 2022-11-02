@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 81%
+source-wordcount: '256'
+ht-degree: 79%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 81%
 
 オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
-完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、 **キャンペーンで活用** を target の顧客に対して設定します。
+完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、 **キャンペーンで活用** を target の顧客に対して設定します。 [キャンペーンの操作方法を学ぶ](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
