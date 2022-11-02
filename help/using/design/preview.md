@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # メッセージのプレビューとテスト{#preview-and-proof}
 
-メッセージのコンテンツを定義したら、テストプロファイルを使用してコンテンツのプレビューとテストを行います。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
+メッセージのコンテンツを定義したら、テストプロファイルを使用してコンテンツのプレビューとテストを行います。以下を [パーソナライズされたコンテンツ](../personalization/personalize.md)を使用すると、テストプロファイルデータを使用して、このコンテンツがメッセージにどのように表示されるかを確認できます。
 
 メールのコンテンツやパーソナライズ機能の設定で発生し得るエラーを検出するには、配達確認をテストプロファイルに送信します。変更を加えるたびに配達確認を送信して、最新のコンテンツを確認します。
 

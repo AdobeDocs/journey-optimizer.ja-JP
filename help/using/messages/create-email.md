@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] 式エディターを使用して、プロファイルのデータでメッセージをパーソナライズします。パーソナライズ機能について詳しくは、[この節](../personalization/personalize.md)参照してください。
 
-[!DNL Journey Optimizer] の動的コンテンツ機能を活用して、ターゲットプロファイルに合わせてメッセージコンテンツを調整します。[動的コンテンツの基本を学ぶ](../personalization/get-started-dynamic-content.md)
+次を使用して、ターゲットプロファイルに合わせてメッセージのコンテンツを調整する [!DNL Journey Optimizer] 動的コンテンツ機能 [動的コンテンツの基本を学ぶ](../personalization/get-started-dynamic-content.md)
 
 ## メールトラッキング{#email-tracking}
 

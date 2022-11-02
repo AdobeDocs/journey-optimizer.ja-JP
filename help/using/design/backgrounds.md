@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 97%
+source-wordcount: '302'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 E メールデザイナーで背景を設定する場合、アドビでは次の操作を推奨します。
 
 1. デザインで必要な場合は、メールの本文に背景色を適用します。
-1. ほとんどの場合、列レベルで背景色を設定します。
+1. 通常は、列レベルで背景色を設定します。
 1. 管理が困難な画像やテキストコンポーネントでは、背景色を使用しないようにしてください。
 
 使用可能な背景の設定は次のとおりです。

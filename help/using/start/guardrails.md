@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 * エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。
 * 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに対応できます。詳しくは、[このページ](../building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応させたい場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
-* ほとんどの場合、プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。[詳細情報](../building-journeys/end-journey.md)
+* 通常、1 つのプロファイルを同じジャーニー内で複数回同時に存在させることはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。[詳細情報](../building-journeys/end-journey.md)
 
 ### ジャーニーのバージョン {#journey-versions-g}
 
