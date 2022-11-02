@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 100%
 # オーディエンスへのアクセスと管理 {#access-manage-audiences}
 
 オーディエンスは、**[!UICONTROL セグメント]**&#x200B;メニューの「**[!UICONTROL オーディエンス]**」タブからアクセスできます。
-
->[!IMPORTANT]
->
->現時点では、コンポジションワークフローから生成されるオーディエンスを Journey Optimizer でターゲットに設定することはできません。
 
 このタブには、Adobe Experience Platform に保存されているすべてのオーディエンスが一覧表示されます。オーディエンスコンポジションを使用して作成されたオーディエンスは、**[!UICONTROL オーディエンスコンポジション]**&#x200B;オリジンによって識別できます。
 

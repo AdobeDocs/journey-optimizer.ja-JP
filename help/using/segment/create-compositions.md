@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 93%
+source-wordcount: '365'
+ht-degree: 75%
 
 ---
 
@@ -39,13 +39,11 @@ ht-degree: 93%
    * **[!UICONTROL 保存]**：コンポジションの最後の手順。このアクティビティを使用すると、ワークフローの結果を新しいオーディエンスに保存できます。
    コンポジションワークフローキャンバスでアクティビティを設定する方法について詳しくは、[コンポジションキャンバスの操作](composition-canvas.md)を参照してください。
 
-1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティを選択し、コンポジションのラベルを指定します。
+1. 構成プロパティを開き、タイトルと説明を指定します。
 
-   >[!IMPORTANT]
-   >
-   >この&#x200B;**[!UICONTROL オーディエンス]**&#x200B;のアクティビティラベルは、コンポジションのラベルです。 リスト内でコンポジションをより簡単に取得できるよう、わかりやすい名前を付けてください。
+   プロパティでタイトルが定義されていない場合、コンポジションラベルは最初のタイトルになります **[!UICONTROL 対象ユーザ]** アクティビティ。
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 保存]**&#x200B;アクティビティの間に必要な数のアクティビティを追加して、コンポジションを設定します。[コンポジションキャンバスの操作方法を学ぶ](composition-canvas.md)
 
@@ -57,7 +55,7 @@ ht-degree: 93%
 
    ![](assets/audiences-alerts.png)
 
-1. コンポジションが公開されます。 結果のオーディエンスは、Adobe Experience Platform に保存されます。<!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. コンポジションが公開されます。 結果のオーディエンスはAdobe Experience Platformに保存され、Journey Optimizerキャンペーンでターゲットにする準備が整います。 [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
 
 ## コンポジションへのアクセス {#access}
 
@@ -69,7 +67,7 @@ ht-degree: 93%
 「**[!UICONTROL コンポジション]**」タブから作成したすべてのコンポジションにアクセスできます。複数のステータスがあります。
 
 * **[!UICONTROL ドラフト]**：コンポジションは進行中で、公開されていません。
-* **[!UICONTROL 公開済み]**：コンポジションが公開され、結果のオーディエンスが保存されました。<!-- and are available for use.-->
+* **[!UICONTROL 公開済み]**:構成が公開され、結果のオーディエンスが保存され、使用できるようになりました。
 * **[!UICONTROL アーカイブ済み]**：コンポジションはアーカイブされています。
 
 ![](assets/audiences-compositions.png)

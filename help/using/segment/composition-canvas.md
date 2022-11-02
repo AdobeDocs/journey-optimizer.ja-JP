@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -28,24 +28,28 @@ ht-degree: 100%
 
 ## 開始オーディエンスを選択する {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="結合タイプ"
->abstract="選択したオーディエンスのプロファイルを結合する方法を指定します。"
-
 コンポジションを作成する最初の手順は、コンポジションの基礎となる 1 つ以上の既存のオーディエンスを選択します。
 
-**[!UICONTROL オーディエンス]**&#x200B;アクティビティを選択し、「**[!UICONTROL オーディエンスを追加]**」ボタンをクリックして、1 つ以上のオーディエンスを選択します。
+1. を選択します。 **[!UICONTROL 対象ユーザ]** 「 」アクティビティに、アクティビティのラベルを入力します。
+
+1. ターゲットにするオーディエンスを選択：
+
+   * 次をクリック： **[!UICONTROL オーディエンスを追加]** ボタンをクリックして、1 つ以上の既存のオーディエンスを選択します。
+   * 次をクリック： **[!UICONTROL ルールを作成]** ボタンをクリックし、 [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. 複数のオーディエンスを選択する場合は、これらのオーディエンスのプロファイルの結合方法を指定します。
+
+* **[!UICONTROL 和集合]**：選択したオーディエンスのすべてのプロファイルを含めます。
+* **[!UICONTROL 積集合]**：選択したすべてのオーディエンスに共通のプロファイルを含めます。
+* **[!UICONTROL 重複を除外]**：いずれかのオーディエンスにのみ属するプロファイルを含めます。複数のオーディエンスに属するプロファイルは含まれません。
 
 この例では、ゴールドオーディエンスとシルバーオーディエンスに属するすべてのプロファイルをターゲットにします。
 
 ![](assets/audiences-starting-audience.png)
 
-複数のオーディエンスを選択する場合は、これらのオーディエンスのプロファイルの結合方法を指定します。
-
-* **[!UICONTROL 和集合]**：選択したオーディエンスのすべてのプロファイルを含めます。
-* **[!UICONTROL 積集合]**：選択したすべてのオーディエンスに共通のプロファイルを含めます。
-* **[!UICONTROL 重複を除外]**：いずれかのオーディエンスにのみ属するプロファイルを含めます。複数のオーディエンスに属するプロファイルは含まれません。
+オーディエンスを選択すると、プロファイルの推定数がアクティビティの下部に表示されます。
 
 ## アクティビティの追加 {#action-activities}
 
@@ -74,6 +78,11 @@ ht-degree: 100%
 >id="ajo_ao_audience"
 >title="オーディエンスアクティビティ"
 >abstract="オーディエンスアクティビティを使用すると、既存オーディエンスに属する追加のプロファイルをコンポジションに含めることができます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="結合タイプ"
+>abstract="選択したオーディエンスのプロファイルを結合する方法を指定します。"
 
 **[!UICONTROL オーディエンス]**&#x200B;アクティビティを使用すると、既存オーディエンスに属する追加のプロファイルをコンポジションに含めることができます。
 
