@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
@@ -347,7 +347,7 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* **ジャーニーの終了** - ジャーニーキャンバスで、**終了**&#x200B;アクティビティがパレットから削除されました。デフォルトで終了タグが各パスの最後に追加され、削除できなくなりました。この機能強化により、どこで顧客がジャーニーから離脱したのか、ジャーニーの実務担当者が何もしなくても、より適切にレポートできるようになりました。詳しくは、[ドキュメント](../building-journeys/journey-end.md)および[機能に関するビデオ](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}を参照してください。
+* **ジャーニーの終了** - ジャーニーキャンバスで、**終了**&#x200B;アクティビティがパレットから削除されました。デフォルトで終了タグが各パスの最後に追加され、削除できなくなりました。この機能強化により、どこで顧客がジャーニーから離脱したのか、ジャーニーの実務担当者が何もしなくても、より適切にレポートできるようになりました。詳しくは、[ドキュメント](../building-journeys/journey.md#journey-ending)および[機能に関するビデオ](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}を参照してください。
 
 
 * ジャーニープロパティで「**プロファイルのタイムゾーン**」オプションは、デフォルトではオフになっています。[詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)

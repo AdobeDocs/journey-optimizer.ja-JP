@@ -4,7 +4,7 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 94%
@@ -63,7 +63,7 @@ ht-degree: 94%
 * プライバシーリクエストに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/requests.md)
 * リソースの監査ログに関する新しい節がドキュメントに追加されました。[詳細情報](../privacy/audit-logs.md)
 * Adobe Experience Cloud アセットライブラリからオファー表示域に HTML または JSON コンテンツを追加する方法に関する新しい節がドキュメントに追加されました。[詳細情報](../offers/offer-library/add-representations.md#html-json)
-* ジャーニーのライフサイクルに新しいページを追加しました。[詳細情報](../building-journeys/journey-end.md)
+* ジャーニーのライフサイクルに新しいページを追加しました。[詳細情報](../building-journeys/journey.md#journey-versions)
 * 待機アクティビティページを更新しました。[詳細情報](../building-journeys/wait-activity.md)
 * Adobe Journey Optimizer データセットのリストとクエリ例を追加しました。[詳細情報](../start/datasets-query-examples.md)
 * 許可リストページが「設定」セクションに移動しました。[詳細情報](../configuration/allow-list.md)

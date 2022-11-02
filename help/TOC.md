@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1244'
 ht-degree: 95%
 
 ---
@@ -32,10 +32,7 @@ ht-degree: 95%
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [ガードレール](using/start/guardrails.md)
 + ジャーニー {#orchestrate-journeys}
-   + ジャーニーの概要 {#about-journeys}
-      + [一般原則](using/building-journeys/journey.md)
-      + [ジャーニーライフサイクル](using/building-journeys/journey-end.md)
-      + [ジャーニーのバージョン](using/building-journeys/journey-versions.md)
+   + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + ジャーニーの作成{#create-journey}
       + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
@@ -46,7 +43,7 @@ ht-degree: 95%
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + アクティビティ {#about-journey-building}
-      + [ジャーニーアクティビティについて](using/building-journeys/about-journey-activities.md)
+      + [ジャーニーアクティビティの概要](using/building-journeys/about-journey-activities.md)
       + [一般イベント](using/building-journeys/general-events.md)
       + [反応](using/building-journeys/reaction-events.md)
       + [セグメントの選定](using/building-journeys/segment-qualification-events.md)

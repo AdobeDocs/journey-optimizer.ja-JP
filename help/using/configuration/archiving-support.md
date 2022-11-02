@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 99%
@@ -156,7 +156,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
    
    >[!NOTE]
    >
-   >`<journey version id>` パラメーターを取得するには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;メニューから、対応する[ジャーニーバージョン](../building-journeys/journey-versions.md)を選択します。ジャーニーバージョン ID は、web ブラウザーに表示される URL の末尾に表示されます。
+   >`<journey version id>` パラメーターを取得するには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;メニューから、対応する[ジャーニーバージョン](../building-journeys/journey.md#journey-versions)を選択します。ジャーニーバージョン ID は、web ブラウザーに表示される URL の末尾に表示されます。
    >
    >![](assets/preset-bcc-action-id.png)
 
