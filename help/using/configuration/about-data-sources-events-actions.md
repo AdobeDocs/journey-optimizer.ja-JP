@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの設定
-description: データソース、イベント、アクションの設定方法について説明します。
+description: データソース、イベント、アクションの設定方法を説明します
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
