@@ -1,24 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 一般原則
-description: 一般原則
+title: ジャーニーの概要
+description: ジャーニーの概要
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 一般原則{#jo-general-principle}
+# ジャーニーの概要{#jo-general-principle}
 
-用途 [!DNL Journey Optimizer] イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションのユースケースを構築します。
+用途 [!DNL Journey Optimizer] イベントやデータソースに保存されたコンテキストデータを使用して、リアルタイムオーケストレーションのユースケースを構築する。
 
 次の機能を活用して、複数のステップから成る詳細なシナリオを設計できます。
 
@@ -75,7 +74,7 @@ Adobe Journey Optimizerには、マーケターがマーケティングアウト
 
 >[!NOTE]
 >
->ほとんどの場合、プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。[詳細情報](end-journey.md)。
+>通常、1 つのプロファイルを同じジャーニー内で複数回同時に存在させることはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。[詳細情報](end-journey.md)。
 
 ライブジャーニーを変更する必要がある場合は、新しいバージョンのジャーニーを作成します。
 
