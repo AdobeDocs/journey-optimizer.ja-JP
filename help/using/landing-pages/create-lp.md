@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 100%
 
 ## ランディングページのテスト {#test-landing-page}
 
-ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、そのコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
+ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。以下を [パーソナライズされたコンテンツ](../personalization/personalize.md)を使用すると、テストプロファイルデータを使用して、このコンテンツがランディングページにどのように表示されるかを確認できます。
 
 >[!CAUTION]
 >
