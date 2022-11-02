@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 64%
+source-wordcount: '573'
+ht-degree: 63%
 
 ---
 
@@ -32,27 +32,38 @@ ht-degree: 64%
 
 ## ジャーニーの作成手順{#steps-journey}
 
-Adobe Journey Optimizerには、マーケターがマーケティングアウトリーチを 1 対 1 の顧客エンゲージメントと調和させるためのオムニチャネルオーケストレーションキャンバスが含まれています。 ユーザーインターフェイスを使用すると、パレットからアクティビティをキャンバスに簡単にドラッグ&amp;ドロップして、ジャーニーを構築できます。 次の使用可能な手順で、アクティビティをダブルクリックしてキャンバスに追加することもできます。
+Adobe Journey Optimizerを使用して、1 つのキャンバスからパーソナライズされたジャーニーを設計および調整します。
+
+Adobe Journey Optimizerには、マーケターがマーケティングアウトリーチを 1 対 1 の顧客エンゲージメントと調和させるためのオムニチャネルオーケストレーションキャンバスが含まれています。 ユーザーインターフェイスを使用すると、パレットからアクティビティをキャンバスに簡単にドラッグ&amp;ドロップして、ジャーニーを構築できます。
+
+![](assets/interface-journeys.png)
 
 での最初のジャーニーの開始方法と作成方法を説明します。 [このページ](journey-gs.md).
 
-ジャーニーデザイナーを使用し、アクティビティを組み合わせて、で強力なチャネルジャーニーを調整する方法を説明します。 [この節](using-the-journey-designer.md).
+オムニチャネルジャーニーデザイナーは、直感的なドラッグ&amp;ドロップインターフェイスを使用して、ターゲットオーディエンス、リアルタイム顧客またはビジネスインタラクションに基づく更新、およびオムニチャネルメッセージを使用して複数手順のジャーニーを構築できます。
 
-データエンジニアとして、 [この節](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+詳しくは、 [この節](using-the-journey-designer.md).
+
+データエンジニアとして、データソース、イベント、アクションを含むジャーニーを設定する手順について詳しくは、 [この節](../configuration/about-data-sources-events-actions.md).
 
 
 ## ユースケース{#uc-journey}
 
-次のエンドツーエンドの使用例を見つけ、
-* ビジネスの使用例
-   * [マルチチャネルメッセージの送信](journeys-uc.md)
-   * [Campaign v7／v8 を使用したメッセージの送信](campaign-classic-use-case.md)
-   * [購読者へのメッセージの送信](message-to-subscribers-uc.md)
+ジャーニーの構築方法については、次のエンドツーエンドの使用例を参照してください。
 
-* 技術的な使用例
-   * [カスタムアクションを使用したコレクションの動的な受け渡し](collections.md)
-   * [配信を増やす](ramp-up-deliveries-uc.md)
-   * [外部データソースとカスタムアクションでのスループットの制限](limit-throughput.md)
+ビジネスの使用例：
+
+* [マルチチャネルメッセージの送信](journeys-uc.md)
+* [Campaign v7／v8 を使用したメッセージの送信](campaign-classic-use-case.md)
+* [購読者へのメッセージの送信](message-to-subscribers-uc.md)
+
+技術的な使用例：
+
+* [カスタムアクションを使用したコレクションの動的な受け渡し](collections.md)
+* [配信を増やす](ramp-up-deliveries-uc.md)
+* [外部データソースとカスタムアクションでのスループットの制限](limit-throughput.md)
 
 ## ジャーニーのバージョン{#journey-versions}
 
