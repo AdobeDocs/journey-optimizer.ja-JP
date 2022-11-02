@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 95%
 
 ---
@@ -32,19 +32,19 @@ ht-degree: 95%
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [ガードレール](using/start/guardrails.md)
 + ジャーニー {#orchestrate-journeys}
-   + ジャーニーについて{#about-journeys}
+   + ジャーニーの概要 {#about-journeys}
       + [一般原則](using/building-journeys/journey.md)
       + [ジャーニーライフサイクル](using/building-journeys/journey-end.md)
       + [ジャーニーのバージョン](using/building-journeys/journey-versions.md)
-      + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + ジャーニーの作成{#create-journey}
-      + [ジャーニーの基本を学ぶ](using/building-journeys/journey-gs.md)
+      + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
+      + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + アクティビティ {#about-journey-building}
       + [ジャーニーアクティビティについて](using/building-journeys/about-journey-activities.md)
       + [一般イベント](using/building-journeys/general-events.md)
