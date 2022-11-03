@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: adfd47f23188935f6382a18d0de4a6101f022d78
+source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * シンプルな式エディターまたは高度な式エディターを使用して、ジャーニーに&#x200B;**複雑な条件**&#x200B;を組み込むことができます。詳しくは、[この節](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
 
-## オーディエンスの評価方法 {#evaluation-method-in-journey-optimizer}
+## オーディエンスの評価方法{#evaluation-method-in-journey-optimizer}
 
 Adobe Journey Optimizer では、オーディエンスは、次の評価方法のいずれかを使用してセグメント定義から生成されます。
 
