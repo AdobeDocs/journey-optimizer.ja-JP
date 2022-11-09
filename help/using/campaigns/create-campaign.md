@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 5c12ea559876d30a08f9aaf593d1b40b1f5b8bae
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
