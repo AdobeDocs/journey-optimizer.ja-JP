@@ -8,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -58,6 +58,6 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
+プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、セグメントメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

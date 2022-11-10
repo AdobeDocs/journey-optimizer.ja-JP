@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 > * チャネルサーフェスを作成、編集、削除するには、[チャネルサーフェスの管理](../administration/high-low-permissions.md#manage-channel-surface)権限が必要です。
 >
-> * チャネルサーフェスを作成する前に、[メール設定](#configure-email-settings)、[プッシュ設定](../configuration/push-configuration.md)および [SMS 設定](../configuration/sms-configuration.md)の手順を実行する必要があります。
+> * チャネルサーフェスを作成する前に、[メール設定](email-settings.md)、[プッシュ設定](../configuration/push-configuration.md)および [SMS 設定](../configuration/sms-configuration.md)の手順を実行する必要があります。
 
 
 チャネルサーフェスを設定すると、ジャーニーまたはキャンペーンからメッセージを作成する際にチャネルサーフェスを選択できるようになります。

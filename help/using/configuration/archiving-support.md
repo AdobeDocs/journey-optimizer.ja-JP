@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 99%
+source-wordcount: '1235'
+ht-degree: 98%
 
 ---
 
@@ -64,15 +64,7 @@ BCC メールアドレスの設定は、サーフェスレベルで直ちに保�
 
 ![](assets/preset-bcc-in-msg.png)
 
-ただし、BCC アドレスは、次のロジックに従って、通信を送信するためにピックアップされます。
-
-* バッチジャーニーとバーストジャーニーの場合、BCC 設定が行われる前に既に開始していたバッチ実行やバースト実行には適用されません。変更は、次回の繰り返し時または新しい実行時にピックアップされます。
-
-* トランザクションメッセージの場合、変更は次の通信で直ちにピックアップされます（遅延は 1 分以内です）。
-
->[!NOTE]
->
->BCC 設定をピックアップするために、ジャーニーを再公開する必要はありません。
+ただし、BCC アドレスは、説明されたロジックに従って通信を送信するために取得されます [ここ](email-settings.md).
 
 ### 推奨事項と制限事項 {#bcc-recommendations-limitations}
 
