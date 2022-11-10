@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '877'
 ht-degree: 1%
 
 ---
@@ -129,21 +130,11 @@ ht-degree: 1%
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. ファイル形式を選択します。 **[!UICONTROL CSV]** または **[!UICONTROL 区切り文字]**.
 
-1. 内 **[!UICONTROL 挿入]** 「 」セクションで、重複行を自動的に削除するよう選択できます。
-
-1. プロファイルデータを含む各ファイルの最大レコード数（行数）を定義します。 指定したしきい値に達すると、残りのレコードに別のファイルが作成されます。
-
-   ![](assets/surface-direct-mail-split.png)
-
-   例えば、ファイルに 100,000 個のレコードがあり、しきい値の制限が 60,000 に設定されている場合、レコードは 2 つのファイルに分割されます。 最初のファイルには 60,000 行、2 番目のファイルには残りの 40,000 行が含まれます。
-
-   >[!NOTE]
-   >
-   >1 ～ 200,000 個のレコードの任意の数値を設定できます。つまり、各ファイルには少なくとも 1 つの行と 200,000 行以下の行を含める必要があります。
-
-1. 最後に、 **[!UICONTROL ファイルルーティング設定]** 作成したものの中に含まれています。 これは、ダイレクトメールプロバイダーが使用できるようにファイルを書き出す場所を定義します。
+1. を選択します。 **[!UICONTROL ファイルルーティング設定]** 作成したものの中に含まれています。 これは、ダイレクトメールプロバイダーが使用できるようにファイルを書き出す場所を定義します。
 
    >[!CAUTION]
    >
@@ -151,6 +142,29 @@ ht-degree: 1%
 
    ![](assets/surface-direct-mail-file-routing.png)
 
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. ダイレクトメールサーフェスを送信します。
 
 次の操作を実行できます。 [ダイレクトメールメッセージの作成](../messages/create-direct-mail.md) キャンペーン内で キャンペーンが開始されると、ターゲットオーディエンスデータを含むファイルが、定義したサーバーに自動的にエクスポートされます。 その後、ダイレクトメールプロバイダーは、そのファイルを取得して、ダイレクトメール配信を続行できます。
+
+>[!NOTE]
+>
+>重複した行は自動的に削除されます。
+>
+>プロファイルデータを含む各ファイルの最大レコード数（行数）が多すぎる場合、残りのレコードに対して別のファイルが自動的に作成されます。
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->

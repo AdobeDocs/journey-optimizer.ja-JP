@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 98%
+source-wordcount: '1505'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,12 @@ ht-degree: 98%
 >abstract="ランディングページを作成するには、プリセットを選択し、プライマリページとサブページを設定してから、公開する前にページをテストする必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=ja#lp-create-preset" text="ランディングページプリセットを作成"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=ja#publish-landing-page" text="ランディングページの公開"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="ランディングページにラベルを割り当てる"
+>abstract="機密性の高いデジタルアセットを保護するために、ラベルを使用してランディングページへのデータアクセスを管理する権限を定義できます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="ランディングページプリセットを作成"
 
 ランディングページの作成手順は次のとおりです。
 
