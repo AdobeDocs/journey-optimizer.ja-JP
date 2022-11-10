@@ -7,13 +7,13 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 32%
 
 ---
-
 
 # web レポート {#web-report}
 

@@ -6,13 +6,13 @@ description: Adobe Journey OptimizerとAdobe Experience Platformのプライバ�
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
+exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
 
 ---
-
 
 # プライバシーの基本を学ぶ {#privacy}
 

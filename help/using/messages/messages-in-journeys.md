@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # ジャーニーでのメッセージの追加{#messages-in-journeys}
 
@@ -83,7 +83,7 @@ ht-degree: 89%
 
 詳細設定パラメーターは読み取り専用で、デフォルトでは非表示になっています。
 
-詳細設定パラメーターにアクセスするには、メッセージペインの上部にある「**[!UICONTROL 読み取り専用フィールドを表示]**」アイコンをクリックします。同じアイコンをクリックして、詳細設定を非表示にします。
+詳細設定パラメーターにアクセスするには、メッセージパネルの上部にある「**[!UICONTROL 読み取り専用フィールドを表示]**」アイコンをクリックします。同じアイコンをクリックして、詳細設定を非表示にします。
 
 ![](assets/show-read-only.png)
 
@@ -93,20 +93,20 @@ ht-degree: 89%
 
 ![](assets/push-adv-parameters.png)
 
-電子メールの場合、 [プライマリメールアドレス](../configuration/primary-email-addresses.md).
+メールの場合は、[プライマリメールアドレス](../configuration/primary-email-addresses.md)を表示できます。
 
-特定のコンテキストでは、特定の用途でこれらの値を上書きできます。 値を強制的に指定するには、フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックします。
+特定のコンテキストでは、特定の用途でこれらの値を上書きできます。値を強制的に指定するには、フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックします。
 
 ![](assets/email-adv-parameters.png)
 
 このオプションは、例えば次のような目的に役立つ可能性があります。
 
-* メールをテストします。 電子メールアドレスを追加できます。ジャーニーを公開すると、電子メールが送信されます。
+* メールのテスト。メールアドレスを追加できます。ジャーニーを公開すると、メールが送信されます。
 * リストの購読者のメールアドレスを参照する。詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
 
 >[!NOTE]
 >
->電子メールアドレスの上書きは、特定の使用例に対してのみ使用してください。 ほとんどの場合、電子メールアドレスを変更する必要はありません。これは、 **[!UICONTROL 実行フィールド]** は、使用する必要があるものです。 [詳細情報](../configuration/primary-email-addresses.md)
+>メールアドレスの上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。[詳細情報](../configuration/primary-email-addresses.md)
 
 ## メッセージの参照{#browse-message}
 

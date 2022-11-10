@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2128'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 94%
 
 ## 2022年10月 {#october-2022}
 
-* 外部データソースとカスタムアクションを使用してスループットを制限する方法に関するジャーニーの使用例が追加されました。 [詳細情報](../building-journeys/limit-throughput.md)
-* ジャーニーの使用例の節が、次の 2 つのカテゴリに再編成されました。 [ビジネスの使用例](../building-journeys/journeys-uc.md) および [技術的な使用例](../building-journeys/collections.md).
-* この **エンティティデータセット** の節が更新され、詳細が追加されました。 [詳細情報](../start/datasets-query-examples.md#entity-dataset)
+* 外部データソースとカスタムアクションを使用してスループットを制限する方法に関するジャーニーのユースケースを追加しました。[詳細情報](../building-journeys/limit-throughput.md)
+* ジャーニーのユースケースの節では、[ビジネスユースケース](../building-journeys/journeys-uc.md)と[テクニカルユースケース](../building-journeys/collections.md) の 2 つのカテゴリに再編成しました。
+* **エンティティデータセット**&#x200B;の節を更新し、詳細を追加しました。[詳細情報](../start/datasets-query-examples.md#entity-dataset)
 * オプトアウト管理および同意ポリシーに関する情報が、新しい節に再編成されました。 [詳細情報](../privacy/opt-out.md)
-* ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、E メールアドレスの上書きは特定の使用例にのみ使用するように指定されました。 ほとんどの場合、 **実行フィールド** は、使用する必要があるものです。 [詳細情報](../messages/messages-in-journeys.md#adv-settings)
-* メモを **ランディングページのサブドメインの設定** セクションを参照して、ランディングページのサブドメインで大文字を使用できないように指定します。 [詳細情報](../configuration/lp-subdomains.md)
+* ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../messages/messages-in-journeys.md#adv-settings)
+* **ランディングページのサブドメインの設定**&#x200B;の節に、ランディングページのサブドメインでは大文字を使用できないことを示すメモを追加しました。[詳細情報](../configuration/lp-subdomains.md)
 
 ## 2022年9月 {#september-2022}
 

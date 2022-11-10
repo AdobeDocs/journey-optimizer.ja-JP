@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
+exl-id: 12892db9-e778-48fe-90a3-5de51dc02e4d
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 
 ---
-
 
 # キャンペーンにメッセージを追加
 

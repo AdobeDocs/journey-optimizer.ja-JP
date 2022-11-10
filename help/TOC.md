@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -147,11 +147,11 @@ ht-degree: 94%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
-      + ビジネスの使用例 {#business-use-cases}
+      + ビジネスユースケース{#business-use-cases}
          + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
          + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
-         + [購読者へのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      + 技術的な使用例 {#technical-use-cases}
+         + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
+      + テクニカルユースケース{#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションでのスループットの制限](using/building-journeys/limit-throughput.md)
@@ -178,15 +178,15 @@ ht-degree: 94%
    + [アラートの確認](using/messages/alerts.md)
    + [送信時間の最適化](using/messages/send-time-optimization.md)
 + Web チャネル{#web}
-   + [Web チャネルの概要](using/web/get-started-web.md)
+   + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
    + [Web エクスペリエンスの作成](using/web/create-web.md)
    + [Web ページの作成](using/web/author-web.md)
    + [Visual Editing Helper 拡張機能](using/web/visual-editing-helper.md)
    + [Web レポート](using/web/web-report.md)
 + アプリ内チャネル{#in-app}
-   + [アプリ内チャネルの概要](using/in-app/get-started-in-app.md)
+   + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
    + [アプリ内チャネルの設定](using/in-app/inapp-configuration.md)
-   + [アプリ内メッセージの作成](using/in-app/create-in-app.md)
+   + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
    + [アプリ内レポート](using/in-app/inapp-report.md)
 + コンテンツのデザイン {#design}
