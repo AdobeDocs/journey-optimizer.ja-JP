@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
+source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 98%
@@ -257,12 +257,12 @@ ht-degree: 98%
       + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
       + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
    + [ID](using/segment/get-started-identity.md)
-   + [ライセンス使用状況](using/segment/license-usage.md)
    + オーディエンスの作成 {#audience-orchestration}
       + [オーディエンスコンポジションの基本を学ぶ](using/segment/get-started-audience-orchestration.md)
       + [コンポジションワークフローの作成](using/segment/create-compositions.md)
       + [コンポジションキャンバスの操作](using/segment/composition-canvas.md)
       + [オーディエンスへのアクセスと管理](using/segment/access-audiences.md)
+   + [ライセンス使用状況](using/segment/license-usage.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの概要](using/reports/live-report.md)
