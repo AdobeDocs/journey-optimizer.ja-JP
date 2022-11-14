@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,10 @@ Adobe Journey Optimizerを使用すると、このデータを容易に管理、
     <br>
   </td>
   <td>
-    <div>他の宛先で利用可能 — Journey Optimizerは、高度にパーソナライズされた顧客体験のためにデータを相乗的に統合しますが、このデータをテクノロジーの全体的な状況にある他のシステムで利用し、他の方法で利用する場合に注意が必要です。 <a href="../start/ajo-integrations.md">詳細情報</a>&lt;</div>
+    <div>他の宛先で利用可能 — Journey Optimizerは、高度にパーソナライズされた顧客体験のためにデータを相乗的に統合しますが、このデータをテクノロジーの全体的な状況にある他のシステムで利用し、他の方法で利用する場合に注意が必要です。
+    <div>
+     <a href="../start/ajo-integrations.md">詳細情報</a></div>
+    </div>
     <br>
   </td>
 </tr>
