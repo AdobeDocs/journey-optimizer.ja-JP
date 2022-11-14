@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 82%
@@ -19,14 +19,14 @@ ht-degree: 82%
 
 このページでは、Adobe Journey Optimizer データセットと関連する使用例のリストを示します。
 
-[メールトラッキングエクスペリエンスイベントデータセット](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[メッセージフィードバックイベントデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)
-[プッシュトラッキングエクスペリエンスイベントデータセット](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)
-[意思決定イベントデータセット](../data/datasets-query-examples.md#ode-decisionevents)
-[同意サービスデータセット](../data/datasets-query-examples.md#consent-service-dataset)
-[BCC フィードバックイベントデータセット](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
-[エンティティデータセット](../data/datasets-query-examples.md#entity-dataset)
+[メールトラッキングエクスペリエンスイベントデータセット](#email-tracking-experience-event-dataset)
+[メッセージフィードバックイベントデータセット](#message-feedback-event-dataset)
+[プッシュトラッキングエクスペリエンスイベントデータセット](#push-tracking-experience-event-dataset)
+[ジャーニーステップイベント](#journey-step-event)
+[意思決定イベントデータセット](#ode-decisionevents)
+[同意サービスデータセット](#consent-service-dataset)
+[BCC フィードバックイベントデータセット](#bcc-feedback-event-dataset)
+[エンティティデータセット](#entity-dataset)
 
 ## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
 
