@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。
 
-エンドツーエンドの使用例については、[この節](../building-journeys/campaign-classic-use-case.md)を参照してください。
+エンドツーエンドの使用例については、[この節](../building-journeys/ajo-ac.md)を参照してください。
 
 設定したアクションごとに、1 つのアクションアクティビティをジャーニーデザイナーパレットで使用できます。[この節](../building-journeys/using-adobe-campaign-classic.md)を参照してください。
 

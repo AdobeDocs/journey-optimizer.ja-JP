@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -55,8 +55,8 @@ Adobe Journey Optimizerには、マーケターがマーケティングアウト
 ビジネスの使用例：
 
 * [マルチチャネルメッセージの送信](journeys-uc.md)
-* [Campaign v7／v8 を使用したメッセージの送信](campaign-classic-use-case.md)
-* [購読者へのメッセージの送信](message-to-subscribers-uc.md)
+* [Campaign v7／v8 を使用したメッセージの送信](ajo-ac.md)
+* [サブスクライバーへのメッセージの送信](message-to-subscribers-uc.md)
 
 技術的な使用例：
 

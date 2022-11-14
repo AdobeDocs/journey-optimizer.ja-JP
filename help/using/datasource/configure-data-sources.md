@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 95%
 
 ---
 
 # データソースの設定 {#configure-data-source}
 
-主なデータソース設定手順は次のとおりです。
 
 >[!NOTE]
 >
 >データソースの設定は、常に&#x200B;**技術ユーザー**&#x200B;が実行します。
+
+データソースを設定するには、次の手順に従います。
 
 1. 管理メニューセクションで、「**[!UICONTROL 設定]**」を選択します。「**[!UICONTROL データソース]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。データソースのリストが表示されます。インターフェイスの詳細については、[このページ](../start/user-interface.md)を参照してください。
 
@@ -52,7 +53,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->フィールドグループにフィールドがない場合は、式エディターに表示されません。
+>フィールドグループにフィールドがない場合、式エディターには表示されません。
 
 ![](assets/journey3bis.png)
 

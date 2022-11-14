@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 98%
    + ユースケース {#journey-use-cases}
       + ビジネスユースケース{#business-use-cases}
          + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
-         + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/campaign-classic-use-case.md)
+         + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/ajo-ac.md)
          + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
       + テクニカルユースケース{#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
@@ -390,11 +390,12 @@ ht-degree: 98%
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + データ管理 {#data-management}
-   + [スキーマ](using/start/get-started-schemas.md)
-   + データセット {#datasets}
-      + [データセットの基本を学ぶ](using/start/get-started-datasets.md)
-      + [クエリの例](using/start/datasets-query-examples.md)
-   + [クエリ](using/start/get-started-queries.md)
+   + [データ管理の概要](using/data/gs-data.md)
+   + [スキーマの操作](using/data/get-started-schemas.md)
+   + Journey Optimizerデータセット {#datasets}
+      + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
+      + [クエリの例](using/data/datasets-query-examples.md)
+   + [クエリ](using/data/get-started-queries.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + メッセージの設定 {#configuration-message}
