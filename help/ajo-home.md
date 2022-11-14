@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer 製品ヘルプセンター
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
@@ -133,13 +133,13 @@ ht-degree: 100%
     <p>
     <p>データ管理</p>
     <li>
-      <a href="using/start/get-started-schemas.md">スキーマ</a>
+      <a href="using/data/get-started-schemas.md">スキーマ</a>
     </li>
      <li>
-      <a href="using/start/get-started-datasets.md">データセット</a>
+      <a href="using/data/get-started-datasets.md">データセット</a>
     </li>
         <li>
-      <a href="using/start/get-started-queries.md">クエリ</a>
+      <a href="using/data/get-started-queries.md">クエリ</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja" target="_blank">監視</a>

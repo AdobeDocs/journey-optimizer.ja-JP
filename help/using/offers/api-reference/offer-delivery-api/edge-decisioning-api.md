@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 95%
@@ -48,7 +48,7 @@ SDK は、これらのライブラリを組み合わせることができず、�
 
 1. SDK をインストールします。[SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)に記載されているように、複数の方法があります。このページでは、様々な実装方法を使用して説明を続けます。
 
-SDK を使用するには、[スキーマ](../../../start/get-started-schemas.md)および[データストリーム](../../../start/get-started-datasets.md)を定義する必要があります。
+SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)および[データストリーム](../../../start/get-started-datasets.md)を定義する必要があります。
 
 <!-- ****TODO - Configure schema**** -->
 
