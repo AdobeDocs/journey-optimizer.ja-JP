@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 95%
@@ -29,9 +29,9 @@ ht-degree: 95%
 1. [接続の作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja) in [!DNL Customer Journey Analytics] と **[!UICONTROL データセット]** Adobe Experience Platformに送信します。
 
    次の [!DNL Journey Optimizer] を設定できます。
-   * [ジャーニーステップイベント](../start/datasets-query-examples.md#journey-step-event)：誰がジャーニーにエントリし、どのくらい進んだかを確認できます。
-   * [メッセージフィードバック／トラッキングデータセット](../start/datasets-query-examples.md#message-feedback-event-dataset)：[!DNL Journey Optimizer] を介して送信したメッセージに関する配信情報を表示できます。
-   * [エンティティデータセットおよびジャーニーデータセット](../start/datasets-query-examples.md#entity-dataset)：わかりやすい名前を検索し、レポートで使用できます。
+   * [ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)：誰がジャーニーにエントリし、どのくらい進んだかを確認できます。
+   * [メッセージフィードバック／トラッキングデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)：[!DNL Journey Optimizer] を介して送信したメッセージに関する配信情報を表示できます。
+   * [エンティティデータセットおよびジャーニーデータセット](../data/datasets-query-examples.md#entity-dataset)：わかりやすい名前を検索し、レポートで使用できます。
 
 1. [データビューを作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)して、レポートに使用するディメンションおよび指標を設定します。
 

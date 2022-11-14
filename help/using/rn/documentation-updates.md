@@ -4,7 +4,7 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * 外部データソースとカスタムアクションを使用してスループットを制限する方法に関するジャーニーのユースケースを追加しました。[詳細情報](../building-journeys/limit-throughput.md)
 * ジャーニーのユースケースの節では、[ビジネスユースケース](../building-journeys/journeys-uc.md)と[テクニカルユースケース](../building-journeys/collections.md) の 2 つのカテゴリに再編成しました。
-* **エンティティデータセット**&#x200B;の節を更新し、詳細を追加しました。[詳細情報](../start/datasets-query-examples.md#entity-dataset)
+* **エンティティデータセット**&#x200B;の節を更新し、詳細を追加しました。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
 * オプトアウト管理および同意ポリシーに関する情報が、新しい節に再編成されました。 [詳細情報](../privacy/opt-out.md)
 * ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../messages/messages-in-journeys.md#adv-settings)
 * **ランディングページのサブドメインの設定**&#x200B;の節に、ランディングページのサブドメインでは大文字を使用できないことを示すメモを追加しました。[詳細情報](../configuration/lp-subdomains.md)
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 新しい手順のイベントクエリの例と、ID、instanceid、profileid の違いに関する情報を追加しました。[詳細情報](../reports/query-examples.md)。
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) および [toString](../building-journeys/functions/functiontostring.md) 関数に関するページを更新しました。
 * 時間条件パラメーターの詳細を追加しました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
-* 組み込みデータセットに関する情報を追加しました。[詳細情報](../start/get-started-datasets.md#access-datasets)
+* 組み込みデータセットに関する情報を追加しました。[詳細情報](../data/get-started-datasets.md#access-datasets)
 * グローバルレポートの節とライブレポートの節の構成を変更し、読みやすさを改善しました。[詳細情報](../reports/global-report.md)
 * Adobe Journey Optimizer で使用できるすべてのレポート指標のリストを追加しました。
    [詳細情報](../reports/global-report.md#email-and-sms-metrics)
@@ -65,7 +65,7 @@ ht-degree: 100%
 * Adobe Experience Cloud アセットライブラリからオファー表示域に HTML または JSON コンテンツを追加する方法に関する新しい節がドキュメントに追加されました。[詳細情報](../offers/offer-library/add-representations.md#html-json)
 * ジャーニーのライフサイクルに新しいページを追加しました。[詳細情報](../building-journeys/journey.md#journey-versions)
 * 待機アクティビティページを更新しました。[詳細情報](../building-journeys/wait-activity.md)
-* Adobe Journey Optimizer データセットのリストとクエリ例を追加しました。[詳細情報](../start/datasets-query-examples.md)
+* Adobe Journey Optimizer データセットのリストとクエリ例を追加しました。[詳細情報](../data/datasets-query-examples.md)
 * 許可リストページが「設定」セクションに移動しました。[詳細情報](../configuration/allow-list.md)
 * 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
 * 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
@@ -90,7 +90,7 @@ ht-degree: 100%
 * [!DNL Journey Optimizer] の 2022年4月リリースに含まれているすべての新機能と機能強化について、このドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * **反応**&#x200B;イベントのドキュメントページが更新されました。[詳細情報](../building-journeys/reaction-events.md)
 * 意思決定管理機能に関するビデオが更新され、Journey Optimizer のユーザーインターフェイスが反映されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
-* **データセットの基本を学ぶ**&#x200B;の節が改善され、データセットへのアクセスおよび作成方法の詳細が追加されました。[詳細情報](../start/get-started-datasets.md)
+* **データセットの基本を学ぶ**&#x200B;の節が改善され、データセットへのアクセスおよび作成方法の詳細が追加されました。[詳細情報](../data/get-started-datasets.md)
 * ヘルプガイドおよび製品リリースノートへのリンクが **Adobe Journey Optimizer ドキュメント**&#x200B;のホームページに追加されました。[詳細情報](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
 * **メッセージプリセットの作成**&#x200B;の節で、選択した IP プールが編集中（**[!UICONTROL 処理中]**&#x200B;ステータス）で選択したサブドメインに関連付けられていないときは、プリセットの作成を続行できないことが明記されるようになりました。[詳細情報](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * 「メッセージプリセットの作成」の **URL トラッキング**&#x200B;の節が更新され、ユーザーインターフェイスの小さな変更が反映されました。[詳細情報](../configuration/channel-surfaces.md#url-tracking)

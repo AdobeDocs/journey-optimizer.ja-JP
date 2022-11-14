@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
@@ -165,7 +165,7 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* この&#x200B;**エンティティデータセット**&#x200B;は、Adobe Journey Optimizer の標準のデータセットとして使用できるようになりました。この参照データセットには、トラッキングとフィードバックのデータセット情報を強化するメタデータが含まれています。これにより、より分かりやすいデータを使用して、レポートやクエリを改善できます。 [詳細情報](../start/datasets-query-examples.md#entity-dataset)
+* この&#x200B;**エンティティデータセット**&#x200B;は、Adobe Journey Optimizer の標準のデータセットとして使用できるようになりました。この参照データセットには、トラッキングとフィードバックのデータセット情報を強化するメタデータが含まれています。これにより、より分かりやすいデータを使用して、レポートやクエリを改善できます。 [詳細情報](../data/datasets-query-examples.md#entity-dataset)
 * 同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぐために、新しいガードレールが（イベントまたはセグメントの選定で始まる）単一のジャーニーに追加されました。プロファイルの再エントリは、デフォルトで 5 分間一時的にブロックされるようになりました。[詳細情報](../start/guardrails.md#events-g)
 
 **管理**

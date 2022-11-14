@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 82%
@@ -20,13 +20,13 @@ ht-degree: 82%
 このページでは、Adobe Journey Optimizer データセットと関連する使用例のリストを示します。
 
 [メールトラッキングエクスペリエンスイベントデータセット](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[メッセージフィードバックイベントデータセット](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[プッシュトラッキングエクスペリエンスイベントデータセット](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[ジャーニーステップイベント](../start/datasets-query-examples.md#journey-step-event)
-[意思決定イベントデータセット](../start/datasets-query-examples.md#ode-decisionevents)
-[同意サービスデータセット](../start/datasets-query-examples.md#consent-service-dataset)
-[BCC フィードバックイベントデータセット](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
-[エンティティデータセット](../start/datasets-query-examples.md#entity-dataset)
+[メッセージフィードバックイベントデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)
+[プッシュトラッキングエクスペリエンスイベントデータセット](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)
+[意思決定イベントデータセット](../data/datasets-query-examples.md#ode-decisionevents)
+[同意サービスデータセット](../data/datasets-query-examples.md#consent-service-dataset)
+[BCC フィードバックイベントデータセット](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
+[エンティティデータセット](../data/datasets-query-examples.md#entity-dataset)
 
 ## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
 

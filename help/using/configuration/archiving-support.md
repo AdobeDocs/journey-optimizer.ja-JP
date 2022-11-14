@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 98%
@@ -23,7 +23,7 @@ HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信され�
 
 * メールチャネルの場合、[!DNL Journey Optimizer] には、組み込みの BCC メール機能が用意されています。[詳細情報](#bcc-email)
 
-* さらに、すべてのチャネルの場合、パーソナライズされていないメッセージテンプレートの詳細を含む&#x200B;**エンティティデータセット**&#x200B;の「テンプレート」フィールドを使用できます。このフィールドを使用してデータセットを書き出すと、メッセージの送信者、送信先および送信時間などのメタデータを保存できます。パーソナライズされたデータは書き出されず、テンプレート （メッセージの形式と構造）のみが考慮されます。[詳細情報](../start/datasets-query-examples.md#entity-dataset)
+* さらに、すべてのチャネルの場合、パーソナライズされていないメッセージテンプレートの詳細を含む&#x200B;**エンティティデータセット**&#x200B;の「テンプレート」フィールドを使用できます。このフィールドを使用してデータセットを書き出すと、メッセージの送信者、送信先および送信時間などのメタデータを保存できます。パーソナライズされたデータは書き出されず、テンプレート （メッセージの形式と構造）のみが考慮されます。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ GDPR などの規制では、データ主体はいつでも同意を変更でき
 
 BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。ただし、その情報は、**[!UICONTROL AJO BCC フィードバックイベントデータセット]**&#x200B;と呼ばれるシステムデータセットに保存されます。このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
 
-このデータセットには、ユーザーインターフェイスからアクセスできます。**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択し、フィルターの「**[!UICONTROL システムデータセットを表示]**」トグルを有効にして、システム生成データセットを表示します。データセットにアクセスする方法について詳しくは、[この節](../start/get-started-datasets.md#access-datasets)で説明しています。
+このデータセットには、ユーザーインターフェイスからアクセスできます。**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択し、フィルターの「**[!UICONTROL システムデータセットを表示]**」トグルを有効にして、システム生成データセットを表示します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)で説明しています。
 
 ![](assets/preset-bcc-dataset.png)
 
-このデータセットに対してクエリを実行するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;}で提供されるクエリエディターを使用することができます。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../start/get-started-queries.md)
+このデータセットに対してクエリを実行するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;}で提供されるクエリエディターを使用することができます。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
