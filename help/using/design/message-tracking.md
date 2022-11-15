@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 91%
 
 ---
 
@@ -90,9 +90,9 @@ ht-degree: 100%
 
 ミラーページが自動的に作成されます。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->自動生成されたリンクは編集できません。
+>ミラーページのリンクは自動生成され、編集できません。 元の E メールのレンダリングに必要な、暗号化されたパーソナライズされたデータがすべて含まれます。 その結果、値が大きいパーソナライズされた属性を使用すると、ミラーページの URL が長くなる可能性があり、URL の長さが最大の Web ブラウザーでリンクが機能しなくなる可能性があります。
 
 メールが送信され、受信者がミラーページのリンクをクリックすると、メールの内容がデフォルトの web ブラウザーに表示されます。
 

@@ -4,16 +4,20 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 100%
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2022年11月 {#november-2022}
+
+ミラーページ URL の長さに関する推奨事項が追加されました。 [詳細情報](../design/message-tracking.md)
 
 ## 2022年10月 {#october-2022}
 
