@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 34d768502bfb2ce792beae8b1257fdddefc55ed7
+source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 37%
+source-wordcount: '525'
+ht-degree: 33%
 
 ---
 
@@ -71,6 +71,6 @@ Adobeインテリジェントサービスとの統合により、顧客体験の
 
 ## 外部システム{#integration-external-systems}
 
-Journey Optimizer では、カスタムデータソースとカスタムアクションを使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータを使用してジャーニーを充実させたり、Epsilon や Facebook などのサードパーティシステムを使用してメッセージを送信したりできます。
+Journey Optimizer では、カスタムデータソースとカスタムアクションを使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータでジャーニーをエンリッチメントできます。
 
 外部データソースを使用して、でサードパーティシステムへの接続を定義する方法を説明します。 [この節](../datasource/external-data-sources.md).
