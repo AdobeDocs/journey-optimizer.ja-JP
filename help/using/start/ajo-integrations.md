@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 6c322a979ec4918228162799453b144765d69b28
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 33%
+source-wordcount: '517'
+ht-degree: 34%
 
 ---
 
@@ -41,7 +41,7 @@ Journey Optimizerでジャーニーを作成したら、顧客データをCustom
 
 詳細情報： [Journey Optimizer + Analytics](../event/about-analytics.md).
 
-## 機械学習{#integration-intelligent-service}
+## Adobe インテリジェントサービス{#integration-intelligent-service}
 
 Adobeインテリジェントサービスとの統合により、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。[詳細情報](../building-journeys/ai-services-overview.md)。
 
