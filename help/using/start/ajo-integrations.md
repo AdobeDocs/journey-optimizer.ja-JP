@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
+source-git-commit: 12ae84646e69870564406066e102c540ac920df7
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '529'
 ht-degree: 33%
 
 ---
@@ -22,8 +22,7 @@ Adobe Journey Optimizerを使用すると、このデータを容易に管理、
 
 >[!NOTE]
 >
-> Adobe Experience Platformを基に構築されたAdobe Journey Optimizerは、 [Adobeのリアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}。 この組み込みデータソースは事前に設定されており、リアルタイム顧客プロファイルからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人がクライアントかどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。
-
+> Adobe Experience Platformを基に構築されたAdobe Journey Optimizerは、 [Adobeのリアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}。 この組み込みデータソースは事前に設定されており、リアルタイム顧客プロファイルからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人がクライアントかどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。[詳細情報](../datasource/adobe-experience-platform-data-source.md)。
 
 ## レポート{#integration-reporting}
 
@@ -45,7 +44,7 @@ Journey Optimizerでジャーニーを作成したら、顧客データをCustom
 
 ## 機械学習{#integration-intelligent-service}
 
-Adobeインテリジェントサービスとの統合により、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。
+Adobeインテリジェントサービスとの統合により、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。[詳細情報](../building-journeys/ai-services-overview.md)。
 
 ## メッセージの送信 {#integration-messages}
 
