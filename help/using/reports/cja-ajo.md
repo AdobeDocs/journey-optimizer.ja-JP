@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 95%
@@ -17,8 +17,11 @@ ht-degree: 95%
 
 # [!DNL Customer Journey Analytics] の操作 {#cja-ajo}
 
+
+[!DNL Journey Optimizer]
+[!DNL Customer Journey Analytics] との  統合は、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
+
 ![](assets/cja.png)
-[!DNL Customer Journey Analytics] との [!DNL Journey Optimizer] 統合は、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
 
 [!DNL Journey Optimizer] でジャーニーを作成した後、[!DNL Customer Journey Analytics] に顧客データを読み込んでレポートを開始し、ジャーニーにおける顧客のインタラクションが与える影響を把握できます。
 
