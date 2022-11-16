@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '916'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,11 @@ Web ページにアクセスして [!DNL Journey Optimizer] ユーザーイン�
 
 キャンペーンから Web アクションを作成したら、Web デザイナーを使用してコンテンツを編集できます。 これを行うには、以下の手順に従います。
 
-1. 次の **[!UICONTROL アクション]** キャンペーンの「 」タブで、「 」を選択します。 **[!UICONTROL コンテンツを編集]** web キャンペーンのオーサリングを開始します。 [詳細情報](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>アクセス先 [!DNL Journey Optimizer]を使用する場合、Web ページは [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target=&quot;_blank&quot;}。
+
+1. 次の **[!UICONTROL アクション]** キャンペーンの「 」タブで、「 」を選択します。 **[!UICONTROL コンテンツを編集]** web キャンペーンのオーサリングを開始します。
 
 1. ルールに一致するページを作成した場合は、このルールに一致する URL を入力する必要があります。 変更は、ルールに一致するすべてのページに適用されます。
 
@@ -43,7 +47,7 @@ Web ページにアクセスして [!DNL Journey Optimizer] ユーザーイン�
 
    >[!CAUTION]
    >
-   >Web ページにアクセスするには、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target=&quot;_blank&quot;}。
+   >Web ページには、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}。
 
 1. クリック **[!UICONTROL Web デザイナーを開く]** をクリックして編集します。 [詳細情報](author-web.md)
 
