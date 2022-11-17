@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 34%
+source-wordcount: '558'
+ht-degree: 32%
 
 ---
 
@@ -24,12 +24,11 @@ Adobe Journey Optimizerを使用すると、このデータを容易に管理、
 >
 > Adobe Experience Platformを基に構築されたAdobe Journey Optimizerは、 [Adobeのリアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}。 この組み込みデータソースは事前に設定されており、リアルタイム顧客プロファイルからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人がクライアントかどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。[詳細情報](../datasource/adobe-experience-platform-data-source.md)。
 
-
 ## Adobe Customer Journey Analytics{#integration-cja}
 
 Journey Optimizerで生成されたデータを書き出して、Customer Journey Analyticsで高度な分析を実行できます。
 
-Journey OptimizerとCustomer Journey Analyticsの統合により、自動レポート配信とデータのカスタムビジュアライゼーションにより、すべてのジャーニーの全体像が得られます。
+Journey OptimizerのCustomer Journey Analyticsとの統合により、すべてのジャーニー、キャンペーン、オファーの全体像が得られ、自動レポート配信とデータのカスタムビジュアライゼーションが可能になります。
 
 Journey Optimizerでジャーニーを作成したら、顧客データをCustomer Journey Analyticsに読み込んで、レポートを開始し、顧客がジャーニーとやり取りするたびに及ぼす影響を把握できます。
 
@@ -37,13 +36,13 @@ Journey Optimizerでジャーニーを作成したら、顧客データをCustom
 
 ## Adobe Analytics{#integration-aa}
 
-既にキャプチャし、Adobe Experience PlatformにストリーミングしているAdobe Analyticsのすべての行動イベントデータを活用して、ジャーニーをトリガーし、顧客に対するエクスペリエンスを自動化できます。
+リアルタイムのジャーニーをトリガーし、顧客に対してエクスペリエンスを自動化するために、既にキャプチャおよびAdobe Experience PlatformにストリーミングしているすべてのAdobe Analytics行動イベントデータを活用できます。
 
 詳細情報： [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe インテリジェントサービス{#integration-intelligent-service}
 
-Adobeインテリジェントサービスとの統合により、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。[詳細情報](../building-journeys/ai-services-overview.md)。
+Adobeインテリジェントサービスとの統合により、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。例えば、Adobeインテリジェントサービスを使用すると、ブランドは、チャーンやコンバージョンの機械学習に基づくスコアを作成でき、Adobe Experience Platformのプロファイル属性として使用し、ジャーニーのパーソナライズに使用できます。 [詳細情報](../building-journeys/ai-services-overview.md)。
 
 
 ## Adobe Campaign{#integration-ac}
@@ -64,7 +63,7 @@ Adobeインテリジェントサービスとの統合により、顧客体験の
 
 詳細情報： [カスタムアクション](../action/about-custom-action-configuration.md).
 
-## 外部システム{#integration-external-systems}
+## 外部データソース{#integration-external-systems}
 
 Journey Optimizer では、カスタムデータソースとカスタムアクションを使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータでジャーニーをエンリッチメントできます。
 
