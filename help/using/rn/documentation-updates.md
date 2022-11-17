@@ -4,7 +4,7 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 99%
@@ -17,7 +17,8 @@ ht-degree: 99%
 
 ## 2022年11月 {#november-2022}
 
-ミラーページ URL の長さに関する推奨事項が追加されました。 [詳細情報](../design/message-tracking.md)
+<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
+* ミラーページ URL の長さに関する推奨事項が追加されました。 [詳細情報](../design/message-tracking.md)
 
 ## 2022年10月 {#october-2022}
 
