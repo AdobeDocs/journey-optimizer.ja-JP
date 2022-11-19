@@ -11,7 +11,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Platform のアラートについて詳しくは、[ドキュ�
 
 ![](assets/alerts1.png)
 
-このような予期しない動作が発生した場合は、インターフェイスの右上隅にある電子メールを通じてアラートの購読者にアラート通知が送信されます。
+このような予期しない動作が発生した場合は、インターフェイスの右上隅にあるメールを通じて、アラートのサブスクライバーにアラート通知が送信されます。
 
 ![](assets/alerts2.png)
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer でのアーカイブのサポート
-description: メッセージのアーカイブ方法を説明します
+description: メッセージのアーカイブ方法を学ぶ
 feature: Application Settings
 topic: Administration
 role: Admin

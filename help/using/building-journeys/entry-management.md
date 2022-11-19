@@ -6,13 +6,13 @@ description: プロファイルエントリの管理方法
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
+exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 59%
 
 ---
-
 
 # プロファイルエントリ管理 {#entry-management}
 

@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 
 ---
-
 
 # 条件付きルールの操作 {#conditions}
 

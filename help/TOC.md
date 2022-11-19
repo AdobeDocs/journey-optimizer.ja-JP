@@ -57,7 +57,7 @@ ht-degree: 97%
       + [メール、SMS、プッシュ](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
-      + [Adobe Campaign v7/v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
+      + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルの更新](using/building-journeys/update-profiles.md)
    + 式の作成 {#building-advanced-conditions-journeys}
@@ -155,7 +155,7 @@ ht-degree: 97%
       + テクニカルユースケース{#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [外部データソースとカスタムアクションでのスループットの制限](using/building-journeys/limit-throughput.md)
+         + [外部データソースとカスタムアクションを使用してスループットを制限する](using/building-journeys/limit-throughput.md)
 + キャンペーン{#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)

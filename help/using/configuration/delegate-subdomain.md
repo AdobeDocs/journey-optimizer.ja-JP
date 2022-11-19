@@ -11,7 +11,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 >abstract="Journey Optimizer を使用すると、サブドメインをアドビにデリゲートできます。サブドメインを完全にアドビにデリゲートできます。これは推奨される方法です。また、CNAME を使用してアドビ固有のレコードを指すサブドメインを作成することもできますが、この方法では、DNS レコードを独自に保持および管理する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html?lang=ja#subdomain-delegation-methods" text="サブドメインの設定方法"
 
-ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をAdobeにデリゲートできます。 [サブドメインデリゲーション](about-subdomain-delegation.md)の詳細情報
+ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。[サブドメインデリゲーション](about-subdomain-delegation.md)の詳細情報
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->完全なサブドメインデリゲーションは、推奨される方法です。両方の[サブドメイン設定方法](about-subdomain-delegation.md#subdomain-delegation-methods)の違いの詳細。
+>完全なサブドメインデリゲーションは、推奨される方法です。両方の[サブドメイン設定方法](about-subdomain-delegation.md#subdomain-delegation-methods)の違いの詳細を参照してください。
 >
->サブドメインの設定は、すべての環境で共通です。 したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
+>サブドメインの設定は、すべての環境で共通です。したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
 
 ## 完全なサブドメインデリゲーション {#full-subdomain-delegation}
 

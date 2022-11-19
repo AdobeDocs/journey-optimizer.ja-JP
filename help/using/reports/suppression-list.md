@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 抑制リスト
-description: 抑制リストの使用方法を学ぶには、次の手順を実行します。
+description: 抑制リストの使用方法を学ぶ
 feature: Deliverability
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 抑制リストは、配信から除外するアドレスとドメインで構成されます。これらの連絡先に送信すると、送信のレピュテーションと配信率が低下する可能性があるためです。
 
-この [!DNL Journey Optimizer] 抑制リストは、特定のサンドボックスに対して、独自の環境レベルで管理されます。
+この [!DNL Journey Optimizer] 抑制リストは、特定のサンドボックスなどに対して、独自の環境レベルで管理されます。
 
 単一のクライアント環境（サンドボックス ID に関連付けられた組織 ID に固有の環境）で、すべてのメーリングをまたいで抑制されるメールアドレスとドメインを収集します。
 

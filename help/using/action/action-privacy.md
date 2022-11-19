@@ -7,7 +7,8 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 100%

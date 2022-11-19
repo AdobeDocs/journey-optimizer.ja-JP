@@ -62,7 +62,7 @@ Adobe Journey Optimizerには、マーケターがマーケティングアウト
 
 * [カスタムアクションを使用したコレクションの動的な受け渡し](collections.md)
 * [配信を増やす](ramp-up-deliveries-uc.md)
-* [外部データソースとカスタムアクションでのスループットの制限](limit-throughput.md)
+* [外部データソースとカスタムアクションを使用してスループットを制限する](limit-throughput.md)
 
 ## ジャーニーのバージョン{#journey-versions}
 

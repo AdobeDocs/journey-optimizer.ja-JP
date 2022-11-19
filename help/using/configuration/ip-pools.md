@@ -11,7 +11,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="IP プールの設定"
->abstract="IP プールは、E メールの配信品質を向上させるために、サブドメインの IP アドレスを収集します。"
+>abstract="IP プールは、サブドメインの IP アドレスを収集して、メールの配信品質を向上させます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -37,7 +37,7 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->IP プールの構成は、すべての環境で共通です。 したがって、IP プールの作成または編集は、実稼動用サンドボックスにも影響を与えます。
+>IP プールの設定は、すべての環境に共通です。したがって、IP プールの作成や編集は、実稼動用サンドボックスにも影響を与えます。
 
 ## IP プールの作成 {#create-ip-pool}
 

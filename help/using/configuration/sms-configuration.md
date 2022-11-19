@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS 設定
-description: Journey Optimizerで SMS を送信するように環境を設定する方法を説明します
+description: Journey Optimizer で SMS を送信するように環境を設定する方法を学ぶ
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ API 認証情報を作成して設定した後、SMS メッセージ用のチャ
 >id="ajo_admin_surface_sms_type"
 >title="SMS カテゴリの定義"
 >abstract="このサーフェスを使用する際に送信される SMS メッセージのタイプ（ユーザーの同意が必要なプロモーション SMS メッセージ用の「マーケティング」または、特定のコンテキストで購読解除済みのプロファイルにも送信できる非商用 SMS メッセージ用の「トランザクション」）を選択します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="マーケティング SMS メッセージのオプトアウト"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティング SMS メッセージのオプトアウト"
 
 SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります。
 

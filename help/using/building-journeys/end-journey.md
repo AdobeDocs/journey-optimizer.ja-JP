@@ -6,13 +6,13 @@ description: Journey Optimizerでのジャーニーの終わりを学ぶ
 feature: Journeys
 role: User
 level: Beginner
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 98%
 
 ---
-
 
 # ジャーニーを終了{#journey-ending}
 
@@ -90,4 +90,3 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 1. 右上の下向き矢印をクリックします。
    ![](assets/finish_drop_down_list.png)
 1. 「**[!UICONTROL 停止]**」をクリックし、ダイアログボックスで確定します。
-

@@ -279,7 +279,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 </tr> 
   <tr> 
    <td> 配信済み<br/> </td> 
-   <td> 正常に送信されたメッセージ数。<br/> </td> 
+   <td> 正常に送信されたメッセージの数。<br/> </td> 
 </tr> 
   <tr> 
    <td>エンゲージメント<br/> </td> 

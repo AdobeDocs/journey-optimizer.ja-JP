@@ -9,13 +9,13 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
 ---
-
 
 # オーディエンスへのアクセスと管理 {#access-manage-audiences}
 
