@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
@@ -52,7 +52,7 @@ ht-degree: 100%
 1. スキーマに `productListItems` 配列が含まれるイベントを作成します。
 1. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
 
-   製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target="_blank"}を参照してください。
+   製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
@@ -62,6 +62,7 @@ ht-degree: 100%
 ## 手順 2： メールの作成{#configure-email}
 
 1. **メール**&#x200B;アクティビティで、「**[!UICONTROL コンテンツを編集]**」をクリックしたあと、「**[!UICONTROL 電子メールデザイナー]**」をクリックします。
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. E メールデザイナーホームページの左側のパレットから、3 つの構造コンポーネントをメッセージの本文にドラッグ＆ドロップします。
@@ -104,11 +105,12 @@ ht-degree: 100%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"}を参照してください。
+      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. メッセージを保存します。
 
 ## 手順 4：カート内の商品リストの挿入 {#each-helper}
@@ -151,7 +153,6 @@ ht-degree: 100%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-
       この例では、*event_ID* はイベントの ID を表します。
 
       ![](assets/personalization-uc-helpers-10.png)
@@ -165,6 +166,7 @@ ht-degree: 100%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
 
 1. 次のコードを、`{{#each}}` 開始タグと `{/each}}` 終了タグの間に貼り付けます。
 
@@ -186,6 +188,7 @@ ht-degree: 100%
    1. 前の検索結果から、**[!UICONTROL 名前]**&#x200B;トークンを式に追加します。
 
    次の手順を 2 回繰り返します。
+
    * プレースホルダー「#quantity」を&#x200B;**[!UICONTROL 数量]**&#x200B;トークンに置き換えます。
    * プレースホルダー「#priceTotal」を&#x200B;**[!UICONTROL 合計価格]**&#x200B;トークンに置き換えます。
 
@@ -206,6 +209,7 @@ ht-degree: 100%
    ```
 
 1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## 手順 5：製品固有のメモの挿入 {#if-helper}
