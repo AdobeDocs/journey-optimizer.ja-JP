@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 **形式**
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 
 <!--
@@ -33,7 +33,7 @@ ht-degree: 100%
 The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 -->
 
@@ -125,7 +125,7 @@ The following operation gets all the values for the map `identityMap`.
 **形式**
 
 ```sql
-{%= formatDate(date, format) %}
+{%= formatDate(datetime, format) %}
 ```
 
 上記の 1 番目の文字列が日付属性で、2 番目の値が日付の変換および表示方法を示します。
@@ -151,7 +151,7 @@ The following operation gets all the values for the map `identityMap`.
 **形式**
 
 ```sql
-{%= setDays(date, day) %}
+{%= setDays(datetime, day) %}
 ```
 
 <!--
@@ -171,7 +171,7 @@ The following operation gets all the values for the map `identityMap`.
 **形式**
 
 ```sql
-{%= setHours(date, hour) %}
+{%= setHours(datetime, hour) %}
 ```
 
 <!--
