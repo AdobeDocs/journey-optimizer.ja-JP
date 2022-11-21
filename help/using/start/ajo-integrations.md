@@ -6,13 +6,11 @@ description: Journey Optimizerを他のソリューションと統合する方�
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 32%
+source-wordcount: '580'
+ht-degree: 19%
 
 ---
 
@@ -26,23 +24,27 @@ Adobe Journey Optimizerを使用すると、このデータを容易に管理、
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
-Journey Optimizerで生成されたデータを書き出して、Customer Journey Analyticsで高度な分析を実行できます。
+Customer Journey Analyticsを使用して、Journey Optimizerで生成されたデータに対して高度な分析を実行できます。
 
-Journey OptimizerのCustomer Journey Analyticsとの統合により、すべてのジャーニー、キャンペーン、オファーの全体像が得られ、自動レポート配信とデータのカスタムビジュアライゼーションが可能になります。
+Journey Optimizerは、Adobe Experience Platformにデータを保存します。また、Customer Journey Analyticsは、すべてのジャーニー、キャンペーン、オファーの全体像を提供し、自動レポート配信とデータのカスタムビジュアライゼーションを提供します。
 
-Journey Optimizerでジャーニーを作成したら、顧客データをCustomer Journey Analyticsに読み込んで、レポートを開始し、顧客がジャーニーとやり取りするたびに及ぼす影響を把握できます。
+Journey Optimizerでジャーニーを作成した後、Customer Journey Analyticsは、プラットフォームからデータを取り込んでレポートを開始し、顧客がジャーニーとやり取りするたびの影響を把握できます。
 
 詳細情報： [Journey Optimizer +Customer Journey Analytics](../reports/cja-ajo.md).
 
 ## Adobe Analytics{#integration-aa}
 
-リアルタイムのジャーニーをトリガーし、顧客に対してエクスペリエンスを自動化するために、既にキャプチャおよびAdobe Experience PlatformにストリーミングしているすべてのAdobe Analytics行動イベントデータを活用できます。
+既にキャプチャし、Adobe Experience PlatformにストリーミングしているAdobe Analyticsのすべての行動イベントデータを活用して、トリガーのリアルタイムジャーニーを促進し、顧客のエクスペリエンスを自動化できます。 このデータは、Journey Optimizerを使用してエンゲージ可能なセグメントの作成にも使用できます。
 
 詳細情報： [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe インテリジェントサービス{#integration-intelligent-service}
 
-Adobeインテリジェントサービスとの統合により、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。例えば、Adobeインテリジェントサービスを使用すると、ブランドは、チャーンやコンバージョンの機械学習に基づくスコアを作成でき、Adobe Experience Platformのプロファイル属性として使用し、ジャーニーのパーソナライズに使用できます。 [詳細情報](../building-journeys/ai-services-overview.md)。
+Adobeインテリジェントサービスは、リアルタイム顧客データプラットフォームにネイティブで、顧客体験の使用例で人工知能と機械学習の機能を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。
+
+顧客 AI を使用すると、企業は、チャーンやコンバージョンの機械学習に基づくスコアを作成できます。このスコアは、Adobe Experience Platformのプロファイル属性として使用でき、ジャーニーのパーソナライズに使用できます。
+
+[詳細情報](../building-journeys/ai-services-overview.md)。
 
 
 ## Adobe Campaign{#integration-ac}
@@ -57,9 +59,9 @@ Adobeインテリジェントサービスとの統合により、顧客体験の
 
 ## カスタムチャネル{#integration-custom}
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーへの接続を設定します。例えば、カスタムアクションを使用して Epsilon、Slack、[Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}、Firebase などのシステムに接続できます。
+サードパーティのシステムを使用してメッセージを送信する場合、またはジャーニーからサードパーティのシステムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーに接続します。 例えば、カスタムアクションを使用して次のシステムに接続できます。エプシロン、Slack、 [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}、Firebase など
 
-カスタムアクションは、技術ユーザーが定義し、マーケターが使用できる追加のアクションです。設定が完了すると、**[!UICONTROL アクション]**&#x200B;カテゴリの、ジャーニーの左側のパレットに表示されます。詳しくは、[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
+カスタムアクションは、技術ユーザーが定義し、マーケターが使用できる追加のアクションです。設定が完了すると、ジャーニーの左側のパレットに表示されます。 **[!UICONTROL アクション]** カテゴリ。 詳しくは、[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 
 詳細情報： [カスタムアクション](../action/about-custom-action-configuration.md).
 
