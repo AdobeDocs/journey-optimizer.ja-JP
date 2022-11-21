@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 4%
 
 ---
@@ -68,7 +68,7 @@ Journey Optimizerのデータは柔軟に取り扱え、データの保持、ア
 
 * **パージとアーカイブのメカニズム**:データのパージとアーカイブは、Journey Optimizerで自由に定義および自動化して、データ保持ポリシーを自動化できます。 異なるデータエンティティに対して異なるエージング戦略を定義できます。 また、古いデータをパージまたはアーカイブする前に自動的にエクスポートするように、エクスポートメカニズムを定義することもできます。
 
-   Adobe Experience Platform UI のデータハイジーンワークスペースを使用すると、様々なデータハイジーンタスク（消費者 ID の削除やデータセット有効期限のスケジュール設定など）を作成および監視できます。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}を参照してください。
+   Adobe Experience Platform UI のデータハイジーンワークスペースを使用すると、様々なデータハイジーンタスク（消費者 ID の削除やデータセット有効期限のスケジュール設定など）を作成および監視できます。このワークスペースは、セキュリティとプライバシーのシールドとヘルスケアのシールドで利用できます。 詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}を参照してください。
 
 * **データレイクと削除**:データレイクに保存された顧客データは、Journey Optimizerで保持できます。
 

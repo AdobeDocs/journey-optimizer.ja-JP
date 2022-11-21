@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 99%
+source-wordcount: '2145'
+ht-degree: 98%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 99%
 
 ## 2022年11月 {#november-2022}
 
-<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
-* ミラーページ URL の長さに関する推奨事項が追加されました。 [詳細情報](../design/message-tracking.md)
+* Journey Optimizerの統合に関する新しいページを追加しました。 [詳細情報](../start/ajo-integrations.md)
+* ミラーページの URL の長さに関する推奨事項を追加しました。 [詳細情報](../design/message-tracking.md)
 
 ## 2022年10月 {#october-2022}
 
 * 外部データソースとカスタムアクションを使用してスループットを制限する方法に関するジャーニーのユースケースを追加しました。[詳細情報](../building-journeys/limit-throughput.md)
 * ジャーニーのユースケースの節では、[ビジネスユースケース](../building-journeys/journeys-uc.md)と[テクニカルユースケース](../building-journeys/collections.md) の 2 つのカテゴリに再編成しました。
 * **エンティティデータセット**&#x200B;の節を更新し、詳細を追加しました。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
-* オプトアウト管理および同意ポリシーに関する情報が、新しい節に再編成されました。 [詳細情報](../privacy/opt-out.md)
+* オプトアウト管理および同意ポリシーの節の構成を変更しました。 [詳細情報](../privacy/opt-out.md)
 * ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../messages/messages-in-journeys.md#adv-settings)
 * **ランディングページのサブドメインの設定**&#x200B;の節に、ランディングページのサブドメインでは大文字を使用できないことを示すメモを追加しました。[詳細情報](../configuration/lp-subdomains.md)
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) および [toString](../building-journeys/functions/functiontostring.md) 関数に関するページを更新しました。
 * 時間条件パラメーターの詳細を追加しました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
 * 組み込みデータセットに関する情報を追加しました。[詳細情報](../data/get-started-datasets.md#access-datasets)
-* グローバルレポートの節とライブレポートの節の構成を変更し、読みやすさを改善しました。[詳細情報](../reports/global-report.md)
+* グローバルレポートとライブレポートの節を改善し、構成を変更しました。 [詳細情報](../reports/global-report.md)
 * Adobe Journey Optimizer で使用できるすべてのレポート指標のリストを追加しました。
    [詳細情報](../reports/global-report.md#email-and-sms-metrics)
 * BCC メールの節を新しいアーカイブのサポートページに移動しました。[詳細情報](../configuration/archiving-support.md)
