@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,14 @@ ht-degree: 96%
 [!DNL Journey Optimizer] ユーザーインターフェイスで web ページにアクセスして作成できるようにするには、[この節](create-web.md#prerequesites)に記載されている前提条件に従ってください。
 
 ## Web ページコンテンツの編集 {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="編集する URL を入力"
+>abstract="上で定義した Web サーフェスに適用されるコンテンツの編集に使用する特定の Web ページの URL を入力します。 ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="詳細情報"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 キャンペーンから web アクションを作成したら、web デザイナーを使用してコンテンツを編集できます。 これを行うには、以下の手順に従います。
 
@@ -73,6 +81,11 @@ ht-degree: 96%
 
 ## コンテンツコンポーネントの使用 {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Web ページへのコンテンツコンポーネントの追加"
+>abstract="Web ページに様々なコンポーネントを追加し、必要に応じて編集できます。"
+
 1. 左側の&#x200B;**[!UICONTROL コンポーネント]**&#x200B;パネルでは、次のコンポーネントを web ページに追加し、必要に応じて編集できます。
 
    * [ディバイダー](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ ht-degree: 96%
 
 ### 参照モードにスワップ {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="参照モードの使用"
+>abstract="このモードから、パーソナライズする選択したサーフェスから正確なページに移動できます。"
+
 専用ボタンを使用して、デフォルトの&#x200B;**[!UICONTROL デザイン]**&#x200B;モードから&#x200B;**[!UICONTROL 参照]**&#x200B;モードにスワップします。
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ ht-degree: 96%
 ![](assets/web-designer-device.png)
 
 ## 変更の管理 {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="すべての変更を容易に管理"
+>abstract="このウィンドウを使用すると、Web ページに追加したすべての調整とスタイルをナビゲートおよび管理できます。"
 
 Web ページに追加したすべてのコンポーネント、調整およびスタイルを簡単に管理できます。
 
@@ -164,6 +187,11 @@ Web ページに追加したすべてのコンポーネント、調整および�
 ![](assets/web-designer-offer.png)
 
 ## Web キャンペーンのテスト {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Web エクスペリエンスをプレビュー"
+>abstract="Web エクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
 変更した web エクスペリエンスのプレビューを表示するには、次の手順に従います。
 

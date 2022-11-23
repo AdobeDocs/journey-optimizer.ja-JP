@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,11 @@ Web エクスペリエンスが正しく配信されるようにするには、�
    ![](assets/web-aep-merge-policy.png)
 
 ## Web キャンペーンの作成 {#create-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="Web サーフェスを定義する"
+>abstract="Web サーフェスは、1 つのページ URL または複数のページと一致させることができ、1 つまたは複数の Web ページにコンテンツの変更を配信できます。"
 
 キャンペーンを通じて web エクスペリエンスの作成を開始するには、次の手順に従います。
 

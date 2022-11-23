@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '779'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_admin_ptr_record"
 >title="サブドメインの PTR レコード"
 >abstract="ポインターレコード（PTR）は、IP アドレスにリンクされたドメイン名を提供する DNS レコードの一種で、受信メールサーバーが送信者の IP アドレスを確認するのに役立ちます。配信品質のエキスパートとの間で検討および議論が終わった後に、PTR レコードを編集するだけです。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record_header"
+>title="サブドメインの PTR レコード"
+>abstract="サブドメインがJourney OptimizerのAdobeにデリゲートされると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。"
 
 ## PTR レコードについて {#about-ptr-records}
 
