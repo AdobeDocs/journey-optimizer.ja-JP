@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 99%
 
 ---
 
@@ -29,14 +29,42 @@ ht-degree: 100%
 * 受信者に、お知らせの受信を&#x200B;**登録解除する機能**&#x200B;を提供します。[詳細情報](lp-use-cases.md#opt-out)
 * オプトインまたはオプトアウト時に&#x200B;**確認メール**&#x200B;を送信します。[詳細情報](lp-use-cases.md#send-confirmation-email)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">ランディングページの作成</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">購読リストの作成</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">ランディングページのデザイン</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="../reports/lp-report-live.md">レポート</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-lp.md">
+<img alt="リード" src="../assets/do-not-localize/lp-subscription.jpeg">
+</a>
+<div><a href="create-lp.md"><strong>ランディングページの作成</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="subscription-list.md">
+<img alt="頻度の低い" src="../assets/do-not-localize/lp-list.jpg">
+</a>
+<div>
+<a href="subscription-list.md"><strong>購読リストの作成</strong></a>
+</div>
+<p></td>
+<td>
+<a href="design-lp.md">
+<img alt="検証" src="../assets/do-not-localize/lp-design.jpg">
+</a>
+<div>
+<a href="design-lp.md"><strong>ランディングページのデザイン</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../reports/lp-report-live.md">
+<img alt="検証" src="../assets/do-not-localize/lp-reporting.jpg">
+</a>
+<div>
+<a href="../reports/lp-report-live.md"><strong>レポート</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 ## ハウツービデオ{#video}
 
