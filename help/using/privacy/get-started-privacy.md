@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '205'
+ht-degree: 10%
 
 ---
 
@@ -30,12 +30,48 @@ Adobe Experience PlatformとJourney Optimizerは、プライバシー管理を�
 
 * **ガバナンスポリシーの適用**:Adobe Experience Platformガバナンスポリシーを活用して、機密フィールドがカスタムアクションを通じてサードパーティのシステムに書き出されるのを防ぎます。 [詳細情報](../action/action-privacy.md)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">データリクエストの管理</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">ユーザーのアクションを監査</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">同意の追跡と管理</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">同意ポリシーの適用</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">ガバナンスポリシーの適用</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="requests.md">
+<img alt="リード" src="../assets/do-not-localize/privacy-request.jpeg">
+</a>
+<div><a href="requests.md"><strong>データリクエストの管理</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="audit-logs.md">
+<img alt="頻度の低い" src="../assets/do-not-localize/privacy-audit.jpeg">
+</a>
+<div>
+<a href="audit-logs.md"><strong>ユーザーのアクションを監査</strong></a>
+</div>
+<p></td>
+<td>
+<a href="opt-out.md">
+<img alt="検証" src="../assets/do-not-localize/privacy-track-consent.jpeg">
+</a>
+<div>
+<a href="opt-out.md"><strong>同意の追跡と管理</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/consent.md">
+<img alt="検証" src="../assets/do-not-localize/privacy-consent-policies.jpeg">
+</a>
+<div>
+<a href="../action/consent.md"><strong>同意ポリシーの適用</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/action-privacy.md">
+<img alt="検証" src="../assets/do-not-localize/privacy-governance.jpeg">
+</a>
+<div>
+<a href="../action/action-privacy.md"><strong>ガバナンスポリシーの適用</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
