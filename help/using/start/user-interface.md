@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,9 @@ ht-degree: 99%
 
 **[!UICONTROL ジャーニー管理]**
 
-* **[!UICONTROL ジャーニー]** ：お客様のジャーニーを作成、設定および調整します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL ジャーニー]**  — カスタマージャーニーを作成、設定、調整します。 [詳細情報](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL ランディングページ]** - ランディングページを作成、デザイン、テストおよび公開できます。[詳細情報](../landing-pages/get-started-lp.md)
+* **[!UICONTROL ランディングページ]**  — ランディングページの作成、デザイン、テスト、公開を行います。 [詳細情報](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL 意思決定管理]**
 
@@ -275,7 +275,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * 右上のアバターから「**環境設定**」をクリックします。
    ![](assets/preferences.png)
 * 次に、メールアドレスの下に表示される言語をクリックします
-* 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
+* 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが最初の言語にローカライズされていない場合に備えて、2 番目の言語を選択できます。
    ![](assets/select-language.png)
 
 ## 検索{#unified-search}
