@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 83%
+source-wordcount: '203'
+ht-degree: 55%
 
 ---
 
@@ -23,11 +23,12 @@ ht-degree: 83%
 >
 >この節では、ルールベースのイベントと、Adobe Analytics データを使用する必要があるお客様が対象です。
 
-そのためには、利用するレポートスイートを Adobe Experience Platform で有効化する必要があります。
+この機能を有効にするには、使用するレポートスイートをAdobe Experience Platformでアクティブ化する必要があります。 これを行うには、以下の手順に従います。
 
-1. Adobe Experience Platform の「Adobe Analytics」セクションで、「**[!UICONTROL ソース]**」を選択してから「**[!UICONTROL データを追加]**」を選択します。使用可能な Adobe Analytics レポートスイートのリストが表示されます。
+1. Adobe Experience Platformに接続し、 **[!UICONTROL ソース]**.
+1. 「 Adobe Analytics 」セクションで、「 **[!UICONTROL データを追加]**:使用可能なAdobe Analyticsレポートスイートのリストが表示されます。
 
-1. 有効にするレポートスイートを選択し、「**[!UICONTROL 次へ]**」をクリックして、「**[!UICONTROL 終了]**」をクリックします。
+1. 有効にするレポートスイートを選択し、 **[!UICONTROL 次へ]** および **[!UICONTROL 完了]**.
 
 1. ソースデータ ID をベータプログラムの連絡窓口と共有します。
 
