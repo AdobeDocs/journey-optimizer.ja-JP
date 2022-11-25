@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[
 
 >[!NOTE]
 >
->メールの場合、プロファイルトランザクションテンプレートを使用しているなら、購読解除のメカニズムは Campaign Standard によって組み込みで処理されます。テンプレートの&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;のコンテンツブロックを追加するだけです（[詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)）。イベントベースのテンプレート（rtEvent）を使用している場合は、URL パラメーターにユーザーのメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。このランディングページを作成し、ユーザーの購読解除の決定がアドビに送信されることを確認する必要があります。
+>メールの場合、プロファイルトランザクションテンプレートを使用しているなら、購読解除のメカニズムは Campaign Standard によって組み込みで処理されます。テンプレートの&#x200B;**[!UICONTROL 購読解除リンク]**&#x200B;のコンテンツブロックを追加するだけです（[詳細情報](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)）。イベントベースのテンプレート（rtEvent）を使用している場合は、URL パラメーターにユーザーのメールを渡し、購読解除ランディングページを指すリンクをメッセージに追加する必要があります。このランディングページを作成し、ユーザーの購読解除の決定がアドビに送信されることを確認する必要があります。
 
 まず、トランザクションメッセージテンプレートを選択する必要があります。
 
