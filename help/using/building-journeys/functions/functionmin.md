@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
 
-# 分 {#min}
+# min {#min}
 
 リストまたは 2 つの式のいずれかで指定された一連の式の中の最小値を返します。null 値は無視されます。
 
