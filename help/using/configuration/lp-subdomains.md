@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >id="ajo_admin_config_lp_subdomain"
 >title="ランディングページプリセットの作成"
 >abstract="ランディングページプリセットを作成できるようにするには、少なくとも 1 つのランディングページサブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="ランディングページプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=ja" text="ランディングページプリセットを作成"
 
 [ランディングページプリセットの作成](lp-presets.md)を可能にするには、ランディングページに使用するサブドメインをセットアップする必要があります。
 
