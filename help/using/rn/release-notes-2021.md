@@ -5,7 +5,7 @@ title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2070'
 ht-degree: 100%
 
