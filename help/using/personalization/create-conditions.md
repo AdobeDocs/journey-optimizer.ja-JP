@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
       * **[!UICONTROL セグメントメンバーシップ]**&#x200B;には、[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)のすべてのセグメント属性（ステータス、バージョンなど）が一覧表示されます。
       * **[!UICONTROL XDM 個別プロファイル]**&#x200B;には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に関連するすべてのプロファイル属性が一覧表示されます。
    * **[!UICONTROL コンテキスト]**：ジャーニーでメッセージを使用している場合、コンテキストジャーニーフィールドをこのタブから使用できます。
-   * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)で作成されたセグメントから生成されたすべてのオーディエンスを一覧表示します。
+   * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)で作成されたセグメントから生成されたすべてのオーディエンスを一覧表示します。
 
 1. 条件付きルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
 
