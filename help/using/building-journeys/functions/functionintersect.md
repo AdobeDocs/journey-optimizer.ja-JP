@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
 ---
 
-# 交差{#intersect}
+# intersect{#intersect}
 
 2 つの入力リストで共通する値を返します。2 つのリストのいずれかが null の場合、空のリストを返します。
 
