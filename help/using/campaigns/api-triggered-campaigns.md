@@ -5,7 +5,7 @@ title: API を使用したキャンペーンのトリガー
 description: ' [!DNL Journey Optimizer] API を使用してキャンペーンをトリガーする方法を説明します'
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
 ht-degree: 100%
 
