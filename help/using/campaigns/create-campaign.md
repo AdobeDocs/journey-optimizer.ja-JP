@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
-workflow-type: ht
-source-wordcount: '853'
-ht-degree: 100%
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 93%
 
 ---
 
@@ -35,10 +35,12 @@ ht-degree: 100%
 
    ![](assets/create-campaign.png)
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンを実行するタイミングを指定します。
+1. 内 **[!UICONTROL プロパティ]** 「 」セクションで、キャンペーンの実行方法を指定します。
 
-   * **[!UICONTROL スケジュール済み]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;タイプのメッセージを送信することを目的としています。
-   * **[!UICONTROL API トリガー]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**トランザクション**&#x200B;メッセージ、つまり、個人が実行したアクション（パスワードのリセット、カードの放棄など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照](api-triggered-campaigns.md)
+   * **[!UICONTROL スケジュール済み]**
+   * **[!UICONTROL API トリガー]**
+
+   キャンペーンのタイプと関連する関係について詳しくは、 [セクション](#campaigntype).
 
 1. 「**[!UICONTROL アクション]**」セクションで、メッセージの送信に使用するチャネルとチャネルサーフェスを選択し、「**[!UICONTROL 作成]**」をクリックします。
 
@@ -96,7 +98,40 @@ ht-degree: 100%
 
 キャンペーンの準備が整ったら、キャンペーンをレビューして公開できます。 [詳細情報](#review-activate)
 
+## キャンペーンタイプ {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="キャンペーンタイプ"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="キャンペーンカテゴリ"
+>abstract="TBC"
+
+次の 2 種類のキャンペーンを使用できます。
+
+* **[!UICONTROL スケジュール済み]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;タイプのメッセージを送信することを目的としています。
+
+* **[!UICONTROL API トリガー]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**トランザクション**&#x200B;メッセージ、つまり、個人が実行したアクション（パスワードのリセット、カードの放棄など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照](api-triggered-campaigns.md)
+
 ## キャンペーンのスケジュール設定 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="キャンペーン開始"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="キャンペーン終了"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="キャンペーンアクショントリガー"
+>abstract="TBC"
 
 デフォルトでは、キャンペーンは手動でアクティブ化した後に開始され、メッセージが 1 回送信された直後に終了します。
 
@@ -106,7 +141,7 @@ ht-degree: 100%
 
 ![](assets/create-campaign-schedule.png)
 
-## 迅速配信モード {#rapid-delivery}
+## 迅速配信モード プッシュキャンペーン用 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"

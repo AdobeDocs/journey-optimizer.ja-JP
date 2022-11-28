@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+workflow-type: tm+mt
+source-wordcount: '1530'
+ht-degree: 99%
 
 ---
 
@@ -109,6 +109,11 @@ ht-degree: 100%
 
 ## 名前空間の選択 {#select-the-namespace}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_namespace"
+>title="ID 名前空間"
+>abstract="TBC"
+
 名前空間を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}から得られる追加情報をジャーニーで取得する場合には必須です。カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、名前空間は必要ありません。
 
 事前定義済みのものを使用するか、ID 名前空間サービスを使用して新しく作成できます。[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
@@ -130,7 +135,7 @@ ht-degree: 100%
 
 キーは、イベントのペイロードデータの一部とするフィールドまたはフィールドの組み合わせです。システムはキーを使用することでイベントに関連付けられた人を識別できます。キーには、Experience Cloud ID、CRM ID、メールアドレスなどを使用できます。
 
-アドビのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーは、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;} でプロファイル ID として定義した情報である必要があります。
+アドビのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーは、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;} でプロファイル ID として定義した情報である必要があります。
 
 これにより、プロファイル識別子はイベントと個人プロファイルの間の紐付けを実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]**」フィールドはあらかじめ入力されます。ID を定義していない場合は、_identityMap／ID_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、自動的に既存の _identityMap／ID_ を使用します。
 

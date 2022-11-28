@@ -8,14 +8,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
-workflow-type: ht
-source-wordcount: '1572'
-ht-degree: 100%
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+workflow-type: tm+mt
+source-wordcount: '1605'
+ht-degree: 99%
 
 ---
 
 # チャネルサーフェスの設定 {#set-up-channel-surfaces}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_channel_surfaces"
+>title="アプリサーフェス"
+>abstract="サーフェスは、システム管理者によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 "
+
 
 [!DNL Journey Optimizer] では、チャネルサーフェス（例：メッセージプリセット）を設定して、メッセージに必要なすべての技術パラメーター（メールのタイプ、送信者のメールと名前、モバイルアプリ、SMS 設定など）を定義しておくことができます。
 

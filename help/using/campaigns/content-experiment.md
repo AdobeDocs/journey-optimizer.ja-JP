@@ -10,14 +10,19 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: ht
-source-wordcount: '997'
-ht-degree: 100%
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 99%
 
 ---
 
 # コンテンツ実験の作成 {#content-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment"
+>title="コンテンツ実験"
+>abstract="TBC"
 
 >[!AVAILABILITY]
 >
