@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 97%
+source-wordcount: '2189'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 97%
 * Journey Optimizerの統合に関する新しいページを追加しました。 [詳細情報](../start/ajo-integrations.md)
 * ミラーページの URL の長さに関する推奨事項を追加しました。 [詳細情報](../design/message-tracking.md)
 * 電子メールの設定の新しい節が、適切な返信管理を確保するための推奨事項を含む、電子メールアドレスへの返信に追加されました。 [詳細情報](../configuration/email-settings.md#reply-to-email)
+* ライブジャーニーのメッセージのコンテンツを変更する方法に関する節を追加しました。 [詳細情報](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022年10月 {#october-2022}
 

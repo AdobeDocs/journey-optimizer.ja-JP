@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->スキーマ間の関係がデータソースでサポートされるようになりました。
+>データソースでは、スキーマの関係はサポートされていません。
 
-Adobe Experience Platform データソースと外部データソースの設定方法と、ジャーニーでデータを検索および使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
+Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ja){target=&quot;_blank&quot;}をご覧ください。
 
 ## ハウツービデオ {#video}
 

@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 86%
 
 ---
 
-# filter{#filter}
+# フィルター{#filter}
 
 指定されたキー値の 1 つに一致するキー属性を持つオブジェクトで構成される listObject（オブジェクトリスト）を返します。
+
+>[!NOTE]
+>
+>ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
 ## カテゴリ
 

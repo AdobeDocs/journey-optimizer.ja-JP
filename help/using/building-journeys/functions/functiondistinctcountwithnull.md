@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
-workflow-type: ht
-source-wordcount: '49'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 74%
 
 ---
 
 # distinctCountWithNull {#distinctCountWithNull}
 
 null 値を含め、異なる値の数をカウントします。
+
+>[!NOTE]
+>
+>ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
 ## カテゴリ
 

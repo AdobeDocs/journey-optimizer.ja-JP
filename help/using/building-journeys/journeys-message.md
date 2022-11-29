@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 73%
 
 ---
 
 # メール、SMS、プッシュ{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、SMS またはメールのメッセージアクティビティを追加し、[設定とコンテンツを定義](../messages/messages-in-journeys.md)するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。
+[!DNL Journey Optimizer] には、組み込みのメッセージ機能が付属しています。 ジャーニーにプッシュ、SMS またはメールのメッセージアクティビティを追加し、[設定とコンテンツを定義](../messages/messages-in-journeys.md)するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。
 
 また、メッセージを送信する特定のアクションを設定することもできます。
 
@@ -39,4 +39,12 @@ ht-degree: 100%
 
    メッセージを設定し、そのコンテンツを定義するすべての手順について詳しくは、[この節](../messages/get-started-content.md)を参照してください。
 
+## ライブコンテンツを更新{#update-live-content}
 
+ライブジャーニーでメッセージのコンテンツ（E メール、SMS、プッシュ）を更新できます。
+
+これをおこなうには、ライブジャーニーを開き、メッセージアクティビティを選択して、 **コンテンツを編集**.
+
+![](assets/add-a-message2.png)
+
+ただし、プロファイル属性かコンテキストデータ（イベントプロパティまたはジャーニープロパティから）かにかかわらず、パーソナライゼーションで使用される属性は変更できません。

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
-source-wordcount: '779'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 95%
 
 ---
 
@@ -325,6 +325,8 @@ _インターフェイスでの名前：ajo_entity_dataset（システムデー�
 >[!NOTE]
 >
 >将来の互換性に備え、当面の間、エンティティデータセット内の各メッセージの公開には 2 つのエントリが存在します。このことは、必要に応じてデータセット間で結合クエリを使用して目的の情報を取得する機能には影響しません。
+
+レポート内で、送信したアクションに応じて、特定のジャーニーで送信された E メールを並べ替える場合。 メッセージフィードバックデータセットをエンティティデータセットと結合できます。 使用するフィールドは次のとおりです。 `_experience.decisioning.propositions.scopeDetails.correlationID` および `_id field in entity dataset`.
 
 特定のキャンペーンに関連するメッセージテンプレートを取得するのに役立つクエリは次のとおりです。
 
