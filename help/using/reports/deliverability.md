@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 93%
 
 ---
 
 # 配信品質の基本を学ぶ {#manage-deliverability}
 
 配信品質は、受信者のインボックスに配信が正常に届いたかどうかを測定する手法です。
+
+>[!NOTE]
+>
+>Healthcare Shield のライセンスを受けるお客様は、Transport Layer Security(TLS)1.2 を使用して、Adobeのシステム（受信者）とJourney Optimizer（送信者）間のデータ交換を保護します。 受信メールサーバーが TLS 1.2 をサポートしていない場合、送信元にバウンスする E メールを含む配信品質の問題が発生します。
 
 **メール配信品質**&#x200B;とは、期待される品質のコンテンツと形式を備えたメッセージが、個人のメールアドレスを通じて短時間で宛先に到達する能力を判断する、一連の特性のことを指します。これらの特性は、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、評価の 4 つの主なカテゴリに分類されます。これらのカテゴリを合わせて、成功するメール配信品質プログラムの基礎が形成されます。
 
