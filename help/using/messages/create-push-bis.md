@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 50%
@@ -18,7 +18,7 @@ ht-degree: 50%
 
 # プッシュ通知の作成 {#create-push-notification-bis}
 
-## ジャーニーまたはキャンペーンでのプッシュ通知の作成 {#create}
+## ジャーニーまたはキャンペーンでのプッシュ通知の作成
 
 プッシュ通知を作成するには、次の手順に従います。
 
@@ -71,7 +71,7 @@ ht-degree: 50%
 
 >[!ENDTABS]
 
-## 迅速配信モード {#rapid-delivery}
+## 迅速配信モード
 
 迅速配信モード（旧ジャーニーでのバーストモード）は、 [!DNL Journey Optimizer] キャンペーン中に大量のプッシュメッセージを送信するのに非常に高速なアドオン。
 
@@ -79,7 +79,7 @@ ht-degree: 50%
 
 迅速な配信モードを使用する際のパフォーマンスの詳細については、を参照してください。
 
-### 前提条件 {#prerequisites}
+### 前提条件
 
 迅速配信メッセージには、次の要件があります。
 
