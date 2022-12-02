@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: プライバシーの基本を学ぶ
-description: Adobe Journey OptimizerとAdobe Experience Platformのプライバシーに関する詳細
+description: Adobe Journey Optimizer と Adobe Experience Platform のプライバシーについて説明します。
 feature: Monitoring
 role: User
 level: Intermediate
@@ -10,25 +10,25 @@ exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # プライバシーの基本を学ぶ {#privacy}
 
-Journey Optimizerは、個人情報や機密データを含む、膨大な量のデータを収集および処理するための強力なツールです。 そのため、プライバシー管理は慎重におこなう必要があります。
+Journey Optimizer は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。そのため、プライバシー管理は慎重に行う必要があります。
 
-Adobe Experience PlatformとJourney Optimizerは、プライバシー管理を確実におこなうのに役立つ様々なツールを提供しています。
+Adobe Experience Platform と Journey Optimizer には、プライバシー管理を確実に行うための様々なツールが用意されています。
 
-* **データリクエストの管理**:Adobe Experience Platform Privacy Serviceを使用して、個人データにアクセスして削除する顧客リクエストを管理します。 [詳細情報](requests.md)
+* **データリクエストの管理**：Adobe Experience Platform Privacy Service を使用して、個人データへのアクセスおよび削除の顧客リクエストを管理します。[詳細情報](requests.md)
 
-* **ユーザーのアクションを監査**:監査ログを活用して、システム内のユーザーが実行するアクションを特定し、問題をトラブルシューティングし、ビジネスが規制や企業データ管理ポリシーに準拠できるよう支援します。 [詳細情報](audit-logs.md)
+* **ユーザーのアクションの監査**：監査ログを活用して、システム内でユーザーが実行したアクションを特定し、問題をトラブルシューティングして、ビジネスが規制や企業のデータ管理ポリシーに準拠できるようにします。[詳細情報](audit-logs.md)
 
-* **同意の追跡と管理**:顧客のコミュニケーションに対する同意を追跡し、顧客の環境設定と購読を管理します。 [詳細情報](opt-out.md)
+* **同意の追跡と管理**：コミュニケーションに対する顧客の同意を追跡し、顧客の環境設定と購読を管理します。[詳細情報](opt-out.md)
 
-* **同意ポリシーの適用**:Adobe Experience Platformの同意ポリシーを定義し、顧客の環境設定に従ってカスタムアクションに適用します。 [詳細情報](../action/consent.md)
+* **同意ポリシーの適用**：顧客の環境設定に従って、Adobe Experience Platform の同意ポリシーを定義し、カスタムアクションに適用します。[詳細情報](../action/consent.md)
 
-* **ガバナンスポリシーの適用**:Adobe Experience Platformガバナンスポリシーを活用して、機密フィールドがカスタムアクションを通じてサードパーティのシステムに書き出されるのを防ぎます。 [詳細情報](../action/action-privacy.md)
+* **ガバナンスポリシーの適用**：Adobe Experience Platform ガバナンスポリシーを活用して、機密フィールドがカスタムアクションによってサードパーティ製システムに書き出されるのを防ぎます。[詳細情報](../action/action-privacy.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -41,10 +41,10 @@ Adobe Experience PlatformとJourney Optimizerは、プライバシー管理を�
 </td>
 <td>
 <a href="audit-logs.md">
-<img alt="頻度の低い" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="低頻度" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div>
-<a href="audit-logs.md"><strong>ユーザーのアクションを監査</strong></a>
+<a href="audit-logs.md"><strong>ユーザーのアクションの監査</strong></a>
 </div>
 <p></td>
 <td>

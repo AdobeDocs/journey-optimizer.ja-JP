@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 97%
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
-   + ジャーニーを管理{#mannage-journey}
-      + [ジャーニーを終了](using/building-journeys/end-journey.md)
+   + ジャーニーの管理{#mannage-journey}
+      + [ジャーニーの終了](using/building-journeys/end-journey.md)
       + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
       + [プロファイルエントリ管理](using/building-journeys/entry-management.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + アクティビティ {#about-journey-building}
-      + [ジャーニーアクティビティの概要](using/building-journeys/about-journey-activities.md)
+      + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
       + [一般イベント](using/building-journeys/general-events.md)
       + [反応](using/building-journeys/reaction-events.md)
       + [セグメントの選定](using/building-journeys/segment-qualification-events.md)
@@ -390,9 +390,9 @@ ht-degree: 97%
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + データ管理 {#data-management}
-   + [データ管理の概要](using/data/gs-data.md)
+   + [データ管理の基本を学ぶ](using/data/gs-data.md)
    + [スキーマの操作](using/data/get-started-schemas.md)
-   + Journey Optimizerデータセット {#datasets}
+   + Journey Optimizer データセット {#datasets}
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
       + [クエリの例](using/data/datasets-query-examples.md)
    + [クエリ](using/data/get-started-queries.md)

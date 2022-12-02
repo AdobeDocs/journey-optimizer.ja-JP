@@ -11,7 +11,7 @@ exl-id: acb5b65b-8787-4428-9924-36aa0a115926
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 95%
 
    ![](assets/message-duplicated.png)
 
-1. メッセージの編集時などに、メッセージの名前を変更して、最初のメッセージとコピーを区別できるようにします。次に例を示します。
+1. メッセージの編集時などに、最初のメッセージとコピーを区別できるように、次のようにメッセージの名前を変更します。
 
    ![](assets/multi-message.png)
 
