@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,8 +61,8 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Web サーフェスを定義する"
->abstract="Web サーフェスは、1 つのページ URL または複数のページと一致させることができ、1 つまたは複数の Web ページにコンテンツの変更を配信できます。"
+>title="Web サーフェスの定義"
+>abstract="Web サーフェスは、単一のページ URL または複数のページを一致させることができるので、1 つまたは複数の web ページにわたってコンテンツの変更を配信できます。"
 
 キャンペーンを通じて web エクスペリエンスの作成を開始するには、次の手順に従います。
 
