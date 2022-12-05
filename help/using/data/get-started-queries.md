@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizerのクエリの概要
+title: Journey Optimizer におけるクエリの基本を学ぶ
 description: Adobe Journey Optimizer でクエリを作成する方法を説明します
 feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
