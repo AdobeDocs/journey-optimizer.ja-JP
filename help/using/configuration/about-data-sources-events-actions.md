@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの設定
-description: データソース、イベント、アクションの設定方法を説明します
+description: データソース、イベント、アクションの設定方法を学ぶ
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 ## アクション {#actions}
 
-Journey Optimizer にはメッセージ機能があらかじめ組み込まれているので、ジャーニーにチャネルアクションアクティビティを追加するだけで済みます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細](../../using/action/action.md)
+Journey Optimizer にはメッセージ機能があらかじめ組み込まれているので、ジャーニーにチャネルアクションアクティビティを追加するだけで済みます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../../using/action/action.md)
 
 ## Adobe Experience Platform フィールドの参照 {#friendly-names-display}
 
