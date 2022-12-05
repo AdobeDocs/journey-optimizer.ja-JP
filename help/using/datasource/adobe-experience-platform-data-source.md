@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform のデータソース"
->abstract="Adobe Experience Platformデータソースは、Adobeのリアルタイム顧客プロファイルへの接続を定義します。 このデータソースは組み込みで事前に設定されているので、削除できません。 リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人が女性かどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。"
+>abstract="Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは組み込みで事前に設定されているので、削除できません。これは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリしたユーザーが女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。"
 
-Adobe Experience Platformデータソースは、Adobeのリアルタイム顧客プロファイルへの接続を定義します。 このデータソースは組み込みで事前に設定されているので、削除できません。 このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイムAdobeプロファイルについて詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}。
+Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは組み込みで事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。Adobe リアルタイム顧客プロファイルサービスについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 
 リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。[詳細情報](../building-journeys/journey.md)。
@@ -32,7 +32,7 @@ Adobe Experience Platformデータソースは、Adobeのリアルタイム顧�
 
 >[!NOTE]
 >
->1 年以内に作成された最の 1,000 件のエクスペリエンスイベントを取得できます。
+>1 年以内に作成された際の 1,000 件のエクスペリエンスイベントを取得できます。
 
 ビルトインデータソースにフィールドグループを追加する主な手順は次のとおりです。
 
