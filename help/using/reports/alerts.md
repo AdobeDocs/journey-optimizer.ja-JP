@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform のアラートについて詳しくは、[ドキュ�
 
 ![](assets/alerts2.png)
 
-条件 [Adobe Experience Platform UI でのアラートルールの表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)を使用すると、各ルールを個別に購読できます。 ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。セグメントの読み取りアラートに対応する I/O イベントサブスクリプション名は、「ジャーニーのセグメントの読み取りの遅延、失敗およびエラー」です。
+[Adobe Experience Platform UI でアラートルールを表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)すると、各ルールを個別に登録できます。ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。セグメントの読み取りアラートに対応する I/O イベントサブスクリプション名は、「ジャーニーのセグメントの読み取りの遅延、失敗およびエラー」です。
 
 >[!WARNING]
 >
