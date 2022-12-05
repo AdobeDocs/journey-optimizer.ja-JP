@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの終了
-description: Journey Optimizerでのジャーニーの終わりを学ぶ
+description: Journey Optimizer でのジャーニーの終了方法を学ぶ
 feature: Journeys
 role: User
 level: Beginner
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# ジャーニーを終了{#journey-ending}
+# ジャーニーの終了{#journey-ending}
 
 ジャーニーは、次の 2 つの特定のコンテキストで、1 人の個人に対して終了できます。
 
