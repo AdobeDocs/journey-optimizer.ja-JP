@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->外部システムを操作する際のガードレールについては、 [このページ](../configuration/external-systems.md).
+>外部システムを操作する際のガードレールについては、[このページ](../configuration/external-systems.md)を参照してください。
 
 POST または GET を使用して JSON を返す REST API がサポートされています。API キー認証モード、基本認証モード、カスタム認証モードがサポートされています。
 
