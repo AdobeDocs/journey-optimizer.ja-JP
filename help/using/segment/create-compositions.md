@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 80%
    * **[!UICONTROL 保存]**：コンポジションの最後の手順。このアクティビティを使用すると、ワークフローの結果を新しいオーディエンスに保存できます。
    コンポジションワークフローキャンバスでアクティビティを設定する方法について詳しくは、[コンポジションキャンバスの操作](composition-canvas.md)を参照してください。
 
-1. 構成プロパティを開き、タイトルと説明を指定します。
+1. コンポジションプロパティを開き、タイトルと説明を指定します。
 
-   プロパティでタイトルが定義されていない場合、コンポジションラベルは最初のタイトルになります **[!UICONTROL 対象ユーザ]** アクティビティ。
+   プロパティでタイトルが定義されていない場合、コンポジションラベルは開始「**[!UICONTROL オーディエンス]**」アクティビティの 1 つになります。
 
    ![](assets/audiences-properties.png)
 
@@ -56,7 +56,7 @@ ht-degree: 80%
 
    ![](assets/audiences-alerts.png)
 
-1. コンポジションが公開されます。 結果のオーディエンスはAdobe Experience Platformに保存され、Journey Optimizerキャンペーンでターゲットにする準備が整います。 [キャンペーンの操作方法を学ぶ](../campaigns/get-started-with-campaigns.md)
+1. コンポジションが公開されます。 結果オーディエンスは、Adobe Experience Platform に保存され、Journey Optimizer キャンペーンでターゲットにする準備が整います。[キャンペーンとの連携方法を学ぶ](../campaigns/get-started-with-campaigns.md)
 
 ## コンポジションへのアクセス {#access}
 
@@ -68,7 +68,7 @@ ht-degree: 80%
 「**[!UICONTROL コンポジション]**」タブから作成したすべてのコンポジションにアクセスできます。複数のステータスがあります。
 
 * **[!UICONTROL ドラフト]**：コンポジションは進行中で、公開されていません。
-* **[!UICONTROL 公開済み]**:構成が公開され、結果のオーディエンスが保存され、使用できるようになりました。
+* **[!UICONTROL 公開済み]**：コンポジションが公開され、結果オーディエンスが保存され、使用できるようになりました。
 * **[!UICONTROL アーカイブ済み]**：コンポジションはアーカイブされています。
 
 ![](assets/audiences-compositions.png)
