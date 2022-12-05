@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 79%
 
 オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
-完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、 **キャンペーンで活用** を target の顧客に対して設定します。 [キャンペーンの操作方法を学ぶ](../campaigns/get-started-with-campaigns.md)
+完了すると、**結果オーディエンス**&#x200B;が既存のオーディエンスと共に Adobe Experience Platform に保存され、**キャンペーンで活用**&#x200B;して顧客をターゲットできます。[キャンペーンとの連携方法を学ぶ](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->合成ワークフローによって生成されるオーディエンスは、Journey Optimizerキャンペーンにのみターゲット設定できます。 ジャーニーでは使用できません。
+>コンポジションワークフローから生じるオーディエンスは、Journey Optimizer キャンペーンのみをターゲットにすることができます。ジャーニーでは使用できません。
 
 ## オーディエンス構成にアクセスする {#access}
 
