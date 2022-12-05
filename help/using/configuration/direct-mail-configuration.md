@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 94%
 
 1. ファイル形式として **[!UICONTROL CSV]** または&#x200B;**[!UICONTROL テキスト区切り]**&#x200B;を選択します。
 
-1. を選択します。 **[!UICONTROL ファイルルーティング設定]** 作成したものの中に含まれています。 これにより、ダイレクトメールプロバイダーが使用するファイルの書き出し先が定義されます。
+1. 作成したものの中から「**[!UICONTROL ファイルルーティング設定]**」を選択します。これにより、ダイレクトメールプロバイダーが使用するファイルの書き出し先が定義されます。
 
    >[!CAUTION]
    >
@@ -152,7 +152,7 @@ ht-degree: 94%
 >
 >重複した行は自動的に削除されます。
 >
->プロファイルデータを含む各ファイルの最大レコード数（行数）が多すぎる場合、残りのレコードに対して別のファイルが自動的に作成されます。
+>プロファイルデータを含んだ各ファイルの最大レコード数（行数）が多すぎる場合、残りのレコード用に別のファイルが自動的に作成されます。
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
