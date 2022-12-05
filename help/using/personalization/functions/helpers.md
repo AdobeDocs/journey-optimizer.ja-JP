@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -144,8 +144,8 @@ Some edu specific content Content
 ## Each{#each}
 
 `each` ヘルパーを使用して、配列に対して反復処理を行います。
-ヘルパーの構文は次のとおりです。 ```{{#each ArrayName}}``` YourContent {{/each}}
-キーワードを使用して、個々の配列項目を参照できます。 **この** ブロック内に 配列の要素のインデックスは、 {{@index}}.
+ヘルパーの構文は ```{{#each ArrayName}}``` YourContent {{/each}} です。
+個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、{{@index}} を使用してレンダリングできます。
 
 **構文**
 
