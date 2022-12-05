@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ BCC メールアドレスの設定は、サーフェスレベルで直ちに保�
 
 ![](assets/preset-bcc-in-msg.png)
 
-ただし、BCC アドレスは、説明されたロジックに従って通信を送信するために取得されます [ここ](email-settings.md).
+ただし、BCC アドレスは、[こちら](email-settings.md)で説明しているロジックに従って、コミュニケーションを送信するために取得されます。
 
 ### 推奨事項と制限事項 {#bcc-recommendations-limitations}
 
