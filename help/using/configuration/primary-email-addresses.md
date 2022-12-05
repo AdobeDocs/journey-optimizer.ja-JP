@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="使用するアドレスの定義"
->abstract="複数の電子メールアドレスまたは電話番号（個人、プロフェッショナルなど）がデータベースで使用可能な場合は、送信に優先順位を付ける電子メールアドレスまたは電話番号を選択できます。"
+>abstract="複数のメールアドレスまたは電話番号がデータベースで使用可能な場合（個人用、仕事用など）、送信する優先順位を選択できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="使用するアドレスの定義"
->abstract="送信を優先するプロファイルの E メールアドレスまたは電話番号を決定するために使用するフィールドを編集します。"
+>abstract="プロファイルのメールアドレスまたは電話番号を決定するために使用するフィールドを編集して、送信の優先順位を付けます。"
 
 プロファイルをターゲットにする場合、データベースで複数のメールアドレスや電話番号（プロのメールアドレス、個人の電話番号など）を使用できる場合があります。
 
