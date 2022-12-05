@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="サブドメインデリゲーション"
->abstract="E メールの送信を開始するには、サブドメインをAdobeにデリゲートします。 完了すると、DNS レコード、受信ボックス、送信者、返信先、バウンスアドレスが設定されます。"
+>abstract="メールの送信を開始するには、サブドメインをアドビにデリゲートします。完了すると、DNS レコード、受信ボックス、送信者、返信先、バウンスアドレスが設定されます。"
 
 ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。[サブドメインデリゲーション](about-subdomain-delegation.md)の詳細情報
 
