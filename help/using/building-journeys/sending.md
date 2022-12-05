@@ -4,7 +4,7 @@ product: journey optimizer
 title: ジャーニーの実行の開始
 description: ジャーニーを開始し、メッセージを送信する方法を学ぶ
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer を使用すると、このデータを簡単に管理�
 </tr>
 <tr style="border: 0;">
   <td>
-    <div><img alt="ポリシー" src="assets/do-not-localize/policy.png" /><br>合意したタイムラインまたはポリシーに基づいて削除 - データ削除は、データ保護の重要な側面であり、すべてのデータガバナンスプロセスにおける重要なステップです。Journey Optimizer は、必要以上のデータを生成する場合があります。また、データセットに必要な期間が経過した後の動作について、（ユーティリティまたは規制のために）細心の注意を払う必要があります。必要な制御は、特定の時点でデータを削除することです。<a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=ja">データハイジーンについて詳しくは、Adobe Experience Platform のドキュメントを参照してください</a></div>
+    <div><img alt="ポリシー" src="assets/do-not-localize/policy.png" /><br>合意したタイムラインまたはポリシーに基づいて削除 - データ削除は、データ保護の重要な側面であり、すべてのデータガバナンスプロセスにおける重要なステップです。Journey Optimizer は、必要以上のデータを生成する場合があります。また、データセットに必要な期間が経過した後の動作について、（ユーティリティまたは規制のために）細心の注意を払う必要があります。必要な制御は、特定の時点でデータを削除することです。<a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">データハイジーンについて詳しくは、Adobe Experience Platform のドキュメントを参照してください</a></div>
   </td>
 </tr>
 </table>
