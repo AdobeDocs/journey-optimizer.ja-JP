@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 92%
 
 コンポジションを作成する最初の手順は、コンポジションの基礎となる 1 つ以上の既存のオーディエンスを選択します。
 
-1. を選択します。 **[!UICONTROL 対象ユーザ]** 「 」アクティビティに、アクティビティのラベルを入力します。
+1. 「**[!UICONTROL オーディエンス]**」アクティビティを選択し、アクティビティのラベルを入力します。
 
-1. ターゲットにするオーディエンスを選択：
+1. ターゲットとするオーディエンスを選択します。
 
-   * 次をクリック： **[!UICONTROL オーディエンスを追加]** ボタンをクリックして、1 つ以上の既存のオーディエンスを選択します。
-   * 次をクリック： **[!UICONTROL ルールを作成]** ボタンをクリックし、 [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja).
+   * 「**[!UICONTROL オーディエンスを追加]**」ボタンをクリックして、1 つまたは複数の既存のオーディエンスを選択します。
+   * 「**[!UICONTROL ルールを作成]**」ボタンをクリックし、[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を使用して新しいセグメント定義を作成します。
 
    ![](assets/audiences-choose-audience.png)
 
