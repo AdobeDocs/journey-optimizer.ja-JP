@@ -9,17 +9,16 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # [!DNL Customer Journey Analytics] の操作 {#cja-ajo}
 
 
-[!DNL Journey Optimizer]
-[!DNL Customer Journey Analytics] との  統合は、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
+[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] の 統合は、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
 
 ![](assets/cja.png)
 
@@ -29,7 +28,7 @@ ht-degree: 95%
 
 ジャーニーに対して [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
 
-1. [接続の作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja) in [!DNL Customer Journey Analytics] と **[!UICONTROL データセット]** Adobe Experience Platformに送信します。
+1. Adobe Experience Platform に送信する&#x200B;**[!UICONTROL データセット]**&#x200B;を使用して、[!DNL Customer Journey Analytics] で[接続を作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja)します。
 
    次の [!DNL Journey Optimizer] を設定できます。
    * [ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)：誰がジャーニーにエントリし、どのくらい進んだかを確認できます。
