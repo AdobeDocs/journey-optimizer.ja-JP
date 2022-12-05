@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '202'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="頻度の低い" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="低頻度" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="subscription-list.md"><strong>購読リストの作成</strong></a>
@@ -51,7 +51,7 @@ ht-degree: 0%
 <img alt="検証" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>ランディングページのデザイン</strong></a>
+<a href="design-lp.md"><strong>ランディングページの設計</strong></a>
 </div>
 <p>
 </td>
