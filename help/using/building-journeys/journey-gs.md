@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーの基本を学ぶ
+title: 初めてのジャーニーの作成
 description: Adobe Journey Optimizer で最初のジャーニーを作成するための主な手順
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# ジャーニーの基本を学ぶ{#jo-quick-start}
+# 初めてのジャーニーの作成{#jo-quick-start}
 
 ## 前提条件{#start-prerequisites}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 ### エントリ{#entrance}
 
-デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この再エントリのオプションをオフにします。
+デフォルトでは、新規ジャーニーで再エントリが許可されています。例えば、人が店に入ったときに 1 回限りのギフトをオファーする場合など、「1 回限り」のジャーニーのオプションをオフにできます。
 
 プロファイルのエントリ管理について詳しくは、[この節](entry-management.md)を参照してください。
 

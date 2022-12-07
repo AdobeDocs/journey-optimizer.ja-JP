@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 99%
+source-wordcount: '879'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,8 @@ ht-degree: 99%
 >id="ajo_dm_file_routing_details"
 >title="ファイルのルーティング設定の定義"
 >abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーに書き出されます。ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="ダイレクトメールメッセージの作成"
+<!-->
+>additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;ダイレクトメールメッセージの作成&quot;—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
