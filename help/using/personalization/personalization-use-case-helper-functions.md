@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
@@ -33,8 +33,8 @@ ht-degree: 100%
 
 * 単一のイベント。[詳細情報](../event/about-events.md)。
 * イベントで開始されるジャーニー。[詳細情報](../building-journeys/using-the-journey-designer.md)。
-* ジャーニーでのメールメッセージ。[詳細情報](../messages/get-started-content.md)
-* メールの本文。[詳細情報](../design/create-email-content.md)。
+* ジャーニーでのメールメッセージ。[詳細情報](../email/create-email.md)
+* メールの本文。[詳細情報](../email/content-from-scratch.md)。
 
 次の手順に従います。
 

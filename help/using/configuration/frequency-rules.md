@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 メッセージに頻度ルールを適用するには、次の手順に従います。
 
-1. ルールに定義したチャネルの 1 つを選択して、[メッセージを作成します](../messages/get-started-content.md#create-new-message)。
+1. ルールに定義したチャネルの 1 つを選択して、メッセージを作成します。
 
 1. 定義したカテゴリを[作成したルール](#create-new-rule)に選択します。
 
@@ -162,9 +162,9 @@ ht-degree: 100%
 
 1. ルールを保存して[アクティブ化](#activate-rule)します。
 
-1. メールを作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../messages/get-started-content.md#create-new-message)
+1. メールを作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../email/create-email.md)
 
-1. プッシュ通知を作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../messages/get-started-content.md#create-new-message)
+1. プッシュ通知を作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../push/create-push.md)
 
 このシナリオでは、個々のプロファイルは次のようになります。
 * 1 か月に最大 12 件のマーケティングメッセージを受信できます。

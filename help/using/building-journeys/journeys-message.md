@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 73%
+source-wordcount: '707'
+ht-degree: 88%
 
 ---
 
 # メール、SMS、プッシュ{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] には、組み込みのメッセージ機能が付属しています。 ジャーニーにプッシュ、SMS またはメールのメッセージアクティビティを追加し、[設定とコンテンツを定義](../messages/messages-in-journeys.md)するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。
+[!DNL Journey Optimizer] には、組み込みのメッセージ機能が付属しています。 ジャーニーにプッシュ、SMS またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます.
 
 また、メッセージを送信する特定のアクションを設定することもできます。
 
@@ -34,10 +34,38 @@ ht-degree: 73%
 
 1. パレットの「**アクション**」セクションで、**メール**、**SMS** または **プッシュ**&#x200B;アクティビティをキャンバスに追加します。
 
-   ![](../messages/assets/add-a-message.png)
+1. アクティビティを設定します。 次のページで、メッセージコンテンツを作成する詳細な手順を説明します。
 
-
-   メッセージを設定し、そのコンテンツを定義するすべての手順について詳しくは、[この節](../messages/get-started-content.md)を参照してください。
+   <table style="table-layout:fixed">
+   <tr style="border: 0;">
+   <td>
+   <a href="../email/create-email.md">
+   <img alt="リード" src="../assets/do-not-localize/email.jpg">
+   </a>
+   <div><a href="../email/create-email.md"><strong>メールの作成</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../push/create-push.md">
+   <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
+   </a>
+   <div>
+   <a href="../push/create-push.md"><strong>プッシュ通知の作成<strong></a>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../sms/create-sms.md">
+   <img alt="検証" src="../assets/do-not-localize/sms.jpg">
+   </a>
+   <div>
+   <a href="../sms/create-sms.md"><strong>SMS メッセージの作成</strong></a>
+   </div>
+   <p>
+   </td>
+   </tr>
+   </table>
 
 ## ライブコンテンツを更新{#update-live-content}
 
@@ -48,3 +76,51 @@ ht-degree: 73%
 ![](assets/add-a-message2.png)
 
 ただし、プロファイル属性かコンテキストデータ（イベントプロパティまたはジャーニープロパティから）かにかかわらず、パーソナライゼーションで使用される属性は変更できません。
+
+## 送信時間の最適化{#send-time-optimization}
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_disabled"
+>title="送信時間の最適化について"
+>abstract="Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サービスを利用）は、メールまたはプッシュメッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。"
+
+### 送信時間の最適化について {#about-send-time}
+
+Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サービスを利用）は、メールまたはプッシュメッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。機械学習モデルを使用して、ユーザーごとにパーソナライズされた送信時間をスケジュールし、メッセージの開封率やクリック率を高めます。
+
+送信時間最適化モデルは、Adobe Journey Optimizer のデータを取り込み、ユーザーレベルの開封率（メールとプッシュの場合）およびクリック率（メールの場合）を調べて、顧客がメッセージングに関与する可能性が最も高いタイミングを判断します。送信時間の最適化では、情報に基づいたレコメンデーションを行うために、1 か月以上のメッセージトラッキングデータが必要です。ユーザーごとに、次のスコアを使用して最適な時間が自動的に選択されます。
+
+* エンゲージメントを最大化するための各曜日の最適な時間帯
+* エンゲージメントを最大化するのに最適な曜日
+* エンゲージメントを最大化するための最適な曜日の最適な時間
+
+モデルは、スコアリングとトレーニングのどちらに注目しているかによって異なります。トレーニングは、最初は毎週、その後は四半期ごとに実施されます。スコアリングは、最初は毎週、その後は毎月行われます。
+
+* トレーニング - スコアを付けるために使用するアルゴリズムの開発
+* スコアリング - トレーニング済みモデルに基づく個々のプロファイルへのスコアの適用
+
+この情報はユーザーのプロファイルと共に保存され、ジャーニーの実行時に参照されて、メッセージを送信するタイミングを Adobe Journey Optimizer に指示します。
+
+>[!CAUTION]
+>
+>この機能はバーストモードとは互換性がありません。
+
+### 送信時間最適化の有効化{#activate-send-time-optimization}
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_email"
+>title="送信時間最適化の有効化"
+>abstract="適切なラジオボタンを選択して、メールの開封数とクリックスルー数のどちらを最適化するかを選択します。また、「次のオプション内で送信」に値を入力して、システムで使用される送信時間を区切ることもできます。"
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_push"
+>title="送信時間最適化の有効化"
+>abstract="プッシュメッセージではクリック数が適用されないため、デフォルトは「開封数」オプションになります。また、「次のオプション内で送信」に値を入力して、システムで使用される送信時間を区切ることもできます。"
+
+アクティビティのパラメーターから&#x200B;**送信時間の最適化**&#x200B;スイッチを選択して、メールまたはプッシュメッセージの送信時間の最適化を有効にします。
+
+![](../building-journeys/assets/jo-message5.png)
+
+メールメッセージの場合は、適切なラジオボタンを選択して、メールの開封数とクリックスルー数のどちらを最適化するかを選択します。プッシュメッセージではクリック数が適用されないため、デフォルトは「開封数」オプションになります。
+
+また、「**次の時間内に送信**」オプションの値を入力することで、システムで使用される送信時間を区切ることもできます。値として「6 時間」を選択した場合、[!DNL Journey Optimizer] は各ユーザープロファイルを確認し、ジャーニーの実行時刻から 6 時間以内の最適な送信時刻を選択します。

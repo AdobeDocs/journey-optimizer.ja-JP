@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
@@ -33,9 +33,39 @@ Journey Optimizer を使用してアプリ内通知を作成し、メッセー�
 
 完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
 
-**関連トピック：**
-
-* [アプリ内メッセージの作成](create-in-app.md)
-* [アプリ内メッセージのデザイン](design-in-app.md)
-* [アプリ内レポート](inapp-report.md)
-* [アプリ内設定](inapp-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-in-app.md">
+<img alt="リード" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div><a href="create-in-app.md"><strong>アプリ内メッセージの作成</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-in-app.md">
+<img alt="低頻度" src="../assets/do-not-localize/inapp-design.jpg">
+</a>
+<div>
+<a href="design-in-app.md"><strong>アプリ内コンテンツのデザイン</strong></a>
+</div>
+<p></td>
+<td>
+<a href="inapp-report.md">
+<img alt="検証" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="inapp-report.md"><strong>アプリ内レポート</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="inapp-configuration.md">
+<img alt="検証" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>アプリ内チャネルの設定</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 99%
@@ -22,14 +22,13 @@ ht-degree: 99%
 >title="アプリサーフェス"
 >abstract="サーフェスは、システム管理者によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 "
 
-
 [!DNL Journey Optimizer] では、チャネルサーフェス（例：メッセージプリセット）を設定して、メッセージに必要なすべての技術パラメーター（メールのタイプ、送信者のメールと名前、モバイルアプリ、SMS 設定など）を定義しておくことができます。
 
 >[!CAUTION]
 >
 > * チャネルサーフェスを作成、編集、削除するには、[チャネルサーフェスの管理](../administration/high-low-permissions.md#manage-channel-surface)権限が必要です。
 >
-> * チャネルサーフェスを作成する前に、[メール設定](email-settings.md)、[プッシュ設定](../configuration/push-configuration.md)および [SMS 設定](../configuration/sms-configuration.md)の手順を実行する必要があります。
+> * チャネルサーフェスを作成する前に、[メール設定](../email/get-started-email-config.md)、[プッシュ設定](../push/push-configuration.md)および [SMS 設定](../sms/sms-configuration.md)の手順を実行する必要があります。
 
 
 チャネルサーフェスを設定すると、ジャーニーまたはキャンペーンからメッセージを作成する際にチャネルサーフェスを選択できるようになります。
@@ -64,7 +63,7 @@ ht-degree: 99%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. **[!UICONTROL メール]**&#x200B;チャネルを選択した場合は、[この節](email-settings.md)の説明に従って設定を行ってください。
+1. **[!UICONTROL メール]**&#x200B;チャネルを選択した場合は、[この節](../email/email-settings.md)の説明に従って設定を行ってください。
 
    ![](assets/preset-email.png)
 
@@ -74,15 +73,15 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >プッシュ通知を送信するための環境の設定方法について詳しくは、[この節](push-gs.md)を参照してください。
+   >プッシュ通知を送信するための環境の設定方法について詳しくは、[この節](../push/push-gs.md)を参照してください。
 
-1. **[!UICONTROL SMS]** チャネルの場合は、[この節](sms-configuration.md#message-preset-sms)の説明に従って設定を定義します。
+1. **[!UICONTROL SMS]** チャネルの場合は、[この節](../sms/sms-configuration.md#message-preset-sms)の説明に従って設定を定義します。
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >SMS メッセージを送信するための環境の設定方法について詳しくは、[この節](sms-configuration.md)を参照してください。
+   >SMS メッセージを送信するための環境の設定方法について詳しくは、[この節](../sms/sms-configuration.md)を参照してください。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 100%
@@ -182,7 +182,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >同じランディングページの任意のサブページからプライマリページへのリンクを挿入できます。例えば、操作を誤ったので再度購読したいユーザーをリダイレクトするには、確認サブページから購読プライマリページへのリンクを追加します。リンクの挿入について詳しくは、[この節](../design/message-tracking.md#insert-links)を参照してください。
+   >同じランディングページの任意のサブページからプライマリページへのリンクを挿入できます。例えば、操作を誤ったので再度購読したいユーザーをリダイレクトするには、確認サブページから購読プライマリページへのリンクを追加します。リンクの挿入について詳しくは、[この節](../email/message-tracking.md#insert-links)を参照してください。
 
 1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 
    ![](assets/lp_test-profiles.png)
 
-   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../design/preview.md#select-test-profiles)を参照してください。
+   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../email/preview.md#select-test-profiles)を参照してください。
 
 1. 「**[!UICONTROL プレビュー]**」タブを選択し、「**[!UICONTROL プレビューを開く]**」をクリックしてランディングページをテストします。
 
@@ -275,7 +275,7 @@ ht-degree: 100%
 
 ランディングページが公開されると、**[!UICONTROL 公開中のアイテム]**&#x200B;ステータスでランディングページリストに追加されます。
 
-これでライブになり、[!DNL Journey Optimizer] [ メッセージ](../messages/get-started-content.md)で使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
+これでライブになり、[!DNL Journey Optimizer]  メッセージで使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
 
 >[!NOTE]
 >

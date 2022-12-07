@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 E メールデザイナーでは、コンテンツをパーソナライズできます。
 
-* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**パーソナライズ**&#x200B;アイコンをクリックして、「**パーソナライゼーションを挿入**」フィールドを選択します。E メールデザイナーインターフェイスについて詳しくは、この[節](../design/design-emails.md)を参照してください。
+* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**パーソナライズ**&#x200B;アイコンをクリックして、「**パーソナライゼーションを挿入**」フィールドを選択します。E メールデザイナーインターフェイスについて詳しくは、この[節](../email/get-started-email-design.md)を参照してください。
 
    ![](assets/perso_insert.png)
 
@@ -55,7 +55,7 @@ E メールデザイナーでは、コンテンツをパーソナライズでき
 
 ![](assets/perso_push.png)
 
-プッシュ通知の設定については、[この節](../configuration/push-gs.md)を参照してください。
+プッシュ通知の設定については、[この節](../push/push-gs.md)を参照してください。
 
 ## オファーのパーソナライズ {#personalize-offers}
 

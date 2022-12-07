@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1301'
+ht-degree: 95%
 
 ---
 
@@ -160,57 +160,71 @@ ht-degree: 100%
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
    + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
-   + [ライブキャンペーンの管理](using/campaigns/modify-stop-campaign.md)
+   + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験の基本を学ぶ](using/campaigns/get-started-experiment.md)
       + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
       + [統計計算について](using/campaigns/experiment-calculations.md)
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
-+ メッセージ {#messages}
-   + メッセージの概要{#get-started-msg}
-      + [概要](using/messages/get-started-content.md)
-      + [ジャーニーでのメッセージの追加](using/messages/messages-in-journeys.md)
-      + [キャンペーンにメッセージを追加](using/messages/messages-in-campaigns.md)
-   + [メールの作成](using/messages/create-email.md)
-   + [プッシュ通知の作成](using/messages/create-push.md)
-   + [SMS メッセージの作成](using/messages/create-sms.md)
-   + [ダイレクトメールの作成](using/messages/create-direct-mail.md)
-   + [アラートの確認](using/messages/alerts.md)
-   + [送信時間の最適化](using/messages/send-time-optimization.md)
-+ Web チャネル{#web}
-   + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
-   + [Web エクスペリエンスの作成](using/web/create-web.md)
-   + [Web ページの作成](using/web/author-web.md)
-   + [Visual Editing Helper 拡張機能](using/web/visual-editing-helper.md)
-   + [Web レポート](using/web/web-report.md)
++ メールチャネル {#email}
+   + [メールの概要](using/email/get-started-email.md)
+   + [メールの作成](using/email/create-email.md)
+   + E メールコンテンツの設計 {#design-email}
+      + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
+      + コンテンツの作成を開始 {#start-creating-content}
+         + [ゼロから開始](using/email/content-from-scratch.md)
+         + [メールコンテンツのインポート](using/email/existing-content.md)
+         + [コンテンツを独自にコーディング](using/email/code-content.md)
+         + [テンプレートの操作](using/email/email-templates.md)
+      + コンテンツのデザイン {#add-content}
+         + [コンテンツコンポーネントの使用](using/email/content-components.md)
+         + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
+         + アセットの管理 {#manage-asset}
+            + [Assets Essentials の操作](using/email/assets-essentials.md)
+            + [Adobe Stock との連携](using/email/stock.md)
+         + [パーソナライズされたオファーの追加](using/email/add-offers-email.md)
+         + [テキストバージョンの生成](using/email/text-version-email.md)
+         + [プリヘッダーの追加](using/email/preheader.md)
+      + スタイルを編集 {#edit-style}
+         + [背景設定を編集](using/email/backgrounds.md)
+         + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
+         + [リンクのスタイルの定義](using/email/styling-links.md)
+         + [インラインのスタイル属性の追加](using/email/inline-styling.md)
+   + [E メールのプレビューとテスト](using/email/preview.md)
+   + [電子メールのオプトアウトを管理](using/email/email-opt-out.md)
+   + 電子メールチャネルの設定 {#configure-email}
+      + [電子メール設定の概要](using/email/get-started-email-config.md)
+      + [電子メールの表面の設定](using/email/email-settings.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
    + [アプリ内チャネルの設定](using/in-app/inapp-configuration.md)
    + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
    + [アプリ内レポート](using/in-app/inapp-report.md)
-+ コンテンツのデザイン {#design}
-   + [メールデザインの基本を学ぶ](using/design/design-emails.md)
-   + [ゼロから開始 ](using/design/create-email-content.md)
-   + [メールコンテンツのインポート](using/design/existing-content.md)
-   + [コンテンツを独自にコーディング](using/design/code-content.md)
-   + [テンプレートの操作](using/design/email-templates.md)
-   + コンテンツデザイン {#design-content}
-      + [コンテンツコンポーネントの使用](using/design/content-components.md)
-      + [背景の設定](using/design/backgrounds.md)
-      + [垂直方向の整列とパディングの調整](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [リンクのスタイルの定義](using/design/styling-links.md)
-      + [インラインのスタイル属性の追加](using/design/adding-inline-styling-attributes.md)
-   + メールの設定 {#design-email}
-      + [テキストバージョンの生成](using/design/text-version-email.md)
-      + [プリヘッダーの追加](using/design/preheader.md)
-   + アセットの追加と管理 {#manage-asset}
-      + [Assets Essentials の操作](using/design/assets-essentials.md)
-      + [Adobe Stock との連携](using/design/stock.md)
-   + [パーソナライズされたオファーの追加](using/design/deliver-personalized-offers.md)
-   + [リンクの追加とメッセージのトラッキング](using/design/message-tracking.md)
-   + [プレビューと配達確認](using/design/preview.md)
++ プッシュ通知チャネル{#push}
+   + [プッシュ通知の概要](using/push/get-started-push.md)
+   + [プッシュ通知の作成](using/push/create-push.md)
+   + [プッシュ通知のデザイン](using/push/design-push.md)
+   + [プッシュ通知を送信](using/push/send-push.md)
+   + プッシュ通知の設定{#push-config}
+      + [プッシュ通知と Adobe Journey Optimizer](using/push/push-gs.md)
+      + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
++ SMS チャネル{#sms}
+   + [SMS の基本を学ぶ](using/sms/get-started-sms.md)
+   + [SMS メッセージの作成](using/sms/create-sms.md)
+   + [SMS メッセージの送信](using/sms/send-sms.md)
+   + [SMS オプトアウトの管理](using/sms/sms-opt-out.md)
+   + [SMS チャネルの設定](using/sms/sms-configuration.md)
++ ダイレクトメール {#direct-mail}
+   + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
+   + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
++ Web チャネル{#web}
+   + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
+   + [Web エクスペリエンスの作成](using/web/create-web.md)
+   + [Web ページの作成](using/web/author-web.md)
+   + [Visual Editing Helper 拡張機能](using/web/visual-editing-helper.md)
+   + [Web レポート](using/web/web-report.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
@@ -399,9 +413,6 @@ ht-degree: 100%
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + メッセージの設定 {#configuration-message}
-      + プッシュ通知の設定{#push-config}
-         + [プッシュ設定の基本を学ぶ](using/configuration/push-gs.md)
-         + [プッシュ通知チャネルの設定](using/configuration/push-configuration.md)
       + メールの設定 {#email-configuration}
          + サブドメインのデリゲート {#delegate-subdomains}
             + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
@@ -415,11 +426,8 @@ ht-degree: 100%
             + [抑制リスト](using/configuration/manage-suppression-list.md)
             + [再試行](using/configuration/retries.md)
             + [許可リスト](using/configuration/allow-list.md)
-      + [SMS チャネルの設定](using/configuration/sms-configuration.md)
-      + [ダイレクトメールの設定](using/configuration/direct-mail-configuration.md)
       + チャネルサーフェスの設定 {#set-up-channels}
          + [チャネルサーフェスの作成](using/configuration/channel-surfaces.md)
-         + [メール設定](using/configuration/email-settings.md)
       + [アーカイブのサポート](using/configuration/archiving-support.md)
       + [実行アドレスの管理](using/configuration/primary-email-addresses.md)
       + [頻度ルールの設定](using/configuration/frequency-rules.md)

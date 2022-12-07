@@ -5,9 +5,9 @@ description: Adobe Journey Optimizer 製品ヘルプセンター
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
@@ -42,15 +42,10 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/design/design-emails.md">メールコンテンツの設計</a>
+      <a href="using/email/get-started-email-design.md">メールコンテンツの設計</a>
     </div>
     <p>
     新しいメールの設計または既存の HTML コンテンツのインポートについて説明します
-    <p>
-    <div>
-      <a href="using/messages/get-started-content.md">メッセージの送信</a>
-    </div>
-    <p>カスタマージャーニーにプッシュ、SMS およびメールメッセージを追加する方法について説明します
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">初めてのジャーニーの作成</a>
@@ -128,7 +123,7 @@ ht-degree: 100%
     <p>
     <p>コンテンツ管理</p>
     <li>
-      <a href="using/design/assets-essentials.md">Assets</a>
+      <a href="using/email/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>データ管理</p>

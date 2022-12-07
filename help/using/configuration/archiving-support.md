@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 100%
@@ -60,11 +60,11 @@ HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信され�
 >
 >BCC 機能の使用状況は、ライセンスを取得したメッセージ数に照らしてカウントされます。したがって、アーカイブする重要な通信に使用されるサーフェス内でのみ有効にします。ライセンスを取得したボリュームを契約書で確認します。
 
-BCC メールアドレスの設定は、サーフェスレベルで直ちに保存および処理されます。このサーフェスを使用して[新しいメッセージを作成](../messages/get-started-content.md)すると、BCC メールアドレスが自動的に表示されます。
+BCC メールアドレスの設定は、サーフェスレベルで直ちに保存および処理されます。このサーフェスを使用して新しいメッセージを作成すると、BCC メールアドレスが自動的に表示されます。
 
 ![](assets/preset-bcc-in-msg.png)
 
-ただし、BCC アドレスは、[こちら](email-settings.md)で説明しているロジックに従って、コミュニケーションを送信するために取得されます。
+ただし、BCC アドレスは、[こちら](../email/email-settings.md)で説明しているロジックに従って、コミュニケーションを送信するために取得されます。
 
 ### 推奨事項と制限事項 {#bcc-recommendations-limitations}
 

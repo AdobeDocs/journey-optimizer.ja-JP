@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -53,9 +53,9 @@ ht-degree: 100%
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. イベントの登録が開始されたことを通知する[メールをデザイン](../messages/get-started-content.md)します。
+1. イベントの登録が開始されたことを通知する[メールをデザイン](../email/get-started-email-design.md)します。
 
-1. メッセージコンテンツに[リンクを挿入](../design/message-tracking.md#insert-links)します。「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
+1. メッセージコンテンツに[リンクを挿入](../email/message-tracking.md#insert-links)します。「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ ht-degree: 100%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. ジャーニーで[メールメッセージを作成します](../messages/get-started-content.md)。
+1. ジャーニーで[メールメッセージを作成します](../email/get-started-email-design.md)。
 
-1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../design/message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
+1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../email/message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
 
    ![](assets/lp_opt-out-insert-link.png)
 

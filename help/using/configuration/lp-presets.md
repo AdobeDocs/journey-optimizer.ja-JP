@@ -6,7 +6,7 @@ description: Journey Optimizer でランディングページを作成および�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -66,7 +66,7 @@ ht-degree: 100%
 
    選択したサブドメインに対応する設定が表示されます。
 
-1. トラッキング URL のランディングページサブドメインを選択する場合は、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。[トラッキングの詳細情報](../design/message-tracking.md)
+1. トラッキング URL のランディングページサブドメインを選択する場合は、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。[トラッキングの詳細情報](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

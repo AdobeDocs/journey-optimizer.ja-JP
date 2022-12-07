@@ -4,9 +4,9 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2187'
 ht-degree: 99%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 99%
 ## 2022年11月 {#november-2022}
 
 * Journey Optimizer の統合に関する新しいページを追加しました。[詳細情報](../start/ajo-integrations.md)
-* ミラーページの URL の長さに関する推奨事項を追加しました。[詳細情報](../design/message-tracking.md)
-* 適切な返信管理を確保するための推奨事項を含む、メール設定の新しい節をメールアドレスへの返信に追加しました。[詳細情報](../configuration/email-settings.md#reply-to-email)
+* ミラーページの URL の長さに関する推奨事項を追加しました。[詳細情報](../email/message-tracking.md)
+* 適切な返信管理を確保するための推奨事項を含む、メール設定の新しい節をメールアドレスへの返信に追加しました。[詳細情報](../email/email-settings.md#reply-to-email)
 * ライブジャーニーのメッセージのコンテンツを変更する方法に関する節を追加しました。 [詳細情報](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022年10月 {#october-2022}
@@ -28,7 +28,7 @@ ht-degree: 99%
 * ジャーニーのユースケースの節では、[ビジネスユースケース](../building-journeys/journeys-uc.md)と[テクニカルユースケース](../building-journeys/collections.md) の 2 つのカテゴリに再編成しました。
 * **エンティティデータセット**&#x200B;の節を更新し、詳細を追加しました。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
 * オプトアウト管理および同意ポリシーの節の構成を変更しました。[詳細情報](../privacy/opt-out.md)
-* ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../messages/messages-in-journeys.md#adv-settings)
+* ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。
 * **ランディングページのサブドメインの設定**&#x200B;の節に、ランディングページのサブドメインでは大文字を使用できないことを示すメモを追加しました。[詳細情報](../configuration/lp-subdomains.md)
 
 ## 2022年9月 {#september-2022}
@@ -76,21 +76,21 @@ ht-degree: 99%
 * 許可リストページが「設定」セクションに移動しました。[詳細情報](../configuration/allow-list.md)
 * 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
 * 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
-* すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../messages/send-time-optimization.md)
+* すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
 * パーソナライズされたオファーを配信するために、Batch Decisioning API が使用可能な API のリストに追加されました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022年5月 {#may-2022}
 
 * [!DNL Journey Optimizer] の 2022年5月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * [セグメントの選定](../reports/query-examples.md#segment-qualification-queries)および[イベント](../reports/query-examples.md#event-based-queries)に関連する新しいクエリの例が追加されました。
-* メールデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関する記述が追加されました。関連するスクリーンショットを更新しました。[詳細情報](../design/design-emails.md)
+* メールデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関する記述が追加されました。関連するスクリーンショットを更新しました。[詳細情報](../email/get-started-email-design.md)
 * 主要リソースへのリンクが、Journey Optimizer ドキュメントのホームページで更新されました。
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。[詳細情報](../reports/live-report.md)
 * Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。[詳細情報](../action/about-custom-action-configuration.md)
 * チュートリアルビデオへのリンクが更新されました。
 * [メール設定](../configuration/about-subdomain-delegation.md)、[メッセージプリセット](../configuration/channel-surfaces.md)および[ランディングページの設定](../configuration/lp-subdomains.md)の節が再編成され、読みやすくなりました。
-* URL トラッキングの節が更新および改訂され、例が追加されました。[詳細情報](../configuration/email-settings.md#url-tracking)
-* 転送メールアドレスの設定に関する新しい節が追加されました。ユーザーインターフェイスでは実行できません。[詳細情報](../configuration/email-settings.md#forward-email)
+* URL トラッキングの節が更新および改訂され、例が追加されました。[詳細情報](../email/email-settings.md#url-tracking)
+* 転送メールアドレスの設定に関する新しい節が追加されました。ユーザーインターフェイスでは実行できません。[詳細情報](../email/email-settings.md#forward-email)
 
 ## 2022年4月 {#april-2022}
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 * [!DNL Journey Optimizer] パーソナライズ機能に関連する節が再編成され、読みやすくなりました。[詳細情報](../personalization/personalize.md)
 * この&#x200B;**メッセージプリセットの作成**&#x200B;の節は、わかりやすくするために複数のセクションに分かれています。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 * この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../privacy/opt-out.md#opt-out-management)
-* この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../design/message-tracking.md#insert-links)
+* この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../email/message-tracking.md#insert-links)
 
 ## 2021年11月 {#november-2021}
 
@@ -205,8 +205,8 @@ ht-degree: 99%
 * [!DNL Journey Optimizer] 製品説明へのリンクがホームページに追加されました
 * 複数のページにチュートリアルビデオが追加されました
 * ホームページの画像が最適化されました
-* 「メッセージトラッキング」の節が移動し、改善され、タイトルが「リンクの追加とメッセージのトラッキング」に変更されました。[詳細情報](../design/message-tracking.md)
-* ミラーページにサブセクションが追加されました。[詳細情報](../design/message-tracking.md#mirror-page)
+* 「メッセージトラッキング」の節が移動し、改善され、タイトルが「リンクの追加とメッセージのトラッキング」に変更されました。[詳細情報](../email/message-tracking.md)
+* ミラーページにサブセクションが追加されました。[詳細情報](../email/message-tracking.md#mirror-page)
 * ドキュメントと画面上で、「オファーアクティビティ」が「決定」、「決定」が「決定範囲」に名称変更されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](../personalization/personalization-use-case-helper-functions.md)が追加されました
 * 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。[詳細情報](../building-journeys/read-segment.md)

@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '3461'
+source-wordcount: '3453'
 ht-degree: 100%
 
 ---
@@ -232,7 +232,7 @@ ht-degree: 100%
 <td>
 <p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS の作成および送信方法については、こちらの<a href="../messages/create-sms.md">詳細ドキュメント</a>を参照してください。</p>
+<p>SMS の作成および送信方法については、こちらの<a href="../sms/create-sms.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -284,7 +284,6 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer では、メッセージをオーサリングするための新しいフローがジャーニーで提供されるようになりました。 インラインメッセージにより、ユーザーの時間を大幅に節約し、Journey Optimizer でメール、プッシュ通知または SMS を作成して配信するためのワークフロープロセスを合理化します。メッセージを別の手順として削除し、代わりにジャーニーキャンバス上でのアクションの一部としてインラインで編集できるようにすると、ユーザーがコンテンツをデザインおよび編集するためにクリックするボタンや、ナビゲートする画面が少なくて済みます。</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>詳しくは、<a href="../messages/get-started-content.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -364,7 +363,7 @@ ht-degree: 100%
 
 * **許可リストロジックの更新** - リストが空でも、機能が有効になるとすぐに許可リストロジックが適用されるようになりました。[詳細情報](../configuration/allow-list.md#logic)
 
-* **URL トラッキングパラメーター** - 式エディターを使用して、電子メールサーフェスで URL トラッキングパラメーターを設定できるようになりました（プリセット）。[詳細情報](../configuration/email-settings.md#url-tracking)
+* **URL トラッキングパラメーター** - 式エディターを使用して、電子メールサーフェスで URL トラッキングパラメーターを設定できるようになりました（プリセット）。[詳細情報](../email/email-settings.md#url-tracking)
 
 **意思決定管理**
 
@@ -387,7 +386,7 @@ ht-degree: 100%
 <p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>SMS チャネルは現在、一連の組織でのみ使用できます（使用制限があります）。 詳しくは、アドビ担当者にお問い合わせください。</p>
-<p>SMS の作成および送信方法については、この<a href="../messages/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
+<p>SMS の作成および送信方法については、この<a href="../sms/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -405,7 +404,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Stock と Adobe Journey Optimizer 電子メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。</br> 新しい「<b>類似のストックフォトを検索</b>」オプションを使用すると、画像の内容、カラーおよび構成に一致するストックフォトを見つけることもできます。 </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>詳しくは、<a href="../design/stock.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/stock.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -474,12 +473,12 @@ ht-degree: 100%
 
 **メール**
 
-* **テンプレートとして保存** - メールコンテンツをテンプレートとして保存し、他のメッセージを作成する際に再利用できるようになりました。[詳細情報](../design/email-templates.md)
+* **テンプレートとして保存** - メールコンテンツをテンプレートとして保存し、他のメッセージを作成する際に再利用できるようになりました。[詳細情報](../email/email-templates.md)
 
 
 **管理**
 
-* **トラッキング URL パラメーターのプレビュー** - メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。[詳細情報](../configuration/email-settings.md#url-tracking)
+* **トラッキング URL パラメーターのプレビュー** - メッセージプリセットを設定する際に、URL トラッキングパラメーターを定義すると、結果として生成されるトラッキング URL の動的プレビューが表示されるようになりました。[詳細情報](../email/email-settings.md#url-tracking)
 
 * **メッセージプリセットの編集** - メッセージプリセットを更新する際、処理時間は最大 3 時間に制限されるようになりました。[詳細情報](../configuration/channel-surfaces.md#edit-channel-surface)
 

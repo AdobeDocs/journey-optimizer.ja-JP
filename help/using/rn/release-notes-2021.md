@@ -4,7 +4,7 @@ product: journey optimizer
 title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
@@ -182,7 +182,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer とのエンゲージメントの対象となる顧客ごとに、最適なタイミングでプッシュ通知またはメールを自動的に送信します。アドビの AI サービスを活用した送信時間最適化により、メールまたはプッシュメッセージの送信に最適な時間を標準で予測して、過去の開封率やクリック率に基づいてエンゲージメントを最大化できます。</p>
 <p>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
-<p>詳しくは、<a href="../messages/send-time-optimization.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/journeys-message.md#send-time-optimization">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ ht-degree: 100%
 
 **コンテンツデザイン**
 
-* **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../design/preview.md)
+* **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../email/preview.md)
 * **ワンクリックオプトアウトリンク** - メールコンテンツに新しいタイプのリンクを挿入できます。この&#x200B;**オプトアウト**&#x200B;リンクを使用すると、ユーザーがワンクリックでコミュニケーションの受信登録を解除でき、オプトアウトを確認するためにランディングページにリダイレクトされることはありません。[詳細情報](../privacy/opt-out.md#one-click-opt-out-link)
 
 **パーソナライゼーション**
@@ -346,9 +346,9 @@ ht-degree: 100%
 
 **プレビューとテスト**
 
-* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../design/preview.md#preview-your-messages)
+* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../email/preview.md#preview-your-messages)
 * 配達確認のテストメールの数が 10 個に制限されるようになりました。
-* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../design/preview.md#send-proofs)
+* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../email/preview.md#send-proofs)
 
 **パーソナライゼーション式エディター**
 

@@ -1,0 +1,78 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: プッシュ通知の概要
+description: Journey Optimizer でプッシュ通知を作成する方法を説明します
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 86%
+
+---
+
+# プッシュ通知の概要 {#gs-push-notification}
+
+>[!IMPORTANT]
+>
+>プッシュ通知を初めて作成する場合は、プッシュチャネルが設定されていることを確認してください。[詳細情報](push-gs.md)。
+
+プッシュ通知は、モバイルアプリのユーザー、特にアプリを積極的に使用していないユーザーにいつでもリーチするのに役立ちます。プッシュ通知は、サービスに関するアップデートのお知らせ、ユーザーに対するアクションの実行の依頼、新しい取引に対するユーザーへの警告など、様々なユースケースの実現に役立ちます。デバイスプラットフォームでは、エンドユーザーが通知を受信または表示する前にオプトインが必要です。ユーザーのオプトインは、インストール後にアプリを初めて起動した後の早い段階で受け取ることも、必要に応じて後続のセッションやワークフローで受け取ることもできます。
+
+[!DNL Journey Optimizer] はプッシュ通知をサポートし、関連性の高い通知を業界最高のスループット率で送信できます。Adobe Experience Cloud でのブランドのデータインサイトを活用するために、プッシュ通知には、パーソナライゼーションとジャーニーベースのコンテキストを含めることができます。
+
+プッシュ通知は次の場所で作成できます。
+
+* **ジャーニー**&#x200B;の場合：ジャーニーにプッシュアクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : プッシュ]**&#x200B;パネルを使用して、プッシュ通知のコンテンツを作成します。
+
+   ジャーニーの設定方法について詳しくは、この[ページ](../building-journeys/journey-gs.md)を参照してください。
+
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。
+
+   キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
+
+専用のタブを使用して、**iOS** および **Android** オペレーティングシステムのプッシュ通知設定を定義します。
+
+>[!NOTE]
+>
+>While **[!DNL Journey Optimizer]** は、電子メールや SMS メッセージのオプトアウトを管理する方法を提供します。受信者は自分でデバイスを介して登録を解除できるので、お客様側でのアクションは不要です。 例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。同様に、モバイルオペレーティングシステムから通知設定を変更することもできます。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-push.md">
+<img alt="リード" src="../assets/do-not-localize/push-create.jpeg">
+</a>
+<div><a href="create-push.md"><strong>プッシュ通知の作成</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-push.md">
+<img alt="低頻度" src="../assets/do-not-localize/push-design.jpg">
+</a>
+<div>
+<a href="design-push.md"><strong>プッシュ通知のデザイン</strong></a>
+</div>
+<p></td>
+<td>
+<a href="send-push.md">
+<img alt="検証" src="../assets/do-not-localize/push-sending.jpg">
+</a>
+<div>
+<a href="send-push.md"><strong>プッシュ通知を送信</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="push-gs.md">
+<img alt="検証" src="../assets/do-not-localize/push-config.jpg">
+</a>
+<div>
+<a href="push-gs.md"><strong>プッシュ通知の設定</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

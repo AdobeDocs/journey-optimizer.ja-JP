@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Adobe Journey Optimizer でのコンテンツ実験では、訪問者 ID の擬�
 * ユーザーが処理に直接反応する直接指標（メールを開く、リンクをクリックするなど）。
 * ユーザーが処理された後に発生する、間接指標または「ファネルの底」指標。
 
-Adobe Journey Optimizer がメッセージを追跡する直接的な目標指標の場合、エンドユーザーの応答イベントは、キャンペーン識別子と処理識別子に自動的にタグ付けされ、応答指標と処理を直接関連付けることができます。[トラッキングの詳細情報](../design/message-tracking.md).
+Adobe Journey Optimizer がメッセージを追跡する直接的な目標指標の場合、エンドユーザーの応答イベントは、キャンペーン識別子と処理識別子に自動的にタグ付けされ、応答指標と処理を直接関連付けることができます。[トラッキングの詳細情報](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

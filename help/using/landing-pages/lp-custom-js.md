@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
@@ -23,13 +23,13 @@ ht-degree: 100%
 
 ランディングページコンテンツにカスタム JavaScript を挿入するには、次のいずれかを実行します。
 
-* コンテンツの作成を開始する際に既存の HTML コンテンツを読み込み、カスタム JavaScript コードを含むファイルを選択します。コンテンツの読み込み方法については、[この節](../design/existing-content.md)を参照してください。
+* コンテンツの作成を開始する際に既存の HTML コンテンツを読み込み、カスタム JavaScript コードを含むファイルを選択します。コンテンツの読み込み方法については、[この節](../email/existing-content.md)を参照してください。
 
-* ランディングページを最初から、または保存済みのテンプレートから設計します。**[!UICONTROL HTML]** コンテンツコンポーネントをキャンバスにドラッグ＆ドロップし、JavaSCript をコンポーネントに追加するためのソースコードを表示します。HTML コンポーネントの使用方法については、[この節](../design/content-components.md#HTML)を参照してください。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* ランディングページを最初から、または保存済みのテンプレートから設計します。**[!UICONTROL HTML]** コンテンツコンポーネントをキャンバスにドラッグ＆ドロップし、JavaSCript をコンポーネントに追加するためのソースコードを表示します。HTML コンポーネントの使用方法については、[この節](../email/content-components.md#HTML)を参照してください。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。独自のコンテンツの作成方法については、[この節](../design/code-content.md)を参照してください。
+* JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 
 >[!NOTE]
 >
