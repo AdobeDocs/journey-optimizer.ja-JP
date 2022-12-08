@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '3453'
 ht-degree: 100%
@@ -173,7 +173,7 @@ ht-degree: 100%
 * 許可リストをアクティブ化または非アクティブ化すると、新しい警告が表示され、各アクションの影響の詳細を確認できるようになりました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * チャネルサーフェスの作成、IP プールの作成、抑制リストと許可リストの管理、SMS チャネルの設定を行うためのユーザーインターフェイスが更新されました。
 * 指定したサブドメインに対して最初のチャネルサーフェスを作成する場合、処理時間は 10 分から 10 日かかり、そのサブドメインを使用する後続のサーフェスに対しては最大 3 時間かかります。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
-* ランディングページプリセットとランディングページサブドメインの作成を行うためのユーザーインターフェイスが更新されました。[詳細情報](../configuration/lp-subdomains.md)
+* ランディングページプリセットとランディングページサブドメインの作成を行うためのユーザーインターフェイスが更新されました。[詳細情報](../landing-pages/lp-subdomains.md)
 
 **監査制御**
 

@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メールのデザイン
-description: E メールコンテンツのスタイルを調整する方法を説明します
+title: 電子メールスタイルの基本を学ぶ
+description: メールコンテンツのスタイルを様々な方法で調整する方法を理解する
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '115'
+ht-degree: 0%
 
 ---
 
-# E メールコンテンツスタイルの概要 {#get-started-email-style}
+# 電子メールスタイルの基本を学ぶ {#get-started-email-style}
 
 電子メールコンテンツを [!DNL Journey Optimizer]を使用すると、E メールデザイナーの設定ペインで多数のスタイル設定パラメーターと属性を調整できます。
 

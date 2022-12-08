@@ -8,10 +8,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 70%
+source-wordcount: '381'
+ht-degree: 54%
 
 ---
 
@@ -24,21 +24,31 @@ ht-degree: 70%
 
 ## メッセージとチャネルの設定
 
-チャネルサーフェスを定義し、メッセージを調整してカスタマイズします。
+1. メッセージを作成して送信するには、チャネルに応じて特定の設定をおこなう必要があります。
 
-* [サブドメインをAdobeにデリゲート](about-subdomain-delegation.md) を使用してメールを送信し、 [IP プールの作成](ip-pools.md) ：インスタンスでプロビジョニングされた IP アドレスをグループ化します。
+   * の **電子メール** channel では、サブドメインをAdobeにデリゲートし、IP プールを作成して IP アドレスをグループ化する必要があります。 [詳細情報](../email/get-started-email-config.md)
 
-* 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
+   * の **プッシュ** チャネル、プッシュ通知設定を [!DNL Adobe Experience Platform] および [!DNL Adobe Experience Platform Launch]. [詳細情報](../push/push-configuration.md)
 
-* [!DNL Adobe Experience Platform]と[!DNL Adobe Experience Platform Launch]の両方でプッシュ通知の設定を定義します。[詳細](../push/push-gs.md)
+   * の **SMS** チャネルに接続する場合は、プロバイダーの設定と [!DNL Journey Optimizer]. [詳細情報](../sms/sms-configuration.md)
 
-   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. 完了したら、 **チャンネルサーフェス** ：メッセージの配信に必要なすべての技術的パラメーターを設定します。 [詳細情報](channel-surfaces.md)
 
-* SMS を送信するようにインスタンスを設定します（現在は一連の組織でのみ使用できます - 使用制限あり）。 [詳細情報](../sms/sms-configuration.md)
+1. 以下の手順でも可能です。
 
-* チャネルサーフェスを作成して、メッセージの配信に必要なすべての技術パラメーターを設定します。 [詳細情報](channel-surfaces.md)
+   * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
 
-* Adobe Experience Platformで複数のアドレスや番号が使用可能な場合、受信者に優先して使用する電子メールアドレスや電話番号を決定します。 [詳細情報](primary-email-addresses.md)
+   * を有効にします。 **BBC メールオプション** 個人に送信するメッセージのコピーを保持する場合。 [詳細情報](archiving-support.md#enable-bcc)
+
+   * 設定 **頻度ルール** 受信者に過度の勧誘をしないようにする場合。 [詳細情報](frequency-rules.md)
+
+   * Adobe Experience Platformで複数のアドレスや番号が使用可能な場合、受信者に優先して使用する電子メールアドレスや電話番号を決定します。 [詳細情報](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>これらの手順は、[Adobe Journey Optimizer システム管理者](../start/path/administrator.md)が実行する必要があります。
 
 ## ジャーニーの設定
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
@@ -28,7 +28,7 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 
 >[!CAUTION]
 >
-> この操作は、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;の場合にのみ実行できます。サブドメインのステータスについて詳しくは、[この節](access-subdomains.md)を参照してください。
+> この操作は、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;の場合にのみ実行できます。サブドメインのステータスについて詳しくは、[この節](about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。
 
 サブドメインに Google TXT レコードを追加するには、次の手順に従います。
 

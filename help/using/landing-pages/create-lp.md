@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 100%
@@ -72,7 +72,7 @@ ht-degree: 100%
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../configuration/lp-presets.md#lp-create-preset)を参照してください。
+1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../landing-pages/lp-presets.md#lp-create-preset)を参照してください。
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ ht-degree: 100%
 
    ![](assets/lp_open-designer.png)
 
-1. ランディングページの URL を定義します。URL の最初の部分では、選択した[プリセット](../configuration/lp-presets.md#lp-create-preset)の一部としてランディングページのサブドメインを事前に設定する必要があります。[詳細情報](../configuration/lp-subdomains.md)
+1. ランディングページの URL を定義します。URL の最初の部分では、選択した[プリセット](../landing-pages/lp-presets.md#lp-create-preset)の一部としてランディングページのサブドメインを事前に設定する必要があります。[詳細情報](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ ht-degree: 100%
    >
    >同じランディングページの任意のサブページからプライマリページへのリンクを挿入できます。例えば、操作を誤ったので再度購読したいユーザーをリダイレクトするには、確認サブページから購読プライマリページへのリンクを追加します。リンクの挿入について詳しくは、[この節](../email/message-tracking.md#insert-links)を参照してください。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../configuration/lp-subdomains.md)
+1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

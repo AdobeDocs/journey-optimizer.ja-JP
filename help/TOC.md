@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 95%
+source-wordcount: '1296'
+ht-degree: 94%
 
 ---
 
@@ -183,10 +183,11 @@ ht-degree: 95%
          + アセットの管理 {#manage-asset}
             + [Assets Essentials の操作](using/email/assets-essentials.md)
             + [Adobe Stock との連携](using/email/stock.md)
-         + [パーソナライズされたオファーの追加](using/email/add-offers-email.md)
+         + [パーソナライズされたオファーを挿入](using/email/add-offers-email.md)
          + [テキストバージョンの生成](using/email/text-version-email.md)
          + [プリヘッダーの追加](using/email/preheader.md)
       + スタイルを編集 {#edit-style}
+         + [電子メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
          + [背景設定を編集](using/email/backgrounds.md)
          + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
          + [リンクのスタイルの定義](using/email/styling-links.md)
@@ -233,8 +234,11 @@ ht-degree: 95%
       + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
       + [テンプレートの作成](using/landing-pages/lp-templates.md)
       + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
-   + [購読リストの作成](using/landing-pages/subscription-list.md)
-   + [ユースケース](using/landing-pages/lp-use-cases.md)
+   + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
+   + [使用例を通じて学ぶ](using/landing-pages/lp-use-cases.md)
+   + ランディングページの設定 {#lp-configuration}
+      + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
+      + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + パーソナライズ機能と動的コンテンツ {#personalized-dynamic-content}
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
@@ -412,28 +416,20 @@ ht-degree: 95%
    + [クエリ](using/data/get-started-queries.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
-   + メッセージの設定 {#configuration-message}
-      + メールの設定 {#email-configuration}
-         + サブドメインのデリゲート {#delegate-subdomains}
-            + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
-            + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
-            + [デリゲートされたサブドメインへのアクセス](using/configuration/access-subdomains.md)
-         + サブドメイン関連のアクションの管理 {#subdomain-related-actions}
-            + [Google TXT レコードの追加](using/configuration/google-txt.md)
-            + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
-            + [IP プールの作成](using/configuration/ip-pools.md)
-         + メールアドレスのモニタリング {#monitor-reputation}
-            + [抑制リスト](using/configuration/manage-suppression-list.md)
-            + [再試行](using/configuration/retries.md)
-            + [許可リスト](using/configuration/allow-list.md)
-      + チャネルサーフェスの設定 {#set-up-channels}
-         + [チャネルサーフェスの作成](using/configuration/channel-surfaces.md)
-      + [アーカイブのサポート](using/configuration/archiving-support.md)
-      + [実行アドレスの管理](using/configuration/primary-email-addresses.md)
-      + [頻度ルールの設定](using/configuration/frequency-rules.md)
-   + ランディングページの設定 {#lp-configuration}
-      + [ランディングページのサブドメインの設定](using/configuration/lp-subdomains.md)
-      + [ランディングページプリセットの定義](using/configuration/lp-presets.md)
+   + 電子メールサブドメインをデリゲート {#delegate-subdomains}
+      + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
+      + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
+      + [Google TXT レコードの追加](using/configuration/google-txt.md)
+      + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
+      + [IP プールの作成](using/configuration/ip-pools.md)
+   + [チャネルサーフェスの設定](using/configuration/channel-surfaces.md)
+   + メールアドレスのモニタリング {#monitor-reputation}
+      + [抑制リスト](using/configuration/manage-suppression-list.md)
+      + [再試行](using/configuration/retries.md)
+      + [許可リスト](using/configuration/allow-list.md)
+   + [アーカイブのサポート](using/configuration/archiving-support.md)
+   + [頻度ルールの設定](using/configuration/frequency-rules.md)
+   + [実行アドレスの管理](using/configuration/primary-email-addresses.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + [外部システムとの統合](using/configuration/external-systems.md)

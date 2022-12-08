@@ -4,16 +4,24 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 99%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2022年12月 {#december-2022}
+
+* メッセージガイドは、再編成され、各チャネルの専用ガイドに分割されました。
+
+   * [メールチャネル](../email/get-started-email.md)
+   * [プッシュ通知チャネル](../push/get-started-push.md)
+   * [SMS チャネル](../sms/get-started-sms.md)
 
 ## 2022年11月 {#november-2022}
 
@@ -29,7 +37,7 @@ ht-degree: 99%
 * **エンティティデータセット**&#x200B;の節を更新し、詳細を追加しました。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
 * オプトアウト管理および同意ポリシーの節の構成を変更しました。[詳細情報](../privacy/opt-out.md)
 * ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。
-* **ランディングページのサブドメインの設定**&#x200B;の節に、ランディングページのサブドメインでは大文字を使用できないことを示すメモを追加しました。[詳細情報](../configuration/lp-subdomains.md)
+* **ランディングページのサブドメインの設定**&#x200B;の節に、ランディングページのサブドメインでは大文字を使用できないことを示すメモを追加しました。[詳細情報](../landing-pages/lp-subdomains.md)
 
 ## 2022年9月 {#september-2022}
 
@@ -88,7 +96,7 @@ ht-degree: 99%
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。[詳細情報](../reports/live-report.md)
 * Delete メソッドがカスタムアクションでサポートされていないことを示す注記を追加しました。[詳細情報](../action/about-custom-action-configuration.md)
 * チュートリアルビデオへのリンクが更新されました。
-* [メール設定](../configuration/about-subdomain-delegation.md)、[メッセージプリセット](../configuration/channel-surfaces.md)および[ランディングページの設定](../configuration/lp-subdomains.md)の節が再編成され、読みやすくなりました。
+* [メール設定](../configuration/about-subdomain-delegation.md)、[メッセージプリセット](../configuration/channel-surfaces.md)および[ランディングページの設定](../landing-pages/lp-subdomains.md)の節が再編成され、読みやすくなりました。
 * URL トラッキングの節が更新および改訂され、例が追加されました。[詳細情報](../email/email-settings.md#url-tracking)
 * 転送メールアドレスの設定に関する新しい節が追加されました。ユーザーインターフェイスでは実行できません。[詳細情報](../email/email-settings.md#forward-email)
 
