@@ -1,43 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS の基本を学ぶ
-description: Journey Optimizerで SMS を作成する方法を説明します
+title: SMS について学習します。
+description: 旅のオプティマイザーで SMS を作成する方法について学習します。
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 84%
+source-wordcount: '191'
+ht-degree: 0%
 
 ---
 
-# SMS の基本を学ぶ {#get-started-sms}
+# SMS について学習します。 {#get-started-sms}
 
 >[!IMPORTANT]
 >
->SMS を初めて作成する場合は、SMS チャネルが設定されていることを確認してください。 [詳細情報](sms-configuration.md)。
+>初めて SMS を作成する場合は、SMS チャネルが設定されていることを確認してください。 [詳しく ](sms-configuration.md) は、こちらを参照してください。
 
-[!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージを送信できます。SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
+を使用 [!DNL Journey Optimizer] して、モバイルデバイス上で顧客にテキストメッセージを送信します。 SMS エディターを使用して、テキストフォーマットでメッセージを作成したり、カスタマイズしたり、プレビューしたりすることができます。
 
-SMS 配信を作成するには、次の手順を実行します。
+SMS 配布は、次の方法で作成できます。
 
-* **ジャーニーの場合**：ジャーニーに SMS アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : SMS]** パネルを使用して SMS メッセージのコンテンツを作成します。
+* 詳しくは **** 、sms のアクティビティを追加し、基本設定を定義してから、右側の **[!UICONTROL Actions: SMS]** ウィンドウを使用して sms メッセージのコンテンツを作成します。
 
-   ジャーニーの設定方法について詳しくは、この[ページ](../building-journeys/journey-gs.md)を参照してください。
+   フライトの設定方法について詳しくは、この [ ページ ](../building-journeys/journey-gs.md) を参照してください。
 
-* **キャンペーンの場合**：キャンペーンを作成したら、アクションとして SMS を選択し、基本設定を定義します。
+* **キャンペーン** の場合: キャンペーンの作成が完了したら、「SMS」を操作として選択し、基本的な設定を定義します。
 
-   キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
+   キャンペーンの設定方法について詳しくは、この [ ページ ](../campaigns/create-campaign.md#configure) を参照してください。
 
-SMS メッセージを初めて作成する場合は、SMS チャネルが設定されていることを確認してください。[詳細情報](sms-configuration.md)。
+SMS メッセージを初めて作成する場合は、SMS チャネルが設定されていることを確認してください。 [詳しく ](sms-configuration.md) は、こちらを参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="リード" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="招き" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div><a href="create-sms.md"><strong>SMS メッセージの作成</strong>
 </div>
@@ -45,10 +46,10 @@ SMS メッセージを初めて作成する場合は、SMS チャネルが設定
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="低頻度" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="ときどき" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>SMS メッセージの送信</strong></a>
+<a href="send-sms.md"><strong>SMS メッセージを送信します。</strong></a>
 </div>
 <p></td>
 <td>
@@ -71,8 +72,8 @@ SMS メッセージを初めて作成する場合は、SMS チャネルが設定
 </td>
 </tr></table>
 
-## ハウツービデオ
+## 操作方法のビデオ
 
-SMS メッセージを設定、作成、およびカスタマージャーニーに含める方法について説明します。
+SMS メッセージを設定し、オーサリングして、カスタマー journeys に組み込む方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)

@@ -1,6 +1,6 @@
 ---
-title: 日時関数ライブラリ
-description: 日時関数ライブラリ
+title: 日付時刻関数ライブラリ
+description: 日付時刻関数ライブラリ
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,20 +8,20 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
-# 日時関数{#date-time}
+# 日付時刻関数{#date-time}
 
-日時関数を使用すると、Journey Optimizer 内の値に対して日時操作を実行できます。
+日付時刻関数は、旅のオプティマイザー内の値に対して日付と時刻の操作を実行するために使用されます。
 
-## 年齢{#age}
+## 寿命{#age}
 
-`age` 関数を使用すると、指定された日付からの経過時間を取得できます。
+`age`この関数は、指定した日付から経過時間を取得するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
  {%= age(datetime) %}
@@ -37,11 +37,11 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## 現在の時刻 (ミリ秒){#current-time}
+## 現在の時間 (ミリ秒){#current-time}
 
-`currentTimeInMillis` 関数を使用すると、現在の時刻をエポックミリ秒単位で取得できます。
+この関数は、 `currentTimeInMillis` 紀元ミリ秒単位で現在の時刻を取得するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -57,11 +57,11 @@ The following operation gets all the keys for the map `identityMap`.
 ```
 -->
 
-## 日付の差異{#date-diff}
+## 日付の違い{#date-diff}
 
-`dateDiff` 関数を使用すると、2 つの日付間の差異を日数単位で取得できます。
+この関数は、 `dateDiff` 2 つの日付間の差を日数で取得するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -80,9 +80,9 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 曜日{#day-week}
 
-`dayOfWeek` 関数を使用すると、曜日を取得できます。
+この関数は、 `dayOfWeek` 曜日を取得するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -98,11 +98,11 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 通日{#day-year}
+## 年通算日付{#day-year}
 
-`dayOfYear` 関数を使用すると、通日（1月1日からの通算日数）を取得できます。
+この関数は、 `dayOfYear` 通算日を取得するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -118,25 +118,25 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 日付をフォーマット{#format-date}
+## 日付の形式{#format-date}
 
-`formatDate` 関数を使用すると、日時値を書式設定できます。書式は、有効な Java DateTimeFormat パターンである必要があります。
+この関数は、 `formatDate` 日付と時刻の値をフォーマットするために使用されます。 フォーマットは、有効な Java DateTimeFormat パターンである必要があります。
 
-**形式**
+**書式**
 
 ```sql
 {%= formatDate(datetime, format) %}
 ```
 
-上記の 1 番目の文字列が日付属性で、2 番目の値が日付の変換および表示方法を示します。
+ここでは、最初のストリングが日付属性であり、2番目のストリングは日付属性を使用して日付を変換し、表示する方法を指定します。
 
 >[!NOTE]
 >
-> 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
+> 日付パターンが無効な場合は、その日付が ISO 標準形式にフォールバックされます。
 >
-> [Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}にまとめられている Java 日付書式設定関数を使用できます。
+> Java 日付フォーマット関数は、Oracle ドキュメント ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) で要約 [ されるように使用することができます {_blank}
 
-**例**
+**一**
 
 次の操作を実行すると、MM/DD/YY の形式で日付が返されます。
 
@@ -144,11 +144,11 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## 日数を設定{#set-days}
+## 日の設定{#set-days}
 
-`setDays` 関数を使用すると、指定された日時の日付を設定できます。
+`setDays`この関数を使用して、指定した日付と時刻に日付を設定します。
 
-**形式**
+**書式**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -164,11 +164,11 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 時間を設定{#set-hours}
+## 時間の設定{#set-hours}
 
-`setHours` 関数を使用すると、日時の時を設定できます。
+`setHours`この関数は、日時を設定するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -185,12 +185,12 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## UTC に{#to-utc}
+## UTC へ{#to-utc}
 
-`toUTC` 関数を使用すると、日時を UTC に変換できます。
+`toUTC`この関数は、datetime を UTC に変換するために使用されます。
 
 
-**形式**
+**書式**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -207,11 +207,11 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## 年間通算週 (UTC){#week-of-year}
+## 年の通算週{#week-of-year}
 
-`weekOfYear` 関数を使用すると、年の週番号（何週目か）を取得できます。
+`weekOfYear`この関数を使用して、年の通算週を取得します。
 
-**形式**
+**書式**
 
 ```sql
 {%= weekOfYear(datetime) %}

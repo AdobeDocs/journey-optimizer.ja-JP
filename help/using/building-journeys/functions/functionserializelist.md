@@ -1,47 +1,47 @@
 ---
 product: journey optimizer
 title: serializeList
-description: serializeList 関数について説明します
+description: 関数の serializeList について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
 # serializeList {#serializeList}
 
-最初のパラメーターで指定されたリスト（任意のタイプ）を文字列に変換します。 2 番目のパラメーターは、使用する区切り文字を表します。 3 番目のパラメーターは、式の各要素に引用符を含めるかどうかを示すブール値です。
+最初のパラメーターによって指定されたリスト (任意の型) をストリングに変換します。 第2パラメーターは、使用する区切り文字を表します。 3番目のパラメーターは、式の各要素に引用符を含めるかどうかを示すブール値です。
 
-## カテゴリ
+## 項目
 
-リスト
+一連
 
-## 関数の構文
+## 関数のシンタックス
 
 `serializeList(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| 文字列 | 文字列 |
-| ブール値 | ブール値 |
-| 日時のみ | 日時のみ |
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listPoint |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| 値 | 値 |
+| 示す | 示す |
+| DateTimeOnly | DateTimeOnly |
+| 一連 | listString |
+| 一連 | listBoolean |
+| 一連 | listPoint |
+| 一連 | リスト10進数 |
+| 一連 | listDuration |
+| 一連 | listDateTime |
+| 一連 | listDateTimeOnly |
+| 一連 | listDateOnly |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
@@ -61,9 +61,9 @@ ht-degree: 100%
 
 `serializeList(<listPoint>,<string>,<boolean>)`
 
-文字列を返します。
+ストリングを返します。
 
-## 例
+## 一
 
 `serializeList(["Hello","World"], " ", false)`
 
@@ -71,4 +71,4 @@ ht-degree: 100%
 
 `serializeList(["Hello", "World"], ",", true)`
 
-「&quot;Hello&quot;,&quot;World&quot;」を返します。
+&quot;&quot; Hello &quot;、&quot; World &quot;という戻り値を返します。

@@ -1,38 +1,38 @@
 ---
 product: journey optimizer
 title: toDateTimeOnly
-description: toDateTime 関数について説明します
+description: 関数 toDateTime について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 100%
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-引数値を日時のみの値に変換します。
+引数の値を日付時刻のみの値に変換します。
 
-## カテゴリ
+## 項目
 
-変換
+処理
 
-## 関数の構文
+## 関数のシンタックス
 
 `toDateTimeOnly(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| ISO-8601 形式つまり「YYYY-MM-DD」形式（XDM 日付形式）の日時 | 文字列 |
-| 日時 | 日時 |
+| ISO-8601 または「YYYY-MM-DD」形式で日付時刻 (XDM 日付フォーマット) | 値 |
+| 日時 | dateTime |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `toDateTimeOnly(<dateTime>)`
 
@@ -40,13 +40,13 @@ ht-degree: 100%
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-タイムゾーンを無視して日時を返します。
+タイムゾーンを考慮せずに日付を返します。
 
 ## 例
 
 `toDateTimeOnly ("2016-08-18")`
 
-2016-08-18T00:00:00.000 を表す日時を返します。
+2016年 8: 00.000-08-18T00 :00:
 
 `toDateTimeOnly(now())`
 

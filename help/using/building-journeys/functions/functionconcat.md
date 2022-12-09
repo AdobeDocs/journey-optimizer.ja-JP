@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: concat
-description: concat 関数について説明します
+title: 連結
+description: 関数の連結について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,42 +9,42 @@ exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# concat {#concat}
+# 連結 {#concat}
 
-2 つの文字列パラメーターまたは 1 つの文字列リストを連結します。
+2つのストリングパラメーターまたはストリングのリストを連結します。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `concat(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| リスト | listString |
-| 文字列 | 文字列 |
+| 一連 | listString |
+| 値 | 値 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `concat(<string>,<string>)`
 
 `concat(<listString>)`
 
-文字列を返します。
+ストリングを返します。
 
-## 例
+## 一
 
 `concat("Hello","World")`
 
-「HelloWorld」を返します。
+&quot;HelloWorld&quot; を返します。
 
 `concat(["Hello"," ","World"])`
 

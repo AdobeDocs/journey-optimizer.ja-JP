@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: プッシュ通知のデザイン
-description: Journey Optimizerでプッシュ通知をデザインする方法を説明します
+description: この方法について詳しくは、旅オプティマイザーの「プッシュ通知」をデザインしてください。
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 98%
+source-wordcount: '1181'
+ht-degree: 0%
 
 ---
 
@@ -18,58 +19,58 @@ ht-degree: 98%
 
 ## タイトルと本文 {#push-title-body}
 
-メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。式エディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)についての詳細をご覧ください。
+メッセージを作成するには **[!UICONTROL Title]** 、「」および **[!UICONTROL Body]** 「フィールド」をクリックします。 エクスプレッションエディターを使用して、コンテンツを定義し、データをパーソナライズし、動的コンテンツを追加します。 エクスプレッションエディターで、パーソナル化 ](../personalization/personalize.md) と [ 動的コンテンツ ](../personalization/get-started-dynamic-content.md) について [ 詳しく説明します。
 
-デバイスのプレビューセクションを使用すると、iOS 端末と Android 端末で表示されるプッシュ通知を視覚化できます。
+デバイスプレビューセクションを使用して、iOS および Android デバイスでのプッシュ通知の表示方法を表示します。
 
 ## クリック時の動作 {#on-click-behavior}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
->title="クリック動作について"
->abstract="受信者がプッシュ通知の本文をクリックしたときの動作を選択します。"
+>title="クリック時の動作について"
+>abstract="受信者が push 通知の本文をクリックしたときのビヘイビアーを選択します。"
 
-受信者がプッシュ通知の本文をクリックしたときの動作を選択します。
+ユーザーが push 通知の body をクリックしたときの動作を選択できます。
 
 ![](assets/title-body-push.png)
 
-* アプリを開くには、「**[!UICONTROL アプリを開く]**」オプションを選択します。通知に関連付けるアプリは、[チャネルサーフェス](../configuration/channel-surfaces.md)（メッセージプリセットなど）内で定義します。
-* アプリ内の特定のコンテンツ部分にユーザーをリダイレクトするには、「**[!UICONTROL ディープリンク]**」オプションを選択します。特定のコンテンツには、特定のビュー、ページの特定のセクション、特定のタブがあります。オプションを選択したら、関連するフィールドにディープリンクを入力します。
-* ユーザーを外部 URL にリダイレクトするには、「**[!UICONTROL Web URL]**」オプションを使用します。オプションを選択したら、関連するフィールドに URL を入力します。
+* アプリケーションを開くには、オプションを選択 **[!UICONTROL Open app]** します。 通知に関連付けられたアプリケーションは、チャンネルサーフェス ](../configuration/channel-surfaces.md) (メッセージプリセット) に [ 定義されます。
+* アプリケーション内で特定のコンテンツをユーザーにリダイレクトするには、このオプションを選択 **[!UICONTROL Deeplink]** します。  特定のビュー、ページの特定のセクション、または特定のタブを指定することができます。 このオプションを選択した後、関連付けられたフィールドにディープリンクを入力します。
+* ユーザーが外部 URL にリダイレクトされるようにするには、このオプションを使用 **[!UICONTROL Web URL]** します。 このオプションを選択した後、関連付けられたフィールドに URL を入力します。
 
-## メディアの追加 {#add-media-push}
+## メディアを追加 {#add-media-push}
 
-iOS バージョンのプッシュ通知では、通知内に表示する画像、ビデオまたは GIF を追加できます。
+送受信通知の iOS 版では、通知の中に表示されるイメージ、ビデオまたは GIF を追加することができます。
 
-Android バージョンで追加できるのは、画像アイコンと、拡張通知用の画像のみです。
+Android 版では、イメージアイコンおよび展開された通知のイメージのみを追加することができます。
 
 ![](assets/push-config-add-media.png)
 
-2 つのオプションを使用できます。次のことができます：
+次の2つのオプションを選択できます。 できます：
 
-* 「**[!UICONTROL メディアを追加]**」ボタンを使用して、**[!DNL Adobe Experience Manager Assets Essentials]** 内のアセットを選択します。
+* ボタンを使用して **[!UICONTROL Add media]** 、で **[!DNL Adobe Experience Manager Assets Essentials]** アセットを選択します。
 
-   **[!DNL Adobe Experience Manager Assets Essentials]** の使用方法について詳しくは、[このページ](../email/assets-essentials.md)を参照してください。
+   このページ ](../email/assets-essentials.md) での [ 使用 **[!DNL Adobe Experience Manager Assets Essentials]** 方法について説明します。
 
-* または、「**[!UICONTROL メディアを追加]**」フィールドにメディアの URL を入力します。この場合、パーソナライズ機能を URL に追加できます。
+* または、フィールドに **[!UICONTROL Add media]** メディアの URL を入力します。 このような場合は、個人用設定を URL に追加できます。
 
-メディアを追加すると、通知本文の右側に表示されます。
+メディアを追加すると、その内容が通知本文の右側に表示されます。
 
-## ボタンの追加 {#add-buttons-push}
+## ボタンを追加します。 {#add-buttons-push}
 
-プッシュコンテンツにボタンを追加することで、アクションにつながる通知を作成できます。
+ボタンをプッシュコンテンツに追加して、アクション可能な通知を作成します。
 
-デバイスの画面がロックされている場合、次のボタンは表示されません。通知の&#x200B;**タイトル**&#x200B;と&#x200B;**メッセージ**&#x200B;のみが表示されます。デバイスのロックが解除されている場合、受信者にボタンが表示されます。
+デバイス画面がロックされている場合、これらのボタンは表示されません。通知のタイトル **と** メッセージ **だけ** が表示されます。デバイスのロックが解除されている場合は、ボタンが表示されます。
 
-iOS バージョンでは、最大 4 つのボタンを追加できます。Android バージョンでは、最大 3 つのボタンを追加できます。
+IOS 版では最大4つのボタンを追加することができます。 Android バージョンには、最大で3つのボタンを追加することができます。
 
 >[!NOTE]
 >
->iOS の場合、「**[!UICONTROL iOS カテゴリ]**」フィールドを使用して、アクションを通知カテゴリに関連付けます。
+>IOS の場合は、このフィールドを使用 **[!UICONTROL iOS category]** して、アクションを通知カテゴリーに関連付けます。
 
-1. 「**[!UICONTROL ボタンを追加]**」をクリックして、ラベルと関連するアクションの設定を定義します。可能なアクションは、[クリック時の動作](#on-click-behavior)の場合と同じです。
+1. **[!UICONTROL Add button]**&#x200B;を使用して設定を定義します。ラベルと関連するアクションです。可能なアクションは、クリックしたときの [ 動作 ](#on-click-behavior) と同じです。
 
-1. 中央のプレビュー画像の「**[!UICONTROL 表示を展開]**」アイコンを使用して、パーソナライズされたボタンをプレビューします。
+1. **[!UICONTROL Expand view]**&#x200B;プレビューイメージの下にあるアイコンを使用して、パーソナライズされたボタンをプレビューします。
 
 ![](assets/push_buttons.png)
 
@@ -78,33 +79,31 @@ iOS バージョンでは、最大 4 つのボタンを追加できます。Andr
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
 >title="サイレント通知について"
->abstract="ユーザーを煩わせずに通知を送信すると、通知センターや通知バーに通知が表示されません。"
+>abstract="通知はユーザーに通知せずに送信されるので、通知センターや通知バーに通知が表示されることはありません。"
 
-サイレントプッシュ通知（バックグラウンド通知）は、アプリケーションに配信される非表示の命令です。これは、例えば、新しいコンテンツが利用可能であることをアプリケーションに通知したり、バックグラウンドでダウンロードを開始したりする場合に使用します。
+サイレントプッシュ通知 (バックグラウンド通知) は、アプリケーションに配信される非表示の命令です。 この機能を使用して、新しいコンテンツが使用可能かどうかをアプリケーションに通知したり、バックグラウンドでダウンロードを開始したりできます。
 
-「**[!UICONTROL サイレント通知]**」オプションを選択すると、アプリケーションにサイレントに通知できます。この場合、通知はアプリケーションに直接転送されます。デバイスの画面にアラートは表示されません。
+**[!UICONTROL Silent Notification]**&#x200B;アプリケーションに通知を自動的に通知するオプションを選択します。この場合、通知は直接アプリケーションに転送されます。デバイス画面にアラートは表示されません。
 
-「 **[!UICONTROL カスタムデータ]**」セクションを使用すると、キーと値のペアを追加できます。
+キーと値のペアを追加するには、 **[!UICONTROL Custom data]** 「」セクションを使用します。
 
 ## カスタムデータ
 
-**[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。Adobe Experience Platform と Adobe Launch でのプッシュ通知の設定方法の詳細については、[この節](push-gs.md)を参照してください。
+**[!UICONTROL Custom data]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加することができます。Adobe エクスペリエンスプラットフォームと Adobe 発売でのプッシュ通知の設定方法について詳しくは、次の項を [ 参照してください。](push-gs.md)
 
-## 詳細オプション {#advanced-options-push}
+## 高度なオプション {#advanced-options-push}
 
-プッシュ通知用に&#x200B;**[!UICONTROL 詳細オプション]**&#x200B;を設定できます。使用できるパラメーターは以下のとおりです。
+Push 通知については、を設定 **[!UICONTROL Advanced options]** することができます。 使用可能なパラメーターは以下のとおりです。
 
-| パラメーター | 説明 |
+| 指定 | つい |
 |---------|---------|
-| **[!UICONTROL 折りたたみ可能]**（iOS／Android） | 折りたたみ可能なメッセージとは、古くなった場合に新しいメッセージに置き換えられる可能性のあるメッセージです。折りたたみ可能なメッセージの一般的なユースケースは、モバイルアプリに対して、サーバーからのデータを同期するよう伝えるメッセージです。例えば、最新のスコアでユーザーを更新するスポーツアプリが挙げられます。最新のメッセージのみが関連します。一方、折りたたみが不可能なメッセージは、クライアントアプリにとってすべてのメッセージが重要であり、配信する必要があるものです。 |
-| **[!UICONTROL カスタムサウンド]**（iOS／Android） | 通知を受け取ったときにモバイル端末が再生するサウンド。サウンドは、アプリにバンドルされている必要があります。 |
-| **[!UICONTROL バッジ]**（iOS／Android） | バッジは、新しい未読情報の数をアプリケーションアイコンに直接表示するために使用します。<br/>バッジの値は、ユーザーがアプリケーションで新しいコンテンツを開いたり読んだりするとすぐに消えます。デバイスで通知を受け取ると、関連アプリのバッジ値を更新したり追加したりできます。<br/>例えば、顧客の未読記事の数を保存している場合、パーソナライズ機能を利用して、顧客ごとに未読記事の固有のバッジ値を送信できます。パーソナライゼーションの詳細については、[この節](../personalization/personalize.md)を参照してください。 |
-| **[!UICONTROL 通知グループ]**（iOS のみ） | 通知グループをプッシュ通知に関連付けます。<br/>iOS 12 以降は、通知グループを使用すると、メッセージスレッドと通知トピックをスレッド ID に統合できます。例えば、あるブランドでは、1 つのグループ ID でマーケティング通知を送信すると同時に、1 つ以上の異なる ID で、より多くの運用に関する通知を送信することができます。<br/>例を挙げると、groupID：123 「セーターの新しい春のコレクションをチェックしてください」と groupID：456 「あなたのパッケージが配達されました」という通知グループを設定できます。この例では、すべての配達通知はグループ ID：456 の下にバンドルされます。 |
-| **[!UICONTROL 通知チャネル]**（Android のみ） | プッシュ通知に通知チャネルを関連付けます。<br/>Android 8.0（API レベル 26）以降では、表示するすべての通知をチャネルに割り当てる必要があります。詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)を参照してください。 |
-| **[!UICONTROL コンテンツ可用性フラグの追加]**（iOS のみ） | プッシュ通知を受け取ると（アプリがペイロードデータにアクセスできるようになると）すぐにアプリを起動し、コンテンツ利用可能フラグをプッシュペイロードで送信します。<br/>この機能は、アプリがバックグラウンドで実行されていて、ユーザーからの操作（プッシュ通知のタップなど）がない場合でも動作しますが、アプリが実行されていない場合は動作しません。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)を参照してください。 |
-| **[!UICONTROL 可変コンテンツフラグの追加]**（iOS のみ） | プッシュペイロードに可変コンテンツフラグを送信し、iOS SDK で提供される通知サービスアプリケーション拡張機能によって、プッシュ通知の内容を変更できるようにします。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。<br/>その後、モバイルアプリの拡張機能を利用して、[!DNL Journey Optimizer] から送信される着信プッシュ通知の内容や表示をさらに変更できます。このオプションを使用すると、データの復号化、通知の本文やタイトルテキストの変更、通知へのスレッド ID の追加などをおこなうことができます。 |
-| **[!UICONTROL 通知の表示]**（Android のみ） | プッシュ通知の表示を定義します。<br/><b>プライベート</b>に設定すると、すべてのロック画面に通知が表示されますが、保護されたロック画面では機密情報やプライベートな情報を非表示にします。<br/><b>パブリック</b>に設定すると、すべてのロック画面に通知全体を表示します。<br/><b>シークレット</b>に設定すると、保護されたロック画面に通知を一切表示しません。<br/>詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/reference/android/app/Notification)を参照してください。 |
-| **[!UICONTROL 通知の優先度]**（Android のみ） | プッシュ通知の重要度を「低」から「最高」まで定義します。プッシュ通知が配信された際の、プッシュ通知の「割り込み」の度合いを決定します。詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)を参照してください。 |
-| **[!UICONTROL 配信の優先順位]**（Android のみ） | プッシュ通知の優先度を「高」または「通常」に設定します。メッセージの優先度の詳細については、[Google 開発者向けドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)を参照してください。 |
-
-
+| **[!UICONTROL Collapsible]** (iOS/Android) | 折りたたみ可能なメッセージとは、古くなったメッセージが新しいメッセージに置き換えられる可能性があることを示します。 折りたたみ可能なメッセージとは、サーバーからデータを同期するためにモバイルアプリケーションに対して使用されるメッセージのことです。 例としては、最新のスコアがユーザーによって更新されるスポーツアプリが挙げられます。 最新のメッセージのみが表示されます。 逆に、折りたたみ表示されていないメッセージについては、クライアントアプリケーションにとって重要なメッセージなので、配信が必要になります。 |
+| **[!UICONTROL Custom sound]** (iOS/Android) | 通知を受信したときにモバイル端末によって再生されるサウンド。 サウンドはアプリケーションにバンドルされている必要があります。 |
+| **[!UICONTROL Badges]** (iOS/Android) | バッジは、アプリケーションアイコン上に直接表示するために使用されます。新しい未読情報の数です。 <br/>このバッジの値は、ユーザーがアプリケーションから新しいコンテンツを開いたり読み込んだりするとすぐには表示されなくなります。 デバイスで通知を受信すると、それによって更新されたり、関連するアプリケーションのバッジ値が追加されたりすることができます。<br/>例えば、顧客の未読記事数を保管している場合は、パーソナル化を利用して、顧客ごとに一意の未読記事のバッジ値を送信できます。 パーソナライズについては、この節 ](../personalization/personalize.md) を [ 参照してください。 |
+| **[!UICONTROL Notification group]**  (iOS のみ) | 通知先グループを push 通知に関連付けます。<br/>IOS 12 以降では、通知グループを使用して、メッセージスレッドと通知トピックをスレッド Id に整理することができます。 例えば、1つ以上の Id についての操作タイプの通知を使用して、1つのグループ ID の下にマーケティング通知を送信することができます。<br/>このことを説明するために、groupID: 123 &quot;パッケージが配信された&quot; sweaters &quot;および groupID: 456&quot; という &quot;通知グループ&quot; を作成することができます。 この例では、すべての配布通知がグループ ID: 456 にバンドルされています。 |
+| **[!UICONTROL Notification channel]** (Android のみ) | 通知チャネルを push 通知に関連付けます。<br/>Android 8.0 (API level 26) では、表示するにはすべての通知がチャネルに割り当てられている必要があります。 詳細については、Android 開発者向けドキュメント ](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels) を [ 参照してください。 |
+| **[!UICONTROL Add content-availability flag]** (iOS のみ) | プッシュ通知の受信直後にアプリが起動されると同時に、そのアプリケーションがペイロードデータにアクセスできるようになるので、コンテンツの利用可能フラグを push ペイロードに送信します。<br/> これは、アプリケーションがバックグラウンドで実行されていて、ユーザーの操作が不要になった場合でも機能します (プッシュ通知上をタップするなど)。 ただし、アプリケーションが実行されていない場合には適用されません。 詳細については、アップル開発者向けドキュメント ](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html) を [ 参照してください。 |
+| **[!UICONTROL Add mutable-content flag]** (iOS のみ) | 可変コンテンツフラグを push ペイロードで送信し、iOS SDK に用意されている notification service アプリケーション拡張機能によってプッシュ通知コンテンツを変更できるようにします。 詳細については、アップル開発者向けドキュメント ](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) を [ 参照してください。<br/>これにより、モバイルアプリケーション拡張機能を活用して、から [!DNL Journey Optimizer] 送信された受信プッシュ通知のコンテンツやプレゼンテーションをさらに変更することができます。 例えば、ユーザーはこのオプションを使用して、データを復号化したり、通知の本文またはタイトルのテキストを変更することができます。また、通知のスレッド id を追加することもできます。 |
+| **[!UICONTROL Notification visibility]** (Android のみ) | Push 通知の表示/非表示を定義します。 <br/><b>「プライベート </b> 」を選択すると、セキュリティで保護された lockscreens で通知が表示されます。 <br/><b></b>すべての lockscreens に通知全体が表示されます。<br/><b>秘匿 </b> によって、セキュリティーロックされているときに通知の一部が表示されることはありません。 <br/>詳細については、Android 開発者向けドキュメント ](https://developer.android.com/reference/android/app/Notification) を参照して [ ください。 |
+| **[!UICONTROL Notification priority]** (Android のみ) | Push 通知の重要度を「ロー」から「最大」に定義します。 これにより、プッシュ通知が配信されるときの &quot;侵入&quot; をどのようにするかを指定できます。 詳細については、Android 開発者向けドキュメントを [ 参照してください。](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
+| **[!UICONTROL Delivery priority]** (Android のみ) | Push 通知について、高い優先度または通常の優先度を設定します。 メッセージの優先度について詳しくは、Google 開発者向けドキュメント ](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message) を [ 参照してください。 |

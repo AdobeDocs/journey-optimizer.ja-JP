@@ -1,36 +1,36 @@
 ---
 product: journey optimizer
-title: round
-description: round 関数について説明します
+title: 数値
+description: 関数のラウンドについて説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 100%
+source-wordcount: '44'
+ht-degree: 0%
 
 ---
 
-# round {#round}
+# 数値 {#round}
 
-引数に最も近い整数値を返します。差が同じ場合は正の無限大側に丸められます。
+引数に最も近い整数値を返します。これは、正の無限大に関連付けます。
 
-## カテゴリ
+## 項目
 
-数値計算
+数学
 
-## 関数の構文
+## 関数のシンタックス
 
 `round(<parameters>)`
 
 ## パラメーター
 
-* 小数
+* 形式
 * 整数
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `round(<decimal>)`
 
@@ -38,15 +38,15 @@ ht-degree: 100%
 
 整数を返します。
 
-## 例
+## 一
 
 `round(3.14)`
 
-3 を返します。
+3を返します。
 
 `round(3.54)`
 
-4 を返します。
+4を返します。
 
 `round(-3.14)`
 
@@ -54,4 +54,4 @@ ht-degree: 100%
 
 `round(3)`
 
-3 を返します。
+3を返します。

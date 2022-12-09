@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inNextHours
-description: inNextHours 関数について説明します
+description: 関数の inNextHours について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,30 +9,30 @@ exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # inNextHours {#inNextHours}
 
-指定された日付または日時が現在と現在 + デルタ時間の間にある場合、true を返します。
+指定された日付または日付が現在から現在までの間にある場合は true を返します。
 
-## カテゴリ
+## 項目
 
-日付
+古い
 
-## 関数の構文
+## 関数のシンタックス
 
 `inNextHours(<dateTime>,<delta>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| 日時 | 日時 |
-| delta | 整数 |
+| 日時 | dateTime |
+| 増分 | 整数 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `inNextHours(<dateTime>,<integer>)`
 
@@ -42,4 +42,4 @@ ht-degree: 100%
 
 `inNextHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-true を返します。
+True を返します。

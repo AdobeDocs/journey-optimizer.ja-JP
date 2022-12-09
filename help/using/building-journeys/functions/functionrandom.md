@@ -1,32 +1,32 @@
 ---
 product: journey optimizer
-title: random
-description: random 関数について説明します
+title: 無作為
+description: 関数のランダムな機能について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: df006301-d309-4cb0-b505-317f623df494
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 100%
+source-wordcount: '26'
+ht-degree: 0%
 
 ---
 
-# random {#random}
+# 無作為 {#random}
 
-0 と 1 の間の乱数を生成します。
+0 ~ 1 の範囲の乱数を生成します。
 
-## カテゴリ
+## 項目
 
-数値計算
+数学
 
-## 関数の構文
+## 関数のシンタックス
 
 `random(<parameters>)`
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `random()`
 
-小数を返します。
+10進数を返します。

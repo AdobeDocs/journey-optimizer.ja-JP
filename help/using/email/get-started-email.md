@@ -1,49 +1,50 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 電子メールの基本を学ぶ
-description: Journey Optimizer でメールを作成する方法を学ぶ
+title: 電子メールでの作業の開始
+description: 旅のオプティマイザーで電子メールを作成する方法についての説明
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 33%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
-# 電子メールの基本を学ぶ {#get-started-email}
+# 電子メールでの作業の開始 {#get-started-email}
 
 >[!IMPORTANT]
 >
->E メールを初めて作成する場合は、E メールチャネルが設定されていることを確認してください。 [詳細情報](email-settings.md)
+>初めて電子メールを作成する場合は、電子メールチャンネルが設定されていることを確認してください。 [詳細情報](email-settings.md)
 
-用途 [!DNL Journey Optimizer] 電子メールメッセージを顧客に送信する場合。 E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューをおこなうことができます。
+を使用 [!DNL Journey Optimizer] して、顧客に電子メールメッセージを送信します。 電子メールデザイナーで、メッセージの作成、カスタマイズ、プレビューを行うことができます。
 
-E メール配信は次の場所で作成できます。
+電子メール配信は、次の方法で作成できます。
 
-* 内 **ジャーニー**:追加後 **[!UICONTROL 電子メール]** アクティビティをジャーニーに追加し、基本設定を定義した場合は、 **[!UICONTROL アクション：電子メール]** SMS メッセージのコンテンツを作成する右側のウィンドウ
+* **旅** には、アクティビティを追加 **[!UICONTROL Email]** し、基本設定 **[!UICONTROL Actions: Email]** を定義した後、その SMS メッセージ用のコンテンツを右側のペインで作成できます。
 
-   ジャーニーの設定方法について詳しくは、この[ページ](../building-journeys/journey-gs.md)を参照してください。
+   フライトの設定方法について詳しくは、この [ ページ ](../building-journeys/journey-gs.md) を参照してください。
 
-* 内 **Campaign**:キャンペーンを作成したら、「 **[!UICONTROL 電子メール]** をアクションとして追加し、基本設定を定義します。
+* **キャンペーン** の場合: キャンペーンを作成した後は、操作として選択 **[!UICONTROL Email]** し、基本設定を定義します。
 
-   キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
+   キャンペーンの設定方法について詳しくは、この [ ページ ](../campaigns/create-campaign.md#configure) を参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="リード" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="招き" src="../assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="create-email.md"><strong>E メールの作成</strong>
+<div><a href="create-email.md"><strong>電子メールの作成</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="低頻度" src="../assets/do-not-localize/email-design.jpg">
+<img alt="ときどき" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
 <a href="get-started-email-design.md"><strong>電子メールのデザイン</strong></a>
@@ -63,9 +64,8 @@ E メール配信は次の場所で作成できます。
 <img alt="検証" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="email-settings.md"><strong>電子メールチャネルの設定</strong></a>
+<a href="email-settings.md"><strong>電子メールチャンネルの設定</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-

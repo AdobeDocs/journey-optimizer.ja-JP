@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: inNextYears
-description: inNextYears 関数について説明します
+title: 「Nextyears」
+description: Nextyears の機能について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,30 +9,30 @@ exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# inNextYears {#inNextYears}
+# 「Nextyears」 {#inNextYears}
 
-指定された日付または日時が現在の日時とその delta 年後の間にある場合、true を返します。
+指定された日付または日付が現在から現在までの間にある場合は true を返します。
 
-## カテゴリ
+## 項目
 
-日付
+古い
 
-## 関数の構文
+## 関数のシンタックス
 
 `inNextYears(<dateTime>,<delta>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| 日時 | 日時 |
-| delta | 整数 |
+| 日時 | dateTime |
+| 増分 | 整数 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `inNextYears(<dateTime>,<integer>)`
 
@@ -42,4 +42,4 @@ ht-degree: 100%
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 
-true を返します。
+True を返します。

@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: lower
-description: lower 関数について説明します
+title: 古い
+description: 関数の下位について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,34 +9,34 @@ exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# lower {#lower}
+# 古い {#lower}
 
-パラメーターを小文字にしたものを返します。
+パラメーターの小文字のバージョンを返します。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `lower(<parameter>)`
 
-## パラメーター
+## 指定
 
-* 文字列
+* 値
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `lower(<string>)`
 
-文字列を返します。
+ストリングを返します。
 
-## 例
+## 一
 
 `lower("A")`
 
-「a」を返します。
+「A」を返します。

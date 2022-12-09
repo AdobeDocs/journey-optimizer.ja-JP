@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: limit
-description: 関数 limit について説明します
+title: 制限
+description: 関数の制限について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,40 +9,40 @@ exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 88%
+ht-degree: 0%
 
 ---
 
 # 制限 {#limit}
 
-リストの先頭または末尾の N 個の要素を返します。
+リストの最初または最後の N エレメントを返します。
 
 >[!NOTE]
 >
 >ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
-## カテゴリ
+## 項目
 
-リスト
+一連
 
-## 関数の構文
+## 関数のシンタックス
 
 `limit(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ | 説明 |
+| 指定 | 入力 | つい |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
-| numberOfItems | 整数 | 指定されたリストから返される項目の数。 |
-| firstOrLastItems | ブール値 | このパラメーターはオプションです（デフォルトは true）。true の場合は、先頭の項目を返します。false の場合は、末尾の項目を返します。 |
+| listToProcess | listString、Liststring、Liststring、Liststring、Liststring、Liststring、listDateTimeOnly、listDateOnly、または listObject | リストが表示されます。 ListObject の場合、フィールド参照である必要があります。 |
+| numberOfItems | 整数 | 指定されたリストから返されるアイテムの数です。 |
+| 「の最後の項目」 | 示す | このパラメーターはオプションです。これは、初期設定で true に設定されています。 true を指定すると、最初の項目が返されます。 false を指定すると、最後のアイテムが返されます。 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `limit(<listString>,<integer>)`
 `limit(<listString>,<integer>,<boolean>)`
 
-文字列のリストを返します。
+ストリングのリストを返します。
 
 `limit(<listInteger>,<integer>)`
 `limit(<listInteger>,<integer>,<boolean>)`
@@ -52,7 +52,7 @@ ht-degree: 88%
 `limit(<listDecimal>,<integer>)`
 `limit(<listDecimal>,<integer>,<boolean>)`
 
-小数のリストを返します。
+小数点のリストを返します。
 
 `limit(<listBoolean>,<integer>)`
 `limit(<listBoolean>,<integer>,<boolean>)`
@@ -67,29 +67,29 @@ ht-degree: 88%
 `limit(<listDateTimeOnly>,<integer>)`
 `limit(<listDateTimeOnly>,<integer>,<boolean>)`
 
-タイムゾーンを考慮しない日時のリストを返します。
+Datetimes のリストを返します。この場合、タイムゾーンは考慮しません。
 
 `limit(<listDateTime>,integer>)`
 `limit(<listDateTime>,<integer>,<boolean>)`
 
-日時のリストを返します。
+Datetimes のリストを返します。
 
 `limit(<listDuration>,<integer>)`
 `limit(<listDuration>,<integer>,<boolean>)`
 
-期間のリストを返します。
+デュレーションのリストを返します。
 
 `limit(<listObject>,<integer>)`
 `limit(<listObject>,<integer>,<boolean>)`
 
 オブジェクトのリストを返します。
 
-## 例
+## 一
 
 `limit(["A", "B", "C", "D", "E"], 3)`
 
-`["A","B","C"]` を返します。
+戻り `["A","B","C"]` ます。
 
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
-`["C","D","E"]` を返します。
+戻り `["C","D","E"]` ます。

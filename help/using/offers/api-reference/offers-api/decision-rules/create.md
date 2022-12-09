@@ -1,6 +1,6 @@
 ---
-title: 決定ルールの作成
-description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
+title: 意思決定ルールの作成
+description: 決定ルールとは、パーソナライズされた申し出に追加され、プロファイルに適用されて、適格性を決定することです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,35 +9,35 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: a7d4ab7f7430a93fb87af390ba0a8defb36ea9e9
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# 決定ルールの作成 {#create-decision-rule}
+# 意思決定ルールの作成 {#create-decision-rule}
 
-決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
+決定ルールとは、パーソナライズされた申し出に追加され、プロファイルに適用されて、適格性を決定することです。
 
-## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
 
-| ヘッダー名 | 値 |
+| ヘッダー名 | 数値 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| コンテンツタイプ | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
-**API 形式**
+**API フォーマット**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X POST \
@@ -70,9 +70,9 @@ curl -X POST \
 }'
 ```
 
-**応答**
+**対し**
 
-正常な応答では、新たに作成された決定ルールに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用して決定ルールを更新または削除できます。後のチュートリアルで、独自の決定ルール `@id` を使用してパーソナライズされたオファーを作成できます。
+成功した応答は、新しく作成された判断規則について、一意のインスタンス ID と配置 `@id` を含む情報を返します。 このような場合は、後の手順のインスタンス ID を使用して、決定ルールを更新または削除することができます。 後のチュートリアルで独自の判断規則 `@id` を使用して、パーソナライズされたキャンペーンを作成することができます。
 
 ```json
 {

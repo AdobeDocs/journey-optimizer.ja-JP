@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer
-description: Adobe Journey Optimizer の主な機能とユースケースの確認
+title: 旅オプティマイザー
+description: Adobe の旅オプティマイザーの主な機能とユースケースの発見
 feature: Overview
 topic: Content Management
 role: User
@@ -10,66 +10,66 @@ level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 0%
 
 ---
 
-# Journey Optimizer の概要 {#cjm-gs}
+# 旅のオプティマイザーについて {#cjm-gs}
 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="一部のテストコンテンツ"
->abstract="コンテンツをテストして、コンテキストヘルプを AJO に統合します。"
+>abstract="AJO にコンテキストヘルプを統合するためのコンテンツをテストします。"
 
-## [!DNL Adobe Journey Optimizer] について {#about-cjm}
+## 「?」とは [!DNL Adobe Journey Optimizer] 何ですか?{#about-cjm}
 
-[!DNL Adobe Journey Optimizer] は、会社が顧客に対し、連続性を持ち、顧客の期待に沿う、パーソナライズされたエクスペリエンスを提供するのに役立ちます。カスタマージャーニーは、顧客がブランドとやり取りするプロセスの全体（最初に接触した時点から顧客が離脱するまで）を表します。このジャーニーは、認知フェーズから開始します。このフェーズでは、顧客はブランドを知り、エンゲージメントを開始します。その後、顧客は企業とやり取りし、オンラインショップや実店舗の訪問、購入、メッセージの送信、レビューの投稿をおこないます。
+[!DNL Adobe Journey Optimizer] 、状況に応じた、状況に応じて、パーソナライズされたエクスペリエンスを顧客に提供できます。 お客様の旅は、お客様が製品を退職するまでの間に、お客様がブランドにどのような関係を持っているかを示しています。 これは、お客様がブランドについて学習して、提携を開始するという意識フェーズから始まります。 お客様は、ブランドについて詳しく、オンラインサイトや物理的なサイトにアクセスして、ご購入、メッセージ送信、レビューを行うことができます。
 
-[!DNL Adobe Journey Optimizer] は、[!DNL Adobe Experience Platform] でネイティブに構築され、統合されたリアルタイム顧客プロファイル、API ファーストのオープンフレームワーク、一元化されたオファー決定支援、人工知能（AI）と機械学習（ML）を組み合わせて、パーソナライゼーションと最適化を実現します。Journey Optimizer を使用すると、カスタマージャーニーをまたいで、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。[!DNL Adobe Journey Optimizer] を使用すると、企業は、スケジュールに沿ったマーケティングキャンペーン（小売店向けの週別プロモーションなど）と、カスタマイズされた個々のコミュニケーション（ロイヤルティアプリの顧客が以前表示し、在庫切れだった品目のプッシュ通知など）の両方を同じアプリ内で作成して配信できます。
+[!DNL Adobe Journey Optimizer] は、統合されたリアルタイムのカスタマープロファイル、decisioning API を使用して、一元化されたフレームワーク、一元化されたオファー、および、人工知能 (AI) およびコンピューター学習 (ML) を組み合わせて構築 [!DNL Adobe Experience Platform] されています。 これにより、ブランドは、お客様の旅全体にわたって、拡大/縮小、スピード、柔軟性を活用して、次のような優れたやり取りをインテリジェントに決定できます。 で [!DNL Adobe Journey Optimizer] は、定期的なマーケティングキャンペーン (販売店用の週に1週間の広告など) と、調整された個々のコミュニケーションを作成および配信することができます (これは、ロイヤルティアプリケーションの顧客が以前に在庫外としたアイテムに関するプッシュ通知など)。
 
-➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target=&quot;_blank&quot;}（ビデオ）
+➡️ [ 発見した旅オプティマイザー ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html) {target = &quot;_blank&quot;} (video)
 
 
-## ユースケース {#use-cases}
+## 使用例 {#use-cases}
 
-* マーケターは、[!DNL Adobe Journey Optimizer]を使用して、個別のコミュニケーションとオーディエンスベースのバッチコミュニケーションの両方を送信できます。例えば、衣料品店では通常、先週製品を購入したすべての顧客に、購入後の調査を送信できます。悪天候のため、いくつかの出荷が遅れています。衣料品店は、商品が配送されていない顧客を調べ、スケジュールされた顧客満足度の送信からそれらの顧客を除外することができます。また、顧客の過去履歴履歴に基づいて、遅延を謝罪し、製品レコメンデーションを含む割引コードを提供する、パーソナライズされたメールを送信できます。
+* マーケティング担当者は、を使用 [!DNL Adobe Journey Optimizer] して、個別の通信および参加者による通信の両方を送信できます。 例えば、衣料品には、先週購入した製品が含まれているすべての顧客に、購入後のアンケートが送信されるのが一般的です。 Inclement の気象により、いくつかの出荷に遅れが発生しました。 出荷されたことがあるかどうかを確認するために、衣料品はその出荷についてはそのお客様から除外できます。代わりに、その遅れについて電子メール apologizing に電子メールを送信して、お客様の過去の購入に基づいて製品の推奨事項に従って割引コードを提供します。
 
-   また、マーケティング担当者は、このアプリケーションを使用して、行動ベースのコミュニケーションをリアルタイムで送信できます。例えば、同じ小売業者は、在庫が復活した、顧客のサイズのセーターに関するプッシュ通知を送信することで、店舗の駐車場に到着した常連客をリアルタイムで惹きつけることができます。
+   さらに、マーケティング担当者はアプリケーションを使用して、リアルタイムでビヘイビアーベースのコミュニケーションを送信することもできます。 例えば、同じ販売店は、保存されたパーキングロットに対してリアルタイムに株式を取得して、顧客のサイズの在庫に戻ることによって、その sweater についてのフィードバックを送信することができます。
 
-* 運営チームや顧客体験に従事するカスタマーサポートなど、マーケター以外の担当者は、[!DNL Adobe Journey Optimizer] を使用して、運用通知やオンボーディングプロセスの監視など、様々なタスクを管理できます。例えば、ある遊園地では、訪問者がその体験の一環としてモバイルアプリをダウンロードします。メンテナンススタッフは、[!DNL Adobe Journey Optimizer]を使用して、メンテナンスのために現在停止されている乗り物を訪問者に通知できます。
+* カスタマーエクスペリエンスに従事している操作チームやカスタマーサポートなどのマーケティング対象外の場合は、を使用 [!DNL Adobe Journey Optimizer] して、操作通知、オンボードプロセスの監視など、様々なタスクを管理することができます。 たとえば、公園のユーザーが、公園の一部としてモバイルアプリをダウンロードしている場合は、amusement パークされます。 保守スタッフは、メンテナンスによって終了されたユーザーに、現在決済中のユーザーに通知するために使用 [!DNL Adobe Journey Optimizer] できます。
 
 ## 主な機能 {#key-capabilities}
 
-[!DNL Adobe Journey Optimizer] は、アプリケーション、デバイス、チャネルを問わず、パーソナライズされ、接続されたタイムリーな顧客エクスペリエンスを作成して提供するための、アジャイルで拡張性の高いアプリケーションです。
+[!DNL Adobe Journey Optimizer] は、柔軟でスケーラブルなアプリケーションで、お客様がカスタマイズされた、接続されたタイムリーなカスタマーエクスペリエンスをあらゆるアプリケーション、デバイス、またはチャネルに提供します。
 
 ![](assets/ajo-capabilities.png)
 
 主な機能は次のとおりです。
 
-* **リアルタイムの顧客インサイトとエンゲージメント**：統合されたプロファイルは、行動データ、取引データ、財務データ、運用データなど、顧客のタッチポイントを横断するすべてのソースからのライブデータを融合し、顧客の個人的およびコンテキストに応じたエクスペリエンスを最適化します。
+* **リアルタイムによるお客様の洞察 &amp; エンゲージメント** : 統合された profile fuses は、行動、取引、財務、オペレーショナルデータを含む、あらゆるソースの touchpoints のライブデータを使用して、ユーザーにとって時間が経過したパーソナルおよびコンテキストのエクスペリエンスを最適化します。
 
-* **最新のオムニチャネルオーケストレーションと実行**：1 対 1 の顧客エンゲージメントとマーケティングアウトリーチのために、カスタマージャーニーを調和させ、最適化できる単一のキャンバスです。これにより、ブランドは、カスタマーライフサイクルをまたいで、通じてより多くの価値を提供できるようになります。[!DNL Adobe Journey Optimizer] で設計されたカスタマージャーニーは、イベントベースの動的なものにすることができます。これにより、ブランドはリアルタイムの兆候に反応し、これらのやり取りをスケジュールされたキャンペーンと結び付け、顧客に送信するコミュニケーション、タイミング、経路に関して適切な決定を下すことができます。
+* **モダン Omnichannel オーケストレーション &amp; 実行** –1:1 カスタマーエンゲージメントおよびマーケティング広告のために顧客に届けられるようにするための1つの canvas。これにより、ブランドはカスタマーライフサイクル全体でより多くの価値を提供します。 で [!DNL Adobe Journey Optimizer] 作成されたカスタマー journeys は動的かつ適切なイベントになることができます。ブランドは、リアルタイムシグナルに反応します。また、このようなやり取りを定期的なキャンペーンに結び付けることで、顧客に送信する通信の種類やチャネルについて適切な意思決定を行うことができます。
 
-* **インテリジェント判定とパーソナライズ機能**：ブランドは、一元的な決定を適用し、人工知能と機械学習を組み込んで、顧客体験全体で予測インサイトを得ることができます。これにより、意思決定の自動化や、規模に合わせたエクスペリエンスの最適化が容易になります。オファー決定では、[!DNL Adobe Journey Optimizer] を通じ、複数のチャネルをまたぐ大規模な一元的なオファーを支援します。
+* **インテリジェント Decisioning &amp; パーソナル化** : カスタマーエクスペリエンス全体において、中央集中型 Decisioning を適用し、人為的な知能と machine ラーニングを利用できるようにしています。これにより、決定を自動化することが容易になり、拡大した場合の操作性を最適化することができます。 Decisioning では、チャネル間で拡大/縮小された提供を伸縮 [!DNL Adobe Journey Optimizer] します。
 
-## アーキテクチャ {#architecture}
+## インフラストラクチャ {#architecture}
 
-下の図で、[!DNL Adobe Journey Optimizer] の基本的なアーキテクチャ、統合のポイントおよび [!DNL Journey Optimizer] と [!DNL Experience Platform] との関係について説明します。
+以下の図に、の [!DNL Adobe Journey Optimizer] 基本的なアーキテクチャ、統合ポイント、and と [!DNL Experience Platform] の関係 [!DNL Journey Optimizer] について説明しています。
 
 ![](assets/ajo-architecture.png)
 
 
 >[!NOTE]
 >
-> Adobe Experience Cloud の一般的なプライバシーに関するガイドラインと手順は [!DNL Journey Optimizer] に適用されます。[Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html)。
-> また、](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja) を開始する前に、リアルタイム顧客プロファイルデータのガードレールを認識しておく[必要があります。
+> Adobe エクスペリエンスクラウドのプライバシーに関するガイドラインと手順は、に [!DNL Journey Optimizer] 適用されます。 [Adobe エクスペリエンスクラウドのプライバシー ](https://www.adobe.com/privacy/experience-cloud.html) に関する詳細情報を表示します。
+> さらに、開始 ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html) する前に、リアルタイムのユーザープロファイルデータを取得するために、guの [ 型指定 rails について注意する必要があります。
 
 
-**関連トピック**
+**関連項目**
 
-* [開始の主な手順](quick-start.md)
-* [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
+* [開始するための重要な手順](quick-start.md)
+* [Journeys をデザインし、メッセージを送信します。](../building-journeys/journey-gs.md)
 * [ライブレポート](../reports/live-report.md)
-* [Journey Optimizer に関する FAQ](assets/do-not-localize/AJO-FAQ.pdf) (PDF)
-* [Journey Optimizer Security の概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）
+* [旅オプティマイザーに関する FAQ ](assets/do-not-localize/AJO-FAQ.pdf) (PDF)
+* [「フライトオプティマイザー」のセキュリティの概要 ](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーイベント用の ExperienceEvent スキーマについて
-description: ジャーニーイベント用の ExperienceEvent スキーマについて学ぶ
+title: ExperienceEvent について旅イベントのスキーマについて
+description: ExperienceEvent について詳しくは、旅イベントに関するスキーマを参照してください。
 feature: Schemas
 topic: Administration
 role: Admin
@@ -10,114 +10,114 @@ level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 0%
 
 ---
 
-# [!DNL Journey Optimizer] イベントの ExperienceEvent スキーマについて {#about-experienceevent-schemas}
+# イベントの [!DNL Journey Optimizer] ExperienceEvent スキーマについて {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] イベントは、ストリーミング取得を介して Adobe Experience Platform に送信される XDM エクスペリエンスイベントです。
+[!DNL Journey Optimizer] イベントは、XDM の機能を利用して、Adobe エクスペリエンスプラットフォームに、ストリーミングの取り込みによって送信されます。
 
-そのため、[!DNL Journey Optimizer] のイベントを設定するための重要な前提条件は、Adobe Experience Platform の Experience Data Model（または XDM）と XDM Experience Data スキーマの作成方法、および XDM 形式のデータを Adobe Experience Platform にストリーミングする方法に精通していることです。
+そのため [!DNL Journey Optimizer] 、イベントを設定するための重要な前提条件として、Adobe エクスペリエンス platform のエクスペリエンスデータモデル (または xdm) と、xdm のイベントスキーマを作成する方法、そして xdm フォーマットされたデータを Adobe エクスペリエンスプラットフォームにストリーミングする方法について理解しておく必要があります。
 
-## [!DNL Journey Optimizer] イベントのスキーマ要件  {#schema-requirements}
+## イベントの [!DNL Journey Optimizer] スキーマ要件  {#schema-requirements}
 
-[!DNL Journey Optimizer] のイベントを設定する最初の手順は、イベントを表す XDM スキーマと、Adobe Experience Platform でイベントのインスタンスを記録するために作成されたデータセットを確実に用意することです。イベント用データセットは必ずしも必要ではありませんが、特定のデータセットにイベントを送信すると、ユーザーのイベント履歴を保持して後から参照および分析できるので便利です。イベントに適したスキーマとデータセットがまだない場合は、これらのタスクの両方を Adobe Experience Platform の Web インターフェイスで実行できます。
+イベント [!DNL Journey Optimizer] を設定するには、まず最初に、イベントを表す XDM スキーマと、Adobe エクスペリエンスプラットフォーム上でこのイベントのインスタンスを記録するために作成されたデータセットがあることを確認します。 イベントのデータ設定は必ずしも必要なわけではありませんが、イベントを特定のデータセットに送信することで、ユーザーによるイベント履歴を維持し、将来の参照と分析に使用できるようになります。 イベントに対して適切なスキーマおよびデータセットがない場合は、これらのタスクはどちらも Adobe エクスペリエンスプラットフォーム web インターフェイスで実行できます。
 
 ![](assets/schema1.png)
 
-[!DNL Journey Optimizer] イベントに使用される XDM スキーマは、以下の要件を満たす必要があります。
+イベントに [!DNL Journey Optimizer] 使用される XDM スキーマは、次の要件を満たしている必要があります。
 
 * スキーマは、XDM ExperienceEvent クラスである必要があります。
 
    ![](assets/schema2.png)
 
-* システム生成イベントの場合、オーケストレーション eventID フィールドグループがスキーマに含まれている必要があります。[!DNL Journey Optimizer] はこのフィールドを使用して、ジャーニーで使用されるイベントを識別します。
+* システムによって生成されたイベントの場合、スキーマには、オーケストレーションイベントフィールドグループが含まれている必要があります。 [!DNL Journey Optimizer] では、このフィールドを使用して、journeys で使用されているイベントを識別します。
 
    ![](assets/schema3.png)
 
-* イベントの件名を識別するための ID フィールドを宣言します。ID が指定されていない場合は、ID マップを使用できます。この方法は推奨されません。
+* イベントの対象を識別するための id フィールドを宣言します。 Id が指定されていない場合は、id マップを使用できます。 これは推奨されていません。
 
    ![](assets/schema4.png)
 
-* このデータを後からジャーニーで参照できるようにする場合は、プロファイルのスキーマとデータセットをマークします。
+* このデータを後で参照できるようにするには、プロファイルのスキーマおよびデータセットにマークを付けます。
 
    ![](assets/schema5.png)
 
    ![](assets/schema6.png)
 
-* ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めたいその他のコンテキストデータを取り込むためのデータフィールドを自由に含めることができます。
+* このように、イベントに含めるその他の文脈データ (ユーザーに関する情報、イベントが生成されたデバイス、場所、イベントに関連する重要な状況など) を取り込むためのデータフィールドも自由に追加できます。
 
    ![](assets/schema7.png)
 
    ![](assets/schema8.png)
 
-## スキーマ間の関係の活用{#leverage_schema_relationships}
+## スキーマリレーションシップの活用{#leverage_schema_relationships}
 
-Adobe Experience Platform では、あるデータセットを別のデータセットの参照テーブルとして使用するために、スキーマ間の関係を定義できます。
+Adobe エクスペリエンスプラットフォームを使用すると、スキーマ間の関係を定義して、1つのデータセットを別のデータセットのルックアップテーブルとして使用することができます。
 
-ブランドデータモデルに、購入をキャプチャするスキーマがあるとします。また、製品カタログのスキーマもあります。購入スキーマで製品 ID をキャプチャし、関係を使用して、製品カタログからより完全な製品詳細を検索できます。これにより、例えばノートパソコンを購入したすべての顧客を対象としたセグメントを作成することができます。その際、すべてのノートパソコン ID を明示的にリストアップしたり、トランザクションシステムで製品の詳細をすべてキャプチャしたりする必要はありません。
+ここでは、メーカーのデータモデルに、スキーマを購入するという情報が記載されています。 また、製品カタログのスキーマも作成します。 購入したスキーマの製品 ID を取得して、関係を使用して、製品カタログから詳細な製品詳細を確認することができます。 これによって、ラップトップを購入したすべての顧客に対して、ラップトップを明示的に指定したり、すべての製品についてのトランザクションシステムですべてを取得したりすることなく、セグメントを作成することができます。
 
-関係を定義するには、ソーススキーマに専用のフィールド（この場合は購入スキーマの製品 ID フィールド）が必要です。このフィールドは、宛先スキーマの製品 ID フィールドを参照している必要があります。プロファイルのソーステーブルと宛先テーブルを有効にし、宛先スキーマには、プライマリ ID として定義されたその共通フィールドが必要です。
+リレーションシップを定義するには、ソーススキーマの専用フィールドが必要です。この場合は、購入スキーマの &quot;product ID&quot; フィールドが必要です。 このフィールドは送信先スキーマの &quot;product ID&quot; フィールドを参照する必要があります。 ソーステーブルと宛先テーブルがプロファイルに対して有効になっている必要があります。送信先スキーマには、プライマリ id として定義された共通フィールドが必要です。
 
-ここでは、製品 ID をプライマリ ID として定義したプロファイルに有効な製品カタログスキーマを示します。
+次に示すのは、profile on the product catalog スキーマが有効になっていることを示しています。
 
 ![](assets/schema9.png)
 
-ここでは、製品 ID フィールドで定義された関係を持つ購入スキーマを示します。
+次に示すのは、&quot;product ID&quot; フィールドで定義されているリレーションシップを含む購入スキーマです。
 
 ![](assets/schema10.png)
 
 >[!NOTE]
 >
->スキーマ間の関係について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja)を参照してください。
+>エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en) のスキーマリレーションシップについて詳しくは、 [ こちらを参照してください。
 
-Journey Optimizer では、リンクされたテーブルのすべてのフィールドを次の場合に活用できます。
+この場合、次のように、リンクテーブルのすべてのフィールドを使用して、オプティマイザーを作成できます。
 
-* ビジネスイベントや単一イベントを設定する場合：[詳細情報](../event/experience-event-schema.md#unitary_event_configuration)
-* ジャーニーで条件を使用する場合：[詳細情報](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* メッセージをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#message_personalization)
-* カスタムアクションをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* ビジネスイベントまたはユニタリイベントを設定する場合は、「詳細」を参照し [ てください。](../event/experience-event-schema.md#unitary_event_configuration)
+* 順番に条件を使用する場合は、「詳細」を [ 参照してください。](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* メッセージの個人用設定で、「詳細」を参照し [ てください。](../event/experience-event-schema.md#message_personalization)
+* カスタムアクションの個人用設定では、「詳細」を参照し [ てください。](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### イベント設定{#unitary_event_configuration}
+### イベントの設定{#unitary_event_configuration}
 
-リンクされたスキーマフィールドは、次の場合に単一イベントおよびビジネスイベントの設定で使用できます。
+「リンクされたスキーマ」フィールドでは、ユニタリおよびビジネスイベントの設定を使用できます。
 
-* イベント設定画面でイベントスキーマフィールドを参照する場合
-* システム生成イベントの条件を定義する場合
+* 「イベントの設定」画面の「イベントスキーマ」フィールドに移動します。
+* システムによって生成されたイベントの条件を定義する場合。
 
 ![](assets/schema11.png)
 
-リンクされたフィールドは次の場所では使用できません。
+リンクされたフィールドを使用できません。
 
 * イベントキー式
-* イベント ID 条件（ルールベースのイベント）
+* イベント id 条件 (ルールに基づいたイベント)
 
-単一イベントの設定方法については、この[ページ](../event/about-creating.md)を参照してください。
+ユニタリイベントの設定方法については、この [ ページ ](../event/about-creating.md) を参照してください。
 
-### イベントコンテキストを使用したジャーニー条件{#journey_conditions_using_event_context}
+### イベントのコンテキストを使用した旅の状態{#journey_conditions_using_event_context}
 
-条件作成のジャーニー（式エディター）で使用するイベントにリンクした参照テーブルのデータを使用できます。
+このルックアップテーブルのデータは、条件構築に使用するイベントにリンクされています (式エディター)。
 
-式エディターでジャーニーに条件を追加し、式を編集し、イベントノードを展開します。
+条件を追加する場合は、式を編集して、式エディターにイベントノードを展開します。
 
 ![](assets/schema12.png)
 
-ジャーニー条件の定義方法については、この[ページ](../building-journeys/condition-activity.md)を参照してください。
+旅の状態を定義する方法については、この [ ページ ](../building-journeys/condition-activity.md) を参照してください。
 
-### メッセージのパーソナライズ{#message_personalization}
+### メッセージの個人用設定{#message_personalization}
 
-リンクされたフィールドは、メッセージをパーソナライズする際に使用できます。関連するフィールドは、ジャーニーからメッセージに渡されるコンテキストで表示されます。
+リンクされたフィールドは、メッセージを個人用に選択している場合に使用できます。 関連付けられたフィールドは、メッセージに転送されるときに渡されるコンテキストで表示されます。
 
 ![](assets/schema14.png)
 
-コンテキストジャーニー情報を使用してメッセージをパーソナライズする方法については、この[ページ](../personalization/personalization-use-case.md)を参照してください。
+文脈に応じた旅情報をメッセージに個人用に設定する方法については、この [ ページ ](../personalization/personalization-use-case.md) を参照してください。
 
-### ジャーニーイベントコンテキストを使用したカスタムアクションのパーソナライゼーション{#custom_action_personalization_with_journey_event_context}
+### 旅イベントのコンテキストを使用したカスタムアクションの個人用設定{#custom_action_personalization_with_journey_event_context}
 
-リンクされたフィールドは、ジャーニーのカスタムアクションアクティビティのアクションパラメーターを設定する際に使用できます。
+リンクされたフィールドは、旅のカスタムアクションアクティビティのアクションパラメーターを設定する場合に使用できます。
 
 ![](assets/schema13.png)
 
-カスタムアクションの使用方法については、この[ページ](../building-journeys/using-custom-actions.md)を参照してください。
+カスタムアクションの使用方法については、この [ ページ ](../building-journeys/using-custom-actions.md) を参照してください。

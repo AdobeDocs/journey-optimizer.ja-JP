@@ -10,59 +10,59 @@ level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
 # journeyStep イベントのデータ取得フィールド {#sharing-fetch-fields}
 
-このフィールドグループは、journeyStepEvent と journeyStepProfileEvent が共有します。
+このフィールドグループは journeyStepEvent および journeyStepProfileEvent によって共有されます。
 
-ステップの処理中に、フィールドグループで N 個のデータを取得できます。
+ステップの処理中に、フィールドグループに対して N 個のデータフェッチが実行されます。
 
 ## fetchTotalTime {#fetchtotaltime-field}
 
-ステップ処理中のデータ取得に費やした合計時間（ミリ秒単位）です。
+ステップ処理中に、millis でのデータのフェッチに費やされた時間の合計です。
 
-型：long
+タイプ: long
 
 ## fetchTypeInError {#fetchtypeinerror-field}
 
-エラーの取得先を Adobe Experience Platform 上とするか、カスタムデータソース上とするかを定義します。
+エラーが発生した fetch が、Adobe エクスペリエンスプラットフォームとカスタムデータソースのどちらであるかを定義します。
 
-型：文字列
+タイプ: string
 
-値：
+指定
 * aep
 * custom
 
 ## fetchError {#fetcherror-field}
 
-データ取得の処理時に発生するエラーの種類です。
+データ fetch が処理されるときに発生するエラーのタイプ。
 
-型：文字列
+タイプ: string
 
-値：
+指定
 * http
-* キャッピング
+* 上限
 * timedout
-* error
+* 中
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
-取得エラーコード。エラーにコードがあるかどうかを示します（HTTP など）。例えば、actionExecError が http の場合、コード 404 は HTTP 404 エラーを表します。
+Fetch エラーのコードです。 エラーに HTTP 1 などのコードが含まれている場合に表示されます。 例えば、actionExecError が http の場合は、HTTP 404 エラーがコード404によって表されます。
 
-型：文字列
+タイプ: string
 
-## fetchOriginError {#fetchoriginerror-field}
+## Fetch原点エラー {#fetchoriginerror-field}
 
-タイムアウトは、次の 2 つの場合に発生する可能性があります。
+タイムアウトは、次の2つの場合に発生します。
 
-* 初回試行時に、アクションが実行されます。この場合、実行は完了せず、基になるエラーはありません。
-* 再試行時。この場合、actionExecOrigError/actionExecOrigErrorCode は、再試行前に試行したときのエラーを示します。
+* 最初にアクションが実行されます。 この場合、実行は終了せず、根底にあるエラーは発生しません。
+* 再試行: この場合は、actionExecOrigError/actionExecOrigErrorCode によって、再試行前に発生したエラーが説明されています。
 
-例えば、統合プロファイルサービスからデータを取得中、最初の試行時に HTTP 500 エラーが返されます。フェッチを再試行しますが、2 回の試行のデュレーションがタイムアウトを超えます。次に、アクションの実行にタイムアウトのタグが付けられます。アクション部分は次のようになります。
+例えば、統合されたプロファイルサービスからデータを取得し、最初の試みで HTTP 500 エラーが返されます。 Fetch はリトライされますが、2回の実行回数がタイムアウト時間を超えています。 その後、アクションの実行を timedout としてタグ付けします。 アクションは以下のように表示されます。
 
 ```
     ...
@@ -73,40 +73,40 @@ ht-degree: 100%
     "fetchOrigErrorCode": "500"
 ```
 
-型：文字列
+タイプ: string
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-システム [!DNL Journey Optimizer] から提供されたエラーコードを問い合わせています。例えば、404、500などのエラーコード。
+システム [!DNL Journey Optimizer] によって提供されるエラーコードはクエリー中です。 例えば、404、500などを指定することができます。
 
-型：文字列
+タイプ: string
 
 ## fetchCount {#fetchcount-field}
 
-データの取得回数（ソースのタイプを問わない）。
+ソースのタイプに関係なく、データのフェッチ回数。
 
-型：long
+タイプ: long
 
 ## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
-Adobe Experience Platform からデータを取得するのに要した合計時間（ミリ秒）。備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます。
+Adobe エクスペリエンスプラットフォームからデータを取得するためにかかった時間の合計を millis で返します。 注釈: この時間は、エンジンによって enrichment イベントが enrichment サービスに送信され、応答を受け取るまでの間に計算されます。
 
-型：long
+タイプ: long
 
 ## fetchPlatformCount {#fetchplatformcount-field}
 
-Adobe Experience Platform からデータが取得された回数。
+Adobe エクスペリエンスプラットフォームからデータを取得する回数を指定します。
 
-型：long
+タイプ: long
 
 ## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
-カスタムデータの取得にかかる時間（ミリ秒）。備考：この時間は、エンジンがエンリッチメントイベントをエンリッチメントサービスに送信し、応答を受信した時点から計算されます
+Millis のカスタムデータを取得する時間の長さです。 注釈: この時間は、エンジンが enrichment イベントを enrichment サービスに送信し、応答を受信した時点から計算されます。
 
-型：long
+タイプ: long
 
 ## fetchCustomCount {#fetchcustomcount-field}
 
-外部システムからカスタムデータを取得した回数。
+外部システムから取得されたカスタムデータの数。
 
-型：long
+タイプ: long

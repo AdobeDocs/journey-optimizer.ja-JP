@@ -1,34 +1,34 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: データタイプ
-description: 高度な式で使用できるデータタイプについて説明します
+title: データ型
+description: アドバンスエクスプレッションでのデータ型について
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
-# データタイプ {#data-types}
+# データ型 {#data-types}
 
-厳密に言えば、定数には常にデータタイプが含まれています。リテラル式では、値のみを指定します。このデータタイプは、値（文字列、整数、小数など）から推測できます。 日時などの特定のケースでは、表現に専用の関数を使用します。
+厳密には、定数には常にデータ型が含まれています。 リテラル式では、値のみが指定されています。 データ型は、string、integer、decimal などの値を使用して推論できます。 日時のような特定の状況については、表現に専用の関数を使用することになります。
 
-以降の節では、様々なデータタイプ式とその表現方法について説明します。
+以下の各セクションでは、各種のデータ型表現について説明し、その表現方法について説明します。
 
-## 文字列 {#string}
+## 値 {#string}
 
-**説明**
+**つい**
 
-文字の一般的なシーケンス。使用可能なメモリ量など、環境に起因する暗黙のサイズを除き、特定のサイズはありません。
+一般的な一連の文字。 メモリ容量は、使用可能なメモリ量など、環境によっては明示的に指定されたサイズであるとは限りません。
 
-JSON 形式：文字列
+JSON 形式: String
 
-シリアル化形式：UTF-8
+シリアル化フォーマット: UTF-8
 
 **リテラル表現**
 
@@ -40,7 +40,7 @@ JSON 形式：文字列
 '<value>'
 ```
 
-**例**
+**一**
 
 ```json
 "hello world"
@@ -52,11 +52,11 @@ JSON 形式：文字列
 
 ## 整数 {#integer}
 
-**説明**
+**つい**
 
--2^63 から 2^63-1 の整数値。
+-2 ^ 63 から 2 ^ 63-1 までの整数値。
 
-JSON 形式：数値
+JSON 形式: Number
 
 **リテラル表現**
 
@@ -64,25 +64,25 @@ JSON 形式：数値
 <integer value>
 ```
 
-**例**
+**一**
 
 ```json
 42
 ```
 
-## 小数 {#decimal}
+## 形式 {#decimal}
 
-**説明**
+**つい**
 
-小数値です。 次のような浮動小数点値を表します。
+10進数を指定します。 これは、未確定値を表します。
 
-* 倍精度浮動小数点数型の正の最大有限値は (2-2^-52)x2^1023
-* 倍精度浮動小数点数型の正の最小通常値は 2-1022
-* 倍精度浮動小数点数型の正の最小非ゼロ値は 2-1074
+* 倍精度浮動小数点型の最大正の有限値 (2 ~ 2 ^-52) x2 ^ 1023
+* 倍精度浮動小数点型の正の値。2-1022
+* 倍精度浮動小数点型の正の0以外の値。 2 p-1074
 
-JSON 形式：数値
+JSON 形式: Number
 
-シリアル化形式：「.」を小数点として使用します。
+シリアル化フォーマット: 「.」 小数点の区切り文字として
 
 **リテラル表現**
 
@@ -90,19 +90,19 @@ JSON 形式：数値
 <integer value>.<integer value>
 ```
 
-**例**
+**一**
 
 ```json
 3.14
 ```
 
-## ブール値 {#boolean}
+## 示す {#boolean}
 
-**説明**
+**つい**
 
-小文字で書かれたブール値：true または false
+ブール値が小文字で記述されています。 true または false です。
 
-JSON 形式：ブール値
+JSON 形式: ブール値
 
 **リテラル表現**
 
@@ -114,27 +114,27 @@ true
 false
 ```
 
-**例**
+**一**
 
 ```json
 true
 ```
 
-## 日付のみ{#date-only}
+## dateOnly{#date-only}
 
-**説明**
+**つい**
 
-タイムゾーンを含まずに日付のみを表し、年-月-日として表示されます。
+日付は、タイムゾーンを指定しない場合は、年と月を表示します。
 
-生年月日に使用される日付を記述したものです。
+誕生日に使用されている日付の説明があります。
 
-JSON 形式：文字列
+JSON 形式: String。
 
-形式は YYYY-MM-DD（ISO-8601）です。例：「2021-03-11」
+形式は、YYYY-MM-DD (ISO-8601) のようになります。例えば、「2021-03-11」のようになります。
 
-toDateOnly 関数でカプセル化できます。
+ToDateOnly 関数にカプセル化することができます。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+DateTimeFormatter ISO_LOCAL_DATE_TIME を使用して、値を逆シリアル化およびシリアル化します。 [詳細情報](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **リテラル表現**
 
@@ -142,29 +142,29 @@ toDateOnly 関数でカプセル化できます。
 date("<dateOnly in ISO-8601 format>")  
 ```
 
-**例**
+**一**
 
 ```json
 date("2021-02-19")
 ```
 
-## 日時のみ{#date-time-only}
+## dateTimeOnly{#date-time-only}
 
-**説明**
+**つい**
 
-タイムゾーンのない日時を表し、年-月-日-時間-分-秒-ミリ秒と表示されます。
+タイムゾーンなしで日付時刻を表します。この場合、年-月-日 ~ 秒-分-秒-秒のように表示されます。
 
-JSON 形式：文字列
+JSON 形式: String。
 
-タイムゾーンは保存も表現もされません。代わりに、生年月日に使用される日付と、壁掛け時計に表示される現地時間を結合した記述になります。
+この場合、タイムゾーンは保存または表示されません。 その代わりに、誕生日に使用されている日付の説明が、壁掛け時計の現地時刻とともに表示されます。
 
-オフセットやタイムゾーンなどの追加情報がなければ、タイムライン上の瞬間を表現できません。
+オフセットやタイムゾーンなどの追加情報を使用せずに、タイムライン上のインスタントを表すことはできません。
 
-toDateTimeOnly 関数でカプセル化できます。
+ToDateTimeOnly 関数にカプセル化することができます。
 
-シリアル化形式：ISO-8601 拡張オフセット日時形式。
+シリアル化フォーマット: ISO-8601 拡張オフセット日付/時刻フォーマット。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+DateTimeFormatter ISO_LOCAL_DATE_TIME を使用して、値を逆シリアル化およびシリアル化します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **リテラル表現**
 
@@ -179,25 +179,25 @@ date("2021-02-19T00.00.000")
 date("2021-02-19T00.00")
 ```
 
-## 日時 {#date-time}
+## dateTime {#date-time}
 
-**説明**
+**つい**
 
-タイムゾーンも考慮した日時定数。UTC からのオフセットを持つ日時を表します。
+タイムゾーンも考慮する日時定数。 UTC を基準として日時を指定することもできます。
 
-オフセットの追加情報を含んだある瞬間と見なすことができます。世界のある場所での特定の「瞬間」を表す手段になります。
+これは、オフセットの追加情報を使用して表示することができます。 これは、特定の場所にある世界中の特定の「モーメント」を表現する方法の1つです。
 
-JSON 形式：文字列
+JSON 形式: String。
 
-toDateTime 関数でカプセル化できます。
+ToDateTime 関数にカプセル化することができます。
 
-シリアル化形式：ISO-8601 拡張オフセット日時形式。
+シリアル化フォーマット: ISO-8601 拡張オフセット日付/時刻フォーマット。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+DateTimeFormatter ISO_OFFSET_DATE_TIME を使用して、値を逆シリアル化およびシリアル化します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-エポック値を表す整数を渡すこともできます。[詳細情報](https://www.epochconverter.com)
+エポック値を指定して整数を渡すこともできます。 [詳細を読む](https://www.epochconverter.com)
 
-タイムゾーンは、オフセットまたはタイムゾーンコード（例：Europe/Paris、Z は UTC を意味）で指定できます。
+タイムゾーンは、オフセットまたはタイムゾーンコード (例: 欧州、パリ、Z-意味 UTC) で指定できます。
 
 **リテラル表現**
 
@@ -243,21 +243,21 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## 期間 {#duration}
+## 持続 {#duration}
 
-**説明**
+**つい**
 
-「34.5 秒」といった時間的間隔を表します。時間の長さをミリ秒単位でモデル化します。
+「34.5 秒」のように、時刻を表します。 ここでは、数または量をミリ秒単位でモデル化します。
 
-サポートされている時間単位は、ミリ秒、秒、分、時間、日です（日は 24 時間に等しい）。年と月は一定の時間ではないので、サポートされていません。
+サポートされているテンポラルの単位は、ミリ秒、秒、分、時、時刻は24時間に相当します。 年と月は、固定された時間ではないので、サポートされません。
 
-JSON 形式：文字列
+JSON 形式: String。
 
-toDuration 関数でカプセル化する必要があります。
+ToDuration 関数にカプセル化する必要があります。
 
-シリアル化形式：タイムゾーン ID を逆シリアル化するには、java 関数の java.time を使用します。
+シリアル化フォーマット: タイムゾーン ID を逆シリアル化するために、java 関数 java 関数が使用されています。
 
-Duration.parse：許可される形式は、ISO-8601 期間形式 PnDTnHnMn.nS に基づいており、日は正確に 24 時間と見なされます。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration。 parse: 受け入れられるフォーマットは、ISO-8601 duration フォーマットの PnDTnHnMn に基づいています。この値は、24時間と正確に一致しています。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **リテラル表現**
 
@@ -269,7 +269,7 @@ toDuration("<duration in ISO-8601 format>")
 toDuration(<duration in milliseconds>)
 ```
 
-**例**
+**一**
 
 ```json
 toDuration("PT5S") -- parses as 5 seconds
@@ -311,13 +311,13 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## リスト {#list}
+## 一連 {#list}
 
-**説明**
+**つい**
 
-角括弧を区切り文字として使用した、式のコンマ区切りリスト。
+コンマで区切られた式のリスト。区切り文字として角かっこを使用します。
 
-ポリモーフィズムはサポートされていないので、リストに含まれている式はすべて同じタイプにする必要があります。
+ポリモーフィズムはサポートされていないので、リストに含まれるすべての式は同じ型である必要があります。
 
 **リテラル表現**
 
@@ -325,7 +325,7 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 [<expression>, <expression>, ... ]
 ```
 
-**例**
+**一**
 
 ```json
 ["value1","value2"]

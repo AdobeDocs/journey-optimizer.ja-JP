@@ -2,35 +2,35 @@
 product: experience platform
 solution: Experience Platform
 title: イベントキャプチャの設定
-description: イベントをキャプチャするためのオファースキーマの設定方法を学ぶ
+description: イベントを捕捉するようにオファースキーマを設定する方法について説明します。
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
 # イベントキャプチャの設定 {#schema-requirements}
 
-この時点で、次の条件を満たす必要があります。
+この時点で、次の設定を行う必要があります。
 
-* AI モデルが作成済みであり、
-* キャプチャするイベントのタイプ（表示されたオファー（インプレッション）やクリックされたオファー（コンバージョン））、
-* およびイベントデータを収集するデータセットが定義済みであること。
+* AI モデルを作成しました。
+* キャプチャするイベントの種類を指定します。「表示」をクリックして (インプレッション)、「(変換)」をクリックします。
+* そして、イベントデータを収集するデータセットを指定します。
 
-これで、オファーが表示およびクリックされるたびに、対応するイベントが、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} または Mobile SDK を使用し、**[!UICONTROL Experience Event - Proposition Interactions]** フィールドグループによって自動的にキャプチャされるようにします。
+これで、オファーが表示されたとき、またはクリックされたときに、対応するイベントが、Adobe エクスペリエンス Platform Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F) {target = &quot;_blank&quot;} または「MOBILE SDK」を使用して [ フィールドグループによって **[!UICONTROL Experience Event - Proposition Interactions]** 自動的にキャプチャされるようにすることができます。
 
-イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
+「表示する」または「選択したイベント」タイプに送信するには、Adobe エクスペリエンスプラットフォームに送信されたエクスペリエンスイベントの各イベントタイプに適切な値を設定する必要があります。 JavaScript コードに実装する必要があるスキーマ要件は、次のとおりです。
 
-## 表示されるオファーのシナリオ
+## 表示するシナリオ
 
-**イベントタイプ：** `decisioning.propositionDisplay`
-**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
-+++**サンプルペイロード：**
+**イベントタイプ:** `decisioning.propositionDisplay` **Source:** web.xml/合金 ( `sendEvent command -> xdm : {eventType, interactionMixin}` ) または batch インジェスト
+
++++**ペイロードのサンプル:**
 
 ```
 {
@@ -58,11 +58,11 @@ ht-degree: 100%
 
 +++
 
-### オファークリック済みシナリオ
+### クリックされたシナリオ
 
-**イベントタイプ：** `decisioning.propositionInteract`
-**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
-+++**サンプルペイロード：**
+**イベントタイプ:** `decisioning.propositionInteract` **Source:** web.xml/合金 ( `sendEvent command -> xdm : {eventType, interactionMixin}` ) または batch インジェスト
+
++++**ペイロードのサンプル:**
 
 ```
 {

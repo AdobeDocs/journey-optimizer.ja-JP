@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 0%
 
 ---
 
@@ -17,33 +17,31 @@ ht-degree: 100%
 
 ## デフォルトのフォールバック値{#default-value}
 
-`Default Fallback Value` ヘルパーは、属性が空または null の場合にデフォルトのフォールバック値を返すために使用されます。このメカニズムは、プロファイル属性とジャーニーイベントで機能します。
+`Default Fallback Value`このヘルパーは、属性が空または null の場合にデフォルトのフォールバック値を返すために使用されます。このメカニズムは、プロファイル属性と旅イベントに対して機能します。
 
-**構文**
+**?**
 
 ```sql
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-この例では、このプロファイルの `firstName` 属性が空または null の場合、`there` という値が表示されます。
+この例では、このプロファイルの属性が空または null である場合 `firstName` 、値 `there` が表示されます。
 
-## 条件{#if-function}
+## 下{#if-function}
 
-`if` ヘルパーを使用して、条件ブロックを定義します。
-式の評価結果が true の場合、ブロックはレンダリングされます。true でない場合はスキップされます。
+ヘルパーは、 `if` 条件ブロックを定義するために使用されます。式の評価が true を返した場合は、ブロックがレンダリングされ、それ以外の場合はスキップされます。
 
-**構文**
+**?**
 
 ```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-`if` ヘルパーの後に、`else` ステートメントを入れて、その条件の結果が false の場合に実行するコードのブロックを指定することもできます。
-`elseif` ステートメントは、最初のステートメントが false を返した場合にテストする新しい条件を指定します。
+`if`ヘルパーに従うと、同じ条件が偽である場合に、実行するコードブロックを指定するためのステートメントを入力 `else` することができます。`elseif`ステートメントには、最初のステートメントが false を返すかどうかをテストするための新しい条件を指定します。
 
 
-**形式**
+**書式**
 
 ```sql
 {
@@ -58,7 +56,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 **例**
 
-1. **条件式に基づいて異なるストアのリンクをレンダリングする**
+1. **条件式に基づいて異なるストアリンクをレンダリングする**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +66,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **メールアドレスの拡張子の判断**
+1. **電子メールアドレスの拡張機能の確認**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -82,7 +80,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 1. **条件付きリンクの追加**
 
-   次の操作では、メールアドレスが「.edu」のプロファイルについては web サイト「www.adobe.com/academia」へのリンク、メールアドレスが「.org」のプロファイルについては「www.adobe.com/org」へのリンク、その他のすべてのプロファイルについてはデフォルトの URL「www.adobe.com/users」へのリンクを追加します。
+   次の操作を実行すると、「www.adobe.com/academia」 web サイトの「edu」電子メールアドレスにリンクが追加されます。 &#39; .org &#39; 電子メールアドレスを使用してプロファイルの「www.adobe.com/org」 web サイトに、その他すべてのプロファイルに対する初期設定の URL &#39; &#39; が表示されます。
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +92,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **セグメントメンバーシップに基づく条件付きコンテンツ**
+1. **セグメントメンバーシップに基づいた条件付きコンテンツ**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -104,7 +102,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **プロファイルがすでにメンバーであるか判断する**
+1. **プロファイルが既に属しているかどうかを確認する**
 
    ```sql
    {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
@@ -116,22 +114,22 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->セグメント化とセグメント化サービスの詳細については、[この節](../../segment/about-segments.md)を参照してください。
+>セグメンテーションとセグメンテーションのサービスについて詳しくは、次 [ の項 ](../../segment/about-segments.md) を参照してください。
 
 
-## Unless{#unless}
+## ない限り{#unless}
 
-`unless` ヘルパーを使用して、条件ブロックを定義します。`if` ヘルパーとは異なり、式の評価結果が false の場合にブロックがレンダリングされます。
+ヘルパーは、 `unless` 条件ブロックを定義するために使用されます。 式の評価が false を返す場合、ヘルパーと反対 `if`  に、このブロックはレンダリングされます。
 
-**構文**
+**?**
 
 ```sql
 {%#unless unlessCondition%} element_1 {%else%} default_element {%/unless%}
 ```
 
-**例**
+**一**
 
-メールアドレスの拡張子に基づいてコンテンツをレンダリングする。
+電子メールアドレスの拡張機能に基づいて、次のようにコンテンツをレンダリングします。
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -141,13 +139,12 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## Each{#each}
+## 相互{#each}
 
-`each` ヘルパーを使用して、配列に対して反復処理を行います。
-ヘルパーの構文は ```{{#each ArrayName}}``` YourContent {{/each}} です。
-個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、{{@index}} を使用してレンダリングできます。
+ヘルパーは、配列に対して `each` 繰り返し処理を実行するために使用されます。ヘルパーのシンタックスは、コンテンツ {{/each}} を示し ```{{#each ArrayName}}``` ます。
+ブロック内部のキーワード **this** を使用して、個々の配列項目を参照できます。配列のエレメントのインデックスは、を使用 {{@index}} してレンダリングできます。
 
-**構文**
+**?**
 
 ```sql
 {{#each profile.productsInCart}}
@@ -156,7 +153,7 @@ Some edu specific content Content
 {{/each}}
 ```
 
-**例**
+**一**
 
 ```sql
 {{#each profile.homeAddress.city}}
@@ -164,9 +161,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-**例**
+**一**
 
-ユーザーが買い物かごに入れた商品のリストをレンダリングする。
+このユーザーがカートにある製品のリストを表示します。
 
 ```sql
 {{#each profile.products as |product|}}
@@ -177,9 +174,9 @@ Some edu specific content Content
 
 ## With{#with}
 
-`with` ヘルパーを使用して、template-part の評価トークンを変更します。
+`with`ヘルパーは、テンプレートパーツの評価トークンを変更するために使用されます。
 
-**構文**
+**?**
 
 ```sql
 {{#with profile.person.name}}
@@ -187,11 +184,11 @@ Some edu specific content Content
 {{/with}}
 ```
 
-`with` ヘルパーは、ショートカット変数を定義する場合にも使用できます。
+ヘルパーは、 `with` ショートカット変数を定義する場合にも便利です。
 
-**例**
+**一**
 
-with は、長い変数名に短い別名を付ける場合にも使用できます。
+With を使用して、長い変数名をより短い名前にエイリアスする方法を示します。
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -202,17 +199,17 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 ## Let{#let}
 
-`let` 関数を使用すると、式を変数として保存し、後からクエリで使用できます。
+この関数を使用して、 `let` 式を変数として格納し、後で使用することができます。
 
-**構文**
+**?**
 
 ```sql
 {% let variable = expression %} {{variable}}
 ```
 
-**例**
+**一**
 
-次の例では、合計が $100 以上 $1,000 未満のトランザクションで、すべての製品合計を米ドルで示します。
+次の例では、合計が $100 より大きく $1000 よりも大きい場合に、トランザクションを使用してすべての製品合計の合計を USD で指定します。
 
 ```sql
 {% let variable = expression %} {{variable}}

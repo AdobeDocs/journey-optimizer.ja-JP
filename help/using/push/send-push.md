@@ -1,62 +1,62 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: プッシュ通知を送信
-description: Journey Optimizerでプッシュ通知をプレビューし、テストする方法を説明します
+title: Push 通知を送信します。
+description: このような場合は、旅オプティマイザーの「プッシュ通知」のプレビューとテストを行う方法について学習します。
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: aad4e08a-3369-454d-9e32-974347a3b393
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 60%
+source-wordcount: '310'
+ht-degree: 0%
 
 ---
 
-# プッシュ通知を送信 {#send-push}
+# Push 通知を送信します。 {#send-push}
 
-## プッシュ通知をプレビューする {#preview-push}
+## プッシュ通知のプレビュー {#preview-push}
 
-メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。パーソナライズされたコンテンツを挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
+作成したメッセージコンテンツについては、テストプロファイルを使用してプレビューとテストを行うことができます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを確認できます。これによりテストプロファイルデータが活用されます。
 
-1. クリック **[!UICONTROL コンテンツをシミュレート]**.
+1. をクリック **[!UICONTROL Simulate content]** します。
 
-1. クリック **[!UICONTROL テストプロファイルの管理]** をクリックして、テストプロファイルを追加します。
+1. テストプロファイルを追加するには、をクリック **[!UICONTROL Manage test profiles]** します。
 
-1. テストプロファイルを見つけるには、 **[!UICONTROL ID 名前空間]** および **[!UICONTROL ID 値]** フィールド。 次に、「 **[!UICONTROL プロファイルを追加]**.
+1. And **[!UICONTROL Identity value]** フィールドを使用 **[!UICONTROL Identity namespace]** してテストプロファイルを検索します。次に、をクリック **[!UICONTROL Add profile]** します。
 
    ![](assets/push_preview_1.png)
 
-1. 上記と同じ手順を適用して、テストプロファイルを選択し、
+1. 前述の手順を適用してテストプロファイルを選択します。
 
    ![](assets/push_preview_2.png)
 
-1. プッシュのプレビューでは、テストプロファイルデータをメッセージコンテンツに使用します。
+1. プッシュプレビューでは、メッセージコンテンツでテストプロファイルデータが活用されています。
 
-   コンテンツをプレビューするデバイスの種類を選択します。 **[!UICONTROL iOS]** または **[!UICONTROL Android]**.
+   コンテンツ **[!UICONTROL iOS]** **[!UICONTROL Android]** をプレビューするデバイスのタイプを選択します。
 
    ![](assets/push_preview_3.png)
 
-## プッシュ通知を検証 {#push-validate}
+## プッシュ通知の検証 {#push-validate}
 
 >[!NOTE]
 >
-> 配信品質を高めるには、必ずプロバイダーがサポートする形式の電話番号を使用する必要があります。例えば、Twilio と Sinch は E.164 形式の電話番号のみをサポートしています。
+> Deliverability を改善するには、プロバイダーによってサポートされている形式の電話番号を常に使用してください。 例えば、Twilio では、E.i 形式の電話番号のみがサポートされています。
 
-また、エディターの上部セクションでアラートを確認します。単純な警告もありますが、メッセージの使用を妨げる可能性のある警告もあります。次の 2 種類のアラートが発生する可能性があります。
+また、エディターの上半分に表示されるアラートも確認する必要があります。  この中には簡単な警告が表示されているものもありますが、メッセージを使用しないようにすることもできます。 アラートは、次の2種類の方法で発生する可能性があります。
 
-* **警告**&#x200B;は、推奨奨事項とベストプラクティスを表します。
+* **警告** は「推奨事項」および「ベストプラクティス」を参照してください。
 
-* **エラー** は、次のように解決されていない限り、ジャーニーのテストやアクティブ化を防ぎます。
+* **エラーがあると、次のようなエラー** が解決されていない限り、それらのテストやアクティブ化は実行できません。
 
-   * **[!UICONTROL メッセージのプッシュバージョンが空です]**：このエラーは、プッシュ通知の本文またはタイトルがない場合に表示されます。プッシュ通知コンテンツを定義する方法については、[この節](create-push.md)で説明します。
+   * **[!UICONTROL The push version of the message is empty]**: push 通知の本文またはタイトルが見つからない場合に、このエラーが表示されます。 この節 ](create-push.md) では、プッシュ通知の [ 内容を定義する方法について説明します。
 
-   * **[!UICONTROL サーフェスが存在しません]**:メッセージの作成後に選択したサーフェスを削除した場合は、メッセージを使用できません。 このエラーが発生した場合は、メッセージの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別のサーフェスを選択します。チャネルサーフェスについて詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
+   * **[!UICONTROL Surface doesn't exist]**: メッセージの作成後に、選択したサーフェスが削除された場合は、メッセージを使用できません。 このエラーが発生した場合は、メッセージ **[!UICONTROL Properties]** 内の別の面を選択します。 この節 ](../configuration/channel-surfaces.md) では、 [ チャネルのサーフェスについて詳しく説明しています。
 
-   * **[!UICONTROL プッシュの iOS / Android ペイロードが 4KB の制限を超えています]**：プッシュ通知のサイズは、4KB を超えることはできません。この制限を守るために、画像や絵文字の使用を減らすようにしてください。プッシュ通知コンテンツの管理方法については、[この節](../push/create-push.md)を参照してください。
+   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: プッシュ通知のサイズは4KB を超えることはできません。 この制限については、イメージや絵文字の使用量を減らすようにしてください。 この節 ](../push/create-push.md) では [ 、プッシュ通知の内容を管理する方法を説明しています。
 
 ![](assets/push_alert.png)
 
-プッシュ通知の準備が整ったら、 [ジャーニー](../building-journeys/journey-gs.md) または [campaign](../campaigns/create-campaign.md) 送信する
-
+プッシュ通知の準備ができたら、移動または [ キャンペーン ](../campaigns/create-campaign.md) の ](../building-journeys/journey-gs.md) [ 設定を完了して送信します。

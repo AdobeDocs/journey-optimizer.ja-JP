@@ -1,6 +1,6 @@
 ---
 title: フォールバックオファーの作成
-description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
+description: 代替オファーが他の特典に適合しない場合は、お客様に送信されます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,35 +9,35 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # フォールバックオファーの作成 {#create-fallback-offer}
 
-コンテナ ID を提供しながら [!DNL Offer Library] API に POST リクエストを実行することで、フォールバックオファーを作成できます。
+このため、API に対し [!DNL Offer Library] て POST 要求を実行し、コンテナ ID を指定することによって、フォールバックオファーを作成することができます。
 
-## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
 
-| ヘッダー名 | 値 |
+| ヘッダー名 | 数値 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| コンテンツタイプ | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
-**API 形式**
+**API フォーマット**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | フォールバックが提供されているコンテナーが格納されています。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X POST \
@@ -69,9 +69,9 @@ curl -X POST \
 }'
 ```
 
-**応答**
+**対し**
 
-正常な応答では、新たに作成されたフォールバックオファーに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してフォールバックオファーを更新または削除できます。後のチュートリアルでは、一意のフォールバックオファー `@id` を使用して決定を作成できます。
+応答が成功した場合は、新しく作成されたフォールバックオファーの情報が返されます。これは、一意のインスタンス ID と配置 `@id` を含みます。 以降の手順のインスタンス ID を使用して、予備製品を更新または削除することができます。 後のチュートリアルで、独自のフォールバックオファー `@id` を使用して、決定を行うことができます。
 
 
 ```json

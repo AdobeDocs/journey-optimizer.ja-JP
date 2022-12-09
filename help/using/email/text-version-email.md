@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メールのテキストバージョンの作成
-description: メールのテキストバージョンを作成する方法を説明します
+title: 電子メールのテキストバージョンの作成
+description: 電子メールのテキストバージョンの作成方法について説明します。
 feature: Overview
 topic: Content Management
 role: User
@@ -10,36 +10,36 @@ level: Intermediate
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
-# メールのテキストバージョンの作成 {#text-version-email}
+# 電子メールのテキストバージョンの作成 {#text-version-email}
 
-HTML コンテンツを表示できない場合に使用するため、メール本文のテキストバージョンを作成することをお勧めします。
+HTML コンテンツを表示できない場合に使用する電子メール本文のテキスト版を作成することをお勧めします。
 
-デフォルトでは、E メールデザイナーは、パーソナライゼーションフィールドを含め、メールの&#x200B;**[!UICONTROL プレーンテキスト]**&#x200B;バージョンを作成します。このバージョンは自動的に生成され、HTML バージョンの内容と同期されます。
+初期設定では、電子メールデザイナーは、個人用設定フィールドなどの電子メールのバージョンを作成 **[!UICONTROL Plain text]** します。 このバージョンは、コンテンツの HTML バージョンと同期されます。
 
-別の内容のプレーンテキストバージョンを使用するには、次の手順に従います。
+プレーンテキスト版に別のコンテンツを使用する場合は、次の手順を実行します。
 
-1. メールから「**[!UICONTROL プレーンテキスト]**」タブを選択します。
+1. 電子メールで、タブを選択 **[!UICONTROL Plain text]** します。
 
    ![](assets/text_version_3.png)
 
-1. 「**[!UICONTROL HTML と同期]**」トグルで同期を無効にします。
+1. 「切り替え」を使用して、 **[!UICONTROL Sync with HTML]** 同期を無効にします。
 
    ![](assets/text_version_1.png)
 
-1. チェックマークをクリックして、選択を確定します。
+1. 選択内容を確認するには、チェックマークをクリックします。
 
    ![](assets/text_version_2.png)
 
-1. その後、必要に応じてプレーンテキストバージョンを編集します。
+1. これにより、必要に応じてプレーンテキストのバージョンを編集できます。
 
 >[!CAUTION]
 >
->* **[!UICONTROL プレーンテキスト]**&#x200B;表示で加えた変更は、HTML 表示には反映されません。
+>* ビューで **[!UICONTROL Plain text]** 行った変更は、HTML ビューには反映されません。
 >
->* プレーンテキストの内容を更新した後にもう一度「**[!UICONTROL HTML と同期]**」オプションを有効にすると、変更は失われ、HTML バージョンから生成されたテキストの内容に置き換えられます。
+>* テキストコンテンツを更新した後に再度有効に **[!UICONTROL Sync with HTML]** した場合、変更は失われ、HTML バージョンから生成されたテキストコンテンツに置き換えられます。
 

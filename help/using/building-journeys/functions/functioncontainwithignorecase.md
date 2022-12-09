@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: containIgnoreCase
-description: containIgnoreCase 関数について説明します
+description: 関数の containIgnoreCase について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,37 +9,37 @@ exl-id: 26074584-a215-4515-8a61-7460bd9d4447
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # containIgnoreCase {#containIgnoreCase}
 
-2 番目の引数文字列が最初の引数文字列に含まれているかどうかを、大文字と小文字の区別をせずに確認します。
+第2引数のストリングが最初の引数ストリングに含まれているかどうかを確認します。大文字と小文字は考慮されません。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `containIgnoreCase(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| 文字列 | 文字列 |
-| 検索文字列 | 文字列 |
+| 値 | 値 |
+| 検索されるストリング | 値 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `containIgnoreCase(<string>,<string>)`
 
 ブール値を返します。
 
-## 例
+## 一
 
 `containIgnoreCase("rowing is great", "GREAT")`
 
-true を返します。
+True を返します。

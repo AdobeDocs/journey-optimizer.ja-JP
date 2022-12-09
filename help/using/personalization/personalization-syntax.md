@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: パーソナライゼーション構文
-description: パーソナライゼーション構文の使用方法を説明します。。
+title: パーソナル化構文
+description: パーソナル化構文を使用する方法について説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,55 +10,55 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 0%
 
 ---
 
-# パーソナライゼーション構文 {#personalization-syntax}
+# パーソナル化構文 {#personalization-syntax}
 
-[!DNL Journey Optimizer] のパーソナライゼーションは、Handlebars と呼ばれるテンプレート構文に基づいています。Handlebars 構文の詳細については、[HandlebarsJS ドキュメント](https://handlebarsjs.com/) を参照してください。
+の [!DNL Journey Optimizer] パーソナル化は、Handlebars と呼ばれるテンプレート構文に基づいています。Handlebars シンタックスの詳細については、handlebarsjs のドキュメント ](https://handlebarsjs.com/) を [ 参照してください。
 
-テンプレートと入力オブジェクトを使用して、HTML やその他のテキスト形式を生成します。Handlebars テンプレートは、Handlebars 式が埋め込まれた標準のテキストのように見えます。
+テンプレートと入力オブジェクトを使用して、HTML やその他のテキストフォーマットを生成します。 Handlebars テンプレートは、埋め込み Handlebars 式が設定された通常のテキストに似ています。
 
-簡単な式のサンプル：
+単純な式のサンプル:
 
 `{{profile.person.name}}`
 
-各パラメーターの意味は次のとおりです。
+どこ：
 
-* `profile` は名前空間です。
-* `person.name` は、属性で構成されるトークンです。属性の構造は、Adobe Experience Platform XDM スキーマで定義されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}。
+* `profile` 名前空間です。
+* `person.name` 属性によって構成されるトークンです。 属性構造は、Adobe 体験プラットフォームの XDM スキーマで定義されています。 [](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)詳しくは、「target = &quot;_blank&quot;}」を参照してください。
 
-## 構文の一般的なルール {#general-rules}
+## シンタックスの一般的な規則 {#general-rules}
 
-識別子には、以下を除く任意の Unicode 文字を使用できます。
+識別子には、次のような unicode 文字を使用できます。
 
 ```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 ```
 
-構文では大文字と小文字が区別されます。
+このシンタックスでは、大文字と小文字が区別されます。
 
-**true**、**false**、**null** および **undefined**&#x200B;という語は、パス式の最初の部分でのみ使用できます。
+True **、** false **、** null **および** undefined **の語** は、path 式の最初の部分でのみ使用できます。
 
-Handlebars では、{{expression}} から返される値は **HTML エスケープ**&#x200B;されています。式に「`&`」が含まれている場合、返される HTML エスケープ出力は「`&amp;`」として生成されます。Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します
+Handlebars では、によって返される値は HTML エスケープ **さ** れて {{expression}} います。式に値が含まれ `&` ている場合は、返される HTML によって生成される出力は、として `&amp;` 生成されます。 値をエスケープする必要がない場合は、Handlebars を使用してください。
 
-リテラル関数の引数に関して、テンプレート言語パーサーはエスケープされない単一のバックスラッシュ（`\`）記号をサポートしていません。この文字は、バックスラッシュ（`\`）記号を追加してエスケープする必要があります。例：
+Literal 関数の引数については、テンプレート言語パーサーは、1つのエスケープされていないバックスラッシュ ( `\` ) 記号をサポートしません。 この文字は、additionnal 円記号 ( `\` ) 記号でエスケープする必要があります。 一
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
-## プロファイル
+## 薄型
 
-この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}を参照してください。
+この名前空間を使用すると、Adobe エクスペリエンス Platform データモデル (XDM) マニュアル ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) で説明 [ されているすべての属性を参照できるようになります (「target = &quot;_blank&quot;})。
 
-属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
+属性は、個人用設定ブロック内で [!DNL Journey Optimizer] 参照される前に、スキーマで定義する必要があります。
 
 >[!NOTE]
 >
->で条件でプロファイル属性を活用する方法については、[この節](functions/helpers.md#if-function)を参照してください。
+>このセクション ](functions/helpers.md#if-function) で [ は、条件でプロファイル属性を活用する方法について説明します。
 
-**参照の例：**
+**サンプルリファレンス:**
 
 `{{profile.person.name.fullName}}`
 
@@ -74,96 +74,93 @@ Handlebars では、{{expression}} から返される値は **HTML エスケー�
 
 `{{profile.faxPhone.number}}`
 
-## セグメント{#perso-segments}
+## 層{#perso-segments}
 
-条件でプロファイル属性を活用する方法について詳しくは、[この節](functions/helpers.md#if-function)を参照してください。
+このセクション ](functions/helpers.md#if-function) で [ は、条件でプロファイル属性を活用する方法について説明します。
 
 >[!NOTE]
->セグメント化とセグメント化サービスの詳細については、[この節](../segment/about-segments.md)を参照してください。
+>セグメンテーションとセグメンテーションのサービスについて詳しくは、次の項 ](../segment/about-segments.md) を [ 参照してください。
 
-## オファー {#offers-syntax}
+## 一元化 {#offers-syntax}
 
-この名前空間では、既存のオファー決定を参照できます。
-オファーを参照するには、オファーを定義する様々な情報を使用してパスを宣言する必要があります。
+この名前空間を使用すると、既存のオファーの決定を参照できます。オファーを参照するには、オファーを定義するさまざまな情報を使用してパスを宣言する必要があります。
 
-このパスの構造は次のようになります。
+このパスの構造は次のとおりです。
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-ここで：
+どこ：
 
-* `offers` はオファー名前空間に属するパス式を識別します。
-* `Type` はオファー表示域のタイプを決定します。`image`、`html` および `text` などの値が使用されます。
-* `Placement Id` と `Activity Id` は配置とアクティビティの識別子です。
-* `Attributes` は、オファータイプに依存するオファー固有の属性です。例：`deliveryUrl`（画像の場合）
+* `offers` オファー名前空間に属するパス式を指定します。
+* `Type`  オファー表示の種類を指定します。 指定可能な値は次のとおりです。 `image` `html``text`
+* `Placement Id``Activity Id`配置とアクティビティの識別子
+* `Attributes` には、オファーの種類に応じた具体的な属性が用意されています。 例: `deliveryUrl` イメージの場合
 
-決定 API とオファー表示域について詳しくは、[このページ](../offers/api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
+決定 API および「オファー」の表示について詳しくは、このページを [ 参照してください。](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
-すべての参照は、[このページ](personalization-validation.md)で説明されている検証メカニズムを使用して、オファースキーマに対して検証されます。
+すべての参照が、このページで [ 説明されている検証メカニズムを使用してスキーマと照らして検証されます。](personalization-validation.md)
 
-**サンプルリファレンス：**
+**サンプルリファレンス:**
 
-* 画像がホストされる場所：
+* イメージがホストされている場所。
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* 画像をクリックしたときのターゲット URL：
+* イメージをクリックしたときのターゲット URL:
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* 決定エンジンから得られるオファーのテキストコンテンツ：
+* Decisioning エンジンによって提供されるオファーのテキストコンテンツ:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 決定エンジンから得られるオファーの HTML コンテンツ：
+* Decisioning エンジンによって提供される HTML コンテンツ:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## ヘルパー{#helpers-all}
 
-Handlebars ヘルパーは、パラメーターの後に付けられる単純な識別子です。
-各パラメーターは、Handlebars 式です。これらのヘルパーは、テンプレート内の任意のコンテキストからアクセスできます。
+Handlebars helper は、パラメーターが後に続く単純な識別子です。各パラメーターは Handlebars 式です。 このようなヘルパーには、テンプレート内の任意のコンテキストからアクセスできます。
 
-これらのブロックヘルパーは、ヘルパー名の先頭にある＃で識別され、対となる同じ名前の「/」タグで閉じる必要があります。
-ブロックは、ブロック開始タグ（{{# }}) and closing ({{/}}）を持つ式です。
+これらのブロックヘルパーは、ヘルパー名の前に # 1 が付いた番号で識別されます。ブロックは、ブロックの開 ( {{# }}) and closing ({{/}} ) を持つ式です。
 
 
 >[!NOTE]
 >
->ヘルパー関数について詳しくは、[この節](functions/helpers.md)を参照してください。
+>ヘルパー関数については、このセクション ](functions/helpers.md) で [ 詳しく説明しています。
 
 ## リテラル型 {#literal-types}
 
-[!DNL Adobe Journey Optimizer] では、次のリテラル型をサポートしています。
+[!DNL Adobe Journey Optimizer] では、以下のリテラルタイプがサポートされています。
 
-| リテラル | 定義 |
+| 郵便 | 精細 |
 | ------- | ---------- |
-| 文字列 | 文字で構成され、ダブルコーテーションで囲まれたデータタイプです。<br>例：`"prospect"`、`"jobs"`、`"articles"` |
-| ブール | true か false のいずれかであるデータタイプです。 |
-| 整数 | 整数を表すデータタイプです。正、負、ゼロのいずれかです。<br>例：`-201`、`0`、`412` |
-| 配列 | 他のリテラル値のグループとして構成されるデータ型です。複数の値を区切る場合は、角括弧で囲んでグループ化し、カンマで区切ります。<br> **注意**：配列内の項目のプロパティに直接アクセスすることはできません。<br> 例：`[1, 4, 7]`、`["US", "FR"]` |
+| 値 | 二重引用符で囲まれた文字で構成されるデータ型です。 <br>例: `"prospect"` 、 `"jobs"` 、 `"articles"` |
+| 示す | True または false のデータ型を指定します。 |
+| 整数 | 整数を表すデータ型。 正数、負数、ゼロのいずれかを指定できます。 <br>例: `-201` 、 `0` 、 `412` |
+| 一連 | 他のリテラル値のグループとして &#39;8d&#39;5c 成されるデータ型。 グループとカンマを使用して異なる値間を区切るために、角カッコを使用します。 <br> **注意:** 配列内のアイテムのプロパティに直接アクセスすることはできません。 <br> 例: `[1, 4, 7]` 、 `["US", "FR"]` |
 
 >[!CAUTION]
 >
->**xEvent** 変数は、パーソナライズ式では使用できません。xEvent を参照すると、検証エラーが発生します。
+>XEvent **変数は、パーソナル化条件式では使用** できません。XEvent への参照によって検証エラーが発生します。
 
-## URL のパーソナライゼーション{#perso-urls}
+## URL の個人用設定{#perso-urls}
 
-パーソナライズされた URL は、プロファイルの属性に応じて、受信者を web サイトの特定のページまたはパーソナライズされたマイクロサイトに誘導します。Adobe Journey Optimizer では、メッセージコンテンツの URL にパーソナライゼーションを追加できます。URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。
+パーソナライズされた Url では、プロファイル属性に応じて、web サイトの特定のページ、またはパーソナライズされたマイクロサイトが宛先になります。 Adobe 旅のオプティマイザーでは、メッセージコンテンツ内の Url にパーソナライズ機能を追加することができます。 URL パーソナル化は、テキストとイメージに適用できます。また、プロファイルデータまたは文脈データを使用することもできます。
 
-Journey Optimizer では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。URL をパーソナライズするには、次の手順に従います。
+旅のオプティマイザーを使用すると、パーソナライズフィールドを追加することで、メッセージ内の1つまたは複数の Url を個人用に設定することができます。 URL をカスタマイズするには、次の手順に従います。
 
-1. メッセージコンテンツにリンクを作成します。[詳細情報](../email/message-tracking.md#insert-links)
-1. パーソナライゼーションアイコンから、属性を選択します。パーソナライゼーションアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;のリンクでのみ使用できます。
+1. メッセージコンテンツ内にリンクを作成します。 [詳細情報](../email/message-tracking.md#insert-links)
+1. パーソナル化アイコンから属性を選択します。 パーソナル化アイコンは、これらの種類のリンク **(外部リンク** 、Unsubscription link **** 、 **オプトアウト)** でのみ使用できます。
 
 ![](assets/perso-url.png)
 
 >[!NOTE]
 >
->式エディターでは、パーソナライズされた URL を編集する際、セキュリティ上の理由から、ヘルパー関数とセグメントメンバーシップが無効になります。
+>式エディターでは、個人用の URL を編集すると、セキュリティ上の理由から、ヘルパー関数およびセグメントメンバーシップが無効化されます。
 
-**パーソナライズされた URL のサンプル**
+**パーソナライズされた Url のサンプル**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
@@ -172,4 +169,4 @@ Journey Optimizer では、パーソナライゼーションフィールドを�
 
 >[!CAUTION]
 >
->スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
+>Url 内で使用されるパーソナル化トークンでは、スペースはサポートされていません。

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Customer Journey Analytics の操作
-description: Customer Journey Analytics の基本を学ぶ
+title: お客様の旅解析機能について
+description: お客様の旅解析の開始
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,47 +10,46 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
-# [!DNL Customer Journey Analytics] の操作 {#cja-ajo}
+# の操作 [!DNL Customer Journey Analytics] {#cja-ajo}
 
 
-[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] の 統合は、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
+[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] の連携により、自動的にレポートを配布して、データのカスタム視覚化を行うすべての journeys の全体像を把握することができます。
 
 ![](assets/cja.png)
 
-[!DNL Journey Optimizer] でジャーニーを作成した後、[!DNL Customer Journey Analytics] に顧客データを読み込んでレポートを開始し、ジャーニーにおける顧客のインタラクションが与える影響を把握できます。
+に [!DNL Journey Optimizer] 旅を作成した後は、お客様のデータをに [!DNL Customer Journey Analytics] 読み込んで、レポートを開始し、お客様が journeys について行うあらゆるやり取りの影響について理解することができます。
 
-➡️ [Customer Journey Analytics の概要を確認する](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja){target=&quot;_blank&quot;}
+➡️ [ お客様の旅の分析 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) を発見 {target = &quot;_blank&quot;}
 
-ジャーニーに対して [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
+Journeys の使用を開始する前に、この統合を設定して [!DNL Customer Journey Analytics] おく必要があります。
 
-1. Adobe Experience Platform に送信する&#x200B;**[!UICONTROL データセット]**&#x200B;を使用して、[!DNL Customer Journey Analytics] で[接続を作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja)します。
+1. [で [!DNL Customer Journey Analytics] 、 **[!UICONTROL Dataset]** Adobe エクスペリエンスプラットフォームに送信するとの接続 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) を作成します。
 
-   次の [!DNL Journey Optimizer] を設定できます。
-   * [ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)：誰がジャーニーにエントリし、どのくらい進んだかを確認できます。
-   * [メッセージフィードバック／トラッキングデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)：[!DNL Journey Optimizer] を介して送信したメッセージに関する配信情報を表示できます。
-   * [エンティティデータセットおよびジャーニーデータセット](../data/datasets-query-examples.md#entity-dataset)：わかりやすい名前を検索し、レポートで使用できます。
+   次 [!DNL Journey Optimizer] の設定を行うことができます。
+   * [「旅のステップ」イベント ](../data/datasets-query-examples.md#journey-step-event) : 誰が journeys を入力したかを表示します。
+   * [メッセージのフィードバック/追跡データセット ](../data/datasets-query-examples.md#message-feedback-event-dataset) : 経由 [!DNL Journey Optimizer] で送信されたメッセージに関する配信情報を表示することができます。
+   * [「エンティティおよび旅データセット ](../data/datasets-query-examples.md#entity-dataset) 」: フレンドリ名を検索して、レポートで使用することができます。
 
-1. [データビューを作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)して、レポートに使用するディメンションおよび指標を設定します。
+1. [データビュー ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) を作成して、レポートに使用するディメンションとメトリックを設定します。
 
-   Journey Optimizer 固有の指標を作成して、ジャーニーのデータをよりよく反映できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=ja#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Journeys のデータをより適切に反映するために、詳細なオプティマイザー特有のメトリックスを作成することができます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 
-[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] を使用する場合、次の原因により、レポートデータに何らかの相違が生じる可能性があります。
+を使用 [!DNL Journey Optimizer] すると、次のような [!DNL Customer Journey Analytics] 原因で発生するデータの報告に問題が生じることがあります。
 
-* **[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] は両方とも、レポート用に Azure Data Lake Storage（ADLS）からのデータを同期します。**
+* **[!DNL Journey Optimizer]レポート用に、Azure Data Lake Storage (ADLS) との間でデータを同期し [!DNL Customer Journey Analytics] ます。**
 
-   受信データの処理時間は、製品間で多少異なる場合があります。このため、指定した日付から現在の日付までのレポートを表示すると、データが一致しない場合があります。相違を減らすには、現在の日付を除く日付範囲を使用します。
+   受信データの処理時間は製品によって多少異なります。 このため、指定された日付から当日にレポートを表示すると、データが一致しないことがあります。 不一致を減らすには、現在の日付を除く日付の範囲を使用します。
 
-* **[!DNL Journey Optimizer] レポートでは、送信済み指標には、再試行指標も含まれます。**
+* **[!DNL Journey Optimizer]報告書には、リトライメトリックも含まれています。**
 
-   **[!UICONTROL 再試行]**&#x200B;は、[!DNL Customer Journey Analytics]での&#x200B;**[!UICONTROL 送信済み]**&#x200B;指標には含まれません。そのため、[!DNL Customer Journey Analytics] **[!UICONTROL 送信済み]**&#x200B;指標には、[!DNL Journey Optimizer] より低い値が表示されます。ただし、再試行データは、「**[!UICONTROL 正常に送信されたメッセージ]**」または「**[!UICONTROL バウンス]**」指標に収束されます。
-相違を減らすには、1 週間前またはそれ以降の日付範囲を使用します。
+   **[!UICONTROL Retries]**&#x200B;は、の [!DNL Customer Journey Analytics] 「メトリック」に **[!UICONTROL Sent]** は含まれません。これにより、メトリックには、より [!DNL Journey Optimizer] 小さい値が表示され [!DNL Customer Journey Analytics] **[!UICONTROL Sent]** ます。ただし、再試行データは or **[!UICONTROL Bounces]** メトリックに **[!UICONTROL Messages successfully sent]** 収束されます。不一致を減らすには、1週間前または後で日付の範囲を使用します。
 
-* **レポートは、異なるデータソースから提供されています。**
+* **レポートは別のデータソースから提供されています。**
 
-   その結果、製品間で 1～2％のデータの相違が生じる可能性があります。
+   これにより、製品間に1-2% のデータ不一致が発生する可能性があります。

@@ -1,6 +1,6 @@
 ---
 title: コレクションの削除
-description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
+description: コレクションは、オファーのカテゴリなど、marketer によって定義されている事前に定義された条件に基づいて作成されたオファーのサブセットです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,28 +8,28 @@ level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 
 # コレクションの削除 {#delete-collection}
 
-場合によっては、コレクションを削除（DELETE）する必要があります。テナントコンテナで作成したコレクションのみを削除できます。これは、削除するコレクションの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
+コレクションを削除 (削除) することが必要になる場合があります。 テナントコンテナに作成したコレクションだけが削除される場合があります。 これは、削除したいコレクションの $id を使用して、API に [!DNL Offer Library] 削除要求を実行することによって実行されます。
 
-**API 形式**
+**API フォーマット**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 更新するコレクションのインスタンス ID。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | コレクションが格納されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 更新するコレクションのインスタンス id です。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X DELETE \
@@ -41,8 +41,8 @@ curl -X DELETE \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答**
+**対し**
 
-正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
+応答が成功した場合は、HTTP 状態 202 (内容なし) と空白の本文が返されます。
 
-コレクションに対して検索（GET）リクエストを実行することで、削除を確認できます。リクエストには Accept ヘッダーを含める必要がありますが、コレクションがコンテナから削除されたので、HTTP ステータス 404（見つかりません）を受け取ります。
+コレクションに対する lookup (GET) 要求を試みることによって、削除を確認することができます。 要求に Accept ヘッダーを含める必要がありますが、コレクションがコンテナから削除されたので、HTTP ステータス 404 (見つかりません) が表示されます。

@@ -1,55 +1,55 @@
 ---
 product: journey optimizer
-title: sum
-description: sum 関数について説明します
+title: 総額
+description: 関数 sum について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 100%
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
-# sum {#sum}
+# 総額 {#sum}
 
- 一連の式の値の合計を返します。null 値は無視されます。
+式セットの値の合計を返します。 Null 値は無視されます。
 
-## カテゴリ
+## 項目
 
-集計
+総計
 
-## 関数の構文
+## 関数のシンタックス
 
 `sum(<parameters>)`
 
 ## パラメーター
 
 * listInteger
-* listDecimal
-* 期間
+* リスト10進数
+* 持続
 * 整数
-* 小数
+* 形式
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `sum(<listDecimal>)`
 
-小数を返します。
+10進数を返します。
 
 `sum(<listInteger>)`
 
-整数を返します。
+整数値を返します。
 
 `sum(<integer>,<integer>)`
 
-整数を返します。
+整数値を返します。
 
 `sum(<decimal>,<decimal>)`
 
-小数を返します。
+10進数を返します。
 
 ## 例
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 `sum([10,3,8])`
 
-21 を返します。
+は21を返します。
 
 `sum([10.5,null,8.1])`
 

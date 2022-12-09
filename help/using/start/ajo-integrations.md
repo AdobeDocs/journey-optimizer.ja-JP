@@ -2,71 +2,71 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 他のソリューションとの統合
-description: Journey Optimizer を他のソリューションと統合する方法を学ぶ
+description: 他のソリューションとの間で、旅のオプティマイザーを統合する方法を学習します。
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 0%
 
 ---
 
 # 他のソリューションとの統合 {#integration}
 
-Adobe Journey Optimizer を使用すると、このデータを簡単に管理、保持し、テクノロジースタックの一部であるプラットフォームやシステムに書き出すことができます。これらの統合は、特定の使用例に対処し、Adobe Journey Optimizer の機能範囲を拡張するのに役立ちます。
+Adobe の旅オプティマイザーを使用すると、このデータを、テクノロジスタックの一部となっているプラットフォームやシステムに簡単に管理、保存、およびエクスポートすることができます。 統合機能を使用すると、特定の用途に対処することができます。また、Adobe 旅オプティマイザーの機能スコープも拡張されます。
 
 >[!NOTE]
 >
-> Adobe Experience Platform 上に作成された Adobe Journey Optimizer は、[Adobe リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}にネイティブに接続されています。この組み込みのデータソースは事前に設定されており、リアルタイム顧客プロファイルからデータを取得して使用するように設計されています（例えば、ジャーニーに参加したユーザーがクライアントであるかどうかを確認します）。 プロファイルデータとエクスペリエンスイベントデータを使用できます。[詳細情報](../datasource/adobe-experience-platform-data-source.md)。
+> Adobe の旅のプラットフォームに基づいて構築された Adobe 旅オプティマイザーは、adobe リアルタイムカスタマープロファイル ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) にネイティブに [ 接続されています ({target = &quot;_blank&quot;})。この組み込みデータソースは事前に構成されており、リアルタイムのユーザープロファイルからデータを取得して使用できるように設計されています (例えば、旅に入った人物がクライアントであるかどうかを確認します)。 これを使用すると、プロファイルデータを使用して、イベントデータを体験することができます。 [詳しく ](../datasource/adobe-experience-platform-data-source.md) は、こちらを参照してください。
 
-## Adobe Customer Journey Analytics{#integration-cja}
+## Adobe お客様向けの旅の分析{#integration-cja}
 
-Customer Journey Analytics を使用すると、Journey Optimizer で生成されたデータに対してアドバンス分析を実行できます。
+顧客向け旅解析を使用して、旅のオプティマイザーによって生成されたデータについて詳細な分析を実行することができます。
 
-Journey Optimizer は、Adobe Experience Platform にデータを保存し、Customer Journey Analytics を使用して、自動化されたレポート配信とデータのカスタムビジュアライゼーションにより、すべてのジャーニー、キャンペーン、オファーの全体像を提供します。
+旅のオプティマイザーは、Adobe エクスペリエンスプラットフォームにデータを格納します。また、お客様の旅の分析により、データの自動レポート配信機能やカスタム視覚化機能について、すべての journeys、キャンペーン、オファーが表示されます。
 
-Journey Optimizer でジャーニーを作成した後、Customer Journey Analytics は、プラットフォームからデータを取り込み、レポートを開始して、顧客がジャーニーで行ったすべてのインタラクションの影響を理解できます。
+お客様の旅に旅を作成した後、お客様の旅の分析により、プラットフォームからデータを取り込み、レポートを開始して、お客様が journeys にどのような影響を与えるかを理解することができます。
 
-詳しくは、[Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md) を参照してください。
+旅オプティマイザーについて詳しくは、「お客様の旅の分析 ](../reports/cja-ajo.md) 」を参照して [ ください。
 
-## Adobe Analytics{#integration-aa}
+## Adobe アナリティクス{#integration-aa}
 
-リアルタイムのジャーニーをトリガーし、顧客のエクスペリエンスを自動化するために、既にキャプチャして Adobe Experience Platform にストリーミングしている Adobe Analytics のあらゆる行動イベントデータを活用できます。このデータは、Journey Optimizer を使用してエンゲージ可能なセグメントの作成にも使用できます。
+取り込んだ Adobe アナリティクス振る舞いイベントデータはすべて活用できます。また、Adobe エクスペリエンスプラットフォームへのストリーミングによって、リアルタイムで journeys が開始され、お客様がエクスペリエンスを自動化することができます。 このデータは、次のように、旅オプティマイザーを使用して行うことができるセグメントを作成するために使用することもできます。
 
-詳しくは、[Journey Optimizer + Analytics](../event/about-analytics.md) を参照してください。
+旅オプティマイザー ](../event/about-analytics.md) について詳しくは、こちらを参照して [ ください。
 
 ## Adobe インテリジェントサービス{#integration-intelligent-service}
 
-リアルタイム顧客データプラットフォームにネイティブな Adobe インテリジェントサービスを使用すると、カスタマーエクスペリエンスのユースケースで人工知能と機械学習の機能を活用できます。これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。
+お客様のリアルタイムデータプラットフォームに対応する Adobe インテリジェントサービスによって、人為的な知能や、カスタマーエクスペリエンスの利用状況に関するコンピューターの学習機能が活用されます。 これにより、マーケティングアナリストは、データ科学の専門知識がなくても、ビジネスレベルの設定を使用して、企業のニーズに合わせて予測を設定することができます。
 
-顧客 AI を使用すると、ブランドは、Adobe Experience Platform でプロファイル属性として使用でき、ジャーニーをパーソナライズするために使用できるチャーンまたはコンバージョンの機械学習ベースのスコアを作成できます。
+ユーザー AI を使用すると、アドビシステムズ社では、表示/非表示を選択したり、変換機械の成績を作成することができます
 
-[詳細情報](../building-journeys/ai-services-overview.md)。
+[詳しく ](../building-journeys/ai-services-overview.md) は、こちらを参照してください。
 
 
-## Adobe Campaign{#integration-ac}
+## Adobe キャンペーン{#integration-ac}
 
-統合は、Adobe Campaign v7 または v8 のユーザーが使用できます。この統合により、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できるようになります。
+Adobe キャンペーン v7 または v8 を使用している場合は、統合されています。 この統合機能を使用すると、Adobe キャンペーンのトランザクションメッセージ機能を使用して、電子メール、プッシュ通知、SMS を送信できます。
 
-詳しくは、[Journey Optimizer + Campaign](../building-journeys/ajo-ac.md) を参照してください。
+旅オプティマイザーとキャンペーン ](../building-journeys/ajo-ac.md) について詳しくは、こちらを参照して [ ください。
 
-また、Adobe Campaign Standard との統合を設定して、ジャーニーでメッセージを送信することもできます。
+また、Adobe キャンペーン規格との統合を設定して、journeys 内のメッセージを送信することもできます。
 
-詳しくは、[Journey Optimizer + Campaign Standard](../building-journeys/ajo-ac.md) を参照してください。
+旅オプティマイザーとキャンペーン基準 ](../building-journeys/ajo-ac.md) について詳しくは、こちらを参照して [ ください。
 
-## カスタムチャネル{#integration-custom}
+## カスタムチャンネル{#integration-custom}
 
-サードパーティ製システムを使用してメッセージを送信する場合、またはジャーニーがサードパーティ製システムに API 呼び出しを送信する場合は、カスタムアクションを使用してジャーニーに接続します。例えば、カスタムアクションを使用して Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase などのシステムに接続できます。
+サードパーティシステムを使用してメッセージを送信する場合や、サードパーティシステムに API 呼び出しを送信する必要がある場合は、カスタムアクションを使用して journeys に接続します。 例えば、カスタムアクションを使用して次のシステムに接続できます。: イプシロン、余裕期間、 [ Adobe Developer ](https://developer.adobe.com) {target = &quot;_blank&quot;}、焼討ベースなど
 
-カスタムアクションは、技術ユーザーが定義し、マーケターが使用できる追加のアクションです。設定が完了すると、**[!UICONTROL アクション]**&#x200B;カテゴリの、ジャーニーの左側のパレットに表示されます。詳しくは、[このページ](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
+カスタムアクションは、テクニカルユーザーによって定義された追加のアクションで、マーケティング担当者に公開されています。 一度設定すると、そのカテゴリーで **[!UICONTROL Action]** の旅の左側のパレットに表示されます。 詳しくは、このページ ](../building-journeys/about-journey-activities.md#action-activities) を [ 参照してください。
 
-詳しくは、[カスタムアクション](../action/about-custom-action-configuration.md)を参照してください。
+カスタムアクション ](../action/about-custom-action-configuration.md) について [ 説明します。
 
 ## 外部データソース{#integration-external-systems}
 
-Journey Optimizer では、カスタムデータソースとカスタムアクションを使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータでジャーニーをエンリッチメントできます。
+旅のオプティマイザーを使用すると、カスタムデータソースやカスタムアクションを使用して、外部システムとの接続を設定することができます。 これにより、例えば、外部予約システムから送られるデータを journeys にすることができます。
 
-外部データ ソースを使用して、サードパーティ製システムへの接続を定義する方法については、[この節](../datasource/external-data-sources.md)を参照してください。
+外部データソースを使用して、この節 ](../datasource/external-data-sources.md) で [ 説明するサードパーティシステムへの接続を定義する方法について説明します。

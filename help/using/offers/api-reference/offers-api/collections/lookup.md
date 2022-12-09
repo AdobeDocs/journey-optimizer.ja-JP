@@ -1,6 +1,6 @@
 ---
 title: コレクションの検索
-description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
+description: コレクションは、オファーのカテゴリなど、marketer によって定義されている事前に定義された条件に基づいて作成されたオファーのサブセットです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,31 +9,31 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # コレクションの検索 {#look-up-collection}
 
-コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
+コレクションは、オファーのカテゴリなど、marketer によって定義されている事前に定義された条件に基づいて作成されたオファーのサブセットです。
 
-[!DNL Offer Library] API に対してリクエストパスにコレクションの `@id` または名前を含む GET リクエストを実行することで、特定のコレクションを検索できます。
+要求パス内のコレクションの名前またはコレクションの名前を含む `@id` GET 要求を API に [!DNL Offer Library] 対して行うことによって、特定のコレクションを検索することができます。
 
-**API 形式**
+**API フォーマット**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | コレクションが格納されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | コレクションに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Mobile demo` |
+| `id` | エンティティのプロパティを検索 `@id` するために使用されるストリング。 ストリングは正確に一致します。 パラメーター `id` を指定して `name` 、同時に使用することはできません。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | エンティティの xdm: name プロパティを検索するために使用されるストリング。 このストリングは、大文字と小文字が区別されますが、ワイルドカード文字を使用することもできます。 パラメーター `id` を `name` 一緒に使用することはできません。 | `Mobile demo` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X GET \
@@ -45,9 +45,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答**
+**対し**
 
-正常な応答では、コレクションに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のコレクション `@id` に関する情報を含む）が返されます。
+応答が成功した場合は、コンテナ ID、インスタンス ID、および一意のコレクション `@id` に関する情報を含む、配置の詳細が返されます。
 
 ```json
 {

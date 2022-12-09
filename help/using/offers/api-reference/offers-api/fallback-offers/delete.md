@@ -1,6 +1,6 @@
 ---
 title: フォールバックオファーの削除
-description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
+description: 代替オファーが他の特典に適合しない場合は、お客様に送信されます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,28 +8,28 @@ level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 # フォールバックオファーの削除 {#delete-fallback-offer}
 
-場合によっては、フォールバックオファーを削除（DELETE）する必要があります。テナントコンテナで作成したフォールバックオファーのみを削除できます。これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
+場合によっては、フォールバックオファーの削除 (削除) が必要になることがあります。 削除できるのは、テナントコンテナに作成したフォールバックオファーのみです。 そのためには、削除するフォールバックオファーの $id を使用して、API に [!DNL Offer Library] 削除要求を行います。
 
-**API 形式**
+**API フォーマット**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | フォールバックオファーのインスタンス ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | フォールバックが提供されているコンテナーが格納されています。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | フォールバックオファーのインスタンス id。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X DELETE \
@@ -41,8 +41,8 @@ curl -X DELETE \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答**
+**対し**
 
-正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
+応答が成功した場合は、HTTP 状態 202 (内容なし) と空白の本文が返されます。
 
-フォールバックオファーに対して検索（GET）リクエストを実行することで、削除を確認できます。リクエストには Accept ヘッダーを含める必要がありますが、フォールバックオファーがコンテナから削除されたので、HTTP ステータス 404（見つかりません）を受け取ります。
+フォールバックオファーにルックアップ (GET) 要求を実行すると、削除の確認を行うことができます。 この場合は、要求に Accept ヘッダーを含める必要がありますが、フォールバックオファーがコンテナから削除されたので、HTTP ステータス 404 (見つからない) が返されます。

@@ -1,6 +1,6 @@
 ---
 title: Web ページの作成
-description: Journey Optimizer で web ページを作成し、そのコンテンツを編集する方法を学ぶ
+description: Web ページを作成して、そのコンテンツを旅のオプティマイザーで編集する方法について説明します。
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 100%
+source-wordcount: '1045'
+ht-degree: 0%
 
 ---
 
@@ -19,41 +19,41 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->現在、web チャネル機能は、一部のユーザーのみが利用できるベータ版として使用できます。
+>Web チャンネル機能は、現在のところユーザーのみを選択するためのベータ版として提供されています。
 
-[!DNL Journey Optimizer] の web オーサリングは、Adobe Experience Cloud Visual Helper Chrome ブラウザー拡張機能によって動作します。 [詳細情報](visual-editing-helper.md)
+Web オーサリングで [!DNL Journey Optimizer] は、Adobe エクスペリエンスクラウドの視覚的な chrome ブラウザー拡張機能が提供されます。 [詳細情報](visual-editing-helper.md)
 
-[!DNL Journey Optimizer] ユーザーインターフェイスで web ページにアクセスして作成できるようにするには、[この節](create-web.md#prerequesites)に記載されている前提条件に従ってください。
+ユーザーインターフェイスを使用して web ページ [!DNL Journey Optimizer] にアクセスして作成できるようにするには、この節で [ 説明 ](create-web.md#prerequesites) している前提条件に従います。
 
 ## Web ページコンテンツの編集 {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="編集する URL の入力"
->abstract="上記で定義した web サーフェスに適用されるコンテンツの編集に使用する特定の web ページの URL を入力します。Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
+>title="編集する URL を入力します。"
+>abstract="上で定義した web サーフェイス上にある、適用されるコンテンツの編集に使用する特定の web ページの URL を入力します。 この web ページは、Adobe エクスペリエンス Platform Web SDK を使用して実装されている必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="詳細情報"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="編集する URL の入力"
->abstract="ルールに一致するすべてのページに適用されるコンテンツの編集に使用する特定の web ページの URL を入力します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
+>title="編集する URL を入力します。"
+>abstract="ルールに一致するすべてのページに適用されるコンテンツの編集に使用する web ページの URL を入力します。 この web ページは、Adobe エクスペリエンス Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="詳細情報"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
-キャンペーンから web アクションを作成したら、web デザイナーを使用してコンテンツを編集できます。 これを行うには、以下の手順に従います。
+キャンペーンから web アクションを作成すると、web デザイナーを使用してコンテンツを編集できます。 そのためには、次の手順を実行します。
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer] でアクセスするには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target=&quot;_blank&quot;} を使用して web ページを実装する必要があります。
+>で [!DNL Journey Optimizer] アクセスするには、web ページを Adobe エクスペリエンス Platform WEB SDK ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target = &quot;_blank&quot;} を使用して [ 実装する必要があります。
 
-1. キャンペーンの「**[!UICONTROL アクション]**」タブから、「**[!UICONTROL コンテンツを編集]**」を選択して web キャンペーンの作成を開始します。
+1. **[!UICONTROL Action]**&#x200B;キャンペーンのタブから、web キャンペーンのオーサリングを開始するときに選択し **[!UICONTROL Edit content]** ます。
 
-1. ルールに一致するページを作成した場合は、このルールに一致する URL を入力する必要があります。 ルールに一致するすべてのページにこの変更が適用されます。
+1. ページ一致ルールを作成した場合は、このルールに一致するすべての URL を入力する必要があります。 変更は、ルールに一致するすべてのページに適用されます。
 
    >[!NOTE]
    >
-   >Web サーフェスに 1 つの URL を入力した場合、パーソナライズする URL は既に入力されています。
+   >Web サーフェスとして1つの URL を入力した場合は、個人用に設定された URL に既に値が入力されています。
 
    ![](assets/web-edit-enter-url.png)
 
@@ -61,9 +61,9 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;} を含める必要があります。
+   >この web ページには、 [ Adobe 体験プラットフォーム WEB SDK ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target = &quot;_blank&quot;} が含まれている必要があります。
 
-1. 「**[!UICONTROL Web デザイナーを開く]**」をクリックして編集します。[詳細情報](author-web.md)
+1. クリック **[!UICONTROL Open web designer]** して編集します。 [詳細情報](author-web.md)
 
    ![](assets/web-open-designer.png)
 
@@ -71,17 +71,17 @@ ht-degree: 100%
 
    ![](assets/web-designer.png)
 
-1. キャンバスから要素（画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど）を選択します。以下を使用します。
+1. イメージ、ボタン、段落、テキスト、コンテナ、見出し、リンクなど、カンバスからエレメントを選択します。 および使用:
 
-   * コンテンツ、レイアウト、リンクの挿入、パーソナライゼーションなどを編集するためのコンテキストメニュー。
+   * コンテキストメニューでは、コンテンツの編集、レイアウト、リンクやカスタマイズの挿入などを行うことができます。
 
       ![](assets/web-designer-contextual-bar.png)
 
-   * 各要素を編集、複製、削除または非表示にするための、右側パネルの上部にあるアイコン。
+   * 各エレメントを編集、複製、削除、または非表示にするには、右側のパネルの上にアイコンが表示されます。
 
       ![](assets/web-designer-right-panel-icons.png)
 
-   * 選択した要素に応じて動的に変化する右側のパネル。 例えば、要素の背景、テキスト編集、境界線、サイズ、位置、間隔、エフェクトまたはインラインスタイルを編集できます。
+   * 選択されているエレメントに従って、右側のパネルが動的に変化します。 例えば、エレメントの背景、タイポグラフィ、ボーダー、サイズ、位置、スペーシング、エフェクト、インラインスタイルを編集できます。
 
       ![](assets/web-designer-right-panel.png)
 
@@ -89,22 +89,22 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Web ページへのコンテンツコンポーネントの追加"
->abstract="Web ページに多数のコンポーネントを追加し、必要に応じて編集できます。"
+>title="コンテンツコンポーネントの web ページへの追加"
+>abstract="いくつかのコンポーネントを web ページに追加し、必要に応じて編集できます。"
 
-1. 左側の&#x200B;**[!UICONTROL コンポーネント]**&#x200B;パネルでは、次のコンポーネントを web ページに追加し、必要に応じて編集できます。
+1. **[!UICONTROL Components]**&#x200B;左側のペインで、次のコンポーネントを必要に応じて web ページに追加し、編集することができます。
 
-   * [ディバイダー](../email/content-components.md#divider)
-   * [HTML](../email/content-components.md#HTML)
-   * [画像](../email/content-components.md#image)
-   * 見出し - このコンポーネントを使用することは、電子メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。 [詳細情報](../email/content-components.md#text)
-   * 段落 - このコンポーネントを使用することは、電子メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
-   * リンク - [この節](../email/styling-links.md)でリンクスタイルを定義する方法を説明します
-   * [オファーの決定](../email/add-offers-email.md)
+   * [境界](../email/content-components.md#divider)
+   * [.HTML](../email/content-components.md#HTML)
+   * [絵](../email/content-components.md#image)
+   * 見出し-このコンポーネントは、電子メールデザイナーでのコンポーネントの **[!UICONTROL Text]** 使用と似ています。 [詳細情報](../email/content-components.md#text)
+   * 段落-このコンポーネントは、電子メールデザイナーでのコンポーネントの **[!UICONTROL Text]** 使用と似ています。 [詳細情報](../email/content-components.md#text)
+   * Link-このセクションの [ リンクスタイルを定義する方法を説明します。](../email/styling-links.md)
+   * [特典の決定](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
-1. ページにポインタを置いて、「**[!UICONTROL 前に挿入]**」または「**[!UICONTROL 後ろに挿入]**」ボタンをクリックして、コンポーネントをページ上の既存の要素に追加します。
+1. ページ上でマウスポインターを移動し、または **[!UICONTROL Insert after]** ボタンをクリック **[!UICONTROL Insert before]** して、コンポーネントをページ上の既存のエレメントに追加します。
 
    ![](assets/web-designer-insert-components.png)
 
@@ -112,44 +112,44 @@ ht-degree: 100%
 
    ![](assets/web-designer-edit-html.png)
 
-1. 右側の&#x200B;**[!UICONTROL コンテナ]**&#x200B;パネルから表示されるスタイル（背景、テキストカラー、境界線、サイズ、位置など）を調整します。選択したコンポーネントによって異なります。
+1. 表示される右側のペインに表示 **[!UICONTROL Container]** されるスタイル (背景、テキストカラー、ボーダー、サイズ、配置など) を調整します。 選択されているコンポーネントによって異なります。
 
    ![](assets/web-designer-html-style.png)
 
-## Web デザイナー内での移動
+## Web デザイナーの操作
 
-### パンくずリストの使用
+### ブレッドクラムの使用
 
-1. キャンバスから任意の要素を選択します。
+1. カンバスからエレメントを選択します。
 
-1. 画面の左下に表示される「**[!UICONTROL パンくずリストを展開／折りたたむ]**」ボタンをクリックすると、選択した要素に関する情報をすばやく表示します。
+1. **[!UICONTROL Expand/Collapse Breadcrumbs]**&#x200B;画面の左下にあるボタンをクリックすると、選択したエレメントについての情報が素早く表示されます。
 
    ![](assets/web-designer-breadcrumbs.png)
 
-1. パンくずリストにポインタを合わせると、エディターで対応する要素がハイライト表示されます。
+1. ブレッドクラムの上にマウスポインターを置くと、対応するエレメントがエディター内でハイライト表示されます。
 
-1. これを使用すると、ビジュアルエディター内で任意の親要素、兄弟要素または子要素に簡単に移動できます。
+1. このファイルを使用すると、ビジュアルエディター内の任意の親、兄弟、子エレメントに簡単に移動できます。
 
-### 参照モードにスワップ {#browse-mode}
+### ブラウズモードに切り替え {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="参照モードの使用"
->abstract="このモードでは、パーソナライズする選択したサーフェスから該当するページに移動できます。"
+>title="ブラウズモードの使用"
+>abstract="このモードでは、選択したサーフェスのうち、個人用に設定したいページに移動することができます。"
 
-専用ボタンを使用して、デフォルトの&#x200B;**[!UICONTROL デザイン]**&#x200B;モードから&#x200B;**[!UICONTROL 参照]**&#x200B;モードにスワップします。
+専用ボタンを使用して、初期設定 **[!UICONTROL Design]** モードからモードに **[!UICONTROL Browse]** 切り替えることができます。
 
 ![](assets/web-designer-browse-mode.png)
 
-**[!UICONTROL 参照]**&#x200B;モードでは、パーソナライズする選択したサーフェスから該当するページに移動できます。
+**[!UICONTROL Browse]**&#x200B;このモードでは、選択したサーフェスのうち、個人用に設定したいページに移動することができます。
 
-これは、認証の後のページや、特定の URL で最初から使用できないページを処理する場合に特に便利です。例えば、認証を行い、アカウントページや買い物かごページに移動して、**[!UICONTROL デザイン]**&#x200B;モードに戻り、目的のページで変更を実行できます。
+これは特に、認証の背後にあるページ、または特定の URL から開始されていないページを処理する場合に便利です。 例えば、認証を行ったり、アカウントページまたはカートページに移動してから、目的のページに変更を加えるためにモードに **[!UICONTROL Design]** 戻ることができます。
 
 ### デバイスサイズの変更
 
-デバイスのサイズは、事前定義済みのサイズ（「**[!UICONTROL タブレット]**」または「**[!UICONTROL モバイル (横置き)]**」など）に変更するか、カスタムサイズを定義できます。目的のピクセルの数値を入力して、カスタムサイズを定義します。
+デバイスのサイズは、や **[!UICONTROL Mobile landscape]** などの事前定義されたサイズ **[!UICONTROL Tablet]** に変更するか、またはカスタムサイズを定義することができます。目的のサイズを定義するために必要なピクセル数を入力します。
 
-また、ズームフォーカスを 25％から 400％に変更することもできます。
+ズームの影響を25% から400% に変更することもできます。
 
 ![](assets/web-designer-device.png)
 
@@ -157,38 +157,38 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="すべての変更を簡単に管理"
->abstract="このパネルを使用すると、web ページに追加したすべての調整とスタイルを移動して管理できます。"
+>title="すべての変更を簡単に管理できます。"
+>abstract="このウィンドウを使用して、web ページに追加したすべての調整とスタイルをナビゲートして管理することができます。"
 
-Web ページに追加したすべてのコンポーネント、調整およびスタイルを簡単に管理できます。
+Web ページに追加したすべてのコンポーネント、調整、およびスタイルを簡単に管理することができます。
 
-1. 「**[!UICONTROL 変更]**」ボタンを選択して、対応するパネルを左側に表示します。
+1. **[!UICONTROL Modifications]**&#x200B;ボタンを選択すると、対応するペインが左側に表示されます。
 
    ![](assets/web-designer-modifications-pane.png)
 
-1. ページに加えた各変更を確認できます。
+1. ページに加えた各変更を確認することができます。
 
-1. 不要な変更を選択し、削除アイコンをクリックして削除します。
+1. 不要な修正を選択し、削除アイコンをクリックして削除します。
 
    ![](assets/web-designer-modifications-delete.png)
 
    >[!CAUTION]
    >
-   >アクションを削除する場合は後続のアクションに影響する可能性があるので、慎重に作業を進めてください。
+   >後続のアクションに影響する可能性があるので、操作を削除するときは注意してください。
 
-1. 画面の右上にある&#x200B;**[!UICONTROL 取り消し／やり直し]**&#x200B;ボタンを使用して、アクションをキャンセルおよびやり直すこともできます。
+1. 画面の右上にあるボタンを使用して **[!UICONTROL Undo/Redo]** 、操作を取り消したりやり直したりすることもできます。
 
    ![](assets/web-designer-undo-redo.png)
 
-   「**[!UICONTROL 取り消し]**」オプションと「**[!UICONTROL やり直し]**」オプションを切り替えるには、ボタンをクリックしたままにします。次に、ボタン自体をクリックして、目的のアクションを適用します。
+   ボタンをクリックしたままにして、 **[!UICONTROL Undo]** オプションと **[!UICONTROL Redo]** オプションを切り替えます。 目的のアクションを適用するには、ボタン自体をクリックします。
 
-## パーソナライゼーションとオファーの追加
+## 個人用設定とキャンペーンの追加
 
-パーソナライゼーションを追加するには、コンテナを選択し、表示されるコンテキストメニューバーからパーソナライゼーションアイコンを選択します。 式エディターを使用して、変更を追加します。[詳細情報](../personalization/personalization-build-expressions.md)
+パーソナル化を追加するには、コンテナを選択し、表示されるコンテキストメニューバーから「パーソナル化」アイコンを選択します。 式エディターを使用して、変更を追加します。 [詳細情報](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
-**[!UICONTROL オファーの決定]**&#x200B;コンポーネントを使用し、web ページに[オファー](../offers/get-started/starting-offer-decisioning.md)を挿入します。プロセスは、[メールへのオファーの追加](../email/add-offers-email.md)の場合と同じです。意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
+コンポーネントを使用して、 **[!UICONTROL Offer decision]** web ページにオファー ](../offers/get-started/starting-offer-decisioning.md) を挿入 [ します。この処理は、電子メール ](../email/add-offers-email.md) にオファーを追加する場合 [ と同じです。意思決定管理を活用して、お客様に提供する最適なオファーを選択します。
 
 ![](assets/web-designer-offer.png)
 
@@ -196,22 +196,22 @@ Web ページに追加したすべてのコンポーネント、調整および�
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="Web エクスペリエンスのプレビュー"
->abstract="Web エクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
+>title="Web 体験版のプレビュー"
+>abstract="Web の操作について、シミュレーションを行います。"
 
-変更した web エクスペリエンスのプレビューを表示するには、次の手順に従います。
+変更した web 体験のプレビューを表示するには、次の手順を実行します。
 
 >[!CAUTION]
 >
->どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法について説明します。
+>これらのサービスに配信されるサービスをシミュレートするには、使用可能なテストプロファイルが必要になります。 テストプロファイル ](../segment/creating-test-profiles.md) の作成方法に [ ついて説明します。
 
-1. **[!UICONTROL コンテンツを編集]**&#x200B;画面または web デザイナーから、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
+1. **[!UICONTROL Edit content]**&#x200B;画面または web デザイナーから、を選択 **[!UICONTROL Simulate content]** します。
 
    ![](assets/web-designer-simulate.png)
 
-1. 「**[!UICONTROL テストプロファイルを管理]**」をクリックして、1 つ以上のテストプロファイルを選択します。
+1. 1つまたは複数のテストプロファイルをクリック **[!UICONTROL Manage test profiles]** して選択します。
 1. 変更した web ページのプレビューが表示されます。
 
    ![](assets/web-designer-preview.png)
 
-1. テスト URL をコピーして任意のブラウザーに貼り付けたり、デフォルトのブラウザーで開いたりすることもできます。
+1. テスト URL をコピーして任意のブラウザーにペーストしたり、初期設定のブラウザーで開いたりすることもできます。

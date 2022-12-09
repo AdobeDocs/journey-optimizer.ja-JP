@@ -1,38 +1,38 @@
 ---
 product: journey optimizer
 title: distinctWithNull
-description: distinctWithNull 関数について説明します
+description: 関数の distinctWithNull について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-指定されたリストのユニークな値またはオブジェクトを返します。リストに null エントリが少なくとも 1 つ含まれる場合、返されるリストに null エントリが含まれます。
+指定されたリストの個別の値またはオブジェクトを返します。 リストに null エントリが少なくとも1つある場合は、返されるリストに null エントリが含まれています。
 
-## カテゴリ
+## 項目
 
-リスト
+一連
 
-## 関数の構文
+## 関数のシンタックス
 
 `distinctWithNull(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ | 説明 |
+| 指定 | 入力 | つい |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照にする必要があります。 |
-| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
+| listToProcess | listString、Liststring、Liststring、Liststring、Liststring、Liststring、listDateTimeOnly、listDateOnly、または listObject | リストが処理されます。 ListObject の場合、フィールド参照である必要があります。 |
+| keyAttributeName | 値 | このパラメーターはオプションであり、listObject に対してのみ使用されます。 このパラメーターを指定しないと、すべての属性の値が同じである場合に、オブジェクトが重複していると見なされます。 それ以外の場合は、指定された属性の値が同じであれば、オブジェクトが重複していると見なされます。 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `distinctWithNull(<listInteger>)`
 
@@ -40,19 +40,19 @@ ht-degree: 100%
 
 `distinctWithNull(<listDecimal>)`
 
-小数のリストを返します。
+小数点のリストを返します。
 
 `distinctWithNull(<listString>)`
 
-文字列のリストを返します。
+ストリングのリストを返します。
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-タイムゾーンを考慮しない日時のリストを返します。
+Datetimes のリストを返します。この場合、タイムゾーンは考慮しません。
 
 `distinctWithNull(<listDateTime>)`
 
-日時のリストを返します。
+Datetimes のリストを返します。
 
 `distinctWithNull(<listDateOnly>)`
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 `distinctWithNull(<listDuration>)`
 
-期間のリストを返します。
+デュレーションのリストを返します。
 
 `distinctWithNull(<listObject>)`
 
@@ -76,4 +76,4 @@ ht-degree: 100%
 
 `distinctWithNull([10,2,10,null])`
 
-[10, 2, null] を返します。
+10、2、null を返します [ 。]

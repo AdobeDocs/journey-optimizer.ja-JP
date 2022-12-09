@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーの公開
-description: ジャーニーの公開方法を学ぶ
+title: 旅のパブリッシュ
+description: 旅をパブリッシュする方法を学習します。
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,29 +11,29 @@ exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# ジャーニーの公開{#publishing-the-journey}
+# 旅のパブリッシュ{#publishing-the-journey}
 
-ジャーニーは、有効性をテストした後で公開できます。
+妥当性をテストした後で、フライトをパブリッシュすることができます。
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [ ビデオでのこの機能の検出](#video)
 
-公開済みのジャーニーに変更を加える必要がある場合は、ジャーニーの新しいバージョンを作成する必要があります。[このページ](../building-journeys/journey.md)を参照してください。ジャーニーが読み取り専用の場合、変更できるのはアクティビティのラベルと説明、ジャーニーの名前およびジャーニーの説明のみです。
+パブリッシュされた旅に変更を加える必要がある場合は、新しいバージョンの旅を作成する必要があります。 このページ ](../building-journeys/journey.md) を参照してください [ 。書き込みが読み取り専用である場合は、アクティビティーラベルと説明、その旅の名前、および旅の説明のみを修正できます。
 
-ジャーニーを停止すると、そのジャーニーは完全に停止します。ジャーニーを進むすべての人は完全に停止し、ジャーニーは新規エントリの許可を停止します。ジャーニーを再び使用する必要がある場合は、複製して公開する必要があります。
+このような場合は、完全に停止されます。 このような旅に流れている人々はすべて永久的に停止され、その旅は停止し、新入り口は停止します。 この旅をもう一度使用する必要がある場合は、複製してパブリッシュする必要があります。
 
-1. ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。また、公開前にジャーニーをテストすることもお勧めします。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
-1. ジャーニーを公開するには、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションをクリックします。
+1. 旅を公開する前に、それが有効であり、エラーが発生していないことを確認してください。 エラーが発生しても、旅をパブリッシュすることはできません。 この項 ](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) を参照してください [ 。また、公開前の旅もテストすることをお勧めします。 このページ ](../building-journeys/testing-the-journey.md) を参照してください [ 。
+1. 旅を公開するには、右上のドロップダウンメニューにあるオプションをクリックし **[!UICONTROL Publish]** ます。
 
    ![](assets/journeyuc1_18.png)
 
-ジャーニーが公開されると、読み取り専用モードになります。
+この旅が公開されると、読み取り専用モードになります。
 
-## ハウツービデオ {#video}
+## 操作方法のビデオ {#video}
 
-ジャーニーの公開方法を学びます。
+ここでは、旅を公開する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334238?quality=12)

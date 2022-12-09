@@ -1,6 +1,6 @@
 ---
-title: フォールバックオファーの検索
-description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
+title: ルックアップフォールバックが提供されます。
+description: 代替オファーが他の特典に適合しない場合は、お客様に送信されます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,29 +9,29 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# フォールバックオファーの検索 {#look-up-fallback-offers}
+# 「予備製品の検索」 {#look-up-fallback-offers}
 
-[!DNL Offer Library] API に対してリクエストパスにフォールバックオファーの `@id` または名前を含める GET リクエストを実行することで、特定のフォールバックオファーを検索できます。
+特定のフォールバックオファーを検索するには、「フォールバックオファー `@id` 」または「要求パス内の代替表示 [!DNL Offer Library] の名前が含まれているかどうかを指定します。
 
-**API 形式**
+**API フォーマット**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_OFFER}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | フォールバックが提供されているコンテナーが格納されています。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | フォールバックオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `F1: Web fallback` |
+| `id` | エンティティのプロパティを検索 `@id` するために使用されるストリング。 ストリングは正確に一致します。 パラメーター `id` を指定して `name` 、同時に使用することはできません。 | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | エンティティの xdm: name プロパティを検索するために使用されるストリング。 このストリングは、大文字と小文字が区別されますが、ワイルドカード文字を使用することもできます。 パラメーター `id` を `name` 一緒に使用することはできません。 | `F1: Web fallback` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X GET \
@@ -43,9 +43,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**応答**
+**対し**
 
-正常な応答では、フォールバックオファーに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のフォールバックオファー `@id` に関する情報を含む）が返されます。
+応答が成功した場合は、コンテナ ID、インスタンス ID、および一意のフォールバックオファー `@id` に関する情報を含む、配置の詳細が返されます。
 
 ```json
 {

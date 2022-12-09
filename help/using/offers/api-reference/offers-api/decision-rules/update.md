@@ -1,6 +1,6 @@
 ---
 title: 決定ルールの更新
-description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
+description: 決定ルールとは、パーソナライズされた申し出に追加され、プロファイルに適用されて、適格性を決定することです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,39 +8,39 @@ level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
 # 決定ルールの更新 {#update-decision-rule}
 
-[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内の決定ルールを変更または更新できます。
+API に [!DNL Offer Library] 修正プログラムを適用することによって、コンテナ内の decision ルールを変更または更新することができます。
 
-使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
+使用可能な操作を含む JSON 修正プログラムについて詳しくは、オフィシャル [ Json 修正プログラムのマニュアル ](http://jsonpatch.com/) を参照してください。
 
-## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
 
-| ヘッダー名 | 値 |
+| ヘッダー名 | 数値 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| コンテンツタイプ | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
-**API 形式**
+**API フォーマット**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 更新する決定ルールのインスタンス ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{INSTANCE_ID}` | 更新するデシジョンルールのインスタンス id です。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X PATCH \
@@ -60,15 +60,15 @@ curl -X PATCH \
     ]'
 ```
 
-| パラメーター | 説明 |
+| 指定 | つい |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove` があります。 |
-| `path` | 更新するパラメーターのパス。 |
-| `value` | パラメーターの更新に使用する新しい値。 |
+| `op` | 接続を更新するために必要なアクションを定義するために使用される操作呼び出し。 次のような操作を `remove` `replace` 実行できます。 `add` |
+| `path` | 更新するパラメーターのパスを指定します。 |
+| `value` | パラメーターを更新する新しい値を指定します。 |
 
-**応答**
+**対し**
 
-正常な応答では、決定ルールの更新された詳細（一意のインスタンス ID と決定ルール `@id` を含む）が返されます。
+応答が成功した場合は、一意のインスタンス ID と決定規則 `@id` を含む、決定規則の更新された詳細が返されます。
 
 ```json
 {

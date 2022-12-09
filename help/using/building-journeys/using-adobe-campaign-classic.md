@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Campaign v7／v8 のアクション
-description: Adobe Campaign v7／v8 のアクションについて説明します
+title: Adobe キャンペーン v7/v8 アクション
+description: Adobe キャンペーン v7/v8 アクションについて
 feature: Actions
 topic: Administration
 role: Admin
@@ -11,22 +11,22 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Adobe Campaign v7／v8 のアクション {#using_campaign_classic}
+# Adobe キャンペーン v7/v8 アクション {#using_campaign_classic}
 
-統合は、Adobe Campaign v7 または v8 がある場合に使用できます。これにより、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
+Adobe キャンペーン v7 または v8 を使用している場合は、統合されています。 この機能を使用すると、Adobe キャンペーンのトランザクションメッセージ機能を使用して、電子メール、プッシュ通知、SMS を使用して電子メールを送信できます。
 
-Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。アドビにご連絡ください。
+このように、旅オプティマイザーとキャンペーンインスタンス間の接続は、準備時にアドビシステムズ社によって設定されています。 アドビシステムズ社の担当者にお問い合わせください。
 
-これを機能させるには、専用のアクションを設定する必要があります。[この節](../action/acc-action.md)を参照してください。
+これを機能させるには、専用のアクションを設定する必要があります。 この [ 項 ](../action/acc-action.md) を参照してください。
 
-エンドツーエンドのユースケースについては、この[節](../building-journeys/ajo-ac.md)を参照してください。
+この [ 節 ](../building-journeys/ajo-ac.md) では、エンドツーエンドのユースケースについて説明します。
 
-1. イベントから始めて、ジャーニーを設計します。この[節](../building-journeys/journey.md)を参照してください。
-1. パレットの「**アクション**」セクションで、Campaign アクションを選択してジャーニーに追加します。
-1. **アクションパラメーター**&#x200B;には、メッセージペイロードで想定されるすべてのフィールドが表示されます。これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。これはカスタムアクションと似ています。[この節](../building-journeys/using-custom-actions.md)を参照してください。
+1. イベントから開始して、旅をデザインします。 この [ 項 ](../building-journeys/journey.md) を参照してください。
+1. **「パレット」の「アクション** 」セクションで、キャンペーンアクションを選択して、旅に追加します。
+1. **アクションパラメーター** では、メッセージペイロードに必要なすべてのフィールドが表示されます。イベントまたはデータソースのいずれかを使用して、使用するフィールドにこれらのフィールドをマップする必要があります。 これは、カスタムアクションに似ています。 この [ 項 ](../building-journeys/using-custom-actions.md) を参照してください。
 
 ![](assets/accintegration2.png)

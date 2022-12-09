@@ -1,6 +1,6 @@
 ---
 title: アプリ内設定
-description: Journey Optimizer でアプリ内メッセージを送信するように環境を設定する方法を学ぶ
+description: 旅のオプティマイザーによってアプリケーション内のメッセージを送信する環境を設定する方法について説明します。
 role: Admin
 level: Intermediate
 hide: true
@@ -8,66 +8,66 @@ hidefromtoc: true
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
-# アプリ内チャネルの設定 {#inapp-configuration}
+# アプリ内チャンネルの設定 {#inapp-configuration}
 
-アプリ内メッセージを送信する前に、[!DNL Adobe Experience Platform Data Collection] でアプリ内チャネルを設定する必要があります。
+アプリ内メッセージを送信する前に、で [!DNL Adobe Experience Platform Data Collection] アプリ内チャンネルを設定する必要があります。
 
-1. お使いの [!DNL Adobe Experience Platform Data Collection] アカウントから、**[!UICONTROL データストリーム]**&#x200B;メニューにアクセスし、**[!UICONTROL 新しいデータストリーム]**&#x200B;をクリックします。データストリーム作成について詳しくは、[このページ](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams)を参照してください。
+1. アカウントを使用 [!DNL Adobe Experience Platform Data Collection] してメニューに **[!UICONTROL Datastream]** アクセスし、をクリック **[!UICONTROL New datastream]** します。 データストリームの作成について詳しくは、このページ ](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams) を [ 参照してください。
 
-1. [!DNL Adobe Experience Platform] サービスを選択します。 
+1. [!DNL Adobe Experience Platform]サービスを選択します。
 
-   [!DNL Edge Segmentation]、[!DNL Offer Decisioning] および [!DNL Adobe Journey Optimizer] を選択する必要があります。
+   [!DNL Edge Segmentation]、 [!DNL Offer Decisioning] は選択されて [!DNL Adobe Journey Optimizer] いる必要があります。
 
    ![](assets/inapp_config_6.png)
 
-1. 次に、**[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスして、「**[!UICONTROL アプリサーフェスを作成]**」をクリックします。
+1. メニューにアクセス **[!UICONTROL App surfaces]** し、をクリック **[!UICONTROL Create App surface]** します。
 
    ![](assets/inapp_config_1.png)
 
-1. **[!UICONTROL アプリサーフェス]**&#x200B;に名前を追加します。
+1. に **[!UICONTROL App surface]** 名前を付けることができます。
 
-1. Apple iOS ドロップダウンで、**iOS バンドル ID** を入力します。**バンドル ID** について詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)を参照してください。
+1. アップル iOS のドロップダウンリストから、iOS バンドル ID **を入力** します。バンドル ID **に** ついて詳しくは、Apple のマニュアル ](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) を [ 参照してください。
 
    ![](assets/inapp_config_2.png)
 
-1. Android ドロップダウンで、**Android パッケージ名**&#x200B;を入力します。**パッケージ名**&#x200B;について詳しくは、[Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=ja#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores)を参照してください。
+1. 「Android」ドロップダウンで、android パッケージ名 **を入力** します。パッケージ名 **に** ついて詳しくは、Android のマニュアル ](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) を [ 参照してください。
 
-1. **[!UICONTROL アプリサーフェス]**&#x200B;の設定が完了したら、「**[!UICONTROL 保存]**」をクリックします。
+1. の **[!UICONTROL App surface]** 設定が終了したら、「」をクリックし **[!UICONTROL Save]** ます。
 
    ![](assets/inapp_config_3.png)
 
-   アプリ内メッセージを含む新しいキャンペーンを作成する際に、**[!UICONTROL アプリサーフェス]**&#x200B;を使用できるようになりました。 [詳細情報](create-in-app.md)
+   アプリ内メッセージを使用して新しいキャンペーンを作成すると、 **[!UICONTROL App surface]** が使用できるようになります。 [詳細情報](create-in-app.md)
 
-1. アプリサーフェスを作成したら、モバイルプロパティを作成する必要があります。
+1. アプリケーションサーフェイスを作成した後で、モバイルプロパティを作成する必要があります。
 
-   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ja#for-mobile)を参照してください。
+   詳細な手順については、このページ ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) を [ 参照してください。
 
    ![](assets/inapp_config_4.png)
 
-1. 新しく作成したプロパティの拡張機能メニューから、次の拡張機能をインストールします。
+1. 新しく作成したプロパティの拡張機能メニューに、次の拡張機能がインストールされています。
 
-   * Adobe Experience Platform Edge Network
-   * Adobe Journey Optimizer
-   * AEP Assurance
+   * Adobe エクスペリエンスプラットフォームエッジネットワーク
+   * Adobe 旅のオプティマイザー
+   * AEP 保証
    * 同意
-   * ID
-   * Mobile Core
-   * プロファイル
+   * 検出
+   * モバイルコア
+   * 薄型
 
-   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja#add-a-new-extension)を参照してください。
+   詳細な手順については、このページ ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) を [ 参照してください。
 
    ![](assets/inapp_config_5.png)
 
-アプリ内チャネルが設定されました。 ユーザーへのアプリ内メッセージの送信を開始できます。
+アプリ内チャンネルが設定されました。 では、ユーザーにアプリ内メッセージを送信することができます。
 
-**関連トピック：**
+**関連トピック:**
 
-* [アプリ内メッセージの作成 ](create-in-app.md)
+* [アプリ内メッセージの作成](create-in-app.md)
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](inapp-report.md)

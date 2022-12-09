@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 購読者へのメッセージの送信
-description: ジャーニーを作成してリスト上の購読者にメッセージを送信する方法を説明します
+title: メッセージをサブスクライバーに送信する
+description: リストのサブスクライバーにメッセージを送信するための旅を作成する方法について説明します。
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,48 +10,48 @@ level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
-# ユースケース：リストの登録者に対するメッセージの送信{#send-a-message-to-the-subscribers-of-a-list}
+# 使用例: リストのサブスクライバーにメッセージを送信します。{#send-a-message-to-the-subscribers-of-a-list}
 
-このユースケースの目的は、ジャーニーを作成してリスト上の購読者にメッセージを送信することです。
+この例では、リストのサブスクライバーにメッセージを送信するための旅を作成することを目的としています。
 
-この例では、[!DNL Adobe Experience Platform] の「**[!UICONTROL 同意と環境設定の詳細]**」フィールドグループを使用します。このフィールドグループを見つけるには、 **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択します。「**[!UICONTROL フィールドグループ]**」タブで、検索フィールドにフィールドグループの名前を入力します。
+次の例では、の [!DNL Adobe Experience Platform] フィールドグループが使用されて **[!UICONTROL Consent and Preference Details]** います。このフィールドグループを検索するには、メニューから **[!UICONTROL Data Management]** 「」を選択 **[!UICONTROL Schemas]** します。 **[!UICONTROL Field groups]**「」タブで、「検索」フィールドにフィールドグループの名前を入力します。
 
-![このフィールドグループにはサブスクリプション要素が含まれています](assets/consent-and-preference-details-field-group.png)
+![このフィールドグループには、購読エレメントが含まれています。](assets/consent-and-preference-details-field-group.png)
 
-このジャーニーを設定するには、次の手順に従います。
+このような旅を設定するには、次の手順を実行します。
 
-1. **[!UICONTROL 読み取り]**&#x200B;アクティビティで始まるジャーニーを作成します。[詳細情報](journey-gs.md)
-1. **[!UICONTROL メール]**&#x200B;アクションアクティビティをジャーニーに追加します。[詳細情報](journeys-message.md)。
-1. **[!UICONTROL メール]**&#x200B;アクティビティ設定の「**[!UICONTROL メールパラメーター]**」セクションで、デフォルトのメールアドレス（`PersonalEmail.adress`）をリスト上の購読者のメールアドレスに置き換えます。
+1. アクティビティから始まる **[!UICONTROL Read]** 旅を作成します。 [詳しく ](journey-gs.md) は、こちらを参照してください。
+1. **[!UICONTROL Email]**&#x200B;旅にアクションアクティビティを追加します。[詳しく ](journeys-message.md) は、こちらを参照してください。
+1. **[!UICONTROL Email parameters]**&#x200B;アクティビティ設定の **[!UICONTROL Email]** セクションで、デフォルトの電子メールアドレス ( `PersonalEmail.adress` ) をリスト購読者の電子メールアドレスに置き換えます。
 
-   1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
+   1. **[!UICONTROL Enable parameter override]**&#x200B;フィールドの **[!UICONTROL Address]** 右側にあるアイコンをクリックしてから、 **[!UICONTROL Edit]** アイコンをクリックします。
 
       ![](assets/message-to-subscribers-uc-1.png)
 
-   1. 式エディターで、購読者のメールアドレスを取得する式を入力します。[詳細情報](expression/expressionadvanced.md)
+   1. 式エディターに、サブスクライバーの電子メールアドレスを取得するための式を入力します。 [詳しく ](expression/expressionadvanced.md) は、こちらを参照してください。
 
-      この例では、マップフィールドへの参照を含む式を示しています。
+      次の例は、マップフィールドへの参照を含む式を示しています。
 
       ```json
       #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
       ```
 
-      この例では、次の関数が使用されています。
+      次の例では、これらの関数を使用しています。
 
-      | 関数 | 説明 | 例 |
+      | 関数 | つい | 一 |
       | --- | --- | --- |
-      | `entry` | 選択した名前空間に従ってマップ要素を参照します | 特定のサブスクリプションリストを参照します |
-      | `firstEntryKey` | マップの最初のエントリキーを取得します | 購読者の最初のメールアドレスを取得します |
+      | `entry` | 選択された名前空間に従い、マップエレメントを参照します。 | 特定の購読リストの参照 |
+      | `firstEntryKey` | マップの1番目のエントリキーを取得します。 | サブスクライバーの最初の電子メールアドレスを取得します。 |
 
-      この例では、サブスクリプションリストの名前は `daily-email` です。メールアドレスは、`subscribers` マップでキーとして定義されています。このマップはサブスクリプションリストマップにリンクされています。
+      この例では、購読リストにはという名前が付け `daily-email` られています。 電子メールアドレスは、購読リストマップにリンクされたマップ内の `subscribers` キーとして定義されます。
 
-      式におけるフィールドへの参照について詳しくは、[こちら](expression/field-references.md)を参照してください。
+      式のフィールド ](expression/field-references.md) の参照について詳しくは、こちらを参照して [ ください。
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. **[!UICONTROL 式を追加]**&#x200B;ダイアログボックスで「**[!UICONTROL OK]**」をクリックします。
+   1. **[!UICONTROL Add an expression]**&#x200B;ダイアログボックスで、をクリック **[!UICONTROL Ok]** します。

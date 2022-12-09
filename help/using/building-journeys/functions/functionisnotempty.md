@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: isNotEmpty
-description: isNotEmpty 関数について説明します
+description: 関数 isNotEmpty について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,38 +9,38 @@ exl-id: 654d0e3d-10d9-4a40-b9be-7979c08e0e97
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # isNotEmpty {#isNotEmpty}
 
-パラメーター内の文字列が空でない場合、true を返します。
+パラメーターのストリングが空でない場合は、true を返します。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `isNotEmpty(<parameters>)`
 
 ## パラメーター
 
-* 文字列
+* 値
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `isNotEmpty(<string>)`
 
 ブール値を返します。
 
-## 例
+## 一
 
 `isNotEmpty("")`
 
-false を返します。
+False を返します。
 
 `isNotEmpty("hello")`
 
-true を返します。
+True を返します。

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer での Assets Essentials の使用
-description: Assets Essentials の基本を学ぶ
+title: 「その他のアセット」の基礎となるオプティマイザーについて
+description: アセットの基礎について入門
 feature: Overview
 topic: Content Management
 role: User
@@ -10,75 +10,75 @@ level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 90%
+source-wordcount: '426'
+ht-degree: 0%
 
 ---
 
-# アセットの作成と管理（[!DNL Assets Essentials] を使用）{#experience-manager-assets}
+# でのアセットの作成と管理 [!DNL Assets Essentials]{#experience-manager-assets}
 
-## [!DNL Assets Essentials] の基本を学ぶ {#get-started-assets-essentials}
+## での作業の開始 [!DNL Assets Essentials] {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets Essentials] を使用してマーケティングワークフローとクリエイティブワークフローを統合します。[!DNL Adobe Journey Optimizer] とネイティブに統合され、[!DNL Assets Essentials] へアクセスして、デジタルアセットの保存、管理、検出、配布を行います。メッセージの入力に使用できる、アセットの一元的なリポジトリを提供します。
+を使用して、マーケティングおよびクリエイティブなワークフローを [!DNL Adobe Experience Manager Assets Essentials] 統合できます。 ネイティブに統合 [!DNL Adobe Journey Optimizer] され、デジタルアセットの保存、管理、検索および distributee にアクセス [!DNL Assets Essentials] できます。 これによって、メッセージを作成するために使用できるアセットが一元的に格納されます。
 
-[!DNL Adobe Experience Manager Assets Essentials] は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に統合するために共同作業できる、一元化されたアセットワークスペースです。承認済みの実稼動アセットを簡単に整理、タグ付け、検索して、チーム間でブランドの一貫性を確保できます。直感的なユーザーエクスペリエンスによって、[!DNL Assets Essentials] を使用すれば、Adobe Creative アプリや Experience Cloud アプリ内でアセットをすぐに共有できます。
+[!DNL Adobe Experience Manager Assets Essentials] は、コラボレーティブな一元化されたアセットを使用して、クリエイティブシステムを拡張し、デジタルアセットを利用した経験により統合します。 承認された生産アセットの整理、タグ付け、検索が容易に行えるようになりました。 直観的なユーザーエクスペリエンスを利用 [!DNL Assets Essentials] すれば、Adobe Creative でアセットを共有したり、クラウドアプリを体験したりすることができます。
 
-詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+Adobe Experience Manager アセット Essentials マニュアル ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) の詳細については、{target = &quot;_blank 「}」を [ 参照してください。
 
-[!DNL Adobe Experience Manager Assets Essentials] は左メニューの「**[!UICONTROL アセット]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。また、[メールのコンテンツをデザイン](get-started-email-design.md)する際に、アセットやフォルダーにアクセスすることもできます。
+[!DNL Adobe Experience Manager Assets Essentials]左のメニュー **[!UICONTROL Assets]** セクションから [!DNL Adobe Journey Optimizer] 直接アクセスすることができます。電子メールコンテンツ ](get-started-email-design.md) をデザインするときに、アセットやフォルダーに [ アクセスすることもできます。
 
-## 前提条件{#assets-prerequisites}
+## 知識{#assets-prerequisites}
 
- [!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+を使用 [!DNL Adobe Experience Manager Assets Essentials] する前に、「アセット Essentials コンシューマーユーザー **」または** 「アセット essentials ユーザー **」製品プロファイルにユーザーを** 追加する必要があります。アセットの基礎ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) の詳細を [ 確認 {target = &quot;_blank&quot;}。
 
 >[!NOTE]
->2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} の節をご覧ください。
+>2022年1月6日より前に購入した、旅オプティマイザー製品については、組織で展開 [!DNL Adobe Experience Manager Assets Essentials] する必要があります。 詳しくは、アセットの展開の要点 ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target = &quot;_blank&quot;} セクションを参照して [ ください。
 
 ## アセットのアップロードと挿入{#add-asset}
 
-ファイルを [!DNL Assets Essentials] にインポートするには、まず保存先のフォルダーを参照または作成する必要があります。その後、メールコンテンツに挿入できます。
+に [!DNL Assets Essentials] ファイルを読み込むには、まず保存先のフォルダーを参照するか、作成する必要があります。 これにより、そのコンテンツを電子メールコンテンツに挿入できるようになります。
 
-アセットのアップロード方法について詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+アセットをアップロードする方法について詳しくは、Adobe Experience Manager アセット Essentials マニュアル ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html) {target = &quot;_blank&quot;} を [ 参照してください。
 
-1. [!DNL Adobe Journey Optimizer] のホームページから、**[!UICONTROL コンテンツ管理]**&#x200B;メニュー配下の「**[!UICONTROL Assets]**」タブを選択して [!DNL Assets Essentials] にアクセスします。
+1. 「ホームページから [!DNL Adobe Journey Optimizer] 」にアクセス [!DNL Assets Essentials] するには、メニューの **[!UICONTROL Content management]** タブを選択し **[!UICONTROL Assets]** ます。
 
    ![](assets/media_library_1.png)
 
-1. 中央のセクションまたはツリービューでフォルダーをダブルクリックして開きます。
+1. 中央のセクションまたはツリービューからフォルダーをダブルクリックして開きます。
 
-   また、「**[!UICONTROL フォルダーを作成]**」をクリックして新しいフォルダーを作成することもできます。
+   また、をクリックし **[!UICONTROL Create folder]** て新しいフォルダーを作成することもできます。
 
    ![](assets/media_library_8.png)
 
-1. 選択または作成したフォルダーで、「**[!UICONTROL アセットを追加]**」をクリックして、新しいアセットをフォルダーにアップロードします。
+1. ファイルを選択または作成したフォルダーに追加し、をクリック **[!UICONTROL Add Assets]** して、新しいアセットをフォルダーにアップロードします。
 
    ![](assets/media_library_2.png)
 
-1. **[!UICONTROL ファイルをアップロード]**&#x200B;で「**[!UICONTROL 参照]**」をクリックして、**[!UICONTROL ファイルを参照]**&#x200B;するか&#x200B;**[!UICONTROL フォルダーを参照]**&#x200B;するかを選択します。
+1. **[!UICONTROL Upload files]**&#x200B;でをクリック **[!UICONTROL Browse]** し、または **[!UICONTROL Browse folders]** を **[!UICONTROL Browse files]** 使用するかどうかを選択します。
 
    ![](assets/media_library_3.png)
 
-1. アップロードするファイルを選択します。完了したら、「**[!UICONTROL アップロード]**」をクリックします。
+1. アップロードするファイルを選択します。 終了したら、をクリック **[!UICONTROL Upload]** します。
 
-   アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
+   アセットを管理する方法について詳しくは、この [ ページ ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html) を参照してください。
 
-1. アセットがアップロードされると、電子メールデザイナーを使用してメッセージの 1 つにアセットを挿入できるようになります。
+1. アセットがアップロードされると、電子メールを使用して、メッセージのいずれかにアセットを挿入できるようになりました。
 
-   また、アセットは [!DNL Assets Essentials] の&#x200B;**編集**&#x200B;モードでさらに編集することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target=&quot;_blank&quot;}。
+   の [!DNL Assets Essentials] 編集 **モードで** アセットを編集することもできます。[](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html)詳しくは、「target = &quot;_blank&quot;}」を参照してください。
 
    ![](assets/media_library_12.png)
 
-1. [!DNL Adobe Journey Optimizer] で、電子メールデザイナーの左側のペインにある「**[!UICONTROL AEM Asset ピッカー]**」を選択します。
+1. [!DNL Adobe Journey Optimizer]で、電子メールデザイナーの左側のペインからを選択 **[!UICONTROL Asset picker]** します。
 
    ![](assets/media_library_5.png)
 
-1. を選択します。 **[!UICONTROL Assets]** フォルダー。 検索バーで、アセットやフォルダーを検索することもできます。
+1. **[!UICONTROL Assets]**&#x200B;フォルダーを選択します。検索バーでは、アセットまたはフォルダーを検索することもできます。
 
-1. アセットをメールコンテンツにドラッグ＆ドロップします。
+1. 電子メールコンテンツにアセットをドラッグ &amp; ドロップします。
 
    ![](assets/media_library_6.png)
 
-1. さらに、 **[!UICONTROL コンポーネント設定]**. コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
+1. を使用して **[!UICONTROL Components settings]** 、外部リンクまたはテキストを追加するなど、アセットをさらにカスタマイズすることもできます。 [コンポーネント設定について詳しくは、ここを参照してください。](content-components.md)
 
    ![](assets/media_library_13.png)
 

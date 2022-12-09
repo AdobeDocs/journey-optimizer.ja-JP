@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer におけるソースコネクタの基本を学ぶ
-description: Adobe Journey Optimizer で外部ソースからデータを取り込む方法を説明します
+title: 旅オプティマイザーのソースコネクタについて学習します。
+description: Adobe 旅のオプティマイザーに外部ソースからデータを取り込む方法について説明します。
 feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
-# ソースコネクタの基本を学ぶ {#sources-gs}
+# ソースコネクタの使用を開始する {#sources-gs}
 
-Adobe Journey Optimizer では、外部ソースからデータを取り込みながら、Platform サービスを使用して入力データの構造化、ラベル付けおよび強化を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
+Adobe の旅のオプティマイザーにより、外部ソースからデータを取得することができますが、プラットフォームサービスを使用してデータを構造化、ラベル付け、拡張する機能が提供されます。 Adobe アプリケーションやクラウドベースの記憶域、データベースなど、様々なソースからデータを取り込むことができます。
 
 ![](assets/sources-home.png)
 
-このビデオでは、ソースコネクタと、Journey Optimizer でのソースコネクタの設定方法について説明します。
+ソースコネクターについて、およびこのビデオの旅オプティマイザーでの設定方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-ソースコネクタを使用して外部ソースからデータを取り込む方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+Adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) の [ ソースコネクタを使用して外部ソースからデータを取り込む方法について詳しくは、target = &quot;_blank 「}」を参照してください。

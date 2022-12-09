@@ -1,6 +1,6 @@
 ---
-title: ヘルパー関数の基本を学ぶ
-description: Journey Optimizer ヘルパー関数ライブラリ
+title: ヘルパー関数の使用について学習します。
+description: 旅オプティマイザーヘルパー関数ライブラリ
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,122 +8,122 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 100%
+source-wordcount: '1744'
+ht-degree: 0%
 
 ---
 
-# ヘルパー関数の基本を学ぶ{#functions}
+# ヘルパー関数の使用について学習します。{#functions}
 
-[!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など、データの操作を実行します。パーソナライゼーション構文のガイドラインについては、[このページ](../personalization-syntax.md)を参照してください。
+テンプレート言語を使用 [!DNL Journey Optimizer] して、計算、データフォーマットまたは変換、条件などのデータに対する操作を実行し、カスタマイズのコンテキストでそれらを操作します。 このページ ](../personalization-syntax.md) のパーソナル化のシンタックスガイドラインに [ ついて説明します。
 
-➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
+➡️ [ このビデオでヘルパー関数の使用方法について説明しています。](#video)
 
-テンプレート言語は、次に示すように、式エディターのパーソナライゼーションドロップダウンリストで選択できるヘルパー関数で利用されます。
+テンプレート言語は、次に示すように、エクスプレッションエディターの「パーソナライズ」ドロップダウンリストで使用可能なヘルパー関数で活用できます。
 
 ![](../assets/access-helper-functions.png)
 
-[!DNL Journey Optimizer] 式エディターでは、ヘルパー関数は[関数](#functions-helper)、[ヘルパー](#helper-helper)および[演算子](#operators-helper)の 3 つのカテゴリにグループ化されます。
+式エディターは、関数、ヘルパー、演算子 ](#operators-helper) と [ いう3つのカテゴリ [ にグループ化されて [!DNL Journey Optimizer] います。 ](#helper-helper) [ ](#functions-helper)
 
-サブカテゴリと関数にアクセスするには、カテゴリを選択します。
+カテゴリと関数にアクセスするには、カテゴリーを選択します。
 
-サブカテゴリにアクセスするには、「`>`」アイコンをクリックします。「`+`」アイコンをクリックして関数を選択すると、その関数がパーソナライゼーション画面に自動的に追加されます。
+アイコンをクリックすると、 `>` サブカテゴリにアクセスできます。 アイコンをクリック `+` して関数を選択します。この関数は、パーソナル化スクリーンに非常に新しく追加されています。
 
-「`...`」アイコンをクリックして関数の説明を表示し、お気に入りに追加します。[詳細情報](../personalize.md#fav)
+`...`このアイコンをクリックすると、関数の説明が表示され、お気に入りに追加できます。[詳細情報](../personalize.md#fav)
 
-## 関数{#functions-helper}
+## 業務{#functions-helper}
 
 ### 集計関数と配列関数
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">平均</a></td><td>配列内の選択された値すべての算術平均を返します。</td>
+        <td><a href="aggregation.md#average">所要</a></td><td>この関数は、配列内の選択されたすべての値の算術平均を返します。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">カウント</a></td><td>指定された配列内の要素数を返します。</td>
+        <td><a href="aggregation.md#count">ティック</a></td><td>この関数は、指定された配列内のエレメントの数を返します。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">Null のみをカウント</a></td><td>この関数はリスト内の null 値の数をカウントします。</td>
+        <td><a href="aggregation.md#count-only-null">Count Null のみ</a></td><td>この関数は、リスト内の null 値の数を数えます。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-with-null">null でカウント</a></td><td>この関数は null 値を含むリストのすべての要素をカウントします。</td>
+        <td><a href="aggregation.md#count-with-null">数が Null の場合</a></td><td>この関数は、null 値を含むリストのすべてのエレメントを数えます。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">個別</a></td><td>重複する値が削除された配列またはリストから値を取得します。</td>
+        <td><a href="arrays-list.md#distinct">異なっ</a></td><td>この関数は、配列または重複する値が削除されたリストから値を取得します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">null で個別カウント</a></td><td>この関数は null 値を含む、異なる値の数をカウントします。</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Null 値を持つ個別カウント</a></td><td>この関数は、null 値を含む異なる値の数を表示します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">最初の項目</a></td><td>配列またはリスト内の最初の項目を返します。</td>
+        <td><a href="arrays-list.md#head">最初の項目</a></td><td>この関数は、配列またはリストの最初のアイテムを返します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">配列の最初の n</a></td><td>指定した数値式に基づいて昇順で並べ替えられた場合、配列の最初の「N」項目を返します。</td>
+        <td><a href="arrays-list.md#first-n">配列の最初の n</a></td><td>この関数は、指定された数値式に基づいて昇順にソートした場合、配列内の最初の「N」項目を返します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">次に含まれる</a></td><td>項目が配列またはリストのメンバーであるかどうかを判断するために使用します。</td>
+        <td><a href="arrays-list.md#in">単位</a></td><td>この関数は、項目が配列またはリストに属しているかどうかを判別するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">次を含む</a></td><td>配列またはリストに指定した項目が含まれているかどうかを判定します。</td>
+        <td><a href="arrays-list.md#includes">あり</a></td><td>この関数は、配列またはリストに特定の項目が含まれているかどうかを判別します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">交わり</a></td><td>2 つの配列またはリストに、共通メンバーが 1 つ以上あるかどうかを判断します。</td>
+        <td><a href="arrays-list.md#intersects">交わる</a></td><td>この関数は、2つの配列またはリストに共通のメンバーが少なくとも1つあるかどうかを判定します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">配列の最後の n</a></td><td>指定した数値式に基づいて昇順で並べ替えられた場合、配列の最後の「N」項目を返します。</td>
+        <td><a href="arrays-list.md#last-n">配列の最後の n</a></td><td>この関数は、指定された数値式に基づいて昇順にソートした場合に、配列内の最後の「N」アイテムを返します。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">最大</a></td><td>配列内の選択された値すべての最大値を返します。</td>
+        <td><a href="aggregation.md#max">値</a></td><td>この関数は、配列内の選択されたすべての値のうち、最も大きな値を返します。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">最小</a></td><td>配列内の選択された値すべての最小値を返します。</td>
+        <td><a href="aggregation.md#min">最小</a></td><td>この関数は、配列内の選択されたすべての値のうち、最小の値を返します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">次に含まれない</a></td><td>項目が配列またはリストのメンバーではないかどうかを判定します。</td>
+        <td><a href="arrays-list.md#notin">ではありません</a></td><td>この関数は、項目が配列またはリストのメンバーでないかどうかを判別します。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">サブセット</a></td><td>特定の配列（配列 A）が別の配列（配列 B）のサブセットであるか、つまり、配列 A のすべての要素が配列 B の要素であるかを判定します。</td>
+        <td><a href="arrays-list.md#subset">サブセット</a></td><td>この関数は、特定の配列 (array A) が別の配列のサブセットである (配列 a) かどうかを判別します。つまり、配列 A のすべてのエレメントが配列 B のエレメントであるとします。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">合計</a></td><td>配列内の選択された値すべての合計を返します。</td>
+        <td><a href="aggregation.md#sum">総額</a></td><td>この関数は、配列内の選択されたすべての値の合計を返します。</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">スーパーセット</a></td><td>この関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかどうか、つまり配列 A に配列 B のすべての要素が含まれているかどうかを判定します</td>
+    <td><a href="arrays-list.md#superset">のスーパーセット</a></td><td>この関数は、特定の配列 (array A) が別の配列のスーパーセット (array B) かどうかを判別します。つまり、配列 A に配列 B のすべての要素が含まれている場合などです。</td>
     </tr>
 </table>
 
-### 日時関数{#date-functions}
+### 日付時刻関数{#date-functions}
 
 <table>
     <tr>
-        <td><a href="dates.md#age">年齢</a></td><td>この関数は、指定された日付からの経過時間を取得します。</td>
+        <td><a href="dates.md#age">寿命</a></td><td>この関数は、指定した日付から経過時間を取得します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">現在の時刻 (ミリ秒)</a></td><td>この関数は、現在の時刻をエポックミリ秒で取得します。</td>
+        <td><a href="dates.md#current">現在の時間 (ミリ秒)</a></td><td>この関数は、紀元ミリ秒単位で現在の時刻を取得します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">日付の差異</a></td><td>この関数は、2 つの日付間の差異を日数単位で取得します。</td>
+        <td><a href="dates.md#date-diff">日付の違い</a></td><td>この関数は、2つの日付間の差を日数で取得します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-week">曜日</a></td><td>この関数は、曜日を取得します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">通日</a></td><td>この関数は、通日（1月1日からの通算日数）を取得します。</td>
+        <td><a href="dates.md#day-year">年通算日付</a></td><td>この関数は、年の通算日を取得します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">日付をフォーマット</a></td><td>この関数は、日時値を書式設定します。</td>
+        <td><a href="dates.md#format-date">日付の形式</a></td><td>この関数は、日付と時刻の値をフォーマットします。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">日数を設定</a></td><td>この関数は、指定された日時の日付を設定します。</td>
+        <td><a href="dates.md#set-days">日の設定</a></td><td>この関数は、指定された日時の月の日付を設定します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">時間を設定</a></td><td>この関数は、日時の時を設定します。</td>
+        <td><a href="dates.md#set-hours">時間の設定</a></td><td>この関数は、日付と時刻の間の時間を設定します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">UTC に</a></td><td>この関数は、日時を UTC に変換します。</td>
+        <td><a href="dates.md#to-utc">UTC へ</a></td><td>この関数では、datetime が UTC に変換されます。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">年間通算週</a></td><td>この関数は、年の週番号（何週目か）を返します。</td>
+        <td><a href="dates.md#week-of-year">年の通算週</a></td><td>この関数は、年の通算週を返します。</td>
     </tr>
 </table>
 </table>
@@ -132,13 +132,13 @@ ht-degree: 100%
 
 <table>
     <tr>
-        <td><a href="maps.md#get">取得</a></td><td>指定されたキーのマップの値を取得するために使用します。</td>
+        <td><a href="maps.md#get">取得</a></td><td>この関数は、指定されたキーのマップの値を取得するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="maps.md#keys">キー</a></td><td>指定されたマップのすべてのキーを取得するために使用します。</td>
+        <td><a href="maps.md#keys">キー</a></td><td>この関数は、指定されたマップのすべてのキーを取得するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="maps.md#values">値</a></td><td>指定されたマップのすべての値を取得します。</td>
+        <td><a href="maps.md#values">指定</a></td><td>この関数は、指定されたマップのすべての値を取得します。</td>
     </tr>
 </table>
 
@@ -146,22 +146,22 @@ ht-degree: 100%
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">絶対パス</a></td><td>この関数は、数値をその絶対値に変換します。</td>
+        <td><a href="objects.md#absolute">固定</a></td><td>この関数は、数値の絶対値を返します。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">ランダム</a></td><td>この関数は、0 ～ 1 の間のランダムな値を返します。</td>
+        <td><a href="objects.md#random">無作為</a></td><td>この関数は、0 ~ 1 の範囲のランダムな値を返します。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">切り捨て</a></td><td>この関数は、数値を切り捨てます。</td>
+        <td><a href="objects.md#round-down">切り捨て</a></td><td>この関数は、数値の切り捨てを行います。</td>
     </tr>
     <tr>
         <td><a href="objects.md#round-up">切り上げ</a></td><td>この関数は、数値を切り上げます。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">パーセンテージに</a></td><td>この関数は、数値をパーセンテージに変換します。</td>
+        <td><a href="objects.md#to-percentage">比率にする</a></td><td>この関数は、数値をパーセント単位で指定します。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">精度に</a></td><td>この関数は、数値を必要な精度に変換します。</td>
+        <td><a href="objects.md#to-precision">精度</a></td><td>この関数は、数値を必要な精度に変換します。</td>
     </tr>
 </table>
 
@@ -169,244 +169,244 @@ ht-degree: 100%
 
 <table>
     <tr>
-        <td><a href="objects.md#isNotNull">null でない</a></td><td>オブジェクト参照が存在するかどうかを判断するために使用します。</td>
+        <td><a href="objects.md#isNotNull">は null ではありません。</a></td><td>この関数は、オブジェクト参照が存在するかどうかを調べるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#isNull">null である</a></td><td>オブジェクト参照が存在しないかどうかを判断するために使用します。</td>
+        <td><a href="objects.md#isNull">は null</a></td><td>この関数は、オブジェクト参照が存在しないかどうかを調べるために使用されます。</td>
     </tr>
 </table>
 
-### 文字列関数 {#string-functions}
+### ストリング関数 {#string-functions}
 
 <table>
     <tr>
-        <td><a href="string.md#camelCase">キャメルケース</a></td><td>文字列の各単語の最初の文字を大文字にするために使用します。</td>
+        <td><a href="string.md#camelCase">Camel ケース</a></td><td>この関数は、ストリングの各単語の最初の文字を大文字にするために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">連結</a></td><td>2 つの文字列を 1 つに結合するために使用します。</td>
+        <td><a href="string.md#concat">連結</a></td><td>この関数は、2つのストリングを1つに結合するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">次を含む</a></td><td>文字列が指定の部分文字列を含んでいるかどうかを判定するために使用します。</td>
+        <td><a href="string.md#contains">さ</a></td><td>この関数は、ストリングに指定された部分文字列が含まれているかどうかを調べるために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotContain">次を含まない</a></td><td>文字列が指定の部分文字列を含んでいないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#doesNotContain">がありません</a></td><td>この関数は、ストリングに指定されたサブストリングが含まれていないかどうかを判別するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotEndWith">次で終わらない</a></td><td>文字列の末尾が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#doesNotEndWith">で終わらない</a></td><td>この関数は、ストリングの末尾に指定された部分文字列が含まれていないかどうかを判別するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">次で始まらない</a></td><td>文字列の先頭が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#doesNotStartWith">で始まらない</a></td><td>この関数は、ストリングが特定の部分文字列と共に始まらないかどうかを判別するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">エンコード 64</a></td><td>文字列のエンコードまたはデコードに使用します。</td>
+        <td><a href="string.md#encode64">エンコード64</a></td><td>この関数は、ストリングのエンコードまたはデコードに使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">次で終わる</a></td><td>文字列の末尾が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#endsWith">で終わる</a></td><td>この関数は、ストリングの末尾に指定された部分文字列が含まれるかどうかを調べるために使用されます。</td>
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">次に等しい</a></td><td>文字列の大文字と小文字を区別し、文字列の先頭が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#equals">Str</a></td><td>この関数を使用して、文字列が特定の部分文字列と共に開始されないかどうかを判別します。大文字と小文字が区別されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">等しい (大文字と小文字を区別しない)</a></td><td>文字列の大文字と小文字を区別せず、文字列の先頭が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#equalsIgnoreCase">大文字と小文字を区別</a></td><td>この関数を使用して、文字の大文字と小文字を区別せずに、文字列が特定の部分文字列と共に始まらないかどうかを判断します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#extractEmailDomain">電子メールドメインを抽出</a></td><td>メールアドレスのドメインを抽出するために使用します。</td>
+        <td><a href="string.md#extractEmailDomain">電子メールドメインの抽出</a></td><td>この関数は、電子メールアドレスのドメインを抽出するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-host">URL ホストを取得</a></td><td>この関数は、URL ホストを取得するために使用されます。</td>
+        <td><a href="string.md#get-url-host">Url ホストの取得</a></td><td>この関数は、url ホストを取得するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">URL パスを取得</a></td><td>この関数は、URL パスの取得に使用されます。</td>
+        <td><a href="string.md#get-url-path">Url パスを取得します。</a></td><td>この関数は、url パスを取得するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-protocol">URL プロトコルを取得</a></td><td>この関数は、URL プロトコルの取得に使用されます。</td>
+        <td><a href="string.md#get-url-protocol">Get url protocol</a></td><td>この関数は、url プロトコルを取得するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#index-of">インデックス</a></td><td>この関数は 2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。</td>
+        <td><a href="string.md#index-of">インデックスの作成</a></td><td>この関数は、2番目のパラメーターが最初に出現した位置 (最初の引数) を返します。 一致するアイテムがない場合は-1 を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#isEmpty">空である</a></td><td>文字列や式が空かどうかを確認するために使用します。</td>
+        <td><a href="string.md#isEmpty">IsEmpty</a></td><td>この関数は、文字列または式が空であるかどうかをチェックするために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">空でない</a></td><td>この関数はパラメーター内の文字列が空でない場合、true を返します。</td>
+        <td><a href="string.md#is-not-empty">は空白ではありません。</a></td><td>この関数は、パラメーターのストリングが空でない場合は、true を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">最後のインデックス</a></td><td>この関数は 2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。</td>
+        <td><a href="string.md#last-index-of">最後のインデックス</a></td><td>この関数は、2番目のパラメーターが最後に出現する位置の位置 (最初の引数) を返します。 一致するアイテムがない場合は、-1 を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#leftTrim">左トリミング</a></td><td>文字列の先頭から空白を削除します。</td>
+        <td><a href="string.md#leftTrim">左トリム</a></td><td>この関数は、ストリングの先頭から空白文字を削除します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">長さ</a></td><td>文字列や式の文字数を取得するために使用します。</td>
+        <td><a href="string.md#length">長さ</a></td><td>この関数は、ストリングまたは式の文字数を取得するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">類似</a></td><td>文字列が指定のパターンと一致するかどうかを判定するために使用します。</td>
+        <td><a href="string.md#like">という感じで</a></td><td>この関数は、指定したパターンにストリングが一致するかどうかを調べるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#lower">小文字</a></td><td>文字列を小文字に変換します。</td>
+        <td><a href="string.md#lower">小文字</a></td><td>この関数は、ストリングを小文字に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#mask">マスク</a></td><td>この関数は、文字列の一部を「X」の文字に置き換えるために使用されます。</td>
+        <td><a href="string.md#mask">隠す</a></td><td>この関数は、ストリングの一部 (「X」文字) を置き換えるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">一致</a></td><td>文字列が特定の正規表現と一致するかどうかを判定するために使用します。</td>
+        <td><a href="string.md#matches">該当</a></td><td>この関数は、ストリングが特定の正規表現に一致するかどうかを調べるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#md5">MD5</a></td><td>この関数は、入力文字列の md5 ハッシュを返します。</td>
+        <td><a href="string.md#md5">ハッシュ</a></td><td>この関数は、入力ストリングの md5 ハッシュ値を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">次と等しくない</a></td><td>文字列が指定の文字列に等しくないかどうかを判定するために使用します。</td>
+        <td><a href="string.md#notEqualTo">が不等号</a></td><td>この関数を使用して、指定したストリングと一致するストリングがないかどうかを判別します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">等しくない (大文字と小文字を区別しない)</a></td><td>この関数は、大文字と小文字を区別せずに、2 つの文字列を比較します。</td>
+        <td><a href="string.md#not-equal-with-ignore-case">は無視されます。等しくない</a></td><td>大文字と小文字を区別して比較します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#regexGroup">正規表現グループ</a></td><td>指定された正規表現に基づいて特定の情報を抽出するために使用します。</td>
+        <td><a href="string.md#regexGroup">正規表現グループ</a></td><td>この関数は、指定された正規表現に基づいて特定の情報を抽出するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">置換</a></td><td>文字列内の指定された部分文字列を別の部分文字列で置き換えます。</td>
+        <td><a href="string.md#replace">置き</a></td><td>この関数は、ストリング内の指定された部分を別の部分文字列に置き換えます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#replaceAll">すべて置換</a></td><td>「target」に一致するテキストのすべての部分文字列を、指定されたリテラルの「replacement」文字列に置き換えます。</td>
+        <td><a href="string.md#replaceAll">すべて置換</a></td><td>この関数は、指定されたリテラルの「置換」ストリングを使用して、「ターゲット」に一致するテキストのすべての部分文字列を置換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#rightTrim">右トリミング</a></td><td>文字列の末尾から空白を削除します。 </td>
+        <td><a href="string.md#rightTrim">右トリム</a></td><td>この関数は、ストリングの末尾から空白文字を削除します。 </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">分割</a></td><td>文字列を指定された文字で分割するために使用します。</td>
+        <td><a href="string.md#split">分割</a></td><td>この関数は、指定された文字でストリングを分割するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">次で始まる</a></td><td>この関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます</td>
+        <td><a href="string.md#startsWith">開始点</a></td><td>この関数は、ストリングの先頭に指定された部分文字列が含まれるかどうかを調べるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列を日付に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、ストリングを日付に変換するために使用されます。 無効な入力については、紀元日付が出力されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-integer">文字列を整数に</a></td><td>この関数は、文字列値を整数値に変換します。</td>
+        <td><a href="string.md#string-to-integer">ストリングを整数に</a></td><td>この関数は、ストリング値を整数値に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">文字列から数値へ</a></td><td>この関数は、文字列を数値に変換するために使用されます。無効な入力の出力と同じ文字列を返します。</td>
+        <td><a href="string.md#string-to-number">文字列を数値に</a></td><td>この関数は、ストリングを数値に変換するために使用されます。 無効な入力については、出力と同じストリングが返されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">部分文字列</a></td><td>この関数は文字列式の開始インデックスと終了インデックスの間にある部分文字列を返します。</td>
+        <td><a href="string.md#sub-string">サブストリング</a></td><td>この関数は、開始インデックスと終了インデックスの間にあるストリング式のサブストリングを返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">タイトルケース</a></td><td>文字列の各単語の最初の文字を大文字にするために使用します。</td>
+        <td><a href="string.md#titleCase">タイトルの大文字/小文字</a></td><td>この関数は、ストリングの各単語の最初の文字を大文字にするために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">ブール値に</a></td><td>この関数雨は引数の値をタイプに応じてブール値に変換します。</td>
+        <td><a href="string.md#to-bool">ブールに</a></td><td>この関数は、引数の値をブール値に変換します。その型によって異なります。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="string.md#to-date-time">日付/時刻</a></td><td>この関数は、ストリングを日付に変換するために使用されます。 無効な入力については、紀元日付が出力されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は引数値を日時のみの値に変換します。無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="string.md#to-date-time-only">日付時刻のみ</a></td><td>この関数は、引数の値を日付時刻のみの値に変換します。. 無効な入力については、紀元日付が出力されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">トリミング</a></td><td>文字列の先頭と末尾の空白を削除します</td>
+        <td><a href="string.md#trim">裁断</a></td><td>この関数は、ストリングの先頭および末尾のホワイトスペースを削除します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#upper">大文字</a></td><td>文字列を大文字に変換します。</td>
+        <td><a href="string.md#upper">大文字</a></td><td>この関数は、ストリングを大文字に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-decode">URL デコード</a></td><td>この関数は、URL エンコードされた文字列をデコードするために使用されます。</td>
+        <td><a href="string.md#url-decode">Url デコード</a></td><td>この関数を使用して、url にエンコードされたストリングをデコードします。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">URL エンコード</a></td><td>この関数は、文字列を URL エンコードするために使用されます。</td>
+        <td><a href="string.md#url-encode">Url エンコード</a></td><td>この関数は、ストリングを url エンコードするために使用されます。</td>
     </tr>
 </table>
 
 
 ## ヘルパー{#helper-helper}
 
-ヘルパーの詳細は、[このページ](helpers.md)で説明しています。
+ヘルパーについては、このページ ](helpers.md) で [ 詳しく説明しています。
 
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">デフォルトのフォールバック値</a></td><td>この関数を使用すると、デフォルトで変数をレンダリングできます。</td>
+        <td><a href="helpers.md#default">デフォルトのフォールバック値</a></td><td>この関数では、デフォルトの変数をレンダリングできます。</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">Each</a></td><td>配列を繰り返すために使用します。</td>
+        <td><a href="helpers.md#each">相互</a></td><td>この関数は、配列の繰り返し処理に使用されます。</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">If</a></td><td>条件付きブロックの定義に使用します。式の評価が true を返した場合、ブロックがレンダリングされます。</td>
+        <td><a href="helpers.md#if-function">もし</a></td><td>この関数は、条件ブロックを定義するために使用されます。式の評価が true を返した場合、そのブロックはレンダリングされます。</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#let">Let</a></td><td>この関数を使用すると、式を変数として保存し、後からクエリで使用できます。</td>
+        <td><a href="helpers.md#let">Let</a></td><td>この関数を使用して、式を変数として保存して、後で使用することができます。</td>
     </tr>
    <tr>
-        <td><a href="helpers.md#unless">Unless</a></td><td>条件付きブロックの定義に使用します。式の評価が false を返した場合、ブロックがレンダリングします。</td>
+        <td><a href="helpers.md#unless">ない限り</a></td><td>この関数は、条件ブロックを定義するために使用されます。式の評価が false を返すと、そのブロックはレンダリングされます。</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">With</a></td><td>テンプレート部分の評価トークンを変更するために使用します。</td>
+        <td><a href="helpers.md#with">With</a></td><td>この関数は、テンプレートパーツの評価トークンを変更するために使用されます。</td>
     </tr>
 </table>
 
-## 演算子{#operators-helper}
+## Operators{#operators-helper}
 
-### 演算関数 {#arithmetic-helper}
+### 算術関数 {#arithmetic-helper}
 
-演算関数は、値に対する基本的な計算を実行するために使用します。
+算術関数は、値に基づいて基本的な計算を実行するために使用されます。
 
 <table>
     <tr>
-        <td><a href="arithmetic-functions.md#add">加算</a></td><td>2 つの引数式の合計を求めるために使用します。</td>
+        <td><a href="arithmetic-functions.md#add">他</a></td><td>この演算子は、2つの引数式の合計を検索するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#divide">除算</a></td><td>2 つの引数式の商を求めるために使用します。</td>
+        <td><a href="arithmetic-functions.md#divide">分割</a></td><td>この演算子は、2つの引数式の商を求めるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#multiply">乗算</a></td><td>2 つの引数式の積を求めるために使用します。</td>
+        <td><a href="arithmetic-functions.md#multiply">掛け算</a></td><td>この演算子は、2つの引数式の積を検索するために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#remainder">残り</a> </td><td>2 つの引数式を除算した後の剰余を求めるために使用します。</td>
+        <td><a href="arithmetic-functions.md#remainder">割り算</a> </td><td>この演算子は、2つの引数式を割った余りを求めるために使用されます。</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#substract">減算</a> </td><td>2 つの式の差分を求めます。</td>
+        <td><a href="arithmetic-functions.md#substract">加減</a> </td><td>この演算子は、2つの式の違いを返します。</td>
     </tr>
 </table>
 
 
 ### ブール関数 {#boolean-functions}
 
-ブール関数は、異なる要素に対してブール論理を実行するために使用します。
+ブール関数は、様々なエレメントに対してブールロジックを実行するために使用されます。
 
 <table>
     <tr>
-        <td><a href="operators.md#and">および</a></td><td>この演算子は論理積を作成します。</td>
+        <td><a href="operators.md#and">そして</a></td><td>この演算子は、論理積を作成します。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">または</a></td><td>この演算子は論理和を作成します。</td>
+        <td><a href="operators.md#or">か</a></td><td>この演算子は、論理和を作成します。</td>
     </tr>
 </table>
 
 
 ### 比較関数 {#comparison-functions}
 
-比較関数は、異なる式と値を比較するために使用され、それに応じて true または false を返します。
+比較関数は、異なる式と値を比較するために使用され、true または false を返します。
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">次に等しい</a></td><td>値が等しいかどうかを確認します。</td>
+        <td><a href="operators.md#equals">Str</a></td><td>この操作により、値が等しいかどうかがチェックされます。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">次より大きい</a></td><td>最初の値が 2 番目の値より大きいかどうかを確認します。</td>
+        <td><a href="operators.md#greaterthan">より大きい</a></td><td>この演算子は、最初の値が2番目の値より大きいかどうかをチェックします。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">同じかそれ以上</a></td><td>最初の値が 2 番目の値より大きいか、もしくは等しいかどうかを確認します。</td>
+        <td><a href="operators.md#greaterthanorequal">「より大きい」または「等しい」</a></td><td>この演算子は、最初の値が2番目の値以上かどうかをチェックします。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">同じかそれ以下</a> </td><td>最初の値が 2 番目の値より小さいか、もしくは等しいかどうかを確認します。</td>
+        <td><a href="operators.md#lessthanorequal">以下</a> </td><td>この演算子は、最初の値が2番目の値以下かどうかをチェックします。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">次と等しくない</a></td><td>指定された式が指定された値に等しくないかどうかを確認します。</td>
+        <td><a href="operators.md#notequal">が不等号</a></td><td>この演算子は、指定された式が値が指定されていないかどうかを調べます。</td>
     </tr>
 </table>
 
-## ハウツービデオ{#video}
+## 操作方法のビデオ{#video}
 
-パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
+パーソナル化ヘルパー関数を使用してパーソナル化の値を変換し、ヘルパー関数について別の用途について理解する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

@@ -1,49 +1,49 @@
 ---
 product: journey optimizer
 title: indexOf
-description: indexOf 関数について説明します
+description: 関数の indexOf について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 100%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
 # indexOf {#indexOf}
 
-最初の引数文字列が特定の文字列（2 番目の引数文字列）で終わっているかどうかを確認します。 文字列が見つからない場合は、-1 を返します。
+最初の引数のストリングが特定のストリング (2 番目の引数ストリング) で終わっているかどうかをチェックします。 ストリングが見つからない場合は、-1 を返します。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `indexOf(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| string | 文字列 |
-| 指定値 | 文字列 |
+| 値 | 値 |
+| 指定された値 | 値 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `indexOf(<string>,<string>)`
 
-整数を返します。
+整数値を返します。
 
-## 例
+## 一
 
 `indexOf("Hello", "l")`
 
-2 を返します。
+2を返します。
 
-説明：
+説明
 
-「Hello」で「l」が最初に出現するのは位置 2 です。
+「Hello」の場合、最初に出現する &quot;l&quot; は2の位置になります。

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 購読ライブレポート
-description: 購読ライブレポートで購読サービスのデータを使用する方法を学ぶ
+title: サブスクリプションライブレポート
+description: サブスクリプションライブレポートでサブスクリプションサービスのデータを使用する方法について説明します。
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,31 +10,31 @@ level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 0%
 
 ---
 
-# 購読ライブレポート {#subscription-report-live}
+# サブスクリプションライブレポート {#subscription-report-live}
 
-購読&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、過去 24 時間の購読者のアクティビティに関する詳細のみを表示します。選択した期間で購読を測定するには、[購読グローバルレポート](subscription-report-global.md)を参照してください。
+サブスクリプション **[!UICONTROL Live report]** には、過去24時間のサブスクライバーの利用状況に関する詳細情報が表示されます。 選択された期間にわたってサブスクリプションを測定するには、定期売買の [ グローバルレポート ](subscription-report-global.md) を参照してください。
 
-レポートにアクセスするには、選択したサブスクリプションリストの「**[!UICONTROL レポート]**」アイコンをクリックします。
+レポートにアクセスするには、選択した購読リストのアイコンをクリック **[!UICONTROL Report]** します。
 
 ![](assets/subscription_report_7.png)
 
-購読&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、購読と購読解除の詳細を示す様々なウィジェットに分割されています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md)を参照してください。
+購読は、購読と unsubscriptions **[!UICONTROL Live report]** について詳しく説明した様々な部品に分割されています。 各 widget については、必要に応じてサイズ変更や削除を行うことができます。 詳細については、ここを [ ](live-report.md) 参照してください。
 
 ![](assets/subscription_report_3.png)
 
-**[!UICONTROL 購読パフォーマンス]** KPI と&#x200B;**[!UICONTROL ジャーニー別の購読]**/**[!UICONTROL ジャーニー別の購読解除]**&#x200B;テーブルには、ランディングページに対する訪問者のエンゲージメントに関する主な情報の詳細が示されます。テーブルと KPI には、次のように、ランディングページに関連して使用できるデータが含まれています。
+**[!UICONTROL Subscription performance]** Kpi と **[!UICONTROL Subscriptions by journey]** / **[!UICONTROL Unsubscribes by journey]** テーブルは、訪問者のランディングページとの関係に関する重要な情報を示します。テーブルと Kpi には、次のように、ランディングページに関連付けられたデータが含まれています。
 
-* **[!UICONTROL 購読]**：過去 24 時間の購読の合計数。
+* **[!UICONTROL Subscribes]**: 過去24時間に実行されたサブスクリプションの合計数。
 
-* **[!UICONTROL 購読解除]**：過去 24 時間の購読解除の合計数。
+* **[!UICONTROL Unsubscribes]**: 過去24時間に実行された unsubscriptions の合計数。
 
-**[!UICONTROL 購読パフォーマンス]**&#x200B;グラフには、過去 24 時間の購読の推移が表示されます。
+このグラフに **[!UICONTROL Subscription performance]** は、過去24時間のサブスクリプションの進化が表示されます。
 
 ![](assets/subscription_report_4.png)
 
-**購読 - 分類**&#x200B;および&#x200B;**購読解除 - 分類**&#x200B;グラフは、メッセージ、ランディングページ、チャネルに応じて、過去 24 時間に購読または購読解除したユーザーの合計数を表します。
+「購読 **」および** 「Unsubscribes **」グラフは、** メッセージ、ランディングページ、およびチャネルに応じて、最後の24時間に購読またはサブスクライブされた人物の合計数を表します。

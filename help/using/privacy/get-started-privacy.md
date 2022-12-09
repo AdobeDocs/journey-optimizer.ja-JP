@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: プライバシーの基本を学ぶ
-description: Adobe Journey Optimizer と Adobe Experience Platform のプライバシーについて説明します。
+title: プライバシーに関する作業の開始
+description: Adobe の旅オプティマイザーと Adobe エクスペリエンスプラットフォームについて詳しくは、プライバシーについてを参照してください。
 feature: Monitoring
 role: User
 level: Intermediate
@@ -10,43 +10,43 @@ exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 90%
+ht-degree: 0%
 
 ---
 
-# プライバシーの基本を学ぶ {#privacy}
+# プライバシーに関する作業の開始 {#privacy}
 
-Journey Optimizer は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。そのため、プライバシー管理は慎重に行う必要があります。
+旅のオプティマイザーは、膨大な量のデータを収集して処理するための強力なツールです。これには、個人情報や機密データなどが含まれます。 そのため、プライバシーを慎重に管理する必要があります。
 
-また、GDPR などの規制では、データ主体からの情報を使用する前に、特定の要件を満たす必要があると規定されています。 また、データサブジェクトは、いつでも同意を変更できる必要があります。
+さらに、データの主題からの情報を使用できるようにするには、GDPR の状態などの規制が特定の要件を満たしている必要があります。 さらに、データの主題には、いつでも同意を変更することができます。
 
-Adobe Experience Platform と Journey Optimizer には、プライバシー管理を確実に行うための様々なツールが用意されています。
+Adobe エクスペリエンスプラットフォームと旅オプティマイザーには、プライバシーの管理を容易にするための様々なツールが用意されています。
 
-* **データリクエストの管理**：Adobe Experience Platform Privacy Service を使用して、個人データへのアクセスおよび削除の顧客リクエストを管理します。[詳細情報](requests.md)
+* **データ要求** の管理: Adobe エクスペリエンス Platform Privacy サービスを使用して、個人データに対するアクセスおよび削除要求を管理します。 [詳細情報](requests.md)
 
-* **ユーザーのアクションの監査**：監査ログを活用して、システム内でユーザーが実行したアクションを特定し、問題をトラブルシューティングして、ビジネスが規制や企業のデータ管理ポリシーに準拠できるようにします。[詳細情報](audit-logs.md)
+* **「ユーザーに監査」アクション** : 監査ログを活用して、システムでユーザーが実行した操作を識別し、問題をトラブルシューティングし、業務に関する規制や企業データの監査方針を支援します。 [詳細情報](audit-logs.md)
 
-* **同意の追跡と管理**：コミュニケーションに対する顧客の同意を追跡し、顧客の環境設定と購読を管理します。[詳細情報](opt-out.md)
+* **同意** の追跡と管理: 顧客のコミュニケーションの承認を追跡し、その環境設定と購読を管理します。 [詳細情報](opt-out.md)
 
-* **同意ポリシーの適用**：顧客の環境設定に従って、Adobe Experience Platform の同意ポリシーを定義し、カスタムアクションに適用します。[詳細情報](../action/consent.md)
+* **同意ポリシー** を適用します。 Adobe のプラットフォームに対する同意ポリシーを定義し、ユーザーのニーズに合わせてカスタムアクションに適用します。 [詳細情報](../action/consent.md)
 
-* **ガバナンスポリシーの適用**：Adobe Experience Platform ガバナンスポリシーを活用して、機密フィールドがカスタムアクションによってサードパーティ製システムに書き出されるのを防ぎます。[詳細情報](../action/action-privacy.md)
+* **ガバナンスポリシー** の適用: Adobe エクスペリエンスのプラットフォームガバナンスポリシーを活用して、カスタムアクションによって重要なフィールドをサードパーティシステムに書き出されないようにします。 [詳細情報](../action/action-privacy.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="requests.md">
-<img alt="リード" src="../assets/do-not-localize/privacy-request.jpeg">
+<img alt="招き" src="../assets/do-not-localize/privacy-request.jpeg">
 </a>
-<div><a href="requests.md"><strong>データリクエストの管理</strong>
+<div><a href="requests.md"><strong>データ要求の管理</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="audit-logs.md">
-<img alt="低頻度" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="ときどき" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div>
-<a href="audit-logs.md"><strong>ユーザーのアクションの監査</strong></a>
+<a href="audit-logs.md"><strong>ユーザーの操作の監査</strong></a>
 </div>
 <p></td>
 <td>
@@ -54,7 +54,7 @@ Adobe Experience Platform と Journey Optimizer には、プライバシー管�
 <img alt="検証" src="../assets/do-not-localize/privacy-track-consent.jpeg">
 </a>
 <div>
-<a href="opt-out.md"><strong>同意の追跡と管理</strong></a>
+<a href="opt-out.md"><strong>トラックの承認の管理</strong></a>
 </div>
 <p>
 </td>

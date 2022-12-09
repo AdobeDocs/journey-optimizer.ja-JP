@@ -1,68 +1,68 @@
 ---
 product: journey optimizer
-title: replace
-description: replace 関数について説明します
+title: 置き
+description: 関数の置き換えについて説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
-# 置換 {#replace}
+# 置き {#replace}
 
-ターゲット文字列に一致する最初の出現箇所を、ベース文字列内の置換文字列で置き換えます。
+ターゲットストリングの最初の出現箇所が、ベースストリング内の置換ストリングに置き換えられます。
 
-置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+置換は、ストリングの最初から最後まで実行されます。例えば、「aa」を「a」と指定すると、「aa」が「ab」ではなく「ba」に置き換えられます。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `replace(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|--------------|
-| base（ベース文字列） | 文字列 |
-| target（ターゲット文字列） | 文字列（RegExp） |
-| replacement（置換文字列） | 文字列 |
+| ベース | 値 |
+| 変換 | string (RegExp) |
+| 置換 | 値 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `replace(<base>,<target>,<replacement>)`
 
-文字列を返します。
+ストリングを返します。
 
-## 例 1
+## 例1
 
 `replace("Hello World", "l", "x")`
 
-「Hexlo World」を返します。
+「Hexlo World」という結果が返されます。
 
-## 例 2 {#example_2}
+## 例2 {#example_2}
 
-ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。次に例を示します。
+ターゲットパラメーターは RegExp であるので、置換するストリングによっては、エスケープする必要がある文字がある場合もあります。 次に例を示します。
 
-* 評価する文字列：`|OFFER_A|OFFER_B`
-* プロファイル属性 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}` によって提供されます
-* 置き換える文字列：`|OFFER_A`
-* `''` によって置き換えられた文字列
-* `|` 文字の前に `\\` を追加する必要があります。
+* 評価する文字列: `|OFFER_A|OFFER_B`
+* profile 属性によって提供されます。 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* 置換されるストリング: `|OFFER_A`
+* 置換後のストリング: `''`
+* 文字の `|` 前にを追加 `\\` する必要があります。
 
-式は次の通りです。
+式は以下のとおりです。
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-返される文字列は `|OFFER_B` です。
+返されるストリングは、次のとおりです。 `|OFFER_B`
 
-指定した属性から置き換える文字列を構築することもできます。
+特定の属性から置き換えられるストリングを作成することもできます。
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

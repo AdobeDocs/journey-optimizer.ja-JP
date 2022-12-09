@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 属性ベースのアクセス制御
-description: 属性ベースのアクセス制御を学ぶ
+description: 属性ベースのアクセス制御について学習します。
 feature: Access Management
 topic: Administration
 role: Admin
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '940'
+ht-degree: 0%
 
 ---
 
@@ -19,150 +19,146 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->属性ベースのアクセス制御の使用は、現在、選択した顧客に限定されており、将来のリリースですべての環境にデプロイされます。
+>属性ベースのアクセス制御は、現在選択されている顧客に制限されているため、将来のリリースではすべての環境にデプロイされます。
 
-属性ベースのアクセス制御（ABAC）を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。その目的は、機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることです。
+属性ベースのアクセス制御 (ABAC) を使用すると、特定のチームまたはユーザーグループのデータアクセスを管理するための承認を定義できます。 この機能は、許可されていないユーザーから機密情報を保護し、さらに個人データを保護することを目的としています。
 
-Adobe Journey Optimizer では、ABAC を使用することで、データを保護し、Experience Data Model（XDM）スキーマ、プロファイル属性、セグメントなどの特定のフィールド要素に対する特定のアクセス権を付与できます。
+Adobe の旅の最適化機能を使用すると、データを保護し、経験のあるデータモデル (XDM) スキーマ、プロファイル属性、セグメントなど、特定のフィールドエレメントへのアクセスを許可することができます。
 
-ABAC で使用される用語の詳細なリストについては、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=ja)を参照してください。
+ABAC で使用される用語の一覧について詳しくは、『 Adobe エクスペリエンス Platform のマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html) を [ 参照してください。
 
-この例では、**国籍**&#x200B;スキーマフィールドにラベルを追加して、権限のないユーザーによる使用を制限します。 これを実現するには、次の手順を実行する必要があります。
+この例では、「国籍 **スキーマ」フィールドに** ラベルを追加して、不正ユーザーによる使用を許可しないように制限しています。これを機能させるには、次の手順を実行する必要があります。
 
-1. 新しい&#x200B;**[!UICONTROL 役割]**&#x200B;を作成し、スキーマフィールドにアクセスして使用できるようにさせたいユーザーに対応する&#x200B;**[!UICONTROL ラベル]**&#x200B;を割り当てます。
+1. 新しく  **[!UICONTROL Role]** 作成し、スキーマフィールドにアクセスして使用できるようにするには、それに対応  **[!UICONTROL Label]** するユーザーを指定します。
 
-1. Adobe Experience Platform で&#x200B;**[!UICONTROL ラベル]**&#x200B;を&#x200B;**国籍**&#x200B;スキーマフィールドに割り当てます。
+1. **[!UICONTROL Label]** Adobe エクスペリエンスプラットフォームの「国籍 **スキーマ」フィールドに** を割り当てます。
 
-1. Adobe Journey Optimizer で&#x200B;**[!UICONTROL スキーマフィールド]**&#x200B;を使用します。
+1. Adobe の旅のオプティマイザーを使用して  **[!UICONTROL Schema field]** ください。
 
-**[!UICONTROL 役割]**、**[!UICONTROL ポリシー]**&#x200B;および&#x200B;**[!UICONTROL 製品]**&#x200B;には、属性ベースのアクセス制御 API を使用してアクセスすることもできます。詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=ja)を参照してください。
+**[!UICONTROL Roles]**&#x200B;では、 **[!UICONTROL Policies]** **[!UICONTROL Products]** 属性ベースのアクセス制御 API を使用してアクセスすることもできます。詳細については、この [ ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html) を参照してください。
 
 ## ロールの作成とラベルの割り当て {#assign-role}
 
 >[!IMPORTANT]
 >
->役割の権限を管理する前に、まずポリシーを作成する必要があります。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja)を参照してください。
+>役割に対する権限を管理する前に、まずポリシーを作成する必要があります。 詳しくは、『 Adobe エクスペリエンス Platform のマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html) を [ 参照してください。
 
-**[!UICONTROL 役割]**&#x200B;は、組織内で同じ権限、ラベル、サンドボックスを共有するユーザーの集まりです。 ある&#x200B;**[!UICONTROL 役割]**に属する各ユーザーには、製品に含まれる Adobe のアプリとサービスに対する権限が付与されます。
-自身の**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトに対するユーザーのアクセスを微調整することもできます。
+**[!UICONTROL Roles]** は、組織内で同じ権限、ラベル、サンドボックスを共有するユーザーの集まりです。 に **[!UICONTROL Role]** 属している各ユーザーには、製品に含まれる Adobe アプリとサービスが与えられています。また、インターフェイスの特定の機能またはオブジェクトに対するユーザーのアクセスを微調整する場合は、独自 **[!UICONTROL Roles]** のファイルを作成することもできます。
 
-ここでは、特定のユーザーに、「C2」というラベルの付いた&#x200B;**国籍**&#x200B;フィールドへのアクセス権を付与します。これを行うには、特定のユーザーの集まりで新しい&#x200B;**[!UICONTROL 役割]**&#x200B;を作成し、C2 ラベルを付与して、**[!UICONTROL ジャーニー]**&#x200B;の&#x200B;**国籍**&#x200B;詳細を使用できるようにする必要があります。
+ここで、選択したユーザーに対して **、「C2」というラベルが付いた「国籍** 」フィールドへのアクセスを許可します。 そのためには、特定のユーザーセットを使用して新しい **[!UICONTROL Role]** ユーザーセットを作成し、それらのユーザーに対して、 **[!UICONTROL Journey]** の国籍 **詳細設定を使用** できるように、label C2 にそれを許可してもらう必要があります。
 
-1. [!DNL Permissions] 製品で、左側のパネルのメニューから「**[!UICONTROL 役割]**」を選択し、「**[!UICONTROL 役割を作成]**」をクリックします。**[!UICONTROL ラベル]**&#x200B;は、組み込みの役割に追加することもできます。
+1. 製品の [!DNL Permissions] 左側のウィンドウメニューから、を選択 **[!UICONTROL Role]** してをクリック **[!UICONTROL Create role]** します。 組み込みロールに追加 **[!UICONTROL Label]** することもできます。
 
    ![](assets/role_1.png)
 
-1. 新しい&#x200B;**[!UICONTROL 役割]**&#x200B;に、**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を追加します。ここでは「Restricted role demographic」とします。
+1. **[!UICONTROL Name]** **[!UICONTROL Description]** 新しい **[!UICONTROL Role]** について、ここに「」を追加します。制限付きロールのデモグラフィックス
 
-1. ドロップダウンで&#x200B;**[!UICONTROL サンドボックス]**&#x200B;を選択します。
+1. ドロップダウンリストから、を選択 **[!UICONTROL Sandbox]** します。
 
    ![](assets/role_2.png)
 
-1. **[!UICONTROL リソース]**&#x200B;メニューで「**[!UICONTROL Adobe Experience Platform]**」をクリックし、様々な機能を開きます。 ここでは、「**[!UICONTROL ジャーニー]**」を選択します。
+1. **[!UICONTROL Resources]**&#x200B;メニューからをクリックし **[!UICONTROL Adobe Experience Platform]** て、様々な機能を開きます。ここではを選択 **[!UICONTROL Journeys]** します。
 
    ![](assets/role_3.png)
 
-1. ドロップダウンで、「**[!UICONTROL ジャーニーの表示]**」や「**[!UICONTROL ジャーニーの公開]**」など、選択した機能にリンクされている&#x200B;**[!UICONTROL 権限]**&#x200B;を選択します。
+1. ドロップダウンリストから、選択した機能にリンクして **[!UICONTROL View journeys]** いる **[!UICONTROL Permissions]** (または **[!UICONTROL Publish journeys]** ) を選択します。
 
    ![](assets/role_6.png)
 
-1. 新しく作成した&#x200B;**[!UICONTROL 役割]**&#x200B;を保存したら、「**[!UICONTROL プロパティ]**」をクリックして、役割へのアクセスをさらに設定します。
+1. 新しく作成 **[!UICONTROL Role]** したを保存した後で、ロールへのアクセス権を設定するには、をクリックし **[!UICONTROL Properties]** ます。
 
    ![](assets/role_7.png)
 
-1. 「**[!UICONTROL ユーザー]**」タブで、「**[!UICONTROL ユーザーを追加]**」をクリックします。
+1. **[!UICONTROL Users]**&#x200B;タブでをクリック **[!UICONTROL Add users]** します。
 
    ![](assets/role_8.png)
 
-1. 「**[!UICONTROL ラベル]**」タブで、「**[!UICONTROL ラベルを追加]**」を選択します。
+1. **[!UICONTROL Labels]**&#x200B;タブで、を選択 **[!UICONTROL Add label]** します。
 
    ![](assets/role_9.png)
 
-1. 役割に追加したい&#x200B;**[!UICONTROL ラベル]**&#x200B;を選択して、「**[!UICONTROL 保存]**」をクリックします。この例では、先ほど制限したスキーマのフィールドにアクセスできるようにしたいユーザーに、ラベル「C2」を付与します。
+1. **[!UICONTROL Labels]**&#x200B;ロールに追加するを選択し、をクリック **[!UICONTROL Save]** します。次の例では、label C2 に、以前に制限されているスキーマのフィールドへのアクセスを許可するように設定します。
 
    ![](assets/role_4.png)
 
-これで「**Restricted role demographic**」の役割のユーザーが、C2 のラベルが付いたオブジェクトにアクセスできるようになりました。
+制限された役割のデモグラフィックス **役割の** ユーザーは、C2 ラベル付きオブジェクトにアクセスできるようになりました。
 
-## Adobe Experience Platform でオブジェクトにラベルを割り当てます。 {#assign-label}
+## Adobe エクスペリエンスプラットフォームでのラベルのオブジェクトへの割り当て {#assign-label}
 
 >[!WARNING]
 >
->ラベルの使用が正しくないと、ユーザーへのアクセスが中断され、ポリシー違反が発生する可能性があります。
+>ラベルを使用しないと、人へのアクセスが中断され、ポリシー違反が発生する可能性があります。
 
-**[!UICONTROL ラベル]**は、属性ベースのアクセス制御を使用して特定の特徴領域を割り当てるために使用できます。
-この例では、**国籍**&#x200B;フィールドへのアクセスを制限します。このフィールドには、**[!UICONTROL 役割]**&#x200B;に対応する&#x200B;**[!UICONTROL ラベル]**&#x200B;を持つユーザーのみがアクセスできます。
+**[!UICONTROL Labels]** 属性ベースのアクセス制御を使用して特定の機能領域を割り当てるために使用できます。この例では、「国籍 **」フィールドへのアクセスを制限することを目的として** います。このフィールドには、それ **[!UICONTROL Role]** に対応 **[!UICONTROL Label]** するが付いたユーザーのみがアクセスできます。
 
-**[!UICONTROL ラベル]**&#x200B;は&#x200B;**[!UICONTROL スキーマ]**&#x200B;や、**[!UICONTROL データセット]**、**[!UICONTROL セグメント]**&#x200B;に追加することもできます。
+に **[!UICONTROL Schema]** **[!UICONTROL Datasets]** **[!UICONTROL Segments]** 追加 **[!UICONTROL Label]** することもできます。
 
-1. **[!UICONTROL スキーマ]**&#x200B;を作成します。詳しくは、[こちらのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja)を参照してください。
+1. **[!UICONTROL Schema]**&#x200B;を作成します。詳細については、このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en) を [ 参照してください。
 
    ![](assets/label_1.png)
 
-1. 新しく作成された&#x200B;**[!UICONTROL スキーマ]**&#x200B;で、まずは&#x200B;**国籍**&#x200B;フィールドを含む&#x200B;**[!UICONTROL デモグラフィックの詳細]**&#x200B;フィールドグループを追加します。
+1. 新しく作成さ **[!UICONTROL Schema]** れたで、「国籍 **」フィールドを含む** フィールドグループを追加 **[!UICONTROL Demographic details]** します。
 
    ![](assets/label_2.png)
 
-1. 「**[!UICONTROL ラベル]**」タブで、制限されたフィールド名、この例では&#x200B;**国籍**&#x200B;を確認します。次に、右側のパネルのメニューから、「**[!UICONTROL ガバナンスラベルを編集]**」を選択します。
+1. **[!UICONTROL Labels]**&#x200B;タブで、「制限されているフィールド名」に「 **国籍** 」と入力します。次に、右側のウィンドウのメニューから、を選択 **[!UICONTROL Edit governance labels]** します。
 
    ![](assets/label_3.png)
 
-1. 対応する&#x200B;**[!UICONTROL ラベル]**（このケースでは C2）を選択します。データをサードパーティにエクスポートすることはできません。使用可能なラベルの詳細なリストについては、[こちらのページ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ja#contract-labels)を参照してください。
+1. **[!UICONTROL Label]**「C2」データをサードパーティに書き出すことはできません。使用可能なラベルの一覧については、このページ ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels) を [ 参照してください。
 
    ![](assets/label_4.png)
 
-1. 必要に応じてスキーマをさらにパーソナライズし、有効にします。スキーマを有効にする方法に関する詳細な手順については、こちらの[ページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=jal#profile)を参照してください。
+1. 必要に応じて、スキーマをさらにカスタマイズします。 スキーマを有効にするための詳細な手順については、この [ ページ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile) を参照してください。
 
-これで、スキーマのフィールドが表示され、使用できるのは、C2 ラベルで設定されたロールの一部であるユーザーのみになります。
-**[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL フィールド名]**&#x200B;に適用することで、作成されるすべてのスキーマで&#x200B;**[!UICONTROL ラベル]**&#x200B;が自動的に&#x200B;**国籍**&#x200B;フィールドに適用されることに注意してください。
+これで、スキーマのフィールドが表示されるようになり、C2 ラベルが設定されているロールセットに属するユーザーだけが使用できるようになります。にを適用 **[!UICONTROL Label]** **[!UICONTROL Field name]** することにより、は、作成されるすべてのスキーマの「所属」フィールドに **** 自動的に適用されること **[!UICONTROL Label]** に注意してください。
 
 ![](assets/label_5.png)
 
-## Adobe Journey Optimizer のラベル付きオブジェクトへのアクセス {#attribute-access-ajo}
+## Adobe 旅のオプティマイザーでのラベル付きオブジェクトへのアクセス {#attribute-access-ajo}
 
-新しいスキーマの「**国籍**」フィールド名と新しい役割にラベルを付けたら、この制限の影響を Adobe Journey Optimizer で確認できます。
-この例では、C2 というラベルの付いたオブジェクトにアクセスできる最初のユーザー X は、制限された**[!UICONTROL フィールド名]**&#x200B;をターゲットにする条件を備えるジャーニーを作成します。次に、C2 というラベルの付いたオブジェクトにアクセスできない 2 人目のユーザー Y は、ジャーニーを公開する必要があります。
+新しいスキーマと新しいロールに「国籍 **」フィールド名というラベル** を付けると、Adobe の旅オプティマイザーにこの制限の影響が表示されるようになりました。次の例では、C2 という名前のオブジェクトへのアクセス権を持つ最初のユーザー X が、制限 **[!UICONTROL Field name]** されていることをターゲットとして、旅になります。 C2 という名前のオブジェクトにアクセスできない第2のユーザー Y は、旅をパブリッシュする必要があります。
 
-1. Adobe Journey Optimizer から、最初に「**[!UICONTROL データソース]**」を新しいスキーマに設定する必要があります。
+1. Adobe の旅のオプティマイザーを使用して、まず新規スキーマを設定 **[!UICONTROL Data source]** する必要があります。
 
    ![](assets/journey_1.png)
 
-1. 新しく作成した&#x200B;**[!UICONTROL スキーマ]**&#x200B;の新しい&#x200B;**[!UICONTROL フィールドグループ]**&#x200B;を組み込みの&#x200B;**[!UICONTROL データソース]**&#x200B;に追加します。また、新しい外部&#x200B;**[!UICONTROL データソース]**&#x200B;および関連する&#x200B;**[!UICONTROL フィールドグループ]**&#x200B;を作成することもできます。
+1. **[!UICONTROL Field group]**&#x200B;新しく作成 **[!UICONTROL Schema]** したを組み込み **[!UICONTROL Data source]** に追加します。外部 **[!UICONTROL data source]** および関連付けられた **[!UICONTROL Field groups]** 新機能を作成することもできます。
 
    ![](assets/journey_2.png)
 
-1. 以前に作成した&#x200B;**[!UICONTROL スキーマ]**&#x200B;を選択した後、**[!UICONTROL フィールド]**&#x200B;カテゴリから「**[!UICONTROL 編集]**」をクリックします。
+1. 以前に作成 **[!UICONTROL Schema]** したを選択した後、カテゴリーから **[!UICONTROL Fields]** をクリックし **[!UICONTROL Edit]** ます。
 
    ![](assets/journey_3.png)
 
-1. ターゲット設定する&#x200B;**[!UICONTROL フィールド名]**&#x200B;を選択します。ここでは、制限付きの「**国籍**」フィールドを選択します。
+1. **[!UICONTROL Field name]**&#x200B;ターゲットを選択します。ここでは、「制限 **された国** 」フィールドを選択します。
 
    ![](assets/journey_4.png)
 
-1. 次に、特定の国籍を持つユーザーにメールを送信するジャーニーを作成します。「**[!UICONTROL イベント]**」、「**[!UICONTROL 条件]**」の順に追加します。
+1. 次に、特定の国のユーザーに電子メールを送信する旅を作成します。 **[!UICONTROL Event]**&#x200B;次に a という a を **[!UICONTROL Condition]** 追加します。
 
    ![](assets/journey_5.png)
 
-1. 制限付きの「**国籍**」フィールドを選択して、式の作成を開始します。
+1. 式の作成を開始するには、制限 **された国** フィールドを選択します。
 
    ![](assets/journey_6.png)
 
-1. 「**[!UICONTROL 条件]**」を編集し、制限付きの「**国籍**」フィールドを持つ特定の母集団をターゲットにします。
+1. **[!UICONTROL Condition]**「」を編集して、特定の人口を制限 **される国** フィールドでターゲットにします。
 
    ![](assets/journey_7.png)
 
-1. 必要に応じてジャーニーをパーソナライズします。ここでは、**[!UICONTROL メール]**&#x200B;アクションを追加します。
+1. 必要に応じてカスタマイズします。ここでは、アクションを追加 **[!UICONTROL Email]** します。
 
    ![](assets/journey_8.png)
 
-ラベル C2 オブジェクトへのアクセス権を持たないユーザー Y が、この制限付きフィールドを使用するこのジャーニーにアクセスする必要がある場合：
+次のように制限されたフィールドを使用して、C2 オブジェクトへのアクセスを許可しないユーザーが、このような旅にアクセスする必要がある場合は、
 
-* ユーザー Y にはこのフィールドは表示されないので、制限付きのフィールド名を使用できません。
+* ユーザー Y は表示されないので、制限されているフィールド名を使用することはできません。
 
-* ユーザー Y は、フィールド名が制限された式を詳細設定モードで編集できません。「`The expression is invalid. Field is no longer available or you don't have enough permission to see it`」のエラーが表示されます。
+* 詳細モードでは、ユーザー Y は制限されたフィールド名を使用して式を編集できません。 次のエラーが表示さ `The expression is invalid. Field is no longer available or you don't have enough permission to see it` れます。
 
-* ユーザー Y は式を削除できます。
+* ユーザー Y は式を削除することができます。
 
-* ユーザー Y はジャーニーをテストできません。
+* ユーザー Y は、旅をテストすることはできません。
 
-* ユーザー Y はジャーニーを公開できません。
+* ユーザー Y は、旅をパブリッシュすることはできません。

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 待機アクティビティ
-description: 待機アクティビティについて説明します
+title: 待機アクティビティー
+description: 待機アクティビティーについて
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,37 +10,37 @@ level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
-# 待機アクティビティ{#wait-activity}
+# 待機アクティビティー{#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="待機アクティビティ"
->abstract="パス内の次のアクティビティを実行するまで待機する場合は、「待機」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。期間とカスタムの 2 つのオプションを使用できます。"
+>title="待機アクティビティー"
+>abstract="パス内の次のアクティビティーが実行される前に待機する場合は、待機アクティビティーを使用できます。 これを使用すると、次のアクティビティが実行される瞬間を定義できます。 「期間」と「カスタム」の2つのオプションを選択できます。"
 
-パス内の次のアクティビティを実行するまで待機する場合は、「**[!UICONTROL 待機]**」アクティビティを使用できます。後に続くアクティビティを実行するタイミングを定義できます。選択肢は次の 3 つあります。
+パス内の次のアクティビティーが実行される前に待機する場合は、アクティビティーを使用 **[!UICONTROL Wait]** できます。 これを使用すると、次のアクティビティが実行される瞬間を定義できます。 次の3つのオプションを選択できます。
 
-* [期間](#duration)
-* [カスタム](#custom)
+* [持続](#duration)
+* [](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
 * [Fixed date](#fixed_date) 
 -->
 
-## 待機アクティビティについて{#about_wait}
+## 待機アクティビティーについて{#about_wait}
 
-最大の待機期間は 30 日です。テストモードでは、「**[!UICONTROL テストの待機時間]**」パラメーターを使用すると、各待機アクティビティの持続時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+最大待機時間は30日です。 テストモードでは、 **[!UICONTROL Wait time in test]** このパラメーターを使用して、各待機アクティビティーが終了する時刻を定義することができます。 初期設定では、10秒に設定されています。 これにより、テスト結果がすばやく取得されるようになります。 このページを参照してください [ 。](../building-journeys/testing-the-journey.md)
 
-グローバルジャーニーのタイムアウトが 30 日である（つまり、プロファイルはジャーニーに入って最大 30 日後にジャーニーから常にドロップアウトする）ので、1 つのジャーニーで複数の待機アクティビティを使用する場合は注意が必要です。
+グローバルな旅タイムアウトは30日なので、一度に複数の待機処理を使用する場合は注意してください。つまり、プロファイルは、それを入力してから30日後に必ずしも外出中に出てきます。
 
-## 期間待機{#duration}
+## デュレーション待ち{#duration}
 
-次のアクティビティを実行するまでの待機期間を選択します。
+次のアクティビティが実行されるまでの待機時間を選択します。
 
 ![](assets/journey55.png)
 
@@ -55,13 +55,13 @@ Select the date for the execution of the next activity.
 
 ## カスタム待機{#custom}
 
-このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。この[ページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式の詳細については、[このページ](expression/data-types.md)を参照してください。
+このオプションを使用すると、イベントまたはデータソースから取得されたフィールドを基にした高度な式を使用して、5pm に12月 12 2020 月など、カスタム日付を定義することができます。 カスタムデュレーションを定義することはできません。例えば、7日を指定することもできます。 式エディター内の式には、dateTimeOnly 形式を指定する必要があります。 この [ ページ ](expression/expressionadvanced.md) を参照してください。 DateTimeOnly 形式について詳しくは、この [ ページ ](expression/data-types.md) を参照してください。
 
 >[!NOTE]
 >
->dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例：「toDateTimeOnly(@{Event.offerOpened.activity.endTime})」の場合、イベント内のフィールドは「2016-08-12T09:46:06Z」の形式になります。
+>DateTimeOnly 式を活用したり、関数を使用して dateTimeOnly に変換したりすることができます。 例えば、次のようにします。 toDateTimeOnly (@ {offerOpened)、イベントのフィールドは 2016-08-12T09 :46: 06z になります。
 >
->ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、今のところ、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（2016-08-12T09:46:06.982-05 など）をインターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
+>**このタイムゾーン** は、フライトのプロパティに含まれている必要があります。その結果、今日のインターフェイスでは、完全な ISO-8601 タイムスタンプの混合時刻と 2016-08 (12T09 :46: ) のようなタイムゾーンのオフセットを直接ポイントすることはできません。 このページ ](../building-journeys/timezone-management.md) を参照してください [ 。
 
 ![](assets/journey57.png)
 

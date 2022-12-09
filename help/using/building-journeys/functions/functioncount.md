@@ -1,51 +1,51 @@
 ---
 product: journey optimizer
-title: count
-description: count 関数について説明します
+title: ティック
+description: 関数数について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 100%
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
-# count {#count}
+# ティック {#count}
 
-null 値を数に入れずに、リストの要素数を数えます。
+Null 値を考慮しないリストの要素を数えます。
 
-## カテゴリ
+## 項目
 
-集計
+総計
 
-## 関数の構文
+## 関数のシンタックス
 
 `count(<listAny>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| 一連 | listString |
+| 一連 | listBoolean |
+| 一連 | listInteger |
+| 一連 | リスト10進数 |
+| 一連 | listDuration |
+| 一連 | listDateTime |
+| 一連 | listDateTimeOnly |
+| 一連 | listDateOnly |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `count(<listAny>)`
 
-整数を返します。
+整数値を返します。
 
-## 例
+## 一
 
 `count([10,2,10,null])`
 
-3 を返します。
+3を返します。

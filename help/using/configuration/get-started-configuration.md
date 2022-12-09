@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Journey Optimizer]  設定の概要'
-description: ' [!DNL Journey Optimizer]  設定について説明します。'
+title: 設定を使用した作業の  [!DNL Journey Optimizer]  開始
+description: 設定について  [!DNL Journey Optimizer]  詳しくは、
 role: Admin
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
@@ -10,54 +10,54 @@ feature: Application Settings
 topic: Administration
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 54%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
 
-# [!DNL Journey Optimizer] 設定の基本を学ぶ {#start-optimizer-configuration}
+# 設定を使用した作業の [!DNL Journey Optimizer] 開始 {#start-optimizer-configuration}
 
-[!DNL Journey Optimizer]に初めてアクセスする際には、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
+初めてアクセス [!DNL Journey Optimizer] するときには、実働サンドボックスが提供され、契約によっては一定数の IPs が割り当てられます。
 
-ジャーニーを作成してメッセージを送信するには、次の設定手順に従う必要があります。
+Journeys を作成し、メッセージを送信するには、以下の設定手順を実行する必要があります。
 
 ## メッセージとチャネルの設定
 
-1. メッセージを作成して送信するには、チャネルに応じて特定の設定をおこなう必要があります。
+1. メッセージを作成して送信できるようにするには、チャネルに応じて特定の設定を行う必要があります。
 
-   * の **電子メール** channel では、サブドメインをAdobeにデリゲートし、IP プールを作成して IP アドレスをグループ化する必要があります。 [詳細情報](../email/get-started-email-config.md)
+   * **電子メール** チャンネルについては、Adobe にサブドメインを委任し、ip アドレスをグループ化するための ip プールを作成する必要があります。[詳細情報](../email/get-started-email-config.md)
 
-   * の **プッシュ** チャネル、プッシュ通知設定を [!DNL Adobe Experience Platform] および [!DNL Adobe Experience Platform Launch]. [詳細情報](../push/push-configuration.md)
+   * **プッシュ** チャネルについては、と [!DNL Adobe Experience Platform Launch] の両方 [!DNL Adobe Experience Platform] にプッシュ通知設定を定義する必要があります。[詳細情報](../push/push-configuration.md)
 
-   * の **SMS** チャネルに接続する場合は、プロバイダーの設定と [!DNL Journey Optimizer]. [詳細情報](../sms/sms-configuration.md)
+   * **Sms** チャネルについては、プロバイダー設定 [!DNL Journey Optimizer] の統合を含む、sms を送信するようにインスタンスを設定する必要があります。[詳細情報](../sms/sms-configuration.md)
 
-1. 完了したら、 **チャンネルサーフェス** ：メッセージの配信に必要なすべての技術的パラメーターを設定します。 [詳細情報](channel-surfaces.md)
+1. その後、メッセージを配信するために必要なすべての技術パラメーターを設定するために、チャネルサーフェス **を作成** する必要があります。[詳細情報](channel-surfaces.md)
 
-1. 以下の手順でも可能です。
+1. 次のこともできます。
 
-   * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
+   * 電子メールアドレスを抑制リストに送信する前にリトライが実行される日数を管理します。 [詳細情報](manage-suppression-list.md)
 
-   * を有効にします。 **BBC メールオプション** 個人に送信するメッセージのコピーを保持する場合。 [詳細情報](archiving-support.md#enable-bcc)
+   * 個人に送信されたメッセージのコピーを保存するには、 **「BBC 電子メール」オプション** をオンにします。 [詳細情報](archiving-support.md#enable-bcc)
 
-   * 設定 **頻度ルール** 受信者に過度の勧誘をしないようにする場合。 [詳細情報](frequency-rules.md)
+   * 頻度ルール **を構成** して、受信者の solicitating オーバーを回避します。[詳細情報](frequency-rules.md)
 
-   * Adobe Experience Platformで複数のアドレスや番号が使用可能な場合、受信者に優先して使用する電子メールアドレスや電話番号を決定します。 [詳細情報](primary-email-addresses.md)
+   * Adobe エクスペリエンスプラットフォームでいくつかのアドレスと電話番号が使用可能な場合に、宛先にどの電子メールアドレスと電話番号を使用するかを指定します。 [詳細情報](primary-email-addresses.md)
 
 <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
 
 >[!NOTE]
 >
->これらの手順は、[Adobe Journey Optimizer システム管理者](../start/path/administrator.md)が実行する必要があります。
+>これらの手順は、 [ Adobe 旅オプティマイザーのシステム管理者 ](../start/path/administrator.md) が実行する必要があります。
 
-## ジャーニーの設定
+## Journeys の構成
 
-ジャーニーを作成するには、次を設定する必要があります **[!UICONTROL データソース]**, **[!UICONTROL イベント]** および **[!UICONTROL アクション]**. [詳細情報](about-data-sources-events-actions.md)
+Journeys を作成するには、と **[!UICONTROL Actions]** を **[!UICONTROL Events]** 設定 **[!UICONTROL Data Sources]** する必要があります。[詳細情報](about-data-sources-events-actions.md)
 
 ![](assets/admin-menu.png)
 
-* **データソース**&#x200B;設定では、ジャーニーで使用する追加情報を取得するためにシステムへの接続を定義できます。[詳細情報](../datasource/about-data-sources.md)
+* **データソース** 設定を使用すると、journeys で使用される追加情報を取得するための、システムへの接続を定義することができます。[詳細情報](../datasource/about-data-sources.md)
 
-* **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで必要なイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取り込み API から取り込みます。[詳細](../event/about-events.md)
+* **イベント** を使用すると、journeys unitarily を利用して、その過程に流れている個々のメッセージをリアルタイムに送信することができます。 イベントの設定では、journeys に必要なイベントを設定します。 受信イベントデータは、Adobe エクスペリエンスデータモデル (XDM) の後に標準化されています。 イベントは、認証および認証されていないイベント (Adobe Mobile SDK イベントなど) 用のストリーミング取り込み Api によって発生します。 [詳細情報](../event/about-events.md)
 
-* [!DNL Journey Optimizer] には、コンテンツのデザインと送信を可能にするメッセージ機能が組み込まれています。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。[詳細情報](../action/action.md)
+* [!DNL Journey Optimizer] に用意されているメッセージ機能によって、コンテンツをデザインして送信することができます。 サードパーティシステムを使用してメッセージを送信する場合は、カスタムアクション **を** 作成します。[詳細情報](../action/action.md)

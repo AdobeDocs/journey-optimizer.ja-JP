@@ -1,51 +1,51 @@
 ---
 product: journey optimizer
-title: split
-description: split 関数について説明します
+title: 分割
+description: 関数分割について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 100%
+source-wordcount: '65'
+ht-degree: 0%
 
 ---
 
-# split {#split}
+# 分割 {#split}
 
-1 番目の引数文字列を区切り文字列（2 番目の引数文字列：正規表現を指定可能）で分割して、文字列（トークン）のリストを作成します。
+最初の引数のストリングが区切りストリング (正規表現になる場合があります) に分割され、ストリングのリスト (トークン) が生成されます。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `split(<parameters>)`
 
 ## パラメーター
 
-| パラメーター | タイプ |
+| 指定 | 入力 |
 |-----------|------------------|
-| 入力文字列 | 文字列 |
-| 区切り文字列 | 文字列 |
+| 入力ストリング | 値 |
+| 区切り文字 | 値 |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `split(<input string>, <separator string>)`
 
-文字列リストを返します。
+ListString を返します。
 
-## 例
+## 一
 
 `split(["A_B_C"], "_")`
 
-`["A","B","C"]` を返します。
+制御 `["A","B","C"]`
 
-イベントフィールド「event.appVersion」の値が「20.45.2.3434」の場合の例
+次の例では、値が value: &quot;20.45.2.3434&quot; であるイベントフィールド &#39; appVersion &#39; を使用しています。
 
 `split(@{event.appVersion}, "\\.")`
 
-`["20", "45", "2", "3434"]` を返します
+制御 `["20", "45", "2", "3434"]`

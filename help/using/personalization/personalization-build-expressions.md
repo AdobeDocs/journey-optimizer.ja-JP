@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 式エディターについて
-description: 式エディターの操作方法を説明します。
+title: エクスプレッションエディターについて
+description: 式エディターを使用した作業について説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,46 +10,46 @@ level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
-# 式エディターについて {#build-personalization-expressions}
+# エクスプレッションエディターについて {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="式エディターについて"
->abstract="式エディターインターフェイスを使用すると、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。"
+>title="エクスプレッションエディターについて"
+>abstract="式エディターを使用すると、すべてのデータを選択、配置、カスタマイズ、検証して、コンテンツのカスタマイズされたパーソナル化を作成できます。"
 
-式エディターは、[!DNL Journey Optimizer] のパーソナライズ機能の中核です。メール、プッシュ、オファーなど、パーソナライゼーションを定義する必要があるすべてのコンテキストで利用できます。
+式エディターは、の [!DNL Journey Optimizer] 個人用設定の centerpiece です。 この機能は、電子メール、プッシュ、オファーのような個人用設定を定義する必要があるすべてのコンテキストで使用できます。
 
-式エディターインターフェイスでは、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
+式エディターのインターフェイスでは、すべてのデータを選択、配置、カスタマイズ、検証することで、コンテンツのカスタマイズされたパーソナル化を作成できます。
 
 ![](assets/perso_ee1.png)
 
-画面の左側には、パーソナライゼーションのソースを選択できるドメインセレクターが表示されます。
+画面の左側にはドメインセレクターが表示されます。これにより、パーソナル化のソースを選択することができます。
 
 ![](assets/perso_ee3.png)
 
-利用可能なソースは次のとおりです。
+使用できるソースは以下のとおりです。
 
-* **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}に記載のプロファイルスキーマに関連付けられているすべての参照を一覧表示します。
-* **[!UICONTROL セグメントメンバーシップ]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのセグメントを一覧表示します。セグメント化について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-* **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../email/add-offers-email.md)を参照してください。
-* **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）がジャーニーで使用される場合、コンテキストジャーニーフィールドはこのメニューから使用できます。詳しくは、[この節](personalization-use-case.md)を参照してください。
-* **[!UICONTROL ヘルパー関数]**：データの操作を実行できるすべてのヘルパー関数を示します。データの操作には、計算、データのフォーマットやコンバージョン、条件、パーソナライゼーションのコンテキストでの操作などがあります。詳しくは、[この節](functions/functions.md)を参照してください。
+* **[!UICONTROL Profile attributes]**: Adobe エクスペリエンス Platform データモデル (XDM) マニュアル ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) で [ 説明されているプロファイルスキーマに関連するすべての参照が一覧表示されます (target = &quot;_blank&quot;})。
+* **[!UICONTROL Segment memberships]** : Adobe エクスペリエンスプラットフォームセグメンテーションサービスで作成されたすべてのセグメントの一覧を表示します。 セグメンテーション [ について詳しくは ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 、{target = &quot;_blank&quot;} を参照してください。
+* **[!UICONTROL Offer decisions]** : 特定の配置に関連付けられたすべてのオファーを一覧表示します。 「配置」を選択して、コンテンツに「オファー」を挿入します。 キャンペーンの管理方法について詳しくは、ここ ](../email/add-offers-email.md) を [ 参照してください。
+* **[!UICONTROL Contextual attributes]** : チャネルアクションアクティビティ (電子メール、プッシュ、SMS) が旅に使用されると、状況に応じた各フィールドが表示されます。 詳しくは、ここを [ ](personalization-use-case.md) 参照してください。
+* **[!UICONTROL Helper functions]** : 計算、データフォーマット、変換、条件など、データに対する操作を実行するために使用できるすべてのヘルパー関数が一覧表示されます。これは、パーソナル化のコンテキストでそれらを操作するときに使用されます。 詳しくは、ここを [ ](functions/functions.md) 参照してください。
 
-「+」ボタンをクリックすると、エディターに属性を追加できます。
+「+」ボタンをクリックすると、エディターに属性が追加されます。
 
 >[!NOTE]
 >
->「+」アイコンの横にある楕円メニューを使用すると、各変数の詳細を取得したり、使用頻度の高い属性を[お気に入り](personalization-favorites.md)に追加したりできます。
+>「+」アイコンの横にある楕円メニューを使用すると、各変数に関する詳細情報を取得し、最も頻繁に [ 使用される「お気に入り ](personalization-favorites.md) 」属性を追加することができます。
 
 ![](assets/attribute-details.png)
 
-次の例では、式エディターを使用して、本日が誕生日のプロファイルを選択し、この日に対応する特定のオファーを挿入してカスタマイズを完了します。
+次の例では、式エディターを使用して、今日の誕生日が含まれているプロファイルを選択します。これにより、その日に対応する特定の特典が挿入されます。
 
 ![](assets/perso_ee2.png)
 
-パーソナライズ機能の式を準備できたら、式エディターで検証する必要があります。詳しくは、[この節](personalization-validation.md)を参照してください。
+パーソナル化条件式の準備が完了したら、式エディターを使用して、その式が検証されるようにする必要があります。 詳しくは、ここを [ ](personalization-validation.md) 参照してください。

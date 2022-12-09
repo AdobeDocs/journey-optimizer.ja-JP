@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform のデータソース
-description: Adobe Experience Platform のデータソースの設定方法を学ぶ
+title: Adobe エクスペリエンス Platform データソース
+description: Adobe エクスペリエンス Platform のデータソースを設定する方法について説明します。
 feature: Data Sources
 topic: Administration
 role: Admin
@@ -10,45 +10,44 @@ level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform のデータソース {#adobe-experience-platform-data-source}
+# Adobe エクスペリエンス Platform データソース {#adobe-experience-platform-data-source}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
->title="Adobe Experience Platform のデータソース"
->abstract="Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは組み込みで事前に設定されているので、削除できません。これは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリしたユーザーが女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。"
+>title="Adobe エクスペリエンス Platform データソース"
+>abstract="Adobe エクスペリエンス Platform データソースによって、アドビのリアルタイムカスタマープロファイルとの接続が定義されます。 このデータソースは組み込まれていて、事前に設定されています。削除することはできません。 これは、リアルタイムカスタマープロファイルサービスからデータを取得して使用するように設計されています (例えば、旅に入った人物が女性であるかどうかを確認します)。 これを使用すると、プロファイルデータを使用して、イベントデータを体験することができます。"
 
-Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは組み込みで事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。Adobe リアルタイム顧客プロファイルサービスについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+Adobe エクスペリエンス Platform データソースによって、アドビのリアルタイムカスタマープロファイルとの接続が定義されます。 このデータソースは組み込まれていて、事前に設定されています。削除することはできません。 このデータソースは、リアルタイムカスタマープロファイルサービスからのデータを取得して使用するように設計されています (例えば、旅に入った人物が女性であるかどうかをチェックします)。 これを使用すると、プロファイルデータを使用して、イベントデータを体験することができます。 Adobe リアルタイムカスタマープロファイルについて詳しくは、『 adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) {target = &quot;_blank&quot;} を [ 参照してください。
 
 
-リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。[詳細情報](../building-journeys/journey.md)。
+リアルタイムカスタマープロファイルサービスに接続するには、キーを使用して人物を識別し、名前空間でキーを contextualizes する必要があります。 そのため、このデータソースを使用できるのは、journeys がキーと名前空間を含むイベントで開始する場合に限られます。 [詳しく ](../building-journeys/journey.md) は、こちらを参照してください。
 
-「ProfileFieldGroup」という名前の事前設定済みフィールドグループを編集し、新しいグループを追加して、ドラフトまたはライブジャーニーで使用されていないフィールドグループを削除できます。[詳細情報](../datasource/configure-data-sources.md#define-field-groups)。
+&quot;ProfileFieldGroup&quot; という名前の事前に設定されたフィールドグループを編集して、新規に追加し、ドラフトまたはライブ journeys で使用されていないものを削除できます。 [詳しく ](../datasource/configure-data-sources.md#define-field-groups) は、こちらを参照してください。
 
 
 >[!NOTE]
 >
->1 年以内に作成された際の 1,000 件のエクスペリエンスイベントを取得できます。
+>1年未満で作成された最新の1000イベントを取得することができます。
 
-ビルトインデータソースにフィールドグループを追加する主な手順は次のとおりです。
+ここでは、フィールドグループを build インデータソースに追加するための主な手順について説明します。
 
-1. データソースのリストから、ビルトインの Adobe Experience Platform データソースを選択します。
+1. データソースのリストから、「Adobe エクスペリエンスプラットフォームデータソース」を選択します。
 
-   画面の右側にデータソース設定ペインが開きます。
-
+   これにより、画面の右側にデータソースの構成ペインが表示されます。
 
    ![](assets/journey23.png)
 
-1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、新しく取得する一連のフィールドを定義します。[詳細情報](../datasource/configure-data-sources.md#define-field-groups)。
+1. クリックし **[!UICONTROL Add a New Field Group]** て、取得する一連の新しいフィールドを定義します。 [詳しく ](../datasource/configure-data-sources.md#define-field-groups) は、こちらを参照してください。
 
    ![](assets/journey24.png)
 
-1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。このフィールドリストのプロファイルとエクスペリエンスのイベントスキーマは、Adobe Experience Platform で入手できます。[!DNL Journey Optimizer] ではスキーマの作成は実行されません。Adobe Experience Platformでおこなわれます
+1. ドロップダウンリストから **[!UICONTROL Schema]** スキーマを選択します。 このフィールドには、Adobe エクスペリエンスプラットフォームで利用可能なプロファイルと経験イベントのスキーマが一覧表示されます。 では、スキーマの [!DNL Journey Optimizer] 作成は実行されません。 この機能は、Adobe エクスペリエンスプラットフォームで実行されます。
 1. 使用するフィールドを選択します。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 「」を **[!UICONTROL Save]** クリックします。
 
-フィールドグループの名前にカーソルを置くと、右側に 2 つのアイコンが表示されます。これらのアイコンを使用すると、フィールドグループを削除および複製できます。**[!UICONTROL 削除]**&#x200B;アイコンは、フィールドグループがライブジャーニーまたはドラフトジャーニー（「**[!UICONTROL 使用されている場所]**」フィールドに表示される情報）で使用されていない場合にのみ使用できます。
+フィールドグループの名前の上にカーソルを置くと、右側に2つのアイコンが表示されます。 これを使用すると、フィールドグループを削除したり、複製したりすることができます。 **[!UICONTROL Delete]**&#x200B;このアイコンは、どのライブまたはドラフトにもフィールドグループが使用されていない場合にのみ使用できます (この **[!UICONTROL Used in]** フィールドに表示される情報)。

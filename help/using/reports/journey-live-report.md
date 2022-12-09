@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーライブレポート
-description: ジャーニーライブレポートのデータの使用方法について説明します
+title: ライブレポートの旅
+description: 旅のライブレポートのデータを使用する方法を学習します。
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,176 +10,176 @@ level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 0%
 
 ---
 
-# ジャーニーライブレポート {#journey-live-report}
+# ライブレポートの旅 {#journey-live-report}
 
-ジャーニーライブレポートは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、ジャーニーから直接アクセスできます。
+旅のライブレポートには、 **[!UICONTROL View report]** ボタンを使用して直接アクセスすることができます。
 
 ![](assets/report_journey.png)
 
-ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;ページは次のタブで表示されます。
+次のタブを使用して、旅 **[!UICONTROL Live report]** ページが表示されます。
 
-* [ジャーニー](#journey-live)
-* [メール](#email-live)
-* [プッシュ](#push-live)
+* [旅](#journey-live)
+* [電子メール](#email-live)
+* [プル](#push-live)
 * [SMS](#sms-live)
 
-ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、ジャーニーの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](live-report.md#modify-dashboard)を参照してください。
+この旅 **[!UICONTROL Live report]** は、旅の成功と間違いについての様々な widget に分割されています。 各 widget については、必要に応じてサイズ変更や削除を行うことができます。 詳細については、ここを [ ](live-report.md#modify-dashboard) 参照してください。
 
-Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](live-report.md#list-of-components-live)を参照してください。
+アドビシステムズ社のオプティマイザーで利用可能なすべてのメトリックスのリストについては、このページ ](live-report.md#list-of-components-live) を [ 参照してください。
 
-## 「ジャーニー」タブ {#journey-live}
+## 「フライト」タブ {#journey-live}
 
-ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL ジャーニー]**」タブには、ジャーニーに関する最も重要なトラッキングデータが明確に表示されます。
+タブを使用 **[!UICONTROL Live report]** **[!UICONTROL Journey]** すると、旅に関する最も重要なトラッキングデータを表示できます。
 
 ![](assets/journey_live_1.png)
 
-+++ジャーニーレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
+詳細については、「詳細」を参照してください。
 
-**[!UICONTROL ジャーニーのパフォーマンス]**&#x200B;を使用すると、ターゲットとするプロファイルのパスをジャーニーの初めから終わりまで段階的に表示できます。
+**[!UICONTROL Journey Performance]** では、ターゲットのプロファイルのパスを段階的に調べることができます。
 
-**[!UICONTROL ジャーニーの統計情報]**&#x200B;ウィジェットには、次の KPI が表示されます。
+**[!UICONTROL Journey Statistics]** Widget には、次のように kpi が表示されます。
 
-* **[!UICONTROL エントリしたプロファイル]**：ジャーニーのエントリイベントに到達した個人の合計数。
+* **[!UICONTROL Entered profiles]**: 旅の入場イベントに達した人物の総数を示します。
 
-* **[!UICONTROL 退出したプロファイル]**：ジャーニーから退出した個人の合計数。
+* **[!UICONTROL Exited profiles]**: 旅を終了した人物の総数です。
 
-* **[!UICONTROL 失敗した個別のジャーニー]**：正常に実行されなかった個別のジャーニーの総数。
+* **[!UICONTROL Failed individual journeys]**: 正常に実行されなかった個々の journeys の合計数。
 
-「**[!UICONTROL 過去 24 時間以内に実行されたイベント]**」ウィジェットと「**[!UICONTROL イベント]**」ウィジェットを使用すると、どのイベントが正常に実行されたかをサマリー番号、グラフおよびテーブルから確認できます。
+および widget を使用すると **[!UICONTROL Events]** 、 **[!UICONTROL Event executed over the last 24 hours]** どのイベントが実行されたかを、要約数、グラフ、テーブルのいずれかで確認することができます。
 
-「**[!UICONTROL 過去 24 時間以内に実行されたアクション]**」ウィジェットと「**[!UICONTROL 実行されたアクションとエラー]**」ウィジェットは、最も成功したアクションと、アクションがトリガーされたときに発生したエラーを表します。アクションのグラフ、テーブルおよびサマリー番号には、アクションに関する次のようなデータが含まれています。
+And **[!UICONTROL Actions executed and errors]** widget は **[!UICONTROL Action executed over the last 24 hours]** 、アクションがトリガーされたときに発生する、最も成功したアクションとエラーを表します。アクショングラフ、テーブル、および概要番号には、次のようなアクションに使用可能なデータが含まれています。
 
-* **[!UICONTROL 実行されたアクション]**：ジャーニーで正常に実行されたアクションの総数。
+* **[!UICONTROL Actions executed]**: 旅中に正常に実行された操作の合計数です。
 
-* **[!UICONTROL アクションのエラー]**：アクションで発生したエラーの総数。
+* **[!UICONTROL Error in actions]**: アクションについて発生したエラーの合計数。
 +++
 
-## 「メール」タブ  {#email-live}
+## 電子メールタブ {#email-live}
 
-ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、ジャーニーで送信されるメール配信に関連する主な情報の詳細が表示されます。
+このタブには、お客様の旅において **[!UICONTROL Live report]** 、お客様との間で送信された電子メール配信に関する重要な情報が表示され **[!UICONTROL Email]** ます。
 
 ![](assets/journey_live_2.png)
 
-+++メールレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
+電子メールレポートに使用できる様々なメトリックスと widget について詳しくは、+ + + こちらを参照してください。
 
-**[!UICONTROL メール送信統計情報]**&#x200B;ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
+Widget には、メッセージを基準とした重要な情報が表示され **[!UICONTROL Email Sending Statistics]** ます。
 
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
+* **[!UICONTROL Delivered]**: 正常に送信されたメッセージの数を指定します。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL Bounces]**: 配信中に発生したエラーの合計数が累積され、戻り処理は自動的に実行されます。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL Errors]**: 配信中に発生したエラーの総数が、プロファイルに送信されるのを防ぐことができます。
 
-**[!UICONTROL メール別送信指標]**&#x200B;テーブルと&#x200B;**[!UICONTROL メールの概要]**&#x200B;グラフに、配信が成功した詳細を示します。
+テーブルと **[!UICONTROL Email Summary]** グラフは、 **[!UICONTROL Sending metrics by Email]** 配信が成功した場合に、次のことを行います。
 
-* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+* **[!UICONTROL Sent]**: 配布に使用された送信の合計数。
 
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
+* **[!UICONTROL Delivered]**: 正常に送信されたメッセージの数を指定します。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL Bounces]**: 配信中に発生したエラーの合計数が累積され、戻り処理は自動的に実行されます。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL Errors]**: 配信中に発生したエラーの総数が、プロファイルに送信されるのを防ぐことができます。
 
-* **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
+* **[!UICONTROL Opens]**: メッセージが配信中に開かれた回数を示します。
 
-* **[!UICONTROL クリック数]**：配信でコンテンツがクリックされた回数。
+* **[!UICONTROL Clicks]**: 配信されたコンテンツをクリックした回数。
 
-* **[!UICONTROL 購読解除]**：購読解除リンクのクリック数。
+* **[!UICONTROL Unsubscribe]**: Unsubscription リンクのクリック回数。
 
-* **[!UICONTROL スパムの苦情数]**：メッセージがスパムまたは迷惑メールとして宣言された回数。
+* **[!UICONTROL Spam complaints]**: メッセージがスパムまたは迷惑メールとして宣言された回数。
 
-**[!UICONTROL バウンス理由]**、**[!UICONTROL バウンスカテゴリ]**、**[!UICONTROL ハードとバウンス - メール別]**&#x200B;などのウィジェットには、バウンスメッセージに関して利用できるデータが含まれます。
+**[!UICONTROL Bounce Reasons]** **[!UICONTROL Bounce categories]** および **[!UICONTROL Hard and bounce - by Email]** widget には、バウンスメッセージに関連する次のようなデータが含まれています。
 
-* **[!UICONTROL ハードバウンス]**：永続的なエラー（メールアドレスの間違いなど）の合計数。このエラーは、アドレスが無効であることを明示的に示すエラーメッセージ（例：「不明なユーザー」）を伴います。
+* **[!UICONTROL Hard bounce]**: 電子メールアドレスの間違いなどの永続的なエラーの合計数。 これには、不明なユーザーなど、アドレスが無効であることを示すエラーメッセージが表示されます。
 
-* **[!UICONTROL ソフトバウンス数]**：一時的なエラー（インボックスが満杯など）の合計数。
+* **[!UICONTROL Soft bounce]**: 完全な受信ボックスなど、一時的なエラーの合計数。
 
-* **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
+* **[!UICONTROL Ignored]**: 「外出中」などの一時的な合計数、または送信者の種類がポストマスターである場合などの技術的なエラーが挙げられます。
 
-**[!UICONTROL エラーの理由]**&#x200B;および&#x200B;**[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+**[!UICONTROL Error Reasons]**&#x200B;および **[!UICONTROL Exclude Reasons]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
-「**[!UICONTROL 電子メール - 上位の受信者ドメイン]**」のグラフと表は、受信者が電子メールを開くために最も多く使用しているドメインの詳細を示しています。
+グラフとテーブルに **[!UICONTROL Email - Top recipient domain]** は、電子メールを開くために受信者が最も頻繁に使用するドメインが詳しく表示されます。
 
 >[!NOTE]
 >
->オファーのウィジェットと指標は、決定がメールに挿入された場合にのみ使用できます。 意思決定管理について詳しくは、[このページ](../offers/get-started/starting-offer-decisioning.md)を参照してください。
+>提示される widget and metrics は、電子メールに意思決定が追加された場合にのみ使用できます。 意思決定管理について詳しくは、この [ ページ ](../offers/get-started/starting-offer-decisioning.md) を参照してください。
 
-**[!UICONTROL オファーの統計情報]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL オファーの時系列の統計情報]**&#x200B;ウィジェットは、オファーの成功とターゲットオーディエンスへの影響を測定します。メッセージに関連する主な情報について、以下の KPI を使用して詳しく説明します。
+**[!UICONTROL Offers statistics]**&#x200B;時間と共に一定の widget を使用することで、お客様に提供される成功と影響が **[!UICONTROL Offers statistic]** 計測されます。Kpi を使用してメッセージに関連する主要な情報を詳細に説明します。
 
-* **[!UICONTROL 送信されたオファー]**：オファーの送信の総数。
+* **[!UICONTROL Offer sent]**: 申し出の合計数。
 
-* **[!UICONTROL オファーのインプレッション]**：オファーが配信で開かれた回数。
+* **[!UICONTROL Offer impression]**: 配信中にオファーが開かれた回数を指定します。
 
-* **[!UICONTROL オファーのクリック数]**：配信でオファーがクリックされた回数。
+* **[!UICONTROL Offer clicks]**: 配信中にキャンペーンがクリックされた回数。
 +++
 
 ## 「プッシュ通知」タブ {#push-live}
 
-ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ通知]**」タブには、ジャーニーで送信されたプッシュ配信に関連する主な情報の詳細が表示されます。
+このタブには、お客様 **[!UICONTROL Live report]** が旅に送信された配信に関する主な情報が記載され **[!UICONTROL Push notification]** ています。
 
 ![](assets/journey_live_3.png)
 
-+++プッシュレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
++ + + プッシュレポートに使用できる様々なメトリックスと widget について詳しくは、こちらを参照してください。
 
-**[!UICONTROL プッシュ通知の送信パフォーマンス]**、 **[!UICONTROL プッシュ通知の概要]**&#x200B;および&#x200B;**[!UICONTROL 送信指標（プッシュ別）]**&#x200B;の各ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
+**[!UICONTROL Push notification sending performance]**、ウィジェットによって、 **[!UICONTROL Push notification summary]** メッセージを基準とし **[!UICONTROL Sending metrics - by Push]** た重要な情報が表示されます。
 
-* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+* **[!UICONTROL Sent]**: 配布に使用された送信の合計数。
 
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
+* **[!UICONTROL Delivered]**: 正常に送信されたメッセージの数を指定します。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL Bounces]**: 配信中に発生したエラーの合計数が累積され、戻り処理は自動的に実行されます。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL Errors]**: 配信中に発生したエラーの総数が、プロファイルに送信されるのを防ぐことができます。
 
-* **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
+* **[!UICONTROL Opens]**: メッセージが配信中に開かれた回数を示します。
 
-* **[!UICONTROL アクション]**：配信されたプッシュ通知に対するアクション（ボタンのクリックや解除など）の合計数。
+* **[!UICONTROL Actions]**: プッシュ通知で配信されたアクションの合計数 (例えば、ボタンのクリックまたは dismissal)。
 
-* **[!UICONTROL エンゲージメント]**：このプッシュ通知に対する開封数とアクション数（「プロファイルがプッシュを開封した」、「ボタンがクリックされた」など）の合計。
+* **[!UICONTROL Engagements]**: このプッシュ通知のオープン数とアクション数の合計、つまり、プロファイルからプッシュが開かれたか、ボタンがクリックされたかどうかを示します。
 
-**[!UICONTROL エラーの理由]**&#x200B;および&#x200B;**[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+**[!UICONTROL Error Reasons]**&#x200B;および **[!UICONTROL Exclude Reasons]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
-**[!UICONTROL 送信統計 - 失敗]**&#x200B;ウィジェットには、発生したエラーとバウンスの数が表示されます。
+この widget を使用すると、 **[!UICONTROL Sending statistics - Failed]** エラーが発生した回数と、バウンスが発生したことを確認できます。
 
-**[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
+**[!UICONTROL Tracking by platform]** **[!UICONTROL Sending by platform]** 、、グラフ、および **[!UICONTROL Breakdown by platform]** テーブルによって、稼働システムによってはプッシュ通知が成功したかを確認することができます。
 +++
 
 ## 「SMS」タブ {#sms-live}
 
 ![](assets/journey_live_4.png)
 
-+++SMS レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+、SMS レポートに使用できる様々なメトリックスと widget について詳しく説明します。
 
-**[!UICONTROL SMS - 送信統計]**&#x200B;テーブルは、配信の成功の詳細を示します。
+以下の表は **[!UICONTROL SMS - Sending statistics]** 、配信が成功したことを示しています。
 
-* **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
+* **[!UICONTROL Targeted]**&#x200B;この配信には、ターゲットのプロファイルとして認定されるユーザープロファイルの数を指定します。
 
-* **[!UICONTROL 除外]** : ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
+* **[!UICONTROL Excluded]**: メッセージが配信されなかった対象のプロファイルから除外されたユーザープロファイルの数。
 
-* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+* **[!UICONTROL Sent]**: 配布に使用された送信の合計数。
 
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
+* **[!UICONTROL Delivered]**: 正常に送信されたメッセージの数を指定します。
 
-* **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
+* **[!UICONTROL Opens]**: メッセージが配信中に開かれた回数を示します。
 
-* **[!UICONTROL クリック数]**：配信でコンテンツがクリックされた回数。
+* **[!UICONTROL Clicks]**: 配信されたコンテンツをクリックした回数。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL Bounces]**: 配信中に発生したエラーの合計数が累積され、戻り処理は自動的に実行されます。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL Errors]**: 配信中に発生したエラーの総数が、プロファイルに送信されるのを防ぐことができます。
 
-**[!UICONTROL SMS の概要]**&#x200B;グラフは、配信の成功の詳細を示します。
+このグラフは **[!UICONTROL SMS Summary]** 、配信が成功したことを示します。
 
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
+* **[!UICONTROL Delivered]**: 正常に送信されたメッセージの数を指定します。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL Bounces]**: 配信中に発生したエラーの合計数が累積され、戻り処理は自動的に実行されます。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL Errors]**: 配信中に発生したエラーの総数が、プロファイルに送信されるのを防ぐことができます。
 
-**[!UICONTROL 除外された理由]**のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+これらの **[!UICONTROL Exclude Reasons]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 +++

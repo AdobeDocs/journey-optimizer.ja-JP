@@ -1,6 +1,6 @@
 ---
-title: Web チャネルの基本を学ぶ
-description: Journey Optimizer の web チャネルについて学ぶ
+title: Web チャンネルの使用を開始する
+description: 旅のオプティマイザーでの web チャンネルについて学習します。
 feature: Overview
 topic: Content Management
 role: User
@@ -11,25 +11,25 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Web チャネルの基本を学ぶ {#get-sarted-web}
+# Web チャンネルの使用を開始する {#get-sarted-web}
 
 >[!AVAILABILITY]
 >
->現在、web チャネル機能は、一部のユーザーのみが利用できるベータ版として使用できます。
+>Web チャンネル機能は、現在のところユーザーのみを選択するためのベータ版として提供されています。
 
-[!DNL Journey Optimizer] では、パーソナライズされた web エクスペリエンスを視覚的に作成し、顧客に提供できます。
+[!DNL Journey Optimizer] では、パーソナライズされた web エクスペリエンスを視覚的に作成および配信できます。
 
-既にメール、SMS、プッシュ通知などのアウトバウンドチャネルを使用している場合は、インバウンド web チャネルを活用して、すべてのチャネルにわたって真にパーソナライズされたエクスペリエンスを提供できるようになりました。
+電子メール、SMS、push 通知のような送信チャンネルを既に使用している場合は、着信 web チャンネルを活用して、すべてのチャンネルにわたって、非常にパーソナライズされたエクスペリエンスを提供することができます。
 
 >[!CAUTION]
 >
->現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してのみ web エクスペリエンスを作成できます。
+>現在の [!DNL Journey Optimizer] ところ、キャンペーン **を使用して** web エクスペリエンスを作成することしかできません。
 
-この機能により、直感的なビジュアルインターフェースを通じて、web プロパティを簡単に変更し、エンドユーザーキャンペーンを実験、最適化、パーソナライズできます。
+この機能を使用すると、直観的なビジュアルインターフェイスを使用して web プロパティを容易に修正して、エンドユーザーの操作を実験、最適化およびカスタマイズすることができます。
 
 <!--
 [Learn more on web channel in this video](#video)

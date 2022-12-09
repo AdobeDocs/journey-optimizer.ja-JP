@@ -1,6 +1,6 @@
 ---
 title: タグの検索
-description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
+description: タグを使用すると、キャンペーンをより簡単に整理し、並べ替えることができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,29 +9,29 @@ exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # タグの検索 {#look-up-tag}
 
-[!DNL Offer Library] API に対してリクエストパスにタグの `@id` または名前を含める GET リクエストを実行することで、特定のタグを検索できます。
+要求パス内のタグの名前またはタグを含む `@id` GET 要求を API に [!DNL Offer Library] 対して行うことによって、特定のタグを検索することができます。
 
-**API 形式**
+**API フォーマット**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | タグが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | タグが配置されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | タグに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:tag:124e147572cd7866` |
-| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Holiday sales and promotions` |
+| `id` | エンティティのプロパティを検索 `@id` するために使用されるストリング。 ストリングは正確に一致します。 パラメーター `id` を指定して `name` 、同時に使用することはできません。 | `xcore:tag:124e147572cd7866` |
+| `name` | エンティティの xdm: name プロパティを検索するために使用されるストリング。 このストリングは、大文字と小文字が区別されますが、ワイルドカード文字を使用することもできます。 パラメーター `id` を `name` 一緒に使用することはできません。 | `Holiday sales and promotions` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X GET \
@@ -43,9 +43,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}' \
 ```
 
-**応答**
+**対し**
 
-正常な応答では、タグに関する詳細（コンテナ ID、インスタンス ID、一意のタグ `@id` に関する情報を含む）が返されます。
+応答が成功した場合は、タグの詳細が返されます。これは、コンテナ ID、インスタンス ID、および一意のタグ `@id` に関する情報を含みます。
 
 ```json
 {

@@ -1,59 +1,59 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer リソースに対する監査アクション
-description: Journey Optimizer リソースで実行されたアクションを追跡する方法について説明します。
+title: 関連するオプティマイザーリソースに対する操作の監査
+description: 旅のオプティマイザーリソースに対して実行されたアクションを追跡する方法について説明します。
 feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 0%
 
 ---
 
-# Journey Optimizer リソースに対する監査アクション {#track-changes}
+# 関連するオプティマイザーリソースに対する操作の監査 {#track-changes}
 
 ## 監査ログについて {#audit-logs}
 
-Journey Optimizer を使用すると、ジャーニー、メッセージ、ランディングページなど、様々なサービスや機能に対してシステム内のユーザーが実行したアクションを識別できます。
+このような旅により、システムのユーザーが実行した操作は、journeys、メッセージ、ランディングページなどの様々なサービスと機能によって識別できます。
 
-これにより、システムで実行されるアクティビティの可視性の向上、問題のトラブルシューティング、ビジネスの規制や企業データ管理ポリシーへの準拠が可能になります。
+これにより、システムで実行されたアクティビティの可視性が向上します。問題が解決され、ビジネスにおける規制や企業データ管理方針の順守が容易になります。
 
-各アクションは、メタデータと共に、Adobe Experience Platform でアクセス可能な「監査ログ」に記録されます。UI または API での監査ログの表示方法や管理方法など、監査ログについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ja)を参照してください。
+各アクションは、Adobe エクスペリエンスプラットフォームでアクセス可能な「監査ログ」にメタデータと共に記録されます。 監査ログの詳細については、「Adobe エクスペリエンス統合ガイド ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html) 」を [ 参照してください。
 
 ![](assets/audit-logs.png)
 
-## 監査ログで記録されるイベントタイプ {#events}
+## 監査ログによってキャプチャされたイベントタイプ {#events}
 
-次の表に、監査ログで Journey Optimizer リソースが記録されるアクションの概要を示します。
+以下の表は、監査ログによって、旅オプティマイザーのリソースが記録されるアクションを示しています。
 
 >[!NOTE]
 >
->監査ログで記録されるアクションの一覧については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ja#category)を参照してください。
+>監査ログに記録されているすべてのアクションのリストは、Adobe エクスペリエンスプラットフォーム ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category) で [ 利用できます。
 
 | リソース | アクション |
 |-----------|------------------|
-| AJO キャンペーン | 作成／削除／更新／アクティベート／停止 |
-| AJO チャネルの一般設定 | 作成／削除／更新 |
-| AJO IP プール | 作成／削除／更新 |
-| AJO ランディングページ | 作成／削除／更新／公開／非公開 |
-| AJO ランディングページ HTML テンプレート | 作成／削除／更新 |
-| AJO ランディングページプリセット | 作成／削除／更新 |
-| AJO ランディングページサブドメイン | 作成／削除／更新 |
-| AJO メッセージ | 作成／削除／更新／公開 |
-| AJO メッセージプリセット | 作成／削除／更新 |
-| AJO PTR レコード | 作成／削除／更新 |
-| AJO で保存された式テンプレート | 作成／削除／更新 |
-| AJO SMS API 資格情報 | 作成／削除／更新 |
-| AJO サブドメイン | 作成／削除／更新 |
-| AJO 抑制リスト | CSV の作成／削除／ダウンロード |
-| フィールドグループ | 作成／削除／更新 |
-| ジャーニー | 作成／削除／更新／停止／公開 |
-| ジャーニーのカスタムアクション | 作成／削除／更新 |
-| ジャーニーデータソース | 作成／削除／更新 |
-| ジャーニーイベント | 作成／削除／更新 |
-| メッセージ頻度ルール | 作成／削除／更新 |
-| ランキング戦略 | 作成／削除／更新 |
+| AJO キャンペーン | 作成/削除/更新/アクティブ化/停止 |
+| AJO チャネル全般設定 | 作成/削除/更新 |
+| AJO IP プールの管理 | 作成/削除/更新 |
+| AJO ランディングページ | 作成、削除、更新、パブリッシュ、未発行 |
+| AJO ランディングページの HTML テンプレート | 作成/削除/更新 |
+| AJO ランディングページのプリセット | 作成/削除/更新 |
+| AJO ランディングページサブドメイン | 作成/削除/更新 |
+| AJO メッセージの表示 | 作成/削除/更新/パブリッシュ |
+| AJO メッセージプリセット | 作成/削除/更新 |
+| AJO PTR レコード | 作成/削除/更新 |
+| AJO 保存された式テンプレート | 作成/削除/更新 |
+| AJO SMS API の資格情報 | 作成/削除/更新 |
+| AJO サブドメイン | 作成/削除/更新 |
+| AJO 抑制リスト | CSV の作成/削除/ダウンロード |
+| フィールドグループ | 作成/削除/更新 |
+| 旅 | 作成/削除/更新/停止/パブリッシュ |
+| 旅のカスタムアクション | 作成/削除/更新 |
+| 「旅のデータソース」 | 作成/削除/更新 |
+| 旅イベント | 作成/削除/更新 |
+| メッセージ頻度ルール | 作成/削除/更新 |
+| ランク付け方針 | 作成/削除/更新 |

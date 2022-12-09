@@ -1,77 +1,77 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーの実行の開始
-description: ジャーニーを開始し、メッセージを送信する方法を学ぶ
+title: 過程の実行を開始
+description: ここでは、旅に着手し、メッセージを送信する方法について説明します。
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
 
-# ジャーニーの実行 {#message-execution}
+# 旅の実行 {#message-execution}
 
-## ジャーニーのテスト
+## 旅のテスト
 
-テストプロファイルを使用してジャーニーをテストできます。設定とメッセージを検証する場合は、この手順を実行することをお勧めします。
+テストプロファイルを使用して、旅のテストを行うことができます。 設定とメッセージを確認するために、この手順を実行することをお勧めします。
 
-詳しくは、この[節](testing-the-journey.md)を参照してください。
+詳しくは、ここを [ ](testing-the-journey.md) 参照してください。
 
-## ジャーニーの有効化
+## 旅のアクティブ化
 
-ジャーニーを公開して有効化する必要があります。
+有効にするには、旅を公開する必要があります。
 
 ![](assets/jo-journeyuc2_32bis.png)
 
-詳しくは、この[節](publishing-the-journey.md)を参照してください。
+詳しくは、ここを [ ](publishing-the-journey.md) 参照してください。
 
 
-公開したら、専用のレポートツールを使用してジャーニーを監視し、ジャーニーの有効性を測定できます。
+パブリッシュされた後、自分の旅を監視して、専用のレポートツールを使用して、旅の実効性を測定できます。
 
 ![](assets/jo-dynamic_report_journey_12.png)
 
-[レポートの詳細情報](../reports/live-report.md)
+[レポートについて詳しくは、](../reports/live-report.md)
 
-## メッセージの送信 {#send-messages}
+## メッセージを送信 {#send-messages}
 
-メッセージでコンテンツを定義すると、[ジャーニー](journey.md)を介して送信できる状態になります。
+コンテンツが定義されている場合は、メッセージを送信 [ ](journey.md) することができます。
 
-メッセージが送信されたら、複数のインジケーターを使用してメッセージの実行を監視できます。[レポートの詳細情報](../global-report.md)。
+メッセージが送信されると、複数のインジケーター間でその実行を監視することができます。 [レポート ](../global-report.md) について詳しくは、こちらを参照してください。
 
 ## メッセージのスケジュール {#schedule-messages}
 
-メッセージは、[ジャーニー](journey.md)の「**[!UICONTROL セグメントを読み取り]**」アクティビティを通じてスケジュールできます。セグメントがジャーニーにエントリするタイミングを指定できます。[セグメントの読み取りアクティビティの詳細](read-segment.md)。
+メッセージは、1つ [ ](journey.md) のステップから順番に実行 **[!UICONTROL Read Segment]** されます。セグメントがどのようにして旅に入るかを指定できます。 [「セグメントの読み取り」アクティビティ ](read-segment.md) について詳しく説明しています。
 
-これを行うには、以下の手順に従います。
+これを行うには、次の手順を実行します。
 
-1. ジャーニーを編集し、 **[!UICONTROL セグメントの読み取り]** アクティビティをドラッグ＆ドロップして設定を開始します。[セグメントの読み取りクティビティの設定の詳細](read-segment.md#configuring-segment-trigger-activity)。
+1. 移動を編集し、アクティビティーをドラッグ &amp; ドロップ **[!UICONTROL Read Segment]** して、構成を開始します。 [セグメントの読み取りアクティビティ ](read-segment.md#configuring-segment-trigger-activity) の設定について詳しくは、こちらを参照してください。
 
-1. 「**[!UICONTROL ジャーニースケジュールを編集]**」リンクをクリックして、ジャーニーのプロパティにアクセスします。
+1. **[!UICONTROL Edit journey schedule]**&#x200B;リンクをクリックして、旅のプロパティにアクセスします。
 
    ![](assets/message-read-segment-schedule.png)
 
-1. 「**[!UICONTROL スケジューラータイプ]**」フィールドを設定します。リストから目的の値を選択し、特定の日時または定期的にセグメントがジャーニーにエントリするようにします。
+1. 次の **[!UICONTROL Scheduler type]** ようにフィールドを設定します。一覧から必要な値を選択して、特定の日時に、または定期的にセグメントを入力するようにします。
 
    >[!NOTE]
    >
-   >「**[!UICONTROL スケジュール]**」セクションは、**[!UICONTROL セグメントを読み取り]**&#x200B;アクティビティがキャンバスにドロップされた場合にのみ使用できます。
+   >**[!UICONTROL Schedule]**&#x200B;このセクションは、操作が canvas にドロップされた場合に **[!UICONTROL Read Segment]** のみ使用できます。
 
    ![](assets/message-read-segment-scheduler.png)
 
-1. 「**[!UICONTROL 1 回]**」を選択した場合は、セグメントがジャーニーにエントリする特定の日時を定義します。
+1. このオプションを選択 **[!UICONTROL Once]** した場合は、セグメントが旅に入る日付と時刻を指定します。
 
    ![](assets/message-read-segment-scheduler-once.png)
 
-1. 繰り返しメソッドを選択した場合は、開始日時を編集します。オプションで終了日時を定義することもできます。
+1. 定期的なメソッドを選択した場合は、開始日時を変更します。 また、必要に応じて、最後に日付と時刻を指定することもできます。
 
    ![](assets/message-read-segment-scheduler-daily.png)
 
    >[!NOTE]
    >
-   >デフォルトでは、セグメントはジャーニーに&#x200B;**[!UICONTROL できるだけ早く]**（ジャーニーが公開されてから 1 時間後に）エントリします。
+   >デフォルトでは、セグメントは、旅が公開された後1時間分、旅 **[!UICONTROL As soon as possible]** に入ります。
 
-1. 「**[!UICONTROL OK]**」をクリックして変更を保存します。
+1. 変更を保存するには、をクリック **[!UICONTROL OK]** します。
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->

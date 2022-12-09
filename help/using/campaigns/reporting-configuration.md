@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 実験用の Journey Optimizer レポートを設定
-description: レポートデータソースの設定方法を学ぶ
+title: 実験用の旅オプティマイザーのレポートの設定
+description: レポートデータソースの設定方法について説明します。
 feature: Data Sources
 topic: Administration
 role: Admin
@@ -12,125 +12,125 @@ hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 0%
 
 ---
 
-# 実験用のレポートを設定 {#reporting-configuration}
+# 実験用のレポートの設定 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
->title="レポート用のデータセットを設定"
->abstract="レポート設定では、キャンペーンレポートの「目的」タブで使用する追加指標を取得できます。技術ユーザーが実行する必要があります。"
+>title="レポート用のデータセットの設定"
+>abstract="レポート設定を使用すると、キャンペーンレポートの目的タブに表示されるその他のメトリックスを取得することができます。 これは、テクニカルユーザーによって実行される必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
->title="データセットの選択"
->abstract="イベントタイプのデータセット を 1 つだけ選択できます。そのデータセットには、サポートされているフィールドグループ（アプリケーションの詳細、コマースの詳細、web の詳細）を 1 つ以上含める必要があります。"
+>title="データセットを選択します。"
+>abstract="選択できるイベントタイプのデータセットは、サポートされているフィールドグループのうち少なくとも1つを含む必要があります。これには、Application Details、商業詳細、Web 詳細が含まれています。"
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-レポートデータソースの設定により、キャンペーンレポートの「**[!UICONTROL 目的]**」タブで使用する追加指標を取得できます。[詳細情報](content-experiment.md#objectives-global)
+レポートデータソース設定を使用すると、キャンペーンレポートのタブに **[!UICONTROL Objectives]** 表示される追加のメトリックスを取得することができます。 [詳細情報](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
->レポートの設定は、技術ユーザーが実行する必要があります。<!--Rights?-->
+>レポート設定は、テクニカルユーザーが実行する必要があります。 <!--Rights?-->
 
-この設定の場合は、レポートに使用する追加の要素を含む 1 つ以上のデータセットを追加する必要があります。 これをおこなうには、[以下](#add-datasets)の手順に従います。
+この設定では、レポートに使用する追加エレメントを含む1つまたは複数のデータセットを追加する必要があります。 これを行うには、次の手順 [ ](#add-datasets) を実行します。
 
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 前提条件
+## 知識
 
 
-レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target=&quot;_blank&quot;}を参照してください。
+データセットをレポート構成に追加するには、事前にそのデータセットを作成しておく必要があります。 Adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create) {target = &quot;_blank&quot;} についての説明を参照して [ ください。
 
-* イベントタイプのデータセットのみを追加できます。
+* イベントタイプのデータセットを追加することはできません。
 
-* これらのデータセットには、次の[フィールド グループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target=&quot;_blank&quot;}のうち少なくとも 1 つが含まれている必要があります：**アプリケーションの詳細**、**コマースの詳細**、 **web の詳細**。
+* このようなデータセットには、次 [ のフィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) のうち少なくとも1つを含める必要があります {target = &quot;_blank&quot;}: **Application Details** 、 **商業 Details** 、 **Web Details**
 
    >[!NOTE]
    >
-   >現在、これらのフィールドグループのみがサポートされています。
+   >これらのフィールドグループのみが現在サポートされています。
 
-   例えば、メールキャンペーンが購入や注文などのコマースデータに与える影響を知りたい場合は、**コマースの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
+   例えば、購買や注文などの commerce データに対する電子メールキャンペーンの影響について理解する必要がある場合は、「commerce Details **」フィールドグループを使用** して、経験イベントデータセットを作成する必要があります。
 
-   同様に、モバイルインタラクションに関してレポートする場合は、**アプリケーションの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
+   同様に、モバイルインタラクションについてのレポートを作成する場合は、Application Details **フィールドグループを使用して** 、経験イベントデータセットを作成する必要があります。
 
-   各フィールドグループに対応する指標は[こちら](#objective-list)に表示されます。
+   各フィールドグループに対応するメトリックがここに ](#objective-list) 一覧表示 [ されます。
 
-* これらのフィールドグループは、1 つまたは複数のデータセットで使用する、1 つまたは複数のスキーマに追加できます。
+* これらのフィールドグループは、1つまたは複数のデータセットで使用される1つまたは複数のスキーマに追加できます。
 
 >[!NOTE]
 >
->XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+>Xdm について詳しくは、 [ xdm の「システム概要 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en) について」を参照してください。 {target = &quot;_blank&quot;}。
 
-## 各フィールドグループに対応する目標 {#objective-list}
+## 各フィールドグループに対応する目的 {#objective-list}
 
-以下の表は、各フィールドグループのキャンペーンレポートの「**[!UICONTROL 目標]**」タブに追加される指標を示しています。
+以下の表は、各フィールドグループのキャンペーンレポートのタブに追加されるメトリックを **[!UICONTROL Objectives]** 示しています。
 
-| フィールドグループ | 目標 |
+| フィールドグループ | 学習 |
 |--- |--- |
-| コマースの詳細 | 価格合計<br>支払い金額<br>（一意の）チェックアウト<br>（一意の）製品リストの追加数<br>（一意の）製品リストの開封数<br>（一意の）製品リストの削除<br>（一意の）製品リスト表示<br>（一意の）製品表示<br>（一意の）購入<br>（一意の）後で使用するために保存<br>製品価格合計<br>製品数 |
-| アプリケーションの詳細 | （一意の）アプリの起動回数<br>アプリの初回起動数<br>（一意の）アプリインストール数<br>（一意の）アプリのアップグレード数 |
-| Web の詳細 | （一意の）ページビュー数 |
+| 商取引の詳細 | 価格合計 <br> 支払額 <br> (一意 <br> ) 製品リストの追加 <br> (一意) 製品リストの表示 <br> (独自) 製品リストの削除 <br> (一意) 製品リストビュー (一意) 製品一覧ビュー <br> (一意) 製品ビュー <br> <br> (一意) Laters <br> 製品価格合計 <br> 製品の数量 |
+| アプリケーションの詳細 | Uniqueアプリが最初 <br> に起動 <br> (一意) アプリケーションのインストール <br> (独自) アプリアップグレード |
+| Web の詳細 | Uniqueページビュー |
 
-## データセットを追加 {#add-datasets}
+## データセットの追加 {#add-datasets}
 
-1. **[!UICONTROL 管理]**&#x200B;メニューで、「**[!UICONTROL 設定]**」を選択します。「**[!UICONTROL レポート]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
+1. **[!UICONTROL ADMINISTRATION]**&#x200B;メニューから、を選択 **[!UICONTROL Configurations]** します。**[!UICONTROL Reporting]**&#x200B;セクションのをクリック **[!UICONTROL Manage]** します。
 
    ![](assets/reporting-config-menu.png)
 
    既に追加されたデータセットのリストが表示されます。
 
-1. 「**[!UICONTROL データセット]**」タブで、「**[!UICONTROL データセットを追加]**」をクリックします。
+1. **[!UICONTROL Dataset]**&#x200B;タブでをクリック **[!UICONTROL Add dataset]** します。
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >「**[!UICONTROL システムデータセット]**」タブを選択した場合、システムで作成されたデータセットのみが表示されます。他のデータセットを追加することはできません。
+   >タブを選択 **[!UICONTROL System dataset]** した場合は、システムによって作成されたデータセットのみが表示されます。 他のデータセットを追加することはできません。
 
-1. **[!UICONTROL データセット]**&#x200B;ロップダウンリストで、レポートに使用するデータセットを選択します。
+1. **[!UICONTROL Dataset]**&#x200B;ドロップダウンリストから、レポートに使用するデータセットを選択します。
 
    >[!CAUTION]
    >
-   >選択できるのは、次のサポートされている[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}のうち少なくとも 1 つを含むイベントタイプのデータセットのみです：**アプリケーションの詳細**、**コマースの詳細**、**web の詳細**。これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
+   >選択できるイベントタイプのデータセットは、サポートされて [ いるフィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) のうち、少なくとも1つは {target = &quot;_blank&quot;}: **Application Details** 、 **商業 Details** 、 **Web details** 、のいずれかを含む必要があります。 この条件に一致しないデータセットを選択した場合は、変更を保存することはできません。
 
    ![](assets/reporting-config-datasets.png)
 
-   データセットについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   Adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) のデータセットについて詳しくは、 [ {target = &quot;_blank&quot;} を参照してください。
 
-1. **[!UICONTROL プロファイル ID]**&#x200B;ドロップダウンリストで、レポート内の各プロファイルを識別するために使用するデータセットフィールド属性を選択します。
+1. **[!UICONTROL Profile ID]**&#x200B;ドロップダウンリストから、レポート内の各プロファイルを識別するために使用されるデータセットのフィールド属性を選択します。
 
    ![](assets/reporting-config-profile-id.png)
 
    >[!NOTE]
    >
-   >レポートに使用できる ID のみが表示されます。
+   >レポートに使用できる Id のみが表示されます。
 
-1. 「**[!UICONTROL プライマリ ID 名前空間を使用]**」オプションはデフォルトで有効になっています。選択した&#x200B;**[!UICONTROL プロファイル ID]** が **[!UICONTROL ID マップ]**&#x200B;の場合、このオプションを無効にして、表示されるドロップダウンリストから別の名前空間を選択できます。
+1. **[!UICONTROL Use Primary ID namespace]**&#x200B;このオプションは初期設定では有効になっています。が **[!UICONTROL Identity Map]** 選択 **[!UICONTROL Profile ID]** されている場合は、このオプションを無効にして、表示されるドロップダウンリストから別の名前空間を選択することもできます。
 
    ![](assets/reporting-config-namespace.png)
 
-   名前空間について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   Adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) の名前空間について詳しくは、 [ {target = &quot;_blank&quot;} を参照してください。
 
-1. 変更を保存し、選択したデータセットをレポート設定リストに追加します。
+1. 変更を保存して、選択したデータセットをレポート設定リストに追加します。
 
    >[!CAUTION]
    >
-   >イベントタイプでないデータセットを選択した場合は、続行できません。
+   >イベントタイプではないデータセットを選択した場合、処理を続行することはできません。
 
-キャンペーンレポートを作成する際に、追加したデータセットで使用されるフィールドグループに対応する指標を表示できるようになりました。「**[!UICONTROL 目標]**」タブに移動し、目的の指標を選択して、レポートを微調整します。[詳細情報](content-experiment.md#objectives-global)
+キャンペーンレポートの作成時に、追加したデータセットで使用されているフィールドグループに対応するメトリックが表示されるようになりました。 タブに **[!UICONTROL Objectives]** 移動して、選択したメトリックを選択して、レポートをより細かく調整します。 [詳細情報](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->複数のデータセットを追加した場合、すべてのデータセットのすべてのデータをレポートできるようになります。
+>複数のデータセットを追加した場合は、すべてのデータセットのすべてのデータをレポートに使用できます。
 
 <!--
 ## How-to video {#video}

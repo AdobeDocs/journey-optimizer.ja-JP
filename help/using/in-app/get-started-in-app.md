@@ -1,6 +1,6 @@
 ---
-title: アプリ内メッセージの基本を学ぶ
-description: Journey Optimizer でアプリ内通知を送信する方法を学ぶ
+title: アプリ内メッセージの作成を開始します。
+description: アプリ内通知を旅のオプティマイザーで送信する方法について説明します。
 feature: Overview
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# アプリ内チャネルの基本を学ぶ {#gs-in-app}
+# アプリ内チャンネルの使用を開始します {#gs-in-app}
 
-アプリ内メッセージとは、特定の目標地点に向かってユーザーに送信できる通知です。 アプリ内通知を使用すると、サービスの提案、新機能や特別オファーのプロモーション、新しいユーザーのオンボーディングを行うことができます。
+アプリ内メッセージは、アプリケーション内部のユーザーに送信することができます。特定のポイントに向けて送ることができます。 アプリ内通知を使用して、サービスの提案、新機能の宣伝、特別なオファー、新規ユーザーの追加を行うことができます。
 
-Journey Optimizer を使用してアプリ内通知を作成し、メッセージのレイアウトと表示、テキスト、ボタンのオプションなどのエクスペリエンスオプションを設定できます。
+アプリケーション内の通知を作成するには、旅の最適化を使用し、メッセージのレイアウトと表示、テキスト、ボタンのオプションなどの環境設定のオプションを設定します。
 
 ![](assets/new-in-app.png)
 
-## 前提条件{#prerequisites-in-app}
+## 知識{#prerequisites-in-app}
 
-アプリ内メッセージを送信する前に、次の操作が必要です。
+アプリ内メッセージを送信する前に、次の操作を実行する必要があります。
 
-* アプリ内チャネルを設定します。[詳細情報](inapp-configuration.md)
+* アプリ内チャンネルを設定します。 [詳細情報](inapp-configuration.md)
 
-* 開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* 開始する前に、旅オプティマイザーのキャンペーンに対する適切な権限を持っているかどうかを確認してください。 [詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
-完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
+操作が完了したら、最初の app In app メッセージを作成、設定、送信することができます。 このセクション ](create-in-app.md) で [ は、これを行う方法について説明しています。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-in-app.md">
-<img alt="リード" src="../assets/do-not-localize/inapp-create.jpeg">
+<img alt="招き" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
 <div><a href="create-in-app.md"><strong>アプリ内メッセージの作成</strong>
 </div>
@@ -44,7 +44,7 @@ Journey Optimizer を使用してアプリ内通知を作成し、メッセー�
 </td>
 <td>
 <a href="design-in-app.md">
-<img alt="低頻度" src="../assets/do-not-localize/inapp-design.jpg">
+<img alt="ときどき" src="../assets/do-not-localize/inapp-design.jpg">
 </a>
 <div>
 <a href="design-in-app.md"><strong>アプリ内コンテンツのデザイン</strong></a>
@@ -64,7 +64,7 @@ Journey Optimizer を使用してアプリ内通知を作成し、メッセー�
 <img alt="検証" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>アプリ内チャネルの設定</strong></a>
+<a href="inapp-configuration.md"><strong>アプリ内チャンネルの設定</strong></a>
 </div>
 <p>
 </td>

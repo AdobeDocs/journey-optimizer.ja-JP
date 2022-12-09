@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: notEqualIgnoreCase
-description: notEqualIgnoreCase 関数について説明します
+description: 関数の notEqualIgnoreCase について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,32 +9,32 @@ exl-id: 74f8cae0-7d2f-4f5e-bc13-837c9bc69ad9
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-最初の引数の文字列と 2 番目の引数の文字列が異なるかどうかを、大文字と小文字の区別を無視して確認します。
+2番目の引数ストリングの最初の引数文字列が異なるかどうかを確認します。大文字と小文字の違いは無視されます。
 
-## カテゴリ
+## 項目
 
-文字列
+値
 
-## 関数の構文
+## 関数のシンタックス
 
 `notEqualIgnoreCase(<parameters>)`
 
 ## パラメーター
 
-* 文字列
+* 値
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `notEqualIgnoreCase(<string>,<string>)`
 
 ブール値を返します。
 
-## 例
+## 一
 
 `notEqualIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad")`

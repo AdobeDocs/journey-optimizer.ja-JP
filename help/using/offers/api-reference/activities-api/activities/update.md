@@ -1,6 +1,6 @@
 ---
-title: 決定の更新
-description: 決定には、オファーの選択を通知するロジックが含まれています。
+title: 更新プログラムの決定
+description: 「決定」には、申し出を選択したことを示すロジックが含まれています。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,39 +8,39 @@ level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
-# 決定の更新 {#update-decision}
+# 意思決定の更新 {#update-decision}
 
-[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内の決定を変更または更新できます。
+API に [!DNL Offer Library] 修正プログラムを適用することによって、コンテナの決定を変更または更新することができます。
 
-使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
+使用可能な操作を含む JSON 修正プログラムについて詳しくは、オフィシャル [ Json 修正プログラムのマニュアル ](http://jsonpatch.com/) を参照してください。
 
-## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
 
-| ヘッダー名 | 値 |
+| ヘッダー名 | 数値 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| コンテンツタイプ | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
-**API 形式**
+**API フォーマット**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| パラメーター | 説明 | 例 |
+| 指定 | つい | 一 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 決定のインスタンスID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 決定が配置されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 決定のインスタンス id です。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
-**リクエスト**
+**要求**
 
 ```shell
 curl -X PATCH \
@@ -60,15 +60,15 @@ curl -X PATCH \
     ]'
 ```
 
-| パラメーター | 説明 |
+| 指定 | つい |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove` があります。 |
-| `path` | 更新するパラメーターのパス。 |
-| `value` | パラメーターの更新に使用する新しい値。 |
+| `op` | 接続を更新するために必要なアクションを定義するために使用される操作呼び出し。 次のような操作を `remove` `replace` 実行できます。 `add` |
+| `path` | 更新するパラメーターのパスを指定します。 |
+| `value` | パラメーターを更新する新しい値を指定します。 |
 
-**応答**
+**対し**
 
-応答が成功すると、更新された決定の詳細（一意のインスタンス ID と決定 `@id` を含む）が返されます。
+応答が成功した場合は、一意のインスタンス ID と決定 `@id` を含む、決定の更新された詳細が返されます。
 
 ```json
 {

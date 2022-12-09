@@ -7,30 +7,30 @@ role: Data Engineer
 level: Experienced
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
 # 数学関数 {#math}
 
-式エディターで数学関数を使用する方法を説明します。
+式エディターで数学関数を使用する方法について説明します。
 
-## 絶対パス {#absolute}
+## 固定 {#absolute}
 
-`absolute` 関数は、数値をその絶対値を変換するために使用されます。
+この関数は、 `absolute` 数値を絶対値に変換するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= absolute(int) %}: int
 ```
 
-## ランダム {#random}
+## 無作為 {#random}
 
-`random` 関数は、0 ～ 1 の間のランダムな値を返すために使用されます。
+この関数は、 `random` 0 ~ 1 の範囲のランダムな値を返すために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= random() %}: double
@@ -38,9 +38,9 @@ ht-degree: 100%
 
 ## 切り捨て {#round-down}
 
-`roundDown` 関数は、数値を切り捨てるために使用されます。
+この関数は、 `roundDown` 数値を丸めるのに使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= roundDown(double) %}: double
@@ -48,29 +48,29 @@ ht-degree: 100%
 
 ## 切り上げ {#round-up}
 
-`Count only null` 関数は、数値を切り上げるために使用されます。
+`Count only null`この関数は、数値に切り上げられます。
 
-**形式**
+**書式**
 
 ```sql
 {%= roundUp(double) %}: double
 ```
 
-## パーセンテージに {#to-percentage}
+## 比率にする {#to-percentage}
 
-`toPercentage` 関数は数値をパーセンテージに変換するために使用されます。
+この関数は、 `toPercentage` 数値を百分率に変換するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= toPercentage(double) %}: string
 ```
 
-## 精度に {#to-precision}
+## 精度 {#to-precision}
 
-`toPrecision` 関数は、数値を必要な精度に変換するために使用されます。
+この関数は、 `toPrecision` 数値を必要な精度に変換するために使用されます。
 
-**形式**
+**書式**
 
 ```sql
 {%= toPrecision(double,int) %}: string

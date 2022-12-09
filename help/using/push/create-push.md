@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: プッシュ通知の設定
-description: Journey Optimizer でプッシュ通知を作成する方法を説明します
+description: この方法について詳しくは、旅のオプティマイザーでプッシュ通知を作成する方法を説明します。
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 56%
+source-wordcount: '655'
+ht-degree: 0%
 
 ---
 
@@ -20,112 +20,112 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="プッシュメッセージの作成"
->abstract="プッシュメッセージを追加し、式エディターを使用してパーソナライズを開始します。"
+>abstract="プッシュメッセージを追加し、エクスプレッションエディターを使用して、そのメッセージのパーソナライズを開始します。"
 
-## ジャーニーまたはキャンペーンでのプッシュ通知の作成 {#create}
+## 移動またはキャンペーンでのプッシュ通知の作成 {#create}
 
 プッシュ通知を作成するには、次の手順に従います。
 
 >[!BEGINTABS]
 
->[!TAB ジャーニーへのプッシュの追加]
+>[!TAB 旅へのプッシュの追加]
 
-1. ジャーニーを開き、パレットの「アクション」セクションからプッシュアクティビティをドラッグ&amp;ドロップします。
+1. 「パレット」の「アクション」セクションから、「プッシュ」アクティビティーをドラッグ &amp; ドロップします。
 
    ![](assets/push_create_1.png)
 
-1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力し、使用するメッセージサーフェスを選択します。
+1. メッセージに基本的な情報 (ラベル、説明、カテゴリー) を入力してから、使用するメッセージサーフェスを選択します。
 
    ![](assets/push_create_2.png)
 
    >[!NOTE]
    >
-   >ジャーニーからプッシュ通知を送信する場合、Adobe Journey Optimizerの送信時間の最適化機能を利用して、メッセージ送信の最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。 [送信時間の最適化の操作方法を説明します。](../building-journeys/journeys-message.md#send-time-optimization)
+   >このような場合は、Adobe 旅オプティマイザーの「送信時に通知」機能を利用して、メッセージを送信するのにかかる時間を短縮することができます。また、「時間を開く」および「クリックレート」に基づいて、最大限に活用することができます。 [送信時最適化の操作方法について説明します。](../building-journeys/journeys-message.md#send-time-optimization)
 
-   ジャーニーの設定方法について詳しくは、 [このページ](../building-journeys/journey-gs.md)
+   旅の設定方法について詳しくは、このページを [ 参照してください。](../building-journeys/journey-gs.md)
 
-1. ジャーニー設定画面で、 **[!UICONTROL コンテンツを編集]** ボタンをクリックして、プッシュコンテンツを設定します。 [プッシュ通知のデザイン](design-push.md)
+1. 「設定」ボタンをクリック **[!UICONTROL Edit content]** して、プッシュコンテンツを設定します。 [プッシュ通知のデザイン](design-push.md)
 
-1. メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。
+1. 作成したメッセージコンテンツについては、テストプロファイルを使用してプレビューとテストを行うことができます。
 
-1. プッシュの準備が整ったら、 [ジャーニー](../building-journeys/journey-gs.md) 送信する
+1. プッシュの準備ができたら、送信する旅 ](../building-journeys/journey-gs.md) の [ 設定を完了します。
 
-   プッシュの開封やインタラクションを通じて受信者の行動を追跡するには、トラッキングセクションの専用オプションが [メールアクティビティ](../building-journeys/journeys-message.md).
+   プッシュのオープニングまたは操作、またはその両方を使用して、受信者の動作を追跡するには、「追跡」セクションの専用のオプションが電子メール活動 ](../building-journeys/journeys-message.md) で [ 有効になっていることを確認してください。
 
 >[!TAB キャンペーンへのプッシュの追加]
 
-1. スケジュール済みまたは API トリガーキャンペーンを新しく作成し、 **[!UICONTROL プッシュ通知]** を選択します。 **[!UICONTROL アプリサーフェス]** を使用します。 [プッシュ設定の詳細を説明します](push-configuration.md).
+1. 新しくスケジュール設定されたまたは API トリガキャンペーンを作成するには、「操作として」を選択 **[!UICONTROL Push notification]** し、「使用する」を選択 **[!UICONTROL App surface]** します。 [詳細について詳しくは、こちらを参照して ](push-configuration.md) ください。
 
    ![](assets/push_create_3.png)
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. をクリック **[!UICONTROL Create]** します。
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの&#x200B;**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を編集します。
+1. **[!UICONTROL Properties]**&#x200B;セクションで、キャンペーンの **[!UICONTROL Title]** およびを **[!UICONTROL Description]** 編集します。
 
    ![](assets/push_create_4.png)
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストからターゲットオーディエンスを定義します。 [詳細情報](../segment/about-segments.md)。
+1. **[!UICONTROL Select audience]**&#x200B;このボタンをクリックして、使用可能な Adobe エクスペリエンスプラットフォームセグメントのリストから対象ユーザーを定義します。[詳しく ](../segment/about-segments.md) は、こちらを参照してください。
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)。
+1. **[!UICONTROL Identity namespace]**「」フィールドで、選択した区分の個人を識別するために使用する名前空間を選択します。[詳しく ](../event/about-creating.md#select-the-namespace) は、こちらを参照してください。
 
    ![](assets/push_create_5.png)
 
-1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
+1. キャンペーンは、特定の日付または定期的な頻度で実行するように設計されています。 この節 ](../campaigns/create-campaign.md#schedule) で [ は、 **[!UICONTROL Schedule]** キャンペーンの設定方法について説明します。
 
-1. 次の **[!UICONTROL アクショントリガー]** メニューから、 **[!UICONTROL 頻度]** プッシュ通知の次の情報：
+1. **[!UICONTROL Action triggers]**&#x200B;メニューからプッシュ通知のを選択 **[!UICONTROL Frequency]** します。
 
-   * 1 回
-   * 毎日
-   * 毎週
-   * 毎月
+   * ある時
+   * あたり
+   * ごと
+   * ヶ
 
-1. キャンペーンの設定画面で、 **[!UICONTROL コンテンツを編集]** ボタンをクリックして、プッシュコンテンツを設定します。 [プッシュ通知のデザイン](design-push.md)
+1. キャンペーンコンフィギュレーション画面で、ボタンをクリック **[!UICONTROL Edit content]** して、プッシュコンテンツを設定します。 [プッシュ通知のデザイン](design-push.md)
 
-1. メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。
+1. 作成したメッセージコンテンツについては、テストプロファイルを使用してプレビューとテストを行うことができます。
 
-1. プッシュの準備が整ったら、 [campaign](../campaigns/create-campaign.md) 送信する
+1. プッシュの準備ができたら、キャンペーン ](../campaigns/create-campaign.md) の [ 設定を完了して送信します。
 
-   プッシュの開封やインタラクションを通じて受信者の行動を追跡するには、トラッキングセクションの専用オプションが [campaign](../campaigns/create-campaign.md).
+   プッシュのオープニングや操作によって、宛先の動作を追跡するには、「追跡」セクションの専用のオプションがキャンペーン ](../campaigns/create-campaign.md) で [ 有効になっていることを確認してください。
 
 >[!ENDTABS]
 
 **関連トピック**
 
 * [プッシュチャネルの設定](push-gs.md)
-* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [メッセージの追加](../building-journeys/journeys-message.md)
 
-## 迅速配信モード {#rapid-delivery}
+## ラピッド配達モード {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="迅速配信モード"
->abstract="迅速配信モードプッシュチャネルで 3,000 万件未満のオーディエンスサイズに高速メッセージ送信を実行できます。"
+>title="ラピッド配達モード"
+>abstract="ラピッド配信モードを使用すると、プッシュチャネルでの30M 下にある視聴ユーザーのサイズに、高速メッセージ送信を実行することができます。"
 
-以前はジャーニーのバーストモードと呼ばれていた迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。
+Journeys の「バースト」モードは、事前に「バーストモード」と呼ばれていますが、この機能を使用すると、キャンペーン中に非常に高速な [!DNL Journey Optimizer] プッシュメッセージを送信できます。
 
-迅速配信は、メッセージ配信の遅延がビジネス上重要な場合、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。
+配信が遅くなるのは、メッセージ配信の遅延がビジネスにとって重要な場合、例えば、news channel app をインストールしたユーザーにとって重要なニュースのような携帯電話のようなすばやい通知を送信する場合に使用されます。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)を参照してください。
+高速配信モードを使用する場合のパフォーマンスについて詳しくは、『 Adobe 旅 Optimizer」製品の説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) を [ 参照してください。
 
-### 前提条件 {#prerequisites}
+### 知識 {#prerequisites}
 
-迅速配信メッセージには、次の要件があります。
+迅速な配信メッセージには、次のような要件があります。
 
-* 迅速配信は&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;キャンペーンでのみ使用でき、API トリガーキャンペーンでは使用できません。
-* プッシュメッセージはパーソナライズできません。
-* ターゲットオーディエンスに含まれるプロファイルの数は 3,000 万未満にする必要があります。
-* 迅速な配信モードを使用して、最大 5 つのキャンペーンを同時に実行できます。
+* すばやい配信は、キャンペーンのみに **[!UICONTROL Scheduled]** 使用できます。また、API によってトリガーされるキャンペーンには使用できません。
+* Push メッセージではカスタマイズが許可されていません。
+* 対象となるユーザーには、30M 未満のプロファイルが含まれている必要があります。
+* ラピッドデリバリモードを使用して、5つのキャンペーンを同時に実行することができます。
 
-### 迅速配信モードの有効化
+### 高速配信モードの有効化
 
-1. プッシュ通知キャンペーンを作成し、「**[!UICONTROL 迅速配信]**」オプションをオンに切り替えます。
+1. プッシュ通知キャンペーンを作成し、オプションで **[!UICONTROL Rapid delivery]** 切り替えます。
 
 ![](assets/create-campaign-burst.png)
 
-1. メッセージコンテンツを設定し、ターゲットにするオーディエンスを選択します。[キャンペーンの作成方法について学ぶ](#create)
+1. メッセージの内容を設定し、ターゲットを選択します。 [キャンペーンの作成方法について学習します。](#create)
 
    >[!IMPORTANT]
    >
-   >メッセージコンテンツにパーソナライゼーションが含まれていないことと、オーディエンスに含まれるプロファイルの数が 3,000 万未満であることを確認します。
+   >メッセージコンテンツに個人用設定が含まれていないこと、および対象ユーザーのプロファイルが30M より少ないことを確認してください。
 
-1. 通常どおり、キャンペーンをレビューしてアクティブ化します。テストモードでは、メッセージは迅速配信モードで送信されません。
+1. このようにして、キャンペーンを確認し、アクティブにします。 テストモードでは、メッセージは、ラピッド配信モードで送信されることはありません。

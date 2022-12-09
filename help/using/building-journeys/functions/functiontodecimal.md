@@ -1,40 +1,40 @@
 ---
 product: journey optimizer
 title: toDecimal
-description: toDecimal 関数について説明します
+description: 関数の10進数について
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
 # toDecimal {#toDecimal}
 
-引数の値をタイプに応じて小数値に変換します。
+引数の値を、その型に応じて10進数値に変換します。
 
-## カテゴリ
+## 項目
 
-変換
+処理
 
-## 関数の構文
+## 関数のシンタックス
 
 `toDecimal(<parameter>)`
 
 ## パラメーター
 
-| パラメーター | 説明 |
+| 指定 | つい |
 |--- |--- |
-| 文字列 | 文字列値を小数に変換します |
-| 日時 | 日付をミリ秒数（エポックミリ秒）に変換します |
-| ブール値 | ブール値を true の場合は 1 に、false の場合は 0 に変換します |
-| 整数 | 小数に変換します（例：1 は 1.0 になります） |
+| 値 | ストリング値を10進数に変換します。 |
+| dateTime | ミリ秒単位で日付を変換します (エポックミリ秒) |
+| 示す | ブール値を1に設定します。 true の場合は0、false の場合は0を返します。 |
+| 整数 | 10進数に変換されます (例を次に示します。: 1 が1.0 になります) |
 
-## シグネチャと戻り値のタイプ
+## シグネチャと戻り値の型
 
 `toDecimal(<integer>)`
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 `toDecimal(<boolean>)`
 
-小数を返します。
+10進数を返します。
 
 ## 例
 

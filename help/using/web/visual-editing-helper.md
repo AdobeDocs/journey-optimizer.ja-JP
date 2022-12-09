@@ -1,6 +1,6 @@
 ---
-title: Visual Editing Helper 拡張機能
-description: Journey Optimizer で web ページの作成とプレビューを可能にする、Visual Editing Helper Chrome 拡張機能について
+title: ビジュアル編集ヘルパー拡張機能
+description: 旅のオプティマイザーで web ページを作成およびプレビューするための視覚的な編集ヘルパー Chrome の拡張機能の発見
 feature: Overview
 topic: Content Management
 role: User
@@ -10,54 +10,54 @@ hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 0%
 
 ---
 
-# Visual Editing Helper 拡張機能 {#visual-editing-helper}
+# ビジュアル編集ヘルパー拡張機能 {#visual-editing-helper}
 
-Web エクスペリエンスをすばやく作成およびプレビューするために、Google Chrome 用 Adobe Experience Cloud Visual Editing Helper ブラウザー拡張機能を使用すると、Adobe [!DNL Journey Optimizer] Web Designer 内で確実に web サイトを読み込むことができます。
+Web エクスペリエンスを迅速に作成およびプレビューするには、Google Chrome 用の Adobe エクスペリエンスクラウドビジュアル編集ヘルパーブラウザー拡張機能を使用すると、アドビシステムズ社 [!DNL Journey Optimizer] の web デザイナーに web サイトを確実に読み込むことができます。
 
 >[!NOTE]
 >
->現在、web チャネル機能は、一部のユーザーのみが利用できるベータ版として使用できます。
+>Web チャンネル機能は、現在のところユーザーのみを選択するためのベータ版として提供されています。
 
-## Visual Editing Helper 拡張機能のインストール {#install-visual-editing-helper}
+## Visual 編集ヘルパー拡張機能のインストール {#install-visual-editing-helper}
 
-Visual Editing Helper ブラウザー拡張機能を取得してインストールするには、次の手順に従います。
+Visual 編集ヘルパーブラウザー拡張機能を入手してインストールするには、次の手順を実行します。
 
-1. Google Chrome web ストアから、[Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} ブラウザー拡張機能に移動します。
+1. Google Chrome Web Store から、Adobe エクスペリエンスクラウドビジュアル編集ヘルパー ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca) {target = &quot;_blank&quot;} ブラウザー拡張機能に [ 移動します。
 
-1. **[!UICONTROL Chrome に追加]**／**[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
+1. 「> **[!UICONTROL Add Extension]** 」をクリックし **[!UICONTROL Add to Chrome]** ます。
 
-1. [!DNL Journey Optimizer] で web チャネルキャンペーンを作成します。[方法についてはこちらを参照](author-web.md#create-web-campaign)
+1. で [!DNL Journey Optimizer] web channel キャンペーンを作成します。 [方法について説明します。](author-web.md#create-web-campaign)
 
-1. [!DNL Journey Optimizer] Web Designer を開いて、web エクスペリエンスの作成を開始します。 [詳細情報](author-web.md)
+1. Web デザイナーを開き、 [!DNL Journey Optimizer] web エクスペリエンスのオーサリングを開始します。 [詳細情報](author-web.md)
 
-1. 対応するアイコンをクリックして、Chrome ブラウザーのツールバーで Visual Editing Helper ブラウザー拡張機能が有効になっていることを確認します。
+1. 適切なアイコンをクリックして、Chrome ブラウザーのツールバーでビジュアル編集ヘルパーブラウザー拡張機能が有効になっていることを確認してください。
 
    ![](assets/web-visual-editing-extension.png)
 
-[!DNL Journey Optimizer] Web Designer で web サイトを開くと、Adobe Experience Cloud Visual Editing Helper が自動的に有効になり、作成が強化されます。
+Adobe エクスペリエンスクラウドのビジュアル編集ヘルパーは、web デザイナーで [!DNL Journey Optimizer] web サイトを開き、パワーオーサリングの際に自動的に有効になりました。
 
-この拡張機能には条件付きの設定はなく、SameSite Cookie の設定を含むすべての設定を自動処理します。
+拡張機能には条件付き設定がなく、SameSite cookie 設定を含むすべての設定が自動的に処理されます。
 
 >[!NOTE]
 >
->次のいずれかの理由により、[!DNL Journey Optimizer] Web Designer で一部の web サイトが正しく開けない場合があります。
+>Web デザイナーによっては、次のいずれかの理由により、 [!DNL Journey Optimizer] 表示が不安定になる場合があります。
 >
-> * Web サイトには厳格なセキュリティポリシーがあります。
-> * Web サイトで iframe が使用されています。
-> * 顧客の QA またはステージサイトが外部から利用できません（サイトは内部）。
+> * この web サイトには厳格なセキュリティポリシーが含まれています。
+> * Web サイトが iframe に含まれています。
+> * お客様の QA またはステージサイトは、外界では利用できません (サイトは内部)。
 
 
-## トラブルシューティング
+## 解決
 
-Adobe [!DNL Journey Optimizer] Web Designer では、読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper ブラウザー拡張機能](#install-visual-editing-helper)をインストールするよう促すメッセージが表示されます。
+Adobe [!DNL Journey Optimizer] web デザイナーを使用している場合、ロードに失敗した web サイトをロードしようとすると、Visual 編集ヘルパーブラウザー拡張機能 ](#install-visual-editing-helper) をインストール [ することを推奨するメッセージが表示されます。
 
-Adobe Experience Platform Web SDK がまだ web サイトに実装されていない場合は、Visual Editing Helper ブラウザー拡張機能をインストールして [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja) を実装することを促すメッセージが Web Designer に表示されます{target=&quot;_blank&quot;}。
+Adobe エクスペリエンス Platform Web SDK がまだ web サイトに実装されていない場合、web デザイナーには Visual 編集ヘルパーブラウザー拡張機能をインストールして、web SDK ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target = &quot;_blank&quot;} を実装 [ することを推奨するメッセージが表示されます。
 
-サイトの読み込みに失敗した場合や、予期しない動作が発生した場合は、Adobe [!DNL Journey Optimizer] に読み込む前に、ブラウザーで web サイトの Cookie を受け入れることで解決できる可能性があります。
+サイトの読み込みや予期しない動作が発生した場合は、web サイト上の cookie をブラウザーに入力してから、Adobe [!DNL Journey Optimizer] での読み込みを試みることにより、問題を解決することができます。
 
-認証中のページで、ログインページの読み込みに失敗した場合、またはログインしようとしてもログインできない場合は、まずブラウザーの別のタブでログインしてから、Adobe [!DNL Journey Optimizer] Web Designer で web サイトを読み込みます。
+認証でページが表示されている場合、ログインページのロードに失敗した場合、またはログインしていない場合はまだログインしていない場合は、まず、ログインしてブラウザーの別のタブに記録してから、アドビシステムズ社 [!DNL Journey Optimizer] の web デザイナーに web サイトをロードしてください。

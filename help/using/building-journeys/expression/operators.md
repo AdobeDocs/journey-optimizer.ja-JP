@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 演算子
-description: 高度な式で使用できる演算子について説明します
+title: Operators
+description: 高度な式の演算子について説明します。
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 0%
 
 ---
 
-# 演算子 {#operators}
+# Operators {#operators}
 
-演算子には、単項演算子と二項演算子の 2 種類があります。左単項演算子と右単項演算子があります。
+演算子には、単項演算子と二項演算子の2種類があります。 左側の単項演算子と右側の単項演算子には、左向きの単項演算子があります。
 
 ```json
     // left-hand unary operators
@@ -35,27 +35,27 @@ ht-degree: 100%
 
 ## 重要な注意事項{#important-notes}
 
-* 乗算（`*`）の場合、両方の演算フィールドのタイプは整数または 10 進数で同じにする必要があります。例：
-   * 以下の例は正しいです。`3.0 * 4.0`
-   * `3 * 4.0` はエラーを引き起こします
+* 乗算 ( `*` ) を使用する場合は、両方の演算フィールドの型が整数または decimal のいずれかである必要があります。 一
+   * 次の例は正しいとなります。 `3.0 * 4.0`
+   * `3 * 4.0` エラーになります。
 
-## 論理  {#logical}
+## 演算子  {#logical}
 
-### and
+### そして
 
 ```json
 <expression1> and <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
+&lt;expression1>And&lt;expression2>はブール値である必要があります。&lt;/expression2> &lt;/expression1>結果はブール値です。
 
-例：
+一
 
 ```json
 3.14 > 2 and 3.15 < 1
 ```
 
-### or
+### か
 
 
 
@@ -63,15 +63,15 @@ ht-degree: 100%
 <expression1> or <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
+&lt;expression1>And&lt;expression2>はブール値である必要があります。&lt;/expression2> &lt;/expression1>結果はブール値です。
 
-例：
+一
 
 ```json
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### じゃない
 
 
 
@@ -79,17 +79,17 @@ ht-degree: 100%
 not <expression>
 ```
 
-&lt;expression> はブール値である必要があります。結果はブール値です。
+&lt;expression> ブール値である必要があります。 &lt;/expression>結果はブール値です。
 
-例：
+一
 
 ```json
 not 3.15 < 1
 ```
 
-## 比較 {#comparison}
+## 関係 {#comparison}
 
-### is null
+### は null
 
 
 
@@ -99,15 +99,15 @@ not 3.15 < 1
 
 結果はブール値です。
 
-null は、式に評価値がないことを意味します。
+Null は、式に評価値が含まれていないことを意味します。
 
-例：
+一
 
 ```json
 @{BarBeacon.location} is null
 ```
 
-### is not null
+### は null ではありません。
 
 
 
@@ -117,15 +117,15 @@ null は、式に評価値がないことを意味します。
 
 結果はブール値です。
 
-null は、式に評価値がないことを意味します。
+Null は、式に評価値が含まれていないことを意味します。
 
-例：
+一
 
 ```json
 @{BarBeacon.location} is not null
 ```
 
-### has null
+### に null
 
 
 
@@ -133,11 +133,11 @@ null は、式に評価値がないことを意味します。
 <expression> has null
 ```
 
-&lt;expression> はリストである必要があります。結果はブール値です。
+&lt;expression> リストである必要があります。 &lt;/expression>結果はブール値です。
 
-リストに少なくとも 1 つの null 値が含まれているかどうかを識別するのに役立ちます。
+リストに含まれている null 値が少なくとも1つあることを確認する場合に便利です。
 
-例：
+一
 
 ```json
 ["foo", "bar", null] has null --  returns true.
@@ -157,9 +157,9 @@ null は、式に評価値がないことを意味します。
 
 >[!NOTE]
 >
->&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
+>&lt;expression1>&lt;expression2>データ型のコントロールはありません。&lt;/expression2> &lt;/expression1>
 
-例：
+一
 
 ```json
 3.14 == 42
@@ -169,7 +169,7 @@ null は、式に評価値がないことを意味します。
 "foo" == "bar"
 ```
 
-### ! =
+### !=
 
 
 
@@ -178,11 +178,11 @@ null は、式に評価値がないことを意味します。
 ```
 
 >[!NOTE]
->&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
+&lt;expression1>&lt;expression2>データ型のコントロールはありません。&lt;/expression2> &lt;/expression1>
 
 結果はブール値です。
 
-例：
+一
 
 ```json
 3.14 != 42
@@ -200,17 +200,17 @@ null は、式に評価値がないことを意味します。
 <expression1> > <expression2>
 ```
 
-日時は日時と比較できます。
+Datetime を Datetime と比較できます。
 
-「日時のみ」は「日時のみ」と比較することができます。
+Datetimeonly は、Datetimeonly と比較することもできます。
 
-整数と小数はどちらも、整数と小数の両方と比較できます。
+整数または decimal は、整数または10進数の両方を使用して比較できます。
 
-その他の組み合わせは禁止されています。
+他の任意の組み合わせは禁止されています。
 
 結果はブール値です。
 
-例：
+一
 
 ```json
 3.14 > 42
@@ -224,17 +224,17 @@ null は、式に評価値がないことを意味します。
 <expression1> >= <expression2>
 ```
 
-日時は日時と比較できます。
+Datetime を Datetime と比較できます。
 
-「日時のみ」は「日時のみ」と比較することができます。
+Datetimeonly は、Datetimeonly と比較することもできます。
 
-整数と小数はどちらも、整数と小数の両方と比較できます。
+整数または decimal は、整数または10進数の両方を使用して比較できます。
 
-その他の組み合わせは禁止されています。
+他の任意の組み合わせは禁止されています。
 
 結果はブール値です。
 
-例：
+一
 
 ```json
 42 >= 3.14
@@ -248,17 +248,17 @@ null は、式に評価値がないことを意味します。
 <expression1> < <expression2>
 ```
 
-日時は日時と比較できます。
+Datetime を Datetime と比較できます。
 
-「日時のみ」は「日時のみ」と比較することができます。
+Datetimeonly は、Datetimeonly と比較することもできます。
 
-整数と小数はどちらも、整数と小数の両方と比較できます。
+整数または decimal は、整数または10進数の両方を使用して比較できます。
 
-その他の組み合わせは禁止されています。
+他の任意の組み合わせは禁止されています。
 
 結果はブール値です。
 
-例：
+一
 
 ```json
 42 < 3.14
@@ -272,23 +272,23 @@ null は、式に評価値がないことを意味します。
 <expression1> <= <expression2>
 ```
 
-日時は日時と比較できます。
+Datetime を Datetime と比較できます。
 
-「日時のみ」は「日時のみ」と比較することができます。
+Datetimeonly は、Datetimeonly と比較することもできます。
 
-整数と小数はどちらも、整数と小数の両方と比較できます。
+整数または decimal は、整数または10進数の両方を使用して比較できます。
 
-その他の組み合わせは禁止されています。
+他の任意の組み合わせは禁止されています。
 
 結果はブール値です。
 
-例：
+一
 
 ```json
 42 <= 3.14
 ```
 
-## 算術計算 {#arithmetic}
+## 四捨五入 {#arithmetic}
 
 ### +
 
@@ -298,11 +298,11 @@ null は、式に評価値がないことを意味します。
 <expression1> + <expression2>
 ```
 
-両方の式は数値（整数または小数）である必要があります。
+どちらの式も数値 (整数または decimal) である必要があります。
 
-結果も数値です。
+結果も数値になります。
 
-例：
+一
 
 ```json
 1 + 2 -- returns 3
@@ -316,11 +316,11 @@ null は、式に評価値がないことを意味します。
 <expression1> - <expression2>
 ```
 
-両方の式は数値（整数または小数）である必要があります。
+どちらの式も数値 (整数または decimal) である必要があります。
 
-結果も数値です。
+結果も数値になります。
 
-例：
+一
 
 ```json
 2 - 1 -- returns 1
@@ -334,13 +334,13 @@ null は、式に評価値がないことを意味します。
 <expression1> / <expression2>
 ```
 
-両方の式は数値（整数または小数）である必要があります。
+どちらの式も数値 (整数または decimal) である必要があります。
 
-結果も数値です。
+結果も数値になります。
 
-&lt;expression2> は 0 以外である必要があります（0 の場合は戻り値が 0 になります）。
+&lt;expression2> 0以外 (0 を返す) を指定することはできません。&lt;/expression2>
 
-例：
+一
 
 ```json
 4 / 2 -- returns 2
@@ -354,11 +354,11 @@ null は、式に評価値がないことを意味します。
 <expression1> * <expression2>
 ```
 
-両方の式は数値（整数または小数）である必要があります。
+どちらの式も数値 (整数または decimal) である必要があります。
 
-結果も数値です。
+結果も数値になります。
 
-例：
+一
 
 ```json
 3 * 4 -- returns 12
@@ -372,19 +372,19 @@ null は、式に評価値がないことを意味します。
 <expression1> % <expression2>
 ```
 
-両方の式は数値（整数または小数）である必要があります。
+どちらの式も数値 (整数または decimal) である必要があります。
 
-結果も数値です。
+結果も数値になります。
 
-例：
+一
 
 ```json
 3 % 2 -- returns 1.
 ```
 
-## 数値計算 {#math}
+## 演算 {#math}
 
-### is numeric
+### は数値
 
 
 
@@ -392,15 +392,15 @@ null は、式に評価値がないことを意味します。
 <expression> is numeric
 ```
 
-式のタイプは整数または小数です。
+式の型は integer または decimal です。
 
-例：
+一
 
 ```json
 @ is numeric
 ```
 
-### is integer
+### は整数
 
 
 
@@ -408,15 +408,15 @@ null は、式に評価値がないことを意味します。
 <expression> is integer
 ```
 
-式のタイプは整数です。
+式の型は整数です。
 
-例：
+一
 
 ```json
 @ is integer
 ```
 
-### is decimal
+### 10進数
 
 
 
@@ -424,15 +424,15 @@ null は、式に評価値がないことを意味します。
 <expression> is decimal
 ```
 
-式のタイプは小数です。
+式の型は decimal です。
 
-例：
+一
 
 ```json
 @ is decimal
 ```
 
-## 文字列 {#string}
+## 値 {#string}
 
 ### +
 
@@ -446,11 +446,11 @@ null は、式に評価値がないことを意味します。
 <expression> + <string>
 ```
 
-2 つの式を連結します。
+これにより2つの式が連結されます。
 
-一方の式は、連結される文字列である必要があります。
+1つの式は、連結されたストリングである必要があります。
 
-例：
+一
 
 ```json
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
@@ -464,7 +464,7 @@ null は、式に評価値がないことを意味します。
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
-## 日付 {#date}
+## 古い {#date}
 
 ### +
 
@@ -474,9 +474,9 @@ null は、式に評価値がないことを意味します。
 <expression> + <duration>
 ```
 
-日時、日時のみ、期間のいずれかに期間を連結します。
+日付時刻に期間を追加するには、dateTimeOnly または duration を指定します。
 
-例：
+一
 
 ```json
 toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z

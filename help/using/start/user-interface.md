@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ユーザーインターフェイス
-description: Journey Optimizer のユーザーインターフェイスの詳細情報
+description: 旅オプティマイザーのユーザーインターフェイスについて詳しくは、
 feature: Overview
 topic: Content Management
 role: User
@@ -10,199 +10,199 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1475'
+ht-degree: 0%
 
 ---
 
 # ユーザーインターフェイス {#cjm-user-interface}
 
-[Adobe Experience Cloud](http://experience.adobe.com?lang=ja) に接続して、[!DNL Journey Optimizer] を参照します。
+Adobe エクスペリエンス Cloud ](http://experience.adobe.com) に [ 接続して、を [!DNL Journey Optimizer] 参照してください。
 
-ユーザーインターフェイスを閲覧する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}を参照してください。
+ユーザーインターフェイスを表示するときの主な概念は、Adobe エクスペリエンスプラットフォームでよく使用されています。 [詳しくは、『 Adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) {target = &quot;_blank&quot;} 参照してください。
 
-このユーザーインターフェイスで使用できるコンポーネントと機能は、付与されている[権限](../administration/permissions.md)と、使用している[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}によって異なります 。ご不明な点については、アドビカスタマーサクセスマネージャーまでお問い合わせください。
+ユーザーインターフェイスで使用可能なコンポーネントと機能は、アクセス許可 ](../administration/permissions.md) によって異なります。 licencing package ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) ({target = _blank &quot;) に [ よって異なり [ ます。どのような場合でも、ご不明な点がある場合は、Adobe カスタマーの成功についてご連絡ください。
 
 >[!NOTE]
 >
->このドキュメントは、製品のユーザーインターフェイスの最新の変更を反映して、頻繁に更新されます。ただし、一部のスクリーンショットは、ユーザーインターフェイスと少し異なる場合があります。
+>このマニュアルは、製品のユーザーインターフェイスに最新の変更が反映されるように頻繁に更新されています。 ただし、一部のスクリーンショットはユーザーインターフェイスと多少異なる場合があります。
 
 
 ## 左側のナビゲーション {#left-nav}
 
-左側のリンクを参照して、[!DNL Journey Optimizer] 機能にアクセスします。
+Access の機能にアクセス [!DNL Journey Optimizer] するには、左側のリンクを参照してください。
 
 ![](assets/ajo-home.png)
 
 >[!NOTE]
 >
->使用できる機能は、ユーザーの権限と使用許諾契約によって異なる可能性があります。
+>使用できる機能は、アクセス許可と使用許諾契約によって異なります。
 
-左側のナビゲーションで利用できるサービスと機能の一覧と、関連するヘルプページへのリンクを以下に示します。
+以下に示すのは、左側のナビゲーションに表示可能なサービスと機能の一覧と、関連するヘルプページへのリンクです。
 
-**ホーム**
+**オート**
 
-[!DNL Journey Optimizer] ホームページには、開始するための主要なリンクとリソースが含まれています。**[!UICONTROL 最近使用したもの]**&#x200B;リストには、最近作成したイベントおよびジャーニーへのショートカットが表示されます。このリストには、作成日と変更日およびステータスが表示されます。
+[!DNL Journey Optimizer] ホームページには、開始する主要なリンクとリソースが含まれています。 **[!UICONTROL Recents]**&#x200B;このリストでは、最近作成したイベントおよび journeys に対するショートカットが表示されます。このリストには、作成日と修正日およびステータスが表示されます。
 
-**[!UICONTROL ジャーニー管理]**
+**[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL ジャーニー]** - カスタマージャーニーを作成、設定および調整します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]** -お客様の journeys を作成し、構成して、オーケストレーションを行います。 [詳細情報](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL ランディングページ]** - ランディングページを作成、デザイン、テストおよび公開します。[詳細情報](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** -ランディングページの作成、設計、テストおよびパブリッシュを行います。 [詳細情報](../landing-pages/get-started-lp.md)
 
-**[!UICONTROL 意思決定管理]**
+**[!UICONTROL DECISION MANAGEMENT]**
 
-* **[!UICONTROL オファー]**：このメニューから最新のソースおよびデータセットにアクセスします。このセクションを使用して、新しいオファーを作成します。[詳細情報](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Offers]** -最新のソースおよびデータセットにアクセスするには、このメニューを参照してください。 このセクションを使用して、新しいオファーを作成します。 [詳細情報](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL コンポーネント]**：プレースメント、ルールおよびタグを作成します。[詳細情報](../offers/offer-library/key-steps.md)
+* **[!UICONTROL Components]** -配置、ルール、タグを作成します。 [詳細情報](../offers/offer-library/key-steps.md)
 
-**[!UICONTROL コンテンツ管理]**
+**[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL アセット]**：[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的リポジトリーです。[詳細情報](../email/assets-essentials.md)
+* **[!UICONTROL Assets]**[!DNL Adobe Experience Manager Assets Essentials]&#x200B;は、メッセージを作成するために使用できるアセットの一元的なリポジトリです。[詳細情報](../email/assets-essentials.md)
 
-**[!UICONTROL データ管理]**
+**[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL スキーマ]**：Adobe Experience Platform を使用すると、スキーマエディターと呼ばれるインタラクティブなビジュアルキャンバスで Experience Data Model（XDM）スキーマを作成および管理できます。[詳細情報](../data/get-started-schemas.md)
+* **[!UICONTROL Schemas]** -Adobe エクスペリエンスプラットフォームを使用すると、スキーマエディターと呼ばれるインタラクティブなビジュアルキャンバスで、経験データモデル (XDM) スキーマを作成および管理できます。 [詳細情報](../data/get-started-schemas.md)
 
-* **[!UICONTROL データセット]**：Adobe Experience Platform に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。[詳細情報](../data/get-started-datasets.md)
+* **[!UICONTROL Datasets]** -Adobe エクスペリエンスプラットフォームに ingested れるデータはすべて、データセットとして Data Lake 内に保存されます。 データセットは、データのコレクション (通常はテーブルで、スキーマ (列) とフィールド (行) が含まれるテーブル) の格納と管理の構成要素です。 [詳細情報](../data/get-started-datasets.md)
 
-* **[!UICONTROL クエリ]**：Adobe Experience Platform クエリサービスを使用すると、クエリの作成と実行、実行済みのクエリの表示、組織内のユーザーが保存したクエリへのアクセスなどを行えます。[詳細情報](../data/get-started-queries.md)
+* **[!UICONTROL Queries]** -Adobe エクスペリエンス Platform Query サービスを使用して、クエリーを作成して実行し、以前に実行したクエリーを表示し、ユーザーによって保存されたクエリーを組織内に保存します。 [詳細情報](../data/get-started-queries.md)
 
-* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内でデータの取り込みを監視できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]** このメニューを使用して、Adobe エクスペリエンスプラットフォームのユーザーインターフェイス内のデータの取り込みを監視します。 [](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html)詳しくは、target = &quot;_blank 「}」を参照してください。
 
-**[!UICONTROL 接続]**
+**[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL ソース]**：このメニューを使用すると、Adobe アプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込み、受信データの構造化、ラベル付けおよび拡充を行えます。[詳細情報](get-started-sources.md)
+* **[!UICONTROL Sources]** このメニューを使用して、Adobe アプリケーション、クラウドベースの記憶域、データベース、その他のソースからデータを取り込み、その他の情報を提供します。このメニューを使用して、着信データを提供します。 [詳細情報](get-started-sources.md)
 
-**[!UICONTROL 顧客]**
+**[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL セグメント]** - Experience Platform セグメントの定義を作成および管理し、それらをジャーニーで活用します。[詳細情報](../segment/about-segments.md)
+* **[!UICONTROL Segments]** -エクスペリエンスプラットフォームセグメントの定義を作成および管理し、それらを journeys に活用します。 [詳細情報](../segment/about-segments.md)
 
-* **[!UICONTROL プロファイル]**：リアルタイム顧客プロファイルは、オンライン、オフライン、CRM、サードパーティデータなど複数のチャネルからのデータを組み合わせて、個々の顧客の全体像を作成します。[詳細情報](../segment/get-started-profiles.md)
+* **[!UICONTROL Profiles]** -「リアルタイム」カスタマー・プロファイルによって、各お客様の全体像を把握し、オンライン、オフライン、CRM、サードパーティのデータを含む複数のチャネルのデータを組み合わせることができます。 [詳細情報](../segment/get-started-profiles.md)
 
-* **[!UICONTROL ID]**：Adobe Experience Platform ID サービスは、クロスデバイス、クロスチャネル、ほぼリアルタイムの顧客識別を Adobe Experience Platform 内のいわゆる ID グラフで管理します。[詳細情報](../segment/get-started-identity.md)
+* **[!UICONTROL Identities]** -Adobe エクスペリエンス Platform Identity サービスによって、デバイス間、クロスチャネル、およびほぼリアルタイムでの顧客 id が管理されます。これは、Adobe エクスペリエンスプラットフォーム内の id グラフと呼ばれるものです。 [詳細情報](../segment/get-started-identity.md)
 
-**[!UICONTROL 管理]**
+**[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL ジャーニー管理]** - このメニューを使用して、ジャーニーで使用する [イベント](../event/about-events.md)、[データソース](../datasource/about-data-sources.md)、[アクション](../action/action.md) を設定します。
+* **[!UICONTROL Journey Administration]**&#x200B;このメニューを使用して、journeys で使用するイベント、データソース ](../datasource/about-data-sources.md) 、および [ アクション ](../action/action.md) を設定 [ し [ ます。 ](../event/about-events.md)
 
-* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。[詳細情報](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** -Adobe エクスペリエンスプラットフォームによって、1つのインスタンスを別々の仮想環境に分割し、デジタルエクスペリエンスアプリケーションを開発および発展させることができます。 [詳細情報](../administration/sandboxes.md)
 
-* **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target=&quot;_blank&quot;}
+* **[!UICONTROL Alerts]** -ユーザーインターフェイスを使用すると、Adobe エクスペリエンス Platform Observability Insights によって明らかにされたメトリックスに基づいて、受信した警告の履歴を表示できます。 使用可能なアラートルールを表示したり、有効または無効にしたりすることもできます。 [](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html)詳しくは、target = &quot;_blank 「}」を参照してください。
 
 
-## 製品内の使用例 {#in-product-uc}
+## 製品内使用例 {#in-product-uc}
 
-ホームページの [!DNL Adobe Journey Optimizer] のユースケースを活用し、カスタマージャーニーを作成するための簡単な入力をいくつか提供します。
+ホームページからユースケースを活用 [!DNL Adobe Journey Optimizer] すると、お客様の旅をすばやく入力することができます。
 
 ![](assets/use-cases-home.png)
 
-利用可能なユースケースは次のとおりです。
+使用可能な使用例を次に示します。
 
-* **テストプロファイルを作成する**：CSV テンプレートを使用してテストプロファイルを作成し、パーソナライズされたメッセージとジャーニーをテストします。このユースケースの実装方法については、[このページ](../segment/creating-test-profiles.md#use-case-1)を参照してください。
-* **顧客に誕生日のメッセージを送信する**：顧客の誕生日を祝うメールを自動的に送信します。（近日公開）
-* **新規顧客をオンボーディングするためのメールを送信する**：新規登録した顧客を歓迎するために最大 2 通のメールを簡単に送信します。（近日公開）
-* **読み込んだ顧客リストにプッシュメッセージを送信する**：CSV ファイルからインポートされた顧客リストにプッシュ通知をすばやく送信します。（近日公開）
+* **テストプロファイル** を作成し、CSV テンプレートを使用して、パーソナライズされたメッセージおよび journeys をテストするためのテストプロファイルを作成します。 このようなユースケース [ の実装方法については、このページ ](../segment/creating-test-profiles.md#use-case-1) を参照してください。
+* **お客様に** 誕生日の電子メールを送信することができます。 (近日中)
+* **新規** ユーザーに電子メールを送信することにより、新規登録顧客を歓迎する電子メールを送信することができます。 (近日中)
+* **インポートされた得意** 先リストに push メッセージを送信すると、CSV ファイルからインポートされた顧客リストに、push 通知がすばやく送信されます。 (近日中)
 
-各ユースケースの詳細を確認するには、「**[!UICONTROL 詳細を表示]**」をクリックします。
+各ユースケースについて詳しくは、ここをクリックし **[!UICONTROL View details]** てください。
 
-「**[!UICONTROL 開始]**」ボタンをクリックして、ユースケースを開始します。
+**[!UICONTROL Begin]**&#x200B;ボタンをクリックして、ユースケースを起動します。
 
-「**[!UICONTROL ユースケースライブラリを表示]**」ボタンから、実行済みの使用例にアクセスできます。
+ボタンをクリックすると、実行されたユースケースに **[!UICONTROL View use case library]** アクセスできます。
 
-## アクセシビリティ{#accessibility}
+## 機能{#accessibility}
 
-[!DNL Adobe Journey Optimizer] のアクセシビリティ機能は、Adobe Experience Platform から継承したものです。
+の [!DNL Adobe Journey Optimizer] アクセシビリティ機能は、Adobe エクスペリエンスプラットフォームから継承されています。
 
-* キーボードアクセシビリティ
+* キーボードのアクセシビリティ
 * カラーコントラスト
 * 必須フィールドの検証
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+[](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)詳しくは、Adobe エクスペリエンス Platform マニュアルの「target =」 _blank 「」を参照してください。
 
-[!DNL Journey Optimizer]では、次の一般的なキーボードショートカットを使用できます。
+では、次の [!DNL Journey Optimizer] 一般的なキーボードショートカットを使用できます。
 
 | アクション | ショートカット |
 | --- | --- |
-| ユーザインターフェイス要素、セクションおよびメニューグループ間を移動する | Tab |
-| ユーザインターフェイス要素、セクションおよびメニューグループ間を後方に移動する | Shift + Tab |
-| セクション内を移動して個々の要素にフォーカスを設定する | 矢印 |
-| フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
-| 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
+| ユーザーインターフェイス要素、セクション、およびメニューグループ間の移動 | タブ |
+| ユーザーインターフェイスのエレメント、セクション、およびメニューグループ間を後ろに移動する | Shift キーを押しながら Tab キーを押します。 |
+| セクション内を移動して、個別のエレメントにフォーカスを設定します。 | ← |
+| フォーカスのあるエレメントを選択または選択解除します。 | Enter キーまたはスペースバー |
+| 選択範囲の取り消し、ペインの折りたたみ、またはダイアログボックスの終了 | Esc |
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+[](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)詳しくは、Adobe エクスペリエンス Platform マニュアルの「target =」 _blank 「」を参照してください。
 
-次のショートカットは、Journey Optimizer の特定の部分で使用できます。
+これらのショートカットは、次のように、旅オプティマイザーの特定の部分で使用できます。
 
 <table>
   <thead>
     <tr>
-      <th>インターフェイス要素</th>
+      <th>Interface エレメント</th>
       <th>アクション</th>
       <th>ショートカット</th>
     </tr>
   </thead>
   <tr>
-    <td>ジャーニー、アクション、データソース、イベントのリスト</td>
-    <td>ジャーニー、アクション、データソースまたはイベントを作成する</td>
-    <td>C</td>
+    <td>Journeys、アクション、データソース、またはイベントのリスト</td>
+    <td>「旅」、「アクション」、「データソース」または「イベント」の作成</td>
+    <td>Iso-c</td>
   </tr>
   <tr>
-    <td rowspan="3">ドラフトステータスのジャーニーキャンバス</td>
-    <td>左側のパレットから、使用可能な最初の位置に上から下に向かってアクティビティを追加する</td>
-    <td>アクティビティをダブルクリック</td>
+    <td rowspan="3">下書き状態の旅キャンバス</td>
+    <td>最初に使用可能な位置 (上から下) に、左パレットからアクティビティーを追加します。</td>
+    <td>アクティビティをダブルクリックします。</td>
   </tr>
   <tr>
-    <td>すべてのアクティビティを選択する</td>
-    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
+    <td>すべてのアクティビティを選択します。</td>
+    <td>Ctrl + A (Windows) <br/> Command + a キー (Mac os)</td>
   </tr>
   <tr>
-    <td>選択されたアクティビティを削除する</td>
-    <td>Delete キーまたは Backspace キーを押したあと Enter キーを押して削除を確認</td>
+    <td>選択した活動の削除</td>
+    <td>削除または Backspace を入力してから、削除を確認するために Enter キーを押します。</td>
   </tr>
   <tr>
   <td rowspan="3">
 
-次の要素の設定ペイン：
+次の要素の設定区画:
 
 <ul>
-  <li>ジャーニーのアクティビティ</li>
+  <li>旅のアクティビティ</li>
   <li>イベント</li>
   <li>データソース</li>
   <li>アクション</li>
 </ul>
 
 </td>
-    <td>設定する次のフィールドに移動する</td>
+    <td>設定対象となる次のフィールドに移動します。</td>
     <td>タブ</td>
   </tr>
   <tr>
-    <td>変更内容を保存し設定ペインを閉じる</td>
-    <td>Enter</td>
+    <td>変更を保存して、構成ペインを閉じます。</td>
+    <td>を</td>
   </tr>
   <tr>
-    <td>変更内容を破棄して設定ペインを閉じる</td>
+    <td>変更を破棄して、configuration pane を閉じます。</td>
     <td>Esc</td>
   </tr>
   <tr>
-    <td rowspan="4">テストモードのジャーニー</td>
-    <td>テストモードを有効または無効にする</td>
-    <td>T</td>
+    <td rowspan="4">テストモードでの旅</td>
+    <td>テストモードの有効化または無効化</td>
+    <td>Itu-t</td>
   </tr>
   <tr>
-    <td>イベントベースのジャーニーでイベントをトリガーする</td>
-    <td>E</td>
+    <td>イベントベースの旅でイベントをトリガーします。</td>
+    <td>~</td>
   </tr>
   <tr>
     <td>
 
-「**[!UICONTROL 一度に 1 つのプロファイル]**」オプションがオンになっているセグメントベースのジャーニーでイベントをトリガーする
+このオプションがオンになっているセグメントベースの旅でイベントをトリガーし **[!UICONTROL Single profile at a time]** ます。
 
 </td>
-    <td>P</td>
+    <td>担当</td>
   </tr>
   <tr>
-    <td>テストログを表示する</td>
+    <td>テストログの表示</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -214,102 +214,102 @@ ht-degree: 100%
 -->
   <tr>
     <td>テキストフィールド</td>
-    <td>選択されたフィールド内のすべてのテキストを選択する</td>
-    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
+    <td>選択したフィールド内のすべてのテキストを選択します。</td>
+    <td>Ctrl + A (Windows) <br/> Command + a キー (Mac os)</td>
   </tr>
   <tr>
     <td rowspan="2">ポップアップウィンドウ</td>
-    <td>変更内容を保存するかアクションを確認する</td>
-    <td>入力</td>
+    <td>変更内容を保存する、または操作を確認する</td>
+    <td>を</td>
   </tr>
   <tr>
-    <td>ウィンドウを閉じる</td>
+    <td>ウィンドウを閉じます。</td>
     <td>Esc</td>
   </tr>
   <tr>
-    <td>シンプルな式エディター</td>
-    <td>フィールドを選択し追加する</td>
+    <td>単純な式エディター</td>
+    <td>フィールドを選択して追加する</td>
     <td>フィールドをダブルクリック</td>
   </tr>
   <tr>
-    <td>XDM フィールドのブライジング</td>
-    <td>ノードのすべてのフィールドを選択する</td>
-    <td>親ノードを選択</td>
+    <td>XDM フィールド間のブラウズ</td>
+    <td>ノードのすべてのフィールドを選択します。</td>
+    <td>親ノードを選択します。</td>
   </tr>
   <tr>
-    <td>ペイロードのプレビュー</td>
-    <td>ペイロードを選択する</td>
-    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
+    <td>ペイロードプレビュー</td>
+    <td>ペイロードを選択します。</td>
+    <td>Ctrl + A (Windows) <br/> Command + a キー (Mac os)</td>
   </tr>
 </table>
 
-## ヘルプとサポートを検索 {#find-help}
+## ヘルプとサポートの検索 {#find-help}
 
-Adobe Journey Optimizer の主要なヘルプページには、ホームページの下部のセクションからアクセスできます。
+「ホーム」ページの下部にある Adobe 旅オプティマイザーキーヘルプページにアクセスしてください。
 
-**ヘルプ**&#x200B;アイコンを使用して、ヘルプページにアクセスしたり、サポートに問い合わせたり、フィードバックを共有したりします。検索フィールドからヘルプ記事やビデオを検索できます。
+ヘルプアイコンを使用して **** 、ヘルプページにアクセスします。サポートへのお問い合わせ、および共有フィードバックをご利用ください。 検索フィールドからヘルプ記事やビデオを検索することができます。
 
 ![](assets/ajo-help.png)
 
 ## サポートされているブラウザー {#browsers}
 
-Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージョンの Google Chrome で最適に動作するようにデザインされています。古いバージョンや他のブラウザーでは、特定の機能を使用すると問題が発生する場合があります。
+Adobe [!DNL Journey Optimizer] interface は、最新バージョンの Google Chrome で最適に機能するように設計されています。 古いバージョンや他のブラウザーで特定の機能を使用すると問題が発生することがあります。
 
-## 言語の環境設定 {#language-pref}
+## 言語設定 {#language-pref}
 
-現在、ユーザーインターフェイスは次の言語で利用できます。
+現在のユーザーインターフェイスは、次の言語で使用できます。
 
 * 英語
 * フランス語
 * ドイツ語
 * イタリア語
 * スペイン語
-* ポルトガル語（ブラジル）
+* ポルトガル語 (ブラジル)
 * 日本語
 * 韓国語
 
-デフォルトのインターフェイス言語は、ユーザープロファイルで指定されている優先言語によって決まります。
+デフォルトのインターフェイス言語は、ユーザープロファイルで指定されている言語によって異なります。
 
-言語を変更するには：
+言語を変更するには:
 
-* 右上のアバターから「**環境設定**」をクリックします。
+* 右上にあるアバターから「環境設定 **」をクリックし** ます。
    ![](assets/preferences.png)
-* 次に、メールアドレスの下に表示される言語をクリックします
-* 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
+* 電子メールアドレスの下に表示されている言語をクリックします。
+* 適切な言語を選択し、「保存 **」をクリック** します。使用しているコンポーネントが最初の言語でローカライズされていない場合は、2番目の言語を選択することもできます。
    ![](assets/select-language.png)
 
 ## 検索{#unified-search}
 
-Adobe Journey Optimizer インターフェイスのどこからでも、上部バーの中央にある Adobe Experience Cloud 統合検索機能を使用して、サンドボックスをまたいでアセット、ジャーニー、データセットなどを検索できます。
+Adobe の旅のオプティマイザーインターフェイスからは、トップバーの中央にある統合された Adobe エクスペリエンスクラウド検索機能を使用して、アセット、journeys、データセットなどをサンドボックス全体にわたって検索できます。
 
-コンテンツの入力を開始すると、上位の結果が表示されます。入力したキーワードに関するヘルプ記事も結果に表示されます。
+トップの検索結果を表示するには、コンテンツの入力を開始します。 入力したキーワードに関するヘルプ記事も結果に表示されます。
 
 ![](assets/unified-search.png)
 
-**Enter** キーを押すと、すべての結果にアクセスでき、ビジネスオブジェクトでフィルタリングできます。
+Enter **キーを押す** と、すべての結果にアクセスして、ビジネスオブジェクトによるフィルター処理を実行できます。
 
 ![](assets/search-and-filter.png)
 
 ## フィルターリスト{#filter-lists}
 
-ほとんどのリストでは、検索バーを使用すると、特定の項目を検索してフィルター条件を選択できます。
+ほとんどのリストでは、検索バーを使用して特定のアイテムを検索し、フィルター条件を選択することができます。
 
-フィルターにアクセスするには、リストの左上にあるフィルターアイコンをクリックします。フィルターメニューを使用すると、表示される要素をさまざまな条件で絞り込むことができます。表示する要素を、特定のタイプまたはステータスの要素、自分で作成した要素、過去 30 日間に変更された要素などに限るように選択することができます。オプションはコンテキストによって異なります。
+フィルターにアクセスするには、リストの左上にある「フィルター」アイコンをクリックします。 「フィルター」メニューを使用すると、異なる条件に基づいて表示されたエレメントをフィルター処理できます。 特定のタイプまたはステータスのエレメントのみ、作成したエレメント、または過去30日間に修正したエレメントのみを表示することを選択できます。 オプションは状況によって異なります。
 
-ジャーニーのリストの「**[!UICONTROL ステータスとバージョンフィルター]**」で、ステータス、タイプおよびバージョンに従ってジャーニーをフィルタリングできます。タイプは、**[!UICONTROL 単一イベント]**、**[!UICONTROL セグメントの選定]**、**[!UICONTROL セグメントを読み取り]**、**[!UICONTROL ビジネスイベント]**、**[!UICONTROL バースト]**&#x200B;のいずれかになります。**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**&#x200B;で、特定のイベント、フィールドグループ、アクションなどを使用するジャーニーのみを表示するように選択できます。**[!UICONTROL 公開フィルター]**&#x200B;を使用すると、公開日またはユーザーを選択できます。例えば、昨日公開されたライブなジャーニーの最新バージョンのみを表示するように選択できます。[詳細情報](../building-journeys/using-the-journey-designer.md)。
+Journeys のリストでは、のステータス、タイプ、バージョンに応じて、 **[!UICONTROL Status and version filters]** から journeys にフィルターを適用することができます。 タイプには、、 **[!UICONTROL Business event]** **[!UICONTROL Segment qualification]** **[!UICONTROL Read segment]** 、、、のいずれか **[!UICONTROL Burst]** を使用でき **[!UICONTROL Unitary event]** ます。特定のイベント、フィールドグループまたは **[!UICONTROL Activity filters]** **[!UICONTROL Data filters]** を使用する journeys のみを表示するかどうかを選択できます。 では、 **[!UICONTROL Publication filters]** 「公開日」または「ユーザー」を選択できます。 例えば、昨日公開した最新バージョンのライブ journeys を表示するように選択することもできます。 [詳しく ](../building-journeys/using-the-journey-designer.md) は、こちらを参照してください。
 
 >[!NOTE]
 >
->表示される列は、リストの右上にある設定ボタンを使用してパーソナライズできます。パーソナライズ設定は、各ユーザーに対して個別に保存されます。
+>表示される列は、リストの右上にある「設定」ボタンを使用してパーソナライズすることができます。 各ユーザーに対して個人用設定が保存されます。
 
-**[!UICONTROL 最終更新日]**&#x200B;列と&#x200B;**[!UICONTROL 最終更新者]**&#x200B;の列を使用すると、最新のジャーニーを更新した日時とユーザーを確認できます。
+「」および **[!UICONTROL Last update by]** 「」列は **[!UICONTROL Last update]** 、最新の journeys アップデートが発生したかどうかを確認するために使用されます。
 
 ![](assets/filter-journeys.png)
 
-イベント、データソース、アクションの設定ウィンドウの「**[!UICONTROL 使用されている場所]**」フィールドには、特定のイベント、フィールドグループ、アクションを使用するジャーニーの数が表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、対応するジャーニーのリストを表示できます。
+「イベント」、「データソース」および「アクション」ウィンドウ **[!UICONTROL Used in]** のフィールドには、その特定のイベント、フィールドグループまたはアクションを使用している journeys の数が表示されます。 ボタンをクリック **[!UICONTROL View journeys]** すると、対応する journeys のリストが表示されます。
 
 ![](assets/journey3bis.png)
 
-リストで、各要素に対して基本的な操作を実行できます。例えば、項目の複製や削除が可能です。
+このリストでは、各エレメントについて基本的なアクションを実行することができます。 例えば、アイテムは複製または削除することができます。
 
 ![](assets/journey4.png)

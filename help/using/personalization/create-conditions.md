@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 条件の作成
-description: 条件の作成方法についてはこちらから
+description: 条件の作成方法について説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,30 +10,30 @@ level: Intermediate
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 0%
 
 ---
 
-# 条件付きルールの操作 {#conditions}
+# 条件付きルールの使用 {#conditions}
 
-条件付きルールとは、プロファイルの属性、セグメントメンバーシップまたはコンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
+条件付きルールとは、プロファイルの属性、セグメントメンバーシップ、状況に応じたイベントなど、様々な条件に基づいて、メッセージにどのコンテンツを表示するかを定義するルールの集合です。
 
-条件付きルールは、式エディターを使用して作成し、コンテンツ間で再利用する場合に保存できます。[ライブラリに条件付きルールを保存する方法を学ぶ](#save)
+条件付きルールは、式エディターを使用して作成され、コンテンツ間で再利用する場合に格納することができます。 [条件付きルールをライブラリに保存する方法について説明します。](#save)
 
 >[!NOTE]
 >
->個人が条件付きルールを保存または削除するには、[ライブラリ項目を管理](../administration/ootb-product-profiles.md)する権限が必要になります。保存した条件は、組織内のすべてのユーザーが使用できます。
+>条件付きルールを保存または削除するには、「ライブラリアイテム ](../administration/ootb-product-profiles.md) の [ 管理」権限が必要です。保存された条件は、組織内のすべてのユーザーが使用できるようになっています。
 
-## 条件付きルールビルダーへのアクセス {#access}
+## 条件付き規則ビルダーにアクセスする {#access}
 
-条件付きルールは、式エディター内の&#x200B;**[!UICONTROL 条件]**&#x200B;メニューで作成されます。このメニューには次のいずれかの方法でアクセスできます。
+条件付きルールは、次のいずれかの方法で、式エディター内のメニューから **[!UICONTROL Conditions]** 作成されます。
 
-* メール本文のコンポーネントに対して動的コンテンツを有効にする場合は、メールデザイナーから。[メールに動的コンテンツを追加する方法を学ぶ](dynamic-content.md#emails)
+* 電子メールでは、電子メールの本文に含まれるコンポーネントに動的コンテンツを有効にすることができます。 [電子メールに動的コンテンツを追加する方法について説明しています。](dynamic-content.md#emails)
 
    ![](assets/conditions-access-email.png)
 
-* [式エディター](personalization-build-expressions.md)を使用してパーソナライゼーションを追加できる任意のフィールド。
+* 任意のフィールドで、 [ エクスプレッションエディター ](personalization-build-expressions.md) を使用してパーソナル化を追加することができます。
 
    ![](assets/conditions-access-editor.png)
 
@@ -42,55 +42,55 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="条件の作成"
->abstract="プロファイル属性、コンテキストイベントまたはオーディエンスを組み合わせて、メッセージに表示するコンテンツを定義するルールを作成します。"
+>abstract="プロファイル属性、状況に応じたイベント、対象ユーザーを作成し、メッセージに表示するコンテンツを定義するための構築ルールを作成します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="条件の作成"
->abstract="プロファイル属性、コンテキストイベントまたはオーディエンスを組み合わせて、メッセージに表示するコンテンツを定義するルールを作成します。"
+>abstract="プロファイル属性、状況に応じたイベント、対象ユーザーを作成し、メッセージに表示するコンテンツを定義するための構築ルールを作成します。"
 
-条件付きルールを作成する主な手順は次のとおりです。
+条件付きルールを作成する手順は、次のとおりです。
 
-1. 式エディターまたはメールデザイナーから&#x200B;**[!UICONTROL 条件]**&#x200B;メニューにアクセスし、「**[!UICONTROL 新規作成]**」をクリックします。
+1. 式エディターまたは電子メールデザイナーからメニューに **[!UICONTROL Conditions]** アクセスし、をクリック **[!UICONTROL Create new]** します。
 
-1. 必要に応じて、条件付きルールを作成します。これを行うには、左のメニューから目的の属性をキャンバスにドラッグ&amp;ドロップして配置します。
+1. 必要に応じて条件付きルールを作成します。 そのためには、ドラッグ &amp; ドロップして、左側のメニューで目的の属性をカンバスに配置します。
 
-   属性をキャンバスに組み合わせる手順は、セグメント作成のエクスペリエンスと似ています。ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#rule-builder-canvas)を参照してください。
+   属性を canvas に組み合わせる手順は、セグメントの作成操作と似ています。 ルールビルダーの canvas の操作方法について詳しくは、このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas) を [ 参照してください。
 
    ![](assets/conditions-create.png)
 
-   属性は次の 3 つのタブに整理されます。
+   属性は、次の3つのタブに分かれています。
 
-   * **[!UICONTROL プロファイル]**：
-      * **[!UICONTROL セグメントメンバーシップ]**&#x200B;には、[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)のすべてのセグメント属性（ステータス、バージョンなど）が一覧表示されます。
-      * **[!UICONTROL XDM 個別プロファイル]**&#x200B;には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に関連するすべてのプロファイル属性が一覧表示されます。
-   * **[!UICONTROL コンテキスト]**：ジャーニーでメッセージを使用している場合、コンテキストジャーニーフィールドをこのタブから使用できます。
-   * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)で作成されたセグメントから生成されたすべてのオーディエンスを一覧表示します。
+   * **[!UICONTROL Profile]**:
+      * **[!UICONTROL Segment Membership]** すべてのセグメント属性を一覧表示します (ステータス、バージョンなど)。 Adobe エクスペリエンスプラットフォームセグメンテーションサービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) について [ は、
+      * **[!UICONTROL XDM Individual profiles]** Adobe エクスペリエンスプラットフォームで定義されたエクスペリエンスデータモデル (XDM) スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) に関連する [ すべてのプロファイル属性が一覧表示されます。
+   * **[!UICONTROL Contextual]**: メッセージが旅に使用されると、状況に応じた「道」フィールドが、このタブで表示されます。
+   * **[!UICONTROL Audiences]**: Adobe エクスペリエンスプラットフォームセグメンテーションサービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) で [ 作成されたセグメントから生成された対象ユーザーすべてが一覧表示されます。
 
-1. 条件付きルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
+1. 条件付きルールの準備が完了したら、メッセージに追加することで、動的コンテンツを作成することができます。 [動的コンテンツを追加する方法について説明します。](dynamic-content.md)
 
-   また、ルールを保存して、後で再利用することもできます。[条件の保存方法を学ぶ](#save)
+   ルールを保存して、後で再利用することもできます。 [条件を保存する方法を学習します。](#save)
 
-## 条件付きルールの保存 {#save}
+## 条件付き規則の保存 {#save}
 
-頻繁に再利用する条件付きルールがある場合は、条件ライブラリに保存できます。保存されたルールはすべて共有され、組織内の個人がアクセスして使用できます。
+頻繁に再利用する条件ルールがある場合は、条件ライブラリに保存しておくことができます。 保存されているすべてのルールは共有され、組織内のユーザーがアクセスして使用することができます。
 
 >[!NOTE]
 >
->ジャーニーのコンテキスト属性を利用する条件付きルールは、ライブラリに保存できません。
+>Journeys コンテキスト属性を利用する条件付きルールは、ライブラリに保存できません。
 
-1. 条件編集画面で、「**[!UICONTROL 条件を保存]**」ボタンをクリックします。
+1. 「条件版」画面で、ボタンをクリック **[!UICONTROL Save condition]** します。
 
-1. ルールに名前と説明（オプション）を入力し、「**[!UICONTROL 追加]**」をクリックします。
+1. ルールに名前と説明 (オプション) を指定して、をクリック **[!UICONTROL Add]** します。
 
    ![](assets/conditions-name-description.png)
 
-1. 条件付きルールがライブラリに保存され、メッセージに動的コンテンツを作成するために使用できるようになります。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
+1. 条件付き規則がライブラリに保存されます。 これを使用してメッセージに動的コンテンツを作成できるようになりました。 [動的コンテンツを追加する方法について説明します。](dynamic-content.md)
 
-## 保存済み条件付きルールの編集と削除 {#edit-delete}
+## 保存された条件付きルールの編集と削除 {#edit-delete}
 
-「...」ボタンを使用すれば、いつでも条件付きルールを削除できます。
+「楕円」ボタンを使用して、いつでも条件式を削除することができます。
 
 ![](assets/conditions-open.png)
 
-ライブラリに保存された条件付きルールは変更できません。ただし、これらを使用して新しいルールを作成することはできます。これを行うには、条件付きルールを開き、必要な変更を加えて、ライブラリに保存します。[ライブラリに条件を保存する方法を学ぶ](#save)
+ライブラリに保存された条件付きルールを変更することはできません。 ただし、それらを使用して新しいルールを作成することもできます。 これを行うには、条件付きルールを開き、必要な変更を加えてライブラリに保存します。 [条件をライブラリに保存する方法を学習します。](#save)
