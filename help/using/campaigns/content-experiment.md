@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツ実験の作成
-description: キャンペーンでのコンテンツ実験の作成方法について説明します。
+description: キャンペーンでコンテンツ実験を作成する方法を学ぶ
 feature: A/B Testing
 topic: Content Management
 role: User
@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 0%
+source-wordcount: '1025'
+ht-degree: 97%
 
 ---
 
@@ -21,165 +21,165 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
->title="コンテンツの実験"
->abstract="配信の内容、件名、またはセンダーを変更することにより、複数の配信の治療を定義して、ユーザーに最適な組み合わせを決定することができます。"
+>title="コンテンツ実験"
+>abstract="複数の配信処理を定義してオーディエンスに最適な組み合わせを決定するために、配信コンテンツ、件名、送信者を変更するように選択できます。"
 
 >[!AVAILABILITY]
 >
->コンテンツ実験 **機能は、** 現在のところ、組織のセットに対してのみ使用することができます (利用可能な機能が限られています)。詳しくは、アドビの担当者にお問い合わせください。
+>**コンテンツ実験**&#x200B;機能は現在、一連の組織でのみ使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
 
-旅のオプティマイザーコンテンツを使用して、複数の配信処理を定義します。 関心のある対象者は、各処理に無作為に割り当てられ、どの測定基準によって最適に実行されるかを判断できます。 配信の内容、件名、または送信者を変更することもできます。
+Journey Optimizer のコンテンツ実験を使用して、複数の配信処理を定義します。関心のあるオーディエンスは、関心の指標に関してどれが最も効果が高いかを判断するために、各処理にランダムに割り当てられます。配信コンテンツ、件名、送信者を変更できます。
 
 >[!NOTE]
 >
->コンテンツの実験を開始する前に、カスタムデータセットのレポート設定が設定されていることを確認してください。 詳しくは、ここを [ ](reporting-configuration.md) 参照してください。
+>コンテンツ実験を開始する前に、レポート設定がカスタムデータセットに対応するよう設定されていることを確認します。詳しくは、[この節](reporting-configuration.md)を参照してください。
 
-次の例では、配信先が2つのグループに分割され、それぞれが対象となる人口の45% を表し、10% の予約グループが表示されています。
+次の例では、配信ターゲットが 2 つのグループ（それぞれがターゲット母集団の 45％を表す）に分割されています。10％の除外グループは配信を受け取りません。
 
-対象となる視聴ユーザーは、1つのバージョンの電子メールを受信し、件名行には次のいずれかのメッセージが表示されます。
+ターゲットオーディエンスの各ユーザーには、1 つのバージョンのメール（件名は次の 2 つのいずれか）が届きます。
 
-* 1つは、新しいコレクションとイメージについて、10% の提供を直接促進することです。
-* 他の1つはイメージなしで10% のオフを指定せずに、特別なオファーを提供します。
+* 1 つは、新しいコレクションと画像に関する 10％のオファーを直接プロモーションするものです。
+* もう 1 つは、画像なしで 10％オフを指定せずに、特別なオファーを広告するだけのものです。
 
-ここでの目的は、受信者が受信した実験に応じて電子メールとやり取りすることを確認することです。 したがって、このコンテンツ実験において、1つの目的として選択 **[!UICONTROL Email Opens]** することになります。
+ここでの目標は、受信した実験に応じて、受信者がメールとやり取りするかどうかを確認することです。 そのため、このコンテンツ実験の主な目標指標として「**[!UICONTROL メール開封数]**」を選択します。
 
 ![](assets/content_experiment.png)
 
 ## キャンペーンの作成 {#campaign-experiment}
 
-1. **[!UICONTROL Campaigns]**&#x200B;ページでをクリック **[!UICONTROL Create campaign]** します。
+1. **[!UICONTROL キャンペーン]**&#x200B;ページから、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
    ![](assets/content_experiment_1.png)
 
-1. この配信に使用するチャンネル **[!UICONTROL Surface]** を選択します。 詳細については、チャンネルの [ 「サーフェス ](../configuration/channel-surfaces.md) 」ページを参照してください。
+1. チャネルを選択し、この配信に使用する「**[!UICONTROL サーフェス]**」を選択します。詳しくは、[チャネルサーフェス](../configuration/channel-surfaces.md)ページを参照してください。
 
    ![](assets/content_experiment_2.png)
 
-1. をクリック **[!UICONTROL Create]** します。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. **[!UICONTROL Properties]**&#x200B;配信の設定:
-   * **[!UICONTROL Title]**
-   * **[!UICONTROL Description]**
-   * **[!UICONTROL Category]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transactional]**
+1. 配信の&#x200B;**[!UICONTROL プロパティ]**&#x200B;を設定します。
+   * **[!UICONTROL タイトル]**
+   * **[!UICONTROL 説明]**
+   * **[!UICONTROL カテゴリ]**：**[!UICONTROL マーケティング]**／**[!UICONTROL トランザクション]**
 
-1. コンテンツの実験を開始するには **[!UICONTROL Content experiment]** 、このオプションをオンにします。 **[!UICONTROL Content experiment]**&#x200B;メニューが表示されます。
+1. コンテンツ実験を開始するには、「**[!UICONTROL コンテンツ実験]**」オプションを切り替えます。**[!UICONTROL コンテンツ実験]**&#x200B;メニューが表示されます。
 
    ![](assets/content_experiment_3.png)
 
-1. 対象ユーザーを定義します。 これを行うには、このボタンをクリックし **[!UICONTROL Select audience]** て、使用可能な Adobe エクスペリエンスプラットフォームセグメントのリストを表示します。 [セグメントに関する詳細情報](../segment/about-segments.md)
+1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
-   **[!UICONTROL Identity namespace]**「」フィールドで、選択した区分の個人を識別するために使用する名前空間を選択します。[詳細情報](get-started-experiment.md#content-experiment-work)
+   「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](get-started-experiment.md#content-experiment-work)
 
-1. 特定の日付または定期的な頻度でキャンペーンを実行するには、「スケジュール」セクションを設定します。 [詳細情報](create-campaign.md)
+1. キャンペーンを特定の日付に実行したり、繰り返し実行したりするには、「スケジュール」セクションを設定します。[詳細情報](create-campaign.md)
 
-1. クリックし **[!UICONTROL Edit content]** て、違う **[!UICONTROL Treatments]** 内容をお客様によってカスタマイズします。
+1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、様々な&#x200B;**[!UICONTROL 処理]**&#x200B;のパーソナライズを開始します。
 
    ![](assets/content_experiment_4.png)
 
-## 処置の作成 {#treatment-experiment}
+## 処理の作成 {#treatment-experiment}
 
-1. **[!UICONTROL Edit content]**&#x200B;ウィンドウで、治療をカスタマイズします。
+1. **[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから、処理 A のパーソナライズを開始します。
 
-   この処理については、題名行に直接特別なオファーリングを指定します。
+   この処理では、件名に特別なオファーを直接指定します。
 
    ![](assets/content_experiment_5.png)
 
-1. 最初の処理をデザインした後、 **[!UICONTROL More actions]** ボタンをクリック **[!UICONTROL Duplicate]** します。
+1. 最初の処理を指定した後、「**[!UICONTROL その他のアクション]**」ボタンから、「**[!UICONTROL 複製]**」をクリックします。
 
-   また、新しい処理を開始する場合は、ボタン ![](assets/content_experiment_16.png) をクリック **[!UICONTROL Content experiment]** して詳細オプション **[!UICONTROL Add treatment]** にアクセスすることもできます。
+   また、「**[!UICONTROL コンテンツ実験]**」ボタン![](assets/content_experiment_16.png)をクリックして詳細オプションにアクセスし、「**[!UICONTROL 処理を追加]**」をクリックすることで、処理を新規作成することもできます。
 
    ![](assets/content_experiment_7.png)
 
-1. **[!UICONTROL Title]**&#x200B;適切な扱いになるように変更します。
+1. 処理の&#x200B;**[!UICONTROL タイトル]**&#x200B;を変更し、より区別しやすくします。
 
    ![](assets/content_experiment_8.png)
 
-1. 必要に応じて、2番目の処置を行います。
+1. 必要に応じて、2 番目の処理をパーソナライズします。
 
-   ここでは、 **[!UICONTROL Subject line]** でオファーを指定しないことを選択します。
+   ここでは、**[!UICONTROL 件名]**&#x200B;でオファーを指定しないようにします。
 
    ![](assets/content_experiment_9.png)
 
-処置がパーソナライズされると、コンテンツ実験の設定を開始できます。
+処理がパーソナライズされたら、コンテンツ実験の設定を開始できます。
 
 ## コンテンツ実験の設定 {#configure-experiment}
 
-1. 両方の配信が個人用に選択されて **[!UICONTROL Edit content]** いる場合は、ウィンドウからを選択 **[!UICONTROL Configure content experiment]** します。
+1. 両方の配信がパーソナライズされている場合は、**[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから「**[!UICONTROL コンテンツ実験を設定]**」を選択します。
 
    ![](assets/content_experiment_10.png)
 
 1. 実験に設定する目標を選択します。
 
-   ここでは、プロモーションコードが題名行にある場合に、受信者が電子メールを開くかどうかを選択し **[!UICONTROL Email open]** ます。
+   この実験では、件名にプロモーションコードが含まれている場合に受信者がメールを開くかどうかをテストするために、「**[!UICONTROL メール開封数]**」を選択します。
 
    ![](assets/content_experiment_11.png)
 
-1. 配信にグループを追加 **[!UICONTROL Holdout]** するかどうかを選択します。 このグループには、このキャンペーンの内容は反映されません。
+1. 配信に&#x200B;**[!UICONTROL 除外]**&#x200B;グループを追加することを選択します。このグループは、このキャンペーンからコンテンツを受け取りません。
 
-   切り替えバーで切り替えた場合は、自動的に最大10% の人口が表示されますが、必要に応じてこの比率を調整することもできます。
+   切り替えバーをオンにすると、母集団の 10%が自動的に取得されます。必要に応じて、この割合を調整できます。
 
    ![](assets/content_experiment_12.png)
 
-1. 次に、各 **[!UICONTROL Treatment]** 機能に対して、または切り替え先に切り替えて、切り替えバーに対して **[!UICONTROL Distribute evenly]** 正確な割合を割り当てることができます。
+1. その後、各&#x200B;**[!UICONTROL 処理]**&#x200B;に正確な割合を割り当てるか、**[!UICONTROL 等しく分布]**&#x200B;切り替えバーをオンにするかを選択できます。
 
    ![](assets/content_experiment_13.png)
 
-1. 設定が設定されているときにをクリックし **[!UICONTROL Save]** ます。
+1. 設定したら「**[!UICONTROL 保存]**」をクリックします。
 
-1. コンテンツ実験の準備ができたら、クリックし **[!UICONTROL Review to activate]** てキャンペーンの概要を表示することができます。 いずれかのパラメーターが間違っているか、存在しない場合は、警告が表示されます。
+1. コンテンツ実験の準備が整ったら、「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンの概要を表示できます。パラメーターが正しくない、または見つからない場合は、警告が表示されます。
 
    ![](assets/content_experiment_15.png)
 
-1. キャンペーンが正しく設定されていることを確認し、をクリック **[!UICONTROL Activate]** して、再起動します。
+1. キャンペーンが正しく設定されていることを確認し、「**[!UICONTROL アクティブ化]**」をクリックしてキャンペーンを開始します。
 
    ![](assets/content_experiment_14.png)
 
-実験とキャンペーンの設定が完了したら、キャンペーンレポートを使用して配信を成功させることができます。
+実験とキャンペーンを設定したら、キャンペーンのレポートを使用して、問題なく配信できたかどうかを追跡できます。
 
 ## 目標レポート {#objectives-global}
 
 >[!AVAILABILITY]
 >
->コンテンツ実験機能は、現在のところ、組織のセットに対してのみ使用することができます (利用可能な機能が限られています)。 詳しくは、アドビの担当者にお問い合わせください。
+>コンテンツ実験機能は現在、特定の組織のみが使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
 
 ![](assets/performance_report.gif)
 
-キャンペーンレポートのタブを使用すると、 **[!UICONTROL Objectives]** 1 つの特定の測定基準を指定することによって、配信のレポートをより詳細に調整できます。
+キャンペーンレポートの「**[!UICONTROL 目標]**」タブを使用すると、1 つの特定の指標をターゲット設定することで、配信のレポートをより細かく調整できます。
 
-リストには、 **[!UICONTROL Objectives]** 追加情報を取得するためにシステムへの接続を定義するに **[!UICONTROL Datasets]** リンクされています。 組み込み **[!UICONTROL Objectives]** のリストを使用できますが、新規 **[!UICONTROL Dataset]** に追加することで、独自のリストを追加することもできます。 詳細な手順については、次 [ の項 ](reporting-configuration.md) を参照してください。
+一覧表示された&#x200B;**[!UICONTROL 目標]**&#x200B;は、追加情報を取得するためのシステムへの接続を定義する&#x200B;**[!UICONTROL データセット]**&#x200B;にリンクされています。ビルトインの&#x200B;**[!UICONTROL 目標]**&#x200B;リストが用意されていますが、新しい&#x200B;**[!UICONTROL データセット]**&#x200B;を追加することで独自の目標を追加できます。詳細な手順については、こちらの[節](reporting-configuration.md)を参照してください。
 
-目標を選択した後は、2つ **[!UICONTROL Performance overview]** の widget と **[!UICONTROL Campaign objective]** widget を使用して、配送のパフォーマンスについて詳しく説明します。
+ターゲットにする目標を選択した後、2 つの&#x200B;**[!UICONTROL パフォーマンスの概要]**&#x200B;および&#x200B;**[!UICONTROL キャンペーン目的]**&#x200B;ウィジェットには、配信パフォーマンスの詳細な概要が表示されます。
 
-**[!UICONTROL Campaign objective]**&#x200B;この widget を使用して、主な目的を別の測定単位と比較することもできます。
+**[!UICONTROL キャンペーン目的]**&#x200B;ウィジェットを使用して、主な目標を別の指標と比較することもできます。
 
-各 widget については、必要に応じて、サイズ変更および削除することができます。 詳細については、ここを [ ](../reports/global-report.md#modify-dashboard) 参照してください。
+必要に応じて、各ウィジェットのサイズを変更することや削除することができます。詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
 
 ## 実験レポート {#experimentation-global}
 
 >[!AVAILABILITY]
 >
->コンテンツ実験機能は、現在のところ、組織のセットに対してのみ使用することができます (利用可能な機能が限られています)。 詳しくは、アドビの担当者にお問い合わせください。
+>コンテンツ実験機能は現在、特定の組織のみが使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
 
 ![](assets/experimentation_report_3.png)
 
-キャンペーン **[!UICONTROL Global report]** から、このタブに **[!UICONTROL Experimentation]** は、各バリエーションの状況と、最良の実行者があるかどうかを示す重要な情報が表示されます。
+キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL 実験]**」タブには、各バリアントのパフォーマンスや最も優れたパフォーマンス関する情報が表示されます。
 
-最適な実行可能ファイルを定義するには時間がかかることがあります。これは、このアイコン ![](assets/experimentation_report_1.png) で示されます。
+最も高いパフォーマンスを定義するには、しばらく時間がかかる場合があり、このアイコン ![](assets/experimentation_report_1.png) が表示されます。
 
-Widget は **[!UICONTROL Experiment result]** 、各バリアントのパフォーマンスを詳細に設定します。 ドロップダウンリストから **[!UICONTROL Baseline]** いずれかの操作を選択して、ベースラインを変更することができます。 最適な処理が星のアイコンで表示されます。
+**[!UICONTROL 実験結果]**&#x200B;ウィジェットは、各バリアントのパフォーマンスの詳細を説明します。ベースラインを変更するには、**[!UICONTROL ベースライン]**&#x200B;ドロップダウンから処理の 1 つを選択します。最も優れた処理には、星のアイコンが表示されます。
 
-テーブルには、次のようにメトリックが表示されます。
+このテーブルは、次の指標を表しています。
 
-* **[!UICONTROL Profiles]**: この処理の対象となるプロファイルの数。
+* **[!UICONTROL プロファイル]**：この処理の対象となるプロファイルの数。
 
-* **[!UICONTROL Unique outbound clicks]**: アウントバウンドチャンネル全体のクリックの合計数。
+* **[!UICONTROL ユニークアウトバウンドクリック数]**：アウトバウンドチャネルでのクリック総数。
 
-* **[!UICONTROL Count per profile]**: 実験目的の数値の合計値を、複数のプロファイルの数で割ります。
+* **[!UICONTROL プロファイルあたりのカウント]**：実験の目的の指標の合計値を、プロファイル数で割った値です。
 
-* **[!UICONTROL Confidence interval]**: 基準として最適な処理を行うことができます。 [詳しく ](../campaigns/experiment-calculations.md#confidence-intervals) は、こちらを参照してください。
+* **[!UICONTROL 信頼区間]**：ベースラインと最もパフォーマンスの高い処理との間のパフォーマンスの差の割合。[詳細情報](../campaigns/experiment-calculations.md#confidence-intervals)。
 
-* **[!UICONTROL Average lift]**: ベースラインでの指定された処理の変換レートの改善率。 [詳細情報](../campaigns/experiment-calculations.md#understand-lift)
+* **[!UICONTROL 平均上昇率]**：ベースラインに対する特定の処理のコンバージョン率における改善の割合。 [詳細情報](../campaigns/experiment-calculations.md#understand-lift)
 
-* **[!UICONTROL Confidence]**: 指定された処置がベースラインの処理と同じであることを示しています。 [詳細情報](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../campaigns/experiment-calculations.md#understand-confidence)
 
-このような結果について詳しくは、このページ ](../campaigns/get-started-experiment.md#interpret-results) を [ 参照してください。
+これらの結果の詳細と解釈について詳しくは、[このページ](../campaigns/get-started-experiment.md#interpret-results)を参照してください。

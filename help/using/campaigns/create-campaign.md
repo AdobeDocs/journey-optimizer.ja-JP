@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンの作成
-description: にキャンペーンを作成する方法を説明しています。 [!DNL Journey Optimizer]
+description: ' [!DNL Journey Optimizer] でキャンペーンを作成する方法を説明します'
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 75%
 
 ---
 
@@ -19,66 +19,66 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新規キャンペーンを作成する前に、surface channel (メッセージプリセット) があり、Adobe エクスペリエンスプラットフォームセグメントを使用できるようになっているかどうかを確認してください。 詳細については、以下の項目を参照してください。
+>新しいキャンペーンを作成する前に、サーフェスチャネル（メッセージプリセット）と Adobe Experience Platform セグメントが使用できる状態になっていることを確認します。詳しくは、以下の節を参照してください。
 >
->* [チャンネルサーフェスの作成](../configuration/channel-surfaces.md)
->* [セグメントでの作業の開始](../segment/about-segments.md)
+>* [チャネルサーフェスの作成](../configuration/channel-surfaces.md)
+>* [セグメントの基本を学ぶ](../segment/about-segments.md)
 
 
-## 最初のキャンペーンの作成 {#create}
+## 最初のキャンペーンを作成 {#create}
 
-1. メニューに **[!UICONTROL Campaigns]** アクセスし、をクリック **[!UICONTROL Create campaign]** します。
+1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
    >[!NOTE]
    >
-   >また、既存のライブキャンペーンを複製して新しいものを作成することもできます。 [詳細情報](modify-stop-campaign.md#duplicate)
+   >また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。[詳細情報](modify-stop-campaign.md#duplicate)
 
    ![](assets/create-campaign.png)
 
-1. **[!UICONTROL Properties]**&#x200B;セクションで、キャンペーンを実行する方法を次のように指定します。
+1. 内 **[!UICONTROL プロパティ]** 「 」セクションで、キャンペーンの実行方法を指定します。
 
-   * **[!UICONTROL Scheduled]**
-   * **[!UICONTROL API-triggered]**
+   * **[!UICONTROL スケジュール済み]**
+   * **[!UICONTROL API トリガー]**
 
-   キャンペーンタイプおよび関連付けられた involvements について詳しくは、この [ 項 ](#campaigntype) を参照してください。
+   キャンペーンのタイプと関連する関係について詳しくは、 [セクション](#campaigntype).
 
-1. **[!UICONTROL Actions]**&#x200B;セクションで、メッセージの送信に使用するチャンネルとチャンネルを選択し、をクリック **[!UICONTROL Create]** します。
+1. 「**[!UICONTROL アクション]**」セクションで、メッセージの送信に使用するチャネルとチャネルサーフェスを選択し、「**[!UICONTROL 作成]**」をクリックします。
 
-   サーフェスは、システム管理者 ](../start/path/administrator.md) によっ [ て定義された設定です。このファイルには、ヘッダパラメーター、サブドメイン、モバイルアプリケーションなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳しく ](../configuration/channel-surfaces.md) は、こちらを参照してください。
+   サーフェスは、[システム管理者](../start/path/administrator.md)によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >ドロップダウンリストには、マーケティングキャンペーンタイプと互換性のあるチャンネルサーフェスのみが一覧表示されます。
+   >マーケティングキャンペーンタイプと互換性のあるチャネルサーフェスのみがドロップダウンリストに一覧表示されます。
 
 1. キャンペーンのタイトルと説明を指定します。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. カスタムまたはコアデータ使用状況のラベルをキャンペーンに割り当てるには、ボタンをクリック **[!UICONTROL Manage access]** します。 [オブジェクトレベルのアクセス制御について詳しくは、(OLA)](../administration/object-based-access.md)
+1. カスタムまたはコアのデータ使用ラベルをキャンペーンに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。 [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
-## メッセージの作成 {#content}
+## メッセージを作成 {#content}
 
-**[!UICONTROL Actions]**&#x200B;セクションで、キャンペーンと一緒に送信するメッセージを作成します。
+内 **[!UICONTROL アクション]** 「 」セクションで、キャンペーンと共に送信するメッセージを作成します。
 
-1. **[!UICONTROL Edit content]**&#x200B;ボタンをクリックし、メッセージの内容を作成してデザインします。
+1. 次をクリック： **[!UICONTROL コンテンツを編集]** ボタンをクリックし、メッセージコンテンツを作成してデザインします。
 
-   以下のページで、メッセージコンテンツを作成するための詳細な手順について説明します。
+   次のページで、メッセージコンテンツを作成する詳細な手順を説明します。
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
     <td>
     <a href="../email/create-email.md">
-    <img alt="招き" src="../assets/do-not-localize/email.jpg">
+    <img alt="リード" src="../assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>電子メールの作成</strong>
+    <div><a href="../email/create-email.md"><strong>メールの作成</strong>
     </div>
     <p>
     </td>
     <td>
     <a href="../push/create-push.md">
-      <img alt="ときどき" src="../assets/do-not-localize/push.jpg">
+      <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/create-push.md"><strong>プッシュ通知の作成</strong></a>
@@ -97,56 +97,56 @@ ht-degree: 0%
     </tr>
     </table>
 
-1. コンテンツを定義したら、ボタンを使用 **[!UICONTROL Simulate content]** して、コンテンツをテストプロファイルでプレビューおよびテストします。 [詳しく ](../email/preview.md) は、こちらを参照してください。
+1. コンテンツを定義したら、**[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンを使用して、コンテンツをテストプロファイルでプレビューおよびテストします。[詳細情報](../email/preview.md)。
 
 1. 矢印をクリックして、キャンペーン作成画面に戻ります。
 
    ![](assets/create-campaign-design.png)
 
-1. **[!UICONTROL Actions tracking]**&#x200B;セクションで、受信者の配信状況を記録するかどうかを指定します。クリックを追跡したり、開いたりすることができます。
+1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、受信者が配信に対する反応を追跡するかどうかを指定します。クリック数や開封数を追跡できます。
 
-   キャンペーンの実行後、追跡結果はキャンペーンレポートからアクセス可能になります。 [キャンペーンレポートに関する詳細情報](../reports/campaign-global-report.md)
+   キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。[キャンペーンレポートについて詳しくはこちらを参照](../reports/campaign-global-report.md)
 
-## 対象ユーザーの定義 {#audience}
+## オーディエンスの定義 {#audience}
 
-1. 対象ユーザーを定義します。 これを行うには、このボタンをクリックし **[!UICONTROL Select audience]** て、使用可能な Adobe エクスペリエンスプラットフォームセグメントのリストを表示します。 [セグメントに関する詳細情報](../segment/about-segments.md)
+1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
    >[!NOTE]
    >
-   >API によってトリガーされたキャンペーンの場合は、ユーザーを API 呼び出しを使用して設定する必要があります。 [詳細情報](api-triggered-campaigns.md)
+   >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。[詳細情報](api-triggered-campaigns.md)
 
-   **[!UICONTROL Identity namespace]**「」フィールドで、選択した区分の個人を識別するために使用する名前空間を選択します。[名前空間について詳しくは、](../event/about-creating.md#select-the-namespace)
+   「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
 
    ![](assets/create-campaign-namespace.png)
 
    >[!NOTE]
    >
-   >セグメントに属していて、選択した id が含まれていない複数の人物は、キャンペーンの対象ではありません。
+   >様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## キャンペーンのスケジュール {#schedule}
 
-1. 特定の日付または定期的な頻度でキャンペーンを実行するには、「」セクションを設定 **[!UICONTROL Schedule]** します。 [キャンペーンのスケジューリング方法について説明します。](#schedule)
+1. キャンペーンを特定の日付に実行したり、繰り返し実行したりするには、「**[!UICONTROL スケジュール]**」セクションを設定します。 [キャンペーンのスケジュール設定方法を学ぶ](#schedule)
 
-1. カスタムまたはコアデータ使用状況のラベルをキャンペーンに割り当てるには、ボタンをクリック **[!UICONTROL Manage access]** します。 [オブジェクトレベルのアクセス制御について詳しくは、(OLA)](../administration/object-based-access.md)
+1. カスタムまたはコアのデータ使用ラベルをキャンペーンに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。 [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
-キャンペーンの準備が整ったら、それを確認して公開することができます。 [詳細情報](#review-activate)
+キャンペーンの準備が整ったら、キャンペーンをレビューして公開できます。 [詳細情報](#review-activate)
 
 ## キャンペーンタイプ {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="キャンペーンタイプ"
->abstract="送信日付 **を指定することによってマーケティングメッセージを表示するには、定期的な予定** タイプが最も適しています。 ただし、パスワードのリセットまたはカードの abandonment のようなトランザクションメッセージを送信する場合は、API によって **トリガー** されるタイプを選択することをお勧めします。"
+>abstract="送信日を指定してマーケティングメッセージの場合、 **予定** type は最も適切です。 ただし、パスワードのリセットやカードの放棄などのトランザクションメッセージを送信する場合は、 **API トリガー** 「タイプ」が最適な選択肢です。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
->title="キャンペーンカテゴリー"
->abstract="カテゴリ値は、キャンペーンタイプ値に直接リンクされています。 カテゴリトランザクションの対象となる「マーケティング **」カテゴリと「API トリガ」** タイプのキャンペーンタイプを設定します **。**"
+>title="キャンペーンカテゴリ"
+>abstract="カテゴリの値は、キャンペーンタイプの値に直接リンクされます。 次のキャンペーンタイプをスケジュール **マーケティング** カテゴリのカテゴリおよび API トリガータイプ **トランザクション**"
 
-使用可能なキャンペーンには、次の2種類があります。
+次の 2 種類のキャンペーンを使用できます。
 
-* **[!UICONTROL Scheduled]**: キャンペーンをすぐに実行することも、指定した日付に実行することもできます。 定期的なキャンペーンは、マーケティング **タイプメッセージを送信** することを目的としています。
+* **[!UICONTROL スケジュール済み]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;タイプのメッセージを送信することを目的としています。
 
-* **[!UICONTROL API-triggered]**: API 呼び出しを使用してキャンペーンを実行します。 API によってトリガーされるキャンペーンは、ユーザーが実行するアクションによって送信されたメッセージ、つまり、パスワードのリセット、カード abandonment など、トランザクション **メッセージを送信** することを目的としています。[Api を使用したキャンペーンの開始方法について説明します。](api-triggered-campaigns.md)
+* **[!UICONTROL API トリガー]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**トランザクション**&#x200B;メッセージ、つまり、個人が実行したアクション（パスワードのリセット、カードの放棄など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照](api-triggered-campaigns.md)
