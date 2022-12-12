@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 >id="ajo_lp_create"
 >title="ランディングページの定義と設定"
 >abstract="ランディングページを作成するには、プリセットを選択してから、プライマリページとサブページを設定し、最後にパブリッシュする前にページをテストする必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="ランディングページのパブリッシュ"
 
 >[!CONTEXTUALHELP]
@@ -100,8 +100,8 @@ ht-degree: 0%
 >id="ajo_lp_access_settings"
 >title="ランディングページの URL の定義"
 >abstract="この節では、一意のランディングページの URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページサブドメインを事前に設定しておく必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="ランディングページのサブドメインの設定"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="ランディングページのサブドメインの設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
 
 プライマリページは、電子メールや web サイトなどのランディングページへのリンクをクリックした直後に、ユーザーに対してすぐに表示されるページです。
 

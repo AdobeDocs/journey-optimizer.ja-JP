@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -171,7 +171,7 @@ ht-degree: 0%
 >id="ajo_admin_presets_retryperiod"
 >title="再試行の間隔を調整します。"
 >abstract="電子メールの配信が一時的なソフトバウンスエラーにより失敗した場合、再試行は3.5 日 (84 時間) に実行されます。 必要に応じて、このデフォルトのリトライ時間帯を調整することができます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="再試行について"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="再試行について"
 
 電子メール再送パラメーター **を設定** することができます。
 
