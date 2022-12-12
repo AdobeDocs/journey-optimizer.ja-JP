@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -138,12 +138,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="キャンペーンタイプ"
->abstract="TBC"
+>abstract="送信日付 **を指定することによってマーケティングメッセージを表示するには、定期的な予定** タイプが最も適しています。 ただし、パスワードのリセットまたはカードの abandonment のようなトランザクションメッセージを送信する場合は、API によって **トリガー** されるタイプを選択することをお勧めします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="キャンペーンカテゴリー"
->abstract="TBC"
+>abstract="カテゴリ値は、キャンペーンタイプ値に直接リンクされています。 カテゴリトランザクションの対象となる「マーケティング **」カテゴリと「API トリガ」** タイプのキャンペーンタイプを設定します **。**"
 
 使用可能なキャンペーンには、次の2種類があります。
 

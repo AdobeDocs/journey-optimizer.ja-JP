@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="コンテンツの実験"
->abstract="TBC"
+>abstract="配信の内容、件名、またはセンダーを変更することにより、複数の配信の治療を定義して、ユーザーに最適な組み合わせを決定することができます。"
 
 >[!AVAILABILITY]
 >

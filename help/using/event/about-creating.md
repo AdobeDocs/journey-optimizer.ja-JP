@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="Identity 名前空間"
->abstract="TBC"
+>abstract="イベントに関連付けられた顧客プロファイルを識別するためのキーを選択します。"
 
 名前空間により、イベントに関連付けられた人物を識別するために使用するキーのタイプを定義できます。 この設定はオプションです。 Journeys では、に、リアルタイムのカスタマープロファイル ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) から [ 取得された追加情報が必要な場合があります。 {target = &quot;_blank&quot;} のようになります。カスタムデータソースを使用して、サードパーティシステムからのデータのみを使用している場合は、名前空間定義は必要ありません。
 
