@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ランディングページの作成
-description: Journey Optimizer でランディングページを設定して公開する方法を学ぶ
+description: このページでは、旅オプティマイザーのランディングページを設定およびパブリッシュする方法について説明します。
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,243 +10,243 @@ level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 97%
+source-wordcount: '1397'
+ht-degree: 0%
 
 ---
 
-# ランディングページの作成と公開 {#create-lp}
+# ランディングページの作成とパブリッシュ {#create-lp}
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
-ランディングページのリストにアクセスするには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
+ランディングページのリストにアクセスするには、左側のメニューから「> **[!UICONTROL Landing pages]** 」を選択し **[!UICONTROL Journey Management]** ます。
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL ランディングページ]**&#x200B;のリストには、作成されたすべての項目が表示されます。ステータスや変更日に基づいてフィルター処理できます。
+リストに **[!UICONTROL Landing Pages]** は、作成したすべてのアイテムが表示されます。 状態または変更日に基づいて、それらのフィルターを適用することができます。
 
 ![](assets/lp_access-list-filter.png)
 
-公開された項目の場合、このリストから[ランディングページのライブレポート](../reports/lp-report-live.md)または[ランディングページのグローバルレポート](../reports/lp-report-global.md)にアクセスすることができます。
+このリストから、パブリッシュされたアイテムのランディングページライブレポート ](../reports/lp-report-live.md) または [ ランディングページのグローバルレポート ](../reports/lp-report-global.md) に [ アクセスできます。
 
-ランディングページの削除、複製および非公開も行えます。
+また、ジャンプページの削除、複製、非公開を行うこともできます。
 
 >[!CAUTION]
 >
->メッセージで参照されているランディングページを非公開にした場合、そのランディングページへのリンクが壊れ、エラーページが表示されます。
+>メッセージ内で参照されているランディングページを非公開にすると、ランディングページへのリンクが解除され、エラーページが表示されます。
 
-ランディングページの横にある「...」をクリックして、目的のアクションを選択します。
+ランディングページの横にある3つの点をクリックして、目的の操作を選択します。
 
 ![](assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
->[公開済み](#publish-landing-page)のランディングページは削除できません。削除するには、まず非公開にする必要があります。
+>パブリッシュ ](#publish-landing-page) されたランディングページを [ 削除することはできません。このファイルを削除するには、最初にその公開を取り下げる必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
 >title="ランディングページの定義と設定"
->abstract="ランディングページを作成するには、プリセットを選択し、プライマリページとサブページを設定してから、公開する前にページをテストする必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットの作成"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=ja#publish-landing-page" text="ランディングページの公開"
+>abstract="ランディングページを作成するには、プリセットを選択してから、プライマリページとサブページを設定し、最後にパブリッシュする前にページをテストする必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="ランディングページのパブリッシュ"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
 >title="ランディングページへのラベルの割り当て"
->abstract="機密性の高いデジタルアセットを保護するために、ラベルを使用してランディングページへのデータアクセスを管理する権限を定義できます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ja" text="ランディングページプリセットの作成"
+>abstract="秘匿性の高いデジタルアセットを保護するには、ラベルを使用してランディングページへのデータアクセスを管理するための認証を定義します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="ランディングページのプリセットの作成"
 
-ランディングページの作成手順は次のとおりです。
+ランディングページを作成する手順は、次のとおりです。
 
-1. ランディングページのリストから、「**[!UICONTROL ランディングページの作成]**」をクリックします。
+1. 「ランディングページ」リストで、をクリック **[!UICONTROL Create landing page]** します。
 
    ![](assets/lp_create-lp.png)
 
-1. タイトルを追加します。必要に応じて、説明を追加できます。
+1. タイトルを追加します。 必要に応じて説明を追加することができます。
 
    ![](assets/lp_create-lp-details.png)
 
-1. ランディングページにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../administration/object-based-access.md)
+1. カスタムまたはコアデータ使用状況のラベルをランディングページに割り当てるには、を選択 **[!UICONTROL Manage access]** します。 [オブジェクトレベルのアクセス制御について詳しくは、OLAC の説明を参照してください。](../administration/object-based-access.md)
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../landing-pages/lp-presets.md#lp-create-preset)を参照してください。
+1. プリセットを選択します。 この節 ](../landing-pages/lp-presets.md#lp-create-preset) では、ランディングページの [ プリセットを作成する方法について説明します。
 
    ![](assets/lp_create-lp-presets.png)
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. をクリック **[!UICONTROL Create]** します。
 
-1. プライマリページとそのプロパティが表示されます。プライマリページの設定方法については、[こちら](#configure-primary-page)を参照してください。
+1. プライマリページとそのプロパティが表示されます。 ここで ](#configure-primary-page) は、プライマリページ設定 [ の設定方法について説明します。
 
    ![](assets/lp_primary-page.png)
 
-1. 「+」アイコンをクリックしてサブページを追加します。サブページの設定方法については、[こちら](#configure-subpages)を参照してください。
+1. サブページを追加するには、+ アイコンをクリックします。 ここで ](#configure-subpages) は、サブページの設定 [ を構成する方法について説明します。
 
    ![](assets/lp_add-subpage.png)
 
-[プライマリページ](#configure-primary-page)と[サブページ](#configure-subpages)（存在する場合）を設定およびデザインしたら、ランディングページを[テスト](#test-landing-page)して[公開](#publish-landing-page)できます。
+プライマリページと ](#configure-subpages) [ サブページ ](#configure-primary-page) を設定して作成し [ た後は、ランディングページをテスト ](#test-landing-page) し [ てパブリッシュ ](#publish-landing-page) することができ [ ます。
 
 ## プライマリページの設定 {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
->title="プライマリページ設定の定義"
->abstract="プライマリページとは、メールや web サイトなどで、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="ランディングページのコンテンツのデザイン"
+>title="主ページ設定の定義"
+>abstract="電子メールや web サイトなどのランディングページへのリンクをクリックした後に、プライマリページが直ちにユーザーに表示されます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="ランディングページのコンテンツのデザイン"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="ランディングページ URL の定義"
->abstract="このセクションでは、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
+>title="ランディングページの URL の定義"
+>abstract="この節では、一意のランディングページの URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページサブドメインを事前に設定しておく必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="ランディングページのサブドメインの設定"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
 
-プライマリページとは、メールや web サイトなど、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。
+プライマリページは、電子メールや web サイトなどのランディングページへのリンクをクリックした直後に、ユーザーに対してすぐに表示されるページです。
 
-プライマリページの設定を定義するには、次の手順に従います。
+一次ページの設定を定義するには、次の手順に従います。
 
-1. ページ名（デフォルトは「**[!UICONTROL プライマリページ]**」）を変更できます。
+1. 初期設定では **[!UICONTROL Primary page]** 、ページ名は変更できます。
 
-1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
+1. コンテンツデザイナーを使用して、ページのコンテンツを編集します。 ここでは ](design-lp.md) 、ランディングページのコンテンツ [ を定義する方法について説明します。
 
    ![](assets/lp_open-designer.png)
 
-1. ランディングページの URL を定義します。URL の最初の部分では、選択した[プリセット](../landing-pages/lp-presets.md#lp-create-preset)の一部としてランディングページのサブドメインを事前に設定する必要があります。[詳細情報](../landing-pages/lp-subdomains.md)
+1. ランディングページの URL を定義します。 URL の最初の部分では、選択したプリセット ](../landing-pages/lp-presets.md#lp-create-preset) の [ 一部としてランディングページサブドメインを事前に設定しておく必要があります。[詳細情報](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
-   >ランディングページの URL は一意にする必要があります。
+   >ランディングページの URL は一意である必要があります。
 
    ![](assets/lp_access-url.png)
 
    >[!NOTE]
    >
-   >公開済みの場合でも、この URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできません。代わりに、[この節](#test-landing-page)で説明されているように、プレビュー機能を使用してテストすることができます。
+   >この URL がパブリッシュされている場合でも、この URL を web ブラウザーに単純にコピー &amp; ペーストするだけで、ランディングページにアクセスすることはできません。 このセクション ](#test-landing-page) で [ 説明するように、プレビュー機能を使用してテストすることができます。
 
-1. ランディングページで、既に使用可能なフォームデータをプリロードする場合は、**[!UICONTROL プロファイル情報を含むフォームフィールドの事前入力]**&#x200B;を選択します。
+1. 既に使用可能なフォームデータのランディングページを事前に行うには、を選択 **[!UICONTROL Pre-fill form fields with profile information]** します。
 
    ![](assets/lp_prefill-form-fields.png)
 
-   このオプションを有効にした場合、プロファイルが既にオプトイン／オプトアウトしているか、既に購読リストに追加されている場合、その選択はランディングページの表示時に反映されます。
+   このオプションが有効になっていると、プロファイルに既にオプトイン/オプトアウトが設定されている場合、または既に購読リストに追加されている場合は、その選択内容がランディングページの表示時に反映されます。
 
-   例えば、プロファイルが将来のイベントに関する通信の受信をオプトインした場合、次にそのプロファイルにランディングページが表示されたときに、対応するチェックボックスが既に選択されています。
+   例えば、プロファイルが将来のイベントに関する通信を受信することを選択した場合、次にそのプロファイルにランディングページが表示されるときに、対応するチェックボックスが既に選択されています。
 
    ![](assets/lp_prefill-form-ex.png)
 
-1. ページの有効期限を定義できます。その場合、ページの有効期限が切れたらアクションを選択する必要があります。
+1. ページの有効期限日を定義することができます。 そのような場合は、ページの有効期限に応じてアクションを選択する必要があります。
 
-   * **[!UICONTROL リダイレクト URL]**：ページの有効期限が切れたときにユーザーがリダイレクトされるページの URL を入力します。
-   * **[!UICONTROL カスタムページ]**：[サブページを設定](#configure-subpages)し、表示されるドロップダウンリストから選択します。
-   * **[!UICONTROL ブラウザーエラー]**：ページの代わりに表示するエラーテキストを入力します。
+   * **[!UICONTROL Redirect URL]**: ページの有効期限が切れた場合に、ユーザーがリダイレクトされるページの URL を入力します。
+   * **[!UICONTROL Custom page]**: [ サブページ ](#configure-subpages) を設定し、表示されるドロップダウンリストから選択します。
+   * **[!UICONTROL Browser error]**: ページではなく表示されるエラーテキストを入力します。
 
    ![](assets/lp_expiry-date.png)
 
-1. 「**[!UICONTROL 追加データ]**」セクションで、1 つ以上のキーと、それらに対応するパラメーター値を定義します。[式エディター](../personalization/personalization-build-expressions.md)を使用して、これらのキーをプライマリページとサブページのコンテンツで活用することができます。詳しくは、[この節](lp-content.md#use-form-component#use-additional-data)を参照してください。
+1. **[!UICONTROL Additional data]**&#x200B;セクションで、1つ以上のキーと、それに対応するパラメーター値を定義します。このようなキーは、エクスプレッションエディター ](../personalization/personalization-build-expressions.md) を使用して [ 、プライマリページおよびサブページのコンテンツで利用できます。詳しくは、ここを [ ](lp-content.md#use-form-component#use-additional-data) 参照してください。
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. [プライマリページのデザイン時に](design-lp.md) 1 つ以上の購読リストを選択した場合、「**[!UICONTROL 購読リスト]**」セクションに表示されます。
+1. プライマリページ ](design-lp.md) をデザインするときに [ 購読リストを選択した場合は、そのリストが **[!UICONTROL Subscription list]** セクションに表示されます。
 
    ![](assets/lp_subscription-list.png)
 
-1. ランディングページから直接、ユーザーがフォームを送信したときに確認メッセージを送信する[ジャーニーを作成](../building-journeys/journey-gs.md#jo-build)できます。この[ユースケース](lp-use-cases.md#subscription-to-a-service)の最後に、このようなジャーニーの作成方法について説明します。
+1. ランディングページでは、ユーザーがフォームを送信したときに確認メッセージを表示するための、フライト ](../building-journeys/journey-gs.md#jo-build) を直接 [ 作成することができます。このようなユースケース ](lp-use-cases.md#subscription-to-a-service) の終わりに、この [ ような旅を構築する方法を説明します。
 
    ![](assets/lp_create-journey.png)
 
-   「**[!UICONTROL ジャーニーを作成]**」をクリックして、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;リストにリダイレクトします。
+   > **[!UICONTROL Journeys]** リストにリダイレクトするには、 **[!UICONTROL Journey Management]** をクリック **[!UICONTROL Create journey]** します。
 
 ## サブページの設定 {#configure-subpages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
->title="サブページ設定の定義"
->abstract="最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。"
+>title="サブページの設定の定義"
+>abstract="1つのサブページを追加することができます。 例えば、ユーザーがフォームを送信したときに表示される「お礼」ページを作成したり、ランディングページに問題が発生したときに呼び出されるエラーページを定義することができます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="ランディングページのコンテンツのデザイン"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="ランディングページ URL の定義"
->abstract="このセクションでは、一意のランディングページ URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページのサブドメインを事前に設定する必要があります。"
+>title="ランディングページの URL の定義"
+>abstract="この節では、一意のランディングページの URL を定義します。 URL の最初の部分では、選択したプリセットの一部としてランディングページサブドメインを事前に設定しておく必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="ランディングページのサブドメインの設定"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
 
-最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。
+1つのサブページを追加することができます。 例えば、ユーザーがフォームを送信したときに表示される「お礼」ページを作成したり、ランディングページに問題が発生したときに呼び出されるエラーページを定義することができます。
 
-サブページ設定を定義するには、次の手順に従います。
+サブページの設定を定義するには、次の手順に従います。
 
-1. ページ名（デフォルトは「**[!UICONTROL サブページ 1]**」）を変更できます。
+1. 初期設定では **[!UICONTROL Subpage 1]** 、ページ名は変更できます。
 
-1. コンテンツデザイナーを使用してページのコンテンツを編集します。ランディングページのコンテンツを定義する方法については、[こちら](design-lp.md)を参照してください。
+1. コンテンツデザイナーを使用して、ページのコンテンツを編集します。 ここでは ](design-lp.md) 、ランディングページのコンテンツ [ を定義する方法について説明します。
 
    >[!NOTE]
    >
-   >同じランディングページの任意のサブページからプライマリページへのリンクを挿入できます。例えば、操作を誤ったので再度購読したいユーザーをリダイレクトするには、確認サブページから購読プライマリページへのリンクを追加します。リンクの挿入について詳しくは、[この節](../email/message-tracking.md#insert-links)を参照してください。
+   >同一のランディングページの任意のサブページからプライマリページへのリンクを挿入できます。 例えば、間違いを犯したユーザーをリダイレクトし、再度購読する場合は、確認のサブページから購読メインページへのリンクを追加することができます。 このセクション ](../email/message-tracking.md#insert-links) に [ リンクを挿入する方法について説明します。
 
-1. ランディングページの URL を定義します。URL の最初の部分では、ランディングページのサブドメインを事前に設定しておく必要があります。[詳細情報](../landing-pages/lp-subdomains.md)
+1. ランディングページの URL を定義します。 URL の最初の部分では、事前にランディングページのサブドメインを設定しておく必要があります。 [詳細情報](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
-   >ランディングページの URL は一意にする必要があります。
+   >ランディングページの URL は一意である必要があります。
 
 ![](assets/lp_subpage-settings.png)
 
 ## ランディングページのテスト {#test-landing-page}
 
-ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
+ランディングページの設定とコンテンツを定義した後は、テストプロファイルを使用してプレビューすることができます。 パーソナライズされたコンテンツ ](../personalization/personalize.md) を挿入 [ した場合、このコンテンツがどのように表示されるかは、テストプロファイルデータを使用して、ランディングページにどのように表示されるかを確認することができます。
 
 >[!CAUTION]
 >
->メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法について説明します。
+>メッセージをプレビューして、校正刷りを送信するには、使用可能なテストプロファイルが必要です。 テストプロファイル ](../segment/creating-test-profiles.md) の作成方法に [ ついて説明します。
 
-1. ランディングページのインターフェイスから、「**[!UICONTROL プレビューとテスト]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
+1. ランディングページのインターフェイスで、ボタンをクリック **[!UICONTROL Preview & test]** して、テストプロファイルの選択にアクセスします。
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >「**[!UICONTROL プレビュー]**」ボタンには、コンテンツデザイナーからもアクセスできます。
+   >**[!UICONTROL Preview]**&#x200B;このボタンは、コンテンツデザイナーからもアクセスできます。
 
-1. 「**[!UICONTROL プレビューとテスト]**」画面から、1 つ以上のテストプロファイルを選択します。
+1. **[!UICONTROL Preview & test]**&#x200B;画面で、1つ以上のテストプロファイルを選択します。
 
    ![](assets/lp_test-profiles.png)
 
-   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../email/preview.md#select-test-profiles)を参照してください。
+   テストプロファイルを選択する手順は、メッセージをテストするときと同じです。 詳細については、このセクション ](../email/preview.md#select-test-profiles) で [ 詳しく説明しています。
 
-1. 「**[!UICONTROL プレビュー]**」タブを選択し、「**[!UICONTROL プレビューを開く]**」をクリックしてランディングページをテストします。
+1. **[!UICONTROL Preview]**&#x200B;タブを選択し、をクリック **[!UICONTROL Open preview]** して、ランディングページをテストします。
 
    ![](assets/lp_open-preview.png)
 
-1. ランディングページのプレビューが新しいタブで開きます。パーソナライズされた要素が、選択したテストプロファイルデータに置き換えられます。
+1. ランディングページのプレビューが、新しいタブに表示されます。 パーソナライズされたエレメントは、選択したテストプロファイルデータに置き換えられます。
 
    ![](assets/lp_preview.png)
 
-1. ランディングページの各バリエーションに対してレンダリングをプレビューするには、別のテストプロファイルを選択します。
+1. ランディングページの各バリエーション用にレンダリングをプレビューするには、他のテストプロファイルを選択します。
 
 ## アラートの確認 {#check-alerts}
 
-ランディングページの作成中、公開前に重要なアクションを実行する必要がある場合は、アラートが表示されます。
+ランディングページの作成中に、公開前に重要なアクションを実行する必要がある場合は警告が表示されます。
 
-次に示すように、画面の右上にアラートが表示されます。
+アラートは、次に示すように、画面の右上に表示されます。
 
 ![](assets/lp_alerts.png)
 
 >[!NOTE]
 >
->このボタンが表示されない場合、アラートは検出されていません。
+>このボタンが表示されていない場合は、警告が検出されていません。
 
-次の 2 種類のアラートが発生する可能性があります。
+アラートは、次の2種類の方法で発生する可能性があります。
 
-* **警告**&#x200B;は、推奨奨事項とベストプラクティスを表します。<!--For example, a message will display if -->
+* **警告** は「推奨事項」および「ベストプラクティス」を参照してください。 <!--For example, a message will display if -->
 
-* **エラー**&#x200B;を解決しない限り、ランディングページを公開することはできません。例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
+* **エラーが発生** すると、解決されていない限り、ランディングページをパブリッシュすることはできません。 例えば、主ページ URL が指定されていない場合は、警告が表示されます。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
 >[!CAUTION]
 >
-> 公開する前に、すべての&#x200B;**エラー**&#x200B;アラートを解決する必要があります。
+> 公開する前に、すべて **のエラー** 警告を解決する必要があります。
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -263,21 +263,21 @@ ht-degree: 97%
 > To be able to publish your message, you must resolve all **error** alerts.
 -->
 
-## ランディングページの公開 {#publish-landing-page}
+## ランディングページのパブリッシュ {#publish-landing-page}
 
-ランディングページの準備が整ったら、ページを公開し、メッセージで使用できる状態にできます。
+ランディングページの準備ができたら、それをパブリッシュして、メッセージで使用できるようにします。
 
 ![](assets/lp_publish.png)
 
 >[!CAUTION]
 >
->公開する前に、アラートを確認して解決します。[詳細情報](#check-alerts)
+>公開する前に、アラートを確認して解決します。 [詳細情報](#check-alerts)
 
-ランディングページが公開されると、**[!UICONTROL 公開中のアイテム]**&#x200B;ステータスでランディングページリストに追加されます。
+ランディングページは、公開されると、状態と共 **[!UICONTROL Published]** にランディングページのリストに追加されます。
 
-これでライブになり、[!DNL Journey Optimizer]  メッセージで使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
+この機能は現在ライブ状態で、メッセージに [!DNL Journey Optimizer] 使用して、旅 ](../building-journeys/journey.md) に送ら [ れるようになりました。
 
 >[!NOTE]
 >
->特定のレポートを通じて、ランディングページの影響を監視できます。[詳細情報](../reports/lp-report-live.md)
+>特定のレポートを使用して、ランディングページへの影響を監視することができます。 [詳細情報](../reports/lp-report-live.md)
 

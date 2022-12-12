@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ランディングページのサブドメインの設定
-description: Journey Optimizer でランディングページのサブドメインを設定する方法を説明します
+description: フライトオプティマイザーを使用したランディングページサブドメインの設定方法について説明します。
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 97%
+source-wordcount: '756'
+ht-degree: 0%
 
 ---
 
@@ -17,128 +17,128 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
->title="ランディングページのサブドメインをデリゲート"
->abstract="ランディングページで使用するサブドメインを設定します。 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。"
+>title="ランディングページサブドメインの委任"
+>abstract="あなたは、ジャンプページを使用するためにサブドメインを設定します。 既に Adobe に委任されているサブドメインや、他のサブドメインを設定したサブドメインを使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
->title="ランディングページのサブドメインをデリゲート"
->abstract="ランディングページプリセットを作成するにはこのサブドメインが必要なので、ランディングページで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットを作成"
+>title="ランディングページサブドメインの委任"
+>abstract="ランディングページに使用するサブドメインを設定する必要があります。このサブドメインは、ランディングページのプリセットを作成するために必要になります。 既に委任されているサブドメインを使用することも、新しいサブドメインを設定することもできます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="ランディングページプリセットの作成"
->abstract="ランディングページプリセットを作成できるようにするには、少なくとも 1 つのランディングページサブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページプリセットを作成"
+>title="ランディングページのプリセットの作成"
+>abstract="ランディングページのプリセットを作成できるようにするには、サブドメイン名リストから1つ以上のランディングページサブドメインが事前に設定されていることを確認してください。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="ランディングページのプリセットの作成"
 
-[ランディングページプリセットの作成](lp-presets.md)を可能にするには、ランディングページに使用するサブドメインをセットアップする必要があります。
+[ランディングページのプリセット ](lp-presets.md) を作成できるようにするには、ランディングページに使用するサブドメインを設定する必要があります。
 
-既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
+既に Adobe に委任されているサブドメインを使用するか、または別のサブドメインを設定することができます。 ここでは、この節 ](../configuration/delegate-subdomain.md) で [ 説明するサブドメインの Adobe への委任について詳しく説明します。
 
 >[!CAUTION]
 >
->ランディングページのサブドメイン設定は、すべての環境に共通です。 したがって、ランディングページのサブドメインを変更すると、実稼働用サンドボックスにも影響を与えます。
+>ランディングページサブドメインの設定は、すべての環境で共通です。 したがって、ランディングページのサブドメインに変更を加えると、運用サンドボックスにも影響します。
 
-サブドメインでは大文字は使用できません
+大文字はサブドメイン内では使用できません。
 
-## 既存のサブドメインを使用 {#lp-use-existing-subdomain}
+## 既存のサブドメインを使用する {#lp-use-existing-subdomain}
 
-既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
+既に Adobe に委任されているサブドメインを使用するには、次の手順を実行します。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL メール設定]**／**[!UICONTROL ランディングページのサブドメイン]**&#x200B;を選択します。
+1. **[!UICONTROL Administration]**> **[!UICONTROL Channels]** メニューにアクセスし、「> **[!UICONTROL Landing page subdomains]** 」を選択 **[!UICONTROL Email configuration]** します。
 
    ![](assets/lp_access-subdomains.png)
 
-1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
+1. をクリック **[!UICONTROL Set up subdomain]** します。
 
    ![](assets/lp_set-up-subdomain.png)
 
-1. 「**[!UICONTROL 設定タイプ]** 」セクションから「**[!UICONTROL デリゲートドメインを使用]**」を選択します。
+1. セクションから **[!UICONTROL Configuration type]** を選択 **[!UICONTROL Use delegated domain]** します。
 
    ![](assets/lp_use-delegated-subdomain.png)
 
-1. ランディングページの URL に表示するプレフィックスを入力します。
+1. ランディングページの URL に表示されるプレフィックスを入力します。
 
    >[!NOTE]
    >
-   >英数字とハイフンのみが使用できます。
+   >使用できるのは、英数字とハイフンのみです。
 
-1. リストからデリゲートされたサブドメインを選択します。
+1. リストから委任されたサブドメインを選択します。
 
    >[!NOTE]
    >
-   >既にランディングページのサブドメインとして使用されているサブドメインは選択できません。
+   >既にランディングページのサブドメインとして使用されているサブドメインを選択することはできません。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   同じ親ドメインの複数のデリゲートされたサブドメインを使用することはできないことに注意してください。 例えば、「marketing1.yourcompany.com」が既にランディングページ用にアドビにデリゲートされている場合、「marketing2.yourcompany.com」を使用することはできません。ただし、ランディングページ用に複数レベルのサブドメインがサポートされている場合は、「marketing1.yourcompany.com」のサブドメイン（「email.marketing1.yourcompany.com」など）または別の親ドメインを使用して続行できます。
+   1つの親ドメインに委任された複数のサブドメインを使用できないことに注意してください。 例えば、「marketing1.yourcompany.com」がランディングページに対して既に Adobe に委任されている場合は、「marketing2.yourcompany.com」を使用することはできません。 ただし、ランディングページについては、「marketing1.yourcompany.com」というサブドメイン (&#39; email.marketing1.yourcompany.com &#39; など)、または別の親ドメインを使用して、そのサブドメインを使用することもできます。
 
    >[!CAUTION]
    >
-   >[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。[この節](#lp-configure-new-subdomain)でその方法を説明します。
+   >CNAME メソッド ](../configuration/delegate-subdomain.md#cname-subdomain-delegation) を使用して [ Adobe に委任されたドメインを選択した場合は、ホストプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを作成するには、新しいランディングページのサブドメインを設定するときと同じ手順を実行します。 この節 ](#lp-configure-new-subdomain) の説明を [ 参照してください。
 
-1. 「**[!UICONTROL 送信]**」をクリックします。
+1. をクリック **[!UICONTROL Submit]** します。
 
-1. 送信されると、サブドメインは&#x200B;**[!UICONTROL 処理中]**&#x200B;ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
+1. サブドメインが送信されると、リスト **[!UICONTROL Processing]** に状態が表示されます。 サブドメインの状態について詳しくは、この節 ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains) を [ 参照してください。<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
    >[!NOTE]
    >
-   >そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >サブドメインを使用してメッセージを送信するには、事前に必要なチェックが実行されるまで待つ必要があります。この処理には最大4時間かかります。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
+1. チェックが成功すると、サブドメインが状態を取得 **[!UICONTROL Success]** します。 この設定を使用して、ランディングページのプリセットを作成することができます。
 
-## 新しいサブドメインを設定 {#lp-configure-new-subdomain}
+## 新しいサブドメインの設定 {#lp-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
->title="一致する DNS レコードを生成"
->abstract="新しいランディングページのサブドメインを設定するには、Journey Optimizer インターフェイスに表示されるアドビのネームサーバー情報をコピーし、ドメインホストソリューションに貼り付けて、一致する DNS レコードを生成する必要があります。チェックが正常に完了すると、ランディングページプリセットの作成にサブドメインを使用する準備が整います。"
+>title="一致する DNS レコードの生成"
+>abstract="新しいランディングページサブドメインを設定するには、旅のオプティマイザーインターフェイスに表示されている Adobe nameserver 情報をコピーし、それをドメインホストソリューションにペーストして、一致する DNS レコードを生成する必要があります。 チェックが成功すると、サブドメインを使用してランディングページのプリセットを作成できるようになります。"
 
-新しいサブドメインを設定するには、次の手順に従います。
+新しいサブドメインを設定するには、次の手順を実行します。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL メール設定]**／**[!UICONTROL ランディングページのサブドメイン]**&#x200B;を選択します。
+1. **[!UICONTROL Administration]**> **[!UICONTROL Channels]** メニューにアクセスし、「> **[!UICONTROL Landing page subdomains]** 」を選択 **[!UICONTROL Email configuration]** します。
 
-1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
+1. をクリック **[!UICONTROL Set up subdomain]** します。
 
-1. 「 **[!UICONTROL 設定タイプ]** 」セクションから「**[!UICONTROL 独自のドメインを追加]**」を選択します。
+1. セクションから **[!UICONTROL Configuration type]** を選択 **[!UICONTROL Add your own domain]** します。
 
    ![](assets/lp_add-your-own-subdomain.png)
 
-1. デリゲートするサブドメインを指定します。
+1. 委任するサブドメインを指定します。
 
    >[!CAUTION]
    >
-   >既存のランディングページのサブドメインは使用できません。
+   >既存のランディングページサブドメインを使用することはできません。
    >
-   >サブドメインでは大文字は使用できません。
+   >サブドメインで大文字を使用することはできません。
 
-   無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
+   無効なサブドメインをアドビシステムズ社に委任することはできません。 Marketing.yourcompany.com のように、組織が所有している有効なサブドメインを入力してください。
 
    >[!NOTE]
    >
-   >ランディングページでは、複数レベルのサブドメインがサポートされています。 例えば、「email.marketing.yourcompany.com」を使用できます。
+   >ランディングページについては、マルチレベルのサブドメインがサポートされています。 例えば、「email.marketing.yourcompany.com」を使用することもできます。
 
-1. DNS サーバーに配置するレコードが表示されます。このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインをホストするソリューションに移動し、一致する DNS レコードを生成します。
+1. DNS サーバーに配置されるレコードが表示されます。 このレコードをコピーするか、または CSV ファイルをダウンロードし、次に、ドメインホストソリューションに移動して一致する DNS レコードを生成します。
 
-1. DNS レコードがドメインホスティングソリューションに生成されていることを確認します。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
+1. ドメインホストソリューションに DNS レコードが生成されていることを確認してください。 すべてが正しく設定されている場合は、「確認します」チェックボックスをオンにし、をクリック **[!UICONTROL Submit]** します。
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
    >[!NOTE]
    >
-   >新しいランディングページのサブドメインを設定すると、常に CNAME レコードを指すようになります。
+   >新しいランディングページサブドメインを設定すると、常に CNAME レコードが参照されます。
 
-1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
+1. サブドメインの委任が送信されると、そのドメインの一覧 **[!UICONTROL Processing]** に状態が表示されます。 サブドメインの状態について詳しくは、この節 ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains) を [ 参照してください。<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。<!--Learn more in [this section](#subdomain-validation).-->
+   >サブドメインを使用してメッセージを送信するには、事前に必要なチェックが実行されるまで待つ必要があります。この処理には最大4時間かかります。<!--Learn more in [this section](#subdomain-validation).-->
 
-1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
+1. チェックが成功すると、サブドメインが状態を取得 **[!UICONTROL Success]** します。 この設定を使用して、ランディングページのプリセットを作成することができます。
 
-   ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
+   ホストソリューションに検証レコードを作成しない場合は、サブドメインにマーク **[!UICONTROL Failed]** が付けられます。
