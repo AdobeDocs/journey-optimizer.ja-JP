@@ -4,9 +4,9 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
    * [電子メールチャンネル](../email/get-started-email.md)
    * [プッシュ通知チャネル](../push/get-started-push.md)
    * [SMS チャネル](../sms/get-started-sms.md)
+
+* 読みやすさを向上させるために設定ガイドが再構成されました。 [詳細を読む](../configuration/get-started-configuration.md)
 
 ## 2022 11 月 {#november-2022}
 
