@@ -131,22 +131,21 @@ GDPR のような規制により、データの主題によっては、いつで
 
 1. 以下の他のすべてのクエリについては、旅のアクション ID が必要になります。 このクエリーを実行すると、過去2日間の特定の旅バージョン ID に関連付けられたすべてのアクション Id が取得されます。
 
-       「JourneyOrchestration」 
-      _experience と 
-      いうオプション      
- を指定します。 _experience journeyVersionID 
-      、journeyOrchestration、_experience 
-      、、、actionName、journeyOrchestration = &#39; &#39;、および [journeyOrchestration = &#39; &#39;] を指定すると 
-      、_experience journey_step_events 
-      
-      から DISTINCT 
-      を指定することができます。&lt;journey version=&quot;&quot; id=&quot;&quot;> 
-     _experience journeyOrchestration は NULL で 
-      はなく > 現在タイムスタンプでもありません ()-INTERVAL 「2」 
-      を指定します。 
+    ```
+    SELECT
+    DISTINCT
+    CAST(TIMESTAMP AS DATE) AS EventTime,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionName, 
+    _experience.journeyOrchestration.stepEvents.actionID 
+    FROM journey_step_events 
+    WHERE 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
+    _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
+    TIMESTAMP > NOW() - INTERVAL '2' DAY 
+    ORDER BY EventTime DESC;
+    ```
 
-     ```
-            &lt;/journey>                              
    >[!NOTE]
    >
    >パラメーターを取得 `<journey version id>` するには、対応 [ ](../building-journeys/journey.md#journey-versions) **[!UICONTROL Journey management]** する > **[!UICONTROL Journeys]** メニューを選択します。 旅のバージョン ID は、web ブラウザーに表示される URL の末尾に表示されます。
@@ -155,29 +154,28 @@ GDPR のような規制により、データの主題によっては、いつで
 
 1. このクエリーを実行すると、特定のユーザーを対象とする特定のメッセージに対して生成されたすべてのメッセージフィードバックイベント (特にフィードバックステータス) を、次の2日に取得できます。
 
-       「」 _Experience _experience を選択      
- します。 CustomerJourneyManagement journeyVersionID JourneyVersionID、      
- customerJourneyManagement、journeyActionID、journeyActionID、customerJourneyManagement、customerJourneyManagement、、 
-      、としてのタイムスタンプ、 
-      _experience、emailchannelcontext、、emailchannelcontext context 
-      、、email、、。 
-     
-    CASE _experience フィードバックを送信します。この場合、&#39; > &#39; が発生したときに &#39; &#39; の場合は &#39; delay &#39; が送信されるときに &#39; cjm_message_feedback_event_dataset 
-      
-      &#39;      
- 
-      
-      の場合は &#39; が送信さ      
- れたときに &#39; out_of_band 再 
-      バウンド &#39; が発生した場合は、タイムスタンプが ()-INTERVAL &#39; 2 &#39; 日と 
-      _ になります。 
-     customerJourneyManagement の実行、journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; および 
-      _experience customerJourneyManagement の実行. journeyActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>&#39; および 
-      _experience customerJourneyManagement channelchannelの context. address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39; 
-      ORDER BY EventTime DESC; 
-     ```
-
-      &lt;/recipient>   &lt;/journey>   &lt;/journey>                                                   
+    ```
+    SELECT  
+    _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+    _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+    timestamp AS EventTime, 
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+    CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+        WHEN 'sent' THEN 'Sent'
+        WHEN 'delay' THEN 'Retry'
+        WHEN 'out_of_band' THEN 'Bounce' 
+        WHEN 'bounce' THEN 'Bounce'
+    END AS FeedbackStatusCategory
+    FROM cjm_message_feedback_event_dataset 
+    WHERE  
+        timestamp > now() - INTERVAL '2' day  AND
+        _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+        _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
+        _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
+        ORDER BY EventTime DESC;
+    ```
+                                            
    >[!NOTE]
    >
    >パラメーターを取得 `<journey action id>` するには、旅のバージョン id を使用して、上で説明した最初のクエリーを実行します。 `<recipient email address>`このパラメーターには、対象となる受信者の電子メールアドレスを指定します。
