@@ -113,7 +113,7 @@ GDPR のような規制により、データの主題によっては、いつで
 
 >[!NOTE]
 >
->プライバシーの管理について詳しくは、『経験プラットフォームマニュアル [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) (  target = &quot;_blank&quot;&rbrace;) の「プライバシーの管理」を参照してください。
+>プライバシーの管理について詳しくは、『経験プラットフォームマニュアル [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} の「プライバシーの管理」を参照してください。
 
 ### BCC レポートデータ {#bcc-reporting}
 
