@@ -40,7 +40,7 @@ HIPAA のような規制については、個人に送信される [!DNL Journey
 
 ### BCC 電子メールの有効化 {#enable-bcc}
 
-このオプションを有効 **[!UICONTROL BCC email]** にするには、チャネルサーフェス ](channel-surfaces.md) の [ 専用フィールド (メッセージプリセット) に、選択した電子メールアドレスを入力します。Adobe に委任されたサブドメインで定義されている電子メールアドレスを除き、どの外部アドレスも正しい形式で指定できます。 例えば、marketing.luma.com *サブドメインを Adobe に委任* した場合、abc@marketing.luma.com *のような* アドレスは禁止されます。
+このオプションを有効 **[!UICONTROL BCC email]** にするには、チャネルサーフェス [&#128279;](channel-surfaces.md) の  専用フィールド (メッセージプリセット) に、選択した電子メールアドレスを入力します。Adobe に委任されたサブドメインで定義されている電子メールアドレスを除き、どの外部アドレスも正しい形式で指定できます。 例えば、marketing.luma.com *サブドメインを Adobe に委任* した場合、abc@marketing.luma.com *のような* アドレスは禁止されます。
 
 >[!CAUTION]
 >
@@ -64,7 +64,7 @@ BCC 電子メールアドレスの設定は、ただちにサーフェスレベ�
 
 ![](assets/preset-bcc-in-msg.png)
 
-ただし、ここで ](../email/email-settings.md) 説明している [ ような情報を送信するために BCC アドレスが選択されます。
+ただし、ここで [&#128279;](../email/email-settings.md) 説明している  ような情報を送信するために BCC アドレスが選択されます。
 
 ### 推奨事項と制限事項 {#bcc-recommendations-limitations}
 
@@ -74,11 +74,11 @@ BCC 電子メールアドレスの設定は、ただちにサーフェスレベ�
 
 * BCC に使用されている受信ボックスは、スペースや配信に適した適切な管理を行う必要があります。 受信ボックスがバウンスを返した場合は、受信されなかったり、アーカイブされなかったりすることがあります。
 
-* メッセージは、宛先の受信者より先に BCC 電子メールアドレスに配信される場合があります。 BCC メッセージは、元のメッセージがバウンス ](../reports/suppression-list.md#delivery-failures) された [ としても送信される場合もあります。
+* メッセージは、宛先の受信者より先に BCC 電子メールアドレスに配信される場合があります。 BCC メッセージは、元のメッセージがバウンス [&#128279;](../reports/suppression-list.md#delivery-failures) された  としても送信される場合もあります。
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* BCC アドレスに送信された電子メールを開いたりクリックしたりすることはありません。これは、送信解析から開いてクリックした総数によって異なります。これにより、レポート ](../reports/global-report.md) の [ 計算が失敗する可能性があります。
+* BCC アドレスに送信された電子メールを開いたりクリックしたりすることはありません。これは、送信解析から開いてクリックした総数によって異なります。これにより、レポート [&#128279;](../reports/global-report.md) の  計算が失敗する可能性があります。
 
 * BCC 受信ボックスでは、メッセージにスパムというマークを付けないでください。これは、このアドレスに送信される他の電子メールすべてに影響します。
 
@@ -93,7 +93,7 @@ GDPR のような規制により、データの主題によっては、いつで
 
 これを行うには、次の手順を実行します。
 
-1. > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** に **[!UICONTROL Data management]** 移動し、「」を選択 **[!UICONTROL CJM Email BCC Feedback Event Schema]** します。
+1. &#x200B;> **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** に **[!UICONTROL Data management]** 移動し、「」を選択 **[!UICONTROL CJM Email BCC Feedback Event Schema]** します。
 
    ![](assets/preset-bcc-schema.png)
 
@@ -113,17 +113,17 @@ GDPR のような規制により、データの主題によっては、いつで
 
 >[!NOTE]
 >
->プライバシーの管理について詳しくは、『経験プラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) ( [ target = &quot;_blank&quot;}) の「プライバシーの管理」を参照してください。
+>プライバシーの管理について詳しくは、『経験プラットフォームマニュアル [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) (  target = &quot;_blank&quot;&rbrace;) の「プライバシーの管理」を参照してください。
 
 ### BCC レポートデータ {#bcc-reporting}
 
 「BCC」に同様のレポートは、メッセージレポートには表示されません。 ただし、インフォメーションはという **[!UICONTROL AJO BCC Feedback Event Dataset]** システムデータセットに保存されます。 このデータセットに対してクエリーを実行すると、デバッグ目的で使用する有益な情報を取得することができます。
 
-このデータセットには、ユーザーインターフェイスを使用してアクセスできます。 > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** を選択 **[!UICONTROL Data management]** し、フィルターを使用して、 **[!UICONTROL Show system datasets]** システムによって生成されたデータセットを表示します。このセクション ](../data/get-started-datasets.md#access-datasets) のデータセットにアクセスする方法について詳しくは [ 、こちらを参照してください。
+このデータセットには、ユーザーインターフェイスを使用してアクセスできます。 > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** を選択 **[!UICONTROL Data management]** し、フィルターを使用して、 **[!UICONTROL Show system datasets]** システムによって生成されたデータセットを表示します。このセクション [&#128279;](../data/get-started-datasets.md#access-datasets) のデータセットにアクセスする方法について詳しくは  、こちらを参照してください。
 
 ![](assets/preset-bcc-dataset.png)
 
-このデータセットに対してクエリーを実行するには、Adobe Experience Platform Query サービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) {target = &quot;_blank&quot;} によっ [ て提供されるクエリーエディターを使用できます。このファイルにアクセスするには、「> **[!UICONTROL Queries]** 」を選択 **[!UICONTROL Data management]** し、をクリック **[!UICONTROL Create query]** します。[詳細情報](../data/get-started-queries.md)
+このデータセットに対してクエリーを実行するには、Adobe Experience Platform Query サービス [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}  によっ  て提供されるクエリーエディターを使用できます。このファイルにアクセスするには、「> **[!UICONTROL Queries]** 」を選択 **[!UICONTROL Data management]** し、をクリック **[!UICONTROL Create query]** します。[詳細情報](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -144,6 +144,7 @@ GDPR のような規制により、データの主題によっては、いつで
      _experience journeyOrchestration は NULL で 
       はなく > 現在タイムスタンプでもありません ()-INTERVAL 「2」 
       を指定します。 
+
      ```
             &lt;/journey>                              
    >[!NOTE]
@@ -175,6 +176,7 @@ GDPR のような規制により、データの主題によっては、いつで
       _experience customerJourneyManagement channelchannelの context. address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39; 
       ORDER BY EventTime DESC; 
      ```
+
       &lt;/recipient>   &lt;/journey>   &lt;/journey>                                                   
    >[!NOTE]
    >
