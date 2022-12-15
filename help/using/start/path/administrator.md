@@ -42,8 +42,7 @@ ht-degree: 100%
 ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]**&#x200B;メニューを参照し、メッセージとチャネルサーフェス（メッセージプリセットなど）を設定します。
 
 >[!NOTE]
->**システム管理者**&#x200B;の [!DNL Journey Optimizer] に&#x200B;**[!UICONTROL チャネル]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){_blank} で権限を更新してください。
-製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
+>**システム管理者**&#x200B;の [!DNL Journey Optimizer] に&#x200B;**[!UICONTROL チャネル]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){_blank} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
 
 以下の手順に従います。
 
