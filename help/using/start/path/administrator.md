@@ -1,73 +1,73 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer の基本を学ぶ（システム管理者向け）
-description: システム管理者向けに Journey Optimizer の操作方法の詳細について説明します
+title: システム管理のために、旅のオプティマイザーが開始されます。
+description: システム管理者は、旅オプティマイザーの操作方法について学習します。
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 0%
 
 ---
 
-# システム管理者向けの基礎知識 {#get-started-sys-admins}
+# システム管理者向けの作業の開始 {#get-started-sys-admins}
 
-[!DNL Adobe Journey Optimizer] の使用を開始する前に、環境の準備にいくつかの手順が必要です。[データエンジニア](data-engineer.md)と[ジャーニー実務担当者](marketer.md)が [!DNL Adobe Journey Optimizer] で作業を開始できるように、これらの手順を実行する必要があります。
+を使用して [!DNL Adobe Journey Optimizer] 作業を開始する前に、環境を準備するためのいくつかの手順が必要です。  これらの手順を実行して、Data 技師 ](data-engineer.md) および [ 旅の [ Practicionner ](marketer.md) を使用 [!DNL Adobe Journey Optimizer] できるようにする必要があります。
 
 
-**システム管理者**&#x200B;は、サンドボックス管理とチャネル設定のために&#x200B;**製品プロファイルを把握し権限を割り当てる**&#x200B;必要があります。また、サンドボックスをセットアップし、使用可能な製品プロファイル用にサンドボックスを管理する必要もあります。その後で、チームメンバーを製品プロファイルに割り当てることができます。
+これは **、システム管理者** によって製品プロファイルが理解され、サンドボックスの管理およびチャネル設定に対するアクセス許可 **が割り当てられていることが必要** です。また、サンドボックスを設定して、使用可能な製品プロファイル用にそれを管理する必要もあります。 これにより、チームメンバーを製品プロファイルに割り当てることができます。
 
-これらの機能は、Admin Console にアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。Adobe Admin Console について詳しくは、[こちら](https://helpx.adobe.com/jp/enterprise/admin-guide.html){target=&quot;_blank&quot;}を参照してください。
+これらの機能を使用して **[!UICONTROL Product administrators]** 管理コンソールにアクセスすることができます。 [Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) について詳しくは、{target = &quot;_blank 「}」を参照してください。
 
-アクセス管理については、次のページを参照してください。
+以下のページで、アクセス管理について説明します。
 
-1. **サンドボックスを作成**&#x200B;して、インスタンスを個別の独立した仮想環境に分割します。**サンドボックス** は、[!DNL Journey Optimizer] で作成します。詳しくは、[サンドボックス](../../administration/sandboxes.md)の節を参照してください。
+1. **サンド** ボックスを作成して、インスタンスを個別の独立した仮想環境に分割します。 **サンド** ボックスは、に [!DNL Journey Optimizer] 作成されます。 詳しくは、「サンド ](../../administration/sandboxes.md) ボックス」の項を参照して [ ください。
 
    >[!NOTE]
-   >**システム管理者**&#x200B;の [!DNL Journey Optimizer] に&#x200B;**[!UICONTROL サンドボックス]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){_blank} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
+   >**システム管理者** として、に [!DNL Journey Optimizer] メニューが表示され **[!UICONTROL Sandboxes]** ない場合は、Admin Console ](https://adminconsole.adobe.com/) で [ のアクセス権の更新 {target = &quot;_blank&quot;}このページ ](../../administration/permissions.md#edit-product-profile) で [ プロダクトプロファイルを更新する方法について説明します。
 
-1. **製品プロファイルを把握**&#x200B;します。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにするための単一権限のセットです。詳しくは、[標準の製品プロファイル](../../administration/ootb-product-profiles.md)の節を参照してください。
+1. **製品プロファイル** について説明します。 製品プロファイルは、ユーザーがインターフェイス内の特定の機能またはオブジェクトにアクセスできるようにするための一連の一連の一連の権限を持っています。 「製品プロファイル ](../../administration/ootb-product-profiles.md) 」セクションで [ 詳しく説明しています。
 
-1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){_blank} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
+1. **サンド** ボックスを含む **製品プロファイルのアクセス許可** を設定し、それらのプロファイルを別の製品プロファイルに割り当てることによって、チームメンバーにアクセス権を付与します。このステップは、Admin Console ](https://adminconsole.adobe.com/) {target = &quot;_blank&quot;} によって [ 実行されます。アクセス許可は、割り当てられた認証を **[!UICONTROL Product profile]** 定義できる、ユニタリ権限です。 各パーミッションは、の [!DNL Journey Optimizer] 様々な機能またはオブジェクトを表す「旅」や「申し出」などの機能によって収集されます。 詳しくは、「アクセス許可レベル ](../../administration/high-low-permissions.md) 」の項を参照して [ ください。
 
-さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials Consumer Users** または／および **Assets Essentials Users** の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
-
->[!NOTE]
->2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} の節を参照してください。
-
-[!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
-
-ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]**&#x200B;メニューを参照し、メッセージとチャネルサーフェス（メッセージプリセットなど）を設定します。
+さらに、「アセット essentials コンシューマ Users Users **」や** 「アセット Essentials **ユーザー向け製品プロフィール」の** 「アセット essentials」にアクセスする必要があるユーザーを追加する必要があります。[アセットの基礎ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) の詳細を確認 {target = &quot;_blank&quot;}。
 
 >[!NOTE]
->**システム管理者**&#x200B;の [!DNL Journey Optimizer] に&#x200B;**[!UICONTROL チャネル]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){_blank} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
+>2022年1月6日より前に購入した、旅オプティマイザー製品については、組織で展開 [!DNL Adobe Experience Manager Assets Essentials] する必要があります。 詳しくは、アセットの展開の要点 ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target = &quot;_blank&quot;} セクションを参照して [ ください。
 
-以下の手順に従います。
+初めてアクセス [!DNL Journey Optimizer] するときには、実働サンドボックスが提供され、契約によっては一定数の IPs が割り当てられます。
 
-1. **メッセージとチャネルを設定**：サーフェスを定義し、メール、SMS およびプッシュメッセージの設定を調整しカスタマイズします
+Journeys を作成したり、メッセージを送信したりするには、管理 **メニューにアクセス** してください。**[!UICONTROL Channels]**&#x200B;メニューを参照して、メッセージおよびチャンネルのサーフェスを設定します (メッセージプリセット)。
 
-   * [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方で、**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../push/push-gs.md)
+>[!NOTE]
+>**システム管理者** として、に [!DNL Journey Optimizer] メニューが表示され **[!UICONTROL Channels]** ない場合は、Admin Console ](https://adminconsole.adobe.com/) で [ のアクセス権の更新 {target = &quot;_blank&quot;}このページ ](../../administration/permissions.md#edit-product-profile) で [ プロダクトプロファイルを更新する方法について説明します。
 
-   * **チャネルサーフェス**（メッセージプリセットなど）を作成して、メール、SMS およびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。[詳細情報](../../configuration/channel-surfaces.md)
+以下に示す手順に従います。
 
-   * **SMS チャネル**&#x200B;で、SMS に必要なすべての技術パラメーターを設定します。[詳細情報](../../sms/sms-configuration.md)
+1. **メッセージとチャネル** の設定: サーフェスの定義、電子メール、sms、メッセージの設定のカスタマイズ
 
-   * 抑制リストにメールアドレスを送信するまでに&#x200B;**再試行**&#x200B;を実行する日数を管理します。[詳細](../../configuration/manage-suppression-list.md)
+   * プッシュ通知設定 **は、および [!DNL Adobe Experience Platform Launch] の両方 [!DNL Adobe Experience Platform] で定義** します。[詳細情報](../../push/push-gs.md)
 
-1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細](../../configuration/about-subdomain-delegation.md)
+   * チャネルサーフェス **(メッセージプリセット) を作成** して、電子メール、sms、push notification に必要なすべての技術パラメーターを設定します。[詳細情報](../../configuration/channel-surfaces.md)
+
+   * **Sms チャンネル** を設定して、sms に必要なすべての技術パラメーターを設定します。[詳細情報](../../sms/sms-configuration.md)
+
+   * 電子メールアドレスを抑制リストに送信する前にリトライ **が実行される** 日数を管理します。[詳細情報](../../configuration/manage-suppression-list.md)
+
+1. **サブドメイン** の委任: 新しいサブドメインに対して、旅のオプティマイザーで使用されるようにするには、まずこれを委任する必要があります。 [詳細情報](../../configuration/about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **IP プールの作成**：インスタンスでプロビジョニングされた IP アドレスをグループ化することで、E メールの配信品質と評判を向上させます。[詳細](../../configuration/ip-pools.md)
+1. **IP プール** の作成: インスタンスにプロビジョニングされた ip アドレスをグループ化することによって、電子メールの deliverability と評判を向上させることができます。 [詳細情報](../../configuration/ip-pools.md)
 
    ![](../assets/ip-pool.png)
 
-1. **抑制リストと許可リストを管理**：抑制リストと許可リストを使用して配信品質を向上させます。
+1. **抑制および許可リスト** の管理: 抑制と許可リストを使用した deliverability の改善
 
-   * [抑制リスト](../../reports/suppression-list.md)は、配信の対象外とするメールアドレスの一覧です。これらのアドレスに送信すると、送信の評判や配信率が低下する可能性があるなどの理由から対象外にします。無効なアドレス、絶えずソフトバウンスしメールの評判に悪影響を与える可能性のあるアドレス、送信したメールメッセージに対して何らかのスパム苦情を出す受信者など、ジャーニーでの送信から自動的に除外されるすべてのメールアドレスを監視できます。[抑制リスト](../../configuration/manage-suppression-list.md)と[再試行](../../configuration/retries.md)の管理方法については、それぞれのページを参照してください。
+   * 抑制リスト ](../../reports/suppression-list.md) には [ 、配信から除外する電子メールアドレスが含まれています。これにより、これらの連絡先を送信すると、送信される評判と配信率が低下する可能性があります。自動的に除外された電子メールアドレスはすべて、無効なアドレス、一貫したソフトバウンス、電子メールの評判に悪影響を与える可能性があります。また、何らかの電子メールメッセージに悪影響を与える可能性があります。 抑制リスト ](../../configuration/manage-suppression-list.md) と [ リトライ ](../../configuration/retries.md) を管理 [ する方法について説明します。
    ![](../assets/suppression-list-filtering-example.png)
 
-   * [許可リスト](../../configuration/allow-list.md)を使用すると、個々のメールアドレスまたはドメインを指定して、これらの受信者またはドメインでのみ、特定のサンドボックスから送信するメールの受信が許可されるようにすることができます。これにより、テスト環境で実際の顧客アドレスに誤ってメールを送信するのを防ぐことができます。許可リストを有効にする方法については、[こちら](../../configuration/allow-list.md)を参照してください。
-   [!DNL Adobe Journey Optimizer] での配信品質管理について詳しくは、[このページ](../../reports/deliverability.md)を参照してください。
+   * [許可リスト ](../../configuration/allow-list.md) を使用すると、特定のサンドボックスから送信する電子メールの受信を承認された受信者またはドメインとして、個々の電子メールアドレスまたはドメインを指定することができます。これにより、テスト環境で使用している場合は、実際のお客様の住所に電子メールを送信することができなくなります。 許可リスト ](../../configuration/allow-list.md) を有効にする方法を [ 参照してください。
+   Deliverability の管理について詳しくは [!DNL Adobe Journey Optimizer] [ 、このページ ](../../reports/deliverability.md) を参照してください。
