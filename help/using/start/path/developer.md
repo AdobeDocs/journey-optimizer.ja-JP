@@ -1,6 +1,6 @@
 ---
-title: 開発者向けの利用開始
-description: 開発者は、旅オプティマイザーの操作方法について学習します。
+title: 開発者向けの基礎知識
+description: 開発者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 hide: true
 hidefromtoc: true
@@ -8,22 +8,22 @@ exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 開発者向けの利用開始 {#get-started-developers}
+# 開発者向けの基礎知識 {#get-started-developers}
 
-## モバイルアプリケーションとの統合 {#integrate-mobile-app}
+## モバイルアプリの統合 {#integrate-mobile-app}
 
-開発者は、モバイルアプリケーション **を設定して、で [!DNL Adobe Journey Optimizer] プッシュ通知が送信されるようにする必要があり** ます。
+開発者は、**モバイルアプリを設定**&#x200B;して、[!DNL Adobe Journey Optimizer] でプッシュ通知を送信できる必要があります。
 
-[!DNL Journey Optimizer] journeys を作成し、対象ユーザーにメッセージを送信することができます。 で [!DNL Journey Optimizer] のプッシュ通知の送信を開始する前に、モバイルアプリケーション [!DNL Adobe Experience Platform] [!DNL Adobe Experience Platform Launch] の設定と統合がどのように行われているかを確認する必要があります。 Push 通知のデータフローに [!DNL Adobe Journey Optimizer] ついて詳しくは、このページ ](../../push/push-gs.md) を [ 参照してください。
+[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲティングされたオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリ、および [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] で設定と統合がおこなわれていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](../../push/push-gs.md)を参照してください。
 
-プッシュ通知チャネルを設定し、モバイルアプリケーションとの統合をテストする手順は、このページ ](../../push/push-configuration.md) に [ 説明されています。
+プッシュ通知チャネルを設定しモバイルアプリ統合をテストする手順について詳しくは、[このページ](../../push/push-configuration.md)を参照してください。
 
-## Api を使用した作業 {#work-apis}
+## API の操作 {#work-apis}
 
-Api **を使用して、複数の**[!DNL Adobe Journey Optimizer] アクションを実行することもできます。
+また、**[!DNL Adobe Journey Optimizer]API** で複数のアクションを実行することもできます。
 
-この節 ](../../offers/api-reference/getting-started.md) では、API の [!DNL Offer Library] 使用を開始するための手順を説明 [ します。このガイドでは、decisioning エンジンを使用してキー操作を実行するためのサンプル API 呼び出しを提供しています。
+[!DNL Offer Library] API の使用開始に役立つ手順について詳しくは、[この節](../../offers/api-reference/getting-started.md)を参照してください。このガイドでは、意思決定エンジンを使用して主要な操作を実行するための API 呼び出しのサンプルを提供します。

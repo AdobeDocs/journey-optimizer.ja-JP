@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ## 2022年12月 {#december-2022}
 
-* メッセージガイドは、再編成され、各チャネルの専用ガイドに分割されました。
+* メッセージガイドは再編成され、次のチャネルごとの専用ガイドに分割されました。
 
    * [メールチャネル](../email/get-started-email.md)
    * [プッシュ通知チャネル](../push/get-started-push.md)
@@ -30,7 +30,7 @@ ht-degree: 98%
 * Journey Optimizer の統合に関する新しいページを追加しました。[詳細情報](../start/ajo-integrations.md)
 * ミラーページの URL の長さに関する推奨事項を追加しました。[詳細情報](../email/message-tracking.md)
 * 適切な返信管理を確保するための推奨事項を含む、メール設定の新しい節をメールアドレスへの返信に追加しました。[詳細情報](../email/email-settings.md#reply-to-email)
-* ライブジャーニーのメッセージのコンテンツを変更する方法に関する節を追加しました。 [詳細情報](../building-journeys/journeys-message.md#update-live-content)
+* ライブジャーニーでメッセージのコンテンツを変更する方法に関する節を追加しました。[詳細情報](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022年10月 {#october-2022}
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 * ジャーニーのユースケースの節では、[ビジネスユースケース](../building-journeys/journeys-uc.md)と[テクニカルユースケース](../building-journeys/collections.md) の 2 つのカテゴリに再編成しました。
 * **エンティティデータセット**&#x200B;の節を更新し、詳細を追加しました。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
 * オプトアウト管理および同意ポリシーの節の構成を変更しました。[詳細情報](../privacy/opt-out.md)
-* ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。
+* ジャーニーメッセージの詳細設定パラメーターに関する節が明確になり、メールアドレスの上書きは特定のユースケースにのみ使用する必要があることを指定しました。ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用してください。
 * **ランディングページのサブドメインの設定**&#x200B;の節に、ランディングページのサブドメインでは大文字を使用できないことを示すメモを追加しました。[詳細情報](../landing-pages/lp-subdomains.md)
 
 ## 2022年9月 {#september-2022}

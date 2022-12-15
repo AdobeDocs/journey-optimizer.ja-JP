@@ -1,71 +1,71 @@
 ---
-keywords: 旅オプティマイザー、home、ポピュラーな話題
-title: 旅オプティマイザーの製品マニュアル
-description: Adobe 旅オプティマイザー製品ヘルプセンター
+keywords: Journey Optimizer;ホーム;人気のトピック
+title: Journey Optimizer 製品ドキュメント
+description: Adobe Journey Optimizer 製品ヘルプセンター
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
-# アドビシステムズ社 [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <div><strong>はじめに</strong>
+    <div><strong>今すぐはじめる</strong>
     </div>
     <p>
     <em></em>
     <p>
     <div>
-      <a href="using/start/get-started.md">「?」とは [!DNL Journey Optimizer] 何ですか?</a>
+      <a href="using/start/get-started.md">[!DNL Journey Optimizer] とは？</a>
     </div>
-    <p>主な機能とユースケースの発見
+    <p>主要な機能とユースケースについて説明します
     <p>
     <div>
       <a href="using/rn/release-notes.md">リリースノート</a>
     </div>
-    <p>新機能、最新の機能強化および修正
+    <p>新機能、最新の機能強化および修正点について説明します
    <p>
     <div>
       <a href="using/start/quick-start.md">クイックスタートガイド</a>
     </div>
     <p>
-    管理者、データエンジニア、または旅の practicionner を開始する方法について説明しています。
+    管理者、データエンジニアまたはジャーニー実務担当者の場合の開始方法について説明します
     <p>
     <p>
     <div>
-      <a href="using/email/get-started-email-design.md">電子メールコンテンツのデザイン</a>
+      <a href="using/email/get-started-email-design.md">メールコンテンツの設計</a>
     </div>
     <p>
-    新しい電子メールのデザイン、または既存の HTML コンテンツの読み込み
-    <p>
-    <div>
-    <a href="using/building-journeys/journeys-uc.md">初めての旅の作成</a>
-    </div>
-    <p>旅を構築して実行する方法について学習します。
+    新しいメールの設計または既存の HTML コンテンツのインポートについて説明します
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">パブリッシング [!DNL Journey Optimizer]</a>
+    <a href="using/building-journeys/journeys-uc.md">初めてのジャーニーの作成</a>
     </div>
-    <p>設定する主要な手順の学習 [!DNL Journey Optimizer]
+    <p>ジャーニーの作成および実行方法を説明します
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">へのアクセスを許可 [!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]</a> の設定
     </div>
-    <p>ユーザーに [!DNL Journey Optimizer] 割り当てられた権限の定義と管理
+    <p> [!DNL Journey Optimizer] の主な設定手順を説明します
+    <p>
+    <div>
+    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> へのアクセス付与
+    </div>
+    <p>[!DNL Journey Optimizer] ユーザーに割り当てられる権限を定義し管理する方法について説明します
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">意思決定管理</a>
     </div>
-    <p>お客様に最適なオファーと経験を提供します。
+    <p>オファーを作成し最適なオファーとエクスペリエンスを顧客に提供する方法を説明します
     <p>
     <p>
     <div><strong>その他のリソース</strong>
@@ -74,55 +74,56 @@ ht-degree: 0%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe 旅オプティマイザー製品の説明</a>
+      <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 製品の説明</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe 旅オプティマイザーセキュリティの概要 </a> (PDF)
+      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer Security の概要</a>（PDF）
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Adobe の旅オプティマイザーについてよく寄せられる質問 </a> (PDF)
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Adobe Journey Optimizer に関する FAQ</a>（PDF）
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Adobe エクスペリエンスプラットフォームマニュアル</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">Adobe Experience Platform のドキュメント</a>
     </li>
     </div>
     <div>
       <li>
-      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe エクスペリエンスプラットフォーム開発者向けリソース</a>
+      <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform デベロッパーリソース</a>
     </li>
     </div>
   </td>
    <td align="right">
-   <div><strong>主なリソースへの直接リンク</strong>
+   <div><strong>主要リソースへの直接リンク</strong>
     </div>
     <p>
     <em></em>
     <p>
-    <p>旅の管理</p>
+    <p>ジャーニー管理</p>
     <li>
-      <a href="using/building-journeys/journey-gs.md">Journeys</a>
+      <a href="using/building-journeys/journey-gs.md">ジャーニー</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">ランディングページ</a>
     </li>
     <p>
-    <p>意思決定管理</p>
+    <p>意思決定管理
+</p>
     <li>
-      <a href="using/offers/get-started/starting-offer-decisioning.md">一元化</a>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">オファー</a>
     </li>
      <li>
       <a href="using/offers/offer-library/key-steps.md">コンポーネント</a>
     </li>
     <p>
-    <p>コンテンツの管理</p>
+    <p>コンテンツ管理</p>
     <li>
-      <a href="using/email/assets-essentials.md">リソース</a>
+      <a href="using/email/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>データ管理</p>
@@ -130,23 +131,23 @@ ht-degree: 0%
       <a href="using/data/get-started-schemas.md">スキーマ</a>
     </li>
      <li>
-      <a href="using/data/get-started-datasets.md">読み込み</a>
+      <a href="using/data/get-started-datasets.md">データセット</a>
     </li>
         <li>
-      <a href="using/data/get-started-queries.md">問い合わせる</a>
+      <a href="using/data/get-started-queries.md">クエリ</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">監視</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja" target="_blank">監視</a>
     </li>
     <p>
     <p>接続</p>
     <li>
-      <a href="using/start/get-started-sources.md">給紙</a>
+      <a href="using/start/get-started-sources.md">ソース</a>
     </li>
     <p>
-    <p>・</p>
+    <p>顧客</p>
     <li>
-      <a href="using/segment/about-segments.md">層</a>
+      <a href="using/segment/about-segments.md">セグメント</a>
     </li>
     </li>
     <li>
@@ -156,23 +157,23 @@ ht-degree: 0%
       <a href="using/segment/get-started-profiles.md">プロファイル</a>
     </li>
     <li>
-      <a href="using/segment/get-started-identity.md">Identity</a>
+      <a href="using/segment/get-started-identity.md">ID</a>
     </li>
     <p>
-    <p>保護</p>
+    <p>プライバシー</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html" target="_blank">規定</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja" target="_blank">ポリシー</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html"target="_blank">対する</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja"target="_blank">リクエスト</a>
     </li>
     <p>
     <p>管理</p>
     <li>
-      <a href="using/configuration/about-data-sources-events-actions.md">構成</a>
+      <a href="using/configuration/about-data-sources-events-actions.md">設定</a>
     </li>
     <li>
-      <a href="using/configuration/get-started-configuration.md">パートナー</a>
+      <a href="using/configuration/get-started-configuration.md">チャネル</a>
     </li>
      <li>
       <a href="using/administration/sandboxes.md">サンドボックス</a>
@@ -182,13 +183,13 @@ ht-degree: 0%
 </table>
 
 
-![Adobe 旅オプティマイザーにサインアップするためのニュースレター ](using/assets/do-not-localize/nl-icon.png) ( [ 4: 4: 年ニュースレター ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) ) {target = &quot;_blank 「} 今日!
+![ニュースレター](using/assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}に新規登録してください。
 
-最新の製品アップデート、魅力的な記事、使用例、ヒントなどを、各四半期に受信トレイに直接配信できます。
+最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどを、四半期ごとに受信ボックスに直接配信します。
 
-各ニュースレターには以下のものが含まれています。
+各ニュースレターでは、次の内容をご覧いただけます。
 * 最近リリースされた機能を含む製品ニュースおよびアップデート
-* 最新のウェビナーについてイベント、ウェビナー、記録への招待
-* Adobe 旅オプティマイザーの機能についての話題リーグのコミュニティ
-* 他のアドビシステムズ社のお客様からのケーススタディと使用例
-* ビジネスの成功を促進する優れたカスタマーエクスペリエンスを提供するためのヒントとトリック
+* イベントやウェビナーへの招待、最近のウェビナーの録画
+* Adobe Journey Optimizer Experience League コミュニティの選り抜きのディスカッション
+* Adobe Journey Optimizer の他のお客様の事例とユースケース
+* ビジネスを成功に導く優れたカスタマーエクスペリエンスを実現するためのヒントとテクニック
