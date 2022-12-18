@@ -1,6 +1,6 @@
 ---
 title: 決定ルールの検索
-description: 決定ルールとは、パーソナライズされた申し出に追加され、プロファイルに適用されて、適格性を決定することです。
+description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,29 +9,29 @@ exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 決定ルールの検索 {#lookup-decision-rule}
 
-特定の判断規則を検索するには、要請パス内の判断規則の名前またはデシジョン規則の名前が含まれているかどうか `@id` を確認して、API に [!DNL Offer Library] GET 要求を作成します。
+[!DNL Offer Library] API に対してリクエストパスに決定ルールの `@id` または名前を含める GET リクエストを実行することで、特定の決定ルールを検索できます。
 
-**API フォーマット**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
 ```
 
-| 指定 | つい | 一 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | 決定ルールに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | エンティティのプロパティを検索 `@id` するために使用されるストリング。 ストリングは正確に一致します。 パラメーター s `id` を `name` 指定し、同時に使用することはできません。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | エンティティの xdm: name プロパティを検索するために使用されるストリング。 このストリングは、大文字と小文字が区別されますが、ワイルドカード文字を使用することもできます。 パラメーター `id` を `name` 一緒に使用することはできません。 | `Sales rule` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Sales rule` |
 
-**要求**
+**リクエスト**
 
 ```shell
 curl -X GET \
@@ -43,9 +43,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**対し**
+**応答**
 
-応答が成功した場合は、検索した特定の判断規則についての詳細が返されます。これは、コンテナ ID、インスタンス ID、一意の意思決定規則 `@id` などに関する情報を含みます。
+正常な応答では、検索した決定ルールに関する詳細（コンテナ ID、インスタンス ID、一意の決定ルール `@id` に関する情報を含む）が返されます。
 
 ```json
 {

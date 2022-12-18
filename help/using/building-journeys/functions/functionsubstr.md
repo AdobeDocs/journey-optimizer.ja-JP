@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: substr
-description: 関数の substr について説明します。
+description: substr 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,39 +9,39 @@ exl-id: 58a3107a-b4f3-43da-b454-5ce597515847
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # substr {#substr}
 
-開始インデックスと終了インデックスの間にある、ストリング式のサブストリングを返します。 終了インデックスが定義されていない場合は、begin index と end index の間に指定されます。
+文字列式の開始インデックスと終了インデックスの間にある部分文字列を返します。終了インデックスが指定されていない場合は、文字列式の開始インデックスと末尾の間にある部分文字列を返します。
 
-## 項目
+## カテゴリ
 
-値
+文字列
 
-## 関数のシンタックス
+## 関数の構文
 
 `substr(<parameters>)`
 
 ## パラメーター
 
-| 指定 | 入力 |
+| パラメーター | タイプ |
 |-------------|----------|
-| 値 | 値 |
+| 文字列 | 文字列 |
 | beginIndex | 整数 |
-| endIndex | 整数 |
+| 終了インデックス | 整数 |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `substr(<string>,<beginIndex>)`
 
 `substr(<string>,<beginIndex>,<endIndex>)`
 
-ストリングを返します。
+文字列を返します。
 
-## 一
+## 例
 
 `substr("Hello World",6)`
 
@@ -49,4 +49,4 @@ ht-degree: 0%
 
 `substr("Hello World", 0, 5)`
 
-は「Hello」を返します。
+「Hello」を返します。

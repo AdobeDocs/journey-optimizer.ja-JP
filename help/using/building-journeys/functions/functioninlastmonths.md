@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: 「In Lastmonths」
-description: 最終月の関数について説明します。
+title: inLastMonths
+description: inLastMonths 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,30 +9,30 @@ exl-id: 4933ef43-66b8-462d-867c-03edd4c34947
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 「In Lastmonths」 {#inLastMonths}
+# inLastMonths {#inLastMonths}
 
-日付または日付が指定されている場合は、true を返します。
+指定された日付または日時が現在の日時とその delta か月前の間にある場合、true を返します。
 
-## 項目
+## カテゴリ
 
-古い
+日付
 
-## 関数のシンタックス
+## 関数の構文
 
 `inLastMonths(<dateTime>,<delta>)`
 
 ## パラメーター
 
-| 指定 | 入力 |
+| パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
-| 増分 | 整数 |
+| 日時 | 日時 |
+| delta | 整数 |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `inLastMonths(<dateTime>,<integer>)`
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 `inLastMonths(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-True を返します。
+true を返します。

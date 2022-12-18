@@ -1,16 +1,16 @@
 ---
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 # MIT ライセンス
 
-©著作権2021アドビシステムズ社にお勧めします。 予約されているすべての権利
+© Copyright 2021 Adobe.All rights reserved.
 
-パーミッションは、許可されます。本ソフトウェアのコピーおよび関連するドキュメントファイル (&quot;Software&quot;) を入手した人には、本ソフトウェアの使用、複製、修正、複製、公開、配布、参加、または販売されるソフトウェアの利用権を制限する必要があります。また、ソフトウェアの提供元をユーザーに提供することも可能です。 次の条件に従います。
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-上記の著作権表示とこの許諾通知は、ソフトウェアのすべてのコピーまたは相当な部分に含まれているものとします。
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-本ソフトウェアは、「現状有姿」で提供され、商品性、特定目的への適合性、NONINFRINGEMENT など、明示的にも黙示的にもいかなる種類の保証もありません。 いかなる場合でも、作成者または著作権保持者は、賠償、損害、その他の責任について責任を負います。本契約、TORT またはその他の責任においては、本契約において、ソフトウェアまたは本ソフトウェアの使用またはその他の取引またはその他の取引によって生じます。
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

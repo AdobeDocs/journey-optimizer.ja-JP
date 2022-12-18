@@ -1,6 +1,6 @@
 ---
-title: ランク付け式
-description: ランク付けオファーに数式を作成する方法について説明します。
+title: ランキング式
+description: オファーをランク付けする数式を作成する方法を学ぶ
 feature: Offers
 topic: Integrations
 role: User
@@ -8,48 +8,48 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
-# ランク付け式 {#create-ranking-formulas}
+# ランキング式 {#create-ranking-formulas}
 
-## 式のランク付けについて {#about-ranking-formulas}
+## ランキング式について {#about-ranking-formulas}
 
-**ランク付けされた数式** によって、キャンペーンが特定の場所にどのオファーを最初に表示するかを決定するルールを定義することができます。
+**ランキング式** を使用すると、オファーの優先度スコアを考慮するのではなく、指定されたプレースメントに対して最初に提示するオファーを決定するルールを定義できます。
 
-ランク付け式は pql シンタックス **で** 表され、プロファイル属性、context データ、およびオファー属性を利用できます。PQL シンタックスの使用方法について詳しくは、専用のマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html) を [ 参照してください。
+ランキング式は **PQL 構文**&#x200B;で表され、式中でプロファイル属性、コンテキストデータ、オファー属性を利用できます。PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
 
-ランク計算式が作成されると、決定の位置に割り当てることができます。 詳細については、「決定 ](../offer-activities/configure-offer-selection.md) 機能の設定」を参照してください [ 。
+ランキング式を作成したら、決定内のプレースメントに割り当てることができます。詳しくは、[決定でのオファーの選択設定](../offer-activities/configure-offer-selection.md)を参照してください。
 
-## ランク付け式の作成 {#create-ranking-formula}
+## ランキング式の作成 {#create-ranking-formula}
 
-ランキングの計算を作成するには、次の手順を実行します。
+ランキング式を作成するには、次の手順に従います。
 
-1. **[!UICONTROL Components]**&#x200B;メニューにアクセスし、タブを選択 **[!UICONTROL Rankings]** します。既に作成されているランキングのリストが表示されます。
+1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL ランキング]**」タブを選択します。作成済みのランキングのリストが表示されます。
 
    ![](../assets/rankings-list.png)
 
-1. クリック **[!UICONTROL Create ranking]** すると、新しいランク計算式が作成されます。
+1. 「**[!UICONTROL ランキングを作成]**」をクリックして、新しいランキング式を作成します。
 
    ![](../assets/ranking-create-formula.png)
 
-1. ランク付けには、式の名前、説明、およびフォーミュラを指定します。
+1. ランキング式の名前、説明、数式を指定します。
 
-   この例では、実際の気象が熱い場合に、すべてのオファーの優先度を「hot」属性に上げようとします。 **そのためには、contextdata が decisioning の呼び出しに渡されました。**
+   この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、**contextData.weather=hot** を判定の呼び出し時に渡しています。
 
    ![](../assets/ranking-syntax.png)
 
-1. をクリック **[!UICONTROL Save]** します。 ランク付け式が作成されている場合は、一覧からそれを選択して、詳細を取得して編集または削除することができます。
+1. 「**[!UICONTROL 保存]**」をクリックします。ランキング式が作成されたら、リストからその式を選択して詳細を取得し、式を編集または削除したりできます。
 
-   これで、配置について適切なランク付けに使用できるようになりました (決定 ](../offer-activities/configure-offer-selection.md) については、「設定項目の設定」を参照してください [ )。
+   これで、ランキング式を決定で使用して、プレースメントに対する実施要件を満たすオファーをランク付けする準備が整いました（「 [決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)」を参照してください）。
 
    ![](../assets/ranking-formula-created.png)
 
-## ランク付け式の例 {#ranking-formula-examples}
+## ランキング式の例 {#ranking-formula-examples}
 
-必要に応じて、様々なランクの数式を作成することができます。 次に例を示します。
+必要に応じて、様々なランキング式を作成できます。以下に例を示します。
 
 <!--
 Boost by offer ID
@@ -83,38 +83,38 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### 「ブースト」属性により、profile 属性に基づいた特定のオファー属性が提供されます。
+### プロファイル属性に基づいた特定のオファー属性を持つオファーのブースト
 
-プロフィールがオファーに対応した都市にある場合は、その都市にあるすべての特典の優先度を2倍にします。
+オファーに対応する市区町村にプロファイルが住んでいる場合は、その市区町村内のすべてのオファーの優先度を 2 倍にします。
 
-**ランク付けの数式:**
+**ランキング式：**
 
 ```
 if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
-### 「終了日」の値が24時間未満になるようにします。
+### 終了日が今から 24 時間以内のオファーのブースト
 
-**ランク付けの数式:**
+**ランキング式：**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### 「ブースト」属性に、context データに基づく特定の提供属性があります。
+### コンテキストデータに基づいた特定のオファー属性を持つオファーのブースト
 
-Decisioning の呼び出しに渡される context データに基づいて、一部のオファーを強化します。 例えば、が decisioning 呼び出しに渡される場合 `contextData.weather=hot` は、すべてのサービス `attribute=hot` の優先度をブーストする必要があります。
+決定の呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げます。例えば、決定の呼び出しで `contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
 
-**ランク付けの数式:**
+**ランキング式：**
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
 and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
-Decisioning API を使用している場合、次の例に示すように、context データは要求本文の profile 要素に追加されることに注意してください。
+決定 API を使用する場合は、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
 
-**要求本文から抜粋したスニペット:**
+**リクエスト本文から抜粋したコード：**
 
 ```
 "xdm:profiles": [
@@ -137,15 +137,15 @@ Decisioning API を使用している場合、次の例に示すように、cont
  }],
 ```
 
-### お客様によって提供される製品の購入に propensity の向上
+### オファーされる製品を顧客が購入する傾向に基づいたオファーのブースト
 
-お客様の propensity 得点に基づいて、オファーのスコアを上げることができます。
+顧客の傾向スコアに基づいて、オファーのスコアを上げることができます。
 
-次の例では、インスタンステナントが *_salesvelocity* 、プロファイルスキーマに、配列に保存されたスコアの範囲が格納されています。
+この例では、インスタンステナントは *_salesvelocity* です。また、プロファイルスキーマには、一連のスコアが配列に格納されます。
 
 ![](../assets/ranking-example-schema.png)
 
-この場合、次のようなプロファイルを指定します。
+これを前提として、例えば、次のようなプロファイルの場合、
 
 ```
 {"_salesvelocity": {"individualScoring": [
@@ -165,11 +165,11 @@ Decisioning API を使用している場合、次の例に示すように、cont
 }
 ```
 
-このオファーには、スコアのカテゴリと一致する propensitytype *の* 属性が含まれています。
+オファーには、スコアのカテゴリに一致する *propensityType* の属性が含まれています。
 
 ![](../assets/ranking-example-propensityType.png)
 
-これにより、ランク付けが実行されるたびに各オファーの優先度を設定して、その *propensityscore* *と一致* させることができます。スコアが見つからない場合は、オファーに設定された静的な優先度を使用してください。
+この場合、ランキング式では、その *propensityType* の顧客 *propensityScore* と同じになるように各オファーの優先度を設定できます。スコアが見つからない場合は、オファーに設定された静的な優先度を使用します。
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

@@ -135,7 +135,7 @@ ht-degree: 99%
 
 キーは、イベントのペイロードデータの一部とするフィールドまたはフィールドの組み合わせです。システムはキーを使用することでイベントに関連付けられた人を識別できます。キーには、Experience Cloud ID、CRM ID、メールアドレスなどを使用できます。
 
-アドビのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーは、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;} でプロファイル ID として定義した情報である必要があります。
+アドビのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーは、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;} でプロファイル ID として定義した情報である必要があります。
 
 これにより、プロファイル識別子はイベントと個人プロファイルの間の紐付けを実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL 名前空間]**」フィールドはあらかじめ入力されます。ID を定義していない場合は、_identityMap／ID_ がプライマリキーとして選択されます。次に、名前空間を選択する必要があります。キーは、自動的に既存の _identityMap／ID_ を使用します。
 

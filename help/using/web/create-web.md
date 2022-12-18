@@ -1,6 +1,6 @@
 ---
 title: Web エクスペリエンスの作成
-description: Web ページを作成して、そのコンテンツを旅のオプティマイザーで編集する方法について説明します。
+description: Journey Optimizer で web ページを作成し、そのコンテンツを編集する方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 0%
+source-wordcount: '1073'
+ht-degree: 100%
 
 ---
 
@@ -19,41 +19,41 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Web チャンネル機能は、現在のところユーザーのみを選択するためのベータ版として提供されています。
+>現在、web チャネル機能は、一部のユーザーのみが利用できるベータ版として使用できます。
 
-[!DNL Journey Optimizer] では、受信 web キャンペーンによって顧客に提供する web エクスペリエンスをカスタマイズすることができます。
-
->[!CAUTION]
->
->現在の [!DNL Journey Optimizer] ところ、キャンペーン **を使用して** web エクスペリエンスを作成することしかできません。
-
-## 知識 {#prerequesites}
-
-ユーザーインターフェイスを使用して web ページ [!DNL Journey Optimizer] にアクセスして作成できるようにするには、以下の必要条件に従います。
-
-* Web サイトに変更を追加するには、Adobe 体験プラットフォーム Web SDK ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target = &quot;_blank&quot;} を web サイトに実装 [ する必要があります。
-
-* Web デザイナーにアクセス [!DNL Journey Optimizer] するには、Adobe エクスペリエンスクラウドビジュアル編集ヘルパー ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca) {target = &quot;_blank&quot;} ブラウザー拡張機能を Chrome 上にダウンロード [ する必要があります。[詳細情報](visual-editing-helper.md)
+[!DNL Journey Optimizer] では、インバウンド web キャンペーンを通じて、顧客に提供する web エクスペリエンスをパーソナライズできます。
 
 >[!CAUTION]
 >
->現在のところ、Google Chrome は、で web ページの [!DNL Journey Optimizer] 作成をサポートする唯一のブラウザーになります。
+>現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してのみ web エクスペリエンスを作成できます。
 
-Web エクスペリエンスが正しく配信されるようにするには、次の設定を定義しておく必要があります。
+## 前提条件 {#prerequesites}
 
-* [Adobe エクスペリエンス Platform データコレクション ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) {target = &quot;_blank&quot;} で、「サービス」に定義さ **[!UICONTROL Adobe Experience Platform]** れているデータストリームが、と **[!UICONTROL Adobe Journey Optimizer]** オプションの **[!UICONTROL Edge Segmentation]** 両方が有効になっていることを確認してください。
+[!DNL Journey Optimizer] ユーザーインターフェイスで web ページにアクセスして作成できるようにするには、次の前提条件に従ってください。
 
-   これにより、旅のオプティマイザーが受信イベントを適切に処理することができます。 [](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html)詳しくは、target = &quot;_blank 「}」を参照してください。
+* Web サイトに変更を追加するには、web サイトに [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target=&quot;_blank&quot;} を実装する必要があります。
+
+* [!DNL Journey Optimizer] の web デザイナーにアクセスするには、Chrome で [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} ブラウザー拡張機能をダウンロードする必要があります。[詳細情報](visual-editing-helper.md)
+
+>[!CAUTION]
+>
+>Google Chrome は現在、[!DNL Journey Optimizer] で web ページの作成をサポートしている唯一のブラウザーです。
+
+Web エクスペリエンスが正しく配信されるようにするには、次の設定を定義する必要があります。
+
+* [Adobe Experience Platform データ収集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target=&quot;_blank&quot;} で、**[!UICONTROL Adobe Experience Platform]** サービスの下で「**[!UICONTROL Edge セグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションの両方を有効にするなど、データストリームが定義されていることを確認します。
+
+   これにより、Journey Optimizer インバウンドイベントが Adobe Experience Platform Edge で正しく処理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Adobe Journey Optimizer]**&#x200B;このオプションは、 **[!UICONTROL Edge Segmentation]** オプションが既に有効になっている場合にのみ有効にすることができます。
+   >「**[!UICONTROL Adobe Journey Optimizer]**」オプションは、「**[!UICONTROL Edge セグメント化]**」オプションが既に有効になっている場合にのみ有効にできます。
 
-* Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) {target = &quot;_blank&quot;} で [ は、オプションが有効になっているので、1つのマージポリシー **[!UICONTROL Active-On-Edge Merge Policy]** があることを確認してください。これを行うには、> **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** エクスペリエンスプラットフォームメニューで **[!UICONTROL Customer]** ポリシーを選択します。[](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure)詳しくは、target = &quot;_blank 「}」を参照してください。
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;} で、「**[!UICONTROL Active-On-Edge 結合ポリシー]**」オプションが有効になっている結合ポリシーが 1 つあることを確認します。これを行うには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target=&quot;_blank&quot;}
 
-   このマージポリシーは、受信チャンネルが正常にアクティブ化され、エッジに公開キャンペーンをパブリッシュするために使用さ [!DNL Journey Optimizer] れます。 [](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html)詳しくは、target = &quot;_blank 「}」を参照してください。
+   この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-merge-policy.png)
 
@@ -61,129 +61,129 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Web サーフェイスの定義"
->abstract="Web サーフェイスは、1つのページの URL または複数のページを一致させることができるので、1つまたは複数の web ページにコンテンツを表示できます。"
+>title="Web サーフェスの定義"
+>abstract="Web サーフェスは、単一のページ URL または複数のページを一致させることができるので、1 つまたは複数の web ページにわたってコンテンツの変更を配信できます。"
 
-キャンペーンを使用して web 体験を作成するには、次の手順に従います。
+キャンペーンを通じて web エクスペリエンスの作成を開始するには、次の手順に従います。
 
-1. キャンペーンを作成します。 [詳細情報](../campaigns/create-campaign.md)
+1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md)
 
 1. **[!UICONTROL Web]**&#x200B;アクションを選択します。
 
    ![](assets/web-create-campaign.png)
 
-1. Web サーフェイスを定義します。
+1. Web サーフェスを定義します。
 
    >[!NOTE]
    >
-   >Web サーフェイスは、コンテンツが配信される URL によって識別される web プロパティです。 1つのページの URL にも、複数のページを使用することもできます。これにより、1つまたは複数の web ページで修正を行うことができます。
+   >Web サーフェスは、コンテンツが配信される URL で識別される web プロパティです。単一ページの URL または複数のページを一致させることができるので、1 つまたは複数の web ページをまたいで変更を配信できます。
 
-   1つのページにのみ変更を適用する場合は、「a **[!UICONTROL Page URL]** 」と入力します。
+   単一ページのみに変更を適用する場合は、**[!UICONTROL ページ URL]** を入力します。
 
    ![](assets/web-campaign-surface.png)
 
-1. または、1 **[!UICONTROL Pages matching rule]** つの検索条件に一致する複数の url をターゲットにすることもできます。例えば、web サイト全体のヒーローバナーに変更を適用する場合や、web サイトのすべての製品ページに表示されるトップイメージを追加する場合などです。
+1. または、**[!UICONTROL ルールに一致するページ]**&#x200B;を作成して、同じルールに一致する複数の URL をターゲットにすることもできます。例えば、変更を web サイト全体のヒーローバナーに適用したり、web サイトのすべての製品ページに表示されるトップ画像を追加したりする場合です。
 
-   これを行うには、を選択 **[!UICONTROL Pages matching rule]** して、をクリック **[!UICONTROL Create rule]** します。
+   これを行うには、「**[!UICONTROL ルールに一致するページ]**」を選択し、「**[!UICONTROL ルールを作成]**」をクリックします。
 
    ![](assets/web-campaign-matching-rule.png)
 
-1. および **[!UICONTROL Page]** フィールドの **[!UICONTROL Domain]** 条件を定義します。
+1. 「**[!UICONTROL ドメイン]**」フィールドと「**[!UICONTROL ページ]**」フィールドの条件を定義します。
 
-   例えば、ルミシステムズ社の web サイトのすべての女性製品ページに表示されるエレメントを編集する場合は、> **[!UICONTROL Starts with]** > `luma` および **[!UICONTROL Page]** > **[!UICONTROL Contains]** > `women` を選択 **[!UICONTROL Domain]** します。
+   例えば、Luma web サイトのすべての女性向け製品ページに表示される要素を編集する場合は、**[!UICONTROL ドメイン]**／**[!UICONTROL 次で始まる]**／`luma` および&#x200B;**[!UICONTROL ページ]**／**[!UICONTROL 次を含む]**／`women` を選択します。
 
    ![](assets/web-pages-matching-rule.png)
 
-1. 変更内容を保存します。 ルールが画面に **[!UICONTROL Create campaign]** 表示されます。
+1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
 
    ![](assets/web-pages-matching-rule-example.png)
 
-1. Web サーフェイスを定義したら、を選択 **[!UICONTROL Create]** します。 キャンペーンのプロパティと設定を設定できるようになりました。
+1. Web サーフェスを定義したら、「**[!UICONTROL 作成]**」を選択します。これで、キャンペーンのプロパティと設定を設定できます。
 
 ## Web キャンペーンの設定 {#configure-web-campaign}
 
-1. **[!UICONTROL Properties]**&#x200B;タブでは、必要に応じてキャンペーン名を編集したり、説明を追加することができます。
+1. 「**[!UICONTROL プロパティ]**」タブでは、キャンペーン名を編集し、必要に応じて説明を追加できます。
 
    ![](assets/web-campaign-properties.png)
 
-1. カスタムまたはコアデータ使用状況ラベルを web キャンペーンに割り当てるには、画面の上部にあるボタンを選択し **[!UICONTROL Manage access]** ます。 [オブジェクトレベルのアクセス制御について詳しくは、OLAC の説明を参照してください。](../administration/object-based-access.md)
+1. カスタムまたはコアのデータ使用ラベルを web キャンペーンに割り当てるには、画面上部の「**[!UICONTROL アクセスを管理]**」ボタンを選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../administration/object-based-access.md)
 
-1. 特定のメトリックについて最適な処理を決定するために、対象ユーザーの一部を使用してコンテンツの処理をテストすることを選択 **[!UICONTROL Content experiment]** できます。 [詳細情報](../campaigns/content-experiment.md)
+1. 「**[!UICONTROL コンテンツ実験]**」を選択して、特定の指標に関してどの処理が最も効果的かを判断するために、オーディエンスの一部でコンテンツ処理をテストできます。[詳細情報](../campaigns/content-experiment.md)
 
    >[!AVAILABILITY]
    >
-   >コンテンツ実験 **機能は、** 現在のところ、組織のセットに対してのみ使用することができます (利用可能な機能が限られています)。詳しくは、アドビの担当者にお問い合わせください。
+   >**コンテンツ実験**&#x200B;機能は現在、一連の組織でのみ使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
 
-1. **[!UICONTROL Action]**&#x200B;キャンペーンのタブから、web キャンペーンのオーサリングを開始するときに選択し **[!UICONTROL Edit content]** ます。[詳細情報](author-web.md)
+1. キャンペーンの「**[!UICONTROL アクション]**」タブから、「**[!UICONTROL コンテンツを編集]**」を選択して web キャンペーンの作成を開始します。[詳細情報](author-web.md)
 
    ![](assets/web-edit-content.png)
 
-1. **[!UICONTROL Audience]**&#x200B;タブで、web キャンペーンを表示できるユーザーを定義します。初期設定では、すべてのユーザーに対して web キャンペーンが表示されます。
+1. 「**[!UICONTROL オーディエンス]**」タブで、web キャンペーンを表示できるユーザーを定義します。デフォルトでは、web キャンペーンはすべての訪問者に表示されます。
 
    ![](assets/web-campaign-audience.png)
 
-   また、特定の対象ユーザーを選択することもできます。 **[!UICONTROL Select audience]**&#x200B;このボタンを使用して、使用可能な Adobe エクスペリエンスプラットフォームセグメントのリストを表示します。[セグメントに関する詳細情報](../segment/about-segments.md)
+   また、特定のオーディエンスを選択することもできます。「**[!UICONTROL オーディエンスを選択]**」ボタンを使用して、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
    >[!NOTE]
    >
-   >API によってトリガーされたキャンペーンの場合は、ユーザーを API 呼び出しを使用して設定する必要があります。 [詳細情報](../campaigns/api-triggered-campaigns.md)
+   >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。[詳細情報](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/web-campaign-select-audience.png)
 
-1. **[!UICONTROL Identity namespace]**「」フィールドで、選択した区分の個人を識別するために使用する名前空間を選択します。[名前空間について詳しくは、](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
 
-1. Web キャンペーン用にを **[!UICONTROL Schedule]** 定義します。 [詳細情報](../campaigns/create-campaign.md#schedule)
+1. Web キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を定義します。[詳細情報](../campaigns/create-campaign.md#schedule)
 
    ![](assets/web-campaign-schedule.png)
 
-   デフォルトでは、手動でアクティブにしたときに開始され、手動で停止したときに開始されますが、その変更を表示するための特定の日付と時刻を定義することもできます。
+   デフォルトでは、手動でアクティブ化したときに開始し、手動で停止したときに終了しますが、変更を表示する特定の日付と時間を定義することもできます。
 
    ![](assets/web-campaign-schedule-start.png)
 
-## Web キャンペーンの有効化 {#activate-web-campaign}
+## Web キャンペーンのアクティブ化 {#activate-web-campaign}
 
-Web キャンペーン設定を定義 [ した後、web デザイナー ](author-web.md) を使用 [ して目的に合わせてコンテンツを編集した後、web キャンペーンを確認し、アクティブ化することができ ](#configure-web-campaign) ます。以下の手順に従います。
+[Web キャンペーンの設定](#configure-web-campaign)を定義し、[web デザイナー](author-web.md)を使用して必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。次の手順に従います。
 
 >[!NOTE]
 >
->さらに、アクティブにする前に、web キャンペーンコンテンツをプレビューすることもできます。 [詳細情報](author-web.md#test-web-campaign)
+>アクティブ化する前に web キャンペーンのコンテンツをプレビューすることもできます。[詳細情報](author-web.md#test-web-campaign)
 
-1. Web キャンペーンから、を選択 **[!UICONTROL Review to activate]** します。
+1. Web キャンペーンから、「**[!UICONTROL アクティブ化するレビュー]**」を選択します。
 
    ![](assets/web-campaign-review.png)
 
-1. 必要に応じて、コンテンツ、プロパティ、サーフェイス、オーディエンス、スケジュールを確認して編集します。
+1. コンテンツ、プロパティ、サーフェス、オーディエンス、スケジュールを必要に応じてレビューおよび編集します。
 
-1. を選択 **[!UICONTROL Activate]** します。
+1. 「**[!UICONTROL アクティブ化]**」を選択します。
 
    ![](assets/web-campaign-activate.png)
 
    >[!NOTE]
    >
-   >をクリック **[!UICONTROL Activate]** した後は、web キャンペーンの変更が web サイトでライブに反映されるまでに最大15分かかることがあります。
+   >「**[!UICONTROL アクティブ化]**」をクリックした後、web キャンペーンの変更が web サイトでライブになるまでに最大 15 分かかる場合があります。
 
-Web キャンペーンの状態が **[!UICONTROL Live]** 表示され、選択した対象ユーザーに対して表示できるようになりました。 キャンペーンの各受信者は、web デザイナーを使用し [!DNL Journey Optimizer] て、web サイトに加えた変更を確認することができます。
+Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;ステータスになり、選択したオーディエンスに対して表示されるようになりました。キャンペーンの各受信者は、[!DNL Journey Optimizer] の web デザイナーを使用して web サイトに追加した変更を表示できます。
 
 >[!NOTE]
 >
->Web キャンペーンのスケジュールを定義している場合は、開始日時になるまで状態が **[!UICONTROL Scheduled]** 表示されます。
+>Web キャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**&#x200B;ステータスになります。
 >
->既に有効になっている他のキャンペーンと同じページに影響を与える web キャンペーンをアクティブにする場合は、すべての変更が web ページに適用されます。
+>既に実行中の別のキャンペーンと同じページに影響を与える web キャンペーンをアクティブ化すると、すべての変更が web ページに適用されます。
 
-この節 ](../campaigns/review-activate-campaign.md) では、 [ キャンペーンの有効化について詳しく説明しています。
+キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
 ## Web キャンペーンの停止 {#stop-web-campaign}
 
-Web キャンペーンが有効になっている場合は、その web サイトを停止することで、ユーザーによる変更がユーザーに表示されないようにすることができます。 以下の手順に従います。
+Web キャンペーンがライブの場合、停止して、オーディエンスに変更が表示されないようにすることができます。次の手順に従います。
 
 1. リストからライブキャンペーンを選択します。
 
-1. 上のメニューから、を選択 **[!UICONTROL Stop campaign]** します。
+1. 上部のメニューから、「**[!UICONTROL キャンペーンを停止]**」を選択します。
 
    ![](assets/web-campaign-stop.png)
 
-1. 追加した変更内容は、定義した視聴者には表示されません。
+1. 追加した変更は、定義したオーディエンスには表示されなくなります。
 
 >[!NOTE]
 >
->Web キャンペーンが停止されると、再度編集やアクティブ化することはできません。 複製されたキャンペーンは、ただ複製し、アクティブにすることができます。
+>Web キャンペーンが停止した後は、再び編集またはアクティブ化することはできません。キャンペーンを複製し、複製したものをアクティブ化することのみ可能です。

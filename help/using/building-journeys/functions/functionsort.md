@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: 降順
-description: 関数の並べ替えについて説明します。
+title: sort
+description: sort 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,35 +9,35 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
-# 降順 {#sort}
+# sort {#sort}
 
-値またはオブジェクトのリストを並べ替えます。
+値のリストやオブジェクトを自然な順序に並べ替えます。
 
 >[!NOTE]
 >
 >ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
-## 項目
+## カテゴリ
 
-一連
+リスト
 
-## 関数のシンタックス
+## 関数の構文
 
 `sort(<parameters>)`
 
 ## パラメーター
 
-| 指定 | 入力 | つい |
+| パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| リストの並べ替え | listString、Liststring、Liststring、Liststring、Liststring、Liststring、listDateTimeOnly、listDateOnly、または listObject | リストが表示されます。 ListObject の場合、フィールド参照である必要があります。 |
-| keyAttributeName | 値 | このパラメーターは、listObject に対してのみ使用されます。 特定のリストのオブジェクト内の属性名は、ソートのキーとして使用されます。 |
-| sortingOrder | 示す | 昇順 (true) または降順 (false) |
+| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。指定されたリストのオブジェクト内の属性名は、並べ替えのキーとして使用されます。 |
+| sortingOrder | ブール値 | 昇順（true）または降順（false） |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `sort(<listInteger>,<boolean>)`
 
@@ -45,19 +45,19 @@ ht-degree: 0%
 
 `sort(<listDecimal>,<boolean>)`
 
-小数点のリストを返します。
+小数のリストを返します。
 
 `sort(<listString>,<boolean>)`
 
-ストリングのリストを返します。
+文字列のリストを返します。
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Datetimes のリストを返します。この場合、タイムゾーンは考慮しません。
+タイムゾーンを考慮しない日時のリストを返します。
 
 `sort(<listDateTime>,<boolean>)`
 
-Datetimes のリストを返します。
+日時のリストを返します。
 
 `sort(<listDateOnly>,<boolean>)`
 
@@ -71,13 +71,13 @@ Datetimes のリストを返します。
 
 オブジェクトのリストを返します。
 
-## 一
+## 例
 
 `sort(["A", "C", "B"], true)`
 
-戻り `["A","B","C"]` ます。
+`["A","B","C"]` を返します。
 
 `sort([1, 3, 2], false)`
 
-戻り `[3, 2, 1]` ます。
+`[3, 2, 1]` を返します。
 

@@ -1,42 +1,42 @@
 ---
 product: journey optimizer
-title: 長さ
-description: 関数の長さについて説明します。
+title: length
+description: length 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 0%
+source-wordcount: '34'
+ht-degree: 100%
 
 ---
 
-# 長さ {#length}
+# length {#length}
 
-パラメーターのストリング式の文字数を返します。
+パラメーター内の文字列式の文字数を返します。
 
-## 項目
+## カテゴリ
 
-値
+文字列
 
-## 関数のシンタックス
+## 関数の構文
 
 `length(<parameters>)`
 
-## 指定
+## パラメーター
 
-* 値
+* 文字列
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `length(<string>)`
 
-整数値を返します。
+整数を返します。
 
-## 一
+## 例
 
 `length("Hello World")`
 
-11を返します。
+11 を返します。

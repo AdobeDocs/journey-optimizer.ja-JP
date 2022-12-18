@@ -1,99 +1,99 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: データセットでの作業の開始
-description: Adobe の旅のオプティマイザーで Adobe エクスペリエンスプラットフォームのデータセットを使用する方法を学習します。
+title: データセットの基本を学ぶ
+description: Adobe Journey Optimizer での Adobe Experience Platform データセットの使用方法を説明します
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 100%
 
 ---
 
-# データセットでの作業の開始 {#datasets-gs}
+# データセットの基本を学ぶ {#datasets-gs}
 
-Adobe エクスペリエンスプラットフォームに ingested れるデータはすべて、データセットとして Data Lake 内に保存されます。 データセットは、データのコレクション (通常はテーブルで、スキーマ (列) とフィールド (行) が含まれるテーブル) の格納と管理の構成要素です。
+Adobe Experience Platform に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。
 
 ## データセットへのアクセス{#access-datasets}
 
-ユーザーインターフェイスの [!DNL Adobe Journey Optimizer] データセット **ワークスペースを使用すると、** データを確認してデータセットを作成することができます。
+[!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**データセット**&#x200B;ワークスペースを使用すると、データの調査とデータセットの作成を行えます。
 
-左側のナビゲーションの「データセット **」を選択** すると、データセットのダッシュボードが表示されます。
+左側のナビゲーションで&#x200B;**データセット**&#x200B;を選択し、データセットダッシュボードを開きます。
 
 ![](assets/datasets-home.png)
 
-へ [!DNL Adobe Experience Platform] のデータの追加は、プロファイルを作成するための基礎となります。 これにより、の [!DNL Adobe Journey Optimizer] プロファイルを利用できるようになります。 まず、スキーマを定義し、ETL ツールを使用してデータを準備して標準化した後、スキーマに基づいてデータセットを作成します。
+[!DNL Adobe Experience Platform] にデータを追加することは、プロファイルを作成するための基盤となります。そうすれば、[!DNL Adobe Journey Optimizer] でプロファイルを活用できるようになります。まず、スキーマを定義し、ETL ツールを使用してデータを準備および標準化したあと、スキーマに基づいてデータセットを作成します。
 
-**「参照** 」タブを選択すると、組織で利用可能なすべてのデータセットのリストが表示されます。詳しくは、表示されている各データセットについて、その名前、データセットが従うスキーマ、および最新のインジェスト実行のステータスを含めて表示されます。
+「**参照**」タブを選択し、組織で使用可能なすべてのデータセットのリストを表示します。リストに表示された各データセットに関する詳細（名前、データセットが適用されるスキーマ、最新の取得実行のステータスなど）が表示されます。
 
-初期設定では、ingested したデータセットのみが表示されます。 システムによって生成されたデータセットを表示するには、フィルターから「システムデータセット **を表示」をオンに** します。
+デフォルトでは、取り込んだデータセットのみが表示されます。システム生成データセットを表示する場合は、フィルターの「**システムデータセットを表示**」切り替えスイッチをオンにします。
 
 ![](assets/ajo-system-datasets.png)
 
-データセットのアクティビティ画面にアクセスするためのデータセットの名前を選択し、選択したデータセットの詳細を確認します。 「アクティビティ」タブには、処理されているメッセージの比率を視覚的に示すグラフと、成功および失敗したバッチのリストが含まれています。
+データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 
-利用可能なデータセットは、次のとおりです。
+次の様々なデータセットが使用可能です。
 
-**書**
+**レポート**
 
-* _レポート-メッセージフィードバックイベントデータセット_ : メッセージ配信ログ: レポート作成およびセグメント作成のための、旅オプティマイザーからのすべてのメッセージ配信に関する情報。 バウンス上の電子メール Isp からのフィードバックも、このデータセットに記録されます。
-* _レポート-電子メール追跡エクスペリエンスイベントデータセット_ : 電子メールチャンネルのインタラクションログ: レポート作成とセグメント作成に使用されます。 保存されている情報では、エンドユーザーが電子メールで実行した操作 (開く、クリックなど) が通知されます。
-* _レポート-プッシュトラッキングエクスペリエンスイベントデータセット_ : プッシュチャネルのインタラクションログ: レポート作成およびセグメント作成の目的で使用されます。 格納されている情報は、エンドユーザーが実行したアクションについて通知します。
-* _レポート作成段階の手順イベント_ : 報告のようなサービスによって使用される、旅オプティマイザーによって生成されたすべてのステップ体験イベントを取得します。 また、ユーザーによる旅の分析において、レポートを作成する場合にも重要です。 、旅メタデータに関連付けられています。
-* _レポート-Journeys_ : 各ステップのメタデータデータセットハウジングについて説明しています。
-* _レポート-BCC_ : フィードバックイベントデータセット。 bcc 電子メールの配信ログが格納されています。 レポート用に使用されます。
+* _レポート - メッセージフィードバックイベントデータセット_：メッセージ配信ログ。 レポートやセグメント作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。 バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。
+* _レポート - メールトラッキングエクスペリエンスイベントデータセット_：レポートやセグメント作成のために使用されるメールチャネルのインタラクションログ。エンドユーザーがメールで実行したアクション（開封やクリックなど）に関する情報が保存されます。
+* _レポート - プッシュトラッキングエクスペリエンスイベントデータセット_：レポートやセグメント作成のために使用されるプッシュチャネルのインタラクションログ。プッシュ通知時にエンドユーザーが実行したアクションに関する情報が保存されます。
+* _レポート - ジャーニーステップイベント_：Journey Optimizer から生成され、レポーティングなどのサービスで使用されるすべてのジャーニーステップエクスペリエンスイベントをキャプチャします。また、YoY 分析用に Customer Journey Analytics でレポートを作成する場合にも重要です。ジャーニーメタデータに関連付けます。
+* _レポート - ジャーニー_：ジャーニーの各ステップの情報を格納するメタデータのデータセット。
+* _レポート - BCC_：BCC メールの配信ログを保存するフィードバックイベントのデータセット。レポート目的で使用されます。
 
 **同意**
 
-* _同意サービスデータセット_ : プロフィールの同意情報を格納します。
+* _同意サービスデータセット_：プロファイルの同意情報を保存します。
 
 **インテリジェントサービス**
 
-* _「送信時に最適化したスコア/エンゲージメント_ 」: AI の出力結果を示します。
+* _送信時間の最適化スコア／エンゲージメントスコア_：ジャーニー AI の出力スコア。
 
-## データセットのプレビュー{#preview-datasets}
+## データセットをプレビュー{#preview-datasets}
 
-データセット操作画面の右上にある「データ **セットのプレビュー」を選択し** て、このデータセットで最後に成功したバッチをプレビューします。データセットが空の場合は、「プレビュー」リンクが非アクティブになります。
+データセットアクティビティ画面で、画面の右上隅付近の「**データセットをプレビュー**」を選択し、このデータセットで成功した最新のバッチをプレビューします。データセットが空の場合、プレビューリンクは非アクティブになります。
 
 ![](assets/dataset-preview.png)
 
 ## データセットの作成{#create-datasets}
 
-新しいデータセットを作成するには、まずデータセットダッシュボードの「データセット **を作成」を選択** します。
+新しいデータセットを作成するには、まず、データセットダッシュボードの「**データセットを作成**」を選択します。
 
-できます：
+次のことができます。
 
-* スキーマからデータセットを作成します。 [詳しくは、このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema) 内の詳細をご確認ください。 {target = &quot;_blank&quot;}
-* CSV ファイルからデータセットを作成します。 [詳しくは、このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) 内の詳細をご確認ください。 {target = &quot;_blank&quot;}
+* スキーマからのデータセットの作成。[詳しくは、このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#schema){target=&quot;_blank&quot;}を参照してください
+* CSV ファイルからのデータセットの作成。[詳しくは、このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
-このビデオでは、データセットを作成し、それをスキーマにマップし、そのデータにデータを追加して、データが ingested されていることを確認する方法について説明しています。
+データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## データガバナンス
 
-データセットで、データ「ガバナンス **」タブを参照** して、データセットとフィールドレベルのラベルを確認してください。Data ガバナンスは、適用されるポリシーの種類に応じて、データを分類します。
+データセットで、「**データガバナンス**」タブを参照し、データセットレベルとフィールドレベルでラベルを確認します。データガバナンスは、適用されるポリシーのタイプに従ってデータを分類します。
 
-の [!DNL Adobe Experience Platform] 中核的な機能の1つは、複数のエンタープライズシステムからデータを取得して、マーケティング担当様による特定、理解、協力を強化することです。 このデータは、組織または法律上の規制によって定義されている使用制限の対象になります。 そのため、データ操作がデータ使用ポリシーに準拠していることを確認しておくことが重要です。
+[!DNL Adobe Experience Platform] の主な機能の 1 つは、複数の企業システムのデータを統合して、マーケターが顧客を識別かつ理解し、惹きつけられるようにすることです。このデータは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、データ操作が、データ使用ポリシーを確実に準拠できるようにすることが重要です。
 
-[!DNL Adobe Experience Platform Data Governance] では、お客様のデータを管理することができます。また、データの使用に関する規制、制限事項、ポリシーに関するコンプライアンスについてもご確認ください。 カタログ化、データ系統、データ使用状況のラベル付け、データ使用ポリシー、マーケティングアクション用のデータ使用の制御など、様々なレベルのエクスペリエンスプラットフォームにおいて重要な役割を果たします。
+ [!DNL Adobe Experience Platform Data Governance] を使用すると、顧客データを管理し、データの使用に適用される規制、制限、ポリシーへのコンプライアンスを確保できます。Experience Platform 内の様々なレベルで重要な役割を果たします（例えば、カタログ化、データ系列、データ使用ポリシー、マーケティングアクションのデータに関するアクセス制御など）。
 
-データガバナンスについて詳しくは、 [ ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html) data ガバナンスに関する説明を参照してください。 {target = &quot;_blank&quot;}
+データガバナンスとデータ使用ラベルについて詳しくは、[データガバナンスに関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
-## サンプルと使用例{#uc-datasets}
+## サンプルとユースケース{#uc-datasets}
 
-このエンドツーエンドのサンプルで [ Adobe 旅オプティマイザーにテストプロファイルを追加するために、スキーマ、データセット、取り込むデータを作成する方法について説明します。](../segment/creating-test-profiles.md)
+スキーマとデータセットを作成し、データを取り込んで、Adobe Journey Optimizer にテストプロファイルを追加する方法について、[このエンドツーエンドのサンプル](../segment/creating-test-profiles.md)で説明します。
 
-Adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) のデータセット作成について詳しくは、 [ target = &quot;_blank&quot;} を参照してください。
+データセットの作成について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-データ取り込みの概要マニュアル ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) でデータセット UI を使用する方法について説明し [ ます ({target = &quot;_blank&quot;})。
+データセット UI の使用方法については、[データ取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-ここで ](../data/datasets-query-examples.md) は、クエリーの例として使用できる [ 用途の一覧を示します。
+クエリの例を含むユースケースのリストは、[こちら](../data/datasets-query-examples.md)から入手できます。
 
-**関連項目**
+**関連トピック**
 
-* [ストリーミング取り込みの概要 ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) {target = &quot;_blank&quot;}
-* [Adobe エクスペリエンス Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html) へのデータの取り込み {target = &quot;_blank&quot;}
+* [ストリーミング取得の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target=&quot;_blank&quot;}
+* [Adobe Experience Platform へのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target=&quot;_blank&quot;}

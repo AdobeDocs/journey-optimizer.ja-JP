@@ -1,41 +1,41 @@
 ---
 product: journey optimizer
-title: 平均
-description: 関数 avg について説明します。
+title: avg
+description: avg 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 0%
+source-wordcount: '49'
+ht-degree: 100%
 
 ---
 
-# 平均 {#avg}
+# avg {#avg}
 
-指定された式のセット間の平均値を返します。これは、リストまたは2つの式のいずれかで指定します。 Null 値は無視されます。
+リストまたは 2 つの式のいずれかで指定された一連の式の平均値を返します。null 値は無視されます。
 
 
-## 項目
+## カテゴリ
 
-総計
+集計
 
-## 関数のシンタックス
+## 関数の構文
 
 `avg(<parameter>)`
 
 ## パラメーター
 
-サポートされるタイプ:
+サポートされているタイプ：
 
 * listInteger
-* リスト10進数
-* 形式
+* listDecimal
+* 小数
 * 整数
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `avg(<listInteger>)`
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 `avg(<integer>,<integer>)`
 
-10進数を返します。
+小数を返します。
 
 ## 例
 

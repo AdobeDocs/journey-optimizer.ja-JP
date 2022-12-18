@@ -1,55 +1,55 @@
 ---
 product: journey optimizer
 title: distinctCountWithNull
-description: 関数の distinctCountWithNull について説明します。
+description: distinctCountWithNull 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 0%
+source-wordcount: '66'
+ht-degree: 74%
 
 ---
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-Null 値を含む異なる値の数を数えます。
+null 値を含め、異なる値の数をカウントします。
 
 >[!NOTE]
 >
 >ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
-## 項目
+## カテゴリ
 
-総計
+集計
 
-## 関数のシンタックス
+## 関数の構文
 
 `distinctCountWithNull(<listAny>)`
 
 ## パラメーター
 
-| 指定 | 入力 |
+| パラメーター | タイプ |
 |-----------|------------------|
-| 一連 | listString |
-| 一連 | listBoolean |
-| 一連 | listInteger |
-| 一連 | リスト10進数 |
-| 一連 | listDuration |
-| 一連 | listDateTime |
-| 一連 | listDateTimeOnly |
-| 一連 | listDateOnly |
+| リスト | listString |
+| リスト | listBoolean |
+| リスト | listInteger |
+| リスト | listDecimal |
+| リスト | listDuration |
+| リスト | listDateTime |
+| リスト | listDateTimeOnly |
+| リスト | listDateOnly |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `distinctCountWithNull(<listAny>)`
 
-整数値を返します。
+整数を返します。
 
-## 一
+## 例
 
 `distinctCountWithNull([10,2,10,null])`
 
-3を返します。
+3 を返します。

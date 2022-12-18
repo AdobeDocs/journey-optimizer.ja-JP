@@ -1,65 +1,65 @@
 ---
 product: journey optimizer
 title: getListItem
-description: 関数の gstListItem について説明します。
+description: gstListItem 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 0%
+source-wordcount: '90'
+ht-degree: 100%
 
 ---
 
 # getListItem {#gestListItem}
 
-指定されたインデックスのリストの項目を返します。
+指定されたインデックスのリスト項目を返します。
 
-## 項目
+## カテゴリ
 
-一連
+リスト
 
-## 関数のシンタックス
+## 関数の構文
 
 `getListItem(<parameters>)`
 
 ## パラメーター
 
-| 指定 | 入力 |
+| パラメーター | タイプ |
 |-----------|------------------|
-| 一連 | listString |
-| 一連 | listBoolean |
-| 一連 | listInteger |
-| 一連 | リスト10進数 |
-| 一連 | listDuration |
-| 一連 | listDateTime |
-| 一連 | listDateTimeOnly |
-| 一連 | listDateOnly |
-| 検索 | 整数 |
+| リスト | listString |
+| リスト | listBoolean |
+| リスト | listInteger |
+| リスト | listDecimal |
+| リスト | listDuration |
+| リスト | listDateTime |
+| リスト | listDateTimeOnly |
+| リスト | listDateOnly |
+| index | 整数 |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `getListItem(<listInteger>,<index>)`
 
-整数値を返します。
+整数を返します。
 
 `getListItem(<listDecimal>,<index>)`
 
-10進数を返します。
+小数を返します。
 
 `getListItem(<listString>,<index>)`
 
-ストリングを返します。
+文字列を返します。
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-タイムゾーンを考慮せずに日付時刻を返します。
+タイムゾーンを無視して日時を返します。
 
 `getListItem(<listDateTime>,<index>)`
 
-Datetime を返します。
+日時を返します。
 
 `getListItem(<listDateOnly>,<index>)`
 
@@ -73,20 +73,21 @@ Datetime を返します。
 
 期間を返します。
 
-## 一
+## 例
 
 `getListItem([10, 2, 3], 1)`
 
-「2」を返します。
+「2」を返します
 
-`getListItem(["A", "B", "C"], 2)`「C」を返します。
+`getListItem(["A", "B", "C"], 2)`
+「C」を返します。
 
-次の例に示すように、イベントフィールド「イベント. appVersion」に値: &quot;20.45.2.3434&quot; を指定します。
+値「20.45.2.3434」を持つイベントフィールド「event.appVersion」の例
 
 `split(@{event.appVersion}, "\\.")`
 
-制御 `["20", "45", "2", "3434"]`
+`["20", "45", "2", "3434"]` を返します
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-「20」を返します。
+「20」を返します

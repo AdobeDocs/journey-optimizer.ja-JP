@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 業務
-description: 関数について説明します。
+title: 関数
+description: 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -10,87 +10,87 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 業務 {#functions}
+# 関数 {#functions}
 
-関数には、異なるシグニチャを設定することができます。 関数のシグニチャには、0 ~ N 個のパラメーターを指定することができます。
+関数は、異なるシグネチャ（順序付きパラメーターの異なるセット）を持つことができます。関数シグネチャは、0～N 個の式を順序付きパラメーターとして持つことができます。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-各関数には、戻り値の型が指定されています。
+関数ごとに、固有の戻り値タイプがあります。
 
-サポートされている関数の一覧を次に示します。
+サポートされている関数の一覧を以下に示します。
 
-## メイン関数
+## 主な関数
 
-| 項目 | 関数 |
+| カテゴリ | 関数 |
 |-------------|-----------------------|
-| Adobe エクスペリエンスプラットフォーム | [inSegment](../functions/functioninsegment.md) |
-| 総計 | [平均](../functions/functionavg.md) |
-| 総計 | [ティック](../functions/functioncount.md) |
-| 総計 | [countOnlyNull](../functions/functioncountonlynull.md) |
-| 総計 | [countWithNull](../functions/functioncountwithnull.md) |
-| 総計 | [distinctCount](../functions/functiondistinctcount.md) |
-| 総計 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| 総計 | [最大](../functions/functionmax.md) |
-| 総計 | [分](../functions/functionmin.md) |
-| 総計 | [総額](../functions/functionsum.md) |
-| 処理 | [toBool](../functions/functiontobool.md) |
-| 処理 | [toDateOnly](../functions/functiontodateonly.md) |
-| 処理 | [toDateTime](../functions/functiontodatetime.md) |
-| 処理 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| 処理 | [toDecimal](../functions/functiontodecimal.md) |
-| 処理 | [toDuration](../functions/functiontoduration.md) |
-| 処理 | [toInteger](../functions/functiontointeger.md) |
-| 処理 | [toString](../functions/functiontostring.md) |
-| 古い | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| 古い | [郵便日付](../functions/functioninlastdays.md) |
-| 古い | [inLastHours](../functions/functioninlasthours.md) |
-| 古い | [「In Lastmonths」](../functions/functioninlastmonths.md) |
-| 古い | [inLastYears](../functions/functioninlastyears.md) |
-| 古い | [In Nextdays](../functions/functioninnextdays.md) |
-| 古い | [inNextHours](../functions/functioninnexthours.md) |
-| 古い | [「、Nextmonths」](../functions/functioninnextmonths.md) |
-| 古い | [「Nextyears」](../functions/functioninnextyears.md) |
-| 古い | [今](../functions/functionnow.md) |
-| 古い | [今すぐデルタ](../functions/functionnowwithdelta.md) |
-| 古い | [setHours](../functions/functionsethours.md) |
-| 古い | [setDays](../functions/functionsetdays.md) |
-| 古い | [updateTimeZone](../functions/functionupdatetimezone.md) |
-| 一連 | [異なっ](../functions/functiondistinct.md) |
-| 一連 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 一連 | [フィルタ](../functions/functionfilter.md) |
-| 一連 | [getListItem](../functions/functiongetlistitem.md) |
-| 一連 | [単位](../functions/functionin.md) |
-| 一連 | [交わる](../functions/functionintersect.md) |
-| 一連 | [listSize](../functions/functionlimit.md) |
-| 一連 | [listSize](../functions/functionlistsize.md) |
-| 一連 | [serializeList](../functions/functionserializelist.md) |
-| 一連 | [降順](../functions/functionsort.md) |
-| 演算 | [無作為](../functions/functionrandom.md) |
-| 演算 | [数値](../functions/functionround.md) |
-| 値 | [連結](../functions/functionconcat.md) |
-| 値 | [ある](../functions/functioncontain.md) |
-| 値 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| 値 | [endend](../functions/functionendwith.md) |
-| 値 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 値 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| 値 | [indexOf](../functions/functionindexof.md) |
-| 値 | [isEmpty](../functions/functionisempty.md) |
-| 値 | [isNotEmpty](../functions/functionisnotempty.md) |
-| 値 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 値 | [長さ](../functions/functionlength.md) |
-| 値 | [古い](../functions/functionlower.md) |
-| 値 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 値 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| 値 | [置き](../functions/functionreplace.md) |
-| 値 | [replaceAll](../functions/functionreplaceall.md) |
-| 値 | [startWith](../functions/functionstartwith.md) |
-| 値 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| 値 | [substr](../functions/functionsubstr.md) |
-| 値 | [裁断](../functions/functiontrim.md) |
-| 値 | [大](../functions/functionupper.md) |
-| 値 | [uuid](../functions/functionuuid.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| 集計 | [avg](../functions/functionavg.md) |
+| 集計 | [count](../functions/functioncount.md) |
+| 集計 | [countOnlyNull](../functions/functioncountonlynull.md) |
+| 集計 | [countWithNull](../functions/functioncountwithnull.md) |
+| 集計 | [distinctCount](../functions/functiondistinctcount.md) |
+| 集計 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
+| 集計 | [max](../functions/functionmax.md) |
+| 集計 | [min](../functions/functionmin.md) |
+| 集計 | [sum](../functions/functionsum.md) |
+| 変換 | [toBool](../functions/functiontobool.md) |
+| 変換 | [toDateOnly](../functions/functiontodateonly.md) |
+| 変換 | [toDateTime](../functions/functiontodatetime.md) |
+| 変換 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| 変換 | [toDecimal](../functions/functiontodecimal.md) |
+| 変換 | [toDuration](../functions/functiontoduration.md) |
+| 変換 | [toInteger](../functions/functiontointeger.md) |
+| 変換 | [toString](../functions/functiontostring.md) |
+| 日付 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| 日付 | [inLastDays](../functions/functioninlastdays.md) |
+| 日付 | [inLastHours](../functions/functioninlasthours.md) |
+| 日付 | [inLastMonths](../functions/functioninlastmonths.md) |
+| 日付 | [inLastYears](../functions/functioninlastyears.md) |
+| 日付 | [inNextDays](../functions/functioninnextdays.md) |
+| 日付 | [inNextHours](../functions/functioninnexthours.md) |
+| 日付 | [inNextMonths](../functions/functioninnextmonths.md) |
+| 日付 | [inNextYears](../functions/functioninnextyears.md) |
+| 日付 | [now](../functions/functionnow.md) |
+| 日付 | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| 日付 | [setHours](../functions/functionsethours.md) |
+| 日付 | [setDays](../functions/functionsetdays.md) |
+| 日付 | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| リスト | [distinct](../functions/functiondistinct.md) |
+| リスト | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| リスト | [filter](../functions/functionfilter.md) |
+| リスト | [getListItem](../functions/functiongetlistitem.md) |
+| リスト | [in](../functions/functionin.md) |
+| リスト | [intersect](../functions/functionintersect.md) |
+| リスト | [listSize](../functions/functionlimit.md) |
+| リスト | [listSize](../functions/functionlistsize.md) |
+| リスト | [serializeList](../functions/functionserializelist.md) |
+| リスト | [sort](../functions/functionsort.md) |
+| 数値計算 | [random](../functions/functionrandom.md) |
+| 数値計算 | [round](../functions/functionround.md) |
+| 文字列 | [concat](../functions/functionconcat.md) |
+| 文字列 | [contain](../functions/functioncontain.md) |
+| 文字列 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 文字列 | [endWith](../functions/functionendwith.md) |
+| 文字列 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| 文字列 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
+| 文字列 | [indexOf](../functions/functionindexof.md) |
+| 文字列 | [isEmpty](../functions/functionisempty.md) |
+| 文字列 | [isNotEmpty](../functions/functionisnotempty.md) |
+| 文字列 | [lastIndexOf](../functions/functionlastindexof.md) |
+| 文字列 | [length](../functions/functionlength.md) |
+| 文字列 | [lower](../functions/functionlower.md) |
+| 文字列 | [matchRegExp](../functions/functionmatchregexp.md) |
+| 文字列 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 文字列 | [replace](../functions/functionreplace.md) |
+| 文字列 | [replaceAll](../functions/functionreplaceall.md) |
+| 文字列 | [startWith](../functions/functionstartwith.md) |
+| 文字列 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| 文字列 | [substr](../functions/functionsubstr.md) |
+| 文字列 | [trim](../functions/functiontrim.md) |
+| 文字列 | [upper](../functions/functionupper.md) |
+| 文字列 | [uuid](../functions/functionuuid.md) |

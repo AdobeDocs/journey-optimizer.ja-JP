@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: このような場合はコロンを & します。カート abandonment 電子メール
-description: 電子メールメッセージの本文を用途によってカスタマイズする方法について説明します。
+title: パーソナライゼーションのユースケース&colon; カート放棄メール
+description: ユースケースを通じて、メールメッセージの本文をパーソナライズする方法を説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,80 +10,80 @@ level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 0%
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
-# パーソナライズの使用例: cart abandonment 電子メール {#personalization-use-case-helper-functions}
+# パーソナライゼーションのユースケース：買い物かごの放棄メール {#personalization-use-case-helper-functions}
 
-この例では、電子メールメッセージの本文をカスタマイズします。 このメッセージは、ショッピングカート内のアイテムの左側にいて、購入を完了していないユーザーを対象としています。
+この例では、メールメッセージの本文をパーソナライズします。このメッセージは、ショッピングカートに商品が残っているが購入を完了していない顧客をターゲットにします。
 
-使用するヘルパー関数には、次の種類があります。
+次のタイプのヘルパー関数を使用します。
 
-* `upperCase`String 関数を指定すると、お客様の姓名が大文字で挿入されます。[詳しく ](functions/string.md#upper) は、こちらを参照してください。
-* `each`カート内のアイテムの一覧を表示するためのヘルパー。[詳しく ](functions/helpers.md#each) は、こちらを参照してください。
-* 関連付けられた製品がカート内にある場合は、このヘルパーが `if` 製品固有の注意を挿入します。 [詳しく ](functions/helpers.md#if-function) は、こちらを参照してください。
+* `upperCase` 文字列関数：顧客の名を大文字で挿入します。[詳細情報](functions/string.md#upper)。
+* `each` ヘルパー：カートに入っている商品をリストします。[詳細情報](functions/helpers.md#each)。
+* `if`ヘルパー：関連製品がカートに入っている場合に製品固有のメモを挿入します。[詳細情報](functions/helpers.md#if-function)。
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [ このビデオでヘルパー関数の使用方法について説明しています。](#video)
+➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
 
-作業を開始する前に、これらのエレメントを構成する方法を確認してください。
+開始する前に、次の要素の設定方法を理解しておく必要があります。
 
-* 1つのユニタリイベント。 [詳しく ](../event/about-events.md) は、こちらを参照してください。
-* イベントによって開始される旅 [詳しく ](../building-journeys/using-the-journey-designer.md) は、こちらを参照してください。
-* 電子メールメッセージを送信します。 [詳細情報](../email/create-email.md)
-* 電子メールの本文です。 [詳しく ](../email/content-from-scratch.md) は、こちらを参照してください。
+* 単一のイベント。[詳細情報](../event/about-events.md)。
+* イベントで開始されるジャーニー。[詳細情報](../building-journeys/using-the-journey-designer.md)。
+* ジャーニーでのメールメッセージ。[詳細情報](../email/create-email.md)
+* メールの本文。[詳細情報](../email/content-from-scratch.md)。
 
-以下の手順を実行します。
+次の手順に従います。
 
-1. [最初のイベントとその旅 ](#create-context) を作成します。
-1. [電子メールメッセージ ](#configure-email) を作成します。
-1. [お客様の姓を大文字 ](#uppercase-function) で入力します。
-1. [カートコンテンツを電子メール ](#each-helper) に追加します。
-1. [製品固有の注意事項 ](#if-helper) を挿入します。
-1. [テストを行い、その過程 ](#test-and-publish) を公開します。
+1. [最初のイベントとジャーニーを作成します](#create-context)。
+1. [メールメッセージを作成します](#configure-email)。
+1. [顧客の名を大文字で挿入します](#uppercase-function)。
+1. [カートの内容をメールに追加します](#each-helper)。
+1. [製品固有のメモを挿入します](#if-helper)。
+1. [ジャーニーをテストし公開します](#test-and-publish)。
 
-## ステップ 1: 初期イベントおよび関連する旅の作成 {#create-context}
+## 手順 1：最初のイベントと関連ジャーニーの作成 {#create-context}
 
-カートコンテンツは、旅からのコンテキスト情報になります。 そのため、最初にイベントと電子メールを追加する必要があります。この場合は、カートに関する情報を電子メールに追加する必要があります。
+カートの内容は、ジャーニーからのコンテキスト情報です。したがって、カート固有の情報をメールに追加する前に、最初のイベントとメールをジャーニーに追加する必要があります。
 
-1. 配列が含まれている `productListItems` スキーマにイベントを作成します。
-1. この配列に格納されているすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
+1. スキーマに `productListItems` 配列が含まれるイベントを作成します。
+1. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
 
-   製品リスト項目について詳しくは、Adobe エクスペリエンスプラットフォームマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html) の「target = &quot;_blank&quot;}」を [ 参照してください。
+   製品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-1. このイベントによって開始される旅を作成します。
-1. **この旅に電子メール** 活動項目を追加します。
+1. このイベントで開始されるジャーニーを作成します。
+1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
 
    ![](assets/personalization-uc-helpers-8.png)
 
-## 手順 2: 電子メールの作成{#configure-email}
+## 手順 2： メールの作成{#configure-email}
 
-1. **電子メール** 活動でをクリック **[!UICONTROL Edit content]** し、を **[!UICONTROL Email Designer]** クリックします。
+1. **メール**&#x200B;アクティビティで、「**[!UICONTROL コンテンツを編集]**」をクリックしたあと、「**[!UICONTROL 電子メールデザイナー]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-1.png)
 
-1. 電子メールデザイナーのホームページの左側のパレットから、3つのストラクチャーコンポーネントをメッセージの本文にドラッグ &amp; ドロップします。
+1. E メールデザイナーホームページの左側のパレットから、3 つの構造コンポーネントをメッセージの本文にドラッグ＆ドロップします。
 
-1. HTML コンテンツコンポーネントを新しい構造コンポーネントのそれぞれにドラッグ &amp; ドロップします。
+1. HTML コンテンツコンポーネントを、それぞれの新規構造コンポーネントにドラッグ＆ドロップします。
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## 手順 3: 得意先名を大文字に挿入します。 {#uppercase-function}
+## 手順 3： 顧客の名（大文字）の挿入 {#uppercase-function}
 
-1. 電子メールデザイナーのホームページで、お客様の名前を追加する HTML コンポーネントをクリックします。
-1. コンテキストツールバーでをクリック **[!UICONTROL Show the source code]** します。
+1. E メールデザイナーのホームページで、顧客の名を追加する HTML コンポーネントをクリックします。
+1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. **[!UICONTROL Edit HTML]**&#x200B;ウィンドウで、ストリング関数を追加 `upperCase` します。
-   1. 左側のメニューで、を選択 **[!UICONTROL Helper functions]** します。
-   1. 検索フィールドを使用して「大文字」を検索します。
-   1. 検索結果から関数を追加 `upperCase` します。 これを行うには、の横に `{%= upperCase(string) %}: string` あるプラス (+) 記号をクリックします。
+1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`upperCase` 文字列関数を追加します。
+   1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
+   1. 検索フィールドを使用して、「uppercase」を検索します。
+   1. 検索結果から、`upperCase` 関数を追加します。それには、`{%= upperCase(string) %}: string` の横のプラス記号（+）をクリックします。
 
-      式エディターに、次の式が表示されます。
+      式エディターには、次の式が表示されます。
 
       ```handlebars
       {%= upperCase(string) %}
@@ -91,13 +91,13 @@ ht-degree: 0%
 
       ![](assets/personalization-uc-helpers-4.png)
 
-1. エクスプレッションから「string」プレースホルダーを削除します。
-1. 最初の名前トークンを追加します。
-   1. 左側のメニューで、を選択 **[!UICONTROL Profile attributes]** します。
-   1. 「> **[!UICONTROL Full name]** 」を選択 **[!UICONTROL Person]** します。
-   1. **[!UICONTROL First name]**&#x200B;式にトークンを追加します。
+1. 式から「string」プレースホルダーを削除します。
+1. 名トークンを追加します。
+   1. 左側のメニューで、「**[!UICONTROL プロファイル属性]**」を選択します。
+   1. **[!UICONTROL ユーザー]**／**[!UICONTROL 姓名]**&#x200B;を選択します。
+   1. 式に&#x200B;**[!UICONTROL 名]**&#x200B;トークンを追加します。
 
-      式エディターに、次の式が表示されます。
+      式エディターには、次の式が表示されます。
 
       ```handlebars
       {%= upperCase(profile.person.name.firstName) %}
@@ -105,29 +105,29 @@ ht-degree: 0%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Adobe エクスペリエンスプラットフォーム ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html) の人名データ型について詳しくは、「target = &quot;_blank&quot;}」を [ 参照してください。
+      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-1. をクリック **[!UICONTROL Validate]** してから、をクリック **[!UICONTROL Save]** します。
+1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-6.png)
 
 1. メッセージを保存します。
 
-## 手順 4: カート内のアイテムのリストを挿入します。 {#each-helper}
+## 手順 4：カート内の商品リストの挿入 {#each-helper}
 
-1. メッセージの内容を再度開きます。
+1. メッセージコンテンツを再度開きます。
 
-1. 電子メールデザイナーのホームページで、カートの内容を一覧表示する HTML コンポーネントをクリックします。
-1. コンテキストツールバーでをクリック **[!UICONTROL Show the source code]** します。
+1. E メールデザイナーのホームページで、カートの内容を一覧表示する HTML コンポーネントをクリックします。
+1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. **[!UICONTROL Edit HTML]**&#x200B;ウィンドウで、次のようにヘルパーを追加 `each` します。
-   1. 左側のメニューで、を選択 **[!UICONTROL Helper functions]** します。
-   1. 検索フィールドを使用して「each」を検索します。
-   1. 検索結果から、ヘルパーを追加 `each` します。
+1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`each` ヘルパーを追加します。
+   1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
+   1. 検索フィールドを使用して、「each」を検索します。
+   1. 検索結果から、`each` ヘルパーを追加します。
 
-      式エディターに、次の式が表示されます。
+      式エディターには、次の式が表示されます。
 
       ```handlebars
       {{#each someArray as |variable|}} {{/each}}
@@ -135,40 +135,40 @@ ht-degree: 0%
 
       ![](assets/personalization-uc-helpers-9.png)
 
-1. `productListItems`配列を式に追加します。
+1. 式に `productListItems` 配列を追加します。
 
-   1. エクスプレッションから「すべての配列」プレースホルダーを削除します。
-   1. 左側のメニューで、を選択 **[!UICONTROL Contextual attributes]** します。
+   1. 式から「someArray」プレースホルダーを削除します。
+   1. 左側のメニューで、「**[!UICONTROL コンテキスト属性]**」を選択します。
 
-      **[!UICONTROL Contextual attributes]** は、メッセージに旅のコンテキストを渡した場合にのみ使用できます。
+      **[!UICONTROL コンテキスト属性]**&#x200B;は、ジャーニーコンテキストがメッセージに渡された後でのみ使用できます。
 
-   1. > **[!UICONTROL Events]** > [!UICONTROL event_name] を選択 **[!UICONTROL Journey Optimizer]** して **[!UICONTROL productListItems]** から、ノードを展開します。
+   1. **[!UICONTROL Journey Optimizer]**／**[!UICONTROL イベント]**／***[!UICONTROL event_name]*** を選択し、**[!UICONTROL productListItems]** ノードを展開します。
 
-      この例では、 *event_name* はイベントの名前を表します。
+      この例では、*event_name* はイベントの名前を表します。
 
-   1. **[!UICONTROL Product]**&#x200B;式にトークンを追加します。
+   1. 式に&#x200B;**[!UICONTROL 製品]**&#x200B;トークンを追加します。
 
-      式エディターに、次の式が表示されます。
+      式エディターには、次の式が表示されます。
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-      この例では、 *event_ID* がイベントの ID を表しています。
+      この例では、*event_ID* はイベントの ID を表します。
 
       ![](assets/personalization-uc-helpers-10.png)
 
-   1. エクスプレッションを変更します。
-      1. &quot;Product&quot; というストリングを削除します。
-      1. 「変数」プレースホルダーを「product」に置き換えます。
+   1. 式を次のように変更します。
+      1. 「.product」文字列を削除します。
+      1. 「variable」プレースホルダーを「product」に置き換えます。
 
-      修正された式の例を次に示します。
+      次の例は、変更された式を示しています。
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
 
-1. 開始 `{{#each}}` タグと終了 `{/each}}` タグの間に、次のコードをペーストします。
+1. 次のコードを、`{{#each}}` 開始タグと `{/each}}` 終了タグの間に貼り付けます。
 
    ```html
    <table>
@@ -182,17 +182,17 @@ ht-degree: 0%
    </table>
    ```
 
-1. Item name、quantity、および価格のパーソナル化トークンを次のように追加します。
+1. 商品名、数量および価格のパーソナライゼーショントークンを追加します。
 
-   1. HTML テーブルからプレースホルダー &quot;#name&quot; を削除します。
-   1. 前の検索結果から、式にトークンを追加 **[!UICONTROL Name]** します。
+   1. HTML テーブルからプレースホルダー「#name」を削除します。
+   1. 前の検索結果から、**[!UICONTROL 名前]**&#x200B;トークンを式に追加します。
 
-   これらの手順を2回繰り返します。
+   次の手順を 2 回繰り返します。
 
-   * プレースホルダー &quot;#quantity&quot; がトークンに **[!UICONTROL Quantity]** 置き換えられます。
-   * プレースホルダー &quot;#priceTotal&quot; がトークンに **[!UICONTROL Total price]** 置き換えられます。
+   * プレースホルダー「#quantity」を&#x200B;**[!UICONTROL 数量]**&#x200B;トークンに置き換えます。
+   * プレースホルダー「#priceTotal」を&#x200B;**[!UICONTROL 合計価格]**&#x200B;トークンに置き換えます。
 
-   修正された式の例を次に示します。
+   次の例は、変更された式を示しています。
 
    ```handlebars
    {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -208,23 +208,23 @@ ht-degree: 0%
    {{/each}}
    ```
 
-1. をクリック **[!UICONTROL Validate]** してから、をクリック **[!UICONTROL Save]** します。
+1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-11.png)
 
-## 手順 5: 製品固有の注意事項を挿入します。 {#if-helper}
+## 手順 5：製品固有のメモの挿入 {#if-helper}
 
-1. 電子メールデザイナーのホームページで、コメントを挿入する HTML コンポーネントをクリックします。
-1. コンテキストツールバーでをクリック **[!UICONTROL Show the source code]** します。
+1. E メールデザイナーのホームページで、メモを挿入する HTML コンポーネントをクリックします。
+1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. **[!UICONTROL Edit HTML]**&#x200B;ウィンドウで、次のようにヘルパーを追加 `if` します。
-   1. 左側のメニューで、を選択 **[!UICONTROL Helper functions]** します。
-   1. 「If」を検索するには、「検索」フィールドを使用します。
-   1. 検索結果から、ヘルパーを追加 `if` します。
+1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`if` ヘルパーを追加します。
+   1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
+   1. 検索フィールドを使用して、「if」を検索します。
+   1. 検索結果から、`if` ヘルパーを追加します。
 
-      式エディターに、次の式が表示されます。
+      式エディターには、次の式が表示されます。
 
       ```handlebars
       {%#if condition1%} render_1
@@ -241,7 +241,7 @@ ht-degree: 0%
    {%else if condition2%} render_2
    ```
 
-   修正された式の例を次に示します。
+   次の例は、変更された式を示しています。
 
    ```handlebars
    {%#if condition1%} render_1
@@ -249,16 +249,16 @@ ht-degree: 0%
    {%/if%}
    ```
 
-1. 次の条件に製品名トークンを追加します。
-   1. エクスプレッションから「condition1」プレースホルダーを削除します。
-   1. 左側のメニューで、を選択 **[!UICONTROL Contextual attributes]** します。
-   1. > **[!UICONTROL Events]** > [!UICONTROL event_name] を選択 **[!UICONTROL Journey Orchestration]** して **[!UICONTROL productListItems]** から、ノードを展開します。
+1. 製品名トークンを条件に追加します。
+   1. 式から「condition1」プレースホルダーを削除します。
+   1. 左側のメニューで、「**[!UICONTROL コンテキスト属性]**」を選択します。
+   1. **[!UICONTROL Journey Orchestration]**／**[!UICONTROL イベント]**／***[!UICONTROL event_name]*** を選択し、**[!UICONTROL productListItems]** ノードを展開します。
 
-      この例では、 *event_name* はイベントの名前を表します。
+      この例では、*event_name* はイベントの名前を表します。
 
-   1. **[!UICONTROL Name]**&#x200B;式にトークンを追加します。
+   1. 式に&#x200B;**[!UICONTROL 名前]**&#x200B;トークンを追加します。
 
-      式エディターに、次の式が表示されます。
+      式エディターには、次の式が表示されます。
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name%}
@@ -269,16 +269,16 @@ ht-degree: 0%
 
       ![](assets/personalization-uc-helpers-13.png)
 
-1. エクスプレッションを変更します。
-   1. 式エディターで、トークンの `name` 後に製品名を指定します。
+1. 式を次のように変更します。
+   1. 式エディターで、`name` トークンの後に製品名を指定します。
 
-      次の構文を *使用します。 product_name* は製品の名前を表します。
+      次の構文を使用します。ここで、*product_name* は製品の名前を表します。
 
       ```javascript
       = "product_name"
       ```
 
-      この例では、製品名は &quot;Juno ジャケット&quot; になります。
+      この例では、製品名は「Juno Jacket」です。
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
@@ -287,9 +287,9 @@ ht-degree: 0%
       {%/if%}
       ```
 
-   1. 「Render_1」プレースホルダーを注記のテキストに置き換えます。
+   1. 「render_1」プレースホルダーをメモのテキストに置き換えます。
 
-      一
+      例：
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
@@ -298,50 +298,50 @@ ht-degree: 0%
       {%/if%}
       ```
 
-   1. エクスプレッションから「default_render」プレースホルダーを削除します。
-1. をクリック **[!UICONTROL Validate]** してから、をクリック **[!UICONTROL Save]** します。
+   1. 式から「default_render」プレースホルダーを削除します。
+1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-14.png)
 
 1. メッセージを保存します。
 
-## 手順 6: 旅のテストとパブリッシュ {#test-and-publish}
+## 手順 6：ジャーニーのテストと公開 {#test-and-publish}
 
-1. 切り替えオプションをオンにして **[!UICONTROL Test]** 、をクリック **[!UICONTROL Trigger an event]** します。
+1. 「**[!UICONTROL テスト]**」トグルをオンにしてから、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
    ![](assets/personalization-uc-helpers-15.png)
 
-1. **[!UICONTROL Event configuration]**&#x200B;ウィンドウに入力値を入力し、をクリック **[!UICONTROL Send]** します。
+1. **[!UICONTROL イベント設定]**&#x200B;ウィンドウで、入力値を入力し、「**[!UICONTROL 送信]**」をクリックします。
 
-   テストモードは、テストプロファイルでのみ使用できます。
+   テストモードは、テストプロファイルでのみ機能します。
 
    ![](assets/personalization-uc-helpers-16.png)
 
-   電子メールは、テストプロファイルのアドレスに送信されます。
+   メールがテストプロファイルのアドレスに送信されます。
 
-   次の例では、この製品がカートにあるので、Juno ジャケットに関する注意事項が電子メールに含まれています。
+   この例では、Juno Jacket に関するメモがメールに含まれています。これは、この製品がカートに入っているからです。
 
    ![](assets/personalization-uc-helpers-17.png)
 
-1. エラーが発生していないことを確認してから、その旅をパブリッシュします。
+1. エラーがないことを確認し、ジャーニーを公開します。
 
 
 ## 関連トピック {#related-topics}
 
-### Handlebars 関数の操作 {#handlebars}
+### Handlebars 関数 {#handlebars}
 
 * [ヘルパー](functions/helpers.md)
 
-* [ストリング関数](functions/string.md)
+* [文字列関数](functions/string.md)
 
-### 使用例 {#use-case}
+### ユースケース {#use-case}
 
-* [プロファイル情報、コンテキスト、およびオファーを使用したパーソナル化](personalization-use-case.md)
+* [プロファイル情報、コンテキストおよびオファーを使用したパーソナライゼーション](personalization-use-case.md)
 
-* [意思決定をベースとしたパーソナライズ機能](../offers/offers-e2e.md)
+* [決定ベースのオファーを使用したパーソナライゼーション](../offers/offers-e2e.md)
 
-## 操作方法のビデオ{#video}
+## ハウツービデオ{#video}
 
-ヘルパー関数の使用方法について説明します。
+ヘルパー関数の使用方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

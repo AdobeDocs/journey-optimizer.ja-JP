@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メッセージの追跡
-description: リンクを追加し、送信メッセージの追跡を行う方法について説明します。
+title: メッセージのトラッキング
+description: リンクを追加し送信済みメッセージをトラッキングする方法を説明します
 feature: Monitoring
 topic: Content Management
 role: User
@@ -10,26 +10,26 @@ level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 0%
+source-wordcount: '693'
+ht-degree: 94%
 
 ---
 
-# リンクの追加と追跡メッセージ {#tracking}
+# リンクの追加とメッセージのトラッキング {#tracking}
 
-を使用 [!DNL Journey Optimizer] して、コンテンツへのリンクを追加し、受信者の動作を監視するために送信されたメッセージを追跡します。
+[!DNL Journey Optimizer] を使用すると、受信者の行動を監視するために、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることができます。
 
-## トラッキングを有効にする {#enable-tracking}
+## トラッキングの有効化 {#enable-tracking}
 
-メッセージを送信またはキャンペーン内に作成するときに、 **[!UICONTROL Email opens]** **[!UICONTROL Click on email]** メッセージを電子メールメッセージレベルで追跡できるようにすることができます。
+E メールメッセージレベルでトラッキングを有効にするには、 **[!UICONTROL メール開封数]** および/または **[!UICONTROL メールをクリック]** オプションを使用して、ジャーニーやキャンペーン内でメッセージを作成できます。
 
 >[!BEGINTABS]
 
->[!TAB 旅での追跡の有効化]
+>[!TAB ジャーニーでのトラッキングの有効化]
 
 ![](assets/message-tracking-journey.png)
 
->[!TAB キャンペーンでの追跡の有効化]
+>[!TAB キャンペーンでのトラッキングの有効化]
 
 ![](assets/message-tracking-campaign.png)
 
@@ -37,101 +37,103 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->どちらのオプションも初期設定では有効になっています。
+>デフォルトでは、両方のオプションが有効になっています。
 
-これにより、次の方法で受信者の動作を追跡することができます。
+これにより、次の方法で受信者の行動を追跡できます。
 
-* **[!UICONTROL Email opens]**: 開かれたメッセージを表示します。
-* **[!UICONTROL Click on email]**: 電子メール内のリンクをクリックします。
+* **[!UICONTROL メール開封数]**：開封されたメッセージ。
+* **[!UICONTROL メールのクリック数]**：メール内のリンクのクリック数。
 
 ## リンクの挿入 {#insert-links}
 
-メッセージをデザインするときに、コンテンツへのリンクを追加することができます。
+メッセージをデザインする際に、リンクをコンテンツに追加できます。
 
 >[!NOTE]
 >
->追跡が有効になって ](#enable-tracking) いると [ 、メッセージコンテンツに含まれているすべてのリンクが追跡されます。
+>[トラッキングが有効](#enable-tracking)になっている場合、メッセージコンテンツに含まれるすべてのリンクがトラッキングされます。
 
-電子メールコンテンツにリンクを挿入するには、次の手順を実行します。
+メールコンテンツにリンクを挿入するには、次の手順に従います。
 
-1. エレメントを選択し、状況に応じたツールバーでをクリック **[!UICONTROL Insert link]** します。
+1. 要素を選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックします。
 
    ![](assets/message-tracking-insert-link.png)
 
-1. 作成するリンクの種類を選択します。
+1. 作成するリンクのタイプを選択します。
 
-   * **[!UICONTROL External link]**: 外部 URL へのリンクを挿入します。
+   * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
 
-   * **[!UICONTROL Landing page]**: ランディングページへのリンクを挿入します。 詳しくは、ここを [ 参照してください。](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。詳しくは、[この節](../landing-pages/get-started-lp.md)を参照してください。
 
-   * **[!UICONTROL One click Opt-out]**: オプトアウトを確認せずに、ユーザーが通信を速やかに購読できるようにするには、リンクを挿入します。 詳しくは、ここを [ ](../privacy/opt-out.md#one-click-opt-out) 参照してください。
+   * **[!UICONTROL ワンクリックオプトアウト]**：ユーザーがオプトアウトの確認を求められることなく、コミュニケーションを素早く購読解除できるリンクを挿入します。詳しくは、[この節](../privacy/opt-out.md#one-click-opt-out)を参照してください。
 
-   * **[!UICONTROL External Opt-in/Subscription]**: ブランドから情報を受け取るためのリンクを挿入します。
+   * **[!UICONTROL 外部のオプトイン／購読]**：ブランドからのコミュニケーションの受信を同意するリンクを挿入します。
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: 作成した web ページを使用して、自分のブランドから配信を中止するためのリンクを挿入します。 この節 ](../privacy/opt-out.md#opt-out-management) では [ 、オプトアウトの管理について詳しく説明しています。
+   * **[!UICONTROL 外部オプトアウト／購読解除]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入します。オプトアウト管理の詳細については、[この節](../privacy/opt-out.md#opt-out-management)を参照してください。
 
-   * **[!UICONTROL Mirror page]**: Web ブラウザーに電子メールのコンテンツを表示するには、リンクを挿入します。 詳しくは、ここを [ ](#mirror-page) 参照してください。
+   * **[!UICONTROL ミラーページ]**：web ブラウザーにメールコンテンツを表示するためのリンクを挿入します。詳しくは、[この節](#mirror-page)を参照してください。
 
    ![](assets/message-tracking-links.png)
 
-1. リンクを個人用に設定することができます。 この節 ](../personalization/personalization-syntax.md#perso-urls) では、 [ 個人用の url について詳しく説明しています。
+1. リンクをパーソナライズできます。パーソナライズされた URL について詳しくは、[この節](../personalization/personalization-syntax.md#perso-urls)を参照してください。
 
-1. 変更内容を保存します。
+1. 変更を保存します。
 
-1. 作成したリンクは、右側のペインで変更 **[!UICONTROL Component settings]** することもできます。
+1. リンクを作成した後も、右側の「**[!UICONTROL コンポーネント設定]**」ペインから変更できます。
 
-   * リンクを編集して、その種類を変更することができます。
-   * リンクに下線を表示するか、または、対応するオプションをオンにしないかを選択できます。
+
+   * リンクを編集してタイプを変更できます。
+   * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには脱退リンク ](../privacy/opt-out.md#opt-out-management) が含ま [ れている必要があります。これは、トランザクションメッセージには必要ありません。メッセージカテゴリー **[!UICONTROL Marketing]** **[!UICONTROL Transactional]** は、チャネルサーフェス ](../configuration/channel-surfaces.md#email-type) (メッセージプリセット) レベルとメッセージの作成時に [ 定義されます。
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)（メッセージプリセット）レベルでメッセージの作成時に定義されます。
 
 ## ミラーページへのリンク {#mirror-page}
 
-ミラーページは、web ブラウザーを使用してオンラインで利用可能な HTML ページです。 その内容は、電子メールの内容と同じです。
+ミラーページは、web ブラウザーを使用してオンラインでアクセス可能な HTML ページです。その内容はメールの内容と同じです。
 
-電子メールの鏡像ページへのリンクを追加するには、 [ リンク ](#insert-links) を挿入し、リンクの種類としてを選択 **[!UICONTROL Mirror page]** します。
+メールにミラーページへのリンクを追加するには、[リンクを挿入](#insert-links)し、リンクのタイプとして「**[!UICONTROL ミラーページ]**」を選択します。
 
 ![](assets/message-tracking-mirror-page.png)
 
-「ミラー」ページが自動的に作成されます。
+ミラーページが自動的に作成されます。
 
 >[!IMPORTANT]
 >
->ミラーページのリンクは自動的に生成され、編集できません。 これには、元の電子メールをレンダリングするために必要なすべての暗号化されたパーソナライズされたデータが含まれています。 そのため、大規模な属性を使用すると、非常に長いミラーページの Url が生成されることがあります。これにより、Url が最大長の web ブラウザーでのリンクを防止できます。
+>ミラーページのリンクは自動生成され、編集できません。これらには、元のメールのレンダリングに必要な、暗号化されたパーソナライズされたデータがすべて含まれています。その結果、値が大きいパーソナライズ属性を使用すると、長いミラーページの URL が生成される可能性があり、URL の長さが最大長の web ブラウザーでリンクが機能しなくなる可能性があります。
 
-電子メールが送信されると、受信者が「ミラーページ」リンクをクリックすると、電子メールの内容が初期設定の web ブラウザーに表示されます。
+メールが送信され、受信者がミラーページのリンクをクリックすると、メールの内容がデフォルトの web ブラウザーに表示されます。
 
 >[!NOTE]
 >
->[テストプロファイルに送信された校正 ](preview.md#send-proofs) には、ミラーページへのリンクはアクティブではありません。最終的なメッセージの中でのみアクティブ化されます。
+>テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクはアクティブになっていません。最終的なメッセージでのみアクティブ化されます。
 
-ミラーページの保存期間は60日です。 その後、ミラーページを使用することはできなくなります。
+ミラーページの保持期間は 60 日です。この期間が経過すると、ミラーページは使用できなくなります。
 
-## 追跡の管理 {#manage-tracking}
+## トラッキングの管理 {#manage-tracking}
 
-[電子メールデザイナー ](content-from-scratch.md) を使用すると、追跡する url を管理することができます。これは、各リンクの追跡タイプを編集する場合などに使用されます。
+[E メールデザイナー](content-from-scratch.md)を使用すると、追跡する URL を管理できます（各リンクのトラッキングタイプの編集など）。
 
-1. **[!UICONTROL Links]**&#x200B;左側のペインでアイコンをクリックすると、追跡対象のコンテンツのすべての url のリストが表示されます。
+1. 左側のペインの「**[!UICONTROL リンク]**」アイコンをクリックし、追跡するコンテンツのすべての URL のリストを表示します。
 
-   このリストを使用すると、中央表示を使用して、電子メールコンテンツ内の各 URL を検索することができます。
 
-1. リンクを編集するには、対応する鉛筆のアイコンをクリックします。
+   このリストを使用すると、一元的なビューを表示したり、メールコンテンツ内の各 URL を見つけたりできます。
+
+1. リンクを編集するには、対応する鉛筆アイコンをクリックします。
 
    ![](assets/message-tracking-edit-links.png)
 
-1. 必要に応じて、次の **[!UICONTROL Tracking Type]** ように変更することができます。
+1. 必要に応じて、「**[!UICONTROL トラッキングタイプ]**」を変更できます。
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   追跡対象 URL ごとに、トラッキングモードを次のいずれかの値に設定できます。
+   追跡する URL ごとに、トラッキングモードを次のいずれかの値に設定できます。
 
-   * **[!UICONTROL Tracked]**: この URL でトラッキングを有効にします。
-   * **[!UICONTROL Opt out]**: この URL は、オプトアウトまたは unsubscription URL とみなされます。
-   * **[!UICONTROL Mirror page]**: この URL はミラーページの URL であるとします。
-   * **[!UICONTROL Never]**: この URL の追跡はアクティブ化しないでください。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL トラッキング対象]**：この URL のトラッキングを有効化します。
+   * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
+   * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
+   * **[!UICONTROL なし]**：この URL のトラッキングを有効化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-オープニングとクリックに関するレポートは、 [ ライブレポート ](../reports/live-report.md) と [ グローバルレポート ](../reports/global-report.md) で使用できます。
+開封数とクリック数に関するレポートは、[ライブレポート](../reports/live-report.md)と[グローバルレポート](../reports/global-report.md)で利用できます。

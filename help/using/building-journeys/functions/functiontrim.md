@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: 裁断
-description: 関数のトリミングについて説明します。
+title: trim
+description: trim 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,36 +9,36 @@ exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 裁断 {#trim}
+# trim {#trim}
 
-開始および終了の空白が削除されます。
+先頭と末尾のスペースを削除します。
 
-## 項目
+## カテゴリ
 
-値
+文字列
 
-## 関数のシンタックス
+## 関数の構文
 
 `trim(<parameters>)`
 
-## 指定
+## パラメーター
 
-| 指定 | 入力 |
+| パラメーター | タイプ |
 |-----------|------------------|
-| 値 | 値 |
+| 文字列 | 文字列 |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `trim(<string>)`
 
-ストリングを返します。
+文字列を返します。
 
-## 一
+## 例
 
 `trim(" Hello ")`
 
-は「Hello」を返します。
+「Hello」を返します。

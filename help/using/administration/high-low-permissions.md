@@ -1,125 +1,126 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: アクセス許可レベル
-description: 高レベルと低レベルの権限について説明します。
+title: 権限レベル
+description: 高レベルおよび低レベル権限について学ぶ
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '907'
+ht-degree: 100%
 
 ---
 
-# アクセス許可レベル {#high-low-permissions}
+# 権限レベル {#high-low-permissions}
 
 ![](assets/do-not-localize/permissions.png)
 
-各製品プロファイルは、様々な機能にアクセスするための権限で構成されています。これらは、次の2つのタイプに分けることができます。
+各製品プロファイルは、ユーザーが様々な機能にアクセスできる権限で構成されています。
+権限は次の 2 つのタイプに分けることができます。
 
-* **高レベルのアクセス許可** : や **[!DNL Manage subdomains delegation]** などので [!DNL Admin console] **[!DNL Publish journeys]** に **[!UICONTROL Product profile]** 割り当てられるさまざまなアクセス許可を指定します。高レベルのアクセス許可は、低レベルのアクセス許可を網羅します。
+* **高レベルの権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、[!DNL Admin console] で&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てることができる様々な権限を表します。高レベル権限は、低レベル権限を含みます。
 
-* **「低レベル」アクセス** 許可: 高レベルのアクセス許可から取得されたさまざまなアクセス許可を表します。
+* **低レベル権限**：高レベル権限から取得される様々な権限を表します。
 
-例えば、 **[!DNL Journey administrator]** 製品プロファイルにはパーミッションが割り当てら **[!DNL Manage journeys]** れています。 このアクセス許可によって、記録された管理者が journeys の作成、読み取り、削除を実行できるようにするための下位レベルの権限が与えられます。
+例えば、**[!DNL Journey administrator]** 製品プロファイルには、**[!DNL Manage journeys]** 権限が割り当てられます。この権限により、ジャーニー管理者に対してジャーニーの書き込み、読み取りおよび削除を許可する低レベルの権限が生じます。
 
-## 旅機能 {#journey-capability}
+## ジャーニー機能 {#journey-capability}
 
-### [!DNL Manage journeys] 許可 {#manage-journeys}
+### [!DNL Manage journeys] 権限 {#manage-journeys}
 
-高レベルの **[!DNL Manage journeys]** 権限を使用すると、ユーザーは新しい Journeys を作成して、既存のを編集または削除することができます。また、旅のフローを構築するために、これらのオブジェクトに対して使用されているオブジェクトにアクセスすることもできます。
+「**[!DNL Manage journeys]**」という高レベルの権限を持つユーザーは、新しいジャーニーの作成や、既存のジャーニーの編集／削除を行い、ジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへアクセスできます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
+* Journey Optimizer 固有：
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
 
    * segments.read
    * profiles.read
    * datasets.read
    * schemas.read
 
-### [!DNL Publish journeys] 許可 {#publish-journeys}
+### [!DNL Publish journeys] 権限 {#publish-journeys}
 
-高レベルの権限を使用すると、 **[!DNL Publish journeys]** journeys を公開することができます。
+「**[!DNL Publish journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを公開できます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
+* Journey Optimizer 固有：
    * journeys.publish
    * journeys.read
 
-### [!DNL View journeys] 許可 {#view-journeys}
+### [!DNL View journeys] 権限 {#view-journeys}
 
-高レベルの権限を使用すると、 **[!DNL View journeys]** journeys を参照したり表示したりすることができます。
+「**[!DNL View journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを参照および表示できます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
+* Journey Optimizer 固有：
    * journeys.read
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * segments.read
    * profiles.read
 
-### [!DNL Manage journeys events, data sources and actions] 許可 {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] 権限 {#manage-journeys-events}
 
-高レベルの権限を使用すると、 **[!DNL Manage journeys events, data sources and actions]** ユーザーがイベントおよびデータの設定を行うことができます。
+「**[!DNL Manage journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、イベントとデータの設定を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * journeys_events を参照してください。
-   * journeys_events の作成
-   * journeys_events を削除します。
-   * journeys_data_sources を参照してください。
-   * journeys_data_sources の作成
-   * journeys_data_sources を削除します。
-   * journeys_actions を参照してください。
-   * journeys_actions の作成
-   * journeys_actions を削除します。
+* Journey Optimizer 固有：
+   * journeys_events.read
+   * journeys_events.write
+   * journeys_events.delete
+   * journeys_data_sources.read
+   * journeys_data_sources.write
+   * journeys_data_sources.delete
+   * journeys_actions.read
+   * journeys_actions.write
+   * journeys_actions.delete
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * schemas.read
    * datasets.read
-   * identity_namespace を参照してください。
+   * identity_namespace.read
 
-### [!DNL View journeys events, data sources and actions] 許可 {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] 権限 {#view-journeys-event}
 
-高レベルの **[!DNL View journeys events, data sources and actions]** 権限を使用すると、ユーザーは旅の過程でイベントやデータを使用することができます。
+「**[!DNL View journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * journeys_events を参照してください。
-   * journeys_data_sources を参照してください。
-   * journeys_actions を参照してください。
+* Journey Optimizer 固有：
+   * journeys_events.read
+   * journeys_data_sources.read
+   * journeys_actions.read
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * schemas.read
    * datasets.read
-   * identity_namespace を参照してください。
+   * identity_namespace.read
 
-### [!DNL View journeys report] 許可 {#view-journeys-report}
+### [!DNL View journeys report] 権限 {#view-journeys-report}
 
-高レベルの権限を使用すると、ユーザーは読み取り専用の **[!DNL View journeys report]** 旅レポートを作成できます。
+**[!DNL View journeys report]** 高レベルの権限を持つユーザーは、ジャーニーレポートに対する読み取り専用のアクセス権を持ちます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * journeys_report を参照してください。
-   * messages_report を参照してください。
+* Journey Optimizer 固有：
+   * journeys_report.read
+   * messages_report.read
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * datasets.read
    * queries.read
    * queries.write
@@ -127,13 +128,14 @@ ht-degree: 0%
 
 ## 意思決定管理機能 {#decisions-permissions}
 
-### [!DNL Manage decisions] 許可 {#manage-decisioning}
+### [!DNL Manage decisions] 権限 {#manage-decisioning}
 
-高レベルの権限を **[!DNL Manage decisions]** 使用すると、ユーザーは新規作成し、既存 **[!DNL Activity entities]** の編集/削除を行うことができます。また、これらの操作で使用するオブジェクトを管理して、決定を行うこともできます。
+「**[!DNL Manage decisions]**」という高レベルの権限を持つユーザーは、既存の **[!DNL Activity entities]** の編集／削除、新規作成を行なえるほか、これらのアクティビティで使用されるオブジェクトを管理し、決定することができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 意思決定管理に関する具体的な事項:
+* 意思決定管理固有：
+
    * activities.read
    * activities.write
    * activities.delete
@@ -143,9 +145,9 @@ ht-degree: 0%
    * placements.read
    * placements.write
    * placements.delete
-   * ranking_strategy を参照してください。
+   * ranking_strategy.read
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -153,101 +155,104 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### [!DNL View decisions] 許可 {#view-decisions}
+### [!DNL View decisions] 権限 {#view-decisions}
 
-高レベルの **[!DNL View decisions]** 権限を使用すると、ユーザーは既存の操作と関連するビジネスオブジェクトを使用して、決定を行うことができます。
+「**[!DNL View decisions]**」という高レベルの権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 意思決定管理に関する具体的な事項:
+* 意思決定管理固有：
+
    * activities.read
    * offers.read
    * placements.read
-   * ranking_strategy を参照してください。
+   * ranking_strategy.read
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * schemas.read
    * segment.read
    * datasets.read
    * datasets.write
    * datasets.delete
 
-### [!DNL Publish offers decisioning] 許可 {#publish-decisions}
+### [!DNL Publish offers decisioning] 権限 {#publish-decisions}
 
-高レベルの権限を使用すると、ユーザーは提示された **[!DNL Publish offers decisioning]** 利用状況にアクセスすることができます。
+「**[!DNL Publish offers decisioning]**」という高レベルの権限を持つユーザーは、オファーアクティビティを承認／未承認するアクセス権を持ちます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 意思決定管理に関する具体的な事項:
-   * offers_activity を参照してください。
+* 意思決定管理固有：
+
+   * offers_activity.read
    * offers.read
    * offers.write
    * offers.delete
    * placements.read
    * placements.write
    * placements.delete
-   * ranking_strategy を参照してください。
+   * ranking_strategy.read
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * schemas.read
    * segment.read
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] 許可 {#manage-ranking-strategies}
+### [!DNL Manage ranking strategies] 権限 {#manage-ranking-strategies}
 
-高レベルの権限を使用すると、 **[!DNL Manage ranking strategies]** ユーザーはランク付け方針を読み取り、作成、編集、削除することができます。
+この「**[!DNL Manage ranking strategies]**」という高レベル権限を持つユーザーは、ランキング戦略の読み取り、作成、編集、削除を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 意思決定管理に関する具体的な事項:
-   * ranking_strategy を参照してください。
-   * ranking_strategy の作成
-   * ranking_strategy を削除します。
+* 意思決定管理固有：
+
+   * ranking_strategy.read
+   * ranking_strategy.write
+   * ranking_strategy.delete
    * activities.read
    * offers.read
    * placements.read
 
 ## 管理機能 {#administration-permissions}
 
-### [!DNL Manage subdomains delegation] 許可 {#manage-subdomain}
+### [!DNL Manage subdomains delegation] 権限 {#manage-subdomain}
 
-高レベルの権限を使用すると、 **[!DNL Manage subdomains delegation]** ユーザーはサブドメインを作成、編集、削除できます。この機能を使用して IP プールを作成することもできます。
+「**[!DNL Manage subdomains delegation]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* subdomains_delegation を参照してください。
-* subdomains_delegation の作成
-* subdomains_delegation を削除します。
+* subdomains_delegation.read
+* subdomains_delegation.write
+* subdomains_delegation.delete
 
-### [!DNL Manage PTR records] 許可 {#manage-ptr}
+### [!DNL Manage PTR records] 権限 {#manage-ptr}
 
-高レベルの **[!DNL Manage PTR records]** アクセス許可によって、ユーザーは、サブドメインに基づいて構成されている PTR レコードを読み取り、編集することができます。
+「**[!DNL Manage PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* PTR_records を参照してください。
-* PTR_records の作成
-* subdomains_delegation を参照してください。
+* PTR_records.read
+* PTR_records.write
+* subdomains_delegation.read
 
-### [!DNL View PTR records] 許可 {#view-ptr}
+### [!DNL View PTR records] 権限 {#view-ptr}
 
-高レベルの **[!DNL View PTR records]** 権限を使用すると、サブドメインに基づいて設定されている PTR レコードを表示できます。
+「**[!DNL View PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* PTR_records を参照してください。
-* subdomains_delegation を参照してください。
+* PTR_records.read
+* subdomains_delegation.read
 
-### [!DNL Manage IP pools] 許可 {#manage-ip-pools}
+### [!DNL Manage IP pools] 権限 {#manage-ip-pools}
 
-高レベルの権限を **[!DNL Manage IP pools]** 使用すると、ユーザーはアフィニティ定義を作成、編集、および削除することができます。
+「**[!DNL Manage IP pools]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* IP_pools を参照してください。
-* IP_pools の作成
-* IP_pools を削除します。
+* IP_pools.read
+* IP_pools.write
+* IP_pools.delete
 
 <!--
 ### [!DNL Manage messages general settings] permission {#manage-message-settings}
@@ -275,99 +280,99 @@ It includes the following low-level permissions:
   * schemas.read
 -->
 
-### [!DNL Manage channel surface] 許可 {#manage-channel-surface}
+### [!DNL Manage channel surface] 権限 {#manage-channel-surface}
 
-高レベルの権限を使用すると、 **[!DNL Manage channel surface]** ユーザーは、チャネル間でサンドボックスレベルのチャンネルを作成、編集、削除することができます。
+「**[!DNL Manage channel surface]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの作成、編集および削除をサンドボックスレベルで行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * messages_presets を参照してください。
-   * messages_presets の作成
-   * messages_presets を削除します。
-   * subdomains_delegation を参照してください。
-   * IP_pools を参照してください。
-   * mobile_setting (Adobe エクスペリエンスプラットフォームの起動から)
+* Journey Optimizer 固有：
+   * messages_presets.read
+   * messages_presets.write
+   * messages_presets.delete
+   * subdomains_delegation.read
+   * IP_pools.read
+   * mobile_setting.read（Adobe Experience Platform Launch から）
 
-### [!DNL View channel surface] 許可 {#view-channel-surface}
+### [!DNL View channel surface] 権限 {#view-channel-surface}
 
-高レベルの権限を使用すると、ユーザーはチャンネルサーフェスを表示して **[!DNL View channel surface]** 、どのチャンネルサーフェスを使用するかを確認することができます。
+「**[!DNL View channel surface]**」という高レベルの権限を持つユーザーは、どのチャネルサーフェスを使用すればよいかを把握するために、チャネルサーフェスを表示できます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* messages_presets を参照してください。
-* subdomains_delegation を参照してください。
-* IP_pools を参照してください。
-* mobile_setting ます (Adobe エクスペリエンスプラットフォームデータコレクションからの読み取り)。
+* messages_presets.read
+* subdomains_delegation.read
+* IP_pools.read
+* mobile_setting.read（Adobe Experience Platform データ収集から）
 
-### [!DNL Manage suppression] 許可 {#manage-suppression}
+### [!DNL Manage suppression] 権限 {#manage-suppression}
 
-高レベルの権限を **[!DNL Manage suppression]** 使用すると、抑制リストに電子メールアドレスを追加する前に、ユーザーがバウンスの回数を定義することができます。また、抑制リストとの間でエントリを追加したり削除したりすることもできます。
+**[!DNL Manage suppression]** 高レベル権限を持つユーザーは、メールアドレスが抑制リストに追加されるまでのバウンス数を定義できるほか、抑制リストに対するエントリの追加や削除も行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* suppression_rules を参照してください。
-* suppression_rules の作成
-* suppression_rules を削除します。
-* suppression_list の作成
-* suppression_list を削除します。
+* suppression_rules.read
+* suppression_rules.write
+* suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
-### [!DNL View suppression list] 許可 {#view-suppression-list}
+### [!DNL View suppression list] 権限 {#view-suppression-list}
 
-高レベルの **[!DNL View suppression list]** 権限を使用すると、抑制リストのコンテンツと設定を表示することができます。
+**[!DNL View suppression list]** 高レベル権限を持つユーザーは、抑制リストの内容と設定を表示できます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * suppression_list を表示します。
+* Journey Optimizer 固有：
+   * suppression_list.view
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read
 
-### [!DNL Export suppression list] 許可 {#export-suppression-list}
+### [!DNL Export suppression list] 権限 {#export-suppression-list}
 
-高レベルのアクセス許可に **[!DNL Export suppression list]** よって、ユーザーは抑制リストを CSV ファイルとしてダウンロードできます。
+**[!DNL Export suppression list]** 高レベル権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * suppression_list 書き出し
+* Journey Optimizer 固有：
+   * suppression_list.export
 
-* Adobe エクスペリエンスプラットフォーム特有の機能:
+* Adobe Experience Platform 固有：
    * profiles.read
    * datasets.read
 
-### [!DNL Manage landing page settings] 許可 {#manage-landing-page-settings}
+### [!DNL Manage landing page settings] 権限 {#manage-landing-page-settings}
 
-高レベルの権限を使用すると、ユーザーは、ランディングページのサブドメインと事前設定の **[!DNL Manage landing page settings]** 設定を読み取り、作成、編集することができます。
+「**[!DNL Manage landing page settings]**」という高レベルの権限を持つユーザーは、ランディングページのサブドメインとプリセット設定の読み取り、作成および編集を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * landing_page_subdomain を参照してください。
-   * landing_page_subdomain の作成
-   * landing_page_subdomain を削除します。
-   * landing_page_preset を参照してください。
-   * landing_page_preset の作成
-   * landing_page_preset を削除します。
+* Journey Optimizer 固有：
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete
 
-### [!DNL Manage frequency rules] 許可 {#manage-frequency-rules}
+### [!DNL Manage frequency rules] 権限 {#manage-frequency-rules}
 
-高レベルの権限を使用すると、頻度ルールの **[!DNL Manage frequency rules]** 読み取り、作成、編集、削除、アクティブ化、非アクティブ化を行うことができます。
+**[!DNL Manage frequency rules]** 高レベル権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化／非アクティブ化を行うことができます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * frequency_rules を参照してください。
-   * frequency_rules の作成
-   * frequency_rules を削除します。
+* Journey Optimizer 固有：
+   * frequency_rules.read
+   * frequency_rules.write
+   * frequency_rules.delete
 
-### [!DNL View frequency rules] 許可 {#view-frequency-rules}
+### [!DNL View frequency rules] 権限 {#view-frequency-rules}
 
-高レベルの権限を使用すると、 **[!DNL View frequency rules]** ユーザーは頻度ルールを表示することができます。
+**[!DNL View frequency rules]** 高レベル権限を持つユーザーは、頻度ルールを表示できます。
 
-このファイルには、次の下位レベルの権限が含まれています。
+これには、次の低レベル権限が含まれます。
 
-* 次のような旅のオプティマイザー:
-   * frequency_rules を参照してください。
+* Journey Optimizer 固有：
+   * frequency_rules.read

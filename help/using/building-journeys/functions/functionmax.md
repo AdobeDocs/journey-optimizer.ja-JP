@@ -1,27 +1,27 @@
 ---
 product: journey optimizer
-title: 最大
-description: 関数の最大値について説明します。
+title: max
+description: max 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 100%
 
 ---
 
-# 最大{#max}
+# max{#max}
 
-指定された式のセット間での最大値を返します。この関数は、list または two という式を使用しています。 Null 値は無視されます。
+リストまたは 2 つの式として指定された一連の式の中から最大値を返します。null 値は無視されます。
 
-## 項目
+## カテゴリ
 
-総計
+集計
 
-## 関数のシンタックス
+## 関数の構文
 
 `max(<parameter>)`
 
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 * listDuration
 * listInteger
-* リスト10進数
+* listDecimal
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* 持続
+* 期間
 * 整数
-* 形式
-* dateTime
-* dateTimeOnly
+* 小数
+* 日時
+* 日時のみ
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `max(<listDuration>)`
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 `max(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに日付時刻を返します。
+タイムゾーンを無視して日時を返します。
 
 `max(<listDateTime>)`
 
-Datetime を返します。
+日時を返します。
 
 `max(<listDateOnly>)`
 
@@ -63,11 +63,11 @@ Datetime を返します。
 
 `max(<listDecimal>)`
 
-10進数を返します。
+小数を返します。
 
 `max(<decimal>,<decimal>)`
 
-10進数を返します。
+小数を返します。
 
 `max(<duration>,<duration>)`
 
@@ -75,15 +75,15 @@ Datetime を返します。
 
 `max(<dateTime>,<dateTime>)`
 
-Datetime を返します。
+日時を返します。
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-タイムゾーンを考慮せずに日付時刻を返します。
+タイムゾーンを無視して日時を返します。
 
 `max(<integer>,<integer>)`
 
-整数値を返します。
+整数を返します。
 
 ## 例
 
@@ -91,8 +91,8 @@ Datetime を返します。
 
 `max([10,3,8])`
 
-10を返します。
+10 を返します。
 
 `max([10,null,8])`
 
-10を返します。
+10 を返します。

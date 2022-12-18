@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: カスタムアクションの使用
-description: カスタムアクションの使用方法について説明します。
+description: カスタムアクションの使用方法を説明します
 feature: Actions
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -20,57 +20,57 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
 >title="カスタムアクション"
->abstract="カスタムアクションを使用すると、メッセージまたは API 呼び出しを送信するようにサードパーティシステムの接続を設定することができます。 その他の任意の API を使用して、JSON 形式のペイロードを含むすべてのサービスを使用して、アクションを設定することができます。"
+>abstract="カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。"
 
-カスタムアクションを使用すると、メッセージまたは API 呼び出しを送信するようにサードパーティシステムの接続を設定することができます。 その他の任意の API を使用して、JSON 形式のペイロードを含むすべてのサービスを使用して、アクションを設定することができます。
+カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
 
-## 同意およびデータガバナンス {#privacy}
+## 同意とデータガバナンス {#privacy}
 
-このような場合、カスタムアクションにはデータガバナンスと同意ポリシーを適用して、特定のフィールドをサードパーティシステムに書き出さないようにすることや、電子メールの受信を consented にしていないユーザーを除外することができます。 詳しくは、次のページを参照してください。
+Journey Optimizer では、カスタムアクションにデータガバナンスポリシーと同意ポリシーを適用して、特定のフィールドがサードパーティシステムにエクスポートされないようにしたり、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外したりできます。詳しくは、次のページを参照してください。
 
-* [データガバナンス ](../action/action-privacy.md)
-* [同意 ](../action/consent.md) を得ることができます。
+* [データガバナンス](../action/action-privacy.md)。
+* [同意](../action/consent.md)。
 
-## URL の設定
+## URL 設定
 
-カスタムアクション **アクティビティの** 設定ペインには、そのカスタムアクション用に設定されている URL 設定パラメーターと認証パラメーターが表示されます。このような場合は、カスタムアクションのグローバル設定において、その過程で URL の静的な部分を設定することはできません。 [詳しく ](../action/about-custom-action-configuration.md) は、こちらを参照してください。
+**カスタムアクション**&#x200B;アクティビティの設定ペインには、URL 設定パラメーターと、カスタムアクション用に設定された認証パラメーターが表示されます。ジャーニーでは URL の静的な部分を設定できませんが、カスタムアクションのグローバル設定では設定できます。[詳細情報](../action/about-custom-action-configuration.md)。
 
 ### 動的パス
 
-URL に動的パスが含まれている場合は、フィールド内で **[!UICONTROL Path]** パスを指定します。
+URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フィールドでパスを指定します。
 
-フィールドとプレーンテキスト文字列を連結するには、高度な式エディターの String 関数または正符号 (+) を使用します。 プレーンテキスト文字列は一重引用符 (&#39;) または二重引用符 (&quot;) で囲みます。 [詳しく ](expression/expressionadvanced.md) は、こちらを参照してください。
+フィールドとプレーンテキスト文字列を連結するには、高度な式エディターで文字列関数またはプラス記号（+）を使用します。プレーンテキスト文字列を一重引用符（&#39;）または二重引用符（&quot;）で囲みます。[詳細情報](expression/expressionadvanced.md)。
 
-次の表は、設定の例を示しています。
+この表は、設定の例を示しています
 
-| 名 | 数値 |
+| フィールド | 値 |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | パス | `The id of marketingCampaign + '/messages'` |
 
-連結された URL は、次のような形式になります。
+連結された URL の形式は次のとおりです。
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id\=&quot;&quot;>`/messages`&lt;/campaign>
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;キャンペーン ID\>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
 ### ヘッダー
 
-このセクションに **[!UICONTROL URL Configuration]** は、定数ヘッダフィールドは表示されません。 動的ヘッダーフィールドは、値が変数として設定された HTTP ヘッダーフィールドです。 [詳しく ](../action/about-custom-action-configuration.md) は、こちらを参照してください。
+「**[!UICONTROL URL 設定]**」セクションには、動的ヘッダーフィールドが表示されますが、定数ヘッダーフィールドは表示されません。動的ヘッダーフィールドは、値が変数として設定される HTTP ヘッダーフィールドです。[詳細情報](../action/about-custom-action-configuration.md)。
 
-必要に応じて、動的ヘッダフィールドの値を指定します。
+必要に応じて、動的ヘッダーフィールドの値を指定します。
 
-1. フライト中にカスタムアクションを選択します。
-1. コンフィギュレーションペインで、セクションのヘッダフィールド **[!UICONTROL URL Configuration]** の横にある鉛筆アイコンをクリックします。
+1. ジャーニーのカスタムアクションを選択します。
+1. 設定ペインで、「**[!UICONTROL URL 設定]**」セクションのヘッダーフィールドの横にある鉛筆アイコンをクリックします。
 
    ![](assets/journey-dynamicheaderfield.png)
 
-1. フィールドを選択し、をクリック **[!UICONTROL OK]** します。
+1. フィールドを選択し、「**[!UICONTROL OK]**」をクリックします。
 
 ## アクションパラメーター
 
-**[!UICONTROL Action parameters]**&#x200B;セクションには、&quot;Variable&quot; _とし_ て定義されたメッセージパラメーターが表示されます。このようなパラメーターについては、この情報を取得する場所 (イベント、データソースなど) を定義することも、手動で値を渡したり、高度な使用例については高度な式エディターを使用することもできます。 高度な使用方法には、データ操作などの関数を使用できます。 この [ ページ ](expression/expressionadvanced.md) を参照してください。
+「**[!UICONTROL アクションパラメーター]**」セクションには、_「変数」_&#x200B;として定義されたメッセージパラメーターが表示されます。これらのパラメーターについては、この情報の取得先（例：イベント、データソース）を定義したり、値を手動で渡したり、高度なユースケースに高度な式エディターを使用したりできます。高度なユースケースとしては、データ操作などの関数の使用が考えられます。この[ページ](expression/expressionadvanced.md)を参照してください。
 
 **関連トピック**
 
-[アクションを設定します。](../action/about-custom-action-configuration.md)
+[アクションの設定](../action/about-custom-action-configuration.md)

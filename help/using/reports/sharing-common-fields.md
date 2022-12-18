@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journeysteps イベントコモンフィールド
-description: journeysteps イベントコモンフィールド
+title: journeySteps イベントの共通フィールド
+description: journeySteps イベントの共通フィールド
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,199 +10,199 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 0%
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
-# journeysteps イベントコモンフィールド {#sharing-common-fields}
+# journeySteps イベントの共通フィールド {#sharing-common-fields}
 
-このフィールドグループは journeyStepEvent および journeyStepProfileEvent によって共有されます。
+このフィールドグループは、journeyStepEvent と journeyStepProfileEvent が共有します。
 
-Adobe エクスペリエンスプラットフォームに送信される [!DNL Journey Optimizer] 一般的な XDM のフィールドを次に示します。 1つのステップで処理される一般的なフィールドが送信されます。 カスタムアクションおよび enrichments については、より具体的なフィールドを使用することができます。
+[!DNL Journey Optimizer] が Adobe Experience Platform に送信する一般的な XDM フィールドです。共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
-一部のフィールドは特定の処理パターンでのみ使用できます (アクションの実行、データのフェッチなど)。 を指定すると、イベントのサイズが制限されます。
+イベントのサイズを制限するため、これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。
 
-## アピール {#entrance-field}
+## エントリ {#entrance-field}
 
-ユーザーが旅に出たかどうかを示します。 この値が指定されていない場合は、値 false が返されます。
+ユーザーがジャーニーにエントリしたかどうかを示します。存在しない場合、値は false とみなします。
 
-種類: ブール値
+型：ブール型
 
-値: true/false
+値：true/false
 
-## 再入り口 {#reentrance-field}
+## 再エントリ {#reentrance-field}
 
-ユーザーが同じインスタンスを使用して、旅を再度操作したかどうかを示します。 この値が指定されていない場合は、値 false が返されます。
+ユーザーが同じインスタンスでジャーニーに再度エントリしたかどうかを示します。存在しない場合、値は false とみなします。
 
-種類: ブール値
+型：ブール型
 
-値: true/false
+値：true/false
 
 ## instanceEnded {#instance-ended-field}
 
-インスタンスが終了 (成功または失敗) したかどうかを示します。
+インスタンスが終了したかどうか（成功または失敗）を示します。
 
-種類: ブール値
+型：ブール型
 
-## Id {#eventid-field}
+## eventID {#eventid-field}
 
-ステップ処理で使用するイベント id。 イベントが外部イベントの場合、値は eventId になります。 内部イベントの場合は、内部イベント Id (scheduledNotificationReceived、executedAction など) を指定します。
+ステップ処理など、処理中のイベント ID。イベントが外部イベントの場合、値は eventId です。イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedActionなど）です。
 
-タイプ: string
+型：文字列
 
 ## nodeID {#nodeid-field}
 
-クライアントノード id (canvas)。
+（キャンバスから得られる）クライアントノード ID。
 
-タイプ: string
+型：文字列
 
 ## stepID {#stepdid-field}
 
-現在処理されているステップの一意の id です。
+現在処理中のステップを表す一意の ID です。
 
-タイプ: string
+型：文字列
 
 ## stepName {#stepname-field}
 
-現在処理されているステップの名前を指定します。
+現在処理中のステップの名前。
 
-タイプ: string
+型：文字列
 
 ## stepType {#steptype-field}
 
-ステップの種類です。
+ステップのタイプ。
 
-タイプ: string
+型：文字列
 
-指定可能な値:
+使用可能な値：
 
 * 条件
 * アクション
-* 組む
-* 時間
+* スケジューラー
+* タイマー
 
 ## stepStatus {#stepstatus-field}
 
-ステップの状態で、ステップの状態、処理が終了した時点、ステップのイベントが発生したことを示します。
+処理が完了（およびステップイベントが実行された）ときの、ステップのステータス。
 
-タイプ: string
+型：文字列
 
-状態は以下のようになります。
+ステータスには次の種類があります。
 
-* 終了: ステップは遷移せず、処理が正常に終了しました。
-* エラー: ステップ処理でエラーが発生しました。
-* 遷移: ステップは、イベントが別のステップに遷移するのを待機しています。
-* 上限: ステップは、アクションの実行中または enrichment 中に発生した、上限エラーに失敗しました。
-* timedout: ステップがタイムアウトエラーに失敗しました。操作または enrichment の実行中に発生します。
-* instanceTimedout: インスタンスがタイムアウトに達したので、ステップは処理を停止しました。
+* ended：ステップにトランジションがなく、正常に処理が終了しました。
+* error：ステップ処理でエラーが発生しました。
+* transitions：ステップは、別のステップへトランジションするイベントの待機中です。
+* capped：操作またはエンリッチメント中にキャッピングエラーが発生し、ステップが失敗しました。
+* timedout：ステップは、アクションまたはエンリッチメント中に発生したタイムアウトエラーで失敗しました。
+* instanceTimedout：インスタンスがタイムアウトに到達したので、ステップの処理が停止しました。
 
 ## journeyID {#journeyid-field}
 
-旅の ID です。
+ジャーニー ID。
 
-タイプ: string
+型：文字列
 
 ## journeyVersionID {#journeyversionid-field}
 
-旅のバージョンの ID です。 この id は、journeyStepEvent を参照している場合の、旅への id リファレンスを表しています。
+ジャーニーバージョンの ID。この ID は、journeyStepEvent においてジャーニーを参照する ID です。
 
-タイプ: string
+型：文字列
 
 ## journeyVersionName {#journeyversionname-field}
 
-旅のバージョンの名前を指定します。
+ジャーニーバージョンの名前。
 
-タイプ: string
+型：文字列
 
 ## journeyVersion {#journeyversion-field}
 
-旅バージョンのバージョンです。
+ジャーニーのバージョン。
 
-タイプ: string
+型：文字列
 
-## インスタンス {#instanceid-field}
+## instanceID {#instanceid-field}
 
-旅インスタンスの内部 ID です。
+ジャーニーインスタンスの内部 ID。
 
-タイプ: string
+型：文字列
 
 ## externalKey {#externalkey-field}
 
-外部キーがイベントから抽出され、それが処理されます。
+イベントから抽出された外部キーを処理します。
 
-タイプ: string
+型：文字列
 
 ## parentStepID {#parenstepid-field}
 
-インスタンス内の現在処理されているステップの親のステップ ID です。
+インスタンス内で現在処理されているステップの親ステップ ID。
 
-タイプ: string
+型：文字列
 
 ## parentStepName {#parentstepname-field}
 
-現在のステップの親のステップ名。
+現在のステップの親ステップ名。
 
-タイプ: string
+型：文字列
 
-## Parentの遷移の Id {#parenttransitionid-field}
+## parentTransitionID {#parenttransitionid-field}
 
-処理されたステップのインスタンスになる遷移の Id。
+処理済みのステップにインスタンスを導いたトランジションの ID。
 
-タイプ: string
+型：文字列
 
-## Parent遷移 Tionname {#parenttransitionname-field}
+## parentTransitionName {#parenttransitionname-field}
 
-処理されたステップのインスタンスになる遷移の名前。
+インスタンスを処理済みのステップに導いたトランジションの名前。
 
-タイプ: string
+型：文字列
 
 ## inTest {#intest-field}
 
-この旅がテストモードになっているかどうかを示します。
+このジャーニーがテストモードになっているかどうかを示します。
 
-種類: ブール値
+型：ブール型
 
 ## processingTime {#processingtime-field}
 
-インスタンスステップの開始から処理の終わりまでの経過時間の合計 (ミリ秒) です。
+インスタンスステップのエントリから処理の終了までの合計時間（ミリ秒）です。
 
-タイプ: long
+型：long
 
-## Instance.instancetype {#instancetype-field}
+## instanceType {#instancetype-field}
 
-バッチまたはユニタリの場合は、インスタンスの種類を示します。
+インスタンスの種類（バッチまたは単一の場合）を示します。
 
-タイプ: string
+型：文字列
 
-値: batch/ユニタリ
+値：バッチ／単一
 
 ## recurrenceIndex {#recurrenceindex-field}
 
-連続していない場合は、定期的なアイテムのインデックス (最初の実行が recurrenceIndex = 1)
+ジャーニーがバッチおよび定期的な場合の繰り返しのインデックス（最初の実行はrecurrenceIndex = 1）。
 
-タイプ: long
+型：long
 
 ## isBatchToUnitary {#isbatchtounitary-field}
 
-このユニタリインスタンスがバッチインスタンスからトリガーされたかどうかを示します。
+この単一インスタンスがバッチインスタンスからトリガーされたかどうかを示します。
 
-種類: ブール値
+型：ブール型
 
 ## batchExternalKey {#batchexternalkey-field}
 
-Batch イベントの外部キー。
+バッチイベントの外部キー。
 
-タイプ: string
+型：文字列
 
 ## batchInstanceID {#batchinstanceid-field}
 
 これは、バッチインスタンス ID です。
 
-タイプ: string
+型：文字列
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
-インスタンスがバッチインスタンスからトリガーされている場合は、ユニタリブランチ ID です。
+インスタンスがバッチインスタンスからトリガーされた場合は、単一の分岐 ID。
 
-タイプ: string
+型：文字列

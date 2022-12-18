@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コレクション管理関数
-description: コレクション管理関数のデータ型について説明します。
+description: コレクション管理関数のデータタイプについて説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 100%
 
 ---
 
 # コレクション管理関数 {#collection-management-functions}
 
-また、エクスプレッション言語では、コレクションにクエリを実行する関数のセットが導入されています。
+また、式言語にも、コレクションをクエリするための一連の関数が導入されています。
 
-これらの関数について以下に説明します。 次の例では、コレクションを含むイベントペイロードを使用してみます。
+これらの関数について以下で説明します。次の例では、コレクションを含んだイベントペイロードを使用します。
 
 ```json
                 { 
@@ -60,31 +60,31 @@ ht-degree: 0%
 }
 ```
 
-**この関数は、「all ( `<condition>` )」となります。**
+**関数「all(`<condition>`)」**
 
-**[!UICONTROL all]**&#x200B;この関数を使用すると、ブール式を使用して、特定のコレクションに対するフィルターの定義を有効にすることができます。
+この **[!UICONTROL all]** 関数では、ブール式を使用して指定のコレクションに対するフィルターを定義することができます。
 
 ```json
 <listExpression>.all(<condition>)
 ```
 
-例えば、すべてのアプリケーションユーザーは、IOS 13 (「使用するアプリケーション = = IOS 13」) を使用してアプリケーションユーザーを取得することができます。 この関数の結果は、ブール式 (例: アプリケーションユーザー1、アプリケーションユーザー34、アプリユーザー 432) と一致する項目を含む、フィルター処理されたリストです。
+例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
-データソースの条件アクティビティーでは、 **[!UICONTROL all]** 関数の結果が null かどうかを確認できます。 この **[!UICONTROL all]** 関数は、など **[!UICONTROL count]** 、他の関数と組み合わせることもできます。 詳しくは、データソースの条件アクティビティー ](../condition-activity.md#data_source_condition) を参照してください [ 。
+「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
 
-**例 1:**
+**例 1：**
 
-特定のバージョンのアプリケーションがユーザーによってインストールされているかどうかを確認する必要があります。 このため、バージョンが1.0 であるモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。次に、関数を使用 **[!UICONTROL count]** して、返されたトークンのリストに1つ以上のエレメントが含まれていることを確認するための条件を実行します。
+ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。この目的のために、バージョンが 1.0 のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。その後、**[!UICONTROL count]** 関数で条件分けをして、返されたトークンリストに少なくとも 1 つの要素が含まれているかどうかを確認します。
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
-結果は true になります。
+結果は true です。
 
-**例 2:**
+**例 2：**
 
-ここでは、 **[!UICONTROL count]** この関数を使用して、コレクション内にプッシュ通知トークンがあるかどうかをチェックします。
+ここでは、 **[!UICONTROL count]** 関数を使用して、コレクションにプッシュ通知トークンがあるかどうかを確認します。
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -117,18 +117,18 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->All () **関数のフィルター条件** が空の場合、フィルターはリスト内のすべてのエレメントを返します。**ただし、1つのコレクションのエレメント数を数えるには、all 関数は必要ありません。**
+>**all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。**ただし、コレクションの要素数をカウントするためには、all 関数は不要です。**
 
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-式の結果は 3 **に** なります。
+式の結果は **3** です。
 
-**例 3:**
+**例 3：**
 
-ここでは、過去24時間以内に通信がまったく受信されなかったかどうかを確認します。 ExperiencePlatform データソースから取得された経験イベントのコレクションにフィルターを適用して、2つの式がコレクションの2つの要素に基づいています。 特に、イベントのタイムスタンプは、この関数によって **[!UICONTROL nowWithDelta]** 返される dateTime と比較されます。
+ここでは、個人が過去 24 時間以内に連絡を受け取っていないかどうかを確認します。ExperiencePlatform データソースから取得したエクスペリエンスイベントのコレクションを、コレクションの 2 つの要素に基づく 2 つの式を使用してフィルタリングします。特に、イベントのタイムスタンプを、**[!UICONTROL nowWithDelta]** 関数から返される日時と比較します。
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -136,11 +136,11 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
-この2つの条件に一致するエクスペリエンスイベントがない場合は、結果が true になります。
+2 つの条件に一致するエクスペリエンスイベントがない場合、結果は true になります。
 
-**例 4:**
+**例 4：**
 
-次の例では、各ユーザーが前にリリースされた7日間に、少なくとも1回はアプリケーションで起動されているかどうかをチェックしています。これにより、インスタンスに対して、チュートリアルの開始を要請するプッシュ通知がトリガーされます。
+ここでは、個人が過去 7 日間に少なくとも 1 回アプリケーションを起動したかどうかを確認します。例えば、チュートリアルを開始するよう招待するプッシュ通知をトリガーするためです。
 
 ```json
 count(
@@ -168,71 +168,72 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** イベントコレクションおよび **currentDataPackField を操作する場合にのみ使用できます。**
->データソースコレクションを操作する場合。 でコレクション **[!UICONTROL all]** を **[!UICONTROL first]** **[!UICONTROL last]** 処理する場合、
->コレクションの各エレメントを1つずつループします。 **[!UICONTROL currentEventField]****currentDataPackField**
->ループの対象となるエレメントに対応しています。
+>**[!UICONTROL currentEventField]** は、イベントコレクションの操作時にのみ使用でき、**currentDataPackField** は、
+>データソースコレクションの操作時にのみ使用できます。**[!UICONTROL all]**、**[!UICONTROL first]** および **[!UICONTROL last]** を使用してコレクションを処理する場合は、
+>コレクションの各要素を 1 つずつループ処理します。**[!UICONTROL currentEventField]** と **currentDataPackField** は、
+>ループ処理する要素に対応します。
 
-**関数「first ( `<condition>` )」と「last」 ( `<condition>` )**
+**関数「first(`<condition>`)」と「last(`<condition>`)」**
 
-および関数を使用すると **[!UICONTROL last]** 、コレクション上のフィルターの定義も可能になります。また、 **[!UICONTROL first]** リストの先頭または最後にある、フィルターに一致するエレメントが返されます。
+**[!UICONTROL first]** 関数と **[!UICONTROL last]** 関数では、コレクションのフィルターを定義できる一方、フィルター条件を満たすリストの最初または最後の要素を返すこともできます。
 
 _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**例 1:**
+**例 1：**
 
-この式は、バージョンが1.0 であるモバイルアプリケーションに関連付けられた最初のプッシュ通知トークンを返します。
+この式は、バージョンが 1.0 のモバイルアプリケーションに関連付けられた最初のプッシュ通知トークンを返します。
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
-結果は &quot;token_1&quot; になります。
+結果は「token_1」です。
 
-**例 2:**
+**例 2：**
 
-この式は、バージョンが1.0 のモバイルアプリケーションに関連付けられた、最後のプッシュ通知トークンを返します。
+この式は、バージョンが 1.0 のモバイルアプリケーションに関連付けられた最後のプッシュ通知トークンを返します。
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
 ```
 
-結果は &quot;token_2&quot; になります。
+結果は「token_2」です。
 
 >[!NOTE]
 >
->経験イベントは、Adobe エクスペリエンスプラットフォームから日付順にコレクションとして取得されます。
+>エクスペリエンスイベントは、Adobe Experience Platform からコレクションとして新しい順に取得されます。したがって、次のようになります。
 >
->* **[!UICONTROL first]** 関数は最新のイベントを返します。
->* **[!UICONTROL last]** 関数は、最も古いものを返します。
+>* **[!UICONTROL first]** 関数は、最新のイベントを返します。
+>* **[!UICONTROL last]** 関数は、最も古いイベントを返します。
 
 
-**例 3:**
+**例 3：**
 
-DMA ID に0以外の値が設定されている最初の Adobe アナリティクスイベントの値が602であるかどうかを確認します。
+DMA ID のゼロ以外の値を持つ最初（最新）の Adobe Analytics イベントの値が 602 に等しいかどうかを確認します。
 
 ```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
 currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 ```
 
-**関数 &quot;at ( `<index>` )&quot;**
+**関数「at(`<index>`)」**
 
-**[!UICONTROL at]**&#x200B;この関数を使用して、コレクション内の特定のエレメントをインデックスに基づいて参照することができます。インデックス0がコレクションの最初のインデックスになります。
+**[!UICONTROL at]** 関数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
+インデックス 0 はコレクションの最初のインデックスです。
 
-_`<listExpression>`ます。 at ( `<index>` )_
+_`<listExpression>`.at(`<index>`)_
 
-**一**
+**例：**
 
-この式は、リストの2番目のプッシュ通知トークンを返します。
+この式は、リストの 2 番目のプッシュ通知トークンを返します。
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
-結果は &quot;token_2&quot; になります。
+結果は「token_2」です。
 
 **その他の例**
 

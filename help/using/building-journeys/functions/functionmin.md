@@ -1,27 +1,27 @@
 ---
 product: journey optimizer
-title: 分
-description: Min 関数について説明します。
+title: min
+description: min 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 100%
 
 ---
 
-# 分 {#min}
+# min {#min}
 
-指定された式のセット間での最小値を返します。この関数は、list または two という式を使用することもできます。 Null 値は無視されます。
+リストまたは 2 つの式のいずれかで指定された一連の式の中の最小値を返します。null 値は無視されます。
 
-## 項目
+## カテゴリ
 
-総計
+集計
 
-## 関数のシンタックス
+## 関数の構文
 
 `min(<parameters>)`
 
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 * listDuration
 * listInteger
-* リスト10進数
+* listDecimal
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* 持続
+* 期間
 * 整数
-* 形式
-* dateTime
-* dateTimeOnly
+* 小数
+* 日時
+* 日時のみ
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `min(<listDuration>)`
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 `min(<listDateTimeOnly>)`
 
-タイムゾーンを考慮せずに日付時刻を返します。
+タイムゾーンを無視して日時を返します。
 
 `min(<listDateTime>)`
 
-Datetime を返します。
+日時を返します。
 
 `min(<listDateOnly>)`
 
@@ -63,11 +63,11 @@ Datetime を返します。
 
 `min(<listDecimal>)`
 
-10進数を返します。
+小数を返します。
 
 `min(<decimal>,<decimal>)`
 
-10進数を返します。
+小数を返します。
 
 `min(<duration>,<duration>)`
 
@@ -75,15 +75,15 @@ Datetime を返します。
 
 `min(<dateTime>,<dateTime>)`
 
-Datetime を返します。
+日時を返します。
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-タイムゾーンを考慮せずに日付時刻を返します。
+タイムゾーンを無視して日時を返します。
 
 `min(<integer>,<integer>)`
 
-整数値を返します。
+整数を返します。
 
 ## 例
 
@@ -91,8 +91,8 @@ Datetime を返します。
 
 `min([10,3,8])`
 
-3を返します。
+3 を返します。
 
 `min([10,null,8])`
 
-8を返します。
+「8」を返します。

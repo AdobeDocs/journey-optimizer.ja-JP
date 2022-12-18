@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: フィルタ
-description: 関数フィルターについて説明します。
+title: filter
+description: filter 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,35 +9,35 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
-# フィルタ{#filter}
+# filter{#filter}
 
-指定されたキー値のいずれかと一致するキー属性を持つオブジェクトを持つ listObject を返します。
+指定されたキー値の 1 つに一致するキー属性を持つオブジェクトで構成される listObject（オブジェクトリスト）を返します。
 
 >[!NOTE]
 >
 >ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
-## 項目
+## カテゴリ
 
-一連
+リスト
 
-## 関数のシンタックス
+## 関数の構文
 
 `filter(<parameters>)`
 
 ## パラメーター
 
-| 指定 | 入力 | つい |
+| パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToFilter | listObject | フィルター処理されるオブジェクトのリストです。 フィールドリファレンスを指定する必要があります。 |
-| keyAttributeName | 値 | フィルタリングのキーとして使用される、特定のリストのオブジェクト内の属性名 |
-| keyValueList | 一連 | フィルタリング用のキー値の配列 |
+| listToFilter | listObject（オブジェクトリスト） | フィルタリングの対象となるオブジェクトリスト。 フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | 指定されたリストのオブジェクト内の属性名。フィルタリングのキーとして使用されます |
+| keyValueList | リスト | フィルタリングに使用するキー値の配列 |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `filter(listObject, string, listString)`
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
 `filter(listObject, string, listBoolean)`
 
-ListObject を返します。
+listObject を返します。
 
 ## 例
 
-次の例は、受信イベントに &quot;myevent&quot; として渡されるペイロードを示しています。
+受信イベント「myevent」で渡されるペイロードの例を次に示します。
 
 ```json
 "productListItems": [{
@@ -77,7 +77,7 @@ ListObject を返します。
 }]
 ```
 
-次のエクスプレッションを使用できます。
+次の式を使用できます。
 
 ```json
 filter(
@@ -87,4 +87,4 @@ filter(
 )
 ```
 
-「Product2」および「product3」が指定されている2つのオブジェクトを含む listObject を id として返します。
+「product2」と「product3」を id とする 2 つのオブジェクトから成る listObject を返します。

@@ -1,66 +1,66 @@
 ---
 product: journey optimizer
 title: inSegment
-description: セグメント内の関数について説明します。
+description: inSegment 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 0%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 
 # inSegment {#inSegment}
 
-個別が特定のセグメントに属しているかどうかをチェックします。
+個人が特定のセグメントに属しているかどうかを確認します。
 
 >[!NOTE]
 >
->最大100のセグメントを取得することができます。
+>最大 100 個のセグメントを取得できます。
 
-セグメント名は、ストリング定数である必要があります。 フィールド参照または式を指定することはできません。
+セグメント名は、文字列定数である必要があります。 フィールド参照や式は使用できません。
 
-セグメントは、 [ Adobe エクスペリエンスプラットフォーム ](https://platform.adobe.com/segment/overview) で定義されています。 式エディターには、セグメントの自動完成リストが表示されます。
+セグメントは [Adobe Experience Platform](https://platform.adobe.com/segment/overview) で定義されます。式エディターには、自動入力されたセグメントリストが表示されます。
 
-セグメントには、次の3つの状態があります。
+セグメントには次の 3 つのステータスがあります。
 
-* 既存: エンティティは引き続きセグメント内にあります。
-* これにより、エンティティがセグメントに入ることになります。
-* 終了: エンティティがセグメントから退出されました。
+* 既存：エンティティが引き続きセグメント内に存在します。
+* 実現：エンティティがセグメントにエントリします。
+* 離脱：エンティティがセグメントから離脱します。
 
-実際 **に参加した参加状態と** 既存 **のセグメントに参加しているユーザー** のみが、セグメントのメンバーとして扱われます。セグメントの評価方法について詳しくは、セグメンテーションサービスの [ マニュアル ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results) を参照してください。
+セグメント参加ステータスが&#x200B;**実現**&#x200B;と&#x200B;**既存**&#x200B;の個人のみが、セグメントのメンバーと見なされます。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
-`IF inSegment('segmentName') == true` は、状態が &quot;segmentMembership&quot; であることを意味します。
+`IF inSegment('segmentName') == true` は、セグメントメンバーシップがエントリまたは既存のステータスになっていることを意味します。
 
-`ELSE inSegment('segmentName') == false` は、終了状態が segmentMembership になっていることを意味します。
+`ELSE inSegment('segmentName') == false` は、離脱ステータスのセグメントメンバーシップがあることを意味します。
 
-## 項目
+## カテゴリ
 
-Adobe エクスペリエンスプラットフォーム
+Adobe Experience Platform
 
-## 関数のシンタックス
+## 関数の構文
 
 `inSegment(<parameter>)`
 
 ## パラメーター
 
-| 指定 | つい | 入力 |
+| パラメーター | 説明 | タイプ |
 |--- |--- |--- |
 | セグメント | セグメント名 | `<string>` |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `inSegment(<string>)`
 
 ブール値を返します。
 
-## 一
+## 例
 
 `inSegment("men over 50")`
 
-説明
+説明：
 
-この関数は、旅インスタンスに属するユーザーが、「男性から50」という名前の Adobe エクスペリエンスプラットフォームセグメントの一部である場合は、 **[!UICONTROL false]** この関数を返し **[!UICONTROL true]** ます。
+ジャーニーインスタンス内の個人が「men over 50」という名前の Adobe Experience Platform セグメントに属している場合、この関数は **[!UICONTROL true]** を返します。それ以外の場合は **[!UICONTROL false]** を返します。

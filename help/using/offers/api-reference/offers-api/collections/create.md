@@ -1,6 +1,6 @@
 ---
 title: コレクションの作成
-description: コレクションは、オファーのカテゴリなど、marketer によって定義されている事前に定義された条件に基づいて作成されたオファーのサブセットです。
+description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,37 +9,37 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # コレクションの作成 {#create-collection}
 
-コレクションは、オファーのカテゴリなど、marketer によって定義されている事前に定義された条件に基づいて作成されたオファーのサブセットです。
+コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-コレクションを作成するには、API に対し [!DNL Offer Library] て POST 要求を行い、コンテナ ID を指定します。
+コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行して、コレクションを作成できます。
 
-## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
-| ヘッダー名 | 数値 |
+| ヘッダー名 | 値 |
 | ----------- | ----- |
-| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| コンテンツタイプ | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
-**API フォーマット**
+**API 形式**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| 指定 | つい | 一 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | コレクションが格納されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**要求**
+**リクエスト**
 
 ```shell
 curl -X POST \
@@ -59,9 +59,9 @@ curl -X POST \
     }'
 ```
 
-**対し**
+**応答**
 
-応答が成功した場合は、一意のインスタンス ID や配置 `@id` など、新しく作成されたコレクションについての情報が返されます。 後のステップで、インスタンス ID を使用してコレクションを更新または削除することができます。 以降のチュートリアルでは、一意のコレクション `@id` を使用して、決定を行うことができます。
+正常な応答では、新たに作成されたコレクションに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してコレクションを更新または削除できます。後のチュートリアルで、独自のコレクション`@id` を使用して決定を作成できます。
 
 ```json
 {

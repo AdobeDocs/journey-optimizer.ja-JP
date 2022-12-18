@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: データセットクエリーの例
-description: データセットクエリーの例
+title: データセットクエリの例
+description: データセットクエリの例
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,33 +10,33 @@ level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 0%
+source-wordcount: '818'
+ht-degree: 95%
 
 ---
 
-# データセットユースケース {#tracking-datasets}
+# データセットの使用例 {#tracking-datasets}
 
-このページには、次の Adobe Aioptimizer データセットおよび関連するユースケースのリストが表示されます。
+このページでは、Adobe Journey Optimizer データセットと関連する使用例のリストを示します。
 
-[電子メール追跡体験イベントデータセット ](#email-tracking-experience-event-dataset) メッセージフィードバックイベントデータセット [ ](#message-feedback-event-dataset) プッシュトラッキングエクスペリエンスイベントデータセット [ ](#push-tracking-experience-event-dataset) 道ステップイベント [ ](#journey-step-event) Decisioning イベント ](#ode-decisionevents) [ データセット同意サービスデータセット同意サービスデータ ](#bcc-feedback-event-dataset) ](#consent-service-dataset) [ [ セットお持ちのイベントデータセット [
+[メールトラッキングエクスペリエンスイベントデータセット](#email-tracking-experience-event-dataset)
+[メッセージフィードバックイベントデータセット](#message-feedback-event-dataset)
+[プッシュトラッキングエクスペリエンスイベントデータセット](#push-tracking-experience-event-dataset)
+[ジャーニーステップイベント](#journey-step-event)
+[意思決定イベントデータセット](#ode-decisionevents)
+[同意サービスデータセット](#consent-service-dataset)
+[BCC フィードバックイベントデータセット](#bcc-feedback-event-dataset)
+[エンティティデータセット](#entity-dataset)
 
+## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
 
+_インターフェイスの名前：CJM メールトラッキングエクスペリエンスイベントデータセット_
 
+Journey Optimizer からメールトラッキングエクスペリエンスイベントを取り込むためのシステムデータセット。
 
+関連するスキーマは、CJM メールトラッキングエクスペリエンスイベントスキーマです。
 
-
-](#entity-dataset)
-
-## 電子メール追跡エクスペリエンスイベントデータセット{#email-tracking-experience-event-dataset}
-
-_インターフェイス内の名前: CJM 電子メール追跡体験イベントデータセット_
-
-Ingesting の電子メール追跡エクスペリエンスイベントのシステムデータセット。このようなイベントを、旅オプティマイザーによって発生します。
-
-関連するスキーマは、CJM 電子メール追跡エクスペリエンスイベントスキーマです。
-
-次のクエリーは、指定されたメッセージについて、様々な電子メール操作 (開く、クリック) の数を示します。
+このクエリは、特定のメッセージに対する様々なメールインタラクション数（開封数、クリック数）を表示します。
 
 ```sql
 select
@@ -49,7 +49,7 @@ group by
     _experience.customerJourneyManagement.messageInteraction.interactionType
 ```
 
-このクエリーは、次のようなメッセージによって、電子メールのやり取り (開く、クリック) の回数の内訳を示します。
+このクエリは、特定のジャーニーに関してメッセージ別に、様々なメールのインタラクション（開封数、クリック数）のカウントの分類を表示します。
 
 ```sql
 select
@@ -70,13 +70,13 @@ limit 100;
 
 ## メッセージフィードバックイベントデータセット{#message-feedback-event-dataset}
 
-_インターフェイス内の名前: CJM メッセージフィードバックイベントデータセット_
+_インターフェイスの名前：CJM メッセージフィードバックイベントデータセット_
 
-Ingesting の電子メールのデータセットと、旅のオプティマイザーによるアプリケーションのフィードバックイベントの通知を使用できます。
+メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むデータセット。
 
-関連するスキーマは CJM メッセージフィードバックイベントスキーマです。
+関連するスキーマは、CJM メッセージフィードバックイベントスキーマです。
 
-次のクエリーは、特定のメッセージについて、電子メールのフィードバック状態 (送信、バウンス、その他) の数を示します。
+このクエリは、特定のメッセージに対する様々なメールフィードバックステータス（送信済み、バウンスなど）の数を表示します。
 
 ```sql
 select
@@ -89,7 +89,7 @@ group by
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus;
 ```
 
-このクエリーは、1回のメッセージによって送信された、バウンスされた、またはメッセージによって送信された電子メールの数と、次のような件数の内訳を示します。
+このクエリは、特定のジャーニーに関してメッセージ別に、様々なメールのフィードバックステータス（送信済み、バウンスなど）のカウントの分類を表示します。
 
 ```sql
 select
@@ -108,37 +108,37 @@ order by
 limit 100;
 ```
 
-アグリゲートレベル (トップドメインによってソートされる): ドメイン名、送信されたメッセージ、バウンス
+集計レベルにおけるドメインレベルのレポート（トップドメイン順）：ドメイン名、送信されたメッセージ、バウンス
 
 ```sql
 SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
 ```
 
-電子メールが日常的に送信する場合:
+毎日のメール送信：
 
 ```sql
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-電子メールが届いたかどうかを確認します。そうでない場合は、エラー、バウンスのカテゴリー、コードが次のようになります。
+特定のメール ID がメールを受け取ったかどうか、受け取っていない場合は、エラー、バウンスカテゴリ、コードを調べます。
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
-特定のエラー、バウンスカテゴリーまたは過去1時間またはコードのバウンス、または特定のメッセージ配信に関連付けられていない個別の電子メール id のリストを検索します。
+過去 x 時間/日間に、特定のエラー、バウンスカテゴリまたはコードを持つ、または特定のメッセージ配信に関連する、個々のメール ID のリストを見つけます。
 
 ```sql
 SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
-「アグリゲート」レベルのハードバウンスレート:
+集計レベルでのハードバウンス率：
 
 ```sql
 select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
 ```
 
-バウンスコードでグループ化されている永続的なエラーは以下のとおりです。
+バウンスコード別にグループ化された永続的なエラー：
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
@@ -146,13 +146,13 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 ## プッシュトラッキングエクスペリエンスイベントデータセット {#push-tracking-experience-event-dataset}
 
-_インターフェイス内の名前: CJM プッシュトラッキングエクスペリエンスイベントデータセット_
+_インターフェイスの名前：CJM プッシュトラッキングエクスペリエンスイベントデータセット_
 
-Ingesting mobile 追跡エクスペリエンスイベント用のデータセット。これにより、旅オプティマイザーからプッシュされます。
+Journey Optimizer からプッシュ用のモバイルトラッキングエクスペリエンスイベントを取り込むデータセット。
 
 関連するスキーマは、CJM プッシュトラッキングエクスペリエンスイベントスキーマです。
 
-クエリーの例:
+クエリの例：
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -162,15 +162,15 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-## 旅のステップイベント{#journey-step-event}
+## ジャーニーステップイベント{#journey-step-event}
 
-_内部名: 旅のステップイベント (システムデータセット)_
+_内部名：ジャーニーステップイベント（システムデータセット）_
 
-Ingesting step イベントのデータセット。
+ジャーニーでステップイベントを取り込むデータセット。
 
-関連するスキーマは、旅オーケストレーション用の段階的なステップイベントスキーマです。
+関連するスキーマは、Journey Orchestration のジャーニーのイベントステップイベントです。
 
-このクエリーは、指定された旅のアクションラベルによるアクションの成功数の内訳を表示します。
+このクエリは、特定のジャーニーのアクションラベル別に、アクション成功数の内訳を表示します。
 
 ```sql
 select
@@ -186,7 +186,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-このクエリーは、指定された旅の nodeId &amp; nodeLabel によって、入力されたステップの内訳を示します。 このような nodeId は、ノードの種類によって異なる場合があります。
+このクエリは、特定のジャーニーの nodeId および nodeLabel ごとに、エントリしたステップ数の内訳を表示します。異なるジャーニーノードに対して nodeLabel を同じにできるので、nodeId はここに含まれます。
 
 ```sql
 select
@@ -203,15 +203,15 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Decisioning イベントデータセット{#ode-decisionevents}
+## 意思決定イベントデータセット{#ode-decisionevents}
 
-_インターフェイスの名前: DecisionEvents (システムデータセット)_
+_インターフェイスの名前：ODE DecisionEvents （システムデータセット）_
 
-Ingesting 用のデータセットは、ユーザーに提示されます。
+オファーの提案をユーザーに取り込むデータセット。
 
-関連するスキーマは、「DecisionEvents」になります。
+関連するスキーマは、ODE DecisionEvents です。
 
-このクエリーは、前日に返されたすべてのサービスを表示します。
+このクエリでは、前日に返されたすべてのオファーを表示します。
 
 ```sql
 SELECT date_format(Decision.Timestamp, 'MM/dd/yyyy') as Date
@@ -224,7 +224,7 @@ GROUP BY date_format(Decision.Timestamp, 'MM/dd/yyyy')
 ORDER BY 1, 2 DESC;
 ```
 
-このクエリーには、ある特定のアクティビティ/決定、およびそれに関連付けられた特典について、過去30日間にわたって提供された特典が表示されます。
+このクエリは、特定のアクティビティ／決定において、過去 30 日間にオファーが提案された回数と関連するオファーの優先度を表示します。
 
 ```sql
 select proposedOffers.id,proposedOffers.name, po._experience.decisioning.ranking.priority, count(proposedOffers.id) as ProposedCount from (
@@ -235,13 +235,13 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 
 ## 同意サービスデータセット{#consent-service-dataset}
 
-_インターフェイス内の名前: CJM 同意サービスデータセット (システムデータセット)_
+_インターフェイスの名前：CJM 同意サービスデータセット（システムデータセット）_
 
-「データセット」を使用して、旅オプティマイザーの同意サービスを行います。
+Journey Optimizer 同意サービスのデータセット。
 
-関連するスキーマは、CJM の同意サービススキーマです。
+関連するスキーマは、CJM 同意サービススキーマです。
 
-電子メールの受信に consented が付いている電子メール Id を表示するためのクエリー:
+メールの受信に同意したメール ID をリストするクエリ：
 
 ```sql
 select key as email FROM (
@@ -253,7 +253,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-電子メール id が入力された電子メール ID に対する同意値を返すクエリー:
+メール ID が入力となる場合のメール ID の同意値を返すクエリ：
 
 ```sql
 select value.marketing.email.val FROM (
@@ -265,11 +265,11 @@ select value.marketing.email.val FROM (
 
 ## BCC フィードバックイベントデータセット{#bcc-feedback-event-dataset}
 
-_インターフェイスの名前: AJO BCC フィードバックイベントデータセット (システムデータセット)_
+_インターフェイスの名前：AJO BCC フィードバックイベントデータセット（システムデータセット）_
 
-BCC メッセージの情報を格納するためのデータセット。
+BCC メッセージの情報を保存するデータセット。
 
-次のいずれかの方法で、すべての BCC メッセージについてクエリーを実行します (特定のキャンペーン)。
+2 日以内のすべての BCC メッセージに対するクエリ（特定のキャンペーンの場合）：
 
 ```sql
 SELECT bcc.*
@@ -279,7 +279,7 @@ WHERE
     bcc.timestamp >= now() - INTERVAL '2' day; 
 ```
 
-フィードバックデータセットでクエリーを実行すると、受信されていないユーザー (すべてのバウンスと非表示)、および特定のメッセージに対して BCC エントリを取得したユーザーが表示されます。
+フィードバックデータセットを含むクエリで、受信しなかったユーザー（すべてのバウンスと抑制）と、特定のメッセージに対して BCC エントリを持つユーザーを表示します。
 
 ```sql
 SELECT 
@@ -308,27 +308,27 @@ WHERE
 
 ## エンティティデータセット{#entity-dataset}
 
-_インターフェイスの名前: ajo_entity_dataset (システムデータセット)_
+_インターフェイスでの名前：ajo_entity_dataset（システムデータセット）_
 
-データセットは、エンドユーザーに送信されるメッセージのエンティティメタデータを格納します。
+エンドユーザーに送信されるメッセージのエンティティメタデータを保存するデータセット。
 
-関連するスキーマは AJO Entity Schema です。
+関連するスキーマは AJO エンティティスキーマです。
 
-このデータセットには marketer 定義されたメタデータへのアクセスが許可されています。これにより、外部ツールを使用して、オプティマイザーのオプティマイザーデータセットを書き出したときに、より優れたレポート情報を取得できます。 これは、messageID 属性を使用して、メッセージフィードバックデータセットやエクスペリエンスイベント追跡データセットなどの各種データセットを作成し、プロファイルレベルで送信されたメッセージの配信に関する詳細情報を取得するのに役立ちます。
+このデータセットを使用すると、マーケターが定義したメタデータにアクセスし、外部ツールでレポート視覚化するために Journey Optimizer がデータセットを書き出した際に、レポートに関するより優れたインサイトを得ることができます。messageID 属性を使用することで、メッセージフィードバックデータセットやエクスペリエンスイベントトラッキングデータセットなどの様々なデータセットをつなぎ合わせて、プロファイルレベルでの送信からトラッキングまでのメッセージ配信の詳細を取得することができます。
 
 **重要な注意事項**
 
-* メッセージのエントリは、「旅」または「キャンペーン」が公開された後に作成されます。
+* メッセージのエントリは、ジャーニーまたはキャンペーンが公開された後にのみ作成されます。
 
-* キャンペーンまたは旅が公開されてから30分後にエントリが表示されることがあります。
+* キャンペーン／ジャーニーが公開されてから 30 分後にエントリが表示される場合があります。
 
 >[!NOTE]
 >
->今後、互換性のために、エンティティデータセットの各メッセージ公開について2つのエントリが表示されます。 これにより、必要に応じて結合クエリーを使用して目的の情報を取得することができます。
+>将来の互換性に備え、当面の間、エンティティデータセット内の各メッセージの公開には 2 つのエントリが存在します。このことは、必要に応じてデータセット間で結合クエリを使用して目的の情報を取得する機能には影響しません。
 
-レポートには、送信したアクションに応じて、特定の旅によって送信された電子メールが並べ替えられます。 メッセージフィードバックデータセットは、エンティティデータセットに参加できます。 使用するフィールドは以下のとおりです。 `_experience.decisioning.propositions.scopeDetails.correlationID` `_id field in entity dataset`
+レポート内で、送信したアクションに応じて、特定のジャーニーで送信された E メールを並べ替える場合。 メッセージフィードバックデータセットをエンティティデータセットと結合できます。 使用するフィールドは次のとおりです。 `_experience.decisioning.propositions.scopeDetails.correlationID` および `_id field in entity dataset`.
 
-次のクエリーは、指定されたキャンペーンに関連付けられたメッセージテンプレートを取得するのに役立ちます。
+特定のキャンペーンに関連するメッセージテンプレートを取得するのに役立つクエリは次のとおりです。
 
 ```sql
 SELECT
@@ -338,7 +338,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-次のクエリーを使用すると、すべてのフィードバックイベントに関連付けられた移動の詳細情報と電子メールの件名を取得することができます。
+すべてのフィードバックイベントに関連付けられているジャーニー詳細とメール件名を取得するのに役立つクエリは次のとおりです。
 
 ```sql
 SELECT 
@@ -355,7 +355,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-特定のプロファイルの統計情報を取得するには、次のような旅のステップイベント、メッセージフィードバック、追跡データセットを作成することができます。
+ジャーニーステップイベント、メッセージフィードバックおよびトラッキングデータセットをスティッチして、特定のプロファイルの統計を取得できます。
 
 ```sql
 SELECT 

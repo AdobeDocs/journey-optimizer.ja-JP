@@ -1,47 +1,47 @@
 ---
 product: journey optimizer
-title: 交わる
-description: 関数の intersect について説明します。
+title: intersect
+description: intersect 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 100%
 
 ---
 
-# 交わる{#intersect}
+# intersect{#intersect}
 
-2つの入力リストに含まれる共通の値を返します。 この2つのリストのいずれかが null の場合は、空のリストが返されます。
+2 つの入力リストで共通する値を返します。2 つのリストのいずれかが null の場合、空のリストを返します。
 
-## 項目
+## カテゴリ
 
-一連
+リスト
 
-## 関数のシンタックス
+## 関数の構文
 
 `intersect(<parameters>)`
 
 ## パラメーター
 
-| 指定 | 入力 |
+| パラメーター | タイプ |
 |-----------|------------------|
-| リスト1 | 一連 |
-| リスト2 | 一連 |
+| リスト 1 | リスト |
+| リスト 2 | リスト |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
-`intersect(listString,listString)`: listString
-`intersect(listDecimal,listDecimal)`: listdecimal
-`intersect(listInteger,listInteger)`: listinteger
-`intersect(listDateTime,listDateTime)`: listdatetime
-`intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
-`intersect(listDateOnly,listDateOnly)`: listdateonly
-`intersect(listDuration,listDuration)`: listduration
-`intersect(listBoolean,listBoolean)`: listboolean
+`intersect(listString,listString)`：listString
+`intersect(listDecimal,listDecimal)`：listDecimal
+`intersect(listInteger,listInteger)`：listInteger
+`intersect(listDateTime,listDateTime)`：listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)`：listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)`：listDateOnly
+`intersect(listDuration,listDuration)`：listDuration
+`intersect(listBoolean,listBoolean)`：listBoolean
 
 リストを返します。
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-「スポーツ」、「news」を返します [ 。]
+[&quot;sports&quot;, &quot;news&quot;] を返します。
 
 ```json
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-プロファイル属性と指定されたカテゴリリストとの間で使用される一般的なアイテムを返します。
+プロファイル属性と指定されたカテゴリリストの間の共通項目を返します。
 
 ```json
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-プロファイル属性と指定されたイベントフィールドとの間で使用される一般的なアイテムを返します。
+プロファイル属性と指定されたイベントフィールドの間の共通項目を返します。

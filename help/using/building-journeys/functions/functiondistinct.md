@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
-title: 異なっ
-description: 関数の違いについて学習します。
+title: distinct
+description: distinct 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,34 +9,34 @@ exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
-# 異なっ {#distinct}
+# distinct {#distinct}
 
-指定されたリストの個別の値またはオブジェクトを返します。 Null エントリは無視されます。
+指定されたリストのユニークな値またはオブジェクトを返します。null エントリは無視されます。
 
 >[!NOTE]
 >
 >ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
-## 項目
+## カテゴリ
 
-一連
+リスト
 
-## 関数のシンタックス
+## 関数の構文
 
 `distinct(<parameters>)`
 
 ## パラメーター
 
-| 指定 | 入力 | つい |
+| パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、Liststring、Liststring、Liststring、Liststring、Liststring、listDateTimeOnly、listDateOnly、または listObject | リストが処理されます。 ListObject の場合、フィールド参照である必要があります。 |
-| keyAttributeName | 値 | このパラメーターはオプションであり、listObject に対してのみ使用されます。 このパラメーターを指定しないと、すべての属性の値が同じである場合に、オブジェクトが重複していると見なされます。 それ以外の場合は、指定された属性の値が同じであれば、オブジェクトが重複していると見なされます。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `distinct(<listInteger>)`
 
@@ -44,19 +44,19 @@ ht-degree: 0%
 
 `distinct(<listDecimal>)`
 
-小数点のリストを返します。
+小数のリストを返します。
 
 `distinct(<listString>)`
 
-ストリングのリストを返します。
+文字列のリストを返します。
 
 `distinct(<listDateTimeOnly>)`
 
-Datetimes のリストを返します。この場合、タイムゾーンは考慮しません。
+タイムゾーンを考慮しない日時のリストを返します。
 
 `distinct(<listDateTime>)`
 
-Datetimes のリストを返します。
+日時のリストを返します。
 
 `distinct(<listDateOnly>)`
 
@@ -68,7 +68,7 @@ Datetimes のリストを返します。
 
 `distinct(<listDuration>)`
 
-デュレーションのリストを返します。
+期間のリストを返します。
 
 `distinct(<listObject>)`
 
@@ -81,4 +81,4 @@ Datetimes のリストを返します。
 
 `distinct([10,2,10,null])`
 
-戻り `[10, 2]` ます。
+`[10, 2]` を返します。

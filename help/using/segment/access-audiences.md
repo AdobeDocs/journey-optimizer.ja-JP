@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 対象ユーザーへのアクセスと管理
-description: 対象ユーザーへのアクセスと管理を行う方法について説明します。
+title: オーディエンスへのアクセスと管理
+description: オーディエンスにアクセスして管理する方法を説明します
 feature: Journeys
 topic: Content Management
 role: User
@@ -12,26 +12,26 @@ hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 0%
+source-wordcount: '146'
+ht-degree: 100%
 
 ---
 
-# 対象ユーザーへのアクセスと管理 {#access-manage-audiences}
+# オーディエンスへのアクセスと管理 {#access-manage-audiences}
 
-対象ユーザーには、 **[!UICONTROL Segments]** メニューのタブから **[!UICONTROL Audiences]** アクセスできます。
+オーディエンスは、**[!UICONTROL セグメント]**&#x200B;メニューの「**[!UICONTROL オーディエンス]**」タブからアクセスできます。
 
-このタブには、Adobe エクスペリエンスプラットフォームに保存されているすべての対象ユーザーが一覧表示されます。 参加者によって作成された対象ユーザーは、 **[!UICONTROL Audience composition]** 原点によって識別できます。
+このタブには、Adobe Experience Platform に保存されているすべてのオーディエンスが一覧表示されます。オーディエンスコンポジションを使用して作成されたオーディエンスは、**[!UICONTROL オーディエンスコンポジション]**&#x200B;オリジンによって識別できます。
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->Adobe エクスペリエンスプラットフォームで利用可能なその他の種類のユーザーについて詳しくは、セグメンテーションサービスの [ マニュアル ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) を参照してください。
+>Adobe Experience Platform で使用可能なその他のタイプのオーディエンスについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
 
-**[!UICONTROL Profile count]**&#x200B;この列には、対象ユーザーに含まれるプロファイル数に関する情報が表示されます。「I」ボタンが計算された日付について詳しくは、「i」ボタンをクリックしてください。
+「**[!UICONTROL プロファイル数]**」列には、オーディエンスに含まれるプロファイル数に関する情報が表示されます。この情報が計算された日付について詳しくは、「i」ボタンをクリックしてください。
 
-カスタムまたは中心的なデータ使用状況ラベルを対象ユーザーに割り当てるには、「楕円」ボタンをクリックし、を選択 **[!UICONTROL Manage Access]** します。 [オブジェクトレベルのアクセス制御について詳しくは、(OLA)](../administration/object-based-access.md)
+カスタムまたはコアデータ使用ラベルをオーディエンスに割り当てるには、楕円形のボタンをクリックし、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
 <!--
 -edit an audience?
@@ -39,6 +39,6 @@ ht-degree: 0%
 
 詳細情報：
 
-* [対象ユーザー向けコンポジションの使用を開始する](get-started-audience-orchestration.md)
+* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
 * [コンポジションワークフローの作成](create-compositions.md)
-* [コンポジション canvas の操作](composition-canvas.md)
+* [コンポジションキャンバスの操作](composition-canvas.md)

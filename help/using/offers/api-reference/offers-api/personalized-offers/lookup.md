@@ -1,6 +1,6 @@
 ---
 title: パーソナライズされたオファーの検索
-description: パーソナライズされたオファーは、適格性ルールと制約に基づいてカスタマイズ可能なマーケティングメッセージです。
+description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,31 +9,31 @@ exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの検索 {#look-up-personalized-offer}
 
-パーソナライズされたオファーは、適格性ルールと制約に基づいてカスタマイズ可能なマーケティングメッセージです。
+パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 
-特定のパーソナライズされたオファーを検索するには、パーソナライズされた申し出 `@id` 、またはリクエストパスに表示されているパーソナライズオファーの名前が含まれている API に対し [!DNL Offer Library] て GET 要求を行います。
+[!DNL Offer Library] API に対してリクエストパスにパーソナライズされたオファーの `@id` または名前を含む GET リクエストを実行することで、特定のパーソナライズされたオファーを検索できます。
 
-**API フォーマット**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
 ```
 
-| 指定 | つい | 一 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | パーソナライズされたキャンペーンが配置されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | パーソナライズされた特典に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | エンティティのプロパティを検索 `@id` するために使用されるストリング。 ストリングは正確に一致します。 パラメーター &quot;id&quot; と &quot;name&quot; を一緒に使用することはできません。 | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | エンティティの xdm: name プロパティを検索するために使用されるストリング。 このストリングは、大文字と小文字が区別されますが、ワイルドカード文字を使用することもできます。 パラメーター `id` を `name` 一緒に使用することはできません。 | `Discount offer` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | パーソナライズされたオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター「id」と「name」は一緒に使用できません。 | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Discount offer` |
 
-**要求**
+**リクエスト**
 
 ```shell
 curl -X GET \
@@ -45,9 +45,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**対し**
+**応答**
 
-応答が成功した場合は、コンテナ ID、インスタンス ID、および独自のパーソナライズされたオファーリング `@id` に関する情報を含む、配置の詳細が返されます。
+正常な応答では、パーソナライズされたオファーに関するプレースメントの詳細（コンテナ ID とインスタンス ID に関する情報と一意のパーソナライズされたオファー `@id` を含む）が返されます。
 
 ```json
 {

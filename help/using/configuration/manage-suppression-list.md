@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 抑制リストの管理
-description: 旅のオプティマイザー抑制リストにアクセスして管理する方法について説明します。
+description: Journey Optimizer 抑制リストにアクセスして管理する方法を学ぶ
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -10,64 +10,64 @@ level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 0%
+source-wordcount: '1293'
+ht-degree: 100%
 
 ---
 
 # 抑制リストの管理 {#manage-suppression-list}
 
-で [!DNL Journey Optimizer] は、次のようなような旅またはキャンペーンで自動的に除外される電子メールアドレスをすべて監視することができます。
+[!DNL Journey Optimizer] を使用すると、次のような、ジャーニーやキャンペーンでの送信から自動的に除外されるメールアドレスをすべて監視できます。
 
-* 無効なアドレス (ハードバウンス)。
-* 一貫した postscript の電子メールを送信しても、電子メールの評判に悪影響を与えることはありません。
-* 電子メールメッセージの1つに対して何らかのスパムクレームを発行する受信者。
-
->[!NOTE]
->
->抑制リストはサンドボックスレベルで管理されます。
-
-このような電子メールアドレスは、自動的に旅のオプティマイザー **抑制リスト** に集められます。 抑制リストの概念と使用方法については、このセクション ](../reports/suppression-list.md) で [ 詳しく説明しています。
-
-アドレスまたはドメイン ](#add-addresses-and-domains) を抑制リストに手動で **追加することも[** できます。
+* 無効なアドレス（ハードバウンス）
+* 一貫してソフトバウンスし、引き続き配信に含めるとメールの評価に悪影響を及ぼす可能性があるアドレス
+* いずれかのメールメッセージに対して何らかのスパム報告を発行する受信者。
 
 >[!NOTE]
 >
->出力電子メールで抑制されたアドレスを考慮するには、0 ~ 60 分 [!DNL Journey Optimizer] の時間がかかります。
+>抑制リストは、サンドボックスレベルで管理されます。
+
+このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。抑制リストの概念と使用方法について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
+
+また、アドレスやドメインを抑制リストに&#x200B;[**手動で**&#x200B;追加](#add-addresses-and-domains)することもできます。
+
+>[!NOTE]
+>
+>[!DNL Journey Optimizer] が送信メールの抑制済みアドレスを考慮するには 0 ～ 60 分かかります。
 
 ## 抑制リストへのアクセス {#access-suppression-list}
 
-除外される電子メールアドレスの詳細リストにアクセスするには、> **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** に **[!UICONTROL Administration]** 移動し、「」を選択 **[!UICONTROL Suppression list]** します。
+除外されたメールアドレスの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]** に移動し、「**[!UICONTROL 抑制リスト]**」を選択します。
 
 >[!CAUTION]
 >
->抑制リストの表示、エクスポートおよび管理のパーミッションは、旅の管理者 ](../administration/ootb-product-profiles.md#journey-administrator) に [ 制限されます。この節 ](../administration/permissions-overview.md) では、 [ ユーザーによるアクセス権の管理 [!DNL Journey Optimizer] について詳しく説明しています。
+>抑制リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 
 ![](assets/suppression-list-access.png)
 
-フィルターを使用して、リスト内を参照することができます。
+リストの参照に役立つフィルターを使用できます。
 
 ![](assets/suppression-list-filters.png)
 
-では、、、または **[!UICONTROL Reason]** にフィルター **[!UICONTROL Suppression category]** **[!UICONTROL Address type]** を適用することができます。各条件について、選択したオプションを選択します。 選択すると、リストの上部に表示されているフィルターやすべてのフィルターをクリアすることができます。
+**[!UICONTROL 抑制カテゴリ]**、**[!UICONTROL アドレスタイプ]**、**[!UICONTROL 理由]**&#x200B;のいずれかでフィルタリングできます。条件ごとに目的のオプションを選択します。選択したら、リストの上部に表示されている各フィルターまたはすべてのフィルターをクリアできます。
 
 ![](assets/suppression-list-filtering-example.png)
 
-電子メールアドレスやドメインを誤って追加した場合は、そのエントリを削除するためのボタンが **[!UICONTROL Delete]** 表示されます。
+メールアドレスまたはドメインを手動で誤って追加した場合は、「**[!UICONTROL 削除]**」ボタンをクリックして、そのエントリを削除できます。
 
 >[!CAUTION]
 >
->このボタンを使用して、抑制された **[!UICONTROL Delete]** 電子メールアドレスやドメインを削除することはできません。
+>抑制されたメールアドレスやドメインの削除に「**[!UICONTROL 削除]**」ボタンを使用しないでください。
 
 ![](assets/suppression-list-delete.png)
 
-「抑制」リストから「電子メールアドレス」または「ドメイン」を削除すると、以降はこのアドレスまたはドメインを使用して配信が開始されます。 その結果、deliverability と IP の評判に深刻な影響を与える可能性があります。これによって、最終的には IP アドレスを取得したり、ドメインをブロックしたりすることができます。 この節 ](../reports/suppression-list.md) で [ は、抑制リストを維持する重要性について詳しく説明しています。
+抑制リストからメールアドレスまたはドメインを削除すると、このアドレスまたはドメインへの配信が再び開始されることになります。その結果、配信品質と IP の評価に重大な影響を及ぼす可能性があり、最終的には IP アドレスや送信ドメインがブロックされる可能性があります。抑制リストの維持の重要性について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
 
 >[!NOTE]
 >
->電子メールアドレスやドメインの削除を検討している場合は、注意して続行します。 ご不明な点がある場合は、deliverability のエキスパートまでお問い合わせください。
+>メールアドレスやドメインの削除を検討する際は、細心の注意を払う必要があります。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
 
-**[!UICONTROL Suppression list]**&#x200B;このビューでは、抑制規則を編集することもできます。[詳細情報](retries.md)
+**[!UICONTROL 抑制リスト]**&#x200B;ビューから、抑制ルールを編集することもできます。[ 詳細情報 ](retries.md)
 
 ## 抑制リストのダウンロード {#download-suppression-list}
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 抑制リストを CSV ファイルとして書き出すには、次の手順に従います。
 
-1. **[!UICONTROL Download CSV]**&#x200B;ボタンを選択します。
+1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。 
 
    ![](assets/suppression-list-download-csv.png)
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >ダウンロードにかかる時間は、ファイルサイズ、つまり抑制リストに表示されているアドレスの数によって異なります。
+   >ダウンロード時間は、ファイルサイズ（抑制リストにあるアドレスの数）によって異なります。
    >
-   >特定のサンドボックスについては、一度に1つのダウンロード要求を処理することができます。
+   >特定のサンドボックスに対して、一度に 1 つのダウンロードリクエストを処理できます。
 
-1. ファイルが生成されると、通知が表示されます。 画面の右上にあるベルアイコンをクリックして表示します。
+1. ファイルが生成されると、通知が届きます。 画面の右上にあるベルアイコンをクリックして、表示します。
 
 1. 通知自体をクリックして、ファイルをダウンロードします。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >このリンクは、24時間有効になります。
+   >リンクは 24 時間有効です。
 
 <!--When downloading the CSV file, you can choose to either:
 
@@ -110,107 +110,107 @@ ht-degree: 0%
 
 * Generate a new file in order to export the current suppression list.-->
 
-## 抑制カテゴリーと理由 {#suppression-categories-and-reasons}
+## 抑制のカテゴリと理由 {#suppression-categories-and-reasons}
 
-電子メールアドレスへの配信に失敗した場合は、 [!DNL Journey Optimizer] 配信に失敗した理由を特定して、 **[!UICONTROL Suppression category]** に関連付けます。
+メッセージをメールアドレスに配信できなかった場合、[!DNL Journey Optimizer] は配信が失敗した理由を特定し、**[!UICONTROL 抑制カテゴリ]**&#x200B;に関連付けます。
 
-抑制カテゴリーは以下のとおりです。
+抑制のカテゴリは次のとおりです。
 
-* **Hard** : 電子メールアドレスは、抑制リストに直ちに送信されます。
+* **ハード**：メールアドレスは、即座に抑制リストに送信されます。
 
    >[!NOTE]
    >
-   >エラーがスパムの苦情によって発生した場合は、それが「Hard **」カテゴリーに** もなります。クレームを発行した受信者の電子メールアドレスが、抑制リストに直ちに送信されます。
+   >エラーがスパムの苦情の結果である場合は、それも&#x200B;**ハード**&#x200B;カテゴリに分類されます。苦情を出した受信者のメールアドレスは、直ちに抑制リストに送信されます。
 
-* **Soft** : エラーカウンターが制限しきい値に達したら、ソフトエラーによって抑制リストにアドレスが送信されます。 [リトライについて詳しくは、](retries.md)
+* **ソフト**：ソフトエラーは、エラーカウンターが制限しきい値に達すると、アドレスを抑制リストに送信します。[再試行の詳細情報](retries.md)
 
-* **手動** : 抑制リストに電子メールアドレスまたはドメインを手動で追加することもできます。 [詳細情報](#add-addresses-and-domains)
+* **手動**：抑制リストにメールアドレスまたはドメインを手動で追加することもできます。[詳細情報](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->配信エラータイプ ](../reports/suppression-list.md#delivery-failures) セクションにあるソフトバウンスとハードバウンスについて詳しくは、 [ こちらを参照してください。
+>ソフトバウンスとハードバウンスについて詳しくは、[配信失敗のタイプ](../reports/suppression-list.md#delivery-failures)の節を参照してください。
 
-リストされている電子メールアドレスのそれぞれについて、「電子メール」または「ドメイン」を **[!UICONTROL Reason]** 確認 **[!UICONTROL Type]** することもできます。除外する場合は、「電子メール」または「ドメイン」を指定します。これは、抑制リストに追加された日時を指定することもできます。
+一覧表示されているメールアドレスごとに、「**[!UICONTROL タイプ]**」（メールまたはドメイン）、除外する「**[!UICONTROL 理由]**」、追加したユーザーおよび抑制リストに追加された日時を確認することもできます。
 
 ![](assets/suppression-list.png)
 
-配信が失敗する理由は、次のとおりです。
+配信エラーの理由として考えられるものを以下に示します。
 
-| ため | つい | 抑制カテゴリー |
+| 理由 | 説明 | 抑制カテゴリ |
 | --- | --- | --- |
-| **[!UICONTROL Invalid Recipient]** | 受信者が無効であるか、または存在しません。 | つらい |
-| **[!UICONTROL Soft Bounce]** | ISP により推奨されたレートを使用して送信する場合など、この表に示したソフトエラー以外の理由により、メッセージが表示されます。 | ソフト |
-| **[!UICONTROL DNS Failure]** | DNS エラーにより、メッセージがバウンスされています。 | ソフト |
-| **[!UICONTROL Mailbox Full]** | メッセージがバウンスされています。これにより、受信者のメールボックスがいっぱいになり、メッセージを受信できなくなります。 | ソフト |
-| **[!UICONTROL Relaying Denied]** | リレーは許可されていないので、メッセージは受信者によってブロックされました。 | ソフト |
-| **[!UICONTROL Challenge-Response]** | このメッセージは、チャレンジ/レスポンス検証を行うプローブです。 | ソフト |
-| **[!UICONTROL Spam Complaint]** | 受信者がスパムとしてマークしたため、メッセージはブロックされました。 | つらい |
+| **[!UICONTROL 無効な受信者]** | 受信者が無効、または存在しません。 | ハード |
+| **[!UICONTROL ソフトバウンス]** | メッセージソフトは、この表に示すソフトエラー以外の理由（ISP が推奨する許可率を超えた場合など）でバウンスしました。 | ソフト |
+| **[!UICONTROL DNS エラー]** | DNS エラーが原因でメッセージがバウンスされました。 | ソフト |
+| **[!UICONTROL メールボックス容量超過]** | 受信者のメールボックスがいっぱいになり、追加のメッセージを受け入れられなかったため、メッセージがバウンスされました。 | ソフト |
+| **[!UICONTROL リレー拒否]** | リレーが許可されていないため、受信者によってメッセージがブロックされました。 | ソフト |
+| **[!UICONTROL チャレンジレスポンス]** | このメッセージはチャレンジレスポンスプローブです。 | ソフト |
+| **[!UICONTROL スパムの苦情]** | 受信者にスパムと見なされたので、メッセージはブロックされました。 | ハード |
 
 >[!NOTE]
 >
->購読者のユーザーは電子メール [!DNL Journey Optimizer] を受信していないので、その電子メールアドレスを抑制リストに送信することはできません。 これらの選択は、操作プラットフォームレベルで処理されます。 [オプトアウトについて詳しくは、](../privacy/opt-out.md)
+>購読を解除したユーザーは [!DNL Journey Optimizer] からのメールを受信しないので、そのメールアドレスを抑制リストに送信することはできません。選択は、Experience Platform レベルで処理されます。[オプトアウトの詳細情報](../privacy/opt-out.md)
 
 ## アドレスとドメインの手動追加 {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
->title="抑制リストへの電子メールまたはドメインの追加"
->abstract="送信から特定の電子メールアドレスやドメインを除外するために、旅のオプティマイザー抑制リストを手動で設定することができます。"
+>title="抑制リストにメールもしくはドメインを追加"
+>abstract="Journey Optimizer 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="抑制リストへの電子メールまたはドメインの追加"
->abstract="抑制リストを設定するには、一度に1つまたは複数の電子メールアドレスを手動で追加するか、CSV ファイルのアップロードを使用して一括モードにします。 このような特定の電子メールアドレスとドメインは、送信から除外されます。"
+>title="抑制リストにメールもしくはドメインを追加"
+>abstract="抑制リストへの入力は、CSV ファイルのアップロードを通じて、手動でメールアドレスまたはドメインを 1 つずつ追加するか、一括モードで追加します。これらの特定のメールアドレスやドメインは、送信から除外されます。"
 
-電子メールアドレスへのメッセージ配信に失敗した場合は、定義された抑制規則またはバウンス数に基づいて、このアドレスが抑制リストに自動的に追加されます。
+メッセージをメールアドレスに配信できない場合、このアドレスは、定義済みの抑制ルールまたはバウンス数に基づいて、抑制リストに自動的に追加されます。
 
-ただし、抑制リストを手動で設定 [!DNL Journey Optimizer] して、送信から特定の電子メールアドレスやドメインを除外することもできます。
+ただし、[!DNL Journey Optimizer] 抑制リストに手動で入力して、特定のメールアドレスやドメインを送信から除外することもできます。
 
-電子メールアドレスまたはドメイン [ は [ 、一度に ](#add-one-address-or-domain) 1 つずつ追加することも、CSV ファイルアップロードを使用して一括モード ](#upload-csv-file) で追加することもできます。
+メールアドレスやドメインは、[1 つずつ](#add-one-address-or-domain)追加することも、CSV ファイルのアップロードを通じて[一括モードで](#upload-csv-file)追加することもできます。
 
-これを行うには、ボタンを選択 **[!UICONTROL Add email or domain]** し、以下のいずれかの手順に従います。
+それには、「**[!UICONTROL メールまたはドメインを追加]**」ボタンを選択し、次のいずれかの方法に従います。
 
 ![](assets/suppression-list-add-email.png)
 
-### アドレスまたはドメインを1つ追加 {#add-one-address-or-domain}
+### 1 つのアドレスまたはドメインの追加 {#add-one-address-or-domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
->title="抑制リストに1つのアイテムを追加します。"
->abstract="電子メールアドレスやドメインを1つずつ追加することによって、抑制リストを設定することができます。"
+>title="抑制リストに項目を 1 つ追加"
+>abstract="抑制リストに入力するには、電子メールアドレスやドメインを 1 つずつ追加します。"
 
-1. **[!UICONTROL One by one]**&#x200B;このオプションを選択します。
+1. 「**[!UICONTROL 1 つずつ]**」オプションを選択します。
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. アドレスタイプ **[!UICONTROL Email address]** **[!UICONTROL Domain address]** を選択します。
+1. アドレスタイプとして、「**[!UICONTROL メールアドレス]**」または「**[!UICONTROL ドメインアドレス]**」を選択します。
 
-1. 送信から除外する電子メールアドレスまたはドメインを入力します。
-
-   >[!NOTE]
-   >
-   >有効な電子メールアドレス (abc@company.com など) またはドメイン (abc.company.com など) を入力していることを確認してください。
-
-1. 必要に応じて、理由を指定します。
+1. 送信から除外するメールアドレスまたはドメインを入力します。
 
    >[!NOTE]
    >
-   >32と126の間で構成されている ASCII 文字はすべて、 **[!UICONTROL Reason]** フィールドに使用できます。 完全なリストについては、次のページ ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters) を参照 [ してください。 {target = &quot;_blank&quot;} などが挙げられます。
+   >必ず有効なメールアドレス（abc@company.com など）または有効なドメイン（abc.company.com など）を入力してください。
 
-1. をクリック **[!UICONTROL Submit]** します。
+1. 必要に応じて理由を指定します。
+
+   >[!NOTE]
+   >
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
+
+1. 「**[!UICONTROL 送信]**」をクリックします。
 
 ### CSV ファイルのアップロード {#upload-csv-file}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="リストにアイテムを追加するには CSV をアップロードします。"
->abstract="このような抑制リストを作成するには、対象の電子メールアドレスまたはドメインに入力された CSV ファイルをアップロードします。"
+>title="CSV をアップロードして抑制リストに項目を追加"
+>abstract="抑制リストに入力するには、除外する電子メールアドレス／ドメインが入力された CSV ファイルをアップロードします。"
 
-1. **[!UICONTROL Upload CSV]**&#x200B;このオプションを選択します。
+1. 「**[!UICONTROL CSV をアップロード]**」オプションを選択します。
 
    ![](assets/suppression-list-upload-csv.png)
 
-1. 使用する CSV テンプレートをダウンロードします。このテンプレートには、次のような列とフォーマットが含まれています。
+1. 使用する CSV テンプレートをダウンロードします。これには、以下の列と形式が含まれています。
 
    ```
    TYPE,VALUE,COMMENT
@@ -220,39 +220,39 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >CSV テンプレートでは、列の名前を変更しないでください。
+   >CSV テンプレート内の列の名前は変更しないでください。
    >
-   >ファイルサイズは、1 MB を超えないようにしてください。
+   >ファイルサイズは 1 MB 以下にする必要があります。
 
-1. CSV テンプレートに、抑制リストに追加する電子メールアドレスまたはドメインを入力します。
+1. 抑制リストに追加するメールアドレスやドメインを CSV テンプレートに入力します。
 
    >[!NOTE]
    >
-   >32 ~ 126 の間にあるすべての ASCII 文字は、 **Comment** 列に入力できます。 完全なリストについては、次のページ ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters) を参照 [ してください。 {target = &quot;_blank&quot;} などが挙げられます。
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**コメント**」列に入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
 
-1. 操作が完了したら、CSV ファイルをドラッグ &amp; ドロップして、をクリック **[!UICONTROL Submit]** します。
+1. 完了したら、CSV ファイルをドラッグ＆ドロップしたあと、「**[!UICONTROL 送信]**」をクリックします。
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >
->アップロードが完了したら、インターフェイスから状態を確認してアップロードが成功したかどうかを確認してください。 [方法について説明します。](#recent-uploads)
+>アップロードが完了したら、インターフェイスでそのステータスを確認して、成功したことを確認します。[方法についてはこちらを参照](#recent-uploads)
 
-### 最近使用したアップロードの状態を確認 {#recent-uploads}
+### 最近のアップロードステータスの確認 {#recent-uploads}
 
-アップロードした最新の CSV ファイルのリストを確認することができます。
+アップロードした最新の CSV ファイルのリストを確認できます。
 
-これを行うには、ビューから **[!UICONTROL Suppression list]** ボタンをクリック **[!UICONTROL Recent uploads]** します。
+それには、**[!UICONTROL 抑制リスト]**&#x200B;ビューで、「**[!UICONTROL 最近のアップロード]**」ボタンをクリックします。
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-送信された最新のアップロードと、それに対応するステータスが表示されます。
+送信した最新のアップロードと、それに対応するステータスが表示されます。
 
-エラーレポートがファイルに関連付けられている場合は、それをダウンロードしてエラーを確認することができます。
+エラーレポートがファイルに関連付けられている場合は、そのファイルをダウンロードして、発生したエラーを確認できます。
 
 ![](assets/suppression-list-recent-uploads-error.png)
 
-エラーレポートに表示されるエントリの種類の例を次に示します。
+エラーレポートに表示されるエントリのタイプの例を以下に示します。
 
 ```
 type,value,comments,failureReason

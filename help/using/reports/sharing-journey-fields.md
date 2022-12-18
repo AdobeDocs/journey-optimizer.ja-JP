@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 「旅」フィールド
-description: 「旅」フィールド
+title: ジャーニーのフィールド
+description: ジャーニーのフィールド
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,40 +11,40 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 「旅」フィールド {#sharing-journey-fields}
+# ジャーニーのフィールド {#sharing-journey-fields}
 
-このフィールドグループは、journeyStepEvent と関連して、旅スキーマで使用されます。 このファイルには、次のフィールドが含まれています。
+このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれています。
 
 ## journeyID {#journeyid-field}
 
-主要な旅の Id です。
+メインジャーニーの ID。
 
-タイプ: string
+型：文字列
 
 ## journeyVersionID {#journeyversionid-field}
 
-旅のバージョンの Id です。 この id は、旅の id を表します。
+ジャーニーバージョンの ID。この ID はジャーニーを表します。
 
-タイプ: string
+型：文字列
 
-## 氏名 {#name-field}
+## name {#name-field}
 
-旅の名前を指定します。
+ジャーニーの名前。
 
-タイプ: string
+型：文字列
 
-## つい {#description-field}
+## description {#description-field}
 
-旅について説明します。
+ジャーニーの説明。
 
-タイプ: string
+型：文字列
 
 ## バージョン {#version-field}
 
-バージョン、として `major` 表示されます。`minor`
+バージョン。`major``minor` で表します。
 
-タイプ: string
+型：文字列

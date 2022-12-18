@@ -1,6 +1,6 @@
 ---
 title: パーソナライズされたオファーの作成
-description: パーソナライズされたオファーは、適格性ルールと制約に基づいてカスタマイズ可能なマーケティングメッセージです。
+description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,37 +9,37 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの作成 {#create-personalized-offer}
 
-パーソナライズされたオファーは、適格性ルールと制約に基づいてカスタマイズ可能なマーケティングメッセージです。
+パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 
-コンテンツを作成する場合は、API に対し [!DNL Offer Library] て POST 要求を行い、コンテナ ID を指定します。
+コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、パーソナライズされたオファーを作成できます。
 
-## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
-| ヘッダー名 | 数値 |
+| ヘッダー名 | 値 |
 | ----------- | ----- |
-| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| コンテンツタイプ | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
-**API フォーマット**
+**API 形式**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| 指定 | つい | 一 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | パーソナライズされたキャンペーンが配置されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**要求**
+**リクエスト**
 
 ```shell
 curl -X POST \
@@ -84,9 +84,9 @@ curl -X POST \
     }'
 ```
 
-**対し**
+**応答**
 
-応答が成功した場合、新しく作成されたパーソナライズされたオファーリングの情報が返されます。これは、一意のインスタンス ID および配置 `@id` を含みます。 以降の手順のインスタンス ID を使用して、パーソナライズされたサービスを更新または削除することができます。
+正常な応答では、新たに作成されたパーソナライズされたオファーに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してパーソナライズされたオファーを更新または削除できます。
 
 ```json
 {
@@ -102,6 +102,6 @@ curl -X POST \
 }
 ```
 
-## 限界 {#limitations}
+## 制限事項 {#limitations}
 
-オファー表現と一部の `Capping` 特典は、モバイル [!DNL Experience Edge] ワークフローでは現在サポートされていません。このフィールド値に `Capping` は、すべてのユーザーに対してオファーを表示できる回数を指定します。 詳細については、適格性ルールと制約に関するドキュメント ](../../../offer-library/creating-personalized-offers.md) を参照してください [ 。
+`Capping` など、オファー表示域および一部のオファー制約は現在、モバイル [!DNL Experience Edge] ワークフローではサポートされていません。`Capping` フィールド値は、1 つのオファーをすべてのユーザーに対して提示できる回数を指定します。詳しくは、[オファーの実施要件ルールと制約に関するドキュメント](../../../offer-library/creating-personalized-offers.md)を参照してください。

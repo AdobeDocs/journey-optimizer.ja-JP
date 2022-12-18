@@ -1,30 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: フィールドリファレンス
-description: 高度な表現についてのフィールド参照について
+title: フィールド参照
+description: 高度な式でのフィールド参照について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
-# フィールドリファレンス {#field-references}
+# フィールド参照 {#field-references}
 
-フィールド参照は、イベントまたはフィールドグループに関連付けることができます。 意味のある情報は、フィールドの名前とそのパスになります。
+フィールド参照は、イベントまたはフィールドグループに添付できます。意味のある情報は、フィールドの名前とパスだけです。
 
-フィールドで特殊文字を使用している場合は、二重引用符を使用するか、二重引用符を使用する必要があります。 Quote が必要な場合は、次のようになります。
+フィールドに特殊文字を使用する場合は、二重または一重の引用符を使用する必要があります。次のような場合には引用符が必要です。
 
-* このフィールドの先頭には数字が含まれています。
-* このフィールドは、「-」文字で始まります。
-* このフィールドには、次のような __ __ __ __ 値は含まれません。 _a-z、a-z、0_ - _9_ _、-_
+* フィールドが数字で始まる
+* フィールドが「-」文字で始まる
+* フィールドに _a_～_z_、_A_～_Z_、_0_～_9_、_、_-_ 以外の文字が含まれる
 
-例えば、次のようなフィールドを使用すると _します。 3h_ : _# {openweather weatherData &#39;3h &#39;} > 0_
+例えば、フィールドが _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_ の場合
 
 ```json
 // event field
@@ -36,13 +36,13 @@ ht-degree: 0%
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-この式では、イベントフィールドは &quot;@&quot; で、「#」を使用して参照されます。
+式では、イベントフィールドは「@」で参照され、データソースフィールドは「#」で参照されます。
 
-シンタックスカラーを使用して、フィールドグループ (青) からイベントフィールド (緑) を視覚的に区別します。
+構文の色を使用して、イベントフィールド（緑）とフィールドグループ（青）を視覚的に区別します。
 
 ## フィールド参照のデフォルト値 {#default-value}
 
-デフォルト値をフィールド名に関連付けることができます。 シンタックスは次のとおりです。
+デフォルト値をフィールド名に関連付けることができます。構文は以下のとおりです。
 
 ```json
 // event field
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->フィールドの種類とデフォルト値は同じである必要があります。 例えば、@ {LobbyBeacon のようになります。このデフォルト値は整数なので、有効な値は string である必要があるので、emailid id、defaultValue: 2} は無効になります。 _experience
+>フィールドとデフォルト値のタイプは同じにする必要があります。例えば、@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} は無効になります。想定される値は文字列であるにもかかわらず、デフォルト値が整数であるからです。
 
-例
+例：
 
 ```json
 // for an event 'OrderEvent' having the following payload:
@@ -89,7 +89,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-デフォルト値として任意の種類の式を追加することができます。 唯一の制約は、式が予期されるデータ型を返す必要があることです。 関数を使用するときは、関数を () にカプセル化する必要があります。
+任意の種類の式をデフォルト値として追加できます。唯一の制約は、期待されるデータ型を、式が返す必要があるということです。関数を使用する場合は、() で関数をカプセル化する必要があります。
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
@@ -98,68 +98,68 @@ expression examples:
 
 ## コレクション内のフィールドへの参照
 
-コレクション内で定義されたエレメントは、特定の関数 `all` `first` `last` を使用して参照されます。 詳しくは、このページ ](../expression/collection-management-functions.md) を [ 参照してください。
+コレクション内で定義された要素は、特定の関数 `all`、`first` および `last` を使用して参照します。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
-一
+例：
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-## マップで定義されているフィールドへの参照
+## マップ内で定義されたフィールドへの参照
 
 ### `entry` 関数
 
-Map 内のエレメントを取得するには、指定されたキーを使用して入力関数を使用します。 例えば、これは、選択された名前空間に応じてイベントのキーを定義するときに使用されます。 詳しくは、このページ ](../../event/about-creating.md#select-the-namespace) を参照してください [ 。
+マップ内の要素を取得するには、指定のキーで entry 関数を使用します。例えば、イベントのキーを定義する際に、選択した名前空間に応じて使用します。詳しくは、[このページ](../../event/about-creating.md#select-the-namespace)を参照してください。
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-この正規表現では、イベントの「&quot;イベントコードマップ&quot;」フィールドの「Email」キーに対応するエントリを取得しています。 「Email」エントリはコレクションなので、最初のエレメントの「id」を「first ()」を使用して取得します。 詳しくは、このページ ](../expression/collection-management-functions.md) を参照してください [ 。
+この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。「Email」エントリはコレクションであり、ここから「first()」を使用して最初の要素の「id」を取得しています。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 ### `firstEntryKey` 関数
 
-マップの1番目のエントリキーを取得するには、この関数を使用 `firstEntryKey` します。
+マップの最初のエントリキーを取得するには、`firstEntryKey` 関数を使用します。
 
-次の例では、特定のリストのサブスクライバーの最初の電子メールアドレスを取得する方法を示します。
+次の例では、特定のリストの購読者の最初のメールアドレスを取得する方法を示しています。
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-この例では、購読リストにはという名前が付け `daily-email` られています。 電子メールアドレスは、購読リストマップにリンクされたマップ内の `subscribers` キーとして定義されます。
+この例では、サブスクリプションリストの名前は `daily-email` です。メールアドレスは `subscribers` マップのキーとして定義され、サブスクリプションリストマップにリンクされています。
 
 ### `keys` 関数
 
-マップのすべてのキーを取得するには、この関数を使用 `keys` します。
+マップのすべてのキーを取得するには、 `keys` 関数を使用します。
 
-この例では、特定のプロファイルについて、特定のリストのサブスクライバーに関連付けられたすべての電子メールアドレスを取得する方法を示します。
+次の例では、特定のプロファイルについて、特定のリストの購読者に関連付けられているすべてのメールアドレスを取得する方法を示しています。
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
 ```
 
-## データソースのパラメーター値 (データソースの動的な値)
+## データソースのパラメーター値（データソースの動的な値）
 
-パラメーターを呼び出す必要がある外部データソースからフィールドを選択した場合は、右側にタブが表示され、このパラメーターを指定することができます。 このページ ](../expression/expressionadvanced.md) を参照してください [ 。
+パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、新しいタブが右側に表示され、そのパラメーターを指定できます。[このページ](../expression/expressionadvanced.md)を参照してください。
 
-複雑な使用例については、データソースのパラメーターをメイン式に含める必要がある場合は、キーワード _params_ を使用してその値を定義することができます。 パラメーターは、別のデータソースにも含まれていても、他のパラメーターを含む有効な式であってもかまいません。
+より複雑なユースケースの場合、データソースのパラメーターをメイン式に含めるには、_params_ キーワードを使用して、そのパラメーター値を定義できます。パラメーターは有効な式であれば、別のパラメーターも含む別のデータソースの式でも構いません。
 
 >[!NOTE]
 >
->式の中でパラメーター値を定義すると、右側のタブが非表示になります。
+>式にパラメーター値を定義すると、右側のタブが消えます。
 
-次のシンタックスを使用します。
+次の構文を使用します。
 
 ```json
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: データソースの1番目のパラメーターの正確な名前。
-* **`<params-1-value>`**: 1 番目のパラメーターの値を指定します。 有効な式を指定することもできます。
+* **`<params-1-name>`**：データソースに存在する最初のパラメーターの正確な名前。
+* **`<params-1-value>`**：最初のパラメーターの値。任意の有効な式を指定できます。
 
-一
+例：
 
 ```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}

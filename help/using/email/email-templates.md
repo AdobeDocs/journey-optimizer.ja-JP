@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 電子メールテンプレートを使用した作業
-description: 電子メールのコンテンツをテンプレートとして保存して、旅のオプティマイザーで再利用する方法を説明します。
+title: メールテンプレートの操作
+description: メールコンテンツをテンプレートとして保存し Journey Optimizer で再利用する方法を説明します
 feature: Overview
 topic: Content Management
 role: User
@@ -10,33 +10,33 @@ level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 100%
 
 ---
 
-# 電子メールテンプレートを使用した作業 {#email-templates}
+# メールテンプレートの操作 {#email-templates}
 
-**[!UICONTROL Select design template]**「」セクションを使用して、テンプレートからのコンテンツの作成を開始します。
+「 **[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツを作成します。
 
 ![](assets/email_designer-templates.png)
 
-次のいずれかを選択できます。
-* 電子メールでは、電子メールテンプレートを20個ご利用いただくことができます。
-* 保存されたテンプレート [詳細情報](#use-saved-template)
+次の中から選択できます。
+* 20 個の標準メールテンプレート。
+* 保存済みテンプレート。[詳細情報](#use-saved-template)
 
 ## テンプレートとして保存 {#save-as-template}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
->title="メッセージを移行する方法について説明します。"
->abstract="25 2022 年7月に、メッセージメニューが表示されなくなり、メッセージは旅から直接オーサリングされるようになりました。 Journeys で従来のメッセージを再利用する場合は、それらをテンプレートとして保存する必要があります。"
+>title="メッセージの移行方法を説明します。"
+>abstract="2022年7月25日（PT）より、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージが作成されます。 従来のメッセージをジャーニーで再利用する場合は、それらをテンプレートとして保存する必要があります。"
 
-電子メールコンテンツ ](get-started-email-design.md) を作成した [ 後は、それを保存して後で再利用することができます。これを行うには、次の手順を実行します。
+[メールコンテンツ](get-started-email-design.md)をデザインしたら、後日再利用するために保存できます。それには、次の手順に従います。
 
 1. 画面の右上にある省略記号をクリックします。
 
-1. ドロップダウンメニューから「」を選択 **[!UICONTROL Save design template]** します。
+1. ドロップダウンメニューから「**[!UICONTROL デザインテンプレートを保存]**」を選択します。
 
    ![](assets/email_designer-save-template.png)
 
@@ -44,30 +44,30 @@ ht-degree: 0%
 
    ![](assets/email_designer-template-name.png)
 
-1. をクリック **[!UICONTROL Save]** します。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-次に電子メールを作成するときに、このテンプレートを使用してコンテンツを作成できます。 [方法について説明します。](#use-saved-template)
+次回メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。[方法についてはこちらを参照](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
-## 保存されたテンプレートの使用 {#use-saved-template}
+## 保存済みテンプレートの使用 {#use-saved-template}
 
-1. 電子メールデザイナー ](content-from-scratch.md) を [ 開きます。
+1. [電子メールデザイナー](content-from-scratch.md)を開きます。
 
-1. **[!UICONTROL Create your email screen]** **[!UICONTROL Sample templates]** では、このタブはデフォルトで選択されています。**[!UICONTROL Saved templates]**&#x200B;タブを選択します。
+1. **[!UICONTROL メールを作成]**&#x200B;画面で、「**[!UICONTROL サンプルテンプレート]**」タブがデフォルトで選択されています。「**[!UICONTROL 保存済みテンプレート]**」タブを選択します。
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 以前 [ に保存したすべてのテンプレート ](#save-as-template) の一覧が表示されます。 これは、 **[!UICONTROL Last modified]** および **[!UICONTROL Last created]** を並べ替える **[!UICONTROL By name]** ことができます。
+1. 以前[保存したすべてのテンプレート](#save-as-template)のリストが表示されます。**[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
 
    ![](assets/email_designer-saved-templates.png)
 
-1. リストから、選択したテンプレートを選択します。
+1. リストから目的のテンプレートを選択します。
 
-1. このボタンを選択すると、すべての保存されているテンプレート間を移動できます。また、すべてのレコードを移動することもできます。
+1. 選択したら、左右の矢印を使用して、保存済みのすべてのテンプレート間を移動できます。
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. 画面の右上をクリック **[!UICONTROL Use this email]** します。
+1. 画面右上の「**[!UICONTROL この電子メールを使用]**」をクリックします。
 
 1. 電子メールデザイナーを使用して、必要に応じてコンテンツを編集します。

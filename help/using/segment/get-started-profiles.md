@@ -1,36 +1,36 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 旅のオプティマイザーのプロファイルについて学習します。
-description: Adobe 旅のオプティマイザーでのプロファイルの作成および管理方法について学習します。
+title: Journey Optimizer におけるプロファイルの基本を学ぶ
+description: Adobe Journey Optimizer でのプロファイルの作成および管理方法について説明します
 feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
-# プロファイルの利用開始 {#profiles-gs}
+# プロファイルの基本を学ぶ {#profiles-gs}
 
-では、リアルタイムの [!DNL Adobe Journey Optimizer] お客様のプロファイルを活用して、オンライン、オフライン、CRM、サードパーティなどの複数のチャネルのデータを組み合わせることによって、個々のお客様の全体像を把握することができます。 **プロファイル** によって顧客データを統合ビューに統合することで、すべての顧客とのやり取りについて、タイムスタンプのアクションを実行することができます。
+[!DNL Adobe Journey Optimizer] のリアルタイム顧客プロファイルを活用すると、オンライン、オフライン、CRM、サードパーティデータなど、複数のチャネルのデータを組み合わせて、個々の顧客の全体像を確認できます。**プロファイル**&#x200B;を使用すると、顧客データを統合ビューにまとめて、顧客インタラクションごとにアクションにつながるタイムスタンプ付きアカウントを提供できます。
 
 >[!NOTE]
 >
->アクティブなプロファイルデータセットまたは結合ポリシーを [!DNL Adobe Journey Optimizer] 作成していない場合、その組織ではプロファイル **の** ダッシュボードが表示されません。その代わりに、「概要 **」タブには** 、Adobe エクスペリエンスプラットフォームマニュアルへのリンクが表示されます。これは、リアルタイムのカスタマープロファイルについて学習するのに役立ちます。
+>[!DNL Adobe Journey Optimizer] を初めて使用する組織で、アクティブなプロファイルデータセットや結合ポリシーが作成されていない場合は、**プロファイル**&#x200B;ダッシュボードは表示されません。代わりに、「**概要**」タブに、リアルタイム顧客プロファイルを初めて使用する際に役立つ Adobe Experience Platform ドキュメントへのリンクが表示されます。
 
 ![](assets/profiles-home.png)
 
-プロファイルダッシュボード **にアクセスして操作** する方法、およびダッシュボードに表示されるメトリックスに関する詳細情報については、このセクション ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html) {target = &quot;_blank&quot;} を [ 参照してください。
+**プロファイルダッシュボード**&#x200B;にアクセスして操作する方法と、ダッシュボードに表示される指標の詳細については、[この節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-複数のソースからデータフラグメントを取り込み、それらを組み合わせて、個々の顧客の完全なビューを表示することができます。 このデータを組み合わせる際には、統合ポリシーはデータの優先度を決定するために使用されるルールで、統合されたビューを作成するために組み合わされるデータはどのようなものになります。
+個々の顧客の全体像を把握するために、複数のソースから得られたデータフラグメントを統合し組み合わせることができます。このデータを統合する際に、データの優先順位を設定する方法と統合ビューを作成するために組み合わせるデータを決定するためのルールとして、結合ポリシーを使用します。
 
-この [ マニュアル ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html) の「マージポリシー **について詳しくは、{target = &quot;_blank&quot;}」を参照して** ください。
+**結合ポリシー**&#x200B;について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-**関連項目**
+**関連トピック**
 
-* [実際にお客様向けのプロファイルマニュアル ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) {target = &quot;_blank&quot;}
-* [リアルタイムのカスタマープロファイル概要ビデオ ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) {target = &quot;_blank&quot;}
+* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target=&quot;_blank&quot;}
+* [リアルタイム顧客プロファイルの概要ビデオ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}

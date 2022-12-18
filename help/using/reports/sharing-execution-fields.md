@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journeyStep イベントアクション実行フィールド
-description: journeyStep イベントアクション実行フィールド
+title: journeyStep イベントのアクション実行フィールド
+description: journeyStep イベントのアクション実行フィールド
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,73 +10,73 @@ level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
-# journeyStep イベントアクション実行フィールド {#sharing-execution-fields}
+# journeyStep イベントのアクション実行フィールド {#sharing-execution-fields}
 
-このフィールドグループは journeyStepEvent および journeyStepProfileEvent によって共有されます。
+このフィールドグループは、journeyStepEvent と journeyStepProfileEvent が共有します。
 
-ステップに処理が必要なアクションがある場合は、それらのフィールドがイベントペイロードに追加されます。
+処理が必要なアクションがステップにある場合、これらのフィールドはイベントペイロードに追加されます。
 
 ## actionID {#actionid-field}
 
 実行中のアクションの ID。
 
-タイプ: string
+型：文字列
 
 ## actionName {#actionname-field}
 
-アクションの名前を指定します。 名前が設定されていない場合は、stepName が取得されます。
+アクションの名前。名前が設定されていない場合、stepName が使用されます。
 
-タイプ: string
+型：文字列
 
 ## actionType {#actionType-field}
 
-アクションのタイプです。
+アクションのタイプ。
 
-タイプ: string
+型：文字列
 
-## actionParameterized 化 {#actionparameterized-field}
+## actionParameterized {#actionparameterized-field}
 
-アクションがパラメーター化されているかどうかを示します。
+アクションがパラメータ化されているかどうかを示します。
 
-種類: ブール値
+型：ブール型
 
 ## actionExecutionTime {#actionexecutiontime-field}
 
-現在のアクションの実行にかかった時間 (ミリ秒) です。
+現在のアクションを実行するのに費やした時間（ミリ秒）。
 
-タイプ: long
+型：long
 
 ## actionExecutionError {#actionexecutionerror-field}
 
-アクションが呼び出されたときに発生するエラーのタイプ。
+アクションが呼び出されたときに発生するエラーの種類。
 
-タイプ: string
+型：文字列
 
-指定
+値：
 * http
-* 上限
-* タイムアウト
-* 中
+* capping
+* timeout
+* error
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
-アクション実行エラーのコードです。 エラーに HTTP 1 などのコードが含まれている場合に表示されます。
+アクション実行エラーのコード。エラーにコードがあるかどうかを示します（HTTP など）。
 
-タイプ: string
+型：文字列
 
-## Actionexecution原点エラー {#actionexecutionoriginerror-field}
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
-タイムアウトは、次の2つの場合に発生します。
+タイムアウトは、次の 2 つの場合に発生する可能性があります。
 
-* 最初にアクションが実行されたとき。 この場合、実行は終了せず、根底にあるエラーは発生しません。
-* 再試行: この場合は、actionExecOrigError/actionExecOrigErrorCode によって、再試行前に発生したエラーが説明されています。
+* アクションの実行を最初に試行したとき。この場合、実行は完了せず、基になるエラーはありません。
+* 再試行時。この場合、actionExecOrigError/actionExecOrigErrorCode は、再試行前に試行したときのエラーを示します。
 
-例えば、電子メールを送信しているときに、最初に HTTP 500 エラーが返されます。 Fetch はリトライされますが、2回の実行回数がタイムアウト時間を超えています。 その後、アクションの実行を timedout としてタグ付けします。 アクションは以下のように表示されます。
+たとえば、メールが送信され、最初の試行時に HTTP 500 エラーが返されます。フェッチを再試行しますが、2 回の試行のデュレーションがタイムアウトを超えます。次に、アクションの実行にタイムアウトのタグが付けられます。アクション部分は次のようになります。
 
 ```
     ...
@@ -89,50 +89,50 @@ ht-degree: 0%
     "actionExecOrigErrorCode": "500"
 ```
 
-タイプ: string
+型：文字列
 
-## Actionexecutionのコード {#actionexecutionorigincode-field}
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
-ActionExecOrigError のエラーコードです。
+actionExecOrigError のエラーコード。
 
-タイプ: string
+型：文字列
 
 ## actionBusinessType {#actionbusinesstype-field}
 
-アクションの種類を指定します。
+アクションのタイプを示します。
 
-指定
+値：
 
-* builtin
-* ACS 電子メール
+* 組み込み
+* ACS メール
 * ACS SMS
 * ACS プッシュ
-* ・
-* 当社
+* 顧客
+* Epsilon
 * ...
 
-タイプ: string
+型：文字列
 
 ## deliveryJobID {#deliveryjobid-field}
 
-これは、バッチ処理の配送ジョブ Id を示します。
+バッチジャーニーの配信ジョブ ID を示します。
 
-タイプ: string
+型：文字列
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-これは、バッチ処理を行う配送 Id を示します。
+バッチジャーニーの配信 ID を示します。
 
-タイプ: string
+型：文字列
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
-これは、バッチ処理が対象となるセグメントからトリガーされるかどうかを示しています。
+バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを示します。
 
-種類: ブール値
+型：ブール型
 
-## Actionスケジューラ数 {#actionschedulercount-field}
+## actionSchedulerCount {#actionschedulercount-field}
 
-ステップ処理中に scheduler サービスに送信されたスケジューラ通知要求の数。
+ステップの処理中にスケジューラーサービスに送信されたスケジューラー通知リクエストの数。
 
-タイプ: long
+型：long

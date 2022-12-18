@@ -1,6 +1,6 @@
 ---
 title: タグの作成
-description: タグを使用すると、キャンペーンをより簡単に整理し、並べ替えることができます。
+description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,35 +9,35 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # タグの作成 {#create-tag}
 
-タグを作成するには、API に対し [!DNL Offer Library] て POST 要求を行い、コンテナ ID を指定します。
+コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、タグを作成できます。
 
-## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
-| ヘッダー名 | 数値 |
+| ヘッダー名 | 値 |
 | ----------- | ----- |
-| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| コンテンツタイプ | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
-**API フォーマット**
+**API 形式**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| 指定 | つい | 一 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | タグが配置されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | タグが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**要求**
+**リクエスト**
 
 ```shell
 curl -X POST \
@@ -53,9 +53,9 @@ curl -X POST \
     }'
 ```
 
-**対し**
+**応答**
 
-応答が成功した場合、新しく作成されたタグについての情報が返されます。これは、一意のインスタンス ID と配置 `@id` を含みます。 以降の手順のインスタンス ID を使用して、タグを更新または削除することができます。 以降のチュートリアルでは、独自のタグ `@id` を使用して、コレクションやパーソナライズされた特典を作成できます。
+正常な応答では、新たに作成されたタグに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してタグを更新または削除できます。後のチュートリアルで、独自のタグ `@id` を使用して、コレクションやパーソナライズされたオファーを作成できます。
 
 ```json
 {

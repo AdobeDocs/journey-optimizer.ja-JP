@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 旅についての作業の開始
-description: 旅についての作業の開始
+title: ジャーニーのアクティビティの基本を学ぶ
+description: ジャーニーのアクティビティの基本を学ぶ
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,65 +10,65 @@ level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 100%
 
 ---
 
-# 旅についての作業の開始 {#about-journey-activities}
+# ジャーニーのアクティビティの基本を学ぶ {#about-journey-activities}
 
-様々なイベント、オーケストレーション、アクションの操作を組み合わせて、マルチステップのクロスチャンネルシナリオを構築します。
+様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを構築します。
 
-## イベントアクティビティー {#event-activities}
+## イベントアクティビティ {#event-activities}
 
-イベントは、オンライン購入のように、パーソナライズされた旅をトリガーするものです。 1人が旅に入ると、そのフライトは個別のメンバーとして移動します。また、同じレートまたは同じパスにある2人が移動することはありません。 イベントを使用して旅を開始すると、イベントの受信時に旅が開始されます。 各参加者は、次に、旅で定義された以下の手順に従います。
+イベントとは、オンライン購入など、パーソナライズされたジャーニーをトリガーしたものです。ジャーニーに入ったユーザーは個人として移動します。異なるユーザーが同じ速度や同じパスを進むことはありません。イベントでジャーニーを開始する場合は、イベントを受信した時点でジャーニーがトリガーされます。ジャーニーの各ユーザーは、ジャーニーで定義された次のステップを個別にたどります。
 
-技術ユーザーによって設定されたイベント (このページ ](../event/about-events.md) を参照してください [ ) はすべて、画面の左側にあるパレットの1番目のカテゴリに表示されます。使用可能なイベントアクティビティーは、次のとおりです。
+技術ユーザーが設定したイベント（[このページ](../event/about-events.md)を参照）はすべて、画面左側のパレットの最初のカテゴリに表示されます。次のイベントアクティビティを使用できます。
 
-* [一般的なイベント](../building-journeys/general-events.md)
-* [応答](../building-journeys/reaction-events.md)
-* [セグメントの認定](../building-journeys/segment-qualification-events.md)
+* [一般イベント](../building-journeys/general-events.md)
+* [反応](../building-journeys/reaction-events.md)
+* [セグメントの選定](../building-journeys/segment-qualification-events.md)
 
 ![](assets/journey43.png)
 
-イベントアクティビティーをドラッグ &amp; ドロップすることによって、旅を開始することができます。 ダブルクリックすることもできます。
+ジャーニーを開始するには、イベントアクティビティをドラッグ＆ドロップします。ダブルクリックでも開始できます。
 
 ![](assets/journey44.png)
 
-## オーケストレーションの操作 {#orchestration-activities}
+## オーケストレーションアクティビティ {#orchestration-activities}
 
-オーケストレーションアクティビティは、次のステップを決定するために役立ちます。 このような場合は、サポート案件が開かれているかどうかを示します。このような場合は、その人物が現在の地域での気象予報において、購入を完了したかどうかに関係なく、または 10 000 のロイヤルティポイントに達します。
+オーケストレーションアクティビティは、ジャーニーの次のステップを決定するのに役立つ様々な条件です。オープンなサポートケースがあるかどうか、現在地の天気予報、購入を完了したかどうか、10,000 ロイヤルティポイントに達したかどうかなどが該当します。
 
-画面の左側にあるパレットから、次のオーケストレーションアクティビティーが使用可能になります。
+画面左側にあるパレットで、次のオーケストレーションアクティビティを使用できます。
 
 * [条件](../building-journeys/condition-activity.md)
-* [時間](../building-journeys/wait-activity.md)
+* [待機](../building-journeys/wait-activity.md)
 * [セグメントの読み取り](../building-journeys/read-segment.md)
 
 ![](assets/journey49.png)
 
 ## アクションアクティビティ {#action-activities}
 
-アクションは、ある種のトリガーの結果として発生するものです。これは、メッセージを送信するようなものです。 これは、お客様が経験する旅の1つです。
+アクションは、メッセージの送信など、何らかのトリガーの結果として発生させるもので、顧客が体験するジャーニーの一部です。
 
-画面の左側にあるパレットから、下の部分の下 **[!UICONTROL Events]** **[!UICONTROL Orchestration]** にあるカテゴリに移動することができ **[!UICONTROL Actions]** ます。 使用可能なアクション操作は以下のとおりです。
+画面左側にあるパレットの「**[!UICONTROL イベント]**」と「**[!UICONTROL オーケストレーション]**」の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。次のアクションアクティビティを使用できます。
 
-* [電子メール、SMS、プッシュ](../building-journeys/journeys-message.md)
+* [メール、SMS、プッシュ](../building-journeys/journeys-message.md)
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
-* [移っ](../building-journeys/jump.md)
+* [ジャンプ](../building-journeys/jump.md)
 
 ![](assets/journey58.png)
 
-これらのアクティビティーは、使用可能な様々な通信チャンネルを表しています。 これらを組み合わせると、クロスチャネルシナリオを作成することができます。
+これらのアクティビティは、様々な通信チャネルを表します。これらを組み合わせて、クロスチャネルシナリオを作成できます。
 
-カスタムアクションを設定している場合は、ここにも表示されます。 [詳しく ](../building-journeys/using-custom-actions.md) は、こちらを参照してください)。
+カスタムアクションを設定している場合は、こちらにも表示されます。[詳細情報](../building-journeys/using-custom-actions.md)）。
 
 ## ベストプラクティス {#best-practices}
 
-ほとんどのアクティビティには、を **[!UICONTROL Label]** 定義することができます。 これにより、canvas 内のアクティビティの下に表示される名前に接尾記号が追加されます。 この機能は、1つの旅で同じ操作を何度も使用している場合に、それらをより簡単に識別できるようにする場合に便利です。 さらに、エラーが発生したときにデバッグが容易になり、レポートの読み取りが容易になります。 また、オプション **[!UICONTROL Description]** のを追加することもできます。
+ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別したい場合に便利です。また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
 ![](assets/journey59bis.png)
 
-1つのアクションまたは条件でエラーが発生した場合、個々の個別の旅は停止します。 続行するには、チェックボックス **[!UICONTROL Add an alternative path in case of a timeout or an error]** をオンにする必要があります。 この項 ](../building-journeys/using-the-journey-designer.md#paths) を参照してください [ 。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 ![](assets/journey42.png)

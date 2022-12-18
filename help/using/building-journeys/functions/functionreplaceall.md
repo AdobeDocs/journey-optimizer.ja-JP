@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: replaceAll
-description: 関数の replaceAll について説明します。
+description: replaceAll 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,42 +9,42 @@ exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # replaceAll {#replaceAll}
 
-ターゲットストリングに一致するすべてのオカレンスが、ベースストリング内の置換ストリングで置き換えられます。
+ターゲット文字列に一致するすべての出現箇所をベース文字列内の置換文字列で置き換えます。
 
-置換は、ストリングの最初から最後まで実行されます。例えば、「aa」を「a」と指定すると、「aa」が「ab」ではなく「ba」に置き換えられます。
+置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
-## 項目
+## カテゴリ
 
-値
+文字列
 
-## 関数のシンタックス
+## 関数の構文
 
 `replaceAll(<parameters>)`
 
 ## パラメーター
 
-| 指定 | 入力 |
+| パラメーター | タイプ |
 |-----------|--------------|
-| ベース | 値 |
-| 変換 | string (RegExp) |
-| 置換 | 値 |
+| base（ベース文字列） | 文字列 |
+| target（ターゲット文字列） | 文字列（RegExp） |
+| replacement（置換文字列） | 文字列 |
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
-ストリングを返します。
+文字列を返します。
 
-## 一{#example}
+## 例{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
-&quot;Hexxo したね Xd&quot; を返します。
+「Hexxo Worxd」を返します。
 
-ターゲットパラメーターは RegExp であるので、置換するストリングによっては、エスケープする必要がある文字がある場合もあります。 このページ ](../functions/functionreplace.md#example_2) の [ 例を参照してください。
+ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。例については、[このページ](../functions/functionreplace.md#example_2)を参照してください。

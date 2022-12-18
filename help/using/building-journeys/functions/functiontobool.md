@@ -1,41 +1,41 @@
 ---
 product: journey optimizer
 title: toBool
-description: 関数のブール型について説明します。
+description: toBool 関数について説明します
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 0%
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
 # toBool {#toBool}
 
-引数値をブール値に変換します (型によって異なります)。
+引数の値をタイプに応じてブール値に変換します。
 
-* From string: string 値をブール値に変換してください。これは、「true」を「true」に設定し、それ以外の場合は false を指定します。
-* 0以外の値が返された場合は true、それ以外の場合は false
+* 文字列から変換する場合：文字列値をブール値として変換します。文字列値が「true」の場合は true、それ以外の場合は false を返します。
+* 数値から変換する場合：数値が 0 に等しくない場合は true 、それ以外の場合は false を返します。
 
-## 項目
+## カテゴリ
 
-処理
+変換
 
-## 関数のシンタックス
+## 関数の構文
 
 `toBool(<parameter>)`
 
 ## パラメーター
 
-* 形式
-* 示す
-* 値
+* 小数
+* ブール値
+* 文字列
 * 整数
 
-## シグネチャと戻り値の型
+## シグネチャと戻り値のタイプ
 
 `toBool(<decimal>)`
 
@@ -53,8 +53,8 @@ ht-degree: 0%
 
 `toBool(1)`
 
-True を返します。
+true を返します。
 
 `toBool("this is not a boolean")`
 
-False を返します。
+false を返します。

@@ -1,6 +1,6 @@
 ---
-title: 配置の更新
-description: 配置は、オファーを示すために使用されるコンテナです。
+title: プレースメントの更新
+description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,39 +8,39 @@ level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 0%
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
 
-# 配置の更新 {#update-placement}
+# プレースメントの更新 {#update-placement}
 
-API に [!DNL Offer Library] 修正プログラムを適用することによって、コンテナ内の位置を変更または更新することができます。
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内のプレースメントを変更または更新できます。
 
-使用可能な操作を含む JSON 修正プログラムについて詳しくは、オフィシャル [ Json 修正プログラムのマニュアル ](http://jsonpatch.com/) を参照してください。
+使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
 
-## Accept ヘッダーと Content-type ヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、要求ヘッダー内の Content-type *および* Accept *フィールドを構成* する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
-| ヘッダー名 | 数値 |
+| ヘッダー名 | 値 |
 | ----------- | ----- |
-| よう | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| コンテンツタイプ | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
-**API フォーマット**
+**API 形式**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| 指定 | つい | 一 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 配置が配置されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 更新する位置のインスタンス id です。 | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | プレースメントが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 更新するプレースメントのインスタンス ID。 | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
-**要求**
+**リクエスト**
 
 ```shell
 curl -X PATCH \
@@ -65,15 +65,15 @@ curl -X PATCH \
     ]'
 ```
 
-| 指定 | つい |
+| パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続を更新するために必要なアクションを定義するために使用される操作呼び出し。 次のような操作を `remove` `replace` 実行できます。 `add` |
-| `path` | 更新するパラメーターのパスを指定します。 |
-| `value` | パラメーターを更新する新しい値を指定します。 |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove` があります。 |
+| `path` | 更新するパラメーターのパス。 |
+| `value` | パラメーターの更新に使用する新しい値。 |
 
-**対し**
+**応答**
 
-応答が成功すると、配置の更新された詳細が返されます。これは、一意のインスタンス ID と配置 `@id` を含みます。
+正常な応答では、プレースメントの更新された詳細（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。
 
 ```json
 {

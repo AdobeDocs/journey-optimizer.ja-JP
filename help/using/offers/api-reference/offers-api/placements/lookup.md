@@ -1,6 +1,6 @@
 ---
-title: 位置を検索します。
-description: 配置は、オファーを示すために使用されるコンテナです。
+title: プレースメントの検索
+description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,27 +9,27 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 位置を検索します。 {#look-up-placement}
+# プレースメントの検索 {#look-up-placement}
 
-要求パス内の位置を指定する `@id` か、またはその名前を指定して、API に対し [!DNL Offer Library] て GET 要求を行うことによって、特定の場所を検索できます。
+[!DNL Offer Library] API に対してリクエストパスにプレースメントの `@id` または名前を含める GET リクエストを実行することで、特定のプレースメントを検索できます。
 
-**API フォーマット**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
-| 指定 | つい | 一 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ Api の endpoint path。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 配置が配置されているコンテナを指定します。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | 配置に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | エンティティのプロパティを検索 `@id` するために使用されるストリング。 ストリングは正確に一致します。 パラメーター `id` を指定して `name` 、同時に使用することはできません。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | エンティティの xdm: name プロパティを検索するために使用されるストリング。 このストリングは、大文字と小文字が区別されますが、ワイルドカード文字を使用することもできます。 パラメーター `id` を `name` 一緒に使用することはできません。 | `Sales and Promotions Placement` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | プレースメントが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | プレースメントに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-placement:124541309805b7e8` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -41,9 +41,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**対し**
+**応答**
 
-応答が成功した場合は、コンテナ ID、インスタンス ID、および一意の配置 `@id` に関する情報を含む、配置の詳細が返されます。
+正常な応答では、プレースメントに関する詳細（コンテナ ID、インスタンス ID、一意のプレースメント `@id` に関する情報を含む）が返されます。
 
 ```json
 {

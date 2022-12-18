@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: クエリーの例
-description: クエリーの例
+title: クエリの例
+description: クエリの例
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,30 +10,30 @@ level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 100%
 
 ---
 
-# クエリーの例{#query-examples}
+# クエリの例{#query-examples}
 
-この節では、Data Lake でのステップ実行イベントのクエリーに使用される一般的な例を示します。
+この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例をいくつか示します。
 
-クエリーで使用するフィールドが、対応するスキーマの値に関連付けられていることを確認してください。
+クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
 
-**Id、instanceid、profileid の違い**
+**ID、instanceID、profileID の違いは何ですか。**
 
-* id: すべてのステップのイベントエントリに対して一意です。 異なる2つのステップイベントに、同じ id を設定することはできません。
-* instanceId: instanceID は、ステップ実行中に、プロファイルに関連付けられたすべての step イベントに対して同じです。 このような旅に移行した場合は、別の instanceId が使用されます。 この新しいインスタンスは、「操作が開始」のインスタンスのすべてのステップイベントに対して同じになります。
-* profileID: プロファイルの id が、旅の名前空間に corosponding されます。
+* ID：すべてのステップイベントエントリに対して一意です。2 つの異なるステップイベントに同じ ID を割り当てることはできません。
+* instanceID：instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同一です。プロファイルがジャーニーに再度入ると、別の instanceID が使用されます。この新しい instanceID は、再入力されたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
+* profileID：ジャーニー名前空間に対応したプロファイルの ID です。
 
-## 基本的な使用例/一般的なクエリー {#common-queries}
+## 基本的なユースケース／一般的なクエリ {#common-queries}
 
-**一定の時間内に旅に入ったプロフィールの数**
+**特定の時間枠にジャーニーにエントリしたプロファイルの数**
 
-このクエリーは、指定された時間内に、指定された過程に入る個別のプロファイル数を示します。
+このクエリでは、指定された時間枠に指定されたジャーニーにエントリした個別のプロファイル数が表示されます。
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
@@ -43,9 +43,9 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**一定の時間が経過したときに各ノードでエラーが発生した回数**
+**特定のジャーニーの各ノードで一定時間に発生したエラー数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT
@@ -65,9 +65,9 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**一定の時間枠で特定の旅によって破棄されたイベントの数**
+**特定の時間枠に特定のジャーニーから破棄されたイベントの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT
@@ -77,11 +77,11 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**特定の時間枠で特定の旅において特定のプロファイルが実行される処理**
+**特定の時間枠での特定ジャーニーの特定プロファイルへの影響**
 
-_Data Lake query_
+_データレイクのクエリ_
 
-このクエリーは、指定されたプロファイルのすべてのステップのイベントとサービスイベント、および指定された時間が日付から順に返されます。
+このクエリは、指定された時間内の指定されたプロファイルとジャーニーのすべてのステップイベントとサービスイベントを時系列で返します。
 
 ```sql
 SELECT
@@ -105,13 +105,13 @@ ORDER BY timestamp;
 ```
 
 
-## メッセージ/アクションエラー {#message-action-errors}
+## メッセージ／アクションエラー {#message-action-errors}
 
-**Journeys で見つかった各エラーのリスト**
+**ジャーニーで発生した各エラーのリスト**
 
-このクエリーを使用して、journeys 内でメッセージやアクションの実行中に発生したエラーを一覧表示できます。
+このクエリを使用すると、メッセージ／アクションの実行中にジャーニーで発生した各エラーをリストできます。
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
@@ -121,7 +121,7 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-ver
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
@@ -131,13 +131,13 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-このクエリーは、操作の実行中に発生したさまざまなエラーを、その発生回数と共に返すことができます。
+このクエリは、ジャーニーでのアクションの実行中に発生した様々なエラーとその発生回数を返します。
 
-## プロファイルベースのクエリー {#profile-based-queries}
+## プロファイルベースのクエリ {#profile-based-queries}
 
-**特定の旅にプロファイルが入力されていないかどうかを確認する**
+**プロファイルが特定のジャーニーにエントリしたかどうかの確認**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events
@@ -146,7 +146,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version
 _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events
@@ -155,13 +155,13 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は0よりも大きくなければなりません。 このクエリーは、プロファイルが何度もフライトを行った回数を返します。
+結果は 0 より大きい値になります。このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
 
-**プロファイルに特定のメッセージが送信されたかどうかを調べる**
+**プロファイルが特定のメッセージを送信されたかどうかの確認**
 
-方法 1: メッセージの名前が各メッセージに固有ではない場合 (複数の場所で使用されています)。
+方法 1：メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -171,7 +171,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version
 _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -181,11 +181,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果は0よりも大きくなければなりません。 このクエリーは、メッセージアクションが、旅において正常に実行されたかどうかについてのみ通知します。
+結果は 0 より大きい値になります。このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
 
-方法 2: メッセージの名前が旅において一意である場合に指定します。
+方法 2：メッセージの名前がジャーニー内で一意の場合。
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -195,7 +195,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version
 _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -205,11 +205,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-クエリーは、選択されたプロファイルに対して呼び出されたすべてのメッセージのリストを返します。
+このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-**過去30日間にプロファイルに受信したメッセージをすべて検索する**
+**過去 30 日間にプロファイルが受け取ったすべてのメッセージの検索**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
@@ -220,7 +220,7 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
@@ -231,11 +231,11 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 ```
 
-クエリーは、選択されたプロファイルに対して呼び出されたすべてのメッセージのリストを返します。
+このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-**過去30日間にプロファイルが入力されたすべての journeys を検索**
+**過去 30 日間にプロファイルがエントリしたすべてのジャーニーの検索**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
@@ -245,7 +245,7 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
@@ -255,11 +255,11 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 ```
 
-クエリーは、すべての旅名のリストと、クエリーされたプロファイルがその旅に入った回数を返します。
+このクエリは、すべてのジャーニー名のリストと、クエリされたプロファイルがジャーニーにエントリした回数を返します。
 
-**1日1回の旅について認定されたプロファイルの数**
+**1 日あたりのジャーニーの対象となったプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
@@ -269,7 +269,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
@@ -279,13 +279,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリー resturns は、定義された期間について、毎日の旅に入ったプロファイルの数を指定します。 複数の id を使用してプロファイルを入力した場合、そのプロファイルは2回カウントされます。 「再入」が有効になっている場合、プロファイル回数が別の日に変更されると、異なる日にプロファイル数が重複している可能性があります。
+このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
-## 読み取りセグメントに関連付けられたクエリー {#read-segment-queries}
+## 「セグメントを読み取り」に関連するクエリ {#read-segment-queries}
 
-**セグメントのエクスポートジョブを完了するのに要した時間**
+**セグメントエクスポートジョブの終了に要した時間**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 select DATEDIFF (minute,
@@ -299,7 +299,7 @@ _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-_一_
+_例_
 
 ```sql
 select DATEDIFF (minute,
@@ -313,11 +313,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-このクエリーは、セグメントの書き出しジョブがキューに入れられてから最後に終了されるまでの時間差 (分単位) を返します。
+クエリは、セグメントエクスポートジョブがキューに追加された時刻と最終的に終了した時刻との時間差（分単位）を返します。
 
-**複製されたものの、旅によって破棄されたプロファイルの数**
+**重複が原因でジャーニーによって破棄されたプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -326,7 +326,7 @@ _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -335,11 +335,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
-クエリーは、それらが重複しているために、旅によって破棄されたすべてのプロファイル Id を返します。
+クエリは、重複していたことが原因でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-**名前空間が無効なために、旅によって破棄されたプロファイルの数**
+**無効な名前空間が原因でジャーニーによって破棄されたプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -348,7 +348,7 @@ _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -357,11 +357,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
-このクエリは、その名前空間に無効な名前空間があるか、または id がないために、旅によって破棄されたすべてのプロファイル Id を返します。
+クエリは、プロファイル ID に無効な名前空間が存在する、もしくはその名前空間の ID がないという理由でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-**情報マップがないために、旅によって破棄されたプロファイルの数**
+**ID マップがないという理由でジャーニーによって破棄されたプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -370,7 +370,7 @@ _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -379,11 +379,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
-このクエリは、情報マップが見つからなかったために、旅によって破棄されたすべてのプロファイル Id を返します。
+クエリは、ID マップが見つからないという理由でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-**この旅によって破棄されたプロファイルの数がテストノード内にあり、プロファイルがテストプロファイルではなかったので、この数**
+**ジャーニーがテストノードにあり、プロファイルがテストプロファイルでなかったという理由で、ジャーニーによって破棄されたプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -392,7 +392,7 @@ _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -401,11 +401,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
-このクエリでは、旅によって破棄されたすべてのプロファイル Id が返されます。この場合、エクスポートジョブはテストモードで実行されましたが、testProfile 属性が true に設定されていませんでした。
+クエリは、テストモードでエクスポートジョブが実行されたが、プロファイルの testProfile 属性が true に設定されていなかったという理由により、ジャーニーによって破棄されたすべてのプロファイル ID を返します。
 
-**内部エラーが発生したために、旅によって破棄されたプロファイルの数**
+**内部エラーが理由でジャーニーによって破棄されたプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -414,7 +414,7 @@ _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -423,11 +423,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
-このクエリーは、内部エラーにより、旅によって破棄されたすべてのプロファイル Id を返します。
+クエリは、一部の内部エラーが理由でジャーニーによって破棄されたすべてのプロファイル ID を返します。
 
-**特定の旅バージョンの読み取りセグメントの概要**
+**特定のジャーニーバージョンに関するセグメントを読み取りの概要**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT
@@ -445,27 +445,27 @@ WHERE
     _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
 ```
 
-このメソッドは、指定されたバージョンに関連するすべてのサービスイベントを返します。 次の手順に従います。
+指定されたジャーニーバージョンに関連するすべてのサービスイベントを返します。次の一連の操作に従うこともできます。
 
-* トピックの作成
-* ジョブ作成の書き出し
-* エクスポートしたプロファイルのメトリックを使用した、ジョブの強制終了
-* ワーカー処理の終了
+* トピック作成
+* エクスポートジョブの作成
+* エクスポートジョブの終了（エクスポートされたプロファイルの指標を含む）
+* セカンダリ処理の終了
 
-次のような問題を検出することもできます。
+また、次のような問題も検出できます。
 
-* 「ヘルプの作成」または「ジョブの書き出し」 (「セグメントの書き出し時にタイムアウトを含む」) エラー
-* スタックできるジョブの書き出し (特定の過程で発生した場合は、輸出ジョブが終了したときに発生するイベントがありません)
-* 作業者の問題、「ジョブ終了イベントを受信しましたが、1つのジョブの停止を完了していない場合
+* トピックまたはエクスポートジョブの作成でのエラー（Segment Export API 呼び出しのタイムアウトを含む）
+* 動作停止の可能性があるエクスポートジョブ（特定のジャーニーバージョンの場合、エクスポートジョブの終了に関するイベントはありません）
+* セカンダリの問題（エクスポートジョブ終了イベントを受け取ったが、セカンダリ処理終了イベントを受け取っていない場合）
 
-重要: このクエリーから返されたイベントがない場合は、次のいずれかの理由が考えられます。
+重要事項：このクエリでイベントが返されない場合、次のいずれかの理由が原因である可能性があります。
 
-* このような旅のバージョンは、スケジュールに到達していません
-* このバージョンでは、orchestrator を呼び出すことによって、書き出しジョブがトリガーされると想定される場合、upstram flow の問題が発生しています。これは、旅における展開、ビジネスイベント、およびスケジューラに関する問題です。
+* ジャーニーのバージョンがスケジュールに到達していない
+* ジャーニーバージョンでオーケストレーターを呼び出してエクスポートジョブをトリガーすると想定されている場合、アップストリームフローで次のような問題が発生：ジャーニーのデプロイメント、ビジネスイベント、スケジューラーに関する問題。
 
-**特定の旅のバージョンでの読み取りセグメントエラーの取得**
+**特定のジャーニーバージョンのセグメント読み取りエラーの取得**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT
@@ -489,9 +489,9 @@ WHERE
     )
 ```
 
-**エクスポートジョブ処理の状態の取得**
+**エクスポートジョブの処理ステータスを取得**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT
@@ -513,14 +513,14 @@ WHERE
     )
 ```
 
-レコードが返されなかった場合は、次のいずれかを意味します。
+レコードが返されない場合は、次のいずれかを意味します。
 
-* トピック作成またはジョブのエクスポート中にエラーが発生しました。
-* エクスポートジョブはまだ実行されています
+* トピックまたはエクスポートジョブの作成中にエラーが発生しました
+* エクスポートジョブがまだ実行中です
 
-**各輸出ジョブの廃棄と書き出しのジョブメトリックを含む、エクスポートされたプロファイルのメトリックスを取得する**
+**エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートジョブ指標を含む）**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 WITH
@@ -578,9 +578,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**すべての書き出しジョブで集計されたメトリック (セグメントのエクスポートジョブと廃棄) を取得します。**
+**すべてのエクスポートジョブの集計指標の取得（セグメントのエクスポートジョブと破棄）**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 WITH
@@ -637,15 +637,15 @@ FROM
 WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 ```
 
-このクエリーは、前のクエリーとは異なります。
+このクエリは前のクエリとは異なります。
 
-この関数は、実行可能なジョブに関係なく、指定された計測されるバージョンの測定値全体を返します。これは、定期的に実行される可能性のある業務イベントによって、トピックを再利用することによって開始されます。
+実行可能なジョブに関係なく（繰り返しジャーニーの場合、トピックの再利用をトリガーしたビジネスイベントなど）、特定のジャーニーバージョンの全体的な指標を返します。
 
-## セグメントの認定に関するクエリー {#segment-qualification-queries}
+## セグメントの選定に関連するクエリ {#segment-qualification-queries}
 
-**構成されたセグメントとは異なる、セグメントの実現化により、破棄されたプロファイル**
+**設定されたセグメントとは異なるセグメント適合が理由で破棄されたプロファイル**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
@@ -655,7 +655,7 @@ _experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
@@ -665,11 +665,11 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-このクエリーは、誤ったセグメントが実現されたことによって、旅バージョンによって破棄されたすべてのプロファイル Id を返します。
+このクエリは、間違ったセグメント適合が理由で、ジャーニーバージョンによって破棄されたすべてのプロファイル ID を返します。
 
-**特定のプロファイルに対するその他の理由によって破棄されたセグメントの認定イベント**
+**特定のプロファイルに対して他の理由で破棄された「セグメントの選定」イベント**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
@@ -680,7 +680,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
@@ -691,13 +691,13 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-このクエリーは、プロファイルの他の理由によって破棄されたすべてのイベント (外部イベント/セグメント認定イベント) を返します。
+このクエリは、プロファイルに対してその他の理由で破棄されたすべてのイベント（外部イベント／セグメントの選定イベント）を返します。
 
-## イベントベースのクエリー {#event-based-queries}
+## イベントベースのクエリ {#event-based-queries}
 
-**出張中にビジネスイベントが発生したかどうかを確認する**
+**ジャーニーがビジネスイベントを受け取ったかどうかを確認する**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
@@ -709,7 +709,7 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '<last x hours>' hour)
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
@@ -721,9 +721,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**関連する旅が見つからなかったので、プロファイルの外部イベントが破棄されたかどうかを確認してください。**
+**関連するジャーニーが見つからなかったことが理由でプロファイルの外部イベントが破棄されたかどうかを確認する**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
@@ -734,7 +734,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
@@ -745,9 +745,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**他の理由により、プロファイルの外部イベントが破棄されたかどうかを確認します**
+**その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認する**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
@@ -759,7 +759,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
@@ -771,17 +771,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**StateMachine で破棄されたすべてのイベントのカウントを errorCode で確認します。**
+**errorCode で stateMachine によって破棄されたすべてのイベントの数を確認する**
 
-_Data Lake query_
-
-```sql
-SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
-```
-
-_一_
+_データレイクのクエリ_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -789,9 +781,17 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**再開始が許可されていないため、すべての破棄されたイベントを確認します。**
+_例_
 
-_Data Lake query_
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**再エントリが許可されなかったことが理由で破棄されたすべてのイベントを確認する**
+
+_データレイクのクエリ_
 
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
@@ -802,7 +802,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
@@ -813,11 +813,11 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-## 一般的な旅ベースのクエリー {#journey-based-queries}
+## 一般的なジャーニーベースのクエリ {#journey-based-queries}
 
-**Journeys のデイリーアクティブな数**
+**日別のアクティブなジャーニーの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
@@ -826,7 +826,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
@@ -835,13 +835,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-このクエリーは、定義された期間について、毎日トリガーされる一意の journeys の数を返します。 複数の日に1つの旅トリガーを行うと、1日に1回カウントされます。
+このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
 
-## 旅のインスタンスに対するクエリー {#journey-instances-queries}
+## ジャーニーインスタンスに対するクエリ {#journey-instances-queries}
 
-**特定の時間における特定の状態のプロファイルの数**
+**特定の時間に特定の状態となっているプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 WITH
@@ -914,7 +914,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-_一_
+_例_
 
 ```sql
 WITH
@@ -987,9 +987,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**特定の期間中に、旅を終了したプロファイルの数**
+**特定の期間にジャーニーから離脱したプロファイルの数**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT
@@ -1007,7 +1007,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT
@@ -1025,9 +1025,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**特定の期間内に、ノード/状態で旅を終了したプロファイルの数**
+**特定の期間にジャーニーから離脱したプロファイルの数（ノード／ステータスも指定）**
 
-_Data Lake query_
+_データレイクのクエリ_
 
 ```sql
 SELECT
@@ -1047,7 +1047,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-_一_
+_例_
 
 ```sql
 SELECT
