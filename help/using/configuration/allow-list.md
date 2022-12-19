@@ -147,7 +147,7 @@ ht-degree: 100%
 
 ### API 呼び出しを使用したエンティティの追加 {#api-call-allowed-list}
 
-許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。例えば：
+許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。以下に例を示します。
 
 ![](assets/allow-list-api.png)
 

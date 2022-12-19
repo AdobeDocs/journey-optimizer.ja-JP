@@ -11,7 +11,7 @@ exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 >
 > [Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像は、このメソッドを使用する場合は参照できません。HTML コードで参照される画像は、公開場所に保存する必要があります。
 
-1. E メールデザイナーのホームページで、 **[!UICONTROL 独自のコーディング]**.
+1. 電子メールデザイナーのホームページで、「**[!UICONTROL 独自にコーディング]**」を選択します。
 
    ![](assets/code-your-own.png)
 

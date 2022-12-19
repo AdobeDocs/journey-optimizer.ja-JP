@@ -15,11 +15,11 @@ ht-degree: 100%
 
 ---
 
-# Adobe Campaign v7/v8 との統合 {#integrating-with-adobe-campaign-classic}
+# Adobe Campaign v7／v8 との統合 {#integrating-with-adobe-campaign-classic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
->title="Adobe Campaign v7/v8 のアクション"
+>title="Adobe Campaign v7／v8 のアクション"
 >abstract="この統合は、Adobe Campaign Classic v7 および v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。"
 
 この統合は、Adobe Campaign Classic v7 リリース 7.1 以降および Adobe Campaign v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。

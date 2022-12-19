@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS の基本を学ぶ
-description: Journey Optimizerで SMS を作成する方法を説明します
+description: Journey Optimizer で SMS を作成する方法を説明します
 feature: Overview
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->SMS を初めて作成する場合は、SMS チャネルが設定されていることを確認してください。 [詳細情報](sms-configuration.md)。
+>SMS を初めて作成する場合は、SMS チャネルが設定済みであることを確認してください。[詳細情報](sms-configuration.md)。
 
 [!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージを送信できます。SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
 

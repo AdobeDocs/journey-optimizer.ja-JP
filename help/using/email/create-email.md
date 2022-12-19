@@ -11,7 +11,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -22,41 +22,41 @@ ht-degree: 36%
 >title="メールの作成"
 >abstract="メールのパラメーターを 3 つの簡単な手順で定義します。"
 
-で E メールを作成するには、以下を実行します。 [!DNL Journey Optimizer]、次の手順に従います。
+[!DNL Journey Optimizer] でメールを作成するには、次の手順に従います。
 
-## ジャーニーまたはキャンペーンでの E メールの作成 {#create-email-journey-campaign}
+## ジャーニーまたはキャンペーンでのメールの作成 {#create-email-journey-campaign}
 
-を追加します。 **[!UICONTROL 電子メール]** アクションをジャーニーまたはキャンペーンに追加し、ケースに応じて以下の手順に従います。
+**[!UICONTROL メール]**&#x200B;アクションをジャーニーまたはキャンペーンに追加し、場合に応じて次の手順に従います。
 
 >[!BEGINTABS]
 
->[!TAB ジャーニーへの E メールの追加]
+>[!TAB ジャーニーへのメールの追加]
 
-1. ジャーニーを開き、 **[!UICONTROL 電子メール]** アクティビティ **[!UICONTROL アクション]** 」セクションに表示されます。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティをドラッグ＆ドロップします。
 
 1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力します。
 
-1. を選択します。 [電子メール表面](email-settings.md) を使用します。
+1. 使用する[メールサーフェス](email-settings.md)を選択します。
 
    ![](assets/email_journey.png)
 
 >[!NOTE]
 >
->ジャーニーから E メールを送信する場合は、Adobe Journey Optimizerの送信時間の最適化機能を利用して、メッセージ送信の最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。 [送信時間の最適化の操作方法を説明します。](../building-journeys/journeys-message.md#send-time-optimization)
+>ジャーニーからメールを送信する場合、Adobe Journey Optimizer の送信時間最適化機能を活用して、メッセージを送信する最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化することができます。詳しくは、[送信時間の最適化](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
 
-ジャーニーの設定方法について詳しくは、 [このページ](../building-journeys/journey-gs.md).
+ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
->[!TAB キャンペーンへの E メールの追加]
+>[!TAB キャンペーンへのメールの追加]
 
-1. スケジュール済みまたは API トリガーキャンペーンを新しく作成し、「 」を選択します。 **[!UICONTROL 電子メール]** を選択します。
+1. スケジュール済みキャンペーンまたは API トリガーキャンペーンを新規作成し、アクションとして「**[!UICONTROL メール]**」を選択します。
 
-1. を選択します。 [電子メール表面](email-settings.md) を使用します。
+1. 使用する[メールサーフェス](email-settings.md)を選択します。
 
    ![](assets/email_campaign.png)
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. キャンペーンプロパティなどの E メールキャンペーンを作成する手順を実行します。 [audience](../segment/about-segments.md)、および [スケジュール](../campaigns/create-campaign.md#schedule).
+1. キャンペーンプロパティ、[オーディエンス](../segment/about-segments.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、メールキャンペーンを作成する手順を完了します。
 
    ![](assets/email_campaign_steps.png)
 
@@ -66,37 +66,37 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 ![](assets/email_campaign_tracking.png)
 -->
 
-キャンペーンの設定方法について詳しくは、 [このページ](../campaigns/get-started-with-campaigns.md).
+キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 
 ## メールコンテンツの定義 {#define-email-content}
 
-1. ジャーニーまたはキャンペーンの設定画面で、 **[!UICONTROL コンテンツを編集]** ボタンをクリックして、E メールのコンテンツを設定します。 [詳細情報](get-started-email-design.md)
+1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メールコンテンツを設定します。[詳細情報](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
-1. 内 **[!UICONTROL ヘッダー]** セクション **[!UICONTROL コンテンツを編集]** screen, **[!UICONTROL 送信者名]**, **[!UICONTROL 送信元メール]** および **[!UICONTROL BCC]** フィールドは、選択した e メールサーフェスから取得されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
+1. **[!UICONTROL コンテンツを編集]**&#x200B;画面の「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 差出人名]**」、「**[!UICONTROL 差出人メールアドレス]**」、「**[!UICONTROL BCC]**」の各フィールドは、選択したメールサーフェスから取得されます。[詳細情報](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 件名を追加できます。 対応するフィールドに直接プレーンテキストを入力するか、 [式エディター](../personalization/personalization-build-expressions.md) 件名をパーソナライズします。
+1. 件名を追加できます。該当するフィールドに直接プレーンテキストを入力するか、[式エディター](../personalization/personalization-build-expressions.md)を使用して件名をパーソナライズします。
 
-1. 次をクリック： **[!UICONTROL メール本文を編集]** ボタンをクリックして、 [!DNL Journey Optimizer] E メールデザイナー。 [詳細情報](get-started-email-design.md)
+1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックして、[!DNL Journey Optimizer] 電子メールデザイナーでコンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. キャンペーンに参加している場合は、 **[!UICONTROL コードエディター]** ボタンを使用して、表示されるポップアップウィンドウを使用して、プレーンHTMLで独自のコンテンツをコーディングします。
+1. キャンペーンで作業している場合は、「**[!UICONTROL コードエディター]**」ボタンをクリックし、表示されるポップアップウィンドウを使用してプレーン HTML で独自のコンテンツをコーディングすることもできます。
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >E メールデザイナーで既にコンテンツを作成または読み込んでいる場合は、そのコンテンツがHTMLで表示されます。
+   >電子メールデザイナーで既にコンテンツを作成または読み込んでいる場合は、そのコンテンツが HTML で表示されます。
 
 ## アラートの確認 {#check-email-alerts}
 
-メッセージを設計する際、重要な設定が見つからない場合は、（画面の右上にある）インターフェイスにアラートが表示されます。
+メッセージをデザインする際、重要な設定が見つからない場合は、インターフェイス（画面の右上）にアラートが表示されます。
 
 ![](assets/email_journey_alerts_details.png)
 
@@ -108,13 +108,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 次の 2 種類のアラートが発生する可能性があります。
 
-* **警告** 次のようなレコメンデーションとベストプラクティスを参照してください。
+* **警告**&#x200B;は、次のような推奨事項やベストプラクティスを示しています。
 
    * **[!UICONTROL メール本文にオプトアウトンクがありません]**：購読解除リンクをメール本文に追加するのがベストプラクティスです。設定方法について詳しくは、[この節](../privacy/opt-out.md#opt-out-management)を参照してください。
 
       >[!NOTE]
       >
-      >マーケティングタイプの電子メールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](email-settings.md#email-type) レベルとタイミング [メッセージの作成](#create-email-journey-campaign) ジャーニーまたはキャンペーンから。
+      >マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、[チャネルサーフェス](email-settings.md#email-type)レベルで、ジャーニーまたはキャンペーンから[メッセージを作成](#create-email-journey-campaign)するときに定義されます。
 
    * **[!UICONTROL HTML のテキストバージョンが空です]**：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。テキストバージョンの作成方法については、[この節](text-version-email.md)を参照してください。
 
@@ -122,7 +122,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL メールのサイズが 100KB の制限を超えています]**：配信を最適化するには、メールのサイズが 100KB を超えないようにしてください。メールコンテンツの編集方法については、[この節](content-from-scratch.md)を参照してください。
 
-* **エラー** 次のような解決されていない限り、ジャーニー/キャンペーンをテストまたはアクティブ化できません。
+* **エラー**（例えば次のようなもの）が解決されない限り、ジャーニー／キャンペーンのテストやアクティブ化はできません。
 
    * **[!UICONTROL 件名行がありません]**：電子メールの件名は必須です。定義およびパーソナライズの方法については、[この節](create-email.md)で説明します。
 
@@ -130,24 +130,24 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL メッセージの電子メールバージョンが空です]**：このエラーは、電子メールのコンテンツが設定されていない場合に表示されます。メールコンテンツの設計方法については、[この節](get-started-email-design.md)を参照してください。
 
-   * **[!UICONTROL サーフェスが存在しません]**:メッセージの作成後に選択したサーフェスを削除した場合は、メッセージを使用できません。 このエラーが発生した場合は、メッセージの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別のサーフェスを選択します。チャネルサーフェスについて詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
+   * **[!UICONTROL サーフェスが存在しません]**：選択したサーフェスがメッセージの作成後に削除された場合は、メッセージを使用できません。このエラーが発生した場合は、メッセージの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別のサーフェスを選択します。チャネルサーフェスについて詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
 
 
 >[!CAUTION]
 >
->電子メールを使用してジャーニー/キャンペーンをテストまたはアクティブ化するには、以下の問題をすべて解決する必要があります **エラー** アラート。
+>メールを使用してジャーニー／キャンペーンをテストまたはアクティブ化できるようにするには、すべての&#x200B;**エラー**&#x200B;アラートを解決する必要があります。
 
-## E メールをプレビューして送信
+## メールのプレビューと送信
 
-メッセージコンテンツを定義したら、プレビューして、E メールのレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認できます。 [詳細情報](preview.md)
+メッセージコンテンツを定義したら、プレビューしてメールのレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認することができます。[詳細情報](preview.md)
 
 ![](assets/email_designer_edit_simulate.png)
 
-E メールの準備が整ったら、 [ジャーニー](../building-journeys/journey-gs.md) または [campaign](../campaigns/create-campaign.md)をクリックし、メッセージを送信するためにアクティブ化します。
+メールの準備ができたら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)を設定し、アクティブ化して、メッセージが送信されるようにします。
 
 >[!NOTE]
 >
->E メールの開封やインタラクションを通じて受信者の行動を追跡するには、 **[!UICONTROL トラッキング]** セクションがジャーニーの [メールアクティビティ](../building-journeys/journeys-message.md) または E メール内 [campaign](../campaigns/create-campaign.md).<!--to move?-->
+>メールの開封やインタラクションを通じて受信者の行動を追跡するには、ジャーニーの[メールアクティビティ](../building-journeys/journeys-message.md)またはメール[キャンペーン](../campaigns/create-campaign.md)で「**[!UICONTROL トラッキング]**」セクションの専用オプションが有効になっていることを確認してください。<!--to move?-->
 
 <!--
 

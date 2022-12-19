@@ -11,15 +11,15 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # メール設定 {#email-settings}
 
-E メールの作成を開始するには、メッセージに必要なすべての技術的パラメーターを定義する E メールチャネルのサーフェスを設定する必要があります。 [サーフェスの作成方法を学ぶ](../configuration/channel-surfaces.md)
+メールの作成を開始するには、メッセージに必要なすべての技術的パラメーターを定義するメールチャネルサーフェスを設定する必要があります。[詳しくは、サーフェスの作成方法を参照してください](../configuration/channel-surfaces.md)
 
-チャネルサーフェス設定の専用のセクションで E メール設定を定義します。
+チャネルサーフェス設定の専用セクションでメール設定を定義します。
 
 ![](assets/preset-email-settings.png)
 

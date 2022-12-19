@@ -11,7 +11,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -29,26 +29,26 @@ ht-degree: 55%
 
 ➡️ [この機能をビデオで確認](#video)
 
-一度 [電子メールを追加しました](create-email.md) ジャーニーやキャンペーンに移動するには、e メールコンテンツの作成を開始できます。
+ジャーニーまたはキャンペーンに[メールを追加](create-email.md)したら、メールコンテンツの作成を開始できます。
 
-1. ジャーニーまたはキャンペーンの設定画面から、 **[!UICONTROL コンテンツを編集]** 画面を開いて、E メールデザイナーにアクセスします。 [詳細情報](create-email.md#define-email-content)
+1. ジャーニーまたはキャンペーンの設定画面から、**[!UICONTROL コンテンツを編集]**&#x200B;画面に進み、電子メールデザイナーにアクセスします。 [詳細情報](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 電子メールデザイナーのホームページで、電子メールのデザイン方法を次のオプションから選択します。
+1. 電子メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
-   * 電子メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。で E メールコンテンツをデザインする方法を説明します。 [この節](content-from-scratch.md).
+   * 電子メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
 
-   * 電子メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。で独自のコンテンツをコーディングする方法を学ぶ [この節](code-content.md).
+   * 電子メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
 
       >[!NOTE]
       >
-      >キャンペーンでは、 **[!UICONTROL コードエディター]** ボタン **[!UICONTROL コンテンツを編集]** 画面 [詳細情報](create-email.md#define-email-content)
+      >キャンペーンでは、**[!UICONTROL コンテンツを編集]**&#x200B;画面から「**[!UICONTROL コードエディター]**」ボタンを選択することもできます。[詳細情報](create-email.md#define-email-content)
 
 
-   * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。電子メールコンテンツをにインポートする方法を説明します。 [この節](existing-content.md).
+   * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
 
-   * **既存のコンテンツを選択** 組み込みテンプレートまたはカスタムテンプレートのリストから。 電子メールテンプレートの使用方法を説明します。 [この節](email-templates.md).
+   * 組み込みまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](email-templates.md)を参照してください。
 
    ![](assets/email_designer_create_options.png)
 

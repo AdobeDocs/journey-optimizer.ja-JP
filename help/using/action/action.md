@@ -26,8 +26,7 @@ ht-degree: 100%
 
 ➡️ [この機能をビデオで確認](#video)
 
-[!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。
-
+[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。
 
 Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応じて統合を利用できます。[このページ](../action/acc-action.md)を参照してください。
 

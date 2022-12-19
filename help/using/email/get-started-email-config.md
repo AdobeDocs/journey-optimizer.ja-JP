@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メール設定の基本を学ぶ
-description: 電子メール設定について詳しくは、 [!DNL Journey Optimizer]
+description: 詳しくは、 [!DNL Journey Optimizer] でのメール設定を参照してください
 role: Admin
 level: Intermediate
 feature: Application Settings
@@ -11,30 +11,30 @@ exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # メール設定の基本を学ぶ {#get-starte-email-config}
 
-でジャーニーやキャンペーンを通じて E メールを送信できるようにする [!DNL Journey Optimizer]を使用する場合は、いくつかの設定手順を実行する必要があります。
+[!DNL Journey Optimizer] でジャーニーとキャンペーンを通じてメールを送信できるようにするには、いくつかの設定手順を完了する必要があります。
 
-1. 最適な配信品質を確保し、レピュテーションを保護するには、まず、E メールの送信に使用するサブドメインをAdobeにデリゲートします [!DNL Journey Optimizer]. これらのサブドメインによって、追跡する Web ページやミラーページの URL などの要素が決まります。 [詳細情報](../configuration/about-subdomain-delegation.md)
+1. 最適な配信品質を確保しレピュテーションを保護するには、まず [!DNL Journey Optimizer] でメールを送信するために使用するサブドメインをアドビにデリゲートします。これらのサブドメインによって、追跡する web ページやミラーページの URL などの要素が決まります。[詳細情報](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
-1. インスタンスでプロビジョニングされた IP アドレスをグループ化することで、E メールの配信品質とレピュテーションを向上させます。 [詳細情報](../configuration/ip-pools.md)
+1. インスタンスにプロビジョニングされた IP アドレスをグループ化することで、メールの配信品質とレピュテーションを向上させます。[詳細情報](../configuration/ip-pools.md)
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. チャネルサーフェスを作成し、 **[!UICONTROL 電子メール]** チャネル。 [詳細情報](../configuration/channel-surfaces.md)
+1. チャネルサーフェスを作成し、**[!UICONTROL メール]**&#x200B;チャネルを選択します。[詳細情報](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. 各 E メールチャネルの表面で、E メールの配信に必要なすべての技術的パラメーターを設定します。 [詳細情報](email-settings.md)
+1. 各メールチャネルサーフェスで、メールの配信に必要なすべての技術的パラメーターを設定します。[詳細情報](email-settings.md)
 
-   * ここで、E メールの送信に使用するサブドメインと、サーフェスに関連付ける IP プールを選択します。 [詳細情報](email-settings.md#subdomains-and-ip-pools)
+   * ここで、メールの送信に使用するサブドメインと、サーフェスに関連付ける IP プールを選択します。[詳細情報](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/preset-subdomain-ip-pool.png)
 

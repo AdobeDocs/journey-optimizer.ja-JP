@@ -11,17 +11,17 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# リンクの追加とメッセージのトラッキング {#tracking}
+# リンクの追加とメッセージの追跡 {#tracking}
 
 [!DNL Journey Optimizer] を使用すると、受信者の行動を監視するために、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることができます。
 
 ## トラッキングの有効化 {#enable-tracking}
 
-E メールメッセージレベルでトラッキングを有効にするには、 **[!UICONTROL メール開封数]** および/または **[!UICONTROL メールをクリック]** オプションを使用して、ジャーニーやキャンペーン内でメッセージを作成できます。
+ジャーニーやキャンペーン内でメッセージを作成する際に、「**[!UICONTROL メール開封数]**」オプションや「**[!UICONTROL メールのクリック数]**」オプションをオンにすることで、メールメッセージレベルでのトラッキングを有効にすることができます。
 
 >[!BEGINTABS]
 

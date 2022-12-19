@@ -185,11 +185,11 @@ ht-degree: 100%
             + [Adobe Stock との連携](using/email/stock.md)
          + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
          + [テキストバージョンの生成](using/email/text-version-email.md)
-         + [プリヘッダーの追加](using/email/preheader.md)
+         + [プリヘッダーを追加](using/email/preheader.md)
       + スタイルの編集 {#edit-style}
          + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
          + [背景設定の編集](using/email/backgrounds.md)
-         + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
+         + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
          + [リンクのスタイルの定義](using/email/styling-links.md)
          + [インラインのスタイル属性の追加](using/email/inline-styling.md)
    + [メールのプレビューとテスト](using/email/preview.md)
@@ -352,7 +352,7 @@ ht-degree: 100%
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)
-      + [エクスポートしたオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
+      + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
       + [パーソナライズされたオファーのデータセット](using/offers/export-catalog/export-offers.md)
       + [決定データセット](using/offers/export-catalog/export-decisions.md)
       + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)

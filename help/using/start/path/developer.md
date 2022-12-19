@@ -18,7 +18,7 @@ ht-degree: 100%
 
 開発者は、**モバイルアプリを設定**&#x200B;して、[!DNL Adobe Journey Optimizer] でプッシュ通知を送信できる必要があります。
 
-[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲティングされたオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリ、および [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] で設定と統合がおこなわれていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](../../push/push-gs.md)を参照してください。
+[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリ、および [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] で設定と統合がおこなわれていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](../../push/push-gs.md)を参照してください。
 
 プッシュ通知チャネルを設定しモバイルアプリ統合をテストする手順について詳しくは、[このページ](../../push/push-configuration.md)を参照してください。
 

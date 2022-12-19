@@ -11,7 +11,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="プリヘッダーの追加"
+>title="プリヘッダーを追加"
 >abstract="プリヘッダーは、メールクライアントでメールを閲覧するときに、件名の後に表示される短い概要テキストです。多くの場合、メールの短い概要を提供し、通常は 1 文の長さです。"
 
 プリヘッダーは、メールクライアントでメールを閲覧するときに、件名の後に表示される短い概要テキストです。
@@ -32,13 +32,13 @@ ht-degree: 78%
 
 メールのプリヘッダーを定義するには、次の手順に従います。
 
-1. E メールデザイナーから、少なくとも **[!UICONTROL 構造コンポーネント]** 電子メールのデザインを開始します。
+1. 電子メールデザイナーから、少なくとも&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;を追加して、メールのデザインを開始します。
 
-1. 次をクリック： **[!UICONTROL ナビゲーションツリー]** アイコンを左側のペインから選択し、 **[!UICONTROL 本文]**.
+1. 左側のペインで「**[!UICONTROL ナビゲーションツリー]**」アイコンをクリックし、「**[!UICONTROL 本文]**」を選択します。
 
    ![](assets/preheader_body.png)
 
-1. 次の **[!UICONTROL 本文の設定]** 右側のウィンドウで、 **[!UICONTROL プリヘッダー]** コンテンツを追加するフィールド。
+1. 右側の&#x200B;**[!UICONTROL 本文の設定]**&#x200B;ペインで、「**[!UICONTROL プリヘッダー]**」フィールドの横にある編集アイコンをクリックしてコンテンツを追加します。
 
    ![](assets/preheader_body_settings.png)
 

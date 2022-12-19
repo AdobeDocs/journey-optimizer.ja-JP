@@ -275,7 +275,7 @@ ht-degree: 97%
 
 ランディングページが公開されると、**[!UICONTROL 公開中のアイテム]**&#x200B;ステータスでランディングページリストに追加されます。
 
-これでライブになり、[!DNL Journey Optimizer]  メッセージで使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
+これで稼働し、[!DNL Journey Optimizer] メッセージで使用できるようになります。このメッセージは[ジャーニー](../building-journeys/journey.md)を通じて送信されます。
 
 >[!NOTE]
 >

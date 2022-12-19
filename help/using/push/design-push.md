@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: プッシュ通知のデザイン
-description: Journey Optimizerでプッシュ通知をデザインする方法を説明します
+description: Journey Optimizer でプッシュ通知をデザインする方法を説明します
 feature: Overview
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

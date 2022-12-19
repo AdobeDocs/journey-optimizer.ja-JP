@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メールスタイルの基本を学ぶ
-description: メールコンテンツのスタイルを様々な方法で調整する方法を理解する
+description: メールコンテンツのスタイルを調整する様々な方法を説明します
 feature: Overview
 topic: Content Management
 role: User
@@ -11,21 +11,21 @@ exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # メールスタイルの基本を学ぶ {#get-started-email-style}
 
-電子メールコンテンツを [!DNL Journey Optimizer]を使用すると、E メールデザイナーの設定ペインで多数のスタイル設定パラメーターと属性を調整できます。
+[!DNL Journey Optimizer] でメールコンテンツの作成を開始すると、電子メールデザイナーの設定ペインで多数のスタイルパラメーターおよび属性を調整できます。
 
-変更内容は、E メールの本文、構造コンポーネント、コンテンツコンポーネントのいずれかに適用できます。
+変更内容は、メールの本文、構造コンポーネント、コンテンツコンポーネントのいずれかに適用できます。
 
 ![](assets/email_designer_content_components_settings.png)
 
-以下のリンクから、メールのスタイル設定の一部を調整する方法を参照できます。
+メールで一部のスタイル設定を調整する方法については、次のリンクを参照してください。
 
-* 方法を学ぶ [メールの背景をパーソナライズ](backgrounds.md)
-* 方法を学ぶ [垂直方向の整列とパディングを管理](alignment-and-padding.md)
-* 方法を学ぶ [e メール内のリンクのスタイルを定義する](styling-links.md)
-* 方法を学ぶ [インラインスタイル属性のカスタマイズ](inline-styling.md)
+* [メールの背景のパーソナライズ](backgrounds.md)
+* [垂直方向の整列とパディングの調整](alignment-and-padding.md)
+* [リンクのスタイルの定義](styling-links.md)
+* [インラインスタイル属性の追加](inline-styling.md)

@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -32,33 +32,33 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
 >[!BEGINTABS]
 
->[!TAB SMS メッセージをジャーニーに追加]
+>[!TAB ジャーニーへの SMS メッセージの追加]
 
-1. ジャーニーを開き、パレットの「アクション」セクションから SMS アクティビティをドラッグ&amp;ドロップします。
+1. ジャーニーを開いて、パレットの「アクション」セクションから SMS アクティビティをドラッグ＆ドロップします。
 
    ![](assets/sms_create_1.png)
 
-1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力し、使用するメッセージサーフェスを選択します。
+1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力したあと、使用するメッセージサーフェスを選択します。
 
    ![](assets/sms_create_2.png)
 
-   ジャーニーの設定方法について詳しくは、 [このページ](../building-journeys/journey-gs.md)
+   ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-これで、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。 [SMS コンテンツのデザイン](#sms-content)
+これで、「**[!UICONTROL コンテンツを編集]**」ボタンから SMS メッセージのコンテンツのデザインを開始できます。[SMS コンテンツのデザイン](#sms-content)
 
->[!TAB キャンペーンに SMS メッセージを追加する]
+>[!TAB キャンペーンへの SMS メッセージの追加]
 
-1. スケジュール済みまたは API トリガーキャンペーンを新しく作成し、 **[!UICONTROL SMS]** を選択します。 **[!UICONTROL アプリサーフェス]** を使用します。 [SMS 設定の詳細を説明します](sms-configuration.md).
+1. スケジュール済みキャンペーンまたは API トリガーキャンペーンを新規作成し、アクションとして「**[!UICONTROL SMS]**」を選択して、使用する&#x200B;**[!UICONTROL アプリサーフェス]**&#x200B;を選択します。詳しくは、[SMS 設定](sms-configuration.md)を参照してください。
 
    ![](assets/sms_create_3.png)
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの&#x200B;**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を編集します。
+1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
    ![](assets/sms_create_4.png)
 
-1. 内 **[!UICONTROL アクションのトラッキング]** セクションで、SMS メッセージ内のリンクのクリック数を追跡する場合に指定します。
+1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、SMS メッセージ内のリンクのクリックを追跡するかどうかを指定します。
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストからターゲットオーディエンスを定義します。 [詳細情報](../segment/about-segments.md)。
 
@@ -68,20 +68,20 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
 1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
-1. 次の **[!UICONTROL アクショントリガー]** メニューから、 **[!UICONTROL 頻度]** 送信する：
+1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、SMS メッセージの「**[!UICONTROL 頻度]**」を選択します。
 
    * 1 回
    * 毎日
    * 毎週
    * 月
 
-これで、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。 [SMS コンテンツのデザイン](#sms-content)
+これで、「**[!UICONTROL コンテンツを編集]**」ボタンから SMS メッセージのコンテンツのデザインを開始できます。[SMS コンテンツのデザイン](#sms-content)
 
 >[!ENDTABS]
 
 ## SMS コンテンツの定義{#sms-content}
 
-1. ジャーニーまたはキャンペーンの設定画面で、 **[!UICONTROL コンテンツを編集]** ボタンをクリックして SMS コンテンツを設定します。
+1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、SMS コンテンツを設定します。
 
 1. 「**[!UICONTROL メッセージ]**」フィールドをクリックして、式エディターを開きます。
 
@@ -97,4 +97,4 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
 * [SMS チャネルの設定](sms-configuration.md)
 * [SMS レポート](../reports/journey-global-report.md#sms-global)
-* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)

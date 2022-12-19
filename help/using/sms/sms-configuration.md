@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 >id="ajo_admin_sms_api"
 >title="Journey Optimizer で SMS ベンダーを設定する"
 >abstract="SMS を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。 完了したら、SMS サーフェスを作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="SMS チャネルサーフェスの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ja#message-preset-sms" text="SMS チャネルサーフェスの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

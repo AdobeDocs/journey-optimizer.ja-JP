@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS オプトアウト管理
-description: SMS メッセージを使用したオプトアウトの管理方法を説明します
+title: SMS オプトアウトの管理
+description: SMS メッセージのオプトアウトを管理する方法を説明します
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# SMS オプトアウト管理 {#sms-opt-out}
+# SMS オプトアウトの管理 {#sms-opt-out}
 
-業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。[プライバシーおよびオプトアウト管理の詳細を説明します](../privacy/opt-out.md)
+業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。詳しくは、[オプトアウトの管理](../privacy/opt-out.md)を参照してください。
 
 デフォルトでは、Adobe Journey Optimizer は、Sinch や Twilio などのネイティブ統合の業界標準に従って、フリーダイヤルメッセージとロングコードメッセージの STOP、UNSTOP、START などの標準の英語の返信メッセージを処理します。これらのキーワードは、通常、サードパーティプロバイダー（Twilio、Sinch など）からの自動標準返信をトリガーします。これは、プロバイダーまたはドキュメントサイトで直接確認できます。
 

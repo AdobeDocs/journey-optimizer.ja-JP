@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS メッセージをプレビュー
-description: Journey Optimizerで SMS メッセージをプレビューおよびテストする方法を説明します
+title: SMS メッセージのプレビュー
+description: Journey Optimizer で SMS メッセージをプレビューおよびテストする方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
@@ -11,29 +11,29 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
-# SMS メッセージを送信する {#send-sms}
+# SMS メッセージの送信 {#send-sms}
 
-## SMS メッセージをプレビュー {#preview-sms}
+## SMS メッセージのプレビュー {#preview-sms}
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。パーソナライズされたコンテンツを挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
 
-1. クリック **[!UICONTROL コンテンツをシミュレート]**.
+1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
 
-1. クリック **[!UICONTROL テストプロファイルの管理]** をクリックして、テストプロファイルを追加します。
+1. 「**[!UICONTROL テストプロファイルを管理]**」をクリックして、テストプロファイルを追加します。
 
-1. テストプロファイルを見つけるには、 **[!UICONTROL ID 名前空間]** および **[!UICONTROL ID 値]** フィールド。 次に、「 **[!UICONTROL プロファイルを追加]**.
+1. 「**[!UICONTROL ID 名前空間]**」フィールドと「**[!UICONTROL ID 値]**」フィールドを使用して、テストプロファイルを検索します。そのあと、「**[!UICONTROL プロファイルを追加]**」をクリックします。
 
    ![](assets/sms_preview_3.png)
 
-1. テストプロファイルを選択したら、 **[!UICONTROL テストプロファイルを追加]** ウィンドウ
+1. テストプロファイルを選択したら、**[!UICONTROL テストプロファイルを追加]**&#x200B;ウィンドウを閉じます。
 
    ![](assets/sms_preview_1.png)
 
-1. プレビューとテストウィンドウでは、メッセージコンテンツでテストプロファイルデータが利用されます。
+1. プレビューおよびテストウィンドウでは、メッセージコンテンツでテストプロファイルデータが活用されます。
 
    例えば、この SMS メッセージの場合、メッセージコンテンツは両方ともパーソナライズされます。
 
@@ -53,7 +53,7 @@ ht-degree: 55%
 
 ![](assets/sms-alert-button.png)
 
-SMS メッセージの準備が整ったら、 [ジャーニー](../building-journeys/journey-gs.md) または [campaign](../campaigns/create-campaign.md) 送信する
+SMS メッセージの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)の設定を完了して送信します。
 
 **関連トピック**
 

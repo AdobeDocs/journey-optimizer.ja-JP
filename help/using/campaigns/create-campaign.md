@@ -11,7 +11,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 65%
+ht-degree: 73%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 65%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
->title="キャンペーンタイプ"
+>title="キャンペーンのタイプ"
 >abstract="送信日を指定してマーケティングメッセージの場合、 **予定** type は最も適切です。 ただし、パスワードのリセットやカードの放棄などのトランザクションメッセージを送信する場合は、 **API トリガー** 「タイプ」が最適な選択肢です。"
 
 >[!CONTEXTUALHELP]
@@ -69,13 +69,13 @@ ht-degree: 65%
 
    ![](assets/create-campaign-properties.png)
 
-## メッセージを作成 {#content}
+## メッセージの作成 {#content}
 
-内 **[!UICONTROL アクション]** 「 」セクションで、キャンペーンと共に送信するメッセージを作成します。
+「**[!UICONTROL アクション]**」セクションで、キャンペーンで送信するメッセージを作成します。
 
-1. 次をクリック： **[!UICONTROL コンテンツを編集]** ボタンをクリックし、メッセージコンテンツを作成してデザインします。
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メッセージコンテンツを設定およびデザインします。
 
-   次のページで、メッセージコンテンツを作成する詳細な手順を説明します。
+   メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">

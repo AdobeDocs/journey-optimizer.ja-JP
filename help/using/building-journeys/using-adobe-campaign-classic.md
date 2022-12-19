@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Adobe Campaign v7／v8 のアクション {#using_campaign_classic}
 
-統合は、Adobe Campaign v7 または v8 がある場合に使用できます。これにより、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
+統合は、Adobe Campaign v7 または v8 のユーザーが使用できます。これにより、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 
 Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。アドビにご連絡ください。
 

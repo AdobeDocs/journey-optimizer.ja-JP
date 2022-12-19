@@ -9,13 +9,13 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # プッシュ通知チャネルの設定 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲティングされたオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
+[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
 ## 開始する前に {#before-starting}
 
@@ -49,11 +49,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. **[!DNL Admin Console]** にアクセスします。
 
-1. 次の **[!UICONTROL 製品]** タブで、 **[!UICONTROL Adobe Experience Platform Data Collection]** カード。
+1. 「**[!UICONTROL 製品]**」タブから、**[!UICONTROL Adobe Experience Platform データ収集]**&#x200B;カードを選択します。
 
    ![](assets/push_product_1.png)
 
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新しいプロファイル]**」ボタンを使用して新しい製品プロファイルを作成します。**[!UICONTROL 新規プロファイル]**&#x200B;を作成する方法については、[Admin Console のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui){target=&quot;_blank&quot;}を参照してください。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新規プロファイル]**」ボタンで新しい製品プロファイルを作成します。**[!UICONTROL 新規プロファイル]**&#x200B;を作成する方法については、[Admin Console のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui){target=&quot;_blank&quot;}を参照してください。
 
 1. 「**[!UICONTROL 権限]**」タブで、「**[!UICONTROL プロパティ権限]**」を選択します。
 
@@ -77,7 +77,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL アプリ設定の管理]**
    * **[!UICONTROL プロパティの管理]**
 
-   モバイルアプリ開発者がでプッシュ資格情報を設定するには、これらの権限が必要です **Adobe Experience Platform Data Collection** で、プッシュ通知チャネルの表面（メッセージプリセット）を定義します。 **Adobe Journey Optimizer**.
+   モバイルアプリ開発者が **Adobe Experience Platform データ収集**&#x200B;でプッシュ資格情報を設定し、**Adobe Journey Optimizer** でプッシュ通知チャネルサーフェス（メッセージプリセット）を定義するには、これらの権限が必要です。
 
    ![](assets/push_product_5.png)
 
@@ -87,7 +87,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. **[!DNL Admin Console]** にアクセスします。
 
-1. 次の **[!UICONTROL 製品]** タブで、 **[!UICONTROL Adobe Experience Platform Data Collection]** カード。
+1. 「**[!UICONTROL 製品]**」タブから、**[!UICONTROL Adobe Experience Platform データ収集]**&#x200B;カードを選択します。
 
 1. 以前に設定した&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択します。
 

@@ -11,13 +11,13 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの追加 {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] 電子メールの場合は、決定管理エンジンを活用して、顧客に提供する最適なオファーを選択するための決定を挿入できます。
+[!DNL Journey Optimizer] のメールには、顧客に提供する最適なオファーを意思決定管理エンジンにより選択する決定を挿入できます。
 
 例えば、受信者のロイヤルティレベルに応じて変わる特別割引オファーを、メールに表示する決定を追加できます。
 
@@ -60,7 +60,7 @@ In [!DNL Journey Optimizer] 電子メールの場合は、決定管理エンジ�
 
    ![](assets/deliver-offer-placement.png)
 
-これで、決定がコンポーネントに追加されます。
+これで、決定がコンポーネントに追加されました。
 
 変更を保存すると、ジャーニーの一環としてメッセージを送信する際に、関連するプロファイルにオファーが表示されるようになります。
 

@@ -11,7 +11,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 90%
 
    アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
 
-1. アセットがアップロードされると、電子メールデザイナーを使用してメッセージの 1 つにアセットを挿入できるようになります。
+1. アセットがアップロードされると、電子メールデザイナーを使用してメッセージのいずれかにアセットを挿入できるようになります。
 
    また、アセットは [!DNL Assets Essentials] の&#x200B;**編集**&#x200B;モードでさらに編集することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target=&quot;_blank&quot;}。
 
@@ -72,13 +72,13 @@ ht-degree: 90%
 
    ![](assets/media_library_5.png)
 
-1. を選択します。 **[!UICONTROL Assets]** フォルダー。 検索バーで、アセットやフォルダーを検索することもできます。
+1. **[!UICONTROL Assets]** フォルダーを選択します。検索バーで、アセットやフォルダーを検索することもできます。
 
 1. アセットをメールコンテンツにドラッグ＆ドロップします。
 
    ![](assets/media_library_6.png)
 
-1. さらに、 **[!UICONTROL コンポーネント設定]**. コンポーネント設定について詳しくは、[こちら](content-components.md)を参照してください。
+1. **[!UICONTROL コンポーネント設定]**&#x200B;を使用して外部リンクやテキストを追加するなど、アセットをさらにカスタマイズすることができます。詳しくは、[コンポーネント設定](content-components.md)を参照してください。
 
    ![](assets/media_library_13.png)
 
