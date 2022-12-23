@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 92%
 
 ---
 
@@ -79,6 +79,16 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 * ジャーニーで条件を使用する場合：[詳細情報](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * メッセージをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#message_personalization)
 * カスタムアクションをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### 配列{#relationships_limitations}
+
+文字列の配列（製品 ID のリストなど）に対してスキーマの関係を定義できます。
+
+![](assets/schema15.png)
+
+ただし、オブジェクトの配列内の属性とのスキーマ関係を定義することはできません。例えば、購入情報のリスト（製品 ID、製品名、価格、割引）などです。 参照値は、 メッセージのパーソナライゼーション。
+
+![](assets/schema16.png)
 
 ### イベント設定{#unitary_event_configuration}
 

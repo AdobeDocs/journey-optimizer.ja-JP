@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >異なる ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、ジャーニーにエントリできません。
+   >異なる ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、ジャーニーにエントリできません。ユーザーベースの ID 名前空間のみ選択できます。 参照テーブルの名前空間を定義した場合 ( 例：製品参照用の製品 ID 名前空間 ) の場合、 **名前空間** ドロップダウンリスト。
 
 1. 「**[!UICONTROL スロットルレート]**」フィールドを、「セグメントを読み取り」アクティビティのスループット限度に設定します。
 

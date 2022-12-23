@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 99%
+source-wordcount: '1577'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 99%
    >**[!UICONTROL イベント ID 条件]**&#x200B;を定義する際に、高度な式エディターは使用できません。シンプルな式エディターでは、すべての演算子が使用できるわけではなく、データタイプに応じて異なります。例えば、文字列タイプのフィールドには、「次を含む」または「次と等しい」を使用できます。
 
 1. 名前空間を追加します。この手順はオプションですが、名前空間を追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるのでお勧めです。これは、イベントのキーのタイプを定義します。[この節](../event/about-creating.md#select-the-namespace)を参照してください。
+
 1. プロファイル識別子を定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する式を定義します。このキーは、名前空間を選択すると自動的に設定されます（編集は可能）。ジャーニーは名前空間に対応するキーを選択します（例えば、メール名前空間を選択すると、メールのキーが選択されます）。[この節](../event/about-creating.md#define-the-event-key)を参照してください。
 
    ![](assets/jo-event7.png)
@@ -124,12 +125,15 @@ ht-degree: 99%
 
 ![](assets/primary-identity.png)
 
-
 ドロップダウンリストから名前空間を選択します。
 
 ![](assets/journey17.png)
 
 1 つのジャーニーで使用できる名前空間は 1 つだけです。同じジャーニーで複数のイベントを使用する場合は、同じ名前空間を使用する必要があります。[このページ](../building-journeys/journey.md)を参照してください。
+
+>[!NOTE]
+>
+>ユーザーベースの ID 名前空間のみ選択できます。 参照テーブルの名前空間を定義した場合 ( 例：製品参照用の製品 ID 名前空間 ) の場合、 **名前空間** ドロップダウンリスト。
 
 ## プロファイル識別子の定義 {#define-the-event-key}
 
