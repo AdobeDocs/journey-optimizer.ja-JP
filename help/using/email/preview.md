@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 100%
 
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 その後、テストプロファイルに[配達確認を送信](#send-proofs)できるようになります。
 
-さらに、**Litmus** アカウントを [!DNL Journey Optimizer] に活用すると、よく使うメールクライアントで、**メールのレンダリング**&#x200B;を即座にプレビューすることができます。すべてのインボックスでメールコンテンツが適切に表示され、正しく機能することを確認できます。Litmus メールプレビューのロックを解除する方法については、[この節](#email-rendering)を参照してください。。
+さらに、[!DNL Journey Optimizer] で **Litmus** アカウントを利用すると、一般的なメールクライアントでの&#x200B;**メールのレンダリング結果**&#x200B;を即座にプレビューすることができ、すべてのインボックスでメールコンテンツが適切に表示され、正しく機能することを確認できます。Litmus メールプレビューのロックを解除する方法については、[この節](#email-rendering)を参照してください。。
 
 >[!CAUTION]
 >
->メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。[このユースケース](../personalization/personalization-use-case.md)でのパーソナライゼーションのテスト方法を説明します。
+>メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。[こちらのユースケース](../personalization/personalization-use-case.md)では、パーソナライゼーションのテスト方法を説明します。
 
 ➡️ メールのプレビューと配達確認の方法については、[このビデオ](#video-preview)をご覧ください
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#email-rendering" text="メールのレンダリング"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#preview-email" text="プレビュー"
 
-[テストプロファイル](../segment/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、追加の受信者をターゲットに設定できます。
+[テストプロファイル](../segment/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、その他の受信者をターゲットに設定できます。
 
 テストプロファイルを選択する手順は、次のとおりです。
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    Adobe Experience Platform の ID 名前空間については、[この節](../segment/get-started-identity.md)を参照してください。
 
-   以下の例では、**メール**&#x200B;名前空間を使用します。
+   以下の例では、**電子メール**&#x200B;名前空間を使用します。
 
 1. 検索フィールドで名前空間を探して選択し、「**[!UICONTROL 選択]**」をクリックします。
 
@@ -176,7 +176,7 @@ ht-degree: 100%
 
 1. 「**テストを実行**」ボタンをクリックして、メールのプレビューを生成します。
 
-1. よく使うデスクトップ、モバイル、Web ベースのクライアントでメールの内容を確認します。
+1. 一般的なデスクトップ、モバイル、Web ベースのクライアントでメールの内容を確認します。
 
    ![](assets/email-rendering-previews.png)
 

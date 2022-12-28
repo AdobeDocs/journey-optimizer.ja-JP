@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 画像のライセンスを取得してダウンロードするには、次の手順に従います。
 
-1. 選択して、「**[!UICONTROL Adobe Stock 画像のライセンス]**」アイコンをクリックします。
+1. 画像を選択して「**[!UICONTROL Adobe Stock 画像のライセンス]**」アイコンをクリックします。
 
    ![](assets/stock-license-icon.png)
 
@@ -92,7 +92,7 @@ ht-degree: 100%
    >[!WARNING]
    > 未ライセンスの画像を含むメールが送信された場合、画像は透かしのある未ライセンスのフォームを保持します。
 
-1. 購入が完了したら、[!DNL Adobe Journey Optimizer] でメールに戻り、「**[!UICONTROL ストック画像を読み込み]**」を選択して、ライセンス済みの画像をアセットに読み込むことができます。
+1. 購入が完了したら、[!DNL Adobe Journey Optimizer] でメールに戻り、「**[!UICONTROL ストック画像をインポート]**」を選択して、ライセンス済みの画像をアセットに読み込むことができます。
 
    ![](assets/stock_6.png)
 

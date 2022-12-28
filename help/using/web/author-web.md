@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 100%
 
@@ -203,7 +203,7 @@ Web ページに追加したすべてのコンポーネント、調整および�
 
 >[!CAUTION]
 >
->どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法について説明します。
+>どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
 
 1. **[!UICONTROL コンテンツを編集]**&#x200B;画面または web デザイナーから、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
 

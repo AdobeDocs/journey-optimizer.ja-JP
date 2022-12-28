@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 オファーの管理および作成方法について詳しくは、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 
 
-オファーの設定方法を示す&#x200B;**完全なエンドツーエンドの例**&#x200B;については、オファーを決定で使用し、この決定をメールで活用して、[この節](../offers/offers-e2e.md#insert-decision-in-email)を参照してください。
+[こちらの節](../offers/offers-e2e.md#insert-decision-in-email)では、オファーを設定して決定機能で使用し、その決定結果を電子メールで活用する方法を示した&#x200B;**完全なエンドツーエンドの例**&#x200B;を紹介しています。
 
 ➡️ オファーをパーソナライゼーションとして追加する方法については、[このビデオ](#video-offers)をご覧ください
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 これで、決定がコンポーネントに追加されました。
 
-変更を保存すると、ジャーニーの一環としてメッセージを送信する際に、関連するプロファイルにオファーが表示されるようになります。
+変更内容を保存すると、ジャーニーの一環としてメッセージを送信した際に、該当するプロファイルに対してオファーが表示されるようになります。
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >メッセージのプレビューをおこなうには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を学びます。
+   >メッセージのプレビューをおこなうには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
 
 1. テストプロファイルの識別に使用する名前空間を選択するには、「**[!UICONTROL ID 名前空間]**」フィールドから「**[!UICONTROL メール]**」を選択します。
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 メッセージのプレビューを確認する詳細な手順については、[この節](#preview-your-messages)を参照してください。
 
-## ハウツービデオ{#video-offers}
+## チュートリアルビデオ{#video-offers}
 
 [!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
