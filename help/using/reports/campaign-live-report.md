@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 95%
 
 ---
 
 # キャンペーンのライブレポート {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="キャンペーンのライブレポート"
+>abstract="キャンペーンライブレポートでは、過去 24 時間の間にのみ、キャンペーンの影響とパフォーマンスをリアルタイムで測定および視覚化できます。 レポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分割されています。 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。"
 
 キャンペーンのライブレポートは、「**[!UICONTROL ライブ表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 
@@ -25,7 +30,6 @@ ht-degree: 100%
 * [メール](#email-live)
 * [プッシュ](#push-live)
 * [SMS](#sms-live)
-
 
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/live-report.md#modify-dashboard)を参照してください。
 

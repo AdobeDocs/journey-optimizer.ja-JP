@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '519'
+ht-degree: 93%
 
 ---
 
 # ランディングページのグローバルレポート {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="ランディングページのグローバルレポート"
+>abstract="ランディングページのグローバルレポートを使用すると、選択した期間におけるランディングページの影響を測定できます。 レポートは、ランディングページの成功とエラーを示す様々なウィジェットに分割されています。 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。"
 
 ランディングページ&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;のレポートには、選択した期間におけるランディングページの影響に関する詳細が表示されます。過去 24 時間のランディングページデータのみを測定するには、[ランディングページのライブレポート](lp-report-live.md)を参照してください。
 

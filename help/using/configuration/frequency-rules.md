@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '973'
+ht-degree: 87%
 
 ---
 
@@ -48,6 +48,21 @@ ht-degree: 100%
 権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
 
 ## ルールの作成 {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="メッセージルールカテゴリを選択"
+>abstract="有効化されてメッセージに適用されると、選択したカテゴリに一致するすべての頻度ルールが自動的にこのメッセージに適用されます。 現在、マーケティングカテゴリのみが使用可能です。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="ルールのキャッピングの設定"
+>abstract="顧客プロファイルに 1 ヶ月に送信できるメッセージの最大数を指定します。 頻度キャップは、毎月の暦期間に基づき、毎月の初めにリセットされます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="ルールを適用するチャネルを定義"
+>abstract="少なくとも 1 つのチャネルを選択してください。 キャッピングは、チャネル間で合計カウントとして適用されます。"
 
 新しいルールを作成するには、次の手順に従います。
 
@@ -115,26 +130,23 @@ ht-degree: 100%
 
 メッセージに頻度ルールを適用するには、次の手順に従います。
 
-1. ルールに定義したチャネルの 1 つを選択して、メッセージを作成します。
+1. を作成する際に [ジャーニー](../building-journeys/journey-gs.md)」で、ルールに定義したチャネルの 1 つを選択してメッセージを追加します。
 
 1. 定義したカテゴリを[作成したルール](#create-new-rule)に選択します。
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >現在、**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが、メッセージ頻度ルールで使用できます。
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. 次の項目をクリックします。 **[!UICONTROL 頻度ルール]** リンクをクリックし、新しいタブに頻度ルール画面を表示します。 [詳細情報](#access-rules)
 
-1. 選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
+   選択したカテゴリとチャネルに一致するすべての頻度ルールが、このメッセージに自動的に適用されます。
 
    >[!NOTE]
    >
-   >**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択したメッセージ<!--that do not have any selected category or messages -->は、頻度ルールに照らして評価されません。
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択したメッセージは、頻度ルールに照らして評価されません。
 
 1. [グローバルレポート](../reports/global-report.md)および[ライブレポート](../reports/live-report.md)では、配信から除外されたプロファイルの数を確認でき、配信から除外されたユーザーの理由として考えられる頻度ルールが一覧表示されます。
 

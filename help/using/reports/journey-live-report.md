@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 96%
 
 ---
 
 # ジャーニーライブレポート {#journey-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_live_report"
+>title="ジャーニーライブレポート"
+>abstract="ジャーニーライブレポートでは、過去 24 時間にわたってのみ、ジャーニーの影響とパフォーマンスをリアルタイムで測定および視覚化できます。 レポートは様々なウィジェットに分割され、ジャーニーの成功とエラーを示します。 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。"
 
 ジャーニーライブレポートは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、ジャーニーから直接アクセスできます。
 

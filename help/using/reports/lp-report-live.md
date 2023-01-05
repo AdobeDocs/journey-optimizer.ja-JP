@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 90%
 
 ---
 
 # ランディングページのライブレポート {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="ランディングページのライブレポート"
+>abstract="ランディングページのライブレポートでは、過去 24 時間にわたってのみ、ランディングページの影響とパフォーマンスをリアルタイムで測定および視覚化できます。 レポートは、ランディングページの成功とエラーを示す様々なウィジェットに分割されています。 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。"
 
 ランディングページの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;には、過去 24 時間にわたるランディングページの影響についての詳細が表示されます。選択した期間のランディングページデータを測定するには、[ランディングページのグローバルレポート](lp-report-global.md)を参照してください。
 

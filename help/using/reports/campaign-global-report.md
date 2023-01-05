@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 100%
+source-wordcount: '1704'
+ht-degree: 97%
 
 ---
 
 # キャンペーンのグローバルレポート {#campaign-global-report}
 
-キャンペーンのグローバルレポートには、「**[!UICONTROL 全期間]**」ボタンを使用して、キャンペーンから直接アクセスできます。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_report"
+>title="キャンペーンのグローバルレポート"
+>abstract="キャンペーンのグローバルレポートを使用すると、選択した期間におけるキャンペーンの影響を測定できます。 レポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分割されています。 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。"
+
+キャンペーンのグローバルレポートには、 **[!UICONTROL レポートを表示]** 」ボタンをクリックします。
 
 ![](assets/campaign_report_global_5.png)
 
