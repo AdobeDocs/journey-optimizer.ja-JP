@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1558'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    >[!NOTE]
    >
-   >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html?lang=ja#add-users)を参照してください。
+   >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/push_product_7.png)
 
