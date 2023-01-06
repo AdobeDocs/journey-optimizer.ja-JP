@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1577'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->ユーザーベースの ID 名前空間のみ選択できます。 参照テーブルの名前空間を定義した場合 ( 例：製品参照用の製品 ID 名前空間 ) の場合、 **名前空間** ドロップダウンリスト。
+>ユーザーベースの ID 名前空間のみ選択できます。参照テーブルの名前空間を定義した場合（例：製品参照用の ProductID 名前空間）、**名前空間**&#x200B;ドロップダウンリストでは使用できません。
 
 ## プロファイル識別子の定義 {#define-the-event-key}
 
