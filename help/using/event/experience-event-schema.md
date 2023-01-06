@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -82,11 +82,11 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 
 ### 配列{#relationships_limitations}
 
-文字列の配列（製品 ID のリストなど）に対してスキーマの関係を定義できます。
+文字列の配列（製品 ID のリストなど）に対してスキーマ関係を定義できます。
 
 ![](assets/schema15.png)
 
-ただし、オブジェクトの配列内の属性とのスキーマ関係を定義することはできません。例えば、購入情報のリスト（製品 ID、製品名、価格、割引）などです。 参照値は、 メッセージのパーソナライゼーション。
+ただし、購入情報（製品 ID、製品名、価格、割引）のリストなど、オブジェクトの配列内の属性とのスキーマ関係を定義することはできません。ジャーニー（条件、カスタムアクションなど）やメッセージのパーソナライゼーションでは、参照値は使用できません。
 
 ![](assets/schema16.png)
 
