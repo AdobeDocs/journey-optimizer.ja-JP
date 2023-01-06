@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '924'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,13 +63,13 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。セグメントの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。セグメントの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください{target=&quot;_blank&quot;}。
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。
 
    >[!NOTE]
    >
-   >ユーザーベースの ID 名前空間のみ選択できます。 参照テーブルの名前空間を定義した場合 ( 例：製品参照用の製品 ID 名前空間 ) の場合、 **名前空間** ドロップダウンリスト。
+   >ユーザーベースの ID 名前空間のみ選択できます。名前空間を参照テーブルに対して定義した場合（例：ProductID 名前空間を Product 参照に対して定義した場合）、その名前空間を&#x200B;**名前空間**&#x200B;ドロップダウンリストで使用することはできません。
 
    ![](assets/segment7.png)
 
