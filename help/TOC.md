@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1296'
 ht-degree: 100%
 
@@ -174,7 +174,7 @@ ht-degree: 100%
       + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
       + コンテンツ作成の開始 {#start-creating-content}
          + [ゼロから開始](using/email/content-from-scratch.md)
-         + [メールコンテンツのインポート](using/email/existing-content.md)
+         + [メールコンテンツの読み込み](using/email/existing-content.md)
          + [コンテンツを独自にコーディング](using/email/code-content.md)
          + [テンプレートの操作](using/email/email-templates.md)
       + コンテンツのデザイン {#add-content}
