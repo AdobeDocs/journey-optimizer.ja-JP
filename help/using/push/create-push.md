@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="迅速配信モード"
->abstract="高速配信モードでは、プッシュチャネルで 30M 未満のオーディエンスサイズに高速でメッセージを送信できます。"
+>abstract="迅速配信モードを利用すると、プッシュチャネルで 3,000 万件未満のオーディエンスサイズに高速メッセージ送信を実行できます。"
 
 以前はジャーニーのバーストモードと呼ばれていた迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。
 
