@@ -5,9 +5,9 @@ title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2220'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
    * [プッシュ通知チャネル](../push/get-started-push.md)
    * [SMS チャネル](../sms/get-started-sms.md)
 
-* 設定ガイドの構成が変更され、読みやすくなりました。 [詳細情報](../configuration/get-started-configuration.md)
+* 設定ガイドが再編成され、読みやすくなりました。 [詳細情報](../configuration/get-started-configuration.md)
 
 ## 2022年11月 {#november-2022}
 
@@ -125,7 +125,7 @@ ht-degree: 99%
 ## 2022年2月 {#feb-2022}
 
 * [!DNL Journey Optimizer] の 2022年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* この [replace](../building-journeys/functions/functionreplace.md#example_2) および [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、ターゲットパラメーターに関する追加情報と例を追加しました。”
+* この [replace](../building-journeys/functions/functionreplace.md#example_2) および [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 関数のドキュメントページを更新し、ターゲットパラメーターに関する追加情報と例を追加しました。
 * [演算子](../building-journeys/expression/operators.md#important-notes)ページにベストプラクティスが追加されました。
 
 ## 2022年1月 {#january-2022}
