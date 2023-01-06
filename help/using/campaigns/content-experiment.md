@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="コンテンツ実験"
->abstract="複数の配信処理を定義してオーディエンスに最適な組み合わせを決定するために、配信コンテンツ、件名、送信者を変更するように選択できます。"
+>abstract="複数の配信処理を定義してオーディエンスに最適な組み合わせを決定するために、配信コンテンツ、件名、送信者を変更することを選択できます。"
 
 >[!AVAILABILITY]
 >
