@@ -5,7 +5,7 @@ title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2070'
 ht-degree: 100%
 
@@ -215,7 +215,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>パーソナライズされた URL は、プロファイルの属性に応じて、受信者を web サイトの特定のページまたはパーソナライズされたマイクロサイトに誘導します。Adobe Journey Optimizer で、メッセージコンテンツの URL にパーソナライゼーションを追加できるようになりました。URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。</p>
+<p>パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。Adobe Journey Optimizer で、メッセージコンテンツの URL にパーソナライゼーションを追加できるようになりました。URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。</p>
 <p>詳しくは、<a href="../personalization/personalization-syntax.md#perso-urls">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
