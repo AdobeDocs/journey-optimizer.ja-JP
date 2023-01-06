@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
 ht-degree: 100%
 
@@ -150,7 +150,7 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 ## URL のパーソナライゼーション{#perso-urls}
 
-パーソナライズされた URL は、プロファイルの属性に応じて、受信者を web サイトの特定のページまたはパーソナライズされたマイクロサイトに誘導します。Adobe Journey Optimizer では、メッセージコンテンツの URL にパーソナライゼーションを追加できます。URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。
+パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。Adobe Journey Optimizer では、メッセージコンテンツの URL にパーソナライゼーションを追加できます。URL のパーソナライゼーションはテキストや画像に適用でき、その際にプロファイルデータやコンテキストデータを使用できます。
 
 Journey Optimizer では、パーソナライゼーションフィールドを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。URL をパーソナライズするには、次の手順に従います。
 
