@@ -6,9 +6,9 @@ description: システム管理者向けに Journey Optimizer の操作方法の
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 92%
 1. **サンドボックスを作成**&#x200B;して、インスタンスを個別の独立した仮想環境に分割します。**サンドボックス** は、[!DNL Journey Optimizer] で作成します。詳しくは、[サンドボックス](../../administration/sandboxes.md)の節を参照してください。
 
    >[!NOTE]
-   >As a **システム管理者**&#x200B;が表示されない場合は、 **[!UICONTROL サンドボックス]** メニュー [!DNL Journey Optimizer]、 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
+   >**システム管理者**&#x200B;の [!DNL Journey Optimizer] に&#x200B;**[!UICONTROL サンドボックス]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
 
 1. **製品プロファイルを把握**&#x200B;します。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにするための単一権限のセットです。詳しくは、[標準の製品プロファイル](../../administration/ootb-product-profiles.md)の節を参照してください。
 
-1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
+1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
 
 さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials Consumer Users** または／および **Assets Essentials Users** の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
@@ -42,7 +42,7 @@ ht-degree: 92%
 ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]**&#x200B;メニューを参照し、メッセージとチャネルサーフェス（メッセージプリセットなど）を設定します。
 
 >[!NOTE]
->As a **システム管理者**&#x200B;が表示されない場合は、 **[!UICONTROL チャネル]** メニュー [!DNL Journey Optimizer]、 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
+>**システム管理者**&#x200B;の [!DNL Journey Optimizer] に&#x200B;**[!UICONTROL チャネル]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
 
 以下の手順に従います。
 
