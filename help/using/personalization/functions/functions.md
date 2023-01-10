@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 サブカテゴリと関数にアクセスするには、カテゴリを選択します。
 
-サブカテゴリにアクセスするには、「`>`」アイコンをクリックします。「`+`」アイコンをクリックして関数を選択すると、その関数がパーソナライゼーション画面に自動的に追加されます。
+サブカテゴリにアクセスするには、「`>`」アイコンをクリックします。関数を選択するには、 `+` アイコン：関数がパーソナライゼーション画面に自動的に追加されます。
 
 「`...`」アイコンをクリックして関数の説明を表示し、お気に入りに追加します。[詳細情報](../personalize.md#fav)
 
@@ -146,22 +146,22 @@ ht-degree: 100%
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">絶対パス</a></td><td>この関数は、数値をその絶対値に変換します。</td>
+        <td><a href="math.md#absolute">絶対パス</a></td><td>この関数は、数値をその絶対値に変換します。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">ランダム</a></td><td>この関数は、0 ～ 1 の間のランダムな値を返します。</td>
+        <td><a href="math.md#random">ランダム</a></td><td>この関数は、0 ～ 1 の間のランダムな値を返します。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">切り捨て</a></td><td>この関数は、数値を切り捨てます。</td>
+        <td><a href="math.md#round-down">切り捨て</a></td><td>この関数は、数値を切り捨てます。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">切り上げ</a></td><td>この関数は、数値を切り上げます。</td>
+        <td><a href="math.md#round-up">切り上げ</a></td><td>この関数は、数値を切り上げます。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">パーセンテージに</a></td><td>この関数は、数値をパーセンテージに変換します。</td>
+        <td><a href="math.md#to-percentage">パーセンテージに</a></td><td>この関数は、数値をパーセンテージに変換します。</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">精度に</a></td><td>この関数は、数値を必要な精度に変換します。</td>
+        <td><a href="math.md#to-precision">精度に</a></td><td>この関数は、数値を必要な精度に変換します。</td>
     </tr>
 </table>
 
@@ -292,7 +292,7 @@ ht-degree: 100%
         <td><a href="string.md#sub-string">部分文字列</a></td><td>この関数は文字列式の開始インデックスと終了インデックスの間にある部分文字列を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">タイトルケース</a></td><td>文字列の各単語の最初の文字を大文字にするために使用します。</td>
+        <td><a href="string.md#titleCase">タイトルケース</a></td><td>この関数は、文字列の各単語の先頭文字を大文字にするために使用します。</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">ブール値に</a></td><td>この関数雨は引数の値をタイプに応じてブール値に変換します。</td>
@@ -301,7 +301,7 @@ ht-degree: 100%
         <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は引数値を日時のみの値に変換します。無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は、引数値を日時のみの値に変換します。 無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">トリミング</a></td><td>文字列の先頭と末尾の空白を削除します</td>
@@ -325,7 +325,7 @@ ht-degree: 100%
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">デフォルトのフォールバック値</a></td><td>この関数を使用すると、デフォルトで変数をレンダリングできます。</td>
+        <td><a href="helpers.md#default">デフォルトのフォールバック値</a></td><td>この関数は、デフォルトで変数をレンダリングするために使用されます。</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>配列を繰り返すために使用します。</td>
