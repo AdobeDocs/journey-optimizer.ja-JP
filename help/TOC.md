@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 99%
 
 ---
 
@@ -259,6 +259,7 @@ ht-degree: 100%
             + [ブール関数と比較関数](using/personalization/functions/operators.md)
             + [ヘルパー](using/personalization/functions/helpers.md)
             + [マップ関数](using/personalization/functions/maps.md)
+            + [数学関数](using/personalization/functions/math.md)
             + [オブジェクト関数](using/personalization/functions/objects.md)
             + [文字列関数](using/personalization/functions/string.md)
       + ユースケース{#personalization-use-cases}
