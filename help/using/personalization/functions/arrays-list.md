@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 **例**
 
-次の操作は、最も金額が高い注文の上位 5 件を返します。
+次の操作は、最も安い価格で最初の 5 件の注文を返します。
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -223,7 +223,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **例**
 
-次の操作は、最も金額が低い注文の上位 5 件を返します。
+次の操作を実行すると、最も高い価格の最後の 5 件の注文が返されます。
 
 ```sql
 {%= bottomN(orders,price, 5) %}
