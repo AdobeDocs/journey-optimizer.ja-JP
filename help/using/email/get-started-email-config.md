@@ -9,7 +9,7 @@ feature: Application Settings
 topic: Administration
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
