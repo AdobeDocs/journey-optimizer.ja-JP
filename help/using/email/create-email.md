@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!ENDTABS]
 
 ## メールコンテンツの定義 {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="E メールコンテンツの設定"
+>abstract="E メールのコンテンツを作成します。 件名を定義してから、E メールデザイナーを活用して E メールの本文を作成およびパーソナライズします。"
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メールコンテンツを設定します。[詳細情報](get-started-email-design.md)
 
