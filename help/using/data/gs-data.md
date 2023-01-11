@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: df1b520f693d33d7080b203df0d3808144feb6e3
+source-git-commit: 504e93a5c21baadf6ac938a9298c1adeb2a2d878
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 71%
@@ -36,11 +36,15 @@ ht-degree: 71%
     <br>
   </td>
 </tr>
-  <!--td>
+</table>
+
+<!--td>
     <div><img alt="retention" src="assets/do-not-localize/retention.png" />  
     <br>Retained for a stipulated duration – Industry or regional regulations (such as GDPR or CCPA) or internal data governance policies stipulate how long or how short a duration, data needs to be maintained or archived in Adobe Experience Platform Data Lake. <a href="../privacy/get-started-privacy.md">Learn more</a></div>
-  </td-->
+  </td>
 </tr>
+<tr style="border: 0;"-->
+<table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <div><img alt="ポリシー" src="assets/do-not-localize/policy.png" /><br>合意したタイムラインまたはポリシーに基づいて削除 - データ削除は、データ保護の重要な側面であり、すべてのデータガバナンスプロセスにおける重要なステップです。[!DNL Adobe Journey Optimizer] は、必要以上のデータを生成する場合があります。 また、データセットに必要な期間が経過した後の動作について、（ユーティリティまたは規制のために）細心の注意を払う必要があります。必要な制御は、特定の時点でデータを削除することです。<a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=ja">データハイジーンについて詳しくは、Adobe Experience Platform のドキュメントを参照してください</a></div>
