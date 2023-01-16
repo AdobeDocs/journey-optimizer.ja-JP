@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 100%
+source-wordcount: '1013'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
  </tbody> 
 </table>
 
-### メールと SMS の指標 {#email-and-sms-metrics}
+### E メールおよび SMS のディメンションと指標 {#email-and-sms-metrics}
 
 <table> 
  <thead> 

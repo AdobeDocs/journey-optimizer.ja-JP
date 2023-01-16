@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 100%
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
  </tbody> 
 </table>
 
-### メールと SMS の指標 {#email-and-sms-metrics}
+### E メールおよび SMS のディメンションと指標 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
    <td>訪問回数<br/> </td> 
    <td>ランディングページへの訪問回数（1 人の受信者による複数回の訪問を含みます）。<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### プッシュ通知指標
-
-<table> 
- <thead> 
-  <tr> 
-   <th> 指標<br/> </th> 
-   <th> 定義<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>アクション<br/> </td> 
-   <td> 配信されたプッシュ通知に対するアクション（ボタンのクリックや解除など）の合計数。<br/> </td> 
-</tr>
-  <tr> 
-   <td>バウンス<br/> </td> 
-   <td> 送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> バウンス率<br/> </td> 
-   <td> 送信されたプッシュ通知と比較した、バウンスしたプッシュ通知の割合。<br/> </td>
-</tr>
-  <tr> 
-   <td> 配信済み<br/> </td> 
-   <td> 送信されたメッセージの総数に対する、正常に送信されたメッセージの数。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 配信率<br/> </td> 
-   <td> 正常に送信されたプッシュ通知の割合。<br/> </td> 
-</tr>
-  <tr> 
-   <td>エンゲージメント<br/> </td> 
-   <td> このプッシュ通知に対する開封数とアクション数（プロファイルによるプッシュの開封や、ボタンのクリックなど）の合計。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> エンゲージメント率<br/> </td> 
-   <td> このプッシュ通知の開封とアクションの割合（プロファイルによるプッシュの開封や、ボタンのクリックなど）。<br/> </td> 
-</tr>
-  <tr> 
-   <td> エラー<br/> </td> 
-   <td> 配信中に発生し、プロファイルに送信できなかったエラーの合計数。<br/> </td> 
-</tr>
-  <tr> 
-   <td> エラー率<br/> </td> 
-   <td> 送信済みのプッシュ通知に対する、配信中に発生して送信の妨げとなったエラーの割合。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 除外済み<br/> </td> 
-   <td> Adobe Journey Optimizer によって除外されたプロファイルの数。<br/> </td> 
-</tr>
-  <tr> 
-   <td> 開封数<br/> </td> 
-   <td> デバイスに配信され、ユーザーがクリックしてアプリを起動したプッシュ通知の合計数。これは、プッシュクリックと似ていますが、通知が閉じられた場合にプッシュオープンがトリガーされない点が異なります。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 開封率<br/> </td> 
-   <td> 開封されたプッシュ通知の割合。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 送信済み<br/> </td> 
-   <td> 配信に対する送信の合計数。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> ターゲット<br/> </td> 
-   <td> 配信の分析中に処理されたプッシュメッセージの合計数。<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
