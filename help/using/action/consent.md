@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 同意ポリシーの使用
 description: Adobe Experience Platformの同意ポリシーの操作方法を説明します
-feature: Data Governance
+feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
 keywords: ポリシー，ガバナンス，プラットフォーム，ヘルスケアシールド，同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 98%

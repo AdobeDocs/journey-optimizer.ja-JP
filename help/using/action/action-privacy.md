@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: データガバナンス
 description: ラベルとマーケティングアクションにリンクされたガバナンスポリシーを定義する
-feature: Data Governance
+feature: Privacy
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: データ，ガバナンス， DULE，ラベル，ラベル付け，プラットフォーム，ポリシー
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 97%
