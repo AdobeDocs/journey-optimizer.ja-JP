@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: a5b49f113fa0f1375f74368a63ea19789f3798c2
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >[!DNL Adobe Journey Optimizer] と別の製品（[!DNL Adobe Campaign] または [!DNL Adobe Marketo Engage] など）から同じ送信ドメインを使用してメッセージを送信することはできません。
 
-## サブドメインを設定する理由 {#why-setting-up-subdomains}
+## サブドメインを設定する理由 {#why-set-up-subdomains}
 
 サブドメインとは、ブランドを分離したり、様々なタイプのトラフィック（トランザクションメッセージ、アドビからのお知らせなど）を分離したりするのに使用できる、ドメインの区分です。
 
