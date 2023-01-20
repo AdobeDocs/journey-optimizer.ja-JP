@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Campaign Standard との統合
-description: Adobe Campaign Standard との統合方法を学ぶ
+description: Journey OptimizerとAdobe Campaign Standardの統合方法を説明します
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: キャンペーン，標準，統合，制限，アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 

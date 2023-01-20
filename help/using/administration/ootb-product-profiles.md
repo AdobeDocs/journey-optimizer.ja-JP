@@ -5,13 +5,14 @@ title: ビルトインの製品プロファイル
 description: ビルトインの製品プロファイルの詳細
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin, User
 level: Intermediate
+keywords: 権限、オーサリング、メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1118'
+ht-degree: 99%
 
 ---
 

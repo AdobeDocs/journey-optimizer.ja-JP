@@ -5,13 +5,14 @@ title: サンドボックス管理
 description: サンドボックスの管理方法について学ぶ
 feature: Sandboxes
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Architect, Developer
+level: Experienced
+keywords: サンドボックス，仮想，環境，組織，プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 100%
 サンドボックスは、Admin Console の製品プロファイルから割り当てられます。[サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] は、特定の組織用に作成された Adobe Experience Platform サンドボックスを反映します。
-Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳細については、Sandbox ユーザーガイドを参照](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}してください。
+Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳しくは、サンドボックスユーザーガイドを参照してください。](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}.
 
 画面の右上の組織名の横に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
 
@@ -35,7 +36,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 >[!IMPORTANT]
 >
-> サンドボックスの管理は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳細については、[Admin Console のドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}を参照してください。
+> サンドボックスの管理は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、 [Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
 標準またはカスタムの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に異なるサンドボックスを割り当てることもできます。
 
@@ -53,7 +54,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
    ![](assets/sandbox_2.png)
 
-1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細については、こちらを参照](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target=&quot;_blank&quot;}してください。
+1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}.
 
    ![](assets/sandbox_3.png)
 
@@ -71,7 +72,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 コンテンツを正しいサンドボックスと同期させるには、サンドボックスと同じ構文に従う必要があります。例えば、サンドボックスの名前が「開発」の場合、共有フォルダーも同じ名前にする必要があります。
 
-[共有フォルダーの管理方法については、こちらを参照](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}してください。
+[共有フォルダーの管理方法の詳細](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## ハウツービデオ{#video}
 
