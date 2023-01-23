@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Journey Optimizer] のデータの基本を学ぶ'
-description: ' [!DNL Journey Optimizer] のデータを操作する方法を学ぶ'
+title: Journey Optimizerでのデータの概要
+description: Journey Optimizerでのデータの操作方法を説明します
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: データ、管理、プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 504e93a5c21baadf6ac938a9298c1adeb2a2d878
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 71%
+source-wordcount: '690'
+ht-degree: 68%
 
 ---
 
@@ -58,7 +59,7 @@ ht-degree: 71%
 
 以下を使用して、 [!DNL Journey Optimizer]のデータは、データの保持、アーカイブ、削除に関する特定の要件に対応する柔軟性を備えています。
 
-* **データの抽出／エクスポート**：ソースデータの抽出は、データアクセス API を使用して、ペナルティや時間の遅延なしでいつでも開始できます。この [データアクセス API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ja){target=&quot;_blank&quot;} は、内に取り込んだデータセットの検出性とアクセシビリティに重点を置いた RESTful インターフェイスをユーザーに提供します [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **データの抽出／エクスポート**：ソースデータの抽出は、データアクセス API を使用して、ペナルティや時間の遅延なしでいつでも開始できます。この [データアクセス API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ja){target="_blank"} は、内で取り込んだデータセットの検出性とアクセシビリティに重点を置いた RESTful インターフェイスをユーザーに提供します。 [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    ジャーニーやキャンペーンで使用されるコンテンツは、上記の API または宛先メソッドを介して抽出できません。
 
@@ -70,7 +71,7 @@ ht-degree: 71%
 
 * **パージとアーカイブのメカニズム**[!DNL Adobe Journey Optimizer]：データのパージとアーカイブは、 で自由に定義および自動化して、データ保持ポリシーを自動化できます。異なるデータエンティティに対して様々なエージング戦略を定義できます。また、古いデータをパージまたはアーカイブする前に自動的にエクスポートするように、エクスポートメカニズムを定義することもできます。
 
-   Adobe Experience Platform UI のデータハイジーンワークスペースを使用すると、様々なデータハイジーンタスク（消費者 ID の削除やデータセット有効期限のスケジュール設定など）を作成および監視できます。このワークスペースは、セキュリティとプライバシーのシールドとヘルスケアのシールドで利用できます。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   Adobe Experience Platform UI のデータハイジーンワークスペースを使用すると、様々なデータハイジーンタスク（消費者 ID の削除やデータセット有効期限のスケジュール設定など）を作成および監視できます。このワークスペースは、セキュリティとプライバシーのシールドとヘルスケアのシールドで利用できます。詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=ja){target="_blank"}.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

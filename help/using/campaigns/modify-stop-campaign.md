@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンの変更または停止
-description: ' [!DNL Journey Optimizer] でライブキャンペーンを変更、停止、複製する方法を説明します。'
+description: Journey Optimizerでライブキャンペーンを変更、停止、複製する方法を説明します
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: キャンペーンの管理，ステータス，スケジュール，アクセス，オプティマイザ
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +76,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->キャンペーンを停止しても、その時点で送信中のキャンペーンは停止されませんが、スケジュール済みの送信や、送信中のキャンペーンの次回の送信が停止されます。
+>キャンペーンを停止しても、その時点で進行中の送信は停止しませんが、スケジュール済みの送信や次回の送信（進行中の送信がある場合）が停止します。
 
 <!-- inbound campaign (inapp): can stop and resume -->
 

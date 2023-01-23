@@ -7,11 +7,12 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 許可リスト、リスト、安全、設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '1034'
+ht-degree: 95%
 
 ---
 
@@ -141,7 +142,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}で確認することができます。
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、 [このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例：
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -153,7 +154,7 @@ ht-degree: 100%
 
 「**追加**」、「**削除**」および「**取得**」の操作を実行できます。
 
-API 呼び出しについて詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target=&quot;_blank&quot;} リファレンスドキュメントを参照してください。
+での API 呼び出しの実行について詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target="_blank"} 参照ドキュメント。
 
 ## 許可リストのロジック {#logic}
 
@@ -180,7 +181,7 @@ API 呼び出しについて詳しくは、 [Adobe Experience Platform API](http
 
 ## 除外レポート {#reporting}
 
-許可リストがアクティブな場合は、許可リスト上になかったので、送信から除外されたメールアドレスまたはドメインを取得できます。それには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target=&quot;_blank&quot;} を使用して、以下の API 呼び出しを行います。
+許可リストがアクティブな場合は、許可リスト上になかったので、送信から除外されたメールアドレスまたはドメインを取得できます。これをおこなうには、 [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} を使用して、以下の API 呼び出しをおこないます。
 
 受信者が許可リストに登録されていなかったので送信されなかった&#x200B;**メールの数**&#x200B;を取得するには、次のクエリを使用します。
 

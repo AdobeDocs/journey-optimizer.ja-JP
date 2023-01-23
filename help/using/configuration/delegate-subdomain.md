@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: サブドメイン、デリゲーション、ドメイン、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: fc88faceceea0312417e1176a5a61c1c03a6f01b
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1779'
 ht-degree: 98%
 
 ---

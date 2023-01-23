@@ -6,11 +6,12 @@ description: Adobe Journey Optimizer でクエリを作成する方法を説明�
 feature: Schemas
 role: User
 level: Beginner
+keywords: クエリ、プラットフォーム、データ、調査
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 82%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 100%
 
 ![](assets/queries-home.png)
 
-クエリエディターの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+でのクエリエディターの使用方法を説明します。 [このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ja){target="_blank"}.
 
 **関連トピック**
 
-* [クエリサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target=&quot;_blank&quot;}
-* [クエリサービスの概要ビデオ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ja){target=&quot;_blank&quot;}
+* [クエリサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
+* [クエリサービスの概要ビデオ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ja){target="_blank"}

@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンの作成
-description: ' [!DNL Journey Optimizer] でキャンペーンを作成する方法を説明します'
+description: Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 作成，最適化，キャンペーン，サーフェス，メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="キャンペーンのタイプ"
->abstract="送信日を指定したマーケティングメッセージには、**スケジュール済み**&#x200B;タイプが最適です。ただし、パスワードのリセットやカードの放棄などのトランザクションメッセージを送信する場合は、**API トリガー**&#x200B;タイプが最適な選択肢です。"
+>abstract="送信日を指定したマーケティングメッセージには、**スケジュール型**&#x200B;タイプが最適です。ただし、パスワードのリセットやカードの放棄などのトランザクションメッセージを送信する場合は、**API トリガー**&#x200B;タイプが最適な選択肢です。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
@@ -161,4 +162,4 @@ ht-degree: 100%
 
 ![](assets/create-campaign-schedule.png)
 
-キャンペーンの準備が整ったら、キャンペーンをレビューして公開できます。 [詳細情報](#review-activate)
+キャンペーンの準備が整ったら、キャンペーンをレビューして公開できます。 [詳細情報](review-activate-campaign.md)

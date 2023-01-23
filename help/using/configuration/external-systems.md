@@ -5,11 +5,12 @@ title: Journey Optimizer と外部システムの統合
 description: Journey Optimizer を外部システムと統合する際のベストプラクティスを説明します
 role: User
 level: Beginner
+keywords: 外部， API，オプティマイザ，制限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -43,7 +44,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 たとえば、外部システムに対して 1 秒あたり 100 呼び出しまで、というキャッピングルールを定義したとします。 システムは、10 の異なるジャーニーのカスタムアクションによって呼び出されます。 1 つのジャーニーが 1 秒間に 200 通の呼び出しを受け取った場合、使用可能な 100 個のスロットを使用し、残りの 100 個のスロットを破棄します。 最大レートを超えたので、他の 9 つのジャーニーにはスロットは残りません。この精度は、外部システムを過負荷やクラッシュから保護するのに役立ちます。
 
-キャッピング API の詳細とキャッピングルールの設定方法については、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+キャッピング API とキャッピングルールの設定方法について詳しくは、 [Journey Orchestration文書](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}.
 
 ## タイムアウトと再試行{#timeout}
 
@@ -71,7 +72,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 **キャッピングルールはどのようにして設定できますか？デフォルトのキャッピングルールはありますか？**
 
-デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 [この節](../configuration/external-systems.md#capping)と [Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+デフォルトでは、キャッピングルールはありません。 キャッピングルールは、キャッピング API を使用して、特定のエンドポイント（呼び出された URL）のサンドボックスレベルで定義されます。 参照： [この節](../configuration/external-systems.md#capping) および [Journey Orchestration文書](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}.
 
 **再試行は何回行われますか？再試行の回数を変更したり、再試行間の最小待ち時間を定義したりできますか？**
 

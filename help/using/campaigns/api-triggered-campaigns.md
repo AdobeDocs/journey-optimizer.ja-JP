@@ -2,12 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API を使用したキャンペーンのトリガー
-description: ' [!DNL Journey Optimizer] API を使用してキャンペーンをトリガーする方法を説明します'
+description: Journey Optimizer API を使用してキャンペーンをトリガー化する方法を説明します
+topic: Content Management
+role: Developer, Admin
+level: Intermediate, Experienced
+keywords: キャンペーン， API トリガー， REST，オプティマイザ，メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
@@ -49,13 +53,13 @@ API トリガーキャンペーンを作成するには、次の手順に従い�
 
 1. キャンペーンの開始日と終了日を設定します。
 
-   キャンペーンの特定の開始日や終了日を設定した場合、そのキャンペーンはこれらの日付以外では実行されず、キャンペーンが API によってトリガーされると API 呼び出しは失敗します。
+   キャンペーンの開始日や終了日を特定の日付に設定した場合、そのキャンペーンはこれらの日付以外では実行されず、キャンペーンが API によってトリガーされると API 呼び出しは失敗します。
 
 1. 「**[!UICONTROL cURL リクエスト]**」セクションで、API ペイロードで使用する&#x200B;**[!UICONTROL キャンペーン ID]** を取得します。
 
    ![](assets/api-triggered-curl.png)
 
-1. 「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンが正しく設定されていることを確認してからアクティブ化します。
+1. 「**[!UICONTROL レビューしてアクティベート]**」をクリックして、キャンペーンが正しく設定されていることを確認してからアクティブ化します。
 
 ## API トリガーキャンペーンでのコンテキスト属性の使用 {#contextual}
 

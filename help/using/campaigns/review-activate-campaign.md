@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンのレビューとアクティブ化
-description: ' [!DNL Journey Optimizer] でキャンペーンをレビューおよびアクティブ化する方法について説明します'
+description: Journey Optimizerでキャンペーンを確認してアクティブ化する方法を説明します
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: キャンペーン，レビュー，検証，有効化，有効化，最適化
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +34,7 @@ ht-degree: 100%
 
    ![](assets/create-campaign-review.png)
 
-1. これで、キャンペーンがアクティブ化されました。 ステータスは&#x200B;**[!UICONTROL ライブ]**、開始日を入力した場合は&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;です。[キャンペーンのステータスについて詳しくはこちらを参照](get-started-with-campaigns.md#statuses).
+1. これで、キャンペーンがアクティブ化されました。 ステータスは&#x200B;**[!UICONTROL ライブ]**、開始日を入力した場合は&#x200B;**[!UICONTROL スケジュール型]**&#x200B;です。[キャンペーンのステータスについて詳しくはこちらを参照](get-started-with-campaigns.md#statuses).
 
    キャンペーンで設定されたメッセージは、すぐに送信されるか、指定日に送信されます。
 

@@ -7,11 +7,12 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: データ，ソース，設定，フィールド
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 99%
 
 ---
 

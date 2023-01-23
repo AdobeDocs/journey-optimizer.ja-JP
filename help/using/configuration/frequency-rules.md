@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: メッセージ，頻度，ルール，頻度
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '977'
 ht-degree: 87%
 
 ---

@@ -5,13 +5,14 @@ title: Adobe Experience Platform のデータソース
 description: Adobe Experience Platform のデータソースの設定方法を学ぶ
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: 組み込み，ソース，データ，プラットフォーム，統合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '425'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 100%
 >title="Adobe Experience Platform のデータソース"
 >abstract="Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは組み込みで事前に設定されているので、削除できません。これは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリしたユーザーが女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。"
 
-Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは組み込みで事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。Adobe リアルタイム顧客プロファイルサービスについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースは組み込みで事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。プロファイルデータとエクスペリエンスイベントデータを使用できます。リアルタイムAdobeプロファイルについて詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}.
 
 
 リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。[詳細情報](../building-journeys/journey.md)。

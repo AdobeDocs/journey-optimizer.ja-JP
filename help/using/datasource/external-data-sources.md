@@ -7,11 +7,12 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 外部，ソース，データ，設定，接続，サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1423'
+ht-degree: 99%
 
 ---
 
