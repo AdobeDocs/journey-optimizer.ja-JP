@@ -3,13 +3,14 @@ product: journey optimizer
 title: setDays
 description: setDays 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: setDays，関数，式，ジャーニー
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 100%
+source-wordcount: '78'
+ht-degree: 96%
 
 ---
 

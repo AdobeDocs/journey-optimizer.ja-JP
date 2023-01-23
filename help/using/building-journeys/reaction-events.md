@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: ジャーニー，イベント，反応，トラッキング，プラットフォーム
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 98%
 
 ---
 

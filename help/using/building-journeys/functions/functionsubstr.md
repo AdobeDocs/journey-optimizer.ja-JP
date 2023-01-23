@@ -3,13 +3,14 @@ product: journey optimizer
 title: substr
 description: substr 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: substr，関数，式，ジャーニー
 exl-id: 58a3107a-b4f3-43da-b454-5ce597515847
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '68'
+ht-degree: 95%
 
 ---
 

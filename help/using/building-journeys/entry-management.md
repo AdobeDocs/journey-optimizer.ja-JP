@@ -6,11 +6,12 @@ description: プロファイルエントリの管理方法について説明し�
 feature: Journeys
 role: User
 level: Intermediate
+keywords: 再入場，ジャーニー，プロファイル，繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 100%
 
 ![](assets/journey-re-entrance.png)
 
-ジャーニーが終了すると、そのステータスは&#x200B;**[!UICONTROL クローズ]**&#x200B;になります。新しい個人は、ジャーニーにエントリできなくなります。既にジャーニーにエントリしているユーザーは、通常どおりにジャーニーを終了できます。
+ジャーニーが終了すると、そのステータスは&#x200B;**[!UICONTROL クローズ]**&#x200B;になります。新しい個人は、ジャーニーにエントリできなくなります。 既にジャーニーにエントリしているユーザーは、通常どおりにジャーニーを終了できます。
 
 デフォルトのグローバルタイムアウトである 30 日が経過すると、ジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。[詳細情報](journey-gs.md#global_timeout)。
 

@@ -3,13 +3,14 @@ product: journey optimizer
 title: distinct
 description: distinct 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: distinct，関数，式，ジャーニー
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 98%
 
 ---
 

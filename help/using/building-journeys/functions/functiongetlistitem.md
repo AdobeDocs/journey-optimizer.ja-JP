@@ -3,13 +3,14 @@ product: journey optimizer
 title: getListItem
 description: gstListItem 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: getListItem，関数，式，ジャーニー
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 96%
 
 ---
 

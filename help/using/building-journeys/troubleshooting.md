@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: トラブルシューティング，トラブルシューティング，ジャーニー，チェック，エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 100%
+source-wordcount: '1030'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +50,7 @@ ht-degree: 100%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、 [Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target=&quot;_blank&quot;}でストリーミング取得 API のトラブルシューティングを参照してください。
+イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。その結果、イベントに関する問題が発生した場合は、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"} ストリーミング取得 API のトラブルシューティング。
 
 ## ジャーニーへのエントリを確認{#checking-if-people-enter-the-journey}
 

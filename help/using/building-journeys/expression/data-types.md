@@ -4,13 +4,14 @@ product: journey optimizer
 title: データタイプ
 description: 高度な式で使用できるデータタイプについて説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 式，データ，データタイプ，ジャーニー
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 99%
 
 ---
 

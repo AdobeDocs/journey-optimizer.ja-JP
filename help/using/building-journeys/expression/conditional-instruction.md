@@ -4,13 +4,14 @@ product: journey optimizer
 title: 条件命令（if、then、else）
 description: 条件命令について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 詳細，条件，アクション，ジャーニー
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 97%
 
 ---
 

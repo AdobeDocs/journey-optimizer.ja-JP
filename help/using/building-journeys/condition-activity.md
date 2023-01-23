@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: アクティビティ，条件，キャンバス，ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -60,7 +61,7 @@ ht-degree: 100%
 
 ![](assets/journey64.png)
 
-[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target=&quot;_blank&quot;} を使用してセグメントを作成する場合は、それらのセグメントをジャーニー条件で利用できます。[条件でのセグメントの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja) を使用してセグメントを作成している場合は、それらのセグメントをジャーニー条件で利用できます。{target="_blank"}[条件でのセグメントの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
 
 
 >[!NOTE]
@@ -161,4 +162,4 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >セグメントの参加ステータスが「**実現**」および「**既存**」の個人のみが、セグメントのメンバーと見なされます。セグメントの評価方法について詳しくは、[Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target=&quot;_blank&quot;}を参照してください。
+   >セグメントの参加ステータスが「**実現**」および「**既存**」の個人のみが、セグメントのメンバーと見なされます。セグメントの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}.

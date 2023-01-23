@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: ジャーニー，ユースケース，メッセージ，購読者，リスト，読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 97%
 
 ---
 

@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: テストプロファイル，テスト，テスト，ジャーニー
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 100%
+source-wordcount: '1368'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +28,9 @@ ht-degree: 100%
 
    これら 2 つの方法に加えて、Adobe Journey Optimizer には、テストプロファイルを容易に容易できる特定の[製品内ユースケース](#use-case-1)が用意されています。
 
-既存のデータセットで json ファイルをアップロードすることもできます。詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target=&quot;_blank&quot;}を参照してください。
+既存のデータセットで json ファイルをアップロードすることもできます。詳しくは、 [データ取得ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target="_blank"}.
 
-テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、 [リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}.
 
 ➡️ [テストプロファイルの作成方法は、このビデオを参照してください](#video)
 
@@ -66,7 +67,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->スキーマの作成について詳しくは、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target=&quot;_blank&quot;}を参照してください。
+>スキーマの作成について詳しくは、 [XDM ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}.
 
 次に、プロファイルのインポート先となる&#x200B;**データセットを作成**&#x200B;する必要があります。次の手順に従います。
 
@@ -83,7 +84,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
+> データセットの作成について詳しくは、 [カタログサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target="_blank"}.
 
 ## 製品内のユースケース{#use-case-1}
 
@@ -178,11 +179,11 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 テストプロファイルが追加され、ジャーニーのテストで使用できるようになりました。[この節](../building-journeys/testing-the-journey.md)を参照してください。
 >[!NOTE]
 >
-> CSV の読み込みについて詳しくは、[データ取り込みドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target=&quot;_blank&quot;}を参照してください。
+> csv のインポートの詳細については、 [データ取得ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target="_blank"}.
 
 ## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
-また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}.
 
 「プロファイルテストの詳細」フィールドグループを含むプロファイルスキーマを使用する必要があります。testProfile フラグは、このフィールドグループの一部です。プロファイルを作成する場合は、次の値を渡す必要があります：testProfile = true
 

@@ -4,13 +4,14 @@ product: journey optimizer
 title: 高度な式エディターの使用
 description: 高度な式の作成方法について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 式、条件、ユースケース、イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 99%
 
 ---
 

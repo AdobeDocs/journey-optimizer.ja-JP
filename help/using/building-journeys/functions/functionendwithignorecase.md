@@ -3,13 +3,14 @@ product: journey optimizer
 title: endWithIgnoreCase
 description: endWithIgnoreCase 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: endWithIgnoreCase，関数，式，ジャーニー
 exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 100%
+source-wordcount: '52'
+ht-degree: 94%
 
 ---
 

@@ -3,13 +3,14 @@ product: journey optimizer
 title: concat
 description: concat 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: concat，関数，式，ジャーニー
 exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 100%
+source-wordcount: '44'
+ht-degree: 93%
 
 ---
 

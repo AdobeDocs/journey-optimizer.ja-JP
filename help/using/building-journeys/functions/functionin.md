@@ -3,13 +3,14 @@ product: journey optimizer
 title: in
 description: in 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: in，関数，式，ジャーニー
 exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 97%
 
 ---
 

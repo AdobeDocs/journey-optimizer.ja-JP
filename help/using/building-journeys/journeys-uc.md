@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: ユースケース，マルチチャネル，メッセージ，ジャーニー，チャネル，イベント，プッシュ
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '868'
+ht-degree: 99%
 
 ---
 

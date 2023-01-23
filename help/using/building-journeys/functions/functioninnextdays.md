@@ -3,13 +3,14 @@ product: journey optimizer
 title: inNextDays
 description: inNextDays 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: inNextDays，関数，式，ジャーニー
 exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 100%
+source-wordcount: '48'
+ht-degree: 93%
 
 ---
 

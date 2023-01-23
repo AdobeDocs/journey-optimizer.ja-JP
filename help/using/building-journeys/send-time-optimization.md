@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 送信時間，送信，メッセージ，最適化，ジャーニー， AI，インテリジェント
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '490'
+ht-degree: 98%
 
 ---
 
