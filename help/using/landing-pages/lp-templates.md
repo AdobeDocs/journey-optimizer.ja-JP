@@ -7,11 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: ランディング、ランディングページ、作成、テンプレート
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 97%
 
 ---
 

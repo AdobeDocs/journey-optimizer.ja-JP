@@ -7,11 +7,12 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
+keywords: アプリ内，メッセージ，作成，開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 99%
 
 ---
 

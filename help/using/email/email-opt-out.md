@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: オプトアウト、E メール、リンク、配信停止
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 93%
 
 ---
 
@@ -59,7 +60,7 @@ ht-degree: 100%
 
 ### オプトアウト用の API 呼び出しの実装 {#opt-out-api}
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} を使用して&#x200B;**購読 API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択を送信する際にオプトアウトするには、 **購読 API 呼び出し** 経由 [Adobe Developer](https://developer.adobe.com/){target="_blank"} をクリックして、対応するプロファイルの環境設定を更新します。
 
 この POST 呼び出しは次の通りです。
 
@@ -97,7 +98,7 @@ ht-degree: 100%
 }
 ```
 
-[!DNL Journey Optimizer] はこれらのパラメーターを使用し、[Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
+[!DNL Journey Optimizer] がこれらのパラメーターを使用し、 [Adobe Developer](https://developer.adobe.com){target="_blank"} API 呼び出し。
 
 ### 購読解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ ht-degree: 100%
 
    その結果、購読を再度登録しない限り、このユーザーはブランドから連絡を受けることはありません。
 
-1. 対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
+1. 対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、 [Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ ht-degree: 100%
    >
    >メッセージコンテンツにワンクリックオプトアウトリンクを追加しない場合、ランディングページは表示されません。
 
-* 対応するプロファイルが直ちにオプトアウトされ、この選択が Experience Platform で更新されます。詳しくは、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
+* 対応するプロファイルが直ちにオプトアウトされ、この選択が Experience Platform で更新されます。詳しくは、 [Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}.

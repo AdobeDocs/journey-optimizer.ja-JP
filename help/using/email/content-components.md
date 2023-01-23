@@ -7,11 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: コンポーネント， e メールデザイナー，エディタ，電子メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 100%
+source-wordcount: '1383'
+ht-degree: 98%
 
 ---
 
@@ -157,7 +158,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。
 
-   [!DNL Assets Essentials] について詳しくは、[Adobe Experience Manager Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   詳しくは、以下を参照してください。 [!DNL Assets Essentials]（を参照） [Adobe Experience Manager Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}.
 
 1. 新しく追加したコンポーネントをクリックし、**[!UICONTROL コンポーネント設定]**&#x200B;ペインを使用して画像プロパティを設定します。
 

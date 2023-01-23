@@ -7,11 +7,12 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: ステップ，設定，ジャーニー，イベント，ストリーム， API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 イベントを&#x200B;**[!UICONTROL ストリーミング取り込み API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience Platform API からインレット URL を取得します。詳しくは、[ストリーミング取得 API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+1. Adobe Experience Platform API からインレット URL を取得します。詳しくは、 [ストリーミング取得 API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}.
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。
@@ -87,6 +88,6 @@ ht-degree: 100%
 }
 ```
 
-「data」部分をどこに貼り付けるかを特定しやすくするために、[JSON フォーマッター](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}などの JSON ビジュアライゼーションツールを使用できます。
+「データ」部分を貼り付ける場所を容易に特定できるように、次のような JSON ビジュアライゼーションツールを使用できます。 [JSON フォーマッター](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-ストリーミング取得 API のトラブルシューティングについては、[Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+ストリーミング取得 API のトラブルシューティングについては、 [Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"}.

@@ -7,11 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 垂直方向の位置揃え， E メールエディター，パディング
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 96%
 
 ---
 

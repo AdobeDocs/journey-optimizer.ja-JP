@@ -7,11 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 設定，電子メール，設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 100%
+source-wordcount: '1436'
+ht-degree: 99%
 
 ---
 
