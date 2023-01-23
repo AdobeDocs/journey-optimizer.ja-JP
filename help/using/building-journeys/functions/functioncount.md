@@ -3,13 +3,14 @@ product: journey optimizer
 title: count
 description: count 関数について説明します
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: count，関数，式，ジャーニー
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 100%
+source-wordcount: '56'
+ht-degree: 94%
 
 ---
 
