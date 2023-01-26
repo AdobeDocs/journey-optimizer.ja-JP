@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: データ、管理、プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 65%
+source-wordcount: '660'
+ht-degree: 64%
 
 ---
 
@@ -48,7 +48,11 @@ ht-degree: 65%
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <div><img alt="ポリシー" src="assets/do-not-localize/policy.png" /><br>合意したタイムラインまたはポリシーに基づいて削除 - データ削除は、データ保護の重要な側面であり、すべてのデータガバナンスプロセスにおける重要なステップです。[!DNL Adobe Journey Optimizer] は、必要以上のデータを生成する場合があります。 また、データセットに必要な期間が経過した後の動作について、（ユーティリティまたは規制のために）細心の注意を払う必要があります。必要な制御は、特定の時点でデータを削除することです。<a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=ja">データハイジーンについて詳しくは、Adobe Experience Platform のドキュメントを参照してください</a></div>
+    <div><img alt="ポリシー" src="assets/do-not-localize/policy.png" /><br>合意したタイムラインまたはポリシーに基づいて削除 - データ削除は、データ保護の重要な側面であり、すべてのデータガバナンスプロセスにおける重要なステップです。[!DNL Adobe Journey Optimizer] は、必要以上のデータを生成する場合があります。 また、データセットに必要な期間が経過した後の動作について、（ユーティリティまたは規制のために）細心の注意を払う必要があります。必要な制御は、特定の時点でデータを削除することです。 
+    </div>
+      <div>
+     (<a href="../privacy/data-hygiene.md">詳細情報</a>)</div>
+    </div>
   </td>
 </tr>
 </table>
