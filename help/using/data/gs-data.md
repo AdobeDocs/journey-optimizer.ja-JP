@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: データ、管理、プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 68%
+source-wordcount: '675'
+ht-degree: 65%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 68%
 
 * **パージとアーカイブのメカニズム**[!DNL Adobe Journey Optimizer]：データのパージとアーカイブは、 で自由に定義および自動化して、データ保持ポリシーを自動化できます。異なるデータエンティティに対して様々なエージング戦略を定義できます。また、古いデータをパージまたはアーカイブする前に自動的にエクスポートするように、エクスポートメカニズムを定義することもできます。
 
-   Adobe Experience Platform UI のデータハイジーンワークスペースを使用すると、様々なデータハイジーンタスク（消費者 ID の削除やデータセット有効期限のスケジュール設定など）を作成および監視できます。このワークスペースは、セキュリティとプライバシーのシールドとヘルスケアのシールドで利用できます。詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=ja){target="_blank"}.
+   データ衛生ワークスペースを使用すると、消費者 ID の削除やデータセット有効期限のスケジュール設定など、様々なデータ衛生タスクを作成および監視できます。 このワークスペースは、セキュリティとプライバシーのシールドとヘルスケアのシールドで利用できます。詳しくは、[このページ](../privacy/data-hygiene.md)を参照してください。
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
