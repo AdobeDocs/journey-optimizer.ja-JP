@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 17%
 
 ---
@@ -36,10 +36,10 @@ ht-degree: 17%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platformには、消費者レコードとデータセットをプログラムで削除することで、保存されたデータを管理できる、一連のデータ衛生機能が用意されています。 この機能は、Adobe Journey Optimizerで使用できるようになりました。 </p>
+<p>Adobe Experience Platformには、消費者レコードとデータセットをプログラム的に削除することで、保存されたデータを管理できる、一連のデータ衛生機能が用意されています。 この機能は、Adobe Journey Optimizerで使用できるようになりました。 </p>
 <p>データストアを管理して、情報が期待どおりに使用され、不適切なデータ修正が必要な場合は更新され、組織のポリシーで必要と判断される場合は削除されるようにします。</p>
-<p><strong>注意</strong>  — 現在、データ衛生機能は、Healthcare Shield アドオン機能を購入した組織でのみ利用できます。</p>
-<p>詳しくは、 <a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
+<p><strong>注意</strong>  — データ衛生機能は、現在、 <strong>医療用盾</strong> および <strong>プライバシーとセキュリティシールド</strong> アドオンサービス</p><p>詳しくは、 <a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
+
 </td>
 </tr>
 </tbody>
