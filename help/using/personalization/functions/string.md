@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 100%
+source-wordcount: '1808'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 `camelCase` 関数は、文字列の各単語の最初の文字を大文字にします。
 
-**形式**
+**構文**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ ht-degree: 100%
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## 次の場所の文字コード {#char-code-at}
+
+この `charCodeAt` 関数は、JavaScript の charCodeAt 関数と同様に、文字の ASCII 値を返します。 文字列と整数（文字の位置を定義する）を入力引数として受け取り、対応する ASCII 値を返します。
+
+**構文**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**例**
+
+次の関数は、ASCII 値 (111) を返します。
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## 連結 {#concate}
 
 `concat` 関数は、2 つの文字列を 1 つに結合します。
 
-**形式**
+**構文**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ ht-degree: 100%
 
 `contains` 関数は、文字列が指定の部分文字列を含んでいるかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ ht-degree: 100%
 
 `doesNotContain` 関数は、文字列が指定の部分文字列を含んでいないかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ ht-degree: 100%
 
 `doesNotEndWith` 関数は、文字列が指定の部分文字列で終わらないかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `doesNotStartWith` 関数は、文字列が指定の部分文字列で始まらないかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `encode64` 関数は、個人情報（PI）を URL などに含める必要がある場合に、個人情報を保持する文字列をエンコードするために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `endsWith` 関数は、文字列が指定の部分文字列で終わるかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `equals` 関数は、文字列が指定の文字列に等しいかどうかを判定するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `equalsIgnoreCase` 関数は、大文字と小文字を区別せずに、文字列が指定の文字列に等しいかどうかを判定するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `extractEmailDomain` 関数は、メールアドレスのドメインを抽出するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ doesNotEndWith(person.emailAddress,".com")
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## 通貨のフォーマット {#format-currency}
+
+この `formatCurrency` 関数は、2 番目の引数で文字列として渡されたロケールに応じて、任意の数値を対応する言語に依存する通貨表現に変換するために使用します。
+
+**構文**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**例**
+
+このクエリは£56.00 を返します
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## URL ホストを取得 {#get-url-host}
 
 `getUrlHost` 関数は、URL のホスト名を取得するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `getUrlPath` 関数は、URL のドメイン名の後のパスを取得するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `getUrlProtocol` 関数は、URL のプロトコルを取得するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `indexOf` 関数は、2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返すために使用されます。一致するものがない場合は「-1」を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `isEmpty` 関数は、文字列が空かどうかを判断するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `isNotEmpty` 関数は、文字列が空でないかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `lastIndexOf` 関数は、2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返すために使用されます。一致するものがない場合は「-1」を返します。
 
-**形式**
+**構文**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `leftTrim` 関数は、文字列の先頭から空白を削除するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `length` 関数は、文字列または式の文字数を取得するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `like` 関数は、文字列が指定のパターンと一致するかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `matches` 関数は、文字列が特定の正規表現と一致するかどうかを判定するために使用されます。正規表現でのパターンマッチングについて詳しくは、[こちらのドキュメント](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
 
-**形式**
+**構文**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `Mask` 関数は、文字列の一部を「X」の文字に置き換えるために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `md5` 関数は、文字列の md5 ハッシュを計算して返すために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `notEqualTo` 関数は、文字列が指定の文字列に等しくないかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `notEqualWithIgnoreCase` 関数は、大文字と小文字を区別せずに、2 つの文字列を比較するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `Group` 関数は、指定された正規表現に基づいて特定の情報を抽出するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `replace` 関数は、文字列内の特定の部分文字列を別の部分文字列で置き換えるために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `replaceAll` 関数は、「target」に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。置換は、文字列の先頭から末尾に向けておこなわれます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
-**形式**
+**構文**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `rightTrim` 関数は、文字列の末尾から空白を削除するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `split` 関数は、文字列を特定の文字で分割する場合に使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `startsWith` 関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ doesNotEndWith(person.emailAddress,".com")
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## 文字列を日付に {#string-to-date}
+
+この `stringToDate` 関数は、文字列値を日時値に変換します。 2 つの引数を取ります。string フォーマッタの日時表現と文字列表現。
+
+**構文**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**例**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## 文字列を整数に {#string-to-integer}
 
 `string_to_integer` 関数は、文字列値を整数値に変換するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `stringToNumber` 関数は、文字列を数値に変換するために使用されます。無効な入力の出力と同じ文字列を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ doesNotEndWith(person.emailAddress,".com")
 ## 部分文字列 {#sub-string}
 
 `Count string` 関数は、開始インデックスと終了インデックスの間の文字列式の部分文字列を返すために使用されます。
-**形式**
+**構文**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `toBool` 関数は、引数の値を、型に応じてブール値に変換するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `toDateTime` 関数は、文字列を日付型に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 日時のみに {#to-date-time-only}
 
-`toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。
+この `toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用します。 無効な入力に対する出力として、エポック日付を返します。この関数は、文字列、日付、長さおよび整数のフィールドタイプを受け入れます。
 
-**形式**
+**構文**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## トリミング{#trim}
+## トリミング {#trim}
 
 **trim** 関数は、文字列の先頭と末尾にあるすべての空白を削除します。
 
@@ -773,7 +825,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `urlDecode` 関数は、URL エンコードされた文字列をデコードするために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 `Count only null` 関数は、文字列を URL エンコードするために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= urlEncode(string) %}: string

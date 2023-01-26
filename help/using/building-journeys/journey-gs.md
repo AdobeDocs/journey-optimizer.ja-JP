@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー，最初，開始，クイックスタート，セグメント，イベント，アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 99%
+source-wordcount: '1061'
+ht-degree: 92%
 
 ---
 
@@ -94,9 +94,39 @@ ht-degree: 99%
 
 ### エントリ{#entrance}
 
-デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この再エントリのオプションをオフにします。
+デフォルトでは、新規ジャーニーで再エントリが許可されています。次の項目のチェックを外すことができます。 **再エントリを許可** 「ワンショット」ジャーニーのオプション。例えば、人が店に入ったときに 1 回限りのギフトを申し込む場合などに使用します。
+
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 
 プロファイルのエントリ管理について詳しくは、[この節](entry-management.md)を参照してください。
+
+### アクセスの管理 {#access}
+
+カスタムデータ使用ラベルまたはコアデータ使用ラベルをジャーニーに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[オブジェクトレベルのアクセス制御（OLA）について詳しくはこちらから](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### タイムゾーンとプロファイルタイムゾーン {#timezone}
+
+タイムゾーンはジャーニーレベルで定義されます。
+
+固定タイムゾーンを入力するか、Adobe Experience Platform プロファイルを使用してジャーニータイムゾーンを定義できます。
+
+Adobe Experience Platform プロファイルでタイムゾーンが定義されている場合は、ジャーニーでそのタイムゾーンを取得できます。
+
+タイムゾーン管理の詳細については、[このページ](../building-journeys/timezone-management.md)を参照してください。
+
+### 開始日と終了日 {#dates}
+
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+
+次の項目を定義できます。 **開始日**. また、 **終了日**. これにより、日付に達したプロファイルは自動的に終了します。 終了日を指定しない場合、プロファイルはデフォルトのジャーニータイムアウトまで残る可能性があります。
 
 ### ジャーニーアクティビティのタイムアウトとエラー {#timeout_and_error}
 
@@ -118,18 +148,3 @@ ht-degree: 99%
 
 ジャーニーの再エントリを許可しない設定にしていても、グローバルジャーニータイムアウトの期間が 30 日なので、再エントリのブロックが 30 日を超えて機能するかどうかは確認できません。実際、ジャーニーにエントリした人の情報はエントリから 30 日後にすべて削除されるので、30 日前より古い日時にエントリした人が誰かを特定することはできません。
 
-### タイムゾーンとプロファイルタイムゾーン {#timezone}
-
-タイムゾーンはジャーニーレベルで定義されます。
-
-固定タイムゾーンを入力するか、Adobe Experience Platform プロファイルを使用してジャーニータイムゾーンを定義できます。
-
-Adobe Experience Platform プロファイルでタイムゾーンが定義されている場合は、ジャーニーでそのタイムゾーンを取得できます。
-
-タイムゾーン管理の詳細については、[このページ](../building-journeys/timezone-management.md)を参照してください。
-
-### アクセスの管理 {#access}
-
-カスタムデータ使用ラベルまたはコアデータ使用ラベルをジャーニーに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[オブジェクトレベルのアクセス制御（OLA）について詳しくはこちらから](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)
