@@ -4,16 +4,57 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 100%
+source-wordcount: '3583'
+ht-degree: 99%
 
 ---
 
 # リリースノート 2022 {#release-notes-2022}
 
 このページは、2022年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
+
+
+
+## 2022年10月リリース {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### 機能強化 {#oct-2022-improvements}
+
+**ジャーニー**
+
+* 「**繰り返し時に再エントリを強制**」オプションを、繰り返しのセグメント読み取りスケジュールパラメーターに追加しました。このオプションを使用すると、ジャーニーにまだ存在するすべてのプロファイルを、次回の実行時に自動的に終了させることができます。このオプションを無効にした場合、プロファイルは、別のオカレンスに再エントリする前に、ジャーニーを終了する必要があります。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**管理**
+
+* サブドメイン、ランディングページのサブドメイン、PTR レコードおよび IP プールの設定はすべてのサンドボックスに共通であるため、これらの設定のいずれかを変更すると実稼動サンドボックスにも影響することを警告するメッセージをユーザーインターフェイスに追加しました。
+* 抑制リストを CSV ファイルとしてユーザーインターフェイスからアップロードする手順を変更しました。[詳細情報](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**キャンペーン**
+
+* 完了したキャンペーンと停止したキャンペーンをアーカイブできるようになりました。[詳細情報](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## 2022年9月リリース{#sept-2022-release}
@@ -346,7 +387,7 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* **ジャーニーの終了** - ジャーニーキャンバスで、**終了**&#x200B;アクティビティがパレットから削除されました。デフォルトで終了タグが各パスの最後に追加され、削除できなくなりました。この機能強化により、どこで顧客がジャーニーから離脱したのか、ジャーニーの実務担当者が何もしなくても、より適切にレポートできるようになりました。詳しくは、[ドキュメント](../building-journeys/end-journey.md)および[機能に関するビデオ](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}を参照してください。
+* **ジャーニーの終了** - ジャーニーキャンバスで、**終了**&#x200B;アクティビティがパレットから削除されました。デフォルトで終了タグが各パスの最後に追加され、削除できなくなりました。この機能強化により、どこで顧客がジャーニーから離脱したのか、ジャーニーの実務担当者が何もしなくても、より適切にレポートできるようになりました。詳しくは、 [ドキュメント](../building-journeys/end-journey.md) および [機能ビデオ](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * ジャーニープロパティで「**プロファイルのタイムゾーン**」オプションは、デフォルトではオフになっています。[詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)

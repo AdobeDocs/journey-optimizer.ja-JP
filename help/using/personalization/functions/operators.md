@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 `and` 関数は、論理積を作成するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 `or` 関数は、論理和を作成するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ not (homeAddress.countryISO = "CA")
 
 `=`（次に等しい）関数は、ある値または式が別の値または式と等しいかどうかを確認します。
 
-**形式**
+**構文**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ not (homeAddress.countryISO = "CA")
 
 `!=`（次と等しくない）関数は、ある値または式が別の値または式と等しく&#x200B;**ない**&#x200B;かどうかを確認します。
 
-**形式**
+**構文**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ not (homeAddress.countryISO = "CA")
 
 `>`（次より大きい）関数は、最初の値が 2 番目の値より大きいかどうかを確認するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ not (homeAddress.countryISO = "CA")
 
 `>=`（同じかそれ以上）は、1 つ目の値が 2 つ目の値以上かどうかを確認するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ not (homeAddress.countryISO = "CA")
 
 `<`（次より小さい）比較関数は、最初の値が 2 番目の値より小さいかどうかを調べるために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ not (homeAddress.countryISO = "CA")
 
 `<=`（同じかそれ以下）比較関数は、最初の値が 2 番目の値以下かどうかを確認するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= expression1 <= expression2 %}

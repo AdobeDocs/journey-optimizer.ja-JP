@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 [Adobe Experience Cloud](http://experience.adobe.com?lang=ja) に接続して、[!DNL Journey Optimizer] を参照します。
 
-ユーザーインターフェイスを閲覧する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}を参照してください。
+ユーザーインターフェイスを閲覧する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide)を参照してください。{target="_blank"}
 
-このユーザーインターフェイスで使用できるコンポーネントと機能は、付与されている[権限](../administration/permissions.md)と、使用している[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}によって異なります 。ご不明な点については、アドビカスタマーサクセスマネージャーまでお問い合わせください。
+ユーザーインターフェイスで使用できるコンポーネントと機能は、次の環境によって異なります [権限](../administration/permissions.md) そして [ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. ご不明な点については、アドビカスタマーサクセスマネージャーまでお問い合わせください。
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 * **[!UICONTROL クエリ]**：Adobe Experience Platform クエリサービスを使用すると、クエリの作成と実行、実行済みのクエリの表示、組織内のユーザーが保存したクエリへのアクセスなどを行えます。[詳細情報](../data/get-started-queries.md)
 
-* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内でデータの取得を監視できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja){target=&quot;_blank&quot;}
+* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内でデータの取得を監視できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja){target="_blank"}
 
 **[!UICONTROL 接続]**
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 * **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。[詳細情報](../administration/sandboxes.md)
 
-* **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target=&quot;_blank&quot;}
+* **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}
 
 
 ## 製品内の使用例 {#in-product-uc}
@@ -118,7 +118,7 @@ ht-degree: 100%
 * カラーコントラスト
 * 必須フィールドの検証
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"} (Adobe Experience Platformドキュメント )
 
 [!DNL Journey Optimizer]では、次の一般的なキーボードショートカットを使用できます。
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
 | 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
 
-詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target="_blank"} (Adobe Experience Platformドキュメント )
 
 次のショートカットは、Journey Optimizer の特定の部分で使用できます。
 
@@ -154,12 +154,32 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>すべてのアクティビティを選択する</td>
-    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
+    <td>Ctrl + A(Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>選択されたアクティビティを削除する</td>
     <td>Delete キーまたは Backspace キーを押したあと Enter キーを押して削除を確認</td>
   </tr>
+  <tr>
+    <td>ズームイン/ズームアウト（キャンバスまたはその子要素にフォーカス）</td>
+    <td>Ctrl +/-(Windows) または Command +/-(Mac)</td>
+  </tr>  
+  <tr>
+    <td>各アクティビティとパスの間を移動（キャンバスにフォーカス）するか、ツールバーボタン間を移動（ツールバーにフォーカス）</td>
+    <td>矢印キー</td>
+  </tr>   
+  <tr>
+    <td>キャンバス上の次にアクションにつながる要素（ツールバーが最初のもの）にフォーカスを移動する。</td>
+    <td>Tab</td>
+  </tr>  
+  <tr>
+    <td>適切な設定ペインを開く（アクティビティにフォーカス）</td>
+    <td>ENTER</td>
+  </tr>   
+  <tr>
+    <td>キャンバスでのアクティビティの移動（アクティビティに焦点を当てる）</td>
+    <td>Shift +矢印キー</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

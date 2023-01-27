@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 `age` 関数を使用すると、指定された日付からの経過時間を取得できます。
 
-**形式**
+**構文**
 
 ```sql
  {%= age(datetime) %}
@@ -41,7 +41,7 @@ The following operation gets the value of the identity map for the key `example@
 
 `currentTimeInMillis` 関数を使用すると、現在の時刻をエポックミリ秒単位で取得できます。
 
-**形式**
+**構文**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -61,7 +61,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 `dateDiff` 関数を使用すると、2 つの日付間の差異を日数単位で取得できます。
 
-**形式**
+**構文**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -82,7 +82,7 @@ The following operation gets all the values for the map `identityMap`.
 
 `dayOfWeek` 関数を使用すると、曜日を取得できます。
 
-**形式**
+**構文**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -102,7 +102,7 @@ The following operation gets all the values for the map `identityMap`.
 
 `dayOfYear` 関数を使用すると、通日（1月1日からの通算日数）を取得できます。
 
-**形式**
+**構文**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -122,7 +122,7 @@ The following operation gets all the values for the map `identityMap`.
 
 `formatDate` 関数を使用すると、日時値を書式設定できます。書式は、有効な Java DateTimeFormat パターンである必要があります。
 
-**形式**
+**構文**
 
 ```sql
 {%= formatDate(datetime, format) %}
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
 >
-> [Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}にまとめられている Java 日付書式設定関数を使用できます。
+> Java の日付書式設定関数を使用して、 [Oracle文書](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **例**
 
@@ -148,7 +148,7 @@ The following operation gets all the values for the map `identityMap`.
 
 `setDays` 関数を使用すると、指定された日時の日付を設定できます。
 
-**形式**
+**構文**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -168,7 +168,7 @@ The following operation gets all the values for the map `identityMap`.
 
 `setHours` 関数を使用すると、日時の時を設定できます。
 
-**形式**
+**構文**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -190,7 +190,7 @@ The following operation gets all the values for the map `identityMap`.
 `toUTC` 関数を使用すると、日時を UTC に変換できます。
 
 
-**形式**
+**構文**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -211,7 +211,7 @@ The following operation gets all the values for the map `identityMap`.
 
 `weekOfYear` 関数を使用すると、年の週番号（何週目か）を取得できます。
 
-**形式**
+**構文**
 
 ```sql
 {%= weekOfYear(datetime) %}

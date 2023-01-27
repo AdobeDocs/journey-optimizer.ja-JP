@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 抑制、リスト、バウンス、メール、最適化
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 97%
+source-wordcount: '1350'
+ht-degree: 91%
 
 ---
 
@@ -247,11 +247,17 @@ ht-degree: 97%
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-送信した最新のアップロードと、それに対応するステータスが表示されます。
+送信した最新のアップロードと、対応するステータスが表示されます。
 
-エラーレポートがファイルに関連付けられている場合は、そのファイルをダウンロードして、発生したエラーを確認できます。
+* **[!UICONTROL 保留中]**:ファイルのアップロードを処理中です。
+* **[!UICONTROL エラー]**:技術的な問題またはファイル形式のエラーが原因で、ファイルのアップロードプロセスに失敗しました。
+* **[!UICONTROL 完了]**:ファイルのアップロード処理が正常に完了しました。
 
-![](assets/suppression-list-recent-uploads-error.png)
+アップロード中に、正しい形式でないアドレスがある場合、それらのアドレスは [!DNL Journey Optimizer] 抑制リスト。
+
+その場合、アップロードが完了すると、レポートに関連付けられます。 ダウンロードして、発生したエラーを確認できます<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 エラーレポートに表示されるエントリのタイプの例を以下に示します。
 

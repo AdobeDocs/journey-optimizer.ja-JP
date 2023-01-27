@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 電子メール、デザイン、在庫、アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 98%
+source-wordcount: '317'
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,11 @@ ht-degree: 98%
 
    ![](assets/email_designer_create_options.png)
 
-## ハウツービデオ {#video}
+1. E メールコンテンツが定義され、パーソナライズされたら、コンテンツを書き出して検証したり、後で使用したりできます。 クリック **[!UICONTROL 書き出しHTML]** コンピューターに、HTMLとアセットを含む zip ファイルを保存します。
+
+   ![](assets/email_designer_export.png)
+
+## チュートリアルビデオ {#video}
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 

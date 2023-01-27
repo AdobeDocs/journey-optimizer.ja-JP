@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング、ランディングページ、作成、公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 99%
@@ -57,7 +57,7 @@ ht-degree: 99%
 >id="ajo_lp_access_management_labels"
 >title="ランディングページへのラベルの割り当て"
 >abstract="機密性の高いデジタルアセットを保護するために、ラベルを使用してランディングページへのデータアクセスを管理する権限を定義できます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ja" text="ランディングページプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ja" text="オブジェクトレベルのアクセス制御"
 
 ランディングページの作成手順は次のとおりです。
 

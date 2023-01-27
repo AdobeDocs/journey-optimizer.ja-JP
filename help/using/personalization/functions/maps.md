@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 `get` 関数は、特定のキーのマップの値を取得するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 `keys` 関数は、特定のマップのすべてのキーを取得するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 `values` 関数は、特定のマップのすべての値を取得するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= values(map) %}

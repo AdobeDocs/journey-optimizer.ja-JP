@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 `average` 関数は、配列内の選択された値すべての算術平均を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 `count` 関数は、渡された配列内の要素数を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 `max` 関数は、配列内の選択された値すべての最大値を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 `min` 関数は、配列内の選択された値すべての最小値を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 `sum` 関数は、配列内の選択された値すべての合計を返します。
 
-**形式**
+**構文**
 
 ```sql
 {%= sum(array) %}

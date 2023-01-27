@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP、プール、グループ、サブドメイン、配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 99%
+source-wordcount: '717'
+ht-degree: 86%
 
 ---
 
@@ -61,6 +61,18 @@ IP プールを作成するには、次の手順に従います。
    >[!NOTE]
    >
    >インスタンスでプロビジョニングされた IP アドレスがすべてリストに表示されます。
+
+IP を選択すると、IP に関連付けられた PTR レコードがリストから表示されます。 これにより、IP プールを作成する際に各 IP のブランディング情報を検証し、例えば同じブランディング情報を持つ IP を選択できます。 [PTR レコードの詳細情報](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>IP に対して PTR レコードが設定されていない場合は、その IP を選択できません。 その IP の PTR レコードを設定するには、Adobe担当者にお問い合わせください。
+
+IP プールが作成された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。
+
+![](assets/ip-pool-ptr-record-tooltip.png)
 
 IP プールが作成され、リストに表示されるようになりました。選択してプロパティにアクセスし、関連するチャネルサーフェス（メッセージプリセットなど）を表示することができます。チャネルサーフェスと IP プールを関連付ける方法について詳しくは、[この節](channel-surfaces.md)を参照してください。
 

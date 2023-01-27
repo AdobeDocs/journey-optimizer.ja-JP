@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式，構文，演算子，エディター，ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 98%
+source-wordcount: '516'
+ht-degree: 87%
 
 ---
 
@@ -20,18 +20,20 @@ ht-degree: 98%
 演算子には、単項演算子と二項演算子の 2 種類があります。左単項演算子と右単項演算子があります。
 
 ```json
-    // left-hand unary operators
-    <operator> <operand> // operand is an expression
-    not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+// left-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
-    // right-hand unary operators
-    <operand> <operator> // operand is an expression
-    @{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+// right-hand unary operators
+// <operator> <operand> 
+// operand is an expression
+@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
-    // binary operators
-    <operand1> <operator> <operand2>
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or
-    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
+// binary operators
+// <operand1> <operator> <operand2>
+// operand is an expression
+(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## 重要な注意事項{#important-notes}
@@ -58,8 +60,6 @@ ht-degree: 98%
 
 ### or
 
-
-
 ```json
 <expression1> or <expression2>
 ```
@@ -73,8 +73,6 @@ ht-degree: 98%
 ```
 
 ### not
-
-
 
 ```json
 not <expression>
@@ -92,8 +90,6 @@ not 3.15 < 1
 
 ### is null
 
-
-
 ```json
 <expression> is null
 ```
@@ -109,8 +105,6 @@ null は、式に評価値がないことを意味します。
 ```
 
 ### is not null
-
-
 
 ```json
 <expression> is not null
@@ -128,8 +122,6 @@ null は、式に評価値がないことを意味します。
 
 ### has null
 
-
-
 ```json
 <expression> has null
 ```
@@ -141,16 +133,18 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-["foo", "bar", null] has null --  returns true.
+["foo", "bar", null] has null
 ```
+
+true を返します
 
 ```json
-["foo", "bar", ""] has null -- returns false because "" is not considered as null.
+["foo", "bar", ""] has null
 ```
 
+「」が null と見なされないので、false を戻します。
+
 ### ==
-
-
 
 ```json
 <expression1> == <expression2>
@@ -172,8 +166,6 @@ null は、式に評価値がないことを意味します。
 
 ### ! =
 
-
-
 ```json
 <expression1> != <expression2>
 ```
@@ -194,8 +186,6 @@ null は、式に評価値がないことを意味します。
 ```
 
 ### >
-
-
 
 ```json
 <expression1> > <expression2>
@@ -219,8 +209,6 @@ null は、式に評価値がないことを意味します。
 
 ### >=
 
-
-
 ```json
 <expression1> >= <expression2>
 ```
@@ -243,8 +231,6 @@ null は、式に評価値がないことを意味します。
 
 ### &lt;
 
-
-
 ```json
 <expression1> < <expression2>
 ```
@@ -266,8 +252,6 @@ null は、式に評価値がないことを意味します。
 ```
 
 ### &lt;=
-
-
 
 ```json
 <expression1> <= <expression2>
@@ -293,8 +277,6 @@ null は、式に評価値がないことを意味します。
 
 ### +
 
-
-
 ```json
 <expression1> + <expression2>
 ```
@@ -306,12 +288,12 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-1 + 2 -- returns 3
+1 + 2
 ```
 
+戻り値 3
+
 ### -
-
-
 
 ```json
 <expression1> - <expression2>
@@ -324,12 +306,12 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-2 - 1 -- returns 1
+2 - 1 
 ```
 
+戻り値 1
+
 ### /
-
-
 
 ```json
 <expression1> / <expression2>
@@ -344,12 +326,12 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-4 / 2 -- returns 2
+4 / 2
 ```
 
+戻り値 2
+
 ### *
-
-
 
 ```json
 <expression1> * <expression2>
@@ -362,12 +344,12 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-3 * 4 -- returns 12
+3 * 4
 ```
 
+12 を返します
+
 ### %
-
-
 
 ```json
 <expression1> % <expression2>
@@ -380,14 +362,14 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-3 % 2 -- returns 1.
+3 % 2
 ```
+
+1 を返します。
 
 ## 数値計算 {#math}
 
 ### is numeric
-
-
 
 ```json
 <expression> is numeric
@@ -403,8 +385,6 @@ null は、式に評価値がないことを意味します。
 
 ### is integer
 
-
-
 ```json
 <expression> is integer
 ```
@@ -418,8 +398,6 @@ null は、式に評価値がないことを意味します。
 ```
 
 ### is decimal
-
-
 
 ```json
 <expression> is decimal
@@ -437,8 +415,6 @@ null は、式に評価値がないことを意味します。
 
 ### +
 
-
-
 ```json
 <string> + <expression>
 ```
@@ -454,22 +430,26 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-"the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
+"the current time is " + (now())
 ```
 
-```json
-(now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
-```
+「現在の時刻は2019-09-23T09です:30:06.693Z&quot;
 
 ```json
-"a" + "b" + "c" + 1234 -- returns "abc1234".
+(now()) + " is the current time"
 ```
+
+戻り値&quot;2019-09-23T09:30:06.693Z は現在の時刻です。
+
+```json
+"a" + "b" + "c" + 1234
+```
+
+「abc1234」を返します。
 
 ## 日付 {#date}
 
 ### +
-
-
 
 ```json
 <expression> + <duration>
@@ -480,17 +460,25 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
+(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-```json
-toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
-```
+を返します。 _dateTime_ 2011-12-03T15:30:30Z
 
 ```json
-now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
+(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
+を返します。 _dateTimeOnly_ 2011-12-03T15:30:30
+
 ```json
-toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
+(now()) + (toDuration("PT1H"))
 ```
+
+を返します。 _dateTime_ （UTC タイムゾーンを使用）現在の時刻から 1 時間後
+
+```json
+(toDuration("PT1H")) + (toDuration("PT1H"))
+```
+
+を返します。 _duration_ PT2H

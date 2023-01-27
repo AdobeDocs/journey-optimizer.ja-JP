@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ，ジャーニー，読み取り，セグメント，プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 98%
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
 
    ![](assets/read-segment-copy.png)
 
-1. **[!UICONTROL 名前空間]**&#x200B;フィールドで、個人の識別に使用する名前空間を選択します。[名前空間の詳細情報](../event/about-creating.md#select-the-namespace)。
+1. **[!UICONTROL 名前空間]**&#x200B;フィールドで、個人の識別に使用する名前空間を選択します。デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。 [名前空間の詳細情報](../event/about-creating.md#select-the-namespace)。
 
    >[!NOTE]
    >

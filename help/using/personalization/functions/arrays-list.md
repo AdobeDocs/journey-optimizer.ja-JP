@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 95%
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 この `countOnlyNull` 関数は、リスト内の null 値の数をカウントするために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ ht-degree: 95%
 
 この `countWithNull` 関数は、null 値を含むリストのすべての要素をカウントするために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 `distinct` 関数は、重複値を削除して配列またはリストから値を取得するために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ ht-degree: 95%
 
 この `distinctCountWithNull` 関数は、null 値を含むリスト内の異なる値の数をカウントするために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ ht-degree: 95%
 
 `head` 関数は、配列またはリスト内の最初の項目を返すために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ ht-degree: 95%
 
 `topN` 関数は、指定した数値式に基づいて昇順で並べ替えられた場合、配列の最初の `N` 項目を返すために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ ht-degree: 95%
 
 `in` 関数は、項目が配列またはリストのメンバーであるかどうかを判断するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ ht-degree: 95%
 
 `includes` 関数は、配列またはリストに特定の項目が含まれているかどうかを判断るために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ ht-degree: 95%
 
 `intersects` 関数は、2つの配列またはリストに、共通メンバーが 1 つ以上あるかどうかを判断するために使用されます。
 
-**形式**
+**構文**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ ht-degree: 95%
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 `bottomN` 関数は、指定した数値式に基づいて昇順で並べ替えられた場合、配列の最後の `N` 項目を返すために使用します。
 
-**形式**
+**構文**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 >
 >この`notIn` 関数は&#x200B;*また*、どの値も NULL ではないことを保証します。したがって、結果は `in` 関数の完全な否定ではありません。
 
-**形式**
+**構文**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 `subsetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のサブセットであるかを判断するために使用されます。つまり、配列 A 内のすべての要素が配列 B の要素であるということです。
 
-**形式**
+**構文**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 `supersetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかを判断するために使用されます。つまり、その配列 Aには配列 B のすべての要素が含まれます。
 
-**形式**
+**構文**
 
 ```sql
 {%= supersetOf(array1, array2) %}
