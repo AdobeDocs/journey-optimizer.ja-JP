@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 645db980155993155a10d27f4ff59967b000442f
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '509'
 ht-degree: 17%
 
 ---
@@ -38,29 +38,32 @@ ht-degree: 17%
 <td>
 <p>Adobe Experience Platformには、消費者レコードとデータセットをプログラム的に削除することで、保存されたデータを管理できる、一連のデータ衛生機能が用意されています。 この機能は、Adobe Journey Optimizerで使用できるようになりました。 </p>
 <p>データストアを管理して、情報が期待どおりに使用され、不適切なデータ修正が必要な場合は更新され、組織のポリシーで必要と判断される場合は削除されるようにします。</p>
-<p><strong>注意</strong>  — データ衛生機能は、現在、 <strong>医療用盾</strong> および <strong>プライバシーとセキュリティシールド</strong> アドオンサービス</p><p>詳しくは、 <a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
+<p><strong>注意</strong>  — データ衛生機能は、現在、 <strong>医療用盾</strong> および <strong>プライバシーとセキュリティシールド</strong> アドオンサービス</p><p>詳しくは、<a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
 
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Email content templates</strong><br/></th>
+<th><strong>E メールコンテンツテンプレート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>ジャーニーやキャンペーンをまたいで活用して、すばやく再利用できる、スタンドアロンのコンテンツテンプレートを作成できるようになりました。</p> 
+</p>
+<!--img src="assets/do-not-localize/"/-->
+<p>でコンテンツテンプレートを作成、編集、使用する方法について説明します。 <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">このビデオ</a>.
+<p>詳しくは、 <a href="../email/content-templates.md">詳細なドキュメント</a>を参照してください。
+</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### 機能強化 {#jan-2023-improvements}
 

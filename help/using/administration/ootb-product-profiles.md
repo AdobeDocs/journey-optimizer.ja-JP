@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 権限、オーサリング、メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 97%
+source-wordcount: '1144'
+ht-degree: 91%
 
 ---
 
@@ -123,10 +123,20 @@ ht-degree: 97%
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-**[!DNL Decisioning manager]** 製品プロファイルでは、**[!UICONTROL 意思決定管理]**&#x200B;メニューのみが許可されます。この製品プロファイルに割り当てられたユーザーは、決定の管理、表示および公開のみを実行できます。
+この **[!DNL Decisioning manager]** 製品プロファイルは、 **[!UICONTROL 決定管理]** メニュー この製品プロファイルに割り当てられたユーザーは、決定の管理、表示および公開のみを実行できます。
 
 この製品プロファイルには、次の権限が含まれます。
 
 |機能 |権限|
 |-|-|
 |意思決定管理| <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除。</li><li>**[!DNL View decisions]**：決定エンティティへの読み取り専用アクセス。</li><li>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</li><li>**[!DNL Publish decisions]**：決定アクティビティのアクティブ化または非アクティブ化。</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+この **[!DNL Content Library Manager]** 製品プロファイルは、 **[!UICONTROL コンテンツテンプレート]** メニュー この製品プロファイルに割り当てられたユーザーは、ジャーニーやキャンペーンにアクセスせずにコンテンツを作成するテンプレートライブラリにのみアクセスできます。
+
+この製品プロファイルには、次の権限が含まれます：
+
+|機能 |権限| |-|-| |Journey Optimizerライブラリ| <ul><li>**[!DNL Manage library items]**:Journey Optimizer Library の項目の読み取り、作成、編集、削除</li><li>**[!DNL Manage simulate content]**:へのアクセス **[!UICONTROL コンテンツをシミュレート]** プレビューおよび配達確認用のオプション。</li></ul>|
+|意思決定管理|<ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>|

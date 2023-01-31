@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 電子メール，テンプレート，デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 98%
+source-wordcount: '279'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 98%
 
 次の中から選択できます。
 * 20 個の標準メールテンプレート。
-* 保存済みテンプレート。[詳細情報](#use-saved-template)
+* 保存された電子メールテンプレート。 ([詳細情報](#use-saved-template))
+* コンテンツテンプレート. [詳細情報](content-templates.md)
 
 ## テンプレートとして保存 {#save-as-template}
 
@@ -34,6 +35,10 @@ ht-degree: 98%
 >abstract="2022年7月25日（PT）より、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージが作成されます。 従来のメッセージをジャーニーで再利用する場合は、それらをテンプレートとして保存する必要があります。"
 
 [メールコンテンツ](get-started-email-design.md)をデザインしたら、後日再利用するために保存できます。それには、次の手順に従います。
+
+>[!CAUTION]
+>
+>コンテンツをテンプレートとして保存するには、 **[!DNL Manage Library Items]** 次に含まれる権限 **[!DNL Content Library Manager]** 製品プロファイル。 ([詳細情報](../administration/ootb-product-profiles.md#content-library-manager))
 
 1. 画面の右上にある省略記号をクリックします。
 
@@ -46,6 +51,8 @@ ht-degree: 98%
    ![](assets/email_designer-template-name.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+このテンプレートは、コンテンツテンプレートリストに保存されます。 ([詳細情報](content-templates.md))
 
 次回メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。[方法についてはこちらを参照](#use-saved-template)
 
