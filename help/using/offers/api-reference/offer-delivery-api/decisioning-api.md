@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 80ec1fb3f179a78526fcbee103466b3aeb5a9484
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 89%
