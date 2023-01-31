@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
@@ -28,39 +28,49 @@ ht-degree: 100%
 
 次に、**[!UICONTROL 決定オブジェクトリポジトリー（フォールバックオファー）]**&#x200B;データセットで使用できるすべてのフィールドのリストを示します。
 
-## 識別子 {#identifier}
++++ 識別子
 
 **フィールド：**_id
 **タイトル：**識別子
 **説明：**&#x200B;レコードの一意の識別子。**タイプ：**&#x200B;文字列
 
-## _experience {#experience}
++++
+
++++ _experience
 
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
 
-### _experience／決定
++++
+
++++ _experience／決定
 
 **フィールド：**decisioning
 **型：**&#x200B;オブジェクト
 
-#### _experience > decisioning > characteristics
++++
+
++++ _experience > decisioning > characteristics
 
 **フィールド：** characteristics
 **タイトル：**決定オプションの特性
 **説明：**この特定の決定オプションに属する追加のプロパティまたは属性。異なるインスタンスは、異なる特性（マップ内のキー）を持つことができます。特性は、名前と値のペアを使用して、決定オプションを他の決定オプションと区別します。特性は、この決定オプションを表すコンテンツの値として、またオプションのパフォーマンスを分析および最適化する機能として使用されます。すべてのインスタンスが同じ属性またはプロパティを持つ場合、その側面は、決定オプションの詳細から派生する拡張スキーマとしてモデル化する必要があります。
 **タイプ：**&#x200B;オブジェクト
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > decisioning > contents
++++ _experience > decisioning > contents
 
 **フィールド：** contents
 **タイトル：**コンテンツ詳細
 **説明：**異なるコンテキストで決定項目をレンダリングするコンテンツ項目。1 つの決定オプションに複数のコンテンツのバリアントを含めることができます。コンテンツとは、（デジタル）エクスペリエンスでの消費に対してオーディエンスに向けられた情報です。コンテンツは、チャネルを通じて特定の配置に配信されます。
 **タイプ：**&#x200B;配列
 
-**_experience > decisioning > contents > components**
++++
+
++++_experience > decisioning > contents > components
 
 **フィールド：**components
 **説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントを見つけるには、「dx:format」、「dc:subject」、「dc:language」、またはこれらの組み合わせを使用します。このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
@@ -147,13 +157,17 @@ ht-degree: 100%
    **タイプ：**文字列
    **例：**&quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > contents > Placement**
++++
+
++++ _experience > decisioning > contents > Placement
 
 **フィールド：**placement
 **タイトル：**プレースメント
 **説明：**&#x200B;準拠するプレースメント。この値は、参照するオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。**型：**&#x200B;文字列
 
-#### _experience > decisioning > Lifecycle Status
++++
+
++++ _experience > decisioning > Lifecycle Status
 
 **フィールド：** lifecycleStatus
 **タイトル：**ライフサイクルステータス
@@ -161,28 +175,38 @@ ht-degree: 100%
 **型：**文字列
 **使用可能な値：** &quot;ドラフト&quot;（デフォルト）、&quot;承認済み&quot;、&quot;ライブ&quot;、&quot;完了&quot;、&quot;アーカイブ済み&quot;
 
-#### _experience／決定／決定オプション名
++++
+
++++ _experience／決定／決定オプション名
 
 **フィールド：** name
 **タイトル：**決定オプション名
 **説明：**&#x200B;様々なユーザーインターフェイスに表示されるオプション名。**タイプ：**&#x200B;文字列
 
-#### _experience／決定／タグ
++++
+
++++ _experience／決定／タグ
 
 **フィールド：** tags
 **タイトル：**タグ
 **説明：**このエンティティに関連付けられたタグのセット。タグは、フィルター式で使用され、在庫全体をサブセット（カテゴリ）に制限します。
 **タイプ：**&#x200B;配列
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト
 
-### _repo／決定オプション ETag
++++
+
++++ _repo／決定オプション ETag
 
 **フィールド：**etag
 **タイトル：**決定オプション ETag
 **説明：**&#x200B;決定オプションオブジェクトがスナップショットを取得した際に表示されたリビジョン。**タイプ：**&#x200B;文字列
+
++++

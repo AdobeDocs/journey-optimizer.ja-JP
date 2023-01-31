@@ -4,16 +4,23 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '2220'
-ht-degree: 100%
+source-wordcount: '2282'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023年1月 {#jan-2023}
+
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 1 月リリースの詳細は、ドキュメントに記載されています。 [詳細情報](release-notes.md)
+* のアクセシビリティ機能 [!DNL Journey Optimizer] が専用のページにグループ化されました。 [詳細情報](../start/accessibility.md)
+* でのデータ管理に関する新しいページを追加しました。 [!DNL Journey Optimizer]. [詳細情報](../data/gs-data.md)
+* 判定 API を使用してオファーを配信する際に、応答で返されるすべてのコードの一覧を表に追加しました。 [詳細情報](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 2022年12月 {#december-2022}
 

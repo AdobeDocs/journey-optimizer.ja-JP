@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,9 @@ ht-degree: 100%
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**API 形式**
+## API リクエスト {#request}
+
+### API 形式
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -46,7 +48,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**リクエスト**
+### リクエスト
 
 ```shell
 curl -X POST \
@@ -125,7 +127,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | このフラグは、`xdm:option` に対して返される特定のメタデータ情報を識別します。 | `name`、`characteristics` |
 | `xdm:responseFormat.xdm:placement` | このフラグは、`xdm:placement` に対して返される特定のメタデータ情報を識別します。 | `name`、`channel`、`componentType` |
 
-**応答**
+### 応答
 
 正常な応答では、提案に関する情報（一意の `xdm:propositionId` を含む）が返されます。
 
@@ -196,7 +198,21 @@ curl -X POST \
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | コンテンツ配信ネットワークまたはサービスエンドポイントからアセットを読み取るためのオプションの URL。この URL は、ユーザーエージェントからアセットに公開でアクセスするために使用されます。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 決定応答メッセージが作成された時間。これはエポック時間として表されます。 | `"ode:createDate": 1566497582038` |
 
-## ハウツービデオ {#video}
+**応答コード**
+
+次の表に、応答で返されるすべてのコードを示します。
+
+| コード | 説明 |
+|  ---  |  ---  |
+| 200 | 成功です。指定されたアクティビティに対して決定が行われました |
+| 400 | 無効なリクエストパラメーターです。 構文が正しくないため、サーバーがリクエストを認識できません。 |
+| 403 | 許可されていません。権限が不十分です。 |
+| 422 | 処理できないエンティティです。 ただし、リクエストの構文は正しいので、セマンティックエラーが原因で処理できません。 |
+| 429 | リクエストが多すぎます。 ユーザーが一定の時間に送信したリクエストが多すぎます。 |
+| 500 | Internal server error. サーバーで予期しない状態が発生したため、リクエストを実行できませんでした。 |
+| 503 | サーバーが過負荷になっているので、サービスを使用できません。 一時的なオーバーロードが原因で、サーバーは現在リクエストを処理できません。 |
+
+## チュートリアルビデオ {#video}
 
 次のビデオは、「意思決定管理」のコンポーネントの理解をサポートするためのものです。
 

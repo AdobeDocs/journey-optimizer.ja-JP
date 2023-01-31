@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 94%
 
 ---
 
 # ガードレールと制限 {#limitations}
 
-使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}を参照してください。
+使用権限、製品制限、パフォーマンスガードレールについては、 [Adobe Journey Optimizer製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+また、 [開始前のリアルタイム顧客プロファイルデータのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}.
 
 [!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
 
@@ -29,7 +31,7 @@ ht-degree: 100%
 
 ## 意思決定管理ガードレール {#offer-guardrails}
 
-意思決定のパフォーマンスガードレールと静的制限は、[Adobe Offer Decisioning アプリケーションサービス製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;} に記載されています。
+パフォーマンスガードレールと判定の静的制限は、 [AdobeOffer decisioningアプリサービス製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## ランディングページガードレール {#lp-guardrails}

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 作成，最適化，キャンペーン，サーフェス，メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 >* [セグメントの基本を学ぶ](../segment/about-segments.md)
 
 
-新しいキャンペーンを作成するには、**[!UICONTROL Campaigns]** メニューにアクセスし、「**[!UICONTROL キャンペーンの作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。[詳細情報](modify-stop-campaign.md#duplicate)
+新しいキャンペーンを作成するには、**[!UICONTROL Campaigns]** メニューにアクセスし、「**[!UICONTROL キャンペーンの作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。([詳細情報](modify-stop-campaign.md#duplicate))
 
 ![](assets/create-campaign.png)
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンを実行する方法を指定します。次の 2 種類のキャンペーンを使用できます。
 
-   * **[!UICONTROL スケジュール済み]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;タイプのメッセージを送信することを目的としています。
+   * **[!UICONTROL スケジュール型]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;タイプのメッセージを送信することを目的としています。
 
    * **[!UICONTROL API トリガー]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**トランザクション**&#x200B;メッセージ、つまり、個人が実行したアクション（パスワードのリセット、カードの放棄など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照](api-triggered-campaigns.md)
 
@@ -52,11 +52,13 @@ ht-degree: 98%
 
    サーフェスは、[システム管理者](../start/path/administrator.md)によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
 
+   マーケティングキャンペーンタイプと互換性のあるチャネルサーフェスのみがドロップダウンリストに一覧表示されます。
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >マーケティングキャンペーンタイプと互換性のあるチャネルサーフェスのみがドロップダウンリストに一覧表示されます。
+   >プッシュ通知キャンペーンを作成している場合、 **[!UICONTROL 迅速な配信モード]**：大量のプッシュメッセージを高速に送信できるJourney Optimizerアドオンです。 ([詳細情報](../push/create-push.md#rapid-delivery))
 
 1. 「**[!UICONTROL 作成]**」をクリックして、キャンペーンを作成します。
 
@@ -109,7 +111,7 @@ ht-degree: 98%
     </tr>
     </table>
 
-1. コンテンツを定義したら、**[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンを使用して、コンテンツをテストプロファイルでプレビューおよびテストします。[詳細情報](../email/preview.md)。
+1. コンテンツを定義したら、**[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンを使用して、テストプロファイルを使用してコンテンツをプレビューおよびテストします([詳細情報](../email/preview.md))。
 
 1. 矢印をクリックして、キャンペーン作成画面に戻ります。
 
@@ -125,7 +127,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。[詳細情報](api-triggered-campaigns.md)
+   >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。([詳細情報](api-triggered-campaigns.md))
 
    「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
 
@@ -162,4 +164,4 @@ ht-degree: 98%
 
 ![](assets/create-campaign-schedule.png)
 
-キャンペーンの準備が整ったら、キャンペーンをレビューして公開できます。 [詳細情報](review-activate-campaign.md)
+キャンペーンの準備が整ったら、キャンペーンをレビューして公開できます。 ([詳細情報](review-activate-campaign.md))

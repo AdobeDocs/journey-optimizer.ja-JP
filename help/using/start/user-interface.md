@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 93%
+source-wordcount: '1220'
+ht-degree: 95%
 
 ---
 
@@ -110,158 +110,6 @@ ht-degree: 93%
 
 「**[!UICONTROL ユースケースライブラリを表示]**」ボタンから、実行済みの使用例にアクセスできます。
 
-## アクセシビリティ{#accessibility}
-
-[!DNL Adobe Journey Optimizer] のアクセシビリティ機能は、Adobe Experience Platform から継承したものです。
-
-* キーボードアクセシビリティ
-* カラーコントラスト
-* 必須フィールドの検証
-
-[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"} (Adobe Experience Platformドキュメント )
-
-[!DNL Journey Optimizer]では、次の一般的なキーボードショートカットを使用できます。
-
-| アクション | ショートカット |
-| --- | --- |
-| ユーザインターフェイス要素、セクションおよびメニューグループ間を移動する | Tab |
-| ユーザインターフェイス要素、セクションおよびメニューグループ間を後方に移動する | Shift + Tab |
-| セクション内を移動して個々の要素にフォーカスを設定する | 矢印 |
-| フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
-| 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
-
-[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=ja){target="_blank"} (Adobe Experience Platformドキュメント )
-
-次のショートカットは、Journey Optimizer の特定の部分で使用できます。
-
-<table>
-  <thead>
-    <tr>
-      <th>インターフェイス要素</th>
-      <th>アクション</th>
-      <th>ショートカット</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>ジャーニー、アクション、データソース、イベントのリスト</td>
-    <td>ジャーニー、アクション、データソースまたはイベントを作成する</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">ドラフトステータスのジャーニーキャンバス</td>
-    <td>左側のパレットから、使用可能な最初の位置に上から下に向かってアクティビティを追加する</td>
-    <td>アクティビティをダブルクリック</td>
-  </tr>
-  <tr>
-    <td>すべてのアクティビティを選択する</td>
-    <td>Ctrl + A(Windows)<br/>CMD + A (Mac)</td>
-  </tr>
-  <tr>
-    <td>選択されたアクティビティを削除する</td>
-    <td>Delete キーまたは Backspace キーを押したあと Enter キーを押して削除を確認</td>
-  </tr>
-  <tr>
-    <td>ズームイン/ズームアウト（キャンバスまたはその子要素にフォーカス）</td>
-    <td>Ctrl +/-(Windows) または Command +/-(Mac)</td>
-  </tr>  
-  <tr>
-    <td>各アクティビティとパスの間を移動（キャンバスにフォーカス）するか、ツールバーボタン間を移動（ツールバーにフォーカス）</td>
-    <td>矢印キー</td>
-  </tr>   
-  <tr>
-    <td>キャンバス上の次にアクションにつながる要素（ツールバーが最初のもの）にフォーカスを移動する。</td>
-    <td>Tab</td>
-  </tr>  
-  <tr>
-    <td>適切な設定ペインを開く（アクティビティにフォーカス）</td>
-    <td>ENTER</td>
-  </tr>   
-  <tr>
-    <td>キャンバスでのアクティビティの移動（アクティビティに焦点を当てる）</td>
-    <td>Shift +矢印キー</td>
-  </tr>  
-  <tr>
-  <td rowspan="3">
-
-次の要素の設定ペイン：
-
-<ul>
-  <li>ジャーニーのアクティビティ</li>
-  <li>イベント</li>
-  <li>データソース</li>
-  <li>アクション</li>
-</ul>
-
-</td>
-    <td>設定する次のフィールドに移動する</td>
-    <td>Tab</td>
-  </tr>
-  <tr>
-    <td>変更内容を保存し設定ペインを閉じる</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>変更内容を破棄して設定ペインを閉じる</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">テストモードのジャーニー</td>
-    <td>テストモードを有効または無効にする</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>イベントベースのジャーニーでイベントをトリガーする</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-「**[!UICONTROL 一度に 1 つのプロファイル]**」オプションがオンになっているセグメントベースのジャーニーでイベントをトリガーする
-
-</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>テストログを表示する</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>テキストフィールド</td>
-    <td>選択されたフィールド内のすべてのテキストを選択する</td>
-    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
-  </tr>
-  <tr>
-    <td rowspan="2">ポップアップウィンドウ</td>
-    <td>変更内容を保存するかアクションを確認する</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>ウィンドウを閉じる</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td>シンプルな式エディター</td>
-    <td>フィールドを選択し追加する</td>
-    <td>フィールドをダブルクリック</td>
-  </tr>
-  <tr>
-    <td>XDM フィールドのブライジング</td>
-    <td>ノードのすべてのフィールドを選択する</td>
-    <td>親ノードを選択</td>
-  </tr>
-  <tr>
-    <td>ペイロードのプレビュー</td>
-    <td>ペイロードを選択する</td>
-    <td>Ctrl + A（Windows）<br/>Command + A（Mac）</td>
-  </tr>
-</table>
 
 ## ヘルプとサポートを検索 {#find-help}
 
@@ -312,9 +160,9 @@ Adobe Journey Optimizer インターフェイスのどこからでも、上部�
 
 ## フィルターリスト{#filter-lists}
 
-ほとんどのリストでは、検索バーを使用すると、特定の項目を検索してフィルター条件を選択できます。
+ほとんどのリストで、検索バーを使用して特定の項目を検索し、フィルター条件を定義します。
 
-フィルターにアクセスするには、リストの左上にあるフィルターアイコンをクリックします。フィルターメニューを使用すると、表示される要素をさまざまな条件で絞り込むことができます。表示する要素を、特定のタイプまたはステータスの要素、自分で作成した要素、過去 30 日間に変更された要素などに限るように選択することができます。オプションはコンテキストによって異なります。
+フィルターにアクセスするには、リストの左上にあるフィルターアイコンをクリックします。 フィルターメニューを使用すると、表示される要素をさまざまな条件で絞り込むことができます。表示する要素を、特定のタイプまたはステータスの要素、自分で作成した要素、過去 30 日間に変更された要素などに限るように選択することができます。オプションはコンテキストによって異なります。
 
 ジャーニーのリストの「**[!UICONTROL ステータスとバージョンフィルター]**」で、ステータス、タイプおよびバージョンに従ってジャーニーをフィルタリングできます。タイプは、**[!UICONTROL 単一イベント]**、**[!UICONTROL セグメントの選定]**、**[!UICONTROL セグメントを読み取り]**、**[!UICONTROL ビジネスイベント]**、**[!UICONTROL バースト]**&#x200B;のいずれかになります。**[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**&#x200B;で、特定のイベント、フィールドグループ、アクションなどを使用するジャーニーのみを表示するように選択できます。**[!UICONTROL 公開フィルター]**&#x200B;を使用すると、公開日またはユーザーを選択できます。例えば、昨日公開されたライブなジャーニーの最新バージョンのみを表示するように選択できます。[詳細情報](../building-journeys/using-the-journey-designer.md)。
 

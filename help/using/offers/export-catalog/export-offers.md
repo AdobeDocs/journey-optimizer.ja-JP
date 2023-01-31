@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
@@ -30,23 +30,29 @@ ht-degree: 100%
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## 識別子 {#identifier}
++++ 識別子
 
 **フィールド：**_id
 **タイトル：**識別子
 **説明：**&#x200B;レコードの一意の識別子。**タイプ：**&#x200B;文字列
 
-## _experience {#experience}
++++
+
++++ _experience {#experience}
 
 **フィールド：**_experience
 **タイプ：**&#x200B;オブジェクト
 
-### _experience／決定
++++
+
++++ _experience／決定
 
 **フィールド：**decisioning
 **型：**&#x200B;オブジェクト
 
-#### _experience > decisioning > calendarConstraints
++++
+
++++ _experience > decisioning > calendarConstraints
 
 **フィールド：** calendarConstraints
 **タイトル：**カレンダー制約の詳細
@@ -67,21 +73,27 @@ ht-degree: 100%
    **説明：**決定オプションの有効性の開始日。開始日に達していないオプションは、決定プロセスでまだ提案できません。
    **タイプ：**&#x200B;文字列
 
-#### _experience > decisioning > characteristics
++++
+
++++ _experience > decisioning > characteristics
 
 **フィールド：** characteristics
 **タイトル：**決定オプションの特性
 **説明：**この特定の決定オプションに属する追加のプロパティまたは属性。異なるインスタンスは、異なる特性（マップ内のキー）を持つことができます。特性は、名前と値のペアを使用して、決定オプションを他の決定オプションと区別します。特性は、この決定オプションを表すコンテンツの値として、またオプションのパフォーマンスを分析および最適化する機能として使用されます。すべてのインスタンスが同じ属性またはプロパティを持つ場合、その側面は、決定オプションの詳細から派生する拡張スキーマとしてモデル化する必要があります。
 **タイプ：**&#x200B;オブジェクト
 
-#### _experience > decisioning > contents
++++
+
++++ _experience > decisioning > contents
 
 **フィールド：** contents
 **タイトル：**コンテンツ詳細
 **説明：**異なるコンテキストで決定項目をレンダリングするコンテンツ項目。1 つの決定オプションに複数のコンテンツのバリアントを含めることができます。コンテンツとは、（デジタル）エクスペリエンスでの消費に対してオーディエンスに向けられた情報です。コンテンツは、チャネルを通じて特定の配置に配信されます。
 **タイプ：**&#x200B;配列
 
-**_experience > decisioning > contents > components**
++++
+
++++_experience > decisioning > contents > components
 
 **フィールド：**components
 **説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントを見つけるには、「dx:format」、「dc:subject」、「dc:language」、またはこれらの組み合わせを使用します。このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
@@ -167,13 +179,15 @@ ht-degree: 100%
    **タイプ：**文字列
    **例：**&quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > contents > Placement**
++++_experience > decisioning > contents > Placement
 
 **フィールド：**placement
 **タイトル：**プレースメント
 **説明：**&#x200B;準拠するプレースメント。この値は、参照するオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。**型：**&#x200B;文字列
 
-#### _experience > decisioning > Lifecycle Status
++++
+
++++ _experience > decisioning > Lifecycle Status
 
 **フィールド：** lifecycleStatus
 **タイトル：**ライフサイクルステータス
@@ -181,32 +195,42 @@ ht-degree: 100%
 **型：**文字列
 **使用可能な値：** &quot;ドラフト&quot;（デフォルト）、&quot;承認済み&quot;、&quot;ライブ&quot;、&quot;完了&quot;、&quot;アーカイブ済み&quot;
 
-#### _experience／決定／決定オプション名
++++
+
++++ _experience／決定／決定オプション名
 
 **フィールド：** name
 **タイトル：**決定オプション名
 **説明：**&#x200B;様々なユーザーインターフェイスに表示されるオプション名。**タイプ：**&#x200B;文字列
 
-#### _experience > decisioning > profileConstraints
++++
+
++++ _experience > decisioning > profileConstraints
 
 **フィールド：** profileConstraints
 **タイトル：**プロファイル制約の詳細
 **説明：**プロファイル制約は、このコンテキストにおいて、現時点でオプションがこのプロファイル ID に適合するかどうかを決定します。プロファイル制約で各オプションの値を考慮する必要がない場合（オプション選択のオプションが不変である場合）、「false」と評価されるプロファイル制約では、オプション選択全体がキャンセルされます。一方、オプションをパラメーターとするプロファイル制約ルールは、要件を満たすオプションを選択するたびに評価されます。
-**タイプ：**&#x200B;オブジェクト
+**型：**&#x200B;オブジェクト
 
-**_experience > decisioning > profileConstraints > Description**
++++
+
++++_experience > decisioning > profileConstraints > Description
 
 **フィールド：**description
 **タイトル：**説明
 **説明：**&#x200B;プロファイル制約の説明。このプロファイルの制約が設けられた経緯や理由、どのオプションが含まれ、除外されるかについて、人間が判読できる形で意図を伝えるために使用します。**型：**&#x200B;文字列
 
-**_experience > decisioning > profileConstraints > Eligibility Rule**
++++
+
++++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **フィールド：**eligibilityRule
 **タイトル：**実施要件ルール
 **説明：**&#x200B;特定のプロファイルや、その他の特定のコンテキスト XDM オブジェクトに対して、「true」または「false」と評価される決定ルールへの参照。ルールは、オプションが特定のプロファイルに該当するかどうかを決定するために使用されます。値は、参照される決定ルールの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/rule を参照してください。**型：**&#x200B;文字列
 
-**_experience > decisioning > profileConstraints > Profile Constraint Type**
++++
+
++++_experience > decisioning > profileConstraints > Profile Constraint Type
 
 **フィールド：** profileConstraintType
 **タイトル：**プロファイル制約タイプ
@@ -219,7 +243,9 @@ ht-degree: 100%
 * 「allSegments」:「プロファイル制約は 1 つ以上のセグメントとして表され、制約付きアクションが許可される前に、プロファイルはすべてのセグメントのメンバーである必要があります。」
 * 「rules」:「プロファイル制約は、制約付きアクションが許可される前にすべてが true と評価される必要がある実施要件、適用性、適合性など、様々なルールとして表されます。」
 
-**_experience > decisioning > profileConstraints > Segment Identifiers**
++++
+
++++_experience > decisioning > profileConstraints > Segment Identifiers
 
 **フィールド：**segmentIdentities
 **タイトル：**セグメント識別子
@@ -255,14 +281,18 @@ ht-degree: 100%
    **説明：**存在する場合、この値は、すべての名前空間内の名前空間スコープ識別子全体で一意の名前空間間識別子を表します。
    **タイプ：**&#x200B;文字列
 
-#### _experience > decisioning > ranking
++++
+
++++ _experience > decisioning > ranking
 
 **フィールド：** ranking
 **タイトル：**ランキングの詳細
 **説明：**ランク（優先度）。決定基準のコンテキストに基づいて、「最良のアクション」と見なされる項目を定義します。実施要件制約を満たす選択したすべてのオプションの中から、ランキング順序によって提案する最良の（または上位 N 個の）オプションが決定されます。
 **タイプ：**&#x200B;オブジェクト
 
-**_experience > decisioning > ranking > Order Evaluation**
++++
+
++++_experience > decisioning > ranking > Order Evaluation
 
 **フィールド：**order
 **タイトル：**順序評価
@@ -290,7 +320,9 @@ ht-degree: 100%
    **説明：**決定オプションのリストをランク付けする戦略への参照。決定オプションは、順序付きリストで返されます。このプロパティの値は、on オプションを指定して一度に呼び出す関数の URI（@id）です。https://ns.adobe.com/experience/decisioning/rankingStrategy のスキーマを参照してください。
    **タイプ：**&#x200B;文字列
 
-**_experience > decisioning > ranking > Priority**
++++
+
++++_experience > decisioning > ranking > Priority
 
 **フィールド：**優先度
 **タイトル：**優先度
@@ -299,22 +331,30 @@ ht-degree: 100%
 **最小値：**0
 **デフォルト値：** 0
 
-#### _experience／決定／タグ
++++
+
++++ _experience／決定／タグ
 
 **フィールド：** tags
 **タイトル：**タグ
 **説明：**このエンティティに関連付けられたタグのセット。タグは、フィルター式で使用され、在庫全体をサブセット（カテゴリ）に制限します。
 **タイプ：**&#x200B;配列
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト
 
-### _repo／決定オプション ETag
++++
+
++++ _repo／決定オプション ETag
 
 **フィールド：**etag
 **タイトル：**決定オプション ETag
 **説明：**&#x200B;決定オプションオブジェクトがスナップショットを取得した際に表示されたリビジョン。**タイプ：**&#x200B;文字列
+
++++

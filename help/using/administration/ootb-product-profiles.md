@@ -9,38 +9,14 @@ role: Admin, User
 level: Intermediate
 keywords: 権限、オーサリング、メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 99%
+source-wordcount: '1026'
+ht-degree: 97%
 
 ---
 
 # ビルトインの製品プロファイル {#ootb-product-profiles}
-
-
-## メッセージに関連する権限について{#message-permissions}
-
-Adobe Journey Optimizer では、新しいインラインオーサリング機能がリリースされました。この機能を使用すると、ジャーニーやキャンペーンから直接メッセージを作成し、オーサリングできます。
-
-この機能は次の権限に影響を与えます。
-
-| 権限の名前 | 上位の権限 |
-|:-:|:-:|
-| **[!DNL View Messages]** | **[!DNL View Journeys]** |
-| **[!DNL View Message reports]** | **[!DNL View Journeys Report]** |
-| **[!DNL Manage Messages]** | **[!DNL Manage Journey]** |
-| **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
-| **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
-
-**7月25日（PT）以降でも**、メッセージにアクセスして移行を有効にすることも、メッセージをテンプレートとして保存することも引き続きできるので、**メッセージ**&#x200B;に関連する権限は引き続き使用できます。
-
-**9月6日（PT）の時点で**、**メッセージ**&#x200B;に関連する権限が削除され、メッセージにアクセスできなくなります。
-
->[!WARNING]
->
->ユーザーを **[!DNL Message Manager]** 製品プロファイルのみに割り当て、**[!DNL Journey manager]** 製品プロファイルに割り当てていない場合、コンテンツの編集を引き続きできるようにするために、製品プロファイルを新たに割り当てる必要があります。
-
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -104,6 +80,7 @@ Adobe Journey Optimizer では、新しいインラインオーサリング機�
 |管理|<ul><li>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</li><li>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</li><li>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</li><li>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</li><li>**[!DNL Manage channel surfaces]**：コンテンツのブランディングの読み取り、作成、編集、削除。</li><li>**[!DNL Manage Landing page settings]**：ランディングページのサブドメインとランディングページのプリセットの作成、編集、削除。</li><li> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage SMS settings]**：SMS チャネルを有効にするために必要な API 認証情報と SMS チャネルサーフェスの作成、編集、削除。</li><li>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</li><li>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。</li><li>**[!DNL Manage alerts]**：ジャーニーおよび使用権限に関するアラートの有効化／無効化。</li></ul>|
 |意思決定管理|<ul><li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li><li>**[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス。</li><li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>| |Journey Optimizer ライブラリ|<ul><li>**[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</li></ul>|
+|データガバナンス|<ul><li>**[!DNL Manage usage label]**:使用状況ラベルの読み取り、作成、削除</li><li>**[!DNL Manage data usage policies]**:データ使用ポリシーの読み取り、作成、編集、削除を行います。</li><li>**[!DNL View data usage policies]**:データ使用ポリシーへの読み取り専用アクセス</li><li>**[!DNL View user activity log]**:監査ログの読み取りと書き出し。</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 
