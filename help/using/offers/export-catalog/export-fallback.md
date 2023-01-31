@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-+++ _repo {#repo}
++++ _repo
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト

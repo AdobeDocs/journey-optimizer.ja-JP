@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 99%
@@ -60,7 +60,7 @@ ht-degree: 99%
 
 +++
 
-+++ _experience > decisioning > criteria > description**
++++ _experience > decisioning > criteria > description
 
 **フィールド：**description
 **タイトル：**説明
@@ -108,7 +108,7 @@ ht-degree: 99%
 
 +++
 
-+++_experience > decisioning > criteria > placements**
++++_experience > decisioning > criteria > placements
 
 **フィールド：**placements
 **タイトル：**プレースメント制約
@@ -123,7 +123,7 @@ ht-degree: 99%
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints**
++++_experience > decisioning > criteria > profileConstraints
 
 **フィールド：**profileConstraints
 **タイトル：**プロファイル制約
@@ -201,7 +201,7 @@ ht-degree: 99%
 
 +++
 
-+++_experience > decisioning > criteria > ranking**
++++_experience > decisioning > criteria > ranking
 
 **フィールド：**ranking
 **タイトル：**ランキングの詳細
@@ -284,7 +284,7 @@ ht-degree: 99%
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト
