@@ -5,8 +5,8 @@ title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '2070'
+workflow-type: ht
+source-wordcount: '2068'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 </table>
 
 
-その他の変更点については、[Adobe Experience Platform 10月リリースのリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+その他の変更点については、[Adobe Experience Platform 10月のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ja){target="_blank"}も参照してください。
 
 ### 機能強化
 
