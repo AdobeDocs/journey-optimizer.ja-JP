@@ -7,19 +7,19 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 17%
+ht-degree: 92%
 
 ---
 
 # リリースノート {#release-notes}
 
-[!DNL Adobe Journey Optimizer] 新機能、既存機能の機能強化、バグ修正を継続的に提供します。 すべての変更は、リリースノートの各月の最後の週に統合されます。
+[!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。
 
-以前のリリースノートは、 [このページ](release-notes-2022.md). また、その他の変更点については、[最新のドキュメント更新](documentation-updates.md)ページを参照してください。
+以前のリリースノートは、[このページ](release-notes-2022.md)にあります。 また、その他の変更点については、[最新のドキュメント更新](documentation-updates.md)ページを参照してください。
 
-[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点の詳細： [Adobe Experience Platformリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}.
+[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-![ニュースレター](../assets/do-not-localize/nl-icon.png) 新規登録 [Adobe Journey Optimizer四半期ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} 今日は、最新の製品アップデート、魅力的なストーリー、使用例、ヒントなどを四半期ごとにインボックスに直接配信します。
+![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
 ## 2023年1月リリース {#jan-2023-release}
@@ -36,9 +36,9 @@ ht-degree: 17%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platformには、消費者レコードとデータセットをプログラム的に削除することで、保存されたデータを管理できる、一連のデータ衛生機能が用意されています。 この機能は、Adobe Journey Optimizerで使用できるようになりました。 </p>
-<p>データストアを管理して、情報が期待どおりに使用され、不適切なデータ修正が必要な場合は更新され、組織のポリシーで必要と判断される場合は削除されるようにします。</p>
-<p><strong>注意</strong>  — データ衛生機能は、現在、 <strong>医療用盾</strong> および <strong>プライバシーとセキュリティシールド</strong> アドオンサービス</p><p>詳しくは、<a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
+<p>Adobe Experience Platform は、消費者レコードとデータセットをプログラムで削除することで、保存されたデータを管理できる、一連のデータハイジーン機能を提供します。この機能は、Adobe Journey Optimizer で使用できるようになりました。 </p>
+<p>データストアを管理して、情報が期待どおりに使用され、必要な場合は不適切なデータの修正が更新され、組織のポリシーで必要と判断された場合は削除されるようになります。</p>
+<p><strong>注意</strong> - データハイジーン機能は、現在、<strong>Healthcare Shield</strong> および<strong>プライバシーとセキュリティシールド</strong>アドオン機能を購入した組織でのみ利用できます。</p><p>詳しくは、<a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
 
 </td>
 </tr>
@@ -75,31 +75,31 @@ ht-degree: 17%
 * Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
 -->
 
-* を追加する場合 **セグメントの選定** または **セグメントを読み取り** ジャーニーでは、名前空間は、最後に使用した名前空間で、デフォルトで事前入力されるようになりました。 詳しくは、 [セグメントの選定](../building-journeys/segment-qualification-events.md#about-segment-qualification) および [セグメントを読み取り](../building-journeys/read-segment.md#configuring-segment-trigger-activity) セクション。
+* 「**セグメントの選定**」または「**セグメントの読み取り**」をジャーニーに追加すると、名前空間は、最後に使用した名前空間で、デフォルトで事前入力されるようになりました。 詳しくは、[セグメントの選定](../building-journeys/segment-qualification-events.md#about-segment-qualification)および[セグメントの読み取り](../building-journeys/read-segment.md#configuring-segment-trigger-activity)の節を参照してください。
 
-* ジャーニーキャンバスで、ツールバーに新しいボタンが表示され、ジャーニーのスクリーンショットをダウンロードできます。
+* ジャーニーキャンバスのツールバーに新しいボタンが表示され、ジャーニーのスクリーンショットをダウンロードできます。
 
-**E メールデザイナー**
+**電子メールデザイナー**
 
-* これで、E メールコンテンツを **書き出しHTML** メニュー 書き出されたファイルは、アーカイブ (.ZIP) ファイルで使用できます。
+* **HTML を書き出し**&#x200B;メニューからメールの内容を書き出せるようになりました。書き出されたファイルは、アーカイブ（.ZIP）ファイルで使用できます。
 
 **管理**
 
-* 新しい節では、 **返信先（E メール）** 適切な返信管理を行う ([詳細情報](../email/email-settings.md#reply-to-email))
+* 新しいサブセクションでは、**返信先（メール）**&#x200B;アドレスを作成し、適切な返信管理を行うための推奨事項を説明します。[詳細情報](../email/email-settings.md#reply-to-email)
 
-* 作成または編集時 **IP プール**&#x200B;に設定すると、関連付けられている PTR レコードが IP リストに表示され、選択した IP アドレスにカーソルを合わせたときに表示されるようになります。 ([詳細情報](../configuration/ip-pools.md#create-ip-pool))
+* **IP プール**&#x200B;の作成または編集時に、関連付けられている PTR レコードが IP リストに表示され、選択した IP アドレスにカーソルを合わせると表示されるようになりました。[詳細情報](../configuration/ip-pools.md#create-ip-pool)
 
-* チャネルサーフェスで IP プールが選択されると、IP アドレスにカーソルを合わせたときに PTR レコード情報が表示されるようになりました。 ([詳細情報](../email/email-settings.md#subdomains-and-ip-pools))
+* チャネルサーフェスで IP プールが選択された後、IP アドレスにカーソルを合わせると、PTR レコード情報が表示されるようになりました。[詳細情報](../email/email-settings.md#subdomains-and-ip-pools)
 
-* 編集用のユーザーインターフェイス [PTR レコード](../configuration/ptr-records.md#edit-ptr-record) および [実行フィールド](../configuration/primary-email-addresses.md) が更新されました。
+* [PTR レコード](../configuration/ptr-records.md#edit-ptr-record)および[実行フィールド](../configuration/primary-email-addresses.md)編集用のユーザーインターフェイスが更新されました。 
 
-* サブドメインを作成および編集する際のユーザーインターフェイスが改善されました。 ([詳細情報](../configuration/delegate-subdomain.md))
+* サブドメインの作成および編集用のユーザーインターフェイスが改善されました。 [詳細情報](../configuration/delegate-subdomain.md)
 
-* 抑制リスト **最近のアップロード** 画面が更新されました。 [詳細情報](../configuration/manage-suppression-list.md#recent-uploads)
+* 抑制リストの&#x200B;**最近のアップロード**&#x200B;画面が更新されました。[詳細情報](../configuration/manage-suppression-list.md#recent-uploads)
 
 **キャンペーン**
 
-* API トリガーキャンペーンを実行するためのサンプル cURL リクエストが自動的に生成され、キャンペーン画面で使用できるようになりました。 [詳細情報](../campaigns/api-triggered-campaigns.md)
+* API トリガーキャンペーンを実行するためのサンプル cURL リクエストが自動生成され、キャンペーン画面で使用できるようになりました。 [詳細情報](../campaigns/api-triggered-campaigns.md)
 
 <!--
 **Decision management**
@@ -110,4 +110,4 @@ ht-degree: 17%
 
 **パーソナライゼーション**
 
-* 次の新しいヘルパー関数を使用できます。formatCurrency、charCodeAt、stringToDate、toString、formatNumber、toHexString。 また、toDateTimeOnly 関数では、文字列、日付、長さ、整数の各フィールドタイプを受け入れるようになりました。 ([詳細情報](../personalization/functions/functions.md))
+* 新しいヘルパー関数（formatCurrency、charCodeAt、stringToDate、toString、formatNumber、toHexString）を使用できます。さらに、toDateTimeOnly 関数では、文字列、日付、長さ、整数の各フィールドタイプを受け入れるようになりました。 [詳細情報](../personalization/functions/functions.md)

@@ -9,7 +9,7 @@ exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1808'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 92%
 
 ## 次の場所の文字コード {#char-code-at}
 
-この `charCodeAt` 関数は、JavaScript の charCodeAt 関数と同様に、文字の ASCII 値を返します。 文字列と整数（文字の位置を定義する）を入力引数として受け取り、対応する ASCII 値を返します。
+`charCodeAt` 関数は、JavaScript の charCodeAt 関数と同様に、文字の ASCII 値を返します。文字列と整数（文字の位置を定義する）を入力引数として受け取り、対応する ASCII 値を返します。
 
 **構文**
 
@@ -47,7 +47,7 @@ ht-degree: 92%
 
 **例**
 
-次の関数は、ASCII 値 (111) を返します。
+次の関数は、o の ASCII 値（111）を返します。
 
 ```sql
 {%= charCodeAt("some", 1)%}
@@ -273,9 +273,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
-## 通貨のフォーマット {#format-currency}
+## 通貨の書式設定 {#format-currency}
 
-この `formatCurrency` 関数は、2 番目の引数で文字列として渡されたロケールに応じて、任意の数値を対応する言語に依存する通貨表現に変換するために使用します。
+`formatCurrency` 関数は、2 番目の引数で文字列として渡されたロケールに応じて、任意の数値を対応する言語に依存する通貨表現に変換するために使用します。
 
 **構文**
 
@@ -285,7 +285,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-このクエリは£56.00 を返します
+このクエリは £56.00 を返します
 
 ```sql
 {%= formatCurrency(56L,"en_GB") %}
@@ -702,7 +702,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 文字列を日付に {#string-to-date}
 
-この `stringToDate` 関数は、文字列値を日時値に変換します。 2 つの引数を取ります。string フォーマッタの日時表現と文字列表現。
+`stringToDate` 関数は、文字列値を日時値に変換します。 日時の文字列表現とフォーマッターの文字列表現の 2 つの引数を取ります。
 
 **構文**
 
@@ -785,7 +785,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 日時のみに {#to-date-time-only}
 
-この `toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用します。 無効な入力に対する出力として、エポック日付を返します。この関数は、文字列、日付、長さおよび整数のフィールドタイプを受け入れます。
+`toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。この関数は、文字列、日付、長さおよび整数のフィールドタイプを受け入れます。
 
 **構文**
 

@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 [Adobe Experience Cloud](http://experience.adobe.com?lang=ja) に接続して、[!DNL Journey Optimizer] を参照します。
 
-ユーザーインターフェイスを閲覧する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide)を参照してください。{target="_blank"}
+ユーザーインターフェイスを閲覧する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target="_blank"}を参照してください。
 
-ユーザーインターフェイスで使用できるコンポーネントと機能は、次の環境によって異なります [権限](../administration/permissions.md) そして [ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. ご不明な点については、アドビカスタマーサクセスマネージャーまでお問い合わせください。
+このユーザーインターフェイスで使用できるコンポーネントと機能は、付与されている[権限](../administration/permissions.md)と、使用している[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります 。ご不明な点については、アドビカスタマーサクセスマネージャーまでお問い合わせください。
 
 >[!NOTE]
 >
