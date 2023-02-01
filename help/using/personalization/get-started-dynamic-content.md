@@ -7,12 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 式，エディター，開始，条件，開始
+keywords: 式, エディター, 基本を学ぶ, 条件, 開始
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
