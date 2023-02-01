@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Campaign v7／v8 との統合
-description: Journey OptimizerとAdobe Campaign v7/v8 を統合する方法について説明します。
+description: Journey Optimizer を Adobe Campaign v7／v8 と統合する方法を学ぶ
 feature: Actions
 topic: Administration
 role: Admin,Developer
 level: Intermediate
-keywords: キャンペーン， acc，統合
+keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 
 ## 前提条件 {#prerequisites}
 
-Campaign では、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。詳しくは、 [Adobe Campaignドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ja#transactional-messaging){target="_blank"}.
+Campaign では、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。[Adobe Campaign のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ja#transactional-messaging){target="_blank"}を参照してください。
 
 以下のパターンに従って、各メッセージに対応する JSON ペイロードを作成できます。Journey Optimizer でアクションを設定する際に、このペイロードを貼り付けます（以下を参照）。
 
