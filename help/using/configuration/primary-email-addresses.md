@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: プライマリ，実行，電子メール，ターゲット，プロファイル，オプティマイザー
+keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
