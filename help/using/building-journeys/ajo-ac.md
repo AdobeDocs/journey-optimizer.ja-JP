@@ -7,12 +7,12 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: ジャーニー，メッセージ，キャンペーン，統合
+keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
