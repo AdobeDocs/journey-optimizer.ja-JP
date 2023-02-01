@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 95%
 
 **例**
 
-次の操作は、最も安い価格で最初の 5 件の注文を返します。
+次の操作は、最も金額が低い注文の最初の 5 件を返します。
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -223,7 +223,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **例**
 
-次の操作を実行すると、最も高い価格の最後の 5 件の注文が返されます。
+次の操作は、最も金額が高い注文の最後の 5 件を返します。
 
 ```sql
 {%= bottomN(orders,price, 5) %}

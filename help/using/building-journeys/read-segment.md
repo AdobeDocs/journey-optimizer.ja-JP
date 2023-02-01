@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: アクティビティ，ジャーニー，読み取り，セグメント，プラットフォーム
+keywords: アクティビティ, ジャーニー, 読み取り, セグメント, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}.
+   >**実現**&#x200B;および&#x200B;**既存**&#x200B;のセグメント参加ステータスを持つ個人のみが個人のみがジャーニーにエントリします。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
    ![](assets/read-segment-selection.png)
 

@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 抑制、リスト、バウンス、メール、最適化
+keywords: 抑制, リスト, バウンス, メール, Optimizer
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -196,7 +196,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、 [このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例：
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}で確認することができます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -229,7 +229,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**コメント**」列に入力できます。完全なリストは、 [このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例：
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**コメント**」列に入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}で確認することができます。
 
 1. 完了したら、CSV ファイルをドラッグ＆ドロップしたあと、「**[!UICONTROL 送信]**」をクリックします。
 

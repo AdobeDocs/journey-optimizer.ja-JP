@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: サブドメイン、デリゲーション、ドメイン、DNS
+keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,8 +118,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
->title="検証レコードをコピー"
->abstract="Adobeが検証レコードを生成します。 CDN URL 検証用に、ホスティングプラットフォーム上に対応するレコードを作成する必要があります。"
+>title="検証レコードのコピー"
+>abstract="アドビは、検証レコードを生成します。CDN URL 検証用に、ホスティングプラットフォーム上に対応するレコードを作成する必要があります。"
 
 ドメイン固有の制限ポリシーがあり、アドビが DNS の一部を制御する必要がある場合は、自社で DNS 関連のすべてのアクティビティを実行するように選択できます。
 

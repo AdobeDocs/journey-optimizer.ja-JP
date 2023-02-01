@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 
 サブカテゴリと関数にアクセスするには、カテゴリを選択します。
 
-サブカテゴリにアクセスするには、「`>`」アイコンをクリックします。関数を選択するには、 `+` アイコン：関数がパーソナライゼーション画面に自動的に追加されます。
+サブカテゴリにアクセスするには、「`>`」アイコンをクリックします。`+` アイコンをクリックして関数を選択すると、その関数がパーソナライゼーション画面に自動的に追加されます。
 
 「`...`」アイコンをクリックして関数の説明を表示し、お気に入りに追加します。[詳細情報](../personalize.md#fav)
 
@@ -307,7 +307,7 @@ ht-degree: 91%
         <td><a href="string.md#sub-string">部分文字列</a></td><td>この関数は文字列式の開始インデックスと終了インデックスの間にある部分文字列を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">タイトルケース</a></td><td>この関数は、文字列の各単語の先頭文字を大文字にするために使用します。</td>
+        <td><a href="string.md#titleCase">タイトルケース</a></td><td>この関数は、文字列の各単語の最初の文字を大文字にするために使用します。</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">ブール値に</a></td><td>この関数雨は引数の値をタイプに応じてブール値に変換します。</td>
@@ -316,7 +316,7 @@ ht-degree: 91%
         <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は、引数値を日時のみの値に変換します。 無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は、引数値を日時のみの値に変換します。無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">トリミング</a></td><td>文字列の先頭と末尾の空白を削除します</td>
@@ -340,7 +340,7 @@ ht-degree: 91%
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">デフォルトのフォールバック値</a></td><td>この関数は、デフォルトで変数をレンダリングするために使用されます。</td>
+        <td><a href="helpers.md#default">デフォルトのフォールバック値</a></td><td>この関数を使用すると、デフォルトで変数をレンダリングできます。</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>配列を繰り返すために使用します。</td>

@@ -7,7 +7,7 @@ feature: Access Management
 topic: Administration
 role: Admin, User
 level: Intermediate
-keywords: 権限、オーサリング、メッセージ
+keywords: 権限, オーサリング, メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt

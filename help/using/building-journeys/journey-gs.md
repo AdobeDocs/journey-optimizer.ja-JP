@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ジャーニー，最初，開始，クイックスタート，セグメント，イベント，アクション
+keywords: ジャーニー, 最初, 開始, クイックスタート, セグメント, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 

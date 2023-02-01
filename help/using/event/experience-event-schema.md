@@ -7,12 +7,12 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: スキーマ， XDM，プラットフォーム，ストリーミング，取り込み，ジャーニー
+keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 

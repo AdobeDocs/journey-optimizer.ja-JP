@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API を使用したキャンペーンのトリガー
-description: Journey Optimizer API を使用してキャンペーンをトリガー化する方法を説明します
+description: Journey Optimizer API を使用してキャンペーンをトリガーする方法を学ぶ
 topic: Content Management
 role: Developer, Admin
 level: Intermediate, Experienced
-keywords: キャンペーン， API トリガー， REST，オプティマイザ，メッセージ
+keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ API トリガー型キャンペーンを作成するには、次の手順に従�
 
 1. 「**[!UICONTROL レビューしてアクティベート]**」をクリックして、キャンペーンが正しく設定されていることを確認してからアクティブ化します。
 
-これで、API からキャンペーンを実行する準備が整いました。 ([詳細情報](#execute))
+これで、API からキャンペーンを実行する準備が整いました。 [詳細情報](#execute)
 
 ### キャンペーンの実行 {#execute}
 

@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 選定，イベント，セグメント，ジャーニー，プラットフォーム
+keywords: 選定, イベント, セグメント, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。セグメントの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}.
+   >なお、**[!UICONTROL エントリ]**&#x200B;と&#x200B;**[!UICONTROL 離脱]**&#x200B;は、Adobe Experience Platform の&#x200B;**実現**&#x200B;と&#x200B;**離脱**&#x200B;のセグメント参加ステータスに対応します。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。
 
@@ -115,7 +115,7 @@ ht-degree: 96%
 
 ![](assets/segment-error.png)
 
-ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、 [Journey Orchestration文書](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}. キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
+ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
 
 実稼動ジャーニーでセグメントを使用する前には、必ず、このセグメントに選定された個人の数を評価してください。そのためには、**[!UICONTROL セグメント]** メニューをチェックし、セグメントを開いてから&#x200B;**[!UICONTROL 経時的なプロファイル]**&#x200B;グラフで確認します。
 

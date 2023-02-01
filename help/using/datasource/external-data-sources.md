@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 外部，ソース，データ，設定，接続，サードパーティ
+keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt

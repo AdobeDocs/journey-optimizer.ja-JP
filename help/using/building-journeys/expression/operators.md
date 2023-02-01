@@ -6,12 +6,12 @@ description: 高度な式で使用できる演算子について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 式，構文，演算子，エディター，ジャーニー
+keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
