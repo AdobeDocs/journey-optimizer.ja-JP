@@ -7,12 +7,12 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 分析，統合， web sdk，プラットフォーム
+keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Analytics と連携させるには、利用するレポートスイート�
 
 ![](assets/ajo-aa_4.png)
 
-でのAdobe Analyticsソースコネクタの詳細を説明します  [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"}.
+Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"}を参照してください。
 
 ## Adobe Analytics または Web SDK データを使用したイベントでのジャーニーの作成 {#event-analytics}
 
