@@ -6,12 +6,12 @@ description: ジャーニーの基本を学ぶ
 feature: Journeys
 role: User
 level: Beginner
-keywords: ジャーニー， discover, get-start
+keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
