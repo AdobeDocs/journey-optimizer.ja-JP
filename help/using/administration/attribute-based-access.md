@@ -7,12 +7,12 @@ feature: Access Management
 topic: Administration
 role: Admin,Leader
 level: Intermediate
-keywords: abac，属性，認証，データ，アクセス，機密，アセット
+keywords: abac, 属性, 認証, データ, アクセス, 機密, アセット
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
