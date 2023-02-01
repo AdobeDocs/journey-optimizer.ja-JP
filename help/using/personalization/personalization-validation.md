@@ -7,12 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 式，エディター，検証，エラー，パーソナライゼーション
+keywords: 式, エディター, 検証, エラー, パーソナライゼーション
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
