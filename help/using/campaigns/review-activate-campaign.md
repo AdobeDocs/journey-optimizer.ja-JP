@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンのレビューとアクティブ化
-description: Journey Optimizerでキャンペーンを確認してアクティブ化する方法を説明します
+description: Journey Optimizer でキャンペーンをレビューおよびアクティブ化する方法について学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: キャンペーン，レビュー，検証，有効化，有効化，最適化
+keywords: キャンペーン, レビュー, 検証, アクティブ化, アクティブ化, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
