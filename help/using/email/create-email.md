@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 作成，電子メール，開始，ジャーニー，キャンペーン
+keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,8 +77,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="E メールコンテンツの設定"
->abstract="E メールのコンテンツを作成します。 件名を定義してから、E メールデザイナーを活用して E メールの本文を作成およびパーソナライズします。"
+>title="メールコンテンツの設定"
+>abstract="メールのコンテンツを作成します。件名を定義してから、電子メールデザイナーを活用してメールの本文を作成およびパーソナライズします。"
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メールコンテンツを設定します。[詳細情報](get-started-email-design.md)
 
