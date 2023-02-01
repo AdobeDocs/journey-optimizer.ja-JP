@@ -9,8 +9,8 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '1101'
+workflow-type: ht
+source-wordcount: '1097'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer] でアクセスするには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target=&quot;_blank&quot;} を使用して web ページを実装する必要があります。
+>[!DNL Journey Optimizer] でアクセスするには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を使用して web ページを実装する必要があります。
 
 1. キャンペーンの「**[!UICONTROL アクション]**」タブから、「**[!UICONTROL コンテンツを編集]**」を選択して web キャンペーンの作成を開始します。
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target=&quot;_blank&quot;} を含める必要があります。
+   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を含める必要があります。
 
 1. 「**[!UICONTROL Web デザイナーを開く]**」をクリックして編集します。[詳細情報](author-web.md)
 
