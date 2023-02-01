@@ -7,12 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ランディング、ランディングページ、使用例
+keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 97%
 
 ### オプトアウト管理 {#opt-out-management}
 
-ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件です。該当する法律について詳しくは、 [Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}.
+ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件です。適用される法律について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
 
 したがって、受信者に送信されるすべての メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
 
@@ -155,7 +155,7 @@ ht-degree: 97%
 
    * プロファイルデータは更新され、再度登録しない限り、ブランドからのお知らせは届きません。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、 [Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}.
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
