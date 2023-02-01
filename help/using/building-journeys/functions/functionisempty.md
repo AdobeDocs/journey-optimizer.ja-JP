@@ -5,12 +5,12 @@ description: isEmpty 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: isEmpty，関数，式，ジャーニー
+keywords: isEmpty, 関数, 式, ジャーニー
 exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '40'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
