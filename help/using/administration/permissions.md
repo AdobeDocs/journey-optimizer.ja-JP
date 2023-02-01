@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ユーザーと製品プロファイルの管理
-description: ユーザーと製品プロファイルを管理する方法について説明します
+description: ユーザーと製品プロファイルの管理方法を学ぶ
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 製品、プロファイル、サンドボックス
+keywords: 製品, プロファイル, サンドボックス
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 96%
 
 [!DNL Journey Optimizer] では、独自の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。**[!UICONTROL 製品プロファイル]**&#x200B;を使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
-サンドボックスの作成および管理方法について詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}.
+サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}を参照してください。
 
 この例では、「**ジャーニー読み取り専用**」という名前の製品プロファイルを作成し、ジャーニー機能に読み取り専用の権限を付与します。ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL  Decision management]** など、他の機能にはアクセスできません。
 
