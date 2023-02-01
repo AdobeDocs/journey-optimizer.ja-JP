@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: プリヘッダー，エディター，概要，電子メール
+keywords: プリヘッダー, エディター, 概要, メール
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
