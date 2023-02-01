@@ -5,12 +5,12 @@ title: データセットの基本を学ぶ
 description: Adobe Journey Optimizer での Adobe Experience Platform データセットの使用方法を説明します
 role: User
 level: Beginner
-keywords: プラットフォーム，データレイク，作成，レイク，データセット，プロファイル
+keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 次のことができます。
 
 * スキーマからのデータセットの作成。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#schema)。{target="_blank"}
-* CSV ファイルからのデータセットの作成。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja)。{target="_blank"}
+* CSV ファイルからのデータセットを作成します。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja)。{target="_blank"}
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
@@ -82,15 +82,15 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
  [!DNL Adobe Experience Platform Data Governance] を使用すると、顧客データを管理し、データの使用に適用される規制、制限、ポリシーへのコンプライアンスを確保できます。Experience Platform 内の様々なレベルで重要な役割を果たします（例えば、カタログ化、データ系列、データ使用ポリシー、マーケティングアクションのデータに関するアクセス制御など）。
 
-データガバナンスとデータ使用ラベルについて詳しくは、 [データガバナンスに関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=ja){target="_blank"}
+データガバナンスとデータ使用ラベルについて詳しくは、[データガバナンスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=ja){target="_blank"}を参照してください
 
 ## サンプルとユースケース{#uc-datasets}
 
 スキーマとデータセットを作成し、データを取り込んで、Adobe Journey Optimizer にテストプロファイルを追加する方法について、[このエンドツーエンドのサンプル](../segment/creating-test-profiles.md)で説明します。
 
-でのデータセット作成の詳細を説明します [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target="_blank"}.
+データセットの作成について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target="_blank"}を参照してください。
 
-でデータセット UI を使用する方法を説明します。 [データ取り込みの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}.
+データセット UI の使用方法については、[データ取り込みの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}を参照してください。
 
 クエリの例を含むユースケースのリストは、[こちら](../data/datasets-query-examples.md)から入手できます。
 
