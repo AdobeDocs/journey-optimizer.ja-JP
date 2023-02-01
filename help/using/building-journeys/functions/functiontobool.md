@@ -5,12 +5,12 @@ description: toBool 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: tobool，関数，式，ジャーニー
+keywords: toBool, 関数, 式, ジャーニー
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
