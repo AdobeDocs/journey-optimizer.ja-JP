@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ジャンプ、アクティビティ、ジャーニー、分割、分割
+keywords: ジャンプ, アクティビティ, ジャーニー, 分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
