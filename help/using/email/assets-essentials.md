@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: アセット，初期設定， experience manager，統合
+keywords: アセット, 初期設定, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# でのアセットの作成と管理 [!DNL Assets Essentials]{#experience-manager-assets}
+# [!DNL Assets Essentials] を使用したアセットの作成と管理{#experience-manager-assets}
 
 ## [!DNL Assets Essentials] の基本を学ぶ {#get-started-assets-essentials}
 
@@ -24,22 +24,22 @@ ht-degree: 89%
 
 [!DNL Adobe Experience Manager Assets Essentials] は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に統合するために共同作業できる、一元化されたアセットワークスペースです。承認済みの実稼動アセットを簡単に整理、タグ付け、検索して、チーム間でブランドの一貫性を確保できます。直感的なユーザーエクスペリエンスによって、[!DNL Assets Essentials] を使用すれば、Adobe Creative アプリや Experience Cloud アプリ内でアセットをすぐに共有できます。
 
-詳しくは、 [Adobe Experience Manager Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}.
+詳しくは、[Adobe Experience Manager Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
 
 [!DNL Adobe Experience Manager Assets Essentials] は左メニューの「**[!UICONTROL アセット]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。また、[メールのコンテンツをデザイン](get-started-email-design.md)する際に、アセットやフォルダーにアクセスすることもできます。
 
 ## 前提条件{#assets-prerequisites}
 
- [!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;製品プロファイルに追加する必要があります。詳しくは、 [Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}.
+ [!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
 
 >[!NOTE]
->2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、 [Assets Essentialsをデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"} 」セクションに入力します。
+>2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}の節をご覧ください。
 
 ## アセットのアップロードと挿入{#add-asset}
 
 ファイルを [!DNL Assets Essentials] にインポートするには、まず保存先のフォルダーを参照または作成する必要があります。その後、メールコンテンツに挿入できます。
 
-アセットのアップロード方法について詳しくは、 [Adobe Experience Manager Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=ja){target="_blank"}.
+アセットのアップロード方法について詳しくは、[Adobe Experience Manager Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=ja){target="_blank"}を参照してください。
 
 1. [!DNL Adobe Journey Optimizer] のホームページで、**[!UICONTROL コンテンツ管理]**&#x200B;メニューから「**[!UICONTROL Assets]**」タブを選択して [!DNL Assets Essentials] にアクセスします。
 
@@ -65,11 +65,11 @@ ht-degree: 89%
 
 1. アセットがアップロードされると、電子メールデザイナーを使用してメッセージのいずれかにアセットを挿入できるようになります。
 
-   また、アセットは [!DNL Assets Essentials] の&#x200B;**編集**&#x200B;モードでさらに編集することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}.
+   また、アセットは [!DNL Assets Essentials] の&#x200B;**編集**&#x200B;モードでさらに編集することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
 
    ![](assets/media_library_12.png)
 
-1. [!DNL Adobe Journey Optimizer] で、電子メールデザイナーの左側のペインにある「**[!UICONTROL AEM Asset ピッカー]**」を選択します。
+1. [!DNL Adobe Journey Optimizer] で、電子メールデザイナーの左パネルにある「**[!UICONTROL アセットピッカー]**」を選択します。
 
    ![](assets/media_library_5.png)
 
