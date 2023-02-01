@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンの変更または停止
-description: Journey Optimizerでライブキャンペーンを変更、停止、複製する方法を説明します
+description: Journey Optimizer でライブキャンペーンを変更、停止、複製する方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: キャンペーンの管理，ステータス，スケジュール，アクセス，オプティマイザ
+keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
