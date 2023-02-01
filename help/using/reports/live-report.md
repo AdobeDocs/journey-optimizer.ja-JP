@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 ## ダッシュボードのカスタマイズ {#modify-dashboard}
 
-各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。ウィジェットを変更して影響を受けるのは、現在のユーザーのダッシュボードのみです。他のユーザーには、各自のダッシュボードまたはデフォルトで設定されたダッシュボードが表示されます。
+各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。ウィジェットを変更して影響を受けるのは、現在のユーザーのダッシュボードのみです。他のユーザーには、各自のダッシュボードまたはデフォルトで設定されたダッシュボードが表示されます。
 
 1. 切り替えバーを使用して、レポートからテストイベントを除外する場合に選択します。テストイベントについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
@@ -96,7 +96,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
  </tbody> 
 </table>
 
-### E メールおよび SMS のディメンションと指標 {#email-and-sms-metrics}
+### メールおよび SMS のディメンションと指標 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
