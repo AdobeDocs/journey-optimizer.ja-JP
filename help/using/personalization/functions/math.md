@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 46%
 
 ## formatNumber {#format-number}
 
-この `formatNumber` 関数は、任意の数値をその言語に依存する表現に書式設定するために使用します。
+この `formatNumber` 関数は、任意の数値を言語依存の表現に書式設定するために使用されます。
 
 ロケールを表す数値および文字列を受け入れて、目的のロケールで書式設定された数値の文字列を返します。
 
@@ -38,7 +38,7 @@ ht-degree: 46%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-書式設定と有効なロケールを「 [Oracle文書](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) および [サポートされているロケール](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+[Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)と[サポートされているロケール](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)にまとめられている書式設定と有効なロケールを使用できます{_blank}
 
 **例**
 
@@ -80,7 +80,7 @@ ht-degree: 46%
 
 ## 16 進文字列に {#to-hex-string}
 
-この `toHexString` 関数は、任意の数を 16 進数文字列に変換します。
+この `toHexString` 関数は、任意の数を 16 進文字列に変換します。
 
 **構文**
 
@@ -90,7 +90,7 @@ ht-degree: 46%
 
 **例**
 
-このクエリは、158(9e) の 16 進数値を返します。
+このクエリは、158 の 16 進数値、つまり 9e を返します。
 
 ```sql
 {%= toHexString(158) %}
@@ -116,9 +116,9 @@ ht-degree: 46%
 {%= toPrecision(double,int) %}: string
 ```
 
-## 文字列へ {#to-string}
+## toString {#to-string}
 
-この **toString** 関数は、任意の数値を文字列表現に変換します。
+**toString** 関数は、任意の数値を文字列表現に変換します。
 
 **構文**
 
