@@ -7,12 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 式，エディター，動的，コンテンツ
+keywords: 式, エディター, 動的, コンテンツ
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
