@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 在庫、画像、統合、写真
+keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 [!DNL Adobe Stock] と [!DNL Adobe Journey Optimizer] E メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。
 
-[Adobe Stock](https://helpx.adobe.com/jp/stock/get-started.html){target="_blank"} は、何百万もの高品質で厳選された、ロイヤリティフリーの写真、ビデオ、イラスト、ベクトルグラフィックを利用できます。 クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
+[Adobe Stock](https://helpx.adobe.com/jp/stock/get-started.html){target="_blank"} では、数百万もの厳選された高品質な、ロイヤリティフリーの写真、ビデオ、イラスト、ベクターグラフィックを利用できます。クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
 
 [!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] からメールに画像を直接アップロードし、「**[!UICONTROL Adobe Stock フォトを検索]**」オプションを使用して&#x200B;**[!UICONTROL アセット]**&#x200B;フォルダーに追加できます。「**[!UICONTROL 類似のストックフォトを検索]**」オプションを使用すると、配信で使用されるアセットのコンテンツ、カラー、構成に一致する画像を検索することができます。
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 「**[!UICONTROL Adobe Stock フォトを検索]**」および「**[!UICONTROL 類似画像を検索]**」オプションは、AEM Assets Essentials 製品プロファイルにアクセスできるユーザーが使用できます。
 
-詳しくは、 [Assets の基本ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-users-to-essentials){target="_blank"}.
+詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-users-to-essentials){target="_blank"}を参照してください。
 
 ## [!DNL Adobe Stock] からの画像の挿入 {#add-stock-image}
 
@@ -88,7 +88,7 @@ ht-degree: 92%
 
    価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。複数の Adobe Stock アカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
 
-   でのAdobe Stockの計画と価格について詳しくは、 [Adobe Stockドキュメント](https://stock.adobe.com/jp/plans){target="_blank"}.
+   Adobe Stock のプランと価格について詳しくは、[Adobe Stock のドキュメント](https://stock.adobe.com/jp/plans){target="_blank"}を参照してください。
 
    >[!WARNING]
    > 未ライセンスの画像を含むメールが送信された場合、画像は透かしのある未ライセンスのフォームを保持します。
@@ -103,5 +103,5 @@ ht-degree: 92%
 
 * [Journey Optimizer でのメールのデザイン](get-started-email-design.md)
 * [メールのデザインのコンポーネント設定](content-components.md)
-* [Adobe Stockはじめに](https://helpx.adobe.com/jp/stock/get-started.html){target="_blank"}.
+* [Adobe Stock の概要](https://helpx.adobe.com/jp/stock/get-started.html){target="_blank"}。
 
