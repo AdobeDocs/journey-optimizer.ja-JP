@@ -6,12 +6,12 @@ description: Journey Optimizer でのジャーニーの終了方法を学ぶ
 feature: Journeys
 role: User
 level: Beginner
-keywords: 再入場，ジャーニー，終了，ライブ，停止
+keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
