@@ -5,12 +5,12 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-keywords: アプリ内、メッセージ、設定、プラットフォーム
+keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
