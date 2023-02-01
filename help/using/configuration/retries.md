@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 再試行，バウンス，ソフト，最適化，エラー
+keywords: 再試行, バウンス, ソフト, Optimizer, エラー
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
