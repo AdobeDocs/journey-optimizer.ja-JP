@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツ実験の基本を学ぶ
-description: Journey Optimizerでのコンテンツ実験の詳細
+description: Journey Optimizer でのコンテンツ実験について学ぶ
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
-keywords: はじめに、開始、コンテンツ、実験
+keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
