@@ -7,12 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 式，エディター，使用例，パーソナライゼーション
+keywords: 式, エディター, ユースケース, パーソナライゼーション
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
