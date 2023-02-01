@@ -5,12 +5,12 @@ description: distinctCountWithNull 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: distinctCountWithNull，関数，式，ジャーニー
+keywords: distinctCountWithNull, 関数, 式, ジャーニー
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
