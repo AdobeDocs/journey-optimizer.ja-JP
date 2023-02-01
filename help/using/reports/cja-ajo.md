@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
-workflow-type: tm+mt
-source-wordcount: '338'
+workflow-type: ht
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でジャーニーを作成した後、[!DNL Customer Journey Analytics] に顧客データを読み込んでレポートを開始し、ジャーニーにおける顧客のインタラクションが与える影響を把握できます。
 
-➡️ [Customer Journey Analytics の概要を確認する](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja){target=&quot;_blank&quot;}
+➡️ [Customer Journey Analytics の概要を確認する](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja){target="_blank"}
 
-ジャーニーに対して [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
+ジャーニーで [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
 
 1. Adobe Experience Platform に送信する&#x200B;**[!UICONTROL データセット]**&#x200B;を使用して、[!DNL Customer Journey Analytics] で[接続を作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja)します。
 
