@@ -5,12 +5,12 @@ description: length 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: length，関数，式，ジャーニー
+keywords: length, 関数, 式, ジャーニー
 exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '38'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
