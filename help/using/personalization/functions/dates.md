@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
 >
-> Java の日付書式設定関数を使用して、 [Oracle文書](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> [Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}にまとめられている Java 日付書式設定関数を使用できます。
 
 **例**
 
