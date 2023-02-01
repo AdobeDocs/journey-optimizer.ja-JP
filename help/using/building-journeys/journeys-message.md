@@ -7,16 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ジャーニー，メッセージ，プッシュ， sms，電子メール
+keywords: ジャーニー, メッセージ, プッシュ, sms, メール
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# メール、SMS、プッシュ{#add-a-message-in-a-journey}
+# メール, SMS, プッシュ{#add-a-message-in-a-journey}
 
 [!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、SMS またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます.
 
