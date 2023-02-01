@@ -7,12 +7,12 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-keywords: データセット、オプティマイザ、使用例
+keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '822'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
