@@ -7,12 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 式，エディター，属性，パーソナライゼーション
+keywords: 式, エディター, 属性, パーソナライゼーション
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
