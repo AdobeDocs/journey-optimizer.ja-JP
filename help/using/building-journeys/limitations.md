@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ジャーニー、制限
+keywords: ジャーニー, 制限
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
