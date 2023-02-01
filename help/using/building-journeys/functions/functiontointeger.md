@@ -5,12 +5,12 @@ description: toInteger 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toInteger，関数，式，ジャーニー
+keywords: toInteger, 関数, 式, ジャーニー
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
