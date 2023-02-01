@@ -5,12 +5,12 @@ description: inLastYears 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastYears，関数，式，ジャーニー
+keywords: inLastYears, 関数, 式, ジャーニー
 exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
