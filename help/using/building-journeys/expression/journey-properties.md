@@ -6,12 +6,12 @@ description: ジャーニーのプロパティについて説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: ジャーニー，式，エディター，プロパティ
+keywords: ジャーニー, 式, エディター, プロパティ
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
