@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: サンドボックス，ジャーニー，コピー，環境
+keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Journey Optimizer では、1 つのサンドボックスから別のサンドボ
 
 ## コピープロセスと制限事項 {#limitations}
 
-リンクされているすべての要素が、宛先サンドボックスにコピーされない場合があります。 Adobeでは、詳細なチェックを実行することを強くお勧めします。 欠けている可能性のあるオブジェクトを特定し、ジャーニーを公開する前に手動で作成します。
+リンクされているすべての要素が、宛先サンドボックスにコピーされるわけではありません。アドビでは、徹底的な確認を行うことを強くお勧めします。欠けている可能性のあるオブジェクトを特定し、ジャーニーを公開する前に手動で作成します。
 
 コピーされるオブジェクトは次のとおりです。
 
