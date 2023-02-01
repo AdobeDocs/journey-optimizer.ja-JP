@@ -5,12 +5,12 @@ description: inNextYears 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextYears，関数，式，ジャーニー
+keywords: inNextYears, 関数, 式, ジャーニー
 exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
