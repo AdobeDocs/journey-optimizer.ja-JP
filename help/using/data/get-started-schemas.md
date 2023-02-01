@@ -6,12 +6,12 @@ description: Adobe Journey Optimizer でのAdobe Experience Platform スキー�
 feature: Schemas
 role: User
 level: Beginner
-keywords: スキーマ，プラットフォーム，データ，構造
+keywords: スキーマ, Platform, データ, 構造
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 88%
 
 スキーマは、データの構造と形式を表し、検証する一連のルールです。スキーマは、高いレベルで、実世界のオブジェクト（人など）の抽象的な定義を提供し、そのオブジェクトの各インスタンスに含めるデータ（名、姓、誕生日など）の概要を示します。
 
-でスキーマを構築する方法を説明します。 [このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"}
+スキーマの作成方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"}を参照してください
 
 [!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**スキーマ**&#x200B;ワークスペースを使用すると、スキーマ、クラス、スキーマフィールドグループ、データタイプなどの Experience Data Model（XDM）リソースを管理できます。アドビから提供されるコアリソースを表示および調査し、組織のカスタムリソースおよびスキーマを作成できます。
 
 ![](assets/schemas-home.png)
 
-でスキーマユーザーインターフェイスを使用する方法を説明します。 [このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja){target="_blank"}
+スキーマユーザーインターフェイスの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja){target="_blank"}を参照してください
 
-スキーマエディターを使用してスキーマを作成する手順を示すドキュメントについては、 [このページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}
+スキーマエディターを使用してスキーマを作成する手順については、[このページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}を参照してください
 
 
 ## ハウツービデオ{#video-schema}
@@ -45,5 +45,5 @@ ht-degree: 88%
 * [スキーマとデータセットの作成およびデータの取り込みによる Journey Optimizer へのテストプロファイルの追加](../segment/creating-test-profiles.md)
 * [XDM システムの概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}
 * [データモデリングのベストプラクティス](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ja){target="_blank"}
-* [スキーマレジストリ API を使用したスキーマの作成](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=ja){target="_blank"}
+* [Schema Registry API を使用したスキーマの作成](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=ja){target="_blank"}
 * [スキーマエディターを使用した 2 つのスキーマ間の関係の定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=ja){target="_blank"}
