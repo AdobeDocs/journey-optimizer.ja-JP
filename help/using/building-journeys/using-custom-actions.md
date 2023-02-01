@@ -7,12 +7,12 @@ feature: Actions
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: アクション，カスタム， API，ジャーニー，設定，サービス
+keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
