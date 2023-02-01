@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
-workflow-type: tm+mt
-source-wordcount: '688'
+workflow-type: ht
+source-wordcount: '686'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] は、[!DNL Adobe Experience Platform] でネイティブに構築され、統合されたリアルタイム顧客プロファイル、API ファーストのオープンフレームワーク、一元化されたオファー決定支援、人工知能（AI）と機械学習（ML）を組み合わせて、パーソナライゼーションと最適化を実現します。Journey Optimizer を使用すると、カスタマージャーニー全体を通じて、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。[!DNL Adobe Journey Optimizer] を使用すると、企業は、スケジュールに沿ったマーケティングキャンペーン（小売店向けの週別プロモーションなど）と、カスタマイズされた個々のコミュニケーション（ロイヤルティアプリの顧客が以前表示し、在庫切れだった品目のプッシュ通知など）の両方を同じアプリ内で作成して配信できます。
 
-➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target=&quot;_blank&quot;}（ビデオ）
+➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target="_blank"}（ビデオ）
 
 
 ## ユースケース {#use-cases}
