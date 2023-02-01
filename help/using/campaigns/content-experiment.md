@@ -7,14 +7,14 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
-keywords: コンテンツ，実験，複数，オーディエンス，治療
+keywords: コンテンツ, 実験, 複数, オーディエンス,
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
