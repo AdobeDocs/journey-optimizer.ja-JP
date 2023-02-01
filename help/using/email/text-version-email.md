@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: テキスト、E メール、バージョン、プレーン、エディター
+keywords: テキスト, メール, バージョン, プレーン, エディター
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
