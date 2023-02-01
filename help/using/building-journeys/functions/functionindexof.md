@@ -5,12 +5,12 @@ description: indexOf 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: indexOf，関数，式，ジャーニー
+keywords: indexOf, 関数, 式, ジャーニー
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
