@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 同意ポリシーの使用
-description: Adobe Experience Platformの同意ポリシーの操作方法を説明します
+description: Adobe Experience Platform の同意ポリシーの使用方法を学ぶ
 feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
-keywords: ポリシー，ガバナンス，プラットフォーム，ヘルスケアシールド，同意
+keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
