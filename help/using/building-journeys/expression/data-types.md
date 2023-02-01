@@ -6,12 +6,12 @@ description: 高度な式で使用できるデータタイプについて説明�
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 式，データ，データタイプ，ジャーニー
+keywords: 式, データ, データタイプ, ジャーニー
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
