@@ -5,12 +5,12 @@ description: toDateOnly 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toDateOnly，関数，式，ジャーニー
+keywords: toDateOnly, 関数, 式, ジャーニー
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
