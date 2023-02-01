@@ -7,14 +7,14 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-keywords: コンテンツ，実験，統計，計算
+keywords: コンテンツ, 実験, 統計, 計算
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
