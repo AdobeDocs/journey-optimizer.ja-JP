@@ -5,12 +5,12 @@ description: lower 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: lower，関数，式，ジャーニー
+keywords: lower, 関数, 式, ジャーニー
 exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '34'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
