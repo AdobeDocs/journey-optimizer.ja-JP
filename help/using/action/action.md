@@ -7,12 +7,12 @@ feature: Actions
 topic: Administration
 role: Admin,Developer
 level: Intermediate
-keywords: アクション，ジャーニー，メッセージ，送信，接続
+keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 
 Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応じて統合を利用できます。[このページ](../action/acc-action.md)を参照してください。
 
-サードパーティ製システムを使用して Epsilon、Facebook、 [Adobe Developer](https://developer.adobe.com/){target="_blank"}、Firebase などでは、カスタムアクションを追加して設定する必要があります。 [このページ](../action/about-custom-action-configuration.md)を参照してください。
+サードパーティシステムを使用して Epsilon、Facebook、[Adobe Developer](https://developer.adobe.com/){target="_blank"}、Firebase などのメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
 カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを持つ REST API を介して呼び出すことのできる任意のプロバイダーからの任意のサービスで設定できます。
 
