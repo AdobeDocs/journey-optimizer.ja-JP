@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="キャンペーンのグローバルレポート"
->abstract="キャンペーンのグローバルレポートを使用すると、選択した期間におけるキャンペーンの影響を測定できます。 レポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分割されています。 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。"
+>abstract="キャンペーンのグローバルレポートを使用すると、選択した期間におけるキャンペーンの効果を測定できます。 レポートは、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
 
-キャンペーンのグローバルレポートには、 **[!UICONTROL レポートを表示]** 」ボタンをクリックします。
+キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 
 ![](assets/campaign_report_global_5.png)
 
