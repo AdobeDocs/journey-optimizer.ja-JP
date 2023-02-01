@@ -6,8 +6,8 @@ description: データエンジニア向けに Journey Optimizer の操作方法
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**データ取得**&#x200B;について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+>**データ取り込み**&#x200B;の詳細：[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}.
 
 ID 名前空間、プロファイルに対して有効化されたデータセット、テストプロファイルなどを作成する手順について詳しくは、以下の節を参照してください。
 
