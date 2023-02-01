@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: チャネル，サーフェス，技術，パラメータ，オプティマイザ
+keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 98%
 
 チャネルサーフェスの作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 助けを得るために
+これらのエラーのいずれかが発生した場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にご連絡ください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
