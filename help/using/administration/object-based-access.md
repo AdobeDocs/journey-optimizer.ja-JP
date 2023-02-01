@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: オブジェクトレベルのアクセス制御
-description: オブジェクトレベルのアクセス制御について学ぶ これにより、一連のオブジェクトに対するデータアクセスを管理する権限を定義できます。
+description: オブジェクトレベルのアクセス制御について学ぶ選択したオブジェクトへのデータアクセスを管理する権限を定義できます
 feature: Access Management
 topic: Administration
 role: Admin, Developer, Architect
 level: Experienced
-keywords: オブジェクト，レベル，アクセス，制御，ラベル， olac，許可
+keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
