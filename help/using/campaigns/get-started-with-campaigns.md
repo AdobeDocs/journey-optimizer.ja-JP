@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンの基本を学ぶ
-description: Journey Optimizerでのキャンペーンの詳細
+description: Journey Optimizer でのキャンペーンについて学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: キャンペーン，方法，開始，最適化
+keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,13 +42,13 @@ Journey Optimizer で最初のキャンペーンの作成を開始する前に�
 
 1. **適切な権限が必要です**。キャンペーンは、Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど、キャンペーンに関係する&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。
 
-   キャンペーンにアクセスできない場合は、権限を拡張する必要があります。次にアクセスできる場合： [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 組織の場合は、次の手順に従います。 そうでない場合は、Journey Optimizer 管理者に問い合わせてください。
+   キャンペーンにアクセスできない場合は、権限を拡張する必要があります。組織の [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} へのアクセス権を持っている場合は、次の手順に従います。そうでない場合は、Journey Optimizer 管理者に問い合わせてください。
 
    キャンペーン権限の割り当て方法を説明します
 
    対応する&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;をユーザーに割り当てるには、次の手順を実行します。
 
-   1. 送信者 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}を選択し、 [!DNL Adobe Experience Platform] 製品。
+   1. [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} で、[!DNL Adobe Experience Platform] 製品を選択します。
 
    1. 「**[!UICONTROL 製品プロファイル]**」タブを参照し、組み込みのキャンペーン関連の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;である Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアのいずれかを選択します。
 
