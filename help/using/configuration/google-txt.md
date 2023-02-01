@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: サブドメイン， google, txt，レコード， gmail，配信品質
+keywords: サブドメイン, google, txt, レコード, gmail, 配信品質
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 72%
 >title="Google TXT レコード"
 >abstract="Gmail アドレス宛ての電子メールを確実に配信するには、サブドメインに特別な Google サイト検証 TXT レコードを追加して、サブドメインが確実に検証されていることを確認します。"
 
-TXT レコードは、ドメインに関するテキスト情報を提供する DNS レコードの一種で、外部ソースから読み取ることができます。
+TXT レコードは、ドメインに関するテキスト情報を提供するために使用される DNS レコードの一種で、外部ソースから読み取ることができます。
 
 [!DNL Journey Optimizer] では、Gmail アドレス宛てのメールの最高の配信品質を確保して確実な配信を行うために、サブドメインに Google サイト検証用の特別な TXT レコードを追加して、確実な検証を行えます。
 
@@ -35,8 +35,8 @@ TXT レコードは、ドメインに関するテキスト情報を提供する 
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL サブドメイン]**&#x200B;メニューからサブドメインを開きます。
 
-1. 内 **[!UICONTROL Google txt レコード]** セクションで、 [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->を選択し、「 **[!UICONTROL 保存]**.
+1. 「**[!UICONTROL Google txt レコード]**」セクションで、[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> から生成された確認コードを入力し、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/subdomain-google-txt.png)
 
-1. TXT レコードを追加したら、Google で検証する必要があります。これをおこなうには、に移動します。 [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->をクリックし、検証ステップを起動します。
+1. TXT レコードを追加したら、Google で検証する必要があります。これを行うには、[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> に移動し、検証手順を開始します。
