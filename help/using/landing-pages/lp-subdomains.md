@@ -5,12 +5,12 @@ title: ランディングページのサブドメインの設定
 description: Journey Optimizer でランディングページのサブドメインを設定する方法を説明します
 role: Admin
 level: Intermediate
-keywords: ランディング、ランディングページ、サブドメイン、設定
+keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
