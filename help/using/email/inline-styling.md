@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: インライン，スタイル設定，属性，エディタ
+keywords: インライン, スタイル設定, 属性, エディター
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
