@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2022'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="ジャーニーグローバルレポート"
->abstract="ジャーニーのグローバルレポートを使用すると、指定した期間におけるジャーニーの影響を測定できます。 レポートは様々なウィジェットに分割され、ジャーニーの成功とエラーを示します。 各レポートダッシュボードは、ウィジェットをサイズ変更したり削除したりして変更できます。"
+>abstract="ジャーニーグローバルレポートを使用すると、選択した期間におけるジャーニーの効果を測定できます。レポートは、ジャーニーの成功とエラーの詳細を示す様々なウィジェットに分かれています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
 
 「**[!UICONTROL グローバルレポート]**」ボタンで、ジャーニーのグローバルレポートにジャーニーから直接アクセスします。
 
