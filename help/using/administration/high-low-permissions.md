@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 権限レベル
-description: 高レベルおよび低レベル権限について学ぶ ユーザーが様々な機能にアクセスできるようにする
+description: 高レベルおよび低レベル権限について学ぶユーザーが様々な機能にアクセスできるようにする
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
-keywords: 権限，上位，下位，プロファイル， admin console
+keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '922'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
