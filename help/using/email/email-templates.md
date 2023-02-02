@@ -9,73 +9,45 @@ role: User
 level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 89%
+source-wordcount: '232'
+ht-degree: 21%
 
 ---
 
-# メールテンプレートの操作 {#email-templates}
+# 電子メールテンプレートを使用 {#email-templates}
 
-「 **[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツを作成します。
+次の **[!UICONTROL メールを作成]** 画面、 **[!UICONTROL デザインテンプレートを選択]** 「 」セクションを使用して、テンプレートからコンテンツを作成します。
 
 ![](assets/email_designer-templates.png)
 
 次の中から選択できます。
-* 20 個の標準メールテンプレート。
-* 保存された電子メールテンプレート。 [詳細情報](#use-saved-template)
-* コンテンツテンプレート. [詳細情報](content-templates.md)
+* **サンプルテンプレート**. この [!DNL Journey Optimizer] インターフェイスには、標準で 20 個の電子メールテンプレートが用意されており、このテンプレートから選択できます。
+* **保存済みのテンプレート**. また、次のいずれかの方法でカスタムテンプレートを使用することもできます。
+   * を使用して最初から作成 **[!UICONTROL コンテンツテンプレート]** メニュー [詳細情報](content-templates.md#create-template-from-scratch)
+   * を使用して、ジャーニーまたはキャンペーンの E メールから保存 **[!UICONTROL コンテンツテンプレートとして保存]** オプション。 [詳細情報](content-templates.md#save-as-template)
 
-## テンプレートとして保存 {#save-as-template}
+サンプルまたは保存済みのテンプレートの 1 つを使用してコンテンツの作成を開始するには、次の手順に従います。
 
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="メッセージの移行方法を説明します。"
->abstract="2022年7月25日（PT）より、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージが作成されます。 従来のメッセージをジャーニーで再利用する場合は、それらをテンプレートとして保存する必要があります。"
+1. [E メールデザイナーへのアクセス](get-started-email-design.md) 電子メールから **[!UICONTROL コンテンツを編集]** 画面
 
-[メールコンテンツ](get-started-email-design.md)をデザインしたら、後日再利用するために保存できます。それには、次の手順に従います。
+1. の **[!UICONTROL メールを作成]** screen, **[!UICONTROL サンプルテンプレート]** 「 」タブがデフォルトで選択されています。
 
->[!CAUTION]
->
->コンテンツをテンプレートとして保存するには、 **[!DNL Manage Library Items]** 次に含まれる権限 **[!DNL Content Library Manager]** 製品プロファイル。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
-
-1. 画面の右上にある省略記号をクリックします。
-
-1. ドロップダウンメニューから「**[!UICONTROL デザインテンプレートを保存]**」を選択します。
-
-   ![](assets/email_designer-save-template.png)
-
-1. このテンプレートの名前を追加します。
-
-   ![](assets/email_designer-template-name.png)
-
-1. 「**[!UICONTROL 保存]**」をクリックします。
-
-このテンプレートは、コンテンツテンプレートリストに保存されます。 [詳細情報](content-templates.md)
-
-次回メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。[方法についてはこちらを参照](#use-saved-template)
-
-![](assets/email_designer-saved-template.png)
-
-## 保存済みテンプレートの使用 {#use-saved-template}
-
-1. [電子メールデザイナー](content-from-scratch.md)を開きます。
-
-1. **[!UICONTROL メールを作成]**&#x200B;画面で、「**[!UICONTROL サンプルテンプレート]**」タブがデフォルトで選択されています。「**[!UICONTROL 保存済みテンプレート]**」タブを選択します。
+1. カスタムテンプレートを使用するには、 **[!UICONTROL 保存済みのテンプレート]** タブをクリックします。
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 以前[保存したすべてのテンプレート](#save-as-template)のリストが表示されます。**[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
+1. すべての [コンテンツテンプレート](content-templates.md#create-content-templates) 現在のサンドボックスに作成されたが表示されます。 **[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates-filter.png)
 
 1. リストから目的のテンプレートを選択します。
 
-1. 選択したら、左右の矢印を使用して、保存済みのすべてのテンプレート間を移動できます。
+1. 選択したら、左右の矢印を使用して、1 つのカテゴリのすべてのテンプレート（選択内容に応じてサンプルまたは保存）間を移動できます。
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. 画面右上の「**[!UICONTROL この電子メールを使用]**」をクリックします。
+1. クリック **[!UICONTROL このテンプレートを使用]** をクリックします。
 
-1. 電子メールデザイナーを使用して、必要に応じてコンテンツを編集します。
+1. E メールデザイナーを使用して、必要に応じてコンテンツを編集します。

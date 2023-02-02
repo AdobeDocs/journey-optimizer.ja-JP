@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,9 @@ ht-degree: 100%
 >abstract="機密性の高いデジタルアセットを保護するために、ラベルを使用してランディングページへのデータアクセスを管理する権限を定義できます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ja" text="オブジェクトレベルのアクセス制御"
 
-ランディングページの作成手順は次のとおりです。
+ランディングページを作成する主な手順は次のとおりです。
+
+![](assets/lp-creation-process.png)
 
 1. ランディングページのリストから、「**[!UICONTROL ランディングページの作成]**」をクリックします。
 

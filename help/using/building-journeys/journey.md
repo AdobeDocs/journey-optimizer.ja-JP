@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 100%
 
 ## ジャーニーの作成手順{#steps-journey}
 
-Adobe Journey Optimizer を使用して、1 つのキャンバスからパーソナライズされたジャーニーを設計および調整します。
+Adobe Journey Optimizer を使用して、1 つのキャンバスからパーソナライズされたジャーニーを設計および調整します。ジャーニーを作成する主な手順は次のとおりです。
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer には、マーケターがマーケティングアウトリーチを 1 対 1 の顧客エンゲージメントと調和させるためのオムニチャネルオーケストレーションキャンバスが含まれています。ユーザーインターフェイスを使用すると、パレットからキャンバスにアクティビティを簡単にドラッグ＆ドロップして、ジャーニーを作成できます。
 
