@@ -4,16 +4,20 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '2282'
-ht-degree: 97%
+source-wordcount: '2307'
+ht-degree: 96%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023年2月 {#feb-2023}
+
+* API でトリガーされるキャンペーンのドキュメントに、リクエストに渡すコンテキスト属性が 50 KB を超えないことを示す注記が追加されました。 [詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
 
 ## 2023年1月 {#jan-2023}
 
