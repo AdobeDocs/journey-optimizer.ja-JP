@@ -2,10 +2,10 @@
 title: Batch Decisioning
 description: 特定の Adobe Experience Platform セグメントですべてのプロファイルにオファーの決定を配信する方法を説明します。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
    >[!NOTE]
    >
-   >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning は頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。
+   >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning は頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。バッチ判定 API を試す前に、セグメントを作成してから最大 24 時間待つことをお勧めします。
 
 * Adobe Journey Optimizer の&#x200B;**決定**。[決定の作成方法を学ぶ](offer-activities/create-offer-activities.md)
 
