@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 抑制, リスト, バウンス, メール, Optimizer，強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 53%
+source-wordcount: '1516'
+ht-degree: 52%
 
 ---
 
@@ -30,17 +30,19 @@ ht-degree: 53%
 
 除外された E メールアドレスとドメインの詳細なリストにアクセスするには、以下を参照してください： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]**&#x200B;を選択し、 **[!UICONTROL 抑制リスト]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >抑制リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 
-![](assets/suppression-list-access.png)
 
 リストの参照に役立つフィルターを使用できます。
 
 ![](assets/suppression-list-filters.png)
 
-**[!UICONTROL 抑制カテゴリ]**、**[!UICONTROL アドレスタイプ]**、**[!UICONTROL 理由]**&#x200B;のいずれかでフィルタリングできます。条件ごとに目的のオプションを選択します。選択したら、リストの上部に表示されている各フィルターまたはすべてのフィルターをクリアできます。
+**[!UICONTROL 抑制カテゴリ]**、**[!UICONTROL アドレスタイプ]**、**[!UICONTROL 理由]**&#x200B;のいずれかでフィルタリングできます。条件ごとに 1 つ以上のオプションを選択します。 選択したら、リストの上部に表示されている各フィルターまたはすべてのフィルターをクリアできます。
 
 ![](assets/suppression-list-filtering-example.png)
 
