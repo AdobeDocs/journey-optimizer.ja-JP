@@ -7,8 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
+hide: true
+hidefromtoc: true
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%

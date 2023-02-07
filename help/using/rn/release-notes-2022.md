@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: ht
-source-wordcount: '3583'
+source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+workflow-type: tm+mt
+source-wordcount: '3575'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Journey Optimizer のユーザーは、ユーザーインターフェイスを通じてシステムアラートにアクセスして、ジャーニーが想定どおりに動作しない場合に通知を受け取れるようになりました。使用可能なアラートを確認し、購読できます。このリリースで使用できる最初のアラートは、定義された時間枠内にセグメントを読み取りアクティビティがプロファイルを処理しなかった場合に警告します。このワークフローのロックが解除されると、さらに多くの情報が表示されます。</p>
-<p>詳しくは、 <a href="../reports/alerts.md">詳細なドキュメント</a>を参照してください。
+<!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
