@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 10%
+source-wordcount: '985'
+ht-degree: 9%
 
 ---
 
 # コンテンツテンプレートの使用 {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="コンテンツテンプレートの作成"
->abstract="ジャーニーやキャンペーン全体でコンテンツを再利用するためのスタンドアロンテンプレートを作成します。"
 
 高速で改善された設計プロセスを実現するために、スタンドアロンテンプレートを作成して、カスタムコンテンツを簡単に再利用できます。 [!DNL Journey Optimizer] キャンペーンとジャーニー。
 
@@ -58,6 +53,11 @@ ht-degree: 10%
 >テンプレートを編集または削除しても、このテンプレートを使用して作成された E メールを含むキャンペーンまたはジャーニーは影響を受けません。
 
 ## コンテンツテンプレートの作成 {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="独自のコンテンツテンプレートを定義する"
+>abstract="複数のジャーニーやキャンペーンでコンテンツを再利用可能にするために、スタンドアロンのカスタムテンプレートをゼロから作成します。"
 
 コンテンツテンプレートを作成する方法は 2 つあります。
 

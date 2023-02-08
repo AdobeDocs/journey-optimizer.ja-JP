@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '870'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '884'
+ht-degree: 98%
 
 ---
 
@@ -193,3 +193,9 @@ ht-degree: 100%
 * [アプリ内メッセージの作成](create-in-app.md)
 * [アプリ内レポート](inapp-report.md)
 * [アプリ内設定](inapp-configuration.md)
+
+## チュートリアルビデオ{#video}
+
+次のビデオでは、アプリ内メッセージの作成およびテスト方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

@@ -11,10 +11,10 @@ keywords: コンテンツ, 実験, 複数, オーディエンス,
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
-source-wordcount: '1030'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '1116'
+ht-degree: 77%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >
 >**コンテンツ実験**&#x200B;機能は現在、一連の組織でのみ使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
 
-Journey Optimizer のコンテンツ実験を使用して、複数の配信処理を定義します。この各処理に、関心のあるオーディエンスがランダムに割り当てられ、その関心の指標に対してどれが最も効果が高いかを判断します。配信コンテンツ、件名、送信者を変更できます。
+Journey Optimizer Content Experiment を使用すると、複数の配信処理を定義して、ターゲットオーディエンスに対して最も効果が高い配信を測定できます。 配信コンテンツ、件名、送信者を変更できます。関心のあるオーディエンスは、各治療にランダムに配分され、指定した指標に関してどれが最も効果が高いかを判断します。
 
 >[!NOTE]
 >
@@ -52,68 +52,53 @@ Journey Optimizer のコンテンツ実験を使用して、複数の配信処�
 
    ![](assets/content_experiment_1.png)
 
-1. チャネルを選択し、この配信に使用する「**[!UICONTROL サーフェス]**」を選択します。詳しくは、[チャネルサーフェス](../configuration/channel-surfaces.md)ページを参照してください。
+1. チャネルを選択してから、 **[!UICONTROL サーフェス]** この配信に使用し、 **[!UICONTROL 作成]**. 詳しくは、[チャネルサーフェス](../configuration/channel-surfaces.md)ページを参照してください。
 
    ![](assets/content_experiment_2.png)
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
-
 1. 配信の&#x200B;**[!UICONTROL プロパティ]**&#x200B;を設定します。
-   * **[!UICONTROL タイトル]**
+   * **[!UICONTROL 名前]**
    * **[!UICONTROL 説明]**
-   * **[!UICONTROL カテゴリ]**：**[!UICONTROL マーケティング]**／**[!UICONTROL トランザクション]**
-
-1. コンテンツ実験を開始するには、「**[!UICONTROL コンテンツ実験]**」オプションを切り替えます。**[!UICONTROL コンテンツ実験]**&#x200B;メニューが表示されます。
-
-   ![](assets/content_experiment_3.png)
 
 1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
    「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](get-started-experiment.md#content-experiment-work)
 
-1. キャンペーンを特定の日付に実行したり、繰り返し実行したりするには、「スケジュール」セクションを設定します。[詳細情報](create-campaign.md)
+   ![](assets/content_experiment_16.png)
 
-1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、様々な&#x200B;**[!UICONTROL 処理]**&#x200B;のパーソナライズを開始します。
+1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、受信者が配信に対する反応を追跡するかどうかを指定します。クリック数や開封数を追跡できます。
 
-   ![](assets/content_experiment_4.png)
+   キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。
 
-## 処理の作成 {#treatment-experiment}
+1. キャンペーンを特定の日付に実行したり、繰り返し実行したりするには、「**[!UICONTROL スケジュール]**」セクションを設定します。 [詳細情報](create-campaign.md)
 
-1. **[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから、処理 A のパーソナライズを開始します。
+1. クリック **[!UICONTROL コンテンツを編集]** 配信のパーソナライズを開始します。 [詳細情報](../email/content-from-scratch.md)
 
-   この処理では、件名に特別なオファーを直接指定します。
+   ![](assets/content_experiment_17.png)
+
+1. 次の **[!UICONTROL コンテンツを編集]** 窓から治療 A をパーソナライズし始めます
+
+   この処理のために、件名行に直接特別オファーを指定し、パーソナライゼーションを追加します。
 
    ![](assets/content_experiment_5.png)
 
-1. 最初の処理を指定した後、「**[!UICONTROL その他のアクション]**」ボタンから、「**[!UICONTROL 複製]**」をクリックします。
-
-   また、「**[!UICONTROL コンテンツ実験]**」ボタン![](assets/content_experiment_16.png)をクリックして詳細オプションにアクセスし、「**[!UICONTROL 処理を追加]**」をクリックすることで、処理を新規作成することもできます。
-
-   ![](assets/content_experiment_7.png)
-
-1. 処理の&#x200B;**[!UICONTROL タイトル]**&#x200B;を変更し、より区別しやすくします。
-
-   ![](assets/content_experiment_8.png)
-
-1. 必要に応じて、2 番目の処理をパーソナライズします。
-
-   ここでは、**[!UICONTROL 件名]**&#x200B;でオファーを指定しないようにします。
-
-   ![](assets/content_experiment_9.png)
-
-処理がパーソナライズされたら、コンテンツ実験の設定を開始できます。
-
 ## コンテンツ実験の設定 {#configure-experiment}
 
-1. 両方の配信をパーソナライズした後に、**[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから「**[!UICONTROL コンテンツ実験を設定]**」を選択します。
+1. パーソナライズした配信が終わったら、「キャンペーンの概要」ページで、 **[!UICONTROL 実験を作成]** をクリックして、content experiment の設定を開始します。
 
-   ![](assets/content_experiment_10.png)
+   ![](assets/content_experiment_3.png)
 
-1. 実験に設定する目標を選択します。
+1. を選択します。 **[!UICONTROL 成功指標]** 実験用にを設定する。
 
    この実験では、件名にプロモーションコードが含まれている場合に受信者がメールを開くかどうかをテストするために、「**[!UICONTROL メール開封数]**」を選択します。
 
    ![](assets/content_experiment_11.png)
+
+1. クリック **[!UICONTROL 処理を追加]** 必要な数の新しい治療を作り出す
+
+   ![](assets/content_experiment_8.png)
+
+1. 処理の&#x200B;**[!UICONTROL タイトル]**&#x200B;を変更し、より区別しやすくします。
 
 1. 配信に&#x200B;**[!UICONTROL 除外]**&#x200B;グループを追加することを選択します。このグループは、このキャンペーンからコンテンツを受け取りません。
 
@@ -125,9 +110,31 @@ Journey Optimizer のコンテンツ実験を使用して、複数の配信処�
 
    ![](assets/content_experiment_13.png)
 
-1. 設定したら「**[!UICONTROL 保存]**」をクリックします。
+1. クリック **[!UICONTROL 作成]** を設定します。
 
-1. コンテンツ実験の準備が整ったら、「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンの概要を表示できます。パラメーターが正しくない、または見つからない場合は、警告が表示されます。
+## トリートメントのデザイン {#treatment-experiment}
+
+1. 次の **[!UICONTROL コンテンツを編集]** ウィンドウで、内容を変更する治療 B を選択します。
+
+   ここでは、**[!UICONTROL 件名]**&#x200B;でオファーを指定しないようにします。
+
+   ![](assets/content_experiment_18.png)
+
+1. クリック **[!UICONTROL メール本文を編集]** 治療 B をさらにパーソナライズする。
+
+   ![](assets/content_experiment_9.png)
+
+1. 処理を設計したら、 **[!UICONTROL その他のアクション]** 処理に関連するオプションにアクセスするには： **[!UICONTROL 名前を変更]**, **[!UICONTROL 複製]** および **[!UICONTROL 削除]**.
+
+   ![](assets/content_experiment_7.png)
+
+1. 必要に応じて、 **[!UICONTROL 実験設定]** メニューを使用して、処理の設定を変更できます。
+
+   ![](assets/content_experiment_19.png)
+
+1. メッセージの内容を定義したら、 **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、配信のレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。 [詳細情報](../email/preview.md)
+
+1. コンテンツ実験の準備が整ったら、「キャンペーンの概要」ページで、 **[!UICONTROL 有効化するレビュー]** ：キャンペーンの概要を表示します。 パラメーターが正しくない、または見つからない場合は、警告が表示されます。
 
    ![](assets/content_experiment_15.png)
 

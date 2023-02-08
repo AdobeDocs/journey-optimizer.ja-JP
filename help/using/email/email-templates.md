@@ -9,23 +9,33 @@ role: User
 level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 21%
+source-wordcount: '272'
+ht-degree: 18%
 
 ---
 
 # 電子メールテンプレートを使用 {#email-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_use_template"
+>title="カスタムテンプレートからのコンテンツの作成"
+>abstract="E メールコンテンツの作成を開始するには、最初から作成した既存のテンプレートまたは以前の E メールからテンプレートとして保存した既存のテンプレートを選択します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="コンテンツテンプレートの作成"
 
 次の **[!UICONTROL メールを作成]** 画面、 **[!UICONTROL デザインテンプレートを選択]** 「 」セクションを使用して、テンプレートからコンテンツを作成します。
 
 ![](assets/email_designer-templates.png)
 
 次の中から選択できます。
+
 * **サンプルテンプレート**. この [!DNL Journey Optimizer] インターフェイスには、標準で 20 個の電子メールテンプレートが用意されており、このテンプレートから選択できます。
+
 * **保存済みのテンプレート**. また、次のいずれかの方法でカスタムテンプレートを使用することもできます。
+
    * を使用して最初から作成 **[!UICONTROL コンテンツテンプレート]** メニュー [詳細情報](content-templates.md#create-template-from-scratch)
+
    * を使用して、ジャーニーまたはキャンペーンの E メールから保存 **[!UICONTROL コンテンツテンプレートとして保存]** オプション。 [詳細情報](content-templates.md#save-as-template)
 
 サンプルまたは保存済みのテンプレートの 1 つを使用してコンテンツの作成を開始するには、次の手順に従います。

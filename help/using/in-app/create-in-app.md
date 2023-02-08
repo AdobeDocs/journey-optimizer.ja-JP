@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 97%
 
 ---
 
@@ -115,3 +115,9 @@ ht-degree: 100%
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](inapp-report.md)
 * [アプリ内設定](inapp-configuration.md)
+
+## チュートリアルビデオ{#video}
+
+以下のビデオでは、キャンペーンでアプリ内メッセージを作成、設定および公開する方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

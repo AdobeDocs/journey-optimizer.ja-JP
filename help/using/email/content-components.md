@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: コンポーネント, 電子メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '1383'
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -168,44 +168,6 @@ ht-degree: 100%
    ![](assets/email_designer_10.png)
 
 1. 余白や境界線など、他のスタイル属性を調整します。または、別のコンテンツにオーディエンスをリダイレクトするためのリンクを&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインで追加します。
-
-## ビデオ {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="ビデオ設定"
->abstract="このコンポーネントを使用すると、メールにビデオを挿入できます。ビデオが機能しないメールクライアントもあります。フォールバック画像を設定することをお勧めします。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="ビデオ設定"
->abstract="このコンポーネントを使用すると、ランディングページにビデオを挿入できます。なお、ビデオは必ずしもすべてのメッセージクライアントで機能するわけではありません。フォールバック画像を設定することをお勧めします。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="ビデオ設定"
->abstract="このコンポーネントを使用すると、フラグメントにビデオを挿入できます。なお、ビデオは必ずしもすべてのメッセージクライアントで機能するわけではありません。フォールバック画像を設定することをお勧めします。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="ビデオ設定"
->abstract="このコンポーネントを使用すると、テンプレートにビデオを挿入できます。なお、ビデオは必ずしもすべてのメッセージクライアントで機能するわけではありません。フォールバック画像を設定することをお勧めします。"
-
-**[!UICONTROL ビデオ]**&#x200B;コンポーネントを使用すると、URL リンクを介してメールコンテンツにビデオを挿入できます。
-
-1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;から、**[!UICONTROL ビデオ]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;にドラッグ＆ドロップします。
-
-   ![](assets/email_designer_17.png)
-
-1. 新しく追加したコンポーネントをクリックします。
-
-1. **[!UICONTROL コンポーネント設定]**&#x200B;ペインの「**[!UICONTROL ビデオリンク]**」フィールドに、ビデオの URL を追加します。
-
-   ![](assets/email_designer_18.png)
-
-1. ビデオに&#x200B;**[!UICONTROL ポスター画像]**&#x200B;を追加すると、オーディエンスが再生ボタンをクリックするまで表示する画像を指定できます。
-
-1. スタイル、余白、境界線などのその他のスタイル属性を&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインから調整します。
 
 ## ソーシャル {#social}
 
