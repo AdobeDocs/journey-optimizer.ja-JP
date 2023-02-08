@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 抑制, リスト, バウンス, メール, Optimizer，強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 52%
@@ -84,7 +84,7 @@ ht-degree: 52%
 
 ### 抑制ルール  {#suppression-rules}
 
-次の **[!UICONTROL 抑制リスト]** 表示では、抑制ルールに関連付けられた再試行パラメーターを **[!UICONTROL 抑制ルールを編集ボタン]**. 現在のサンドボックスの再試行しきい値を更新するには、このオプションを使用します。 [詳細情報](retries.md)
+次の **[!UICONTROL 抑制リスト]** 表示では、抑制ルールに関連付けられた再試行パラメーターを **[!UICONTROL 抑制ルールを編集]** 」ボタンをクリックします。 現在のサンドボックスの再試行しきい値を更新するには、このオプションを使用します。 [再試行の詳細](retries.md).
 
 
 ## 抑制リストにアドレスとドメインを追加{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ ht-degree: 52%
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. 次のアドレスのタイプを選択します。 **[!UICONTROL 電子メールアドレス]** または **[!UICONTROL ドメインアドレス]**.
+1. 次のアドレスのタイプを選択します。 **[!UICONTROL 電子メール]** または **[!UICONTROL ドメイン]**.
 
 1. 送信から除外するメールアドレスまたはドメインを入力します。
 
