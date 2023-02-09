@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 抑制, リスト, バウンス, メール, Optimizer，強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 53%
@@ -221,7 +221,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 例えば、インターネットサービスプロバイダー (ISP) の機能停止が発生した場合、E メールは受信者に正常に配信できないので、誤ってハードバウンスとマークされます。 これらの電子メールアドレスは、抑制リストから削除する必要があります。
 
-これらのアドレスを取得するには、停止状態のコンテキストに基づいて、カスタムパラメーターを使用して特定のクエリを実行します。 [詳しくは、このサンプルを参照してください。](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+これらのアドレスを取得するには、停止状態のコンテキストに基づいて、カスタムパラメーターを使用して特定のクエリを実行します。 [詳しくは、このサンプルを参照してください。](../data/datasets-query-examples.md#isp-outage-query).
 
 影響を受ける E メールアドレスが特定されたら、抑制リストをフィルターして表示します。 例えば、ISP の停止が 2022 年 11 月 11 日から 2022 年 11 月 13 日 ( **test.com** ドメインで、その期間に抑制リストに追加されたアドレスを次のようにフィルターします。
 

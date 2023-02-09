@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 2ef5c87561df71b1c55a71c237477d34750f8ac7
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
@@ -48,7 +48,7 @@ ht-degree: 100%
     新しいメールの設計または既存の HTML コンテンツのインポートについて説明します
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">初めてのジャーニーの作成</a>
+    <a href="using/building-journeys/journey-gs.md">初めてのジャーニーの作成</a>
     </div>
     <p>ジャーニーの作成および実行方法を説明します
     <p>
