@@ -8,7 +8,7 @@ level: Intermediate
 keywords: 人工, AI, インテリジェント, ジャーニー, サービス
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
 

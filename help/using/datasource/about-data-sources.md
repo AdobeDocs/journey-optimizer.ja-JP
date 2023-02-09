@@ -10,7 +10,7 @@ level: Intermediate
 keywords: データ, ソース, ジャーニー, Plaform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ja){target="_blank"}をご覧ください。
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 データソースとは何かを理解し、Experience Platform と外部データソースを設定する方法を説明します。
 

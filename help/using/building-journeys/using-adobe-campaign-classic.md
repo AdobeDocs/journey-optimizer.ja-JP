@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 統合, キャンペーン, v7, v8, Classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -170,7 +170,7 @@ ht-degree: 94%
         <td><a href="math.md#to-precision">精度に</a></td><td>この関数は、数値を必要な精度に変換します。</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-string">文字列へ</a></td><td>この関数は、任意の数を文字列表現に変換します。 </td>
+        <td><a href="math.md#to-string">toString</a></td><td>この関数は、任意の数を文字列表現に変換します。 </td>
     </tr>
 </table>
 
@@ -226,7 +226,7 @@ ht-degree: 94%
         <td><a href="string.md#extractEmailDomain">電子メールドメインを抽出</a></td><td>メールアドレスのドメインを抽出するために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#format-currency">通貨のフォーマット</a></td><td>この関数は、2 番目の引数で文字列として渡されたロケールに応じて、任意の数値を、対応する言語に依存する通貨表現に変換します。</td>
+        <td><a href="string.md#format-currency">通貨の書式設定</a></td><td>この関数は、2 番目の引数で文字列として渡されたロケールに応じて、任意の数値を、対応する言語に依存する通貨表現に変換します。</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">URL ホストを取得</a></td><td>この関数は、URL ホストを取得するために使用されます。</td>

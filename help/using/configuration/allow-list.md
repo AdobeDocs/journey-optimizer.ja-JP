@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 100%
 

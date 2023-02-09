@@ -9,7 +9,7 @@ level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 100%
 

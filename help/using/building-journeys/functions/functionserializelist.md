@@ -8,7 +8,7 @@ level: Experienced
 keywords: serializeList, 関数, 式, ジャーニー
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
 

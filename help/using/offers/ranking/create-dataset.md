@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ AI モデルを作成する前に、コンバージョンイベントを収集�
 
    >[!NOTE]
    >
-   >XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+   >XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
 1. 左側の「**[!UICONTROL フィールドグループ]**」セクションで、「**[!UICONTROL 追加]**」を選択します。
 
@@ -53,7 +53,7 @@ AI モデルを作成する前に、コンバージョンイベントを収集�
 
 >[!NOTE]
 >
->スキーマの構築について詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target=&quot;_blank&quot;} を参照してください。
+>でのスキーマ構築の詳細 [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target="_blank"}.
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 

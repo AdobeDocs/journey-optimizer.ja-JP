@@ -167,7 +167,7 @@ ht-degree: 99%
       + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
       + [統計計算について](using/campaigns/experiment-calculations.md)
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
-      + [実験レポートの統計指標](using/campaigns/experiment-report-calculations.md)
+      + [実験レポートの統計計算](using/campaigns/experiment-report-calculations.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メールチャネル {#email}
    + [メールの基本を学ぶ](using/email/get-started-email.md)
@@ -468,7 +468,7 @@ ht-degree: 99%
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
    + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
-   + [データの衛生操作の実行](using/privacy/data-hygiene.md)
+   + [データハイジーン操作の実行](using/privacy/data-hygiene.md)
    + 同意の管理 {#consent}
       + [オプトアウトの管理](using/privacy/opt-out.md)
       + [同意ポリシーの使用](using/action/consent.md)

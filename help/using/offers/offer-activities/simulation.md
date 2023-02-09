@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。Adobe Experience Platform の ID 名前空間について詳しくは、[この節](../../segment/get-started-identity.md){target=&quot;_blank&quot;}を参照してください。
+   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。Adobe Experience Platform の ID 名前空間については、[この節](../../segment/get-started-identity.md){target="_blank"}を参照してください。
 
 1. ID 値を入力し、「**[!UICONTROL 表示]**」をクリックして、使用可能なプロファイルを一覧表示します。
 
@@ -212,5 +212,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。これらの値を取得する方法について詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target=&quot;_blank&quot;} ドキュメントを参照してください。
+   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。これらの値を [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"} ドキュメント。
 

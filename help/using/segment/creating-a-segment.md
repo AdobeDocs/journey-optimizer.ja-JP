@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![](assets/create-segment.png)
 
-   「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。セグメントの設定方法については、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   「セグメント定義」画面では、必須フィールドをすべて設定してセグメントを定義できます。セグメントを [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、[Adobe Experience Data Model（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、 [エクスペリエンスデータモデル (XDM) ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 これで、セグメントをジャーニーで使用できるようになります。詳しくは、[この節](../segment/about-segments.md)を参照してください。
 
-## ハウツービデオ{#video-segment}
+## チュートリアルビデオ{#video-segment}
 
 セグメントの作成方法を説明します。
 

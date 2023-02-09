@@ -8,7 +8,7 @@ level: Experienced
 keywords: sort, 関数, 式, ジャーニー
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

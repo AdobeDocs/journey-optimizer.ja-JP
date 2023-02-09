@@ -10,7 +10,7 @@ level: Intermediate
 keywords: テストプロファイル, テスト, テスト, ジャーニー
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 100%
 
@@ -233,7 +233,7 @@ curl -X POST \
 }'
 ```
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 テストプロファイルを作成する方法について説明します。
 

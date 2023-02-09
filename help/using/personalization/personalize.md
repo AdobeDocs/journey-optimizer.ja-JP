@@ -10,7 +10,7 @@ level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] 式エディターについて詳しくは、[この節](personalization-build-expressions.md)を参照してください
 
-## ハウツービデオ{#video-perso}
+## チュートリアルビデオ{#video-perso}
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 

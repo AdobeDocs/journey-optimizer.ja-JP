@@ -10,7 +10,7 @@ level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 [共有フォルダーの管理方法を学びます](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}。
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 サンドボックスの概要と、開発用サンドボックスと実稼動用サンドボックスを区別する方法について説明します。サンドボックスの作成、リセット、削除方法について説明します。
 

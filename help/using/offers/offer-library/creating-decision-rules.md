@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '328'
+ht-degree: 93%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 >[!CAUTION]
 >
->イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
+>イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。次に基づいて決定ルールを作成する場合： [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に値を入力しない場合、オファーで活用することはできません。
 
 ## チュートリアルビデオ {#video}
 

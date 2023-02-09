@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 式を削除するには、楕円形ボタンをクリックし、「**[!UICONTROL 削除]**」をクリックします。
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 保存したパーソナライゼーションライブラリ項目をメッセージで使用する方法と、パーソナライゼーションライブラリ項目を作成および管理する方法について説明します。
 

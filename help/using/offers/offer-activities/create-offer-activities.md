@@ -211,7 +211,7 @@ ht-degree: 100%
 
 ![](../assets/decision_information.png)
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 意思決定管理でオファーアクティビティを作成する方法を説明します。
 

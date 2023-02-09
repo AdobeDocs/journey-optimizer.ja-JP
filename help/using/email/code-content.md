@@ -10,7 +10,7 @@ level: Intermediate
 keywords: コード, HTML, エディター
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 

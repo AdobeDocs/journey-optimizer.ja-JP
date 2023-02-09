@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 90%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+> を操作するには [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"}.
 
 1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
 
@@ -88,9 +88,9 @@ ht-degree: 100%
 
 ### HTML または JSON ファイルの追加 {#html-json}
 
-選択したプレースメントが HTML タイプの場合、[Adobe Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target=&quot;_blank&quot;} から HTML または JSON コンテンツを取得して追加することもできます。
+選択した配置がHTMLタイプの場合は、 [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}) をクリックします。
 
-例えば、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ja){target=&quot;_blank&quot;} で HTML メールテンプレートを作成し、オファー コンテンツにそのファイルを使用したいとします。新しいファイルを作成する代わりに、テンプレートを&#x200B;**アセットライブラリ**&#x200B;にアップロードするだけで、オファーの表示域でテンプレートを再利用できます。
+例えば、でHTML電子メールテンプレートを作成したとします。 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ja){target="_blank"} そのファイルをオファーコンテンツに使用します。 新しいファイルを作成する代わりに、テンプレートを&#x200B;**アセットライブラリ**&#x200B;にアップロードするだけで、オファーの表示域でテンプレートを再利用できます。
 
 表示域でコンテンツを再利用するには、[この節](#images)の説明に従って&#x200B;**アセットライブラリ**&#x200B;を参照し、選択した HTML または JSON ファイルを選択します。
 

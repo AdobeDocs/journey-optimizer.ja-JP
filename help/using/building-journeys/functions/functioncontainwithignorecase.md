@@ -8,7 +8,7 @@ level: Experienced
 keywords: containIgnoreCase, 関数, 式, ジャーニー
 exl-id: 26074584-a215-4515-8a61-7460bd9d4447
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 

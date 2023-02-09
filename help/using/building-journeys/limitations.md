@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 制限
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
 

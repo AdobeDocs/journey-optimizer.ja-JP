@@ -10,7 +10,7 @@ level: Beginner
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 100%
 
@@ -187,7 +187,7 @@ ht-degree: 100%
 >
 >プロファイルのフリークエンシーキャップに達すると、翌月までカウンターをリセットする方法はないので、頻度ルールをテストする場合は、新しく作成した[テストプロファイル](../segment/creating-test-profiles.md)を使用することをお勧めします。ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 頻度ルールを作成、アクティブ化、テスト、およびレポートする方法について説明します。
 

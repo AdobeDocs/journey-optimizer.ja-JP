@@ -10,7 +10,7 @@ level: Intermediate
 keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Adobe Campaign v7 または v8 をお持ちの場合は、リクエストに応�
 
 ![](assets/custom1.png)
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 カスタムアクションの設定方法を説明します。
 

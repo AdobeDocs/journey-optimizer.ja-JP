@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 66%
+ht-degree: 81%
 
 ---
 
@@ -60,31 +60,31 @@ Adobe Experience Platformのアクセシビリティ機能の詳細は次のと�
   </tr>
   <tr>
     <td>すべてのアクティビティを選択する</td>
-    <td>Ctrl + A(Windows)<br/>CMD + A (Mac)</td>
+    <td>CTRL + A（Windows）<br/>CMD + A（Mac）</td>
   </tr>
   <tr>
     <td>選択されたアクティビティを削除する</td>
     <td>Delete キーまたは Backspace キーを押したあと Enter キーを押して削除を確認</td>
   </tr>
   <tr>
-    <td>ズームイン/ズームアウト（キャンバスまたはその子要素にフォーカス）</td>
-    <td>Ctrl +/-(Windows) または Command +/-(Mac)</td>
+    <td>ズームイン／ズームアウトする（キャンバスまたはその子要素にフォーカス）</td>
+    <td>CTRL +/-（Windows）または CMD +/-（Mac）</td>
   </tr>  
   <tr>
-    <td>各アクティビティとパスの間を移動（キャンバスにフォーカス）するか、ツールバーボタン間を移動（ツールバーにフォーカス）</td>
+    <td>各アクティビティとパスの間を移動する（キャンバスにフォーカス）、またはツールバーボタン間を移動する（ツールバーにフォーカス）</td>
     <td>矢印キー</td>
   </tr>   
   <tr>
-    <td>キャンバス上の次にアクションにつながる要素（ツールバーが最初のもの）にフォーカスを移動する。</td>
+    <td>キャンバス上の次にアクションにつながる要素（最初の要素はツールバー）にフォーカスを移動</td>
     <td>Tab</td>
   </tr>  
   <tr>
-    <td>適切な設定ペインを開く（アクティビティにフォーカス）</td>
-    <td>ENTER</td>
+    <td>適切な設定パネルを開く（アクティビティにフォーカス）</td>
+    <td>Enter</td>
   </tr>   
   <tr>
-    <td>キャンバスでのアクティビティの移動（アクティビティに焦点を当てる）</td>
-    <td>Shift +矢印キー</td>
+    <td>キャンバスでアクティビティを移動する（アクティビティにフォーカス）</td>
+    <td>Shift + 矢印キー</td>
   </tr>  
   <tr>
   <td rowspan="3">

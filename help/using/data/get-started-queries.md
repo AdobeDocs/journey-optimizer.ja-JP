@@ -9,7 +9,7 @@ level: Beginner
 keywords: クエリ, Platform, データ, 調査
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 

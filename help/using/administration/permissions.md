@@ -10,7 +10,7 @@ role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
 

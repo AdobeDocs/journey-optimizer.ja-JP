@@ -9,7 +9,7 @@ level: Experienced
 keywords: 式, データ, データタイプ, ジャーニー
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 

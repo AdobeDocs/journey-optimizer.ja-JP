@@ -10,7 +10,7 @@ level: Beginner
 keywords: ランディング, ランディングページ, 開始, 開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 </td>
 </tr></table>
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 次のビデオでは、サブスクリプションリストの作成方法、サービスのサブスクリプションの登録や解除を行うためのランディングページの設定方法、メッセージへのサブスクリプションの登録や解除のオプションの統合方法、関連するジャーニーの設定方法について説明します。
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 100%
+source-wordcount: '1713'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target=&quot;_blank&quot;}に基づいて決定ルールを作成した場合、それをオファーで活用することはできません。
+   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。次に基づいて決定ルールを作成する場合： [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に値を入力しない場合、オファーで活用することはできません。
 
 セグメントまたは決定ルールを選択すると、推定される認定プロファイルに関する情報を表示できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 

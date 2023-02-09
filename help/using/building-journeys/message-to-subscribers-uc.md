@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, ユースケース, メッセージ, 購読者, リスト, 読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 

@@ -53,7 +53,7 @@ ht-degree: 100%
 
    ![](../assets/placement_created.png)
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 意思決定管理でプレースメントを作成する方法を説明します。
 

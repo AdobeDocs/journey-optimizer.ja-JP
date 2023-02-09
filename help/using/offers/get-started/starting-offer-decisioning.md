@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**Offer Decisioning** アプリケーションサービスを利用する [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target=&quot;_blank&quot;} ユーザーの場合は、この節で説明する決定管理機能もすべて適用されます。
+>次の場合、 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーが **offer decisioning** アプリケーションサービスの場合、この節で説明するすべての決定管理機能もお客様に適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ## 意思決定管理へのアクセスの許可 {#granting-acess-to-decision-management}
 
-意思決定管理機能へのアクセス権限および使用権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} で管理します。
+判定機能にアクセスし使用する権限は、 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target="_blank"}.
 
 意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。[!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 * **表示域**：表示域とは、チャネルがオファーを表示する際に使用する情報（場所や言語など）です。
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 >[!NOTE]
 >

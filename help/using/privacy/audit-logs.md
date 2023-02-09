@@ -20,7 +20,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->監査ログを表示および書き出すには、 **[!DNL View User Activity Log]** 権限が付与されました。 ([詳細情報](../administration/ootb-product-profiles.md))
+>監査ログを表示および書き出すには、 **[!DNL View User Activity Log]** 権限が付与されました。 [詳細情報](../administration/ootb-product-profiles.md)
 
 Journey Optimizer を使用すると、ジャーニー、メッセージ、ランディングページなど、様々なサービスや機能に対してシステム内のユーザーが実行したアクションを識別できます。
 

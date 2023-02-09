@@ -10,7 +10,7 @@ level: Intermediate
 keywords: メール, 読み込み, コンテンツ, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
    ![](assets/html-imported.png)
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 既存の HTML コンテンツの読み込み、デザインの調整、ミラーページと購読解除リンクの追加およびコンテンツのコーディング方法について説明します。
 

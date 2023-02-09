@@ -9,7 +9,7 @@ level: Experienced
 keywords: ジャーニー, 式, エディター, プロパティ
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 

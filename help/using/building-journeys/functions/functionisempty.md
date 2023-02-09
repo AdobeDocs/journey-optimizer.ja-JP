@@ -8,7 +8,7 @@ level: Experienced
 keywords: isEmpty, 関数, 式, ジャーニー
 exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 100%
 

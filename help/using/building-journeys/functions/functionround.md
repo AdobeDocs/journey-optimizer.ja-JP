@@ -8,7 +8,7 @@ level: Experienced
 keywords: round, 関数, 式, ジャーニー
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 100%
 

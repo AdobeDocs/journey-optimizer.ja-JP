@@ -10,7 +10,7 @@ level: Intermediate
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 システム生成イベントの場合、パイプラインがフィルタリングするイベントは、[!DNL Journey Optimizer] が提供する [!DNL Journey Optimizer] eventID（以下のイベント作成プロセスを参照）がペイロードに含まれているイベントです。ルールベースのイベントの場合は、eventID 条件を使用してイベントを識別します。これらのイベントは [!DNL Journey Optimizer] がリッスンし、対応するジャーニーがトリガーされます。
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 イベントの設定方法と、ストリーミングエンドポイントとイベントのペイロードの指定方法について説明します。
 

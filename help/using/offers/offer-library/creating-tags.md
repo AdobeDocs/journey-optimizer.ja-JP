@@ -42,6 +42,6 @@ ht-degree: 100%
 
    ![](../assets/tags_created.png)
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

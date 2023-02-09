@@ -8,7 +8,7 @@ level: Experienced
 keywords: inLastDays, 関数, 式, ジャーニー
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%
 

@@ -10,7 +10,7 @@ level: Beginner
 keywords: ランディング, ランディングページ, リスト, 購読, サービス
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
 

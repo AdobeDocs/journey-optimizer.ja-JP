@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 式, エディター, ヘルパー, ユースケース, パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 100%
 
@@ -341,7 +341,7 @@ ht-degree: 100%
 
 * [決定ベースのオファーを使用したパーソナライゼーション](../offers/offers-e2e.md)
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 ヘルパー関数の使用方法を説明します。
 

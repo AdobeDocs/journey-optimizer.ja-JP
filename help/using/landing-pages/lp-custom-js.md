@@ -10,7 +10,7 @@ level: Beginner
 keywords: ランディング, ランディングページ, JavaScript, コード
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 

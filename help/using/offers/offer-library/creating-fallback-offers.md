@@ -55,7 +55,7 @@ ht-degree: 100%
 
    ![](../assets/fallback_created.png)
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

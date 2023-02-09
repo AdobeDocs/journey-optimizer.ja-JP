@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 * キャプチャするイベントのタイプ（表示されたオファー（インプレッション）やクリックされたオファー（コンバージョン））、
 * およびイベントデータを収集するデータセットが定義済みであること。
 
-これで、オファーが表示およびクリックされるたびに、対応するイベントが、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} または Mobile SDK を使用し、**[!UICONTROL Experience Event - Proposition Interactions]** フィールドグループによって自動的にキャプチャされるようにします。
+これで、オファーが表示またはクリックされるたびに、対応するイベントが **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** フィールドグループを [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK。
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
 
