@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 抑制, リスト, バウンス, メール, Optimizer，強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 52%
@@ -220,13 +220,13 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >メールアドレスやドメインの削除を検討する際は、細心の注意を払う必要があります。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
 
 
-例えば、インターネットサービスプロバイダー (ISP) の機能停止が発生した場合、E メールは受信者に正常に配信できないので、誤ってハードバウンスとマークされます。 これらの電子メールアドレスは、抑制リストから削除する必要があります。
+例えば、インターネットサービスプロバイダー (ISP) の機能停止が発生した場合、E メールは受信者に正常に配信できないので、誤ってハードバウンスとマークされることがあります。 これらの電子メールアドレスは、抑制リストから削除する必要があります。
 
 これを実行するには、抑制リストをフィルターして、影響を受ける E メールアドレスまたはドメインを表示します。 例えば、ISP の停止が 2022 年 11 月 11 日から 2022 年 11 月 13 日 ( **test.com** ドメインで、その期間に抑制リストに追加されたアドレスを次のようにフィルターします。
 
 ![](assets/remove-from-supp-list.png)
 
-また、停止の詳細に応じて、ハードバウンスのタイプに関するフィルターを追加する必要があります。 これらの詳細は、送信者に返される正確なエラーコードなど、ISP から提供されます。 例： `550 <email address> recipient rejected` または `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+また、停止の詳細に応じて、バウンスのタイプに関するフィルターを追加する必要があります。 これらの詳細は、送信者に返される正確なエラーコードなど、ISP から提供されます。 例： `550 <email address> recipient rejected` または `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 特定されたアドレスは、 **[!UICONTROL 削除]** 」ボタンをクリックします。 その後、これらのアドレスを今後の E メールキャンペーンに含めることができます。
 
