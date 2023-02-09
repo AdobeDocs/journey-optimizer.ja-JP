@@ -1,14 +1,14 @@
 ---
 title: Web レポート
 description: Web レポートのデータの使用方法を学ぶ
-feature: Reporting, Web channel
+feature: Reporting, Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 3217cdd366cd61096a232306aa85c075a7542b0e
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
