@@ -1,14 +1,14 @@
 ---
 title: Web ページの作成
 description: Journey Optimizer で web ページを作成し、そのコンテンツを編集する方法を学ぶ
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 100%

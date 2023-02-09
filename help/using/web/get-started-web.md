@@ -1,14 +1,14 @@
 ---
 title: Web チャネルの基本を学ぶ
 description: Journey Optimizer の web チャネルについて学ぶ
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%

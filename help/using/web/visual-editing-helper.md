@@ -1,14 +1,14 @@
 ---
 title: Visual Editing Helper 拡張機能
 description: Journey Optimizer で web ページの作成とプレビューを可能にする、Visual Editing Helper Chrome 拡張機能について
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 86%
