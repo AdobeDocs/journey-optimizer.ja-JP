@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 抑制, リスト, バウンス, メール, Optimizer，強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 52%
+source-wordcount: '1488'
+ht-degree: 53%
 
 ---
 
@@ -219,16 +219,15 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >
 >メールアドレスやドメインの削除を検討する際は、細心の注意を払う必要があります。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
 
+例えば、インターネットサービスプロバイダー (ISP) の機能停止が発生した場合、E メールは受信者に正常に配信できないので、誤ってハードバウンスとマークされます。 これらの電子メールアドレスは、抑制リストから削除する必要があります。
 
-例えば、インターネットサービスプロバイダー (ISP) の機能停止が発生した場合、E メールは受信者に正常に配信できないので、誤ってハードバウンスとマークされることがあります。 これらの電子メールアドレスは、抑制リストから削除する必要があります。
+これらのアドレスを取得するには、停止状態のコンテキストに基づいて、カスタムパラメーターを使用して特定のクエリを実行します。 [詳しくは、このサンプルを参照してください。](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-これを実行するには、抑制リストをフィルターして、影響を受ける E メールアドレスまたはドメインを表示します。 例えば、ISP の停止が 2022 年 11 月 11 日から 2022 年 11 月 13 日 ( **test.com** ドメインで、その期間に抑制リストに追加されたアドレスを次のようにフィルターします。
+影響を受ける E メールアドレスが特定されたら、抑制リストをフィルターして表示します。 例えば、ISP の停止が 2022 年 11 月 11 日から 2022 年 11 月 13 日 ( **test.com** ドメインで、その期間に抑制リストに追加されたアドレスを次のようにフィルターします。
 
 ![](assets/remove-from-supp-list.png)
 
-また、停止の詳細に応じて、バウンスのタイプに関するフィルターを追加する必要があります。 これらの詳細は、送信者に返される正確なエラーコードなど、ISP から提供されます。 例： `550 <email address> recipient rejected` または `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-特定されたアドレスは、 **[!UICONTROL 削除]** 」ボタンをクリックします。 その後、これらのアドレスを今後の E メールキャンペーンに含めることができます。
+その後、 **[!UICONTROL 削除]** 」ボタンをクリックします。
 
 ## 抑制リストのダウンロード {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 抑制リストを CSV ファイルとして書き出すには、次の手順に従います。

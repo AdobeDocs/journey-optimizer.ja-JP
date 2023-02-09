@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 100%
+source-wordcount: '884'
+ht-degree: 93%
 
 ---
 
@@ -144,6 +144,28 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
+
+### ISP の停止後に強制隔離されたアドレスを識別{#isp-outage-query}
+
+インターネットサービスプロバイダー (ISP) の機能停止が発生した場合、ある期間、特定のドメインに対して誤ってバウンス（強制隔離）とマークされた E メールアドレスを識別する必要があります。 これらのアドレスを取得するには、次のクエリを使用します。
+
+```sql
+SELECT
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+    timestamp AS EventTime,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
+FROM cjm_message_feedback_event_dataset
+WHERE
+    eventtype = 'message.feedback' AND
+    DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND
+    _experience.customerJourneyManagement.emailChannelContext.address ILIKE '%domain.com%'
+ORDER BY timestamp DESC;
+```
+
+日付の形式は次のとおりです。YYYY-MM-DD HH:MM:SS.
+
+特定されたら、これらのアドレスをJourney Optimizer抑制リストから削除します。 ([詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list))。
 
 ## プッシュトラッキングエクスペリエンスイベントデータセット {#push-tracking-experience-event-dataset}
 
