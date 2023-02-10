@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 93%
 
 ### エントリ{#entrance}
 
-デフォルトでは、新規ジャーニーで再エントリが許可されています。次の項目のチェックを外すことができます。 **再エントリを許可** 「ワンショット」ジャーニーのオプション。例えば、人が店に入ったときに 1 回限りのギフトを申し込む場合などに使用します。
+デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。
 
 <!--
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
@@ -126,7 +126,7 @@ You can define a **Start date**. If you haven't specified one, it will be automa
 You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 -->
 
-次の項目を定義できます。 **開始日**. また、 **終了日**. これにより、日付に達したプロファイルは自動的に終了します。 終了日を指定しない場合、プロファイルはデフォルトのジャーニータイムアウトまで残る可能性があります。
+**開始日**&#x200B;を定義できます。 **終了日**&#x200B;も追加できます。これにより、日付に達したプロファイルは自動的に終了します。 終了日を指定しない場合、プロファイルはデフォルトのジャーニータイムアウトまで残る可能性があります。
 
 ### ジャーニーアクティビティのタイムアウトとエラー {#timeout_and_error}
 

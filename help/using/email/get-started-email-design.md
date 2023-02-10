@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 88%
 
    ![](assets/email_designer_create_options.png)
 
-1. E メールコンテンツが定義され、パーソナライズされたら、コンテンツを書き出して検証したり、後で使用したりできます。 クリック **[!UICONTROL 書き出しHTML]** コンピューターに、HTMLとアセットを含む zip ファイルを保存します。
+1. メールコンテンツを定義し、パーソナライズしたら、コンテンツを書き出して、検証したり、後で使用したりできます。 「**[!UICONTROL HTML を書き出す]**」をクリックして、 コンピューターに HTML とアセットを含む zip ファイルを保存します。
 
    ![](assets/email_designer_export.png)
 

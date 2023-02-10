@@ -11,7 +11,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -63,17 +63,17 @@ API トリガー型キャンペーンを作成するには、次の手順に従�
 
 ### キャンペーンの実行 {#execute}
 
-キャンペーンがアクティブ化されたら、生成されたサンプル cURL リクエストを取得し、API で使用して、ペイロードを作成し、キャンペーンをトリガーする必要があります。
+キャンペーンがアクティブ化されたら、生成されたサンプル cURL リクエストを取得、それを API で使用してペイロードを作成し、キャンペーンをトリガーする必要があります。
 
-1. キャンペーンを開き、 **[!UICONTROL cURL リクエスト]** 」セクションに入力します。
+1. キャンペーンを開き、「**[!UICONTROL cURL リクエスト]** 」セクションからサンプルリクエストをコピー＆ペーストします。
 
    ![](assets/api-triggered-curl.png)
 
-1. この cURL リクエストを API で使用して、ペイロードを作成し、キャンペーンをトリガー化します。 詳しくは、 [インタラクティブなメッセージ実行 API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+1. この API への cURL リクエストを使用して、ペイロードを作成し、キャンペーンをトリガーします。詳しくは、 [Interactive Message Execution API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)を参照してください。
 
    >[!NOTE]
    >
-   >キャンペーンの作成時に特定の開始日や終了日を設定している場合、これらの日付以外ではキャンペーンが実行されず、API 呼び出しは失敗します。
+   >キャンペーンを作成する際に特定の開始日や終了日を設定している場合、そのキャンペーンはこれらの日付以外では実行されず、API 呼び出しは失敗します。
 
 ## API トリガー型キャンペーンでのコンテキスト属性の使用 {#contextual}
 
@@ -94,7 +94,7 @@ API トリガー型キャンペーンを使用すると、追加のデータを 
 
 >[!IMPORTANT]
 >
->リクエストに渡すコンテキスト属性は 50 KB を超えてはなりません。
+>リクエストに渡すコンテキスト属性は、50 KB を超えることはできません。
 >
 >`context.system` 構文はアドビ内部での使用のみに制限されているので、コンテキスト属性を渡すために使用しないでください。
 

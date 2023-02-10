@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizerのアクセシビリティ機能
-description: Journey Optimizer User Interface でのアクセシビリティの詳細
+title: Journey Optimizer のアクセシビリティ機能
+description: Journey Optimizer のユーザーインターフェイスのアクセシビリティに関する詳細情報
 feature: Accessibility
 role: User
 level: Beginner
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizerのアクセシビリティ{#accessibility}
+# Journey Optimizer のアクセシビリティ{#accessibility}
 
-アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障害のあるユーザーが、可能な限り少ない労力でソフトウェア製品を使用できるようにするための一連の機能を指します。アドビは、アクセシビリティにおいて業界をリードする企業です。すべてのユーザーにとって利用しやすいリッチで魅力的なコンテンツを作成するよう開発者を促すことで、卓越した Web エクスペリエンスの作成をサポートします。アクセシビリティに対するAdobeの取り組みについて詳しくは、 [Adobeアクセシビリティページ](https://www.adobe.com/accessibility.html){target="_blank"}.
+アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障害のあるユーザーが、可能な限り少ない労力でソフトウェア製品を使用できるようにするための一連の機能を指します。アドビは、アクセシビリティにおいて業界をリードする企業です。すべてのユーザーにとって利用しやすいリッチで魅力的なコンテンツを作成するよう開発者を促すことで、卓越した web エクスペリエンスの作成をサポートします。アドビのアクセシビリティへの取り組みについて詳しくは、[Adobe Accessibility のページ](https://www.adobe.com/accessibility.html){target="_blank"}を参照してください。
 
-アクセシビリティ準拠の目標を満たすのに役立つように、 [!DNL Journey Optimizer] は、「Web Content Accessibility Guidelines(WCAG)2.1 Level A」および「Level AA」で国際的に認識されているベストプラクティスに従います。 最新の [Adobe Journey Optimizer Accessibility Conformance レポート](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+アクセシビリティ準拠の目標を達成するために、[!DNL Journey Optimizer] では、Web Content Accessibility Guidelines（WCAG）2.1 Level A および Level AA で国際的に認められたベストプラクティスに従っています。詳しくは、最新の [Adobe Journey Optimizer のアクセシビリティ適合性レポート](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}を参照してください。
 
 
 [!DNL Adobe Journey Optimizer] のアクセシビリティ機能は、Adobe Experience Platform から継承したものです。
@@ -26,9 +26,9 @@ ht-degree: 81%
 * カラーコントラスト
 * 必須フィールドの検証
 
-Adobe Experience Platformのアクセシビリティ機能の詳細は次のとおりです [このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"}.
+Adobe Experience Platform のアクセシビリティ機能について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"}を参照してください。
 
-では、次の一般的なキーボードショートカットを使用できます。 [!DNL Journey Optimizer]:
+[!DNL Journey Optimizer] では、次の一般的なキーボードショートカットが使用できます。
 
 | アクション | ショートカット |
 | --- | --- |
@@ -38,7 +38,7 @@ Adobe Experience Platformのアクセシビリティ機能の詳細は次のと�
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
 | 選択をキャンセル、パネルを折りたたむまたはダイアログボックスを閉じる | Esc |
 
-これらのショートカットは、 [!DNL Journey Optimizer] ユーザーインターフェイス：
+これらのショートカットは、[!DNL Journey Optimizer] ユーザー インターフェイスの特定の領域で使用できます。
 
 <table>
   <thead>

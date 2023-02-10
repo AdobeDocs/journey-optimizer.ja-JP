@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -182,13 +182,13 @@ ht-degree: 53%
 
 可能なステータスは次のとおりです。
 
-* **[!UICONTROL 保留中]**:ファイルのアップロードを処理中です。
-* **[!UICONTROL エラー]**:技術的な問題またはファイル形式のエラーが原因で、ファイルのアップロードプロセスに失敗しました。
-* **[!UICONTROL 完了]**:ファイルのアップロード処理が正常に完了しました。
+* **[!UICONTROL 保留中]**：ファイルのアップロードを処理中です。
+* **[!UICONTROL エラー]**：技術的な問題またはファイル形式のエラーが原因で、ファイルのアップロードプロセスに失敗しました。
+* **[!UICONTROL 完了]**：ファイルのアップロードプロセスが正常に完了しました。
 
-アップロード中に、正しい形式でないアドレスがある場合、それらのアドレスは [!DNL Journey Optimizer] 抑制リスト。
+アップロード中に、正しい形式でないアドレスがある場合、それらのアドレスは [!DNL Journey Optimizer] 抑制リストに追加されません。
 
-その場合、アップロードが完了すると、レポートに関連付けられます。 ダウンロードして、発生したエラーを確認できます<!-- and understand why they were not added to the suppression list-->.
+その場合、アップロードが完了すると、レポートに関連付けられます。ダウンロードして、発生したエラーを確認できます<!-- and understand why they were not added to the suppression list-->。
 
 ![](assets/suppression-list-recent-uploads-report.png)
 

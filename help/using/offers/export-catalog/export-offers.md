@@ -45,7 +45,7 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定
++++ _experience > decisioning
 
 **フィールド：**decisioning
 **型：**&#x200B;オブジェクト
@@ -183,7 +183,8 @@ ht-degree: 100%
 
 **フィールド：**placement
 **タイトル：**プレースメント
-**説明：**&#x200B;準拠するプレースメント。この値は、参照するオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。**型：**&#x200B;文字列
+**説明：**準拠するプレースメント。この値は、参照するオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。
+**型：**&#x200B;文字列
 
 +++
 
@@ -197,7 +198,7 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定／決定オプション名
++++ _experience > decisioning > Decision Option Name
 
 **フィールド：** name
 **タイトル：**決定オプション名
@@ -333,7 +334,7 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定／タグ
++++ _experience > decisioning > tags
 
 **フィールド：** tags
 **タイトル：**タグ

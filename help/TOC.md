@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -195,7 +195,7 @@ ht-degree: 99%
          + [リンクのスタイルの定義](using/email/styling-links.md)
          + [インラインのスタイル属性の追加](using/email/inline-styling.md)
    + [メールのプレビューとテスト](using/email/preview.md)
-   + [コンテンツテンプレートの作成](using/email/content-templates.md)
+   + [コンテンツテンプレートを作成](using/email/content-templates.md)
    + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)

@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1478'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,13 +69,13 @@ ht-degree: 97%
 >
 >非実稼動環境の場合、アドビは、標準のテストサブドメインの作成や、共有送信 IP プールへのアクセスを許可しません。[独自のサブドメインをデリゲート](../configuration/delegate-subdomain.md)して、組織に割り当てられたプールの IP を使用する必要があります。
 
-IP プールを選択すると、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせたときに、PTR 情報が表示されます。 [PTR レコードの詳細情報](../configuration/ptr-records.md)
+IP プールが選択された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。[PTR レコードの詳細情報](../configuration/ptr-records.md)
 
 ![](assets/email-surface-ptr-record.png)
 
 >[!NOTE]
 >
->PTR レコードが設定されていない場合は、Adobeの担当者に問い合わせてください。
+>PTR レコードが設定されていない場合は、アドビ担当者に問い合わせてください。
 
 ## List-Unsubscribe {#list-unsubscribe}
 

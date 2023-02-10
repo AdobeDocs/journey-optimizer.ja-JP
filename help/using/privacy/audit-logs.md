@@ -10,7 +10,7 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->監査ログを表示および書き出すには、 **[!DNL View User Activity Log]** 権限が付与されました。 [詳細情報](../administration/ootb-product-profiles.md)
+>監査ログを表示、書き出しするには、**[!DNL View User Activity Log]** 権限を付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md)
 
 Journey Optimizer を使用すると、ジャーニー、メッセージ、ランディングページなど、様々なサービスや機能に対してシステム内のユーザーが実行したアクションを識別できます。
 
 これにより、システムで実行されるアクティビティの可視性の向上、問題のトラブルシューティング、ビジネスの規制や企業データ管理ポリシーへの準拠が可能になります。
 
-各アクションは、メタデータと共に、Adobe Experience Platform でアクセス可能な「監査ログ」に記録されます。UI または API での監査ログの表示方法や管理方法など、監査ログについて詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ja).
+各アクションは、メタデータと共に、Adobe Experience Platform でアクセス可能な「監査ログ」に記録されます。UI または API での監査ログの表示方法や管理方法など、監査ログについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ja)を参照してください。
 
 ![](assets/audit-logs.png)
 

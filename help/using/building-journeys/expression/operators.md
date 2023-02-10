@@ -11,7 +11,7 @@ exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ true を返します
 ["foo", "bar", ""] has null
 ```
 
-「」が null と見なされないので、false を戻します。
+&quot;&quot; が null と見なされないので、false を返します。
 
 ### ==
 
@@ -291,7 +291,7 @@ true を返します
 1 + 2
 ```
 
-戻り値 3
+3 を返します
 
 ### -
 
@@ -309,7 +309,7 @@ true を返します
 2 - 1 
 ```
 
-戻り値 1
+1 を返します
 
 ### /
 
@@ -329,7 +329,7 @@ true を返します
 4 / 2
 ```
 
-戻り値 2
+2 を返します
 
 ### *
 
@@ -433,19 +433,19 @@ true を返します
 "the current time is " + (now())
 ```
 
-「現在の時刻は2019-09-23T09です:30:06.693Z&quot;
+「現在の時刻は 2019-09-23T09:30:06.693Z です」を返します
 
 ```json
 (now()) + " is the current time"
 ```
 
-戻り値&quot;2019-09-23T09:30:06.693Z は現在の時刻です。
+「2019-09-23T09:30:06.693Z は現在の時刻です」を返します
 
 ```json
 "a" + "b" + "c" + 1234
 ```
 
-「abc1234」を返します。
+「abc1234」を返します
 
 ## 日付 {#date}
 
@@ -463,22 +463,22 @@ true を返します
 (toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-を返します。 _dateTime_ 2011-12-03T15:30:30Z
+_dateTime_ 2011-12-03T15:30:30Z を返します
 
 ```json
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-を返します。 _dateTimeOnly_ 2011-12-03T15:30:30
+_dateTimeOnly_ 2011-12-03T15:30:30 を返します
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-を返します。 _dateTime_ （UTC タイムゾーンを使用）現在の時刻から 1 時間後
+_dateTime_ （UTC タイムゾーンを使用）現在の時刻から 1 時間後を返します
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-を返します。 _duration_ PT2H
+_duration_ PT2H を返します

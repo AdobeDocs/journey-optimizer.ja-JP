@@ -45,14 +45,14 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定
++++ _experience > decisioning
 
 **フィールド：**decisioning
 **型：**&#x200B;オブジェクト
 
 +++
 
-+++ _experience／決定／プレースメントのチャネル識別子
++++ _experience > decisioning > Placement&#39;s Channel Identifier
 
 **フィールド：** channelID
 **タイトル：**プレースメントのチャンネル識別子
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定／コンテンツコンポーネントタイプ
++++ _experience > decisioning > Content Component Type
 
 **フィールド：** componentType
 **タイトル：**コンテンツコンポーネントタイプ
@@ -70,14 +70,14 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定／contentTypes
++++ _experience > decisioning > contentTypes
 
 **フィールド：**contentTypes
 **型：**&#x200B;配列
 
 +++
 
-+++_experience／決定／;contentTypes／MIME メディアタイプ
++++_experience > decisioning > contentTypes > MIME Media Type
 
 **タイトル：**MIME メディアタイプ
 **説明：**そのプレースメントに必要なコンポーネントのメディアタイプに対する制約。異なる画像形式など、1 つのコンポーネントに対して複数のメディアタイプが存在する場合があります。
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定／プレースメントの説明
++++ _experience > decisioning > Placement Description
 
 **フィールド：** description
 **タイトル：**プレースメントの説明
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 +++
 
-+++ _experience／決定／プレースメント名
++++ _experience > decisioning > Placement Name
 
 **フィールド：** name
 **タイトル：**プレースメント名

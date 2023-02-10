@@ -12,7 +12,7 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 91%
 |管理|<ul><li>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</li><li>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</li><li>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</li><li>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</li><li>**[!DNL Manage channel surfaces]**：コンテンツのブランディングの読み取り、作成、編集、削除。</li><li>**[!DNL Manage Landing page settings]**：ランディングページのサブドメインとランディングページのプリセットの作成、編集、削除。</li><li> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage SMS settings]**：SMS チャネルを有効にするために必要な API 認証情報と SMS チャネルサーフェスの作成、編集、削除。</li><li>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</li><li>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。</li><li>**[!DNL Manage alerts]**：ジャーニーおよび使用権限に関するアラートの有効化／無効化。</li></ul>|
 |意思決定管理|<ul><li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li><li>**[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス。</li><li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>| |Journey Optimizer ライブラリ|<ul><li>**[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</li></ul>|
-|データガバナンス|<ul><li>**[!DNL Manage usage label]**:使用状況ラベルの読み取り、作成、削除</li><li>**[!DNL Manage data usage policies]**:データ使用ポリシーの読み取り、作成、編集、削除を行います。</li><li>**[!DNL View data usage policies]**:データ使用ポリシーへの読み取り専用アクセス</li><li>**[!DNL View user activity log]**:監査ログの読み取りと書き出し。</li></ul>|
+|データガバナンス|<ul><li>**[!DNL Manage usage label]**：使用ラベルの読み取り、作成、削除</li><li>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</li><li>**[!DNL View data usage policies]**：データ使用ポリシーへの読み取り専用アクセス。</li><li>**[!DNL View user activity log]**：監査ログの読み取り、書き出し。</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 
@@ -123,7 +123,7 @@ ht-degree: 91%
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-この **[!DNL Decisioning manager]** 製品プロファイルは、 **[!UICONTROL 決定管理]** メニュー この製品プロファイルに割り当てられたユーザーは、決定の管理、表示および公開のみを実行できます。
+**[!DNL Decisioning manager]** 製品プロファイルでは、**[!UICONTROL 意思決定管理]**&#x200B;メニューへのアクセスのみが許可されます。この製品プロファイルに割り当てられたユーザーは、決定の管理、表示および公開のみを実行できます。
 
 この製品プロファイルには、次の権限が含まれます。
 
@@ -133,10 +133,12 @@ ht-degree: 91%
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 
-この **[!DNL Content Library Manager]** 製品プロファイルは、 **[!UICONTROL コンテンツテンプレート]** メニュー この製品プロファイルに割り当てられたユーザーは、ジャーニーやキャンペーンにアクセスせずにコンテンツを作成するテンプレートライブラリにのみアクセスできます。
+**[!DNL Content Library Manager]** 製品プロファイルでは、**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューへのアクセスのみが許可されます。この製品プロファイルに割り当てられたユーザーは、ジャーニーやキャンペーンにアクセスせずにコンテンツを作成するテンプレートライブラリにのみアクセスできます。
 
 この製品プロファイルには、次の権限が含まれます：
 
-|機能 |権限| |-|-| |Journey Optimizerライブラリ| <ul><li>**[!DNL Manage library items]**:Journey Optimizer Library の項目の読み取り、作成、編集、削除</li><li>**[!DNL Manage simulate content]**:へのアクセス **[!UICONTROL コンテンツをシミュレート]** プレビューおよび配達確認用のオプション。</li></ul>|
+| 機能 | 権限| 
+|-|-| 
+|Journey Optimizerライブラリ| <ul><li>**[!DNL Manage library items]**：Journey Optimizer ライブラリの項目の読み取り、作成、編集、削除。</li><li>**[!DNL Manage simulate content]**：プレビューおよび配達確認用に「**[!UICONTROL コンテンツをシミュレート]**」オプションへのアクセス。</li></ul>|
 |意思決定管理|<ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</li></ul>|
 |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**：セグメントの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul>|

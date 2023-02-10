@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 95%
 
 ## 2023年2月 {#feb-2023}
 
-* API でトリガーされるキャンペーンのドキュメントに、リクエストに渡すコンテキスト属性が 50 KB を超えないことを示す注記が追加されました。 [詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
+* API トリガーキャンペーンのドキュメントに、リクエストに渡すコンテキスト属性が 50 KB を超えることはできない旨を示す注記が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
 
 * オプトアウト情報が **同意サービスデータセット** 受信者がランディングページから購読解除された後。 [詳細情報](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023年1月 {#jan-2023}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 1 月リリースの詳細は、ドキュメントに記載されています。 [詳細情報](release-notes.md)
-* のアクセシビリティ機能 [!DNL Journey Optimizer] が専用のページにグループ化されました。 [詳細情報](../start/accessibility.md)
-* でのデータ管理に関する新しいページを追加しました。 [!DNL Journey Optimizer]. [詳細情報](../data/gs-data.md)
-* 判定 API を使用してオファーを配信する際に、応答で返されるすべてのコードの一覧を表に追加しました。 [詳細情報](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+* [!DNL Journey Optimizer] の 2023年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] のアクセシビリティ機能を専用ページにグループ化しました。[詳細情報](../start/accessibility.md)
+* [!DNL Journey Optimizer] のデータ管理に関する新しいページを追加しました。[詳細情報](../data/gs-data.md)
+* Decisioning API を使用してオファーを配信する際に、応答で返される可能性のあるすべてのコードをリストした表を追加しました。 [詳細情報](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 2022年12月 {#december-2022}
 

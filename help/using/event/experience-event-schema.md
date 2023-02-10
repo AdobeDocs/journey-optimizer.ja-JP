@@ -12,7 +12,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
    ![](assets/schema3.png)
 
-* イベント内の個々のプロファイルを識別する ID フィールドを宣言します。 ID が指定されていない場合は、ID マップを使用できます。この方法は推奨されません。
+* イベント内の個々のプロファイルを識別するための ID フィールドを宣言します。 ID が指定されていない場合は、ID マップを使用できます。この方法は推奨されません。
 
    ![](assets/schema4.png)
 

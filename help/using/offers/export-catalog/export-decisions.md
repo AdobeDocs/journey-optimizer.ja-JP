@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 99%
 
 +++
 
-+++ _experience／決定
++++ _experience > decisioning
 
 **フィールド：**decisioning
 **型：**&#x200B;オブジェクト
@@ -69,7 +69,7 @@ ht-degree: 99%
 
 +++
 
-+++_experience > 決定 > 条件 > optionSelection
++++_experience > decisioning > criteria > optionSelection
 
 **フィールド：**optionSelection
 **タイトル：**オプション選択
@@ -118,7 +118,8 @@ ht-degree: 99%
 * プレースメント識別子
 
    **タイトル：**プレースメント ID
-   **説明：**プレースメントエンティティへの参照。値は、参照されるオファープレースメントの URI（@id）です。https://ns.adobe.com/experience/decisioning/placement のスキーマを参照してください。
+   **説明：**プレースメントエンティティへの参照。値は、参照されるオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。
+
    **タイプ：**&#x200B;文字列
 
 +++
@@ -132,7 +133,7 @@ ht-degree: 99%
 
 +++
 
-+++_experience > 決定 > 条件 > profileConstraints > 説明
++++_experience > decisioning > criteria > profileConstraints > Description
 
 **フィールド：**description
 **タイトル：**説明
@@ -140,7 +141,7 @@ ht-degree: 99%
 
 +++
 
-+++ _experience > 決定 > 条件 > profileConstraints > 実施要件ルール
++++ _experience > decisioning > criteria > profileConstraints > Eligibility Rule
 
 **フィールド：**eligibilityRule
 **タイトル：**実施要件ルール
@@ -148,7 +149,7 @@ ht-degree: 99%
 
 +++
 
-+++ _experience > 決定 > 条件 > profileConstraints > プロファイル制約タイプ
++++ _experience > decisioning > criteria > profileConstraints > Profile Constraint Type
 
 **フィールド：** profileConstraintType
 **タイトル：**プロファイル制約タイプ
@@ -165,10 +166,10 @@ ht-degree: 99%
 
 +++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
 
-**フィールド：** segmentIdentities
-**タイトル：** セグメント識別子
-**説明：** セグメントの識別子。
-**タイプ：** 配列
+**フィールド：**segmentIdentities
+**タイトル：**セグメント識別子
+**説明：**セグメントの識別子。
+**タイプ：**&#x200B;配列
 
 * 識別子
 
@@ -177,7 +178,7 @@ ht-degree: 99%
    **説明：**関連する名前空間のセグメント識別子。
    **タイプ：**&#x200B;文字列
 
-* namespace
+* 名前空間
 
    **フィールド：**namespace
    **タイトル：**名前空間
@@ -250,7 +251,7 @@ ht-degree: 99%
 
 +++
 
-+++ _experience > 決定 > アクティビティの終了日時
++++ _experience > decisioning > Activity End Date and Time
 
 **フィールド：**endTime
 **タイトル：**アクティビティ終了日時
@@ -258,7 +259,7 @@ ht-degree: 99%
 
 +++
 
-+++ _experience > 決定 > フォールバックオプション
++++ _experience > decisioning > Fallback Option
 
 **フィールド：** fallback
 **タイトル：**フォールバックオプション
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 +++
 
-+++ _experience > 決定 > アクティビティ名
++++ _experience > decisioning > Activity Name
 
 **フィールド：**name
 **タイトル：**アクティビティ名
@@ -275,7 +276,7 @@ ht-degree: 99%
 
 +++
 
-+++_experience > 決定 > アクティビティの開始日時
++++_experience > decisioning > Activity Start Date and Time
 
 **フィールド：**startTime
 **タイトル：**アクティビティの開始日時

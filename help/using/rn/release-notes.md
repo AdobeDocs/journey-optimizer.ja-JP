@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,16 +48,16 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>E メールコンテンツテンプレート</strong><br/></th>
+<th><strong>メールコンテンツテンプレート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニーやキャンペーンをまたいで活用して、すばやく再利用できる、スタンドアロンのコンテンツテンプレートを作成できるようになりました。</p> 
+<p>ジャーニーやキャンペーン全体で活用できるスタンドアロンのコンテンツテンプレートを作成し、すばやく再利用できるようになりました。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>でコンテンツテンプレートを作成、編集、使用する方法について説明します。 <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">このビデオ</a>. 詳しくは、 <a href="../email/content-templates.md">詳細なドキュメント</a>を参照してください。
+<p>コンテンツテンプレートを作成、編集、使用する方法については<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。 詳しくは、 <a href="../email/content-templates.md">詳細なドキュメント</a>を参照してください。
 </p>
 </td>
 </tr>

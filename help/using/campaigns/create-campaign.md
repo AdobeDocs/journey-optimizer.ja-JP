@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >プッシュ通知キャンペーンを作成している場合、 **[!UICONTROL 迅速な配信モード]**：大量のプッシュメッセージを高速に送信できるJourney Optimizerアドオンです。 [詳細情報](../push/create-push.md#rapid-delivery)
+   >プッシュ通知キャンペーンを作成している場合、**[!UICONTROL 迅速配信モード]**&#x200B;を有効にできます。これは、大量のプッシュメッセージを非常に高速に送信できる Journey Optimizer アドオンです。[詳細情報](../push/create-push.md#rapid-delivery)
 
 1. 「**[!UICONTROL 作成]**」をクリックして、キャンペーンを作成します。
 

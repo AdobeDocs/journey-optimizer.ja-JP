@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -172,7 +172,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 カスタム認証データソース用のトークンのキャッシュ時間を変更できます。次に、カスタム認証ペイロードの例を示します。キャッシュ期間は、「cacheDuration」パラメーターで定義されます。キャッシュ内で生成されたトークンの保存期間を指定します。単位は、ミリ秒、秒、分、時間、日、月、年です。
 
-bearer 認証タイプの例を次に示します。
+Bearer 認証タイプの例を次に示します。
 
 ```
 {

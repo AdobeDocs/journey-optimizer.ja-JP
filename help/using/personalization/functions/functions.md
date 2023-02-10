@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -146,10 +146,10 @@ ht-degree: 95%
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">絶対パス</a></td><td>この関数は、任意の数値をその言語に依存する表現にフォーマットします。</td>
+        <td><a href="math.md#absolute">絶対パス</a></td><td>この関数は、任意の数値を言語依存の表現に書式設定します。</td>
     </tr>
     <tr>
-        <td><a href="math.md#format-number">形式番号</a></td><td>この関数は、任意の数値をその言語に依存する表現にフォーマットします。</td>
+        <td><a href="math.md#format-number">数値を書式設定する</a></td><td>この関数は、任意の数値を言語依存の表現に書式設定します。</td>
     </tr>
     <tr>
         <td><a href="math.md#random">ランダム</a></td><td>この関数は、0 ～ 1 の間のランダムな値を返します。</td>
@@ -161,7 +161,7 @@ ht-degree: 95%
         <td><a href="math.md#round-up">切り上げ</a></td><td>この関数は、数値を切り上げます。</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">16 進文字列に</a></td><td>は、任意の数を 16 進数文字列に変換します。</td>
+    <td><a href="math.md#to-hex-string">16 進文字列に</a></td><td>任意の数を 16 進数文字列に変換します。</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">パーセンテージに</a></td><td>この関数は、数値をパーセンテージに変換します。</td>
@@ -170,7 +170,7 @@ ht-degree: 95%
         <td><a href="math.md#to-precision">精度に</a></td><td>この関数は、数値を必要な精度に変換します。</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-string">toString</a></td><td>この関数は、任意の数を文字列表現に変換します。 </td>
+        <td><a href="math.md#to-string">toString</a></td><td>この関数は、任意の数値を文字列表現に変換します。 </td>
     </tr>
 </table>
 
@@ -192,7 +192,7 @@ ht-degree: 95%
         <td><a href="string.md#camelCase">キャメルケース</a></td><td>文字列の各単語の最初の文字を大文字にするために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#char-code-at">次の場所の文字コード</a></td><td>この関数は、JavaScript の charCodeAt 関数など、文字の ASCII 値を返します。</td>
+        <td><a href="string.md#char-code-at">次の場所の文字コード</a></td><td>この関数は、JavaScript の charCodeAt 関数と同様に、文字の ASCII 値を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">連結</a></td><td>2 つの文字列を 1 つに結合するために使用します。</td>
@@ -226,7 +226,7 @@ ht-degree: 95%
         <td><a href="string.md#extractEmailDomain">電子メールドメインを抽出</a></td><td>メールアドレスのドメインを抽出するために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#format-currency">通貨の書式設定</a></td><td>この関数は、2 番目の引数で文字列として渡されたロケールに応じて、任意の数値を、対応する言語に依存する通貨表現に変換します。</td>
+        <td><a href="string.md#format-currency">通貨の書式設定</a></td><td>この関数は、2 番目の引数で文字列として渡されたロケールに応じて、任意の数値を対応する言語に依存する通貨表現に変換します。</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">URL ホストを取得</a></td><td>この関数は、URL ホストを取得するために使用されます。</td>
@@ -295,7 +295,7 @@ ht-degree: 95%
         <td><a href="string.md#startsWith">次で始まる</a></td><td>この関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列値を日時値に変換します。</td>
+        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列値を日時値に変換します。 </td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">文字列を整数に</a></td><td>この関数は、文字列値を整数値に変換します。</td>
