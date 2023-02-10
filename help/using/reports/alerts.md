@@ -7,12 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
@@ -24,16 +22,20 @@ Journey Optimizer は Adobe Experience Platform のアラート機能を活用�
 Adobe Experience Platform のアラートについて詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja)を参照してください。
 アラートを購読して設定する方法については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)を参照してください。
 
-左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。Journey Optimizer の事前設定済みのアラートを使用できます。このアラートは、定義された時間枠内にセグメントの読み取りノードがプロファイルを処理しなかった場合に警告します。
+左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。
 
-![](assets/alerts1.png)
+<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
+
+![](assets/alerts1.png)-->
 
 このような予期しない動作が発生した場合は、インターフェイスの右上隅にあるメールを通じて、アラートのサブスクライバーにアラート通知が送信されます。
 
-![](assets/alerts2.png)
+<!--![](assets/alerts2.png)-->
 
-[Adobe Experience Platform UI でアラートルールを表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)すると、各ルールを個別に登録できます。ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。セグメントの読み取りアラートに対応する I/O イベントサブスクリプション名は、「ジャーニーのセグメントの読み取りの遅延、失敗およびエラー」です。
+[Adobe Experience Platform UI でアラートルールを表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)すると、各ルールを個別に登録できます。ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。
+
+<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 
 >[!WARNING]
 >
->これらのアラートは、ライブジャーニーにのみ適用されます。テストモードのジャーニーでは、アラートはトリガーされません。
+>These alerts apply only to live journeys. Alerts will not be triggered for journeys in test mode.-->
