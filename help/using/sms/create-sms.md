@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 86%
+source-wordcount: '449'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 86%
 
 ## SMS メッセージを追加 {#create-sms-journey-campaign}
 
-キャンペーンまたはジャーニーで SMS を追加する方法については、以下のタブを参照してください。
+以下のタブを参照して、キャンペーンまたはジャーニーに SMS メッセージを追加する方法を確認します。
 
 >[!BEGINTABS]
 
@@ -86,9 +86,11 @@ ht-degree: 86%
 
 1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。プロファイル名や市区町村など、任意の属性を使用できます。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
-1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。[詳細情報](send-sms.md)
+1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。
 
    ![](assets/sms-content-preview.png)
+
+これで、SMS メッセージをテストしてオーディエンスに送信できます。 [詳細情報](send-sms.md)
 
 >[!NOTE]
 >
@@ -96,6 +98,7 @@ ht-degree: 86%
 
 **関連トピック**
 
+* [SMS メッセージをプレビュー、テスト、送信します](send-sms.md)
 * [SMS チャネルの設定](sms-configuration.md)
 * [SMS レポート](../reports/journey-global-report.md#sms-global)
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
