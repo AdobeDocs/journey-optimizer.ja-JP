@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: e45c5d17e4758becdaaaa750c6fec488042ae2f7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
@@ -37,18 +37,18 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../email/email-opt-out.md">
-<img alt="リード" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%&gt;
-&lt;/a&gt;
-&lt;div&gt;&lt;a href=" ../email/email-opt-out.md"><strong>メールオプトアウトの管理</strong>
+<img alt="リード" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%">
+</a>
+<div><a href="../email/email-opt-out.md"><strong>メールのオプトアウト管理</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="../sms/sms-opt-out.md">
-<img alt="低頻度" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%&gt;
-&lt;/a&gt;
-&lt;div&gt;
-&lt;a href=" ../sms/sms-opt-out.md"><strong>SMS オプトアウトの管理</strong></a>
+<img alt="低頻度" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
+</a>
+<div>
+<a href="../sms/sms-opt-out.md"><strong>SMS オプトアウトの管理</strong></a>
 </div>
 <p></td>
 </tr></table>
