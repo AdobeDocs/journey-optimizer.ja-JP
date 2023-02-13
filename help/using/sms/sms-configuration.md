@@ -6,10 +6,10 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 91%
+source-wordcount: '733'
+ht-degree: 90%
 
 ---
 
@@ -131,3 +131,5 @@ SMS チャネルを設定したら、SMS メッセージを送信するための
 
 * [SMS メッセージの作成](create-sms.md)
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
+* [キャンペーンにメッセージを追加する](../campaigns/create-campaign.md)
+
