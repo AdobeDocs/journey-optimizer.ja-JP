@@ -6,10 +6,10 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 90%
+source-wordcount: '790'
+ht-degree: 81%
 
 ---
 
@@ -73,12 +73,12 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
 
 API 認証情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。
 
-## チャネルサーフェスの作成 {#message-preset-sms}
+## SMS サーフェスの作成 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="SMS カテゴリの定義"
->abstract="このサーフェスを使用する際に送信される SMS メッセージのタイプ（ユーザーの同意が必要なプロモーション SMS メッセージ用の「マーケティング」または、特定のコンテキストで購読解除済みのプロファイルにも送信できる非商用 SMS メッセージ用の「トランザクション」）を選択します。"
+>abstract="この面を使用する SMS メッセージのタイプを選択：ユーザーの同意を必要とするプロモーション SMS メッセージのマーケティング、またはパスワードのリセットなど、非商用 SMS メッセージのトランザクション。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティング SMS メッセージのオプトアウト"
 
 SMS チャネルを設定したら、SMS メッセージを送信するためのチャネルサーフェスを作成する必要があります。 **[!DNL Journey Optimizer]**.
@@ -103,6 +103,15 @@ SMS チャネルを設定したら、SMS メッセージを送信するための
 
    * サーフェスを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択します。
 
+      * 選択 **マーケティング** プロモーション SMS の場合：これらのメッセージにはユーザーの同意が必要です。
+      * 注文確認、パスワードリセット通知、配信情報など、非商用メッセージの場合は、「**トランザクション**」を選択します。
+
+      >[!CAUTION]
+      >
+      >**トランザクション** SMS メッセージは、マーケティングコミュニケーションから購読解除されたプロファイルに送信できます。 これらのメッセージは、特定のコンテキストでのみ送信できます。
+
+      SMS メッセージを作成する場合は、メッセージ用に選択したカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+
    * **[!UICONTROL SMS 設定]**&#x200B;を選択し、サーフェスと関連付けます。
 
       SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
@@ -110,6 +119,7 @@ SMS チャネルを設定したら、SMS メッセージを送信するための
    * コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
 
    * 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
+
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 
