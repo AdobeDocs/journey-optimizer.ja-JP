@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 86%
 
 ---
 
@@ -19,22 +19,18 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="SMS の作成"
->abstract="テキストメッセージを追加し、式エディターを使用してパーソナライズを開始します。"
+>title="SMS メッセージの作成"
+>abstract="SMS メッセージを追加し、式エディターを使用してパーソナライズを開始します。"
 
->[!NOTE]
->
->業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## SMS メッセージを追加 {#create-sms-journey-campaign}
 
-## ジャーニーまたはキャンペーンでの SMS メッセージの作成 {#create-sms-journey-campaign}
-
-SMS メッセージのパーソナライズを開始するには、次の手順に従います。
+キャンペーンまたはジャーニーで SMS を追加する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB ジャーニーへの SMS メッセージの追加]
 
-1. ジャーニーを開いて、パレットの「アクション」セクションから SMS アクティビティをドラッグ＆ドロップします。
+1. ジャーニーを開き、 **アクション** 」セクションに表示されます。
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
    ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-これで、「**[!UICONTROL コンテンツを編集]**」ボタンから SMS メッセージのコンテンツのデザインを開始できます。[SMS コンテンツのデザイン](#sms-content)
+これで、「**[!UICONTROL コンテンツを編集]**」ボタンから SMS メッセージのコンテンツのデザインを開始できます。[SMS コンテンツの定義](#sms-content)
 
 >[!TAB キャンペーンへの SMS メッセージの追加]
 
@@ -79,6 +75,7 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
 >[!ENDTABS]
 
+
 ## SMS コンテンツの定義{#sms-content}
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、SMS コンテンツを設定します。
@@ -93,8 +90,13 @@ SMS メッセージのパーソナライズを開始するには、次の手順�
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **関連トピック**
 
 * [SMS チャネルの設定](sms-configuration.md)
 * [SMS レポート](../reports/journey-global-report.md#sms-global)
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
+* [キャンペーンにメッセージを追加する](../campaigns/create-campaign.md)

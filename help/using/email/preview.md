@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メッセージのプレビューと配達確認の送信
-description: メッセージのプレビューおよびテスト方法を学ぶ
+description: メールのプレビューとテストの方法を学ぶ
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: プレビュー, コンテンツ, メール, 配達確認, テスト, プロファイル
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 100%
 
 ---
 
-# メッセージのプレビューとテスト {#preview-and-proof}
+# メールのプレビューとテスト {#preview-and-proof}
 
 メールコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 

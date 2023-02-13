@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS 設定
+title: SMS チャネルの設定
 description: Journey Optimizer で SMS を送信するように環境を設定する方法を学ぶ
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 91%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 100%
 
 SMS を送信する前に、インスタンスを設定します。Journey Optimizer と[プロバイダー設定を統合](#create-api)し、[SMS サーフェスを作成](#message-preset-sms)する必要があります（SMS プリセットなど）。これらの手順は、[Adobe Journey Optimizer システム管理者](../start/path/administrator.md)が実行する必要があります。
 
->[!IMPORTANT]
->
->Adobe Journey Optimizer は現在、Sinch や Twilio などのサードパーティプロバイダーと統合されており、そうしたプロバイダーは Adobe Journey Optimizer とは独立して SMS サービスを提供しています。SMS を設定する前に、Adobe Journey Optimizer と対象の SMS プロバイダー間の接続を確立できるようにするための API トークンとサービス ID を受け取るために、こうしたいずれかの SMS プロバイダーのアカウントを作成する必要があります。SMS サービスを使用した場合、該当する SMS プロバイダーが定める追加の利用条件に同意したとみなされます。Sinch と Twilio は、Adobe Journey Optimizer と統合することでユーザーが利用できるサードパーティ製品であるため、SMS サービスに関する問題や問い合わせについてサポートを受ける際は、Sinch または Twilio のユーザーが対象の SMS プロバイダーに問い合わせる必要があります。サードパーティ製品について、アドビは一切関係せず、責任も負いません。
+## 前提条件{#sms-prerequisites}
+
+Adobe Journey Optimizer は現在、Sinch や Twilio などのサードパーティプロバイダーと統合されており、そうしたプロバイダーは Adobe Journey Optimizer とは独立して SMS サービスを提供しています。
+
+SMS を設定する前に、Adobe Journey Optimizer と対象の SMS プロバイダー間の接続を確立できるようにするための API トークンとサービス ID を受け取るために、こうしたいずれかの SMS プロバイダーのアカウントを作成する必要があります。
+
+SMS サービスを使用した場合、該当する SMS プロバイダーが定める追加の利用条件に同意したとみなされます。Sinch と Twilio は、Adobe Journey Optimizer と統合することでユーザーが利用できるサードパーティ製品であるため、SMS サービスに関する問題や問い合わせについてサポートを受ける際は、Sinch または Twilio のユーザーが対象の SMS プロバイダーに問い合わせる必要があります。サードパーティ製品について、アドビは一切関係せず、責任も負いません。
+
 
 ## 新しい API 認証情報の作成 {#create-api}
 
@@ -43,14 +48,20 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 
 Journey Optimizer で SMS ベンダーを設定するには、次の手順に従います。
 
-1. 「**[!UICONTROL 管理]**」／「**[!UICONTROL チャネル]**」／「**[!UICONTROL API 認証情報]**」メニューにアクセスし、「 **[!UICONTROL API 認証情報の作成]**」をクリックします。
+1. 左側のレールで、を参照します。 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** をクリックし、 **[!UICONTROL API 資格情報]** メニュー 次をクリック： **[!UICONTROL 新しい API 資格情報を作成]** 」ボタンをクリックします。
 
    ![](assets/sms_6.png)
 
 1. 「**[!UICONTROL SMS ベンダー]**」を選択します。
 
-   * [!DNL Sinch]。**[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、Sinch アカウントから SMS／API メニューにアクセスします。
-   * [!DNL Twilio]。**[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、コンソールダッシュボードページのアカウント情報パネルにアクセスします。
+   * **[!DNL Sinch]**
+
+      **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、Sinch アカウントから SMS／API メニューにアクセスします。
+
+   * **[!DNL Twilio]**
+
+      **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、コンソールダッシュボードページのアカウント情報パネルにアクセスします。
+
 
 1. API 認証情報の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
@@ -62,7 +73,7 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
 
 API 認証情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。
 
-## SMS メッセージ用チャネルサーフェスの作成 {#message-preset-sms}
+## チャネルサーフェスの作成 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -70,11 +81,11 @@ API 認証情報を作成して設定した後、SMS メッセージ用のチャ
 >abstract="このサーフェスを使用する際に送信される SMS メッセージのタイプ（ユーザーの同意が必要なプロモーション SMS メッセージ用の「マーケティング」または、特定のコンテキストで購読解除済みのプロファイルにも送信できる非商用 SMS メッセージ用の「トランザクション」）を選択します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティング SMS メッセージのオプトアウト"
 
-SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります。
+SMS チャネルを設定したら、SMS メッセージを送信するためのチャネルサーフェスを作成する必要があります。 **[!DNL Journey Optimizer]**.
 
 チャネルサーフェスを作成するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL チャネルサーフェス]**&#x200B;メニューにアクセスし、「**[!UICONTROL チャネルサーフェスを作成]**」をクリックします。
+1. 左側のレールで、を参照します。 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** を選択し、 **[!UICONTROL ブランディング]** > **[!UICONTROL チャンネルサーフェス]**. 次をクリック： **[!UICONTROL チャンネルサーフェスを作成]** 」ボタンをクリックします。
 
    ![](assets/preset-create.png)
 
@@ -86,7 +97,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. **SMS** の設定を行います。
+1. 次を定義： **SMS 設定**.
 
    ![](assets/preset-sms.png)
 

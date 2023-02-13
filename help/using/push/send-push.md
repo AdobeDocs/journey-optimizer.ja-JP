@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: プッシュ通知の送信
+title: プッシュ通知をプレビューし、テストします
 description: Journey Optimizer でプッシュ通知をプレビューしテストする方法を説明します
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 77%
 
 ---
 
-# プッシュ通知の送信 {#send-push}
+# プッシュ通知をプレビューし、テストします {#send-push}
 
 ## プッシュ通知のプレビュー {#preview-push}
 
-メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。パーソナライズされたコンテンツを挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
+メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。パーソナライズされたコンテンツを挿入した場合は、このコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
 
@@ -29,11 +29,9 @@ ht-degree: 100%
 
    ![](assets/push_preview_1.png)
 
-1. 上記と同じ手順を適用して、テストプロファイルを選択します。
+1. テストプロファイルを選択したら、**[!UICONTROL テストプロファイルを追加]**&#x200B;ウィンドウを閉じます。
 
-   ![](assets/push_preview_2.png)
-
-1. プッシュのプレビューでは、テストプロファイルデータがメッセージコンテンツで利用されます。
+1. 次の **プレビューとテスト** ウィンドウで、テストプロファイルデータがメッセージコンテンツに追加されます。
 
    コンテンツをプレビューするデバイスの種類を **[!UICONTROL iOS]** または **[!UICONTROL Android]** から選択します。
 
@@ -41,11 +39,8 @@ ht-degree: 100%
 
 ## プッシュ通知の検証 {#push-validate}
 
->[!NOTE]
->
-> 配信品質を高めるには、必ずプロバイダーがサポートする形式の電話番号を使用する必要があります。例えば、Twilio と Sinch は E.164 形式の電話番号のみをサポートしています。
 
-また、エディターの上部セクションでアラートを確認します。単純な警告もありますが、メッセージの使用を妨げる可能性のある警告もあります。次の 2 種類のアラートが発生する可能性があります。
+エディターの上部のセクションでアラートを確認する必要があります。 単純な警告もあれば、メッセージの送信を妨げる可能性もあります。 次の 2 種類のアラートが発生する可能性があります。警告とエラー。
 
 * **警告**&#x200B;は、推奨事項やベストプラクティスを示しています。
 
@@ -57,6 +52,22 @@ ht-degree: 100%
 
    * **[!UICONTROL プッシュの iOS / Android ペイロードが 4KB の制限を超えています]**：プッシュ通知のサイズは、4KB を超えることはできません。この制限を守るために、画像や絵文字の使用を減らすようにしてください。プッシュ通知コンテンツの管理方法については、[この節](../push/create-push.md)を参照してください。
 
-![](assets/push_alert.png)
+   ![](assets/push_alert.png)
 
-プッシュ通知の準備ができたら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)の設定を完了して通知を送信します。
+
+>[!NOTE]
+>
+> 配信品質を高めるには、必ずプロバイダーがサポートする形式の電話番号を使用する必要があります。例えば、Twilio と Sinch は E.164 形式の電話番号のみをサポートしています。
+
+## プッシュ通知の送信{#push-send}
+
+プッシュメッセージの準備が整ったら、 [ジャーニー](../building-journeys/journey-gs.md) または [campaign](../campaigns/create-campaign.md) 送信する
+
+**関連トピック**
+
+* [プッシュチャネルの設定](push-configuration.md)
+* [プッシュ通知レポート](../reports/journey-global-report.md#push-global)
+* [プッシュ通知の作成](create-push.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
+* [キャンペーンにメッセージを追加する](../campaigns/create-campaign.md)
+

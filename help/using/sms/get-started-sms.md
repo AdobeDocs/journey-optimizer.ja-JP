@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
 
 # SMS の基本を学ぶ {#get-started-sms}
-
->[!IMPORTANT]
->
->SMS を初めて作成する場合は、SMS チャネルが設定済みであることを確認してください。[詳細情報](sms-configuration.md)。
 
 [!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージを送信できます。SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
 
@@ -33,7 +29,10 @@ SMS 配信を作成するには、次の手順を実行します。
 
    キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
 
-SMS メッセージを初めて作成する場合は、SMS チャネルが設定されていることを確認してください。[詳細情報](sms-configuration.md)。
+
+>[!IMPORTANT]
+>
+>SMS を初めて作成する場合は、SMS チャネルが設定済みであることを確認してください。[詳細情報](sms-configuration.md)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

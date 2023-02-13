@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 100%
+source-wordcount: '1312'
+ht-degree: 99%
 
 ---
 
@@ -217,7 +217,7 @@ ht-degree: 100%
 + SMS チャネル{#sms}
    + [SMS の基本を学ぶ](using/sms/get-started-sms.md)
    + [SMS メッセージの作成](using/sms/create-sms.md)
-   + [SMS メッセージの送信](using/sms/send-sms.md)
+   + [SMS をプレビューしてテストする](using/sms/send-sms.md)
    + [SMS オプトアウトの管理](using/sms/sms-opt-out.md)
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
 + ダイレクトメール {#direct-mail}
