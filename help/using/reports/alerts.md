@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 74%
@@ -24,6 +24,10 @@ Journey Optimizer は Adobe Experience Platform のアラート機能を活用�
 Adobe Experience Platform のアラートについて詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja)を参照してください。
 アラートを購読して設定する方法については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)を参照してください。
 
+>[!AVAILABILITY]
+>
+>「セグメントの読み取りのトリガーに失敗」アラートに対して、一部の設計変更が進行中なので、このアラートは現在一時停止中です。 変更がリリースされると、このアラートが再度表示され、購読できるようになります。
+
 左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -34,9 +38,6 @@ Adobe Experience Platform のアラートについて詳しくは、[ドキュ�
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->「セグメントの読み取りのトリガーに失敗」アラートに対して、一部の設計変更が進行中なので、このアラートは現在一時停止中です。 変更がリリースされると、このアラートが再度表示され、購読できるようになります。
 
 [Adobe Experience Platform UI でアラートルールを表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)すると、各ルールを個別に登録できます。ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。
 
