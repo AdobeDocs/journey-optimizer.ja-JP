@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
+source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 74%
+source-wordcount: '258'
+ht-degree: 71%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Platform のアラートについて詳しくは、[ドキュ�
 
 >[!AVAILABILITY]
 >
->「セグメントの読み取りのトリガーに失敗」アラートに対して、一部の設計変更が進行中なので、このアラートは現在一時停止中です。 変更がリリースされると、このアラートが再度表示され、購読できるようになります。
+>「セグメントの読み取りのトリガーに失敗」アラートに対して、一部の設計変更が進行中なので、このアラートは現在、一時停止され、ユーザーインターフェイスから一時的に削除されています。 これらの変更がリリースされると、アラートが再度表示され、購読できるようになります。
 
 左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。
 
