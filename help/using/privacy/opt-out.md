@@ -39,7 +39,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 <a href="../email/email-opt-out.md">
 <img alt="リード" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%">
 </a>
-<div><a href="../email/email-opt-out.md"><strong>メールのオプトアウト管理</strong>
+<div><a href="../email/email-opt-out.md"><strong>メールオプトアウトの管理</strong>
 </div>
 <p>
 </td>
@@ -55,4 +55,4 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] の場合、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}で処理されます。
+>[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}で処理されます。

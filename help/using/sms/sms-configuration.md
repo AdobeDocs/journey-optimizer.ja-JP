@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 
 ## 前提条件{#sms-prerequisites}
 
-Adobe Journey Optimizer は現在、Sinch や Twilio などのサードパーティプロバイダーと統合されており、そうしたプロバイダーは Adobe Journey Optimizer とは独立して SMS サービスを提供しています。
+Adobe Journey Optimizer は現在、Sinch や Twilio などのサードパーティプロバイダーと統合されており、そうしたプロバイダーは Adobe Journey Optimizer とは独立に SMS サービスを提供しています。
 
-SMS を設定する前に、Adobe Journey Optimizer と対象の SMS プロバイダー間の接続を確立できるようにするための API トークンとサービス ID を受け取るために、こうしたいずれかの SMS プロバイダーのアカウントを作成する必要があります。
+SMS を設定する前に、こうしたいずれかの SMS プロバイダーのアカウントを作成して、Adobe Journey Optimizer と該当する SMS プロバイダー間の接続を確立するための API トークンとサービス ID を受信できるようにする必要があります。
 
 SMS サービスを使用した場合、該当する SMS プロバイダーが定める追加の利用条件に同意したとみなされます。Sinch と Twilio は、Adobe Journey Optimizer と統合することでユーザーが利用できるサードパーティ製品であるため、SMS サービスに関する問題や問い合わせについてサポートを受ける際は、Sinch または Twilio のユーザーが対象の SMS プロバイダーに問い合わせる必要があります。サードパーティ製品について、アドビは一切関係せず、責任も負いません。
 
@@ -46,9 +46,9 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 >title="SMS ベンダー設定の選択"
 >abstract="SMS ベンダーに設定する API 認証情報を選択します。"
 
-Journey Optimizer で SMS ベンダーを設定するには、次の手順に従います。
+お使いの SMS ベンダーを Journey Optimizer に設定するには、次の手順に従います。
 
-1. 左側のレールで、を参照します。 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** をクリックし、 **[!UICONTROL API 資格情報]** メニュー 次をクリック： **[!UICONTROL 新しい API 資格情報を作成]** 」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
    ![](assets/sms_6.png)
 
@@ -56,7 +56,7 @@ Journey Optimizer で SMS ベンダーを設定するには、次の手順に従
 
    * **[!DNL Sinch]**
 
-      **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、Sinch アカウントから SMS／API メニューにアクセスします。
+      **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を見つけるには、Sinch アカウントから SMS／API メニューにアクセスします。
 
    * **[!DNL Twilio]**
 
@@ -78,14 +78,14 @@ API 認証情報を作成して設定した後、SMS メッセージ用のチャ
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="SMS カテゴリの定義"
->abstract="この面を使用する SMS メッセージのタイプを選択：ユーザーの同意を必要とするプロモーション SMS メッセージのマーケティング、またはパスワードのリセットなど、非商用 SMS メッセージのトランザクション。"
+>abstract="このサーフェスを使用する SMS メッセージのタイプを選択します（ユーザーの同意が必要なプロモーション SMS メッセージの場合は「マーケティング」、パスワードリセットなどの非商用 SMS メッセージの場合は「トランザクション」）。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティング SMS メッセージのオプトアウト"
 
-SMS チャネルを設定したら、SMS メッセージを送信するためのチャネルサーフェスを作成する必要があります。 **[!DNL Journey Optimizer]**.
+SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります。
 
 チャネルサーフェスを作成するには、次の手順に従います。
 
-1. 左側のレールで、を参照します。 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** を選択し、 **[!UICONTROL ブランディング]** > **[!UICONTROL チャンネルサーフェス]**. 次をクリック： **[!UICONTROL チャンネルサーフェスを作成]** 」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL ブランディング]**／**[!UICONTROL チャネルサーフェス]**&#x200B;を選択します。「**[!UICONTROL チャネルサーフェスを作成]**」ボタンをクリックします。
 
    ![](assets/preset-create.png)
 
@@ -97,20 +97,20 @@ SMS チャネルを設定したら、SMS メッセージを送信するための
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 次を定義： **SMS 設定**.
+1. **SMS 設定**&#x200B;を定義します。
 
    ![](assets/preset-sms.png)
 
-   * サーフェスを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択します。
+   * サーフェスを使用して送信される **[!UICONTROL SMS タイプ]**&#x200B;を選択します（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）。
 
-      * 選択 **マーケティング** プロモーション SMS の場合：これらのメッセージにはユーザーの同意が必要です。
-      * 注文確認、パスワードリセット通知、配信情報など、非商用メッセージの場合は、「**トランザクション**」を選択します。
+      * プロモーション SMS の場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
+      * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
 
       >[!CAUTION]
       >
-      >**トランザクション** SMS メッセージは、マーケティングコミュニケーションから購読解除されたプロファイルに送信できます。 これらのメッセージは、特定のコンテキストでのみ送信できます。
+      >**トランザクション** SMS メッセージは、アドビからのお知らせを登録解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
 
-      SMS メッセージを作成する場合は、メッセージ用に選択したカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+      メッセージの作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
 
    * **[!UICONTROL SMS 設定]**&#x200B;を選択し、サーフェスと関連付けます。
 
@@ -140,6 +140,6 @@ SMS チャネルを設定したら、SMS メッセージを送信するための
 **関連トピック**
 
 * [SMS メッセージの作成](create-sms.md)
-* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
-* [キャンペーンにメッセージを追加する](../campaigns/create-campaign.md)
+* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)
 

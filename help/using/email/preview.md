@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メッセージのプレビューと配達確認の送信
-description: メールのプレビューとテストの方法を学ぶ
+description: メールのプレビューとテストの方法を説明します
 feature: Journeys
 topic: Content Management
 role: User

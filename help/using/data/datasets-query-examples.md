@@ -12,7 +12,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -145,9 +145,9 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
-### ISP の停止後に強制隔離されたアドレスを識別{#isp-outage-query}
+### ISP のサービス停止後に強制隔離されたアドレスの識別{#isp-outage-query}
 
-インターネットサービスプロバイダー (ISP) の機能停止が発生した場合、ある期間、特定のドメインに対して誤ってバウンス（強制隔離）とマークされた E メールアドレスを識別する必要があります。 これらのアドレスを取得するには、次のクエリを使用します。
+インターネットサービスプロバイダー（ISP）のサービス停止が発生した場合は、特定のドメインに対してバウンス（強制隔離）と誤ってマークされたメールアドレスを、一定期間識別する必要があります。これらのアドレスを取得するには、次のクエリを使用します。
 
 ```sql
 SELECT
@@ -163,9 +163,9 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-日付の形式は次のとおりです。YYYY-MM-DD HH:MM:SS.
+日付の形式は、YYYY-MM-DD HH:MM:SS です。
 
-特定されたら、これらのアドレスをJourney Optimizer抑制リストから削除します。 ([詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list))。
+識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。[詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
 
 ## プッシュトラッキングエクスペリエンスイベントデータセット {#push-tracking-experience-event-dataset}
 

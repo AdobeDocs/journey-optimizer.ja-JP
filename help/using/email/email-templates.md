@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
 >title="カスタムテンプレートからのコンテンツの作成"
->abstract="E メールコンテンツの作成を開始するには、最初から作成した既存のテンプレートまたは以前の E メールからテンプレートとして保存した既存のテンプレートを選択します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="コンテンツテンプレートを作成"
+>abstract="メールコンテンツの作成を開始するには、ゼロから作成された、または以前のメールからテンプレートとして保存された既存のテンプレートを選択します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html?lang=ja#create-content-templates" text="コンテンツテンプレートの作成"
 
 「**[!UICONTROL メールを作成]**」画面から、「**[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツを作成します。
 

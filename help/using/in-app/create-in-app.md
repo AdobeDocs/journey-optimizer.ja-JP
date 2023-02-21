@@ -12,7 +12,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -118,6 +118,6 @@ ht-degree: 97%
 
 ## チュートリアルビデオ{#video}
 
-以下のビデオでは、キャンペーンでアプリ内メッセージを作成、設定および公開する方法を示します。
+以下のビデオでは、キャンペーンでアプリ内メッセージを作成、設定および公開する方法を示しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

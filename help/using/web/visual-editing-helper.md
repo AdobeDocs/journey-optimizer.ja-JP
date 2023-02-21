@@ -11,7 +11,7 @@ exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Web エクスペリエンスをすばやく作成およびプレビューする�
 
 Visual Editing Helper ブラウザー拡張機能を取得してインストールするには、次の手順に従います。
 
-1. Google Chrome Web Store で、 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} ブラウザー拡張機能。
+1. Google Chrome Web ストアから、[Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} ブラウザー拡張機能に移動します。
 
 1. **[!UICONTROL Chrome に追加]**／**[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
 
@@ -56,7 +56,7 @@ Visual Editing Helper ブラウザー拡張機能を取得してインストー�
 
 Adobe [!DNL Journey Optimizer] Web Designer では、読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper ブラウザー拡張機能](#install-visual-editing-helper)をインストールするよう促すメッセージが表示されます。
 
-Adobe Experience Platform Web SDK がまだ Web サイトに実装されていない場合は、Visual Editing ヘルパーブラウザー拡張機能をインストールして [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}.
+Adobe Experience Platform Web SDK がまだ web サイトに実装されていない場合は、Visual Editing Helper ブラウザー拡張機能をインストールして [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装することを勧めるメッセージが Web デザイナーに表示されます。
 
 サイトの読み込みに失敗した場合や、予期しない動作が発生した場合は、Adobe [!DNL Journey Optimizer] に読み込む前に、ブラウザーで web サイトの Cookie を受け入れることで解決できる可能性があります。
 

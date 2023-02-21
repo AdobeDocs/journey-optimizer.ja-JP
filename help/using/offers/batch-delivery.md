@@ -5,7 +5,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
    >[!NOTE]
    >
-   >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning は頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。バッチ判定 API を試す前に、セグメントを作成してから最大 24 時間待つことをお勧めします。
+   >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。セグメントの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
 
 * Adobe Journey Optimizer の&#x200B;**決定**。[決定の作成方法を学ぶ](offer-activities/create-offer-activities.md)
 

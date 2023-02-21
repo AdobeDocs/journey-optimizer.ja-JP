@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS メッセージの作成"
->abstract="SMS メッセージを追加し、式エディターを使用してパーソナライズを開始します。"
+>abstract="SMS メッセージを追加し、そのパーソナライズを式エディターで開始します。"
 
-## SMS メッセージを追加 {#create-sms-journey-campaign}
+## SMS メッセージの追加 {#create-sms-journey-campaign}
 
-以下のタブを参照して、キャンペーンまたはジャーニーに SMS メッセージを追加する方法を確認します。
+キャンペーンまたはジャーニーに SMS メッセージを追加する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB ジャーニーへの SMS メッセージの追加]
 
-1. ジャーニーを開き、 **アクション** 」セクションに表示されます。
+1. ジャーニーを開いて、パレットの「**アクション**」セクションから SMS アクティビティをドラッグ＆ドロップします。
 
    ![](assets/sms_create_1.png)
 
@@ -90,7 +90,7 @@ ht-degree: 83%
 
    ![](assets/sms-content-preview.png)
 
-これで、SMS メッセージをテストしてオーディエンスに送信できます。 [詳細情報](send-sms.md)
+これで、SMS メッセージをテストしてオーディエンスに送信できます。[詳細情報](send-sms.md)
 
 >[!NOTE]
 >
@@ -98,8 +98,8 @@ ht-degree: 83%
 
 **関連トピック**
 
-* [SMS メッセージをプレビュー、テスト、送信します](send-sms.md)
+* [SMS メッセージのプレビュー、テスト、送信](send-sms.md)
 * [SMS チャネルの設定](sms-configuration.md)
 * [SMS レポート](../reports/journey-global-report.md#sms-global)
-* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
-* [キャンペーンにメッセージを追加する](../campaigns/create-campaign.md)
+* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)
