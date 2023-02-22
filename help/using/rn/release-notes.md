@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 63%
+source-wordcount: '919'
+ht-degree: 61%
 
 ---
 
@@ -28,15 +28,14 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>アプリ内チャネル</strong><br/></th>
+<th><strong>アプリ内チャネル（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>キャンペーン内で、パーソナライズされたアプリ内メッセージをアプリユーザーに送信できるようになりました。 Journey Optimizerを使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
-<p>
-この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
+<p><strong>注意</strong>  — この機能は現在ベータ版で、ベータ版のお客様のみが利用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>詳しくは、<a href="../in-app/get-started-in-app.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -55,9 +54,7 @@ ht-degree: 63%
 <td>
 <p>データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できるようになりました。 使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2，データランディングゾーン， Google Cloud Storage, SFTP</p>
 <p><strong>注意</strong> ：この機能は現在ベータ版で、すべてのAdobe Journey Optimizerユーザーが利用できます。 アクセス権がない場合は、Adobe担当者に相談して、宛先へのアクセス権を取得してください。</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>詳しくは、 <a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>

@@ -5,10 +5,11 @@ title: クラウドストレージの場所にデータセットを書き出す
 description: Adobe Experience Platformクラウドストレージの宛先を使用してデータセットを書き出す方法について説明します。
 role: User
 level: Beginner
+badge: label="Beta" type="Informative"
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 10%
 
 ---
