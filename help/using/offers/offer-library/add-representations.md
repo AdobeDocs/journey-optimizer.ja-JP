@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 90%
+source-wordcount: '660'
+ht-degree: 78%
 
 ---
 
@@ -100,7 +100,17 @@ ht-degree: 90%
 
 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
+式エディターを使用して URL をパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
+
 ![](../assets/offer-content-url.png)
+
+例えば、オファーとして表示される画像をパーソナライズする場合などです。 NYC のスカイラインを見てシティバケーションを好むユーザーと、ハワイの北岸を見てビーチバケーションを好むユーザーが欲しいと考えています。
+
+式エディターを使用して、和集合スキーマを使用して、Adobe Experience Platformに保存されているプロファイル属性を取得します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+
+![](../assets/offer-content-url-personalization.png)
+
+次を指定した場合、 **[!UICONTROL 宛先リンク]**&#x200B;を使用すると、オファーをクリックしたユーザーのリダイレクト先となる URL をパーソナライズすることもできます。
 
 ### カスタムテキストの追加 {#custom-text}
 

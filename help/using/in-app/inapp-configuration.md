@@ -3,18 +3,21 @@ title: アプリ内設定
 description: Journey Optimizer でアプリ内メッセージを送信するように環境を設定する方法を学ぶ
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
+badge: label="Beta" type="Informative"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 94%
 
 ---
 
 # アプリ内チャネルの設定 {#inapp-configuration}
+
+>[!IMPORTANT]
+>
+>アプリ内機能は、現在、一部のユーザーのみが利用できるベータ版として使用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 アプリ内メッセージを送信する前に、[!DNL Adobe Experience Platform Data Collection] でアプリ内チャネルを設定する必要があります。
 
@@ -71,4 +74,4 @@ ht-degree: 100%
 * [アプリ内メッセージの作成 ](create-in-app.md)
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
-* [アプリ内レポート](inapp-report.md)
+* [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)

@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 「**[!UICONTROL プロファイル数]**」列には、オーディエンスに含まれるプロファイル数に関する情報が表示されます。この情報が計算された日付について詳しくは、「i」ボタンをクリックしてください。
 
-カスタムまたはコアデータ使用ラベルをオーディエンスに割り当てるには、楕円形のボタンをクリックし、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
+カスタムまたはコアのデータ使用ラベルをオーディエンスに割り当てるには、省略記号ボタンをクリックし、「 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

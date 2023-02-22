@@ -5,24 +5,25 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: アプリ内, メッセージ, 作成, 開始
+badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 60%
 
 ---
 
 # アプリ内チャネルの基本を学ぶ {#gs-in-app}
 
-アプリ内メッセージとは、特定の目標地点に向かってユーザーに送信できる通知です。 アプリ内通知を使用すると、サービスの提案、新機能や特別オファーのプロモーション、新しいユーザーのオンボーディングを行うことができます。
+>[!IMPORTANT]
+>
+>アプリ内機能は、現在、一部のユーザーのみが利用できるベータ版として使用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+
+アプリ内メッセージとは、アプリ内のユーザーに送信し、特定の目標地点に導くことができる通知です。 これらの通知は、新機能の促進、特別オファーの提示、ユーザーのオンボーディングの促進など、様々な目的で使用できます。 アプリ内メッセージを活用することで、オーディエンスと効果的に関わり合い、オーディエンスをアプリケーションの重要な側面に導くことができます。
 
 Journey Optimizer を使用してアプリ内通知を作成し、メッセージのレイアウトと表示、テキスト、ボタンのオプションなどのエクスペリエンスオプションを設定できます。
-
-![](assets/new-in-app.png)
 
 ## 前提条件{#prerequisites-in-app}
 
@@ -52,11 +53,11 @@ Journey Optimizer を使用してアプリ内通知を作成し、メッセー�
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="検証" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>アプリ内レポート</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>アプリ内レポート</strong></a>
 </div>
 <p>
 </td>

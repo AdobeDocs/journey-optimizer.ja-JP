@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 100%
+source-wordcount: '1276'
+ht-degree: 94%
 
 ---
 
@@ -216,7 +216,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 </tr> 
   <tr> 
    <td> 購読解除<br/> </td> 
-   <td> 購読解除リンクがクリックされた回数。<br/> </td> 
+   <td> 購読解除リンクのクリック数。<br/> </td> 
 </tr> 
  </tbody> 
 </table>
@@ -305,6 +305,39 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 </tbody> 
 </table>
 -->
+
+### アプリ内指標 {#inapp-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 指標<br/> </th> 
+   <th> 定義<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>クリック数<br/> </td> 
+   <td>アプリ内メッセージに含まれるボタンを操作した受信者の合計数。<br/> </td> 
+</tr>
+  <tr> 
+   <td>クリック率<br/> </td> 
+   <td>メッセージを表示したユーザーと比較した、アプリ内メッセージに含まれるボタンに対して何らかのアクションを起こしたユーザーの割合。<br/> </td> 
+</tr> 
+  <tr> 
+   <td>却下率<br/> </td> 
+   <td> 受信者が閉じたアプリ内メッセージの割合。<br/> </td> 
+</tr> 
+  <tr> 
+   <td>印象<br/> </td> 
+   <td> すべてのユーザーに配信されたアプリ内メッセージの合計数。<br/> </td>
+</tr>
+  <tr> 
+   <td>個別インプレッション数<br/> </td> 
+   <td>アプリ内メッセージが配信されたユニークユーザーの数。<br/> </td>
+</tr>
+ </tbody> 
+</table>
 
 ### プッシュ通知指標
 
@@ -433,36 +466,5 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
  </tbody> 
 </table>
 
-<!--
-### In-app metrics {#inapp-metrics}
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br/> </th> 
-   <th> Definition<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Clicks<br/> </td> 
-   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Click rate<br/> </td> 
-   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Dismiss rate<br/> </td> 
-   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Impressions<br/> </td> 
-   <td> Total number of In-app messages delivered to all users.<br/> </td>
-</tr>
-  <tr> 
-   <td>Unique impressions<br/> </td> 
-   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
-</tr>
- </tbody> 
-</table>
--->
+
+

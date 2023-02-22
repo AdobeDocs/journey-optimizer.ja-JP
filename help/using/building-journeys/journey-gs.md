@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, セグメント, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1171'
+ht-degree: 89%
 
 ---
 
@@ -96,9 +96,7 @@ ht-degree: 100%
 
 デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。
 
-<!--
-When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
--->
+次の場合に **再エントリを許可** オプションが有効な場合、 **再入場待機期間** フィールドが表示されます。 このフィールドでは、プロファイルが単一のジャーニー（イベントまたはセグメントの資格で始まる）でジャーニーに再度エントリできるようにするまでの待機時間を定義できます。 これにより、同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぎます。 デフォルトでは、このフィールドは 5 分に設定されています。
 
 プロファイルのエントリ管理について詳しくは、[この節](entry-management.md)を参照してください。
 
@@ -120,13 +118,9 @@ Adobe Experience Platform プロファイルでタイムゾーンが定義され
 
 ### 開始日と終了日 {#dates}
 
-<!--
-You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+**開始日**&#x200B;を定義できます。 指定しなかった場合は、パブリッシュ時に自動的に定義されます。
 
-You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
--->
-
-**開始日**&#x200B;を定義できます。 **終了日**&#x200B;も追加できます。これにより、日付に達したプロファイルは自動的に終了します。 終了日を指定しない場合、プロファイルはデフォルトのジャーニータイムアウトまで残る可能性があります。
+**終了日**&#x200B;も追加できます。これにより、日付に達したプロファイルは自動的に終了します。 終了日を指定しない場合、プロファイルはデフォルトのジャーニータイムアウト（通常 30 日、Healthcare Shield アドオンの提供により 7 日）まで残ることができます。 唯一の例外は、次を使用するセグメントジャーニーを繰り返し読み取ることです： **繰り返し時に強制的に再入場する** 次の値の開始日に終了するアクティブ化。
 
 ### ジャーニーアクティビティのタイムアウトとエラー {#timeout_and_error}
 

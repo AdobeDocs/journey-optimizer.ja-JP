@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1314'
+ht-degree: 99%
 
 ---
 
@@ -202,10 +202,9 @@ ht-degree: 100%
       + [メールサーフェス設定の指定](using/email/email-settings.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
-   + [アプリ内チャネルの設定](using/in-app/inapp-configuration.md)
    + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
-   + [アプリ内レポート](using/in-app/inapp-report.md)
+   + [アプリ内チャネルの設定](using/in-app/inapp-configuration.md)
 + プッシュ通知チャネル{#push}
    + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
    + [プッシュ通知の作成](using/push/create-push.md)
@@ -417,6 +416,7 @@ ht-degree: 100%
    + [クエリ](using/data/get-started-queries.md)
    + Journey Optimizer データセット {#datasets}
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
+      + [Journey Optimizerデータセットの書き出し](using/data/export-datasets.md)
       + [クエリの例](using/data/datasets-query-examples.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)

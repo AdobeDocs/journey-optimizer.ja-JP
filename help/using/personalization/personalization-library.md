@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 既存の式を編集するには、エディターに式を追加し、必要に応じて変更します。「**[!UICONTROL ライブラリに追加]**」をクリックして構文を検証し、式を保存します。
 
-式を削除するには、楕円形ボタンをクリックし、「**[!UICONTROL 削除]**」をクリックします。
+式を削除するには、省略記号ボタンをクリックし、 **[!UICONTROL 削除]**.
 
 ## チュートリアルビデオ{#video}
 

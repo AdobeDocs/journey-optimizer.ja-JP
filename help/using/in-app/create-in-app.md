@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: アプリ内, メッセージ, 作成, 開始
+badge: label="Beta" type="Informative"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '653'
+ht-degree: 97%
 
 ---
 
 # アプリ内メッセージの作成  {#create-in-app}
+
+>[!IMPORTANT]
+>
+>アプリ内機能は、現在、一部のユーザーのみが利用できるベータ版として使用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 ## キャンペーンとアプリ内メッセージの作成{#create-in-app-in-a-campaign}
 
@@ -108,12 +111,12 @@ ht-degree: 100%
 
 これで、キャンペーンがアクティブ化されました。キャンペーンで設定されたアプリ内通知は、すぐに送信されるか、指定日に送信されます。
 
-送信後は、キャンペーンレポート内でアプリ内メッセージの影響を測定できます。レポートについて詳しくは、[この節](inapp-report.md)を参照してください。
+送信後は、キャンペーンレポート内でアプリ内メッセージの影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report.md#inapp-report)を参照してください。
 
 **関連トピック：**
 
 * [アプリ内メッセージのデザイン](design-in-app.md)
-* [アプリ内レポート](inapp-report.md)
+* [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
 * [アプリ内設定](inapp-configuration.md)
 
 ## チュートリアルビデオ{#video}

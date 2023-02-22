@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 100%
+source-wordcount: '1129'
+ht-degree: 96%
 
 ---
 
@@ -155,6 +155,34 @@ ht-degree: 100%
 「**追加**」、「**削除**」および「**取得**」の操作を実行できます。
 
 API 呼び出しについて詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target="_blank"} リファレンスドキュメントを参照してください。
+
+## ダウンロード許可リスト {#download-allowed-list}
+
+許可リストを CSV ファイルとして書き出すには、次の手順に従います。
+
+1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。 
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. ファイルが生成されるまで待ちます。
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >ダウンロード時間は、ファイルサイズ (許可リスト上のアドレス数 ) によって異なります。
+   >
+   >特定のサンドボックスに対して、一度に 1 つのダウンロードリクエストを処理できます。
+
+1. ファイルが生成されると、通知が届きます。 画面の右上にあるベルアイコンをクリックして、表示します。
+
+1. 通知自体をクリックして、ファイルをダウンロードします。
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >リンクは 24 時間有効です。
 
 ## 許可リストのロジック {#logic}
 

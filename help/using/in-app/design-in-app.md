@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: アプリ内, メッセージ, デザイン, 書式設定
+badge: label="Beta" type="Informative"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '910'
+ht-degree: 98%
 
 ---
 
 # アプリ内コンテンツのデザイン {#design-content}
+
+>[!IMPORTANT]
+>
+>アプリ内機能は、現在、一部のユーザーのみが利用できるベータ版として使用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 アプリ内コンテンツを編集して、メッセージのレイアウトと表示、テキスト、ボタンのオプションなどのエクスペリエンスオプションを設定できます。
 
@@ -191,7 +194,7 @@ ht-degree: 100%
 **関連トピック：**
 
 * [アプリ内メッセージの作成](create-in-app.md)
-* [アプリ内レポート](inapp-report.md)
+* [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
 * [アプリ内設定](inapp-configuration.md)
 
 ## チュートリアルビデオ{#video}

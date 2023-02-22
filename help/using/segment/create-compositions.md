@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->既存のコンポジションは、リストの「...」ボタンを使用して、いつでも複製または削除できます。
+>既存の構成は、リスト内の省略記号ボタンを使用して、いつでも複製または削除できます。
 
 詳細情報：
 

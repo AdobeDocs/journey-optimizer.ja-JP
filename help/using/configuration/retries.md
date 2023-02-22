@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 再試行, バウンス, ソフト, Optimizer, エラー
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
@@ -72,5 +72,5 @@ ht-degree: 100%
 >
 >再試行期間は 84 時間を超えることはできません。再試行期間の下限は、マーケティングメールの場合は 6 時間、トランザクションメールの場合は 10 分です。
 
-チャネルサーフェスの作成時にメール再試行パラメーターを調整する方法については、[この節](channel-surfaces.md#create-channel-surface)を参照してください。
+チャネルサーフェスの作成時にメール再試行パラメーターを調整する方法については、[この節](../email/email-settings.md#email-retry)を参照してください。
 
