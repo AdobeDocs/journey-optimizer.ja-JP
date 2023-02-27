@@ -10,7 +10,7 @@ level: Intermediate
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
 ht-degree: 100%
 
