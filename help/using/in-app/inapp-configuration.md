@@ -6,16 +6,16 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 badge: label="Beta" type="Informative"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
 # アプリ内チャネルの設定 {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >アプリ内機能は、現在、一部のユーザーのみが利用できるベータ版として使用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 1. [!DNL Adobe Experience Platform] サービスを選択します。 
 
-   [!DNL Edge Segmentation]、[!DNL Offer Decisioning] および [!DNL Adobe Journey Optimizer] を選択する必要があります。
+   [!DNL Edge Segmentation] および [!DNL Adobe Journey Optimizer] を選択する必要があります。
 
    ![](assets/inapp_config_6.png)
 
