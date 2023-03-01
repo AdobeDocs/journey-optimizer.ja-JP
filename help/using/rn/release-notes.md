@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
+source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 58%
+source-wordcount: '919'
+ht-degree: 61%
 
 ---
 
@@ -145,7 +145,9 @@ Note that each widget can be resized and deleted as needed.
 
 **意思決定管理**
 
-* **配置**  — 配置の作成画面に追加のパラメーターが追加されました。 これを使用すると、1 つのオファーを複数の配置にまたがって複製できるかどうかを制御し、オファーのコンテンツとメタデータを API 応答に含めるかどうかを指定できます。 [詳細情報](../offers/offer-library/creating-placements.md)
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **URL のパーソナライゼーション** - URL をコンテンツとしてオファーの表示域に追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。 [詳細情報](../offers/offer-library/add-representations.md)
 
