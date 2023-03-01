@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
+source-git-commit: 22752a30fef53808fa9deb80a2053d5bc22abc95
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -101,16 +101,6 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
    {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
    Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
-   {%/if%}
-   ```
-
-1. **プロファイルがすでにメンバーであるか判断する**
-
-   ```sql
-   {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
-       You're a member!
-   {%else%}
-       You should be a member! Sign up now!
    {%/if%}
    ```
 
