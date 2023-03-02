@@ -10,7 +10,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
-source-git-commit: c909e366ba5e911f685656140caf53cc122552ee
+source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 5%
@@ -89,7 +89,7 @@ Journey OptimizerでExperience Managerテンプレートをコンテンツテン
 
    ![](assets/aem_ajo_2.png)
 
-1. テンプレートのプロパティウィンドウで、 **[!UICONTROL アクセスを管理]** ボタンを使用して、カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てます。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../administration/object-based-access.md)
+1. 内 **[!UICONTROL テンプレートのプロパティ]** ウィンドウで、 **[!UICONTROL アクセスを管理]** ボタンを使用して、カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てます。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../administration/object-based-access.md)
 
 1. AEMテンプレートをさらにパーソナライズし、コンテンツにカスタムパーソナライゼーションを追加するには、 **[!UICONTROL コンテンツを編集]**. これにより、簡単に変更を加え、特定のニーズに合わせてテンプレートを調整できます。 [詳細情報](get-started-email-design.md)
 
