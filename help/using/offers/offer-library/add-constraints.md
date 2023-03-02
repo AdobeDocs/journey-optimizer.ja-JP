@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 98%
+source-wordcount: '1735'
+ht-degree: 97%
 
 ---
 
@@ -143,6 +143,11 @@ ht-degree: 98%
 >id="ajo_decisioning_frequency_capping"
 >title="キャッピング頻度の設定"
 >abstract="オファーのキャッピングカウンターを日単位、週単位または月単位でリセットするよう選択できます。"
+
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;インプレッション&quot;
+>abstract=&quot;制限イベントとしてのインプレッションの使用は、インバウンドチャネルでのみ使用できます。&quot;
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
