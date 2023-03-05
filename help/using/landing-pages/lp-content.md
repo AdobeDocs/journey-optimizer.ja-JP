@@ -10,9 +10,9 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,33 +21,33 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="コンテンツコンポーネントの使用"
->abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。ユーザーが選択して送信できるようにする特定のコンテンツを定義するには、フォームコンポーネントを使用します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="コンテンツコンポーネントの追加"
+>abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。ユーザーがオプションを選択して送信できる特定のコンテンツを定義するには、フォームコンポーネントを使用します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=ja#add-content-components" text="コンテンツコンポーネントの追加"
 
-ランディングページのコンテンツをデザインする際には、E メールと同じコンポーネントを使用できます。 [詳細情報](../email/content-components.md#add-content-components)
+ランディングページのコンテンツをデザインするには、メールと同じコンポーネントを使用できます。[詳細情報](../email/content-components.md#add-content-components)
 
-ユーザーが選択して送信できるようにする特定のコンテンツをデザインするには、次の手順を実行します。 [フォームコンポーネントの使用](#use-form-component) を定義します。 [ランディングページ固有のスタイル](#lp-form-styles).
+ユーザーがオプションを選択して送信できるようにする特定のコンテンツをデザインするには、[フォームコンポーネントを使用し](#use-form-component)、[ランディングページ固有のスタイル](#lp-form-styles)を定義します。
 
 >[!NOTE]
 >
 >また、**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用せずにクリックスルーのランディングページを作成することもできます。この場合、ランディングページはユーザーに表示されますが、フォームの送信には必要ありません。これは、オプトインやオプトアウトなど、受信者からのアクションを必要とせずにランディングページの表示のみを行う場合や、ユーザーによる入力が不要な情報を提供する場合に役立ちます。
 
-ランディングページのコンテンツデザイナーを使用すると、サブページのプライマリページから取得したコンテキストデータを活用することもできます。 [詳細情報](#use-primary-page-context)
+ランディングページのコンテンツデザイナーを使用すると、サブページのプライマリページから取得したコンテキストデータを活用することもできます。[詳細情報](#use-primary-page-context)
 
 ## フォームコンポーネントの使用 {#use-form-component}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="フォームコンポーネントフィールドの設定"
->abstract="受信者による選択内容の表示方法と送信方法をランディングページから定義します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="ランディングページのフォームスタイルを定義"
+>abstract="受信者がランディングページから選択肢を表示して送信する方法を定義します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=ja#lp-form-styles" text="ランディングページのフォームスタイルを定義"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="「 」ボタンをクリックした場合の動作"
->abstract="ユーザーがランディングページフォームを送信する際の動作を定義します。"
+>title="ボタンをクリックしたときの動作"
+>abstract="ユーザーがランディングページフォームを送信したときの動作を定義します。"
 
-ユーザーが選択して送信できるようにランディングページから特定のコンテンツを定義するには、 **[!UICONTROL フォーム]** コンポーネント。 これを行うには、以下の手順に従います。
+ユーザーがランディングページからオプションを選択して送信できるような特定のコンテンツを定義するには、**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用します。これを行うには、以下の手順に従います。
 
 1. ランディングページ固有の&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントを左側のパレットからメインのワークスペースにドラッグ＆ドロップします。
 
@@ -158,7 +158,7 @@ ht-degree: 85%
 
 これを行うには、以下の手順に従います。
 
-1. プライマリページで、 **[!UICONTROL フォーム]** コンポーネントを関連する購読リストに追加します。 [詳細情報](#use-form-component)。
+1. プライマリページで、**[!UICONTROL フォーム]**&#x200B;コンポーネントの各チェックボックスを関連するサブスクリプションリストにリンクさせます。 [詳細情報](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
