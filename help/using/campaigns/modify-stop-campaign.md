@@ -10,9 +10,9 @@ level: Intermediate
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 97%
 
 時間が経過すると、キャンペーンのリストは増え続け、最終的には完了済みのキャンペーンと停止済みのキャンペーンを参照するのが難しくなります。
 
-これを防ぐには、不要になった完了済みのキャンペーンと停止済みのキャンペーンをアーカイブします。これをおこなうには、省略記号ボタンをクリックし、「 **[!UICONTROL アーカイブ]**.
+これを防ぐには、不要になった完了済みのキャンペーンと停止済みのキャンペーンをアーカイブします。これを行うには、「...」ボタンをクリックし、「**[!UICONTROL アーカイブ]**」を選択します。
 
 ![](assets/create-campaign-archive.png)
 
