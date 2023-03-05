@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 97%
 * POST と PUT の呼び出しメソッドのみをサポートしています。
 * クエリパラメーターやヘッダーの名前は、「.」または「$」で始める必要があります。
 * IP アドレスは使用できません。
-* 内部Adobeアドレス (`.adobe.*`) は、URL および API では使用できません。
+* 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。
 
 ### イベント {#events-g}
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 ### データソース {#data-sources-g}
 
 * 外部データソースを利用すると、カスタマージャーニー内でリアルタイムに外部データを参照できます。それらのソースは、REST API 経由で使用でき、JSON をサポートし、リクエストのボリューム量を処理できる必要があります。
-* 内部Adobeアドレス (`.adobe.*`) は、URL および API では使用できません。
+* 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。
 
 ### ジャーニーとプロファイルの作成 {#journeys-limitation-profile-creation}
 
