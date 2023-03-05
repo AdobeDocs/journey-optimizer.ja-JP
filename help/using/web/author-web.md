@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="編集する URL を確認"
->abstract="上で定義した Web サーフェスに適用されるコンテンツの編集に使用する特定の Web ページの URL を確認します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
+>title="編集する URL の確認"
+>abstract="上記で定義した web サーフェスに適用される内容の編集に使用する特定の web ページの URL を確認します。Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="詳細情報"
 
 >[!CONTEXTUALHELP]
