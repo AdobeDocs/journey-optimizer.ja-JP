@@ -10,7 +10,7 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 100%
 

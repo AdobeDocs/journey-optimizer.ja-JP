@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 100%
 

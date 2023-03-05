@@ -8,7 +8,7 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
 

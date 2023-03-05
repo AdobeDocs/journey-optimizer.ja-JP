@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2023 年 2 月リリースノート {#feb-2023}
+## 2023年2月リリースノート {#feb-2023}
 
 ### 新機能{#feb-2023-features}
 
@@ -34,8 +34,8 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>キャンペーン内で、パーソナライズされたアプリ内メッセージをアプリユーザーに送信できるようになりました。 Journey Optimizerを使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
-<p><strong>注意</strong>  — この機能は現在ベータ版で、ベータ版のお客様のみが利用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
+<p>キャンペーン内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
+<p><strong>注意</strong> - この機能は現在ベータ版です。ベータ版のユーザーのみがご利用いただけます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>詳しくは、<a href="../in-app/get-started-in-app.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -46,14 +46,14 @@ ht-degree: 61%
 <table>
 <thead>
 <tr>
-<th><strong>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出し（ベータ版）</strong><br/></th>
+<th><strong>Journey Optimizer データセットのクラウドストレージへの書き出し（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できるようになりました。 使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2，データランディングゾーン， Google Cloud Storage, SFTP</p>
-<p><strong>注意</strong> ：この機能は現在ベータ版で、すべてのAdobe Journey Optimizerユーザーが利用できます。 アクセス権がない場合は、Adobe担当者に相談して、宛先へのアクセス権を取得してください。</p>
+<p>データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できるようになりました。使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
+<p><strong>注意</strong> - この機能は現在ベータ版です。すべての Adobe Journey Optimizer ユーザーがご利用いただけます。 アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>詳しくは、 <a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -117,9 +117,9 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* この **再入場待機期間** フィールドがジャーニープロパティに追加されました。 このフィールドでは、プロファイルが単一のジャーニー（イベントまたはセグメントの資格で始まる）でジャーニーに再度エントリできるようにするまでの待機時間を定義できます。 これにより、同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぎます。 デフォルトでは、このフィールドは 5 分に設定されています。 [詳細情報](../building-journeys/journey-gs.md#entrance)
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはセグメントの資格で始まる）単一のジャーニーで、プロファイルがジャーニーに再度エントリできるようにするまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-gs.md#entrance)
 
-* 向けに改善が加えられました。 **ジャーニーの開始日と終了日**. 開始日を指定しなかった場合、公開時に自動的に追加されるようになりました。 の場合 **セグメントを読み取り** ジャーニーに追加する終了日を追加できるようになりました。 これにより、日付に達したプロファイルは自動的に終了します。 [詳細情報](../building-journeys/journey-gs.md#dates)
+* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。**セグメントの読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -137,11 +137,11 @@ Note that each widget can be resized and deleted as needed.
 
 **管理**
 
-* **許可リスト**  — これで、許可リストを.csv ファイルとしてダウンロードできます。 [詳細情報](../configuration/allow-list.md#download-allowed-list)
+* **許可リスト** - 許可リストを .csv ファイルとしてダウンロードできるようになりました。[詳細情報](../configuration/allow-list.md#download-allowed-list)
 
-* **E メールサーフェス** - E メールの表面設定に追加のチェックが追加されました。( **返信先（E メール）アドレス** または **BCC 電子メールアドレス** が正しく設定されていない場合、e メールサーフェスを作成できなくなりました。 設定するか、別の設定を使用する必要があります。 [詳細情報](../email/email-settings.md#reply-to-email)
+* **メールサーフェス** - メールサーフェスの設定にさらにチェックが追加されました。サブドメインの MX レコードが&#x200B;**返信先（メール）アドレス**&#x200B;または **BCC メールアドレス**&#x200B;が正しく設定されていない場合、メールサーフェスを作成できなくなりました。設定するか、別の設定を使用する必要があります。 [詳細情報](../email/email-settings.md#reply-to-email)
 
-* **E メールサーフェス**  — 内 **URL トラッキングパラメーター** E メールの表示設定のセクション、各 **値** フィールドが 255 文字から 5 KB に更新され、Adobe Analyticsのトラッキングとの互換性が確保されました。 [詳細情報](../email/email-settings.md#url-tracking)
+* **メールサーフェス** - メールサーフェス設定の **URLトラッキングパラメーター**&#x200B;セクションで、Adobe Analytics トラッキングとの互換性のために、各&#x200B;**値**&#x200B;フィールドの制限が 255 文字から 5 KB に更新されました。[詳細情報](../email/email-settings.md#url-tracking)
 
 **意思決定管理**
 
@@ -149,7 +149,7 @@ Note that each widget can be resized and deleted as needed.
 * **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
 -->
 
-* **URL のパーソナライゼーション** - URL をコンテンツとしてオファーの表示域に追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。 [詳細情報](../offers/offer-library/add-representations.md)
+* **URL のパーソナライゼーション** - オファーの表示域にコンテンツとして URL を追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。[詳細情報](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)

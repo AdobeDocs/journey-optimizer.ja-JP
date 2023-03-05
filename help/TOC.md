@@ -418,7 +418,7 @@ ht-degree: 99%
    + [クエリ](using/data/get-started-queries.md)
    + Journey Optimizer データセット {#datasets}
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
-      + [Journey Optimizerデータセットの書き出し](using/data/export-datasets.md)
+      + [Journey Optimizer データセットの書き出し](using/data/export-datasets.md)
       + [クエリの例](using/data/datasets-query-examples.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
