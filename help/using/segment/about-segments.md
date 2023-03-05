@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="セグメント"
->abstract="Adobe Experience Platformでは、リアルタイム顧客プロファイルデータを活用することで、顧客の独自の行動や好みをキャプチャする、ターゲットを絞り込んだセグメントを簡単に作成できます。"
+>abstract="Adobe Experience Platform では、リアルタイム顧客プロファイルデータを活用することで、お客様の独自の行動や好みを取り込むターゲットセグメントを簡単に作成できます。"
 
 [!DNL Journey Optimizer] では、**[!UICONTROL セグメント]**&#x200B;メニューから直接、リアルタイム顧客プロファイルデータを使用して Adobe Experience Platform セグメントを作成して、ジャーニーやキャンペーンに活用することができます。
 
