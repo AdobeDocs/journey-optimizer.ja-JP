@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 97%
 
 ## 保存済み条件付きルールの編集と削除 {#edit-delete}
 
-条件付きルールは、省略記号ボタンを使用していつでも削除できます。
+「...」ボタンを使用すれば、いつでも条件付きルールを削除できます。
 
 ![](assets/conditions-open.png)
 
