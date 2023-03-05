@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 96%
 
 API 呼び出しについて詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target="_blank"} リファレンスドキュメントを参照してください。
 
-## ダウンロード許可リスト {#download-allowed-list}
+## 許可リストのダウンロード {#download-allowed-list}
 
 許可リストを CSV ファイルとして書き出すには、次の手順に従います。
 
@@ -170,7 +170,7 @@ API 呼び出しについて詳しくは、 [Adobe Experience Platform API](http
 
    >[!NOTE]
    >
-   >ダウンロード時間は、ファイルサイズ (許可リスト上のアドレス数 ) によって異なります。
+   >ダウンロード時間は、ファイルサイズ（許可リストにあるアドレスの数）によって異なります。
    >
    >特定のサンドボックスに対して、一度に 1 つのダウンロードリクエストを処理できます。
 
