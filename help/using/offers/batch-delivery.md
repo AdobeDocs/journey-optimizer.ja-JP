@@ -3,9 +3,9 @@ title: Batch Decisioning
 description: 特定の Adobe Experience Platform セグメントですべてのプロファイルにオファーの決定を配信する方法を説明します。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
 >[!NOTE]
 >
->ジョブリクエストのステータスに関する最新の情報を取得するには、ジョブの横にある省略記号ボタンを使用して、ジョブを更新します。
+>ジョブリクエストのステータスに関する最新の情報を取得するには、ジョブの横にある「...」ボタンを使用して、ジョブを更新します。
 
 1. **[!UICONTROL 待機中]**：ジョブリクエストが作成され、処理キューに入っています。1 つのデータセットにつき、一度に最大 5 つのバッチジョブを実行できます。同じ出力データセットを持つその他のバッチリクエストがキューに追加されます。前のジョブの実行が完了したら、キュー内のジョブがピックアップされ処理されます。
 1. **[!UICONTROL 処理中]**：ジョブリクエストを処理中です
