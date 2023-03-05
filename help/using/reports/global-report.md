@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -322,18 +322,18 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 </tr>
   <tr> 
    <td>クリック率<br/> </td> 
-   <td>メッセージを表示したユーザーと比較した、アプリ内メッセージに含まれるボタンに対して何らかのアクションを起こしたユーザーの割合。<br/> </td> 
+   <td>メッセージを表示したユーザーと比較して、アプリ内メッセージに含まれるボタンを操作したユーザーの割合。<br/> </td> 
 </tr> 
   <tr> 
-   <td>却下率<br/> </td> 
-   <td> 受信者が閉じたアプリ内メッセージの割合。<br/> </td> 
+   <td>解除率<br/> </td> 
+   <td> 受信者が解除したアプリ内メッセージの割合。<br/> </td> 
 </tr> 
   <tr> 
-   <td>印象<br/> </td> 
+   <td>インプレッション<br/> </td> 
    <td> すべてのユーザーに配信されたアプリ内メッセージの合計数。<br/> </td>
 </tr>
   <tr> 
-   <td>個別インプレッション数<br/> </td> 
+   <td>ユニークインプレッション数<br/> </td> 
    <td>アプリ内メッセージが配信されたユニークユーザーの数。<br/> </td>
 </tr>
  </tbody> 
