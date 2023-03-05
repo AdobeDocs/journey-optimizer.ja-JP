@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Journey Optimizer がメッセージを追跡する直接的な目標指�
 +++適切なオーディエンスサイズまたは十分に長い期間でテストを実行する
 
 テストを長期間実行すると、処理間の目標指標の違いをより少なく検出できます。ただし、目標指標のベースライン値が小さい場合は、より大きなサンプルサイズが必要になります。
-実験に含める必要があるユーザーの数は、検出する効果のサイズ、目標指標の平方偏差または広がり、偽陽性と偽陰性のエラーに対する許容値によって異なります。従来の実験では、[サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank}を使用して、テストを実行する必要がある期間を決定できます。
+実験に含める必要があるユーザーの数は、検出する効果のサイズ、目標指標の平方偏差または広がり、偽陽性と偽陰性のエラーに対する許容値によって異なります。従来の実験では、[サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja){_blank}を使用して、テストを実行する必要がある期間を決定できます。
 +++
 
 +++統計的不確実性について
@@ -115,7 +115,7 @@ Adobe Journey Optimizer がメッセージを追跡する直接的な目標指�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
 >title="概要ウィジェット"
->abstract="Summary ウィジェットは、結果が確定的かどうかなど、実験結果の概要を提供します。 テストの結果をすばやく簡単に把握できます。"
+>abstract="概要ウィジェットには、結果が決定的かどうかなど、実験結果の概要が表示されます。これにより、実験の結果をすばやく簡単に理解できます。"
 
 ![](assets/experimentation_report_3.png)
 
