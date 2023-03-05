@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 98%
 >
 >デフォルトの [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"} の結合メソッドの場合
 >
->このデータセットにバッチが追加されていない場合でも、オプトイン/オプトアウト情報が含まれます。
+>このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報が含まれます。
 
 
 <!--
