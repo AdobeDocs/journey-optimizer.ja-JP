@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
+
+
+## 2023 年 3 月の改善点 {#march-2023}
+
+**タグでのジャーニー管理**
+
+Journey Optimizerの実務者は、タグを使用してビジネスオブジェクトを整理できるようになりました。 タグを使用すると、オブジェクトをすばやく簡単に分類して検索を改善できます。 この機能は現在ベータ版で、ジャーニーのみが利用できます。 [詳細情報](../building-journeys/tags.md)
 
 ## 2023年2月リリースノート {#feb-2023}
 

@@ -8,10 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー、タグ
-hidefromtoc: true
-hide: true
 badge: label="Beta" type="Informative"
-source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
+source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 5%
