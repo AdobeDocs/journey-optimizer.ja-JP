@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 97%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -335,10 +335,7 @@ ht-degree: 97%
          + AI モデルタイプ {#ai-model-types}
             + [自動最適化モデル](using/offers/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/offers/ranking/personalized-optimization-model.md)
-         + AI モデルの作成 {#configure-ai-model}
-            + [イベントを収集するデータセットの作成](using/offers/ranking/create-dataset.md)
-            + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
-            + [イベントキャプチャの設定](using/offers/ranking/schema-requirement.md)
+         + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
    + オファーの作成と管理 {#managing-offers-in-the-offer-library}
       + オファーの設定 {#configure-offers}
          + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
@@ -350,10 +347,14 @@ ht-degree: 97%
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
       + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
-   + [Batch Decisioning](using/offers/batch-delivery.md)
+   + [バッチ判定を使用](using/offers/batch-delivery.md)
+   + イベントデータを収集 {#collect-event-data}
+      + [データ収集の概要](using/offers/data-collection/data-collection.md)
+      + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
+      + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
    + 意思決定管理レポートの作成 {#create-reports}
       + [意思決定管理イベントの概要](using/offers/reports/get-started-events.md)
-      + [意思決定管理イベントの主な情報](using/offers/reports/key-information.md)
+      + [決定管理イベントの主要情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)

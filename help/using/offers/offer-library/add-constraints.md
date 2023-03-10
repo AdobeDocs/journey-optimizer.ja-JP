@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 98%
+source-wordcount: '2197'
+ht-degree: 77%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 * オファーは、「ゴールドロイヤルティ顧客」決定ルールに一致するユーザーに対してのみ考慮されます。
 * オファーの優先度は「50」に設定されています。つまり、このオファーは優先度が 1～49 のオファーより先に、優先度が 51 以上のオファーより後に表示されます。
-* オファーは、すべてのプレースメントをまたいで、ユーザーごとに 1 回だけ表示されます。
+* オファーは、すべてのプレースメントをまたいで、ユーザーごとに 1 ヶ月に 1 回のみ表示されます。
 
 ## 実施要件 {#eligibility}
 
@@ -138,63 +138,37 @@ ht-degree: 98%
 >id="ajo_decisioning_capping"
 >title="キャッピングの使用"
 >abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる回数の上限を定義します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="日付を変更すると、キャッピングに影響を与える場合があります"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="キャッピング頻度の設定"
->abstract="オファーのキャッピングカウンターを日単位、週単位または月単位でリセットするよう選択できます。"
+>abstract="オファーのキャッピングカウンターを日単位、週単位または月単位でリセットするよう選択できます。オファーを保存すると、選択した頻度を変更できなくなります。"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="インプレッション"
->abstract="制限イベントとしてのインプレッションの使用は、インバウンドチャネルでのみ使用できます。"
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;インプレッション&quot;
+>abstract=&quot;制限イベントとしてのインプレッションの使用は、インバウンドチャネルでのみ使用できます。&quot;
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
 ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。
 
-キャッピングを設定するには、次の手順に従います。
+キャッピングを設定するには、次の主な手順に従います。
 
-1. オファーを提示できる回数を定義します。
+1. 次を確認します。 **[!UICONTROL 制限を含める]** 切り替えボタンがオンになっている。 キャッピングはデフォルトで含まれています。
 
-   ![](../assets/offer-capping-times.png)
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >数値は 0 より大きい整数にする必要があります。
+   >以前に作成したオファーの頻度キャップを有効または無効にすることはできません。 これをおこなうには、オファーを複製するか、新しく作成する必要があります。
 
-1. キャッピングを適用する対象は、すべてのユーザーか、1 つの特定のプロファイルかを指定します。
+1. 定義する **[!UICONTROL キャッピングイベント]** が考慮され、カウンターが増加します。 [詳細情報](#capping-event)
 
-   ![](../assets/offer-capping-total.png)
+1. オファーを提示できる回数を定義します。[詳細情報](#capping-type)
 
-   * **[!UICONTROL 合計]**&#x200B;を選択し、組み合わせたターゲットオーディエンス（つまり、すべてのユーザー）に対してオファーを提案できる回数を定義します。
+1. を **[!UICONTROL 頻度]** を使用して、キャッピングカウントをリセットする頻度を定義します。 [詳細情報](#frequency-capping)
 
-      例えば、「超特価品 TV」を販売する電子機器小売業者の場合、オファーが返される回数は、すべてのプロファイルで 200 回に制限されます。
-
-   * **[!UICONTROL プロファイルごと]**&#x200B;を選択して、1 つのオファーを同じユーザーに対して提案できる回数を定義できます。
-
-      例えば、「プラチナクレジットカード」のオファーを持つ銀行の場合、このオファーを 1 つのプロファイルにつき 5 回以上表示したくないとします。実際、ユーザーがオファーを 5 回見て、それに対して何らかのアクションを起こしていない場合、その次に最適なオファーに対して行動する可能性が高いと考えられます。
-   <!--
-    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
-    ![](../assets/offer-capping-frequency.png)
-    >[!NOTE]
-    >
-    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
-    
-    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
-    -->
-
-1. オファーの複数の[表示域](add-representations.md)を定義した場合、キャッピングを「**[!UICONTROL すべてのプレースメントで]**」または「**[!UICONTROL プレースメントごとに]**」適用するかどうかを指定します。
-
-   ![](../assets/offer-capping-placement.png)
-
-   * **[!UICONTROL すべてのプレースメントで]**：キャッピング数は、オファーに関連付けられたプレースメント全体のすべての決定の合計となります。
-
-      例えば、オファーに&#x200B;**電子メール**&#x200B;プレースメントと **web** プレースメントがあり、**すべてのプレースメントのプロファイルあたりキャッピングを 2** に設定した場合、各プロファイルは、プレースメントミックスに関係なく、合計で最大 2 回オファーを受け取ることができます。
-
-   * **[!UICONTROL プレースメントごとに]**：キャッピング数は、各プレースメントに対して個別に決定回数が適用されます。
-
-      例えば、オファーに&#x200B;**電子メール**&#x200B;プレースメントと **web** プレースメントがあり、**各プレースメントに対するプロファイルあたりキャッピングを 2** に設定した場合、各プロファイルは、電子メールプレースメントに対して最大 2 回、web プレースメントに対してさらに 2 回、オファーを受け取ることができます。
+1. オファーの複数の[表示域](add-representations.md)を定義した場合、キャッピングを「**[!UICONTROL すべてのプレースメントで]**」または「**[!UICONTROL プレースメントごとに]**」適用するかどうかを指定します。[詳細情報](#placements)
 
 1. 保存および承認されると、定義した条件および期間に従って、このフィールドに指定した回数のオファーが提示された場合、配信は停止されます。
 
@@ -205,6 +179,86 @@ E メールの準備時に、オファーが提案された回数が計算され
 >[!NOTE]
 >
 >キャッピングカウンターは、オファーの有効期限切れ、またはオファーの開始日から 2 年後の、いずれか早い方でリセットされます。オファーの日付を定義する方法については、[この節](creating-personalized-offers.md#create-offer)を参照してください。
+
+### キャッピングイベント {#capping-event}
+
+この **[!UICONTROL キャッピングイベント]** 「 」フィールドでは、 **[!UICONTROL キャッピングイベント]** が考慮されてカウンターが増加します。
+
+* **[!UICONTROL 決定イベント]** （デフォルト値）:オファーを提示できる最大回数。
+* **[!UICONTROL インプレッション]**:ユーザーに対してオファーを表示できる最大回数。
+
+   >[!NOTE]
+   >
+   >上限イベントとしてのインプレッションの使用は、 **インバウンドチャネル** のみ。
+
+* **[!UICONTROL クリック数]**:ユーザーがオファーをクリックできる最大回数。
+* **[!UICONTROL カスタムイベント]**:送信されるオファーの数を制限するために使用されるカスタムイベントを定義できます。 例えば、特定のプロファイルが 1 回引き換えられるまでの引き換え回数を上限に設定できます。 これをおこなうには、 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
+
+   ![](../assets/offer-capping-event.png)
+
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+
+   <!--![](../assets/offer-capping-custom-event.png)-->
+
+   >[!CAUTION]
+   >
+   >判定イベントを除くすべての制限イベントについて、判定管理のフィードバックが自動的に収集されない場合があるので、データが送信されることを確認してください。 [データ収集の詳細を説明します](../data-collection/data-collection.md)
+
+### キャッピングのタイプ {#capping-type}
+
+この **[!UICONTROL キャッピングのタイプ]** 「 」フィールドでは、オファーを提示できる回数を指定できます。
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>数値は 0 より大きい整数にする必要があります。
+
+<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+
+<!--![](../assets/offer-capping-custom-example.png)-->
+
+また、すべてのユーザーに対してキャッピングを適用するか、1 つの特定のプロファイルに対してキャッピングを適用するかを指定することもできます。
+
+![](../assets/offer-capping-total.png)
+
+* **[!UICONTROL 合計]**&#x200B;を選択し、組み合わせたターゲットオーディエンス（つまり、すべてのユーザー）に対してオファーを提案できる回数を定義します。
+
+   例えば、「超特価品 TV」を販売する電子機器小売業者の場合、オファーが返される回数は、すべてのプロファイルで 200 回に制限されます。
+
+* **[!UICONTROL プロファイルごと]**&#x200B;を選択して、1 つのオファーを同じユーザーに対して提案できる回数を定義できます。
+
+   例えば、「プラチナクレジットカード」のオファーを持つ銀行の場合、このオファーを 1 つのプロファイルにつき 5 回以上表示したくないとします。実際、ユーザーがオファーを 5 回見て、それに対して何らかのアクションを起こしていない場合、その次に最適なオファーに対して行動する可能性が高いと考えられます。
+
+### フリークエンシーキャップ {#frequency-capping}
+
+この **[!UICONTROL 頻度]** 「 」セクションでは、キャッピング数をリセットする頻度を定義できます。 これをおこなうには、カウントの期間（日単位、週単位、月単位）を定義し、日数/週数/月数を入力します。
+
+![](../assets/offer-capping-frequency.png)
+
+>[!NOTE]
+>
+>リセットは、定義した日（UTC で午前 12 時）、または該当する週や月の最初の日に発生します。 週の開始日は日曜日です。 選択した期間は、2 年を超えることはできません（つまり、対応する月数、週数、日数）。
+
+例えば、2 週間ごとに制限数をリセットする場合は、「 **[!UICONTROL 毎週]** から **[!UICONTROL 繰り返し]** ドロップダウンリストとタイプ **2** 他のフィールドに リセットは毎週日曜日の午後 12 時 (UTC) に発生します。
+
+>[!CAUTION]
+>
+>オファーを保存すると、頻度に選択した期間（月、週、日）を変更できなくなります。
+
+### キャッピングと配置 {#placements}
+
+オファーの複数の[表示域](add-representations.md)を定義した場合、キャッピングを「**[!UICONTROL すべてのプレースメントで]**」または「**[!UICONTROL プレースメントごとに]**」適用するかどうかを指定します。
+
+![](../assets/offer-capping-placement.png)
+
+* **[!UICONTROL すべてのプレースメントで]**：キャッピング数は、オファーに関連付けられたプレースメント全体のすべての決定の合計となります。
+
+   例えば、オファーに&#x200B;**電子メール**&#x200B;プレースメントと **web** プレースメントがあり、**すべてのプレースメントのプロファイルあたりキャッピングを 2** に設定した場合、各プロファイルは、プレースメントミックスに関係なく、合計で最大 2 回オファーを受け取ることができます。
+
+* **[!UICONTROL プレースメントごとに]**：キャッピング数は、各プレースメントに対して個別に決定回数が適用されます。
+
+   例えば、オファーに&#x200B;**電子メール**&#x200B;プレースメントと **web** プレースメントがあり、**各プレースメントに対するプロファイルあたりキャッピングを 2** に設定した場合、各プロファイルは、電子メールプレースメントに対して最大 2 回、web プレースメントに対してさらに 2 回、オファーを受け取ることができます。
 
 ### キャッピングに対する日付変更の影響 {#capping-change-date}
 

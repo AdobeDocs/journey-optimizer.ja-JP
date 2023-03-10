@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 100%
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 AI モデルを作成して使用する主な手順は次のとおりです。
 
-1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを作成します。[詳細情報](create-dataset.md)
+1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを作成します。[詳細情報](../data-collection/create-dataset.md)
 1. データセットのイベントを活用してオファーをランク付けする AI モデルを作成します。[詳細情報](create-ranking-strategies.md)
-1. イベントを自動的にキャプチャするようにオファースキーマを設定します。[詳細情報](schema-requirement.md)
+1. イベントを自動的にキャプチャするようにオファースキーマを設定します。[詳細情報](../data-collection/schema-requirement.md)
 1. 実施要件を満たすオファーをランク付けする決定内のプレースメントに AI モデルを割り当てます。[詳細情報](../offer-activities/configure-offer-selection.md)

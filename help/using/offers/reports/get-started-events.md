@@ -6,22 +6,20 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
 # 意思決定管理イベントの概要 {#monitor-offer-events}
 
-意思決定管理サービスで特定のプロファイルに対する決定が行われるたびに、これらのイベントに関連する情報が Adobe Experience Platform へと自動的に送信されます。
-
+決定管理が特定のプロファイルに対して決定をおこなうたびに、これらのイベントに関する情報がAdobe Experience Platformに自動的に送信されます。
 
 これにより、これらのデータをエクスポートして、その分析結果を独自のレポートシステムに送信できます。また、分析やレポートの強化を目的として、Adobe Experience Platform の[クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)を他のツールと組み合わせて利用することもできます。
 
-意思決定管理イベントを含むデータセットは、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**メニューからアクセスできます。
-各インスタンスのプロビジョニング時、データセットが自動的に 1 つ作成されます。
+決定管理イベントを含むデータセットは、Adobe Experience Platformからアクセスできます **[!UICONTROL データセット]** メニュー 各インスタンスのプロビジョニング時、データセットが自動的に 1 つ作成されます。
 
 ![](../assets/events-datasets-list.png)
 

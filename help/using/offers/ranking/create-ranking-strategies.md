@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 88%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 ## AI モデルの作成 {#create-ranking-strategy}
 
 AI モデルを作成するには、次の手順を行います。
+
+1. コンバージョンイベントを収集するデータセットを作成します。 [方法についてはこちらを参照](../data-collection/create-dataset.md)
 
 1. **[!UICONTROL コンポーネント]**&#x200B;メニューで、「**[!UICONTROL ランキング]**」タブに移動し、「**[!UICONTROL AI モデル]**」を選択します。
 
@@ -48,10 +50,11 @@ AI モデルを作成するには、次の手順を行います。
    >[!DNL Journey Optimizer] は&#x200B;**コンバージョン率**&#x200B;に基づいてオファーをランク付けします（コンバージョン率 = コンバージョンイベントの合計数／インプレッションイベントの合計数）。コンバージョン率は、次の 2 種類の指標を使用して計算されます。
    >* **インプレッションイベント**（表示されるオファー）
    >* **コンバージョンイベント**（メールまたは web でのクリックにつながるオファー）
+
    >
    >これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。詳しくは、[Adobe Experience Platform web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
 
-1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。そのようなデータセットを作成する方法については、[こちらの節](#create-dataset)を参照してください。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。そのようなデータセットを作成する方法については、[こちらの節](../data-collection/create-dataset.md)を参照してください。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../assets/ai-ranking-dataset-id.png)
 
@@ -70,3 +73,13 @@ AI モデルを作成するには、次の手順を行います。
 1. AI モデルを保存して有効化します。
 
    ![](../assets/ai-ranking-save-activate.png)
+
+<!--At this point, you must have:
+
+* created the AI model,
+* defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
+* and in which dataset you want to collect the event data.-->
+
+これで、オファーが表示またはクリックされるたびに、対応するイベントが **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** フィールドグループを [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK。
+
+イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。[方法についてはこちらを参照](../data-collection/schema-requirement.md)
