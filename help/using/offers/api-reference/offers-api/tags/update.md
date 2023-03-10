@@ -1,21 +1,21 @@
 ---
-title: タグの更新
-description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
+title: コレクション修飾子の更新
+description: コレクション修飾子を使用すると、オファーをより整理および並べ替えることができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 64%
 
 ---
 
-# タグの更新 {#update-tag}
+# コレクション修飾子の更新 {#update-collection-qualifier}
 
-[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内のタグを変更または更新できます。
+コンテナ内の収集修飾子（旧称「タグ」）を変更または更新するには、 [!DNL Offer Library] API
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
 
@@ -68,7 +68,7 @@ curl -X PATCH \
 
 **応答**
 
-正常な応答では、タグの更新された詳細（一意のインスタンス ID とタグ `@id` を含む）が返されます。
+正常な応答は、コレクション修飾子の更新された詳細（一意のインスタンス ID とコレクション修飾子を含む）を返します `@id`.
 
 ```json
 {
