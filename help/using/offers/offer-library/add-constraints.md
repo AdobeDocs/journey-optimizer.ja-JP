@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 77%
+source-wordcount: '2290'
+ht-degree: 73%
 
 ---
 
@@ -164,7 +164,9 @@ ht-degree: 77%
 
 1. 定義する **[!UICONTROL キャッピングイベント]** が考慮され、カウンターが増加します。 [詳細情報](#capping-event)
 
-1. オファーを提示できる回数を定義します。[詳細情報](#capping-type)
+1. オファーを提示できる回数を設定します。 [詳細情報](#capping-count)
+
+1. すべてのユーザーに対してキャッピングを適用するか、1 つのプロファイルにのみ適用するかを選択します。 [詳細情報](#capping-type)
 
 1. を **[!UICONTROL 頻度]** を使用して、キャッピングカウントをリセットする頻度を定義します。 [詳細情報](#frequency-capping)
 
@@ -184,6 +186,8 @@ E メールの準備時に、オファーが提案された回数が計算され
 
 この **[!UICONTROL キャッピングイベント]** 「 」フィールドでは、 **[!UICONTROL キャッピングイベント]** が考慮されてカウンターが増加します。
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL 決定イベント]** （デフォルト値）:オファーを提示できる最大回数。
 * **[!UICONTROL インプレッション]**:ユーザーに対してオファーを表示できる最大回数。
 
@@ -192,21 +196,25 @@ E メールの準備時に、オファーが提案された回数が計算され
    >上限イベントとしてのインプレッションの使用は、 **インバウンドチャネル** のみ。
 
 * **[!UICONTROL クリック数]**:ユーザーがオファーをクリックできる最大回数。
-* **[!UICONTROL カスタムイベント]**:送信されるオファーの数を制限するために使用されるカスタムイベントを定義できます。 例えば、特定のプロファイルが 1 回引き換えられるまでの引き換え回数を上限に設定できます。 これをおこなうには、 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
+* **[!UICONTROL カスタムイベント]**:送信されるオファーの数を制限するために使用されるカスタムイベントを定義できます。 例えば、償還回数を10000に等しくなるまで、または特定のプロファイルが 1 回引き換えられるまでに制限できます。 これをおこなうには、 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   次の例では、購読数を制限します。 選択 **[!UICONTROL カスタムイベント]** リストから、 **[!UICONTROL カスタムイベントルールの作成]** ビルダーを使用して関連イベントを選択します。
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   ルールを作成すると、そのルールは「 **[!UICONTROL カスタムイベントクエリ]** フィールドに入力します。
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >判定イベントを除くすべての制限イベントについて、判定管理のフィードバックが自動的に収集されない場合があるので、データが送信されることを確認してください。 [データ収集の詳細を説明します](../data-collection/data-collection.md)
 
-### キャッピングのタイプ {#capping-type}
+### キャッピング数 {#capping-count}
 
-この **[!UICONTROL キャッピングのタイプ]** 「 」フィールドでは、オファーを提示できる回数を指定できます。
+この **[!UICONTROL キャッピング数]** 「 」フィールドでは、オファーを提示できる回数を指定できます。
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ E メールの準備時に、オファーが提案された回数が計算され
 >
 >数値は 0 より大きい整数にする必要があります。
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+例えば、購読などのカスタムキャッピングイベントを定義した場合、 **[!UICONTROL キャッピング数]** 「 」フィールドに値を入力すると、10 件のサブスクリプションの後は、これ以上オファーが送信されなくなります。
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### キャッピングのタイプ {#capping-type}
 
 また、すべてのユーザーに対してキャッピングを適用するか、1 つの特定のプロファイルに対してキャッピングを適用するかを指定することもできます。
 

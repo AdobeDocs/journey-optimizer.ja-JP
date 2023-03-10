@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 98%
+source-wordcount: '2367'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 98%
 
 ## 2023年3月 {#march-2023}
 
-* Adobe Experience Platformでoffer decisioningのフィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、決定管理ガイドで作成されました。  [詳細情報](../offers/data-collection/data-collection.md)
+* Adobe Experience Platformでoffer decisioningのフィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、決定管理ガイドで作成されました。 [詳細情報](../offers/data-collection/data-collection.md)
 
 ## 2023年2月 {#feb-2023}
 
 * API トリガーキャンペーンのドキュメントに、リクエストに渡すコンテキスト属性が 50 KB を超えることはできない旨を示す注記が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 受信者がランディングページで登録解除した後、オプトアウト情報を&#x200B;**同意サービスデータセット**&#x200B;に保存する方法に関する情報を追加しました。[詳細情報](../landing-pages/lp-use-cases.md#configure-opt-out)
+* オプトアウト情報が **同意サービスデータセット** 受信者がランディングページから購読解除された後。 [詳細情報](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023年1月 {#jan-2023}
 
