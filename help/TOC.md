@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1329'
 ht-degree: 97%
 
 ---
@@ -377,7 +377,7 @@ ht-degree: 97%
             + [決定ルールの作成](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [決定ルールの更新](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [決定ルールの削除](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + タグ{#tags}
+         + コレクション修飾子 {#tags}
             + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [コレクション修飾子の参照](using/offers/api-reference/offers-api/tags/lookup.md)
             + [コレクション修飾子の作成](using/offers/api-reference/offers-api/tags/create.md)
