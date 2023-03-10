@@ -1,25 +1,25 @@
 ---
-title: タグのリスト
-description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
+title: コレクション修飾子のリスト
+description: コレクション修飾子を使用すると、オファーをより整理および並べ替えることができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 54%
 
 ---
 
-# タグのリスト {#list-tags}
+# コレクション修飾子のリスト {#list-tags}
 
-タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。例えば、ブラックフライデーオファーに「ブラックフライデー」タグのラベルを付けることができます。オファーライブラリの検索機能を使用して、そのタグを持つすべてのオファーを簡単に見つけることができるようになります。
+コレクション修飾子（旧称「タグ」）を使用すると、オファーをより適切に整理および並べ替えることができます。 例えば、「ブラックフライデー」オファーに「ブラックフライデー」コレクション修飾子を付けることができます。 その後、オファーライブラリの検索機能を使用して、そのコレクション修飾子を持つすべてのオファーを簡単に見つけることができます。
 
-タグを使用して、オファーをコレクションにグループ化することもできます。詳しくは、[コレクションの作成](../../../offer-library/creating-collections.md)のチュートリアルを参照してください。
+コレクション修飾子を使用して、オファーをコレクションにグループ化することもできます。 詳しくは、[コレクションの作成](../../../offer-library/creating-collections.md)のチュートリアルを参照してください。
 
-[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内のすべてのタグのリストを表示できます。
+コンテナ内のすべての収集修飾子のリストを表示するには、 [!DNL Offer Library] API
 
 **API 形式**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | タグが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | タグに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | コレクション修飾子が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | コレクション修飾子に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=2` |
 
 **リクエスト**
@@ -60,11 +60,11 @@ curl -X GET \
 | `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
 | `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
 | `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
-| `limit` | 返されるタグの数を制限します。 | `limit=5` |
+| `limit` | 返されるコレクション修飾子の数を制限します。 | `limit=5` |
 
 **応答**
 
-正常な応答では、アクセス可能なコンテナ内に存在するタグのリストが返されます。
+正常な応答は、アクセス可能なコンテナ内に存在するコレクション修飾子のリストを返します。
 
 ```json
 {

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '741'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * オファーを表示する&#x200B;**プレースメント**。[プレースメントを作成](../offer-library/creating-placements.md)を参照してください。
 * 実施要件を追加する場合は、オファーの提示条件を定義する&#x200B;**決定ルール**。[決定ルールの作成](../offer-library/creating-decision-rules.md)を参照してください。
-* オファーに関連付ける 1 つまたは複数の&#x200B;**タグ**。[タグの作成](../offer-library/creating-tags.md)を参照してください。
+* 1 つまたは複数 **コレクション修飾子** （旧称：「タグ」）をオファーに関連付けることができます。 詳しくは、 [コレクション修飾子の作成](../offer-library/creating-tags.md).
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
@@ -53,7 +53,7 @@ ht-degree: 100%
    >
    >開始日／終了日を更新すると、キャッピングに影響を与える可能性があります。[詳細情報](add-constraints.md#capping-change-date)
 
-1. また、1 つまたは複数の既存の&#x200B;**[!UICONTROL タグ]**&#x200B;をオファーに関連付けることもできます。これにより、オファーライブラリの検索と整理がしやすくなります。[詳細情報](creating-tags.md)。
+1. 1 つまたは複数の既存の **[!UICONTROL コレクション修飾子]** をオファーに追加すると、オファーライブラリをより簡単に検索および整理できます。 [詳細情報](creating-tags.md)。
 
 1. 「**[!UICONTROL オファー属性]**」セクションでは、レポートや分析のためにキーと値のペアをオファーに関連付けることができます。
 

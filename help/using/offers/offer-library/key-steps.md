@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. オファーを表示する条件を指定する&#x200B;**決定ルールを作成**&#x200B;します。
 
-1. オファーに関連付ける&#x200B;**タグを作成**&#x200B;すると、ライブラリを簡単に整理して検索できます。
+1. **コレクション修飾子の作成** （旧称：「タグ」）オファーに関連付けることで、ライブラリ内で簡単に整理および検索できるようになります。
 
 1. （オファーの優先度スコアを考慮するのではなく）特定のプレースメントに対して最初に提示するオファーを決定するルールを定義する場合は、**ランキング式**&#x200B;を作成できます。
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 99%
+source-wordcount: '1328'
+ht-degree: 97%
 
 ---
 
@@ -326,7 +326,7 @@ ht-degree: 99%
    + コンポーネントの作成 {#create-components}
       + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
       + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
-      + [タグの作成](using/offers/offer-library/creating-tags.md)
+      + [コレクション修飾子の作成](using/offers/offer-library/creating-tags.md)
    + ランキングの作成 {#rankings}
       + [ランキングの基本を学ぶ](using/offers/ranking/get-started-rankings.md)
       + [ランキング式](using/offers/ranking/create-ranking-formulas.md)
@@ -378,11 +378,11 @@ ht-degree: 99%
             + [決定ルールの更新](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [決定ルールの削除](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + タグ{#tags}
-            + [タグのリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [タグの参照](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [タグの作成](using/offers/api-reference/offers-api/tags/create.md)
-            + [タグの更新](using/offers/api-reference/offers-api/tags/update.md)
-            + [タグの削除](using/offers/api-reference/offers-api/tags/delete.md)
+            + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [コレクション修飾子の参照](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [コレクション修飾子の作成](using/offers/api-reference/offers-api/tags/create.md)
+            + [コレクション修飾子の更新](using/offers/api-reference/offers-api/tags/update.md)
+            + [コレクション修飾子の削除](using/offers/api-reference/offers-api/tags/delete.md)
          + パーソナライズされたオファー{#personalized-offers}
             + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

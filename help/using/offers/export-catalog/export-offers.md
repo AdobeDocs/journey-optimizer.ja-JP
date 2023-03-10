@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 100%
+source-wordcount: '2014'
+ht-degree: 98%
 
 ---
 
@@ -336,14 +336,14 @@ ht-degree: 100%
 
 +++ _experience > decisioning > tags
 
-**フィールド：** tags
-**タイトル：**タグ
-**説明：**このエンティティに関連付けられたタグのセット。タグは、フィルター式で使用され、在庫全体をサブセット（カテゴリ）に制限します。
+**フィールド：** タグ
+**タイトル：** タグ
+**説明：** このエンティティに関連付けられたコレクション修飾子のセット（旧称「タグ」）。 コレクション修飾子は、インベントリ全体をサブセット（カテゴリ）に制限するために、フィルター式で使用されます。
 **タイプ：**&#x200B;配列
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++_repo
 

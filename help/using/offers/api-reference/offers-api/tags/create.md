@@ -1,21 +1,21 @@
 ---
-title: タグの作成
-description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
+title: コレクション修飾子の作成
+description: コレクション修飾子を使用すると、オファーをより整理および並べ替えることができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 28%
 
 ---
 
-# タグの作成 {#create-tag}
+# コレクション修飾子の作成 {#create-tag}
 
-コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、タグを作成できます。
+コレクション修飾子（旧称「タグ」）は、 [!DNL Offer Library] API でコンテナ ID を指定します。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | タグが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | コレクション修飾子が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **応答**
 
-正常な応答では、新たに作成されたタグに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してタグを更新または削除できます。後のチュートリアルで、独自のタグ `@id` を使用して、コレクションやパーソナライズされたオファーを作成できます。
+正常な応答は、新しく作成されたコレクション修飾子に関する情報（一意のインスタンス ID と配置を含む）を返します `@id`. 後の手順でインスタンス ID を使用して、コレクション修飾子を更新または削除できます。 固有の収集修飾子を使用できます `@id` （後のチュートリアル）で、コレクションとパーソナライズされたオファーを作成します。
 
 ```json
 {

@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 95%
 **タグでのジャーニー管理**
 
 Journey Optimizerの実務者は、タグを使用してビジネスオブジェクトを整理できるようになりました。 タグを使用すると、オブジェクトをすばやく簡単に分類して検索を改善できます。 この機能は現在ベータ版で、ジャーニーのみが利用できます。 [詳細情報](../building-journeys/tags.md)
+
+**決定管理タグの名前がコレクション修飾子に変更されました**
+
+Adobe Experience Platformでのタグ機能の最近のリリースで混乱が生じる可能性を防ぐため、決定管理タグの名前は「コレクション修飾子」に変更されました。
+
+「タグ」という用語は、Decision Management ユーザーインターフェイスでは使用されなくなりましたが、API やデータセットなどのバックエンドサービスでも引き続き使用されます。
 
 ## 2023年2月リリースノート {#feb-2023}
 

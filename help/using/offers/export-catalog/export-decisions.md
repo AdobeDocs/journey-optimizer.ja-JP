@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 100%
+source-wordcount: '1552'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
    **フィールド：**filter
    **タイトル：**オプションフィルター
-   **説明：**関連付けられたタグを使用して在庫のオプションに一致するタグベースのフィルターへの参照。値は、参照される決定ルールの URI（@id）です。https://ns.adobe.com/experience/decisioning/filter のスキーマを参照してください。
+   **説明：** 関連付けられた収集修飾子を使用して在庫のオプションに一致する収集修飾子（旧称「タグ」）ベースのフィルタへの参照。 値は、参照される決定ルールの URI（@id）です。https://ns.adobe.com/experience/decisioning/filter のスキーマを参照してください。
    **タイプ：**&#x200B;文字列
 
 * プロファイル制約タイプ

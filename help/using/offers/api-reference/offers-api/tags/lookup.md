@@ -1,21 +1,21 @@
 ---
-title: タグの検索
-description: タグを使用すると、オファーの整理と並べ替えをより適切におこなうことができます。
+title: コレクション修飾子の検索
+description: コレクション修飾子を使用すると、オファーをより整理および並べ替えることができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 41%
 
 ---
 
-# タグの検索 {#look-up-tag}
+# コレクション修飾子の検索 {#look-up-tag}
 
-[!DNL Offer Library] API に対してリクエストパスにタグの `@id` または名前を含める GET リクエストを実行することで、特定のタグを検索できます。
+特定のコレクション修飾子（旧称：「タグ」）を検索するには、 [!DNL Offer Library] コレクション修飾子のいずれかを含む API `@id` またはリクエストパスのコレクション修飾子の名前。
 
 **API 形式**
 
@@ -26,8 +26,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | タグが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | タグに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | コレクション修飾子が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | コレクション修飾子に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:tag:124e147572cd7866` |
 | `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Holiday sales and promotions` |
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、タグに関する詳細（コンテナ ID、インスタンス ID、一意のタグ `@id` に関する情報を含む）が返されます。
+正常な応答は、コンテナ ID、インスタンス ID、一意のコレクション修飾子に関する情報を含む、コレクション修飾子の詳細を返します `@id`.
 
 ```json
 {

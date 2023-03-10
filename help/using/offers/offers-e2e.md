@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
    * プレースメントの作成
    * 決定ルールの作成
-   * タグの作成
+   * コレクション修飾子（旧称「タグ」）の作成
    * ランキングを作成（オプション）
 
 1. [オファーの設定](#configure-offers)
@@ -95,15 +95,15 @@ ht-degree: 100%
 
    ルールを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-decision-rules.md)で説明します。
 
-1. **タグ**&#x200B;を作成することもできます。
+1. また、 **収集修飾子**.
 
-   その後、オファーに関連付け、このタグを使用してオファーを 1 つのコレクションにグループ化できます。
+   その後、オファーに関連付け、このコレクション修飾子を使用して、オファーを 1 つのコレクションにグループ化できます。
 
-   この例では、*Yoga* タグを作成します。
+   この例では、 *ヨガ* コレクション修飾子。
 
    ![](assets/offers-e2e-tag.png)
 
-   タグを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-tags.md)を参照してください。
+   コレクション修飾子を作成する詳細な手順については、 [この節](../../using/offers/offer-library/creating-tags.md).
 
 1. （オファーの優先度スコアを考慮するのではなく）特定の配置に対して最初に提示するオファーを決定するルールを定義する場合は、**ランキング式**&#x200B;を作成できます。
 
@@ -184,7 +184,7 @@ ht-degree: 100%
 
 1. 決定プロセスをスピードアップするには、動的なコレクションを作成します。
 
-1. *Yoga* タグを使用して、以前作成した 4 つのパーソナライズされたオファーを選択します。
+1. 以下を使用： *ヨガ* コレクション修飾子を使用して、先ほど作成した 4 つのパーソナライズされたオファーを選択します。
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
