@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 100%
+source-wordcount: '1828'
+ht-degree: 98%
 
 ---
 
@@ -112,6 +112,9 @@ ht-degree: 100%
     </tr>
     <tr>
         <td><a href="dates.md#format-date">日付をフォーマット</a></td><td>この関数は、日時値を書式設定します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date-locale">日付をロケールサポートの形式にする</a></td><td>この関数は、日付と時刻の値を、対応する言語に依存する表現（目的のロケール）にフォーマットします。</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-days">日数を設定</a></td><td>この関数は、指定された日時の日付を設定します。</td>

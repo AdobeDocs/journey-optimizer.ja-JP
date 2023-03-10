@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 75%
 
 ---
 
@@ -142,6 +142,35 @@ The following operation gets all the values for the map `identityMap`.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
+```
+
+## 日付をロケールサポートの形式にする{#format-date-locale}
+
+この `formatDate` 関数は、日付と時刻の値を、対応する言語に依存する表現（目的のロケール）に書式設定するために使用します。 書式は、有効な Java DateTimeFormat パターンである必要があります。
+
+**構文**
+
+```sql
+{%= formatDate(datetime, format, locale) %}
+```
+
+最初の文字列が date 属性、2 番目の値が変換されて表示される方法で、3 番目の値が文字列形式のロケールを表します。
+
+>[!NOTE]
+>
+> 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
+>
+> Java の日付書式設定関数を使用して、 [Oracle文書](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+>
+> 書式設定と有効なロケールを「 [Oracle文書](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) および [サポートされているロケール](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+
+
+**例**
+
+次の操作を実行すると、次の形式で日付が返されます。MM/DD/YY とロケール FRANCE。
+
+```sql
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
 ```
 
 ## 日数を設定{#set-days}
