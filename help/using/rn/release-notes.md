@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ Journey Optimizerの実務者は、タグを使用してビジネスオブジェ
 Adobe Experience Platformでのタグ機能の最近のリリースで混乱が生じる可能性を防ぐため、決定管理タグの名前は「コレクション修飾子」に変更されました。
 
 「タグ」という用語は、Decision Management ユーザーインターフェイスでは使用されなくなりましたが、API やデータセットなどのバックエンドサービスでも引き続き使用されます。
+
+**決定管理の上限**
+
+* 日別、週別、月別にオファーキャッピングカウンターをリセットできるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
+
+* また、イベント上限について表示するAdobe Experience Platformイベントを選択することもできます。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023年2月リリースノート {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **URL のパーソナライゼーション** - オファーの表示域にコンテンツとして URL を追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。[詳細情報](../offers/offer-library/add-representations.md)
-
-* **キャッピング**  — オファー上限カウンターを日単位、週単位、月単位でリセットできるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
-
-* **キャッピング** :offer decisioning制限で表示するAdobe Experience Platformイベントを選択できるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023年1月リリース {#jan-2023-release}
 
