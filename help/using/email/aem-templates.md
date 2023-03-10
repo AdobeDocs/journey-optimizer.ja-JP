@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
-source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
+source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '772'
 ht-degree: 6%
 
 ---
@@ -40,12 +40,11 @@ Adobe Journey Optimizerを使用すると、Adobe Experience Managerサイトを
 
    Adobe Journey Optimizerでコンテンツテンプレートを作成、編集および削除するには、 **[!DNL Manage Library Items]** 次に含まれる権限 **[!DNL Content Library Manager]** 製品プロファイル。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
-
 ## ガードレールと制限{#aem-templates-limitations}
 
 Adobe Journey OptimizerでのAdobe Experience Managerの使用をさらに最適化するには、次の追加のガードレールおよび制限事項に注意する必要があります。
 
-* Experience Managerテンプレートにパーソナライゼーションを含めることはできません。 パーソナライゼーションは、Journey Optimizerでのみ実行する必要があります。
+* Experience Managerテンプレートのパーソナライゼーションを有効にするには、適切なJourney Optimizer構文が必要です。 [詳細情報](../personalization/personalization-syntax.md)
 
 * 一括テンプレートの書き出しは現在サポートされていません。テンプレートは個別に書き出す必要があります。
 
@@ -59,13 +58,13 @@ Adobe Experience ManagerテンプレートをAdobe Journey Optimizerに書き出
 
    ![](assets/aem-outbound-menu.png)
 
-1. コンテンツライブラリにアクセスし、Journey Optimizerに書き出すテンプレートを選択します。
+1. コンテンツライブラリから、事前に設定したテンプレートを使用することも、最初から作成することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
 
-   新しいページを最初から作成することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. Journey Optimizerのパーソナライゼーション構文をテンプレートに組み込むことで、カスタマイズ機能を強化できます。 [詳細情報](../personalization/personalization-syntax.md)
 
-   ![](assets/aem-send-template.png)
+   ![](assets/aem_ajo_4.png)
 
-1. テンプレートを選択した後、 **[!UICONTROL 送信先]** を選択します。
+1. Journey Optimizerに書き出すテンプレートを選択し、 **[!UICONTROL 送信先]** を選択します。
 
    ![](assets/aem-advanced-menu.png)
 
@@ -91,7 +90,7 @@ Journey OptimizerでExperience Managerテンプレートをコンテンツテン
 
 1. 内 **[!UICONTROL テンプレートのプロパティ]** ウィンドウで、 **[!UICONTROL アクセスを管理]** ボタンを使用して、カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てます。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../administration/object-based-access.md)
 
-1. AEMテンプレートをさらにパーソナライズし、コンテンツにカスタムパーソナライゼーションを追加するには、 **[!UICONTROL コンテンツを編集]**. これにより、簡単に変更を加え、特定のニーズに合わせてテンプレートを調整できます。 [詳細情報](get-started-email-design.md)
+1. Experience Managerテンプレートをさらにパーソナライズし、コンテンツにカスタムパーソナライゼーションを追加するには、 **[!UICONTROL コンテンツを編集]**. これにより、簡単に変更を加え、特定のニーズに合わせてテンプレートを調整できます。 [詳細情報](get-started-email-design.md)
 
    >[!NOTE]
    >
@@ -101,8 +100,22 @@ Journey OptimizerでExperience Managerテンプレートをコンテンツテン
 
 1. コンテンツが定義されたら、 **[!UICONTROL 保存済みのテンプレート]** コレクション。 次に、 **[!UICONTROL このテンプレートを使用]**.
 
-   で E メールコンテンツを編集およびパーソナライズする方法について説明します。 [この節](content-from-scratch.md).
-
    ![](assets/aem_ajo_3.png)
+
+1. これで、コンテンツを編集およびパーソナライズできます。 E メールコンテンツの作成方法について詳しくは、 [ページ](content-from-scratch.md).
+
+   ![](assets/aem_ajo_5.png)
+
+1. パーソナライズされたコンテンツをテンプレートに追加した場合は、Experience Managerの **[!UICONTROL コンテンツをシミュレート]** をクリックし、テストプロファイルを使用して、メッセージでの表示をプレビューします。
+
+[プレビューおよびテストプロファイルの詳細](../email/preview.md)
+
+   ![](assets/aem_ajo_6.png)
+
+1. メッセージのプレビューを表示すると、パーソナライズされた要素は、選択したテストプロファイルの対応するデータに自動的に置き換えられます。
+
+   必要に応じて、 **[!UICONTROL テストプロファイルの管理]** 」ボタンをクリックします。
+
+   ![](assets/aem_ajo_7.png)
 
 メールの準備ができたら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)を設定し、アクティブ化して、メッセージが送信されるようにします。
