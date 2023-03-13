@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 73%
+source-wordcount: '2323'
+ht-degree: 72%
 
 ---
 
@@ -200,14 +200,21 @@ E メールの準備時に、オファーが提案された回数が計算され
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   次の例では、購読数を制限します。 選択 **[!UICONTROL カスタムイベント]** リストから、 **[!UICONTROL カスタムイベントルールの作成]** ビルダーを使用して関連イベントを選択します。
+   次の例では、チェックアウト数を制限します。
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. 選択 **[!UICONTROL カスタムイベント]** リストから、 **[!UICONTROL カスタムイベントを追加]** 」ボタンをクリックします。
 
-   ルールを作成すると、そのルールは「 **[!UICONTROL カスタムイベントクエリ]** フィールドに入力します。
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. 以下を使用： **[!UICONTROL カスタムイベントルールの作成]** ビルダーを使用して関連イベントを選択します。 オファーを制限する任意のユーザーアクションを選択できます。
 
+      ここで選択 **[!UICONTROL コマース]** > **[!UICONTROL チェックアウト]** > **[!UICONTROL 値]** を選択し、 **[!UICONTROL 存在する]** 」を選択します。
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. ルールを作成すると、そのルールは「 **[!UICONTROL カスタムイベントクエリ]** フィールドに入力します。
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >判定イベントを除くすべての制限イベントについて、判定管理のフィードバックが自動的に収集されない場合があるので、データが送信されることを確認してください。 [データ収集の詳細を説明します](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ E メールの準備時に、オファーが提案された回数が計算され
 >
 >数値は 0 より大きい整数にする必要があります。
 
-例えば、購読などのカスタムキャッピングイベントを定義した場合、 **[!UICONTROL キャッピング数]** 「 」フィールドに値を入力すると、10 件のサブスクリプションの後は、これ以上オファーが送信されなくなります。
+例えば、チェックアウト数などのカスタムキャッピングイベントを定義したとします。 「 **[!UICONTROL キャッピング数]** 「 」フィールドに値を入力すると、10 件のチェックアウト後はこれ以上オファーが送信されなくなります。
 
 ### キャッピングのタイプ {#capping-type}
 
