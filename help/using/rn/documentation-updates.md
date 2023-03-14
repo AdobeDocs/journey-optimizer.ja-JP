@@ -4,9 +4,9 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2386'
 ht-degree: 97%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 97%
 
 ## 2023年2月 {#feb-2023}
 
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 2 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * API トリガーキャンペーンのドキュメントに、リクエストに渡すコンテキスト属性が 50 KB を超えることはできない旨を示す注記が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
-
 * オプトアウト情報が **同意サービスデータセット** 受信者がランディングページから購読解除された後。 [詳細情報](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023年1月 {#jan-2023}
@@ -31,6 +31,8 @@ ht-degree: 97%
 * [!DNL Journey Optimizer] のアクセシビリティ機能を専用ページにグループ化しました。[詳細情報](../start/accessibility.md)
 * [!DNL Journey Optimizer] のデータ管理に関する新しいページを追加しました。[詳細情報](../data/gs-data.md)
 * Decisioning API を使用してオファーを配信する際に、応答で返される可能性のあるすべてのコードをリストした表を追加しました。 [詳細情報](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++ 2022
 
 ## 2022年12月 {#december-2022}
 
@@ -155,11 +157,14 @@ ht-degree: 97%
 * この&#x200B;**オプトアウト管理**&#x200B;の節が明確になり、一部再編成されました。[詳細情報](../privacy/opt-out.md#opt-out-management)
 * この&#x200B;**リンクを挿入**&#x200B;の節が更新され、最近のユーザーインターフェイスの変更が反映されました。[詳細情報](../email/message-tracking.md#insert-links)
 
++++
+
++++ 2021年
+
 ## 2021年11月 {#november-2021}
 
 * ジャーニーで使用される&#x200B;**高度な式エディター**&#x200B;で、完全な説明が利用できるようになりました。[詳細情報](../building-journeys/expression/expressionadvanced.md)
 * **CNAME サブドメインのデリゲーション方法**&#x200B;に関する新しい節が追加されました。[詳細情報](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## 2021年10月 {#october-2021}
 
@@ -202,7 +207,6 @@ ht-degree: 97%
 
 * IP プールの編集方法に関する節を追加しました。[詳細情報](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## 2021 年 8 月 {#august-2021}
 
 *  [!DNL Journey Optimizer] の 8 月 21 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
@@ -223,7 +227,6 @@ ht-degree: 97%
 * [抑制リストへのアクセス](../configuration/manage-suppression-list.md#access-suppression-list)の節と[再試行](../configuration/retries.md)の節を更新して、新しいユーザーインターフェイスを反映しました。
 * オファーの作成時に表示域を追加および設定するための新しいフローが、ドキュメントに追加されました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#representations)
 
-
 ## 2021 年 7 月 {#july-2021}
 
 * [!DNL Journey Optimizer] の 7 月 21 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
@@ -243,3 +246,4 @@ ht-degree: 97%
 * 意思決定管理の新しい「**[!UICONTROL 概要]**」タブについて説明しました。[詳細情報](../offers/get-started/user-interface.md#overview)
 * オファーリストと決定リストから使用できるアクションを説明するために、[オファーリスト](../offers/offer-library/creating-personalized-offers.md#offer-list)と[決定リスト](../offers/offer-activities/create-offer-activities.md#decision-list)の節を新しく追加しました。
 
++++
