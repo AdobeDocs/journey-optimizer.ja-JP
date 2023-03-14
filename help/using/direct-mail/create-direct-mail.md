@@ -9,10 +9,11 @@ keywords: ダイレクトメール, メッセージ, キャンペーン
 hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '517'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +23,19 @@ ht-degree: 100%
 >id="ajo_direct_mail"
 >title="ダイレクトメールの作成"
 >abstract="スケジュールされたキャンペーンでダイレクトメールメッセージを作成し、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルを設計します。"
+
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* **[ダイレクトメールの作成](create-direct-mail.md)**
+* [ダイレクトメールの設定](direct-mail-configuration.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>ダイレクトメールは、現在、非公開ベータ版として利用可能で、予告なく頻繁に更新される場合があります。
 
 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルをパーソナライズおよび生成できるオフラインチャネルです。
 

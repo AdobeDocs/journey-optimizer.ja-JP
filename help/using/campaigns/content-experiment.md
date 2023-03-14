@@ -11,10 +11,11 @@ keywords: コンテンツ, 実験, 複数, オーディエンス,
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +26,17 @@ ht-degree: 100%
 >title="コンテンツ実験"
 >abstract="複数の配信処理を定義してオーディエンスに最適な組み合わせを決定するために、配信コンテンツ、件名、送信者を変更することを選択できます。"
 
->[!AVAILABILITY]
->
->**コンテンツ実験**&#x200B;機能は現在、一連の組織でのみ使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* [コンテンツ実験の基本を学ぶ](get-started-experiment.md)
+* **[コンテンツ実験の作成](content-experiment.md)**
+* [統計計算について](experiment-calculations.md)
+* [実験レポートの設定](reporting-configuration.md)
+* [実験レポートの統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer のコンテンツ実験を使用すると、複数の配信処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信を測定できます。配信コンテンツ、件名または送信者を変更できます。関心のあるオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。
 

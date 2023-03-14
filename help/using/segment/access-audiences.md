@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 71%
@@ -20,11 +20,16 @@ ht-degree: 71%
 
 # オーディエンスへのアクセスと管理 {#access-manage-audiences}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>このドキュメントの内容は次のとおりです。<br/><ul>
-<li><a href="get-started-audience-orchestration.md">オーディエンスコンポジションの基本を学ぶ</a></li>
-<li><a href="create-compositions.md">最初の構成ワークフローを作成する</a></li>
-<li><a href="composition-canvas.md">コンポジションキャンバスの操作</a></li>
-<li><b><a href="access-audiences.md">オーディエンスへのアクセスと管理</a></b></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
+* [最初の構成ワークフローを作成する](create-compositions.md)
+* [コンポジションキャンバスの操作](composition-canvas.md)
+* **[オーディエンスへのアクセスと管理](access-audiences.md)**
+
+>[!ENDSHADEBOX]
 
 オーディエンスの構成から生成されたオーディエンスには、 **[!UICONTROL 参照]** 」タブをクリックします。 **[!UICONTROL セグメント]** メニュー
 

@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-source-git-commit: 3217cdd366cd61096a232306aa85c075a7542b0e
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 96%
 
 ---
 
 # Web レポート {#web-report}
 
-Web レポートは、キャンペーンレポートで使用できます。
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->現在、web チャネル機能は、一部のユーザーのみが利用できるベータ版として使用できます。
+このドキュメントの内容は次のとおりです。
+
+* [Web チャネルの基本を学ぶ](get-started-web.md)
+* [Web エクスペリエンスの作成](create-web.md)
+* [Web ページの作成](author-web.md)
+* [Visual Editing Helper 拡張機能](visual-editing-helper.md)
+* **[Web レポート](web-report.md)**
+
+>[!ENDSHADEBOX]
+
+Web レポートは、キャンペーンレポートで使用できます。
 
 キャンペーンのレポートページには次のタブが表示されます。
 

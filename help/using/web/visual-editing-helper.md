@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 98%
 
 ---
 
 # Visual Editing Helper 拡張機能 {#visual-editing-helper}
 
-Web エクスペリエンスをすばやく作成およびプレビューするために、Google Chrome 用 Adobe Experience Cloud Visual Editing Helper ブラウザー拡張機能を使用すると、Adobe [!DNL Journey Optimizer] Web Designer 内で確実に web サイトを読み込むことができます。
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->現在、web チャネル機能は、一部のユーザーのみが利用できるベータ版として使用できます。
+このドキュメントの内容は次のとおりです。
+
+* [Web チャネルの基本を学ぶ](get-started-web.md)
+* [Web エクスペリエンスの作成](create-web.md)
+* [Web ページの作成](author-web.md)
+* **[Visual Editing Helper 拡張機能](visual-editing-helper.md)**
+* [Web レポート](web-report.md)
+
+>[!ENDSHADEBOX]
+
+Web エクスペリエンスをすばやく作成およびプレビューするために、Google Chrome 用 Adobe Experience Cloud Visual Editing Helper ブラウザー拡張機能を使用すると、Adobe [!DNL Journey Optimizer] Web Designer 内で確実に web サイトを読み込むことができます。
 
 ## Visual Editing Helper 拡張機能のインストール {#install-visual-editing-helper}
 

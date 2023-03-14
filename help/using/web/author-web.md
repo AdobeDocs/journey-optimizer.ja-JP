@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 99%
 
 ---
 
 # Web ページの作成 {#author-web}
 
->[!AVAILABILITY]
->
->現在、web チャネル機能は、一部のユーザーのみが利用できるベータ版として使用できます。
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* [Web チャネルの基本を学ぶ](get-started-web.md)
+* [Web エクスペリエンスの作成](create-web.md)
+* **[Web ページの作成](author-web.md)**
+* [Visual Editing Helper 拡張機能](visual-editing-helper.md)
+* [Web レポート](web-report.md)
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] の web オーサリングは、Adobe Experience Cloud Visual Helper Chrome ブラウザー拡張機能によって動作します。 [詳細情報](visual-editing-helper.md)
 

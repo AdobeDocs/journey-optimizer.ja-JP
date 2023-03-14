@@ -11,14 +11,27 @@ keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 100%
+source-wordcount: '2013'
+ht-degree: 99%
 
 ---
 
 # コンテンツ実験の基本を学ぶ {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* **[コンテンツ実験の基本を学ぶ](get-started-experiment.md)**
+* [コンテンツ実験の作成](content-experiment.md)
+* [統計計算について](experiment-calculations.md)
+* [実験レポートの設定](reporting-configuration.md)
+* [実験レポートの統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

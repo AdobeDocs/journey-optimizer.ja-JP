@@ -11,10 +11,11 @@ keywords: 設定, 実験, レポート, Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +30,18 @@ ht-degree: 100%
 >id="ajo_admin_reporting_dataset"
 >title="データセットの選択"
 >abstract="イベントタイプのデータセット を 1 つだけ選択できます。そのデータセットには、サポートされているフィールドグループ（アプリケーションの詳細、コマースの詳細、web の詳細）を 1 つ以上含める必要があります。"
+
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* [コンテンツ実験の基本を学ぶ](get-started-experiment.md)
+* [コンテンツ実験の作成](content-experiment.md)
+* [統計計算について](experiment-calculations.md)
+* **[実験レポートの設定](reporting-configuration.md)**
+* [実験レポートの統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 

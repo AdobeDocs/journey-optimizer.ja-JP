@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 66%
@@ -25,11 +25,16 @@ ht-degree: 66%
 >title="コンポジションの作成"
 >abstract="コンポジションワークフローを作成し、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。"
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>このドキュメントの内容は次のとおりです。<br/><ul>
-<li><b><a href="get-started-audience-orchestration.md">オーディエンスコンポジションの基本を学ぶ</a></b></li>
-<li><a href="create-compositions.md">最初の構成ワークフローを作成する</a></li>
-<li><a href="composition-canvas.md">コンポジションキャンバスの操作</a></li>
-<li><a href="access-audiences.md">オーディエンスへのアクセスと管理</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* **[オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)**
+* [最初の構成ワークフローを作成する](create-compositions.md)
+* [コンポジションキャンバスの操作](composition-canvas.md)
+* [オーディエンスへのアクセスと管理](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

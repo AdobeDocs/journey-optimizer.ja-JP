@@ -11,18 +11,27 @@ keywords: コンテンツ, 実験, 統計, 計算
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
 # 統計計算について {#experiment-calculations}
 
->[!AVAILABILITY]
->
->**コンテンツ実験**&#x200B;機能は現在、一連の組織でのみ使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* [コンテンツ実験の基本を学ぶ](get-started-experiment.md)
+* [コンテンツ実験の作成](content-experiment.md)
+* **[統計計算について](experiment-calculations.md)**
+* [実験レポートの設定](reporting-configuration.md)
+* [実験レポートの統計計算](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 この記事では、Adobe Journey Optimizer で実験を実行する際に使用される統計計算について説明します。
 

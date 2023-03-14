@@ -8,14 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 95%
 
 ---
 
 # Web チャネルの基本を学ぶ {#get-sarted-web}
+
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* **[Web チャネルの基本を学ぶ](get-started-web.md)**
+* [Web エクスペリエンスの作成](create-web.md)
+* [Web ページの作成](author-web.md)
+* [Visual Editing Helper 拡張機能](visual-editing-helper.md)
+* [Web レポート](web-report.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
