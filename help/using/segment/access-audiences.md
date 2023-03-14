@@ -10,22 +10,31 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 71%
 
 ---
 
 # オーディエンスへのアクセスと管理 {#access-manage-audiences}
 
-オーディエンスは、**[!UICONTROL セグメント]**&#x200B;メニューの「**[!UICONTROL オーディエンス]**」タブからアクセスできます。
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>このドキュメントの内容は次のとおりです。<br/><ul>
+<li><a href="get-started-audience-orchestration.md">オーディエンスコンポジションの基本を学ぶ</a></li>
+<li><a href="create-compositions.md">最初の構成ワークフローを作成する</a></li>
+<li><a href="composition-canvas.md">コンポジションキャンバスの操作</a></li>
+<li><b><a href="access-audiences.md">オーディエンスへのアクセスと管理</a></b></li></ul></td></tr></table>
+
+オーディエンスの構成から生成されたオーディエンスには、 **[!UICONTROL 参照]** 」タブをクリックします。 **[!UICONTROL セグメント]** メニュー
 
 このタブには、Adobe Experience Platform に保存されているすべてのオーディエンスが一覧表示されます。オーディエンスコンポジションを使用して作成されたオーディエンスは、**[!UICONTROL オーディエンスコンポジション]**&#x200B;オリジンによって識別できます。
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
+>
+>このベータ版では、セグメントインベントリに最初に表示された一部のコンポーネントやメタデータ（分類、評価方法など）はこのタブには表示されません。
 >
 >Adobe Experience Platform で使用可能なその他のタイプのオーディエンスについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
 
@@ -36,9 +45,3 @@ ht-degree: 100%
 <!--
 -edit an audience?
 -->
-
-詳細情報：
-
-* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
-* [コンポジションワークフローの作成](create-compositions.md)
-* [コンポジションキャンバスの操作](composition-canvas.md)

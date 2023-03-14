@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 100%
+source-wordcount: '1353'
+ht-degree: 69%
 
 ---
 
 # コンポジションキャンバスの操作 {#composition-canvas}
 
-コンポジションキャンバスは、オーディエンスとアクティビティ（分割、除外など）を活用してコンポジションを作成できる、視覚的なキャンバスです。
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>このドキュメントの内容は次のとおりです。<br/><ul>
+<li><a href="get-started-audience-orchestration.md">オーディエンスコンポジションの基本を学ぶ</a></li>
+<li><a href="create-compositions.md">最初の構成ワークフローを作成する</a></li>
+<li><b><a href="composition-canvas.md">コンポジションキャンバスの操作</a></b></li>
+<li><a href="access-audiences.md">オーディエンスへのアクセスと管理</a></li></ul></td></tr></table>
 
-コンポジションキャンバスでコンポジションを設定する手順は次のとおりです。
+オーディエンスの構成は、オーディエンスを作成し、様々なアクティビティ（分割、エンリッチメントなど）を使用できる視覚的なキャンバスを提供します。
+
+キャンバスでオーディエンスを作成する手順は次のとおりです。
 
 1. [開始オーディエンスを定義する](#starting-audience)
 1. [1 つ以上のアクティビティを追加する](#action-activities)
@@ -56,22 +63,21 @@ ht-degree: 100%
 
 開始オーディエンスを選択した後にアクティビティを追加して、選択を絞り込みます。
 
-これを行うには、コンポジションパスの「+」ボタンをクリックし、目的のアクティビティを選択します。右側のパネルが開き、アクティビティを設定できます。
+これを行うには、コンポジションパスの「+」ボタンをクリックし、目的のアクティビティを選択します。右側のウィンドウが開き、新しく追加したアクティビティを設定できます。
 
 ![](assets/audiences-select-activity.png)
-
->[!NOTE]
->
->必要な数の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 除外]**&#x200B;アクティビティをコンポジションに追加できます。ただし、**[!UICONTROL ランク]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティの後に、アクティビティを追加することはできません 。
-
-右側のパネルの削除ボタンをクリックして、アクティビティをキャンバスからいつでも削除できます。このアクティビティの後に追加されたすべてのアクティビティもキャンバスから削除されます。
 
 使用可能なアクティビティは次のとおりです。
 
 * [オーディエンス](#audience)：1 つ以上のオーディエンスに属する追加のプロファイルを含めます。
 * [除外](#exclude)：既存オーディエンスに属するプロファイルを除外したり、特定の属性に基づいてプロファイルを除外したりします。
+* [強化]{#enrich}:Adobe Experience Platformデータセットから取得した追加の属性を使用してオーディエンスをエンリッチメントする。
 * [ランク](#rank)：特定の属性に基づいてプロファイルをランク付けし、保持するプロファイルの数を指定してコンポジションに含めます。
 * [分割](#split)：ランダムな割合または属性に基づいて、コンポジションを複数のパスに分割します。
+
+必要な数の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 除外]**&#x200B;アクティビティをコンポジションに追加できます。ただし、**[!UICONTROL ランク]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティの後に、アクティビティを追加することはできません 。
+
+右側のパネルの削除ボタンをクリックして、アクティビティをキャンバスからいつでも削除できます。削除するアクティビティが、構成内の他のアクティビティの親である場合は、メッセージが表示され、選択したアクティビティのみを削除するか、選択したすべての子アクティビティを削除するかを指定できます。
 
 ### オーディエンスアクティビティ {#audience}
 
@@ -115,6 +121,46 @@ ht-degree: 100%
 
    ![](assets/audiences-exclude-attribute.png)
 
+### 強化 {#enrich}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="アクティビティを強化"
+>abstract="「エンリッチメント」アクティビティを使用して、既存のオーディエンスに属するプロファイルを除外します。 属性タイプを使用した除外では、特定の属性に基づいたプロファイルを除外できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="エンリッチメントデータセット"
+>abstract="オーディエンスに関連付けるデータが含まれているエンリッチメントデータセットを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="エンリッチメント条件"
+>abstract="ソースデータセット（オーディエンスとエンリッチメントデータセット）間の紐付けキーとして使用するフィールドを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="エンリッチメント属性"
+>abstract="オーディエンスに関連付ける 1 つ以上の属性をエンリッチメントデータセットから選択します。 構成が公開されると、これらの属性がオーディエンスに関連付けられ、キャンペーンで配信をパーソナライズするために利用できます。"
+
+この **[!UICONTROL 強化]** 「 」アクティビティを使用すると、Adobe Experience Platformデータセットから取得した追加の属性でオーディエンスをエンリッチメントできます。 例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。
+
+>[!IMPORTANT]
+>
+>現時点では、データセットレベルまたはフィールドレベルのデータセットのラベルは、新しく作成されたオーディエンスには反映されません。 これは、結果として生じるオーディエンスのアクセス制御やデータガバナンスに影響を与える可能性があります。 このため、オーディエンスを構成する際は、テストデータのみを使用してください。
+
+アクティビティを設定するには、次の手順に従います。
+
+1. を選択します。 **[!UICONTROL エンリッチメントデータセット]** オーディエンスに関連付けるデータを含む
+
+1. 内 **[!UICONTROL エンリッチメント条件]** 「 」セクションで、ソースデータセット（オーディエンスとエンリッチメントデータセット）間の紐付けキーとして使用するフィールドを選択します。 この例では、購入した製品の ID を紐付けキーとして使用します。
+
+1. 次をクリック： **[!UICONTROL 属性を追加]** ボタンをクリックし、オーディエンスに関連付ける 1 つ以上の属性をエンリッチメントデータセットから選択します。
+
+   ![](assets/audiences-enrich-activity.png)
+
+構成が公開されると、選択した属性がオーディエンスに関連付けられ、キャンペーンで配信をパーソナライズするために利用できます。
+
 ### ランクアクティビティ {#rank}
 
 >[!CONTEXTUALHELP]
@@ -141,10 +187,10 @@ ht-degree: 100%
 
 ### 分割アクティビティ {#split}
 
->[!CONTEXTUALHELP]
+<!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="コントロール母集団"
->abstract="コントロール母集団を使用して、プロファイルの一部を分離します。これにより、マーケティングアクティビティの影響を測定し、残りの母集団の行動と比較できます。"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
@@ -167,7 +213,7 @@ ht-degree: 100%
 
 次の 2 種類の分割操作を使用できます。
 
-* **[!UICONTROL パーセント分割]**：プロファイルを 2 つ以上のパスにランダムに分割します。例えば、プロファイルをそれぞれ 45%の 2 つの異なるパスに分割し、コントロール母集団用のパスを追加できます。
+* **[!UICONTROL パーセント分割]**：プロファイルを 2 つ以上のパスにランダムに分割します。例えば、プロファイルを、それぞれ 50%の 2 つの異なるパスに分割できます。 <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 
@@ -188,9 +234,3 @@ Adobe Experience Platform に保存する結果のオーディエンスを設定
 ![](assets/audiences-publish.png)
 
 コンポジションの準備ができたら、公開できます。[コンポジションの作成方法を説明します](create-compositions.md)
-
-詳細情報：
-
-* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
-* [コンポジションワークフローの作成](create-compositions.md)
-* [オーディエンスへのアクセスと管理](access-audiences.md)

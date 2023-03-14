@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: コンポジションワークフローの作成
+title: 最初の構成ワークフローを作成する
 description: コンポジションワークフローを作成して、既存のオーディエンスを組み合わせて配置する方法を説明します。
 feature: Journeys
 topic: Content Management
@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 86%
 
 ---
 
-# コンポジションワークフローの作成 {#create-compositions}
+# 最初の構成ワークフローを作成する {#create-compositions}
 
-コンポジションワークフローを使用すると、既存のオーディエンスを組み合わせて配置し、新しいオーディエンスを作成できます。
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>このドキュメントの内容は次のとおりです。<br/><ul>
+<li><a href="get-started-audience-orchestration.md">オーディエンスコンポジションの基本を学ぶ</a></li>
+<li><b><a href="create-compositions.md">最初の構成ワークフローを作成する</a></b></li>
+<li><a href="composition-canvas.md">コンポジションキャンバスの操作</a></li>
+<li><a href="access-audiences.md">オーディエンスへのアクセスと管理</a></li></ul></td></tr></table>
 
 ## コンポジションワークフローの作成 {#create}
+
+構成ワークフローを作成するには、次の手順に従います。
 
 1. **[!UICONTROL セグメント]**&#x200B;メニューにアクセスし、「**[!UICONTROL オーディエンスを作成]**」を選択します。
 
@@ -42,7 +49,7 @@ ht-degree: 100%
 
 1. コンポジションプロパティを開き、タイトルと説明を指定します。
 
-   プロパティでタイトルが定義されていない場合、コンポジションラベルは開始「**[!UICONTROL オーディエンス]**」アクティビティの 1 つになります。
+   プロパティでタイトルが定義されていない場合、コンポジションのラベルは「コンポジション」に設定され、作成日時が続きます。
 
    ![](assets/audiences-properties.png)
 
@@ -76,9 +83,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >既存のコンポジションは、リストの省略記号ボタンを使用して、いつでも複製または削除できます。
-
-詳細情報：
-
-* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
-* [コンポジションキャンバスの操作](composition-canvas.md)
-* [オーディエンスへのアクセスと管理](access-audiences.md)
