@@ -9,14 +9,24 @@ keyword: direct, mail, configuration, direct-mail, provider
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informative"
+source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 100%
+source-wordcount: '883'
+ht-degree: 99%
 
 ---
 
 # ダイレクトメールの設定 {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+このドキュメントの内容は次のとおりです。
+
+* [ダイレクトメールの作成](create-direct-mail.md)
+* **[ダイレクトメールの設定](direct-mail-configuration.md)**
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できます。
 
