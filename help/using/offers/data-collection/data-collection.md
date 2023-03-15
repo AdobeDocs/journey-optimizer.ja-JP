@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
+source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 3%
 
 ---
 
@@ -39,25 +39,20 @@ ht-degree: 0%
 
 インプレッション数およびクリック数に関するフィードバックは、 [!DNL Journey Optimizer] 使用されるチャネル。
 
-1. 一方で、一部のチャネル **自動** インプレッション数およびクリック数を追跡します。 次の 3 つです。
+**電子メール** 作成者： [!DNL Journey Optimizer] **自動** インプレッション数およびクリック数を追跡します。
 
-   * 作成者のメール [!DNL Journey Optimizer]
-   * モバイルプッシュ通知の作成者 [!DNL Journey Optimizer]
+しかし、 **ほとんどのチャネル** Adobe Experience Platformにインプレッション数とクリック数のデータをとして送信する必要がある **エクスペリエンスイベント**. これには以下が含まれます。
 
-   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
+* Web ページ [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} オファーをレンダリング
 
-1. 一方、一部のチャネルでは、インプレッション数およびクリック数データをAdobe Experience Platform as a **エクスペリエンスイベント**.
+* モバイルアプリ [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* キオスク
+* サードパーティのアプリケーションを通じて送信されるメッセージ
+   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
-   判定 API リクエストを使用してオファーを受け取るすべてのチャネルは、エクスペリエンスイベントとしてフィードバックを送信する必要があります。 これには以下が含まれます。
-
-   * Web ページ [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} オファーをレンダリング
-   * モバイルアプリ [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} オファーをレンダリング
-   * キオスク
-   * サードパーティのアプリケーションを通じて送信されるメッセージ
-
-   >[!NOTE]
-   >
-   >オファーのレンダリング方法に関する指示が必要な場合は、フィードバックをエクスペリエンスイベントとして送信する必要があると想定できます。
+>[!NOTE]
+>
+>判定 API リクエストを使用してオファーを受け取るチャネルは、エクスペリエンスイベントとしてフィードバックを送信する必要があります。 つまり、オファーのレンダリング方法に関する指示が必要な場合は、フィードバックをエクスペリエンスイベントとして送信する必要があると想定できます。
 
 ### カスタムイベント
 
