@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,17 +43,15 @@ ht-degree: 6%
 
    * 作成者のメール [!DNL Journey Optimizer]
    * モバイルプッシュ通知の作成者 [!DNL Journey Optimizer]
-   * モバイルアプリ [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK<!--TBC--> オファーをレンダリング <!--need more info + link-->
 
-   >[!NOTE]
-   >
-   >Adobeがオファーをチャネル上のエンドユーザーに視覚的にレンダリングする場合、Adobeがフィードバックを自動送信すると仮定できます。
+   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
 
 1. 一方、一部のチャネルでは、インプレッション数およびクリック数データをAdobe Experience Platform as a **エクスペリエンスイベント**.
 
-   モバイルアプリを除き、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK<!--TBC-->では、判定 API リクエストを使用してオファーを受け取るすべてのチャネルに、エクスペリエンスイベントとしてフィードバックを送信する必要があります。 これには以下が含まれます。
+   判定 API リクエストを使用してオファーを受け取るすべてのチャネルは、エクスペリエンスイベントとしてフィードバックを送信する必要があります。 これには以下が含まれます。
 
-   * Web ページ
+   * Web ページ [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} オファーをレンダリング
+   * モバイルアプリ [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} オファーをレンダリング
    * キオスク
    * サードパーティのアプリケーションを通じて送信されるメッセージ
 
