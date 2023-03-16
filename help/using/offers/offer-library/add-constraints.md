@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
 source-wordcount: '2323'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="インプレッション"
->abstract="制限イベントとしてのインプレッションの使用は、インバウンドチャネルでのみ使用できます。"
+>abstract="インプレッション数をキャッピングイベントとして使用することは、インバウンドチャネルでのみ可能です。"
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
