@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
+source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '442'
+ht-degree: 69%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 ## ネイティブ受信キーワード{#sms-native-keywords}
 
-デフォルトでは、Adobe Journey Optimizer は、Sinch や Twilio などのネイティブ統合の業界標準に従って、フリーダイヤルメッセージやロングコードメッセージの STOP、UNSTOP、START といった標準の英語返信メッセージを処理します。
+デフォルトでは、Adobe Journey Optimizerはフリーダイヤルおよびロングコードメッセージに対して、次の標準の英語の返信メッセージを処理します。停止、停止、開始、終了、キャンセル、終了、配信停止。 Journey Optimizerで使用する場合、Sinch ではネイティブキーワードのみがサポートされます。
 
-これらのキーワードは通常、お使いのサードパーティプロバイダー（Twilio や Sinch など）から提供される自動標準返信をトリガーします。これについては、プロバイダーまたはドキュメントサイトで直接確認してください。
+これらのキーワードは、通常、サードパーティプロバイダーからの自動標準返信をトリガーします。 これについては、プロバイダーまたはドキュメントサイトで直接確認してください。
 
-キーワード応答の STOP、UNSTOP および START が自動的に認識されるので、Adobe Journey Optimizer で SMS オプトアウト機能が機能していることを確認する手順は不要です。プロファイルのオプトアウトステータスは、Adobe Journey Optimizer でリアルタイムに更新されます。
+STOP、UNSTOP、START、QUIT、CANCEL、END、UNSUBSCRIBE の各キーワード応答が自動的に認識されるので、Adobe Journey Optimizerで SMS オプトアウト機能が動作するようにする手順は必要ありません。 プロファイルのオプトアウトステータスは、Adobe Journey Optimizer でリアルタイムに更新されます。
 
 
 ## ブロックリスト{#sms-blocklists}
@@ -39,7 +39,9 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
 ## ショートコード {#short-codes}
 
-デフォルトでは、Adobe Journey Optimizer はショートコード番号のオプトアウト、オプトインまたはヘルプのキーワードを処理しません。ショートコードが、オプトアウト処理に関するすべての業界ルールおよび規制に準拠していることを確認する必要があります。
+デフォルトでは、ショートコード番号のオプトインまたはヘルプキーワードは、Adobe Journey Optimizerでは処理されません。 業界の規制やオプトアウト処理ルールへの準拠を確保するには、ショートコードがすべてのガイドラインに従っていることを確認する必要があります。
+
+ただし、Journey Optimizerでは、異なる送信者 ID を持つ受信キーワードに基づくグローバルなオプトアウトをサポートしています。
 
 ## 英数字の送信者 ID {#alphanumeric}
 
