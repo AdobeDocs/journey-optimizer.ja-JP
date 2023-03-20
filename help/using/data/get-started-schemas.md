@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: スキーマ, Platform, データ, 構造
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 100%
 スキーマユーザーインターフェイスの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja){target="_blank"}を参照してください
 
 スキーマエディターを使用してスキーマを作成する手順については、[このページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}を参照してください
+
+各スキーマのフィールドと属性の完全なリストを表示するには、 [Journey Optimizerスキーマディクショナリ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## チュートリアルビデオ{#video-schema}

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 97%
 
 ---
 
@@ -54,6 +54,8 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 **インテリジェントサービス**
 
 * _送信時間の最適化スコア／エンゲージメントスコア_：ジャーニー AI の出力スコア。
+
+各スキーマのフィールドと属性の完全なリストを表示するには、 [Journey Optimizerスキーマディクショナリ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## データセットをプレビュー{#preview-datasets}
 
