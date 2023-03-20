@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
 source-wordcount: '2386'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 97%
 
 ## 2023年3月 {#march-2023}
 
-* Adobe Experience Platformでoffer decisioningのフィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、決定管理ガイドで作成されました。 [詳細情報](../offers/data-collection/data-collection.md)
+* 意思決定管理ガイドに、表示されるオファーやユーザーの操作方法など、Adobe Experience Platform でオファー決定支援フィードバックを収集する方法に関する新しい節を作成しました。[詳細情報](../offers/data-collection/data-collection.md)
 
 ## 2023年2月 {#feb-2023}
 
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 2 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * API トリガーキャンペーンのドキュメントに、リクエストに渡すコンテキスト属性が 50 KB を超えることはできない旨を示す注記が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
-* オプトアウト情報が **同意サービスデータセット** 受信者がランディングページから購読解除された後。 [詳細情報](../landing-pages/lp-use-cases.md#configure-opt-out)
+* 受信者がランディングページで登録解除した後、オプトアウト情報を&#x200B;**同意サービスデータセット**&#x200B;に保存する方法に関する情報を追加しました。[詳細情報](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023年1月 {#jan-2023}
 

@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 86%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 3 月の改善点 {#march-2023}
+## 2023年3月の機能強化 {#march-2023}
 
-**タグでのジャーニー管理**
+**ジャーニーでのタグの管理**
 
-Journey Optimizerの実務者は、タグを使用してビジネスオブジェクトを整理できるようになりました。 タグを使用すると、オブジェクトをすばやく簡単に分類して検索を改善できます。 この機能は現在ベータ版で、ジャーニーのみが利用できます。 [詳細情報](../building-journeys/tags.md)
+Journey Optimizer の実務担当者は、タグを使用してビジネスオブジェクトを整理できるようになりました。タグを使用すると、オブジェクトをすばやく簡単に分類して検索を改善できます。この機能は現在ベータ版であり、ジャーニーでのみ使用できます。[詳細情報](../building-journeys/tags.md)
 
-**決定管理タグの名前がコレクション修飾子に変更されました**
+**意思決定管理タグの名前をコレクション修飾子に変更**
 
-Adobe Experience Platformでのタグ機能の最近のリリースで混乱が生じる可能性を防ぐため、決定管理タグの名前は「コレクション修飾子」に変更されました。
+Adobe Experience Platform 全体で最近リリースされたタグ機能との潜在的な混乱を防ぐために、意思決定管理タグの名前を「コレクション修飾子」に変更しました。
 
-「タグ」という用語は、Decision Management ユーザーインターフェイスでは使用されなくなりましたが、API やデータセットなどのバックエンドサービスでも引き続き使用されます。
+「タグ」という用語は、意思決定管理のユーザーインターフェイスでは使用しなくなりましたが、API やデータセットなどのバックエンドサービスでは引き続き使用します。
 
-**決定管理の上限**
+**意思決定管理のキャッピング**
 
-* 日別、週別、月別にオファーキャッピングカウンターをリセットできるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
+* オファーのキャッピングカウンターを日単位、週単位または月単位でリセットできるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
-* また、イベント上限について表示するAdobe Experience Platformイベントを選択することもできます。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
+* また、オファー決定支援キャッピングのために、どの Adobe Experience Platform イベントを参照するかを選択することもできます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023年2月リリースノート {#feb-2023}
 

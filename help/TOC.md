@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ ht-degree: 96%
          + [インラインのスタイル属性の追加](using/email/inline-styling.md)
    + [メールのプレビューとテスト](using/email/preview.md)
    + [コンテンツテンプレートを作成](using/email/content-templates.md)
-   + [Experience Managerテンプレートの使用](using/email/aem-templates.md)
+   + [Experience Manager テンプレートの使用](using/email/aem-templates.md)
    + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
@@ -347,14 +347,14 @@ ht-degree: 96%
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
       + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
-   + [バッチ判定を使用](using/offers/batch-delivery.md)
-   + イベントデータを収集 {#collect-event-data}
-      + [データ収集の概要](using/offers/data-collection/data-collection.md)
+   + [Batch Decisioning の使用](using/offers/batch-delivery.md)
+   + イベントデータの収集 {#collect-event-data}
+      + [データ収集の基本を学ぶ](using/offers/data-collection/data-collection.md)
       + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
       + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
    + 意思決定管理レポートの作成 {#create-reports}
       + [意思決定管理イベントの概要](using/offers/reports/get-started-events.md)
-      + [決定管理イベントの主要情報](using/offers/reports/key-information.md)
+      + [意思決定管理イベントの主な情報](using/offers/reports/key-information.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)
@@ -379,7 +379,7 @@ ht-degree: 96%
             + [決定ルールの更新](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [決定ルールの削除](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + コレクション修飾子 {#tags}
-            + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [コレクション修飾子の一覧表示](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [コレクション修飾子の参照](using/offers/api-reference/offers-api/tags/lookup.md)
             + [コレクション修飾子の作成](using/offers/api-reference/offers-api/tags/create.md)
             + [コレクション修飾子の更新](using/offers/api-reference/offers-api/tags/update.md)
