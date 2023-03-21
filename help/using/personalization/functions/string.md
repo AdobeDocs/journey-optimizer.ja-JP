@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 100%
+source-wordcount: '1868'
+ht-degree: 96%
 
 ---
 
@@ -648,13 +648,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## すべて置換{#replaceAll}
 
-`replaceAll` 関数は、「target」に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。置換は、文字列の先頭から末尾に向けておこなわれます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+この `replaceAll` 関数は、「regex」式に一致するテキストのすべての部分文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用されます。 正規表現には「\」と「+」の特別な処理があり、すべての正規表現は PQL エスケープ戦略に従います。 置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 **構文**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> 2 番目の引数として使用される正規表現式が特殊な正規表現文字の場合は、ダブルバックスラッシュ (`//`) を使用して、このような場合に対処します。
+>
+> 特殊正規表現文字 [., +, *, ?, ^, $, (, ) のリスト [, ], {, }, |, \.]
+> 
+> これは、 [Oracle文書](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## 右トリミング {#rightTrim}
 
