@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 96%
 
 ---
@@ -655,13 +655,12 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> 2 番目の引数として使用される正規表現式が特殊な正規表現文字の場合は、ダブルバックスラッシュ (`//`) を使用して、このような場合に対処します。
->
-> 特殊正規表現文字 [., +, *, ?, ^, $, (, ) のリスト [, ], {, }, |, \.]
+> 2 番目の引数として使用される式が特殊な正規表現文字の場合は、ダブルバックスラッシュ (`//`) をクリックします。  特殊正規表現文字は次のとおりです。[., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> これは、 [Oracle文書](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> 詳しくは、 [Oracle文書](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## 右トリミング {#rightTrim}
 
