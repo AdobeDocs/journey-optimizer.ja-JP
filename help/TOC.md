@@ -379,7 +379,7 @@ ht-degree: 99%
             + [決定ルールの更新](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [決定ルールの削除](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + コレクション修飾子 {#tags}
-            + [コレクション修飾子の一覧表示](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [コレクション修飾子の参照](using/offers/api-reference/offers-api/tags/lookup.md)
             + [コレクション修飾子の作成](using/offers/api-reference/offers-api/tags/create.md)
             + [コレクション修飾子の更新](using/offers/api-reference/offers-api/tags/update.md)

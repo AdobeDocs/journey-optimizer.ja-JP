@@ -10,7 +10,7 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 9%
 
 <!--To send in feedback data, you must define how the experience events will be captured.-->
 
-判定イベント以外のイベントタイプに関するフィードバックを得るには、 **エクスペリエンスイベント** Adobe Experience Platformに送られる
+決定イベントタイプ以外のイベントタイプに関するフィードバックを取得できるようにするには、Adobe Experience Platform に送信される&#x200B;**エクスペリエンスイベント**&#x200B;で、各イベントタイプに正しい値を設定する必要があります。
 
-各イベントタイプで、データセットで使用されるスキーマに **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** 関連付けられているフィールドグループ。 [詳細情報](create-dataset.md)
+イベントタイプごとに、データセットで使用されるスキーマに、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループが関連付けられていることを確認してください。[詳細情報](create-dataset.md)
 
-JavaScript コードに実装する必要があるスキーマ要件を以下に示します。
+JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
 
 >[!NOTE]
 >
->決定管理はこれらのイベントを自動的に生成し、それらを **[!UICONTROL ODE DecisionEvents]** データセット<!--to check--> 自動生成された
+>決定イベントは意思決定管理により自動的に生成され、自動生成される **[!UICONTROL ODE DecisionEvents]** データセット<!--to check-->に配置されるので、これらのイベントを送信する必要はありません。
 
 ## インプレッションの追跡
 
 イベントタイプとソースが次のようになっていることを確認します。
 
-**エクスペリエンスのイベントタイプ：** `decisioning.propositionDisplay`
-**ソース：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) またはバッチ取得
+**エクスペリエンスイベントタイプ：** `decisioning.propositionDisplay`
+**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
 +++**サンプルペイロード：**
 
 ```
@@ -66,8 +66,8 @@ JavaScript コードに実装する必要があるスキーマ要件を以下に
 
 イベントタイプとソースが次のようになっていることを確認します。
 
-**エクスペリエンスのイベントタイプ：** `decisioning.propositionInteract`
-**ソース：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) またはバッチ取得
+**エクスペリエンスイベントタイプ：** `decisioning.propositionInteract`
+**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
 +++**サンプルペイロード：**
 
 ```
@@ -98,7 +98,7 @@ JavaScript コードに実装する必要があるスキーマ要件を以下に
 
 ## カスタムイベントの追跡
 
-カスタムイベントの場合、データセットで使用されるスキーマにも **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** フィールドグループに関連付けられていますが、これらのイベントのタグ付けに使用する必要があるエクスペリエンスイベントタイプに関する特定の要件はありません。
+カスタムイベントの場合、データセットで使用されるスキーマには、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループも関連付けられている必要がありますが、これらのイベントのタグ付けに使用する必要があるエクスペリエンスイベントタイプに関する特定の要件はありません。
 
 <!--
 ## Using a ranking strategy {#using-ranking}

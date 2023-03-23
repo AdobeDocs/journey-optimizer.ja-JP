@@ -9,7 +9,7 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 96%
 
 * **[!UICONTROL プレースメント]**：オファーを表示するプレースメントを作成および管理します。詳細は[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
 
-* **[!UICONTROL コレクション修飾子]**:コレクション修飾子（旧称「タグ」）を作成および管理して、オファーを整理およびフィルタリングします。 詳しくは、 [コレクション修飾子の作成](../offer-library/creating-tags.md).
+* **[!UICONTROL コレクション修飾子]**：コレクション修飾子（旧称「タグ」）を作成および管理して、オファーを整理およびフィルタリングします。詳しくは、[コレクション修飾子の作成](../offer-library/creating-tags.md)を参照してください。
 
 * **[!UICONTROL ルール]**：オファーが提示される条件を管理します。詳細は[決定ルールの作成](../offer-library/creating-decision-rules.md)を参照してください。
 

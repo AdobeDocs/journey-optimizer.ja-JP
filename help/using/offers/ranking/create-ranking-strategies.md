@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 AI モデルを作成するには、次の手順を行います。
 
-1. コンバージョンイベントを収集するデータセットを作成します。 [方法についてはこちらを参照](../data-collection/create-dataset.md)
+1. コンバージョンイベントが収集されるデータセットを作成します。[方法についてはこちらを参照](../data-collection/create-dataset.md)
 
 1. **[!UICONTROL コンポーネント]**&#x200B;メニューで、「**[!UICONTROL ランキング]**」タブに移動し、「**[!UICONTROL AI モデル]**」を選択します。
 
@@ -80,6 +80,6 @@ AI モデルを作成するには、次の手順を行います。
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-これで、オファーが表示またはクリックされるたびに、対応するイベントが **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** フィールドグループを [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK。
+これで、オファーが表示およびクリックされるたびに、対応するイベントが [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK を使用し、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループによって自動的にキャプチャされるようにします。
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。[方法についてはこちらを参照](../data-collection/schema-requirement.md)

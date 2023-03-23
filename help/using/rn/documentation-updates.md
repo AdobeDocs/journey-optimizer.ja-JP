@@ -18,7 +18,7 @@ ht-degree: 98%
 ## 2023年3月 {#march-2023}
 
 * ジャーニーでAdobe Analyticsイベントを有効にする手順を追加しました。 [詳細情報](../event/about-analytics.md)
-* 意思決定管理ガイドに、表示されるオファーやユーザーの操作方法など、Adobe Experience Platform でオファー決定支援フィードバックを収集する方法に関する新しい節を作成しました。[詳細情報](../offers/data-collection/data-collection.md)
+* Adobe Experience Platform でオファー決定支援フィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、意思決定管理ガイドに作成されました。 [詳細情報](../offers/data-collection/data-collection.md)
 
 ## 2023年2月 {#feb-2023}
 

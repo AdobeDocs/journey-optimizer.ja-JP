@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 71%
 このドキュメントの内容は次のとおりです。
 
 * [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
-* [最初の構成ワークフローを作成する](create-compositions.md)
+* [最初のコンポジションワークフローの作成](create-compositions.md)
 * [コンポジションキャンバスの操作](composition-canvas.md)
 * **[オーディエンスへのアクセスと管理](access-audiences.md)**
 
 >[!ENDSHADEBOX]
 
-オーディエンスの構成から生成されたオーディエンスには、 **[!UICONTROL 参照]** 」タブをクリックします。 **[!UICONTROL セグメント]** メニュー
+オーディエンスコンポジションから生成されたオーディエンスには、**[!UICONTROL セグメント]**&#x200B;メニューの「**[!UICONTROL 参照]**」タブからアクセスできます。
 
 このタブには、Adobe Experience Platform に保存されているすべてのオーディエンスが一覧表示されます。オーディエンスコンポジションを使用して作成されたオーディエンスは、**[!UICONTROL オーディエンスコンポジション]**&#x200B;オリジンによって識別できます。
 

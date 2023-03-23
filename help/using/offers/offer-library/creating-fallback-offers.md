@@ -8,7 +8,7 @@ exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 90%
 
    ![](../assets/create_fallback.png)
 
-1. フォールバックオファーの名前を指定します。また、1 つまたは複数の既存のコレクション修飾子（旧称：「タグ」）を関連付けることもできます。これにより、オファーライブラリをより簡単に検索および整理できます。
+1. フォールバックオファーの名前を指定します。また、既存の 1 つまたは複数のコレクション修飾子（旧称「タグ」）を関連付けることで、オファーライブラリの検索と整理がしやすくなります。
 
    ![](../assets/fallback_details.png)
 

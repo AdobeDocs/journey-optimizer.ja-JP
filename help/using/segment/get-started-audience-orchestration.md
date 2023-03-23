@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 66%
 このドキュメントの内容は次のとおりです。
 
 * **[オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)**
-* [最初の構成ワークフローを作成する](create-compositions.md)
+* [最初のコンポジションワークフローの作成](create-compositions.md)
 * [コンポジションキャンバスの操作](composition-canvas.md)
 * [オーディエンスへのアクセスと管理](access-audiences.md)
 
@@ -38,7 +38,7 @@ ht-degree: 66%
 
 >[!AVAILABILITY]
 >
->オーディエンス構成は現在、プライベートベータ版としてのみ利用可能で、予告なく頻繁に更新される場合があります。ベータ版は IMS 組織レベルでプロビジョニングされます。つまり、組織内のすべてのサンドボックスに影響を与えます。
+>オーディエンス構成は現在、プライベートベータ版としてのみ利用可能で、予告なく頻繁に更新される場合があります。ベータ版は IMS 組織レベルでプロビジョニングされるので、組織内のすべてのサンドボックスに影響します。
 
 オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
@@ -50,21 +50,21 @@ ht-degree: 66%
 >
 >コンポジションワークフローから生じるオーディエンスは、Journey Optimizer キャンペーンのみをターゲットにすることができます。ジャーニーでは使用できません。
 
-オーディエンス構成はAdobe Journey Optimizerからアクセス可能 **[!UICONTROL セグメント]** メニュー：
+オーディエンスコンポジションには、Adobe Journey Optimizer の&#x200B;**[!UICONTROL セグメント]**&#x200B;メニューからアクセスできます。
 
 ![](assets/audiences-browse.png)
 
-* この **[!UICONTROL 概要]** 「 」タブには、組織のセグメントデータに関連する主要指標が表示される専用のダッシュボードが表示されます。 詳しくは、 [Adobe Experience Platform Dashboards ガイド](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
+* 「**[!UICONTROL 概要]**」タブには、組織のセグメントデータに関連する主要指標を含む専用のダッシュボードが表示されます。 詳しくは、[Adobe Experience Platform のダッシュボードガイド](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=ja)を参照してください。
 
-* この **[!UICONTROL 参照]** 「 」タブには、Adobe Experience Platformに保存されている既存のオーディエンスがすべて表示されます。
+* 「**[!UICONTROL 参照]**」タブには、Adobe Experience Platform に保存されている既存のオーディエンスがすべて表示されます。
 
 * 「**[!UICONTROL コンポジション]**」タブを使用すると、オーディエンスを組み合わせて新しいオーディエンスを作成するコンポジションワークフローを作成できます。
 
-各カードをクリックして、オーディエンスの構成を使用する方法を確認してください。
+各カードをクリックして、オーディエンスコンポジションを使用する方法を確認してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="create-compositions.md"><img alt="コンポジションワークフローの作成" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong>最初の構成ワークフローを作成する</strong></a></div></td>
+<div><a href="create-compositions.md"><strong>最初のコンポジションワークフローの作成</strong></a></div></td>
 <td><a href="composition-canvas.md"><img alt="コンポジションキャンバスの操作" src="../assets/do-not-localize/ao-canvas.jpg"></a>
 <div><a href="composition-canvas.md"><strong>コンポジションキャンバスの操作</strong></a></div></td>
 <td><a href="access-audiences.md"><img alt="オーディエンスへのアクセスと管理" src="../assets/do-not-localize/ao-audiences.jpeg"></a>

@@ -1,6 +1,6 @@
 ---
 title: コレクション修飾子の検索
-description: コレクション修飾子を使用すると、オファーをより整理および並べ替えることができます。
+description: コレクション修飾子を使用すると、オファーをより適切に整理し並べ替えることができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,13 +9,13 @@ exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 # コレクション修飾子の検索 {#look-up-tag}
 
-特定のコレクション修飾子（旧称：「タグ」）を検索するには、 [!DNL Offer Library] コレクション修飾子のいずれかを含む API `@id` またはリクエストパスのコレクション修飾子の名前。
+特定のコレクション修飾子（旧称「タグ」）を検索するには、リクエストパスにコレクション修飾子 `@id` またはコレクション修飾子の名前を含んだ GET リクエストを [!DNL Offer Library] API に対して実行します。
 
 **API 形式**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答は、コンテナ ID、インスタンス ID、一意のコレクション修飾子に関する情報を含む、コレクション修飾子の詳細を返します `@id`.
+正常な応答では、コレクション修飾子の詳細（コンテナ ID、インスタンス ID、一意のコレクション修飾子 `@id` に関する情報を含む）が返されます。
 
 ```json
 {

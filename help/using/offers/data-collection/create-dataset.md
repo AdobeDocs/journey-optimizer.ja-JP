@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->でのスキーマ構築の詳細 [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target="_blank"}.
+>スキーマの構築について詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas)で説明します{target="_blank"}。
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 
@@ -79,4 +79,4 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->このデータセットを選択して、 [ランキング戦略の作成](#create-ranking-strategy).
+>これで、[ランキング戦略の作成](#create-ranking-strategy)時に、イベントデータを収集するデータセットを選択できる状態になりました。

@@ -1,6 +1,6 @@
 ---
 title: データ収集
-description: 決定管理のフィードバックデータ収集の詳細を説明します
+description: 意思決定管理のフィードバックデータ収集の詳細情報
 feature: Offers
 topic: Integrations
 role: User
@@ -8,18 +8,18 @@ level: Intermediate
 source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 3%
+ht-degree: 74%
 
 ---
 
-# 決定管理データ収集 {#data-collection}
+# 意思決定管理データ収集 {#data-collection}
 
 ## データ収集について
 
-表示されるオファーやoffer decisioningとの関わり方など、Adobe Experience Platformでユーザーのフィードバックを収集できます。 このデータは、次の目的で使用できます。
-* 作成中 [決定管理レポート](../reports/get-started-events.md);
-* 使用 [頻度キャップ](../offer-library/add-constraints.md#capping) ルール；
-* 建物 [AI モデル](../ranking/create-ranking-strategies.md) ランキングメソッドとして使用できます。
+Adobe Experience Platform では、表示されるオファーやユーザーの操作方法など、オファー決定支援のフィードバックを収集できます。 このデータは、次の目的で使用できます。
+* [意思決定管理レポート](../reports/get-started-events.md)の作成
+* [フリークエンシーキャップ](../offer-library/add-constraints.md#capping)ルールの使用
+* ランキングメソッドとして使用できる [AI モデル](../ranking/create-ranking-strategies.md)の構築。
 
 ## イベントのタイプ
 
@@ -27,23 +27,23 @@ ht-degree: 3%
 
 ### 決定イベント
 
-決定管理が決定を下すたびに、その決定イベントに関連する情報は次のようになります。 **自動** すべてのチャネルでAdobe Experience Platformに送信されました。 [詳細情報](../reports/get-started-events.md)
+意思決定管理で特定のプロファイルに対する決定が行われるたびに、その意思決定イベントに関連する情報がすべてのチャネルの Adobe Experience Platform へと&#x200B;**自動的に**&#x200B;送信されます。[詳細情報](../reports/get-started-events.md)
 
 ### インプレッションとクリックイベント
 
-決定管理のインプレッションおよびクリック数は、次のように定義されます。
+意思決定管理のインプレッションおよびクリック数は、次のように定義されます。
 
-* An **impression** イベントとは、オファーがユーザーに表示されるときです。
+* **インプレッション**&#x200B;イベントとは、オファーがユーザーに表示される時のイベントです。
 
-* A **クリック** イベントとは、ユーザーがオファーをクリックまたは操作したときのことです。
+* **クリック**&#x200B;イベントとは、ユーザーがオファーをクリックまたは操作した時のイベントです。
 
-インプレッション数およびクリック数に関するフィードバックは、 [!DNL Journey Optimizer] 使用されるチャネル。
+インプレッション数およびクリック数に関するフィードバックは、使用される [!DNL Journey Optimizer] チャネルによってキャプチャされます。
 
 **電子メール** 作成者： [!DNL Journey Optimizer] **自動** インプレッション数およびクリック数を追跡します。
 
 しかし、 **ほとんどのチャネル** Adobe Experience Platformにインプレッション数とクリック数のデータをとして送信する必要がある **エクスペリエンスイベント**. これには以下が含まれます。
 
-* Web ページ [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} オファーをレンダリング
+* Web ページ の使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} オファーをレンダリング
 
 * モバイルアプリ [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * キオスク
@@ -56,13 +56,13 @@ ht-degree: 3%
 
 ### カスタムイベント
 
-オファーに関連付けられたカスタムイベントに関するフィードバックは、独自の設定に従ってAdobe Experience Platformに送信できます。 例えば、1 つのオファーに複数のボタン ( *関心あり*, *興味なし*&#x200B;などのイベントを個別に送信する場合もありますが、エクスペリエンスイベントとして送信することもできます。 <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+オファーに関連付けられたカスタムイベントに関するフィードバックは、独自の環境設定に従って Adobe Experience Platform に送信できます。例えば、1 つのオファーに複数のボタン（*興味あり*、*興味なし*&#x200B;など）がある場合、イベントを個別に送信することもありますが、エクスペリエンスイベントとして送信することもできます。<!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
 
 ## フィードバックデータの送信
 
-フィードバックデータを送信するには、イベントを収集するデータセットを作成し、各イベントタイプに対して、Adobe Experience Platformに送信するエクスペリエンスイベントを定義する必要があります。
+フィードバックデータを送信するには、イベントを収集するデータセットを作成し、各イベントタイプに対して、Adobe Experience Platform に送信するエクスペリエンスイベントを定義する必要があります。
 
-* エクスペリエンスイベントが収集されるデータセットを作成する方法を説明します。 [この節](create-dataset.md).
+* エクスペリエンスイベントが収集されるデータセットを作成する方法について詳しくは、[この節](create-dataset.md)を参照してください。
 
-* フィードバックデータを送信するエクスペリエンスイベントを定義する方法について説明します。 [この節](schema-requirement.md).
+* フィードバックデータで送信するエクスペリエンスイベントを定義する方法について詳しくは、[この節](schema-requirement.md)を参照してください。
 

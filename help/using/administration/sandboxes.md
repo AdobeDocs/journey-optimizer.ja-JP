@@ -58,7 +58,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
    ![](assets/sandbox_3.png)
 
-1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で横の X アイコンをクリックすると、**[!UICONTROL 製品プロファイル]**&#x200B;に対する権限を削除できます。
+1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で、アクセスを削除するサンドボックスの横の X アイコンをクリックして、**[!UICONTROL 製品プロファイル]**&#x200B;に対する権限を削除します。
 
    ![](assets/sandbox_4.png)
 

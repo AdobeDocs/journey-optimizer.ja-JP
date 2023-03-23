@@ -1,6 +1,6 @@
 ---
 title: コレクション修飾子の更新
-description: コレクション修飾子を使用すると、オファーをより整理および並べ替えることができます。
+description: コレクション修飾子を使用すると、オファーをより適切に整理し並べ替えることができます。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,13 +9,13 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # コレクション修飾子の更新 {#update-collection-qualifier}
 
-コンテナ内の収集修飾子（旧称「タグ」）を変更または更新するには、 [!DNL Offer Library] API
+[!DNL Offer Library] APIに対して PATCH リクエストを実行することで、コンテナ内のコレクション修飾子 （旧称「タグ」）を変更または更新できます。
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
 
@@ -68,7 +68,7 @@ curl -X PATCH \
 
 **応答**
 
-正常な応答は、コレクション修飾子の更新された詳細（一意のインスタンス ID とコレクション修飾子を含む）を返します `@id`.
+正常な応答では、コレクション修飾子の更新された詳細（一意のインスタンス ID とコレクション修飾子 `@id` を含む）が返されます。
 
 ```json
 {

@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
 source-wordcount: '2323'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 73%
 
 * オファーは、「ゴールドロイヤルティ顧客」決定ルールに一致するユーザーに対してのみ考慮されます。
 * オファーの優先度は「50」に設定されています。つまり、このオファーは優先度が 1～49 のオファーより先に、優先度が 51 以上のオファーより後に表示されます。
-* オファーは、すべてのプレースメントをまたいで、ユーザーごとに 1 ヶ月に 1 回のみ表示されます。
+* オファーは、すべてのプレースメントをまたいで、ユーザーごとに月に 1 回だけ提示されます。
 
 ## 実施要件 {#eligibility}
 
@@ -99,7 +99,7 @@ ht-degree: 73%
 
    >[!CAUTION]
    >
-   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。次に基づいて決定ルールを作成する場合： [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に値を入力しない場合、オファーで活用することはできません。
+   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
 
 セグメントまたは決定ルールを選択すると、推定される認定プロファイルに関する情報を表示できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
@@ -138,7 +138,7 @@ ht-degree: 73%
 >id="ajo_decisioning_capping"
 >title="キャッピングの使用"
 >abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる回数の上限を定義します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="日付を変更すると、キャッピングに影響を与える場合があります"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=ja#capping-change-date" text="日付を変更すると、キャッピングに影響を与える場合があります"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
@@ -148,7 +148,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="インプレッション"
->abstract="インプレッション数をキャッピングイベントとして使用することは、インバウンドチャネルでのみ可能です。"
+>abstract="キャッピングイベントとしてのインプレッションの使用は、インバウンドチャネルでのみ使用できます。"
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
@@ -156,19 +156,19 @@ ht-degree: 73%
 
 キャッピングを設定するには、次の主な手順に従います。
 
-1. 次を確認します。 **[!UICONTROL 制限を含める]** 切り替えボタンがオンになっている。 キャッピングはデフォルトで含まれています。
+1. **[!UICONTROL キャッピングを含める]**&#x200B;切り替えボタンが選択されていることを確認します。キャッピングはデフォルトで含まれています。
 
    >[!CAUTION]
    >
-   >以前に作成したオファーの頻度キャップを有効または無効にすることはできません。 これをおこなうには、オファーを複製するか、新しく作成する必要があります。
+   >以前に作成したオファーのフリークエンシーキャップを有効または無効にすることはできません。 これを行うには、オファーを複製するか、新しく作成する必要があります。
 
-1. 定義する **[!UICONTROL キャッピングイベント]** が考慮され、カウンターが増加します。 [詳細情報](#capping-event)
+1. カウンターを増やすために、どの&#x200B;**[!UICONTROL キャッピングイベント]**&#x200B;を考慮するかを定義します。[詳細情報](#capping-event)
 
-1. オファーを提示できる回数を設定します。 [詳細情報](#capping-count)
+1. オファーを提示できる回数を設定します。[詳細情報](#capping-count)
 
-1. すべてのユーザーに対してキャッピングを適用するか、1 つのプロファイルにのみ適用するかを選択します。 [詳細情報](#capping-type)
+1. キャッピングをすべてのユーザーに適用するか、1 つのプロファイルのみに適用するかを選択します。[詳細情報](#capping-type)
 
-1. を **[!UICONTROL 頻度]** を使用して、キャッピングカウントをリセットする頻度を定義します。 [詳細情報](#frequency-capping)
+1. 「**[!UICONTROL 頻度]**」を設定して、キャッピングカウントをリセットする頻度を定義します。 [詳細情報](#frequency-capping)
 
 1. オファーの複数の[表示域](add-representations.md)を定義した場合、キャッピングを「**[!UICONTROL すべてのプレースメントで]**」または「**[!UICONTROL プレースメントごとに]**」適用するかどうかを指定します。[詳細情報](#placements)
 
@@ -184,44 +184,44 @@ E メールの準備時に、オファーが提案された回数が計算され
 
 ### キャッピングイベント {#capping-event}
 
-この **[!UICONTROL キャッピングイベント]** 「 」フィールドでは、 **[!UICONTROL キャッピングイベント]** が考慮されてカウンターが増加します。
+**[!UICONTROL キャッピングイベント]**&#x200B;フィールドでは、カウンターを増やすためにどの&#x200B;**[!UICONTROL キャッピングイベント]**&#x200B;を考慮するかを定義できます。
 
 ![](../assets/offer-capping-event.png)
 
-* **[!UICONTROL 決定イベント]** （デフォルト値）:オファーを提示できる最大回数。
-* **[!UICONTROL インプレッション]**:ユーザーに対してオファーを表示できる最大回数。
+* **[!UICONTROL 決定イベント]**（デフォルト値）：1 つのオファーを提示できる最大回数。
+* **[!UICONTROL インプレッション]**：1 人のユーザーに対してオファーを表示できる最大回数。
 
    >[!NOTE]
    >
-   >上限イベントとしてのインプレッションの使用は、 **インバウンドチャネル** のみ。
+   >インプレッションをキャッピングイベントとして使用できるのは、**インバウンドチャネル**&#x200B;のみです。
 
-* **[!UICONTROL クリック数]**:ユーザーがオファーをクリックできる最大回数。
-* **[!UICONTROL カスタムイベント]**:送信されるオファーの数を制限するために使用されるカスタムイベントを定義できます。 例えば、償還回数を10000に等しくなるまで、または特定のプロファイルが 1 回引き換えられるまでに制限できます。 これをおこなうには、 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
+* **[!UICONTROL クリック数]**：ユーザーがオファーをクリックできる最大回数。
+* **[!UICONTROL カスタムイベント]**：送信されるオファーの数の制限に使用するカスタムイベントを定義できます。 例えば、引き換え回数が 10000 になるまで、または特定のプロファイルが 1 回引き換えられるまでに引き換え回数を制限できます。これを行うには、[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
    次の例では、チェックアウト数を制限します。
 
-   1. 選択 **[!UICONTROL カスタムイベント]** リストから、 **[!UICONTROL カスタムイベントを追加]** 」ボタンをクリックします。
+   1. リストから&#x200B;**[!UICONTROL カスタムイベント]**&#x200B;を選択し、「**[!UICONTROL カスタムイベントを追加]**」ボタンを使用します。
 
       ![](../assets/offer-capping-custom-event-add.png)
 
-   1. 以下を使用： **[!UICONTROL カスタムイベントルールの作成]** ビルダーを使用して関連イベントを選択します。 オファーを制限する任意のユーザーアクションを選択できます。
+   1. **[!UICONTROL カスタムイベントルールを作成]**&#x200B;ビルダーを使用して、関連イベントを選択します。 オファーを制限するユーザーアクションを選択できます。
 
-      ここで選択 **[!UICONTROL コマース]** > **[!UICONTROL チェックアウト]** > **[!UICONTROL 値]** を選択し、 **[!UICONTROL 存在する]** 」を選択します。
+      **[!UICONTROL Commerce]**／**[!UICONTROL チェックアウト]**／**[!UICONTROL 値]**&#x200B;を選択し、ドロップダウンリストから「**[!UICONTROL 存在する]**」を選択します。
 
       ![](../assets/offer-capping-custom-event.png)
 
-   1. ルールを作成すると、そのルールは「 **[!UICONTROL カスタムイベントクエリ]** フィールドに入力します。
+   1. ルールが作成されると、**[!UICONTROL カスタムイベントクエリ]**&#x200B;フィールドに表示されます。
 
       ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
-   >判定イベントを除くすべての制限イベントについて、判定管理のフィードバックが自動的に収集されない場合があるので、データが送信されることを確認してください。 [データ収集の詳細を説明します](../data-collection/data-collection.md)
+   >決定イベントを除くすべてのキャッピングイベントでは、意思決定管理のフィードバックが自動的に収集されない場合があるので、データを受信していることを確認してください。 [データ収集についての詳細](../data-collection/data-collection.md)
 
-### キャッピング数 {#capping-count}
+### キャッピングカウント {#capping-count}
 
-この **[!UICONTROL キャッピング数]** 「 」フィールドでは、オファーを提示できる回数を指定できます。
+**[!UICONTROL キャッピングカウント]**&#x200B;フィールドでは、オファーを提示できる回数を指定できます。
 
 ![](../assets/offer-capping-times.png)
 
@@ -229,11 +229,11 @@ E メールの準備時に、オファーが提案された回数が計算され
 >
 >数値は 0 より大きい整数にする必要があります。
 
-例えば、チェックアウト数などのカスタムキャッピングイベントを定義したとします。 「 **[!UICONTROL キャッピング数]** 「 」フィールドに値を入力すると、10 件のチェックアウト後はこれ以上オファーが送信されなくなります。
+例えば、チェックアウト数が考慮されるなどのカスタムキャッピングイベントを定義したとします。 **[!UICONTROL キャッピングカウント]**&#x200B;フィールドに 10 を入力すると、10 件のチェックアウト後はこれ以上オファーが送信されなくなります。
 
 ### キャッピングのタイプ {#capping-type}
 
-また、すべてのユーザーに対してキャッピングを適用するか、1 つの特定のプロファイルに対してキャッピングを適用するかを指定することもできます。
+キャッピングを適用する対象を、すべてのユーザーか、1 つの特定のプロファイルかに指定することもできます。
 
 ![](../assets/offer-capping-total.png)
 
@@ -247,19 +247,19 @@ E メールの準備時に、オファーが提案された回数が計算され
 
 ### フリークエンシーキャップ {#frequency-capping}
 
-この **[!UICONTROL 頻度]** 「 」セクションでは、キャッピング数をリセットする頻度を定義できます。 これをおこなうには、カウントの期間（日単位、週単位、月単位）を定義し、日数/週数/月数を入力します。
+「**[!UICONTROL 頻度]**」セクションでは、キャッピングカウントをリセットする頻度を定義できます。 これを行うには、カウントの期間（毎日、毎週、毎月）を定義し、選択した日／週／月の数を入力します。
 
 ![](../assets/offer-capping-frequency.png)
 
 >[!NOTE]
 >
->リセットは、定義した日（UTC で午前 12 時）、または該当する週や月の最初の日に発生します。 週の開始日は日曜日です。 選択した期間は、2 年を超えることはできません（つまり、対応する月数、週数、日数）。
+>リセットは、定義した日（UTC で午前 12 時）、または該当する場合は週や月の最初の日に発生します。週の開始日は日曜日です。 選択する期間は、2 年（つまり、それに相当する月数、週数、日数）を超えることはできません。
 
-例えば、2 週間ごとに制限数をリセットする場合は、「 **[!UICONTROL 毎週]** から **[!UICONTROL 繰り返し]** ドロップダウンリストとタイプ **2** 他のフィールドに リセットは毎週日曜日の午後 12 時 (UTC) に発生します。
+例えば、キャッピングカウントを 2 週間ごとにリセットする場合は、**[!UICONTROL 繰り返し]**&#x200B;ドロップダウンリストから「**[!UICONTROL 毎週]**」を選択し、他のフィールドに「**2**」と入力します。リセットは毎週日曜日の午後 12 時（UTC）に発生します。
 
 >[!CAUTION]
 >
->オファーを保存すると、頻度に選択した期間（月、週、日）を変更できなくなります。
+>オファーを保存すると、頻度に選択した期間（毎月、毎週、毎日）を変更できなくなります。
 
 ### キャッピングと配置 {#placements}
 
