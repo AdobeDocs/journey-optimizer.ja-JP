@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 759ad1d84d9a74584c6a3d59450e4aa5af641442
+source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1342'
 ht-degree: 99%
 
 ---
@@ -446,7 +446,7 @@ ht-degree: 99%
          + 単一イベントの設定 {#unitary-events}
             + [単一イベントの基本を学ぶ](using/event/about-creating.md)
             + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
-            + [Adobe Analytics の活用](using/event/about-analytics.md)
+            + [Adobe Analyticsの操作](using/event/about-analytics.md)
          + [ビジネスイベントの設定](using/event/about-creating-business.md)
          + [イベントを送信するための手順](using/event/additional-steps-to-send-events-to-journey.md)
       + データソース設定{#data-source-journeys}

@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
+source-git-commit: 371bd375d2c93b0694fa7eaf148f5c0793d59c8e
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 99%
+source-wordcount: '2399'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 99%
 
 ## 2023年3月 {#march-2023}
 
+* ジャーニーでAdobe Analyticsイベントを有効にする手順を追加しました。 [詳細情報](../event/about-analytics.md)
 * 意思決定管理ガイドに、表示されるオファーやユーザーの操作方法など、Adobe Experience Platform でオファー決定支援フィードバックを収集する方法に関する新しい節を作成しました。[詳細情報](../offers/data-collection/data-collection.md)
 
 ## 2023年2月 {#feb-2023}

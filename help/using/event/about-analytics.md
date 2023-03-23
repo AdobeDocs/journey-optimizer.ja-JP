@@ -2,33 +2,43 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics の統合
-description: Adobe Analytics データの活用方法について説明します
+description: Adobe Analytics データの活用方法について説明します Journey Optimizer
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 43%
 
 ---
 
-# Adobe Analytics の統合 {#analytics-data}
+# Adobe Analyticsデータの操作 {#analytics-data}
 
-## Adobe Analytics または Web SDK データの活用 {#leverage-analytics-data}
+ジャーニーをトリガーし、顧客に対するエクスペリエンスを自動化するために、Adobe Analyticsまたは Web SDK を通じて既に取り込んでいるすべての Web 行動イベントデータを活用し、Adobe Experience Platformにストリーミングできます。
 
-ジャーニーをトリガーし顧客向けのエクスペリエンスを自動化するために、既にキャプチャして Adobe Experience Platform にストリーミングしている web のあらゆる行動イベントデータを（Adobe Analytics または Web SDK を介して）活用できます。
+これをAdobe Analyticsで機能させるには、以下をおこなう必要があります。
+
+1. 使用するレポートスイートをアクティブ化します。 [詳細情報](#leverage-analytics-data)
+1. Journey OptimizerでAdobe Analyticsデータソースを使用できるようにします。 [詳細情報](#activate-analytics-data)
+1. ジャーニーに特定のイベントを追加します。 [詳細情報](#event-analytic)
 
 >[!NOTE]
 >
->この節は、ルールベースのイベントと、Adobe Analytics または Web SDK データを使用する必要があるお客様が対象です。
+>この節の説明は、ルールベースのイベントと、Adobe Analyticsまたは Web SDK データを使用する必要があるお客様にのみ当てはまります。
+> 
+>Adobe Customer Journey Analyticsを使用している場合は、 [このページ](../reports/cja-ajo.md).
 
-Adobe Analytics と連携させるには、利用するレポートスイートを Adobe Experience Platform で有効化する必要があります。これを行うには、以下の手順に従います。
+## Adobe Analyticsまたは Web SDK データの設定 {#leverage-analytics-data}
 
-1. Adobe Experience Platform に接続し、**[!UICONTROL ソース]**&#x200B;を参照します。
+Adobe AnalyticsまたはAdobe Experience Platform Web SDK からのデータをジャーニーで使用するには、有効にする必要があります。
+
+これを行うには、以下の手順に従います。
+
+1. 次を参照： **[!UICONTROL ソース]** メニュー
 
 1. 「Adobe Analytics」セクションで、「**[!UICONTROL データを追加]**」を選択します。
 
@@ -52,14 +62,31 @@ Adobe Analytics と連携させるには、利用するレポートスイート�
 
 Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"}を参照してください。
 
+## この設定を有効化 {#activate-analytics-data}
+
+この設定が完了したら、Adobeに連絡して、Journey Optimizer環境でこのデータソースを使用できるようにします。 この手順は、Adobe Analyticsデータソースに対してのみ必要です。 次の手順を実行します。
+
+1. データソース ID を取得します。 この情報は、ユーザーインターフェイスで使用できます。から作成したデータソースを参照します。 **データフロー** タブ **ソース** メニュー これを見つける最も簡単な方法は、Adobe Analyticsのソースをフィルタリングすることです。
+1. 次の詳細については、Adobeカスタマーケアにお問い合わせください。
+
+   * 件名：ジャーニーに対するAdobe Analyticsイベントの有効化
+
+   * コンテンツ：環境で AA イベントを使用できるようにしてください。
+
+      * 組織 ID :&quot;XXX@AdobeOrg&quot;
+
+      * データソース ID:&quot;ID:xxxxx&quot;
+
+1. 環境の準備が整ったことを確認したら、ジャーニーでAdobe Analyticsデータを使用できます。
+
 ## Adobe Analytics または Web SDK データを使用したイベントでのジャーニーの作成 {#event-analytics}
 
-[Adobe Analytics ソース](#leverage-analytics-data)または [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用して Adobe Analytics との統合を実装したら、後でジャーニーで使用できるイベントを作成できます。
+Adobe AnalyticsまたはAdobe Experience Platform Web SDK データに基づいてイベントを作成し、ジャーニーで使用できるようになりました。
 
-この例では、製品を買い物かごに追加したユーザーをターゲットにします。
+次の例では、買い物かごに製品を追加したユーザーをターゲットにする方法を説明します。
 
-* 注文が完了すると、2 日後にフィードバックを求めるフォローアップメールが届きます。
-* 注文が完了していない場合は、注文を完了するように通知するメールが届きます。
+* 注文が完了すると、2 日後にフィードバックを求めるフォローアップ電子メールがユーザーに送信されます。
+* 注文が完了していない場合、注文を完了するように促す電子メールがユーザーに届きます。
 
 1. Adobe Journey Optimizer から、**[!UICONTROL 設定]**&#x200B;メニューにアクセスします。
 
@@ -74,18 +101,20 @@ Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experienc
    * **[!UICONTROL 名前]**：**[!UICONTROL イベント]**&#x200B;の名前をパーソナライズします。
    * **[!UICONTROL タイプ]**：**[!UICONTROL 単一]**&#x200B;タイプを選択します。[詳細情報](../event/about-events.md)
    * **[!UICONTROL イベント ID タイプ]**：**[!UICONTROL ルールベース]**&#x200B;のイベント ID タイプを選択します。[詳細情報](../event/about-events.md#event-id-type)
-   * **[!UICONTROL スキーマ]**：上記の節で作成した Analytics または Web SDK のスキーマを選択します。
+   * **[!UICONTROL スキーマ]**:Analytics または WebSDK のスキーマを選択 [次より前に作成](#leverage-analytics-data).
    * **[!UICONTROL フィールド]**：「ペイロード」フィールドを選択します。[詳細情報](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL イベント ID 条件]**：簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
+   * **[!UICONTROL イベント ID 条件]**:ジャーニーを識別するイベントを識別する条件を定義します。
 
       ここでは、顧客が買い物かごにアイテムを追加すると、イベントがトリガーされます。
-   * **[!UICONTROL プロファイル識別子]**：ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する式を定義します。
+   * **[!UICONTROL プロファイル識別子]**:ペイロードフィールドからフィールドを選択するか、数式を定義して、イベントに関連付けられた人物を識別します。
 
    ![](assets/ajo-aa_6.png)
 
-1. 設定したら、「**[!UICONTROL 保存]**」を選択します。これで、イベントをジャーニーで使用できるようになります。
+1. 設定したら、「**[!UICONTROL 保存]**」を選択します。
 
-1. これで、**[!UICONTROL ジャーニー]**&#x200B;から、ジャーニーの作成を開始できます。詳しくは、[この節](../building-journeys/journey-gs.md)を参照してください。
+イベントの準備が整ったら、それを使用するジャーニーを作成します。
+
+1. 次の **[!UICONTROL ジャーニー]** メニューを開くか、ジャーニーを作成します。 詳しくは、[この節](../building-journeys/journey-gs.md)を参照してください。
 
 1. 以前に設定した Analytics イベントをジャーニーに追加します。
 
@@ -105,6 +134,6 @@ Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experienc
 
 1. 次に、**[!UICONTROL メールアクション]**&#x200B;を追加します。このメールでは、顧客は注文に関するフィードバックを提供するよう求められます。
 
-これで、有効性をテストした後にジャーニーを公開できます。[詳細情報](../building-journeys/publishing-the-journey.md)
+ジャーニーをテストして公開できるようになりました。 [詳細情報](../building-journeys/publishing-the-journey.md)
 
 ![](assets/ajo-aa_7.png)
