@@ -7,7 +7,7 @@ keywords: アプリ内, メッセージ, 設定, プラットフォーム
 badge: label="Beta" type="Informative"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
 ht-degree: 100%
 
