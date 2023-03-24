@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
 ht-degree: 100%
 
