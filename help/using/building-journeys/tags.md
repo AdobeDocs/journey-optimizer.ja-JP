@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー、タグ
 badge: label="Beta" type="Informative"
 source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
 ht-degree: 100%
 
