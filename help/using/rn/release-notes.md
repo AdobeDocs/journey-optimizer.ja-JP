@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
+source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 77%
 
 ---
@@ -89,13 +89,11 @@ ht-degree: 77%
 * ジャーニーキャンバスが強化され、よりシンプルで改善されたユーザーエクスペリエンスが実現しました。 キャンバスの各パスの最後に、空のプレースホルダーが削除されています。 これで、パスの最後にあるアクティビティをドラッグするだけで、アクティビティを追加できます。 <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
 * ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。 「セグメントを読み取り」アクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。
 * インターフェイスを通じて送信されたイベントのみをリッスンするガードレールがテストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。
-* ジャーニーに E メール、SMS、またはプッシュアクションを追加する場合、デフォルトでは、そのチャネルで最後に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
 
-<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
-
-<!--
+<!-- 
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
-
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
     * Use the **Browse** tab to access list of all journeys.
@@ -112,6 +110,10 @@ ht-degree: 77%
 * また、オファー決定支援キャッピングのために、参照する Adobe Experience Platform イベントを選択することもできます。<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 * 配置の作成画面に追加のパラメーターが追加されました。 これを使用すると、1 つのオファーを複数の配置にまたがって複製できるかどうかを制御し、オファーのコンテンツとメタデータを API 応答に含めるかどうかを指定できます。 <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+
+**パーソナライゼーション**
+
+* 式エディターに文字列ベースのプロファイル属性のデフォルトの代替テキストを含めることができるようになりました。 これらの値は、選択した属性が結果を返さない場合に表示されます。 <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
 
 ## 2023年2月リリースノート {#feb-2023}
 
