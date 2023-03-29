@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
+source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
