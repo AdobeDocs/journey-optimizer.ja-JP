@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: アプリ内, メッセージ, 作成, 開始
 badge: label="Beta" type="Informative"
+keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%

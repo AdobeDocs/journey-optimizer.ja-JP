@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 371bd375d2c93b0694fa7eaf148f5c0793d59c8e
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2399'
-ht-degree: 98%
+source-wordcount: '2445'
+ht-degree: 97%
 
 ---
 
@@ -17,8 +17,10 @@ ht-degree: 98%
 
 ## 2023年3月 {#march-2023}
 
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 3 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * ジャーニーでAdobe Analyticsイベントを有効にする手順を追加しました。 [詳細情報](../event/about-analytics.md)
 * Adobe Experience Platform でオファー決定支援フィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、意思決定管理ガイドに作成されました。 [詳細情報](../offers/data-collection/data-collection.md)
+* 新しいサブセクションが **決定を作成** 」の節で、複数の評価条件の違いを順番に説明したり、同時に説明したりできます。 [詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 
 ## 2023年2月 {#feb-2023}
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 99%
+source-wordcount: '1355'
+ht-degree: 98%
 
 ---
 
@@ -221,6 +221,7 @@ ht-degree: 99%
    + [SMS のプレビューとテスト](using/sms/send-sms.md)
    + [SMS オプトアウトの管理](using/sms/sms-opt-out.md)
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
+   + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
 + ダイレクトメール {#direct-mail}
    + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
@@ -440,7 +441,10 @@ ht-degree: 99%
    + [実行アドレスの管理](using/configuration/primary-email-addresses.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
-      + [外部システムとの統合](using/configuration/external-systems.md)
+      + 外部システムとの統合 {#external-systems}
+         + [ジャーニーと外部システムの統合](using/configuration/external-systems.md)
+         + [キャッピング API](using/configuration/capping.md)
+         + [スロットル API](using/configuration/throttling.md)
       + イベント設定 {#events-journeys}
          + [一般原則](using/event/about-events.md)
          + 単一イベントの設定 {#unitary-events}

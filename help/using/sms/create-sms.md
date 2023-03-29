@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 81%
 
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 100%
    ![](assets/sms_create_2.png)
 
    ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
+
+<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 これで、「**[!UICONTROL コンテンツを編集]**」ボタンから SMS メッセージのコンテンツのデザインを開始できます。[SMS コンテンツの定義](#sms-content)
 
@@ -75,7 +77,6 @@ ht-degree: 100%
 
 >[!ENDTABS]
 
-
 ## SMS コンテンツの定義{#sms-content}
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、SMS コンテンツを設定します。
@@ -86,11 +87,24 @@ ht-degree: 100%
 
 1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。プロファイル名や市区町村など、任意の属性を使用できます。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
-1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。
+1. コンテンツを定義した後、メッセージにトラッキング URL を追加できます。 これをおこなうには、 **[!UICONTROL ヘルパー関数]** メニューと選択 **[!UICONTROL ヘルパー]**.
+
+   URL 短縮機能を使用するには、まずサブドメインを設定し、次にサーフェスにリンクする必要があります。 [詳細情報](sms-subdomains.md)
+
+   ![](assets/sms_tracking_1.png)
+
+1. 内 **[!UICONTROL ヘルパー関数]** メニュー、クリック **[!UICONTROL URL 関数]** 次に、 **[!UICONTROL URL を追加]**.
+
+   ![](assets/sms_tracking_2.png)
+
+1. 内 `originalUrl` 「 」フィールドに、短縮する URL を貼り付けます。
+
+1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。以下を使用できます。 **[!UICONTROL コンテンツをシミュレート]** を使用して、短縮 URL またはパーソナライズされたコンテンツをプレビューできます。
 
    ![](assets/sms-content-preview.png)
 
 これで、SMS メッセージをテストしてオーディエンスに送信できます。[詳細情報](send-sms.md)
+送信後は、キャンペーンまたはジャーニーレポート内での SMS の影響を測定できます。 レポートについて詳しくは、[この節](../reports/campaign-global-report.md#sms-tab)を参照してください。
 
 >[!NOTE]
 >

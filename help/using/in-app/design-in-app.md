@@ -5,11 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: アプリ内, メッセージ, デザイン, 書式設定
 badge: label="Beta" type="Informative"
+keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
-workflow-type: ht
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 メッセージのコンテンツを設定するには、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックし、画面の右側のセクションにあるオプションを使用して、アプリ内メッセージコンテンツをデザインします。
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 **[!UICONTROL 詳細フォーマット]**&#x200B;の切り替えにより、エクスペリエンスをカスタマイズするための追加オプションがアクティブになります。
 

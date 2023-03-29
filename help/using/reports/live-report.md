@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1052'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,8 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。ウィジェットを変更して影響を受けるのは、現在のユーザーのダッシュボードのみです。他のユーザーには、各自のダッシュボードまたはデフォルトで設定されたダッシュボードが表示されます。
 
+1. 次の **[!UICONTROL アクション]** 」ドロップダウンで、ジャーニーの特定のアクションをレポートするかどうかを選択します。
+
 1. 切り替えバーを使用して、レポートからテストイベントを除外する場合に選択します。テストイベントについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
    「**[!UICONTROL テストイベントの除外]**」オプションは、ジャーニーレポートでしか使用できません。
@@ -56,6 +58,10 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
    ![](assets/report_modify_9.png)
 
 1. ウィジェットの表示順とサイズが定まったら、「**[!UICONTROL 保存]**」をクリックします。
+
+1. データの表示方法をカスタマイズするには、グラフ、テーブル、ドーナツグラフなど、様々なビジュアライゼーションオプションから切り替えます。
+
+   ![](assets/report_modify_11.png)
 
 ダッシュボードが保存されました。様々な変更は、後でライブレポートを使用する際にも再度適用されます。必要に応じて、「**[!UICONTROL リセット]**」オプションを使用して、デフォルトのウィジェットとそれらのデフォルト順序に戻します。
 

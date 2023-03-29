@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +47,12 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 
 ![](assets/journey39.png)
+
+この **ツールバー**&#x200B;はキャンバスの右上隅にあり、グリッドの表示/非表示、ズームイン/ズームアウトおよびキャンバスのスクリーンショットのダウンロードを行うことができます。 この[節](../building-journeys/journey-gs.md#timeout_and_error)を参照してください。
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 パレット内のアクティビティをクリックすると、**アクティビティ設定ペイン**が表示されます。
 必須のフィールドに入力します。「**[!UICONTROL 削除]**」アイコンをクリックして、アクティビティを削除します。「**[!UICONTROL キャンセル]** 」をクリックして変更をキャンセルするか、 「**[!UICONTROL OK]**」をクリックして変更を確定します。アクティビティを削除するには、アクティビティ（1 つまたは複数）を選択して BackSpace キーを押します。アクティビティ設定ペインを閉じるには、Esc キーを押します。

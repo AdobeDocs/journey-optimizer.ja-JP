@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 100%
 * **セグメントの選定**（最初のノード）で選択されたセグメントと名前空間を、新しいバージョンで変更することはできません。
 * 再エントリのルールは、ジャーニーのすべてのバージョンで同じにする必要があります。
 * **セグメントの読み取り**&#x200B;で始まるジャーニーを、次のバージョンの別のイベントで開始することはできません。
+* 増分読み取りでは、セグメントを読み取りジャーニーの新しいバージョンを作成できません。 ジャーニーを複製する必要があります。
 
 ### カスタムアクション {#custom-actions-g}
 

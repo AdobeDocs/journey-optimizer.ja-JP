@@ -6,10 +6,10 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 95%
 
 ---
 
@@ -120,6 +120,12 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
    * 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
 
+
+1. SMS メッセージで URL 短縮機能を使用する場合は、 **[!UICONTROL サブドメイン]** リスト。
+
+   >[!NOTE]
+   >
+   >サブドメインを選択できるようにするには、少なくとも 1 つの SMS サブドメインが事前に設定されていることを確認してください。 [方法についてはこちらを参照](sms-subdomains.md)
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 

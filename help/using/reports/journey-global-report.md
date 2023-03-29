@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2022'
-ht-degree: 100%
+source-wordcount: '2044'
+ht-degree: 98%
 
 ---
 
@@ -285,5 +285,8 @@ SMS の&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、配信�
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
-**[!UICONTROL 除外された理由]**のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+**[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+
+この **[!UICONTROL SMS — リンク別のクリック数]** および **[!UICONTROL SMS — トラッキング統計]** ウィジェットは、訪問者の URL に対するエンゲージメントに関する主な情報の詳細を示します。
+
 +++

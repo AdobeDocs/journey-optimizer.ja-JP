@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,10 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
    ![](assets/report_modify_5.png)
 
 1. ウィジェットの表示順とサイズが定まったら、「**[!UICONTROL 保存]**」をクリックします。
+
+1. データの表示方法をカスタマイズするには、グラフ、テーブル、ドーナツグラフなど、様々なビジュアライゼーションオプションから切り替えます。
+
+   ![](assets/report_modify_10.png)
 
 ダッシュボードが保存されました。様々な変更は、後でライブレポートを使用する際にも再度適用されます。必要に応じて、「**[!UICONTROL リセット]**」オプションを使用して、デフォルトのウィジェットとそれらのデフォルト順序に戻します。
 
