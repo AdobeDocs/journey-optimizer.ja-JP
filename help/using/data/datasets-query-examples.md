@@ -10,9 +10,9 @@ level: Intermediate
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 [BCC フィードバックイベントデータセット](#bcc-feedback-event-dataset)
 [エンティティデータセット](#entity-dataset)
 
-各スキーマのフィールドと属性の完全なリストを表示するには、 [Journey Optimizerスキーマディクショナリ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
 
 ## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
 
