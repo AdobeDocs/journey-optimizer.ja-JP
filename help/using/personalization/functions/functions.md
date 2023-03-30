@@ -244,7 +244,7 @@ ht-degree: 100%
         <td><a href="string.md#index-of">インデックス</a></td><td>この関数は 2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#isEmpty">空である</a></td><td>文字列や式が空かどうかを確認するために使用します。</td>
+        <td><a href="string.md#isEmpty">IsEmpty</a></td><td>文字列や式が空かどうかを確認するために使用します。</td>
     </tr>
     <tr>
         <td><a href="string.md#is-not-empty">空でない</a></td><td>この関数はパラメーター内の文字列が空でない場合、true を返します。</td>
