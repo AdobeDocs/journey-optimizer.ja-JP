@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -421,7 +421,7 @@ ht-degree: 98%
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
       + [Journey Optimizer データセットの書き出し](using/data/export-datasets.md)
       + [クエリの例](using/data/datasets-query-examples.md)
-      + [ビルトインスキーマ > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [ビルトインスキーマ／](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
    + [クエリ](using/data/get-started-queries.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
@@ -450,7 +450,7 @@ ht-degree: 98%
          + 単一イベントの設定 {#unitary-events}
             + [単一イベントの基本を学ぶ](using/event/about-creating.md)
             + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
-            + [Adobe Analyticsの操作](using/event/about-analytics.md)
+            + [Adobe Analytics の操作](using/event/about-analytics.md)
          + [ビジネスイベントの設定](using/event/about-creating-business.md)
          + [イベントを送信するための手順](using/event/additional-steps-to-send-events-to-journey.md)
       + データソース設定{#data-source-journeys}
