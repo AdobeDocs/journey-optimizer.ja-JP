@@ -7,28 +7,30 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 63%
+source-wordcount: '432'
+ht-degree: 51%
 
 ---
 
 # アプリ内メッセージの作成  {#create-in-app}
 
+アプリ内メッセージは、キャンペーンのコンテキストで作成されます。
+
 アプリ内メッセージを作成するには、次の手順に従います。
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンを実行するタイミングを指定します。
+1. 内 **[!UICONTROL プロパティ]** 「 」セクションで、キャンペーンの実行タイプを次の中から選択します。スケジュール済みまたは API トリガー。 キャンペーンのタイプについて詳しくは、 [このページ](../campaigns/create-campaign.md#campaigntype).
 
 1. 「**[!UICONTROL アクション]**」セクションで、**[!UICONTROL アプリ内メッセージ]**&#x200B;と、アプリ内メッセージにあらかじめ設定されている&#x200B;**[!UICONTROL アプリサーフェス]**&#x200B;を選択します。次に、「**[!UICONTROL 作成]**」をクリックします。
 
-   [アプリ内設定について詳しくはこちらを参照してください](inapp-configuration.md)。
+   アプリ内設定について詳しくは、 [このページ](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの&#x200B;**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を編集します。
+1. 次の **[!UICONTROL プロパティ]** セクションに、 **[!UICONTROL タイトル]** そして **[!UICONTROL 説明]** 説明。
 
 1. アプリ内メッセージにカスタムまたはコアのデータ使用状況ラベルを割り当てるには、「 **[!UICONTROL アクセスを管理]**. [詳細情報](../administration/object-based-access.md)。
 
@@ -40,13 +42,13 @@ ht-degree: 63%
 
 1. クリック **[!UICONTROL 編集トリガー]** メッセージをトリガーするイベントと条件を選択するには：
 
-   1. クリック **[!UICONTROL 追加] 条件** 複数のイベントや条件をトリガーで考慮する場合。
+   1. クリック **条件を追加** 複数のイベントや条件をトリガーで考慮する場合。
    1. イベントのリンク方法を選択します。例えば、メッセージを表示するために「**両方**」のトリガーを true にする場合は「**[!UICONTROL および]**」を選択し、トリガーの「**どちらか**」が true の場合にメッセージを表示する場合は「**[!UICONTROL または]**」を選択します。
    1. クリック **[!UICONTROL グループ化]** を使用して、トリガーをグループ化します。
 
    ![](assets/in_app_create_3.png)
 
-1. アプリ内メッセージがアクティブな場合のトリガーの頻度を選択します。
+1. アプリ内メッセージがアクティブな場合のトリガーの頻度を選択します。 次のオプションがあります。
 
    * **[!UICONTROL 毎回]**:イベントが **[!UICONTROL モバイルアプリトリガー]** ドロップダウンが発生します。
    * **[!UICONTROL 1 回]**:このメッセージは、 **[!UICONTROL モバイルアプリトリガー]** ドロップダウンが発生します。
