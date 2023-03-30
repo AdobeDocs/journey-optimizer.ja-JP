@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -39,20 +39,20 @@ Adobe Experience Platform では、表示されるオファーやユーザーの
 
 インプレッション数およびクリック数に関するフィードバックは、使用される [!DNL Journey Optimizer] チャネルによってキャプチャされます。
 
-**電子メール** 作成者： [!DNL Journey Optimizer] **自動** インプレッション数およびクリック数を追跡します。
+[!DNL Journey Optimizer] で作成した&#x200B;**メール**&#x200B;では、**自動**&#x200B;でインプレッション数およびクリック数をトラッキングします。
 
-しかし、 **ほとんどのチャネル** Adobe Experience Platformにインプレッション数とクリック数のデータをとして送信する必要がある **エクスペリエンスイベント**. これには以下が含まれます。
+ただし、**ほとんどのチャネル**&#x200B;では、インプレッション数およびクリック数のデータを&#x200B;**エクスペリエンスイベント**&#x200B;として Adobe Experience Platform に送信する必要があります。これには以下が含まれます。
 
-* Web ページ の使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} オファーをレンダリング
+* Web ページ：[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} を使用してオファーをレンダリング
 
-* モバイルアプリ [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* モバイルアプリ：[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja) を使用{target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * キオスク
 * サードパーティのアプリケーションを通じて送信されるメッセージ
    <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
 >[!NOTE]
 >
->判定 API リクエストを使用してオファーを受け取るチャネルは、エクスペリエンスイベントとしてフィードバックを送信する必要があります。 つまり、オファーのレンダリング方法に関する指示が必要な場合は、フィードバックをエクスペリエンスイベントとして送信する必要があると想定できます。
+>Decisioning API リクエストを使用してオファーを受け取るチャネルでは、エクスペリエンスイベントとしてフィードバックを送信する必要があります。つまり、レンダリング方法の説明が必要なオファーは、フィードバックをエクスペリエンスイベントとして送信する必要があると想定できます。
 
 ### カスタムイベント
 
