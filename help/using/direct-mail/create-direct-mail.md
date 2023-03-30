@@ -11,9 +11,9 @@ hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->ダイレクトメールは、現在、非公開ベータ版として利用可能で、予告なく頻繁に更新される場合があります。
+>ダイレクトメールは現在、プライベートベータ版として利用可能で、予告なく頻繁に更新される場合があります。
 
 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルをパーソナライズおよび生成できるオフラインチャネルです。
 
