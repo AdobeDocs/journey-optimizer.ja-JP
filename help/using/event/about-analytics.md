@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics の統合
-description: Adobe Analytics データの活用方法について説明します Journey Optimizer
+description: Adobe Analytics データの活用方法について説明しますJourney Optimizer の場合
 feature: Events
 topic: Administration
 role: Admin
@@ -10,35 +10,35 @@ level: Intermediate
 keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# Adobe Analyticsデータの操作 {#analytics-data}
+# Adobe Analytics データの操作 {#analytics-data}
 
-ジャーニーをトリガーし、顧客に対するエクスペリエンスを自動化するために、Adobe Analyticsまたは Web SDK を通じて既に取り込んでいるすべての Web 行動イベントデータを活用し、Adobe Experience Platformにストリーミングできます。
+ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化するために、Adobe Analytics、Web SDK、Adobe Experience Platform へのストリーミング を通じて既に取得しているあらゆる web 行動イベントデータを活用できます。
 
-これをAdobe Analyticsで機能させるには、以下をおこなう必要があります。
+これを Adobe Analytics で操作するには、次の手順に従う必要があります。
 
-1. 使用するレポートスイートをアクティブ化します。 [詳細情報](#leverage-analytics-data)
-1. Journey OptimizerでAdobe Analyticsデータソースを使用できるようにします。 [詳細情報](#activate-analytics-data)
-1. ジャーニーに特定のイベントを追加します。 [詳細情報](#event-analytic)
+1. 使用するレポートスイートをアクティベートします。[詳細情報](#leverage-analytics-data)
+1. Journey Optimizer を有効にして、Adobe Analytics データソースを使用できるようにします。[詳細情報](#activate-analytics-data)
+1. ジャーニーに特定のイベントを追加します。[詳細情報](#event-analytic)
 
 >[!NOTE]
 >
->この節の説明は、ルールベースのイベントと、Adobe Analyticsまたは Web SDK データを使用する必要があるお客様にのみ当てはまります。
+>この節は、ルールベースのイベントと、Adobe Analytics データを使用する必要があるお客様が対象です。
 > 
->Adobe Customer Journey Analyticsを使用している場合は、 [このページ](../reports/cja-ajo.md).
+>Adobe Customer Journey Analytics を使用している場合は、[このページ](../reports/cja-ajo.md)を参照してください。
 
-## Adobe Analyticsまたは Web SDK データの設定 {#leverage-analytics-data}
+## Adobe Analytics または Web SDK データの設定 {#leverage-analytics-data}
 
-Adobe AnalyticsまたはAdobe Experience Platform Web SDK からのデータをジャーニーで使用するには、有効にする必要があります。
+ジャーニーで使用するには、Adobe Analytics または Adobe Experience Platform Web SDK のデータを有効にする必要があります。
 
 これを行うには、以下の手順に従います。
 
-1. 次を参照： **[!UICONTROL ソース]** メニュー
+1. **[!UICONTROL ソース]**&#x200B;メニューを参照します。
 
 1. 「Adobe Analytics」セクションで、「**[!UICONTROL データを追加]**」を選択します。
 
@@ -62,31 +62,31 @@ Adobe AnalyticsまたはAdobe Experience Platform Web SDK からのデータを�
 
 Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"}を参照してください。
 
-## この設定を有効化 {#activate-analytics-data}
+## この設定のアクティベート {#activate-analytics-data}
 
-この設定が完了したら、Adobeに連絡して、Journey Optimizer環境でこのデータソースを使用できるようにします。 この手順は、Adobe Analyticsデータソースに対してのみ必要です。 次の手順を実行します。
+この設定が完了したら、アドビにお問い合わせし、Journey Optimizer 環境でこのデータソースを使用できるようにしてください。この手順は、Adobe Analytics データソースにのみ必要です。次の手順を実行します。
 
-1. データソース ID を取得します。 この情報は、ユーザーインターフェイスで使用できます。から作成したデータソースを参照します。 **データフロー** タブ **ソース** メニュー これを見つける最も簡単な方法は、Adobe Analyticsのソースをフィルタリングすることです。
-1. 次の詳細については、Adobeカスタマーケアにお問い合わせください。
+1. データソース ID を取得します。 この情報は、ユーザーインターフェイスで利用できます。**ソース**&#x200B;メニューの「**データフロー**」タブから、作成したデータソースを参照します。これを検索する最も簡単な方法は、Adobe Analytics ソースでフィルタリングすることです。
+1. アドビカスタマーケアにお問い合わせして、次の詳細を伝えます。
 
-   * 件名：ジャーニーに対するAdobe Analyticsイベントの有効化
+   * 件名：ジャーニーの Adobe Analytics イベントを有効にする
 
-   * コンテンツ：環境で AA イベントを使用できるようにしてください。
+   * コンテンツ：AA イベントを使用する環境を有効にしてください。
 
-      * 組織 ID :&quot;XXX@AdobeOrg&quot;
+      * 組織 ID：「XXX@AdobeOrg」
 
-      * データソース ID:&quot;ID:xxxxx&quot;
+      * データソース ID：「ID:xxxxx」
 
-1. 環境の準備が整ったことを確認したら、ジャーニーでAdobe Analyticsデータを使用できます。
+1. 環境の準備が整っていることを確認したら、ジャーニーで Adobe Analytics データを使用できます。
 
 ## Adobe Analytics または Web SDK データを使用したイベントでのジャーニーの作成 {#event-analytics}
 
-Adobe AnalyticsまたはAdobe Experience Platform Web SDK データに基づいてイベントを作成し、ジャーニーで使用できるようになりました。
+ジャーニーで使用する Adobe Analytics または Adobe Experience Platform Web SDK データに基づいてイベントを作成できるようになりました。
 
 次の例では、買い物かごに製品を追加したユーザーをターゲットにする方法を説明します。
 
-* 注文が完了すると、2 日後にフィードバックを求めるフォローアップ電子メールがユーザーに送信されます。
-* 注文が完了していない場合、注文を完了するように促す電子メールがユーザーに届きます。
+* 注文が完了すると、2 日後にフィードバックを求めるフォローアップメールが届きます。
+* 注文が完了していない場合は、注文を完了するように通知するメールが届きます。
 
 1. Adobe Journey Optimizer から、**[!UICONTROL 設定]**&#x200B;メニューにアクセスします。
 
@@ -101,12 +101,12 @@ Adobe AnalyticsまたはAdobe Experience Platform Web SDK データに基づい�
    * **[!UICONTROL 名前]**：**[!UICONTROL イベント]**&#x200B;の名前をパーソナライズします。
    * **[!UICONTROL タイプ]**：**[!UICONTROL 単一]**&#x200B;タイプを選択します。[詳細情報](../event/about-events.md)
    * **[!UICONTROL イベント ID タイプ]**：**[!UICONTROL ルールベース]**&#x200B;のイベント ID タイプを選択します。[詳細情報](../event/about-events.md#event-id-type)
-   * **[!UICONTROL スキーマ]**:Analytics または WebSDK のスキーマを選択 [次より前に作成](#leverage-analytics-data).
+   * **[!UICONTROL スキーマ]**：[以前に作成した](#leverage-analytics-data) Analytics または WebSDK スキーマを選択します。
    * **[!UICONTROL フィールド]**：「ペイロード」フィールドを選択します。[詳細情報](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL イベント ID 条件]**:ジャーニーを識別するイベントを識別する条件を定義します。
+   * **[!UICONTROL イベント ID 条件]**：ジャーニーをトリガーするイベントを識別する条件を定義します。
 
       ここでは、顧客が買い物かごにアイテムを追加すると、イベントがトリガーされます。
-   * **[!UICONTROL プロファイル識別子]**:ペイロードフィールドからフィールドを選択するか、数式を定義して、イベントに関連付けられた人物を識別します。
+   * **[!UICONTROL プロファイル識別子]**：ペイロードフィールドからフィールドを選択するか、イベントに関連付けられたユーザーを識別する式を定義します。
 
    ![](assets/ajo-aa_6.png)
 
@@ -114,7 +114,7 @@ Adobe AnalyticsまたはAdobe Experience Platform Web SDK データに基づい�
 
 イベントの準備が整ったら、それを使用するジャーニーを作成します。
 
-1. 次の **[!UICONTROL ジャーニー]** メニューを開くか、ジャーニーを作成します。 詳しくは、[この節](../building-journeys/journey-gs.md)を参照してください。
+1. **[!UICONTROL ジャーニー]**&#x200B;メニューから、ジャーニーを開くか作成します。詳しくは、[この節](../building-journeys/journey-gs.md)を参照してください。
 
 1. 以前に設定した Analytics イベントをジャーニーに追加します。
 
@@ -134,6 +134,6 @@ Adobe AnalyticsまたはAdobe Experience Platform Web SDK データに基づい�
 
 1. 次に、**[!UICONTROL メールアクション]**&#x200B;を追加します。このメールでは、顧客は注文に関するフィードバックを提供するよう求められます。
 
-ジャーニーをテストして公開できるようになりました。 [詳細情報](../building-journeys/publishing-the-journey.md)
+これで、ジャーニーをテストして公開できます。[詳細情報](../building-journeys/publishing-the-journey.md)
 
 ![](assets/ajo-aa_7.png)
