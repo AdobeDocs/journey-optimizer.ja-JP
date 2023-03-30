@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
 
 # アプリ内チャネルの基本を学ぶ {#gs-in-app}
-
->[!AVAILABILITY]
->
->アプリ内機能は現在、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 アプリ内メッセージとは、特定の目標地点に向かって、アプリ内でユーザーに送信できる通知です。これらの通知は、新機能の宣伝、特別オファーの提示、ユーザーのオンボーディングの促進など、様々な目的に使用できます。アプリ内メッセージを活用することで、オーディエンスと効果的に関わり、アプリケーションの重要な側面に向けることができます。
 

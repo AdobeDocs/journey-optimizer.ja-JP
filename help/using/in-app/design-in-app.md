@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
 
 # アプリ内コンテンツのデザイン {#design-content}
-
->[!AVAILABILITY]
->
->アプリ内機能は現在、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 アプリ内コンテンツを編集して、メッセージのレイアウトと表示、テキスト、ボタンのオプションなどのエクスペリエンスオプションを設定できます。
 
