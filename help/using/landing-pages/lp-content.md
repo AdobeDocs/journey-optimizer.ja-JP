@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 100%
+source-wordcount: '1284'
+ht-degree: 91%
 
 ---
 
@@ -93,7 +93,19 @@ ht-degree: 100%
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. 必要なチェックボックスをすべて追加したら、「**[!UICONTROL コールトゥアクション]**」をクリックして、対応するセクションを展開します。これにより、**[!UICONTROL フォーム]**&#x200B;コンポーネントでボタンの動作を定義できるようになります。
+1. また、 **[!UICONTROL テキストフィールド]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * 次を入力します。 **[!UICONTROL ラベル]** フォーム内のフィールドの上に表示されます。
+
+   * を入力します。 **[!UICONTROL プレースホルダー]** テキスト。 ユーザーがフィールドに入力する前に、フィールド内に表示されます。
+
+   * 次を確認します。 **[!UICONTROL フォームフィールドを必須にする]** オプションを使用します。 その場合、ランディングページは、ユーザーがこのフィールドに入力した場合にのみ送信できます。 必須フィールドに値が入力されていない場合は、ユーザーがページを送信する際にエラーメッセージが表示されます。
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. 目的のチェックボックスまたはテキストフィールドをすべて追加したら、 **[!UICONTROL コールトゥアクション]** をクリックして、対応するセクションを展開します。 これにより、**[!UICONTROL フォーム]**&#x200B;コンポーネントでボタンの動作を定義できるようになります。
 
    ![](assets/lp_designer-form-call-to-action.png)
 
