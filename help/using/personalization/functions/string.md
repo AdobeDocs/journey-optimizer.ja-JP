@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1857'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -648,7 +648,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## すべて置換{#replaceAll}
 
-この `replaceAll` 関数は、「regex」式に一致するテキストのすべての部分文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用されます。 正規表現には「\」と「+」の特別な処理があり、すべての正規表現は PQL エスケープ戦略に従います。 置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+`replaceAll` 関数は、「regex」式に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。正規表現には「\」と「+」の特別な処理があり、すべての正規表現は PQL エスケープ戦略に従います。置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 **構文**
 
@@ -658,9 +658,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 2 番目の引数として使用される式が特殊な正規表現文字の場合は、ダブルバックスラッシュ (`//`) をクリックします。  特殊正規表現文字は次のとおりです。[., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> 2 番目の引数として使用される式が特殊な正規表現文字である場合は、2 つのバックスラッシュ（`//`）を使用します。特殊な正規表現文字は次のとおりです：[.、+、*、?、^、$、(、)、[、]、{、}、|、\]
 > 
-> 詳しくは、 [Oracle文書](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> 詳しくは、[Oracleのドキュメント](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}を参照してください。
 
 ## 右トリミング {#rightTrim}
 
