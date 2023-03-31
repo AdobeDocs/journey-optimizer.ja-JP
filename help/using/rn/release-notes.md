@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0199b6b2ce7f3e03c7b5e49ff45f744ecc7c1885
+source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1540'
+ht-degree: 74%
 
 ---
 
@@ -114,13 +114,11 @@ ht-degree: 76%
 
 * 式エディターに文字列ベースのプロファイル属性のデフォルトの代替テキストを含めることができるようになりました。 これらの値は、選択した属性が結果を返さない場合に表示されます。 [詳細情報](../personalization/personalization-build-expressions.md#add)
 
-<!--
-**Reporting**
+**レポート**
 
-* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+* レポートウィジェットの機能が改善され、ユーザーによるデータの表示方法をカスタマイズできるようになりました。 この改善により、グラフ、表、ドーナツグラフなど、複数のビジュアライゼーションオプションの中から選択できるようになりました。
 
-    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
--->
+   最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、 [詳細なドキュメント](../reports/global-report.md#modify-dashboard).
 
 ## 2023年2月リリースノート {#feb-2023}
 
