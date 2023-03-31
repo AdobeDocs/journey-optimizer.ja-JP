@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 2d2e5f6ef405c3c807993d19b93a599dc08989d8
 workflow-type: tm+mt
-source-wordcount: '2445'
-ht-degree: 98%
+source-wordcount: '2499'
+ht-degree: 96%
 
 ---
 
@@ -17,10 +17,12 @@ ht-degree: 98%
 
 ## 2023年3月 {#march-2023}
 
+* これで、Journey Optimizerスキーマディクショナリを使用できます。 各スキーマのフィールドと属性の完全なリストが表示されます。  [詳細情報](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 3 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * ジャーニーで Adobe Analytics イベントを有効にする手順を追加しました。[詳細情報](../event/about-analytics.md)
 * Adobe Experience Platform でオファー決定支援フィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、意思決定管理ガイドに作成されました。 [詳細情報](../offers/data-collection/data-collection.md)
 * 新しいサブセクションが **決定を作成** 」の節で、複数の評価条件の違いを順番に説明したり、同時に説明したりできます。 [詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 増分読み取りを使用したセグメントジャーニー読み取り用のガードレールが追加されました。 新しいバージョンを作成することはできません。ジャーニーを複製する必要があります。 [詳細情報](../start/guardrails.md#journey-versions-g)
 
 ## 2023年2月 {#feb-2023}
 
