@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1904'
 ht-degree: 98%
 
 ---
@@ -145,10 +145,6 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 +++
 
 ## 「アプリ内」タブ {#inapp-global}
-
->[!IMPORTANT]
->
->アプリ内機能は現在、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL アプリ内]**」タブには、キャンペーンで送信されたアプリ内配信に関する主な情報が詳しく表示されます。
 
