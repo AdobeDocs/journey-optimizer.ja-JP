@@ -6,9 +6,9 @@ description: スロットル API の使用方法を説明します。
 role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 4%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 4%
 >現在、1 つの組織につき 1 つの設定のみを使用できます。 設定は、実稼動用サンドボックス（ヘッダーの x-sandbox-name を通じて指定）で定義する必要があります。
 >
 >設定は組織レベルで適用されます。
+>
+>API で設定された制限に達すると、それ以上のイベントは最大 6 時間キューに入れられます。 この値は変更できません。
 
 ## スロットル API の説明 {#description}
 
