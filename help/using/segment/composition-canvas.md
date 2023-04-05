@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-オーディエンスコンポジションは、オーディエンスを作成し、様々なアクティビティ（分割、エンリッチメントなど）を使用できる視覚的なキャンバスを提供します。
+オーディエンスの構成は、オーディエンスを作成し、様々なアクティビティ（分割、エンリッチメントなど）を使用できる視覚的なキャンバスを提供します。
 
 キャンバスでオーディエンスを作成する手順は次のとおりです。
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 * [オーディエンス](#audience)：1 つ以上のオーディエンスに属する追加のプロファイルを含めます。
 * [除外](#exclude)：既存オーディエンスに属するプロファイルを除外したり、特定の属性に基づいてプロファイルを除外したりします。
-* [エンリッチメント]{#enrich}：Adobe Experience Platform データセットから取得した追加の属性を使用してオーディエンスを強化します。
+* [エンリッチメント](#enrich)：Adobe Experience Platform データセットから取得した追加の属性を使用してオーディエンスを強化します。
 * [ランク](#rank)：特定の属性に基づいてプロファイルをランク付けし、保持するプロファイルの数を指定してコンポジションに含めます。
 * [分割](#split)：ランダムな割合または属性に基づいて、コンポジションを複数のパスに分割します。
 
