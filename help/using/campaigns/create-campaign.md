@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="キャンペーンのタイプ"
->abstract="送信日を指定するマーケティングメッセージの場合、 **予定** type は最も適切です。 ただし、パスワードのリセットやカートの放棄などのトランザクションメッセージを送信する場合は、**API トリガー**&#x200B;タイプが最適な選択肢です。"
+>abstract="送信日を指定したマーケティングメッセージには、**スケジュール型**&#x200B;タイプが最適です。ただし、パスワードのリセットやカートの放棄などのトランザクションメッセージを送信する場合は、**API トリガー**&#x200B;タイプが最適な選択肢です。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"

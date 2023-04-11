@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -87,24 +87,24 @@ ht-degree: 81%
 
 1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。プロファイル名や市区町村など、任意の属性を使用できます。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
-1. コンテンツを定義した後、メッセージにトラッキング URL を追加できます。 これをおこなうには、 **[!UICONTROL ヘルパー関数]** メニューと選択 **[!UICONTROL ヘルパー]**.
+1. コンテンツを定義したら、トラック URL をメッセージに追加できます。これを行うには、**[!UICONTROL ヘルパー関数]**&#x200B;メニューにアクセスし、「**[!UICONTROL ヘルパー]**」を選択します。
 
-   URL 短縮機能を使用するには、まずサブドメインを設定し、次にサーフェスにリンクする必要があります。 [詳細情報](sms-subdomains.md)
+   URL 短縮機能を使用するには、最初にサブドメインを設定する必要があります。このサブドメインはその後、サーフェスにリンクされます。[詳細情報](sms-subdomains.md)
 
    ![](assets/sms_tracking_1.png)
 
-1. 内 **[!UICONTROL ヘルパー関数]** メニュー、クリック **[!UICONTROL URL 関数]** 次に、 **[!UICONTROL URL を追加]**.
+1. **[!UICONTROL ヘルパー関数]**&#x200B;メニュー内で、「**[!UICONTROL URL 関数]**」をクリックし、「**[!UICONTROL URL を追加]**」を選択します。
 
    ![](assets/sms_tracking_2.png)
 
-1. 内 `originalUrl` 「 」フィールドに、短縮する URL を貼り付けます。
+1. `originalUrl` フィールドに、短縮する URL をペーストします。
 
-1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。以下を使用できます。 **[!UICONTROL コンテンツをシミュレート]** を使用して、短縮 URL またはパーソナライズされたコンテンツをプレビューできます。
+1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。**[!UICONTROL コンテンツをシミュレート]**&#x200B;を使用して、短縮 URL やパーソナライズされたコンテンツをプレビューできます。
 
    ![](assets/sms-content-preview.png)
 
 これで、SMS メッセージをテストしてオーディエンスに送信できます。[詳細情報](send-sms.md)
-送信後は、キャンペーンまたはジャーニーレポート内での SMS の影響を測定できます。 レポートについて詳しくは、[この節](../reports/campaign-global-report.md#sms-tab)を参照してください。
+送信したら、キャンペーンまたはジャーニーレポート内で SMS の影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report.md#sms-tab)を参照してください。
 
 >[!NOTE]
 >

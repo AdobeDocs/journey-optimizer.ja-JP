@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 98%
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
    + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
-   + [アプリ内通知のテストと送信](using/in-app/send-in-app.md)
+   + [アプリ内通知のテストおよび送信](using/in-app/send-in-app.md)
    + [アプリ内チャネルの設定](using/in-app/inapp-configuration.md)
 + プッシュ通知チャネル{#push}
    + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
@@ -298,7 +298,7 @@ ht-degree: 98%
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートの基本を学ぶ](using/reports/global-report.md)
-      + [ジャーニーグローバルレポート](using/reports/journey-global-report.md)
+      + [ジャーニーのグローバルレポート](using/reports/journey-global-report.md)
       + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
       + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
@@ -443,9 +443,9 @@ ht-degree: 98%
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
-         + [ジャーニーと外部システムの統合](using/configuration/external-systems.md)
-         + [キャッピング API](using/configuration/capping.md)
-         + [スロットル API](using/configuration/throttling.md)
+         + [ジャーニーと外部システムとの統合](using/configuration/external-systems.md)
+         + [Capping API](using/configuration/capping.md)
+         + [Throttling API](using/configuration/throttling.md)
       + イベント設定 {#events-journeys}
          + [一般原則](using/event/about-events.md)
          + 単一イベントの設定 {#unitary-events}

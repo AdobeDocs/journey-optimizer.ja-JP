@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 ランキング式を作成するには、次の手順に従います。
 
-1. 次にアクセス： **[!UICONTROL コンポーネント]** メニューで、 **[!UICONTROL ランキング]** タブをクリックします。 この **[!UICONTROL 数式]** 「 」タブがデフォルトで選択されています。 以前に作成した数式のリストが表示されます。
+1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL ランキング]**」タブを選択します。「**[!UICONTROL 式]**」タブがデフォルトで選択されています。以前に作成した式のリストが表示されます。
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 
    ![](../assets/ranking-create-formula.png)
 
-1. 式の名前、説明および式を指定します。
+1. 式の名前、説明、式を指定します。
 
    この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、**contextData.weather=hot** を判定の呼び出し時に渡しています。
 

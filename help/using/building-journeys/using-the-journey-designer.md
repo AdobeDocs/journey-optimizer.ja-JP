@@ -12,7 +12,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1642'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 ![](assets/journey39.png)
 
-この **ツールバー**&#x200B;はキャンバスの右上隅にあり、グリッドの表示/非表示、ズームイン/ズームアウトおよびキャンバスのスクリーンショットのダウンロードを行うことができます。 この[節](../building-journeys/journey-gs.md#timeout_and_error)を参照してください。
+カンバスの右上隅にある&#x200B;**ツールバー**&#x200B;を使用すると、グリッドの表示／非表示、ズームイン／ズームアウト、キャンバスのスクリーンショットのダウンロードを行うことができます。この[節](../building-journeys/journey-gs.md#timeout_and_error)を参照してください。
 
 <!--and show/hide timeout and error paths-->
 

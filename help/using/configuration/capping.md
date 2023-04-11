@@ -1,44 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: キャッピング API
-description: キャッピング API の使用方法を説明します。
+title: Capping API
+description: Capping API の使用方法を学ぶ
 role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 
-# キャッピング API の使用 {#work}
+# Capping API の使用 {#work}
 
-キャッピング API は、キャッピング設定を作成、設定および監視するのに役立ちます。
+Capping API を使用すると、キャッピング設定を作成、設定および監視できます。
 
-この節では、API の操作方法に関する全体的な情報を提供します。 API の詳細については、 [Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/).
+この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/)を参照してください。
 
-## キャッピング API の説明
+## Capping API の説明
 
 | メソッド | パス | 説明 |
 |---|---|---|
-| [!DNL POST] | list/endpointConfigs | エンドポイントキャッピング設定のリストを取得します |
-| [!DNL POST] | /endpointConfigs | エンドポイントキャップ設定の作成 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | エンドポイントキャップ設定のデプロイ |
+| [!DNL POST] | list/endpointConfigs | エンドポイントキャッピング設定のリストの取得 |
+| [!DNL POST] | /endpointConfigs | エンドポイントキャッピング設定の作成 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | エンドポイントキャッピング設定のデプロイ |
 | [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | エンドポイントキャッピング設定のデプロイ解除 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | エンドポイントキャッピング設定をデプロイできるかどうかを確認します |
-| [!DNL PUT] | /endpointConfigs/`{uid}` | エンドポイントキャップ設定の更新 |
-| [!DNL GET] | /endpointConfigs/`{uid}` | エンドポイントキャップの設定の取得 |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | エンポイントキャップ設定の削除 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | エンドポイントキャッピング設定をデプロイできるかどうかの確認 |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | エンドポイントキャッピング設定の更新 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | エンドポイントキャッピング設定の取得 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | エンポイントキャッピング設定の削除 |
 
 設定を作成または更新すると、ペイロードの構文と整合性を保証するチェックが自動的に実行されます。
 問題が発生した場合は、設定を修正するのに役立つ警告またはエラーが返されます。
 
 ## エンドポイントの設定
 
-エンドポイント設定の基本構造を次に示します。
+エンドポイント設定の基本構造は次のとおりです。
 
 ```
 {
@@ -80,7 +80,7 @@ ht-degree: 6%
 
 ## 警告とエラー
 
-When a **canDeploy** メソッドが呼び出されると、プロセスは設定を検証し、次のいずれかの方法で一意の ID で識別される検証ステータスを返します。
+**canDeploy**&#x200B;メソッドを呼び出す際、プロセスは設定を検証し、次のいずれかの一意の ID によって識別される検証ステータスを返します。
 
 ```
 "ok" or "error"
@@ -88,68 +88,68 @@ When a **canDeploy** メソッドが呼び出されると、プロセスは設�
 
 潜在的なエラーは次のとおりです。
 
-* **ERR_ENDPOINTCONFIG_100**:キャッピングの設定：url が見つからないか、無効です
-* **ERR_ENDPOINTCONFIG_101**:キャッピングの設定：不正な URL です
-* **ERR_ENDPOINTCONFIG_102**:キャッピングの設定：url の形式が正しくありません：host:port では、url 内の wildchar は使用できません
-* **ERR_ENDPOINTCONFIG_103**:キャッピングの設定：HTTP メソッドがありません
-* **ERR_ENDPOINTCONFIG_104**:キャッピングの設定：呼び出しの評価が定義されていません
-* **ERR_ENDPOINTCONFIG_107**:キャッピングの設定：無効な最大呼び出し数 (maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**:キャッピングの設定：無効な最大呼び出し数 (periodInMs)
-* **ERR_ENDPOINTCONFIG_111**:キャッピングの設定：エンドポイント設定を作成できません：無効なペイロード
-* **ERR_ENDPOINTCONFIG_112**:キャッピングの設定：エンドポイント設定を作成できません：JSON ペイロードを期待しています
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**:無効なサービス名 `<!--<given value>-->`:は、「dataSource」または「action」である必要があります
+* **ERR_ENDPOINTCONFIG_100**：キャッピング設定：URL が見つからないか、無効です
+* **ERR_ENDPOINTCONFIG_101**：キャッピング設定：不正な URL です
+* **ERR_ENDPOINTCONFIG_102**：キャッピングの設定：不正な URL です：host:port で許可されていない URL のワイルド文字
+* **ERR_ENDPOINTCONFIG_103**：キャッピング設定：HTTP メソッドがありません
+* **ERR_ENDPOINTCONFIG_104**：キャッピング設定：呼び出しの評価が定義されていません
+* **ERR_ENDPOINTCONFIG_107**：キャッピング設定：無効な最大呼び出し数（maxCallsCount）です
+* **ERR_ENDPOINTCONFIG_108**：キャッピング設定：無効な最大呼び出し数（periodInMs）です
+* **ERR_ENDPOINTCONFIG_111**：キャッピング設定：エンドポイント設定を作成できません：無効なペイロードです
+* **ERR_ENDPOINTCONFIG_112**：キャッピング設定：エンドポイント設定を作成できません：JSON ペイロードが予想されます
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**：無効なサービス名 `<!--<given value>-->`：「dataSource」または「action」である必要があります
 
 潜在的な警告は次のとおりです。
 
-**ERR_ENDPOINTCONFIG_106**:キャッピングの設定：最大 HTTP 接続数が定義されていません：デフォルトでは制限なし
+**ERR_ENDPOINTCONFIG_106**：キャッピング設定：最大 HTTP 接続数が定義されていません：デフォルトでは制限なし
 
-## 使用例
+## ユースケース
 
-この節では、キャッピング設定の管理に使用できる 5 つの主なユースケースを次に示します。 [!DNL Journey Optimizer].
+この節では、[!DNL Journey Optimizer] でキャッピング設定を管理するために実行できる 5 つの主なユースケースを示します。
 
-テストおよび設定に役立つように、Postmanコレクションを利用できます [ここ](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+テストと設定に役立つように、[こちら](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)で Postman コレクションを使用できます。
 
-このPostmanコレクションは、 __[Adobe I/Oコンソールの統合](https://console.adobe.io/integrations) > 試す > Postman用にダウンロード__：選択した統合値でPostman環境ファイルを生成します。
+この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を通じて生成された Postman 変数コレクションを共有するように設定されています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
 
-ダウンロードしてPostmanにアップロードしたら、次の 3 つの変数を追加する必要があります。 `{JO_HOST}`,`{BASE_PATH}` および `{SANDBOX_NAME}`.
+ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
 * `{JO_HOST}` : [!DNL Journey Optimizer] ゲートウェイ URL
-* `{BASE_PATH}` :API のエントリポイント。
-* `{SANDBOX_NAME}` :ヘッダー **x-sandbox-name** （例えば、「prod」）API 操作が実行されるサンドボックス名に対応します。 詳しくは、「[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)」を参照してください。
+* `{BASE_PATH}`：API のエントリポイント。
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
 
 以下の節では、ユースケースを実行するための Rest API 呼び出し順序付きリストを見つけます。
 
-使用例 n°1: **新しいキャッピング設定の作成とデプロイメント**
+ユースケース n°1：**新しいキャッピング設定の作成とデプロイ**
 
-1. リスト
+1. list
 1. 作成
-1. candeploy
+1. デプロイ可能
 1. デプロイ
 
-使用例 n°2: **まだデプロイされていないキャッピング設定の更新とデプロイ**
+ユースケース n°2：**まだデプロイされていないキャッピング設定の更新とデプロイ**
 
-1. リスト
+1. list
 1. get
-1. 更新
-1. candeploy
+1. update
+1. デプロイ可能
 1. デプロイ
 
-ユースケース n°3: **デプロイ済みのキャッピング設定のデプロイ解除と削除**
+ユースケース n°3：**デプロイ済みのキャッピング設定のデプロイ解除と削除**
 
-1. リスト
-1. デプロイ解除
-1. 削除
+1. list
+1. undeploy
+1. delete
 
-ユースケース n°4: **デプロイ済みのキャッピング設定を削除します。**
+ユースケース n°4：**デプロイ済みのキャッピング設定の削除**
 
-1 回の API 呼び出しで、 forceDelete パラメーターを使用して、設定のデプロイを解除および削除できます。
-1. リスト
+1 回の API 呼び出しで、 forceDelete パラメーターを使用して、設定をデプロイ解除および削除できます。
+1. list
 1. 削除、forceDelete パラメーターを使用
 
-ユースケース n°5: **既にデプロイ済みのキャッピング設定の更新**
+ユースケース n°5：**既にデプロイされているキャッピング設定の更新**
 
-1. リスト
+1. list
 1. get
-1. 更新
-1. デプロイ解除
-1. candeploy
+1. update
+1. undeploy
+1. デプロイ可能
 1. デプロイ

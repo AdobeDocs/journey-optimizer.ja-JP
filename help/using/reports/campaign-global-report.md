@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -279,7 +279,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 **[!UICONTROL 除外された理由]**、**[!UICONTROL バウンスの理由]**&#x200B;および&#x200B;**[!UICONTROL エラーの理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
-この **[!UICONTROL SMS — リンク別のクリック数]** および **[!UICONTROL SMS — トラッキング統計]** ウィジェットは、訪問者の URL に対するエンゲージメントに関する主な情報の詳細を示します。
+**[!UICONTROL SMS - リンク別のクリック数]**&#x200B;ウィジェットと **[!UICONTROL SMS - トラッキング統計]**&#x200B;ウィジェットは、訪問者の URL へのエンゲージメントに関連する主な情報の詳細を示します。
 
 +++
 

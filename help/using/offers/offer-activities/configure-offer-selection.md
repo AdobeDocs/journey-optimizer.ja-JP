@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 ランキング式を作成する方法については、 [この節](../ranking/create-ranking-formulas.md)を参照してください。
 
-数式が作成されたら、その数式を決定内の配置に割り当てることができます。 これを行うには、以下の手順に従います。
+式を作成したら、決定内のプレースメントに割り当てることができます。これを行うには、以下の手順に従います。
 
 1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
@@ -46,17 +46,17 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-1. 選択 **[!UICONTROL 数式]** ランキングメソッドとして「 」を選択し、 **[!UICONTROL ランキングを追加]**.
+1. ランキング方法として「**[!UICONTROL 式]**」を選択し、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 目的の数式を選択し、「 **[!UICONTROL 選択]**.
+1. 目的の式を選択し、「**[!UICONTROL 選択]**」をクリックします。
 
    ![](../assets/ranking-selection.png)
 
 これで、ランキング式がプレースメントに関連付けられました。
 
-複数のオファーがこの配置で提示される資格がある場合、決定は、選択された数式を使用して、最初に配信するオファーを計算します。
+このプレースメントで提示するための実施要件を満たすオファーが複数ある場合、決定は選択した式を使用して、最初に配信するオファーを計算します。
 
 ## AI ランキング {#use-ranking-strategy}
 

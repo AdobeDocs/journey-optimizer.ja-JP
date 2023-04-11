@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++SMS レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-この **[!UICONTROL SMS — 統計]** テーブルには、配信の成功の詳細が表示されます。
+**[!UICONTROL SMS - 統計]**&#x200B;テーブルは、配信の成功の詳細を表示します。
 
 * **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
 
@@ -149,7 +149,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
-* **[!UICONTROL クリック数]**:URL への合計訪問数。
+* **[!UICONTROL クリック数]**：URL 訪問の合計数。
 
 **[!UICONTROL SMS の日別パフォーマンス]**&#x200B;ウィジェットは、メッセージに関連する主な情報の詳細をグラフで表示します。
 

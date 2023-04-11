@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >ランディングページでそのサブドメインを使用する前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。<!--Learn more in [this section](#subdomain-validation).-->
+   >そのサブドメインをランディングページに使用できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
 
