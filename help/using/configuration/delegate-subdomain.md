@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1757'
 ht-degree: 100%
 
 ---
@@ -72,8 +72,6 @@ ht-degree: 100%
    >[!CAUTION]
    >
    >無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
-   >
-   >email.marketing.yourcompany.com などマルチレベルのサブドメインは、現在サポートされていません。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -144,8 +142,6 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
    >[!CAUTION]
    >
    >無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
-   >
-   >email.marketing.yourcompany.com などマルチレベルのサブドメインは、現在サポートされていません。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1091'
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,11 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 >id="ajo_web_surface"
 >title="Web サーフェスの定義"
 >abstract="Web サーフェスは、単一のページ URL または複数のページを一致させることができるので、1 つまたは複数の web ページにわたってコンテンツの変更を配信できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="ルールに一致するページの作成"
+>abstract="ページの一致ルールにより、同じルールに一致する複数の URL をターゲットにすることができます。例えば、Web サイト全体でヒーローバナーに変更を適用したり、Web サイトのすべての製品ページに表示されるトップ画像を追加したりします。"
 
 キャンペーンを通じて web エクスペリエンスの作成を開始するには、次の手順に従います。
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '2518'
-ht-degree: 99%
+source-wordcount: '2537'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 ## 2023年4月 {#apr-2023}
 
 * Adobe Experience Manager Assets EssentialsとAdobe Stockが、マルチソリューション統合ページに追加されました。 [詳細情報](../start/ajo-integrations.md)
-
+* マルチレベルの E メールサブドメインで許可されていない警告は、サポートされるようになったので削除されました。 [詳細情報](../configuration/delegate-subdomain.md)
 
 ## 2023年3月 {#march-2023}
 
