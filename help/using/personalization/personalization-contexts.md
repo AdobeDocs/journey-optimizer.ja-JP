@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, コンテキスト, パーソナライゼーション
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 E メールデザイナーでは、コンテンツをパーソナライズできます。
 
-* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**パーソナライズ**&#x200B;アイコンをクリックして、「**パーソナライゼーションを挿入**」フィールドを選択します。E メールデザイナーインターフェイスについて詳しくは、この[節](../email/get-started-email-design.md)を参照してください。
+* 内 **メッセージ**:テキストブロック内をクリックし、 **パーソナライゼーションを追加** アイコンを使用します。 E メールデザイナーインターフェイスについて詳しくは、この[節](../email/get-started-email-design.md)を参照してください。
 
    ![](assets/perso_insert.png)
 

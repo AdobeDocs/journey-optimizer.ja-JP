@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="購読グローバルレポート"
->abstract="購読の提供レポートでは、選択した期間における購読者のアクティビティを測定および視覚化できます。レポートは、購読と購読解除の詳細を示す様々なウィジェットに分割されています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
+>abstract="購読のグローバルレポートでは、選択した期間における購読者のアクティビティを測定および視覚化できます。 レポートは、購読と購読解除の詳細を示す様々なウィジェットに分割されています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
 
 購読&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;では、選択した期間の購読者のアクティビティに関する詳細が表示されます。過去 24 時間の購読のみを測定するには、[購読ライブレポート](subscription-report-live.md)を参照します。
 

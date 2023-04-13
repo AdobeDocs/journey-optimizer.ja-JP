@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: スタイル, リンク, カラー, メール, エディター
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 72%
 
 ---
 
@@ -22,11 +22,7 @@ E メールデザイナーでリンクに下線を引き、リンクの色とタ
 
 1. リンクが挿入されるテキスト&#x200B;**[!UICONTROL コンテンツコンポーネント]**&#x200B;で、リンクを選択します。
 
-1. **[!UICONTROL コンポーネント設定]**&#x200B;メニューで、「**[!UICONTROL リンクに下線を引く]**」にチェックを入れると、リンクのラベルテキストに下線を引くことができます。
-
-   ![](assets/link_1.png)
-
-1. **[!UICONTROL ターゲット]**&#x200B;ドロップダウンで、オーディエンスのリダイレクト方法を選択します。
+1. 次の **[!UICONTROL 設定]** タブで、オーディエンスのリダイレクト方法を選択します。 **[!UICONTROL ターゲット]** ドロップダウン：
 
    * **[!UICONTROL なし]**：クリックしたフレームと同じフレームでリンクを開きます（デフォルト）。
    * **[!UICONTROL 空白]**：リンクを新しいウィンドウまたは新しいタブで開きます。
@@ -36,10 +32,12 @@ E メールデザイナーでリンクに下線を引き、リンクの色とタ
 
    ![](assets/link_2.png)
 
-1. リンクの色を変更するには、「**[!UICONTROL リンクの色]**」をクリックします。
+1. チェック **[!UICONTROL リンクに下線を引く]** リンクのラベルテキストに下線を引く場合。
+
+   ![](assets/link_1.png)
+
+1. リンクの色を変更するには、 **[!UICONTROL リンクの色]** から **[!UICONTROL スタイル]** タブをクリックします。
 
    ![](assets/link_3.png)
-
-1. 必要な色を選択します。
 
 1. 変更を保存します。

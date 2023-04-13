@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 背景,メール,カラー,エディター
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
@@ -60,5 +60,3 @@ E メールデザイナーで背景を設定する場合、アドビでは次の
    >これは、最も一般的なユースケースです。アドビでは、メールコンテンツ全体をより柔軟に編集できるよう、列レベルで背景色を設定することをお勧めします。
 
    また、列レベルで背景画像を設定することもできますが、この設定はほとんど使用されません。
-
-   ![](assets/background_5.png)

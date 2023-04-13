@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 100%
@@ -73,8 +73,6 @@ ht-degree: 100%
 
    * **[!UICONTROL ミラーページ]**：web ブラウザーにメールコンテンツを表示するためのリンクを挿入します。詳しくは、[この節](#mirror-page)を参照してください。
 
-   ![](assets/message-tracking-links.png)
-
 1. リンクをパーソナライズできます。パーソナライズされた URL について詳しくは、[この節](../personalization/personalization-syntax.md#perso-urls)を参照してください。
 
 1. 変更を保存します。
@@ -123,8 +121,6 @@ ht-degree: 100%
    このリストを使用すると、一元的なビューを表示したり、メールコンテンツ内の各 URL を見つけたりできます。
 
 1. リンクを編集するには、対応する鉛筆アイコンをクリックします。
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. 必要に応じて、「**[!UICONTROL トラッキングタイプ]**」を変更できます。
 

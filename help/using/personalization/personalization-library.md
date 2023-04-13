@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -31,9 +31,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->情報ボタンを使用して、保存済みの式の内容に関する詳細情報を取得できます。ライブラリ項目を管理する適切な権限を持っている場合、楕円形のメニューに情報ボタンが表示されます。
-
-![](assets/library-list.png)
+>保存済みの式の内容に関する詳細情報は、省略記号ボタンから取得できます。 ライブラリ項目を管理する権限を持っている場合は、省略記号に情報ボタンが表示されます。
 
 「+」をクリックして、エディターに式を挿入します。その後、通常どおりにパーソナライゼーションコンテンツをカスタマイズして検証できます。[詳細情報](../personalization/personalization-build-expressions.md)
 

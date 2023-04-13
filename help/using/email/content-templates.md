@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
@@ -108,9 +109,7 @@ ht-degree: 100%
 
 1. [メールデザイナー](get-started-email-design.md)が表示されます。選択したオプションに従って、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。
 
-   ![](assets/content-template-designer.png)
-
-1. 必要に応じて、コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
+   必要に応じて、コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
 
 1. テンプレートの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 

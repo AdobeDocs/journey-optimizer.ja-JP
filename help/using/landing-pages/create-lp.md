@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -209,15 +209,15 @@ ht-degree: 100%
 >
 >メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
 
-1. ランディングページのインターフェイスから、「**[!UICONTROL プレビューとテスト]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
+1. ランディングページのインターフェイスで、 **[!UICONTROL コンテンツをシミュレート]** ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >「**[!UICONTROL プレビュー]**」ボタンには、コンテンツデザイナーからもアクセスできます。
+   >この **[!UICONTROL コンテンツをシミュレート]** ボタンには、コンテンツデザイナーからもアクセスできます。
 
-1. 「**[!UICONTROL プレビューとテスト]**」画面から、1 つ以上のテストプロファイルを選択します。
+1. 次の **[!UICONTROL シミュレート]** 画面で、1 つ以上のテストプロファイルを選択します。
 
    ![](assets/lp_test-profiles.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 87%
 
 ---
 
@@ -82,15 +82,13 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
    「**[!UICONTROL n:n 列]**」コンポーネントを選択して、列数（3～10）を任意に定義します。各列の下部にある矢印を動かして、各列の幅を定義することもできます。
 
-   ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >各列のサイズを構造コンポーネントの全幅の 10％未満にすることはできません。空でない列は削除できません。
 
-1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;セクションを展開し、必要な数の要素を 1 つ以上の構造コンポーネントに追加します。[詳しくは、コンテンツコンポーネントを参照してください](content-components.md)
+1. 次の **[!UICONTROL コンテンツコンポーネント]** リストを表示し、必要な数の要素を 1 つ以上の構造コンポーネントに追加します。 [詳しくは、コンテンツコンポーネントを参照してください](content-components.md)
 
-1. 各コンポーネントは、**[!UICONTROL コンポーネント設定]**&#x200B;の右側のペインを使用すると、さらにカスタマイズできます。例えば、コンポーネントのテキストスタイル、パディングまたは余白を変更できます。[詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
+1. 各コンポーネントは、 **[!UICONTROL 設定]** または **[!UICONTROL スタイル]** 」タブを右側のメニューに表示します。 例えば、コンポーネントのテキストスタイル、パディングまたは余白を変更できます。[詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -104,7 +102,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
    ![](assets/email_designer_personalization.png)
 
-1. 動的コンテンツを追加して、条件付きルールに基づいてコンテンツをターゲットプロファイルに適応させます。[動的コンテンツの基本を学ぶ](../personalization/get-started-dynamic-content.md)
+1. クリック **[!UICONTROL 条件の内容を有効にする]** ：動的コンテンツを追加し、条件ルールに基づいてターゲットプロファイルにコンテンツを適応させます。 [動的コンテンツの基本を学ぶ](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -112,7 +110,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
    ![](assets/email_designer_links.png)
 
-1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックしてコードエディターに切り替え、メールをさらにパーソナライズできます。[詳しくは、コードエディターを参照してください](code-content.md)
+1. 「 」をクリックして、E メールをさらにパーソナライズできます。 **[!UICONTROL コードエディターに切り替え]** を選択します。 [詳しくは、コードエディターを参照してください](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 

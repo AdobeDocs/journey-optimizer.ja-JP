@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: テキスト, メール, バージョン, プレーン, エディター
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ HTML コンテンツを表示できない場合に使用するため、メール
 
 別の内容のプレーンテキストバージョンを使用するには、次の手順に従います。
 
-1. メールから「**[!UICONTROL プレーンテキスト]**」タブを選択します。
+1. 電子メールから、 **[!UICONTROL プレーンテキスト]** アイコン
 
    ![](assets/text_version_3.png)
 

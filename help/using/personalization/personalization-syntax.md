@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
@@ -158,7 +158,7 @@ Journey Optimizer では、パーソナライゼーションフィールドを�
 1. メッセージコンテンツにリンクを作成します。[詳細情報](../email/message-tracking.md#insert-links)
 1. パーソナライゼーションアイコンから、属性を選択します。パーソナライゼーションアイコンは、**外部リンク**、**購読解除リンク**&#x200B;および&#x200B;**オプトアウト**&#x200B;のリンクでのみ使用できます。
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

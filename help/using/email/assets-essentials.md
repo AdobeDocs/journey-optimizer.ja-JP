@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: アセット, 初期設定, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 86%
 
 ---
 
@@ -57,29 +57,23 @@ ht-degree: 100%
 
 1. **[!UICONTROL ファイルをアップロード]**&#x200B;画面で「**[!UICONTROL 参照]**」をクリックして、**[!UICONTROL ファイルを参照]**&#x200B;するか&#x200B;**[!UICONTROL フォルダーを参照]**&#x200B;するかを選択します。
 
-   ![](assets/media_library_3.png)
+1. アップロードするファイルを選択します。完了したら、「**[!UICONTROL アップロード]**」をクリックします。アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
 
-1. アップロードするファイルを選択します。完了したら、「**[!UICONTROL アップロード]**」をクリックします。
-
-   アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
-
-1. アセットがアップロードされると、電子メールデザイナーを使用してメッセージのいずれかにアセットを挿入できるようになります。
-
-   また、アセットは [!DNL Assets Essentials] の&#x200B;**編集**&#x200B;モードでさらに編集することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
+1. Adobe Photoshop Expressでアセットをさらに編集するには、アセットをダブルクリックします。 次に、右側のメニューから、 **[!UICONTROL 編集モード]** アイコン [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
 
    ![](assets/media_library_12.png)
 
-1. [!DNL Adobe Journey Optimizer] で、電子メールデザイナーの左パネルにある「**[!UICONTROL アセットピッカー]**」を選択します。
+1. 送信者 [!DNL Adobe Journey Optimizer]を選択し、 **[!UICONTROL アセットピッカー]** メニューを使用します。
 
    ![](assets/media_library_5.png)
 
-1. **[!UICONTROL Assets]** フォルダーを選択します。検索バーで、アセットやフォルダーを検索することもできます。
+1. 以前に作成したを選択 **[!UICONTROL Assets]** フォルダー。 検索バーで、アセットやフォルダーを検索することもできます。
 
 1. アセットをメールコンテンツにドラッグ＆ドロップします。
 
    ![](assets/media_library_6.png)
 
-1. **[!UICONTROL コンポーネント設定]**&#x200B;を使用して外部リンクやテキストを追加するなど、アセットをさらにカスタマイズすることができます。詳しくは、[コンポーネント設定](content-components.md)を参照してください。
+1. さらに、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** タブ 詳しくは、[コンポーネント設定](content-components.md)を参照してください。
 
    ![](assets/media_library_13.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: インライン, スタイル設定, 属性, エディター
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 100%
 E メールデザイナーインターフェイスで要素を選択し、サイドパネルで設定を表示すると、その要素のインライン属性と属性の値をカスタマイズできます。
 
 1. コンテンツの要素を選択します。
-1. サイドパネルで、**[!UICONTROL インラインのスタイル]**&#x200B;設定を探します。
+
+1. 次の **[!UICONTROL スタイル]** タブで、 **[!UICONTROL スタイルインライン]** 設定を **[!UICONTROL 詳細]** 」ドロップダウンリストから選択できます。
 
    ![](assets/styles_1.png)
 

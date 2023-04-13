@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '643'
+ht-degree: 87%
 
 ---
 
@@ -74,15 +74,13 @@ ht-degree: 92%
 
 ## メール内のオファーのプレビュー {#preview-offers-in-email}
 
-**[!UICONTROL オファー]**&#x200B;セクションまたはコンテンツコンポーネントの矢印を使用して、決定に含まれる様々なオファーをプレビューできます。
+E メールに追加された決定の一部となる様々なオファーを、 **[!UICONTROL オファー]** 「 」セクションまたはコンテンツコンポーネントの矢印を使用します。
 
 ![](assets/deliver-offer-preview.png)
 
 決定に含まれる様々なオファーを顧客プロファイルで表示するには、次の手順に従います。
 
-1. 「**[!UICONTROL プレビュー]**」をクリックします。
-
-   ![](assets/deliver-offer-preview-button.png)
+1. 次をクリック： **[!UICONTROL 「コンテンツをシミュレート」ボタン]** 」ボタンをクリックします。
 
    >[!NOTE]
    >
@@ -121,4 +119,3 @@ ht-degree: 92%
 [!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

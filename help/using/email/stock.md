@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,6 @@ ht-degree: 100%
 
    選択した画像がライセンス済みでない場合は、[ライセンスを取得](#license-stock-image)する必要があります。
 
-
 ## 類似フォトの検索 {#similar-stock-image}
 
 メールコンテンツ内の既存の画像を [!DNL Adobe Stock] のフォトに置き換えることができます。このオプションは、ライセンス済み／未ライセンスのストック画像、アセットフォルダー内の画像などすべての画像に対して使用できます。
@@ -68,7 +67,7 @@ ht-degree: 100%
 
    選択した画像がライセンス済みでない場合は、[ライセンスを取得](#license-stock-image)する必要があります。
 
-1. 必要に応じて、**[!UICONTROL コンポーネント設定]**&#x200B;メニューで画像をカスタマイズします。[コンポーネント設定の詳細情報](content-components.md)。
+1. 必要に応じて、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** タブ [コンポーネント設定の詳細情報](content-components.md)。
 
 ## [!DNL Adobe Stock] からのライセンスの取得 {#license-stock-image}
 
@@ -80,7 +79,7 @@ ht-degree: 100%
 
    ![](assets/stock-license-icon.png)
 
-   その後、ライセンスを取得するための [!DNL Adobe Stock] web サイトにリダイレクトされます。
+   その後、 [!DNL Adobe Stock] ライセンスを購入する Web サイト。
 
    ![](assets/stock-license-photo.png)
 

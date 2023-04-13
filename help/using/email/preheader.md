@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: プリヘッダー, エディター, 概要, メール
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 91%
 
 ---
 
@@ -39,13 +39,9 @@ ht-degree: 100%
 
    ![](assets/preheader_body.png)
 
-1. 右側の&#x200B;**[!UICONTROL 本文の設定]**&#x200B;ペインで、「**[!UICONTROL プリヘッダー]**」フィールドの横にある編集アイコンをクリックしてコンテンツを追加します。
+1. 次の **[!UICONTROL 設定]** 」タブで、横のパーソナライゼーションアイコンをクリックします。 **[!UICONTROL プリヘッダー]** コンテンツを追加するフィールド。
 
    ![](assets/preheader_body_settings.png)
-
-1. プリヘッダーを追加します。「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックして、さらにパーソナライズできます。
-
-   ![](assets/preheader_3.png)
 
 1. **[!UICONTROL パーソナライゼーションを編集]**&#x200B;ウィンドウから、**[!UICONTROL コンテンツブロック]**、**[!UICONTROL 動的コンテンツ]**&#x200B;または&#x200B;**[!UICONTROL パーソナライゼーションフィールド]**&#x200B;を追加できます。
 
