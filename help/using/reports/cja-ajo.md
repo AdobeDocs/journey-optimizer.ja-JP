@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
+source-git-commit: 0e45d6e4995f4f21dc5122203b715ae999e2b760
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 
 ➡️ [Customer Journey Analytics の概要を確認する](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja){target="_blank"}
 
+>[!NOTE]
+>
+>この統合に加えて、Adobe Journey Optimizerデータセットの内容をクラウドストレージの場所に書き出し、この情報をレポートや分析に使用することもできます。 [クラウドストレージの場所にデータセットを書き出す方法を説明します。](../data/export-datasets.md)
+>
+>データセット書き出し機能は、現在ベータ版で、すべてのAdobe Journey Optimizerユーザーが使用できます。 アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。
+
 ジャーニーで [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
 
 1. Adobe Experience Platform に送信する&#x200B;**[!UICONTROL データセット]**&#x200B;を使用して、[!DNL Customer Journey Analytics] で[接続を作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja)します。
@@ -38,7 +44,6 @@ ht-degree: 100%
 1. [データビューを作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)して、レポートに使用するディメンションおよび指標を設定します。
 
    Journey Optimizer 固有の指標を作成して、ジャーニーのデータをよりよく反映できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=ja#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
-
 
 [!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] を使用する場合、次の原因により、レポートデータに何らかの相違が生じる可能性があります。
 
