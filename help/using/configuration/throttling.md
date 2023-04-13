@@ -6,16 +6,17 @@ description: Throttling API の使用方法を学ぶ
 role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Throttling API の使用
 
-Throttling API を使用すると、スロットル設定を作成、設定および監視できます。
+スロットル API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
 
 この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/)を参照してください。
 
