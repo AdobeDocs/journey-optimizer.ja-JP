@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 92%
 
 ---
 
@@ -22,10 +22,13 @@ ht-degree: 100%
 
 例えば、受信者のロイヤルティレベルに応じて変わる特別割引オファーを、メールに表示する決定を追加できます。
 
-オファーの管理および作成方法について詳しくは、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
+>[!IMPORTANT]
+>
+>ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。  これにより、変更がジャーニーのメッセージに組み込まれ、メッセージが最新の更新と一致するようになります。
 
+* オファーの管理および作成方法について詳しくは、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 
-[こちらの節](../offers/offers-e2e.md#insert-decision-in-email)では、オファーを設定して決定機能で使用し、その決定結果を電子メールで活用する方法を示した&#x200B;**完全なエンドツーエンドの例**&#x200B;を紹介しています。
+* [こちらの節](../offers/offers-e2e.md#insert-decision-in-email)では、オファーを設定して決定機能で使用し、その決定結果を電子メールで活用する方法を示した&#x200B;**完全なエンドツーエンドの例**&#x200B;を紹介しています。
 
 ➡️ オファーをパーソナライゼーションとして追加する方法については、[このビデオ](#video-offers)をご覧ください
 

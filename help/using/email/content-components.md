@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: コンポーネント, 電子メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '1223'
+ht-degree: 96%
 
 ---
 
@@ -197,3 +197,6 @@ ht-degree: 100%
 
 パーソナライズされたオファーをメールに追加する方法については、[この節](add-offers-email.md)を参照してください。
 
+>[!IMPORTANT]
+>
+>ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。  これにより、変更がジャーニーのメッセージに組み込まれ、メッセージが最新の更新と一致するようになります。
