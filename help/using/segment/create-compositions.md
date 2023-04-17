@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 92%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 100%
    ![](assets/audiences-publish.png)
 
 1. コンポジションの準備ができたら、「**[!UICONTROL 公開]**」ボタンをクリックして、コンポジションを公開し、結果のオーディエンスを Adobe Experience Platform に保存します。
+
+   >[!IMPORTANT]
+   >
+   >特定のサンドボックス内で最大 75 個のコンポジションを公開できます。 このしきい値に達した場合は、スペースを解放して新しいコンポジションを公開するために、コンポジションを削除する必要があります。
 
    公開中にエラーが発生した場合は、問題の解決方法に関する情報と共にアラートが表示されます。
 
