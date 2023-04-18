@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '886'
+ht-degree: 94%
 
 ---
 
 # アプリ内コンテンツのデザイン {#design-content}
 
-アプリ内コンテンツを編集して、メッセージのレイアウトと表示、テキスト、ボタンのオプションなどのエクスペリエンスオプションを設定できます。
+アプリ内コンテンツを編集して、エクスペリエンスオプションを設定できます。
 
-メッセージのコンテンツを設定するには、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックし、画面の右側のセクションにあるオプションを使用して、アプリ内メッセージコンテンツをデザインします。
+* 内 **[!UICONTROL Campaign]**、 **[!UICONTROL アクション]** メニューで、メッセージの内容を設定するには、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* 内 **[!UICONTROL ジャーニー]**（アプリ内の詳細設定メニューから） **[!UICONTROL アクション]**&#x200B;を使用する場合は、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。
+
+   ![](assets/design_inapp_journey.png)
 
 **[!UICONTROL 詳細フォーマット]**&#x200B;の切り替えにより、エクスペリエンスをカスタマイズするための追加オプションがアクティブになります。
 
-アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。その後、キャンペーンスケジュールに従って通知が送信されます。詳しくは、[このページ](create-in-app.md#in-app-send)を参照してください。
+アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。その後、キャンペーンスケジュールに従って通知が送信されます。詳しくは、[このページ](send-in-app.md)を参照してください。
 
 ## メッセージのレイアウト {#message-layout}
 

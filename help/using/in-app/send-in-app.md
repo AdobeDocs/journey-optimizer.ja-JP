@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 ## デバイスでのプレビュー {#preview-device}
 
-[アプリ内メッセージを作成](create-in-app.md)し、[そのコンテンツを定義](design-in-app.md)したら、特定のデバイスでアプリ内通知をプレビューできます。
+すべてのユーザーに対してアプリ内通知のプレビューを提供する場合は、特定のデバイスでプレビューできます。 この機能を使用すると、選択したデバイスで意図したとおりに通知が表示され、機能するようになり、オーディエンスのユーザーエクスペリエンスが向上します。
 
 手順は次のとおりです。
 
@@ -37,7 +38,7 @@ ht-degree: 100%
 
 ## アプリ内通知のレビューとアクティブ化{#in-app-review}
 
-アプリ内メッセージの準備が整ったら、レビューしてアクティブ化できます。
+アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。
 
 手順は次のとおりです。
 

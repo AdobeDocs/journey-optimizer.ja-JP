@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ジャーニー, メッセージ, プッシュ, sms, メール
+keywords: ジャーニー, メッセージ, プッシュ, sms, メール，アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 86%
 
 ---
 
-# メール, SMS, プッシュ{#add-a-message-in-a-journey}
+# メール、アプリ内、プッシュ、SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、SMS またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます.
+[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーに、プッシュ、SMS、アプリ内または E メールメッセージアクティビティを追加し、設定とコンテンツを定義するだけで済みます。 その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます.
 
 また、メッセージを送信する特定のアクションを設定することもできます。
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. ジャーニーを「[イベント](general-events.md)」または「[セグメントを読み取り](read-segment.md)」アクティビティで開始します。
 
-1. パレットの「**アクション**」セクションで、**メール**、**SMS** または **プッシュ**&#x200B;アクティビティをキャンバスに追加します。
+1. 次の **アクション** パレットのセクションで、 **電子メール**、 **アプリ内**、 **SMS** または **プッシュ** アクティビティをキャンバスに追加します。
 
 1. アクティビティを設定します。 メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
@@ -44,6 +44,14 @@ ht-degree: 100%
    <img alt="リード" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>メールの作成</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="リード" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>アプリ内メッセージの作成</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ ht-degree: 100%
 
 ## ライブコンテンツの更新{#update-live-content}
 
-ライブジャーニーでメッセージ（メール、SMS、プッシュ）のコンテンツを更新できます。
+ライブジャーニーでメッセージのコンテンツ（E メール、アプリ内、プッシュ、SMS）を更新できます。
 
 それには、ライブジャーニーを開き、メッセージアクティビティを選択して、「**コンテンツを編集**」をクリックします。
 
 ![](assets/add-a-message2.png)
 
-ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更することはできません。
+ただし、プロファイル属性かコンテキストデータ（イベントプロパティまたはジャーニープロパティから）かにかかわらず、パーソナライゼーションで使用される属性は変更できません。
+
+アプリ内アクティビティの場合、ジャーニーのライブ中はコンテンツに変更を加えることができますが、アプリ内トリガーは変更できません。
 
 ## 送信時間の最適化{#send-time-optimization}
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 99%
+source-wordcount: '1371'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
       + [条件](using/building-journeys/condition-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
-      + [メール、SMS、プッシュ](using/building-journeys/journeys-message.md)
+      + [メール、アプリ内、プッシュ、SMS](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
@@ -205,6 +205,7 @@ ht-degree: 99%
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
    + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
+   + [ジャーニーでのアプリ内メッセージの作成](using/in-app/create-in-app-journey.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
    + [アプリ内通知のテストおよび送信](using/in-app/send-in-app.md)
    + [アプリ内チャネルの設定](using/in-app/inapp-configuration.md)
