@@ -1,23 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: プッシュ通知と Adobe Journey Optimizer
+title: Adobe Journey Optimizerのプッシュ通知フロー
 description: プッシュ通知のデータフローとコンポーネントについて
 topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 93%
 
 ---
 
-# プッシュ通知と Adobe Journey Optimizer {#get-started-push}
+# プッシュ通知データフローとコンポーネント {#get-started-push}
 
-このページは、[!DNL Journey Optimizer] のプッシュ通知に関係する主要なサービスとワークフローのセットアップと理解に役立ちます。プッシュ通知を作成する方法については、[このページ](create-push.md)を参照してください。
+このページでは、でのプッシュ通知に関連する主要なサービスおよびワークフローを設定および理解する方法について説明します。 [!DNL Journey Optimizer].
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
+
+プッシュ通知を作成する方法については、[このページ](create-push.md)を参照してください。
 
 [!DNL Adobe Journey Optimizer] でプッシュチャネルを設定する手順について詳しくは、[このページ](push-configuration.md)を参照してください。
 
@@ -58,8 +67,16 @@ ht-degree: 100%
 
 * **[!DNL Adobe Journey Optimizer]**：上記のコンポーネントとのモバイルアプリ統合が確立され、Adobe Experience Platform に顧客プロファイルが作成されたら、[!DNL Adobe Journey Optimizer] でプッシュ通知の作成と調整を行って、ユーザーのエンゲージメントを促進することができます。
 
-## プッシュテクニカルセットアップおよび実践者ワークフロー {#push-technical-setup}
+## テクニカルセットアップおよび実践ワークフローのプッシュ {#push-technical-setup}
 
 次の図は、プッシュデータフローの骨格を構成するコンポーネントの設定に関する様々な手順をエンドツーエンドで示しています。アクション項目は、設定を実行する役割と設定するコンポーネントに基づいて分類されています。
 
 ![](assets/user-flow.png)
+
+**関連トピック**
+
+* [プッシュチャネルの設定](push-configuration.md)
+* [プッシュ通知レポート](../reports/journey-global-report.md#push-global)
+* [プッシュ通知の作成](create-push.md)
+* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)

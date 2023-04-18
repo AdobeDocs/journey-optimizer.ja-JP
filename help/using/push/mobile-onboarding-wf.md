@@ -1,0 +1,81 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: モバイルオンボーディングのクイックスタートワークフロー
+description: Mobile onboarding のクイックスタートワークフローの使用方法を説明します
+topic: Mobile
+feature: Push
+role: Admin
+level: Intermediate
+hide: true
+hidefromtoc: true
+badge: label="Beta" type="Informative"
+source-git-commit: 145d2a60bc5dbd6e2a92f13afbf2db662f465e36
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 7%
+
+---
+
+
+# モバイルオンボーディングのクイックスタートワークフロー {#mobile-wf}
+
+新しい **モバイルオンボーディングクイックスタートワークフロー** は、Mobile SDK の迅速な設定、モバイルイベントデータの収集と検証の開始、および [!DNL Journey Optimizer].
+
+この機能には、 **[!DNL Adobe Experience Platform Data Collection]** パブリックベータ版としてのすべてのお客様向けのホームページ
+
+## パーソナライゼーションの{#gs-mobile-wf}
+
+この新しいワークフローは、合計クリック数を減らし、Journey Optimizerのモバイル設定を高速化することで、データ収集の設定を自動化します。 このクイックスタートワークフローでは、次の 4 つの簡単な手順を実行できます。 [設定する](##setup-mobile-wf), [実装する](#implement-mobile-wf), [validate](#valid-mobile-wf)、および [レビュー](#review-mobile-wf) モバイル設定を使用します。
+
+新しいモバイルオンボーディングクイックスタートワークフローにアクセスするには、以下を参照します。 **[!DNL Data Collection]** ソリューションスイッチャーから。 次に、 **[!DNL Start Collecting Mobile Data]** カードをホームページに表示します。
+
+![](assets/mobile-wf-home.png)
+
+その他の機能を次に示します。
+
+* 4 つの手順で構成されるワークフローとユーザーインターフェイスが簡単に使用できます。
+* Mobile SDK を介したモバイルイベントデータの収集を数分で開始するための基本的な設定を配信します。
+* アシュランスを活用した基本的なモバイルプッシュイベントのテストと検証が可能です。
+* 必要なすべてのデータ収集とJourney Optimizerアセットを自動で作成および設定します。
+* 製品ガイダンスとツールチップ。
+* 必要に応じて、より高度な実装のための自然な移行を提供します。
+
+## 設定 {#setup-mobile-wf}
+
+このワークフローの最初の手順では、必要なすべてのデータ収集とJourney Optimizerアセット ( モバイルプロパティ、モバイル拡張機能、Journey Optimizer拡張機能、ルール、データ要素など ) を自動的に作成して設定します。
+
+ベータ版利用条件に同意したら、モバイルアプリの名前を入力し、 **[!DNL Next]**.
+
+![](assets/mobile-wf-setup.png)
+
+アプリ ID や認証キー、キーファイルなど、iOSおよび Android プラットフォームの情報を提供します。
+
+## 実装方法{#implement-mobile-wf}
+
+次の手順では、モバイルアプリにコードをインストールする手順を説明します。
+
+![](assets/mobile-wf-add-code.png)
+
+
+## 検証{#valid-mobile-wf}
+
+実装を確認し、検証します。 テストプッシュ通知を送信できます。
+
+![](assets/mobile-wf-valid.png)
+
+
+## レビュー {#review-mobile-wf}
+
+自動セットアップが完了しました。 これで、タグモバイルプロパティにアクセスし、ルールまたはデータ要素を設定し、Adobe Journey Optimizerでプッシュ通知の送信を開始できます。
+
+![](assets/mobile-wf-done.png)
+
+
+**関連トピック**
+
+* [プッシュ通知の基本を学ぶ](get-started-push.md)
+* [プッシュ通知データフローとコンポーネント](push-gs.md)
+* [プッシュチャネルの設定](push-configuration.md)
+* [プッシュ通知レポート](../reports/journey-global-report.md#push-global)
+* [プッシュ通知の作成](create-push.md)

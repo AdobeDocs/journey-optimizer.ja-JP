@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1363'
 ht-degree: 99%
 
 ---
@@ -214,8 +214,9 @@ ht-degree: 99%
    + [プッシュ通知のデザイン](using/push/design-push.md)
    + [プッシュ通知の送信](using/push/send-push.md)
    + プッシュ通知の設定{#push-config}
-      + [プッシュ通知と Adobe Journey Optimizer](using/push/push-gs.md)
+      + [プッシュ通知フロー](using/push/push-gs.md)
       + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
+      + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
 + SMS チャネル{#sms}
    + [SMS の基本を学ぶ](using/sms/get-started-sms.md)
    + [SMS メッセージの作成](using/sms/create-sms.md)
