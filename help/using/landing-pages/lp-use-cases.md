@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '968'
 ht-degree: 100%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 100%
 
 さらに、イベントに登録した受信者に確認メールを送信できます。これを行うには、以下の手順に従います。
 
-1. 別の[ジャーニー](../building-journeys/journey.md)を作成します。「**[!UICONTROL ジャーニーの作成]**」ボタンをクリックすると、ランディングページから直接実行できます。詳しくは、[こちら](create-lp.md#configure-primary-page)を参照してください。
+1. 別の[ジャーニー](../building-journeys/journey.md)を作成します。「**[!UICONTROL ジャーニーの作成]**」ボタンをクリックすると、ランディングページから直接実行できます。[詳細情報](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 「**[!UICONTROL イベント]**」カテゴリを展開し、「**[!UICONTROL セグメントの選定]**」アクティビティをキャンバスにドロップします。詳しくは、[こちら](../building-journeys/segment-qualification-events.md)を参照してください。
+1. 「**[!UICONTROL イベント]**」カテゴリを展開し、「**[!UICONTROL セグメントの選定]**」アクティビティをキャンバスにドロップします。[詳細情報](../building-journeys/segment-qualification-events.md)
 
 1. 「**[!UICONTROL セグメント]**」フィールドをクリックし、作成した購読リストを選択します。
 
@@ -127,13 +127,9 @@ ht-degree: 100%
 
 1. ページのコンテンツを設定して定義したら、ランディングページを[公開](create-lp.md#publish)します。
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. ジャーニーで[メールメッセージを作成します](../email/get-started-email-design.md)。
 
 1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../email/message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. **[!UICONTROL リンクタイプ]**&#x200B;ドロップダウンリストから「**[!UICONTROL ランディングページ]**」を選択し、オプトアウト用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
