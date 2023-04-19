@@ -10,7 +10,8 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
-source-git-commit: 7a044f7c048ba797e7b857212f6d6b0cf2644b5d
+exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 100%

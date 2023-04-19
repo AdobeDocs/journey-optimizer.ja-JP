@@ -6,8 +6,8 @@ description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2572'
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## 2023年4月 {#apr-2023}
 
-* Adobe Experience Manager Assets EssentialsとAdobe Stockが、マルチソリューション統合ページに追加されました。 [詳細情報](../start/ajo-integrations.md)
-* 複数レベルの E メールサブドメインが許可されていない場合の警告は、サポートされるようになったので削除されました。 [詳細情報](../configuration/delegate-subdomain.md)
-* ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合、ジャーニーを非公開にして再公開する必要があることを示す注記を追加しました。 [詳細情報](../building-journeys/publishing-the-journey.md)
+* Adobe Experience Manager Assets Essentials と Adobe Stock をマルチソリューション統合ページに追加しました。[詳細情報](../start/ajo-integrations.md)
+* 複数レベルのメールサブドメインがサポートされるようになったので、許可されていないという警告を削除しました。[詳細情報](../configuration/delegate-subdomain.md)
+* ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があることを示すメモを追加しました。[詳細情報](../building-journeys/publishing-the-journey.md)
 
 ## 2023年3月 {#march-2023}
 

@@ -10,13 +10,13 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 145d2a60bc5dbd6e2a92f13afbf2db662f465e36
+exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
+source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 7%
 
 ---
-
 
 # モバイルオンボーディングのクイックスタートワークフロー {#mobile-wf}
 

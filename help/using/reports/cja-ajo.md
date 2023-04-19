@@ -11,7 +11,7 @@ exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 0e45d6e4995f4f21dc5122203b715ae999e2b760
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->この統合に加えて、Adobe Journey Optimizerデータセットの内容をクラウドストレージの場所に書き出し、この情報をレポートや分析に使用することもできます。 [クラウドストレージの場所にデータセットを書き出す方法を説明します。](../data/export-datasets.md)
+>この統合に加えて、Adobe Journey Optimizer データセットのコンテンツをクラウドストレージの場所に書き出し、この情報をレポートや分析の目的で使用することもできます。[詳しくは、クラウドストレージの場所にデータセットを書き出す方法を参照してください](../data/export-datasets.md)
 >
->データセット書き出し機能は、現在ベータ版で、すべてのAdobe Journey Optimizerユーザーが使用できます。 アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。
+>データセットの書き出し機能は、現在ベータ版です。すべての Adobe Journey Optimizer ユーザーがご利用いただけます。アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。
 
 ジャーニーで [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
 

@@ -6,13 +6,13 @@ description: Capping API の使用方法を学ぶ
 role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 100%
 
 ---
-
 
 # Capping API の使用 {#work}
 
@@ -109,7 +109,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 テストと設定に役立つように、[こちら](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)で Postman コレクションを使用できます。
 
-この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を通じて生成された Postman 変数コレクションを共有するように設定されています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
+この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を使用して生成された Postman 変数コレクションを共有するようにセットアップされています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
 
 ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
 * `{JO_HOST}` : [!DNL Journey Optimizer] ゲートウェイ URL
@@ -121,8 +121,8 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 ユースケース n°1：**新しいキャッピング設定の作成とデプロイ**
 
 1. list
-1. 作成
-1. デプロイ可能
+1. create
+1. candeploy
 1. デプロイ
 
 ユースケース n°2：**まだデプロイされていないキャッピング設定の更新とデプロイ**
@@ -130,7 +130,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 1. list
 1. get
 1. update
-1. デプロイ可能
+1. candeploy
 1. デプロイ
 
 ユースケース n°3：**デプロイ済みのキャッピング設定のデプロイ解除と削除**

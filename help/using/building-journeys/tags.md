@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: ジャーニー、タグ
 badge: label="Beta" type="Informative"
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%

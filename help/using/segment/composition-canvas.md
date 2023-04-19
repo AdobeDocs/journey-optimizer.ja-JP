@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-オーディエンスの構成は、オーディエンスを作成し、様々なアクティビティ（分割、エンリッチメントなど）を使用できる視覚的なキャンバスを提供します。
+オーディエンスコンポジションは、オーディエンスを作成し、様々なアクティビティ（分割、エンリッチメントなど）を使用できる視覚的なキャンバスを提供します。
 
 キャンバスでオーディエンスを作成する手順は次のとおりです。
 
