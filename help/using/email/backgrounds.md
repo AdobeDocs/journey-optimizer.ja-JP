@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 背景,メール,カラー,エディター
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
 ht-degree: 100%
 
