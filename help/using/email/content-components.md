@@ -16,7 +16,7 @@ ht-degree: 74%
 
 ---
 
-# 電子メールデザイナーのコンテンツコンポーネントを使用する {#content-components}
+# メールデザイナーのコンテンツコンポーネントを使用する {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
