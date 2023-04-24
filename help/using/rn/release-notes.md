@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f36c42c5de52da3be894737ac4c73b7ad529fc4
+source-git-commit: c523783b0984a36f919a581053e994ca131a0115
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
