@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
-workflow-type: ht
-source-wordcount: '1508'
-ht-degree: 100%
+source-git-commit: 0f36c42c5de52da3be894737ac4c73b7ad529fc4
+workflow-type: tm+mt
+source-wordcount: '1896'
+ht-degree: 81%
 
 ---
 
@@ -21,32 +21,112 @@ ht-degree: 100%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-<!--
-## April 2023 Updates {#apr-2023}
+
+## 2023 年 4 月の早期リリースノート {#apr-e-rn-2023}
+
+以下の情報は、リリースの公開日まで予告なく変更される場合があります。更新されたドキュメントはリリース日に公開され、ダイレクトリンクがこのページに追加されます。
+
+****&#x200B;リリース日：2023年4月27日（PT）
+
+### 新機能{#apr-2023-features}
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+<th><strong>Web チャネル（一般公開）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications with Adobe Journey Optimizer. This capability is accessible via the Data Collection home page as a public beta.</p>
+<p>Adobe Journey Optimizerは、web チャネルのサポートを追加して、クロスチャネル機能を拡張しています。 スマートで直感的なビジュアルインターフェイスを使用して、Web エクスペリエンスをその他のチャネルと同じように作成、変更、プレビューし、エンドユーザーエクスペリエンスをパーソナライズできます。 現在、Journey Optimizerでは、キャンペーンでのみ Web エクスペリエンスを作成できます。</p>
+<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>モバイルオンボーディングのクイックスタートワークフロー（ベータ版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しいモバイルオンボーディングクイックスタートワークフローが使用できるようになりました。 この新しい製品機能を使用すると、Mobile SDK をすばやく設定して、モバイルイベントデータの収集と検証を開始し、Adobe Journey Optimizerでモバイルプッシュ通知を送信できます。 この機能には、パブリックベータ版としてデータ収集ホームページからアクセスできます。</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+<p>詳しくは、<a href="../push/mobile-onboarding-wf.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## 2023年3月リリースノート {#mar-2023}
+<table>
+<thead>
+<tr>
+<th><strong>新しいジャーニーダッシュボード（ベータ版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> ジャーニーダッシュボードが次の 2 つのタブに分割されました。</p>
+<ul><li>以下を使用： <strong>概要</strong> タブをクリックして、ジャーニーに関連する主要指標を表示する新しいダッシュボードにアクセスします。</li>
+<li>以下を使用： <strong>参照</strong> タブをクリックして、すべてのジャーニーのリストにアクセスします。</li></ul>
+<p>この機能は、すべてのジャーニーでパブリックベータ版としてアクセスできます。</p>
+<img src="assets/do-not-localize/journey-dashboard.gif"/>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
 
+### 機能強化 {#april-2023-improvements}
+
+**ジャーニー**
+
+* ジャーニーキャンバスに、アクションノードと終了タグのアクティビティ ID が表示されるようになりました。 これにより、レポートとリターゲティングが向上します。
+* アクション、データソース、イベント、ジャーニーに表示される設定ペインのレイアウトが改善されました。
+* ジャーニーに新しいガードレールが追加されました。
+   * ジャーニーのノード数が最大 50 個に制限されるようになりました
+   * 1 つの組織内のライブジャーニーの数が、最大 100 に制限されるようになりました。 テストモードのジャーニーは考慮されません。
+
+* ジャーニーに E メール、SMS、またはプッシュアクションを追加する場合、デフォルトでは、そのチャネルで最後に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
+* カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。
+
+**レポート**
+
+* Journey OptimizerレポートをPDFとして書き出せるようになりました。
+
+**コンテンツデザイナー**
+
+* Adobe Journey Optimizerコンテンツデザイナーが更新され、デザインスタイルとコンポーネントにアクセスしやすくなりました。 この新しいバージョンでは、ユーザーエクスペリエンスの向上を提案し、パフォーマンスの向上、ダークモードの部分互換性、新しいアクセシビリティ標準のサポートが追加されました。
+
+
+
+## 2023 年 3 月リリースノート {#mar-2023}
 
 ### 新機能{#mar-2023-features}
 
@@ -142,7 +222,7 @@ ht-degree: 100%
 
    最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/global-report.md#modify-dashboard)を参照してください。
 
-## 2023年2月リリースノート {#feb-2023}
+## 2023 年 2 月リリースノート {#feb-2023}
 
 ### 新機能{#feb-2023-features}
 
@@ -270,7 +350,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL のパーソナライゼーション** - オファーの表示域にコンテンツとして URL を追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。[詳細情報](../offers/offer-library/add-representations.md)
 
-## 2023年1月リリース {#jan-2023-release}
+## 2023年1月リリースノート{#jan-2023-release}
 
 ### 新機能{#jan-2023-features}
 

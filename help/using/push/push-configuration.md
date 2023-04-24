@@ -6,10 +6,10 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
-workflow-type: ht
-source-wordcount: '1536'
-ht-degree: 100%
+source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
+workflow-type: tm+mt
+source-wordcount: '1587'
+ht-degree: 96%
 
 ---
 
@@ -17,12 +17,10 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
-<!--
 >[!AVAILABILITY]
 >
->The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
->
--->
+>新しい **モバイルオンボーディングクイックスタートワークフロー** が利用できるようになりました。 この新しい製品機能を使用すると、Mobile SDK をすばやく設定して、モバイルイベントデータの収集と検証を開始し、モバイルプッシュ通知を送信できます。 この機能には、パブリックベータ版としてデータ収集ホームページからアクセスできます。 [詳細情報](mobile-onboarding-wf.md)
+
 
 ## 開始する前に {#before-starting}
 
