@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -59,21 +59,21 @@ ht-degree: 86%
 
 1. アップロードするファイルを選択します。完了したら、「**[!UICONTROL アップロード]**」をクリックします。アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
 
-1. Adobe Photoshop Expressでアセットをさらに編集するには、アセットをダブルクリックします。 次に、右側のメニューから、 **[!UICONTROL 編集モード]** アイコン [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
+1. Adobe Photoshop Express でアセットをさらに編集するには、アセットをダブルクリックします。次に、右側のメニューから、「**[!UICONTROL 編集モード]**」アイコンを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
 
    ![](assets/media_library_12.png)
 
-1. 送信者 [!DNL Adobe Journey Optimizer]を選択し、 **[!UICONTROL アセットピッカー]** メニューを使用します。
+1. [!DNL Adobe Journey Optimizer] で、メールデザイナーの左パネルにある「**[!UICONTROL AEM Asset ピッカー]**」を選択します。
 
    ![](assets/media_library_5.png)
 
-1. 以前に作成したを選択 **[!UICONTROL Assets]** フォルダー。 検索バーで、アセットやフォルダーを検索することもできます。
+1. 以前に作成した **[!UICONTROL Assets]** フォルダーを選択します。検索バーで、アセットやフォルダーを検索することもできます。
 
 1. アセットをメールコンテンツにドラッグ＆ドロップします。
 
    ![](assets/media_library_6.png)
 
-1. さらに、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** タブ 詳しくは、[コンポーネント設定](content-components.md)を参照してください。
+1. 「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」を使用して、外部リンクやテキストを追加するなど、アセットをさらにカスタマイズすることができます。詳しくは、[コンポーネント設定](content-components.md)を参照してください。
 
    ![](assets/media_library_13.png)
 

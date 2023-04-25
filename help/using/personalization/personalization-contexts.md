@@ -12,7 +12,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 93%
 
 ![](assets/perso_subject.png)
 
-E メールデザイナーでは、コンテンツをパーソナライズできます。
+メールデザイナーでは、コンテンツをパーソナライズできます。
 
-* 内 **メッセージ**:テキストブロック内をクリックし、 **パーソナライゼーションを追加** アイコンを使用します。 E メールデザイナーインターフェイスについて詳しくは、この[節](../email/get-started-email-design.md)を参照してください。
+* **メッセージ**&#x200B;内：テキストブロック内をクリックし、コンテキストツールバーの「**パーソナライゼーションを追加**」アイコンをクリックします。E メールデザイナーインターフェイスについて詳しくは、この[節](../email/get-started-email-design.md)を参照してください。
 
    ![](assets/perso_insert.png)
 

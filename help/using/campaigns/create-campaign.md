@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 100%
 

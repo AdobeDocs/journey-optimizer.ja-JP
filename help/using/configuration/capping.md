@@ -8,7 +8,7 @@ level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 100%
 

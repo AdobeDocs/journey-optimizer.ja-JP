@@ -12,7 +12,7 @@ exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ HTML コンテンツを表示できない場合に使用するため、メール
 
 別の内容のプレーンテキストバージョンを使用するには、次の手順に従います。
 
-1. 電子メールから、 **[!UICONTROL プレーンテキスト]** アイコン
+1. メールから「**[!UICONTROL プレーンテキスト]**」アイコンを選択します。
 
    ![](assets/text_version_3.png)
 

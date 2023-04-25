@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->保存済みの式の内容に関する詳細情報は、省略記号ボタンから取得できます。 ライブラリ項目を管理する権限を持っている場合は、省略記号に情報ボタンが表示されます。
+>保存済み式の内容に関する詳細情報は、「...」ボタンから取得できます。ライブラリ項目を管理する権限がある場合は、省略記号に情報ボタンが表示されます。
 
 「+」をクリックして、エディターに式を挿入します。その後、通常どおりにパーソナライゼーションコンテンツをカスタマイズして検証できます。[詳細情報](../personalization/personalization-build-expressions.md)
 

@@ -12,7 +12,7 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -74,13 +74,13 @@ ht-degree: 95%
 
 ## メール内のオファーのプレビュー {#preview-offers-in-email}
 
-E メールに追加された決定の一部となる様々なオファーを、 **[!UICONTROL オファー]** 「 」セクションまたはコンテンツコンポーネントの矢印を使用します。
+「**[!UICONTROL オファー]**」セクションまたはコンテンツコンポーネントの矢印を使用して、メールに追加した決定に含まれる様々なオファーをプレビューできます。
 
 ![](assets/deliver-offer-preview.png)
 
 決定に含まれる様々なオファーを顧客プロファイルで表示するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL 「コンテンツをシミュレート」ボタン]** 」ボタンをクリックします。
+1. **[!UICONTROL 「コンテンツをシミュレート」ボタン]** ボタンをクリックします。
 
    >[!NOTE]
    >

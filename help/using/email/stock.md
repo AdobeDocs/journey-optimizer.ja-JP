@@ -12,7 +12,7 @@ exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 96%
 
    選択した画像がライセンス済みでない場合は、[ライセンスを取得](#license-stock-image)する必要があります。
 
-1. 必要に応じて、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** タブ [コンポーネント設定の詳細情報](content-components.md)。
+1. 必要に応じて、「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブで画像をカスタマイズします。[コンポーネント設定の詳細情報](content-components.md)。
 
 ## [!DNL Adobe Stock] からのライセンスの取得 {#license-stock-image}
 
@@ -79,7 +79,7 @@ ht-degree: 96%
 
    ![](assets/stock-license-icon.png)
 
-   その後、 [!DNL Adobe Stock] ライセンスを購入する Web サイト。
+   その後、ライセンスを購入するための [!DNL Adobe Stock] web サイトにリダイレクトされます。
 
    ![](assets/stock-license-photo.png)
 

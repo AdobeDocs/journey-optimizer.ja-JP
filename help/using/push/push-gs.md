@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizerのプッシュ通知フロー
+title: Adobe Journey Optimizer のプッシュ通知フロー
 description: プッシュ通知のデータフローとコンポーネントについて
 topic: Mobile
 feature: Push
@@ -11,13 +11,13 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
-# プッシュ通知データフローとコンポーネント {#get-started-push}
+# プッシュ通知のデータフローとコンポーネント {#get-started-push}
 
-このページでは、でのプッシュ通知に関連する主要なサービスおよびワークフローを設定および理解する方法について説明します。 [!DNL Journey Optimizer].
+このページは、[!DNL Journey Optimizer] でのプッシュ通知に関連する主要なサービスとワークフローの設定と理解に役立ちます。
 
 
 >[!AVAILABILITY]
@@ -65,7 +65,7 @@ ht-degree: 87%
 
 * **[!DNL Adobe Journey Optimizer]**：上記のコンポーネントとのモバイルアプリ統合が確立され、Adobe Experience Platform に顧客プロファイルが作成されたら、[!DNL Adobe Journey Optimizer] でプッシュ通知の作成と調整を行って、ユーザーのエンゲージメントを促進することができます。
 
-## テクニカルセットアップおよび実践ワークフローのプッシュ {#push-technical-setup}
+## プッシュテクニカルセットアップおよび実践者ワークフロー {#push-technical-setup}
 
 次の図は、プッシュデータフローの骨格を構成するコンポーネントの設定に関する様々な手順をエンドツーエンドで示しています。アクション項目は、設定を実行する役割と設定するコンポーネントに基づいて分類されています。
 

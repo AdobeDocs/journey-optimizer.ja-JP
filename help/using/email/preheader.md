@@ -12,7 +12,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 91%
 
    ![](assets/preheader_body.png)
 
-1. 次の **[!UICONTROL 設定]** 」タブで、横のパーソナライゼーションアイコンをクリックします。 **[!UICONTROL プリヘッダー]** コンテンツを追加するフィールド。
+1. 「**[!UICONTROL 設定]**」タブから、「**[!UICONTROL プリヘッダー]**」フィールドの横にあるパーソナライゼーションアイコンをクリックしてコンテンツを追加します。
 
    ![](assets/preheader_body_settings.png)
 

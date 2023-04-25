@@ -10,7 +10,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 94%
 
 アプリ内コンテンツを編集して、エクスペリエンスオプションを設定できます。
 
-* 内 **[!UICONTROL Campaign]**、 **[!UICONTROL アクション]** メニューで、メッセージの内容を設定するには、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。
+* **[!UICONTROL Campaign]** で、**[!UICONTROL アクション]**&#x200B;メニューからメッセージコンテンツを設定するには、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
    ![](assets/edit-in-app-content.png)
 
-* 内 **[!UICONTROL ジャーニー]**（アプリ内の詳細設定メニューから） **[!UICONTROL アクション]**&#x200B;を使用する場合は、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。
+* **[!UICONTROL ジャーニー]**&#x200B;では、アプリ内&#x200B;**[!UICONTROL アクション]**&#x200B;の詳細メニューから、「**[!UICONTROL コンテンツを編集]**」ボタンを使用してコンテンツのデザインを開始できます。
 
    ![](assets/design_inapp_journey.png)
 

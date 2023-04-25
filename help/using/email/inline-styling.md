@@ -12,7 +12,7 @@ exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ E メールデザイナーインターフェイスで要素を選択し、サイ
 
 1. コンテンツの要素を選択します。
 
-1. 次の **[!UICONTROL スタイル]** タブで、 **[!UICONTROL スタイルインライン]** 設定を **[!UICONTROL 詳細]** 」ドロップダウンリストから選択できます。
+1. 「**[!UICONTROL スタイル]**」タブから、**[!UICONTROL 詳細]**&#x200B;ドロップダウンの下にある&#x200B;**[!UICONTROL スタイルインライン]**&#x200B;設定を検索します。
 
    ![](assets/styles_1.png)
 

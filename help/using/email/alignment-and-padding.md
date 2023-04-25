@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 67%
 
 1. ツールバーから、「**[!UICONTROL 列を選択]**」をクリックし、編集する列を選択します。構造ツリーから選択することもできます。
 
-   その列の編集可能なパラメータが、 **[!UICONTROL スタイル]** タブをクリックします。
+   その列の編集可能なパラメーターが、「**[!UICONTROL スタイル]**」タブに表示されます。
 
    ![](assets/alignment_2.png)
 
-1. の下 **[!UICONTROL 整列]**&#x200B;を選択します。 **[!UICONTROL 上]**, **[!UICONTROL 中央]** または **[!UICONTROL 下]**.
+1. **[!UICONTROL 整列]**&#x200B;で、「**[!UICONTROL 上]**」、「**[!UICONTROL 中央]**」、または「**[!UICONTROL 下]**」を選択します。
 
    ![](assets/alignment_3.png)
 
-1. の下 **[!UICONTROL パディング]**、すべての辺のパディングを定義します。
+1. 「**[!UICONTROL パディング]**」で、すべての辺のパディングを定義します。
 
-   選択 **[!UICONTROL 各辺のパディング]** パディングを微調整する場合。 同期を解除するには、ロックアイコンをクリックします。
+   パディングを微調整する場合は、「**[!UICONTROL 各辺に異なるパディングを使用]**」を選択します。鍵アイコンをクリックして、同期を解除します。
 
    ![](assets/alignment_4.png)
 

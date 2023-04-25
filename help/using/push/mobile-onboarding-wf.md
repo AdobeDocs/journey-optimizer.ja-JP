@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: モバイルオンボーディングのクイックスタートワークフロー
-description: Mobile onboarding のクイックスタートワークフローの使用方法を説明します
+description: モバイルオンボーディングのクイックスタートワークフローの使用方法を学ぶ
 topic: Mobile
 feature: Push
 role: Admin
@@ -14,7 +14,7 @@ exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 7%
+ht-degree: 80%
 
 ---
 
@@ -22,34 +22,34 @@ ht-degree: 7%
 
 新しい **モバイルオンボーディングクイックスタートワークフロー** は、Adobe Experience Platform Mobile SDK の迅速な設定、モバイルイベントデータの収集と検証の開始、および [!DNL Journey Optimizer].
 
-この機能には、 **[!DNL Adobe Experience Platform Data Collection]** パブリックベータ版としてのすべてのお客様向けのホームページ
+この機能は、パブリックベータ版としてすべてのお客様が **[!DNL Adobe Experience Platform Data Collection]** ホームページからアクセスできます。
 
-## パーソナライゼーションの{#gs-mobile-wf}
+## 基本を学ぶ{#gs-mobile-wf}
 
-この新しいワークフローは、合計クリック数を減らし、Journey Optimizerのモバイル設定を高速化することで、データ収集の設定を自動化します。 このクイックスタートワークフローでは、次の 4 つの簡単な手順を実行できます。 [設定する](##setup-mobile-wf), [実装する](#implement-mobile-wf), [validate](#valid-mobile-wf)、および [レビュー](#review-mobile-wf) モバイル設定を使用します。
+この新しいワークフローは、合計クリック数を減らし、Journey Optimizer のモバイル設定を高速化することで、データ収集の設定を自動化します。このクイックスタートワークフローでは、4 つの簡単な手順に従って、モバイル設定を[設定](##setup-mobile-wf)、[実装](#implement-mobile-wf)、[検証](#valid-mobile-wf)、[レビュー](#review-mobile-wf)できます。
 
-新しいモバイルオンボーディングクイックスタートワークフローにアクセスするには、以下を参照します。 **[!DNL Data Collection]** ソリューションスイッチャーから。 次に、 **[!DNL Start Collecting Mobile Data]** カードをホームページに表示します。
+新しいモバイルオンボーディングクイックスタートワークフローにアクセスするには、ソリューション切り替えツールから **[!DNL Data Collection]** を参照します。次に、ホームページで **[!DNL Start Collecting Mobile Data]** カードを選択します。
 
 ![](assets/mobile-wf-home.png)
 
-その他の機能を次に示します。
+一部の追加機能を以下に示します。
 
-* 4 つの手順で構成されるワークフローとユーザーインターフェイスが簡単に使用できます。
+* 4 つの簡単な手順のワークフローとユーザーインターフェイス。
 * を使用してモバイルイベントデータの収集を開始するための基本的な設定を配信 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 分単位で指定します。
 * 基本的なモバイルプッシュイベントをテストおよび検証する機能（活用） [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
-* 必要なすべてのデータ収集とJourney Optimizerアセットを自動で作成および設定します。
-* 製品ガイダンスとツールチップ。
-* 必要に応じて、より高度な実装のための自然な移行を提供します。
+* 必要なすべてのデータ収集と Journey Optimizer アセットを自動で作成および設定します。
+* 製品ガイダンスとツールヒント。
+* 必要に応じて、より高度な実装へと自然に移行できます。
 
 ## 設定 {#setup-mobile-wf}
 
-このワークフローの最初の手順では、必要なすべてのデータ収集とJourney Optimizerアセット ( モバイルプロパティ、モバイル拡張機能、Journey Optimizer拡張機能、ルール、データ要素など ) を自動的に作成して設定します。
+このワークフローの最初の手順では、必要なすべてのデータ収集と Journey Optimizer アセット（モバイルプロパティ、モバイル拡張機能、Journey Optimizer 拡張機能、ルール、データ要素など）を自動で作成および設定します。
 
-ベータ版利用条件に同意したら、モバイルアプリの名前を入力し、 **[!DNL Next]**.
+ベータ版利用条件に同意したら、モバイルアプリの名前を入力し、「**[!DNL Next]**」をクリックします。
 
 ![](assets/mobile-wf-setup.png)
 
-アプリ ID や認証キー、キーファイルなど、iOSおよび Android プラットフォームの情報を提供します。
+アプリ ID と認証キーキー ファイルをなど、iOS および Android プラットフォームの情報を入力します。
 
 ## 実装方法{#implement-mobile-wf}
 
@@ -60,14 +60,14 @@ ht-degree: 7%
 
 ## 検証{#valid-mobile-wf}
 
-実装を確認し、検証します。 テストプッシュ通知を送信できます。
+実装をレビューおよび確認して、検証します。テストプッシュ通知を送信します。
 
 ![](assets/mobile-wf-valid.png)
 
 
 ## レビュー {#review-mobile-wf}
 
-自動セットアップが完了しました。 これで、タグモバイルプロパティにアクセスし、ルールまたはデータ要素を設定し、Adobe Journey Optimizerでプッシュ通知の送信を開始できます。
+自動設定が完了しました。これで、タグモバイルプロパティにアクセスしてルールまたはデータ要素を設定し、Adobe Journey Optimizer でプッシュ通知の送信を開始できます。
 
 ![](assets/mobile-wf-done.png)
 
@@ -75,7 +75,7 @@ ht-degree: 7%
 **関連トピック**
 
 * [プッシュ通知の基本を学ぶ](get-started-push.md)
-* [プッシュ通知データフローとコンポーネント](push-gs.md)
+* [プッシュ通知のデータフローとコンポーネント](push-gs.md)
 * [プッシュチャネルの設定](push-configuration.md)
 * [プッシュ通知レポート](../reports/journey-global-report.md#push-global)
 * [プッシュ通知の作成](create-push.md)

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [条件](using/building-journeys/condition-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [セグメントの読み取り](using/building-journeys/read-segment.md)
-      + [メール、アプリ内、プッシュ、SMS](using/building-journeys/journeys-message.md)
+      + [メール, アプリ内, プッシュ, SMS](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-classic.md)
@@ -176,7 +176,7 @@ ht-degree: 98%
    + メールコンテンツのデザイン {#design-email}
       + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
       + コンテンツ作成の開始 {#start-creating-content}
-         + [コンテンツをゼロからデザイン](using/email/content-from-scratch.md)
+         + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
          + [コンテンツの読み込み](using/email/existing-content.md)
          + [コンテンツを独自にコーディング](using/email/code-content.md)
          + [テンプレートの操作](using/email/email-templates.md)
@@ -204,7 +204,7 @@ ht-degree: 98%
       + [メールサーフェス設定の指定](using/email/email-settings.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
-   + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
+   + [アプリ内メッセージの作成](using/in-app/create-in-app.md)
    + [ジャーニーでのアプリ内メッセージの作成](using/in-app/create-in-app-journey.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
    + [アプリ内通知のテストおよび送信](using/in-app/send-in-app.md)
