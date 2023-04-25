@@ -1,15 +1,15 @@
 ---
-title: 意思決定管理イベントの概要
+title: 決定管理イベントの操作
 description: Adobe Experience Platform で意思決定管理レポートを作成する方法を説明します。
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 71%
 
 ---
 
@@ -17,7 +17,24 @@ ht-degree: 100%
 
 意思決定管理で特定のプロファイルに対する決定が行われるたびに、これらのイベントに関連する情報が Adobe Experience Platform に自動的に送信されます。
 
-これにより、これらのデータをエクスポートして、その分析結果を独自のレポートシステムに送信できます。また、分析やレポートの強化を目的として、Adobe Experience Platform の[クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)を他のツールと組み合わせて利用することもできます。
+これにより、決定に関するインサイトを得て、例えば、特定のプロファイルに提示されたオファーを把握できます。 これらのデータをエクスポートして分析し、独自のレポートシステムに取り込むことも、Adobe Experience Platformを活用することもできます [クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja) を他のツールと組み合わせて、分析とレポート作成の目的を強化
+
+## データセットで使用できる主要情報 {#key-information}
+
+決定時に送信される各イベントには、分析やレポート作成の目的で利用できる 4 つの主要なデータポイントが含まれています。
+
+![](../assets/events-dataset-preview.png)
+
+* **[!UICONTROL フォールバック]**：フォールバックオファーの名前と ID（パーソナライズされたオファーが選択されていない場合）
+* **[!UICONTROL プレースメント]**：オファーの配信に使用するプレースメントの名前、ID、チャネル
+* **[!UICONTROL 選択]**：プロファイルに対して選択したオファーの名前と ID
+* **[!UICONTROL アクティビティ]**：決定の名前と ID
+
+さらに、**[!UICONTROL identityMap]** と **[!UICONTROL Timestamp]** の各フィールドを利用して、オファー配信時のプロファイルと時刻に関する情報を取得することもできます。
+
+決定のたびに送信されるすべての XDM フィールドについて詳しくは、[この節](xdm-fields.md)を参照してください。
+
+## データセットへのアクセス {#access-datasets}
 
 意思決定管理イベントを含むデータセットには、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューからアクセスできます。各インスタンスのプロビジョニング時、データセットが自動的に 1 つ作成されます。
 
@@ -29,8 +46,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >なお、ODE DecisionEvents データセットは&#x200B;**プロファイル以外のデータセット**&#x200B;です。つまり、Experience Platform に取り込んでリアルタイム顧客プロファイルで使用することはできません。
-
-**関連トピック：**
-
-* [意思決定管理イベントの主な情報](../reports/key-information.md)
-* [イベントの XDM フィールドへのアクセス](../reports/xdm-fields.md)

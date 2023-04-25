@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 100%
+source-wordcount: '1365'
+ht-degree: 99%
 
 ---
 
@@ -357,8 +357,7 @@ ht-degree: 100%
       + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
       + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
    + 意思決定管理レポートの作成 {#create-reports}
-      + [意思決定管理イベントの概要](using/offers/reports/get-started-events.md)
-      + [意思決定管理イベントの主な情報](using/offers/reports/key-information.md)
+      + [決定管理イベントの操作](using/offers/reports/get-started-events.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)

@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,9 +85,9 @@ ht-degree: 100%
 
 1. これらの手順を繰り返して、抽出ファイルを作成するために必要な数の列を追加します。追加できる列数は最大 50 です。
 
-   ![](assets/direct-mail-complete.png)
-
    列を選択して「**[!UICONTROL 書式設定]**」セクションの「**[!UICONTROL 削除]**」ボタンをクリックすると、いつでも列を削除できます。
+
+   ![](assets/direct-mail-complete.png)
 
 1. ダイレクトメールのコンテンツを定義したら、キャンペーンの設定を完了します。
 
