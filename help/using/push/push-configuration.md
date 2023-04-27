@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1587'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->新しい **モバイルオンボーディングクイックスタートワークフロー** が利用できるようになりました。 この新しい製品機能を使用すると、Mobile SDK をすばやく設定して、モバイルイベントデータの収集と検証を開始し、モバイルプッシュ通知を送信できます。 この機能には、パブリックベータ版としてデータ収集ホームページからアクセスできます。 [詳細情報](mobile-onboarding-wf.md)
+>新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;が利用できるようになりました。この新しい製品機能を使用すると、Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、モバイルプッシュ通知を送信できます。この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。[詳細情報](mobile-onboarding-wf.md)
 
 
 ## 開始する前に {#before-starting}
