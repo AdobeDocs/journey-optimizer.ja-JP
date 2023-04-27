@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 100%
@@ -128,6 +128,7 @@ ht-degree: 100%
 「**[!UICONTROL ログを表示]**」ボタンを使用すると、テスト結果を表示できます。このページには、ジャーニーの現在の情報が JSON 形式で表示されます。ボタンを使用すると、ノード全体をコピーできます。ジャーニーのテスト結果を更新するには、ページを手動で更新する必要があります。
 
 ![](assets/journeytest3.png)
+
 
 >[!NOTE]
 >

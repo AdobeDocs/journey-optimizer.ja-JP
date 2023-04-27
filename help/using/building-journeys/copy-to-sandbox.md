@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '835'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="サンドボックスの詳細"
->abstract="ジャーニーのコピー先となる宛先サンドボックスを選択します。IMS 組織内のサンドボックスのみ使用できます。"
+>abstract="ジャーニーのコピー先となる宛先サンドボックスを選択します。 組織内のサンドボックスのみ使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Journey Optimizer では、1 つのサンドボックスから別のサンドボ
 
    ![](assets/copy-sandbox2.png)
 
-3. ドロップダウンフィールドから「**ターゲットサンドボックス**」を選択します。IMS 組織内のサンドボックスのみ使用できます。
+3. ドロップダウンフィールドから「**ターゲットサンドボックス**」を選択します。 組織内のサンドボックスのみ使用できます。
 
 4. 「**依存オブジェクト**」セクションを確認します。これは、ジャーニーで使用される関連オブジェクトのリストです。このリストには、名前、オブジェクトタイプおよび内部 Journey Optimizer ID が表示されます。
 

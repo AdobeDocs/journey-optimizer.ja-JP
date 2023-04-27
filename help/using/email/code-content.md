@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: コード, HTML, エディター
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
@@ -37,9 +37,13 @@ ht-degree: 100%
 
    ![](assets/code-editor.png)
 
-1. E メールデザイナーを開いて新しいデザインのメールに取り掛かる場合は、オプションメニューから「**[!UICONTROL デザインの変更]**」を選択します。
+1. メールの内容をクリアして新しいデザインからメールを開始する場合は、オプション メニューから「**[!UICONTROL デザインを変更]**」を選択します。
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >このアクションにより、メールデザイナーで選択したテンプレートが開きます。ここから、メールのデザインを完成させるか、「**[!UICONTROL コードエディターに切り替え]**」オプションを使用してコードエディターに戻ることができます。
 
 1. 「**[!UICONTROL プレビュー]**」ボタンをクリックし、テストプロファイルを使用したメッセージデザインとパーソナライゼーションを確認します。[詳細情報](preview.md)
 

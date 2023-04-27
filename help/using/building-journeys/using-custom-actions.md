@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 85%
 
 ---
 
@@ -55,18 +55,13 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 ![](assets/journey-custom-action-url.png)
 
-### ヘッダー
+### ヘッダー およびクエリパラメータ {#headers}
 
-「**[!UICONTROL URL 設定]**」セクションには、動的ヘッダーフィールドが表示されますが、定数ヘッダーフィールドは表示されません。動的ヘッダーフィールドは、値が変数として設定される HTTP ヘッダーフィールドです。[詳細情報](../action/about-custom-action-configuration.md)。
+この **[!UICONTROL URL 設定]** 「 」セクションには、動的ヘッダーおよびクエリーパラメーターのフィールドが表示されますが、定数フィールドは表示されません。 動的ヘッダーおよびクエリパラメーターのフィールドは、アクション設定画面で変数として定義されます。 [詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 
-必要に応じて、動的ヘッダーフィールドの値を指定します。
+動的ヘッダーおよびクエリパラメーターフィールドの値を指定するには、フィールド内または鉛筆アイコン上をクリックして、目的のフィールドを選択します。
 
-1. ジャーニーのカスタムアクションを選択します。
-1. 設定ペインで、「**[!UICONTROL URL 設定]**」セクションのヘッダーフィールドの横にある鉛筆アイコンをクリックします。
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. フィールドを選択し、「**[!UICONTROL OK]**」をクリックします。
+![](assets/journey-dynamicheaderfield.png)
 
 ## アクションパラメーター
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ジャーニー, ユースケース, メッセージ, 購読者, リスト, 読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '331'
 ht-degree: 100%
 
 ---
@@ -56,3 +56,7 @@ ht-degree: 100%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. **[!UICONTROL 式を追加]**&#x200B;ダイアログボックスで「**[!UICONTROL OK]**」をクリックします。
+
+>[!CAUTION]
+>
+>メールアドレスの上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。[詳細情報](../configuration/primary-email-addresses.md)

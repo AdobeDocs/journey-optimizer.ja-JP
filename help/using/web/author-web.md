@@ -5,34 +5,25 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 100%
+source-wordcount: '1623'
+ht-degree: 50%
 
 ---
 
 # Web ページの作成 {#author-web}
 
->[!BEGINSHADEBOX]
+一度 [web アクションを追加しました](create-web.md#create-web-campaign) キャンペーンに移動するには、web デザイナーを使用してサイトのコンテンツを編集します。
 
-このドキュメントの内容は次のとおりです。
+In [!DNL Journey Optimizer]を使用する場合、web オーサリングは **Adobe Experience Cloud Visual Helper** chrome ブラウザー拡張機能。 [詳細情報](web-prerequisites.md#visual-authoring-prerequisites)
 
-* [Web チャネルの基本を学ぶ](get-started-web.md)
-* [Web エクスペリエンスの作成](create-web.md)
-* **[Web ページの作成](author-web.md)**
-* [Visual Editing Helper 拡張機能](visual-editing-helper.md)
-* [Web レポート](web-report.md)
+>[!CAUTION]
+>
+>Web ページにアクセスして [!DNL Journey Optimizer] ユーザーインターフェイスで、「 [この節](web-prerequisites.md).
 
->[!ENDSHADEBOX]
-
-[!DNL Journey Optimizer] の web オーサリングは、Adobe Experience Cloud Visual Helper Chrome ブラウザー拡張機能によって動作します。 [詳細情報](visual-editing-helper.md)
-
-[!DNL Journey Optimizer] ユーザーインターフェイスで web ページにアクセスして作成できるようにするには、[この節](create-web.md#prerequesites)に記載されている前提条件に従ってください。
+[Web キャンペーンの作成方法については、このビデオを参照してください](#video)
 
 ## Web ページコンテンツの編集 {#edit-web-content}
 
@@ -48,17 +39,13 @@ ht-degree: 100%
 >abstract="ルールに一致するすべてのページに適用されるコンテンツの編集に使用する特定の web ページの URL を入力します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="詳細情報"
 
-<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
+Web キャンペーンのオーサリングを開始するには、次の手順に従います。
 
-キャンペーンから web アクションを作成したら、web デザイナーを使用してコンテンツを編集できます。 これを行うには、以下の手順に従います。
+1. 次の **[!UICONTROL アクション]** タブ [campaign](create-web.md#create-web-campaign)を選択します。 **[!UICONTROL コンテンツを編集]**.<!--change screen with rule-->
 
->[!CAUTION]
->
->[!DNL Journey Optimizer] でアクセスするには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を使用して web ページを実装する必要があります。
+   ![](assets/web-campaign-edit-content.png)
 
-1. キャンペーンの「**[!UICONTROL アクション]**」タブから、「**[!UICONTROL コンテンツを編集]**」を選択して web キャンペーンの作成を開始します。
-
-1. ルールに一致するページを作成した場合は、このルールに一致する URL を入力する必要があります。 ルールに一致するすべてのページにこの変更が適用されます。
+1. ルールに一致するページを作成した場合は、このルールに一致する URL を入力する必要があります。変更は、ルールに一致するすべてのページに適用されます。 ページのコンテンツが表示されます。
 
    >[!NOTE]
    >
@@ -66,21 +53,21 @@ ht-degree: 100%
 
    ![](assets/web-edit-enter-url.png)
 
-1. ページのコンテンツが表示されます。
-
    >[!CAUTION]
    >
-   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を含める必要があります。
+   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を含める必要があります。[詳細情報](web-prerequisites.md#implementation-prerequisites)
 
-1. 「**[!UICONTROL Web デザイナーを開く]**」をクリックして編集します。[詳細情報](author-web.md)
-
-   ![](assets/web-open-designer.png)
-
-1. Web デザイナーが表示されます。
+1. クリック **[!UICONTROL Web ページを編集]** をクリックしてオーサリングを開始します。 Web デザイナーが表示されます。
 
    ![](assets/web-designer.png)
 
-1. キャンバスから要素（画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど）を選択します。以下を使用します。
+   >[!NOTE]
+   >
+   >の読み込みに失敗した Web サイトを読み込もうとすると、 [Visual Editing Helper ブラウザー拡張機能](#install-visual-editing-helper). トラブルシューティングのヒントについては、 [この節](web-prerequisites.md#troubleshooting).
+
+1. キャンバスから要素（画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど）を選択します。[詳細情報](#content-components)
+
+1. 用途:
 
    * コンテンツ、レイアウト、リンクの挿入、パーソナライゼーションなどを編集するためのコンテキストメニュー。
 
@@ -94,21 +81,25 @@ ht-degree: 100%
 
       ![](assets/web-designer-right-panel.png)
 
-## コンテンツコンポーネントの使用 {#content-components}
+>[!NOTE]
+>
+>Web コンテンツデザイナーは、主に E メールデザイナーと似ています。 詳細は[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+
+## コンポーネントの使用 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Web ページへのコンテンツコンポーネントの追加"
+>title="Web ページへのコンポーネントの追加"
 >abstract="Web ページに多数のコンポーネントを追加し、必要に応じて編集できます。"
 
-1. 左側の&#x200B;**[!UICONTROL コンポーネント]**&#x200B;パネルでは、次のコンポーネントを web ページに追加し、必要に応じて編集できます。
+1. 次の **[!UICONTROL コンポーネント]** 左側のペインで、項目を選択します。 必要に応じて、次のコンポーネントを Web ページに追加し、編集できます。
 
    * [ディバイダー](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [画像](../email/content-components.md#image)
    * 見出し - このコンポーネントを使用することは、電子メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。 [詳細情報](../email/content-components.md#text)
    * 段落 - このコンポーネントを使用することは、電子メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
-   * リンク - [この節](../email/styling-links.md)でリンクスタイルを定義する方法を説明します
+   * リンク
    * [オファーの決定](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
@@ -117,17 +108,94 @@ ht-degree: 100%
 
    ![](assets/web-designer-insert-components.png)
 
-1. このコンポーネントに表示されるコンテナから、必要に応じてコンポーネントのコンテンツを編集します。
+   >[!NOTE]
+   >
+   >コンポーネントの選択を解除するには、 **[!UICONTROL ESC]** ボタンを使用して、キャンバスの上に表示されるコンテキストに沿った青いバナー。
 
-   ![](assets/web-designer-edit-html.png)
+1. 必要に応じて、ページのコンテンツでコンポーネントを直接編集します。
 
-1. 右側の&#x200B;**[!UICONTROL コンテナ]**&#x200B;パネルから表示されるスタイル（背景、テキストカラー、境界線、サイズ、位置など）を調整します。選択したコンポーネントによって異なります。
+   ![](assets/web-designer-edit-header.png)
 
-   ![](assets/web-designer-html-style.png)
+1. 背景、テキストの色、境界線、サイズ、位置など、右側のコンテキストウィンドウから表示するスタイルを調整します。  — 選択したコンポーネントに応じて。
 
-## Web デザイナー内での移動
+   ![](assets/web-designer-header-style.png)
 
-### パンくずリストの使用
+## パーソナライゼーションとオファーの追加
+
+パーソナライゼーションを追加するには、コンテナを選択し、表示されるコンテキストメニューバーからパーソナライゼーションアイコンを選択します。 式エディターを使用して、変更を追加します。[詳細情報](../personalization/personalization-build-expressions.md)
+
+![](assets/web-designer-personalization.png)
+
+**[!UICONTROL オファーの決定]**&#x200B;コンポーネントを使用し、web ページに[オファー](../offers/get-started/starting-offer-decisioning.md)を挿入します。プロセスは、[メールへのオファーの追加](../email/add-offers-email.md)の場合と同じです。意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
+
+![](assets/web-designer-offer.png)
+
+## 変更の管理 {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="すべての変更を簡単に管理"
+>abstract="このパネルを使用すると、web ページに追加したすべての調整とスタイルを移動して管理できます。"
+
+Web ページに追加したすべてのコンポーネント、調整およびスタイルを簡単に管理できます。
+
+1. を選択します。 **[!UICONTROL 変更]** アイコンをクリックして、対応するペインを左側に表示します。
+
+   ![](assets/web-designer-modifications-pane.png)
+
+1. ページに加えた各変更を確認できます。
+
+1. 不要な変更を選択し、削除アイコンをクリックして削除します。
+
+   ![](assets/web-designer-modifications-delete.png)
+
+   >[!CAUTION]
+   >
+   >アクションを削除する場合は後続のアクションに影響する可能性があるので、慎重に作業を進めてください。
+
+1. 以下を使用： **[!UICONTROL その他のアクション]** ボタン **[!UICONTROL 変更]** ペインを使用して、すべての変更を一度に削除できます。
+
+   ![](assets/web-designer-delete-modifications.png)
+
+1. 次の **[!UICONTROL その他のアクション]** メニューでは、無効な変更のみを削除することもできます。つまり、他の変更によって上書きされた変更を削除することもできます。 例えば、テキストの色を変更し、そのテキストを削除すると、テキストは存在しなくなったので、色の変更は無効になります。
+
+1. 画面の右上にある&#x200B;**[!UICONTROL 取り消し／やり直し]**&#x200B;ボタンを使用して、アクションをキャンセルおよびやり直すこともできます。
+
+   ![](assets/web-designer-undo-redo.png)
+
+   「**[!UICONTROL 取り消し]**」オプションと「**[!UICONTROL やり直し]**」オプションを切り替えるには、ボタンをクリックしたままにします。次に、ボタン自体をクリックして、目的のアクションを適用します。
+
+## クリックの追跡を使用 {#use-click-tracing}
+
+Web デザイナーのこの機能を使用すると、Web サイトの任意の要素を選択し、その要素に対するクリックを追跡できます。
+
+キャンペーンが実行されたら、キャンペーン Web レポートで各要素のクリック数を確認できます。 この情報は、Web サイトのユーザーエクスペリエンスを向上させるのに役立ちます。 例えば、 [web レポート](../reports/campaign-global-report.md#web-tab) 実際にクリックできない要素を多くのユーザーがクリックしたことを示します。この要素にリンクを追加する必要がある場合があります。
+
+1. ページの要素を選択し、「 」を選択します。 **[!UICONTROL 追跡要素をクリック]** を選択します。
+
+   ![](assets/web-designer-click-track.png)
+
+   >[!NOTE]
+   >
+   >任意の項目（クリック可能またはクリック不可）を選択できます。
+
+1. 追跡された対応するアクションが、 **[!UICONTROL クリック追跡]** 」パネルを開きます。
+
+   ![](assets/web-designer-click-track-pane.png)
+
+1. トラッキングされるすべての要素を管理し、レポートで簡単に見つけるための意味のあるラベルを追加します。 この **[!UICONTROL CSS セレクター]** 「 」フィールドに、選択した要素を見つけるための情報が表示されます。
+
+1. 上記の手順を繰り返し、クリックの追跡に必要な数の他の要素を選択します。 対応するアクションがすべて左側のウィンドウに表示されます。
+
+   ![](assets/web-designer-click-tracking-actions.png)
+
+1. 要素のクリック追跡を削除するには、対応する削除アイコンを選択します。
+
+キャンペーンがアクティブになると、キャンペーンレポートを確認できます **[!UICONTROL Web]** タブを使用して、インプレッション数、クリック率および要素別のクリック数を比較できます。 [詳細情報](../reports/campaign-global-report.md#web-tab)
+
+## Web デザイナー内での移動 {#navigate-web-designer}
+
+### パンくずリストの使用 {#breadcrumbs}
 
 1. キャンバスから任意の要素を選択します。
 
@@ -154,52 +222,21 @@ ht-degree: 100%
 
 これは、認証の後のページや、特定の URL で最初から使用できないページを処理する場合に特に便利です。例えば、認証を行い、アカウントページや買い物かごページに移動して、**[!UICONTROL デザイン]**&#x200B;モードに戻り、目的のページで変更を実行できます。
 
-### デバイスサイズの変更
+### デバイスサイズの変更 {#change-device-size}
 
-デバイスのサイズは、事前定義済みのサイズ（「**[!UICONTROL タブレット]**」または「**[!UICONTROL モバイル (横置き)]**」など）に変更するか、カスタムサイズを定義できます。目的のピクセルの数値を入力して、カスタムサイズを定義します。
+Web デザイナーのディスプレイのデバイスサイズを、次のような事前定義済みのサイズに変更できます。 **[!UICONTROL タブレット]** または **[!UICONTROL モバイル横]**&#x200B;または、必要なピクセル数を入力してカスタムサイズを定義できます。
 
 また、ズームフォーカスを 25％から 400％に変更することもできます。
 
 ![](assets/web-designer-device.png)
 
-## 変更の管理 {#manage-modifications}
+デバイスサイズを変更する機能は、様々なデバイス、ウィンドウ、画面サイズで適切にレンダリングされるレスポンシブサイト用に設計されています。 レスポンシブサイトは、デスクトップ、ノートパソコン、タブレット、携帯電話を含む、あらゆる画面サイズに自動的に調整および適応します。
 
->[!CONTEXTUALHELP]
->id="ajo_web_designer_modifications"
->title="すべての変更を簡単に管理"
->abstract="このパネルを使用すると、web ページに追加したすべての調整とスタイルを移動して管理できます。"
-
-Web ページに追加したすべてのコンポーネント、調整およびスタイルを簡単に管理できます。
-
-1. 「**[!UICONTROL 変更]**」ボタンを選択して、対応するパネルを左側に表示します。
-
-   ![](assets/web-designer-modifications-pane.png)
-
-1. ページに加えた各変更を確認できます。
-
-1. 不要な変更を選択し、削除アイコンをクリックして削除します。
-
-   ![](assets/web-designer-modifications-delete.png)
-
-   >[!CAUTION]
-   >
-   >アクションを削除する場合は後続のアクションに影響する可能性があるので、慎重に作業を進めてください。
-
-1. 画面の右上にある&#x200B;**[!UICONTROL 取り消し／やり直し]**&#x200B;ボタンを使用して、アクションをキャンセルおよびやり直すこともできます。
-
-   ![](assets/web-designer-undo-redo.png)
-
-   「**[!UICONTROL 取り消し]**」オプションと「**[!UICONTROL やり直し]**」オプションを切り替えるには、ボタンをクリックしたままにします。次に、ボタン自体をクリックして、目的のアクションを適用します。
-
-## パーソナライゼーションとオファーの追加
-
-パーソナライゼーションを追加するには、コンテナを選択し、表示されるコンテキストメニューバーからパーソナライゼーションアイコンを選択します。 式エディターを使用して、変更を追加します。[詳細情報](../personalization/personalization-build-expressions.md)
-
-![](assets/web-designer-personalization.png)
-
-**[!UICONTROL オファーの決定]**&#x200B;コンポーネントを使用し、web ページに[オファー](../offers/get-started/starting-offer-decisioning.md)を挿入します。プロセスは、[メールへのオファーの追加](../email/add-offers-email.md)の場合と同じです。意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
-
-![](assets/web-designer-offer.png)
+>[!CAUTION]
+>
+>特定のデバイスサイズで Web エクスペリエンスを編集できます。 ただし、セレクターが同じである限り、これらの変更は、作業中のデバイスサイズだけでなく、すべてのサイズとデバイスに適用されます。 同様に、通常のデスクトップビューでエクスペリエンスを編集すると、デスクトップビューだけでなく、すべての画面サイズに変更が適用されます。
+>
+>現在、 [!DNL Journey Optimizer] では、デバイスサイズ固有のページの変更はサポートされていません。 つまり、別のサイト構造を持つ別のモバイル Web サイトがある場合、別のキャンペーンでそのモバイルサイトに固有の変更を行う必要があります。
 
 ## Web キャンペーンのテスト {#test-web-campaign}
 
@@ -214,13 +251,25 @@ Web ページに追加したすべてのコンポーネント、調整および�
 >
 >どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
 
-1. **[!UICONTROL コンテンツを編集]**&#x200B;画面または web デザイナーから、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
+1. Web キャンペーンのコンテンツ編集画面で、「 」を選択します。 **[!UICONTROL コンテンツをシミュレート]**.
 
-   ![](assets/web-designer-simulate.png)
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
 
 1. 「**[!UICONTROL テストプロファイルを管理]**」をクリックして、1 つ以上のテストプロファイルを選択します。
 1. 変更した web ページのプレビューが表示されます。
 
    ![](assets/web-designer-preview.png)
 
-1. テスト URL をコピーして任意のブラウザーに貼り付けたり、デフォルトのブラウザーで開いたりすることもできます。
+1. また、デフォルトのブラウザーで開くことも、テスト URL をコピーして任意のブラウザーに貼り付けることもできます。 これにより、キャンペーンの実施前に任意のブラウザーで新しい Web エクスペリエンスをプレビューできるチームや関係者とリンクを共有できます。
+
+   >[!NOTE]
+   >
+   >テスト URL をコピーする際に表示されるコンテンツは、コンテンツシミュレーションが [!DNL Journey Optimizer].
+
+## チュートリアルビデオ{#video}
+
+次のビデオでは、 [!DNL Journey Optimizer] キャンペーン。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

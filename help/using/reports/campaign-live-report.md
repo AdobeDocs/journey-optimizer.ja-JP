@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '1049'
+ht-degree: 92%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
 * [メール](#email-live)
 * [プッシュ](#push-live)
 * [SMS](#sms-live)
+* [Web](#web-tab)
 
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/live-report.md#modify-dashboard)を参照してください。
 
@@ -162,6 +163,25 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
 **[!UICONTROL 除外された理由]**、**[!UICONTROL バウンスの理由]**&#x200B;および&#x200B;**[!UICONTROL エラーの理由]**のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
++++
+
+## 「Web」タブ {#web-tab}
+
+キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL Web]** 「 」タブには、Web ページに関連する主な情報の詳細が表示されます。
+
++++ Web レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+
+**[!UICONTROL Web パフォーマンス]** KPI では、次のような、web エクスペリエンスに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
+
+* **[!UICONTROL ユニークインプレッション数]**：web エクスペリエンスが配信されたユニークユーザーの数。
+
+* **[!UICONTROL インプレッション数]**：すべてのユーザーに配信された web エクスペリエンスの合計数。
+
+* **[!UICONTROL クリック数]**:URL への訪問の合計数。
+
+この **[!UICONTROL Web サマリ]** グラフは、該当する期間中の web エクスペリエンス（インプレッション数、個別インプレッション数およびクリック数）の変化を示します。
+
+この **[!UICONTROL 要素別のクリック数]** 表には、Web ページ上の様々な要素に対する訪問者のエンゲージメントに関する主な情報の詳細が示されます。
 +++
 
 ## その他のリソース

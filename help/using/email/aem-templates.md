@@ -11,10 +11,10 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer で Adobe Experience Manager の使用をさらに最適
 
 Adobe Experience Manager テンプレートを Adobe Journey Optimizer に書き出すには、次の手順に従います。
 
-1. Adobe Experience Manager のホームページで、「**[!UICONTROL アウトバウンドマーケティング]**」を選択します。
+1. Adobe Experience Managerのホームページで、「 」を選択します。 **[!UICONTROL アウトバウンドマーケティング]**.
 
    ![](assets/aem-outbound-menu.png)
 

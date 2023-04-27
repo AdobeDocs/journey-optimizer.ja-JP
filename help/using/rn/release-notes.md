@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 94%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 ## 2023年4月先行リリースノート {#apr-e-rn-2023}
 
-以下の情報は、リリースの公開日まで予告なく変更される場合があります。更新されたドキュメントはリリース日に公開され、ダイレクトリンクがこのページに追加されます。
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-****&#x200B;リリース日：2023年4月27日（PT）
+**Release date**: April 27, 2023-->
 
 ### 新機能{#apr-2023-features}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer は、web チャネルのサポートを追加することにより、クロスチャネル機能を拡張しています。スマートで直感的なビジュアルインターフェイスを使用して、他のチャネルと同様に web エクスペリエンスを作成、変更、プレビューし、エンドユーザーエクスペリエンスをパーソナライズできるようになりました。現在、Journey Optimizer では、キャンペーンでのみ web エクスペリエンスを作成できます。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../web/get-started-web.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ ht-degree: 100%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>新しいジャーニーダッシュボード（ベータ版）</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> ジャーニーダッシュボードが次の 2 つのタブに分割されました。</p>
-<ul><li>「<strong>概要</strong>」タブを使用して、ジャーニーに関連する主要な指標を表示する新しいダッシュボードにアクセスします。</li>
-<li>「<strong>参照</strong>」タブを使用して、すべてのジャーニーのリストにアクセスします。</li></ul>
-<p>この機能には、パブリックベータ版としてすべてのジャーニーでアクセスできます。</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* ジャーニーキャンバスのアクションノードと終了タグにアクティビティ ID が表示されるようになりました。これにより、レポーティングとリターゲティングが向上します。
+* ジャーニーキャンバスに、メッセージアクティビティと終了タグのアクティビティ ID が表示されるようになりました。 これにより、レポーティングとリターゲティングが向上します。
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
 * ジャーニーに新しいガードレールが追加されました。
-   * ジャーニーのノード数が最大 50 に制限されるようになりました
-   * 1 つの組織内のライブジャーニーの数が最大 100 に制限されるようになりました。テストモードのジャーニーは考慮されません。
+   * ジャーニーのアクティビティ数が 50 個に制限されるようになりました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+   * この **ライブジャーニー** は、1 つの組織で、サンドボックスあたり 100 個に制限されるようになりました。 テストモードのジャーニーは考慮されません。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
-* ジャーニーにメール、SMS、プッシュのアクションを追加すると、デフォルトでは、そのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
-* カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。
+* を追加する場合、 [電子メール](../email/create-email.md), [SMS](../sms/create-sms.md) または [プッシュ](../push/create-push.md) ジャーニーのアクションの場合、デフォルトでは、現在のジャーニーで、そのチャネルで最後に使用したサーフェスで、サーフェスが事前入力されるようになりました。
+* カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 
 **レポート**
 
@@ -190,6 +190,8 @@ ht-degree: 100%
 * ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。必要に応じて、カスタムラベルを手動で追加できます。
 * ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。[詳細情報](../configuration/external-systems.md#timeout)
 * セグメントを読み取りアクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールがテストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

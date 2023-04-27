@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 97%
 
 ---
 
@@ -110,13 +110,11 @@ Adobe Journey Optimizer Designer を使用して、コンテンツの構造を�
 
    ![](assets/email_designer_links.png)
 
-1. 上部の「**その他**」ボタンから「**[!UICONTROL コードエディターに切り替え]**」をクリックして、コンテンツをさらにパーソナライズできます。[詳しくは、コードエディターを参照してください](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックしてコードエディターに切り替え、メールをさらにパーソナライズできます。これにより、例えば、トラッキングタグやカスタムHTMLタグを追加するために、E メールソースコードを編集できます。 [詳しくは、コードエディターを参照してください](code-content.md)
 
    >[!CAUTION]
    >
-   >コードエディターに切り替えた後で、このコンテンツのビジュアルデザイナーに戻すことはできません。
+   >コードエディターに切り替えた後で、このメールのビジュアルデザイナーに戻すことはできません。
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを確認します。デスクトップまたはモバイル表示を選択できます。[詳しくは、メールのプレビューを参照してください](preview.md)
 

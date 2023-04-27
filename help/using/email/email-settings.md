@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 94%
 
 ---
 
@@ -243,9 +243,23 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-また、[式エディター](../personalization/personalization-build-expressions.md)を使用して各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドを編集することもできます。「編集」アイコンをクリックして、エディターを開きます。ここから、任意のコンテキスト属性を選択したり、テキストを直接編集したりできます。
+また、[式エディター](../personalization/personalization-build-expressions.md)を使用して各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドを編集することもできます。「編集」アイコンをクリックして、エディターを開きます。ここから、使用可能なコンテキスト属性を選択したり、テキストを直接編集したりできます。
 
 ![](assets/preset-url-tracking-editor.png)
+
+式エディターでは、次の事前定義済みの値を使用できます。
+
+* **ソースアクション ID**:ジャーニーまたはキャンペーンに追加された電子メールアクションの ID。
+
+* **ソースアクション名**:ジャーニーまたはキャンペーンに追加されたメールアクションの名前。
+
+* **ソース ID**:E メールの送信に使用されたジャーニーまたはキャンペーンの ID。
+
+* **ソース名**:E メールの送信に使用されたジャーニーまたはキャンペーンの名前。
+
+* **ソースバージョン ID**:E メールの送信に使用されたジャーニーまたはキャンペーンのバージョンの ID。
+
+* **オファー ID**:E メールで使用されるオファーの ID。
 
 >[!NOTE]
 >

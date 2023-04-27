@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 99%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
 + Web チャネル{#web}
    + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
+   + [Web チャネルの前提条件](using/web/web-prerequisites.md)
    + [Web エクスペリエンスの作成](using/web/create-web.md)
    + [Web ページの作成](using/web/author-web.md)
-   + [Visual Editing Helper 拡張機能](using/web/visual-editing-helper.md)
-   + [Web レポート](using/web/web-report.md)
+   + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 99%
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの概要](using/reports/live-report.md)
+      + [コンポーネントのリスト](using/reports/live-report-components.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートの基本を学ぶ](using/reports/global-report.md)
+      + [コンポーネントのリスト](using/reports/global-report-components.md)
       + [ジャーニーのグローバルレポート](using/reports/journey-global-report.md)
       + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)

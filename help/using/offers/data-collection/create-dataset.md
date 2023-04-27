@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 71%
 
 ---
 
@@ -20,11 +20,9 @@ ht-degree: 100%
 
 まず、データセットで使用するスキーマを作成します。
 
-1. **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択し、「**[!UICONTROL 参照]**」タブに移動して、「**[!UICONTROL スキーマを作成]**」をクリックします。
+1. 次の **[!UICONTROL データ管理]** メニュー、選択 **[!UICONTROL スキーマ]** そして、 **[!UICONTROL 参照]** タブをクリックします。
 
-   ![](../assets/ai-ranking-create-schema.png)
-
-1. **[!UICONTROL XDM ExperienceEvent]** を選択します。
+1. クリック **[!UICONTROL スキーマを作成]** を選択します。 **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -36,20 +34,15 @@ ht-degree: 100%
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 「**[!UICONTROL 検索]**」フィールドに「提案インタラクション」と入力し、「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループを選択します。
+1. 内 **[!UICONTROL 検索]** フィールドに、「提案インタラクション」と入力します。
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+1. を選択します。 **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** フィールドグループとクリック **[!UICONTROL フィールドグループを追加]**.
+
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
    >データセットで使用されるスキーマには、「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループが関連付けられている必要があります。そうしないと、ランキング戦略で使用できなくなります。
-
-1. 「**[!UICONTROL フィールドグループを追加]**」をクリックします。
-
-   ![](../assets/ai-ranking-add-field-group.png)
-
-   >[!NOTE]
-   >フィールドグループは、以前は mixin と呼ばれていました。
 
 1. 名前を入力し、スキーマを保存します。
 
@@ -59,19 +52,13 @@ ht-degree: 100%
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 
-1. **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL データセット]**」を選択し、「**[!UICONTROL 参照]**」タブに移動して、「**[!UICONTROL データセットを作成]**」をクリックします。
+1. 次の **[!UICONTROL データ管理]** メニュー、選択 **[!UICONTROL データセット]** そして、 **[!UICONTROL 参照]** タブをクリックします。
 
-   ![](../assets/ai-ranking-create-dataset.png)
-
-1. 「**[!UICONTROL スキーマからデータセットを作成]**」をクリックします。
+1. クリック **[!UICONTROL データセットを作成]** を選択し、 **[!UICONTROL スキーマからデータセットを作成]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 作成したスキーマをリストから選択します。
-
-   ![](../assets/ai-ranking-dataset-select-schema.png)
-
-1. 「**[!UICONTROL 次へ]**」をクリックします。
+1. 作成したスキーマをリストから選択し、「 」をクリックします。 **[!UICONTROL 次へ]**.
 
 1. 「**[!UICONTROL 名前]**」フィールドにデータセットの一意の名前を入力し、「**[!UICONTROL 完了]**」をクリックします。
 

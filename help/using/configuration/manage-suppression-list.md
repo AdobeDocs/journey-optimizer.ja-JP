@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1558'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 100%
 
 抑制リストの概念と使用方法について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
 
-
+>[!NOTE]
+>
+>アドビは、エンゲージメントやメーリングレピュテーションに悪影響を与えることが判明している既知の不正なアドレスのリストを絶えず更新して、それらのアドレスにメールが配信されないようにしています。このリストは、すべてのアドビのお客様に共通のグローバル抑制リストで管理されます。グローバル抑止リストに含まれているアドレスやドメイン名は非公開です。除外された受信者の数のみが配信レポートに含まれます。
 
 ## 抑制リストへのアクセス {#access-suppression-list}
 

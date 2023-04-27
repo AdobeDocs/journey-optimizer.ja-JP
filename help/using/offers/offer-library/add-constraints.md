@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 100%
+source-wordcount: '2357'
+ht-degree: 97%
 
 ---
 
@@ -215,9 +215,12 @@ E メールの準備時に、オファーが提案された回数が計算され
    1. ルールが作成されると、**[!UICONTROL カスタムイベントクエリ]**&#x200B;フィールドに表示されます。
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >決定イベントを除くすべてのキャッピングイベントでは、意思決定管理のフィードバックが自動的に収集されない場合があるので、データを受信していることを確認してください。 [データ収集についての詳細](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>判定イベントを除くすべてのキャッピングイベントについて、判定管理のフィードバックが自動的に収集されない場合があり、その結果、キャッピングカウンターが正しく増分されない可能性があります。 [詳細情報](../data-collection/data-collection.md)
+>
+>キャッピングカウンターで各キャッピングイベントが追跡され、考慮されていることを確認するには、エクスペリエンスイベントの収集に使用するスキーマに、そのイベントの正しいフィールドグループが含まれていることを確認します。 [詳細情報](../data-collection/schema-requirement.md)
 
 ### キャッピングカウント {#capping-count}
 

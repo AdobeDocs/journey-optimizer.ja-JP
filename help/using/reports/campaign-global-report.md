@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 100%
+source-wordcount: '2036'
+ht-degree: 95%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 * [アプリ内](#inapp-global)
 * [プッシュ](#push-global)
 * [SMS](#sms-global)
+* [Web](#web-tab)
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
 
@@ -281,6 +282,27 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 **[!UICONTROL SMS - リンク別のクリック数]**&#x200B;ウィジェットと **[!UICONTROL SMS - トラッキング統計]**&#x200B;ウィジェットは、訪問者の URL へのエンゲージメントに関連する主な情報の詳細を示します。
 
++++
+
+## 「Web」タブ {#web-tab}
+
+キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL Web]** 「 」タブには、Web ページに関連する主な情報の詳細が表示されます。
+
+![](assets/web-report.png)
+
++++ Web レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+
+**[!UICONTROL Web パフォーマンス]** KPI では、次のような、web エクスペリエンスに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
+
+* **[!UICONTROL ユニークインプレッション数]**：web エクスペリエンスが配信されたユニークユーザーの数。
+
+* **[!UICONTROL インプレッション数]**：すべてのユーザーに配信された web エクスペリエンスの合計数。
+
+* **[!UICONTROL クリック率]**:web ページ上の様々な要素を操作した訪問者の割合。
+
+この **[!UICONTROL Web サマリ]** グラフは、該当する期間中の web エクスペリエンス（インプレッション数、個別インプレッション数およびクリック数）の変化を示します。
+
+この **[!UICONTROL 要素別のクリック数]** 表には、Web ページ上の様々な要素に対する訪問者のエンゲージメントに関する主な情報の詳細が示されます。
 +++
 
 ## その他のリソース

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 100%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -22,10 +22,9 @@ ht-degree: 100%
 
 [メールトラッキングエクスペリエンスイベントデータセット](#email-tracking-experience-event-dataset)
 [メッセージフィードバックイベントデータセット](#message-feedback-event-dataset)
-[プッシュトラッキングエクスペリエンスイベントデータセット](#push-tracking-experience-event-dataset)
+[プッシュ追跡エクスペリエンスイベントデータセット](#push-tracking-experience-event-dataset)
 [ジャーニーステップイベント](#journey-step-event)
-[意思決定イベントデータセット](#ode-decisionevents)
-[同意サービスデータセット](#consent-service-dataset)
+[判定イベントデータセット](#ode-decisionevents)
 [BCC フィードバックイベントデータセット](#bcc-feedback-event-dataset)
 [エンティティデータセット](#entity-dataset)
 
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## 同意サービスデータセット{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_インターフェイスの名前：CJM 同意サービスデータセット（システムデータセット）_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Journey Optimizer 同意サービスのデータセット。
+Dataset for Journey Optimizer Consent service.
 
-関連するスキーマは、CJM 同意サービススキーマです。
+The related schema is CJM Consent Service Schema.
 
-メールの受信に同意したメール ID をリストするクエリ：
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-メール ID が入力となる場合のメール ID の同意値を返すクエリ：
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## BCC フィードバックイベントデータセット{#bcc-feedback-event-dataset}
 

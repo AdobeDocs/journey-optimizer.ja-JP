@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ ht-degree: 100%
 
 ## ジャーニーガードレール {#journeys-guardrails}
 
+### 一般的なジャーニーガードレール {#journeys-guardrails-journeys}
+
+* ジャーニー内のアクティビティの数は 50 個に制限されています。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
+* この **ライブジャーニー** は、1 つの組織で、サンドボックスあたり 100 個に制限されます。 この制限に達すると、新しいジャーニーを公開できなくなります。
+
 ### 一般的なアクション {#general-actions-g}
 
 * 送信スロットルはありません。
@@ -67,6 +72,7 @@ ht-degree: 100%
 * クエリパラメーターやヘッダーの名前は、「.」または「$」で始める必要があります。
 * IP アドレスは使用できません。
 * 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。
+* 組み込みのカスタムアクションは削除できません。
 
 ### イベント {#events-g}
 
@@ -99,5 +105,6 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### 式エディター {#expression-editor}
 
-* エクスペリエンスイベントフィールドグループは、「セグメントを読み取り」、セグメントの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。
+* エクスペリエンスイベントフィールドグループは、「セグメントを読み取り」、セグメントの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。新しいセグメントを作成し、ジャーニーで insegment 条件を使用する必要があります。
+
 

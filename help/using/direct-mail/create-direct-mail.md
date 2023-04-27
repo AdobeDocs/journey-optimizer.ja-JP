@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -60,8 +60,6 @@ ht-degree: 100%
    ![](assets/direct-mail-campaign.png)
 
 1. 「**[!UICONTROL 作成]**」をクリックして、キャンペーンの基本情報（名前、説明）を定義します。[キャンペーンの設定方法を学ぶ](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、ダイレクトメールプロバイダーに送信する抽出ファイルを設定します。
 

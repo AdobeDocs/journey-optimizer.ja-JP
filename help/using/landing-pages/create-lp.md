@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 100%
+source-wordcount: '1539'
+ht-degree: 99%
 
 ---
 
@@ -223,13 +223,13 @@ ht-degree: 100%
 
    テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../email/preview.md#select-test-profiles)を参照してください。
 
-1. 「**[!UICONTROL プレビュー]**」タブを選択し、「**[!UICONTROL プレビューを開く]**」をクリックしてランディングページをテストします。
+1. 選択 **[!UICONTROL プレビューを開く]** をクリックしてランディングページをテストします。
 
    ![](assets/lp_open-preview.png)
 
 1. ランディングページのプレビューが新しいタブで開きます。パーソナライズされた要素が、選択したテストプロファイルデータに置き換えられます。
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. ランディングページの各バリエーションに対してレンダリングをプレビューするには、別のテストプロファイルを選択します。
 

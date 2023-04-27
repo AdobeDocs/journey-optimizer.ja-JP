@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->オーディエンス構成は現在、プライベートベータ版としてのみ利用可能で、予告なく頻繁に更新される場合があります。ベータ版は IMS 組織レベルでプロビジョニングされるので、組織内のすべてのサンドボックスに影響します。
+>オーディエンス構成は現在、プライベートベータ版としてのみ利用可能で、予告なく頻繁に更新される場合があります。ベータ版は組織レベルでプロビジョニングされます。つまり、組織内のすべてのサンドボックスに影響を与えます。
 
 オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 89%
 
 ---
 
@@ -66,9 +66,27 @@ ht-degree: 100%
 
 ## ベストプラクティス {#best-practices}
 
+### ラベルを追加
+
 ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別したい場合に便利です。また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### 詳細設定パラメーターの管理 {#advanced-parameters}
+
+ほとんどのアクティビティには、変更できない多数の高度なパラメーターや技術的なパラメーターが表示されます。
+
+![](assets/journey-advanced-parameters.png)
+
+読みやすくするために、 **[!UICONTROL 読み取り専用フィールドを非表示にする]** 」ボタンをクリックします。
+
+![](assets/journey-hide-read-only-fields.png)
+
+特定のコンテキストでは、特定の用途でこれらのパラメーターの値を上書きできます。 値を強制的に指定するには、フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックします。[詳細情報](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### 代替パスを追加
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 

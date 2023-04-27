@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, セグメント, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 100%
@@ -38,6 +38,28 @@ ht-degree: 100%
 
    ![](assets/custom2.png)
 
+<!--
+## Access journeys {#journey-access}
+
+In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+
+**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)  
+
+**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+
+* **Profiles processed**: total number of profiles processed in last 24 hours
+* **Live journeys**: total number of live journeys
+* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
+* **Batch journeys**: total number of batch live journeys (read segment journeys)
+* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
+* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+
+![](assets/journeys-dashboard.png)  
+
+-->
+
 ## ジャーニーの作成{#jo-build}
 
 >[!CONTEXTUALHELP]
@@ -54,6 +76,10 @@ ht-degree: 100%
    ![](assets/interface-journeys.png)
 
 1. 「**[!UICONTROL ジャーニーを作成]**」をクリックして、新規のジャーニーを作成します。
+
+<!--
+1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
+-->
 
 1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。詳しくは、[この節](journey-gs.md#change-properties)を参照してください。
 

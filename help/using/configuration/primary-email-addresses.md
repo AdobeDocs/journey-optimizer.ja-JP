@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: プライマリメールアドレスの変更
+title: 実行アドレスの変更
 description: 使用するメールアドレスをプロファイルサービスから決定する方法を説明します。
 feature: Application Settings
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 46%
 
 ---
 
-# プライマリアドレスを変更 {#change-primary-email}
+# 実行アドレスの変更 {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -30,13 +30,25 @@ ht-degree: 100%
 
 プロファイルをターゲットにする場合、データベースで複数のメールアドレスや電話番号（プロのメールアドレス、個人の電話番号など）を使用できる場合があります。
 
-[!DNL Journey Optimizer] では、プロファイルサービスから使用するメールアドレスや電話番号を決定し、複数のアドレスが使用可能な場合に優先順位を付けることができます。それには、次の手順に従います。
+その場合、 [!DNL Journey Optimizer] uses **[!UICONTROL 実行フィールド]** を使用して、優先してプロファイルサービスから使用する電子メールアドレスまたは電話番号を決定します。
+
+現在デフォルトで使用されているフィールドを確認するには、 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL 一般]** > **[!UICONTROL 実行フィールド]** メニュー
+
+![](assets/primary-address-execution-fields.png)
+
+現在の値は、サンドボックスレベルのすべての配信に使用されます。 必要に応じて、これらのフィールドを更新できます。
+
+ほとんどの場合、実行フィールドをグローバルに変更し、すべての電子メールまたは SMS メッセージに使用する値を定義します。 <!--[Learn how](#admin-settings)-->
+
+<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+
+## 管理設定を更新します {#admin-settings}
+
+サンドボックスレベルで実行フィールドをグローバルに変更するには、次の手順に従います。
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL 一般]**／**[!UICONTROL 実行フィールド]**&#x200B;メニューにアクセスします。
 
-   ![](assets/primary-address-execution-fields.png)
-
-1. プロファイルのメールアドレスと電話番号を決定するためにデフォルトで使用されているフィールドが、この画面に表示されます。 「**[!UICONTROL 編集]**」をクリックして変更します。
+1. クリック **[!UICONTROL 編集]** デフォルト値を変更する場合。
 
    ![](assets/primary-address.png)
 
@@ -53,3 +65,22 @@ ht-degree: 100%
 実行フィールドが更新され、プライマリアドレスとして使用されるようになります。
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
+
+## ジャーニーパラメーターの値の上書き {#journey-parameters}
+
+特定の使用例に限り、グローバルに設定された実行フィールドを上書きし、特に E メールチャネルに対して、ジャーニーレベルで異なる値を定義できます。
+
+を追加する場合、 **[!UICONTROL 電子メール]** 対するアクション [ジャーニー](../email/create-email.md#create-email-journey-campaign)の場合、プライマリ電子メールアドレスは、ジャーニーの詳細設定パラメーターの下に表示されます。
+
+特定のコンテキストでは、 **[!UICONTROL パラメーターの上書きを有効にする]** アイコン **[!UICONTROL 住所]** フィールドに入力します。
+
+![](assets/journey-enable-parameter-override.png)
+
+>[!CAUTION]
+>
+>メールアドレスの上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。
+
+この値を上書きすると、次のような場合に便利です。
+
+* メールのテスト。独自の電子メールアドレスを追加できます。ジャーニーを公開すると、電子メールが送信されます。
+* リストの購読者に E メールを送信します。 詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
