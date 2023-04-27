@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c523783b0984a36f919a581053e994ca131a0115
+source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
 workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 81%
@@ -41,7 +41,7 @@ ht-degree: 81%
 <tr>
 <td>
 <p>Adobe Journey Optimizerは、web チャネルのサポートを追加して、クロスチャネル機能を拡張しています。 スマートで直感的なビジュアルインターフェイスを使用して、Web エクスペリエンスをその他のチャネルと同じように作成、変更、プレビューし、エンドユーザーエクスペリエンスをパーソナライズできます。 現在、Journey Optimizerでは、キャンペーンでのみ Web エクスペリエンスを作成できます。</p>
-<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<img src="assets/do-not-localize/web-authoring.gif"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
