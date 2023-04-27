@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 95%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 100%
 
 
 新しいキャンペーンを作成するには、**[!UICONTROL Campaigns]** メニューにアクセスし、「**[!UICONTROL キャンペーンの作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。([詳細情報](modify-stop-campaign.md#duplicate))
-
-![](assets/create-campaign.png)
 
 ## キャンペーンのタイプとチャネルを選択 {#campaigntype}
 
@@ -64,15 +62,13 @@ ht-degree: 100%
 
 ## キャンペーンのプロパティの定義 {#create}
 
-1. キャンペーンのタイトルと説明を指定します。
+1. 内 **[!UICONTROL プロパティ]** セクションで、キャンペーンの名前と説明を指定します。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. カスタムまたはコアのデータ使用ラベルをキャンペーンに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。 [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
-   ![](assets/create-campaign-properties.png)
-
-## メッセージの作成 {#content}
+## メッセージの作成 トラッキングの設定と設定 {#content}
 
 「**[!UICONTROL アクション]**」セクションで、キャンペーンで送信するメッセージを作成します。
 
@@ -123,21 +119,21 @@ ht-degree: 100%
 
 ## オーディエンスを定義 {#audience}
 
-1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
+次をクリック： **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformセグメントのリストを表示します。 [セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。([詳細情報](api-triggered-campaigns.md))
+>[!NOTE]
+>
+>API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。([詳細情報](api-triggered-campaigns.md))
 
-   「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
+「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
-   >[!NOTE]
-   >
-   >様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。
+>[!NOTE]
+>
+>様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。
 
-   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## キャンペーンのスケジュール {#schedule}
 
