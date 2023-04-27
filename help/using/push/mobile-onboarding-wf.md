@@ -12,15 +12,15 @@ hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # モバイルオンボーディングのクイックスタートワークフロー {#mobile-wf}
 
-新しい **モバイルオンボーディングクイックスタートワークフロー** は、Adobe Experience Platform Mobile SDK の迅速な設定、モバイルイベントデータの収集と検証の開始、および [!DNL Journey Optimizer].
+新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;は、Adobe Experience Platform Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、[!DNL Journey Optimizer] でプッシュ通知を送信するための新しい製品機能です。
 
 この機能は、パブリックベータ版としてすべてのお客様が **[!DNL Adobe Experience Platform Data Collection]** ホームページからアクセスできます。
 
@@ -35,8 +35,8 @@ ht-degree: 80%
 一部の追加機能を以下に示します。
 
 * 4 つの簡単な手順のワークフローとユーザーインターフェイス。
-* を使用してモバイルイベントデータの収集を開始するための基本的な設定を配信 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 分単位で指定します。
-* 基本的なモバイルプッシュイベントをテストおよび検証する機能（活用） [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} を介してモバイルイベントデータの収集を数分で開始するための基本的な設定を提供します。
+* [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ja){target="_blank"} を活用して、基本的なモバイルプッシュイベントをテストおよび検証する機能。
 * 必要なすべてのデータ収集と Journey Optimizer アセットを自動で作成および設定します。
 * 製品ガイダンスとツールヒント。
 * 必要に応じて、より高度な実装へと自然に移行できます。
