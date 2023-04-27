@@ -10,7 +10,7 @@ level: Intermediate
 keywords: スタイル, リンク, カラー, メール, エディター
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 

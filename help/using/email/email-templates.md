@@ -10,7 +10,7 @@ level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 

@@ -10,7 +10,7 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 100%
 

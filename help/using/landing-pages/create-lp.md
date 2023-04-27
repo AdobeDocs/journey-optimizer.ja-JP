@@ -10,7 +10,7 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 100%
 

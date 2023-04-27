@@ -10,7 +10,7 @@ level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
