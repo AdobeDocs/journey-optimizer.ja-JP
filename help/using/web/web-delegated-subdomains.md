@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: web，サブドメイン，設定
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 6%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="デフォルトのサブドメインを設定"
->abstract="複数の Web サブドメインを作成できますが、デフォルトのサブドメインのみが使用されます。 デフォルトの Web サブドメインは変更できますが、一度に 1 つのみ使用できます。"
+>title="Web サブドメインの設定"
+>abstract="サブドメインにデリゲートされたサブドメインのリストからAdobeを選択します。 この Web サブドメインをデフォルトのサブドメインとして設定できますが、一度に使用できるデフォルトのサブドメインは 1 つだけです。"
 
 Web エクスペリエンスの作成時に、 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) ライブラリの場合、このコンテンツの公開に使用するサブドメインを設定する必要があります。
 
@@ -67,11 +68,15 @@ Web エクスペリエンスの作成時に、 [Adobe Experience Manager Assets 
 
    >[!NOTE]
    >
-   >次の項目のみ **デフォルト** サブドメインが使用されます。 デフォルトの Web サブドメインは変更できますが、一度に 1 つのみ使用できます。
+   >次の項目のみ **デフォルト** サブドメインが使用されます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。サブドメインは **[!UICONTROL 成功]** ステータス。 これで、Web エクスペリエンスで使用する準備が整いました。
 
 1. この **[!UICONTROL デフォルト]** バッジは、現在デフォルトとして使用されているサブドメインの横に表示されます。 デフォルトのサブドメインを変更するには、 **[!UICONTROL デフォルトとして設定]** から **[!UICONTROL その他のアクション]** ボタンをクリックします。
+
+   >[!NOTE]
+   >
+   >デフォルトの Web サブドメインは変更できますが、一度に 1 つのみ使用できます。
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ Web エクスペリエンスの作成時に、 [Adobe Experience Manager Assets 
 1. 削除できるのは **[!UICONTROL 失敗]** サブドメインを使用してリストをクリーンアップします。 それには、「 **[!UICONTROL 削除]** から **[!UICONTROL その他のアクション]** ボタンをクリックします。
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-

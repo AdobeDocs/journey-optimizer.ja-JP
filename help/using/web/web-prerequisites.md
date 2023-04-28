@@ -5,14 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 41%
+source-wordcount: '835'
+ht-degree: 40%
 
 ---
 
-# Web チャネルの前提条件 {#web-prerequisites}
+# 前提条件とガードレール {#web-prerequisites}
 
 [!DNL Journey Optimizer] ユーザーインターフェイスで web ページにアクセスして作成できるようにするには、次の前提条件に従ってください。
 
@@ -21,6 +22,13 @@ ht-degree: 41%
 * 次の手順で [!DNL Journey Optimizer] web designer を使用する場合は、特定のGoogle Chrome ブラウザー拡張機能がインストールされている必要があります。 [詳細情報](#visual-authoring-prerequesites)
 
 * Web エクスペリエンスが正しく配信されるように、Adobe Experience Platform設定の詳細を定義していることを確認します [ここ](#delivery-prerequisites).
+
+## 注意事項
+
+現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してのみ web エクスペリエンスを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)
+
+
+[!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関与していない新しいプロファイルをターゲットにします。 これにより、エンゲージメント可能なプロファイルの総数が増え、購入したエンゲージメント可能なプロファイルの契約上の数を超えた場合に、コストが影響を受ける可能性があります。 各パッケージのライセンス指標は、 [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html) ページ。
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
@@ -123,6 +131,3 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-
