@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 76%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)（メッセージプリセット）に定義されます。
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/channel-surfaces.md#email-type) メッセージを作成する際に使用します。
 
 ## ミラーページへのリンク {#mirror-page}
 
@@ -134,3 +134,29 @@ ht-degree: 100%
    * **[!UICONTROL なし]**：この URL のトラッキングを有効化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 開封数とクリック数に関するレポートは、[ライブレポート](../reports/live-report.md)と[グローバルレポート](../reports/global-report.md)で利用できます。
+
+## URL トラッキング {#url-tracking}
+
+通常 [URL トラッキング](email-settings.md#url-tracking) はサーフェスレベルで管理されますが、プロファイル属性はサポートされていません。 現在、これを実行する唯一の方法は次のとおりです。 [URL をパーソナライズ](../personalization/personalization-syntax.md#perso-urls) （電子メールデザイナー）。
+
+パーソナライズした URL トラッキングパラメーターをリンクに追加するには、次の手順に従います。
+
+1. リンクを選択し、 **[!UICONTROL リンクを挿入]** を選択します。
+
+1. パーソナライゼーションアイコンを選択します。 次のタイプのリンクでのみ使用できます。 **外部リンク**, **購読解除リンク** および **オプトアウト**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. URL トラッキングパラメーターを追加し、式エディターから目的のプロファイル属性を選択します。
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. 変更を保存します。
+
+1. このトラッキングパラメーターを追加する各リンクに対して、上記の手順を繰り返します。
+
+現在は、E メールが送信されると、このパラメーターが URL の末尾に自動的に追加されます。 その後、このパラメーターを Web 分析ツールまたはパフォーマンスレポートで取得できます。
+
+>[!NOTE]
+>
+>最終的な URL を確認するには、 [配達確認を送る](preview.md#send-proofs) 配達確認を受け取ったら、E メールコンテンツ内のリンクをクリックします。 URL にはトラッキングパラメーターを表示する必要があります。 上記の例では、最終的な URL は次のようになります。https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
