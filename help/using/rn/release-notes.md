@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c2ce36d65df939f2445f783eea7376b0765bdcd7
+source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1860'
 ht-degree: 94%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 94%
 
 **レポート**
 
-* Journey Optimizer レポートを PDF として書き出せるようになりました。
+* Journey Optimizer レポートを PDF として書き出せるようになりました。[詳細情報](../reports/global-report.md#export-reports)
 
 **コンテンツデザイナー**
 
