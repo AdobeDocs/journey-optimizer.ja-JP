@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 94%
+source-wordcount: '1779'
+ht-degree: 92%
 
 ---
 
@@ -263,3 +263,7 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 結果のトラッキング URL を動的にプレビューできます。パラメーターを追加、編集、または削除するたびに、プレビューが自動的に更新されます。
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>また、E メールコンテンツ内に存在するリンクに動的にパーソナライズされたトラッキングパラメーターを追加することもできますが、表面レベルでは追加できません。 これは、E メールデザイナーを使用してメッセージをオーサリングする際におこなう必要があります。 [詳細情報](message-tracking.md#url-tracking)
