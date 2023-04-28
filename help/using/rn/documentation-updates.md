@@ -4,7 +4,7 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
 ht-degree: 94%
@@ -23,7 +23,7 @@ ht-degree: 94%
 * ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合、ジャーニーを非公開にして再公開する必要があることを示す注記を追加しました。 [詳細情報](../building-journeys/publishing-the-journey.md)
 * 決定管理で、キャッピングカウンターでイベントが正しく計上されていることを確認する方法の説明が明確になりました **キャッピングイベント** 」セクションに入力します。 [詳細情報](../offers/offer-library/add-constraints.md#capping-event)
 * 新しい節が **実行アドレスの変更** ページ。 ジャーニーの高度なパラメーターでグローバルに設定された実行フィールドを上書きできるように指定しますが、E メールアドレスの上書きは特定の使用例にのみ使用する必要があります。 ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../configuration/primary-email-addresses.md#journey-parameters)
-* この **URL トラッキング** 「 」セクションに、E メールチャネルサーフェスでの URL 追跡用に設定できるすべてのコンテキスト属性のリストと説明が表示されるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md)
+* この **URL トラッキング** 「 」セクションに、E メールチャネルサーフェスでの URL 追跡用に設定できるすべてのコンテキスト属性のリストと説明が表示されるようになりました。 [詳細情報](../email/email-settings.md#url-tracking)
 
 ## 2023年3月 {#march-2023}
 
