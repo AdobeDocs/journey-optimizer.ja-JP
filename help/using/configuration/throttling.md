@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: b95d3a709075c388b1784bd18407258acd786851
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 98%
 
 ---
 
@@ -136,7 +136,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 ## ユースケース {#uc}
 
-テストと設定に役立つ Postman コレクションを[こちら](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json)から使用できます。
+テストと設定に役立つ Postman コレクションを[こちら](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Throttling-API_postman-collection.json)から使用できます。
 
 この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を使用して生成された Postman 変数コレクションを共有するようにセットアップされています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
 
