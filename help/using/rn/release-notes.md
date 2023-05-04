@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 4 月リリースノート {#apr-rn-2023}
+## 2023年4月リリースノート {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -106,13 +106,13 @@ ht-degree: 94%
 
 **ジャーニー**
 
-* ジャーニーキャンバスに、メッセージアクティビティと終了タグのアクティビティ ID が表示されるようになりました。 これにより、レポーティングとリターゲティングが向上します。
+* ジャーニーキャンバスのメッセージアクティビティと終了タグにアクティビティ ID が表示されるようになりました。これにより、レポーティングとリターゲティングが向上します。
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
 * ジャーニーに新しいガードレールが追加されました。
-   * ジャーニーのアクティビティ数が 50 個に制限されるようになりました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-   * この **ライブジャーニー** は、1 つの組織で、サンドボックスあたり 100 個に制限されるようになりました。 テストモードのジャーニーは考慮されません。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+   * ジャーニーのアクティビティ数が 50 に制限されるようになりました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+   * 1 つの組織内の&#x200B;**ライブジャーニー**&#x200B;の数がサンドボックスあたり 100 に制限されるようになりました。テストモードのジャーニーは考慮されません。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
-* を追加する場合、 [電子メール](../email/create-email.md), [SMS](../sms/create-sms.md) または [プッシュ](../push/create-push.md) ジャーニーのアクションの場合、デフォルトでは、現在のジャーニーで、そのチャネルで最後に使用したサーフェスで、サーフェスが事前入力されるようになりました。
+* ジャーニーに[メール](../email/create-email.md)、[SMS](../sms/create-sms.md)、[プッシュ](../push/create-push.md)のアクションを追加すると、デフォルトでは、現在のジャーニーのそのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
 * カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 
 **レポート**
@@ -189,7 +189,7 @@ ht-degree: 94%
 * ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。必要に応じて、カスタムラベルを手動で追加できます。
 * ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。[詳細情報](../configuration/external-systems.md#timeout)
 * セグメントを読み取りアクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールがテストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
+* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
 
 
 <!-- 

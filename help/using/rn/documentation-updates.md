@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 94%
 
 ## 2023年4月 {#apr-2023}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 4 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2023年4月リリースに含まれているすべての新機能と機能強化について、このドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
 * Adobe Experience Manager Assets Essentials と Adobe Stock をマルチソリューション統合ページに追加しました。[詳細情報](../start/ajo-integrations.md)
 * 複数レベルのメールサブドメインがサポートされるようになったので、許可されていないという警告を削除しました。[詳細情報](../configuration/delegate-subdomain.md)
-* ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合、ジャーニーを非公開にして再公開する必要があることを示す注記を追加しました。 [詳細情報](../building-journeys/publishing-the-journey.md)
-* 決定管理で、キャッピングカウンターでイベントが正しく計上されていることを確認する方法の説明が明確になりました **キャッピングイベント** 」セクションに入力します。 [詳細情報](../offers/offer-library/add-constraints.md#capping-event)
-* 新しい節が **実行アドレスの変更** ページ。 ジャーニーの高度なパラメーターでグローバルに設定された実行フィールドを上書きできるように指定しますが、E メールアドレスの上書きは特定の使用例にのみ使用する必要があります。 ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../configuration/primary-email-addresses.md#journey-parameters)
-* この **URL トラッキング** 「 」セクションに、E メールチャネルサーフェスでの URL 追跡用に設定できるすべてのコンテキスト属性のリストと説明が表示されるようになりました。 [詳細情報](../email/email-settings.md#url-tracking)
+* ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があることを示すメモを追加しました。[詳細情報](../building-journeys/publishing-the-journey.md)
+* キャッピングカウンターでイベントが正しく考慮されていることを確認する方法は、意思決定管理&#x200B;**キャッピングイベント**&#x200B;の節で明確に説明されています。[詳細情報](../offers/offer-library/add-constraints.md#capping-event)
+* **実行アドレスの変更**&#x200B;ページに新しい節が追加されました。ジャーニーの高度なパラメーターで、グローバルに設定された実行フィールドを上書きできるように指定しますが、メールアドレスの上書きは特定の使用例にのみ使用する必要があります。 ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../configuration/primary-email-addresses.md#journey-parameters)
+* **URL トラッキング**&#x200B;の節に、メールチャネルサーフェスでの URL トラッキング用に設定できるすべてのコンテキスト属性のリストと説明が表示されるようになりました。 [詳細情報](../email/email-settings.md#url-tracking)
 
 ## 2023年3月 {#march-2023}
 

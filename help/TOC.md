@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -359,7 +359,7 @@ ht-degree: 99%
       + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
       + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
    + 意思決定管理レポートの作成 {#create-reports}
-      + [決定管理イベントの操作](using/offers/reports/get-started-events.md)
+      + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)
