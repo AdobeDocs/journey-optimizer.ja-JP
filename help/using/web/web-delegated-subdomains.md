@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: web，サブドメイン，設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 29070f0029c092782cf8a304f85e52869598a2fa
+source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '377'
 ht-degree: 7%
 
 ---
@@ -60,6 +60,8 @@ Web エクスペリエンスの作成時に、 [Adobe Experience Manager Assets 
    >
    >既に Web サブドメインとして使用されているサブドメインは選択できません。
 
+1. Web URL に表示されるプレフィックスは自動的に追加されます。
+
 1. このサブドメインをデフォルトとして設定するには、対応するオプションを選択します。
 
    ![](assets/web-subdomain-details-default.png)
@@ -78,8 +80,8 @@ Web エクスペリエンスの作成時に、 [Adobe Experience Manager Assets 
 
    ![](assets/web-subdomain-default.png)
 
-   <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.-->
+   <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
-1. 削除できるのは **[!UICONTROL 失敗]** サブドメインを使用してリストをクリーンアップします。 それには、「 **[!UICONTROL 削除]** から **[!UICONTROL その他のアクション]** ボタンをクリックします。
+    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
-<!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
+    You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
