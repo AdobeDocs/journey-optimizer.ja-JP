@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, セグメント, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1325'
+ht-degree: 88%
 
 ---
 
@@ -38,27 +38,26 @@ ht-degree: 100%
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## ジャーニーへのアクセス {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。次の 2 つのタブを使用できます。
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**参照**:このタブには、既存のジャーニーのリストが表示されます。 ジャーニーを検索し、フィルターを使用して、各要素に対して基本的なアクションを実行できます。 例えば、項目の複製や削除が可能です。詳しくは、[この節](../start/user-interface.md#filter-lists)を参照してください。
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**概要**:このタブには、ジャーニーに関連する主要指標を含むダッシュボードが表示されます。
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **処理済みのプロファイル**:過去 24 時間に処理されたプロファイルの合計数
+* **ライブジャーニー**:過去 24 時間のトラフィックを含むライブジャーニーの合計数。 ライブジャーニーには次が含まれます **単一のジャーニー** （イベントベース）および **バッチジャーニー** （セグメントを読み取り）。
+* **エラー率**:過去 24 時間に入力したプロファイルの合計数に対する、エラーが発生したすべてのプロファイルの割合。
+* **破棄率**:過去 24 時間に入力したプロファイルの合計数に対する、分割されたすべてのプロファイルの割合。
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>このダッシュボードでは、過去 24 時間のトラフィックを含むジャーニーが考慮されます。 アクセス権のあるジャーニーのみが表示されます。
 
--->
+![](assets/journeys-dashboard.png)
 
 ## ジャーニーの作成{#jo-build}
 
@@ -71,15 +70,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 ジャーニーを介してメッセージを送信する主な手順は次のとおりです。
 
-1. 「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。ジャーニーのリストが表示されます。
-
-   ![](assets/interface-journeys.png)
-
-1. 「**[!UICONTROL ジャーニーを作成]**」をクリックして、新規のジャーニーを作成します。
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. 次の **参照** タブ、クリック **[!UICONTROL 作成ジャーニー]** をクリックして、新しいジャーニーを作成します。
 
 1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。詳しくは、[この節](journey-gs.md#change-properties)を参照してください。
 
