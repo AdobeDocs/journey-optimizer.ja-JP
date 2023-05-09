@@ -12,7 +12,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 96%
 
 このページでは、Adobe Journey Optimizer データセットと関連する使用例のリストを示します。
 
-[メールトラッキングエクスペリエンスイベントデータセット](#email-tracking-experience-event-dataset)
-[メッセージフィードバックイベントデータセット](#message-feedback-event-dataset)
-[プッシュ追跡エクスペリエンスイベントデータセット](#push-tracking-experience-event-dataset)
+[メールトラッキングエクスペリエンスイベントのデータセット](#email-tracking-experience-event-dataset)
+[メッセージフィードバックイベントのデータセット](#message-feedback-event-dataset)
+[プッシュトラッキングエクスペリエンスイベントのデータセット](#push-tracking-experience-event-dataset)
 [ジャーニーステップイベント](#journey-step-event)
-[判定イベントデータセット](#ode-decisionevents)
-[BCC フィードバックイベントデータセット](#bcc-feedback-event-dataset)
-[エンティティデータセット](#entity-dataset)
+[意思決定イベントのデータセット](#ode-decisionevents)
+[BCC フィードバックイベントのデータセット](#bcc-feedback-event-dataset)
+[エンティティのデータセット](#entity-dataset)
 
 各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
 

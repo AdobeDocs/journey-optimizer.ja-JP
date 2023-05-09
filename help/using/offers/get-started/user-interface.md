@@ -9,38 +9,38 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # ユーザーインターフェイス {#user-interface}
 
-この **[!UICONTROL 決定管理]** 左側のパネルの「 」セクションには、次の 2 つのメニューが表示されます。これらを使用して、判定管理機能にアクセスできます。
+左パネルの「**[!UICONTROL 意思決定管理]**」セクションには、意思決定管理機能にアクセスできる次の 2 つのメニューが表示されます。
 
-以下を使用： **[!UICONTROL オファー]** メニューで、オファーを管理および配信できます。
+**[!UICONTROL オファー]**&#x200B;メニューでは、オファーを管理および配信できます。
 
 
 ![](../assets/offers_menu.png)
 
 * **[!UICONTROL 概要]**：[!DNL decision management] を使用するのは初めてですか？画面上の手順に従って、プレースメント、オファーおよびコレクションの設定を開始します。[!DNL decision management] について既に熟知している場合は、最新のオファー、コレクションおよび決定の概要を把握します。[詳細情報](#overview)
-* **[!UICONTROL オファー]**:パーソナライズされたオファーとフォールバックオファーを作成し、それらにアクセスします。 作成方法を学ぶ [オファー](../offer-library/creating-personalized-offers.md) および [フォールバックオファー](../offer-library/creating-fallback-offers.md)
-* **[!UICONTROL コレクション]**:オファーを静的なコレクションと動的なコレクションに整理します。 [詳細情報](../offer-library/creating-collections.md)
+* **[!UICONTROL オファー]**：パーソナライズされたオファーとフォールバックオファーを作成してアクセスします。[オファー](../offer-library/creating-personalized-offers.md)と[フォールバックオファー](../offer-library/creating-fallback-offers.md)の作成方法を学習
+* **[!UICONTROL コレクション]**：オファーを静的なコレクションと動的なコレクションに整理します。[詳細情報](../offer-library/creating-collections.md)
 * **[!UICONTROL 決定]**：オファーを提供するための決定を作成および管理します。[詳細情報](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL バッチ判定]**:特定のAdobe Experience Platformセグメント内のすべてのプロファイルにオファーの決定を配信します。 [詳細情報](../batch-delivery.md)
-* **[!UICONTROL シミュレーション]**:特定の配置のテストプロファイルに配信されるオファーをシミュレートして、判定ロジックを検証します。 [詳細情報](../offer-activities/simulation.md)
+* **[!UICONTROL 一括の意思決定]**：特定の Adobe Experience Platform セグメントですべてのプロファイルにオファーの意思決定を配信します。[詳細情報](../batch-delivery.md)
+* **[!UICONTROL シミュレーション]**：特定のプレースメントのテストプロファイルに配信されるオファーをシミュレートして、意思決定のロジックを検証します。[詳細情報](../offer-activities/simulation.md)
 
-以下を使用： **[!UICONTROL コンポーネント]** オファーと決定の作成に必要なコンポーネントを作成および管理するためのメニュー：
+**[!UICONTROL コンポーネント]**&#x200B;メニューを使用して、オファーと意思決定の作成に必要なコンポーネントを作成および管理します。
 
 ![](../assets/offer_activities.png)
 
 * **[!UICONTROL プレースメント]**：オファーを表示するプレースメントを作成および管理します。[詳細情報](../offer-library/creating-placements.md)
 * **[!UICONTROL コレクション修飾子]**：コレクション修飾子（旧称「タグ」）を作成および管理して、オファーを整理およびフィルタリングします。[詳細情報](../offer-library/creating-tags.md)
-* **[!UICONTROL ルール]**：オファーが提示される条件を管理します。[詳細情報](../offer-library/creating-decision-rules.md)
-* **[!UICONTROL ランキング]**:ランキング式を作成および管理して、特定の配置に対して最初に提示するオファーを決定します。 [詳細情報](../ranking/create-ranking-formulas.md)
+* **[!UICONTROL ルール]**：オファーを提示する条件を管理します。[詳細情報](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。[詳細情報](../ranking/create-ranking-formulas.md)
 
 >[!NOTE]
 >
->決定管理またはその一部の機能へのアクセスで問題が発生した場合は、管理者ユーザーに、必要な権限が付与されていることを確認してください。 [意思決定管理へのアクセスの許可](starting-offer-decisioning.md#granting-acess-to-decision-management)を参照してください。
+>意思決定管理またはその機能の一部へのアクセスで問題が発生した場合は、必要な権限が付与されているかどうかを管理者に確認してください。[意思決定管理へのアクセスの許可](starting-offer-decisioning.md#granting-acess-to-decision-management)を参照してください。
 
 ## 概要 {#overview}
 

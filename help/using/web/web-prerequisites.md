@@ -1,6 +1,6 @@
 ---
 title: Web チャネルの前提条件
-description: Journey Optimizerユーザーインターフェイスで Web ページにアクセスして作成するには、このページの前提条件に従います
+description: Journey Optimizer のユーザーインターフェイスで web ページにアクセスして作成できるようにするには、このページに記載されている前提条件に従ってください。
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 40%
+ht-degree: 99%
 
 ---
 
@@ -19,28 +19,28 @@ ht-degree: 40%
 
 * Web サイトに変更を追加するには、特定の実装が必要です。 [詳細情報](#implementation-prerequisites)
 
-* 次の手順で [!DNL Journey Optimizer] web designer を使用する場合は、特定のGoogle Chrome ブラウザー拡張機能がインストールされている必要があります。 [詳細情報](#visual-authoring-prerequesites)
+* [!DNL Journey Optimizer] Web デザイナーにアクセスするには、特定の Google Chrome ブラウザー拡張機能がインストールされている必要があります。[詳細情報](#visual-authoring-prerequesites)
 
-* Web エクスペリエンスが正しく配信されるように、Adobe Experience Platform設定の詳細を定義していることを確認します [ここ](#delivery-prerequisites).
+* Web エクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)に詳しく記載されている Adobe Experience Platform の設定を定義します。
 
 ## 注意事項
 
 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してのみ web エクスペリエンスを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)
 
 
-[!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関与していない新しいプロファイルをターゲットにします。 これにより、エンゲージメント可能なプロファイルの総数が増え、購入したエンゲージメント可能なプロファイルの契約上の数を超えた場合に、コストが影響を受ける可能性があります。 各パッケージのライセンス指標は、 [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html) ページ。
+[!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
-現在、Web プロパティで Web チャネルキャンペーンのオーサリングと配信を可能にする、次の 2 種類の実装がサポートされています。
+現在、web プロパティで web チャネルキャンペーンのオーサリングと配信を可能にする、次の 2 種類の実装がサポートされています。
 
-* クライアント側のみ — Web サイトに変更を追加するには、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を Web サイトに貼り付けます。
+* クライアントサイドのみ - web サイトに変更を追加するには、web サイトに [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装する必要があります。
 
-* ハイブリッドモード — [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* ハイブリッドモード - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} を使用できます。
 
 >[!NOTE]
 >
->サーバー側のみの実装は、現在サポートされていません。
+>サーバーサイドのみの実装は、現在のところサポートされていません。
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
@@ -48,31 +48,31 @@ ht-degree: 40%
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
-Web ページを確実に開き、 [!DNL Journey Optimizer] Web デザイナーには、 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} ブラウザー拡張機能が web ブラウザーにインストールされている。
+[!DNL Journey Optimizer] web デザイナーで web ページを確実に開いて作成、プレビューするには [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} のブラウザー拡張機能が web ブラウザーにインストールされている必要があります。
 
 >[!CAUTION]
 >
->現在、での Web ページのオーサリングをサポートしているブラウザーは、Google Chrome とMicrosoft Edge のみです。 [!DNL Journey Optimizer].
+>現在、[!DNL Journey Optimizer] での web ページのオーサリングをサポートしているブラウザーは、Google Chrome とMicrosoft Edge のみです。
 
 ### Visual Editing Helper 拡張機能のインストール {#install-visual-editing-helper}
 
-Visual Editing Helper ブラウザ拡張機能をダウンロードしてインストールするには、次の手順に従います。
+Visual Editing Helper のブラウザー拡張機能をダウンロードしてインストールするには、次の手順に従います。
 
-1. ブラウザーで新しいタブを開きます (Google Chrome またはMicrosoft Edge)。
+1. ブラウザー（Google Chrome または Microsoft Edge）で新しいタブを開きます。
 
-1. 次に移動： [Google Chrome Web Store](https://chrome.google.com/webstore/category/extensions){target="_blank"}.
+1. [Google Chrome web ストア](https://chrome.google.com/webstore/category/extensions){target="_blank"}に移動します。
 
-1. Microsoft Edge を使用している場合は、 **[!UICONTROL 他のストアからの拡張機能を許可]** をクリックします。 これにより、Chrome Web Store からMicrosoft Edge に拡張機能を追加できます。
+1. Microsoft Edge を使用している場合は、上部のバナーで「**[!UICONTROL 他のストアの拡張機能を許可]**」を選択します。これにより、Chrome web ストアから Microsoft Edge に拡張機能を追加できます。
 
-1. を検索して、 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} ブラウザー拡張機能。
+1. [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} のブラウザー拡張機能を検索して移動します。
 
 1. **[!UICONTROL Chrome に追加]**／**[!UICONTROL 拡張機能を追加]**&#x200B;をクリックします。
 
    >[!NOTE]
    >
-   >Microsoft Edge を使用している場合、ボタンにラベルが付いていても拡張機能が Edge に追加されます **[!UICONTROL Chrome に追加]**.
+   >Microsoft Edge を使用している場合は、ボタンに「**[!UICONTROL Chrome に追加]**」というラベルが付いていても拡張機能が Edge に追加されます。
 
-1. ブラウザーのツールバーで、Visual Editing Helper ブラウザー拡張が正しく有効になっていることを確認します。
+1. ブラウザーのツールバーで、Visual Editing Helper のブラウザー拡張が正しく有効になっていることを確認します。
 
    ![](assets/web-visual-editing-extension-edge.png)
 
@@ -95,17 +95,17 @@ Visual Editing Helper ブラウザ拡張機能をダウンロードしてイン�
 > * 顧客の QA またはステージサイトが外部から利用できません（サイトは内部）。
 
 
-### Web サイトが読み込まれない問題のトラブルシューティング {#troubleshooting}
+### Web サイトが読み込まれない場合のトラブルシューティング {#troubleshooting}
 
-Adobe [!DNL Journey Optimizer] Web Designer では、読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper ブラウザー拡張機能](#install-visual-editing-helper)をインストールするよう促すメッセージが表示されます。
+Adobe [!DNL Journey Optimizer] web デザイナーでは、読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper ブラウザー拡張機能](#install-visual-editing-helper)をインストールするよう促すメッセージが表示されます。
 
-Visual Editing Helper ブラウザー拡張機能が正しくインストールされても、Web サイトの読み込みに失敗したり、予期しない動作が発生した場合は、ブラウザーで Web サイトを開き、Cookie を受け入れてから [!DNL Journey Optimizer] web デザイナー。
+Visual Editing Helper のブラウザー拡張機能が正しくインストールされても、web サイトの読み込みに失敗したり、予期しない動作が発生した場合は、ブラウザーで web サイトを開いて Cookie を受け入れてから、[!DNL Journey Optimizer] Web デザイナーで読み込んでみてください。
 
-認証中のページの場合、ログインページの読み込みに失敗した場合、またはログインを試みた後もまだログインしていない場合：
+認証されているページでログインページの読み込みに失敗した場合、またはログインを試みてもログインできない場合：
 
-* 最初に新しいブラウザータブでログインし、目的のページに移動してから、URL をコピーして、で開いてみます。 [!DNL Journey Optimizer] web デザイナー。
+* まず新しいブラウザータブでログインし、目的のページに移動してから、URL をコピーして [!DNL Journey Optimizer] web デザイナーで開いてみます。
 
-* それでも [!DNL Journey Optimizer] Web デザイナーに問い合わせ、Adobeカスタマーケアに問い合わせて、問題が発生した URL を必ず指定してください。
+* それでも [!DNL Journey Optimizer] web デザイナーで web サイトを読み込めない場合は、問題が発生したことをアドビのカスタマーケアに報告してください。その際は必ず 該当の URL をお知らせください。
 
 ## 配信の前提条件 {#delivery-prerequisites}
 

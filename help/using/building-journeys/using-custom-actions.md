@@ -12,7 +12,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -55,11 +55,11 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 ![](assets/journey-custom-action-url.png)
 
-### ヘッダー およびクエリパラメータ {#headers}
+### ヘッダーおよびクエリパラメーター {#headers}
 
-この **[!UICONTROL URL 設定]** 「 」セクションには、動的ヘッダーおよびクエリーパラメーターのフィールドが表示されますが、定数フィールドは表示されません。 動的ヘッダーおよびクエリパラメーターのフィールドは、アクション設定画面で変数として定義されます。 [詳細情報](../action/about-custom-action-configuration.md#url-configuration)
+「**[!UICONTROL URL の設定]**」セクションには、動的ヘッダーフィールドとクエリパラメーターフィールドが表示されますが、定数フィールドは表示されません。動的ヘッダーおよびクエリパラメーターのフィールドは、アクション設定画面で変数として定義されます。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 
-動的ヘッダーおよびクエリパラメーターフィールドの値を指定するには、フィールド内または鉛筆アイコン上をクリックして、目的のフィールドを選択します。
+動的ヘッダーおよびクエリパラメーターのフィールドの値を指定するには、フィールド内または鉛筆アイコンをクリックして目的のフィールドを選択します。
 
 ![](assets/journey-dynamicheaderfield.png)
 

@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,13 +62,13 @@ ht-degree: 95%
 
 ## キャンペーンのプロパティの定義 {#create}
 
-1. 内 **[!UICONTROL プロパティ]** セクションで、キャンペーンの名前と説明を指定します。
+1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの名前と説明を指定します。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. カスタムまたはコアのデータ使用ラベルをキャンペーンに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。 [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
-## メッセージの作成 トラッキングの設定と設定 {#content}
+## メッセージの作成およびトラッキングの設定 {#content}
 
 「**[!UICONTROL アクション]**」セクションで、キャンペーンで送信するメッセージを作成します。
 
@@ -119,7 +119,7 @@ ht-degree: 95%
 
 ## オーディエンスを定義 {#audience}
 
-次をクリック： **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformセグメントのリストを表示します。 [セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
+「**[!UICONTROL オーディエンスを選択]**」ボタンを使用して、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
 
 >[!NOTE]
 >

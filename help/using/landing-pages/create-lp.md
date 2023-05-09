@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 99%
 
    テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[この節](../email/preview.md#select-test-profiles)を参照してください。
 
-1. 選択 **[!UICONTROL プレビューを開く]** をクリックしてランディングページをテストします。
+1. 「**[!UICONTROL プレビューを開く]**」を選択してランディングページをテストします。
 
    ![](assets/lp_open-preview.png)
 

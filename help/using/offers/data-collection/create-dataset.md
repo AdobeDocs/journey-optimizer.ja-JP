@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 71%
 
 まず、データセットで使用するスキーマを作成します。
 
-1. 次の **[!UICONTROL データ管理]** メニュー、選択 **[!UICONTROL スキーマ]** そして、 **[!UICONTROL 参照]** タブをクリックします。
+1. **[!UICONTROL データ管理]**&#x200B;メニューで「**[!UICONTROL スキーマ]**」を選択し、「**[!UICONTROL 参照]**」タブに移動します。
 
-1. クリック **[!UICONTROL スキーマを作成]** を選択します。 **[!UICONTROL XDM ExperienceEvent]**.
+1. 「**[!UICONTROL スキーマを作成]**」をクリックし、「**[!UICONTROL XDM ExperienceEvent]**」を選択します。
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -34,9 +34,9 @@ ht-degree: 71%
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 内 **[!UICONTROL 検索]** フィールドに、「提案インタラクション」と入力します。
+1. 「**[!UICONTROL 検索]**」フィールドに「提案インタラクション」と入力します。
 
-1. を選択します。 **[!UICONTROL エクスペリエンスイベント — 提案インタラクション]** フィールドグループとクリック **[!UICONTROL フィールドグループを追加]**.
+1. 「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループを選択し、「**[!UICONTROL フィールドグループの追加]**」をクリックします。
 
    ![](../assets/ai-ranking-add-field-group.png)
 
@@ -52,15 +52,15 @@ ht-degree: 71%
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 
-1. 次の **[!UICONTROL データ管理]** メニュー、選択 **[!UICONTROL データセット]** そして、 **[!UICONTROL 参照]** タブをクリックします。
+1. **[!UICONTROL データ管理]**&#x200B;メニューで「**[!UICONTROL データセット]**」を選択し、「**[!UICONTROL 参照]**」タブに移動します。
 
-1. クリック **[!UICONTROL データセットを作成]** を選択し、 **[!UICONTROL スキーマからデータセットを作成]**.
+1. 「**[!UICONTROL データセットを作成]**」をクリックし、「**[!UICONTROL スキーマからデータセットを作成]**」を選択します。
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 作成したスキーマをリストから選択し、「 」をクリックします。 **[!UICONTROL 次へ]**.
+1. 作成したスキーマをリストから選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-1. 「**[!UICONTROL 名前]**」フィールドにデータセットの一意の名前を入力し、「**[!UICONTROL 完了]**」をクリックします。
+1. 「**[!UICONTROL 名前]**」フィールドにデータセットの一意の名前を入力し、「**[!UICONTROL 終了]**」をクリックします。
 
    ![](../assets/ai-ranking-dataset-name.png)
 

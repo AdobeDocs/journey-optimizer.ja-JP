@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ ht-degree: 96%
 
 ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更することはできません。
 
-コンテキストデータを変更すると、次のエラーメッセージが表示されます。ERR_AUTHORING_JOURNEYVERSION_201
+コンテキストデータを変更すると、次のエラーメッセージが表示されます：ERR_AUTHORING_JOURNEYVERSION_201
 
-プロファイル属性を変更すると、次のエラーメッセージが表示されます。ERR_AUTHORING_JOURNEYVERSION_202
+プロファイル属性を変更すると、次のエラーメッセージが表示されます：ERR_AUTHORING_JOURNEYVERSION_202
 
 アプリ内アクティビティの場合、ジャーニーのライブ中にコンテンツを変更できますが、アプリ内トリガーは変更できません。
 

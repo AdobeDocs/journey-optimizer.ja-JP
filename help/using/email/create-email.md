@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 
    ![](assets/email_journey.png)
 
-   「 」フィールドは、デフォルトで、ユーザーがそのチャネルで使用した最後のサーフェスで事前入力されます。
+   フィールドには、ユーザーがチャネルで使用した最後のサーフェスがデフォルトで事前入力されます。
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->ジャーニーガードレールと制限について詳しくは、 [このページ](../start/guardrails.md)
+>ジャーニーのガードレールと制限について詳しくは、[こちらのページ](../start/guardrails.md)をご覧ください。
 
 ## ジャーニーの作成手順{#steps-journey}
 

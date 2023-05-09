@@ -12,7 +12,7 @@ exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->この統合を使用するには、Campaign Classicビルド 9125 以降が必要です。
+>この統合を使用するには、Campaign Classic ビルド 9125 以降が必要です。
 
 まず、Campaign でトランザクションメールテンプレートを作成します。次に、Journey Optimizer で、イベント、アクションを作成し、ジャーニーをデザインします。
 

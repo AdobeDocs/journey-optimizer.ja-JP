@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Select the date for the execution of the next activity.
 
 ![](assets/journey57.png)
 
-待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。 [このページ](../reports/query-examples.md#common-queries)を参照してください。
+待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。[このページ](../reports/query-examples.md#common-queries)を参照してください。
 
 <!--## Email send time optimization{#email_send_time_optimization}
 

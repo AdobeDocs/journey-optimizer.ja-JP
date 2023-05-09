@@ -1,5 +1,5 @@
 ---
-title: 決定管理イベントの操作
+title: 意思決定管理イベントの操作
 description: Adobe Experience Platform で意思決定管理レポートを作成する方法を説明します。
 feature: Offers
 topic: Integrations
@@ -9,7 +9,7 @@ exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 71%
 
 意思決定管理で特定のプロファイルに対する決定が行われるたびに、これらのイベントに関連する情報が Adobe Experience Platform に自動的に送信されます。
 
-これにより、決定に関するインサイトを得て、例えば、特定のプロファイルに提示されたオファーを把握できます。 これらのデータをエクスポートして分析し、独自のレポートシステムに取り込むことも、Adobe Experience Platformを活用することもできます [クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja) を他のツールと組み合わせて、分析とレポート作成の目的を強化
+これにより、意思決定に関するインサイトを得て、例えば特定のプロファイルに提示されたオファーを把握することができます。これらのデータをエクスポートして分析し、独自のレポートシステムに取り込むことも、分析とレポート作成の強化を目的に他のツールと組み合わせて Adobe Experience Platform [クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja) を活用することもできます。
 
-## データセットで使用できる主要情報 {#key-information}
+## データセットで使用できる主な情報 {#key-information}
 
-決定時に送信される各イベントには、分析やレポート作成の目的で利用できる 4 つの主要なデータポイントが含まれています。
+意思決定時に送信される各イベントには、分析とレポートに利用できる 4 つの主要なデータポイントが含まれています。
 
 ![](../assets/events-dataset-preview.png)
 

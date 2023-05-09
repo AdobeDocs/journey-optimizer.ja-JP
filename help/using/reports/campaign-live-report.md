@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -167,9 +167,9 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 「Web」タブ {#web-tab}
 
-キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL Web]** 「 」タブには、Web ページに関連する主な情報の詳細が表示されます。
+キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL Web]**」タブには、web ページに関連する主な情報の詳細が表示されます。
 
-+++ Web レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
++++Web レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
 **[!UICONTROL Web パフォーマンス]** KPI では、次のような、web エクスペリエンスに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
 
@@ -177,11 +177,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL インプレッション数]**：すべてのユーザーに配信された web エクスペリエンスの合計数。
 
-* **[!UICONTROL クリック数]**:URL への訪問の合計数。
+* **[!UICONTROL クリック数]**：URL 訪問の合計数。
 
-この **[!UICONTROL Web サマリ]** グラフは、該当する期間中の web エクスペリエンス（インプレッション数、個別インプレッション数およびクリック数）の変化を示します。
+ **[!UICONTROL Web の概要]**&#x200B;グラフでは、該当する期間の web エクスペリエンス（インプレッション数、ユニークインプレッション数、クリック数）の変化を確認できます。
 
-この **[!UICONTROL 要素別のクリック数]** 表には、Web ページ上の様々な要素に対する訪問者のエンゲージメントに関する主な情報の詳細が示されます。
+**[!UICONTROL 要素別のクリック数]**の表には、web ページ上の様々な要素に対する訪問者のエンゲージメントについての主な情報の詳細が表示されます。
 +++
 
 ## その他のリソース

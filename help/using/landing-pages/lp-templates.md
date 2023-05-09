@@ -12,7 +12,7 @@ exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. クリック **[!UICONTROL このテンプレートを使用]**.
+1. 「**[!UICONTROL このテンプレートを使用]**」をクリックします。
 
 1. ランディングページデザイナーを使用して、必要に応じてコンテンツを編集します。
 
