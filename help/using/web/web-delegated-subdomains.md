@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: Web、サブドメイン、設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 79%
@@ -78,11 +78,11 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Ess
 
 1. **[!UICONTROL デフォルト]**&#x200B;のバッジは、現在デフォルトとして使用されているサブドメインの横に表示されます。デフォルトのサブドメインを変更するには、該当するサブドメインの横にある&#x200B;**[!UICONTROL その他のアクション]**&#x200B;ボタンで「**[!UICONTROL デフォルトとして設定]**」を選択します。
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >デフォルトの web サブドメインは変更できますが、一度に使用できるのは 1 つのみです。
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
