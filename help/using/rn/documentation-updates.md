@@ -4,16 +4,20 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
+source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
 workflow-type: tm+mt
-source-wordcount: '2711'
-ht-degree: 100%
+source-wordcount: '2752'
+ht-degree: 98%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023年5月 {#may-2023}
+
+* この **Web サブドメインの設定** ページが作成されました：Adobe Experience Manager Assets Essentialsからのコンテンツを web エクスペリエンスに追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。 [詳細情報](../web/web-delegated-subdomains.md)
 
 ## 2023年4月 {#apr-2023}
 
