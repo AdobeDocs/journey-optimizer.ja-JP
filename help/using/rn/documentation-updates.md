@@ -4,9 +4,9 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
+source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2769'
 ht-degree: 98%
 
 ---
@@ -17,7 +17,8 @@ ht-degree: 98%
 
 ## 2023年5月 {#may-2023}
 
-* この **Web サブドメインの設定** ページが作成されました：Adobe Experience Manager Assets Essentialsからのコンテンツを web エクスペリエンスに追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。 [詳細情報](../web/web-delegated-subdomains.md)
+* Web エクスペリエンスでAdobe Experience Manager Assets Essentialsからのコンテンツの公開に使用するサブドメインの設定方法を説明する新しいページが追加されました。 [詳細情報](../web/web-delegated-subdomains.md)
+* E メールデザイナーで URL にパーソナライズされたトラッキングパラメーターを追加する方法を説明する新しい節が追加されました。 [詳細情報](../email/message-tracking.md#url-tracking)
 
 ## 2023年4月 {#apr-2023}
 
