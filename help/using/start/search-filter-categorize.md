@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 49%
@@ -53,7 +53,7 @@ Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs
 >
 >統合タグは現在ベータ版です。 ドキュメントと機能は変更される場合があります。
 
-## オブジェクトにタグを追加する
+### オブジェクトにタグを追加する
 
 この **タグ** フィールド、 [ジャーニー](../building-journeys/journey-gs.md#change-properties) または [campaign](../campaigns/create-campaign.md#create) プロパティを使用すると、オブジェクトのタグを定義できます。 既存のタグを選択することも、新しいタグを作成することもできます。
 
@@ -69,7 +69,7 @@ Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs
 > 
 > ジャーニーまたはキャンペーンの新しいバージョンを複製または作成した場合、タグは保持されます。
 
-## タグに対するフィルター
+### タグに対するフィルター
 
 ジャーニーおよびキャンペーンリストには専用の列が表示されるので、タグを簡単に視覚化できます。
 
@@ -81,7 +81,7 @@ Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs
 
 ![](assets/tags3.png)
 
-## タグの管理
+### タグの管理
 
 管理者は、「**管理**」の下の&#x200B;**タグ**&#x200B;メニューを使用して、タグを削除し、カテゴリ別に整理できます。タグ管理について詳しくは、 [統合タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
