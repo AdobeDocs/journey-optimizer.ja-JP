@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 100%
+source-wordcount: '1910'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,24 @@ ht-degree: 100%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
+## 2023 年 5 月の機能強化 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>キャンペーンでのタグの使用</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>これで、キャンペーンにAdobe Experience Platform統合タグを割り当てることができます。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。 統合タグ機能は現在ベータ版です。
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2023年4月リリースノート {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ ht-degree: 100%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -64,21 +81,22 @@ ht-degree: 100%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>新しいジャーニーダッシュボード（ベータ版）</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> ジャーニーダッシュボードが次の 2 つのタブに分割されました。</p>
-<ul><li>「<strong>概要</strong>」タブを使用して、ジャーニーに関連する主要な指標を表示する新しいダッシュボードにアクセスします。</li>
-<li>「<strong>参照</strong>」タブを使用して、すべてのジャーニーのリストにアクセスします。</li></ul>
-<p>この機能には、パブリックベータ版としてすべてのジャーニーでアクセスできます。</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>詳しくは、 <a href="../building-journeys/journey-gs.md#journey-access">詳細なドキュメント</a>を参照してください。</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Journey Optimizer の実務担当者は、タグを使用してビジネスオブジェクトを整理できるようになりました。タグを使用すると、オブジェクトをすばやく簡単に分類でき、検索が改善されます。この機能は現在ベータ版であり、ジャーニーでのみ使用できます。</p>
-<p>詳しくは、 <a href="../building-journeys/tags.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### 機能強化 {#mar-2023-improvements}
 

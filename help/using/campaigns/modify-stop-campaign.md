@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 93%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。
 
-デフォルトでは、リストには&#x200B;**[!UICONTROL ドラフト]**、**[!UICONTROL スケジュール済み]**、**[!UICONTROL ライブ]**&#x200B;ステータスのすべてのキャンペーンが表示されます。
-
-停止、完了およびアーカイブされたキャンペーンを表示するには、フィルターをクリアする必要があります。
+デフォルトでは、リストには&#x200B;**[!UICONTROL ドラフト]**、**[!UICONTROL スケジュール済み]**、**[!UICONTROL ライブ]**&#x200B;ステータスのすべてのキャンペーンが表示されます。停止、完了およびアーカイブされたキャンペーンを表示するには、フィルターをクリアする必要があります。
 
 ![](assets/create-campaign-list.png)
+
+さらに、キャンペーンのタイプとチャネル、または作成時にキャンペーンに割り当てられたタグに基づいて、リストをフィルタリングできます。 [キャンペーンにタグを割り当てる方法を説明します](create-campaign.md#create)
 
 ## キャンペーンのステータス {#statuses}
 
