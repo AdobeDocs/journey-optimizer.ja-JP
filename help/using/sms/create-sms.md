@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '596'
 ht-degree: 100%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 100%
 1. コンテンツを定義したら、トラック URL をメッセージに追加できます。これを行うには、**[!UICONTROL ヘルパー関数]**&#x200B;メニューにアクセスし、「**[!UICONTROL ヘルパー]**」を選択します。
 
    URL 短縮機能を使用するには、最初にサブドメインを設定する必要があります。このサブドメインはその後、サーフェスにリンクされます。[詳細情報](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > SMS サブドメインにアクセスして編集するには、実稼動サンドボックスで **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。
 
    ![](assets/sms_tracking_1.png)
 

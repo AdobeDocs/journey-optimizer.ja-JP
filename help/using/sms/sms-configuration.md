@@ -6,9 +6,9 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '848'
 ht-degree: 100%
 
 ---
@@ -27,6 +27,9 @@ SMS を設定する前に、こうしたいずれかの SMS プロバイダー�
 
 SMS サービスを使用した場合、該当する SMS プロバイダーが定める追加の利用条件に同意したとみなされます。Sinch と Twilio は、Adobe Journey Optimizer と統合することでユーザーが利用できるサードパーティ製品であるため、SMS サービスに関する問題や問い合わせについてサポートを受ける際は、Sinch または Twilio のユーザーが対象の SMS プロバイダーに問い合わせる必要があります。サードパーティ製品について、アドビは一切関係せず、責任も負いません。
 
+>[!CAUTION]
+>
+>SMS サブドメインにアクセスして編集するには、実稼動サンドボックスで **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。
 
 ## 新しい API 認証情報の作成 {#create-api}
 
