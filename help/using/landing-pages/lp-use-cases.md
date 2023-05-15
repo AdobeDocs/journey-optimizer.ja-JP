@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
 ht-degree: 100%
 
