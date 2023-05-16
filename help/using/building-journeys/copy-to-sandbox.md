@@ -10,7 +10,7 @@ level: Intermediate
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 100%
 
