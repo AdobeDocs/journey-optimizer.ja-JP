@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
->title="独自のコンテンツテンプレートの定義"
+>title="独自のコンテンツテンプレートを定義"
 >abstract="スタンドアロンのカスタムテンプレートをゼロから作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。"
 
 コンテンツテンプレートを作成する方法は 2 つあります。
