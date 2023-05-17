@@ -10,7 +10,7 @@ level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="テンプレートからのコンテンツの作成"
+>title="テンプレートからコンテンツを作成"
 >abstract="メールコンテンツの作成を開始するには、標準テンプレートまたはカスタムの既存のテンプレート（ゼロから作成された、または以前のメールからテンプレートとして保存されたもの）を選択します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html?lang=ja#create-content-templates" text="コンテンツテンプレートの作成"
 
