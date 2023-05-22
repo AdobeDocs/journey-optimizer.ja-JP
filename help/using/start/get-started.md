@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
+source-git-commit: cb5e5781002650c4ddb1f62dcc66d8196675b3a4
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,5 +66,4 @@ ht-degree: 100%
 * [開始の主な手順](quick-start.md)
 * [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
 * [ライブレポート](../reports/live-report.md)
-* [Journey Optimizer に関する FAQ](assets/do-not-localize/AJO-FAQ.pdf) (PDF)
 * [Journey Optimizer Security の概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）
