@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ユーザーインターフェイス
+title: 検索、フィルター、整理
 description: Journey Optimizer のユーザーインターフェイスの詳細情報
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
+source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '499'
 ht-degree: 100%
 
 ---

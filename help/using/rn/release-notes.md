@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
+source-git-commit: d04f102100e67baf34ca72f9af26931955f84c67
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 100%
+source-wordcount: '2379'
+ht-degree: 84%
 
 ---
 
@@ -21,24 +21,173 @@ ht-degree: 100%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2023年5月の機能強化 {#may-improvements}
+
+## 2023 年 5 月の早期リリースノート {#may-rn-2023}
+
+以下の情報は、リリースの公開日まで予告なく変更される場合があります。更新されたドキュメントはリリース日に公開され、ダイレクトリンクがこのページに追加されます。
+
+****&#x200B;リリース日：2023年5月25日（PT）
+
+### 新機能{#may-2023-features}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Audience Composition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../segment/assets/audiences-publish.png"/>
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>キャンペーンでのタグの使用</strong><br/></th>
+<th><strong>キャンペーンでのコンテンツ実験</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerは、キャンペーンでの実験をサポートするようになりました。 実験はランダム化試験で、オンラインテストの場合は、ランダムに選択したユーザーを特定のメッセージのバリエーションに公開し、別のランダムに選択したユーザーのセットを別のバリエーションや治療に公開します。 公開後、E メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Objective reporting and performance measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>E メールコンテンツでフラグメントを作成して使用する</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>フラグメントを作成、使用、管理して、E メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。 フラグメントは、Journey Optimizerのキャンペーンやジャーニーをまたいだ複数の E メールで参照できる、事前に作成された再利用可能なコンポーネントで、設計プロセスを改善し、迅速に実行できます。</p>
+<img src="assets/fragment-insert.png"/>
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>キャンペーンでのタグの使用（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>これで、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができるようになりました。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。統合タグ機能は現在ベータ版です。
+</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>パーソナライズされた最適化 AI ランキングモデル（一般提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>パーソナライズされた最適化 AI ランキングモデルが、通常、決定管理で使用できるようになりました。 この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+### 機能強化 {#may-2023-improvements}
+
+<!--
+**Terminology**
+
+* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
+-->
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
+
+**オーディエンス**
+
+* ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オリジンとオーディエンスの更新頻度を表示する新しい列が追加されました。
+
+**SMS チャネル**
+
+* SMS チャネルの表示を設定する際に、Infobip がベンダープロバイダーとして追加されました。
+* Twilio - API 資格情報のセットアップに、Twilio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。
+
+**アプリ内チャネル**
+
+* Message Places Service の新しいトリガールールを追加しました。Adobe
+* Adobe Experience Platform Assurance 機能を新しく追加し、デバイスイベントをキャプチャしてトリガールールとして追加しました。
+
+**ジャーニー**
+
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
+
+**キャンペーン**
+
+* 省略記号アクションメニューを使用して、在庫画面からキャンペーンを複製できるようになりました。
+* ライブキャンペーンに対するドラフトの変更を削除できるようになりました。
+* キャンペーンのアクティブ化の手順を合理化しました。
+
+**意思決定管理**
+
+* オファーのステータスがドラフトで、以前に公開されたことがない場合に、頻度キャップを編集できるようになりました。
+
+**パーソナライゼーション**
+
+* HTMLコンテンツで作業する際に、パーソナライゼーションエディターから直接アセット参照を選択して挿入できるようになりました。
+
+### 修正点{#may-2023-fixes}
+
+* アプリ内メッセージ — キャンペーンのスケジュールがメッセージの頻度設定と競合していた問題を修正しました。
+
 
 ## 2023年4月リリースノート {#apr-rn-2023}
 
@@ -100,25 +249,6 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
-
-<!--
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 ### 機能強化 {#april-2023-improvements}
 
@@ -264,7 +394,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer データセットのクラウドストレージへの書き出し（ベータ版）</strong><br/></th>
+<th><strong>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出し（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
