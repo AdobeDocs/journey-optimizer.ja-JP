@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ![](assets/create-campaign-list.png)
 
-さらに、キャンペーンのタイプとチャネル、または作成時にキャンペーンに割り当てられたタグに基づいて、リストをフィルタリングできます。 [キャンペーンにタグを割り当てる方法を説明します](create-campaign.md#create)
+さらに、キャンペーンのタイプとチャネルや、キャンペーンの作成時にキャンペーンに割り当てられたタグに基づいてリストをフィルタリングできます。[キャンペーンにタグを割り当てる方法について詳しくは、こちらを参照してください](create-campaign.md#create)
 
 ## キャンペーンのステータス {#statuses}
 
