@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: da59efccc65d78ae357123d5f99e94cfcb52a68d
+source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 84%
@@ -96,7 +96,7 @@ ht-degree: 84%
 <tr>
 <td>
 <p>フラグメントを作成、使用、管理して、E メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。 フラグメントは、Journey Optimizerのキャンペーンやジャーニーをまたいだ複数の E メールで参照できる、事前に作成された再利用可能なコンポーネントで、設計プロセスを改善し、迅速に実行できます。</p>
-<img src="assets/fragment-insert.png"/>
+<img src="assets/do-not-localize/fragments.gif"/>
 <!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
 </tr>
