@@ -7,66 +7,66 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
 
 # アプリ内メッセージの作成  {#create-in-app}
 
-アプリ内メッセージは、キャンペーンのコンテキストで作成されます。
-
+<!--
 >[!BEGINTABS]
 
->[!TAB ジャーニーへのアプリ内メッセージの追加]
+>[!TAB Add an In-app message to a journey]
 
 >[!AVAILABILITY]
 >
->アプリ内アクティビティは現在、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+>The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL アプリ内]**&#x200B;アクティビティをドラッグ＆ドロップします。
+1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
 
-   プロファイルがジャーニーの終了に達すると、表示されたアプリ内メッセージは自動的に期限切れになります。そのため、適切なタイミングを確保するために、アプリ内アクティビティの後に待機アクティビティが自動的に追加されます。
+    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
 
-   ![](assets/in_app_journey_1.png)
+    ![](assets/in_app_journey_1.png)
 
-1. メッセージの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
+1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
 
-1. 使用する[アプリ内サーフェス](inapp-configuration.md)を選択します。
+1. Choose the [In-app surface](inapp-configuration.md) to use.
 
-   ![](assets/in_app_journey_2.png)
+    ![](assets/in_app_journey_2.png)
 
-1. これで、「**[!UICONTROL コンテンツを編集]**」ボタンでコンテンツのデザインを開始できます。[詳細情報](design-in-app.md)
+1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
 
-1. 「**[!UICONTROL トリガーを編集]**」をクリックして、トリガーを設定します。
+1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
 
-   ![](assets/in_app_journey_4.png)
+    ![](assets/in_app_journey_4.png)
 
-1. アプリ内メッセージがアクティブな場合のトリガーの頻度を選択します。
+1. Choose the frequency of your trigger when your In-app message is active:
 
-   * **[!UICONTROL 毎回表示する]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが発生した場合に、常にメッセージを表示します。
-   * **[!UICONTROL 1 度だけ表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが初めて発生した場合にのみ、このメッセージを表示します。
-   * **[!UICONTROL クリックスルーまで表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが、「クリック」アクションで SDK によって操作イベントが送信されるまでに発生した場合に、このメッセージが表示されます。
+    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
+    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
 
-1. **[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンから、メッセージをトリガーするイベントと条件を選択します。
+1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
 
-   1. 左側のドロップダウンから、メッセージのトリガーに必要なイベントを選択します。
-   1. 右側のドロップダウンから、選択したイベントに必要な検証を選択します。
-   1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 追加]**」ボタンをクリックします。次に、上記の手順を繰り返します。
-   1. イベントのリンク方法を選択します。例えば、メッセージを表示するために「**両方**」のトリガーを true にする場合は「**[!UICONTROL および]**」を選択し、トリガーの「**どちらか**」が true の場合にメッセージを表示する場合は「**[!UICONTROL または]**」を選択します。
-   1. トリガーが設定されたら、「**[!UICONTROL 保存]**」をクリックします。
+    1. From the left drop-down, select the event required to trigger the message.
+    1. From the right drop-down, select the validation required on the selected event.
+    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
+    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
+    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
 
-   ![](assets/in_app_journey_3.png)
+    ![](assets/in_app_journey_3.png)
+    
+1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
 
-1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
 
-1. アプリ内メッセージの準備が整ったら、設定を完了し、ジャーニーを公開してアクティブ化します。
+For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
 
-ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
-
->[!TAB キャンペーンへのアプリ内メッセージの追加]
+>[!TAB Add an In-app message to a campaign]
+-->
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
@@ -113,7 +113,9 @@ ht-degree: 100%
 
    ![](assets/in_app_create_4.png)
 
+<!--
 >[!ENDTABS]
+-->
 
 ## チュートリアルビデオ{#video}
 
