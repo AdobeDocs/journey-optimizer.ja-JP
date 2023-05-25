@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2477'
 ht-degree: 80%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 80%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 5 月の早期リリースノート {#may-rn-2023}
+## 2023 年 5 月リリースノート {#may-rn-2023}
 
-以下の情報は、リリースの公開日まで予告なく変更される場合があります。更新されたドキュメントはリリース日に公開され、ダイレクトリンクがこのページに追加されます。
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-****&#x200B;リリース日：2023年5月25日（PT）
+**Release date**: May 25, 2023-->
 
 ### 新機能{#may-2023-features}
 
@@ -60,7 +60,7 @@ ht-degree: 80%
 <td>
 <p>Adobe Journey Optimizerは、キャンペーンでの実験をサポートするようになりました。 実験はランダム化試験で、オンラインテストの場合は、ランダムに選択したユーザーを特定のメッセージのバリエーションに公開し、別のランダムに選択したユーザーのセットを別のバリエーションや治療に公開します。 公開後、E メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../campaigns/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ ht-degree: 80%
 <td>
 <p>フラグメントを作成、使用、管理して、E メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。 フラグメントは、Journey Optimizerのキャンペーンやジャーニーをまたいだ複数の E メールで参照できる、事前に作成された再利用可能なコンポーネントで、設計プロセスを改善し、迅速に実行できます。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../email/fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -145,14 +145,6 @@ ht-degree: 80%
 
 ### 機能強化 {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **オーディエンス**
@@ -164,21 +156,18 @@ ht-degree: 80%
 
    その結果、Adobe Journey OptimizerおよびAdobe Experience Platform UI では、「セグメント」が「オーディエンス」に置き換えられ、この新しいオーディエンス作成および管理方法が反映されます。
 
-   変更は、次の UI およびドキュメントリリースで徐々にロールアウトされます。
-
-   メッセージの受信をターゲットとしたプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳は、次の言語に関して、すべての Digital Experience 製品間で調整されました。
+   メッセージの受信をターゲットにしたプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳は、一部の言語で、すべての Digital Experience 製品間で調整されました。
 
    * ドイツ語：ジェルグルッペ
    * ポルトガル語（ブラジル）:パブリコ・アルボ
    * スペイン語：público destinatario
 
 
-
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **SMS チャネル**
 
-* SMS チャネルの表示を設定する際に、Infobip がベンダープロバイダーとして追加されました。
+* SMS チャネルの表示を設定する際に、Infobip がベンダープロバイダーとして追加されました。 [詳細情報](../sms/sms-configuration.md)
 * Twilio - API 資格情報のセットアップに、Twilio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。
 
 **アプリ内チャネル**
@@ -198,7 +187,7 @@ ht-degree: 80%
 
 **意思決定管理**
 
-* オファーのステータスがドラフトで、以前に公開されたことがない場合に、頻度キャップを編集できるようになりました。
+* これで、オファーに **[!UICONTROL ドラフト]** ステータスとは、頻度キャップを有効にしたことのない公開済みのものです。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **パーソナライゼーション**
 
