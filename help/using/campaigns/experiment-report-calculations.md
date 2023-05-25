@@ -5,30 +5,14 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
-exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 100%
+source-wordcount: '932'
+ht-degree: 99%
 
 ---
 
-# 実験レポートの統計計算 {#experiment-report-calculations}
-
->[!BEGINSHADEBOX]
-
-このドキュメントの内容は次のとおりです。
-
-* [コンテンツ実験の基本を学ぶ](get-started-experiment.md)
-* [コンテンツ実験の作成](content-experiment.md)
-* [統計計算について](experiment-calculations.md)
-* [実験レポートの設定](reporting-configuration.md)
-* **[実験レポートの統計計算](experiment-report-calculations.md)**
-
->[!ENDSHADEBOX]
+# 実験レポートの統計指標について {#experiment-report-calculations}
 
 このページでは、Adobe Journey Optimizer のキャンペーンの実験レポートで使用される詳細な統計計算について説明します。
 

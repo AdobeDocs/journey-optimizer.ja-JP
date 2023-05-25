@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >現在、[!DNL Journey Optimizer] では Amazon S3 と SFTP のみがサポートされています。
+   >現在、Amazon S3、SFTP、Azure は [!DNL Journey Optimizer].
 
 1. サーバーアドレス、アクセスキーなど、サーバーの詳細と資格情報を入力します。
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 >id="ajo_dm_surface_settings"
 >title="ダイレクトメール設定を定義します。"
 >abstract="ダイレクトメールサーフェスには、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。また、ファイルのルーティング設定を選択して、ファイルの書き出し先を定義する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=ja#file-routing-configuration" text="ファイルのルーティングの設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="ファイルのルーティングの設定"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ ht-degree: 100%
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. ファイル形式として **[!UICONTROL CSV]** または&#x200B;**[!UICONTROL テキスト区切り]**&#x200B;を選択します。
+
+1. 次を選択した場合、 **[!UICONTROL 区切り文字]**、選択した列区切り文字を定義します。タブ、セミコロン、パイプ、アンパサンド。
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. 作成したものの中から「**[!UICONTROL ファイルルーティング設定]**」を選択します。これにより、ダイレクトメールプロバイダーが使用するファイルの書き出し先が定義されます。
 

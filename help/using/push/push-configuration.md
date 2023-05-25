@@ -6,9 +6,9 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
+source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1588'
 ht-degree: 100%
 
 ---
@@ -119,9 +119,9 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### モバイルアプリの Adobe Experience Platform SDK との統合 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。[Adobe Experience Platform Mobile SDK のドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"}に従って、アプリで Adobe Experience Platform Mobile SDK を設定します。
+Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。[Adobe Experience Platform Mobile SDK のドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}に従って、アプリで Adobe Experience Platform Mobile SDK を設定します。
 
-この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}を参照してください。
+この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
 
 
 ## 手順 1：Adobe Experience Platform データ収集でのアプリのプッシュ認証情報の追加 {#push-credentials-launch}

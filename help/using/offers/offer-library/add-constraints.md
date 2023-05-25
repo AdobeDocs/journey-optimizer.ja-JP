@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 100%
+source-wordcount: '2355'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
+   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
 
 セグメントまたは決定ルールを選択すると、推定される認定プロファイルに関する情報を表示できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
@@ -220,7 +220,7 @@ E メールの準備時に、オファーが提案された回数が計算され
 >
 >決定イベントを除くすべてのキャッピングイベントでは、意思決定管理のフィードバックが自動的に収集されず、結果としてキャッピングカウンターの値が正しくカウントされない可能性があります。[詳細情報](../data-collection/data-collection.md)
 >
->キャッピングカウンターで各キャッピングイベントを確実に追跡して反映させるには、エクスペリエンスイベントの収集に使用するスキーマに、そのイベントの正しいフィールドグループが含まれていることを確認します。[詳細情報](../data-collection/schema-requirement.md)
+>各キャッピングイベントがキャッピングカウンターで追跡され、計上されるようにするには、エクスペリエンスイベントの収集に使用するスキーマに、そのイベントの正しいフィールドグループが含まれていることを確認します。 [詳細情報](../data-collection/schema-requirement.md)
 
 ### キャッピングカウント {#capping-count}
 

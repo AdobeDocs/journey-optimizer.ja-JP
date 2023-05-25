@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 それには、次のいずれかの方法を使用できます。
 
-* **外部のランディングページへのリンク**&#x200B;をメールに挿入して、ユーザーがブランドからの情報の配信を登録解除できるようにします。詳しくは、[外部オプトアウト](#opt-out-external-lp)を参照してください。
+* **外部のランディングページへのリンク**&#x200B;をメールに挿入して、ユーザーがブランドからの情報の配信を登録解除できるようにします。[外部オプトアウトリンクの追加方法を説明します](#opt-out-external-lp)
 
 * **ワンクリックオプトアウトリンク**&#x200B;をメールコンテンツに追加します。このリンクにより、選択内容の確認が必要なランディングページにリダイレクトされることなく、受信者は情報配信の登録をすばやく解除できます。その結果、登録解除プロセスが迅速化されます。詳しくは、[ワンクリックオプトアウト](#one-click-opt-out)を参照してください。
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)（メッセージプリセット）レベルでメッセージの作成時に定義されます。
+>マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ (**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**) が [チャンネル表面](../configuration/channel-surfaces.md#email-type) レベルおよび（メッセージの作成時）を参照してください。
 
 ## 外部オプトアウト {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ ht-degree: 100%
 
 この POST 呼び出しは次の通りです。
 
-エンドポイント：platform.adobe.io/journey/imp/consent/preferences
+エンドポイント：https://platform.adobe.io/journey/imp/consent/preferences
 
 クエリパラメーター：
 
 * **params**：暗号化されたペイロードが格納されています
-* **sig**：署名
 * **pid**：暗号化されたプロファイル ID
 
 次の 3 つのパラメーターが、受信者に送信されるサードパーティのランディングページ URL に含まれます。

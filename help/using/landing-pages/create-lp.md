@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 100%
+source-wordcount: '1583'
+ht-degree: 97%
 
 ---
 
 # ランディングページの作成と公開 {#create-lp}
+
+>[!CAUTION]
+>
+>ランディングページをテストおよび公開するには、 **[!UICONTROL メッセージを公開]** 権限。
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
@@ -207,6 +211,8 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
+>ランディングページをテストするには、 **[!UICONTROL メッセージを公開]** 権限。
+>
 >メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
 
 1. ランディングページのインターフェイスから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
@@ -273,6 +279,10 @@ ht-degree: 100%
 -->
 
 ## ランディングページの公開 {#publish-landing-page}
+
+>[!CAUTION]
+>
+>ランディングページを公開するには、 **[!UICONTROL メッセージを公開]** 権限。
 
 ランディングページの準備が整ったら、ページを公開し、メッセージで使用できる状態にできます。
 

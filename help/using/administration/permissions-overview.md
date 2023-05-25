@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 97%
 
 ---
 

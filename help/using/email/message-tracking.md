@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 87%
 
 ---
 
@@ -63,31 +63,59 @@ ht-degree: 100%
 
    * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
 
-   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。詳しくは、[この節](../landing-pages/get-started-lp.md)を参照してください。
+   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。[詳細情報 ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL ワンクリックオプトアウト]**：ユーザーがオプトアウトの確認を求められることなく、コミュニケーションを素早く購読解除できるリンクを挿入します。詳しくは、[この節](../privacy/opt-out.md#one-click-opt-out)を参照してください。
+   * **[!UICONTROL ワンクリックオプトアウト]**：ユーザーがオプトアウトの確認を求められることなく、コミュニケーションを素早く購読解除できるリンクを挿入します。[詳細情報](email-opt-out.md#one-click-opt-out)
 
    * **[!UICONTROL 外部のオプトイン／購読]**：ブランドからのコミュニケーションの受信を同意するリンクを挿入します。
 
-   * **[!UICONTROL 外部オプトアウト／購読解除]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入します。オプトアウト管理の詳細については、[この節](../privacy/opt-out.md#opt-out-management)を参照してください。
+   * **[!UICONTROL 外部オプトアウト／購読解除]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入します。オプトアウト管理の詳細については、[この節](email-opt-out.md#opt-out-management)を参照してください。
 
-   * **[!UICONTROL ミラーページ]**：web ブラウザーにメールコンテンツを表示するためのリンクを挿入します。詳しくは、[この節](#mirror-page)を参照してください。
+   * **[!UICONTROL ミラーページ]**:Web ブラウザーに E メールコンテンツを表示するためのリンクを追加します。 [詳細情報](#mirror-page)
 
-1. リンクをパーソナライズできます。パーソナライズされた URL について詳しくは、[この節](../personalization/personalization-syntax.md#perso-urls)を参照してください。
+1. 対応するフィールドに目的の URL を入力するか、ランディングページを選択して、リンク設定とスタイルを定義します。 [詳細情報](#adjust-links)
+
+   >[!NOTE]
+   >
+   >URL を解釈する場合、 [!DNL Journey Optimizer] は URI 構文 ([RFC 3986 標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}) では、URL 内の一部の特殊文字が無効になります。 配達確認または E メールを送信する際に、コンテンツに追加された URL に関するエラーが返された場合は、文字列を回避策として URL エンコードできます。
+
+1. リンクをパーソナライズできます。[詳細情報](../personalization/personalization-syntax.md#perso-urls)
 
 1. 変更を保存します。
 
-1. リンクを作成した後も、右側の「**[!UICONTROL コンポーネント設定]**」ペインから変更できます。
-
-
-   * リンクを編集してタイプを変更できます。
-   * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。
+1. リンクを作成した後でも、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** 右側のパネル
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネルサーフェス](../configuration/channel-surfaces.md#email-type)に定義されます。
+
+## リンクを調整 {#adjust-links}
+
+リンクを調整するには、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** 右側のパネル リンクに下線を引き、リンクの色を編集し、リンクのターゲットを選択することができます。
+
+1. リンクが挿入された&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントで、リンクを選択します。
+
+1. 「**[!UICONTROL 設定]**」タブの&#x200B;**[!UICONTROL ターゲット]**&#x200B;ドロップダウンで、オーディエンスのリダイレクト方法を選択します。
+
+   * **[!UICONTROL なし]**：クリックしたフレームと同じフレームでリンクを開きます（デフォルト）。
+   * **[!UICONTROL 空白]**：リンクを新しいウィンドウまたは新しいタブで開きます。
+   * **[!UICONTROL セルフ]**：クリックしたフレームと同じフレームでリンクを開きます。
+   * **[!UICONTROL 親]**：親フレームでリンクを開きます。
+   * **[!UICONTROL トップ]**：ウィンドウ全体でリンクを開きます。
+
+   ![](assets/link_2.png)
+
+1. 「**[!UICONTROL リンクに下線を引く]**」にチェックを入れると、リンクのラベルテキストに下線を引くことができます。
+
+   ![](assets/link_1.png)
+
+1. リンクの色を変更するには、「**[!UICONTROL スタイル]**」タブから「**[!UICONTROL リンクの色]**」をクリックします。
+
+   ![](assets/link_3.png)
+
+1. 変更を保存します。
 
 ## ミラーページへのリンク {#mirror-page}
 

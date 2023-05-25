@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '993'
+ht-degree: 97%
 
 ---
 
@@ -64,9 +64,9 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 1. [タグプロパティの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ja)
 
-1. [埋め込みコードの追加](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/add-embed-code.html?lang=ja)
+1. [埋め込みコードの追加](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Adobe Experience Platform Web SDK 拡張機能をインストールして設定します。詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja)に関するドキュメントを参照してください。
+1. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Adobe Experience Platform Web SDK 拡張機能をインストールして設定します。詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html)に関するドキュメントを参照してください。
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -86,7 +86,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
    ![オファーをリクエスト](../../assets/rule-request-offer.png)
 
-1. 設定したすべての関連するルール、データ要素、拡張機能を含むライブラリを[作成して公開](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ja)します。
+1. 設定したすべての関連するルール、データ要素、拡張機能を含むライブラリを[作成して公開](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html)します。
 
 ## オプション 2 - 事前にビルドされたスタンドアロンバージョンを使用して手動で実装
 

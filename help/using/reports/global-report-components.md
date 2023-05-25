@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
-source-git-commit: 26456f7c2d879843eb533209377b83fc0ccb5617
+source-git-commit: 1539e996105aa242c529acf35883d9dd4146ca7a
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 100%
@@ -205,11 +205,11 @@ ht-degree: 100%
 </tr>
   <tr> 
    <td>Email Opens<br/> </td> 
-   <td>.<br/> </td> 
+   <td>Number of times the email was opened.<br/> </td> 
 </tr>
   <tr> 
    <td>Email Unsubscribes<br/> </td> 
-   <td><br/> </td> 
+   <td>Number of clicks on the unsubscription link.<br/> </td> 
 </tr>
   <tr> 
    <td>First app launches<br/> </td> 
@@ -225,11 +225,11 @@ ht-degree: 100%
 </tr>
   <tr> 
    <td>Unique email opens<br/> </td> 
-   <td><br/> </td>
+   <td>Number of recipients who opened the email.<br/> </td>
 <tr>
   <tr> 
    <td>Unique email unsubscribes<br/> </td> 
-   <td><br/> </td>
+   <td>Number of recipients who clicked on the unsubscription link.<br/> </td>
 </tr>
   <tr> 
    <td>Unique installs<br/> </td> 

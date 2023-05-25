@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 設定, 実験, レポート, Optimizer
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+hide: true
+hidefromtoc: true
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 98%
 
 ---
 
@@ -30,18 +30,6 @@ ht-degree: 100%
 >id="ajo_admin_reporting_dataset"
 >title="データセットの選択"
 >abstract="イベントタイプのデータセット を 1 つだけ選択できます。そのデータセットには、サポートされているフィールドグループ（アプリケーションの詳細、コマースの詳細、web の詳細）を 1 つ以上含める必要があります。"
-
->[!BEGINSHADEBOX]
-
-このドキュメントの内容は次のとおりです。
-
-* [コンテンツ実験の基本を学ぶ](get-started-experiment.md)
-* [コンテンツ実験の作成](content-experiment.md)
-* [統計計算について](experiment-calculations.md)
-* **[実験レポートの設定](reporting-configuration.md)**
-* [実験レポートの統計計算](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +48,7 @@ ht-degree: 100%
 ## 前提条件
 
 
-レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target="_blank"}を参照してください。
+レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}を参照してください。
 
 * イベントタイプのデータセットのみを追加できます。
 

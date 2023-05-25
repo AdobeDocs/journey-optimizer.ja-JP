@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,6 @@ ht-degree: 100%
 
 1. **[!UICONTROL コンテンツ管理]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;の左側のメニューからコンテンツテンプレートリストにアクセスします。
 
-   ![](assets/content-template-list.png)
-
 1. 「**[!UICONTROL テンプレートの作成]**」を選択します。
 
 1. テンプレートの詳細を入力します。
@@ -95,7 +93,7 @@ ht-degree: 100%
 
 1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
-1. 「**[!UICONTROL 作成]**」をクリックし、さまざまなオプションからメールのデザイン方法を選択します。
+1. クリック **[!UICONTROL 作成]** を選択し、様々なオプションからテンプレートのデザイン方法を選択します。
 
    * メールデザイナーのインターフェースを使用して、[ゼロからメールをデザインします](content-from-scratch.md)。
 

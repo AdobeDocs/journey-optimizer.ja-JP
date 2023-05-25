@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
-workflow-type: ht
-source-wordcount: '413'
-ht-degree: 100%
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 94%
 
 ---
 
@@ -87,6 +87,8 @@ For more information on how to configure a journey, refer to [this page](../buil
    ![](assets/in_app_create_2.png)
 
 1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)。
+
+1. クリック **[!UICONTROL 実験を作成]** ：コンテンツ実験の設定を開始し、そのパフォーマンスを測定し、ターゲットオーディエンスに最適なオプションを特定するための処理を作成します。 [詳細情報](../campaigns/content-experiment.md)
 
 1. 「**[!UICONTROL トリガーを編集]**」をクリックして、メッセージをトリガーするイベントと条件を選択します。
 

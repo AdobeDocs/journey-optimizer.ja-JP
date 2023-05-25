@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '593'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 1. 必要に応じて、条件付きルールを作成します。これを行うには、左のメニューから目的の属性をキャンバスにドラッグ&amp;ドロップして配置します。
 
-   属性をキャンバスに組み合わせる手順は、セグメント作成のエクスペリエンスと似ています。ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#rule-builder-canvas)を参照してください。
+   属性をキャンバスに組み合わせる手順は、セグメント作成のエクスペリエンスと似ています。ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)を参照してください。
 
    ![](assets/conditions-create.png)
 

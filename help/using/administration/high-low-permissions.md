@@ -8,10 +8,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 54%
 
 ---
 
@@ -19,361 +19,442 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/permissions.png)
 
-各製品プロファイルは、ユーザーが様々な機能にアクセスできる権限で構成されています。
+各役割は、ユーザーが様々な機能にアクセスできる権限で構成されています。
 権限は次の 2 つのタイプに分けることができます。
 
-* **高レベルの権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、[!DNL Admin console] で&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てることができる様々な権限を表します。高レベル権限は、低レベル権限を含みます。
+* **高レベル権限**:は、割り当て可能な様々な権限を表します **[!UICONTROL 役割]** 内 [!DNL Admin console]例： **[!DNL Publish journeys]** および **[!DNL Manage subdomains delegation]**. 高レベル権限は、低レベル権限を含みます。
 
 * **低レベル権限**：高レベル権限から取得される様々な権限を表します。
 
-例えば、**[!DNL Journey administrator]** 製品プロファイルには、**[!DNL Manage journeys]** 権限が割り当てられます。この権限により、ジャーニー管理者に対してジャーニーの書き込み、読み取りおよび削除を許可する低レベルの権限が生じます。
+例えば、 **[!DNL Journey administrator]** 役割が割り当てられています **[!DNL Manage journeys]** 権限。 この権限により、ジャーニー管理者に対してジャーニーの書き込み、読み取りおよび削除を許可する低レベルの権限が生じます。
 
-## ジャーニー機能 {#journey-capability}
+## ジャーニーリソース {#journey-capability}
 
-### [!DNL Manage journeys] 権限 {#manage-journeys}
+* **[!DNL Manage journeys]** 高レベルの権限を持つユーザーは、新しいジャーニーの作成、既存のアクションの編集/削除、およびジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへのアクセスが可能です。
 
-「**[!DNL Manage journeys]**」という高レベルの権限を持つユーザーは、新しいジャーニーの作成や、既存のジャーニーの編集／削除を行い、ジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへアクセスできます。
++++ これには、次の低レベル権限が含まれます。
 
-これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
 
-* Journey Optimizer 固有：
+      * journeys.read
+      * journeys.write
+      * journeys.delete
+      * messages.read
+   * Adobe Experience Platform 固有：
 
-   * journeys.read
-   * journeys.write
-   * journeys.delete
-   * messages.read
+      * segments.read
+      * profiles.read
+      * datasets.read
+      * schemas.read
 
-* Adobe Experience Platform 固有：
++++
 
-   * segments.read
-   * profiles.read
-   * datasets.read
-   * schemas.read
+* **[!DNL Publish journeys]** 高レベル権限を持つユーザーは、ジャーニーを公開できます。
 
-### [!DNL Publish journeys] 権限 {#publish-journeys}
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+      * journeys.publish
+      * journeys.read
 
-「**[!DNL Publish journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを公開できます。
++++
 
-これには、次の低レベル権限が含まれます。
+* **[!DNL View journeys]** 高レベル権限を持つユーザーは、ジャーニーを参照および表示できます。
 
-* Journey Optimizer 固有：
-   * journeys.publish
-   * journeys.read
++++ これには、次の低レベル権限が含まれます。
 
-### [!DNL View journeys] 権限 {#view-journeys}
+   * Journey Optimizer 固有：
+      * journeys.read
+   * Adobe Experience Platform 固有：
+      * segments.read
+      * profiles.read
 
-「**[!DNL View journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを参照および表示できます。
++++
 
-これには、次の低レベル権限が含まれます。
+* **[!DNL Manage journeys events, data sources and actions]** 高レベル権限を持つユーザーは、イベントとデータの設定をおこなうことができます。
 
-* Journey Optimizer 固有：
-   * journeys.read
++++ これには、次の低レベル権限が含まれます。
 
-* Adobe Experience Platform 固有：
-   * segments.read
-   * profiles.read
+   * Journey Optimizer 固有：
+      * journeys_events.read
+      * journeys_events.write
+      * journeys_events.delete
+      * journeys_data_sources.read
+      * journeys_data_sources.write
+      * journeys_data_sources.delete
+      * journeys_actions.read
+      * journeys_actions.write
+      * journeys_actions.delete
+   * Adobe Experience Platform 固有：
+      * schemas.read
+      * datasets.read
+      * identity_namespace.read
 
-### [!DNL Manage journeys events, data sources and actions] 権限 {#manage-journeys-events}
++++
 
-「**[!DNL Manage journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、イベントとデータの設定を行うことができます。
+* **[!DNL View journeys events, data sources and actions]** 高レベル権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
 
-これには、次の低レベル権限が含まれます。
++++ これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer 固有：
-   * journeys_events.read
-   * journeys_events.write
-   * journeys_events.delete
-   * journeys_data_sources.read
-   * journeys_data_sources.write
-   * journeys_data_sources.delete
-   * journeys_actions.read
-   * journeys_actions.write
-   * journeys_actions.delete
+   * Journey Optimizer 固有：
+      * journeys_events.read
+      * journeys_data_sources.read
+      * journeys_actions.read
+   * Adobe Experience Platform 固有：
+      * schemas.read
+      * datasets.read
+      * identity_namespace.read
 
-* Adobe Experience Platform 固有：
-   * schemas.read
-   * datasets.read
-   * identity_namespace.read
++++
 
-### [!DNL View journeys events, data sources and actions] 権限 {#view-journeys-event}
+* **[!DNL View journeys report]** 高レベルの権限を持つユーザーは、読み取り専用のジャーニーレポートを使用できます。
 
-「**[!DNL View journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
++++ これには、次の低レベル権限が含まれます。
 
-これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+      * journeys_report.read
+      * messages_report.read
+   * Adobe Experience Platform 固有：
+      * datasets.read
+      * queries.read
+      * queries.write
+      * queries.delete
 
-* Journey Optimizer 固有：
-   * journeys_events.read
-   * journeys_data_sources.read
-   * journeys_actions.read
++++
 
-* Adobe Experience Platform 固有：
-   * schemas.read
-   * datasets.read
-   * identity_namespace.read
+## Journey Optimizerルールリソース {#journey-rules-capability}
 
-### [!DNL View journeys report] 権限 {#view-journeys-report}
+* **[!DNL Manage frequency rules]** 高レベル権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化/非アクティブ化をおこなうことができます。
 
-**[!DNL View journeys report]** 高レベルの権限を持つユーザーは、ジャーニーレポートに対する読み取り専用のアクセス権を持ちます。
++++ これには、次の低レベル権限が含まれます。
 
-これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+      * frequency_rules.read
+      * frequency_rules.write
+      * frequency_rules.delete
 
-* Journey Optimizer 固有：
-   * journeys_report.read
-   * messages_report.read
++++
 
-* Adobe Experience Platform 固有：
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
+* **[!DNL View frequency rules]** 高レベル権限を持つユーザーは、頻度ルールを表示できます。
 
-## 意思決定管理機能 {#decisions-permissions}
++++ これには、次の低レベル権限が含まれます。
 
-### [!DNL Manage decisions] 権限 {#manage-decisioning}
+   * Journey Optimizer 固有：
+      * frequency_rules.read
 
-「**[!DNL Manage decisions]**」という高レベルの権限を持つユーザーは、既存の **[!DNL Activity entities]** の編集／削除、新規作成を行なえるほか、これらのアクティビティで使用されるオブジェクトを管理し、決定することができます。
++++
 
-これには、次の低レベル権限が含まれます。
+## キャンペーンリソース {#campaign-capability}
 
-* 意思決定管理固有：
+* **[!DNL Manage campaigns]** 高レベル権限を持つユーザーは、キャンペーンの新規作成や編集/削除が可能です
 
-   * activities.read
-   * activities.write
-   * activities.delete
-   * offers.read
-   * offers.write
-   * offers.delete
-   * placements.read
-   * placements.write
-   * placements.delete
-   * ranking_strategy.read
++++ これには、次の低レベル権限が含まれます。
 
-* Adobe Experience Platform 固有：
-   * datasets.read
-   * datasets.write
-   * datasets.delete
-   * schemas.read
-   * profile.read
-   * segments.read
+   * Journey Optimizer 固有：
 
-### [!DNL View decisions] 権限 {#view-decisions}
+      * campaign.read
+      * campaign.write
+      * campaign.delete
 
-「**[!DNL View decisions]**」という高レベルの権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定を行うことができます。
+      <!--* experiments.read
+      * experiments.write
+      * experiments.delete-->
++++
 
-これには、次の低レベル権限が含まれます。
+* **[!DNL Publish campaigns]** 高レベル権限を持つユーザーは、キャンペーンを公開できます。
 
-* 意思決定管理固有：
++++ これには、次の低レベル権限が含まれます。
 
-   * activities.read
-   * offers.read
-   * placements.read
-   * ranking_strategy.read
+   * Journey Optimizer 固有：
 
-* Adobe Experience Platform 固有：
-   * schemas.read
-   * segment.read
-   * datasets.read
-   * datasets.write
-   * datasets.delete
+      * campaign-read
+      * campaign-publish
+         <!--* experiments.activate-->
 
-### [!DNL Publish offers decisioning] 権限 {#publish-decisions}
++++
 
-「**[!DNL Publish offers decisioning]**」という高レベルの権限を持つユーザーは、オファーアクティビティを承認／未承認するアクセス権を持ちます。
+* **[!DNL View campaigns report]** 高レベル権限を持つユーザーは、キャンペーンレポートを読み取り、編集できます。
 
-これには、次の低レベル権限が含まれます。
++++ これには、次の低レベル権限が含まれます。
 
-* 意思決定管理固有：
+   * Journey Optimizer 固有：
+      * campaign.read
+      * campaign-report.read
 
-   * offers_activity.read
-   * offers.read
-   * offers.write
-   * offers.delete
-   * placements.read
-   * placements.write
-   * placements.delete
-   * ranking_strategy.read
+      <!--* experiments.read
+      * experiments_report.read-->
++++
 
-* Adobe Experience Platform 固有：
-   * schemas.read
-   * segment.read
-   * datasets.read
-   * profiles.read
+## 決定管理リソース {#decisions-permissions}
 
-### [!DNL Manage ranking strategies] 権限 {#manage-ranking-strategies}
+* **[!DNL Manage decisions]** 高レベルの権限を持つユーザーは、新規作成や既存の編集/削除が可能です **[!DNL Activity entities]**&#x200B;を管理し、判定をおこなうためにこれらのアクティビティで使用されるオブジェクトを管理します。
 
-この「**[!DNL Manage ranking strategies]**」という高レベル権限を持つユーザーは、ランキング戦略の読み取り、作成、編集、削除を行うことができます。
++++ これには、次の低レベル権限が含まれます。
 
-これには、次の低レベル権限が含まれます。
+   * 意思決定管理固有：
 
-* 意思決定管理固有：
+      * activities.read
+      * activities.write
+      * activities.delete
+      * offers.read
+      * offers.write
+      * offers.delete
+      * placements.read
+      * placements.write
+      * placements.delete
+      * ranking_strategy.read
+   * Adobe Experience Platform 固有：
+      * datasets.read
+      * datasets.write
+      * datasets.delete
+      * schemas.read
+      * profile.read
+      * segments.read
 
-   * ranking_strategy.read
-   * ranking_strategy.write
-   * ranking_strategy.delete
-   * activities.read
-   * offers.read
-   * placements.read
++++
 
-## 管理機能 {#administration-permissions}
+* **[!DNL View decisions]** 高レベル権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定をおこなうことができます。
 
-### [!DNL Manage subdomains delegation] 権限 {#manage-subdomain}
++++ これには、次の低レベル権限が含まれます。
 
-「**[!DNL Manage subdomains delegation]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
+   * 意思決定管理固有：
 
-これには、次の低レベル権限が含まれます。
+      * activities.read
+      * offers.read
+      * placements.read
+      * ranking_strategy.read
+   * Adobe Experience Platform 固有：
+      * schemas.read
+      * segment.read
+      * datasets.read
+      * datasets.write
+      * datasets.delete
 
-* subdomains_delegation.read
-* subdomains_delegation.write
-* subdomains_delegation.delete
++++
 
-### [!DNL Manage PTR records] 権限 {#manage-ptr}
+* **[!DNL Manage offers]** 高レベル権限を持つユーザーは、すべてのオファー、コンポーネントを作成、編集および削除し、決定およびコレクションを読み取ることができます。
 
-「**[!DNL Manage PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集を行うことができます。
++++ これには、次の低レベル権限が含まれます。
 
-これには、次の低レベル権限が含まれます。
+   * 意思決定管理固有：
 
-* PTR_records.read
-* PTR_records.write
-* subdomains_delegation.read
+      * offers_activity.read
+      * offers.read
+      * offers.Write
+      * offers.Delete
+      * placements.Read
+      * placements.Write
+      * placements.Delete
+      * ranking_strategy.read
+   * Adobe Experience Platform 固有：
+      * schemas.read
+      * segment.read
+      * datasets.read
+      * profiles.read
 
-### [!DNL View PTR records] 権限 {#view-ptr}
++++
 
-「**[!DNL View PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
+* **[!DNL Manage ranking strategies]** 高レベル権限を持つユーザーは、ランキング戦略の読み取り、作成、編集、削除をおこなうことができます。
 
-これには、次の低レベル権限が含まれます。
++++ これには、次の低レベル権限が含まれます。
 
-* PTR_records.read
-* subdomains_delegation.read
+   * 意思決定管理固有：
 
-### [!DNL Manage IP pools] 権限 {#manage-ip-pools}
+      * ranking_strategy.read
+      * ranking_strategy.write
+      * ranking_strategy.delete
+      * activities.read
+      * offers.read
+      * placements.read
 
-「**[!DNL Manage IP pools]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行うことができます。
++++
 
-これには、次の低レベル権限が含まれます。
+## チャネル設定リソース {#administration-permissions}
 
-* IP_pools.read
-* IP_pools.write
-* IP_pools.delete
+* **[!DNL Manage subdomains delegation]** 高レベル権限を持つユーザーは、サブドメインの委任（IP プールを含む）を作成、編集および削除できます。
+
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+
+      * subdomains_delegation.read
+      * subdomains_delegation.write
+      * subdomains_delegation.delete
+
++++
+
+* **[!DNL Manage PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集が可能です。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * PTR_records.read
+      * PTR_records.write
+      * subdomains_delegation.read
+
++++
+
+* **[!DNL View PTR records]** 高レベル権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
+
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
+* **[!DNL Manage IP pools]** 高レベル権限を持つユーザーは、アフィニティ定義を作成、編集および削除できます。
+
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+      * IP_pools.read
+      * IP_pools.write
+      * IP_pools.delete
+
++++
+
+* **[!DNL Manage messages general settings]** 高レベル権限を持つユーザーは、サンドボックスレベルでグローバル設定を作成、編集および削除できます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * messages_general_settings.read
+      * messages_general_settings.write
+      * messages_general_settings.delete
+   * Adobe Experience Platform 固有：
+      * schemas.read
+
++++
+
+* **[!DNL View messages general settings]** 高レベル権限を持つユーザーは、実行アドレスなどのメッセージの一般設定を表示できます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * messages_general_settings.read
+   * Adobe Experience Platform 固有：
+      * schemas.read
+
++++
+
+* **[!DNL Manage channel surface]** 高レベル権限を持つユーザーは、サンドボックスレベルでチャネルをまたいでチャネルサーフェスを作成、編集、削除できます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * messages_presets.read
+      * messages_presets.write
+      * messages_presets.delete
+      * subdomains_delegation.read
+      * IP_pools.read
+      * mobile_setting.read（Adobe Experience Platform Launch から）
+
++++
 
 <!--
-### [!DNL Manage messages general settings] permission {#manage-message-settings}
+### [!DNL View channel surface] permission {#view-channel-surface}
 
-The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
-
-It includes the following low-level permissions: 
-
-* Journey Optimizer specific: 
-  * messages_general_settings.read
-  * messages_general_settings.write
-  * messages_general_settings.delete
-* Adobe Experience Platform specific:
-  * schemas.read
-
-### [!DNL View messages general settings] permission {#view-message-settings}
-
-The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
-
-It includes the following low-level permissions:
-
-* Journey Optimizer specific: 
-  * messages_general_settings.read
-* Adobe Experience Platform specific: 
-  * schemas.read
--->
-
-### [!DNL Manage channel surface] 権限 {#manage-channel-surface}
-
-「**[!DNL Manage channel surface]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの作成、編集および削除をサンドボックスレベルで行うことができます。
-
-これには、次の低レベル権限が含まれます。
-
-* Journey Optimizer 固有：
-   * messages_presets.read
-   * messages_presets.write
-   * messages_presets.delete
-   * subdomains_delegation.read
-   * IP_pools.read
-   * mobile_setting.read（Adobe Experience Platform Launch から）
-
-### [!DNL View channel surface] 権限 {#view-channel-surface}
-
-「**[!DNL View channel surface]**」という高レベルの権限を持つユーザーは、どのチャネルサーフェスを使用すればよいかを把握するために、チャネルサーフェスを表示できます。
-
-これには、次の低レベル権限が含まれます。
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+  +++ It includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read（Adobe Experience Platform データ収集から）
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
+-->
 
-### [!DNL Manage suppression] 権限 {#manage-suppression}
+* **[!DNL Manage suppression]** 高レベル権限を使用すると、ユーザーは、電子メールアドレスが抑制リストに追加される前にバウンス数を定義したり、抑制リストに対するエントリの追加や削除をおこなうことができます。
 
-**[!DNL Manage suppression]** 高レベル権限を持つユーザーは、メールアドレスが抑制リストに追加されるまでのバウンス数を定義できるほか、抑制リストに対するエントリの追加や削除も行うことができます。
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+      * suppression_rules.read
+      * suppression_rules.write
+      * suppression_rules.delete
+      * suppression_list.write
+      * suppression_list.delete
 
-これには、次の低レベル権限が含まれます。
++++
 
-* suppression_rules.read
-* suppression_rules.write
-* suppression_rules.delete
-* suppression_list.write
-* suppression_list.delete
+* **[!DNL View suppression list]** 高レベル権限を持つユーザーは、抑制リストのコンテンツと設定を表示できます。
 
-### [!DNL View suppression list] 権限 {#view-suppression-list}
++++ これには、次の低レベル権限が含まれます。
 
-**[!DNL View suppression list]** 高レベル権限を持つユーザーは、抑制リストの内容と設定を表示できます。
+   * Journey Optimizer 固有：
+      * suppression_list.view
+   * Adobe Experience Platform 固有：
+      * profiles.read
+      * datasets.read
 
-これには、次の低レベル権限が含まれます。
++++
 
-* Journey Optimizer 固有：
-   * suppression_list.view
+* **[!DNL Export suppression list]** 高レベル権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
 
-* Adobe Experience Platform 固有：
-   * profiles.read
-   * datasets.read
++++ これには、次の低レベル権限が含まれます。
 
-### [!DNL Export suppression list] 権限 {#export-suppression-list}
+   * Journey Optimizer 固有：
+      * suppression_list.export
+   * Adobe Experience Platform 固有：
+      * profiles.read
+      * datasets.read
 
-**[!DNL Export suppression list]** 高レベル権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
++++
 
-これには、次の低レベル権限が含まれます。
+* **[!DNL Manage landing page settings]** 高レベル権限を持つユーザーは、ランディングページのサブドメインとプリセット設定を読み取り、作成および編集できます。
 
-* Journey Optimizer 固有：
-   * suppression_list.export
++++ これには、次の低レベル権限が含まれます。
 
-* Adobe Experience Platform 固有：
-   * profiles.read
-   * datasets.read
+   * Journey Optimizer 固有：
 
-### [!DNL Manage landing page settings] 権限 {#manage-landing-page-settings}
+      * landing_page_subdomain.read
+      * landing_page_subdomain.write
+      * landing_page_subdomain.delete
+      * landing_page_preset.read
+      * landing_page_preset.write
+      * landing_page_preset.delete
 
-「**[!DNL Manage landing page settings]**」という高レベルの権限を持つユーザーは、ランディングページのサブドメインとプリセット設定の読み取り、作成および編集を行うことができます。
++++
 
-これには、次の低レベル権限が含まれます。
+<!--
+### Manage web subdomain permission {#web-subdomain}
 
-* Journey Optimizer 固有：
-   * landing_page_subdomain.read
-   * landing_page_subdomain.write
-   * landing_page_subdomain.delete
-   * landing_page_preset.read
-   * landing_page_preset.write
-   * landing_page_preset.delete
+The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-### [!DNL Manage frequency rules] 権限 {#manage-frequency-rules}
+  +++ It includes the following low-level permissions: 
+-->
 
-**[!DNL Manage frequency rules]** 高レベル権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化／非アクティブ化を行うことができます。
+* **[!DNL Manage messages presets]** 高レベル権限を持つユーザーは、コンテンツのブランディングの読み取り、作成、編集、削除をおこなうことができます。
 
-これには、次の低レベル権限が含まれます。
++++ これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer 固有：
-   * frequency_rules.read
-   * frequency_rules.write
-   * frequency_rules.delete
+   * Journey Optimizer 固有：
+      * messages_presets.read
+      * messages_presets.write
+      * messages_presets.delete
+      * subdomains_delegation.read
+      * IP_pools.read
+   * データ収集固有：
+      * Mobile_setting.read
 
-### [!DNL View frequency rules] 権限 {#view-frequency-rules}
++++
 
-**[!DNL View frequency rules]** 高レベル権限を持つユーザーは、頻度ルールを表示できます。
+* **[!DNL View messages presets]** 高レベル権限を持つユーザーは、メッセージプリセットを表示できます。
 
-これには、次の低レベル権限が含まれます。
++++ これには、次の低レベル権限が含まれます。
 
-* Journey Optimizer 固有：
-   * frequency_rules.read
+   * Journey Optimizer 固有：
+      * messages_presets.read
+      * subdomains_delegation.read
+      * IP_pools.read
+   * データ収集固有：
+      * Mobile_setting.read
+
++++
+
+* **[!DNL Manage SMS subdomains]** 高レベル権限を持つユーザーは、SMS サブドメインの読み取り、作成、編集および削除が可能です。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * sms_subdomains.read
+      * sms_subdomains.write
+      * sms_subdomains.delete
++++

@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1961'
 ht-degree: 100%
 
 ---
 
 # コンテンツ実験の基本を学ぶ {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-このドキュメントの内容は次のとおりです。
-
-* **[コンテンツ実験の基本を学ぶ](get-started-experiment.md)**
-* [コンテンツ実験の作成](content-experiment.md)
-* [統計計算について](experiment-calculations.md)
-* [実験レポートの設定](reporting-configuration.md)
-* [実験レポートの統計計算](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->コンテンツ実験機能は現在、特定の組織のみが使用できます（使用制限あり）。詳しくは、アドビ担当者にお問い合わせください。
 
 ## コンテンツ実験とは
 

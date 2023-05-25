@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ AI モデルを作成するには、次の手順を行います。
 1. AI モデルの一意の名前と説明を指定し、作成する AI モデルのタイプを選択します。
 
    * **[!UICONTROL 自動最適化]**&#x200B;は、過去のオファーのパフォーマンスに基づいてオファーを最適化します。[詳細情報](auto-optimization-model.md)
-   * **[!UICONTROL パーソナライズ]**&#x200B;は、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズします。[詳細情報](personalized-optimization-model.md)
+   * **[!UICONTROL パーソナライズされた最適化]** は、セグメントとオファーのパフォーマンスに基づいてオファーを最適化し、パーソナライズします。 [詳細情報](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -50,6 +50,7 @@ AI モデルを作成するには、次の手順を行います。
    >[!DNL Journey Optimizer] は&#x200B;**コンバージョン率**&#x200B;に基づいてオファーをランク付けします（コンバージョン率 = コンバージョンイベントの合計数／インプレッションイベントの合計数）。コンバージョン率は、次の 2 種類の指標を使用して計算されます。
    >* **インプレッションイベント**（表示されるオファー）
    >* **コンバージョンイベント**（メールまたは web でのクリックにつながるオファー）
+
    >
    >これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。詳しくは、[Adobe Experience Platform web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
 
@@ -61,7 +62,7 @@ AI モデルを作成するには、次の手順を行います。
    >
    >「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループ（以前の mixin）に関連付けられたスキーマから作成されたデータセットのみがドロップダウンリストに表示されます。
 
-1. **[!UICONTROL パーソナライズ機能]**&#x200B;の AI モデルを作成する場合は、AI モデルのトレーニングに使用するセグメントを選択します。
+1. 以下を作成する場合、 **[!UICONTROL パーソナライズされた最適化]** AI モデル：AI モデルのトレーニングに使用するセグメントを選択します。
 
    ![](../assets/ai-ranking-segments.png)
 

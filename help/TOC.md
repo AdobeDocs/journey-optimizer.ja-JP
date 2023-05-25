@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 98%
 
 ---
 
@@ -166,9 +166,10 @@ ht-degree: 100%
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験の基本を学ぶ](using/campaigns/get-started-experiment.md)
       + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
-      + [統計計算について](using/campaigns/experiment-calculations.md)
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
-      + [実験レポートの統計計算](using/campaigns/experiment-report-calculations.md)
+      + テクニカルノート {#technotes}
+         + [統計計算について](using/campaigns/experiment-calculations.md)
+         + [実験レポートの統計指標について](using/campaigns/experiment-report-calculations.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メールチャネル {#email}
    + [メールの基本を学ぶ](using/email/get-started-email.md)
@@ -193,11 +194,11 @@ ht-degree: 100%
          + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
          + [背景設定の編集](using/email/backgrounds.md)
          + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
-         + [リンクのスタイルの定義](using/email/styling-links.md)
          + [インラインのスタイル属性の追加](using/email/inline-styling.md)
    + [メールのプレビューとテスト](using/email/preview.md)
    + [コンテンツテンプレートを作成](using/email/content-templates.md)
    + [Experience Manager テンプレートの使用](using/email/aem-templates.md)
+   + [フラグメントの操作](using/email/fragments.md)
    + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
@@ -304,6 +305,7 @@ ht-degree: 100%
       + [コンポーネントのリスト](using/reports/global-report-components.md)
       + [ジャーニーのグローバルレポート](using/reports/journey-global-report.md)
       + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
+      + [目標レポート](using/reports/objective-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
       + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
    + ジャーニーレポート {#reports}
@@ -469,13 +471,15 @@ ht-degree: 100%
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
-   + [アクセス制御の概要](using/administration/permissions-overview.md)
-   + [ビルトインの製品プロファイル](using/administration/ootb-product-profiles.md)
-   + [ユーザーと製品プロファイルの管理](using/administration/permissions.md)
-   + [権限レベル](using/administration/high-low-permissions.md)
-   + [サンドボックス管理](using/administration/sandboxes.md)
+   + アクセス制御の概要 {#privacy}
+      + [ユーザー管理の概要](using/administration/permissions-overview.md)
+      + [組み込みの役割](using/administration/ootb-product-profiles.md)
+      + [組み込みの権限](using/administration/ootb-permissions.md)
+      + [権限レベル](using/administration/high-low-permissions.md)
+   + [ユーザーとロールの管理](using/administration/permissions.md)
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
+   + [サンドボックス管理](using/administration/sandboxes.md)
 + プライバシー {#privacy}
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)

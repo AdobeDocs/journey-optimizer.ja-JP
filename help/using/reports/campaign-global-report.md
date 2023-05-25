@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c9941a800783b399b587b952c4191ce906b70552
 workflow-type: tm+mt
-source-wordcount: '2036'
-ht-degree: 100%
+source-wordcount: '2262'
+ht-degree: 95%
 
 ---
 
@@ -52,6 +52,54 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 * **[!UICONTROL 配信されたアクション]**：ジャーニー内のアクションが配信されたユニーク回数の合計。
 
 * **[!UICONTROL アクションが % で失敗しました]**：アクションが配信されたユニーク回数の合計に対する、ジャーニーでアクションが失敗したユニーク回数の合計。
+
+<!--
+### Objectives report {#objectives-global}
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../campaigns/reporting-configuration.md).
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+-->
+
+### 実験レポート {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="成功指標"
+>abstract="実験の作成時に以前に選択した成功指標の合計値を、プロファイル数で割った値です。"
+
+![](assets/experimentation_report_3.png)
+
+この **[!UICONTROL 実験]** 「 」タブには、各バリアントのパフォーマンスに関する主要なインサイトが表示され、最も成功したものを特定します。
+
+最も高いパフォーマンスの判定には時間がかかる場合があり、このアイコン ![](assets/experimentation_report_1.png) が表示されます。
+
++++実験レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+
+**[!UICONTROL 実験結果]**&#x200B;ウィジェットは、各バリアントのパフォーマンスの詳細を説明します。ベースラインを変更するには、**[!UICONTROL ベースライン]**&#x200B;ドロップダウンから処理の 1 つを選択します。最も優れた処理には、星のアイコンが表示されます。
+
+このテーブルは、次の指標を表しています。
+
+* **[!UICONTROL ベースライン上の上昇率]**:ベースラインに対する特定の治療のコンバージョン率の改善率の測定。
+
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../campaigns/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL ユニークアウトバウンドクリック数]**：アウトバウンドチャネルでのクリック総数。
+
+* **[!UICONTROL プロファイル]**：この処理の対象となるプロファイルの数。
+
+* **[!UICONTROL 一意のアウトバウンドクリック数/プロファイル]**:実験の作成時に以前に選択した成功指標の合計値を、プロファイル数で割った値です。
+
+この **[!UICONTROL 信頼区間]** グラフは、改善に関する不確実性を測定します。 ベースラインと最もパフォーマンスの高い治療との間の性能差の割合を詳しく説明します。 [詳細情報](../campaigns/experiment-calculations.md#confidence-intervals)
++++
+
+これらの結果の詳細と解釈について詳しくは、[このページ](../campaigns/get-started-experiment.md#interpret-results)を参照してください。
 
 ## 「メール」タブ {#email-global}
 

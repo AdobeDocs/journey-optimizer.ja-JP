@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,12 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->ランディングページのサブドメイン設定は、すべての環境に共通です。 したがって、ランディングページのサブドメインを変更すると、実稼働用サンドボックスにも影響を与えます。
+>ランディングページのサブドメイン設定は、すべての環境に共通です。 したがって、
+>
+>* ランディングページのサブドメインにアクセスして編集するには、 **[!UICONTROL ランディングページのサブドメインの管理]** 実稼動サンドボックスに対する権限。
+>
+> * ランディングページのサブドメインを変更すると、実稼働用サンドボックスにも影響します。
+
 
 ## 既存のサブドメインを使用 {#lp-use-existing-subdomain}
 

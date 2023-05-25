@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 100%
 
 ---
