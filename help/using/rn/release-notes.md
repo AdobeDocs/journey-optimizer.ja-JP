@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 84%
+source-wordcount: '2530'
+ht-degree: 79%
 
 ---
 
@@ -156,6 +156,23 @@ ht-degree: 84%
 
 
 **オーディエンス**
+
+* Audience Portal 機能の一般的な可用性に備えて、Adobe Experience Platformでは、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用を更新しています。
+
+   * 対象ユーザ：共通の特性や行動を共有する人、アカウント、世帯、またはその他のエンティティのセット。
+   * セグメント定義：Adobe Experience Platformでは、ターゲットオーディエンスの主要な特性や動作を記述する際に使用されるルールです。 この用語は、以前は「セグメント」と呼ばれていました。
+
+   その結果、Adobe Journey OptimizerおよびAdobe Experience Platform UI では、「セグメント」が「オーディエンス」に置き換えられ、この新しいオーディエンス作成および管理方法が反映されます。
+
+   変更は、次の UI およびドキュメントリリースで徐々にロールアウトされます。
+
+   メッセージの受信をターゲットとしたプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳は、次の言語に関して、すべての Digital Experience 製品間で調整されました。
+
+   * ドイツ語：ジェルグルッペ
+   * ポルトガル語（ブラジル）:パブリコ・アルボ
+   * スペイン語：público destinatario
+
+
 
 * ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オリジンとオーディエンスの更新頻度を表示する新しい列が追加されました。
 
