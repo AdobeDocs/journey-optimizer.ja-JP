@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
+source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 79%
+source-wordcount: '2504'
+ht-degree: 80%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 79%
 
 
 
-* ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オリジンとオーディエンスの更新頻度を表示する新しい列が追加されました。
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **SMS チャネル**
 
