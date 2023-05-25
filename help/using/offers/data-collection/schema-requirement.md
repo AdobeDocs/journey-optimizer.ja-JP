@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,6 +99,15 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 ## カスタムイベントの追跡
 
 カスタムイベントの場合、データセットで使用されるスキーマには、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループも関連付けられている必要がありますが、これらのイベントのタグ付けに使用する必要があるエクスペリエンスイベントタイプに関する特定の要件はありません。
+
+>[!NOTE]
+>
+>でカスタムイベントを考慮するには、以下を実行します。 [頻度キャップ](../offer-library/add-constraints.md#capping)に設定されている場合、エクスペリエンスイベントを次の 2 つの Edge データ収集エンドポイントのいずれかに送信して、Adobe Experience Platformエンドポイントに接続する必要があります。
+>
+>* POST/ee/v2/interact
+>* POST/ee/v2/collect
+>
+>を使用している場合、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"}に設定されていない場合、接続は自動的に確立されます。
 
 <!--
 ## Using a ranking strategy {#using-ranking}

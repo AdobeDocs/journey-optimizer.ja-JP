@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -140,16 +140,6 @@ ht-degree: 98%
 >abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる回数の上限を定義します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=ja#capping-change-date" text="日付を変更すると、キャッピングに影響を与える場合があります"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="キャッピング頻度の設定"
->abstract="オファーのキャッピングカウンターを日単位、週単位または月単位でリセットするよう選択できます。オファーを保存すると、選択した頻度を変更できなくなります。"
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="インプレッション"
->abstract="キャッピングイベントとしてのインプレッションの使用は、インバウンドチャネルでのみ使用できます。"
-
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
 ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。
@@ -183,6 +173,11 @@ E メールの準備時に、オファーが提案された回数が計算され
 >キャッピングカウンターは、オファーの有効期限切れ、またはオファーの開始日から 2 年後の、いずれか早い方でリセットされます。オファーの日付を定義する方法については、[この節](creating-personalized-offers.md#create-offer)を参照してください。
 
 ### キャッピングイベント {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="インプレッション"
+>abstract="キャッピングイベントとしてのインプレッションの使用は、インバウンドチャネルでのみ使用できます。"
 
 **[!UICONTROL キャッピングイベント]**&#x200B;フィールドでは、カウンターを増やすためにどの&#x200B;**[!UICONTROL キャッピングイベント]**&#x200B;を考慮するかを定義できます。
 
@@ -250,6 +245,11 @@ E メールの準備時に、オファーが提案された回数が計算され
 
 ### フリークエンシーキャップ {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="キャッピング頻度の設定"
+>abstract="オファーのキャッピングカウンターを日単位、週単位または月単位でリセットするよう選択できます。頻度キャップを有効にしてオファーを公開すると、定義した頻度を変更できなくなります。"
+
 「**[!UICONTROL 頻度]**」セクションでは、キャッピングカウントをリセットする頻度を定義できます。 これを行うには、カウントの期間（毎日、毎週、毎月）を定義し、選択した日／週／月の数を入力します。
 
 ![](../assets/offer-capping-frequency.png)
@@ -262,7 +262,9 @@ E メールの準備時に、オファーが提案された回数が計算され
 
 >[!CAUTION]
 >
->オファーを保存すると、頻度に選択した期間（毎月、毎週、毎日）を変更できなくなります。
+>オファーを公開すると、頻度に選択した期間（月、週、日）を変更できなくなります。
+>
+>オファーに **[!UICONTROL ドラフト]** ステータスとは、頻度キャップを有効にしたことのない公開済みのものです。
 
 ### キャッピングと配置 {#placements}
 
