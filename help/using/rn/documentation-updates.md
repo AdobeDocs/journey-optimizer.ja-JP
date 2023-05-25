@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74318fe0e9f72fe6341c060f7113fc877fc7d116
+source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
 workflow-type: tm+mt
 source-wordcount: '2818'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 98%
 
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 5 月 23 日リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * Web エクスペリエンスで Adobe Experience Manager Assets Essentials からのコンテンツの公開に使用するサブドメインの設定方法を説明する新しいページが追加されました。[詳細情報](../web/web-delegated-subdomains.md)
-* メールデザイナーで URL にパーソナライズされたトラッキングパラメーターを追加する方法を説明する新しい節が追加されました。[詳細情報](../email/message-tracking.md#url-tracking)
-* パーソナライゼーションに使用するプロファイルデータをオプトアウトする顧客の選択を確実におこなう方法を説明する新しい節が追加されました。 [詳細情報](../privacy/opt-out.md#)
+* E メールデザイナーで URL にパーソナライズされたトラッキングパラメーターを追加する方法を説明する新しい節が追加されました。 [詳細情報](../email/message-tracking.md#url-tracking)
+* パーソナライゼーションに使用するプロファイルデータをオプトアウトする顧客の選択を確実におこなう方法を説明する新しい節が追加されました。 [詳細情報](../privacy/opt-out.md#opt-out-personalization)
 
 ## 2023年4月 {#apr-2023}
 
