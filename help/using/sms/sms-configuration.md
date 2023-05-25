@@ -6,10 +6,10 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 100%
+source-wordcount: '920'
+ht-degree: 86%
 
 ---
 
@@ -55,20 +55,25 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 
    ![](assets/sms_6.png)
 
-1. 「**[!UICONTROL SMS ベンダー]**」を選択します。
+1. SMS API の資格情報を設定します。
 
-   * **[!DNL Sinch]**
+   * の場合 **[!DNL Sinch]**:
 
-      **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を見つけるには、Sinch アカウントから SMS／API メニューにアクセスします。
+      * **[!UICONTROL 名前]**:API 資格情報の名前を選択します。
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**:API ページにアクセスするには、「 SMS 」タブで資格情報を確認します。  [詳細情報](https://developers.sinch.com/docs/sms/getting-started/)
+   * の場合 **[!DNL Twilio]**:
 
-      **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を検索するには、コンソールダッシュボードページのアカウント情報パネルにアクセスします。
+      * **[!UICONTROL 名前]**:API 資格情報の名前を選択します。
 
+      * **[!UICONTROL アカウント SID]** および **[!UICONTROL 認証トークン]**:Twilio コンソールダッシュボードページの「アカウント情報」ペインにアクセスして、資格情報を検索します。
 
-1. API 認証情報の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
+      * **[!UICONTROL メッセージ SID]**:Twilio の API で作成されるすべてのメッセージに割り当てられる一意の識別子を入力します。 [詳細情報](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+   * の場合 **[!DNL Infobip]**:
 
-1. **[!UICONTROL サービス ID]** と **[!UICONTROL API トークン]**&#x200B;を入力します。
+      * **[!UICONTROL 名前]**:API 資格情報の名前を選択します。
+
+      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**:web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を見つけます。 [詳細情報](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
