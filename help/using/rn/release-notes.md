@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 80%
 
 ---
@@ -168,11 +168,11 @@ ht-degree: 80%
 **SMS チャネル**
 
 * SMS チャネルの表示を設定する際に、Infobip がベンダープロバイダーとして追加されました。 [詳細情報](../sms/sms-configuration.md)
-* Twilio - API 資格情報のセットアップに、Twilio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。
+* Twilio - API 資格情報のセットアップに、Twilio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。 [詳細情報](../sms/sms-configuration.md)
 
 **アプリ内チャネル**
 
-* Message Places Service の新しいトリガールールを追加しました。Adobe
+* Message Places Service の新しいトリガールールを追加しました。Adobe [詳細情報](../in-app/inapp-configuration.md)
 * Adobe Experience Platform Assurance 機能を新しく追加し、デバイスイベントをキャプチャしてトリガールールとして追加しました。
 
 **ジャーニー**
@@ -181,9 +181,9 @@ ht-degree: 80%
 
 **キャンペーン**
 
-* 省略記号アクションメニューを使用して、在庫画面からキャンペーンを複製できるようになりました。
+* 省略記号アクションメニューを使用して、在庫画面からキャンペーンを複製できるようになりました。 [詳細情報](../campaigns/modify-stop-campaign.md#duplicate)
 * ライブキャンペーンに対するドラフトの変更を削除できるようになりました。
-* キャンペーンのアクティブ化の手順を合理化しました。
+* キャンペーンのアクティブ化の手順を合理化しました。 [詳細情報](../campaigns/modify-stop-campaign.md)
 
 **意思決定管理**
 
