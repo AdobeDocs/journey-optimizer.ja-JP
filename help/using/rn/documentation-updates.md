@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
+source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 97%
+source-wordcount: '2876'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,9 @@ ht-degree: 97%
 * Web エクスペリエンスで Adobe Experience Manager Assets Essentials からのコンテンツの公開に使用するサブドメインの設定方法を説明する新しいページが追加されました。[詳細情報](../web/web-delegated-subdomains.md)
 * E メールデザイナーで URL にパーソナライズされたトラッキングパラメーターを追加する方法を説明する新しい節が追加されました。 [詳細情報](../email/message-tracking.md#url-tracking)
 * パーソナライゼーションに使用するプロファイルデータをオプトアウトする顧客の選択を確実におこなう方法を説明する新しい節が追加されました。 [詳細情報](../privacy/opt-out.md#opt-out-personalization)
+* E メールコンテンツに含まれる URL での特殊な国際文字の使用に関する注意を追加しました。 [詳細情報](../email/message-tracking.md#insert-links)
+* ランディングページのテストと公開に必要な権限が追加されました。 [詳細情報](../landing-pages/create-lp.md)
+* 管理判定頻度の制限でカスタムイベントを考慮するために必要な、Adobe Experience Platformエンドポイントに関する注意を追加しました。 [詳細情報](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023年4月 {#apr-2023}
 
