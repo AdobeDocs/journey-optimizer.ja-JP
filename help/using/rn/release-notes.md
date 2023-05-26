@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 80%
+source-wordcount: '2466'
+ht-degree: 81%
 
 ---
 
@@ -175,9 +175,11 @@ ht-degree: 80%
 * Message Places Service の新しいトリガールールを追加しました。Adobe [詳細情報](../in-app/inapp-configuration.md)
 * Adobe Experience Platform Assurance 機能を新しく追加し、デバイスイベントをキャプチャしてトリガールールとして追加しました。
 
-**ジャーニー**
+<!--
+**Journeys**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **キャンペーン**
 
