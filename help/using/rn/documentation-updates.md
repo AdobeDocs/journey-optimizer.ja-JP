@@ -4,7 +4,7 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
+source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 95%
@@ -23,7 +23,7 @@ ht-degree: 95%
 * パーソナライゼーションに使用するプロファイルデータをオプトアウトする顧客の選択を確実におこなう方法を説明する新しい節が追加されました。 [詳細情報](../privacy/opt-out.md#opt-out-personalization)
 * E メールコンテンツに含まれる URL での特殊な国際文字の使用に関する注意を追加しました。 [詳細情報](../email/message-tracking.md#insert-links)
 * ランディングページのテストと公開に必要な権限が追加されました。 [詳細情報](../landing-pages/create-lp.md)
-* 管理判定頻度の制限でカスタムイベントを考慮するために必要な、Adobe Experience Platformエンドポイントに関する注意を追加しました。 [詳細情報](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 判定管理の頻度キャップでカスタムイベントを考慮するために必要な、Adobe Experience Platformエンドポイントに関する注意を追加しました。 [詳細情報](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023年4月 {#apr-2023}
 
