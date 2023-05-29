@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 301b10e090859c196c22523f4ecbe578d3ccb592
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 99%
 
 ---
 
@@ -128,6 +128,8 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 * ポルトガル語（ブラジル）
 * 日本語
 * 韓国語
+* 繁体字中国語
+* 簡体字中国語
 
 デフォルトのインターフェイス言語は、ユーザープロファイルで指定されている優先言語によって決まります。
 
