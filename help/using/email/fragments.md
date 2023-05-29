@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1453'
 ht-degree: 5%
 
 ---
-
 
 # フラグメントの操作 {#fragments}
 
@@ -21,8 +21,7 @@ ht-degree: 5%
 
 この機能を使用すると、複数のカスタムコンテンツブロックを事前に作成して、非技術的なマーケティングユーザーが使用できるので、E メールコンテンツをすばやく組み立てて、デザインプロセスを改善できます。
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [フラグメントの管理、作成、使用方法については、このビデオを参照してください](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ E メールまたはコンテンツテンプレートに追加すると、フラ
 
 1. そのフラグメントは、元のフラグメントにリンクされなくなったスタンドアロン要素になります。 コンテンツ内の他のコンテンツコンポーネントとして編集します。 [詳細情報](content-components.md)
 
-<!--
+## チュートリアルビデオ {#video-fragments}
 
-## How-to video {#video-templates}
+でフラグメントを管理、オーサリング、使用する方法について説明します。 [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
