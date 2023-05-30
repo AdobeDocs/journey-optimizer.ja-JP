@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9b38eb37408be9603c0ec06e6f66b4e65465252f
+source-git-commit: 402ec28dc0087a64b3a91c1a937620d931ed28ef
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 99%
 
 **[!UICONTROL 意思決定管理]**
 
-* **[!UICONTROL オファー]**：このメニューから最新のソースおよびデータセットにアクセスします。このセクションを使用して、新しいオファーを作成します。[詳細情報](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL オファー]**：このメニューから最新のソースおよびデータセットにアクセスします。このセクションを使用して、オファーを作成します。 [詳細情報](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL コンポーネント]**：プレースメント、ルールおよびタグを作成します。[詳細情報](../offers/offer-library/key-steps.md)
+* **[!UICONTROL コンポーネント]**  — 配置、ルールおよびタグを作成します。 [詳細情報](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL コンテンツ管理]**
 
@@ -71,11 +71,11 @@ ht-degree: 99%
 
 **[!UICONTROL 接続]**
 
-* **[!UICONTROL ソース]**：このメニューを使用すると、Adobe アプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込み、受信データの構造化、ラベル付けおよび拡充を行えます。[詳細情報](get-started-sources.md)
+* **[!UICONTROL ソース]**  — このメニューを使用して、Adobe・アプリケーション、クラウド・ベースのストレージ、データベースなど、様々なソースからデータを取り込みます。 読み込むデータの構造化、ラベル付け、拡張を行うことができます。 [詳細情報](get-started-sources.md)
 
 **[!UICONTROL 顧客]**
 
-* **[!UICONTROL セグメント]** - Experience Platform セグメントの定義を作成および管理し、それらをジャーニーで活用します。[詳細情報](../segment/about-segments.md)
+* **[!UICONTROL セグメント]** -Experience Platformセグメント定義を作成および管理し、それらをジャーニーで使用します。 [詳細情報](../segment/about-segments.md)
 
 * **[!UICONTROL プロファイル]**：リアルタイム顧客プロファイルは、オンライン、オフライン、CRM、サードパーティデータなど複数のチャネルからのデータを組み合わせて、個々の顧客の全体像を作成します。[詳細情報](../segment/get-started-profiles.md)
 
@@ -83,7 +83,7 @@ ht-degree: 99%
 
 **[!UICONTROL 管理]**
 
-* **[!UICONTROL ジャーニー管理]** - このメニューを使用して、ジャーニーで使用する [イベント](../event/about-events.md)、[データソース](../datasource/about-data-sources.md)、[アクション](../action/action.md) を設定します。
+* **[!UICONTROL ジャーニー管理]**  — このメニューを使用して、 [イベント](../event/about-events.md), [データソース](../datasource/about-data-sources.md)、および [アクション](../action/action.md) を使用して、ジャーニーでを使用します。
 
 * **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。[詳細情報](../administration/sandboxes.md)
 
@@ -91,7 +91,7 @@ ht-degree: 99%
 
 ## 製品内の使用例 {#in-product-uc}
 
-ホームページの [!DNL Adobe Journey Optimizer] のユースケースを活用し、カスタマージャーニーを作成するための簡単な入力をいくつか提供します。
+送信者 [!DNL Adobe Journey Optimizer] ホームページ、製品の使用例は、カスタマージャーニーを作成するための簡単な入力を提供します。
 
 ![](assets/use-cases-home.png)
 
@@ -102,9 +102,9 @@ ht-degree: 99%
 * **新規顧客をオンボーディングするためのメールを送信する**：新規登録した顧客を歓迎するために最大 2 通のメールを簡単に送信します。（近日公開）
 * **読み込んだ顧客リストにプッシュメッセージを送信する**：CSV ファイルからインポートされた顧客リストにプッシュ通知をすばやく送信します。（近日公開）
 
-各ユースケースの詳細を確認するには、「**[!UICONTROL 詳細を表示]**」をクリックします。
+各ユースケースの詳細については、 **[!UICONTROL 詳細を表示]** リンク。
 
-「**[!UICONTROL 開始]**」ボタンをクリックして、ユースケースを開始します。
+ユースケースを実行するには、 **[!UICONTROL 開始]** 」ボタンをクリックします。
 
 「**[!UICONTROL ユースケースライブラリを表示]**」ボタンから、実行済みの使用例にアクセスできます。
 
@@ -112,13 +112,15 @@ ht-degree: 99%
 
 Adobe Journey Optimizer の主要なヘルプページには、ホームページの下部のセクションからアクセスできます。
 
-**ヘルプ**&#x200B;アイコンを使用して、ヘルプページにアクセスしたり、サポートに問い合わせたり、フィードバックを共有したりします。検索フィールドからヘルプ記事やビデオを検索できます。
+以下を使用： **ヘルプ** アイコンを使用してヘルプページにアクセスしたり、サポートに連絡したり、フィードバックを共有したりできます。 検索フィールドからヘルプ記事やビデオを検索できます。
 
 ![](assets/ajo-help.png)
 
+各ページで、コンテキストヘルプボタンを使用して機能の詳細を確認し、 **[!DNL Adobe Experience League]** ドキュメント。
+
 ## 言語の環境設定 {#language-pref}
 
-現在、ユーザーインターフェイスは次の言語で利用できます。
+ユーザーインターフェイスは、次の言語で使用できます。
 
 * 英語
 * フランス語
