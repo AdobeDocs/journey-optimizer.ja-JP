@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 92%
+source-wordcount: '424'
+ht-degree: 88%
 
 ---
 
@@ -64,6 +64,8 @@ AI モデルを作成するには、次の手順を行います。
 
 1. 以下を作成する場合、 **[!UICONTROL パーソナライズされた最適化]** AI モデル：AI モデルのトレーニングに使用するセグメントを選択します。
 
+   ➡️ [この機能をビデオで確認](#video)
+
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
@@ -83,3 +85,9 @@ AI モデルを作成するには、次の手順を行います。
 これで、オファーが表示およびクリックされるたびに、対応するイベントが [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK を使用し、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループによって自動的にキャプチャされるようにします。
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。[方法についてはこちらを参照](../data-collection/schema-requirement.md)
+
+## チュートリアルビデオ {#video}
+
+パーソナライズされた最適化モデルを作成する方法と、そのモデルを決定に適用する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
