@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
+source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -111,15 +111,11 @@ Visual Editing Helper のブラウザー拡張機能が正しくインストー�
 
 Web エクスペリエンスが正しく配信されるようにするには、次の設定を定義する必要があります。
 
-* [Adobe Experience Platform データ収集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}で、**[!UICONTROL Adobe Experience Platform]** サービスの下で「**[!UICONTROL Edge セグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションの両方を有効にするなど、データストリームが定義されていることを確認します。
+* 内 [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}を使用する場合、データストリームが（など） **[!UICONTROL Adobe Experience Platform]** お持ちのサービス **[!UICONTROL Adobe Journey Optimizer]** オプションが有効です。
 
    これにより、Journey Optimizer インバウンドイベントが Adobe Experience Platform Edge で正しく処理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja){target="_blank"}
 
    ![](assets/web-aep-datastream-ajo.png)
-
-   >[!NOTE]
-   >
-   >「**[!UICONTROL Adobe Journey Optimizer]**」オプションは、「**[!UICONTROL Edge セグメント化]**」オプションが既に有効になっている場合にのみ有効にできます。
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"} で
 
