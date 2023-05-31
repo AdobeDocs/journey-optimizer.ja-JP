@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定, 実験, レポート, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+source-wordcount: '564'
+ht-degree: 93%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 98%
 >title="データセットの選択"
 >abstract="イベントタイプのデータセット を 1 つだけ選択できます。そのデータセットには、サポートされているフィールドグループ（アプリケーションの詳細、コマースの詳細、web の詳細）を 1 つ以上含める必要があります。"
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+レポートデータソースの設定を使用すると、システムへの接続を定義して、レポートで使用される追加情報を取得できます。
 
-レポートデータソースの設定により、キャンペーンレポートの「**[!UICONTROL 目的]**」タブで使用する追加指標を取得できます。[詳細情報](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 98%
 
    同様に、モバイルインタラクションに関してレポートする場合は、**アプリケーションの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
 
-   各フィールドグループに対応する指標は[こちら](#objective-list)に表示されます。
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * これらのフィールドグループは、1 つまたは複数のデータセットで使用する、1 つまたは複数のスキーマに追加できます。
 
@@ -67,15 +67,17 @@ ht-degree: 98%
 >
 >XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
-## 各フィールドグループに対応する目標 {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-以下の表は、各フィールドグループのキャンペーンレポートの「**[!UICONTROL 目標]**」タブに追加される指標を示しています。
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| フィールドグループ | 目標 |
+| Field group | Objectives |
 |--- |--- |
-| コマースの詳細 | 価格合計<br>支払い金額<br>（一意の）チェックアウト<br>（一意の）製品リストの追加数<br>（一意の）製品リストの開封数<br>（一意の）製品リストの削除<br>（一意の）製品リスト表示<br>（一意の）製品表示<br>（一意の）購入<br>（一意の）後で使用するために保存<br>製品価格合計<br>製品数 |
-| アプリケーションの詳細 | （一意の）アプリの起動回数<br>アプリの初回起動数<br>（一意の）アプリインストール数<br>（一意の）アプリのアップグレード数 |
-| Web の詳細 | （一意の）ページビュー数 |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## データセットを追加 {#add-datasets}
 
@@ -123,15 +125,16 @@ ht-degree: 98%
    >
    >イベントタイプでないデータセットを選択した場合は、続行できません。
 
-キャンペーンレポートを作成する際に、追加したデータセットで使用されるフィールドグループに対応する指標を表示できるようになりました。「**[!UICONTROL 目標]**」タブに移動し、目的の指標を選択して、レポートを微調整します。[詳細情報](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->複数のデータセットを追加した場合、すべてのデータセットのすべてのデータをレポートできるようになります。
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.
