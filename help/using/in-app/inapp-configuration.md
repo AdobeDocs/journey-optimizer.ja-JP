@@ -5,7 +5,7 @@ role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 96%
