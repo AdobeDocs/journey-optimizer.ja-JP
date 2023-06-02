@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
+source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 82%
+source-wordcount: '555'
+ht-degree: 79%
 
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 82%
    * **[!UICONTROL 毎回表示する]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが発生した場合に、常にメッセージを表示します。
    * **[!UICONTROL 1 度だけ表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが初めて発生した場合にのみ、このメッセージを表示します。
    * **[!UICONTROL クリックスルーまで表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが、「クリック」アクションで SDK によって操作イベントが送信されるまでに発生した場合に、このメッセージが表示されます。
+   * **[!UICONTROL X 回]**:メッセージを特定の回数だけ表示します。この回数は、 **[!UICONTROL 表示する時間]** フィールドに入力します。
 
 1. アプリ内メッセージをトリガーする曜日と時間を選択し、「 」をクリックします **[!UICONTROL 保存]**.
 
