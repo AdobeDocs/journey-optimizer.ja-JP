@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 8b459f71852d031dc650b77725bdc693325cdb1d
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 45%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # オプトアウトの管理 {#consent}
 
-受信者に対して、ブランドからの通信の受信を購読解除する機能を提供することは、法的要件であり、この選択を確実におこなうためにも必要です。 適用される法律について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
+ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件であり、この選択を確実に行うためにも必要です。適用される法律について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
 
 **なぜそれが重要なのでしょうか？**
 
@@ -57,35 +57,35 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 ## パーソナライゼーションの同意の実装 {#opt-out-personalization}
 
-顧客は、パーソナライズされたコンテンツの表示をオプトアウトすることもできます。 プロファイルがパーソナライゼーションからオプトアウトしたら、そのデータがパーソナライゼーションに使用されないようにする必要があります。パーソナライズされたコンテンツをフォールバックバリアントで置き換える必要があります。
+顧客は、パーソナライズされたコンテンツの表示をオプトアウトすることもできます。あるプロファイルがパーソナライゼーションからオプトアウトされたら、そのデータがパーソナライゼーションに使用されていないことを確認し、パーソナライズされたコンテンツをフォールバックバリアントに置き換える必要があります。
 
-### 決定管理
+### 意思決定管理の場合
 
-オファーを活用する場合、パーソナライゼーション環境設定は [決定範囲](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) から使用 [判定](../offers/api-reference/offer-delivery-api/decisioning-api.md) API リクエストまたは [エッジ判定](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API リクエスト。 その場合は、パーソナライゼーションの同意を手動で実施する必要があります。 これを行うには、以下の手順に従います。
+オファーを活用する場合、パーソナライゼーション環境設定は、[Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API リクエストまたは [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API リクエストから使用される[決定範囲](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)に自動的に実装されません。この場合、パーソナライゼーションの同意を手動で実施する必要があります。これを行うには、以下の手順に従います。
 
 >[!NOTE]
 >
->で使用される決定範囲 [!DNL Journey Optimizer] オーサリングされたチャネルは、所属するジャーニーまたはキャンペーンからこの要件を満たします。
+>[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
 
 
-1. の作成 [Adobe Experience Platformセグメント](../segment/about-segments.md) 次のようなプロファイル属性を使用する。 *&quot;パーソナライゼーションに対する同意= True&quot;* パーソナライゼーションに同意したユーザーをターゲットにする
+1. *「パーソナライゼーションに対する同意 = True」*&#x200B;などのプロファイル属性を使用して [Adobe Experience Platform セグメント](../segment/about-segments.md)を作成し、パーソナライゼーションに同意したユーザーをターゲットにします。
 
-1. を作成する際に [決定](../offers/offer-activities/create-offer-activities.md)、決定範囲を追加し、パーソナライズされたオファーを含む各評価条件コレクションに対して、このセグメントに基づいて実施要件の制約を定義します。
+1. [決定](../offers/offer-activities/create-offer-activities.md)を作成する際は、パーソナライズされたオファーを含む評価条件コレクションごとに、決定範囲を追加し、このセグメントに基づいて実施要件の制約を定義します。
 
-1. の作成 [フォールバックオファー](../offers/offer-library/creating-fallback-offers.md) パーソナライズされたコンテンツを含まない
+1. パーソナライズされたコンテンツを含まない[フォールバックオファー](../offers/offer-library/creating-fallback-offers.md)を作成します。
 
-1. [割り当て](../offers/offer-activities/create-offer-activities.md#add-fallback) 決定に対する、パーソナライズされていないフォールバックオファー。
+1. パーソナライズされていないフォールバックオファーを決定に[割り当てます](../offers/offer-activities/create-offer-activities.md#add-fallback)。
 
-1. [決定のレビューと保存.](../offers/offer-activities/create-offer-activities.md#review)
+1. [決定のレビューと保存](../offers/offer-activities/create-offer-activities.md#review)を行います。
 
 ユーザーが以下の条件を満たしている場合：
 
-* パーソナライゼーションに同意した場合、決定範囲は、そのプロファイルに最適なオファーを決定します。
+* パーソナライゼーションに同意した場合、決定範囲によってそのプロファイルに最適なオファーが決定されます。
 
-* パーソナライゼーションに同意しない場合、対応するプロファイルは評価条件に含まれるオファーの対象にならないので、パーソナライズされていないフォールバックオファーを受け取ります。
+* パーソナライゼーションに同意していない場合、対応するプロファイルは評価条件に含まれるオファーの対象外となるので、パーソナライズされていないフォールバックオファーを受信します。
 
 >[!NOTE]
 >
->プロファイルデータをで使用することに対する同意 [データモデリング](../offers/ranking/ai-models.md) 次ではまだサポートされていません： [!DNL Journey Optimizer].
+>[データモデリング](../offers/ranking/ai-models.md)でプロファイルデータを使用するための同意は、[!DNL Journey Optimizer] ではまだサポートされていません。
 

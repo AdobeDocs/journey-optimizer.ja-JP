@@ -11,8 +11,8 @@ keywords: 設定, 実験, レポート, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 93%
 ## 前提条件
 
 
-レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}を参照してください。
+レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target="_blank"}を参照してください。
 
 * イベントタイプのデータセットのみを追加できます。
 

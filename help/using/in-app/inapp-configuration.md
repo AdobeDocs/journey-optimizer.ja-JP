@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 96%
    * Mobile Core
    * プロファイル
 
-   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension)を参照してください。
+   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja#add-a-new-extension)を参照してください。
 
    ![](assets/inapp_config_5.png)
 

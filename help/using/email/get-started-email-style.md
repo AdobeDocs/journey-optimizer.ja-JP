@@ -11,8 +11,8 @@ keywords: メール, スタイル, css, 本文, 構造
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 100%
 
 * [メールの背景のパーソナライズ](backgrounds.md)
 * [垂直方向の整列とパディングの調整](alignment-and-padding.md)
-* [インラインスタイル属性の追加](inline-styling.md)
+* [インラインスタイル属性の追加](inline-styling.md)方法を学ぶ

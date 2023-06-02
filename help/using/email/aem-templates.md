@@ -13,8 +13,8 @@ badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Experience Manager テンプレートを Adobe Journey Optimizer に書き
 
    ![](assets/aem-outbound-menu.png)
 
-1. コンテンツライブラリから、事前に設定したテンプレートを使用することも、最初から作成することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
+1. コンテンツライブラリから、事前に設定したテンプレートを使用することも、最初から作成することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ja#creating-a-new-page)
 
 1. Journey Optimizer のパーソナライゼーション構文をテンプレートに組み込むことで、カスタマイズ機能を強化できます。[詳細情報](../personalization/personalization-syntax.md)
 

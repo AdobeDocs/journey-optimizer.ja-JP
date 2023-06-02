@@ -9,8 +9,8 @@ keywords: Platform, データレイク, 作成, レイク, データセット, �
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 次のことができます。
 
-* スキーマからのデータセットの作成。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema)。{target="_blank"}
+* スキーマからのデータセットの作成。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#schema)。{target="_blank"}
 * CSV ファイルからのデータセットを作成します。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja)。{target="_blank"}
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。

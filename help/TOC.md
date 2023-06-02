@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 98%
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
       + テクニカルノート {#technotes}
          + [統計計算について](using/campaigns/experiment-calculations.md)
-         + [実験レポートの統計指標について](using/campaigns/experiment-report-calculations.md)
+         + [実験レポートの統計計算について](using/campaigns/experiment-report-calculations.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メールチャネル {#email}
    + [メールの基本を学ぶ](using/email/get-started-email.md)
@@ -472,11 +472,11 @@ ht-degree: 98%
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
-      + [ユーザー管理の概要](using/administration/permissions-overview.md)
+      + [ユーザー管理の基本を学ぶ](using/administration/permissions-overview.md)
       + [組み込みの役割](using/administration/ootb-product-profiles.md)
       + [組み込みの権限](using/administration/ootb-permissions.md)
       + [権限レベル](using/administration/high-low-permissions.md)
-   + [ユーザーとロールの管理](using/administration/permissions.md)
+   + [ユーザーとグループの管理](using/administration/permissions.md)
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
    + [サンドボックス管理](using/administration/sandboxes.md)

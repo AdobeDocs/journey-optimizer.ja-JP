@@ -11,7 +11,7 @@ exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 各手順について詳しくは、 Adobe Experience Platform のドキュメントの[クラウドストレージの宛先へのデータセットの書き出し](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja)を参照してください。
 
-1. **クラウドストレージの宛先を設定します**。まだ行っていない場合は、宛先カタログからクラウドストレージの宛先に接続します。[新しい宛先接続を作成する方法については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **クラウドストレージの宛先を設定します**。まだ行っていない場合は、宛先カタログからクラウドストレージの宛先に接続します。[新しい宛先接続を作成する方法については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ja#setup)
 
    <!--![](assets/dataset-export-setup.png)-->
 

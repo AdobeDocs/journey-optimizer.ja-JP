@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
+source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 検索、フィルター、整理 {#search-filter-organize}
 

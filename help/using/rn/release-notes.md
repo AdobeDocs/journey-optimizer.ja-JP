@@ -6,8 +6,8 @@ description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 81%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 5 月リリースノート {#may-rn-2023}
+## 2023年5月リリースノート {#may-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -58,7 +58,7 @@ ht-degree: 81%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerは、キャンペーンでの実験をサポートするようになりました。 実験はランダム化試験で、オンラインテストの場合は、ランダムに選択したユーザーを特定のメッセージのバリエーションに公開し、別のランダムに選択したユーザーのセットを別のバリエーションや治療に公開します。 公開後、E メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
+<p>Adobe Journey Optimizer でキャンペーンでの実験がサポートされるようになりました。実験はランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別のバリエーションや処理を行うことを意味します。公開後、メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>詳しくは、<a href="../campaigns/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -113,8 +113,7 @@ ht-degree: 81%
 <tbody>
 <tr>
 <td>
-<p>これで、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができるようになりました。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。統合タグ機能は現在ベータ版です。
-</p>
+<p>これで、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができるようになりました。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。統合タグ機能は現在ベータ版です。</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -133,7 +132,7 @@ ht-degree: 81%
 <tbody>
 <tr>
 <td>
-<p>パーソナライズされた最適化 AI ランキングモデルが、通常、決定管理で使用できるようになりました。 この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
+<p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -149,17 +148,17 @@ ht-degree: 81%
 
 **オーディエンス**
 
-* Audience Portal 機能の一般的な可用性に備えて、Adobe Experience Platformでは、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用を更新しています。
+* オーディエンスポータル機能の一般提供に備えて、Adobe Experience Platform では、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用方法を更新しています。
 
-   * 対象ユーザ：共通の特性や行動を共有する人、アカウント、世帯、またはその他のエンティティのセット。
-   * セグメント定義：Adobe Experience Platformでは、ターゲットオーディエンスの主要な特性や動作を記述する際に使用されるルールです。 この用語は、以前は「セグメント」と呼ばれていました。
+   * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
+   * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
 
-   その結果、Adobe Journey OptimizerおよびAdobe Experience Platform UI では、「セグメント」が「オーディエンス」に置き換えられ、この新しいオーディエンス作成および管理方法が反映されます。
+   その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、この新しいオーディエンスの作成と管理のパスを反映して、「セグメント」が「オーディエンス」に置き換えられるようになります。
 
-   メッセージの受信をターゲットにしたプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳は、一部の言語で、すべての Digital Experience 製品間で調整されました。
+   メッセージの受信をターゲットにしたプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳を、一部の言語について、すべてのデジタルエクスペリエンス製品全体で統一しました。
 
-   * ドイツ語：ジェルグルッペ
-   * ポルトガル語（ブラジル）:パブリコ・アルボ
+   * ドイツ語：Zielgruppe
+   * ポルトガル語（ブラジル）：público-alvo
    * スペイン語：público destinatario
 
 
@@ -167,13 +166,13 @@ ht-degree: 81%
 
 **SMS チャネル**
 
-* SMS チャネルの表示を設定する際に、Infobip がベンダープロバイダーとして追加されました。 [詳細情報](../sms/sms-configuration.md)
-* Twilio - API 資格情報のセットアップに、Twilio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。 [詳細情報](../sms/sms-configuration.md)
+* SMS チャネルサーフェスを設定する際に、Infobip がベンダープロバイダーとして追加されました。[詳細情報](../sms/sms-configuration.md)
+* Twillio - API 資格情報のセットアップに、Twillio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。[詳細情報](../sms/sms-configuration.md)
 
 **アプリ内チャネル**
 
-* Message Places Service の新しいトリガールールを追加しました。Adobe [詳細情報](../in-app/inapp-configuration.md)
-* Adobe Experience Platform Assurance 機能を新しく追加し、デバイスイベントをキャプチャしてトリガールールとして追加しました。
+* Adobe Places Service に新しいメッセージトリガールールを追加しました。[詳細情報](../in-app/inapp-configuration.md)
+* デバイスイベントをキャプチャしてトリガールールとして追加するための新しい Adobe Experience Platform Assurance 機能を追加しました。
 
 <!--
 **Journeys**
@@ -183,21 +182,21 @@ ht-degree: 81%
 
 **キャンペーン**
 
-* 省略記号アクションメニューを使用して、在庫画面からキャンペーンを複製できるようになりました。 [詳細情報](../campaigns/modify-stop-campaign.md#duplicate)
+* 省略記号アクションメニューを使用して、インベントリ画面からキャンペーンを複製できるようになりました。[詳細情報](../campaigns/modify-stop-campaign.md#duplicate)
 * ライブキャンペーンに対するドラフトの変更を削除できるようになりました。
-* キャンペーンのアクティブ化の手順を合理化しました。 [詳細情報](../campaigns/modify-stop-campaign.md)
+* キャンペーンのアクティブ化の手順を合理化しました。[詳細情報](../campaigns/modify-stop-campaign.md)
 
 **意思決定管理**
 
-* これで、オファーに **[!UICONTROL ドラフト]** ステータスとは、頻度キャップを有効にしたことのない公開済みのものです。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
+* オファーのステータスが&#x200B;**[!UICONTROL ドラフト]**&#x200B;であり、これまでにフリークエンシーキャップを有効にして公開したことがない場合、そのオファーのフリークエンシーキャップを編集できるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **パーソナライゼーション**
 
-* HTMLコンテンツで作業する際に、パーソナライゼーションエディターから直接アセット参照を選択して挿入できるようになりました。
+* HTML コンテンツで作業する際に、パーソナライゼーションエディターから直接アセット参照を選択して挿入できるようになりました。
 
 ### 修正点{#may-2023-fixes}
 
-* アプリ内メッセージ — キャンペーンのスケジュールがメッセージの頻度設定と競合していた問題を修正しました。
+* アプリ内メッセージ - キャンペーンのスケジュールがメッセージの頻度設定と競合していた問題を修正しました。
 
 
 ## 2023年4月リリースノート {#apr-rn-2023}
@@ -405,7 +404,7 @@ ht-degree: 81%
 <table>
 <thead>
 <tr>
-<th><strong>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出し（ベータ版）</strong><br/></th>
+<th><strong>Journey Optimizer データセットのクラウドストレージへの書き出し（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>

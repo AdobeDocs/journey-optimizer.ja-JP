@@ -11,12 +11,12 @@ keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# ユーザー管理の概要 {#permissions-overview}
+# ユーザー管理の基本を学ぶ {#permissions-overview}
 
 [!DNL Journey Optimizer] を使用すると、さまざまなユーザーに割り当てる権限を定義して管理できます。権限とは、製品内の機能へのアクセスを許可または拒否する一連の権利と制約です。
 

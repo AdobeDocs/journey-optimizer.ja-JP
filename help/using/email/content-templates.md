@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 98%
 
 1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
-1. クリック **[!UICONTROL 作成]** を選択し、様々なオプションからテンプレートのデザイン方法を選択します。
+1. 「**[!UICONTROL 作成]**」をクリックし、様々なオプションからテンプレートのデザイン方法を選択します。
 
    * メールデザイナーのインターフェースを使用して、[ゼロからメールをデザインします](content-from-scratch.md)。
 

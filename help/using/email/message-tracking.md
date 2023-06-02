@@ -11,8 +11,8 @@ keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,27 +63,27 @@ ht-degree: 87%
 
    * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
 
-   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。[詳細情報 ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。[詳細情報](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL ワンクリックオプトアウト]**：ユーザーがオプトアウトの確認を求められることなく、コミュニケーションを素早く購読解除できるリンクを挿入します。[詳細情報](email-opt-out.md#one-click-opt-out)
+   * **[!UICONTROL ワンクリックオプトアウト]**：ユーザーがオプトアウトの確認を求められることなく、コミュニケーションを素早く登録解除できるリンクを挿入します。[詳細情報](email-opt-out.md#one-click-opt-out)
 
    * **[!UICONTROL 外部のオプトイン／購読]**：ブランドからのコミュニケーションの受信を同意するリンクを挿入します。
 
    * **[!UICONTROL 外部オプトアウト／購読解除]**：ブランドからのコミュニケーションの受信を解除するリンクを挿入します。オプトアウト管理の詳細については、[この節](email-opt-out.md#opt-out-management)を参照してください。
 
-   * **[!UICONTROL ミラーページ]**:Web ブラウザーに E メールコンテンツを表示するためのリンクを追加します。 [詳細情報](#mirror-page)
+   * **[!UICONTROL ミラーページ]**：web ブラウザーにメールコンテンツを表示するためのリンクを追加します。[詳細情報](#mirror-page)
 
-1. 対応するフィールドに目的の URL を入力するか、ランディングページを選択して、リンク設定とスタイルを定義します。 [詳細情報](#adjust-links)
+1. 対応するフィールドに目的の URL を入力するか、ランディングページを選択して、リンク設定とスタイルを定義します。[詳細情報](#adjust-links)
 
    >[!NOTE]
    >
-   >URL を解釈する場合、 [!DNL Journey Optimizer] は URI 構文 ([RFC 3986 標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}) では、URL 内の一部の特殊文字が無効になります。 配達確認または E メールを送信する際に、コンテンツに追加された URL に関するエラーが返された場合は、文字列を回避策として URL エンコードできます。
+   >URL を解釈する場合、[!DNL Journey Optimizer] は URI 構文（[RFC 3986 標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}）に準拠しており、URL 内の一部の特殊な国際文字が無効になります。配達確認またはメールを送信しようとした際に、コンテンツに追加された URL に関するエラーが返された場合は、回避策として文字列を URL エンコードできます。
 
 1. リンクをパーソナライズできます。[詳細情報](../personalization/personalization-syntax.md#perso-urls)
 
 1. 変更を保存します。
 
-1. リンクを作成した後でも、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** 右側のパネル
+1. リンクを作成したら、右側の&#x200B;**[!UICONTROL 設定]**&#x200B;パネルと&#x200B;**[!UICONTROL スタイル]**&#x200B;パネルから変更できます。
 
    ![](assets/message-tracking-link-settings.png)
 
@@ -93,7 +93,7 @@ ht-degree: 87%
 
 ## リンクを調整 {#adjust-links}
 
-リンクを調整するには、 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** 右側のパネル リンクに下線を引き、リンクの色を編集し、リンクのターゲットを選択することができます。
+右側の&#x200B;**[!UICONTROL 設定]**&#x200B;パネルと&#x200B;**[!UICONTROL スタイル]**&#x200B;パネルを使用してリンクを調整できます。リンクに下線を引いたり、リンクの色を編集したり、リンクのターゲットを選択したりできます。
 
 1. リンクが挿入された&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントで、リンクを選択します。
 
