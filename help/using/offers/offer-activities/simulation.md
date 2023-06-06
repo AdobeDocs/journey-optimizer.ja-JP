@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 96%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
 # シミュレーションの作成 {#create-simulations}
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_simulation"
->title="オファーの決定をシミュレート"
->abstract="シミュレーションを使用すると、特定の配置に対してテストプロファイルに配信されるオファーをシミュレートできます。 これにより、ターゲットの受信者に影響を与えずに、オファーの様々なバージョンをテストして改良できます。"
 
 ## シミュレーションについて {#about-simulation}
 

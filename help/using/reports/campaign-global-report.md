@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: c9941a800783b399b587b952c4191ce906b70552
 workflow-type: tm+mt
 source-wordcount: '2262'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -76,9 +76,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ![](assets/experimentation_report_3.png)
 
-「**[!UICONTROL 実験]**」タブには、各バリアントのパフォーマンスに関する主要なインサイトが表示され、最も成功したものを特定します。
+この **[!UICONTROL 実験]** 「 」タブには、各バリアントのパフォーマンスに関する主要なインサイトが表示され、最も成功したものを特定します。
 
-最もパフォーマンスの高い処理の判定には時間がかかる場合があり、このアイコン ![](assets/experimentation_report_1.png) が表示されます。
+最も高いパフォーマンスの判定には時間がかかる場合があり、このアイコン ![](assets/experimentation_report_1.png) が表示されます。
 
 +++実験レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
@@ -86,7 +86,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 このテーブルは、次の指標を表しています。
 
-* **[!UICONTROL ベースライン上の上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
+* **[!UICONTROL ベースライン上の上昇率]**:ベースラインに対する特定の治療のコンバージョン率の改善率の測定。
 
 * **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../campaigns/experiment-calculations.md#understand-confidence)
 
@@ -94,9 +94,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL プロファイル]**：この処理の対象となるプロファイルの数。
 
-* **[!UICONTROL ユニークアウトバウンドクリック数／プロファイル数]**：実験の作成時に以前に選択した成功指標の合計値を、プロファイル数で割った値です。
+* **[!UICONTROL 一意のアウトバウンドクリック数/プロファイル]**:実験の作成時に以前に選択した成功指標の合計値を、プロファイル数で割った値です。
 
-**[!UICONTROL 信頼区間]**&#x200B;グラフは、改善に関する不確実性を測定します。ベースラインと最もパフォーマンスの高い処理との間のパフォーマンス差の割合を詳細に示します。[詳細情報](../campaigns/experiment-calculations.md#confidence-intervals)
+この **[!UICONTROL 信頼区間]** グラフは、改善に関する不確実性を測定します。 ベースラインと最もパフォーマンスの高い治療との間の性能差の割合を詳しく説明します。 [詳細情報](../campaigns/experiment-calculations.md#confidence-intervals)
 +++
 
 これらの結果の詳細と解釈について詳しくは、[このページ](../campaigns/get-started-experiment.md#interpret-results)を参照してください。

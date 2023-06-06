@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
    ![](assets/sms_create_5.png)
 
-1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../campaigns/content-experiment.md)
+1. クリック **[!UICONTROL 実験を作成]** ：コンテンツ実験の設定を開始し、そのパフォーマンスを測定し、ターゲットオーディエンスに最適なオプションを特定するための処理を作成します。 [詳細情報](../campaigns/content-experiment.md)
 
 1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、SMS メッセージ内のリンクのクリックを追跡するかどうかを指定します。
 
