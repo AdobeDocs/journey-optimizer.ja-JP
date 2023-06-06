@@ -10,8 +10,8 @@ keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1087'
+ht-degree: 100%
 
 ---
 
