@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 96%
+source-wordcount: '281'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 アプリ内メッセージを送信する前に、[!DNL Adobe Experience Platform Data Collection] でアプリ内チャネルを設定する必要があります。
 
-1. お使いの [!DNL Adobe Experience Platform Data Collection] アカウントから、**[!UICONTROL データストリーム]**&#x200B;メニューにアクセスし、**[!UICONTROL 新しいデータストリーム]**&#x200B;をクリックします。データストリーム作成について詳しくは、[このページ](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams)を参照してください。
+1. お使いの [!DNL Adobe Experience Platform Data Collection] アカウントから、**[!UICONTROL データストリーム]**&#x200B;メニューにアクセスし、**[!UICONTROL 新しいデータストリーム]**&#x200B;をクリックします。データストリーム作成について詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja)を参照してください。
 
 1. [!DNL Adobe Experience Platform] サービスを選択します。 
 
@@ -58,7 +58,7 @@ ht-degree: 96%
    * Mobile Core
    * プロファイル
 
-   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension)を参照してください。
+   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja#add-a-new-extension)を参照してください。
 
    ![](assets/inapp_config_5.png)
 

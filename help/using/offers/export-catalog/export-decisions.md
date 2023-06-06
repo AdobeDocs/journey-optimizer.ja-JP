@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -255,7 +255,8 @@ ht-degree: 100%
 
 **フィールド：**endTime
 **タイトル：**アクティビティ終了日時
-**説明：**&#x200B;決定（以前はアクティビティと呼ばれていました）の終了日と終了時刻。プロパティには、http://schema.org/Action で定義された schema.org の「endTime」プロパティの意味があります。**タイプ：**&#x200B;文字列
+**説明：**決定（以前はアクティビティと呼ばれていました）の終了日と終了時刻。プロパティには、https://schema.org/Actionで定義された schema.org の「endTime」プロパティのセマンティックが含まれます。
+**タイプ：**&#x200B;文字列
 
 +++
 
@@ -280,7 +281,7 @@ ht-degree: 100%
 
 **フィールド：**startTime
 **タイトル：**アクティビティの開始日時
-**説明：**決定（旧称：アクティビティ）の開始日と終了時刻。プロパティに、schema.org の「startTime」プロパティの意味が http://schema.org/Action で定義されています。
+**説明：**決定（旧称：アクティビティ）の開始日と終了時刻。プロパティには、https://schema.org/Actionで定義された schema.org の「startTime」プロパティのセマンティックが含まれます。
 **タイプ：**&#x200B;文字列
 
 +++

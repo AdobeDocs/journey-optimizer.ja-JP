@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Offer Library] APIに対して PATCH リクエストを実行することで、コンテナ内のコレクション修飾子 （旧称「タグ」）を変更または更新できます。
 
-使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
+使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 

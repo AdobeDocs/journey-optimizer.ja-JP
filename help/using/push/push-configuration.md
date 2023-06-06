@@ -6,10 +6,10 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -189,14 +189,12 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 Adobe Experience Platform Mobile SDK 用 **Adobe Journey Optimizer 拡張機能**&#x200B;は、モバイルアプリに対するプッシュ通知を強化します。また、ユーザープッシュトークンの収集や、Adobe Experience Platform サービスとのインタラクション測定の管理をサポートします。
 
-Journey Optimizer 拡張機能を設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target="_blank"}を参照してください。
+Journey Optimizer 拡張機能を設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}を参照してください。
 
 
 <!-- 
 **[!UICONTROL Edge configuration]** is used by **[!UICONTROL Edge]** extension to send custom data from mobile device to [!DNL Adobe Experience Platform]. 
 To configure [!DNL Adobe Experience Platform], you must provide the **[!UICONTROL Sandbox]** name and **[!UICONTROL Event Dataset]**.
-
-For further details and procedures on how to create **[!UICONTROL Edge configuration]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
 
 1. From [!DNL Adobe Experience Platform Launch], select the **[!UICONTROL Edge Configurations]** tab and click **[!UICONTROL Edge Configurations]**.
     

@@ -2,10 +2,10 @@
 title: Batch Decisioning
 description: 特定の Adobe Experience Platform セグメントですべてのプロファイルにオファーの決定を配信する方法を説明します。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
 * Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)を参照してください。
 
-* Adobe Experience Platform の&#x200B;**セグメント**。セグメントは評価してから更新する必要があります。セグメントメンバーシップの評価を更新する方法については、[Segmentation Service ドキュメント](http://www.adobe.com/go/segmentation-overview-en_jp)を参照してください
+* Adobe Experience Platform の&#x200B;**セグメント**。セグメントは評価してから更新する必要があります。セグメントメンバーシップの評価を更新する方法については、[Segmentation Service ドキュメント](https://www.adobe.com/go/segmentation-overview-en)を参照してください
 
    >[!NOTE]
    >

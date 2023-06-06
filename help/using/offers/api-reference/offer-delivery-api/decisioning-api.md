@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: a2f4a7f7b08cce3980eab71fea0b2704975087ca
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -194,7 +194,7 @@ curl -X POST \
 | `xdm:propositions.xdm:content` | 応答コンテンツの形式。 | 応答コンテンツは、`text`、`html block`、または `image link` です。 |
 | `xdm:score` | オプションのスコア。オプションのスコアは、オプションまたは決定に関連付けられたランキング関数の計算結果です。ランク付けの際にオファーのスコアの決定にランキング関数が関与する場合、このフィールドは API から返されます。 | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | このオブジェクトには、単一のフォールバックオファーが含まれます（一意の ID を含む）。 | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | リソースの物理的またはデジタル的な表示。通常、形式にはリソースのメディアタイプを含める必要があります。形式は、リソースを表示または操作するのに必要なソフトウェア、ハードウェア、または他の機器を決定するために使用できます。コンピューターメディア形式を定義する[インターネットメディアタイプ](http://www.iana.org/assignments/media-types/)のリストなど、制御された用語から値を選択することをお勧めします。 | `"dc:format": "image/png"` または `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | リソースの物理的またはデジタル的な表示。通常、形式にはリソースのメディアタイプを含める必要があります。形式は、リソースを表示または操作するのに必要なソフトウェア、ハードウェア、または他の機器を決定するために使用できます。コンピューターメディア形式を定義する[インターネットメディアタイプ](https://www.iana.org/assignments/media-types/)のリストなど、制御された用語から値を選択することをお勧めします。 | `"dc:format": "image/png"` または `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | コンテンツ配信ネットワークまたはサービスエンドポイントからアセットを読み取るためのオプションの URL。この URL は、ユーザーエージェントからアセットに公開でアクセスするために使用されます。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 決定応答メッセージが作成された時間。これはエポック時間として表されます。 | `"ode:createDate": 1566497582038` |
 

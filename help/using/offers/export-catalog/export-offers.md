@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
       **フィールド：** format
       **タイトル：**形式
-      **説明：**&#x200B;リソースの物理的またはデジタル表現。通常、形式にはリソースのメディアタイプを含める必要があります。形式は、リソースの表示や操作に必要なソフトウェア、ハードウェア、その他の機器を特定するために使用できます。推奨されるベストプラクティスは、制御された語彙から値を選択することです（例えば、コンピューターのメディア形式を定義する[インターネットメディアタイプ](http://www.iana.org/assignments/media-types/)のリスト）。
+      **説明：**&#x200B;リソースの物理的またはデジタル表現。通常、形式にはリソースのメディアタイプを含める必要があります。形式は、リソースの表示や操作に必要なソフトウェア、ハードウェア、その他の機器を特定するために使用できます。推奨されるベストプラクティスは、制御された語彙から値を選択することです（例えば、コンピューターのメディア形式を定義する[インターネットメディアタイプ](https://www.iana.org/assignments/media-types/)のリスト）。
       **タイプ：**文字列
       **例：**&quot;application/vnd.adobe.photoshop&quot;
 
