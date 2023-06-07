@@ -165,7 +165,7 @@ ht-degree: 100%
    + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験の基本を学ぶ](using/campaigns/get-started-experiment.md)
-      + [コンテンツ実験の作成](using/campaigns/content-experiment.md)
+      + [コンテンツ実験を作成](using/campaigns/content-experiment.md)
       + [実験レポートの設定](using/campaigns/reporting-configuration.md)
       + テクニカルノート {#technotes}
          + [統計計算について](using/campaigns/experiment-calculations.md)

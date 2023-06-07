@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: コンテンツ実験の作成
+title: コンテンツ実験を作成
 description: キャンペーンでコンテンツ実験を作成する方法を学ぶ
 feature: A/B Testing
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# コンテンツ実験の作成 {#content-experiment}
+# コンテンツ実験を作成 {#content-experiment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
@@ -57,7 +57,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 -->
 1. チャネルを選択したあと、この配信に使用する「**[!UICONTROL サーフェス]**」を選択して、「**[!UICONTROL 作成]**」をクリックします。詳しくは、[チャネルサーフェス](../configuration/channel-surfaces.md)ページを参照してください。
 
-   この例では、E メールを使用してキャンペーンを送信することを選択します。
+   この例では、メールを使用してキャンペーンを送信することを選択します。
 
    ![](assets/content_experiment_2.png)
 
