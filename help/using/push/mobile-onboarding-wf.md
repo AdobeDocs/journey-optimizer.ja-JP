@@ -7,11 +7,9 @@ topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
+source-git-commit: 04f96fa1ad815b380cf33c7706e39094a1bca1c3
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
