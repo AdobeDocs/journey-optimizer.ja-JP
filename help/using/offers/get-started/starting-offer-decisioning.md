@@ -59,17 +59,17 @@ ht-degree: 95%
 
 * Adobe Experience Platform からのデータに基づいて、web サイトのホームページに、訪問顧客の興味ポイントに一致するオファーを表示します。
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * 顧客がいずれかの店舗のそばを通りかかった場合、属性（ロイヤルティ、性別、以前の購入など）に応じて利用可能なオファーを通知するプッシュ通知を送信します。
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * 意思決定管理は、顧客がサポートチームに連絡する際のエクスペリエンスを向上できるようサポートします。
 意思決定管理 API を使用すると、顧客が取り消したオファーと次善のオファーに関する情報を、コールセンター担当者のポータルに表示することができます。
 
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## 意思決定管理へのアクセスの許可 {#granting-acess-to-decision-management}
 
