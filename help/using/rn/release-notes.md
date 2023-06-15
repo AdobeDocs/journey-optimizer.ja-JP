@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 97%
+source-wordcount: '2453'
+ht-degree: 98%
 
 ---
 
@@ -89,13 +89,13 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>E メールコンテンツでフラグメントを作成して使用する</strong><br/></th>
+<th><strong>メールコンテンツでのフラグメントの作成と使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>フラグメントを作成、使用、管理して、E メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。 フラグメントは、Journey Optimizerのキャンペーンやジャーニーをまたいだ複数の E メールで参照できる、事前に作成された再利用可能なコンポーネントで、設計プロセスを改善し、迅速に実行できます。</p>
+<p>フラグメントを作成、使用、管理して、メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。フラグメントは、設計プロセスを改善および加速するために、Journey Optimizer キャンペーンおよびジャーニー全体にわたる複数のメールで参照できる、事前に作成された再利用可能なコンポーネントです。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>詳しくは、<a href="../email/fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -153,14 +153,13 @@ ht-degree: 97%
    * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
    * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
 
-   その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、この新しいオーディエンスの作成と管理のパスを反映して、「セグメント」が「オーディエンス」に置き換えられるようになります。
+  その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、この新しいオーディエンスの作成と管理のパスを反映して、「セグメント」が「オーディエンス」に置き換えられるようになります。
 
-   メッセージの受信をターゲットにしたプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳を、一部の言語について、すべてのデジタルエクスペリエンス製品全体で統一しました。
+  メッセージの受信をターゲットにしたプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳を、一部の言語について、すべてのデジタルエクスペリエンス製品全体で統一しました。
 
    * ドイツ語：Zielgruppe
    * ポルトガル語（ブラジル）：público-alvo
    * スペイン語：público destinatario
-
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -266,10 +265,7 @@ ht-degree: 97%
 
 * ジャーニーキャンバスのメッセージアクティビティと終了タグにアクティビティ ID が表示されるようになりました。これにより、レポーティングとリターゲティングが向上します。
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
-* ジャーニーに新しいガードレールが追加されました。
-   * ジャーニーのアクティビティ数が 50 に制限されるようになりました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-   * 1 つの組織内の&#x200B;**ライブジャーニー**&#x200B;の数がサンドボックスあたり 100 に制限されるようになりました。テストモードのジャーニーは考慮されません。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-
+* 拡張を支援する安全対策を備えたキャンバス上のノード数に関する新しいインサイト：ジャーニーを読みやすく、QA を容易に実施し、ジャーニーあたり最大数のノードを 50 個使用してトラブルシューティングをおこなうことができます。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * ジャーニーに[メール](../email/create-email.md)、[SMS](../sms/create-sms.md)、[プッシュ](../push/create-push.md)のアクションを追加すると、デフォルトでは、現在のジャーニーのそのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
 * カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 
@@ -361,7 +357,7 @@ ht-degree: 97%
 
 * Adobe Experience Platform 全体で最近リリースされたタグ機能との潜在的な混乱を防ぐために、意思決定管理タグの名前を「コレクション修飾子」に変更しました。
 
-   「タグ」という用語は、意思決定管理のユーザーインターフェイスでは使用されなくなりましたが、API やデータセットなどのバックエンドサービスでは引き続き使用します。
+  「タグ」という用語は、意思決定管理のユーザーインターフェイスでは使用されなくなりましたが、API やデータセットなどのバックエンドサービスでは引き続き使用します。
 
 * オファーのキャッピングカウンターを日単位、週単位または月単位でリセットできるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
@@ -377,7 +373,7 @@ ht-degree: 97%
 
 * レポートウィジェットの機能が改善され、ユーザーによるデータの表示方法をカスタマイズできるようになりました。この改善により、グラフ、表、ドーナツグラフなど、複数のビジュアライゼーションオプションの中から選択できるようになりました。
 
-   最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/global-report.md#modify-dashboard)を参照してください。
+  最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/global-report.md#modify-dashboard)を参照してください。
 
 ## 2023年2月リリースノート {#feb-2023}
 
