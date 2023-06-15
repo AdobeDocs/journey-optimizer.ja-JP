@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->オーディエンス構成は現在、プライベートベータ版としてのみ利用可能で、予告なく頻繁に更新される場合があります。ベータ版は組織レベルでプロビジョニングされるため、組織内のすべてのサンドボックスに影響が及びます。
+>オーディエンスの構成は、現時点では、限られたグループの顧客のみが利用できます。 ご質問がある場合は、Adobe担当者にお問い合わせください。
 
 オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
@@ -49,6 +49,8 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >コンポジションワークフローから生じるオーディエンスは、Journey Optimizer キャンペーンのみをターゲットにすることができます。ジャーニーでは使用できません。
+>
+>Adobe Journey Optimizerのキャンペーンは、まだポリシー実施サービスと統合されていません。 したがって、オーディエンス属性に適用するデータ使用ラベルは、Journey Optimizerキャンペーンでは適用されません。
 
 オーディエンスコンポジションには、Adobe Journey Optimizer の&#x200B;**[!UICONTROL セグメント]**&#x200B;メニューからアクセスできます。
 
