@@ -6,10 +6,10 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 86%
+source-wordcount: '921'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 
 ## 前提条件{#sms-prerequisites}
 
-Adobe Journey Optimizer は現在、Sinch や Twilio などのサードパーティプロバイダーと統合されており、そうしたプロバイダーは Adobe Journey Optimizer とは独立に SMS サービスを提供しています。
+Adobe Journey Optimizerは、現在、Adobe Journey Optimizerから独立した SMS サービスを提供する Sinch、Twilio、Infobip などのサードパーティプロバイダーと統合されています。
 
 SMS を設定する前に、こうしたいずれかの SMS プロバイダーのアカウントを作成して、Adobe Journey Optimizer と該当する SMS プロバイダー間の接続を確立するための API トークンとサービス ID を受信できるようにする必要があります。
 
@@ -55,25 +55,27 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 
    ![](assets/sms_6.png)
 
-1. SMS API の資格情報を設定します。
+1. SMS API 資格情報を設定します。
 
-   * の場合 **[!DNL Sinch]**:
+   * **[!DNL Sinch]** の場合：
 
-      * **[!UICONTROL 名前]**:API 資格情報の名前を選択します。
+      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**:API ページにアクセスするには、「 SMS 」タブで資格情報を確認します。  [詳細情報](https://developers.sinch.com/docs/sms/getting-started/)
-   * の場合 **[!DNL Twilio]**:
+      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。[詳細情報](https://developers.sinch.com/docs/sms/getting-started/)
 
-      * **[!UICONTROL 名前]**:API 資格情報の名前を選択します。
+   * **[!DNL Twilio]** の場合：
 
-      * **[!UICONTROL アカウント SID]** および **[!UICONTROL 認証トークン]**:Twilio コンソールダッシュボードページの「アカウント情報」ペインにアクセスして、資格情報を検索します。
+      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL メッセージ SID]**:Twilio の API で作成されるすべてのメッセージに割り当てられる一意の識別子を入力します。 [詳細情報](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
-   * の場合 **[!DNL Infobip]**:
+      * **[!UICONTROL アカウント SID]** および&#x200B;**[!UICONTROL 認証トークン]**：Twilio コンソールダッシュボードページの「アカウント情報」パネルにアクセスして、資格情報を検索します。
 
-      * **[!UICONTROL 名前]**:API 資格情報の名前を選択します。
+      * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。[詳細情報](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
 
-      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**:web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を見つけます。 [詳細情報](https://www.infobip.com/docs/api)
+   * **[!DNL Infobip]** の場合：
+
+      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
+
+      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。[詳細情報](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
@@ -114,20 +116,19 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
       * プロモーション SMS の場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
       * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
 
-      >[!CAUTION]
-      >
-      >**トランザクション** SMS メッセージは、アドビからのお知らせを登録解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
+     >[!CAUTION]
+     >
+     >**トランザクション** SMS メッセージは、アドビからのお知らせを登録解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
 
-      メッセージの作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+     メッセージの作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
 
    * **[!UICONTROL SMS 設定]**&#x200B;を選択し、サーフェスと関連付けます。
 
-      SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
+     SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
 
    * コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
 
    * 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
-
 
 1. SMS メッセージで URL 短縮機能を使用する場合は、**[!UICONTROL サブドメイン]**&#x200B;リストから項目を選択します。
 
