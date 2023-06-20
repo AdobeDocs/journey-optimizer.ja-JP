@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: split, 関数, 式, ジャーニー
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07682901ec94d5b736d364130aaf48f9dfe982a3
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## 例
 
-`split(["A_B_C"], "_")`
+`split("A_B_C", "_")`
 
 `["A","B","C"]` を返します。
 
