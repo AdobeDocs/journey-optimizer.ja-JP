@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8aa64e44501b144cd3ccb325e07c1453753fc65c
+source-git-commit: 68a2846c33ce347b481ebd02e4d77938c24e6040
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 98%
+source-wordcount: '2565'
+ht-degree: 96%
 
 ---
 
@@ -22,47 +22,44 @@ ht-degree: 98%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-<!--
-## June 2023 early release notes {#june-rn-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+## 2023 年 6 月初期リリースノート {#june-rn-2023}
 
-**Release date**: June 21-22, 2023
+以下の情報は、リリースの公開日まで予告なく変更される場合があります。更新されたドキュメントはリリース日に公開され、ダイレクトリンクがこのページに追加されます。
 
-### New capabilities{#june-2023-features}
+**リリース日**:2023 年 6 月 21 日～22 日
+
+### 新機能{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
+<th><strong>マーケティングの使用例に対する API トリガーキャンペーン</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
-<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
+<p>API を使用して、外部システムからAdobe Journey Optimizerのマーケティングキャンペーンをトリガーできるようになりました。</p>
+<p>このリリースまで、API トリガーキャンペーン機能は、パスワードのリセットや OTP トークンなど、運用およびトランザクションに関する様々なニーズをカバーしていましたが、マーケティングキャンペーンの作成には使用できませんでした。 API トリガーキャンペーンで使用できるチャネルは次のとおりです。E メール、SMS、プッシュメッセージ。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
+<p>詳しくは、<a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
 </table>
 
-
+<!--
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
-
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
-
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 -->
 
 ## 2023年5月リリースノート {#may-rn-2023}
