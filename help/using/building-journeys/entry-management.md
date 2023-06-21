@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 70%
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 70%
 
 それに加えて：
 
-* 再エントリが有効な場合、プロファイルはジャーニーに複数回エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。
+* 再エントリが有効な場合、プロファイルはジャーニーに複数回エントリできますが、ジャーニーの以前のインスタンスから完全に離脱するまでは実行できません。
 
 * 再エントリが無効な場合、プロファイルは同じジャーニーに複数回エントリできません
 
