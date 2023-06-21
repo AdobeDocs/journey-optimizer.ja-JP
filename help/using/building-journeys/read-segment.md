@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, セグメント, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->1 回限りの「セグメントの読み取り」ジャーニーは、ジャーニーの実行から 30 日後に完了ステータスに移行します。スケジュールされた読み取りセグメントの場合、最後の実行から 30 日後になります。
+>ワンショット **セグメントを読み取り** ジャーニーが **完了** ジャーニーの実行後 30 日後にステータスが変更された場合。 スケジュール済み **セグメントの読み取り**&#x200B;の場合、最後の値を実行してから 30 日経過します。
 
 ### ジャーニーのテストと公開 {#testing-publishing}
 
