@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, イベント, 反応, トラッキング, Platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: b011b979aaab7568ca951982a59ad676d05c5595
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Gmail などのメールクライアントでは、画像がブロックされる可能性があります。メールの開封は、メールに含めた 0 ピクセルの画像を使用してトラッキングします。画像がブロックされると、メールの開封は考慮できません。
+>Gmail などのメールクライアントでは、画像がブロックされる可能性があります。E メールの開封は、E メールに含まれる 0 ピクセルの画像を使用して追跡されます。 画像がブロックされると、メールの開封は考慮できません。
