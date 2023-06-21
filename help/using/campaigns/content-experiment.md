@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス,
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 -->
 1. チャネルを選択したあと、この配信に使用する「**[!UICONTROL サーフェス]**」を選択して、「**[!UICONTROL 作成]**」をクリックします。詳しくは、[チャネルサーフェス](../configuration/channel-surfaces.md)ページを参照してください。
 
-   この例では、メールを使用してキャンペーンを送信することを選択します。
+   この例では、E メールを使用してキャンペーンを送信します。
 
    ![](assets/content_experiment_2.png)
 
