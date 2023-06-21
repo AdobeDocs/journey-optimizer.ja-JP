@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 イベントが正常に送信されたにもかかわらず、ジャーニーへのエントリが確認できない場合、ジャーニーのイベント送信とイベント受信の間に何か問題があるということです。
 
-管理者は、次の点を確認してください。
+次の質問に従って、トラブルシューティングを開始できます。
 
 * イベントを受信するジャーニーが、テストモードまたはライブになっているか。
 * ペイロードプレビューからペイロードをコピーする前にイベントを保存したか。
@@ -67,10 +67,10 @@ ht-degree: 100%
 * イベント設定ペインのペイロード構造プレビューを使用して、ストリーミング取り込み API のペイロード構造に従ったか。[このページ](../event/about-creating.md#preview-the-payload)を参照してください。
 * イベントのヘッダーで正しいキーと値のペアを使用しましたか？
 
-   ```
-   X-gw-ims-org-id - your organization's ID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your organization's ID
+  Content-type - application/json
+  ```
 
 ## ジャーニーの進行状況を確認{#checking-how-people-navigate-through-the-journey}
 
