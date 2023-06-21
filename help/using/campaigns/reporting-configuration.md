@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 >title="データセットの選択"
 >abstract="イベントタイプのデータセット を 1 つだけ選択できます。そのデータセットには、サポートされているフィールドグループ（アプリケーションの詳細、コマースの詳細、web の詳細）を 1 つ以上含める必要があります。"
 
-レポートデータソースの設定を使用すると、システムへの接続を定義して、レポートで使用される追加情報を取得できます。
+レポートデータソース設定では、レポートで使用する追加情報を取得するためにシステムへの接続を定義できます。
 
 <!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
@@ -45,21 +45,21 @@ ht-degree: 93%
 ## 前提条件
 
 
-レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}を参照してください。
+レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target="_blank"}を参照してください。
 
 * イベントタイプのデータセットのみを追加できます。
 
 * これらのデータセットには、次の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}のうち少なくとも 1 つが含まれている必要があります：**アプリケーションの詳細**、**コマースの詳細**、 **web の詳細**。
 
-   >[!NOTE]
-   >
-   >現在、これらのフィールドグループのみがサポートされています。
+  >[!NOTE]
+  >
+  >現在、これらのフィールドグループのみがサポートされています。
 
-   例えば、メールキャンペーンが購入や注文などのコマースデータに与える影響を知りたい場合は、**コマースの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
+  例えば、メールキャンペーンが購入や注文などのコマースデータに与える影響を知りたい場合は、**コマースの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
 
-   同様に、モバイルインタラクションに関してレポートする場合は、**アプリケーションの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
+  同様に、モバイルインタラクションに関してレポートする場合は、**アプリケーションの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
 
-   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
+  <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * これらのフィールドグループは、1 つまたは複数のデータセットで使用する、1 つまたは複数のスキーマに追加できます。
 
@@ -103,7 +103,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   データセットについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target="_blank"}を参照してください。
+   データセットについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}を参照してください。
 
 1. **[!UICONTROL プロファイル ID]**&#x200B;ドロップダウンリストで、レポート内の各プロファイルを識別するために使用するデータセットフィールド属性を選択します。
 

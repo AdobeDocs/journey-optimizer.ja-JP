@@ -116,15 +116,15 @@ ht-degree: 100%
 
 * **[!UICONTROL オーディエンスを除外]**：既存オーディエンスに属するプロファイルを除外します。
 
-   「**[!UICONTROL オーディエンスを追加]**」ボタンをクリックし、除外するオーディエンスを選択します。
+  「**[!UICONTROL オーディエンスを追加]**」ボタンをクリックし、除外するオーディエンスを選択します。
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL 属性を使用して除外]**：特定の属性に基づいてプロファイルを除外します。
 
-   検索する属性を選択し、除外する値を指定します。この例では、住所が日本にあるコンポジションプロファイルから除外します。
+  検索する属性を選択し、除外する値を指定します。この例では、住所が日本にあるコンポジションプロファイルから除外します。
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### エンリッチメント {#enrich}
 
@@ -220,15 +220,15 @@ ht-degree: 100%
 
 * **[!UICONTROL パーセント分割]**：プロファイルを 2 つ以上のパスにランダムに分割します。例えば、プロファイルをそれぞれ 50％の 2 つの異なるパスに分割できます。<!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL 属性の分割]**：特定の属性に基づいてプロファイルを分割します。この例では、部屋タイプの希望に基づいてプロファイルを分割します。
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >「**[!UICONTROL その他のプロファイル]**」オプションを使用すると、他のパスで指定された条件に一致しない残りのプロファイルと共に、追加のパスを作成できます。
+  >[!NOTE]
+  >
+  >「**[!UICONTROL その他のプロファイル]**」オプションを使用すると、他のパスで指定された条件に一致しない残りのプロファイルと共に、追加のパスを作成できます。
 
 ## オーディエンスを保存する {#save}
 

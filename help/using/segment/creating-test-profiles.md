@@ -25,7 +25,7 @@ ht-degree: 100%
 
 * [csv ファイル](#create-test-profiles-csv)をアップロードするか、[API 呼び出し](#create-test-profiles-api)を使用して、テストプロファイルを作成する
 
-   これら 2 つの方法に加えて、Adobe Journey Optimizer には、テストプロファイルを容易に容易できる特定の[製品内ユースケース](#use-case-1)が用意されています。
+  これら 2 つの方法に加えて、Adobe Journey Optimizer には、テストプロファイルを容易に容易できる特定の[製品内ユースケース](#use-case-1)が用意されています。
 
 既存のデータセットで json ファイルをアップロードすることもできます。詳しくは、[データ取得ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target="_blank"}を参照してください。
 
@@ -53,7 +53,6 @@ ht-degree: 100%
    >* スキーマの名前をクリックして変更し、そのプロパティを更新します。
    >
    >* 「フィールドグループ」セクションの「**[!UICONTROL 追加]**」ボタンをクリックして、スキーマに追加する他のフィールドグループを選択します
-
 
 1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
    ![](assets/test-profiles-3.png)

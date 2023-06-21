@@ -25,7 +25,6 @@ ht-degree: 100%
 * `upperCase` 文字列関数：顧客の名を大文字で挿入します。[詳細情報](functions/string.md#upper)。
 * `each` ヘルパー：カートに入っている商品をリストします。[詳細情報](functions/helpers.md#each)。
 * `if`ヘルパー：関連製品がカートに入っている場合に製品固有のメモを挿入します。[詳細情報](functions/helpers.md#if-function)。
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
@@ -168,7 +167,6 @@ ht-degree: 100%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. 次のコードを、`{{#each}}` 開始タグと `{/each}}` 終了タグの間に貼り付けます。
 

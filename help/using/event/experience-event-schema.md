@@ -32,27 +32,27 @@ ht-degree: 100%
 
 * スキーマは、XDM ExperienceEvent クラスである必要があります。
 
-   ![](assets/schema2.png)
+  ![](assets/schema2.png)
 
 * システム生成イベントの場合、オーケストレーション eventID フィールドグループがスキーマに含まれている必要があります。[!DNL Journey Optimizer] はこのフィールドを使用して、ジャーニーで使用されるイベントを識別します。
 
-   ![](assets/schema3.png)
+  ![](assets/schema3.png)
 
 * イベント内の個々のプロファイルを識別するための ID フィールドを宣言します。 ID が指定されていない場合は、ID マップを使用できます。この方法は推奨されません。
 
-   ![](assets/schema4.png)
+  ![](assets/schema4.png)
 
 * このデータを後からジャーニーで参照できるようにする場合は、プロファイルのスキーマとデータセットをマークします。
 
-   ![](assets/schema5.png)
+  ![](assets/schema5.png)
 
-   ![](assets/schema6.png)
+  ![](assets/schema6.png)
 
 * ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めたいその他のコンテキストデータを取り込むためのデータフィールドを自由に含めることができます。
 
-   ![](assets/schema7.png)
+  ![](assets/schema7.png)
 
-   ![](assets/schema8.png)
+  ![](assets/schema8.png)
 
 ## スキーマ間の関係の活用{#leverage_schema_relationships}
 

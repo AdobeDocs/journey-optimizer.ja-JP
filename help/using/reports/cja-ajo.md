@@ -49,13 +49,13 @@ ht-degree: 100%
 
 * **[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] は両方とも、レポート用に Azure Data Lake Storage（ADLS）からのデータを同期します。**
 
-   受信データの処理時間は、製品間で多少異なる場合があります。このため、指定した日付から現在の日付までのレポートを表示すると、データが一致しない場合があります。相違を減らすには、現在の日付を除く日付範囲を使用します。
+  受信データの処理時間は、製品間で多少異なる場合があります。このため、指定した日付から現在の日付までのレポートを表示すると、データが一致しない場合があります。相違を減らすには、現在の日付を除く日付範囲を使用します。
 
 * **[!DNL Journey Optimizer] レポートでは、送信済み指標には、再試行指標も含まれます。**
 
-   **[!UICONTROL 再試行]**&#x200B;は、[!DNL Customer Journey Analytics]での&#x200B;**[!UICONTROL 送信済み]**&#x200B;指標には含まれません。そのため、[!DNL Customer Journey Analytics] **[!UICONTROL 送信済み]**&#x200B;指標には、[!DNL Journey Optimizer] より低い値が表示されます。ただし、再試行データは、「**[!UICONTROL 正常に送信されたメッセージ]**」または「**[!UICONTROL バウンス]**」指標に収束されます。
+  **[!UICONTROL 再試行]**&#x200B;は、[!DNL Customer Journey Analytics]での&#x200B;**[!UICONTROL 送信済み]**&#x200B;指標には含まれません。そのため、[!DNL Customer Journey Analytics] **[!UICONTROL 送信済み]**&#x200B;指標には、[!DNL Journey Optimizer] より低い値が表示されます。ただし、再試行データは、「**[!UICONTROL 正常に送信されたメッセージ]**」または「**[!UICONTROL バウンス]**」指標に収束されます。
 相違を減らすには、1 週間前またはそれ以降の日付範囲を使用します。
 
 * **レポートは、異なるデータソースから提供されています。**
 
-   その結果、製品間で 1～2％のデータの相違が生じる可能性があります。
+  その結果、製品間で 1～2％のデータの相違が生じる可能性があります。

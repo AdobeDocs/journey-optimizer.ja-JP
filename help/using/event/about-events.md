@@ -52,9 +52,9 @@ ht-degree: 100%
 
 * **ルールベース**&#x200B;イベント：このタイプのイベントでは、eventID は生成されません。簡単な式エディターを使用して、システムがジャーニーをトリガーする関連イベントの特定に使用するルールを定義します。このルールは、イベントペイロードで使用可能な任意のフィールドに基づくことができます。例えば、プロファイルの場所や、プロファイルの買い物かごに追加された項目数などです。
 
-   >[!CAUTION]
-   >
-   >キャッピングルールは、ルールベースのイベントに対して定義します。ジャーニーが処理できる対象イベントの数を、特定の組織で 1 秒あたり 5,000 件に制限します。これは Journey Optimizer の SLA に対応しています。Journey Optimizer ライセンスおよび [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html) を参照します。
+  >[!CAUTION]
+  >
+  >キャッピングルールは、ルールベースのイベントに対して定義します。ジャーニーが処理できる対象イベントの数を、特定の組織で 1 秒あたり 5,000 件に制限します。これは Journey Optimizer の SLA に対応しています。Journey Optimizer ライセンスおよび [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html) を参照します。
 
 * **システム生成**&#x200B;イベント：このイベントでは eventID が必要です。eventID フィールドは、イベントの作成時に自動的に生成されます。イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。
 

@@ -1,5 +1,5 @@
 ---
-title: シミュレーションの作成
+title: シミュレーションを作成
 description: 決定ロジックを検証するために、特定の場所に配信されるオファーをシミュレートする方法を説明します
 feature: Offers
 topic: Integrations
@@ -9,16 +9,16 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# シミュレーションの作成 {#create-simulations}
+# シミュレーションを作成 {#create-simulations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="オファーの決定をシミュレート"
->abstract="シミュレーションを使用すると、特定の配置に対してテストプロファイルに配信されるオファーをシミュレートできます。 これにより、ターゲットの受信者に影響を与えずに、オファーの様々なバージョンをテストして改良できます。"
+>abstract="シミュレーションを使用すると、特定のプレースメントのテストプロファイルに配信されるオファーをシミュレートできます。これにより、ターゲットの受信者に影響を与えずに、オファーの様々なバージョンをテストして改良できます。"
 
 ## シミュレーションについて {#about-simulation}
 
@@ -217,5 +217,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。これらの値を [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"} ドキュメント。
+   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。これらの値を取得する方法について詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"} ドキュメントを参照してください。
 

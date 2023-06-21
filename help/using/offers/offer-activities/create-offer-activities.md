@@ -76,19 +76,19 @@ ht-degree: 100%
 
    * オファーの選択を Experience Platform セグメントのメンバーに限定するには、「**[!UICONTROL セグメント]**」を選択したあと、「**[!UICONTROL セグメントを追加]**」をクリックします。
 
-      ![](../assets/activity_constraint_segment.png)
+     ![](../assets/activity_constraint_segment.png)
 
-      左側のパネルから 1 つまたは複数のセグメントを追加し、 **[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらのセグメントを組み合わせます。
+     左側のパネルから 1 つまたは複数のセグメントを追加し、 **[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらのセグメントを組み合わせます。
 
-      ![](../assets/activity_constraint_segment2.png)
+     ![](../assets/activity_constraint_segment2.png)
 
-      セグメントの操作方法については、[この節](../../segment/about-segments.md)を参照してください。
+     セグメントの操作方法については、[この節](../../segment/about-segments.md)を参照してください。
 
    * 決定ルールに選択制約を追加する場合は、「**[!UICONTROL 決定ルール]**」オプションを使用し、任意のルールを選択します。
 
-      ![](../assets/activity_constraint_rule.png)
+     ![](../assets/activity_constraint_rule.png)
 
-      決定ルールの作成方法については、 [この節](../offer-library/creating-decision-rules.md)を参照してください。
+     決定ルールの作成方法については、 [この節](../offer-library/creating-decision-rules.md)を参照してください。
 
 1. セグメントまたは決定ルールを選択すると、推定される認定プロファイルに関する情報を表示できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
@@ -136,11 +136,11 @@ ht-degree: 100%
 
 * 2 つの評価条件が&#x200B;**組み合わされていない**&#x200B;か、順序が同じでない場合（1 と 2）、評価条件の上位 2 つの実施要件を満たすオファーが最初の行に返されます。最初の評価条件に実施要件を満たすオファーが 2 つない場合、決定エンジンは次の評価条件に順番に進み、まだ必要なオファーを見つけ、必要に応じて最終的にフォールバックを返します。
 
-   ![](../assets/activity_consecutive-rank-collections.png)
+  ![](../assets/activity_consecutive-rank-collections.png)
 
 * 2 つのコレクションが&#x200B;**同時に評価**&#x200B;される場合、評価条件 A から 2 つの実施要件を満たすオファーがあり、評価条件 B から 3 つの実施要件を満たすオファーがあるので、5 つのオファーはすべて、それぞれのランキングメソッドによって決定された値に基づいてまとめられます。2 つのオファーがリクエストされているので、これら 5 つのオファーのうち上位 2 つの実施要件を満たすオファーが返されます。
 
-   ![](../assets/activity_same-rank-collections.png)
+  ![](../assets/activity_same-rank-collections.png)
 
 ## フォールバックオファーの追加 {#add-fallback}
 
@@ -205,11 +205,11 @@ ht-degree: 100%
 
 * **[!UICONTROL 削除]**：決定をリストから削除します。
 
-   >[!CAUTION]
-   >
-   >決定とその内容にアクセスできなくなります。このアクションは取り消しできません。
-   >
-   >決定が別のオブジェクトで使用されている場合は、削除できません。
+  >[!CAUTION]
+  >
+  >決定とその内容にアクセスできなくなります。このアクションは取り消しできません。
+  >
+  >決定が別のオブジェクトで使用されている場合は、削除できません。
 
 * **[!UICONTROL アーカイブ]**：決定のステータスを&#x200B;**[!UICONTROL アーカイブ済み]**&#x200B;に設定します。決定は引き続きリストから使用できますが、ステータスを&#x200B;**[!UICONTROL ドラフト]**&#x200B;または&#x200B;**[!UICONTROL 承認済み]**&#x200B;に戻すことはできません。複製または削除のみ可能です。
 

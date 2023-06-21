@@ -25,7 +25,6 @@ ht-degree: 100%
 >* [チャネルサーフェスの作成](../configuration/channel-surfaces.md)
 >* [セグメントの基本を学ぶ](../segment/about-segments.md)
 
-
 新しいキャンペーンを作成するには、**[!UICONTROL Campaigns]** メニューにアクセスし、「**[!UICONTROL キャンペーンの作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。([詳細情報](modify-stop-campaign.md#duplicate))
 
 ## キャンペーンのタイプとチャネルを選択 {#campaigntype}

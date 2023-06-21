@@ -354,7 +354,7 @@ ht-degree: 100%
    + 決定の作成と管理 {#create-manage-activities}
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
       + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
-      + [シミュレーションの作成](using/offers/offer-activities/simulation.md)
+      + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
    + [Batch Decisioning の使用](using/offers/batch-delivery.md)
    + イベントデータの収集 {#collect-event-data}
       + [データ収集の基本を学ぶ](using/offers/data-collection/data-collection.md)
@@ -364,7 +364,7 @@ ht-degree: 100%
       + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
       + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
    + オファーカタログのエクスポート{#export-catalog}
-      + [オファーカタログエクスポートの基本を学ぶ ](using/offers/export-catalog/get-started-export.md)
+      + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
       + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
       + [パーソナライズされたオファーのデータセット](using/offers/export-catalog/export-offers.md)
       + [決定データセット](using/offers/export-catalog/export-decisions.md)

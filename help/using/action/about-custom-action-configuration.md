@@ -82,9 +82,10 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
    * URL に動的パスが含まれる場合は、URL の静的な部分（スキーム、ホスト、ポート、オプションでパスの静的な部分）のみを入力します。
 
-      例：`https://xxx.yyy.com/somethingstatic/`
+     例：`https://xxx.yyy.com/somethingstatic/`
 
-      URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。[詳細情報](../building-journeys/using-custom-actions.md)。
+     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。[詳細情報](../building-journeys/using-custom-actions.md)。
+
    >[!NOTE]
    >
    >セキュリティ上の理由から、URL には HTTPS スキームを使用することを強くお勧めします。また、アドビの非公開アドレスや IP アドレスの使用は許可されていません。

@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,6 @@ ht-degree: 98%
 >
 >* 同様に、キャンペーンやジャーニーでテンプレートを使用する場合、キャンペーンやジャーニーのコンテンツにを編集しても、以前に使用したコンテンツテンプレートには影響しません。
 
-
 ### テンプレートをゼロから作成 {#create-template-from-scratch}
 
 コンテンツテンプレートをゼロから作成するには、次の手順に従います。
@@ -93,7 +92,7 @@ ht-degree: 98%
 
 1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
-1. クリック **[!UICONTROL 作成]** を選択し、様々なオプションからテンプレートのデザイン方法を選択します。
+1. 「**[!UICONTROL 作成]**」をクリックし、様々なオプションからテンプレートのデザイン方法を選択します。
 
    * メールデザイナーのインターフェースを使用して、[ゼロからメールをデザインします](content-from-scratch.md)。
 
@@ -168,7 +167,7 @@ ht-degree: 98%
 
    * 配達確認を送信する前に、コンテンツのテストに使用する[メールサーフェス](../configuration/channel-surfaces.md)を選択する必要があります。
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## チュートリアルビデオ {#video-templates}
 

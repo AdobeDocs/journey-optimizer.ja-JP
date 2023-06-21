@@ -50,7 +50,7 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 
 * 「**[!UICONTROL メディアを追加]**」ボタンを使用して、**[!DNL Adobe Experience Manager Assets Essentials]** 内のアセットを選択します。
 
-   **[!DNL Adobe Experience Manager Assets Essentials]** の使用方法について詳しくは、[このページ](../email/assets-essentials.md)を参照してください。
+  **[!DNL Adobe Experience Manager Assets Essentials]** の使用方法について詳しくは、[このページ](../email/assets-essentials.md)を参照してください。
 
 * または、「**[!UICONTROL メディアを追加]**」フィールドにメディアの URL を入力します。この場合、パーソナライズ機能を URL に追加できます。
 

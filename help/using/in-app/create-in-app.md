@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)。
 
-1. クリック **[!UICONTROL 実験を作成]** ：コンテンツ実験の設定を開始し、そのパフォーマンスを測定し、ターゲットオーディエンスに最適なオプションを特定するための処理を作成します。 [詳細情報](../campaigns/content-experiment.md)
+1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../campaigns/content-experiment.md)
 
 1. 「**[!UICONTROL トリガーを編集]**」をクリックして、メッセージをトリガーするイベントと条件を選択します。
 
@@ -125,7 +125,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-次のビデオでは、A/B テストのアプリ内メッセージに対するコンテンツ実験を設定および分析する方法を示します。
+以下のビデオでは、アプリ内メッセージの A/B テストを行うためのコンテンツ実験を設定および分析する方法を示しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 

@@ -50,7 +50,6 @@ ht-degree: 100%
 >1. [ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration)：抽出ファイルをアップロードして保存するサーバーを指定します。
 >1. [ダイレクトメールメッセージサーフェス](../direct-mail/direct-mail-configuration.md#direct-mail-surface)：ファイルのルーティング設定を参照します。
 
-
 ## ダイレクトメールメッセージの作成 {#create}
 
 ダイレクトメールメッセージを作成して送信する手順は次のとおりです。

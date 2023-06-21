@@ -31,6 +31,7 @@ ht-degree: 100%
 >この節は、ルールベースのイベントと、Adobe Analytics データを使用する必要があるお客様が対象です。
 > 
 >Adobe Customer Journey Analytics を使用している場合は、[このページ](../reports/cja-ajo.md)を参照してください。
+>
 
 ## Adobe Analytics または Web SDK データの設定 {#leverage-analytics-data}
 
@@ -105,7 +106,7 @@ Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experienc
    * **[!UICONTROL フィールド]**：「ペイロード」フィールドを選択します。[詳細情報](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL イベント ID 条件]**：ジャーニーをトリガーするイベントを識別する条件を定義します。
 
-      ここでは、顧客が買い物かごにアイテムを追加すると、イベントがトリガーされます。
+     ここでは、顧客が買い物かごにアイテムを追加すると、イベントがトリガーされます。
    * **[!UICONTROL プロファイル識別子]**：ペイロードフィールドからフィールドを選択するか、イベントに関連付けられたユーザーを識別する式を定義します。
 
    ![](assets/ajo-aa_6.png)

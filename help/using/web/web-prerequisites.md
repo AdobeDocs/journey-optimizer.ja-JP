@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Visual Editing Helper のブラウザー拡張機能が正しくインストー�
 
 Web エクスペリエンスが正しく配信されるようにするには、次の設定を定義する必要があります。
 
-* 内 [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}を使用する場合、データストリームが（など） **[!UICONTROL Adobe Experience Platform]** お持ちのサービス **[!UICONTROL Adobe Journey Optimizer]** オプションが有効です。
+* [Adobe Experience Platform データ収集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}で、**[!UICONTROL Adobe Experience Platform]** サービスの下で「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にするなど、データストリームが定義されていることを確認します。
 
   これにより、Journey Optimizer インバウンドイベントが Adobe Experience Platform Edge で正しく処理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja){target="_blank"}
 

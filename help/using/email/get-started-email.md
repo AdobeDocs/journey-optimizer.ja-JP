@@ -28,11 +28,11 @@ ht-degree: 100%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、「**[!UICONTROL アクション：メール]**」の右側のパネルを使用して、 メッセージのコンテンツを作成します。
 
-   ジャーニーの設定方法について詳しくは、この[ページ](../building-journeys/journey-gs.md)を参照してください。
+  ジャーニーの設定方法について詳しくは、この[ページ](../building-journeys/journey-gs.md)を参照してください。
 
 * **Campaign**&#x200B;の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。
 
-   キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
+  キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

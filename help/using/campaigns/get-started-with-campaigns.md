@@ -61,6 +61,7 @@ Journey Optimizer で最初のキャンペーンの作成を開始する前に�
       ![](assets/do-not-localize/admin_2.png)
 
    1. ユーザーの名前、グループまたはメールアドレスを入力し、「**[!UICONTROL 保存]**」をクリックします。
+
    これで、ユーザーが&#x200B;**[!UICONTROL キャンペーン]**&#x200B;にアクセスできるようになりました。
 
 +++

@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * ランディングページを最初から、または保存済みのテンプレートから設計します。**[!UICONTROL HTML]** コンテンツコンポーネントをキャンバスにドラッグ＆ドロップし、JavaSCript をコンポーネントに追加するためのソースコードを表示します。HTML コンポーネントの使用方法については、[この節](../email/content-components.md#HTML)を参照してください。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 

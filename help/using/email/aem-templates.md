@@ -14,7 +14,7 @@ exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
 * **Experience Manager 設定**
 
-   この機能は、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ja) で使用できます{target="_blank"}。
+  この機能は、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ja) で使用できます{target="_blank"}。
 
-   ベータ版プログラムの一環として、クラウドサービス設定は、Adobe Experience Manager でアドビが Adobe Journey Optimizer に接続するために実行します。
+  ベータ版プログラムの一環として、クラウドサービス設定は、Adobe Experience Manager でアドビが Adobe Journey Optimizer に接続するために実行します。
 
 * **権限**
 
-   コンテンツテンプレートを Adobe Journey Optimizerで 作成、編集および削除するには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Library Items]** 権限を付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+  コンテンツテンプレートを Adobe Journey Optimizerで 作成、編集および削除するには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Library Items]** 権限を付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## ガードレールと制限{#aem-templates-limitations}
 
@@ -59,7 +59,7 @@ Adobe Experience Manager テンプレートを Adobe Journey Optimizer に書き
 
    ![](assets/aem-outbound-menu.png)
 
-1. コンテンツライブラリから、事前に設定したテンプレートを使用することも、最初から作成することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
+1. コンテンツライブラリから、事前に設定したテンプレートを使用することも、最初から作成することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ja#creating-a-new-page)
 
 1. Journey Optimizer のパーソナライゼーション構文をテンプレートに組み込むことで、カスタマイズ機能を強化できます。[詳細情報](../personalization/personalization-syntax.md)
 

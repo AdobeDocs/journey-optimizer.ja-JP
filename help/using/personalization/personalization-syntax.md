@@ -81,6 +81,7 @@ Handlebars では、{{expression}} から返される値は **HTML エスケー�
 
 >[!NOTE]
 >セグメント化とセグメント化サービスの詳細については、[この節](../segment/about-segments.md)を参照してください。
+>
 
 ## オファー {#offers-syntax}
 
@@ -106,19 +107,19 @@ Handlebars では、{{expression}} から返される値は **HTML エスケー�
 
 * 画像がホストされる場所：
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * 画像をクリックしたときのターゲット URL：
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * 決定エンジンから得られるオファーのテキストコンテンツ：
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * 決定エンジンから得られるオファーの HTML コンテンツ：
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## ヘルパー{#helpers-all}
@@ -133,6 +134,7 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 >[!NOTE]
 >
 >ヘルパー関数について詳しくは、[この節](functions/helpers.md)を参照してください。
+>
 
 ## リテラル型 {#literal-types}
 
@@ -163,6 +165,7 @@ Journey Optimizer では、パーソナライゼーションフィールドを�
 >[!NOTE]
 >
 >式エディターでは、パーソナライズされた URL を編集する際、セキュリティ上の理由から、ヘルパー関数とセグメントメンバーシップが無効になります。
+>
 
 **パーソナライズされた URL のサンプル**
 

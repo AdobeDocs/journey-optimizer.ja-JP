@@ -91,15 +91,15 @@ ht-degree: 100%
 
 * 次の関数は、プロファイルの名に A （大文字または小文字）が含まれているかどうかを確認します。この場合は「true」が返され、そうでない場合は「false」が返されます。
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * 次のクエリでは、大文字と小文字を区別したうえで、人物のメールアドレスが「2010@gm」という文字列を含んでいるかどうかを判定します。
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## 次を含まない{#doesNotContain}
 
@@ -661,6 +661,7 @@ doesNotEndWith(person.emailAddress,".com")
 > 2 番目の引数として使用される式が特殊な正規表現文字である場合は、2 つのバックスラッシュ（`//`）を使用します。特殊な正規表現文字は次のとおりです：[.、+、*、?、^、$、(、)、[、]、{、}、|、\]
 > 
 > 詳しくは、[Oracleのドキュメント](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}を参照してください。
+>
 
 ## 右トリミング {#rightTrim}
 

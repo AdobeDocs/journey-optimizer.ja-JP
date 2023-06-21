@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * ジャーニーのコンテキストでジャーニーをターゲットにする場合は、**[!UICONTROL ジャーニー]**&#x200B;メニューからジャーニーにアクセスし、「**[!UICONTROL レポートを表示]**」ボタンをクリックします。
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]**&#x200B;メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタンをクリックします。
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * 配信を&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;から&#x200B;**[!UICONTROL ライブレポート]**&#x200B;に切り替える場合は、タブ切り替えボタンで「**[!UICONTROL 過去 24 時間]**」をクリックします。
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](#list-of-components-live)を参照してください。
 

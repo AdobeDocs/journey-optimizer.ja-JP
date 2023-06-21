@@ -140,7 +140,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 言語を変更するには：
 
 * 右上のアバターから「**環境設定**」をクリックします。
-   ![](assets/preferences.png)
+  ![](assets/preferences.png)
 * 次に、メールアドレスの下に表示される言語をクリックします
 * 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
-   ![](assets/select-language.png)
+  ![](assets/select-language.png)

@@ -58,11 +58,11 @@ ht-degree: 100%
 
    * 簡単な式エディターを使用して、データソースまたは受信イベントからフィールドを選択できます。
 
-      ![](assets/profileupdate4.png)
+     ![](assets/profileupdate4.png)
 
    * 特定の値を定義する場合や高度な機能を利用する場合は、「**詳細設定モード**」をクリックします。
 
-      ![](assets/profileupdate3.png)
+     ![](assets/profileupdate3.png)
 
 これで、「**プロファイルを更新**」を設定できました。
 

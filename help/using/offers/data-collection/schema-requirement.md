@@ -10,7 +10,7 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -102,9 +102,9 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 >[!NOTE]
 >
->でカスタムイベントを考慮するには、以下を実行します。 [頻度キャップ](../offer-library/add-constraints.md#capping)に設定されている場合、エクスペリエンスイベントを次の 2 つの Edge データ収集エンドポイントのいずれかに送信して、Adobe Experience Platformエンドポイントに接続する必要があります。
+>[フリークエンシーキャップ](../offer-library/add-constraints.md#capping)でカスタムイベントを考慮するには、次の 2 つの Edge データ収集エンドポイントのいずれかにエクスペリエンスイベントを送信して、エクスペリエンスイベントを Adobe Experience Platform エンドポイントに接続する必要があります。
 >
->* POST/ee/v2/interact
->* POST/ee/v2/collect
+>* POST /ee/v2/interact
+>* POST /ee/v2/collect
 >
->を使用している場合、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"}に設定されていない場合、接続は自動的に確立されます。
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"} を使用している場合、接続は自動的に行われます。

@@ -5,7 +5,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
 ジョブリクエストを設定する前に、以下が作成されていることを確認します。
 
-* Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)を参照してください。
+* Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja)を参照してください。
 
-* Adobe Experience Platform の&#x200B;**セグメント**。セグメントは評価してから更新する必要があります。セグメントメンバーシップの評価を更新する方法については、[Segmentation Service ドキュメント](https://www.adobe.com/go/segmentation-overview-en)を参照してください
+* Adobe Experience Platform の&#x200B;**セグメント**。セグメントは評価してから更新する必要があります。セグメントメンバーシップの評価を更新する方法については、[Segmentation Service ドキュメント](https://www.adobe.com/go/segmentation-overview-en_jp)を参照してください
 
-   >[!NOTE]
-   >
-   >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。セグメントの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
+  >[!NOTE]
+  >
+  >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。セグメントの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
 
 * Adobe Journey Optimizer の&#x200B;**決定**。[決定の作成方法を学ぶ](offer-activities/create-offer-activities.md)
 

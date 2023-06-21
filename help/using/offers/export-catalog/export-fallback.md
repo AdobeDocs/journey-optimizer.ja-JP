@@ -9,7 +9,7 @@ exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,84 +78,84 @@ ht-degree: 97%
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
-   **フィールド：**_type
-   **タイトル：**コンテンツコンポーネントタイプ
-   **説明：**各値がコンテンツコンポーネントに指定された型にマッピングされる URI の列挙セット。コンテンツ表示域を使用する一部のコンテンツは、@type 値がコンテンツコンポーネントの追加のプロパティを記述するスキーマへの参照であることを要求します。
-   **タイプ：**&#x200B;文字列
+  **フィールド：**_type
+  **タイトル：**コンテンツコンポーネントタイプ
+  **説明：**各値がコンテンツコンポーネントに指定された型にマッピングされる URI の列挙セット。コンテンツ表示域を使用する一部のコンテンツは、@type 値がコンテンツコンポーネントの追加のプロパティを記述するスキーマへの参照であることを要求します。
+  **タイプ：**&#x200B;文字列
 
 * **_experience > decisioning > contents > components > _dc**
 
-   **フィールド：**_dc
-   **タイプ：**オブジェクト
-   **必須：**&quot;format&quot;
+  **フィールド：**_dc
+  **タイプ：**オブジェクト
+  **必須：**&quot;format&quot;
 
    * **形式**
 
-      **フィールド：** format
-      **タイトル：**形式
-      **説明：**&#x200B;リソースの物理的またはデジタル表現。通常、形式にはリソースのメディアタイプを含める必要があります。形式は、リソースの表示や操作に必要なソフトウェア、ハードウェア、その他の機器を特定するために使用できます。ベストプラクティスは、制御された語彙から値を選択することです ( 例えば、 [インターネットメディアタイプ](https://www.iana.org/ assignments/media-types/) コンピュータのメディア形式を定義する。
-      **タイプ：**文字列
-      **例：**&quot;application/vnd.adobe.photoshop&quot;
+     **フィールド：** format
+     **タイトル：**形式
+     **説明：**&#x200B;リソースの物理的またはデジタル表現。通常、形式にはリソースのメディアタイプを含める必要があります。形式は、リソースの表示や操作に必要なソフトウェア、ハードウェア、その他の機器を特定するために使用できます。推奨されるベストプラクティスは、制御された語彙（コンピューターのメディア形式を定義する[インターネットメディアタイプ]（http://www.iana.org/ assignments/media-types/）など）のリストから値を選択することです。
+     **タイプ：**文字列
+     **例：**&quot;application/vnd.adobe.photoshop&quot;
 
    * **言語**
 
-      **フィールド：** language
-      **タイトル：**言語
-      **説明：**&#x200B;言語またはリソースの言語。\n言語は、XDM の他の場所で使用される[IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)（BCP 47の一部）で定義されている言語コードで指定されます。
-      **タイプ：**配列
-      **例：**&quot;\n&quot;、&quot;pt-BR&quot;、&quot;es-ES&quot;
+     **フィールド：** language
+     **タイトル：**言語
+     **説明：**&#x200B;言語またはリソースの言語。\n言語は、XDM の他の場所で使用される[IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)（BCP 47の一部）で定義されている言語コードで指定されます。
+     **タイプ：**配列
+     **例：**&quot;\n&quot;、&quot;pt-BR&quot;、&quot;es-ES&quot;
 
 * **_experience > decisioning > contents > components > _repo**
 
-   **フィールド：** _repo
-   **タイプ：**&#x200B;オブジェクト
+  **フィールド：** _repo
+  **タイプ：**&#x200B;オブジェクト
 
    * **id**
 
-      **フィールド：** id
-      **説明：**コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
-      **タイプ：**文字列
-      **例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **フィールド：** id
+     **説明：**コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
+     **タイプ：**文字列
+     **例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **名前**
 
-      **フィールド：** name
-      **説明：**\&quot;repo:id\&quot; によって外部アセットを保存するリポジトリの場所に関するヒント。
-      **タイプ：**&#x200B;文字列
+     **フィールド：** name
+     **説明：**\&quot;repo:id\&quot; によって外部アセットを保存するリポジトリの場所に関するヒント。
+     **タイプ：**&#x200B;文字列
 
    * **repositoryID**
 
-      **フィールド：** repositoryID
-      **説明：** コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
-      **タイプ：**文字列
-      **例：**&quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **フィールド：** repositoryID
+     **説明：** コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
+     **タイプ：**文字列
+     **例：**&quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **フィールド：** resolveURL
-      **説明：** コンテンツリポジトリー内のアセットを読み取るための一意のリソースロケーター（オプション）。これにより、アセットの管理場所と呼び出す API をクライアントが把握していなくても、アセットを取得しやすくなります。これは HAL リンクに似ていますが、セマンティクスはより単純で目的があります。
-      **タイプ：**文字列
-      **例：**&quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **フィールド：** resolveURL
+     **説明：** コンテンツリポジトリー内のアセットを読み取るための一意のリソースロケーター（オプション）。これにより、アセットの管理場所と呼び出す API をクライアントが把握していなくても、アセットを取得しやすくなります。これは HAL リンクに似ていますが、セマンティクスはより単純で目的があります。
+     **タイプ：**文字列
+     **例：**&quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contents > components > content**
 
-   **フィールド：** content
-   **説明：**コンテンツを直接格納するフィールド（オプション）。アセットリポジトリ内のコンテンツを参照する代わりに、コンポーネントは単純なコンテンツを直接保持できます。このフィールドは、複合、複雑およびバイナリのコンテンツアセットには使用されません。
-   **タイプ：**&#x200B;文字列
+  **フィールド：** content
+  **説明：**コンテンツを直接格納するフィールド（オプション）。アセットリポジトリ内のコンテンツを参照する代わりに、コンポーネントは単純なコンテンツを直接保持できます。このフィールドは、複合、複雑およびバイナリのコンテンツアセットには使用されません。
+  **タイプ：**&#x200B;文字列
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
-   **フィールド：** deliveryURL
-   **説明：**コンテンツ配信ネットワークまたはサービスエンドポイントからアセットを取得する一意のリソースロケーター（オプション）。この URL は、ユーザーエージェントからアセットに公開でアクセスするために使用されます。
-   **タイプ：**文字列
-   **例：**&quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **フィールド：** deliveryURL
+  **説明：**コンテンツ配信ネットワークまたはサービスエンドポイントからアセットを取得する一意のリソースロケーター（オプション）。この URL は、ユーザーエージェントからアセットに公開でアクセスするために使用されます。
+  **タイプ：**文字列
+  **例：**&quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
-   **フィールド：** linkURL
-   **説明：**ユーザーインタラクション用の一意のリソースロケーター（オプション）。この URL は、エンドユーザーをユーザーエージェントで参照するために使用され、追跡できます。
-   **タイプ：**文字列
-   **例：**&quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **フィールド：** linkURL
+  **説明：**ユーザーインタラクション用の一意のリソースロケーター（オプション）。この URL は、エンドユーザーをユーザーエージェントで参照するために使用され、追跡できます。
+  **タイプ：**文字列
+  **例：**&quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 

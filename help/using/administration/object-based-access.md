@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,4 +94,4 @@ Adobe Journey Optimizer では、OLAC を使用して、データを保護し、
 このオブジェクトにアクセスするには、ユーザーは特定の&#x200B;**[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL 役割]**に含める必要があります。
 例えば、C1 ラベルを持つユーザーは、C1 ラベル付きオブジェクトまたはラベル付けされていないオブジェクトにのみアクセスできます。
 
-**[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL 役割]**&#x200B;に割り当てる方法の詳細については、[このページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role)を参照してください。
+**[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL 役割]**&#x200B;に割り当てる方法の詳細については、[このページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=ja#manage-labels-for-a-role)を参照してください。

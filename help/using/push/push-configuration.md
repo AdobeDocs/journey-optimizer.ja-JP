@@ -9,7 +9,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 >[!AVAILABILITY]
 >
 >新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;が利用できるようになりました。この新しい製品機能を使用すると、Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、モバイルプッシュ通知を送信できます。この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。[詳細情報](mobile-onboarding-wf.md)
+>
 
 
 ## 開始する前に {#before-starting}
@@ -142,7 +143,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
    * **iOS の場合**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. 「**[!UICONTROL アプリ ID（iOS バンドル ID）]**」フィールドにモバイルアプリの&#x200B;**バンドル ID** を入力します。アプリのバンドル ID は、**XCode** のメインターゲットの「**一般**」タブにあります。
 
@@ -153,16 +154,16 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
       1. **キー ID** を指定します。これは、p8 認証キーの作成中に割り当てられた 10 文字の文字列です。これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
 
       1. **チーム ID** を指定します。これは、「メンバーシップ」タブにある文字列値です。
+
    * **Android の場合**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. **[!UICONTROL アプリ ID（Android パッケージ名）]**&#x200B;を指定します。通常、パッケージ名は`build.gradle`ファイル内のアプリ ID です。
 
       1. 「**[!UICONTROL プッシュ認証情報]**」ボタンをオンにして、認証情報を追加します。
 
       1. FCM プッシュ認証情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください
-
 
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。

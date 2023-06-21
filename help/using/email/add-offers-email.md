@@ -96,7 +96,6 @@ ht-degree: 100%
 
       ![](assets/deliver-offer-test-profiles.png)
 
-
 1. 「**[!UICONTROL プレビュー]**」タブをクリックしてメッセージをテストし、テストプロファイルを選択します。選択したプロファイル（女性）に対応するオファーが表示されます。
 
    ![](assets/deliver-offer-test-profile-female-preview.png)

@@ -31,7 +31,6 @@ ht-degree: 100%
 >
 > * チャネルサーフェスを作成する前に、[メール設定](../email/get-started-email-config.md)、[プッシュ設定](../push/push-configuration.md)および [SMS 設定](../sms/sms-configuration.md)の手順を実行する必要があります。
 
-
 チャネルサーフェスを設定すると、ジャーニーまたはキャンペーンからメッセージを作成する際にチャネルサーフェスを選択できるようになります。
 
 <!--

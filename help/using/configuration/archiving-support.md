@@ -77,7 +77,7 @@ BCC メールアドレスの設定は、サーフェスレベルで直ちに保�
 
 * メッセージは、ターゲット受信者よりも前に、BCC メールアドレスに配信される場合があります。BCC メッセージは、元のメッセージが[バウンス](../reports/suppression-list.md#delivery-failures)された場合でも送信できます。
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * BCC アドレスに送信されたメールを開いたり、クリックしたりしないでください。送信分析の合計開封数とクリック数に考慮され、[レポート](../reports/global-report.md)で計算ミスが起きる可能性があります。
 

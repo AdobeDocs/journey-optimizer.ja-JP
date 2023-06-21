@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, 関数, 式, ジャーニー
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
 # indexOf {#indexOf}
 
-最初の引数文字列が特定の文字列（2 番目の引数文字列）で終わっているかどうかを確認します。 文字列が見つからない場合は、-1 を返します。
+2 番目のパラメーターの最初の値の（最初の引数内の）位置を返します。 一致するものがない場合は -1 を返します。
 
 ## カテゴリ
 
