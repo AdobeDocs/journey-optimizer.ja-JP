@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
  初めてのジャーニーの開始および作成方法については、[このページ](journey-gs.md)を参照してください。
 
-オムニチャネルジャーニーデザイナーは、直感的なドラッグ&amp;ドロップインターフェイスを用いて、ターゲットオーディエンス、リアルタイムの顧客やビジネスインタラクションに基づく最新情報、およびオムニチャネルメッセージを使用した、複数手順のジャーニーを作成できるようユーザーを支援します。
+オムニチャネルジャーニーデザイナーは、複数手順のジャーニーを構築し、特にオーディエンスをターゲットに設定し、リアルタイム顧客やビジネスのインタラクションに基づいて更新を組み込む際に役立ちます。 また、直感的なドラッグ&amp;ドロップインターフェイスを使用して、オムニチャネルメッセージを作成できます。
 
 ![](assets/journey38.png)
 
