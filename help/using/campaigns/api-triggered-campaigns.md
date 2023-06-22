@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 77%
@@ -25,6 +25,10 @@ ht-degree: 77%
 
 API トリガー型キャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。
 
+>[!NOTE]
+>
+>現時点では、プッシュ通知 API トリガーキャンペーンでは、迅速な配信はサポートされていません。
+
 ## API トリガー型キャンペーンの作成 {#create}
 
 ### キャンペーンの設定とアクティブ化 {#create-activate}
@@ -38,10 +42,6 @@ API トリガーキャンペーンを作成するには、次の手順に従い�
 1. メッセージの送信に使用する、サポートされるチャネルと関連するチャネルサーフェスの 1 つを選択し、「 **[!UICONTROL 作成]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >現時点では、プッシュ通知 API トリガーキャンペーンでは、迅速な配信はサポートされていません。
 
 1. キャンペーンのタイトルと説明を指定し、「**[!UICONTROL コンテンツを編集]**」をクリックして送信するメッセージを設定します。
 
