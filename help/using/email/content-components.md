@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: コンポーネント, 電子メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
    >
    >単一の構造コンポーネントおよび構造コンポーネントの各列に複数のコンポーネントを追加できます。
 
-1. 右側の「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブを使用して、各コンポーネントのスタイル属性を調整します。例えば、コンポーネントのテキストスタイル、パディングまたは余白を変更できます。[詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
+1. を使用して、各コンポーネントの属性とスタイルを調整します。 **[!UICONTROL 設定]** および **[!UICONTROL スタイル]** タブを右にクリックします。 例えば、コンポーネントのテキストスタイル、パディングまたは余白を変更できます。[詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -224,4 +224,4 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。これにより、変更がジャーニーのメッセージに組み込まれ、メッセージが最新の更新と一致するようになります。
+>ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。  これにより、変更がジャーニーのメッセージに組み込まれ、メッセージが最新の更新と一致するようになります。

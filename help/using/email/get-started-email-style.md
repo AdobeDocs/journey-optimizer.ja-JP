@@ -9,20 +9,20 @@ role: User
 level: Intermediate
 keywords: メール, スタイル, css, 本文, 構造
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
 # メールスタイルの基本を学ぶ {#get-started-email-style}
 
-[!DNL Journey Optimizer] でメールコンテンツの作成を開始すると、電子メールデザイナーの設定ペインで多数のスタイルパラメーターおよび属性を調整できます。
+電子メールコンテンツを [!DNL Journey Optimizer]を使用すると、E メールデザイナーから多数のスタイル設定パラメーターと属性を調整できます **[!UICONTROL スタイル]** ウィンドウ
 
 変更内容は、メールの本文、構造コンポーネント、コンテンツコンポーネントのいずれかに適用できます。
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_styles.png)
 
 メールで一部のスタイル設定を調整する方法については、次のリンクを参照してください。
 
