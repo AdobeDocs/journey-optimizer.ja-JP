@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
+source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 67%
@@ -42,7 +42,7 @@ ht-degree: 67%
 
 オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
-完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、でのターゲット顧客に利用できます。 [Journey Optimizerキャンペーン](../campaigns/get-started-with-campaigns.md)またはAdobe [Real-time Customer Data Platformの宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja).
+完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、でのターゲット顧客に利用できます。 [Journey Optimizerキャンペーン](../campaigns/get-started-with-campaigns.md)またはAdobe [Real-time Customer Data Platformの宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
