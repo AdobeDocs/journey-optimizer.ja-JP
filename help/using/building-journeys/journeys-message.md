@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '886'
 ht-degree: 100%
 
 ---
@@ -115,10 +115,6 @@ Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サー�
 * スコアリング - トレーニング済みモデルに基づく個々のプロファイルへのスコアの適用
 
 この情報はユーザーのプロファイルと共に保存され、ジャーニーの実行時に参照されて、メッセージを送信するタイミングを Adobe Journey Optimizer に指示します。
-
->[!CAUTION]
->
->この機能はバーストモードとは互換性がありません。
 
 ### 送信時間最適化の有効化{#activate-send-time-optimization}
 

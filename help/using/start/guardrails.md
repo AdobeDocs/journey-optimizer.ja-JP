@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 96%
+source-wordcount: '1047'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。
 * 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに対応できます。詳しくは、[このページ](../building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応させたい場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
-* 通常、プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは再エントリできません。 [詳細情報](../building-journeys/end-journey.md)
+* プロファイルを同じジャーニー内に複数回同時に存在させることはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。[詳細情報](../building-journeys/end-journey.md)
 
 ### ジャーニーのバージョン {#journey-versions-g}
 

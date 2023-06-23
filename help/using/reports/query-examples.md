@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 100%
+source-wordcount: '1471'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 * ID：すべてのステップイベントエントリに対して一意です。2 つの異なるステップイベントに同じ ID を割り当てることはできません。
 * instanceID：instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同一です。プロファイルがジャーニーに再度入ると、別の instanceID が使用されます。この新しい instanceID は、再入力されたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
 * profileID：ジャーニー名前空間に対応したプロファイルの ID です。
+
+>[!NOTE]
+>
+>トラブルシューティングの目的で、ジャーニーのクエリ時には、journeyVersionName の代わりに journeyVersionID を使用することをお勧めします。
 
 ## 基本的なユースケース／一般的なクエリ {#common-queries}
 

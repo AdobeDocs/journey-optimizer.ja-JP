@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 95%
 
 ---
 
@@ -109,11 +109,19 @@ ht-degree: 100%
 
 型：文字列
 
+>[!NOTE]
+>
+>トラブルシューティングの目的で、ジャーニーのクエリ時には、journeyVersionName の代わりに journeyVersionID を使用することをお勧めします。
+
 ## journeyVersionName {#journeyversionname-field}
 
 ジャーニーバージョンの名前。
 
 型：文字列
+
+>[!NOTE]
+>
+>トラブルシューティングの目的で、ジャーニーのクエリ時には、journeyVersionName の代わりに journeyVersionID を使用することをお勧めします。
 
 ## journeyVersion {#journeyversion-field}
 

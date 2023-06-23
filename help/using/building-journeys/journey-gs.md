@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, セグメント, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 92%
+source-wordcount: '1548'
+ht-degree: 91%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 92%
 
 ![](assets/journeys-browse.png)
 
-ジャーニーのリストの「**[!UICONTROL ステータスとバージョンフィルター]**」で、ステータス、タイプおよびバージョンに従ってジャーニーをフィルタリングできます。タイプは、**[!UICONTROL 単一イベント]**、**[!UICONTROL セグメントの選定]**、**[!UICONTROL セグメントを読み取り]**、**[!UICONTROL ビジネスイベント]**、**[!UICONTROL バースト]**&#x200B;のいずれかになります。
+ジャーニーのリストの「**[!UICONTROL ステータスとバージョンフィルター]**」で、ステータス、タイプおよびバージョンに従ってジャーニーをフィルタリングできます。タイプは次のいずれかになります。 **[!UICONTROL 単一イベント]**, **[!UICONTROL セグメントの選定]**, **[!UICONTROL セグメントを読み取り]** または **[!UICONTROL ビジネスイベント]**.
 
 **[!UICONTROL アクティビティフィルター]**&#x200B;と&#x200B;**[!UICONTROL データフィルター]**&#x200B;で、特定のイベント、フィールドグループ、アクションなどを使用するジャーニーのみを表示するように選択できます。さらに、**[!UICONTROL 公開フィルター]**&#x200B;を使用すると、公開日またはユーザーを選択できます。例えば、昨日公開されたライブなジャーニーの最新バージョンのみを表示するように選択できます。[詳細情報](../building-journeys/using-the-journey-designer.md)。
 
