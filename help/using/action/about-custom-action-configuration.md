@@ -10,7 +10,7 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
 ht-degree: 100%
 
