@@ -4,16 +4,22 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 100%
+source-wordcount: '2949'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023年6月 {#june-2023}
+
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 6 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* 評価基準の順序のその他の例が **決定の作成** 節では、複数の条件と複数の決定範囲が使用される場合について説明します。 [詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* Decision Management のドキュメントが明確になり、動的コレクションではオブジェクトレベルのアクセス制御を使用できないことを示す注意書きが追加されました。 [詳細情報](../offers/offer-library/creating-collections.md)
 
 ## 2023年5月 {#may-2023}
 
