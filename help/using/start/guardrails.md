@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 97%
+source-wordcount: '1119'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ### 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
 * ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。アクティビティの数は、ジャーニーキャンバスの左上に表示されます。これは、読みやすさ、QA、トラブルシューティングに役立ちます。
+* ジャーニーを公開する際に、最大スループットと安定性を確保するために、自動的にスケールと調整がおこなわれます。 一度に 100 件のライブジャーニーのマイルストーンに近い場合、この達成に関する通知が UI に表示されます。 この通知を確認し、一度に 100 件を超えるライブジャーニーを拡張する必要がある場合は、カスタマーケアのチケットを作成して、目標に到達するのに役立ちます。
 
 ### 一般的なアクション {#general-actions-g}
 

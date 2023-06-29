@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 96%
+source-wordcount: '2595'
+ht-degree: 93%
 
 ---
 
@@ -301,11 +301,13 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * ジャーニーキャンバスのメッセージアクティビティと終了タグにアクティビティ ID が表示されるようになりました。これにより、レポーティングとリターゲティングが向上します。
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
-* 拡張を支援する安全対策を備えたキャンバス上のノード数に関する新しいインサイト：ジャーニーを読みやすく、QA を容易に実施し、ジャーニーあたり最大数のノードを 50 個使用してトラブルシューティングをおこなうことができます。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * ジャーニーに[メール](../email/create-email.md)、[SMS](../sms/create-sms.md)、[プッシュ](../push/create-push.md)のアクションを追加すると、デフォルトでは、現在のジャーニーのそのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
 * カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
+* ジャーニーが提供するエクスペリエンスの増加を管理する新しいガードレール：
+   * ジャーニーのパフォーマンス、読みやすさ、QA、トラブルシューティングを維持するために、ノード数を 50 以下に制限することをお勧めします。 アクティビティの数がジャーニーキャンバスの左上に表示されます。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+   * ジャーニーを開発し、開始する際に、一度に 100 件のライブジャーニーのマイルストーンに近づくと、お客様に通知されます。 プランで一度に 100 を超えるジャーニーが必要な場合は、通知を見た後にサポート用のチケットを作成してください。アドビがお手伝いします。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
-**レポート**
+**レポーティング**
 
 * Journey Optimizer レポートを PDF として書き出せるようになりました。[詳細情報](../reports/global-report.md#export-reports)
 
@@ -377,7 +379,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。必要に応じて、カスタムラベルを手動で追加できます。
 * ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。[詳細情報](../configuration/external-systems.md#timeout)
 * セグメントを読み取りアクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
+* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールを通じて送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
