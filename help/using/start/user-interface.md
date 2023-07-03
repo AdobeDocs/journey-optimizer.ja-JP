@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: d9d73848acb40d8cba703309c38f0af2b89806a6
+workflow-type: tm+mt
+source-wordcount: '1284'
+ht-degree: 65%
 
 ---
 
 # ユーザーインターフェイス {#cjm-user-interface}
 
-[Adobe Experience Cloud](https://experience.adobe.com) に接続して、[!DNL Journey Optimizer] を参照します。
+にアクセスするには  [!DNL Adobe Journey Optimizer]，接続先 [Adobe Experience Cloud](https://experience.adobe.com) を選択し、「Adobe ID」をクリックします。 [!DNL Journey Optimizer].
 
 ユーザーインターフェイスを閲覧する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide){target="_blank"}を参照してください。
 
@@ -39,27 +39,48 @@ ht-degree: 100%
 
 左側のナビゲーションで利用できるサービスと機能の一覧と、関連するヘルプページへのリンクを以下に示します。
 
-**ホーム**
+### ホーム {#left-nav-home}
 
-[!DNL Journey Optimizer] ホームページには、開始するための主要なリンクとリソースが含まれています。**[!UICONTROL 最近使用したもの]**&#x200B;リストには、最近作成したイベントおよびジャーニーへのショートカットが表示されます。このリストには、作成日と変更日およびステータスが表示されます。
+[!DNL Journey Optimizer] ホームページには、開始するための主要なリンクとリソースが含まれています。
 
-**[!UICONTROL ジャーニー管理]**
+**[!UICONTROL 最近使用したもの]**&#x200B;リストには、最近作成したイベントおよびジャーニーへのショートカットが表示されます。このリストには、作成日と変更日およびステータスが表示されます。
 
-* **[!UICONTROL ジャーニー]** - カスタマージャーニーを作成、設定および調整します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
+製品内のユースケースを参照して、リソースとメッセージの作成を開始します。 [詳細情報](#in-product-use-cases)
 
-* **[!UICONTROL ランディングページ]** - ランディングページを作成、デザイン、テストおよび公開します。[詳細情報](../landing-pages/get-started-lp.md)
+ホームページの下部にあるリンクを使用して、 [!DNL Journey Optimizer]. [詳細情報](#find-help-and-support)
 
-**[!UICONTROL 意思決定管理]**
+### [!UICONTROL ジャーニー管理] {#left-nav-journey}
+
+この節では、キャンペーンとジャーニーを作成します。
+
+* **[!UICONTROL キャンペーン]**  — 様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信するようにキャンペーンを作成、設定および調整します。 [詳細情報](../campaigns/get-started-with-campaigns.md)
+
+* **[!UICONTROL ジャーニー]**  — カスタマージャーニーを作成、設定、調整します。イベント、オーケストレーション、アクションアクティビティを組み合わせて、複数手順のクロスチャネルシナリオを構築します。 [詳細情報](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL ランディングページ]**  — ランディングページの作成、デザイン、テスト、公開：ユーザーにオンラインフォームへのリンクを送信して、通信のオプトインやオプトアウトを行ったり、特定のサービスに登録したりできます。 [詳細情報](../landing-pages/get-started-lp.md)
+
+
+### [!UICONTROL 意思決定管理] {#left-nav-offers}
+
+このセクションからオファーとコンポーネントを作成します。
 
 * **[!UICONTROL オファー]**：このメニューから最新のソースおよびデータセットにアクセスします。このセクションを使用して、オファーを作成します。[詳細情報](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL コンポーネント]**：プレースメント、ルールおよびタグを作成します。[詳細情報](../offers/offer-library/key-steps.md)
 
-**[!UICONTROL コンテンツ管理]**
+### [!UICONTROL コンテンツ管理] {#left-nav-content}
+
+このセクションからコンテンツを作成および管理します。
 
 * **[!UICONTROL アセット]**：[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的リポジトリーです。[詳細情報](../email/assets-essentials.md)
 
-**[!UICONTROL データ管理]**
+* **[!UICONTROL コンテンツテンプレート]**  — 高速で改善されたデザインプロセスを実現するために、スタンドアロンテンプレートを作成して、Journey Optimizerのキャンペーンやジャーニーでカスタムコンテンツを簡単に再利用できます。 [詳細情報](../email/content-templates.md)
+
+* **[!UICONTROL フラグメント]**  — フラグメントを作成および管理して、E メールデザインプロセスをスムーズにします。カスタムコンテンツブロックを事前に作成し、電子メールコンテンツをすばやく組み立てるのに使用できます。 [詳細情報](../email/fragments.md)
+
+### [!UICONTROL データ管理] {#left-nav-data}
+
+このセクションでデータを管理します。
 
 * **[!UICONTROL スキーマ]**：Adobe Experience Platform を使用すると、スキーマエディターと呼ばれるインタラクティブなビジュアルキャンバスで Experience Data Model（XDM）スキーマを作成および管理できます。[詳細情報](../data/get-started-schemas.md)
 
@@ -67,31 +88,59 @@ ht-degree: 100%
 
 * **[!UICONTROL クエリ]**：Adobe Experience Platform クエリサービスを使用すると、クエリの作成と実行、実行済みのクエリの表示、組織内のユーザーが保存したクエリへのアクセスなどを行えます。[詳細情報](../data/get-started-queries.md)
 
-* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内でデータの取得を監視できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja){target="_blank"}
+* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内でデータの取得を監視できます。詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja){target="_blank"}
 
-**[!UICONTROL 接続]**
+### [!UICONTROL 接続] {#left-nav-connections}
+
+この節では、他のアプリやクラウドとのデータ接続を管理します。
 
 * **[!UICONTROL ソース]**：このメニューを使用すると、アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。受信データの構造化、ラベル付けおよび拡充を行えます。[詳細情報](get-started-sources.md)
 
-**[!UICONTROL 顧客]**
+* **[!UICONTROL 宛先]**  — データセットの内容を書き出すために、このメニューを使用して、クラウドストレージの場所とのライブ接続を作成します。 [詳細情報](../data/export-datasets.md)
+
+### [!UICONTROL 顧客] {#left-nav-customers}
+
+このセクションで、オーディエンスとプロファイルデータを管理します。
 
 * **[!UICONTROL セグメント]**：Experience Platform セグメントの定義を作成および管理し、それらをジャーニーに使用します。[詳細情報](../segment/about-segments.md)
+
+* **[!UICONTROL 購読リスト]**  — 入力 [!DNL Journey Optimizer]の場合、サブスクリプションサービスをオプトインした顧客は、サブスクリプションリストに収集されます。 [詳細情報](../landing-pages/subscription-list.md)
 
 * **[!UICONTROL プロファイル]**：リアルタイム顧客プロファイルは、オンライン、オフライン、CRM、サードパーティデータなど複数のチャネルからのデータを組み合わせて、個々の顧客の全体像を作成します。[詳細情報](../segment/get-started-profiles.md)
 
 * **[!UICONTROL ID]**：Adobe Experience Platform ID サービスは、クロスデバイス、クロスチャネル、ほぼリアルタイムの顧客識別を Adobe Experience Platform 内のいわゆる ID グラフで管理します。[詳細情報](../segment/get-started-identity.md)
 
-**[!UICONTROL 管理]**
+### [!UICONTROL プライバシー] {#left-nav-privacy}
 
-* **[!UICONTROL ジャーニー管理]**：このメニューを使用して、ジャーニーで使用する[イベント](../event/about-events.md)、[データソース](../datasource/about-data-sources.md)、[アクション](../action/action.md)を設定します。
+このセクションから、プライバシーの管理とリクエストを制御します。
 
-* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。[詳細情報](../administration/sandboxes.md)
+* **[!UICONTROL ポリシー]** - Adobe Experience Platformでは、フィールドにラベルを付け、各チャネルのマーケティングアクションを作成できます。 次に、ラベルとマーケティングアクションにリンクされたガバナンスポリシーを定義します。[詳細情報](../action/action-privacy.md)
 
-* **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}
+* **[!UICONTROL リクエスト]** ：プライバシーリクエストは、Adobe Experience Platform Privacy Serviceで管理されます。 顧客データリクエストの管理に役立つ RESTful API とユーザーインターフェイスが用意されています。 [詳細情報](../privacy/requests.md)
+
+* **[!UICONTROL 監査]**  — このセクションを参照して、アクティビティログを確認します。 [詳細情報](../privacy/audit-logs.md)
+
+* **[!UICONTROL データの衛生状態]**  — このセクションでは、データの衛生操作を設定およびスケジュールし、レコードが正しく保持されるようにします。 [詳細情報](../privacy/data-hygiene.md)
+
+### [!UICONTROL 管理] {#left-nav-admin}
+
+* **[!UICONTROL 設定]**  — このメニューを使用して、 [イベント](../event/about-events.md), [データソース](../datasource/about-data-sources.md)、および [アクション](../action/action.md) を使用して、ジャーニーでを使用します。
+
+  また、 **レポート** 「 」セクションで、campaign 実験用のレポートを設定できます。 [詳細情報](../campaigns/reporting-configuration.md)
+
+* **[!UICONTROL ルール]**  — このセクションを使用して、クロスチャネル頻度ルールを作成し、ユーザーがメッセージを受け取ったり、ジャーニーに入ったりする頻度を制御します。 [詳細情報](../configuration/frequency-rules.md)
+
+* **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](../reports/alerts.md)
+
+* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。サンドボックスを管理するには、このセクションを参照します。 [詳細情報](../administration/sandboxes.md)
+
+* **[!UICONTROL チャネル]**  — このセクションを使用して、サブドメイン、サーフェス、配信品質の設定などのチャネルを設定します。 [詳細情報](../configuration/get-started-configuration.md)
+
+* **[!UICONTROL タグ]**  — 統合タグを使用すると、ジャーニーとキャンペーンを簡単に分類して、リストからの検索を改善できます。 [詳細情報](../start/search-filter-categorize.md#work-with-unified-tags)
 
 ## 製品内の使用例 {#in-product-uc}
 
-[!DNL Adobe Journey Optimizer] のホームページでは、製品のユースケースからカスタマージャーニーを作成するための簡単な入力を提供します。
+送信者 [!DNL Adobe Journey Optimizer] ホームページ、製品のユースケースでは、テストプロファイルや初めてのカスタマージャーニーを作成するためのクイック入力を提供します。
 
 ![](assets/use-cases-home.png)
 
@@ -106,7 +155,7 @@ ht-degree: 100%
 
 ユースケースを実行するには、「**[!UICONTROL 開始]**」ボタンをクリックします。
 
-「**[!UICONTROL ユースケースライブラリを表示]**」ボタンから、実行済みの使用例にアクセスできます。
+実行済みのユースケースには、 **[!UICONTROL ライブラリを表示]** 」ボタンをクリックします。
 
 ## ヘルプとサポートを検索 {#find-help}
 
