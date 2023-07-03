@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
@@ -38,7 +38,6 @@ ht-degree: 100%
    ![](assets/push_preview_3.png)
 
 ## プッシュ通知の検証 {#push-validate}
-
 
 エディターの上部セクションでアラートを確認する必要があります。単純な警告もありますが、メッセージの送信を妨げる可能性のある警告もあります。発生する可能性のあるアラートには、警告とエラーの 2 種類があります。
 
