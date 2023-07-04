@@ -5,9 +5,9 @@ title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2949'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 ## 2023年6月 {#june-2023}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 6 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
-* 評価基準の順序のその他の例が **決定の作成** 節では、複数の条件と複数の決定範囲が使用される場合について説明します。 [詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* Decision Management のドキュメントが明確になり、動的コレクションではオブジェクトレベルのアクセス制御を使用できないことを示す注意書きが追加されました。 [詳細情報](../offers/offer-library/creating-collections.md)
+* [!DNL Journey Optimizer] の 2023年6月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* 複数の条件と複数の決定範囲が使用されるケースの例を示すために、評価条件の順序に関する例を&#x200B;**決定の作成**&#x200B;の節に追加しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 意思決定管理のドキュメントを明確にするために、動的コレクションではオブジェクトレベルのアクセス制御を使用できないことを明示するメモを追加しました。[詳細情報](../offers/offer-library/creating-collections.md)
 
 ## 2023年5月 {#may-2023}
 
