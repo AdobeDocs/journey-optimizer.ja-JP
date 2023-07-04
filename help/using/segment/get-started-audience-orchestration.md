@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 67%
 
 >[!AVAILABILITY]
 >
->オーディエンスの構成は、現時点では、限られたグループの顧客のみが利用できます。 ご質問がある場合は、Adobe担当者にお問い合わせください。
+>オーディエンス構成は、現時点では、限られた顧客グループのみが利用できます。ご質問がある場合は、アドビ担当者にお問い合わせください。
 
-オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
+オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。このワークフローでは、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して、新しいオーディエンスを作成できます。
 
-完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、でのターゲット顧客に利用できます。 [Journey Optimizerキャンペーン](../campaigns/get-started-with-campaigns.md)またはAdobe [Real-time Customer Data Platformの宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
+完了すると、**結果のオーディエンス**&#x200B;は既存のオーディエンスと共に Adobe Experience Platform に保存され、[Journey Optimizer キャンペーン](../campaigns/get-started-with-campaigns.md)や Adobe [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"} の宛先で顧客のターゲティングに活用できます。
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->現時点では、構成ワークフローから生成されたオーディエンスは、ジャーニーで使用できません。
+>現時点では、コンポジションワークフローで作成されたオーディエンスは、ジャーニーで使用できません。
 >
->Adobe Journey Optimizerのキャンペーンは、まだポリシー実施サービスと統合されていません。 したがって、オーディエンス属性に適用するデータ使用ラベルは、Journey Optimizerキャンペーンでは適用されません。
+>Adobe Journey Optimizer のキャンペーンは、まだポリシー強制サービスと統合されていません。したがって、オーディエンス属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
 
 オーディエンスコンポジションには、Adobe Journey Optimizer の&#x200B;**[!UICONTROL セグメント]**&#x200B;メニューからアクセスできます。
 
