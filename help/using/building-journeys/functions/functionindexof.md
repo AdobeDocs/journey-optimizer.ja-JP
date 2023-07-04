@@ -8,15 +8,15 @@ level: Experienced
 keywords: indexOf, 関数, 式, ジャーニー
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # indexOf {#indexOf}
 
-2 番目のパラメーターの最初の値の（最初の引数内の）位置を返します。 一致するものがない場合は -1 を返します。
+2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返します。一致するものがない場合は -1 を返します。
 
 ## カテゴリ
 
