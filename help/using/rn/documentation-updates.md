@@ -5,7 +5,7 @@ title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '2595'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 
 
-## 2023 年 6 月リリースノート {#june-rn-2023}
+## 2023年6月リリースノート {#june-rn-2023}
 
 <!--
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
@@ -36,14 +36,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>マーケティングの使用例に対する API トリガーキャンペーン</strong><br/></th>
+<th><strong>マーケティングユースケースに対応する API トリガーキャンペーン</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>API を使用して、外部システムからAdobe Journey Optimizerのマーケティングキャンペーンをトリガーできるようになりました。</p>
-<p>このリリースまで、API トリガーキャンペーン機能は、パスワードのリセットや OTP トークンなど、運用およびトランザクションに関する様々なニーズをカバーしていましたが、マーケティングキャンペーンの作成には使用できませんでした。 API トリガーキャンペーンで使用できるチャネルは次のとおりです。E メール、SMS、プッシュメッセージ。</p>
+<p>API を使用して、外部システムから Adobe Journey Optimizer でマーケティングキャンペーンをトリガーできるようになりました。</p>
+<p>このリリースまでは、API トリガーキャンペーン機能は、パスワードリセットや OTP トークンなどの様々な運用およびトランザクションメッセージのニーズをカバーしていましたが、マーケティングキャンペーンの作成には使用できませんでした。API トリガーキャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>詳しくは、<a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
 </td>
