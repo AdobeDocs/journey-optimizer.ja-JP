@@ -12,7 +12,7 @@ hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
 source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
 ht-degree: 100%
 
@@ -91,4 +91,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->既存のコンポジションは、リストの省略記号ボタンを使用して、いつでも複製または削除できます。
+>リストの省略記号ボタンを使用して、既存のコンポジションをいつでも複製または削除できます。
