@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ SMS を送信する前に、インスタンスを設定します。Journey Optim
 
 ## 前提条件{#sms-prerequisites}
 
-Adobe Journey Optimizerは、現在、Adobe Journey Optimizerから独立した SMS サービスを提供する Sinch、Twilio、Infobip などのサードパーティプロバイダーと統合されています。
+Adobe Journey Optimizer は現在、Sinch、Twilio、Infobip などのサードパーティプロバイダーと統合されています。これらのプロバイダーは、Adobe Journey Optimizer とは独立に SMS サービスを提供しています。
 
 SMS を設定する前に、こうしたいずれかの SMS プロバイダーのアカウントを作成して、Adobe Journey Optimizer と該当する SMS プロバイダー間の接続を確立するための API トークンとサービス ID を受信できるようにする必要があります。
 
