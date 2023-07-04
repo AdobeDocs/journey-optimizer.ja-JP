@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->トラブルシューティングの目的で、ジャーニーのクエリ時には、journeyVersionName の代わりに journeyVersionID を使用することをお勧めします。
+>トラブルシューティングのためには、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
 
 ## journeyVersionName {#journeyversionname-field}
 
@@ -121,7 +121,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->トラブルシューティングの目的で、ジャーニーのクエリ時には、journeyVersionName の代わりに journeyVersionID を使用することをお勧めします。
+>トラブルシューティングのためには、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
 
 ## journeyVersion {#journeyversion-field}
 
