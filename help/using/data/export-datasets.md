@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 * データセットを書き出すには、**宛先の管理**、**宛先の表示**、**宛先のアクティブ化**、**データセット宛先の管理とアクティブ化**&#x200B;の各[アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions)が必要です。 必要な権限を取得するには、[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja)を参照するか、製品管理者に問い合わせてください。
 
-* この機能は、第 1 世代データのみの書き出しをサポートします。つまり、[Real-Time Customer Data Platform 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html)で定義されている生データをサポートします。書き出すデータセットに第 2 世代のデータが含まれていないことを確認してください。
+* 書き出すデータセットに第 2 世代のデータが含まれていないことを確認してください。この機能は、第 1 世代データのみの書き出しをサポートします。つまり、[Real-Time Customer Data Platform 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html)で定義されている生データをサポートします。第 1 世代のデータには、Adobe Experience Platform Sources 経由で取り込んだデータセット、または Analytics Data Connector やJourney Optimizerのログ/レポートデータセットなどのAdobeソリューションを使用して収集したデータセットが含まれます。
 
 ## データセットを書き出す主な手順 {#main-steps}
 
