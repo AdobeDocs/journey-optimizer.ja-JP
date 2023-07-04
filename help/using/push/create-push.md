@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 97%
 >title="迅速配信モード"
 >abstract="迅速配信モードを利用すると、プッシュチャネルで 3,000 万件未満のオーディエンスサイズに高速メッセージ送信を実行できます。"
 
-迅速な配信モードは、 [!DNL Journey Optimizer] キャンペーン中に大量のプッシュメッセージを送信するのに非常に高速なアドオン。
+迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。
 
 迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。
 
