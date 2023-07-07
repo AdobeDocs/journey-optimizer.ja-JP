@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: c9941a800783b399b587b952c4191ce906b70552
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '2262'
-ht-degree: 100%
+source-wordcount: '2313'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 >id="ajo_campaign_global_report"
 >title="キャンペーンのグローバルレポート"
 >abstract="キャンペーンのグローバルレポートを使用すると、選択した期間におけるキャンペーンの効果を測定できます。 レポートは、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
+
+グローバルレポートは、「全時間」タブからアクセスでき、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントを表示します。 これに対し、ライブレポートでは、過去 24 時間以内に発生したイベントに焦点を当て、イベント発生から 2 分以内の最小時間間隔を指定します。
 
 キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 

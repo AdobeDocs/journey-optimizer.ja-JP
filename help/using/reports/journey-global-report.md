@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '2044'
-ht-degree: 100%
+source-wordcount: '2095'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 >id="ajo_journey_global_report"
 >title="ジャーニーのグローバルレポート"
 >abstract="ジャーニーのグローバルレポートを使用すると、選択した期間におけるジャーニーの効果を測定できます。レポートは、ジャーニーの成功とエラーの詳細を示す様々なウィジェットに分かれています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
+
+グローバルレポートは、「全時間」タブからアクセスでき、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントを表示します。 これに対し、ライブレポートでは、過去 24 時間以内に発生したイベントに焦点を当て、イベント発生から 2 分以内の最小時間間隔を指定します。
 
 「**[!UICONTROL グローバルレポート]**」ボタンで、ジャーニーのグローバルレポートにジャーニーから直接アクセスします。
 

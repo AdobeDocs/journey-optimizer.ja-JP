@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1100'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 >id="ajo_campaign_live_report"
 >title="キャンペーンのライブレポート"
 >abstract="キャンペーンのライブレポートでは、過去 24 時間のみのキャンペーンの効果とパフォーマンスをリアルタイムで測定および視覚化できます。レポートは、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
+
+ライブレポートは、「最近の 24 時間」タブからアクセスでき、過去 24 時間以内に発生したイベントを表示します。イベント発生から 2 分以上の最小時間間隔を指定できます。 これに対し、グローバルレポートでは、少なくとも 2 時間前に発生したイベントに焦点を当て、選択した期間のイベントを対象としています。
 
 キャンペーンのライブレポートは、「**[!UICONTROL ライブ表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 

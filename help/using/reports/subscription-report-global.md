@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="購読グローバルレポート"
 >abstract="購読グローバルレポートでは、選択した期間における購読者のアクティビティを測定および視覚化できます。レポートは、購読と購読解除の詳細を示す様々なウィジェットに分割されています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
 
-購読&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;では、選択した期間の購読者のアクティビティに関する詳細が表示されます。過去 24 時間の購読のみを測定するには、[購読ライブレポート](subscription-report-live.md)を参照します。
+グローバルレポートは、「全時間」タブからアクセスでき、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントを表示します。 これに対し、ライブレポートでは、過去 24 時間以内に発生したイベントに焦点を当て、イベント発生から 2 分以内の最小時間間隔を指定します。
 
 レポートにアクセスするには、選択したサブスクリプションリストの「**[!UICONTROL レポート]**」アイコンをクリックします。
 
