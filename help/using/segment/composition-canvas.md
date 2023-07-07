@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1373'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="エンリッチメントアクティビティ"
->abstract="エンリッチメントアクティビティを使用して、既存オーディエンスに属するプロファイルを除外します。属性タイプを使用した除外では、特定の属性に基づいたプロファイルを除外できます。"
+>abstract="「強化」アクティビティを使用して、Adobe Experience Platformデータセットから取得した追加の属性でオーディエンスを強化します。 例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
