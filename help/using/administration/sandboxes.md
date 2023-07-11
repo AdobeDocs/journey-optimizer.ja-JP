@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 ## サンドボックスの使用 {#using-sandbox}
 
 [!DNL Journey Optimizer] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
-サンドボックスは、Admin Console の製品プロファイルから割り当てられます。[サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
+サンドボックスは、権限の役割を通じて割り当てられます。 [サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] は、特定の組織用に作成された Adobe Experience Platform サンドボックスを反映します。
 Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳しくは、サンドボックスのユーザーガイドを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}。
@@ -38,27 +38,21 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 >
 > サンドボックスの管理は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、[Admin Console のドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}を参照してください。
 
-標準またはカスタムの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に異なるサンドボックスを割り当てることもできます。
+標準またはカスタムに異なるサンドボックスを割り当てるように選択できます **[!UICONTROL 役割]**.
 
 サンドボックスを割り当てるには、以下の手順に従います。
 
-1. [!DNL Admin Console] の「**[!UICONTROL 製品]**」タブで、「**[!UICONTROL Adobe Experience Platform アプリ]**」製品を選択します。
-
-1. 「**[!UICONTROL 製品プロファイル]**」を選択します。
+1. In [!DNL Permissions]、 **[!UICONTROL 役割]** タブで、 **[!UICONTROL 役割]**.
 
    ![](assets/sandbox_1.png)
 
-1. 「**[!UICONTROL 権限]**」タブを選択します。
+1. 「**[!UICONTROL 編集]**」をクリックします。
 
-1. 「**[!UICONTROL サンドボックス]**」機能を選択します。
-
-   ![](assets/sandbox_2.png)
-
-1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}。
+1. 次の **[!UICONTROL サンドボックス]** リソースドロップダウンで、自分の役割に割り当てるサンドボックスを選択します。
 
    ![](assets/sandbox_3.png)
 
-1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で、アクセスを削除するサンドボックスの横の X アイコンをクリックして、**[!UICONTROL 製品プロファイル]**&#x200B;に対する権限を削除します。
+1. 必要に応じて、横の X アイコンをクリックし、 **[!UICONTROL 役割]**.
 
    ![](assets/sandbox_4.png)
 

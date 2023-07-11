@@ -1,47 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ユーザーと製品プロファイルの管理
-description: ユーザーと製品プロファイルの管理方法を学ぶ
+title: ユーザーとグループの管理
+description: ユーザーと役割を管理する方法を説明します
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 26%
 
 ---
 
-# ユーザーと製品プロファイルの管理 {#manage-permissions}
+# ユーザーとグループの管理 {#manage-permissions}
 
 >[!IMPORTANT]
 >
 > 次に説明する各手順は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html)を参照してください。
 
-**[!UICONTROL 製品プロファイル]**&#x200B;は、組織内で同じ権限とサンドボックスを共有するユーザーの集まりです。
+**[!UICONTROL 役割]** 同じ権限とサンドボックスを共有するユーザーのコレクションを参照します。 これらの役割を使用すると、組織内の様々なユーザーグループのアクセスおよび権限を簡単に管理できます。
 
-[!DNL Journey Optimizer] 製品を使用すると、権限のレベルが異なるさまざまな標準の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択して、ユーザーに割り当てることができます。利用可能な&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;の詳細については、[このページ](ootb-product-profiles.md)を参照してください。
+を使用 [!DNL Journey Optimizer] 製品を使用すると、既存の様々な製品から選択できます **[!UICONTROL 役割]**（それぞれ様々なレベルの権限を持ち、ユーザーに割り当てる） 利用可能な **[!UICONTROL 役割]**（これを参照） [ページ](ootb-product-profiles.md).
 
-**[!UICONTROL 製品プロファイル]**&#x200B;に属する各ユーザーには、製品に含まれる Adobe のアプリとサービスに対する権限が付与されます。
+ユーザーが **[!UICONTROL 役割]**&#x200B;の場合、製品に含まれるAdobeアプリやサービスへのアクセス権が付与されます。
 
-独自の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトに対するユーザーのアクセスを微調整することもできます。
+既存の役割が組織の特定のニーズを満たさない場合は、カスタムの役割を作成することもできます **[!UICONTROL 役割]** を使用して、インターフェイス内の特定の機能やオブジェクトへのアクセスを微調整できます。 これにより、各ユーザーが、タスクを効率的に実行するために必要なリソースおよびツールにのみアクセスできるようにすることができます。
 
-## 製品プロファイルの割り当て {#assigning-product-profile}
+## ロールを割り当て {#assigning-role}
 
-ユーザーに割り当てる&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;は、標準またはカスタムから選択できます。
+標準またはカスタムの割り当てを選択できます **[!UICONTROL 役割]** をユーザーに送信します。
 
-デフォルトで権限が割り当てられているすべての製品プロファイルのリストについては、[ビルトインの製品プロファイル](ootb-product-profiles.md)の節を参照してください。
+権限が割り当てられているすべての標準の役割のリストは、 [組み込みの役割](ootb-product-profiles.md) 」セクションに入力します。
 
+を割り当てるには **[!UICONTROL 役割]**:
 
-**[!UICONTROL 製品プロファイル]**&#x200B;を割り当てるには、以下の手順に従います。
-
-1. [!DNL Admin Console] の「**[!UICONTROL 製品]**」タブで、**[!UICONTROL Experience Cloud／Platform を利用したアプリケーション]**&#x200B;製品を選択します。
-
-1. **[!UICONTROL 製品プロファイル]**&#x200B;を選択します。
+1. でユーザーにロールを割り当てるには [!DNL Permissions] 製品の場合は、 **[!UICONTROL 役割]** 」タブをクリックし、目的の役割を選択します。
 
    ![](assets/do-not-localize/access_control_2.png)
 
@@ -49,102 +46,83 @@ ht-degree: 100%
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. ユーザーの名前またはメールアドレスを入力し、ユーザーを選択します。
+1. ユーザー名または電子メールアドレスを入力するか、リストからユーザーを選択して、 **[!UICONTROL 保存]**.
 
    [!DNL Admin Console] でまだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/do-not-localize/access_control_4.png)
 
-1. 上記と同じ手順を実行して、**[!UICONTROL 製品プロファイル]**&#x200B;に管理者を追加します。次に、「**[!UICONTROL 保存]**」をクリックします。
-
 これにより、ユーザーをインスタンスへリダイレクトするメールが、ユーザーに送られます。
 
 ユーザー管理の詳細については、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html)を参照してください。
 
-インスタンスにアクセスすると、**[!UICONTROL 製品プロファイル]**&#x200B;で割り当てられた権限に応じて、特定のビューが表示されます。ユーザーが機能にアクセスする権限を持っていない場合は、次のメッセージが表示されます。
+インスタンスにアクセスすると、割り当てられた権限に応じて、特定のビューがユーザーに表示されます ( **[!UICONTROL 役割]**. ユーザーが機能にアクセスする権限を持っていない場合は、次のメッセージが表示されます。
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
-## 既存の製品プロファイルの編集 {#edit-product-profile}
+## 既存の役割の編集 {#edit-product-profile}
 
-標準またはカスタムの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;の場合は、いつでも権限を追加または削除できます。
+標準またはカスタムの場合 **[!UICONTROL 役割]**&#x200B;を使用すると、いつでも権限を追加または削除できます。
 
-この例では、ジャーニー閲覧者の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てられたユーザーに対して、**[!UICONTROL ジャーニー]**&#x200B;機能に関連する&#x200B;**[!UICONTROL 権限]**&#x200B;を追加します。その後、ユーザーはジャーニーを公開できます。
+この例では、 **[!UICONTROL 権限]** 関連する **[!UICONTROL ジャーニー]** リソースビューアに割り当てられたジャーニーのリソース **[!UICONTROL 役割]**. その後、ユーザーはジャーニーを公開できます。
 
-標準またはカスタムの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を変更すると、この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てられたすべてのユーザーに影響が及びます。
+標準またはカスタムを変更した場合は、 **[!UICONTROL 役割]**&#x200B;の場合は、割り当てられたすべてのユーザーに影響します **[!UICONTROL 役割]**.
 
-1. [!DNL Admin Console] の「**[!UICONTROL 製品]**」タブで、**[!UICONTROL Experience Cloud／Platform を利用したアプリケーション]**&#x200B;製品を選択します。
-
-1. ジャーニービューアの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択します。
-
-1. 「**[!UICONTROL 権限]**」タブを選択します。
-
-   「**[!UICONTROL 権限]**」タブには、**[!UICONTROL Experience Cloud - Platform を利用したアプリケーション]**&#x200B;製品に適用される機能のリストが表示されます。
-
+1. でユーザーにロールを割り当てるには [!DNL Permissions] 製品の場合は、 **[!UICONTROL 役割]** 「 」タブをクリックし、目的の役割を選択します。ここでは、ジャーニー・ビューア **[!UICONTROL 役割]**.
    ![](assets/do-not-localize/access_control_5.png)
 
-1. **[!UICONTROL ジャーニー]**&#x200B;機能を選択します。
+1. お使いの **[!UICONTROL 役割]** ダッシュボードで、 **[!UICONTROL 編集]**.
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. 「**[!UICONTROL 使用可能な権限項目]**」リストでプラス（+）アイコンをクリックし、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる権限を選択します。
+1. この **[!UICONTROL リソース]** メニューには、 **[!UICONTROL Experience Cloud- Platform を利用したアプリケーション]** 製品。 リソースをドラッグ&amp;ドロップして権限を割り当てます。
 
-   ここでは、**[!UICONTROL ジャーニーの公開]**&#x200B;権限を追加します。
+   次の **[!UICONTROL ジャーニー]** リソースドロップダウンで、「パブリッシュジャーニー」を選択します。 **[!UICONTROL 権限]**.
 
-1. 必要に応じて、「**[!UICONTROL 含まれる権限項目]**」で横の X アイコンをクリックすると、製品プロファイルに対する権限を削除できます。
+   ![](assets/do-not-localize/access_control_14.png)
+
+1. 必要に応じて、 **[!UICONTROL 含まれる権限項目]**&#x200B;の横にある X アイコンをクリックして、役割に対する権限やリソースを削除します。
 
 1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
-必要に応じて、特定の権限を持つ新しい製品プロファイルを作成することもできます。詳しくは、[製品プロファイルの作成](#create-product-profile)を参照してください。
+必要に応じて、特定の権限を持つ新しい役割を作成することもできます。 詳しくは、 [新しいロールを作成](#create-product-profile).
 
-## 製品プロファイルの作成 {#create-product-profile}
+## 新しい役割の作成 {#create-product-profile}
 
-[!DNL Journey Optimizer] では、独自の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。**[!UICONTROL 製品プロファイル]**&#x200B;を使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
+[!DNL Journey Optimizer] 独自の **[!UICONTROL 役割]** ユーザーに一連の権限とサンドボックスを割り当てます。 を使用 **[!UICONTROL 役割]**&#x200B;を使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
 サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}を参照してください。
 
-この例では、「**ジャーニー読み取り専用**」という名前の製品プロファイルを作成し、ジャーニー機能に読み取り専用の権限を付与します。ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL  Decision management]** など、他の機能にはアクセスできません。
+この例では、という名前の役割を作成します。 **ジャーニー読み取り専用** ジャーニー機能に読み取り専用権限を付与する ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL  Decision management]** など、他の機能にはアクセスできません。
 
-**ジャーニー読み取り専用****[!UICONTROL 製品プロファイル]**&#x200B;を作成するには：
+次の手順で **ジャーニー読み取り専用** **[!UICONTROL 役割]**:
 
-1. [!DNL Admin Console] にアクセスします。
-
-1. 「**[!UICONTROL 製品]**」タブから、**[!UICONTROL Experience Cloud／Platform を利用したアプリケーション]**&#x200B;製品を選択します。
-
-1. 「**[!UICONTROL 新しいプロファイル]**」をクリックします。
+1. でユーザーにロールを割り当てるには [!DNL Permissions] 製品の場合は、 **[!UICONTROL 役割]** タブをクリックし、 **[!UICONTROL ロールを作成]**.
 
    ![](assets/do-not-localize/access_control_9.png)
 
-1. 新しい&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に、**[!UICONTROL 製品プロファイル名]**、**[!UICONTROL 表示名]**、**[!UICONTROL 説明]**&#x200B;を追加します。
+1. を追加します。 **[!UICONTROL 名前]** および **[!UICONTROL 説明]** 新しい **[!UICONTROL 役割]**. 次に、「 **[!UICONTROL 確認]**.
 
    ![](assets/do-not-localize/access_control_10.png)
 
-1. 「**[!UICONTROL 通知]**」カテゴリで、ユーザーがこの製品プロファイルに追加されたとき、または削除されたときにメールで通知するかどうかを選択します。
-
-1. 終了したら、「**[!UICONTROL 保存]**」をクリックし、新しく作成した&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択します。
-
-1. ユーザーがさまざまな機能にアクセスするための権限を追加するには、「**[!UICONTROL 権限]**」タブを選択します。
-
-1. 左側のメニューに表示されている、[!DNL Journey Optimizer] で利用可能な **[!DNL Journeys]**、**[!DNL Segments]**、**[!DNL Decision management]** などの様々な機能を選択します。
-
-   ここでは、**[!UICONTROL ジャーニー]**&#x200B;機能を選択します。
-
-   ![](assets/do-not-localize/access_control_11.png)
-
-1. 「**[!UICONTROL 使用可能な権限項目]**」リストでプラス（+）アイコンをクリックし、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる権限を選択します。
-
-   ここでは、**[!DNL View journeys]** と **[!DNL View journeys event, data sources, actions]** を選択します。
-
-   ![](assets/do-not-localize/access_control_12.png)
-
-1. **[!UICONTROL サンドボックスアクセス]**&#x200B;機能を選択して、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てるサンドボックスを選択します。
+1. 次の **[!UICONTROL サンドボックス]** リソースドロップダウン：割り当てるサンドボックスを選択します。 **[!UICONTROL 役割]**. [サンドボックスの詳細情報](sandboxes.md)。
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 「**[!UICONTROL 使用可能な権限項目]**」でプラス（+）アイコンをクリックし、サンドボックスをプロファイルに割り当てます。[サンドボックスの詳細情報](sandboxes.md)。
+1. 次のような様々なリソースを選択します。 **[!DNL Journeys]**, **[!DNL Segments]** または **[!DNL Decision management]** 次の場所で使用可能： [!DNL Journey Optimizer] リストが左側のメニューに表示されます。
+
+   ここで、 **[!UICONTROL ジャーニー]** リソース。
+
+   ![](assets/do-not-localize/access_control_11.png)
+
+1. 次の **[!UICONTROL ジャーニー]** ドロップダウンで、 **[!UICONTROL 役割]**.
+
+   ここでは、 **[!DNL View journeys]**, **[!DNL View journeys report]**  および **[!DNL View journeys event, data sources, actions]**.
+
+   ![](assets/do-not-localize/access_control_12.png)
 
 1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
-これで、**[!UICONTROL 製品プロファイル]**&#x200B;の作成と設定が完了しました。次に、ユーザーに割り当てる必要があります。
+お使いの **[!UICONTROL 役割]** が作成され、設定されました。 次に、ユーザーに割り当てる必要があります。
 
-製品プロファイルの作成と管理については、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/adobe-asset-link.ug.html)を参照してください。
+ロールの作成と管理について詳しくは、 [Admin Console文書](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ja).

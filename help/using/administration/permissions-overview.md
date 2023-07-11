@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 59%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] のユーザー管理は、次の 3 つの概念に基づいています。
 
-* **[!UICONTROL 製品プロファイル]**：インターフェイス内の特定の機能やオブジェクトへユーザーがアクセスできる単一権限のセット。[標準提供の製品プロファイル](ootb-product-profiles.md)の節を参照してください。
+* **[!UICONTROL 役割]**:インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできる単一の権限のセット。 詳しくは、 [標準の役割](ootb-product-profiles.md) 」セクションに入力します。
 
-* **[!UICONTROL 権限]**：**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権限。各権限は、ジャーニーやオファーなどの機能の下にまとめられており、[!DNL Journey Optimizer] のさまざまな機能やオブジェクトを表しています。[権限レベル](high-low-permissions.md)の節を参照してください。
+* **[!UICONTROL 権限]**:割り当てる権限を定義できる単一の権限 **[!UICONTROL 役割]**. 各権限は、リソース (ジャーニーやオファーなど ) の下に収集されます。このリソースは、 [!DNL Journey Optimizer]. [権限レベル](high-low-permissions.md)の節を参照してください。
 
-* **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[サンドボックスの使用](sandboxes.md)を参照してください。
+* **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[サンドボックスの使用](sandboxes.md)を参照してください。。
 
 各概念は、Admin Console にアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。[Adobe Admin Console の詳細](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)。
 
@@ -36,6 +36,6 @@ ht-degree: 100%
 
 ## チュートリアルビデオ{#video}
 
-Adobe Journey Optimizer でのアクセス制御システムとカスタム製品プロファイルについて詳しく説明します。製品プロファイルと権限を管理する方法と、ユーザーを追加および管理する方法について説明します。
+Adobe Journey Optimizerでのアクセス制御システムとカスタムプロールについて詳しく説明します。 役割と権限を管理する方法、およびユーザーを追加および管理する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

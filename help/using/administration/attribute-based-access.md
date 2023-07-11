@@ -9,18 +9,14 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 属性, 認証, データ, アクセス, 機密, アセット
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1062'
 ht-degree: 100%
 
 ---
 
 # 属性ベースのアクセス制御 {#attribute-based-access}
-
->[!IMPORTANT]
->
->属性ベースのアクセス制御の使用は、現在、選択した顧客に限定されており、将来のリリースですべての環境にデプロイされます。
 
 属性ベースのアクセス制御（ABAC）を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。その目的は、機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることです。
 

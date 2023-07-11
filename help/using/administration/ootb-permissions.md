@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
@@ -19,10 +19,8 @@ ht-degree: 100%
 # 組み込みの権限 {#ootb-permissions}
 
 | 機能 | 権限 |
-|---|---|
-| アラート | **[!DNL Manage alerts]**：ジャーニーおよび使用権限に関するアラートルールの有効化／無効化。</br>**[!DNL Resolve alerts]**：トリガーされたアラートの解決の許可。</br>**[!DNL View alerts]**：受信したアラートメッセージの表示と、「アラート」タブへのアクセスの許可。</br>**[!DNL View alerts history]**：受信したアラートの履歴の表示の許可。 |
+|-|-|
 | キャンペーン | **[!DNL Manage campaigns]**：キャンペーンの読み取り、作成、編集、削除。</br>**[!DNL Publish campaigns]**：キャンペーンを公開する権限。</br>**[!DNL View campaigns]**：キャンペーンへの読み取り専用アクセス。</br>**[!DNL View campaigns report]**：キャンペーンレポートの読み取り、編集。 |
-| チャネル設定 | **[!DNL View messages general settings]**：メッセージの一般設定への読み取り専用アクセス。</br>**[!DNL Manage web subdomain]**：web サブドメインの読み取り、作成、編集、削除。</br>**[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</br>**[!DNL Manage suppression]**：抑制ルールの読み取り、作成、編集、削除。</br>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</br>**[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</br>**[!DNL Manage SMS subdomains]**：SMS サブドメインの読み取り、作成、編集、削除。</br>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</br>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</br>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</br>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</br>**[!DNL Manage channel surfaces]**：コンテンツのブランディングの読み取り、作成、編集、削除。</br>**[!DNL Manage Landing page settings]**：ランディングページのサブドメインとランディングページのプリセットの読み取り、作成、編集、削除。</br>**[!DNL Manage SMS settings]**：SMS チャネルを有効にするために必要な API 認証情報と SMS チャネルサーフェスの読み取り、作成、編集、削除。</br>**[!DNL Export suppression list]**：抑制リストを CSV として書き出すためのアクセス権。</br>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。 |
 | ダッシュボード | **[!DNL View license usage dashboards]**：ライセンス使用状況ダッシュボードを表示する読み取り専用アクセス。</br>**[!DNL Manage custom dashboards]**：新しいダッシュボードの作成と、既存のダッシュボードの編集の許可。</br>**[!DNL View custom dashboards]**：ユーザー定義ダッシュボードへの読み取り専用アクセス。</br>**[!DNL View standard dashboards]**：プロファイル、宛先、セグメントの各ダッシュボードへの読み取り専用アクセス。</br>**[!DNL Manage standard dashboards]**：カスタムウィジェットの作成と、ウィジェットライブラリを介したウィジェットスキーマの編集の許可。 |
 | データ収集 | **[!DNL Manage datastream]**：データストリームの読み取り、作成、編集。</br>**[!DNL View datastream]**：データストリームへの読み取り専用アクセス。 |
 | データガバナンス | **[!DNL Manage usage labels]**：ラベルの読み取り、作成、編集、削除。</br>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</br>**[!DNL View data usage policies]**：組織に属するデータ使用ポリシーに対する読み取り専用アクセス。</br>**[!DNL View user activity log]**：Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。 |
