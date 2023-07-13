@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
       + [セグメント定義の作成](using/audience/creating-a-segment-definition.md)
+      + オーディエンスの作成 {#audience-orchestration}
+         + [オーディエンスコンポジションの基本を学ぶ](using/audience/get-started-audience-orchestration.md)
+         + [コンポジションワークフローの作成](using/audience/create-compositions.md)
+         + [コンポジションキャンバスの操作](using/audience/composition-canvas.md)
+         + [オーディエンスへのアクセスと管理](using/audience/access-audiences.md)
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
    + [ID](using/audience/get-started-identity.md)
-   + オーディエンスの作成 {#audience-orchestration}
-      + [オーディエンスコンポジションの基本を学ぶ](using/audience/get-started-audience-orchestration.md)
-      + [コンポジションワークフローの作成](using/audience/create-compositions.md)
-      + [コンポジションキャンバスの操作](using/audience/composition-canvas.md)
-      + [オーディエンスへのアクセスと管理](using/audience/access-audiences.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
