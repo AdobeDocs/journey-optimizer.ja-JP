@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: '377'
+ht-degree: 97%
 
 ---
 
 # 最初のコンポジションワークフローの作成 {#create-compositions}
-
->[!BEGINSHADEBOX]
-
-このドキュメントの内容は次のとおりです。
-
-* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
-* **[最初のコンポジションワークフローの作成](create-compositions.md)**
-* [コンポジションキャンバスの操作](composition-canvas.md)
-* [オーディエンスへのアクセスと管理](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 ## コンポジションワークフローの作成 {#create}
 

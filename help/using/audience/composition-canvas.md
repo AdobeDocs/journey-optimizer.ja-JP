@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 97%
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
 # コンポジションキャンバスの操作 {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-このドキュメントの内容は次のとおりです。
-
-* [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
-* [最初のコンポジションワークフローの作成](create-compositions.md)
-* **[コンポジションキャンバスの操作](composition-canvas.md)**
-* [オーディエンスへのアクセスと管理](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 オーディエンスコンポジションは、オーディエンスを作成し、様々なアクティビティ（分割、エンリッチメントなど）を使用できる視覚的なキャンバスを提供します。
 
@@ -151,6 +138,8 @@ ht-degree: 97%
 **[!UICONTROL エンリッチメント]**&#x200B;アクティビティを使用すると、Adobe Experience Platform データセットから取得した追加の属性でオーディエンスを強化できます。 例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。
 
 >[!IMPORTANT]
+>
+>エンリッチメントは **[!UICONOTROL Adobe Journey Optimizer]** ユーザーのみ。
 >
 >現時点では、データセットレベルまたはフィールドレベルのデータセットのラベルは、新しく作成されたオーディエンスには反映されません。 これは、結果として生じるオーディエンスのアクセス制御やデータガバナンスに影響を与える可能性があります。 このため、オーディエンスを構成する際は、テストデータのみを使用してください。
 
