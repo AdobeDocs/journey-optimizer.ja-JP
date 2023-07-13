@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 100%
 >id="ac_preview_lp_profiles"
 >title="ランディングページのプレビューとテスト"
 >abstract="ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルの選択"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="テストプロファイルの選択"
 
 ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
 
@@ -213,7 +213,7 @@ ht-degree: 100%
 >
 >ランディングページをテストするには、**[!UICONTROL メッセージを公開]**&#x200B;権限が必要です。
 >
->メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
+>メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
 1. ランディングページのインターフェイスから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
 

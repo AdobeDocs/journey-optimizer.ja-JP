@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 100%
 >id="ajo_decisioning_simulation_test_profile"
 >title="テストプロファイルの追加"
 >abstract="ID 名前空間とそれに対応する ID 値を選択することで、テストプロファイルを追加できます。シミュレーションで使用するには、既に使用可能なテストプロファイルが必要です。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="テストプロファイルの作成"
 
 まず、シミュレーションに使用するテストプロファイルを選択する必要があります。
 
 >[!CAUTION]
 >
->どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../../segment/creating-test-profiles.md)する方法を参照してください。
+>どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../../audience/creating-test-profiles.md)する方法を参照してください。
 
 1. 「**[!UICONTROL プロファイルを管理]**」をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。Adobe Experience Platform の ID 名前空間については、[この節](../../segment/get-started-identity.md){target="_blank"}を参照してください。
+   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。Adobe Experience Platform の ID 名前空間については、[この節](../../audience/get-started-identity.md){target="_blank"}を参照してください。
 
 1. ID 値を入力し、「**[!UICONTROL 表示]**」をクリックして、使用可能なプロファイルを一覧表示します。
 

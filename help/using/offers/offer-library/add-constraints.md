@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="実施要件の定義"
->abstract="デフォルトでは、どのプロファイルにもオファーの提示を受ける資格がありますが、セグメントまたは決定ルールを使用して、オファーを特定のプロファイルに制限できます。"
+>abstract="デフォルトでは、任意のプロファイルにオファーを提示する資格がありますが、オーディエンスまたは決定ルールを使用して、オファーを特定のプロファイルに制限できます。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,21 +75,21 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="合計プロファイル見積"
->abstract="セグメントまたは決定ルールを選択すると、推定される認定プロファイルに関する情報を表示できます。 "
+>abstract="オーディエンスまたは決定ルールを選択すると、推定認定プロファイルに関する情報を確認できます。"
 
-「**[!UICONTROL オファーの実施要件]**」セクションでは、セグメントまたは決定ルールを使用して定義する特定のプロファイルにオファーを制限できます。
+この **[!UICONTROL オファーの適格要件]** 「 」セクションでは、オーディエンスまたは決定ルールを使用して定義した特定のプロファイルにオファーを制限できます。
 
 >[!NOTE]
 >
->**セグメント**&#x200B;と&#x200B;**決定ルール**&#x200B;の使用上の違いについて詳しくは、[この節](#segments-vs-decision-rules)を参照してください。
+>の使用に関する詳細 **audiences** 対比 **決定ルール** in [この節](#segments-vs-decision-rules).
 
 * デフォルトでは、「**[!UICONTROL すべての訪問者]**」オプションが選択されています。これは、すべてのプロファイルがオファーを提示される資格があることを意味します。
 
   ![](../assets/offer-eligibility-default.png)
 
-* また、オファーの表示を、1 つまたは複数の [Adobe Experience Platform セグメント](../../segment/about-segments.md)のメンバーに限定できます。
+* また、1 つまたは複数のメンバーに対するオファーの表示を制限することもできます [Adobe Experience Platform audiences](../../audience/about-audiences.md).
 
-  それには、「]**1 つまたは複数のセグメントに分類される訪問者**[!UICONTROL 」オプションを有効にしたあと、左ペインから 1 つまたは複数のセグメントを追加し、**[!UICONTROL And]**／**[!UICONTROL Or]** 論理演算子を使用してそれらを結合します。
+  これをおこなうには、 **[!UICONTROL 1 つまたは複数のオーディエンスに該当する訪問者]** 」オプションを選択し、左側のパネルから 1 つ以上のオーディエンスを追加し、 **[!UICONTROL および]** / **[!UICONTROL または]** 論理演算子。
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ ht-degree: 100%
   >
   >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
 
-セグメントまたは決定ルールを選択すると、推定される認定プロファイルに関する情報を表示できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
+オーディエンスまたは決定ルールを選択すると、推定認定プロファイルに関する情報を確認できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,17 +109,17 @@ ht-degree: 100%
 >
 >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれていないデータが含まれている場合は使用できません。例えば、現在の気温が 80 ℃以上であることを条件とする実施要件ルールがあります。
 
-### セグメントと決定ルールの使用上の違い {#segments-vs-decision-rules}
+### オーディエンスと決定ルールの使用 {#segments-vs-decision-rules}
 
-制約を適用するには、1 つまたは複数の **Adobe Experience Platform セグメント**&#x200B;のメンバーにオファーの選択を限定するか、**決定ルール**&#x200B;を使用します。どちらの手段もそれぞれ異なる使用法に対応します。
+制約を適用するには、1 つまたは複数のメンバーに対してオファーの選択を制限します **Adobe Experience Platform audiences**&#x200B;または、 **決定ルール**、異なる用途に対応する両方のソリューション。
 
-基本的に、セグメントの出力はプロファイルのリストです。一方、決定ルールは、決定プロセス中に単一プロファイルに対してオンデマンドで実行される関数です。この 2 つの使用法の違いを以下に詳しく説明します。
+基本的に、オーディエンスの出力はプロファイルのリストです。一方、判定ルールは、判定プロセス中に単一のプロファイルに対してオンデマンドで実行される関数です。 この 2 つの使用法の違いを以下に詳しく説明します。
 
-* **セグメント**
+* **オーディエンス**
 
-  セグメントは、プロファイル属性とエクスペリエンスイベントに基づく特定のロジックに一致する Adobe Experience Platform プロファイルのグループです。ただし、オファー管理ではセグメントの再計算は行われないので、オファーを提示する際にセグメントが最新でない可能性があります。
+  一方、オーディエンスは、プロファイル属性とエクスペリエンスイベントに基づく特定のロジックに一致するAdobe Experience Platformプロファイルのグループです。 ただし、オファー管理はオーディエンスを再計算しません。オファーを提示する際に最新でない可能性があります。
 
-  セグメントの詳細については、[この節](../../segment/about-segments.md)を参照してください。
+  のオーディエンスの詳細 [この節](../../audience/about-audiences.md).
 
 * **決定ルール**
 
