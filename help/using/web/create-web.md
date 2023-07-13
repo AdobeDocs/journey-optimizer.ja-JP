@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 1. Web サーフェスを定義したら、「**[!UICONTROL 作成]**」を選択します。
 
-1. キャンペーンのプロパティ、[オーディエンス](../segment/about-segments.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、web キャンペーンを作成する手順を完了します。
+1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、web キャンペーンを作成する手順を完了します。
 
    ![](assets/web-campaign-steps.png)
 

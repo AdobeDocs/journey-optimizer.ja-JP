@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >セグメントまたは決定ルールを選択すると、推定される認定プロファイルに関する情報を表示できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
+   >オーディエンスまたは決定ルールを選択すると、推定認定プロファイルに関する情報を確認できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
    >
    >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれないデータが含まれる場合は使用できません。 例えば、現在の気温が 80 ℃以上であることを条件とする実施要件ルールがあります。
 

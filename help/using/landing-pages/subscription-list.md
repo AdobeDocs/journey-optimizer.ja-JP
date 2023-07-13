@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, リスト, 購読, サービス
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 購読リストを作成したら、ランディングページで使用できます。ランディングページフォームからオプトインしたプロファイルがリストに追加されます。[詳細情報](design-lp.md)
 
-[ジャーニーを作成](../building-journeys/journey-gs.md#jo-build)してパーソナライズ機能を追加する際に、購読リストをセグメントとして使用することもできます。
+また、購読リストをオーディエンスとして使用すると、 [ジャーニーの構築](../building-journeys/journey-gs.md#jo-build) パーソナライゼーションの追加。
 
 >[!NOTE]
 >

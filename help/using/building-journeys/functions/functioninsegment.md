@@ -7,32 +7,32 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, 関数, 式, ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
 # inSegment {#inSegment}
 
-個人が特定のセグメントに属しているかどうかを確認します。
+個人が特定のオーディエンスに属しているかどうかを確認します。
 
 >[!NOTE]
 >
->最大 100 個のセグメントを取得できます。
+>最大 100 個のオーディエンスを取得できます。
 
-セグメント名は、文字列定数である必要があります。 フィールド参照や式は使用できません。
+オーディエンス名は、文字列定数である必要があります。 フィールド参照や式は使用できません。
 
-セグメントは [Adobe Experience Platform](https://platform.adobe.com/segment/overview) で定義されます。式エディターには、自動入力されたセグメントリストが表示されます。
+オーディエンスは、 [Adobe Experience Platform](https://platform.adobe.com/audience/overview). 式エディターは、オーディエンスの自動入力リストを表示します。
 
-セグメントには次の 3 つのステータスがあります。
+オーディエンスには次の 3 つのステータスがあります。
 
-* 既存：エンティティが引き続きセグメント内に存在します。
-* 実現：エンティティがセグメントにエントリします。
-* 離脱：エンティティがセグメントから離脱します。
+* 既存：エンティティが引き続きオーディエンスに存在します。
+* 実現：エンティティがオーディエンスに入っています。
+* 終了：エンティティがオーディエンスから退出しています。
 
-セグメント参加ステータスが&#x200B;**実現**&#x200B;と&#x200B;**既存**&#x200B;の個人のみが、セグメントのメンバーと見なされます。セグメントの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+個人のみ **実現済み** および **既存** オーディエンスのパーティシペーションステータスは、オーディエンスのメンバーと見なされます。 オーディエンスの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` は、セグメントメンバーシップがエントリまたは既存のステータスになっていることを意味します。
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | パラメーター | 説明 | タイプ |
 |--- |--- |--- |
-| セグメント | セグメント名 | `<string>` |
+| セグメント | オーディエンス名 | `<string>` |
 
 ## シグネチャと戻り値のタイプ
 
@@ -64,4 +64,4 @@ Adobe Experience Platform
 
 説明：
 
-ジャーニーインスタンス内の個人が「men over 50」という名前の Adobe Experience Platform セグメントに属している場合、この関数は **[!UICONTROL true]** を返します。それ以外の場合は **[!UICONTROL false]** を返します。
+関数はを返します。 **[!UICONTROL true]** ジャーニーインスタンス内の個人が、「men over 50」という名前のAdobe Experience Platformオーディエンスに属している場合、 **[!UICONTROL false]** それ以外の場合は

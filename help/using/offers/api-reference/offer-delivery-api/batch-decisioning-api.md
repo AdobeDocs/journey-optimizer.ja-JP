@@ -1,24 +1,24 @@
 ---
 title: Batch Decisioning API
-description: Batch Decisioning API を使用して、事前定義された決定範囲内でセグメント化されたプロファイルに最適なオファーを選択する方法を説明します。
+description: バッチ判定 API を使用して、事前定義された決定範囲内でオーディエンスのプロファイルに最適なオファーを選択する方法を説明します。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
 
 # [!DNL Batch Decisioning] API を使用したオファーの配信 {#deliver-offers-batch}
 
-[!DNL Batch Decisioning] API を使用すると、1 回の呼び出しの特定のセグメントで、すべてのプロファイルに対して、意思決定機能を使用できます。セグメント内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
+この [!DNL Batch Decisioning] API を使用すると、組織は 1 回の呼び出しで特定のオーディエンスのすべてのプロファイルに対して判定機能を使用できます。 オーディエンス内の各プロファイルのオファーコンテンツは、Adobe Experience Platformデータセットに配置され、カスタムのバッチワークフローで使用できます。
 
-[!DNL Batch Decisioning] API を使用すると、決定範囲に関する Adobe Experience Platform セグメントのすべてのプロファイルにとって最適なオファーを、データセットに入力できます。例えば、ある組織が [!DNL Batch Decisioning] を実行して、メッセージ配信ベンダーにオファーを送信できるようにします。その後、これらのオファーは、同じセグメントのユーザーに対してバッチメッセージ配信用に送信されるコンテンツとして使用されます。
+を使用 [!DNL Batch Decisioning] API を使用すると、決定範囲に関するAdobe Experience Platformオーディエンス内のすべてのプロファイルに最適なオファーをデータセットに入力できます。 例えば、ある組織が [!DNL Batch Decisioning] を実行して、メッセージ配信ベンダーにオファーを送信できるようにします。その後、これらのオファーは、同じユーザーオーディエンスに対する一括メッセージ配信用に送信されるコンテンツとして使用されます。
 
 これを実現するため、組織は次の手順を実行します。
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * データセットをメッセージ配信ベンダー API にエクスポートします。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ### 決定の準備 {#prepare-decision}
 
-1 つ以上の決定を準備するには、データセット、セグメント、決定が作成されていることを確認します。 これらの前提条件について詳しくは、[この節](../../batch-delivery.md)を参照してください。
+1 つ以上の決定を準備するには、データセット、オーディエンス、決定を作成していることを確認します。 これらの前提条件について詳しくは、[この節](../../batch-delivery.md)を参照してください。
 
 ### API の要件 {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 値は、セグメントの一意の ID を含む配列です。値を 1 つだけ含めることができます。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | 値は、オーディエンスの一意の識別子を含む配列です。 値を 1 つだけ含めることができます。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | 決定イベントを書き込むことができる出力データセット。 | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | `placementId` および `activityId` を含むラッパー |  |
 | `xdm:activityId` | 決定の一意の ID。 | `xcore:offer-activity:1410cdcda196707b` |

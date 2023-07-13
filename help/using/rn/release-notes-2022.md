@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '3575'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* 「**繰り返し時に再エントリを強制**」オプションを、繰り返しのセグメント読み取りスケジュールパラメーターに追加しました。このオプションを使用すると、ジャーニーにまだ存在するすべてのプロファイルを、次回の実行時に自動的に終了させることができます。このオプションを無効にした場合、プロファイルは、別のオカレンスに再エントリする前に、ジャーニーを終了する必要があります。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* この **繰り返し時に再入力を強制** オーディエンススケジュールの繰り返し読み取りパラメーターにオプションが追加されました。 このオプションを使用すると、ジャーニーにまだ存在するすべてのプロファイルを、次回の実行時に自動的に終了させることができます。このオプションを無効にした場合、プロファイルは、別のオカレンスに再エントリする前に、ジャーニーを終了する必要があります。[詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **管理**
 
@@ -176,7 +176,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer のユーザーは、ユーザーインターフェイスを通じてシステムアラートにアクセスして、ジャーニーが想定どおりに動作しない場合に通知を受け取れるようになりました。使用可能なアラートを確認し、購読できます。このリリースで使用できる最初のアラートは、定義された時間枠内にセグメントを読み取りアクティビティがプロファイルを処理しなかった場合に警告します。このワークフローのロックが解除されると、さらに多くの情報が表示されます。</p>
+<p>Journey Optimizer のユーザーは、ユーザーインターフェイスを通じてシステムアラートにアクセスして、ジャーニーが想定どおりに動作しない場合に通知を受け取れるようになりました。使用可能なアラートを確認し、購読できます。このリリースで使用できる最初のアラートは、定義された期間内に「オーディエンスの閲覧」アクティビティがプロファイルを処理しなかった場合に警告を表示します。 このワークフローのロックが解除されると、さらに多くの情報が表示されます。</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -196,7 +196,7 @@ ht-degree: 100%
 <p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ ht-degree: 100%
 **ジャーニー**
 
 * この&#x200B;**エンティティデータセット**&#x200B;は、Adobe Journey Optimizer の標準のデータセットとして使用できるようになりました。この参照データセットには、トラッキングとフィードバックのデータセット情報を強化するメタデータが含まれています。これにより、より分かりやすいデータを使用して、レポートやクエリを改善できます。 [詳細情報](../data/datasets-query-examples.md#entity-dataset)
-* 同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぐために、新しいガードレールが（イベントまたはセグメントの選定で始まる）単一のジャーニーに追加されました。プロファイルの再エントリは、デフォルトで 5 分間一時的にブロックされるようになりました。[詳細情報](../start/guardrails.md#events-g)
+* 単一のジャーニー（イベントまたはオーディエンスの資格で始まる）に新しいガードレールが追加され、同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぎました。 プロファイルの再エントリは、デフォルトで 5 分間一時的にブロックされるようになりました。[詳細情報](../start/guardrails.md#events-g)
 
 **管理**
 
@@ -235,8 +235,8 @@ ht-degree: 100%
 ### その他の変更{#sept-2022-other}
 
 * ジャーニーバーストモードは、Campaign 迅速配信モードに置き換えられました。[詳細情報](../push/create-push.md#rapid-delivery)
-* パフォーマンスを向上させるために、セグメントの読み取り、セグメントの選定、ビジネスイベントアクティビティで開始されるジャーニーでは、エクスペリエンスイベントフィールドグループを使用できなくなりました。この変更は、新しいジャーニーにのみ適用されます。既存のジャーニーは、現在の動作を維持します。[詳細情報](../start/guardrails.md#expression-editor)
-* スケジュールされたセグメントの読み取りジャーニーの 1 時間の制限が削除されました。これらのジャーニーは遅延なく実行できるようになりました。
+* パフォーマンスを向上させるために、エクスペリエンスイベントフィールドグループは、読み取りオーディエンス、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できなくなりました。 この変更は、新しいジャーニーにのみ適用されます。既存のジャーニーは、現在の動作を維持します。[詳細情報](../start/guardrails.md#expression-editor)
+* スケジュールされた読み取りオーディエンスジャーニーの 1 時間の制限が削除されました。 これらのジャーニーは遅延なく実行できるようになりました。
 
 
 
@@ -254,7 +254,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のセグメントに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションはシーケンスで順番に実行されるように設計されています。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。 </p>
+<p>Journey Optimizerキャンペーンを使用すると、様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションはシーケンスで順番に実行されるように設計されています。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/346680">機能に関するビデオ</a>で説明します。
 </td>
@@ -290,7 +290,7 @@ ht-degree: 100%
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -374,7 +374,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>意思決定管理で、パーソナライズされた最適化モデルシステムを使用できるようになりました。この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
+<p>意思決定管理で、パーソナライズされた最適化モデルシステムを使用できるようになりました。この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
 <p>パーソナライズされた最適化 AI モデルの使用は、現在、選択したユーザーに制限されており、将来のリリースですべての環境にデプロイされます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
@@ -408,7 +408,7 @@ ht-degree: 100%
 
 **意思決定管理**
 
-* **オーディエンスサイズ** - 決定ルールを作成するとき、オファーの実施要件を設定するセグメントまたはルールを選択するとき、またはセグメントやルールを決定範囲に追加するとき、新しいオーディエンスサイズ推定コンポーネントがユーザーインターフェイスに表示されるようになりました。
+* **オーディエンスサイズ**  — 決定ルールを作成する際、オーディエンスやルールを選択してオファーの実施要件を設定する際、またはオーディエンスやルールを決定範囲に追加する際に、新しいオーディエンスサイズ予測コンポーネントがユーザーインターフェイスに表示されます。
 
 
 ## 2022年6月リリース {#june-2022-release}
@@ -477,7 +477,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -615,12 +615,12 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* **セグメントを読み取り** - 一回限りのセグメントを読み取りジャーニーは、ジャーニーの実行から 30 日後に、完了ステータスに移動するようになりました。スケジュールされた読み取りセグメントの場合、最後の実行から 30 日後になります。[詳細情報](../building-journeys/read-segment.md)
+* **オーディエンスの閲覧**  — ワンショット読み取りオーディエンスジャーニーは、ジャーニーの実行から 30 日後に、完了ステータスに移動するようになりました。 スケジュールされた読み取りオーディエンスの場合、最後の読み取りオーディエンスの実行から 30 日後です。 [詳細情報](../building-journeys/read-audience.md)
 * **式エディター** - [limit](../building-journeys/functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。[sort](../building-journeys/functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。また、listObject のサポートが [discint](../building-journeys/functions/functiondistinct.md) および [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 関数に追加されました。
 
 **管理**
 
-* **ライセンス使用状況ダッシュボードの更新** - [!DNL Adobe Journey Optimizer] でユーザーインターフェイス使用できるライセンス使用状況ダッシュボードに、**ライセンス済み**&#x200B;の平均的なプロファイル充実度の正確な値を反映できるようになりました。この指標表示域にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../segment/license-usage.md)
+* **ライセンス使用状況ダッシュボードの更新** - [!DNL Adobe Journey Optimizer] でユーザーインターフェイス使用できるライセンス使用状況ダッシュボードに、**ライセンス済み**&#x200B;の平均的なプロファイル充実度の正確な値を反映できるようになりました。この指標表示域にドロップが表示されます。つまり、ライセンス制限が正しくレポートされました。 [詳細情報](../audience/license-usage.md)
 
 
 ## 2022年4月リリース {#april-2022-release}
@@ -673,7 +673,7 @@ Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使�
 **意思決定管理**
 
 * すべてのユーザーまたは 1 つの特定のプロファイルに対して、およびすべてのプレースメントまたは各プレースメントに対して、オファーキャッピングを適用するかどうかを指定できるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
-* Batch Decisioning API を使用すると、組織は、1 回の呼び出しで特定セグメント内のすべてのプロファイルに対して意思決定管理機能を使用できます。セグメント内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。[詳細情報](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* バッチ判定 API を使用すると、組織は 1 回の呼び出しで特定のオーディエンスのすべてのプロファイルに対して判定管理機能を使用できます。 オーディエンス内の各プロファイルのオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。 [詳細情報](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -800,14 +800,14 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー - セグメントの読み取りの向上</strong><br/></th>
+<th><strong>ジャーニー — 読み取りオーディエンスの改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>増分読み取り</strong>オプションが、繰り返しの<strong>セグメントを読み取り</strong>アクティビティに追加されました 。このオプションを使用すると、ジャーニーの最後の実行以降にセグメントにエントリした個人のみをターゲットにすることができます。最初の実行では、常にすべてのセグメントメンバーがターゲットになります。</p>
-<p>詳しくは、 <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">詳細なドキュメント</a>を参照してください。
+<p>この <strong>増分読み取り</strong> オプションが繰り返しに追加されました <strong>オーディエンスの閲覧</strong> アクティビティ。 このオプションを使用すると、ジャーニーの最後の実行以降にオーディエンスに入った個人のみをターゲットにすることができます。 最初の実行では、常にすべてのオーディエンスメンバーがターゲットになります。</p>
+<p>詳しくは、 <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>

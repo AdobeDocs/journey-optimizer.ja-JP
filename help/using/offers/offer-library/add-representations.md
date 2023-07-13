@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
 
@@ -134,5 +134,5 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >意思決定管理に使用できるソースは、**[!UICONTROL プロファイル属性]**、**[!UICONTROL セグメントメンバーシップ]**&#x200B;および&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
+   >次の項目のみ **[!UICONTROL プロファイル属性]**, **[!UICONTROL オーディエンス]** および **[!UICONTROL ヘルパー関数]** ソースは、決定管理で使用できます。
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. キャンペーンプロパティ、[オーディエンス](../segment/about-segments.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、メールキャンペーンを作成する手順を完了します。
+1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、メールキャンペーンを作成する手順を完了します。
 
    ![](assets/email_campaign_steps.png)
 

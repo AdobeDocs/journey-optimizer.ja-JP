@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2595'
+source-wordcount: '2453'
 ht-degree: 95%
 
 ---
@@ -22,46 +22,47 @@ ht-degree: 95%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-
-## 2023年6月リリースノート {#june-rn-2023}
-
 <!--
+## June 2023 early release notes {#june-rn-2023}
+
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: June 21-22, 2023-->
+**Release date**: June 21-22, 2023
 
-
-<!-- ### New capabilities{#june-2023-features}-->
+### New capabilities{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>マーケティングユースケースに対応する API トリガーキャンペーン</strong><br/></th>
+<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>API を使用して、外部システムから Adobe Journey Optimizer でマーケティングキャンペーンをトリガーできるようになりました。</p>
-<p>このリリースまでは、API トリガーキャンペーン機能は、パスワードリセットや OTP トークンなどの様々な運用およびトランザクションメッセージのニーズをカバーしていましたが、マーケティングキャンペーンの作成には使用できませんでした。API トリガーキャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。</p>
+<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
+<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>詳しくは、<a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+
 
 **Journeys**
 
-You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
 ## 2023年5月リリースノート {#may-rn-2023}
@@ -79,7 +80,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tr>
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../segment/assets/audiences-publish.png"/>
+<img src="../audience/assets/audiences-publish.png"/>
 <!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -170,7 +171,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tbody>
 <tr>
 <td>
-<p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。この新しいタイプのモデルを使用すると、セグメントとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
+<p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -301,13 +302,11 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * ジャーニーキャンバスのメッセージアクティビティと終了タグにアクティビティ ID が表示されるようになりました。これにより、レポーティングとリターゲティングが向上します。
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
+* 規模の拡大を支援するための、安全対策を備えたキャンバス上のノード数に対する新しいインサイト：ジャーニーあたり最大ノード数 50 で、ジャーニーの読み取り、QA およびトラブルシューティングが常に容易になります。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * ジャーニーに[メール](../email/create-email.md)、[SMS](../sms/create-sms.md)、[プッシュ](../push/create-push.md)のアクションを追加すると、デフォルトでは、現在のジャーニーのそのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
 * カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
-* ジャーニーが提供するエクスペリエンスの増加を管理する新しいガードレール：
-   * ジャーニーのパフォーマンス、読みやすさ、QA、トラブルシューティングを維持するために、ノード数を 50 以下に制限することをお勧めします。 アクティビティの数がジャーニーキャンバスの左上に表示されます。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-   * ジャーニーを開発し、開始する際に、一度に 100 件のライブジャーニーのマイルストーンに近づくと、お客様に通知されます。 プランで一度に 100 を超えるジャーニーが必要な場合は、通知を見た後にサポート用のチケットを作成してください。アドビがお手伝いします。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
-**レポーティング**
+**レポート**
 
 * Journey Optimizer レポートを PDF として書き出せるようになりました。[詳細情報](../reports/global-report.md#export-reports)
 
@@ -378,8 +377,8 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * ジャーニーキャンバスが強化され、よりシンプルで改善されたユーザーエクスペリエンスが実現しました。キャンバスの各パスの最後に、空のプレースホルダーが削除されています。これで、パスの最後にあるアクティビティをドラッグするだけで、アクティビティを追加できます。
 * ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。必要に応じて、カスタムラベルを手動で追加できます。
 * ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。[詳細情報](../configuration/external-systems.md#timeout)
-* セグメントを読み取りアクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。 [詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールを通じて送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
+* 読み取りオーディエンスアクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件に変更されました。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -509,9 +508,9 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはセグメントの資格で始まる）単一のジャーニーで、プロファイルがジャーニーに再度エントリできるようにするまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-gs.md#entrance)
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、プロファイルが単一のジャーニー（イベントまたはオーディエンスの資格から開始）でジャーニーに再度エントリするのを許可するまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-gs.md#entrance)
 
-* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。**セグメントの読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
+* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。の場合 **オーディエンスの閲覧** ジャーニーに追加する終了日を追加できるようになりました。 その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -585,7 +584,7 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* 「**セグメントの選定**」または「**セグメントの読み取り**」をジャーニーに追加すると、名前空間は、最後に使用した名前空間で、デフォルトで事前入力されるようになりました。 詳しくは、[セグメントの選定](../building-journeys/segment-qualification-events.md#about-segment-qualification)および[セグメントの読み取り](../building-journeys/read-segment.md#configuring-segment-trigger-activity)の節を参照してください。
+* を追加する場合、 **オーディエンスの選定** または **オーディエンスの閲覧** ジャーニーでは、名前空間は、最後に使用した名前空間で、デフォルトで事前入力されるようになりました。 詳しくは、 [オーディエンスの選定](../building-journeys/audience-qualification-events.md#about-segment-qualification) および [オーディエンスの閲覧](../building-journeys/read-audience.md#configuring-segment-trigger-activity) セクション。
 
 * ジャーニーキャンバスのツールバーに新しいボタンが表示され、ジャーニーのスクリーンショットをダウンロードできます。
 

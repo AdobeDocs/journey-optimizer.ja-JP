@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1030'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 イベントが正常に送信されたにもかかわらず、ジャーニーへのエントリが確認できない場合は、ジャーニーのイベント送信とイベント受信の間に何か問題があることになります。
 
-次の質問に従って、トラブルシューティングを開始できます。
+管理者は、次の点を確認してください。
 
 * イベントを受信するジャーニーが、テストモードまたはライブになっているか。
 * ペイロードプレビューからペイロードをコピーする前にイベントを保存したか。

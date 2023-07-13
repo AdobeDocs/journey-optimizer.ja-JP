@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
   <tr>
     <td>
 
-「**[!UICONTROL 一度に 1 つのプロファイル]**」オプションがオンになっているセグメントベースのジャーニーでイベントをトリガーする
+オーディエンスベースのジャーニーでのイベントのトリガー。 **[!UICONTROL 一度に 1 つのプロファイル]** オプションがオンになっている
 
 </td>
     <td>P</td>

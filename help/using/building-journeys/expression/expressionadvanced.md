@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式エディター, データ, ジャーニー
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -65,7 +65,7 @@ _高度な式エディターのインターフェイス_
 画面の左側に、次の使用可能なフィールドと関数が表示されます。
 
 * **[!UICONTROL イベント]**：受信イベントから受信したフィールドの 1 つを選択します。表示されるイベントフィールドリストは状況に応じて異なり、ジャーニーに追加されるイベントに応じて変化します。[詳細情報](../../event/about-events.md)
-* **[!UICONTROL セグメント]**：**[!UICONTROL セグメントの選定]**&#x200B;イベントをドロップした場合は、使用するセグメントを式で選択します。[詳細情報](../condition-activity.md#using-a-segment)
+* **[!UICONTROL オーディエンス]**:もしあなたが **[!UICONTROL オーディエンスの選定]** イベントの場合は、式で使用するオーディエンスを選択します。 [詳細情報](../condition-activity.md#using-a-segment)
 * **[!UICONTROL データソース]**：データソースのフィールドグループにあるフィールドリストから選択します。[詳細情報](../../datasource/about-data-sources.md)
 * **[!UICONTROL ジャーニーのプロパティ]**：このセクションでは、特定のプロファイルのジャーニーに関連するテクニカルフィールドが再グループ化されます。[詳細情報](journey-properties.md)
 * **[!UICONTROL 関数]**：複雑なフィルタリングを実行できる組み込み関数のリストから選択します。関数はカテゴリ別に整理されています。[詳細情報](functions.md)

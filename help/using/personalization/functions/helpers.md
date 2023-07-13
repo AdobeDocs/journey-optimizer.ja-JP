@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 22752a30fef53808fa9deb80a2053d5bc22abc95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 94%
 
 ---
 
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **セグメントメンバーシップに基づく条件付きコンテンツ**
+1. **オーディエンスのメンバーシップに基づく条件付きコンテンツ**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,7 +106,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->セグメント化とセグメント化サービスの詳細については、[この節](../../segment/about-segments.md)を参照してください。
+>オーディエンスとセグメント化サービスについて詳しくは、以下を参照してください。 [セクション](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}

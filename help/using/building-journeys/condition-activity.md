@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 ![](assets/journey64.png)
 
-[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を使用してセグメントを作成している場合は、それらのセグメントをジャーニー条件で利用できます。{target="_blank"}[条件でのセグメントの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+を使用している場合、 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} オーディエンスを作成するには、それらをジャーニー条件で活用できます。 参照： [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ ht-degree: 100%
 
 ![](assets/profile-cap-condition.png)
 
-## 条件でのセグメントの使用 {#using-a-segment}
+## 条件でのオーディエンスの使用 {#using-a-segment}
 
-この節では、ジャーニー条件でセグメントを使用する方法について説明します。セグメントとその構築方法について詳しくは、[この節](../segment/about-segments.md)を参照してください。
+この節では、ジャーニー条件でのオーディエンスの使用方法について説明します。 オーディエンスとその構築方法について詳しくは、 [この節](../audience/about-audiences.md).
 
-ジャーニー条件でセグメントを使用するには、次の手順に従います。
+ジャーニー条件でオーディエンスを使用するには、次の手順に従います。
 
 1. ジャーニーを開いて&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティをドロップし、「**データソース条件**」を選択します。
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ ht-degree: 100%
 
    ![](assets/segment3.png)
 
-1. 左側で、**[!UICONTROL セグメント]**&#x200B;ノードを展開します。条件に使用するセグメントをドラッグ＆ドロップします。デフォルトでは、セグメントの条件は true です。
+1. 左側で、を展開します。 **[!UICONTROL オーディエンス]** ノード。 条件に使用するオーディエンスをドラッグ&amp;ドロップします。 デフォルトでは、オーディエンスの条件は true です。
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >セグメントの参加ステータスが「**実現**」および「**既存**」の個人のみが、セグメントのメンバーと見なされます。セグメントの評価方法について詳しくは、[セグメント化サービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >なお、 **実現済み** および **既存** オーディエンスのパーティシペーションステータスは、オーディエンスのメンバーと見なされます。 オーディエンスの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}.

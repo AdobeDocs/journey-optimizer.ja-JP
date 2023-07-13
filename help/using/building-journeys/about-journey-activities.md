@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * [一般イベント](../building-journeys/general-events.md)
 * [反応](../building-journeys/reaction-events.md)
-* [セグメントの選定](../building-journeys/segment-qualification-events.md)
+* [オーディエンスの選定](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 * [条件](../building-journeys/condition-activity.md)
 * [待機](../building-journeys/wait-activity.md)
-* [セグメントの読み取り](../building-journeys/read-segment.md)
+* [オーディエンスの閲覧](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

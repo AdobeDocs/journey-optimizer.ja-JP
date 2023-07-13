@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -249,7 +249,7 @@ Web デザイナーのディスプレイのデバイスサイズは、**[!UICONT
 
 >[!CAUTION]
 >
->どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
+>どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
 1. Web キャンペーンのコンテンツ編集画面で、**[!UICONTROL コンテンツをシミュレート]**&#x200B;を選択します。
 

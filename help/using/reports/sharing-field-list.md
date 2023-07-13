@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -59,12 +59,12 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
-| ID | 文字列 | トリガーされたセグメントエクスポートジョブの識別子 |
-| status | 文字列 | セグメントエクスポートジョブのステータス：待機中、開始済み、終了 |
-| exportCountTotal | 整数 | セグメントエクスポートジョブの可能な最大値 |
-| exportCountRealized | 整数 | ジョブを通じてエクスポートされたセグメントの実際の数 |
-| exportCountFailed | 整数 | ジョブを通じたエクスポート中に失敗したセグメントの数 |
-| exportSegmentID | 文字列 | エクスポートするセグメントの識別子 |
+| ID | 文字列 | トリガーされたオーディエンス書き出しジョブの識別子 |
+| status | 文字列 | オーディエンス書き出しジョブのステータス：待機中，開始，完了 |
+| exportCountTotal | 整数 | オーディエンス書き出しジョブの最大可能な値 |
+| exportCountRealized | 整数 | ジョブを通じてエクスポートされたオーディエンスの実際の数 |
+| exportCountFailed | 整数 | ジョブを通じて書き出し中に失敗したオーディエンスの数 |
+| exportSegmentID | 文字列 | 書き出すオーディエンスの識別子 |
 | eventType | 文字列 | エラーイベントか情報イベントかを示すイベントタイプ：Info、Error |
 | eventCode | 文字列 | 対応する eventType の理由を示すエラーコード |
 

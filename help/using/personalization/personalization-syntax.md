@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 95%
 
 ---
 
@@ -75,13 +75,12 @@ Handlebars では、{{expression}} から返される値は **HTML エスケー�
 
 `{{profile.faxPhone.number}}`
 
-## セグメント{#perso-segments}
+## オーディエンス{#perso-segments}
 
-条件でプロファイル属性を活用する方法について詳しくは、[この節](functions/helpers.md#if-function)を参照してください。
+で条件でプロファイル属性を活用する方法については、[この節](functions/helpers.md#if-function)を参照してください。
 
 >[!NOTE]
->セグメント化とセグメント化サービスの詳細については、[この節](../segment/about-segments.md)を参照してください。
->
+>セグメント化サービスについて詳しくは、 [このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}.
 
 ## オファー {#offers-syntax}
 
@@ -164,7 +163,7 @@ Journey Optimizer では、パーソナライゼーションフィールドを�
 
 >[!NOTE]
 >
->式エディターでは、パーソナライズされた URL を編集する際、セキュリティ上の理由から、ヘルパー関数とセグメントメンバーシップが無効になります。
+>式エディターでは、パーソナライズされた URL を編集する際、セキュリティ上の理由から、ヘルパー関数とオーディエンスメンバーシップが無効になります。
 >
 
 **パーソナライズされた URL のサンプル**

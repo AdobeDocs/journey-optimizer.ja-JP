@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス,
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -65,9 +65,9 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
    * **[!UICONTROL 名前]**
    * **[!UICONTROL 説明]**
 
-1. ターゲットとするオーディエンスを定義します。それには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストを表示します。[セグメントについて詳しくはこちらを参照](../segment/about-segments.md)
+1. ターゲットとするオーディエンスを定義します。これをおこなうには、 **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformオーディエンスのリストを表示します。 [オーディエンスの詳細を表示](../audience/about-audiences.md)
 
-   「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](get-started-experiment.md#content-experiment-work)
+   内 **[!UICONTROL ID 名前空間]** 「 」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [詳細情報](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 

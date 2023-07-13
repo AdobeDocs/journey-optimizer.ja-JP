@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
@@ -72,9 +72,9 @@ Set the offer priority to 30 for offer *xcore:personalized-offer:13d213cd4cb328e
 if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec" and homeAddress.city.equals("Bondi", false), 30, offer.rank.priority)
 ```
 
-Boost multiple offers by offer ID based on the presence of a profile's segment membership
+Boost multiple offers by offer ID based on the presence of a profile's audience membership
 
-Boost the priority of offers based on whether the user is a member of a priority segment, which is configured as an attribute in the offer.
+Boost the priority of offers based on whether the user is a member of a priority audience, which is configured as an attribute in the offer.
 
 **Ranking formula:**
 

@@ -9,10 +9,10 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 属性, 認証, データ, アクセス, 機密, アセット
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 属性ベースのアクセス制御（ABAC）を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。その目的は、機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることです。
 
-Adobe Journey Optimizer では、ABAC を使用することで、データを保護し、Experience Data Model（XDM）スキーマ、プロファイル属性、セグメントなどの特定のフィールド要素に対する特定のアクセス権を付与できます。
+Adobe Journey Optimizerでは、ABAC を使用すると、データを保護し、Experience Data Model(XDM) スキーマ、プロファイル属性、オーディエンスなど、特定のフィールド要素に対する特定のアクセスを許可できます。
 
 ABAC で使用される用語の詳細なリストについては、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=ja)を参照してください。
 
@@ -90,7 +90,7 @@ ABAC で使用される用語の詳細なリストについては、[Adobe Exper
 **[!UICONTROL ラベル]**は、属性ベースのアクセス制御を使用して特定の特徴領域を割り当てるために使用できます。
 この例では、**国籍**&#x200B;フィールドへのアクセスを制限します。このフィールドには、**[!UICONTROL 役割]**&#x200B;に対応する&#x200B;**[!UICONTROL ラベル]**&#x200B;を持つユーザーのみがアクセスできます。
 
-**[!UICONTROL ラベル]**&#x200B;は&#x200B;**[!UICONTROL スキーマ]**&#x200B;や、**[!UICONTROL データセット]**、**[!UICONTROL セグメント]**&#x200B;に追加することもできます。
+また、  **[!UICONTROL ラベル]** から  **[!UICONTROL スキーマ]**,  **[!UICONTROL データセット]** および  **[!UICONTROL オーディエンス]**.
 
 1. **[!UICONTROL スキーマ]**&#x200B;を作成します。詳しくは、[こちらのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja)を参照してください。
 

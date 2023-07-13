@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 88%
 
 ---
 
 # 条件付きルールの操作 {#conditions}
 
-条件付きルールとは、プロファイルの属性、セグメントメンバーシップまたはコンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
+条件ルールは、プロファイルの属性、オーディエンスのメンバーシップ、コンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
 
 条件付きルールは、式エディターを使用して作成し、コンテンツ間で再利用する場合に保存できます。[ライブラリに条件付きルールを保存する方法を学ぶ](#save)
 
@@ -56,17 +56,17 @@ ht-degree: 100%
 
 1. 必要に応じて、条件付きルールを作成します。これを行うには、左のメニューから目的の属性をキャンバスにドラッグ&amp;ドロップして配置します。
 
-   属性をキャンバスに組み合わせる手順は、セグメント作成のエクスペリエンスと似ています。ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#rule-builder-canvas)を参照してください。
+   属性をキャンバスに組み合わせる手順は、セグメント定義の作成エクスペリエンスと似ています。 ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#rule-builder-canvas)を参照してください。
 
    ![](assets/conditions-create.png)
 
    属性は次の 3 つのタブに整理されます。
 
    * **[!UICONTROL プロファイル]**：
-      * **[!UICONTROL セグメントメンバーシップ]**&#x200B;には、[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)のすべてのセグメント属性（ステータス、バージョンなど）が一覧表示されます。
+      * **[!UICONTROL オーディエンス]** には、すべてのオーディエンス属性（ステータス、バージョンなど）がリストされます。 [Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)のすべてのセグメント属性（ステータス、バージョンなど）が一覧表示されます。
       * **[!UICONTROL XDM 個別プロファイル]**&#x200B;には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に関連するすべてのプロファイル属性が一覧表示されます。
    * **[!UICONTROL コンテキスト]**：ジャーニーでメッセージを使用している場合、コンテキストジャーニーフィールドをこのタブから使用できます。
-   * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)で作成されたセグメントから生成されたすべてのオーディエンスを一覧表示します。
+   * **[!UICONTROL オーディエンス]**:に、 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja).
 
 1. 条件付きルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
 

@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c45598877441765405c7ca29373801f1d095ff3a
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 81%
+source-wordcount: '314'
+ht-degree: 100%
 
 ---
 
@@ -32,44 +32,40 @@ ht-degree: 81%
     <div>
       <a href="using/rn/release-notes.md">リリースノート</a>
     </div>
-    <p>新機能、最新の機能強化および修正点です。</p>
+    <p>新機能、最新の機能強化および修正点について説明します
    <p>
     <div>
       <a href="using/start/quick-start.md">クイックスタートガイド</a>
     </div>
-    <p>管理者、データエンジニア、またはジャーニー実務者として開始する方法を学ぶ</p>
+    <p>
+    管理者、データエンジニアまたはジャーニー実務担当者の場合の開始方法について説明します
     <p>
     <p>
     <div>
       <a href="using/email/get-started-email-design.md">メールコンテンツの設計</a>
     </div>
-    <p>新しいメールの設計または既存の HTML コンテンツのインポートについて説明します</p>
+    <p>
+    新しいメールの設計または既存の HTML コンテンツのインポートについて説明します
     <p>
     <div>
     <a href="using/building-journeys/journey-gs.md">初めてのジャーニーの作成</a>
     </div>
     <p>ジャーニーの作成および実行方法を説明します
     <p>
-     <div>
-      <a href="using/campaigns/create-campaign.md">キャンペーンの作成と管理</a>
-    </div>
-    <p>最初のキャンペーンの作成、設定、送信</p>
-    <p>
-    <div>
     <div>
     <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]</a> の設定
     </div>
-    <p>  の主な設定手順を説明します [!DNL Journey Optimizer]</p>
+    <p> [!DNL Journey Optimizer] の主な設定手順を説明します
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> へのアクセス付与
     </div>
-    <p>[!DNL Journey Optimizer] ユーザーに割り当てられる権限を定義し管理する方法について説明します</p>
+    <p>[!DNL Journey Optimizer] ユーザーに割り当てられる権限を定義し管理する方法について説明します
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">意思決定管理</a>
     </div>
-    <p>オファーを作成し最適なオファーとエクスペリエンスを顧客に提供する方法を説明します</p>
+    <p>オファーを作成し最適なオファーとエクスペリエンスを顧客に提供する方法を説明します
     <p>
     <p>
     <div><strong>その他のリソース</strong>
@@ -96,24 +92,6 @@ ht-degree: 81%
       <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform デベロッパーリソース</a>
     </li>
     </div>
-    <p>
-    </p>
-    <p>
-    </p>
-    <div>
-    </div>
-    <div><strong>ニュースレター</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <p>新規登録 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer四半期ニュースレター</a>.</p>
-    <p>最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどを、四半期ごとに受信ボックスに直接配信します。各ニュースレターでは、次の情報を確認できます。</p>
-    <li>最近リリースされた機能を含む製品ニュースおよびアップデート</li>
-    <li>イベントやウェビナーへの招待、最近のウェビナーの録画</li>
-    <li>Adobe Journey Optimizer Experience League コミュニティの選り抜きのディスカッション </li>
-    <li>Adobe Journey Optimizer の他のお客様の事例とユースケース</li>
-    <li>ビジネスを成功に導く顧客体験の実現に役立つヒントとテクニック</li>
   </td>
    <td>
    <div><strong>主要リソースへの直接リンク</strong>
@@ -148,9 +126,6 @@ ht-degree: 81%
     <li>
       <a href="using/email/content-templates.md">コンテンツテンプレート</a>
     </li>
-      <li>
-      <a href="using/email/fragments.md">フラグメント</a>
-    </li>
     <p>
     <p>データ管理</p>
     <li>
@@ -168,7 +143,7 @@ ht-degree: 81%
     <p>
     <p>接続</p>
       <li>
-      <a href="using/data/export-datasets.md">宛先</a>
+      <a href="using/data/get-started-datasets.md">宛先</a>
     </li>
     <li>
       <a href="using/start/get-started-sources.md">ソース</a>
@@ -176,31 +151,25 @@ ht-degree: 81%
     <p>
     <p>顧客</p>
     <li>
-      <a href="using/segment/about-segments.md">セグメント</a>
+      <a href="using/audience/about-audiences.md">オーディエンス</a>
     </li>
     </li>
     <li>
       <a href="using/landing-pages/subscription-list.md">購読リスト</a>
     </li>     
     <li>
-      <a href="using/segment/get-started-profiles.md">プロファイル</a>
+      <a href="using/audience/get-started-profiles.md">プロファイル</a>
     </li>
     <li>
-      <a href="using/segment/get-started-identity.md">ID</a>
+      <a href="using/audience/get-started-identity.md">ID</a>
     </li>
     <p>
     <p>プライバシー</p>
     <li>
-      <a href="using/action/action-privacy.md">ポリシー</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja" target="_blank">ポリシー</a>
     </li>
     <li>
-      <a href="using/privacy/requests.md">リクエスト</a>
-    </li>
-        <li>
-      <a href="using/privacy/audit-logs.md"target="_blank">監査</a>
-    </li>
-        <li>
-      <a href="using/privacy/data-hygiene.md"target="_blank">データハイジーン</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja"target="_blank">リクエスト</a>
     </li>
     <p>
     <p>管理</p>
@@ -210,19 +179,24 @@ ht-degree: 81%
     <li>
       <a href="using/configuration/frequency-rules.md">ルール</a>
     </li>
-        <li>
-      <a href="using/reports/alerts.md">アラート</a>
-    </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">チャネル</a>
     </li>
      <li>
       <a href="using/administration/sandboxes.md">サンドボックス</a>
     </li>
-     <li>
-      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">タグ</a>
-    </li>
   </td>
 </tr>
 </table>
 
+
+![ニュースレター](using/assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に新規登録してください。
+
+最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどを、四半期ごとに受信ボックスに直接配信します。
+
+各ニュースレターでは、次の内容をご覧いただけます。
+* 最近リリースされた機能を含む製品ニュースおよびアップデート
+* イベントやウェビナーへの招待、最近のウェビナーの録画
+* Adobe Journey Optimizer Experience League コミュニティの選り抜きのディスカッション
+* Adobe Journey Optimizer の他のお客様の事例とユースケース
+* ビジネスを成功に導く優れたカスタマーエクスペリエンスを実現するためのヒントとテクニック

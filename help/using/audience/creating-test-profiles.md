@@ -7,11 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: テストプロファイル, テスト, テスト, ジャーニー
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1363'
 ht-degree: 90%
 
 ---

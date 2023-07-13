@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->メッセージのプレビューをおこなうには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../segment/creating-test-profiles.md)する方法を参照してください。
+>メッセージのプレビューをおこなうには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
 1. オファーのプレビューに使用するテストプロファイルを選択します。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
       >[!NOTE]
       >
-      >以下の例では、**メール**&#x200B;名前空間を使用します。Adobe Experience Platform の ID 名前空間については、[この節](../segment/get-started-identity.md)を参照してください。
+      >以下の例では、**メール**&#x200B;名前空間を使用します。Adobe Experience Platform の ID 名前空間については、[この節](../audience/get-started-identity.md)を参照してください。
 
    1. **[!UICONTROL ID 値]**&#x200B;フィールドに、テストプロファイルを識別する値を入力します。この例では、テストプロファイルのメールアドレスを入力します。
 

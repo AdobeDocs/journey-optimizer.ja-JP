@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -59,6 +59,6 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、セグメントメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
+メッセージにプロファイルベースのパーソナライゼーションを追加する方法、およびオーディエンスメンバーシップをパーソナライゼーションブロックの事前条件として使用する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

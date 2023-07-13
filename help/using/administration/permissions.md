@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 26%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 次のような様々なリソースを選択します。 **[!DNL Journeys]**, **[!DNL Segments]** または **[!DNL Decision management]** 次の場所で使用可能： [!DNL Journey Optimizer] リストが左側のメニューに表示されます。
+1. 左側のメニューに表示されている、**[!DNL Journeys]** で利用可能な **[!DNL Segments]**、<!--CHECK-->**[!DNL Decision management]**、[!DNL Journey Optimizer] などの様々な機能を選択します。
 
    ここで、 **[!UICONTROL ジャーニー]** リソース。
 

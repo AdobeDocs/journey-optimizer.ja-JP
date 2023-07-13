@@ -1,11 +1,11 @@
 ---
 title: Batch Decisioning
-description: 特定の Adobe Experience Platform セグメントですべてのプロファイルにオファーの決定を配信する方法を説明します。
+description: 特定のAdobe Experience Platformオーディエンス内のすべてのプロファイルに対してオファーの決定を配信する方法を説明します。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 ## Batch Decisioning の基本を学ぶ {#start}
 
-Journey Optimizer を使用すると、特定の Adobe Experience Platform セグメントですべてのプロファイルにオファーの決定を配信できます。
+Journey Optimizerを使用すると、指定したAdobe Experience Platformオーディエンスのすべてのプロファイルに対して、オファーの決定を配信できます。
 
-これを行うには、Journey Optimizer でジョブリクエストを作成する必要があります。このジョブリクエストには、ターゲットとするセグメントと使用するオファーの決定に関する情報が含まれます。セグメント内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
+これをおこなうには、Journey Optimizerでジョブリクエストを作成し、ターゲットに設定するオーディエンスに関する情報と、使用するオファーの決定を含める必要があります。 次に、オーディエンス内の各プロファイルのオファーコンテンツがAdobe Experience Platformデータセットに配置され、カスタムのバッチワークフローで使用できるようになります。
 
 バッチ配信は、API を使用して実行することもできます。詳しくは、[Batch Decisioning API ドキュメント](api-reference/offer-delivery-api/batch-decisioning-api.md)を参照してください。
 
@@ -23,13 +23,13 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
 ジョブリクエストを設定する前に、以下が作成されていることを確認します。
 
-* Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja)を参照してください。
+* Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)を参照してください。
 
-* Adobe Experience Platform の&#x200B;**セグメント**。セグメントは評価してから更新する必要があります。セグメントメンバーシップの評価を更新する方法については、[Segmentation Service ドキュメント](https://www.adobe.com/go/segmentation-overview-en_jp)を参照してください
+* **オーディエンス** Adobe Experience Platform オーディエンスは、評価してから更新する必要があります。 オーディエンスメンバーシップ評価を更新する方法については、 [セグメント化サービスのドキュメント](http://www.adobe.com/go/segmentation-overview-en_jp)
 
   >[!NOTE]
   >
-  >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。セグメントの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
+  >1 日に 1 回、プロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。オーディエンスを作成してからバッチ判定 API を試すまでに、最大 24 時間待つことをお勧めします。
 
 * Adobe Journey Optimizer の&#x200B;**決定**。[決定の作成方法を学ぶ](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
 1. ジョブリクエストに名前を付け、ジョブデータの送信先のデータセットを選択します。
 
-1. ターゲットにする Adobe Experience Platform セグメントを選択します。
+1. ターゲットにするAdobe Experience Platformオーディエンスを選択します。
 
-1. セグメントにオファーを配信する際に使用する 1 つまたは複数のオファー決定範囲を選択します。
+1. オーディエンスにオファーを配信する際に使用する 1 つまたは複数のオファーの決定範囲を選択します。
    1. リストからプレースメントを選択します。
    1. 選択したプレースメントで使用可能な決定が表示されます。任意の決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
    1. 操作を繰り返して、必要な数の決定範囲を追加します。
@@ -93,11 +93,11 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
 各バッチジョブのエンドツーエンド時間は、ワークロードが作成されてから出力データセットで決定結果が使用可能になるまでの期間です。
 
-セグメントサイズが、エンドツーエンドのバッチ決定時間に影響を与える主な要因です。実施要件を満たすオファーでグローバルなフリークエンシーキャップが有効になっている場合、Batch Decisioning の完了にはさらに時間がかかります。実施要件を満たすオファーに対してキャッピングを有効にする場合と有効にしない場合の両方で、それぞれのセグメントサイズに対するエンドツーエンドの処理時間の概算を以下に示します。
+オーディエンスのサイズが、エンドツーエンドのバッチ判定時間に影響を与える主な要因です。 実施要件を満たすオファーでグローバルなフリークエンシーキャップが有効になっている場合、Batch Decisioning の完了にはさらに時間がかかります。次に、対象となるオファーに対して頻度キャップを適用する場合と適用しない場合の両方で、それぞれのオーディエンスサイズのエンドツーエンドの処理時間の近似を示します。
 
 実施要件を満たすオファーに対してフリークエンシーキャップを有効にする場合：
 
-| セグメントサイズ | エンドツーエンドの処理時間 |
+| オーディエンスサイズ | エンドツーエンドの処理時間 |
 |--------------|----------------------------|
 | 1 万件以下のプロファイル | 7 分 |
 | 100 万件以下のプロファイル | 30 分 |
@@ -105,7 +105,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform セ�
 
 実施要件を満たすオファーに対してフリークエンシーキャップを有効にしない場合：
 
-| セグメントサイズ | エンドツーエンドの処理時間 |
+| オーディエンスサイズ | エンドツーエンドの処理時間 |
 |--------------|----------------------------|
 | 1 万件以下のプロファイル | 6 分 |
 | 100 万件以下のプロファイル | 8 分 |

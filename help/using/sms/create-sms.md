@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、Campaignの&#x200B;**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を編集します。
+1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
    ![](assets/sms_create_4.png)
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform セグメントのリストからターゲットオーディエンスを定義します。 [詳細情報](../segment/about-segments.md)。
+1. 次をクリック： **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformオーディエンスのリストからターゲットにするオーディエンスを定義します。 [詳細情報](../audience/about-audiences.md)
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)。
+1. 内 **[!UICONTROL ID 名前空間]** 「 」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)
 
    ![](assets/sms_create_5.png)
 

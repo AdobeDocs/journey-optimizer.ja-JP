@@ -4,22 +4,16 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 100%
+source-wordcount: '2876'
+ht-degree: 95%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
-
-## 2023年6月 {#june-2023}
-
-* [!DNL Journey Optimizer] の 2023年6月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* 複数の条件と複数の決定範囲が使用されるケースの例を示すために、評価条件の順序に関する例を&#x200B;**決定の作成**&#x200B;の節に追加しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 意思決定管理のドキュメントを明確にするために、動的コレクションではオブジェクトレベルのアクセス制御を使用できないことを明示するメモを追加しました。[詳細情報](../offers/offer-library/creating-collections.md)
 
 ## 2023年5月 {#may-2023}
 
@@ -48,7 +42,7 @@ ht-degree: 100%
 * ジャーニーで Adobe Analytics イベントを有効にする手順を追加しました。[詳細情報](../event/about-analytics.md)
 * Adobe Experience Platform でオファー決定支援フィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、意思決定管理ガイドに作成されました。 [詳細情報](../offers/data-collection/data-collection.md)
 * **決定の作成**&#x200B;の節に、条件を順番に評価する場合と同時に評価する場合の違いを説明する新しいサブセクションが追加されました。[詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 増分読み取りを使用したセグメントの読み取りジャーニー用のガードレールが追加されました。新しいバージョンを作成することはできません。ジャーニーを複製する必要があります。[詳細情報](../start/guardrails.md#journey-versions-g)
+* 増分読み取りを使用するオーディエンスジャーニー読み取り用のガードレールが追加されました。 新しいバージョンを作成することはできません。ジャーニーを複製する必要があります。[詳細情報](../start/guardrails.md#journey-versions-g)
 
 ## 2023年2月 {#feb-2023}
 
@@ -94,7 +88,7 @@ ht-degree: 100%
 ## 2022年9月 {#september-2022}
 
 * [!DNL Journey Optimizer] の 2022年9月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* 繰り返しのセグメントの読み取りジャーニーでの待機アクティビティの使用に関するベストプラクティスを追加しました。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 繰り返し読み取りオーディエンスジャーニーでの待機アクティビティの使用に関するベストプラクティスを追加しました。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 新しい手順のイベントクエリの例と、ID、instanceid、profileid の違いに関する情報を追加しました。[詳細情報](../reports/query-examples.md)。
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) および [toString](../building-journeys/functions/functiontostring.md) 関数に関するページを更新しました。
 * 時間条件パラメーターの詳細を追加しました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
@@ -109,7 +103,7 @@ ht-degree: 100%
 *  [!DNL Journey Optimizer] の 8月22日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
 * 頻度ルールのセクションが更新され、新しいインラインメッセージフローが反映されました。[詳細情報](../configuration/frequency-rules.md#apply-frequency-rule)
 * サブスクリプションの設定とランディングページの作成方法を示すビデオが、ランディングページの概要のセクションで参照できるようになりました。[詳細情報](../landing-pages/get-started-lp.md#video)
-* セグメントの読み取りアクティビティを使用するジャーニーに対する制限事項が追加されました。[詳細情報](../building-journeys/read-segment.md)
+* 「オーディエンスの閲覧」アクティビティを使用するジャーニーに対する制限が追加されました。 [詳細情報](../building-journeys/read-audience.md)
 * 式エディターの演算子ページが改善されました。[詳細情報](../building-journeys/expression/operators.md)
 * キャンペーンのスケジュール方法に関する節が追加されました。[詳細情報](../campaigns/create-campaign.md)
 * 式エディターの一般的な構文ルールに関する節が更新され、リテラル関数でのバックスラッシュ記号のエスケープに関する新しいルールが考慮されるようになりました。 既存の公開済みメッセージは、この変更による影響を受けません。 更新する必要があるのは、新規メッセージまたはドラフトメッセージのみです。 [詳細情報](../personalization/personalization-syntax.md#general-rules)
@@ -120,7 +114,7 @@ ht-degree: 100%
 * **チャネルサーフェスの設定**&#x200B;の節が更新され、より明確になり、SMS チャネルの設定方法を説明するページへのリンクが追加されました。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 * ジャーニーのプロパティの「**プロファイルのタイムゾーン**」オプションが、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **待機**&#x200B;アクティビティで、「**固定日付**」オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
-* **セグメントを読み取り**&#x200B;アクティビティに「**増分読み取り**」オプションに関する詳細情報を追加しました。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 詳しくは、 **増分読み取り** オプション **オーディエンスの閲覧** アクティビティ。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **プロファイルキャップ**&#x200B;条件タイプに関する推奨事項を追加しました。[詳細情報](../building-journeys/condition-activity.md#profile_cap)
 * ビジネスイベントに関する制限事項を追加しました。 [詳細情報](../start/guardrails.md#events-g)
 
@@ -142,7 +136,7 @@ ht-degree: 100%
 ## 2022年5月 {#may-2022}
 
 * [!DNL Journey Optimizer] の 2022年5月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* [セグメントの選定](../reports/query-examples.md#segment-qualification-queries)および[イベント](../reports/query-examples.md#event-based-queries)に関連する新しいクエリの例が追加されました。
+* 関連する新しいクエリの例： [オーディエンス資格](../reports/query-examples.md#segment-qualification-queries) および [イベント](../reports/query-examples.md#event-based-queries) が追加されました。
 * メールデザインの節で、コンテンツの開始に使用できる新しい組み込みテンプレートに関する記述が追加されました。関連するスクリーンショットを更新しました。[詳細情報](../email/get-started-email-design.md)
 * 主要リソースへのリンクが、Journey Optimizer ドキュメントのホームページで更新されました。
 * ランディングページおよび購読レポートのスクリーンショットが更新されました。[詳細情報](../reports/live-report.md)
@@ -166,7 +160,7 @@ ht-degree: 100%
 
 * [!DNL Journey Optimizer] の 2022年3月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
 * [自動最適化モデル](../offers/ranking/auto-optimization-model.md)の詳細な説明、使用するアルゴリズム、技術的な詳細など、AI モデルの概要に関する新しいページが **Offer Decisioning** の節に追加されました。[詳細情報](../offers/ranking/ai-models.md)
-* テストプロファイル作成ページは、「**セグメント、プロファイル、ID**」節に移動しました。[詳細情報](../segment/creating-test-profiles.md)
+* テストプロファイル作成ページは、  **オーディエンス、プロファイルおよび ID** 」セクションに入力します。 [詳細情報](../audience/creating-test-profiles.md)
 * 式エディターで式をデフォルト値として追加する方法の例を追加しました。[詳細情報](../building-journeys/expression/field-references.md#default-value)
 * **パーソナライズされたオファーの作成**&#x200B;の節が再編成され、読みやすくなりました。[詳細情報](../offers/offer-library/creating-personalized-offers.md)
 * オファーの開始日や終了日の変更が、このオファーのフリークエンシーキャッピングに与える影響を説明する新しい節が追加されました。[詳細情報](../offers/offer-library/add-constraints.md#capping-change-date)
@@ -232,7 +226,7 @@ ht-degree: 100%
 
 * 該当する節で説明しているすべての意思決定管理機能が、Offer Decisioning アプリケーションサービスを利用する Adobe Experience Platform ユーザーにも当てはまるようになりました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 
-* 制約を適用して特定のプレースメントに対応するオファーの選択を制限する際に、セグメントを使用する場合と決定ルールを使用する場合の違いを明確にするための節を追加しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* 制約を適用して特定の配置のオファーの選択を制限する際の、オーディエンスの使用と決定ルールの使用の違いを明確にするための節を追加しました。 [詳細情報](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
 * 現実的なユースケースを説明するために、ランキング式の具体的な例を追加しました。[詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
@@ -246,7 +240,7 @@ ht-degree: 100%
 * 電子メールデザイナーのスクリーンショットに最新の UI を反映しました。
 * カスタムアクションの設定手順に動的 URL パスと動的ヘッダーを反映しました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 * アクセシビリティ機能とショートカットに関する節を追加しました。[詳細情報](../start/user-interface.md#accessibility)
-* セグメント評価方法に関する節を追加しました。[詳細情報](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* オーディエンスの評価方法に関する節を追加しました。 [詳細情報](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/global-report.md)
 * 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../configuration/allow-list.md#reporting)
 * 「許可リストの有効化」の節を更新しました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
@@ -270,7 +264,7 @@ ht-degree: 100%
 * ミラーページにサブセクションが追加されました。[詳細情報](../email/message-tracking.md#mirror-page)
 * ドキュメントと画面上で、「オファーアクティビティ」が「決定」、「決定」が「決定範囲」に名称変更されました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 * 新しいユースケース：[ヘルパー関数を使用したメッセージのパーソナライズ](../personalization/personalization-use-case-helper-functions.md)が追加されました
-* 「セグメントを読み取り」に関するドキュメントを更新して、セグメントの具体的な影響を反映しました。[詳細情報](../building-journeys/read-segment.md)
+* マテリアライズドセグメントへの影響を反映するように、オーディエンスの読み取りに関するドキュメントを更新しました。 [詳細情報](../building-journeys/read-audience.md)
 * ジャーニーの制限が更新されました。[詳細情報](../start/guardrails.md)
 * 「決定でのオファー選択の設定」の節を更新しました。[詳細情報](../offers/offer-activities/configure-offer-selection.md)
 * イベントベースのオファーは現在サポートされていないという警告を追加しました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#eligibility)

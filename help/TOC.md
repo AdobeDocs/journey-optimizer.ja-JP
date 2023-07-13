@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
       + [一般イベント](using/building-journeys/general-events.md)
       + [反応](using/building-journeys/reaction-events.md)
-      + [セグメントの選定](using/building-journeys/segment-qualification-events.md)
+      + [オーディエンスの選定](using/building-journeys/audience-qualification-events.md)
       + [条件](using/building-journeys/condition-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
-      + [セグメントの読み取り](using/building-journeys/read-segment.md)
+      + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
       + [メール, アプリ内, プッシュ, SMS](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
-+ セグメント、プロファイル、ID{#segment}
-   + セグメント {#segments}
-      + [セグメントの基本を学ぶ](using/segment/about-segments.md)
-      + [セグメントの作成](using/segment/creating-a-segment.md)
++ オーディエンス、プロファイルおよび ID{#audiences-profiles-identities}
+   + オーディエンス {#audiences}
+      + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
+      + [セグメント定義の作成](using/audience/creating-a-segment-definition.md)
    + プロファイル{#profiles}
-      + [プロファイルの基本を学ぶ](using/segment/get-started-profiles.md)
-      + [テストプロファイルの作成](using/segment/creating-test-profiles.md)
-   + [ID](using/segment/get-started-identity.md)
+      + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
+      + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
+   + [ID](using/audience/get-started-identity.md)
    + オーディエンスの作成 {#audience-orchestration}
-      + [オーディエンスコンポジションの基本を学ぶ](using/segment/get-started-audience-orchestration.md)
-      + [コンポジションワークフローの作成](using/segment/create-compositions.md)
-      + [コンポジションキャンバスの操作](using/segment/composition-canvas.md)
-      + [オーディエンスへのアクセスと管理](using/segment/access-audiences.md)
-   + [ライセンス使用状況](using/segment/license-usage.md)
+      + [オーディエンスコンポジションの基本を学ぶ](using/audience/get-started-audience-orchestration.md)
+      + [コンポジションワークフローの作成](using/audience/create-compositions.md)
+      + [コンポジションキャンバスの操作](using/audience/composition-canvas.md)
+      + [オーディエンスへのアクセスと管理](using/audience/access-audiences.md)
+   + [ライセンス使用状況](using/audience/license-usage.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの概要](using/reports/live-report.md)
@@ -489,4 +489,3 @@ ht-degree: 99%
       + [オプトアウトの管理](using/privacy/opt-out.md)
       + [同意ポリシーの使用](using/action/consent.md)
    + [データガバナンス](using/action/action-privacy.md)
-   + [顧客管理キーの設定と管理](using/privacy/cmk.md)

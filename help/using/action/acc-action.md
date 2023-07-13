@@ -9,10 +9,10 @@ role: Admin,Developer
 level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 
 ## 重要な注意事項 {#important-notes}
 
-* メッセージのスロットル処理はおこなわれません。システムは現在の Campaign SLA に基づいて、送信できるメッセージ数を 5 分ごとに 4,000 件までに制限します。この理由から、Journey Optimizer は単一のユースケース（セグメントではなく個々のイベント）でのみ使用してください。
+* メッセージのスロットル処理はおこなわれません。システムは現在の Campaign SLA に基づいて、送信できるメッセージ数を 5 分ごとに 4,000 件までに制限します。このため、Journey Optimizerは、単一の使用例（オーディエンスではなく個々のイベント）でのみ使用する必要があります。
 
 * 使用するテンプレートごとに、1 つのアクションをキャンバス上に設定する必要があります。Adobe Campaign から使用する各テンプレートに対して、Journey Optimizer でアクションを 1 つずつ設定する必要があります。
 
@@ -41,8 +41,7 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 
 * ペイロード、または Campaign メッセージが正しいかどうかは検証されません。
 
-* セグメントの選定イベントでは、Campaign アクションを使用できません。
-
+* オーディエンスの選定イベントでは、キャンペーンアクションを使用できません。
 
 ## 前提条件 {#prerequisites}
 

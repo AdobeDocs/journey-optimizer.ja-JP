@@ -4,10 +4,10 @@ product: journey optimizer
 title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer UI の至る所で登場する式エディターコンポーネントと同じものを使用して、Adobe Experience Platform のプロファイル属性とセグメントでオファーのコンテンツをパーソナライズできるようになりました。 </p>
+<p>Journey Optimizer UI 全体で見つかるのと同じ式エディターコンポーネントを使用して、Adobe Experience Platformのプロファイル属性とオーディエンスを使用して、オファーのコンテンツをパーソナライズできるようになりました。 </p>
 <p>詳しくは、<a href="../offers/offer-library/creating-personalized-offers.md#custom-text">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* **式エディター** - パワーユーザーは、関数を使用してマップを操作できるようになりました。この機能は、サブスクリプションリストで利用できます。例えば、セグメントでは、サブスクリプションリストからメールアドレスを取得できるようになりました。詳しくは、[このサンプル](../building-journeys/message-to-subscribers-uc.md)を参照してください。
+* **式エディター** - パワーユーザーは、関数を使用してマップを操作できるようになりました。この機能は、サブスクリプションリストで利用できます。例えば、オーディエンスから、購読リストから電子メールアドレスを取得できるようになりました。 詳しくは、[このサンプル](../building-journeys/message-to-subscribers-uc.md)を参照してください。
 
 * **監視** - ライブジャーニーのステップイベントとテストモードが強化されました。プロファイルエクスポートジョブに関連する[新規フィールド](../reports/sharing-field-list.md#serviceevents)が追加されました。ユーザーエクスペリエンスを向上させるために、ステップイベントフィールドが様々なカテゴリに分類されるようになりました。以前のステップイベントフィールドはすべて、引き続き[stepEvents](../reports/sharing-legacy-fields.md) カテゴリで使用できます。
 * **アクセシビリティ** - ジャーニーにアクセシビリティ機能の強化が実装されました。
@@ -262,12 +262,12 @@ ht-degree: 100%
 
 * **動的ヘッダー** - HTTP ヘッダーパラメーターで動的データを渡せるようになりました。これらのパラメーターは、ジャーニーアクションの HTTP 呼び出し（タイムスタンプやトラッキング ID など）を受け取る統合システムで使用できます。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 * **動的 URL パス** - カスタムアクションの動的 URL パスを設定できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
-* 読み取りセグメントの全体的なスロットル率が、1 秒あたり17,000 メッセージから 20,000 メッセージに変更されました。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 読み取りオーディエンスの全体的なスロットル率は、1 秒あたり 17,000 件から 20,000 件に変更されました。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **ユーザーインターフェイス**
 
 * **検索** - すべてのページで、Experience Cloud 統合検索フィールドからビジネスオブジェクトやヘルプ記事を直接検索できるようになりました。[詳細情報](../start/user-interface.md#unified-search)
-* **最近使用したもの** - Adobe Journey Optimizer ホームページの最近の情報要素の表示が拡張され、追加のビジネスオブジェクトが含まれるようになりました。この更新で、最近アクセスしたものへのショートカットに、メッセージ、ジャーニー、セグメント、スキーマ、データセット、データソース、イベント、アクション、ソースおよび宛先が含まれるようになりました。[詳細情報](../action/about-custom-action-configuration.md#passing-collection)
+* **最近使用したもの** - Adobe Journey Optimizer ホームページの最近の情報要素の表示が拡張され、追加のビジネスオブジェクトが含まれるようになりました。この更新により、最近アクセスしたショートカットには、メッセージ、ジャーニー、オーディエンス、スキーマ、データセット、データソース、イベント、アクション、ソース、宛先が含まれます。 [詳細情報](../action/about-custom-action-configuration.md#passing-collection)
 
 **コンテンツデザイン**
 
@@ -337,12 +337,12 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* 同じサンドボックスで同時に実行されるすべての「セグメントを読み取り」アクティビティの全体的なスロットルレートは、1 秒あたり 17,000 メッセージに制限されています。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 同じサンドボックス内で同時に実行されるすべての読み取りオーディエンスの全体的なスロットル率は、1 秒あたり 17,000 件のメッセージに制限されます。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 「**キャッシュ時間**」フィールドがデータソース設定ペインから削除されました。[詳細情報](../datasource/about-data-sources.md)
 * 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。[詳細を読む](../configuration/external-systems.md#capping)
 * ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。[詳細を読む](../building-journeys/journey-gs.md#change-properties)
 * ジャーニーリスト画面にジャーニータイプフィルターが追加されました。[詳細を読む](../start/user-interface.md#filter-lists)
-* **[!UICONTROL スロットルレート]**&#x200B;パラメーターが「セグメントを読み取り」アクティビティに追加されました。[詳細情報](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* この **[!UICONTROL スロットル率]** パラメーターが「オーディエンスの閲覧」アクティビティに追加されました。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **プレビューとテスト**
 

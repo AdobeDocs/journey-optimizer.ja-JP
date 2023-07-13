@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: プレビュー, コンテンツ, メール, 配達確認, テスト, プロファイル
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 >
 >メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。
 >
->テストプロファイルの作成方法については、[このページ](../segment/creating-test-profiles.md)を参照してください。
+>テストプロファイルの作成方法については、[このページ](../audience/creating-test-profiles.md)を参照してください。
 
 メールコンテンツをテストするには、次の操作が必要です。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#email-rendering" text="メールのレンダリング"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#preview-email" text="プレビュー"
 
-[テストプロファイル](../segment/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、その他の受信者をターゲットに設定できます。
+[テストプロファイル](../audience/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、その他の受信者をターゲットに設定できます。
 
 テストプロファイルを選択する手順は、次のとおりです。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
    ![](assets/previewselect-namespace.png)
 
-   Adobe Experience Platform の ID 名前空間については、[この節](../segment/get-started-identity.md)を参照してください。
+   Adobe Experience Platform の ID 名前空間については、[この節](../audience/get-started-identity.md)を参照してください。
 
    以下の例では、**電子メール**&#x200B;名前空間を使用します。
 

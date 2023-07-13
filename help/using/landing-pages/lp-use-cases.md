@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -74,9 +74,9 @@ ht-degree: 100%
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 「**[!UICONTROL イベント]**」カテゴリを展開し、「**[!UICONTROL セグメントの選定]**」アクティビティをキャンバスにドロップします。[詳細情報](../building-journeys/segment-qualification-events.md)
+1. 「 **[!UICONTROL イベント]** カテゴリとドロップ **[!UICONTROL オーディエンスの選定]** アクティビティをキャンバスに追加します。 [詳細情報](../building-journeys/audience-qualification-events.md)
 
-1. 「**[!UICONTROL セグメント]**」フィールドをクリックし、作成した購読リストを選択します。
+1. をクリックします。 **[!UICONTROL 対象ユーザ]** 「 」フィールドで、作成した購読リストを選択します。
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -227,7 +227,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-create-journey.png)
 
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
 
     ![](assets/lp_subscription-uc-journey-event.png)
 
