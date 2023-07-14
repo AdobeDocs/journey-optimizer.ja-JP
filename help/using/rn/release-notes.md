@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50b917cf1cd23f46bf6b7cfd3d84226d5ad7adec
+source-git-commit: 2e3335372dca8c344773eaf365e8f90589ecfd7e
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 93%
 
 ---
@@ -75,9 +75,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 -->
-
-## 2023年5月リリースノート {#may-rn-2023}
-
 
 <!--
 ## June 2023 early release notes {#june-rn-2023}
