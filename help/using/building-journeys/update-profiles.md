@@ -10,7 +10,7 @@ level: Intermediate
 keywords: プロファイル, 更新, ジャーニー, アクティビティ
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
 ht-degree: 100%
 
