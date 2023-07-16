@@ -3,10 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 顧客管理キー
 description: Adobe Journey Optimizer の顧客キーを設定および管理する方法について説明します。
-feature: Customer Managed Keys
+feature: Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 53b37fbb0fc799a0757e3ba8da2c42093d460d00
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
