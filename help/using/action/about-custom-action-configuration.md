@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -39,8 +39,8 @@ ht-degree: 100%
 
 Journey Optimizer では、カスタムアクションにデータガバナンスポリシーと同意ポリシーを適用して、特定のフィールドがサードパーティシステムにエクスポートされないようにしたり、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外したりできます。詳しくは、次のページを参照してください。
 
-* [データガバナンス](../action/action.md)。
-* [同意](../action/action.md).
+* [データガバナンス](../action/action-privacy.md)。
+* [同意](../action/action-privacy.md).
 
 
 ## 設定の手順 {#configuration-steps}

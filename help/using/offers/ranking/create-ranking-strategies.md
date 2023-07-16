@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 91%
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ AI モデルを作成するには、次の手順を行います。
 1. AI モデルの一意の名前と説明を指定し、作成する AI モデルのタイプを選択します。
 
    * **[!UICONTROL 自動最適化]**&#x200B;は、過去のオファーのパフォーマンスに基づいてオファーを最適化します。[詳細情報](auto-optimization-model.md)
-   * **[!UICONTROL パーソナライズ]** は、オーディエンスとオファーのパフォーマンスに基づいてオファーを最適化し、パーソナライズします。 [詳細情報](personalized-optimization-model.md)
+   * **[!UICONTROL パーソナライズされた最適化]** は、オーディエンスとオファーのパフォーマンスに基づいてオファーを最適化し、パーソナライズします。 [詳細情報](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -61,7 +61,9 @@ AI モデルを作成するには、次の手順を行います。
    >
    >「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループ（以前の mixin）に関連付けられたスキーマから作成されたデータセットのみがドロップダウンリストに表示されます。
 
-1. 以下を作成する場合、 **[!UICONTROL パーソナライズされた最適化]** AI モデル：AI モデルのトレーニングに使用するオーディエンスを選択します。
+1. **[!UICONTROL パーソナライズされた最適化]**&#x200B;の AI モデルを作成する場合は、AI モデルのトレーニングに使用するセグメントを選択します。
+
+   ➡️ [この機能をビデオで確認](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 88%
+source-wordcount: '595'
+ht-degree: 79%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 88%
 
 1. 必要に応じて、条件付きルールを作成します。これを行うには、左のメニューから目的の属性をキャンバスにドラッグ&amp;ドロップして配置します。
 
-   属性をキャンバスに組み合わせる手順は、セグメント定義の作成エクスペリエンスと似ています。 ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#rule-builder-canvas)を参照してください。
+属性をキャンバスに組み合わせる手順は、セグメント作成のエクスペリエンスと似ています。ルールビルダーキャンバスの操作方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#rule-builder-canvas)を参照してください。
 
-   ![](assets/conditions-create.png)
-
-   属性は次の 3 つのタブに整理されます。
-
-   * **[!UICONTROL プロファイル]**：
-      * **[!UICONTROL オーディエンス]** には、すべてのオーディエンス属性（ステータス、バージョンなど）がリストされます。 [Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)のすべてのセグメント属性（ステータス、バージョンなど）が一覧表示されます。
-      * **[!UICONTROL XDM 個別プロファイル]**&#x200B;には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に関連するすべてのプロファイル属性が一覧表示されます。
-   * **[!UICONTROL コンテキスト]**：ジャーニーでメッセージを使用している場合、コンテキストジャーニーフィールドをこのタブから使用できます。
-   * **[!UICONTROL オーディエンス]**:に、 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja).
+    ![](assets/conditions-create.png)
+    
+    属性は次の 3 つのタブに整理されます。
+    
+    * **[!UICONTROL プロファイル]**:
+    * **[!UICONTROL オーディエンス]**すべてのオーディエンス属性（ステータス、バージョンなど）がリストされます。 ([Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) の場合 )
+    * **[!UICONTROL XDM 個別プロファイル]**は、Adobe Experience Platformで定義されている [Experience Data Model(XDM) スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) に関連付けられているすべてのプロファイル属性をリストします。
+    * **[!UICONTROL コンテキスト]**:メッセージをジャーニーで使用する場合、このタブからコンテキストジャーニーフィールドを使用できます。
+    * **[!UICONTROL オーディエンス]**:[Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) で作成されたセグメント定義から生成されたすべてのオーディエンスを一覧表示します。
 
 1. 条件付きルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
 

@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
-source-wordcount: '433'
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+workflow-type: tm+mt
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -27,10 +27,12 @@ ht-degree: 100%
 
 * ジャーニー
 * キャンペーン
-* Landing page
+* テンプレート
+* フラグメント
+* ランディングページ
 * オファー
-* オファーコレクション
-* Offer Decisioning
+* 静的なオファーコレクション
+* オファーの決定
 
 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることを目的としています。
 
