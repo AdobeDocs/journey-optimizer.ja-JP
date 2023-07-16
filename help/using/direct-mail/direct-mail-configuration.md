@@ -12,7 +12,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
 source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -69,8 +69,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="AWS リージョンの選択"
->abstract="ダイレクトメールファイルの書き出し先となる AWS サーバーの地域を選択します。一般的には、ダイレクトメールプロバイダーの場所に最も近い地域を選択することをお勧めします。"
+>title="AWS リージョンを選択"
+>abstract="ダイレクトメールファイルの書き出し先となる AWS サーバーのリージョンを選択します。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。"
 
 ダイレクトメールメッセージを配信するために、[!DNL Journey Optimizer] はターゲットオーディエンスデータを含むファイルを生成し、サーバーに書き出します。
 
