@@ -10,7 +10,7 @@ level: Beginner
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
