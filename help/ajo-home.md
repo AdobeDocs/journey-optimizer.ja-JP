@@ -58,7 +58,7 @@ ht-degree: 100%
     <p> [!DNL Journey Optimizer] の主な設定手順を説明します
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> へのアクセス付与
+    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> にアクセス権を付与
     </div>
     <p>[!DNL Journey Optimizer] ユーザーに割り当てられる権限を定義し管理する方法について説明します
     <p>
