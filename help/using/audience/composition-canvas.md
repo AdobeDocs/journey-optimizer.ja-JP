@@ -12,7 +12,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="エンリッチメントアクティビティ"
->abstract="「強化」アクティビティを使用して、Adobe Experience Platformデータセットから取得した追加の属性でオーディエンスを強化します。 例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。"
+>abstract="エンリッチメントアクティビティを使用すると、Adobe Experience Platform データセットから取得した追加の属性でオーディエンスを強化できます。例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
