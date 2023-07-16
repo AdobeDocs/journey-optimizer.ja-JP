@@ -46,7 +46,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="ファイルのルーティング設定の定義"
+>title="ファイルのルーティング設定を定義"
 >abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーに書き出されます。ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
 
 <!--
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="ファイルのルーティング設定の定義"
+>title="ファイルのルーティング設定を定義"
 >abstract="ダイレクトメールプロバイダーが使用するファイルの書き出し先を定義する必要があります。"
 
 >[!CONTEXTUALHELP]
