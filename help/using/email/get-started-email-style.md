@@ -10,7 +10,7 @@ level: Intermediate
 keywords: メール, スタイル, css, 本文, 構造
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
