@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 83%
 
 ---
 
@@ -62,9 +62,9 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-ランキング戦略を選択することで、特定のプロファイルに対して表示するオファーを自動的にランク付けするトレーニング済みモデルシステムを使用することもできます。ランキング戦略を作成する方法については、[この節](../ranking/create-ranking-strategies.md)を参照してください。
+また、AI モデルを選択することで、特定のプロファイルに対して表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。 で AI モデルを作成する方法を説明します。 [この節](../ranking/create-ranking-strategies.md).
 
-ランキング戦略を作成したら、決定内のプレースメントに割り当てることができます。これを行うには、次の手順に従います。
+AI モデルが作成されたら、その AI モデルを決定内の配置に割り当てることができます。 これを行うには、次の手順に従います。
 
 1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
@@ -76,11 +76,11 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. 作成したランキング戦略を選択します。ランキング戦略の詳細がすべて表示されます。
+1. 作成した AI モデルを選択します。 モデルの詳細がすべて表示されます。
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 「**[!UICONTROL 選択]**」をクリックします。これで、ランキング戦略がプレースメントに関連付けられました。
+1. 「**[!UICONTROL 選択]**」をクリックします。これで、AI モデルが配置に関連付けられました。
 
 複数のオファーが適格な場合、トレーニング済みモデルシステムは、特定のプレースメントに対して最初に提示するオファーを決定します。
 
