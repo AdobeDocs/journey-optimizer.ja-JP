@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 98%
+source-wordcount: '1415'
+ht-degree: 90%
 
 ---
 
 # コンポジションキャンバスの操作 {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+このドキュメントでは、Adobe Journey Optimizer内でオーディエンスの構成を使用する方法に関する詳細情報を提供します。 Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 オーディエンスコンポジションは、オーディエンスを作成し、様々なアクティビティ（分割、エンリッチメントなど）を使用できる視覚的なキャンバスを提供します。
 
@@ -137,9 +143,11 @@ ht-degree: 98%
 
 **[!UICONTROL エンリッチメント]**&#x200B;アクティビティを使用すると、Adobe Experience Platform データセットから取得した追加の属性でオーディエンスを強化できます。 例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。
 
->[!IMPORTANT]
->
->現時点では、データセットレベルまたはフィールドレベルのデータセットのラベルは、新しく作成されたオーディエンスには反映されません。 これは、結果として生じるオーディエンスのアクセス制御やデータガバナンスに影響を与える可能性があります。 このため、オーディエンスを構成する際は、テストデータのみを使用してください。
+を操作する際には、次の制限事項に注意してください。 **[!UICONTROL 強化]** アクティビティ：
+
+* **データセット** のエンリッチメントは、（イベントタイプとは異なる）レコードタイプである必要があり、システムデータセットにしたり、プロファイル用にマークしたりすることはできません。 1 GB 未満である必要があります。
+* **エンリッチメントは 1:1 結合をサポートします**. つまり、結合キーがエンリッチメントデータセットで複数の一致を持つ場合、一致の 1 つを選択し、それを 1:1 結合に使用します。
+* **RTCDP の宛先でオーディエンスをアクティブ化できます**&#x200B;エンリッチメント属性がある場合、できません。
 
 アクティビティを設定するには、次の手順に従います。
 
