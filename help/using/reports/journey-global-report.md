@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: ht
-source-wordcount: '2095'
-ht-degree: 100%
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+workflow-type: tm+mt
+source-wordcount: '2087'
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 **[!UICONTROL メール送信統計]**&#x200B;グラフは、配信の成功の詳細を示します。
 
-* **[!UICONTROL ターゲット]**：任意のアクション（メールや SMS の送信など）で Adobe Journey Orchestration がターゲットとするプロファイルの数。
+* **[!UICONTROL ターゲット]**:電子メールや SMS の送信など、任意のアクションをターゲットにしたプロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 「**[!UICONTROL プッシュ通知 - 送信統計]**」テーブルは、プッシュ通知に関連するメイン情報の詳細をグラフと KPI で示します。
 
-* **[!UICONTROL ターゲット]**：メールや SMS の送信などの任意のアクションに対して Adobe Journey Orchestration がターゲットとするプロファイルの数。
+* **[!UICONTROL ターゲット]**:電子メールや SMS の送信など、任意のアクションをターゲットにしたプロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
