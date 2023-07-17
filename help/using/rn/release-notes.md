@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
+source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 93%
+source-wordcount: '2695'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 93%
 
 ## 2023 年 7 月のアップデート
 
-
 <table>
 <thead>
 <tr>
@@ -35,13 +34,16 @@ ht-degree: 93%
 <tr>
 <td>
 <p>合成ワークフローを作成して、既存のAdobe Experience Platformオーディエンスを視覚的なキャンバスに組み合わせ、様々なアクティビティ（分割、エンリッチメントなど）を活用して新しいオーディエンスを作成できるようになりました。 新しく作成したオーディエンスは、既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerキャンペーンで顧客をターゲットに設定するために利用できます。</p>
+
 <img src="../audience/assets/audiences-publish.png"/>
+
 <p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
+
+<p>オーディエンス構成は、新しいAdobe Experience Platformの「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。 セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探すことができるようになりました。 このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。 この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platformドキュメント</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ## 2023年6月リリースノート {#june-rn-2023}
 
