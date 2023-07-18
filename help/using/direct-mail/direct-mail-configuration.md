@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >ファイルのルーティングオプションを設定していない場合は、ダイレクトメールサーフェスを作成できません。
 
-## ファイルのルーティングの設定 {#file-routing-configuration}
+## ファイルのルーティングを設定 {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="ファイルのサーバータイプの選択"
+>title="ファイルのサーバータイプを選択"
 >abstract="ダイレクトメールファイルの書き出しに使用するサーバーのタイプを選択します。現在、Amazon S3 と SFTP のみが Journey Optimizer でサポートされています。"
 
 >[!CONTEXTUALHELP]
@@ -116,7 +116,7 @@ ht-degree: 100%
 >id="ajo_dm_surface_settings"
 >title="ダイレクトメール設定を定義します。"
 >abstract="ダイレクトメールサーフェスには、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。また、ファイルのルーティング設定を選択して、ファイルの書き出し先を定義する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=ja#file-routing-configuration" text="ファイルのルーティングの設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=ja#file-routing-configuration" text="ファイルのルーティングを設定"
 
 <!--
 >[!CONTEXTUALHELP]
