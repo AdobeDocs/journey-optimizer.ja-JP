@@ -8,10 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-badge: label="Beta" type="Informative"
-source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
+source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 88%
 
 ---
