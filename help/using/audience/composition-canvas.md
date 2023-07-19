@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 90%
+source-wordcount: '1417'
+ht-degree: 88%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="エンリッチメント属性"
->abstract="オーディエンスに関連付ける 1 つ以上の属性をエンリッチメントデータセットから選択します。 コンポジションが公開されると、これらの属性がオーディエンスに関連付けられ、キャンペーンで配信をパーソナライズするために利用できます。"
+>abstract="オーディエンスに関連付ける 1 つ以上の属性をエンリッチメントデータセットから選択します。 構成が公開されると、これらの属性はオーディエンスに関連付けられ、Journey Optimizerキャンペーンで配信をパーソナライズするために利用できます。"
 
 **[!UICONTROL エンリッチメント]**&#x200B;アクティビティを使用すると、Adobe Experience Platform データセットから取得した追加の属性でオーディエンスを強化できます。 例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。
 

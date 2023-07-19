@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 0996de79ae5b9593db8ec61ba51fc17073c0f458
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 80%
+source-wordcount: '314'
+ht-degree: 78%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer内でオーディエンスの構成を使用する方法に関する詳細情報を提供します。 Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+このドキュメントでは、Adobe Journey Optimizer内でオーディエンスの構成を使用する方法に関する詳細情報を提供します。 リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
 
 >[!ENDSHADEBOX]
 
