@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizerの早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 28%
+source-wordcount: '626'
+ht-degree: 26%
 
 ---
 
@@ -55,9 +55,10 @@ ht-degree: 28%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerは、ダイレクトメールチャネルのサポートを追加して、クロスチャネル機能を拡張しています。 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルをパーソナライズおよび生成できるオフラインチャネルです。</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>キャンペーンおよびジャーニーにダイレクトメールメッセージを追加できるようになりました。 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズし、生成できるオフラインチャネルです。</p>
+<p>ダイレクトメール配信を準備すると、Journey Optimizerによって、すべてのターゲットプロファイルと選択した連絡先情報（例えば、郵送先住所）を含むファイルが生成されます。 その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>詳しくは、<a href="../direct-mail/create-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
