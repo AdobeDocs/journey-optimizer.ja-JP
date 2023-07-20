@@ -5,7 +5,7 @@ title: リリースノート
 description: Journey Optimizerの早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
+source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 26%
@@ -73,7 +73,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>Journey Optimizerの E メールエディターで、任意のHTMLコンテンツを読み込んで変換できるようになりました。 コンテンツブロックは自動的に識別され、E メールデザイナーで使用できます。強力なデザイン機能を使用して、更新とパーソナライズをおこないます。</p>
-<!--img src="../audience/assets/audiences-publish.png"/-->
+<img src="../email/assets/html-imported_2.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
