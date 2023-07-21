@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizerの早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 26%
+source-wordcount: '616'
+ht-degree: 24%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 26%
 <tbody>
 <tr>
 <td>
-<p>キャンペーンおよびジャーニーにダイレクトメールメッセージを追加できるようになりました。 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズし、生成できるオフラインチャネルです。</p>
+<p>これで、キャンペーンにダイレクトメールメッセージを追加できます。 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズし、生成できるオフラインチャネルです。</p>
 <p>ダイレクトメール配信を準備すると、Journey Optimizerによって、すべてのターゲットプロファイルと選択した連絡先情報（例えば、郵送先住所）を含むファイルが生成されます。 その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>詳しくは、<a href="../direct-mail/create-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
@@ -90,7 +90,7 @@ ht-degree: 26%
 <tbody>
 <tr>
 <td>
-<p>キャンペーンやジャーニーに加えて、Adobe Experience Platform統合タグをランディングページ、テンプレート、コンテンツフラグメント、購読リストに割り当てることができるようになりました。 これにより、簡単に分類でき、すべてのリストでの検索とナビゲーションを改善できます。 </p>
+<p>キャンペーンやジャーニーに加えて、Adobe Experience Platform統合タグをランディングページ、コンテンツテンプレート、フラグメント、購読リストに割り当てることができるようになりました。 これにより、簡単に分類でき、すべてのリストでの検索とナビゲーションを改善できます。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>詳しくは、 <a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -105,7 +105,7 @@ ht-degree: 26%
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受け取れるようになりました。
 
 
