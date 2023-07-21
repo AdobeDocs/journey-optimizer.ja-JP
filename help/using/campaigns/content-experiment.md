@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス,
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 94%
+source-wordcount: '797'
+ht-degree: 88%
 
 ---
 
@@ -88,6 +88,16 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
    ![](assets/content_experiment_5.png)
 
 ## コンテンツ実験の設定 {#configure-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="ディメンション"
+>abstract="特定のページの特定のクリック数やビュー数など、実験について追跡する特定のディメンションを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="成功指標"
+>abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡し評価するために使用されます。 使用する前に、特定の指標のデータセットを必ず設定してください。"
 
 1. 配信をパーソナライズしたら、キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。
 
