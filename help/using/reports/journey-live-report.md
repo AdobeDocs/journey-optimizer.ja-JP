@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: ht
-source-wordcount: '1189'
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+workflow-type: tm+mt
+source-wordcount: '1177'
 ht-degree: 100%
 
 ---
@@ -170,8 +170,6 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
-
 * **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
 
 * **[!UICONTROL クリック数]**：配信でコンテンツがクリックされた回数。
@@ -181,8 +179,6 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 
 **[!UICONTROL SMS の概要]**&#x200B;グラフは、配信の成功の詳細を示します。
-
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
 * **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 

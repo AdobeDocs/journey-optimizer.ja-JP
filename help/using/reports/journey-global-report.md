@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2057'
 ht-degree: 98%
 
 ---
@@ -271,17 +271,13 @@ SMS の&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、配信�
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
-
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
 **[!UICONTROL SMS の概要]**&#x200B;ウィジェットは、メッセージに関連する主な情報の詳細をグラフで表示します。
 
-* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
-
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 

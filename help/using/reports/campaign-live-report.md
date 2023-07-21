@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: ht
-source-wordcount: '1100'
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+workflow-type: tm+mt
+source-wordcount: '1088'
 ht-degree: 100%
 
 ---
@@ -146,8 +146,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
-
 * **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
@@ -157,8 +155,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 **[!UICONTROL SMS の日別パフォーマンス]**&#x200B;ウィジェットは、メッセージに関連する主な情報の詳細をグラフで表示します。
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
-
-* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
 * **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
 

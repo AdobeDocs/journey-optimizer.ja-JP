@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: ht
-source-wordcount: '2313'
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+workflow-type: tm+mt
+source-wordcount: '2283'
 ht-degree: 100%
 
 ---
@@ -312,17 +312,13 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
-
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
 **[!UICONTROL SMS の日別パフォーマンス]**&#x200B;ウィジェットは、メッセージに関連する主な情報の詳細をグラフで表示します。
 
-* **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
-
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
