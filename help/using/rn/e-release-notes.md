@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizerの早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
+source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 24%
+source-wordcount: '740'
+ht-degree: 21%
 
 ---
 
@@ -26,6 +26,23 @@ ht-degree: 24%
 ### 新機能{#july-2023-features}
 
 このリリースでは、以下に示す新機能が導入されています。
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツテンプレート API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>専用 API を使用してAdobe Journey Optimizerコンテンツテンプレートを作成および管理できるようになり、既存のコンテンツシステムとシームレスに統合できます。</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -109,7 +126,6 @@ ht-degree: 24%
 * 新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受け取れるようになりました。
 
 
-
 **キャンペーン**
 
 * キャンペーンに関連するコンテキストイベントを、パーソナライゼーションエディターの「コンテキスト属性」メニューで使用できるようになりました。
@@ -126,5 +142,15 @@ Audience Composition ポータルのリリースに伴い、Adobe Experience Pla
 
 その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、この新しいオーディエンスの作成と管理のパスを反映して、「セグメント」が「オーディエンス」に置き換えられるようになります。
 
+**API**
+
+Adobe Journey Optimizer API 認証：アクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方式を使用して作成する必要があります。 Adobeでは、既存の統合を OAuth メソッドに移行することもお勧めします。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**その他の変更**
+
+Journey Optimizerデータセットのクラウドストレージの宛先への書き出しを、すべてのお客様が利用できるようになりました。 この機能を使用すると、クラウドストレージの場所とのライブ接続を確立して、データセットの内容を書き出すことができます。 [詳細情報](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>この機能は現在ベータ版で、変更される可能性があります。</p>
