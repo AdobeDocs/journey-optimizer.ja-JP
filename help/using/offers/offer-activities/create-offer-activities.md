@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2164'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,17 +72,17 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL 実施要件]**」フィールドを使用して、このプレースメントのオファーの選択を制限します。
 
-   この制約は、 **決定ルール**&#x200B;または 1 つまたは複数 **Adobe Experience Platform audiences**. この両方について詳しくは、[この節](../offer-library/add-constraints.md#segments-vs-decision-rules)を参照してください。
+   この制約は、**決定ルール**&#x200B;または 1 つ以上の **Adobe Experience Platform オーディエンス**&#x200B;を使用して適用できます。この両方について詳しくは、[この節](../offer-library/add-constraints.md#segments-vs-decision-rules)を参照してください。
 
-   * オファーの選択をExperience Platformオーディエンスのメンバーに制限するには、 **[!UICONTROL オーディエンス]**&#x200B;を選択し、「 **[!UICONTROL オーディエンスを追加]**.
+   * オファーの選択を Experience Platform オーディエンスのメンバーに限定するには、「**[!UICONTROL オーディエンス]**」を選択したあと、「**[!UICONTROL オーディエンスを追加]**」をクリックします。
 
      ![](../assets/activity_constraint_segment.png)
 
-     左側のパネルから 1 つ以上のオーディエンスを追加し、 **[!UICONTROL および]** / **[!UICONTROL または]** 論理演算子。
+     左側のパネルから 1 つまたは複数のオーディエンスを追加し、**[!UICONTROL かつ]**／**[!UICONTROL または]**&#x200B;論理演算子を使用してそれらを結合します。
 
      ![](../assets/activity_constraint_segment2.png)
 
-     でのオーディエンスの操作方法を説明します。 [この節](../../audience/about-audiences.md).
+     オーディエンスの操作方法については、[この節](../../audience/about-audiences.md)を参照してください。
 
    * 決定ルールに選択制約を追加する場合は、「**[!UICONTROL 決定ルール]**」オプションを使用し、任意のルールを選択します。
 
@@ -90,7 +90,7 @@ ht-degree: 96%
 
      決定ルールの作成方法については、 [この節](../offer-library/creating-decision-rules.md)を参照してください。
 
-1. オーディエンスまたは決定ルールを選択すると、推定認定プロファイルに関する情報を確認できます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
+1. オーディエンスまたは決定ルールを選択すると、推定される認定プロファイルに関する情報が表示されます。「**[!UICONTROL 更新]**」をクリックして、データを更新します。
 
    >[!NOTE]
    >
@@ -298,7 +298,7 @@ ht-degree: 96%
 
    ![](../assets/review-decision.png)
 
-1. 各プレースメントを展開または折りたたむことができます。プレースメントごとに、使用可能なオファー、実施要件およびランキングの詳細をプレビューできます。また、推定認定プロファイルに関する情報を表示することもできます。「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
+1. 各プレースメントを展開または折りたたむことができます。プレースメントごとに、使用可能なオファー、実施要件およびランキングの詳細をプレビューできます。また、推定認定プロファイルに関する情報を表示することもできます。「**[!UICONTROL 更新]**」をクリックして、データを更新します。
 
    ![](../assets/review-decision-details.png)
 
