@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ AI モデルを作成するには、次の手順を行います。
 1. AI モデルの一意の名前と説明を指定し、作成する AI モデルのタイプを選択します。
 
    * **[!UICONTROL 自動最適化]**&#x200B;は、過去のオファーのパフォーマンスに基づいてオファーを最適化します。[詳細情報](auto-optimization-model.md)
-   * **[!UICONTROL パーソナライズされた最適化]** は、オーディエンスとオファーのパフォーマンスに基づいてオファーを最適化し、パーソナライズします。 [詳細情報](personalized-optimization-model.md)
+   * **[!UICONTROL パーソナライズされた最適化]**&#x200B;では、オーディエンスとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズします。[詳細情報](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -69,7 +69,7 @@ AI モデルを作成するには、次の手順を行います。
 
    >[!NOTE]
    >
-   >最大 5 つのオーディエンスを選択できます。
+   >最大 5 個のオーディエンスを選択できます。
 
 1. AI モデルを保存して有効化します。
 
