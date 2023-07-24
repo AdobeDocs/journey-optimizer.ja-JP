@@ -10,9 +10,9 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 99%
 >id="ac_preview_lp_profiles"
 >title="ランディングページのプレビューとテスト"
 >abstract="ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="テストプロファイルの選択"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルの選択"
 
 ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
 
