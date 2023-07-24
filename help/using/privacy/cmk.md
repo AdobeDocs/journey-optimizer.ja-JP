@@ -7,7 +7,7 @@ feature: Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 source-git-commit: 53b37fbb0fc799a0757e3ba8da2c42093d460d00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
