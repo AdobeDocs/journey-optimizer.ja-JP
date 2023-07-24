@@ -9,9 +9,9 @@ level: Beginner
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 * 「**[!UICONTROL 新規エントリに対してクローズ]**」ボタンを使用して手動でジャーニーをクローズする。
 * セグメントベースの 1 回限りのジャーニーが終了した。
-* 繰り返しオーディエンスベースのジャーニーの最後のオカレンスの後。
+* オーディエンスベースの繰り返しジャーニーの最後の実行の後。
 
 ジャーニーを手動でクローズすると、既にジャーニーにエントリしている顧客はパスを終了できますが、新しいユーザーはジャーニーにエントリできなくなります。（上記の理由のいずれかにより）ジャーニーをクローズした場合、ステータスは「**[!UICONTROL クローズド]**」になります。ジャーニーは、新しい個人がジャーニーにエントリするのを停止します。既にジャーニーにエントリしている人は、通常通りにジャーニーを終了することができます。デフォルトのグローバルタイムアウトである 30 日が経過すると、ジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。この[節](../building-journeys/journey-gs.md#global_timeout)を参照してください。
 
