@@ -9,9 +9,9 @@ level: Experienced
 keywords: ジャーニー, 式, エディター, プロパティ
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
 | | previousNodeName | 前のノード名 | 前のアクティビティ（ノード）の名前 |
 | エラー | lastNodeUIDInError | エラーの最後のノード識別子 | エラーが発生した最新のアクティビティ（ノード）の識別子 |
 | | lastNodeNameInError | エラーの最後のノード名 | エラーが発生した最新のアクティビティ（ノード）の名前 |
-| | lastNodeTypeInError | エラーの最後のノードタイプ | エラーが発生した最新のアクティビティ（ノード）のエラータイプ。考えられるタイプは次のとおりです。<ul><li>イベント：イベント、リアクション、SQ ( 例：オーディエンスの選定 )</li><li>フロー制御：終了、条件、待機</li><li>アクション：ACS アクション、ジャンプ、カスタムアクション</li></ul> |
+| | lastNodeTypeInError | エラーの最後のノードタイプ | エラーが発生した最新のアクティビティ（ノード）のエラータイプ。考えられるタイプは次のとおりです。<ul><li>イベント：イベント、反応、SQ（例：オーディエンスの選定）</li><li>フロー制御：終了、条件、待機</li><li>アクション：ACS アクション、ジャンプ、カスタムアクション</li></ul> |
 | | lastErrorCode | 前回のエラーコード | エラーが発生した最新のアクティビティ（ノード）のエラーコード。考えられるエラーは次のとおりです。 <ul><li>HTTP エラーコード</li><li>制限</li><li>タイムアウト</li><li>エラー（例：予期しないエラーが発生した場合のデフォルト。発生すべきでないか、きわめて稀にしか発生しない）</li></ul> |
 | | lastExecutedActionErrorCode | 前回実行されたアクションのエラーコード | エラーの最新アクションのエラーコード |
 | | lastDataFetchErrorCode | 前回のデータ取得エラーコード | データソースからの最新のデータ取得のエラーコード |
