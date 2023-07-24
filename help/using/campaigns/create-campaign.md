@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '863'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->新しいキャンペーンを作成する前に、サーフェスチャネル（例：メッセージプリセット）とAdobe Experience Platformオーディエンスが使用可能になっていることを確認します。 詳しくは、以下の節を参照してください。
+>新しいキャンペーンを作成する前に、サーフェスチャネル（メッセージプリセット）と Adobe Experience Platform オーディエンスが使用できる状態になっていることを確認します。詳しくは、以下の節を参照してください。
 >
 >* [チャネルサーフェスの作成](../configuration/channel-surfaces.md)
 >* [オーディエンスの基本を学ぶ](../audience/about-audiences.md)
