@@ -10,15 +10,15 @@ level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 条件付きルールの操作 {#conditions}
 
-条件ルールは、プロファイルの属性、オーディエンスのメンバーシップ、コンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
+条件付きルールとは、プロファイルの属性、オーディエンスメンバーシップ、コンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
 
 条件付きルールは、式エディターを使用して作成し、コンテンツ間で再利用する場合に保存できます。[ライブラリに条件付きルールを保存する方法を学ぶ](#save)
 
@@ -62,11 +62,11 @@ ht-degree: 79%
     
     属性は次の 3 つのタブに整理されます。
     
-    * **[!UICONTROL プロファイル]**:
-    * **[!UICONTROL オーディエンス]**すべてのオーディエンス属性（ステータス、バージョンなど）がリストされます。 ([Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) の場合 )
-    * **[!UICONTROL XDM 個別プロファイル]**は、Adobe Experience Platformで定義されている [Experience Data Model(XDM) スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) に関連付けられているすべてのプロファイル属性をリストします。
-    * **[!UICONTROL コンテキスト]**:メッセージをジャーニーで使用する場合、このタブからコンテキストジャーニーフィールドを使用できます。
-    * **[!UICONTROL オーディエンス]**:[Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) で作成されたセグメント定義から生成されたすべてのオーディエンスを一覧表示します。
+    * **[!UICONTROL プロファイル]**：
+    * **[!UICONTROL オーディエンス]** には、すべてのオーディエンス属性（ステータス、バージョンなど）がリストされます（[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)の場合）。
+    * **[!UICONTROL XDM 個別プロファイル]** には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に関連するすべてのプロファイル属性がリストされます。
+    * **[!UICONTROL コンテキスト]**：ジャーニーでメッセージを使用している場合、コンテキストジャーニーフィールドをこのタブから使用できます。
+    * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)で作成されたセグメント定義から生成されたすべてのオーディエンスがリストされます。
 
 1. 条件付きルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
 
