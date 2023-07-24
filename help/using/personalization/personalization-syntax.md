@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -77,10 +77,10 @@ Handlebars では、{{expression}} から返される値は **HTML エスケー�
 
 ## オーディエンス{#perso-segments}
 
-で条件でプロファイル属性を活用する方法については、[この節](functions/helpers.md#if-function)を参照してください。
+条件でプロファイル属性を活用する方法については、[この節](functions/helpers.md#if-function)を参照してください。
 
 >[!NOTE]
->セグメント化サービスについて詳しくは、 [このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}.
+>セグメント化サービスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## オファー {#offers-syntax}
 
