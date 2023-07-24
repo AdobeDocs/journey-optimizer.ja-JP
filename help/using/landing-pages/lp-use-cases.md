@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -74,9 +74,9 @@ ht-degree: 97%
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 「 **[!UICONTROL イベント]** カテゴリとドロップ **[!UICONTROL オーディエンスの選定]** アクティビティをキャンバスに追加します。 [詳細情報](../building-journeys/audience-qualification-events.md)
+1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。[詳細情報](../building-journeys/audience-qualification-events.md)
 
-1. をクリックします。 **[!UICONTROL 対象ユーザ]** 「 」フィールドで、作成した購読リストを選択します。
+1. 「**[!UICONTROL オーディエンス]**」フィールドをクリックし、作成した購読リストを選択します。
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
