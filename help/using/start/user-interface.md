@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 98%
 
 このセクションでは、オーディエンスとプロファイルデータを管理します。
 
-* **[!UICONTROL オーディエンス]** -Experience Platformオーディエンスを作成および管理し、ジャーニーで使用します。 [詳細情報](../audience/about-audiences.md)
+* **[!UICONTROL オーディエンス]** - Experience Platform オーディエンスを作成および管理し、それらをジャーニーに使用します。[詳細情報](../audience/about-audiences.md)
 
 * **[!UICONTROL 購読リスト]** - [!DNL Journey Optimizer] では、購読サービスにオプトインした顧客が購読リストに収集されます。[詳細情報](../landing-pages/subscription-list.md)
 
