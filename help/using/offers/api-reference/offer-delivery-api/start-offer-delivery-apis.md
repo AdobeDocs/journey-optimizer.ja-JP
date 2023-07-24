@@ -7,15 +7,15 @@ role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # オファー配信 API の概要 {#about-decisioning-apis}
 
-**Decisioning** API または **Edge Decisioning** API のいずれかを使用してオファーを配信できます。また、 **バッチ判定** API を使用すると、特定のオーディエンス内のすべてのプロファイルに対して、1 回の呼び出しでオファーを配信できます。 オーディエンス内の各プロファイルのオファーコンテンツは、Adobe Experience Platformデータセットに配置され、カスタムのバッチワークフローで使用できます。
+**Decisioning** API または **Edge Decisioning** API のいずれかを使用してオファーを配信できます。さらに、**Batch Decisioning** API を使用すると、特定のオーディエンス内のすべてのプロファイルに 1 回の呼び出しでオファーを配信できます。オーディエンス内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 
 このページでは、**Decisioning** API と **Edge Decisioning** API で利用できる特定の機能について説明します。どちらでも顧客にオファーを配信することができますが、インバウンドのユースケースにはできるだけ **Edge Decisioning** API を使用し、プラットフォームでの待ち時間とスループットを改善することをお勧めします。
 
