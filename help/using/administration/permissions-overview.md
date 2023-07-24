@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 59%
 
 [!DNL Journey Optimizer] のユーザー管理は、次の 3 つの概念に基づいています。
 
-* **[!UICONTROL 役割]**:インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできる単一の権限のセット。 詳しくは、 [標準の役割](ootb-product-profiles.md) 」セクションに入力します。
+* **[!UICONTROL 役割]**：インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにするための単一権限のセット。詳しくは、[標準の役割](ootb-product-profiles.md)の節を参照してください。
 
-* **[!UICONTROL 権限]**:割り当てる権限を定義できる単一の権限 **[!UICONTROL 役割]**. 各権限は、リソース (ジャーニーやオファーなど ) の下に収集されます。このリソースは、 [!DNL Journey Optimizer]. [権限レベル](high-low-permissions.md)の節を参照してください。
+* **[!UICONTROL 権限]**：**[!UICONTROL 役割]**&#x200B;に割り当てる許可を定義できるようにするための単一の権利。各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。[権限レベル](high-low-permissions.md)の節を参照してください。
 
 * **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[サンドボックスの使用](sandboxes.md)を参照してください。。
 
@@ -36,6 +36,6 @@ ht-degree: 59%
 
 ## チュートリアルビデオ{#video}
 
-Adobe Journey Optimizerでのアクセス制御システムとカスタムプロールについて詳しく説明します。 役割と権限を管理する方法、およびユーザーを追加および管理する方法について説明します。
+Adobe Journey Optimizer でのアクセス制御システムとカスタムの役割について詳しく説明します。役割と権限を管理する方法と、ユーザーを追加および管理する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
