@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 ## Adobe Analytics{#integration-aa}
 
-リアルタイムのジャーニーをトリガーし、顧客のエクスペリエンスを自動化するために、既にキャプチャして Adobe Experience Platform にストリーミングしている Adobe Analytics のあらゆる行動イベントデータを活用できます。このデータは、Journey Optimizerを使用してエンゲージできるオーディエンスの作成にも使用できます。
+リアルタイムのジャーニーをトリガーし、顧客のエクスペリエンスを自動化するために、既にキャプチャして Adobe Experience Platform にストリーミングしている Adobe Analytics のあらゆる行動イベントデータを活用できます。このデータは、Journey Optimizer を使用してエンゲージ可能なオーディエンスの作成にも使用できます。
 
 詳しくは、[Journey Optimizer + Analytics](../event/about-analytics.md) を参照してください。
 
