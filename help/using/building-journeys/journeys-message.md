@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 ジャーニーにメッセージを追加するには、次の手順に従います。
 
-1. ジャーニーを開始するには、 [イベント](general-events.md) または [オーディエンスの閲覧](read-audience.md) アクティビティ。
+1. ジャーニーを[イベント](general-events.md)または[オーディエンスを読み取り](read-audience.md)アクティビティで開始します。
 
 1. パレットの「**アクション**」セクションで、**メール**、**アプリ内**、**SMS** または **プッシュ**&#x200B;アクティビティをキャンバスに追加します。
 
