@@ -11,7 +11,7 @@ exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer内でオーディエンスの構成を使用する方法に関する詳細情報を提供します。 Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください。
 
 >[!ENDSHADEBOX]
 
-オーディエンスの構成から生成されたオーディエンスには、 **[!UICONTROL 参照]** 」タブをクリックします。 **[!UICONTROL オーディエンス]** メニュー
+オーディエンス構成から生成されたオーディエンスには、**[!UICONTROL オーディエンス]**&#x200B;メニューの「**[!UICONTROL 参照]**」タブからアクセスできます。
 
 このタブには、Adobe Experience Platform に保存されているすべてのオーディエンスが一覧表示されます。オーディエンスコンポジションを使用して作成されたオーディエンスは、**[!UICONTROL オーディエンスコンポジション]**&#x200B;オリジンによって識別できます。
 

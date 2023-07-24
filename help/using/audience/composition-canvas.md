@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer内でオーディエンスの構成を使用する方法に関する詳細情報を提供します。 Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください。
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 88%
 1. ターゲットとするオーディエンスを選択します。
 
    * 「**[!UICONTROL オーディエンスを追加]**」ボタンをクリックして、1 つまたは複数の既存のオーディエンスを選択します。
-   * 次をクリック： **[!UICONTROL ルールを作成]** ボタンをクリックし、 [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja).
+   * 「**[!UICONTROL ルールを作成]**」ボタンをクリックすると、[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を使用して新しいオーディエンス定義を作成できます。
 
    ![](assets/audiences-choose-audience.png)
 
@@ -142,11 +142,11 @@ ht-degree: 88%
 
 **[!UICONTROL エンリッチメント]**&#x200B;アクティビティを使用すると、Adobe Experience Platform データセットから取得した追加の属性でオーディエンスを強化できます。 例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。
 
-を操作する際には、次の制限事項に注意してください。 **[!UICONTROL 強化]** アクティビティ：
+**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを使用する場合は、次の制限事項に注意してください。
 
-* **データセット** のエンリッチメントは、（イベントタイプとは異なる）レコードタイプである必要があり、システムデータセットにしたり、プロファイル用にマークしたりすることはできません。 1 GB 未満である必要があります。
-* **エンリッチメントは 1:1 結合をサポートします**. つまり、結合キーがエンリッチメントデータセットで複数の一致を持つ場合、一致の 1 つを選択し、それを 1:1 結合に使用します。
-* **RTCDP の宛先でオーディエンスをアクティブ化できます**&#x200B;エンリッチメント属性がある場合、できません。
+* エンリッチメント用の&#x200B;**データセット**&#x200B;は（イベントタイプではなく）レコードタイプにする必要があり、システムデータセットにすることも、プロファイル用にマークすることもできません。1 GB 未満にする必要があります。
+* **エンリッチメントでは 1:1 結合をサポートしています**。つまり、エンリッチメントデータセット上で結合キーに複数の一致がある場合、システムは一致のうち 1 つを選択し、それを 1:1 結合に使用します。
+* **オーディエンスは RTCDP 宛先でアクティブ化できます**&#x200B;が、エンリッチメント属性がある場合、それらはアクティブ化できません。
 
 アクティビティを設定するには、次の手順に従います。
 

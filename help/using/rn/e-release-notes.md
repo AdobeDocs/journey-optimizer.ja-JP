@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>合成ワークフローを作成して、既存のAdobe Experience Platformオーディエンスを視覚的なキャンバスに組み合わせ、様々なアクティビティ（分割、エンリッチメントなど）を活用して新しいオーディエンスを作成できるようになりました。 新しく作成したオーディエンスは、既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerキャンペーンで顧客をターゲットに設定するために利用できます。</p>
+<p>コンポジションワークフローを作成して既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせたり、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成したりできるようになりました。新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
 <p>オーディエンス構成は、新しいAdobe Experience Platformの「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。 セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探すことができるようになりました。 このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。 この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platformドキュメント</a>.</p></p>

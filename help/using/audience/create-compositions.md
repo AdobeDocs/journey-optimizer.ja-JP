@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer内でオーディエンスの構成を使用する方法に関する詳細情報を提供します。 Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください。
 
 >[!ENDSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 コンポジションワークフローを作成するには、次の手順に従います。
 
-1. 次にアクセス： **[!UICONTROL オーディエンス]** メニューと選択 **[!UICONTROL オーディエンスを作成]**.
+1. **[!UICONTROL オーディエンス]**&#x200B;メニューにアクセスし、「**[!UICONTROL オーディエンスを作成]**」を選択します。
 
 1. 「**[!UICONTROL オーディエンスを作成]**」を選択します。
 

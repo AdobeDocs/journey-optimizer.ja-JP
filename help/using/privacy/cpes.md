@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 58223b4b6e6e2ef5b7fc23c5b475e74ad72d0d13
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 

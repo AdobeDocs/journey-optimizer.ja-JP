@@ -9,15 +9,15 @@ keywords: アプリ内, メッセージ, 作成, 開始
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
+badge: label="ベータ版" type="Informative"
 source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 100%
 
 ---
 
-# アプリ内メッセージの作成 ジャーニー内 {#create-in-app-journey}
+# ジャーニーでのアプリ内メッセージの作成 {#create-in-app-journey}
 
 1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL アプリ内]**&#x200B;アクティビティをドラッグ＆ドロップします。
 

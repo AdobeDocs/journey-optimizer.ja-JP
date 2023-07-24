@@ -10,7 +10,7 @@ level: Intermediate
 keywords: プレビュー, コンテンツ, メール, 配達確認, テスト, プロファイル
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
 

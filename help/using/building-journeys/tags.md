@@ -8,11 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー、タグ
-badge: label="Beta" type="Informative"
+badge: label="ベータ版" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 100%
 
 ---

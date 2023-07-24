@@ -6,7 +6,7 @@ description: ジャーニー実務担当者向けに Journey Optimizer の操作
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. **カスタマージャーニーを設計**&#x200B;して、状況に即したパーソナライズされたエクスペリエンスを提供します。[!DNL Journey Optimizer] を使用すると、イベントやデータソースに保存されたコンテキストデータを使用して、リアルタイムオーケストレーションの使用例を作成できます。次の機能を活用して、複数のステップから成る高度なシナリオを設計できます。
 
-   * イベントの受信をトリガーにしてリアルタイムに&#x200B;**単一配信**&#x200B;を送信したり、Adobe Experience Platform オーディエンスを使用してメッセージを&#x200B;**一括で**&#x200B;送信したりできます。
+   * イベントの受信をトリガーにしてリアルタイムに&#x200B;**単一配信**&#x200B;を送信したり、Adobe Experience Platform のオーディエンスを使用してメッセージを&#x200B;**一括で**&#x200B;送信したりできます。
 
    * イベント、Adobe Experience Platform の情報、サードパーティの API サービスのデータなどの&#x200B;**コンテキストデータ**&#x200B;を活用できます。
 

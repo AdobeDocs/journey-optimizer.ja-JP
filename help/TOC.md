@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -279,7 +279,7 @@ ht-degree: 99%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
-+ オーディエンス、プロファイルおよび ID{#audiences-profiles-identities}
++ オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
       + [セグメント定義の作成](using/audience/creating-a-segment-definition.md)
@@ -477,7 +477,7 @@ ht-degree: 99%
       + [組み込みの役割](using/administration/ootb-product-profiles.md)
       + [組み込みの権限](using/administration/ootb-permissions.md)
       + [権限レベル](using/administration/high-low-permissions.md)
-   + [ユーザーとグループの管理](using/administration/permissions.md)
+   + [ユーザーと役割の管理](using/administration/permissions.md)
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
    + [サンドボックス管理](using/administration/sandboxes.md)

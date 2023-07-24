@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 7 月のアップデート
+## 2023年7月の更新
 
 <table>
 <thead>
@@ -33,7 +33,7 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>合成ワークフローを作成して、既存のAdobe Experience Platformオーディエンスを視覚的なキャンバスに組み合わせ、様々なアクティビティ（分割、エンリッチメントなど）を活用して新しいオーディエンスを作成できるようになりました。 新しく作成したオーディエンスは、既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerキャンペーンで顧客をターゲットに設定するために利用できます。</p>
+<p>コンポジションワークフローを作成して既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせたり、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成したりできるようになりました。新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
 
 <img src="../audience/assets/audiences-publish.png"/>
 
@@ -184,7 +184,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズできます。</p>
+<p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに応じて、オファーを最適化およびパーソナライズできます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -390,7 +390,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * ジャーニーキャンバスが強化され、よりシンプルで改善されたユーザーエクスペリエンスが実現しました。キャンバスの各パスの最後に、空のプレースホルダーが削除されています。これで、パスの最後にあるアクティビティをドラッグするだけで、アクティビティを追加できます。
 * ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。必要に応じて、カスタムラベルを手動で追加できます。
 * ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。[詳細情報](../configuration/external-systems.md#timeout)
-* 読み取りオーディエンスアクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件に変更されました。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 「オーディエンスを読み取り」アクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。[詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
 
 
@@ -521,9 +521,9 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、プロファイルが単一のジャーニー（イベントまたはオーディエンスの資格から開始）でジャーニーに再度エントリするのを許可するまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-gs.md#entrance)
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-gs.md#entrance)
 
-* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。の場合 **オーディエンスの閲覧** ジャーニーに追加する終了日を追加できるようになりました。 その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
+* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。**オーディエンスを読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -597,7 +597,7 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* を追加する場合、 **オーディエンスの選定** または **オーディエンスの閲覧** ジャーニーでは、名前空間は、最後に使用した名前空間で、デフォルトで事前入力されるようになりました。 詳しくは、 [オーディエンスの選定](../building-journeys/audience-qualification-events.md#about-segment-qualification) および [オーディエンスの閲覧](../building-journeys/read-audience.md#configuring-segment-trigger-activity) セクション。
+* **オーディエンスの選定**&#x200B;または&#x200B;**オーディエンスを読み取り**&#x200B;をジャーニーに追加すると、名前空間には、最後に使用した名前空間がデフォルトで事前入力されるようになりました。詳しくは、[オーディエンスの選定](../building-journeys/audience-qualification-events.md#about-segment-qualification)および[オーディエンスを読み取り](../building-journeys/read-audience.md#configuring-segment-trigger-activity)の節を参照してください。
 
 * ジャーニーキャンバスのツールバーに新しいボタンが表示され、ジャーニーのスクリーンショットをダウンロードできます。
 
