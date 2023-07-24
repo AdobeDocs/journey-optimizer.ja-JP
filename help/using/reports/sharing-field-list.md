@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -60,10 +60,10 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
 | ID | 文字列 | トリガーされたオーディエンス書き出しジョブの識別子 |
-| status | 文字列 | オーディエンス書き出しジョブのステータス：待機中，開始，完了 |
-| exportCountTotal | 整数 | オーディエンス書き出しジョブの最大可能な値 |
-| exportCountRealized | 整数 | ジョブを通じてエクスポートされたオーディエンスの実際の数 |
-| exportCountFailed | 整数 | ジョブを通じて書き出し中に失敗したオーディエンスの数 |
+| status | 文字列 | オーディエンス書き出しジョブのステータス：待機中、開始済み、完了済み |
+| exportCountTotal | 整数 | オーディエンス書き出しジョブの可能な最大値 |
+| exportCountRealized | 整数 | ジョブを通じて書き出されたオーディエンスの実際の数 |
+| exportCountFailed | 整数 | ジョブを通じた書き出し中に失敗したオーディエンスの数 |
 | exportSegmentID | 文字列 | 書き出すオーディエンスの識別子 |
 | eventType | 文字列 | エラーイベントか情報イベントかを示すイベントタイプ：Info、Error |
 | eventCode | 文字列 | 対応する eventType の理由を示すエラーコード |
