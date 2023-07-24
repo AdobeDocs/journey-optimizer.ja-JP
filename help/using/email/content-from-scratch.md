@@ -10,9 +10,9 @@ level: Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Adobe Journey Optimizer Designer を使用して、コンテンツの構造を�
 
    ![](assets/email_designer_asset_picker.png)
 
-1. パーソナライゼーションフィールドを挿入して、プロファイル属性、オーディエンスメンバーシップ、コンテキスト属性などからコンテンツをカスタマイズします。 [詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
+1. パーソナライゼーションフィールドを挿入して、プロファイル属性、オーディエンスメンバーシップ、コンテキスト属性などからコンテンツをカスタマイズします。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
