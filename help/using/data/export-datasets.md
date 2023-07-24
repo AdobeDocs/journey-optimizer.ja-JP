@@ -5,13 +5,13 @@ title: クラウドストレージの場所へのデータセットの書き出�
 description: Adobe Experience Platform クラウドストレージの宛先を使用してデータセットを書き出す方法について説明します。
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
+badge: label="ベータ版" type="Informative"
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
    >[!NOTE]
    >
-   >Adobe Journey Optimizerをリアルタイム顧客プロファイルと共に使用している場合、宛先カードには「アクティブ化」ボタンが表示され、有効にした権限に応じて、データセットの書き出しとこの宛先のオーディエンスのアクティブ化の両方が可能です。
+   >Adobe Journey Optimizer をリアルタイム顧客プロファイルと共に使用している場合、宛先カードに「アクティベート」ボタンが表示され、有効にした権限に応じて、データセットの書き出しとこの宛先に対するオーディエンスのアクティブ化の両方が可能になります。
 
 1. 選択した宛先に書き出す&#x200B;**データセットを選択**&#x200B;します。
 
