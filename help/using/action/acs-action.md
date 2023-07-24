@@ -10,9 +10,9 @@ level: Intermediate
 keywords: キャンペーン, Standard, 統合, キャッピング, アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Journey Optimizer で使用するには、Campaign Standard トランザクシ�
 
 * Adobe Campaign Standard 統合は、アクションリストの専用組み込みアクションを使用して設定されます。これは、サンドボックスごとに設定する必要があります。
 
-* オーディエンスの選定またはCampaign Standardの閲覧アクティビティでは、オーディエンスアクションを使用できません。
+* 「オーディエンスの選定」または「オーディエンスを読み取り」アクティビティでは、Campaign Standard アクションを使用できません。
 
 * ジャーニーは、メッセージアクションと Campaign Standard アクションの両方が使用できません。
 
