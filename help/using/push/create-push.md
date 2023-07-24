@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ ht-degree: 94%
 
    ![](assets/push_create_4.png)
 
-1. 次をクリック： **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformオーディエンスのリストからターゲットにするオーディエンスを定義します。 [詳細情報](../audience/about-audiences.md)
+1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)
 
-1. 内 **[!UICONTROL ID 名前空間]** 「 」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
 
    ![](assets/push_create_5.png)
 
