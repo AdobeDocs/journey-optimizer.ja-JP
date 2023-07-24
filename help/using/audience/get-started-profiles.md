@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 84%
 
 ![](assets/profiles-home.png)
 
-にアクセスして操作する方法を学ぶには、以下を実行します。 **プロファイルダッシュボード** およびダッシュボードに表示される指標に関する詳細は、 [この節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"}.
+**プロファイルダッシュボード**&#x200B;にアクセスし操作する方法と、ダッシュボードに表示される指標について詳しくは、[この節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"}を参照してください。
 
 個々の顧客の全体像を把握するために、複数のソースから得られたデータフラグメントを統合し組み合わせることができます。このデータを統合する際に、データの優先順位を設定する方法と統合ビューを作成するために組み合わせるデータを決定するためのルールとして、結合ポリシーを使用します。
 
-詳細情報： **結合ポリシー** この [ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}.
+**結合ポリシー**&#x200B;について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}を参照してください。
 
 **関連トピック**
 
-* [リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
+* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
 * [リアルタイム顧客プロファイルの概要ビデオ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}
