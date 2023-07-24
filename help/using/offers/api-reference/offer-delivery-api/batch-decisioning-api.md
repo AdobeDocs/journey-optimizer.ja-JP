@@ -1,24 +1,24 @@
 ---
 title: Batch Decisioning API
-description: バッチ判定 API を使用して、事前定義された決定範囲内でオーディエンスのプロファイルに最適なオファーを選択する方法を説明します。
+description: Batch Decisioning API を使用して、事前定義された決定範囲内でオーディエンスのプロファイルに最適なオファーを選択する方法を説明します。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # [!DNL Batch Decisioning] API を使用したオファーの配信 {#deliver-offers-batch}
 
-この [!DNL Batch Decisioning] API を使用すると、組織は 1 回の呼び出しで特定のオーディエンスのすべてのプロファイルに対して判定機能を使用できます。 オーディエンス内の各プロファイルのオファーコンテンツは、Adobe Experience Platformデータセットに配置され、カスタムのバッチワークフローで使用できます。
+[!DNL Batch Decisioning] API を使用すると、組織は、1 回の呼び出しで特定のオーディエンスのすべてのプロファイルに対して決定支援機能を使用できます。オーディエンス内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 
-を使用 [!DNL Batch Decisioning] API を使用すると、決定範囲に関するAdobe Experience Platformオーディエンス内のすべてのプロファイルに最適なオファーをデータセットに入力できます。 例えば、ある組織が [!DNL Batch Decisioning] を実行して、メッセージ配信ベンダーにオファーを送信できるようにします。その後、これらのオファーは、同じユーザーオーディエンスに対する一括メッセージ配信用に送信されるコンテンツとして使用されます。
+[!DNL Batch Decisioning] API を使用すると、決定範囲の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルに最適なオファーを、データセットに入力できます。例えば、ある組織が [!DNL Batch Decisioning] を実行して、メッセージ配信ベンダーにオファーを送信できるようにするとします。その場合、これらのオファーは、同じユーザーオーディエンスに対してバッチメッセージ配信用に送信されるコンテンツとして使用されます。
 
 これを実現するため、組織は次の手順を実行します。
 
@@ -45,7 +45,7 @@ ht-degree: 81%
 
 ### 決定の準備 {#prepare-decision}
 
-1 つ以上の決定を準備するには、データセット、オーディエンス、決定を作成していることを確認します。 これらの前提条件について詳しくは、[この節](../../batch-delivery.md)を参照してください。
+1 つ以上の決定を準備するには、データセット、オーディエンスおよび決定が作成されていることを確認します。これらの前提条件について詳しくは、[この節](../../batch-delivery.md)を参照してください。
 
 ### API の要件 {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 値は、オーディエンスの一意の識別子を含む配列です。 値を 1 つだけ含めることができます。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | 値は、オーディエンスの一意の ID を含んだ配列です。値を 1 つだけ含めることができます。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | 決定イベントを書き込むことができる出力データセット。 | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | `placementId` および `activityId` を含むラッパー |  |
 | `xdm:activityId` | 決定の一意の ID。 | `xcore:offer-activity:1410cdcda196707b` |
