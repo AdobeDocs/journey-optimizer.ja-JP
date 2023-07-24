@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 * **[!UICONTROL オファー]**：パーソナライズされたオファーとフォールバックオファーを作成してアクセスします。[オファー](../offer-library/creating-personalized-offers.md)と[フォールバックオファー](../offer-library/creating-fallback-offers.md)の作成方法を学習
 * **[!UICONTROL コレクション]**：オファーを静的なコレクションと動的なコレクションに整理します。[詳細情報](../offer-library/creating-collections.md)
 * **[!UICONTROL 決定]**：オファーを提供するための決定を作成および管理します。[詳細情報](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL バッチ判定]**:特定のAdobe Experience Platformオーディエンス内のすべてのプロファイルに対して、オファーの決定を提供する。 [詳細情報](../batch-delivery.md)
+* **[!UICONTROL バッチ決定]**：特定の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルにオファーの決定を配信します。[詳細情報](../batch-delivery.md)
 * **[!UICONTROL シミュレーション]**：特定のプレースメントのテストプロファイルに配信されるオファーをシミュレートして、意思決定のロジックを検証します。[詳細情報](../offer-activities/simulation.md)
 
 **[!UICONTROL コンポーネント]**&#x200B;メニューを使用して、オファーと意思決定の作成に必要なコンポーネントを作成および管理します。
