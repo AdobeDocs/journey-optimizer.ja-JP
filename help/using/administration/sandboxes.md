@@ -10,9 +10,9 @@ level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 84%
 ## サンドボックスの使用 {#using-sandbox}
 
 [!DNL Journey Optimizer] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
-サンドボックスは、権限の役割を通じて割り当てられます。 [サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
+サンドボックスは、権限の役割を通じて割り当てられます。[サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] は、特定の組織用に作成された Adobe Experience Platform サンドボックスを反映します。
 Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳しくは、サンドボックスのユーザーガイドを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}。
@@ -38,21 +38,21 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 >
 > サンドボックスの管理は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、[Admin Console のドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}を参照してください。
 
-標準またはカスタムに異なるサンドボックスを割り当てるように選択できます **[!UICONTROL 役割]**.
+標準またはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;に、異なるサンドボックスを割り当てることもできます。
 
 サンドボックスを割り当てるには、以下の手順に従います。
 
-1. In [!DNL Permissions]、 **[!UICONTROL 役割]** タブで、 **[!UICONTROL 役割]**.
+1. [!DNL Permissions] で、「**[!UICONTROL 役割]**」タブから「**[!UICONTROL 役割]**」を選択します。
 
    ![](assets/sandbox_1.png)
 
 1. 「**[!UICONTROL 編集]**」をクリックします。
 
-1. 次の **[!UICONTROL サンドボックス]** リソースドロップダウンで、自分の役割に割り当てるサンドボックスを選択します。
+1. **[!UICONTROL サンドボックス]**&#x200B;リソースのドロップダウンで、役割に割り当てるサンドボックスを選択します。
 
    ![](assets/sandbox_3.png)
 
-1. 必要に応じて、横の X アイコンをクリックし、 **[!UICONTROL 役割]**.
+1. 必要に応じて、横にある「X」アイコンをクリックして、**[!UICONTROL 役割]**&#x200B;へのサンドボックスのアクセス権を削除します。
 
    ![](assets/sandbox_4.png)
 
