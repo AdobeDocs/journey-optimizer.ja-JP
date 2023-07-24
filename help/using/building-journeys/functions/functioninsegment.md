@@ -8,9 +8,9 @@ level: Experienced
 keywords: inSegment, 関数, 式, ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 35%
 >
 >最大 100 個のオーディエンスを取得できます。
 
-オーディエンス名は、文字列定数である必要があります。 フィールド参照や式は使用できません。
+オーディエンス名は、文字列定数にする必要があります。フィールド参照や式は使用できません。
 
-オーディエンスは、 [Adobe Experience Platform](https://platform.adobe.com/audience/overview). 式エディターは、オーディエンスの自動入力リストを表示します。
+オーディエンスは [Adobe Experience Platform](https://platform.adobe.com/audience/overview) で定義されます。式エディターには、自動入力されたオーディエンスリストが表示されます。
 
 オーディエンスには次の 3 つのステータスがあります。
 
-* 既存：エンティティが引き続きオーディエンスに存在します。
-* 実現：エンティティがオーディエンスに入っています。
-* 終了：エンティティがオーディエンスから退出しています。
+* 既存：エンティティが引き続きオーディエンス内に存在します。
+* 適合：エンティティがオーディエンスにエントリします。
+* 離脱：エンティティがオーディエンスから離脱します。
 
-個人のみ **実現済み** および **既存** オーディエンスのパーティシペーションステータスは、オーディエンスのメンバーと見なされます。 オーディエンスの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results).
+オーディエンスの参加ステータスが「**適合**」および「**既存**」の個人のみが、オーディエンスのメンバーと見なされます。オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
 `IF inSegment('segmentName') == true` は、セグメントメンバーシップがエントリまたは既存のステータスになっていることを意味します。
 
@@ -64,4 +64,4 @@ Adobe Experience Platform
 
 説明：
 
-関数はを返します。 **[!UICONTROL true]** ジャーニーインスタンス内の個人が、「men over 50」という名前のAdobe Experience Platformオーディエンスに属している場合、 **[!UICONTROL false]** それ以外の場合は
+ジャーニーインスタンス内の個人が「men over 50」という名前の Adobe Experience Platform オーディエンスに属している場合、この関数は **[!UICONTROL true]** を返します。それ以外の場合は **[!UICONTROL false]** を返します。
