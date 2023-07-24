@@ -10,9 +10,9 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1465'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 91%
 
 ![](assets/journey64.png)
 
-を使用している場合、 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} オーディエンスを作成するには、それらをジャーニー条件で活用できます。 参照： [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment).
+[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、これらのセグメントをジャーニー条件で利用できます。詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
 
 
 >[!NOTE]
@@ -147,7 +147,7 @@ ht-degree: 91%
 
 ## 条件でのオーディエンスの使用 {#using-a-segment}
 
-この節では、ジャーニー条件でのオーディエンスの使用方法について説明します。 オーディエンスとその構築方法について詳しくは、 [この節](../audience/about-audiences.md).
+この節では、ジャーニー条件でオーディエンスを使用する方法を説明します。オーディエンスとその作成方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 ジャーニー条件でオーディエンスを使用するには、次の手順に従います。
 
@@ -158,10 +158,10 @@ ht-degree: 91%
 
    ![](assets/segment3.png)
 
-1. 左側で、を展開します。 **[!UICONTROL オーディエンス]** ノード。 条件に使用するオーディエンスをドラッグ&amp;ドロップします。 デフォルトでは、オーディエンスの条件は true です。
+1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。条件に使用するオーディエンスをドラッグ＆ドロップします。デフォルトでは、オーディエンスの条件は true です。
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >なお、 **実現済み** および **既存** オーディエンスのパーティシペーションステータスは、オーディエンスのメンバーと見なされます。 オーディエンスの評価方法について詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}.
+   >なお、オーディエンスの参加ステータスが「**適合**」および「**既存**」の個人のみが、オーディエンスのメンバーと見なされます。オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
