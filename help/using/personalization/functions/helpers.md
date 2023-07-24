@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **オーディエンスのメンバーシップに基づく条件付きコンテンツ**
+1. **オーディエンスメンバーシップに基づく条件付きコンテンツ**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,7 +106,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->オーディエンスとセグメント化サービスについて詳しくは、以下を参照してください。 [セクション](../../audience/about-audiences.md).
+>オーディエンスとセグメント化サービスについて詳しくは、[この節](../../audience/about-audiences.md)を参照してください。
 
 
 ## Unless{#unless}
