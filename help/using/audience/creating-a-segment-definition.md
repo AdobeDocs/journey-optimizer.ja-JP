@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="ルールの作成"
->abstract="ビルドルールの作成方法を使用すると、Adobe Experience Platform Audience Service を使用して新しいオーディエンス定義を作成できます。"
+>abstract="「ルールを作成」の作成方法を使用すると、Adobe Experience Platform オーディエンスサービスを使用して新しいオーディエンス定義を作成できます。"
 
-この例では、アトランタ、サンフランシスコまたはシアトルに住み、1980 年以降に生まれたすべての顧客をターゲットにするオーディエンスを作成します。 これらのすべての顧客は、過去 7 日以内に Luma アプリを開き、その後 2 時間以内に購入している必要があります。
+この例では、アトランタ、サンフランシスコまたはシアトルに住み、1980 年以降に生まれたすべての顧客をターゲットするオーディエンスを作成します。これらのすべての顧客は、過去 7 日以内に Luma アプリケーションを開き、アプリケーションを開いてから 2 時間以内に購入している必要があります。
 
-➡️ [オーディエンスの作成方法については、このビデオを参照してください。](#video-segment)
+➡️ [オーディエンスの作成方法については、このビデオをご覧ください](#video-segment)
 
-1. 次にアクセス： **[!UICONTROL オーディエンス]** メニューで、 **[!UICONTROL オーディエンスを作成]** 」ボタンをクリックします。
+1. **[!UICONTROL オーディエンス]**&#x200B;メニューにアクセスし、「**[!UICONTROL オーディエンスを作成]**」ボタンをクリックします。
 
    ![](assets/create-segment.png)
 
-   セグメント定義画面では、オーディエンスを定義するためのすべての必須フィールドを設定できます。 オーディエンスを設定する方法については、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}.
+   セグメント定義画面では、必須フィールドをすべて設定してオーディエンスを定義できます。オーディエンスの設定方法については、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を参照してください。
 
    ![](assets/segment-builder.png)
 
-1. 内 **[!UICONTROL オーディエンスのプロパティ]** ウィンドウで、オーディエンスの名前と説明（オプション）を入力します。
+1. **[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルで、オーディエンスの名前と説明（オプション）を入力します。
 
    ![](assets/segment-properties.png)
 
@@ -43,27 +43,27 @@ ht-degree: 37%
 
    >[!NOTE]
    >
-   >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、 [エクスペリエンスデータモデル (XDM) ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}.
+   >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、[エクスペリエンスデータモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
    ![](assets/drag-fields.png)
 
-   この例では、 **属性** および **イベント** オーディエンスを構築するためのフィールド：
+   この例では、**属性**&#x200B;と&#x200B;**イベント**&#x200B;のフィールドを使用してオーディエンスを作成する必要があります。
 
    * **属性**：1980 年以降、アトランタ、サンフランシスコ、シアトルに住む人のプロファイル。
 
      ![](assets/add-attributes.png)
 
-   * **イベント**：過去 7 日間に Luma アプリを開き、アプリを開いてから 2 時間以内に購入したプロファイル。
+   * **イベント**：過去 7 日間に Luma アプリケーションを開き、アプリケーションを開いてから 2 時間以内に購入したプロファイル。
 
      ![](assets/add-events.png)
 
-1. ワークスペースで新しいフィールドを追加および設定する際に、 **[!UICONTROL オーディエンスのプロパティ]** ペインは、オーディエンスに属する推定プロファイルに関する情報で自動的に更新されます。
+1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルが自動的に更新され、オーディエンスに属する推定プロファイルに関する情報が反映されます。
 
    ![](assets/segment-estimate.png)
 
-1. オーディエンスの準備が整ったら、「 **[!UICONTROL 保存]**. これは、Adobe Experience Platformオーディエンスのリストに表示されます。 リスト内の特定のオーディエンスを検索するのに役立つ検索バーが使用できます。
+1. オーディエンスの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。オーディエンスが Adobe Experience Platform オーディエンスのリストに表示されます。なお、リストで特定のオーディエンスを検索する際に役立つ検索バーが用意されています。
 
-オーディエンスをジャーニーで使用できるようになりました。 詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+これで、オーディエンスをジャーニーで使用できるようになりました。詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 ## チュートリアルビデオ{#video-segment}
 
