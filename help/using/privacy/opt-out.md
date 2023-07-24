@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -67,11 +67,11 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
-1. の作成 [Adobe Experience Platformオーディエンス](../audience/access-audiences.md) の使用 [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"} また、 **[!UICONTROL コンテンツをパーソナライズ=はい（オプトイン）]** パーソナライゼーションに同意したユーザーをターゲットにする
+1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/access-audiences.md)を作成し、**[!UICONTROL コンテンツをパーソナライズ = はい（オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
 
    ![](assets/perso-consent-od-audience.png)
 
-1. を作成する際に [決定](../offers/offer-activities/create-offer-activities.md)、決定範囲を追加し、パーソナライズされたオファーを含む各評価条件コレクションに対して、このオーディエンスに基づいて実施要件の制約を定義します。
+1. [決定](../offers/offer-activities/create-offer-activities.md)を作成する際は、パーソナライズされたオファーを含む評価条件コレクションごとに、決定範囲を追加し、このオーディエンスに基づいて実施要件の制約を定義します。
 
    ![](assets/perso-consent-od-audience-decision.png)
 
@@ -93,40 +93,40 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[データモデリング](../offers/ranking/ai-models.md)でプロファイルデータを使用するための同意は、[!DNL Journey Optimizer] ではまだサポートされていません。
 
-## 式エディター内
+## 式エディターの場合
 
 <!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
 
-この [式エディター](../personalization/personalization-build-expressions.md) メッセージの配信には関係ないので、自身は同意の確認や実施を実行しません。
+[式エディター](../personalization/personalization-build-expressions.md)自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
 
-ただし、右ベースのアクセス制御ラベルを使用すると、パーソナライゼーションに使用できるフィールドを制限できます。 この [メッセージプレビュー](../email/preview.md#preview-email) および [e メールレンダリングサービス](../email/preview.md#email-rendering) は、機密情報で識別されるフィールドをマスクします。
+ただし、権利ベースのアクセス制御ラベルを使用すると、パーソナライゼーションに使用できるフィールドを制限できます。[メッセージプレビュー](../email/preview.md#preview-email)と[メールのレンダリングサービス](../email/preview.md#email-rendering)は、機密情報で識別されるフィールドをマスクします。
 
 >[!NOTE]
 >
->詳しくは、 [この節](../administration/object-based-access.md).
+>オブジェクトレベルのアクセス制御（OLAC）について詳しくは、[この節](../administration/object-based-access.md)を参照してください。
 
 
-In [!DNL Journey Optimizer] キャンペーンの場合、同意ポリシーは次のように適用されます。
+[!DNL Journey Optimizer] キャンペーンでは、同意ポリシーは次のように適用されます。
 
-* オーディエンスの作成の一環として同意ポリシーの定義を含めると、キャンペーン用に選択されたオーディエンスが既に存在していることを確認できます **同意条件に一致しないプロファイルを除外**.
+* オーディエンス作成の一環として同意ポリシー定義を含めることができ、キャンペーン用に選択されたオーディエンスが&#x200B;**同意条件に一致しないプロファイルを既に除外**&#x200B;していることを確認できます。
 
-* [!DNL Journey Optimizer] がチャネルレベルでに対して一般的な同意チェックを実行します。 **プロファイルがオプトインしたことを確認する** 対応するチャネルでマーケティングコミュニケーションを受け取る。
+* [!DNL Journey Optimizer] はチャネルレベルで一般的な同意チェックを実行して、対応するチャネルでアドビからのお知らせを受信するように&#x200B;**プロファイルがオプトインしていることを確認**&#x200B;します。
 
   >[!NOTE]
   >
-  >この [!DNL Journey Optimizer] 現時点では、campaign オブジェクト自体は追加の同意ポリシー実施チェックを実行しません。
+  >現時点では、[!DNL Journey Optimizer] キャンペーンオブジェクト自体は追加の同意ポリシー強制チェックを実行しません。
 
-キャンペーンでパーソナライゼーションの同意を手動で実施するには、次のいずれかのオプションに従います。
+キャンペーンでパーソナライゼーションの同意を手動で適用するには、次の選択肢のいずれかに従います。
 
 ### セグメントルールビルダーの使用
 
 セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成できます。
 
-1. の作成 [Adobe Experience Platformオーディエンス](../audience/access-audiences.md) の使用 [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}.
+1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/access-audiences.md)を作成します。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
-1. 次のようなプロファイル属性を選択します。 **[!UICONTROL コンテンツをパーソナライズ=いいえ（オプトアウト）]** パーソナライゼーションに同意しなかったユーザーを除外する
+1. パーソナライゼーションに同意していないユーザーを除外するには、**[!UICONTROL コンテンツをパーソナライズ = いいえ（オプトアウト）]**&#x200B;などのプロファイル属性を選択します。
 
    ![](assets/perso-consent-audience-no.png)
 
@@ -134,46 +134,46 @@ In [!DNL Journey Optimizer] キャンペーンの場合、同意ポリシーは�
 
 これで、このオーディエンスを使用して、パーソナライゼーションに同意していないプロファイルをキャンペーンから除外できます。
 
-### 構成ワークフローでの分割アクティビティの使用
+### コンポジションワークフローでの分割アクティビティの使用
 
-また、構成ワークフローに分割アクティビティを追加することで、パーソナライゼーションの同意チェックをオーディエンスに追加できます。
+分割アクティビティをコンポジションワークフローに追加することで、パーソナライゼーション同意チェックをオーディエンスに追加することもできます。
 
-1. オーディエンスを作成するには、 **[!UICONTROL オーディエンスを作成]** オプション。 [構成ワークフローの作成に関する詳細](../audience/create-compositions.md)
+1. 「**[!UICONTROL オーディエンスを作成]**」オプションを使用して、オーディエンスを作成します。詳しくは、[コンポジションワークフローの作成](../audience/create-compositions.md)を参照してください。
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. 右側の専用ボタンを使用して、開始オーディエンスを追加します。
 
-1. 「+」アイコンをクリックし、「 **[!UICONTROL 分割]** をクリックして、分割オーディエンスを作成します。 [分割アクティビティの詳細を説明します](../audience/composition-canvas.md#split)
+1. 「+」アイコンをクリックし、「**[!UICONTROL 分割]**」を選択して、分割オーディエンスを作成します。詳しくは、[分割アクティビティ](../audience/composition-canvas.md#split)を参照してください。
 
    ![](assets/perso-consent-audience-split.png)
 
-1. 選択 **[!UICONTROL 属性の分割]** を右側のウィンドウの分割タイプとして使用します。
+1. 右側のパネルで分割タイプとして「**[!UICONTROL 属性分割]**」を選択します。
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
-1. 横の鉛筆アイコンをクリックします。 **[!UICONTROL 属性]** 持ち出すフィールド **[!UICONTROL プロファイル属性を選択]** ウィンドウ
+1. 「**[!UICONTROL 属性]**」フィールドの横にある鉛筆アイコンをクリックして、**[!UICONTROL プロファイル属性を選択]**&#x200B;ウィンドウを表示します。
 
-1. パーソナライゼーションの同意属性 (`profile.consents.personalize.content.val`) をクリックし、選択します。
+1. パーソナライゼーションの同意属性（`profile.consents.personalize.content.val`）を検索し、選択します。
 
    ![](assets/perso-consent-audience-consent-attribute.png)
 
-1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。 関連するラベルを選択します。
+1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。関連するラベルを選択します。
 
-1. この中から適切な値を選択します。 [リスト](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}.
+1. この[リスト](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}から適切な値を選択します。
 
-   この場合、 `n` を使用することで、ユーザーはパーソナライゼーションに対するデータの使用に同意しないことを示します。
+   この場合、`n` を使用して、ユーザーがパーソナライゼーションに対するデータの使用に同意していないことを示します。
 
    ![](assets/perso-consent-audience-path-1-n.png)
 
-1. 他の選択値に対しては、別のパスを作成できます。 残りのパスを削除してオンにすることもできます **[!UICONTROL その他のプロファイル]** 選択値を持たない他のすべてのプロファイルを含めるには `n`.
+1. 他の選択値に対しては、別のパスを作成できます。また、残りのパスを削除して、「**[!UICONTROL その他のプロファイル]**」をオンにして、選択値 `n` を持たなかった他のすべてのプロファイルを含めることもできます。
 
-1. 終了したら、「 **[!UICONTROL オーディエンスを保存]** を設定します。 パスごとに 1 つのオーディエンスがAdobe Experience Platformに保存されます。
+1. 完了したら、パスごとに「**[!UICONTROL オーディエンスを保存]**」をクリックして、ワークフローの結果を新しいオーディエンスに保存します。パスごとに 1 つのオーディエンスが Adobe Experience Platform に保存されます。
 
-1. 完了したら、構成ワークフローを公開します。
+1. 完了したら、コンポジションワークフローを公開します。
 
 これで、このオーディエンスを使用して、パーソナライゼーションに同意していないプロファイルをキャンペーンから除外できます。
 
 >[!NOTE]
 >
->パーソナライゼーションに対する同意を得ていないオーディエンスを作成し、キャンペーンでこのオーディエンスを選択した場合、パーソナライゼーションツールは引き続き使用できます。 パーソナライゼーションを受け取るべきでないオーディエンスを扱う場合、パーソナライゼーションツールを使用すべきでないことを理解するのは、マーケティングユーザー次第です。
+>パーソナライゼーションに同意していないオーディエンスを作成し、キャンペーンでこのオーディエンスを選択した場合でも、パーソナライゼーションツールは引き続き使用できます。パーソナライゼーションの対象とならないオーディエンスを扱う場合はパーソナライゼーションツールを使用すべきでないことを、マーケティングユーザーは理解しておく必要があります。
