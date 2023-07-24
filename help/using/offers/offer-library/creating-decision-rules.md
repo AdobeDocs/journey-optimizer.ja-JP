@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールに名前を付け、説明を入力したあと、ルールを必要に応じて設定します。
 
-   これをおこなうには、Adobe Experience Platform **セグメントビルダー** は、ルールの条件の作成に役立ちます。 [セグメント定義の作成方法を説明します](../../audience/creating-a-segment-definition.md)
+   それには、ルールの条件の作成に役立つ Adobe Experience Platform **セグメントビルダー**&#x200B;を使用できます。[詳しくは、セグメント定義の作成方法を参照してください](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
    >[!NOTE]
    >
-   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Segmentation]** サービスで使用されるものと比較して、特異性がいくつかあります。ただし、[セグメントビルダー](../../audience/creating-a-segment-definition.md)のドキュメントで説明されているグローバルプロセスは、オファーの決定ルールを作成する場合にも有効です。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
+   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Segmentation]** サービスで使用されるものと比較して、異なる点がいくつかあります。ただし、[セグメントビルダー](../../audience/creating-a-segment-definition.md)のドキュメントで説明されているグローバルプロセスは、オファーの決定ルールを作成する場合にも有効です。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
 
-1. ワークスペースで新しいフィールドを追加および設定する際に、 **[!UICONTROL オーディエンスのプロパティ]** パネルには、オーディエンスに属する推定プロファイルに関する情報が表示されます。 「**[!UICONTROL 予測を更新]**」をクリックしてデータを更新します。
+1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルに、オーディエンスに属する推定プロファイルに関する情報が表示されます。「**[!UICONTROL 予測を更新]**」をクリックして、データを更新します。
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
