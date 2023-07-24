@@ -10,9 +10,9 @@ level: Intermediate
 keywords: カスタム, 一般, イベント, ジャーニー
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 ![](assets/general-events.png)
 
-ビジネスイベントをドロップすると、自動的に **オーディエンスの閲覧** アクティビティ。 ビジネスイベントの詳細については、[この節](../event/about-events.md)を参照してください。
+ビジネスイベントをドロップすると、**オーディエンスを読み取り**&#x200B;アクティビティが自動的に追加されます。ビジネスイベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
 ## 一定時間内のイベントのリスニング {#events-specific-time}
 
