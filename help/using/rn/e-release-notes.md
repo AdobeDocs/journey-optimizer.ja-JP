@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizerの早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
+source-git-commit: e384991599c19f72910f299350c0839fa16b4588
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 28%
+source-wordcount: '639'
+ht-degree: 27%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 28%
 
 以下の先行リリースノートは、リリースの提供日まで予告なく変更される可能性があります。 リンク、画面、更新されたドキュメントは、 [リリースノート](release-notes.md)、リリース日。
 
-
 ## 2023 年 7 月初期リリースノート {#july-rn-2023}
 
 **リリース日**:7 月 26～27 日
@@ -26,23 +25,6 @@ ht-degree: 28%
 ### 新機能{#july-2023-features}
 
 このリリースでは、以下に示す新機能が導入されています。
-
-<table>
-<thead>
-<tr>
-<th><strong>コンテンツテンプレート API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>専用 API を使用してAdobe Journey Optimizerコンテンツテンプレートを作成および管理できるようになり、既存のコンテンツシステムとシームレスに統合できます。</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -62,23 +44,22 @@ ht-degree: 28%
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>ダイレクトメールチャネル</strong><br/></th>
+<th><strong>Direct mail channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>これで、キャンペーンにダイレクトメールメッセージを追加できます。 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズし、生成できるオフラインチャネルです。</p>
-<p>ダイレクトメール配信を準備すると、Journey Optimizerによって、すべてのターゲットプロファイルと選択した連絡先情報（例えば、郵送先住所）を含むファイルが生成されます。 その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>詳しくは、<a href="../direct-mail/create-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -109,7 +90,24 @@ ht-degree: 28%
 <td>
 <p>キャンペーンやジャーニーに加えて、Adobe Experience Platform統合タグをランディングページ、コンテンツテンプレート、フラグメント、購読リストに割り当てることができるようになりました。 これにより、簡単に分類でき、すべてのリストでの検索とナビゲーションを改善できます。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>詳しくは、 <a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツテンプレート API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>専用 API を使用してAdobe Journey Optimizerコンテンツテンプレートを作成および管理できるようになり、既存のコンテンツシステムとシームレスに統合できます。</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -149,8 +147,8 @@ Adobe Journey Optimizer API 認証：アクセストークンを生成する JWT
 
 **その他の変更**
 
-Journey Optimizerデータセットのクラウドストレージの宛先への書き出しを、すべてのお客様が利用できるようになりました。 この機能を使用すると、クラウドストレージの場所とのライブ接続を確立して、データセットの内容を書き出すことができます。 [詳細情報](../data/export-datasets.md)
+Journey Optimizerデータセットのクラウドストレージの宛先への書き出しを、パブリックベータ版としてすべてのお客様が利用できるようになりました。 この機能を使用すると、クラウドストレージの場所とのライブ接続を確立して、データセットの内容を書き出すことができます。 [詳細情報](../data/export-datasets.md)
 
->[!AVAILABILITY]
->
->この機能は現在ベータ版で、変更される可能性があります。</p>
+
+
+
