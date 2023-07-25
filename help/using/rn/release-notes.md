@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3125'
 ht-degree: 85%
 
 ---
@@ -130,28 +130,26 @@ ht-degree: 85%
 **ジャーニー**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* 新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受け取れるようになりました。
+新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受け取れるようになりました。
 
 
 **キャンペーン**
 
-* キャンペーンに関連するコンテキストイベントを、パーソナライゼーションエディターの「コンテキスト属性」メニューで使用できるようになりました。
+キャンペーンに関連するコンテキストイベントを、パーソナライゼーションエディターの「コンテキスト属性」メニューで使用できるようになりました。
 
 
 **オーディエンス**
 
-ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オリジンとオーディエンスの更新頻度を表示する新しい列が追加されました。
-
-Audience Composition ポータルのリリースに伴い、Adobe Experience PlatformとAdobe Journey Optimizerは、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用を更新しました。
+ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オリジンとオーディエンスの更新頻度を表示する新しい列が追加されました。 Audience Composition ポータルのリリースに伴い、Adobe Experience PlatformとAdobe Journey Optimizerは、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用を更新しました。
 
 * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
 * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
 
-その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、この新しいオーディエンスの作成と管理のパスを反映して、「セグメント」が「オーディエンス」に置き換えられるようになります。
+その結果、Adobe Journey OptimizerおよびAdobe Experience Platform UI では、「セグメント」が「オーディエンス」に置き換えられ、この新しいオーディエンス作成および管理方法が反映されます。
 
 **API**
 
-Adobe Journey Optimizer API 認証：アクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方式を使用して作成する必要があります。 Adobeでは、既存の統合を OAuth メソッドに移行することもお勧めします。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方式を使用して作成する必要があります。 Adobeでは、既存の統合を OAuth メソッドに移行することもお勧めします。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
 
 
 **その他の変更**
