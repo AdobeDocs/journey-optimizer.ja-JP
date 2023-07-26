@@ -5,9 +5,9 @@ title: リリースノート
 description: Journey Optimizerの早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 9241dc286839b9875c7e0de34be4b7493168718f
+source-git-commit: df5f5b82d6463973ba7fb19713eb1dc49c00d9db
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 27%
 
 ---
@@ -118,11 +118,12 @@ ht-degree: 27%
 
 このリリースでは、次の機能強化がおこなわれます。
 
-**ジャーニー**
+<!--
+**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受け取れるようになりました。
-
+—>
 
 **キャンペーン**
 
