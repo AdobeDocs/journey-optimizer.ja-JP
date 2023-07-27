@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 87%
 
 ---
@@ -81,6 +81,5 @@ ht-degree: 87%
 
 * 以下のビデオでは、 **アプリ設定を管理** アプリケーションサーフェスメニューにアクセスする権限です。
 
-  +++ビデオを見る
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
-+++
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
+

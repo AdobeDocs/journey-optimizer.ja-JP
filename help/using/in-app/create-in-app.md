@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 55%
+source-wordcount: '743'
+ht-degree: 56%
 
 ---
 
@@ -155,15 +155,13 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * 以下のビデオでは、キャンペーンでアプリ内メッセージを作成、設定および公開する方法を示しています。
 
-  +++ビデオを見る
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
-+++
+
 
 * 以下のビデオでは、アプリ内メッセージの A/B テストを行うためのコンテンツ実験を設定および分析する方法を示しています。
 
-  +++ビデオを見る
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
-+++
+
 
 
 **関連トピック：**
