@@ -4,16 +4,22 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 99%
+source-wordcount: '3001'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023年7月 {#july-2023}
+
+* 待機アクティビティのドキュメントページが改善され、グローバルタイムアウトと再入場の使用に関する追加情報とベストプラクティスが追加されました。 [詳細情報](../building-journeys/wait-activity.md)
+* 入口管理に関するページが改善されました。 [詳細情報](../building-journeys/entry-management.md)
+* オーディエンスの閲覧アクティビティに関するドキュメントに、スロットル率に関する追加情報が追加されました。 [詳細情報](../building-journeys/read-audience.md)
 
 ## 2023年6月 {#june-2023}
 

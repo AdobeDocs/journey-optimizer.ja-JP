@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メール, 読み込み, コンテンツ, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 60%
 
 ---
 
@@ -33,11 +33,23 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
    ![](assets/import-html_2.png)
 
-1. HTML コンテンツを含む HTML または .zip ファイルをドラッグ＆ドロップします。
+1. HTML コンテンツを含む HTML または .zip ファイルをドラッグ＆ドロップし、「**[!UICONTROL 読み込み]**」をクリックします。
 
-1. HTML コンテンツがアップロードされると、E メールデザイナーの機能を利用してメールの編集とプレビューをおこなうことができます。[詳細情報](content-from-scratch.md)
+   ![](assets/html-imported_2.png)
+
+1. HTMLコンテンツがアップロードされると、コンテンツは **[!UICONTROL 互換性モード]**.
+
+   このモードでは、テキストのパーソナライズ、リンクの追加、コンテンツへのアセットの組み込みのみが可能です。
+
+1. E メールデザイナーのコンテンツコンポーネントを活用するには、 **[!UICONTROL HTML変換器]** タブをクリックし、 **[!UICONTROL 変換]**.
 
    ![](assets/html-imported.png)
+
+   >[!NOTE]
+   >
+   > の使用 `<table>` タグをHTMLファイルの最初のレイヤーとして使用すると、最上部のレイヤータグの背景や幅の設定など、スタイルが失われる場合があります。
+
+1. これで、E メールデザイナー機能を使用して、必要に応じて読み込んだファイルをパーソナライズできます [詳細情報](content-from-scratch.md).
 
 ## チュートリアルビデオ {#video}
 

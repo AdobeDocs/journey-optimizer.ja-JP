@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 100%
+source-wordcount: '2498'
+ht-degree: 92%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 100%
 * [プッシュ](#push-global)
 * [SMS](#sms-global)
 * [Web](#web-tab)
+* [ダイレクトメール](#direct-mail-global)
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
 
@@ -99,6 +100,15 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL ユニークアウトバウンドクリック数／プロファイル数]**：実験の作成時に以前に選択した成功指標の合計値を、プロファイル数で割った値です。
 
 **[!UICONTROL 信頼区間]**&#x200B;グラフは、改善に関する不確実性を測定します。ベースラインと最もパフォーマンスの高い処理との間のパフォーマンス差の割合を詳細に示します。[詳細情報](../campaigns/experiment-calculations.md#confidence-intervals)
+
+![](assets/experimentation_report_4.png)
+
+最後のウィジェットは、 **[!UICONTROL 成功指標]** 以前は、トリートメントにを選択していました。 別のターゲット指標を **[!UICONTROL 指標]** ドロップダウンメニューを使用して、代替データを追跡できます。
+
+>[!CAUTION]
+>
+>実験がフィルターされた指標を使用する場合、実験の比較ページのドロップダウンから指標の選択を変更しても、フィルター値は保持されないことに注意してください。 例えば、「クリック数」から「個別クリック数」に切り替えると、適用されたフィルターが失われ、比較が不正確または無効になります。
+
 +++
 
 これらの結果の詳細と解釈について詳しくは、[このページ](../campaigns/get-started-experiment.md#interpret-results)を参照してください。
@@ -349,6 +359,25 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 **[!UICONTROL Web の概要]**&#x200B;グラフでは、該当する期間の web エクスペリエンス（インプレッション数、ユニークインプレッション数、クリック数）の変化を確認できます。
 
 **[!UICONTROL 要素別のクリック数]**の表には、web ページ上の様々な要素に対する訪問者のエンゲージメントについての主な情報の詳細が表示されます。
++++
+
+## 「ダイレクトメール」タブ {#direct-mail-global}
+
+キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL ダイレクトメール]** 「 」タブには、ダイレクトメール配信に関する主な情報の詳細が表示されます。
+
++++ダイレクトメールレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
+
+The **[!UICONTROL ダイレクトメール — 送信統計]** テーブルには、配信の成功の詳細が表示されます。
+
+* **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルと認定されるユーザープロファイルの数。
+
+* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+
+* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+
+* **[!UICONTROL 除外済み]**：ターゲットプロファイルから除外され、配信を受信しなかったユーザープロファイルの数。
+
+The **[!UICONTROL ダイレクトメール — 除外された理由]** および **[!UICONTROL ダイレクトメール — エラー理由]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 +++
 
 ## その他のリソース

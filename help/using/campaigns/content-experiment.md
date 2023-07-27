@@ -7,12 +7,12 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
-keywords: コンテンツ, 実験, 複数, オーディエンス,
+keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 94%
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
@@ -108,6 +108,10 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
    この実験では、件名にプロモーションコードが含まれている場合に受信者がメールを開くかどうかをテストするために、「**[!UICONTROL メールの開封]**」を選択します。
 
    ![](assets/content_experiment_11.png)
+
+1. アプリ内チャネルまたは Web チャネルを使用して実験を設定し、 **[!UICONTROL インバウンドクリック数]**, **[!UICONTROL 個別インバウンドクリック数]** , **[!UICONTROL ページビュー数]** または **[!UICONTROL 個別ページビュー数指標]** 、 **[!UICONTROL クリックアクション]**  ドロップダウンを使用すると、特定のページのクリック数やビュー数を正確に追跡および監視できます。
+
+   ![](assets/content_experiment_20.png)
 
 1. 「**[!UICONTROL 処理を追加]**」をクリックして、新しい処理を必要な数だけ作成します。
 

@@ -8,10 +8,10 @@ role: User, Developer
 level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 95%
 
 ---
 
@@ -38,6 +38,10 @@ Adobe Journey Optimizer を使用すると、実務担当者は、カスタム�
 ## 実装
 
 **オーディエンストリガージャーニー**&#x200B;では、ジャーニーのスループットに影響を与える「オーディエンスを読み取り」アクティビティのスロットルレートを定義できます。[詳細情報](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> これは、1 秒あたりの読み取りオーディエンスに入ることができるプロファイルの最大数です。 この率は、このアクティビティにのみ適用され、ジャーニー内の他のアクティビティには適用されません。 [詳細情報](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 

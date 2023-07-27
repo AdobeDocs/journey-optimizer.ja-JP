@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 100%
+source-wordcount: '1495'
+ht-degree: 96%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 フラグメントを編集するには、次の手順に従います。
 
 1. **[!UICONTROL フラグメント]**&#x200B;リストから目的の項目をクリックします。
-1. フラグメントのプロパティから、[参照を探索](#explore-references)し、[そのアクセス権を管理](../administration/object-based-access.md)して、フラグメントの詳細を更新することができます。
+1. フラグメントのプロパティから、次の操作を実行できます。 [参照を参照する](#explore-references), [アクセスを管理](../administration/object-based-access.md)を更新し、 [タグ](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,6 +143,8 @@ ht-degree: 100%
 
 1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
+1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにフラグメントを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
+
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
 1. [メールデザイナー](get-started-email-design.md)が表示されます。ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。
@@ -188,6 +190,8 @@ ht-degree: 100%
    >現在、**[!UICONTROL ビジュアルフラグメント]**&#x200B;タイプと&#x200B;**メール**&#x200B;チャネルのみがサポートされています。
 
 1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
+
+1. 以下からAdobe Experience Platformタグを選択または作成します。 **タグ** 検索機能を強化するためにテンプレートを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 作成]**」をもう一度クリックします。フラグメントは&#x200B;**[!UICONTROL フラグメント]**&#x200B;リストに保存され、[!DNL Journey Optimizer] 専用メニューからアクセスできます。
 

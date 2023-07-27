@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1065'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 この機能により、コンテンツ指向のユーザーは、キャンペーンやジャーニーの外部でテンプレートを操作できます。それから、マーケティングユーザーは、これらのスタンドアロンコンテンツテンプレートを自分のジャーニーやキャンペーン内で再利用、調整できます。
 
 例えば、会社内のユーザーはコンテンツのみを担当しているので、キャンペーンやジャーニーにはアクセスできません。ただし、このユーザーがメールテンプレートを作成し、組織のマーケターはすべてのメールの出発点としてそのメールテンプレートを使用できます。
+
+また、API を使用して、コンテンツテンプレートを作成および管理することもできます。 詳しくは、 [Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
 
 ➡️ [テンプレートの作成および使用方法については、このビデオをご覧ください](#video-templates)
 
@@ -43,7 +45,7 @@ ht-degree: 100%
 
 テンプレートコンテンツを編集するには、リストから目的の項目をクリックし、「**[!UICONTROL コンテンツを編集]**」を選択します。
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 テンプレートを削除するには、目的のテンプレートの横にあるごみ箱アイコンを選択します。
 
@@ -92,6 +94,8 @@ ht-degree: 100%
 
 1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
+1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにテンプレートを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
+
 1. 「**[!UICONTROL 作成]**」をクリックし、様々なオプションからテンプレートのデザイン方法を選択します。
 
    * メールデザイナーのインターフェースを使用して、[ゼロからメールをデザインします](content-from-scratch.md)。
@@ -134,6 +138,10 @@ ht-degree: 100%
 1. このテンプレートの名前と説明を追加します。
 
    ![](assets/email_designer-template-name.png)
+
+1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳細情報](../administration/object-based-access.md)
+
+1. Adobe Experience Platformタグを **タグ** フィールドを使用してテンプレートを分類できます。 [詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

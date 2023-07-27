@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 87%
 
 ---
 
@@ -26,9 +26,14 @@ ht-degree: 100%
 
 1. 次に、**[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスして、「**[!UICONTROL アプリサーフェスを作成]**」をクリックします。
 
+   >[!NOTE]
+   >
+   > 必要なのは **アプリ設定を管理** へのアクセス権を持つ権限 **[!UICONTROL アプリのサーフェス]** メニュー。 詳しくは、 [このビデオ](#video).
+
    ![](assets/inapp_config_1.png)
 
 1. **[!UICONTROL アプリサーフェス]**&#x200B;に名前を追加します。
+
 
 1. Apple iOS ドロップダウンで、**iOS バンドル ID** を入力します。**バンドル ID** について詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)を参照してください。
 
@@ -70,3 +75,12 @@ ht-degree: 100%
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
+
+
+## チュートリアルビデオ{#video}
+
+* 以下のビデオでは、 **アプリ設定を管理** アプリケーションサーフェスメニューにアクセスする権限です。
+
+  +++ビデオを見る
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++
