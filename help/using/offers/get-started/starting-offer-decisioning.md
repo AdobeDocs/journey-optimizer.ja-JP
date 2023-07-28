@@ -38,7 +38,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->次の場合、 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーが **offer decisioning** アプリケーションサービスの場合、この節で説明するすべての決定管理機能もお客様に適用されます。
+>次の場合、 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーが **Offer decisioning** アプリケーションサービスの場合、この節で説明するすべての決定管理機能もお客様に適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 

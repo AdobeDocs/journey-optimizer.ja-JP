@@ -369,7 +369,7 @@ ht-degree: 99%
    + オファーカタログのエクスポート{#export-catalog}
       + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
       + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
-      + [パーソナライズされたオファーのデータセット](using/offers/export-catalog/export-offers.md)
+      + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
       + [決定データセット](using/offers/export-catalog/export-decisions.md)
       + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
       + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)

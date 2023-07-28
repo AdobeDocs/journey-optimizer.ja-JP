@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -66,4 +66,4 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->このデータセットを選択して、 [AI モデルの作成](../ranking/create-ranking-strategies.md).
+>これで、[AI モデルの作成](../ranking/create-ranking-strategies.md)時に、イベントデータを収集するデータセットを選択できる状態になりました。

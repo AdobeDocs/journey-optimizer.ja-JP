@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
 source-wordcount: '2057'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 **[!UICONTROL メール送信統計]**&#x200B;グラフは、配信の成功の詳細を示します。
 
-* **[!UICONTROL ターゲット]**:電子メールや SMS の送信など、任意のアクションをターゲットにしたプロファイルの数。
+* **[!UICONTROL ターゲット]**：任意のアクション（メールや SMS の送信など）でターゲットとするプロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 「**[!UICONTROL プッシュ通知 - 送信統計]**」テーブルは、プッシュ通知に関連するメイン情報の詳細をグラフと KPI で示します。
 
-* **[!UICONTROL ターゲット]**:電子メールや SMS の送信など、任意のアクションをターゲットにしたプロファイルの数。
+* **[!UICONTROL ターゲット]**：任意のアクション（メールや SMS の送信など）でターゲットとするプロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
 

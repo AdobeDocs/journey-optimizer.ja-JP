@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,13 +49,13 @@ ht-degree: 91%
 
 * イベントタイプのデータセットのみを追加できます。
 
-* これらのデータセットには、 **エクスペリエンスイベント — 提案インタラクション** [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}.
+* これらのデータセットには、「**エクスペリエンスイベント - 提案インタラクション**」[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}が含まれている必要があります。
 
-* これらのデータセットには、次のいずれかを含めることもできます [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}: **アプリの詳細**, **コマースの詳細**, **Web の詳細**.
+* また、これらのデータセットには、次の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}のうち 1 つが含まれている場合があります：**アプリケーションの詳細**、**コマースの詳細**、 **web の詳細**。
 
   >[!NOTE]
   >
-  >他のフィールドグループも含まれる場合がありますが、現在、Journey Optimizerのレポートでは、上記のフィールドグループのみがサポートされています。
+  >他のフィールドグループが含まれる場合もありますが、Journey Optimizer レポートで現在サポートされているのは上記のフィールドグループのみです。
 
   例えば、メールキャンペーンが購入や注文などのコマースデータに与える影響を知りたい場合は、**コマースの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
 

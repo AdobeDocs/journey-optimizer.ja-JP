@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>オーディエンスの構成</strong><br/></th>
+<th><strong>オーディエンス構成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -38,7 +38,7 @@ ht-degree: 84%
 <p>コンポジションワークフローを作成して既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせたり、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成したりできるようになりました。新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
-<p>オーディエンス構成は、新しいAdobe Experience Platformの「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。 セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探すことができるようになりました。 このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。 この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platformドキュメント</a>.</p></p>
+<p>オーディエンス構成は、新しい Adobe Experience Platform の「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探索できるようになりました。このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platform ドキュメント</a>を参照してください。</p></p>
 </td>
 </tr>
 </tbody>
@@ -53,8 +53,8 @@ ht-degree: 84%
 <tbody>
 <tr>
 <td>
-<p>これで、キャンペーンにダイレクトメールメッセージを追加できます。 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズし、生成できるオフラインチャネルです。</p>
-<p>ダイレクトメール配信を準備すると、Journey Optimizerによって、すべてのターゲットプロファイルと選択した連絡先情報（例えば、郵送先住所）を含むファイルが生成されます。 その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。</p>
+<p>キャンペーンにダイレクトメールメッセージを追加できるようになりました。ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できるオフラインチャネルです。</p>
+<p>ダイレクトメール配信を準備すると、Journey Optimizer によって、すべてのターゲットプロファイルと選択した連絡先情報（住所など）を含むファイルが生成されます。その後、このファイルを実際の発送処理を行うダイレクトメールプロバイダーに送信できます。</p>
 <p>現時点では、AdobeHealthcare Shield アドオン機能を購入した組織では、ダイレクトメールチャネルは利用できません。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>詳しくは、<a href="../direct-mail/get-started-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
@@ -65,13 +65,13 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>E メールデザイナー用にHTMLコンテンツを変換する</strong><br/></th>
+<th><strong>メールデザイナー用の HTML コンテンツの変換</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerの E メールエディターで、任意のHTMLコンテンツを読み込んで変換できるようになりました。 コンテンツブロックは自動的に識別され、E メールデザイナーで使用できます。強力なデザイン機能を使用して、コンテンツブロックを更新し、パーソナライズします。</p>
+<p>Journey Optimizer のメールエディターで、HTML コンテンツを読み込んで変換できるようになりました。コンテンツブロックは自動的に識別され、メールデザイナーで使用できます。その強力なデザイン機能を使用して、更新とパーソナライズを行います。</p>
 <img src="assets/html-convert.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -83,13 +83,13 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizerでのタグの使用</strong><br/></th>
+<th><strong>Journey Optimizer でのタグの使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>キャンペーンやジャーニーに加えて、Adobe Experience Platform統合タグをランディングページ、コンテンツテンプレート、フラグメント、購読リストに割り当てることができるようになりました。 これにより、簡単に分類でき、すべてのリストでの検索とナビゲーションを改善できます。 </p>
+<p>キャンペーンやジャーニーに加えて、Adobe Experience Platform 統合タグをランディングページ、コンテンツテンプレート、フラグメント、購読リストに割り当てることができるようになりました。これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -107,7 +107,7 @@ ht-degree: 84%
 <tbody>
 <tr>
 <td>
-<p>専用 API を使用してAdobe Journey Optimizerコンテンツテンプレートを作成および管理できるようになり、既存のコンテンツシステムとシームレスに統合できます。</p>
+<p>専用 API を使用して Adobe Journey Optimizer コンテンツテンプレートを作成および管理できるようになり、既存のコンテンツシステムとシームレスに統合できます。</p>
 <p>詳しくは、 <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 84%
 
 ### 機能強化 {#july-2023-improvements}
 
-このリリースでは、次の機能強化がおこなわれます。
+このリリースでは、以下に示す機能強化が含まれています。
 
 <!--**Journeys**
 
@@ -126,12 +126,12 @@ A new type of system alert has been introduced. You can now get notified when a 
 
 **キャンペーン**
 
-キャンペーンに関連するコンテキストイベントを、パーソナライゼーションエディターの「コンテキスト属性」メニューで使用できるようになりました。
+キャンペーンに関連するコンテキストイベントが、パーソナライゼーションエディターの「コンテキスト属性」メニューで使用できるようになりました。
 
 
 **オーディエンス**
 
-ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オリジンとオーディエンスの更新頻度を表示する新しい列が追加されました。 Audience Composition ポータルのリリースに伴い、Adobe Experience PlatformとAdobe Journey Optimizerは、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用を更新しました。
+ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。オーディエンスの構成ポータルのリリースに伴い、Adobe Experience Platform と Adobe Journey Optimizer は、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用法を更新しました。
 
 * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
 * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
@@ -140,12 +140,12 @@ A new type of system alert has been introduced. You can now get notified when a 
 
 **API**
 
-Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方式を使用して作成する必要があります。 Adobeでは、既存の統合を OAuth メソッドに移行することもお勧めします。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
+Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
 
 
 **その他の変更**
 
-Journey Optimizerデータセットのクラウドストレージの宛先への書き出しを、パブリックベータ版としてすべてのお客様が利用できるようになりました。 この機能を使用すると、クラウドストレージの場所とのライブ接続を確立して、データセットの内容を書き出すことができます。 [詳細情報](../data/export-datasets.md)
+Journey Optimizerデータセットのクラウドストレージの宛先への書き出しを、パブリックベータ版としてすべてのお客様が利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
 
 
 
