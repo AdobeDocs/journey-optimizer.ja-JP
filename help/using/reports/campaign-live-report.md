@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -207,6 +207,8 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 「ダイレクトメール」タブ {#direct-mail-tab}
 
 キャンペーンから **[!UICONTROL グローバルレポート]**、 **[!UICONTROL ダイレクトメール]** 「 」タブには、ダイレクトメール配信に関する主な情報の詳細が表示されます。
+
+![](assets/direct-mail-report_2.png)
 
 +++ダイレクトメールレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
