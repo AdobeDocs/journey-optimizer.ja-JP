@@ -121,7 +121,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++メールレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
-**[!UICONTROL メール送信統計]**&#x200B;グラフは、成功した配信の詳細を示します。
+**[!UICONTROL メール送信統計]**&#x200B;グラフは、配信の成功の詳細を示します。
 
 * **[!UICONTROL ターゲット]**：配信の分析中に処理されたメッセージの合計数。
 

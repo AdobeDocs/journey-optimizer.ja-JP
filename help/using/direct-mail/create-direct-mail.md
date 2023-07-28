@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 22%
+source-wordcount: '560'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 22%
 >title="ダイレクトメールの作成"
 >abstract="スケジュールされたキャンペーンでダイレクトメールメッセージを作成し、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルを設計します。"
 
+ダイレクトメールメッセージを作成するには、スケジュール済みキャンペーンを作成し、抽出ファイルを設定します。 このファイルは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要です。
+
+>[!IMPORTANT]
+>
+>ダイレクトメールメッセージを作成する前に、次の設定が完了していることを確認してください。
+>
+>1. [ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration)：抽出ファイルをアップロードして保存するサーバーを指定します。
+>1. [ダイレクトメールメッセージサーフェス](../direct-mail/direct-mail-configuration.md#direct-mail-surface)：ファイルのルーティング設定を参照します。
+
+
 ## ダイレクトメールキャンペーンの作成{#create-dm-campaign}
+
+ダイレクトメールキャンペーンを作成するには、次の手順に従います。
 
 1. 新しいスケジュール済みキャンペーンを作成し、 **[!UICONTROL ダイレクトメール]** を選択します。
 
@@ -46,6 +58,8 @@ ht-degree: 22%
 これで、ダイレクトメールプロバイダーに送信する抽出ファイルの設定を開始できます。
 
 ## 抽出ファイルの設定 {#extraction-file}
+
+抽出ファイルは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要です。 抽出ファイルの設定を定義するには、次の手順に従います。
 
 1. キャンペーンの設定画面で、 **[!UICONTROL コンテンツを編集]** ボタンをクリックして抽出ファイルのコンテンツを設定します。
 

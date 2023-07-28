@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 46%
+source-wordcount: '165'
+ht-degree: 33%
 
 ---
 
@@ -30,9 +30,4 @@ ht-degree: 46%
 
 ダイレクトメールメッセージは、スケジュールされたキャンペーンのコンテキストでのみ作成できます。API トリガーキャンペーンやジャーニーでは使用できません。
 
->[!IMPORTANT]
->
->ダイレクトメールメッセージを送信する前に、次の設定が完了していることを確認します。
->
->1. [ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration)：抽出ファイルをアップロードして保存するサーバーを指定します。
->1. [ダイレクトメールメッセージサーフェス](../direct-mail/direct-mail-configuration.md#direct-mail-surface)：ファイルのルーティング設定を参照します。
+
