@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 84%
@@ -57,7 +57,7 @@ ht-degree: 84%
 <p>ダイレクトメール配信を準備すると、Journey Optimizerによって、すべてのターゲットプロファイルと選択した連絡先情報（例えば、郵送先住所）を含むファイルが生成されます。 その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。</p>
 <p>現時点では、AdobeHealthcare Shield アドオン機能を購入した組織では、ダイレクトメールチャネルは利用できません。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>詳しくは、<a href="../direct-mail/create-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../direct-mail/get-started-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>

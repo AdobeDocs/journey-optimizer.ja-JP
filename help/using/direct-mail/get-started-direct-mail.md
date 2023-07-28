@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 49%
+ht-degree: 46%
 
 ---
 
-# ダイレクトメールメッセージの作成 {#create-direct}
+# ダイレクトメールの概要 {#create-direct}
 
 >[!AVAILABILITY]
 >
 >現時点では、AdobeHealthcare Shield アドオン機能を購入した組織では、ダイレクトメールチャネルは利用できません。
+>
 
 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルをパーソナライズおよび生成できるオフラインチャネルです。
 
