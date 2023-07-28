@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="ベータ版" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '881'
 ht-degree: 100%
 
 ---
 
 # ダイレクトメールの設定 {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-このドキュメントの内容は次のとおりです。
-
-* [ダイレクトメールの作成](create-direct-mail.md)
-* **[ダイレクトメールの設定](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できます。
 
@@ -80,13 +68,13 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ファイルのルーティング設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 設定の名前を設定します。
 
 1. ダイレクトメールファイルの書き出しに使用する&#x200B;**[!UICONTROL サーバータイプ]**&#x200B;を選択します。
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,7 +86,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL Amazon S3]**」を選択した場合は、サーバーインフラストラクチャが配置される「**[!UICONTROL AWS リージョン]**」を選択します。
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -137,11 +125,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL ダイレクトメール]**」チャネルを選択します。
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. チャネルサーフェス設定の専用セクションでダイレクトメール設定を定義します。
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -157,7 +145,7 @@ ht-degree: 100%
    >
    >ファイルのルーティングオプションを設定していない場合は、ダイレクトメールサーフェスを作成できません。[詳細情報](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 

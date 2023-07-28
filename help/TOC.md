@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 100%
+source-wordcount: '1399'
+ht-degree: 99%
 
 ---
 
@@ -228,7 +228,9 @@ ht-degree: 100%
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
 + ダイレクトメール {#direct-mail}
+   + [ダイレクトメールの概要](using/direct-mail/get-started-direct-mail.md)
    + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
+   + [ダイレクトメールメッセージのテストと送信](using/direct-mail/test-send-direct-mail.md)
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
 + Web チャネル{#web}
    + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
