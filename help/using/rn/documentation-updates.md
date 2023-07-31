@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
-source-wordcount: '3001'
-ht-degree: 98%
+source-wordcount: '3061'
+ht-degree: 97%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 98%
 
 ## 2023年7月 {#july-2023}
 
+* [!DNL Journey Optimizer] の 7月23日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * 待機アクティビティのドキュメントページが改善され、グローバルタイムアウトと再入場の使用に関する追加情報とベストプラクティスが追加されました。 [詳細情報](../building-journeys/wait-activity.md)
 * 入口管理に関するページが改善されました。 [詳細情報](../building-journeys/entry-management.md)
-* オーディエンスの閲覧アクティビティに関するドキュメントに、スロットル率に関する追加情報が追加されました。 [詳細情報](../building-journeys/read-audience.md)
+* オーディエンスの閲覧アクティビティのドキュメントに、スロットル率に関する追加情報が追加されました。 [詳細情報](../building-journeys/read-audience.md)
+* The **パーソナライゼーションの同意の実装** の節が更新され、キャンペーンでパーソナライゼーションの同意を手動で実施する方法が追加されました。セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成したり、構成ワークフローに分割アクティビティを追加したりできます。 [詳細情報](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023年6月 {#june-2023}
 

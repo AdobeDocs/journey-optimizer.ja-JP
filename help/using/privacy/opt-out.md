@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 顧客は、パーソナライズされたコンテンツの表示をオプトアウトすることもできます。あるプロファイルがパーソナライゼーションからオプトアウトされたら、そのデータがパーソナライゼーションに使用されていないことを確認し、パーソナライズされたコンテンツをフォールバックバリアントに置き換える必要があります。
 
-### 意思決定管理の場合
+### 意思決定管理の場合 {#opt-out-decision-management}
 
 オファーを活用する場合、パーソナライゼーション環境設定は、[Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API リクエストまたは [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API リクエストから使用される[決定範囲](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)に自動的に実装されません。この場合、パーソナライゼーションの同意を手動で実施する必要があります。これを行うには、以下の手順に従います。
 
@@ -93,9 +93,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[データモデリング](../offers/ranking/ai-models.md)でプロファイルデータを使用するための同意は、[!DNL Journey Optimizer] ではまだサポートされていません。
 
-## 式エディターの場合
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## 式エディターの場合 {#opt-out-expression-editor}
 
 [式エディター](../personalization/personalization-build-expressions.md)自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
 
@@ -104,7 +102,6 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >[!NOTE]
 >
 >オブジェクトレベルのアクセス制御（OLAC）について詳しくは、[この節](../administration/object-based-access.md)を参照してください。
-
 
 [!DNL Journey Optimizer] キャンペーンでは、同意ポリシーは次のように適用されます。
 
