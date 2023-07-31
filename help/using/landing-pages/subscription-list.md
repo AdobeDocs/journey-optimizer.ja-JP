@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, リスト, 購読, サービス
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 95%
@@ -58,11 +58,11 @@ ht-degree: 95%
    >
    >現在、「**[!UICONTROL タイトル]**」フィールドには、別の購読リストに既に存在する名前やスペースを入力することはできません。
 
-1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにランディングページを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
-
 1. 開始日と終了日を定義できます。
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにランディングページを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
