@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '675'
 ht-degree: 95%
 
 ---
@@ -41,7 +41,7 @@ Adobe Journey Optimizer を使用すると、実務担当者は、カスタム�
 
 >[!NOTE]
 >
-> これは、1 秒あたりのジャーニーにエントリできるプロファイルの最大数です。 この率は、このアクティビティにのみ適用され、ジャーニー内の他のアクティビティには適用されません。 [詳細情報](../building-journeys/read-audience.md)
+> これは、1 秒あたりの読み取りオーディエンスに入ることができるプロファイルの最大数です。 この率は、このアクティビティにのみ適用され、ジャーニー内の他のアクティビティには適用されません。 [詳細情報](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
