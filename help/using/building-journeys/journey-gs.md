@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1591'
 ht-degree: 95%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->このダッシュボードでは、過去 24 時間のトラフィックを含むジャーニーが考慮されます。アクセス権のあるジャーニーのみが表示されます。
+>このダッシュボードでは、過去 24 時間のトラフィックを含むジャーニーが考慮されます。アクセス権のあるジャーニーのみが表示されます。指標は、新しいデータが利用可能な場合にのみ、30 分ごとに更新されます。
 
 ![](assets/journeys-dashboard.png)
 
