@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -56,6 +56,12 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>The **maxHttpConnections** パラメーターはオプションです。 外部システムに対してJourney Optimizerが開く接続の数を制限できます。
+>
+>設定できる最大値は 400 です。 何も指定しない場合、システムの動的なスケーリングに応じて、システムは最大で数千の接続を開く可能性があります。
 
 ### 例：
 
@@ -67,9 +73,9 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
