@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
 source-wordcount: '1399'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -228,7 +228,7 @@ ht-degree: 99%
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
 + ダイレクトメール {#direct-mail}
-   + [ダイレクトメールの概要](using/direct-mail/get-started-direct-mail.md)
+   + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
    + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
    + [ダイレクトメールメッセージのテストと送信](using/direct-mail/test-send-direct-mail.md)
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)

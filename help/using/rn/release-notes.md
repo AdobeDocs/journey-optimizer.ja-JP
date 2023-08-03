@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 7 月リリースノート {#july-rn-2023}
+## 2023年7月リリースノート {#july-rn-2023}
 
 ### 新機能{#july-2023-features}
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 <td>
 <p>キャンペーンにダイレクトメールメッセージを追加できるようになりました。ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できるオフラインチャネルです。</p>
 <p>ダイレクトメール配信を準備すると、Journey Optimizer によって、すべてのターゲットプロファイルと選択した連絡先情報（住所など）を含むファイルが生成されます。その後、このファイルを実際の発送処理を行うダイレクトメールプロバイダーに送信できます。</p>
-<p>現時点では、AdobeHealthcare Shield アドオン機能を購入した組織では、ダイレクトメールチャネルは利用できません。</p>
+<p>現時点では、Adobe Healthcare Shield アドオン製品を購入した組織では、ダイレクトメールチャネルを利用できません。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>詳しくは、<a href="../direct-mail/get-started-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
@@ -136,16 +136,16 @@ A new type of system alert has been introduced. You can now get notified when a 
 * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
 * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
 
-その結果、Adobe Journey OptimizerおよびAdobe Experience Platform UI では、「セグメント」が「オーディエンス」に置き換えられ、この新しいオーディエンス作成および管理方法が反映されます。
+その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、オーディエンスの作成と管理のこうした新しいパスを反映して、「セグメント」が「オーディエンス」に置き換えられています。
 
 **API**
 
-Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
+Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
 
 
 **その他の変更**
 
-Journey Optimizerデータセットのクラウドストレージの宛先への書き出しを、パブリックベータ版としてすべてのお客様が利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
+クラウドストレージの宛先への Journey Optimizer データセットの書き出しは、パブリックベータ版としてすべてのお客様が利用できるようになりました。この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
 
 
 

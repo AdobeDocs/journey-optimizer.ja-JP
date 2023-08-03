@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,8 @@ ht-degree: 97%
 **Journeys**
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。—>
+* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
+-->
 
 **キャンペーン**
 
@@ -146,7 +147,7 @@ Adobe Journey Optimizer API 認証 - アクセストークンを生成する JWT
 
 **その他の変更**
 
-Journey Optimizerデータセットのクラウドストレージの宛先への書き出しを、パブリックベータ版としてすべてのお客様が利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
+クラウドストレージの宛先への Journey Optimizer データセットの書き出しは、パブリックベータ版としてすべてのお客様が利用できるようになりました。この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
 
 
 

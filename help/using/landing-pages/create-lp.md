@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 1. ランディングページにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../administration/object-based-access.md)
 
-1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにランディングページを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してランディングページを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
 1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../landing-pages/lp-presets.md#lp-create-preset)を参照してください。
 

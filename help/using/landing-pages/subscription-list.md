@@ -12,11 +12,11 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# 購読リスト {#create-subscription-list}
+# サブスクリプションリスト {#create-subscription-list}
 
 ## 購読リストとは  {#subscription-list-definition}
 
@@ -62,7 +62,7 @@ ht-degree: 95%
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにランディングページを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してランディングページを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 例えば、会社内のユーザーはコンテンツのみを担当しているので、キャンペーンやジャーニーにはアクセスできません。ただし、このユーザーがメールテンプレートを作成し、組織のマーケターはすべてのメールの出発点としてそのメールテンプレートを使用できます。
 
-また、API を使用して、コンテンツテンプレートを作成および管理することもできます。 詳しくは、 [Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+また、API を使用して、コンテンツテンプレートを作成および管理することもできます。詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/)を参照してください。
 
 ➡️ [テンプレートの作成および使用方法については、このビデオをご覧ください](#video-templates)
 
@@ -94,7 +94,7 @@ ht-degree: 94%
 
 1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
-1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにテンプレートを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してテンプレートを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 作成]**」をクリックし、様々なオプションからテンプレートのデザイン方法を選択します。
 
@@ -141,7 +141,7 @@ ht-degree: 94%
 
 1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳細情報](../administration/object-based-access.md)
 
-1. Adobe Experience Platformタグを **タグ** フィールドを使用してテンプレートを分類できます。 [詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成して、テンプレートを分類します。[詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -177,7 +177,7 @@ ht-degree: 94%
 
      ![](assets/content-template-stimulate-proof-surface.png)
 
-## チュートリアルビデオ {#video-templates}
+## ハウツービデオ {#video-templates}
 
 [!DNL Journey Optimizer] でコンテンツテンプレートを作成、編集、使用する方法について説明します。
 

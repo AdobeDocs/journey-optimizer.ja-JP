@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '1495'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
 フラグメントを編集するには、次の手順に従います。
 
 1. **[!UICONTROL フラグメント]**&#x200B;リストから目的の項目をクリックします。
-1. フラグメントのプロパティから、次の操作を実行できます。 [参照を参照する](#explore-references), [アクセスを管理](../administration/object-based-access.md)を更新し、 [タグ](../start/search-filter-categorize.md#tags).
+1. フラグメントのプロパティから、[参照の探索](#explore-references)、[そのアクセスの管理](../administration/object-based-access.md)および[タグ](../start/search-filter-categorize.md#tags)などのフラグメント詳細の更新を行えます。
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,7 +143,7 @@ ht-degree: 96%
 
 1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
-1. 以下からAdobe Experience Platformタグを選択または作成します。 **[!UICONTROL タグ]** 検索機能を強化するためにフラグメントを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してフラグメントを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -191,7 +191,7 @@ ht-degree: 96%
 
 1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
-1. 以下からAdobe Experience Platformタグを選択または作成します。 **タグ** 検索機能を強化するためにテンプレートを分類するためのフィールド。 [詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成してテンプレートを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
 1. 「**[!UICONTROL 作成]**」をもう一度クリックします。フラグメントは&#x200B;**[!UICONTROL フラグメント]**&#x200B;リストに保存され、[!DNL Journey Optimizer] 専用メニューからアクセスできます。
 
@@ -269,7 +269,7 @@ ht-degree: 96%
 
 1. そのフラグメントは、元のフラグメントにリンクされなくなったスタンドアロン要素になります。コンテンツ内の他のコンテンツコンポーネントと同様に編集します。[詳細情報](content-components.md)
 
-## チュートリアルビデオ {#video-fragments}
+## ハウツービデオ {#video-fragments}
 
 [!DNL Journey Optimizer] でフラグメントを管理、作成、使用する方法を説明します。
 

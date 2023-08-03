@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 97%
 ## 2023年7月 {#july-2023}
 
 * [!DNL Journey Optimizer] の 7月23日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* 待機アクティビティのドキュメントページが改善され、グローバルタイムアウトと再入場の使用に関する追加情報とベストプラクティスが追加されました。 [詳細情報](../building-journeys/wait-activity.md)
-* 入口管理に関するページが改善されました。 [詳細情報](../building-journeys/entry-management.md)
+* 待機アクティビティのドキュメントページを改善し、グローバルタイムアウトと再エントリの使用に関連する追加情報とベストプラクティスを追加しました。[詳細情報](../building-journeys/wait-activity.md)
+* エントリ管理に関するページを改善しました。[詳細情報](../building-journeys/entry-management.md)
 * オーディエンスの閲覧アクティビティのドキュメントに、スロットル率に関する追加情報が追加されました。 [詳細情報](../building-journeys/read-audience.md)
 * The **パーソナライゼーションの同意の実装** の節が更新され、キャンペーンでパーソナライゼーションの同意を手動で実施する方法が追加されました。セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成したり、構成ワークフローに分割アクティビティを追加したりできます。 [詳細情報](../privacy/opt-out.md#opt-out-expression-editor)
 
@@ -177,7 +177,7 @@ ht-degree: 97%
 * テストプロファイル作成ページは、**オーディエンス、プロファイル、ID**&#x200B;の節に移動しました。[詳細情報](../audience/creating-test-profiles.md)
 * 式エディターで式をデフォルト値として追加する方法の例を追加しました。[詳細情報](../building-journeys/expression/field-references.md#default-value)
 * **パーソナライズされたオファーの作成**&#x200B;の節が再編成され、読みやすくなりました。[詳細情報](../offers/offer-library/creating-personalized-offers.md)
-* オファーの開始日や終了日の変更が、このオファーのフリークエンシーキャッピングに与える影響を説明する新しい節が追加されました。[詳細情報](../offers/offer-library/add-constraints.md#capping-change-date)
+* オファーの開始日や終了日の変更が、このオファーのフリークエンシーキャップに与える影響を説明する新しい節が追加されました。[詳細情報](../offers/offer-library/add-constraints.md#capping-change-date)
 * **プライマリメールアドレスの変更**&#x200B;の節が更新され、ユーザーインターフェイスの変更が反映されました。[詳細情報](../configuration/primary-email-addresses.md)
 
 ## 2022年2月 {#feb-2022}

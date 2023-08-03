@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   > 必要なのは **アプリ設定を管理** へのアクセス権を持つ権限 **[!UICONTROL アプリのサーフェス]** メニュー。 詳しくは、 [このビデオ](#video).
+   > **[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスするには、**アプリ設定を管理**&#x200B;権限が必要です。詳しくは、[このビデオ](#video)を参照してください。
 
    ![](assets/inapp_config_1.png)
 
@@ -77,9 +77,9 @@ ht-degree: 87%
 * [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
 
 
-## チュートリアルビデオ{#video}
+## ハウツービデオ{#video}
 
-* 以下のビデオでは、 **アプリ設定を管理** アプリケーションサーフェスメニューにアクセスする権限です。
+* 以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

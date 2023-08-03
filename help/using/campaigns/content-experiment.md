@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
    ![](assets/content_experiment_11.png)
 
-1. アプリ内チャネルまたは Web チャネルを使用して実験を設定し、 **[!UICONTROL インバウンドクリック数]**, **[!UICONTROL 個別インバウンドクリック数]** , **[!UICONTROL ページビュー数]** または **[!UICONTROL 個別ページビュー数指標]** 、 **[!UICONTROL クリックアクション]**  ドロップダウンを使用すると、特定のページのクリック数やビュー数を正確に追跡および監視できます。
+1. アプリ内または web チャネルを使用して実験をセットアップし、「**[!UICONTROL インバウンドクリック数]**」、「**[!UICONTROL ユニークインバウンドクリック数]**」、「**[!UICONTROL ページビュー数]**」、「**[!UICONTROL ユニークページビュー数]**」のいずれかの指標を選択する場合、**[!UICONTROL クリックアクション]**&#x200B;ドロップダウンで、特定のページのクリック数とビュー数を正確に追跡および監視できます。
 
    ![](assets/content_experiment_20.png)
 

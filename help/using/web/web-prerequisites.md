@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 96%
 
 ## 注意事項 {#caution-notes-web}
 
-* 現在の場所 [!DNL Journey Optimizer] Web エクスペリエンスを作成できるのは、 **campaigns**. [詳細情報](../campaigns/create-campaign.md#configure)
+* 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;に web エクスペリエンスのみを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)
 
 * [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。
 
 
 >[!AVAILABILITY]
 >
->現時点では、Web チャネルは、AdobeHealthcare Shield アドオン機能を購入した組織では利用できません。
+>現時点では、Adobe Healthcare Shield アドオン製品を購入した組織では、web チャネルを利用できません。
 >
 
 ## 実装の前提条件 {#implementation-prerequisites}
