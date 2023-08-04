@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
+source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1401'
 ht-degree: 100%
 
 ---
@@ -472,6 +472,7 @@ ht-degree: 100%
          + [アクションの設定](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign Standard との統合](using/action/acs-action.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
+         + [アクションについて](using/action/action-response.md)
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
