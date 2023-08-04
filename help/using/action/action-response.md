@@ -11,10 +11,10 @@ badge: label="ベータ版" type="Informative"
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 18%
+source-wordcount: '497'
+ht-degree: 13%
 
 ---
 
@@ -55,11 +55,11 @@ The **アクションパラメーター** 「 」セクションの名前が変�
 
 1. 内側をクリック **応答** フィールドに入力します。
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. 呼び出しで返されたペイロードの例を貼り付けます。 フィールドのタイプが正しいことを確認します（文字列、整数など）。
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. 「**保存**」をクリックします。
 
@@ -121,15 +121,15 @@ API が呼び出されるたびに、ペイロードの例に含まれるすべ�
 
 たとえば、風速をチェックする条件を追加できます。 人がサーフショップに入ると、天気が強すぎる場合にプッシュを送信できます。
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 条件では、高度なエディターを使用して、 **コンテキスト** ノード。
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 また、 **jo_status** コードを使用して、エラーの場合に新しいパスを作成できます。
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ API が呼び出されるたびに、ペイロードの例に含まれるすべ�
 * キャッピングエラー： **キャップ**
 * 内部エラー： **internalError**
 
+ジャーニーアクティビティについて詳しくは、 [この節](../building-journeys/about-journey-activities.md).
+
 ### メッセージのパーソナライズ
 
 応答フィールドを使用して、メッセージをパーソナライズできます。 この例では、プッシュ通知では、速度の値を使用してコンテンツをパーソナライズします。
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->呼び出しは、特定のジャーニーのプロファイルごとに 1 回だけ実行されます。 複数のメッセージでは、新しい呼び出しのトリガーは発生しません。
+>呼び出しは、特定のジャーニーのプロファイルごとに 1 回だけ実行されます。 同じプロファイルに複数のメッセージを設定しても、新しい呼び出しはトリガーされません。
+
+メッセージのパーソナライゼーションについて詳しくは、 [この節](../personalization/personalize.md).
 
 ## 式の構文
 
@@ -175,4 +179,4 @@ API が呼び出されるたびに、ペイロードの例に含まれるすべ�
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+フィールド参照について詳しくは、 [この節](../building-journeys/expression/field-references.md).
