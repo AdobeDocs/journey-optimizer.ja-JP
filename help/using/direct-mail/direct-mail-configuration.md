@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '879'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >現在、[!DNL Journey Optimizer] では Amazon S3、SFTP、Azure がサポートされています。
+   >現在のAmazon S3 および SFTP<!--and Azure--> は、 [!DNL Journey Optimizer].
 
 1. サーバーアドレス、アクセスキーなど、サーバーの詳細と資格情報を入力します。
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 1. ファイル形式として **[!UICONTROL CSV]** または&#x200B;**[!UICONTROL テキスト区切り]**&#x200B;を選択します。
 
-1. **[!UICONTROL テキスト区切り]**&#x200B;を選択した場合は、選択した列区切り記号（タブ、セミコロン、パイプ、アンパサンド）を定義します。
+1. 次を選択した場合、 **[!UICONTROL 区切り文字]**、選択した列区切り文字（タブ、セミコロン、パイプ）を定義します。<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
