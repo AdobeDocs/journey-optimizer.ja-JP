@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -19,10 +19,6 @@ ht-degree: 100%
 
 このページでは、**Decisioning** API と **Edge Decisioning** API で利用できる特定の機能について説明します。どちらでも顧客にオファーを配信することができますが、インバウンドのユースケースにはできるだけ **Edge Decisioning** API を使用し、プラットフォームでの待ち時間とスループットを改善することをお勧めします。
 
-|  | 1 秒あたりのリクエスト数 | 待ち時間 |
-|---|---|---|
-| Decisioning API | 2,000 | &lt;500 ms |
-| Edge Decisioning API | 5,000 | &lt;250 ms |
 
 API の使用方法について詳しくは、次の節を参照してください。
 * [Decisioning API](decisioning-api.md)
