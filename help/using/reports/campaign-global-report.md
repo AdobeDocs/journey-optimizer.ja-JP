@@ -141,7 +141,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 再試行]**：再試行のキュー内のメール数。
 
-* **[!UICONTROL 除外]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
+* **[!UICONTROL 除外済み]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
 
 **[!UICONTROL メール - トラッキング統計情報]**&#x200B;のウィジェットには、配信の受信者アクティビティに使用できるデータが表示されます。
 
@@ -258,7 +258,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL エラー率]**：送信されたプッシュ通知と比較した、配信中に発生した送信を妨げるエラーの割合。
 
-* **[!UICONTROL 除外]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
+* **[!UICONTROL 除外済み]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
 
 「**[!UICONTROL プッシュ - トラッキング統計]**」には、配信の受信者アクティビティに使用できるデータが含まれます。
 
@@ -318,7 +318,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
 
-* **[!UICONTROL 除外]** : ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
+* **[!UICONTROL 除外済み]**：ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 

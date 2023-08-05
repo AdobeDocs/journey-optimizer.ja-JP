@@ -164,7 +164,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
 
-* **[!UICONTROL 除外]** : ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
+* **[!UICONTROL 除外済み]**：ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
 
 * **[!UICONTROL 送信済み]**：配信用の送信の合計数。
 
