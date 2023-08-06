@@ -11,10 +11,10 @@ badge: label="ベータ版" type="Informative"
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1d319f4c2bc10effd2573be40a1e8508441c04eb
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 8%
+source-wordcount: '665'
+ht-degree: 7%
 
 ---
 
@@ -61,7 +61,7 @@ The **アクションパラメーター** 「 」セクションの名前が変�
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. 呼び出しで返されたペイロードの例を貼り付けます。 フィールドのタイプが正しいことを確認します（文字列、整数など）。 次に、呼び出し中にキャプチャされた応答ペイロードの例を示します。 ローカルエンドポイントは、プロファイルのロイヤルティポイント数を送信します。
+1. 呼び出しで返されたペイロードの例を貼り付けます。 フィールドのタイプが正しいことを確認します（文字列、整数など）。 次に、呼び出し中にキャプチャされた応答ペイロードの例を示します。 ローカルエンドポイントは、ロイヤリティポイントの数とプロファイルのステータスを送信します。
 
    ```
    {
