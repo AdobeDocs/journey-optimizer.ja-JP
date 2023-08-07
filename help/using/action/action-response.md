@@ -11,7 +11,7 @@ badge: label="ベータ版" type="Informative"
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 hide: true
 hidefromtoc: true
-source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
+source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 7%
@@ -147,16 +147,16 @@ The **jo_status_code** フィールドは、応答ペイロードが定義され
 以下に、いくつかの例を示します。
 
 ```json
-// action response field
-@action{<action name>.<path to the field>}
-@action{OpenWeatherMap.main.temp}
+ // action response field
+ @action{<action name>.<path to the field>}
+ @action{ActionLoyalty.status}
 ```
 
 ```json
-// action response field
-@action{<action name>.<path to the field>, defaultValue: <default value expression>}
-@action{OpenWeatherMap.main.temp, defaultValue: 273.15}
-@action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
+ // action response field
+ @action{<action name>.<path to the field>, defaultValue: <default value expression>}
+ @action{ActionLoyalty.points, defaultValue: 0}
+ @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
 ```
 
 フィールド参照について詳しくは、 [この節](../building-journeys/expression/field-references.md).
