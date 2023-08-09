@@ -8,7 +8,7 @@ level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
 ht-degree: 100%
 
