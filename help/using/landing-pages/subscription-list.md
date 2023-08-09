@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 購読リストの作成
+title: サブスクリプションリストの作成
 description: Journey Optimizer で購読リストを設定する方法を学ぶ
 feature: Landing Pages
 topic: Content Management

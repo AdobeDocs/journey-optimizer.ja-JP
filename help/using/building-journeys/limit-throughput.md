@@ -11,7 +11,7 @@ exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer を使用すると、実務担当者は、カスタム�
 
 >[!NOTE]
 >
-> これは、1 秒あたりのジャーニーにエントリできるプロファイルの最大数です。 この率は、このアクティビティにのみ適用され、ジャーニー内の他のアクティビティには適用されません。 [詳細情報](../building-journeys/read-audience.md)
+> これは、1 秒あたりにジャーニーにエントリできるプロファイルの最大数です。このレートは、このアクティビティにのみ適用され、ジャーニーの他のアクティビティには適用されません。[詳細情報](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 

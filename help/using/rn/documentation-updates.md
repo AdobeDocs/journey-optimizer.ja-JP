@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 98%
 * [!DNL Journey Optimizer] の 7月23日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * 待機アクティビティのドキュメントページを改善し、グローバルタイムアウトと再エントリの使用に関連する追加情報とベストプラクティスを追加しました。[詳細情報](../building-journeys/wait-activity.md)
 * エントリ管理に関するページを改善しました。[詳細情報](../building-journeys/entry-management.md)
-* オーディエンスの閲覧アクティビティのドキュメントに、スロットル率に関する追加情報が追加されました。 [詳細情報](../building-journeys/read-audience.md)
-* The **パーソナライゼーションの同意の実装** の節が更新され、キャンペーンでパーソナライゼーションの同意を手動で実施する方法が追加されました。セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成したり、構成ワークフローに分割アクティビティを追加したりできます。 [詳細情報](../privacy/opt-out.md#opt-out-expression-editor)
+* 「オーディエンスを読み取り」アクティビティのドキュメントに、スロットルレートに関する情報を追加しました。[詳細情報](../building-journeys/read-audience.md)
+* **パーソナライゼーションの同意の実装**&#x200B;の節を更新し、キャンペーンでパーソナライゼーションの同意を手動で実施する方法を説明しています。セグメントルールビルダーを使用すると、オプトアウトプロファイルを含んだオーディエンスを作成したり、分割アクティビティをコンポジションワークフローに追加したりできます。[詳細情報](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023年6月 {#june-2023}
 

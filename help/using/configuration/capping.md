@@ -10,7 +10,7 @@ exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 >[!IMPORTANT]
 >
->The **maxHttpConnections** パラメーターはオプションです。 外部システムに対してJourney Optimizerが開く接続の数を制限できます。
+>**maxHttpConnections** パラメーターは、オプションです。これを使用すると、Journey Optimizer が外部システムに対して開く接続の数を制限できます。
 >
->設定できる最大値は 400 です。 何も指定しない場合、システムの動的なスケーリングに応じて、システムは最大で数千の接続を開く可能性があります。
+>設定できる最大値は 400 です。何も指定しない場合、システムは動的なスケーリングに応じて、最大で数千の接続を開く可能性があります。
 
 ### 例：
 
