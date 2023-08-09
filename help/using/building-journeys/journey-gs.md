@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
 ht-degree: 100%
 
