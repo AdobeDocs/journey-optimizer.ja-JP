@@ -157,5 +157,5 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 1. get
 1. update
 1. undeploy
-1. デプロイ可能
+1. candeploy
 1. デプロイ
