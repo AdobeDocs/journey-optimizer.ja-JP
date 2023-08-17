@@ -10,7 +10,7 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
 
