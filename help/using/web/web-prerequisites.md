@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '1060'
+ht-degree: 83%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 100%
 現在、web プロパティで web チャネルキャンペーンのオーサリングと配信を可能にする、次の 2 種類の実装がサポートされています。
 
 * クライアントサイドのみ - web サイトに変更を追加するには、web サイトに [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装する必要があります。
+
+  >[!NOTE]
+  >
+  >AEP Web SDK のバージョンが 2.16 以降であることを確認します。
 
 * ハイブリッドモード - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} を使用できます。
 
@@ -126,6 +130,24 @@ Web エクスペリエンスが正しく配信されるようにするには、�
   この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
+
+## コンテンツ実験の前提条件 {#experiment-prerequisites}
+
+Web チャネルでコンテンツ実験を有効にするには、 [データセット](../data/get-started-datasets.md) Web 実装で使用される [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} がレポート設定にも存在します。
+
+つまり、実験レポートを設定する際に、Web データストリームに存在しないデータセットを追加した場合、Web データはコンテンツ実験レポートに表示されません。
+
+でコンテンツ実験レポート用のデータセットを追加する方法を説明します。 [この節](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>データセットは、 [!DNL Journey Optimizer] レポートシステムに影響せず、データ収集やデータ取り込みにも影響しません。
+
+次の場合、 **not** 次の事前定義済みのを使用 [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}) の場合は、必ず次のフィールドグループを追加してください。 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`、および `Web Details`. これらは、 [!DNL Journey Optimizer] 各プロファイルが参加する実験および処理を追跡する際のコンテンツ実験レポート。
+
+>[!NOTE]
+>
+>これらのフィールドグループを追加しても、通常のデータ収集には影響しません。 実験が実行されているページに対してのみ加算的で、その他の追跡はすべて変更されません。
 
 ## アセットのブランドドメイン {#branded-domains-for-assets}
 
