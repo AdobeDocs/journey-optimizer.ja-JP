@@ -12,7 +12,7 @@ keywords: アクション, サードパーティ, カスタム, ジャーニー,
 hide: true
 hidefromtoc: true
 source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
 
