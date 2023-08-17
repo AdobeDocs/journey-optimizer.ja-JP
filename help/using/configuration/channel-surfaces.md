@@ -10,7 +10,7 @@ level: Intermediate
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 100%
 
