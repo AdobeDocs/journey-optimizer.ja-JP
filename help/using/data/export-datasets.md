@@ -9,7 +9,7 @@ badge: label="ベータ版" type="Informative"
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 
