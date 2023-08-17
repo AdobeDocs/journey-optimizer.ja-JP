@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
