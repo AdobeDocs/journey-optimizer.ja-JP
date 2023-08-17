@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 100%
+source-wordcount: '1783'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >ランディングページをテストして公開するには、**[!UICONTROL メッセージを公開]**&#x200B;権限が必要です。
+
+特定のリンクをクリックしたときに表示する定義済みの Web ページに顧客を誘導するには、 [!DNL Journey Optimizer]、プライマリページと任意のサブページを設定し、テストして公開します。
+
+>[!CAUTION]
+>
+>次の場合に定義した URL を Web ブラウザーにコピー&amp;ペーストするだけで、ランディングページにアクセスすることはできません。 [ページの作成](#create-landing-page)（公開された場合も） 代わりに、[この節](#test-landing-page)で説明されているように、プレビュー機能を使用してテストすることができます。
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
@@ -95,6 +101,10 @@ ht-degree: 100%
 
 [プライマリページ](#configure-primary-page)と[サブページ](#configure-subpages)（存在する場合）を設定およびデザインしたら、ランディングページを[テスト](#test-landing-page)して[公開](#publish-landing-page)できます。
 
+>[!CAUTION]
+>
+>定義した URL をコピー&amp;ペーストするだけで、ランディングページにアクセスすることはできません（公開されている場合でも）。 代わりに、[この節](#test-landing-page)で説明されているように、プレビュー機能を使用してテストすることができます。
+
 ## プライマリページの設定 {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ ht-degree: 100%
    >[!CAUTION]
    >
    >ランディングページの URL は一意にする必要があります。
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >公開済みの場合でも、この URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできません。代わりに、[この節](#test-landing-page)で説明されているように、プレビュー機能を使用してテストすることができます。
+
+   ![](assets/lp_access-url.png)
 
 1. ランディングページで、既に使用可能なフォームデータをプリロードする場合は、**[!UICONTROL プロファイル情報を含むフォームフィールドの事前入力]**&#x200B;を選択します。
 
@@ -196,6 +204,8 @@ ht-degree: 100%
    >[!CAUTION]
    >
    >ランディングページの URL は一意にする必要があります。
+   >
+   >この URL を Web ブラウザーにコピー&amp;ペーストするだけでは、公開済みの場合でもサブページにアクセスできません。 代わりに、[この節](#test-landing-page)で説明されているように、プレビュー機能を使用してテストすることができます。
 
 ![](assets/lp_subpage-settings.png)
 
@@ -298,5 +308,6 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->特定のレポートを通じて、ランディングページの影響を監視できます。[詳細情報](../reports/lp-report-live.md)
+>次の場合に定義した URL を Web ブラウザーにコピー&amp;ペーストするだけで、ランディングページにアクセスすることはできません。 [ページの作成](#create-landing-page)（公開された場合も） 代わりに、[この節](#test-landing-page)で説明されているように、プレビュー機能を使用してテストすることができます。
 
+特定のレポートを通じて、ランディングページの影響を監視できます。[詳細情報](../reports/lp-report-live.md)
