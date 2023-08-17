@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定, 実験, レポート, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 75%
+source-wordcount: '636'
+ht-degree: 76%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 75%
 
   例えば、購入や注文などのコマースデータに対する電子メールキャンペーンの影響を把握するには、 `Commerce Details` フィールドグループを使用します。
 
-  同様に、モバイルインタラクションに関するレポートを作成する場合は、「アプリケーションの詳細」フィールドグループを含むエクスペリエンスイベントデータセットを作成する必要があります。
+  同様に、モバイルインタラクションに関するレポートを作成する場合は、 `Application Details` フィールドグループを使用します。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
