@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
