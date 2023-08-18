@@ -9,19 +9,19 @@ role: Admin
 level: Intermediate
 keywords: 設定, 実験, レポート, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 76%
 
 ---
 
-# 実験用のレポートを設定 {#reporting-configuration}
+# 実験用のレポートの設定 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="レポート用のデータセットを設定"
->abstract="レポート設定では、キャンペーンレポートの「目的」タブで使用する追加指標を取得できます。技術ユーザーが実行する必要があります。"
+>abstract="レポート設定を使用すると、キャンペーンレポートで使用される追加の指標を取得できます。 技術ユーザーが実行する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 レポートデータソース設定では、レポートで使用する追加情報を取得するためにシステムへの接続を定義できます。
 
-<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports.-->
 
 >[!NOTE]
 >
@@ -49,17 +49,17 @@ ht-degree: 100%
 
 * イベントタイプのデータセットのみを追加できます。
 
-* これらのデータセットには、「**エクスペリエンスイベント - 提案インタラクション**」[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}が含まれている必要があります。
+* これらのデータセットには、 `Experience Event - Proposition Interactions` [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}.
 
-* また、これらのデータセットには、次の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}のうち 1 つが含まれている場合があります：**アプリケーションの詳細**、**コマースの詳細**、 **web の詳細**。
+* これらのデータセットには、次のいずれかを含めることもできます [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
 
   >[!NOTE]
   >
   >他のフィールドグループが含まれる場合もありますが、Journey Optimizer レポートで現在サポートされているのは上記のフィールドグループのみです。
 
-  例えば、メールキャンペーンが購入や注文などのコマースデータに与える影響を知りたい場合は、**コマースの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
+  例えば、購入や注文などのコマースデータに対する電子メールキャンペーンの影響を把握するには、 `Commerce Details` フィールドグループを使用します。
 
-  同様に、モバイルインタラクションに関してレポートする場合は、**アプリケーションの詳細**&#x200B;フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
+  同様に、モバイルインタラクションに関するレポートを作成する場合は、 `Application Details` フィールドグループを使用します。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -126,6 +126,12 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >[!CAUTION]
    >
    >イベントタイプでないデータセットを選択した場合は、続行できません。
+
+Web チャネルおよびアプリ内チャネルの場合、 [データセット](../data/get-started-datasets.md) データ収集用に設定されたも、このレポート設定に追加されます。 そうしないと、Web データとアプリ内データはコンテンツ実験レポートに表示されません。
+
+* Web チャネルのコンテンツ実験の前提条件について詳しくは、 [この節](../web/web-prerequisites.md#experiment-prerequisites).
+
+* アプリ内チャネルの設定について詳しくは、 [この節](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
