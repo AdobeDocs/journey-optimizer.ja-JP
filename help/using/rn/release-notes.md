@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: 0ff415fa209da7996254a60817ef69998fd47903
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3201'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer のメールエディターで、HTML コンテンツを読み込んで変換できるようになりました。コンテンツブロックは自動的に識別され、メールデザイナーで使用できます。その強力なデザイン機能を使用して、更新とパーソナライズを行います。</p>
 <img src="assets/html-convert.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../email/existing-content.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -117,11 +117,6 @@ ht-degree: 100%
 ### 機能強化 {#july-2023-improvements}
 
 このリリースでは、以下に示す機能強化が含まれています。
-
-<!--**Journeys**
-
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
-A new type of system alert has been introduced. You can now get notified when a custom action fails.-->
 
 
 **キャンペーン**
