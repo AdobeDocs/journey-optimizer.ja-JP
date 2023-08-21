@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,13 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 
-次の様々なデータセットが使用可能です。
+Adobe Journey Optimizerのシステムデータセットを次に示します。
+
+
+>[!CAUTION]
+>
+> システムデータセット **は変更できません**. 製品のアップデートごとに、変更が自動的に元に戻されます。
+>
 
 **レポート**
 
