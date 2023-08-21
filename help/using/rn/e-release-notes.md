@@ -5,7 +5,7 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
+source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 43%
@@ -102,4 +102,4 @@ ht-degree: 43%
 **ダイレクトメール**
 
 * ルーティング先として Azure Blob をサポートします。
-* カスタムの区切り文字として「&amp;」をサポートします。
+* サポート `&` をカスタムの区切り文字として使用します。
