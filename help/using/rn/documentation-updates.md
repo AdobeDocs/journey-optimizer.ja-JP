@@ -4,16 +4,22 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '3061'
-ht-degree: 100%
+source-wordcount: '3171'
+ht-degree: 96%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023年8月 {#august-2023}
+
+* Web チャネルのコンテンツ実験の前提条件に関する新しい節が追加されました。 [詳細情報](../web/web-prerequisites.md#experiment-prerequisites)
+* に警告が追加されました **コンテンツテンプレートの使用** ページを示します。 トラッキングをテストするには、E メール内でコンテンツテンプレートを使用し、配達確認を送信する必要があります。 [詳細情報](../email/content-templates.md#test-template)
+* にいくつかの警告が追加されました。 **ランディングページの作成と公開** 」セクションを使用して、ページの作成時に定義した URL（公開済みの場合でも）を web ブラウザーにコピー&amp;ペーストするだけで、ランディングページにアクセスできないことを指定します。 代わりに、プレビュー機能を使用してテストすることができます。 [詳細情報](../landing-pages/create-lp.md)
 
 ## 2023年7月 {#july-2023}
 
