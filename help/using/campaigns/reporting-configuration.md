@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="レポート用のデータセットを設定"
->abstract="レポート設定を使用すると、キャンペーンレポートで使用される追加の指標を取得できます。 技術ユーザーが実行する必要があります。"
+>abstract="レポート設定では、キャンペーンレポートで使用する追加指標を取得できます。技術ユーザーが実行する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -49,17 +49,17 @@ ht-degree: 76%
 
 * イベントタイプのデータセットのみを追加できます。
 
-* これらのデータセットには、 `Experience Event - Proposition Interactions` [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}.
+* これらのデータセットには、`Experience Event - Proposition Interactions` [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を含める必要があります。
 
-* これらのデータセットには、次のいずれかを含めることもできます [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
+* また、これらのデータセットには、次の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}のうち 1 つが含まれている場合があります：`Application Details`、`Commerce Details`、 `Web Details`。
 
   >[!NOTE]
   >
   >他のフィールドグループが含まれる場合もありますが、Journey Optimizer レポートで現在サポートされているのは上記のフィールドグループのみです。
 
-  例えば、購入や注文などのコマースデータに対する電子メールキャンペーンの影響を把握するには、 `Commerce Details` フィールドグループを使用します。
+  例えば、メールキャンペーンが購入や注文などのコマースデータに与える影響を知りたい場合は、`Commerce Details` フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
 
-  同様に、モバイルインタラクションに関するレポートを作成する場合は、 `Application Details` フィールドグループを使用します。
+  同様に、モバイルインタラクションに関してレポートする場合は、`Application Details` フィールドグループを使用してエクスペリエンスイベントデータセットを作成する必要があります。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -127,11 +127,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >
    >イベントタイプでないデータセットを選択した場合は、続行できません。
 
-Web チャネルおよびアプリ内チャネルの場合、 [データセット](../data/get-started-datasets.md) データ収集用に設定されたも、このレポート設定に追加されます。 そうしないと、Web データとアプリ内データはコンテンツ実験レポートに表示されません。
+Web チャネルとアプリ内チャネルの場合、データ収集用に設定された[データセット](../data/get-started-datasets.md)もこのレポート設定に追加していることを確認する必要があります。追加していない場合、web データとアプリ内データがコンテンツ実験レポートに表示されません。
 
-* Web チャネルのコンテンツ実験の前提条件について詳しくは、 [この節](../web/web-prerequisites.md#experiment-prerequisites).
+* Web チャネルのコンテンツ実験の前提条件について詳しくは、[この節](../web/web-prerequisites.md#experiment-prerequisites)を参照してください。
 
-* アプリ内チャネルの設定について詳しくは、 [この節](../in-app/inapp-configuration.md).
+* アプリ内チャネルの設定について詳しくは、[この節](../in-app/inapp-configuration.md)を参照してください。
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: bdebd6495b0147b606a86153025090bdcb5c96a7
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -187,4 +187,4 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->最終的な URL を確認するには、[配達確認を送信](preview.md#send-proofs)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。URL にはトラッキングパラメーターを表示する必要があります。上記の例では、最終的な URL は次のようになります。 <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>最終的な URL を確認するには、[配達確認を送信](preview.md#send-proofs)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。URL にはトラッキングパラメーターを表示する必要があります。上記の例では、最終的な URL は次のようになります：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

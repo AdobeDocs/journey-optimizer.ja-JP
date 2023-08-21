@@ -8,13 +8,13 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # アプリ内チャネルの設定 {#inapp-configuration}
 
-アプリ内メッセージを送信する前に、 [!DNL Adobe Experience Platform Data Collection].
+アプリ内メッセージを送信する前に、[!DNL Adobe Experience Platform Data Collection] でアプリ内チャネルを設定する必要があります。
 
 1. お使いの [!DNL Adobe Experience Platform Data Collection] アカウントから、**[!UICONTROL データストリーム]**&#x200B;メニューにアクセスし、**[!UICONTROL 新しいデータストリーム]**&#x200B;をクリックします。データストリーム作成について詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja)を参照してください。
 
@@ -26,11 +26,11 @@ ht-degree: 78%
 
    >[!NOTE]
    >
-   >アプリ内チャネルでコンテンツ実験を有効にするには、 [データセット](../data/get-started-datasets.md) アプリ内で使用 [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} また、がレポート設定に存在します。存在しない場合、アプリ内データはコンテンツ実験レポートに表示されません。 [データセットを追加する方法を説明します。](../campaigns/reporting-configuration.md#add-datasets)
+   >アプリ内チャネルのコンテンツ実験を有効にするには、アプリ内[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)がレポート設定にも存在することを確認する必要があります。存在しない場合、アプリ内データはコンテンツ実験レポートに表示されません。[詳しくは、データセットの追加方法を参照してください](../campaigns/reporting-configuration.md#add-datasets)
    >
-   >データセットは、 [!DNL Journey Optimizer] レポートシステムに影響せず、データ収集やデータ取り込みにも影響しません。
+   >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
-1. 次に、 **[!UICONTROL アプリのサーフェス]** メニューとクリック **[!UICONTROL アプリサーフェスを作成]**.
+1. 次に、**[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスして、「**[!UICONTROL アプリサーフェスを作成]**」をクリックします。
 
    >[!NOTE]
    >

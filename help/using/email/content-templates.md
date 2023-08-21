@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->現在、E メールコンテンツテンプレートをテストする際の追跡はサポートされていません。つまり、テンプレートから送信される配達確認で、イベント、UTM パラメーター、ランディングページリンクの追跡が有効になりません。 トラッキングをテストするには、 [コンテンツテンプレートの使用](email-templates.md) 電子メールで [配達確認を送る](preview.md#send-proofs).
+>現在、メールコンテンツテンプレートをテストする際の追跡はサポートされていません。つまり、テンプレートから送信される配達確認で、イベント、UTM パラメーター、ランディングページリンクの追跡が有効になりません。追跡をテストするには、メールで[コンテンツテンプレートを使用](email-templates.md)し、[配達確認を送信](preview.md#send-proofs)します。
 
 ## ハウツービデオ {#video-templates}
 

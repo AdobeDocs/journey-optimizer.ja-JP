@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -133,21 +133,21 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 
 ## コンテンツ実験の前提条件 {#experiment-prerequisites}
 
-Web チャネルでコンテンツ実験を有効にするには、 [データセット](../data/get-started-datasets.md) Web 実装で使用される [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} は、レポート設定にも含まれます。
+Web チャネルのコンテンツ実験を有効にするには、web 実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用するデータセットも[レポート設定](../data/get-started-datasets.md)に含まれていることを確認する必要があります。
 
-つまり、実験レポートを設定する際に、Web データストリームに存在しないデータセットを追加した場合、Web データはコンテンツ実験レポートに表示されません。
+つまり、実験レポートを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはコンテンツ実験レポートに表示されません。
 
-でコンテンツ実験レポート用のデータセットを追加する方法を説明します。 [この節](../campaigns/reporting-configuration.md#add-datasets).
-
->[!NOTE]
->
->データセットは、 [!DNL Journey Optimizer] レポートシステムに影響せず、データ収集やデータ取り込みにも影響しません。
-
-次の場合、 **not** 次の事前定義済みのを使用 [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}) の場合は、必ず次のフィールドグループを追加してください。 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`、および `Web Details`. これらは、 [!DNL Journey Optimizer] 各プロファイルが参加する実験および処理を追跡する際のコンテンツ実験レポート。
+コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../campaigns/reporting-configuration.md#add-datasets)を参照してください。
 
 >[!NOTE]
 >
->これらのフィールドグループを追加しても、通常のデータ収集には影響しません。 実験が実行されているページに対してのみ加算的で、その他の追跡はすべて変更されません。
+>データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
+
+次の事前定義された[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}）を使用してい&#x200B;**ない**&#x200B;場合は、次のフィールドグループを追加する必要があります：`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`、`Web Details`。これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
+
+>[!NOTE]
+>
+>これらのフィールドグループを追加しても、通常のデータ収集には影響しません。実験が実行されているページに対してのみ追加され、他のすべての追跡は変更されません。
 
 ## アセットのブランドドメイン {#branded-domains-for-assets}
 
