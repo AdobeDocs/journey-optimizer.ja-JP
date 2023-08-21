@@ -5,9 +5,9 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '402'
 ht-degree: 43%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 43%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーのアプリ内チャネル</strong><br/></th>
+<th><strong>ジャーニーでのアプリ内メッセージの送信</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ ht-degree: 43%
 <table>
 <thead>
 <tr>
-<th><strong>テキストおよび画像のコンテンツアシスタント</strong><br/></th>
+<th><strong>コンテンツアシスタントでテキストと画像を生成する</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>メッセージを作成し、パーソナライズしたら、コンテンツアシスタントを使用してコンテンツを次のレベルに移動します。 コンテンツアシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。 各バリアントは独自の処理として管理され、どのタイトルがより効果的にクリックを生み出すかを測定および比較します。</p>
+<p>この機能は現在、プライベートベータ版として使用可能です。</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ ht-degree: 43%
 
 * カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
 * 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
+
+
+**ダイレクトメール**
+
+* ルーティング先として Azure Blob をサポートします。
+* カスタムの区切り文字として「&amp;」をサポートします。
