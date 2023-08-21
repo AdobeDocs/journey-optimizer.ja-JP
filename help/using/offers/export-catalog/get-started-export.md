@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: a68b4417c86b71d16622e8776c17625b2d061cc7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '83'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,8 @@ Journey Optimizer を使用すると、オファーカタログを Adobe Experie
 
 オファーライブラリでこれらのオブジェクトの 1 つが変更されるたびに、新しいエクスポートジョブが自動的に実行され、データセットが更新されます。
 
+<!--
 >[!NOTE]
 >
->この機能は、デフォルトでは有効になっていません。この機能を使用する場合は、アドビの担当者に連絡して、カタログに対して有効になるように依頼してください。有効になると、エクスポートジョブは自動化され、ユーザー側からのアクションは不要になります。
+>This feature is not enabled by default. If you want to use it, reach out to your Adobe contact to have it activated for your catalog. Once it is enabled, export jobs will be automated and will require no action from your side.
+-->
