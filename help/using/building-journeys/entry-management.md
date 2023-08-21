@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
+source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 82%
+source-wordcount: '613'
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 82%
 
 ![](assets/journey-re-entrance.png)
 
-デフォルトのグローバルタイムアウトである 30 日が経過すると、ジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。既にジャーニーに存在するプロファイルは、通常どおりジャーニーを完了します。 新しいプロファイルは、ジャーニーにエントリできなくなりました。 プライバシーコンプライアンスに合わせるには、この動作は 30 日間のみ設定されます。 その期間を過ぎると、プロファイルはジャーニーに再度エントリできます。 これを回避するには、入力済みのプロファイルが既にあるかどうかをテストする条件を追加します。 でのジャーニータイムアウトの詳細を説明します。 [この節](journey-gs.md#global_timeout).
+デフォルトのグローバルタイムアウトである 30 日が経過すると、ジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。既にジャーニーに存在するプロファイルは、通常どおりジャーニーを完了します。 新しいプロファイルは、ジャーニーにエントリできなくなりました。 この動作は 30 日間のみ（ジャーニーのタイムアウトのデフォルト値）に設定されます。ジャーニーに入った 30 日後にプロファイルに関する情報をすべて削除するからです。 その期間を過ぎると、プロファイルはジャーニーに再度エントリできます。 これを回避するには、入力済みのプロファイルが既にあるかどうかをテストする条件を追加します。 でのジャーニータイムアウトの詳細を説明します。 [この節](journey-gs.md#global_timeout).
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
