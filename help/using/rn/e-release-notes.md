@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
+source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 43%
+source-wordcount: '411'
+ht-degree: 42%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 43%
 <tr>
 <td>
 <p>メッセージを作成し、パーソナライズしたら、コンテンツアシスタントを使用してコンテンツを次のレベルに移動します。 コンテンツアシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。 各バリアントは独自の処理として管理され、どのタイトルがより効果的にクリックを生み出すかを測定および比較します。</p>
-<p>この機能は現在、プライベートベータ版として使用可能です。</p>
+<p>この機能は、現在、プライベートベータ版として使用できます。</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -95,7 +95,7 @@ ht-degree: 43%
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、プライベートベータ版として使用可能です。
 * 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
 
 
