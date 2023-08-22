@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ff415fa209da7996254a60817ef69998fd47903
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 100%
+source-wordcount: '3514'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,99 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
+
+
+## 2023 年 8 月の早期リリースノート {#aug-rn-2023}
+
+以下の先行リリースノートは、リリース日まで予告なく変更される場合があります。 リンク、画面、更新されたドキュメントは、リリース日に公開されます。
+
+
+**リリース日**:2023 年 8 月 23 日～24 日
+
+### 新機能{#aug-2023-features}
+
+このリリースでは、以下に示す新機能が導入されています。
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーでのアプリ内メッセージの送信</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニー内で、パーソナライズされたアプリ内メッセージをアプリのユーザーに送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
+<img src="assets/in_app_journey_1.png"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>シードリストを含む E メールの検証</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizerでシードリストを作成および管理できるようになりました。 シードリストは、実際のオーディエンスに追加できる内部アドレスと、配信の実行時にターゲットプロファイルとまったく同じメッセージを受け取ることができる内部アドレスで構成されます。 この機能を使用して、送信された通信を監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
+<img src="../configuration/assets/seed-list-details.png">
+<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
+<img src="assets/gen-ai-image-2.png"/>
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+
+### 機能強化 {#aug-2023-improvements}
+
+このリリースでは、以下に示す機能強化が含まれています。
+
+**API**
+
+コンテンツフラグメントを作成および管理する新しい API が利用できるようになりました。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}。
+
+**メールチャネル**
+
+E メールの表面の設定で、トランザクションメッセージのオーディエンスにスパムの苦情が原因で抑制された E メールアドレスを含める新しいオプションが使用できます。 マーケティングメッセージがスパムとしてマークされても、これらのプロファイルは、パスワードのリセットやアカウント明細書などのトランザクションメッセージを受け取ることができます。 このオプションはデフォルトでは無効です。
+
+**ジャーニー**
+
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、プライベートベータ版として使用可能です。
+* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+
+
+**ダイレクトメール**
+
+* ファイルルーティング設定で、サーバーの種類として Azure を選択できるようになりました。
+* ダイレクトメールの表面設定の列区切り記号フィールドとして、アンパサンドが使用できるようになりました。
+
+
 
 
 ## 2023年7月リリースノート {#july-rn-2023}

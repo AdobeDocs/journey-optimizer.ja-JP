@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 42%
+source-wordcount: '362'
+ht-degree: 48%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでシードリストを作成および管理できるようになりました。 シードリストは、実際のオーディエンスに電子メールを送信する前に送信する、テスト用電子メールアドレスで構成されます。 この機能を使用して、送信された E メールコピーを監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
+<p>Journey Optimizerでシードリストを作成および管理できるようになりました。 シードリストは、実際のオーディエンスに追加できる内部アドレスと、配信の実行時にターゲットプロファイルとまったく同じメッセージを受け取ることができる内部アドレスで構成されます。 この機能を使用して、送信された通信を監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ ht-degree: 42%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>コンテンツアシスタントでテキストと画像を生成する</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成し、パーソナライズしたら、コンテンツアシスタントを使用してコンテンツを次のレベルに移動します。 コンテンツアシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。 各バリアントは独自の処理として管理され、どのタイトルがより効果的にクリックを生み出すかを測定および比較します。</p>
-<p>この機能は、現在、プライベートベータ版として使用できます。</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ ht-degree: 42%
 
 **メールチャネル**
 
-* E メールの表面の設定で、トランザクションメッセージのオーディエンスにスパムの苦情が原因で抑制された E メールアドレスを含める新しいオプションが使用できます。 マーケティングメッセージがスパムとしてマークされても、これらのプロファイルは、パスワードのリセットやアカウント明細書などのトランザクションメッセージを受け取ることができます。 このオプションはデフォルトでは無効です。
+E メールの表面の設定で、トランザクションメッセージのオーディエンスにスパムの苦情が原因で抑制された E メールアドレスを含める新しいオプションが使用できます。 マーケティングメッセージがスパムとしてマークされても、これらのプロファイルは、パスワードのリセットやアカウント明細書などのトランザクションメッセージを受け取ることができます。 このオプションはデフォルトでは無効です。
 
 **ジャーニー**
 
@@ -102,5 +102,5 @@ ht-degree: 42%
 
 **ダイレクトメール**
 
-* ルーティング先として Azure Blob をサポートします。
-* サポート `&` をカスタムの区切り文字として使用します。
+* ファイルルーティング設定で、サーバーの種類として Azure を選択できるようになりました。
+* ダイレクトメールの表面設定の列区切り記号フィールドとして、アンパサンドが使用できるようになりました。
