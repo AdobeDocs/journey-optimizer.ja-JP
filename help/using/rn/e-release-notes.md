@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
+source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 42%
+source-wordcount: '425'
+ht-degree: 40%
 
 ---
 
@@ -97,6 +97,7 @@ ht-degree: 42%
 
 * カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、プライベートベータ版として使用可能です。
 * 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
+* ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。
 
 
 **ダイレクトメール**
