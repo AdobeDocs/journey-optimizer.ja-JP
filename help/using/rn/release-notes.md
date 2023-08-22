@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
+source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
 workflow-type: tm+mt
 source-wordcount: '3495'
 ht-degree: 93%
@@ -102,7 +102,7 @@ E メールの表面の設定で、トランザクションメッセージのオ
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、プライベートベータ版として使用可能です。
+カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、プライベートベータ版として使用可能です。
 <!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 * When duplicating a journey, you can now define the name of the journey copy.-->
 
