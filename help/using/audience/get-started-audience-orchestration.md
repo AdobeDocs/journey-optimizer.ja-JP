@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください。
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ![](assets/audiences-browse.png)
 
-* 「**[!UICONTROL 概要]**」タブには、組織のオーディエンスデータに関連する主要指標を含んだ専用のダッシュボードが表示されます。詳しくは、[Adobe Experience Platform のダッシュボードガイド](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=ja)を参照してください。
+* The **[!UICONTROL 概要]** 「 」タブには、組織のオーディエンスデータに関連する主要指標が表示される専用のダッシュボードが表示されます。 詳しくは、[Adobe Experience Platform のダッシュボードガイド](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=ja)を参照してください。
 
 * 「**[!UICONTROL 参照]**」タブには、Adobe Experience Platform に保存されている既存のオーディエンスがすべて表示されます。
 

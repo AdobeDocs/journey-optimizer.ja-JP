@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 99%
 
 ---
 
@@ -185,9 +185,6 @@ ht-degree: 100%
       + コンテンツのデザイン {#add-content}
          + [コンテンツコンポーネントの使用](using/email/content-components.md)
          + [リンクの追加とメッセージの追跡](using/email/message-tracking.md)
-         + アセットの管理 {#manage-asset}
-            + [Assets Essentials の操作](using/email/assets-essentials.md)
-            + [Adobe Stock との連携](using/email/stock.md)
          + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
          + [テキストバージョンの生成](using/email/text-version-email.md)
          + [プリヘッダーを追加](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 100%
    + ランディングページの設定 {#lp-configuration}
       + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
++ コンテンツ管理 {#content-management}
+   + [Assets Essentials の操作](using/content-management/assets-essentials.md)
+   + [Adobe Stock との連携](using/content-management/stock.md)
+   + コンテンツアシスタントの操作{#content-assistant}
+      + [コンテンツアシスタントの基本を学ぶ](using/content-management/gs-generative.md)
+      + [タイトルの生成](using/content-management/generative-title.md)
+      + [画像生成](using/content-management/generative-image.md)
 + パーソナライズ機能と動的コンテンツ {#personalized-dynamic-content}
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)

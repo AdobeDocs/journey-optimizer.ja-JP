@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: コンポーネント, 電子メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
@@ -121,7 +121,7 @@ ht-degree: 100%
    * **フォントサイズ**：テキストのフォントサイズをピクセル単位で選択します。
    * **[!UICONTROL フォントカラーを変更]**：フォントの色を選択します。
    * **[!UICONTROL リンクを挿入]**：コンテンツに任意のタイプのリンクを追加します。
-   * **[!UICONTROL 画像の編集]**：テキストコンポーネントに画像またはアセットを追加します。[詳しくは、アセット管理を参照してください](assets-essentials.md)
+   * **[!UICONTROL 画像の編集]**：テキストコンポーネントに画像またはアセットを追加します。[詳しくは、アセット管理を参照してください](../content-management/assets-essentials.md)
    * **[!UICONTROL フォントカラーを変更]**：フォントの色を選択します。
    * **[!UICONTROL パーソナライゼーションを追加]**：パーソナライゼーションフィールドを追加し、プロファイルデータを使用してコンテンツをカスタマイズできます。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
    * **[!UICONTROL ソースコードの表示]**：テキストのソースコードを表示します。変更はできません。
@@ -178,7 +178,7 @@ ht-degree: 100%
 
    ![](assets/email_designer_10.png)
 
-1. また、「**[!UICONTROL 類似のストックフォトを検索]**」を選択することもできます。[詳細情報](stock.md)
+1. また、「**[!UICONTROL 類似のストックフォトを検索]**」を選択することもできます。[詳細情報](../content-management/stock.md)
 
 1. 「**[!UICONTROL スタイル]**」タブから、余白、境界線などの他のスタイル属性を調整します。または、別のコンテンツにオーディエンスをリダイレクトするためのリンクを&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインで追加します。
 

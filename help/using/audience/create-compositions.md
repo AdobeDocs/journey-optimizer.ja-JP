@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください。
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください。{target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー、タグ
-badge: label="ベータ版" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
@@ -20,10 +19,6 @@ ht-degree: 100%
 # ジャーニーでのタグの管理 {#journey_tags}
 
 Journey Optimizer の実務担当者は、タグを使用してジャーニーを整理できます。タグを使用すると、オブジェクトをすばやく簡単に分類でき、検索が改善されます。
-
->[!AVAILABILITY]
->
-> 統合タグは現在ベータ版です。 ドキュメントと機能は変更される場合があります。
 
 ## ジャーニーへのタグの追加
 

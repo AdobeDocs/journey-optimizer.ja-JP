@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: Web、サブドメイン、設定
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
@@ -31,7 +31,7 @@ ht-degree: 100%
 >title="Web サブドメインの設定"
 >abstract="アドビにデリゲートされているサブドメインのリストからサブドメインを選択します。この web サブドメインをデフォルトのサブドメインとして設定できますが、一度に使用できるデフォルトのサブドメインは 1 つだけです。"
 
-Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
+Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
 
 そのためには、既にアドビにデリゲートされているサブドメインのリストから選択する必要があります。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
 

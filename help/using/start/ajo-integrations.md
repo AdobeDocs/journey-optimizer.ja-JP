@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 [!DNL Adobe Experience Manager Assets Essentials] には、左メニューの「**[!UICONTROL アセット]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。
 
-詳しくは、[Journey Optimizer + Assets Essentials](../email/assets-essentials.md) を参照してください。
+詳しくは、[Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md) を参照してください。
 
 
 ## Adobe Stock{#integration-stock}
@@ -55,12 +55,12 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 [!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] からメールに画像を直接アップロードし、「**[!UICONTROL Adobe Stock フォトを検索]**」オプションを使用して&#x200B;**[!UICONTROL アセット]**&#x200B;フォルダーに追加できます。「**[!UICONTROL 類似のストックフォトを検索]**」オプションを使用すると、配信で使用されるアセットのコンテンツ、カラー、構成に一致する画像を検索することができます。
 
-詳しくは、[Journey Optimizer + Stock](../email/stock.md) を参照してください。
+詳しくは、[Journey Optimizer + Stock](../content-management/stock.md) を参照してください。
 
 
 ## Adobe インテリジェントサービス{#integration-intelligent-service}
 
-リアルタイム顧客データプラットフォームにネイティブな Adobe インテリジェントサービスを使用すると、カスタマーエクスペリエンスのユースケースで人工知能と機械学習の機能を活用できます。これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに固有の予測を設定できます。
+リアルタイム顧客データプラットフォームにネイティブな Adobe インテリジェントサービスを使用すると、カスタマーエクスペリエンスのユースケースで人工知能と機械学習の機能を活用できます。これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに特化した予測を設定できます。
 
 顧客 AI を使用すると、ブランドは、Adobe Experience Platform でプロファイル属性として使用でき、ジャーニーをパーソナライズするために使用できるチャーンまたはコンバージョンの機械学習ベースのスコアを作成できます。
 

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
-workflow-type: ht
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
@@ -151,4 +151,4 @@ Web チャネルのコンテンツ実験を有効にするには、web 実装[�
 
 ## アセットのブランドドメイン {#branded-domains-for-assets}
 
-Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。[詳細情報](web-delegated-subdomains.md)
+Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。[詳細情報](web-delegated-subdomains.md)

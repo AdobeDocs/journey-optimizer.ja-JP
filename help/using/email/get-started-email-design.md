@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * [!DNL Journey Optimizer] **メールデザイン機能**&#x200B;を使用して、レスポンシブなメールのデザインや読み込みを行います。[詳細情報](content-from-scratch.md)
 
-* **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](assets-essentials.md)
+* **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](../content-management/assets-essentials.md)
 
-* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。[詳細情報](stock.md)
+* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。[詳細情報](../content-management/stock.md)
 
 * プロファイル属性に基づいてパーソナライズされたメッセージと動的メッセージを作成し、カスタマーエクスペリエンスを強化します。[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## メールデザインのベストプラクティス {#best-practices}
 
-メールを送信する際は、受信者がメールを転送する可能性を考慮することが重要です。こうした転送によって、メールのレンダリングに問題が生じる場合があります。これは特に、転送に使用されるメールプロバイダーでサポートされていない可能性のある CSS クラスを使用する場合に当てはまります。例えば、「is-desktop-hidden」CSS クラスを使用して、モバイルデバイスで画像を非表示にする場合などです。
+メールを送信する際は、受信者がメールを転送する可能性があることを考慮することが重要です。これにより、メールのレンダリングで問題が発生する可能性があります。これは、転送に使用されるメールプロバイダーでサポートされていない可能性がある CSS クラスを使用する場合に特に当てはまります。例えば、モバイルデバイスで画像を非表示にするために「is-desktop-hidden」CSS クラスを使用している場合などです。
 
 こうしたレンダリングの問題を最小限にするために、メールのデザイン構造をできるだけ簡単に保つことをお勧めします。デスクトップデバイスとモバイルデバイスの両方で適切に機能する単一のデザインを使用し、複雑な CSS クラスや、すべてのメールクライアントで完全にはサポートされない他のデザイン要素を使用しないようにします。これらのベストプラクティスに従うと、受信者による表示や転送の方法に関係なく、一貫して正しくメールをレンダリングできます。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. 電子メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
-   * 電子メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets Essentials](assets-essentials.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
+   * 電子メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
 
    * 電子メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
 

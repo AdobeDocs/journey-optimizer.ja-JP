@@ -5,7 +5,7 @@ title: Journey Optimizer の基本を学ぶ（マーケター向け）
 description: ジャーニー実務担当者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **アセットを作成し管理**&#x200B;します。[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的な集中リポジトリを提供します。詳しくは、[この節](../../email/assets-essentials.md)を参照してください。
+1. **アセットを作成し管理**&#x200B;します。[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的な集中リポジトリを提供します。詳しくは、[この節](../../content-management/assets-essentials.md)を参照してください。
 
 1. **オファーを追加**&#x200B;します。[!DNL Journey Optimizer] を使用すると、顧客に最適なオファーとエクスペリエンスをすべてのタッチポイントにわたって適切なタイミングで提供できます。設計を終えたら、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定します。意思決定管理について詳しくは、[この節](../../offers/get-started/starting-offer-decisioning.md)を参照してください。
 
