@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 100%
+source-wordcount: '1941'
+ht-degree: 91%
 
 ---
 
@@ -181,6 +181,31 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 さらに、**[!UICONTROL BCC メール]**&#x200B;アドレスを定義する場合は、有効な MX レコード設定を持つサブドメインを使用します。使用しない場合、メールサーフェスの処理が失敗します。
 
 メールサーフェスの送信時にエラーが発生した場合は、入力したアドレスのサブドメインに対して MX レコードが設定されません。対応する MX レコードの設定について管理者に問い合わせるか、有効な MX レコード設定を持つ別のアドレスを使用します。
+
+## シードリスト {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="シードリストを追加"
+>abstract="配信に特定の E メールシードアドレスを自動的に含めるには、目的のシードリストを選択します。 これらのアドレスは、配信の実行時に含まれ、保証のために配信の正確なコピーを受け取ります。"
+
+のシードリスト [!DNL Journey Optimizer] を使用すると、配信に特定の e メールシードアドレスを自動的に含めることができます。 [詳細情報](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>現在、この機能は E メールチャネルにのみ適用されます。
+
+関連するリストを **[!UICONTROL シードリスト]** 」セクションに入力します。 でシードリストを作成する方法を説明します。 [この節](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>一度に 1 つのシードリストのみ選択できます。
+
+現在の表面をキャンペーンまたはジャーニーで使用する場合、選択したシードリストの E メールアドレスは配信実行時に含まれます。つまり、確実な目的で配信のコピーが届きます。
+
+キャンペーンまたはジャーニーでのシードリストの使用方法について説明します。詳しくは、 [この節](../configuration/seed-lists.md#use-seed-list).
 
 ## メールの再試行パラメーター {#email-retry}
 

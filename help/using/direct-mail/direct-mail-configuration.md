@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '893'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 100%
 >id="ajo_dm_file_routing_details"
 >title="ファイルのルーティング設定を定義"
 >abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーに書き出されます。ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="ダイレクトメールメッセージの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >現在、[!DNL Journey Optimizer] では Amazon S3 と SFTP<!--and Azure--> がサポートされています。
+   >現在、[!DNL Journey Optimizer] では Amazon S3、SFTP、Azure がサポートされています。
 
 1. サーバーアドレス、アクセスキーなど、サーバーの詳細と資格情報を入力します。
 
@@ -135,7 +133,7 @@ ht-degree: 100%
 
 1. ファイル形式として **[!UICONTROL CSV]** または&#x200B;**[!UICONTROL テキスト区切り]**&#x200B;を選択します。
 
-1. **[!UICONTROL テキスト区切り]**&#x200B;を選択した場合は、希望する列区切り記号（タブ、セミコロン、パイプのいずれか<!--or ampersand-->）を定義します。
+1. 次を選択した場合、 **[!UICONTROL 区切り文字]**、タブ、セミコロン、パイプ、アンパサンドなど、任意の列区切り文字を定義します。
 
    ![](assets/surface-direct-mail-column-separator.png)
 
