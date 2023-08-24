@@ -1,20 +1,20 @@
 ---
-title: アプリ内通知の作成
-description: Journey Optimizer でアプリ内メッセージを作成する方法を学ぶ
+title: キャンペーンでのアプリ内通知の作成
+description: Journey Optimizerでキャンペーンのアプリ内メッセージを作成する方法を説明します
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
+source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '763'
+ht-degree: 95%
 
 ---
 
-# アプリ内メッセージの作成  {#create-in-app}
+# アプリ内メッセージの作成  キャンペーン内 {#create-in-app}
 
 <!--
 >[!BEGINTABS]
@@ -67,6 +67,8 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 >[!TAB Add an In-app message to a campaign]
 -->
+
+キャンペーンにアプリ内メッセージを追加するには、次の手順に従います。
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 

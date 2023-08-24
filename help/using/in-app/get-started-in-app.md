@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '221'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 アプリ内メッセージとは、特定の目標地点に向かって、アプリ内でユーザーに送信できる通知です。これらの通知は、新機能の宣伝、特別オファーの提示、ユーザーのオンボーディングの促進など、様々な目的に使用できます。アプリ内メッセージを活用することで、オーディエンスと効果的に関わり、アプリケーションの重要な側面に向けることができます。
 
-Journey Optimizer を使用すると、アプリ内通知を作成し、メッセージのレイアウトと表示、テキスト、ボタンオプションなどのエクスペリエンスオプションを設定できます。
+Journey Optimizer を使用すると、アプリ内通知を作成し、メッセージのレイアウトと表示、テキスト、ボタンオプションなどのエクスペリエンスオプションを設定できます。キャンペーンやジャーニーにアプリ内メッセージを追加できます。
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 <a href="create-in-app.md">
 <img alt="リード" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>アプリ内メッセージの作成</strong>
+<div><a href="create-in-app.md"><strong>キャンペーンでのアプリ内メッセージの作成</strong>
 </div>
 <p>
 </td>
@@ -57,7 +57,7 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 <img alt="検証" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>アプリ内レポート</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>アプリ内レポートへのアクセス</strong></a>
 </div>
 <p>
 </td>

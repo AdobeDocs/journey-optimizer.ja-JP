@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 4b430e5082622b4179ff45b9ad384c875f9d7972
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 99%
+source-wordcount: '1427'
+ht-degree: 97%
 
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 99%
       + [メールサーフェス設定の指定](using/email/email-settings.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
-   + [アプリ内メッセージの作成](using/in-app/create-in-app.md)
+   + [アプリ内メッセージの作成 キャンペーン内](using/in-app/create-in-app.md)
    + [ジャーニーでのアプリ内メッセージの作成](using/in-app/create-in-app-journey.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
    + [アプリ内通知のテストおよび送信](using/in-app/send-in-app.md)
@@ -438,20 +438,21 @@ ht-degree: 99%
    + [クエリ](using/data/get-started-queries.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
+   + [チャネルサーフェスの設定](using/configuration/channel-surfaces.md)
    + メールサブドメインのデリゲート {#delegate-subdomains}
       + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
       + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
       + [Google TXT レコードの追加](using/configuration/google-txt.md)
       + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
       + [IP プールの作成](using/configuration/ip-pools.md)
-   + [チャネルサーフェスの設定](using/configuration/channel-surfaces.md)
    + メールアドレスの監視 {#monitor-reputation}
       + [抑制リスト](using/configuration/manage-suppression-list.md)
       + [再試行](using/configuration/retries.md)
       + [許可リスト](using/configuration/allow-list.md)
+   + [シードリストを使用](using/configuration/seed-lists.md)
    + [アーカイブのサポート](using/configuration/archiving-support.md)
+   + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [頻度ルールの設定](using/configuration/frequency-rules.md)
-   + [実行アドレスの管理](using/configuration/primary-email-addresses.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
@@ -476,7 +477,7 @@ ht-degree: 99%
          + [アクションの設定](using/action/about-custom-action-configuration.md)
          + [Adobe Campaign Standard との統合](using/action/acs-action.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
-         + [アクションについて](using/action/action-response.md)
+         + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
