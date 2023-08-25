@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: a68b4417c86b71d16622e8776c17625b2d061cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Journey Optimizer を使用すると、オファーカタログを Adobe Experie
 * プレースメント
 * 決定
 
-オファーライブラリでこれらのオブジェクトの 1 つが変更されるたびに、新しいエクスポートジョブが自動的に実行され、データセットが更新されます。
+オファーライブラリでこれらのオブジェクトの 1 つが変更されるたびに、新しい書き出しジョブが自動的に実行され、データセットが更新されます。
 
 <!--
 >[!NOTE]
