@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 45%
+ht-degree: 76%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 45%
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2023 年 8 月の早期リリースノート {#aug-rn-2023}
+## 2023年8月早期リリースノート {#aug-rn-2023}
 
-**リリース日**:2023 年 8 月 23 日～24 日
+**リリース日**：2023年8月23～24日（PT）
 
 ### 新機能{#aug-2023-features}
 
@@ -29,13 +29,13 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーでのアプリ内メッセージの送信</strong><br/></th>
+<th><strong>ジャーニーでのアプリ内メッセージを送信</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニー内で、パーソナライズされたアプリ内メッセージをアプリのユーザーに送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
+<p>ジャーニー内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
 <img src="assets/in_app_journey_1.png"/>
 <p>詳しくは、<a href="../in-app/get-started-in-app.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
@@ -46,13 +46,13 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>シードリストを含む E メールの検証</strong><br/></th>
+<th><strong>シードリストを使用したメールの検証</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでシードリストを作成および管理できるようになりました。 シードリストは、実際のオーディエンスに追加できる内部アドレスと、配信の実行時にターゲットプロファイルとまったく同じメッセージを受け取ることができる内部アドレスで構成されます。 この機能を使用して、送信された通信を監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
+<p>Journey Optimizer でシードリストを作成および管理できるようになりました。シードリストは、実際のオーディエンスに追加できる内部アドレスと、配信の実行時にターゲットプロファイルとまったく同じメッセージを受け取ることができる内部アドレスで構成されます。 この機能を使用して、送信された通信を監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -87,15 +87,15 @@ ht-degree: 45%
 
 **API**
 
-コンテンツフラグメントを作成および管理する新しい API が利用できるようになりました。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}。
+コンテンツフラグメントを作成および管理するための新しい API が使用可能になりました。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}。
 
 **メールチャネル**
 
-E メールの表面の設定で、トランザクションメッセージのオーディエンスにスパムの苦情が原因で抑制された E メールアドレスを含める新しいオプションが使用できます。 マーケティングメッセージがスパムとしてマークされても、これらのプロファイルは、パスワードのリセットやアカウント明細書などのトランザクションメッセージを受け取ることができます。 このオプションはデフォルトでは無効です。
+メールサーフェス設定で、スパムの苦情により抑制されたメールアドレスをトランザクションメッセージオーディエンスに含める新しいオプションが使用可能になりました。マーケティングメッセージをスパムとしてマークした場合でも、これらのプロファイルは、パスワードのリセットやアカウントステートメントなどのトランザクションメッセージを受信する可能性があります。このオプションはデフォルトでは無効です。
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、プライベートベータ版として使用可能です。
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。
 <!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 * When duplicating a journey, you can now define the name of the journey copy.-->
 
