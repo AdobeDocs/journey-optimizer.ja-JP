@@ -8,9 +8,9 @@ level: Beginner
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,12 +36,12 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 
-Adobe Journey Optimizerのシステムデータセットを次に示します。
+Adobe Journey Optimizer のシステムデータセットを以下に示します。
 
 
 >[!CAUTION]
 >
-> システムデータセット **は変更できません**. 製品のアップデートごとに、変更が自動的に元に戻されます。
+> システムデータセットは&#x200B;**変更できません**。製品が更新されるたびに、変更は自動的に元に戻されます。
 >
 
 **レポート**
@@ -96,7 +96,7 @@ Adobe Journey Optimizerのシステムデータセットを次に示します。
 
 スキーマとデータセットを作成し、データを取り込んで、Adobe Journey Optimizer にテストプロファイルを追加する方法について、[このエンドツーエンドのサンプル](../audience/creating-test-profiles.md)で説明します。
 
-データセットの作成について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja){target="_blank"}を参照してください。
+データセットの作成について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}を参照してください。
 
 データセット UI の使用方法については、[データ取り込みの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}を参照してください。
 
