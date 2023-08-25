@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 81%
 
 ---
 
@@ -50,3 +50,15 @@ ht-degree: 100%
 ダイレクトメールキャンペーンの準備が整ったら、「**[!UICONTROL アクティブ化]**」ボタンをクリックします。キャンペーンが開始すると、抽出ファイルが自動的に生成され、[ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md)で指定されているサーバーに書き出されます。
 
 送信後は、キャンペーンレポート内でダイレクトメールキャンペーンの影響を測定できます。レポートについて詳しくは、この節を参照してください。
+
+## ダイレクトメールの同意の管理 {#dm-consent-management}
+
+[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。
+
+プロファイルがダイレクトメールの受信をオプトアウトした場合、対応するExperience Platformプロファイル属性で、 `consents.marketing.postalMail.val` は `n` 対応するプロファイルは、後続の配信から除外されます。
+
+再度有効にするには、プロファイル属性をに戻す必要があります。 `consents.marketing.postalMail.val` : `y`.
+
+プロファイルの属性を管理するには、「Experience Platform」に移動し、 ID 名前空間と対応する ID 値を選択して、プロファイルにアクセスします。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
+
+でのJourney Optimizerでのオプトアウトの管理の詳細 [この節](../privacy/opt-out.md).

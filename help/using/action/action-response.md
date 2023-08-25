@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: カスタムアクションの設定
-description: カスタムアクションの設定方法を学ぶ
+title: カスタムアクションの機能強化
+description: カスタムアクションの最新の機能強化の詳細を説明します
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="ベータ版" type="Informative"
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '666'
+ht-degree: 96%
 
 ---
 
-# カスタムアクションの機能強化
+# カスタムアクションの機能強化 {#custom-action-enhancements}
 
 カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
 
-この機能は、データソースを使用する場合にのみ使用可能でした。これで、カスタムアクションでも使用できるようになりました。
+この機能は、以前は、データソースを使用する場合にのみ使用できました。 これで、カスタムアクションでも使用できるようになりました。
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ ht-degree: 100%
 >
 >カスタムアクションは、プライベートまたは内部のエンドポイントでのみ使用し、適切なキャッピングまたはスロットリング制限を付ける必要があります。[このページ](../configuration/external-systems.md)を参照してください。
 
-## カスタムアクションを定義
+## カスタムアクションを定義する {#define-custom-action}
 
 カスタムアクションを定義する際、GET メソッドの追加と新しいペイロード応答フィールドという 2 つの機能強化が使用可能になりました。その他のオプションとパラメーターには変更はありません。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
-### エンドポイントの設定
+### エンドポイントの設定 {#endpoint-configuration}
 
 「**URL 設定**」セクションの名前が、**エンドポイントの設定**&#x200B;に変更されました。
 
@@ -44,7 +42,7 @@ ht-degree: 100%
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### ペイロード
+### ペイロード {#payloads-new}
 
 「**アクションパラメーター**」セクションの名前が、**ペイロード**&#x200B;に変更されました。次の 2 つのフィールドを使用できます。
 
@@ -80,7 +78,7 @@ ht-degree: 100%
 
 1. 「**保存**」をクリックします。
 
-## ジャーニーで応答を活用
+## ジャーニーで応答を活用 {#response-in-journey}
 
 カスタムアクションをジャーニーに追加するだけです。その後、条件、その他のアクションおよびメッセージのパーソナライゼーションで応答ペイロードフィールドを活用できます。
 
@@ -119,7 +117,7 @@ ht-degree: 100%
 
    ![](assets/action-response11.png)
 
-## エラーステータス{#error-status}
+## エラーステータス {#error-status}
 
 **jo_status_code** フィールドは、応答ペイロードが定義されていない場合でも常に使用できます。
 
@@ -136,7 +134,7 @@ ht-degree: 100%
 >
 >新しく作成したカスタムアクションにのみ、**jo_status_code** フィールドが標準で含まれます。既存のカスタムアクションで使用する場合は、アクションを更新する必要があります。例えば、説明を更新して保存できます。
 
-## 式の構文
+## 式の構文 {#exp-syntax}
 
 構文は次のとおりです。
 
@@ -160,3 +158,4 @@ ht-degree: 100%
 ```
 
 フィールド参照について詳しくは、[この節](../building-journeys/expression/field-references.md)を参照してください。
+

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 99%
+source-wordcount: '1662'
+ht-degree: 95%
 
 ---
 
@@ -172,3 +172,20 @@ Adobe Experience Platform プロファイルでタイムゾーンが定義され
 ジャーニーの再エントリを許可しない設定にしていても、グローバルジャーニータイムアウトの期間が 30 日なので、再エントリのブロックが 30 日を超えて機能するかどうかは確認できません。実際、ジャーニーにエントリしたユーザーの情報はエントリから 30 日後にすべて削除されるので、30 日前より古い日時にエントリしたユーザーが誰かを特定することはできません。
 
 個人が待機アクティビティにエントリできるのは、30 日のジャーニータイムアウトより前に待機期間を完了するのに十分な時間がジャーニーに残っている場合のみです。[このページ](../building-journeys/wait-activity.md)を参照してください。
+
+## ジャーニーを複製 {#duplicate-a-journey}
+
+既存のジャーニーは、 **参照** タブをクリックします。 すべてのオブジェクトと設定は、ジャーニーコピーに複製されます。
+
+手順は次のとおりです。
+
+1. コピーするジャーニーに移動し、 **その他のアクション** アイコン（ジャーニー名の横の 3 つのドット）
+1. 「**複製**」を選択します。
+
+   ![ジャーニーを複製](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. 新しいジャーニーが作成され、ジャーニーリストで使用できます。

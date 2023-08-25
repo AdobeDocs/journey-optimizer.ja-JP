@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
    オーディエンスが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、オーディエンスの名前と ID をコピーできます。
 
-   `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
 
@@ -158,7 +158,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * データソースのデータ
 * ジャーニーデータのイベント部分のコンテキスト（例：ある人物が 1 時間前に受け取ったメッセージをクリックしたか）
 * 日付（例：ある人物がジャーニーを経験したのは 6 月だったか？）。
-* 時間（例：ある人物のタイムゾーンでは朝か？）
+* 例えば、ある時間：それは人のタイムゾーンでの朝ですか。
 * ジャーニーを経験しているオーディエンスを割合に基づいて分割するアルゴリズム（例：90% - 10%、コントロール母集団を除外）。
 
 ![](assets/read-segment-audience1.png)

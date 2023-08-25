@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: ht
-source-wordcount: '3171'
-ht-degree: 100%
+source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+workflow-type: tm+mt
+source-wordcount: '3206'
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 100%
 
 ## 2023年8月 {#august-2023}
 
+*  [!DNL Journey Optimizer] の 8月23日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
 * Web チャネルのコンテンツ実験の前提条件に関する新しい節を追加しました。[詳細情報](../web/web-prerequisites.md#experiment-prerequisites)
 * メールコンテンツテンプレートのテスト時に現在追跡がサポートされていないことを示す警告を、**コンテンツテンプレートの操作**&#x200B;ページに追加しました。追跡をテストするには、メールでコンテンツテンプレートを使用し、配達確認を送信する必要があります。[詳細情報](../email/content-templates.md#test-template)
 * 公開済みのページであっても、ページの作成時に定義した URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできないことを指定する、いくつかの警告を&#x200B;**ランディングページの作成と公開**&#x200B;の節に追加しました。代わりに、プレビュー機能を使用してテストできます。[詳細情報](../landing-pages/create-lp.md)
+* ダイレクトメールチャネルの同意の管理方法に関する新しい節が追加されました。 [詳細情報](../direct-mail/test-send-direct-mail.md)
 
 ## 2023年7月 {#july-2023}
 
