@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 96%
+source-wordcount: '1134'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 96%
 >[!BEGINTABS]
 
 >[!TAB ジャーニーへのアプリ内メッセージの追加]
+
+アプリ内メッセージをジャーニーに追加するには、次の手順に従います。
 
 1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL アプリ内]**&#x200B;アクティビティをドラッグ＆ドロップします。
 
