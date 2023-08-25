@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: シードリスト，シードリスト，シード，設定
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 13%
+source-wordcount: '912'
+ht-degree: 12%
 
 ---
 
@@ -49,9 +49,14 @@ ht-degree: 13%
 
 作成済みのシードリストにアクセスするには、に移動します。 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]**&#x200B;をクリックし、次を選択します。 **[!UICONTROL シードリスト]**.
 
+<!--
 >[!CAUTION]
 >
->シードリストの表示、書き出し、管理の権限は、次の権限に制限されています。 [ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator). [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>シードリストを表示、編集、管理するには、 **[!UICONTROL シードリストを管理]** 権限。
 
 ![](assets/seed-list-access.png)
 
