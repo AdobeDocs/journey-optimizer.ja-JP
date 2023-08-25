@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
 workflow-type: tm+mt
-source-wordcount: '3206'
-ht-degree: 99%
+source-wordcount: '3279'
+ht-degree: 97%
 
 ---
 
@@ -18,10 +18,15 @@ ht-degree: 99%
 ## 2023年8月 {#august-2023}
 
 *  [!DNL Journey Optimizer] の 8月23日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
+* 以下に関する注意事項： **認証キャッシュ管理** ジャーニーのを更新し、異なるジャーニー間でトークンが共有されていないことを詳しく説明しました。 [詳細情報](../datasource/external-data-sources.md#custom-authentication-mode)
+* ジャーニーに関するページ **エントリ管理** が更新され、動作が明確になりました。 [詳細情報](../building-journeys/entry-management.md)
+* Offer decisioning **データセットを書き出し** は、デフォルトで有効になりました。 以前の動作に関するメモが削除されました。  [詳細情報](../offers/export-catalog/get-started-export.md)
+* 様々 **キャンペーンレポート指標** ライブレポートとグローバルレポートの両方で、の名前が変更されました。 [詳細情報](../reports/campaign-global-report.md)
 * Web チャネルのコンテンツ実験の前提条件に関する新しい節を追加しました。[詳細情報](../web/web-prerequisites.md#experiment-prerequisites)
 * メールコンテンツテンプレートのテスト時に現在追跡がサポートされていないことを示す警告を、**コンテンツテンプレートの操作**&#x200B;ページに追加しました。追跡をテストするには、メールでコンテンツテンプレートを使用し、配達確認を送信する必要があります。[詳細情報](../email/content-templates.md#test-template)
 * 公開済みのページであっても、ページの作成時に定義した URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできないことを指定する、いくつかの警告を&#x200B;**ランディングページの作成と公開**&#x200B;の節に追加しました。代わりに、プレビュー機能を使用してテストできます。[詳細情報](../landing-pages/create-lp.md)
-* ダイレクトメールチャネルの同意の管理方法に関する新しい節が追加されました。 [詳細情報](../direct-mail/test-send-direct-mail.md)
+* 次の方法に関する新しい節が追加されました。 **同意を管理** （ダイレクトメールチャネル用） [詳細情報](../direct-mail/test-send-direct-mail.md)
+
 
 ## 2023年7月 {#july-2023}
 
