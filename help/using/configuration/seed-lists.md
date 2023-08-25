@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: シードリスト，シードリスト，シード，設定
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 14%
+source-wordcount: '919'
+ht-degree: 13%
 
 ---
 
@@ -71,14 +71,14 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="シードリストを定義"
->abstract="配信に特定のシードアドレスを自動的に含めるには、シードリストの詳細を入力します。 これらのアドレスは、配信の実行時に含まれ、保証のために配信の正確なコピーを受け取ります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ja" text="シードリストとは"
+>title="シードリストの定義"
+>abstract="シードリストを使用すると、特定の内部アドレスを配信オーディエンスに自動的に追加して、保証を目的とします。 シードリストを使用すると、送信されたメッセージのコピーを監視して、すべての表示要素が正しいことと、メーリングリストを保護できることを確認できます。 現在、この機能は E メールチャネルにのみ適用されます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="シードリストとは"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="使用するシードアドレスの指定"
->abstract="配信に自動的に含まれるシードアドレスを追加します。 CSV ファイルをインポートするか、電子メールアドレスを手動で入力できます。"
+>title="シードリストに入力"
+>abstract="配信の実行時に含めるアドレスを選択し、メッセージの正確なコピーを受け取ります。 CSV ファイルをインポートするか、電子メールアドレスを手動で入力できます。"
 
 シードリストを作成するには、次の手順に従います。
 

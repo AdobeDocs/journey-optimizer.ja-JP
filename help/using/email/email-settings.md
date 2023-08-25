@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 91%
+source-wordcount: '1967'
+ht-degree: 90%
 
 ---
 
@@ -187,7 +187,10 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="シードリストを追加"
->abstract="配信に特定の E メールシードアドレスを自動的に含めるには、目的のシードリストを選択します。 これらのアドレスは、配信の実行時に含まれ、保証のために配信の正確なコピーを受け取ります。"
+>abstract="選択したシードリストを選択して、特定の内部アドレスをオーディエンスに自動的に追加します。 シードアドレスは配信の実行時に含まれ、保証のためにメッセージの正確なコピーを受け取ります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="シードリストとは"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="シードリストの作成"
+
 
 のシードリスト [!DNL Journey Optimizer] を使用すると、配信に特定の e メールシードアドレスを自動的に含めることができます。 [詳細情報](../configuration/seed-lists.md)
 
