@@ -10,7 +10,7 @@ level: Beginner
 keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
 ht-degree: 100%
 
