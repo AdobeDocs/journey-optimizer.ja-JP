@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 77%
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 アプリ内メッセージとは、特定の目標地点に向かって、アプリ内でユーザーに送信できる通知です。これらの通知は、新機能の宣伝、特別オファーの提示、ユーザーのオンボーディングの促進など、様々な目的に使用できます。アプリ内メッセージを活用することで、オーディエンスと効果的に関わり、アプリケーションの重要な側面に向けることができます。
 
-Journey Optimizer を使用すると、アプリ内通知を作成し、メッセージのレイアウトと表示、テキスト、ボタンオプションなどのエクスペリエンスオプションを設定できます。キャンペーンやジャーニーにアプリ内メッセージを追加できます。
+Journey Optimizer を使用すると、アプリ内通知を作成し、メッセージのレイアウトと表示、テキスト、ボタンオプションなどのエクスペリエンスオプションを設定できます。アプリ内メッセージを追加できます [キャンペーン内](create-in-app.md) および [旅行中で](create-in-app-journey.md).
 
 >[!AVAILABILITY]
 >

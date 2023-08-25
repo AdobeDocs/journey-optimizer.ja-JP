@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 94%
@@ -15,7 +15,7 @@ ht-degree: 94%
 ---
 
 
-# ジャーニーでのアプリ内メッセージの作成 {#create-in-app-journey}
+# アプリ内メッセージの作成  旅行中で {#create-in-app-journey}
 
 アプリ内メッセージをジャーニーに追加するには、次の手順に従います。
 
