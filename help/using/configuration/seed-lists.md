@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: シードリスト，シードリスト，シード，設定
-source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
+source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 12%
+source-wordcount: '947'
+ht-degree: 11%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 12%
 >[!CAUTION]
 >
 >現在、この機能は E メールチャネルにのみ適用されます。
+>
+>バリアントは現在サポートされていません。 ターゲットオーディエンスの各プロファイルと同様に、シードアドレスには、すべてのバリアント ( [コンテンツ実験](../campaigns/get-started-experiment.md)) をクリックします。
 
 シードアドレスは、定義されたターゲット条件に合わない受信者を配信のターゲットにする場合に使用されます。これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信することができます。
 
