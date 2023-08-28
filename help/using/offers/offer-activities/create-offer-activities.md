@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 100%
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* 2 つのコレクションが&#x200B;**同時に評価**&#x200B;される場合、評価条件 A から 2 つの実施要件を満たすオファーがあり、評価条件 B から 3 つの実施要件を満たすオファーがあるので、5 つのオファーはすべて、それぞれのランキングメソッドによって決定された値に基づいてまとめられます。2 つのオファーがリクエストされているので、これら 5 つのオファーのうち上位 2 つの実施要件を満たすオファーが返されます。
+* 2 つのコレクションが **同時に評価される**&#x200B;に含まれる場合、評価基準 A からの適格なオファーが 2 つ、評価基準 B からの適格なオファーが 3 つあるので、5 つのオファーはすべて、それぞれのランキング方法で決定された値に基づいてまとめてランク付けされます。 2 つのオファーがリクエストされているので、これら 5 つのオファーのうち上位 2 つの実施要件を満たすオファーが返されます。
 
   ![](../assets/activity_same-rank-collections.png)
 
