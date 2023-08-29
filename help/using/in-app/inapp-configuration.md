@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 100%
    >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
 1. 次に、**[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスして、「**[!UICONTROL アプリサーフェスを作成]**」をクリックします。
+
+   >[!NOTE]
+   >
+   > **[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスするには、**アプリ設定を管理**&#x200B;権限が必要です。詳しくは、[このビデオ](#video)を参照してください。
 
    >[!NOTE]
    >
@@ -87,5 +91,8 @@ ht-degree: 100%
 
 * 以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++ビデオを見る
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++
+
 

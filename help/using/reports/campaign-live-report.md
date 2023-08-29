@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
 workflow-type: tm+mt
 source-wordcount: '1352'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -107,7 +107,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++アプリ内レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-**[!UICONTROL アプリ内パフォーマンス]** KPI では、次のような、アプリ内メッセージに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
+The **[!UICONTROL アプリ内パフォーマンス]** KPI では、次のような、訪問者のアプリ内メッセージに対するエンゲージメントに関する主な情報の詳細を説明します。
 
 * **[!UICONTROL インプレッション数]**：すべてのユーザーに配信されたアプリ内メッセージの合計数。
 
