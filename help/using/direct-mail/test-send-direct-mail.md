@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -55,10 +55,10 @@ ht-degree: 81%
 
 [!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。
 
-プロファイルがダイレクトメールの受信をオプトアウトした場合、対応するExperience Platformプロファイル属性で、 `consents.marketing.postalMail.val` は `n` 対応するプロファイルは、後続の配信から除外されます。
+プロファイルがダイレクトメールの受信をオプトアウトした場合、対応する Experience Platform プロファイル属性で、`consents.marketing.postalMail.val` は `n` となり、対応するプロファイルは後続の配信から除外されます。
 
-再度有効にするには、プロファイル属性をに戻す必要があります。 `consents.marketing.postalMail.val` : `y`.
+再度有効にするには、プロファイル属性を `consents.marketing.postalMail.val` : `y` に戻す必要があります。
 
-プロファイルの属性を管理するには、「Experience Platform」に移動し、 ID 名前空間と対応する ID 値を選択して、プロファイルにアクセスします。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
+プロファイルの属性を管理するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択して、プロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
-でのJourney Optimizerでのオプトアウトの管理の詳細 [この節](../privacy/opt-out.md).
+Journey Optimizer でのオプトアウトの管理について詳しくは、[この節](../privacy/opt-out.md)を参照してください。
