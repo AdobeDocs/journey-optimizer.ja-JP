@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
+source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## ネイティブ受信キーワード{#sms-native-keywords}
 
-デフォルトでは、Adobe Journey Optimizer はフリーダイヤルおよびロングコードメッセージに対して、次の標準の英語の返信メッセージ（STOP、UNSTOP、START、QUIT、CANCEL、END および UNSUBSCRIBE）を処理します。Journey Optimizer で使用する場合、ネイティブキーワードをサポートするのは Sinch のみです。
+デフォルトでは、Adobe Journey Optimizer はフリーダイヤルおよびロングコードメッセージに対して、次の標準の英語の返信メッセージ（STOP、UNSTOP、START、QUIT、CANCEL、END および UNSUBSCRIBE）を処理します。Journey Optimizerで使用する場合、Sinch と Infobip のみがネイティブキーワードをサポートします。
 
 これらのキーワードは通常、お使いのサードパーティプロバイダーから提供される自動標準返信をトリガーします。これについては、プロバイダーまたはドキュメントサイトで直接確認してください。
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
 ## 英数字の送信者 ID {#alphanumeric}
 
-英数字の送信者 ID は一方向メッセージ専用であり、受信メッセージを受信できません。その結果、Adobe Journey Optimizer の SMS STOP、START、HELP のキーワードは、アルファ送信者 ID には適用されません。英数字の送信者 ID を介して送信されたメッセージをオプトアウトできるようにするために、サポートチームに手紙を書く、サポートの電話回線に電話する、または別の電話番号またはコードをテキストメッセージで送信するなど、他の手順を指定する必要があります。
+英数字の送信者 ID は一方向メッセージ専用であり、受信メッセージを受信できません。その結果、Adobe Journey Optimizerで SMS STOP、START、HELP キーワードを使用してアルファ送信者 ID を取得することはできません。 英数字の送信者 ID を介して送信されたメッセージをオプトアウトできるようにするために、サポートチームに手紙を書く、サポートの電話回線に電話する、または別の電話番号またはコードをテキストメッセージで送信するなど、他の手順を指定する必要があります。
 
 ## ビデオ {#video-sms}
 
