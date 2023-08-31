@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 
 * アプリ内チャネルを設定します。[詳細情報](inapp-configuration.md)
 
-* ジャーニーでアプリ内メッセージのみを使用する予定であっても、開始する前に、Journey Optimizerキャンペーンに対する正しい権限を持っていることを確認します。 キャンペーン権限は引き続き必要です。 [詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
 
