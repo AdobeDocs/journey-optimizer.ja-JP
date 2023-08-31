@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -251,7 +251,7 @@ ht-degree: 98%
    + [Assets Essentials の操作](using/content-management/assets-essentials.md)
    + [Adobe Stock との連携](using/content-management/stock.md)
    + コンテンツアシスタントの操作{#content-assistant}
-      + [コンテンツアシスタントの基本を学ぶ](using/content-management/gs-generative.md)
+      + [コンテンツアシスタント入門](using/content-management/gs-generative.md)
       + [タイトルの生成](using/content-management/generative-title.md)
       + [画像生成](using/content-management/generative-image.md)
 + パーソナライズ機能と動的コンテンツ {#personalized-dynamic-content}
@@ -448,7 +448,7 @@ ht-degree: 98%
       + [抑制リスト](using/configuration/manage-suppression-list.md)
       + [再試行](using/configuration/retries.md)
       + [許可リスト](using/configuration/allow-list.md)
-   + [シードリストを使用](using/configuration/seed-lists.md)
+   + [シードリストの使用](using/configuration/seed-lists.md)
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [頻度ルールの設定](using/configuration/frequency-rules.md)
