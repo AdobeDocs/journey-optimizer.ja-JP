@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -187,28 +187,28 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="シードリストを追加"
->abstract="選択したシードリストを選択して、特定の内部アドレスをオーディエンスに自動的に追加します。 シードアドレスは配信の実行時に含まれ、保証のためにメッセージの正確なコピーを受け取ります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="シードリストとは"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="シードリストの作成"
+>abstract="希望するシードリストを選択して、特定の内部アドレスをオーディエンスに自動的に追加します。これらのシードアドレスは配信の実行時に含まれ、保証の目的でこのアドレスにメッセージのコピーが送られます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ja#use-seed-list" text="シードリストとは"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ja#create-seed-list" text="シードリストを作成"
 
 
-のシードリスト [!DNL Journey Optimizer] を使用すると、配信に特定の e メールシードアドレスを自動的に含めることができます。 [詳細情報](../configuration/seed-lists.md)
+[!DNL Journey Optimizer] のシードリストを使用すると、配信に特定のメールシードアドレスを自動的に含めることができます。[詳細情報](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
->現在、この機能は E メールチャネルにのみ適用されます。
+>現在、この機能はメールチャネルにのみ適用されます。
 
-関連するリストを **[!UICONTROL シードリスト]** 」セクションに入力します。 でシードリストを作成する方法を説明します。 [この節](../configuration/seed-lists.md#create-seed-list).
+「**[!UICONTROL シードリスト]**」セクションで、自分に関連するリストを選択します。シードリストの作成方法については、[この節](../configuration/seed-lists.md#create-seed-list)を参照してください。
 
 ![](../configuration/assets/seed-list-surface.png)
 
 >[!NOTE]
 >
->一度に 1 つのシードリストのみ選択できます。
+>一度に選択できるシードリストは 1 つのみです。
 
-現在の表面をキャンペーンまたはジャーニーで使用する場合、選択したシードリストの E メールアドレスは配信実行時に含まれます。つまり、確実な目的で配信のコピーが届きます。
+現在のサーフェスをキャンペーンまたはジャーニーで使用する場合、選択したシードリストのメールアドレスは配信の実行時に含まれ、保証の目的でこのアドレスに配信のコピーが送られます。
 
-キャンペーンまたはジャーニーでのシードリストの使用方法について説明します。詳しくは、 [この節](../configuration/seed-lists.md#use-seed-list).
+キャンペーンまたはジャーニーでのシードリストの使用方法について詳しくは、[この節](../configuration/seed-lists.md#use-seed-list)を参照してください。
 
 ## メールの再試行パラメーター {#email-retry}
 
