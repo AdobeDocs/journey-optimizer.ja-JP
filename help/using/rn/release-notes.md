@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
+source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -31,14 +31,14 @@ ht-degree: 96%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーでのアプリ内メッセージの送信</strong><br/></th>
+<th><strong>ジャーニーでのアプリ内メッセージを送信</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニー内で、パーソナライズされたアプリ内メッセージをアプリのユーザーに送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
-<img src="assets/do-not-localize/in-app-GA.gif"/>
+<p>ジャーニー内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
+<img src="assets/do-not-localize/in-app-jo.gif"/>
 <p>詳しくは、<a href="../in-app/create-in-app.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
@@ -48,13 +48,13 @@ ht-degree: 96%
 <table>
 <thead>
 <tr>
-<th><strong>シードリストを含む E メールの検証</strong><br/></th>
+<th><strong>シードリストを使用したメールの検証</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでシードリストを作成および管理できるようになりました。 シードリストは、実際のオーディエンスに追加できる内部アドレスと、配信の実行時にターゲットプロファイルとまったく同じメッセージを受け取ることができる内部アドレスで構成されます。 この機能を使用して、送信された通信を監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
+<p>Journey Optimizer でシードリストを作成および管理できるようになりました。シードリストは、実際のオーディエンスに追加できる内部アドレスと、配信の実行時にターゲットプロファイルとまったく同じメッセージを受け取ることができる内部アドレスで構成されます。 この機能を使用して、送信された通信を監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>詳しくは、 <a href="../configuration/seed-lists.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -98,7 +98,7 @@ A new option is available in the email surface settings to include email address
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、プライベートベータ版として使用可能です。[詳細情報](../action/action-response.md)。
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。[詳細情報](../action/action-response.md)。
 * 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
 [詳細情報](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
