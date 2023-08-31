@@ -8,10 +8,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
+source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
@@ -150,6 +150,19 @@ ht-degree: 100%
 
 ## キャンペーンリソース {#campaign-capability}
 
+* 「**[!DNL Export suppression list]**」という高レベルの権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * suppression_list.export
+
+   * Adobe Experience Platform 固有：
+      * profiles.read
+      * datasets.read
+
++++
+
 * 「**[!DNL Manage campaigns]**」という高レベルの権限を持つユーザーは、キャンペーンを新規作成および編集／削除できます。
 
 +++ これには、次の低レベル権限が含まれます。
@@ -278,74 +291,6 @@ ht-degree: 100%
 
 ## チャネル設定リソース {#administration-permissions}
 
-* 「**[!DNL Manage subdomains delegation]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
-
-+++ これには、次の低レベル権限が含まれます。
-   * Journey Optimizer 固有：
-
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
-
-+++
-
-* 「**[!DNL Manage PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集を行うことができます。
-
-+++ これには、次の低レベル権限が含まれます。
-
-   * Journey Optimizer 固有：
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
-
-+++
-
-* 「**[!DNL View PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
-
-+++ これには、次の低レベル権限が含まれます。
-   * Journey Optimizer 固有：
-
-      * PTR_records.read
-      * subdomains_delegation.read
-
-+++
-
-* 「**[!DNL Manage IP pools]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行うことができます。
-
-+++ これには、次の低レベル権限が含まれます。
-   * Journey Optimizer 固有：
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
-
-+++
-
-* 「**[!DNL Manage messages general settings]**」という高レベルの権限を持つユーザーは、サンドボックスレベルでグローバル設定の作成、編集および削除を行うことができます。
-
-+++ これには、次の低レベル権限が含まれます。
-
-   * Journey Optimizer 固有：
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
-
-   * Adobe Experience Platform 固有：
-      * schemas.read
-
-+++
-
-* 「**[!DNL View messages general settings]**」という高レベルの権限を持つユーザーは、メッセージの一般設定（実行アドレスなど）を表示できます。
-
-+++ これには、次の低レベル権限が含まれます。
-
-   * Journey Optimizer 固有：
-      * messages_general_settings.read
-
-   * Adobe Experience Platform 固有：
-      * schemas.read
-
-+++
-
 * 「**[!DNL Manage channel surface]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの作成、編集および削除をサンドボックスレベルで行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
@@ -360,53 +305,13 @@ ht-degree: 100%
 
 +++
 
-<!--
-### [!DNL View channel surface] permission {#view-channel-surface}
-
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
-  +++ It includes the following low-level permissions:  
-
-* messages_presets.read
-* subdomains_delegation.read
-* IP_pools.read
-* mobile_setting.read (from Adobe Experience Platform Data Collection)
--->
-
-* 「**[!DNL Manage suppression]**」という高レベルの権限を持つユーザーは、メールアドレスが抑制リストに追加されるまでのバウンス数を定義できるほか、抑制リストに対するエントリの追加や削除も行うことができます。
+* 「**[!DNL Manage IP pools]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
-
-+++
-
-* 「**[!DNL View suppression list]**」という高レベルの権限を持つユーザーは、抑制リストの内容と設定を表示できます。
-
-+++ これには、次の低レベル権限が含まれます。
-
-   * Journey Optimizer 固有：
-      * suppression_list.view
-
-   * Adobe Experience Platform 固有：
-      * profiles.read
-      * datasets.read
-
-+++
-
-* 「**[!DNL Export suppression list]**」という高レベルの権限を持つユーザーは、抑制リストを CSV ファイルとしてダウンロードできます。
-
-+++ これには、次の低レベル権限が含まれます。
-
-   * Journey Optimizer 固有：
-      * suppression_list.export
-
-   * Adobe Experience Platform 固有：
-      * profiles.read
-      * datasets.read
+      * IP_pools.read
+      * IP_pools.write
+      * IP_pools.delete
 
 +++
 
@@ -425,13 +330,19 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-<!--
-### Manage web subdomain permission {#web-subdomain}
+* 「**[!DNL Manage messages general settings]**」という高レベルの権限を持つユーザーは、サンドボックスレベルでグローバル設定の作成、編集および削除を行うことができます。
 
-The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
++++ これには、次の低レベル権限が含まれます。
 
-  +++ It includes the following low-level permissions: 
--->
+   * Journey Optimizer 固有：
+      * messages_general_settings.read
+      * messages_general_settings.write
+      * messages_general_settings.delete
+
+   * Adobe Experience Platform 固有：
+      * schemas.read
+
++++
 
 * 「**[!DNL Manage messages presets]**」という高レベルの権限を持つユーザーは、コンテンツのブランディングの読み取り、作成、編集、削除を行うことができます。
 
@@ -449,17 +360,25 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* 「**[!DNL View messages presets]**」という高レベルの権限を持つユーザーは、メッセージプリセットを表示できます。
+* 「**[!DNL Manage PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードの読み取りと編集を行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
-      * messages_presets.read
+      * PTR_records.read
+      * PTR_records.write
       * subdomains_delegation.read
-      * IP_pools.read
 
-   * データ収集固有：
-      * Mobile_setting.read
++++
+
+* **[!DNL Manage Seedlist]** 高度な権限を持つユーザーは、シードリストの読み取り、作成、編集、削除が可能です。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * seedlist.read
+      * seedlist.write
+      * seedlist.delete
 
 +++
 
@@ -473,3 +392,96 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomains.delete
 
 +++
+
+* 「**[!DNL Manage subdomains delegation]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
+
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+
+      * subdomains_delegation.read
+      * subdomains_delegation.write
+      * subdomains_delegation.delete
+
++++
+
+* 「**[!DNL Manage suppression]**」という高レベルの権限を持つユーザーは、メールアドレスが抑制リストに追加されるまでのバウンス数を定義できるほか、抑制リストに対するエントリの追加や削除も行うことができます。
+
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+      * suppression_rules.read
+      * suppression_rules.write
+      * suppression_rules.delete
+      * suppression_list.write
+      * suppression_list.delete
+
++++
+
+* 「**[!DNL View PTR records]**」という高レベルの権限を持つユーザーは、サブドメインに基づいて設定された PTR レコードを表示できます。
+
++++ これには、次の低レベル権限が含まれます。
+   * Journey Optimizer 固有：
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
+* 「**[!DNL View messages general settings]**」という高レベルの権限を持つユーザーは、メッセージの一般設定（実行アドレスなど）を表示できます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * messages_general_settings.read
+
+   * Adobe Experience Platform 固有：
+      * schemas.read
+
++++
+
+* 「**[!DNL View messages presets]**」という高レベルの権限を持つユーザーは、メッセージプリセットを表示できます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * messages_presets.read
+      * subdomains_delegation.read
+      * IP_pools.read
+
+   * データ収集固有：
+      * Mobile_setting.read
+
++++
+<!--
+### [!DNL View channel surface] permission {#view-channel-surface}
+
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+  +++ It includes the following low-level permissions:  
+
+* messages_presets.read
+* subdomains_delegation.read
+* IP_pools.read
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
+-->
+
+
+* 「**[!DNL View suppression list]**」という高レベルの権限を持つユーザーは、抑制リストの内容と設定を表示できます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * suppression_list.view
+
+   * Adobe Experience Platform 固有：
+      * profiles.read
+      * datasets.read
+
++++
+
+<!--
+### Manage web subdomain permission {#web-subdomain}
+
+The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
+
+  +++ It includes the following low-level permissions: 
+-->
+
