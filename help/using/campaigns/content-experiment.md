@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="コンテンツ実験"
->abstract="複数の処理を定義し、オーディエンスに最適な組み合わせを決定するために、メッセージの内容、件名、送信者を変更するように選択できます。"
+>abstract="複数の処理を定義してオーディエンスに最適な組み合わせを決定するために、メッセージのコンテンツ、件名、送信者を変更することを選択できます。"
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 >title="成功指標"
 >abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。使用する前に、特定の指標に合わせてデータセットを設定してください。"
 
-1. メッセージがパーソナライズされたら、「キャンペーンの概要」ページで「 **[!UICONTROL 実験を作成]** をクリックして、content experiment の設定を開始します。
+1. メッセージをパーソナライズしたら、キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。
 
    ![](assets/content_experiment_3.png)
 
 1. 実験に設定する&#x200B;**[!UICONTROL 成功指標]**&#x200B;を選択します。
 
-   この例では、「 **[!UICONTROL 電子メールを開く]** プロファイルがプロモーションコードが件名行に含まれている場合に e メールを開くかどうかをテストします。
+   この実験では、「**[!UICONTROL メール開封数]**」を選択して、件名にプロモーションコードが含まれている場合にプロファイルがメールを開くかどうかをテストします。
 
    ![](assets/content_experiment_11.png)
 
