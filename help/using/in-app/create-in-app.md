@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 77%
@@ -220,19 +220,25 @@ ht-degree: 77%
 * 以下のビデオでは、キャンペーンでアプリ内メッセージを作成、設定および公開する方法を示しています。
 
   +++ビデオを見る
+
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+
 +++
 
 * 次のビデオでは、A/B テストのアプリ内メッセージに対するコンテンツ実験を設定および分析する方法を示します。
 
   +++ビデオを見る
+
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+
 +++
 
 * 以下のビデオでは、ジャーニーでアプリ内メッセージを作成する方法と、ジャーニーをテストして公開する方法を示します。
 
   +++ビデオを見る
+
   >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
 +++
 
 **関連トピック：**

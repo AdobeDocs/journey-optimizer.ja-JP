@@ -5,7 +5,7 @@ role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 99%
@@ -92,7 +92,9 @@ ht-degree: 99%
 * 以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
 
   +++ビデオを見る
+
   >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
 +++
 
 
