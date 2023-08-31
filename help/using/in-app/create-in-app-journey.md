@@ -1,6 +1,6 @@
 ---
 title: ジャーニーでのアプリ内通知の作成
-description: ジャーニーにアプリ内メッセージを追加する方法を説明します
+description: ジャーニーでアプリ内メッセージを追加する方法を説明します
 feature: Overview
 topic: Content Management
 role: User
@@ -10,14 +10,14 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# アプリ内メッセージの作成  旅行中で {#create-in-app-journey}
+# アプリ内メッセージの作成 ジャーニー内 {#create-in-app-journey}
 
 アプリ内メッセージをジャーニーに追加するには、次の手順に従います。
 
@@ -73,7 +73,7 @@ ht-degree: 92%
 
 +++アプリ内レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-The **[!UICONTROL アプリ内パフォーマンス]** KPI では、次のような、訪問者のアプリ内メッセージに対するエンゲージメントに関する主な情報の詳細を説明します。
+**[!UICONTROL アプリ内パフォーマンス]** KPI では、次のような、アプリ内メッセージに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
 
 * **[!UICONTROL ユニークインプレッション数]**：アプリ内メッセージが配信されたユニークユーザーの数。
 
