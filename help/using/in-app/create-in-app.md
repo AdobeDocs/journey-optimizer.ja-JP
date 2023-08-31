@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizerでのアプリ内通知の作成
+title: Journey Optimizer でのアプリ内通知の作成
 description: Journey Optimizer でアプリ内メッセージを作成する方法を学ぶ
 feature: Overview
 topic: Content Management
@@ -10,13 +10,13 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
-ht-degree: 77%
+ht-degree: 80%
 
 ---
 
 # アプリ内メッセージの作成  {#create-in-app}
 
-アプリ内メッセージは、キャンペーンまたはジャーニーに追加できます。 次に説明する手順に従って、両方のコンテキストでアプリ内メッセージを作成します。
+アプリ内メッセージは、キャンペーンまたはジャーニーに追加できます。次に説明する手順に従って、両方のコンテキストでアプリ内メッセージを作成します。
 
 >[!BEGINTABS]
 

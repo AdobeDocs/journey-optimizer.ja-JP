@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2472'
 ht-degree: 100%
 
@@ -223,7 +223,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 **[!UICONTROL アプリ内の概要]**&#x200B;グラフは、対象期間のアプリ内インプレッション数とインタラクション数の変化を示します。
 
-**[!UICONTROL タイプ別のインタラクション数]**グラフと表は、クリック、破棄またはインタラクションを追跡して、ユーザーがアプリ内メッセージに対してどのような操作をしたかを示します。
+**[!UICONTROL タイプ別インタラクション数]**グラフと表は、クリック、破棄、インタラクションを追跡して、ユーザーがアプリ内メッセージに対してどのような操作をしたかを示します。
 +++
 
 ## 「プッシュ通知」タブ {#push-global}

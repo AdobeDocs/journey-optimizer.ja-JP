@@ -6,7 +6,7 @@ description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 

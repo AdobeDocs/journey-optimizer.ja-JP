@@ -8,7 +8,7 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 100%
 

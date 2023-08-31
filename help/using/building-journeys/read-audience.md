@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -158,7 +158,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * データソースのデータ
 * ジャーニーデータのイベント部分のコンテキスト（例：ある人物が 1 時間前に受け取ったメッセージをクリックしたか）
 * 日付（例：ある人物がジャーニーを経験したのは 6 月だったか？）。
-* 例えば、ある時間：それは人のタイムゾーンでの朝ですか。
+* 時間（例：その人物のタイムゾーンで午前中か？）
 * ジャーニーを経験しているオーディエンスを割合に基づいて分割するアルゴリズム（例：90% - 10%、コントロール母集団を除外）。
 
 ![](assets/read-segment-audience1.png)

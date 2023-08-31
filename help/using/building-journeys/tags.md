@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー、タグ
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 

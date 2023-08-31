@@ -10,7 +10,7 @@ level: Beginner
 keywords: アセット, 初期設定, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
 

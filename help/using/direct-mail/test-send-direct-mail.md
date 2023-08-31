@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 

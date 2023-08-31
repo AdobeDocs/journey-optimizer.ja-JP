@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 8 月リリースノート {#aug-rn-2023}
+## 2023年8月リリースノート {#aug-rn-2023}
 
 ### 新機能{#aug-2023-features}
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer でシードリストを作成および管理できるようになりました。シードリストは、実際のオーディエンスに追加できる内部アドレスと、配信の実行時にターゲットプロファイルとまったく同じメッセージを受け取ることができる内部アドレスで構成されます。 この機能を使用して、送信された通信を監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
+<p>Journey Optimizer でシードリストを作成および管理できるようになりました。シードリストに含む内部アドレスは、配信の実行時に実際のオーディエンスに追加でき、対象プロファイルとまったく同じメッセージを受け取ることができます。この機能を使用して、送信したやりとりを監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>詳しくは、 <a href="../configuration/seed-lists.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -99,15 +99,14 @@ A new option is available in the email surface settings to include email address
 **ジャーニー**
 
 * カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。[詳細情報](../action/action-response.md)。
-* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
-[詳細情報](../reports/alerts.md)。
+* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。[詳細情報](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **ダイレクトメール**
 
-* ファイルルーティング設定で、サーバーの種類として Azure を選択できるようになりました。 [詳細情報](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
-* ダイレクトメールの表面設定の列区切り記号フィールドとして、アンパサンドが使用できるようになりました。 [詳細情報](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+* ファイルルーティング設定で、サーバーの種類として Azure を選択できるようになりました。[詳細情報](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* ダイレクトメールのサーフェス設定で、列区切り記号フィールドとして、アンパサンド（&amp;）を使用できるようになりました。[詳細情報](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 
