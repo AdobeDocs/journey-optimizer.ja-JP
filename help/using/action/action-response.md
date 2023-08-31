@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: カスタムアクションの機能強化
-description: カスタムアクションの最新の機能強化の詳細を説明します
+description: カスタムアクションの最新の機能強化について説明します
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
-badge: label="ベータ版" type="Informative"
+badge: label="Beta" type="Informative"
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 96%
 
 カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
 
-この機能は、以前は、データソースを使用する場合にのみ使用できました。 これで、カスタムアクションでも使用できるようになりました。
+この機能は、以前はデータソースを使用する場合にのみ使用可能でした。これで、カスタムアクションでも使用できるようになりました。
 
 >[!AVAILABILITY]
 >
->この機能は現在、プライベートベータ版として使用可能です。
+>この機能は現在、Private Beta として使用可能です。
 
 >[!WARNING]
 >
 >カスタムアクションは、プライベートまたは内部のエンドポイントでのみ使用し、適切なキャッピングまたはスロットリング制限を付ける必要があります。[このページ](../configuration/external-systems.md)を参照してください。
 
-## カスタムアクションを定義する {#define-custom-action}
+## カスタムアクションを定義 {#define-custom-action}
 
 カスタムアクションを定義する際、GET メソッドの追加と新しいペイロード応答フィールドという 2 つの機能強化が使用可能になりました。その他のオプションとパラメーターには変更はありません。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
