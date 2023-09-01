@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 100%
+source-wordcount: '1482'
+ht-degree: 93%
 
 ---
 
@@ -116,9 +116,13 @@ ht-degree: 100%
 
   検索する属性を選択し、除外する値を指定します。この例では、住所が日本にあるコンポジションプロファイルから除外します。
 
+  >[!NOTE]
+  >
+  >除外値は 1 つだけ指定できます。
+
   ![](assets/audiences-exclude-attribute.png)
 
-### エンリッチメント {#enrich}
+### エンリッチメントアクティビティ {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ ht-degree: 100%
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >「**[!UICONTROL その他のプロファイル]**」オプションを使用すると、他のパスで指定された条件に一致しない残りのプロファイルと共に、追加のパスを作成できます。
+  属性ベースの分割アクティビティを設定するには：
+
+   1. の横にあるボタンをクリックします。 **[!UICONTROL 属性]** フィールド：条件として選択する属性を選択します。
+   1. 必要な数のパスを追加し、各パスにラベルと、パスに含めるプロファイルの選択に使用する値を指定します。
+
+      >[!NOTE]
+      >
+      >各パスに指定できる値は 1 つだけです。
+
+   1. オンに切り替え **[!UICONTROL その他のプロファイル]** オプションを使用して、他のパスで指定された条件に一致しない残りのプロファイルと共に追加のパスを作成できます。
 
 ## オーディエンスを保存する {#save}
 
