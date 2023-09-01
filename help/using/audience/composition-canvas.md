@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 93%
 
 ---
@@ -224,10 +224,10 @@ ht-degree: 93%
 
   ![](assets/audiences-split.png)
 
-  属性ベースの分割アクティビティを設定するには：
+  属性ベースの分割アクティビティを設定するには、次の手順に従います。
 
-   1. の横にあるボタンをクリックします。 **[!UICONTROL 属性]** フィールド：条件として選択する属性を選択します。
-   1. 必要な数のパスを追加し、各パスにラベルと、パスに含めるプロファイルの選択に使用する値を指定します。
+   1. の横にあるボタンをクリックします。 **[!UICONTROL 属性]** フィールドを使用して、分割条件として使用する属性を選択します。
+   1. 必要な数のパスを追加します。 パスごとに、ラベルを指定し、そのパスに含めるプロファイルを決定するために使用される値を指定します。
 
       >[!NOTE]
       >
