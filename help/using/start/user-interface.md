@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 * **[!UICONTROL ポリシー]** - Adobe Experience Platform では、フィールドにラベルを付け、各チャネルのマーケティングアクションを作成できます。次に、ラベルとマーケティングアクションにリンクされたガバナンスポリシーを定義します。[詳細情報](../action/action-privacy.md)
 
-* **[!UICONTROL リクエスト]** - プライバシーリクエストは、Adobe Experience Platform Privacy Service で管理されます。これにより、顧客データのリクエストを管理しやすくする RESTful API およびユーザーインターフェイスが提供されます。[詳細情報](../privacy/requests.md)
+* **[!UICONTROL リクエスト]** ：プライバシーリクエストは、Adobe Experience Platform Privacy Serviceで管理されます。 これにより、顧客データのリクエストを管理しやすくする RESTful API およびユーザーインターフェイスが提供されます。[詳細情報](../privacy/requests.md)
 
 * **[!UICONTROL 監査]** - このセクションを参照して、アクティビティログを確認します。[詳細情報](../privacy/audit-logs.md)
 
