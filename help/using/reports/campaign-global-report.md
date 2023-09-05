@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 100%
+source-wordcount: '2466'
+ht-degree: 98%
 
 ---
 
@@ -145,9 +145,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 **[!UICONTROL メール - トラッキング統計情報]**&#x200B;のウィジェットには、配信の受信者アクティビティに使用できるデータが表示されます。
 
-* **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
+* **[!UICONTROL 開封数]**:E メールが開封された回数。
 
-* **[!UICONTROL ユニーク開封数]**：開封された配信の割合。
+* **[!UICONTROL ユニーク開封数]**：開封された E メールの割合。
 
 * **[!UICONTROL 開封率]**：配信されたメール数に対して、開封されたメールの合計数。
 
@@ -196,7 +196,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
 
 * **[!UICONTROL 送信済み]**：配信に対する送信の合計数。
-* **[!UICONTROL 開封数]**：配信でメッセージが開かれた回数。
+
+* **[!UICONTROL 開封数]**：メッセージが開かれた回数。
+
 * **[!UICONTROL クリック数]**：メールのコンテンツがクリックされた回数。
 
 この&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;は、送信方法（最適化または標準）に応じて、配信の成功を詳細に示します。
@@ -330,7 +332,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 **[!UICONTROL 除外された理由]**、**[!UICONTROL バウンスの理由]**&#x200B;および&#x200B;**[!UICONTROL エラーの理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
-**[!UICONTROL SMS - リンク別のクリック数]**&#x200B;ウィジェットと **[!UICONTROL SMS - トラッキング統計]**&#x200B;ウィジェットは、訪問者の URL へのエンゲージメントに関連する主な情報の詳細を示します。
+The **[!UICONTROL SMS — リンク別のクリック数]** および **[!UICONTROL SMS — トラッキング統計]** ウィジェットは、訪問者の URL に対するエンゲージメントに関する主な情報の詳細を示します。
 
 +++
 
