@@ -10,10 +10,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 76eafb06b43d2964c4e85d1f77d35750f93eee0c
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 **目次**
 
 * [コンテンツアシスタント入門](gs-generative.md)
-* [コンテンツアシスタントでのテキストの生成](generative-title.md)
+* [コンテンツアシスタントでのテキストの生成](generative-content.md)
 * **[コンテンツアシスタントで画像を生成](generative-image.md)**
 
 >[!ENDSHADEBOX]

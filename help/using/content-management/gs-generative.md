@@ -10,10 +10,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 280b1c2c7276b872143062aeba0939a899897d42
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 **目次**
 
 * **[コンテンツアシスタントの基本を学ぶ](gs-generative.md)**
-* [コンテンツアシスタントでのテキストの生成](generative-title.md)
+* [コンテンツアシスタントでのテキストの生成](generative-content.md)
 * [コンテンツアシスタントを使用した画像の生成](generative-image.md)
 
 >[!ENDSHADEBOX]
@@ -36,7 +36,7 @@ Adobe Journey Optimier コンテンツアシスタントは、テキストや画
 
 
 
-コンテンツアシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。Journey Optimizer のコンテンツ実験を使用すると、ターゲットオーディエンスに最適なパフォーマンスを発揮するのはどれかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツ、件名または送信者を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../campaigns/content-experiment.md)を参照してください。
+コンテンツアシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。Journey Optimizer のコンテンツ実験を使用すると、ターゲットオーディエンスに最適なパフォーマンスを発揮するのはどれかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツまたは件名を変更するように選択できます。 メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../campaigns/content-experiment.md)を参照してください。
 
 
 >[!AVAILABILITY]

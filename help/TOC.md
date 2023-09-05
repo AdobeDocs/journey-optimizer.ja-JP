@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -252,7 +252,7 @@ ht-degree: 100%
    + [Adobe Stock との連携](using/content-management/stock.md)
    + コンテンツアシスタントの操作{#content-assistant}
       + [コンテンツアシスタント入門](using/content-management/gs-generative.md)
-      + [タイトルの生成](using/content-management/generative-title.md)
+      + [コンテンツの生成](using/content-management/generative-content.md)
       + [画像生成](using/content-management/generative-image.md)
 + パーソナライズ機能と動的コンテンツ {#personalized-dynamic-content}
    + パーソナライズ機能 {#personalization}
