@@ -6,42 +6,41 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 34%
 
 ---
 
 # パーソナライズされたオファーの削除 {#delete-personalized-offer}
 
-場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。テナントコンテナで作成したパーソナライズされたオファーのみを削除できます。これは、削除するパーソナライズされたオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
+場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。これは、 [!DNL Offer Library] 削除するパーソナライズされたオファーの ID を使用する API。
 
 **API 形式**
 
 ```http
-DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 削除するエンティティの ID。 | `personalizedOffer1234` |
 
 **リクエスト**
 
 ```shell
-curl -X DELETE \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0f4bc230-13df-11eb-bc55-c11be7252432' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1234?offer-type=personalized' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **応答**
 
-正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
+正常な応答は、HTTP ステータス 200 と空白の本文を返します。
 
-パーソナライズされたオファーに対して検索（GET）リクエストを実行することで、削除を確認できます。リクエストには Accept ヘッダーを含める必要がありますが、パーソナライズされたオファーがコンテナから削除されたので、HTTP ステータス 404（見つかりません）を受け取ります。
+パーソナライズされたオファーが削除されたので、パーソナライズされたオファーに対して検索 (GET) リクエストを試みて削除を確認できます。また、HTTP ステータス 404（見つかりません）を受け取る必要があります。

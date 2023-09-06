@@ -6,43 +6,41 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 35%
 
 ---
 
 # 決定ルールの削除 {#delete-decision-rule}
 
-場合によっては、決定ルールを削除（DELETE）する必要があります。テナントコンテナで作成した決定ルールのみを削除できます。これは、削除する決定ルールのインスタンス ID を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
+場合によっては、決定ルールを削除（DELETE）する必要があります。これは、 [!DNL Offer Library] を使用した API `id` 削除する決定ルールの名前を指定します。
 
 **API 形式**
 
 ```http
-DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 更新する決定ルールのインスタンス ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{ID}` | 削除するエンティティの ID。 | `offerRule1234` |
 
 **リクエスト**
 
 ```shell
-curl -X DELETE \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/eaa5af90-13d9-11eb-9472-194dee6dc381' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **応答**
 
-正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
+正常な応答は、HTTP ステータス 200 と空白の本文を返します。
 
-決定ルールに対して検索（GET）リクエストを実行することで、削除を確認できます。リクエストには Accept ヘッダーを含める必要がありますが、決定ルールがコンテナから削除されたので、HTTP ステータス 404（見つかりません）を受け取ります。
+決定ルールに対して検索 (GET) リクエストを試行すると、削除を確認できます。決定ルールは削除されたので、HTTP ステータス 404（見つかりません）を受け取る必要があります。

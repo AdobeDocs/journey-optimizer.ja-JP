@@ -6,29 +6,27 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 40cd9df5b41fd622b8e447d7fc672502e9e29787
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 44%
 
 ---
 
 # 決定ルールのリスト {#list-decision-rules}
 
-決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内の既存の決定ルールのリストを表示できます。
+決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。既存の決定ルールのリストを表示するには、 [!DNL Offer Library] API.
 
 **API 形式**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | 決定ルールに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=1` |
+| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=2` |
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
@@ -40,128 +38,74 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `q` | 選択したフィールドで検索するオプションのクエリ文字列。クエリ文字列は小文字にする必要があり、二重引用符で囲むことで、トークン化を防ぎ、特殊文字をエスケープできます。次の文字 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` は特別な意味を持ち、クエリ文字列に出現する場合はバックスラッシュでエスケープする必要があります。 | `default` |
-| `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
-| `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
-| `limit` | 返される決定ルールの数を制限します。 | `limit=5` |
+| `property` | オプションのプロパティフィルターは次のとおりです。 <br> <ul>  — プロパティは AND 演算でグループ化されます。 <br><br>  — パラメーターは、次のように繰り返し使用できます。 property=<property-expr>[&amp;property=<property-expr2>...] またはプロパティ=<property-expr1>[、<property-expr2>...] <br><br>  — プロパティの式は形式です [!]フィールド[op]値、オプインあり [==!=,&lt;=,>=,&lt;,>,～]，正規表現のサポート | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に — を追加すると (orderby=-name)、降順 (Z ～ A) で項目が名前で並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、次のように繰り返すことができます。 `orderby=field1[,-fields2,field3,...]` | `orderby=id`、`-name` |
+| `limit` | 返されるエンティティの数を制限します。 | `limit=5` |
 
 **リクエスト**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&limit=1' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **応答**
 
-正常な応答では、アクセス可能なコンテナ内に存在する決定ルールのリストが返されます。
+正常な応答は、アクセス権のある判定ルールのリストを返します。
 
 ```json
 {
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3",
-    "requestTime": "2020-10-22T04:14:12.676802Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "36693c30-0377-11eb-9dd8-d781cc064407",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 3,
-                "repo:createdDate": "2020-09-30T23:46:51.379003Z",
-                "repo:lastModifiedDate": "2020-10-02T05:06:36.780806Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "xdm:name": "Qualified for mortgage products",
-                    "offerui:segmentModel": {
-                        "name": "Qualified for mortgage products",
-                        "canHaveFolder": true,
-                        "isMissingAnsibleModel": false,
-                        "description": "",
-                        "deprecated": {
-                            "reason": "",
-                            "status": false
-                        },
-                        "schema": {
-                            "name": "_xdm.context.profile",
-                            "id": "some id"
-                        },
-                        "schemaName": "",
-                        "expression": {
-                            "xEventAttributesContainer": {
-                                "itemType": "eventTypeCardContainer",
-                                "logicalOperator": "then",
-                                "exclude": false,
-                                "items": []
-                            },
-                            "logicalOperator": "and",
-                            "isValid": true,
-                            "profileAttributesContainer": {
-                                "itemType": "segmentContainer",
-                                "logicalOperator": "and",
-                                "exclude": false,
-                                "items": [
-                                    {
-                                        "component": {
-                                            "__entity__": true,
-                                            "id": "profile._xcoree2etesting.productCategory",
-                                            "type": "n"
-                                        },
-                                        "isPlaceholder": false,
-                                        "comparisonType": "equals",
-                                        "value": [
-                                            "mortgage"
-                                        ]
-                                    }
-                                ]
-                            }
-                        },
-                        "mergePolicyId": "3558157a-19cb-40b4-ba13-a5f5ce31b011",
-                        "namespace": "ups"
-                    },
-                    "xdm:condition": {
-                        "xdm:format": "pql/text",
-                        "xdm:type": "PQL",
-                        "xdm:value": "_xcoree2etesting.productCategory.equals(\"mortgage\", false)"
-                    },
-                    "xdm:definedOn": {},
-                    "xdm:description": "",
-                    "@id": "xcore:eligibility-rule:12333714edbf49e6"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3#36693c30-0377-11eb-9dd8-d781cc064407",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/36693c30-0377-11eb-9dd8-d781cc064407",
-                        "@type": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                    }
-                },
-                "sandboxName": "ode-prod-va7-edge-testing"
+    "results": [
+        {
+            "created": "2022-09-16T18:59:53.651+00:00",
+            "modified": "2022-09-16T18:59:53.651+00:00",
+            "etag": 1,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "offerRule1234",
+            "name": "Californians with one or more purchases greater than $1000",
+            "condition": {
+                "type": "PQL",
+                "format": "pql/text",
+                "value": "homeAddress.stateProvince.equals(\"CA\", false) and (select var1 from xEvent where var1.eventType.equals(\"purchase\", true) and (var1.commerce.order.priceTotal = 1000.0 and var1.commerce.order.currencyCode.equals(\"USD\", false)))"
             }
-        ],
-        "total": 8,
-        "count": 1
-    },
+        },
+        {
+            "created": "2023-03-06T15:11:42.178+00:00",
+            "modified": "2023-03-06T15:11:42.178+00:00",
+            "etag": 1,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "offerRule5678",
+            "name": "People born after 1981",
+            "description": "Persons with the birth date after 1981",
+            "condition": {
+                "type": "PQL",
+                "format": "pql/text",
+                "value": "person.birthDate occurs after date(1981, 1, 1)"
+            }
+        }
+    ],
+    "count": 2,
+    "total": 25,
     "_links": {
         "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&limit=1",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            "href": "/offer-rules?href={SELF_HREF}&limit=2",
+            "type": "application/json"
         },
         "next": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=36693c30-0377-11eb-9dd8-d781cc064407&orderby=instanceId&schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&limit=1",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            "href": "/offer-rules?href={NEXT_HREF}&limit=2",
+            "type": "application/json"
         }
     }
 }
