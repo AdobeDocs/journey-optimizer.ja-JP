@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 59%
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
@@ -17,96 +17,88 @@ ht-degree: 59%
 
 パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 
-パーソナライズされたオファーを作成するには、 [!DNL Offer Library] API.
+コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、パーソナライズされたオファーを作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、 *Content-Type* リクエストヘッダーのフィールド：
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| Content-Type | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API 形式**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personalized' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test personalized offer with frequency constraint",
-    "status": "draft",
-    "representations": [
-        {
-            "channel": "https://ns.adobe.com/xdm/channel-types/web",
-            "placement": "offerPlacement1234",
-            "components": [
-                {
-                    "type": "html",
-                    "format": "text/html",
-                    "language": [
-                        "en-us"
-                    ],
-                    "content": "Hello You qualify for our Discount of 60%"
-                }
-            ]
-        }
-    ],
-    "selectionConstraint": {
-        "startDate": "2022-07-27T05:00:00.000+00:00",
-        "endDate": "2023-07-29T05:00:00.000+00:00",
-        "profileConstraintType": "none"
-    },
-    "rank": {
-        "priority": 0
-    },
-    "cappingConstraint": {},
-    "frequencyCappingConstraints": [
-        {
-            "enabled": false,
-            "limit": 1,
-            "startDate": "2023-05-15T14:25:49.622+00:00",
-            "endDate": "2023-05-25T14:25:49.622+00:00",
-            "scope": "global",
-            "entity": "offer",
-            "repeat": {
-                "enabled": false,
-                "unit": "month",
-                "unitCount": 1
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+        "xdm:name": "Sale offer",
+        "xdm:status": "draft",
+        "xdm:representations": [
+            {
+                "xdm:components": [
+                    {
+                        "dc:language": [
+                            "en"
+                        ],
+                        "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                        "dc:format": "text/html"
+                    }
+                ],
+                "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
             }
-        }
-    ]
-}'
+        ],
+        "xdm:selectionConstraint": {
+            "xdm:startDate": "2020-10-01T16:00:00Z",
+            "xdm:endDate": "2021-12-13T16:00:00Z",
+            "xdm:eligibilityRule": "xcore:eligibility-rule:124e0faf5b8ee89b"
+        },
+        "xdm:rank": {
+            "xdm:priority": 1
+        },
+        "xdm:cappingConstraint": {
+            "xdm:globalCap": 150
+        },
+        "xdm:tags": [
+            "xcore:tag:124e147572cd7866"
+        ]
+    }'
 ```
 
 **応答**
 
-正常な応答は、新しく作成されたパーソナライズされたオファーの詳細（ID を含む）を返します。 以下を使用すると、 `id` 後の手順で、パーソナライズされたオファーを更新または削除します。
+正常な応答では、新たに作成されたパーソナライズされたオファーに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してパーソナライズされたオファーを更新または削除できます。
 
 ```json
 {
-    "etag": 1,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "0f4bc230-13df-11eb-bc55-c11be7252432",
+    "@id": "xcore:personalized-offer:124e181c8b0d7878",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T20:50:32.018624Z",
+    "repo:lastModifiedDate": "2020-10-21T20:50:32.018624Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
 

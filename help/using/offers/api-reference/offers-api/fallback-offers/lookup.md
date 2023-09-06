@@ -6,69 +6,132 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 32%
+source-wordcount: '158'
+ht-degree: 100%
 
 ---
 
 # フォールバックオファーの検索 {#look-up-fallback-offers}
 
-特定のフォールバックオファーを検索するには、 [!DNL Offer Library] リクエストパスにフォールバックオファー ID を含む API。
+[!DNL Offer Library] API に対してリクエストパスにフォールバックオファーの `@id` または名前を含める GET リクエストを実行することで、特定のフォールバックオファーを検索できます。
 
 **API 形式**
 
 ```http
-GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_OFFER}&{QUERY_PARAMS}
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 検索するエンティティの ID。 | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FALLBACK_OFFER}` | フォールバックオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `F1: Web fallback` |
 
 **リクエスト**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
--H 'Accept: *,application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&id=xcore:fallback-offer:122206064e0d98df' \
+  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **応答**
 
-正常な応答は、フォールバックオファーの詳細（フォールバックオファーの情報や一意のフォールバックオファー ID など）を返します。
+正常な応答では、フォールバックオファーに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のフォールバックオファー `@id` に関する情報を含む）が返されます。
 
 ```json
 {
-    "created": "2023-06-08T14:04:41.011+00:00",
-    "modified": "2023-06-08T14:04:41.011+00:00",
-    "etag": 1,
-    "schemas": [
-        "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.8"
-    ],
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "fallbackOffer1234",
-    "name": "Fallback Offer Web",
-    "description": "Fallback Offer Web Description",
-    "status": "draft",
-    "representations": [
-        {
-            "channel": "https://ns.adobe.com/xdm/channel-types/web",
-            "placement": "offerPlacement1234",
-            "components": [
-                {
-                    "type": "imagelink",
-                    "format": "image/png",
-                    "deliveryURL": "https://mysite.com"
-                }
-            ]
+    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
+    "schemaNs": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1",
+    "requestTime": "2020-10-21T22:21:50.658080Z",
+    "_embedded": {
+        "results": [
+            {
+                "instanceId": "053bc610-f8f9-11ea-ad6e-775ad2c9b1a1",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 3,
+                "repo:createdDate": "2020-09-17T15:18:20.657299Z",
+                "repo:lastModifiedDate": "2020-10-02T02:34:48.034583Z",
+                "repo:createdBy": "712B3670554A7AF17F000101@AdobeID",
+                "repo:lastModifiedBy": "68D9EA8559BC2D810A495CC2@AdobeID",
+                "repo:createdByClientId": "exc_app",
+                "repo:lastModifiedByClientId": "exc_app",
+                "_score": 0,
+                "_instance": {
+                    "xdm:name": "F1: Web fallback ",
+                    "xdm:representations": [
+                        {
+                            "xdm:components": [
+                                {
+                                    "xdm:content": "aaa",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                                    "dc:format": "application/json",
+                                    "repo:name": "aa"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:122201b2150d98c2"
+                        },
+                        {
+                            "xdm:components": [
+                                {
+                                    "xdm:content": "bb",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                                    "dc:format": "text/html",
+                                    "repo:name": "bb"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:122201c34354a2b4"
+                        },
+                        {
+                            "xdm:components": [
+                                {
+                                    "xdm:deliveryURL": "https://mysite.com",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                                    "dc:format": "image/png",
+                                    "repo:name": "ll"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:122207eddb05205a"
+                        }
+                    ],
+                    "xdm:status": "approved",
+                    "xdm:tags": [],
+                    "@id": "xcore:fallback-offer:122206064e0d98df"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.5#053bc610-f8f9-11ea-ad6e-775ad2c9b1a1",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/053bc610-f8f9-11ea-ad6e-775ad2c9b1a1",
+                        "@type": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.5"
+                    }
+                },
+                "sandboxName": "ode-prod-va7-edge-testing"
+            }
+        ],
+        "total": 1,
+        "count": 1
+    },
+    "_links": {
+        "self": {
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&id=xcore:fallback-offer:122206064e0d98df",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         }
-    ]
+    }
 }
 ```

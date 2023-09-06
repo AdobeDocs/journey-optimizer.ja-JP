@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 44%
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
@@ -17,62 +17,62 @@ ht-degree: 44%
 
 コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-コレクションを作成するには、 [!DNL Offer Library] API.
+コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行して、コレクションを作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、 *Content-Type* リクエストヘッダーのフィールド：
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| Content-Type | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **API 形式**
 
 ```http
-POST /{ENDPOINT_PATH}/offer-collections
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test Collection with tags",
-    "filterType": "any-tags",
-    "ids": [
-        "tag1234"
-    ],
-    "labels": [
-        "core/C5",
-        "custom/myLabel"
-    ]
-}'
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+        "xdm:name": "Offer Collection 1",
+        "xdm:filterType": "anyTags",
+        "xdm:ids": [
+            "xcore:tag:124e147572cd7866"
+        ]
+    }'
 ```
 
 **応答**
 
-正常な応答は、新しく作成されたコレクションに関する情報（一意のコレクションも含む）を返します `id`. コレクションを使用できます `id` 後の手順で、コレクションを更新または削除したり、後のチュートリアルで使用して決定を作成したりします。
+正常な応答では、新たに作成されたコレクションに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してコレクションを更新または削除できます。後のチュートリアルで、独自のコレクション`@id` を使用して決定を作成できます。
 
 ```json
 {
-    "etag": 1,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "0bf31c20-13f1-11eb-a752-e58fd7dc4cb3",
+    "@id": "xcore:offer-filter:124e3594ce8b4930",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:59:17.345797Z",
+    "repo:lastModifiedDate": "2020-10-21T22:59:17.345797Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

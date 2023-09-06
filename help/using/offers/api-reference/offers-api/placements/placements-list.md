@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 9b9ca28b185a342d908eeb53d772f9d011105aba
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 55%
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 55%
 
 プレースメントは、オファーの表示に使用するコンテナです。プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 
-すべての配置のリストを表示するには、 [!DNL Offer Library] API.
+[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内のすべてのプレースメントのリストを表示できます。
 
 **API 形式**
 
 ```http
-GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | プレースメントが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | プレースメントに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=2` |
 
 ## クエリパラメーターの使用 {#using-query-parameters}
@@ -40,93 +42,107 @@ GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `property` | オプションのプロパティフィルターは次のとおりです。 <br> <ul>  — プロパティは AND 演算でグループ化されます。 <br><br>  — パラメーターは、次のように繰り返し使用できます。 property=<property-expr>[&amp;property=<property-expr2>...] またはプロパティ=<property-expr1>[、<property-expr2>...] <br><br>  — プロパティの式は形式です [!]フィールド[op]値、オプインあり [==!=,&lt;=,>=,&lt;,>,～]，正規表現のサポート | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に — を追加すると (orderby=-name)、降順 (Z ～ A) で項目が名前で並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、次のように繰り返すことができます。 `orderby=field1[,-fields2,field3,...]` | `orderby=id`、`-name` |
+| `q` | 選択したフィールドで検索するオプションのクエリ文字列。クエリ文字列は小文字にする必要があり、二重引用符で囲むことで、トークン化を防ぎ、特殊文字をエスケープできます。次の文字 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` は特別な意味を持ち、クエリ文字列に出現する場合はバックスラッシュでエスケープする必要があります。 | Web サイト JSON |
+| `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
+| `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
 | `limit` | 返されるプレースメントの数を制限します。 | `limit=5` |
 
 **リクエスト**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/placements?limit=2' \
--H 'Accept: *,application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&limit=2' \
+  -H 'Accept: *,application/json' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **応答**
 
-正常な応答は、存在する配置とアクセス可能な配置のリストを返します。
+正常な応答では、アクセス可能なコンテナ内に存在するプレースメントのリストが返されます。
 
 ```json
 {
-    "results": [
-        {
-            "created": "2023-05-15T11:22:50.031+00:00",
-            "modified": "2023-05-15T11:22:50.031+00:00",
-            "etag": 1,
-            "schemas": [
-                "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.5"
-            ],
-            "createdBy": "{CREATED_BY}",
-            "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "offerPlacement5678",
-            "name": "Placement one",
-            "description": "Placement description",
-            "componentType": "html",
-            "channel": "https://ns.adobe.com/xdm/channel-types/web",
-            "itemCount": 1,
-            "allowDuplicatePlacements": false,
-            "returnContent": false,
-            "returnMetaData": {
-                "decisionName": true,
-                "offerName": true,
-                "offerAttributes": true,
-                "offerPriority": true,
-                "placementName": true,
-                "channelType": true,
-                "contentType": true
+    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
+    "schemaNs": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4",
+    "requestTime": "2020-10-21T19:48:51.843067Z",
+    "_embedded": {
+        "results": [
+            {
+                "instanceId": "0feb6a80-0f32-11eb-8110-e17787c335b5",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-10-15T22:02:05.480449Z",
+                "repo:lastModifiedDate": "2020-10-15T22:13:00.278175Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "xdm:name": "New placement name",
+                    "xdm:componentType": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                    "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                    "xdm:description": "Updated placement description",
+                    "@id": "xcore:offer-placement:12466ef35fc5baa0"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4#0feb6a80-0f32-11eb-8110-e17787c335b5",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0feb6a80-0f32-11eb-8110-e17787c335b5",
+                        "@type": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                    }
+                }
+            },
+            {
+                "instanceId": "269192b0-f8f2-11ea-8723-916b9fbadc53",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 1,
+                "repo:createdDate": "2020-09-17T14:29:10.107121Z",
+                "repo:lastModifiedDate": "2020-09-17T14:29:10.107121Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "xdm:componentType": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                    "xdm:name": "demo placement",
+                    "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                    "@id": "xcore:offer-placement:1221fac4e7340521"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4#269192b0-f8f2-11ea-8723-916b9fbadc53",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/269192b0-f8f2-11ea-8723-916b9fbadc53",
+                        "@type": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
+                    }
+                },
+                "sandboxName": "ode-prod-va7-edge-testing"
             }
-        },
-        {
-            "created": "2023-05-19T08:29:15.875+00:00",
-            "modified": "2023-05-19T08:29:15.875+00:00",
-            "etag": 1,
-            "schemas": [
-                "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.5"
-            ],
-            "createdBy": "{CREATED_BY}",
-            "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "offerPlacement1234",
-            "name": "Placement two",
-            "description": "Placement description",
-            "componentType": "html",
-            "channel": "https://ns.adobe.com/xdm/channel-types/email",
-            "itemCount": 1,
-            "allowDuplicatePlacements": false,
-            "returnContent": false,
-            "returnMetaData": {
-                "decisionName": true,
-                "offerName": true,
-                "offerAttributes": true,
-                "offerPriority": true,
-                "placementName": true,
-                "channelType": true,
-                "contentType": true
-            }
-        }
-    ],
-    "count": 2,
-    "total": 4,
+        ],
+        "total": 17,
+        "count": 2
+    },
     "_links": {
         "self": {
-            "href": "/placements?href={SELF_HREF}&limit=2",
-            "type": "application/json"
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&limit=2",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         },
         "next": {
-            "href": "/placements?href={NEXT_HREF}&limit=2",
-            "type": "application/json"
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=269192b0-f8f2-11ea-8723-916b9fbadc53&orderby=instanceId&schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&limit=2",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         }
     }
 }
