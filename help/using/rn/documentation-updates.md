@@ -4,16 +4,20 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 100%
+source-wordcount: '3303'
+ht-degree: 99%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023 年 9 月 (#september-2023)
+
+* 決定ルールを作成する際に考慮すべき制限のリストが、決定管理ドキュメントに追加されました。 [詳細情報](../offers/offer-library/creating-decision-rules.md)
 
 ## 2023年8月 {#august-2023}
 
