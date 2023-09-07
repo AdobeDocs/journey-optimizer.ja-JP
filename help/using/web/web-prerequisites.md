@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 100%
+source-wordcount: '1054'
+ht-degree: 96%
 
 ---
 
@@ -107,13 +107,15 @@ Visual Editing Helper のブラウザー拡張機能をダウンロードして�
 
 Adobe [!DNL Journey Optimizer] web デザイナーでは、読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper ブラウザー拡張機能](#install-visual-editing-helper)をインストールするよう促すメッセージが表示されます。
 
-Visual Editing Helper のブラウザー拡張機能が正しくインストールされても、web サイトの読み込みに失敗したり、予期しない動作が発生した場合は、ブラウザーで web サイトを開いて Cookie を受け入れてから、[!DNL Journey Optimizer] Web デザイナーで読み込んでみてください。
+1. Visual Editing Helper ブラウザ拡張機能が正しくインストールされていることを確認します。
+
+1. Web サイトがまだ予期せぬ動作をする場合は、サードパーティ Cookie がブラウザーで許可されていることを確認してください。許可されていない場合、Web ページを [!DNL Journey Optimizer] web デザイナー。
 
 認証されているページでログインページの読み込みに失敗した場合、またはログインを試みてもログインできない場合：
 
-* まず新しいブラウザータブでログインし、目的のページに移動してから、URL をコピーして [!DNL Journey Optimizer] web デザイナーで開いてみます。
+1. まず新しいブラウザータブでログインし、目的のページに移動してから、URL をコピーして [!DNL Journey Optimizer] web デザイナーで開いてみます。
 
-* それでも [!DNL Journey Optimizer] web デザイナーで web サイトを読み込めない場合は、問題が発生したことをアドビのカスタマーケアに報告してください。その際は必ず 該当の URL をお知らせください。
+2. それでも [!DNL Journey Optimizer] web デザイナーで web サイトを読み込めない場合は、問題が発生したことをアドビのカスタマーケアに報告してください。その際は必ず 該当の URL をお知らせください。
 
 ## 配信の前提条件 {#delivery-prerequisites}
 
