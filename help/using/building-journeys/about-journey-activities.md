@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 94%
 
 ---
 
@@ -71,6 +71,10 @@ ht-degree: 100%
 ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別したい場合に便利です。また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>一部のアクティビティでは、その ID もパネルに表示されます。 この ID は、ラベルよりも安定したキーとしてレポートで使用できますが、このキーは変更される場合があります。
 
 ### 詳細パラメーターの管理 {#advanced-parameters}
 
