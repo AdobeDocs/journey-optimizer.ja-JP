@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
@@ -40,32 +40,37 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 **リクエスト**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-        "xdm:status": "approved",
-        "xdm:name": "Fallback for sales",
-        "xdm:representations": [
-            {
-                "xdm:components": [
-                    {
-                        "dc:language": [
-                            "en"
-                        ],
-                        "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
-                        "dc:format": "text/html"
-                    }
-                ],
-                "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
-                "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
-            }
-        ]
+curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '{
+    "name": "Test Fallback Offer DPS",
+    "description": "Fallback Offer description",
+    "status": "approved",
+    "selectionConstraint": {
+        "startDate": "2022-06-10T00:30:00.000+00:00",
+        "endDate": "2032-06-06T23:29:21.402+00:00",
+        "profileConstraintType": "none"
+    },
+    "representations": [
+        {
+            "components": [
+                {
+                    "deliveryURL": "https://mysite.com",
+                    "type": "imagelink",
+                    "format": "image/png"
+                }
+            ],
+            "channel": "https://ns.adobe.com/xdm/channel-types/web",
+            "placement": "offerPlacement1234"
+        }
+    ],
+    "rank": {
+        "priority": 1
+    }
 }'
 ```
 

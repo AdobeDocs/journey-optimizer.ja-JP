@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 76%
 
 ---
 
@@ -23,8 +23,7 @@ ht-degree: 100%
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Content-Type | `application/json` |
 
 **API 形式**
 
@@ -72,7 +71,7 @@ curl -X POST \
 
 **応答**
 
-正常な応答では、新たに作成された決定に関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用して決定を更新または削除できます。
+正常な応答は、新しく作成された決定に関する情報（一意の決定を含む）を返します `id`. 以下を使用できます。 `id` 後の手順で、決定を更新または削除します。
 
 ```json
 {

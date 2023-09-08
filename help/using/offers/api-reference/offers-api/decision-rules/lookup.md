@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 87%
 
 ---
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、検索した決定ルールに関する詳細（コンテナ ID、インスタンス ID、一意の決定ルール `@id` に関する情報を含む）が返されます。
+正常な応答は、検索した特定の決定ルールの詳細（一意の決定ルールに関する情報を含む）を返します `id`.
 
 ```json
 {
