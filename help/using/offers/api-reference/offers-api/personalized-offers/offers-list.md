@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: f9011fc803e4766cf1427965118aec32af9c9013
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '247'
+ht-degree: 97%
 
 ---
 
@@ -22,15 +22,13 @@ ht-degree: 100%
 **API 形式**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | パーソナライズされたオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=1` |
+| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=2` |
 
 **リクエスト**
 
