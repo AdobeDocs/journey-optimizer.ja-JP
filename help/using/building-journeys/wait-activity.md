@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
@@ -91,5 +91,3 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
 ![](assets/journey57bis.png)-->
-
-これに関して何かドラフトを書いていただけますか？
