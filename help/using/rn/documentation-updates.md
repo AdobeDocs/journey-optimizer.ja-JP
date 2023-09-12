@@ -4,7 +4,7 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ ht-degree: 92%
 * キャッピングのドキュメントに、カスタム認証エンドポイントに関する情報が追加されました。 [詳細情報](../configuration/external-systems.md)
 * 新しいカスタム認証の例が外部データソースの節に追加されました。 [詳細情報](../datasource/external-data-sources.md#custom-authentication-mode)
 * イベントトリガージャーニーに関する Data Collection Core Service (DCCS) に関するメモを追加しました。 [詳細情報](../start/guardrails.md#events-g)
-* ID 名前空間の取得に関する注意が [オーディエンスの閲覧](../building-journeys/read-audience.md), [セグメントの選定](../building-journeys/segment-qualification-events.md) および [イベントの作成](../event/about-creating.md) セクション。
+* ID 名前空間の取得に関する注意が [オーディエンスの閲覧](../building-journeys/read-audience.md), [オーディエンスの選定](../building-journeys/audience-qualification-events.md) および [イベントの作成](../event/about-creating.md) セクション。
 * [!DNL Journey Optimizer] のアクセシビリティ機能を専用ページにグループ化しました。[詳細情報](../start/accessibility.md)
 * 高度な式エディターのドキュメントの「演算子」の節で例が更新されました。 [詳細情報](../building-journeys/expression/operators.md)
 * オブジェクトの配列を使用したルックアップの制限に関する注意が追加されました。 [詳細情報](../event/experience-event-schema.md#relationships_limitations)
