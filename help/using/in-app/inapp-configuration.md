@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 99%
+source-wordcount: '551'
+ht-degree: 67%
 
 ---
 
@@ -36,20 +36,47 @@ ht-degree: 99%
    >
    > **[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスするには、**アプリ設定を管理**&#x200B;権限が必要です。詳しくは、[このビデオ](#video)を参照してください。
 
-   >[!NOTE]
-   >
-   > **[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスするには、**アプリ設定を管理**&#x200B;権限が必要です。詳しくは、[このビデオ](#video)を参照してください。
-
    ![](assets/inapp_config_1.png)
 
 1. **[!UICONTROL アプリサーフェス]**&#x200B;に名前を追加します。
 
+   ![](assets/inapp_config_2b.png)
 
-1. Apple iOS ドロップダウンで、**iOS バンドル ID** を入力します。**バンドル ID** について詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)を参照してください。
+1. 次から： **[!UICONTROL Apple iOS]** ドロップダウンで、Apple iOS用のモバイルアプリケーションを設定します。
 
-   ![](assets/inapp_config_2.png)
++++ 詳細情報
 
-1. Android ドロップダウンで、**Android パッケージ名**&#x200B;を入力します。**パッケージ名**&#x200B;について詳しくは、[Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=ja#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores)を参照してください。
+   1. 次を入力： **[!UICONTROL iOS Bundle ID]**. **バンドル ID** について詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)を参照してください。
+
+   1. （オプション） **[!UICONTROL サンドボックス]** プッシュ通知の送信元。 特定のサンドボックスを選択するには、必要なアクセス権限が必要です。
+
+      サンドボックス管理について詳しくは、 [このページ](../administration/sandboxes.md#assign-sandboxes).
+
+   1. を有効にします。 **[!UICONTROL プッシュ資格情報]** 必要に応じて.p8 auth キーファイルをドラッグ&amp;ドロップするオプション。
+
+      また、 **[!UICONTROL プッシュ資格情報を手動で入力する]** オプションを使用して、APNs 認証キーを直接コピー&amp;ペーストできます。
+
+   1. を入力します。 **[!UICONTROL キー ID]** および **[!UICONTROL チーム ID]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. 次から： **[!UICONTROL Android]** 」ドロップダウンで、Android 用のモバイルアプリケーションを設定します。
+
++++ 詳細情報
+
+   1. 次を入力： **[!UICONTROL Android パッケージ名]**. **パッケージ名**&#x200B;について詳しくは、[Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=ja#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores)を参照してください。
+
+   1. （オプション） **[!UICONTROL サンドボックス]** プッシュ通知の送信元。 特定のサンドボックスを選択するには、必要なアクセス権限が必要です。
+
+      サンドボックス管理について詳しくは、 [このページ](../administration/sandboxes.md#assign-sandboxes).
+
+   1. を有効にします。 **[!UICONTROL プッシュ資格情報]** オプションを使用し、必要に応じて.json 秘密鍵ファイルをドラッグ&amp;ドロップします。
+
+      また、 **[!UICONTROL プッシュ資格情報を手動で入力する]** オプションを使用して、FCM 秘密鍵を直接コピー&amp;ペーストできます。
+
+      ![](assets/inapp_config_7.png)
 
 1. **[!UICONTROL アプリサーフェス]**&#x200B;の設定が完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
