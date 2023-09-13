@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 27b5d9d66cd2659b4254ee26ac7de928cdd13fe1
 workflow-type: tm+mt
 source-wordcount: '3468'
 ht-degree: 99%
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ## 2023 年 9 月更新 {#sept-rn-2023}
 
-### 新機能{#sept-2023-features}
+### 新しい機能 {#sept-2023-features}
 
 <table>
 <thead>
