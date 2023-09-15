@@ -62,7 +62,7 @@ ht-degree: 100%
 
    ![](../assets/subdomain.png)
 
-1. **IP プールの作成**：インスタンスでプロビジョニングされた IP アドレスをグループ化することで、E メールの配信品質と評判を向上させます。[詳細](../../configuration/ip-pools.md)
+1. **IP プールの作成**：インスタンスでプロビジョニングされた IP アドレスをグループ化することで、メールの配信品質と評判を向上させます。[詳細](../../configuration/ip-pools.md)
 
    ![](../assets/ip-pool.png)
 

@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,9 +107,9 @@ Visual Editing Helper のブラウザー拡張機能をダウンロードして�
 
 Adobe [!DNL Journey Optimizer] web デザイナーでは、読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper ブラウザー拡張機能](#install-visual-editing-helper)をインストールするよう促すメッセージが表示されます。
 
-1. Visual Editing Helper ブラウザ拡張機能が正しくインストールされていることを確認します。
+1. Visual Editing Helper ブラウザー拡張機能が正しくインストールされていることを確認します。
 
-1. Web サイトがまだ予期せぬ動作をする場合は、サードパーティ Cookie がブラウザーで許可されていることを確認してください。許可されていない場合、Web ページを [!DNL Journey Optimizer] web デザイナー。
+1. Web サイトが引き続き予期しない動作をする場合は、ブラウザーでサードパーティ Cookie が許可されていることを確認します。許可されていないと、web ページを [!DNL Journey Optimizer] web デザイナー内に読み込むことができません。
 
 認証されているページでログインページの読み込みに失敗した場合、またはログインを試みてもログインできない場合：
 

@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 67%
 
 * 以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
 
-  +++ビデオを見る
+  +++こちらのビデオをご覧ください
 
   >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

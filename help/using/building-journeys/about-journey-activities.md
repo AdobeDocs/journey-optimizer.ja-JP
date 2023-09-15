@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->一部のアクティビティでは、その ID もパネルに表示されます。 この ID は、ラベルよりも安定したキーとしてレポートで使用できますが、このキーは変更される場合があります。
+>一部のアクティビティでは、その ID もパネルに表示されます。この ID は、変更される可能性があるラベルよりも安定したキーとしてレポートに使用できます。
 
 ### 詳細パラメーターの管理 {#advanced-parameters}
 

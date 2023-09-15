@@ -9,7 +9,7 @@ exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,4 +23,4 @@ Adobe Journey Optimizer では、外部ソースからデータを取り込み�
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-外部ソースからデータを取り込む方法について詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"}.
+ソースコネクタを使用して外部ソースからデータを取り込む方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"}を参照してください。

@@ -454,7 +454,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>すべてのメールでの「BCC で E メールを送信」の使用</strong><br/></th>
+<th><strong>すべてのメールでの「BCC でメールを送信」の使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>

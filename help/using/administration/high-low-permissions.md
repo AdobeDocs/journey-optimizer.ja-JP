@@ -11,7 +11,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -371,7 +371,7 @@ ht-degree: 98%
 
 +++
 
-* **[!DNL Manage Seedlist]** 高度な権限を持つユーザーは、シードリストの読み取り、作成、編集、削除が可能です。
+* 「**[!DNL Manage Seedlist]**」という高レベルの権限を持つユーザーは、シードリストの読み取り、作成、編集、削除を行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
 

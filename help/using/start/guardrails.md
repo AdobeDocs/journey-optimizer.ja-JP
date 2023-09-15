@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ### カスタムアクション {#custom-actions-g}
 
 * カスタムアクションの URL は動的パラメーターをサポートしていません。
-* POST、PUT、およびGET呼び出しメソッドがサポートされています
+* POST、PUT および GET 呼び出しメソッドがサポートされています
 * クエリパラメーターやヘッダーの名前は、「.」または「$」で始める必要があります。
 * IP アドレスは使用できません。
 * 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。

@@ -12,7 +12,7 @@ exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
 source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 | 機能 | 権限 |
 |-|-|
 | キャンペーン | **[!DNL Manage campaigns]**：キャンペーンの読み取り、作成、編集、削除。</br>**[!DNL Publish campaigns]**：キャンペーンを公開する権限。</br>**[!DNL View campaigns]**：キャンペーンへの読み取り専用アクセス。</br>**[!DNL View campaigns report]**：キャンペーンレポートの読み取り、編集。 |
-| チャネル設定 | **[!DNL Export suppression list]**：抑制リストを CSV ファイルとして書き出すためのアクセス権。</br>**[!DNL Manage alerts]**：キャンペーン、メッセージ、権限に関するアラートの有効化／無効化。</br> **[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</br>**[!DNL Manage landing page settings]**：ランディングページ設定の読み取り、作成、編集、削除。</br> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</br>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</br>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</br>**[!DNL Manage SMS settings]**：SMS 設定の読み取り、作成、編集、削除。</br>**[!DNL Manage SMS subdomains]**:SMS サブドメインを読み取り、作成、編集および削除します。</br> **[!DNL Manage Seedlist]**：シードリストを読み取り、作成、編集、削除します。 </br> **[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</br>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</br>**[!DNL View channel surfaces]**：チャネルサーフェスへの読み取り専用アクセス。</br> **[!DNL View messages general settings]**：メッセージの一般設定への読み取り専用アクセス。</br> **[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス権。 </br> **[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</br>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。 |
+| チャネル設定 | **[!DNL Export suppression list]**：抑制リストを CSV ファイルとして書き出すためのアクセス権。</br>**[!DNL Manage alerts]**：キャンペーン、メッセージ、権限に関するアラートの有効化／無効化。</br> **[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</br>**[!DNL Manage landing page settings]**：ランディングページ設定の読み取り、作成、編集、削除。</br> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</br>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</br>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</br>**[!DNL Manage SMS settings]**：SMS 設定の読み取り、作成、編集、削除。</br>**[!DNL Manage SMS subdomains]**：SMS サブドメインの読み取り、作成、編集、削除。</br> **[!DNL Manage Seedlist]**：シードリストの読み取り、作成、編集、削除。</br> **[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</br>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</br>**[!DNL View channel surfaces]**：チャネルサーフェスへの読み取り専用アクセス。</br> **[!DNL View messages general settings]**：メッセージの一般設定への読み取り専用アクセス。</br> **[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</br> **[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</br>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。 |
 | ダッシュボード | **[!DNL View license usage dashboards]**：ライセンス使用状況ダッシュボードを表示する読み取り専用アクセス。</br>**[!DNL Manage custom dashboards]**：新しいダッシュボードの作成と、既存のダッシュボードの編集の許可。</br>**[!DNL View custom dashboards]**：ユーザー定義ダッシュボードへの読み取り専用アクセス。</br>**[!DNL View standard dashboards]**：プロファイル、宛先、セグメントの各ダッシュボードへの読み取り専用アクセス。</br>**[!DNL Manage standard dashboards]**：カスタムウィジェットの作成と、ウィジェットライブラリを介したウィジェットスキーマの編集の許可。 |
 | データ収集 | **[!DNL Manage datastream]**：データストリームの読み取り、作成、編集。</br>**[!DNL View datastream]**：データストリームへの読み取り専用アクセス。 |
 | データガバナンス | **[!DNL Manage usage labels]**：ラベルの読み取り、作成、編集、削除。</br>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</br>**[!DNL View data usage policies]**：組織に属するデータ使用ポリシーに対する読み取り専用アクセス。</br>**[!DNL View user activity log]**：Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。 |

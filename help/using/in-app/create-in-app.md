@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -44,21 +44,21 @@ ht-degree: 80%
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
-      +++利用可能なトリガーを参照。
+      +++使用可能なトリガーについては、こちらを参照してください。
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|
-      | Platform へのデータ送信 | データをプラットフォームに送信 | モバイルアプリがエッジエクスペリエンスイベントを発行してAdobe Experience Platformにデータを送信した場合にトリガーされます。 通常、API 呼び出し [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を AEP Edge 拡張機能から削除する。 |
-      | コアトラッキング | アクションの追跡 | モバイルコード API で提供される従来の機能が発生した場合にトリガーされます [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) が呼び出されます。 |
-      | コアトラッキング | 状態の追跡 | モバイルコード API で提供される従来の機能が発生した場合にトリガーされます [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) が呼び出されます。 |
-      | コアトラッキング | PII を収集 | モバイルコード API で提供される従来の機能が発生した場合にトリガーされます [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) が呼び出されます。 |
+      | Platform にデータを送信 | Platform にデータを送信済み | モバイルアプリがエッジエクスペリエンスイベントを発行してデータを Adobe Experience Platform に送信するとトリガーされます。通常、API は AEP Edge 拡張機能から [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を呼び出します。 |
+      | コアトラッキング | アクションを追跡 | モバイルコード API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) で提供される従来の機能を呼び出すとトリガーされます。 |
+      | コアトラッキング | 状態を追跡 | モバイルコード API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) で提供される従来の機能を呼び出すとトリガーされます。 |
+      | コアトラッキング | PII を収集 | モバイルコード API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) で提供される従来の機能を呼び出すとトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションの起動 | 実行のたびに（クラッシュおよびインストールを含む）トリガーされます。また、ライフサイクルセッションのタイムアウトを超えた場合に、SignatureInfo オブジェクトのバックグラウンドからの再開時にもトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのインストール | インストール後または再インストール後の最初の実行時にトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションの更新 | アップグレード後またはバージョン番号の変更時の最初の実行時にトリガーされます。 |
-      | アプリケーションライフサイクル | アプリケーションの終了 | アプリケーションが閉じられたときにトリガーされます。 |
+      | アプリケーションライフサイクル | アプリケーションのクローズ | アプリケーションをクローズするとトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのクラッシュ | アプリケーションが終了前にバックグラウンドにならなかった場合にトリガーされます。このイベントは、アプリケーションがクラッシュした後の起動時に送信されます。Adobe Mobile クラッシュレポートには、キャッチできないグローバルな例外ハンドラーは実装されていません。 |
-      | Places | POI を入力 | 設定した目標地点 (POI) に顧客が入ると、Places SDK によってトリガーされます。 |
-      | Places | 出口 POI | 設定した目標地点 (POI) を顧客が離れたときに Places SDK によってトリガーされます。 |
+      | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
+      | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
 +++
 
@@ -142,21 +142,21 @@ ht-degree: 80%
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
-      +++利用可能なトリガーを参照。
+      +++使用可能なトリガーについては、こちらを参照してください。
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|
-      | Platform へのデータ送信 | データをプラットフォームに送信 | モバイルアプリがエッジエクスペリエンスイベントを発行してAdobe Experience Platformにデータを送信した場合にトリガーされます。 通常、API 呼び出し [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を AEP Edge 拡張機能から削除する。 |
-      | コアトラッキング | アクションの追跡 | モバイルコード API で提供される従来の機能が発生した場合にトリガーされます [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) が呼び出されます。 |
-      | コアトラッキング | 状態の追跡 | モバイルコード API で提供される従来の機能が発生した場合にトリガーされます [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) が呼び出されます。 |
-      | コアトラッキング | PII を収集 | モバイルコード API で提供される従来の機能が発生した場合にトリガーされます [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) が呼び出されます。 |
+      | Platform にデータを送信 | Platform にデータを送信済み | モバイルアプリがエッジエクスペリエンスイベントを発行してデータを Adobe Experience Platform に送信するとトリガーされます。通常、API は AEP Edge 拡張機能から [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を呼び出します。 |
+      | コアトラッキング | アクションを追跡 | モバイルコード API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) で提供される従来の機能を呼び出すとトリガーされます。 |
+      | コアトラッキング | 状態を追跡 | モバイルコード API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) で提供される従来の機能を呼び出すとトリガーされます。 |
+      | コアトラッキング | PII を収集 | モバイルコード API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) で提供される従来の機能を呼び出すとトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションの起動 | 実行のたびに（クラッシュおよびインストールを含む）トリガーされます。また、ライフサイクルセッションのタイムアウトを超えた場合に、SignatureInfo オブジェクトのバックグラウンドからの再開時にもトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのインストール | インストール後または再インストール後の最初の実行時にトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションの更新 | アップグレード後またはバージョン番号の変更時の最初の実行時にトリガーされます。 |
-      | アプリケーションライフサイクル | アプリケーションの終了 | アプリケーションが閉じられたときにトリガーされます。 |
+      | アプリケーションライフサイクル | アプリケーションのクローズ | アプリケーションをクローズするとトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのクラッシュ | アプリケーションが終了前にバックグラウンドにならなかった場合にトリガーされます。このイベントは、アプリケーションがクラッシュした後の起動時に送信されます。Adobe Mobile クラッシュレポートには、キャッチできないグローバルな例外ハンドラーは実装されていません。 |
-      | Places | POI を入力 | 設定した目標地点 (POI) に顧客が入ると、Places SDK によってトリガーされます。 |
-      | Places | 出口 POI | 設定した目標地点 (POI) を顧客が離れたときに Places SDK によってトリガーされます。 |
+      | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
+      | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
 +++
 
@@ -219,23 +219,23 @@ ht-degree: 80%
 
 * 以下のビデオでは、キャンペーンでアプリ内メッセージを作成、設定および公開する方法を示しています。
 
-  +++ビデオを見る
+  +++こちらのビデオをご覧ください
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
 +++
 
-* 次のビデオでは、A/B テストのアプリ内メッセージに対するコンテンツ実験を設定および分析する方法を示します。
+* 以下のビデオでは、アプリ内メッセージの A/B テストを行うためのコンテンツ実験を設定および分析する方法を示しています。
 
-  +++ビデオを見る
+  +++こちらのビデオをご覧ください
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
 +++
 
-* 以下のビデオでは、ジャーニーでアプリ内メッセージを作成する方法と、ジャーニーをテストして公開する方法を示します。
+* 以下のビデオでは、ジャーニーでアプリ内メッセージを作成する方法と、ジャーニーをテストして公開する方法を示しています。
 
-  +++ビデオを見る
+  +++こちらのビデオをご覧ください
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077)
 
