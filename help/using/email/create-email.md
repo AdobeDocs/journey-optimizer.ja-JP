@@ -80,7 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="メールコンテンツの設定"
->abstract="メールのコンテンツを作成します。件名を定義してから、電子メールデザイナーを活用してメールの本文を作成およびパーソナライズします。"
+>abstract="メールのコンテンツを作成します。件名を定義してから、E メールデザイナーを活用してメールの本文を作成およびパーソナライズします。"
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メールコンテンツを設定します。[詳細情報](get-started-email-design.md)
 
@@ -92,7 +92,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. 件名を追加できます。該当するフィールドに直接プレーンテキストを入力するか、[式エディター](../personalization/personalization-build-expressions.md)を使用して件名をパーソナライズします。
 
-1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックして、[!DNL Journey Optimizer] 電子メールデザイナーでコンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
+1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックして、[!DNL Journey Optimizer] E メールデザイナーでコンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
@@ -102,7 +102,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!NOTE]
    >
-   >電子メールデザイナーで既にコンテンツを作成または読み込んでいる場合は、そのコンテンツが HTML で表示されます。
+   >E メールデザイナーで既にコンテンツを作成または読み込んでいる場合は、そのコンテンツが HTML で表示されます。
 
 ## アラートの確認 {#check-email-alerts}
 

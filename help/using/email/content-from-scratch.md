@@ -42,7 +42,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="メール列の定義"
->abstract="メールデザイナーを使用すると、列構造を選択することで、メールのレイアウトを簡単に定義できます。"
+>abstract="E メールデザイナーを使用すると、列構造を選択することで、メールのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
