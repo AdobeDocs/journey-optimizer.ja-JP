@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 96%
 
 ---
 
@@ -229,12 +229,17 @@ ht-degree: 100%
    + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
    + [ダイレクトメールメッセージのテストと送信](using/direct-mail/test-send-direct-mail.md)
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
-+ Web チャネル{#web}
++ Web チャネル {#web}
    + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
    + [Web チャネルの前提条件](using/web/web-prerequisites.md)
    + [Web エクスペリエンスの作成](using/web/create-web.md)
    + [Web ページの作成](using/web/author-web.md)
    + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
++ コードベースのエクスペリエンス {#code-based-experience}
+   + [コードベースのチャネルを使い始める](using/code-based/get-started-code-based.md)
+   + [コードベースの前提条件](using/code-based/code-based-prerequisites.md)
+   + [コードベースの実装サンプル](using/code-based/code-based-implementation-samples.md)
+   + [コードベースのエクスペリエンスの作成](using/code-based/create-code-based.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
@@ -427,6 +432,17 @@ ht-degree: 100%
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
++ エクスペリエンス判定 {#experience-decisioning}
+   + [Experience Decisioning の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
+   + 決定項目を管理 {#decision-items}
+      + [項目カタログを設定](using/experience-decisioning/catalogs.md)
+      + [決定項目の作成](using/experience-decisioning/items.md)
+      + [項目コレクションを管理](using/experience-decisioning/collections.md)
+   + 項目の選択を設定 {#selection}
+      + [決定ルールの作成](using/experience-decisioning/rules.md)
+      + [ランキングメソッドの作成](using/experience-decisioning/ranking.md)
+   + [選択戦略を作成](using/experience-decisioning/selection-strategies.md)
+   + [決定ポリシーの作成](using/experience-decisioning/create-decision.md)
 + データ管理 {#data-management}
    + [データ管理の基本を学ぶ](using/data/gs-data.md)
    + [スキーマの操作](using/data/get-started-schemas.md)
