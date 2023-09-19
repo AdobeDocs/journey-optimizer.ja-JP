@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: 9b7280c33ce8238b54f7fd1865545f865ffb72ed
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 6%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,4 @@ Experience Decisioning を操作する主な手順は次のとおりです。
 
 1. **コードベースのキャンペーンに決定ポリシーを埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
 
-## 用語集
-
-条件を入力する Brandon。
+<!--## Glossary-->
