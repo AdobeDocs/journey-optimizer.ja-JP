@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: decf400bbdc0a063bd1714c6ce01595ef7fb222a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1466'
 ht-degree: 96%
 
 ---
@@ -260,30 +260,28 @@ ht-degree: 96%
       + [コンテンツアシスタント入門](using/content-management/gs-generative.md)
       + [コンテンツの生成](using/content-management/generative-content.md)
       + [画像生成](using/content-management/generative-image.md)
-+ パーソナライズ機能と動的コンテンツ {#personalized-dynamic-content}
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
-      + 式の作成 {#build-expressions}
-         + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-         + 式エディターの操作 {#expression-editor}
-            + [式エディターについて](using/personalization/personalization-build-expressions.md)
-            + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
-            + [保存済み式の使用](using/personalization/personalization-library.md)
-            + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
-         + ヘルパー関数{#functions}
-            + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
-            + [集計関数](using/personalization/functions/aggregation.md)
-            + [演算関数](using/personalization/functions/arithmetic-functions.md)
-            + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
-            + [日付関数](using/personalization/functions/dates.md)
-            + [ブール関数と比較関数](using/personalization/functions/operators.md)
-            + [ヘルパー](using/personalization/functions/helpers.md)
-            + [マップ関数](using/personalization/functions/maps.md)
-            + [数学関数](using/personalization/functions/math.md)
-            + [オブジェクト関数](using/personalization/functions/objects.md)
-            + [文字列関数](using/personalization/functions/string.md)
-      + ユースケース{#personalization-use-cases}
+      + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
+      + 式エディターの操作 {#expression-editor}
+         + [式エディターについて](using/personalization/personalization-build-expressions.md)
+         + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
+         + [保存済み式の使用](using/personalization/personalization-library.md)
+         + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
+      + ヘルパー関数{#functions}
+         + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
+         + [集計関数](using/personalization/functions/aggregation.md)
+         + [演算関数](using/personalization/functions/arithmetic-functions.md)
+         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
+         + [日付関数](using/personalization/functions/dates.md)
+         + [ブール関数と比較関数](using/personalization/functions/operators.md)
+         + [ヘルパー](using/personalization/functions/helpers.md)
+         + [マップ関数](using/personalization/functions/maps.md)
+         + [数学関数](using/personalization/functions/math.md)
+         + [オブジェクト関数](using/personalization/functions/objects.md)
+         + [文字列関数](using/personalization/functions/string.md)
+      + パーソナライズ機能の使用例{#personalization-use-cases}
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
    + 動的コンテンツ {#dynamic}
