@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1001'
 ht-degree: 26%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 26%
 >id="ajo_code_based_experience"
 >title="コードエディターの使用"
 >abstract="このコードベースのエクスペリエンスアクションの一部として配信するコードを挿入および編集します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/build-expressions/expression-editor/personalization-build-expressions.html" text="式エディターの基本を学ぶ"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="式エディターの基本を学ぶ"
 
 1. キャンペーンの編集画面で、「 」を選択します。 **[!UICONTROL コードを編集]**.
 
