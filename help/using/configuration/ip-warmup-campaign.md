@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 8%
@@ -43,7 +43,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!NOTE]
    >
-   >で E メールサーフェスで使用するドメインと IP を選択する方法を説明します。 [この節](using/email/email-settings.md#subdomains-and-ip-pools).
+   >で E メールサーフェスで使用するドメインと IP を選択する方法を説明します。 [この節](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. の作成 [campaign](../campaigns/create-campaign.md) をクリックし、 [電子メール](../email/create-email.md#create-email-journey-campaign) アクション。
 
@@ -68,4 +68,6 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 >IP ウォームアッププランが有効化されたライブキャンペーンの場合、 **[!UICONTROL 削除]** ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。
 
 キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
+
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
