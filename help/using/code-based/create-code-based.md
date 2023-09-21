@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 26%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="コードエディターの使用"
+>title="式エディターの使用"
 >abstract="このコードベースのエクスペリエンスアクションの一部として配信するコードを挿入および編集します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="式エディターの基本を学ぶ"
 
@@ -76,7 +76,7 @@ ht-degree: 26%
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. コードエディターが開きます。 これは、非視覚的なエクスペリエンス作成インターフェイスです。
+1. The [式エディター](../personalization/personalization-build-expressions.md) が開きます。 これは、コードを作成できる非視覚的なエクスペリエンス作成インターフェイスです。
 
 1. オーサリングモードをHTMLから JSON に切り替えることも、その逆も可能です。
 
@@ -84,7 +84,7 @@ ht-degree: 26%
    >
    >オーサリングモードを変更すると、現在のコードがすべて失われるので、オーサリングを開始する前にモードを切り替えてください。
 
-1. 必要に応じてコードを入力します。 コードエディターは、 [!DNL Journey Optimizer] 式エディターには、パーソナライゼーションおよびオーサリング機能がすべて含まれています。 [詳細情報](../personalization/personalization-build-expressions.md)
+1. 必要に応じてコードを入力します。 次の条件を満たす場合に、 [!DNL Journey Optimizer] 式エディターには、パーソナライゼーションおよびオーサリング機能がすべて含まれています。 [詳細情報](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ ht-degree: 26%
 >
 >どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
-1. コードエディターまたはコンテンツ編集画面で、「 」を選択します。 **[!UICONTROL コンテンツをシミュレート]**.
+1. 式エディターまたはコンテンツを編集画面で、「 」を選択します。 **[!UICONTROL コンテンツをシミュレート]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

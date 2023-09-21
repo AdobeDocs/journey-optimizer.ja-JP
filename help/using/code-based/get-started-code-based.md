@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ Web の使用例を実行するには、Web チャネルまたはコードベー
 * マーケティング担当者向けです。
 
 **コードベースのエクスペリエンス**
-* 次を使用してコンテンツを編集： [コードエディター](create-code-based.md#edit-code).
+* 次を使用してコンテンツを編集： [式エディター](create-code-based.md#edit-code).
 * コードベースのエクスペリエンスでは、によってエッジに公開されたコンテンツをサーフェスが解釈して配信できるように、実装に関する以前の開発作業が必要です。 [!DNL Journey Optimizer] を使用します。 [詳細情報](#surface-definition)
 * より多くの計画が必要で、開発者が指定した内容だけを変更できます。 したがって、 パーソナライゼーションやテストのために変更が必要なサーフェス上に表示され、変更の処理に必要な実装を開発チームと協力して構築します。
 * JSON コードコンテンツを使用できます。
@@ -133,7 +133,7 @@ Web の使用例を実行するには、Web チャネルまたはコードベー
 
 1. を定義 [表面](#surface-definition)：基本的には、コードベースのエクスペリエンスを追加し、 [!DNL Journey Optimizer] このサーフェスを使用します。 [方法についてはこちらを参照](create-code-based.md#create-code-based-campaign)
 
-1. 選択したサーフェスのコンテンツを次を使用して指定し、エクスペリエンスを構成する [!DNL Journey Optimizer] コードエディター。 [方法についてはこちらを参照](create-code-based.md#edit-code)
+1. 選択したサーフェスのコンテンツを次を使用して指定し、エクスペリエンスを構成する [!DNL Journey Optimizer] 式エディター。 [方法についてはこちらを参照](create-code-based.md#edit-code)
 
 1. アプリ実装チームは、明示的な API または SDK 呼び出しをおこなって、「バナーテキスト」や「Recommendationsトレイ 1」などの名前付きサーフェスや、アプリケーション内の UI 関連以外の決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。 この場合、実装チームは、返されたコンテンツをレンダリングするか、その他の方法で解釈し、それに基づいて操作する必要があります。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
