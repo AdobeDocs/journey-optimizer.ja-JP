@@ -10,14 +10,20 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
+source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
 # コンテンツアシスタント入門 {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_generation"
+>title="メールコンテンツを作成"
+>abstract="Adobe Journey Optimier コンテンツアシスタントは、テキストや画像に対して積極的にコンテンツのバリエーションを提案する機能を提供します。メール、プッシュ、SMS および web の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。"
+
 
 >[!BEGINSHADEBOX]
 
