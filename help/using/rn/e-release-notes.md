@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
+source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 39%
 
 ---
 
@@ -18,26 +18,26 @@ ht-degree: 100%
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2023年8月早期リリースノート {#aug-rn-2023}
+## 2023 年 9 月の早期リリースノート {#sept-rn-2023}
 
-**リリース日**：2023年8月23～24日（PT）
+**リリース日**:2023 年 9 月 26～27 日
 
-### 新機能{#aug-2023-features}
+### 新機能{#sept-2023-features}
 
 このリリースでは、以下に示す新機能が導入されています。
 
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーでのアプリ内メッセージを送信</strong><br/></th>
+<th><strong>統合されたチャネルレポート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニー内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>詳しくは、<a href="../in-app/get-started-in-app.md">詳細なドキュメント</a>を参照してください。</p>
+<p>チャネルレポート機能を使用すると、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要を、アナリストとマーケターに提供できます。 「レポート」メニューにアクセスするには、**チャネルレポートの表示**権限が必要です。</p>
+<img src="assets/channel-reports.png"/>
+<p>詳しくは、<a href="../in-app/get-started-in-app.md">詳細なドキュメント</a>を参照してください。</p-->
 </tr>
 </tbody>
 </table>
@@ -46,14 +46,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>シードリストを使用したメールの検証</strong><br/></th>
+<th><strong>データセット書き出し生成 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer でシードリストを作成および管理できるようになりました。シードリストに含む内部アドレスは、配信の実行時に実際のオーディエンスに追加でき、対象プロファイルとまったく同じメッセージを受け取ることができます。この機能を使用して、送信したやりとりを監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
-<img src="../configuration/assets/seed-list-details.png">
+<p>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出しを一般的に利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。</p>
+<img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -61,46 +61,41 @@ ht-degree: 100%
 </table>
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Generate text and images with the Content assistant</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-<p>This capability is currently available as a private beta.</p>
-<img src="assets/gen-ai-image-2.png"/>
-<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-
-### 機能強化 {#aug-2023-improvements}
+### 機能強化 {#sept-2023-improvements}
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-**API**
+**オーディエンス**
 
-コンテンツフラグメントを作成および管理するための新しい API が使用可能になりました。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}。
+* CSV ファイルからジャーニーやキャンペーンにアップロードされたオーディエンスをターゲットに設定できるようになりました。
+* ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。
+* 構成ワークフローからジャーニーに至るオーディエンスをターゲット設定できるようになりました。
 
-**メールチャネル**
+**パーソナライゼーション**
 
-メールサーフェス設定で、スパムの苦情により抑制されたメールアドレスをトランザクションメッセージオーディエンスに含める新しいオプションが使用可能になりました。マーケティングメッセージをスパムとしてマークした場合でも、これらのプロファイルは、パスワードのリセットやアカウントステートメントなどのトランザクションメッセージを受信する可能性があります。このオプションはデフォルトでは無効です。
+* ビジュアルフラグメントに加えて、式エディターを使用して、Journey Optimizerインターフェイスから式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。
+* Journey Optimizerで、パーソナライゼーションにAdobe Experience Platformの計算済み属性を使用できるようになりました。 計算済み属性は、Adobe Experience Platformに取り込まれたプロファイル対応のエクスペリエンスイベントデータセットに基づいて計算される集計値です。
+
+**アラート**
+
+新しいタイプのシステムアラートが導入されました。セグメントの読み取りに失敗した場合に通知を受け取れるようになりました。
+
+**Web チャネル**
+
+* Web ページの変更を適用する特定のビューを選択できるようになりました。 ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。
+* Web デザイナーを使用してページを編集する際、コンポーネントを選択してデザイナーインターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。
+* Web サブドメインを設定する際、既にAdobeにデリゲートされたサブドメインを使用する以外に、独自のサブドメインを追加するオプションが追加できるようになりました。
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
+* ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。
 
 
-**ダイレクトメール**
+**メールチャネル**
 
-* ファイルルーティング設定で、サーバーの種類として Azure を選択できるようになりました。
-* ダイレクトメールのサーフェス設定で、列区切り記号フィールドとして、アンパサンド（&amp;）を使用できるようになりました。
+E メールのサーフェス設定の新しいオプションにより、E メールアドレスがAdobe Journey Optimizer抑制リストに含まれている場合でも、プロファイルにトランザクションメッセージを送信することを選択できます。
+
+**意思決定管理**
+
+ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。
