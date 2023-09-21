@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -58,25 +58,29 @@ ht-degree: 1%
 
    * 別の IP ウォームアップキャンペーンで既に使用中のキャンペーンは選択できません。
 
-1. 各フェーズで、次のことが適用されます。
+1. Adobe Analytics の **[!UICONTROL プロファイルの除外]** 「 」セクションでは、そのフェーズの以前の実行からのプロファイルが常に除外されることを確認できます。 例えば、「実行」で#1対象となる最初の 4800 人のユーザーがプロファイルの対象となった場合、「実行」で同じプロファイルが電子メールを受信しないように自動的にシス#2ムが保証しす。
 
-   * **[!UICONTROL プロファイルの除外]**  — 前回の実行のそのフェーズのプロファイルは、常に除外されます。 例えば、Leo が実行時#1、最初の 6300 人の人々がターゲットにされた場合、システムは自動的に Leo が実行時にメールを受け取らないことを保証#2します。
+1. 次から： **[!UICONTROL 除外されたキャンペーンオーディエンス]** セクションで、他のオーディエンスを選択します <!--executed/live?-->現在のフェーズから除外するキャンペーン。
 
-   * **[!UICONTROL 除外されたキャンペーンオーディエンス]**  — 他のオーディエンスからオーディエンスを選択します <!--executed/live?-->現在のフェーズから除外するキャンペーン。
+   ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-     例えば、フェーズを実行していて、何らかの理由でフェーズを分割する必要があった場合があります。 この場合、フェーズ 2 では、フェーズ 1 で使用したキャンペーンをこのセクションに含め、フェーズ 2 では、フェーズ 1 から以前に連絡した人が含まれないようにします。 これは、同じ IP ウォームアッププランで使用されるキャンペーンだけでなく、別の IP ウォームアッププランからも実行できます。
+   たとえば、フェーズ 1 の実行時に、次の手順を実行する必要がありました。 [分割する](#split-phase) 何らかの理由で したがって、フェーズ 1 から以前に連絡したプロファイルがフェーズ 2 に含まれないように、フェーズ 1 で使用するキャンペーンを除外できます。 他の IP ウォームアッププランからキャンペーンを除外することもできます。
 
-   * **[!UICONTROL 除外されたドメイングループ]**  — そのフェーズから除外するドメイン（例：Gmail）を選択します。 <!--??-->
+1. 次から： **[!UICONTROL 除外されたドメイングループ]** 「 」セクションで、そのフェーズから除外するドメインを選択します。
 
-     IP ウォームアップを数日間実行した後、ドメインでの ISP の評判は、hotmail が良くないと言うこと、および ISP で解決したいが、IP ウォームアップ計画を停止したくないと思うことに気が付きます。 このような場合、ドメイングループ hotmail を除外されたカテゴリに入れることができます。
+   ![](assets/ip-warmup-plan-exclude-domains.png)
 
-     >[!NOTE]
-     >
-     >ドメインの除外には、実行されないフェーズが必要なので、除外を追加するには、実行中のフェーズを分割する必要が生じる場合があります。 同様に、ドメイングループが OOTB ドメイングループでない場合は、Excel でドメイングループを作成し、アップロードしてから除外する必要が生じる場合があります。
+   例えば、IP ウォームアップを数日間実行した後、ドメイン (Adobe) での ISP の評判が良くないことに気が付き、IP ウォームアップ計画を停止せずに解決したいと考えます。 この場合、ドメインドメイングループを除外するAdobeドメイングループを指定できます。
+
+   >[!NOTE]
+   >
+   >ドメインの除外には実行されないフェーズが必要なので、除外を追加するには、実行フェーズを分割する必要が生じる場合があります。 同様に、ドメイングループが OOTB ドメイングループでない場合は、このドメイングループを Excel ファイルに追加し、アップロードしてからドメインを除外する必要があります。
 
    ![](assets/ip-warmup-plan-phase-1.png)
 
-1. 必要に応じてフェーズを追加できます。最後の現在のフェーズの後に追加されます。 以下を使用します。 **[!UICONTROL フェーズを削除]** ボタンをクリックして、不要なフェーズを削除します。
+1. 必要に応じて、フェーズを追加できます。 これは、最後の現在のフェーズの後に追加されます。
+
+1. 以下を使用します。 **[!UICONTROL フェーズを削除]** ボタンをクリックして、不要なフェーズを削除します。
 
    ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -92,7 +96,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 終了時間を選択します。つまり、オーディエンスジョブに遅延が生じた場合に、ウォームアップキャンペーンを実行できる期間を基本的に指定します。 指定しなかった場合は、開始時に試行し、失敗します。 終了時間が指定された場合は、そのウィンドウ間で実行が実行されます。
+1. 終了時間を選択します。この時間では、オーディエンスセグメントジョブの実行に遅延が生じた場合に備えて、IP ウォームアップキャンペーンを実行できる期間を定義します。 終了時間を指定しない場合は、開始時に実行が試行され、セグメント化が完了しなかった場合は失敗します。
 
 1. 各実行をアクティブ化します。 セグメント化ジョブを実行できるように、十分な早い時間をスケジュールしてください。 <!--explain how you can evaluate a proper time-->
 
@@ -100,11 +104,13 @@ ht-degree: 1%
    >
    >各実行は、実際の送信時間の 12 時間以上前に有効化する必要があります。 そうしないと、セグメント化が完了しない場合があります。 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. キャンペーンの実行が開始されていない場合は、実行を停止できます。<!--why?-->
 
-   キャンペーンの実行が開始されると、 **[!UICONTROL 停止]** ボタンが使用できなくなります。 <!--TBC in UI-->
+   >[!NOTE]
+   >
+   >キャンペーンの実行が開始されると、 **[!UICONTROL 停止]** ボタンが使用できなくなります。 <!--TBC in UI-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -112,9 +118,13 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. 特定の実行から開始する別のキャンペーンを使用する場合は、 **[!UICONTROL 新しいフェーズに分割オプション]** を 3 つのドットアイコンから選択します。 現在のフェーズの残りの実行に対して新しいフェーズが作成されます。 手順に従います。 [上](#define-phases) をクリックして、新しいフェーズを定義します。
+## フェーズの分割 {#split-phase}
 
-   たとえば、このオプションを実行に対して選択した場合、実行を実行#4対#8に移動します。
+特定の実行から開始する別のキャンペーンを使用する場合は、 **[!UICONTROL 新しいフェーズに分割オプション]** を 3 つのドットアイコンから選択します。
+
+現在のフェーズの残りの実行に対して新しいフェーズが作成されます。 手順に従います。 [上](#define-phases) をクリックして、新しいフェーズを定義します。
+
+たとえば、[ 実行 ] にこのオプションを選択す#4、[ 実行 ] から [ 実行 ] に [ 実#4] を選択する#8、新しいフェーズに移動します。
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
