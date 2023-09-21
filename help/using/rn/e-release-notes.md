@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>サンドボックスごとのモバイルアプリケーション資格情報ストレージ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>この新機能を使用すると、プッシュ資格情報を簡単に管理し、アプリサーフェスの専用サンドボックスに関連付けることができます。</p>
+<p>詳しくは、<a href="../in-app/inapp-configuration.md">詳細なドキュメント</a>を参照してください。</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>統合されたチャネルレポート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>チャネルレポート機能を使用すると、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要を、アナリストとマーケターに提供できます。 「レポート」メニューにアクセスするには、**チャネルレポートの表示**権限が必要です。</p>
+<p>チャネルレポート機能を使用すると、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要を、アナリストとマーケターに提供できます。 「レポート」メニューにアクセスするには、「チャネルレポートの表示」権限が必要です。</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -52,7 +67,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出しを一般的に利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。</p>
+<p>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出しを、一般に利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -78,7 +93,7 @@ ht-degree: 38%
 
 **アラート**
 
-新しいタイプのシステムアラートが導入されました。セグメントの読み取りに失敗した場合に通知を受け取れるようになりました。
+* 2 種類の新しいシステムアラートが導入されました。 カスタムアクションまたはセグメントの読み取りに失敗した場合に通知を受け取れるようになりました。
 
 **Web チャネル**
 
@@ -88,9 +103,9 @@ ht-degree: 38%
 
 **ジャーニー**
 
-* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。
+* カスタムアクション応答機能は GA になりました。 これにより、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 さらに、すべての税関アクションをエンドポイントあたり 5,000 呼び出し/秒に制限する新しいガードレールが追加されました。
 * ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。
-
+* 待機アクティビティで定義できる最大期間は、30 日ではなく 29 日になりました。
 
 **メールチャネル**
 
