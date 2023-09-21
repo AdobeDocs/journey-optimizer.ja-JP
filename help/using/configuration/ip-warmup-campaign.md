@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 9%
+source-wordcount: '251'
+ht-degree: 8%
 
 ---
 
@@ -39,11 +39,17 @@ IP ウォームアッププランで使用できるよう、特定のオプシ�
 
 IP ウォームアップキャンペーンを作成するには、次の手順に従います。
 
-1. の作成 [表面](channel-surfaces.md) ウォームアッププランで特定したドメインと IP。<!--how do you identify these or who does it at the customer level?-->
+1. E メールの作成 [表面](channel-surfaces.md) ウォームアッププランで特定したドメインと IP。<!--how do you identify these or who does it at the customer level?-->
+
+   >[!NOTE]
+   >
+   >で E メールサーフェスで使用するドメインと IP を選択する方法を説明します。 [この節](using/email/email-settings.md#subdomains-and-ip-pools).
 
 1. の作成 [campaign](../campaigns/create-campaign.md) をクリックし、 [電子メール](../email/create-email.md#create-email-journey-campaign) アクション。
 
 1. IP ウォームアップ用に作成したサーフェスを選択します。
+
+   ![](assets/ip-warmup-campaign-surface.png)
 
    <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
@@ -53,7 +59,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   キャンペーン [スケジュール](../campaigns/create-campaign.md#schedule) は、関連付ける IP ウォームアッププランによって駆動されます。つまり、スケジュールはキャンペーン自体に定義されなくなります。
+   キャンペーン [スケジュール](../campaigns/create-campaign.md#schedule) それは [IP ウォームアッププラン](ip-warmup-plan.md) これはに関連付けられます。つまり、スケジュールはキャンペーン自体で定義されなくなります。
 
 1. [有効化](../campaigns/review-activate-campaign.md) キャンペーン。 ライブが完了すると、IP ウォームアッププランで使用できる状態になります。
 

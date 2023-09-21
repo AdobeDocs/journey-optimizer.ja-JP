@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 33%
 
 ---
@@ -73,4 +73,4 @@ IP ウォームアップ計画を実装する主な手順は次のとおりで�
 
 1. IP ウォームアッププランを作成し、プランをアップロードします。 [詳細情報](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. プランの各段階を調整し、実行をアクティブにします。 [詳細情報](ip-warmup-running.md)
+1. プランの各フェーズのキャンペーンを選択し、対応する実行を有効化します。 [詳細情報](ip-warmup-running.md)

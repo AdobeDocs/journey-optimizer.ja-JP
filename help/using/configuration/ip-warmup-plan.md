@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '566'
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 5%
 * [IP ウォームアッププランを実行する](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+一度 [1 つ以上のキャンペーンを作成しました](ip-warmup-campaign.md) 専用サーフェスと IP ウォームアップオプションを有効にした状態で、IP ウォームアッププランの作成を開始できます。
 
 ## IP ウォームアッププランへのアクセスと管理 {#manage-ip-warmup-plans}
 
