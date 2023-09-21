@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ ht-degree: 29%
 
 このリリースでは、以下に示す新機能が導入されています。
 
-<table>
-<thead>
-<tr>
-<th><strong>サンドボックスごとのモバイルアプリケーション資格情報ストレージ</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>この新機能を使用すると、プッシュ資格情報を簡単に管理し、アプリサーフェスの専用サンドボックスに関連付けることができます。</p>
-<p>詳しくは、<a href="../in-app/inapp-configuration.md">詳細なドキュメント</a>を参照してください。</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ ht-degree: 29%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>サンドボックスごとのモバイルアプリケーション資格情報ストレージ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>この新機能を使用すると、プッシュ資格情報を簡単に管理し、アプリサーフェスの専用サンドボックスに関連付けることができます。</p>
+<p>詳しくは、 <a href="../in-app/inapp-configuration.md">詳細なドキュメント</a>を参照してください。</p>
+</tr>
+</tbody>
+</table>
 
 ### 機能強化 {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ ht-degree: 29%
 **オーディエンス**
 
 * CSV ファイルからジャーニーやキャンペーンにアップロードされたオーディエンスをターゲットに設定できるようになりました。
-* ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * 構成ワークフローからジャーニーに至るオーディエンスをターゲット設定できるようになりました。
 
 **パーソナライゼーション**
@@ -111,6 +111,6 @@ ht-degree: 29%
 
 E メールのサーフェス設定の新しいオプションにより、E メールアドレスがAdobe Journey Optimizer抑制リストに含まれている場合でも、プロファイルにトランザクションメッセージを送信することを選択できます。
 
-**意思決定管理**
+<!--**Decision management**
 
-ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
