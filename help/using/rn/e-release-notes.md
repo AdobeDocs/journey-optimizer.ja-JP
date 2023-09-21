@@ -5,7 +5,7 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
+source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 38%
@@ -46,7 +46,7 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
-<th><strong>データセット書き出し生成 (GA)</strong><br/></th>
+<th><strong>データセット書き出し先 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
