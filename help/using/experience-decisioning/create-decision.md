@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 11%
 
 ---
@@ -182,11 +182,11 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
 ## コードエディターでの決定ポリシーの使用 {#use-decision-policy}
 
-作成した判定ポリシーは、 [コードエディター](../code-based/create-code-based.md#edit-code). これを行うには、以下の手順に従います。
+作成した判定ポリシーは、 [式エディター](../code-based/create-code-based.md#edit-code). これを行うには、以下の手順に従います。
 
 >[!NOTE]
 >
->コードエディターは、 [!DNL Journey Optimizer] 式エディターには、パーソナライゼーションおよびオーサリング機能がすべて含まれています。 [詳細情報](../personalization/personalization-build-expressions.md)
+>コードベースのエクスペリエンスでは、 [!DNL Journey Optimizer] 式エディターには、パーソナライゼーションおよびオーサリング機能がすべて含まれています。 [詳細情報](../personalization/personalization-build-expressions.md)
 
 1. 「+」アイコンをクリックします。 決定ポリシーに対応するコードが追加されます。 これで、必要なすべての決定属性をそのコード内に追加できます。
 
@@ -198,7 +198,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
 1. 決定ポリシーをクリックします。 決定属性が表示されます。
 
-   これらの属性は、 **[!UICONTROL オファー]** カタログのスキーマ。 カスタム属性は、 **_cjmstage** フォルダー属性と標準属性 **_experience** フォルダー。 [オファーカタログのスキーマの詳細を説明します](catalogs.md)
+   これらの属性は、 **[!UICONTROL オファー]** カタログのスキーマ。 カスタム属性は、 **`_<imsOrg`>** フォルダー属性と標準属性 **`_experience`** フォルダー。 [オファーカタログのスキーマの詳細を説明します](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

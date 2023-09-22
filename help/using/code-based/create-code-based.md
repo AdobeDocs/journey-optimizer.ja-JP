@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1009'
 ht-degree: 26%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 26%
    >
    >キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
-1. 必要に応じて、 [コードベースのエディター](#edit-code).
+1. 式エディターを使用して、必要に応じてコンテンツを編集します。 [詳細情報](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
