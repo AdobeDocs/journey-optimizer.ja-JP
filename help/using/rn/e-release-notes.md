@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
+source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 24%
+source-wordcount: '586'
+ht-degree: 23%
 
 ---
 
@@ -113,6 +113,10 @@ ht-degree: 24%
 **メールチャネル**
 
 E メールのサーフェス設定の新しいオプションにより、E メールアドレスがAdobe Journey Optimizer抑制リストに含まれている場合でも、プロファイルにトランザクションメッセージを送信することを選択できます。
+
+**SMS チャネル**
+
+2 つの新しいフィールド **オプトインメッセージ** および **ヘルプメッセージ**&#x200B;を API 設定画面に追加し、ユーザーがインバウンドキーワードの応答をカスタマイズできるようにしました。 これは、Sinch SMS プロバイダーでのみ使用できます。
 
 **レポート**
 
