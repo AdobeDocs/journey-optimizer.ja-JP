@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 14b6ea7d0bf460cdab865f21977ab4bbe789ef7c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 6%
@@ -66,5 +66,3 @@ Experience Decisioning を操作する主な手順は次のとおりです。
 1. **選択戦略を作成**：コレクション、決定ルール、ランキングメソッドを活用して、プロファイルへの表示に適した決定項目を識別する選択戦略を構築します。
 
 1. **コードベースのキャンペーンに決定ポリシーを埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
-
-<!--## Glossary-->
