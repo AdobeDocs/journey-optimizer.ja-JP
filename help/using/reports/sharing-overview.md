@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '475'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->リアルタイムプロファイルサービスの場合は、データセットを有効にできません。**[!UICONTROL プロファイル]**&#x200B;の切り替えがオフになっていることを確認してください。
+>リアルタイムプロファイルサービスでデータセットを有効にすることはできません。 **[!UICONTROL プロファイル]**&#x200B;の切り替えがオフになっていることを確認してください。
 
 [!DNL Journey Optimizer] は、発生時にストリーミング方式でデータを送信します。このデータは、クエリサービスを使用してクエリできます。Customer Journey Analytics またはその他の BI ツールに接続して、これらのステップに関連するデータを表示できます。
 
