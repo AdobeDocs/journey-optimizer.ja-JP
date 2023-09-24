@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 95%
 
 ---
 
@@ -79,13 +79,44 @@ ht-degree: 100%
 
 キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
+## Web キャンペーンのテスト {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Web エクスペリエンスのプレビュー"
+>abstract="Web エクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
+
+一度 [web エクスペリエンスを作成しました](edit-web-content.md) web デザイナーを使用すると、キャンペーンをアクティブ化する前に、変更された web ページのプレビューを表示できます。 これを行うには、以下の手順に従います。
+
+>[!CAUTION]
+>
+>どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
+
+1. Web キャンペーンのコンテンツ編集画面または Web デザイナーから、 **[!UICONTROL コンテンツをシミュレート]**.
+
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
+
+1. 「**[!UICONTROL テストプロファイルを管理]**」をクリックして、1 つ以上のテストプロファイルを選択します。
+1. 変更した web ページのプレビューが表示されます。
+
+   ![](assets/web-designer-preview.png)
+
+1. また、デフォルトのブラウザーで開くことも、テスト URL をコピーして任意のブラウザーに貼り付けることもできます。これにより、キャンペーンの実施前に任意のブラウザーで新しい web エクスペリエンスをプレビューできるチームや関係者とリンクを共有できます。
+
+   >[!NOTE]
+   >
+   >テスト URL をコピーする際に表示されるコンテンツは、コンテンツのシミュレーションが [!DNL Journey Optimizer] で生成されるときにテストプロファイル用にパーソナライズされます。
+
 ## Web キャンペーンのアクティブ化 {#activate-web-campaign}
 
-[Web キャンペーンの設定](#configure-web-campaign)を定義し、[web デザイナー](author-web.md)を使用して必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。次の手順に従います。
+[Web キャンペーンの設定](#configure-web-campaign)を定義し、[web デザイナー](edit-web-content.md#work-with-web-designer)を使用して必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。次の手順に従います。
 
+<!--
 >[!NOTE]
 >
->アクティブ化する前に web キャンペーンのコンテンツをプレビューすることもできます。[詳細情報](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. Web キャンペーンから、「**[!UICONTROL アクティブ化するレビュー]**」を選択します。
 
