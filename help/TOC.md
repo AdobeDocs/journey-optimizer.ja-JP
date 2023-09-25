@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 95%
+source-wordcount: '1502'
+ht-degree: 94%
 
 ---
 
@@ -233,7 +233,10 @@ ht-degree: 95%
    + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
    + [Web チャネルの前提条件](using/web/web-prerequisites.md)
    + [Web エクスペリエンスの作成](using/web/create-web.md)
-   + [Web ページの作成](using/web/author-web.md)
+   + Web ページの作成 {#author-web-pages}
+      + [Web ページコンテンツの編集](using/web/edit-web-content.md)
+      + [変更の管理](using/web/manage-web-modifications.md)
+      + [Web キャンペーンの監視](using/web/monitor-web-campaigns.md)
    + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースのチャネルを使い始める](using/code-based/get-started-code-based.md)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -47,11 +47,11 @@ Web キャンペーンを作成する詳細な手順については、[こちら
 </div>
 <p></td>
 <td>
-<a href="author-web.md">
+<a href="edit-web-content.md">
 <img alt="検証" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="author-web.md"><strong>Web ページの作成</strong></a>
+<a href="edit-web-content.md"><strong>Web ページの作成</strong></a>
 </div>
 <p>
 </td>
