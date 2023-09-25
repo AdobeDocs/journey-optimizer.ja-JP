@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 8%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -35,15 +35,17 @@ ht-degree: 8%
 
 >[!ENDSHADEBOX]
 
-IP ウォームアッププランで使用できるよう、特定のオプションを有効にした 1 つ以上のキャンペーンを作成する必要があります。
+IP ウォームアッププランを作成する前に、 [!DNL Journey Optimizer]を使用する場合、まず、専用のオプションを有効にして 1 つ以上のキャンペーンを作成し、IP ウォームアッププランで使用できるようにする必要があります。
 
 IP ウォームアップキャンペーンを作成するには、次の手順に従います。
 
-1. E メールの作成 [表面](channel-surfaces.md) ウォームアッププランで特定したドメインと IP。<!--how do you identify these or who does it at the customer level?-->
+1. の作成 [電子メール](../email/email-settings.md) チャネル [表面](channel-surfaces.md) ウォームアッププランで特定したドメインと IP。
 
    >[!NOTE]
    >
    >で E メールサーフェスで使用するドメインと IP を選択する方法を説明します。 [この節](../email/email-settings.md#subdomains-and-ip-pools).
+   >
+   >必要に応じて、配信品質コンサルタントと協力して、IP ウォームアッププランに使用するドメインと IP を特定します。<!--TBC-->
 
 1. の作成 [campaign](../campaigns/create-campaign.md) をクリックし、 [電子メール](../email/create-email.md#create-email-journey-campaign) アクション。
 
@@ -59,15 +61,25 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   キャンペーン [スケジュール](../campaigns/create-campaign.md#schedule) それは [IP ウォームアッププラン](ip-warmup-plan.md) これはに関連付けられます。つまり、スケジュールはキャンペーン自体で定義されなくなります。
+   キャンペーン [スケジュール](../campaigns/create-campaign.md#schedule) が、関連付けられる IP ウォームアッププランによって駆動されます。つまり、スケジュールはキャンペーン自体で定義されなくなります。
 
-1. [有効化](../campaigns/review-activate-campaign.md) キャンペーン。 ライブが完了すると、IP ウォームアッププランで使用できる状態になります。
+1. キャンペーンプロパティの定義など、E メールキャンペーンを作成する手順を実行します。 [audience](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->、および [コンテンツ](../email/get-started-email-design.md#key-steps).
 
->[!NOTE]
->
->IP ウォームアッププランが有効化されたライブキャンペーンの場合、 **[!UICONTROL 削除]** ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。
+   >[!NOTE]
+   >
+   >キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
-キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
+1. [有効化](../campaigns/review-activate-campaign.md) キャンペーン。
+
+   >[!NOTE]
+   >
+   >IP ウォームアッププランが有効化されたライブキャンペーンの場合、 **[!UICONTROL 削除]** ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。 IP ウォームアッププランで使用すると、キャンペーンは削除できなくなります。
+
+1. キャンペーンが **[!UICONTROL キャンペーン]** リスト。 現在のサンドボックスで作成されたすべての IP ウォームアップキャンペーンを簡単に取得するには、キャンペーンオプションでフィルタリングします **[!UICONTROL IP ウォームアップ]**.
+
+   ![](assets/ip-warmup-campaign-filter.png)
+
+ライブが完了すると、キャンペーンは IP ウォームアッププランで使用できる状態になります。 [詳細情報](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 

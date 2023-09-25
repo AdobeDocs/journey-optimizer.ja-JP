@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,12 @@ ht-degree: 1%
 * **[IP ウォームアッププランを実行する](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+一度 [IP ウォームアッププランを作成しました](ip-warmup-plan.md) および配信品質コンサルタントと共に準備されたファイルをアップロードした場合は、プランのフェーズと実行を定義できます。
+
+各フェーズは、1 つのキャンペーンを割り当てる、複数の実行で構成される期間に対応します。
+
+実行ごとに、一定数の受信者が存在し、その実行を実行するタイミングをスケジュールします。
 
 ## フェーズを定義する {#define-phases}
 
@@ -96,7 +102,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 終了時間を選択します。この時間では、オーディエンスセグメントジョブの実行に遅延が生じた場合に備えて、IP ウォームアップキャンペーンを実行できる期間を定義します。 終了時間を指定しない場合は、開始時に実行が試行され、セグメント化が完了しなかった場合は失敗します。
+1. オーディエンスセグメントジョブの実行に遅延が生じた場合に備えて、IP ウォームアップキャンペーンを実行できる期間を選択します。 終了時間を指定しない場合は、開始時に実行が試行され、セグメント化が完了しなかった場合は失敗します。
 
 1. 各実行をアクティブ化します。 セグメント化ジョブを実行できるように、十分な早い時間をスケジュールしてください。 <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## プランの監視
+## プランを完了済みとしてマーク {#mark-as-completed}
 
-実行には、次のステータスがあります<!--TBC with Medha-->:
+プランのパフォーマンスが不十分な場合や、プランをドロップして別のプランを作成する場合は、完了とマークできます。
 
-* **[!UICONTROL 完了]**:
-* **[!UICONTROL 失敗]**:
-* **[!UICONTROL キャンセル]**：キャンペーンの実行が開始する前に実行を停止しました。
+これをおこなうには、 **[!UICONTROL その他]** IP ウォームアッププランの右上にあるボタンをクリックし、 **[!UICONTROL 完了済みとしてマーク]**.
 
-メリット :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* 現在も、同様の機能を備えたレポートがキャンペーンレベルで引き続き表示されます。 しかし、IP ウォームアップ計画は、実行回数などの 1 か所で統合レポートとしても機能します。
+このオプションは、プラン内のすべての実行が **[!UICONTROL 成功]** または **[!UICONTROL ドラフト]** ステータス。 実行できません **[!UICONTROL ライブ]**.
 
-* IP ウォーミングの進行状況を 1 か所で管理および表示できます。
+様々な実行ステータスについては、 [この節](#monitor-plan).
 
-* クリエイティブ/キャンペーンレベルでの統合レポート（フェーズの実行時）
+## プランの監視 {#monitor-plan}
+
+プランの影響を測定するには、レポートを使用して IP ウォームアップキャンペーンのパフォーマンスを確認します。 キャンペーン E メールの詳細を表示 [ライブレポート](../reports/campaign-live-report.md#email-live) および [グローバルレポート](../reports/campaign-global-report.md##email-global).
+
+IP 暖機プラン自体も、1 か所で統合レポートとして機能します。 次の数のような要素を確認できます。 **[!UICONTROL ライブ]** または **[!UICONTROL 成功]** は各フェーズで実行され、IP ウォームアップ計画の進行状況を確認します。
+
+実行には、次のステータスがあります。
+
+* **[!UICONTROL ドラフト]** ：実行が作成されたときは常に、 [新しいプランのアップロード](ip-warmup-plan.md) または [実行の追加](#define-runs) ユーザーインターフェイスから、 **[!UICONTROL ドラフト]** ステータス。
+* **[!UICONTROL ライブ]**：実行をアクティブ化するたびに、実行が必要になります **[!UICONTROL ライブ]** ステータス。
+* **[!UICONTROL 成功]**<!--TBC-->：この実行のキャンペーンの実行が完了しました。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL キャンセル]**: a **[!UICONTROL ライブ]** を使用して実行がキャンセルされました **[!UICONTROL 停止]** 」ボタンをクリックします。 このボタンは、キャンペーンの実行が開始されていない場合にのみ使用できます。 [詳細情報](#define-runs)
+* **[!UICONTROL 失敗]**：システムでエラーが発生したか、現在のフェーズで使用されているキャンペーンが停止しました<!--what should the user do in that case?-->.

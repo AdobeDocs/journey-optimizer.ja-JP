@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP、プール、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 33%
+source-wordcount: '293'
+ht-degree: 32%
 
 ---
 
@@ -71,6 +71,6 @@ IP ウォームアップ計画を実装する主な手順は次のとおりで�
 
 1. 最初に、IP ウォームアップオプションを有効にして、1 つ以上のキャンペーンを作成する必要があります。 [詳細情報](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. IP ウォームアッププランを作成し、プランをアップロードします。 [詳細情報](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. で IP ウォームアッププランを作成する [!DNL Journey Optimizer] お使いの IP ウォームアップデータが入力された Excel シートをアップロードします。 [詳細情報](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. プランの各フェーズのキャンペーンを選択し、対応する実行を有効化します。 [詳細情報](ip-warmup-running.md)
