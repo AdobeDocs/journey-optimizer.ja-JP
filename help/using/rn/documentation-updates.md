@@ -4,9 +4,9 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
+source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
 workflow-type: tm+mt
-source-wordcount: '3597'
+source-wordcount: '3596'
 ht-degree: 92%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
 
-## 2023年9月（#september-2023）
+## 2023年9月 {#september-2023}
 
 * 決定ルールを作成する際に考慮すべき制限のリストを決定管理ドキュメントに追加しました。[詳細情報](../offers/offer-library/creating-decision-rules.md)
 
@@ -54,7 +54,7 @@ ht-degree: 92%
 
 * [!DNL Journey Optimizer] の 2023年5月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * Web エクスペリエンスで Adobe Experience Manager Assets Essentials からのコンテンツの公開に使用するサブドメインの設定方法を説明する新しいページが追加されました。[詳細情報](../web/web-delegated-subdomains.md)
-* メールデザイナーで URL にパーソナライズされたトラッキングパラメーターを追加する方法を説明する新しい節が追加されました。[詳細情報](../email/message-tracking.md#url-tracking)
+* E メールデザイナーで URL にパーソナライズされたトラッキングパラメーターを追加する方法を説明する新しい節が追加されました。[詳細情報](../email/message-tracking.md#url-tracking)
 * パーソナライゼーションに使用するプロファイルデータをオプトアウトする顧客の選択を確実に行う方法を説明する新しい節が追加されました。[詳細情報](../privacy/opt-out.md#opt-out-personalization)
 * メールコンテンツに含まれる URL での特殊な国際文字の使用に関するメモが追加されました。[詳細情報](../email/message-tracking.md#insert-links)
 * ランディングページのテストと公開に必要な権限が追加されました。[詳細情報](../landing-pages/create-lp.md)
@@ -286,7 +286,7 @@ ht-degree: 92%
 *  [!DNL Journey Optimizer] の 8 月 21 日リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * 意思決定管理権限を更新しました。
 [詳細情報](../administration/ootb-product-profiles.md)
-* 電子メールデザイナーのスクリーンショットに最新の UI を反映しました。
+* E メールデザイナーのスクリーンショットに最新の UI を反映しました。
 * カスタムアクションの設定手順に動的 URL パスと動的ヘッダーを反映しました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 * アクセシビリティ機能とショートカットに関する節を追加しました。[詳細情報](../start/user-interface.md#accessibility)
 * オーディエンス評価方法に関する節を追加しました。[詳細情報](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
