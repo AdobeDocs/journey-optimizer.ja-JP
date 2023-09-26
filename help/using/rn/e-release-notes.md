@@ -5,7 +5,7 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
+source-git-commit: 75a03fbd6a369d9b8f75db819cfa995257eaf77f
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 21%
@@ -85,8 +85,9 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>計算済み属性を使用すると、直感的なユーザーインターフェイスでイベントデータを簡単にプロファイル属性に要約し、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算済み属性をセルフサービス方式で作成し、管理し、セグメント化、リアルタイム顧客プロファイルの宛先、またはJourney Optimizerで使用できます。 <br/>
+<p>計算済み属性を使用すると、直感的なユーザーインターフェイスでイベントデータを簡単にプロファイル属性に要約し、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算済み属性をセルフサービス方式で作成し、管理し、セグメント化、リアルタイム顧客プロファイルの宛先、またはJourney Optimizerで使用できます。<br/><br/>
 さらに、計算済み属性を使用すると、セグメント化とジャーニーワークフローが簡素化され、関連性の高いエクスペリエンスをシームレスに配信できます。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">詳細なドキュメント</a>.</p>
+<img src="assets/computed-attributes.png">
 </tr>
 </tbody>
 </table>
