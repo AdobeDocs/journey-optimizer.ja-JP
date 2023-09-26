@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0564971b18932d311d44a31a0b3acafa467e809
+source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
 workflow-type: tm+mt
-source-wordcount: '3976'
-ht-degree: 88%
+source-wordcount: '4024'
+ht-degree: 87%
 
 ---
 
@@ -30,6 +30,23 @@ ht-degree: 88%
 ### 新機能{#sept-2023-features}
 
 このリリースでは、以下に示す新機能が導入されています。
+
+<table>
+<thead>
+<tr>
+<th><strong>計算済み属性</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>計算済み属性を使用すると、直感的なユーザーインターフェイスでイベントデータを簡単にプロファイル属性に要約し、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算済み属性をセルフサービス方式で作成し、管理し、セグメント化、リアルタイム顧客プロファイルの宛先、またはJourney Optimizerで使用できます。<br/><br/>
+さらに、計算済み属性を使用すると、セグメント化とジャーニーワークフローが簡素化され、関連性の高いエクスペリエンスをシームレスに配信できます。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">詳細なドキュメント</a>.</p>
+<img src="assets/computed-attributes.png">
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -92,7 +109,6 @@ ht-degree: 88%
 **パーソナライゼーション**
 
 * ビジュアルフラグメントに加えて、式エディターを使用して、Journey Optimizerインターフェイスから式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。
-* Journey Optimizerで、パーソナライゼーションにAdobe Experience Platformの計算済み属性を使用できるようになりました。 計算済み属性は、Adobe Experience Platformに取り込まれたプロファイル対応のエクスペリエンスイベントデータセットに基づいて計算される集計値です。
 
 **アラート**
 
