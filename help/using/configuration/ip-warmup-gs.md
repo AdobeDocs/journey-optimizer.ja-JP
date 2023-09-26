@@ -7,13 +7,13 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP、プール、グループ、サブドメイン、配信品質
+keywords: IP、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 32%
+source-wordcount: '295'
+ht-degree: 31%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 32%
 * **[IP ウォームアップの概要](ip-warmup-gs.md)**
 * [IP ウォームアップキャンペーンを作成](ip-warmup-campaign.md)
 * [IP ウォームアッププランを作成する](ip-warmup-plan.md)
-* [IP ウォームアッププランを実行する](ip-warmup-running.md)
+* [IP ウォームアッププランを実行します。](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 32%
 
 新しいプラットフォームを使用してメールが送信された場合、インターネットサービスプロバイダー（ISP）は認識されない IP アドレスを疑わしく思います。多くの場合、大量のメールが突然送信されると、ISP はそれらのメールをスパムとしてマークします。
 
-IP ウォームアッププラン機能を使用すると、スパムとしてマークされないように、送信されるボリュームを徐々に増やすことができます。 新しいオプション **[!UICONTROL 管理]** メニューを使用すると、複雑な日次ジャーニーを作成する代わりに、よりスムーズに実行できます。 この方法により、スタートアップフェーズをスムーズに進め、無効なアドレスが全体に占める割合を減らすことができます。
+IP ウォームアッププラン機能を使用すると、送信するボリュームを徐々に増やすことができ、スパムとしてマークされないようにできます。 この新しいオプションは、 **[!UICONTROL 管理]** メニューを使用すると、複雑な日次ジャーニーを作成する代わりに、統合された方法でより簡単に実行できます。 この方法により、スタートアップフェーズをスムーズに進め、無効なアドレスが全体に占める割合を減らすことができます。
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 IP ウォームアップ計画を実装する主な手順は次のとおりです。
 
-1. 最初に、IP ウォームアップオプションを有効にして、1 つ以上のキャンペーンを作成する必要があります。 [詳細情報](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. 最初に、IP ウォームアップオプションを有効にして、1 つ以上のキャンペーンを作成する必要があります。 [詳細情報](ip-warmup-campaign.md)
 
-1. で IP ウォームアッププランを作成する [!DNL Journey Optimizer] お使いの IP ウォームアップデータが入力された Excel シートをアップロードします。 [詳細情報](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. で IP ウォームアッププランを作成する [!DNL Journey Optimizer] および配信品質コンサルタントの支援を得て作成した Excel シートをアップロードします。 [詳細情報](ip-warmup-plan.md)
 
-1. プランの各フェーズのキャンペーンを選択し、対応する実行を有効化します。 [詳細情報](ip-warmup-running.md)
+1. プランの各フェーズのキャンペーンを選択し、対応する実行を有効化します。 [詳細情報](ip-warmup-execution.md)

@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: IP ウォームアッププランを作成する
-description: IP ウォームアッププランの作成方法を学ぶ
+description: Journey Optimizerで IP ウォームアッププランを作成する方法を説明します。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP、プール、グループ、サブドメイン、配信品質
+keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '825'
 ht-degree: 5%
 
 ---
@@ -26,15 +26,19 @@ ht-degree: 5%
 * [IP ウォームアップの概要](ip-warmup-gs.md)
 * [IP ウォームアップキャンペーンを作成](ip-warmup-campaign.md)
 * **[IP ウォームアッププランを作成する](ip-warmup-plan.md)**
-* [IP ウォームアッププランを実行する](ip-warmup-running.md)
+* [IP ウォームアッププランを実行します。](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
 1 つ以上の [IP ウォームアップキャンペーン](ip-warmup-campaign.md) 専用のサーフェスと対応するオプションを有効にした状態で、IP ウォームアッププランの作成を開始できます。
 
-## IP ウォームアップテンプレートを入力します。 {#upload-plan}
+## IP ウォームアッププランファイルを準備する {#prepare-file}
 
-Journey Optimizerインターフェイスで IP ウォームアッププランを作成する前に、プランに入力するすべてのデータを Excel 形式でテンプレートに入力する必要があります。
+IP ウォームアップは、正当な送信者としての評判を確立するために、IP およびドメインから主要なインターネットサービスプロバイダー (ISP) に送られる E メールの量を徐々に増やすことで構成されるアクティビティです。
+
+このアクティビティは、配信品質の専門家の助けを借りて、業界ドメイン、使用例、地域、ISP、その他の様々な要因に基づいて適切に検討されたプランを準備するのに役立ちます。
+
+を操作する場合、 [!DNL Journey Optimizer] IP ウォームアップ機能を使用すると、このプランでは、定義済みの列を多数含む Excel ファイルの形式を使用する必要があります。 IP ウォームアッププランを [!DNL Journey Optimizer] インターフェイスでは、プランに入力するすべてのデータをこのテンプレートに入力する必要があります。
 
 >[!CAUTION]
 >
@@ -46,19 +50,16 @@ Journey Optimizerインターフェイスで IP ウォームアッププラン�
 
 ### [IP ウォームアッププラン ] タブ
 
-IP ウォームアップは、正当な送信者としての評判を確立するために、IP およびドメインからメインのインターネットサービスプロバイダー (ISP) に送られる E メールの量を徐々に増やすことで構成されるアクティビティです。
+* この例では、17 日間にわたる計画 (「**実行**「)」をクリックして、100 万を超えるプロファイルのターゲットボリュームに到達します。
 
-このアクティビティは、業界ドメイン、使用例、地域、ISP、その他の様々な要因に基づいて適切に計画を立てる、配信品質コンサルタントまたはエキスパートの助けを借りて、通常実行されます。
+* この計画は 6 日までに実行されます **フェーズ**（それぞれに少なくとも 1 回の実行が含まれる）
 
-* この例では、17 日間にわたる計画を準備し、ターゲットボリュームの xxx プロファイルに到達するようにしています。
+* 配信先のドメインに対して、必要な数の列を設定できます。 この例では、計画は 6 つの列に分割されます。そのうち 5 つは **メインドメイングループ** を使用して、プラン (Gmail、Microsoft、Yahoo、Orange およびApple) と 6 列目を使用します。 **その他**&#x200B;には、他のドメインの残りのすべてのアドレスが含まれます。
+* The **エンゲージメント日数** 「 」列には、過去 30 日間にブランドと関与したプロファイルのみがターゲットになっていることが示されます。
 
-* この計画は、6 つのフェーズを経て実行されます。
+このアイデアでは、各フェーズの実行数を減らしながら、各実行でターゲットアドレスの数を徐々に増やします。
 
-* 配信先のドメインに対して、必要な数の列を設定できます。 この例では、プランは、プランで使用するドメイングループに対応する 4 つの列 (Gmail、Adobe、Yahoo、その他 ) に分割されます。
-
-最初の段階で実行を増やし、実行数を減らしながら、ターゲットアドレスの数を徐々に増やすことをお勧めします。
-
-標準ドメインのリストを次に示します。
+プランに追加できる標準のメインドメイングループを次に示します。
 
 * Gmail
 * Adobe
@@ -78,9 +79,11 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
 ### 「カスタムドメイングループ」タブ
 
-また、カスタムドメイングループでさらに列を追加することもできます。
+また、カスタムドメイングループを含めることで、プランに列を追加することもできます。
 
-以下を使用します。 **[!UICONTROL カスタムドメイングループ]** 「 」タブを使用して新しいドメインを定義し、各ドメインに対して、対象となるすべてのサブドメインを追加できます。<!--TBC-->
+以下を使用します。 **[!UICONTROL カスタムドメイングループ]** タブをクリックして、新しいドメイングループを定義します。 各ドメインに対して、対象となるすべてのサブドメインを追加できます。<!--TBC-->
+
+例えば、カスタムドメイン Luma を追加する場合、luma.com、luma.co.uk、luma.it、luma.fr、luma.de などのサブドメインを含めます。
 
 ## IP ウォームアッププランへのアクセスと管理 {#manage-ip-warmup-plans}
 
@@ -90,12 +93,12 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
 1. ステータスに基づいてフィルタリングできます。 様々なステータスを次に示します。
 
-   * **未開始**：実行はまだアクティブ化されていません。 [詳細情報](ip-warmup-running.md#define-runs)
-   * **処理中/ライブ**：プランは、最初のフェーズの最初の実行が正常にアクティブ化されるとすぐに、このステータスを取ります。 [詳細情報](ip-warmup-running.md#define-runs)
-   * **完了**：プランは完了とマークされています。 このオプションは、プラン内のすべての実行が **[!UICONTROL 成功]** または **[!UICONTROL ドラフト]** ステータス（実行不可） **[!UICONTROL ライブ]**) をクリックします。 [詳細情報](ip-warmup-running.md#define-runs#mark-as-completed)
-   * **一時停止**<!--: to check (user action)-->
+   * **未開始**：実行はまだアクティブ化されていません。 [詳細情報](ip-warmup-execution.md#define-runs)
+   * **ライブ**：第 1 段階の最初の実行が正常にアクティブ化されると、プランは直ちにこのステータスに変わります。 [詳細情報](ip-warmup-execution.md#define-runs)
+   * **完了**：プランは完了とマークされています。 このオプションは、プラン内のすべての実行が **[!UICONTROL 成功]** または **[!UICONTROL ドラフト]** ステータス（実行不可） **[!UICONTROL ライブ]**) をクリックします。 [詳細情報](ip-warmup-execution.md#define-runs#mark-as-completed)
+     <!--* **Paused**: to check (user action)-->
 
-1. IP ウォームアッププランを削除するには、 **[!UICONTROL 削除]** リスト項目の横にあるアイコンをクリックし、削除を確定します。
+1. IP ウォームアッププランを削除するには、 **[!UICONTROL 削除]** プラン名の横にあるアイコンをクリックし、削除を確定します。
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -122,8 +125,6 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 >[!CAUTION]
 >
 >IP ウォームアッププランを作成、編集、削除するには、 **[!UICONTROL 配信品質コンサルタント]** 権限。 <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
->
->配信品質コンサルタントと協力して、IP ウォームアッププランテンプレートが正しく設定されていることを確認します。 <!--TBC-->
 
 1. 次にアクセス： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL IP 暖機プラン]** メニュー、次に「 **[!UICONTROL IP ウォームアッププランを作成]**.
 
@@ -137,24 +138,15 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
    >[!CAUTION]
    >
-   >IP ウォームアッププランに関連付けるキャンペーンで選択したサーフェスと同じサーフェスを選択する必要があります。 [IP ウォームアップキャンペーンの作成方法を説明します](#create-ip-warmup-campaign)
+   >IP ウォームアッププランに関連付けるキャンペーンで選択したサーフェスと同じサーフェスを選択する必要があります。 [IP ウォームアップキャンペーンの作成方法を説明します](ip-warmup-campaign.md)
 
-1. IP ウォームアッププランを含む Excel ファイルをアップロードします<!--which formats are allowed?-->. 配信品質チームが提供するテンプレートを使用できます。<!--TBC?--> [詳細情報](#upload-plan)
+1. IP ウォームアッププランを含む Excel ファイルをアップロードします。 [詳細情報](#prepare-file)
+
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
 
    ![](assets/ip-warmup-upload-success.png)
 
-1. 「**[!UICONTROL 作成]**」をクリックします。アップロードしたファイルで定義されたフェーズの数が自動的に表示され、各フェーズのすべての実行が表示されます。 [詳細情報](#upload-plan)
+1. 「**[!UICONTROL 作成]**」をクリックします。アップロードしたファイルに定義されているすべてのフェーズ、実行、列、およびその内容は、自動的に [!DNL Journey Optimizer] インターフェイス。 [詳細情報](ip-warmup-execution.md)
 
-   ![](assets/ip-warmup-plan-phases.png)
-
-## IP ウォームアッププランを再度アップロード {#re-upload-plan}
-
-対応するボタンを使用して、別の IP ウォームアッププランを再度アップロードできます。
-
-![](assets/ip-warmup-re-upload-plan.png)
-
->[!NOTE]
->
->IP ウォームアッププランの詳細は、新しくアップロードされたファイルに従って変更されます。 実行の完了とアクティブ化された実行は影響を受けません。
+   ![](assets/ip-warmup-plan-uploaded.png)

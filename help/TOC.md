@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 94%
@@ -466,7 +466,7 @@ ht-degree: 94%
       + [IP ウォームアッププランの概要](using/configuration/ip-warmup-gs.md)
       + [IP ウォームアップキャンペーンを作成](using/configuration/ip-warmup-campaign.md)
       + [IP ウォームアッププランを作成する](using/configuration/ip-warmup-plan.md)
-      + [IP ウォームアッププランを実行する](using/configuration/ip-warmup-running.md)
+      + [IP ウォームアッププランを実行する](using/configuration/ip-warmup-execution.md)
    + メールアドレスの監視 {#monitor-reputation}
       + [抑制リスト](using/configuration/manage-suppression-list.md)
       + [再試行](using/configuration/retries.md)
