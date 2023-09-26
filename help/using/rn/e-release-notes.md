@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
+source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 23%
+source-wordcount: '634'
+ht-degree: 21%
 
 ---
 
@@ -71,10 +71,26 @@ ht-degree: 23%
 <tr>
 <td>
 <p>この新機能を使用すると、プッシュ資格情報を簡単に管理し、アプリサーフェスの専用サンドボックスに関連付けることができます。</p>
-<p>詳しくは、 <a href="../in-app/inapp-configuration.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../in-app/inapp-configuration.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>計算済み属性</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>計算済み属性を使用すると、直感的なユーザーインターフェイスでイベントデータを簡単にプロファイル属性に要約し、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算済み属性をセルフサービス方式で作成し、管理し、セグメント化、リアルタイム顧客プロファイルの宛先、またはJourney Optimizerで使用できます。 <br/>
+さらに、計算済み属性を使用すると、セグメント化とジャーニーワークフローが簡素化され、関連性の高いエクスペリエンスをシームレスに配信できます。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">詳細なドキュメント</a>.</p>
+</tr>
+</tbody>
+</table>
+
 
 ### 機能強化 {#sept-2023-improvements}
 
@@ -88,7 +104,6 @@ ht-degree: 23%
 **パーソナライゼーション**
 
 * ビジュアルフラグメントに加えて、式エディターを使用して、Journey Optimizerインターフェイスから式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。
-* Journey Optimizerで、パーソナライゼーションにAdobe Experience Platformの計算済み属性を使用できるようになりました。 計算済み属性は、Adobe Experience Platformに取り込まれたプロファイル対応のエクスペリエンスイベントデータセットに基づいて計算される集計値です。
 
 **アラート**
 
@@ -96,7 +111,7 @@ ht-degree: 23%
 
 **Web チャネル**
 
-* Web デザイナーのビジュアルエディターで単一ページアプリケーション (SPA) を作成できるようになりました。 Web ページの変更を適用する特定のビューを選択できるようになりました。 ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。 Adobe Experience Platform Web SDK 実装でビューを定義するには、開発者の 1 回限りの設定が必要です。これにより、マーケターはSPA上でAdobe Journey Optimizer Web キャンペーンを作成し、実行できます。
+* Web デザイナーのビジュアルエディターで単一ページアプリケーション (SPA) を作成できるようになりました。これにより、Web ページの変更を適用する特定のビューを選択できます。 ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。 SPAでAdobe Journey Optimizer Web キャンペーンを作成して実行するには、Adobe Experience Platform Web SDK 実装でビューを定義するために、開発者の 1 回限りの設定が必要です。
 
 * Web デザイナーを使用してページを編集する際、 **変更** パネル — コンポーネントを選択して designer インターフェイスから編集する必要はありません。
 * Web サブドメインを設定する際、既にAdobeにデリゲートされたサブドメインを使用する以外に、独自のサブドメインを追加するオプションが追加できるようになりました。
