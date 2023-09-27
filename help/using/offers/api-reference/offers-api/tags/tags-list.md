@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
+source-git-commit: 57671f18d216209fb738fed34bc6b03051893b9f
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 55%
+source-wordcount: '246'
+ht-degree: 54%
 
 ---
 
@@ -52,7 +52,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags?limit=2' \
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `property` | オプションのプロパティフィルターは次のとおりです。 <br> <ul>  — プロパティは AND 演算でグループ化されます。 <br><br>  — パラメーターは、次のように繰り返し使用できます。 property=<property-expr>[&amp;property=<property-expr2>...] またはプロパティ=<property-expr1>[&amp;<property-expr2>...] <br><br>  — プロパティの式は形式です [!]フィールド[op]値、オプインあり [==!=,&lt;=,>=,&lt;,>,～]，正規表現のサポート | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | オプションのプロパティフィルターは次のとおりです。 <ul><li>プロパティは AND 演算でグループ化されます。</li><li>次のようにパラメーターを繰り返すことができます。 property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] またはプロパティ={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>プロパティの式は形式です `[!]field[op]value`、を `op` in `[==,!=,<=,>=,<,>,~]`、正規表現をサポートします。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に — を追加すると (orderby=-name)、降順 (Z ～ A) で項目が名前で並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、次のように繰り返すことができます。 `orderby=field1[,-fields2,field3,...]` | `orderby=id`、`-name` |
 | `limit` | 返されるエンティティの数を制限します。 | `limit=5` |
 
