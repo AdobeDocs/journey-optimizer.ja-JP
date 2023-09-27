@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 75%
 
 ---
 
@@ -17,21 +17,20 @@ ht-degree: 95%
 
 コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行して、コレクションを作成できます。
+コレクションを作成するには、 [!DNL Offer Library] API.
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表に、 *Content-Type* リクエストヘッダーのフィールド：
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+| Content-Type | `application/json` |
 
 **API 形式**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/offer-collections
 ```
 
 | パラメーター | 説明 | 例 |
@@ -41,21 +40,23 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 **リクエスト**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-        "xdm:name": "Offer Collection 1",
-        "xdm:filterType": "anyTags",
-        "xdm:ids": [
-            "xcore:tag:124e147572cd7866"
-        ]
-    }'
+curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '{
+    "name": "Test Collection with tags",
+    "filterType": "any-tags",
+    "ids": [
+        "tag1234"
+    ],
+    "labels": [
+        "core/C5",
+        "custom/myLabel"
+    ]
+}'
 ```
 
 **応答**
@@ -64,14 +65,14 @@ curl -X POST \
 
 ```json
 {
-    "instanceId": "0bf31c20-13f1-11eb-a752-e58fd7dc4cb3",
-    "@id": "xcore:offer-filter:124e3594ce8b4930",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T22:59:17.345797Z",
-    "repo:lastModifiedDate": "2020-10-21T22:59:17.345797Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "etag": 1,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
