@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
+source-git-commit: 8071bcf194a7cbf1ba00011e5deba1e6296cf708
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 39%
+source-wordcount: '184'
+ht-degree: 41%
 
 ---
 
@@ -49,13 +49,11 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
 
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 
-| パラメーター  説明 | 例 |
-|------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| `property` | オプションのプロパティフィルターは次のとおりです。 |
- — プロパティは AND 演算でグループ化されます。
- — パラメーターは、次のように繰り返すことができます。 `property=<property-expr>[&property=<property-expr2>...]` または `property=<property-expr1>[,<property-expr2>...]`
- — プロパティの式は形式です `[!]field[op]value`を含む、 `[==,!=,<=,>=,<,>,~]`，正規表現のサポート | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` | | `orderBy`  |特定のプロパティで結果を並べ替えます。 の追加 `-` 名前の前 (orderby=-name) は、降順 (Z ～ A) で項目を名前で並べ替えます。 パスの式は、ドット区切りのパスの形式です。 このパラメーターは、次のように繰り返すことができます。 `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name`                    | | `limit`    |返されるエンティティの数を制限します。 | `limit=5`                                |
-
+| パラメーター | 説明 | 例 |
+| --------- | ----------- | ------- |
+| `property` | オプションのプロパティフィルターは次のとおりです。 <br> <ul>  — プロパティは AND 演算でグループ化されます。 <br><br>  — パラメーターは、次のように繰り返し使用できます。 property=<property-expr>[&amp;property=<property-expr2>...] またはプロパティ=<property-expr1>[&amp;<property-expr2>...] <br><br>  — プロパティの式は形式です [!]フィールド[op]値、オプインあり [==!=,&lt;=,>=,&lt;,>,～]，正規表現のサポート | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に — を追加すると (orderby=-name)、降順 (Z ～ A) で項目が名前で並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、次のように繰り返すことができます。 `orderby=field1[,-fields2,field3,...]` | `orderby=id`、`-name` |
+| `limit` | 返されるエンティティの数を制限します。 | `limit=5` |
 
 **応答**
 
