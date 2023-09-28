@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4069'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -21,11 +21,8 @@ ht-degree: 86%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2023 年 9 月の早期リリースノート {#sept-rn-2023}
 
-以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に公開されます。
-
-**リリース日**:2023 年 9 月 26～27 日
+## 2023 年 9 月リリースノート {#sept-rn-2023}
 
 ### 新機能{#sept-2023-features}
 
@@ -41,8 +38,8 @@ ht-degree: 86%
 <tr>
 <td>
 <p>計算済み属性を使用すると、直感的なユーザーインターフェイスでイベントデータを簡単にプロファイル属性に要約し、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算済み属性をセルフサービス方式で作成し、管理し、セグメント化、リアルタイム顧客プロファイルの宛先、またはJourney Optimizerで使用できます。<br/><br/>
-さらに、計算済み属性を使用すると、セグメント化とジャーニーワークフローが簡素化され、関連性の高いエクスペリエンスをシームレスに配信できます。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">詳細なドキュメント</a>.</p>
-<img src="assets/computed-attributes.png">
+さらに、計算済み属性を使用すると、セグメント化とジャーニーワークフローが簡素化され、関連性の高いエクスペリエンスをシームレスに配信できます。 詳しくは、 <a href="../audience/computed-attributes.md">詳細なドキュメント</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>
@@ -57,9 +54,10 @@ ht-degree: 86%
 <tbody>
 <tr>
 <td>
-<p>チャネルレポート機能を使用すると、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要を、アナリストとマーケターに提供できます。 「レポート」メニューにアクセスするには、「チャネルレポートの表示」権限が必要です。</p>
+<p>チャネルレポート機能を使用すると、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要を、アナリストとマーケターに提供できます。</p>
+<p>次の手順で <b>レポート</b> メニューに <b>チャネルレポートを表示</b> 権限。</p>
 <img src="assets/channel-reports.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>詳しくは、 <a href="../reports/channel-report.md">詳細なドキュメント</a>、および &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
 </tr>
 </tbody>
 </table>
@@ -76,7 +74,7 @@ ht-degree: 86%
 <td>
 <p>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出しを、一般に利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。</p>
 <img src="../data/assets/dataset-export-setup.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -101,50 +99,52 @@ ht-degree: 86%
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-<!--**Audiences**
+<!--**Personalization**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-**パーソナライゼーション**
+<!--
+**Alerting**
 
-* ビジュアルフラグメントに加えて、式エディターを使用して、Journey Optimizerインターフェイスから式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。
-
-**アラート**
-
-* 新しいタイプのシステムアラートが導入されました。読み取りオーディエンスが失敗した場合に通知を受け取れるようになりました。
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
 
 **Web チャネル**
 
-* 単一ページアプリケーション (SPA) を Web ビジュアルエディターで作成できるようになりました。 Web ページの変更を適用する特定のビューを選択できるようになりました。 ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。 Adobe Experience Platform Web SDK 実装でビューを定義するために、開発者の 1 回限りの設定が必要です。これにより、マーケターはSPA上でAdobe Journey Optimizer Web キャンペーンを作成し、実行できます。
+* Web ビジュアルエディターで単一ページアプリケーション (SPA) を作成できるようになりました。これにより、Web ページの変更を適用する特定のビューを選択できます。 ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。 Adobe Experience Platform Web SDK 実装でビューを定義するには、開発者の 1 回限りの設定が必要です。これにより、マーケターはSPA上でAdobe Journey Optimizer Web キャンペーンを作成し、実行できます。 [詳細情報](../web/web-spa.md)
 
-* Web デザイナーを使用してページを編集する際、コンポーネントを選択してデザイナーインターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。
-* Web サブドメインを設定する際、既にAdobeにデリゲートされたサブドメインを使用する以外に、独自のサブドメインを追加するオプションが追加できるようになりました。
+* Web デザイナーを使用してページを編集する際、コンポーネントを選択してデザイナーインターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。 [詳細情報](../web/manage-web-modifications.md#add-modifications)
+
+* Web サブドメインを設定する際、既にAdobeにデリゲートされたサブドメインを使用する以外に、独自のサブドメインを追加するオプションが追加できるようになりました。 [詳細情報](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **ジャーニー**
 
-* カスタムアクション応答のサポートが GA になりました。 これにより、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 さらに、すべての税関アクションをエンドポイントあたり 5,000 呼び出し/秒に制限する新しいガードレールが追加されました。
-* ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。
+ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。 [詳細情報](../building-journeys/journey-gs.md#uplicate-a-journey)
+
 
 <!--
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **メールチャネル**
 
-E メールのサーフェス設定の新しいオプションにより、E メールアドレスがAdobe Journey Optimizer抑制リストに含まれている場合でも、プロファイルにトランザクションメッセージを送信することを選択できます。
+E メールの表面設定の新しいオプションにより、E メールアドレスがAdobe上にある場合でも、プロファイルにトランザクションメッセージを送信することを選択できます [!DNL Journey Optimizer] 抑制リスト。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS チャネル**
 
-2 つの新しいフィールド **オプトインメッセージ** および **ヘルプメッセージ**&#x200B;を API 設定画面に追加し、ユーザーがインバウンドキーワードの応答をカスタマイズできるようにしました。 これは、Sinch SMS プロバイダーでのみ使用できます。
+2 つの新しいフィールド **オプトインメッセージ** および **ヘルプメッセージ**&#x200B;を API 設定画面に追加し、ユーザーがインバウンドキーワードの応答をカスタマイズできるようにしました。 これは、Sinch SMS プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration.md)
 
 **ダイレクトメールチャネル**
 
-ダイレクトメールプロバイダーがサーバーに転送する際に、そのプロバイダー用のファイルを暗号化する機能が追加されました。 これをおこなうには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー&amp;ペーストできます。
+ダイレクトメールプロバイダーがサーバーに転送する際に、そのプロバイダー用のファイルを暗号化する機能が追加されました。 これをおこなうには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー&amp;ペーストできます。 [詳細情報](../direct-mail/direct-mail-configuration.md)
 
 **レポート**
 
-Journey Optimizerレポートを CSV ファイルとして書き出せるようになりました。 <!--[Learn more](../reports/global-report.md#export-reports)-->
+Journey Optimizerレポートを CSV ファイルとして書き出せるようになりました。 [詳細情報](../reports/global-report.md#export-reports)
+
+**Assets**
+
+Assets の新しいオプションを使用すると、Journey Optimizerで Assets のリポジトリを選択できます。 このソリューションを所有している場合は、Assets Essentialsリポジトリまたは Assetsas a Cloud Serviceリポジトリを選択できます。 [詳細情報](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
