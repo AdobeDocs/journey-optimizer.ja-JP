@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 8071bcf194a7cbf1ba00011e5deba1e6296cf708
+source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 52%
 
 ---
@@ -39,7 +39,7 @@ GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `property` | オプションのプロパティフィルターは次のとおりです。 <br> <ul>  — プロパティは AND 演算でグループ化されます。 <br><br>  — パラメーターは、次のように繰り返し使用できます。 property=<property-expr>[&amp;property=<property-expr2>...] またはプロパティ=<property-expr1>[&amp;<property-expr2>...] <br><br>  — プロパティの式は形式です [!]フィールド[op]値、オプインあり [==!=,&lt;=,>=,&lt;,>,～]，正規表現のサポート | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | オプションのプロパティフィルターは次のとおりです。 <ul><li> プロパティは AND 演算でグループ化されます。 <br><br>  — パラメーターは、次のように繰り返し使用できます。 property=`<property-expr>`[&amp;property=`<property-expr2>`...] またはプロパティ=`<property-expr1>`[&amp;`<property-expr2>`...] <br><br>  — プロパティの式は形式です `[!]field[op]` 値、オプインあり `[==,!=,'<=',>=,<,>,~]`，正規表現のサポート  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に — を追加すると (orderby=-name)、降順 (Z ～ A) で項目が名前で並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、次のように繰り返すことができます。 `orderby=field1[,-fields2,field3,...]` | `orderby=id`、`-name` |
 
 **リクエスト**
