@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
 workflow-type: tm+mt
 source-wordcount: '4018'
 ht-degree: 87%
@@ -57,7 +57,7 @@ ht-degree: 87%
 <p>チャネルレポート機能を使用すると、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要を、アナリストとマーケターに提供できます。</p>
 <p>次の手順で <b>レポート</b> メニューに <b>チャネルレポートを表示</b> 権限。</p>
 <img src="assets/channel-reports.png"/>
-<p>詳しくは、 <a href="../reports/channel-report.md">詳細なドキュメント</a>、および <a href="../reports/channel-report.md#how-to-video-channel-report-video">ハウツービデオ</a>.</p>
+<p>詳しくは、 <a href="../reports/channel-report.md">詳細なドキュメント</a>、および <a href="../reports/channel-report.md#channel-report-video">ハウツービデオ</a>.</p>
 </tr>
 </tbody>
 </table>
