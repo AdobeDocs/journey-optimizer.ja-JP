@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 16%
+source-wordcount: '823'
+ht-degree: 17%
 
 ---
 
@@ -114,7 +115,7 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 ### 仕組み
 
 1. Web ページがリクエストされ、以前に `kndctr_` が含まれます。
-1. アプリサーバーからページがリクエストされると、[インタラクティブデータ収集エンドポイント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en)にイベントが送信され、パーソナライゼーションコンテンツが取得されます。このサンプルアプリでは、API へのリクエストの作成と送信を簡単にするヘルパーメソッドを使用しています ( [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}) をクリックします。 しかし、この要求は単に `POST` を、イベントとクエリを含むペイロードで置き換えます。 前の手順で作成した cookie（使用可能な場合）は、 `meta>state>entries` 配列。
+1. アプリサーバーからページがリクエストされると、[インタラクティブデータ収集エンドポイント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja)にイベントが送信され、パーソナライゼーションコンテンツが取得されます。このサンプルアプリでは、API へのリクエストの作成と送信を簡単にするヘルパーメソッドを使用しています ( [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}) をクリックします。 しかし、この要求は単に `POST` を、イベントとクエリを含むペイロードで置き換えます。 前の手順で作成した cookie（使用可能な場合）は、 `meta>state>entries` 配列。
 
    ```javascript
    fetch(
@@ -275,4 +276,3 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 
 * Adobeのテクニカルブログ： [Adobe Experience Platform Web SDK のハイブリッドパーソナライゼーション](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK ドキュメント： [Web SDK と Edge Network Server API を使用したハイブリッドパーソナライゼーション](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

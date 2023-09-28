@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
@@ -30,11 +30,9 @@ ht-degree: 100%
 
 * **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[サンドボックスの使用](sandboxes.md)を参照してください。。
 
-各概念は、Admin Console にアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。[Adobe Admin Console の詳細](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)。
-
 ![](assets/do-not-localize/permissions_2.png)
 
-## チュートリアルビデオ{#video}
+## ハウツービデオ{#video}
 
 Adobe Journey Optimizer でのアクセス制御システムとカスタムの役割について詳しく説明します。役割と権限を管理する方法と、ユーザーを追加および管理する方法を説明します。
 

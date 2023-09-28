@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, 関数, 式, ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 100%
 
 ---

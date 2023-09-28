@@ -9,55 +9,99 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
-source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
+exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 83%
 
 ---
 
-# カスタムアクションの機能強化 {#custom-action-enhancements}
+# カスタムアクションでの API 呼び出し応答の使用 {#custom-action-enhancements}
 
-カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
-
-この機能は、以前はデータソースを使用する場合にのみ使用可能でした。これで、カスタムアクションでも使用できるようになりました。
+カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。
 
 >[!AVAILABILITY]
 >
->この機能は現在、Private Beta として使用可能です。
+>この機能は現在、ベータ版で利用できます。
 
->[!WARNING]
->
->カスタムアクションは、プライベートまたは内部のエンドポイントでのみ使用し、適切なキャッピングまたはスロットリング制限を付ける必要があります。[このページ](../configuration/external-systems.md)を参照してください。
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-## カスタムアクションを定義 {#define-custom-action}
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
 
-カスタムアクションを定義する際、GET メソッドの追加と新しいペイロード応答フィールドという 2 つの機能強化が使用可能になりました。その他のオプションとパラメーターには変更はありません。[このページ](../action/about-custom-action-configuration.md)を参照してください。
+## 重要な注意事項{#custom-action-enhancements-notes}
 
-### エンドポイントの設定 {#endpoint-configuration}
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
 
-「**URL 設定**」セクションの名前が、**エンドポイントの設定**&#x200B;に変更されました。
+* スカラー配列は応答ペイロードでサポートされています：
 
-**メソッド**&#x200B;ドロップダウンで、「**GET**」を選択できるようになりました。
+  ```
+  "dummyScalarArray": [
+  "val1",
+  "val2"
+  ]
+  ```
+
+* レスポンスペイロードでは、異機種混在アレイはサポートされていません。
+
+  ```
+  "dummyRandomArray": [
+  20,
+  "aafw",
+  false
+  ]
+  ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
+## Define the custom action {#define-custom-action}
+
+When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
+
+### Endpoint configuration {#endpoint-configuration}
+
+The **URL configuration** section has been renamed **Endpoint configuration**.
+
+In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### ペイロード {#payloads-new}
+### Payloads {#payloads-new}
 
-「**アクションパラメーター**」セクションの名前が、**ペイロード**&#x200B;に変更されました。次の 2 つのフィールドを使用できます。
+The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
-* 「**リクエスト**」フィールド：このフィールドは、POST および PUT 呼び出しメソッドでのみ使用できます。
-* 「**応答**」フィールド：これは新しい機能です。このフィールドは、すべての呼び出しメソッドで使用できます。
+* The **Request** field: this field is only available for POST and PUT calling methods.
+* The **Response** field: this is the new capability. This field as available for all calling methods.
 
 >[!NOTE]
 > 
->これらのフィールドは、どちらもオプションです。
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## カスタムアクションの設定 {#config-response}
+
+1. カスタムアクションを作成します。 [このページ](../action/about-custom-action-configuration.md)を参照してください。
 
 1. 「**応答**」フィールド内でクリックします。
 
-   ![](assets/action-response3.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%" align="left"}
 
 1. 呼び出しで返されたペイロードの例をペーストします。フィールドのタイプが正しい（文字列、整数など）ことを確認します。次に、呼び出し中にキャプチャされた応答ペイロードの例を示します。ローカルエンドポイントは、ロイヤルティポイントの数と、プロファイルのステータスを送信します。
 
@@ -117,6 +161,12 @@ ht-degree: 100%
 
    ![](assets/action-response11.png)
 
+## テストモードログ {#test-mode-logs}
+
+カスタムアクション応答に関連するステータスログに、テストモードでアクセスできます。 ジャーニーに応答を含むカスタムアクションを定義している場合は、「 **actionsHistory** 外部エンドポイントから返されたペイロードを（そのカスタムアクションからの応答として）表示するログのセクション。 これは、デバッグの面で非常に役立つ場合があります。
+
+![](assets/action-response12.png)
+
 ## エラーステータス {#error-status}
 
 **jo_status_code** フィールドは、応答ペイロードが定義されていない場合でも常に使用できます。
@@ -158,4 +208,3 @@ ht-degree: 100%
 ```
 
 フィールド参照について詳しくは、[この節](../building-journeys/expression/field-references.md)を参照してください。
-

@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ ht-degree: 92%
 
 ## 2023年9月 {#september-2023}
 
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 9 月リリースの詳細がドキュメントに記載されました。 [詳細情報](release-notes.md)
+* 拡大/縮小のベストプラクティスとリアルタイムのステッチに関するガイダンスを含む新しいページが追加されました。 [詳細情報](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* 送信時間の最適化に関するよくある質問の節が追加されました。 [詳細情報](../building-journeys/journeys-message.md#faq-send-time)
+* オーディエンスの選定アクティビティに関するメモが追加されました。 アクティブになるまで最大 10 分かかり、オーディエンスの入口または出口にあるプロファイルをリッスンする場合があります。 [詳細情報](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 決定ルールを作成する際に考慮すべき制限のリストを決定管理ドキュメントに追加しました。[詳細情報](../offers/offer-library/creating-decision-rules.md)
+* アクセス制御に関するドキュメントへのリンクが更新されました。 [詳細情報](../administration/permissions.md)
+* アプリ内チャネルの前提条件が更新され、 Adobe Experience Platformのデータ収集の詳細が追加されました。 [詳細情報](../in-app/inapp-configuration.md)
+
+
+
 
 ## 2023年8月 {#august-2023}
 

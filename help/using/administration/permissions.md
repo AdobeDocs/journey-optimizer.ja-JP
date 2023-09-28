@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 次に説明する各手順は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html)を参照してください。
+> 次に説明する各手順は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。
 
 **[!UICONTROL 役割]**&#x200B;は、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。これらの役割を使用すると、組織内の様々なユーザーグループのアクセスと権限を簡単に管理できます。
 
@@ -48,13 +48,13 @@ ht-degree: 100%
 
 1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-   [!DNL Admin Console] でまだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
+   [!DNL Admin Console] でまだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html)を参照してください。
 
    ![](assets/do-not-localize/access_control_4.png)
 
 これにより、ユーザーをインスタンスへリダイレクトするメールが、ユーザーに送られます。
 
-ユーザー管理の詳細については、[Admin Console ドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html)を参照してください。
+ユーザー管理について詳しくは、 [アクセス制御に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja).
 
 インスタンスにアクセスすると、**[!UICONTROL 役割]**&#x200B;に割り当てられた権限に応じて、特定のビューが表示されます。ユーザーが機能にアクセスする適切な権限を持っていない場合は、次のメッセージが表示されます。
 
@@ -125,4 +125,4 @@ ht-degree: 100%
 
 これで、**[!UICONTROL 役割]**&#x200B;の作成と設定が完了しました。次に、この役割をユーザーに割り当てる必要があります。
 
-役割の作成と管理について詳しくは、[Admin Console ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ja)を参照してください。
+役割の作成と管理について詳しくは、[Admin Console ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html)を参照してください。

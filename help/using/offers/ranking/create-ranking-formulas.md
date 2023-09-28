@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5083536950e43fc2df66a6bb46e69173245acf18
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
@@ -79,7 +79,7 @@ Boost the priority of offers based on whether the user is a member of a priority
 **Ranking formula:**
 
 ```
-if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
+if( segmentMembership.get("ups").get(offer.characteristics.get("prioritySegmentId")).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
 ```
 -->
 
@@ -90,7 +90,7 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 **ランキング式：**
 
 ```
-if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
+if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
 ### 終了日が今から 24 時間以内のオファーのブースト
@@ -109,7 +109,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
 決定 API を使用する場合は、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
@@ -173,6 +173,6 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.propensityType, false)).head().core.propensityScore
+             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
 in if(score.isNotNull(), score, offer.rank.priority)
 ```

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 100%
 
 >[!CAUTION]
 >**XDM 個人版プロファイル**&#x200B;スキーマは、[!DNL Journey Optimizer] でコンテンツをパーソナライズするために使用できる唯一のスキーマです。
+
+また、 **計算済み属性** コンテンツをパーソナライズする 計算済み属性は、Adobe Experience Platformに取り込まれ、個々の行動イベントを要約する顧客プロファイル内に保存された集計データポイントとして機能する、プロファイル対応のエクスペリエンスイベントデータセットに基づきます [計算済み属性の使用方法を説明します。](../audience/computed-attributes.md)
 
 ## 様々なコンテキストでのパーソナライゼーションの追加 {#contexts}
 

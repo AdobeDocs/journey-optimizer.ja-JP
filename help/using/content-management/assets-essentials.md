@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: アセット, 初期設定, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,19 @@ ht-degree: 100%
 
    ![](assets/media_library_1.png)
 
+1. Journey Optimizerでアセットのリポジトリを選択します。 このソリューションを所有している場合は、Assets Essentialsリポジトリまたは Assetsas a Cloud Serviceリポジトリを選択できます。
+
+   ![](assets/media_library_4.png)
+
++++
+Assets リポジトリを切り替える方法を説明します。
+
+   Assets リポジトリを変更するには、右上のアカウントアイコンを選択し、 **[!UICONTROL リポジトリを選択]**.
+
+   ![](assets/media_library_3.png)
+
++++
+
 1. 中央のセクションまたはツリービューでフォルダーをダブルクリックして開きます。
 
    また、「**[!UICONTROL フォルダーを作成]**」をクリックして新しいフォルダーを作成することもできます。
@@ -63,7 +76,7 @@ ht-degree: 100%
 
    ![](assets/media_library_12.png)
 
-1. [!DNL Adobe Journey Optimizer] で、メールデザイナーの左パネルにある「**[!UICONTROL AEM Asset ピッカー]**」を選択します。
+1. [!DNL Adobe Journey Optimizer] で、E メールデザイナーの左パネルにある「**[!UICONTROL AEM Asset ピッカー]**」を選択します。
 
    ![](assets/media_library_5.png)
 

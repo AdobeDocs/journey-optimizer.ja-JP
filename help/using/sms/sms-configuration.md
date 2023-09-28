@@ -6,10 +6,10 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
+source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '951'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,10 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
       * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。[詳細情報](https://developers.sinch.com/docs/sms/getting-started/)
+
+      * **[!UICONTROL オプトインメッセージ]**: **[!UICONTROL オプトインメッセージ]**.
+
+      * **[!UICONTROL ヘルプメッセージ]**: **[!UICONTROL ヘルプメッセージ]**.
 
    * **[!DNL Twilio]** の場合：
 

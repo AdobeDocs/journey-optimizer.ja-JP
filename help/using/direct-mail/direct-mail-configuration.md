@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 このファイルを生成する前に、以下を作成する必要があります。
 
-1. [ファイルのルーティング設定](#file-routing-configuration)：ファイルの書き出し先となるサーバーを指定します。
+1. A [ファイルルーティング設定](#file-routing-configuration) ：ファイルのエクスポート先のサーバーを指定し、必要に応じてファイルを暗号化します。
 
 1. [ダイレクトメールサーフェス](#direct-mail-surface)：ファイルのルーティング設定を参照します。
 
@@ -89,6 +89,8 @@ ht-degree: 100%
    >[!NOTE]
    >
    >AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
+
+1. ファイルを暗号化するには、暗号化キーを **[!UICONTROL PGP/GPG 暗号化キー]** フィールドに入力します。
 
 1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメールサーフェス](#direct-mail-surface)で使用する準備が整いました。
 

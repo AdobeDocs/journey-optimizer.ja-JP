@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 95%
+source-wordcount: '1114'
+ht-degree: 93%
 
 ---
 
@@ -166,6 +166,8 @@ Web キャンペーンのオーサリングを開始するには、次の手順�
 **[!UICONTROL 参照]**&#x200B;モードでは、パーソナライズする選択したサーフェスから該当するページに移動できます。
 
 これは、認証の後のページや、特定の URL で最初から使用できないページを処理する場合に特に便利です。例えば、認証を行い、アカウントページや買い物かごページに移動して、**[!UICONTROL デザイン]**&#x200B;モードに戻り、目的のページで変更を実行できます。
+
+使用 **[!UICONTROL 参照]** また、モードを使用すると、単一ページアプリケーションを作成する際に、Web サイトのすべてのビューをナビゲートできます。 [詳細情報](web-spa.md)
 
 ### デバイスサイズの変更 {#change-device-size}
 

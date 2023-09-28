@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Adobe Experience Platform サンドボックスは、Adobe Experience Platform �
 
 >[!IMPORTANT]
 >
-> サンドボックスの管理は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。詳しくは、[Admin Console のドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}を参照してください。
+> サンドボックスの管理は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。
 
 標準またはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;に、異なるサンドボックスを割り当てることもできます。
 

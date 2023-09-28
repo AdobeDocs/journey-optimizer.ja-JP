@@ -1,42 +1,38 @@
 ---
-title: アプリ内設定
+title: アプリ内チャネルの前提条件
 description: Journey Optimizer でアプリ内メッセージを送信するように環境を設定する方法を学ぶ
 role: Admin
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 68%
+source-wordcount: '727'
+ht-degree: 62%
 
 ---
 
-# アプリ内チャネルの設定 {#inapp-configuration}
+# アプリ内チャネルの前提条件 {#inapp-configuration}
 
-アプリ内メッセージを送信する前に、[!DNL Adobe Experience Platform Data Collection] でアプリ内チャネルを設定する必要があります。
+## 配信の前提条件 {#delivery-prerequisites}
 
-1. お使いの [!DNL Adobe Experience Platform Data Collection] アカウントから、**[!UICONTROL データストリーム]**&#x200B;メニューにアクセスし、**[!UICONTROL 新しいデータストリーム]**&#x200B;をクリックします。データストリーム作成について詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja)を参照してください。
+アプリ内メッセージが正しく配信されるようにするには、次の設定を定義する必要があります。
 
-1. [!DNL Adobe Experience Platform] サービスを選択します。 
+* Adobe Analytics の [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}を使用する場合、データストリームが（など）定義されていることを確認します。 **[!UICONTROL Adobe Experience Platform]** Adobe Experience Platform Edge を使用しているサービスと **[!UICONTROL Adobe Journey Optimizer]** オプションが有効です。
 
-   [!DNL Edge Segmentation] および [!DNL Adobe Journey Optimizer] を選択する必要があります。
+  これにより、Journey Optimizer インバウンドイベントが Adobe Experience Platform Edge で正しく処理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja){target="_blank"}
 
-   ![](assets/inapp_config_6.png)
+  ![](assets/inapp_config_6.png)
 
-   >[!NOTE]
-   >
-   >アプリ内チャネルのコンテンツ実験を有効にするには、アプリ内[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)がレポート設定にも存在することを確認する必要があります。存在しない場合、アプリ内データはコンテンツ実験レポートに表示されません。[詳しくは、データセットの追加方法を参照してください](../campaigns/reporting-configuration.md#add-datasets)
-   >
-   >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"} で
 
-1. 次に、**[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスして、「**[!UICONTROL アプリサーフェスを作成]**」をクリックします。
+  この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}
 
-   >[!NOTE]
-   >
-   > **[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスするには、**アプリ設定を管理**&#x200B;権限が必要です。詳しくは、[このビデオ](#video)を参照してください。
+  ![](assets/inapp_config_8.png)
 
-   ![](assets/inapp_config_1.png)
+## チャネル設定の前提条件 {#channel-prerequisites}
+
+1. 次にアクセス： **[!UICONTROL アプリのサーフェス]** メニューとクリック **[!UICONTROL アプリサーフェスを作成]**.
 
 1. **[!UICONTROL アプリサーフェス]**&#x200B;に名前を追加します。
 
@@ -106,13 +102,23 @@ ht-degree: 68%
 
 アプリ内チャネルが設定されました。 ユーザーへのアプリ内メッセージの送信を開始できます。
 
-**関連トピック：**
+## コンテンツ実験の前提条件 {#experiment-prerequisites}
 
-* [アプリ内メッセージの作成 ](create-in-app.md)
-* [キャンペーンの作成](../campaigns/create-campaign.md)
-* [アプリ内メッセージのデザイン](design-in-app.md)
-* [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
+アプリ内チャネルでコンテンツ実験を有効にするには、 [データセット](../data/get-started-datasets.md) アプリ内実装で使用される [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} は、レポート設定にも含まれます。
 
+つまり、実験レポートを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはコンテンツ実験レポートに表示されません。
+
+コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../campaigns/reporting-configuration.md#add-datasets)を参照してください。
+
+>[!NOTE]
+>
+>データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
+
+次の事前定義された[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}）を使用してい&#x200B;**ない**&#x200B;場合は、次のフィールドグループを追加する必要があります：`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`、`Web Details`。これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
+
+>[!NOTE]
+>
+>これらのフィールドグループを追加しても、通常のデータ収集には影響しません。実験が実行されているページに対してのみ追加され、他のすべての追跡は変更されません。
 
 ## ハウツービデオ{#video}
 
@@ -124,4 +130,10 @@ ht-degree: 68%
 
 +++
 
+**関連トピック：**
+
+* [アプリ内メッセージの作成 ](create-in-app.md)
+* [キャンペーンの作成](../campaigns/create-campaign.md)
+* [アプリ内メッセージのデザイン](design-in-app.md)
+* [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
 

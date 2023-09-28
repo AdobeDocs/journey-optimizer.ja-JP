@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '1267'
+ht-degree: 96%
 
 ---
 
@@ -116,24 +116,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### ジャーニーのテストと公開 {#testing-publishing}
 
-**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを使用すると、ジャーニーのテストを単一プロファイルで、またはオーディエンスに選定されたプロファイルからランダムに選択した 100 個のテストプロファイルで実行できます。
+The **[!UICONTROL オーディエンスの閲覧]** 「 」アクティビティを使用すると、単一のプロファイルでジャーニーをテストできます。
 
-これを行うには、テストモードをアクティブにし、左側のペインから目的のオプションを選択します。
-
+これをおこなうには、テストモードを有効にします。
 
 ![](assets/read-segment-test-mode.png)
 
-その後、通常どおりテストモードを設定して実行できます。[ジャーニーのテスト方法を学ぶ](testing-the-journey.md)。方法を学ぶ
+通常どおりにテストモードを設定して実行します。 [ジャーニーのテスト方法を学ぶ](testing-the-journey.md)。方法を学ぶ
 
-テストが実行されると、「**[!UICONTROL ログを表示]**」ボタンを使用し、選択したテストオプションに従ってテスト結果を確認できます。
+テストを実行したら、 **[!UICONTROL ログを表示]** ボタンをクリックすると、テスト結果を確認できます。 詳しくは、[この節](testing-the-journey.md#viewing_logs)を参照してください。
 
-* **[!UICONTROL 一度に 1 つのプロファイル]**：テストログには、単一テストモードを使用した場合と同じ情報が表示されます。詳しくは、[この節](testing-the-journey.md#viewing_logs)を参照してください。
-
-* **[!UICONTROL 一度に最大 100 個のプロファイル]**：テストログでは、Adobe Experience Platform からのオーディエンス書き出しの進行状況と、ジャーニーにエントリしたすべての個人の進行状況を追跡できます。
-
-  なお、「一度に最大 100 個のプロファイル」を使用してジャーニーをテストした場合、視覚的なフローを使用してジャーニー内の個人の進行状況を追跡することはできません。
-
-  ![](assets/read-segment-log.png)
+![](assets/read-segment-log.png)
 
 テストが正常に完了すると、ジャーニーを公開できます（[ジャーニーの公開](publishing-the-journey.md)を参照）。オーディエンスに属する個人は、ジャーニーのプロパティの「**[!UICONTROL スケジューラー]**」セクションで指定された日時にジャーニーにエントリします。
 

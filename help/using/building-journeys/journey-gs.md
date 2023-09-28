@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 100%
+source-wordcount: '1689'
+ht-degree: 98%
 
 ---
 
@@ -184,8 +184,8 @@ Adobe Experience Platform プロファイルでタイムゾーンが定義され
 
    ![ジャーニーの複製](assets/duplicate-jo.png)
 
-<!--1. Enter the name of the journey and confirm. 
+1. ジャーニーの名前を入力し、確定します。 ジャーニーのプロパティ画面で名前を変更することもできます。 デフォルトでは、この名前は次のように設定されています。 `[JOURNEY-NAME]_copy`
 
-    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+   ![](assets/duplicate-jo2.png)
 
 1. 新しいジャーニーが作成され、ジャーニーリストで使用できます。

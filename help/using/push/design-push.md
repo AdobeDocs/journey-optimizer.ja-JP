@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 96%
 
 ---
 
@@ -62,17 +62,15 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 
 デバイスの画面がロックされている場合、次のボタンは表示されません。通知の&#x200B;**タイトル**&#x200B;と&#x200B;**メッセージ**&#x200B;のみが表示されます。デバイスのロックが解除されている場合、受信者にボタンが表示されます。
 
-iOS バージョンでは、最大 4 つのボタンを追加できます。Android バージョンでは、最大 3 つのボタンを追加できます。
+Android バージョンでは、最大 3 つのボタンを追加できます。
 
->[!NOTE]
->
->iOS の場合、「**[!UICONTROL iOS カテゴリ]**」フィールドを使用して、アクションを通知カテゴリに関連付けます。
+iOSバージョンでは、通知カテゴリ識別子が指定されます。 通知カテゴリは、iOSアプリで事前設定する必要があります。この設定では、表示するボタンと実行されるアクションを定義します。 詳しくは、 [Appleドキュメント](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) を参照してください。
 
 1. 「**[!UICONTROL ボタンを追加]**」をクリックして、ラベルと関連するアクションの設定を定義します。可能なアクションは、[クリック時の動作](#on-click-behavior)の場合と同じです。
 
 1. 中央のプレビュー画像の「**[!UICONTROL 表示を展開]**」アイコンを使用して、パーソナライズされたボタンをプレビューします。
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## サイレント通知の送信 {#silent-notification}
 

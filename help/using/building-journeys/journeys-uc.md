@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ユースケース, マルチチャネル, メッセージ, ジャーニー, チャネル, イベント, プッシュ
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -116,6 +116,6 @@ ht-degree: 100%
 
 1. ジャーニーをテストする前に、ジャーニーが有効であり、エラーがないことを確認します。
 
-1. 右上隅にある「**テスト**」トグルをクリックして、テストモードを有効にします。テストプロファイルをどのようにテストにエントリさせるか（1 つのプロファイル、または一度に最大 100 個）を定義します。テストモードの使い方については、この[節](testing-the-journey.md)を参照してください。
+1. 右上隅にある「**テスト**」トグルをクリックして、テストモードを有効にします。テストモードの使い方については、この[節](testing-the-journey.md)を参照してください。
 
 1. ジャーニーの準備が整ったら、右上隅の「**公開**」ボタンを使用して公開します。
