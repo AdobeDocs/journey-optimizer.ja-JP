@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 94%
+source-wordcount: '1521'
+ht-degree: 93%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 94%
       + [Web ページコンテンツの編集](using/web/edit-web-content.md)
       + [変更の管理](using/web/manage-web-modifications.md)
       + [Web キャンペーンの監視](using/web/monitor-web-campaigns.md)
+      + [単一ページアプリケーションの作成](using/web/web-spa.md)
    + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースのチャネルを使い始める](using/code-based/get-started-code-based.md)
@@ -303,6 +304,7 @@ ht-degree: 94%
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
+      + [計算済み属性の使用](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
 + トラッキングとモニタリング {#reporting}
@@ -321,6 +323,9 @@ ht-degree: 94%
       + [目標レポート](using/reports/objective-report.md)
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
       + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
+   + チャネルレポート {#channel-report}
+      + [チャネルレポートの概要](using/reports/channel-report-gs.md)
+      + [チャネルレポート](using/reports/channel-report.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドのリスト](using/reports/sharing-field-list.md)
@@ -475,6 +480,7 @@ ht-degree: 94%
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [頻度ルールの設定](using/configuration/frequency-rules.md)
+   + [単一ページアプリケーションの実装](using/web/web-spa-implementation.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
