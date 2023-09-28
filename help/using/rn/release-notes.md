@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
+source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
 workflow-type: tm+mt
-source-wordcount: '4024'
-ht-degree: 87%
+source-wordcount: '4069'
+ht-degree: 86%
 
 ---
 
@@ -137,6 +137,10 @@ E メールのサーフェス設定の新しいオプションにより、E メ�
 **SMS チャネル**
 
 2 つの新しいフィールド **オプトインメッセージ** および **ヘルプメッセージ**&#x200B;を API 設定画面に追加し、ユーザーがインバウンドキーワードの応答をカスタマイズできるようにしました。 これは、Sinch SMS プロバイダーでのみ使用できます。
+
+**ダイレクトメールチャネル**
+
+ダイレクトメールプロバイダーがサーバーに転送する際に、そのプロバイダー用のファイルを暗号化する機能が追加されました。 これをおこなうには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー&amp;ペーストできます。
 
 **レポート**
 
