@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7c56deac0deb0863fff5ad9416d69f632f92acc8
+source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1867'
 ht-degree: 19%
 
 ---
@@ -307,7 +307,7 @@ The **[!UICONTROL 理由を除外]** および **[!UICONTROL エラーの理由]
 +++
 
 
-## ハウツービデオ {#channel-report-video}
+## チャネルレポート（ビデオ） {#channel-report-video}
 
 チャネルレベルでレポートにアクセス、ナビゲート、および書き出しする方法については、このビデオを参照してください。
 
