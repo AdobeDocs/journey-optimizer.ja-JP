@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 08f24547237c01c581248d675c55c834c261b173
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 48%
+source-wordcount: '988'
+ht-degree: 47%
 
 ---
 
@@ -26,9 +26,6 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 ![](assets/dataset-export-setup.png)
 
->[!AVAILABILITY]
->
->これらの宛先はすべてベータ版で利用でき、変更される場合があります。
 
 各宛先について詳しくは、 Adobe Experience Platform のドキュメントを参照してください。
 
