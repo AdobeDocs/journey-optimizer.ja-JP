@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 >テキストメッセージ通信は、性質、テキストメッセージの送信元の場所および受信者の場所に応じて、様々な法的遵守要件の対象となる可能性があります。下記のように、Adobe Journey Optimizer ではロングコードやフリーダイヤル番号でのメッセージを処理しますが、適用されるすべての法的遵守要件にテキストメッセージ通信が準拠していることを確認するには、法務担当者に相談する必要があります。
 >
 
-## ネイティブ受信キーワード{#sms-native-keywords}
+## ネイティブ受信キーワード {#sms-native-keywords}
 
 デフォルトでは、Adobe Journey Optimizer はフリーダイヤルおよびロングコードメッセージに対して、次の標準の英語の返信メッセージ（STOP、UNSTOP、START、QUIT、CANCEL、END および UNSUBSCRIBE）を処理します。Journey Optimizer で使用する場合、ネイティブキーワードをサポートするのは Sinch と Infobip のみです。
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 キーワード応答の STOP、UNSTOP、START、QUIT、CANCEL、END および UNSUBSCRIBE が自動的に認識されるので、Adobe Journey Optimizer で SMS オプトアウト機能が機能していることを確認する手順は不要です。プロファイルのオプトアウトステータスは、Adobe Journey Optimizer でリアルタイムに更新されます。
 
 
-## ブロックリスト{#sms-blocklists}
+## ブロックリスト {#sms-blocklists}
 
 Adobe Journey Optimizer 側でオプトアウトステータスに基づいて送信を停止する（Twilio や Sinch との直接統合の場合）だけでなく、ほとんどの SMS ゲートウェイプロバイダーもブロックリストを維持管理しており、オプトアウトを選択した個人に SMS メッセージが配信されないようにしています。Sinch または Twilio 以外のプロバイダーを使用していて、[カスタムチャネル](../building-journeys/using-custom-actions.md)経由で SMS を送信している場合は、この点をプロバイダーに確認する必要があります。
 

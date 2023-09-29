@@ -6,10 +6,10 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 96%
+source-wordcount: '1010'
+ht-degree: 89%
 
 ---
 
@@ -105,7 +105,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. サーフェスの名前と説明（オプション）を入力し、SMS チャネルを選択します。
 
-   ![](assets/sms_preset.png)
+   ![](assets/sms-create-surface.png)
 
    >[!NOTE]
    >
@@ -113,26 +113,26 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
 1. **SMS 設定**&#x200B;を定義します。
 
-   ![](assets/preset-sms.png)
+   ![](assets/sms-surface-settings.png)
 
-   * サーフェスを使用して送信される **[!UICONTROL SMS タイプ]**&#x200B;を選択します（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）。
+   最初に、 **[!UICONTROL SMS の種類]** それは表面と共に送られる **[!UICONTROL トランザクション]** または **[!UICONTROL マーケティング]**.
 
-      * プロモーション SMS の場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
-      * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
+   * プロモーション SMS の場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
+   * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
 
-     >[!CAUTION]
-     >
-     >**トランザクション** SMS メッセージは、アドビからのお知らせを登録解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
+   メッセージの作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
 
-     メッセージの作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+   >[!CAUTION]
+   >
+   >**トランザクション** SMS メッセージは、アドビからのお知らせを登録解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
 
-   * **[!UICONTROL SMS 設定]**&#x200B;を選択し、サーフェスと関連付けます。
+1. **[!UICONTROL SMS 設定]**&#x200B;を選択し、サーフェスと関連付けます。
 
-     SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
+   SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
 
-   * コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
+1. コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
 
-   * 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
+1. 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
 
 1. SMS メッセージで URL 短縮機能を使用する場合は、**[!UICONTROL サブドメイン]**&#x200B;リストから項目を選択します。
 
@@ -140,11 +140,15 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
    >
    >サブドメインを選択するには、1 つ以上の SMS サブドメインを事前に設定していることを確認してください。[方法についてはこちらを参照](sms-subdomains.md)
 
+1. 次を入力します。 **[!UICONTROL オプトアウト番号]** このサーフェスにを使用します。 この番号からオプトアウトしたプロファイルは、で SMS メッセージを送信する際に使用している他の番号からも、引き続きメッセージを送信できます。 [!DNL Journey Optimizer].
+
+   >[!NOTE]
+   >
+   >In [!DNL Journey Optimizer]の場合、SMS オプトアウトはチャネルレベルで管理されなくなりました。 現在は、数値に固有です。
+
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 
-   ![](assets/sms_preset_2.png)
-<!--
-1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
+   ![](assets/sms-submit-surface.png)
 
 1. チャネルサーフェスが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ E メールの表面設定の新しいオプションにより、E メールア�
 
 **SMS チャネル**
 
-2 つの新しいフィールド **オプトインメッセージ** および **ヘルプメッセージ**&#x200B;を API 設定画面に追加し、ユーザーがインバウンドキーワードの応答をカスタマイズできるようにしました。 これは、Sinch SMS プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration.md)
+* 2 つの新しいフィールド **オプトインメッセージ** および **ヘルプメッセージ**&#x200B;を API 設定画面に追加し、ユーザーがインバウンドキーワードの応答をカスタマイズできるようにしました。 これは、Sinch SMS プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration.md#create-api)
+
+* SMS のオプトアウトは、チャネルレベルでは管理されなくなりました。 現在は数値固有になっています。つまり、一部のプロファイルが特定の数字やショートコードからオプトアウトした場合でも、SMS メッセージの送信に使用している他の数字からもメッセージを送信できます。 新しいオプションで、 **オプトアウト番号** を特定のサーフェスに使用する場合。 [詳細情報](../sms/sms-configuration.md#message-preset-sms)
 
 **ダイレクトメールチャネル**
 

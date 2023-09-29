@@ -11,9 +11,9 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -47,6 +47,11 @@ ht-degree: 1%
 >title="ドメイングループを除外"
 >abstract="現在のフェーズから除外するドメインを選択します。 ドメインの除外には実行されないフェーズが必要なので、除外を追加するには、実行フェーズを分割する必要が生じる場合があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="フェーズの分割"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="プランのフェーズを定義する"
+>abstract="各フェーズは、1 つのキャンペーンを割り当てる複数の実行で構成されます。"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >IP ウォームアッププランからすべてのフェーズを削除する場合は、プランを再度アップロードすることをお勧めします。 [詳細情報](#re-upload-plan)
 
 ## 実行の定義 {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="各実行を定義"
+>abstract="すべてのフェーズの各実行を定義してアクティブ化します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="エンゲージメントに対するフィルター"
+>abstract="この列は、例えば、過去 20 日間にブランドにエンゲージしたユーザーのみをターゲットにするフィルターです。 この設定は、 **実行を編集** オプション。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="時間枠の設定"
+>abstract="セグメント化ジョブに遅延が生じた場合に IP ウォームアップキャンペーンを実行できる時間枠を定義できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="オーディエンスエラーのある実行をキャンセル"
+>abstract="オーディエンスが実行の評価後に対象プロファイルより小さい場合に、このオプションを選択して実行をキャンセルします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="認定プロファイルの表示"
+>abstract="この列には、認定プロファイルの数が表示されます。 オーディエンスの実行の評価が完了した後も、対象プロファイルが認定プロファイルより多い場合、実行は実行されます ( ただし、 **エラーのために一時停止** 」オプションが有効になっている。 この場合、実行はキャンセルされます。"
 
 1. 各実行のスケジュールを選択します。
 
