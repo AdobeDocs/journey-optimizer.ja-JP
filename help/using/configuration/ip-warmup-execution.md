@@ -11,9 +11,9 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
+source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1503'
 ht-degree: 1%
 
 ---
@@ -122,23 +122,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
-1. を選択します。 **[!UICONTROL エラーのために一時停止]** オプションを使用します。<!--can't see the Paused status for runs? Is it failed?-->
+1. を選択します。 **[!UICONTROL エラーのために一時停止]** オーディエンスが実行の評価後に対象プロファイルより小さい適格プロファイルが対象プロファイルに含まれる場合に実行をキャンセルするオプションを使用します。
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   例えば、セグメントジョブの実行後、ターゲットとするプロファイル数が予想より少ない場合、実行はキャンセルされます。
-
-1. **[!UICONTROL 有効化]** ラン。 セグメント化ジョブを実行できる十分な時間をスケジュールしていることを確認します。
-
-   ![](assets/ip-warmup-plan-activate.png)
-
-   >[!CAUTION]
-   >
-   >各実行は、実際の送信時間の 12 時間以上前に有効化する必要があります。 そうしないと、セグメント化が完了しない場合があります。 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
-
-   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
-
-   <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+1. **[!UICONTROL 有効化]** ラン。 [詳細情報](#activate-run)
 
 1. この実行のステータスは、 **[!UICONTROL ライブ]**. 様々な実行ステータスについては、 [この節](#monitor-plan). キャンペーンの実行が開始されていない場合は、ライブ実行を停止できます。<!--why?-->
 
@@ -152,6 +140,37 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
+## 実行のアクティブ化 {#activate-run}
+
+実行をアクティブ化するには、 **[!UICONTROL 有効化]** 」ボタンをクリックします。
+
+セグメント化ジョブを実行できる十分な時間をスケジュールしていることを確認します。
+
+![](assets/ip-warmup-plan-activate.png)
+
+>[!CAUTION]
+>
+>各実行は、実際の送信時間の 12 時間以上前に有効化する必要があります。 そうしないと、セグメント化が完了しない場合があります。
+
+実行をアクティブ化すると、複数のセグメントが自動的に作成されます。
+
+* フェーズの最初の実行をアクティブ化する場合：
+
+   * 除外されたキャンペーンオーディエンスに対してセグメントが作成されます（存在する場合）。
+   * 除外されたドメイングループに対して別のセグメントが作成されます（存在する場合）。
+
+* 実行をアクティブ化する場合：
+
+   * 最後のエンゲージメントフィルターに対して別のセグメントが作成されます。
+   * オーディエンスの構成は、キャンペーンの送信先となるオーディエンスに対応して作成されます。
+
+<!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
+
+<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+
+<!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+
+
 ## プランを管理 {#manage-plan}
 
 IP ウォームアップ計画が期待どおりに実行されない場合は、いつでも以下のアクションを実行できます。
@@ -164,7 +183,7 @@ IP ウォームアップ計画が期待どおりに実行されない場合は�
 
 現在のフェーズの残りの実行に対して新しいフェーズが作成されます。
 
-たとえば、[ 実行 ] にこのオプションを選択す#4、[ 実行 ] から [ 実行 ] に [ 実#4] を選択する#8、新しいフェーズに移動します。
+たとえば、[ 実行#4] でこのオプションを選択した場合、[ 実#4から#8へ ] は現在のフェーズの直後に新しいフェーズに移動します。
 
 手順に従います。 [上](#define-phases) をクリックして、新しいフェーズを定義します。
 
@@ -196,13 +215,23 @@ IP ウォームアップ計画が期待どおりに実行されない場合（�
 
 ![](assets/ip-warmup-re-upload-plan.png)
 
-以前に実行されたすべての実行が完了済みとマークされます。 最初のプランの下に新しいプランが表示されます。
+以前に実行された実行はすべて読み取り専用になります。 最初のプランの下に新しいプランが表示されます。
 
 手順に従います。 [上](#define-phases) をクリックして、新しいプランのフェーズを定義します。
 
 >[!NOTE]
 >
->IP ウォームアッププランの詳細は、新しくアップロードされたファイルに従って変更されます。 ライブ実行と完了済み実行は影響を受けません。
+>IP ウォームアッププランの詳細は、新しくアップロードされたファイルに従って変更されます。 以前に実行した実行（実行内容に関係なく） [ステータス](#monitor-plan)) は影響を受けません。
+
+例を見てみましょう。
+
+* 最初の IP のウォームアップ計画で、フェーズ 2 は 9 回実行しました。
+
+* 4 回の実行が実行されました（失敗、完了、キャンセルのどちらに関係なく、実行が試行されている限り、実行されました）。
+
+* 新しいプランを再アップロードすると、最初に実行された 4 回の実行を含むフェーズ 2 は読み取り専用モードになります。
+
+* 残りの 5 回の実行（ドラフト状態）は、新たにアップロードされたプランに従って表示される新しいフェーズ（フェーズ 3）に移動します。
 
 ## プランの監視 {#monitor-plan}
 
@@ -216,6 +245,6 @@ IP 暖機プラン自体も、1 か所で統合レポートとして機能しま
 
 * **[!UICONTROL ドラフト]** ：実行が作成されたときは常に、 [新しいプランの作成](ip-warmup-plan.md) または [実行の追加](#define-runs) ユーザーインターフェイスから、 **[!UICONTROL ドラフト]** ステータス。
 * **[!UICONTROL ライブ]**：実行をアクティブ化するたびに、実行が必要になります **[!UICONTROL ライブ]** ステータス。
-* **[!UICONTROL 完了]**<!--TBC-->：この実行のキャンペーンの実行が完了しました。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL 完了]**：この実行のキャンペーンの実行が完了しました。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
 * **[!UICONTROL キャンセル]**: a **[!UICONTROL ライブ]** を使用して実行がキャンセルされました **[!UICONTROL 停止]** 」ボタンをクリックします。 このボタンは、キャンペーンの実行が開始されていない場合にのみ使用できます。 [詳細情報](#define-runs)
-* **[!UICONTROL 失敗]**：システムでエラーが発生したか、現在のフェーズで使用されているキャンペーンが停止しました<!--what should the user do in that case?-->.
+* **[!UICONTROL 失敗]**：システムでエラーが発生したか、現在のフェーズで使用されているキャンペーンが停止しました。 実行が失敗した場合は、別の実行を次の日にスケジュールできます。
