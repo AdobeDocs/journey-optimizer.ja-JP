@@ -10,8 +10,8 @@ level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
+exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 1%
