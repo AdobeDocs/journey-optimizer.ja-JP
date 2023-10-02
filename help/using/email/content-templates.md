@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1113'
 ht-degree: 100%
 
@@ -98,9 +98,9 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 作成]**」をクリックし、様々なオプションからテンプレートのデザイン方法を選択します。
 
-   * メールデザイナーのインターフェースを使用して、[ゼロからメールをデザインします](content-from-scratch.md)。
+   * E メールデザイナーのインターフェイスを使用して、[ゼロからメールをデザインします](content-from-scratch.md)。
 
-   * メールデザイナーに直接 [Raw HTML をコーディングまたはコピーして貼り付け](code-content.md)ます。
+   * E メールデザイナーに直接 [Raw HTML をコーディングまたはコピーして貼り付け](code-content.md)ます。
 
    * ファイルまたは .zip フォルダーから[既存の HTML コンテンツを読み込み](existing-content.md)ます。
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
    ![](assets/content-template-design.png)
 
-1. [メールデザイナー](get-started-email-design.md)が表示されます。選択したオプションに従って、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。
+1. [E メールデザイナー](get-started-email-design.md)が表示されます。選択したオプションに従って、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。
 
    必要に応じて、コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 キャンペーンやジャーニーで[メール](get-started-email-design.md)をデザインする際、メールコンテンツを保存しておくと、後で再利用できます。それには、次の手順に従います。
 
-1. メールデザイナーで、画面の右上にある「...」をクリックします。
+1. E メールデザイナーで、画面の右上にある「...」をクリックします。
 
 1. ドロップダウンメニューから「**[!UICONTROL コンテンツテンプレートとして保存]**」を選択します。
 
