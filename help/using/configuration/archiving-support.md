@@ -10,7 +10,7 @@ level: Intermediate
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
 ht-degree: 100%
 
