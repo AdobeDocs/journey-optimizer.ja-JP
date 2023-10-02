@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c710f647707168105a863ae8b0ea087b7d015aa5
 workflow-type: tm+mt
-source-wordcount: '2385'
-ht-degree: 100%
+source-wordcount: '2381'
+ht-degree: 99%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >以前に作成したオファーのフリークエンシーキャップを有効または無効にすることはできません。 これを行うには、オファーを複製するか、新しく作成する必要があります。
+   >以前に作成したオファーのフリークエンシーキャップを有効または無効にすることはできません。 これをおこなうには、新しいオファーを作成する必要があります。
 
 1. カウンターを増やすために、どの&#x200B;**[!UICONTROL キャッピングイベント]**&#x200B;を考慮するかを定義します。[詳細情報](#capping-event)
 

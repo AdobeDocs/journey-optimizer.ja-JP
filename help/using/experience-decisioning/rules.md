@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '283'
 ht-degree: 8%
 
 ---
@@ -37,6 +38,8 @@ ht-degree: 8%
 決定ルールを使用すると、決定項目レベルで直接または特定の選択戦略内で制約を適用することで、決定項目のオーディエンスを定義できます。 これにより、どのアイテムを誰に提示するかを正確に制御できます。
 
 例えば、女性向けに設計されたヨガ関連の製品を使用した判定項目があるシナリオを考えてみましょう。 決定ルールを使用すると、これらの項目を、性別が「女性」で、「ヨガ」に「目標地点」を示したプロファイルにのみ表示するように指定できます。
+
+項目および選択戦略レベルの決定ルールに加えて、キャンペーンレベルで、意図したオーディエンスに対して追加のパラメーターを作成することもできます。 [詳細情報](../campaigns/create-campaign.md)
 
 決定ルールのリストには、 **[!UICONTROL 設定]** / **[!UICONTROL 決定ルール]** メニュー。
 

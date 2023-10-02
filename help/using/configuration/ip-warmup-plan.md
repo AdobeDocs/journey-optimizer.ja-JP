@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 5%
@@ -85,6 +86,8 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
 例えば、カスタムドメイン Luma を追加する場合、luma.com、luma.co.uk、luma.it、luma.fr、luma.de などのサブドメインを含めます。
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## IP ウォームアッププランへのアクセスと管理 {#manage-ip-warmup-plans}
 
 1. 次にアクセス： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL IP 暖機プラン]** メニュー。 これまでに作成した IP ウォームアップ計画がすべて表示されます。
@@ -95,7 +98,7 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
    * **未開始**：実行はまだアクティブ化されていません。 [詳細情報](ip-warmup-execution.md#define-runs)
    * **ライブ**：第 1 段階の最初の実行が正常にアクティブ化されると、プランは直ちにこのステータスに変わります。 [詳細情報](ip-warmup-execution.md#define-runs)
-   * **完了**：プランは完了とマークされています。 このオプションは、プラン内のすべての実行が **[!UICONTROL 成功]** または **[!UICONTROL ドラフト]** ステータス（実行不可） **[!UICONTROL ライブ]**) をクリックします。 [詳細情報](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **完了**：プランは完了とマークされています。 このオプションは、プラン内のすべての実行が **[!UICONTROL 完了]** または **[!UICONTROL ドラフト]** ステータス（実行不可） **[!UICONTROL ライブ]**) をクリックします。 [詳細情報](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. IP ウォームアッププランを削除するには、 **[!UICONTROL 削除]** プラン名の横にあるアイコンをクリックし、削除を確定します。
