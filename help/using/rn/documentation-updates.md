@@ -4,9 +4,9 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3711'
 ht-degree: 90%
 
 ---
@@ -20,16 +20,14 @@ ht-degree: 90%
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 9 月リリースの詳細がドキュメントに記載されました。 [詳細情報](release-notes.md)
 * 拡大/縮小のベストプラクティスとリアルタイムのステッチに関するガイダンスを含む新しいページが追加されました。 [詳細情報](../start/best-practices.md)
 
-<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+  <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * 送信時間の最適化に関するよくある質問の節が追加されました。 [詳細情報](../building-journeys/journeys-message.md#faq-send-time)
 * オーディエンスの選定アクティビティに関するメモが追加されました。 アクティブになるまで最大 10 分かかり、オーディエンスの入口または出口にあるプロファイルをリッスンする場合があります。 [詳細情報](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 決定ルールを作成する際に考慮すべき制限のリストを決定管理ドキュメントに追加しました。[詳細情報](../offers/offer-library/creating-decision-rules.md)
 * アクセス制御に関するドキュメントへのリンクが更新されました。 [詳細情報](../administration/permissions.md)
 * アプリ内チャネルの前提条件が更新され、 Adobe Experience Platformのデータ収集の詳細が追加されました。 [詳細情報](../in-app/inapp-configuration.md)
-
-
-
+* ランキング式の例で示されている式の一部は、検証エラーを回避するために更新されました。 [詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 ## 2023年8月 {#august-2023}
 
@@ -42,7 +40,6 @@ ht-degree: 90%
 * メールコンテンツテンプレートのテスト時に現在追跡がサポートされていないことを示す警告を、**コンテンツテンプレートの操作**&#x200B;ページに追加しました。追跡をテストするには、メールでコンテンツテンプレートを使用し、配達確認を送信する必要があります。[詳細情報](../email/content-templates.md#test-template)
 * 公開済みのページであっても、ページの作成時に定義した URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできないことを指定する、いくつかの警告を&#x200B;**ランディングページの作成と公開**&#x200B;の節に追加しました。代わりに、プレビュー機能を使用してテストできます。[詳細情報](../landing-pages/create-lp.md)
 * ダイレクトメールチャネルで&#x200B;**同意を管理**&#x200B;する方法についての新しい節を追加しました。[詳細情報](../direct-mail/test-send-direct-mail.md)
-
 
 ## 2023年7月 {#july-2023}
 

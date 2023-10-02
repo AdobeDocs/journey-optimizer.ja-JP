@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 18%
 
 ---
@@ -58,7 +58,7 @@ Web ページに追加したすべてのコンポーネント、調整および�
 
 Web デザイナーを使用してページを編集する場合、 **[!UICONTROL 変更]** パネル — コンポーネントを選択し、web デザイナーインターフェイスから編集する必要はありません。 次の手順に従います。
 
-1. 次から： **[!UICONTROL 変更]**&#x200B;をクリックし、 **[!UICONTROL その他のアクション]** 」ボタンをクリックします。
+1. 次から： **[!UICONTROL 変更]** ウィンドウで、 **[!UICONTROL その他のアクション]** 」ボタンをクリックします。
 
 1. 選択 **[!UICONTROL 変更を追加]**.
 
@@ -66,7 +66,7 @@ Web デザイナーを使用してページを編集する場合、 **[!UICONTRO
 
 1. 変更タイプを選択します。
 
-   * **[!UICONTROL CSS セレクター]**- [詳細情報](#css-selector)
+   * **[!UICONTROL CSS セレクター]** - [詳細情報](#css-selector)
    * **[!UICONTROL ページ`<Head>`]** - [詳細情報](#page-head)
 
 1. コンテンツを入力し、 **[!UICONTROL 保存]** 変更内容。
@@ -184,4 +184,3 @@ The `<head>` 要素は、通常、ページの上部に JavaScript または CSS
 を使用する場合、 **[!UICONTROL ページ`<head>`]** 同じ URL に影響を与える 2 つのキャンペーンの変更タイプを指定すると、両方のキャンペーンからページに JavaScript が挿入されます。 [!DNL Journey Optimizer] は、配信されるコンテンツの順序を自動的に決定します。 コードが配置に依存しないことを確認します。 コード内に競合がないことを確認するかどうかは、ユーザーが決定します。
 
 +++
-
