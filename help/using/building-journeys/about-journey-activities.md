@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
 ht-degree: 100%
 
