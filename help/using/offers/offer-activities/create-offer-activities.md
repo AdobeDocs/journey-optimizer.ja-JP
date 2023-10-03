@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
-workflow-type: ht
-source-wordcount: '2164'
-ht-degree: 100%
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
+workflow-type: tm+mt
+source-wordcount: '2225'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,12 @@ ht-degree: 100%
    これで同じランクになるので、これらは同時に評価されます。[詳細情報](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* 次の場合 [AI モデル](../ranking/ai-models.md) が評価条件グループで使用される場合、そのグループ内のすべての評価条件は AI ランキングメソッドを使用し、同じ特定の AI モデルを使用する必要があります。
+   >
+   >* AI モデルを使用できる評価基準グループは 1 つだけです。 決定範囲内の他のグループは、他のランキング方法（優先度または数式）を使用する必要があります。 [ランキングメソッドの詳細を説明します](../offer-activities/configure-offer-selection.md)
 
 1. この決定の一部としてオファーに別のプレースメントを追加するには、「**[!UICONTROL 新しいスコープ]**」ボタンを使用します。決定範囲ごとに、上記の手順を繰り返します。
 
@@ -323,7 +329,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。これにより、変更がジャーニーのメッセージに組み込まれ、メッセージが最新の更新と一致するようになります。
+>ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。これにより、変更がジャーニーのメッセージに取り込まれ、メッセージが最新の更新と一致するようになります。
 
 ライブ決定を選択し、「**[!UICONTROL 無効化]**」をクリックして、決定のステータスを&#x200B;**[!UICONTROL ドラフト]**&#x200B;に戻します。
 
