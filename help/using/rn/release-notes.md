@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
 workflow-type: tm+mt
-source-wordcount: '4086'
-ht-degree: 86%
+source-wordcount: '4121'
+ht-degree: 85%
 
 ---
 
@@ -99,9 +99,9 @@ ht-degree: 86%
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-<!--**Personalization**
+**パーソナライゼーション**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
+* ビジュアルフラグメントに加えて、式エディターを使用して、Journey Optimizerインターフェイスから式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。 [詳細情報](../content-management/fragments.md#create-expression-fragment)
 
 <!--
 **Alerting**
