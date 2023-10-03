@@ -65,5 +65,5 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 
 * [!DNL Customer Journey Analytics] は、「ジャーニーステップイベント」データセットを取り込みます。
 * 関連する「Journey Orchestration のジャーニーステップイベントスキーマ」の **profileID** フィールドは、ID フィールドとして定義されています。[!DNL Customer Journey Analytics] では、このデータセットを、ユーザーベースの識別情報と同じ値を持つ他のデータセットにリンクできます。
-* このデータセットを [!DNL Customer Journey Analytics]( クロスチャネルジャーニー分析については、 [Customer Journey Analytics文書](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja){target="_blank"}.
+* このデータセットを [!DNL Customer Journey Analytics] クロスチャネルジャーニー分析については、 [Customer Journey Analytics文書](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja){target="_blank"}.
 
