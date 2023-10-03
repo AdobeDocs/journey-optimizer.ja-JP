@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -469,7 +469,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>フラグメントを作成、使用、管理して、メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。フラグメントは、設計プロセスを改善および加速するために、Journey Optimizer キャンペーンおよびジャーニー全体にわたる複数のメールで参照できる、事前に作成された再利用可能なコンポーネントです。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>詳しくは、<a href="../email/fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -906,7 +906,7 @@ Note that each widget can be resized and deleted as needed.
 <p>ジャーニーやキャンペーン全体で活用できるスタンドアロンのコンテンツテンプレートを作成し、すばやく再利用できるようになりました。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>コンテンツテンプレートを作成、編集、使用する方法については<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。 詳しくは、 <a href="../email/content-templates.md">詳細なドキュメント</a>を参照してください。
+<p>コンテンツテンプレートを作成、編集、使用する方法については<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。 詳しくは、 <a href="../content-management/content-templates.md">詳細なドキュメント</a>を参照してください。
 </p>
 </td>
 </tr>

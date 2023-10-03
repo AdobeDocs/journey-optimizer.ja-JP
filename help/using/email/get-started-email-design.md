@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -40,15 +40,15 @@ ht-degree: 100%
 
 ジャーニーまたはキャンペーンに[メールを追加](create-email.md)したら、メールコンテンツの作成を開始できます。
 
-1. ジャーニーまたはキャンペーンの設定画面から、**[!UICONTROL コンテンツを編集]**&#x200B;画面に進み、電子メールデザイナーにアクセスします。 [詳細情報](create-email.md#define-email-content)
+1. ジャーニーまたはキャンペーンの設定画面から、**[!UICONTROL コンテンツを編集]**&#x200B;画面に進み、E メールデザイナーにアクセスします。[詳細情報](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 電子メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
+1. E メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
-   * 電子メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
+   * E メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
 
-   * 電子メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
+   * E メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
 
      >[!NOTE]
      >
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
 
-   * 組み込みまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](email-templates.md)を参照してください。
+   * 組み込みまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](../email/use-email-templates.md)を参照してください。
 
    ![](assets/email_designer_create_options.png)
 

@@ -4,7 +4,7 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 90%
@@ -37,7 +37,7 @@ ht-degree: 90%
 * Offer Decisioning の&#x200B;**データセットを書き出し**&#x200B;が、デフォルトで有効になりました。以前の動作に関するメモを削除しました。[詳細情報](../offers/export-catalog/get-started-export.md)
 * 様々な&#x200B;**キャンペーンレポート指標**&#x200B;の名前を、ライブレポートとグローバルレポートの両方で変更しました。[詳細情報](../reports/campaign-global-report.md)
 * Web チャネルのコンテンツ実験の前提条件に関する新しい節を追加しました。[詳細情報](../web/web-prerequisites.md#experiment-prerequisites)
-* メールコンテンツテンプレートのテスト時に現在追跡がサポートされていないことを示す警告を、**コンテンツテンプレートの操作**&#x200B;ページに追加しました。追跡をテストするには、メールでコンテンツテンプレートを使用し、配達確認を送信する必要があります。[詳細情報](../email/content-templates.md#test-template)
+* メールコンテンツテンプレートのテスト時に現在追跡がサポートされていないことを示す警告を、**コンテンツテンプレートの操作**&#x200B;ページに追加しました。追跡をテストするには、メールでコンテンツテンプレートを使用し、配達確認を送信する必要があります。[詳細情報](../content-management/content-templates.md#test-template)
 * 公開済みのページであっても、ページの作成時に定義した URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできないことを指定する、いくつかの警告を&#x200B;**ランディングページの作成と公開**&#x200B;の節に追加しました。代わりに、プレビュー機能を使用してテストできます。[詳細情報](../landing-pages/create-lp.md)
 * ダイレクトメールチャネルで&#x200B;**同意を管理**&#x200B;する方法についての新しい節を追加しました。[詳細情報](../direct-mail/test-send-direct-mail.md)
 

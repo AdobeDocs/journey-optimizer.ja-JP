@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 >現在、Adobe Experience Manager との統合は、一部のユーザーのみがベータ版として利用できます。
 > ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} を使用してフィードバックを共有します。
 
-Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer のメールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
+Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
 
 ## 前提条件 {#prerequisites}
 
@@ -97,7 +97,7 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
    >
    > テンプレートを編集およびパーソナライズする場合は、互換性モードのみを使用できます。
 
-1. コンテンツテンプレートの準備が整ったら、[テストして検証します](content-templates.md#test-template)。
+1. コンテンツテンプレートの準備が整ったら、[テストして検証します](../content-management/content-templates.md#test-template)。
 
 1. コンテンツが定義されると、**[!UICONTROL 保存済みのテンプレート]**&#x200B;コレクションを参照して、メールの新規作成時に使用できます。次に、「**[!UICONTROL このテンプレートを使用]**」を選択します。
 

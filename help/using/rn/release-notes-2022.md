@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
@@ -443,7 +443,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock と Adobe Journey Optimizer 電子メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。</br> 新しい「<b>類似のストックフォトを検索</b>」オプションを使用すると、画像の内容、カラーおよび構成に一致するストックフォトを見つけることもできます。 </p>
+<p>Adobe Stock と Adobe Journey Optimizer E メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。</br> 新しい「<b>類似のストックフォトを検索</b>」オプションを使用すると、画像の内容、カラーおよび構成に一致するストックフォトを見つけることもできます。 </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>詳しくは、<a href="../content-management/stock.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -514,7 +514,7 @@ ht-degree: 100%
 
 **メール**
 
-* **テンプレートとして保存** - メールコンテンツをテンプレートとして保存し、他のメッセージを作成する際に再利用できるようになりました。[詳細情報](../email/email-templates.md)
+* **テンプレートとして保存** - メールコンテンツをテンプレートとして保存し、他のメッセージを作成する際に再利用できるようになりました。[詳細情報](../content-management/content-templates.md#save-as-template)
 
 
 **管理**
@@ -682,7 +682,7 @@ Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使�
 
 **パーソナライゼーション**
 
-* 40 を超えるパーソナライゼーション式をライブラリに保存できるようになりました。[詳細情報](../personalization/personalization-library.md)
+* 40 を超えるパーソナライゼーション式をライブラリに保存できるようになりました。[詳細情報](../personalization/use-expression-fragments.md)
 
 ## 2022年2月リリース {#feb-2022-release}
 
@@ -714,7 +714,7 @@ Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使�
 <tr>
 <td>
 <p>Journey Optimizer には、事前定義されたパーソナライゼーション式にアクセスできるライブラリが用意されるようになりました。これらの式は、管理者ユーザーが設定します。</p>
-<p>詳しくは、<a href="../personalization/personalization-library.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../personalization/use-expression-fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

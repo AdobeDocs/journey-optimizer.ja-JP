@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 100%
 
@@ -74,9 +74,9 @@ ht-degree: 100%
 
 * **[!UICONTROL アセット]**：[!DNL Adobe Experience Manager Assets Essentials] は、メッセージへの入力に使用できるアセットの一元的リポジトリーです。[詳細情報](../content-management/assets-essentials.md)
 
-* **[!UICONTROL コンテンツテンプレート]** - 改善されて高速化した設計プロセスを実現するために、スタンドアロンテンプレートを作成して、Journey Optimizer キャンペーンやジャーニー全体でカスタムコンテンツを簡単に再利用できます。[詳細情報](../email/content-templates.md)
+* **[!UICONTROL コンテンツテンプレート]** - 改善されて高速化した設計プロセスを実現するために、スタンドアロンテンプレートを作成して、Journey Optimizer キャンペーンやジャーニー全体でカスタムコンテンツを簡単に再利用できます。[詳細情報](../content-management/content-templates.md)
 
-* **[!UICONTROL フラグメント]** - フラグメントを作成および管理してメールの設計プロセスをスムーズにします。メールのコンテンツをすばやく組み立てるために使用できるカスタムコンテンツブロックを事前に作成します。[詳細情報](../email/fragments.md)
+* **[!UICONTROL フラグメント]** - フラグメントを作成および管理してメールの設計プロセスをスムーズにします。メールのコンテンツをすばやく組み立てるために使用できるカスタムコンテンツブロックを事前に作成します。[詳細情報](../content-management/fragments.md)
 
 ### [!UICONTROL データ管理] {#left-nav-data}
 

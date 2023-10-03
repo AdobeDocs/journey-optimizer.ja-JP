@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 93%
+source-wordcount: '1527'
+ht-degree: 92%
 
 ---
 
@@ -182,9 +182,10 @@ ht-degree: 93%
          + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
          + [コンテンツの読み込み](using/email/existing-content.md)
          + [コンテンツを独自にコーディング](using/email/code-content.md)
-         + [テンプレートの操作](using/email/email-templates.md)
+         + [メールテンプレートを使用](using/email/use-email-templates.md)
       + コンテンツのデザイン {#add-content}
          + [コンテンツコンポーネントの使用](using/email/content-components.md)
+         + [ビジュアルフラグメントの活用](using/email/use-visual-fragments.md)
          + [リンクの追加とメッセージの追跡](using/email/message-tracking.md)
          + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
          + [テキストバージョンの生成](using/email/text-version-email.md)
@@ -195,9 +196,7 @@ ht-degree: 93%
          + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
          + [インラインのスタイル属性の追加](using/email/inline-styling.md)
    + [メールのプレビューとテスト](using/email/preview.md)
-   + [コンテンツテンプレートを作成](using/email/content-templates.md)
    + [Experience Manager テンプレートの使用](using/email/aem-templates.md)
-   + [フラグメントの操作](using/email/fragments.md)
    + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
@@ -271,7 +270,7 @@ ht-degree: 93%
       + 式エディターの操作 {#expression-editor}
          + [式エディターについて](using/personalization/personalization-build-expressions.md)
          + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
-         + [保存済み式の使用](using/personalization/personalization-library.md)
+         + [式フラグメントを使用](using/personalization/use-expression-fragments.md)
          + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
       + ヘルパー関数{#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
@@ -288,6 +287,9 @@ ht-degree: 93%
       + パーソナライズ機能の使用例{#personalization-use-cases}
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
+   + 再利用可能なコンテンツを管理 {#reusable-content}
+      + [コンテンツテンプレートの操作](using/content-management/content-templates.md)
+      + [フラグメントの操作](using/content-management/fragments.md)
    + 動的コンテンツ {#dynamic}
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
