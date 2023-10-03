@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 55%
+source-wordcount: '119'
+ht-degree: 47%
 
 ---
 
@@ -33,8 +33,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 
 **リクエスト**
 
@@ -69,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **応答**
 
-正常な応答は、配置を含む、新しく作成された決定ルールに関する情報を返します `id`. 以下を使用すると、 `id` 後の手順で、決定ルールを更新または削除するか、後のチュートリアルで使用して、決定、決定ルール、フォールバックオファーを作成します。
+正常な応答は、新しく作成された決定ルールに関する情報を返します。 `id`. 以下を使用すると、 `id` 後の手順で、決定ルールを更新または削除するか、後のチュートリアルで使用して、決定、決定ルール、フォールバックオファーを作成します。
 
 ```json
 {

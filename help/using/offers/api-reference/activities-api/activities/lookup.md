@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 33%
@@ -45,7 +45,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
 
 ```json
 {
-       "created": "2022-11-15T16:35:06.873+00:00",
+    "created": "2022-11-15T16:35:06.873+00:00",
     "modified": "2023-05-15T15:00:27.641+00:00",
     "etag": 3,
     "schemas": [
@@ -77,8 +77,8 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
             },
             "optionSelection": {
                 "filter": "offerCollection1234"
-            }   
+            }
         }
-                ]
+    ]
 }
 ```

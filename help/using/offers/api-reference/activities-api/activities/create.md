@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 68%
+source-wordcount: '96'
+ht-degree: 53%
 
 ---
 
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **応答**
 
-正常な応答では、新たに作成された決定に関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で ID を使用して、決定を更新または削除できます。
+正常な応答は、新しく作成された決定に関する情報（一意の決定を含む）を返します `id`. 以下を使用すると、 `id` 後の手順で、決定を更新または削除します。
 
 ```json
 {

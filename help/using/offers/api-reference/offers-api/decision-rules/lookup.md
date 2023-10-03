@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 35%
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **応答**
 
-正常な応答は、検索した特定の決定ルールの詳細（一意の決定ルールに関する情報を含む）を返します `@id`.
+正常な応答は、検索した特定の決定ルールの詳細（一意の決定ルールに関する情報を含む）を返します `id`.
 
 ```json
   {

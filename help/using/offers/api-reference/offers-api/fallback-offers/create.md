@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 31%
+source-wordcount: '113'
+ht-degree: 33%
 
 ---
 
@@ -34,29 +34,42 @@ POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 更新するエンティティの ID。 | `fallbackOffer1234` |
 
 **リクエスト**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?offer-type=fallback' \
+curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback' \
 -H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated fallback offer"
+-d '{
+    "name": "Test Fallback Offer DPS",
+    "description": "Fallback Offer description",
+    "status": "approved",
+    "selectionConstraint": {
+        "startDate": "2022-06-10T00:30:00.000+00:00",
+        "endDate": "2032-06-06T23:29:21.402+00:00",
+        "profileConstraintType": "none"
     },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated fallback offer description"
+    "representations": [
+        {
+            "components": [
+                {
+                    "deliveryURL": "https://mysite.com",
+                    "type": "imagelink",
+                    "format": "image/png"
+                }
+            ],
+            "channel": "https://ns.adobe.com/xdm/channel-types/web",
+            "placement": "offerPlacement1234"
+        }
+    ],
+    "rank": {
+        "priority": 1
     }
-]'
+}'
 ```
 
 **応答**

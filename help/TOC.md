@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 92%
+source-wordcount: '1656'
+ht-degree: 93%
 
 ---
 
@@ -429,12 +429,56 @@ ht-degree: 92%
             + [フォールバックオファーの作成](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [フォールバックオファーの更新](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [フォールバックオファーの削除](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + API を使用した決定の作成と管理{#activities-api}
-         + [決定のリスト](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [決定の参照](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
-         + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
-         + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
+         + 決定 {#decisions-api}
+            + [決定のリスト](using/offers/api-reference/activities-api/activities/activities-list.md)
+            + [決定の参照](using/offers/api-reference/activities-api/activities/lookup.md)
+            + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
+            + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
+            + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
+         + 従来の API {#legacy-api}
+            + [レガシー API について](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + プレースメント {#placements}
+               + [プレースメントのリスト](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+               + [プレースメントの参照](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+               + [プレースメントの作成](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+               + [プレースメントの更新](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+               + [プレースメントの削除](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+            + 決定ルール{#decision-rules}
+               + [決定ルールのリスト](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+               + [決定ルールの参照](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+               + [決定ルールの作成](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+               + [決定ルールの更新](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+               + [決定ルールの削除](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+            + コレクション修飾子 {#tags}
+               + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+               + [コレクション修飾子の参照](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+               + [コレクション修飾子の作成](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+               + [コレクション修飾子の更新](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+               + [コレクション修飾子の削除](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+            + パーソナライズされたオファー{#personalized-offers}
+               + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+               + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+               + [パーソナライズされたオファーの作成](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+               + [パーソナライズされたオファーの更新](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+               + [パーソナライズされたオファーの削除](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+            + フォールバックオファー{#fallback-offers}
+               + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+               + [フォールバックオファーの参照](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+               + [フォールバックオファーの作成](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+               + [フォールバックオファーの更新](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+               + [フォールバックオファーの削除](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+            + コレクション{#collections}
+               + [コレクションのリスト](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+               + [コレクションの参照](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+               + [コレクションの作成](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+               + [コレクションの更新](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+               + [コレクションの削除](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+            + 決定 {#decisions-api}
+               + [決定のリスト](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+               + [決定の参照](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+               + [決定の作成](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+               + [決定の更新](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+               + [決定の削除](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
       + API を使用したオファーの配信 {#offer-delivery-api}
          + [オファー配信 API の基本を学ぶ](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)

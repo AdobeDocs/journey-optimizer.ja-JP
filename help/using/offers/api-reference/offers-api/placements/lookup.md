@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 33%
@@ -20,7 +20,7 @@ ht-degree: 33%
 **API 形式**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/placements/{ID}
 ```
 
 | パラメーター | 説明 | 例 |

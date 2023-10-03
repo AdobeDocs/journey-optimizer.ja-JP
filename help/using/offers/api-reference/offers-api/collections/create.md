@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 75%
+source-wordcount: '128'
+ht-degree: 46%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **応答**
 
-正常な応答では、新たに作成されたコレクションに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してコレクションを更新または削除できます。後のチュートリアルで、独自のコレクション`@id` を使用して決定を作成できます。
+正常な応答は、新しく作成されたコレクションに関する情報 ( コレクションの `id`. 以下を使用すると、 `id` 後の手順で、コレクションを更新または削除するか、後のチュートリアルで、決定を作成します。
 
 ```json
 {
