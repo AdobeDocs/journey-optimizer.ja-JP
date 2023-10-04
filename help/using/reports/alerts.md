@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 14%
 
 ---
 
 # アラートの基本を学ぶ {#alerts}
 
-## アラート機能 {#alerting-capabilities}
+## アラートへのアクセスと購読 {#alerting-capabilities}
 
-ユーザーインターフェイスからシステムアラートにアクセスしたり、エラーが発生した場合に E メールを受け取ったりできます。 次から： **アラート** メニューで、使用可能なアラートを表示し、それらを購読できます。 操作が一定の条件に達すると（システムがしきい値に達した場合に問題が発生する可能性があるなど）、アラートメッセージは、組織内でその条件を購読しているユーザーに配信されます。
+エラーが発生した場合、Journey Optimizer通知センターでシステムアラートを取得し、E メールを受け取ることができます。 次から： **アラート** メニューで、使用可能なアラートを表示し、それらを購読できます。 操作が一定の条件に達すると（システムがしきい値に達した場合に問題が発生する可能性があるなど）、アラートメッセージは、組織内でその条件を購読しているユーザーに配信されます。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
