@@ -5,8 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%

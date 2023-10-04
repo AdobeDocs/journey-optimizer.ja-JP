@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: adcf2c1b83f80110c926e06fa931167c411c8d91
+source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 54%
 
 ---
+
 
 # コレクション修飾子のリスト {#list-tags}
 
