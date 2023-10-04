@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 11%
+source-wordcount: '456'
+ht-degree: 10%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 11%
 
 式エディターを使用する場合、作成または現在のサンドボックスに保存されたすべての式フラグメントを活用できます。
 
->[!NOTE]
->
->でフラグメントを作成および管理する方法について説明します。 [この節](../content-management/fragments.md).
+でフラグメントを作成および管理する方法について説明します。 [この節](../content-management/fragments.md).
 
 ➡️ [フラグメントの管理、作成、使用方法については、このビデオをご覧ください](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ ht-degree: 11%
 
 1. その後、 [式エディター](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>複数の改行を含む式フラグメントを作成し、 [SMS](../sms/create-sms.md#sms-content) または [プッシュ](../push/design-push.md) コンテンツを指定した場合、改行は保持されます。 そのため、必ず [SMS](../sms/send-sms.md) または [プッシュ](../push/send-push.md) メッセージを送信する前に送信します。
+
 ## 継承を解除 {#break-inheritance}
 
 フラグメント ID を式エディターに追加すると、元の式フラグメントに加えた変更が同期されます。
@@ -79,13 +81,4 @@ ht-degree: 11%
 その場合、元のフラグメントからの継承は壊れます。 フラグメントのコンテンツがエディターにコピーされ、変更は同期されなくなります。
 
 これは、元のフラグメントにリンクされなくなったスタンドアロン要素になります。コード内の他の要素として編集できます。
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
