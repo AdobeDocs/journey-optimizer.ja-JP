@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 10%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->複数の改行を含む式フラグメントを作成し、 [SMS](../sms/create-sms.md#sms-content) または [プッシュ](../push/design-push.md) コンテンツを指定した場合、改行は保持されます。 そのため、必ず [SMS](../sms/send-sms.md) または [プッシュ](../push/send-push.md) メッセージを送信する前に送信します。
+>複数の改行を含む式フラグメントを作成し、 [SMS](../sms/create-sms.md#sms-content) または [プッシュ](../push/design-push.md) コンテンツを指定した場合、改行は保持されます。 したがって、必ず [SMS](../sms/send-sms.md) または [プッシュ](../push/send-push.md) メッセージを送信する前に送信します。
 
 ## 継承を解除 {#break-inheritance}
 
