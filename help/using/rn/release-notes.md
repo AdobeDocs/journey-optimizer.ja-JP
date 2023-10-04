@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 85%
 
 **アラート**
 
-* 新しいタイプのシステムアラートが導入されました。読み取りオーディエンスが失敗した場合に通知を受け取れるようになりました。 [詳細情報](../reports/alerts.md)。
+* 新しいタイプのシステムアラートが導入されました。次のタイミングで通知を受け取れるようになりました： **オーディエンスの閲覧** アクティビティが失敗しました。 [詳細情報](../reports/alerts.md)。
 
 **Web チャネル**
 
@@ -117,7 +117,7 @@ ht-degree: 85%
 
 **ジャーニー**
 
-ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。 [詳細情報](../building-journeys/journey-gs.md#uplicate-a-journey)
+* ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。 [詳細情報](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ ht-degree: 85%
 
 **メールチャネル**
 
-E メールの表面設定の新しいオプションにより、E メールアドレスがAdobe上にある場合でも、プロファイルにトランザクションメッセージを送信することを選択できます [!DNL Journey Optimizer] 抑制リスト。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
+* E メールの表面設定の新しいオプションにより、E メールアドレスがAdobe上にある場合でも、プロファイルにトランザクションメッセージを送信することを選択できます [!DNL Journey Optimizer] 抑制リスト。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS チャネル**
 
@@ -137,15 +137,15 @@ E メールの表面設定の新しいオプションにより、E メールア�
 
 **ダイレクトメールチャネル**
 
-ダイレクトメールプロバイダーがサーバーに転送する際に、そのプロバイダー用のファイルを暗号化する機能が追加されました。 これをおこなうには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー&amp;ペーストできます。 [詳細情報](../direct-mail/direct-mail-configuration.md)
+* ダイレクトメールプロバイダーがサーバーに転送する際に使用するファイルを暗号化できるようになりました。 これをおこなうには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー&amp;ペーストできます。 [詳細情報](../direct-mail/direct-mail-configuration.md)
 
 **レポート**
 
-Journey Optimizerレポートを CSV ファイルとして書き出せるようになりました。 詳しくは、 [詳細なドキュメント](../reports/global-report.md#export-reports) そして [ハウツービデオ](../reports/global-report.md#video-csv).
+* Journey Optimizerレポートを CSV ファイルとして書き出せるようになりました。 詳しくは、 [詳細なドキュメント](../reports/global-report.md#export-reports) そして [ハウツービデオ](../reports/global-report.md#video-csv).
 
 **Assets**
 
-Assets の新しいオプションを使用すると、Journey Optimizerで Assets のリポジトリを選択できます。 このソリューションを所有している場合は、Assets Essentialsリポジトリまたは Assetsas a Cloud Serviceリポジトリを選択できます。 [詳細情報](../content-management/assets-essentials.md)
+* Assets の新しいオプションを使用すると、Journey Optimizerで Assets のリポジトリを選択できます。 このソリューションを所有している場合は、Assets Essentialsリポジトリまたは Assetsas a Cloud Serviceリポジトリを選択できます。 [詳細情報](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
