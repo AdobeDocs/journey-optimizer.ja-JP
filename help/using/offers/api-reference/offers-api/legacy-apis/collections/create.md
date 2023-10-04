@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 70%
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
+
 
 # コレクションの作成 {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **応答**
 
-正常な応答は、新しく作成されたコレクションに関する情報 ( コレクションの `id`. 以下を使用すると、 `id` 後の手順で、コレクションを更新または削除するか、後のチュートリアルで、決定を作成します。
+正常な応答では、新たに作成されたコレクションに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してコレクションを更新または削除できます。後のチュートリアルで、独自のコレクション`@id` を使用して決定を作成できます。
 
 ```json
 {

@@ -6,12 +6,13 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: f7d2666c88dd2cfb1237fbab34c1ec3b141260b4
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 43%
 
 ---
+
 
 # パーソナライズされたオファーのリスト {#list-personalized-offers}
 

@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 86%
+source-wordcount: '164'
+ht-degree: 90%
 
 ---
 
@@ -67,8 +67,6 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 | `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
-ens35577は、この会話を解決済みとマークしました。
-解決済みを表示
 
 **応答**
 

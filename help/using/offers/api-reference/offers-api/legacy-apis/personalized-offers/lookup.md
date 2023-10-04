@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 80%
@@ -67,7 +67,10 @@ curl -X GET \
                 "repo:etag": 1,
                 "repo:createdDate": "2020-10-20T20:01:02.927874Z",
                 "repo:lastModifiedDate": "2020-10-20T20:01:02.927874Z",
+                "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
                 "_score": 0,
                 "_instance": {
                     "xdm:name": "Discount offer",
@@ -101,11 +104,24 @@ curl -X GET \
                         "xcore:tag:1246d138ec8cca1f"
                     ],
                     "@id": "xcore:personalized-offer:124cc332095cfa74"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5#fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
+                        "@type": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
+                    }
                 }
             }
         ],
         "total": 1,
         "count": 1
+    },
+    "_links": {
+        "self": {
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&name=Discount%20offer",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+        }
     }
 }
 ```

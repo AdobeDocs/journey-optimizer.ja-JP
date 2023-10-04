@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
@@ -40,37 +40,32 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 **リクエスト**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test Fallback Offer DPS",
-    "description": "Fallback Offer description",
-    "status": "approved",
-    "selectionConstraint": {
-        "startDate": "2022-06-10T00:30:00.000+00:00",
-        "endDate": "2032-06-06T23:29:21.402+00:00",
-        "profileConstraintType": "none"
-    },
-    "representations": [
-    {
-            "components": [
-    {
-                    "deliveryURL": "https://mysite.com",
-                    "type": "imagelink",
-                    "format": "image/png"
-                }
-            ],
-            "channel": "https://ns.adobe.com/xdm/channel-types/web",
-            "placement": "offerPlacement1234"
-        }
-    ],
-    "rank": {
-        "priority": 1
-    }
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+        "xdm:status": "approved",
+        "xdm:name": "Fallback for sales",
+        "xdm:representations": [
+            {
+                "xdm:components": [
+                    {
+                        "dc:language": [
+                            "en"
+                        ],
+                        "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                        "dc:format": "text/html"
+                    }
+                ],
+                "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
+            }
+        ]
 }'
 ```
 
