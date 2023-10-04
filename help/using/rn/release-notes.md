@@ -4,9 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
+source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
 workflow-type: tm+mt
-source-wordcount: '4121'
+source-wordcount: '4143'
 ht-degree: 85%
 
 ---
@@ -103,10 +103,9 @@ ht-degree: 85%
 
 * ビジュアルフラグメントに加えて、式エディターを使用して、Journey Optimizerインターフェイスから式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。 [詳細情報](../content-management/fragments.md#create-expression-fragment)
 
-<!--
-**Alerting**
+**アラート**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* 新しいタイプのシステムアラートが導入されました。読み取りオーディエンスが失敗した場合に通知を受け取れるようになりました。 [詳細情報](../reports/alerts.md)。
 
 **Web チャネル**
 

@@ -8,49 +8,61 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6386a5ee5a0d1f221beab67f43636c599531736a
+source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 15%
 
 ---
 
 # アラートの基本を学ぶ {#alerts}
 
-Journey Optimizer は Adobe Experience Platform のアラート機能を活用します。これにより、ユーザーインターフェイスからシステムアラートにアクセスできます。使用可能なアラートを確認し、購読できます。
+## アラート機能 {#alerting-capabilities}
 
-操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達すると、その条件を購読している組織内のユーザーにアラートメッセージが配信されます。
+ユーザーインターフェイスからシステムアラートにアクセスしたり、エラーが発生した場合に E メールを受け取ったりできます。 次から： **アラート** メニューで、使用可能なアラートを表示し、それらを購読できます。 操作が一定の条件に達すると（システムがしきい値に達した場合に問題が発生する可能性があるなど）、アラートメッセージは、組織内でその条件を購読しているユーザーに配信されます。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Adobe Experience Platform のアラートについて詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja)を参照してください。
+Adobe Experience Platformのアラートの詳細については、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}.
 
-アラートを購読して設定する方法については、この[ページ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)を参照してください。
+左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。Journey Optimizerの事前設定済みアラートには、次の 2 つがあります。 [ジャーニーのカスタムアクションエラー](#alert-custom-actions) 警告と [セグメント読み取りトリガー失敗](#alert-read-audiences) アラート。 これらのアラートの詳細は以下のとおりです。
 
->[!AVAILABILITY]
->
->「オーディエンスを読み取りのトリガーに失敗」アラートの設計変更が進行中なので、このアラートは現在一時停止されており、ユーザーインターフェイスから一時的に削除されています。これらの変更がリリースされると、アラートが再び表示され、購読できるようになります。
+ユーザーインターフェイスで **購読** オプションを **アラート** ダッシュボード。 同じ方法を使用して購読を解除します。
 
-左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。Journey Optimizer の事前設定済みのアラートを使用できます。このアラートは、カスタムアクションが失敗した場合に警告を表示します。過去 5 分間に特定のカスタムアクションで 1％以上のエラーが発生した場合、エラーが発生したとみなします。これは 30 秒ごとに評価されます。
+![](assets/alert-subscribe.png)
 
-![](assets/alerts-custom-action.png)
+また、を通じてアラートを購読することもできます [I/O イベントの通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}ただし、アラートルールは、異なるサブスクリプションパッケージに整理されます。
 
+予期しない動作が発生した場合は、購読者にアラート通知が送信されます。 ユーザーの環境設定に基づいて、アラートは E メールで、またはJourney Optimizer通知センター内（ユーザーインターフェイスの右上隅）に直接送信されます。
 
-<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
-
-![](assets/alerts1.png)-->
-
-予期しない動作が発生した場合は、ユーザーの環境設定に基づき、メールを通じて、または Journey Optimizer 内のインターフェイスの右上隅に、アラートの受信者に対してアラート通知が送信されます。
-
-アラートが解決されると、「解決済み」通知が届きます。カスタムアクションアラートの場合、次の 2 つの理由が考えられます。
-* 過去 5 分間にわたり、そのカスタムアクションに関するエラー（または 1％のしきい値を下回るエラー）が発生していません。
-* そのカスタムアクションに到達したプロファイルがありません。
-
-[Adobe Experience Platform UI でアラートルールを表示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja)すると、各ルールを個別に登録できます。ただし、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja)を通じてアラートを登録する場合、アラートルールは異なる登録パッケージに整理されます。カスタムアクションアラートに対応する I/O イベントのサブスクリプション名は、「ジャーニーカスタムアクションエラー」です。
-
-<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".-->
+アラートが解決されると、購読者は「解決済み」通知を受け取ります。
 
 >[!WARNING]
 >
->これらのアラートは、ライブジャーニーにのみ適用されます。テストモードのジャーニーでは、アラートはトリガーされません。
+>Adobe Journey Optimizer固有のアラートは、次の場合にのみ適用されます： **live** ジャーニー。 テストモードのジャーニーに対しては、アラートはトリガーされません。
 
+## ジャーニーのカスタムアクションエラー {#alert-custom-actions}
+
+このアラートは、カスタムアクションが失敗した場合に警告を表示します。過去 5 分間に特定のカスタムアクションで 1％以上のエラーが発生した場合、エラーが発生したとみなします。これは 30 秒ごとに評価されます。
+
+![](assets/alerts-custom-action.png)
+
+カスタムアクションに関するアラートは、過去 5 分間に次の場合に解決されます。
+
+* そのカスタムアクションに関するエラー（または 1%しきい値を下回るエラー）はありません。
+
+* または、そのカスタムアクションに到達したプロファイルはありません。
+
+カスタムアクションアラートに対応する I/O イベントのサブスクリプション名は次のとおりです。 **ジャーニーのカスタムアクションエラー**.
+
+## セグメント読み取りトリガー失敗 {#alert-read-audiences}
+
+このアラートは、 **セグメントを読み取り** アクティビティは、スケジュールされた実行時間の後、10 分間プロファイルを処理していません。 このエラーは、技術的な問題が原因で発生しているか、オーディエンスが空であることが原因で発生しています。
+
+![](assets/alerts1.png)
+
+アラート： **セグメントを読み取り** アクティビティは、繰り返しジャーニーにのみ適用されます。 **セグメントを読み取り** 実行スケジュールを持つライブジャーニー内のアクティビティ **1 回** または **できるだけ早く** は無視されます。
+
+アラート： **セグメントを読み取り** は、プロファイルが **セグメントを読み取り** ノード。
+
+に対応する I/O イベントのサブスクリプション名 **セグメントを読み取り** アラートは次のとおりです。 **ジャーニー読み取りセグメントの遅延、エラー、エラー**.
