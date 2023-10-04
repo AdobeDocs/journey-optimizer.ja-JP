@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
+source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 15%
+source-wordcount: '461'
+ht-degree: 14%
 
 ---
 
@@ -31,13 +31,13 @@ Adobe Experience Platformのアラートの詳細については、 [Adobe Exper
 
 ![](assets/alert-subscribe.png)
 
-また、を通じてアラートを購読することもできます [I/O イベントの通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}ただし、アラートルールは、異なるサブスクリプションパッケージに整理されます。
+また、を通じてアラートを購読することもできます [I/O イベントの通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}. アラートルールは、異なるサブスクリプションパッケージに整理されます。 特定のJourney Optimizerアラートに対応するイベント購読について、以下で詳しく説明します。
 
 予期しない動作が発生した場合は、購読者にアラート通知が送信されます。 ユーザーの環境設定に基づいて、アラートは E メールで、またはJourney Optimizer通知センター内（ユーザーインターフェイスの右上隅）に直接送信されます。
 
 アラートが解決されると、購読者は「解決済み」通知を受け取ります。
 
->[!WARNING]
+>[!CAUTION]
 >
 >Adobe Journey Optimizer固有のアラートは、次の場合にのみ適用されます： **live** ジャーニー。 テストモードのジャーニーに対しては、アラートはトリガーされません。
 
@@ -51,7 +51,7 @@ Adobe Experience Platformのアラートの詳細については、 [Adobe Exper
 
 * そのカスタムアクションに関するエラー（または 1%しきい値を下回るエラー）はありません。
 
-* または、そのカスタムアクションに到達したプロファイルはありません。
+* または、そのカスタムアクションに到達したプロファイルがない。
 
 カスタムアクションアラートに対応する I/O イベントのサブスクリプション名は次のとおりです。 **ジャーニーのカスタムアクションエラー**.
 
