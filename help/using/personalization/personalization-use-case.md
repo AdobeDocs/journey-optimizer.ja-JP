@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ユースケース, パーソナライゼーション
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
    ![](assets/perso-uc2.png)
 
-1. 件名を入力し、プロファイルのパーソナライゼーションを追加します。検索バーを使用して、プロファイルの名前フィールドを検索します。件名テキストで、パーソナライゼーションフィールドを挿入する位置にカーソルを置き、「**+**」アイコンをクリックします。「**保存**」をクリックします。
+1. 件名を入力し、プロファイルのパーソナライゼーションを追加します。 検索バーを使用して、プロファイルの名前フィールドを検索します。件名テキストで、パーソナライゼーションフィールドを挿入する位置にカーソルを置き、「**+**」アイコンをクリックします。「**保存**」をクリックします。
 
    ![](assets/perso-uc3.png)
 

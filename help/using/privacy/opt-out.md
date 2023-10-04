@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -141,11 +141,11 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 1. 右側の専用ボタンを使用して、開始オーディエンスを追加します。
 
-1. 「+」アイコンをクリックし、「**[!UICONTROL 分割]**」を選択して、分割オーディエンスを作成します。詳しくは、[分割アクティビティ](../audience/composition-canvas.md#split)を参照してください。
+1. 次をクリック： **+** アイコンをクリックし、 **[!UICONTROL 分割]** 「 」アクティビティを使用して、分割オーディエンスを作成します。 詳しくは、[分割アクティビティ](../audience/composition-canvas.md#split)を参照してください。
 
    ![](assets/perso-consent-audience-split.png)
 
-1. 右側のパネルで分割タイプとして「**[!UICONTROL 属性分割]**」を選択します。
+1. 右側のウィンドウで、「 」を選択します。 **[!UICONTROL 属性の分割]** を分割タイプとして使用します。
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
