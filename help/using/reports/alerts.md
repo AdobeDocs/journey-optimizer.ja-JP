@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
+source-git-commit: 62ae151ddd92904ac514ee85639c9ba3a18beb0e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 14%
+source-wordcount: '493'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 14%
 
 ## アラートへのアクセスと購読 {#alerting-capabilities}
 
-エラーが発生した場合、Journey Optimizer通知センターでシステムアラートを取得し、E メールを受け取ることができます。 次から： **アラート** メニューで、使用可能なアラートを表示し、それらを購読できます。 操作が一定の条件に達すると（システムがしきい値に達した場合に問題が発生する可能性があるなど）、アラートメッセージは、組織内でその条件を購読しているユーザーに配信されます。
+エラーが発生した場合、Journey Optimizer通知センター（アプリ内アラート）でシステムアラートを取得したり、E メールを受け取ったりできます。
+
+次から： **アラート** メニューで、使用可能なアラートを表示し、それらを購読できます。 操作が一定の条件に達すると（システムがしきい値に達した場合に問題が発生する可能性があるなど）、アラートメッセージは、組織内でその条件を購読しているユーザーに配信されます。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
@@ -33,7 +35,7 @@ Adobe Experience Platformのアラートの詳細については、 [Adobe Exper
 
 また、を通じてアラートを購読することもできます [I/O イベントの通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}. アラートルールは、異なるサブスクリプションパッケージに整理されます。 特定のJourney Optimizerアラートに対応するイベント購読について、以下で詳しく説明します。
 
-予期しない動作が発生した場合は、購読者にアラート通知が送信されます。 ユーザーの環境設定に基づいて、アラートは E メールで、またはJourney Optimizer通知センター内（ユーザーインターフェイスの右上隅）に直接送信されます。
+予期しない動作が発生した場合は、購読者にアラート通知が送信されます。 ユーザーの環境設定に基づいて、アラートは E メールで送信されます。また、Journey Optimizer通知センター内（ユーザーインターフェイスの右上隅）に直接送信されます。 デフォルトでは、アプリ内アラートのみが有効になっています。 E メールアラート機能を有効にするには、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 アラートが解決されると、購読者は「解決済み」通知を受け取ります。
 
