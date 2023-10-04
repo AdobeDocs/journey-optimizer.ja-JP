@@ -6,9 +6,9 @@ description: Journey Optimizer で SMS を送信するように環境を設定�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1008'
 ht-degree: 89%
 
 ---
@@ -61,11 +61,11 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。[詳細情報](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。[詳細情報](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}。
 
-      * **[!UICONTROL オプトインメッセージ]**: **[!UICONTROL オプトインメッセージ]**.
+      * **[!UICONTROL オプトインメッセージ]**：自動的に **[!UICONTROL オプトインメッセージ]**.
 
-      * **[!UICONTROL ヘルプメッセージ]**: **[!UICONTROL ヘルプメッセージ]**.
+      * **[!UICONTROL ヘルプメッセージ]**：自動的に **ヘルプメッセージ**.
 
    * **[!DNL Twilio]** の場合：
 
@@ -73,13 +73,13 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 
       * **[!UICONTROL アカウント SID]** および&#x200B;**[!UICONTROL 認証トークン]**：Twilio コンソールダッシュボードページの「アカウント情報」パネルにアクセスして、資格情報を検索します。
 
-      * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。[詳細情報](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+      * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。[詳細情報](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}。
 
    * **[!DNL Infobip]** の場合：
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。[詳細情報](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。[詳細情報](https://www.infobip.com/docs/api){target="_blank"}。
 
    ![](assets/sms_7.png)
 
