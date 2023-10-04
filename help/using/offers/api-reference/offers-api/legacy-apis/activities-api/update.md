@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 91%
+source-wordcount: '158'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 91%
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
-    @@ -19,61 +19,62 @@次の表に、*Content-Type*および
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
+
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |

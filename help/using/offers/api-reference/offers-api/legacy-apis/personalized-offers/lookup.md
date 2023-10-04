@@ -6,15 +6,19 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: a8bb58489c708f444d1fad193c8dc70d7e1a97de
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 80%
 
 ---
 
 
 # パーソナライズされたオファーの検索 {#look-up-personalized-offer}
+
+パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
+
+パーソナライズされた特定のオファーを検索するには、 **オファーライブラリ** パーソナライズされたオファーを含む API `@id` または、リクエストパス内のパーソナライズされたオファーの名前。
 
 **API 形式**
 
@@ -39,11 +43,12 @@ curl -X GET \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
-	@@ -41,81 +37,60 @@ curl -X GET \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
 
-**Response**
+**応答**
 
-A successful response returns the details of the placement including information about your container ID, instance ID and, unique personalized offer `@id`.
+正常な応答では、パーソナライズされたオファーに関するプレースメントの詳細（コンテナ ID とインスタンス ID に関する情報と一意のパーソナライズされたオファー `@id` を含む）が返されます。
 
 ```json
 {
@@ -54,36 +59,33 @@ A successful response returns the details of the placement including information
         "results": [
             {
                 "instanceId": "fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-    "schemas": [
+                "schemas": [
                     "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
                 ],
                 "productContexts": [
                     "acp"
-    ],
+                ],
                 "repo:etag": 1,
                 "repo:createdDate": "2020-10-20T20:01:02.927874Z",
                 "repo:lastModifiedDate": "2020-10-20T20:01:02.927874Z",
-                "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
                 "_score": 0,
                 "_instance": {
                     "xdm:name": "Discount offer",
                     "xdm:representations": [
-        {
+                        {
                             "xdm:components": [
-                {
+                                {
                                     "dc:language": [
                                         "en"
-                    ],
+                                    ],
                                     "@type": "https://ns.adobe.com/experience/offer-management/content-component-json",
                                     "dc:format": "application/json"
-                }
+                                }
                             ],
                             "xdm:placement": "xcore:offer-placement:12428d436d87dc84"
-        }
-    ],
+                        }
+                    ],
                     "xdm:rank": {
                         "xdm:priority": 1
                     },
@@ -100,24 +102,11 @@ A successful response returns the details of the placement including information
                         "xcore:tag:1246d138ec8cca1f"
                     ],
                     "@id": "xcore:personalized-offer:124cc332095cfa74"
-    },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5#fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-                        "@type": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
-                    }
                 }
             }
         ],
         "total": 1,
         "count": 1
-    },
-    "_links": {
-        "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&name=Discount%20offer",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
-            }
-        }
+    }
 }
 ```

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 83%
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
@@ -56,10 +56,10 @@ curl -X GET \
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `q` | 選択したフィールドで検索するオプションのクエリ文字列。クエリ文字列は小文字にする必要があり、二重引用符で囲むことで、トークン化を防ぎ、特殊文字をエスケープできます。文字+ - = &amp;&amp; |  | > &lt; ! ( ) { } [ ] ^ \&quot; ~ * ? : \ /は特別な意味を持ち、クエリ文字列内に出現する場合はバックスラッシュでエスケープする必要があります。 デモコレクション |
-| `qop` | 適用 `AND` または `OR` の値に対する演算子 `q` クエリー文字列パラメーター。 | `AND` または `OR` |
-| field | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に — を追加すると (orderby=-title)、降順 (Z ～ A) のタイトルで項目が並べ替えられます。 | `-repo:createdDate` |
+| `q` | 選択したフィールドで検索するオプションのクエリ文字列。クエリ文字列は小文字にする必要があり、二重引用符で囲むことで、トークン化を防ぎ、特殊文字をエスケープできます。次の文字 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` は特別な意味を持ち、クエリ文字列に出現する場合はバックスラッシュでエスケープする必要があります。 | `demo collection` |
+| `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
+| `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
 | `limit` | 返されるコレクションの数を制限します。 | `limit=5` |
 
 **応答**

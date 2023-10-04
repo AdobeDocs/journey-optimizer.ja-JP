@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '141'
 ht-degree: 100%
 
 ---
@@ -39,11 +39,11 @@ curl -X DELETE \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
-	@@ -37,6 +35,6 @@ curl -X DELETE \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
 
-**Response**
+**応答**
 
-A successful response returns HTTP status 202 (No Content) and a blank body.
+正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
 
-You can confirm the deletion by attempting a lookup (GET) request to the decision. You will need to include an Accept header in the request, but should receive an HTTP status 404 (Not Found) because the decision has been removed from the container.
-
+決定に対して検索（GET）リクエストを試行することで、削除を確認できます。リクエストには Accept ヘッダーを含める必要がありますが、決定がコンテナから削除されたので、HTTP ステータス 404（見つかりません）が返されます。

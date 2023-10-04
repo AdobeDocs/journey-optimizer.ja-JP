@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '153'
 ht-degree: 100%
 
 ---
@@ -39,11 +39,11 @@ curl -X DELETE \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
-	@@ -37,6 +36,6 @@ curl -X DELETE \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
 
-**Response**
+**応答**
 
-A successful response returns HTTP status 202 (No Content) and a blank body.
+正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
 
-You can confirm the deletion by attempting a lookup (GET) request to the fallback offer. You will need to include an Accept header in the request, but should receive an HTTP status 404 (Not Found) because the fallback offer has been removed from the container.
-
+フォールバックオファーに対して検索（GET）リクエストを実行することで、削除を確認できます。リクエストには Accept ヘッダーを含める必要がありますが、フォールバックオファーがコンテナから削除されたので、HTTP ステータス 404（見つかりません）を受け取ります。

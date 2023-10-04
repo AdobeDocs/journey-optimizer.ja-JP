@@ -6,13 +6,15 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
+
+# フォールバックオファーの作成 {#create-fallback-offer}
 
 コンテナ ID を提供しながら [!DNL Offer Library] API に POST リクエストを実行することで、フォールバックオファーを作成できます。
 

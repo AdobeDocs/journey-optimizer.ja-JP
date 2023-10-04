@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 61%
+source-wordcount: '107'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,12 @@ ht-degree: 61%
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-    @@ -22,61 +22,67 @@次の表に、*Content-Type*および
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+
+| ヘッダー名 | 値 |
+| ----------- | ----- |
+| Content-Type | `application/json` |
+
 **API 形式**
 
 ```http

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 97%
@@ -25,10 +25,12 @@ ht-degree: 97%
 ```http
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
+
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | 結果をフィルターするオプションのクエリパラメーター。 | `limit=2` |
+
 **リクエスト**
 
 ```shell
@@ -40,9 +42,13 @@ curl -X GET \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
 ## クエリパラメーターの使用 {#using-query-parameters}
+
 リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+
 ### ページング {#paging}
+
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 
 | パラメーター | 説明 | 例 |
