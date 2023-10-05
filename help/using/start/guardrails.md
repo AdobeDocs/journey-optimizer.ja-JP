@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 95%
 
 ---
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### カスタムアクション {#custom-actions-g}
 
-* すべてのカスタムアクションに対して、5,000 個の呼び出し/秒の上限が定義されています。 この制限は、カスタムアクションの対象となる外部エンドポイントを保護するために、顧客の使用に基づいて設定されました。
+* すべてのカスタムアクションに対して、30 秒間にわたる 150,000 回の呼び出しの制限が定義されます。 この制限は、カスタムアクションの対象となる外部エンドポイントを保護するために、顧客の使用に基づいて設定されました。
 * カスタムアクションの URL は動的パラメーターをサポートしていません。
 * POST、PUT および GET 呼び出しメソッドがサポートされています
 * クエリパラメーターやヘッダーの名前は、「.」または「$」で始める必要があります。

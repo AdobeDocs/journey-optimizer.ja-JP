@@ -4,10 +4,10 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '4141'
-ht-degree: 85%
+source-wordcount: '4190'
+ht-degree: 84%
 
 ---
 
@@ -120,8 +120,9 @@ ht-degree: 85%
 * ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。 [詳細情報](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
+
+* カスタムアクション応答のサポートが GA になりました。 この機能を使用すると、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 さらに、すべての税関アクションをエンドポイントあたり 30 秒以上の呼び出し 15,000 に制限する新しいガードレールが追加されました。 [詳細情報](../action/action-response.md)
 <!--
-* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 

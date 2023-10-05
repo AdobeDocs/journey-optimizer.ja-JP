@@ -9,21 +9,17 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
-exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 83%
+source-wordcount: '603'
+ht-degree: 84%
 
 ---
 
 # カスタムアクションでの API 呼び出し応答の使用 {#custom-action-enhancements}
 
 カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。
-
->[!AVAILABILITY]
->
->この機能は現在、ベータ版で利用できます。
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
