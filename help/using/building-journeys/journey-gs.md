@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 98%
+source-wordcount: '1710'
+ht-degree: 97%
 
 ---
 
 # 初めてのジャーニーの作成{#jo-quick-start}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card2"
+>title="ジャーニーの作成"
+>abstract="用途 **Adobe Journey Optimizer** イベントやデータソースに保存されたコンテキストデータを使用して、リアルタイムオーケストレーションのユースケースを構築する。"
 
 ## 前提条件{#start-prerequisites}
 

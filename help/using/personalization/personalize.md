@@ -9,14 +9,20 @@ role: Data Engineer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 87%
+source-wordcount: '411'
+ht-degree: 76%
 
 ---
 
 # パーソナライゼーションの基本を学ぶ{#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card5"
+>title="エクスペリエンスをパーソナライズ"
+>abstract="用途 **Adobe Journey Optimizer** を使用して、メッセージに関するデータと情報を活用し、特定の受信者に合わせてメッセージを変更できます。 名前、興味、住所、購入品などの情報です。"
+
 
 [!DNL Adobe Journey Optimizer] のパーソナライゼーション機能を理解すると、受信者に関するデータと情報を活用して、特定の受信者に合わせてメッセージを作成できます。名前、興味、住所、購入品などの情報です。
 
@@ -32,7 +38,7 @@ ht-degree: 87%
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-メッセージ（メールおよびプッシュ）を処理する際に、Journey Optimizer は式を、 Experience Platform データベースに含まれるデータに置き換えます。`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は “Hello John Doe” となります。
+Journey Optimizerでは、メッセージ（E メールおよびプッシュ）を処理する際に、式がメッセージデータベースに含まれるデータで置き換えられます。次のようにExperience Platformが実行されます。  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は「Hello John Doe」になります。
 
 ## プロファイルデータを活用したメッセージのパーソナライズ {#data}
 
