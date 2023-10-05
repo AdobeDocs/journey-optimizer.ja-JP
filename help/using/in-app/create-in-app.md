@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
-workflow-type: ht
-source-wordcount: '1940'
-ht-degree: 100%
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+workflow-type: tm+mt
+source-wordcount: '1987'
+ht-degree: 97%
 
 ---
 
 # アプリ内メッセージの作成  {#create-in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_triggers"
+>title="アプリ内トリガーの管理"
+>abstract="メッセージをアクティブ化する特定のトリガーや条件を選択することで、イベントを効率的に制御します。 ルールビルダーを使用すると、正確な条件と値を定義できます。 これらの条件が満たされると、アプリ内メッセージの配信を含む一連のアクションが開始されます。"
 
 アプリ内メッセージは、キャンペーンまたはジャーニーに追加できます。次に説明する手順に従って、両方のコンテキストでアプリ内メッセージを作成します。
 

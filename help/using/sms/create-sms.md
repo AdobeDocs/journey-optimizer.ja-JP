@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -80,6 +80,11 @@ ht-degree: 100%
 >[!ENDTABS]
 
 ## SMS コンテンツの定義{#sms-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_sms_content"
+>title="SMS コンテンツの定義"
+>abstract="式エディターを使用してコンテンツを定義し、動的要素を組み込むことで、SMS メッセージをカスタマイズおよびパーソナライズします。"
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、SMS コンテンツを設定します。
 

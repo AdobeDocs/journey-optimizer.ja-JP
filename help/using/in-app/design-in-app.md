@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 100%
+source-wordcount: '1147'
+ht-degree: 78%
 
 ---
 
 # アプリ内コンテンツのデザイン {#design-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_content"
+>title="アプリ内コンテンツの定義"
+>abstract="アプリ内メッセージのコンテンツとスタイルをカスタマイズします。 また、メディアやアクションボタンを追加して、メッセージをより魅力的で効果的に表示することもできます。"
 
 アプリ内コンテンツを編集して、エクスペリエンスオプションを設定できます。
 
@@ -31,6 +36,11 @@ ht-degree: 100%
 アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。その後、キャンペーンスケジュールに従って通知が送信されます。詳しくは、[このページ](send-in-app.md)を参照してください。
 
 ## メッセージのレイアウト {#message-layout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="アプリ内コンテンツの定義"
+>abstract="メッセージのレイアウトは、メッセージの枠を組むための一般的に使用されるテンプレートを提供します。 カスタムレイアウトには、カスタムレイアウトメッセージをアップロードまたは作成するHTMLが用意されています。"
 
 「**[!UICONTROL メッセージレイアウト]**」セクションから、メッセージのニーズに応じて、4 つの異なるレイアウトオプションのいずれかを選択します。
 
@@ -58,9 +68,14 @@ ht-degree: 100%
 
 ## 「コンテンツ」タブ {#content-tab}
 
-「**コンテンツ**」タブから、通知のコンテンツと「**閉じる**」ボタンのスタイルを定義してパーソナライズできます。また、アプリ内通知にメディアを追加したり、このタブからアクションボタンを追加したりできます。
+次から： **コンテンツ** 」タブでは、通知の内容やスタイルを定義し、パーソナライズできます **閉じる** 」ボタンをクリックします。 また、アプリ内通知にメディアを追加したり、このタブからアクションボタンを追加したりできます。
 
 ### 「閉じる」ボタン {#close-button}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_close"
+>title="「閉じる」ボタンのスタイルを選択します。"
+>abstract="「閉じる」ボタンセクションでは、メッセージの閉じるボタンのバリエーションを選択するオプションと、カスタム画像をアップロードするオプションを選択できます。"
 
 ![](assets/in_app_content_2.png)
 
@@ -80,6 +95,11 @@ ht-degree: 100%
 
 ### メディア {#add-media}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_media"
+>title="アプリ内メッセージにメディアを追加して、エンドユーザーにとって魅力的なエクスペリエンスを作成します。"
+>abstract="コンテンツへの直接リンクを指定するか、アセットセレクターを使用して Asset Essentials 内のメディアを選択し、メッセージに追加します。"
+
 「**[!UICONTROL メディア]**」フィールドを使用すると、アプリ内メッセージにメディアを追加して、エンドユーザーにとって魅力的なエクスペリエンスを作成できます。
 
 ![](assets/in_app_content_3.png)
@@ -93,6 +113,11 @@ ht-degree: 100%
 +++
 
 ### ヘッダーと本文 {#title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_content"
+>title="メッセージを作成するには、「ヘッダー」フィールドと「本文」フィールドにコンテンツを入力します。"
+>abstract="ヘッダーと本文の両方をここに追加できます。 パーソナライゼーショントークンを含めるには、パーソナライゼーションダイアログを開きます。"
 
 メッセージを作成するには、「**[!UICONTROL ヘッダー]**」フィールドと「**[!UICONTROL 本文]**」フィールドにコンテンツを入力します。
 
@@ -111,6 +136,11 @@ ht-degree: 100%
 +++
 
 ### ボタン {#add-buttons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_buttons"
+>title="ユーザーがアプリ内メッセージを操作するためのボタンを追加します。"
+>abstract="このセクションでは、コールトゥアクションボタンをメッセージに追加できます。 各ボタンにカスタムテキストとターゲットを含めることができます。"
 
 ユーザーがアプリ内メッセージを操作するためのボタンを追加します。
 
@@ -146,6 +176,11 @@ ht-degree: 100%
 
 ### プレビュー {#preview-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_preview"
+>title="アプリ内メッセージをプレビューします。"
+>abstract="これは、メッセージがデバイスのメッセージ概要に送信されたときに表示されるプレビュー画像です。"
+
 ![](assets/in_app_content_6.png)
 
 「**[!UICONTROL アプリのプレビュー]**」を使用すると、アプリ内メッセージに次の背景を追加できます。
@@ -158,6 +193,11 @@ ht-degree: 100%
 
 ### レイアウト {#layout-options}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="アプリ内メッセージのメッセージレイアウトを定義します。"
+>abstract="この節では、アプリ内メッセージに背景を追加できます。 そのためには、UI の引き継ぎを有効にする必要があります。"
+
 ![](assets/in_app_content_7.png)
 
 「**[!UICONTROL 背景画像]**」フィールドを使用すると、アプリ内メッセージに次の背景を追加できます。
@@ -167,6 +207,11 @@ ht-degree: 100%
 * 背景色。
 
 ### メッセージ {#message-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_advanced"
+>title="メッセージの詳細設定を定義します。"
+>abstract="この節では、特に高度な書式設定を有効にしている場合に、アプリ内コンテンツのパーソナライゼーションを強化する方法について説明します。"
 
 ![](assets/in_app_content_8.png)
 
