@@ -4,10 +4,10 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 90%
+source-wordcount: '3765'
+ht-degree: 88%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 90%
 * アクセス制御に関するドキュメントへのリンクが更新されました。 [詳細情報](../administration/permissions.md)
 * アプリ内チャネルの前提条件が更新され、 Adobe Experience Platformのデータ収集の詳細が追加されました。 [詳細情報](../in-app/inapp-configuration.md)
 * ランキング式の例で示されている式の一部は、検証エラーを回避するために更新されました。 [詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* に警告が追加されました **決定範囲の定義** AI モデルを評価基準グループで使用する場合、そのグループ内のすべての評価基準が同じ特定の AI モデルを持つ AI ランキングメソッドを使用する必要があることを指定します。 また、AI モデルを使用できる評価基準グループは 1 つだけです。 [詳細情報](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023年8月 {#august-2023}
 
