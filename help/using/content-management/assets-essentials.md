@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: アセット, 初期設定, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 89%
@@ -49,8 +49,7 @@ ht-degree: 89%
 
    ![](assets/media_library_4.png)
 
-+++
-Assets リポジトリを切り替える方法を説明します。
++++ Assets リポジトリを切り替える方法を説明します。
 
    Assets リポジトリを変更するには、右上のアカウントアイコンを選択し、 **[!UICONTROL リポジトリを選択]**.
 
