@@ -4,7 +4,7 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '4190'
 ht-degree: 84%
@@ -121,7 +121,7 @@ ht-degree: 84%
 
 
 
-* カスタムアクション応答のサポートが GA になりました。 この機能を使用すると、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 さらに、すべての税関アクションをエンドポイントあたり 30 秒以上の呼び出し 15,000 に制限する新しいガードレールが追加されました。 [詳細情報](../action/action-response.md)
+* カスタムアクション応答のサポートが GA になりました。 この機能を使用すると、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 さらに、すべての税関アクションをエンドポイントあたり 30 秒を超える 150,000 回の呼び出しに制限する新しいガードレールが追加されました。 [詳細情報](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
