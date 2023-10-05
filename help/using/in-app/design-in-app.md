@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 78%
@@ -38,7 +38,7 @@ ht-degree: 78%
 ## メッセージのレイアウト {#message-layout}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_inapp_authoring_message_layout"
 >title="アプリ内コンテンツの定義"
 >abstract="メッセージのレイアウトは、メッセージの枠を組むための一般的に使用されるテンプレートを提供します。 カスタムレイアウトには、カスタムレイアウトメッセージをアップロードまたは作成するHTMLが用意されています。"
 
