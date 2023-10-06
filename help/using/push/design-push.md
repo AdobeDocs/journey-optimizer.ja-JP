@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 96%
+source-wordcount: '1407'
+ht-degree: 85%
 
 ---
 
 # プッシュ通知のデザイン {#design-push-notification}
 
 ## タイトルと本文 {#push-title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-compose"
+>title="プッシュ通知をパーソナライズします。"
+>abstract="メッセージを作成するには、「タイトル」フィールドと「本文」フィールドに内容を入力します。 パーソナライゼーショントークンを含めるには、パーソナライゼーションダイアログを開きます。"
 
 メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。式エディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)についての詳細をご覧ください。
 
@@ -40,7 +45,12 @@ ht-degree: 96%
 
 ## メディアの追加 {#add-media-push}
 
-iOS バージョンのプッシュ通知では、通知内に表示する画像、ビデオまたは GIF を追加できます。
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-media"
+>title="プッシュ通知にメディアを追加する"
+>abstract="通知内に表示する画像、ビデオまたはGIFを追加できます。"
+
+プッシュ通知のiOSバージョンでは、通知内に表示される画像、ビデオまたはGIFを追加できます。
 
 Android バージョンで追加できるのは、画像アイコンと、拡張通知用の画像のみです。
 
@@ -57,6 +67,11 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 メディアを追加すると、通知本文の右側に表示されます。
 
 ## ボタンの追加 {#add-buttons-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-buttons"
+>title="ユーザーがプッシュ通知を操作するためのボタンを追加します。"
+>abstract="このセクションでは、コールトゥアクションボタンをメッセージに追加できます。 iOSの場合は、通知カテゴリ識別子を指定します。 Android の場合、各ボタンにカスタムテキストとターゲットを含めることができます。"
 
 プッシュコンテンツにボタンを追加することで、アクションにつながる通知を作成できます。
 
@@ -85,11 +100,21 @@ iOSバージョンでは、通知カテゴリ識別子が指定されます。 �
 
 「 **[!UICONTROL カスタムデータ]**」セクションを使用すると、キーと値のペアを追加できます。
 
-## カスタムデータ
+## カスタムデータ {#custom-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-custom"
+>title="プッシュ通知のカスタムデータを設定します。"
+>abstract="モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加します。"
 
 **[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。Adobe Experience Platform と Adobe Launch でのプッシュ通知の設定方法の詳細については、[この節](push-gs.md)を参照してください。
 
 ## 詳細オプション {#advanced-options-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-advanced"
+>title="プッシュ通知のアドバンスオプションを設定します。"
+>abstract="このセクションを使用すると、プッシュ通知のパーソナライゼーションを強化できます。"
 
 プッシュ通知用に&#x200B;**[!UICONTROL 詳細オプション]**&#x200B;を設定できます。使用できるパラメーターは以下のとおりです。
 

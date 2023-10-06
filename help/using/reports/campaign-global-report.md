@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 98%
+source-wordcount: '2955'
+ht-degree: 78%
 
 ---
 
@@ -45,6 +45,11 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 ## 「キャンペーン」タブ {#campaign-global}
 
 ### 配信 {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="キャンペーンの統計"
+>abstract="キャンペーンの統計ウィジェットは、入力されたプロファイルや配信されたアクションなど、キャンペーンに関する主な情報の詳細を示します。"
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ## 「アプリ内」タブ {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="アプリ内パフォーマンス"
+>abstract="アプリ内パフォーマンス KPI は、訪問者のアプリ内メッセージに対するエンゲージメントに関する重要なインサイトを提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="タイプ別のインタラクション数"
+>abstract="タイプ別インタラクション数グラフと表は、クリック、破棄、インタラクションを追跡して、ユーザーがアプリ内メッセージに対してどのような操作をしたかを示します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="アプリ内概要"
+>abstract="アプリ内概要グラフは、指定した期間におけるアプリ内インプレッション数およびインタラクション数の進行状況を示します。"
+
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL アプリ内]**」タブには、キャンペーンで送信されたアプリ内配信に関する主な情報が詳しく表示されます。
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL インタラクション率]**：アプリ内メッセージを使用したエンゲージメントの割合。これには、クリック、破棄、その他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
 
-**[!UICONTROL アプリ内の概要]**&#x200B;グラフは、対象期間のアプリ内インプレッション数とインタラクション数の変化を示します。
+**[!UICONTROL タイプ別インタラクション数]**&#x200B;グラフと表は、クリック、破棄、インタラクションを追跡して、ユーザーがアプリ内メッセージに対してどのような操作をしたかを示します。
 
-**[!UICONTROL タイプ別インタラクション数]**グラフと表は、クリック、破棄、インタラクションを追跡して、ユーザーがアプリ内メッセージに対してどのような操作をしたかを示します。
+**[!UICONTROL アプリ内の概要]**グラフは、対象期間のアプリ内インプレッション数とインタラクション数の変化を示します。
 +++
 
 ## 「プッシュ通知」タブ {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="プッシュ通知 — 送信統計"
+>abstract="プッシュ通知送信統計表は、ターゲットメッセージや配信済みメッセージなど、プッシュ通知に関する重要なデータをまとめています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="プッシュ通知 — トラッキング統計"
+>abstract="プッシュトラッキング統計は、配信の受信者アクティビティに関するデータを提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="プッシュ通知 — 送信の概要"
+>abstract="「プッシュ通知送信の概要」グラフには、送信されたプッシュ通知で使用できるデータが表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="プッシュ通知 — 除外された理由"
+>abstract="除外された理由のグラフと表は、ターゲットオーディエンスから除外され、メッセージを受信しなかった、ユーザープロファイルにつながった様々な要因を示しています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="プッシュ通知 — エラー理由"
+>abstract="「エラー理由」のグラフと表を使用して、配信中に発生した特定のエラーを特定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="プッシュ通知 — プラットフォーム別の分類"
+>abstract="プラットフォームごとの分類のグラフと表は、受信者のオペレーティングシステムに基づいて、プッシュ通知の成功の内訳を示しています。"
+
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL プッシュ通知]**」タブには、キャンペーンで送信されたプッシュ配信に関する主な情報が詳しく表示されます。
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)アプリ内パフォーマンス KPI では、訪問者のアプリ内メッセージに対するエンゲージメントに関する主な情報を詳しく説明します。
 
 +++プッシュレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-「**[!UICONTROL プッシュ通知 - 送信統計]**」テーブルは、プッシュ通知に関連するメイン情報の詳細をグラフと KPI で示します。
+The **[!UICONTROL プッシュ通知 — 送信統計]** 表は、プッシュ通知に関連する主な情報の詳細を示します
 
 * **[!UICONTROL ターゲット]**：配信の分析中に処理されたメッセージの合計数。
 
@@ -295,14 +345,44 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 * **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
 
-「**[!UICONTROL エラー理由]**」のグラフと表を使用すると、配信中に発生したエラーを確認できます。
+The **[!UICONTROL エラーの理由]** グラフと表を使用すると、配信中に発生したエラーを確認できます。
 
-この&#x200B;**[!UICONTROL 除外された理由]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
+The **[!UICONTROL 除外された理由]** グラフと表には、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
 
-**[!UICONTROL プラットフォームごとのトラッキング]**、**[!UICONTROL プラットフォームごとの送信]**、**[!UICONTROL プラットフォームごとの分類]**のグラフとテーブルには、オペレーティングシステムに応じたプッシュ通知の成功の詳細が表示されます。
+The **[!UICONTROL プラットフォーム別の分類]** グラフと表では、受信者のオペレーティングシステムに応じたプッシュ通知の成功の詳細を示します。
 +++
 
 ## 「SMS」タブ {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="SMS — 送信統計"
+>abstract="SMS 送信統計の表は、ターゲットメッセージや配信済みメッセージなど、SMS メッセージに関する重要なデータをまとめています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS — エラー理由"
+>abstract="「SMS — エラー理由」のグラフと表を使用して、配信中に発生した特定のエラーを特定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS — 日別パフォーマンス"
+>abstract="日付別の SMS パフォーマンスウィジェットは、メッセージに関する主要な情報をグラフィックで表示します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS — 除外された理由"
+>abstract="除外された理由のグラフと表は、ターゲットオーディエンスから除外され、メッセージを受信しなかった、ユーザープロファイルにつながった様々な要因を示しています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS — バウンス理由"
+>abstract="バウンス理由グラフとテーブルには、バウンスメッセージに関連して使用できるデータが含まれています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS — リンク別のクリック数"
+>abstract="SMS — リンクによるクリック数ウィジェットは、訪問者がメッセージ内の URL にエンゲージメントしたことに関する基本的なインサイトを提供します"
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL SMS]**」タブには、キャンペーンで送信された SMS 配信に関する主な情報が詳しく表示されます。
 
@@ -330,13 +410,28 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
 
-**[!UICONTROL 除外された理由]**、**[!UICONTROL バウンスの理由]**&#x200B;および&#x200B;**[!UICONTROL エラーの理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+The **[!UICONTROL 理由を除外]** および **[!UICONTROL バウンス理由]** および **[!UICONTROL エラーの理由]** グラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
 
-**[!UICONTROL SMS - リンク別のクリック数]**&#x200B;ウィジェットと **[!UICONTROL SMS - トラッキング統計]**&#x200B;ウィジェットは、訪問者の URL へのエンゲージメントに関連する主な情報の詳細を示します。
+The **[!UICONTROL SMS — リンク別のクリック数]** ウィジェットは、訪問者の URL に対するエンゲージメントに関する主な情報の詳細を示します。
 
 +++
 
 ## 「Web」タブ {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="Web パフォーマンス"
+>abstract="Web パフォーマンス KPI は、訪問者の Web エクスペリエンスに対するエンゲージメントに関する包括的な情報を提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Web サマリ"
+>abstract="Web 概要グラフは、指定した期間におけるインプレッション数、個別インプレッション数、インタラクション数などの Web エクスペリエンスの進行状況を示します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="要素別インタラクション数"
+>abstract="「要素別インタラクション数」の表は、Web ページ上の様々な要素に対する訪問者のエンゲージメントに関する重要な情報を提供します。"
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL Web]**」タブには、web ページに関連する主な情報の詳細が表示されます。
 
@@ -358,6 +453,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++
 
 ## 「ダイレクトメール」タブ {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="ダイレクトメール — 送信統計"
+>abstract="ダイレクトメール送信統計の表は、ターゲットメッセージや配信済みメッセージなど、ダイレクトメールメッセージに関する重要なデータの概要を示します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="ダイレクトメール — エラー理由"
+>abstract="ダイレクトメール — エラー理由のグラフと表を使用して、配信中に発生した特定のエラーを特定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="ダイレクトメール — 除外された理由"
+>abstract="ダイレクトメールの除外理由のグラフと表に、ターゲットオーディエンスから除外され、メッセージを受信しなかったユーザープロファイルにつながった様々な要因を示します。"
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL ダイレクトメール]**」タブには、ダイレクトメール配信に関連する主な情報の詳細が表示されます。
 

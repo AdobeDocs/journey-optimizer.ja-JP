@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 70%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 100%
 
 Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[こちらのページ](live-report.md#list-of-components-live)を参照してください。
 
-## 「キャンペーン」タブ {#campaign-global}
+## 「キャンペーン」タブ {#campaign-live}
 
-### 配信 {#delivery-global}
+### 配信 {#delivery-live}
 
 **[!UICONTROL キャンペーン統計]**&#x200B;ウィジェットには、キャンペーンに関連する主な情報の詳細が表示されます。
 
@@ -103,6 +103,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 「アプリ内」タブ {#inapp-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_performance"
+>title="アプリ内パフォーマンス"
+>abstract="アプリ内パフォーマンス KPI は、過去 24 時間の訪問者のアプリ内メッセージに対するエンゲージメントに関する重要なインサイトを提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_interactions"
+>title="タイプ別のインタラクション数"
+>abstract="タイプ別インタラクションのグラフと表では、過去 24 時間のクリック、解除またはインタラクションを追跡して、ユーザーがアプリ内メッセージに対してどのような操作をしたかを詳しく説明します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_summary"
+>title="アプリ内概要"
+>abstract="アプリ内概要グラフは、過去 24 時間のアプリ内インプレッション数およびインタラクション数の進行状況を示します。"
+
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL アプリ内]**」タブには、キャンペーンで送信されたアプリ内配信に関連する主な情報の詳細が表示されます。
 
 +++アプリ内レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
@@ -121,13 +136,43 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 「プッシュ通知」タブ {#push-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_performance"
+>title="プッシュ通知 — 送信パフォーマンス"
+>abstract="プッシュ通知送信パフォーマンスグラフは、過去 24 時間のエラーや配信済みメッセージなど、プッシュ通知に関する重要なデータをまとめます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_statistics"
+>title="プッシュ通知 — 統計"
+>abstract="「プッシュ統計」テーブルは、過去 24 時間の配信の受信者アクティビティに関するデータを提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_summary"
+>title="プッシュ通知 — 送信の概要"
+>abstract="「プッシュ通知送信の概要」グラフには、過去 24 時間に送信されたプッシュ通知で使用可能なデータが表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_excluded_reasons"
+>title="プッシュ通知 — 除外された理由"
+>abstract="除外された理由のグラフと表は、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因を示しています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_error_reasons"
+>title="プッシュ通知 — エラー理由"
+>abstract="「エラー理由」のグラフと表を使用して、配信中に過去 24 時間に発生した特定のエラーを特定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_breakdown_platform"
+>title="プッシュ通知 — プラットフォーム別の分類"
+>abstract="プラットフォームごとの分類のグラフと表は、過去 24 時間のプッシュ通知の成功の内訳を、受信者のオペレーティングシステムに基づいて示しています。"
+
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ通知]**」タブには、キャンペーンで送信されるプッシュ配信に関連する主な情報の詳細が表示されます。
 
 ![](assets/campaign_report_live_2.png)
 
 +++プッシュレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-**[!UICONTROL プッシュ通知の送信パフォーマンス]**、 **[!UICONTROL プッシュ通知の概要]**&#x200B;および&#x200B;**[!UICONTROL 送信指標（プッシュ別）]**&#x200B;の各ウィジェットには、メッセージに関連する主な情報の詳細が表示されます。
+**[!UICONTROL プッシュ通知の送信パフォーマンス]**, **[!UICONTROL プッシュ通知の概要]** および **[!UICONTROL プッシュ通知 — 統計]** widgets は、メッセージに関する主な情報の詳細を示します。
 
 * **[!UICONTROL 送信済み]**：配信用に送信した合計数。
 
@@ -151,6 +196,31 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 +++
 
 ## 「SMS」タブ {#sms-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_statistics"
+>title="SMS — 統計"
+>abstract="SMS 送信統計の表は、過去 24 時間のターゲットメッセージや配信済みメッセージなど、SMS メッセージに関する重要なデータをまとめています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_performance"
+>title="SMS — 日別パフォーマンス"
+>abstract="日付別の SMS パフォーマンスウィジェットは、過去 24 時間のメッセージに関する重要な情報をグラフで表示します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_error_reasons"
+>title="SMS — エラー理由"
+>abstract="「SMS — エラー理由」のグラフと表を使用して、配信中に過去 24 時間に発生した特定のエラーを特定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_excluded_reasons"
+>title="SMS — 除外された理由"
+>abstract="除外された理由のグラフと表は、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因を示しています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_bounces_reasons"
+>title="SMS — バウンス理由"
+>abstract="「バウンス理由」のグラフと表には、バウンスメッセージに関連する過去 24 時間のデータが含まれています。"
 
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL SMS]**」タブには、キャンペーンで送信される SMS 配信に関連する主な情報の詳細が表示されます。
 
@@ -185,6 +255,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 「Web」タブ {#web-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_performance"
+>title="Web パフォーマンス"
+>abstract="Web パフォーマンス KPI は、過去 24 時間の訪問者の Web エクスペリエンスに対するエンゲージメントに関する包括的な情報を提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_summary"
+>title="Web サマリ"
+>abstract="Web 概要グラフは、過去 24 時間のインプレッション数、個別インプレッション数およびインタラクション数を含む Web エクスペリエンスの進行状況を示します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_interactions"
+>title="要素別インタラクション数"
+>abstract="「要素別インタラクション数」の表は、過去 24 時間の Web ページでの訪問者の様々な要素に対するエンゲージメントに関する重要な情報を提供します。"
+
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL Web]**」タブには、web ページに関連する主な情報の詳細が表示されます。
 
 +++Web レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
@@ -202,7 +287,22 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 「ダイレクトメール」タブ {#direct-mail-tab}
 
-キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL ダイレクトメール]**」タブには、ダイレクトメール配信に関連する主な情報の詳細が表示されます。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_sending_statistics"
+>title="ダイレクトメール — 送信統計"
+>abstract="「ダイレクトメール送信統計」の表は、ターゲットメッセージや配信済みメッセージなど、ダイレクトメールメッセージに関する過去 24 時間の重要なデータをまとめます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_error_reasons"
+>title="ダイレクトメール — エラー理由"
+>abstract="ダイレクトメール — エラー理由のグラフと表を使用して、過去 24 時間に発生した特定のエラーを特定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_excluded_reasons"
+>title="ダイレクトメール — 除外された理由"
+>abstract="ダイレクトメールの除外理由のグラフと表に、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因を示します。"
+
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL ダイレクトメール]** 「 」タブには、ダイレクトメール配信に関する主な情報の詳細が表示されます。
 
 ![](assets/direct-mail-report_2.png)
 
