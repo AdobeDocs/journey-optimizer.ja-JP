@@ -6,7 +6,8 @@ description: Adobe Journey Optimizer の顧客キーを設定および管理す�
 feature: Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
-source-git-commit: 53b37fbb0fc799a0757e3ba8da2c42093d460d00
+exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%

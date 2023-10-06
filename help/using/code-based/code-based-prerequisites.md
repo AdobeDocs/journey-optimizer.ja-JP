@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 43%
+ht-degree: 48%
 
 ---
 
@@ -21,10 +22,10 @@ ht-degree: 43%
 
 このドキュメントガイドの内容は次のとおりです。
 
-* [コードベースのチャネルを使い始める](get-started-code-based.md)
+* [コードベースチャネルの基本を学ぶ](get-started-code-based.md)
 * **[コードベースの前提条件](code-based-prerequisites.md)**
 * [コードベースの実装サンプル](code-based-implementation-samples.md)
-* [コードベースのエクスペリエンスの作成](create-code-based.md)
+* [コードベースのエクスペリエンスを作成](create-code-based.md)
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +37,7 @@ ht-degree: 43%
 
 ## 注意事項 {#caution-notes-web}
 
-* コードベースのエクスペリエンスチャネルは、現在、一部のユーザーに対してのみベータ版として利用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+* 現在、コードベースのエクスペリエンスチャネルは、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 * 現在の場所 [!DNL Journey Optimizer] で作成できるのは、コードベースのエクスペリエンスのみです。 **campaigns**. [詳細情報](../campaigns/create-campaign.md#configure)
 
@@ -79,5 +80,3 @@ ht-degree: 43%
 >[!NOTE]
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
-
-

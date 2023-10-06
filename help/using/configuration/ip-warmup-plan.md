@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP ウォームアッププランを作成する
+title: IP ウォームアッププランを作成
 description: Journey Optimizerで IP ウォームアッププランを作成する方法を説明します。
 feature: Application Settings
 topic: Administration
@@ -14,11 +14,11 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# IP ウォームアッププランを作成する {#ip-warmup}
+# IP ウォームアッププランを作成 {#ip-warmup}
 
 >[!BEGINSHADEBOX]
 
@@ -26,8 +26,8 @@ ht-degree: 5%
 
 * [IP ウォームアップの概要](ip-warmup-gs.md)
 * [IP ウォームアップキャンペーンを作成](ip-warmup-campaign.md)
-* **[IP ウォームアッププランを作成する](ip-warmup-plan.md)**
-* [IP ウォームアッププランを実行します。](ip-warmup-execution.md)
+* **[IP ウォームアッププランを作成](ip-warmup-plan.md)**
+* [IP ウォームアッププランを実行](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
    >
    >選択した IP ウォームアッププランは完全に削除されます。
 
-## IP ウォームアッププランを作成する {#create-ip-warmup-plan}
+## IP ウォームアッププランを作成 {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"

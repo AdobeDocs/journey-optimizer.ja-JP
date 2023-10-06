@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 92%
 
 ## API 呼び出し例の読み取り {#reading-sample-api-calls}
 
-ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、 トラブルシューテングガイドの[API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target="_blank"}に関する節を参照してください[!DNL Experience Platform]。
+ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、[!DNL Experience Platform] トラブルシューテングガイドの [API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target="_blank"}に関する節を参照してください。
 
 ## 必須ヘッダーの値の収集 {#gather-values-for-required-headers}
 
-を呼び出すために [!DNL Adobe Experience Platform] API の場合、最初に [認証チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"}. 次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
+[!DNL Adobe Experience Platform] API を呼び出すには、まず[認証チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"}を完了する必要があります。次に示すように、すべての [!DNL Experience Platform] API 呼び出しに必要な各ヘッダーの値は認証チュートリアルで説明されています。
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -47,7 +47,7 @@ ht-degree: 92%
 
 ## 次の手順 {#next-steps}
 
-このドキュメントでは、 [!DNL Offer Library] API. これで、この開発者ガイドに記載されているサンプル呼び出しに進んで、その手順に従うことができます。
+このドキュメントでは、[!DNL Offer Library] API を呼び出すために必要な前提条件に関する知識を説明しました。これで、この開発者ガイドに記載されているサンプル呼び出しに進んで、その手順に従うことができます。
 <!--
 >[!NOTE]
 >

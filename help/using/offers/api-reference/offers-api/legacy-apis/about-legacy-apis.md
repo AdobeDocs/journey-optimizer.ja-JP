@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 7d8239785ef6a50887d5fc1938f28c3a5a95d061
+exl-id: cfe8162b-d50f-4ad3-8b62-9d30b756ad1b
+source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # レガシー API について
 

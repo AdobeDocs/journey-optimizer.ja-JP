@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
 source-wordcount: '3765'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 88%
 
 ## 2023年9月 {#september-2023}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 9 月リリースの詳細がドキュメントに記載されました。 [詳細情報](release-notes.md)
-* 拡大/縮小のベストプラクティスとリアルタイムのステッチに関するガイダンスを含む新しいページが追加されました。 [詳細情報](../start/best-practices.md)
+* [!DNL Journey Optimizer] の 2023年9月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明されています。[詳細情報](release-notes.md)
+* スケーリングのベストプラクティスと、リアルタイムのステッチに関するガイダンスを含む新しいページが追加されました。[詳細情報](../start/best-practices.md)
 
   <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
-* 送信時間の最適化に関するよくある質問の節が追加されました。 [詳細情報](../building-journeys/journeys-message.md#faq-send-time)
-* オーディエンスの選定アクティビティに関するメモが追加されました。 アクティブになるまで最大 10 分かかり、オーディエンスの入口または出口にあるプロファイルをリッスンする場合があります。 [詳細情報](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
+* 送信時間の最適化に関する「よくある質問」の節が追加されました。[詳細情報](../building-journeys/journeys-message.md#faq-send-time)
+* オーディエンスの選定アクティビティに関するメモが追加されました。アクティブになり、オーディエンスをエントリまたは離脱するプロファイルをリッスンするまでに最大 10 分かかる場合があります。[詳細情報](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 決定ルールを作成する際に考慮すべき制限のリストを決定管理ドキュメントに追加しました。[詳細情報](../offers/offer-library/creating-decision-rules.md)
-* アクセス制御に関するドキュメントへのリンクが更新されました。 [詳細情報](../administration/permissions.md)
-* アプリ内チャネルの前提条件が更新され、 Adobe Experience Platformのデータ収集の詳細が追加されました。 [詳細情報](../in-app/inapp-configuration.md)
-* ランキング式の例で示されている式の一部は、検証エラーを回避するために更新されました。 [詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* アクセス制御に関するドキュメントへのリンクが更新されました。[詳細情報](../administration/permissions.md)
+* アプリ内チャネルの前提条件が更新され、Adobe Experience Platform のデータ収集の詳細が追加されました。[詳細情報](../in-app/inapp-configuration.md)
+* ランキング式の例で示されている式の一部が、検証エラーを回避するために更新されました。[詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 * に警告が追加されました **決定範囲の定義** AI モデルを評価基準グループで使用する場合、そのグループ内のすべての評価基準が同じ特定の AI モデルを持つ AI ランキングメソッドを使用する必要があることを指定します。 また、AI モデルを使用できる評価基準グループは 1 つだけです。 [詳細情報](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023年8月 {#august-2023}
@@ -48,15 +48,15 @@ ht-degree: 88%
 * 待機アクティビティのドキュメントページを改善し、グローバルタイムアウトと再エントリの使用に関連する追加情報とベストプラクティスを追加しました。[詳細情報](../building-journeys/wait-activity.md)
 * エントリ管理に関するページを改善しました。[詳細情報](../building-journeys/entry-management.md)
 * 「オーディエンスを読み取り」アクティビティのドキュメントに、スロットルレートに関する情報を追加しました。[詳細情報](../building-journeys/read-audience.md)
-* 再試行に関する追加情報が追加されました。 [詳細情報](../start/guardrails.md#general-actions-g)
+* 再試行に関する追加情報が追加されました。[詳細情報](../start/guardrails.md#general-actions-g)
 * **パーソナライゼーションの同意の実装**&#x200B;の節を更新し、キャンペーンでパーソナライゼーションの同意を手動で実施する方法を説明しています。セグメントルールビルダーを使用すると、オプトアウトプロファイルを含んだオーディエンスを作成したり、分割アクティビティをコンポジションワークフローに追加したりできます。[詳細情報](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023年6月 {#june-2023}
 
 * [!DNL Journey Optimizer] の 2023年6月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* ジャーニーの概要画面での破棄率に関する情報が追加されました。 [詳細情報](../building-journeys/journey-gs.md#journey-access)
-* イベントの作成後に新しい列挙値でスキーマを変更した場合に従う手順を記載した注意書きが追加されました。 [詳細を表示](../event/about-creating.md)
-* ジャーニーのクエリ時に journeyVersionName の代わりに journeyVersionID を使用することの推奨事項が追加されました。 [詳細情報](../reports/sharing-common-fields.md#journeyversionid-field)
+* ジャーニーの概要画面に破棄率に関する情報が追加されました。[詳細情報](../building-journeys/journey-gs.md#journey-access)
+* イベントの作成後に新しい列挙値でスキーマを変更する場合に従う手順を記載したメモが追加されました。[詳細情報](../event/about-creating.md)
+* ジャーニーのクエリ時に journeyVersionName の代わりに journeyVersionID を使用するというレコメンデーションが追加されました。[詳細情報](../reports/sharing-common-fields.md#journeyversionid-field)
 * 複数の条件と複数の決定範囲が使用されるケースの例を示すために、評価条件の順序に関する例を&#x200B;**決定の作成**&#x200B;の節に追加しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 意思決定管理のドキュメントを明確にするために、動的コレクションではオブジェクトレベルのアクセス制御を使用できないことを明示するメモを追加しました。[詳細情報](../offers/offer-library/creating-collections.md)
 
@@ -73,9 +73,9 @@ ht-degree: 88%
 ## 2023年4月 {#apr-2023}
 
 * [!DNL Journey Optimizer] の 2023年4月リリースに含まれているすべての新機能と機能強化について、このドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
-* 組み込みのアクションを削除できないことを示す注記が追加されました。 [詳細情報](../start/guardrails.md#custom-actions-g)
-* serviceEvents に関する情報と、serviceEvent の詳細を確認するクエリの例が追加されました。 [詳細情報](../reports/query-examples.md#common-queries)
-* 時系列に対してクエリを実行できないことを示す注記が追加されました。 [詳細情報](../building-journeys/condition-activity.md)
+* 組み込みのアクションを削除できないことを示すメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)
+* serviceEvents に関する情報と、serviceEvent の詳細を確認するクエリの例が追加されました。[詳細情報](../reports/query-examples.md#common-queries)
+* 時系列に対してクエリを実行できないことを示すメモが追加されました。[詳細情報](../building-journeys/condition-activity.md)
 * Adobe Experience Manager Assets Essentials と Adobe Stock をマルチソリューション統合ページに追加しました。[詳細情報](../start/ajo-integrations.md)
 * 複数レベルのメールサブドメインがサポートされるようになったので、許可されていないという警告を削除しました。[詳細情報](../configuration/delegate-subdomain.md)
 * ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があることを示すメモを追加しました。[詳細情報](../building-journeys/publishing-the-journey.md)
@@ -91,28 +91,28 @@ ht-degree: 88%
 * Adobe Experience Platform でオファー決定支援フィードバックを収集する方法（表示されるオファーやユーザーの操作方法など）に関する新しい節が、意思決定管理ガイドに作成されました。 [詳細情報](../offers/data-collection/data-collection.md)
 * **決定の作成**&#x200B;の節に、条件を順番に評価する場合と同時に評価する場合の違いを説明する新しいサブセクションが追加されました。[詳細情報](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 増分読み取りを使用した「オーディエンスを読み取り」ジャーニー用のガードレールが追加されました。新しいバージョンを作成することはできません。ジャーニーを複製する必要があります。[詳細情報](../start/guardrails.md#journey-versions-g)
-* スループットの設定を制限する方法の使用例が更新され、スロットリング機能に関する情報が追加されました。 [詳細情報](../building-journeys/limit-throughput.md)
-* 応答ペイロードの定義でスカラー配列がサポートされていないことを示す注記が追加されました。 [詳細情報](../datasource/external-data-sources.md)
-* プロファイルキャップ条件に関する節が更新されました。 [詳細情報](../building-journeys/condition-activity.md#profile_cap)
+* スループットを制限する方法に関するユースケースが、スロットル機能に関する情報で更新されました。[詳細情報](../building-journeys/limit-throughput.md)
+* 応答ペイロード定義では、スカラー配列がサポートされていないことを指定するメモが追加されました。[詳細情報](../datasource/external-data-sources.md)
+* プロファイルキャップの条件に関する節が更新されました。[詳細情報](../building-journeys/condition-activity.md#profile_cap)
 
 ## 2023年2月 {#feb-2023}
 
 * [!DNL Journey Optimizer] の 2023年2月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* キャンバスツールバーに関する情報が追加されました。 [詳細情報](../building-journeys/using-the-journey-designer.md#gs-journey-design)
-* 内部Adobeアドレスが URL および API で許可されていないことを示す情報が追加されました。 [詳細情報](../start/guardrails.md)
+* キャンバスツールバーに関する情報が追加されました。[詳細情報](../building-journeys/using-the-journey-designer.md#gs-journey-design)
+* URL および API では、内部 Adobe アドレスが許可されていないことを示す情報が追加されました。[詳細情報](../start/guardrails.md)
 * API トリガーキャンペーンのドキュメントに、リクエストに渡すコンテキスト属性が 50 KB を超えることはできない旨を示す注記が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
 * 受信者がランディングページで登録解除した後、オプトアウト情報を&#x200B;**同意サービスデータセット**&#x200B;に保存する方法に関する情報を追加しました。[詳細情報](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023年1月 {#jan-2023}
 
 * [!DNL Journey Optimizer] の 2023年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* キャッピングのドキュメントに、カスタム認証エンドポイントに関する情報が追加されました。 [詳細情報](../configuration/external-systems.md)
-* 新しいカスタム認証の例が外部データソースの節に追加されました。 [詳細情報](../datasource/external-data-sources.md#custom-authentication-mode)
-* イベントトリガージャーニーに関する Data Collection Core Service (DCCS) に関するメモを追加しました。 [詳細情報](../start/guardrails.md#events-g)
-* ID 名前空間の取得に関する注意が [オーディエンスの閲覧](../building-journeys/read-audience.md), [オーディエンスの選定](../building-journeys/audience-qualification-events.md) および [イベントの作成](../event/about-creating.md) セクション。
+* キャッピングのドキュメントに、カスタム認証エンドポイントに関する情報が追加されました。[詳細情報](../configuration/external-systems.md)
+* 新しいカスタム認証の例が外部データソースの節に追加されました。[詳細情報](../datasource/external-data-sources.md#custom-authentication-mode)
+* イベントトリガージャーニーのデータ収集コアサービス（DCCS）に関するメモが追加されました。[詳細情報](../start/guardrails.md#events-g)
+* ID 名前空間の取得に関するメモが、「[オーディエンスを読み取り](../building-journeys/read-audience.md)」、「[オーディエンスの選定](../building-journeys/audience-qualification-events.md)」、「[イベントの作成](../event/about-creating.md)」の節に追加されました。
 * [!DNL Journey Optimizer] のアクセシビリティ機能を専用ページにグループ化しました。[詳細情報](../start/accessibility.md)
-* 高度な式エディターのドキュメントの「演算子」の節で例が更新されました。 [詳細情報](../building-journeys/expression/operators.md)
-* オブジェクトの配列を使用したルックアップの制限に関する注意が追加されました。 [詳細情報](../event/experience-event-schema.md#relationships_limitations)
+* 高度な式エディターのドキュメントの「演算子」の節で例が更新されました。[詳細情報](../building-journeys/expression/operators.md)
+* オブジェクトの配列を使用したルックアップの制限に関するメモが追加されました。[詳細情報](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer] のデータ管理に関する新しいページを追加しました。[詳細情報](../data/gs-data.md)
 * Decisioning API を使用してオファーを配信する際に、応答で返される可能性のあるすべてのコードをリストした表を追加しました。 [詳細情報](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 

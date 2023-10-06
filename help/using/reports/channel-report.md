@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
+exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
-> 次の手順で **レポート** メニューに **[!UICONTROL チャネルレポートを表示]** 権限。 [詳細情報](channel-report-gs.md#before-starting-manage-reports-prereq)
+> **レポート**&#x200B;メニューにアクセスするには、**[!UICONTROL チャネルレポートを表示]**&#x200B;する権限が必要です。[詳細情報](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 チャネルレポートでは、チャネルレベルで、トラフィックとエンゲージメント指標の包括的な概要を提供します。 指標は集計されて、様々なキャンペーンやジャーニーにわたる、選択したチャネルからのアクションの統合値を示します。
 

@@ -5,8 +5,8 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: 9509fd67-6d12-4440-aad8-59690936be97
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%

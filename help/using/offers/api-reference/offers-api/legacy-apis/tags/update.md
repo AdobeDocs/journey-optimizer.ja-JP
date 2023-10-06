@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
+source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 84%
 
 ---
-
 
 # コレクション修飾子の更新 {#update-collection-qualifier}
 

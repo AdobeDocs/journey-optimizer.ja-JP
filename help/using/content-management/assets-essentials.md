@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 88%
 
    ![](assets/media_library_1.png)
 
-1. Journey Optimizerでアセットのリポジトリを選択します。 このソリューションを所有している場合は、Assets Essentialsリポジトリまたは Assetsas a Cloud Serviceリポジトリを選択できます。
+1. Journey Optimizerでアセットのリポジトリを選択します。 このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。
 
    ![](assets/media_library_4.png)
 

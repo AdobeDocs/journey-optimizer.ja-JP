@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 5%
@@ -65,6 +66,3 @@ Adobe Journey Optimizerは、 ID サービスを利用して、プロファイ�
 * 複数のジャーニー（同意チェック、抑制）で同じ条件が繰り返される場合は、セグメント定義の一部として移動することを検討します。 例えば、複数のジャーニーで「電子メールアドレスが空ではない」を確認する条件がある場合、その条件をセグメント定義の一部に含めます。
 * ジャーニーに複数の条件があり、オーディエンスを分割して各手順の数値を確認する場合は、分析に適したCustomer Journey Analyticsまたは他のレポートソリューションの使用を検討します。
 * キャンバス上のノード数の制限に近づいている場合は、明示的なノードではなく、動的パラメーターまたはコンテンツを使用してアクションを統合し、適切なコンテンツを提供することを検討します。
-
-
-

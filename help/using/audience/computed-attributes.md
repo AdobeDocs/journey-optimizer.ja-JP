@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 計算済み属性の使用
+title: 計算属性の操作
 description: 計算済み属性の使用方法を説明します。
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 608394da88d42095a1adc517a067c725eac52707
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-
-# 計算済み属性の使用 {#computed-attributes}
+# 計算属性の操作 {#computed-attributes}
 
 計算済み属性を使用すると、個々の行動イベントを、Adobe Experience Platformで使用可能な計算済みプロファイル属性に要約できます。 これらの計算済み属性は、Adobe Experience Platformに取り込まれ、顧客プロファイル内に保存される集計データポイントとして機能する、プロファイル対応のエクスペリエンスイベントデータセットに基づいています。
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ルールの準備が整ったら、計算済み属性を公開して、Journey Optimizerを含む他のダウンストリームサービスで使用できるようにします。
 
-計算済み属性の作成および管理方法に関する詳細は、 [計算済み属性のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+計算済み属性の作成および管理方法に関する詳細は、 [計算済み属性のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=ja)
 
 ## 計算済み属性をAdobe Experience Platformデータソースに追加する {#source}
 

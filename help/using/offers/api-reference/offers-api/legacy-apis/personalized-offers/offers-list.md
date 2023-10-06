@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: 50f4119f-c730-4883-867e-eac83793dced
+source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
-
 
 # パーソナライズされたオファーのリスト {#list-personalized-offers}
 

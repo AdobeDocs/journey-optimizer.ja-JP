@@ -8,11 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 17%
 
 このドキュメントガイドの内容は次のとおりです。
 
-* [コードベースのチャネルを使い始める](get-started-code-based.md)
+* [コードベースチャネルの基本を学ぶ](get-started-code-based.md)
 * [コードベースの前提条件](code-based-prerequisites.md)
 * **[コードベースの実装サンプル](code-based-implementation-samples.md)**
-* [コードベースのエクスペリエンスの作成](create-code-based.md)
+* [コードベースのエクスペリエンスを作成](create-code-based.md)
 
 >[!ENDSHADEBOX]
 

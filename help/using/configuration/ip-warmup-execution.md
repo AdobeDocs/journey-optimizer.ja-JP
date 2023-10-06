@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP ウォームアッププランを実行する
+title: IP ウォームアッププランの実行
 description: IP ウォームアッププランの実行および監視方法の詳細
 feature: Application Settings
 topic: Administration
@@ -14,11 +14,11 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# IP ウォームアッププランを実行します。 {#ip-warmup-running}
+# IP ウォームアッププランを実行 {#ip-warmup-running}
 
 >[!BEGINSHADEBOX]
 
@@ -26,8 +26,8 @@ ht-degree: 2%
 
 * [IP ウォームアップの概要](ip-warmup-gs.md)
 * [IP ウォームアップキャンペーンを作成](ip-warmup-campaign.md)
-* [IP ウォームアッププランを作成する](ip-warmup-plan.md)
-* **[IP ウォームアッププランを実行します。](ip-warmup-execution.md)**
+* [IP ウォームアッププランを作成](ip-warmup-plan.md)
+* **[IP ウォームアッププランを実行](ip-warmup-execution.md)**
 
 >[!ENDSHADEBOX]
 

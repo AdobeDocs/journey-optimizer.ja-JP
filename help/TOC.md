@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -239,10 +239,10 @@ ht-degree: 93%
       + [単一ページアプリケーションの作成](using/web/web-spa.md)
    + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
 + コードベースのエクスペリエンス {#code-based-experience}
-   + [コードベースのチャネルを使い始める](using/code-based/get-started-code-based.md)
+   + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
    + [コードベースの前提条件](using/code-based/code-based-prerequisites.md)
    + [コードベースの実装サンプル](using/code-based/code-based-implementation-samples.md)
-   + [コードベースのエクスペリエンスの作成](using/code-based/create-code-based.md)
+   + [コードベースのエクスペリエンスを作成](using/code-based/create-code-based.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
@@ -284,7 +284,7 @@ ht-degree: 93%
          + [数学関数](using/personalization/functions/math.md)
          + [オブジェクト関数](using/personalization/functions/objects.md)
          + [文字列関数](using/personalization/functions/string.md)
-      + パーソナライズ機能の使用例{#personalization-use-cases}
+      + パーソナライズ機能のユースケース{#personalization-use-cases}
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
    + 再利用可能なコンテンツを管理 {#reusable-content}
@@ -306,7 +306,7 @@ ht-degree: 93%
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
-      + [計算済み属性の使用](using/audience/computed-attributes.md)
+      + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
 + トラッキングとモニタリング {#reporting}
@@ -326,7 +326,7 @@ ht-degree: 93%
       + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
       + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
    + チャネルレポート {#channel-report}
-      + [チャネルレポートの概要](using/reports/channel-report-gs.md)
+      + [チャネルレポートの基本を学ぶ](using/reports/channel-report-gs.md)
       + [チャネルレポート](using/reports/channel-report.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
@@ -485,15 +485,15 @@ ht-degree: 93%
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + エクスペリエンス判定 {#experience-decisioning}
-   + [Experience Decisioning の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
-   + 決定項目を管理 {#decision-items}
-      + [項目カタログを設定](using/experience-decisioning/catalogs.md)
+   + [エクスペリエンス判定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
+   + 決定項目の管理 {#decision-items}
+      + [項目カタログの設定](using/experience-decisioning/catalogs.md)
       + [決定項目の作成](using/experience-decisioning/items.md)
-      + [項目コレクションを管理](using/experience-decisioning/collections.md)
-   + 項目の選択を設定 {#selection}
+      + [項目コレクションの管理](using/experience-decisioning/collections.md)
+   + 項目の選択の設定 {#selection}
       + [決定ルールの作成](using/experience-decisioning/rules.md)
       + [ランキングメソッドの作成](using/experience-decisioning/ranking.md)
-   + [選択戦略を作成](using/experience-decisioning/selection-strategies.md)
+   + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
    + [決定ポリシーの作成](using/experience-decisioning/create-decision.md)
 + データ管理 {#data-management}
    + [データ管理の基本を学ぶ](using/data/gs-data.md)
@@ -516,8 +516,8 @@ ht-degree: 93%
    + IP ウォームアッププランの実装 {#implement-ip-warmup-plan}
       + [IP ウォームアッププランの概要](using/configuration/ip-warmup-gs.md)
       + [IP ウォームアップキャンペーンを作成](using/configuration/ip-warmup-campaign.md)
-      + [IP ウォームアッププランを作成する](using/configuration/ip-warmup-plan.md)
-      + [IP ウォームアッププランを実行する](using/configuration/ip-warmup-execution.md)
+      + [IP ウォームアッププランの作成](using/configuration/ip-warmup-plan.md)
+      + [IP ウォームアッププランの実行](using/configuration/ip-warmup-execution.md)
    + メールアドレスの監視 {#monitor-reputation}
       + [抑制リスト](using/configuration/manage-suppression-list.md)
       + [再試行](using/configuration/retries.md)

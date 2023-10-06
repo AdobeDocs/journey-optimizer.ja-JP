@@ -8,8 +8,8 @@ feature: Push
 role: Admin
 level: Intermediate
 badge: label="ベータ版" type="Informative"
-exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 04f96fa1ad815b380cf33c7706e39094a1bca1c3
+exl-id: 364ef926-3f92-4297-acbd-a283668106ac
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 100%

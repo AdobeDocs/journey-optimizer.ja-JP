@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
@@ -29,5 +30,3 @@ ht-degree: 100%
 ![](assets/dm-creation-process.png)
 
 ダイレクトメールメッセージは、スケジュールされたキャンペーンのコンテキストでのみ作成できます。API トリガーキャンペーンやジャーニーでは使用できません。
-
-

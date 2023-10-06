@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
+exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%

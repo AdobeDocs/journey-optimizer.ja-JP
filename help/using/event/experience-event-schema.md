@@ -9,7 +9,7 @@ level: Intermediate
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
 

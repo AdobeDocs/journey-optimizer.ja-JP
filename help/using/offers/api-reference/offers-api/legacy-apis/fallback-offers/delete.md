@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
+source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
-
 
 # フォールバックオファーの削除 {#delete-fallback-offer}
 

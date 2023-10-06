@@ -1,5 +1,5 @@
 ---
-title: コードベースのエクスペリエンスの作成
+title: コードベースのエクスペリエンスを作成
 description: Journey Optimizerでコードベースのエクスペリエンスを作成する方法を説明します
 feature: Offers
 topic: Content Management
@@ -8,29 +8,30 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
-# コードベースのエクスペリエンスの作成 {#create-code-based}
+# コードベースのエクスペリエンスを作成 {#create-code-based}
 
 >[!BEGINSHADEBOX]
 
 このドキュメントガイドの内容は次のとおりです。
 
-* [コードベースのチャネルを使い始める](get-started-code-based.md)
+* [コードベースチャネルの基本を学ぶ](get-started-code-based.md)
 * [コードベースの前提条件](code-based-prerequisites.md)
 * [コードベースの実装サンプル](code-based-implementation-samples.md)
-* **[コードベースのエクスペリエンスの作成](create-code-based.md)**
+* **[コードベースのエクスペリエンスを作成](create-code-based.md)**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->コードベースのエクスペリエンスチャネルは、現在、一部のユーザーに対してのみベータ版として利用できます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+>現在、コードベースのエクスペリエンスチャネルは、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 ## コードベースのキャンペーンの作成 {#create-code-based-campaign}
 

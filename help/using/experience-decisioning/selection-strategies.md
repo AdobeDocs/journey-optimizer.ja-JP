@@ -1,5 +1,5 @@
 ---
-title: 選択戦略を作成
+title: 選択戦略の作成
 description: 選択戦略を作成する方法を説明します。
 feature: Offers
 topic: Integrations
@@ -8,28 +8,29 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 32%
+ht-degree: 38%
 
 ---
 
-# 選択戦略を作成 {#selection-strategies}
+# 選択戦略の作成 {#selection-strategies}
 
 >[!BEGINSHADEBOX]
 
 このドキュメントガイドの内容は次のとおりです。
 
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目を管理
-   * [項目カタログを設定](catalogs.md)
+* [エクスペリエンス判定の基本を学ぶ](gs-experience-decisioning.md)
+* 決定項目の管理
+   * [項目カタログの設定](catalogs.md)
    * [決定項目の作成](items.md)
-   * [項目コレクションを管理](collections.md)
-* 項目の選択を設定
+   * [項目コレクションの管理](collections.md)
+* 項目の選択の設定
    * [決定ルールの作成](rules.md)
    * [ランキングメソッドの作成](ranking.md)
-* **[選択戦略を作成](selection-strategies.md)**
+* **[選択戦略の作成](selection-strategies.md)**
 * [決定ポリシーの作成](create-decision.md)
 
 >[!ENDSHADEBOX]
@@ -117,4 +118,3 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](ranking.md)を参照してください。
 
 AI モデルが作成されたら、そのモデルを選択戦略で使用できます。 複数のオファーが適格な場合、トレーニング済みモデルシステムは、この選択戦略で最初に提示するオファーを決定します。
-

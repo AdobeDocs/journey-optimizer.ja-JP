@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
+source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 72%
@@ -91,4 +92,3 @@ ht-degree: 72%
    ![](assets/fragment-break-inheritance.png)
 
 1. そのフラグメントは、元のフラグメントにリンクされなくなったスタンドアロン要素になります。コンテンツ内の他のコンテンツコンポーネントと同様に編集します。[詳細情報](content-components.md)
-

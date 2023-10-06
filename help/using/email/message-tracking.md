@@ -165,7 +165,7 @@ ht-degree: 100%
 
 ## URL トラッキング {#url-tracking}
 
-通常 [URL トラッキング](email-settings.md#url-tracking)はサーフェスレベルで管理されますが、プロファイル属性はサポートされていません。現在、これを実行する唯一の方法は、メールデザイナーで [URL をパーソナライズ](../personalization/personalization-syntax.md#perso-urls)することです。
+通常 [URL トラッキング](email-settings.md#url-tracking)はサーフェスレベルで管理されますが、プロファイル属性はサポートされていません。現在、これを実行する唯一の方法は、E メールデザイナーで [URL をパーソナライズ](../personalization/personalization-syntax.md#perso-urls)することです。
 
 パーソナライズした URL トラッキングパラメーターをリンクに追加するには、次の手順に従います。
 

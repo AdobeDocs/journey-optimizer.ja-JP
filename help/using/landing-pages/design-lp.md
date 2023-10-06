@@ -34,4 +34,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ランディングページのコンテンツデザイナーは、メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。

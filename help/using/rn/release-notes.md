@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 83%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 
-## 2023 年 9 月リリースノート {#sept-rn-2023}
+## 2023年9月リリースノート {#sept-rn-2023}
 
 ### 新機能{#sept-2023-features}
 
@@ -37,14 +37,14 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>計算済み属性</strong><br/></th>
+<th><strong>計算属性</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>計算済み属性を使用すると、直感的なユーザーインターフェイスでイベントデータを簡単にプロファイル属性に要約し、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算済み属性をセルフサービス方式で作成し、管理し、セグメント化、リアルタイム顧客プロファイルの宛先、またはJourney Optimizerで使用できます。<br/><br/>
-さらに、計算済み属性を使用すると、セグメント化とジャーニーワークフローが簡素化され、関連性の高いエクスペリエンスをシームレスに配信できます。 詳しくは、 <a href="../audience/computed-attributes.md">詳細なドキュメント</a>.</p>
+<p>計算属性を使用すると、直感的なユーザーインターフェイスを通じてイベントデータをプロファイル属性に簡単に要約でき、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。この機能を使用すると、計算属性をセルフサービス方式で作成して管理し、セグメント化、リアルタイム顧客プロファイルの宛先、Journey Optimizer で使用できます。<br/><br/>
+また、計算属性を使用すると、セグメント化とジャーニーのワークフローが簡素化され、関連するエクスペリエンスをシームレスに提供できます。詳しくは、<a href="../audience/computed-attributes.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -60,10 +60,10 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>チャネルレポート機能を使用すると、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要を、アナリストとマーケターに提供できます。</p>
-<p>次の手順で <b>レポート</b> メニューに <b>チャネルレポートを表示</b> 権限。</p>
+<p>チャネルレポート機能は、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要をアナリストやマーケターに提供します。</p>
+<p><b>レポート</b>メニューにアクセスするには、<b>チャネルレポートを表示</b>する権限が必要です。</p>
 <img src="assets/channel-reports.png"/>
-<p>詳しくは、 <a href="../reports/channel-report.md">詳細なドキュメント</a>、および <a href="../reports/channel-report.md#channel-report-video">ハウツービデオ</a>.</p>
+<p>詳しくは、<a href="../reports/channel-report.md">詳細なドキュメント</a>と<a href="../reports/channel-report.md#channel-report-video">チュートリアルビデオ</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -72,13 +72,13 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>データセット書き出し先 (GA)</strong><br/></th>
+<th><strong>データセットの書き出し先（GA）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>クラウドストレージの宛先へのJourney Optimizerデータセットの書き出しを、一般に利用できるようになりました。 この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。</p>
+<p>Journey Optimizer データセットのクラウドストレージの宛先への書き出しが一般提供されるようになりました。この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。</p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>詳しくは、<a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -96,7 +96,7 @@ ht-degree: 83%
 <tr>
 <td>
 <p>この新機能を使用すると、プッシュ資格情報を簡単に管理し、アプリサーフェスの専用サンドボックスに関連付けることができます。</p>
-<p>詳しくは、 <a href="../in-app/inapp-configuration.md#channel-prerequisites">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../in-app/inapp-configuration.md#channel-prerequisites">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ ht-degree: 83%
 
 **パーソナライゼーション**
 
-* ビジュアルフラグメントに加えて、式エディターを使用して、Journey Optimizerインターフェイスから式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。 [詳細情報](../personalization/use-expression-fragments.md)
+* ビジュアルフラグメントに加えて、Journey Optimizer インターフェイスから式エディターを通じて式フラグメントを作成、保存、再利用できるようになりました。式フラグメントは、以前に保存した式を置き換えます。[詳細情報](../personalization/use-expression-fragments.md)
 
 **アラート**
 
@@ -119,44 +119,44 @@ ht-degree: 83%
 
 **Web チャネル**
 
-* Web ビジュアルエディターで単一ページアプリケーション (SPA) を作成できるようになりました。これにより、Web ページの変更を適用する特定のビューを選択できます。 ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。 Adobe Experience Platform Web SDK 実装でビューを定義するには、開発者の 1 回限りの設定が必要です。これにより、マーケターはSPA上でAdobe Journey Optimizer Web キャンペーンを作成し、実行できます。 [詳細情報](../web/web-spa.md)
+* Web ビジュアルエディターで単一アプリケーション（SPA）を作成できるようになりました。これにより、web ページの変更を適用する特定のビューを選択できます。ビューは、サイト全体として定義したり、ホームページ、製品サイト全体、すべてのチェックアウトページの配信環境設定フレームなどのサイト上のビジュアル要素のグループとして定義したりできます。Adobe Experience Platform Web SDK 実装でビューを定義するには、開発者による 1 回限りの設定が必要です。これにより、マーケターは SPA で Adobe Journey Optimizer web キャンペーンを作成して実行できるようになります。[詳細情報](../web/web-spa.md)
 
-* Web デザイナーを使用してページを編集する際、コンポーネントを選択してデザイナーインターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。 [詳細情報](../web/manage-web-modifications.md#add-modifications)
+* Web デザイナーを使用してページを編集する際、コンポーネントを選択してデザイナーインターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。[詳細情報](../web/manage-web-modifications.md#add-modifications)
 
-* Web サブドメインを設定する際、既にAdobeにデリゲートされたサブドメインを使用する以外に、独自のサブドメインを追加するオプションが追加できるようになりました。 [詳細情報](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* Web サブドメインを設定する際に、Adobe に既にデリゲートされているサブドメインを使用することに加えて、独自のサブドメインを追加するオプションが追加されました。[詳細情報](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **ジャーニー**
 
-* ジャーニーを複製する際に、ジャーニーコピーの名前を定義できるようになりました。 [詳細情報](../building-journeys/journey-gs.md#uplicate-a-journey)
+* ジャーニーを複製する際に、ジャーニーのコピーの名前を定義できるようになりました。[詳細情報](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 
-* カスタムアクション応答のサポートが GA になりました。 この機能を使用すると、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 さらに、すべての税関アクションをエンドポイントあたり 30 秒を超える 150,000 回の呼び出しに制限する新しいガードレールが追加されました。 [詳細情報](../action/action-response.md)
+* カスタムアクション応答のサポートは、現在一般提供（GA）されています。この機能を使用すると、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 さらに、すべての税関アクションをエンドポイントあたり 30 秒を超える 150,000 回の呼び出しに制限する新しいガードレールが追加されました。 [詳細情報](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **メールチャネル**
 
-* E メールの表面設定の新しいオプションにより、E メールアドレスがAdobe上にある場合でも、プロファイルにトランザクションメッセージを送信することを選択できます [!DNL Journey Optimizer] 抑制リスト。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
+* メールサーフェス設定の新しいオプションを使用すると、メールアドレスが Adobe [!DNL Journey Optimizer] の抑制リストに記載されている場合でも、トランザクションメッセージをプロファイルに送信することを選択できます。[詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS チャネル**
 
-* 2 つの新しいフィールド **オプトインメッセージ** および **ヘルプメッセージ**&#x200B;を API 設定画面に追加し、ユーザーがインバウンドキーワードの応答をカスタマイズできるようにしました。 これは、Sinch SMS プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration.md#create-api)
+* 2 つの新しいフィールド、「**オプトインメッセージ**」と「**ヘルプメッセージ**」を API 設定画面に追加し、ユーザーが受信キーワードの応答をカスタマイズできるようになりました。これは、Sinch SMS プロバイダーでのみ使用できます。[詳細情報](../sms/sms-configuration.md#create-api)
 
-* SMS のオプトアウトは、チャネルレベルでは管理されなくなりました。 現在は数値固有になっています。つまり、一部のプロファイルが特定の数字やショートコードからオプトアウトした場合でも、SMS メッセージの送信に使用している他の数字からもメッセージを送信できます。 新しいオプションで、 **オプトアウト番号** を特定のサーフェスに使用する場合。 [詳細情報](../sms/sms-configuration.md#message-preset-sms)
+* SMS のオプトアウトは、チャネルレベルでは管理されなくなりました。現在は番号に固有になっています。つまり、一部のプロファイルが特定の番号やショートコードからオプトアウトした場合でも、SMS メッセージの送信に使用している他の番号からメッセージを送信できることになります。新しいオプションを使用すると、特定のサーフェスに使用する&#x200B;**オプトアウト番号**&#x200B;を選択できます。[詳細情報](../sms/sms-configuration.md#message-preset-sms)
 
 **ダイレクトメールチャネル**
 
-* ダイレクトメールプロバイダーがサーバーに転送する際に使用するファイルを暗号化できるようになりました。 これをおこなうには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー&amp;ペーストできます。 [詳細情報](../direct-mail/direct-mail-configuration.md)
+* ダイレクトメールプロバイダーがサーバーに転送する際に使用するファイルを暗号化できるようになりました。 これを行うには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー＆ペーストできます。[詳細情報](../direct-mail/direct-mail-configuration.md)
 
 **レポート**
 
-* Journey Optimizerレポートを CSV ファイルとして書き出せるようになりました。 詳しくは、 [詳細なドキュメント](../reports/global-report.md#export-reports) そして [ハウツービデオ](../reports/global-report.md#video-csv).
+* Journey Optimizer レポートを CSV ファイルとして書き出せるようになりました。詳しくは、[詳細なドキュメント](../reports/global-report.md#export-reports)と[ハウツービデオ](../reports/global-report.md#video-csv)を参照してください。
 
 **Assets**
 
-* Assets の新しいオプションを使用すると、Journey Optimizerで Assets のリポジトリを選択できます。 このソリューションを所有している場合は、Assets Essentialsリポジトリまたは Assetsas a Cloud Serviceリポジトリを選択できます。 [詳細情報](../content-management/assets-essentials.md)
+* Assets の新しいオプションを使用すると、Journey Optimizer でアセットのリポジトリを選択できます。このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。[詳細情報](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

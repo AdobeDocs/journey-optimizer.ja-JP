@@ -5,8 +5,8 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-exl-id: 2ab7a205-5aa6-4430-a498-d703cda7b8aa
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 100%

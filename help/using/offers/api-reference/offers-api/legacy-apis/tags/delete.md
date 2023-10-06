@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: cc67519e-7a80-49c7-8c8b-c777be633026
+source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # コレクション修飾子の削除 {#delete-tag}
 

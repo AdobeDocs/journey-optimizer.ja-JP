@@ -56,7 +56,7 @@ ht-degree: 100%
 
 テストプロファイルを選択する手順は、次のとおりです。
 
-1. [コンテンツを編集](create-email.md#define-email-content)画面または電子メールデザイナーで「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
+1. [コンテンツを編集](create-email.md#define-email-content)画面または E メールデザイナーで「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
    ![](assets/email-preview-button.png)
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 [テストプロファイル](#select-test-profiles)を選択すると、メールコンテンツをプレビューできます。次の手順に従います。
 
-1. [コンテンツを編集](create-email.md#define-email-content)画面または電子メールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. [コンテンツを編集](create-email.md#define-email-content)画面または E メールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
 1. テストプロファイルを選択します。列内で利用可能な値を確認できます。右向きや左向きの矢印を使用して、データを参照します。
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 その後、以下の手順をおこないます。
 
-1. [コンテンツを編集](create-email.md#define-email-content)画面またはメールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. [コンテンツを編集](create-email.md#define-email-content)画面または E メールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
 1. 「**[!UICONTROL メールをレンダリング]**」ボタンを選択します。
 

@@ -10,10 +10,11 @@ level: Intermediate
 keywords: IP、プール、配信品質
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -30,8 +31,8 @@ ht-degree: 6%
 
 * [IP ウォームアップの概要](ip-warmup-gs.md)
 * **[IP ウォームアップキャンペーンを作成](ip-warmup-campaign.md)**
-* [IP ウォームアッププランを作成する](ip-warmup-plan.md)
-* [IP ウォームアッププランを実行します。](ip-warmup-execution.md)
+* [IP ウォームアッププランを作成](ip-warmup-plan.md)
+* [IP ウォームアッププランを実行](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -82,4 +83,3 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 ライブが完了すると、キャンペーンは IP ウォームアッププランで使用できる状態になります。 [詳細情報](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-

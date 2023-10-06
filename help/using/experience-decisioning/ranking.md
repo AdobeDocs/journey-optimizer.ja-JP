@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 8%
+ht-degree: 25%
 
 ---
 
@@ -21,15 +22,15 @@ ht-degree: 8%
 
 このドキュメントガイドの内容は次のとおりです。
 
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目を管理
-   * [項目カタログを設定](catalogs.md)
+* [エクスペリエンス判定の基本を学ぶ](gs-experience-decisioning.md)
+* 決定項目の管理
+   * [項目カタログの設定](catalogs.md)
    * [決定項目の作成](items.md)
-   * [項目コレクションを管理](collections.md)
-* 項目の選択を設定
+   * [項目コレクションの管理](collections.md)
+* 項目の選択の設定
    * [決定ルールの作成](rules.md)
    * **[ランキングメソッドの作成](ranking.md)**
-* [選択戦略を作成](selection-strategies.md)
+* [選択戦略の作成](selection-strategies.md)
 * [決定ポリシーの作成](create-decision.md)
 
 >[!ENDSHADEBOX]

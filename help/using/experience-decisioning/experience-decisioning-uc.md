@@ -11,7 +11,7 @@ badge: label="ベータ版"
 source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 10%
 
 このドキュメントガイドの内容は次のとおりです。
 
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目を管理
-   * [項目カタログを設定](catalogs.md)
+* [エクスペリエンス判定の基本を学ぶ](gs-experience-decisioning.md)
+* 決定項目の管理
+   * [項目カタログの設定](catalogs.md)
    * [決定項目の作成](items.md)
-   * [項目コレクションを管理](collections.md)
-* 項目の選択を設定
+   * [項目コレクションの管理](collections.md)
+* 項目の選択の設定
    * [決定ルールの作成](rules.md)
    * [ランキングメソッドの作成](ranking.md)
-* [選択戦略を作成](selection-strategies.md)
+* [選択戦略の作成](selection-strategies.md)
 * [決定ポリシーの作成](create-decision.md)
 * **[使用例を通じて学ぶ](experience-decisioning-uc.md)**
 

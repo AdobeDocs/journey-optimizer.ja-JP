@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: チャネルレポート
-description: チャネルレポートの概要
+description: チャネルレポートの基本を学ぶ
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
-# チャネルレポートの概要 {#channel-report-gs}
+# チャネルレポートの基本を学ぶ {#channel-report-gs}
 
 チャネルレポートは、トラフィック指標とエンゲージメント指標の包括的な概要を各チャネルの統合レポートに提供する強力なツールで、すべてのキャンペーンとジャーニーのすべてのアクションを含みます。 ウィジェットは様々に分割され、それぞれがキャンペーンまたはジャーニーのパフォーマンスの特定のビューを提供します。
 

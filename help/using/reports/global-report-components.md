@@ -7,8 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
-source-git-commit: 1539e996105aa242c529acf35883d9dd4146ca7a
+exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 100%
