@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 100%
+source-wordcount: '1362'
+ht-degree: 96%
 
 ---
 
@@ -41,18 +41,18 @@ ht-degree: 100%
 
 1. 「データ管理」メニュー セクションで、「**[!UICONTROL スキーマ]**」をクリックします。
    ![](assets/test-profiles-0.png)
-1. 右上の「**[!UICONTROL スキーマを作成]**」をクリックして、スキーマの種類を選択します（例：**XDM 個人プロファイル**）。
+1. クリック **[!UICONTROL スキーマを作成]**&#x200B;右上で、スキーマタイプ（例： ）を選択します。 **個々のプロファイル** をクリックします。 **次へ**.
    ![](assets/test-profiles-1.png)
-1. 適切なフィールドグループを選択します。「**プロファイルテストの詳細**」フィールドグループを必ず追加してください。
+1. スキーマの名前を入力し、 **完了**.
+   ![](assets/test-profiles-1-bis.png)
+1. Adobe Analytics の **フィールドグループ** セクションの左側で、「 **追加** をクリックし、適切なフィールドグループを選択します。 「**プロファイルテストの詳細**」フィールドグループを必ず追加してください。
    ![](assets/test-profiles-1-ter.png)
 完了したら、「 **[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* スキーマの名前をクリックして変更し、そのプロパティを更新します。
-   >
-   >* 「フィールドグループ」セクションの「**[!UICONTROL 追加]**」ボタンをクリックして、スキーマに追加する他のフィールドグループを選択します
+   >スキーマの名前をクリックして、そのプロパティを更新します。
 
 1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
    ![](assets/test-profiles-3.png)

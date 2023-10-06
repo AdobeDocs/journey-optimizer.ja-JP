@@ -6,10 +6,10 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 100%
+source-wordcount: '1609'
+ht-degree: 96%
 
 ---
 
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 このジャーニーを機能させるには、XDM スキーマを作成する必要があります。詳しくは、[XDM ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#schemas-and-data-ingestion){target="_blank"}を参照してください。
 
-1. 左のメニューで、「**[!UICONTROL スキーマ]**」を参照します。
-
-1. 「**[!UICONTROL スキーマを作成]**」をクリックし、「**[!UICONTROL XDM ExperienceEvent]**」を選択します。
-
+1. 「データ管理」メニュー セクションで、「**[!UICONTROL スキーマ]**」をクリックします。
+   ![](assets/test_push_1.png)
+1. クリック **[!UICONTROL スキーマを作成]**、右上で、「 」を選択します。 **[!UICONTROL エクスペリエンスイベント]** をクリックします。 **次へ**.
    ![](assets/test_push_2.png)
-
-1. 「**[!UICONTROL 新しいフィールドグループを作成]**」を選択します。
+1. スキーマの名前と説明を入力し、「 **完了**.
+   ![](assets/test_push_3.png)
+1. Adobe Analytics の **フィールドグループ** セクションの左側で、「 **追加** を選択し、 **[!UICONTROL 新しいフィールドグループを作成]**.
 
 1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループの作成方法について詳しくは、[XDM システムドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}を参照してください。
 
 
    ![](assets/test_push_4.png)
 
-1. 左側で、スキーマを選択します。右側のペインで、スキーマの名前と説明を入力します。**[!UICONTROL プロファイル]**&#x200B;に対してこのスキーマを有効にします。
+1. 左側で、スキーマを選択します。右側のウィンドウで、次のスキーマを有効にします。 **[!UICONTROL プロファイル]**.
 
    ![](assets/test_push_4b.png)
 

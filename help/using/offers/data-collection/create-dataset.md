@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 88%
 
 ---
 
@@ -20,15 +20,18 @@ ht-degree: 100%
 
 まず、データセットで使用するスキーマを作成します。
 
-1. **[!UICONTROL データ管理]**&#x200B;メニューで「**[!UICONTROL スキーマ]**」を選択し、「**[!UICONTROL 参照]**」タブに移動します。
+1. 次から： **[!UICONTROL データ管理]** メニュー、選択 **[!UICONTROL スキーマ]**.
 
-1. 「**[!UICONTROL スキーマを作成]**」をクリックし、「**[!UICONTROL XDM ExperienceEvent]**」を選択します。
+1. クリック **[!UICONTROL スキーマを作成]**、右上で、「 」を選択します。 **[!UICONTROL エクスペリエンスイベント]** をクリックします。 **次へ**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
    >XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
+
+1. スキーマの名前と説明を入力し、「 **完了**.
+   ![](../assets/ai-ranking-xdm-event-2.png)
 
 1. 左側の「**[!UICONTROL フィールドグループ]**」セクションで、「**[!UICONTROL 追加]**」を選択します。
 
@@ -44,7 +47,7 @@ ht-degree: 100%
    >
    >データセットで使用されるスキーマには、「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループが関連付けられている必要があります。そうしないと、AI モデルで使用できなくなります。
 
-1. 名前を入力し、スキーマを保存します。
+1. スキーマの保存.
 
 >[!NOTE]
 >
