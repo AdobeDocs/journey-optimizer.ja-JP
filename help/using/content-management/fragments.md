@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
+source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 59%
@@ -127,7 +127,7 @@ ht-degree: 59%
 
 * **[!UICONTROL フラグメント]**&#x200B;専用のメニューを使用して、フラグメントを最初から作成します。[方法についてはこちらを参照](#create-from-scratch)
 
-* コンテンツをデザインする際は、コンテンツの一部をフラグメントとして保存します。 [方法についてはこちらを参照](#save-as-template)
+* コンテンツをデザインする際は、コンテンツの一部をフラグメントとして保存します。 [方法についてはこちらを参照](#save-as-fragment)
 
 保存すると、フラグメントをジャーニー、キャンペーンまたはテンプレートで使用できるようになります。最初から作成した場合でも、既存のコンテンツから作成した場合でも、内でコンテンツを作成する際に、このフラグメントを使用できるようになりました。 [!DNL Journey Optimizer]. 詳しくは、 [ビジュアルフラグメントを追加](../email/use-visual-fragments.md) および [式フラグメントの活用](../personalization/use-expression-fragments.md)
 
@@ -148,7 +148,7 @@ ht-degree: 59%
 
    ![](assets/fragment-details.png)
 
-1. フラグメントの種類を選択します。 **[!UICONTROL ビジュアルフラグメント]** または **[!UICONTROL 式フラグメント]**.
+1. フラグメントの種類を選択します。 [ビジュアルフラグメント](#create-visual-fragment) または [式フラグメント](#create-expression-fragment).
 
 1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
