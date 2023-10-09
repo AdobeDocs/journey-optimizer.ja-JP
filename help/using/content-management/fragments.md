@@ -8,37 +8,44 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
+source-git-commit: 95172d45401dc933ce09ae7d9be6eadf01952e3c
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 59%
+source-wordcount: '1548'
+ht-degree: 52%
 
 ---
 
 # フラグメントの操作 {#fragments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_create_fragment"
+>title="独自のフラグメントを定義する"
+>abstract="スタンドアロンフラグメントを作成および管理して、複数のジャーニーやキャンペーンでコンテンツを再利用可能にします。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="フラグメントの作成"
+
 フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。
 
 この機能を使用すると、マーケティングユーザーが使用できる複数のカスタムコンテンツブロックを事前に作成して、E メールコンテンツをすばやく組み立て、デザインプロセスを改善できます。
 
-➡️ [フラグメントの管理、オーサリング、使用方法については、次のビデオを参照してください](#video-fragments)
+![](../rn/assets/do-not-localize/fragments.gif)
 
->[!CAUTION]
->
->フラグメントを作成、編集、アーカイブするには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Library Items]** 権限を付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+➡️ [フラグメントの管理、オーサリング、使用方法については、次のビデオを参照してください](#video-fragments)
 
 フラグメントを最大限に活用するには：
 
 * 独自のフラグメントを作成します。ビジュアルフラグメントまたは式フラグメントを作成できます。 [詳細情報](#create-fragments)
+
 * コンテンツで必要な回数だけ使用します。 詳しくは、 [ビジュアルフラグメントを追加](../email/use-visual-fragments.md) および [式フラグメントの活用](../personalization/use-expression-fragments.md)
 
->[!NOTE]
->
->現在の場所 [!DNL Journey Optimizer]:
->
->* ビジュアルフラグメントは E メールチャネルでのみ使用できます。
->
->* 式フラグメントは、Web チャネルとアプリ内チャネルでは使用できません。
+## 開始する前に {#fragment-prerequisites}
+
+フラグメントを作成、編集、アーカイブするには、 **[!DNL Manage Library Items]** 次に含まれる権限： **[!DNL Content Library Manager]** 製品プロファイル。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+
+このバージョンでは、次の制限が適用されます。
+
+* ビジュアルフラグメントは E メールチャネルでのみ使用できます
+
+* 式フラグメントは、Web チャネルとアプリ内チャネルでは使用できません
 
 ## フラグメントへのアクセスと管理 {#access-manage-fragments}
 
@@ -133,14 +140,9 @@ ht-degree: 59%
 
 ### ゼロから作成 {#create-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo_create_fragment"
->title="独自のフラグメントの定義"
->abstract="スタンドアロンのフラグメントをゼロから作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。"
-
 フラグメントをゼロから作成するには、次の手順に従います。
 
-1. **[!UICONTROL コンテンツ管理]**／**[!UICONTROL フラグメント]**&#x200B;の左のメニューから、フラグメントリストにアクセスします。
+1. [](#access-manage-fragments)**[!UICONTROL コンテンツ管理]**／**[!UICONTROL フラグメント]**&#x200B;の左のメニューから、フラグメントリストにアクセスします。
 
 1. 「**[!UICONTROL フラグメントを作成]**」を選択します。
 
@@ -157,6 +159,12 @@ ht-degree: 59%
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
 ### ビジュアルフラグメントを作成する {#create-visual-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_visual_fragment"
+>title="ビジュアルタイプを選択"
+>abstract="スタンドアロンのビジュアルフラグメントを作成して、ジャーニーやキャンペーン内の E メール、またはコンテンツテンプレートでコンテンツを再利用可能にします。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="E メールへのビジュアルフラグメントの追加"
 
 1. [フラグメントの作成](#create-from-scratch) から **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]** 左側のメニューから、 **[!UICONTROL ビジュアルフラグメント]** タイプ。
 
@@ -181,6 +189,12 @@ ht-degree: 59%
 このフラグメントは、[!DNL Journey Optimizer] 内で[メール](../email/get-started-email-design.md)または[コンテンツテンプレート](content-templates.md)を作成する際に使用できるようになりました。[方法についてはこちらを参照](../email/use-visual-fragments.md)
 
 ### 式フラグメントを作成する {#create-expression-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_expression_fragment"
+>title="式のタイプを選択"
+>abstract="スタンドアロンの式フラグメントを作成して、複数のジャーニーやキャンペーンでコンテンツを再利用可能にします。 式エディターを使用する場合、現在のサンドボックスで作成されたすべての式フラグメントを活用できます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="式フラグメントの活用"
 
 1. [フラグメントの作成](#create-from-scratch) から **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]** 左側のメニューから、 **[!UICONTROL 式フラグメント]** タイプ。
 
