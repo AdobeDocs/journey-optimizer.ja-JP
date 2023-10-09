@@ -4,16 +4,23 @@ product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
-source-wordcount: '3765'
-ht-degree: 98%
+source-wordcount: '3815'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+
+
+## 2023年10月 {#oct-2023}
+
+* 次のような主な機能を説明するGIFを追加しました。 [コンテンツテンプレート](../content-management/content-templates.md), [フラグメント](../content-management/fragments.md), [計算済み属性](../audience/computed-attributes.md), [ダイレクトメール](../direct-mail/get-started-direct-mail.md), [タグ](../start/search-filter-categorize.md#tags), [決定管理の最適化モデル](../offers/ranking/personalized-optimization-model.md), [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)、および [コンテンツ実験](../campaigns/content-experiment.md).
+* スキーマの作成プロセスが更新され、Adobe Experience Platformの変更に伴うユーザーインターフェイスの最新の更新が反映されました。 [詳細情報](../audience/creating-test-profiles.md)
 
 ## 2023年9月 {#september-2023}
 

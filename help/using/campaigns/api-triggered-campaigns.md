@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 98%
@@ -22,6 +22,8 @@ ht-degree: 98%
 [!DNL Journey Optimizer] を使用すると、キャンペーンを作成したあと、[インタラクティブメッセージ実行 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) を使用して、ユーザートリガーに基づいて外部システムからそれらのキャンペーンを呼び出すことができます。これにより、パスワードのリセットや OTP トークンなど、マーケティングメッセージおよびトランザクションメッセージの様々なニーズに対応できます。
 
 それには、まず Journey Optimizer で API トリガー型キャンペーンを作成し、次に API 呼び出しを通じてその実行を開始する必要があります。
+
+![](../rn/assets/do-not-localize/api-triggered.gif)
 
 API トリガー型キャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。
 
