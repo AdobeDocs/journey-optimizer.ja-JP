@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
+source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 70%
+source-wordcount: '2063'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +56,47 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 「メール」タブ {#email-live}
 
-キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL メール]**」タブには、キャンペーンで送信されるメール配信に関連する主な情報の詳細が表示されます。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_sending_statistics"
+>title="電子メール — 送信統計"
+>abstract="電子メール — 送信統計グラフは、過去 24 時間のターゲットや配信など、電子メールに関する重要なデータをまとめます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_statistics"
+>title="電子メール — 統計"
+>abstract="「電子メール — 統計」テーブルは、過去 24 時間の電子メールに関するプロファイルアクティビティに関するデータを提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_bounce_categories"
+>title="電子メール — バウンスのカテゴリ"
+>abstract="電子メール — バウンスカテゴリのグラフと表は、過去 24 時間の一時的なエラーと永続的なエラーの両方に関するデータを提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_performance_bydate"
+>title="メール — 日別のパフォーマンス"
+>abstract="「 E メール — 日別パフォーマンス」グラフは、送信済み E メールに関する過去 24 時間の包括的なデータを表示し、配信やバウンスなどの主要指標に関するインサイトを提供し、E メール配信プロセスを詳細に分析できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_bounce_reasons"
+>title="電子メール — バウンス理由"
+>abstract="E メール — バウンス理由のグラフと表には、過去 24 時間のバウンスメッセージに関連して使用可能なデータが含まれています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_error_reasons"
+>title="電子メール — エラー理由"
+>abstract="E メール — エラー理由グラフと表を使用すると、過去 24 時間の送信プロセス中に発生した特定のエラーを特定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_excluded_reasons"
+>title="電子メール — 除外された理由"
+>abstract="除外された理由のグラフと表は、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因を示しています。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_email_best_recipient"
+>title="E メール — 最適な受信者ドメイン"
+>abstract="「 E メール — 最適な受信者ドメイン」グラフと表は、受信者が E メールを開くのに最も頻繁に使用するドメインの詳細な分類を示し、過去 24 時間の受信者の行動に関する有益なインサイトを提供します。"
+
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL 電子メール]** 「 」タブには、キャンペーンで送信される e メールに関する主な情報の詳細が表示されます。
 
 ![](assets/campaign_report_live_1.png)
 
@@ -66,29 +106,29 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL バウンス]**：送信プロセスと自動返信処理の間に累積したエラーの合計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL エラー]**：送信プロセス中に発生し、プロファイルへの送信を妨げたエラーの合計数。
 
-**[!UICONTROL メール別送信指標]**&#x200B;テーブルと&#x200B;**[!UICONTROL メールの概要]**&#x200B;グラフに、配信が成功した詳細を示します。
+The **[!UICONTROL 電子メール別指標の送信]** 表と **[!UICONTROL 電子メールの概要]** グラフは、電子メールの成功の詳細を示します。
 
-* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+* **[!UICONTROL 送信済み]**：送信の合計数。
 
 * **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL バウンス]**：送信プロセスと自動返信処理の間に累積したエラーの合計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL エラー]**：送信プロセス中に発生し、プロファイルへの送信を妨げたエラーの合計数。
 
-* **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
+* **[!UICONTROL 開封数]**：メッセージが開かれた回数。
 
-* **[!UICONTROL クリック数]**：配信でコンテンツがクリックされた回数。
+* **[!UICONTROL クリック数]**：コンテンツがクリックされた回数。
 
 * **[!UICONTROL 購読解除]**：購読解除リンクのクリック数。
 
-* **[!UICONTROL スパムの苦情数]**：メッセージがスパムまたは迷惑メールとして宣言された回数。
+* **[!UICONTROL スパムのの苦情数]**：メッセージがスパムまたはジャンクとして宣言された回数。
 
-**[!UICONTROL バウンス理由]**、**[!UICONTROL バウンスカテゴリ]**、**[!UICONTROL ハードとバウンス - メール別]**&#x200B;などのウィジェットには、バウンスメッセージに関して利用できるデータが含まれます。
+**[!UICONTROL バウンスの理由]**&#x200B;ウィジェットおよび&#x200B;**[!UICONTROL バウンスのカテゴリ]**&#x200B;ウィジェットには、次のようなバウンスメッセージに関するデータが含まれています。
 
 * **[!UICONTROL ハードバウンス]**：永続的なエラー（メールアドレスの間違いなど）の合計数。このエラーは、アドレスが無効であることを明示的に示すエラーメッセージ（例：「不明なユーザー」）を伴います。
 
@@ -96,9 +136,9 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 無視]**：一時的なエラー（不在など）や技術的なエラー（送信者のタイプが postmaster の場合など）の合計数。
 
-**[!UICONTROL エラーの理由]**&#x200B;および&#x200B;**[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+The **[!UICONTROL エラーの理由]** および **[!UICONTROL 理由を除外]** グラフと表を使用すると、送信プロセス中に発生したエラーと除外を確認できます。
 
-「**[!UICONTROL 電子メール - 上位の受信者ドメイン]**」のグラフと表は、受信者が電子メールを開くために最も多く使用しているドメインの詳細を示しています。
+「**[!UICONTROL メール - 最も多い受信者ドメイン]**」のグラフと表は、受信者がメールを開くために最も多く使用しているドメインの詳細を示しています。
 +++
 
 ## 「アプリ内」タブ {#inapp-live}
@@ -118,13 +158,13 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="アプリ内概要"
 >abstract="アプリ内概要グラフは、過去 24 時間のアプリ内インプレッション数およびインタラクション数の進行状況を示します。"
 
-キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL アプリ内]**」タブには、キャンペーンで送信されたアプリ内配信に関連する主な情報の詳細が表示されます。
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL アプリ内]** 「 」タブには、キャンペーンで送信されるアプリ内メッセージに関する主な情報の詳細が表示されます。
 
 +++アプリ内レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
 **[!UICONTROL アプリ内パフォーマンス]** KPI では、次のような、アプリ内メッセージに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
 
-* **[!UICONTROL インプレッション数]**：すべてのユーザーに配信されたアプリ内メッセージの合計数。
+* **[!UICONTROL Impressions]**：すべてのユーザーに送信されたアプリ内メッセージの合計数。
 
 * **[!UICONTROL インタラクション数]**：アプリ内メッセージに対するエンゲージメントの合計数。これには、クリック、破棄、その他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
 
@@ -144,7 +184,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_statistics"
 >title="プッシュ通知 — 統計"
->abstract="「プッシュ統計」テーブルは、過去 24 時間の配信の受信者アクティビティに関するデータを提供します。"
+>abstract="「プッシュ統計」テーブルは、過去 24 時間のプッシュ通知の受信者アクティビティに関するデータを提供します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
@@ -159,14 +199,14 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
 >title="プッシュ通知 — エラー理由"
->abstract="「エラー理由」のグラフと表を使用して、配信中に過去 24 時間に発生した特定のエラーを特定できます。"
+>abstract="「エラー理由」のグラフと表を使用して、送信プロセス中に過去 24 時間に発生した特定のエラーを特定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
 >title="プッシュ通知 — プラットフォーム別の分類"
 >abstract="プラットフォームごとの分類のグラフと表は、過去 24 時間のプッシュ通知の成功の内訳を、受信者のオペレーティングシステムに基づいて示しています。"
 
-キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL プッシュ通知]**」タブには、キャンペーンで送信されるプッシュ配信に関連する主な情報の詳細が表示されます。
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL プッシュ通知]** 「 」タブには、キャンペーンで送信されるプッシュ通知に関連するメイン情報の詳細が表示されます。
 
 ![](assets/campaign_report_live_2.png)
 
@@ -174,21 +214,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL プッシュ通知の送信パフォーマンス]**, **[!UICONTROL プッシュ通知の概要]** および **[!UICONTROL プッシュ通知 — 統計]** widgets は、メッセージに関する主な情報の詳細を示します。
 
-* **[!UICONTROL 送信済み]**：配信用に送信した合計数。
+* **[!UICONTROL 送信済み]**：送信の合計数。
 
 * **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL バウンス]**：送信プロセスと自動返信処理の間に累積したエラーの合計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL エラー]**：送信プロセス中に発生し、プロファイルに送信できなかったエラーの合計数。
 
-* **[!UICONTROL 開封数]**：配信でメッセージが開封された回数。
+* **[!UICONTROL 開封数]**：メッセージが開かれた回数。
 
 * **[!UICONTROL アクション]**：配信されたプッシュ通知に対するアクション（ボタンのクリックや解除など）の合計数。
 
 * **[!UICONTROL エンゲージメント]**：このプッシュ通知に対する開封数とアクション数（「プロファイルがプッシュを開封した」、「ボタンがクリックされた」など）の合計。
 
-**[!UICONTROL エラーの理由]**&#x200B;および&#x200B;**[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+The **[!UICONTROL エラーの理由]** および **[!UICONTROL 理由を除外]** グラフと表を使用すると、送信プロセス中に発生したエラーと除外を確認できます。
 
 **[!UICONTROL 送信統計 - 失敗]**&#x200B;ウィジェットには、発生したエラーとバウンスの数が表示されます。
 
@@ -210,7 +250,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
 >title="SMS — エラー理由"
->abstract="「SMS — エラー理由」のグラフと表を使用して、配信中に過去 24 時間に発生した特定のエラーを特定できます。"
+>abstract="SMS — エラー理由のグラフと表を使用すると、送信プロセス中に過去 24 時間に発生した特定のエラーを特定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -222,35 +262,35 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="SMS — バウンス理由"
 >abstract="「バウンス理由」のグラフと表には、バウンスメッセージに関連する過去 24 時間のデータが含まれています。"
 
-キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL SMS]**」タブには、キャンペーンで送信される SMS 配信に関連する主な情報の詳細が表示されます。
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL SMS]** 「 」タブには、キャンペーンで送信される SMS メッセージに関する主な情報の詳細が表示されます。
 
 ![](assets/campaign_report_live_3.png)
 
 +++SMS レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-**[!UICONTROL SMS - 統計]**&#x200B;テーブルは、配信の成功の詳細を表示します。
+The **[!UICONTROL SMS — 統計]** 表に、SMS メッセージの成功の詳細を示します。
 
-* **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
+* **[!UICONTROL ターゲット]**：ターゲットプロファイルとして認定されるユーザープロファイルの数。
 
 * **[!UICONTROL 除外済み]**：ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
 
-* **[!UICONTROL 送信済み]**：配信用の送信の合計数。
+* **[!UICONTROL 送信済み]**：送信の合計数。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL バウンス]**：送信プロセスと自動返信処理の間に累積したエラーの合計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL エラー]**：送信プロセス中に発生し、プロファイルへの送信を妨げたエラーの合計数。
 
 * **[!UICONTROL クリック数]**：URL 訪問の合計数。
 
 **[!UICONTROL SMS の日別パフォーマンス]**&#x200B;ウィジェットは、メッセージに関連する主な情報の詳細をグラフで表示します。
 
-* **[!UICONTROL 送信済み]**：配信用の送信の合計数。
+* **[!UICONTROL 送信済み]**：送信の合計数。
 
-* **[!UICONTROL バウンス数]**：配信中および自動返信処理中のエラーの累計。
+* **[!UICONTROL バウンス]**：送信プロセスと自動返信処理の間に累積したエラーの合計。
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL エラー]**：送信プロセス中に発生し、プロファイルに送信できなかったエラーの合計数。
 
-**[!UICONTROL 除外された理由]**、**[!UICONTROL バウンスの理由]**&#x200B;および&#x200B;**[!UICONTROL エラーの理由]**のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+The **[!UICONTROL 理由を除外]**, **[!UICONTROL バウンス理由]** および **[!UICONTROL エラーの理由]** グラフと表を使用すると、送信プロセス中に発生したエラーと除外を確認できます。
 +++
 
 ## 「Web」タブ {#web-tab}
@@ -302,23 +342,23 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="ダイレクトメール — 除外された理由"
 >abstract="ダイレクトメールの除外理由のグラフと表に、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因を示します。"
 
-キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL ダイレクトメール]** 「 」タブには、ダイレクトメール配信に関する主な情報の詳細が表示されます。
+キャンペーンから **[!UICONTROL ライブレポート]**、 **[!UICONTROL ダイレクトメール]** 「 」タブには、ダイレクトメールに関連する主な情報の詳細が表示されます。
 
 ![](assets/direct-mail-report_2.png)
 
 +++ダイレクトメールレポートで使用できる様々な指標やウィジェットについて詳しくは、こちらを参照してください。
 
-**[!UICONTROL ダイレクトメール - 送信統計]**&#x200B;テーブルは、配信の成功の詳細を示します。
+The **[!UICONTROL ダイレクトメール — 送信統計]** テーブルには、ダイレクトメールの成功の詳細が表示されます。
 
-* **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルと認定されるユーザープロファイルの数。
+* **[!UICONTROL ターゲット]**：ターゲットプロファイルとして認定されるユーザープロファイルの数。
 
-* **[!UICONTROL 送信済み]**：配信用の送信の合計数。
+* **[!UICONTROL 送信済み]**：送信の合計数。
 
-* **[!UICONTROL エラー]**：配信中に発生してプロファイルに送信できない原因となったエラーの合計数。
+* **[!UICONTROL エラー]**：送信プロセス中に発生し、プロファイルに送信できなかったエラーの合計数。
 
-* **[!UICONTROL 除外]**：ターゲットプロファイルから除外されて配信を受信しなかったユーザープロファイルの数。
+* **[!UICONTROL 除外済み]**：ダイレクトメールを受信しなかった、ターゲットプロファイルから除外されたユーザープロファイルの数。
 
-**[!UICONTROL ダイレクトメール - 除外された理由]**&#x200B;と&#x200B;**[!UICONTROL ダイレクトメール - エラー理由]**のグラフとテーブルを使用すると、配信中に発生したエラーと除外を確認できます。
+The **[!UICONTROL ダイレクトメール — 除外された理由]** および **[!UICONTROL ダイレクトメール — エラー理由]** グラフと表を使用すると、送信プロセス中に発生したエラーと除外を確認できます。
 +++
 
 ## その他のリソース
