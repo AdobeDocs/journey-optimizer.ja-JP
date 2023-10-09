@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
+source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -139,6 +139,11 @@ ht-degree: 100%
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## キャンペーンのスケジュール {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="キャンペーンスケジュール"
+>abstract="デフォルトでは、キャンペーンは手動でのアクティベーション時に開始され、メッセージが 1 回送信された直後に終了します。 ただし、柔軟にメッセージを送信する日時を設定できます。 さらに、繰り返しキャンペーンまたは API トリガーキャンペーンの終了日を指定できます。 「アクショントリガー」では、好みに応じてメッセージの送信頻度を設定することもできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
