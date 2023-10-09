@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 100%
+source-wordcount: '1522'
+ht-degree: 98%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 100%
 * テストモードがアクティブになっているときは、ジャーニーを変更できません。テストモードではジャーニーを直接公開できるので、事前にテストモードを無効にしておく必要はありません。
 * 分割に達すると、常に一番上の分岐を選択します。テストで別のパスを選択する場合は、分割された分岐の位置を再編成できます。
 * パフォーマンスを最適化し、古くなったリソースの使用を防ぐために、1 週間トリガーされていないテストモードのジャーニーはすべて、**ドラフト**&#x200B;ステータスに戻ります。
+* テストモードでトリガーされるイベントは、専用のデータセットに保存されます。 これらのデータセットには、次のラベルが付けられます。 `JOtestmode - <schema of your event>`
 
 ## イベントのトリガー {#firing_events}
 
