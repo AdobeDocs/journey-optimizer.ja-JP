@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 93%
 
 ---
 
 # 意思決定管理 API デベロッパーガイド {#decision-management-api-developer-guide}
+
+>[!CONTEXTUALHELP]
+>id="od_api_support"
+>title="新しい決定管理 API"
+>abstract="決定管理オブジェクトの作成と管理のための新しい API を使用できるようになりました。 従来の api は03/27/2024までサポートされます。"
 
 このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。次に、このガイドでは、意思決定エンジンを使用して主要な操作を実行するための API 呼び出しのサンプルを提供します。
 
