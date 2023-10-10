@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '543'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,11 @@ Adobe Journey Optimizer インターフェイスのどこからでも、上部�
 ![](assets/journey4.png)
 
 ## 統合タグの操作 {#tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_tags"
+>title="タグ"
+>abstract="このフィールドを使用すると、キャンペーンにAdobe Experience Platform統合タグを割り当てることができます。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。"
 
 Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ja)を使用すると、Journey Optimizer のジャーニーやキャンペーンを簡単に分類し、リストからの検索を改善できます。
 
