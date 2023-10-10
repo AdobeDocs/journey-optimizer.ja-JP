@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_campaigns_content_experiment_segment"
 >title="オーディエンス"
 >abstract="Adobe Experience Platform では、リアルタイム顧客プロファイルデータを活用することで、セグメント定義を簡単に作成して、顧客の固有の行動や好みを取り込むターゲットオーディエンスを作成できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="キャンペーンオーディエンスを選択"
+>abstract="このリストには、使用可能なすべてのAdobe Experience Platformオーディエンスが表示されます。 キャンペーンのターゲットにするオーディエンスを選択します。 キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。 [詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。"
 
 [!DNL Journey Optimizer] では、**[!UICONTROL オーディエンス]**&#x200B;メニューからリアルタイム顧客プロファイルデータを直接使用して Adobe Experience Platform オーディエンスを作成および活用し、それらをジャーニーやキャンペーンに使用することができます。
 
