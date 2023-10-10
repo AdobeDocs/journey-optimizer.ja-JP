@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 90%
 
 ---
 
@@ -58,6 +58,32 @@ ht-degree: 100%
 これで、ダイレクトメールプロバイダーに送信する抽出ファイルの設定を開始できます。
 
 ## 抽出ファイルの設定 {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="データフィールド"
+>abstract="ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルに表示する列と情報を追加および設定します。 追加できる列は 50 個までです。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="抽出ファイルのフォーマット"
+>abstract="The <b>並べ替え基準</b> 「 」オプションを使用すると、選択したフィールドを使用して抽出ファイルの列を並べ替えることができます。 このオプションを無効にした場合、列は「 Profile ID 」フィールドに基づいて自動的に並べ替えられます。"
+
+1. 抽出ファイルに表示する列と情報を設定します。
+
+   1. 「**[!UICONTROL 追加]**」ボタンをクリックして、新しい列を作成します。
+
+   1. 右側に&#x200B;**[!UICONTROL フォーマット]**&#x200B;パネルが表示され、選択した列をセットアップできます。列の「**[!UICONTROL ラベル]**」を指定します。
+
+   1. 「**[!UICONTROL データ]**」フィールドで、[式エディター](../personalization/personalization-build-expressions.md)を使用して、表示するプロファイル属性を選択します。
+
+   1. 列を使用して抽出ファイルを並べ替えるには、列を選択し、「**[!UICONTROL 並べ替え基準]**」オプションの切替スイッチをオンにします。「**[!UICONTROL データフィールド]**」セクションで、列のラベルの横に&#x200B;**[!UICONTROL 並べ替え基準]**&#x200B;アイコンが表示されます。
+
+
+
+
+
+
 
 抽出ファイルは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要です。抽出ファイルの設定を定義するには、次の手順に従います。
 
