@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 90%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 90%
 >abstract="ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルに表示する列と情報を追加および設定します。 追加できる列は 50 個までです。"
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="抽出ファイルのフォーマット"
->abstract="The <b>並べ替え基準</b> 「 」オプションを使用すると、選択したフィールドを使用して抽出ファイルの列を並べ替えることができます。 このオプションを無効にした場合、列は「 Profile ID 」フィールドに基づいて自動的に並べ替えられます。"
+>abstract="各フィールドで、式エディターを使用して、ラベルと表示する情報を指定します。 <br/><br/> The <b>並べ替え基準</b> 「 」オプションを使用すると、選択したフィールドを使用して抽出ファイルの列を並べ替えることができます。"
 
 1. 抽出ファイルに表示する列と情報を設定します。
 
