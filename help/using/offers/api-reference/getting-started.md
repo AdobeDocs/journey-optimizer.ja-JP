@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
+source-git-commit: bf43a223da595004972faa1147e8525988cd1b21
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 93%
+source-wordcount: '397'
+ht-degree: 87%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
+>title="新しい決定管理 API"
+>abstract="決定管理オブジェクトの作成と管理のための新しい API を使用できるようになりました。 従来の api は03/27/2024までサポートされます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_api_support"
 >title="新しい決定管理 API"
 >abstract="決定管理オブジェクトの作成と管理のための新しい API を使用できるようになりました。 従来の api は03/27/2024までサポートされます。"
 
