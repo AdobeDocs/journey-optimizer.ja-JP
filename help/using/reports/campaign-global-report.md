@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
+source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3192'
 ht-degree: 50%
 
 ---
@@ -239,9 +239,9 @@ The **[!UICONTROL 電子メール — 上位の URL]** 電子メールからの 
 
 The **[!UICONTROL E メール — 上位の受信者ドメイン]** プロファイルが E メールを開く際に最も使用しているドメインのグラフと表の詳細。
 
->[!NOTE]
+>[!CAUTION]
 >
->The **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]**  ウィジェットは、メールに対して「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。 送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+> The **[!UICONTROL E メール — 上位の受信者ドメイン]** ウィジェットの精度は 99.95%です。
 
 この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
 
@@ -256,6 +256,11 @@ The **[!UICONTROL 送信時間の最適化]** 送信方法に応じて、電子�
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 
 * **[!UICONTROL バウンス]**：送信メッセージの合計数に関する、送信プロセス中と自動返信処理中に累積したエラーの合計。
+
+>[!NOTE]
+>
+>The **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]**  ウィジェットは、メールに対して「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。 送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+
 +++
 
 ## 「アプリ内」タブ {#inapp-global}
