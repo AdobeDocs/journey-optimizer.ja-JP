@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1151'
 ht-degree: 80%
 
 ---
 
 # メール, アプリ内, プッシュ, SMS{#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_activity"
+>title="メッセージアクティビティ"
+>abstract="Journey Optimizerには、組み込みのメッセージ機能が付属しています。 ジャーニーにプッシュ、SMS、アプリ内またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます."
 
 [!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、SMS、アプリ内またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます.
 

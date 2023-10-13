@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: ジャーニー, 統合, キャンペーン, v7, v8, Classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
 
 # Adobe Campaign v7／v8 のアクション {#using_campaign_classic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acc"
+>title="カスタムアクション"
+>abstract="統合は、Adobe Campaign v7 または v8 のユーザーが使用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。"
 
 統合は、Adobe Campaign v7 または v8 のユーザーが使用できます。これにより、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 

@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: ジャーニー, 統合, 標準, キャンペーン, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 98%
 
 ---
 
 # Adobe Campaign Standard のアクション {#using_campaign_action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acs"
+>title="カスタムアクション"
+>abstract="Adobe Campaign Standardがある場合は、統合を使用できます。 Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。"
 
 Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**&#x200B;および **[!UICONTROL SMS]** の組み込みアクションアクティビティを使用できます。
 

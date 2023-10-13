@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: カスタム, 一般, イベント, ジャーニー
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
->title="一般イベント"
+>title="単一イベント"
 >abstract="イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。このタイプのイベントでは、ラベルと説明のみを追加できます。イベントの設定はデータエンジニアが実行し、編集できません。"
 
 イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。

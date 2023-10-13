@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 97%
+source-wordcount: '1727'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,11 @@ ht-degree: 97%
    ![](assets/custom2.png)
 
 ## ジャーニーへのアクセス {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="ジャーニー"
+>abstract="カスタマージャーニーを設計して、状況に即したパーソナライズされたエクスペリエンスを提供します。Journey Optimizerを使用すると、イベントやデータソースに保存されたコンテキストデータを使用して、リアルタイムオーケストレーションのユースケースを構築できます。 The **概要** 「 」タブには、ジャーニーに関連する主要指標が記載されたダッシュボードが表示されます。 The **参照** 「 」タブには、既存のジャーニーのリストが表示されます。"
 
 「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。次の 2 つのタブを使用できます。
 
@@ -77,11 +82,6 @@ ht-degree: 97%
 ![](assets/journey3bis.png)
 
 ## ジャーニーの作成{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="ジャーニーの作成"
->abstract="この画面には、既存のジャーニーのリストが表示されます。ジャーニーを開くか「ジャーニーを作成」をクリックして、様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを作成します。"
 
 このステップは、**ビジネスユーザー**&#x200B;が実行します。ここでジャーニーを作成します。様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを構築します。
 
