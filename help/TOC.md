@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -230,14 +230,16 @@ ht-degree: 98%
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
 + Web チャネル {#web}
    + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
-   + [Web チャネルの前提条件](using/web/web-prerequisites.md)
+   + Web チャネルの設定 {#configure-web-channel}
+      + [Web チャネルの前提条件](using/web/web-prerequisites.md)
+      + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
+      + [シングルページアプリケーションの実装](using/web/web-spa-implementation.md)
    + [Web エクスペリエンスの作成](using/web/create-web.md)
    + Web ページの作成 {#author-web-pages}
       + [Web ページコンテンツの編集](using/web/edit-web-content.md)
       + [変更の管理](using/web/manage-web-modifications.md)
       + [Web キャンペーンの監視](using/web/monitor-web-campaigns.md)
       + [単一ページアプリケーションの作成](using/web/web-spa.md)
-   + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
    + [コードベースの前提条件](using/code-based/code-based-prerequisites.md)
@@ -529,7 +531,6 @@ ht-degree: 98%
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [頻度ルールの設定](using/configuration/frequency-rules.md)
-   + [単一ページアプリケーションの実装](using/web/web-spa-implementation.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
