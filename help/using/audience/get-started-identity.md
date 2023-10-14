@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer における ID の基本を学ぶ
 description: Adobe Journey Optimizer で ID を管理する方法を説明します
-feature: Profiles
+feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%

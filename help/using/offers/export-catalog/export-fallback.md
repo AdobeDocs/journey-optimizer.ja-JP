@@ -1,12 +1,12 @@
 ---
 title: フォールバックオファーデータセット
 description: この節では、フォールバックオファー用に書き出したデータセットで使用するすべてのフィールドをリストします。
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 100%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: オーディエンスへのアクセスと管理
 description: オーディエンスにアクセスして管理する方法を説明します
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%

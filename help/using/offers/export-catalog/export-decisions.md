@@ -1,12 +1,12 @@
 ---
 title: 決定データセット
 description: この節では、決定のためにエクスポートしたデータセットで使用するすべてのフィールドをリストアップします。
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 100%

@@ -1,12 +1,12 @@
 ---
 title: コレクション修飾子の更新
 description: コレクション修飾子を使用すると、オファーをより適切に整理し並べ替えることができます。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%

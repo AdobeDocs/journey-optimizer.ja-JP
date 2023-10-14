@@ -1,12 +1,12 @@
 ---
 title: 決定の作成
 description: 決定には、オファーの選択を通知するロジックが含まれています。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 76%

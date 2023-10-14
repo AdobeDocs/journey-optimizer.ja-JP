@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: オーディエンスコンポジションの基本を学ぶ
 description: オーディエンス構成の詳細を学ぶ
-feature: Journeys
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ライセンス使用状況ダッシュボード
 description: Journey Optimizer ライセンス使用状況ダッシュボードについて説明します
-feature: Overview
+feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%

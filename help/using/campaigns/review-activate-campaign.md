@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンのレビューとアクティブ化
 description: Journey Optimizer でキャンペーンをレビューおよびアクティブ化する方法について学ぶ
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: キャンペーン, レビュー, 検証, アクティブ化, アクティブ化, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%

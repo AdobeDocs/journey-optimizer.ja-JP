@@ -1,8 +1,10 @@
 ---
 title: Batch Decisioning
 description: 特定の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルにオファーの決定を配信する方法を説明します。
+Feature: Offers
+Level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
