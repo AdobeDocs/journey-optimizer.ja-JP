@@ -1,5 +1,5 @@
 ---
-title: フォールバックオファーの作成
+title: フォールバックオファーを作成
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Offers, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# フォールバックオファーの作成 {#create-fallback-offer}
+# フォールバックオファーを作成 {#create-fallback-offer}
 
 コンテナ ID を提供しながら [!DNL Offer Library] API に POST リクエストを実行することで、フォールバックオファーを作成できます。
 

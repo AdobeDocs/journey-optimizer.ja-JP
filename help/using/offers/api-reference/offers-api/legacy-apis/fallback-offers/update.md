@@ -9,7 +9,7 @@ exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 **応答**
 
-正常な応答は、フォールバックオファーの更新された詳細（一意のインスタンスを含む）を返します `id`.
+応答が成功すると、一意のインスタンス `id` を含む、フォールバックオファーの更新された詳細が返されます。
 
 ```json
 {

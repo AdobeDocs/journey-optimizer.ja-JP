@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,13 +86,13 @@ ht-degree: 95%
 >title="Web エクスペリエンスのプレビュー"
 >abstract="Web エクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
-一度 [web エクスペリエンスを作成しました](edit-web-content.md) web デザイナーを使用すると、キャンペーンをアクティブ化する前に、変更された web ページのプレビューを表示できます。 これを行うには、以下の手順に従います。
+Web デザイナーを使用して [web エクスペリエンスを作成](edit-web-content.md)すると、キャンペーンをアクティブ化する前に、変更された web ページのプレビューを表示できます。これを行うには、以下の手順に従います。
 
 >[!CAUTION]
 >
 >どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
-1. Web キャンペーンのコンテンツ編集画面または Web デザイナーから、 **[!UICONTROL コンテンツをシミュレート]**.
+1. Web キャンペーンのコンテンツ編集画面または web デザイナーから、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
 
    <!--![](assets/web-designer-simulate.png)-->
 

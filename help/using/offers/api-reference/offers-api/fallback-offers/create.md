@@ -1,5 +1,5 @@
 ---
-title: フォールバックオファーの作成
+title: フォールバックオファーを作成
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Offers, API
 topic: Integrations
@@ -9,17 +9,17 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# フォールバックオファーの作成 {#create-fallback-offer}
+# フォールバックオファーを作成 {#create-fallback-offer}
 
-フォールバックオファーを作成するには、 [!DNL Offer Library] API.
+[!DNL Offer Library] API に対して POST リクエストを実行することで、フォールバックオファーを作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、 *Content-Type* リクエストヘッダーのフィールド：
+次の表に、リクエストヘッダーの「*Content-Type*」フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 
 **リクエスト**
 
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **応答**
 
-正常な応答は、新しく作成されたフォールバックオファーに関する情報（一意のフォールバックオファーを含む）を返します `id`. 以下を使用すると、 `id` 後の手順で、フォールバックオファーを更新または削除したり、後のチュートリアルで決定を作成したりします。
+正常な応答の場合は、一意のフォールバックオファー `id` など、新しく作成されたフォールバックオファーに関する情報が返されます。後の手順で `id` を使用して、フォールバックオファーを更新または削除したり、後のチュートリアルで決定を作成したりできます。
 
 
 ```json

@@ -139,8 +139,8 @@ ht-degree: 97%
 ## 2022年11月 {#november-2022}
 
 * Journey Optimizer の統合に関する新しいページを追加しました。[詳細情報](../start/ajo-integrations.md)
-* ミラーページの URL の長さに関する推奨事項を追加しました。[詳細情報](../email/message-tracking.md)
-* 適切な返信管理を確保するための推奨事項を含む、メール設定の新しい節をメールアドレスへの返信に追加しました。[詳細情報](../email/email-settings.md#reply-to-email)
+* ミラーページの URL の長さに関するレコメンデーションを追加しました。[詳細情報](../email/message-tracking.md)
+* 適切な返信管理を確保するためのレコメンデーションを含む、メール設定の新しい節をメールアドレスへの返信に追加しました。[詳細情報](../email/email-settings.md#reply-to-email)
 * ライブジャーニーでメッセージのコンテンツを変更する方法に関する節を追加しました。[詳細情報](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022年10月 {#october-2022}
@@ -182,7 +182,7 @@ ht-degree: 97%
 * ジャーニーのプロパティの「**プロファイルのタイムゾーン**」オプションが、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **待機**&#x200B;アクティビティで、「**固定日付**」オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
 * **オーディエンスを読み取り**&#x200B;アクティビティに「**増分読み取り**」オプションに関する詳細情報を追加しました。[詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* **プロファイルキャップ**&#x200B;条件タイプに関する推奨事項を追加しました。[詳細情報](../building-journeys/condition-activity.md#profile_cap)
+* **プロファイルキャップ**&#x200B;条件タイプに関するレコメンデーションを追加しました。[詳細情報](../building-journeys/condition-activity.md#profile_cap)
 * ビジネスイベントに関する制限事項を追加しました。 [詳細情報](../start/guardrails.md#events-g)
 
 ## 2022年6月 {#june-2022}

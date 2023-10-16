@@ -9,13 +9,13 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # プレースメントの検索 {#look-up-placement}
 
-特定の配置を検索するには、 [!DNL Offer Library] 配置を含む API `id`.
+特定のプレースメントを検索するには、プレースメント `id` を含む GET リクエストを [!DNL Offer Library] API に対して行います。
 
 **API 形式**
 
@@ -25,7 +25,7 @@ GET /{ENDPOINT_PATH}/placements/{ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 検索するエンティティの ID。 | `offerPlacement1234` |
 
 ```shell
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **応答**
 
-正常な応答は、一意の配置に関する情報を含む配置の詳細を返します `id`.
+成功した場合、一意のプレースメント `id` に関する情報を含むプレースメントの詳細が応答として返されます。
 
 ```json
 {

@@ -118,7 +118,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 次の 2 種類のアラートが発生する可能性があります。
 
-* **警告**&#x200B;は、次のような推奨事項やベストプラクティスを示しています。
+* **警告**&#x200B;は、次のようなレコメンデーションやベストプラクティスを示しています。
 
    * **[!UICONTROL メール本文にオプトアウトンクがありません]**：購読解除リンクをメール本文に追加するのがベストプラクティスです。設定方法について詳しくは、[この節](../privacy/opt-out.md#opt-out-management)を参照してください。
 

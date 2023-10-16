@@ -9,7 +9,7 @@ exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 80%
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 更新するエンティティの ID。 | `fallbackOffer1234` |
 
 **リクエスト**
@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には次のものが含まれます。 `add`, `replace`, `remove`, `copy` および `test`. |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 

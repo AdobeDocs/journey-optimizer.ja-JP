@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 5e7a430feba5f67e5778704fde63003876c5dc67
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 76%
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,7 @@ Journey Optimizerでは、メッセージ（E メールおよびプッシュ）�
 >[!CAUTION]
 >**XDM 個人版プロファイル**&#x200B;スキーマは、[!DNL Journey Optimizer] でコンテンツをパーソナライズするために使用できる唯一のスキーマです。
 
-また、 **計算済み属性** コンテンツをパーソナライズする 計算済み属性は、Adobe Experience Platformに取り込まれ、個々の行動イベントを要約する顧客プロファイル内に保存された集計データポイントとして機能する、プロファイル対応のエクスペリエンスイベントデータセットに基づきます [計算済み属性の使用方法を説明します。](../audience/computed-attributes.md)
+さらに、**計算属性**&#x200B;を利用して、コンテンツをパーソナライズすることもできます。計算属性は、Adobe Experience Platform に取り込まれたプロファイル対応のエクスペリエンスイベントデータセットに基づいており、個々の行動イベントを要約する顧客プロファイル内に保存される集計データポイントとして機能します。[計算属性の使用方法を学ぶ](../audience/computed-attributes.md)
 
 ## 様々なコンテキストでのパーソナライゼーションの追加 {#contexts}
 

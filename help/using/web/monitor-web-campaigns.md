@@ -1,6 +1,6 @@
 ---
 title: Web キャンペーンの監視
-description: Journey Optimizerで Web キャンペーンを監視する方法を説明します。
+description: Journey Optimizer での web キャンペーンの監視方法を学ぶ
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,21 +9,21 @@ exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Web キャンペーンの監視 {#monitor-web-campaigns}
 
-## Web レポートを確認する {#check-web-reports}
+## Web レポートの確認 {#check-web-reports}
 
-キャンペーンがライブになったら、 **[!UICONTROL Web]** 「 」タブを使用して、インプレッション数、クリック率、web ページでのアクション数などの要素を比較することができます。 キャンペーン Web で詳細を表示 [ライブレポート](../reports/campaign-live-report.md#web-tab) および [グローバルレポート](../reports/campaign-global-report.md#web-tab).
+キャンペーンがライブになったら、キャンペーンリポートの「**[!UICONTROL Web]**」タブを確認して、インプレッション数、クリック率、web ページでのエンゲージメント数などの要素を比較できます。詳しくは、キャンペーン web [ライブレポート](../reports/campaign-live-report.md#web-tab)および[グローバルレポート](../reports/campaign-global-report.md#web-tab)を参照してください。
 
-Web エクスペリエンスの監視をさらに強化するには、Web サイトの特定の要素に対するクリックを追跡することもできます。 これにより、Web レポートにその要素のクリック数を表示できます。 [方法についてはこちらを参照](#use-click-tracing)
+Web エクスペリエンスの監視をさらに強化するには、web サイトの特定の要素に対するクリック数を追跡することもできます。これにより、web レポートにその要素のクリック数を表示できます。[方法についてはこちらを参照](#use-click-tracing)
 
 ## クリックの追跡を使用 {#use-click-tracing}
 
-Web デザイナーを使用すると、Web サイトの任意の要素を選択し、その要素に対するクリックを追跡できます。
+Web デザイナーを使用すると、web サイトの任意の要素を選択し、その要素に対するクリック数をトラックできます。
 
 この情報は、web サイトのユーザーエクスペリエンスを向上させるのに役立ちます。例えば、実際にはクリックできない要素を多くのユーザーがクリックしたことが [web レポート](../reports/campaign-global-report.md#web-tab)でわかる場合は、その要素にリンクを追加したほうが良い可能性があります。
 
@@ -47,4 +47,4 @@ Web デザイナーを使用すると、Web サイトの任意の要素を選択
 
 1. 要素でのクリックの追跡を削除するには、対応する削除アイコンを選択します。
 
-キャンペーンが公開されたら、キャンペーン Web で各要素のクリック数を確認できます [ライブレポート](../reports/campaign-live-report.md#web-tab) および [グローバルレポート](../reports/campaign-global-report.md#web-tab).
+キャンペーンがライブになったら、キャンペーン web [ライブレポート](../reports/campaign-live-report.md#web-tab)および[グローバルレポート](../reports/campaign-global-report.md#web-tab)で各要素のクリック数を確認できます。

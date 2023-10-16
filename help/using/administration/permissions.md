@@ -12,7 +12,7 @@ keywords: 製品, プロファイル, サンドボックス
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 96%
 
 1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-   [!DNL Admin Console] でまだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html)を参照してください。
+   [!DNL Admin Console] でまだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=ja)を参照してください。
 
    ![](assets/do-not-localize/access_control_4.png)
 
 これにより、ユーザーをインスタンスへリダイレクトするメールが、ユーザーに送られます。
 
-ユーザー管理について詳しくは、 [アクセス制御に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja).
+ユーザー管理について詳しくは、[アクセス制御ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja)を参照してください。
 
 インスタンスにアクセスすると、**[!UICONTROL 役割]**&#x200B;に割り当てられた権限に応じて、特定のビューが表示されます。ユーザーが機能にアクセスする適切な権限を持っていない場合は、次のメッセージが表示されます。
 
@@ -125,4 +125,4 @@ ht-degree: 96%
 
 これで、**[!UICONTROL 役割]**&#x200B;の作成と設定が完了しました。次に、この役割をユーザーに割り当てる必要があります。
 
-役割の作成と管理について詳しくは、[Admin Console ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html)を参照してください。
+役割の作成と管理について詳しくは、[Admin Console ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ja)を参照してください。

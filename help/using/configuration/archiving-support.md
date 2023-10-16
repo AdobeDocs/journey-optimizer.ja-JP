@@ -47,7 +47,7 @@ HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信され�
 >
 >BCC に設定できるメールアドレスは 1 つだけです。現在のチャネルサーフェスを使用して送信されるすべてのメールを保存するのに十分な受信容量が BCC アドレスにあることを確認します。
 >
->その他の推奨事項の一覧は、[この節](#bcc-recommendations-limitations)を参照してください。
+>その他のレコメンデーションの一覧は、[この節](#bcc-recommendations-limitations)を参照してください。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ BCC メールアドレスの設定は、サーフェスレベルで直ちに保�
 
 ただし、BCC アドレスは、[こちら](../email/email-settings.md)で説明しているロジックに従って、コミュニケーションを送信するために取得されます。
 
-### 推奨事項と制限事項 {#bcc-recommendations-limitations}
+### レコメンデーションと制限事項 {#bcc-recommendations-limitations}
 
 * プライバシー上の理由から、BCC メールは、個人を特定できる情報（PII）を安全に保存できるアーカイブシステムで処理する必要があります。
 

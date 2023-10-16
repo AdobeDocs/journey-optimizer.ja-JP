@@ -1,5 +1,5 @@
 ---
-title: Web コンテンツを編集
+title: Web コンテンツの編集
 description: Journey Optimizer で web ページを作成し、そのコンテンツを編集する方法を学ぶ
 feature: Web Channel
 topic: Content Management
@@ -9,15 +9,15 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Web コンテンツを編集 {#edit-web-content}
+# Web コンテンツの編集 {#edit-web-content}
 
-キャンペーンに [web アクションを追加](create-web.md#create-web-campaign)すると、Web デザイナーでサイトのコンテンツを編集できるようになります。
+キャンペーンに [web アクションを追加](create-web.md#create-web-campaign)すると、web デザイナーでサイトのコンテンツを編集できるようになります。
 
-[こちらのビデオで web キャンペーンの作成方法について学ぶ](#video)
+[このビデオで web キャンペーンの作成方法について学ぶ](#video)
 
 [!DNL Journey Optimizer] の web オーサリングには、**Adobe Experience Cloud Visual Helper** の Chrome ブラウザー拡張機能が利用されています。[詳細情報](web-prerequisites.md#visual-authoring-prerequisites)
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 >
 >[!DNL Journey Optimizer] ユーザーインターフェイスで web ページへのアクセスや web ページを作成するには、[こちらのセクション](web-prerequisites.md)に記載されている前提条件を必ず満たすようにしてください。
 
-各トピックの詳細については、次のセクションにアクセスしてください。
+各トピックについて詳しくは、次の節にアクセスしてください。
 
 * [変更の管理](manage-web-modifications.md)
 
@@ -138,7 +138,7 @@ Web キャンペーンのオーサリングを開始するには、次の手順�
 
 ## Web デザイナー内での移動 {#navigate-web-designer}
 
-この節では、Web デザイナーでの様々なナビゲーション方法について説明します。 Web エクスペリエンスに追加された変更を表示および管理するには、 [この節](manage-web-modifications.md).
+この節では、web デザイナーでの様々なナビゲーション方法について説明します。Web エクスペリエンスに追加された変更の表示および管理について詳しくは、[こちらの節](manage-web-modifications.md)を参照してください。
 
 ### パンくずリストの使用 {#breadcrumbs}
 
@@ -167,7 +167,7 @@ Web キャンペーンのオーサリングを開始するには、次の手順�
 
 これは、認証の後のページや、特定の URL で最初から使用できないページを処理する場合に特に便利です。例えば、認証を行い、アカウントページや買い物かごページに移動して、**[!UICONTROL デザイン]**&#x200B;モードに戻り、目的のページで変更を実行できます。
 
-使用 **[!UICONTROL 参照]** また、モードを使用すると、単一ページアプリケーションを作成する際に、Web サイトのすべてのビューをナビゲートできます。 [詳細情報](web-spa.md)
+**[!UICONTROL 参照]**&#x200B;モードを使用すると、単一ページアプリケーションを作成する際に、web サイトのすべてのビューをナビゲートできます。[詳細情報](web-spa.md)
 
 ### デバイスサイズの変更 {#change-device-size}
 

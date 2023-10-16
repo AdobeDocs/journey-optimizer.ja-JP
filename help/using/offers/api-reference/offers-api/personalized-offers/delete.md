@@ -9,13 +9,13 @@ exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの削除 {#delete-personalized-offer}
 
-場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。これは、 [!DNL Offer Library] 削除するパーソナライズされたオファーの ID を使用する API。
+場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。それには、削除するパーソナライズされたオファーの ID を使用して、[!DNL Offer Library] API に対する DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -25,7 +25,7 @@ DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 削除するエンティティの ID。 | `personalizedOffer1234` |
 
 **リクエスト**
@@ -41,6 +41,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 
 **応答**
 
-正常な応答は、HTTP ステータス 200 と空白の本文を返します。
+正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-パーソナライズされたオファーが削除されたので、パーソナライズされたオファーに対して検索 (GET) リクエストを試みて削除を確認できます。また、HTTP ステータス 404（見つかりません）を受け取る必要があります。
+削除を確認するには、パーソナライズされたオファーに対する参照（GET）リクエストを試みます。パーソナライズされたオファーが削除されているので、HTTP ステータス 404（見つかりません）が表示されるはずです。

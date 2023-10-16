@@ -9,13 +9,13 @@ exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 # 決定ルールの検索 {#lookup-decision-rule}
 
-特定の決定ルールを検索するには、 [!DNL Offer Library] 決定ルールを含む API `id` リクエストパス内で使用します。
+特定の決定ルールを検索するには、リクエストパスに決定ルール `id` を含む GET リクエストを [!DNL Offer Library] API に対して実行します。
 
 **API 形式**
 
@@ -25,7 +25,7 @@ GET /{ENDPOINT_PATH}/offer-rules/{ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 検索するエンティティの ID。 | `offerRule1234` |
 
 **リクエスト**
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **応答**
 
-正常な応答は、検索した特定の決定ルールの詳細（一意の決定ルールに関する情報を含む）を返します `id`.
+正常な応答の場合は、一意の決定ルール `id` に関する情報など、検索した特定の決定ルールの詳細が返されます。
 
 ```json
   {

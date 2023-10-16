@@ -1,6 +1,6 @@
 ---
-title: コードベースのエクスペリエンスの前提条件
-description: Journey Optimizerのコードベースの機能を使用してアプリや Web ページを編集できるようにするには、このページの前提条件に従います
+title: コードベースエクスペリエンスの前提条件
+description: Journey Optimizer のコードベースの機能を使用してアプリや web ページを編集できるようにするには、このページの前提条件に従います
 feature: Offers
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -29,33 +29,33 @@ ht-degree: 48%
 
 >[!ENDSHADEBOX]
 
-でコードベースのエクスペリエンスアクションを使用できるようにするには、以下を実行します。 [!DNL Journey Optimizer] お使いのアプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
+[!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 
-* アプリケーションに変更を加えるには、特定の実装が必要です。 [詳細情報](#implementation-prerequisites)
+* アプリケーションに変更を追加するには、特定の実装が必要です。[詳細情報](#implementation-prerequisites)
 
-* コードベースのエクスペリエンスが正しく配信されるようにするには、必ずAdobe Experience Platform設定の詳細を定義してください [ここ](#delivery-prerequisites).
+* コードベースエクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)を参照して、Adobe Experience Platform の設定を定義します。
 
 ## 注意事項 {#caution-notes-web}
 
-* 現在、コードベースのエクスペリエンスチャネルは、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+* 現在、コードベースのエクスペリエンスチャネルは、一部のユーザーのみが利用できるベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
-* 現在の場所 [!DNL Journey Optimizer] で作成できるのは、コードベースのエクスペリエンスのみです。 **campaigns**. [詳細情報](../campaigns/create-campaign.md#configure)
+* 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;にコードベースエクスペリエンスのみを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
-コードベースのエクスペリエンスは、以下のオプションに示すように、あらゆるタイプの顧客実装をサポートします。 プロパティには、クライアント側、サーバー側、ハイブリッド実装のいずれかの方法を使用できます。
+コードベースのエクスペリエンスは、以下のオプションに示すように、あらゆるタイプの顧客実装をサポートします。プロパティには、クライアントサイド、サーバーサイドまたはハイブリッド実装のいずれかの方法を使用できます。
 
-* クライアント側のみ — Web ページやモバイルアプリに変更を追加するには、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} をモバイルアプリに追加しました。
+* クライアントサイドのみ – web ページやモバイルアプリに変更を追加するには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja) {target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} をモバイルアプリに実装する必要があります。
 
 * ハイブリッドモード - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} を使用できます。
 
-* サーバー側 — [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} パーソナライゼーションをリクエストするには、サーバーサイドでを使用します。 開発チームは、応答を処理し、アプリ実装でクライアント側で変更をレンダリングする必要があります。
+* サーバーサイド - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja) {target="_blank"} を使用して、サーバーサイドでパーソナライゼーションをリクエストできます。開発チームは、応答を処理し、アプリ実装でクライアントサイドで変更をレンダリングする必要があります。
 
-上記の各実装方法のサンプルは、 [この節](code-based-implementation-samples.md).
+上記の各実装方法の例について詳しくは、[この節](code-based-implementation-samples.md)を参照してください。
 
 ## 配信の前提条件 {#delivery-prerequisites}
 
-コードベースのエクスペリエンスを正しく配信するには、次の設定を定義する必要があります。
+コードベースエクスペリエンスが正しく配信されるようにするには、次の設定を定義する必要があります。
 
 * [Adobe Experience Platform データ収集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}で、**[!UICONTROL Adobe Experience Platform]** サービスの下で「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にするなど、データストリームが定義されていることを確認します。
 
@@ -71,9 +71,9 @@ ht-degree: 48%
 
 ## コンテンツ実験の前提条件 {#experiment-prerequisites}
 
-コードベースのチャネルでコンテンツ実験を有効にするには、 [データセット](../data/get-started-datasets.md) アプリの実装で使用されている [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} は、レポート設定にも含まれます。
+コードベースチャネルのコンテンツ実験を有効にするには、アプリ実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用される[データセット](../data/get-started-datasets.md)もレポート設定に含まれていることを確認する必要があります。
 
-つまり、実験レポートを設定する際に、アプリデータストリームに存在しないデータセットを追加すると、アプリのデータはコンテンツ実験レポートに表示されません。
+つまり、実験レポートを設定する際に、アプリデータストリームに存在しないデータセットを追加すると、アプリデータはコンテンツ実験レポートに表示されません。
 
 コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../campaigns/reporting-configuration.md#add-datasets)を参照してください。
 

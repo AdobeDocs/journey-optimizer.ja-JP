@@ -9,13 +9,13 @@ exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # 決定の更新 {#update-decision}
 
-決定を変更または更新するには、 [!DNL Offer Library] API.
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、決定を変更または更新できます。
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
@@ -35,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/offer-decisions/{ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 更新するエンティティの ID。 | `offerDecision1234` |
 
 **リクエスト**
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDeci
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には次のものが含まれます。 `add`, `replace`, `remove`, `copy` および `test`. |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 
 **応答**
 
-正常な応答は、決定を含む、決定の更新された詳細を返します `id`.
+正常な応答の場合は、決定 `id` など、決定の最新の詳細が返されます。
 
 ```json
 {

@@ -239,7 +239,7 @@ ht-degree: 98%
       + [Web ページコンテンツの編集](using/web/edit-web-content.md)
       + [変更の管理](using/web/manage-web-modifications.md)
       + [Web キャンペーンの監視](using/web/monitor-web-campaigns.md)
-      + [単一ページアプリケーションの作成](using/web/web-spa.md)
+      + [シングルページアプリケーションの作成](using/web/web-spa.md)
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
    + [コードベースの前提条件](using/code-based/code-based-prerequisites.md)
@@ -374,7 +374,7 @@ ht-degree: 98%
          + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
          + [表示域を追加](using/offers/offer-library/add-representations.md)
          + [制約を追加](using/offers/offer-library/add-constraints.md)
-      + [フォールバックオファーの作成](using/offers/offer-library/creating-fallback-offers.md)
+      + [フォールバックオファーを作成](using/offers/offer-library/creating-fallback-offers.md)
       + [コレクションの作成](using/offers/offer-library/creating-collections.md)
    + 決定の作成と管理 {#create-manage-activities}
       + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
@@ -431,7 +431,7 @@ ht-degree: 98%
          + フォールバックオファー{#fallback-offers}
             + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [フォールバックオファーの参照](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [フォールバックオファーの作成](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [フォールバックオファーを作成](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [フォールバックオファーの更新](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [フォールバックオファーの削除](using/offers/api-reference/offers-api/fallback-offers/delete.md)
          + 決定 {#decisions-api}
@@ -469,7 +469,7 @@ ht-degree: 98%
             + フォールバックオファー{#fallback-offers}
                + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
                + [フォールバックオファーの参照](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
-               + [フォールバックオファーの作成](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+               + [フォールバックオファーを作成](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
                + [フォールバックオファーの更新](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
                + [フォールバックオファーの削除](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
             + コレクション{#collections}
@@ -490,7 +490,7 @@ ht-degree: 98%
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + エクスペリエンス判定 {#experience-decisioning}
-   + [エクスペリエンス判定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
+   + [Offer Decisioning の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
    + 決定項目の管理 {#decision-items}
       + [項目カタログの設定](using/experience-decisioning/catalogs.md)
       + [決定項目の作成](using/experience-decisioning/items.md)

@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -116,15 +116,15 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### ジャーニーのテストと公開 {#testing-publishing}
 
-The **[!UICONTROL オーディエンスの閲覧]** 「 」アクティビティを使用すると、単一のプロファイルでジャーニーをテストできます。
+**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを使用すると、単一プロファイルでジャーニーをテストできます。
 
-これをおこなうには、テストモードを有効にします。
+それには、テストモードを有効にします。
 
 ![](assets/read-segment-test-mode.png)
 
-通常どおりにテストモードを設定して実行します。 [ジャーニーのテスト方法を学ぶ](testing-the-journey.md)。方法を学ぶ
+通常どおりにテストモードを設定し実行します。[ジャーニーのテスト方法を学ぶ](testing-the-journey.md)。
 
-テストを実行したら、 **[!UICONTROL ログを表示]** ボタンをクリックすると、テスト結果を確認できます。 詳しくは、[この節](testing-the-journey.md#viewing_logs)を参照してください。
+テストを実行したら、「**[!UICONTROL ログを表示]**」ボタンを使用して、テスト結果を確認できます。詳しくは、[この節](testing-the-journey.md#viewing_logs)を参照してください。
 
 ![](assets/read-segment-log.png)
 

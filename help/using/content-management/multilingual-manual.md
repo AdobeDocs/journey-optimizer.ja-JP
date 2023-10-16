@@ -10,10 +10,11 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
-source-git-commit: 42b1243f713743d299a60aa93546ed99d4dcf156
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+source-git-commit: e79653c67da6ce125e5120c885260522e5e4a1c0
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -133,7 +134,7 @@ ht-degree: 15%
 
 ## 多言語キャンペーンレポート {#multilingual-campaign-report}
 
-グローバルレポート ( **常時** タブに、少なくとも 2 時間前に発生したイベントを表示し、選択した期間のイベントをカバーします。 キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
+「**全期間**」タブからアクセスできるグローバルレポートには、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントが表示されます。キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 
 キャンペーンレポートで使用可能なデータについて詳しくは、 [このページ](../reports/campaign-global-report.md).
 

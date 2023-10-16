@@ -10,7 +10,7 @@ exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 4905c3c395ee06e1af34da9a2b5cae9b4a3c39e6
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 >
 >設定できる最大値は 400 です。何も指定しない場合、システムは動的なスケーリングに応じて、最大で数千の接続を開く可能性があります。
 >
->キャッピング設定をデプロイする際に、「maxHttpConnection」値を指定しない場合、デプロイ済みの設定にデフォルトの「maxHttpConnection = -1」が追加されます。つまり、Journey Optimizerはデフォルトのシステム値を使用します。
+>キャッピング設定をデプロイする際に、「maxHttpConnection」値を指定しない場合、デプロイ済みの設定にデフォルトの「maxHttpConnection = -1」が追加されます。つまり、Journey Optimizer はデフォルトのシステム値を使用します。
 
 ### 例：
 

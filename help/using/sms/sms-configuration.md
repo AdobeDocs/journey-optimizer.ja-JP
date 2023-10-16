@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -115,7 +115,7 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 
    ![](assets/sms-surface-settings.png)
 
-   最初に、 **[!UICONTROL SMS の種類]** それは表面と共に送られる **[!UICONTROL トランザクション]** または **[!UICONTROL マーケティング]**.
+   サーフェスを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択することから開始します。
 
    * プロモーション SMS の場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
    * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
@@ -140,11 +140,11 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
    >
    >サブドメインを選択するには、1 つ以上の SMS サブドメインを事前に設定していることを確認してください。[方法についてはこちらを参照](sms-subdomains.md)
 
-1. 次を入力します。 **[!UICONTROL オプトアウト番号]** このサーフェスにを使用します。 この番号からオプトアウトしたプロファイルは、で SMS メッセージを送信する際に使用している他の番号からも、引き続きメッセージを送信できます。 [!DNL Journey Optimizer].
+1. このサーフェスにを使用する&#x200B;**[!UICONTROL オプトアウト番号]**&#x200B;を入力します。この番号からオプトアウトしたプロファイルは、[!DNL Journey Optimizer] で SMS メッセージを送信する際に使用している他の番号からも、引き続きメッセージを送信できます。
 
    >[!NOTE]
    >
-   >In [!DNL Journey Optimizer]の場合、SMS オプトアウトはチャネルレベルで管理されなくなりました。 現在は、数値に固有です。
+   >[!DNL Journey Optimizer]の場合、SMS オプトアウトはチャネルレベルで管理されなくなりました。現在は、数値に固有です。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 
@@ -165,6 +165,6 @@ SMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メ
 **関連トピック**
 
 * [SMS メッセージの作成](create-sms.md)
-* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)
 

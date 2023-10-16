@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 52%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。式エディターが開きます。
 
-1. 次の条件を満たす場合に、 [!DNL Journey Optimizer] 式エディターには、パーソナライゼーションおよびオーサリング機能がすべて含まれています。 [詳細情報](../personalization/personalization-build-expressions.md)
+1. パーソナライゼーションおよびオーサリング機能がすべて備えた [!DNL Journey Optimizer] 式エディターを活用できます。[詳細情報](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -281,7 +281,7 @@ The [!DNL Journey Optimizer] 式エディターでは、コンテンツを式フ
 >
 >式は 200 KB 以内にする必要があります。
 
-## ハウツービデオ {#video-fragments}
+## チュートリアルビデオ {#video-fragments}
 
 でビジュアルフラグメントを管理、作成、使用する方法について説明します。 [!DNL Journey Optimizer].
 

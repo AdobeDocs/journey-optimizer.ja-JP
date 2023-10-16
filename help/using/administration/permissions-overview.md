@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/permissions_2.png)
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 Adobe Journey Optimizer でのアクセス制御システムとカスタムの役割について詳しく説明します。役割と権限を管理する方法と、ユーザーを追加および管理する方法を説明します。
 

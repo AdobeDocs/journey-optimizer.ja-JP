@@ -9,17 +9,17 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # プレースメントの作成 {#create-placement}
 
-配置を作成するには、 [!DNL Offer Library] API.
+[!DNL Offer Library] API に POST リクエストを実行することで、プレースメントを作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、 *Content-Type* リクエストヘッダーのフィールド：
+次の表に、リクエストヘッダーの「*Content-Type*」フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/placements
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 
 **リクエスト**
 
@@ -66,7 +66,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 
 **応答**
 
-正常な応答は、新しく作成された配置の詳細と配置を返します `id`. 後の手順で、プレースメントを更新または削除できます。 後のチュートリアルでは独自のプレースメント `id` を使用して、アクティビティ、決定ルール、フォールバックオファーを作成できます。
+応答が成功すると、新しく作成されたプレースメントとプレースメント `id` の詳細が返されます。後の手順を使用して、プレースメントを更新または削除できます。後のチュートリアルでは独自のプレースメント `id` を使用して、アクティビティ、決定ルール、フォールバックオファーを作成できます。
 
 ```json
 {

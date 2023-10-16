@@ -126,5 +126,5 @@ ht-degree: 97%
 * [SMS メッセージのプレビュー、テスト、送信](send-sms.md)
 * [SMS チャネルの設定](sms-configuration.md)
 * [SMS レポート](../reports/journey-global-report.md#sms-global)
-* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)

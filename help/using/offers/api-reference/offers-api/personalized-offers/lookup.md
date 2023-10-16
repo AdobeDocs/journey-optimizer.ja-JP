@@ -9,7 +9,7 @@ exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 44%
 
 パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 
-パーソナライズされた特定のオファーを検索するには、 [!DNL Offer Library] リクエストパスにパーソナライズされたオファー ID を含む API。
+リクエストパスにパーソナライズされたオファー ID を含む [!DNL Offer Library] API に対して GET リクエストを実行することで、パーソナライズされた特定のオファーを検索できます。
 
 **API 形式**
 
@@ -27,7 +27,7 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 検索するエンティティの ID。 | `personalizedOffer1234` |
 
 **リクエスト**
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **応答**
 
-正常な応答は、パーソナライズされたオファーの詳細（個別パーソナライズされたオファーに関する情報を含む）を返します `id`.
+応答が成功すると、一意のパーソナライズされたオファー `id` に関する情報を含むパーソナライズされたオファーの詳細が返されます。
 
 ```json
 {

@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 93%
 
    ![](assets/media_library_1.png)
 
-1. Journey Optimizerでアセットのリポジトリを選択します。 このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。
+1. Journey Optimizer でアセットのリポジトリを選択します。このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。
 
    ![](assets/media_library_4.png)
 
-+++ Assets リポジトリを切り替える方法を説明します。
++++ アセットリポジトリを切り替える方法を説明します。
 
-   Assets リポジトリを変更するには、右上のアカウントアイコンを選択し、 **[!UICONTROL リポジトリを選択]**.
+   アセットリポジトリを変更するには、右上のアカウントアイコンを選択し、「**[!UICONTROL リポジトリを選択]**」をクリックします。
 
    ![](assets/media_library_3.png)
 

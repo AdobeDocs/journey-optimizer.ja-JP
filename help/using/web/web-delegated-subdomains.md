@@ -10,7 +10,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Web サブドメインのデリゲート"
->abstract="Adobe Experience Manager Assets Essentials のコンテンツを web エクスペリエンスに追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。既にドメインにデリゲートされているサブAdobeの中から選択するか、新しいサブドメインを設定します。"
+>abstract="Adobe Experience Manager Assets Essentials のコンテンツを web エクスペリエンスに追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインの中から選択するか、新しいサブドメインを設定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -47,11 +47,11 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Ess
 
 ## Web サブドメインへのアクセスと管理 {#access-web-subdomains}
 
-1. 次に移動： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** メニューから、「 **[!UICONTROL Web 設定]** > **[!UICONTROL Web サブドメイン]**. 現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューに移動して、**[!UICONTROL Web 設定]**／**[!UICONTROL Web サブドメイン]**&#x200B;を選択します。現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
 
    ![](assets/web-access-subdomains.png)
 
-1. 各サブドメインをデリゲートしたユーザーまたは 1 つのデリゲーションステータス (**[!UICONTROL ドラフト]**, **[!UICONTROL 処理中]**, **[!UICONTROL 成功]** または **[!UICONTROL 失敗]**) をクリックします。
+1. 各サブドメインをデリゲートしたユーザーまたはデリゲーションステータス（**[!UICONTROL ドラフト]**、**[!UICONTROL 処理中]**、**[!UICONTROL 成功]**&#x200B;または&#x200B;**[!UICONTROL 失敗]**）に関してフィルタリングできます。
 
    ![](assets/web-filter-subdomains.png)
 
@@ -71,7 +71,7 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Ess
 
 1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
 
-1. を選択します。 **[!UICONTROL デリゲートされたサブドメインを使用]** オプションを **[!UICONTROL 設定タイプ]** セクションを選択し、リストからデリゲートされたサブドメインを選択します。
+1. 「**[!UICONTROL 設定タイプ]**」セクションで「**[!UICONTROL デリゲートされたサブドメインを使用]**」オプションを選択し、デリゲートされたサブドメインをリストから選択します。
 
    ![](assets/web-subdomain-details.png)
 
@@ -100,11 +100,11 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Ess
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="一致する DNS レコードを生成"
->abstract="新しい Web サブドメインを設定するには、Journey Optimizerインターフェイスに表示されるAdobeネームサーバー情報をコピーし、ドメインホストソリューションに貼り付けて、一致する DNS レコードを生成する必要があります。 チェックが正常に完了すると、サブドメインを使用して、Experience Manager Assets Essentials ライブラリから取得したコンテンツを公開する準備が整います。"
+>abstract="新しい web サブドメインを設定するには、Journey Optimizer インターフェイスに表示されるアドビのネームサーバー情報をコピーし、お使いのドメインホスティングソリューションにペーストして、一致する DNS レコードを生成する必要があります。チェックが正常に完了すると、サブドメインを使用して、Experience Manager Assets Essentials ライブラリから取得したコンテンツを公開する準備が整います。"
 
 新しいサブドメインを設定するには、次の手順に従います。
 
-1. 次にアクセス： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** メニューから、「 **[!UICONTROL web 設定]** > **[!UICONTROL web サブドメイン]**.
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL Web 設定]**／**[!UICONTROL Web サブドメイン]**&#x200B;を選択します。
 
 1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
 
@@ -114,7 +114,7 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Ess
 
    >[!CAUTION]
    >
-   >既存の Web サブドメインは使用できません。
+   >既存の web サブドメインは使用できません。
    >
    >サブドメインでは大文字は使用できません。
 
@@ -140,15 +140,15 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets Ess
 
    >[!NOTE]
    >
-   >新しい Web サブドメインを設定する場合、そのサブドメインは常に CNAME レコードを指します。
+   >新しい web サブドメインを設定すると、常に CNAME レコードを指すようになります。
 
 1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >そのサブドメインを使用して Web メッセージを送信する前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。
+   >そのサブドメインを使用して web メッセージを送信できるようにするには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。
 
-1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。これで、Web チャネルのサーフェスを作成する準備が整いました。
+1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。Web チャネルのサーフェスを作成する準備が整いました。
 
    ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
 

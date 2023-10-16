@@ -9,13 +9,13 @@ exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 # 決定ルールの削除 {#delete-decision-rule}
 
-場合によっては、決定ルールを削除（DELETE）する必要があります。これは、 [!DNL Offer Library] を使用した API `id` 削除する決定ルールの名前を指定します。
+場合によっては、決定ルールを削除（DELETE）する必要があります。これは、削除する決定ルールの `id` を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
 
 **API 形式**
 
@@ -25,7 +25,7 @@ DELETE /{ENDPOINT_PATH}/offer-rules/{ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 削除するエンティティの ID。 | `offerRule1234` |
 
 **リクエスト**
@@ -41,6 +41,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule123
 
 **応答**
 
-正常な応答は、HTTP ステータス 200 と空白の本文を返します。
+正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-決定ルールに対して検索 (GET) リクエストを試行すると、削除を確認できます。決定ルールは削除されたので、HTTP ステータス 404（見つかりません）を受け取る必要があります。
+決定ルールに対して検索（GET）リクエストを試行すると、削除を確認できます。決定ルールは削除されたので、HTTP ステータス 404（見つかりません）が表示されます。

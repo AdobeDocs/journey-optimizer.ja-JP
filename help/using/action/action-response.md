@@ -12,13 +12,13 @@ exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # カスタムアクションでの API 呼び出し応答の使用 {#custom-action-enhancements}
 
-カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。
+カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
@@ -32,7 +32,7 @@ This capability was previously only available when using data sources. You can n
 * Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
 -->
 
-* スカラー配列は応答ペイロードでサポートされています：
+* 応答ペイロードでは、スカラー配列はサポートされています。
 
   ```
   "dummyScalarArray": [
@@ -41,7 +41,7 @@ This capability was previously only available when using data sources. You can n
   ]
   ```
 
-* レスポンスペイロードでは、異機種混在アレイはサポートされていません。
+* 応答ペイロードでは、ヘテロジニアス配列はサポートされていません。
 
   ```
   "dummyRandomArray": [
@@ -92,7 +92,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## カスタムアクションの設定 {#config-response}
 
-1. カスタムアクションを作成します。 [このページ](../action/about-custom-action-configuration.md)を参照してください。
+1. カスタムアクションを作成します。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
 1. 「**応答**」フィールド内でクリックします。
 
@@ -158,7 +158,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## テストモードログ {#test-mode-logs}
 
-カスタムアクション応答に関連するステータスログに、テストモードでアクセスできます。 ジャーニーに応答を含むカスタムアクションを定義している場合は、「 **actionsHistory** 外部エンドポイントから返されたペイロードを（そのカスタムアクションからの応答として）表示するログのセクション。 これは、デバッグの面で非常に役立つ場合があります。
+カスタムアクション応答に関連するステータスログに、テストモードでアクセスできます。ジャーニーに応答を含むカスタムアクションを定義している場合は、（そのカスタムアクションからの応答として）外部エンドポイントから返されたペイロードを表示するログの「**アクション履歴**」セクションが表示されます。これは、デバッグの面で非常に役立つ場合があります。
 
 ![](assets/action-response12.png)
 

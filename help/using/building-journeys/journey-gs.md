@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -189,7 +189,7 @@ Adobe Experience Platform プロファイルでタイムゾーンが定義され
 
    ![ジャーニーの複製](assets/duplicate-jo.png)
 
-1. ジャーニーの名前を入力し、確定します。 ジャーニーのプロパティ画面で名前を変更することもできます。 デフォルトでは、この名前は次のように設定されています。 `[JOURNEY-NAME]_copy`
+1. ジャーニーの名前を入力して確定します。ジャーニーのプロパティ画面で名前を変更することもできます。デフォルトでは、名前は `[JOURNEY-NAME]_copy` のように設定されます。
 
    ![](assets/duplicate-jo2.png)
 

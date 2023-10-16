@@ -10,7 +10,7 @@ exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 
 Journey Optimizer では、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。
 
-データを定期的にエクスポートすることで、顧客とのやり取りの完全で最新の記録を作成し、レポート、アーカイブ、データ分析の目的で容易に利用できるようにします。
+データを定期的に書き出すことで、顧客とのやり取りの完全で最新の記録を作成し、レポート、アーカイブ、データ分析の目的で容易に利用できるようにします。
 
 ## ご利用いただけるクラウドストレージの宛先 {#destinations}
 
@@ -36,13 +36,36 @@ Journey Optimizer では、データセットの内容を書き出すために�
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ja)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ja)
 
-## 書き出しに使用できるJourney Optimizerデータセット {#datasets}
+## 書き出しに使用できる Journey Optimizer データセット {#datasets}
 
-製品層に応じて書き出すJourney Optimizerデータセットについて、次の表で説明します ( [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |データセット|説明|層| | — | — | — | | AJO BCC フィードバックイベントデータセット | AJO BCC フィードバックイベントデータセット | Prime | | AJO 分類データセット |電子メールおよびプッシュアプリケーションのフィードバックイベントをJourney Optimizerから取り込むデータセット。 SDK を通じて作成されます。 | Prime | | AJO 同意サービスデータセット |プロファイルの同意情報を保存します。 | Prime | | AJO メールトラッキングエクスペリエンスイベントデータセット |レポートおよびオーディエンス作成の目的で使用される、E メールチャネルのインタラクションログ。  | Prime | | AJO エンティティデータセット |エンドユーザーに送信されたメッセージのエンティティメタデータを保存するデータセット。  | Prime | | AJO インバウンドアクティビティイベントデータセット | Journey Optimizer Web および配信およびインタラクションイベント用のアプリ内チャネルのデータセット。 | Prime | | AJO インタラクティブメッセージプロファイルデータセット | API トリガーキャンペーンをサポートするために作成されたプロファイルを保存します | Prime | | AJO メッセージフィードバックイベントデータセット |メッセージ配信ログ。 レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。| Prime | | AJO プロファイルカウンター拡張機能 | counter_id でキー指定された counter_value と expiryDate を含むオブジェクトのマップを保持します | Prime | | AJO プッシュプロファイルデータセット |プロファイルのプッシュトークンを格納します。 | Prime | | AJO プッシュトラッキングエクスペリエンスイベントデータセット |プッシュチャネルのインタラクションログ。レポートおよびオーディエンス作成の目的で使用されます。  | Prime | | AJO サーフェスデータセット | Journey Optimizer Inbound Surfaces スキーマに関連する空のデータセット | Prime | | AOOutputForUPSDataset | UPS に書き戻す AO オーディエンスメンバーシップがすべて含まれます | Prime | | Audience Orchestration プロファイルデータセット |オーディエンス構成オーディエンス用のオーディエンス構成によって生成されます。 すべての Audience Composition オーディエンス、その属性およびエンリッチメントデータが含まれます | Prime | |決定オブジェクトリポジトリ — アクティビティ |は、ユーザーインターフェイスでの決定とも呼ばれます。 ただし、判定ロジックを含むすべての構築ブロックをまとめる、ユーザーが作成するオブジェクトです。 例えば、考慮する必要のある特定の配置（場所）の場合（オファーコレクション）と、それらのオファーで使用するランキング方法。 | Ultimate | |決定オブジェクトリポジトリ — フォールバックオファー |これは、ユーザーが作成する他のタイプのオファーのリポジトリです。 特に、パーソナライズされたオファーを閲覧する資格がなく、何かを見る必要がある場合は、少なくともフォールバックオファーが表示されます。 このデータセットには、このタイプのオファーの属性が含まれています | Ultimate | |決定オブジェクトリポジトリ — パーソナライズされたオファー |これは、ユーザーが作成するオファーのタイプのリポジトリです。 したがって、このデータセットには、このタイプのオファーに関する属性が含まれます | Ultimate | |決定オブジェクトリポジトリ — 配置 |オファーを表示する場所を定義するオブジェクトのリポジトリです。 | Ultimate | |ジャーニーステップイベント | Journey Optimizerから生成され、レポートなどのサービスで使用されるすべてのジャーニーステップエクスペリエンスイベントをキャプチャします。 | Prime | |ジャーニー |ジャーニーの各ステップの情報を格納するメタデータデータセット | Prime | | ODE DecisionEvents - prod decisioning |リクエストに基づいて決定を下すたびに、それを決定イベントとしてカウントします | Ultimate |
+製品階層に応じて書き出すことができる Journey Optimizer データセットについて、次の表で説明します（[Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照）
+|データセット|説明|階層|
+| ------- | ------- | ------- |
+| AJO BCC フィードバックイベントデータセット | AJO BCC フィードバックイベントデータセット | Prime |
+| AJO 分類データセット | メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むデータセット。SDK を通じて作成されました。| Prime |
+| AJO 同意サービスデータセット | プロファイルの同意情報を保存します。| Prime |
+| AJO メールトラッキングエクスペリエンスイベントデータセット | レポートやオーディエンス作成のために使用されるメールチャネルのインタラクションログ。| Prime |
+| AJO エンティティデータセット | エンドユーザーに送信されるメッセージのエンティティメタデータを保存するデータセット。| Prime |
+| AJO インバウンドアクティビティイベントデータセット | Journey Optimizer web、配信およびインタラクションイベント用のアプリ内チャネルのデータセット。| Prime |
+| AJO インタラクティブメッセージプロファイルデータセット | API トリガーキャンペーンのサポートのために作成されたプロファイルを保存します | Prime |
+| AJO メッセージフィードバックイベントデータセット | メッセージ配信ログ。レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。| Prime |
+| AJO プロファイルカウンター拡張機能 | counter_id でキー指定された counter_value と expiryDate を含むオブジェクトのマップを保持します | Prime |
+| AJO プッシュプロファイルデータセット |プロファイルのプッシュトークンを保存します。| Prime |
+| AJO プッシュトラッキングエクスペリエンスイベントデータセット | レポートやオーディエンス作成のために使用されるプッシュチャネルのインタラクションログ。| Prime |
+| AJO サーフェスデータセット | Journey Optimizer 受信サーフェススキーマに関連する空のデータセット | Prime |
+| AOOutputForUPSDataset | UPS に書き戻す AO オーディエンスメンバーシップがすべて含まれます | Prime |
+| オーディエンスオーケストレーションプロファイルデータセット | オーディエンス構成オーディエンス用のオーディエンス構成によって生成されます。すべてのオーディエンス構成オーディエンス、その属性およびエンリッチメントデータが含まれます | Prime |
+| 決定オブジェクトリポジトリ - アクティビティ | ユーザーインターフェイスでの決定とも呼ばれます。ただし、これらはユーザーが作成するオブジェクトで、決定ロジックを含むすべての構成要素をまとめたものです。例えば、特定の配置（場所）について、考慮する必要があるオファー（オファーのコレクション）と、それらのオファーで使用するランキング方法などです。| Ultimate |
+| 決定オブジェクトリポジトリ - フォールバックオファー | これは、ユーザーが作成する他のタイプのオファーのリポジトリです。具体的には、パーソナライズされたオファーを閲覧する資格がなく、何かを見る必要がある場合は、少なくともフォールバックオファーが表示されます。このデータセットには、このタイプのオファーの属性が含まれています | Ultimate |
+| 決定オブジェクトリポジトリ - パーソナライズされたオファー | これは、ユーザーが作成するオファーのタイプのリポジトリです。したがって、このデータセットには、このタイプのオファーに関する属性が含まれています | Ultimate |
+| 決定オブジェクトリポジトリ - 配置 | これは、オファーを表示する必要がある場所を定義するオブジェクトのリポジトリです。| Ultimate |
+| ジャーニーステップイベント | Journey Optimizer から生成され、レポーティングなどのサービスで使用されるすべてのジャーニーステップエクスペリエンスイベントをキャプチャします。| Prime |
+| ジャーニー | ジャーニーの各ステップの情報を格納するメタデータデータセット | Prime |
+| ODE DecisionEvents - 製品決定 | リクエストに基づいて決定を下すたびに、それを決定イベントとしてカウントします | Ultimate |
 
 ## 前提条件 {#prerequisites}
 
-データセットを書き出すには、 [アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions) 以下に示します。 [アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja)を参照するか、製品管理者に問い合わせて必要な権限を取得してください。
+データセットを書き出すには、以下に示す[アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions)が必要です。[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja)を参照するか、製品管理者に問い合わせて必要な権限を取得してください。
 
 | カテゴリ | 権限 |
 |--|--|
@@ -70,7 +93,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
    >
    >Adobe Journey Optimizer をリアルタイム顧客プロファイルと共に使用している場合、宛先カードに「アクティベート」ボタンが表示され、有効にした権限に応じて、データセットの書き出しとこの宛先に対するオーディエンスのアクティブ化の両方が可能になります。
 
-1. 選択した宛先に書き出す&#x200B;**データセットを選択**&#x200B;します。[書き出しに使用できるJourney Optimizerデータセットの詳細を説明します](#datasets)
+1. 選択した宛先に書き出す&#x200B;**データセットを選択**&#x200B;します。[書き出しに使用できる Journey Optimizer データセットの詳細情報](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

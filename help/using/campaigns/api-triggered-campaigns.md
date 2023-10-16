@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ API トリガー型キャンペーンで使用できるチャネルは、メー�
 
 >[!NOTE]
 >
->現時点では、プッシュ通知 API トリガーキャンペーンでは、迅速な配信モードはサポートされていません。
+>現時点で、プッシュ通知の API トリガーキャンペーンでは迅速配信モードはサポートされていません。
 
 ## API トリガーキャンペーンの作成 {#create}
 

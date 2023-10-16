@@ -9,7 +9,7 @@ exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答は、検索した特定の決定ルールの詳細（一意の決定ルールに関する情報を含む）を返します `id`.
+正常な応答の場合は、一意の決定ルール `id` に関する情報など、検索した特定の決定ルールの詳細が返されます。
 
 ```json
   {

@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 59%
 
 パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 
-パーソナライズされたオファーを作成するには、 [!DNL Offer Library] API.
+[!DNL Offer Library] API に対して POST リクエストを実行することで、パーソナライズされたオファーを作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、 *Content-Type* リクエストヘッダーのフィールド：
+次の表に、リクエストヘッダーの「*Content-Type*」フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 
 **リクエスト**
 
@@ -94,7 +94,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 **応答**
 
-正常な応答は、新しく作成されたパーソナライズされたオファーの詳細（ID を含む）を返します。 以下を使用すると、 `id` 後の手順で、パーソナライズされたオファーを更新または削除します。
+応答が成功すると、ID を含む新規作成されたパーソナライズされたオファーの詳細が返されます。後の手順で、`id` を使用してパーソナライズされたオファーを更新または削除できます。
 
 ```json
 {

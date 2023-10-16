@@ -9,13 +9,13 @@ exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # コレクションの削除 {#delete-collection}
 
-場合によっては、コレクションを削除（DELETE）する必要があります。これは、 [!DNL Offer Library] を使用した API `id` を削除します。
+場合によっては、コレクションを削除（DELETE）する必要があります。これは、削除するコレクションの `id` を使用して [!DNL Offer Library] API に対して DELETE リクエストを実行することで行います。
 
 **API 形式**
 
@@ -25,7 +25,7 @@ DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 削除するエンティティの ID。 | `offerCollection1234` |
 
 **リクエスト**
@@ -41,6 +41,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **応答**
 
-正常な応答は、HTTP ステータス 200 と空白の本文を返します。
+正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-コレクションに対して検索（GET）リクエストを実行することで、削除を確認できます。コレクションが削除されているので、HTTP ステータス 404(Not Found) が表示されます。
+コレクションに対して検索（GET）リクエストを実行することで、削除を確認できます。コレクションが削除されたので、HTTP ステータス 404（見つかりません）が表示されます。

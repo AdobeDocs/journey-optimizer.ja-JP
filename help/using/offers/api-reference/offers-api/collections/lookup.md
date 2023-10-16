@@ -9,7 +9,7 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 50%
 
 コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-特定のコレクションを検索するには、 [!DNL Offer Library] コレクションを含む API `id` リクエストパス内で使用します。
+リクエストパスにコレクション `id` を含む GET リクエストを [!DNL Offer Library] API に対して実行することで、特定のコレクションを検索できます。
 
 **API 形式**
 
@@ -27,7 +27,7 @@ GET /{ENDPOINT_PATH}/offer-collections/{ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 検索するエンティティの ID。 | `offerCollection1234` |
 
 **リクエスト**
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerColl
 
 **応答**
 
-正常な応答は、コレクションの詳細（一意のコレクションに関する情報を含む）を返します `id`.
+正常な応答の場合は、一意のコレクション `id` に関する情報など、コレクションの詳細が返されます。
 
 ```json
 {

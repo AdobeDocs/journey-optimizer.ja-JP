@@ -9,13 +9,13 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # フォールバックオファーの検索 {#look-up-fallback-offers}
 
-特定のフォールバックオファーを検索するには、 [!DNL Offer Library] リクエストパスにフォールバックオファー ID を含む API。
+特定のフォールバックオファーを検索するには、リクエストパスにフォールバックオファー ID を含む [!DNL Offer Library] API に GET リクエストを実行します。
 
 **API 形式**
 
@@ -25,7 +25,7 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 検索するエンティティの ID。 | `fallbackOffer1234` |
 
 **リクエスト**
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?of
 
 **応答**
 
-正常な応答は、フォールバックオファーの詳細（フォールバックオファーの情報や一意のフォールバックオファー ID など）を返します。
+応答が成功すると、フォールバックオファーの詳細（フォールバックオファーの情報や一意のフォールバックオファー ID など）が返されます。
 
 ```json
 {

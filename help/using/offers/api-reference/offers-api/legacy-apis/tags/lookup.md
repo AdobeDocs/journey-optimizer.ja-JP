@@ -9,13 +9,13 @@ exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # コレクション修飾子の検索 {#look-up-tag}
 
-特定のコレクション修飾子（旧称：「タグ」）を検索するには、 [!DNL Offer Library] コレクション修飾子を含む API `id` リクエストパス内で使用します。
+特定のコレクション修飾子（旧称「タグ」）を検索するには、リクエストパスにコレクション修飾子 `id` を含んだ GET リクエストを [!DNL Offer Library] API に対して実行します。
 
 **API 形式**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **応答**
 
-正常な応答は、コレクション修飾子の詳細（一意のコレクション修飾子に関する情報を含む）を返します `id`.
+応答が成功すると、一意のコレクション修飾子 `id` に関する情報を含むコレクション修飾子の詳細が返されます。
 
 ```json
 {

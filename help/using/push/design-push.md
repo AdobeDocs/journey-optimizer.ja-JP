@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -79,7 +79,7 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 
 Android バージョンでは、最大 3 つのボタンを追加できます。
 
-iOSバージョンでは、通知カテゴリ識別子が指定されます。 通知カテゴリは、iOSアプリで事前設定する必要があります。この設定では、表示するボタンと実行されるアクションを定義します。 詳しくは、 [Appleドキュメント](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) を参照してください。
+iOS バージョンでは、通知カテゴリ識別子が指定されます。通知カテゴリは、iOS アプリで事前設定する必要があり、表示するボタンと実行されるアクションを定義します。詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)を参照してください。
 
 1. 「**[!UICONTROL ボタンを追加]**」をクリックして、ラベルと関連するアクションの設定を定義します。可能なアクションは、[クリック時の動作](#on-click-behavior)の場合と同じです。
 

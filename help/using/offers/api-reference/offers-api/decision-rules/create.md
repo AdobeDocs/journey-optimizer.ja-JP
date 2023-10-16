@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 47%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 47%
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、 *Content-Type* リクエストヘッダーのフィールド：
+次の表に、リクエストヘッダーの「*Content-Type*」フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 
 **リクエスト**
 
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **応答**
 
-正常な応答は、新しく作成された決定ルールに関する情報を返します。 `id`. 以下を使用すると、 `id` 後の手順で、決定ルールを更新または削除するか、後のチュートリアルで使用して、決定、決定ルール、フォールバックオファーを作成します。
+正常な応答は、新しく作成された決定ルールに関する情報を返します。 `id`. 後の手順で `id` を使用して、決定ルールを更新または削除するか、後のチュートリアルで使用して、決定、決定ルールおよびフォールバックオファーを作成します。
 
 ```json
 {

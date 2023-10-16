@@ -9,13 +9,13 @@ exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # 決定の検索 {#look-up-decision}
 
-特定の決定を検索するには、 [!DNL Offer Library] 決定を含む API `id` リクエストパス内で使用します。
+[!DNL Offer Library] API に対してリクエストパスに決定 `id` を含む GET リクエストを実行することで、特定の決定を検索できます。
 
 **API 形式**
 
@@ -25,7 +25,7 @@ GET /{ENDPOINT_PATH}/offer-decisions/{ID}
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 検索するエンティティの ID。 | `offerDecision1234` |
 
 **リクエスト**
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
 
 **応答**
 
-正常な応答は、決定の詳細（一意の決定に関する情報を含む）を返します `id`.
+応答が成功すると、一意の決定 `id` に関する情報を含む決定の詳細が返されます。
 
 ```json
 {

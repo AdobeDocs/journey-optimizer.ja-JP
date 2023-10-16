@@ -9,13 +9,13 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 53%
+ht-degree: 72%
 
 ---
 
 # 決定の作成 {#create-decision}
 
-決定を作成するには、 [!DNL Offer Library] API.
+[!DNL Offer Library] API に対して POST リクエストを実行することで、決定を作成することができます。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/offer-decisions
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続化 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
 
 **リクエスト**
 

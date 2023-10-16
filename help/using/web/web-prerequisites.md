@@ -85,7 +85,7 @@ Visual Editing Helper のブラウザー拡張機能をダウンロードして�
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-[!DNL Journey Optimizer] Web Designer で web サイトを開くと、Adobe Experience Cloud Visual Editing Helper が自動的に有効になり、作成が強化されます。[](edit-web-content.md#work-with-web-designer)
+[!DNL Journey Optimizer] [Web Designer](edit-web-content.md#work-with-web-designer) で web サイトを開くと、Adobe Experience Cloud Visual Editing Helper が自動的に有効になり、製作が強化されます。
 
 この拡張機能には条件付きの設定はなく、SameSite Cookie の設定を含むすべての設定を自動処理します。
 
