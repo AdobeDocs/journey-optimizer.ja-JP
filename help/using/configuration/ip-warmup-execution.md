@@ -11,7 +11,7 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 4e0d75c677ffa1a5350c83300e4a1b0f0150d7c1
+source-git-commit: 9236848f0f9ee3ece555833283378570ec498b1d
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 3%
@@ -69,7 +69,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* 現在の IP ウォームアッププランで選択したものと同じサーフェスを使用するキャンペーンを選択する必要があります。
    >
-   >* 別の IP ウォームアップキャンペーンで既に使用中のキャンペーンは選択できません。
+   >* 別の IP ウォームアッププランで既に使用中のキャンペーンは選択できません。
 
 
 1. Adobe Analytics の **[!UICONTROL プロファイルの除外]** 「 」セクションでは、そのフェーズの以前の実行からのプロファイルが常に除外されることを確認できます。 例えば、「実行」で#1対象となる最初の 4800 人のユーザーがプロファイルの対象となった場合、「実行」で同じプロファイルが電子メールを受信しないように自動的にシス#2ムが保証しす。
