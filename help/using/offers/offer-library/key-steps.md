@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: fe295f020934893cbe90ba987742b5f9d3931158
+source-git-commit: 9cd9d37576b5befbdb62e00a9e07475b8bc9295a
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
@@ -33,12 +33,35 @@ ht-degree: 100%
 
 1. （オファーの優先度スコアを考慮するのではなく）特定のプレースメントに対して最初に提示するオファーを決定するルールを定義する場合は、**ランキング式**&#x200B;を作成できます。
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr>
-<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">プレースメントの作成</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">決定ルールの作成</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">タグの作成</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">ランキング式の作成</a></p></td>
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td>
+<img src="../../assets/do-not-localize/icon-placement.svg" width="60px">
+<div>
+<a href="../offer-library/creating-placements.md">プレースメントの作成</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-rules.svg" width="60px">
+<div>
+<a href="../offer-library/creating-decision-rules.md">決定ルールの作成</a>
+</div>
+<p>
+<td>
+<img src="../../assets/do-not-localize/icon-tags.svg" width="60px">
+<div>
+<a href="../offer-library/creating-tags.md">タグの作成</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-ranking.svg" width="60px">
+<div>
+<a href="../ranking/create-ranking-formulas.md">ランキング式の作成</a>
+</div>
+<p>
+</td>
 </tr>
 </table>
 
@@ -50,11 +73,29 @@ ht-degree: 100%
 
 1. **コレクションを作成**&#x200B;し、作成したパーソナライズされたオファーを含めて、それらを決定に使用します。
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr>
-<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">オファーの作成</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">フォールバックオファーの作成</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">コレクションの作成</a></p></td>
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td>
+<img src="../../assets/do-not-localize/icon-offer.svg" width="60px">
+<div>
+<a href="../offer-library/creating-personalized-offers.md">オファーの作成</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-fallback.svg" width="60px">
+<div>
+<a href="../offer-library/creating-fallback-offers.md">フォールバックオファーの作成</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-collection.svg" width="60px">
+<div>
+<a href="../offer-library/creating-collections.md">コレクションの作成</a>
+</div>
+<p>
+</td>
 </tr>
 </table>
 
@@ -66,10 +107,28 @@ ht-degree: 100%
 
 1. 必要に応じて、決定を設定する際に、プレースメントに&#x200B;**ランキング式を割り当てる**&#x200B;ことができます。
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<tr>
-<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">決定の作成</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">決定の設定</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">ランキングの割り当て</a></p></td>
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td>
+<img src="../../assets/do-not-localize/icon-decision.svg" width="60px">
+<div>
+<a href="../offer-activities/create-offer-activities.md">決定の作成</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px">
+<div>
+<a href="../offer-activities/create-offer-activities.md#add-offers">決定の設定</a>
+</div>
+<p>
+</td>
+<td>
+<img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px">
+<div>
+<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">ランキングの割り当て</a>
+</div>
+<p>
+</td>
 </tr>
 </table>
