@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: AI モデルの作成
 description: AI モデルを作成してオファーをランク付けする方法を説明します
-feature: Ranking Formulas, Offers
+feature: Ranking, Offers
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%

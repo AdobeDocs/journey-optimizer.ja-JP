@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: パーソナライズされた最適化モデル
 description: パーソナライズされた最適化モデルの詳細情報
-feature: Ranking Formulas, Offers
+feature: Ranking, Offers
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 100%
