@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Journey Optimizer の実験で使用される統計計算
 description: 実験実行時に使用される統計計算の詳細を説明します
-feature: A/B Testing
+feature: Experimentation
 topic: Content Management
 role: User
 level: Experienced
 keywords: コンテンツ, 実験, 統計, 計算
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%

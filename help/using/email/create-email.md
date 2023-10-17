@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールの作成
 description: Journey Optimizer でメールを作成する方法を学ぶ
-feature: Overview
+feature: Email
 topic: Content Management
 role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%

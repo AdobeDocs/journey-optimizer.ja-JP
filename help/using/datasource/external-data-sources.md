@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 外部データソース
 description: 外部データソースの設定方法を学ぶ
-feature: Data Sources
+feature: Data Sources, Integrations
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%

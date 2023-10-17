@@ -1,12 +1,12 @@
 ---
 title: Web チャネルの前提条件
 description: Journey Optimizer のユーザーインターフェイスで web ページにアクセスして作成できるようにするには、このページに記載されている前提条件に従ってください。
-feature: Web Channel
+feature: Web Channel, Channel Configuration
 topic: Content Management
-role: User
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%

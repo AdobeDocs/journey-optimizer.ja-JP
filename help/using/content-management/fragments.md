@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: フラグメントの操作
 description: フラグメントを作成して、Journey Optimizer のキャンペーンとジャーニーでコンテンツを再利用する方法を学ぶ
-feature: Overview
+feature: Templates
 topic: Content Management
 role: User
-level: Beginner
+level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 53%

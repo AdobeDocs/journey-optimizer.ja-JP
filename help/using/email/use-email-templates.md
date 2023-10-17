@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールテンプレートの操作
 description: メールコンテンツをテンプレートとして保存し Journey Optimizer で再利用する方法を説明します
-feature: Overview
+feature: Templates, Email Design
 topic: Content Management
 role: User
 level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 96%

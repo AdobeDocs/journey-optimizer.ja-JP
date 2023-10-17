@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メッセージのプレビューと配達確認の送信
 description: メールのプレビューとテストの方法を説明します
-feature: Journeys
+feature: Preview, Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: プレビュー, コンテンツ, メール, 配達確認, テスト, プロファイル
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%

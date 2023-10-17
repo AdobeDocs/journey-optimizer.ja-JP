@@ -4,9 +4,9 @@ description: Journey Optimizer で SPA を作成し、様々なビューに変�
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
+level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: fb05b110fc1bd205810e7d85be4071644f52b191
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 91%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: SMS オプトアウトの管理
 description: SMS メッセージのオプトアウトを管理する方法を説明します
-feature: Journeys
+feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 85%

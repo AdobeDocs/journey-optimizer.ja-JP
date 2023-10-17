@@ -1,12 +1,12 @@
 ---
 title: シングルページアプリケーションの実装
 description: Journey Optimizer で SPA ビューを実装する方法を学ぶ
-feature: Web Channel
+feature: Web Channel, Web SDK
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Experienced
 exl-id: c36d793d-0aa6-4a7a-94f2-dbfe6b644df8
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%

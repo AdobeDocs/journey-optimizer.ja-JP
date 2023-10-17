@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツ実験の基本を学ぶ
 description: Journey Optimizer でのコンテンツ実験について学ぶ
-feature: A/B Testing
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 100%
