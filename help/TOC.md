@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
+source-git-commit: 93f4f4edcce7c7e9f7472a871c96cefa276bdda1
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1666'
 ht-degree: 98%
 
 ---
@@ -267,7 +267,6 @@ ht-degree: 98%
       + [画像生成](using/content-management/generative-image.md)
    + 多言語コンテンツの使用{#content-multilingual}
       + [多言語コンテンツの作成](using/content-management/multilingual-manual.md)
-+ パーソナライズ機能と動的コンテンツ {#personalized-dynamic-content}
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
