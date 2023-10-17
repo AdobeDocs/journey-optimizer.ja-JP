@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: プレビュー, コンテンツ, メール, 配達確認, テスト, プロファイル
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '991'
 ht-degree: 100%
 
 ---
 
 # メールのプレビューとテスト {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="メッセージのプレビューとテスト"
+>abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
 
 メールコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
@@ -44,13 +49,6 @@ ht-degree: 100%
 ➡️ メールのプレビューと配達確認の方法については、[このビデオ](#video-preview)をご覧ください
 
 ## テストプロファイルの選択 {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="メッセージのプレビューとテスト"
->abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#email-rendering" text="メールのレンダリング"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#preview-email" text="プレビュー"
 
 [テストプロファイル](../audience/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、その他の受信者をターゲットに設定できます。
 
