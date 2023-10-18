@@ -3,8 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ドキュメントの更新
 description: 最新のドキュメントの更新について学ぶ
+feature: Release Notes
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 97%

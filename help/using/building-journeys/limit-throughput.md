@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 title: 外部データソースとカスタムアクションを使用してスループットを制限する
 description: 外部データソースとカスタムアクションを使用してスループットを制限する
-feature: Journeys
+feature: Journeys, Use Cases, Custom actions, Data Sources
 topic: Content Management
-role: User, Developer
+role: Developer, Data Engineer
 level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%

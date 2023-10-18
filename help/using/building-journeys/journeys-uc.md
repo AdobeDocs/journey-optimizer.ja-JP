@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーのユースケース
 description: ジャーニーのユースケース
-feature: Journeys
+feature: Journeys, Use Cases, Email, Push
 topic: Content Management
-role: User
-level: Intermediate
+role: User, Data Engineer
+level: Intermediate, Experienced
 keywords: ユースケース, マルチチャネル, メッセージ, ジャーニー, チャネル, イベント, プッシュ
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 別のサンドボックスへのジャーニーのコピー
 description: ジャーニーを別のサンドボックスにコピーする方法を説明します
-feature: Journeys
+feature: Journeys, Sandboxes
 topic: Content Management
-role: User, Developer
-level: Intermediate
+role: User, Developer, Data Engineer
+level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: aaa9dcbfc691eac0fd9d06e905c2e1d7612d854a
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 98%

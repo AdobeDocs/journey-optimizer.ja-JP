@@ -3,8 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: リリースノート 2022
 description: Journey Optimizer 2022 リリースノート
+feature: Release Notes
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%

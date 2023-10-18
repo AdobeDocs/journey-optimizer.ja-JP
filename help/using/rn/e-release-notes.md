@@ -3,10 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: リリースノート
 description: Journey Optimizer 早期リリースノート
+feature: Release Notes
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%

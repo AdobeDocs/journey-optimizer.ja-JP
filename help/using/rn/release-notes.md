@@ -2,9 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: リリースノート
+feature: Release Notes
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '4254'
 ht-degree: 97%
