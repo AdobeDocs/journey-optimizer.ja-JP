@@ -3,25 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メッセージのプレビューと配達確認の送信
 description: メールのプレビューとテストの方法を説明します
-feature: Preview, Email Design
+feature: Journeys
 topic: Content Management
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 keywords: プレビュー, コンテンツ, メール, 配達確認, テスト, プロファイル
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1010'
 ht-degree: 100%
 
 ---
 
 # メールのプレビューとテスト {#preview-and-proof}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="メッセージのプレビューとテスト"
->abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
 
 メールコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
@@ -49,6 +44,13 @@ ht-degree: 100%
 ➡️ メールのプレビューと配達確認の方法については、[このビデオ](#video-preview)をご覧ください
 
 ## テストプロファイルの選択 {#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="メッセージのプレビューとテスト"
+>abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#email-rendering" text="メールのレンダリング"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=ja#preview-email" text="プレビュー"
 
 [テストプロファイル](../audience/creating-test-profiles.md)を使用すると、定義したターゲティング条件に一致しない、その他の受信者をターゲットに設定できます。
 

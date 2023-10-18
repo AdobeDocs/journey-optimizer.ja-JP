@@ -3,12 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 以前のリリースノート（2021）
 description: Journey Optimizer 2021 リリースノート
-feature: Release Notes
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -181,7 +180,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer とのエンゲージメントの対象となる顧客ごとに、最適なタイミングでプッシュ通知またはメールを自動的に送信します。Adobeの AI サービスを活用して送信時間の最適化は、E メールまたはプッシュメッセージの送信に最適な時間を予測し、開封履歴やクリック率の初期設定値に基づいてエンゲージメントを最大化します。</p>
+<p>Adobe Journey Optimizer とのエンゲージメントの対象となる顧客ごとに、最適なタイミングでプッシュ通知またはメールを自動的に送信します。アドビの AI サービスを活用した送信時間最適化により、メールまたはプッシュメッセージの送信に最適な時間を標準で予測して、過去の開封率やクリック率に基づいてエンゲージメントを最大化できます。</p>
 <p>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
 <p>詳しくは、<a href="../building-journeys/journeys-message.md#send-time-optimization">詳細なドキュメント</a>を参照してください。</p>
 </td>

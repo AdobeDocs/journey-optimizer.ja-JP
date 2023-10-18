@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: PTR レコード
 description: PTR レコードの管理方法について説明します
-feature: Subdomains, Channel Configuration
+feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
+level: Intermediate
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%

@@ -1,13 +1,13 @@
 ---
 title: Journey Optimizer でのアプリ内通知の作成
 description: Journey Optimizer でアプリ内メッセージを作成する方法を学ぶ
-feature: In App
+feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 97%

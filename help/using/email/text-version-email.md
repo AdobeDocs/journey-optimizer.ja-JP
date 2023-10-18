@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールのテキストバージョンの作成
 description: メールのテキストバージョンを作成する方法を説明します
-feature: Email Design
+feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: テキスト, メール, バージョン, プレーン, エディター
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%

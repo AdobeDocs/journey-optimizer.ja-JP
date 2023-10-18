@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: パーソナライズされたオファーの追加
 description: メッセージにパーソナライズされたオファーを追加する方法を学ぶ
-feature: Email Design, Offers
+feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。これにより、変更がジャーニーのメッセージに取り込まれ、メッセージが最新の更新と一致するようになります。
+>ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があります。これにより、変更がジャーニーのメッセージに組み込まれ、メッセージが最新の更新と一致するようになります。
 
 * オファーの管理および作成方法について詳しくは、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 

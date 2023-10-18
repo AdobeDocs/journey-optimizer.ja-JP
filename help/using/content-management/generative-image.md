@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツアシスタントを使用した画像の生成
 description: コンテンツアシスタント入門
-feature: Content Assistant
+feature: Overview
 topic: Content Management
 role: User
 level: Beginner
@@ -11,7 +11,7 @@ badge: label="ベータ版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
@@ -29,6 +29,8 @@ ht-degree: 100%
 * **[コンテンツアシスタントで画像を生成](generative-image.md)**
 
 >[!ENDSHADEBOX]
+
+
 
 メールまたは web ページを作成してパーソナライズしたら、コンテンツアシスタントを使用してコンテンツを次のレベルに引き上げます。この強力なツールを使用すると、コンテンツを容易にパーソナライズおよび強化できます。
 

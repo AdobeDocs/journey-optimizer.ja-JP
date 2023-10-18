@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツ実験を作成
 description: キャンペーンでコンテンツ実験を作成する方法を学ぶ
-feature: Experimentation
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%

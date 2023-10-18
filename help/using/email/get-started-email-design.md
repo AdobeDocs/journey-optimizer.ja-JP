@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールのデザイン
 description: メールの設計方法を学ぶ
-feature: Email Design
+feature: Overview
 topic: Content Management
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%

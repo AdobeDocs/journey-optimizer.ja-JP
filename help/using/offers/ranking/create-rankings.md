@@ -1,11 +1,11 @@
 ---
 title: ランキングの作成
 description: ランキングの作成方法を学ぶ
-feature: Ranking, Offers
+feature: Ranking Formulas, Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '19'
 ht-degree: 100%

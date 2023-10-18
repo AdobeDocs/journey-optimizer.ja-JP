@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーステップ共有の概要
 description: ジャーニーステップ共有の概要
-feature: Reporting, Journeys
+feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%

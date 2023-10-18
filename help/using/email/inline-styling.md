@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: インラインのスタイル属性の追加
 description: インラインスタイル属性を追加する方法を学ぶ
-feature: Email Design
+feature: Overview
 topic: Content Management
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 keywords: インライン, スタイル設定, 属性, エディター
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%

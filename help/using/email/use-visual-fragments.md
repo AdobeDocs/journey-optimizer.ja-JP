@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ビジュアルフラグメントを使用
 description: Journey Optimizerのキャンペーンとジャーニーで E メールを作成する際に、ビジュアルフラグメントを使用する方法を説明します。
-feature: Email Design, Templates
+feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 72%

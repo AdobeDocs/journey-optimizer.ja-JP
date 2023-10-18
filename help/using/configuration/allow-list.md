@@ -5,11 +5,11 @@ title: 許可リスト
 description: 許可リストの使用方法を学ぶ
 feature: Deliverability
 topic: Content Management
-role: Admin
-level: Experienced
+role: User
+level: Intermediate
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 100%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 購読レポート
 description: 購読サービスのデータの使用方法を学ぶ（購読グローバルレポートを使用）
-feature: Journeys, Subscriptions
+feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%

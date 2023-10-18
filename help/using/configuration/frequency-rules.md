@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 頻度ルール
 description: 頻度ルールの定義方法を学ぶ
-feature: Rules
+feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%

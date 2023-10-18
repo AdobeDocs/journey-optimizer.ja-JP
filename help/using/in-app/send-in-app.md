@@ -1,13 +1,13 @@
 ---
 title: アプリ内通知のテストおよび送信
 description: Journey Optimizer でアプリ内メッセージをテストおよび送信する方法を学ぶ
-feature: In App
+feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 96%

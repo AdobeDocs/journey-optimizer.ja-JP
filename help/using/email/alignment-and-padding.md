@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer での垂直方向の整列とパディングの調整
 description: 垂直方向の整列とパディングの調整方法を学ぶ
-feature: Email Design
+feature: Overview
 topic: Content Management
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 keywords: 垂直方向の位置揃え, 電子メールエディター, パディング
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%

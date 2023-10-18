@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールの背景のパーソナライズ
 description: メール背景をパーソナライズする方法を学ぶ
-feature: Email Design
+feature: Overview
 topic: Content Management
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 keywords: 背景,メール,カラー,エディター
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%

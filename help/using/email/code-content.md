@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 独自のメールコンテンツをコーディングする
 description: 独自のメールコンテンツのコーディング方法を学ぶ
-feature: Email Design
+feature: Overview
 topic: Content Management
 role: User
-level: Intermediate, Experienced
+level: Intermediate
 keywords: コード, HTML, エディター
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%

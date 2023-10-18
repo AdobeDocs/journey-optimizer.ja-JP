@@ -5,10 +5,10 @@ title: 抑制リスト
 description: 抑制リストの使用方法を学ぶ
 feature: Deliverability
 topic: Content Management
-role: Admin
-level: Intermediate, Experienced
+role: User
+level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%

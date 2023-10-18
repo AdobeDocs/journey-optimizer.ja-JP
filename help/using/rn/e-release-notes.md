@@ -3,11 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: リリースノート
 description: Journey Optimizer 早期リリースノート
-feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%

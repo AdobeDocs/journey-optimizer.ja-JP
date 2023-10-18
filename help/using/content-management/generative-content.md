@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツアシスタントを使用したコンテンツの生成
 description: コンテンツアシスタント入門
-feature: Content Assistant
+feature: Overview
 topic: Content Management
 role: User
 level: Beginner
@@ -11,7 +11,7 @@ badge: label="ベータ版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%

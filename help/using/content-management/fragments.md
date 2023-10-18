@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: フラグメントの操作
 description: フラグメントを作成して、Journey Optimizer のキャンペーンとジャーニーでコンテンツを再利用する方法を学ぶ
-feature: Templates
+feature: Overview
 topic: Content Management
 role: User
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 53%
@@ -21,7 +21,7 @@ ht-degree: 53%
 >id="ajo_create_fragment"
 >title="独自のフラグメントを定義する"
 >abstract="スタンドアロンフラグメントを作成および管理して、複数のジャーニーやキャンペーンでコンテンツを再利用可能にします。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="フラグメントの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="フラグメントの作成"
 
 フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。
 
@@ -194,7 +194,7 @@ ht-degree: 53%
 >id="ajo_create_expression_fragment"
 >title="式のタイプを選択"
 >abstract="スタンドアロンの式フラグメントを作成して、複数のジャーニーやキャンペーンでコンテンツを再利用可能にします。 式エディターを使用する場合、現在のサンドボックスで作成されたすべての式フラグメントを活用できます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="式フラグメントの活用"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="式フラグメントの活用"
 
 1. [フラグメントの作成](#create-from-scratch) から **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]** 左側のメニューから、 **[!UICONTROL 式フラグメント]** タイプ。
 

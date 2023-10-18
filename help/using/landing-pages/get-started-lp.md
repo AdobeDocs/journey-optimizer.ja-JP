@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ランディングページの基本を学ぶ
 description: Journey Optimizer のランディングページについて学ぶ
-feature: Landing Pages, Subscriptions
+feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 開始, 開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%

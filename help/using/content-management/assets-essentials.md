@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer での Assets Essentials の使用
 description: Assets Essentials の基本を学ぶ
-feature: Assets, Integrations
-topic: Content Management, Integrations
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: アセット, 初期設定, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 99%

@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: イベントキャプチャの設定
 description: イベントをキャプチャするためのオファースキーマの設定方法を学ぶ
-feature: Ranking, Datasets, Offers
+feature: Ranking Formulas, Datasets, Offers
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%

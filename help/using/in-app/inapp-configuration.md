@@ -2,11 +2,10 @@
 title: アプリ内チャネルの前提条件
 description: Journey Optimizer でアプリ内メッセージを送信するように環境を設定する方法を学ぶ
 role: Admin
-feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 100%

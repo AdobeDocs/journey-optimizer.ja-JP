@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールスタイルの基本を学ぶ
 description: メールコンテンツのスタイルを調整する様々な方法を説明します
-feature: Email Design
+feature: Overview
 topic: Content Management
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 keywords: メール, スタイル, css, 本文, 構造
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
