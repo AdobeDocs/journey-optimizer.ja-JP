@@ -7,19 +7,18 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 85%
 
 ---
 
 # ダイレクトメールの基本を学ぶ {#create-direct}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->現時点では、Adobe Healthcare Shield アドオン製品を購入した組織では、ダイレクトメールチャネルを利用できません。
->
+>現時点では、Adobeを購入した組織では、ダイレクトメールチャネルは使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルをパーソナライズおよび生成できるオフラインチャネルです。
 

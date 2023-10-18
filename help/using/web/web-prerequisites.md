@@ -1,15 +1,15 @@
 ---
 title: Web チャネルの前提条件
 description: Journey Optimizer のユーザーインターフェイスで web ページにアクセスして作成できるようにするには、このページに記載されている前提条件に従ってください。
-feature: Web Channel
+feature: Web Channel, Channel Configuration
 topic: Content Management
-role: User
-level: Beginner
+role: Admin
+level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 100%
+source-wordcount: '1059'
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->現時点では、Adobe Healthcare Shield アドオン製品を購入した組織では、web チャネルを利用できません。
->
+>現時点では、Adobeを購入した組織では Web チャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
