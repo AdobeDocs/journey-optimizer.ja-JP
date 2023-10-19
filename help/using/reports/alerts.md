@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: アラート
 description: アラートの管理方法について学ぶ
-feature: Alerts
+feature: Journeys, Alerts
 topic: Administration
-role: Admin
+role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 62ae151ddd92904ac514ee85639c9ba3a18beb0e
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 13%

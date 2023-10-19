@@ -1,12 +1,11 @@
 ---
 title: イベントの XDM フィールドへのアクセス
 description: DecisioningEvents XDM スキーマについて説明します。
-feature: Offers, Datasets
-topic: Integrations
-role: User
+feature: Decision Management, Datasets
+role: User, Data Engineer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%

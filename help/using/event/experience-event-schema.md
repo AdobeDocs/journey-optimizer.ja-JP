@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーイベント用の ExperienceEvent スキーマについて
 description: ジャーニーイベント用の ExperienceEvent スキーマについて学ぶ
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%

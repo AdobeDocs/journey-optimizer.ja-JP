@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Campaign v7／v8 との統合
 description: Journey Optimizer を Adobe Campaign v7／v8 と統合する方法を学ぶ
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
+role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%

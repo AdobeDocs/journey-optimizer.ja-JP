@@ -1,12 +1,12 @@
 ---
 title: Batch Decisioning API
 description: Batch Decisioning API を使用して、事前定義された決定範囲内でオーディエンスのプロファイルに最適なオファーを選択する方法を説明します。
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%

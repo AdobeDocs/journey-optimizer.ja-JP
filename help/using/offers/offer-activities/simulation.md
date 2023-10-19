@@ -1,12 +1,12 @@
 ---
 title: シミュレーションを作成
 description: 決定ロジックを検証するために、特定の場所に配信されるオファーをシミュレートする方法を説明します
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 100%

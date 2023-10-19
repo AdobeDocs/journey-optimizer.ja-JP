@@ -1,12 +1,12 @@
 ---
 title: 決定の削除
 description: 決定には、オファーの選択を通知するロジックが含まれています。
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%

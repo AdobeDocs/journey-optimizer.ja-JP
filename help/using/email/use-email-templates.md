@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールテンプレートの操作
 description: メールコンテンツをテンプレートとして保存し Journey Optimizer で再利用する方法を説明します
-feature: Overview
+feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 96%
@@ -22,7 +22,7 @@ ht-degree: 96%
 >id="ajo_use_template"
 >title="テンプレートからコンテンツを作成"
 >abstract="メールコンテンツの作成を開始するには、標準テンプレートまたはカスタムの既存のテンプレート（ゼロから作成された、または以前のメールからテンプレートとして保存されたもの）を選択します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/content-templates.html#create-content-templates" text="コンテンツテンプレートの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="コンテンツテンプレートの作成"
 
 「**[!UICONTROL メールを作成]**」画面から、「**[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツを作成します。
 

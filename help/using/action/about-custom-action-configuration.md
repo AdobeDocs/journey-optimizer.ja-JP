@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: カスタムアクションの設定
 description: カスタムアクションの設定方法を学ぶ
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 96%

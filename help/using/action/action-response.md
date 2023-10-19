@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: カスタムアクションの機能強化
 description: カスタムアクションの最新の機能強化について説明します
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 100%

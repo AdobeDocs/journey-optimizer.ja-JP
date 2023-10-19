@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 検索、フィルター、整理
 description: Journey Optimizer のユーザーインターフェイスの詳細情報
-feature: Overview
+feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 97%

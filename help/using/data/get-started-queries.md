@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer におけるクエリの基本を学ぶ
 description: Adobe Journey Optimizer でクエリを作成する方法を説明します
+feature: Data Management
 role: User
 level: Beginner
 keywords: クエリ, Platform, データ, 調査
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%

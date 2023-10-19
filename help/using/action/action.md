@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: アクションについて
 description: アクションの設定方法を説明します
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%

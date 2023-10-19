@@ -1,7 +1,7 @@
 ---
 title: コードベースのエクスペリエンスを作成
 description: Journey Optimizer でコードベースのエクスペリエンスを作成する方法を学ぶ
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
 >id="ajo_code_based_experience"
 >title="式エディターの使用"
 >abstract="このコードベースのエクスペリエンスアクションの一部として配信するコードを挿入および編集します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/personalization-build-expressions.html" text="式エディターの基本を学ぶ"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ja" text="式エディターの基本を学ぶ"
 
 1. キャンペーンの編集画面で、「**[!UICONTROL コードを編集]**」を選択します。
 

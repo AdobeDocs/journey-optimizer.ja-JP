@@ -1,15 +1,15 @@
 ---
 title: Edge Decisioning API を使用したオファーの配信
 description: Adobe Experience Platform Web SDK を使用すると、API またはオファーライブラリを使用して作成した、パーソナライズされたオファーを取得およびレンダリングできます。
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 1. [埋め込みコードの追加](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=ja)
 
-1. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Adobe Experience Platform Web SDK 拡張機能をインストールして設定します。詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja)に関するドキュメントを参照してください。
+1. 「Datastream」ドロップダウンから設定を選択し、作成したデータストリームでAdobe Experience Platform Web SDK 拡張機能をインストールして設定します。 詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja)に関するドキュメントを参照してください。
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -80,7 +80,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 1. [ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ja)を作成します。
 
-   Platform Web SDK のイベントの送信アクションを追加し、関連する decisionScopes をそのアクションの設定に追加します。
+   Platform Web SDK の「イベントの送信」アクションを追加し、関連する decisionScopes をそのアクションの設定に追加します。
 
    ![オファーをレンダリング](../../assets/rule-render-offer.png)
 

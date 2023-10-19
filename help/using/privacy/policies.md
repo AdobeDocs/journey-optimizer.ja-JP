@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: データ使用ポリシー
 description: データ使用ポリシーおよびデータガバナンスサービスについて詳しく説明します。
-feature: Monitoring
+feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%

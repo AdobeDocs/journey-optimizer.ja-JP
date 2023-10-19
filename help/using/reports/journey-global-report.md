@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーのグローバルレポート
 description: ジャーニーのグローバルレポートのデータの利用方法を学ぶ
-feature: Reporting
+feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 100%

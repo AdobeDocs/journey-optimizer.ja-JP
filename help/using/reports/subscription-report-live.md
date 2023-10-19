@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 購読ライブレポート
 description: 購読ライブレポートで購読サービスのデータを使用する方法を学ぶ
-feature: Journeys
+feature: Reporting, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%

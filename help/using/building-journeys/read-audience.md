@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーでのオーディエンスの使用
 description: ジャーニーでのオーディエンスの使用方法について説明します
-feature: Journeys
+feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 100%

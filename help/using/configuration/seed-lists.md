@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: シードリスト
 description: Journey Optimizer でのシードリストの使用方法を説明します
-feature: Deliverability
+feature: Seed Lists, Channel Configuration
 topic: Content Management
 role: User
 level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 100%

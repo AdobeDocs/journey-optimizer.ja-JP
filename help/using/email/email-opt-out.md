@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メールオプトアウトの管理
 description: メールのオプトアウトを管理する方法を説明します
-feature: Journeys
+feature: Email Design, Privacy
 topic: Content Management
 role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 100%

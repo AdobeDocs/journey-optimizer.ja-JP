@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 抑制リストの管理
 description: Journey Optimizer 抑制リストにアクセスして管理する方法を学ぶ
-feature: Application Settings
+feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 100%

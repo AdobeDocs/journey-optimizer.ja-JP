@@ -1,7 +1,7 @@
 ---
 title: 項目カタログ
 description: 項目カタログの使用方法を学ぶ
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%

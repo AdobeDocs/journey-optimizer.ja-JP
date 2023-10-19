@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP ウォームアップキャンペーンを作成
 description: IP ウォームアップキャンペーンの作成方法を学ぶ
-feature: Application Settings
+feature: Campaigns, IP Warmup Plans
 topic: Administration
 role: Admin
 level: Intermediate
@@ -11,7 +11,7 @@ keywords: IP, プール, 配信品質
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%

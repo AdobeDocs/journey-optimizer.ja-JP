@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: カスタムアクションの使用
 description: カスタムアクションの使用方法を説明します
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 式フラグメントを使用
 description: 式フラグメントの使用方法については、 [!DNL Journey Optimizer] 式エディター。
-feature: Personalization
+feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 10%

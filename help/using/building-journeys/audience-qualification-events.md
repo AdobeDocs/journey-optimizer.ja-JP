@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: オーディエンスの選定イベント
 description: オーディエンスの選定イベントについて説明します
-feature: Journeys
+feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 100%

@@ -1,15 +1,15 @@
 ---
 title: コードベースの実装サンプル
 description: このページでは、Journey Optimizer のコードベース機能の実装方法のサンプルを紹介します。
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%

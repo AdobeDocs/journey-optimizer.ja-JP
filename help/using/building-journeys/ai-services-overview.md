@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: AI サービスの概要
 description: AI サービスの概要
+feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: 人工, AI, インテリジェント, ジャーニー, サービス
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%

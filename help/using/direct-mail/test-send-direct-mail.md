@@ -7,21 +7,16 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 92%
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
 # ダイレクトメールメッセージのテストと送信 {#direct-mail-test-send}
 
 ## 抽出ファイルのプレビュー {#preview-dm}
-
->[!CONTEXTUALHELP]
->id="ajo_direct_mail_preview"
->title="抽出ファイルのプレビュー"
->abstract="このペインでは、左側のペインで選択した各テストプロファイルの抽出ファイルの表示をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、テストプロファイルデータを使用して、このコンテンツがどのように表示されるかを確認できます。"
 
 抽出ファイルの内容を定義したら、テストプロファイルを使用して内容をプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 

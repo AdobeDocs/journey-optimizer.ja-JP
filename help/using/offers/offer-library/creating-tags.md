@@ -1,12 +1,12 @@
 ---
 title: コレクション修飾子の作成
 description: オファーのコレクション修飾子を作成する方法を学ぶ
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%

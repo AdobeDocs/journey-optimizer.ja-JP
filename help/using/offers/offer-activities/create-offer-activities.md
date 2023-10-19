@@ -1,12 +1,12 @@
 ---
 title: 決定の作成
 description: 決定の作成方法を説明します
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 97%

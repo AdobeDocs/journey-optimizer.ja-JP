@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journeyStep イベントのアクション実行フィールド
 description: journeyStep イベントのアクション実行フィールド
-feature: Reporting
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%

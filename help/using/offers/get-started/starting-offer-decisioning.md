@@ -1,12 +1,12 @@
 ---
 title: 決定管理の概要
 description: Adobe Journey Optimizer が、的確なオファーを適切なタイミングで顧客に送信する方法を説明します
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
-level: Beginner
+level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 95%

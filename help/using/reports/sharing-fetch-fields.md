@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journeyStep イベントのデータ取得フィールド
 description: journeyStep イベントのデータ取得フィールド
-feature: Reporting
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%

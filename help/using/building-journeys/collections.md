@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: カスタムアクションを使用したコレクションの動的な受け渡し
 description: Campaign v7 または v8 を使用したメッセージの送信
-feature: Journeys
+feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
-role: Developer
+role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%

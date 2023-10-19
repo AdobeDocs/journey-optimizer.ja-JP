@@ -1,12 +1,12 @@
 ---
 title: パーソナライズされたオファーデータセット
 description: この節では、オファー用に書き出したデータセットで使用するすべてのフィールドをリストアップします。
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 100%

@@ -1,12 +1,12 @@
 ---
 title: フォールバックオファーの削除
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%

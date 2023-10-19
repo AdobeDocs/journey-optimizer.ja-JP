@@ -1,12 +1,12 @@
 ---
 title: データ収集
 description: 意思決定管理のフィードバックデータ収集の詳細情報
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
-level: Intermediate
+role: User, Data Engineer, Developer
+level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%

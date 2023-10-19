@@ -1,7 +1,7 @@
 ---
 title: 決定の作成
 description: 決定の作成方法を説明します
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%

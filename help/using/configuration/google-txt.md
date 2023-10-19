@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: サブドメインへの Google TXT レコードの追加
 description: サブドメインに Google TXT レコードを追加する方法を説明します
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: サブドメイン, google, txt, レコード, gmail, 配信品質
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%

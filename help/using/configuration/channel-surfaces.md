@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: チャネルサーフェスの設定
 description: チャネルサーフェスを設定および監視する方法を学ぶ
-feature: Application Settings, Surface
+feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 100%

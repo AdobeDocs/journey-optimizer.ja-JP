@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーのデザイン
 description: ジャーニーのデザイン方法を説明します
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 100%

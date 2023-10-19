@@ -3,20 +3,25 @@ solution: Journey Optimizer
 product: journey optimizer
 title: API を使用したキャンペーンのトリガー
 description: Journey Optimizer API を使用してキャンペーンをトリガーする方法を学ぶ
-Feature: Campaigns, API
+feature: Campaigns, API
 topic: Content Management
 role: Developer, Admin
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 98%
 
 ---
 
 # API を使用したキャンペーンのトリガー {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="キャンペーンのタイプ"
+>abstract="プロファイルを作成せずにメッセージを送信する機能が限られている場合は、ドキュメントに記載されている手順に従います。"
 
 ## API トリガー型キャンペーンについて {#about}
 

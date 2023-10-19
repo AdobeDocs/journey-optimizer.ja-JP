@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 初めてのジャーニーの作成
 description: Adobe Journey Optimizer で最初のジャーニーを作成するための主な手順
-feature: Journeys
+feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 96%

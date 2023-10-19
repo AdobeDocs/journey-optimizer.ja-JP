@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: データハイジーン操作の実行
 description: データハイジーン操作の実行方法を学ぶ
-feature: Monitoring
+feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%

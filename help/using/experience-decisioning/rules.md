@@ -1,7 +1,7 @@
 ---
 title: 決定ルール
 description: 決定ルールの操作方法を学ぶ
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 4b23f9fa2d6d7d12988f3c590d6e835637c05bea
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 90%

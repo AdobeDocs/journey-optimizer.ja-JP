@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ビジネスイベントの設定
 description: ビジネスイベントの作成方法
-feature: Events
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 100%

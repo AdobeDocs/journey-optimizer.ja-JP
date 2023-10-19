@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: プッシュ通知の基本を学ぶ
 description: Journey Optimizer でプッシュ通知を作成する方法を説明します
-feature: Overview
+feature: Overview, Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%

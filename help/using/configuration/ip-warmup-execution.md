@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP ウォームアッププランの実行
 description: IP ウォームアッププランの実行および監視方法について説明します
-feature: Application Settings
+feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced
@@ -11,7 +11,7 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9236848f0f9ee3ece555833283378570ec498b1d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 87%

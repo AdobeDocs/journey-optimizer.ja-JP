@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics の統合
 description: Adobe Analytics データの活用方法について説明しますJourney Optimizer の場合
-feature: Events
+feature: Journeys, Events, Reporting, Integrations
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%

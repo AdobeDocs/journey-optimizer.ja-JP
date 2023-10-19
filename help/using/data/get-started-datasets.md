@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: データセットの基本を学ぶ
 description: Adobe Journey Optimizer での Adobe Experience Platform データセットの使用方法を説明します
-role: User
-level: Beginner
+feature: Data Model, Datasets, Data Management
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 100%
