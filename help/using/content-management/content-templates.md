@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 98%
 
 ---
@@ -164,21 +164,17 @@ ht-degree: 98%
 
 ゼロから作成した場合でも、メールから作成した場合でも、メールコンテンツのテンプレートのレンダリングをテストできます。これを行うには、以下の手順に従います。
 
->[!CAUTION]
->
->コンテンツをシミュレートするには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限を付与されているが必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. **[!UICONTROL コンテンツ管理]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューからコンテンツテンプレートリストにアクセスし、任意のテンプレートを選択します。
 
 1. **[!UICONTROL テンプレートのプロパティ]**&#x200B;から「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
-1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを選択して、メールのレンダリングを確認します。デスクトップまたはモバイル表示を選択できます。[詳細情報](../email/preview.md)
+1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを選択して、メールのレンダリングを確認します。デスクトップまたはモバイル表示を選択できます。[詳細情報](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. ジャーニーやキャンペーンで使用する前に、コンテンツをテストするための配達確認を送信し、一部の内部ユーザーから承認を得ることができます。
 
-   * これを行うには、「**[!UICONTROL 配達確認を送信]**」ボタンをクリックし、[この節](../email/preview.md#send-proofs)で説明されている手順に従います。
+   * これを行うには、「**[!UICONTROL 配達確認を送信]**」ボタンをクリックし、[この節](../content-management/proofs.md)で説明されている手順に従います。
 
    * 配達確認を送信する前に、コンテンツのテストに使用する[メールサーフェス](../configuration/channel-surfaces.md)を選択する必要があります。
 
@@ -186,7 +182,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->現在、メールコンテンツテンプレートをテストする際の追跡はサポートされていません。つまり、テンプレートから送信される配達確認で、イベント、UTM パラメーター、ランディングページリンクの追跡が有効になりません。追跡をテストするには、メールで[コンテンツテンプレートを使用](../email/use-email-templates.md)し、[配達確認を送信](../email/preview.md#send-proofs)します。
+>現在、メールコンテンツテンプレートをテストする際の追跡はサポートされていません。つまり、テンプレートから送信される配達確認で、イベント、UTM パラメーター、ランディングページリンクの追跡が有効になりません。追跡をテストするには、メールで[コンテンツテンプレートを使用](../email/use-email-templates.md)し、[配達確認を送信](../content-management/preview-test.md#send-proofs)します。
 
 ## チュートリアルビデオ {#video-templates}
 

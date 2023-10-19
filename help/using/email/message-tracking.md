@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->テストプロファイルに送信される[配達確認](preview.md#send-proofs)では、ミラーページへのリンクはアクティブになっていません。最終的なメッセージでのみアクティブ化されます。
+>テストプロファイルに送信される[配達確認](../content-management/proofs.md)では、ミラーページへのリンクはアクティブになっていません。最終的なメッセージでのみアクティブ化されます。
 
 ミラーページの保持期間は 60 日です。この期間が経過すると、ミラーページは使用できなくなります。
 
@@ -187,4 +187,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->最終的な URL を確認するには、[配達確認を送信](preview.md#send-proofs)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。URL にはトラッキングパラメーターを表示する必要があります。上記の例では、最終的な URL は次のようになります：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>最終的な URL を確認するには、[配達確認を送信](../content-management/preview-test.md#send-proofs)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。URL にはトラッキングパラメーターを表示する必要があります。上記の例では、最終的な URL は次のようになります：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 100%
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->有効にすると、ジャーニーの実行時に許可リスト機能がアクティブになりますが、[配達確認](../email/preview.md#send-proofs)を使用してメッセージをテストし、[テストモード](../building-journeys/testing-the-journey.md)を使用してジャーニーをテストする場合にも機能します。
+>有効にすると、ジャーニーの実行時に許可リスト機能がアクティブになりますが、[配達確認](../content-management/proofs.md)を使用してメッセージをテストし、[テストモード](../building-journeys/testing-the-journey.md)を使用してジャーニーをテストする場合にも機能します。
 
 ## 許可リストを非アクティブ化 {#deactivate-allow-list}
 

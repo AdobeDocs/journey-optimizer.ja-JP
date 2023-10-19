@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 92%
 
 ---
 
@@ -146,11 +146,15 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >メールを使用してジャーニー／キャンペーンをテストまたはアクティブ化できるようにするには、すべての&#x200B;**エラー**&#x200B;アラートを解決する必要があります。
 
-## メールのプレビューと送信
+## メールを確認して送信
 
-メッセージコンテンツを定義したら、プレビューしてメールのレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認することができます。[詳細情報](preview.md)
+メッセージの内容を定義したら、テストプロファイルを使用して、プレビューし、配達確認を送信し、一般的なデスクトップ、モバイルおよび Web ベースのクライアントでのレンダリングを制御できます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+
+これをおこなうには、 **[!UICONTROL コンテンツをシミュレート]** 次に、テストプロファイルを追加し、テストプロファイルデータを使用してメッセージを確認します。
 
 ![](assets/email_designer_edit_simulate.png)
+
+テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、 [コンテンツ管理](../content-management/preview-test.md) 」セクションに入力します。
 
 メールの準備ができたら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)を設定し、アクティブ化して、メッセージが送信されるようにします。
 

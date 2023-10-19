@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 98%
+source-wordcount: '1686'
+ht-degree: 96%
 
 ---
 
@@ -195,7 +195,6 @@ ht-degree: 98%
          + [背景設定の編集](using/email/backgrounds.md)
          + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
          + [インラインのスタイル属性の追加](using/email/inline-styling.md)
-   + [メールのプレビューとテスト](using/email/preview.md)
    + [Experience Manager テンプレートの使用](using/email/aem-templates.md)
    + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + メールチャネルの設定 {#configure-email}
@@ -206,12 +205,12 @@ ht-degree: 98%
    + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
    + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
-   + [アプリ内通知のテストおよび送信](using/in-app/send-in-app.md)
+   + [アプリ内通知を確認して送信する](using/in-app/send-in-app.md)
 + プッシュ通知チャネル{#push}
    + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
    + [プッシュ通知の作成](using/push/create-push.md)
    + [プッシュ通知のデザイン](using/push/design-push.md)
-   + [プッシュ通知の送信](using/push/send-push.md)
+   + [プッシュ通知を確認して送信する](using/push/send-push.md)
    + プッシュ通知の設定{#push-config}
       + [プッシュ通知フロー](using/push/push-gs.md)
       + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
@@ -219,14 +218,14 @@ ht-degree: 98%
 + SMS チャネル{#sms}
    + [SMS の基本を学ぶ](using/sms/get-started-sms.md)
    + [SMS メッセージの作成](using/sms/create-sms.md)
-   + [SMS のプレビューとテスト](using/sms/send-sms.md)
+   + [SMS を確認して送信する](using/sms/send-sms.md)
    + [SMS オプトアウトの管理](using/sms/sms-opt-out.md)
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
 + ダイレクトメール {#direct-mail}
    + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
    + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
-   + [ダイレクトメールメッセージのテストと送信](using/direct-mail/test-send-direct-mail.md)
+   + [ダイレクトメールメッセージの確認と送信](using/direct-mail/test-send-direct-mail.md)
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
 + Web チャネル {#web}
    + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
@@ -258,14 +257,15 @@ ht-degree: 98%
       + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
-   + [Assets Essentials の操作](using/content-management/assets-essentials.md)
-   + [Adobe Stock との連携](using/content-management/stock.md)
    + コンテンツアシスタントの操作{#content-assistant}
       + [コンテンツアシスタント入門](using/content-management/gs-generative.md)
       + [コンテンツの生成](using/content-management/generative-content.md)
       + [画像生成](using/content-management/generative-image.md)
    + 多言語コンテンツの使用{#content-multilingual}
       + [多言語コンテンツの作成](using/content-management/multilingual-manual.md)
+   + アセット/画像 {#assets-images}
+      + [Assets Essentials の操作](using/content-management/assets-essentials.md)
+      + [Adobe Stock との連携](using/content-management/stock.md)
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
@@ -297,6 +297,12 @@ ht-degree: 98%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
+   + コンテンツのプレビューとテスト {#preview-test}
+      + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
+      + [テストプロファイルの選択](using/content-management/test-profiles.md)
+      + [コンテンツをプレビュー](using/content-management/preview.md)
+      + [電子メール配達確認を送信](using/content-management/proofs.md)
+      + [メールのレンダリングのテスト](using/content-management/rendering.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)

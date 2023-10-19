@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 95%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. ジャーニー設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、プッシュコンテンツを設定します。[プッシュ通知のデザイン](design-push.md)
 
-1. メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。
+1. メッセージの内容を定義したら、テストプロファイルを使用して、その内容をプレビューできます。
 
 1. プッシュの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)の設定を完了させて送信します。
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 1. キャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、プッシュコンテンツを設定します。[プッシュ通知のデザイン](design-push.md)
 
-1. メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。
+1. メッセージの内容を定義したら、テストプロファイルを使用して、その内容をプレビューできます。
 
 1. プッシュの準備が整ったら、[キャンペーン](../campaigns/create-campaign.md)の設定を完了させて送信します。
 

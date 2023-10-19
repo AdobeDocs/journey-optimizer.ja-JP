@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
@@ -109,7 +109,7 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
 
 1. パーソナライズしたコンテンツを Experience Manager のテンプレートに追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを使用して、メッセージでの表示をプレビューします。
 
-[プレビューおよびテストプロファイルについての詳細](../email/preview.md)
+[プレビューおよびテストプロファイルについての詳細](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

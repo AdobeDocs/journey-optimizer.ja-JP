@@ -7,7 +7,7 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ID 名前空間、プロファイルに対して有効化されたデータセ�
 
 1. **ソースコネクタを設定**&#x200B;します。Adobe Experience Platform では、外部ソースからデータを取り込みながら、Platform サービスを使用して入力データの構造化、ラベル付けおよび強化を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。ソースコネクタについて詳しくは、[このページ](../get-started-sources.md)を参照してください。
 
-1. **テストプロファイルを作成**&#x200B;します。ジャーニーで[テストモード](../../building-journeys/testing-the-journey.md)を使用する際や、送信前に[メッセージをプレビューしてテストする](../../email/preview.md)には、テストプロファイルが必要です。テストプロファイルの作成手順について詳しくは、[このページ](../../audience/creating-test-profiles.md)を参照してください。
+1. **テストプロファイルを作成**&#x200B;します。ジャーニーで[テストモード](../../building-journeys/testing-the-journey.md)を使用する際や、送信前に[メッセージをプレビューしてテストする](../../content-management/preview-test.md)には、テストプロファイルが必要です。テストプロファイルの作成手順について詳しくは、[このページ](../../audience/creating-test-profiles.md)を参照してください。
 
 
 ©さらに、ジャーニーでメッセージを送信できるようにするには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;を設定する必要があります。詳しくは、[この節](../../configuration/about-data-sources-events-actions.md)を参照してください。

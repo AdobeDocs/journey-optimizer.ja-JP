@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: テストプロファイル, テスト, テスト, ジャーニー
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 96%
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 # テストプロファイルの作成 {#create-test-profiles}
 
-ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../email/preview.md)には、テストプロファイルが必要です。
+ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../content-management/preview-test.md)には、テストプロファイルが必要です。
 
 テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 

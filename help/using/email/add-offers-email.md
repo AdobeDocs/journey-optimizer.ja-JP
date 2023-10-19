@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
@@ -75,10 +75,6 @@ ht-degree: 100%
 ![](assets/deliver-offer-preview.png)
 
 決定に含まれる様々なオファーを顧客プロファイルで表示するには、次の手順に従います。
-
->[!NOTE]
->
->メッセージのプレビューをおこなうには、テストプロファイルを使用可能にしておく必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
 1. オファーのプレビューに使用するテストプロファイルを選択します。
 

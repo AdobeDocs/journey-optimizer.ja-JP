@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 # テストプロファイルの作成 {#create-test-profiles}
 
-ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../email/preview.md)には、テストプロファイルが必要です。
+ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../content-management/preview-test.md)には、テストプロファイルが必要です。
 
 テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 100%
+source-wordcount: '1031'
+ht-degree: 97%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 >title="コードベースエクスペリエンスのプレビュー"
 >abstract="コードベースエクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
-変更したコードベースエクスペリエンスのプレビューを表示するには、次の手順に従います。
+変更したコードベースエクスペリエンスのプレビューを表示するには、次の手順に従います。テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、  [コンテンツページをプレビューおよびテストします。](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

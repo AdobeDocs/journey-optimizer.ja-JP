@@ -1,40 +1,30 @@
 ---
-title: ダイレクトメールメッセージのテストと送信
-description: Journey Optimizer でダイレクトメールメッセージをテストおよび送信する方法を説明します
+title: ダイレクトメールメッセージを確認して送信する
+description: Journey Optimizerでダイレクトメールメッセージを確認して送信する方法を説明します
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 84%
 
 ---
 
-# ダイレクトメールメッセージのテストと送信 {#direct-mail-test-send}
+# ダイレクトメールメッセージを確認して送信する {#direct-mail-test-send}
 
 ## 抽出ファイルのプレビュー {#preview-dm}
 
 抽出ファイルの内容を定義したら、テストプロファイルを使用して内容をプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
-1. 抽出ファイルの内容設定画面で、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
+これをおこなうには、 **[!UICONTROL コンテンツをシミュレート]** 次に、テストプロファイルを追加して、テストプロファイルデータを使用した抽出ファイルのレンダリング方法を確認します。
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. 「**[!UICONTROL テストプロファイルを管理]**」をクリックして、テストプロファイルを追加します。
-
-1. 「**[!UICONTROL ID 名前空間]**」フィールドと「**[!UICONTROL ID 値]**」フィールドを使用して、テストプロファイルを検索します。そのあと、「**[!UICONTROL プロファイルを追加]**」をクリックします。
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. テストプロファイルを選択したら、**[!UICONTROL テストプロファイルを追加]**&#x200B;ウィンドウを閉じます。
-
-1. **プレビューとテスト**&#x200B;ウィンドウから、抽出ファイルの内容にテストプロファイルデータが追加され、ファイルがどうレンダリングされるかをプレビューできるようになります。
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、 [コンテンツ管理](../content-management/preview-test.md) 」セクションに入力します。
 
 ファイルの内容を送信する準備が整ったら、シミュレート画面を閉じて、「**[!UICONTROL アクティブ化するレビュー]**」ボタンをクリックします。
 

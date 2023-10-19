@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 98%
@@ -275,7 +275,7 @@ ht-degree: 98%
 
 **コンテンツデザイン**
 
-* **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../email/preview.md)
+* **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../content-management/preview-test.md)
 * **ワンクリックオプトアウトリンク** - メールコンテンツに新しいタイプのリンクを挿入できます。この&#x200B;**オプトアウト**&#x200B;リンクを使用すると、ユーザーがワンクリックでコミュニケーションの受信登録を解除でき、オプトアウトを確認するためにランディングページにリダイレクトされることはありません。[詳細情報](../privacy/opt-out.md#one-click-opt-out-link)
 
 **パーソナライゼーション**
@@ -350,9 +350,9 @@ ht-degree: 98%
 
 **プレビューとテスト**
 
-* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../email/preview.md#preview-your-messages)
+* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../content-management/preview-test.md#preview-your-messages)
 * 配達確認のテストメールの数が 10 個に制限されるようになりました。
-* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../email/preview.md#send-proofs)
+* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../content-management/preview-test.md#send-proofs)
 
 **パーソナライゼーション式エディター**
 
