@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ ht-degree: 24%
 
 このリリースでは、以下に示す新機能が導入されています。
 
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS（ベータ版）でのマルチメディアメッセージサービス (MMS)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>SMS チャネルを使用すると、マルチメディアメッセージサービス (MMS) メッセージを送信して、顧客との画像、GIFまたはビデオの共有を有効にすることで、通信を強化できます。 この機能は、現在、Sinch でベータ版でのみ使用できます。</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ ht-degree: 24%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーで構成されたオーディエンス</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーの構成ワークフローで作成されたオーディエンスを使用して、顧客をターゲットに設定できるようになりました。 オーディエンス構成が公開され、オーディエンスが保存されたら、「オーディエンスの閲覧」アクティビティを使用して、ジャーニーキャンバスでこの新しいオーディエンスを選択します。</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS（ベータ版）でのマルチメディアメッセージサービス (MMS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>SMS チャネルを使用すると、マルチメディアメッセージサービス (MMS) メッセージを送信して、顧客との画像、GIFまたはビデオの共有を有効にすることで、通信を強化できます。 この機能は、現在、Sinch でベータ版でのみ使用できます。</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### 機能強化 {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ ht-degree: 24%
 **オーディエンス**
 
 * CSV ファイルからジャーニーやキャンペーンにアップロードされたオーディエンスをターゲットに設定できるようになりました。
-* 構成ワークフローからジャーニーに至るオーディエンスをターゲット設定できるようになりました。
 
 **E メールのスパムスコアリング**
 
