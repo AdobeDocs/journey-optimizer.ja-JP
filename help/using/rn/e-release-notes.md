@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
+source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 27%
+source-wordcount: '343'
+ht-degree: 28%
 
 ---
 
@@ -104,10 +104,6 @@ ht-degree: 27%
 **ジャーニー**
 
 * 待機アクティビティで定義できる最大期間は、30 日ではなく 29 日になりました。
-
-**ランディングページ**
-
-* ランディングページフォームコンポーネントを使用する場合、独自のオプションを持つ電子メールフィールドを追加できるようになりました。
 
 **チャネル設定での同意**
 
