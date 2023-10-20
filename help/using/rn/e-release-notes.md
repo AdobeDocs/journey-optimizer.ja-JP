@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
+source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 24%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerのサンドボックスツール機能を使用して、異なるオブジェクトを選択し、パッケージにエクスポートすることができます。 パッケージは、1 つのオブジェクト、複数のオブジェクト、またはサンドボックス全体で構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
+<p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックスにまたがってオブジェクトをコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
