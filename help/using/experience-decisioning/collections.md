@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 86%
 
 ---
 
 # コレクション {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="コレクションの作成"
+>abstract="コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。これらのカテゴリは、決定項目の属性を活用するルールを策定することで作成されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="コレクションのルールを定義する"
+>abstract="1 つまたは複数のルールを追加して、コレクションに含める項目を決定します。基準として使用する項目属性を選択します。目的の演算子を選択し、フィルターに使用する値を入力します。必要な数のルールを追加します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="コレクションを選択"
+>abstract="考慮するオファーを含むコレクションを選択します。 この手順は、選択戦略を作成する場合は必須です。 コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。例えば、「カテゴリ」カスタム属性に「ヨガ」値を持つすべての判定項目を含むコレクションを作成できます。"
 
 >[!BEGINSHADEBOX]
 

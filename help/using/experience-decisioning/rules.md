@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 90%
+source-wordcount: '323'
+ht-degree: 91%
 
 ---
 
 # 決定ルール {#rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_rules"
+>title="決定ルールの作成"
+>abstract="決定ルールを使用すると、決定項目レベルで直接、または特定の選択戦略内で制約を適用することで、決定項目のオーディエンスを定義できます。これにより、アイテムを提示する対象を正確に制御できます。"
 
 >[!BEGINSHADEBOX]
 

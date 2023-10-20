@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
 
 # ランキング方法 {#rankings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_formulas"
+>title="ランキング式の作成"
+>abstract="式を使用すると、項目の優先度スコアを考慮するのではなく、最初に提示する項目を決定するルールを定義できます。ランキング方法を作成したら、その方法を決定戦略に割り当てて、最初に選択する項目を定義できます。"
 
 >[!BEGINSHADEBOX]
 

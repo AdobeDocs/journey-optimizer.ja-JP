@@ -9,14 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 100%
+source-wordcount: '1014'
+ht-degree: 84%
 
 ---
 
 # 決定項目 {#items}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="決定項目を管理"
+>abstract="Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。現在、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合されます。 この画面から、 **スキーマを編集** ボタンをクリックし、決定項目のカスタム属性を作成します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="項目カタログの設定"
 
 >[!BEGINSHADEBOX]
 
@@ -40,6 +46,24 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 決定項目を表示する対象を決定する条件を設定する場合は、決定項目を作成する前に、必ず&#x200B;**決定ルール**&#x200B;を作成してください。[決定ルールを作成する方法を学ぶ](rules.md)。
 
 ## 最初の決定項目を作成
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="決定項目の優先度を定義"
+>abstract="プロファイルが複数の項目に該当する場合、優先度によって、この決定項目を他の項目と比較できます。 優先度が高いと、その項目は他の項目よりも優先されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="カスタム属性を定義する"
+>abstract="カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。これらは、決定項目のカタログスキーマに作成されます。 このセクションは、カタログスキーマに少なくとも 1 つのカスタム属性を追加した場合にのみ表示されます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="項目カタログの設定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="オーディエンスまたは決定ルールを追加する"
+>abstract="デフォルトでは、すべてのプロファイルは決定項目を受け取る資格がありますが、オーディエンスやルールを使用して、項目を特定のプロファイルに制限することができます。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="オーディエンスの使用"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="決定ルールを使用"
 
 決定項目を作成するには、次の手順に従います。
 
