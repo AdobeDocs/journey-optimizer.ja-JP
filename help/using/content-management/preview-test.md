@@ -4,10 +4,10 @@ description: コンテンツのプレビューとテストの方法を学びま�
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '308'
+ht-degree: 25%
 
 ---
 
@@ -15,8 +15,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="メッセージのプレビューとテスト"
->abstract="メッセージの内容を定義したら、テストプロファイルを使用して、その内容をプレビューできます。"
+>title="コンテンツのレンダリング方法を確認する"
+>abstract="コンテンツを定義したら、テストプロファイルを使用してプレビューし、使用しているチャネルに応じてレンダリングが正しいかどうかを確認できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="コンテンツのレンダリング方法を確認する"
+>abstract="コンテンツを定義したら、プレビューして、使用しているチャネルに応じてレンダリングが正しいかどうかを確認できます。"
 
 ## コンテンツのプレビューとテストについて {#about}
 

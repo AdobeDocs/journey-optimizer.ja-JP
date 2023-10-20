@@ -4,14 +4,19 @@ description: コンテンツをプレビューおよびテストするための�
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 45%
+source-wordcount: '230'
+ht-degree: 39%
 
 ---
 
 # テストプロファイルの選択 {#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_test_profiles"
+>title="テストプロファイルを使用してコンテンツを確認する"
+>abstract="テストプロファイルを使用して、コンテンツをプレビューおよびテストします。 パーソナライズされたフィールドを追加した場合は、テストプロファイルデータを使用して、その表示方法を確認できます。"
 
 コンテンツをプレビューまたはテストする前に、まずテストプロファイルを選択する必要があります。テストプロファイルは、定義されたターゲット条件に一致しない追加の受信者です。 [テストプロファイルの作成方法を説明します](../audience/creating-test-profiles.md)
 
