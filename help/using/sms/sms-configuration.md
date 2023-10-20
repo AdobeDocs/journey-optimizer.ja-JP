@@ -32,12 +32,12 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 >
 >SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。
 
-## 新しい API 認証情報の作成 {#create-api}
+## 新しい API 資格情報の作成 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer で SMS ベンダーを設定する"
->abstract="ベンダーを選択し、SMS API の認証情報を入力します。"
+>abstract="ベンダーを選択し、SMS API の資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
@@ -48,7 +48,7 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
 >title="SMS ベンダー設定の選択"
->abstract="SMS ベンダーに設定する API 認証情報を選択します。"
+>abstract="SMS ベンダーに設定する API 資格情報を選択します。"
 
 お使いの SMS ベンダーを Journey Optimizer に設定するには、次の手順に従います。
 
@@ -84,9 +84,9 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 
    ![](assets/sms_7.png)
 
-1. API 認証情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。
+API 資格情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。
 
 ## SMS サーフェスの作成 {#message-preset-sms}
 
