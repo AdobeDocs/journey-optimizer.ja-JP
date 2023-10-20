@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
+source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 24%
+source-wordcount: '364'
+ht-degree: 27%
 
 ---
 
@@ -48,21 +48,21 @@ ht-degree: 24%
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>ジャーニーで構成されたオーディエンス</strong><br/></th>
+<th><strong>Composed audiences in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニーの構成ワークフローで作成されたオーディエンスを使用して、顧客をターゲットに設定できるようになりました。 オーディエンス構成が公開され、オーディエンスが保存されたら、「オーディエンスの閲覧」アクティビティを使用して、ジャーニーキャンバスでこの新しいオーディエンスを選択します。</p>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
 <!--img src="assets/channel-reports.png"/-->
 <p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
-</table>
+&lt;/table --&gt;
 
 
 <table>
