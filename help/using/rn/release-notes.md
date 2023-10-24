@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
-ht-degree: 90%
+source-wordcount: '4584'
+ht-degree: 91%
 
 ---
 
@@ -120,10 +120,6 @@ ht-degree: 90%
    * の **時間** フィールド [待機アクティビティ](../building-journeys/wait-activity.md)
    * の **再入場待機期間** in [ジャーニーのプロパティ](../building-journeys/journey-gs.md#entrance)
    * の **待機** タイムアウト定義のフィールド [一般](../building-journeys/general-events.md#events-specific-time) および [反応](../building-journeys/reaction-events.md) イベント。
-
-**ランディングページ**
-
-* ランディングページフォームコンポーネントを使用する場合、独自のオプションを持つ電子メールフィールドを追加できるようになりました。
 
 **チャネル設定での同意**
 
