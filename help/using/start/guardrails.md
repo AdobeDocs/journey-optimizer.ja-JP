@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 86%
+source-wordcount: '1650'
+ht-degree: 85%
 
 ---
 
@@ -124,7 +124,11 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 * アプリ内メッセージのコンテンツサイズは 2 MB に制限されています。大きな画像を含めると、公開プロセスの妨げになる場合があります。
 
-## 意思決定管理 {#decision-management}
+## オーディエンスガードレール {#audience}
+
+* 特定のサンドボックス内で最大 10 個のオーディエンスコンポジションを公開できます。 このしきい値に達した場合、新しいコンポジションを公開するためには、コンポジションを削除してスペースを解放する必要があります。
+
+## 意思決定管理ガードレール {#decision-management}
 
 ### パフォーマンスガードレール {#performance-guardrails}
 
