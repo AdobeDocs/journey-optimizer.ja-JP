@@ -10,17 +10,35 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
-exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 18%
+source-wordcount: '658'
+ht-degree: 7%
 
 ---
 
-# 多言語コンテンツの作成 {#multilingual}
+# 手動翻訳を使用した多言語コンテンツの作成 {#multilingual-manual}
 
-多言語機能を使用すると、1 つのキャンペーン内で複数の言語のコンテンツを容易に作成できます。 この機能を使用すると、キャンペーンの編集時に言語を切り替えたり、編集プロセス全体を合理化したり、多言語コンテンツを効率的に管理する機能を改善したりできます。
+>[!BEGINSHADEBOX]
+
+**目次**
+
+* [多言語コンテンツの概要](multilingual-gs.md)
+* **[手動翻訳を使用した多言語コンテンツの作成](multilingual-manual.md)**
+* [自動翻訳を使用した多言語コンテンツの作成](multilingual-automated.md)
+* [多言語キャンペーンレポート](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+手動フローを使用すると、E メール、プッシュ通知、SMS キャンペーンに直接コンテンツを簡単に翻訳し、多言語メッセージの正確な制御とカスタマイズのオプションを提供できます。 さらに、「読み込みHTML」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
+
+手動翻訳を使用して多言語コンテンツを作成するには、次の手順に従います。
+
+1. [ロケールを作成する](#create-locale).
+
+1. [言語設定の作成](#create-language-settings).
+
+1. [多言語キャンペーンの作成](#create-a-multilingual-campaign).
 
 ## ロケールを作成 {#create-locale}
 
@@ -86,7 +104,9 @@ ht-degree: 18%
 
 ## 多言語キャンペーンの作成 {#create-multilingual-campaign}
 
-1. まず、要件に従ってキャンペーンを作成し、設定します。 [詳細情報](../campaigns/create-campaign.md)
+多言語コンテンツを設定したら、キャンペーンを作成し、選択した各ロケールのコンテンツをカスタマイズする準備が整いました。
+
+1. まず、要件に応じて、電子メール、SMS、またはプッシュ通知キャンペーンを作成し、設定します。 [詳細情報](../campaigns/create-campaign.md)
 
 1. 次に移動： **[!UICONTROL アクション]** メニューを開き、「 」を選択します。 **[!UICONTROL コンテンツを編集]**.
 
@@ -132,34 +152,6 @@ ht-degree: 18%
 
 送信後は、キャンペーンレポート内でキャンペーンの影響を測定できます。
 
-## 多言語キャンペーンレポート {#multilingual-campaign-report}
-
-「**全期間**」タブからアクセスできるグローバルレポートには、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントが表示されます。キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
-
-キャンペーンレポートで使用可能なデータについて詳しくは、 [このページ](../reports/campaign-global-report.md).
-
-+++多言語コンテンツで使用できる様々な指標およびウィジェットの詳細を説明します。
-
-![](assets/report_multilingual.png)
-
-The **[!UICONTROL 言語別の E メール送信統計]** ウィジェットは、 **[!UICONTROL ロケール]**:
-
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
-
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
-
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
-
-The **[!UICONTROL 言語別の E メールトラッキング統計]** ウィジェットには、配信に使用できる受信者アクティビティ用のデータが含まれます。 **[!UICONTROL ロケール]**:
-
-* **[!UICONTROL 配信停止]**：購読解除リンクのクリック数。
-
-* **[!UICONTROL 開封数]**：メッセージが開封された回数。
-
-* **[!UICONTROL クリック数]**：コンテンツがクリックされた回数。
-+++
-
-
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
 
@@ -167,14 +159,4 @@ The **[!UICONTROL 言語別の E メールトラッキング統計]** ウィジ�
 1. From your delivery action, click Edit content.
 1. Click Add languages.
 
-# Translation project/ Create translation project:
-
-1. From the Translation projects menu, click Create project.
-1. Type-in a Name and Description.
-1. Select the Source locale.
-1. Click Add language to access the menu and define the languages for your translation project.
-1. Select from the list your Target locale(s) and choose which Translation provider you want to use.
-1. Click Add language when you finished linking your Target locale with the correct Translation provider.
-1. Click Save.
-1. From the Advanced menu of your Translation project, you can choose to Edit, deactive or delete it.
 -->

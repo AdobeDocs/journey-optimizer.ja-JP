@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 96%
+source-wordcount: '1703'
+ht-degree: 95%
 
 ---
 
@@ -262,7 +262,10 @@ ht-degree: 96%
       + [コンテンツの生成](using/content-management/generative-content.md)
       + [画像生成](using/content-management/generative-image.md)
    + 多言語コンテンツの使用{#content-multilingual}
-      + [多言語コンテンツの作成](using/content-management/multilingual-manual.md)
+      + [多言語コンテンツの概要](using/content-management/multilingual-gs.md)
+      + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
+      + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
+      + [多言語キャンペーンレポート](using/content-management/multilingual-report.md)
    + アセット/画像 {#assets-images}
       + [Assets Essentials の操作](using/content-management/assets-essentials.md)
       + [Adobe Stock との連携](using/content-management/stock.md)

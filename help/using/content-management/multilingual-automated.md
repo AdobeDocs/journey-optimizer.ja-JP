@@ -3,23 +3,46 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 多言語コンテンツの概要
 description: Journey Optimizerの多言語コンテンツの詳細
-feature: Multilingual
+feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
-source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 16%
+source-wordcount: '1106'
+ht-degree: 4%
 
 ---
 
-# 多言語コンテンツの作成 {#multilingual-automated}
+# 自動翻訳を使用した多言語コンテンツの作成 {#multilingual-automated}
 
-多言語機能を使用すると、1 つのキャンペーン内で複数の言語のコンテンツを容易に作成できます。 この機能を使用すると、キャンペーンの編集時に言語を切り替えたり、編集プロセス全体を合理化したり、多言語コンテンツを効率的に管理する機能を改善したりできます。
+>[!BEGINSHADEBOX]
+
+**目次**
+
+* [多言語コンテンツの概要](multilingual-gs.md)
+* [手動翻訳を使用した多言語コンテンツの作成](multilingual-manual.md)
+* **[自動翻訳を使用した多言語コンテンツの作成](multilingual-automated.md)**
+* [多言語キャンペーンレポート](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+自動フローを使用して、ターゲット言語と言語プロバイダーを簡単に選択できます。 その後、コンテンツが翻訳に直接送信され、完了時に最終レビューがおこなわれます。
+
+自動翻訳を使用して多言語コンテンツを作成するには、次の手順に従います。
+
+1. [ロケールを作成する](#create-locale).
+
+1. [言語プロジェクトの作成](#create-translation-project).
+
+1. [言語設定の作成](#create-language-settings).
+
+1. [多言語キャンペーンの作成](#create-a-multilingual-campaign).
+
+1. [翻訳タスクをレビュー（オプション）](#review-translation-project).
 
 ## ロケールを作成 {#create-locale}
 
@@ -41,11 +64,17 @@ ht-degree: 16%
 
 ## 翻訳プロジェクトの作成 {#translation-project}
 
+Target ロケールを指定し、コンテンツの特定の言語または地域を示して、翻訳プロジェクトを開始します。 その後、翻訳プロバイダーを選択できます。
+
 1. 次から： **[!UICONTROL 翻訳プロジェクト]** 下のメニュー **[!UICONTROL コンテンツ管理]**&#x200B;をクリックし、 **[!UICONTROL プロジェクトを作成]**.
+
+   ![](assets/translation_project_1.png)
 
 1. Type-in a **[!UICONTROL 名前]** および **[!UICONTROL 説明]**.
 
 1. を選択します。 **[!UICONTROL ソースのロケール]**.
+
+   ![](assets/translation_project_2.png)
 
 1. 承認後に翻訳を自動的に公開するかどうか、およびレビューワークフローを有効にするかどうかを選択します。
 
@@ -53,21 +82,27 @@ ht-degree: 16%
 
    次の場合、 **[!UICONTROL ロケール]** がない場合は、事前に **[!UICONTROL 翻訳]** メニューまたは API を使用します。 参照： [新しいロケールを作成](#create-locale).
 
+   ![](assets/translation_project_3.png)
+
 1. リストからを選択します。 **[!UICONTROL ターゲットのロケール]** を選択し、 **[!UICONTROL 翻訳プロバイダー]** 各ロケールでを使用します。
 
-1. クリック **[!UICONTROL ロケールを追加]** Target ロケールと正しい翻訳プロバイダーのリンクを終了したとき。
+1. クリック **[!UICONTROL ロケールを追加]** Target ロケールと正しい翻訳プロバイダーのリンクを終了したとき。 次に、「**[!UICONTROL 保存]**」をクリックします。
+
+   ![](assets/translation_project_4.png)
 
 1. クリック **[!UICONTROL 保存]** 翻訳プロジェクトが設定されたとき。
 
-1. 翻訳プロジェクトの詳細設定メニューから、編集、非アクティブ化または削除を選択できます。
+これで、翻訳プロジェクトが作成され、多言語キャンペーンで使用できます。
 
 ## 言語設定の作成 {#language-settings}
 
-この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。 また、プロファイルの言語に関連する情報の検索に使用する属性を選択することもできます
+この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。 また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます。
 
 1. 次から： **[!UICONTROL 管理]** メニュー、アクセス **[!UICONTROL チャネル]**.
 
 1. Adobe Analytics の **[!UICONTROL 言語設定]** メニュー、クリック **[!UICONTROL 言語設定の作成]**.
+
+   ![](assets/language_settings_1.png)
 
 1. 名前を入力 **[!UICONTROL 言語設定]**.
 
@@ -75,11 +110,19 @@ ht-degree: 16%
 
 1. 次から： **[!UICONTROL 翻訳プロジェクト]** 「 」フィールドで、「 **[!UICONTROL 編集]** を選択し、以前に作成した **[!UICONTROL 翻訳プロジェクト]**.
 
-   以前に設定したロケールが自動的に読み込まれます。 次の場合に、 **[!UICONTROL 翻訳プロジェクト]**&#x200B;をクリックし、 **[!UICONTROL 更新]** これらの変更を **[!UICONTROL 言語設定]**.
+   以前に設定したロケールが自動的に読み込まれます。
+
+   ![](assets/language_settings_2.png)
 
 1. 次から： **[!UICONTROL 送信環境設定]** メニューで、検索する属性を選択して、プロファイル言語に関する情報を見つけます。
 
 1. クリック **[!UICONTROL 編集]** 次に **[!UICONTROL ロケール]** さらにパーソナライズし、 **[!UICONTROL プロファイル環境設定]**.
+
+   ![](assets/language_settings_3.png)
+
+1. 次の場合、 **[!UICONTROL 翻訳プロジェクト]** が更新されました。「 **[!UICONTROL 更新]** これらの変更を **[!UICONTROL 言語設定]**.
+
+   ![](assets/language_settings_4.png)
 
 1. クリック **[!UICONTROL 送信]** をクリックして、 **[!UICONTROL 言語設定]**.
 
@@ -93,23 +136,47 @@ ht-degree: 16%
 
 ## 多言語キャンペーンの作成 {#create-multilingual-campaign}
 
-1. まず、要件に従ってキャンペーンを作成し、設定します。 [詳細情報](../campaigns/create-campaign.md)
+翻訳プロジェクトと言語の設定が完了したら、キャンペーンを作成し、様々なロケール用にコンテンツをカスタマイズする準備が整いました。
 
-1. 次に移動： **[!UICONTROL アクション]** メニューを開き、「 」を選択します。 **[!UICONTROL コンテンツを編集]**.
-
-1. 元のコンテンツを作成または読み込み、必要に応じてパーソナライズします。
+1. まず、要件に応じて、電子メール、SMS、またはプッシュ通知キャンペーンを作成し、設定します。 [詳細情報](../campaigns/create-campaign.md)
 
 1. プライマリコンテンツを作成したら、「 **[!UICONTROL 保存]** キャンペーン設定画面に戻ります。
 
-1. クリック **[!UICONTROL 言語を追加]** を選択し、以前に作成した **[!UICONTROL 言語設定]**. [詳細情報](#create-language-settings)
+1. クリック **[!UICONTROL 言語を追加]**.  [詳細情報](#create-language-settings)
 
-1. の詳細設定にアクセスする **[!UICONTROL ロケール]** メニューと選択 **[!UICONTROL プライマリをすべてのロケールにコピーする]**.
+   ![](assets/multilingual-campaign-automated-1.png)
 
-1. これで、選択した  **[!UICONTROL ロケール]**&#x200B;をクリックし、各ロケールにアクセスして、 **[!UICONTROL メール本文を編集]** コンテンツを翻訳します。
+1. 以前に作成したを選択 **[!UICONTROL 言語設定]**.
 
-1. ロケールを無効にするか、有効にするかを選択すると、 **[!UICONTROL その他のアクション]** 選択したロケールのメニュー。
+   ![](assets/multilingual-campaign-automated-2.png)
 
-1. 多言語設定を非アクティブ化するには、 **[!UICONTROL 言語を追加]** ローカル言語として保持する言語を選択します。
+1. ロケールが読み込まれたので、 **[!UICONTROL 翻訳に送信]** をクリックして、以前に選択した翻訳プロバイダーにコンテンツを転送します。
+
+   ![](assets/multilingual-campaign-automated-3.png)
+
+1. コンテンツを翻訳用に送信した後は、編集できなくなります。 元のコンテンツに変更を加えるには、ロックアイコンをクリックします。
+
+   このコンテンツに変更を加える場合は、新しい翻訳プロジェクトを作成し、翻訳用に再送信する必要があります。
+
+   ![](assets/multilingual-campaign-automated-4.png)
+
+1. クリック **[!UICONTROL 翻訳を開く]** 翻訳プロジェクトにアクセスして確認するには、以下を実行します。
+
+   ![](assets/multilingual-campaign-automated-5.png)
+
+1. このページでは、翻訳プロジェクトのステータスに従います。
+
+   * **[!UICONTROL 翻訳中]**：サービスプロバイダーが翻訳に積極的に取り組んでいます。
+   * **[!UICONTROL レビューの準備完了]**：レビュープロセスを開始する準備が整い、翻訳にアクセスして拒否または承認できます。
+   * **[!UICONTROL 確認済み]**：翻訳が承認され、キャンペーンに送信する準備が整いました。
+   * **[!UICONTROL 公開準備完了]**：機械翻訳が完了し、キャンペーンに送信できるようになりました。
+   * **[!UICONTROL 完了]**：キャンペーンで翻訳を利用できるようになりました。
+
+   ![](assets/multilingual-campaign-automated-6.png)
+
+1. 翻訳が完了すると、多言語コンテンツを送信する準備が整います。
+
+   ![](assets/translation_review_9.png)
 
 1. クリック **[!UICONTROL 有効化するレビュー]** ：キャンペーンの概要を表示します。
 
@@ -117,39 +184,58 @@ ht-degree: 16%
 
 1. 多言語コンテンツを参照して、各言語でのレンダリングを確認します。
 
+   ![](assets/multilingual-campaign-automated-7.png)
+
 1. キャンペーンが正しく設定されていることを確認してから、「**[!UICONTROL アクティブ化]**」をクリックします。
 
 これで、キャンペーンがアクティブ化されました。キャンペーンに設定されたメッセージは、即座に送信されるか、指定した日付に送信されます。 キャンペーンがライブになると、すぐに変更できなくなります。 コンテンツを再利用するには、キャンペーンを複製します。
 
 送信後は、キャンペーンレポート内でキャンペーンの影響を測定できます。
 
-## 多言語キャンペーンレポート {#multilingual-campaign-report}
+## 翻訳プロジェクトをレビュー {#review-translation-project}
 
-「**全期間**」タブからアクセスできるグローバルレポートには、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントが表示されます。キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
+次を選択した場合、 **[!UICONTROL レビューワークフローを有効にする]** の **[!UICONTROL 翻訳プロジェクト]**を使用すると、選択した翻訳プロバイダーによって、完了後にJourney Optimizerで直接翻訳をレビューできます。
+このオプションが無効になっている場合、プロバイダーが翻訳を完了すると、翻訳タスクのステータスは自動的に「 」に設定されます。 **[!UICONTROL 確認済み]**&#x200B;をクリックすると、 **[!UICONTROL 製品に送信]**.
 
-キャンペーンレポートで使用可能なデータについて詳しくは、 [このページ](../reports/campaign-global-report.md).
+1. 翻訳がサービスプロバイダーから完了したら、翻訳にアクセスして、 **[!UICONTROL 翻訳プロジェクト]** または直接 **[!UICONTROL Campaign]**.
 
-+++多言語コンテンツで使用できる様々な指標およびウィジェットの詳細を説明します。
+   ![](assets/translation_review_1.png)
 
-![](assets/report_multilingual.png)
+1. レビューウィンドウから、翻訳済みコンテンツを参照し、各翻訳文字列を許可または却下します。
 
-The **[!UICONTROL 言語別の E メール送信統計]** ウィジェットは、 **[!UICONTROL ロケール]**:
+   ![](assets/translation_review_3.png)
 
-* **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
+1. クリック **[!UICONTROL 編集]** 翻訳文字列のコンテンツを変更する場合。
 
-* **[!UICONTROL バウンス]**：送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。
+   ![](assets/translation_review_2.png)
 
-* **[!UICONTROL エラー]**：配信中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。
+1. 更新した翻訳を入力し、「 **[!UICONTROL 確認]** 終了したとき。
 
-The **[!UICONTROL 言語別の E メールトラッキング統計]** ウィジェットには、配信に使用できる受信者アクティビティ用のデータが含まれます。 **[!UICONTROL ロケール]**:
+   ![](assets/translation_review_4.png)
 
-* **[!UICONTROL 配信停止]**：購読解除リンクのクリック数。
+1. また、 **[!UICONTROL すべて却下]** または **[!UICONTROL すべて承認]** を直接使用します。
 
-* **[!UICONTROL 開封数]**：メッセージが開封された回数。
+   選択時 **[!UICONTROL すべて却下]**&#x200B;をクリックし、コメントを追加して、 **[!UICONTROL 拒否]**.
 
-* **[!UICONTROL クリック数]**：コンテンツがクリックされた回数。
-+++
+1. クリック **[!UICONTROL プレビュー]** をクリックして、各言語の翻訳済みコンテンツのレンダリングを確認します。
 
+1. 翻訳が完了したら、「 **[!UICONTROL 最終化]**.
+
+   ![](assets/translation_review_5.png)
+
+1. お使いの **[!UICONTROL 翻訳プロジェクト]**」、プロジェクトの 1 つを選択して、詳細を表示します。 翻訳を拒否した場合は、翻訳に返信するように選択できます。
+
+   ![](assets/translation_review_6.png)
+
+1. 一度、 **[!UICONTROL 翻訳プロジェクト]** ステータスが「レビュー済み」に設定されている場合は、キャンペーンに送信できます。
+
+   詳細設定メニューで、 **[!UICONTROL 公開]**.
+
+   ![](assets/translation_review_7.png)
+
+1. キャンペーンで、翻訳のステータスが **[!UICONTROL 翻訳完了]**. これで、多言語コンテンツを送信できます。手順 10 ( [この節](#create-multilingual-campaign).
+
+   ![](assets/translation_review_9.png)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
