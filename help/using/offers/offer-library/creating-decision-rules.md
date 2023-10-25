@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 87%
 
 ---
 
@@ -25,10 +25,9 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 決定ルールを使用する際に考慮すべき制限事項のリストを以下に示します。
 
-* ルールを作成する際には履歴イベントを使用できますが、これらのルールを使用できるタイミングには制限があります。
 * Edge 判定では、イベントを保存しない Edge プロファイルを使用するので、Edge 判定で使用するルールは無効になります。
-* オファーの決定を使用するジャーニーでは、履歴イベントを参照しないので、これらのルールは無効になります。
-* ハブプロファイルを使用する決定リクエストでは、プロファイル上の最後の 100 件のエクスペリエンスイベントを調べて、履歴エクスペリエンスイベントを参照するルールを評価します。
+* 決定ルールを作成する際に、前の期間をさかのぼることはサポートされません。 例えば、過去 1 ヶ月以内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定した場合、 ルールの作成中にルックバック期間を含めようとすると、保存時にトリガーが発生します。
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 決定ルールの作成 {#create}
 

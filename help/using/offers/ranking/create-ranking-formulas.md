@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 100%
    この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、**contextData.weather=hot** を判定の呼び出し時に渡しています。
 
    ![](../assets/ranking-syntax.png)
+
+   >[!IMPORTANT]
+   >
+   >ランキング式を作成する場合、前の期間の参照はサポートされません。 例えば、先月内に発生したエクスペリエンスイベントを数式のコンポーネントとして指定した場合、 数式の作成中にルックバック期間を含めようとすると、保存時にトリガーが発生します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。ランキング式が作成されたら、リストからその式を選択して詳細を取得し、式を編集または削除したりできます。
 
