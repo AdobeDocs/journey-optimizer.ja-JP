@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 24%
+source-wordcount: '350'
+ht-degree: 26%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 24%
 
 **キャンペーン**
 
-* ライブな 1 回限りのキャンペーンを停止し、変更を加えて再開できるようになりました。 この改善は、ベータ版で利用できます。
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * キャンペーンの 1 つ内でエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。
 
 **ジャーニー**
