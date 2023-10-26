@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
-source-wordcount: '3956'
-ht-degree: 94%
+source-wordcount: '4011'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 94%
 * 単一ページアプリケーションの実装ページは、 Experience Platform Web SDK のドキュメントにAdobeされました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * 「キャッピング」の節が更新され、決定管理インターフェイスでのオファーキャッピングに関するラベルの変更が反映されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 * E メールへの動的コンテンツの追加の節が更新され、バリアントの削除方法の詳細が追加されました。 [詳細情報](../personalization/dynamic-content.md#emails)
+* キャッピングとスロットリングの設定の例が更新されました。 [詳細情報](../configuration/external-systems.md)
+* スカラー配列に関する制限は、外部データソースの節から削除されました。 [詳細情報](../datasource/external-data-sources.md)
+* マルチチャネルジャーニーの使用例が更新されました。 [詳細情報](../building-journeys/journeys-uc.md)
+* Journey Optimizerのドキュメントセットが更新され、新しいExperience Platformスキーマ作成プロセスが反映されました。
 
 ## 2023年9月 {#september-2023}
 
