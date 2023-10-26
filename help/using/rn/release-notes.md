@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 7dc3ddb92a8d47b135535107928e5b812c101d93
 workflow-type: tm+mt
-source-wordcount: '4558'
+source-wordcount: '4556'
 ht-degree: 92%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 92%
 
    * の **時間** フィールド [待機アクティビティ](../building-journeys/wait-activity.md)
    * の **再入場待機期間** in [ジャーニーのプロパティ](../building-journeys/journey-gs.md#entrance)
-   * の **待機** タイムアウト定義のフィールド [一般](../building-journeys/general-events.md#events-specific-time) および [反応](../building-journeys/reaction-events.md) イベント。
+   * の **待機** タイムアウト定義のフィールド [イベントアクティビティ](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
