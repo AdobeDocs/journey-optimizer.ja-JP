@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
-source-wordcount: '4011'
+source-wordcount: '4010'
 ht-degree: 93%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 93%
 * 単一ページアプリケーションの実装ページは、 Experience Platform Web SDK のドキュメントにAdobeされました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * 「キャッピング」の節が更新され、決定管理インターフェイスでのオファーキャッピングに関するラベルの変更が反映されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 * E メールへの動的コンテンツの追加の節が更新され、バリアントの削除方法の詳細が追加されました。 [詳細情報](../personalization/dynamic-content.md#emails)
-* キャッピングとスロットリングの設定の例が更新されました。 [詳細情報](../configuration/external-systems.md)
+* キャッピングとスロットルの設定の例が更新されました。 [詳細情報](../configuration/external-systems.md)
 * スカラー配列に関する制限は、外部データソースの節から削除されました。 [詳細情報](../datasource/external-data-sources.md)
 * マルチチャネルジャーニーの使用例が更新されました。 [詳細情報](../building-journeys/journeys-uc.md)
 * Journey Optimizerのドキュメントセットが更新され、新しいExperience Platformスキーマ作成プロセスが反映されました。
