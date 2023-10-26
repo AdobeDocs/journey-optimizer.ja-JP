@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
+source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
 workflow-type: tm+mt
-source-wordcount: '4537'
-ht-degree: 92%
+source-wordcount: '4477'
+ht-degree: 93%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 **キャンペーン**
 
-* ライブな 1 回限りのキャンペーンを停止し、変更を加えて再開できるようになりました。 この改善は、ベータ版で利用できます。
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * キャンペーンの 1 つ内でエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。
 
 **ジャーニー**
@@ -121,9 +121,10 @@ ht-degree: 92%
    * の **再入場待機期間** in [ジャーニーのプロパティ](../building-journeys/journey-gs.md#entrance)
    * の **待機** タイムアウト定義のフィールド [一般](../building-journeys/general-events.md#events-specific-time) および [反応](../building-journeys/reaction-events.md) イベント。
 
-**チャネル設定での同意**
+<!--
+**Consent in channel configuration**
 
-* これで、チャネルサーフェスレベルでマーケティングアクションを選択できます。 表面で使用する場合、顧客の好みを尊重するために、そのマーケティングアクションに関連するすべての同意ポリシーが利用されます。
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **意思決定管理**
 
