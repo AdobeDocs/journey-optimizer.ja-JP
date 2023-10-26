@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 93%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 <td>
 <p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックスにまたがってオブジェクトをコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ ht-degree: 93%
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>SMS でのマルチメディアメッセージサービス (MMS)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>SMS チャネルを使用すると、マルチメディアメッセージサービス (MMS) メッセージを送信して、顧客との画像、GIFまたはビデオの共有を有効にすることで、通信を強化できます。 この機能は現在、Sinch でのみ使用できます。</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>詳しくは、 <a href="../sms/create-sms.md#sms-content">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ ht-degree: 93%
 **オーディエンス**
 
 * CSV ファイルからジャーニーやキャンペーンにアップロードされたオーディエンスをターゲットに設定できるようになりました。
-* オーディエンスの構成を通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。
+* オーディエンスの構成を通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。 [詳細情報](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ ht-degree: 93%
 **キャンペーン**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* キャンペーンの 1 つ内でエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。
+* キャンペーンの 1 つ内でエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。 [詳細情報](../campaigns/modify-stop-campaign.md#statuses)
 
 **ジャーニー**
 
-* 任意の待機時間で定義できる最大期間は、30 日ではなく 29 日になりました。 これは次に当てはまります。
+* 任意の待機時間で定義できる最大期間は、30 日ではなく 29 日になりました。 この改善は、待ち時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。 これは次に当てはまります。
 
    * の **時間** フィールド [待機アクティビティ](../building-journeys/wait-activity.md)
    * の **再入場待機期間** in [ジャーニーのプロパティ](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ ht-degree: 93%
 
 **意思決定管理**
 
-* 決定管理インターフェイスのオファー制限に関連するいくつかのラベルが更新されました。
+* 決定管理インターフェイスのオファー制限に関連するいくつかのラベルが更新されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023年9月リリースノート {#sept-rn-2023}
 

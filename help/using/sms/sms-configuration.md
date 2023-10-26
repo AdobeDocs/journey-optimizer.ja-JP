@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 97%
+source-wordcount: '1050'
+ht-degree: 94%
 
 ---
 
@@ -67,6 +67,12 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
       * **[!UICONTROL オプトインメッセージ]**：自動的に **[!UICONTROL オプトインメッセージ]**.
 
       * **[!UICONTROL ヘルプメッセージ]**：自動的に **ヘルプメッセージ**.
+
+   * **[!DNL Sinch MMS]** の場合：
+
+      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
+
+      * **[!UICONTROL プロジェクト ID]**, **[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：会話 API メニューから、アプリメニューに資格情報を表示できます。  [詳細情報](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
    * **[!DNL Twilio]** の場合：
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 91%
+source-wordcount: '967'
+ht-degree: 89%
 
 ---
 
@@ -124,17 +124,17 @@ ht-degree: 91%
 
 次をクリック： **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformオーディエンスのリストを表示します。 [詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>現時点では、オーディエンスの使用 [CSV ファイルから読み込み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) キャンペーンへの移行は、非公開ベータ版として利用できます。 詳しくは、アドビ担当者にお問い合わせください。
 >
 >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。([詳細情報](api-triggered-campaigns.md))
 
-「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
+「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。
+
+様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
-
->[!NOTE]
->
->様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: カスタム, 一般, イベント, ジャーニー
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 1. イベントのプロパティで「**[!UICONTROL イベントのタイムアウトを定義]**」オプションを有効にします。
 
-1. ジャーニーがこのイベントを待機する時間を指定します。
+1. ジャーニーがこのイベントを待機する時間を指定します。最長期間は 29 日です。
 
 1. 指定のタイムアウト内でイベントの受け取りが発生しなかったとき、対象者をタイムアウトのパスに送信したい場合は「**[!UICONTROL タイムアウトのパスを設定]**」オプションを有効にします。このオプションを有効にしない場合、ジャーニーはタイムアウト値に達すると終了します。
 

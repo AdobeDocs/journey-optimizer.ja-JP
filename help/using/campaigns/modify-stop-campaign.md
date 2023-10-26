@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 さらに、キャンペーンのタイプとチャネルや、キャンペーンの作成時にキャンペーンに割り当てられたタグに基づいてリストをフィルタリングできます。[キャンペーンにタグを割り当てる方法について詳しくは、こちらを参照してください](create-campaign.md#create)
 
-## キャンペーンのステータス {#statuses}
+## キャンペーンのステータスとアラート {#statuses}
 
 キャンペーンには複数のステータスがあります。
 
@@ -47,6 +47,10 @@ ht-degree: 100%
 >[!NOTE]
 >
 >**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;ステータスの横にある「ドラフトバージョンを開く」アイコンは、キャンペーンの新しいバージョンが作成され、まだアクティブ化されていないことを示しています。[詳細情報](modify-stop-campaign.md#modify)。
+
+キャンペーンの 1 つ内でエラーが発生すると、キャンペーンのステータスの横に警告アイコンが表示されます。 アラートに関する情報を表示するには、アラートをクリックします。 これらのアラートは、キャンペーンメッセージが公開されていない場合や、選択したサーフェスが正しくない場合など、様々な状況で発生する場合があります。
+
+![](assets/campaign-alerts.png)
 
 ## 繰り返しキャンペーンの変更 {#modify}
 

@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 99%
+source-wordcount: '726'
+ht-degree: 95%
 
 ---
 
 # 組み込みの権限 {#ootb-permissions}
+
+組み込み権限は、割り当て可能な様々な権限を表します **[!UICONTROL 役割]** を使用して、Journey Optimizerへのユーザーアクセスを微調整できます。 高レベルの権限には、低レベルの権限が含まれます。詳しくは、 [このページ](high-low-permissions.md).
 
 | 機能 | 権限 |
 |-|-|
@@ -37,7 +39,7 @@ ht-degree: 99%
 | Journey Optimizer ルール | **[!DNL View frequency rules]**：ルールへの読み取り専用アクセス。</br>**[!DNL Manage frequency rules]**：メッセージ頻度ルールへのアクセス、作成、編集、削除。 |
 | ジャーニー | **[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、削除。</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL Publish journeys]**：ジャーニーの公開。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取り、編集。</br>。 |
 | プロファイル管理 | **[!DNL Manage profiles]**：顧客プロファイルに使用するデータセットへの読み取り、作成、編集、削除。使用可能なプロファイルへの読み取り専用アクセス&#x200B;</br>**[!DNL View profiles]**：使用可能なプロファイルへの読み取り専用アクセス。</br>**[!DNL Export audience segments]**：評価済みのデータセットセグメントをオーディエンスセットに書き出します。</br>**[!DNL View segments]**：使用可能なセグメントへの読み取り専用アクセス。</br>**[!DNL Evaluate a segment to an audience]**：セグメント定義を評価して、オーディエンスのプロファイルを生成します。</br>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</br>**[!DNL View merge policies]**：使用可能な結合ポリシーへの読み取り専用アクセス。 |
-| クエリサービス | **[!DNL Manage queries]**：Platform データの構造化 SQL クエリの読み取り、作成、編集、削除。</br>**[!DNL Manage query service integration]**：クエリサービスアクセスの有効期限が切れていない認証情報を作成、更新および削除。 |
+| クエリサービス | **[!DNL Manage queries]**：Platform データの構造化 SQL クエリの読み取り、作成、編集、削除。</br>**[!DNL Manage query service integration]**：クエリサービスアクセスの有効期限が切れていない資格情報を作成、更新および削除。 |
 | サンドボックス管理 | **[!DNL Manage sandboxes]**：サンドボックスの読み取り、作成、編集、削除。</br>**[!DNL View sandboxes]**：組織に属するサンドボックスへの読み取り専用アクセス。</br>**[!DNL Reset sandboxes]**：サンドボックスをリセットする機能。</br>**[!DNL Export sandboxes]**：サンドボックスを書き出す機能。 |
 
 {style="table-layout:fixed"}

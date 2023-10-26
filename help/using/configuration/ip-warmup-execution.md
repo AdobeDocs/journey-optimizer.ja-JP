@@ -11,10 +11,10 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 87%
+source-wordcount: '1710'
+ht-degree: 86%
 
 ---
 
@@ -152,6 +152,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. 必要に応じて、その他のアクションアイコンから「**[!UICONTROL 実行を編集]**」を選択します。各列のアドレス数を更新できます。また、過去 20 日間にブランドに関与したユーザーのみをターゲットにするように、「**[!UICONTROL 最後のエンゲージメント]**」フィールドを更新することもできます。
 
    ![](assets/ip-warmup-plan-edit-run.png)
+
+   >[!NOTE]
+   >
+   >を適用しない場合は、 **[!UICONTROL 最後のエンゲージメント]** パラメータを現在の実行に設定し、0 に設定します。
 
 1. オーディエンスが実行の評価後に、適格なプロファイルがターゲットのプロファイルよりも小さい場合に実行をキャンセルするには、「**[!UICONTROL エラーが発生した場合に一時停止]**」オプションを選択します。
 

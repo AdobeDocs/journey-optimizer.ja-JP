@@ -1,28 +1,118 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS メッセージの作成
-description: Journey Optimizer で SMS メッセージを作成する方法を学ぶ
+title: MMS の作成
+description: Journey Optimizerで MMS を作成する方法を学ぶ
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
+hide: true
+hidefromtoc: true
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '1093'
 ht-degree: 87%
 
 ---
 
-# SMS メッセージの作成 {#create-sms}
+# MMS メッセージの作成 {#create-mms}
 
->[!CONTEXTUALHELP]
->id="ajo_message_sms"
->title="SMS メッセージの作成"
->abstract="SMS メッセージを追加し、そのパーソナライズを式エディターで開始します。"
+## 前提条件{#sms-prerequisites}
 
-## SMS メッセージの追加 {#create-sms-journey-campaign}
+SMS メッセージを作成する前に、まずJourney Optimizerで SMS ベンダーを設定する必要があります。次の手順に従います。
+
+* SMS を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。 
+
++++ 新しい Sinch MMS API 資格情報を作成する方法を説明します。
+
+   1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
+
+      ![](assets/sms_6.png)
+
+   1. SMS API 資格情報を設定します。
+
+   * **[!DNL Sinch MMS]** の場合：
+
+      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
+
+      * **[!UICONTROL プロジェクト ID]**, **[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：会話 API メニューから、アプリメニューに資格情報を表示できます。  [詳細情報](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
+
+     ![](assets/mms_provider.png)
+
+   1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+
+  API 資格情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。
+
++++
+
+* 完了したら、SMS サーフェスを作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。
+
++++ チャンネルサーフェスの作成方法を学びます。
+
+   1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL ブランディング]**／**[!UICONTROL チャネルサーフェス]**&#x200B;を選択します。「**[!UICONTROL チャネルサーフェスを作成]**」ボタンをクリックします。
+
+      ![](assets/preset-create.png)
+
+   1. サーフェスの名前と説明（オプション）を入力し、SMS チャネルを選択します。
+
+      ![](assets/sms-create-surface.png)
+
+      >[!NOTE]
+      >
+      > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+
+   1. **SMS 設定**&#x200B;を定義します。
+
+      ![](assets/sms-surface-settings.png)
+
+      サーフェスを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択することから開始します。
+
+      * プロモーション SMS の場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
+      * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
+
+      メッセージの作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+
+      >[!CAUTION]
+      >
+      >**トランザクション** SMS メッセージは、アドビからのお知らせを登録解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
+
+   1. **[!UICONTROL SMS 設定]**&#x200B;を選択し、サーフェスと関連付けます。
+
+      SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
+
+   1. コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
+
+   1. 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
+
+   1. SMS メッセージで URL 短縮機能を使用する場合は、**[!UICONTROL サブドメイン]**&#x200B;リストから項目を選択します。
+
+      >[!NOTE]
+      >
+      >サブドメインを選択するには、1 つ以上の SMS サブドメインを事前に設定していることを確認してください。[方法についてはこちらを参照](sms-subdomains.md)
+
+   1. このサーフェスにを使用する&#x200B;**[!UICONTROL オプトアウト番号]**&#x200B;を入力します。この番号からオプトアウトしたプロファイルは、[!DNL Journey Optimizer] で SMS メッセージを送信する際に使用している他の番号からも、引き続きメッセージを送信できます。
+
+      >[!NOTE]
+      >
+      >[!DNL Journey Optimizer]の場合、SMS オプトアウトはチャネルレベルで管理されなくなりました。現在は、数値に固有です。
+
+   1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
+
+      ![](assets/sms-submit-surface.png)
+
+   1. チャネルサーフェスが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
+
+      >[!NOTE]
+      >
+      >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-channel-surfaces)を参照してください。
+
+   1. チェックが正常に完了すると、チャネルサーフェスのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
+
+      ![](assets/preset-active.png)
+
+
+## SMS メッセージの作成 {#create-sms-journey-campaign}
 
 キャンペーンまたはジャーニーに SMS メッセージを追加する方法については、以下のタブを参照してください。
 
@@ -79,12 +169,7 @@ ht-degree: 87%
 
 >[!ENDTABS]
 
-## SMS コンテンツの定義{#sms-content}
-
->[!CONTEXTUALHELP]
->id="ajo_message_sms_content"
->title="SMS コンテンツの定義"
->abstract="式エディターを使用してコンテンツを定義し、動的要素を組み込むことで、SMS メッセージをカスタマイズおよびパーソナライズします。"
+## MMS コンテンツを定義する{#mms-content}
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、SMS コンテンツを設定します。
 
@@ -94,25 +179,7 @@ ht-degree: 87%
 
 1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。プロファイル名や市区町村など、任意の属性を使用できます。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
-1. コンテンツを定義したら、トラック URL をメッセージに追加できます。これを行うには、**[!UICONTROL ヘルパー関数]**&#x200B;メニューにアクセスし、「**[!UICONTROL ヘルパー]**」を選択します。
-
-   URL 短縮機能を使用するには、最初にサブドメインを設定する必要があります。このサブドメインはその後、サーフェスにリンクされます。[詳細情報](sms-subdomains.md)
-
-   >[!CAUTION]
-   >
-   > SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。
-
-   ![](assets/sms_tracking_1.png)
-
-1. **[!UICONTROL ヘルパー関数]**&#x200B;メニュー内で、「**[!UICONTROL URL 関数]**」をクリックし、「**[!UICONTROL URL を追加]**」を選択します。
-
-   ![](assets/sms_tracking_2.png)
-
-1. Adobe Analytics の `originalUrl` 「 」フィールドに、短縮する URL を貼り付けて、 **[!UICONTROL 保存]**.
-
 1. SMS コンテンツにメディアを追加するには、「 MMS 」オプションを有効にします。
-
-   MMS には、 [このページ](../start/guardrails.md#sms-guardrails).
 
    >[!NOTE]
    >
@@ -128,8 +195,6 @@ ht-degree: 87%
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。**[!UICONTROL コンテンツをシミュレート]**&#x200B;を使用して、短縮 URL やパーソナライズされたコンテンツをプレビューできます。
 
-   ![](assets/sms-content-preview.png)
-
 これで、SMS メッセージをテストしてオーディエンスに送信できます。[詳細情報](send-sms.md)
 送信したら、キャンペーンまたはジャーニーレポート内で SMS の影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report.md#sms-tab)を参照してください。
 
@@ -142,5 +207,3 @@ ht-degree: 87%
 * [SMS メッセージのプレビュー、テスト、送信](send-sms.md)
 * [SMS チャネルの設定](sms-configuration.md)
 * [SMS レポート](../reports/journey-global-report.md#sms-global)
-* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
-* [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)

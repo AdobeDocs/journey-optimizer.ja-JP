@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 100%
+source-wordcount: '1068'
+ht-degree: 91%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 100%
 </tr> 
   <tr> 
    <td> ユニーククリック数<br/> </td> 
-   <td> メールのコンテンツをクリックした受信者の数。<br/> </td> 
+   <td> メールのコンテンツをクリックした受信者の数。<br> ユニーククリック数を計算する際は、過去 10 日間が考慮されます。 10 日以内に 1 回のプロファイルが複数回のクリックを登録した場合、個別クリック数としてカウントされます。 ただし、プロファイルの間隔が 10 日を超える場合、2 回のクリックは個別クリックとは見なされません。<br/> </td> 
 </tr> 
   <tr> 
    <td>ユニーククリック率<br/> </td> 
@@ -160,7 +160,7 @@ ht-degree: 100%
 </tr>
   <tr> 
    <td> ユニーク開封数<br/> </td> 
-   <td>配信を開いた受信者の数。<br/> </td> 
+   <td>配信を開いた受信者の数。<br> ユニーク開封数を計算する際には、過去 10 日間が考慮されます。 10 日以内に 1 つのプロファイルが複数の開封を登録した場合、個別開封数としてカウントされます。 ただし、2 日以上離れて開いたプロファイルは、個別開封数と見なされません。<br/> </td> 
 </tr> 
   <tr> 
    <td> 購読解除<br/> </td> 

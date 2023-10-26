@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ## 期間待機{#duration}
 
-次のアクティビティを実行するまでの待機期間を選択します。
+次のアクティビティを実行するまでの待機期間を選択します。最長期間は 29 日です。
 
 ![](assets/journey55.png)
 

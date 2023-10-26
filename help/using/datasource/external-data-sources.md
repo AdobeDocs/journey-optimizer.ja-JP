@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1484'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ API 呼び出しの例を 2 つ示します。
 * **[!UICONTROL メソッド]**：POST または GET メソッドを選択します。ここでは GET メソッドを選択します。
 * **[!UICONTROL 動的値]**：この例では、コンマで区切られた異なるパラメーター「long,lat」を入力します。パラメーター値は実行コンテキストに依存するので、ジャーニーで定義されます。[詳細情報](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 応答ペイロード]**：「**[!UICONTROL ペイロード]**」フィールド内をクリックし、呼び出しによって返されたペイロードの例を貼り付けます。この例では、天気 API の web サイトで見つかったペイロードを使用しました。フィールドタイプが正しいことを確認します。API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。現在渡されているペイロードを変更する場合は、「**[!UICONTROL 新しいペイロードを貼り付け]**」をクリックできます。
-
-  >[!NOTE]
-  >
-  >応答ペイロードの定義では、スカラー配列はサポートされていません。
 
 * **[!UICONTROL 送信済みペイロード]**：このフィールドは、この例では表示されません。このフィールドは POST メソッドを選択した場合にのみ使用できます。サードパーティシステムに送信するペイロードを貼り付けます。
 

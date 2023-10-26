@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 100%
+source-wordcount: '1116'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 各役割は、ユーザーが様々な機能にアクセスできる権限で構成されています。
 権限は次の 2 つのタイプに分けることができます。
 
-* **高レベルの権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、[!DNL Admin console] で&#x200B;**[!UICONTROL 役割]**&#x200B;に割り当てることができる様々な権限を表します。高レベル権限は、低レベル権限を含みます。
+* **高レベルの権限**：割り当て可能な様々な権限を表します **[!UICONTROL 役割]**、例： **[!DNL Publish journeys]** および **[!DNL Manage subdomains delegation]**. 高レベル権限は、低レベル権限を含みます。高レベルの権限について詳しくは、 [このページ](ootb-permissions.md).
 
 * **低レベル権限**：高レベル権限から取得される様々な権限を表します。
 

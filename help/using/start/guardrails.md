@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 85%
+source-wordcount: '1698'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,13 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * **フォーム**&#x200B;コンポーネントはサブページでは使用できません。
 * ランディングページにプリヘッダーを追加することはできません。
 * ランディングプライマリページをデザインするときに、「**独自のコード**」オプションを選択することはできません。
+
+## SMS ガードレール {#sms-guardrails}
+
+* MMS 機能は、Sinch でのみ使用できます。
+* MMS 用のメディアファイルは、サポートされている URL を通じて含めることができます。 メディアファイルは別々にアップロードしてください。
+* 現在、MMS ではメッセージのフィードバック同期を使用できません。
+* 同意の管理は、MMS の SMS チャネルレベルで動作します。
 
 ## ジャーニーガードレール {#journeys-guardrails}
 
