@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9cb0156020fbf23a21c8840403230df77fad4a7
+source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 94%
+source-wordcount: '4477'
+ht-degree: 93%
 
 ---
 
@@ -94,14 +94,14 @@ ht-degree: 94%
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-<!--**Audiences**
+**オーディエンス**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
+* CSV ファイルからジャーニーやキャンペーンにアップロードされたオーディエンスをターゲットに設定できるようになりました。
+* オーディエンスの構成を通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。
 
 >[!AVAILABILITY]
 >
->These capabilities are currently available as a private beta.-->
+>これらの機能は、現在、非公開ベータ版として使用できます。
 
 <!--
 **Spam scoring for emails**
