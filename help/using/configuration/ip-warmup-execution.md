@@ -11,10 +11,10 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 86%
+source-wordcount: '1730'
+ht-degree: 83%
 
 ---
 
@@ -61,20 +61,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. フェーズごとに、IP ウォームアッププランのこのフェーズに関連付けるキャンペーンを選択します。
 
+   >[!NOTE]
+   >
+   >別の IP ウォームアッププランで既に使用中のキャンペーンは選択できません。 ただし、同じ IP ウォームアッププランの 1 つ以上のフェーズで同じキャンペーンを使用できます。
+
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >    * 「**[!UICONTROL IP ウォームアッププランのアクティベーション]**」オプションが有効になっている<!--and live?-->キャンペーンのみを選択できます。[詳細情報](#create-ip-warmup-campaign)
+   >* 「**[!UICONTROL IP ウォームアッププランのアクティベーション]**」オプションが有効になっているキャンペーンのみを選択できます。[詳細情報](#create-ip-warmup-campaign)
    >
    >* 現在の IP ウォームアッププランで選択したものと同じサーフェスを使用するキャンペーンを選択する必要があります。
-   >
-   >* 別の IP ウォームアッププランで既に使用中のキャンペーンは選択できません。
-
 
 1. 「**[!UICONTROL プロファイルの除外]**」セクションでは、そのフェーズの前の実行からのプロファイルが常に除外されることを確認できます。例えば、実行 #1 で、ターゲットとなる最初の 4,800 人のユーザーがプロファイルに含まれていた場合、システムは自動的に、同じプロファイルが実行 #2 でメールを受信しないようにします。
 
-1. 「**[!UICONTROL 除外されたキャンペーンオーディエンス]**」セクションで、現在のフェーズから除外する他の<!--executed/live?-->キャンペーンのオーディエンスを選択します。
+1. 次から： **[!UICONTROL 除外されたキャンペーンオーディエンス]** セクションで、他のキャンペーンオーディエンスを選択します。 <!--executed/live?-->現在のフェーズから除外するキャンペーン。
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -155,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >を適用しない場合は、 **[!UICONTROL 最後のエンゲージメント]** パラメータを現在の実行に設定し、0 に設定します。
+   >実行にエンゲージメント期間を適用しない場合は、「 **[!UICONTROL 最後のエンゲージメント]** フィールドに入力します。
 
 1. オーディエンスが実行の評価後に、適格なプロファイルがターゲットのプロファイルよりも小さい場合に実行をキャンセルするには、「**[!UICONTROL エラーが発生した場合に一時停止]**」オプションを選択します。
 
