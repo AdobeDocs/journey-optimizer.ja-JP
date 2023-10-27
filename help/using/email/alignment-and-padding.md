@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 垂直方向の位置揃え, 電子メールエディター, パディング
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
 ht-degree: 100%
 
