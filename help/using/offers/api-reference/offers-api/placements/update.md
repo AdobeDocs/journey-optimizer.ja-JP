@@ -9,7 +9,7 @@ exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 **応答**
 
-正常な応答は、一意の配置を含む、配置の更新された詳細を返します `id`.
+正常な応答の場合は、一意のプレースメント`id`など、プレースメントの最新の詳細が返されます。
 
 ```json
 {

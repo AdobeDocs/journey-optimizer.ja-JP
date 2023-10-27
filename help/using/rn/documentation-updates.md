@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
 source-wordcount: '4010'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 93%
 ## 2023年10月 {#oct-2023}
 
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 10 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
-* 次のような主な機能を説明するGIFを追加しました。 [コンテンツテンプレート](../content-management/content-templates.md), [フラグメント](../content-management/fragments.md), [計算済み属性](../audience/computed-attributes.md), [ダイレクトメール](../direct-mail/get-started-direct-mail.md), [タグ](../start/search-filter-categorize.md#tags), [決定管理の最適化モデル](../offers/ranking/personalized-optimization-model.md), [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)、および [コンテンツ実験](../campaigns/content-experiment.md).
-* スキーマの作成プロセスが更新され、Adobe Experience Platformの変更に伴うユーザーインターフェイスの最新の更新が反映されました。 [詳細情報](../audience/creating-test-profiles.md)
-* 決定管理ガードレールが、ガードレールと制限ページに追加されました。 [詳細情報](../start/guardrails.md#decision-management)
+* 主な機能（[コンテンツテンプレート](../content-management/content-templates.md)、[フラグメント](../content-management/fragments.md)、[計算済み属性](../audience/computed-attributes.md)、[ダイレクトメール](../direct-mail/get-started-direct-mail.md)、[タグ](../start/search-filter-categorize.md#tags)、[意思決定管理の最適化モデル](../offers/ranking/personalized-optimization-model.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)、および[コンテンツ実験](../campaigns/content-experiment.md)など）を説明する GIF を追加しました。。
+* スキーマの作成プロセスを更新し、Adobe Experience Platform 変更に伴うユーザーインターフェイスの最新の更新を反映しました。[詳細情報](../audience/creating-test-profiles.md)
+* 意思決定管理ガードレールが、ガードレールと制限のページに追加されました。[詳細情報](../start/guardrails.md#decision-management)
 * ヘッダーパラメーターの節が更新され、不在通知とチャレンジ応答の処理方法 ( **[!UICONTROL エラーメール]**) をクリックします。 [詳細情報](../email/email-settings.md#email-header)
 * コンテンツのプレビューおよびテスト方法に関する新しい節が作成されました。 [詳細情報](../content-management/preview-test.md)
 * 単一ページアプリケーションの実装ページは、 Experience Platform Web SDK のドキュメントにAdobeされました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
@@ -48,7 +48,7 @@ ht-degree: 93%
 * アクセス制御に関するドキュメントへのリンクが更新されました。[詳細情報](../administration/permissions.md)
 * アプリ内チャネルの前提条件が更新され、Adobe Experience Platform のデータ収集の詳細が追加されました。[詳細情報](../in-app/inapp-configuration.md)
 * ランキング式の例で示されている式の一部が、検証エラーを回避するために更新されました。[詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 「判定範囲の定義」セクションに警告が追加され、AI モデルが評価条件グループで使用される場合、そのグループ内のすべての評価条件が同じ特定の AI モデルを持つ AI ランキングメソッドを使用する必要があることを指定できるようになりました。 また、AI モデルを使用できる評価基準グループは 1 つだけです。 [詳細情報](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 「判定範囲の定義」セクションに警告が追加され、AI モデルが評価条件グループで使用される場合、そのグループ内のすべての評価条件が同じ特定の AI モデルを持つ AI ランキングメソッドを使用する必要があることを指定できるようになりました。 また、AI モデルを使用できる評価基準グループは 1 つだけです。[詳細情報](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023年8月 {#august-2023}
 

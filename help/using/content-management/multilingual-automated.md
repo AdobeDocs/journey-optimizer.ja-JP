@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 多言語コンテンツの概要
-description: Journey Optimizerの多言語コンテンツの詳細
+title: 多言語コンテンツの基本を学ぶ
+description: Journey Optimizer での多言語コンテンツについて学ぶ
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -13,17 +13,17 @@ hidefromtoc: true
 source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 4%
+ht-degree: 39%
 
 ---
 
-# 自動翻訳を使用した多言語コンテンツの作成 {#multilingual-automated}
+# 多言語コンテンツの作成 自動翻訳を使用 {#multilingual-automated}
 
 >[!BEGINSHADEBOX]
 
 **目次**
 
-* [多言語コンテンツの概要](multilingual-gs.md)
+* [多言語コンテンツの基本を学ぶ](multilingual-gs.md)
 * [手動翻訳を使用した多言語コンテンツの作成](multilingual-manual.md)
 * **[自動翻訳を使用した多言語コンテンツの作成](multilingual-automated.md)**
 * [多言語キャンペーンレポート](multilingual-report.md)
@@ -40,39 +40,39 @@ ht-degree: 4%
 
 1. [言語設定の作成](#create-language-settings).
 
-1. [多言語キャンペーンの作成](#create-a-multilingual-campaign).
+1. [多言語キャンペーンを作成](#create-a-multilingual-campaign).
 
 1. [翻訳タスクをレビュー（オプション）](#review-translation-project).
 
-## ロケールを作成 {#create-locale}
+## ロケールの作成 {#create-locale}
 
-言語設定を構成する際に、 [言語設定の作成](#language-settings) セクションでは、多言語コンテンツで特定のロケールが使用できない場合、を使用して必要な数の新しいロケールを柔軟に作成できます。 **[!UICONTROL 翻訳]** メニュー。
+[言語設定の作成](#language-settings)の節で説明しているように、言語設定を行う際に、多言語コンテンツに特定のロケールが使用できない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューを使用して必要に応じて新しいロケールを柔軟に作成できます。
 
-1. 次から： **[!UICONTROL 管理]** メニュー、アクセス **[!UICONTROL チャネル]**.
+1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**&#x200B;にアクセスします。
 
-   翻訳メニューを使用すると、アクティベートされたロケールのリストにアクセスできます。
+   翻訳メニューを使用すると、アクティブ化されたロケールのリストにアクセスできます。
 
-1. 次から： **[!UICONTROL ロケール辞書]** タブ、クリック **[!UICONTROL ロケールを追加]**.
+1. 「**[!UICONTROL ロケール辞書]**」タブから、「**[!UICONTROL ロケールを追加]**」をクリックします。
 
    ![](assets/locale_1.png)
 
-1. ロケールコードを **[!UICONTROL 言語]** リストおよび関連する **[!UICONTROL 地域]**.
+1. **[!UICONTROL 言語]**&#x200B;リストと関連する&#x200B;**[!UICONTROL 地域]**&#x200B;からロケールコードを選択します。
 
-1. クリック **[!UICONTROL 保存]** をクリックしてロケールを作成します。
+1. 「**[!UICONTROL 保存]**」をクリックしてロケールを作成します。
 
    ![](assets/locale_2.png)
 
-## 翻訳プロジェクトの作成 {#translation-project}
+## 翻訳プロジェクトを作成 {#translation-project}
 
 Target ロケールを指定し、コンテンツの特定の言語または地域を示して、翻訳プロジェクトを開始します。 その後、翻訳プロバイダーを選択できます。
 
-1. 次から： **[!UICONTROL 翻訳プロジェクト]** 下のメニュー **[!UICONTROL コンテンツ管理]**&#x200B;をクリックし、 **[!UICONTROL プロジェクトを作成]**.
+1. **[!UICONTROL コンテンツ管理]**&#x200B;の&#x200B;**[!UICONTROL 翻訳プロジェクト]**&#x200B;メニューから、「**[!UICONTROL プロジェクトを作成]**」をクリックします。
 
    ![](assets/translation_project_1.png)
 
-1. Type-in a **[!UICONTROL 名前]** および **[!UICONTROL 説明]**.
+1. **[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
-1. を選択します。 **[!UICONTROL ソースのロケール]**.
+1. 「**[!UICONTROL ソースロケール]**」を選択します。
 
    ![](assets/translation_project_2.png)
 
@@ -81,47 +81,47 @@ Target ロケールを指定し、コンテンツの特定の言語または地�
    * **[!UICONTROL 承認済みの翻訳を自動的に公開]**：翻訳が承認されると、手動の介入なしで、翻訳が自動的にキャンペーンに統合されます。
    * **[!UICONTROL レビューワークフローを有効にする]**：人間翻訳のロケールにのみ適用できます。 これにより、内部のレビュー担当者は、翻訳されたコンテンツを効率的に評価し、承認または却下できます。 [詳細情報](#review-translation-project)
 
-1. クリック **[!UICONTROL ロケールを追加]** をクリックしてメニューにアクセスし、翻訳プロジェクトの言語を定義します。
+1. 「**[!UICONTROL ロケールを追加]**」をクリックしてメニューにアクセスし、翻訳プロジェクトの言語を定義します。
 
-   次の場合、 **[!UICONTROL ロケール]** がない場合は、事前に **[!UICONTROL 翻訳]** メニューまたは API を使用します。 参照： [新しいロケールを作成](#create-locale).
+   **[!UICONTROL ロケール]**&#x200B;が見つからない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューから、または API を使用して、事前に手動で作成できます。[新しいロケールの作成](#create-locale)を参照してください。
 
    ![](assets/translation_project_3.png)
 
-1. リストからを選択します。 **[!UICONTROL ターゲットのロケール]** を選択し、 **[!UICONTROL 翻訳プロバイダー]** 各ロケールでを使用します。
+1. リストから「**[!UICONTROL ターゲットロケール]**」を選択し、各ロケールで使用する&#x200B;**[!UICONTROL 翻訳プロバイダー]**&#x200B;を選択します。
 
-1. クリック **[!UICONTROL ロケールを追加]** Target ロケールと正しい翻訳プロバイダーのリンクを終了したとき。 次に、「**[!UICONTROL 保存]**」をクリックします。
+1. ターゲットロケールと正しい翻訳プロバイダーのリンク設定が完了したら、「**[!UICONTROL ロケールを追加]**」をクリックします。次に、「**[!UICONTROL 保存]**」をクリックします。
 
    プロバイダが対象ロケールに対して灰色表示になっている場合は、そのプロバイダがその特定のロケールをサポートしていないことを示します。
 
    ![](assets/translation_project_4.png)
 
-1. クリック **[!UICONTROL 保存]** 翻訳プロジェクトが設定されたとき。
+1. 翻訳プロジェクトを設定したら、「**[!UICONTROL 保存]**」をクリックします。
 
 これで、翻訳プロジェクトが作成され、多言語キャンペーンで使用できます。
 
 ## 言語設定の作成 {#language-settings}
 
-この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。 また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます。
+この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます。
 
-1. 次から： **[!UICONTROL 管理]** メニュー、アクセス **[!UICONTROL チャネル]**.
+1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**&#x200B;にアクセスします。
 
-1. Adobe Analytics の **[!UICONTROL 言語設定]** メニュー、クリック **[!UICONTROL 言語設定の作成]**.
+1. **[!UICONTROL 言語設定]**&#x200B;メニューで、「**[!UICONTROL 言語設定を作成]**」をクリックします。
 
    ![](assets/language_settings_1.png)
 
-1. 名前を入力 **[!UICONTROL 言語設定]**.
+1. **[!UICONTROL 言語設定]**&#x200B;の名前を入力します。
 
-1. を選択します。 **[!UICONTROL 翻訳プロジェクト]** オプション。
+1. 「**[!UICONTROL 翻訳プロジェクト]**」オプションを選択します。
 
-1. 次から： **[!UICONTROL 翻訳プロジェクト]** 「 」フィールドで、「 **[!UICONTROL 編集]** を選択し、以前に作成した **[!UICONTROL 翻訳プロジェクト]**.
+1. 「**[!UICONTROL 翻訳プロジェクト]**」フィールドから、「**[!UICONTROL 編集]**」をクリックし、以前に作成した&#x200B;**[!UICONTROL 翻訳プロジェクト]**&#x200B;を選択します。
 
    以前に設定したロケールが自動的に読み込まれます。
 
    ![](assets/language_settings_2.png)
 
-1. 次から： **[!UICONTROL 送信環境設定]** メニューで、検索する属性を選択して、プロファイル言語に関する情報を見つけます。
+1. **[!UICONTROL 送信環境設定]**&#x200B;メニューから、プロファイル言語に関する情報を見つけるために検索する属性を選択します。
 
-1. クリック **[!UICONTROL 編集]** 次に **[!UICONTROL ロケール]** さらにパーソナライズし、 **[!UICONTROL プロファイル環境設定]**.
+1. **[!UICONTROL ロケール]**&#x200B;の横にある「**[!UICONTROL 編集]**」をクリックしてさらにパーソナライズし、**[!UICONTROL プロファイル環境設定]**&#x200B;を追加します。
 
    ![](assets/language_settings_3.png)
 
@@ -129,7 +129,7 @@ Target ロケールを指定し、コンテンツの特定の言語または地�
 
    ![](assets/language_settings_4.png)
 
-1. クリック **[!UICONTROL 送信]** をクリックして、 **[!UICONTROL 言語設定]**.
+1. 「**[!UICONTROL 送信]**」をクリックして、**[!UICONTROL 言語設定]**&#x200B;を作成します。
 
 <!--
 1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
@@ -139,13 +139,13 @@ Target ロケールを指定し、コンテンツの特定の言語または地�
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## 多言語キャンペーンの作成 {#create-multilingual-campaign}
+## 多言語キャンペーンを作成 {#create-multilingual-campaign}
 
 翻訳プロジェクトと言語の設定が完了したら、キャンペーンを作成し、様々なロケール用にコンテンツをカスタマイズする準備が整いました。
 
 1. まず、要件に応じて、電子メール、SMS、またはプッシュ通知キャンペーンを作成し、設定します。 [詳細情報](../campaigns/create-campaign.md)
 
-1. プライマリコンテンツを作成したら、「 **[!UICONTROL 保存]** キャンペーン設定画面に戻ります。
+1. プライマリコンテンツを作成したら、「**[!UICONTROL 保存]**」をクリックし、キャンペーン設定画面に戻ります。
 
 1. クリック **[!UICONTROL 言語を追加]**.  [詳細情報](#create-language-settings)
 
@@ -183,7 +183,7 @@ Target ロケールを指定し、コンテンツの特定の言語または地�
 
    ![](assets/translation_review_9.png)
 
-1. クリック **[!UICONTROL 有効化するレビュー]** ：キャンペーンの概要を表示します。
+1. 「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンの概要を表示します。
 
    概要では、必要に応じてキャンペーンを変更し、パラメーターが正しくないか、または見つからないかを確認できます。
 
@@ -193,7 +193,7 @@ Target ロケールを指定し、コンテンツの特定の言語または地�
 
 1. キャンペーンが正しく設定されていることを確認してから、「**[!UICONTROL アクティブ化]**」をクリックします。
 
-これで、キャンペーンがアクティブ化されました。キャンペーンに設定されたメッセージは、即座に送信されるか、指定した日付に送信されます。 キャンペーンがライブになると、すぐに変更できなくなります。 コンテンツを再利用するには、キャンペーンを複製します。
+これで、キャンペーンがアクティブ化されました。キャンペーンで設定されたメッセージは、すぐに送信されるか、指定日に送信されます。キャンペーンがライブになるとすぐ、変更できなくなります。コンテンツを再利用するには、キャンペーンを複製します。
 
 送信後は、キャンペーンレポート内でキャンペーンの影響を測定できます。
 

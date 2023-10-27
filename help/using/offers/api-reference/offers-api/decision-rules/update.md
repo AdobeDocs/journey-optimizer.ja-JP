@@ -9,7 +9,7 @@ exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 **応答**
 
-正常な応答は、決定ルールの更新された詳細（一意の決定ルールを含む）を返します `id`.
+正常な応答の場合は、一意の決定ルール `id` など、決定ルールの最新の詳細が返されます。
 
 ```json
 {

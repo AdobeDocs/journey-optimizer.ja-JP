@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ビジュアルフラグメントを使用
-description: Journey Optimizerのキャンペーンとジャーニーで E メールを作成する際に、ビジュアルフラグメントを使用する方法を説明します。
+title: ビジュアルフラグメントの使用
+description: Journey Optimizer のキャンペーンやジャーニーでメールを作成する際に、ビジュアルフラグメントを使用する方法を説明します
 feature: Email Design, Fragments
 topic: Content Management
 role: User
@@ -11,21 +11,21 @@ exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# E メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
+# メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
 
-ビジュアルフラグメントは、 [電子メール](get-started-email-design.md) ジャーニーやキャンペーン内、または [コンテンツテンプレート](../content-management/content-templates.md).
+ビジュアルフラグメントは、ジャーニーまたはキャンペーン内の[メール](get-started-email-design.md)や、[コンテンツテンプレート](../content-management/content-templates.md)で使用できます。
 
 >[!NOTE]
 >
->でフラグメントを作成および管理する方法について説明します。 [この節](../content-management/fragments.md).
+>フラグメントを作成および管理する方法については、[この節](../content-management/fragments.md)を参照してください。
 
 ➡️ [フラグメントの管理、作成、使用方法については、このビデオをご覧ください](../content-management/fragments.md#video-fragments)
 
-## フラグメントを使用 {#use-fragment}
+## フラグメントの使用 {#use-fragment}
 
 1. [E メールデザイナー](get-started-email-design.md)を使用して、メールまたはテンプレートのコンテンツを開きます。
 
@@ -33,7 +33,7 @@ ht-degree: 72%
 
    ![](assets/fragments-in-designer.png)
 
-1. 現在のサンドボックスで作成されたすべてのビジュアルフラグメントのリストが表示されます。 次のことができます。
+1. 現在のサンドボックスで作成されたすべてのビジュアルフラグメントのリストが表示されます。次のことができます。
 
    * ラベルの入力を開始して、特定のフラグメントを検索します。
    * フラグメントを昇順または降順に並べ替えます。
@@ -41,7 +41,7 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >フラグメントは作成日順で並べ替えられます。最近追加されたビジュアルフラグメントがリストの最初に表示されます。
+   >フラグメントは作成日で並べ替えられます。最近追加したビジュアルフラグメントがリストの最初に表示されます。
 
 1. リストを検索して更新できます。
 
@@ -73,7 +73,7 @@ ht-degree: 72%
 
 ## 継承を解除 {#break-inheritance}
 
-ビジュアルフラグメントを編集すると、変更内容が同期されます。 これらは、そのフラグメントを含むすべての&#x200B;**[!UICONTROL ドラフト]**&#x200B;ジャーニー／キャンペーンおよびコンテンツテンプレートに自動的に生成されます。
+ビジュアルフラグメントを編集すると、変更内容が同期されます。これらは、そのフラグメントを含むすべての&#x200B;**[!UICONTROL ドラフト]**&#x200B;ジャーニー／キャンペーンおよびコンテンツテンプレートに自動的に生成されます。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 72%
 
 メールまたはコンテンツテンプレートに追加すると、フラグメントはデフォルトで同期されます。
 
-ただし、元のフラグメントからの継承を解除することはできます。この場合、フラグメントのコンテンツは現在のデザインにコピーされ、変更は同期されなくなります。
+ただし、元のフラグメントからの継承を解除することはできます。フラグメントのコンテンツは現在のデザインにコピーされ、変更内容は同期されなくなります。
 
 継承を解除するには、次の手順に従います。
 

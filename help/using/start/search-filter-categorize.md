@@ -11,7 +11,7 @@ exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer インターフェイスのどこからでも、上部�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_tags"
 >title="タグ"
->abstract="このフィールドを使用すると、キャンペーンにAdobe Experience Platform統合タグを割り当てることができます。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。"
+>abstract="このフィールドを使用すると、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができます。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。"
 
 Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ja)を使用すると、Journey Optimizer のジャーニーやキャンペーンを簡単に分類し、リストからの検索を改善できます。
 

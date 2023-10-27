@@ -9,13 +9,13 @@ exl-id: 600aea10-3675-47b7-8f4b-f378308afd69
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 決定ルールのリスト {#list-decision-rules}
 
-決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。コンテナ内の既存の決定ルールのリストを表示するには、 [!DNL Offer Library] API.
+決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内の既存の決定ルールのリストを表示できます。
 
 **API 形式**
 

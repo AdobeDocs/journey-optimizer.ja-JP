@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->現在、 **電子メール** コンテンツテンプレートがサポートされています。
+>現在、**メール**&#x200B;コンテンツテンプレートのみがサポートされています。
 
 例えば、会社内のユーザーはコンテンツのみを担当しているので、キャンペーンやジャーニーにはアクセスできません。ただし、このユーザーがメールテンプレートを作成し、組織のマーケターはすべてのメールの出発点としてそのメールテンプレートを使用できます。
 
-また、API を使用して、コンテンツテンプレートを作成および管理することもできます。詳しくは、 [Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+また、API を使用して、コンテンツテンプレートを作成および管理することもできます。詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}を参照してください。
 
 ➡️ [テンプレートの作成および使用方法については、このビデオをご覧ください](#video-templates)
 

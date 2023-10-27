@@ -12,7 +12,7 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="カスタムアクション"
->abstract="Adobe Campaign Standardがある場合は、統合を使用できます。 Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。"
+>abstract="統合は、Adobe Campaign Standard のユーザーが使用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。"
 
 Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**&#x200B;および **[!UICONTROL SMS]** の組み込みアクションアクティビティを使用できます。
 

@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="メールのデザイン"
->abstract="用途 **Adobe Journey Optimizer** をクリックして、顧客に電子メールメッセージを送信します。 E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューを行うことができます。"
+>abstract="**Adobe Journey Optimizer** を使用して顧客にメールメッセージを送信します。E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューを行うことができます。"
 
 [!DNL Journey Optimizer] を使用して、メールメッセージを顧客に送信します。E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューを行うことができます。
 

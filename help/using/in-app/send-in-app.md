@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 1. **[!UICONTROL デバイスに接続]**&#x200B;ウィンドウから、「**[!UICONTROL 開始]**」をクリックします。
 
-1. 次を入力します。 **[!UICONTROL ベース URL]** 」と入力します。 **[!UICONTROL 次へ]**.
+1. アプリケーションの&#x200B;**[!UICONTROL ベース URL]** を入力し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/in_app_create_7.png)
 

@@ -9,7 +9,7 @@ exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,10 @@ ht-degree: 84%
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-|パラメーター |説明 |例 | | `{ENDPOINT_PATH}` |リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` |タグが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` |更新するタグのインスタンス ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| パラメーター | 説明 |例 |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。| `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | タグが配置されているコンテナ。| `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 更新するタグのインスタンス ID | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **リクエスト**
 

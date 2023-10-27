@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **応答**
 
-正常な応答は、新しく作成されたコレクションに関する情報 ( コレクションの `id`. 以下を使用すると、 `id` 後の手順で、コレクションを更新または削除するか、後のチュートリアルで、決定を作成します。
+応答が成功すると、`id` を含む新規作成されたコレクションに関する情報が返されます。後の `id` 手順で、コレクションを更新または削除するか、後のチュートリアルで、決定を作成することができます。
 
 ```json
 {

@@ -10,7 +10,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1609'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
 
 
-## 手順 1：Adobe Experience Platform データ収集でのアプリのプッシュ認証情報の追加 {#push-credentials-launch}
+## 手順 1：Adobe Experience Platform データ収集で、アプリに「資格情報をプッシュ」を追加 {#push-credentials-launch}
 
-正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ認証情報を [!DNL Adobe Experience Platform Data Collection] に追加する必要があります。
+正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ資格情報を [!DNL Adobe Experience Platform Data Collection] に追加する必要があります。
 
 モバイルアプリのプッシュ資格情報の登録は、自分の代わりに Adobe がプッシュ通知を送信することを承認するために必要です。以下に説明する手順を参照してください。
 
@@ -148,7 +148,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
       1. 「**[!UICONTROL アプリ ID（iOS バンドル ID）]**」フィールドにモバイルアプリの&#x200B;**バンドル ID** を入力します。アプリのバンドル ID は、**XCode** のメインターゲットの「**一般**」タブにあります。
 
-      1. 「**[!UICONTROL プッシュ認証情報]**」ボタンをオンにして、認証情報を追加します。
+      1. 「**[!UICONTROL 資格情報をプッシュ]**」ボタンをオンにして、資格情報を追加します。
 
       1. .p8 Apple Push Notification Authentication Key ファイルをドラッグ＆ドロップします。このキーは、**証明書**、**識別子**、**プロファイル**&#x200B;ページから取得できます。
 
@@ -162,9 +162,9 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
       1. **[!UICONTROL アプリ ID（Android パッケージ名）]**&#x200B;を指定します。通常、パッケージ名は`build.gradle`ファイル内のアプリ ID です。
 
-      1. 「**[!UICONTROL プッシュ認証情報]**」ボタンをオンにして、認証情報を追加します。
+      1. 「**[!UICONTROL 資格情報をプッシュ]**」ボタンをオンにして、資格情報を追加します。
 
-      1. FCM プッシュ認証情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください
+      1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください
 
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
@@ -270,18 +270,18 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 「データ管理」メニュー セクションで、「**[!UICONTROL スキーマ]**」をクリックします。
    ![](assets/test_push_1.png)
-1. クリック **[!UICONTROL スキーマを作成]**、右上で、「 」を選択します。 **[!UICONTROL エクスペリエンスイベント]** をクリックします。 **次へ**.
+1. 右上の「**[!UICONTROL スキーマを作成]**」をクリックして、「**[!UICONTROL エクスペリエンスイベント]**」を選択した後、「**次へ**」をクリックします。
    ![](assets/test_push_2.png)
-1. スキーマの名前と説明を入力し、「 **完了**.
+1. スキーマの名前と説明を入力して、「**終了**」をクリックします。
    ![](assets/test_push_3.png)
-1. Adobe Analytics の **フィールドグループ** セクションの左側で、「 **追加** を選択し、 **[!UICONTROL 新しいフィールドグループを作成]**.
+1. 左側の「**フィールドグループ**」セクションで、「**追加**」をクリックして、「**[!UICONTROL 新しいフィールドグループを作成]**」を選択します。
 
 1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループの作成方法について詳しくは、[XDM システムドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}を参照してください。
 
 
    ![](assets/test_push_4.png)
 
-1. 左側で、スキーマを選択します。右側のウィンドウで、次のスキーマを有効にします。 **[!UICONTROL プロファイル]**.
+1. 左側で、スキーマを選択します。右側のパネルで、「**[!UICONTROL プロファイル]**」のスキーマを有効にします。
 
    ![](assets/test_push_4b.png)
 

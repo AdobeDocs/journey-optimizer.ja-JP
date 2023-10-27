@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 89%
 
 ## オーディエンスを定義 {#audience}
 
-次をクリック： **[!UICONTROL オーディエンスを選択]** ボタンをクリックして、使用可能なAdobe Experience Platformオーディエンスのリストを表示します。 [詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
+「**[!UICONTROL オーディエンスを選択]**」ボタンを使用して、使用可能な Adobe Experience Platform オーディエンスのリストを表示します。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="キャンペーンスケジュール"
->abstract="デフォルトでは、キャンペーンは手動でのアクティベーション時に開始され、メッセージが 1 回送信された直後に終了します。 ただし、柔軟にメッセージを送信する日時を設定できます。 さらに、繰り返しキャンペーンまたは API トリガーキャンペーンの終了日を指定できます。 「アクショントリガー」では、好みに応じてメッセージの送信頻度を設定することもできます。"
+>abstract="デフォルトでは、キャンペーンは手動でアクティブ化すると開始され、メッセージが 1 回送信されるとすぐに終了します。ただし、メッセージを送信する特定の日時を柔軟に設定できます。さらに、繰り返しキャンペーンまたは API トリガーキャンペーンの終了日を指定できます。アクショントリガーでは、環境設定に応じてメッセージ送信頻度を設定することもできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="キャンペーンオーディエンスを選択"
->abstract="このリストには、使用可能なすべてのAdobe Experience Platformオーディエンスが表示されます。 キャンペーンのターゲットにするオーディエンスを選択します。 キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。 [詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。"
+>abstract="このリストには、使用可能なすべての Adobe Experience Platformオーディエンスが表示されます。キャンペーンのターゲットにするオーディエンスを選択します。キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。"
 
 [!DNL Journey Optimizer] では、**[!UICONTROL オーディエンス]**&#x200B;メニューからリアルタイム顧客プロファイルデータを直接使用して Adobe Experience Platform オーディエンスを作成および活用し、それらをジャーニーやキャンペーンに使用することができます。
 

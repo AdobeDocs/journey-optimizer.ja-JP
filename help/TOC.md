@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 94%
          + [メールテンプレートを使用](using/email/use-email-templates.md)
       + コンテンツのデザイン {#add-content}
          + [コンテンツコンポーネントの使用](using/email/content-components.md)
-         + [ビジュアルフラグメントの活用](using/email/use-visual-fragments.md)
+         + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
          + [リンクの追加とメッセージの追跡](using/email/message-tracking.md)
          + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
          + [テキストバージョンの生成](using/email/text-version-email.md)
@@ -230,7 +230,7 @@ ht-degree: 94%
    + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
 + Web チャネル {#web}
    + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
-   + Web チャネルの設定 {#configure-web-channel}
+   + Web チャネルを設定 {#configure-web-channel}
       + [Web チャネルの前提条件](using/web/web-prerequisites.md)
       + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
    + [Web エクスペリエンスの作成](using/web/create-web.md)
@@ -262,8 +262,8 @@ ht-degree: 94%
       + [コンテンツアシスタント入門](using/content-management/gs-generative.md)
       + [コンテンツの生成](using/content-management/generative-content.md)
       + [画像生成](using/content-management/generative-image.md)
-   + 多言語コンテンツの使用{#content-multilingual}
-      + [多言語コンテンツの概要](using/content-management/multilingual-gs.md)
+   + 多言語コンテンツを操作 {#content-multilingual}
+      + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
       + [多言語キャンペーンレポート](using/content-management/multilingual-report.md)
@@ -449,7 +449,7 @@ ht-degree: 94%
             + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
             + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
             + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
-         + 従来の API {#legacy-api}
+         + レガシー API {#legacy-api}
             + [レガシー API について](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
             + プレースメント {#placements}
                + [プレースメントのリスト](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)

@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **応答**
 
-正常な応答は、新しく作成された決定ルールに関する情報を返します。 `id`. 後の手順で `id` を使用して、決定ルールを更新または削除するか、後のチュートリアルで使用して、決定、決定ルールおよびフォールバックオファーを作成します。
+応答が成功すると、新規作成された決定ルール`id`に関する情報が返されます。後の手順で `id` を使用して、決定ルールを更新または削除するか、後のチュートリアルで使用して、決定、決定ルールおよびフォールバックオファーを作成します。
 
 ```json
 {

@@ -12,7 +12,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->項目および選択戦略レベルの決定ルールに加えて、キャンペーンレベルで意図したオーディエンスを定義することもできます。 [詳細情報](../campaigns/create-campaign.md#audience)
+>項目および選択戦略レベルの決定ルールに加えて、キャンペーンレベルで意図したオーディエンスを定義することもできます。[詳細情報](../campaigns/create-campaign.md#audience)
 
 
 決定ルールのリストには、**[!UICONTROL 設定]**／**[!UICONTROL 決定ルール]**&#x200B;メニューからアクセスできます。

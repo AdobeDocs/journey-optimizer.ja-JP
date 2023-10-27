@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -64,9 +64,9 @@ SMS サービスを使用した場合、該当する SMS プロバイダーが�
 
       * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。[詳細情報](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}。
 
-      * **[!UICONTROL オプトインメッセージ]**：自動的に **[!UICONTROL オプトインメッセージ]**.
+      * **[!UICONTROL オプトインメッセージ]**：**[!UICONTROL オプトインメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
-      * **[!UICONTROL ヘルプメッセージ]**：自動的に **ヘルプメッセージ**.
+      * **[!UICONTROL ヘルプメッセージ]**：**ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
    * **[!DNL Sinch MMS]** の場合：
 

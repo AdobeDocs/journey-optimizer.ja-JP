@@ -14,7 +14,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -63,7 +63,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >別の IP ウォームアッププランで既に使用中のキャンペーンは選択できません。 ただし、同じ IP ウォームアッププランの 1 つ以上のフェーズで同じキャンペーンを使用できます。
+   >別の IP ウォームアッププランで既に使用中のキャンペーンは選択できません。ただし、同じ IP ウォームアッププランの 1 つ以上のフェーズで同じキャンペーンを使用できます。
 
    ![](assets/ip-warmup-plan-select-campaign.png)
 
@@ -140,11 +140,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. オプションとして、IP ウォームアップキャンペーンが実行可能な期間を定義できます。この期間は、 [セグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} ジョブ。 これを行うには、左上のプラン名の横にある「プロパティ」アイコンをクリックし、**[!UICONTROL 実行時間を再試行]**&#x200B;ドロップダウンリストを使用して、最大 240 分（4 時間）の期間を選択します。
+1. オプションで、[セグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#how-segmentation-works){target="_blank"}ジョブに遅延が生じた場合に、IP ウォームアップキャンペーンを実行できる時間枠を定義できます。これを行うには、左上のプラン名の横にある「プロパティ」アイコンをクリックし、**[!UICONTROL 再試行の実行時間]**&#x200B;ドロップダウンリストを使用して、最大 240 分（4 時間）の期間を選択します。
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   例えば、指定した日の午前 9 時に送信時間を設定し、再試行実行時間として 120 分を選択した場合、セグメント化ジョブを実行する機会が 2 時間（午前 9 時～午前 11 時）あるとします。
+   例えば、特定の日の午前 9 時に送信時間を設定し、再試行の実行時間として 120 分を選択すると、セグメント化ジョブを実行する機会が 2 時間（午前 9 時～午前 11 時）になります。
 
    >[!NOTE]
    >
@@ -174,7 +174,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >キャンペーンの実行が開始されると、「**[!UICONTROL 停止]**」ボタンが使用できなくなります。
 
-1. 実行を追加するには、「 **[!UICONTROL 下に実行を追加]** 「その他のアクション」アイコンから。
+1. 実行を追加するには、「その他のアクション」アイコンから「**[!UICONTROL 以下に実行を追加]**」を選択します。
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -182,7 +182,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 実行をアクティブ化するには、「**[!UICONTROL アクティブ化]**」ボタンを選択します。
 
-次の期間を考慮するために十分な時間をスケジュールしていることを確認します。 [セグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} ジョブを実行します。
+[セグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#how-segmentation-works){target="_blank"}ジョブを実行するのに十分な時間をスケジュールしていることを確認してください。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -194,13 +194,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * フェーズの最初の実行をアクティブ化する場合：
 
-   * A [セグメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"} 除外されたキャンペーンオーディエンス用にが作成されます（存在する場合）。
+   * 除外されたキャンペーンオーディエンス（存在する場合）に対して[セグメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"}が作成されます。
    * 除外されたドメイングループ（存在する場合）に対して別のセグメントが作成されます。
 
 * 任意の実行をアクティブ化する場合：
 
    * 最後のエンゲージメントフィルター用に別のセグメントが作成されます。
-   * An [オーディエンスの構成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"} は、キャンペーンの送信先となるオーディエンスに対応して作成されます。
+   * [オーディエンスの構成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}は、キャンペーンの送信先となるオーディエンスに対応して作成されます。
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -214,7 +214,7 @@ IP ウォームアッププランが期待どおりに実行されない場合�
 
 ### フェーズの分割 {#split-phase}
 
-特定の実行から開始する新しいフェーズを追加する場合は、 **[!UICONTROL 新しいフェーズに分割オプション]** 「その他のアクション」アイコンから。
+特定の実行から開始する新規フェーズを追加する場合は、「その他のアクション」アイコンから「**[!UICONTROL 新規フェーズに分割オプション]**」を選択します。
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -264,7 +264,7 @@ IP ウォームアッププランが期待どおりに実行されない場合�
 
 * 初期の IP のウォームアッププランでは、フェーズ 2 は 9 回実行されました。
 
-* 4 回の実行が実行されました（失敗したか、完了したか、キャンセルされたかは関係ありません）<!--as long as a run has been attempted, it is an executed run-->) をクリックします。
+* 4 回の実行が実行されました（失敗したか、完了したか、キャンセルされたかは関係ありません<!--as long as a run has been attempted, it is an executed run-->）。
 
 * 新しいプランを再アップロードすると、最初の 4 回の実行を含むフェーズ 2 は読み取り専用モードになります。
 
@@ -283,5 +283,5 @@ IP ウォームアッププラン自体も、1 か所で統合レポートとし
 * **[!UICONTROL ドラフト]**：「[新しいプランを作成](ip-warmup-plan.md)」する際、またはユーザーインターフェイスから「[実行を追加](#define-runs)」する際、実行が作成されるたびに、その実行は&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスになります。
 * **[!UICONTROL ライブ]**：実行をアクティベートするたびに、**[!UICONTROL ライブ]**&#x200B;ステータスが取得されます。
 * **[!UICONTROL 完了]**：この実行のキャンペーンの実行が完了しました。<!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL キャンセル]**: a **[!UICONTROL ライブ]** を使用して実行がキャンセルされました **[!UICONTROL 停止]** 」ボタンをクリックするか、 **[!UICONTROL エラーのために一時停止]** 」オプションが表示され、エラーが発生しました。 [詳細情報](#define-runs)
+* **[!UICONTROL キャンセル]**：**[!UICONTROL ライブ]**&#x200B;実行が「**[!UICONTROL 停止]**」ボタンを使用してキャンセルされたか、「**[!UICONTROL エラーが発生した場合に一時停止]**」オプションを有効にしてエラーが発生しました。[詳細情報](#define-runs)
 * **[!UICONTROL 失敗]**：システムでエラーが発生したか、現在のフェーズで使用されているキャンペーンが停止されました。実行が失敗した場合は、別の実行を次の日にスケジュールできます。

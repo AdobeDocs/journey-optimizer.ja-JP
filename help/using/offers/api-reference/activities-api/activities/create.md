@@ -9,7 +9,7 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **応答**
 
-正常な応答は、新しく作成された決定に関する情報（一意の決定を含む）を返します `id`. 以下を使用すると、 `id` 後の手順で、決定を更新または削除します。
+応答が成功すると、一意の `id` を含む新規作成された決定に関する情報が返されます。後の手順で `id` を使用して、決定を更新または削除できます。
 
 ```json
 {

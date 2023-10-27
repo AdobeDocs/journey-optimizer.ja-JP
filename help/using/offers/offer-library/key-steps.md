@@ -51,14 +51,14 @@ ht-degree: 100%
 <td>
 <img src="../../assets/do-not-localize/icon-tags.svg" width="60px">
 <div>
-<a href="../offer-library/creating-tags.md">タグの作成</a>
+<a href="../offer-library/creating-tags.md">タグを作成</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-ranking.svg" width="60px">
 <div>
-<a href="../ranking/create-ranking-formulas.md">ランキング式の作成</a>
+<a href="../ranking/create-ranking-formulas.md">ランキング式を作成</a>
 </div>
 <p>
 </td>
@@ -78,7 +78,7 @@ ht-degree: 100%
 <td>
 <img src="../../assets/do-not-localize/icon-offer.svg" width="60px">
 <div>
-<a href="../offer-library/creating-personalized-offers.md">オファーの作成</a>
+<a href="../offer-library/creating-personalized-offers.md">オファーを作成</a>
 </div>
 <p>
 </td>
@@ -112,21 +112,21 @@ ht-degree: 100%
 <td>
 <img src="../../assets/do-not-localize/icon-decision.svg" width="60px">
 <div>
-<a href="../offer-activities/create-offer-activities.md">決定の作成</a>
+<a href="../offer-activities/create-offer-activities.md">決定を作成</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px">
 <div>
-<a href="../offer-activities/create-offer-activities.md#add-offers">決定の設定</a>
+<a href="../offer-activities/create-offer-activities.md#add-offers">決定を設定</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px">
 <div>
-<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">ランキングの割り当て</a>
+<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">ランキングを割り当て</a>
 </div>
 <p>
 </td>

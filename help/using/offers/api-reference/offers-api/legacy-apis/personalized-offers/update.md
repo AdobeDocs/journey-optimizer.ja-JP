@@ -9,7 +9,7 @@ exl-id: 3ef785c6-06b4-40ce-a8e5-6a9d5101a408
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ curl -X PATCH \
 
 **応答**
 
-正常な応答は、次のようなパーソナライズされたオファーの更新された詳細を返します。 `id`.
+正常な応答の場合は、`id`など、パーソナライズされたオファーの最新の詳細が返されます。
 
 ```json
 {
