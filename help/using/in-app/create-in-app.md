@@ -8,7 +8,7 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1987'
 ht-degree: 100%
 
