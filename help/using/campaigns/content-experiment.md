@@ -10,7 +10,7 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
 ht-degree: 100%
 
