@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 87%
 
 ---
 
@@ -74,7 +74,9 @@ ht-degree: 100%
 >title="オーディエンスの公開"
 >abstract="コンポジションを公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
 
-「**[!UICONTROL コンポジション]**」タブから作成したすべてのコンポジションにアクセスできます。複数のステータスがあります。
+「**[!UICONTROL コンポジション]**」タブから作成したすべてのコンポジションにアクセスできます。リストの省略記号ボタンを使用して、既存のコンポジションをいつでも複製または削除できます。
+
+コンポジションには複数のステータスを設定できます。
 
 * **[!UICONTROL ドラフト]**：コンポジションは進行中で、公開されていません。
 * **[!UICONTROL 公開済み]**：コンポジションが公開され、結果オーディエンスが保存され、使用できるようになりました。
@@ -83,4 +85,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->リストの省略記号ボタンを使用して、既存のコンポジションをいつでも複製または削除できます。
+>オーディエンスの構成は、現在、サンドボックスリセット機能と統合されていません。 サンドボックスのリセットを開始する前に、関連するオーディエンスデータが正しくクリーンアップされるように、構成を手動で削除する必要があります。 詳しくは、 Adobe Experience Platformを参照してください。 [サンドボックスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
