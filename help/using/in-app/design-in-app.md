@@ -8,7 +8,7 @@ level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 100%
 
