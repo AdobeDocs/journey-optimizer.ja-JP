@@ -10,7 +10,7 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
 -->
 
-## チャネルサーフェスの作成 {#create-channel-surface}
+## チャネルサーフェスを作成 {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
