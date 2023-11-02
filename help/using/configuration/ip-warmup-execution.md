@@ -11,7 +11,7 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 96%
@@ -190,7 +190,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >
 >各実行は、実際の送信時間の 12 時間以上前にアクティブ化する必要があります。そうしない場合、セグメント化が完了しない場合があります。
 
-実行をアクティブ化すると、複数のセグメントが自動的に作成されます。
+実行をアクティブ化すると、複数のオーディエンスが自動的に作成されます。
 
 * フェーズの最初の実行をアクティブ化する場合：
 

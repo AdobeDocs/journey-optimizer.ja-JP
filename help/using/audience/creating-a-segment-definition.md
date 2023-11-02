@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ➡️ [オーディエンスの作成方法については、このビデオをご覧ください](#video-segment)
 
-1. **[!UICONTROL オーディエンス]**&#x200B;メニューにアクセスし、「**[!UICONTROL オーディエンスを作成]**」ボタンをクリックします。
+1. 次から： **[!UICONTROL オーディエンス]** メニューで、 **[!UICONTROL オーディエンスを作成]** ボタンと選択 **[!UICONTROL ルールを作成]**.
 
    ![](assets/create-segment.png)
 
