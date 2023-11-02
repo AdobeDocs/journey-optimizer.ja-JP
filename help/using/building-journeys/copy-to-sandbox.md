@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
+source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 34%
@@ -42,7 +42,7 @@ ht-degree: 34%
 
 サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックスにまたがってオブジェクトをコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。
 
-このページでは、Journey Optimizerのコンテキストでのサンドボックスツールの使用例について説明します。 機能自体について詳しくは、 [Experience Platform文書](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+このページでは、Journey Optimizerのコンテキストでのサンドボックスツールの使用例について説明します。 機能自体について詳しくは、 [Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
