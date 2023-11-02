@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 97%
@@ -37,7 +37,7 @@ ht-degree: 97%
 
 * 現時点では、オーディエンスの使用 [CSV ファイルから読み込み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) または、 [コンポジションワークフロー](../audience/get-started-audience-orchestration.md) ジャーニーへは、プライベートベータ版として利用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
-### アクティビティの設定 {#configuring-segment-trigger-activity}
+## アクティビティの設定 {#configuring-segment-trigger-activity}
 
 「オーディエンスを読み取り」アクティビティを設定する手順は、次のとおりです。
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >1 回限りの「オーディエンスを読み取り」ジャーニーは、ジャーニーの実行から 30 日後に完了ステータスに移行します。スケジュールされた「オーディエンスを読み取り」の場合は、最後の実行から 30 日後になります。
 
-### ジャーニーのテストと公開 {#testing-publishing}
+## ジャーニーのテストと公開 {#testing-publishing}
 
 **[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを使用すると、単一プロファイルでジャーニーをテストできます。
 
