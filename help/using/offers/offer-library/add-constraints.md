@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2396'
 ht-degree: 92%
 
 ---
@@ -44,6 +44,10 @@ ht-degree: 92%
 1. ユーザーが複数のオファーの対象となる場合は、他のオファーと比較したオファーの「**[!UICONTROL 優先度]**」を定義します。オファーの優先度が高いほど、他のオファーと比較して優先順位が高くなります。
 
    ![](../assets/offer-priority.png)
+
+   >[!NOTE]
+   >
+   >オファーの優先度は、整数値にする必要があります（小数は使用できません）。
 
 1. オファーの&#x200B;**[!UICONTROL キャッピング]**&#x200B;を指定します。キャッピングはオファーが表示される回数を意味します。[詳細情報](#capping)
 

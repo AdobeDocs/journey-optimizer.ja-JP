@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 84%
+source-wordcount: '1034'
+ht-degree: 83%
 
 ---
 
@@ -76,6 +76,10 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
    1. プロファイルが複数の項目に該当する場合は、他の決定項目と比較した決定項目の「**[!UICONTROL 優先度]**」を設定します。優先度が高いと、その項目は他の項目よりも優先されます。
 
    ![](assets/item-attributes.png)
+
+   >[!NOTE]
+   >
+   >優先度は整数データ型です。 整数データ型のすべての属性には、整数値を含める必要があります（小数は含めません）。
 
 1. カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。これらは、決定項目のカタログスキーマで定義されます。[カタログの操作方法を学ぶ](catalogs.md)
 
