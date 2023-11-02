@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '1078'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 100%
 ジャーニーやキャンペーンからメッセージを送信する場合は、顧客が今後の通信を登録解除できるようにする必要があります。登録解除すると、プロファイルは、今後のマーケティングメッセージのオーディエンスから自動的に削除されます。
 
 **[!DNL Journey Optimizer]** には、メールと SMS メッセージでオプトアウトを管理する方法が用意されていますが、プッシュ通知では、受信者が自分のデバイスを介して登録解除できるので、顧客側でのアクションは不要です。例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。同様に、モバイルオペレーティングシステムから通知設定を変更することもできます。
+
+>[!NOTE]
+>
+>また、Journey Optimizer **抑制 REST API** 抑制と許可リストを使用して送信メッセージを制御する [抑制 REST API の使用方法を説明します。](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ja)
+
 
 Journey Optimizer のメールと SMS メッセージでオプトアウトを管理する方法について、以下の節で説明します。
 
@@ -93,7 +98,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[データモデリング](../offers/ranking/ai-models.md)でプロファイルデータを使用するための同意は、[!DNL Journey Optimizer] ではまだサポートされていません。
 
-## 式エディターの場合 {#opt-out-expression-editor}
+### 式エディターの場合 {#opt-out-expression-editor}
 
 [式エディター](../personalization/personalization-build-expressions.md)自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
 

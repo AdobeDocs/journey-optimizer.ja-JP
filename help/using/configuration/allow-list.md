@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '1165'
+ht-degree: 96%
 
 ---
 
@@ -22,17 +22,15 @@ ht-degree: 100%
 
 この許可リストを使用すると、個々のメールアドレスまたはドメインを指定して、これらの受信者またはドメインでのみ、特定のサンドボックスから送信するメールの受信が許可されるようにすることができます。
 
->[!NOTE]
+>[!CAUTION]
 >
->この機能は、実稼動サンドボックスと実稼動以外のサンドボックスで使用できます。
+>これはメールチャネルにのみ適用されます。実稼動用サンドボックスと非実稼動用サンドボックスで使用できます。
 
 例えば、ミスが発生する可能性がある非実稼働インスタンスでは、許可リストにより、不要なメッセージを実際の顧客アドレスに送信するリスクがなくなり、テスト目的で安全な環境が提供されます。
 
 また、許可リストがアクティブでも空の場合は、メールは送信されません。 したがって、何らかの重大な問題が発生した場合、この機能を使用して、問題が解決するまで [!DNL Journey Optimizer] からのすべての発信を停止できます。詳しくは、[許可リスト論理](#logic)を参照してください。
 
->[!CAUTION]
->
->これはメールチャネルにのみ適用されます。
+また、Journey Optimizer **抑制 REST API** 抑制と許可リストを使用して送信メッセージを制御する [抑制 REST API の使用方法を説明します。](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ja)
 
 ## 許可リストへのアクセス {#access-allowed-list}
 

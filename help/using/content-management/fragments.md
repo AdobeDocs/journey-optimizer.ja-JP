@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 98%
+source-wordcount: '1578'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 98%
 * 独自のフラグメントを作成します。ビジュアルフラグメントまたは式フラグメントを作成できます。[詳細情報](#create-fragments)
 
 * 作成したフラグメントを、必要な回数だけコンテンツで使用します。[ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください
+
+また、Journey Optimizer **コンテンツ REST API** コンテンツフラグメントを管理する。 詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}を参照してください。
 
 ## 開始する前に {#fragment-prerequisites}
 
