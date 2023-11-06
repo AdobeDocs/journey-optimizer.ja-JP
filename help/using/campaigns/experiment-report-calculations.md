@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 95%
 
 個々のバリアント `ν` の信頼性シーケンスは、アドビが使用する統計手法の中心です。その定義は、[このページ](https://doi.org/10.48550/arXiv.2103.06476)で確認できます（[Waudby-Smith et al.] から転載）。
 
-ターゲットパラメーターの見積もりに関心がある場合 `ψ` 実験のバリアントのコンバージョン率、「固定時間」信頼区間 (CI) のシーケンスと時間均一信頼シーケンス (CS) の間の二分解など、次のように要約できます。
+実験でのバリアントのコンバージョン率などのターゲットパラメーター `ψ` の推定に興味がある場合、一連の「固定時間」信頼区間（CI）と時間一様信頼性シーケンス（CS）との間の二分法は、次のように要約できます。
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
