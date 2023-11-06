@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: プッシュ通知を確認して送信する
-description: Journey Optimizerでプッシュ通知を確認して送信する方法を説明します
+title: プッシュ通知の確認と送信
+description: Journey Optimizer でプッシュ通知を確認し送信する方法を学ぶ
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# プッシュ通知を確認して送信する {#send-push}
+# プッシュ通知の確認と送信 {#send-push}
 
 ## プッシュ通知のプレビュー {#preview-push}
 
-メッセージの内容を定義したら、テストプロファイルを使用して、その内容をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+メッセージコンテンツを定義したら、テストプロファイルを使用してコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
-これをおこなうには、 **[!UICONTROL コンテンツをシミュレート]** 次に、テストプロファイルを追加します。 その後、コンテンツをプレビューするデバイスの種類を選択できます。 **[!UICONTROL iOS]** または **[!UICONTROL Android]**.
+これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加します。コンテンツをプレビューするデバイスの種類を **[!UICONTROL iOS]** または **[!UICONTROL Android]** から選択します。
 
 ![](assets/push_preview_3.png)
 
-テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、 [コンテンツ管理](../content-management/preview-test.md) 」セクションに入力します。
+テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、「[コンテンツ管理](../content-management/preview-test.md)」セクションに表示されます。
 
 ## プッシュ通知の検証 {#push-validate}
 
