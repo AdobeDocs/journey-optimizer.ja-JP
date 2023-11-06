@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS メッセージを確認し、テストします
-description: Journey Optimizerで SMS メッセージを確認して送信する方法を説明します
+title: SMS メッセージの確認およびテスト
+description: Journey Optimizer で SMS メッセージを確認および送信する方法を学ぶ
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# SMS メッセージを確認して送信する {#send-sms}
+# SMS メッセージの確認および送信 {#send-sms}
 
-## SMS のプレビュー {#preview-sms}
+## SMS をプレビュー {#preview-sms}
 
-メッセージの内容を定義したら、テストプロファイルを使用して、その内容をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+メッセージコンテンツを定義したら、テストプロファイルを使用してコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
-これをおこなうには、 **[!UICONTROL コンテンツをシミュレート]** 次に、テストプロファイルを追加し、テストプロファイルデータを使用してメッセージを確認します。
+これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加し、テストプロファイルデータを使用してメッセージを確認します。
 
 ![](assets/sms_preview_2.png)
 
-テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、 [コンテンツ管理](../content-management/preview-test.md) 」セクションに入力します。
+テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
 
 ## SMS の検証{#sms-validate}
 
