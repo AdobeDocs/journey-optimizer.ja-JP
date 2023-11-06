@@ -1,32 +1,33 @@
 ---
-title: テストプロファイルの選択
+title: テストプロファイルを選択
 description: コンテンツをプレビューおよびテストするためのテストプロファイルの選択方法を説明します。
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
-workflow-type: tm+mt
+exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
-# テストプロファイルの選択 {#select-test-profiles}
+# テストプロファイルを選択 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
->title="テストプロファイルを使用してコンテンツを確認する"
->abstract="テストプロファイルを使用して、コンテンツをプレビューおよびテストします。 パーソナライズされたフィールドを追加した場合は、テストプロファイルデータを使用して、その表示方法を確認できます。"
+>title="テストプロファイルを使用したコンテンツの確認"
+>abstract="テストプロファイルを使用して、コンテンツをプレビューおよびテストします。パーソナライズされたフィールドを追加した場合は、テストプロファイルデータを使用して、その表示方法を確認できます。"
 
-コンテンツをプレビューまたはテストする前に、まずテストプロファイルを選択する必要があります。テストプロファイルは、定義されたターゲット条件に一致しない追加の受信者です。 [テストプロファイルの作成方法を説明します](../audience/creating-test-profiles.md)
+コンテンツをプレビューまたはテストする前に、まずテストプロファイルを選択する必要があります。テストプロファイルは、定義されたターゲティング条件に一致しない追加の受信者です。[詳しくは、テストプロファイルの作成方法を参照してください](../audience/creating-test-profiles.md)
 
 テストプロファイルを選択するには、次の手順に従います。
 
-1. メッセージのコンテンツを編集画面または E メールデザイナーで、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
+1. メッセージのコンテンツを編集画面またはメールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
-1. 次をクリック： **[!UICONTROL テストプロファイルの管理]** ボタンをクリックしてから、 **[!UICONTROL ID 名前空間]** 選択アイコン。 [Adobe Experience Platform ID 名前空間の詳細](../audience/get-started-identity.md).
+1. 「**[!UICONTROL テストプロファイルを管理]**」ボタンをクリックし、「**[!UICONTROL ID 名前空間]**」選択アイコンをクリックして、テストプロファイルの識別に使用する名前空間を選択します。[詳しくは、Adobe Experience Platform の ID 名前空間を参照してください](../audience/get-started-identity.md)。
 
-   次の例では、 **電子メール** 名前空間。
+   以下の例では、**メール**&#x200B;名前空間を使用します。
 
    ![](../email/assets/previewselect-namespace.png)
 
