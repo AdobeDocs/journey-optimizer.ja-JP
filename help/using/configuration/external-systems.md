@@ -9,9 +9,9 @@ level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ API 呼び出しがジャーニーによって実行されるたびに、API エ
 >
 >**スロットルルール**&#x200B;は、特定のエンドポイントに対して実稼動サンドボックスでのみ設定されますが、すべてのサンドボックスのすべてのジャーニーにグローバルに適用されます。組織ごとに 1 つのスロットル設定のみを指定できます。スロットルは、カスタムアクションでのみ使用できます。
 >
->The **maxCallsCount** 値は 1 より大きくする必要があります。
+>**maxCallsCount** 値は、1 より大きくする必要があります。
 
 API の使用方法について詳しくは、次の節を参照してください。
 
