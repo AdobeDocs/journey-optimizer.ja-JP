@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 26%
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2023 年 10 月の早期リリースノート {#oct-rn-2023}
+## 2023年10月先行リリースノート {#oct-rn-2023}
 
-**リリース日**:2023 年 10 月 25～26 日
+**リリース日**：2023年10月25～26日（PT）
 
 ### 新機能{#oct-2023-features}
 
@@ -40,7 +40,7 @@ ht-degree: 26%
 <tbody>
 <tr>
 <td>
-<p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックスにまたがってオブジェクトをコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
+<p>サンドボックスツールを使用すると、パッケージの書き出しと読み込みを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -67,13 +67,13 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
-<th><strong>SMS（ベータ版）でのマルチメディアメッセージサービス (MMS)</strong><br/></th>
+<th><strong>SMS のマルチメディアメッセージサービス（MMS）（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS チャネルを使用すると、マルチメディアメッセージサービス (MMS) メッセージを送信して、顧客との画像、GIFまたはビデオの共有を有効にすることで、通信を強化できます。 この機能は、現在、Sinch でベータ版でのみ使用できます。</p>
+<p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch のベータ版でのみ使用可能です。</p>
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -86,12 +86,12 @@ ht-degree: 26%
 
 **オーディエンス**
 
-* CSV ファイルからジャーニーやキャンペーンにアップロードされたオーディエンスをターゲットに設定できるようになりました。
-* オーディエンスの構成を通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。
+* CSV ファイルからアップロードされたオーディエンスをジャーニーやキャンペーンにターゲットできるようになりました。
+* オーディエンスコンポジションを通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。
 
 >[!AVAILABILITY]
 >
->これらの機能は、現在、非公開ベータ版として使用できます。
+>これらの機能は現在、Private Beta として使用可能です。
 
 <!--
 **Spam scoring for emails**
@@ -101,20 +101,20 @@ ht-degree: 26%
 **キャンペーン**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* キャンペーンの 1 つ内でエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。
+* キャンペーンのいずれかでエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。
 
 **ジャーニー**
 
-* 任意の待機時間で定義できる最大期間は、30 日ではなく 29 日になりました。 これは次に当てはまります。
+* 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。これは、以下に適用されます。
 
-   * の **時間** フィールド [待機アクティビティ](../building-journeys/wait-activity.md)
-   * の **再入場待機期間** in [ジャーニーのプロパティ](../building-journeys/journey-gs.md#entrance)
-   * の **待機** タイムアウト定義のフィールド [一般](../building-journeys/general-events.md#events-specific-time) および [反応](../building-journeys/reaction-events.md) イベント。
+   * [待機アクティビティ](../building-journeys/wait-activity.md)の「**時間**」フィールド
+   * [ジャーニープロパティ](../building-journeys/journey-gs.md#entrance)の&#x200B;**再エントリ待機期間**
+   * [一般](../building-journeys/general-events.md#events-specific-time)イベントと[反応](../building-journeys/reaction-events.md)イベントのタイムアウト定義の「**待機**」フィールド。
 
 **チャネル設定での同意**
 
-* これで、チャネルサーフェスレベルでマーケティングアクションを選択できます。 表面で使用する場合、顧客の好みを尊重するために、そのマーケティングアクションに関連するすべての同意ポリシーが利用されます。
+* チャネルサーフェスレベルでマーケティングアクションを選択できるようになりました。サーフェスで使用すると、顧客の環境設定に従うために、そのマーケティングアクションに関連付けられたすべての同意ポリシーが活用されます。
 
 **意思決定管理**
 
-* 決定管理インターフェイスのオファー制限に関連するいくつかのラベルが更新されました。
+* 意思決定管理インターフェイスのオファーキャッピングに関連するいくつかのラベルが更新されました。
