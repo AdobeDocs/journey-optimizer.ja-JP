@@ -10,14 +10,15 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
-workflow-type: tm+mt
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# 多言語コンテンツの作成 手動翻訳を使用 {#multilingual-manual}
+# 多言語コンテンツの作成手動翻訳を使用 {#multilingual-manual}
 
 >[!BEGINSHADEBOX]
 
@@ -30,11 +31,11 @@ ht-degree: 83%
 
 >[!ENDSHADEBOX]
 
-手動フローを使用すると、E メール、プッシュ通知、SMS キャンペーンに直接コンテンツを簡単に翻訳し、多言語メッセージの正確な制御とカスタマイズのオプションを提供できます。 さらに、「読み込みHTML」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
+手動フローを使用すると、多言語メッセージへの正確な制御とカスタマイズのオプションで、メール、プッシュ通知または SMS キャンペーンに直接コンテンツを簡単に翻訳できます。さらに、「HTML を読み込む」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
 
 手動翻訳を使用して多言語コンテンツを作成するには、次の手順に従います。
 
-1. [ロケールを作成する](#create-locale).
+1. [ロケールを作成します](#create-locale)。
 
 1. [言語設定の作成](#create-language-settings).
 
@@ -104,9 +105,9 @@ ht-degree: 83%
 
 ## 多言語キャンペーンを作成 {#create-multilingual-campaign}
 
-多言語コンテンツを設定したら、キャンペーンを作成し、選択した各ロケールのコンテンツをカスタマイズする準備が整いました。
+多言語コンテンツを設定したら、キャンペーンを作成し、選択した各ロケールのコンテンツをカスタマイズする準備が整います。
 
-1. まず、要件に応じて、電子メール、SMS、またはプッシュ通知キャンペーンを作成し、設定します。 [詳細情報](../campaigns/create-campaign.md)
+1. まず、要件に応じて、メール、SMS またはプッシュ通知キャンペーンを作成し、設定します。[詳細情報](../campaigns/create-campaign.md)
 
 1. **[!UICONTROL アクション]**&#x200B;メニューに移動し、「**[!UICONTROL コンテンツを編集]**」を選択します。
 
