@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 多言語コンテンツの基本を学ぶ
-description: Journey Optimizerの多言語コンテンツに関するレポートの詳細
+description: Journey Optimizer の多言語コンテンツに関するレポートの詳細
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,10 +10,11 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
-workflow-type: tm+mt
+exl-id: 662681ad-5044-4025-aff1-204626fee052
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '216'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
