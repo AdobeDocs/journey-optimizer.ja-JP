@@ -1,13 +1,14 @@
 ---
 title: コンテンツのプレビューとテスト
-description: コンテンツのプレビューとテストの方法を学びます。
+description: コンテンツのプレビューとテスト方法について説明します。
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
-workflow-type: tm+mt
+exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -15,21 +16,21 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="コンテンツのレンダリング方法を確認する"
->abstract="コンテンツを定義したら、テストプロファイルを使用してプレビューし、使用しているチャネルに応じてレンダリングが正しいかどうかを確認できます。"
+>title="コンテンツのレンダリング方法の確認"
+>abstract="コンテンツを定義したら、テストプロファイルを使用してプレビューし、使用しているチャネルに従ってレンダリングが正しいかどうかを確認できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="コンテンツのレンダリング方法を確認する"
->abstract="コンテンツを定義したら、プレビューして、使用しているチャネルに応じてレンダリングが正しいかどうかを確認できます。"
+>title="コンテンツのレンダリング方法の確認"
+>abstract="コンテンツを定義したら、プレビューし、使用しているチャネルに従ってレンダリングが正しいかどうかを確認できます。"
 
 ## コンテンツのプレビューとテストについて {#about}
 
-コンテンツを定義したら、テストプロファイルを使用して [プレビュー](preview.md) メッセージを送信する前のコンテンツ。 これは、正確でありながら、コンテンツとパーソナライゼーションの両方の設定でエラーが発生しないようにするために重要な手順です。
+コンテンツを定義したら、テストプロファイルを使用して、メッセージを送信する前にそのコンテンツを[プレビュー](preview.md)できます。これは、コンテンツが正確であると同時に、コンテンツとパーソナライゼーション設定の両方にエラーがないことを確認するための重要な手順です。
 
-また、 [テスト配信を送信](proofs.md) テストおよび検証をおこなうために、特定の受信者または購読者に対する E メールメッセージの（配達確認） [レンダリングを確認する](rendering.md) 一般的なデスクトップ、モバイル、web ベースのクライアントの場合。
+また、テストと検証のために特定の受信者または購読者にメールメッセージの[テスト配信を送信](proofs.md)（配達確認）したり、一般的なデスクトップ、モバイル、web ベースのクライアントで[レンダリングを確認](rendering.md)したりすることもできます。
 
-これらのアクションはすべて、 **[!UICONTROL コンテンツをシミュレート]** ボタンにアクセスできます。このボタンには、メッセージのコンテンツを編集画面または e メールチャネルや web チャネル用の e メールデザイナーや web デザイナーからアクセスできます。
+これらのアクションはすべて、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。このボタンには、メッセージのコンテンツを編集画面からアクセスするか、メールチャネルのメールデザイナーや web チャネルの web デザイナーからアクセスできます。
 
 ![](../email/assets/email-preview-button.png)
 
@@ -41,9 +42,9 @@ ht-degree: 25%
 
 ## 前提条件 {#prerequisites}
 
-コンテンツをシミュレートするには、 **[!DNL Manage Simulate Content]** 次に含まれる権限： **[!DNL Content Library Manager]** 製品プロファイル。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)。
+コンテンツをシミュレートするには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)。
 
-また、メッセージをプレビューするには、テストプロファイルを使用可能にする必要があります。 [テストプロファイルの作成方法を説明します](../audience/creating-test-profiles.md)
+また、メッセージのプレビューを行うには、テストプロファイルも使用可能にしておく必要があります。[詳しくは、テストプロファイルの作成方法を参照してください](../audience/creating-test-profiles.md)
 
 ## チュートリアルビデオ {#video-preview}
 
