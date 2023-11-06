@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、このオプションをオフにします。その場合、この例では、顧客がジャーニーに再エントリしてオファーを再度受け取ることができなくなります。ジャーニーが終了すると、そのステータスは&#x200B;**[!UICONTROL クローズ]**&#x200B;になります。新しい個人は、そのジャーニーにエントリできなくなります。既にジャーニーにエントリしているユーザーは、通常どおりにジャーニーを終了できます。[詳細情報](journey-gs.md#entrance)
 
-次の場合に **再エントリを許可** オプションが有効な場合、 **再入場待機期間** 「 」フィールドでは、プロファイルがジャーニーに再度エントリするまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最長期間は 29 日です。
+「**再エントリを許可**」オプションが有効な場合、「**再エントリ待機期間**」フィールドで、プロファイルがジャーニーに再度エントリするまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 29 日です。
 
 ![](assets/journey-re-entrance.png)
 
@@ -44,7 +44,7 @@ ht-degree: 92%
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-キーは、人物がジャーニー内にいるかどうかを確認するために使用されます。 1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
+このキーは、あるユーザーがジャーニーにエントリしているかどうかを確認するために使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
 ## 「オーディエンスを読み取り」ジャーニー{#entry-read-segment}
 
