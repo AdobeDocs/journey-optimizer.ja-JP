@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->今のところ、構成ワークフローからジャーニーへのオーディエンスの使用は、プライベートベータ版として利用できます。 詳しくは、アドビ担当者にお問い合わせください。
+>現時点では、ジャーニーへのコンポジションワークフローから生成されたオーディエンスの使用は、プライベートベータ版として使用可能です。詳しくは、アドビ担当者にお問い合わせください。
 >
 >Adobe Journey Optimizer のキャンペーンは、まだポリシー強制サービスと統合されていません。したがって、オーディエンス属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
 
