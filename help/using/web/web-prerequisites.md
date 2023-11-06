@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->現時点では、Adobeを購入した組織では Web チャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
+>現時点では、Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織では、web チャネルを使用できません。
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
