@@ -10,9 +10,9 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -215,7 +215,7 @@ ht-degree: 99%
 >id="ac_preview_lp_profiles"
 >title="ランディングページのプレビューとテスト"
 >abstract="ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルの選択"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルを選択"
 
 ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
 
@@ -237,7 +237,7 @@ ht-degree: 99%
 
    ![](assets/lp_test-profiles.png)
 
-   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、 [コンテンツ管理](../content-management/test-profiles.md) 」セクションに入力します。
+   テストプロファイルの選択手順は、メッセージをテストする場合と同じです。詳しくは、[コンテンツ管理](../content-management/test-profiles.md)の節を参照してください。
 
 1. 「**[!UICONTROL プレビューを開く]**」を選択してランディングページをテストします。
 
