@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ ht-degree: 97%
 
    >[!CAUTION]
    >
-   >* 次の場合 [AI モデル](../ranking/ai-models.md) が評価条件グループで使用される場合、そのグループ内のすべての評価条件は AI ランキングメソッドを使用し、同じ特定の AI モデルを使用する必要があります。
+   >* [AI モデル](../ranking/ai-models.md) が評価条件グループで使用される場合、そのグループ内のすべての評価条件は AI ランキング方法を使用し、同じ特定の AI モデルを使用する必要があります。
    >
-   >* AI モデルを使用できる評価基準グループは 1 つだけです。 決定範囲内の他のグループは、他のランキング方法（優先度または数式）を使用する必要があります。 [ランキングメソッドの詳細を説明します](../offer-activities/configure-offer-selection.md)
+   >* また、AI モデルを使用できる評価条件グループは 1 つだけです。決定範囲内の他のグループは、他のランキング方法（優先度または数式）を使用する必要があります。[詳しくは、ランキング方法を参照してください](../offer-activities/configure-offer-selection.md)
 
 1. この決定の一部としてオファーに別のプレースメントを追加するには、「**[!UICONTROL 新しいスコープ]**」ボタンを使用します。決定範囲ごとに、上記の手順を繰り返します。
 
