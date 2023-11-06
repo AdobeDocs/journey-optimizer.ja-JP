@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 94%
 
 ## 2023年10月 {#oct-2023}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2023 年 10 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2023年10月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * 主な機能（[コンテンツテンプレート](../content-management/content-templates.md)、[フラグメント](../content-management/fragments.md)、[計算済み属性](../audience/computed-attributes.md)、[ダイレクトメール](../direct-mail/get-started-direct-mail.md)、[タグ](../start/search-filter-categorize.md#tags)、[意思決定管理の最適化モデル](../offers/ranking/personalized-optimization-model.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)、および[コンテンツ実験](../campaigns/content-experiment.md)など）を説明する GIF を追加しました。。
 * スキーマの作成プロセスを更新し、Adobe Experience Platform 変更に伴うユーザーインターフェイスの最新の更新を反映しました。[詳細情報](../audience/creating-test-profiles.md)
 * 意思決定管理ガードレールが、ガードレールと制限のページに追加されました。[詳細情報](../start/guardrails.md#decision-management)
-* ヘッダーパラメーターの節が更新され、不在通知とチャレンジ応答の処理方法 ( **[!UICONTROL エラーメール]**) をクリックします。 [詳細情報](../email/email-settings.md#email-header)
-* コンテンツのプレビューおよびテスト方法に関する新しい節が作成されました。 [詳細情報](../content-management/preview-test.md)
-* 単一ページアプリケーションの実装ページは、 Experience Platform Web SDK のドキュメントにAdobeされました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
-* 「キャッピング」の節が更新され、決定管理インターフェイスでのオファーキャッピングに関するラベルの変更が反映されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
-* E メールへの動的コンテンツの追加の節が更新され、バリアントの削除方法の詳細が追加されました。 [詳細情報](../personalization/dynamic-content.md#emails)
-* キャッピングとスロットルの設定の例が更新されました。 [詳細情報](../configuration/external-systems.md)
-* スカラー配列に関する制限は、外部データソースの節から削除されました。 [詳細情報](../datasource/external-data-sources.md)
-* マルチチャネルジャーニーの使用例が更新されました。 [詳細情報](../building-journeys/journeys-uc.md)
-* Journey Optimizerのドキュメントセットが更新され、新しいExperience Platformスキーマ作成プロセスが反映されました。
+* 「ヘッダーパラメーター」の節を更新し、不在通知とチャレンジレスポンスの処理方法（これらは&#x200B;**[!UICONTROL エラーメール]**&#x200B;で受信します）を反映しました。[詳細情報](../email/email-settings.md#email-header)
+* コンテンツをプレビューおよびテストする方法に関する新しい節を作成しました。[詳細情報](../content-management/preview-test.md)
+* シングルページアプリケーションの実装ページは、Adobe Experience Platform Web SDK のドキュメントに移動しました。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ja){target="_blank"}
+* 「キャッピング」の節を更新し、意思決定管理インターフェイスのオファーキャッピングに関連するラベルの変更を反映しました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* 「メールへの動的コンテンツの追加」を更新し、バリアントを削除する方法の詳細を追加しました。[詳細情報](../personalization/dynamic-content.md#emails)
+* キャッピングとスロットル設定の例を更新しました。[詳細情報](../configuration/external-systems.md)
+* スカラー配列に関する制限を、外部データソースの節から削除しました。[詳細情報](../datasource/external-data-sources.md)
+* マルチチャネルジャーニーのユースケースを更新しました。[詳細情報](../building-journeys/journeys-uc.md)
+* 新しい Experience Platform スキーマ作成プロセスを反映するために、Journey Optimizer のドキュメントセットを更新しました。
 
 ## 2023年9月 {#september-2023}
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 * アクセス制御に関するドキュメントへのリンクが更新されました。[詳細情報](../administration/permissions.md)
 * アプリ内チャネルの前提条件が更新され、Adobe Experience Platform のデータ収集の詳細が追加されました。[詳細情報](../in-app/inapp-configuration.md)
 * ランキング式の例で示されている式の一部が、検証エラーを回避するために更新されました。[詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 「判定範囲の定義」セクションに警告が追加され、AI モデルが評価条件グループで使用される場合、そのグループ内のすべての評価条件が同じ特定の AI モデルを持つ AI ランキングメソッドを使用する必要があることを指定できるようになりました。 また、AI モデルを使用できる評価基準グループは 1 つだけです。[詳細情報](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* AI モデルを評価基準グループで使用する場合、そのグループ内のすべての評価基準で同じ特定の AI モデルを持つ AI ランキングメソッドを使用する必要があることを明記した警告が、「決定範囲の定義」の節に追加されました。また、AI モデルを使用できる評価基準グループは 1 つだけです。[詳細情報](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023年8月 {#august-2023}
 
