@@ -10,7 +10,7 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    * **[決定ルールの作成](rules.md)**
    * [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
-* [決定ポリシーの作成](create-decision.md)
+* [決定ポリシーを作成](create-decision.md)
 
 >[!ENDSHADEBOX]
 
