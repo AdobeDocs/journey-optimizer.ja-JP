@@ -1,23 +1,24 @@
 ---
-title: メールのレンダリングのテスト
-description: E メールのレンダリングをテストする方法を説明します。
+title: メールのレンダリングをテスト
+description: 詳しくは、メールのレンダリングをテストする方法を参照してください。
 feature: Preview
 role: User
 level: Beginner
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
-workflow-type: tm+mt
+exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# メールのレンダリングのテスト {#email-rendering}
+# メールのレンダリングをテスト {#email-rendering}
 
 **Litmus** アカウントを [!DNL Journey Optimizer] に使用すると、よく使うメールクライアントで&#x200B;**メールのレンダリング**&#x200B;を即座にプレビューできます。すべてのインボックスでメールコンテンツが適切に表示され、正しく機能することを確認できます。
 
-E メールのレンダリングを確認するには、次の手順に従います。
+メールのレンダリングを確認するには、次の手順に従います。
 
-1. メッセージのコンテンツを編集画面または E メールデザイナーで、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
+1. メッセージのコンテンツを編集画面またはメールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
 1. 「**[!UICONTROL メールをレンダリング]**」ボタンを選択します。
 
