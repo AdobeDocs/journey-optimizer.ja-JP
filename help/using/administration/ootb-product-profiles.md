@@ -10,15 +10,15 @@ level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1167'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 組み込みの役割 {#ootb-product-profiles}
 
-組み込みの役割は、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできる単一の権限のセットです。 参照： [このページ](ootb-permissions.md) を参照してください。
+組み込みの役割は、ユーザーがインターフェイス内の特定の機能やオブジェクトにアクセスできるようにするための、一連の単一権限です。役割を構築するために利用可能な権限のリストについては、[このページ](ootb-permissions.md)を参照してください。
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
