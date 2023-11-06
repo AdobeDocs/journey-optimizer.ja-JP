@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Adobe Journey Optimizer Designer を使用して、コンテンツの構造を�
    >
    >コードエディターに切り替えた後で、このメールのビジュアルデザイナーに戻すことはできません。
 
-1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを確認します。デスクトップまたはモバイル表示を選択できます。テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、 [コンテンツ管理](../content-management/preview-test.md) 」セクションに入力します。
+1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを確認します。デスクトップまたはモバイル表示を選択できます。テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
 
    ![](assets/email_designer_simulate_content.png)
 
