@@ -1,6 +1,6 @@
 ---
-title: アプリ内通知を確認して送信する
-description: Journey Optimizerでアプリ内メッセージを確認して送信する方法を説明します
+title: アプリ内通知の確認および送信
+description: Journey Optimizer でアプリ内メッセージを確認および送信する方法を学ぶ
 feature: In App
 topic: Content Management
 role: User
@@ -8,13 +8,13 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# アプリ内通知を確認して送信する {#create-in-app}
+# アプリ内通知の確認および送信 {#create-in-app}
 
 ## デバイスでのプレビュー {#preview-device}
 
