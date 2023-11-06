@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collection_rules"
->title="コレクションのルールを定義する"
->abstract="1 つまたは複数のルールを追加して、コレクションに含める項目を決定します。基準として使用する項目属性を選択します。目的の演算子を選択し、フィルターに使用する値を入力します。必要な数のルールを追加します。"
+>title="コレクションのルールの定義"
+>abstract="1 つまたは複数のルールを追加して、コレクションに含める項目を決定します。基準として使用する項目属性を選択します。目的の演算子を選択し、フィルタリングに使用する値を入力します。必要な数のルールを追加します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
->title="コレクションを選択"
->abstract="考慮するオファーを含むコレクションを選択します。 この手順は、選択戦略を作成する場合は必須です。 コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。例えば、「カテゴリ」カスタム属性に「ヨガ」値を持つすべての判定項目を含むコレクションを作成できます。"
+>title="コレクションの選択"
+>abstract="検討するオファーが含まれているコレクションを選択します。この手順は、選択戦略を作成する場合は必須です。コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。例えば、カスタム属性「カテゴリ」に「ヨガ」の値を持つすべての決定項目を含むコレクションを作成できます。"
 
 >[!BEGINSHADEBOX]
 
@@ -46,7 +46,7 @@ ht-degree: 86%
    * [決定ルールの作成](rules.md)
    * [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
-* [決定ポリシーの作成](create-decision.md)
+* [決定ポリシーを作成](create-decision.md)
 
 >[!ENDSHADEBOX]
 
