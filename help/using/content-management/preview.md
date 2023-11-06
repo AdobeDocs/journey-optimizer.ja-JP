@@ -1,21 +1,22 @@
 ---
-title: コンテンツをプレビュー
+title: コンテンツのプレビュー
 description: コンテンツをプレビューする方法を説明します。
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+exl-id: 6477270c-0309-411a-8254-c7ffc4419492
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# コンテンツをプレビュー {#preview}
+# コンテンツのプレビュー {#preview}
 
-1 回 [テストプロファイル](test-profiles.md) を選択すると、コンテンツをプレビューできます。 次の手順に従います。
+[テストプロファイル](test-profiles.md)を選択すると、コンテンツをプレビューできます。次の手順に従います。
 
-1. メッセージのコンテンツを編集画面または E メールデザイナーで、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
+1. メッセージのコンテンツを編集画面またはメールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
 1. テストプロファイルを選択します。列内で利用可能な値を確認できます。右向きや左向きの矢印を使用して、データを参照します。
 
@@ -35,4 +36,4 @@ ht-degree: 68%
 
    ![](../email/assets/preview-test-profile.png)
 
-1. 他のテストプロファイルを選択して、メッセージの各バリアントの E メールをプレビューします。
+1. メッセージの各バリエーションに対してメールをプレビューするには、他のテストプロファイルを選択します。
