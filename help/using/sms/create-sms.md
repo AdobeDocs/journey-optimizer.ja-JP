@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -108,21 +108,21 @@ ht-degree: 90%
 
    ![](assets/sms_tracking_2.png)
 
-1. Adobe Analytics の `originalUrl` 「 」フィールドに、短縮する URL を貼り付けて、 **[!UICONTROL 保存]**.
+1. `originalUrl` フィールドに、短縮する URL をペーストし、「**[!UICONTROL 保存]**」をクリックします。
 
-1. SMS コンテンツにメディアを追加するには、「 MMS 」オプションを有効にします。
+1. MMS オプションを有効にして、SMS コンテンツにメディアを追加します。
 
-   MMS には、 [このページ](../start/guardrails.md#sms-guardrails).
+   MMS には、[このページ](../start/guardrails.md#sms-guardrails)にリストされているいくつかの制限があります。
 
    >[!NOTE]
    >
-   > MMS オプションは、Sinch でのみ使用できます。 MMS を作成するには、特定の API 資格情報を作成する必要があります。 [詳細情報](sms-configuration.md#create-new-api)
+   > MMS オプションは、Sinch でのみ使用できます。MMS を作成するには、特定の API 資格情報を作成する必要があります。[詳細情報](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
-1. を追加します。 **[!UICONTROL タイトル]** をメディアに追加します。
+1. メディアに&#x200B;**[!UICONTROL タイトル]**&#x200B;を追加します。
 
-1. メディアの URL を **[!UICONTROL メディア]** フィールドに入力します。
+1. メディアの URL を「**[!UICONTROL メディア]**」フィールドに入力します。
 
    ![](assets/sms_create_7.png)
 
