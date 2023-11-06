@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Healthcare Shield のライセンスを受けるお客様は、Transport Layer Security(TLS)1.2 を使用して、Adobeのシステム（受信者）とJourney Optimizer（送信者）間のデータ交換を保護します。 受信メールサーバーが TLS 1.2 をサポートしていない場合、メールが元の送信者にバウンスするなど、配信品質の問題が発生します。
+>Healthcare Shield のライセンスを取得しているお客様の場合、アドビは Transport Layer Security（TLS）1.2 を使用して、ユーザーのシステム（受信者）と Journey Optimizer（送信者）間のデータ交換を保護します。受信メールサーバーが TLS 1.2 をサポートしていない場合、メールが元の送信者にバウンスするなど、配信品質の問題が発生します。
 
 **メール配信品質**&#x200B;とは、期待される品質のコンテンツと形式を備えたメッセージが、個人のメールアドレスを通じて短時間で宛先に到達する能力を判断する、一連の特性のことを指します。これらの特性は、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、評価の 4 つの主なカテゴリに分類されます。これらのカテゴリを合わせて、成功するメール配信品質プログラムの基礎が形成されます。
 
