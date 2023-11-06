@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 87%
 
 「**[!UICONTROL コンポジション]**」タブから作成したすべてのコンポジションにアクセスできます。リストの省略記号ボタンを使用して、既存のコンポジションをいつでも複製または削除できます。
 
-コンポジションには複数のステータスを設定できます。
+コンポジションには複数のステータスがあります。
 
 * **[!UICONTROL ドラフト]**：コンポジションは進行中で、公開されていません。
 * **[!UICONTROL 公開済み]**：コンポジションが公開され、結果オーディエンスが保存され、使用できるようになりました。
@@ -85,4 +85,4 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->オーディエンスの構成は、現在、サンドボックスリセット機能と統合されていません。 サンドボックスのリセットを開始する前に、関連するオーディエンスデータが正しくクリーンアップされるように、構成を手動で削除する必要があります。 詳しくは、 Adobe Experience Platformを参照してください。 [サンドボックスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>現在、オーディエンスコンポジションはサンドボックスのリセット機能と統合されていません。サンドボックスのリセットを開始する前に、コンポジションを手動で削除して、関連するオーディエンスデータが適切にクリーンアップされていることを確認する必要があります。詳しくは、Adobe Experience Platform [サンドボックスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja#delete-audience-compositions)を参照してください。
