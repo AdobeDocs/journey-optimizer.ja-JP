@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: MMS の作成
-description: Journey Optimizerで MMS を作成する方法を学ぶ
+title: MMS を作成
+description: Journey Optimizer で MMS を作成する方法を学ぶ
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '1093'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 87%
 
 ## 前提条件{#sms-prerequisites}
 
-SMS メッセージを作成する前に、まずJourney Optimizerで SMS ベンダーを設定する必要があります。次の手順に従います。
+SMS メッセージを作成する前に、まず Journey Optimizer を使用して SMS ベンダーを設定する必要があります。次の手順に従います。
 
-* SMS を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。 
+* SMS を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。
 
 +++ 新しい Sinch MMS API 資格情報を作成する方法を説明します。
 
@@ -36,7 +37,7 @@ SMS メッセージを作成する前に、まずJourney Optimizerで SMS ベン
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL プロジェクト ID]**, **[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：会話 API メニューから、アプリメニューに資格情報を表示できます。  [詳細情報](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
+      * **[!UICONTROL プロジェクト ID]**、**[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：Conversation API メニューから、アプリメニューで資格情報を見つけることができます。[詳細情報](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
      ![](assets/mms_provider.png)
 
@@ -48,7 +49,7 @@ SMS メッセージを作成する前に、まずJourney Optimizerで SMS ベン
 
 * 完了したら、SMS サーフェスを作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。
 
-+++ チャンネルサーフェスの作成方法を学びます。
++++ チャネルサーフェスの作成方法を説明します。
 
    1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL ブランディング]**／**[!UICONTROL チャネルサーフェス]**&#x200B;を選択します。「**[!UICONTROL チャネルサーフェスを作成]**」ボタンをクリックします。
 
@@ -112,7 +113,7 @@ SMS メッセージを作成する前に、まずJourney Optimizerで SMS ベン
       ![](assets/preset-active.png)
 
 
-## SMS メッセージの作成 {#create-sms-journey-campaign}
+## SMS メッセージを作成 {#create-sms-journey-campaign}
 
 キャンペーンまたはジャーニーに SMS メッセージを追加する方法については、以下のタブを参照してください。
 
@@ -169,7 +170,7 @@ SMS メッセージを作成する前に、まずJourney Optimizerで SMS ベン
 
 >[!ENDTABS]
 
-## MMS コンテンツを定義する{#mms-content}
+## MMS コンテンツを定義{#mms-content}
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、SMS コンテンツを設定します。
 
@@ -179,17 +180,17 @@ SMS メッセージを作成する前に、まずJourney Optimizerで SMS ベン
 
 1. 式エディターを使用して、コンテンツを定義し、動的コンテンツを追加します。プロファイル名や市区町村など、任意の属性を使用できます。式エディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
-1. SMS コンテンツにメディアを追加するには、「 MMS 」オプションを有効にします。
+1. MMS オプションを有効にして、SMS コンテンツにメディアを追加します。
 
    >[!NOTE]
    >
-   > MMS オプションは、Sinch でのみ使用できます。 MMS を作成するには、特定の API 資格情報を作成する必要があります。 [詳細情報](sms-configuration.md#create-new-api)
+   > MMS オプションは、Sinch でのみ使用できます。MMS を作成するには、特定の API 資格情報を作成する必要があります。[詳細情報](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
-1. を追加します。 **[!UICONTROL タイトル]** をメディアに追加します。
+1. 「**[!UICONTROL タイトル]**」をメディアに追加します。
 
-1. メディアの URL を **[!UICONTROL メディア]** フィールドに入力します。
+1. 「**[!UICONTROL メディア]**」フィールドにメディアの URL を入力します。
 
    ![](assets/sms_create_7.png)
 
