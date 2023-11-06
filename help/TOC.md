@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -205,12 +205,12 @@ ht-degree: 96%
    + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
    + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
-   + [アプリ内通知を確認して送信する](using/in-app/send-in-app.md)
+   + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
 + プッシュ通知チャネル{#push}
    + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
    + [プッシュ通知の作成](using/push/create-push.md)
    + [プッシュ通知のデザイン](using/push/design-push.md)
-   + [プッシュ通知を確認して送信する](using/push/send-push.md)
+   + [プッシュ通知の確認と送信](using/push/send-push.md)
    + プッシュ通知の設定{#push-config}
       + [プッシュ通知フロー](using/push/push-gs.md)
       + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
@@ -219,7 +219,7 @@ ht-degree: 96%
    + [SMS の基本を学ぶ](using/sms/get-started-sms.md)
    + [SMS メッセージの作成](using/sms/create-sms.md)
    + [MMS メッセージの作成](using/sms/create-mms.md)
-   + [SMS を確認して送信する](using/sms/send-sms.md)
+   + [SMS の確認と送信](using/sms/send-sms.md)
    + [SMS オプトアウトの管理](using/sms/sms-opt-out.md)
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
@@ -267,7 +267,7 @@ ht-degree: 96%
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
       + [多言語キャンペーンレポート](using/content-management/multilingual-report.md)
-   + アセット/画像 {#assets-images}
+   + Assets／画像 {#assets-images}
       + [Assets Essentials の操作](using/content-management/assets-essentials.md)
       + [Adobe Stock との連携](using/content-management/stock.md)
    + パーソナライズ機能 {#personalization}
@@ -303,11 +303,11 @@ ht-degree: 96%
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
    + コンテンツのプレビューとテスト {#preview-test}
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
-      + [テストプロファイルの選択](using/content-management/test-profiles.md)
-      + [コンテンツをプレビュー](using/content-management/preview.md)
-      + [電子メール配達確認を送信](using/content-management/proofs.md)
-      + [メールのレンダリングのテスト](using/content-management/rendering.md)
-      + [スパムレポートを使用](using/content-management/spam-report.md)
+      + [テストプロファイルを選択](using/content-management/test-profiles.md)
+      + [コンテンツのプレビュー](using/content-management/preview.md)
+      + [メール配達確認を送信](using/content-management/proofs.md)
+      + [メールのレンダリングをテスト](using/content-management/rendering.md)
+      + [スパムレポートの使用](using/content-management/spam-report.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
@@ -508,7 +508,7 @@ ht-degree: 96%
       + [決定ルールの作成](using/experience-decisioning/rules.md)
       + [ランキングメソッドの作成](using/experience-decisioning/ranking.md)
    + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
-   + [決定ポリシーの作成](using/experience-decisioning/create-decision.md)
+   + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
 + データ管理 {#data-management}
    + [データ管理の基本を学ぶ](using/data/gs-data.md)
    + [スキーマの操作](using/data/get-started-schemas.md)
