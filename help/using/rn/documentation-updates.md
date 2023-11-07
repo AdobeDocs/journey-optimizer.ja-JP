@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: ht
-source-wordcount: '4010'
-ht-degree: 100%
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+workflow-type: tm+mt
+source-wordcount: '4103'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Journey Optimizer] のドキュメントの更新すべてを一覧で表示します。
+
+## 2023年11月 {#nov-2023}
+
+* すべてのカスタムアクションを制限するガードレールが、30 秒で 150,000 回の呼び出しから 1 分で 300,000 回の呼び出しに変更されました。 さらに、デフォルトのキャッピングが各エンドポイントに適用されなくなりました。 現在は、ホストごとおよびサンドボックスごとに実行されます。 例えば、サンドボックスで、同じホストを持つ 2 つのエンドポイントがある場合 ( 例： `https://www.adobe.com/endpoint1` および `https://www.adobe.com/endpoint2`) の場合、制限はadobe.comホスト下のすべてのエンドポイントに適用されます。 「endpoint1」と「endpoint2」は同じキャッピング設定を共有し、1 つのエンドポイントが制限に達すると、もう 1 つのエンドポイントに影響を与えます。 [詳細情報](../action/about-custom-action-configuration.md)
 
 ## 2023年10月 {#oct-2023}
 
