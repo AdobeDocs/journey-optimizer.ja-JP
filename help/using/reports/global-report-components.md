@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: ht
-source-wordcount: '1068'
-ht-degree: 100%
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 97%
 
 ---
 
@@ -89,6 +89,11 @@ ht-degree: 100%
   <tr> 
    <td> エラー率<br/> </td> 
    <td> 送信されたメールに対して、配信中にエラーが発生して送信できなかったメールの割合。<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> エラーの理由<br/> </td> 
+   <td> エラーの特定の元の原因の名前。 <a href="error-list.md">エラー理由の詳細を表示</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 除外済み<br/> </td> 
@@ -332,7 +337,11 @@ ht-degree: 100%
   <tr> 
    <td> エラー率<br/> </td> 
    <td> 送信済みのプッシュ通知に対する、配信中に発生して送信の妨げとなったエラーの割合。<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> エラーの理由<br/> </td> 
+   <td> エラーの特定の元の原因の名前。 <a href="error-list.md">エラー理由の詳細を表示</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> 除外済み<br/> </td> 
    <td> Adobe Journey Optimizer によって除外されたプロファイルの数。<br/> </td> 
@@ -356,7 +365,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-### ランディングページの指標 {#landing-page-metrics}
+## ランディングページの指標 {#landing-page-metrics}
 
 <table> 
  <thead> 

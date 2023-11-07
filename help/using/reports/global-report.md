@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,12 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 1. グローバルレポートから、開始および終了時間を選択して特定のデータをターゲットにします。
 
    ![](assets/report_modify_1.png)
+
+1. 複数の設定済みのジャーニーレポート用 **[!UICONTROL アクション]**、特定の **[!UICONTROL アクション]** を選択します。
+
+1. 1 つまたは複数の繰り返しメッセージのみをターゲットにする場合は、 **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
+
+   ![](assets/report_modify_12.png)
 
 1. 切り替えバーを使用して、レポートからテストイベントを除外する場合に選択します。テストイベントについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 

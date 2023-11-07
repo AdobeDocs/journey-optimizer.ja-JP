@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 100%
+source-wordcount: '3357'
+ht-degree: 93%
 
 ---
 
@@ -173,6 +173,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 **[!UICONTROL メール送信統計]**&#x200B;グラフには、メールの成功の詳細が表示されます。
 
+* **[!UICONTROL 実行時間]**：繰り返し E メールの実行ごとに開始する時間。 1 つまたは複数の繰り返し E メールのみをターゲットにするには、その E メールを **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
+
 * **[!UICONTROL ターゲット]**：送信プロセス中に処理されたメッセージの合計数。
 
 * **[!UICONTROL 送信済み]**：メール用の送信の合計数。
@@ -194,6 +196,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 除外済み]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
 
 **[!UICONTROL メール - トラッキング統計]**&#x200B;ウィジェットには、メールのプロファイルアクティビティに関する使用可能なデータが含まれます。
+
+* **[!UICONTROL 実行時間]**：繰り返し E メールの実行ごとに開始する時間。 1 つまたは複数の繰り返し E メールのみをターゲットにするには、その E メールを **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
 
 * **[!UICONTROL 開封数]**：メールが開封された回数。
 
@@ -243,7 +247,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >
 > **[!UICONTROL メール - 上位の受信者ドメイン]**&#x200B;ウィジェットの正解率は 99.95％です。
 
-この&#x200B;**[!UICONTROL 最適化済みグラフと最適化されていないグラフ]**&#x200B;は、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
+The **[!UICONTROL メール — 最適化と標準]** グラフは、メッセージが最適化されているかどうかに関する主な情報の詳細を示します。
 
 * **[!UICONTROL 送信済み]**：送信の合計数。
 
@@ -251,7 +255,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL クリック数]**：メールのコンテンツがクリックされた回数。
 
-**[!UICONTROL 送信時間の最適化]**&#x200B;には、送信方法（最適化または標準）に応じて、メールの成功の詳細が表示されます。
+The **[!UICONTROL 電子メール — 送信時間の最適化]** 送信方法に応じて、電子メールの成功の詳細を示します（最適化、通常）。
 
 * **[!UICONTROL 配信済み]**：送信されたメッセージの合計数に対して、正常に配達できたメッセージの数。
 
@@ -337,7 +341,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++プッシュレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-**[!UICONTROL プッシュ通知 - 送信統計]**&#x200B;テーブルには、プッシュ通知に関する主な情報の詳細が表示されます
+**[!UICONTROL プッシュ通知 - 送信統計]**&#x200B;テーブルには、プッシュ通知に関する主な情報の詳細が表示されます：
+
+* **[!UICONTROL 実行時間]**：繰り返しのプッシュ通知の各実行の開始時間。 1 つまたは複数の繰り返しプッシュ通知のみをターゲットにするには、 **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
 
 * **[!UICONTROL ターゲット]**：分析中に処理されたメッセージの合計数。
 
@@ -358,6 +364,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 除外済み]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
 
 **[!UICONTROL プッシュ - トラッキング統計]**&#x200B;には、プッシュ通知のプロファイルアクティビティに使用可能なデータが含まれます。
+
+* **[!UICONTROL 実行時間]**：繰り返しのプッシュ通知の各実行の開始時間。 1 つまたは複数の繰り返しプッシュ通知のみをターゲットにするには、 **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
 
 * **[!UICONTROL 開封数]**：プッシュ通知が開封された回数。
 
@@ -446,6 +454,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 **[!UICONTROL SMS - 送信統計]**&#x200B;テーブルには、SMS メッセージの成功の詳細が表示されます。
 
+* **[!UICONTROL 実行時間]**：繰り返し送信される SMS メッセージの実行のたびの開始時間。 1 つまたは複数の繰り返し送信 SMS メッセージのみをターゲットにするには、 **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
+
 * **[!UICONTROL ターゲット]**：ターゲットプロファイルとして適合するユーザープロファイルの数。
 
 * **[!UICONTROL 除外済み]**：ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
@@ -530,6 +540,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++ダイレクトメールレポートで使用できる様々な指標やウィジェットについて詳しくは、こちらを参照してください。
 
 **[!UICONTROL ダイレクトメール - 送信統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。
+
+* **[!UICONTROL 実行時間]**：繰り返しダイレクトメールの実行のたびに開始する時間。 1 つまたは複数の繰り返しダイレクトメールのみをターゲットにするには、 **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
 
 * **[!UICONTROL ターゲット]**：このダイレクトメールのターゲットプロファイルとして適合するユーザープロファイルの数。
 
