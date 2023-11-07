@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 送信時間, 送信, メッセージ, 最適化, ジャーニー, AI, インテリジェント
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 

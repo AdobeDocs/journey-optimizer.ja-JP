@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->また、 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. これらの機能は、現在、非公開ベータ版として使用できます。
+>また、 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}. これらの機能は現在、Private Beta として使用可能です。
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 

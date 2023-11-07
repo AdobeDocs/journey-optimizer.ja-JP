@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: ユースケース, マルチチャネル, メッセージ, ジャーニー, チャネル, イベント, プッシュ
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 

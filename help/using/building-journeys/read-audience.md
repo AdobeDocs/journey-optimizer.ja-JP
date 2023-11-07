@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 * エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。
 
-* 現時点では、オーディエンスの使用 [CSV ファイルから読み込み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) または、 [コンポジションワークフロー](../audience/get-started-audience-orchestration.md) ジャーニーへは、プライベートベータ版として利用できます。 詳しくは、アドビ担当者にお問い合わせください。
+* 現時点では、[CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスや、ジャーニーへの[コンポジションワークフロー](../audience/get-started-audience-orchestration.md)から生成されたオーディエンスの使用は、Private Beta として使用可能です。詳しくは、アドビ担当者にお問い合わせください。
 
 ## アクティビティの設定 {#configuring-segment-trigger-activity}
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >また、 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. これらの機能は、現在、非公開ベータ版として使用できます。
+   >また、 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}. これらの機能は現在、Private Beta として使用可能です。
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 

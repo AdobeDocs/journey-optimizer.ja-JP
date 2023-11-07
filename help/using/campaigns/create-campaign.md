@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->現時点では、オーディエンスの使用 [CSV ファイルから読み込み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) キャンペーンへの移行は、非公開ベータ版として利用できます。 詳しくは、アドビ担当者にお問い合わせください。
+>現時点では、キャンペーンに [CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスの使用は、プライベートベータ版として使用可能です。詳しくは、アドビ担当者にお問い合わせください。
 >
 >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。([詳細情報](api-triggered-campaigns.md))
 

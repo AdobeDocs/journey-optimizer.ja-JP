@@ -9,7 +9,7 @@ exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 1. [埋め込みコードの追加](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=ja)
 
-1. 「Datastream」ドロップダウンから設定を選択し、作成したデータストリームでAdobe Experience Platform Web SDK 拡張機能をインストールして設定します。 詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja)に関するドキュメントを参照してください。
+1. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Adobe Experience Platform Web SDK 拡張機能をインストールして設定します。詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja)に関するドキュメントを参照してください。
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -76,7 +76,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 1. [ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ja)を作成します。
 
-   Platform Web SDK の「イベントの送信」アクションを追加し、関連する decisionScopes をそのアクションの設定に追加します。
+   Platform Web SDK のイベントのアクションを追加し、関連する decisionScopes をそのアクションの設定に追加します。
 
    ![オファーをレンダリング](../../assets/rule-render-offer.png)
 

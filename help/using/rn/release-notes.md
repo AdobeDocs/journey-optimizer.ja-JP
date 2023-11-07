@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '4527'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2023 年 10 月リリースノート {#oct-rn-2023}
+## 2023年10月リリースノート {#oct-rn-2023}
 
 ### 新機能{#oct-2023-features}
 
@@ -46,7 +46,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックスにまたがってオブジェクトをコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
+<p>サンドボックスツールを使用すると、パッケージの書き出しと読み込みを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <p>詳しくは、<a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -73,13 +73,13 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>SMS でのマルチメディアメッセージサービス (MMS)</strong><br/></th>
+<th><strong>SMS のマルチメディアメッセージサービス（MMS）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS チャネルを使用すると、マルチメディアメッセージサービス (MMS) メッセージを送信して、顧客との画像、GIFまたはビデオの共有を有効にすることで、通信を強化できます。 この機能は現在、Sinch でのみ使用できます。</p>
+<p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。</p>
 <img src="assets/do-not-localize/mms.gif"/>
 <p>詳しくは、 <a href="../sms/create-sms.md#sms-content">詳細なドキュメント</a>を参照してください。</p>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 95%
 
 **オーディエンス**
 
-* CSV ファイルからジャーニーやキャンペーンにアップロードされたオーディエンスをターゲットに設定できるようになりました。 [詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
-* オーディエンスの構成を通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。 [詳細情報](../building-journeys/read-audience.md)
+* CSV ファイルからアップロードされたオーディエンスをジャーニーやキャンペーンにターゲットできるようになりました。[詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
+* オーディエンスコンポジションを通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。[詳細情報](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
->これらの機能は、現在、非公開ベータ版として使用できます。
+>これらの機能は現在、Private Beta として使用可能です。
 
 <!--
 **Spam scoring for emails**
@@ -107,15 +107,15 @@ ht-degree: 95%
 **キャンペーン**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* キャンペーンの 1 つ内でエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。 [詳細情報](../campaigns/modify-stop-campaign.md#statuses)
+* キャンペーンのいずれかでエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。[詳細情報](../campaigns/modify-stop-campaign.md#statuses)
 
 **ジャーニー**
 
-* 任意の待機時間で定義できる最大期間は、30 日ではなく 29 日になりました。 この改善は、待ち時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。 これは次に当てはまります。
+* 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。この改善は、待機時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。これは、以下に適用されます。
 
-   * の **時間** フィールド [待機アクティビティ](../building-journeys/wait-activity.md)
-   * の **再入場待機期間** in [ジャーニーのプロパティ](../building-journeys/journey-gs.md#entrance)
-   * の **待機** タイムアウト定義のフィールド [イベントアクティビティ](../building-journeys/general-events.md#events-specific-time).
+   * [待機アクティビティ](../building-journeys/wait-activity.md)の「**時間**」フィールド
+   * [ジャーニープロパティ](../building-journeys/journey-gs.md#entrance)の&#x200B;**再エントリ待機期間**
+   * [イベントアクティビティ](../building-journeys/general-events.md#events-specific-time)のタイムアウト定義の「**待機**」フィールド。
 
 <!--
 **Consent in channel configuration**
@@ -124,7 +124,7 @@ ht-degree: 95%
 
 **意思決定管理**
 
-* 決定管理インターフェイスのオファー制限に関連するいくつかのラベルが更新されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
+* 意思決定管理インターフェイスのオファーキャッピングに関連するいくつかのラベルが更新されました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023年9月リリースノート {#sept-rn-2023}
 

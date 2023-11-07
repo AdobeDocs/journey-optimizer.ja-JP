@@ -14,7 +14,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 53%
 
 >[!CAUTION]
 >
->IP ウォームアッププランにアクセス、作成、編集、削除するには、 **[!UICONTROL 配信品質コンサルタント]** 権限。 <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>IP ウォームアッププランへのアクセス、作成、編集および削除には、**[!UICONTROL 配信品質コンサルタント]**&#x200B;権限が必要です。<!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 
 ## IP ウォームアッププランファイルを準備 {#prepare-file}
 
@@ -45,7 +45,7 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
-IP ウォームアッププランを [!DNL Journey Optimizer] インターフェイスでは、プランに入力するすべてのデータを Excel テンプレートに入力する必要があります。
+IP ウォームアッププランを [!DNL Journey Optimizer] インターフェイスで作成する前に、プランにフィードするすべてのデータを Excel テンプレートに入力する必要があります。
 
 >[!CAUTION]
 >
@@ -59,20 +59,20 @@ IP ウォームアッププランを [!DNL Journey Optimizer] インターフェ
 
 >[!NOTE]
 >
->今のところ、 **プロパティ** および **値** セルが変更されませんでした。
+>現時点では、**プロパティ**&#x200B;および&#x200B;**値**&#x200B;セルを変更しないでください。
 
 ### 「IP ウォームアッププラン」タブ {#ip-warmup-plan-tab}
 
-* この例では、17 日間にわたる計画 (「**実行**「)」を追加して、100 万を超えるプロファイルのターゲットボリュームに到達します。
+* この例では、100 万を超えるプロファイルのターゲットボリュームを達成するために、17 日間にわたるプラン（「**実行**」と呼ばれる）が準備されています。
 
-* この計画は 6 時までに実行されます **フェーズ**（それぞれに少なくとも 1 回の実行が含まれる）
+* この計画は 6 つの&#x200B;**フェーズ**&#x200B;を通じて実行され、各フェーズには少なくとも 1 回の実行が含まれます。
 
 * 配信先のドメインに必要な数の列を含めることができます。この例では、計画は次の 6 つの列に分割されます。
 
-   * そのうち 4 つは **標準のドメイングループ** を使用して、プランに使用します (Gmail、Microsoft、Yahoo、Orange)。
-   * 1 つ目は、カスタムドメイングループに対応します ( このグループを [カスタムドメイングループ](#custom-domain-group-tab) 」タブ ) をクリックします。
-   * 6 列目は **その他**&#x200B;には、プランで明示的に適用されない他のドメインの残りのすべてのアドレスが含まれます。 この列はオプションです。省略した場合、E メールは指定したドメインにのみ送信されます。
-* The **エンゲージメント日数** 列には、入力した直近の期間にブランドとエンゲージしたプロファイルのみがターゲットになっていることが示されます。
+   * そのうち 4 列は&#x200B;**標準のドメイングループ**&#x200B;を対応し、プランに使用します（Gmail、Microsoft、Yahoo、Orange）。
+   * 1 列は、カスタムドメイングループに対応します（このグループを「[カスタムドメイングループ](#custom-domain-group-tab)」タブを使用して追加する必要があります）。
+   * 6 列目の&#x200B;**その他**&#x200B;には、プランで明示的に適用されない他のドメインの残りのすべてのアドレスが含まれます。この列はオプションです。省略した場合、メールは指定したドメインにのみ送信されます。
+* 「**エンゲージメント日数**」列は、過去の期間にブランドと関与したプロファイルのみがターゲットになっていることを示します。
 
 このアイデアでは、各フェーズの実行数を減らしながら、各実行でターゲットアドレスの数を徐々に増やしていきます。
 
@@ -155,43 +155,43 @@ adobe.com;adobe.fr;adobe.es
 次の 2 つのカスタムドメイングループがあるとします。
 
 * 1 つは Hotmail ドメイン専用です。
-* 1 つは、ドメイングループMicrosoftからの他のすべてのドメイン用です（したがって、すべての Hotmail ドメインを除く）。
+* もう 1 つは、ドメイングループ Microsoft からの他のすべてのドメイン用です（したがって、すべての Hotmail ドメインを除く）。
 
-その他のすべてのドメインは、 **[!UICONTROL その他]** 列。
+その他のすべてのドメインは、**[!UICONTROL その他]**&#x200B;列に集められます。
 
-1. Adobe Analytics の **[!UICONTROL カスタムドメイングループ]** タブ、 **Hotmail** ドメイングループ。
+1. 「**[!UICONTROL カスタムドメイングループ]**」タブで、**Hotmail** ドメイングループを作成します。
 
 1. 同じ行にすべての Hotmail ドメインを追加します。
 
-   以下が可能です。 [コピーして貼り付け](#copy-paste) Hotmail のすべてのドメインが、 [[IP ウォームアッププラン ] タブ](#ip-warmup-plan-tab) 」セクションに入力します。
+   [「IP ウォームアッププラン」タブ](#ip-warmup-plan-tab)のセクションにリストされる Hotmail のすべてのドメインを[コピーして貼り付け](#copy-paste)ます。
 
 1. 別の行を追加します。
 
-1. を作成します。 **MICROSOFT_X** ドメイングループ。
+1. **Microsoft_X** ドメイングループを作成します。
 
-1. Hotmail 以外のMicrosoftドメインをすべて同じ行に追加します。 同様に、上のリストからコピーして貼り付けることができます。 [詳細情報](#copy-paste)
+1. Hotmail 以外の Microsoft ドメインをすべて同じ行に追加します。同様に、上のリストからコピーして貼り付けることができます。[詳細情報](#copy-paste)
 
-1. に戻ります。 **[!UICONTROL IP ウォームアッププラン]** タブをクリックします。
+1. 「**[!UICONTROL IP ウォームアッププラン]**」タブに戻ります。
 
-1. 3 つの列を作成します。1 つは **Hotmail**, 1 **MICROSOFT_X** そして 1 つは **その他**.
+1. 3 列を作成します。1 列は、**Hotmail** 用に、もう 1 列は、**Microsoft_X** 用に、そしてもう 1 列は、**その他**&#x200B;用に作成します。
 
 1. 必要に応じて、列に入力します。
 
 >[!NOTE]
 >
->IP ウォームアッププランがにアップロードされると、 [!DNL Journey Optimizer]の場合、Microsoftドメイングループを除外する必要はありません。
+>IP ウォームアッププランが [!DNL Journey Optimizer] にアップロードされると、Microsoft ドメイングループを除外する必要はありません。
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 
-### デフォルトのドメインをコピー&amp;ペースト {#copy-paste}
+### デフォルトのドメインをコピー＆ペースト {#copy-paste}
 
-例えば、すべての Hotmail ドメインを含むカスタムドメイングループを作成する場合は、既定の一覧からドメインをコピーして貼り付けることができます [上](#ip-warmup-plan-tab).
+例えば、すべての Hotmail ドメインを含むカスタムドメイングループを作成する場合は、[上記の](#ip-warmup-plan-tab)デフォルトのリストからドメインをコピーして貼り付けることができます。
 
-次に、Excel 変換ツールを使用して、テキストを列に変換します。
+次に、Excel コンバージョンツールを使用して、テキストを列に変換します。
 
-1. 選択 **[!UICONTROL データ]** > **[!UICONTROL テキストから列へ…]**&#x200B;を選択します。 **[!UICONTROL 区切り]** を選択し、 **[!UICONTROL 次へ]**.
+1. **[!UICONTROL データ]**／**[!UICONTROL テキストから列へ…]**&#x200B;を選択し、「**[!UICONTROL 区切り]**」、「**[!UICONTROL 次へ]**」の順に選択します。
 
-1. 選択 **[!UICONTROL セミコロン]**&#x200B;をクリックし、 **[!UICONTROL 次へ]** および **[!UICONTROL 完了]**.
+1. 「**[!UICONTROL セミコロン]**」を選択し、「**[!UICONTROL 次へ]**」および「**[!UICONTROL 終了]**」をクリックします。
 
 各ドメインが同じ行の異なる列に表示されるようになりました。
 
@@ -212,7 +212,7 @@ adobe.com;adobe.fr;adobe.es
 
    >[!NOTE]
    >
-   >次の条件を満たすプランのみ **未開始** ステータスを削除できます。
+   >**未開始**&#x200B;のステータスのプランのみを削除できます。
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -244,11 +244,11 @@ IP ウォームアッププランを作成するには、次の手順に従い�
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. を選択します。 [表面](channel-surfaces.md) 温めたいと思っている。 選択できるのはマーケティングサーフェスのみです。[メールのタイプの詳細情報](../email/email-settings.md#email-type)
+1. ウォームアップする[サーフェス](channel-surfaces.md)を選択します。選択できるのはマーケティングサーフェスのみです。[メールのタイプの詳細情報](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >IP ウォームアッププランに関連付けるキャンペーンは、同じサーフェスを使用する必要があります。 [IP ウォームアップキャンペーンの作成方法を学ぶ](ip-warmup-campaign.md)
+   >IP ウォームアッププランに関連付けるキャンペーンは、同じサーフェスを使用する必要があります。[IP ウォームアップキャンペーンの作成方法を学ぶ](ip-warmup-campaign.md)
 
 1. IP ウォームアッププランを含む Excel ファイルをアップロードします。[詳細情報](#prepare-file)
 
@@ -259,10 +259,10 @@ IP ウォームアッププランを作成するには、次の手順に従い�
 
    >[!NOTE]
    >
-   >アップロードに失敗した場合は、正しい形式とファイル形式（.xls または.xlsx）を使用していることを確認してください。 Adobe別のサンプルを使用します。
+   >アップロードに失敗した場合は、正しい形式とファイル形式（.xls または.xlsx）を使用していることを確認してください。アドビが提供するサンプルを使用します。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。アップロードしたファイルに定義されているすべてのフェーズ、実行、列、およびそれらのコンテンツは、[!DNL Journey Optimizer] インターフェイスに自動的に表示されます。
 
    ![](assets/ip-warmup-plan-uploaded.png)
 
-これで、IP ウォームアップ計画を実行する準備が整いました。 [詳細情報](ip-warmup-execution.md)
+これで、IP ウォームアッププランを実行する準備が整いました。[詳細情報](ip-warmup-execution.md)

@@ -10,7 +10,7 @@ level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
 

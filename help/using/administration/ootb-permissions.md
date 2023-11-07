@@ -12,13 +12,13 @@ exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
 # 組み込みの権限 {#ootb-permissions}
 
-組み込み権限は、割り当て可能な様々な権限を表します **[!UICONTROL 役割]** を使用して、Journey Optimizerへのユーザーアクセスを微調整できます。 高レベルの権限には、低レベルの権限が含まれます。詳しくは、 [このページ](high-low-permissions.md).
+組み込みの権限は、「**[!UICONTROL 役割]**」に割り当てることができる様々な権限を表します。これにより、Journey Optimizer へのユーザーアクセスを微調整します。高レベルの権限には、[このページ](high-low-permissions.md)で詳しく説明されている低レベルの権限が含まれます。
 
 | 機能 | 権限 |
 |-|-|

@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_api_profile_creation"
 >title="キャンペーンのタイプ"
->abstract="プロファイルを作成せずにメッセージを送信する機能が限られている場合は、ドキュメントに記載されている手順に従います。"
+>abstract="プロファイルを作成せずにメッセージを送信する機能が限定的に利用可能な場合は、ドキュメントに記載されている手順に従います。"
 
 ## API トリガー型キャンペーンについて {#about}
 

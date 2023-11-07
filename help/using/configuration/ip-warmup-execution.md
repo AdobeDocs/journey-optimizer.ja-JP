@@ -14,7 +14,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. 「**[!UICONTROL プロファイルの除外]**」セクションでは、そのフェーズの前の実行からのプロファイルが常に除外されることを確認できます。例えば、実行 #1 で、ターゲットとなる最初の 4,800 人のユーザーがプロファイルに含まれていた場合、システムは自動的に、同じプロファイルが実行 #2 でメールを受信しないようにします。
 
-1. 次から： **[!UICONTROL 除外されたキャンペーンオーディエンス]** セクションで、他のキャンペーンオーディエンスを選択します。 <!--executed/live?-->現在のフェーズから除外するキャンペーン。
+1. 「**[!UICONTROL 除外されたキャンペーンオーディエンス]**」セクションで、現在のフェーズから除外する他の<!--executed/live?-->キャンペーンのキャンペーンオーディエンスを選択します。
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -156,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >実行にエンゲージメント期間を適用しない場合は、「 **[!UICONTROL 最後のエンゲージメント]** フィールドに入力します。
+   >実行にエンゲージメント期間を適用しない場合は、「**[!UICONTROL 前回のエンゲージメント]**」フィールドに 0 を入力します。
 
 1. オーディエンスが実行の評価後に、適格なプロファイルがターゲットのプロファイルよりも小さい場合に実行をキャンセルするには、「**[!UICONTROL エラーが発生した場合に一時停止]**」オプションを選択します。
 

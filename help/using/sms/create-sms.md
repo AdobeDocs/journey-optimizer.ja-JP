@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 100%
 
@@ -120,9 +120,9 @@ ht-degree: 100%
 
    ![](assets/sms_create_6.png)
 
-1. メディアに&#x200B;**[!UICONTROL タイトル]**&#x200B;を追加します。
+1. 「**[!UICONTROL タイトル]**」をメディアに追加します。
 
-1. メディアの URL を「**[!UICONTROL メディア]**」フィールドに入力します。
+1. 「**[!UICONTROL メディア]**」フィールドにメディアの URL を入力します。
 
    ![](assets/sms_create_7.png)
 
