@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '777'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="サブドメインの PTR レコード"
->abstract="Adobe Journey Optimizer でサブドメインがデリゲートされると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。"
+>abstract="最初のサブドメインがJourney OptimizerのAdobeにデリゲートされると、PTR レコードが自動的に作成されます。"
 
 ## PTR レコードについて {#about-ptr-records}
 
@@ -36,7 +36,7 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 ## サブドメインの PTR レコードへのアクセス {#access-ptr-records}
 
-Adobe Journey Optimizer で[サブドメインがデリゲート](delegate-subdomain.md)されると、PTR レコードが自動的に作成され、このサブドメインに関連付けられます。**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
+一度 [delegate](delegate-subdomain.md) にAdobeする最初のサブドメイン [!DNL Journey Optimizer]、PTR レコードは IP 用に自動的に作成されます。 これらには、 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]** > **[!UICONTROL PTR レコード]** メニュー。
 
 ![](assets/ptr-records.png)
 

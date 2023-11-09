@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 100%
+source-wordcount: '1079'
+ht-degree: 98%
 
 ---
 
@@ -292,20 +292,6 @@ ht-degree: 100%
 
 ## チャネル設定リソース {#administration-permissions}
 
-* 「**[!DNL Manage channel surface]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの作成、編集および削除をサンドボックスレベルで行うことができます。
-
-+++ これには、次の低レベル権限が含まれます。
-
-   * Journey Optimizer 固有：
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read（Adobe Experience Platform Launch から）
-
-+++
-
 * 「**[!DNL Manage IP pools]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
@@ -345,7 +331,7 @@ ht-degree: 100%
 
 +++
 
-* 「**[!DNL Manage messages presets]**」という高レベルの権限を持つユーザーは、コンテンツのブランディングの読み取り、作成、編集、削除を行うことができます。
+* **[!DNL Manage messages presets]** 高レベル権限を持つユーザーは、サンドボックスレベルでチャネルをまたいでチャネルサーフェスの読み取り、作成、編集、削除をおこなうことができます。
 
 +++ これには、次の低レベル権限が含まれます。
 
@@ -357,7 +343,7 @@ ht-degree: 100%
       * IP_pools.read
 
    * データ収集固有：
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -394,7 +380,7 @@ ht-degree: 100%
 
 +++
 
-* 「**[!DNL Manage subdomains delegation]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
+* 「**[!DNL Manage subdomains delegations]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
