@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 94%
+source-wordcount: '773'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 ![](assets/ptr-records.png)
 
-このリストには、以下の構文を使用して、デリゲートされたサブドメインごとに生成された PTR レコードが表示されます。
+このリストには、以下の構文を使用して生成された PTR レコードが表示されます。
 
 * レコードの場合は「r」。
 * IP アドレスの最後の 2 桁には「xx」。
