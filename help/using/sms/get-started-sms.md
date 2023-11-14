@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 96%
 
 ---
 
@@ -21,13 +21,9 @@ ht-degree: 100%
 
 SMS 配信を作成するには、次の手順を実行します。
 
-* **ジャーニーの場合**：ジャーニーに SMS アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : SMS]** パネルを使用して SMS メッセージのコンテンツを作成します。
+* **ジャーニーの場合**：ジャーニーに SMS アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : SMS]** パネルを使用して SMS メッセージのコンテンツを作成します。[ジャーニーの作成方法を説明します](../building-journeys/journey-gs.md)
 
-  ジャーニーの設定方法について詳しくは、この[ページ](../building-journeys/journey-gs.md)を参照してください。
-
-* **キャンペーンの場合**：キャンペーンを作成したら、アクションとして SMS を選択し、基本設定を定義します。
-
-  キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーンの場合**：キャンペーンを作成したら、アクションとして SMS を選択し、基本設定を定義します。[キャンペーンの作成方法について学ぶ](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
