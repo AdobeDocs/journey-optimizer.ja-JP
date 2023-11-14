@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 98%
 
 ---
 
@@ -27,13 +27,9 @@ ht-degree: 100%
 
 プッシュ通知は次の場所で作成できます。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーにプッシュアクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : プッシュ]**&#x200B;パネルを使用して、プッシュ通知のコンテンツを作成します。
+* **ジャーニー**&#x200B;の場合：ジャーニーにプッシュアクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : プッシュ]**&#x200B;パネルを使用して、プッシュ通知のコンテンツを作成します。[ジャーニーの作成方法を説明します](../building-journeys/journey-gs.md)
 
-  ジャーニーの設定方法について詳しくは、この[ページ](../building-journeys/journey-gs.md)を参照してください。
-
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。
-
-  キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。[キャンペーンの作成方法について学ぶ](../campaigns/create-campaign.md#configure)
 
 専用のタブを使用して、**iOS** および **Android** オペレーティングシステムのプッシュ通知設定を定義します。
 
