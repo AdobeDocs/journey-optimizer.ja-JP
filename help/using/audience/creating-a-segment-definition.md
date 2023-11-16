@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -67,6 +67,6 @@ ht-degree: 90%
 
 ## チュートリアルビデオ{#video-segment}
 
-Journey Optimizerがルールを使用してオーディエンスを生成する方法を理解し、属性、イベントおよび既存のオーディエンスを使用してオーディエンスを作成する方法を学びます。
+Journey Optimizer がルールを使用してオーディエンスを生成する方法を理解し、属性、イベント、既存のオーディエンスを使用してオーディエンスを作成する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

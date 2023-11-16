@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -137,6 +137,6 @@ API トリガー型キャンペーンを使用すると、追加のデータを 
 
 ## チュートリアルビデオ {#video}
 
-インタラクティブメッセージトリガーREST API を使用して、キャンペーンを作成し、ユーザーの操作に基づいて外部システムから実行する方法を説明します。
+インタラクティブメッセージ実行 REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
