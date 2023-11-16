@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 92%
+source-wordcount: '740'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 |-|-|
 | キャンペーン | **[!DNL Manage campaigns]**：キャンペーンの読み取り、作成、編集、削除。</br>**[!DNL Publish campaigns]**：キャンペーンを公開する権限。</br>**[!DNL View campaigns]**：キャンペーンへの読み取り専用アクセス。</br>**[!DNL View campaigns report]**：キャンペーンレポートの読み取り、編集。 |
 | レポート | **[!DNL View channel reports]**：チャネルレポートの読み取り、編集。 |
-| チャネル設定 | **[!DNL Export suppression list]**：抑制リストを CSV ファイルとして書き出すためのアクセス権。</br>**[!DNL Manage alerts]**：キャンペーン、メッセージ、権限に関するアラートの有効化／無効化。</br> **[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</br>**[!DNL Manage landing page settings]**：ランディングページ設定の読み取り、作成、編集、削除。</br> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</br>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</br>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</br>**[!DNL Manage SMS settings]**：SMS 設定の読み取り、作成、編集、削除。</br>**[!DNL Manage SMS subdomains]**：SMS サブドメインの読み取り、作成、編集、削除。</br> **[!DNL Manage Seedlist]**：シードリストの読み取り、作成、編集、削除。</br> **[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</br>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</br>**[!DNL View channel surfaces]**：チャネルサーフェスへの読み取り専用アクセス。</br> **[!DNL View messages general settings]**：メッセージの一般設定への読み取り専用アクセス。</br> **[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</br> **[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</br>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。 |
+| チャネル設定 | **[!DNL Export suppression list]**：抑制リストを CSV ファイルとして書き出すためのアクセス権。</br>**[!DNL Manage alerts]**：キャンペーン、メッセージ、権限に関するアラートの有効化／無効化。</br> **[!DNL Manage file routing]**：ファイルルーティング設定を読み取り、作成、編集、削除します。 </br> **[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</br>**[!DNL Manage landing page settings]**：ランディングページ設定の読み取り、作成、編集、削除。</br> **[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</br>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</br>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</br>**[!DNL Manage SMS settings]**：SMS 設定の読み取り、作成、編集、削除。</br>**[!DNL Manage SMS subdomains]**：SMS サブドメインの読み取り、作成、編集、削除。</br> **[!DNL Manage Seedlist]**：シードリストの読み取り、作成、編集、削除。</br> **[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</br>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</br> **[!DNL View channel surfaces]**：チャネルサーフェスへの読み取り専用アクセス。</br>**[!DNL View file routing]**：ファイルルーティング設定への読み取り専用アクセス。</br>**[!DNL View messages general settings]**：メッセージの一般設定への読み取り専用アクセス。</br> **[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</br> **[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</br>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。 |
 | ダッシュボード | **[!DNL View license usage dashboards]**：ライセンス使用状況ダッシュボードを表示する読み取り専用アクセス。</br>**[!DNL Manage custom dashboards]**：新しいダッシュボードの作成と、既存のダッシュボードの編集の許可。</br>**[!DNL View custom dashboards]**：ユーザー定義ダッシュボードへの読み取り専用アクセス。</br>**[!DNL View standard dashboards]**：プロファイル、宛先、オーディエンスの各ダッシュボードへの読み取り専用アクセス。</br>**[!DNL Manage standard dashboards]**：カスタムウィジェットの作成と、ウィジェットライブラリを介したウィジェットスキーマの編集の許可。 |
 | データ収集 | **[!DNL Manage datastream]**：データストリームの読み取り、作成、編集。</br>**[!DNL View datastream]**：データストリームへの読み取り専用アクセス。 |
 | データガバナンス | **[!DNL Manage usage labels]**：ラベルの読み取り、作成、編集、削除。</br>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</br>**[!DNL View data usage policies]**：組織に属するデータ使用ポリシーに対する読み取り専用アクセス。</br>**[!DNL View user activity log]**：Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。 |
@@ -32,7 +32,7 @@ ht-degree: 92%
 | データ取り込み | **[!DNL Manage sources]**：ソースの読み取り、作成、編集、無効化。</br>**[!DNL View sources]**：「カタログ」タブでの使用可能なソースおよび「参照」タブでの認証済みのソースへの読み取り専用アクセス。 |
 | データ管理 | **[!DNL Manage datasets]**：データセットの読み取り、作成、編集、削除。スキーマへの読み取り専用アクセス&#x200B;</br>**[!DNL View datasets]**：データセットおよびスキーマに対する読み取り専用アクセス。</br>**[!DNL Data monitoring]**：監視データセットおよびストリームへの読み取り専用アクセス。 |
 | データモデリング | **[!DNL Manage schemas]**：エクスペリエンスデータモデル（XDM）スキーマの読み取り、作成、編集。</br>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</br>**[!DNL Manage relationships]**：スキーマ関係の読み取り、作成、編集、削除。</br>**[!DNL Manage identity metadata]**：スキーマの ID メタデータの読み取り、作成、編集、削除。 |
-| 意思決定管理 | **[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</br>**[!DNL View decisions]**：オファーエンティティへの読み取り専用アクセス。</br>**[!DNL Manage offers]**：すべてのオファー、コンポーネント、決定およびコレクションの読み取り、作成、編集、削除。</br>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</br> |
+| 意思決定管理 | **[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</br>**[!DNL View decisions]**：オファーエンティティへの読み取り専用アクセス。</br>**[!DNL Manage offers]**：すべてのオファー、コンポーネント、決定およびコレクションの読み取り、作成、編集、削除。</br>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</br>。 |
 | 宛先 | **[!DNL Manage destinations]**：宛先アクティブ化フローと宛先アカウントの読み取り、作成および削除。</br>**[!DNL View destinations]**：「カタログ」タブの使用可能な宛先と「参照」タブの認証済みの宛先への読み取り専用アクセス。</br>**[!DNL Activate destinations]**：ユーザーが既存の宛先に対してオーディエンスをアクティブ化できるようにします。</br>**[!DNL Activate segment without mapping]**：ユーザーが、マッピング手順を表示せずに、既存の宛先に対するオーディエンスをアクティブ化できるようにします。 ユーザーは、アクティベーションワークフローでオーディエンスの追加と削除ができますが、マッピングされた属性や ID の追加や削除はできません。</br>**[!DNL Manage and activate dataset destination]**：データセット書き出しフローを読み取り、作成、編集および無効化。作成済みのアクティブなデータセットに対してデータもアクティブ化する機能。</br>**[!DNL Destination authoring]**：Adobe Experience Platform Destination SDK を使用して宛先を作成します。 |
 | ID 管理 | **[!DNL Manage identity namespaces]**：ID 名前空間の読み取り、作成および編集。</br>**[!DNL View identity namespaces]**：ID 名前空間への読み取り専用アクセス。</br>**[!DNL Manage identity settings]**：ID 設定の読み取り、作成および編集。</br>**[!DNL View identity settings]**：ID 設定への読み取り専用アクセス。</br>**[!DNL View identity graph]**：ID グラフへの読み取り専用アクセス。 |
 | Journey Optimizer ライブラリ | **[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</br>**[!DNL Simulate content]**：プレビューおよび配達確認用に「コンテンツをシミュレート」オプションへのアクセス。 |
