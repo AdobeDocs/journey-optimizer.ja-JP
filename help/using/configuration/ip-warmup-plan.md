@@ -11,10 +11,10 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 86%
 
 ---
 
@@ -33,9 +33,43 @@ ht-degree: 100%
 
 専用のサーフェスと対応するオプションを有効にして、1 つ以上の [IP ウォームアップキャンペーン](ip-warmup-campaign.md)を作成したら、IP ウォームアッププランの作成を開始できます。
 
->[!CAUTION]
->
->IP ウォームアッププランへのアクセス、作成、編集および削除には、**[!UICONTROL 配信品質コンサルタント]**&#x200B;権限が必要です。<!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+IP ウォームアッププランにアクセス、作成、編集、削除するには、 **[!UICONTROL 配信品質コンサルタント]** 役割または IP ウォームアッププラン関連の権限。
+
++++配信品質コンサルタントの役割または IP ウォームアッププラン関連の権限を割り当てる方法を説明します。
+
+対応する権限を特定の **[!UICONTROL 役割]**:
+
+1. 次から： [!DNL Permissions] 製品の場合は、 **[!UICONTROL 役割]** メニューを開き、新しい **[!UICONTROL IP ウォームアップ構成]** 権限。
+
+1. **[!UICONTROL 役割]**&#x200B;ダッシュボードで、「**[!UICONTROL 編集]**」をクリックします。
+
+   ![](assets/ip_permissions_1.png)
+
+1. 次をドラッグ&amp;ドロップ： **[!UICONTROL IP ウォームアップ構成]** 権限を割り当てるリソース。
+
+1. 次から： **[!UICONTROL IP ウォームアップ構成]** リソースドロップダウンで、ユーザーが必要とする権限を選択します。
+
+   ![](assets/ip_permissions_2.png)
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+対応する役割をに割り当てるには、以下を実行します。 **[!UICONTROL ユーザー]**:
+
+1. 次から： [!DNL Permissions] 製品の場合は、 **[!UICONTROL 役割]** メニューを開き、 **[!UICONTROL 配信品質コンサルタント]** 組み込みの役割。
+
+1. お使いの **[!UICONTROL 役割]** ダッシュボードにアクセスする **[!UICONTROL ユーザー]** タブをクリックします。
+
+   ![](assets/ip_permissions_3.png)
+
+1. クリック **[!UICONTROL ユーザーを追加]** 割り当てる **[!UICONTROL 配信品質コンサルタント]** 組み込みの役割。
+
+   ![](assets/ip_permissions_4.png)
+
+1. を選択します。 **[!UICONTROL ユーザー]** をクリックします。 **[!UICONTROL 保存]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## IP ウォームアッププランファイルを準備 {#prepare-file}
 
@@ -264,5 +298,9 @@ IP ウォームアッププランを作成するには、次の手順に従い�
 1. 「**[!UICONTROL 作成]**」をクリックします。アップロードしたファイルに定義されているすべてのフェーズ、実行、列、およびそれらのコンテンツは、[!DNL Journey Optimizer] インターフェイスに自動的に表示されます。
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >The **[!UICONTROL ターゲット]** 列には、各実行でターゲットとなるすべてのプロファイルの合計が表示されます。つまり、定義した各ドメイングループのすべてのプロファイル ( **その他** 列（存在する場合）
 
 これで、IP ウォームアッププランを実行する準備が整いました。[詳細情報](ip-warmup-execution.md)
