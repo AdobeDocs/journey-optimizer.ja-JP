@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 1d7e8fde57d0397891aecad4979b1008a3c10a47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1730'
 ht-degree: 98%
 
 ---
@@ -46,6 +46,11 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * MMS 用のメディアファイルは、サポートされている URL を通じて含めることができます。メディアファイルは別々にアップロードしてください。
 * 現在、MMS ではメッセージのフィードバック同期を使用できません。
 * 同意の管理は、MMS の SMS チャネルレベルで動作します。
+
+## フラグメントガードレール {#fragments-guardrails}
+
+* ビジュアルフラグメントは、メールチャネルでのみ使用できます.
+* 式フラグメントは、web チャネルとアプリ内チャネルでは使用できません.
 
 ## ジャーニーガードレール {#journeys-guardrails}
 
