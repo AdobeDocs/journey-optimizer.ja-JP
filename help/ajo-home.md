@@ -4,223 +4,114 @@ title: Journey Optimizer 製品ドキュメント
 description: Adobe Journey Optimizer の使用方法について説明します。
 solution: Journey Optimizer
 product: journey optimizer
-feature: Overview
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 94d91d423516535ca57f5e89f98abcbffd281897
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 41%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
+## 新着情報
+
+Journey Optimizerの最新の機能強化をご覧ください。 機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](using/rn/release-notes.md).
+
+>[!BEGINTABS]
+
+>[!TAB サンドボックスツール]
+
+サンドボックスツールを使用すると、パッケージの書き出しと読み込みを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。
+
+[![画像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+
+>[!TAB SMS のマルチメディアメッセージサービス（MMS）]
+
+SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。
+
+[![画像](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+
+>[!ENDTABS]
+
+## 基本事項から始めます
+
 <table style="table-layout:fixed">
-<tr style="border: 0;">
-  <td>
-    <div><strong>今すぐはじめる</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <div>
-      <a href="using/start/get-started.md">[!DNL Journey Optimizer] とは？</a>
-    </div>
-    <p>主要な機能とユースケースについて説明します
-    <p>
-    <div>
-      <a href="using/rn/release-notes.md">リリースノート</a>
-    </div>
-    <p>新機能、最新の機能強化および修正点について説明します</p>
-   <p>
-    <div>
-      <a href="using/start/quick-start.md">クイックスタートガイド</a>
-    </div>
-    <p>管理者、データエンジニアまたはジャーニー実務担当者としての開始方法について説明します</p>
-    <p>
-    <p>
-    <div>
-      <a href="using/email/get-started-email-design.md">メールコンテンツの設計</a>
-    </div>
-    <p>新しいメールの設計または既存の HTML コンテンツのインポートについて説明します</p>
-    <p>
-    <div>
-    <a href="using/building-journeys/journey-gs.md">初めてのジャーニーの作成</a>
-    </div>
-    <p>ジャーニーの作成および実行方法を説明します
-    <p>
-     <div>
-      <a href="using/campaigns/create-campaign.md">キャンペーンの作成と管理</a>
-    </div>
-    <p>最初のキャンペーンを作成、設定および送信</p>
-    <p>
-    <div>
-    <div>
-    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer]</a> の設定
-    </div>
-    <p>主な設定手順を学ぶ [!DNL Journey Optimizer]</p>
-    <p>
-    <div>
-    <a href="using/administration/permissions-overview.md">[!DNL Journey Optimizer]</a> にアクセス権を付与
-    </div>
-    <p>[!DNL Journey Optimizer] ユーザーに割り当てられる権限を定義し管理する方法について説明します</p>
-    <p>
-    <div>
-    <a href="using/offers/get-started/starting-offer-decisioning.md">意思決定管理</a>
-    </div>
-    <p>オファーを作成し最適なオファーとエクスペリエンスを顧客に提供する方法を説明します</p>
-    <p>
-    <p>
-    <div><strong>その他のリソース</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <li>
-      <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 製品の説明</a>
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer Security の概要</a>（PDF）
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">Adobe Experience Platform のドキュメント</a>
-    </li>
-    </div>
-    <div>
-      <li>
-      <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">Adobe Experience Platform デベロッパーリソース</a>
-    </li>
-    </div>
-    <p>
-    </p>
-    <p>
-    </p>
-    <div>
-    </div>
-    <div><strong>ニュースレター</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <p><a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer 季刊ニュースレター</a>に新規登録します。</p>
-    <p>最新の製品アップデート、わくわくするような顧客事例、ユースケース、ヒントなどを、四半期ごとに受信ボックスに直接配信します。各ニュースレターでは、次の内容をご覧いただけます。</p>
-    <li>最近リリースされた機能を含む製品ニュースおよびアップデート</li>
-    <li>イベントやウェビナーへの招待、最近のウェビナーの録画</li>
-    <li>Adobe Journey Optimizer Experience League コミュニティの選り抜きのディスカッション </li>
-    <li>Adobe Journey Optimizer の他のお客様の事例とユースケース</li>
-    <li>ビジネスを成功に導く顧客体験を実現するためのヒントとテクニック</li>
-  </td>
-   <td>
-   <div><strong>主要リソースへの直接リンク</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <p>ジャーニー管理</p>
-    <li>
-      <a href="using/campaigns/get-started-with-campaigns.md">キャンペーン</a>
-    </li>
-        <li>
-      <a href="using/building-journeys/journey-gs.md">ジャーニー</a>
-    </li>
-    <li>
-      <a href="using/landing-pages/get-started-lp.md">ランディングページ</a>
-    </li>
-    <p>
-    <p>意思決定管理
-</p>
-    <li>
-      <a href="using/offers/get-started/starting-offer-decisioning.md">オファー</a>
-    </li>
-     <li>
-      <a href="using/offers/offer-library/key-steps.md">コンポーネント</a>
-    </li>
-    <p>
-    <p>コンテンツ管理</p>
-    <li>
-      <a href="using/content-management/assets-essentials.md">Assets</a>
-    </li>
-    <li>
-      <a href="using/content-management/content-templates.md">コンテンツテンプレート</a>
-    </li>
-      <li>
-      <a href="using/content-management/fragments.md">フラグメント</a>
-    </li>
-    <p>
-    <p>データ管理</p>
-    <li>
-      <a href="using/data/get-started-schemas.md">スキーマ</a>
-    </li>
-     <li>
-      <a href="using/data/get-started-datasets.md">データセット</a>
-    </li>
-        <li>
-      <a href="using/data/get-started-queries.md">クエリ</a>
-    </li>
-     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja" target="_blank">監視</a>
-    </li>
-    <p>
-    <p>接続</p>
-      <li>
-      <a href="using/data/export-datasets.md">宛先</a>
-    </li>
-    <li>
-      <a href="using/start/get-started-sources.md">ソース</a>
-    </li>
-    <p>
-    <p>顧客</p>
-    <li>
-      <a href="using/audience/about-audiences.md">オーディエンス</a>
-    </li>
-    </li>
-    <li>
-      <a href="using/landing-pages/subscription-list.md">購読リスト</a>
-    </li>     
-    <li>
-      <a href="using/audience/get-started-profiles.md">プロファイル</a>
-    </li>
-    <li>
-      <a href="using/audience/get-started-identity.md">ID</a>
-    </li>
-    <p>
-    <p>プライバシー</p>
-    <li>
-      <a href="using/action/action-privacy.md">ポリシー</a>
-    </li>
-    <li>
-      <a href="using/privacy/requests.md">リクエスト</a>
-    </li>
-        <li>
-      <a href="using/privacy/audit-logs.md"target="_blank">監査</a>
-    </li>
-        <li>
-      <a href="using/privacy/data-hygiene.md"target="_blank">データハイジーン</a>
-    </li>
-    <p>
-    <p>管理</p>
-    <li>
-      <a href="using/configuration/about-data-sources-events-actions.md">設定</a>
-    </li>
-    <li>
-      <a href="using/configuration/frequency-rules.md">ルール</a>
-    </li>
-        <li>
-      <a href="using/reports/alerts.md">アラート</a>
-    </li>
-    <li>
-      <a href="using/configuration/get-started-configuration.md">チャネル</a>
-    </li>
-     <li>
-      <a href="using/administration/sandboxes.md">サンドボックス</a>
-    </li>
-     <li>
-      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">タグ</a>
-    </li>
-  </td>
-</tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a></a>
+    <div><strong>クイックスタートガイド</strong><br/>役割に応じてパーソナライズされたアプローチを使用して、Journey Optimizerで目標をより迅速に達成する方法を学びます。</div>
+    </td>
+    <td>
+    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
+    <div><strong>ユーザーインターフェイス</strong><br/>Journey Optimizerでエクスペリエンスをナビゲートおよび最適化する方法について説明します。</div><br/>
+    </td>
+    <td>
+    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
+    <div><strong>最初のジャーニーを作成</strong><br/>パーソナライズされたチャネルジャーニーの設計と調整を行い、マーケティングアウトリーチと 1 対 1 の顧客エンゲージメントを調整します。 
+    </div></td>
+    <td>
+    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
+    <div><strong>最初のキャンペーンを開始</strong><br/>Journey Optimizerで最初のキャンペーンを作成して開始し、特定のオーディエンスに対して 1 回限りのターゲットコンテンツを配信します。</div>
+    </td>
+  </tr>
 </table>
+
+## ドキュメントを参照
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
+    <td>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="using/building-journeys/journey.md">ジャーニー</a> - <a href="using/campaigns/get-started-with-campaigns.md">キャンペーン</a> - <a href="using/landing-pages/get-started-lp.md">ランディングページ</a> - <a href="using/reports/live-report.md">レポート</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-configure.svg" width="70px">
+    </td>
+    <td>
+      <strong>設定と管理</strong><br/><a href="using/configuration/channel-surfaces.md">チャンネルサーフェス</a> - <a href="using/configuration/about-data-sources-events-actions.md">ジャーニーの設定</a>  - <a href="using/administration/permissions-overview.md">アクセス制御</a> - <a href="using/administration/sandboxes.md">サンドボックス管理</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-campaign.svg" width="70px">
+    </td>
+    <td>
+      <strong>通信チャネル</strong><br/><a href="using/email/get-started-email.md">電子メール</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">アプリ内</a> - <a href="using/push/get-started-push.md">プッシュ通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">ダイレクトメール</a> - <a href="using/web/get-started-web.md">Web</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
+    </td>
+    <td>
+      <strong>コンテンツ管理</strong><br/><a href="using/content-management/assets-essentials.md">アセット/画像</a> - <a href="using/personalization/personalize.md">パーソナライズ</a> - <a href="using/content-management/content-templates.md">再利用可能</a> &amp; <a href="using/personalization/dynamic-content.md">動的</a> コンテンツ — <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">
+    </td>
+    <td>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="using/audience/about-audiences.md">オーディエンス</a> - <a href="using/audience/get-started-profiles.md">プロファイル</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">ライセンスの使用状況</a> - <a href="using/privacy/get-started-privacy.md">プライバシー管理</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-data.svg" width="70px">
+    </td>
+    <td>
+      <strong>データ管理</strong><br/><a href="using/data/get-started-schemas.md">スキーマ</a> - <a href="using/data/get-started-datasets.md">データセット</a> - <a href="using/data/get-started-queries.md">クエリ</a>
+    </td>
+  </tr>
+</table>
+
+## その他のリソース
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><strong>Adobe Journey Optimizer</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品の説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">セキュリティの概要 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API リファレンス</a>
+</td>
+<td><strong>Adobe Experience Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">ドキュメント</a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
+</td>
+</tr></table>
+
+<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>常に情報を提供し、Adobe Journey Optimizerのエクスペリエンスを向上させます。</b><br/>四半期ごとのニュースレターに新規登録します。 最新の製品アップデート、魅力的なストーリー、実際の使用例、貴重なヒントなど、すべての情報が四半期ごとにインボックスに直接届くようになります。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">今すぐ登録！</a></td></tr></table>
+
