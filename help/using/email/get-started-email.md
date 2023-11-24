@@ -10,9 +10,9 @@ level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 92%
 
 メール配信を作成するには、次の手順を実行します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、「**[!UICONTROL アクション：メール]**」の右側のパネルを使用して、 メッセージのコンテンツを作成します。[ジャーニーの作成方法を説明します](../building-journeys/journey-gs.md)
+* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../building-journeys/journey-gs.md)
 
-* **Campaign**&#x200B;の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[キャンペーンの作成方法を説明します](../campaigns/create-campaign.md#configure)
+* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[キャンペーンの作成方法を学ぶ](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
