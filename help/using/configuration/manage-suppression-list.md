@@ -10,9 +10,9 @@ level: Experienced
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1595'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 >
 >アドビは、エンゲージメントやメーリングレピュテーションに悪影響を与えることが判明している既知の不正なアドレスのリストを絶えず更新して、それらのアドレスにメールが配信されないようにしています。このリストは、すべてのアドビのお客様に共通のグローバル抑制リストで管理されます。グローバル抑止リストに含まれているアドレスやドメイン名は非公開です。除外された受信者の数のみが配信レポートに含まれます。
 
-また、Journey Optimizer **抑制 REST API** 抑制と許可リストを使用して送信メッセージを制御する [抑制 REST API の使用方法を説明します。](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ja)
+また、Journey Optimizer の **Suppression REST API** を活用して、抑制リストと許可リストを使用して送信メッセージを制御できます。[Suppression REST API の使用方法を学ぶ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ja)
 
 ## 抑制リストへのアクセス {#access-suppression-list}
 
