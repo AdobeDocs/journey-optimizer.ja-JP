@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
    ![](assets/report_modify_1.png)
 
-1. 複数の設定済みのジャーニーレポート用 **[!UICONTROL アクション]**、特定の **[!UICONTROL アクション]** を選択します。
+1. 複数の設定済み&#x200B;**[!UICONTROL アクション]**&#x200B;が含まれるジャーニーレポートの場合は、ドロップダウンメニューから特定の&#x200B;**[!UICONTROL アクション]**&#x200B;を選択します。
 
-1. 1 つまたは複数の繰り返しメッセージのみをターゲットにする場合は、 **[!UICONTROL 実行時間]** 」ドロップダウンリストから選択できます。
+1. 1 つまたは複数の繰り返しメッセージのみをターゲットにする場合は、**[!UICONTROL 実行時間]**&#x200B;ドロップダウンから選択します。
 
    ![](assets/report_modify_12.png)
 
