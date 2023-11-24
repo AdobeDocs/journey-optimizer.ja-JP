@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
    >[!CAUTION]
    >
-   >ファイルルーティング設定を作成するには、 **[!DNL Manage file routing]** 組み込み権限。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)。
+   >ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** 組み込みの権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)。
 
 1. [ダイレクトメールサーフェス](#direct-mail-surface)：ファイルのルーティング設定を参照します。ファイルのルーティングオプションを設定していない場合は、ダイレクトメールサーフェスを作成できません。
 
