@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4103'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 2023年11月 {#nov-2023}
 
-* すべてのカスタムアクションを制限するガードレールが、30 秒で 150,000 回の呼び出しから 1 分で 300,000 回の呼び出しに変更されました。 さらに、デフォルトのキャッピングが各エンドポイントに適用されなくなりました。 現在は、ホストごとおよびサンドボックスごとに実行されます。 例えば、サンドボックスで、同じホストを持つ 2 つのエンドポイントがある場合 ( 例： `https://www.adobe.com/endpoint1` および `https://www.adobe.com/endpoint2`) の場合、制限はadobe.comホスト下のすべてのエンドポイントに適用されます。 「endpoint1」と「endpoint2」は同じキャッピング設定を共有し、1 つのエンドポイントが制限に達すると、もう 1 つのエンドポイントに影響を与えます。 [詳細情報](../action/about-custom-action-configuration.md)
+* すべてのカスタムアクションを制限するガードレールを、30 秒間で 150,000 回の呼び出しから 1 分間で 300,000 回の呼び出しに変更しました。また、デフォルトのキャッピングは、各エンドポイントに適用しなくなりました。現在は、ホストごとおよびサンドボックスごとに実行されます。例えば、サンドボックスで、同じホストに 2 つのエンドポイントがある場合（例：`https://www.adobe.com/endpoint1` と `https://www.adobe.com/endpoint2`）、キャッピングは adobe.com ホストの下にあるすべてのエンドポイントに適用されます。「endpoint1」と「endpoint2」は同じキャッピング設定を共有し、一方のエンドポイントが制限に達すると、もう一方のエンドポイントに影響が生じます。[詳細情報](../action/about-custom-action-configuration.md)
 
 ## 2023年10月 {#oct-2023}
 
