@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -167,17 +167,17 @@ ht-degree: 94%
 
    ![](assets/email_designer_image_content.png)
 
-1. 次から： **[!UICONTROL 設定]** タブ、クリック **[!UICONTROL 参照]** アセットから画像ファイルを選択するか、 **[!UICONTROL メディアを読み込み]** アセットをAssets Essentialsにアップロード
+1. 「**[!UICONTROL 設定]**」タブで「**[!UICONTROL 参照]**」をクリックしてアセットから画像ファイルを選択するか、「**[!UICONTROL メディアを読み込み]**」をクリックしてアセットを Assets Essentials にアップロードします。
 
    [!DNL Assets Essentials] について詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
 
    >[!NOTE]
    >
-   > リンクをアクティブなままにし、有効期限の問題を回避するには、画像のソース URL に依存する代わりに、Adobeアセットを使用することをお勧めします。
+   > リンクをアクティブなままにし、有効期限の問題を回避するには、画像のソース URL に依存する代わりに、Adobe Assets を使用することをお勧めします。
 
-1. また、Adobe Stockで **[!UICONTROL Adobe Stockの写真を検索]** オプション。
+1. また、「**[!UICONTROL Adobe Stock フォトを検索]**」オプションを使用して、Adobe Stock で直接検索することもできます。
 
-1. 新しく追加したコンポーネントをクリックして、画像プロパティを設定します。
+1. 新しく追加したコンポーネントをクリックし、画像プロパティを設定します。
 
    * 「**[!UICONTROL 画像タイトル]** 」に画像のタイトルを入力します。
    * **[!UICONTROL 代替テキスト]**&#x200B;を使用すると、画像にリンクするキャプションを設定できます。これは HTML の alt 属性に対応します。
