@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 53%
+source-wordcount: '933'
+ht-degree: 58%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 53%
 
 ## [!DNL Journey Optimizer] でのオーディエンスの使用 {#segments-in-journey-optimizer}
 
-を使用して生成された任意のAdobe Experience Platformオーディエンスを、キャンペーンおよびジャーニーで選択できます。 [セグメント定義](../audience/creating-a-segment-definition.md).
+キャンペーンとジャーニーでは、[セグメント定義](../audience/creating-a-segment-definition.md)を使用して生成された Adobe Experience Platform オーディエンスを選択できます。
 
 >[!NOTE]
 >
->また、 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}. これらの機能は現在、Private Beta として使用可能です。
+>また、[オーディエンスの構成](../audience/get-started-audience-orchestration.md)または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を使用して作成された Adobe Experience Platform オーディエンスをターゲットにすることもできます。これらの機能は現在、Private Beta として使用可能です。
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 
@@ -111,7 +111,7 @@ Adobe Journey Optimizerでは、オーディエンスは、以下の 3 つの評
 
 * **送信されたメッセージ** フィードバックステータスイベント
 
-  The **送信されたメッセージ** フィードバックイベントは、多くの場合、E メール送信前の頻度や抑制の確認に使用されます。 Adobeは、1 秒あたりにストリーミングできるイベント数の現在の全容量に領域が必要となるので、可能な限りこの設定を避けることをお勧めします。
+  The **送信されたメッセージ** フィードバックイベントは、多くの場合、E メール送信前の頻度や抑制の確認に使用されます。 Adobeは、パフォーマンスを低下させ、システムの劣化を引き起こす可能性があるので、この設定を避けることをお勧めします。
 
   したがって、頻度または抑制ロジックの場合は、ではなくビジネスルールを使用します **送信されたメッセージ** フィードバックイベント。 個々のプロファイルの日別頻度キャップは、近日中に利用可能になり、ビジネスルールの既存の月別頻度を補完します。
 
