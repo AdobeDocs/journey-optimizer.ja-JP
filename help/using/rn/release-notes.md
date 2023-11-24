@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 **オーディエンス**
 
-* CSV ファイルからアップロードされたオーディエンスをジャーニーやキャンペーンにターゲットできるようになりました。[詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
+* CSV ファイルからアップロードされたオーディエンスを、ジャーニーやキャンペーンにターゲットできるようになりました。[詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
 * オーディエンスコンポジションを通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。[詳細情報](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
