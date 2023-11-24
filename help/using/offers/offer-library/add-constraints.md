@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >オファーの優先度は、整数値にする必要があります（小数は使用できません）。
+   >オファーの優先度は、整数値（小数は含まない）にする必要があります。
 
 1. オファーの&#x200B;**[!UICONTROL キャッピング]**&#x200B;を指定します。キャッピングはオファーが表示される回数を意味します。[詳細情報](#capping)
 
