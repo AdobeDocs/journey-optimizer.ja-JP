@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1626'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
-> * チャネルサーフェスを作成、編集、削除するには、 [メッセージプリセットの管理](../administration/high-low-permissions.md#administration-permissions) 権限。
+> * チャネルサーフェスを作成、編集、削除するには、[メッセージプリセットを管理](../administration/high-low-permissions.md#administration-permissions)権限が必要です。
 >
 > * チャネルサーフェスを作成する前に、[メール設定](../email/get-started-email-config.md)、[プッシュ設定](../push/push-configuration.md)および [SMS 設定](../sms/sms-configuration.md)の手順を実行する必要があります。
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="チャネルサーフェスの設定"
->abstract="ジャーニーやキャンペーンからのメールなどのアクションを作成できるようにするには、まず、メッセージに必要なすべての技術設定を定義するチャネルサーフェスを作成する必要があります。チャネルサーフェスを作成、編集および削除するには、メッセージプリセットの管理権限が必要です。"
+>abstract="ジャーニーやキャンペーンからのメールなどのアクションを作成できるようにするには、まず、メッセージに必要なすべての技術設定を定義するチャネルサーフェスを作成する必要があります。チャネルサーフェスを作成、編集、削除するには、メッセージプリセットを管理権限が必要です。"
 
 チャネルサーフェスを作成するには、次の手順に従います。
 
