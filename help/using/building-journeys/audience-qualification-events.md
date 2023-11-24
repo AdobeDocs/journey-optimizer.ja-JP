@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 95%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
    オーディエンスが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、オーディエンスの名前と ID をコピーできます。
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
@@ -107,7 +107,9 @@ ht-degree: 100%
 
 ストリーミングオーディエンスに対してオーディエンスの選定を使用すると、オーディエンスの継続的な評価により、エントリや離脱のピークが大きくなるリスクを軽減できます。ただし、オーディエンス定義の結果、大量の顧客が同時に選定されることになると、ピークも生じる可能性があります。
 
-ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja#api)を参照してください。
+ストリーミングセグメント化では、開くイベントや送信イベントを使用しないでください。 代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティシグナルを使用します。 頻度または抑制ロジックの場合、イベントを送信するのではなく、ビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md#open-and-send-event-guardrails)
+
+ストリーミングによるセグメント化について詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja#api).
 
 ### オーバーロードの回避方法 {#overloads-speed-segment-qualification}
 

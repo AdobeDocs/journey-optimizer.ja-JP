@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '939'
+ht-degree: 53%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 >title="キャンペーンオーディエンスを選択"
 >abstract="このリストには、使用可能なすべての Adobe Experience Platformオーディエンスが表示されます。キャンペーンのターゲットにするオーディエンスを選択します。キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。"
 
-[!DNL Journey Optimizer] では、**[!UICONTROL オーディエンス]**&#x200B;メニューからリアルタイム顧客プロファイルデータを直接使用して Adobe Experience Platform オーディエンスを作成および活用し、それらをジャーニーやキャンペーンに使用することができます。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
+[!DNL Journey Optimizer] では、**[!UICONTROL オーディエンス]**&#x200B;メニューからリアルタイム顧客プロファイルデータを直接使用して Adobe Experience Platform オーディエンスを作成および活用し、それらをジャーニーやキャンペーンに使用することができます。詳しくは、 [Adobe Experience Platform Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}.
 
 ## [!DNL Journey Optimizer] でのオーディエンスの使用 {#segments-in-journey-optimizer}
 
@@ -53,24 +53,68 @@ ht-degree: 94%
 
 ## オーディエンスの評価方法{#evaluation-method-in-journey-optimizer}
 
-Adobe Journey Optimizer では、オーディエンスは、次の2 つの評価方法のいずれかを使用してセグメント定義から生成されます。
+Adobe Journey Optimizerでは、オーディエンスは、以下の 3 つの評価方法のいずれかを使用して、セグメント定義から生成されます。
 
-* **ストリーミングセグメント化**：新規データがシステムに流入するのに応じて、オーディエンスのプロファイルリストがリアルタイムで最新の状態に保たれます。
++++ ストリーミングセグメント化
 
-  ストリーミングセグメント化は、ユーザーのアクティビティに応じてオーディエンスを更新する継続的なデータ選択プロセスです。セグメント定義を作成して、結果のオーディエンスを保存すると、Journey Optimizer への受信データに対してセグメント定義が適用されます。つまり、個人は、プロファイルデータの変更に応じてオーディエンスに追加またはオーディエンスから削除され、ターゲットオーディエンスが常に関連性の高いものとなります。
+オーディエンスのプロファイルリストは、新しいデータがシステムに送られるたびに、リアルタイムで最新の状態に保たれます。
 
-* **バッチセグメント化**：オーディエンスのプロファイルリストが 24 時間ごとに評価されます。
+ストリーミングセグメント化は、ユーザーのアクティビティに応じてオーディエンスを更新する継続的なデータ選択プロセスです。セグメント定義を作成して、結果のオーディエンスを保存すると、Journey Optimizer への受信データに対してセグメント定義が適用されます。つまり、個人は、プロファイルデータの変更に応じてオーディエンスに追加またはオーディエンスから削除され、ターゲットオーディエンスが常に関連性の高いものとなります。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
 
-  バッチセグメント化は、ストリーミングセグメント化の代わりに使用でき、セグメント定義を通じてすべてのプロファイルデータを一度に処理します。 これにより、オーディエンスのスナップショットが作成され、保存して使用するために書き出すことができます。 ただし、ストリーミングセグメント化とは異なり、バッチセグメント化ではオーディエンスリストがリアルタイムで継続的に更新されることはなく、バッチ処理後に取り込まれる新しいデータは次のバッチ処理までオーディエンスに反映されません。
+>[!NOTE]
+>
+>適切なイベントをストリーミングセグメント化条件として使用してください。 [詳細情報](#open-and-send-event-guardrails)
 
-バッチセグメント化とストリーミングセグメント化のどちらを使用するかは、セグメント定義ルールの評価の複雑さとコストに基づいて、オーディエンスごとにシステムによって決定されます。オーディエンスリストの&#x200B;**[!UICONTROL 評価方法]**&#x200B;列で、各オーディエンスの評価方法を確認できます。
++++
 
++++ バッチセグメント化
+
+オーディエンスのプロファイルリストは 24 時間ごとに評価されます。
+
+バッチセグメント化は、ストリーミングセグメント化の代わりに使用でき、セグメント定義を通じてすべてのプロファイルデータを一度に処理します。 これにより、オーディエンスのスナップショットが作成され、保存して使用するために書き出すことができます。 ただし、ストリーミングのセグメント化とは異なり、バッチセグメント化ではオーディエンスリストがリアルタイムで継続的に更新されず、バッチ処理後に取り込まれる新しいデータは、次のバッチ処理までオーディエンスに反映されません。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+
++++
+
++++ エッジセグメント化
+
+エッジのセグメント化は、Adobe Experience Platformでセグメントを瞬時に評価する機能です [端に](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+
++++
+
+使用する評価方法がわかっている場合は、ドロップダウンリストを使用して選択します。 また、虫眼鏡の付いた参照アイコンフォルダーアイコンをクリックして、使用可能なセグメント定義評価方法の一覧を表示することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+
+![](assets/evaluation-methods.png)
+
+<!--The determination between batch segmentation and streaming segmentation is made by the system for each audience, based on the complexity and the cost of evaluating the segment definition rule. You can view the evaluation method for each audience in the **[!UICONTROL Evaluation method]** column of the audience list.
+    
 ![](assets/evaluation-method.png)
 
 >[!NOTE]
 >
->この **[!UICONTROL 評価方法]**&#x200B;列が表示されない場合は、リストの右上にある設定ボタンを使用して追加する必要があります。
+>If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
 まずオーディエンスを定義した後、プロファイルは認定されるたびにオーディエンスに追加されます。
 
 以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
+
+### ストリーミングセグメント化を使用したイベントの使用 {#open-and-send-event-guardrails}
+
+ストリーミングセグメント化は、高価値の使用例によるリアルタイムのパーソナライゼーションに役立ちます。 ただし、適切な選択が重要です [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"} をセグメント化条件として使用します。
+
+その結果、セグメント化の最適なパフォーマンスをストリーミングするには、次のイベントを使用しないでください。
+
+* **開封済みメッセージ** インタラクションタイプイベント
+
+  オーディエンスを構築する際に、 **開封済みメッセージ** インタラクションイベントは、ユーザーアクティビティの実際の指標ではなく、セグメント化のパフォーマンスに悪影響を与える可能性があるので、信頼できなくなりました。 このページで理由を学ぶ [Adobeのブログ投稿](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}.
+
+  したがって、Adobeでは、 **開封済みメッセージ** インタラクションイベントとストリーミングセグメント化。 代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティシグナルを使用します。
+
+* **送信されたメッセージ** フィードバックステータスイベント
+
+  The **送信されたメッセージ** フィードバックイベントは、多くの場合、E メール送信前の頻度や抑制の確認に使用されます。 Adobeは、1 秒あたりにストリーミングできるイベント数の現在の全容量に領域が必要となるので、可能な限りこの設定を避けることをお勧めします。
+
+  したがって、頻度または抑制ロジックの場合は、ではなくビジネスルールを使用します **送信されたメッセージ** フィードバックイベント。 個々のプロファイルの日別頻度キャップは、近日中に利用可能になり、ビジネスルールの既存の月別頻度を補完します。
+
+>[!NOTE]
+>
+>以下を使用できます。 **開封済みメッセージ** および **メッセージ送信済み** パフォーマンスを問題とせずに、バッチセグメント化でのイベント。
