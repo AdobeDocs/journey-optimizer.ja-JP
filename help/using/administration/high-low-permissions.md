@@ -10,9 +10,9 @@ level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -292,7 +292,7 @@ ht-degree: 95%
 
 ## チャネル設定リソース {#administration-permissions}
 
-* **[!DNL Manage file routing]** 高レベルの権限を持つユーザーは、ファイルルーティング設定を作成、編集、削除できます。
+* 「**[!DNL Manage file routing]**」という高レベルの権限を持つユーザーは、ファイルルーティング設定の作成、編集および削除を行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
@@ -342,7 +342,7 @@ ht-degree: 95%
 
 +++
 
-* **[!DNL Manage messages presets]** 高レベル権限を持つユーザーは、サンドボックスレベルでチャネルをまたいでチャネルサーフェスの読み取り、作成、編集、削除をおこなうことができます。
+* 「**[!DNL Manage messages presets]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの読み取り、作成、編集および削除をサンドボックスレベルで行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
 
@@ -414,7 +414,7 @@ ht-degree: 95%
 
 +++
 
-* **[!DNL View file routing]** 高レベル権限を持つユーザーは、ファイルルーティング設定を表示できます。
+* 「**[!DNL View file routing]**」という高レベルの権限を持つユーザーは、ファイルルーティング設定を表示できます。
 
 +++ これには、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
