@@ -10,9 +10,9 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1356'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ ht-degree: 97%
 
 1. アクティビティに&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加します（オプション）。
 
-1. 「**[!UICONTROL オーディエンス]**」フィールドで、ジャーニーにエントリする Adobe Experience Platform オーディエンスを選択し、「**[!UICONTROL 保存]**」をクリックします。任意のAdobe Experience Platformオーディエンスを選択できます。 [セグメント定義](../audience/creating-a-segment-definition.md).
+1. 「**[!UICONTROL オーディエンス]**」フィールドで、ジャーニーにエントリする Adobe Experience Platform オーディエンスを選択し、「**[!UICONTROL 保存]**」をクリックします。[セグメント定義](../audience/creating-a-segment-definition.md)を使用して生成された Adobe Experience Platform オーディエンスを選択できます。
 
    >[!NOTE]
    >
-   >また、 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}. これらの機能は現在、Private Beta として使用可能です。
+   >また、[オーディエンスの構成](../audience/get-started-audience-orchestration.md)または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を使用して作成された Adobe Experience Platform オーディエンスをターゲットにすることもできます。これらの機能は現在、Private Beta として使用可能です。
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 
