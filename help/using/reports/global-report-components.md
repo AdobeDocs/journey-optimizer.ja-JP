@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,8 +92,8 @@ ht-degree: 97%
 </tr>
 </tr> 
   <tr> 
-   <td> エラーの理由<br/> </td> 
-   <td> エラーの特定の元の原因の名前。 <a href="error-list.md">エラー理由の詳細を表示</a>.<br/> </td> 
+   <td> エラー理由<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="error-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
 </tr>
   <tr> 
    <td> 除外済み<br/> </td> 
@@ -339,8 +339,8 @@ ht-degree: 97%
    <td> 送信済みのプッシュ通知に対する、配信中に発生して送信の妨げとなったエラーの割合。<br/> </td> 
 </tr>
   <tr> 
-   <td> エラーの理由<br/> </td> 
-   <td> エラーの特定の元の原因の名前。 <a href="error-list.md">エラー理由の詳細を表示</a>.<br/> </td> 
+   <td> エラー理由<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="error-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
 </tr>
   <tr> 
    <td> 除外済み<br/> </td> 
