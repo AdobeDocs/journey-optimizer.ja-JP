@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 58%
@@ -51,7 +51,7 @@ ht-degree: 58%
 
 * ジャーニーの&#x200B;**条件**&#x200B;アクティビティを使用し、オーディエンスメンバーシップに基づいて条件を作成します。[詳しくは、条件でのオーディエンスの使用方法を参照してください](../building-journeys/condition-activity.md#using-a-segment)。
 
-## オーディエンスの評価方法{#evaluation-method-in-journey-optimizer}
+## オーディエンスの評価方法 {#evaluation-method-in-journey-optimizer}
 
 Adobe Journey Optimizerでは、オーディエンスは、以下の 3 つの評価方法のいずれかを使用して、セグメント定義から生成されます。
 
@@ -97,11 +97,11 @@ Adobe Journey Optimizerでは、オーディエンスは、以下の 3 つの評
 
 以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
 
-### ストリーミングセグメント化を使用したイベントの使用 {#open-and-send-event-guardrails}
+### ストリーミングセグメント化を使用したイベントの使用 {#streaming-segmentation-events-guardrails}
 
 ストリーミングセグメント化は、高価値の使用例によるリアルタイムのパーソナライゼーションに役立ちます。 ただし、適切な選択が重要です [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"} をセグメント化条件として使用します。
 
-その結果、セグメント化の最適なパフォーマンスをストリーミングするには、次のイベントを使用しないでください。
+その結果、ストリーミングセグメント化の最適なパフォーマンスを得るには、次のイベントを使用しないでください。
 
 * **開封済みメッセージ** インタラクションタイプイベント
 
