@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 式フラグメントを活用 {#use-expression-fragments}
 
-式エディターを使用する場合、現在のサンドボックスに作成または保存されたすべての式フラグメントを活用できます。
+を使用する場合、 **式エディター**&#x200B;を使用すると、現在のサンドボックスに作成または保存されたすべての式フラグメントを利用できます。
 
 フラグメントを作成および管理する方法については、[この節](../content-management/fragments.md)を参照してください。
 
