@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 ➡️ [オーディエンスの作成方法については、このビデオをご覧ください](#video-segment)
 
-1. 次から： **[!UICONTROL オーディエンス]** メニューで、 **[!UICONTROL オーディエンスを作成]** ボタンと選択 **[!UICONTROL ルールを作成]**.
+1. **[!UICONTROL オーディエンス]**&#x200B;メニューで、「**[!UICONTROL オーディエンスを作成]**」ボタンをクリックし、「**[!UICONTROL ルールを作成]**」を選択します。
 
    ![](assets/create-segment.png)
 

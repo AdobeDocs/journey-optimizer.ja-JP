@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 
 * **[!UICONTROL ドラフト]**：キャンペーンは編集中で、アクティブ化されていません。
 * **[!UICONTROL アクティブ化中]**：キャンペーンをアクティブ化中です。
+* **[!UICONTROL 処理中]** *（電子メールキャンペーンのみ）*：オーディエンスのエクスポートが完了しました。キャンペーンはパブリッシュ中です。
 * **[!UICONTROL ライブ]**：キャンペーンはアクティブ化されています。
 * **[!UICONTROL スケジュール済み]**：キャンペーンは、特定の開始日にアクティブ化されるように設定されています。
 * **[!UICONTROL 停止]**：キャンペーンは手動で停止されました。この設定になっている場合は、それ以上アクティブ化したり再利用したりすることはできません。[キャンペーンの停止方法を学ぶ](modify-stop-campaign.md#stop)
