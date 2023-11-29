@@ -11,10 +11,10 @@ keywords: IP、グループ、サブドメイン、配信品質
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
-workflow-type: ht
-source-wordcount: '1275'
-ht-degree: 100%
+source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
+workflow-type: tm+mt
+source-wordcount: '1552'
+ht-degree: 80%
 
 ---
 
@@ -97,7 +97,7 @@ IP ウォームアッププランを [!DNL Journey Optimizer] インターフェ
 
 ### 「IP ウォームアッププラン」タブ {#ip-warmup-plan-tab}
 
-* この例では、100 万を超えるプロファイルのターゲットボリュームを達成するために、17 日間にわたるプラン（「**実行**」と呼ばれる）が準備されています。
+* この例では、17 日間にわたるプラン（「 」と呼ばれる）が準備されています。**実行**「)」をクリックして、100 万を超えるプロファイルのターゲットボリュームに到達します。
 
 * この計画は 6 つの&#x200B;**フェーズ**&#x200B;を通じて実行され、各フェーズには少なくとも 1 回の実行が含まれます。
 
@@ -128,51 +128,48 @@ IP ウォームアッププランを [!DNL Journey Optimizer] インターフェ
 * La Poste
 * Apple
 
-<!--
-+++ Gmail
-gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
 +++ Adobe
-adobe.com;adobe.fr;adobe.es
+
 +++
 
-+++WP
++++WP wp.pl;o2.pl
 +++
 
-+++Comcast
++++Comcast comcast.net
 +++
 
-+++Yahoo
++++Yahoo aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.es;yahoo.com.au;yahoo.com.vn;yahoo.ca;aol.hk;aol.co.nz;yahoo.com.br;aolnorge.pl;yahoo.ne.jp;aolnorge.no;ymail.com;netscape.com;yahoo.com.pe;ahoo.cz;yoaol.be;aolcom.tr;yahoo.si;;aol.it;buck;yahoo.co.id;yahoo.es;yahoo.dk;yahoo.ca;buck;buck;ahoo.kr;aol.ie;aol.jp;buck;aol.nl;bg;citlink.net;ahoo.bg;bg;wmconnect.com;aho.bg;bufYahoo.gr;Yahoo.ro;yahoo.com.jp;yahoo.com.hk;Yahoo.nl;Yahoo.nl;aol.com.br;Yahoo.Cz;Yahoo.J;yahoo.co.kr;Yahoo.sk;Yahoo.gr;yahoo.com.ar;Yahooo.r;Aho.in;ahoo— ygm.com;yahoo.rs;aol.de;yahoo.co.nz;cunfil;aol.com;cunfil;goowy.com;rocketmail.com;ahoo.se;yahoo.jp;cunfil;yahoo.pt;frontiernet.net;yahoo.upper.dk;cunfl;aol.cho;aim.com;cho, yahoogroups.co.in;gruppi;it;netscape.net;yahoo.cl;luckymail.com;cfu;cfu;cfu;cfu;;ahoo.be;cful;ahoo.be;cful;yahoo.co.jp;cful;cfull;cfull;yahoo.com.kr;ahooo.ru;cful;ahoo.l.pl;yahoo.aho
 +++
 
-+++Bigpond
++++Bigpond bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
-+++Orange
++++Orange voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
-+++Softbank
++++Softbank c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-c.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;;;;;;;;;;;;;
 +++
 
-+++Docomo
++++Docomo docomo.ne.jp
 +++
 
-+++United Internet
++++United Internet gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++Microsoft
++++Microsoft hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.cl;live.cl;live.jp;live.com.au;hotmail.co.th;live.cl;live.at;hotmail.com.au;hotmail.com;live.com.my;hotmail.co.kr;outlook.com.br;hotmail.co.il;live.ie;live.co.kr;live.co.uk;live.com.mx;hotmail.co.uk;ie;butlich.cn;live.com.sg;live.f;live.no;live.dk;hotmail.it;msn.com;live.se;buck;live.be;buck;hotmail.co.jp;live.in;hotmail.se;chumbil;hotmail.ch;live.co.za;hotmail.gr;live.it;buckl;hotmail.ca;bulil;live.ca;de
 +++
 
-+++KDDI
++++KDDI au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
-+++Italia Online
++++Italia Online inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 +++
 
-+++La Poste
++++ラポステlaposte.net
 +++
--->
 
 ### 「カスタムドメイングループ」タブ {#custom-domain-group-tab}
 
