@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: tm+mt
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: ht
 source-wordcount: '1407'
 ht-degree: 100%
 
@@ -58,9 +58,9 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 
 2 つのオプションを使用できます。次のことができます：
 
-* 「**[!UICONTROL メディアを追加]**」ボタンを使用して、**[!DNL Adobe Experience Manager Assets Essentials]** 内のアセットを選択します。
+* 「**[!UICONTROL メディアを追加]**」ボタンを使用して、**[!DNL Adobe Experience Manager Assets]** 内のアセットを選択します。
 
-  **[!DNL Adobe Experience Manager Assets Essentials]** の使用方法について詳しくは、[このページ](../content-management/assets-essentials.md)を参照してください。
+  **[!DNL Adobe Experience Manager Assets]** の使用方法について詳しくは、[このページ](../content-management/assets.md)を参照してください。
 
 * または、「**[!UICONTROL メディアを追加]**」フィールドにメディアの URL を入力します。この場合、パーソナライズ機能を URL に追加できます。
 
