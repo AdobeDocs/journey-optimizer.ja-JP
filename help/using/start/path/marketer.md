@@ -8,7 +8,7 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 100%
 
