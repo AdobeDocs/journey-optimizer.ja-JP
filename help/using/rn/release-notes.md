@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
 source-wordcount: '4527'
 ht-degree: 100%
@@ -81,7 +81,7 @@ ht-degree: 100%
 <td>
 <p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>詳しくは、 <a href="../sms/create-sms.md#sms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../sms/create-sms.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>

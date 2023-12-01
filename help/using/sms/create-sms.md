@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS メッセージの作成
-description: Journey Optimizer で SMS メッセージを作成する方法を学ぶ
+title: SMS/MMS メッセージの作成
+description: Journey Optimizerで SMS/MMS メッセージを作成する方法を説明します
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 87%
 
 ---
 
-# SMS メッセージの作成 {#create-sms}
+# SMS/MMS メッセージの作成 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS メッセージの作成"
 >abstract="SMS メッセージを追加し、そのパーソナライズを式エディターで開始します。"
 
-## SMS メッセージの追加 {#create-sms-journey-campaign}
+## SMS/MMS メッセージを追加 {#create-sms-journey-campaign}
 
 キャンペーンまたはジャーニーに SMS メッセージを追加する方法については、以下のタブを参照してください。
 
@@ -110,13 +110,30 @@ ht-degree: 100%
 
 1. `originalUrl` フィールドに、短縮する URL をペーストし、「**[!UICONTROL 保存]**」をクリックします。
 
+1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。**[!UICONTROL コンテンツをシミュレート]**&#x200B;を使用して、短縮 URL やパーソナライズされたコンテンツをプレビューできます。
+
+   ![](assets/sms-content-preview.png)
+
+
+
+## MMS コンテンツを定義{#mms-content}
+
+SMS チャネルを使用すると、マルチメディアメッセージサービス (MMS) メッセージを送信して、顧客との画像、GIFまたはビデオの共有を有効にすることで、通信を強化できます。
+
+
+>[!NOTE]
+>
+> この機能は現在、 **シンチ** のみ。
+>
+> MMS チャネルには、 [このページ](../start/guardrails.md#sms-guardrails).
+
+MMS コンテンツを作成するには、次の手順に従います。
+
+1. SMS の作成 ( [この節](#create-sms-journey-campaign).
+
+1. SMS コンテンツを編集します。詳しくは、 [この節](#sms-content).
+
 1. MMS オプションを有効にして、SMS コンテンツにメディアを追加します。
-
-   MMS には、[このページ](../start/guardrails.md#sms-guardrails)にリストされているいくつかの制限があります。
-
-   >[!NOTE]
-   >
-   > MMS オプションは、Sinch でのみ使用できます。MMS を作成するには、特定の API 資格情報を作成する必要があります。[詳細情報](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
@@ -128,15 +145,17 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。**[!UICONTROL コンテンツをシミュレート]**&#x200B;を使用して、短縮 URL やパーソナライズされたコンテンツをプレビューできます。
 
-   ![](assets/sms-content-preview.png)
+## メッセージのテストと送信 {#sms-mms-test}
 
 これで、SMS メッセージをテストしてオーディエンスに送信できます。[詳細情報](send-sms.md)
+
+
+
 送信したら、キャンペーンまたはジャーニーレポート内で SMS の影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report.md#sms-tab)を参照してください。
 
 >[!NOTE]
 >
 >業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
 **関連トピック**
 
 * [SMS メッセージのプレビュー、テスト、送信](send-sms.md)
