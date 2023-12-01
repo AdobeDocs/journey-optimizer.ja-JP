@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
-workflow-type: ht
-source-wordcount: '1405'
-ht-degree: 100%
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 100%
    * **フォントサイズ**：テキストのフォントサイズをピクセル単位で選択します。
    * **[!UICONTROL フォントカラーを変更]**：フォントの色を選択します。
    * **[!UICONTROL リンクを挿入]**：コンテンツに任意のタイプのリンクを追加します。
-   * **[!UICONTROL 画像の編集]**：テキストコンポーネントに画像またはアセットを追加します。[詳しくは、アセット管理を参照してください](../content-management/assets-essentials.md)
+   * **[!UICONTROL 画像の編集]**：テキストコンポーネントに画像またはアセットを追加します。[詳しくは、アセット管理を参照してください](../content-management/assets.md)
    * **[!UICONTROL フォントカラーを変更]**：フォントの色を選択します。
    * **[!UICONTROL パーソナライゼーションを追加]**：パーソナライゼーションフィールドを追加し、プロファイルデータを使用してコンテンツをカスタマイズできます。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
    * **[!UICONTROL ソースコードの表示]**：テキストのソースコードを表示します。変更はできません。
@@ -167,9 +167,9 @@ ht-degree: 100%
 
    ![](assets/email_designer_image_content.png)
 
-1. 「**[!UICONTROL 設定]**」タブで「**[!UICONTROL 参照]**」をクリックしてアセットから画像ファイルを選択するか、「**[!UICONTROL メディアを読み込み]**」をクリックしてアセットを Assets Essentials にアップロードします。
+1. 次から： **[!UICONTROL 設定]** タブ、クリック **[!UICONTROL 参照]** アセットから画像ファイルを選択するか、 **[!UICONTROL メディアを読み込み]** をクリックして、Adobe Experience Manager Assetsにアセットをアップロードします。
 
-   [!DNL Assets Essentials] について詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
+   [!DNL Adobe Experience Manager Assets] について詳しくは、[Adobe Experience Manager Assets ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
 
    >[!NOTE]
    >

@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5dfdded39444678ef0266540d47e004b47f7e88d
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 39%
@@ -84,7 +84,7 @@ SMS チャネルを使用すると、マルチメディアメッセージサー�
       <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
     </td>
     <td>
-      <strong>コンテンツ管理</strong><br/><a href="using/content-management/assets-essentials.md">アセット/画像</a> - <a href="using/personalization/personalize.md">パーソナライズ</a> - <a href="using/content-management/content-templates.md">再利用可能</a> &amp; <a href="using/personalization/dynamic-content.md">動的</a> コンテンツ — <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
+      <strong>コンテンツ管理</strong><br/><a href="using/content-management/assets.md">アセット/画像</a> - <a href="using/personalization/personalize.md">パーソナライズ</a> - <a href="using/content-management/content-templates.md">再利用可能</a> &amp; <a href="using/personalization/dynamic-content.md">動的</a> コンテンツ — <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">

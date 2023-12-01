@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, デザイン, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ここから、次のことができます。
 
-* コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロからデザイン**&#x200B;し、[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) の画像を活用します。コンテンツ<!--or use built-in templates--> のデザイン方法については、 [この節](../email/content-from-scratch.md)を参照してください。
+* コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロからデザイン**&#x200B;し、[Adobe Experience Manager Assets ](../content-management/assets.md) の画像を活用します。コンテンツ<!--or use built-in templates--> のデザイン方法については、 [この節](../email/content-from-scratch.md)を参照してください。
 
 * コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 「**[!UICONTROL Adobe Stock フォトを検索]**」および「**[!UICONTROL 類似画像を検索]**」オプションは、AEM Assets Essentials 製品プロファイルにアクセスできるユーザーが使用できます。
 
-詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-users-to-essentials){target="_blank"}を参照してください。
+詳しくは、 [Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-users-to-essentials){target="_blank"}.
 
 ## [!DNL Adobe Stock] からの画像の挿入 {#add-stock-image}
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
    ![](assets/stock_6.png)
 
-1. アセットを保存するフォルダーを選択します。[!DNL Assets Essentials] について詳しくは、[この節](assets-essentials.md#get-started-assets-essentials)を参照してください。
+1. アセットを保存するフォルダーを選択します。[!DNL Experience Manager Assets] について詳しくは、[この節](assets.md#get-started-assets)を参照してください。
 
 ## 関連トピック{#stock-related-topics}
 
