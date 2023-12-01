@@ -7,8 +7,8 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: tm+mt
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: ht
 source-wordcount: '1147'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 ![](assets/in_app_content_3.png)
 
-メディア URL を入力するか、「**[!UICONTROL アセットを選択]**」アイコンをクリックして、アセットライブラリに保存されているアセットをアプリ内メッセージに直接追加します。[アセット管理の詳細情報](../content-management/assets-essentials.md)。画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
+メディア URL を入力するか、「**[!UICONTROL アセットを選択]**」アイコンをクリックして、アセットライブラリに保存されているアセットをアプリ内メッセージに直接追加します。[アセット管理の詳細情報](../content-management/assets.md)。画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
 
 +++詳細フォーマットを使用したその他のオプション
 
