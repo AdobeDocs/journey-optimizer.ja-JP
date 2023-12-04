@@ -7,23 +7,23 @@ feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
+keywords: ジャーニー，メッセージ，プッシュ， sms，メール，アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 100%
+source-wordcount: '1167'
+ht-degree: 94%
 
 ---
 
-# メール, アプリ内, プッシュ, SMS{#add-a-message-in-a-journey}
+# 電子メール、アプリ内、プッシュ、SMS/MMS{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="メッセージアクティビティ"
->abstract="Journey Optimizer には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、SMS、アプリ内またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。"
+>abstract="Journey Optimizer には、メッセージ機能が組み込まれています。ジャーニーに、プッシュメッセージ (SMS/MMS)、アプリ内または E メールメッセージアクティビティを追加し、設定とコンテンツを定義するだけで済みます。 その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。"
 
-[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、SMS、アプリ内またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。
+[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーに、SMS/MMS、アプリ内または E メールメッセージアクティビティをプッシュとして追加し、設定とコンテンツを定義するだけで済みます。 その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます.
 
 また、メッセージを送信する特定のアクションを設定することもできます。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
    <img alt="検証" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>SMS メッセージの作成</strong></a>
+   <a href="../sms/create-sms.md"><strong>テキストメッセージの作成 (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>

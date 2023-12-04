@@ -10,8 +10,8 @@ keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 97%
+source-wordcount: '842'
+ht-degree: 90%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Web サブドメインのデリゲート"
->abstract="Adobe Experience Manager Assets のコンテンツを web エクスペリエンスに追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインの中から選択するか、新しいサブドメインを設定します。"
+>abstract="Adobe Experience Manager Assetsからのコンテンツを Web エクスペリエンスに追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。 既にアドビにデリゲートされているサブドメインの中から選択するか、新しいサブドメインを設定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="Web サブドメインの設定"
 >abstract="アドビにデリゲートされているサブドメインのリストからサブドメインを選択します。この web サブドメインをデフォルトのサブドメインとして設定できますが、一度に使用できるデフォルトのサブドメインは 1 つだけです。"
 
-Web エクスペリエンスの作成時に [Adobe Experience Manager Assets ](../content-management/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
+Web エクスペリエンスの作成時に、 [Adobe Experience Manager Assets](../content-management/assets.md) ライブラリの場合、このコンテンツの公開に使用するサブドメインを設定する必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
 

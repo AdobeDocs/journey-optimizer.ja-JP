@@ -1,56 +1,55 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS サブドメインの設定
+title: テキストメッセージ (SMS/MMS) のサブドメインの設定
 description: Journey Optimizer で SMS サブドメインを設定する方法を学ぶ
 role: Admin
 feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
-# SMS サブドメインの設定 {#lp-subdomains}
+# SMS サブドメインの設定 {#sms-mms-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="SMS サブドメインのデリゲート"
->abstract="SMS で使用するサブドメインを設定します。既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。"
+>title="SMS/MMS サブドメインをデリゲート"
+>abstract="テキストメッセージ (SMS/MMS) のサブドメインを設定します。 既にドメインにデリゲートされているサブAdobeを使用するか、新しいサブドメインを設定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="SMS サブドメインのデリゲート"
->abstract="SMS サーフェスを作成するにはこのサブドメインが必要なので、SMS メッセージで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
+>title="SMS/MMS サブドメインをデリゲート"
+>abstract="SMS サーフェスを作成するにはこのサブドメインが必要なので、テキストメッセージに使用するサブドメインを設定する必要があります。 既にドメインにデリゲートされているサブAdobeを使用するか、新しいサブドメインを設定できます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ja#message-preset-sms" text="SMS サーフェスの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="SMS サブドメインの選択"
+>title="SMS/MMS サブドメインを選択"
 >abstract="SMS サーフェスを作成できるようにするには、少なくとも 1 つの SMS サブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ja#message-preset-sms" text="SMS サーフェスの作成"
 
-SMS メッセージに追加された URL を短縮できるようにするには、[SMS サーフェスを作成](sms-configuration.md#message-preset-sms)する際に選択するサブドメインを設定する必要があります。
+SMS/MMS メッセージに追加される URL を短縮するには、次のタイミングで選択するサブドメインを設定する必要があります [SMS サーフェスの作成](sms-configuration.md#message-preset-sms).
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
 
 >[!CAUTION]
 >
->SMS サブドメインの設定は、すべての環境で共通です。したがって、
+>* SMS サブドメイン設定は、すべての環境間で共有されます。 したがって、SMS サブドメインに変更を加えると、他の実稼働用サンドボックスにも影響します。
 >
->* SMS サブドメインにアクセスして編集するには、実稼動サンドボックスで **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。
+>* SMS サブドメインにアクセスして編集するには、 **[!UICONTROL SMS サブドメインの管理]** 実稼動サンドボックスに対する権限。 権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
 >
-> * SMS サブドメインへの変更は、実稼働サンドボックスにも影響します。
 
 ## 既存のサブドメインを使用 {#sms-use-existing-subdomain}
 
 既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL SMS 設定]**／**[!UICONTROL SMS サブドメイン]**&#x200B;を選択します。
+1. 次を参照： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** メニューを開き、「 」を選択します。 **[!UICONTROL SMS 設定]** > **[!UICONTROL SMS サブドメイン]**.
 
    ![](assets/sms_access-subdomains.png)
 
@@ -103,9 +102,9 @@ SMS メッセージに追加された URL を短縮できるようにするに�
 
 新しいサブドメインを設定するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL SMS 設定]**／**[!UICONTROL SMS サブドメイン]**&#x200B;を選択します。
+1. 次を参照： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** メニューから、「 **[!UICONTROL SMS 設定]** > **[!UICONTROL SMS サブドメイン]**.
 
-1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
+1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
 
 1. 「 **[!UICONTROL 設定タイプ]** 」セクションから「**[!UICONTROL 独自のドメインを追加]**」を選択します。
 
@@ -115,9 +114,9 @@ SMS メッセージに追加された URL を短縮できるようにするに�
 
    >[!CAUTION]
    >
-   >既存の SMS サブドメインは使用できません。
+   >* 既存の SMS サブドメインは使用できません。
    >
-   >サブドメインでは大文字は使用できません。
+   >* サブドメインでは大文字は使用できません。
 
    無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
 
@@ -137,10 +136,6 @@ SMS メッセージに追加された URL を短縮できるようにするに�
 
 1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >そのサブドメインを使用して SMS メッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。<!--Learn more in [this section](#subdomain-validation).-->
+サブドメインを使用して SMS メッセージを送信する前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。<!--Learn more in [this section](#subdomain-validation).--> チェックが正常に完了すると、サブドメインは **[!UICONTROL 成功]** ステータス。 SMS チャネルのサーフェスを作成する準備が整いました。
 
-1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。SMS チャネルのサーフェスを作成する準備が整いました。
-
-   ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
+ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
