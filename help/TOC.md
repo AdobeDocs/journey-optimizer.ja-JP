@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [早期リリースノート](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
+      + [2023 年リリースノート](using/rn/release-notes-2023.md)
       + [2022年リリースノート](using/rn/release-notes-2022.md)
       + [2021年リリースノート](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
@@ -215,12 +216,12 @@ ht-degree: 99%
       + [プッシュ通知フロー](using/push/push-gs.md)
       + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
       + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-+ SMS チャネル{#sms}
-   + [SMS の基本を学ぶ](using/sms/get-started-sms.md)
-   + [SMS メッセージの作成](using/sms/create-sms.md)
++ SMS / MMS チャネル{#sms}
+   + [テキストメッセージの概要](using/sms/get-started-sms.md)
+   + [テキストメッセージの作成](using/sms/create-sms.md)
    + [MMS メッセージの作成](using/sms/create-mms.md)
-   + [SMS の確認と送信](using/sms/send-sms.md)
-   + [SMS オプトアウトの管理](using/sms/sms-opt-out.md)
+   + [テキストメッセージを確認して送信する](using/sms/send-sms.md)
+   + [テキストメッセージのオプトアウトを管理](using/sms/sms-opt-out.md)
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
 + ダイレクトメール {#direct-mail}

@@ -5,16 +5,16 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 39%
+source-wordcount: '354'
+ht-degree: 30%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
-## 新着情報
+## 新機能
 
 Journey Optimizer製品およびドキュメントの最新の機能強化の概要を説明します。 機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](using/rn/release-notes.md).  ドキュメントの最新の変更については、 [ドキュメントの更新ページ](using/rn/documentation-updates.md).
 
@@ -26,7 +26,7 @@ Journey Optimizer製品およびドキュメントの最新の機能強化の概
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB SMS のマルチメディアメッセージサービス（MMS）]
+>[!TAB マルチメディアメッセージサービス (MMS)]
 
 SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。
 

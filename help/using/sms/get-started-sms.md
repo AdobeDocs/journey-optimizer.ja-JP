@@ -1,41 +1,43 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS の基本を学ぶ
-description: Journey Optimizer で SMS を作成する方法を説明します
+title: テキストメッセージの概要 (SMS/MMS)
+description: Journey Optimizerでテキストメッセージを作成して送信する方法を説明します
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 10%
 
 ---
 
-# SMS の基本を学ぶ {#get-started-sms}
+# テキストメッセージの概要 {#get-started-sms}
 
-[!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージを送信できます。SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
+用途 [!DNL Journey Optimizer] を使用して、モバイルデバイスで顧客にテキストメッセージ (SMS/MMS) を送信できます。 SMS/MMS エディターで、テキスト形式のメッセージを作成、パーソナライズおよびプレビューできます。
 
-SMS 配信を作成するには、次の手順を実行します。
+テキストメッセージは、ジャーニーまたはキャンペーンで作成および送信できます。 MMS と SMS の場合は、SMS アクションを使用します。
 
-* **ジャーニーの場合**：ジャーニーに SMS アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : SMS]** パネルを使用して SMS メッセージのコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../building-journeys/journey-gs.md)
+* 内 **ジャーニー**. ジャーニーを作成し、SMS アクティビティを追加して、基本設定を定義し、 **[!UICONTROL アクション：SMS]** SMS/MMS メッセージのコンテンツを作成するための右側のウィンドウ。 でジャーニーを作成する方法を説明します。 [このページ](../building-journeys/journey-gs.md).
 
-* **キャンペーンの場合**：キャンペーンを作成したら、アクションとして SMS を選択し、基本設定を定義します。[キャンペーンの作成方法を学ぶ](../campaigns/create-campaign.md#configure)
+* 内 **Campaign**. キャンペーンを作成し、アクションとして「 SMS 」を選択し、基本設定を定義します。その後、メッセージの内容を編集して、送信する SMS/MMS メッセージを定義します。 でキャンペーンを作成する方法を説明します。 [このページ](../campaigns/create-campaign.md#configure).
 
+Adobe Journey Optimizerは、SMS サービスプロバイダー（または SMS ゲートウェイプロバイダー）を通じてテキストメッセージを送信します。 SMS/MMS メッセージを作成する前に、Journey Optimizerでテキストメッセージのサービスプロバイダーを設定します。 [詳細情報](sms-configuration.md)。
 
 >[!IMPORTANT]
 >
->SMS を初めて作成する場合は、SMS チャネルが設定済みであることを確認してください。[詳細情報](sms-configuration.md)。
+> Adobe Journey Optimizerでのマルチメディアメッセージサービス (MMS) の送信は、との統合時にのみサポートされます **シンチ**.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
 <img alt="リード" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>SMS メッセージの作成</strong>
+<div><a href="create-sms.md"><strong>テキストメッセージを作成します</strong>
 </div>
 <p>
 </td>
@@ -44,7 +46,7 @@ SMS 配信を作成するには、次の手順を実行します。
 <img alt="低頻度" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>SMS メッセージの送信</strong></a>
+<a href="send-sms.md"><strong>テキストメッセージを送信</strong></a>
 </div>
 <p></td>
 <td>
@@ -52,7 +54,7 @@ SMS 配信を作成するには、次の手順を実行します。
 <img alt="検証" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>SMS オプトアウトの管理</strong></a>
+<a href="sms-opt-out.md"><strong>オプトアウト管理</strong></a>
 </div>
 <p>
 </td>

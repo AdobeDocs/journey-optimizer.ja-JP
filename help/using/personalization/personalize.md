@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer でのコンテンツのパーソナライズ
-description: パーソナライゼーションの基本を学ぶ。
+description: パーソナライゼーションの基本を学びます。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 100%
 >id="ajo_homepage_card5"
 >title="エクスペリエンスのパーソナライズ"
 >abstract="**Adobe Journey Optimizer** を使用すると、受信者に関するデータと情報を活用して、特定の受信者に合わせてメッセージを作成できます。名前、興味、住所、購入品などの情報です。"
-
 
 [!DNL Adobe Journey Optimizer] のパーソナライゼーション機能を理解すると、受信者に関するデータと情報を活用して、特定の受信者に合わせてメッセージを作成できます。名前、興味、住所、購入品などの情報です。
 
@@ -57,7 +56,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] では、式エディターを使用すると、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。
 
-パーソナライゼーションコンテンツの作成に役立つツールがいくつか用意されています（ヘルパー関数、事前定義された式ライブラリ、お気に入りの属性など）。
+felper 関数、事前定義された式ライブラリ、属性 favourting など、パーソナライゼーションコンテンツの作成に役立つツールがいくつか用意されています。
 
 [!DNL Journey Optimizer] 式エディターについて詳しくは、[この節](personalization-build-expressions.md)を参照してください
 

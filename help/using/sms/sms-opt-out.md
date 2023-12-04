@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS オプトアウトの管理
-description: SMS メッセージのオプトアウトを管理する方法を説明します
+title: テキストメッセージのオプトアウト管理
+description: SMS/MMS メッセージを使用してオプトアウトを管理する方法を説明します
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 95%
 
 ---
 
-# SMS オプトアウトの管理 {#sms-opt-out}
+# テキストメッセージのオプトアウト管理 {#sms-opt-out}
 
 業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。詳しくは、[オプトアウトの管理](../privacy/opt-out.md)を参照してください。
 
