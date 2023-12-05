@@ -11,14 +11,14 @@ keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1315'
+ht-degree: 94%
 
 ---
 
-# 多言語コンテンツの作成（自動翻訳を使用） {#multilingual-automated}
+# 自動翻訳を使用した多言語コンテンツの作成 {#multilingual-automated}
 
 >[!BEGINSHADEBOX]
 
@@ -89,6 +89,14 @@ ht-degree: 100%
    ![](assets/translation_project_3.png)
 
 1. リストから「**[!UICONTROL ターゲットロケール]**」を選択し、各ロケールで使用する&#x200B;**[!UICONTROL 翻訳プロバイダー]**&#x200B;を選択します。
+
+   **[!UICONTROL 翻訳プロバイダー]** 設定には、 **[!UICONTROL 翻訳]** メニュー **[!UICONTROL 管理]** メニューセクション。
+
+   >[!NOTE]
+   >
+   >翻訳プロバイダーとの契約管理は、この機能の範囲外です。 指定された翻訳パートナーと有効でアクティブな契約を結んでいることを確認してください。
+   >
+   ></br>翻訳プロバイダーは、翻訳されたコンテンツの品質の所有権を保持します。
 
 1. ターゲットロケールと正しい翻訳プロバイダーのリンク設定が完了したら、「**[!UICONTROL ロケールを追加]**」をクリックします。次に、「**[!UICONTROL 保存]**」をクリックします。
 
