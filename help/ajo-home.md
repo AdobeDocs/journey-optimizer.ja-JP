@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
+source-git-commit: 480fbae74ab444253a2ebff441192d2670dbc538
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
