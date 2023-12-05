@@ -5,7 +5,7 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 34bfaf6b161b13e881fbcb88c343c1b424072752
+source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ## 新機能
 
-Journey Optimizer製品およびドキュメントの最新の機能強化の概要を説明します。 機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](using/rn/release-notes.md).  ドキュメントの最新の変更については、 [ドキュメントの更新ページ](using/rn/documentation-updates.md).
+Journey Optimizer製品およびドキュメントの最新の機能強化の概要を説明します。 機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](using/rn/release-notes.md). ドキュメントの最新の変更については、 [ドキュメントの更新ページ](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ SMS チャネルを使用すると、マルチメディアメッセージサー�
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>コンテンツ管理</strong><br/><a href="using/content-management/assets-essentials.md">アセット/画像</a> - <a href="using/personalization/personalize.md">パーソナライズ</a> - <a href="using/content-management/content-templates.md">再利用可能</a> &amp; <a href="using/personalization/dynamic-content.md">動的</a> コンテンツ — <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
+      <strong>コンテンツ管理</strong><br/><a href="using/content-management/assets.md">アセット/画像</a> - <a href="using/personalization/personalize.md">パーソナライズ</a> - <a href="using/content-management/content-templates.md">再利用可能</a> &amp; <a href="using/personalization/dynamic-content.md">動的</a> コンテンツ — <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
