@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: ジャーニー，メッセージ，プッシュ， sms，メール，アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 94%
 
 ---
 
-# 電子メール、アプリ内、プッシュ、SMS/MMS{#add-a-message-in-a-journey}
+# メール、アプリ内、プッシュおよびテキストメッセージの送信 {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
