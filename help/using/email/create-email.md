@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 87%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="メールの作成"
->abstract="メールのパラメーターを 3 つの簡単な手順で定義します。"
+>abstract="E メールの件名を定義し、E メールデザイナーを開いて E メールのコンテンツを作成します。"
 
-[!DNL Journey Optimizer] でメールを作成するには、次の手順に従います。
 
-## ジャーニーまたはキャンペーンでのメールの作成 {#create-email-journey-campaign}
+## 電子メールアクションを追加 {#email-action}
 
-**[!UICONTROL メール]**&#x200B;アクションをジャーニーまたはキャンペーンに追加し、場合に応じて次の手順に従います。
+で E メールを作成するには、以下を実行します。 [!DNL Journey Optimizer]、を追加します。 **[!UICONTROL 電子メール]** ジャーニーまたはキャンペーンに対するアクション。 次に、お使いの場合に応じて、以下の手順に従います。
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-1. **[!UICONTROL コンテンツを編集]**&#x200B;画面の「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 差出人名]**」、「**[!UICONTROL 差出人メールアドレス]**」、「**[!UICONTROL BCC]**」の各フィールドは、選択したメールサーフェスから取得されます。[詳細情報](email-settings.md) <!--check if same for journey-->
+   Adobe Analytics の **[!UICONTROL ヘッダー]** のセクション **[!UICONTROL コンテンツを編集]** screen, **[!UICONTROL 送信者名]**, **[!UICONTROL 送信元メール]** および **[!UICONTROL BCC]** フィールドが、選択した電子メールサーフェスで設定されている。 [詳細情報](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 件名を追加できます。該当するフィールドに直接プレーンテキストを入力するか、[式エディター](../personalization/personalization-build-expressions.md)を使用して件名をパーソナライズします。
+1. メッセージの件名行を追加します。 式エディターで件名行を設定およびパーソナライズするには、 **[!UICONTROL パーソナライゼーションダイアログを開く]** アイコン。 [詳細情報](../personalization/personalization-build-expressions.md)
 
-1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックして、[!DNL Journey Optimizer] E メールデザイナーでコンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
+1. 次をクリック： **[!UICONTROL メール本文を編集]** ボタンをクリックして E メールデザイナーにアクセスし、コンテンツの作成を開始します。 [詳細情報](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
