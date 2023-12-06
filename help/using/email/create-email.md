@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 87%
+source-wordcount: '908'
+ht-degree: 84%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->ジャーニーからメールを送信する場合、Adobe Journey Optimizer の送信時間最適化機能を活用して、メッセージを送信する最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化することができます。詳しくは、[送信時間の最適化](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>送信時間の最適化オプションを使用すると、過去の開封率とクリック率に基づいてエンゲージメントを最大化するために、メッセージ送信の最適な時間を予測できます。 詳しくは、[送信時間の最適化](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
 
 ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
