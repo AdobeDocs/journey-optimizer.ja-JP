@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 100%
 >title="決定ルールの作成"
 >abstract="決定ルールを使用すると、決定項目レベルで直接、または特定の選択戦略内で制約を適用することで、決定項目のオーディエンスを定義できます。これにより、アイテムを提示する対象を正確に制御できます。"
 
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
+>[!BEGINSHADEBOX &quot;このドキュメントガイドの内容&quot;]
 
 * [Offer Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目の管理
-   * [項目カタログの設定](catalogs.md)
-   * [決定項目の作成](items.md)
-   * [項目コレクションの管理](collections.md)
-* 項目の選択の設定
-   * **[決定ルールの作成](rules.md)**
-   * [ランキングメソッドの作成](ranking.md)
+* 決定項目を管理します。 [項目カタログを設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションを管理](collections.md)
+* 項目の選択を設定： **[決定ルールの作成](rules.md)** - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
 * [決定ポリシーを作成](create-decision.md)
 

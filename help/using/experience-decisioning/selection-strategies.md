@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 96%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ja" text="オーディエンスを使用"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=ja" text="決定ルールを使用"
 
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
+>[!BEGINSHADEBOX &quot;このドキュメントガイドの内容&quot;]
 
 * [Offer Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目の管理
-   * [項目カタログの設定](catalogs.md)
-   * [決定項目の作成](items.md)
-   * [項目コレクションの管理](collections.md)
-* 項目の選択の設定
-   * [決定ルールの作成](rules.md)
-   * [ランキングメソッドの作成](ranking.md)
+* 決定項目を管理します。 [項目カタログを設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションを管理](collections.md)
+* 項目の選択を設定： [決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * **[選択戦略の作成](selection-strategies.md)**
 * [決定ポリシーを作成](create-decision.md)
 
@@ -83,6 +76,8 @@ ht-degree: 100%
    ![](assets/strategy-create-screen.png)
 
 1. 検討するオファーを含む[コレクション](collections.md)を選択します。
+
+1. 検討するオファーを含むオファー[コレクション](collections.md)を選択します。
 
 1. 「**[!UICONTROL 実施要件]**」フィールドを使用して、この選択戦略のオファーの選択を制限します。
 
