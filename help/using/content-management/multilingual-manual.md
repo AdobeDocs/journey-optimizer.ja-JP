@@ -11,14 +11,15 @@ keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+badge: label="ベータ版" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 100%
 
 ---
 
-# 多言語コンテンツの作成手動翻訳を使用 {#multilingual-manual}
+# 手動翻訳を使用した多言語コンテンツの作成 {#multilingual-manual}
 
 >[!BEGINSHADEBOX]
 

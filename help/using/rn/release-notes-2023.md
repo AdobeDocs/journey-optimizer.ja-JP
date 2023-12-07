@@ -7,7 +7,8 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
+source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
 ht-degree: 99%

@@ -11,9 +11,10 @@ keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+badge: label="ベータ版" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
