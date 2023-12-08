@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP、配信品質
 hide: true
 hidefromtoc: true
+badge: label="ベータ版"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
 # IP ウォームアッププランの概要 {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ ht-degree: 100%
 >現在、IP ウォームアップ機能は、一部のユーザーのみを対象としたベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 [!DNL Journey Optimizer] を使用すると、最適な配信品質を実現するためのベストプラクティスに従って、標準化された効率的な方法で、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できます。
+
+➡️ [IP ウォームアッププランの作成および実行方法については、このビデオを参照してください。](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ IP ウォームアッププランを実装するための主な手順を以下�
 1. [!DNL Journey Optimizer] で IP ウォームアッププランを作成し、配信品質コンサルタントの支援を得て作成した Excel シートをアップロードします。[詳細情報](ip-warmup-plan.md)
 
 1. プランの各フェーズのキャンペーンを選択し、対応する実行をアクティベートします。[詳細情報](ip-warmup-execution.md)
+
+## ハウツービデオ {#video}
+
+IP ウォームアッププランを作成し、実行する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)

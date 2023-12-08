@@ -10,10 +10,11 @@ level: Intermediate
 keywords: IP, プール, 配信品質
 hide: true
 hidefromtoc: true
+badge: label="ベータ版"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 77d8da88b72cada82d30afa8bab5a63ab435f625
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '408'
 ht-degree: 100%
 
 ---
