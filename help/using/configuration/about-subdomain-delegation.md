@@ -10,9 +10,9 @@ level: Experienced
 keywords: サブドメイン, Optimizer, デリゲーション
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->サブドメインに DMARC を実装する場合は、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>サブドメインに DMARC を実装するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にお問い合わせください。
 
 ## サブドメインの設定方法 {#subdomain-delegation-methods}
 
