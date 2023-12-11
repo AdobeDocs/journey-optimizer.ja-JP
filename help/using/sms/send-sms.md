@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: テキストメッセージの確認とテスト
-description: Journey Optimizerでテキストメッセージを確認して送信する方法を説明します
+title: テキストメッセージの確認およびテスト
+description: Journey Optimizer でテキストメッセージを確認および送信する方法を学ぶ
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# テキストメッセージの確認と送信 (SMS/MMS) {#send-sms}
+# テキストメッセージ（SMS／MMS）の確認および送信 {#send-sms}
 
-## テキストメッセージをプレビュー {#preview-sms}
+## テキストメッセージのプレビュー {#preview-sms}
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
@@ -33,7 +33,7 @@ ht-degree: 71%
 
 ![](assets/sms-alert-button.png)
 
-* **警告**&#x200B;は、レコメンデーションとベストプラクティスを指します。例えば、テキストメッセージが空の場合は、警告メッセージが表示されます。
+* **警告**&#x200B;は、レコメンデーションとベストプラクティスを指します。例えば、テキストメッセージが空の場合は警告メッセージが表示されます。
 
 * **エラー**&#x200B;の場合は、それが解決されない限り、ジャーニーのテストやアクティブ化またはキャンペーンの公開はできません。例えば、件名がない場合は、それを警告するエラーメッセージが表示されます。
 
@@ -44,11 +44,11 @@ ht-degree: 71%
 
 ## テキストメッセージの送信 {#sms-send}
 
-テキストメッセージの準備が整ったら、 [ジャーニー](../building-journeys/journey-gs.md) または [campaign](../campaigns/create-campaign.md) 送信する
+テキストメッセージの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)の設定を完了して送信します。
 
 **関連トピック**
 
 * [SMS チャネルの設定](sms-configuration.md)
-* [SMS/MMS レポート](../reports/journey-global-report.md#sms-global)
+* [SMS／MMS レポート](../reports/journey-global-report.md#sms-global)
 * [テキストメッセージの作成](create-sms.md)
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
