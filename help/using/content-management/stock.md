@@ -10,9 +10,9 @@ level: Beginner
 keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 「**[!UICONTROL Adobe Stock フォトを検索]**」および「**[!UICONTROL 類似画像を検索]**」オプションは、AEM Assets Essentials 製品プロファイルにアクセスできるユーザーが使用できます。
 
-詳しくは、 [Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-users-to-essentials){target="_blank"}.
+詳しくは、[Experience Manager Assets ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-users-to-essentials){target="_blank"}を参照してください。
 
 ## [!DNL Adobe Stock] からの画像の挿入 {#add-stock-image}
 
