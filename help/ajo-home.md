@@ -8,15 +8,15 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
-## 新機能
+## 新着情報
 
-Journey Optimizer製品およびドキュメントの最新の機能強化の概要を説明します。 機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](using/rn/release-notes.md). ドキュメントの最新の変更については、 [ドキュメントの更新ページ](using/rn/documentation-updates.md).
+Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](using/rn/release-notes.md). [ドキュメントの更新ページ](using/rn/documentation-updates.md)にアクセスして、ドキュメントの最新の変更点を常に最新の状態に保ってください。
 
 >[!BEGINTABS]
 
@@ -34,26 +34,26 @@ SMS チャネルを使用すると、マルチメディアメッセージサー�
 
 >[!ENDTABS]
 
-## 基本事項から始めます
+## 基本について学ぶ
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
     <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>クイックスタートガイド</strong><br/>役割に応じてパーソナライズされたアプローチを使用して、Journey Optimizerで目標をより迅速に達成する方法を学びます。</div>
+    <div><strong>クイックスタートガイド</strong><br/>Journey Optimizer で、自分の役割に応じてパーソナライズされたアプローチを使用して目標をより早く達成する方法について説明します。</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>ユーザーインターフェイス</strong><br/>Journey Optimizerでエクスペリエンスをナビゲートおよび最適化する方法について説明します。</div>
+    <div><strong>ユーザーインターフェイス</strong><br/>Journey Optimizer で、エクスペリエンスを操作して最適化する方法について説明します。</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>最初のジャーニーを作成</strong><br/>パーソナライズされたチャネルジャーニーの設計と調整を行い、マーケティングアウトリーチと 1 対 1 の顧客エンゲージメントを調整します。 
+    <div><strong>最初のジャーニーの作成</strong><br/>パーソナライズされたオムニチャネルジャーニーを設計および調整して、マーケティングアウトリーチと 1 対 1 の顧客エンゲージメントを調和させます。 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>最初のキャンペーンを開始</strong><br/>Journey Optimizerで最初のキャンペーンを作成して開始し、特定のオーディエンスに対して 1 回限りのターゲットコンテンツを配信します。</div>
+    <div><strong>最初のキャンペーンの起動</strong><br/>Journey Optimizer で最初のキャンペーンを作成して開始し、特定のオーディエンスに対して 1 回限りのターゲットコンテンツを配信します。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -64,7 +64,7 @@ SMS チャネルを使用すると、マルチメディアメッセージサー�
     </tr>
 </table>
 
-## ドキュメントを参照
+## ドキュメントの参照
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -101,12 +101,12 @@ SMS チャネルを使用すると、マルチメディアメッセージサー�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品の説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">セキュリティの概要 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API リファレンス</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank">チュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品の説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">セキュリティの概要（PDF）</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API リファレンス</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">ドキュメント</a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者向けリソース</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">ドキュメント</a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">デベロッパーリソース</a>
 </td>
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>常に情報を提供し、Adobe Journey Optimizerのエクスペリエンスを向上させます。</b><br/>四半期ごとのニュースレターに新規登録します。 最新の製品アップデート、魅力的なストーリー、実際の使用例、貴重なヒントなど、すべての情報が四半期ごとにインボックスに直接届くようになります。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">今すぐ登録！</a></td></tr></table>
+<b>常に新着情報を入手して、Adobe Journey Optimizer のエクスペリエンスを向上させます。</b><br/>四半期ごとのニュースレターに新規登録します。最新の製品アップデート、魅力的なストーリー、実際のユースケース、貴重なヒントなどに独占的にアクセスでき、すべて四半期ごとにインボックスに直接配信されます。<a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">今すぐ登録</a></td></tr></table>
