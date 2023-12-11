@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
-workflow-type: tm+mt
-source-wordcount: '4174'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '4216'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 98%
 ## 2023年11月 {#nov-2023}
 
 * すべてのカスタムアクションを制限するガードレールを、30 秒間で 150,000 回の呼び出しから 1 分間で 300,000 回の呼び出しに変更しました。また、デフォルトのキャッピングは、各エンドポイントに適用しなくなりました。現在は、ホストごとおよびサンドボックスごとに実行されます。例えば、サンドボックスで、同じホストに 2 つのエンドポイントがある場合（例：`https://www.adobe.com/endpoint1` と `https://www.adobe.com/endpoint2`）、キャッピングは adobe.com ホストの下にあるすべてのエンドポイントに適用されます。「endpoint1」と「endpoint2」は同じキャッピング設定を共有し、一方のエンドポイントが制限に達すると、もう一方のエンドポイントに影響が生じます。[詳細情報](../action/about-custom-action-configuration.md)
-* キャンペーンのステータスのリストに、E メールキャンペーンの新しいステータスが追加されました。 [詳細情報](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
-* Adobe Experience Platformオーディエンスの概要の節が更新され、使用可能なオーディエンス評価方法と選択方法が反映されました。 [詳細情報](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* ストリーミングセグメント化評価方法を使用する場合に、オーディエンスの構築時に避ける必要があるイベントを指定する新しい節が追加されました。 [詳細情報](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
+* メールキャンペーンの新しいステータスをキャンペーンのステータスのリストに追加しました。[詳細情報](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* 「Adobe Experience Platform オーディエンスの基本を学ぶ」の節を更新し、使用可能なオーディエンス評価方法とその選択方法を反映しました。[詳細情報](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* ストリーミングセグメント化評価方法を使用している場合、オーディエンスの作成時に回避する必要があるイベントを指定するための新しい節を追加しました。[詳細情報](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## 2023年10月 {#oct-2023}
 
@@ -51,7 +51,7 @@ ht-degree: 98%
 
 * 送信時間の最適化に関する「よくある質問」の節が追加されました。[詳細情報](../building-journeys/journeys-message.md#faq-send-time)
 * オーディエンスの選定アクティビティに関するメモが追加されました。アクティブになり、オーディエンスをエントリまたは離脱するプロファイルをリッスンするまでに最大 10 分かかる場合があります。[詳細情報](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
-* 決定ルールを作成する際に考慮すべき制限のリストを決定管理ドキュメントに追加しました。[詳細情報](../offers/offer-library/creating-decision-rules.md)
+* 決定ルールを作成する際に考慮すべき制限のリストを意思決定管理ドキュメントに追加しました。[詳細情報](../offers/offer-library/creating-decision-rules.md)
 * アクセス制御に関するドキュメントへのリンクが更新されました。[詳細情報](../administration/permissions.md)
 * アプリ内チャネルの前提条件が更新され、Adobe Experience Platform のデータ収集の詳細が追加されました。[詳細情報](../in-app/inapp-configuration.md)
 * ランキング式の例で示されている式の一部が、検証エラーを回避するために更新されました。[詳細情報](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
