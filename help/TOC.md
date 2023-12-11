@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
    + [早期リリースノート](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
-      + [2023 年リリースノート](using/rn/release-notes-2023.md)
+      + [2023年リリースノート](using/rn/release-notes-2023.md)
       + [2022年リリースノート](using/rn/release-notes-2022.md)
       + [2021年リリースノート](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
@@ -216,12 +216,12 @@ ht-degree: 97%
       + [プッシュ通知フロー](using/push/push-gs.md)
       + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
       + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-+ SMS / MMS チャネル{#sms}
-   + [テキストメッセージの概要](using/sms/get-started-sms.md)
++ SMS／MMS チャネル{#sms}
+   + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
    + [テキストメッセージの作成](using/sms/create-sms.md)
    + [MMS メッセージの作成](using/sms/create-mms.md)
-   + [テキストメッセージを確認して送信する](using/sms/send-sms.md)
-   + [テキストメッセージのオプトアウトを管理](using/sms/sms-opt-out.md)
+   + [テキストメッセージの確認および送信](using/sms/send-sms.md)
+   + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
    + [SMS チャネルの設定](using/sms/sms-configuration.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
 + ダイレクトメール {#direct-mail}
@@ -269,7 +269,7 @@ ht-degree: 97%
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
       + [多言語キャンペーンレポート](using/content-management/multilingual-report.md)
    + Assets／画像 {#assets-images}
-      + [Experience Manager Assetsの操作](using/content-management/assets.md)
+      + [Experience Manager Assets の操作](using/content-management/assets.md)
       + [Adobe Stock との連携](using/content-management/stock.md)
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
@@ -360,7 +360,7 @@ ht-degree: 97%
    + [エラー理由](using/reports/error-list.md)
    + [アラート](using/reports/alerts.md)
    + [Customer Journey Analytics の操作](using/reports/cja-ajo.md)
-+ 意志決定管理 {#offer-decisioning}
++ 意思決定管理 {#offer-decisioning}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
       + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
