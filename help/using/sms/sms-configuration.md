@@ -2,51 +2,51 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS チャネルの設定
-description: Journey Optimizerでテキストメッセージを送信するように環境を設定する方法を説明します
+description: Journey Optimizer でテキストメッセージを送信するように環境を設定する方法を学ぶ
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # SMS チャネルの設定 {#sms-configuration}
 
-SMS または MMS を送信する前に、Adobe Journey Optimizer環境を設定する必要があります。 次の手順を実行します。
+SMS または MMS を送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。これを実行するには、次の操作を行います。
 
-* [プロバイダー設定の統合](#create-api) Journey Optimizerと
-* [SMS サーフェスの作成](#message-preset-sms) （例：SMS プリセット）。MMS にも使用されます。
+* Journey Optimizer と[プロバイダー設定を統合](#create-api)する
+* MMS にも使用される [SMS サーフェスを作成](#message-preset-sms)する（SMS プリセットなど）
 
-これらの手順は、Adobe Journey Optimizerが実行する必要があります [システム管理者](../start/path/administrator.md).
+これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
 
 ## 前提条件{#sms-prerequisites}
 
-Adobe Journey Optimizerは、現在、Adobe Journey Optimizerに依存しないテキストメッセージサービスを提供するサードパーティプロバイダーと統合されています。 テキストメッセージでサポートされるプロバイダーは次のとおりです。 **シンチ**, **Twilio** および **Infobip**. MMS はでのみサポートされます **シンチ**.
+Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立してテキストメッセージングサービスを提供する、サードパーティプロバイダーと統合されています。テキストメッセージでサポートされているプロバイダーは、**Sinch**、**Twilio** および **Infobip** です。MMS は **Sinch** でのみサポートされます。
 
-SMS チャネルを設定する前に、次のいずれかのプロバイダーのアカウントを作成して、 **API トークン** および **サービス ID**:Adobe Journey Optimizerと該当するプロバイダーの間の接続を設定する必要があります。
+SMS チャネルを設定する前に、こうしたいずれかのプロバイダーのアカウントを作成して、Adobe Journey Optimizer と該当するプロバイダー間の接続を設定するために必要な **API トークン**&#x200B;と&#x200B;**サービス ID** を取得する必要があります。
 
-テキストメッセージサービスを使用する場合、該当するプロバイダーから提供される追加の利用条件が適用されます。 サードパーティのソリューションである Sinch、Twilio、Infobip は、統合を通じてAdobe Journey Optimizerのユーザーが利用できます。 Adobeは制御せず、サードパーティ製品に対する責任も負いません。 テキストメッセージサービス (SMS/MMS) に関する問題やサポートのリクエストについては、プロバイダーにお問い合わせください。
+テキストメッセージサービスを使用した場合、該当するプロバイダーが定める追加の利用条件に同意したとみなされます。Adobe Journey Optimizer ユーザーは、サードパーティソリューションとして、統合を通じて Sinch、Twilio、Infobip を利用できます。サードパーティ製品について、アドビは一切関係せず、責任も負いません。テキストメッセージサービス（SMS／MMS）に関する問題やサポートのリクエストについては、プロバイダーにお問い合わせください。
 
 >[!CAUTION]
 >
->SMS サブドメインにアクセスして編集するには、 **[!UICONTROL SMS サブドメインの管理]** 実稼動サンドボックスに対する権限。 での権限の詳細を説明します。 [このページ](../administration/high-low-permissions.md#administration-permissions).
+>SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[このページ](../administration/high-low-permissions.md#administration-permissions)を参照してください。
 >
 
-## 新しい API 資格情報を作成 {#create-api}
+## 新しい API 資格情報の作成 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="SMS/MMS プロバイダーをJourney Optimizerで設定する"
->abstract="Adobe Journey Optimizerは、SMS/MMS サービスプロバイダーを通じてテキストメッセージを送信します。 プロバイダーを選択し、API 資格情報を入力します。"
+>title="Journey Optimizer での SMS／MMS プロバイダーの設定"
+>abstract="Adobe Journey Optimizer では、SMS／MMS サービスプロバイダーを通じてテキストメッセージを送信します。プロバイダーを選択し、API の資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="SMS/MMS プロバイダーをJourney Optimizerで設定する"
->abstract="テキストメッセージ (SMS/MMS) を送信する前に、プロバイダーの設定をJourney Optimizerに統合する必要があります。 完了したら、SMS/MMS サーフェスを作成する必要があります。 これらの手順は、Adobe Journey Optimizerシステム管理者が実行する必要があります。"
+>title="Journey Optimizer での SMS／MMS プロバイダーの設定"
+>abstract="テキストメッセージ（SMS／MMS）を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。完了したら、SMS／MMS サーフェスを作成する必要があります。これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ja#message-preset-sms" text="SMS チャネルサーフェスの作成"
 
 >[!CONTEXTUALHELP]
@@ -54,13 +54,13 @@ SMS チャネルを設定する前に、次のいずれかのプロバイダー�
 >title="SMS ベンダー設定の選択"
 >abstract="SMS ベンダーに設定する API 資格情報を選択します。"
 
-SMS/MMS プロバイダーをJourney Optimizerで設定するには、次の手順に従います。
+お使いの SMS／MMS プロバイダーを Journey Optimizer に設定するには、次の手順に従います。
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
    ![](assets/sms_6.png)
 
-1. SMS API 資格情報を設定します（以下の説明を参照）。
+1. 以下で説明するように、SMS API 資格情報を設定します。
 
    ![](assets/sms_7.png)
 
@@ -68,7 +68,7 @@ SMS/MMS プロバイダーをJourney Optimizerで設定するには、次の手�
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**:API ページにアクセスするには、「 SMS 」タブで資格情報を確認します。 詳しくは、 [Sinch ドキュメント](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。詳しくは、[Sinch のドキュメント](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}を参照してください。
 
       * **[!UICONTROL オプトインメッセージ]**：**[!UICONTROL オプトインメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
@@ -78,7 +78,7 @@ SMS/MMS プロバイダーをJourney Optimizerで設定するには、次の手�
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL プロジェクト ID]**, **[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：会話 API メニューから、アプリメニューに資格情報を表示できます。 詳しくは、 [Sinch ドキュメント](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+      * **[!UICONTROL プロジェクト ID]**、**[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：Conversation API メニューから、アプリメニューで資格情報を見つけることができます。詳しくは、[Sinch のドキュメント](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}を参照してください。
 
    * **[!DNL Twilio]** の場合：
 
@@ -86,13 +86,13 @@ SMS/MMS プロバイダーをJourney Optimizerで設定するには、次の手�
 
       * **[!UICONTROL アカウント SID]** および&#x200B;**[!UICONTROL 認証トークン]**：Twilio コンソールダッシュボードページの「アカウント情報」パネルにアクセスして、資格情報を検索します。
 
-      * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、 [Twilio ドキュメント](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+      * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、[Twilio のドキュメント](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}を参照してください。
 
    * **[!DNL Infobip]** の場合：
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。詳しくは、 [Infobip ドキュメント](https://www.infobip.com/docs/api){target="_blank"}.
+      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。詳しくは、[Infobip のドキュメント](https://www.infobip.com/docs/api){target="_blank"}を参照してください。
 
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
@@ -103,11 +103,11 @@ API 資格情報を作成して設定した後、SMS メッセージ用のチャ
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="メッセージカテゴリを定義"
->abstract="この表面を使用するテキストメッセージのタイプを選択します。ユーザーの同意を必要とするプロモーションメッセージの場合は「マーケティング」、パスワードのリセットなどの非商用メッセージの場合は「トランザクション」です。"
+>title="メッセージカテゴリの定義"
+>abstract="このサーフェスを使用するテキストメッセージのタイプを選択します（ユーザーの同意が必要なプロモーションメッセージの場合は「マーケティング」、パスワードリセットなどの非商用メッセージの場合は「トランザクション」）。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティングテキストメッセージのオプトアウト"
 
-SMS/MMS チャネルを設定したら、から SMS メッセージを送信するためのチャネルサーフェスを作成する必要があります。 **[!DNL Journey Optimizer]**.
+SMS／MMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります。
 
 チャネルサーフェスを作成するには、次の手順に従います。
 
@@ -129,10 +129,10 @@ SMS/MMS チャネルを設定したら、から SMS メッセージを送信す�
 
    サーフェスを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択することから開始します。
 
-   * 選択 **マーケティング** プロモーションテキストメッセージの場合：これらのメッセージにはユーザーの同意が必要です。
+   * プロモーションテキストメッセージの場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
    * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
 
-   SMS/MMS メッセージを作成する場合は、メッセージ用に選択したカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+   SMS／MMS メッセージの作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
 
    >[!CAUTION]
    >
@@ -150,13 +150,13 @@ SMS/MMS チャネルを設定したら、から SMS メッセージを送信す�
 
    >[!NOTE]
    >
-   >サブドメインを選択できるようにするには、少なくとも 1 つの SMS/MMS サブドメインが事前に設定されていることを確認してください。 [方法についてはこちらを参照](sms-subdomains.md)
+   >サブドメインを選択するには、1 つ以上の SMS／MMS サブドメインを事前に設定していることを確認してください。[方法についてはこちらを参照](sms-subdomains.md)
 
-1. このサーフェスにを使用する&#x200B;**[!UICONTROL オプトアウト番号]**&#x200B;を入力します。この数値からオプトアウトしたプロファイルは、でテキストメッセージを送信するために使用している他の数値からメッセージを送信できます。 [!DNL Journey Optimizer].
+1. このサーフェスにを使用する&#x200B;**[!UICONTROL オプトアウト番号]**&#x200B;を入力します。この番号からオプトアウトしたプロファイルは、[!DNL Journey Optimizer] でテキストメッセージを送信する際に使用している他の番号からも、引き続きメッセージを送信できます。
 
    >[!NOTE]
    >
-   >In [!DNL Journey Optimizer]、テキストメッセージのオプトアウトは、チャネルレベルでは管理されなくなりました。 現在は、数値に固有です。
+   >[!DNL Journey Optimizer] の場合、テキストメッセージのオプトアウトはチャネルレベルで管理されなくなりました。現在は、数値に固有です。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 
@@ -172,11 +172,11 @@ SMS/MMS チャネルを設定したら、から SMS メッセージを送信す�
 
    ![](assets/preset-active.png)
 
-これで、Journey Optimizerでテキストメッセージを送信する準備が整いました。
+これで、Journey Optimizer でテキストメッセージを送信する準備が整いました。
 
 **関連トピック**
 
-* [テキストメッセージ (SMS/MMS) の作成](create-sms.md)
+* [テキストメッセージ（SMS／MMS）の作成](create-sms.md)
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)
 
