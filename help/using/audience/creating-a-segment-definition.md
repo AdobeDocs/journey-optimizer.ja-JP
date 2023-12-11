@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
-workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '397'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 91%
 
      >[!NOTE]
      >
-     >Adobeでは、ストリーミングセグメント化で、開くイベントや送信イベントを使用しないことをお勧めします。 代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティシグナルを使用します。 頻度または抑制ロジックの場合、イベントを送信するのではなく、ビジネスルールを使用します。 [詳細情報](about-audiences.md#open-and-send-event-guardrails)
+     >アドビでは、ストリーミングセグメント化で開くイベントや送信イベントを使用しないことをお勧めします。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックについては、イベントを送信するのではなくビジネスルールを使用します。[詳細情報](about-audiences.md#open-and-send-event-guardrails)
 
 1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルが自動的に更新され、オーディエンスに属する推定プロファイルに関する情報が反映されます。
 
