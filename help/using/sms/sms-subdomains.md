@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: テキストメッセージ (SMS/MMS) のサブドメインの設定
+title: テキストメッセージ（SMS／MMS）のサブドメイン設定
 description: Journey Optimizer で SMS サブドメインを設定する方法を学ぶ
 role: Admin
 feature: SMS, Channel Configuration
@@ -9,9 +9,9 @@ level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -19,37 +19,37 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="SMS/MMS サブドメインをデリゲート"
->abstract="テキストメッセージ (SMS/MMS) のサブドメインを設定します。 既にドメインにデリゲートされているサブAdobeを使用するか、新しいサブドメインを設定できます。"
+>title="SMS／MMS サブドメインのデリゲート"
+>abstract="テキストメッセージ（SMS／MMS）のサブドメインを設定します。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="SMS/MMS サブドメインをデリゲート"
->abstract="SMS サーフェスを作成するにはこのサブドメインが必要なので、テキストメッセージに使用するサブドメインを設定する必要があります。 既にドメインにデリゲートされているサブAdobeを使用するか、新しいサブドメインを設定できます。"
+>title="SMS／MMS サブドメインのデリゲート"
+>abstract="SMS サーフェスを作成するにはこのサブドメインが必要なので、テキストメッセージで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ja#message-preset-sms" text="SMS サーフェスの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="SMS/MMS サブドメインを選択"
+>title="SMS／MMS サブドメインの選択"
 >abstract="SMS サーフェスを作成できるようにするには、少なくとも 1 つの SMS サブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=ja#message-preset-sms" text="SMS サーフェスの作成"
 
-SMS/MMS メッセージに追加される URL を短縮するには、次のタイミングで選択するサブドメインを設定する必要があります [SMS サーフェスの作成](sms-configuration.md#message-preset-sms).
+SMS／MMS メッセージに追加された URL を短縮できるようにするには、[SMS サーフェスを作成](sms-configuration.md#message-preset-sms)する際に選択するサブドメインを設定する必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
 
 >[!CAUTION]
 >
->* SMS サブドメイン設定は、すべての環境間で共有されます。 したがって、SMS サブドメインに変更を加えると、他の実稼働用サンドボックスにも影響します。
+>* SMS サブドメインの設定は、すべての環境間で共有されます。したがって、SMS サブドメインを変更すると、他の実稼動サンドボックスにも影響します。
 >
->* SMS サブドメインにアクセスして編集するには、 **[!UICONTROL SMS サブドメインの管理]** 実稼動サンドボックスに対する権限。 権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
+>* SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
 >
 
 ## 既存のサブドメインを使用 {#sms-use-existing-subdomain}
 
 既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** メニューを開き、「 」を選択します。 **[!UICONTROL SMS 設定]** > **[!UICONTROL SMS サブドメイン]**.
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューを参照して、**[!UICONTROL SMS 設定]**／**[!UICONTROL SMS サブドメイン]**&#x200B;を選択します。
 
    ![](assets/sms_access-subdomains.png)
 
@@ -102,7 +102,7 @@ SMS/MMS メッセージに追加される URL を短縮するには、次のタ�
 
 新しいサブドメインを設定するには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** メニューから、「 **[!UICONTROL SMS 設定]** > **[!UICONTROL SMS サブドメイン]**.
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューを参照して、**[!UICONTROL SMS 設定]**／**[!UICONTROL SMS サブドメイン]**&#x200B;を選択します。
 
 1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
 
@@ -136,6 +136,6 @@ SMS/MMS メッセージに追加される URL を短縮するには、次のタ�
 
 1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
-サブドメインを使用して SMS メッセージを送信する前に、Adobeが必要なチェックを実行するまで待つ必要があります（最大 4 時間かかる場合があります）。<!--Learn more in [this section](#subdomain-validation).--> チェックが正常に完了すると、サブドメインは **[!UICONTROL 成功]** ステータス。 SMS チャネルのサーフェスを作成する準備が整いました。
+サブドメインを使用して SMS メッセージを送信するには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。<!--Learn more in [this section](#subdomain-validation).--> チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。SMS チャネルのサーフェスを作成する準備が整いました。
 
 ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
