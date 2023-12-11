@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="構造コンポーネントの追加"
->abstract="構造コンポーネントはメールのレイアウトを定義します。ドラッグ＆ドロップ&#x200B;**構造**&#x200B;コンポーネントをカンバスに追加して、メールコンテンツのデザインを開始します。"
+>abstract="構造コンポーネントはメールのレイアウトを定義します。ドラッグ＆ドロップ&#x200B;**構造**&#x200B;コンポーネントをキャンバスに追加して、メールコンテンツのデザインを開始します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
