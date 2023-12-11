@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: テキストメッセージのオプトアウト管理
-description: SMS/MMS メッセージを使用してオプトアウトを管理する方法を説明します
+description: SMS／MMS メッセージを使用してオプトアウトを管理する方法を学ぶ
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
