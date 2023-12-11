@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1401'
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 98%
 
    ![](assets/email_designer_image_content.png)
 
-1. 次から： **[!UICONTROL 設定]** タブ、クリック **[!UICONTROL 参照]** アセットから画像ファイルを選択するか、 **[!UICONTROL メディアを読み込み]** をクリックして、Adobe Experience Manager Assetsにアセットをアップロードします。
+1. 「**[!UICONTROL 設定]**」タブで「**[!UICONTROL 参照]**」をクリックしてアセットから画像ファイルを選択するか、「**[!UICONTROL メディアを読み込み]**」をクリックしてアセットを Adobe Experience Manager Assets にアップロードします。
 
    [!DNL Adobe Experience Manager Assets] について詳しくは、[Adobe Experience Manager Assets ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
 
