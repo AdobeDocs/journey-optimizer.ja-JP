@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '709'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 [!DNL Adobe Experience Manager Assets] には、左メニューの「**[!UICONTROL アセット]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。
 
-詳細情報： [Journey Optimizer + Adobe Experience Manager Assets](../content-management/assets.md).
+詳しくは、[Journey Optimizer + Adobe Experience Manager Assets](../content-management/assets.md) を参照してください。
 
 
 ## Adobe Stock {#integration-stock}
