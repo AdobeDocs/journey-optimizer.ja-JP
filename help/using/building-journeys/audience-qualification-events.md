@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
-workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '987'
+ht-degree: 100%
 
 ---
 
@@ -107,9 +107,9 @@ ht-degree: 95%
 
 ストリーミングオーディエンスに対してオーディエンスの選定を使用すると、オーディエンスの継続的な評価により、エントリや離脱のピークが大きくなるリスクを軽減できます。ただし、オーディエンス定義の結果、大量の顧客が同時に選定されることになると、ピークも生じる可能性があります。
 
-ストリーミングセグメント化では、開くイベントや送信イベントを使用しないでください。 代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティシグナルを使用します。 頻度または抑制ロジックの場合、イベントを送信するのではなく、ビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md#open-and-send-event-guardrails)
+ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックについては、イベントを送信するのではなくビジネスルールを使用します。[詳細情報](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-ストリーミングによるセグメント化について詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja#api).
+ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja#api)を参照してください。
 
 ### オーバーロードの回避方法 {#overloads-speed-segment-qualification}
 
