@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
-workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1569'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->**ビジュアルフラグメント** は、 [E メールデザイナー](../email/get-started-email-design.md)一方、 **式フラグメント** は、 [式エディター](../personalization/personalization-build-expressions.md).
+>**ビジュアルフラグメント**&#x200B;は[メールデザイナー](../email/get-started-email-design.md)で使用できますが、**式フラグメント**&#x200B;には[式エディター](../personalization/personalization-build-expressions.md)からアクセスできます。
 
 また、Journey Optimizer の **Content REST API** を活用すると、コンテンツフラグメントを管理できます。詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}を参照してください。
 
