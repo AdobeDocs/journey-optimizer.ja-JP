@@ -10,9 +10,9 @@ level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 94%
 
 [!DNL Journey Optimizer] では、式エディターを使用すると、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。
 
-felper 関数、事前定義された式ライブラリ、属性 favourting など、パーソナライゼーションコンテンツの作成に役立つツールがいくつか用意されています。
+パーソナライゼーションコンテンツの作成に役立つツール（ヘルパー関数、事前定義された式ライブラリ、お気に入りの属性など）がいくつか用意されています。
 
 [!DNL Journey Optimizer] 式エディターについて詳しくは、[この節](personalization-build-expressions.md)を参照してください
 
