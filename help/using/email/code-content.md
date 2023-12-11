@@ -10,8 +10,8 @@ level: Intermediate, Experienced
 keywords: コード, HTML, エディター
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '194'
+workflow-type: ht
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
-> [Adobe Experience Manager Assets ](../content-management/assets.md) の画像は、このメソッドを使用する場合は参照できません。HTML コードで参照される画像は、公開場所に保存する必要があります。
+> [Adobe Experience Manager Assets](../content-management/assets.md) の画像は、このメソッドを使用する場合は参照できません。HTML コードで参照される画像は、公開場所に保存する必要があります。
 
 1. E メールデザイナーのホームページで、「**[!UICONTROL 独自にコーディング]**」を選択します。
 
