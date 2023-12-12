@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: ht
-source-wordcount: '1165'
-ht-degree: 100%
+source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+workflow-type: tm+mt
+source-wordcount: '1143'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 また、許可リストがアクティブでも空の場合は、メールは送信されません。 したがって、何らかの重大な問題が発生した場合、この機能を使用して、問題が解決するまで [!DNL Journey Optimizer] からのすべての発信を停止できます。詳しくは、[許可リスト論理](#logic)を参照してください。
 
-また、Journey Optimizer の **Suppression REST API** を活用して、抑制リストと許可リストを使用して送信メッセージを制御できます。[Suppression REST API の使用方法を学ぶ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=ja)
+また、Journey Optimizer の **Suppression REST API** を活用して、抑制リストと許可リストを使用して送信メッセージを制御できます。[抑制 REST API の使用方法を説明します。](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 許可リストへのアクセス {#access-allowed-list}
 
