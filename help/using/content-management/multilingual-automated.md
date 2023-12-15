@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="ベータ版" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 94%
+source-wordcount: '1370'
+ht-degree: 90%
 
 ---
 
@@ -182,9 +182,17 @@ ht-degree: 94%
 1. このページでは、翻訳プロジェクトのステータスに従います。
 
    * **[!UICONTROL 翻訳中]**：サービスプロバイダーが翻訳に積極的に取り組んでいます。
+
+     次を選択した場合、 **社内翻訳** （を設定する際に） **言語設定**&#x200B;を使用すると、コンテンツを翻訳プロジェクトに直接翻訳できます。 [詳細情報](#manage-ht-project)
+
    * **[!UICONTROL レビューの準備完了]**：レビュープロセスを開始する準備が整い、翻訳にアクセスして却下または承認できます。
-   * **[!UICONTROL レビュー済み]**：翻訳が承認され、キャンペーンに送信する準備が整いました。
+
+     次を選択した場合、 **[!UICONTROL レビューワークフローを有効にする]** の **[!UICONTROL 翻訳プロジェクト]**&#x200B;を使用すると、選択した翻訳プロバイダーによって、完了後にJourney Optimizerで直接翻訳をレビューできます。 [詳細情報](#review-translation-project)
+
+   * **[!UICONTROL 確認済み]**：翻訳が承認され、公開してキャンペーンに送信する準備が整いました。
+
    * **[!UICONTROL 公開準備完了]**：機械翻訳が完了し、キャンペーンに送信できるようになりました。
+
    * **[!UICONTROL 完了]**：キャンペーンで翻訳が使用できるようになりました。
 
    ![](assets/multilingual-campaign-automated-6.png)
