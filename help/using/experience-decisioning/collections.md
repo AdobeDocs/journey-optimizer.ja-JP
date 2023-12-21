@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 92%
 >title="コレクションの選択"
 >abstract="検討するオファーが含まれているコレクションを選択します。この手順は、選択戦略を作成する場合は必須です。コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。例えば、カスタム属性「カテゴリ」に「ヨガ」の値を持つすべての決定項目を含むコレクションを作成できます。"
 
->[!BEGINSHADEBOX &quot;このドキュメントガイドの内容&quot;]
+>[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Offer Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目を管理します。 [項目カタログを設定](catalogs.md) - [決定項目の作成](items.md) - **[項目コレクションを管理](collections.md)**
-* 項目の選択を設定： [決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
+* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - **[項目コレクションの管理](collections.md)**
+* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
 * [決定ポリシーを作成](create-decision.md)
 
