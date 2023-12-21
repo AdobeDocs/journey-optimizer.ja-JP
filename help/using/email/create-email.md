@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="メールの作成"
->abstract="E メールの件名を定義し、E メールデザイナーを開いて E メールのコンテンツを作成します。"
+>abstract="メールの件名を定義し、メールデザイナーを開いてメールのコンテンツを作成します。"
 
 
-## 電子メールアクションを追加 {#email-action}
+## メールアクションの追加 {#email-action}
 
-で E メールを作成するには、以下を実行します。 [!DNL Journey Optimizer]、を追加します。 **[!UICONTROL 電子メール]** ジャーニーまたはキャンペーンに対するアクション。 次に、お使いの場合に応じて、以下の手順に従います。
+[!DNL Journey Optimizer] でメールを作成するには、**[!UICONTROL メール]**&#x200B;アクションをジャーニーまたはキャンペーンに追加します。次に、ケースに応じて、次の手順に従います。
 
 >[!BEGINTABS]
 
@@ -44,7 +44,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->送信時間の最適化オプションを使用すると、過去の開封率とクリック率に基づいてエンゲージメントを最大化するために、メッセージ送信の最適な時間を予測できます。 詳しくは、[送信時間の最適化](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>「送信時間の最適化」オプションを使用すると、メッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。詳しくは、[送信時間の最適化](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
 
 ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
@@ -85,13 +85,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   Adobe Analytics の **[!UICONTROL ヘッダー]** のセクション **[!UICONTROL コンテンツを編集]** screen, **[!UICONTROL 送信者名]**, **[!UICONTROL 送信元メール]** および **[!UICONTROL BCC]** フィールドが、選択した電子メールサーフェスで設定されている。 [詳細情報](email-settings.md) <!--check if same for journey-->
+   **[!UICONTROL コンテンツを編集]**&#x200B;画面の「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 差出人名]**」、「**[!UICONTROL 差出人メールアドレス]**」、「**[!UICONTROL BCC]**」の各フィールドは、選択したメールサーフェスで設定されます。[詳細情報](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. メッセージの件名行を追加します。 式エディターで件名行を設定およびパーソナライズするには、 **[!UICONTROL パーソナライゼーションダイアログを開く]** アイコン。 [詳細情報](../personalization/personalization-build-expressions.md)
+1. メッセージの件名を追加します。式エディターを使用して件名を設定およびパーソナライズするには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンをクリックします。[詳細情報](../personalization/personalization-build-expressions.md)
 
-1. 次をクリック： **[!UICONTROL メール本文を編集]** ボタンをクリックして E メールデザイナーにアクセスし、コンテンツの作成を開始します。 [詳細情報](get-started-email-design.md)
+1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてメールデザイナーにアクセスし、コンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
