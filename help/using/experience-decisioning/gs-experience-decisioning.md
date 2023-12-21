@@ -1,6 +1,6 @@
 ---
-title: Offer Decisioning の基本を学ぶ
-description: 詳しくは、Offer Decisioningを参照してください
+title: Experience Decisioning の基本を学ぶ
+description: 詳しくは、Experience Decisioningを参照してください
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -10,29 +10,29 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Offer Decisioning の基本を学ぶ {#get-started-experience-decisioning}
+# Experience Decisioning の基本を学ぶ {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX &quot;このドキュメントガイドの内容&quot;]
+>[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* **[Offer Decisioning の基本を学ぶ](gs-experience-decisioning.md)**
-* 決定項目を管理します。 [項目カタログを設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションを管理](collections.md)
-* 項目の選択を設定： [決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
+* **[Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)**
+* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
+* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
 * [決定ポリシーの作成](create-decision.md)
 
 >[!ENDSHADEBOX]
 
-## Offer Decisioning とは {#about}
+## Experience Decisioning とは {#about}
 
 >[!AVAILABILITY]
 >
->現在、Offer Decisioning 機能は、ベータ版として一部のユーザーのみが利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+>現在、Experience Decisioning 機能は、ベータ版として一部のユーザーのみが利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
@@ -41,11 +41,11 @@ Experience Decisioning は、「決定項目」と呼ばれるマーケティン
 **制限事項:**
 
 * 決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
-* 現時点では、Offer Decisioning ではフリークエンシーキャップを使用できません。
+* 現時点では、Experience Decisioning ではフリークエンシーキャップを使用できません。
 
-## Offer Decisioning の主な手順 {#steps}
+## Experience Decisioning の主な手順 {#steps}
 
-Offer Decisioning を操作する主な手順は次のとおりです。
+Experience Decisioning を操作する主な手順は次のとおりです。
 
 1. **カスタム属性の設定**：カスタム属性をカタログのスキーマに設定して、決定項目のカタログを特定の要件に合わせます。
 
