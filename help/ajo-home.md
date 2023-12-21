@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 ## 新着情報
 
-Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](using/rn/release-notes.md). [ドキュメントの更新ページ](using/rn/documentation-updates.md)にアクセスして、ドキュメントの最新の変更点を常に最新の状態に保ってください。
+Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。[ドキュメントの更新ページ](using/rn/documentation-updates.md)にアクセスして、ドキュメントの最新の変更点を常に最新の状態に保ってください。
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB SMS でのマルチメディアメッセージサービス (MMS)]
+>[!TAB SMS のマルチメディアメッセージサービス（MMS）]
 
 SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。
 
@@ -70,25 +70,25 @@ SMS チャネルを使用すると、マルチメディアメッセージサー�
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="using/building-journeys/journey.md">ジャーニー</a> - <a href="using/campaigns/get-started-with-campaigns.md">キャンペーン</a> - <a href="using/landing-pages/get-started-lp.md">ランディングページ</a> - <a href="using/reports/live-report.md">レポート</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">決定管理</a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="using/building-journeys/journey.md">ジャーニー</a> - <a href="using/campaigns/get-started-with-campaigns.md">キャンペーン</a> - <a href="using/landing-pages/get-started-lp.md">ランディングページ</a> - <a href="using/reports/live-report.md">レポート</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">意思決定管理</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>設定<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">チャンネルサーフェス</a> - <a href="using/configuration/about-data-sources-events-actions.md">ジャーニーの設定</a>  - <a href="using/administration/permissions-overview.md">アクセス制御</a> - <a href="using/administration/sandboxes.md">サンドボックス管理</a>
+      <strong>設定<br/>管理</strong><br/><a href="using/configuration/channel-surfaces.md">チャネルサーフェス</a> - <a href="using/configuration/about-data-sources-events-actions.md">ジャーニーの設定</a> - <a href="using/administration/permissions-overview.md">アクセス制御</a> - <a href="using/administration/sandboxes.md">サンドボックス管理</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>通信チャネル</strong><br/><a href="using/email/get-started-email.md">電子メール</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">アプリ内</a> - <a href="using/push/get-started-push.md">プッシュ通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">ダイレクトメール</a> - <a href="using/web/get-started-web.md">Web</a>
+      <strong>通信チャネル</strong><br/><a href="using/email/get-started-email.md">メール</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">アプリ内</a> - <a href="using/push/get-started-push.md">プッシュ通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">ダイレクトメール</a> - <a href="using/web/get-started-web.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>コンテンツ管理</strong><br/><a href="using/content-management/assets.md">アセット/画像</a> - <a href="using/personalization/personalize.md">パーソナライズ</a> - <a href="using/content-management/content-templates.md">再利用可能</a> &amp; <a href="using/personalization/dynamic-content.md">動的</a> コンテンツ — <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
+      <strong>コンテンツ管理</strong><br/><a href="using/content-management/assets.md">アセット／画像</a> - <a href="using/personalization/personalize.md">パーソナライゼーション</a> - <a href="using/content-management/content-templates.md">再利用可能</a>および<a href="using/personalization/dynamic-content.md">動的</a>コンテンツ - <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>プロファイルとオーディエンス</strong><br/><a href="using/audience/about-audiences.md">オーディエンス</a> - <a href="using/audience/get-started-profiles.md">プロファイル</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">ライセンスの使用状況</a> - <a href="using/privacy/get-started-privacy.md">プライバシー管理</a>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="using/audience/about-audiences.md">オーディエンス</a> - <a href="using/audience/get-started-profiles.md">プロファイル</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">ライセンス使用状況</a> - <a href="using/privacy/get-started-privacy.md">プライバシー管理</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
