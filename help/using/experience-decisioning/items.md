@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 97%
 >abstract="Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。現在、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合されます。この画面から、「**スキーマを編集**」ボタンを使用してカタログのスキーマにアクセスし、決定項目のカスタム属性を作成することもできます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=ja" text="項目カタログを設定"
 
->[!BEGINSHADEBOX &quot;このドキュメントガイドの内容&quot;]
+>[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Offer Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目を管理します。 [項目カタログを設定](catalogs.md) - **[決定項目の作成](items.md)** - [項目コレクションを管理](collections.md)
-* 項目の選択を設定： [決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
+* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* 決定項目の管理：[項目カタログの設定](catalogs.md) - **[決定項目の作成](items.md)** - [項目コレクションの管理](collections.md)
+* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
 * [決定ポリシーを作成](create-decision.md)
 
@@ -60,7 +60,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 決定項目を作成するには、次の手順に従います。
 
-1. **[!UICONTROL Offer Decisioning]**／**[!UICONTROL 項目]**&#x200B;に移動します。
+1. **[!UICONTROL Experience Decisioning]**／**[!UICONTROL 項目]**&#x200B;に移動します。
 
 1. 決定項目の標準属性を定義します。
 
