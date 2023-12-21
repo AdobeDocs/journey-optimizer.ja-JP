@@ -1,5 +1,5 @@
 ---
-title: Offer Decisioning のユースケース
+title: Experience Decisioning のユースケース
 description: コードベースチャネルでの実験を使用した決定の作成方法について説明します
 feature: Experience Decisioning
 topic: Integrations
@@ -9,19 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Offer Decisioning のユースケース {#experience-decisioning-uc}
+# Experience Decisioning のユースケース {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX &quot;このドキュメントガイドの内容&quot;]
+>[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Offer Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目を管理します。 [項目カタログを設定](catalogs.md) -[決定項目の作成](items.md) - [項目コレクションを管理](collections.md)
-* 項目の選択を設定： [決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
+* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
+* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
 * [決定ポリシーを作成](create-decision.md)
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 
 まず、項目を作成してコレクションにグループ化し、ルールとランキング方法を設定する必要があります。これらの要素を使用すると、選択戦略を作成できます。
 
-1. **[!UICONTROL Offer Decisioning]**／**[!UICONTROL 項目]**&#x200B;に移動し、いくつかのオファー項目を作成します。オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
+1. **[!UICONTROL Experience Decisioning]**／**[!UICONTROL 項目]**&#x200B;に移動し、いくつかのオファー項目を作成します。オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
