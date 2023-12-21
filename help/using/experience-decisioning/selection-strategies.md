@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 96%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ja" text="オーディエンスを使用"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=ja" text="決定ルールを使用"
 
->[!BEGINSHADEBOX &quot;このドキュメントガイドの内容&quot;]
+>[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Offer Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目を管理します。 [項目カタログを設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションを管理](collections.md)
-* 項目の選択を設定： [決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
+* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
+* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * **[選択戦略の作成](selection-strategies.md)**
 * [決定ポリシーを作成](create-decision.md)
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 ## 選択戦略へのアクセスと管理
 
-1. **[!UICONTROL Offer Decisioning]**／**[!UICONTROL 設定]**／**[!UICONTROL 選択戦略]**&#x200B;に移動します。
+1. **[!UICONTROL Experience Decisioning]**／**[!UICONTROL 設定]**／**[!UICONTROL 選択戦略]**&#x200B;に移動します。
 
 1. これまでに作成した選択戦略がすべてリストされます。ランキングメソッドに従って戦略を取得するのに役立つフィルターを使用できます。
 
