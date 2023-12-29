@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1530'
 ht-degree: 100%
 
 ---
@@ -175,7 +175,7 @@ ht-degree: 100%
 
   **フィールド：**_id
   **タイトル：**識別子
-  **説明：**関連する名前空間に含まれるオーディエンスの識別子。
+  **説明：**関連する名前空間に含まれるオーディエンスの ID。
   **タイプ：**&#x200B;文字列
 
 * 名前空間

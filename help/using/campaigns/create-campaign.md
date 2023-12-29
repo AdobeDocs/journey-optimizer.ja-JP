@@ -11,8 +11,8 @@ keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセー�
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 100%
+source-wordcount: '960'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 1. カスタムまたはコアのデータ使用ラベルをキャンペーンに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。 [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
-## メッセージの作成およびトラッキングの設定 {#content}
+## メッセージの作成とトラッキングの設定 {#content}
 
 「**[!UICONTROL アクション]**」セクションで、キャンペーンで送信するメッセージを作成します。
 

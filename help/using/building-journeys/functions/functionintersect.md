@@ -5,12 +5,12 @@ description: intersect 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: intersect, 関数, 式, ジャーニー
+keywords: 交差，関数，式，ジャーニー
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '85'
+ht-degree: 95%
 
 ---
 

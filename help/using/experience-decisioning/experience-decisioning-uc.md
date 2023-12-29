@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 

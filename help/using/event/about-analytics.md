@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics の統合
-description: Adobe Analytics データの活用方法について説明しますJourney Optimizer の場合
+description: Journey OptimizerでのAdobe Analyticsデータの活用方法を説明します
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -11,8 +11,8 @@ keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,8 @@ Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experienc
 
    ![](assets/ajo-aa_5.png)
 
-1. 「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定ペインが開きます。
+1. クリック **[!UICONTROL イベントを作成]**. 画面の右側にイベント設定ペインが開きます。
+
 
 1. 次の&#x200B;**[!UICONTROL イベント]**&#x200B;パラメーターを入力します。
 

@@ -11,8 +11,8 @@ keywords: アクション, カスタム, API, ジャーニー, 設定, サービ
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '399'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 ![](assets/journey-custom-action-url.png)
 
-### ヘッダーおよびクエリパラメーター {#headers}
+### ヘッダーとクエリのパラメーター {#headers}
 
 「**[!UICONTROL URL の設定]**」セクションには、動的ヘッダーフィールドとクエリパラメーターフィールドが表示されますが、定数フィールドは表示されません。動的ヘッダーおよびクエリパラメーターのフィールドは、アクション設定画面で変数として定義されます。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 

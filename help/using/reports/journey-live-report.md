@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1349'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 +++SMS レポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-**[!UICONTROL SMS - 送信統計]**&#x200B;テーブルは、配信の成功の詳細を示します。
+**[!UICONTROL SMS - 送信統計]**&#x200B;テーブルは、配信の成功を詳しく表示します。
 
 * **[!UICONTROL ターゲット]** : この配信のターゲットプロファイルとして認定されるユーザープロファイルの数。
 

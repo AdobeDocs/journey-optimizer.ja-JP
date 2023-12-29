@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 式を作成したら、決定内のプレースメントに割り当てることができます。これを行うには、以下の手順に従います。
 
-1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
+1. 決定を作成するか、既存の決定を編集します。 詳細は[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
 1. オファーを含むプレースメントを追加します。[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
 
@@ -66,7 +66,7 @@ AI モデルを選択して、特定のプロファイルに表示するオフ�
 
 AI モデルを作成したら、決定内のプレースメントに割り当てることができます。これを行うには、次の手順に従います。
 
-1. 決定を作成するか、既存の決定を編集します。[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
+1. 決定を作成するか、既存の決定を編集します。 詳細は[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
 1. オファーを含むプレースメントを追加します。[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
 

@@ -11,7 +11,7 @@ keywords: オファー, 決定, メール, パーソナライゼーション, �
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '622'
 ht-degree: 100%
 
 ---

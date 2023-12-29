@@ -5,12 +5,12 @@ description: matchRegExp 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: matchRegExp, 関数, 式, ジャーニー
+keywords: matchRegExp，関数，式，ジャーニー
 exl-id: 24cf362c-f390-4bb1-be82-a079bc27fa1f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '56'
+ht-degree: 92%
 
 ---
 

@@ -5,12 +5,12 @@ description: replace 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: replace, 関数, 式, ジャーニー
+keywords: 置換，関数，式，ジャーニー
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 | パラメーター | タイプ |
 |-----------|--------------|
 | base（ベース文字列） | 文字列 |
-| target（ターゲット文字列） | 文字列（RegExp） |
+| target（ターゲット文字列） | 文字列 (RegExp) |
 | replacement（置換文字列） | 文字列 |
 
 ## シグネチャと戻り値のタイプ

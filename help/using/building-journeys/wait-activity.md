@@ -11,7 +11,7 @@ keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## 待機アクティビティについて{#about_wait}
 
-待機期間は最長 29 日です。テストモードでは、「**[!UICONTROL テストの待機時間]**」パラメーターを使用すると、各待機アクティビティの持続時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。[このページ](../building-journeys/testing-the-journey.md)を参照してください。。
+待機期間は最長 29 日です。テストモードでは、「**[!UICONTROL テストの待機時間]**」パラメーターを使用すると、各待機アクティビティの持続時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
 グローバルジャーニーのタイムアウトが 30 日なので（つまり、プロファイルはジャーニーにエントリしてから最大 30 日後に常にジャーニーからドロップアウトするので）、1 つのジャーニーで複数の待機アクティビティを使用する場合は注意が必要です。詳しくは、[このページ](../building-journeys/journey-gs.md#global_timeout)を参照してください。
 

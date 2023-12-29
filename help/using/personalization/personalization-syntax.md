@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: パーソナライゼーション構文
-description: パーソナライゼーション構文の使用方法を説明します。。
+description: パーソナライゼーション構文の使用方法を説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -11,8 +11,8 @@ keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 99%
 
 ---
 

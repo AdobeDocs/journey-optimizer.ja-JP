@@ -5,12 +5,12 @@ description: nowWithDelta 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: nowWithDelta, 関数, 式, ジャーニー
+keywords: nowWithDelta，関数，式，ジャーニー
 exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 96%
 
 ---
 

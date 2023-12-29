@@ -11,7 +11,7 @@ keywords: データ, 管理, プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '655'
 ht-degree: 100%
 
 ---

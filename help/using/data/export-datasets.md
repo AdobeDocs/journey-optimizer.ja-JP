@@ -10,7 +10,7 @@ keywords: Platform, データレイク, 作成, レイク, データセット, �
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '906'
 ht-degree: 100%
 
 ---

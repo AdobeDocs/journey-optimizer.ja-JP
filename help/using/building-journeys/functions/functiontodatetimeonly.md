@@ -5,12 +5,12 @@ description: toDateTime 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toDateTimeOnly, 関数, 式, ジャーニー
+keywords: toDateTimeOnly，関数，式，ジャーニー
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 100%
+source-wordcount: '63'
+ht-degree: 93%
 
 ---
 

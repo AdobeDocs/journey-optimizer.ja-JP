@@ -5,12 +5,12 @@ description: inNextHours 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextHours, 関数, 式, ジャーニー
+keywords: inNextHours，関数，式，ジャーニー
 exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 

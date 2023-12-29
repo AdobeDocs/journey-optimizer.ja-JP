@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: ht
-source-wordcount: '3357'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '3359'
+ht-degree: 99%
 
 ---
 
@@ -341,7 +341,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++プッシュレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
 
-**[!UICONTROL プッシュ通知 - 送信統計]**&#x200B;テーブルには、プッシュ通知に関する主な情報の詳細が表示されます：
+The **[!UICONTROL プッシュ通知 — 送信統計]** この表は、プッシュ通知に関する主な情報の詳細を示しています。
 
 * **[!UICONTROL 実行時間]**：繰り返しプッシュ通知の各実行の開始時間。1 つまたは複数の繰り返しプッシュ通知のみをターゲットにするには、**[!UICONTROL 実行時間]**&#x200B;ドロップダウンから選択します。
 

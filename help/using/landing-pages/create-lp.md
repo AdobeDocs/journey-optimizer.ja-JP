@@ -11,8 +11,8 @@ keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 100%
+source-wordcount: '1716'
+ht-degree: 99%
 
 ---
 
@@ -263,7 +263,7 @@ ht-degree: 100%
 
 次の 2 種類のアラートが発生する可能性があります。
 
-* **警告**&#x200B;は、レコメンデーションとベストプラクティスを表します。<!--For example, a message will display if -->
+* **警告** レコメンデーションとベストプラクティスを参照してください。 <!--For example, a message will display if -->
 
 * **エラー**&#x200B;を解決しない限り、ランディングページを公開することはできません。例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
 

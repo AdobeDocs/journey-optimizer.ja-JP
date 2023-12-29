@@ -5,12 +5,12 @@ description: replaceAll 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: replaceAll, 関数, 式, ジャーニー
+keywords: replaceAll，関数，式，ジャーニー
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 | パラメーター | タイプ |
 |-----------|--------------|
 | base（ベース文字列） | 文字列 |
-| target（ターゲット文字列） | 文字列（RegExp） |
+| target（ターゲット文字列） | 文字列 (RegExp) |
 | replacement（置換文字列） | 文字列 |
 
 ## シグネチャと戻り値のタイプ

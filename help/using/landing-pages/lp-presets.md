@@ -11,7 +11,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
    例えば、ランディングページの URL が「pages.mail.luma.com」で、トラッキング URL が「data.mail.luma.com」の場合、トラッキングサブドメインとして「pages.mail.luma.com」を使用するように選択できます。
 
-1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確認します。<!--You can also save the preset as draft and resume its configuration later on.-->
+1. クリック **[!UICONTROL 送信]** をクリックして、ランディングページプリセットの作成を確定します。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 

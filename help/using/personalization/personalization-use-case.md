@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: パーソナライゼーションユースケース：注文ステータス通知
-description: プロファイル、オファー決定およびコンテキスト情報を使用してメッセージをパーソナライズする方法を説明します。
+description: プロファイル、オファーの決定、コンテキスト情報を使用してメッセージをパーソナライズする方法を説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -11,8 +11,8 @@ keywords: 式, エディター, ユースケース, パーソナライゼーシ�
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 100%
+source-wordcount: '504'
+ht-degree: 97%
 
 ---
 

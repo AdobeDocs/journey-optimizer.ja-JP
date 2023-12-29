@@ -8,7 +8,7 @@ keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '642'
 ht-degree: 100%
 
 ---

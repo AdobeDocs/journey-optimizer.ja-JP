@@ -5,12 +5,12 @@ description: inSegment 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inSegment, 関数, 式, ジャーニー
+keywords: inSegment，関数，式，ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 97%
 
 ---
 
