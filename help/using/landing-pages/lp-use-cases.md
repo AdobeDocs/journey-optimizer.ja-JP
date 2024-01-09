@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '943'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,9 @@ ht-degree: 100%
 
 受信者がお知らせの登録を解除止できるように、オプトアウトのランディングページへのリンクをメールに含めることができます。
 
-[この節](../privacy/opt-out.md)では、受信者の同意の管理と、これが重要である理由について説明します。
+>[!NOTE]
+>
+>[この節](../privacy/opt-out.md)では、受信者の同意の管理と、これが重要である理由について説明します。
 
 ### オプトアウト管理 {#opt-out-management}
 
@@ -103,7 +105,7 @@ ht-degree: 100%
 * 受信者がこのリンクをクリックすると、オプトアウトを確認するボタンを含んだランディングページが表示されます。
 * オプトアウトボタンをクリックすると、プロファイルデータがこの情報を使用して更新されます。
 
-### オプトアウトの設定 {#configure-opt-out}
+### 電子メールオプトアウトの設定 {#configure-opt-out}
 
 メールの受信者がランディングページを通じてお知らせなどのメッセージを登録解除できるようにするには、次の手順に従います。
 

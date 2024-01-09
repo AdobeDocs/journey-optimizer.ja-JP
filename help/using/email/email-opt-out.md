@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,15 @@ ht-degree: 100%
 
 それには、次のいずれかの方法を使用できます。
 
-* **外部のランディングページへのリンク**&#x200B;をメールに挿入して、ユーザーがブランドからの情報の配信を登録解除できるようにします。詳しくは、[外部オプトアウトリンクの追加方法](#opt-out-external-lp)を参照してください。
+* 挿入： **ランディングページへのリンク** を電子メールに送信して、ユーザーがブランドからのコミュニケーションの受信を登録解除できるようにします。 次のことが可能です。
+
+   * A **[!DNL Journey Optimizer]ランディングページ**. [オプトアウトランディングページの追加方法を説明します](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **外部ランディングページ**. 詳しくは、[外部オプトアウトリンクの追加方法](#opt-out-external-lp)を参照してください。
 
 * **ワンクリックオプトアウトリンク**&#x200B;をメールコンテンツに追加します。このリンクにより、選択内容の確認が必要なランディングページにリダイレクトされることなく、受信者は情報配信の登録をすばやく解除できます。その結果、登録解除プロセスが迅速化されます。詳しくは、[ワンクリックオプトアウト](#one-click-opt-out)を参照してください。
 
-さらに、**[!UICONTROL List-Unsubscribe]** オプションがチャネルサーフェスレベルで有効になっている場合、対応するメールが Journey Optimizer で送信される際には、メールヘッダーに登録解除リンクが含まれています。詳しくは、[メールヘッダーの登録解除リンク](#unsubscribe-header)を参照してください。
+* E メールヘッダーに配信停止リンクを追加します。 次の場合、 **[!UICONTROL List-Unsubscribe]** 「 」オプションがチャネルの表示レベルで有効になっている場合、Journey Optimizerで送信される対応する電子メールの e メールヘッダーに購読解除リンクが含まれます。 詳しくは、[メールヘッダーの登録解除リンク](#unsubscribe-header)を参照してください。
 
 >[!NOTE]
 >
@@ -161,7 +165,7 @@ ht-degree: 100%
 >abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除リンクを追加します。購読解除 URL を設定するには、メールのコンテンツにワンクリックオプトアウトリンクを挿入します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#one-click-opt-out" text="ワンクリックオプトアウト"
 
-[List-Unsubscribe オプション](../configuration/channel-surfaces.md#list-unsubscribe)がチャネルサーフェスレベルで有効になっている場合、対応するメールが [!DNL Journey Optimizer] で送信される際には、メールヘッダーに購読解除リンクが含まれています。
+[List-Unsubscribe オプション](email-settings.md#list-unsubscribe)がチャネルサーフェスレベルで有効になっている場合、対応するメールが [!DNL Journey Optimizer] で送信される際には、メールヘッダーに購読解除リンクが含まれています。
 
 例えば、購読解除リンクは Gmail では次のように表示されます。
 
