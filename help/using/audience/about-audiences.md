@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
+source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 100%
 >title="キャンペーンオーディエンスを選択"
 >abstract="このリストには、使用可能なすべての Adobe Experience Platformオーディエンスが表示されます。キャンペーンのターゲットにするオーディエンスを選択します。キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。"
 
-[!DNL Journey Optimizer] では、**[!UICONTROL オーディエンス]**&#x200B;メニューからリアルタイム顧客プロファイルデータを直接使用して Adobe Experience Platform オーディエンスを作成および活用し、それらをジャーニーやキャンペーンに使用することができます。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
+オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。セグメント定義やオーディエンス構成を使用してAdobe Experience Platformで生成したり、CSV ファイルから読み込んだりできます。 オーディエンスの詳細については、 [Adobe Experience Platform Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}.
+
+[!DNL Journey Optimizer] を使用すると、Adobe Experience Platformオーディエンスを **[!UICONTROL オーディエンス]** メニューを開き、それらをジャーニーやキャンペーンで活用します。
 
 ## [!DNL Journey Optimizer] でのオーディエンスの使用 {#segments-in-journey-optimizer}
 
@@ -36,6 +38,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >また、[オーディエンスの構成](../audience/get-started-audience-orchestration.md)または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を使用して作成された Adobe Experience Platform オーディエンスをターゲットにすることもできます。これらの機能は現在、Private Beta として使用可能です。
+
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 
