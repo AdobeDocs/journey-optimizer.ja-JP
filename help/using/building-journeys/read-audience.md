@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1398'
+ht-degree: 96%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 * オーディエンスを読み取りアクティビティを使用するジャーニーの場合、同時に開始できるジャーニーの最大数が決まっています。再試行はシステムによって実行されますが、例えば、5～10 分間隔で時間を分散させて、5 つを超えるジャーニー（オーディエンスを読み取り、スケジュール済みまたは「できるだけ早く」開始）を同時に開始することは避けてください。
 
 * エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。
+
+* ベストプラクティスとして、バッチオーディエンスの使用は、 **オーディエンスの閲覧** アクティビティ。 これにより、ジャーニーで使用されるオーディエンスの信頼性と一貫性が高くカウントされます。 読み取りオーディエンスは、バッチ使用例向けに設計されています。 リアルタイムデータが必要なユースケースでは、 **[オーディエンスの選定](audience-qualification-events.md)** アクティビティ。
 
 * 現時点では、[CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスや、ジャーニーへの[コンポジションワークフロー](../audience/get-started-audience-orchestration.md)から生成されたオーディエンスの使用は、Private Beta として使用可能です。詳しくは、アドビ担当者にお問い合わせください。
 
