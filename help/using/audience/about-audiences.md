@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 89%
+source-wordcount: '991'
+ht-degree: 85%
 
 ---
 
@@ -37,14 +37,17 @@ ht-degree: 89%
 * **CSV ファイルのインポート**:CSV ファイルを使用してオーディエンスをインポートします。 Adobe Experience Platformでオーディエンスをインポートする方法を説明します [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}.
 * **オーディエンスの構成**：構成ワークフローを作成して、既存のAdobe Experience Platformオーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。 [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
 
-## [!DNL Journey Optimizer] でのオーディエンスの使用 {#segments-in-journey-optimizer}
+## でのオーディエンスのターゲット設定 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 キャンペーンとジャーニーでは、[セグメント定義](../audience/creating-a-segment-definition.md)を使用して生成された Adobe Experience Platform オーディエンスを選択できます。
 
 >[!NOTE]
 >
->また、[オーディエンスの構成](../audience/get-started-audience-orchestration.md)または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を使用して作成された Adobe Experience Platform オーディエンスをターゲットにすることもできます。これらの機能は現在、Private Beta として使用可能です。
-
+>現時点では、次の結果からオーディエンスが生成されます。 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) はキャンペーンでのみターゲットに設定できます。 この機能は、ジャーニーのプライベートベータ版として使用できます。
+>
+>オーディエンスの使用 [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} のキャンペーンおよびジャーニーは、現在、プライベートベータ版として利用できます。
+>
+>詳しくは、アドビ担当者にお問い合わせください。
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 
