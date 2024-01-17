@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: bf7f09f644beb869cf30733e57754d8cf0408c9e
 workflow-type: tm+mt
-source-wordcount: '4236'
+source-wordcount: '4247'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
 
 ## 2024年1月 {#jan-2024}
 
+* ジャーニーサイズに関するガードレールが追加されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * ジャーニータイムアウト管理の詳細が説明されました [次の節では、](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [ドキュメントのホーム](../../ajo-home.md) ページのデザインが変更されました。
 
