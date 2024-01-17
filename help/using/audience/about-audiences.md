@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 94%
+source-wordcount: '970'
+ht-degree: 89%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 94%
 >title="キャンペーンオーディエンスを選択"
 >abstract="このリストには、使用可能なすべての Adobe Experience Platformオーディエンスが表示されます。キャンペーンのターゲットにするオーディエンスを選択します。キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。"
 
-オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。セグメント定義やオーディエンス構成を使用してAdobe Experience Platformで生成したり、CSV ファイルから読み込んだりできます。 オーディエンスの詳細については、 [Adobe Experience Platform Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}.
+オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。オーディエンスの詳細については、 [Adobe Experience Platform Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}.
 
 [!DNL Journey Optimizer] を使用すると、Adobe Experience Platformオーディエンスを **[!UICONTROL オーディエンス]** メニューを開き、それらをジャーニーやキャンペーンで活用します。
+
+オーディエンスは、様々な方法で生成できます。
+
+* **セグメントの定義**:Adobe Experience Platform Segmentation Service を使用して、新しいオーディエンス定義を作成します。 [詳しくは、セグメント定義の作成方法を参照してください](creating-a-segment-definition.md)
+* **CSV ファイルのインポート**:CSV ファイルを使用してオーディエンスをインポートします。 Adobe Experience Platformでオーディエンスをインポートする方法を説明します [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}.
+* **オーディエンスの構成**：構成ワークフローを作成して、既存のAdobe Experience Platformオーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。 [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
 
 ## [!DNL Journey Optimizer] でのオーディエンスの使用 {#segments-in-journey-optimizer}
 
