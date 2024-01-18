@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: プロファイル, 更新, ジャーニー, アクティビティ
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 100%
 * 他のアクションのように、エラーやタイムアウトの場合の代替パスを定義できます。また、2 つのアクションを並行して配置することはできません。
 * Adobe Experience Platform に送信される更新リクエストは、即時もしくは 1 秒以内です。通常は数秒かかりますが、もっと時間がかかる場合もあり、保証はありません。そのため、例えば、アクションが、その直前に配置された「**プロファイルを更新**」アクションによって更新された「フィールド 1」を使用している場合、「フィールド 1」がアクションで更新されるとは限りません。
 * この&#x200B;**プロファイルを更新**&#x200B;アクティビティは、定義済みリストとして定義された XDM フィールドをサポートしていません。
+* The **[!UICONTROL プロファイルを更新]** アクティビティは、 [プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}ではなく、データレイクです。
+* データセットを **[!UICONTROL プロファイルを更新]** アクティビティの場合は、データ取り込みフローのターゲットにならないものを使用することをお勧めします。 **[!UICONTROL プロファイルを更新]** 次の場所にのみ保存されている更新 [プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}の場合、データ取り込みフローでそのような変更が上書きされるリスクがあります。
 
 ## プロファイル更新の使用
 
