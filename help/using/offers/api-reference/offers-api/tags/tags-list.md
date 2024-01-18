@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 85%
@@ -33,7 +33,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | 結果をフィルタリングする条件となるクエリパラメーター（オプション）。 | `limit=2` |
 
-### ページング {#paging}
+## ページング {#paging}
 
 ページングに最も一般的なクエリパラメーターは次のとおりです。
 
