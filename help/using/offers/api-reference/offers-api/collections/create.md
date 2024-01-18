@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%
@@ -40,7 +40,7 @@ POST /{ENDPOINT_PATH}/offer-collections
 **リクエスト**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
+curl -X POST 'https://platform.adobe.io/data/core/dps/offer-collections' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \

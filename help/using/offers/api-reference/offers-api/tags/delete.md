@@ -6,36 +6,34 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 67%
 
 ---
 
 
 # コレクション修飾子の削除 {#delete-tag}
 
-コレクション修飾子（旧称「タグ」）を削除（DELETE）する必要が生じる場合があります。 テナントコンテナで作成したコレクション修飾子のみを削除できます。これは、削除するコレクション修飾子の $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
+コレクション修飾子（旧称「タグ」）を削除（DELETE）する必要が生じる場合があります。 これは、削除するDELETE修飾子の ID を使用して、オファーライブラリ API に対するコレクションリクエストを実行することでおこなわれます。
 
 **API 形式**
 
 ```http
-DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/tags/{ID}
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | コレクション修飾子が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 更新するコレクション修飾子のインスタンス ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 削除するエンティティの ID。 | `tag1234` |
 
 **リクエスト**
 
 ```shell
-curl -X DELETE \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/d48fd160-13dc-11eb-bc55-c11be7252432' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
+-H 'Content-Type: application/json' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
@@ -44,6 +42,6 @@ curl -X DELETE \
 
 **応答**
 
-正常な応答の場合は、空白の本文とともに HTTP ステータス 202 （コンテンツなし）が返されます。
+正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-コレクション修飾子に対して検索（GET）リクエストを実行することで、削除を確認できます。リクエストには Accept ヘッダーを含める必要がありますが、コレクション修飾子がコンテナから削除されたので、HTTP ステータス 404（見つかりません）を受け取ります。
+コレクション修飾子に対して検索（GET）リクエストを実行することで、削除を確認できます。収集修飾子が削除されているので、HTTP ステータス 404(Not Found) が表示されます。

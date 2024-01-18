@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
@@ -31,12 +31,12 @@ DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
 **リクエスト**
 
 ```shell
-curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-collections/offerCollection1234' \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+-H 'x-sandbox-name: {SANDBOX_NAME}' 
 ```
 
 **応答**
