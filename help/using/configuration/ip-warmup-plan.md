@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 97%
+source-wordcount: '1577'
+ht-degree: 95%
 
 ---
 
@@ -82,9 +82,14 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
 IP ウォームアッププランを [!DNL Journey Optimizer] インターフェイスで作成する前に、プランにフィードするすべてのデータを Excel テンプレートに入力する必要があります。
 
-* ユーザーインターフェイスから、空の Excel をダウンロードできます。 [IP ウォームアッププランテンプレート](assets/IPWarmupPlan-Template.xlsx) をクリックして入力します。
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* また、 [サンプル IP ウォームアッププラン](assets/IPWarmupPlan-Sample.xlsx) は、例として使用できる一部のデータで既に入力されています。
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* ユーザーインターフェイスから、入力する空の Excel IP ウォームアッププランテンプレートをダウンロードできます。
+
+* また、例として使用できるいくつかのデータが既に入力されているサンプル IP ウォームアッププランをダウンロードすることもできます。
 
 >[!CAUTION]
 >
@@ -280,7 +285,8 @@ mac.com、icloud.com、apple.com、me.com
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP ウォームアッププランを指定"
->abstract="CSV テンプレートをダウンロードして、IP ウォームアップフェーズとプロファイルのターゲット数のデータを入力します。"
+>abstract="IP ウォームアップフェーズやターゲットプロファイル数など、計画に必要なすべてのデータを Excel テンプレートに入力し、ここにアップロードします。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP ウォームアッププランファイルを準備"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
