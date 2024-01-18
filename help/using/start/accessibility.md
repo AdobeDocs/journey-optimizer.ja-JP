@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
     <td>Shift + 矢印キー</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   次の要素の設定ペイン：
 <ul>
   <li>ジャーニーのアクティビティ</li>
@@ -97,8 +96,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
   <li>データソース</li>
   <li>アクション</li>
 </ul>
-
-</td>
+  </td>
     <td>設定する次のフィールドに移動する</td>
     <td>Tab</td>
   </tr>
@@ -120,11 +118,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-「**[!UICONTROL 一度に 1 つのプロファイル]**」オプションがオンになっているオーディエンスベースのジャーニーでイベントをトリガーする
-
-</td>
+    <td>**[!UICONTROL 一度に 1 つのプロファイルをトリガー]**オプションがオンになっている、オーディエンスベースのジャーニー内のイベント</td>
     <td>P</td>
   </tr>
   <tr>
