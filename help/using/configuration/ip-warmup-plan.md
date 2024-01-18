@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: f776b851b6d3ca868fe34c691c5e1771a561dfef
+source-git-commit: da90e817edac44712f6f137d13574165c834e53a
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 97%
@@ -82,9 +82,9 @@ IP ウォームアップは、正当な送信者としての評判を確立す�
 
 IP ウォームアッププランを [!DNL Journey Optimizer] インターフェイスで作成する前に、プランにフィードするすべてのデータを Excel テンプレートに入力する必要があります。
 
-* ユーザーインターフェイスから、入力する空の Excel IP ウォームアッププランテンプレートをダウンロードできます。
+* ユーザーインターフェイスから、空の Excel をダウンロードできます。 [IP ウォームアッププランテンプレート](assets/IPWarmupPlan-Template.xlsx) をクリックして入力します。
 
-* また、例として使用できるいくつかのデータが既に入力されているサンプル IP ウォームアッププランをダウンロードすることもできます。
+* また、 [サンプル IP ウォームアッププラン](assets/IPWarmupPlan-Sample.xlsx) は、例として使用できる一部のデータで既に入力されています。
 
 >[!CAUTION]
 >
@@ -314,7 +314,7 @@ IP ウォームアッププランを作成するには、次の手順に従い�
 
    >[!NOTE]
    >
-   >アップロードに失敗した場合は、正しい形式とファイル形式（.xls または.xlsx）を使用していることを確認してください。Adobe。
+   >アップロードに失敗した場合は、正しい形式とファイル形式（.xls または.xlsx）を使用していることを確認してください。テンプレートを使用<!--assets/IPWarmupPlan-Template.xlsx--> Adobeが提供
 
 1. 「**[!UICONTROL 作成]**」をクリックします。アップロードしたファイルに定義されているすべてのフェーズ、実行、列、およびそれらのコンテンツは、[!DNL Journey Optimizer] インターフェイスに自動的に表示されます。
 
