@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 95%
+source-wordcount: '1749'
+ht-degree: 100%
 
 ---
 
@@ -85,8 +85,6 @@ ht-degree: 95%
    >
    >後から「**[!UICONTROL ドラフトとして保存]**」ボタンを使用してレコードを作成し、サブドメイン設定を送信できます。その後、サブドメインリストからサブドメインのデリゲーションを開くことで、そのデリゲーションを再開できます。
 
-1. サブドメインに DMARC レコードがない場合は、ここで設定できます。 サブドメインに既存の DMARC レコードがあり、それらがによって取得された場合は [!DNL Journey Optimizer]の場合は、同じ値を使用するか、必要に応じて変更できます。 詳細情報
-
 1. 完全なサブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。
 
    ![](assets/subdomain-processing.png)
@@ -156,8 +154,6 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
    >[!NOTE]
    >
    >後で「**[!UICONTROL ドラフトとして保存]**」ボタンを使用してレコードを作成できます。その後、サブドメインリストでサブドメインのデリゲーションを開くことにより、この段階から再開できます。
-
-1. サブドメインに DMARC レコードがない場合は、ここで設定できます。 サブドメインに既存の DMARC レコードがあり、それらがによって取得された場合は [!DNL Journey Optimizer]の場合は、同じ値を使用するか、必要に応じて変更できます。 詳細情報
 
 1. これらのレコードがスティングソリューションで生成され。エラーが発生していないことをアドビが確認するまで待ちます。この処理には最大 2 分かかる場合があります。
 
