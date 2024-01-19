@@ -8,9 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
+hide: true
+hidefromtoc: true
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="必須の DMARC 更新の詳細を説明します"
->abstract="業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次の日から始まります。 **2024 年 2 月 2 日**. <br>そのため、Adobeでは、Journey OptimizerのAdobeにデリゲートしたすべてのサブドメインに対して DMARC レコードを必ず設定することを強くお勧めします。"
+>abstract="業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**. <br>その結果、Journey OptimizerのAdobeにデリゲートしたすべてのサブドメインに対して DMARC レコードが設定されていることを確認する必要があります。"
 
 業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次の日から始まります。 **2024 年 2 月 2 日**.
 
@@ -32,9 +34,9 @@ Googleと Yahoo の要件について詳しくは、 [この節](https://experie
 
 そのため、Adobeでは、Adobeにデリゲートしたすべてのサブドメインに対して DMARC レコードを必ず設定することを強くお勧めします [!DNL Journey Optimizer]. 次の 2 つのオプションのいずれかに従います。
 
-* サブドメインまたはサブドメインの親ドメインで DMARC を設定します。 **をホスティングソリューションで使用**.
+* サブドメインまたはサブドメインの親ドメインで DMARC を設定します。 **をホスティングソリューションで使用**. 今からでもできます。
 
-* デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**  — ホスティングソリューションで余分な作業をおこなう必要はありません。
+* デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**  — ホスティングソリューションで余分な作業をおこなう必要はありません。 この機能は 2024 年 1 月 30 日に利用可能になります。
 
   >[!CAUTION]
   >
