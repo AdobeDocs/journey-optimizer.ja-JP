@@ -1,59 +1,76 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: DMARC レコード
-description: Journey Optimizerで DMARC レコードを設定する方法を説明します。
+title: 必須の DMARC の更新
+description: Journey Optimizerで DMARC レコードを設定する必要がある理由とタイミングを説明します
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-hide: true
-hidefromtoc: true
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 19%
+source-wordcount: '468'
+ht-degree: 3%
 
 ---
 
-# DMARC レコードの重要な更新{#dmarc-record}
+# 必須の DMARC の更新 {#dmarc-record-update}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_dmarc_banner_link"
+>title="必須の DMARC 更新の詳細を説明します"
+>abstract="業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次の日から始まります。 **2024 年 2 月 2 日**. <br>そのため、Adobeでは、Journey OptimizerのAdobeにデリゲートしたすべてのサブドメインに対して DMARC レコードを必ず設定することを強くお勧めします。"
+
+業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次の日から始まります。 **2024 年 2 月 2 日**.
 
 >[!CAUTION]
 >
->一括送信者に対する Gmail および Yahoo の最近のお知らせに従い、Journey Optimizerは DMARC 認証テクノロジーをサポートするようになりました。
+>Gmail および Yahoo のこの新しい要件に準拠しないと、E メールがスパムフォルダーにランディングしたりブロックされたりする可能性があります。
 
-Googleと Yahoo は、業界のベストプラクティスの実施の一環として、電子メールを送信する際に使用するすべてのドメインに対して DMARC レコードを持っている必要があります。 この新しい要件は、次の日から始まります。 **2024 年 2 月 2 日**.
+Googleと Yahoo の要件について詳しくは、 [この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-Googleと Yahoo の DMARC レコードに対する要件について詳しくは、 [この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+そのため、Adobeでは、Adobeにデリゲートしたすべてのサブドメインに対して DMARC レコードを必ず設定することを強くお勧めします [!DNL Journey Optimizer]. 次の 2 つのオプションのいずれかに従います。
 
-Googleと Yahoo で発表された変更の詳細 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* サブドメインまたはサブドメインの親ドメインで DMARC を設定します。 **をホスティングソリューションで使用**.
 
-次に、次の手順を示すセクションに対して、アクションまたは次の手順が実行されます。
+* デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**  — ホスティングソリューションで余分な作業をおこなう必要はありません。
 
-すべてのサブドメインに対して設定する必要があります
-* ドメインを完全にアドビにデリゲートした場合は、2 つのオプションがあります
-   * ホスティングソリューションのデリゲートドメインの親ドメインに DMARC を設定します。または
-   * ホスティングソリューションでの追加作業なしで、管理 UI の今後の機能を使用してデリゲートされたドメインに DMARC をセットアップ
-* 送信ドメインに CNAME を設定している場合は、次の 2 つのオプションがあります
-   * サブドメインで DMARC を設定するか、ホスティングソリューションでサブドメインの親ドメインを設定する。または
-   * Admin UI の今後の機能を使用して、DMARC を設定します。 ただし、UI だけでなく、ホスティングソリューションにもエントリする必要があります。
+  >[!WARNING]
+  >
+  >次の設定が完了している場合、 [CNAME デリゲーション](delegate-subdomain.md#cname-subdomain-delegation) 送信サブドメインの場合は、ホスティングソリューションへのエントリも必要になります。 IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] の機能は（2024 年 1 月 31 日）に利用できます。 <!--and be ready on February 1st, 2024-->
 
-近日中に追加予定の機能の詳細が予定されています。
+  詳細は、 [!DNL Journey Optimizer] DMARC の今後の機能は近日中に提供されます。
 
-また、DMARC に関連するセクションを下のセクション（上のリンクからコピー）からコピーすることで、設定しない場合は影響を含めることができます。 DMARC 関連のものだけを引き出すか または、DMARC のお知らせと、1 回のクリックで購読解除が行われ、両方の機能の最新のタイムラインがここに表示されます。
+<!--
+* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
 
-10 月の初回発表以降、タイムラインの更新が予定されています。
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
 
-最新のタイムラインは次のようになります。
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
 
-Gmail:
+* If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, follow either one of the two options below:
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30) - and be ready on February 1st, 2024.
+    
+-->
 
-* 2024年2月 - コンプライアンス違反の警告を提供するために設計された、一時的なバウンスが開始されます。お客様がまだ準拠していない場合、メールは少し遅れてから通常どおり配信されます。完全に準拠している場合、一時的なバウンスはなく、何も気付きません。
-* 2024年4月 - ワンクリックリスト登録解除を除くすべてに準拠していない送信者に対して、ブロックが開始されます。最初は準拠していないメールの一部のみがブロックされ、時間の経過と共にブロック対象の割合が増加します。
-* 2024年6月1日（PT）- ワンクリックリスト登録解除など、完全に準拠していない送信者はブロックされます。
+>[!NOTE]
+>
+>ご質問やサポートが必要な場合は、担当のAdobe配信品質コンサルタントまたはAdobe担当者にお問い合わせください。
 
-Yahoo:
+Googleと Yahoo が共有する最新のタイムラインは次のとおりです。
 
-正確な日付を指定していませんが、「実施のロールアウトは 2024 年 2 月に始まります。 実施は徐々に展開される」と述べた。
+* GOOGLE:
+
+   * **2024 年 2 月**  — コンプライアンス違反の警告を提供するために設計された一時的なバウンスが開始されます。 お客様がまだ準拠していない場合、メールは少し遅れてから通常どおり配信されます。完全に準拠している場合、一時的なバウンスはなく、影響を受けません。
+
+   * **2024 年 4 月** - DMARC 要件に準拠していない送信者に対して、ブロックが開始されます。 ブロックの割合は時間の経過と共に増加し、準拠していない E メールの一部のみが最初にブロックされます。
+
+   * **2024 年 6 月 2 日**  — 送信者が完全に準拠していない場合、ブロックが発生します。
+
+* Yahoo は正確な日付を提供していませんが、「実施のロールアウトは 2024 年 2 月に始まります。 実施は徐々に展開される」と述べた。
+
+>[!NOTE]
+>
+>DMARC の詳細については、 [配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} :DMARC を実装すると e メールの配信品質に与える影響をより深く理解する。

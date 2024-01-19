@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC（の略） **ドメインベースのメッセージ認証、レポート
 
 DMARC レコードの設定では、ドメインの DNS 設定に DNS TXT レコードを追加します。 このレコードは、認証に失敗したメッセージを強制隔離するか拒否するかなど、DMARC ポリシーを指定します。 DMARC の実装は、メールセキュリティを強化し、組織と受信者の両方をメールベースの脅威から保護するための積極的なステップです。
 
-[DMARC の詳細については、配信品質のベストプラクティスガイドを参照してください。](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja){target="_blank"} DMARC が e メールの配信品質に与える影響をより深く理解する。
+[DMARC の詳細については、配信品質のベストプラクティスガイドを参照してください。](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} DMARC が e メールの配信品質に与える影響をより深く理解する。
 
 DMARC を追加しない場合、強制隔離されます（少なくとも）。
 
