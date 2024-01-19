@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1081'
+ht-degree: 96%
 
 ---
 
@@ -40,8 +40,13 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="Journey Optimizer での SMS／MMS プロバイダーの設定"
->abstract="Adobe Journey Optimizer では、SMS／MMS サービスプロバイダーを通じてテキストメッセージを送信します。プロバイダーを選択し、API の資格情報を入力します。"
+>title="SMS プロバイダーをJourney Optimizerで設定する"
+>abstract="Adobe Journey Optimizerは、SMS サービスプロバイダーを通じてテキストメッセージを送信します。 プロバイダーを選択し、API の資格情報を入力します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mms_api_header"
+>title="MMS プロバイダーをJourney Optimizerで設定する"
+>abstract="Adobe Journey Optimizerは、MMS サービスプロバイダーを通じてメディアコンテンツを送信します。 プロバイダーを選択し、API の資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
