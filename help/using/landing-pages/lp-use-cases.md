@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 99%
 * 受信者がこのリンクをクリックすると、オプトアウトを確認するボタンを含んだランディングページが表示されます。
 * オプトアウトボタンをクリックすると、プロファイルデータがこの情報を使用して更新されます。
 
-### 電子メールオプトアウトの設定 {#configure-opt-out}
+### メールオプトアウトの設定 {#configure-opt-out}
 
 メールの受信者がランディングページを通じてお知らせなどのメッセージを登録解除できるようにするには、次の手順に従います。
 
