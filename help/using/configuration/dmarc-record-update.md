@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Googleと Yahoo の要件について詳しくは、 [この節](https://experie
    * サブドメインまたはサブドメインの親ドメインで DMARC を設定する **をホスティングソリューションで使用**.
    * デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**. ただし、ホスティングソリューションにもエントリが必要になります。 その結果、IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] 機能が利用可能になった（1 月 30 日）。 <!--and be ready on February 1st, 2024-->
 
-詳細は、 [!DNL Journey Optimizer] DMARC の今後の機能は近日中に提供されます。
+**詳細は、 [!DNL Journey Optimizer] DMARC の今後の機能は近日中に提供されます。**
 
 >[!NOTE]
 >
