@@ -22,8 +22,8 @@ ht-degree: 99%
 ## 2024年1月 {#jan-2024}
 
 * ジャーニーサイズに関するガードレールが追加されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-* ジャーニータイムアウト管理の詳細が説明されました [次の節では、](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [ドキュメントのホーム](../../ajo-home.md) ページのデザインが変更されました。
+* ジャーニーのタイムアウト管理について詳しくは、[次の節](../building-journeys/journey-gs.md#global_timeout)を参照してください。
+* Journey Optimizer [ドキュメントのホーム](../../ajo-home.md)ページのデザインが刷新されました。
 * 「プロファイルを更新」アクティビティに関するRecommendationsが追加されました。 [詳細情報](../building-journeys/update-profiles.md)
 
 ## 2023年11月 {#nov-2023}

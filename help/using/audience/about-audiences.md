@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 85%
 >title="キャンペーンオーディエンスを選択"
 >abstract="このリストには、使用可能なすべての Adobe Experience Platformオーディエンスが表示されます。キャンペーンのターゲットにするオーディエンスを選択します。キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。"
 
-オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。オーディエンスの詳細については、 [Adobe Experience Platform Segmentation Service のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}.
+オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。オーディエンスについて詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 
-[!DNL Journey Optimizer] を使用すると、Adobe Experience Platformオーディエンスを **[!UICONTROL オーディエンス]** メニューを開き、それらをジャーニーやキャンペーンで活用します。
+[!DNL Journey Optimizer] では、**[!UICONTROL オーディエンス]**&#x200B;メニューから直接 Adobe Experience Platform オーディエンスを作成し、それらをジャーニーやキャンペーンに活用することができます。
 
 オーディエンスは、様々な方法で生成できます。
 
