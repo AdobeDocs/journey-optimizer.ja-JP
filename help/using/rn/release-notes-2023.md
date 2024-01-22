@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4121'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,9 +118,9 @@ ht-degree: 99%
 
 **ジャーニー**
 
-* ジャーニーを複製する際に、ジャーニーのコピーの名前を定義できるようになりました。[詳細情報](../building-journeys/journey-gs.md#uplicate-a-journey
+* ジャーニーを複製する際に、ジャーニーのコピーの名前を定義できるようになりました。[詳細情報]（../building-journeys/journey-gs.md#uplicate-a-journey
 
-* カスタムアクション応答のサポートは、現在一般提供（GA）されています。この機能により、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。また、 [新しいキャッピングガードレール](../start/guardrails.md#custom-actions-g) カスタムアクション呼び出しを自動的に制限する機能が追加されました。 [詳細情報](../action/action-response.md)
+* カスタムアクション応答のサポートは、現在一般提供（GA）されています。この機能により、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。また、カスタムアクションの呼び出しを自動的に制限する[新しいキャッピングガードレール](../start/guardrails.md#custom-actions-g)が追加されました。[詳細情報](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
