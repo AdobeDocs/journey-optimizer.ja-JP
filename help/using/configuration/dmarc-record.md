@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
+source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -43,15 +43,21 @@ Googleと Yahoo の要件について詳しくは、 [この節](https://experie
 >
 >Gmail および Yahoo のこの新しい要件に準拠しないと、E メールがスパムフォルダーにランディングしたりブロックされたりする可能性があります。
 
-そのため、Adobeでは、Adobeにデリゲートしたすべてのサブドメインに対して DMARC レコードを必ず設定することを強くお勧めします [!DNL Journey Optimizer]. 次の 2 つのオプションのいずれかに従います。
+そのため、Adobeでは、Adobeにデリゲートしたすべてのサブドメインに対して DMARC レコードを必ず設定することを強くお勧めします [!DNL Journey Optimizer]. お客様のケースに適用される以下の手順に従います。
 
-* サブドメインまたはサブドメインの親ドメインで DMARC を設定します。 **をホスティングソリューションで使用**.
+* 次の条件を満たしている場合： [完全に委任された](delegate-subdomain.md#full-subdomain-delegation) サブドメインをAdobeに送信する場合は、次の 2 つのオプションのいずれかに従います。
 
-* デリゲートされたサブドメインに対する DMARC の設定 **新機能を [!DNL Journey Optimizer] 管理 UI**  — ホスティングソリューションで余分な作業をおこなう必要はありません。 [詳細情報](#implement-dmarc)
+   * デリゲートされたサブドメインの親ドメインに DMARC を設定します **をホスティングソリューションで使用**.
 
-  >[!CAUTION]
-  >
-  >次の設定が完了している場合、 [CNAME デリゲーション](delegate-subdomain.md#cname-subdomain-delegation) 送信サブドメインの場合は、ホスティングソリューションへのエントリも必要になります。 IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] の機能は（2024 年 1 月 31 日）に利用できます。 <!--and be ready on February 1st, 2024-->
+   * デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**  — ホスティングソリューションで余分な作業をおこなう必要はありません。
+
+* 次の設定が完了している場合、 [CNAME デリゲーション](delegate-subdomain.md#cname-subdomain-delegation) 送信サブドメインの場合は、次の 2 つのオプションのいずれかに従います。
+
+   * サブドメインまたはサブドメインの親ドメインで DMARC を設定する **をホスティングソリューションで使用**.
+
+   * デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**. ただし、ホスティングソリューションにもエントリが必要になります。 その結果、IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] 機能が利用可能になった（1 月 30 日）。 <!--and be ready on February 1st, 2024-->
+
+**詳細は、 [!DNL Journey Optimizer] DMARC の今後の機能は近日中に提供されます。**
 
 >[!NOTE]
 >
@@ -59,35 +65,73 @@ Googleと Yahoo の要件について詳しくは、 [この節](https://experie
 
 ## DMARC とは
 
-DMARC（の略） **ドメインベースのメッセージ認証、レポート、適合**&#x200B;は、電子メールのスプーフィング、フィッシング、その他の不正アクティビティから保護するのに役立つ電子メール認証プロトコルです。
+DMARC（の略） **ドメインベースのメッセージ認証、レポート、適合**&#x200B;は、ドメインの所有者がドメインを不正使用から保護できる電子メール認証方法またはプロトコルです。
 
-* 電子メール認証：
+送信者のドメインを認証する方法を提供することで、悪意のあるアクターがドメインから来たような E メールを送信するのを防ぐことができます。
 
-   * SPF (Sender Policy Framework): DMARC は SPF に基づいて送信メールサーバーの ID を認証します。 SPF は、送信サーバーの IP アドレスをドメインの承認済み IP アドレスのリストと照らし合わせて確認することで、E メールメッセージが承認されたソースから送信されたことを確認するのに役立ちます。
-   * DKIM(DomainKeys Identified Mail): DMARC は、DKIM を使用して電子署名を E メールメッセージに追加し、受信者がメッセージの整合性と信頼性を検証できるようにします。
+また、DMARC は、電子メール認証ステータスに関するフィードバックを提供し、送信者が認証に失敗した電子メールに対して何が起こるかを制御することもできます。 これには、実装されている DMARC ポリシーに応じて、メールを監視、強制隔離、拒否するオプションが含まれます。
 
-* DMARC は、悪意のあるアクターがドメインから来たような E メールを送信するのを防ぐのに役立ちます。 DMARC を設定すると、認証チェックに失敗したメッセージを電子メールプロバイダが処理する方法を指定して、フィッシング E メールが受信者に到達する可能性を減らすことができます。
+<!--Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.-->
 
-* DMARC は、ドメインから送信されたと主張するメッセージが発生した場合に従うべき E メールプロバイダー向けの明確なポリシーを提供し、E メールの配信品質の向上に役立ちます。 これにより、正当な E メールがスパムとしてマークされたり拒否されたりする可能性が低くなります。
+DMARC には次の 3 つのポリシーオプションがあります。
 
-* DMARC を実装すると、不正な当事者がドメインをフィッシングやその他の悪意のあるアクティビティで悪用しないようにすることで、ブランドの評判を保護できます。 これは、顧客やパートナーとの E メール通信に依存する企業や組織で特に重要です。
+* モニター (p=none)：メールボックスプロバイダーまたは ISP に対し、通常のメッセージに対する処理を何らかの処理で実行するように指示します。
+* 強制隔離 (p=quarantine):DMARC を受信者のスパムフォルダーまたは迷惑メールフォルダーに渡さないメールを配信するよう、メールボックスプロバイダーまたは ISP に指示します。
+* 拒否 (p=reject):DMARC を渡さずにバウンスに至ったメールをブロックするよう、メールボックスプロバイダーまたは ISP に指示します。
 
-DMARC レコードの設定では、ドメインの DNS 設定に DNS TXT レコードを追加します。 このレコードは、認証に失敗したメッセージを強制隔離するか拒否するかなど、DMARC ポリシーを指定します。 DMARC の実装は、メールセキュリティを強化し、組織と受信者の両方をメールベースの脅威から保護するための積極的なステップです。
+## DMARC の仕組み
+
+SPF と DKIM は、E メールをドメインに関連付け、連携して E メールを認証するために使用されます。 DMARC はこの 1 つの手順をさらに進め、DKIM と SPF でチェックされたドメインと一致させ、スプーフィングを防ぐのに役立ちます。 DMARC を渡すには、メッセージが SPF または DKIM を渡す必要があります。 これらの両方の認証が失敗した場合、DMARC は失敗し、選択した DMARC ポリシーに従って電子メールが配信されます。
+
+* SPF (Sender Policy Framework): DMARC は SPF に基づいて送信メールサーバーの ID を認証します。 SPF は、送信サーバーの IP アドレスをドメインの承認済み IP アドレスのリストと照らし合わせて確認することで、E メールメッセージが承認されたソースから送信されたことを確認するのに役立ちます。
+* DKIM(DomainKeys Identified Mail): DMARC は、DKIM を使用して電子署名を E メールメッセージに追加し、受信者がメッセージの整合性と信頼性を検証できるようにします。
+
+>[!NOTE]
+>
+>DMARC では、「From」と「Return-Path」アドレスの間の位置揃えが必要です。
+
+
+<!--
+
+* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+
+DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
+
+It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+
+-->
+
 
 ## DMARC の実装 {#implement-dmarc}
 
+DMARC を実装するには、お客様の事例に適用される以下の手順に従います。
+
 * DMARC を追加しない場合、強制隔離されます（少なくとも）。
+
+### 完全にデリゲートされたサブドメイン
+
+DMARC が失敗した場合に受信者サーバーが実行するアクションを設定します。
+
+DMARC には次の 3 つのポリシーオプションがあります。
+
+* モニター (p=none)：メールボックスプロバイダーまたは ISP に対し、通常のメッセージに対する処理を何らかの処理で実行するように指示します。 これがデフォルト値です。
+* 強制隔離 (p=quarantine):DMARC を受信者のスパムフォルダーまたは迷惑メールフォルダーに渡さないメールを配信するよう、メールボックスプロバイダーまたは ISP に指示します。
+* 拒否 (p=reject):DMARC を渡さずにバウンスに至ったメールをブロックするよう、メールボックスプロバイダーまたは ISP に指示します。
+
+集計 DMARC レポートとフォレンジック DMARC 失敗レポートを受け取る電子メール：最大 5 つのアドレスを追加できます。
 
 * 正規のインボックスを持っていることを確認し、コントロールで受け取ることができます — このインボックスを管理します (Adobeインボックスではないはずです )
 
-推奨事項は 24 です。これは、通常、ISP が持つものです。
+DMARC を適用するメールの適用率：
+
+レポート間隔：通常、これが ISP のものなので、24 をお勧めします。
 それ以外の場合は、容量を評価する/ /チャット GPT を確認
 
 DMARC レコードが検出された場合は、リストと同じ値をコピー&amp;ペーストしたり、必要に応じて値を変更したりできます。
 
 何も指定しない場合は、デフォルト値が使用されます。
-
-### 完全にデリゲートされたサブドメイン
 
 ### CNAME を使用してデリゲートされたサブドメイン
 
