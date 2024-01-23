@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4b1de4d1c62c917ce760b3739242671e5c274357
+source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 95%
+source-wordcount: '420'
+ht-degree: 81%
 
 ---
 
@@ -20,13 +20,19 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
+>[!TAB 必須の DMARC の更新]
+
+業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**. Journey OptimizerのAdobeにデリゲートしたすべてのサブドメインに対して DMARC レコードが設定されていることを確認します。
+
+[![画像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+
 >[!TAB サンドボックスツール]
 
 サンドボックスツールを使用すると、パッケージの書き出しと読み込みを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB SMS のマルチメディアメッセージサービス（MMS）]
+>[!TAB SMS 内の MMS]
 
 SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。
 
