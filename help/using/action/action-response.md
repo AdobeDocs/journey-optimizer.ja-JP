@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
+source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '619'
+ht-degree: 96%
 
 ---
 
@@ -212,4 +212,9 @@ currentActionField.description == "abc"
 )
 ```
 
-フィールド参照について詳しくは、[この節](../building-journeys/expression/field-references.md)を参照してください。
+## その他のリソース
+
+詳しくは、次のページを参照してください。
+
+* [フィールド参照](../building-journeys/expression/field-references.md).
+* [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)
