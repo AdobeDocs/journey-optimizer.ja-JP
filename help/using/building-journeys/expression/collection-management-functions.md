@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
+source-git-commit: 7204b475dffe9977a7af6b633cdd92a50fa39a64
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 94%
@@ -169,8 +169,7 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** は、イベントコレクションを操作する場合にのみ使用できます。 **[!UICONTROL currentDataPackField]**
-データソースコレクションを操作する際に、 **[!UICONTROL currentActionField]** カスタムアクションの応答コレクションを操作する場合。
+>**[!UICONTROL currentEventField]** は、イベントコレクションを操作する場合にのみ使用できます。 **[!UICONTROL currentDataPackField]** データソースコレクションを操作する際に、 **[!UICONTROL currentActionField]** カスタムアクションの応答コレクションを操作する場合。
 >
 >**[!UICONTROL all]**、**[!UICONTROL first]** および **[!UICONTROL last]** を使用してコレクションを処理する場合は、
 >コレクションの各要素を 1 つずつループ処理します。**[!UICONTROL currentEventField]**, **currentDataPackField** および **[!UICONTROL currentActionField]** は、ループする要素に対応します。
