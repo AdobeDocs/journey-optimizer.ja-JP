@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e87a9786df2e8c57f09934e917a1906d9551652c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -201,5 +201,15 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
  @action{ActionLoyalty.points, defaultValue: 0}
  @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
 ```
+
+カスタムアクション応答のコレクションを操作する際に、「currentActionField」を使用して現在の項目にアクセスできます。
+
+```json
+count(
+@action{MyAction.MyCollection.all(
+currentActionField.description == "abc"
+)}
+)
+````
 
 フィールド参照について詳しくは、[この節](../building-journeys/expression/field-references.md)を参照してください。
