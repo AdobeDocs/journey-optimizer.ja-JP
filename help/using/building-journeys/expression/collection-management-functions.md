@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** は、イベントコレクションの操作時にのみ使用でき、**currentDataPackField** は、
->データソースコレクションの操作時にのみ使用できます。**[!UICONTROL all]**、**[!UICONTROL first]** および **[!UICONTROL last]** を使用してコレクションを処理する場合は、
->コレクションの各要素を 1 つずつループ処理します。**[!UICONTROL currentEventField]** と **currentDataPackField** は、
->ループ処理する要素に対応します。
+>**[!UICONTROL currentEventField]** は、イベントコレクションを操作する場合にのみ使用できます。 **[!UICONTROL currentDataPackField]**
+データソースコレクションを操作する際に、 **[!UICONTROL currentActionField]** カスタムアクションの応答コレクションを操作する場合。
+>
+>**[!UICONTROL all]**、**[!UICONTROL first]** および **[!UICONTROL last]** を使用してコレクションを処理する場合は、
+>コレクションの各要素を 1 つずつループ処理します。**[!UICONTROL currentEventField]**, **currentDataPackField** および **[!UICONTROL currentActionField]** は、ループする要素に対応します。
 
 **関数「first(`<condition>`)」と「last(`<condition>`)」**
 
