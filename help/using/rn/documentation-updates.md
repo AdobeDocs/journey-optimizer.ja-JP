@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 99%
 * ジャーニーのタイムアウト管理について詳しくは、[次の節](../building-journeys/journey-gs.md#global_timeout)を参照してください。
 * Journey Optimizer [ドキュメントのホーム](../../ajo-home.md)ページのデザインが刷新されました。
 * 「プロファイルを更新」アクティビティに関するRecommendationsが追加されました。 [詳細情報](../building-journeys/update-profiles.md)
+* ジャーニー内のイベントアクティビティでのタイムアウトの動作に関する情報が追加されました。 指定されたタイムアウト期間にイベントを受け取らなかった場合、タイムアウトパスが定義されていない場合、個人はジャーニーを続行します。 [詳細情報](../building-journeys/general-events.md#events-specific-time)
 
 ## 2023年11月 {#nov-2023}
 
