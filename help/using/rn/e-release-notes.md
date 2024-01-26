@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
+source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 21%
 
 ---
 
@@ -23,98 +23,61 @@ ht-degree: 100%
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2023年10月先行リリースノート {#oct-rn-2023}
+## 2024 年 1 月の早期リリースノート {#oct-jan-2024}
 
-**リリース日**：2023年10月25～26日（PT）
+**リリース日**:2024 年 1 月 20 日～31 日
 
-### 新機能{#oct-2023-features}
+### 新機能{#jan-2024-features}
 
 このリリースでは、以下に示す新機能が導入されています。
 
-<table>
-<thead>
-<tr>
-<th><strong>サンドボックスツール</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>サンドボックスツールを使用すると、パッケージの書き出しと読み込みを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>SMS のマルチメディアメッセージサービス（MMS）（ベータ版）</strong><br/></th>
+<th><strong>配信品質の更新</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch のベータ版でのみ使用可能です。</p>
+<p>Journey Optimizerは、DMARC 認証テクノロジーをサポートするようになりました。</p>
+<p>2024 年 2 月 1 日より、Googleと Yahoo! は、電子メールを送信する際に使用するドメインの DMARC レコードを持っている必要があります。 Journey OptimizerでデリゲートしたすべてのサブドメインまたはAdobeへのデリゲート中のサブドメインに対して DMARC レコードが設定されていることを確認します。</p>
 <!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>詳しくは、 <a href="../configuration/dmarc-record-update.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
 
-### 機能強化 {#oct-2023-improvements}
+
+
+### 機能強化 {#jan-2024-improvements}
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-**オーディエンス**
+**レポート**
 
-* CSV ファイルからアップロードされたオーディエンスをジャーニーやキャンペーンにターゲットできるようになりました。
-* オーディエンスコンポジションを通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。
+* **ドメイン別のチャネルレポート**  — キャンペーンおよびジャーニーレポートを強化するための新しいウィジェットが追加されました。 The **ドメイン別のバウンス理由**, **ドメイン別に送信および配信**, **ドメイン別の開封数およびクリック数** および **ドメイン別のバウンスとエラー** ウィジェットは、主要な e メール配信およびトラッキング指標に対して、ドメインレベルで詳細な分類を提供します。 [詳細情報](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->これらの機能は現在、Private Beta として使用可能です。
+**SMS チャネル**
 
-<!--
-**Spam scoring for emails**
+* **ダブルオプトイン** - SMS のダブルオプトインワークフローでは、デバイスから要求が開始されたときに、ユーザーがメッセージの受信を明示的にオプトインしていることが保証されます。 ユーザーはインバウンド SMS メッセージを送信して、同意プロセスを開始します。 同意を確認すると、最終検証をリクエストするフォローアップメッセージが送信されます。 ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**キャンペーン**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* キャンペーンのいずれかでエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。
+  これは、Sinch および Infobip SMS プロバイダーにのみ適用されます。
 
 **ジャーニー**
 
-* 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。これは、以下に適用されます。
+* **反応イベントの期間**  — 定義できる最大期間 ( **反応イベント** は 30 日ではなく 29 日になりました。 [詳細情報](../building-journeys/reaction-events.md)
 
-   * [待機アクティビティ](../building-journeys/wait-activity.md)の「**時間**」フィールド
-   * [ジャーニープロパティ](../building-journeys/journey-gs.md#entrance)の&#x200B;**再エントリ待機期間**
-   * [一般](../building-journeys/general-events.md#events-specific-time)イベントと[反応](../building-journeys/reaction-events.md)イベントのタイムアウト定義の「**待機**」フィールド。
+* **日付フィルター**  — 既存の定義済み日付フィルターに加えて、カスタム日付を使用してジャーニー在庫をフィルタリングできるようになりました。 これにより、特定の日付、特定の月内、1 年を通じて、または指定した期間内に公開されたジャーニーを表示することで、リストを絞り込むことができます。
 
-**チャネル設定での同意**
+* **オーディエンスの閲覧**   — 「オーディエンスの読み取り」アクティビティは、スケジュールされた日次バッチジョブが実行された日の 1 日後に 1 回だけ生成されるバッチセグメントのプロファイルスナップショットデータセットに依存するようになりました。
 
-* チャネルサーフェスレベルでマーケティングアクションを選択できるようになりました。サーフェスで使用すると、顧客の環境設定に従うために、そのマーケティングアクションに関連付けられたすべての同意ポリシーが活用されます。
+**頻度ルール**
+
+* **週別および日別の頻度の上限** ：月に加えて、1 週間または 1 日に顧客プロファイルに送信されるメッセージの最大数を指定できるようになりました。 頻度キャップは、選択したカレンダー期間に基づき、対応する期間の初めにリセットされます。
+
 
 **意思決定管理**
 
-* 意思決定管理インターフェイスのオファーキャッピングに関連するいくつかのラベルが更新されました。
+* **エッジでの頻度キャッピング**  — 頻度キャップカウンターが更新され、3 秒未満で Edge 判定 API の決定で使用できるようになりました。
