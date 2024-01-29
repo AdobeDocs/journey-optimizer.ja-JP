@@ -7,12 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
+source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 20%
 
 ---
@@ -57,7 +55,7 @@ ht-degree: 20%
 
 **レポート**
 
-* **ドメイン別のチャネルレポート**  — キャンペーンおよびジャーニーレポートを強化するための新しいウィジェットが追加されました。 The **ドメイン別のバウンス理由**, **ドメイン別に送信および配信**, **ドメイン別の開封数およびクリック数** および **ドメイン別のバウンスとエラー** ウィジェットは、主要な e メール配信およびトラッキング指標に対して、ドメインレベルで詳細な分類を提供します。
+* **新しいドメインベースの分類ウィジェット**  — キャンペーンおよびジャーニーレポートを強化するための新しいウィジェットが追加されました。 The **ドメイン別のバウンス理由**, **ドメイン別に送信および配信**, **ドメイン別の開封数およびクリック数** および **ドメイン別のバウンスとエラー** ウィジェットは、主要な e メール配信およびトラッキング指標に対して、ドメインレベルで詳細な分類を提供します。
 
 **SMS チャネル**
 
