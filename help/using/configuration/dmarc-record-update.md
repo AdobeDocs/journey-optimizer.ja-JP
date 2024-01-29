@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 必須の DMARC の更新
+title: 新しい DMARC 要件に準拠
 description: Journey Optimizerで DMARC レコードを設定する必要がある理由とタイミングを説明します
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 3%
+source-wordcount: '526'
+ht-degree: 4%
 
 ---
 
-# 必須の DMARC の更新 {#dmarc-record-update}
+# 新しい DMARC 要件に準拠 {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="必須の DMARC 更新の詳細を説明します"
->abstract="業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**. <br>その結果、Journey OptimizerのAdobeにデリゲートしたすべてのサブドメインに対して DMARC レコードが設定されていることを確認する必要があります。"
+>abstract="業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**.<br>その結果、Journey OptimizerのAdobeにデリゲートしたすべてのサブドメインに対して DMARC レコードが設定されていることを確認する必要があります。"
 
 業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次の日から始まります。 **2024 年 2 月 2 日**.
 
@@ -36,13 +36,15 @@ Googleと Yahoo の要件について詳しくは、 [この節](https://experie
 
    * デリゲートされたサブドメインの親ドメインに DMARC を設定します **をホスティングソリューションで使用**.
 
-   * デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**  — ホスティングソリューションで余分な作業をおこなう必要はありません。
+   * デリゲートされたサブドメインに対する DMARC の設定 **（内） [!DNL Journey Optimizer] 管理 UI**  — ホスティングソリューションで余分な作業をおこなう必要はありません。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-* 次の設定が完了している場合、 [CNAME デリゲーション](delegate-subdomain.md#cname-subdomain-delegation) 送信サブドメインの場合は、次の 2 つのオプションのいずれかに従います。
+* 送信サブドメインを [CNAME](delegate-subdomain.md#cname-subdomain-delegation)では、次の 2 つのオプションのいずれかに従います。
    * サブドメインまたはサブドメインの親ドメインで DMARC を設定する **をホスティングソリューションで使用**.
-   * デリゲートされたサブドメインに対する DMARC の設定 **の今後の機能の使用 [!DNL Journey Optimizer] 管理 UI**. ただし、ホスティングソリューションにもエントリが必要になります。 その結果、IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] 機能が利用可能になった（1 月 30 日）。 <!--and be ready on February 1st, 2024-->
+   * デリゲートされたサブドメインに対する DMARC の設定 **（内） [!DNL Journey Optimizer] 管理 UI**. [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-**詳細は、 [!DNL Journey Optimizer] DMARC の今後の機能は近日中に提供されます。**
+     ただし、CNAME のデリゲーションでは、ホスティングソリューションでのエントリも必要になります。 その結果、IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] 機能が利用可能になった（1 月 30 日）。 [詳細情報](dmarc-record.md#implement-dmarc)
+
+**詳細は、 [!DNL Journey Optimizer] DMARC の今後の機能は、 [この節](dmarc-record.md).**
 
 >[!NOTE]
 >

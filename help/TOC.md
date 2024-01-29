@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 99%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 99%
    + 配信品質 {#deliverability}
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リストについて](using/reports/suppression-list.md)
-      + [必須の DMARC の更新](using/configuration/dmarc-record-update.md)
+      + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
    + [エラー理由](using/reports/error-list.md)
    + [アラート](using/reports/alerts.md)
    + [Customer Journey Analytics の操作](using/reports/cja-ajo.md)
@@ -527,6 +527,7 @@ ht-degree: 99%
    + メールサブドメインのデリゲート {#delegate-subdomains}
       + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
       + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
+      + [DMARC レコードを設定](using/configuration/dmarc-record.md)
       + [Google TXT レコードの追加](using/configuration/google-txt.md)
       + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
       + [IP プールの作成](using/configuration/ip-pools.md)
