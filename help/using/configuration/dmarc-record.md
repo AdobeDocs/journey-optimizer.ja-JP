@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Googleと Yahoo の要件について詳しくは、 [この節](https://experie
 
 1. 変更を保存します。
 
-## 新しいサブドメイン用の DMARC の設定 {#set-up-dmarc}
+### 新しいサブドメイン用の DMARC の設定 {#set-up-dmarc}
 
 新しいサブドメインをでAdobeにデリゲートする場合 [!DNL Journey Optimizer]の場合、DMARC レコードがドメインの DNS に作成されます。 以下の手順に従って、DMARC を実装します。
 
