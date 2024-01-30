@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
+source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 5%
 ドメインベースのメッセージ認証、レポート、準拠 (DMARC) は、ドメイン所有者がドメインを不正使用から保護できる電子メール認証方法です。 E メールプロバイダーや ISP に明確なポリシーを提供することで、悪意のある関係者がドメインからの E メールを送信するのを防ぐことができます。 DMARC を実装すると、正当な E メールがスパムとしてマークまたは拒否されるリスクが軽減され、E メールの配信品質が向上します。
 
 
-業界のベストプラクティスの一環として、Googleと Yahoo! どちらも必要としている **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次から適用されます： **2024 年 2 月 2 日**. [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}。
+業界のベストプラクティスの一環として、Googleと Yahoo! どちらも必要としている **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次から適用されます： **2024 年 2 月 2 日**. [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ or
 
      ただし、CNAME のデリゲーションでは、ホスティングソリューションでのエントリも必要になります。 その結果、IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] 機能が利用可能になった（1 月 30 日）。 [詳細情報](dmarc-record.md#implement-dmarc)
 
-**1 月 30 日より、DMARC 実装用のセルフサービスインターフェイスをご利用いただけます。 詳しくは、[この節](dmarc-record.md#implement-dmarc)を参照してください。**
+**1 月 30 日より、DMARC 実装のセルフサービスインターフェイスを利用できるようになります。 詳しくは、[この節](dmarc-record.md#implement-dmarc)を参照してください。**
 
 Googleと Yahoo が共有する最新のタイムラインは次のとおりです。
 
