@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b38fb1d49ad7202034752b116baff35d8ad5cc1
+source-git-commit: c650efb7a2ded5e78e3b11577a250773cec71fd3
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 17%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 17%
 <tbody>
 <tr>
 <td>
-<p>Real-Time CDPとJourney Optimizerの業界固有のユースケースプレイブックのカタログを活用して、Adobe Experience PlatformとAdobeジャーニーOptimizer を使用して実行できる一般的なユースケースに対処します。</p><p>ニーズに最適なプレイブックを選択したら、ジャーニー、メッセージ、スキーマ、セグメントなどのユースケースをサポートするために必要なリソースを生成できます。</p>
+<p>Real-Time CDPとJourney Optimizerの業界固有のユースケースプレイブックのカタログを活用して、Adobe Experience PlatformとAdobeジャーニーOptimizer を使用して実行できる一般的なユースケースに対処します。</p><p>ニーズに最適なプレイブックを選択したら、ジャーニー、メッセージ、スキーマ、セグメントなどのユースケースをサポートするために必要なアセットを生成し、それらをスキーマにカスタマイズして、価値の創出に要する時間を短縮できます。</p>
 <img src="assets/playbooks-detail.png"/>
 <!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
 </tr>
