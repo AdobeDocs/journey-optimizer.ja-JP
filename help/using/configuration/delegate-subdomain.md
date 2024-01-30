@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: サブドメインのデリゲート
 description: サブドメインのデリゲート方法を説明します。
-feature: Subdomains
+feature: Subdomains, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 94%
+source-wordcount: '1797'
+ht-degree: 92%
 
 ---
 
@@ -77,21 +77,21 @@ ht-degree: 94%
 
 1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
-1. ドメインをホストするソリューションに、すべての DNS レコードが生成されていることを確認してください。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
+1. ドメインをホストするソリューションに、すべての DNS レコードが生成されていることを確認してください。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにします。
 
    ![](assets/subdomain-submit.png)
+
+1. DMARC レコードを設定します。 サブドメインに既存の DMARC レコードが存在する場合、および（で取得される場合） [!DNL Journey Optimizer]の場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルト値が使用されます。 [詳細情報](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. 「**[!UICONTROL 送信]**」をクリックします。
 
    >[!NOTE]
    >
    >後から「**[!UICONTROL ドラフトとして保存]**」ボタンを使用してレコードを作成し、サブドメイン設定を送信できます。その後、サブドメインリストからサブドメインのデリゲーションを開くことで、そのデリゲーションを再開できます。
 
-1. サブドメインに DMARC レコードがない場合は、ここで設定できます。 サブドメインに既存の DMARC レコードが存在する場合、および（で取得される場合） [!DNL Journey Optimizer]の場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルト値が使用されます。 [詳細情報](dmarc-record.md)
-
-   ![](assets/dmarc-record-found.png)
-
-   <!--update screen when available-->
-
-1. 完全なサブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。
+1. サブドメインがリストに表示され、 **[!UICONTROL 処理中]** ステータス。 サブドメインのステータスについて詳しくは、[この節](about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。
 
    ![](assets/subdomain-processing.png)
 
@@ -113,7 +113,7 @@ ht-degree: 94%
 >
 >サブドメインの並列実行は、現在 [!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
 
-## CNAME サブドメインのデリゲーション {#cname-subdomain-delegation}
+## CNAME サブドメインの設定 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -127,7 +127,7 @@ ht-degree: 94%
 
 ドメイン固有の制限ポリシーがあり、アドビが DNS の一部を制御する必要がある場合は、自社で DNS 関連のすべてのアクティビティを実行するように選択できます。
 
-CNAME サブドメインデリゲーションを使用すると、サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定できます。この設定を使用すると、メールの送信、レンダリング、トラッキングの環境を設定するために、DNS の管理に対する責任を、お客様とアドビで共有します。
+CNAME サブドメインを設定すると、サブドメインを作成し、CNAME を使用してAdobe固有のレコードを指定できます。 この設定を使用すると、メールの送信、レンダリング、トラッキングの環境を設定するために、DNS の管理に対する責任を、お客様とアドビで共有します。
 
 >[!CAUTION]
 >
@@ -135,7 +135,7 @@ CNAME サブドメインデリゲーションを使用すると、サブドメ�
 
 ➡️ [CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法については、こちらのビデオを参照してください](#video)
 
-CNAME を使用してサブドメインをデリゲートするには、次の手順に従います。
+CNAME を使用してサブドメインを設定するには、次の手順に従います。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL サブドメイン]**&#x200B;メニューにアクセスし、「**[!UICONTROL サブドメインの設定]**」をクリックします。
 
@@ -157,13 +157,17 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
 
    ![](assets/subdomain-create-dns-confirm.png)
 
+1. DMARC レコードを設定します。 サブドメインに既存の DMARC レコードが存在する場合、および（で取得される場合） [!DNL Journey Optimizer]の場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルト値が使用されます。 [詳細情報](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. 「**[!UICONTROL 続行]**」をクリックします。
+
    >[!NOTE]
    >
    >後で「**[!UICONTROL ドラフトとして保存]**」ボタンを使用してレコードを作成できます。その後、サブドメインリストでサブドメインのデリゲーションを開くことにより、この段階から再開できます。
 
-1. サブドメインに DMARC レコードがない場合は、ここで設定できます。 サブドメインに既存の DMARC レコードが存在する場合、および（で取得される場合） [!DNL Journey Optimizer]の場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルト値が使用されます。 [詳細情報](dmarc-record.md)
-
-1. これらのレコードがスティングソリューションで生成され。エラーが発生していないことをアドビが確認するまで待ちます。この処理には最大 2 分かかる場合があります。
+1. Adobeが、ホスティングソリューションでエラーなしでレコードが生成されたことを確認するまで待ちます。 この処理には最大 2 分かかる場合があります。
 
    >[!NOTE]
    >
@@ -172,10 +176,6 @@ CNAME を使用してサブドメインをデリゲートするには、次の�
 1. アドビは SSL CDN URL 検証レコードを生成します。この検証レコードをホスティングプラットフォームにコピーします。ホスティングソリューションでこのレコードを適切に作成している場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
 
    <!--![](assets/subdomain-cdn-url-validation.png)-->
-
-   >[!NOTE]
-   >
-   >後から「**[!UICONTROL ドラフトとして保存]**」ボタンを使用して検証レコードを作成し、サブドメイン設定を送信することもできます。その後、サブドメインリストからサブドメインのデリゲーションを開くことで、そのデリゲーションを再開できます。
 
 1. CNAME サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。
 
