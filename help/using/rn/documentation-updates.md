@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
+source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
 workflow-type: tm+mt
-source-wordcount: '4574'
+source-wordcount: '4586'
 ht-degree: 93%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 93%
 ## 2024年1月 {#jan-2024}
 
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2024 年 1 月リリースの詳細がドキュメントに記載されました。 [詳細情報](release-notes.md)
-* ジャーニーサイズに関するガードレールが追加されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+* ジャーニーサイズに関するガードレールが追加されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * ジャーニーのタイムアウト管理について詳しくは、[次の節](../building-journeys/journey-gs.md#global_timeout)を参照してください。
 * Journey Optimizer [ドキュメントのホーム](../../ajo-home.md)ページのデザインが刷新されました。
-* 「プロファイルを更新」アクティビティに関するRecommendationsが追加されました。 [詳細情報](../building-journeys/update-profiles.md)
+* プロファイルを更新アクティビティに関するレコメンデーションが追加されました。[詳細情報](../building-journeys/update-profiles.md)
 * ジャーニー内のイベントアクティビティでのタイムアウトの動作に関する情報が追加されました。 指定されたタイムアウト期間にイベントを受け取らなかった場合、タイムアウトパスが定義されていない場合、個人はジャーニーを続行します。 [詳細情報](../building-journeys/general-events.md#events-specific-time)
 * アプリ内チャネルの設定の前提条件が更新され、カスタムのデータセット環境設定結合ポリシーの使用に関するメモが追加されました。 [詳細情報](../in-app/inapp-configuration.md)
 * カスタムアクション応答でコレクションを操作する方法に関する詳細が追加されました。 [詳細情報](../action/action-response.md#exp-syntax)。
@@ -41,6 +41,7 @@ ht-degree: 93%
 * を更新します。 **duration** パラメーターを `toString` 関数に置き換えます。 [詳細情報](../building-journeys/functions/functiontostring.md)
 * 一部の外部データソースの使用例では、カスタムアクションの使用が推奨されます。
 * イベントフィールドの構文が更新されました。 次の構文は非推奨です。 `@(my_event.myfield}` およびに置き換えられました。 `@event{my_event.myfield}`. [詳細情報](../building-journeys/expression/field-references.md)
+* グローバルレポートとライブレポートガイドの構成が変更されました。 [詳細情報](../reports/campaign-global-report.md)
 
 
 ## 2023年11月 {#nov-2023}
