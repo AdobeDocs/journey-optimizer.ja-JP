@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: listSize，関数，式，ジャーニー
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 92%
+source-wordcount: '78'
+ht-degree: 60%
 
 ---
 
@@ -28,16 +28,9 @@ ht-degree: 92%
 
 ## パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| パラメーター | タイプ | 説明 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照である必要があります。 listObject に null オブジェクトを含めることはできません。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -57,12 +50,16 @@ ht-degree: 92%
 
 `listSize(<listDuration>)`
 
-`listSize(<listPoint>)`
-
 整数を返します。
+
+`listSize(<listObject>)`
 
 ## 例
 
 `listSize([10,2,3])`
 
 3 を返します。
+
+`listSize(@event{my_event.productListItems})`
+
+指定されたオブジェクトの配列内のオブジェクトの数を返します（listObject 型）。

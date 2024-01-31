@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 制限，関数，式，ジャーニー
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '139'
 ht-degree: 97%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 97%
 # limit {#limit}
 
 リストの先頭または末尾の N 個の要素を返します。
-
->[!NOTE]
->
->ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
 ## カテゴリ
 

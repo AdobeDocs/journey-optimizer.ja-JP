@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 100%
 また、カスタムアクションパラメーターには想定される形式（例：文字列、10 進数など）があります。これらの想定される形式に従うように注意する必要があります。詳しくは、この[ユースケース](../building-journeys/collections.md)を参照してください。
 
 ## ベストプラクティス{#custom-action-enhancements-best-practices}
+
+カスタムアクションを使用してターゲット設定するエンドポイントを選択する場合は、次の点を確認します。
+
+* このエンドポイントは、 [スロットル API](../configuration/throttling.md) または [キャッピング API](../configuration/capping.md) 制限する スロットル設定が 200 TPS を下回ることはないことに注意してください。 ターゲットとするエンドポイントは、少なくとも 200 個の TPS をサポートする必要があります。
+* このエンドポイントには、可能な限り短い応答時間を設定する必要があります。 予想されるスループットに応じて、応答時間が長いと、実際のスループットに影響を与える可能性があります。
 
 すべてのカスタムアクションには、1 分間に 300,000 件の呼び出しというキャッピングが定義されています。また、デフォルトのキャッピングは、ホストごとおよびサンドボックスごとに実行されます。例えば、サンドボックスで、同じホストに 2 つのエンドポイントがある場合（例：`https://www.adobe.com/endpoint1` と `https://www.adobe.com/endpoint2`）、キャッピングは adobe.com ホストの下にあるすべてのエンドポイントに適用されます。「endpoint1」と「endpoint2」は同じキャッピング設定を共有し、一方のエンドポイントが制限に達すると、もう一方のエンドポイントに影響が生じます。
 

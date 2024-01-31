@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
@@ -23,17 +23,17 @@ ht-degree: 100%
 // left-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 // right-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+@event{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
 // binary operators
 // <operand1> <operator> <operand2>
 // operand is an expression
-(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
+(@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## 重要な注意事項{#important-notes}
@@ -101,7 +101,7 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-@{BarBeacon.location} is null
+@event{BarBeacon.location} is null
 ```
 
 ### is not null
@@ -117,7 +117,7 @@ null は、式に評価値がないことを意味します。
 例：
 
 ```json
-@{BarBeacon.location} is not null
+@event{BarBeacon.location} is not null
 ```
 
 ### has null
@@ -172,7 +172,7 @@ true を返します
 
 >[!NOTE]
 >
->&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
+&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
 
 結果はブール値です。
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1489'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 100%
 >[!NOTE]
 >
 >外部システムを操作する際のガードレールについては、[このページ](../configuration/external-systems.md)を参照してください。
+
+>[!NOTE]
+>
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。
 
 POST または GET を使用して JSON を返す REST API がサポートされています。API キー認証モード、基本認証モード、カスタム認証モードがサポートされています。
 
@@ -123,9 +127,12 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 1. エンドポイントを呼び出してアクセストークンを生成します。
 1. アクセストークンを適切に挿入して REST API を呼び出します。
 
-この認証には 2 つの部分があります。
 
-アクセストークンの生成時に呼び出されるエンドポイントの定義：
+>[!NOTE]
+>
+>**この認証には 2 つの部分があります。**
+
+### アクセストークンの生成時に呼び出されるエンドポイントの定義
 
 * endpoint：エンドポイントの生成に使用する URL。
 * method：エンドポイントでの HTTP リクエストのメソッド（GET または POST）。
@@ -134,7 +141,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
    * 「form」：コンテンツタイプが application/x-www-form-urlencoded（文字セット UTF-8）で、キーと値のペアが key1=value1&amp;key2=value2&amp;... のようにシリアル化されることを意味します。
    * 「json」：コンテンツタイプが application/json（文字セット UTF-8）で、キーと値のペアが JSON オブジェクトとして _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のようにシリアル化されることを意味します。
 
-アクションの HTTP リクエストにアクセストークンを挿入する方法の定義：
+### アクションの HTTP リクエストにアクセストークンを挿入する方法の定義
 
 * authorizationType：生成されたアクセストークンを、アクションの HTTP 呼び出しに挿入する方法を定義します。使用可能な値は次のとおりです。
 
@@ -151,8 +158,6 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -164,10 +169,16 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -229,14 +240,19 @@ Bearer 認証タイプの例を次に示します。
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 ログイン API 呼び出しの応答の例を次に示します。
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

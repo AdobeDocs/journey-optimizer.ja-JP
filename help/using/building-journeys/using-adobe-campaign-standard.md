@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 統合, 標準, キャンペーン, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
@@ -102,7 +102,7 @@ Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[
 また、**[!UICONTROL 登録トークン]**&#x200B;を定義する必要があります。式は、イベントペイロードまたはその他の [!DNL Journey Optimizer] 情報でのトークンの定義方法によって異なります。式は、単純なフィールドまたは、トークンがインスタンスのコレクションに定義されている場合は、より複雑な式にすることができます。
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL パーソナライゼーションデータ]**

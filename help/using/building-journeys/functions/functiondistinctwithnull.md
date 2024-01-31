@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctWithNull，関数，式，ジャーニー
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 97%
+source-wordcount: '123'
+ht-degree: 79%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
 指定されたリストのユニークな値またはオブジェクトを返します。リストに null エントリが少なくとも 1 つ含まれる場合、返されるリストに null エントリが含まれます。
+
+なお、パラメーターは `<listObject>` は、この関数ではサポートされていません。
 
 ## カテゴリ
 
@@ -30,8 +32,7 @@ ht-degree: 97%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照にする必要があります。 |
-| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | 処理するリスト。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -66,12 +67,6 @@ ht-degree: 97%
 `distinctWithNull(<listDuration>)`
 
 期間のリストを返します。
-
-`distinctWithNull(<listObject>)`
-
-`distinctWithNull(<listObject>,<string>)`
-
-オブジェクトのリストを返します。
 
 ## 例
 

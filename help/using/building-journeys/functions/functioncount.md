@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: カウント，関数，式，ジャーニー
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
-source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 92%
+source-wordcount: '90'
+ht-degree: 57%
 
 ---
 
@@ -26,18 +26,13 @@ null 値を数に入れずに、リストの要素数を数えます。
 
 `count(<listAny>)`
 
+`count(<listObject>)`
+
 ## パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| パラメーター | タイプ | 説明 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照である必要があります。 listObject に null オブジェクトを含めることはできません。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -50,3 +45,7 @@ null 値を数に入れずに、リストの要素数を数えます。
 `count([10,2,10,null])`
 
 3 を返します。
+
+`count(@event{my_event.productListItems})`
+
+指定されたオブジェクトの配列内のオブジェクトの数を返します（listObject 型）。 注釈： listObject に null オブジェクトを含めることはできません

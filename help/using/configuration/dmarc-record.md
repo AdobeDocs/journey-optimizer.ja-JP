@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: DMARC レコード
 description: Journey Optimizerで DMARC レコードを設定する方法を説明します。
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
+source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## DMARC とは {#what-is-dmarc}
 
-DMARC（の略） **ドメインベースのメッセージ認証、レポート、適合**&#x200B;は、ドメインの所有者がドメインを不正使用から保護できる電子メール認証方法です。 E メールプロバイダーや ISP に明確なポリシーを提供することで、悪意のある関係者がドメインからの E メールを送信するのを防ぐことができます。 これにより、正当な E メールがスパムとしてマークされたり拒否されたりする可能性が低くなり、E メールの配信品質が向上します。
+ドメインベースのメッセージ認証、レポート、準拠 (DMARC) は、ドメイン所有者がドメインを不正使用から保護できる電子メール認証方法です。 E メールプロバイダーや ISP に明確なポリシーを提供することで、悪意のある関係者がドメインからの E メールを送信するのを防ぐことができます。 DMARC を実装すると、正当な E メールがスパムとしてマークまたは拒否されるリスクが軽減され、E メールの配信品質が向上します。
 
 また、DMARC では、認証に失敗したメッセージに関するレポートを提供し、DMARC 検証に合格しないメールの処理を制御します。 実装されたに応じて [DMARC ポリシー](#dmarc-policies)の場合、これらの E メールは監視、強制隔離または拒否できます。 これらの機能を使用すると、潜在的なエラーを軽減し、対処するためのアクションを実行できます。
 
@@ -65,7 +65,7 @@ E メールが DMARC 認証に失敗した場合は、そのメッセージに�
 
 業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次の日から始まります。 **2024 年 2 月 2 日**.
 
-Googleと Yahoo の要件について詳しくは、 [この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+Googleと Yahoo の要件について詳しくは、 [この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -79,7 +79,7 @@ Googleと Yahoo の要件について詳しくは、 [この節](https://experie
 
 ## での DMARC の実装 [!DNL Journey Optimizer] {#implement-dmarc}
 
-開始日 **2024 年 1 月 31 日**、 [!DNL Journey Optimizer] 管理インターフェイスを使用すると、既にデリゲートしたサブドメインまたはAdobeにデリゲートするサブドメインすべてに対して DMARC レコードを設定できます。 詳細な手順を以下に示します。
+The [!DNL Journey Optimizer] 管理インターフェイスを使用すると、既にデリゲートしたサブドメインまたはAdobeへのデリゲートをすべて行うサブドメインに対して DMARC レコードを設定できます。 詳細な手順を以下に示します。
 
 ### DMARC の既存のサブドメインを確認します。 {#check-subdomains-for-dmarc}
 

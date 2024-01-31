@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: ユニーク，関数，式，ジャーニー
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '155'
 ht-degree: 97%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 97%
 # distinct {#distinct}
 
 指定されたリストのユニークな値またはオブジェクトを返します。null エントリは無視されます。
-
->[!NOTE]
->
->ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
 ## カテゴリ
 

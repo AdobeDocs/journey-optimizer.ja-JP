@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 並べ替え，関数，式，ジャーニー
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 97%
+source-wordcount: '144'
+ht-degree: 90%
 
 ---
 
 # sort {#sort}
 
 値のリストやオブジェクトを自然な順序に並べ替えます。
-
->[!NOTE]
->
->ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
 ## カテゴリ
 
@@ -81,4 +77,8 @@ ht-degree: 97%
 `sort([1, 3, 2], false)`
 
 `[3, 2, 1]` を返します。
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+SKU 属性で並べ替えられた listObject（昇順）を返します
 

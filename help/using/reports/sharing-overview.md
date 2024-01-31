@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3b1a359427a76780bd3130e292cf2658eb6df03c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -66,4 +66,6 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 * [!DNL Customer Journey Analytics] は、「ジャーニーステップイベント」データセットを取り込みます。
 * 関連する「Journey Orchestration のジャーニーステップイベントスキーマ」の **profileID** フィールドは、ID フィールドとして定義されています。[!DNL Customer Journey Analytics] では、このデータセットを、ユーザーベースの識別情報と同じ値を持つ他のデータセットにリンクできます。
 * クロスチャネルジャーニー分析のために、このデータセットを [!DNL Customer Journey Analytics] で使用するには、[Customer Journey Analytics のドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)を参照してください{target="_blank"}。
+
+➡️ [Customer Journey Analyticsの操作](cja-ajo.md){target="_blank"}
 

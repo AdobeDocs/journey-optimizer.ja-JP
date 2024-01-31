@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン，ドメイン，メール， dmarc，レコード
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 5%
+source-wordcount: '576'
+ht-degree: 4%
 
 ---
 
@@ -45,9 +45,8 @@ or
 or
    * デリゲートされたサブドメインに対する DMARC の設定 **（内）[!DNL Journey Optimizer]** 設定ユーザーインターフェイス。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-     ただし、CNAME のデリゲーションでは、ホスティングソリューションでのエントリも必要になります。 その結果、IT 部門との連携を図り、IT 部門が [!DNL Journey Optimizer] 機能が利用可能になった（1 月 30 日）。 [詳細情報](dmarc-record.md#implement-dmarc)
+  ただし、CNAME のデリゲーションでは、ホスティングソリューションでのエントリも必要になります。 その結果、IT 部門との連携を図り、「 [この節](dmarc-record.md#implement-dmarc).
 
-**1 月 30 日より、DMARC 実装のセルフサービスインターフェイスを利用できるようになります。 詳しくは、[この節](dmarc-record.md#implement-dmarc)を参照してください。**
 
 Googleと Yahoo が共有する最新のタイムラインは次のとおりです。
 

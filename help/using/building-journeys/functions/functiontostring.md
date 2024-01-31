@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString，関数，式，ジャーニー
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 96%
+source-wordcount: '128'
+ht-degree: 79%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 96%
 | 日時 | 日付を UTC 日付フォーマットに変換します |
 | 日時のみ | 日付を UTC 日付フォーマットに変換します |
 | 期間 | 対応するミリ秒数の文字列に変換します |
-| 整数 | 値の文字列表現に変換します（1 は「1」になります） |
-| 小数 | 値の文字列表現に変換します（1.5 は「1.5」になります） |
+| 整数 | を値の文字列表現に変換します（1 は「1」になります） |
+| 小数 | を値の文字列表現に変換します（1.5 は「1.5」になります） |
 | ブール値 | ブール値を true の場合は「true」、false の場合は「false」に変換します |
 
 ## シグネチャと戻り値のタイプ
@@ -62,3 +62,7 @@ ht-degree: 96%
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
 例えば「2016-08-18」のように、指定された dateOnly フィールド（XDM 日付フィールド）の文字列表現を返します。
+
+`toString(toDuration(1520))`
+
+「PT1.52S」を返します。

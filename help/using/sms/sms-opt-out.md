@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,15 @@ ht-degree: 100%
 
 ## ネイティブ受信キーワード {#sms-native-keywords}
 
-デフォルトでは、Adobe Journey Optimizer はショートコード、フリーダイヤルおよびロングコードメッセージに対して、次の標準の英語の返信メッセージ（STOP、UNSTOP、START、QUIT、CANCEL、END および UNSUBSCRIBE）を処理します。Journey Optimizer で使用する場合、ネイティブキーワードをサポートするのは Sinch と Infobip のみです。
+>[!NOTE]
+>
+> Journey Optimizerで使用する場合、Sinch と Infobip のみがネイティブキーワードをサポートします。
+
+デフォルトでは、Adobe Journey Optimizerは、ショートコード、フリーダイヤル、ロングコードのメッセージに対し、次の標準的な英語の返信メッセージを処理します。
+
+* **オプトアウト**：停止、終了、キャンセル、終了、購読解除、いいえ。
+* **オプトイン**：購読、はい、停止、開始、続行、再開、開始。
+* **ヘルプ**：ヘルプ。
 
 これらのキーワードは通常、お使いのサードパーティプロバイダーから提供される自動標準返信をトリガーします。これについては、プロバイダーまたはドキュメントサイトで直接確認してください。
 

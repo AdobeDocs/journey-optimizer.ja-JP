@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: countOnlyNull，関数，式，ジャーニー
 exl-id: d06fc594-33dd-48ce-8c62-2f2892a867da
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 92%
+source-wordcount: '56'
+ht-degree: 60%
 
 ---
 
 # countOnlyNull {#countOnlyNull}
 
 リスト内の null 値の数をカウントします。
+
+なお、パラメーターは `<listObject>` は、この関数ではサポートされていません。
 
 ## カテゴリ
 
@@ -30,14 +32,7 @@ ht-degree: 92%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## シグネチャと戻り値のタイプ
 

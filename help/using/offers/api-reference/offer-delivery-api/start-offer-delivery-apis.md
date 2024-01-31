@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 92%
 
 ---
 
@@ -121,6 +121,10 @@ Edge Decisioning API リクエストでコンテキストデータを渡す場�
 >[!NOTE]
 >
 >コンテキストデータを保存するには、専用の XDM スキーマを設定する必要があります。
+
+**頻度キャップカウンターの更新**
+
+一部のオファーで頻度キャップが有効になっていて、キャッピングカウントがリセットされる頻度を定義する場合、カウンターが更新され、3 秒以内に Edge Decisioning API の決定で使用できます。 [オファーに制約を追加する方法を説明します](../../offer-library/add-constraints.md)
 
 ## Decisioning API の機能 {#decisioning}
 

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 98%
 
 ---
 
@@ -155,9 +155,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->重複した行は自動的に削除されます。
->
->プロファイルデータを含んだ各ファイルの最大レコード数（行数）が多すぎる場合、残りのレコード用に別のファイルが自動的に作成されます。
+>行内のすべての値が同じ重複行は、自動的にファイルから削除されます。
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

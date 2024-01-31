@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: setDays，関数，式，ジャーニー
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 95%
@@ -50,4 +50,4 @@ ht-degree: 95%
 
 2010-12-25T01:11:00Z を返します。
 
-`setDays(toDateTimeOnly(@{MyEvent.registrationDate}), 1)`
+`setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`

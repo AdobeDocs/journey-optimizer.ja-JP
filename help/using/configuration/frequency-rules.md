@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 100%
+source-wordcount: '1135'
+ht-degree: 81%
 
 ---
 
@@ -79,13 +79,27 @@ ht-degree: 100%
    >
    >現在、**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが使用可能です。
 
-1. ルールにキャッピングを設定します。キャッピングは、毎月個々のユーザープロファイルに送信できるメッセージの最大数を意味します。
+1. キャッピングを適用する時間枠を選択します。
 
-   ![](assets/message-rules-capping.png)
+   ![](assets/message-rules-capping-duration.png)
+
+   頻度キャップは、選択したカレンダー期間に基づきます。 対応する時間枠の開始時にリセットされます。
+
+   各期間のカウンターの有効期限は次のとおりです。
+
+   * **[!UICONTROL 毎日]**：頻度の上限は、23 日まで有効です:59:59(UTC) に設定され、翌日の開始時に 0 にリセットされます。
+
+   * **[!UICONTROL 毎週]**：頻度キャップは土曜日 23 まで有効です。:59:暦週が日曜日に始まる週の 59 UTC です。 有効期限は、ルールの作成に関係なく設定されます。 例えば、ルールが木曜日に作成された場合、このルールは土曜日の 23 時まで有効です。:59:59.
+
+   * **[!UICONTROL 毎月]**：頻度の上限は、月の最終日の 23 まで有効です。:59:59 UTC です。 例えば、1 月の月別の有効期限は 01 ～ 31 23 です:59:59 UTC です。
 
    >[!NOTE]
    >
-   >フリークエンシーキャップは、月別のカレンダー期間に基づいています。毎月初めにリセットされます。
+   >を処理する際に [バッチセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} をお勧めします。 <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+
+1. ルールの上限を設定します。つまり、上の選択に従って、毎月、週または日に個々のユーザープロファイルに送信できるメッセージの最大数を示します。
+
+   ![](assets/message-rules-capping.png)
 
 1. このルールに使用するチャネルを「**[!UICONTROL メール]**」または「**[!UICONTROL プッシュ通知]**」から選択します。
 
@@ -97,7 +111,7 @@ ht-degree: 100%
 
 1. 選択したすべてのチャネルに対して合計数としてキャッピングを適用する場合は、複数のチャネルを選択します。
 
-   例えば、キャッピングを 15 に設定し、メールチャネルとプッシュチャネルの両方を選択します。プロファイルが既に 10 件のマーケティングメールと 5 件のマーケティングプッシュ通知を受信している場合、このプロファイルは、次に配信されるマーケティングメールまたはプッシュ通知の対象から除外されます。
+   例えば、キャッピングを 15 に設定し、メールチャネルとプッシュチャネルの両方を選択します。選択した期間に既に 10 件のマーケティング E メールと 5 件のマーケティングプッシュ通知を受信しているプロファイルの場合、このプロファイルは、マーケティング E メールまたはプッシュ通知の次の配信から除外されます。
 
 1. 「**[!UICONTROL ドラフトとして保存]**」をクリックして、ルールの作成を確定します。メッセージが&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスで、ルールリストに追加されます。
 

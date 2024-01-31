@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCountWithNull，関数，式，ジャーニー
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 94%
+source-wordcount: '57'
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 94%
 
 null 値を含め、異なる値の数をカウントします。
 
->[!NOTE]
->
->ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
+なお、パラメーターは `<listObject>` は、この関数ではサポートされていません。
 
 ## カテゴリ
 
@@ -34,14 +32,7 @@ null 値を含め、異なる値の数をカウントします。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## シグネチャと戻り値のタイプ
 

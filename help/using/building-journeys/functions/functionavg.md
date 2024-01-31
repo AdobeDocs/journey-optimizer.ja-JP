@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 平均，関数，式，ジャーニー
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 92%
@@ -54,7 +54,7 @@ ht-degree: 92%
 
 ## 例
 
-`avg(@{BarBeacon.inventory},5)`
+`avg(@event{BarBeacon.inventory},5)`
 
 `avg([10,3,8])`
 

@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCount，関数，式，ジャーニー
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 92%
+source-wordcount: '138'
+ht-degree: 77%
 
 ---
 
@@ -28,16 +28,10 @@ null 値を無視して異なる値の数をカウントします。
 
 ## パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listInteger |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| パラメーター | タイプ | 説明 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -45,8 +39,23 @@ null 値を無視して異なる値の数をカウントします。
 
 整数を返します。
 
+`distinctCount(<listObject>)`
+
+`distinctCount(<listObject>,<string>)`
+
+オブジェクトのリストを返します。
+
+
 ## 例
 
 `distinctCount([10,2,10,null])`
 
 2 を返します。
+
+`distinctCount(@event{my_event.productListItems})`
+
+指定されたオブジェクトの配列内の厳密に異なるオブジェクトの数を返します（listObject 型）。
+
+`distinctCount(@event{my_event.productListItems}, "SKU")`
+
+「SKU」属性値が異なるオブジェクトの数を返します{}.

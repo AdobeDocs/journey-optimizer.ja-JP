@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: フィルター，関数，式，ジャーニー
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '113'
 ht-degree: 96%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 96%
 # filter{#filter}
 
 指定されたキー値の 1 つに一致するキー属性を持つオブジェクトで構成される listObject（オブジェクトリスト）を返します。
-
->[!NOTE]
->
->ターゲットリストが listObject の場合、この関数はカスタムアクション式でのみ使用できます。
 
 ## カテゴリ
 
@@ -82,7 +78,7 @@ listObject を返します。
 
 ```json
 filter(
- @{myevent.productListItems},
+ @event{myevent.productListItems},
  "id", 
  ["product2", "product3", "product4"]
 )

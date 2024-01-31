@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: max，関数，式，ジャーニー
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 95%
@@ -88,7 +88,7 @@ ht-degree: 95%
 
 ## 例
 
-`max(@{BarBeacon.inventory},5)`
+`max(@event{BarBeacon.inventory},5)`
 
 `max([10,3,8])`
 

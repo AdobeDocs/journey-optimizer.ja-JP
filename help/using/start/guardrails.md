@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
@@ -87,6 +87,10 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * IP アドレスは使用できません。
 * 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。
 * ビルトインのカスタムアクションは削除できません。
+* カスタムアクションを使用してターゲット設定するエンドポイントを選択する場合は、次の点を確認します。
+
+   * このエンドポイントは、 [スロットル API](../configuration/throttling.md) または [キャッピング API](../configuration/capping.md) 制限する スロットル設定が 200 TPS を下回ることはないことに注意してください。 ターゲットとするエンドポイントは、少なくとも 200 個の TPS をサポートする必要があります。
+   * このエンドポイントには、可能な限り短い応答時間を設定する必要があります。 予想されるスループットに応じて、応答時間が長いと、実際のスループットに影響を与える可能性があります。
 
 ### イベント {#events-g}
 
@@ -99,6 +103,10 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 * 外部データソースを利用すると、カスタマージャーニー内でリアルタイムに外部データを参照できます。それらのソースは、REST API 経由で使用でき、JSON をサポートし、リクエストのボリューム量を処理できる必要があります。
 * 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。
+
+>[!NOTE]
+>
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。
 
 ### ジャーニーとプロファイルの作成 {#journeys-limitation-profile-creation}
 

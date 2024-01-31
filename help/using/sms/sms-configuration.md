@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 96%
+source-wordcount: '1266'
+ht-degree: 82%
 
 ---
 
@@ -69,7 +69,7 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 
    ![](assets/sms_7.png)
 
-   * **[!DNL Sinch]** の場合：
+   * +++ の場合 **[!DNL Sinch]**
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
@@ -77,15 +77,24 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 
       * **[!UICONTROL オプトインメッセージ]**：**[!UICONTROL オプトインメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
+      * **[!UICONTROL オプトアウトメッセージ]**：自動的に **[!UICONTROL オプトアウトメッセージ]**.
+
       * **[!UICONTROL ヘルプメッセージ]**：**ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
-   * **[!DNL Sinch MMS]** の場合：
+      * **[!UICONTROL 二重のオプトインのキーワード]**：ダブルオプトイン処理をトリガーにするキーワードを入力します。 ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。 複数のキーワードに対しては、コンマ区切り値を使用します。
+
+      * **[!UICONTROL ダブルオプトインメッセージ]**：二重のオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
++++
+
+   * +++ の場合 **[!DNL Sinch MMS]**
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
       * **[!UICONTROL プロジェクト ID]**、**[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：Conversation API メニューから、アプリメニューで資格情報を見つけることができます。詳しくは、[Sinch のドキュメント](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}を参照してください。
 
-   * **[!DNL Twilio]** の場合：
++++
+
+   * +++ の場合 **[!DNL Twilio]**
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
@@ -93,12 +102,26 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 
       * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、[Twilio のドキュメント](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}を参照してください。
 
-   * **[!DNL Infobip]** の場合：
++++
+
+   * +++ の場合 **[!DNL Infobip]**
 
       * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
       * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。詳しくは、[Infobip のドキュメント](https://www.infobip.com/docs/api){target="_blank"}を参照してください。
 
+      * **[!UICONTROL 二重のオプトインのキーワード]**：ダブルオプトイン処理をトリガーにするキーワードを入力します。 ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。 複数のキーワードに対しては、コンマ区切り値を使用します。
+
+      * **[!UICONTROL ダブルオプトインメッセージ]**：二重のオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
+
+      * **[!UICONTROL プリンシパルエンティティ ID]**：割り当てられた DLT プリンシパルエンティティ ID を入力します。
+
+      * **[!UICONTROL コンテンツテンプレート ID]**：登録済みの DLT コンテンツテンプレート ID を入力します。
+
+      * **[!UICONTROL 有効期間]**：メッセージの有効期間を時間単位で入力します。 この期間内にメッセージを配信できない場合は、システムは追加の再送信を試みます。 デフォルトの有効期間は 48 時間に設定されています。
+
+      * **[!UICONTROL コールバックデータ]**：通知 URL で送信する追加のクライアントデータを入力します。
++++
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 

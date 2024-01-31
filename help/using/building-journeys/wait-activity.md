@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Select the date for the execution of the next activity.
 
 >[!NOTE]
 >
->dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例：「toDateTimeOnly(@{Event.offerOpened.activity.endTime})」の場合、イベント内のフィールドは「2016-08-12T09:46:06Z」の形式になります。
+>dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例えば、toDateTimeOnly(@event{Event.offerOpened.activity.endTime}) の場合、イベントのフィールドは2016-08-12T09の形式です。:46:06Z
 >
 >ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、今のところ、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（2016-08-12T09:46:06.982-05 など）をインターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
@@ -74,7 +74,7 @@ Select the date for the execution of the next activity.
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
-This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >

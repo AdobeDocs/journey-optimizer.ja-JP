@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList，関数，式，ジャーニー
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 95%
+source-wordcount: '88'
+ht-degree: 35%
 
 ---
 
 # serializeList {#serializeList}
 
-最初のパラメーターで指定されたリスト（任意のタイプ）を文字列に変換します。 2 番目のパラメーターは、使用する区切り文字を表します。 3 番目のパラメーターは、式の各要素に引用符を含めるかどうかを示すブール値です。
+指定されたリスト（listObject 以外の任意の型）を文字列に変換します。
 
 ## カテゴリ
 
@@ -28,19 +28,11 @@ ht-degree: 95%
 
 ## パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| 文字列 | 文字列 |
-| ブール値 | ブール値 |
-| 日時のみ | 日時のみ |
-| リスト | listString |
-| リスト | listBoolean |
-| リスト | listPoint |
-| リスト | listDecimal |
-| リスト | listDuration |
-| リスト | listDateTime |
-| リスト | listDateTimeOnly |
-| リスト | listDateOnly |
+| パラメーター | タイプ | 説明 |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | 文字列に変換するリスト。 |
+| 区切り記号 | 文字列 | 出力文字列内の各リスト要素間の区切り文字。 |
+| addQuotes | ブール値 | このパラメーターは、出力文字列の各要素に引用符を含める (true) か、含まない (false) かを示します。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -59,8 +51,6 @@ ht-degree: 95%
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 文字列を返します。
 

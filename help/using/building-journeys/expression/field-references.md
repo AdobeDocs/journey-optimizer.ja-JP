@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: ジャーニー, フィールド, 式, イベント
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 90%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id}
+@event{<event name>.<XDM path to the field>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id}
 
 // field group
 #{<data source name>.<field group name>.<path to the field>}
@@ -47,8 +47,8 @@ ht-degree: 100%
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
+@event{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->フィールドとデフォルト値のタイプは同じにする必要があります。例えば、@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} は無効になります。想定される値は文字列であるにもかかわらず、デフォルト値が整数であるからです。
+>フィールドとデフォルト値のタイプは同じにする必要があります。例： `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` のデフォルト値は整数であるのに対して、期待値は文字列である必要があるので、は無効です。
 
 例：
 
@@ -67,9 +67,9 @@ ht-degree: 100%
 }
  
 expression example:
-- @{OrderEvent.orderId}                                    -> "12345"
-- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
-- @{OrderEvent.productId}                                  -> null
+- @event{OrderEvent.orderId}                                    -> "12345"
+- @event{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @event{OrderEvent.productId}                                  -> null
  
  
 // for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
@@ -104,7 +104,7 @@ expression examples:
 例：
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
 ## マップ内で定義されたフィールドへの参照
@@ -114,10 +114,10 @@ expression examples:
 マップ内の要素を取得するには、指定のキーで entry 関数を使用します。例えば、イベントのキーを定義する際に、選択した名前空間に応じて使用します。詳しくは、[このページ](../../event/about-creating.md#select-the-namespace)を参照してください。
 
 ```json
-@{MyEvent.identityMap.entry('Email').first().id}
+@event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。「Email」エントリはコレクションであり、ここから「first()」を使用して最初の要素の「id」を取得しています。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
+この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。 「Email」エントリはコレクションで、「first()」を使用して最初の要素で「id」を取得します。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 ### `firstEntryKey` 関数
 
@@ -163,6 +163,6 @@ expression examples:
 例：
 
 ```json
-#{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
-#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
+#{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
+#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
