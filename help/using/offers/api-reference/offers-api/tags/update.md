@@ -7,16 +7,16 @@ role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
 # コレクション修飾子の更新 {#update-collection-qualifier}
 
-オファーライブラリ API に対してPATCHリクエストを実行することで、コレクション修飾子（旧称「タグ」）を変更または更新できます。
+Offer Library API に対して PATCH リクエストを実行することで、コレクション修飾子（旧称「タグ」）を変更または更新できます。
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **応答**
 
-正常な応答は、コレクション修飾子の更新された詳細 ( 一意の `id`.
+正常な応答の場合は、一意の `id` など、コレクション修飾子の最新の詳細が返されます。
 
 ```json
 {
