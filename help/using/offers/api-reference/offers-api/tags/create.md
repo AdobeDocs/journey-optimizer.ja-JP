@@ -7,20 +7,20 @@ role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 
 # コレクション修飾子の作成 {#create-tag}
 
-オファーライブラリ API に対してPOSTリクエストを実行することで、コレクション修飾子（旧称：「タグ」）を作成できます。
+Offer Library API に対して POST リクエストを実行することで、コレクション修飾子（旧称「タグ」）を作成できます。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、 *Content-Type* リクエストヘッダーのフィールド：
+次の表に、リクエストヘッダーの「*Content-Type*」フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **応答**
 
-正常な応答は、新しく作成されたコレクション修飾子に関する情報 ( 一意の `id`. 以下を使用すると、 `id` コレクション修飾子を更新または削除する後の手順。 後のチュートリアルで、独自のコレクション修飾子 `id` を使用して、コレクションやパーソナライズされたオファーを作成できます。
+応答が成功すると、一意の `id` を含む新規作成されたコレクション修飾子に関する情報が返されます。後の手順で `id` を使用して、コレクション修飾子を更新または削除できます。後のチュートリアルで、独自のコレクション修飾子 `id` を使用して、コレクションやパーソナライズされたオファーを作成できます。
 
 ```json
 {
