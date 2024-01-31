@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 59%
+ht-degree: 77%
 
 ---
 
@@ -26,9 +26,9 @@ Adobe Journey Optimizer 24.1 リリースの新機能と改善点について説
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 必須の DMARC の更新]
+>[!TAB 必須の DMARC アップデート]
 
-業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**. Journey OptimizerのAdobeにデリゲートしたすべてのサブドメインに対して DMARC レコードが設定されていることを確認します。
+Google と Yahoo は、業界のベストプラクティス実施の一環として、**2024年2月1日（PT）**&#x200B;からメールを送信する際に使用するすべてのドメインに対して **DMARC レコード**&#x200B;を設定することを要求しています。Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
@@ -111,7 +111,7 @@ Real-Time CDPとJourney Optimizerの業界固有のユースケースプレイ�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品の説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">セキュリティの概要 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API リファレンス</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizerスキーマ辞書</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank">チュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品の説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">セキュリティの概要（PDF）</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API リファレンス</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer スキーマ辞書</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
