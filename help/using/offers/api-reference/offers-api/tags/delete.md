@@ -7,16 +7,16 @@ role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
 # コレクション修飾子の削除 {#delete-tag}
 
-コレクション修飾子（旧称「タグ」）を削除（DELETE）する必要が生じる場合があります。 これは、削除するDELETE修飾子の ID を使用して、オファーライブラリ API に対するコレクションリクエストを実行することでおこなわれます。
+コレクション修飾子（旧称「タグ」）を削除（DELETE）する必要が生じる場合があります。 これを行うには、削除するコレクション修飾子の ID を使用して Offer Library API に対する DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-コレクション修飾子に対して検索（GET）リクエストを実行することで、削除を確認できます。収集修飾子が削除されているので、HTTP ステータス 404(Not Found) が表示されます。
+コレクション修飾子に対して検索（GET）リクエストを実行することで、削除を確認できます。コレクション修飾子が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。
