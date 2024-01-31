@@ -9,7 +9,7 @@ level: Experienced
 keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
