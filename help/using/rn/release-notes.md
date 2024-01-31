@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 27%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 27%
 ### 新機能{#jan24-features}
 
 このリリースでは、以下に示す新機能が導入されています。
-
 
 <table>
 <thead>
@@ -90,7 +89,7 @@ ht-degree: 27%
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **オーディエンスの閲覧**  - **オーディエンスの閲覧** アクティビティは、バッチセグメントでプロファイルスナップショットデータセットを使用するようになりました。このデータセットは、スケジュールされた日次バッチジョブの実行後 1 日に 1 回のみ生成されるので、最後の日次バッチジョブまでデータが更新されます。
+* **オーディエンスの閲覧**  - **オーディエンスの閲覧** アクティビティは、バッチセグメントでプロファイルスナップショットデータセットを使用するようになりました。このデータセットは、スケジュールされた日次バッチジョブの実行後 1 日に 1 回のみ生成されるので、最後の日次バッチジョブまでデータが更新されます。 [詳細情報](../building-journeys/read-audience.md)
 
 * **フィールドグループ**  — このリリースでは、特定の場合にフィールドグループが保存されない問題が修正されました。
 
@@ -100,4 +99,4 @@ ht-degree: 27%
 
 **意思決定管理**
 
-* **エッジでの頻度キャップ**  — 頻度キャップカウンターが更新され、3 秒未満で Edge 判定 API の決定で使用できるようになりました。
+* **エッジでの頻度キャップ**  — 頻度キャップカウンターが更新され、3 秒未満で Edge 判定 API の決定で使用できるようになりました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
