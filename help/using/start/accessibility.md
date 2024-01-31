@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
     <td>E</td>
   </tr>
   <tr>
-    <td>**[!UICONTROL 一度に 1 つのプロファイルをトリガー]**オプションがオンになっている、オーディエンスベースのジャーニー内のイベント</td>
+    <td>**[!UICONTROL Single profile at a time]** オプションがオンになっているオーディエンスベースのジャーニーでイベントをトリガーする</td>
     <td>P</td>
   </tr>
   <tr>
