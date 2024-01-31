@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: cdcce470481393c821d1c5df95639602510a690a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,19 +33,19 @@ ht-degree: 88%
 
 オーディエンスは、様々な方法で生成できます。
 
-* **セグメントの定義**:Adobe Experience Platform Segmentation Service を使用して、新しいオーディエンス定義を作成します。 [詳しくは、セグメント定義の作成方法を参照してください](creating-a-segment-definition.md)
-* **CSV ファイルのインポート**:CSV ファイルを使用してオーディエンスをインポートします。 Adobe Experience Platformでオーディエンスをインポートする方法を説明します [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}.
-* **オーディエンスの構成**：構成ワークフローを作成して、既存のAdobe Experience Platformオーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。 [オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
+* **セグメントの定義**：Adobe Experience Platform セグメント化サービスを使用して、新しいオーディエンス定義を作成します。[詳しくは、セグメント定義の作成方法を参照してください](creating-a-segment-definition.md)
+* **CSV ファイルの読み込み**：CSV ファイルを使用してオーディエンスを読み込みます。Adobe Experience Platform [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}でオーディエンスを読み込む方法を説明します。
+* **オーディエンスのコンポジション**：コンポジションワークフローを作成し、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。[オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
 
-## でのオーディエンスのターゲット設定 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## [!DNL Journey Optimizer] でのターゲットオーディエンス {#segments-in-journey-optimizer}
 
 キャンペーンとジャーニーでは、[セグメント定義](../audience/creating-a-segment-definition.md)を使用して生成された Adobe Experience Platform オーディエンスを選択できます。
 
 >[!NOTE]
 >
->現時点では、次の結果からオーディエンスが生成されます。 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) はキャンペーンでのみターゲットに設定できます。 この機能は、ジャーニーのプライベートベータ版として使用できます。
+>現時点では、[オーディエンスのコンポジション](../audience/get-started-audience-orchestration.md)から得られたオーディエンスはキャンペーンでのみターゲットに設定できます。この機能は、ジャーニーのプライベートベータ版として使用可能です。
 >
->オーディエンスの使用 [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} のキャンペーンおよびジャーニーは、現在、プライベートベータ版として利用できます。
+>キャンペーンおよびジャーニーでの [CSV ファイルからアップロードされた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}オーディエンスの使用は、現在プライベートベータ版として利用できます。
 >
 >詳しくは、アドビ担当者にお問い合わせください。
 
