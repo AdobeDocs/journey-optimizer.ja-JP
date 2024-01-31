@@ -10,9 +10,9 @@ level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->この機能には、 **サンドボックス管理** 機能：サンドボックスの管理（またはサンドボックスの表示）とパッケージの管理。 [詳細情報](../administration/ootb-permissions.md)
+>この機能には、**サンドボックス管理**&#x200B;機能の権限（サンドボックスの管理（またはサンドボックスの表示）とパッケージの管理）が必要です。[詳細情報](../administration/ootb-permissions.md)
 
 ## サンドボックスツールの基本を学ぶ{#sandbox-gs}
 
