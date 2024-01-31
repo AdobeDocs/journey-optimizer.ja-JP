@@ -7,15 +7,15 @@ role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # コレクション修飾子の検索 {#look-up-tag}
 
-特定のコレクション修飾子（旧称：「タグ」）を検索するには、リクエストパスにコレクション修飾子 ID を含むオファーライブラリ API に対してGETリクエストを実行します。
+特定のコレクション修飾子（旧称「タグ」）を検索するには、リクエストパスにコレクション修飾子 ID を含んだ GET リクエストを Offer Library API に対して実行します。
 
 **API 形式**
 
