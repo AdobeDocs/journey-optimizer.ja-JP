@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # ユースケースプレイブック {#playbooks}
+
+>[!PREREQUISITES]
+>
+>ユースケースプレイブックを使用する前に、次の設定手順が必要です。 各手順の詳細については、ユースケースプレイブックのドキュメントを参照してください [基本を学ぶ](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} ページに貼り付けます。
+>
+>* サンドボックスの作成
+>* ユーザー権限の設定
+>* Journey Optimizerチャネルでの電子メール、プッシュおよび SMS 通知の設定
 
 ユースケースプレイブックは、Adobe Experience PlatformおよびJourney Optimizerを使用して実行できる一般的な使用例に対応する、事前定義済みのワークフローです。
 
