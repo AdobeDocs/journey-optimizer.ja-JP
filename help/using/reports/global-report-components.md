@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
  <tbody>
   <tr> 
    <td> バウンス<br/> </td> 
-   <td> 送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。<br/> </td> 
+   <td> 送信済みメッセージの合計数に関して、送信プロセス中に累積したエラーの合計と自動返信処理。<br/> </td> 
 </tr> 
   <tr> 
    <td> バウンス率<br/> </td> 
@@ -84,16 +84,16 @@ ht-degree: 100%
 </tr>
   <tr> 
    <td> エラー<br/> </td> 
-   <td> 配信中に発生し、プロファイルに送信できなかったエラーの合計数。<br/> </td> 
+   <td> 送信プロセス中に発生し、プロファイルに送信できなかったエラーの合計数。<br/> </td> 
 </tr> 
   <tr> 
    <td> エラー率<br/> </td> 
-   <td> 送信されたメールに対して、配信中にエラーが発生して送信できなかったメールの割合。<br/> </td> 
+   <td> 送信プロセス中に発生し、送信された E メールと比較して、送信を妨げたエラーの割合。<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> エラー理由<br/> </td> 
-   <td> エラーの特定の元の原因名。<a href="error-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="exclusion-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
 </tr>
   <tr> 
    <td> 除外済み<br/> </td> 
@@ -340,7 +340,7 @@ ht-degree: 100%
 </tr>
   <tr> 
    <td> エラー理由<br/> </td> 
-   <td> エラーの特定の元の原因名。<a href="error-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="exclusion-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
 </tr>
   <tr> 
    <td> 除外済み<br/> </td> 

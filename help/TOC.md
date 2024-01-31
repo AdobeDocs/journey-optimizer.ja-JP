@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 01f1a8d27fcc22ad38d4a8d7714c7afdc84e9726
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -359,9 +359,9 @@ ht-degree: 99%
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リストについて](using/reports/suppression-list.md)
       + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
-   + [エラー理由](using/reports/error-list.md)
    + [アラート](using/reports/alerts.md)
    + [Customer Journey Analytics の操作](using/reports/cja-ajo.md)
+   + [除外の理由](using/reports/exclusion-list.md)
 + 意思決定管理 {#offer-decisioning}
    + 意思決定管理の基本を学ぶ {#get-started-decision}
 
