@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -88,6 +88,8 @@ ht-degree: 16%
 * **オーディエンスの閲覧**   — 「オーディエンスの読み取り」アクティビティは、バッチセグメントのプロファイルスナップショットデータセットを使用するようになりました。このデータセットは、スケジュールされた日次バッチジョブの実行後 1 日に 1 回のみ生成されるので、最後の日次バッチジョブまでデータが更新されます。
 
 * **フィールドグループ**  — 特定の場合にフィールドグループが保存されない問題を修正しました。
+
+* **式エディター**  — すべての式と追加の関数で、 listObject データ型をサポートするようになりました。 [詳細情報](../building-journeys/expression/functions.md)
 
 **頻度ルール**
 
