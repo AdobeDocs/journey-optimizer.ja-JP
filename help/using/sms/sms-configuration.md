@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
 source-wordcount: '1266'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -40,13 +40,13 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="SMS プロバイダーをJourney Optimizerで設定する"
->abstract="Adobe Journey Optimizerは、SMS サービスプロバイダーを通じてテキストメッセージを送信します。 プロバイダーを選択し、API の資格情報を入力します。"
+>title="Journey Optimizer での SMS プロバイダーの設定"
+>abstract="Adobe Journey Optimizer では、SMS サービスプロバイダーを通じてテキストメッセージを送信します。プロバイダーを選択し、API 認証情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
->title="MMS プロバイダーをJourney Optimizerで設定する"
->abstract="Adobe Journey Optimizerは、MMS サービスプロバイダーを通じてメディアコンテンツを送信します。 プロバイダーを選択し、API の資格情報を入力します。"
+>title="Journey Optimizer での MMS プロバイダーの設定"
+>abstract="Adobe Journey Optimizer では、MMS サービスプロバイダーを通じてメディアコンテンツを送信します。プロバイダーを選択し、API 認証情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
