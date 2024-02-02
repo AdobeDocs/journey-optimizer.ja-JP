@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
+source-git-commit: 099e65cfa4ecbf2e4f4e706415c7fed3313246aa
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 82%
@@ -70,6 +70,6 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
 +++ ビデオを見る
 
-  >[!VIDEO](ttps://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
 +++
