@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -111,10 +111,6 @@ ht-degree: 100%
 * **表示域**：表示域とは、チャネルがオファーを表示する際に使用する情報（場所や言語など）です。
 
 ## チュートリアルビデオ{#video}
-
->[!NOTE]
->
->これらのビデオは、Adobe Experience Platform 上に作成された Offer Decisioning アプリケーションサービスを対象としており、[!DNL Adobe Journey Optimizer] に限定したものではありません。ただし、[!DNL Journey Optimizer] に関連して、 意思決定管理を使用する際の一般的なガイダンスを提供します。
 
 ### 意思決定管理とは {#what-is-offer-decisioning}
 
