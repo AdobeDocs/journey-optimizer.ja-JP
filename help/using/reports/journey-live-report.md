@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
+source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
-source-wordcount: '2866'
-ht-degree: 42%
+source-wordcount: '3668'
+ht-degree: 44%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="ジャーニーの実績"
->abstract="XX"
+>abstract="ジャーニーパフォーマンスウィジェットを使用すると、過去 24 時間のジャーニーの進行に合わせて、ターゲットプロファイルのパスを視覚的に追跡できます。"
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="ジャーニー統計"
->abstract="XX"
+>abstract="ジャーニー統計の主要業績評価指標 (KPI) は、包括的なダッシュボードとして機能し、ジャーニーに関連する過去 24 時間の重要な指標を詳細に分析できます。"
 
 ![](assets/journey_live_statistics.png)
 
@@ -80,7 +80,7 @@ The **[!UICONTROL ジャーニー統計]** 主要業績評価指標 (KPI) は包
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="過去 24 時間に実行されたアクション"
->abstract="XX"
+>abstract="過去 24 時間に実行されたアクションウィジェットは、最近のパフォーマンスのスナップショットを提供し、過去 24 時間以内に実行されたアクションの有効性を示します。"
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,11 +99,11 @@ The **[!UICONTROL 過去 24 時間に実行されたアクション]** ウィジ
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="実行されたアクションとエラー"
->abstract="XX"
+>abstract="実行されたアクションとエラーウィジェットは、最も成功したアクションと、過去 24 時間のアクションのトリガー中に発生したエラーを表示します。 このウィジェットは、正常な実行と発生したエラーの両方の包括的な概要を提供し、最近のアクションのパフォーマンスに関する貴重なインサイトを提供します。"
 
 ![](assets/journey_live_actions_errors.png)
 
-The **[!UICONTROL 実行されたアクションとエラー]** ウィジェットは、最も成功したアクションと、アクションがトリガーされたときに発生したエラーを表します。
+The **[!UICONTROL 実行されたアクションとエラー]** ウィジェットは、最も成功したアクションと、過去 24 時間以内にアクションがトリガーされたときに発生したエラーを表します。
 
 +++ 実行されたアクションおよびエラー指標の詳細を説明します
 
@@ -118,7 +118,7 @@ The **[!UICONTROL 実行されたアクションとエラー]** ウィジェッ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="アクションのエラー理由"
->abstract="XX"
+>abstract="「アクションエラーの理由」の表とグラフには、アクションの実行中に発生したエラーの完全な概要が表示され、過去 24 時間に発生した可能性のある問題の包括的な概要が示されます。"
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,7 +129,7 @@ The **[!UICONTROL アクションエラーの理由]** 表およびグラフで�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="アクション別のエラータイプ"
->abstract="XX"
+>abstract="「アクション別のエラータイプ」テーブルおよびグラフでは、過去 24 時間以内にアクションが実行されるたびに発生したエラーの完全な概要が示されます。"
 
 ![](assets/journey_live_error_type.png)
 
@@ -140,7 +140,7 @@ The **[!UICONTROL アクション別のエラータイプ]** 表とグラフに�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="過去 24 時間に実行されたイベント"
->abstract="XX"
+>abstract="過去 24 時間に実行されたイベントウィジェットを使用すると、過去 24 時間以内に正常に実行されたイベントを特定できます。 "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,7 +151,7 @@ The **[!UICONTROL 過去 24 時間に実行されたイベント]** ウィジェ
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="イベント"
->abstract="XX"
+>abstract="イベントウィジェットは、どのイベントが正常に実行されたかを包括的に表示し、過去 24 時間の詳細なインサイトの概要番号、グラフ、表を提供します。"
 
 ![](assets/journey_live_events.png)
 
@@ -162,7 +162,7 @@ The **[!UICONTROL イベント]** ウィジェットでは、概要番号、グ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="接触チャネル別のイベント"
->abstract="XX"
+>abstract="イベント（起源別）テーブルとグラフには、過去 24 時間にイベントが正常に受信されたことが示されます。 これらの視覚的表現を使用すると、効果的に受け取ったイベントを正確に識別でき、ジャーニー内の各イベントのパフォーマンスと影響に関する貴重なインサイトを提供できます。"
 
 ![](assets/journey_events_origin.png)
 
@@ -177,7 +177,7 @@ The **[!UICONTROL 接触チャネル別のイベント]** 表とグラフは、�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
 >title="メール - 送信パフォーマンス"
->abstract="XX"
+>abstract="メール - 送信統計グラフは、過去 24 時間のターゲットや配信など、メールに関する重要なデータを要約します。"
 
 ![](assets/journey_live_email_performance.png)
 
@@ -200,7 +200,7 @@ The **[!UICONTROL 電子メール — 送信パフォーマンス]** グラフ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_statistics_live"
 >title="メール - 統計"
->abstract="XX"
+>abstract="メール - 統計テーブルには、過去 24 時間のメールのプロファイルアクティビティに関するデータが表示されます。"
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -237,7 +237,7 @@ The **[!UICONTROL 電子メール — 統計]** この表は、過去 24 時間�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="メール - 日別のパフォーマンス"
->abstract="XX"
+>abstract="「 E メール — 日別パフォーマンス」グラフは、送信済み E メールに関する過去 24 時間の包括的なデータを表示し、配信済み E メールやバウンスなどの主要指標に関するインサイトを提供し、E メール送信プロセスを詳細に分析できます。"
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -251,7 +251,7 @@ The **[!UICONTROL メール — 日別のパフォーマンス]** ウィジェ�
 
 * **[!UICONTROL バウンス数]**：送信プロセスおよび自動返信処理の間に累積したエラーの合計数。
 
-* **[!UICONTROL エラー]**：送信プロセス中に発生し、プロファイルに送信できなかったエラーの合計数。
+* **[!UICONTROL エラー]**：配信中に発生してプロファイルに送信できない原因となったエラーの合計数。
 
 * **[!UICONTROL 開封数]**:E メールが開封された回数。
 
@@ -291,7 +291,7 @@ The **[!UICONTROL バウンスの理由]** および **[!UICONTROL バウンス�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_errors_live"
 >title="メール - エラー理由"
->abstract="XX"
+>abstract="メール - エラー理由のグラフとテーブルを使用すると、過去 24 時間の送信プロセス中に発生した特定のエラーを特定できます。"
 
 ![](assets/journey_live_email_error_reasons.png)
 
@@ -302,7 +302,7 @@ The **[!UICONTROL エラーの理由]** グラフと表には、過去 24 時間
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="メール - 除外された理由"
->abstract="XX"
+>abstract="「除外された理由」グラフとテーブルには、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因が表示されます。"
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -315,7 +315,7 @@ The **[!UICONTROL 除外された理由]** グラフと表は、ターゲット�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="メール - 最適な受信者ドメイン"
->abstract="XX"
+>abstract="メール - 最適な受信者ドメインのグラフとテーブルには、受信者がメールを開くのに最も頻繁に使用するドメインの詳細な分類が表示され、過去 24 時間の受信者の行動に関する有益なインサイトが提供されます。"
 
 ![](assets/journey_live_email_best_recipient.png)
 
@@ -326,7 +326,7 @@ The **[!UICONTROL E メール — 最適な受信者ドメイン]** グラフと
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="電子メール — オファー"
->abstract="XX"
+>abstract="オファー統計とオファー詳細な統計ウィジェットは、過去 24 時間のオファーのパフォーマンスに関する包括的なインサイトを提供し、時間の経過に伴う影響を詳細に分析し、より詳細な統計情報を提供して詳細に理解します。"
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ The **[!UICONTROL オファー統計]** および **[!UICONTROL オファーの�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="電子メール — 最適化"
->abstract="XX"
+>abstract="送信時間の最適化と最適化済みと非最適化のウィジェットは、過去 24 時間のメッセージに関する詳細情報を提供し、メッセージが最適化されているかどうかを強調します。"
 
 ![](assets/journey_email_sto.png)
 
@@ -402,7 +402,7 @@ The **[!UICONTROL プッシュ通知の送信パフォーマンス]** グラフ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_statistics_live"
 >title="プッシュ通知 - 統計"
->abstract="XX"
+>abstract="プッシュ統計テーブルには、過去 24 時間のプッシュ通知の受信者アクティビティに関するデータが表示されます。"
 
 ![](assets/journey_live_push_statistics.png)
 
@@ -430,7 +430,7 @@ The **[!UICONTROL プッシュ通知の送信パフォーマンス]** グラフ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_live"
 >title="プッシュ通知 - プラットフォームごとの分類"
->abstract="XX"
+>abstract="プラットフォームごとの分類のグラフとテーブルには、過去 24 時間のプッシュ通知の成功の分類が、受信者のオペレーティングシステムに基づいて表示されます。"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -441,7 +441,7 @@ The **[!UICONTROL プッシュ通知 — プラットフォーム別の分類]**
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary_live"
 >title="プッシュ通知 - 送信の概要"
->abstract="XX"
+>abstract="プッシュ通知送信の概要グラフには、過去 24 時間に送信されたプッシュ通知で使用可能なデータが表示されます。"
 
 ![](assets/journey_live_push_sending.png)
 
@@ -468,7 +468,7 @@ The **[!UICONTROL プッシュ通知の概要]** グラフは、過去 24 時間
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons_live"
 >title="プッシュ通知 - エラー理由"
->abstract="XX"
+>abstract="エラー理由のグラフとテーブルを使用して、過去 24 時間の送信プロセス中に発生した特定のエラーを特定できます。"
 
 ![](assets/journey_live_push_error.png)
 
@@ -479,7 +479,7 @@ The **[!UICONTROL エラーの理由]** 表とグラフは、プッシュ通知�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="プッシュ通知 - 除外された理由"
->abstract="XX"
+>abstract="「除外された理由」グラフとテーブルには、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因が表示されます。"
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -494,7 +494,7 @@ The **[!UICONTROL 除外された理由]** グラフと表には、ターゲッ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_statistics_live"
 >title="SMS - 統計"
->abstract="XX"
+>abstract="SMS 送信統計のテーブルは、過去 24 時間のターゲットメッセージや配信済みメッセージなど、SMS メッセージに関する重要なデータを要約します。"
 
 ![](assets/journey_live_sms_statistics.png)
 
@@ -523,7 +523,7 @@ The **[!UICONTROL SMS — 統計]** この表は、ターゲットメッセー�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
 >title="SMS - 日別パフォーマンス"
->abstract="XX"
+>abstract="日付別 SMS パフォーマンスのウィジェットには、過去 24 時間のメッセージに関する重要な情報がグラフで表示されます。"
 
 ![](assets/journey_live_sms_performance.png)
 
@@ -544,7 +544,7 @@ The **[!UICONTROL SMS — 日別パフォーマンス]** ウィジェットは�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_live"
 >title="SMS - バウンス理由"
->abstract="XX"
+>abstract="バウンス理由のグラフとテーブルには、バウンスメッセージに関連する過去 24 時間のデータが含まれています。"
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -555,7 +555,7 @@ The **[!UICONTROL SMS — バウンス理由]** グラフと表は、バウン�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_live"
 >title="SMS - エラー理由"
->abstract="XX"
+>abstract="SMS - エラー理由のグラフとテーブルを使用すると、過去 24 時間の送信プロセス中に発生した特定のエラーを識別できます。"
 
 ![](assets/journey_sms_error.png)
 
@@ -566,7 +566,7 @@ The **[!UICONTROL SMS — エラー理由]** グラフと表を使用すると�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="SMS - 除外された理由"
->abstract="XX"
+>abstract="「除外された理由」グラフとテーブルには、対象のオーディエンスから除外され、過去 24 時間にメッセージを受信しなかった、ユーザープロファイルにつながった様々な要因が表示されます。"
 
 ![](assets/journey_live_sms_excluded.png)
 
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="アプリ内パフォーマンス"
->abstract="XX"
+>abstract="アプリ内パフォーマンス KPI は、過去 24 時間の訪問者のアプリ内メッセージに対するエンゲージメントに関する重要なインサイトを提供します。"
 
 ![](assets/journey_live_inapp_performance.png)
 
@@ -616,7 +616,7 @@ The **[!UICONTROL アプリ内パフォーマンス]** KPI は、過去 24 時�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary_live"
 >title="アプリ内の概要"
->abstract="XX"
+>abstract="アプリ内概要グラフは、過去 24 時間のアプリ内インプレッション数およびインタラクション数の進行状況を示します。"
 
 ![](assets/journey_live_inapp_summary.png)
 
@@ -634,7 +634,7 @@ The **[!UICONTROL アプリ内概要]** グラフは、過去 24 時間のアプ
   > 
   >2 つ目の条件により、ターゲットプロファイルの数と個別インプレッション数には顕著な違いが生じる場合があります。
 
-* **[!UICONTROL インタラクション数]**：アプリ内メッセージに対するエンゲージメントの合計数。これには、クリック、破棄、その他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
+* **[!UICONTROL インタラクション]**：アプリ内メッセージに対するエンゲージメントの合計数。 これには、クリック、破棄、その他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
 
 +++
 
@@ -643,7 +643,7 @@ The **[!UICONTROL アプリ内概要]** グラフは、過去 24 時間のアプ
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions_live"
 >title="タイプ別インタラクション数"
->abstract="XX"
+>abstract="タイプ別インタラクション数のグラフとテーブルは、過去 24 時間のクリック、破棄、インタラクションを追跡して、ユーザーがアプリ内メッセージに対して行った操作の詳細を示します。"
 
 ![](assets/journey_live_inapp_interactions.png)
 
