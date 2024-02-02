@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
+source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer 24.1 リリースの新機能と改善点について説
 
 >[!TAB 必須の DMARC アップデート]
 
-Google と Yahoo は、業界のベストプラクティス実施の一環として、**2024年2月1日（PT）**&#x200B;からメールを送信する際に使用するすべてのドメインに対して **DMARC レコード**&#x200B;を設定することを要求しています。Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。
+業界のベストプラクティスの一環として、Googleと Yahoo! 両方ともあなたが **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**. Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
