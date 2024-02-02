@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
-source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 13%
+source-wordcount: '1364'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC レコードを設定"
->abstract="DMARC は、ドメインの所有者がドメインを不正使用から保護し、メールボックスプロバイダーの配信品質の問題を回避できる E メール認証方法です。<br>Googleと Yahoo は、業界のベストプラクティスの実施の一環として、E メールを送信する際に使用するすべてのドメインに対して DMARC レコードを持つことを求めています。"
+>abstract="DMARC は、ドメインの所有者がドメインを不正使用から保護し、メールボックスプロバイダーの配信品質の問題を回避できる E メール認証方法です。<br>業界のベストプラクティスの一環として、Googleと Yahoo! ともに、電子メールを送信するために使用するドメインの DMARC レコードが必要です。"
 
 ## DMARC とは {#what-is-dmarc}
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 <!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
-認証に失敗したメールを制御しながら、配信品質の問題を防ぐのに役立ちます。 [!DNL Journey Optimizer] 近日中に、DMARC テクノロジーを管理インターフェイスで直接サポートする予定です。 [詳細情報](#implement-dmarc)
+認証に失敗したメールを制御しながら、配信品質の問題を防ぐのに役立ちます。 [!DNL Journey Optimizer] は、DMARC テクノロジーを管理インターフェイスで直接サポートするようになりました。 [詳細情報](#implement-dmarc)
 
 ### DMARC の仕組み {#how-dmarc-works}
 
@@ -63,19 +63,19 @@ E メールが DMARC 認証に失敗した場合は、そのメッセージに�
 
 ## DMARC 要件の更新 {#dmarc-update}
 
-Google と Yahoo は、業界のベストプラクティス実施の一環として、メールを送信する際に使用するすべてのドメインに対して **DMARC レコード**&#x200B;を設定することを要求しています。この新しい要件は、**2024年2月1日（PT）**&#x200B;から開始されます。
+業界のベストプラクティスの一環として、Googleと Yahoo! どちらもあなたが **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次から適用されます： **2024 年 2 月 2 日**.
 
-Google と Yahoo の要件について詳しくは、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}を参照してください。
+Googleと Yahoo!&#39;の詳細の要件 [この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Gmail および Yahoo のこの新しい要件に準拠しないと、E メールがスパムフォルダーにランディングしたりブロックされたりする可能性があります。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Gmail および Yahoo! は、e メールがスパムフォルダーにランディングしたりブロックされたりする原因となる可能性があります。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 そのため、Adobeでは、次の操作を実行することを強くお勧めします。
 
 * 必ず **DMARC レコード** ～に向けて準備する **既にデリゲートしたすべてのサブドメイン** Adobeする [!DNL Journey Optimizer]. [方法についてはこちらを参照](#check-subdomains-for-dmarc)
 
-* 条件 **新しいサブドメインのデリゲート** Adobeに対して、次の操作を実行できます。 **DMARC の設定** 直接 **（内） [!DNL Journey Optimizer] 管理インターフェイス**. [方法についてはこちらを参照](#implement-dmarc)
+* 条件 **新しいサブドメインのデリゲート** Adobeに対して、 **DMARC の設定** 直接 **（内） [!DNL Journey Optimizer] 管理インターフェイス**. [方法についてはこちらを参照](#implement-dmarc)
 
 ## での DMARC の実装 [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -93,7 +93,7 @@ The [!DNL Journey Optimizer] 管理インターフェイスを使用すると、
 
    >[!CAUTION]
    >
-   >Gmail および Yahoo の新しい要件に準拠し、上位の ISP の配信品質の問題を回避するには、すべてのデリゲートされたサブドメインに対して DMARC レコードを設定することをお勧めします。 [詳細情報](dmarc-record-update.md)
+   >Gmail および Yahoo！の新しい要件に準拠し、上位の ISP での配信品質の問題を回避するには、すべてのデリゲートされたサブドメインに対して DMARC レコードを設定することをお勧めします。 [詳細情報](dmarc-record-update.md)
 
 1. DMARC レコードが関連付けられていないサブドメインを選択し、 **[!UICONTROL DMARC レコード]** セクションに含める必要があります。 DMARC レコードフィールドに値を入力する手順について詳しくは、 [この節](#implement-dmarc).
 
@@ -117,9 +117,9 @@ The [!DNL Journey Optimizer] 管理インターフェイスを使用すると、
 
 >[!CAUTION]
 >
->Gmail および Yahoo の新しい要件に準拠し、上位の ISP の配信品質の問題を回避するには、すべてのデリゲートされたサブドメインに対して DMARC レコードを設定することをお勧めします。 [詳細情報](dmarc-record-update.md)
+>Gmail および Yahoo！の新しい要件に準拠し、上位の ISP での配信品質の問題を回避するには、すべてのデリゲートされたサブドメインに対して DMARC レコードを設定することをお勧めします。 [詳細情報](dmarc-record-update.md)
 
-<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
+<!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
 1. 新しいサブドメインを設定します。 [方法についてはこちらを参照](delegate-subdomain.md)
 
@@ -143,7 +143,7 @@ The [!DNL Journey Optimizer] 管理インターフェイスを使用すると、
    >
    >ベストプラクティスとして、DMARC ポリシーを次の場所からエスカレーションし、DMARC 実装を徐々に展開することをお勧めします。 **なし**、宛先 **強制隔離**、宛先 **拒否** DMARC の潜在的な影響を理解できるように。
 
-1. オプションで、1 つまたは複数の電子メールアドレスを追加して、どこに送信するかを指定します **DMARC レポート** 電子メールで [認証の失敗](#how-dmarc-works) 組織内に配置する必要があります。 各レポートに 5 つまでのアドレスを追加できます。
+1. 必要に応じて、1 つ以上の電子メールアドレスを追加して、どこに送信するかを指定します **DMARC レポート** 電子メールで [認証の失敗](#how-dmarc-works) 組織内に配置する必要があります。 各レポートに 5 つまでのアドレスを追加できます。
 
    >[!NOTE]
    >

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
-source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 41%
+source-wordcount: '575'
+ht-degree: 36%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="必須の DMARC アップデートの詳細を学ぶ"
->abstract="業界のベストプラクティスの実施の一環として、Googleと Yahoo は共に、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**.<br>したがって、Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認する必要があります。"
+>abstract="Googleと Yahoo は、業界のベストプラクティスの実施の一環として、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**.<br>したがって、Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認する必要があります。"
 
 ドメインベースのメッセージ認証、レポート、準拠 (DMARC) は、ドメイン所有者がドメインを不正使用から保護できる電子メール認証方法です。 E メールプロバイダーや ISP に明確なポリシーを提供することで、悪意のある関係者がドメインからの E メールを送信するのを防ぐことができます。 DMARC を実装すると、正当な E メールがスパムとしてマークまたは拒否されるリスクが軽減され、E メールの配信品質が向上します。
-
 
 業界のベストプラクティスの一環として、Googleと Yahoo! どちらも必要としている **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次から適用されます： **2024 年 2 月 2 日**. [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
@@ -48,7 +47,7 @@ or
   ただし、CNAME のデリゲーションでは、ホスティングソリューションでのエントリも必要になります。 その結果、IT 部門との連携を図り、「 [この節](dmarc-record.md#implement-dmarc).
 
 
-Google と Yahoo が共有する最新のタイムラインは次のとおりです。
+Googleと Yahoo! は次のとおりです。
 
 * Google：
 
@@ -58,7 +57,7 @@ Google と Yahoo が共有する最新のタイムラインは次のとおりで
 
    * **2024年6月1日（PT）**：完全に準拠していない送信者はブロックされます。
 
-* Yahoo は正確な日付を指定していませんが、「適用のロールアウトは 2024年2月に開始します。適用は徐々にロールアウトされます」と述べています。
+* Yahoo! は正確な日付を提供していませんが、「実施のロールアウトは 2024 年 2 月に開始される」と述べています。 適用は徐々にロールアウトされます」と述べています。
 
 >[!NOTE]
 >
