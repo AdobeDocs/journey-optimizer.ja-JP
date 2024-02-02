@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 283983d98905b8e36d41823d1fae5d7a3c269ba3
+source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '603'
 ht-degree: 28%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 28%
 <tr>
 <td>
 <p>Journey Optimizerは、DMARC 認証テクノロジーをサポートするようになりました。</p>
-<p>2024 年 2 月 1 日より、Googleと Yahoo! は、電子メールを送信する際に使用するドメインの DMARC レコードを持っている必要があります。 Journey OptimizerでデリゲートしたすべてのサブドメインまたはAdobeへのデリゲート中のサブドメインに対して DMARC レコードが設定されていることを確認します。</p>
+<p>2024 年 2 月 1 日より、Googleと Yahoo! には、電子メールを送信するために使用するドメインの DMARC レコードが必要です。 Journey OptimizerでデリゲートしたすべてのサブドメインまたはAdobeへのデリゲート中のサブドメインに対して DMARC レコードが設定されていることを確認します。</p>
 <p>詳しくは、<a href="../configuration/dmarc-record-update.md">詳細なドキュメント</a>を参照してください。</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
