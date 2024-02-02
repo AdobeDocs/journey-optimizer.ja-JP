@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 87%
 
 ---
 
@@ -71,6 +71,19 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
 ## チュートリアルビデオ
 
-SMS メッセージを設定、作成、およびカスタマージャーニーに含める方法について説明します。
+* 次のビデオでは、SMS メッセージを設定、作成、カスタマージャーニーに含める方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
++++
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
+
+* 次のビデオは、Adobe Journey Optimizerがマーケターに提供するモバイル機能をより深く理解するのに役立ちます。
+
+
+  +++こちらのビデオをご覧ください
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++

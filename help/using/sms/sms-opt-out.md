@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 89%
+source-wordcount: '471'
+ht-degree: 82%
 
 ---
 
@@ -58,6 +58,18 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
 ## ビデオ {#video-sms}
 
-SMS に対するネイティブ受信キーワードのサポート（START、STOP、UNSTOP）の仕組みについて詳しくは、次のビデオを参照してください。
+* 次のビデオでは、ネイティブの受信キーワードのサポート（START、STOP および UNSTOP）が SMS でどのように機能するかを示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
++++ ビデオを見る
+
+  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
++++
+
+* 以下のビデオは、SMS のダブルオプトインを設定する方法を学ぶのに役立ちます。
+
++++ ビデオを見る
+
+  >[!VIDEO](ttps://video.tv.adobe.com/v/3427129/?learn=on)
+
++++

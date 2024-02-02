@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 84%
 
 ---
 
@@ -81,7 +81,7 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 
       * **[!UICONTROL ヘルプメッセージ]**：**ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
-      * **[!UICONTROL 二重のオプトインのキーワード]**：ダブルオプトイン処理をトリガーにするキーワードを入力します。 ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。 複数のキーワードに対しては、コンマ区切り値を使用します。
+      * **[!UICONTROL 二重のオプトインのキーワード]**：ダブルオプトイン処理をトリガーにするキーワードを入力します。 ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。 複数のキーワードに対しては、コンマ区切り値を使用します。 [SMS ダブルオプトインの詳細を説明します](https://video.tv.adobe.com/v/3427129/?learn=on).
 
       * **[!UICONTROL ダブルオプトインメッセージ]**：二重のオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
 +++
