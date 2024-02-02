@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 41%
+source-wordcount: '4368'
+ht-degree: 39%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="ジャーニー効果"
->abstract="XX"
+>abstract="ジャーニーパフォーマンスウィジェットを使用すると、ジャーニーの進行に合わせてターゲットプロファイルのパスを視覚的に追跡できます。"
 
 ![](assets/journey_performance.png)
 
@@ -60,7 +60,7 @@ The **[!UICONTROL ジャーニー効果]** ウィジェットを使用すると�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="ジャーニー統計"
->abstract="XX"
+>abstract="ジャーニー統計の主要業績評価指標 (KPI) は、包括的なダッシュボードとして機能し、ジャーニーに関連する重要な指標を詳細に分析できます。"
 
 ![](assets/journey_statistics.png)
 
@@ -81,7 +81,7 @@ The **[!UICONTROL ジャーニー統計]** 主要業績評価指標 (KPI) は包
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="アクションの効果"
->abstract="XX"
+>abstract="アクションパフォーマンスウィジェットは、アクションが開始された際に実行された最も成功したアクションを示します。"
 
 ![](assets/journey_action_performance.png)
 
@@ -92,7 +92,7 @@ The **[!UICONTROL アクションの効果]** ウィジェットは、 **[!UICON
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_actions"
 >title="上位のアクション"
->abstract="XX"
+>abstract="「上位のアクション」テーブルは、アクションに関する重要な情報を統合し、各アクションの頻度と有効性の両方に関する簡潔な観察を提供します。"
 
 ![](assets/journey_top_actions.png)
 
@@ -111,18 +111,18 @@ The **[!UICONTROL 上位のアクション]** テーブルは、 **[!UICONTROL �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
 >title="アクションのエラー理由"
->abstract="XX"
+>abstract="「アクションのエラー理由」の表とグラフには、アクションの実行中に発生したエラーの完全な概要が表示され、発生した可能性のある問題の包括的な概要が示されます。"
 
 ![](assets/journey_action_error.png)
 
-The **[!UICONTROL アクションエラーの理由]**  表とグラフには、 **[!UICONTROL アクション]**.
+The **[!UICONTROL アクションエラーの理由]** 表とグラフには、 **[!UICONTROL アクション]**.
 
 ### 接触チャネル別のイベント {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
 >title="接触チャネル別のイベント"
->abstract="XX"
+>abstract="イベント（起源別）テーブルとグラフには、イベントの受信が成功したかどうかが表示されます。 これらの視覚的表現を使用すると、効果的に受け取ったイベントを正確に識別でき、ジャーニー内の各イベントのパフォーマンスと影響に関する貴重なインサイトを提供できます。"
 
 ![](assets/journey_events_origin.png)
 
@@ -133,7 +133,7 @@ The **[!UICONTROL 接触チャネル別のイベント]** 表とグラフは、 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
 >title="イベントが受信したイベント"
->abstract="XX"
+>abstract="イベントグラフで受け取ったイベントを使用すると、効果的に実行されたジャーニー内の特定のイベントを特定および分析し、個々のイベントのパフォーマンスと成功率に関する貴重なインサイトを提供できます。"
 
 ![](assets/journey_event_received.png)
 
@@ -144,7 +144,7 @@ The **[!UICONTROL イベントが受信したイベント]** グラフを使用�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_events"
 >title="上位のイベント"
->abstract="XX"
+>abstract="上位イベントの表は、イベントに関する重要なデータを統合し、個々のイベントの頻度とパフォーマンスの両方に関する簡潔な観察を提供します。"
 
 ![](assets/journey_top_events.png)
 
@@ -155,7 +155,7 @@ The **[!UICONTROL 上位のイベント]** テーブルは、 **[!UICONTROL イ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="同意ポリシー"
->abstract="XX"
+>abstract="同意ポリシーのテーブルおよびグラフには、カスタムアクション内の各ポリシーから除外されたプロファイルの数が表示されます。 このプレゼンテーションでは、プロファイルの除外に対する各同意ポリシーの影響に関する明確なインサイトを提供します。"
 
 ![](assets/journey_consent.png)
 
@@ -174,7 +174,7 @@ The **[!UICONTROL 同意ポリシー]** 表およびグラフは、カスタム�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
 >title="電子メール — 送信統計"
->abstract="XX"
+>abstract="メール - 送信統計テーブルは、ターゲットや配信など、メールに関する重要なデータを要約します。"
 
 ![](assets/journey_email_statistics.png)
 
@@ -211,7 +211,7 @@ The **[!UICONTROL E メール送信統計]** 表は、ジャーニー内の E �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_tracking_statistics"
 >title="メール - トラッキング統計"
->abstract="XX"
+>abstract="メール - トラッキング統計テーブルには、メールのプロファイルアクティビティに関するデータが表示されます。"
 
 ![](assets/journey_email_tracking.png)
 
@@ -244,7 +244,7 @@ The **[!UICONTROL E メール — トラッキング統計]** テーブルには
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
 >title="メール - 送信パフォーマンス"
->abstract="XX"
+>abstract="E メール — 送信パフォーマンスグラフは、送信済み E メールに関する包括的なデータを表示し、配信済みとバウンスなどの主要指標に関するインサイトを提供し、E メール配信プロセスを詳細に分析できます。"
 
 ![](assets/journey_email_performance.png)
 
@@ -267,7 +267,7 @@ The **[!UICONTROL 電子メール — 送信パフォーマンス]** グラフ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="電子メール — バウンスのカテゴリと理由"
->abstract="XX"
+>abstract="電子メール — バウンスカテゴリおよび理由ウィジェットは、バウンスメッセージに関するデータを集計し、電子メールのバウンスに貢献する特定の理由とカテゴリに関する深い洞察を提供します"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -290,7 +290,7 @@ The **[!UICONTROL バウンスの理由]** および **[!UICONTROL バウンス�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_error_reasons"
 >title="メール - エラー理由"
->abstract="XX"
+>abstract="メール - エラー理由のグラフとテーブルを使用すると、送信プロセス中に発生した特定のエラーを識別できます。"
 
 ![](assets/journey_email_error.png)
 
@@ -301,7 +301,7 @@ The **[!UICONTROL エラーの理由]** グラフと表には、送信プロセ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
 >title="メール - 除外された理由"
->abstract="XX"
+>abstract="この除外された理由のグラフとテーブルには、ユーザープロファイルがターゲットオーディエンスから除外され、メッセージが受信されない原因となった様々な要因が表示されます。"
 
 ![](assets/journey_email_excluded.png)
 
@@ -314,11 +314,11 @@ The **[!UICONTROL 除外された理由]** グラフと表は、ターゲット�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="ドメイン別に送信および配信"
->abstract="XX"
+>abstract="ドメイン別送信数および配信数の表とグラフは、ドメイン別に分類された E メールの分類を表示し、E メール通信の全体的なパフォーマンスに関する深いインサイトを提供します。"
 
 ![](assets/journey_email_sent_domains.png)
 
-The  **[!UICONTROL ドメイン別に送信および配信]** 表とグラフは、ドメインレベルでの電子メールの詳細な分類を提供し、電子メールのパフォーマンスに関する包括的なインサイトを提供します。
+The **[!UICONTROL ドメイン別に送信および配信]** 表とグラフは、ドメインレベルでの電子メールの詳細な分類を提供し、電子メールのパフォーマンスに関する包括的なインサイトを提供します。
 
 +++ ドメイン指標別の送信および配信の詳細を説明します
 
@@ -333,11 +333,11 @@ The  **[!UICONTROL ドメイン別に送信および配信]** 表とグラフは
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="ドメイン別の開封数およびクリック数"
->abstract="XX"
+>abstract="ドメイン別の開封数およびクリック数グラフおよび表は、ドメインレベルで詳細な分類を提供し、オーディエンスが E メールとどのように関わっているかを包括的に示します。"
 
 ![](assets/journey_email_open_domains.png)
 
-The  **[!UICONTROL ドメイン別の開封数およびクリック数]** グラフと表では、プロファイルの E メールに対するエンゲージメントのドメインレベルの分類を確認し、様々なドメインがコンテンツとどのようにやり取りするかに関する有益なインサイトを提供します。
+The **[!UICONTROL ドメイン別の開封数およびクリック数]** グラフと表では、プロファイルの E メールに対するエンゲージメントのドメインレベルの分類を確認し、様々なドメインがコンテンツとどのようにやり取りするかに関する有益なインサイトを提供します。
 
 +++ ドメイン別の開封数およびクリック数指標の詳細を説明します
 
@@ -352,11 +352,11 @@ The  **[!UICONTROL ドメイン別の開封数およびクリック数]** グラ
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_errors_domains"
 >title="ドメイン別のバウンス数とエラー数"
->abstract="XX"
+>abstract="ドメイン別バウンス数およびエラー数のグラフと表は、ドメインレベルで詳細な分類を提供し、E メール送信プロセス中に発生した特定のエラーに関するインサイトを提供します。"
 
 ![](assets/journey_email_bounce_domains.png)
 
-The  **[!UICONTROL ドメイン別バウンス数とエラー数]** グラフと表には、送信プロセス中に発生した特定のエラーのドメインレベルでの分類が表示され、発生した問題の詳細な分析が可能です。
+The **[!UICONTROL ドメイン別バウンス数とエラー数]** グラフと表には、送信プロセス中に発生した特定のエラーのドメインレベルでの分類が表示され、発生した問題の詳細な分析が可能です。
 
 +++ ドメイン別バウンス数およびエラー数指標の詳細を説明します
 
@@ -371,18 +371,18 @@ The  **[!UICONTROL ドメイン別バウンス数とエラー数]** グラフと
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
 >title="ドメイン別バウンス理由"
->abstract="XX"
+>abstract="ドメイン別のバウンス理由グラフおよび表は、ドメインレベルの分類を提供し、一時的なエラーと永続的なエラーの両方に関する包括的なインサイトを提供します。 この詳細な分析では、バウンスメッセージの原因に関する貴重な情報を提供します。"
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
-The  **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブルでは、一時的なエラーと永続的なエラーの両方に関するデータをドメインレベルで分類し、バウンスメッセージの原因に関する詳細なインサイトを提供します。
+The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブルでは、一時的なエラーと永続的なエラーの両方に関するデータをドメインレベルで分類し、バウンスメッセージの原因に関する詳細なインサイトを提供します。
 
 ### メール - 上位の URL {#email-top}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_top_url"
 >title="メール - 上位の URL"
->abstract="XX"
+>abstract="メール - 上位 URL のグラフとテーブルには、訪問者のトラフィックが最も多いメール内の URL の包括的な概要が表示され、一番人気のあるリンクを特定できます。"
 
 ![](assets/journey_email_top.png)
 
@@ -393,7 +393,7 @@ The **[!UICONTROL 電子メール — 上位の URL]** 最も高い訪問者ト�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
 >title="電子メール — 最適化"
->abstract="XX"
+>abstract="送信時間の最適化と最適化済みと非最適化のウィジェットは、メッセージに関する詳細情報を提供し、メッセージが最適化されているかどうかを強調します。"
 
 ![](assets/journey_email_sto.png)
 
@@ -421,7 +421,7 @@ The **[!UICONTROL 送信時間の最適化]** および **[!UICONTROL 最適化�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
 >title="電子メール — オファー"
->abstract="XX"
+>abstract="オファー統計とオファー詳細な統計ウィジェットは、オファーのパフォーマンスに関する包括的なインサイトを提供し、時間の経過に伴う影響を詳細に分析し、より詳細な統計情報を提供して詳細に理解します。"
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ The **[!UICONTROL オファー統計]** および **[!UICONTROL 詳細な統計�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_statistics"
 >title="プッシュ通知 - 送信統計"
->abstract="XX"
+>abstract="プッシュ通知 - 送信統計テーブルは、ターゲットメッセージや配信メッセージなどのプッシュ通知に関する重要なデータを要約します。"
 
 ![](assets/journey_push_sending.png)
 
@@ -493,7 +493,7 @@ The **[!UICONTROL プッシュ通知 — 送信統計]** この表は、ター�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_tracking_statistics"
 >title="プッシュ通知 - トラッキング統計"
->abstract="XX"
+>abstract="プッシュ通知 - トラッキング統計では、プッシュ通知のプロファイルアクティビティに関するデータを提供します。"
 
 The **[!UICONTROL プッシュ — トラッキング統計]** ウィジェットは、プッシュ通知に関連するプロファイルアクティビティの詳細なスナップショットを提供し、エンゲージメントとプッシュ通知の効果に関する重要なインサイトを提供します。
 
@@ -512,7 +512,7 @@ The **[!UICONTROL プッシュ — トラッキング統計]** ウィジェッ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary"
 >title="プッシュ通知 - 送信の概要"
->abstract="XX"
+>abstract="プッシュ通知 - 送信の概要グラフには、送信されたプッシュ通知に使用可能なデータが表示されます。"
 
 ![](assets/journey_push_summary.png)
 
@@ -537,7 +537,7 @@ The **[!UICONTROL プッシュ通知 — 送信の概要]** グラフは、プ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
 >title="プッシュ通知 - エラー理由"
->abstract="XX"
+>abstract="「エラー理由」のグラフと表を使用して、送信プロセス中に発生した特定のエラーを特定できます"
 
 ![](assets/journey_push_error.png)
 
@@ -548,7 +548,7 @@ The **[!UICONTROL エラーの理由]** 表とグラフは、プッシュ通知�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="プッシュ通知 - 除外された理由"
->abstract="XX"
+>abstract="除外された理由のグラフと表は、ターゲットオーディエンスから除外されたユーザープロファイルがメッセージを受信できなかった様々な要因を示しています。"
 
 ![](assets/journey_push_excluded.png)
 
@@ -560,8 +560,8 @@ The **[!UICONTROL 除外された理由]** グラフと表には、ターゲッ�
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
->title="プッシュ通知 — プラットフォーム別の分類"
->abstract="XX"
+>title="プッシュ通知 - プラットフォームごとの分類"
+>abstract="プッシュ通知 — プラットフォーム別分類のグラフと表は、プロファイルのオペレーティングシステムに基づくプッシュ通知の成功の分類を示しています。"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -571,9 +571,9 @@ The **[!UICONTROL プラットフォーム別の分類]** グラフと表は、�
 
 >[!NOTE]
 >
->この&#x200B;**[!UICONTROL 最適化済みと最適化されていない]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>The **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]** ウィジェットは、配信で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。 送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
 
-The **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]**  ウィジェットは、メッセージが最適化されているかどうかに関係なく、メイン情報の詳細を表示します。
+The **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]** ウィジェットは、メッセージが最適化されているかどうかに関係なく、メイン情報の詳細を表示します。
 
 +++ プッシュ通知 — 最適化指標の詳細を説明します
 
@@ -596,7 +596,7 @@ The **[!UICONTROL 最適化済みと最適化されていない]** および **[
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
 >title="SMS - 送信統計"
->abstract="XX"
+>abstract="「SMS — 送信統計」の表は、ターゲットメッセージや配信済みメッセージなど、SMS メッセージに関する重要なデータをまとめます。"
 
 ![](assets/journey_sms_sending.png)
 
@@ -623,7 +623,7 @@ The **[!UICONTROL SMS — 送信統計]** この表は、ターゲットメッ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="SMS — トラッキング統計"
->abstract="XX"
+>abstract="SMS — トラッキング統計ウィジェットは、訪問者の URL とのやり取りに関する重要な情報の包括的な概要を提供します。"
 
 ![](assets/journey_sms_tracking.png)
 
@@ -638,7 +638,7 @@ The **[!UICONTROL SMS — トラッキング統計]** ウィジェットは、�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="SMS - 日別パフォーマンス"
->abstract="XX"
+>abstract="SMS — 日別パフォーマンスウィジェットは、メッセージに関する主要な情報をグラフで表示します。"
 
 ![](assets/journey_sms_performance.png)
 
@@ -659,7 +659,7 @@ The **[!UICONTROL SMS — 日別パフォーマンス]** ウィジェットは�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_reasons"
 >title="SMS - バウンス理由"
->abstract="XX"
+>abstract="バウンス理由のグラフとテーブルには、バウンスされたメッセージに関連して使用可能なデータが含まれます。"
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -670,7 +670,7 @@ The **[!UICONTROL バウンス理由]** グラフと表は、バウンスした 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_reasons"
 >title="SMS - エラー理由"
->abstract="XX"
+>abstract="SMS - エラー理由のグラフとテーブルを使用すると、送信プロセス中に発生した特定のエラーを識別できます。"
 
 ![](assets/journey_sms_error.png)
 
@@ -681,7 +681,7 @@ The **[!UICONTROL エラーの理由]** グラフと表を使用すると、SMS 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="SMS - 除外された理由"
->abstract="XX"
+>abstract="この除外された理由のグラフとテーブルには、ユーザープロファイルがターゲットオーディエンスから除外され、メッセージが受信されない原因となった様々な要因が表示されます。"
 
 ![](assets/journey_sms_excluded.png)
 
@@ -694,7 +694,7 @@ The **[!UICONTROL 除外された理由]** グラフと表では、ターゲッ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="SMS - リンク別のクリック数"
->abstract="XX"
+>abstract="SMS — リンクによるクリック数ウィジェットは、訪問者がメッセージ内の URL にエンゲージメントしたことに関する重要なインサイトを提供します。"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -709,11 +709,11 @@ The **[!UICONTROL SMS — リンク別のクリック数]** ウィジェット�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance"
 >title="アプリ内パフォーマンス"
->abstract="XX"
+>abstract="アプリ内パフォーマンス KPI は、アプリ内メッセージに対する訪問者のエンゲージメントに関する重要なインサイトを提供します。"
 
 ![](assets/journey_inapp_performance.png)
 
-The **[!UICONTROL アプリ内パフォーマンス]**  KPI は、プロファイルのアプリ内メッセージとの関わりに関する基本的なインサイトを提供し、ジャーニーに含まれるアプリ内メッセージの有効性と影響を評価するための重要な指標を提供します。
+The **[!UICONTROL アプリ内パフォーマンス]** KPI は、プロファイルのアプリ内メッセージとの関わりに関する基本的なインサイトを提供し、ジャーニーに含まれるアプリ内メッセージの有効性と影響を評価するための重要な指標を提供します。
 
 +++ アプリ内 — 日付指標別のパフォーマンスの詳細を説明します
 
@@ -737,7 +737,7 @@ The **[!UICONTROL アプリ内パフォーマンス]**  KPI は、プロファ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary"
 >title="アプリ内の概要"
->abstract="XX"
+>abstract="アプリの内概要グラフは、指定した期間におけるアプリ内のインプレッション数とインタラクション数の進行状況を示します。"
 
 ![](assets/journey_inapp_summary.png)
 
@@ -748,7 +748,7 @@ The **[!UICONTROL アプリ内概要]** グラフは、指定した期間にお�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions"
 >title="タイプ別インタラクション数"
->abstract="XX"
+>abstract="タイプ別インタラクション数グラフと表は、クリック、破棄、インタラクションを追跡して、ユーザーがアプリ内メッセージに対してどのような操作をしたかを示します。"
 
 ![](assets/journey_inapp_interactions.png)
 
