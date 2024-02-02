@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
+source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 81%
+source-wordcount: '1137'
+ht-degree: 80%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 81%
 1. 「*全マーケティングキャッピング*」という名前の[ルールを作成](#create-new-rule)します。
 
    * 「メール」および「プッシュ」チャネルを選択します。
-   * キャッピングを 12 に設定します。
+   * 制限を 12 か月に設定します。
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. ユーザーに送信されるマーケティングベースのプッシュ通知の数をさらに制限するには、2 つ目のルールとして「*プッシュマーケティングの上限*」という名前のルールを作成します。
 
    * 「プッシュ」チャネルを選択します。
-   * キャッピングを 4 に設定します。
+   * 上限を 4 ヶ月に設定します。
 
    ![](assets/message-rules-ex-push-cap.png)
 
