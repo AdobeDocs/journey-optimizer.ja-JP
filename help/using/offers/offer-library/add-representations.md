@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 86%
 
 ---
 
@@ -136,3 +136,42 @@ ht-degree: 100%
    >
    >意思決定管理に使用できるソースは、**[!UICONTROL プロファイル属性]**、**[!UICONTROL オーディエンス]**&#x200B;および&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
 
+## コンテキストデータに基づいて表示域をパーソナライズする{#context-data}
+
+コンテキストデータが [Edge 判定](../api-reference/offer-delivery-api/edge-decisioning-api.md) 呼び出しの場合、これらのデータを活用して、表示を動的にパーソナライズできます。 例えば、決定がおこなわれた時点での現在の天候の状況など、リアルタイムの要因に基づいて、オファーの表示を調整できます。
+
+これをおこなうには、 `profile.timeSeriesEvents.` 名前空間。
+
+次に、ユーザーのオペレーティングシステムに基づいてオファーの表示域をパーソナライズするために使用する構文の例を示します。
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+コンテキストデータを含む、対応する Edge 判定リクエストは次のようになります。
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
