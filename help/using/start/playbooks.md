@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ユースケースプレイブック
-description: Adobe Experience Platform Use Case Playbooks を Optimizer と共に活用する方法について説明します。Adobeジャーニー
+description: Adobe Experience Platform ユースケースプレイブックを Adobe Journeys Optimizer で活用する方法について説明します。
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,30 +18,30 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->ユースケースプレイブックを使用する前に、次の設定手順が必要です。 各手順の詳細については、ユースケースプレイブックのドキュメントを参照してください [基本を学ぶ](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} ページに貼り付けます。
+>ユースケースプレイブックを使用する前に、次の設定手順が必要です。各手順について詳しくは、ユースケースハンドブックのドキュメントの[基本を学ぶ](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=ja){target="_blank"}ページを参照してください。
 >
 >* サンドボックスの作成
 >* ユーザー権限の設定
->* Journey Optimizerチャネルでの電子メール、プッシュおよび SMS 通知の設定
+>* メール、プッシュおよび SMS 通知用の Journey Optimizer チャネルサーフェスの設定
 
-ユースケースプレイブックは、Adobe Experience PlatformおよびJourney Optimizerを使用して実行できる一般的な使用例に対応する、事前定義済みのワークフローです。
+ユースケースプレイブックは、Adobe Experience Platform と Journey Optimizer を使用して実行できる一般的なユースケースに対処する事前定義済みのワークフローです。
 
 ![ユースケースプレイブックを示すアニメーション画像](../rn/assets/do-not-localize/playbooks.gif){width="85%"}
 
-各プレイブックは、目的、目標、実装に必要なターゲットペルソナ、リソースを含む包括的な概要を提供します。 さらに、各プレイブックでマインドマップを使用して、プレイブックに関連付けられた実際の顧客タッチポイントを視覚的に表すことができます。
+各プレイブックは、意図、目標、ターゲットペルソナ、実装に必要なリソースなどの包括的な概要を示します。また、各プレイブックでは、プレイブックに関連付けられた実際の顧客タッチポイントを視覚的に表すマインドマップが利用可能です。
 
-![Discover プレイブックビューに表示される放棄されたカートプレイブック](assets/playbooks-detail.png){width="85%"}
+![プレイブックを検出ビューに表示された、放棄された買い物かごプレイブック](assets/playbooks-detail.png){width="85%"}
 
-プレイブックにアクセスするには、 **[!UICONTROL Playbooks]** 左側のナビゲーションレールにあるメニュー。 このライブラリには、Adobe Journey Optimizerを使用して実装された再生ブックが含まれています。 簡単にアクセスするには、検索バーの横にあるフィルターを使用します。 Journey Optimizer Playbook の包括的なリストは、 [ユースケースプレイブックドキュメント](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html){target="_blank"}.
+プレイブックにアクセスするには、左側のナビゲーションパネルにある&#x200B;**[!UICONTROL プレイブック]**&#x200B;メニューに移動します。ライブラリには、Adobe Journey Optimizer を使用して実装されたいくつかのプレイブックが含まれます。簡単にアクセスするには、検索バーの横にあるフィルターを使用します。Journey Optimizer プレイブックの包括的なリストは、[ユースケースプレイブックドキュメント](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ja){target="_blank"}で参照できます。
 
-![フィルターパネルが開いたプレイブックリスト](assets/playbooks-filter.png){width="85%"}
+![フィルターパネルを開いたプレイブックリスト](assets/playbooks-filter.png){width="85%"}
 
-ニーズに合ったプレイブックを選択したら、それを有効にできます。 これにより、プレイブックのインスタンスが作成され、特定のユースケースをサポートするために必要なリソースが自動的に生成されます。 リソースには、ジャーニー、メッセージなどのJourney Optimizerアセット、およびスキーマやセグメントなどのAdobe Experience Platformアセットが含まれます。
+ニーズに最適なプレイブックを選択したら、有効にすることができます。これにより、プレイブックのインスタンスが作成され、特定のユースケースをサポートするために必要なリソースが自動的に生成されます。リソースには、ジャーニー、メッセージなどの Journey Optimizer アセットと、スキーマやセグメントなどの Adobe Experience Platform アセットが含まれます。
 
 >[!NOTE]
 >
->これらのオブジェクトの目的は、特定のユースケースの実装に必要なすべてのリソースを理解できるようにすることです。 データが含まれず、開発用サンドボックスに作成されます。
+>これらのオブジェクトの目的は、特定のユースケースを実装するために必要なすべてのリソースを理解できるようサポートすることです。これらはデータを含まず、開発用サンドボックス上に作成されます。
 
-ユースケースを実装するには、各オブジェクトに移動して、ニーズに合わせて変更をおこないます。 また、プレイブックインスタンスページの URL をチーム間で共有して、ユースケースの実装に関する共同作業を行うこともできます。
+ユースケースを実装するには、各オブジェクトに移動し、ニーズに合わせて適応させることができます。また、プレイブックインスタンスページの URL をチーム間で共有して、ユースケースの実装に関する共同作業を行うこともできます。
 
-また、再生ブックアセットを他のサンドボックスに読み込むこともできます。 これにより、独自のスキーマ、フィールドおよびフィールドグループを既に設定している場合に、生成されたアセットを既存のアセットに合わせ、データとの互換性を確保できます。 これらの手順について詳しくは、 [ユースケースプレイブックドキュメント](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html){target="_blank"}.
+さらに、プレイブックアセットを他のサンドボックスに読み込むこともできます。これにより、独自のスキーマ、フィールドおよびフィールドグループを既に設定している場合、生成されたアセットを既存のアセットに合わせ、データとの互換性を確保できます。これらの手順について詳しくは、[ユースケースプレイブックドキュメント](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=ja){target="_blank"}を参照してください。
