@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 28%
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 28%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2024 年 1 月の早期リリースノート {#jan-2024}
+## 2024年1月早期リリースノート {#jan-2024}
 
-**リリース日**:2024 年 1 月 30 日～31 日
+**リリース日**：2024年1月30～31日（PT）
 
 ### 新機能{#jan24-features}
 
@@ -37,14 +37,14 @@ ht-degree: 28%
 <table>
 <thead>
 <tr>
-<th><strong>配信品質の更新</strong><br/></th>
+<th><strong>配信品質のアップデート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerは、DMARC 認証テクノロジーをサポートするようになりました。</p>
-<p>2024 年 2 月 1 日より、Googleと Yahoo! には、電子メールを送信するために使用するドメインの DMARC レコードが必要です。 Journey OptimizerでデリゲートしたすべてのサブドメインまたはAdobeへのデリゲート中のサブドメインに対して DMARC レコードが設定されていることを確認します。</p>
+<p>Journey Optimizer は、DMARC 認証テクノロジーをサポートするようになりました。</p>
+<p>2024 年 2 月 1 日より、Googleと Yahoo! には、電子メールを送信するために使用するドメインの DMARC レコードが必要です。 Journey Optimizer でアドビにデリゲートしたすべてのサブドメインや、デリゲート中のすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。</p>
 <p>詳しくは、<a href="../configuration/dmarc-record-update.md">詳細なドキュメント</a>を参照してください。</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
@@ -60,7 +60,7 @@ ht-degree: 28%
 <tbody>
 <tr>
 <td>
-<p>Real-Time CDPとJourney Optimizerの業界固有のユースケースプレイブックのカタログを活用して、Adobe Experience PlatformとAdobeジャーニーOptimizer を使用して実行できる一般的なユースケースに対処します。</p><p>ニーズに最適なプレイブックを選択したら、ジャーニー、メッセージ、スキーマ、セグメントなどのユースケースをサポートするために必要なアセットを生成し、それらをスキーマにカスタマイズして、価値の創出に要する時間を短縮できます。</p>
+<p>Real-Time CDP と Journey Optimizer における業界固有のユースケースプレイブックのカタログを活用し、Adobe Experience Platform と Adobe Journey Optimizer を使用して実行できる一般的なユースケースに対処します。</p><p>ニーズに最適なプレイブックを選択したら、それを有効にして、ジャーニー、メッセージ、スキーマ、セグメントなどのユースケースをサポートするために必要なアセットを生成し、スキーマに合わせてカスタマイズして価値実現までの時間を短縮できます。</p>
 <p>詳しくは、 <a href="../start/playbooks.md">詳細なドキュメント</a>を参照してください。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
@@ -73,28 +73,28 @@ ht-degree: 28%
 
 **レポート**
 
-* **新しいドメインベースの分類ウィジェット**  — キャンペーンおよびジャーニーレポートを強化するための新しいウィジェットが追加されました。 The **ドメイン別のバウンス理由**, **ドメイン別に送信および配信**, **ドメイン別の開封数およびクリック数** および **ドメイン別のバウンスとエラー** ウィジェットは、主要な e メール配信およびトラッキング指標に対して、ドメインレベルで詳細な分類を提供します。 [詳細情報](../reports/channel-report.md)
+* **新しいドメインベースの分類ウィジェット** - キャンペーンレポートとジャーニーレポートを強化するための新しいウィジェットが追加されました。**ドメイン別のバウンス理由**、**ドメイン別に送信および配信済み**、**ドメイン別の開封数およびクリック数**&#x200B;および&#x200B;**ドメイン別のバウンス数およびエラー数**&#x200B;ウィジェットは、主なメール配信とトラッキング指標のドメインレベルでの詳細な分類を提供します。[詳細情報](../reports/channel-report.md)
 
 **SMS チャネル**
 
-* **ダブルオプトイン** - SMS のダブルオプトインワークフローでは、デバイスから要求が開始されたときに、ユーザーがメッセージの受信を明示的にオプトインしていることが保証されます。 ユーザーはインバウンド SMS メッセージを送信して、同意プロセスを開始します。 同意を確認すると、最終検証をリクエストするフォローアップメッセージが送信されます。 ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。 [詳細情報](../sms/sms-configuration.md#create-api)
+* **ダブルオプトイン** - SMS のダブルオプトインワークフローでは、デバイスからリクエストが開始された際に、ユーザーがメッセージの受信を明示的にオプトインすることが保証されます。ユーザーは、インバウンド SMS メッセージを送信して同意プロセスを開始します。同意を確認すると、最終検証をリクエストするフォローアップメッセージが送信されます。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。[詳細情報](../sms/sms-configuration.md#create-api)
 
-  この機能は、Sinch および Infobip の SMS プロバイダーで利用できます。
+  この機能は、Sinch および Infobip の SMS プロバイダーで使用できます。
 
 **ジャーニー**
 
-* **反応イベントの期間**  — 定義できる最大期間 ( **反応イベント** は 30 日ではなく 29 日になりました。 [詳細情報](../building-journeys/reaction-events.md)
+* **反応イベントの期間** - **反応イベント**&#x200B;で定義できる最大期間は、30 日ではなく 29 日になりました。[詳細情報](../building-journeys/reaction-events.md)
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **オーディエンスの閲覧**  - **オーディエンスの閲覧** アクティビティは、バッチセグメントでプロファイルスナップショットデータセットを使用するようになりました。このデータセットは、スケジュールされた日次バッチジョブの実行後 1 日に 1 回のみ生成されるので、最後の日次バッチジョブまでデータが更新されます。 [詳細情報](../building-journeys/read-audience.md)
+* **オーディエンスを読み取り** - 「**オーディエンスを読み取り**」アクティビティは、バッチセグメントのプロファイルスナップショットデータセットに依存するようになりました。このデータセットは、スケジュールされた日次バッチジョブの実行後に 1 日に 1 回のみ生成されます。そのため、データは前回の日次バッチジョブの時点での最新になります。[詳細情報](../building-journeys/read-audience.md)
 
-* **フィールドグループ**  — このリリースでは、特定の場合にフィールドグループが保存されない問題が修正されました。
+* **フィールドグループ** - このリリースでは、特定の場合にフィールドグループの保存がブロックされていた問題が修正されています。
 
 **頻度ルール**
 
-* **週別および日別の頻度の上限** ：月に加えて、1 週間または 1 日に顧客プロファイルに送信されるメッセージの最大数を指定できるようになりました。 頻度キャップは、選択したカレンダー期間に基づき、対応する期間の初めにリセットされます。 [詳細情報](../configuration/frequency-rules.md#create-new-rule)
+* **週別および日別のフリークエンシーキャップ** - 1 か月に加え、1 週間または 1 日に顧客プロファイルに送信するメッセージを指定できるようになりました。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。[詳細情報](../configuration/frequency-rules.md#create-new-rule)
 
 **意思決定管理**
 
-* **エッジでの頻度キャップ**  — 頻度キャップカウンターが更新され、3 秒未満で Edge 判定 API の決定で使用できるようになりました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* **Edge でのフリークエンシーキャップ** - フリークエンシーキャップカウンターが更新され、3 秒未満で Edge Decisioning API の決定で使用できるようになりました。[詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)

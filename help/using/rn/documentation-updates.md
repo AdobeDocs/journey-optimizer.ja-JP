@@ -11,13 +11,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
 workflow-type: tm+mt
 source-wordcount: '4604'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
-このページには、 [!DNL Journey Optimizer] ドキュメント。
+このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
 
 ## 2024年2月 {#feb-2024}
 
@@ -25,27 +25,27 @@ ht-degree: 92%
 
 ## 2024年1月 {#jan-2024}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2024 年 1 月リリースの詳細がドキュメントに記載されました。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2024年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * ジャーニーサイズに関するガードレールが追加されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * ジャーニーのタイムアウト管理について詳しくは、[次の節](../building-journeys/journey-gs.md#global_timeout)を参照してください。
 * Journey Optimizer [ドキュメントのホーム](../../ajo-home.md)ページのデザインが刷新されました。
 * プロファイルを更新アクティビティに関するレコメンデーションが追加されました。[詳細情報](../building-journeys/update-profiles.md)
-* ジャーニー内のイベントアクティビティでのタイムアウトの動作に関する情報が追加されました。 指定されたタイムアウト期間にイベントを受け取らなかった場合、タイムアウトパスが定義されていない場合、個人はジャーニーを続行します。 [詳細情報](../building-journeys/general-events.md#events-specific-time)
-* アプリ内チャネルの設定の前提条件が更新され、カスタムのデータセット環境設定結合ポリシーの使用に関するメモが追加されました。 [詳細情報](../in-app/inapp-configuration.md)
-* カスタムアクション応答でコレクションを操作する方法に関する詳細が追加されました。 [詳細情報](../action/action-response.md#exp-syntax)。
-* リンク先の [Adobe Journey Optimizerのスキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja) がホームページに追加されました。
-* AJO メッセージリソースへの古い参照が、監査ログで使用可能なリソースのリストから削除されました。 ジャーニーのメッセージに対して更新が行われると、 **ジャーニー** ログが作成されます。 [詳細情報](../privacy/audit-logs.md)
-* の使用に関する推奨事項が追加されました。 **オーディエンスの閲覧** アクティビティ。 [詳細情報](../building-journeys/read-audience.md#must-read)
-* Adobe Experience Platformオーディエンスの概要ページが改善され、オーディエンス生成方法のリストが追加されました。 [詳細情報](../audience/about-audiences.md)
-* カスタムアクションを使用してターゲットにするエンドポイントを選択する際のベストプラクティスが追加されました。 [詳細情報](../action/about-custom-action-configuration.md)
-* API を使用して外部システムからイベントを呼び出すことができないことをユーザーに通知する注記を追加しました。 [詳細情報](../building-journeys/testing-the-journey.md#important-notes)
-* 次に関する情報： **currentActionField** 関数が [コレクション管理機能](../building-journeys/expression/collection-management-functions.md). この関数を利用した式のサンプルが、 [カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md) ページに貼り付けます。
-* キャッシュ期間に関するカスタム認証ドキュメントを更新します。 [詳細を表示] (../datasource/external-data-sources.md)
-* のサポート `<listObject>` は複数の関数で変更されています。
-* を更新します。 **duration** パラメーターを `toString` 関数に置き換えます。 [詳細情報](../building-journeys/functions/functiontostring.md)
-* 一部の外部データソースの使用例では、カスタムアクションの使用が推奨されます。
-* イベントフィールドの構文が更新されました。 次の構文は非推奨です。 `@(my_event.myfield}` およびに置き換えられました。 `@event{my_event.myfield}`. [詳細情報](../building-journeys/expression/field-references.md)
-* グローバルレポートとライブレポートガイドの構成が変更されました。 [詳細情報](../reports/campaign-global-report.md)
+* ジャーニーのイベントアクティビティのタイムアウトの動作に関する情報が追加されました。指定したタイムアウト期間中にイベントが受信されなかった場合、タイムアウトパスが定義されていない限り、個人はジャーニーを続行します。[詳細情報](../building-journeys/general-events.md#events-specific-time)
+* アプリ内チャネル設定の前提条件が更新され、カスタムのデータセット環境設定結合ポリシーの使用に関するメモが追加されました。[詳細情報](../in-app/inapp-configuration.md)
+* カスタムアクションの応答でコレクションを操作する方法に関する詳細が追加されました。[詳細情報](../action/action-response.md#exp-syntax)。
+* [Adobe Journey Optimizer のスキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)へのリンクがホームページに追加されました。
+* AJO メッセージリソースへの古い参照が、監査ログで使用可能なリソースのリストから削除されました。ジャーニー内のメッセージの更新を行うと、**ジャーニー**&#x200B;ログが作成されます。[詳細情報](../privacy/audit-logs.md)
+* 「**オーディエンスを読み取り**」アクティビティの使用に関するレコメンデーションが追加されました。[詳細情報](../building-journeys/read-audience.md#must-read)
+* Adobe Experience Platform の基本を学ぶオーディエンスページが改善され、オーディエンス生成方法のリストが追加されました。[詳細情報](../audience/about-audiences.md)
+* カスタムアクションを使用してターゲットにするエンドポイントを選択する際のベストプラクティスが追加されました。[詳細情報](../action/about-custom-action-configuration.md)
+* API を使用して外部システムからイベントを呼び出すことができないことをユーザーに通知するメモが追加されました。[詳細情報](../building-journeys/testing-the-journey.md#important-notes)
+* **currentActionField** 関数に関する情報が[コレクション管理関数](../building-journeys/expression/collection-management-functions.md)のリストに追加されました。この関数を活用した式のサンプルが[カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md)ページに追加されました。
+* キャッシュ時間に関するカスタム認証ドキュメントが更新されます。[詳細情報] (../datasource/external-data-sources.md)
+* `<listObject>` のサポートは、複数の機能で変更されました。
+* `toString` 関数の&#x200B;**期間**&#x200B;パラメーターが更新されます。[詳細情報](../building-journeys/functions/functiontostring.md)
+* 一部の外部データソースのユースケースでは、カスタムアクションの使用をお勧めします。
+* イベントフィールドの構文が更新されました。次の構文は、非推奨（廃止予定）の `@(my_event.myfield}` で、`@event{my_event.myfield}` に置き換えられます。[詳細情報](../building-journeys/expression/field-references.md)
+* グローバルレポートガイドとライブレポートガイドの構成が変更されました。[詳細情報](../reports/campaign-global-report.md)
 
 
 ## 2023年11月 {#nov-2023}

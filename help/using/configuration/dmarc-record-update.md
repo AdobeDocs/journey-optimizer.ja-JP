@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 新しい DMARC 要件に準拠
+title: 新しい DMARC 要件への準拠
 description: Journey Optimizer で DMARC レコードを設定する必要がある理由とタイミングについて学ぶ
 feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
@@ -11,40 +11,40 @@ keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 36%
+ht-degree: 88%
 
 ---
 
-# 新しい DMARC 要件に準拠 {#dmarc-record-update}
+# 新しい DMARC 要件への準拠 {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="必須の DMARC アップデートの詳細を学ぶ"
 >abstract="Googleと Yahoo は、業界のベストプラクティスの実施の一環として、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**.<br>したがって、Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認する必要があります。"
 
-ドメインベースのメッセージ認証、レポート、準拠 (DMARC) は、ドメイン所有者がドメインを不正使用から保護できる電子メール認証方法です。 E メールプロバイダーや ISP に明確なポリシーを提供することで、悪意のある関係者がドメインからの E メールを送信するのを防ぐことができます。 DMARC を実装すると、正当な E メールがスパムとしてマークまたは拒否されるリスクが軽減され、E メールの配信品質が向上します。
+Domain-based Message Authentication、Reporting、および Conformance（DMARC）は、ドメイン所有者が自身のドメインを不正使用から保護するメール認証方法です。メールプロバイダー／ISP に明確なポリシーを提供することで、悪意のある人物が、あなたのドメインを装ってメールを送信するのを防ぐことができます。DMARC を実装すると、正当なメールがスパムとしてマークまたは拒否されるリスクが軽減され、メールの配信品質が向上します。
 
-業界のベストプラクティスの一環として、Googleと Yahoo! どちらも必要としている **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、次から適用されます： **2024 年 2 月 2 日**. [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
+Google と Yahoo! は、業界のベストプラクティス実施の一環として、メール送信に使用するすべてのドメインに対して **DMARC レコード**&#x200B;を要求しています。この新しい要件は、**2024年2月1日（PT）**&#x200B;から適用されます。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ja#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
->Gmail および Yahoo! は、e メールがスパムフォルダーにランディングしたりブロックされたりする原因となる可能性があります。
+>Gmail と Yahoo! のこの新しい要件に準拠しない場合、メールがスパムフォルダーに分類されたり、ブロックされたりすることが予想されます。
 
 そのため、[!DNL Journey Optimizer] でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認することを強くお勧めします。お客様のケースに適用される、以下の手順に従います。
 
-* 次の条件を満たしている場合： [完全に委任された](delegate-subdomain.md#full-subdomain-delegation) サブドメインをAdobeに送信する場合は、次のいずれかのオプションに従います。
+* 送信サブドメインをアドビに[完全にデリゲート](delegate-subdomain.md#full-subdomain-delegation)している場合は、以下のオプションのいずれかに従います。
 
-   * デリゲートされたサブドメインの親ドメインに DMARC を設定します **をホスティングソリューションで使用**.
-or
-   * デリゲートされたサブドメインに対する DMARC の設定 **（内）[!DNL Journey Optimizer]** 設定ユーザーインターフェイス — ホスティングソリューションで余分な作業をおこなう必要がありません。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
+   * **ホスティングソリューション**のデリゲートされたサブドメインの親ドメインに DMARC を設定します。
+または
+   * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。ホスティングソリューションで追加の作業を行う必要はありません。[方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-* 送信サブドメインを [CNAME](delegate-subdomain.md#cname-subdomain-delegation)、次のいずれかのオプションに従います。
+* [CNAME](delegate-subdomain.md#cname-subdomain-delegation) を使用して送信サブドメインを設定している場合は、以下のいずれかのオプションに従います。
 
-   * サブドメインまたはサブドメインの親ドメインで DMARC を設定する **をホスティングソリューションで使用**.
-or
-   * デリゲートされたサブドメインに対する DMARC の設定 **（内）[!DNL Journey Optimizer]** 設定ユーザーインターフェイス。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
+   * **ホスティングソリューション**のサブドメインまたはサブドメインの親ドメインに DMARC を設定します。
+または
+   * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。[方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-  ただし、CNAME のデリゲーションでは、ホスティングソリューションでのエントリも必要になります。 その結果、IT 部門との連携を図り、「 [この節](dmarc-record.md#implement-dmarc).
+  ただし、CNAME デリゲーションを使用する場合は、ホスティングソリューションへのエントリも必要になります。したがって、[この節](dmarc-record.md#implement-dmarc)で説明しているアップデートを実行できるように、IT 部門と必ず調整してください。
 
 
 Googleと Yahoo! は次のとおりです。
@@ -63,9 +63,9 @@ Googleと Yahoo! は次のとおりです。
 >
 >ご質問やサポートが必要な場合は、アドビ配信品質コンサルタントまたはアドビ担当者にお問い合わせください。
 
-**役に立つリンク**
+**役立つリンク**
 
-* DMARC の詳細については、 [配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja#about){target="_blank"}
-* これらの変更に関する詳細なガイダンスについては、 [配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html){target="_blank"}
-* 読み取り [Google Gmail のお知らせ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* 読み取り [Yahoo! お知らせ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* DMARC について詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja#about){target="_blank"}を参照してください
+* これらの変更に関するガイダンスについて詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ja){target="_blank"}を参照してください
+* [Google Gmail のお知らせ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}を参照してください
+* [Yahoo!のお知らせ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}を参照してください

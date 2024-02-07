@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -20,23 +20,23 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 1 月のリリースが有効です。]
+>[!TAB 1月リリースを公開]
 
-Adobe Journey Optimizer 24.1 リリースの新機能と改善点について説明します。
+Adobe Journey Optimizer 24.1 リリースに含まれる新機能と機能強化を参照してください。
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB 必須の DMARC アップデート]
 
-業界のベストプラクティスの一環として、Googleと Yahoo! 両方ともあなたが **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**. Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。
+Google と Yahoo! は、業界のベストプラクティス実施の一環として、両方ともあなたが **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**. Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。
 
 [![画像](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
 >[!TAB ユースケースプレイブック]
 
-Real-Time CDPとJourney Optimizerの業界固有のユースケースプレイブックのカタログを活用して、Adobe Experience PlatformとAdobeジャーニーOptimizer を使用して実行できる一般的なユースケースに対処します。
+Real-Time CDP と Journey Optimizer における業界固有のユースケースプレイブックのカタログを活用し、Adobe Experience Platform と Adobe Journey Optimizer を使用して実行できる一般的なユースケースに対処します。
 
-ニーズに最適なプレイブックを選択したら、ジャーニー、メッセージ、スキーマ、セグメントなどのユースケースをサポートするために必要なアセットを生成し、それらをスキーマにカスタマイズして、価値の創出に要する時間を短縮できます。
+ニーズに最適なプレイブックを選択したら、それを有効にして、ジャーニー、メッセージ、スキーマ、セグメントなどのユースケースをサポートするために必要なアセットを生成し、スキーマに合わせてカスタマイズして価値実現までの時間を短縮できます。
 
 ![ユースケースプレイブックを示すアニメーション画像](using/rn/assets/do-not-localize/playbooks.gif)
 
