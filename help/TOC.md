@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -503,7 +503,7 @@ ht-degree: 99%
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + エクスペリエンス判定 {#experience-decisioning}
-   + [Offer Decisioning の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
+   + [Experience Decisioning の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
    + 決定項目の管理 {#decision-items}
       + [項目カタログの設定](using/experience-decisioning/catalogs.md)
       + [決定項目の作成](using/experience-decisioning/items.md)
@@ -528,7 +528,7 @@ ht-degree: 99%
    + メールサブドメインのデリゲート {#delegate-subdomains}
       + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
       + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
-      + [DMARC レコードを設定](using/configuration/dmarc-record.md)
+      + [DMARC レコードの設定](using/configuration/dmarc-record.md)
       + [Google TXT レコードの追加](using/configuration/google-txt.md)
       + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
       + [IP プールの作成](using/configuration/ip-pools.md)
@@ -537,7 +537,7 @@ ht-degree: 99%
       + [IP ウォームアップキャンペーンを作成](using/configuration/ip-warmup-campaign.md)
       + [IP ウォームアッププランの作成](using/configuration/ip-warmup-plan.md)
       + [IP ウォームアッププランの実行](using/configuration/ip-warmup-execution.md)
-      + [IP ウォームアッププランファイル](using/configuration/ip-warmup-plan-files.md)
+      + [IP ウォームアッププランのファイル](using/configuration/ip-warmup-plan-files.md)
    + メールアドレスの監視 {#monitor-reputation}
       + [抑制リスト](using/configuration/manage-suppression-list.md)
       + [再試行](using/configuration/retries.md)
