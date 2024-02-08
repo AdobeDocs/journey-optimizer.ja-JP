@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: プロファイル, 更新, ジャーニー, アクティビティ
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 83%
 
 ---
 
@@ -34,7 +34,11 @@ ht-degree: 100%
 * Adobe Experience Platform に送信される更新リクエストは、即時もしくは 1 秒以内です。通常は数秒かかりますが、もっと時間がかかる場合もあり、保証はありません。そのため、例えば、アクションが、その直前に配置された「**プロファイルを更新**」アクションによって更新された「フィールド 1」を使用している場合、「フィールド 1」がアクションで更新されるとは限りません。
 * この&#x200B;**プロファイルを更新**&#x200B;アクティビティは、定義済みリストとして定義された XDM フィールドをサポートしていません。
 * **[!UICONTROL プロファイルを更新]**&#x200B;アクティビティでは、[プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}のみが更新され、データレイクは更新されません。
-* データセットを&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティで選択する場合は、データ取り込みフローの対象になっていないデータセットを使用することをお勧めします。**[!UICONTROL プロファイルを更新]**&#x200B;は[プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}にのみ保存されるので、データ取り込みフローでそのような変更が上書きされるリスクがあります。
+* データセットを&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティで選択する場合は、データ取り込みフローの対象になっていないデータセットを使用することをお勧めします。 理由： **プロファイルを更新** 更新は、 [プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}の場合、そのような変更がデータ取り込みフローで上書きされるリスクがあります。
+
+  また、 **プロファイルを更新** アクティビティ設定には id 名前空間は必要ありません。 したがって、選択したデータセットに、ジャーニーを起動したアクションで使用されたのと同じ ID 名前空間が使用されていることを確認してください。これは、これらの更新で使用される名前空間です。 選択したデータセットでも ID マップを使用できます。 正しい名前空間を持つデータセット、または ID マップを使用するデータセットを選択しないと、 **プロファイルを更新** アクティビティが失敗しました。
+
+
 
 ## プロファイル更新の使用
 
