@@ -5,12 +5,12 @@ description: listSize 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: listSize，関数，式，ジャーニー
+keywords: listSize, 関数, 式, ジャーニー
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 60%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照である必要があります。 listObject に null オブジェクトを含めることはできません。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合、フィールド参照である必要があります。listObject に null オブジェクトを含めることはできません。 |
 
 ## シグネチャと戻り値のタイプ
 
@@ -62,4 +62,4 @@ ht-degree: 60%
 
 `listSize(@event{my_event.productListItems})`
 
-指定されたオブジェクトの配列内のオブジェクトの数を返します（listObject 型）。
+指定されたオブジェクト配列内のオブジェクト数を返します（listObject 型）。
