@@ -5,12 +5,12 @@ description: inLastHours 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastHours，関数，式，ジャーニー
+keywords: inLastHours, 関数l 式, ジャーニー
 exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
