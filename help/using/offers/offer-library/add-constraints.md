@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -263,7 +263,7 @@ ht-degree: 99%
 >
 >リセットは、定義した日（UTC で午前 12 時）、または該当する場合は週や月の最初の日に発生します。週の開始日は日曜日です。 選択する期間は、2 年（つまり、それに相当する月数、週数、日数）を超えることはできません。
 >
->頻度キャップカウンターが更新され、3 秒未満で Edge 判定 API の決定で使用できます。
+>フリークエンシーキャップカウンターが 3 秒以内に更新され、Edge Decisioning API の決定で使用できるようになります。
 
 例えば、キャッピングカウントを 2 週間ごとにリセットする場合は、対応するドロップダウンリストから「**[!UICONTROL 毎週]**」を選択し、他のフィールドに「**2**」と入力します。リセットは毎週日曜日の午後 12 時（UTC）に発生します。
 
