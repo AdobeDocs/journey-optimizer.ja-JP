@@ -5,12 +5,12 @@ description: sum 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 合計，関数，式，ジャーニー
+keywords: sum, 関数, 式, ジャーニー
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
