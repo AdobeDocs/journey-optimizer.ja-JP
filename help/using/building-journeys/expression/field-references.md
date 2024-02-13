@@ -9,9 +9,9 @@ level: Experienced
 keywords: ジャーニー, フィールド, 式, イベント
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->フィールドとデフォルト値のタイプは同じにする必要があります。例： `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` のデフォルト値は整数であるのに対して、期待値は文字列である必要があるので、は無効です。
+>フィールドとデフォルト値のタイプは同じにする必要があります。例えば、想定される値が文字列であるのに対し、デフォルト値が整数であるため、`@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` は無効になります。
 
 例：
 
@@ -117,7 +117,7 @@ expression examples:
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。 「Email」エントリはコレクションで、「first()」を使用して最初の要素で「id」を取得します。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
+この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。「Email」エントリはコレクションであり、そこから「first()」を使用して最初の要素の「id」を取得します。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 ### `firstEntryKey` 関数
 
