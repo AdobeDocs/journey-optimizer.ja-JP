@@ -5,12 +5,12 @@ description: notEqualIgnoreCase 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: notEqualIgnoreCase，関数，式，ジャーニー
+keywords: notEqualIgnoreCase, 関数, 式, ジャーニー
 exl-id: 74f8cae0-7d2f-4f5e-bc13-837c9bc69ad9
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '41'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
