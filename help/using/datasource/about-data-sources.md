@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, Plaform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
