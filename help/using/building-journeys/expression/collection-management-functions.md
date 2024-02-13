@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: コレクション管理関数
+title: コレクション管理機能
 description: コレクション管理関数のデータタイプについて説明します
 feature: Journeys
 role: Data Engineer, Architect
@@ -9,13 +9,13 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# コレクション管理関数 {#collection-management-functions}
+# コレクション管理機能 {#collection-management-functions}
 
 また、式言語にも、コレクションをクエリするための一連の関数が導入されています。
 
@@ -169,9 +169,9 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** は、イベントコレクションを操作する場合にのみ使用できます。 **[!UICONTROL currentDataPackField]** データソースコレクションを操作する際に、 **[!UICONTROL currentActionField]** カスタムアクションの応答コレクションを操作する場合。
+>**[!UICONTROL currentEventField]** はイベントコレクションを操作する場合、**[!UICONTROL currentDataPackField]** はデータソースコレクションを操作する場合、**[!UICONTROL currentActionField]** はカスタムアクションの応答コレクションを操作する場合にのみ使用できます。
 >
->を含むコレクションを処理する際に **[!UICONTROL すべて]**, **[!UICONTROL first]** および **[!UICONTROL last]**&#x200B;の場合、コレクションの各要素を 1 つずつループします。 **[!UICONTROL currentEventField]**, **currentDataPackField** および **[!UICONTROL currentActionField]** は、ループする要素に対応します。
+>**[!UICONTROL all]**、**[!UICONTROL first]**、**[!UICONTROL last]** でコレクションを処理する場合、コレクションの各要素を 1 つずつループします。**[!UICONTROL currentEventField]**、**currentDataPackField**、および **[!UICONTROL currentActionField]** は、ループする要素に対応します。
 
 **関数「first(`<condition>`)」と「last(`<condition>`)」**
 
