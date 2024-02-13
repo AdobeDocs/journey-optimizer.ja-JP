@@ -5,12 +5,12 @@ description: serializeList 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: serializeList，関数，式，ジャーニー
+keywords: serializeList, 関数, 式, ジャーニー
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 35%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | 文字列に変換するリスト。 |
-| 区切り記号 | 文字列 | 出力文字列内の各リスト要素間の区切り文字。 |
-| addQuotes | ブール値 | このパラメーターは、出力文字列の各要素に引用符を含める (true) か、含まない (false) かを示します。 |
+| listToProcess | stString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly | 文字列に変換するリスト。 |
+| 区切り記号 | 文字列 | 出力文字列内の各リスト要素間の区切り記号。 |
+| addQuotes | ブール値 | このパラメーターは、出力文字列の各要素に引用符を含める（true）か、含まない（false）かを示します。 |
 
 ## シグネチャと戻り値のタイプ
 
