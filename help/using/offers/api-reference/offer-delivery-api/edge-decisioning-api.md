@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja#video-overview) を使用して 意思決定管理を実装するには、2 つの方法があります。1 つ目は、開発者が対象の、web サイトやプログラミングに関する知識を必要とする方法です。もう 1 つは、Adobe Experience Platform のユーザーインターフェイスを使用して、HTML ページのヘッダーで参照する小さなスクリプトのみを必要とするオファーを設定する方法です。
 
-に関するAdobe Experience Platformのドキュメントを参照してください。 [決定管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ja#enabling-offer-decisioning) Adobe Experience Platform Web SDK を使用してパーソナライズされたオファーを配信する方法について詳しくは、こちらを参照してください。
+Adobe Experience Platform Web SDK を使用してパーソナライズされたオファーを配信する方法について詳しくは、[意思決定管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ja#enabling-offer-decisioning)に関する Adobe Experience Platform のドキュメントを参照してください。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
