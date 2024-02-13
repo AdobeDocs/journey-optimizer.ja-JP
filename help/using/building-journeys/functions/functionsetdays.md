@@ -5,12 +5,12 @@ description: setDays 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: setDays，関数，式，ジャーニー
+keywords: setDays, 関数, 式, ジャーニー
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
