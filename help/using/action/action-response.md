@@ -10,9 +10,9 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-カスタムアクション応答でコレクションを操作する際に、 `currentActionField` 現在の品目にアクセスする手順は、次のとおりです。
+カスタムアクションの応答でコレクションを操作する際、`currentActionField` を利用して現在のアイテムにアクセスできます。
 
 ```json
 count(
@@ -216,5 +216,5 @@ currentActionField.description == "abc"
 
 詳しくは、次のページを参照してください。
 
-* [フィールド参照](../building-journeys/expression/field-references.md).
-* [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)
+* [フィールド参照](../building-journeys/expression/field-references.md)
+* [コレクション管理機能](../building-journeys/expression/collection-management-functions.md)
