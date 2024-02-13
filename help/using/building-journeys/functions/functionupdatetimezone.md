@@ -5,12 +5,12 @@ description: updateTimeZone 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: updateTimeZone，関数，式，ジャーニー
+keywords: updateTimeZone, 関数, 式, ジャーニー
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '62'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
