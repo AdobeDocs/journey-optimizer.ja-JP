@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 94%
  <tbody>
   <tr> 
    <td> バウンス<br/> </td> 
-   <td> 送信済みメッセージの合計数に関して、送信プロセス中に累積したエラーの合計と自動返信処理。<br/> </td> 
+   <td> 送信されたメッセージの合計数に対して、送信プロセスおよび自動返信処理の間に累積したエラーの合計数。<br/> </td> 
 </tr> 
   <tr> 
    <td> バウンス率<br/> </td> 
@@ -84,11 +84,11 @@ ht-degree: 94%
 </tr>
   <tr> 
    <td> エラー<br/> </td> 
-   <td> 送信プロセス中に発生し、プロファイルに送信できなかったエラーの合計数。<br/> </td> 
+   <td> 送信プロセス中に発生し、プロファイルへの送信の妨げとなったエラーの合計数。<br/> </td> 
 </tr> 
   <tr> 
    <td> エラー率<br/> </td> 
-   <td> 送信プロセス中に発生し、送信された E メールと比較して、送信を妨げたエラーの割合。<br/> </td> 
+   <td> 送信されたメールに対して、送信プロセス中にエラーが発生して送信できなかったメールの割合。<br/> </td> 
 </tr>
 </tr> 
   <tr> 
