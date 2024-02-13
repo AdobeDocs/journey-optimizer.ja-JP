@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1627'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 >
 > * チャネルサーフェスを作成、編集、削除するには、[メッセージプリセットを管理](../administration/high-low-permissions.md#administration-permissions)権限が必要です。
 >
-> * 次の操作を実行する必要があります。 [電子メール設定](../email/get-started-email-config.md), [プッシュ設定](../push/push-configuration.md), [SMS 設定](../sms/sms-configuration.md) および [ダイレクトメールの設定](../direct-mail/direct-mail-configuration.md) チャネルサーフェスを作成する前の手順です。
+> * チャネルサーフェスを作成する前に、[メール設定](../email/get-started-email-config.md)、[プッシュ設定](../push/push-configuration.md)、[SMS 設定](../sms/sms-configuration.md)、および[ダイレクトメール設定](../direct-mail/direct-mail-configuration.md)の手順を実行する必要があります。
 
 チャネルサーフェスを設定すると、ジャーニーまたはキャンペーンからメッセージを作成する際にチャネルサーフェスを選択できるようになります。
 
