@@ -5,12 +5,12 @@ description: 関数 limit について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 制限，関数，式，ジャーニー
+keywords: limit, 関数, 式, ジャーニー
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
