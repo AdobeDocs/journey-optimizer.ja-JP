@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1489'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
