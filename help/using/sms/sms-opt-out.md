@@ -11,7 +11,7 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 099e65cfa4ecbf2e4f4e706415c7fed3313246aa
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 82%
 
 >[!NOTE]
 >
-> Journey Optimizerで使用する場合、Sinch と Infobip のみがネイティブキーワードをサポートします。
+> Journey Optimizer で使用する場合、ネイティブキーワードをサポートするのは Sinch と Infobip のみです。
 
-デフォルトでは、Adobe Journey Optimizerは、ショートコード、フリーダイヤル、ロングコードのメッセージに対し、次の標準的な英語の返信メッセージを処理します。
+デフォルトでは、Adobe Journey Optimizer はショートコード、フリーダイヤルおよびロングコードメッセージに対して、次の標準の英語の返信メッセージを処理します。
 
-* **オプトアウト**：停止、終了、キャンセル、終了、購読解除、いいえ。
-* **オプトイン**：購読、はい、停止、開始、続行、再開、開始。
-* **ヘルプ**：ヘルプ。
+* **オプトアウト**：STOP、QUIT、CANCEL、END、UNSUBSCRIBE、NO
+* **オプトイン**：SUBSCRIBE、YES、UNSTOP、START、CONTINUE、RESUME、BEGIN
+* **ヘルプ**：HELP
 
 これらのキーワードは通常、お使いのサードパーティプロバイダーから提供される自動標準返信をトリガーします。これについては、プロバイダーまたはドキュメントサイトで直接確認してください。
 
