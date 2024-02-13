@@ -5,12 +5,12 @@ description: toString 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toString，関数，式，ジャーニー
+keywords: toString, 関数, 式, ジャーニー
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 79%
 | 日時 | 日付を UTC 日付フォーマットに変換します |
 | 日時のみ | 日付を UTC 日付フォーマットに変換します |
 | 期間 | 対応するミリ秒数の文字列に変換します |
-| 整数 | を値の文字列表現に変換します（1 は「1」になります） |
-| 小数 | を値の文字列表現に変換します（1.5 は「1.5」になります） |
+| 整数 | 値の文字列表現に変換します（1 は &quot;1&quot; になります） |
+| 小数 | 値の文字列表現に変換します（1.5 は &quot;1.5&quot; になります） |
 | ブール値 | ブール値を true の場合は「true」、false の場合は「false」に変換します |
 
 ## シグネチャと戻り値のタイプ
