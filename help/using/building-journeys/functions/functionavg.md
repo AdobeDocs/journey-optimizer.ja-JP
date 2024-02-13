@@ -5,12 +5,12 @@ description: avg 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 平均，関数，式，ジャーニー
+keywords: avg, 関数, 式, ジャーニー
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
