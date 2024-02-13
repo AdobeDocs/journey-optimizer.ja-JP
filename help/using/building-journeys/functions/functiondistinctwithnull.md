@@ -5,12 +5,12 @@ description: distinctWithNull 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: distinctWithNull，関数，式，ジャーニー
+keywords: distinctWithNull, 関数, 式, ジャーニー
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 
 指定されたリストのユニークな値またはオブジェクトを返します。リストに null エントリが少なくとも 1 つ含まれる場合、返されるリストに null エントリが含まれます。
 
-なお、パラメーターは `<listObject>` は、この関数ではサポートされていません。
+パラメーター `<listObject>` は、この関数ではサポートされません。
 
 ## カテゴリ
 
@@ -32,7 +32,7 @@ ht-degree: 79%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | 処理するリスト。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly | 処理するリスト。 |
 
 ## シグネチャと戻り値のタイプ
 
