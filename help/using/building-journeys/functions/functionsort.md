@@ -5,12 +5,12 @@ description: sort 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 並べ替え，関数，式，ジャーニー
+keywords: sort, 関数, 式, ジャーニー
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 90%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| listToSort | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
 | keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。指定されたリストのオブジェクト内の属性名は、並べ替えのキーとして使用されます。 |
 | sortingOrder | ブール値 | 昇順（true）または降順（false） |
 
@@ -80,5 +80,5 @@ ht-degree: 90%
 
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
-SKU 属性で並べ替えられた listObject（昇順）を返します
+SKU 属性で並べ替えられた listObject を返します（昇順）
 
