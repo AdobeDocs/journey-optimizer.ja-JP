@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
+source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 19%
+source-wordcount: '538'
+ht-degree: 18%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 19%
 
 * これで、ターゲット設定が可能になりました **CSV ファイルからアップロードされたオーディエンス** ジャーニーとキャンペーンに追加します。 [詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
 * これで、ターゲット設定が可能になりました **オーディエンスの構成で作成されたオーディエンス** ジャーニーのエンリッチメント属性を活用します。 [詳細情報](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>現在、オーディエンス構成とカスタムアップロード（CSV ファイル）からのオーディエンスと属性の使用は、ヘルスケアシールドまたはプライバシーとセキュリティシールドでは使用できません。
 
 **ジャーニー**
 
