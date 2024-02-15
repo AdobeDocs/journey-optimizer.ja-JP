@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 90%
 
 ---
 
@@ -36,3 +36,9 @@ ht-degree: 100%
 * **マーケター**&#x200B;の場合
 
   メッセージを設計し、オファーとアセットを追加し、カスタマージャーニーを構築します。[詳細情報](path/marketer.md)
+
+## ハウツービデオ {#video}
+
+Journey Optimizerの主な機能とペルソナを理解します。 役割に応じてユーザーインターフェイスを操作する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
