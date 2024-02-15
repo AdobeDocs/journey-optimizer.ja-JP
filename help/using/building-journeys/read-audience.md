@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: ht
-source-wordcount: '1402'
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+workflow-type: tm+mt
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 100%
 **オーディエンスを読み取り**&#x200B;アクティビティを使用すると、オーディエンスのすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回限りと定期的のいずれも可能です。
 
 [オーディエンスの作成](../audience/about-audiences.md)ユースケースで作成した「Luma アプリのオープンとチェックアウト」オーディエンスを例に取ります。「オーディエンスを読み取り」アクティビティを使用すると、オーディエンスに属するすべての個人をジャーニーにエントリさせ、条件、タイマー、イベント、アクションなどのジャーニーのすべての機能を活用する個別のジャーニーに流入させることができます。
+
+➡️ [この機能をビデオで確認](#video)
 
 ## 必読 {#must-read}
 
@@ -183,3 +185,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 結合した後、セグメント化や除外を実行してオーディエンスを再度分割できます。
 
 ![](assets/read-segment-audience3.png)
+
+## チュートリアルビデオ {#video}
+
+「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
