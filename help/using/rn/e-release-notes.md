@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 20%
@@ -41,8 +41,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>新しい Web アプリ内メッセージ機能を使用して、モーダルオーバーレイメッセージを使用して、パーソナライズされたコンテンツを Web サイトに直接表示できるようになりました。 この機能を使用すると、Web 訪問者との関わりを効果的に高め、ユーザーインタラクション、定着およびコンバージョン率を高めることができます。<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>新しい Web アプリ内メッセージ機能を使用して、モーダルオーバーレイメッセージを使用して、パーソナライズされたコンテンツを Web サイトに直接表示できるようになりました。 この機能を使用すると、Web 訪問者との関わりを効果的に高め、ユーザーインタラクション、定着およびコンバージョン率を高めることができます。<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -58,8 +57,7 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 <tbody>
 <tr>
 <td>
-<p>SMS チャネルとダイレクトメールチャネルに適用する頻度キャップルールを作成できるようになりました。 また、通信タイプ別に頻度キャップルールを設定できます。<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>SMS チャネルとダイレクトメールチャネルに適用する頻度キャップルールを作成できるようになりました。 また、通信タイプ別に頻度キャップルールを設定できます。<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -82,10 +80,11 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 
 **ジャーニー**
 
-* ジャーニー画面の上部バーの構成が変更され、エクスペリエンスが向上しました。 様々な更新の中で、ジャーニーのプロパティにアクセスできる「鉛筆」アイコンが、上部のバーの左側、ジャーニーの名前の横に表示されるようになりました。
 * これで、 **ジャーニーをフィルターするカスタム日付** 在庫に加えて、既存の定義済み日付フィルターも含まれます。 これにより、特定の日付、特定の月内、1 年を通じて、または指定した期間内に公開されたジャーニーを表示することで、リストを絞り込むことができます。
 * 現在は、 **カスタムアクション**.
 * stepEvents の identityMap 属性が事前入力されるようになりました。 プライマリ ID は「primary = true」と定義されます。
+* ジャーニー画面の上部バーの構成が変更され、エクスペリエンスが向上しました。 様々な更新の中で、ジャーニーのプロパティにアクセスできる「鉛筆」アイコンが、上部のバーの左側、ジャーニーの名前の横に表示されるようになりました。
+
 
 **SMS チャネル**
 
