@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
-workflow-type: ht
-source-wordcount: '1011'
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+workflow-type: tm+mt
+source-wordcount: '1043'
 ht-degree: 100%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 100%
 「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、新しいシルバーの顧客全員をジャーニーにエントリさせ、パーソナライズされた一連のメッセージを送ることができます。
 
 このタイプのイベントは、ジャーニーの最初または後半に配置できます。
+
+➡️ [この機能をビデオで確認](#video)
 
 ### 重要な注意事項{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ ht-degree: 100%
 実稼動ジャーニーでオーディエンスを使用する前に、必ず、このオーディエンスに選定された個人の数を評価してください。それには、**[!UICONTROL オーディエンス]**&#x200B;メニューをチェックし、オーディエンスを開いてから&#x200B;**[!UICONTROL プロファイルの推移]**&#x200B;グラフで確認します。
 
 ![](assets/segment-overload.png)
+
+## チュートリアルビデオ {#video}
+
+オーディエンスの選定ジャーニーに適用できるユースケースを理解します。オーディエンスの選定と適用するベストプラクティスを使用して、ジャーニーを構築する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
