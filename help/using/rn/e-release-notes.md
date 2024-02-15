@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 20%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2024年1月早期リリースノート {#e-2024}
+## 2024 年 2 月の早期リリースノート {#e-2024}
 
-**リリース日**：2024年1月20～31日（PT）
+**リリース日**:2024 年 2 月 20 日～21 日
 
 ### 新機能{#e-features}
 
@@ -35,66 +35,71 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>配信品質のアップデート</strong><br/></th>
+<th><strong>Web アプリ内メッセージ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer は、DMARC 認証テクノロジーをサポートするようになりました。</p>
-<p>2024年2月1日（PT）以降、Google と Yahoo! は、メールの送信に使用するドメインの DMARC レコードを要求します。Journey Optimizer でアドビにデリゲートしたすべてのサブドメインや、デリゲート中のすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>詳しくは、<a href="../configuration/dmarc-record.md">詳細なドキュメント</a>を参照してください。</p>
+<p>新しい Web アプリ内メッセージ機能を使用して、モーダルオーバーレイメッセージを使用して、パーソナライズされたコンテンツを Web サイトに直接表示できるようになりました。 この機能を使用すると、Web 訪問者との関わりを効果的に高め、ユーザーインタラクション、定着およびコンバージョン率を高めることができます。<br/><!--br/>
+Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>ユースケースプレイブック</strong><br/></th>
+<th><strong>ビジネスルール（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Real-Time CDP と Journey Optimizer における業界固有のユースケースプレイブックのカタログを活用し、Adobe Experience Platform と Adobe Journey Optimizer を使用して実行できる一般的なユースケースに対処します。</p><p>ニーズに最適なプレイブックを選択したら、それを有効にして、ジャーニー、メッセージ、スキーマ、セグメントなどのユースケースをサポートするために必要なアセットを生成し、スキーマに合わせてカスタマイズして価値実現までの時間を短縮できます。</p>
-<br/><img src="assets/do-not-localize/playbooks.gif"/>
-<!--<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>-->
+<p>SMS チャネルとダイレクトメールチャネルに適用する頻度キャップルールを作成できるようになりました。 また、通信タイプ別に頻度キャップルールを設定できます。<br/><!--br/>
+Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
 </table>
+
+
 
 ### 機能強化 {#e-improvements}
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-**レポート**
+**オーディエンス**
 
-* **新しいドメインベースの分類ウィジェット** - キャンペーンレポートとジャーニーレポートを強化するための新しいウィジェットが追加されました。**ドメイン別のバウンス理由**、**ドメイン別に送信および配信済み**、**ドメイン別の開封数およびクリック数**&#x200B;および&#x200B;**ドメイン別のバウンス数およびエラー数**&#x200B;ウィジェットは、主なメール配信とトラッキング指標のドメインレベルでの詳細な分類を提供します。[詳細情報](../reports/channel-report.md)
+* 使用時にバリアントがサポートされるようになりました。 **シードリスト**. ターゲットオーディエンスからの各プロファイルと同様に、シードアドレスにも、同じメッセージのすべてのバリアントのコピーが届きます（コンテンツ実験の様々な処理など）。
 
-**SMS チャネル**
+以前はベータ版でしたが、すべてのユーザーが次の機能が強化されました。
 
-* **ダブルオプトイン** - SMS のダブルオプトインワークフローでは、デバイスからリクエストが開始された際に、ユーザーがメッセージの受信を明示的にオプトインすることが保証されます。ユーザーは、インバウンド SMS メッセージを送信して同意プロセスを開始します。同意を確認すると、最終検証をリクエストするフォローアップメッセージが送信されます。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。[詳細情報](../sms/sms-configuration.md#create-api)
-
-  これは、Sinch および Infobip の SMS プロバイダーにのみ適用されます。
+* これで、ターゲット設定が可能になりました **CSV ファイルからアップロードされたオーディエンス** ジャーニーとキャンペーンに追加します。 [詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
+* これで、ターゲット設定が可能になりました **オーディエンスの構成で作成されたオーディエンス** ジャーニーのエンリッチメント属性を活用します。 [詳細情報](../building-journeys/read-audience.md)
 
 **ジャーニー**
 
-* **反応イベントの期間** - **反応イベント**&#x200B;で定義できる最大期間は、30 日ではなく 29 日になりました。[詳細情報](../building-journeys/reaction-events.md)
+* ジャーニー画面の上部バーの構成が変更され、エクスペリエンスが向上しました。 様々な更新の中で、ジャーニーのプロパティにアクセスできる「鉛筆」アイコンが、上部のバーの左側、ジャーニーの名前の横に表示されるようになりました。
+* これで、 **ジャーニーをフィルターするカスタム日付** 在庫に加えて、既存の定義済み日付フィルターも含まれます。 これにより、特定の日付、特定の月内、1 年を通じて、または指定した期間内に公開されたジャーニーを表示することで、リストを絞り込むことができます。
+* 現在は、 **カスタムアクション**.
+* stepEvents の identityMap 属性が事前入力されるようになりました。 プライマリ ID は「primary = true」と定義されます。
 
-<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
+**SMS チャネル**
 
-* **オーディエンスを読み取り** - 「オーディエンスを読み取り」アクティビティは、バッチセグメントのプロファイルスナップショットデータセットに依存するようになりました。このデータセットは、スケジュールされた毎日のバッチジョブの実行後に 1 日に 1 回のみ生成されるので、データは最後の毎日のバッチジョブまで最新になります。
+* SMS チャネルを設定する際に、 **オプトインおよびオプトアウトのキーワード** 設定に従って設定します。 Journey Optimizerトリガーは、指定されたこれらのキーワードに基づいて応答を送信します。
 
-* **フィールドグループ** - 特定の場合にフィールドグループの保存をブロックする問題を修正しました。
+**キャンペーン**
 
-* **式エディター** - すべての式と追加関数で、listObject データタイプをサポートするようになりました。[詳細情報](../building-journeys/expression/functions.md)
-
-**頻度ルール**
-
-* **週別および日別のフリークエンシーキャップ** - 1 か月に加え、1 週間または 1 日に顧客プロファイルに送信するメッセージを指定できるようになりました。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。[詳細情報](../configuration/frequency-rules.md#create-new-rule)
+* 情報が、 **API トリガーキャンペーン** 「ドラフト」状態の場合は、キャンペーンがパブリッシュされ実行された後にのみサンプルの cURL リクエストが表示されるように指定します。
 
 **意思決定管理**
 
-* **Edge でのフリークエンシーキャップ** - フリークエンシーキャップカウンターが新しくなり、3 秒未満の Edge Decisioning API の決定で使用できるようになりました。
+* 次に、 **複数のキャッピングルール** 1 つのオファーに対して これにより、オファーの送信方法に対する制御レベルを高めることができます。
+
+**コンテンツテンプレート**
+
+* A **サムネール表示** は、視覚的アクセスを改善するために、コンテンツテンプレートとフラグメントで使用できるようになりました。
+* コンテンツテンプレートをで使用できるようになりました。 **すべてのチャネル**（Web を除く）
