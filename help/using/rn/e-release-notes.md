@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00a1b3cab9f5d7060ab8db9e27a31a6afaede79e
+source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 18%
@@ -42,7 +42,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>新しい Web アプリ内メッセージ機能を使用して、モーダルオーバーレイメッセージを使用して、パーソナライズされたコンテンツを Web サイトに直接表示できるようになりました。 この機能を使用すると、Web 訪問者との関わりを効果的に高め、ユーザーインタラクション、定着およびコンバージョン率を高めることができます。<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
 </table>
