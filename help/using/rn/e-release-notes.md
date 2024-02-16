@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
+source-git-commit: 00a1b3cab9f5d7060ab8db9e27a31a6afaede79e
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 18%
@@ -23,7 +23,7 @@ ht-degree: 18%
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2024 年 2 月の早期リリースノート {#e-2024}
+## 2024 年 2 月初期リリースノート {#e-2024}
 
 **リリース日**:2024 年 2 月 20 日～21 日
 
