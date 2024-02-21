@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 96%
 
 ---
 
-# テキストメッセージ（SMS／MMS）の確認および送信 {#send-sms}
+# テキストメッセージを確認して送信します {#send-sms}
 
 ## テキストメッセージのプレビュー {#preview-sms}
 
@@ -49,6 +49,6 @@ ht-degree: 100%
 **関連トピック**
 
 * [SMS チャネルの設定](sms-configuration.md)
-* [SMS／MMS レポート](../reports/journey-global-report.md#sms-global)
+* [SMSS レポート](../reports/journey-global-report.md#sms-global)
 * [テキストメッセージの作成](create-sms.md)
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)

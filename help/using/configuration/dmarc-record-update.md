@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 88%
+source-wordcount: '577'
+ht-degree: 81%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 88%
 >title="必須の DMARC アップデートの詳細を学ぶ"
 >abstract="Googleと Yahoo は、業界のベストプラクティスの実施の一環として、 **DMARC レコード** 電子メールを送信する際に使用するすべてのドメインの（最初は） **2024 年 2 月 2 日**.<br>したがって、Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認する必要があります。"
 
-Domain-based Message Authentication、Reporting、および Conformance（DMARC）は、ドメイン所有者が自身のドメインを不正使用から保護するメール認証方法です。メールプロバイダー／ISP に明確なポリシーを提供することで、悪意のある人物が、あなたのドメインを装ってメールを送信するのを防ぐことができます。DMARC を実装すると、正当なメールがスパムとしてマークまたは拒否されるリスクが軽減され、メールの配信品質が向上します。
+Domain-based Message Authentication、Reporting、および Conformance（DMARC）は、ドメイン所有者が自身のドメインを不正使用から保護するメール認証方法です。メールプロバイダーや ISP に明確なポリシーを提供することで、自分のドメインから悪意のある関係者がメールを送信するのを防ぐことができます。DMARC を実装すると、正当なメールがスパムとしてマークまたは拒否されるリスクが軽減され、メールの配信品質が向上します。
 
-Google と Yahoo! は、業界のベストプラクティス実施の一環として、メール送信に使用するすべてのドメインに対して **DMARC レコード**&#x200B;を要求しています。この新しい要件は、**2024年2月1日（PT）**&#x200B;から適用されます。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ja#dmarc){target="_blank"}
+Google と Yahoo! は、業界のベストプラクティス実施の一環として、どちらもが **DMARC レコード** 電子メールを送信するために使用するすべてのドメイン用。 この新しい要件は、**2024年2月1日（PT）**&#x200B;から適用されます。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ja#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -44,8 +44,9 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。[方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-  ただし、CNAME デリゲーションを使用する場合は、ホスティングソリューションへのエントリも必要になります。したがって、[この節](dmarc-record.md#implement-dmarc)で説明しているアップデートを実行できるように、IT 部門と必ず調整してください。
-
+  >[!IMPORTANT]
+  >
+  >ただし、CNAME の設定では、ホスティングソリューションに追加のエントリも必要です。 したがって、[この節](dmarc-record.md#implement-dmarc)で説明しているアップデートを実行できるように、IT 部門と必ず調整してください。
 
 Googleと Yahoo! は次のとおりです。
 
@@ -67,5 +68,5 @@ Googleと Yahoo! は次のとおりです。
 
 * DMARC について詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja#about){target="_blank"}を参照してください
 * これらの変更に関するガイダンスについて詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ja){target="_blank"}を参照してください
-* [Google Gmail のお知らせ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}を参照してください
-* [Yahoo!のお知らせ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}を参照してください
+* 詳しくは、 [Google Gmail のお知らせ](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 詳しくは、 [Yahoo! のお知らせ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}を参照してください

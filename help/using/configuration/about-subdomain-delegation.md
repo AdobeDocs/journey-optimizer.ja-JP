@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, Optimizer, デリゲーション
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '892'
 ht-degree: 100%
 
 ---
@@ -44,10 +44,6 @@ ht-degree: 100%
 * インターフェイスから直接[サブドメインをデリゲート](delegate-subdomain.md)する方法については、こちらを参照してください。
 * Gmail アドレスへのメールの配信を確実に行うためにサブドメインに [Google TXT レコードを追加](google-txt.md)する方法を説明します
 * サブドメイン用に生成された [PTR レコードにアクセス](ptr-records.md)して送信メールサーバーで検証できるようにする方法を説明します
-
->[!NOTE]
->
->サブドメインに DMARC を実装するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にお問い合わせください。
 
 ## サブドメインの設定方法 {#subdomain-delegation-methods}
 

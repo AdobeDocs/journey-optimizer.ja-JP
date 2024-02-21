@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1575'
 ht-degree: 100%
 
 ---
@@ -142,10 +142,6 @@ IP ウォームアッププランを [!DNL Journey Optimizer] インターフェ
 
 +++ Gmail
 gmail.com、google.com、googlemail.com、googlemail.co.uk
-+++
-
-+++ Adobe
-adobe.com
 +++
 
 +++WP

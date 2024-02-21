@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: ht
-source-wordcount: '1960'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '1912'
 ht-degree: 100%
 
 ---
@@ -40,12 +40,14 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * ランディングページにプリヘッダーを追加することはできません。
 * ランディングプライマリページをデザインするときに、「**独自のコード**」オプションを選択することはできません。
 
-## SMS ガードレール {#sms-guardrails}
+<!--
+## SMS guardrails {#sms-guardrails}
 
-* MMS 機能は、Sinch でのみ使用できます。
-* MMS 用のメディアファイルは、サポートされている URL を通じて含めることができます。メディアファイルは別々にアップロードしてください。
-* 現在、MMS ではメッセージのフィードバック同期を使用できません。
-* 同意の管理は、MMS の SMS チャネルレベルで動作します。
+* MMS Capability is only available for Sinch.
+* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
+* Message feedback syncing is not currently available for MMS.
+* Consent management operates at the SMS channel level for MMS.
+-->
 
 ## フラグメントガードレール {#fragments-guardrails}
 
@@ -89,7 +91,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * ビルトインのカスタムアクションは削除できません。
 * カスタムアクションを使用してターゲットにするエンドポイントを選択する場合は、次の点を確認します。
 
-   * このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Cappping API](../configuration/capping.md) の設定を使用してジャーニーのスループットを制限することでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、200 TPS 以上をサポートする必要があります。
+   * このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットを制限することでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、200 TPS 以上をサポートする必要があります。
    * このエンドポイントの応答時間は、できるだけ短くする必要があります。予想されるスループットに応じて、応答時間が長いと、実際のスループットに影響を与える可能性があります。
 
 ### イベント {#events-g}

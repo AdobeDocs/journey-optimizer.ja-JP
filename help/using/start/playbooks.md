@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
-workflow-type: ht
+source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!PREREQUISITES]
 >
->ユースケースプレイブックを使用する前に、次の設定手順が必要です。各手順について詳しくは、ユースケースハンドブックのドキュメントの[基本を学ぶ](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=ja){target="_blank"}ページを参照してください。
+>ユースケースプレイブックを使用する前に、次の設定手順が必要です。各手順について詳しくは、ユースケースハンドブックのドキュメントの[基本を学ぶ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"}ページを参照してください。
 >
 >* サンドボックスの作成
 >* ユーザー権限の設定

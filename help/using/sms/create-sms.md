@@ -1,37 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS／MMS メッセージの作成
-description: Journey Optimizer で SMS／MMS メッセージを作成する方法を学ぶ
+title: SMS メッセージの作成
+description: Journey Optimizer で SMS メッセージを作成する方法を学ぶ
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 89%
 
 ---
 
-# テキストメッセージ（SMS／MMS）の作成{#create-sms}
+# テキストメッセージの作成 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="テキストメッセージの作成"
->abstract="テキストメッセージ（SMS／MMS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、式エディターでパーソナライゼーションを開始します。"
+>abstract="テキストメッセージを作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、式エディターを使用してパーソナライズ機能を開始します。"
 
-Adobe Journey Optimizer を使用して、テキスト（SMS）およびマルチメディア（MMS）メッセージをデザインして送信できます。まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
+Adobe Journey Optimizerでテキスト (SMS) をデザインし、送信できます。 まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
 >[!NOTE]
 >
->業界標準と規制に従って、すべての SMS／MMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>業界標準と規制に従って、すべての SMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 
 ## テキストメッセージの追加 {#create-sms-journey-campaign}
 
-キャンペーンまたはジャーニーにテキストメッセージ（SMS/MMS）を追加する方法については、以下のタブを参照してください。
+以下のタブを参照して、キャンペーンまたはジャーニーにテキストメッセージを追加する方法を学びます。
 
 >[!BEGINTABS]
 
@@ -91,9 +91,9 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）およびマル�
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="SMS コンテンツの定義"
->abstract="式エディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS／MMS）をカスタマイズおよびパーソナライズします。"
+>abstract="式エディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージをカスタマイズおよびパーソナライズします。"
 
-SMS コンテンツを設定するには、次の手順に従います。MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
+SMS コンテンツを設定するには、次の手順に従います。
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、テキストメッセージのコンテンツを設定します。
 
@@ -121,36 +121,37 @@ SMS コンテンツを設定するには、次の手順に従います。MMS の
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。メッセージのコンテンツをテストして確認するには、[この節](#sms-mms-test)を参照してください。
 
+<!--
+## Define your MMS content{#mms-content}
 
-## MMS コンテンツの定義{#mms-content}
-
-マルチメディアメッセージサービス（MMS）メッセージを送信すると、ビデオ、画像、オーディオクリップ、GIF などのメディアを共有できるようにすることで、通信を強化できます。また、MMS ではメッセージに最大 1600 文字のテキストを含めることができます。
+You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
 
 
 >[!NOTE]
 >
->* この機能は現在、**Sinch** でのみ使用可能です。
+>* This feature is currently available with **Sinch** only.
 >
->* MMS チャネルには、[このページ](../start/guardrails.md#sms-guardrails)にリストされているいくつかの制限があります。
+>* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
 >
 
-MMS コンテンツを作成するには、次の手順に従います。
+To create MMS content, follow these steps:
 
-1. [この節](#create-sms-journey-campaign)の説明に従って、SMS を作成します。
+1. Create a SMS as described in [this section](#create-sms-journey-campaign).
 
-1. [この節](#sms-content)の説明に従って、SMS コンテンツを編集します。
+1. Edit your SMS content as detailed in [this section](#sms-content).
 
-1. MMS オプションを有効にして、SMS コンテンツにメディアを追加します。
+1. Enable the MMS option to add media to your SMS content.
 
-   ![](assets/sms_create_6.png)
+    ![](assets/sms_create_6.png)
 
-1. 「**[!UICONTROL タイトル]**」をメディアに追加します。
+1. Add a **[!UICONTROL Title]** to your media.
 
-1. 「**[!UICONTROL メディア]**」フィールドにメディアの URL を入力します。
+1. Enter the URL of your media in the **[!UICONTROL Media]** field.
 
-   ![](assets/sms_create_7.png)
+    ![](assets/sms_create_7.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。以下に詳しく説明するように、メッセージのコンテンツをテストして確認できるようになりました。
+1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
+-->
 
 ## メッセージのテストおよび送信 {#sms-mms-test}
 
@@ -166,6 +167,6 @@ MMS コンテンツを作成するには、次の手順に従います。
 
 * [テキストメッセージのプレビュー、テスト、送信](send-sms.md)
 * [SMS チャネルの設定](sms-configuration.md)
-* [SMS／MMS レポート](../reports/journey-global-report.md#sms-global)
+* [SMS レポート](../reports/journey-global-report.md#sms-global)
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)

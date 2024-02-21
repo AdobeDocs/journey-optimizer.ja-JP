@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
-workflow-type: ht
-source-wordcount: '4398'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '4346'
 ht-degree: 100%
 
 ---
@@ -43,23 +43,23 @@ ht-degree: 100%
 </tbody>
 </table>
 
-
-
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>SMS のマルチメディアメッセージサービス（MMS）</strong><br/></th>
+<th><strong>Multimedia Message Service (MMS) in SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。</p>
+<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available with Sinch only.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>詳しくは、 <a href="../sms/create-sms.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>For more information, refer to the <a href="../sms/create-sms.md#mms-content">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 ### 機能強化 {#oct-2023-improvements}
 

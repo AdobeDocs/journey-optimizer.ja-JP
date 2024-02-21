@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2152'
+ht-degree: 97%
 
 ---
 
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >除外できるのは、[IP ウォームアッププランテンプレート](ip-warmup-plan.md#prepare-file)に追加されたドメイングループ（デフォルトまたはカスタム）のみです。そうでない場合は、除外するドメイングループでテンプレートを更新し、[プランを再度アップロード](#re-upload-plan)します。
+      >除外できるのは、 [IP ウォームアッププランテンプレート](ip-warmup-plan.md#prepare-file). そうでない場合は、除外するカスタムドメイングループでテンプレートを更新し、 [プランを再度アップロード](#re-upload-plan).
 
 1. 必要に応じて、「**[!UICONTROL キャンペーンを置換]**」ボタンを使用してキャンペーンを置き換えることができます。
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. オプションで、[オーディエンスの評価](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#how-segmentation-works){target="_blank"}に遅延が生じた場合に、IP ウォームアップキャンペーンを実行できる時間枠を定義できます。これを行うには、左上のプラン名の横にある「プロパティ」アイコンをクリックし、**[!UICONTROL 再試行の実行時間]**&#x200B;ドロップダウンリストを使用して、最大 240 分（4 時間）の期間を選択します。
+
+   >[!NOTE]
+   >
+   >再試行は、定義された時間枠の終わりまで、30 分ごとにおこなわれます。
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
