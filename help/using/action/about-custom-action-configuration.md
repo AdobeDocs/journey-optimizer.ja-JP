@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '1451'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 カスタムアクションパラメーターでは、単純なコレクションとオブジェクトのコレクションを渡すことができます。コレクションの制限事項について詳しくは、[このページ](../building-journeys/collections.md#limitations)を参照してください。
 
 また、カスタムアクションパラメーターには想定される形式（例：文字列、10 進数など）があります。これらの想定される形式に従うように注意する必要があります。詳しくは、この[ユースケース](../building-journeys/collections.md)を参照してください。
+
+カスタムアクションは、 [リクエスト](../action/about-custom-action-configuration.md#define-the-message-parameters) または [応答ペイロード](../action/action-response.md).
 
 ## ベストプラクティス{#custom-action-enhancements-best-practices}
 
@@ -117,7 +119,9 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 1. ヘッダーとクエリパラメーターを定義：
 
-   * 「**[!UICONTROL ヘッダー]**」セクションで「**[!UICONTROL ヘッダーフィールドを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを定義します。**[!UICONTROL Content-Type]** および **[!UICONTROL Charset]** ヘッダーフィールドは、デフォルトで設定されます。これらのフィールドは変更または削除できません。
+   * 「**[!UICONTROL ヘッダー]**」セクションで「**[!UICONTROL ヘッダーフィールドを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを定義します。**[!UICONTROL Content-Type]** および **[!UICONTROL Charset]** ヘッダーフィールドは、デフォルトで設定されます。これらのフィールドは削除できません。 次の項目のみ **[!UICONTROL Content-Type]** ヘッダーは変更可能です。 この値は JSON 形式に従う必要があります。 デフォルト値は次のとおりです。
+
+   ![](assets/content-type-header.png)
 
    * 「**[!UICONTROL クエリパラメーター]**」セクションで「**[!UICONTROL クエリパラメーターフィールドを追加]**」をクリックして、URL に追加するパラメーターを定義します。
 

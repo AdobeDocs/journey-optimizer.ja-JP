@@ -7,36 +7,26 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 10%
 
 ---
 
 # ID の基本を学ぶ {#identities-gs}
 
-ID とは、エンティティ（通常は個人）に固有のデータです。ログイン ID、ECID、ロイヤルティ ID などの ID は、既知の ID と呼ばれます。
+ID とは、エンティティ（通常、個人、ハードウェアデバイス、Web ブラウザーなどの実際のオブジェクト）に固有のデータです。 完全修飾 ID は、次の 2 つの要素で構成されます。
 
+* The **ID 名前空間** は、ID が関連するコンテキストを示すインジケーターとして機能します。
+* The **ID 値** はエンティティを表す文字列です。
 
-メールアドレスや電話番号などの個人を特定できる情報（PII）は、顧客を直接識別する役割を果たします。その結果、PII は、システム間で顧客の複数の ID を照合するために使用されます。
+電話番号555-555-1234を見てみましょう。 この例では、文字列「555-555-1234」は **ID 値**&#x200B;は、次のように分類できます。 **電話** id 名前空間。
 
- [!DNL Adobe Journey Optimizer] では、**ID** はデバイスやチャネルをまたいで消費者をリンクします。その結果が [ID グラフ](#id-graph)になります。リンクされた ID グラフは、すべてのビジネスタッチポイントにわたるインタラクションに基づいてエクスペリエンスをパーソナライズするために使用します。
+The **ID** メニュー [!DNL Adobe Journey Optimizer] を使用すると、データベース内の顧客を構成する様々な識別子を効率的に参照できます。
 
 ![](assets/identities-home.png)
 
-**ID サービス**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}を参照してください。
+これにより、 **ID グラフ**：特定の顧客の異なる id 間の関係のマップで、顧客が様々なチャネルを通じてブランドとどのようにやり取りするかを視覚的に示します。 すべての顧客 ID グラフは、顧客の行動に応じて、Adobe Experience Platform ID サービスで一括して管理および更新されます。
 
-## ID 名前空間 {#identity-namespaces}
-
-**ID 名前空間** は、ID の関連先コンテキストのインジケーターとして機能する ID サービスのコンポーネントです。例えば、`name@email.com` の値をメールアドレスとして、または `443522` を数値 CRM ID として区別します。ID 名前空間を使用するには、関連する様々な Adobe Experience Platform サービスについて理解している必要があります。名前空間の使用を開始する前に、次のサービスのドキュメントを確認してください。
-
-**ID 名前空間**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja){target="_blank"}を参照してください。
-
-## ID グラフ{#id-graph}
-
-**ID グラフ**&#x200B;は、特定の顧客の異なる ID 間の関係のマップで、顧客が様々なチャネルでブランドとどのようにやり取りするかを視覚的に表現します。すべての顧客 ID グラフは、顧客のアクティビティに応じて、Adobe Experience Platform ID サービスによってほぼリアルタイムで一括管理および更新されます。
-
-[!DNL Adobe Journey Optimizer] ユーザーインターフェイスの ID グラフビューアを使用すると、スティッチされる顧客 ID とその方法を視覚化し、より深く理解できます。このビューアを使用すると、グラフの様々な部分をドラッグおよび操作でき、ID 間の複雑な関係を調べたり、デバッグをより効率的に実行したり、情報の利用方法に関する透明性を高めたりできます。
-
-**ID グラフ**&#x200B;について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=ja){target="_blank"}を参照してください。
+ID の操作方法に関する詳細については、 [ID サービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}.

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。これにより、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
+オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。このワークフローでは、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して、新しいオーディエンスを作成できます。
 
-完了すると、**結果オーディエンス**&#x200B;が既存のオーディエンスと共に Adobe Experience Platform に保存され、**キャンペーンで活用**&#x200B;して顧客をターゲットできます。[キャンペーンとの連携方法を学ぶ](../campaigns/get-started-with-campaigns.md)
+完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerキャンペーンやジャーニーで活用して、顧客をターゲットに設定できます。 [Journey Optimizerでオーディエンスのターゲット設定を行う方法を説明します](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->現時点では、ジャーニーへのコンポジションワークフローから生成されたオーディエンスの使用は、プライベートベータ版として使用可能です。詳しくは、アドビ担当者にお問い合わせください。
+>現在、Audience Composition と Custom Upload のオーディエンスと属性の使用は、Healthcare Shield または Privacy and Security Shield では使用できません。 [Journey Optimizerでオーディエンスエンリッチメント属性を使用する方法を説明します。](../audience/about-audiences.md#enrichment)
 >
->Adobe Journey Optimizer のキャンペーンは、まだポリシー強制サービスと統合されていません。したがって、オーディエンス属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
+>エンリッチメント属性は、まだポリシー実施サービスと統合されていません。 したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizerのキャンペーンやジャーニーでは適用されません。
 
 オーディエンスコンポジションには、Adobe Journey Optimizer の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
 

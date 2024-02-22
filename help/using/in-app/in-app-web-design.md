@@ -1,46 +1,41 @@
 ---
-title: アプリ内コンテンツのデザイン
-description: Journey Optimizer でアプリ内コンテンツをデザインする方法を学ぶ
+title: Web アプリ内コンテンツのデザイン
+description: Web アプリ内コンテンツのデザイン方法を説明します
 feature: In App
 topic: Content Management
 role: User
 level: Beginner
-keywords: アプリ内, メッセージ, デザイン, 書式設定
-exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+keywords: アプリ内, メッセージ, 作成, 開始
+hide: true
+hidefromtoc: true
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 99%
+source-wordcount: '780'
+ht-degree: 93%
 
 ---
 
-# アプリ内コンテンツのデザイン {#design-content}
+# Web アプリ内コンテンツのデザイン {#in-app-web-design}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_content"
->title="アプリ内コンテンツの定義"
->abstract="アプリ内メッセージのコンテンツとスタイルをカスタマイズします。また、メディアやアクションボタンを追加して、メッセージをより魅力的で効果的にすることもできます。"
+>[!BEGINSHADEBOX]
 
-アプリ内コンテンツを編集して、エクスペリエンスオプションを設定できます。
+**目次**
 
-* **[!UICONTROL Campaign]** で、**[!UICONTROL アクション]**&#x200B;メニューからメッセージコンテンツを設定するには、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
+* [Web アプリ内チャネルの設定](configure-in-app-web.md)
+* [Web アプリ内メッセージキャンペーンの作成](create-in-app-web.md)
+* **[Web アプリ内コンテンツのデザイン](#in-app-web-design)**
 
-  ![](assets/edit-in-app-content.png)
+>[!ENDSHADEBOX]
 
-* **[!UICONTROL ジャーニー]**&#x200B;では、アプリ内&#x200B;**[!UICONTROL アクション]**&#x200B;の詳細メニューから、「**[!UICONTROL コンテンツを編集]**」ボタンを使用してコンテンツのデザインを開始できます。
+アプリ内メッセージのコンテンツを編集するには、 **[!UICONTROL コンテンツを編集]** ボタンを **[!UICONTROL アクション]** 」メニューを使用します。
 
-  ![](assets/design_inapp_journey.png)
+![](assets/in_app_web_surface_7.png)
 
 **[!UICONTROL 詳細フォーマット]**&#x200B;の切り替えにより、エクスペリエンスをカスタマイズするための追加オプションがアクティブになります。
 
 アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。その後、キャンペーンスケジュールに従って通知が送信されます。詳しくは、[このページ](send-in-app.md)を参照してください。
 
 ## メッセージのレイアウト {#message-layout}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_message_layout"
->title="アプリ内コンテンツの定義"
->abstract="メッセージレイアウトには、メッセージの枠を組むための一般的に使用されるテンプレートが用意されています。カスタムレイアウトには、カスタム HTML メッセージをアップロードまたは作成するためのオプションが用意されています。"
 
 「**[!UICONTROL メッセージレイアウト]**」セクションから、メッセージのニーズに応じて、4 つの異なるレイアウトオプションのいずれかを選択します。
 
@@ -72,11 +67,6 @@ ht-degree: 99%
 
 ### 「閉じる」ボタン {#close-button}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
->title="「閉じる」ボタンのスタイルを選択します。"
->abstract="「閉じる」ボタンのセクションには、メッセージの閉じるボタンのバリエーションを選択するオプションと、カスタム画像をアップロードするオプションが表示されます。"
-
 ![](assets/in_app_web_design_2.png)
 
 **[!UICONTROL 「閉じる」ボタン]**&#x200B;の&#x200B;**[!UICONTROL スタイル]**&#x200B;を選択します。
@@ -95,16 +85,11 @@ ht-degree: 99%
 
 ### メディア {#add-media}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
->title="アプリ内メッセージにメディアを追加して、エンドユーザーにとって魅力的なエクスペリエンスを作成します。"
->abstract="コンテンツへの直接リンクを提供するか、アセットセレクターを使用して Asset Essentials でメディアを選択し、メッセージに追加します。"
-
 「**[!UICONTROL メディア]**」フィールドを使用すると、アプリ内メッセージにメディアを追加して、エンドユーザーにとって魅力的なエクスペリエンスを作成できます。
 
 ![](assets/in_app_web_design_3.png)
 
-メディア URL を入力するか、「**[!UICONTROL アセットを選択]**」アイコンをクリックして、アセットライブラリに保存されているアセットをアプリ内メッセージに直接追加します。[アセット管理の詳細情報](../content-management/assets.md)。画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
+メディア URL を入力するか、「**[!UICONTROL アセットを選択]**」アイコンをクリックして、アセットライブラリに保存されているアセットをアプリ内メッセージに直接追加します。[アセット管理の詳細情報](../content-management/assets-essentials.md)。画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
 
 +++詳細フォーマットを使用したその他のオプション
 
@@ -113,11 +98,6 @@ ht-degree: 99%
 +++
 
 ### コンテンツ {#title-body}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
->title="メッセージを作成するには、「ヘッダー」フィールドと「本文」フィールドにコンテンツを入力します。"
->abstract="ヘッダーと本文の両方をここに追加できます。パーソナライゼーショントークンを含めるには、パーソナライゼーションダイアログを開きます。"
 
 メッセージを作成するには、「**[!UICONTROL ヘッダー]**」フィールドと「**[!UICONTROL 本文]**」フィールドにコンテンツを入力します。
 
@@ -136,11 +116,6 @@ ht-degree: 99%
 +++
 
 ### ボタン {#add-buttons}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
->title="ユーザーがアプリ内メッセージを操作するためのボタンを追加します。"
->abstract="このセクションでは、コールトゥアクションボタンをメッセージに追加できます。各ボタンにカスタムテキストとターゲットを含めることができます。"
 
 ユーザーがアプリ内メッセージを操作するためのボタンを追加します。
 
@@ -174,33 +149,7 @@ ht-degree: 99%
 
 「**設定**」タブでは、メッセージのレイアウトを定義し、アプリ内メッセージをプレビューできます。また、詳細フォーマットオプションにアクセスすることもできます。
 
-### プレビュー {#preview-tab}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_preview"
->title="アプリ内メッセージをプレビューします。"
->abstract="これは、メッセージをデバイスのメッセージ概要に送信する際に表示されるプレビュー画像です。"
-
->[!NOTE]
->
->プレビューは、モバイルのアプリ内メッセージでのみ使用できます。
-
-![](assets/in_app_content_6.png)
-
-「**[!UICONTROL アプリのプレビュー]**」を使用すると、アプリ内メッセージに次の背景を追加できます。
-
-* URL リンクからのメディア。
-
-* アセットライブラリ内のアセット。
-
-* 背景色。
-
 ### レイアウト {#layout-options}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
->title="アプリ内メッセージのメッセージレイアウトを定義します。"
->abstract="このセクションでは、アプリ内メッセージに背景を追加できます。これには、UI テイクオーバーを有効にする必要があります。"
 
 ![](assets/in_app_web_design_6.png)
 
@@ -212,11 +161,6 @@ ht-degree: 99%
 
 ### メッセージ {#message-tab}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_message_advanced"
->title="メッセージの詳細設定を定義します。"
->abstract="このセクションでは、特に詳細フォーマットが有効になっている場合に、アプリ内コンテンツのパーソナライゼーションを強化できます。"
-
 ![](assets/in_app_web_design_7.png)
 
 デフォルトで有効になっている「UI テイクオーバー」オプションを使用すると、アプリ内メッセージの背景を暗くして、コンテンツへのフォーカスを強調することができます。
@@ -225,15 +169,11 @@ ht-degree: 99%
 
 **[!UICONTROL 詳細フォーマットモード]**&#x200B;がオンの場合は、次のオプションを使用して、メッセージをさらにパーソナライズできます。
 
-* **[!UICONTROL ジェスチャのカスタマイズ]**：ユーザーのスワイプ操作をカスタマイズできます。解除を選択した場合、カスタムインタラクトイベントやターゲット宛先を追加できます。
-
 * **[!UICONTROL UI テイクオーバーのカスタマイズ]**：背景に表示するカラーとその不透明度を選択できます。
 
 * **[!UICONTROL サイズのカスタマイズ]**：アプリ内通知の幅と高さを調整できます。
 
 * **[!UICONTROL 位置のカスタマイズ]**：ユーザーの画面でのアプリ内メッセージの位置をカスタマイズできます。垂直方向と水平方向の配置を変更できます。
-
-* **[!UICONTROL アニメーションのカスタマイズ]**：アプリ内通知がユーザーのデバイスの左または上から表示される場合など、表示と解除のアニメーションをカスタマイズできます。
 
 * **[!UICONTROL メッセージの角丸]**：**[!UICONTROL コーナーの半径]**&#x200B;を変更することで、アプリ内通知のコーナーに角丸を追加できます。
 
@@ -241,12 +181,6 @@ ht-degree: 99%
 
 **関連トピック：**
 
-* [アプリ内メッセージの作成](create-in-app.md)
+* [アプリ内メッセージのテストおよび送信](send-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
 * [アプリ内設定](inapp-configuration.md)
-
-## チュートリアルビデオ{#video}
-
-次のビデオでは、アプリ内メッセージの作成およびテスト方法を示します。
-
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

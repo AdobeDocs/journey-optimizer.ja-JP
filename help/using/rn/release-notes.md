@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 38f85467256b22a6f05fee8137bc76b0d99c4e6e
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 95%
+source-wordcount: '1140'
+ht-degree: 56%
 
 ---
 
@@ -25,6 +25,102 @@ ht-degree: 95%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
+
+## 2024年2月リリースノート {#feb-2024}
+
+**リリース日**:2024 年 2 月 21～22 日
+
+### 新機能{#feb-features}
+
+このリリースでは、以下に示す新機能が導入されています。
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Web アプリ内メッセージ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しい Web アプリ内メッセージ機能を使用して、モーダルオーバーレイメッセージを使用して、パーソナライズされたコンテンツを Web サイトに直接表示できるようになりました。 この機能を使用すると、Web 訪問者との関わりを効果的に高め、ユーザーインタラクション、定着およびコンバージョン率を高めることができます。<br/><br/></p>
+<p>詳しくは、<a href="../in-app/create-in-app-web.md">詳細なドキュメント</a>を参照してください。<br></br></p>
+<img src="assets/do-not-localize/web_inapp.gif">
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>マルチチャネルコンテンツテンプレート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>E メールに加え、コンテンツテンプレートが、プッシュ、アプリ内、SMS、ダイレクトメールの各チャネルで利用できるようになりました。各チャネルには専用のテンプレートタイプがあります。 E メールの場合は、コンテンツタイプを選択できるようになりました。これにより、件名行を E メールテンプレートの一部として保存できます。 <br/><br/></p>
+<p>詳しくは、 <a href="../content-management/content-templates.md">詳細なドキュメント</a>を参照してください。<br></br></p>
+<img src="assets/do-not-localize/multi-chan-templates.gif">
+</tr>
+</tbody>
+</table>
+
+
+### 機能強化 {#feb-improvements}
+
+このリリースでは、以下に示す機能強化が含まれています。
+
+**オーディエンス**
+
+* **シードリスト**  — 使用時にバリアントがサポートされるようになりました **シードリスト**. シードアドレスには、同じメッセージのすべてのバリアントのコピーが届きます（コンテンツ実験の様々な処理など）。 [詳細情報](../configuration/seed-lists.md)
+
+以前はベータ版でしたが、すべてのユーザーが次の機能が強化されました。
+
+* これで、ターゲット設定が可能になりました **オーディエンスの構成で作成されたオーディエンス** ジャーニーのエンリッチメント属性を活用します。 [詳細情報](../building-journeys/read-audience.md)
+
+* これで、ターゲット設定が可能になりました **CSV ファイルからアップロードされたオーディエンス** ジャーニーとキャンペーンに追加します。 [詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* 現在、オーディエンス構成とカスタムアップロード（CSV ファイル）からのオーディエンスと属性の使用は、ヘルスケアシールドまたはプライバシーとセキュリティシールドでは使用できません。
+  >* The **CSV ファイルからのオーディエンスのアップロード** 最初のリリースの後、数日間で徐々に改善が進んでいます。 一部のユーザーは即時にアクセスできますが、他のユーザーの環境で使用できるようになるまでに遅延が生じる場合があります。
+
+**ジャーニー**
+
+* **ジャーニーのフィルタリング**  — 現在は、 **ジャーニーをフィルターするカスタム日付** 在庫に加えて、既存の定義済み日付フィルターも含まれます。 これにより、特定の日付に作成または公開されたジャーニーを、特定の月内、1 年を通じて、または指定した期間内に表示することで、リストを細かく設定できます。 [詳細情報](../building-journeys/journey-gs.md#filter)
+* **カスタムアクション**  — これで、 **content-type** ヘッダー。 この新しい **content-type** は JSON コンテンツを参照する必要があります。 [詳細情報](../action/about-custom-action-configuration.md#url-configuration)
+* **設定** - stepEvents の identityMap 属性が事前入力されるようになりました。 プライマリ ID は「primary = true」と定義されます。 [詳細情報](../reports/sharing-field-list.md)
+* **ユーザーインターフェイス**  — ジャーニー画面の上部バーの構成が変更され、エクスペリエンスが向上しました。 様々な更新の中で、ジャーニーのプロパティにアクセスできる「鉛筆」アイコンが、上部のバーの左側、ジャーニーの名前の横に表示されるようになりました。 [詳細情報](../building-journeys/journey-gs.md#change-properties)
+
+**SMS チャネル**
+
+* **オプトイン/オプトアウトのキーワード** - SMS チャネルを設定する際に、 **オプトインおよびオプトアウトのキーワード** 設定に従って設定します。 Journey Optimizerトリガーは、指定されたこれらのキーワードに基づいて応答を送信します。 [詳細情報](../sms/sms-configuration.md#create-api)
+
+**キャンペーン**
+
+* **API トリガーキャンペーン** - API トリガーキャンペーンのアクティブ化後に生成される cURL コードが強化されました。 メッセージで使用されるすべてのパーソナライゼーション（プロファイルとコンテキスト）変数が含まれるようになりました。 [詳細情報](../campaigns/api-triggered-campaigns.md#execute)
+
+**頻度ルール**
+
+* E メールとプッシュに加えて、SMS チャネルとダイレクトメールチャネル用の頻度ルールを作成できるようになりました。 頻度ルールは、頻度キャップに達した場合に、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外します。 [詳細情報](../configuration/frequency-rules.md)
+
+<!--**Decision management**
+
+* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
+
+<!--
+**Content templates**
+
+* **Thumbnails** - A **Grid view** is now available for content templates for improved visual access.
+
+   >[!AVAILABILITY]
+   >
+   >This capability is released in Limited Availability (LA) for a small set of customers.
+-->
+
 
 ## 2024年1月リリースノート {#jan-2024}
 
@@ -96,6 +192,7 @@ ht-degree: 95%
 **頻度ルール**
 
 * **週別および日別のフリークエンシーキャップ** - 1 か月に加え、1 週間または 1 日に顧客プロファイルに送信するメッセージを指定できるようになりました。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。[詳細情報](../configuration/frequency-rules.md#create-new-rule)
+
 
 **意思決定管理**
 

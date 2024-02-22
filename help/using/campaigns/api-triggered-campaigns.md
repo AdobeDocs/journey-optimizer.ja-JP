@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 96%
 
 ---
 
 # API を使用したキャンペーンのトリガー {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="キャンペーンのタイプ"
->abstract="プロファイルを作成せずにメッセージを送信する機能が限定的に利用可能な場合は、ドキュメントに記載されている手順に従います。"
 
 ## API トリガー型キャンペーンについて {#about}
 
@@ -79,7 +74,7 @@ API トリガーキャンペーンを作成するには、次の手順に従い�
 
 キャンペーンがアクティブ化されたら、生成されたサンプル cURL リクエストを取得、それを API で使用してペイロードを作成し、キャンペーンをトリガーする必要があります。
 
-1. キャンペーンを開き、「**[!UICONTROL cURL リクエスト]** 」セクションからサンプルリクエストをコピー＆ペーストします。
+1. キャンペーンを開き、 **[!UICONTROL cURL リクエスト]** 」セクションに入力します。 このペイロードには、メッセージで使用されるすべてのパーソナライゼーション（プロファイルとコンテキスト）変数が含まれます。 キャンペーンがライブになると、使用可能になります。
 
    ![](assets/api-triggered-curl.png)
 

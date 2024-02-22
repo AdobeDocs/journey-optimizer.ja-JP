@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
-workflow-type: ht
-source-wordcount: '1787'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 公開フィルター]**&#x200B;を使用すると、公開日またはユーザーを選択できます。例えば、昨日公開されたライブジャーニーの最新バージョンのみを表示するように選択できます。
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  特定の日付範囲に基づいてジャーニーをフィルタリングするには、「 」を選択します **[!UICONTROL カスタム]** から **[!UICONTROL 公開済み]** 」ドロップダウンリストから選択できます。
 
 イベント、データソースまたはアクションの設定ペインの「**[!UICONTROL 使用されている場所]**」フィールドには、特定のイベント、フィールドグループまたはアクションを使用するジャーニーの数が表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、対応するジャーニーのリストを表示できます。
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 >title="ジャーニーのプロパティ"
 >abstract="この節では、ジャーニーのプロパティについて説明します。デフォルトでは、読み取り専用のパラメーターは非表示です。使用可能な設定は、ジャーニーのステータス、権限および製品設定によって異なります。"
 
-右上の鉛筆アイコンをクリックして、ジャーニーのプロパティにアクセスします。
+ジャーニーの名前の横にある鉛筆アイコンをクリックして、そのプロパティにアクセスします。
 
 ユーザーは、ジャーニー名の変更、説明の追加、再エントリの許可、開始日と終了日の選択ができ、管理者は、**[!UICONTROL タイムアウトとエラー]**&#x200B;の時間の定義ができます。また、Adobe Experience Platform 統合タグをジャーニーに割り当てることもできます。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。[タグの操作方法については、こちらを参照してください](../start/search-filter-categorize.md#tags)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
-workflow-type: ht
-source-wordcount: '991'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 85%
 
 ---
 
@@ -39,15 +39,11 @@ ht-degree: 100%
 
 ## [!DNL Journey Optimizer] でのターゲットオーディエンス {#segments-in-journey-optimizer}
 
-キャンペーンとジャーニーでは、[セグメント定義](../audience/creating-a-segment-definition.md)を使用して生成された Adobe Experience Platform オーディエンスを選択できます。
+セグメント定義、CSV ファイルのインポートまたは構成ワークフローを使用して生成された任意のオーディエンスをキャンペーンとジャーニーで選択できます。
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->現時点では、[オーディエンスのコンポジション](../audience/get-started-audience-orchestration.md)から得られたオーディエンスはキャンペーンでのみターゲットに設定できます。この機能は、ジャーニーのプライベートベータ版として使用可能です。
->
->キャンペーンおよびジャーニーでの [CSV ファイルからアップロードされた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}オーディエンスの使用は、現在プライベートベータ版として利用できます。
->
->詳しくは、アドビ担当者にお問い合わせください。
+>現在、オーディエンス構成とカスタムアップロード（CSV ファイル）からのオーディエンスと属性の使用は、ヘルスケアシールドまたはプライバシーとセキュリティシールドでは使用できません。 [Journey Optimizerでオーディエンスエンリッチメント属性を使用する方法を説明します。](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 
@@ -62,6 +58,18 @@ ht-degree: 100%
   例えば、新規のシルバー顧客全員をジャーニーにエントリさせ、それらの顧客にメッセージを送信することができます。このアクティビティの使用方法について詳しくは、[「オーディエンスの選定」アクティビティの設定方法](../building-journeys/audience-qualification-events.md)を参照してください。
 
 * ジャーニーの&#x200B;**条件**&#x200B;アクティビティを使用し、オーディエンスメンバーシップに基づいて条件を作成します。[詳しくは、条件でのオーディエンスの使用方法を参照してください](../building-journeys/condition-activity.md#using-a-segment)。
+
+## Journey Optimizerでのオーディエンスエンリッチメント属性の使用 {#enrichment}
+
+構成ワークフローまたはカスタムアップロード（CSV ファイル）を使用して生成されたオーディエンスをターゲティングする場合、これらのオーディエンスのエンリッチメント属性を活用して、ジャーニーを構築し、メッセージをパーソナライズできます。
+
+* ターゲットオーディエンスのエンリッチメント属性を利用するルールに基づいて、ジャーニー内に複数のパスを作成します。 これをおこなうには、 [オーディエンスの閲覧](../building-journeys/read-audience.md) アクティビティを作成してから、 [条件](../building-journeys/condition-activity.md) オーディエンスのエンリッチメント属性に基づくアクティビティ。
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* 式エディターでターゲットオーディエンスからエンリッチメント属性を追加して、ジャーニーまたはキャンペーンのメッセージをパーソナライズします。 [式エディターの操作方法を説明します。](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## オーディエンスの評価方法 {#evaluation-method-in-journey-optimizer}
 

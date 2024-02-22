@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
-workflow-type: ht
-source-wordcount: '746'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 | ID 管理 | **[!DNL Manage identity namespaces]**：ID 名前空間の読み取り、作成および編集。</br>**[!DNL View identity namespaces]**：ID 名前空間への読み取り専用アクセス。</br>**[!DNL Manage identity settings]**：ID 設定の読み取り、作成および編集。</br>**[!DNL View identity settings]**：ID 設定への読み取り専用アクセス。</br>**[!DNL View identity graph]**：ID グラフへの読み取り専用アクセス。 |
 | Journey Optimizer ライブラリ | **[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</br>**[!DNL Simulate content]**：プレビューおよび配達確認用に「コンテンツをシミュレート」オプションへのアクセス。 |
 | Journey Optimizer ルール | **[!DNL View frequency rules]**：ルールへの読み取り専用アクセス。</br>**[!DNL Manage frequency rules]**：メッセージ頻度ルールへのアクセス、作成、編集、削除。 |
-| ジャーニー | **[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、削除。</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL Publish journeys]**：ジャーニーの公開。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取りと編集。</br> |
+| ジャーニー | **[!DNL Manage journeys]**：ジャーニーを読み取り、作成、編集、削除します。 ジャーニーにアクセスして管理するには、この権限を **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL Publish journeys]**：ジャーニーの公開。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取りと編集。</br> |
 | プロファイル管理 | **[!DNL Manage profiles]**：顧客プロファイルに使用するデータセットへの読み取り、作成、編集、削除。使用可能なプロファイルへの読み取り専用アクセス&#x200B;</br>**[!DNL View profiles]**：使用可能なプロファイルへの読み取り専用アクセス。</br>**[!DNL Export audience segments]**：評価済みのデータセットセグメントをオーディエンスセットに書き出します。</br>**[!DNL View segments]**：使用可能なオーディエンスへの読み取り専用アクセス。</br>**[!DNL Evaluate a segment to an audience]**：セグメント定義を評価して、オーディエンスのプロファイルを生成します。</br>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</br>**[!DNL View merge policies]**：使用可能な結合ポリシーへの読み取り専用アクセス。 |
 | クエリサービス | **[!DNL Manage queries]**：Platform データの構造化 SQL クエリの読み取り、作成、編集、削除。</br>**[!DNL Manage query service integration]**：クエリサービスアクセスの有効期限が切れていない資格情報を作成、更新および削除。 |
 | サンドボックス管理 | **[!DNL Manage sandboxes]**：サンドボックスの読み取り、作成、編集、削除。</br>**[!DNL View sandboxes]**：組織に属するサンドボックスへの読み取り専用アクセス。</br>**[!DNL Reset sandboxes]**：サンドボックスをリセットする機能。</br>**[!DNL Export sandboxes]**：サンドボックスを書き出す機能。</br>**[!DNL Manage packages]**：パッケージの読み取り、作成、編集、および削除。 |

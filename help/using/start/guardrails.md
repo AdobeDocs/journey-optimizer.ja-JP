@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,8 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * IP アドレスは使用できません。
 * 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。
 * ビルトインのカスタムアクションは削除できません。
-* カスタムアクションを使用してターゲットにするエンドポイントを選択する場合は、次の点を確認します。
+* カスタムアクションは、リクエストペイロードまたは応答ペイロードを使用する場合にのみ、JSON 形式をサポートします。 [このページ](../action/about-custom-action-configuration.md#custom-actions-limitations)を参照してください。
+* ターゲットにするエンドポイントをカスタムアクションを使用して選択する場合は、次の点を確認します。
 
    * このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットを制限することでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、200 TPS 以上をサポートする必要があります。
    * このエンドポイントの応答時間は、できるだけ短くする必要があります。予想されるスループットに応じて、応答時間が長いと、実際のスループットに影響を与える可能性があります。

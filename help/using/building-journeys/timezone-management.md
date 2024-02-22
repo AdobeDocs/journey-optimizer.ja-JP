@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: タイムゾーン, プロパティ, ジャーニー, 条件, 時間, 日付, カスタム
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,7 @@ ht-degree: 100%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-タイムゾーンを選択するか、ユーザープロファイルで定義されたタイムゾーンを使用するかを選択できます。
-
->[!NOTE]
->
->プロファイルタイムゾーンは、「**環境設定詳細**」フィールドグループにある「**timeZone**」フィールドと連携します。
+次の項目を選択できます。 [固定タイムゾーン](#fixed-timezone) または、タイムゾーンを使用することを選択します。 [ユーザープロファイルで定義](#timezone-from-profiles).
 
 ## 固定タイムゾーンの定義 {#fixed-timezone}
 
@@ -54,6 +50,10 @@ ht-degree: 100%
 プロファイルのタイムゾーンが定義されている場合、そのタイムゾーンが取得され、ジャーニーで使用されます。 タイムゾーンが定義されていない場合、使用されるタイムゾーンは、 タイムゾーンフィールドで定義されたタイムゾーンになります。
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>プロファイルタイムゾーンは、「**環境設定詳細**」フィールドグループにある「**timeZone**」フィールドと連携します。
 
 ## 式でタイムゾーンを使用 {#timezone-in-expressions}
 

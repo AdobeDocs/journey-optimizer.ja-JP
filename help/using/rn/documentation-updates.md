@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 99%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 99%
 ## 2024年2月 {#feb-2024}
 
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。 [詳細情報](../offers/offer-library/add-representations.md#context-data)
+* guardrails ページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。 [詳細情報](../start/guardrails.md#custom-actions-g)
+* 外部データソースの基本認証タイプに関する情報が追加されました。 [詳細情報](../datasource/external-data-sources.md)
+* を明確に区別するためのメモが追加されました。 [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md) から [パーソナライゼーションエディター](../personalization/functions/functions.md).
+* 高度な式エディターで使用できる関数のリストが更新されました。 [詳細情報](../building-journeys/expression/functions.md)
+* Split 関数のページが更新されました。 [詳細情報](../building-journeys/functions/functioninaudience.md)
+* アプリ内メッセージに対するオプトインまたはオプトアウト通知の影響に関する情報が追加されました。 [詳細情報](../in-app/create-in-app.md)
+* メッセージ頻度ルールページが更新され、ユーザーインターフェイスで使用できる「期間」オプション（毎週または毎月）が反映されました。 [詳細情報](../configuration/frequency-rules.md)
 
 ## 2024年1月 {#jan-2024}
 
@@ -321,7 +328,7 @@ ht-degree: 99%
 
 ## 2021年9月 {#september-2021}
 
-* [sethours](../building-journeys/functions/functionsethours.md)、[getListItem](../building-journeys/functions/functiongetlistitem.md)、[inSegment](../building-journeys/functions/functioninsegment.md) の各関数のページが更新されました。
+* [sethours](../building-journeys/functions/functionsethours.md)、[getListItem](../building-journeys/functions/functiongetlistitem.md)、[inSegment](../building-journeys/functions/functioninaudience.md) の各関数のページが更新されました。
 
 * [filter](../building-journeys/functions/functionfilter.md)、[intersect](../building-journeys/functions/functionintersect.md)、[toDateOnly](../building-journeys/functions/functiontodateonly.md) の各関数が追加されました。
 

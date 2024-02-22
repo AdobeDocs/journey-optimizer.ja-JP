@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 92%
+source-wordcount: '1518'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,73 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 >title="SMS ベンダー設定の選択"
 >abstract="SMS ベンダーに設定する API 資格情報を選択します。"
 
-SMS プロバイダーをJourney Optimizerで設定するには、次の手順に従います。
+### シンチ {#sinch-api}
+
+Journey Optimizerで Sinch を設定するには、次の手順に従います。
+
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
+
+   ![](assets/sms_6.png)
+
+1. 以下に示すように、SMS API 資格情報を設定します。
+
+   * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
+
+   * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。詳しくは、[Sinch のドキュメント](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}を参照してください。
+
+   * **[!UICONTROL オプトインのキーワード]**：自動的にキーワードを設定するデフォルトまたはカスタムのトリガーを入力します **[!UICONTROL オプトインメッセージ]**. 複数のキーワードの場合は、コンマ区切り値を使用します。
+
+   * **[!UICONTROL オプトインメッセージ]**：**[!UICONTROL オプトインメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
+
+   * **[!UICONTROL オプトアウトキーワード]**：自動的にキーワードを設定するデフォルトまたはカスタムのトリガーを入力します **[!UICONTROL オプトアウトメッセージ]**. 複数のキーワードの場合は、コンマ区切り値を使用します。
+
+   * **[!UICONTROL オプトアウトメッセージ]**：**[!UICONTROL オプトアウトメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
+
+   * **[!UICONTROL ヘルプキーワード]**：自動的にキーワードを設定するデフォルトまたはカスタムのトリガーを入力します **ヘルプメッセージ**. 複数のキーワードの場合は、コンマ区切り値を使用します。
+
+   * **[!UICONTROL ヘルプメッセージ]**：**ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。
+
+   * **[!UICONTROL ダブルオプトインキーワード]**：ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードに対しては、コンマ区切り値を使用します。 [SMS ダブルオプトインの詳細を説明します](https://video.tv.adobe.com/v/3427129/?learn=on).
+
+   * **[!UICONTROL ダブルオプトインメッセージ]**：ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
+
+1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+
+API 資格情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。
+
+<!--
+### Sinch MMS
+
+For **[!DNL Sinch MMS]**
+
+        * **[!UICONTROL Name]**: choose a name for your API Credential.
+
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+-->
+
+### Twilio {#twilio-api}
+
+Journey Optimizerで Twilio を設定するには、次の手順に従います。
+
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
+
+   ![](assets/sms_6.png)
+
+1. 以下に示すように、SMS API 資格情報を設定します。
+
+   * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
+
+   * **[!UICONTROL アカウント SID]** および **[!UICONTROL 認証トークン]**：アクセス **アカウント情報** Twilio Console Dashboard ページのウィンドウで、資格情報を確認します。
+
+   * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、[Twilio のドキュメント](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}を参照してください。
+
+1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+
+API 資格情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。
+
+### Infobip {#infobip-api}
+
+Journey Optimizerで Infobip を設定するには、次の手順に従います。
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
@@ -67,63 +133,34 @@ SMS プロバイダーをJourney Optimizerで設定するには、次の手順�
 
 1. 以下で説明するように、SMS API 資格情報を設定します。
 
-   ![](assets/sms_7.png)
+   * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-   * +++ **[!DNL Sinch]** の場合
+   * **[!UICONTROL API ベース URL]** および **[!UICONTROL API キー]**:Web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を見つけます。 詳しくは、[Infobip のドキュメント](https://www.infobip.com/docs/api){target="_blank"}を参照してください。
 
-      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
+   * **[!UICONTROL オプトインのキーワード]**：自動的にキーワードを設定するデフォルトまたはカスタムのトリガーを入力します **[!UICONTROL オプトインメッセージ]**. 複数のキーワードの場合は、コンマ区切り値を使用します。
 
-      * **[!UICONTROL サービス ID]** および **[!UICONTROL API トークン]**：API ページにアクセスして、「SMS」タブで資格情報を検索します。詳しくは、[Sinch のドキュメント](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}を参照してください。
+   * **[!UICONTROL オプトインメッセージ]**：**[!UICONTROL オプトインメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
-      * **[!UICONTROL オプトインメッセージ]**：**[!UICONTROL オプトインメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
+   * **[!UICONTROL オプトアウトキーワード]**：自動的にトリガーを設定するデフォルトのキーワードまたはキーワードを入力します **[!UICONTROL オプトアウトメッセージ]**. 複数のキーワードの場合は、コンマ区切り値を使用します。
 
-      * **[!UICONTROL オプトアウトメッセージ]**：**[!UICONTROL オプトアウトメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
+   * **[!UICONTROL オプトアウトメッセージ]**：**[!UICONTROL オプトアウトメッセージ]**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
-      * **[!UICONTROL ヘルプメッセージ]**：**ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。
+   * **[!UICONTROL ヘルプキーワード]**：自動的にキーワードを設定するデフォルトまたはカスタムのトリガーを入力します **ヘルプメッセージ**. 複数のキーワードの場合は、コンマ区切り値を使用します。
 
-      * **[!UICONTROL ダブルオプトインキーワード]**：ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードに対しては、コンマ区切り値を使用します。 [SMS ダブルオプトインの詳細を説明します](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL ヘルプメッセージ]**：**ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。
 
-      * **[!UICONTROL ダブルオプトインメッセージ]**：ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
-+++
+   * **[!UICONTROL ダブルオプトインキーワード]**：ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。
 
-   * +++ **[!DNL Twilio]** の場合
+   * **[!UICONTROL ダブルオプトインメッセージ]**：ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
 
-      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
+   * **[!UICONTROL プリンシパルエンティティ ID]**：割り当てられた DLT プリンシパルエンティティ ID を入力します。
 
-      * **[!UICONTROL アカウント SID]** および&#x200B;**[!UICONTROL 認証トークン]**：Twilio コンソールダッシュボードページの「アカウント情報」パネルにアクセスして、資格情報を検索します。
+   * **[!UICONTROL コンテンツテンプレート ID]**：登録済みの DLT コンテンツテンプレート ID を入力します。
 
-      * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、[Twilio のドキュメント](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}を参照してください。
+   * **[!UICONTROL 有効期間]**：メッセージの有効期間を時間単位で入力します。この時間枠内にメッセージを配信できない場合は、システムは追加の再送信を試みます。デフォルトの有効期間は 48 時間に設定されています。
 
-+++
+   * **[!UICONTROL コールバックデータ]**：通知 URL で送信する追加のクライアントデータを入力します。
 
-   * +++ **[!DNL Infobip]** の場合
-
-      * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
-
-      * **[!UICONTROL API ベース URL]** および **[!UICONTROL API トークン]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。詳しくは、[Infobip のドキュメント](https://www.infobip.com/docs/api){target="_blank"}を参照してください。
-
-      * **[!UICONTROL ダブルオプトインキーワード]**：ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。
-
-      * **[!UICONTROL ダブルオプトインメッセージ]**：ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
-
-      * **[!UICONTROL プリンシパルエンティティ ID]**：割り当てられた DLT プリンシパルエンティティ ID を入力します。
-
-      * **[!UICONTROL コンテンツテンプレート ID]**：登録済みの DLT コンテンツテンプレート ID を入力します。
-
-      * **[!UICONTROL 有効期間]**：メッセージの有効期間を時間単位で入力します。この時間枠内にメッセージを配信できない場合は、システムは追加の再送信を試みます。デフォルトの有効期間は 48 時間に設定されています。
-
-      * **[!UICONTROL コールバックデータ]**：通知 URL で送信する追加のクライアントデータを入力します。
-+++
-
-<!--
-    * +++ For **[!DNL Sinch MMS]**
-
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
-
-        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
-        +++ 
--->
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
 API 資格情報を作成して設定した後、SMS メッセージ用のチャネルサーフェス（メッセージプリセットなど）を作成する必要があります。

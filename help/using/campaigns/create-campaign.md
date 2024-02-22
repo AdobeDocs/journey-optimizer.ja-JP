@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 99%
+source-wordcount: '969'
+ht-degree: 94%
 
 ---
 
@@ -126,9 +126,9 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->現時点では、キャンペーンに [CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスの使用は、プライベートベータ版として使用可能です。詳しくは、アドビ担当者にお問い合わせください。
+>からのオーディエンスと属性の使用 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) および [カスタムアップロード（CSV ファイル）](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience) は、現在、ヘルスケアシールドまたはプライバシーとセキュリティシールドで使用することはできません。 [Journey Optimizerでオーディエンスエンリッチメント属性を使用する方法を説明します。](../audience/about-audiences.md#enrichment)
 >
->API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。([詳細情報](api-triggered-campaigns.md))
+>API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを介して設定する必要があります。
 
 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 100%
+source-wordcount: '1494'
+ht-degree: 97%
 
 ---
 
@@ -75,6 +75,8 @@ ht-degree: 100%
 ## データソースの条件 {#data_source_condition}
 
 これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントに基づいて条件を定義できます。式エディターの使用方法については、[この節](expression/expressionadvanced.md)を参照してください。
+
+例えば、構成ワークフローまたはカスタムアップロード（CSV ファイル）を使用して生成されたエンリッチメント属性を持つオーディエンスをターゲットにする場合、これらのエンリッチメント属性を活用して条件を作成できます。 [Journey Optimizerでオーディエンスエンリッチメント属性を使用する方法を説明します。](../audience/about-audiences.md#enrichment)
 
 高度な式エディターを使用すると、コレクションを操作したり、パラメーターを渡す必要があるデータソースを使用したり、より高度な条件を設定できます。[詳細情報](../datasource/external-data-sources.md)。
 

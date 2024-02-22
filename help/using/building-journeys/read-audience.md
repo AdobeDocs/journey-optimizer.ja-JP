@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 100%
+source-wordcount: '1427'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 * ベストプラクティスとして、バッチオーディエンスは、**オーディエンスを読み取り**&#x200B;アクティビティでのみ使用することをお勧めします。これにより、ジャーニーで使用されるオーディエンスが、高い信頼性かつ一貫してカウントされます。「オーディエンスを読み取り」は、バッチのユースケース向けに設計されています。ユースケースでリアルタイムデータが必要な場合は、**[オーディエンスの選定](audience-qualification-events.md)**&#x200B;アクティビティを使用します。
 
-* 現時点では、[CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスや、ジャーニーへの[コンポジションワークフロー](../audience/get-started-audience-orchestration.md)から生成されたオーディエンスの使用は、Private Beta として使用可能です。詳しくは、アドビ担当者にお問い合わせください。
+* オーディエンス [CSV ファイルから読み込み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience) または、 [コンポジションワークフロー](../audience/get-started-audience-orchestration.md) を **オーディエンスの閲覧** アクティビティ。 これらのオーディエンスは、 **オーディエンスの選定** アクティビティ。
 
 ## アクティビティの設定 {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >また、[オーディエンスの構成](../audience/get-started-audience-orchestration.md)または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を使用して作成された Adobe Experience Platform オーディエンスをターゲットにすることもできます。これらの機能は現在、Private Beta として使用可能です。
+   >また、 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}.
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 

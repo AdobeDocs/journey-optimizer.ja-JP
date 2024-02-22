@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21ce33b19693830972990c2c8bd5afe62b4c046d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 100%
+source-wordcount: '1736'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
       + 関数 {#main-functions-journey}
          + [主な関数](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
-            + [inSegment](using/building-journeys/functions/functioninsegment.md)
+            + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + 集計 {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
@@ -205,7 +205,8 @@ ht-degree: 100%
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
    + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
-   + [アプリ内メッセージの作成 ](using/in-app/create-in-app.md)
+   + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
+   + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
    + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
 + プッシュ通知チャネル{#push}

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 94%
+source-wordcount: '1119'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 94%
 
 [!DNL Journey Optimizer] では、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルルールを設定することで、ユーザーがメッセージを受け取ったり、ジャーニーにエントリする頻度を制御できます。
 
-例えば、ブランドの場合、顧客に月に 3 件を超えるマーケティングメッセージを送信しないというルールを設定できます。これを行うには、頻度ルールを使用して、月別のカレンダー期間に、1 つ以上のチャネルに基づいて送信されるメッセージの件数に上限を設定することができます。
+例えば、ブランドの場合、顧客に月に 4 件を超えるマーケティングメッセージを送信しないというルールを設定できます。これを行うには、頻度ルールを使用して、月別のカレンダー期間に、1 つ以上のチャネルに基づいて送信されるメッセージの件数に上限を設定することができます。
+
+![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
@@ -69,21 +71,17 @@ ht-degree: 94%
 
    ![](assets/message-rules-create.png)
 
-1. ルール名を定義します。
-
-   <!--![](assets/message-rules-details.png)-->
-   ![](assets/message-rules-details-temp.png)
-
-1. メッセージルールカテゴリを選択します。
+1. ルール名を定義し、メッセージルールのカテゴリを選択します。
 
    >[!NOTE]
    >
    >現在、**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが使用可能です。
 
+   <!--![](assets/message-rules-details.png)-->
+
 1. 次から： **[!UICONTROL 期間]** 」ドロップダウンリストから、キャッピングを適用する期間を選択します。
 
-   <!--![](assets/message-rules-capping-duration.png)-->
-   ![](assets/message-rules-capping-duration-temp.png)
+   ![](assets/message-rules-capping-duration.png)
 
    フリークエンシーキャップは、選択したカレンダーの期間に基づきます。対応する時間枠の開始時にリセットされます。
 
@@ -101,7 +99,7 @@ ht-degree: 94%
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. このルールに使用するチャネルを「**[!UICONTROL メール]**」または「**[!UICONTROL プッシュ通知]**」から選択します。
+1. このルールに使用するチャネルを選択します。 **[!UICONTROL 電子メール]**, **[!UICONTROL プッシュ通知]**, **[!UICONTROL SMS]** または **[!UICONTROL ダイレクトメール]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -173,7 +171,7 @@ ht-degree: 94%
 
 1. 「*全マーケティングキャッピング*」という名前の[ルールを作成](#create-new-rule)します。
 
-   * 「メール」および「プッシュ」チャネルを選択します。
+   * すべてのチャネルを選択します。
    * 制限を 12 か月に設定します。
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -187,9 +185,26 @@ ht-degree: 94%
 
 1. ルールを保存して[アクティブ化](#activate-rule)します。
 
-1. メールを作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../email/create-email.md)
+1. [メッセージの作成](../building-journeys/journeys-message.md) を通じて通信するすべてのチャネルに対して、を選択します。 **[!UICONTROL マーケティング]** 各メッセージのカテゴリ。 [頻度ルールを適用する方法を説明します](#apply-frequency-rule)
 
-1. プッシュ通知を作成し、そのメッセージの&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[詳細情報](../push/create-push.md)
+   ![](assets/journey-message-category.png)
+
+
+<!--
+Learn how to create a message for the different channels in the following sections:
+* [Create an email](../email/create-email.md)
+* [Create a push notification](../push/create-push.md)
+* [Create an SMS](../sms/create-sms.md)
+* [Create a direct mail](../direct-mail/create-direct-mail.md)
+
+Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../email/create-email.md)
+
+Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../push/create-push.md)
+
+Create an SMS and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../sms/create-sms.md)
+
+Create a direct mail and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../direct-mail/create-direct-mail.md)
+-->
 
 このシナリオでは、個々のプロファイルは次のようになります。
 * 1 か月に最大 12 件のマーケティングメッセージを受信できます。

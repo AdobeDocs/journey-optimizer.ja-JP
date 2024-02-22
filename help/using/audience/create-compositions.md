@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 97%
+source-wordcount: '444'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 97%
 
    ![](assets/audiences-alerts.png)
 
-1. コンポジションが公開されます。 結果オーディエンスは、Adobe Experience Platform に保存され、Journey Optimizer キャンペーンでターゲットにする準備が整います。[キャンペーンとの連携方法を学ぶ](../campaigns/get-started-with-campaigns.md)
+1. コンポジションが公開されます。 結果のオーディエンスはAdobe Experience Platformに保存され、Journey Optimizerでターゲットにする準備が整います。 [Journey Optimizerでオーディエンスのターゲット設定を行う方法を説明します](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## コンポジションへのアクセス {#access}
 
