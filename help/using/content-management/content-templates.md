@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 50%
@@ -41,7 +41,7 @@ ht-degree: 50%
 
 コンテンツテンプレートリストにアクセスするには、左のメニューで&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;を選択します。
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 現在のサンドボックスで作成されたすべてのテンプレート ( ジャーニーまたは **[!UICONTROL テンプレートとして保存]** オプション ( **[!UICONTROL コンテンツテンプレート]** メニュー — が表示されます。 [テンプレートの作成方法を説明します](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * テンプレートコンテンツを編集するには、リストから目的の項目をクリックし、「**[!UICONTROL コンテンツを編集]**」を選択します。
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * テンプレートを削除するには、 **[!UICONTROL その他のアクション]** ボタンをクリックし、「 **[!UICONTROL 削除]**.
 
@@ -202,7 +202,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 1. クリック **[!UICONTROL コンテンツをシミュレート]** をクリックし、レンダリングを確認するテストプロファイルを選択します。 [詳細情報](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. ジャーニーやキャンペーンで使用する前に、コンテンツをテストするための配達確認を送信し、一部の内部ユーザーから承認を得ることができます。
 
@@ -210,7 +210,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
    * 配達確認を送信する前に、コンテンツのテストに使用する[メールサーフェス](../configuration/channel-surfaces.md)を選択する必要があります。
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
