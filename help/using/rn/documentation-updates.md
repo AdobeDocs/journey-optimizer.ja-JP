@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '4743'
-ht-degree: 97%
+source-wordcount: '4778'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 97%
 * Split 関数のページが更新されました。 [詳細情報](../building-journeys/functions/functioninaudience.md)
 * アプリ内メッセージに対するオプトインまたはオプトアウト通知の影響に関する情報が追加されました。 [詳細情報](../in-app/create-in-app.md)
 * メッセージ頻度ルールページが更新され、ユーザーインターフェイスで使用できる「期間」オプション（毎週または毎月）が反映されました。 [詳細情報](../configuration/frequency-rules.md)
+* PTR レコードの編集の節が更新され、PTR レコードを手動で作成できないこと、および PTR レコードを編集して新しいサブドメインを割り当てる必要があることが明確になりました。 [詳細情報](using/configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024年1月 {#jan-2024}
 
