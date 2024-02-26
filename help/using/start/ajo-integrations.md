@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 92%
 
 ---
 
@@ -76,6 +76,15 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 また、Adobe Campaign Standard との統合を設定して、ジャーニーでメッセージを送信することもできます。
 
 詳しくは、[Journey Optimizer + Campaign Standard](../building-journeys/using-adobe-campaign-standard.md) を参照してください。
+
+
+## Adobe Workfront {#integration-workfront}
+
+Adobe WorkfrontのAdobe Journey Optimizerモジュールを使用して、レコードの作成、読み取り、更新、削除をおこなったり、Adobe Journey Optimizer API に対するカスタム API 呼び出しを実行したりします。
+
+この統合の主な手順の概要を確認できます [このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+
+Journey OptimizerとAdobe Workfrontの詳細 [Adobe Workfrontドキュメント内](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## カスタムチャネル {#integration-custom}
 
