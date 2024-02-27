@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1083'
 ht-degree: 85%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 85%
 
 >[!AVAILABILITY]
 >
->現在、オーディエンス構成とカスタムアップロード（CSV ファイル）からのオーディエンスと属性の使用は、ヘルスケアシールドまたはプライバシーとセキュリティシールドでは使用できません。 [Journey Optimizerでオーディエンスエンリッチメント属性を使用する方法を説明します。](../audience/about-audiences.md#enrichment)
+>現在、オーディエンス構成およびカスタムアップロード（CSV ファイル）オーディエンスからのオーディエンスおよび属性の使用は、ヘルスケアシールドまたはプライバシーとセキュリティシールドでは使用できません。 [Journey Optimizerでオーディエンスエンリッチメント属性を使用する方法を説明します。](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 
@@ -61,7 +61,7 @@ ht-degree: 85%
 
 ## Journey Optimizerでのオーディエンスエンリッチメント属性の使用 {#enrichment}
 
-構成ワークフローまたはカスタムアップロード（CSV ファイル）を使用して生成されたオーディエンスをターゲティングする場合、これらのオーディエンスのエンリッチメント属性を活用して、ジャーニーを構築し、メッセージをパーソナライズできます。
+合成ワークフローを使用して生成されたオーディエンスをターゲティングする場合、これらのオーディエンスのエンリッチメント属性を活用して、ジャーニーを構築し、メッセージをパーソナライズできます。
 
 * ターゲットオーディエンスのエンリッチメント属性を利用するルールに基づいて、ジャーニー内に複数のパスを作成します。 これをおこなうには、 [オーディエンスの閲覧](../building-journeys/read-audience.md) アクティビティを作成してから、 [条件](../building-journeys/condition-activity.md) オーディエンスのエンリッチメント属性に基づくアクティビティ。
 

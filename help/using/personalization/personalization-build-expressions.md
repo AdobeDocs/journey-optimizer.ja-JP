@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 91%
+source-wordcount: '453'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->構成ワークフローまたはカスタムアップロード（CSV ファイル）を使用して生成されたエンリッチメント属性を持つオーディエンスをターゲットにしている場合は、これらのエンリッチメント属性を活用してメッセージをパーソナライズできます。 [オーディエンスエンリッチメント属性の使用方法を説明します。](../audience/about-audiences.md#enrichment)
+>構成ワークフローで生成されたエンリッチメント属性を持つオーディエンスをターゲットにする場合は、これらのエンリッチメント属性を利用してメッセージをパーソナライズできます。 [オーディエンスエンリッチメント属性の使用方法を説明します。](../audience/about-audiences.md#enrichment)
 
 さらに、文字列タイプのプロファイル属性が空の場合に表示されるデフォルトの代替テキストを定義できます。これを行うには、属性の横にある省略記号ボタンをクリックし、「**[!UICONTROL 代替テキストで挿入]**」を選択します。プロファイルの属性の値が空の場合にデフォルトで表示するテキストを書き込み、「**[!UICONTROL 追加]**」をクリックします。
 
