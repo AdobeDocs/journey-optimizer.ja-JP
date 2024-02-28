@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 100%
 

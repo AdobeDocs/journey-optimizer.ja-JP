@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4368'
 ht-degree: 100%
 
@@ -318,7 +318,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 ![](assets/journey_email_sent_domains.png)
 
-**[!UICONTROL ドメイン別に送信および配信]**&#x200B;のテーブルとグラフは、ドメインレベルでのメールの詳細な分類を提供し、メールのパフォーマンスに関する包括的なインサイトを提供します。
+**[!UICONTROL ドメイン別に送信および配信]**&#x200B;のテーブルとグラフは、ドメインレベルでのメールの詳細な分類を表示し、メールのパフォーマンスに関する包括的なインサイトを提供します。
 
 +++ ドメイン別に送信および配信指標の詳細情報
 
@@ -356,7 +356,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 ![](assets/journey_email_bounce_domains.png)
 
-**[!UICONTROL ドメイン別バウンス数とエラー数]**&#x200B;のグラフとテーブルには、送信プロセス中に発生した特定のエラーのドメインレベルでの分類が表示され、発生した問題を詳しく分析できます。
+**[!UICONTROL ドメイン別のバウンス数およびエラー数]**&#x200B;のグラフとテーブルには、送信プロセス中に発生した特定のエラーのドメインレベルでの分類が表示され、発生した問題を詳しく分析できます。
 
 +++ ドメイン別のバウンス数およびエラー数指標の詳細情報
 
