@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 89%
 
    <!--![](assets/message-rules-details.png)-->
 
-1. 次から： **[!UICONTROL 期間]** 」ドロップダウンリストから、キャッピングを適用する期間を選択します。
+1. **[!UICONTROL 期間]**&#x200B;ドロップダウンリストから、キャッピングを適用する時間枠を選択します。
 
    ![](assets/message-rules-capping-duration.png)
 
@@ -93,9 +93,9 @@ ht-degree: 89%
 
    * **[!UICONTROL 毎月]**：フリークエンシーキャップは、その月の最終日の 23:59:59 UTC まで有効です。例えば、1 月の月次有効期限は 1/31 23:59:59 UTC です。
 
-   &lt;!  — 注意： [バッチセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} をお勧めします。 <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   &lt;! --メモ：[バッチセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch)を扱う場合、{target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} が推奨されます。<!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
-1. ルールの上限を設定します。つまり、1 ヶ月または 1 週間に個々のユーザープロファイルに送信できるメッセージの最大数を示します <!--or day-->  — 上で選択した内容に従います。
+1. ルールのキャッピングを設定します。これは、上記の選択に応じて、毎月または毎週<!--or day-->、個々のユーザープロファイルに送信できるメッセージの最大数を意味します。
 
    <!--![](assets/message-rules-capping.png)-->
 
@@ -172,14 +172,14 @@ ht-degree: 89%
 1. 「*全マーケティングキャッピング*」という名前の[ルールを作成](#create-new-rule)します。
 
    * すべてのチャネルを選択します。
-   * 制限を 12 か月に設定します。
+   * キャッピングを月単位で 12 に設定します。
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. ユーザーに送信されるマーケティングベースのプッシュ通知の数をさらに制限するには、2 つ目のルールとして「*プッシュマーケティングの上限*」という名前のルールを作成します。
 
    * 「プッシュ」チャネルを選択します。
-   * 上限を 4 ヶ月に設定します。
+   * キャッピングを月単位で 4 に設定します。
 
    ![](assets/message-rules-ex-push-cap.png)
 

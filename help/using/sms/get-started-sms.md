@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: テキストメッセージの概要
+title: テキストメッセージの基本を学ぶ
 description: Journey Optimizer でテキストメッセージを作成して送信する方法を学ぶ
 feature: SMS
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 52%
 
 テキストメッセージは、ジャーニーまたはキャンペーンで作成して送信できます。SMS の場合は、SMS アクションを使用します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加して、基本設定を定義し、 **[!UICONTROL アクション：SMS]** SMS メッセージのコンテンツを作成する右側のウィンドウ ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
+* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：SMS]**&#x200B;パネルを参照して SMS メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして「 SMS 」を選択し、基本設定を定義します。その後、メッセージの内容を編集して、送信する SMS メッセージを定義します。 キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する SMS メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
 
-Adobe Journey Optimizer では、SMS サービスプロバイダー（または SMS ゲートウェイプロバイダー）を通じてテキストメッセージを送信します。SMS メッセージを作成する前に、Journey Optimizerでテキストメッセージのサービスプロバイダーを設定します。 [詳細情報](sms-configuration.md)。
+Adobe Journey Optimizer では、SMS サービスプロバイダー（または SMS ゲートウェイプロバイダー）を通じてテキストメッセージを送信します。SMS メッセージを作成する前に、Journey Optimizer を使用してテキストメッセージ用にサービスプロバイダーを設定します。[詳細情報](sms-configuration.md)。
 
 <!--
 >[!IMPORTANT] 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
 ## チュートリアルビデオ
 
-* 次のビデオでは、SMS メッセージを設定、作成、カスタマージャーニーに含める方法を示します。
+* 次のビデオでは、SMS メッセージを設定、作成およびカスタマージャーニーに含める方法を示します。
 
   +++こちらのビデオをご覧ください
 
@@ -80,7 +80,7 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
 +++
 
-* 次のビデオは、Adobe Journey Optimizerがマーケターに提供するモバイル機能をより深く理解するのに役立ちます。
+* 次のビデオは、Adobe Journey Optimizer がマーケターに提供するモバイル機能をより詳細に理解するのに役立ちます。
 
 
   +++こちらのビデオをご覧ください

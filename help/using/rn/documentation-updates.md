@@ -22,7 +22,7 @@ ht-degree: 96%
 ## 2024年2月 {#feb-2024}
 
 * Journey OptimizerとWorkfrontの統合が統合ページに追加されました。 [詳細情報](../start/ajo-integrations.md)
-* コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。 [詳細情報](../offers/offer-library/add-representations.md#context-data)
+* コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
 * guardrails ページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。 [詳細情報](../start/guardrails.md#custom-actions-g)
 * 外部データソースの基本認証タイプに関する情報が追加されました。 [詳細情報](../datasource/external-data-sources.md)
 * を明確に区別するためのメモが追加されました。 [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md) から [パーソナライゼーションエディター](../personalization/functions/functions.md).
