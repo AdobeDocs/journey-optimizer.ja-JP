@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 94%
+source-wordcount: '1125'
+ht-degree: 91%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="ルールのキャッピングの設定"
->abstract="毎月顧客プロファイルに送信されるメッセージの最大数を指定します。頻度キャップは、毎月のカレンダー期間に基づいており、毎月の初めにリセットされます。"
+>abstract="選択した期間内に顧客プロファイルに送信されるメッセージの最大数を指定します。 頻度キャップは、選択したカレンダー期間に基づき、対応する期間の最初にリセットされます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
