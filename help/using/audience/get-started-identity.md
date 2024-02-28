@@ -7,7 +7,7 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ID とは、エンティティ（通常、個人、ハードウェアデバイ�
 * The **ID 名前空間** は、ID が関連するコンテキストを示すインジケーターとして機能します。
 * The **ID 値** はエンティティを表す文字列です。
 
-電話番号555-555-1234を見てみましょう。 この例では、文字列「555-555-1234」は **ID 値**&#x200B;は、次のように分類できます。 **電話** id 名前空間。
+電話番号555-555-1234を見てみましょう。 この例では、文字列「555-555-1234」は **ID 値**（「電話」に分類できます） **ID 名前空間**.
 
 The **ID** メニュー [!DNL Adobe Journey Optimizer] を使用すると、データベース内の顧客を構成する様々な識別子を効率的に参照できます。
 
