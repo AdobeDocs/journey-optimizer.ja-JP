@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4806'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -273,11 +273,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sent_domains"
 >title="ドメイン別に送信および配信"
->abstract="ドメイン別送信数および配信数の表とグラフは、ドメイン別に分類された E メールの分類を表示し、E メール通信の全体的なパフォーマンスに関する深いインサイトを提供します。"
+>abstract="ドメイン別に送信および配信のテーブルとグラフは、ドメイン別に分類されたメールの分類を提供し、メール通信の全体的なパフォーマンスに関する詳細なインサイトを提供します。"
 
 ![](assets/campaign_email_sent_domains.png)
 
-The **[!UICONTROL ドメイン別に送信および配信]** 表とグラフは、ドメインレベルでの電子メールの詳細な分類を提供し、電子メールのパフォーマンスに関する包括的なインサイトを提供します。
+**[!UICONTROL ドメイン別に送信および配信]**&#x200B;のテーブルとグラフは、ドメインレベルでのメールの詳細な分類を表示し、メールのパフォーマンスに関する包括的なインサイトを提供します。
 
 +++ ドメイン別に送信および配信指標の詳細情報
 
@@ -292,11 +292,11 @@ The **[!UICONTROL ドメイン別に送信および配信]** 表とグラフは�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_domains"
 >title="ドメイン別バウンス数とエラー数"
->abstract="ドメイン別バウンス数およびエラー数のグラフと表は、ドメインレベルで詳細な分類を提供し、E メール送信プロセス中に発生した特定のエラーに関するインサイトを提供します。"
+>abstract="ドメイン別バウンス数とエラー数のグラフとテーブルは、ドメインレベルでの詳細な分類を示し、メールの送信プロセス中に発生した特定のエラーに関するインサイトを提供します。"
 
 ![](assets/campaign_email_bounce_domains.png)
 
-The **[!UICONTROL ドメイン別バウンス数とエラー数]** グラフと表には、送信プロセス中に発生した特定のエラーのドメインレベルでの分類が表示され、発生した問題の詳細な分析が可能です。
+**[!UICONTROL ドメイン別のバウンス数およびエラー数]**&#x200B;のグラフとテーブルには、送信プロセス中に発生した特定のエラーのドメインレベルでの分類が表示され、発生した問題を詳しく分析できます。
 
 +++ ドメイン別のバウンス数およびエラー数指標の詳細情報
 
@@ -311,11 +311,11 @@ The **[!UICONTROL ドメイン別バウンス数とエラー数]** グラフと�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
 >title="ドメイン別の開封数およびクリック数"
->abstract="ドメイン別の開封数およびクリック数グラフおよび表は、ドメインレベルで詳細な分類を提供し、オーディエンスが E メールとどのように関わっているかを包括的に示します。"
+>abstract="ドメイン別の開封数およびクリック数のテーブルとグラフは、ドメインレベルで詳細な分類を提供し、オーディエンスがメールとどのようにやり取りするかを包括的に示します。"
 
 ![](assets/campaign_email_open_domains.png)
 
-The **[!UICONTROL ドメイン別の開封数およびクリック数]** グラフと表では、プロファイルの E メールに対するエンゲージメントのドメインレベルの分類を確認し、様々なドメインがコンテンツとどのようにやり取りするかに関する有益なインサイトを提供します。
+**[!UICONTROL ドメイン別の開封数およびクリック数]**&#x200B;のグラフとテーブルでは、プロファイルのメールに対するエンゲージメントのドメインレベルの分類を示し、様々なドメインがコンテンツとどのようにやり取りするかに関する有益なインサイトを提供します。
 
 +++ ドメイン別の開封数およびクリック数指標の詳細情報
 
@@ -330,11 +330,11 @@ The **[!UICONTROL ドメイン別の開封数およびクリック数]** グラ�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_reasons_domains"
 >title="ドメイン別のバウンス理由"
->abstract="ドメイン別のバウンス理由グラフおよび表は、ドメインレベルの分類を提供し、一時的なエラーと永続的なエラーの両方に関する包括的なインサイトを提供します。 この詳細な分析では、バウンスメッセージの原因に関する貴重な情報を提供します。"
+>abstract="ドメイン別のバウンス理由のグラフとテーブルは、ドメインレベルでの分類を示し、一時的なエラーと永続的なエラーの両方に関する包括的なインサイトを提供します。この詳細な分析では、バウンスメッセージの原因に関する貴重な情報を提供します。"
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブルでは、一時的なエラーと永続的なエラーの両方に関するデータをドメインレベルで分類し、バウンスメッセージの原因に関する詳細なインサイトを提供します。
+**[!UICONTROL ドメイン別バウンス理由]**&#x200B;のグラフとテーブルでは、一時的なエラーと永続的なエラーの両方に関するデータをドメインレベルで分類し、バウンスメッセージの原因に関する詳細なインサイトを提供します。
 
 +++ ドメイン別のバウンス理由の詳細情報
 
@@ -386,7 +386,7 @@ The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブ�
 
 >[!NOTE]
 >
->The **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]** ウィジェットは、メールに対して「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。 送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>**[!UICONTROL 最適化と非最適化の比較]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、メールの「送信時間の最適化」オプションがアクティブ化されている場合にのみ使用できます。送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
 
 **[!UICONTROL 最適化と非最適化の比較]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットでは、メッセージが最適化されているかどうかに関係なく、メッセージに関する主な情報が詳しく表示されます。
 
@@ -574,7 +574,7 @@ The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブ�
 
 >[!NOTE]
 >
->The **[!UICONTROL 最適化済みと最適化されていない]** および **[!UICONTROL 送信時間の最適化]** ウィジェットは、プッシュ通知で「送信時間の最適化」オプションが有効になっている場合にのみ使用できます。 送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>**[!UICONTROL 最適化と非最適化の比較]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットは、プッシュ通知の「送信時間の最適化」オプションがアクティブ化されている場合にのみ使用できます。送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
 
 **[!UICONTROL 最適化と非最適化の比較]**&#x200B;および&#x200B;**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットでは、メッセージが最適化されているかどうかに関係なく、メッセージに関する主な情報が詳しく表示されます。
 
@@ -619,7 +619,7 @@ The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブ�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="プッシュ通知 - プラットフォームごとの分類"
->abstract="プッシュ通知 — プラットフォーム別分類のグラフと表は、プロファイルのオペレーティングシステムに基づくプッシュ通知の成功の分類を示しています。"
+>abstract="プッシュ通知 - プラットフォームごとの分類のグラフとテーブルには、プロファイルのオペレーティングシステムに基づいたプッシュ通知の成功の分類が表示されます。"
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -652,7 +652,7 @@ The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブ�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - 送信統計"
->abstract="「SMS — 送信統計」の表は、ターゲットメッセージや配信済みメッセージなど、SMS メッセージに関する重要なデータをまとめます。"
+>abstract="SMS - 送信統計テーブルは、ターゲットメッセージや配信メッセージなど、SMS メッセージに関する重要なデータを要約します。"
 
 ![](assets/campaign_sms_sending.png)
 
@@ -679,7 +679,7 @@ The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブ�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
 >title="SMS - トラッキング統計"
->abstract="SMS — トラッキング統計ウィジェットは、訪問者の URL とのやり取りに関する重要な情報の包括的な概要を提供します。"
+>abstract="SMS - トラッキング統計ウィジェットは、訪問者の URL とのやり取りに関する重要な情報の包括的な概要を提供します。"
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -698,7 +698,7 @@ The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブ�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS - 日別パフォーマンス"
->abstract=" — 日付別の SMS パフォーマンスウィジェットは、メッセージに関する主要な情報をグラフィックで表示します。"
+>abstract="SMS - 日別パフォーマンスウィジェットには、メッセージに関する主な情報がグラフィックで表示されます。"
 
 ![](assets/campaign_sms_performance.png)
 
@@ -752,7 +752,7 @@ The **[!UICONTROL ドメイン別のバウンス理由]** グラフとテーブ�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS - リンク別のクリック数"
->abstract="SMS — リンクによるクリック数ウィジェットは、訪問者がメッセージ内の URL にエンゲージメントしたことに関する重要なインサイトを提供します。"
+>abstract="SMS - リンク別のクリック数ウィジェットは、メッセージ内の URL に対する訪問者のエンゲージメントに関する重要なインサイトを提供します。"
 
 ![](assets/campaign_sms_clicks.png)
 

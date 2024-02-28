@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >除外できるのは、 [IP ウォームアッププランテンプレート](ip-warmup-plan.md#prepare-file). そうでない場合は、除外するカスタムドメイングループでテンプレートを更新し、 [プランを再度アップロード](#re-upload-plan).
+      >除外できるのは、[IP ウォームアッププランテンプレート](ip-warmup-plan.md#prepare-file)に追加されたカスタムドメイングループのみです。そうでない場合は、除外するカスタムドメイングループでテンプレートを更新し、[プランを再度アップロード](#re-upload-plan)します。
 
 1. 必要に応じて、「**[!UICONTROL キャンペーンを置換]**」ボタンを使用してキャンペーンを置き換えることができます。
 
@@ -165,7 +165,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >再試行は、定義された時間枠の終わりまで、30 分ごとにおこなわれます。
+   >再試行は、定義された時間枠が終了するまで 30 分ごとに行われます。
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -136,19 +136,19 @@ ht-degree: 86%
    >
    >意思決定管理に使用できるソースは、**[!UICONTROL プロファイル属性]**、**[!UICONTROL オーディエンス]**&#x200B;および&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
 
-## コンテキストデータに基づいて表示域をパーソナライズする{#context-data}
+## コンテキストデータに基づいた表示域のパーソナライズ{#context-data}
 
-コンテキストデータが [Edge 判定](../api-reference/offer-delivery-api/edge-decisioning-api.md) 呼び出しの場合、これらのデータを活用して、表示を動的にパーソナライズできます。 例えば、決定がおこなわれた時点での現在の天候の状況など、リアルタイムの要因に基づいて、オファーの表示を調整できます。
+[Edge 決定](../api-reference/offer-delivery-api/edge-decisioning-api.md)呼び出しでコンテキストデータが渡されると、これらのデータを活用して表示域を動的にパーソナライズできます。例えば、決定が行われた時点の現在の気象状況などのリアルタイムの要因に基づいて、オファーの表示域を調整できます。
 
-これをおこなうには、 `profile.timeSeriesEvents.` 名前空間。
+これを行うには、`profile.timeSeriesEvents.` 名前空間を使用して、コンテキストデータ変数を表示域コンテンツ内に直接組み込みます。
 
-次に、ユーザーのオペレーティングシステムに基づいてオファーの表示域をパーソナライズするために使用する構文の例を示します。
+ユーザーのオペレーティングシステムに基づいてオファーの表示域をパーソナライズするために使用される構文の例を以下に示します。
 
 ```
  {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
 ```
 
-コンテキストデータを含む、対応する Edge 判定リクエストは次のようになります。
+コンテキストデータを含む、対応する Edge 決定リクエストは次のとおりです。
 
 ```
 {

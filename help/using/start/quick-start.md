@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 90%
 
   メッセージを設計し、オファーとアセットを追加し、カスタマージャーニーを構築します。[詳細情報](path/marketer.md)
 
-## ハウツービデオ {#video}
+## チュートリアルビデオ {#video}
 
-Journey Optimizerの主な機能とペルソナを理解します。 役割に応じてユーザーインターフェイスを操作する方法を説明します。
+Journey Optimizer の主な機能とペルソナを理解します。役割に応じてユーザーインターフェイスを操作する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)

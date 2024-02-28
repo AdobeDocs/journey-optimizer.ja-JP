@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3484'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -517,7 +517,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL インプレッション数]**：すべてのユーザーに配信された web エクスペリエンスの合計数。
 
-* **[!UICONTROL インタラクション]**:Web ページに対するアクションの合計数。 これには、クリックやその他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
+* **[!UICONTROL インタラクション数]**：Web ページに対するエンゲージメントの合計数。これには、クリックやその他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
 
 +++
 
@@ -536,7 +536,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL インプレッション数]**：すべてのユーザーに配信された web エクスペリエンスの合計数。
 
-* **[!UICONTROL インタラクション]**:Web ページに対するアクションの合計数。 これには、クリックやその他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
+* **[!UICONTROL インタラクション数]**：Web ページに対するエンゲージメントの合計数。これには、クリックやその他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
 
 +++
 
