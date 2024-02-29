@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1738'
 ht-degree: 99%
 
 ---
@@ -554,7 +554,7 @@ ht-degree: 99%
          + [Capping API](using/configuration/capping.md)
          + [Throttling API](using/configuration/throttling.md)
       + イベント設定 {#events-journeys}
-         + [一般原則](using/event/about-events.md)
+         + [ジャーニーイベントの操作](using/event/about-events.md)
          + 単一イベントの設定 {#unitary-events}
             + [単一イベントの基本を学ぶ](using/event/about-creating.md)
             + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)

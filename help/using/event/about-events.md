@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: イベントについて
-description: イベントについて学ぶ
+title: ジャーニーイベントの操作
+description: ジャーニーでイベントを使用する方法を学ぶ
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 96%
 
 ---
 
-# イベントについて{#about-events}
+# ジャーニーイベントの操作 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="イベントについて"
+>title="ジャーニーイベント"
 >abstract="イベントは人物と結び付いています。イベントは、人の行動（例えば、製品の購入、ショップへの訪問、web サイトからの離脱など）、人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）です。これは、Journey Optimizer が最適な次のアクションを調整するためにジャーニーでリッスンしているものです。"
 
 イベントの設定を使用すると、[!DNL Journey Optimizer] がイベントとして受け取る情報を定義できます。複数のイベントを（ジャーニーの様々なステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ## データサイクル {#data-cycle}
 
-イベントは POST API 呼び出しです。イベントは、ストリーミング取り込み API を使用して Adobe Experience Platform に送信されます。トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。イベントのペイロードは、XDM 形式に従います。
+イベントは POST API 呼び出しです。イベントは、ストリーミング取り込み API を使用して Adobe Experience Platform に送信されます。トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。 イベントのペイロードは、XDM 形式に従います。
 
 ペイロードには、ストリーミング取得 API が機能するために必要な情報（ヘッダー内）、[!DNL Journey Optimizer] が機能するために必要な情報、ジャーニー内で使用する情報（本文内で使用する、放棄された買い物かごの金額など）が含まれます。ストリーミング取り込みには、認証済みと非認証の 2 つのモードがあります。ストリーミング取得 API の詳細については、[このリンク](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 
