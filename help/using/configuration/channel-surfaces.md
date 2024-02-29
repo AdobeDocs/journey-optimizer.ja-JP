@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
-workflow-type: ht
-source-wordcount: '1627'
-ht-degree: 100%
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+workflow-type: tm+mt
+source-wordcount: '1629'
+ht-degree: 99%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="サーフェス"
->abstract="サーフェスは、システム管理者によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 "
+>title="チャンネルサーフェス"
+>abstract="チャネルサーフェスは、システム管理者が定義した設定です。 ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 "
 
 [!DNL Journey Optimizer] では、チャネルサーフェス（例：メッセージプリセット）を設定して、メッセージに必要なすべての技術パラメーター（メールのタイプ、送信者のメールと名前、モバイルアプリ、SMS 設定など）を定義しておくことができます。
 
