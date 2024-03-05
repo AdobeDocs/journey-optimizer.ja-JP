@@ -7,9 +7,8 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 3b1a359427a76780bd3130e292cf2658eb6df03c
-workflow-type: ht
+source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 
