@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1349'
 ht-degree: 100%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 100%
 DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、ドメイン所有者が自身のドメインを不正使用から保護できるようにするメール認証方式です。メールプロバイダーや ISP に明確なポリシーを提供することで、自分のドメインから悪意のある関係者がメールを送信するのを防ぐことができます。DMARC を実装すると、正当なメールがスパムとしてマークされたり拒否されたりするリスクが軽減され、メールの配信品質が向上します。
 
 また、DMARC では、認証に失敗したメッセージに関するレポートを提供し、DMARC 検証に合格しないメールの処理を制御できます。実装されている [DMARC ポリシー](#dmarc-policies)に応じて、これらのメールは監視、強制隔離または拒否できます。これらの機能を使用すると、潜在的なエラーを軽減し、対処するための行動をとることが可能になります。
-
-<!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
 認証に失敗したメールを制御しながら配信品質の問題を防止できるように、[!DNL Journey Optimizer] は現在、直接管理インターフェイスで DMARC 技術をサポートしています。[詳細情報](#implement-dmarc)
 
@@ -65,11 +63,9 @@ DMARC 認証に合格するには、メッセージが SPF または DKIM に合
 
 Google と Yahoo! は、業界のベストプラクティス実施の一環として、メール送信に使用するすべてのドメインに対して **DMARC レコード**&#x200B;を要求しています。この新しい要件は、**2024年2月1日（PT）**&#x200B;から適用されます。
 
-Google と Yahoo!の要件については、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ja#dmarc){target="_blank"}を参照してください。
-
 >[!CAUTION]
 >
->Gmail と Yahoo! のこの新しい要件に準拠しない場合、メールがスパムフォルダーに分類されたり、ブロックされたりすることが予想されます。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=ja#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Gmail と Yahoo! のこの新しい要件に準拠しない場合、メールがスパムフォルダーに分類されたり、ブロックされたりすることが予想されます。
 
 そのため、アドビでは、次のアクションを実行することを強くお勧めします。
 
