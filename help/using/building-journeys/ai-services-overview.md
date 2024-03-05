@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 人工, AI, インテリジェント, ジャーニー, サービス
 source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 

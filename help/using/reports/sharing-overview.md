@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
 ht-degree: 100%
 
