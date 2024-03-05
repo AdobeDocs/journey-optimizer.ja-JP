@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
+source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 99%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 99%
       + [プッシュ通知フロー](using/push/push-gs.md)
       + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
       + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-+ SMS チャネル{#sms}
++ SMS／MMS チャネル{#sms}
    + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
    + [テキストメッセージの作成](using/sms/create-sms.md)
    + [MMS メッセージの作成](using/sms/create-mms.md)
