@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '3668'
+source-wordcount: '3659'
 ht-degree: 100%
 
 ---
@@ -507,8 +507,6 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 * **[!UICONTROL 除外済み]**：ターゲットプロファイルから除外されメッセージを受信しなかったユーザープロファイルの数。
 
 * **[!UICONTROL 送信済み]**：送信された SMS メッセージの合計数。
-
-* **[!UICONTROL 開封数]**：SMS メッセージが開封された回数。
 
 * **[!UICONTROL クリック数]**：SMS メッセージでコンテンツがクリックされた回数。
 

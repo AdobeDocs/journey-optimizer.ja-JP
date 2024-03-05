@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1975'
 ht-degree: 99%
 
 ---
@@ -40,14 +40,12 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * ランディングページにプリヘッダーを追加することはできません。
 * ランディングプライマリページをデザインするときに、「**独自のコード**」オプションを選択することはできません。
 
-<!--
-## SMS guardrails {#sms-guardrails}
+## SMS ガードレール {#sms-guardrails}
 
-* MMS Capability is only available for Sinch.
-* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
-* Message feedback syncing is not currently available for MMS.
-* Consent management operates at the SMS channel level for MMS.
--->
+* MMS 機能は、Sinch でのみ使用できます。
+* MMS 用のメディアファイルは、サポートされている URL を通じて含めることができます。メディアファイルは別々にアップロードしてください。
+* 現在、MMS ではメッセージのフィードバック同期を使用できません。
+* 同意の管理は、MMS の SMS チャネルレベルで動作します。
 
 ## フラグメントガードレール {#fragments-guardrails}
 

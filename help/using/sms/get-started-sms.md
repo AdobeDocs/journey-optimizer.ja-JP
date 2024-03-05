@@ -1,37 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: テキストメッセージの基本を学ぶ
+title: テキストメッセージ（SMS／MMS）の基本を学ぶ
 description: Journey Optimizer でテキストメッセージを作成して送信する方法を学ぶ
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
 
 # テキストメッセージの基本を学ぶ {#get-started-sms}
 
-[!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージを送信できます。SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
+[!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージ（SMS／MMS）を送信できます。SMS／MMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
 
-テキストメッセージは、ジャーニーまたはキャンペーンで作成して送信できます。SMS の場合は、SMS アクションを使用します。
+テキストメッセージは、ジャーニーまたはキャンペーンで作成して送信できます。MMS と SMS の場合は、SMS アクションを使用します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：SMS]**&#x200B;パネルを参照して SMS メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
+* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：SMS]**&#x200B;パネルを参照して SMS／MMS メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する SMS メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する SMS／MMS メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
 
-Adobe Journey Optimizer では、SMS サービスプロバイダー（または SMS ゲートウェイプロバイダー）を通じてテキストメッセージを送信します。SMS メッセージを作成する前に、Journey Optimizer を使用してテキストメッセージ用にサービスプロバイダーを設定します。[詳細情報](sms-configuration.md)。
+Adobe Journey Optimizer では、SMS サービスプロバイダー（または SMS ゲートウェイプロバイダー）を通じてテキストメッセージを送信します。SMS／MMS メッセージを作成する前に、Journey Optimizer を使用してテキストメッセージ用にサービスプロバイダーを設定します。[詳細情報](sms-configuration.md)。
 
-<!--
->[!IMPORTANT] 
+>[!IMPORTANT]
 >
-> Sending Multimedia Message Service (MMS) with Adobe Journey Optimizer is only supported when integrating with **Sinch**.
--->
+> Adobe Journey Optimizer を使用したマルチメディアメッセージサービス（MMS）の送信は、**Sinch** と統合する場合にのみサポートされます。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
