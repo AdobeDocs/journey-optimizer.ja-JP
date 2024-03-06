@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="使用するアドレスを定義"
->abstract="送信を優先するプロファイルの電子メールアドレスまたは電話番号を決定するために使用するフィールドを編集します。"
+>abstract="プロファイルのメールアドレスまたは電話番号を決定するために使用するフィールドを編集して、送信の優先順位を付けます。"
 
 プロファイルをターゲットにする場合、データベースで複数のメールアドレスや電話番号（プロのメールアドレス、個人の電話番号など）を使用できる場合があります。
 
