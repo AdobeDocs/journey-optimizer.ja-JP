@@ -1,15 +1,15 @@
 ---
-title: Journey Optimizerでの Web アプリ内メッセージの作成
-description: Journey Optimizerで Web アプリ内メッセージを作成する方法を説明します
+title: Journey Optimizer での web アプリ内メッセージの作成
+description: Journey Optimizer で web アプリ内メッセージを作成する方法を学ぶ
 feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -18,95 +18,95 @@ ht-degree: 2%
 
 ## 前提条件 {#prerequisites}
 
-* の最新バージョンを使用していることを確認します。 **Adobe Experience Platform Web SDK** 拡張子。
+* **Adobe Experience Platform Web SDK** 拡張機能の最新バージョンを使用していることを確認します。
 
-* をインストールします。 **Adobe Experience Platform Web SDK** 拡張機能 **タグのプロパティ** をクリックし、 **パーソナライズストレージ** オプション。
+* **Adobe Experience Platform Web SDK** 拡張機能を&#x200B;**タグのプロパティ**&#x200B;にインストールし、「**パーソナライゼーションストレージ**」オプションを有効にします。
 
-  この設定は、イベント履歴をクライアントに保存するために必要です。これは、ルールビルダーに頻度ルールを実装するための前提条件です。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+  この設定は、クライアントにイベント履歴を保存するために不可欠で、ルールビルダーで頻度ルールを実装するための前提条件です。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja)
 
   ![](assets/configure_web_inapp_1.png)
 
-## 「プラットフォームに送信されたデータ」ルールを設定する {#configure-sent-data-trigger}
+## プラットフォームにデータを送信済みルールの設定 {#configure-sent-data-trigger}
 
-1. 次にアクセス： **Adobe Experience Platform Data Collection** インスタンスとに移動します。 **タグのプロパティ** 設定済み **Adobe Experience Platform Web SDK** 拡張子。
+1. **Adobe Experience Platform データ収集**&#x200B;インスタンスにアクセスし、**Adobe Experience Platform Web SDK** 拡張機能で設定した&#x200B;**タグのプロパティ**&#x200B;に移動します。
 
-1. 次から： **オーサリング** メニュー、選択 **ルール** その後 **新規ルールを作成** または **ルールを追加**.
+1. **オーサリング**&#x200B;メニューから「**ルール**」を選択してから、「**新しいルールを作成**」または「**ルールを追加**」を選択します。
 
    ![](assets/configure_web_inapp_2.png)
 
-1. Adobe Analytics の **イベント** セクションで、 **追加** 次のように設定します。
+1. 「**イベント**」セクションで「**追加**」をクリックし、次のように設定します。
 
-   * **拡張**：コア
+   * **拡張機能**：コア
 
-   * **イベントタイプ**：読み込まれたライブラリ（ページ上部）。
+   * **イベントタイプ**：読み込まれたライブラリ（ページ上部）
 
    ![](assets/configure_web_inapp_3.png)
 
-1. クリック **変更を保持** をクリックして、イベント設定を保存します。
+1. 「**変更を保持**」をクリックして、イベント設定を保存します。
 
-1. Adobe Analytics の **アクション** セクションで、 **追加** 次のように設定します。
+1. 「**アクション**」セクションで「**追加**」をクリックし、次のように設定します。
 
-   * **拡張**: Adobe Experience Platform Web SDK
+   * **拡張機能**：Adobe Experience Platform Web SDK
 
-   * **アクションタイプ**：イベントの送信
+   * **アクションタイプ**：イベントを送信
 
    ![](assets/configure_web_inapp_4.png)
 
-1. Adobe Analytics の **パーソナライズ** セクション内の **アクション** タイプ、有効 **視覚的なパーソナライゼーションの決定をレンダリング** オプション。
+1. **アクション**&#x200B;タイプの「**パーソナライゼーション**」セクションで、「**視覚的なパーソナライゼーションの決定をレンダリング**」オプションを有効にします。
 
    ![](assets/configure_web_inapp_5.png)
 
-1. Adobe Analytics の **決定コンテキスト** 「 」セクションで、 **キー** および **値** 配信するエクスペリエンスを決定するペア。
+1. 「**決定コンテキスト**」セクションで、提供するエクスペリエンスを決定する&#x200B;**キー**&#x200B;と&#x200B;**値**&#x200B;のペアを定義します。
 
    ![](assets/configure_web_inapp_6.png)
 
-1. を保存します。 **アクション** クリックによる設定 **変更を保持**.
+1. 「**変更を保持**」をクリックして&#x200B;**アクション**&#x200B;の設定を保存します。
 
-1. 次に移動： **公開フロー** メニュー。 新規作成 **ライブラリ** または既存の **ライブラリ** 新しく作成した **ルール** それに対して [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. **公開フロー**&#x200B;メニューに移動します。新しい&#x200B;**ライブラリ**&#x200B;を作成するか、既存の&#x200B;**ライブラリ**&#x200B;を選択して、そこに新しく作成した&#x200B;**ルール**&#x200B;を追加します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ja#create-a-library)
 
-1. お使いの **ライブラリ**&#x200B;を選択します。 **開発用に保存およびビルド**.
+1. **ライブラリ**&#x200B;から、「**開発用に保存およびビルド**」を選択します。
 
    ![](assets/configure_web_inapp_7.png)
 
 ## 手動ルールの設定 {#configure-manual-trigger}
 
-1. 次にアクセス： **Adobe Experience Platform Data Collection** インスタンスとに移動します。 **タグのプロパティ** 設定済み **Adobe Experience Platform Web SDK** 拡張子。
+1. **Adobe Experience Platform データ収集**&#x200B;インスタンスにアクセスし、**Adobe Experience Platform Web SDK** 拡張機能で設定した&#x200B;**タグプロパティ**&#x200B;に移動します。
 
-1. 次から： **オーサリング** メニュー、選択 **ルール** その後 **新規ルールを作成** または **ルールを追加**.
+1. **オーサリング**&#x200B;メニューから「**ルール**」を選択してから、「**新しいルールを作成**」または「**ルールを追加**」を選択します。
 
    ![](assets/configure_web_inapp_8.png)
 
-1. Adobe Analytics の **イベント** セクションで、 **追加** 次のように設定します。
+1. 「**イベント**」セクションで「**追加**」をクリックし、次のように設定します。
 
-   * **拡張**：コア
+   * **拡張機能**：コア
 
    * **イベントタイプ**：クリック
 
    ![](assets/configure_web_inapp_9.png)
 
-1. Adobe Analytics の **設定をクリック**、 **セレクター** それが評価されます。
+1. **クリック設定**&#x200B;で、評価する&#x200B;**セレクター**&#x200B;を定義します。
 
    ![](assets/configure_web_inapp_10.png)
 
-1. クリック **変更を保持** 保存する **イベント** 設定。
+1. 「**変更を保持**」をクリックして、**イベント**&#x200B;設定を保存します。
 
-1. Adobe Analytics の **アクション** セクションで、 **追加** 次のように設定します。
+1. 「**アクション**」セクションで「**追加**」をクリックし、次のように設定します。
 
-   * **拡張**: Adobe Experience Platform Web SDK
+   * **拡張機能**：Adobe Experience Platform Web SDK
 
-   * **アクションタイプ**：ルールセットを評価します
+   * **アクションタイプ**：ルールセットを評価
 
    ![](assets/configure_web_inapp_11.png)
 
-1. Adobe Analytics の **ルールセットアクションを評価** セクション内の **アクション** タイプ、有効 **視覚的なパーソナライゼーションの決定をレンダリング** オプション。
+1. **アクション**&#x200B;タイプの「**ルールセットアクションを評価**」セクションで、「**視覚的なパーソナライゼーションの決定をレンダリング**」オプションを有効にします。
 
    ![](assets/configure_web_inapp_13.png)
 
-1. Adobe Analytics の **決定コンテキスト** 「 」セクションで、 **キー** および **値** 配信するエクスペリエンスを決定するペア。
+1. 「**決定コンテキスト**」セクションで、実現するエクスペリエンスを決定する&#x200B;**キー**&#x200B;と&#x200B;**値**&#x200B;のペアを定義します。
 
-1. 次にアクセス： **公開フロー** メニュー、新規作成 **ライブラリ** または既存の **ライブラリ** 新しく作成した **ルール**. [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. **公開フロー**&#x200B;メニューにアクセスし、新しい&#x200B;**ライブラリ**&#x200B;を作成するか、既存の&#x200B;**ライブラリ**&#x200B;を選択して、新しく作成した&#x200B;**ルール**&#x200B;を追加します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ja#create-a-library)
 
-1. お使いの **ライブラリ**&#x200B;を選択します。 **開発用に保存およびビルド**.
+1. **ライブラリ**&#x200B;から、「**開発用に保存およびビルド**」を選択します。
 
    ![](assets/configure_web_inapp_14.png)
 

@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -554,7 +554,7 @@ ht-degree: 99%
          + [Capping API](using/configuration/capping.md)
          + [Throttling API](using/configuration/throttling.md)
       + イベント設定 {#events-journeys}
-         + [ジャーニーイベントの操作](using/event/about-events.md)
+         + [ジャーニーイベントの活用](using/event/about-events.md)
          + 単一イベントの設定 {#unitary-events}
             + [単一イベントの基本を学ぶ](using/event/about-creating.md)
             + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)

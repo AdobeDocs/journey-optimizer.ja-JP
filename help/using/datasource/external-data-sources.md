@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -70,13 +70,13 @@ API 呼び出しの例を 2 つ示します。
 
    ![](assets/journey27.png)
 
-1. 外部サービスの設定に応じて認証を設定します。 **[!UICONTROL 認証なし]**, **[!UICONTROL 基本]**, **[!UICONTROL カスタム]** または **[!UICONTROL API キー]**.
+1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**&#x200B;または **[!UICONTROL API キー]**&#x200B;に設定します。
 
-   基本認証モードの場合、ユーザー名とパスワードを入力する必要があります。
+   基本認証モードの場合は、ユーザー名とパスワードを入力する必要があります。
 
    >[!NOTE]
    >
-   >認証呼び出しが実行されると、 `<username>:<password>` 文字列（base64 でエンコード）を Authentication ヘッダーに追加します。
+   >認証呼び出しを実行すると、base64 でエンコードされた `<username>:<password>` 文字列が認証ヘッダーに追加されます。
 
    カスタム認証モードについて詳しくは、[この節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。この例では、API キー認証モードを選択します。
 

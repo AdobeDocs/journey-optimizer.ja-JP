@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}.
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ ht-degree: 91%
 
    ![](assets/audiences-alerts.png)
 
-1. コンポジションが公開されます。 結果のオーディエンスはAdobe Experience Platformに保存され、Journey Optimizerでターゲットにする準備が整います。 [Journey Optimizerでオーディエンスのターゲット設定を行う方法を説明します](../audience/about-audiences.md#segments-in-journey-optimizer)
+1. コンポジションが公開されます。 結果のオーディエンスは Adobe Experience Platform に保存され、Journey Optimizer でターゲットにする準備が整います。[詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## コンポジションへのアクセス {#access}
 

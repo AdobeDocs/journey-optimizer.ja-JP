@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: コンテンツテンプレートを作成
+title: コンテンツテンプレートの作成
 description: テンプレートを作成して、Journey Optimizer のキャンペーンとジャーニーでコンテンツを再利用する方法を学ぶ
 feature: Templates
 topic: Content Management
@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1362'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->現在、Web チャネルではコンテンツテンプレートを使用できません。
+>現在、web チャネルではコンテンツテンプレートは使用できません。
 
 例えば、会社内のユーザーはコンテンツのみを担当しているので、キャンペーンやジャーニーにはアクセスできません。ただし、このユーザーがメールテンプレートを作成し、組織のマーケターはすべてのメールの出発点としてそのメールテンプレートを使用できます。
 
@@ -43,15 +43,15 @@ ht-degree: 50%
 
 ![](assets/content-template-list.png)
 
-現在のサンドボックスで作成されたすべてのテンプレート ( ジャーニーまたは **[!UICONTROL テンプレートとして保存]** オプション ( **[!UICONTROL コンテンツテンプレート]** メニュー — が表示されます。 [テンプレートの作成方法を説明します](#create-content-templates)
+現在のサンドボックスで（「**[!UICONTROL テンプレートとして保存]**」オプションを使ったジャーニーやキャンペーンまたは&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューから）作成されたすべてのテンプレートが表示されます。[詳しくは、テンプレートの作成方法を参照してください](#create-content-templates)
 
 コンテンツテンプレートの並べ替え基準を次に示します。
 * タイプ
 * チャネル
 * 作成日または変更日
-* タグ — [タグの詳細を説明します](../start/search-filter-categorize.md#tags)
+* タグ - [詳しくは、タグを参照してください](../start/search-filter-categorize.md#tags)
 
-自分で作成または変更した項目のみを表示するように選択することもできます。
+また、自分が作成または変更した項目のみを表示するように選択することもできます。
 
 ![](assets/content-template-list-filters.png)
 
@@ -69,13 +69,13 @@ When you update a content, you may have to wait a few seconds before the changes
 
   ![](assets/content-template-edit.png)
 
-* テンプレートを削除するには、 **[!UICONTROL その他のアクション]** ボタンをクリックし、「 **[!UICONTROL 削除]**.
+* テンプレートを削除するには、目的のテンプレートの横にある「**[!UICONTROL その他のアクション]**」ボタンを選択し、「**[!UICONTROL 削除]**」を選択します。
 
   ![](assets/content-template-list-delete.png)
 
 >[!NOTE]
 >
->テンプレートを編集または削除しても、このテンプレートを使用して作成されたコンテンツを含むキャンペーンまたはジャーニーは影響を受けません。
+>テンプレートを編集または削除しても、このテンプレートを使用して作成されたコンテンツを含むキャンペーンやジャーニーは影響を受けません。
 
 ## コンテンツテンプレートの作成 {#create-content-templates}
 
@@ -88,9 +88,9 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * 左パネルの「**[!UICONTROL コンテンツテンプレート]**」メニューを使用して、ゼロからコンテンツテンプレートを作成する。[方法についてはこちらを参照](#create-template-from-scratch)
 
-* キャンペーンまたはジャーニー内でコンテンツをデザインする際は、コンテンツをテンプレートとして保存します。 [方法についてはこちらを参照](#save-as-template)
+* キャンペーンまたはジャーニー内でコンテンツをデザインする際に、テンプレートとして保存する。[方法についてはこちらを参照](#save-as-template)
 
-保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 最初から作成した場合も、以前のコンテンツから作成した場合も、 [!DNL Journey Optimizer]. [方法についてはこちらを参照](#use-content-templates)
+保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 ゼロから作成した場合でも、以前のコンテンツから作成した場合でも、[!DNL Journey Optimizer] 内でコンテンツを作成する際にこのテンプレートを使用できるようになりました。[方法についてはこちらを参照](#use-content-templates)
 
 >[!NOTE]
 >
@@ -112,40 +112,40 @@ When you update a content, you may have to wait a few seconds before the changes
 
    >[!NOTE]
    >
-   >現在、Web を除くすべてのチャネルを使用できます。
+   >現在、web を除くすべてのチャネルを使用できます。
 
-1. を選択します。 **[!UICONTROL タイプ]** 選択したチャネル用に選択します。
+1. 選択したチャネルの&#x200B;**[!UICONTROL タイプ]**&#x200B;を選択します。
 
    ![](assets/content-template-type.png)
 
-   * の場合 **[!UICONTROL 電子メール]**&#x200B;を選択した場合、 **[!UICONTROL コンテンツ]**&#x200B;に値を入力する場合、 [件名](../email/create-email.md#define-email-content) をテンプレートの一部として使用します。 次を選択した場合、 **[!UICONTROL HTML]**&#x200B;に含まれている場合、E メール本文のコンテンツのみを定義できます。
+   * **[!UICONTROL メール]**&#x200B;の場合、「**[!UICONTROL コンテンツ]**」を選択すると、[件名](../email/create-email.md#define-email-content)をテンプレートの一部として定義できます。「**[!UICONTROL HTML]**」を選択すると、メール本文のコンテンツのみを定義できます。
 
-   * の場合 **[!UICONTROL SMS]**, **[!UICONTROL プッシュ]**, **[!UICONTROL アプリ内]** および **[!UICONTROL ダイレクトメール]**&#x200B;の場合、現在のチャネルではデフォルトのタイプのみを使用できます。 選択する必要があります。
+   * **[!UICONTROL SMS]**、**[!UICONTROL プッシュ]**、**[!UICONTROL アプリ内]**&#x200B;および&#x200B;**[!UICONTROL ダイレクトメール]**&#x200B;の場合、現在のチャネルに使用できるのはデフォルトのタイプのみですが、選択は行う必要があります。
 
 1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してテンプレートを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
-1. カスタムまたはコアのデータ使用状況ラベルをテンプレートに割り当てるには、「 **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
+1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
 
-1. クリック **[!UICONTROL 作成]** また、選択したチャネルに従って、ジャーニーやキャンペーン内のコンテンツと同じ方法で、必要に応じてコンテンツをデザインします。
+1. 「**[!UICONTROL 作成]**」をクリックし、選択したチャネルに従って、ジャーニーやキャンペーン内のコンテンツと同じ方法で、必要に応じてコンテンツをデザインします。
 
    ![](assets/content-template-edition.png)
 
    様々なチャネル用のコンテンツを作成する方法については、次の節を参照してください。
-   * [E メールコンテンツの定義](../email/get-started-email-design.md)
+   * [メールコンテンツの定義](../email/get-started-email-design.md)
    * [プッシュコンテンツの定義](../push/design-push.md)
    * [SMS コンテンツの定義](../sms/create-sms.md#sms-content)
-   * [ダイレクトメールのコンテンツを定義](../direct-mail/create-direct-mail.md)
+   * [ダイレクトメールコンテンツの定義](../direct-mail/create-direct-mail.md)
    * [アプリ内コンテンツの定義](../in-app/design-in-app.md)
 
-1. 以下を作成する場合、 **[!UICONTROL 電子メール]** テンプレート **[!UICONTROL HTML]** 「 」と入力すると、コンテンツをテストできます。 [方法についてはこちらを参照](#test-template)
+1. **[!UICONTROL HTML]** タイプで&#x200B;**[!UICONTROL メール]**&#x200B;テンプレートを作成している場合は、コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
 
 1. テンプレートの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
-1. テンプレート名の横の矢印をクリックして、 **[!UICONTROL 詳細]** 画面。
+1. テンプレート名の横にある矢印をクリックして&#x200B;**[!UICONTROL 詳細]**&#x200B;画面に戻ります。
 
    ![](assets/content-template-back.png)
 
-これで、内でコンテンツを作成する際に、このテンプレートを使用する準備が整いました。 [!DNL Journey Optimizer]. [方法についてはこちらを参照](#use-content-templates)
+このテンプレートを、[!DNL Journey Optimizer] 内でコンテンツを作成する際に使用できるようになりました。[方法についてはこちらを参照](#use-content-templates)
 
 ### テンプレートとして保存 {#save-as-template}
 
@@ -154,15 +154,15 @@ When you update a content, you may have to wait a few seconds before the changes
 >title="メッセージの移行方法を説明します。"
 >abstract="2022年7月25日（PT）より、メッセージメニューが表示されなくなり、ジャーニーから直接メッセージが作成されます。 従来のメッセージをジャーニーで再利用する場合は、それらをテンプレートとして保存する必要があります。"
 
-キャンペーンまたはジャーニーでコンテンツをデザインする際に、後で再利用できるようにコンテンツを保存できます。 それには、次の手順に従います。
+キャンペーンやジャーニーでコンテンツをデザインする際、保存しておくと、後で再利用できます。それには、次の手順に従います。
 
-1. メッセージから **[!UICONTROL コンテンツを編集]** 画面で、 **[!UICONTROL コンテンツテンプレート]** 」ボタンをクリックします。
+1. メッセージの&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;画面で、「**[!UICONTROL コンテンツテンプレート]**」ボタンをクリックします。
 
 1. ドロップダウンメニューから「**[!UICONTROL コンテンツテンプレートとして保存]**」を選択します。
 
    ![](assets/content-template-button-save.png)
 
-   次の場合、 [E メールデザイナー](../email/get-started-email-design.md)の場合は、このオプションを **[!UICONTROL その他]** 」ドロップダウンリストを使用できます。
+   [メールデザイナー](../email/get-started-email-design.md)を使用している場合は、画面右上の&#x200B;**[!UICONTROL その他]**&#x200B;ドロップダウンリストからこのオプションを選択することもできます。
 
    ![](assets/content-template-more-button-save.png)
 
@@ -172,35 +172,35 @@ When you update a content, you may have to wait a few seconds before the changes
 
    >[!NOTE]
    >
-   >現在のチャネルとタイプは自動的に入力され、編集できません。 電子メールテンプレートの場合： [E メールデザイナー](../email/get-started-email-design.md)、 **[!UICONTROL HTML]** 「 」と入力すると、自動的に選択されます。
+   >現在のチャネルとタイプは自動的に入力され、編集できません。[メールデザイナー](../email/get-started-email-design.md)から作成したメールテンプレートの場合、**[!UICONTROL HTML]** タイプが自動的に選択されます。
 
 1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成して、テンプレートを分類します。[詳細情報](../start/search-filter-categorize.md#tags)
 
-1. カスタムまたはコアのデータ使用状況ラベルをテンプレートに割り当てるには、「 **[!UICONTROL アクセスを管理]**. [詳細情報](../administration/object-based-access.md)。
+1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳細情報](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 1. テンプレートは&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;リストに保存され、[!DNL Journey Optimizer] 専用メニューからアクセスできます。このテンプレートは、そのリストの他の項目と同様に、アクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。[詳細情報](#access-manage-templates)
 
-これで、 [!DNL Journey Optimizer]. [方法についてはこちらを参照](#use-content-templates)
+[!DNL Journey Optimizer] 内でコンテンツを作成する際に、このテンプレートを使用できるようになりました。[方法についてはこちらを参照](#use-content-templates)
 
 >[!NOTE]
 >
->その新しいテンプレートに対する変更は、元のコンテンツには反映されません。 同様に、そのコンテンツ内で元のコンテンツを編集した場合、新しいテンプレートは変更されません。
+>その新しいテンプレートに対する変更は、送信元のコンテンツには生成されません。同様に、そのコンテンツ内で元のコンテンツを編集しても、新しいテンプレートは変更されません。
 
-## E メールコンテンツテンプレートのテスト {#test-template}
+## メールコンテンツテンプレートのテスト {#test-template}
 
-一部の E メールテンプレートのレンダリングを、最初から作成したものか、既存のコンテンツから作成したものかに関わらずテストできます。 これを行うには、以下の手順に従います。
+ゼロから作成した場合でも、既存のコンテンツから作成した場合でも、一部のメールテンプレートのレンダリングをテストできます。これを行うには、以下の手順に従います。
 
 >[!CAUTION]
 >
->現在、テスト中のコンテンツテンプレートは次の場合にのみ使用できます： **[!UICONTROL 電子メール]** テンプレート **[!UICONTROL HTML]** タイプ。
+>現在テスト中のコンテンツテンプレートは、**[!UICONTROL HTML]** タイプの&#x200B;**[!UICONTROL メール]**&#x200B;テンプレートでのみ使用できます。
 
-1. でコンテンツテンプレートリストにアクセスする **[!UICONTROL コンテンツ管理]** > **[!UICONTROL コンテンツテンプレート]** メニューを開き、任意のメールテンプレートを選択します。
+1. **[!UICONTROL コンテンツ管理]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューからコンテンツテンプレートリストにアクセスし、任意のメールテンプレートを選択します。
 
-1. **[!UICONTROL テンプレートのプロパティ]**&#x200B;から「**[!UICONTROL コンテンツを編集]**」をクリックします。
+1. **[!UICONTROL テンプレートプロパティ]**&#x200B;から「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
-1. クリック **[!UICONTROL コンテンツをシミュレート]** をクリックし、レンダリングを確認するテストプロファイルを選択します。 [詳細情報](../content-management/preview-test.md)
+1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを選択して、レンダリングを確認します。[詳細情報](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
 
@@ -218,35 +218,35 @@ When you update a content, you may have to wait a few seconds before the changes
 
 ## コンテンツテンプレートの使用 {#use-content-templates}
 
-で任意のチャネル（Web を除く）のコンテンツを作成する場合 [!DNL Journey Optimizer]カスタムテンプレートを使用する場合は、次のいずれかの方法で使用できます。
+[!DNL Journey Optimizer] で任意のチャネル（web を除く）のコンテンツを作成する際、次のいずれかのカスタムテンプレートを使用できます。
 
 * 「**[!UICONTROL コンテンツテンプレート]**」メニューを使用してゼロから作成する。[詳細情報](#create-template-from-scratch)
 
-* ジャーニーまたはキャンペーンの既存のコンテンツから、 **[!UICONTROL コンテンツテンプレートとして保存]** オプション。 [詳細情報](#save-as-template)
+* 「**[!UICONTROL コンテンツテンプレートとして保存]**」オプションを使用して、ジャーニーまたはキャンペーンのメールから保存する。[詳細情報](#save-as-template)
 
 これらのテンプレートの 1 つを使用してコンテンツの作成を開始するには、次の手順に従います。
 
-1. 選択後にキャンペーンかジャーニーのどちらに含まれるか **[!UICONTROL コンテンツを編集]**&#x200B;をクリックし、 **[!UICONTROL コンテンツテンプレート]** 」ボタンをクリックします。
+1. キャンペーンまたはジャーニーのいずれかで、「**[!UICONTROL コンテンツを編集]**」を選択した後、「**[!UICONTROL コンテンツテンプレート]**」ボタンをクリックします。
 
-1. 選択 **[!UICONTROL コンテンツテンプレートの適用]**.
+1. 「**[!UICONTROL コンテンツテンプレートを適用]**」を選択します。
 
    ![](assets/content-template-button.png)
 
-1. リストから目的のテンプレートを選択します。選択したチャネルおよび/またはタイプと互換性のあるテンプレートのみが表示されます。
+1. リストから目的のテンプレートを選択します。選択したチャネルやタイプと互換性のあるテンプレートのみが表示されます。
 
    ![](assets/content-template-select.png)
 
    >[!NOTE]
    >
-   >この画面から、専用のボタンを使用して新しいテンプレートを作成することもできます。新しいタブが開きます。
+   >この画面から、新しいタブが開く専用のボタンを使用して、新しいテンプレートを作成することもできます。
 
-1. クリック **[!UICONTROL 確認]**. テンプレートがコンテンツに適用されます。
+1. 「**[!UICONTROL 確認]**」をクリックします。テンプレートがコンテンツに適用されます。
 
 1. 必要に応じて、引き続きコンテンツを編集します。
 
 >[!NOTE]
 >
->を使用してコンテンツテンプレートから E メールのデザインを開始するには [E メールデザイナー](../email/get-started-email-design.md)を使用する場合は、 [この節](../email/use-email-templates.md).
+>[メールデザイナー](../email/get-started-email-design.md)を使用してコンテンツテンプレートからメールのデザインを開始するには、[この節](../email/use-email-templates.md)で説明する手順に従います。
 
 ## チュートリアルビデオ {#video-templates}
 

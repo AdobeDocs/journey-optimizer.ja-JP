@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -183,7 +183,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->プレビューは、モバイルのアプリ内メッセージでのみ使用できます。
+>プレビューは、モバイルアプリ内メッセージでのみ使用できます。
 
 ![](assets/in_app_content_6.png)
 

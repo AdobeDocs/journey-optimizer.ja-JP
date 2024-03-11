@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーイベントの操作
-description: ジャーニーでイベントを使用する方法を学ぶ
+title: ジャーニーイベントの活用
+description: ジャーニーでのイベントの使用方法を学ぶ
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,13 +10,13 @@ level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# ジャーニーイベントの操作 {#about-events}
+# ジャーニーイベントの活用 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
@@ -64,7 +64,7 @@ ht-degree: 96%
 
 ## データサイクル {#data-cycle}
 
-イベントは POST API 呼び出しです。イベントは、ストリーミング取り込み API を使用して Adobe Experience Platform に送信されます。トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。 イベントのペイロードは、XDM 形式に従います。
+イベントは POST API 呼び出しです。イベントは、ストリーミング取り込み API を使用して Adobe Experience Platform に送信されます。トランザクションメッセージング API を通じて送信されるイベントの URL 宛先は「インレット」と呼ばれます。イベントのペイロードは、XDM 形式に従います。
 
 ペイロードには、ストリーミング取得 API が機能するために必要な情報（ヘッダー内）、[!DNL Journey Optimizer] が機能するために必要な情報、ジャーニー内で使用する情報（本文内で使用する、放棄された買い物かごの金額など）が含まれます。ストリーミング取り込みには、認証済みと非認証の 2 つのモードがあります。ストリーミング取得 API の詳細については、[このリンク](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 

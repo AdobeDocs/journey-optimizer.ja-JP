@@ -1,6 +1,6 @@
 ---
 title: Web アプリ内コンテンツのデザイン
-description: Web アプリ内コンテンツのデザイン方法を説明します
+description: Web アプリ内コンテンツのデザイン方法を学ぶ
 feature: In App
 topic: Content Management
 role: User
@@ -9,9 +9,9 @@ keywords: アプリ内, メッセージ, 作成, 開始
 hide: true
 hidefromtoc: true
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 >[!ENDSHADEBOX]
 
-アプリ内メッセージのコンテンツを編集するには、 **[!UICONTROL コンテンツを編集]** ボタンを **[!UICONTROL アクション]** 」メニューを使用します。
+アプリ内メッセージのコンテンツを編集するには、**[!UICONTROL アクション]**&#x200B;メニューから「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
 ![](assets/in_app_web_surface_7.png)
 

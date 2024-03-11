@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,11 +80,11 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 ## Adobe Workfront {#integration-workfront}
 
-Adobe WorkfrontのAdobe Journey Optimizerモジュールを使用して、レコードの作成、読み取り、更新、削除をおこなったり、Adobe Journey Optimizer API に対するカスタム API 呼び出しを実行したりします。
+Adobe Workfront の Adobe Journey Optimizer モジュールを使用すると、レコードの作成、読み取り、更新、削除を行ったり、Adobe Journey Optimizer API に対するカスタム API 呼び出しを実行したりできます。
 
-この統合の主な手順の概要を確認できます [このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+この統合の主な手順の概要については、[このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}を参照してください。
 
-Journey OptimizerとAdobe Workfrontの詳細 [Adobe Workfrontドキュメント内](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
+Journey Optimizer と Adobe Workfront について詳しくは、[Adobe Workfront ドキュメント](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ja){target="_blank"}を参照してください。
 
 ## カスタムチャネル {#integration-custom}
 

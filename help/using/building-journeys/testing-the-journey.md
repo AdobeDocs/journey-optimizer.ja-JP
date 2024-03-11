@@ -10,9 +10,9 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="テストモードログ"
->abstract="The **ログを表示** 「 」ボタンをクリックすると、テスト結果が JSON 形式で表示されます。 この結果では、ジャーニー内の個人の数とそのステータスが表示されます。"
+>abstract="「**ログを表示**」ボタンをクリックすると、テスト結果が JSON 形式で表示されます。この結果では、ジャーニー内の個人の数とそのステータスが表示されます。"
 
 「**[!UICONTROL ログを表示]**」ボタンを使用すると、テスト結果を表示できます。このページには、ジャーニーの現在の情報が JSON 形式で表示されます。ボタンを使用すると、ノード全体をコピーできます。ジャーニーのテスト結果を更新するには、ページを手動で更新する必要があります。
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 96%
 
 ## 2024年2月 {#feb-2024}
 
-* Journey OptimizerとWorkfrontの統合が統合ページに追加されました。 [詳細情報](../start/ajo-integrations.md)
+* Journey Optimizer と Workfront の統合が統合ページに追加されました。[詳細情報](../start/ajo-integrations.md)
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
-* guardrails ページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。 [詳細情報](../start/guardrails.md#custom-actions-g)
-* 外部データソースの基本認証タイプに関する情報が追加されました。 [詳細情報](../datasource/external-data-sources.md)
-* を明確に区別するためのメモが追加されました。 [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md) から [パーソナライゼーションエディター](../personalization/functions/functions.md).
-* 高度な式エディターで使用できる関数のリストが更新されました。 [詳細情報](../building-journeys/expression/functions.md)
-* Split 関数のページが更新されました。 [詳細情報](../building-journeys/functions/functioninaudience.md)
-* アプリ内メッセージに対するオプトインまたはオプトアウト通知の影響に関する情報が追加されました。 [詳細情報](../in-app/create-in-app.md)
-* メッセージ頻度ルールページが更新され、ユーザーインターフェイスで使用できる「期間」オプション（毎週または毎月）が反映されました。 [詳細情報](../configuration/frequency-rules.md)
-* PTR レコードの編集の節が更新され、PTR レコードを手動で作成できないこと、および PTR レコードを編集して新しいサブドメインを割り当てる必要があることが明確になりました。 [詳細情報](../configuration/ptr-records.md#edit-ptr-record)
+* ガードレールページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)
+* 外部データソースの基本認証タイプに関する情報が追加されました。[詳細情報](../datasource/external-data-sources.md)
+* [ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)と[パーソナライゼーションエディター](../personalization/functions/functions.md)を明確に区別するためのメモが追加されました。
+* 高度な式エディターで使用できる関数のリストが更新されました。[詳細情報](../building-journeys/expression/functions.md)
+* split 関数のページが更新されました。[詳細情報](../building-journeys/functions/functioninaudience.md)
+* アプリ内メッセージに対するプッシュ通知のオプトインまたはオプトアウトの影響に関する情報が追加されました。[詳細情報](../in-app/create-in-app.md)
+* メッセージ頻度ルールページが更新され、ユーザーインターフェイスで使用できる「期間」オプション（週別または月別）が反映されました。[詳細情報](../configuration/frequency-rules.md)
+* PTR レコードの編集の節が更新され、PTR レコードは手動で作成できないことと、PTR レコードを編集して新しいサブドメインを割り当てる必要があることが明確になりました。[詳細情報](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024年1月 {#jan-2024}
 

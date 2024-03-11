@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2 月のリリースが公開されました。]
+>[!TAB 2月リリースを公開]
 
 Adobe Journey Optimizer 24.2 リリースに含まれる新機能と機能強化を参照してください。
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer 24.2 リリースに含まれる新機能と機能強化
 
 >[!TAB マルチチャネルコンテンツテンプレート]
 
-E メールに加え、コンテンツテンプレートが、プッシュ、アプリ内、SMS、ダイレクトメールの各チャネルで利用できるようになりました。各チャネルには専用のテンプレートタイプがあります。 E メールの場合は、コンテンツタイプを選択できるようになりました。これにより、件名行を E メールテンプレートの一部として保存できます。
+メールに加えて、プッシュ、アプリ内、SMS およびダイレクトメールのチャネルでコンテンツテンプレートが使用できるようになりました。各チャネルには専用のテンプレートタイプがあります。メールの場合、コンテンツタイプを選択できるようになりました。これにより、件名をメールテンプレートの一部として保存できます。
 
 ![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 

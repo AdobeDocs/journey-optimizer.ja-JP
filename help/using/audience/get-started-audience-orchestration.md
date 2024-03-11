@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 69%
 
 オーディエンス構成を使用すると、**コンポジションワークフロー**&#x200B;を作成できます。このワークフローでは、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して、新しいオーディエンスを作成できます。
 
-完了したら、 **結果オーディエンス** は、既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerキャンペーンやジャーニーで活用して、顧客をターゲットに設定できます。 [Journey Optimizerでオーディエンスのターゲット設定を行う方法を説明します](../audience/about-audiences.md#segments-in-journey-optimizer)
+完了すると、**結果のオーディエンス**&#x200B;は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。[詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->現在、オーディエンス構成とカスタムアップロードオーディエンスからのオーディエンスと属性の使用は、ヘルスケアシールドまたはプライバシーとセキュリティシールドでは使用できません。
+>オーディエンス構成とカスタムアップロードオーディエンスからのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。
 >
->エンリッチメント属性は、まだポリシー実施サービスと統合されていません。 したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizerのキャンペーンやジャーニーでは適用されません。
+>エンリッチメント属性は、まだポリシー適用サービスと統合されていません。したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
 
 オーディエンスコンポジションには、Adobe Journey Optimizer の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
 

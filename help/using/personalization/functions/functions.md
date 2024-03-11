@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1854'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 97%
 
 ➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
 
-テンプレート言語は、次に示すように、パーソナライゼーションエディターのパーソナライゼーションドロップダウンリストで使用できるヘルパー関数で利用されます。
+テンプレート言語は、次に示すように、パーソナライゼーションエディターのパーソナライゼーションドロップダウンリストで選択できるヘルパー関数で利用されます。
 
 ![](../assets/access-helper-functions.png)
 
 >[!NOTE]
 >
->パーソナライゼーションエディターで使用できる機能や機能は、 [ジャーニーの高度な式エディター](../../building-journeys/expression/expressionadvanced.md).
+>パーソナライゼーションエディターで使用できる関数や機能は、[ジャーニーの高度な式エディター](../../building-journeys/expression/expressionadvanced.md)で使用できる関数や機能とは異なります。
 
-Adobe Analytics の [!DNL Journey Optimizer] パーソナライゼーションエディター、ヘルパー関数は、次の 3 つのカテゴリに分類されます。 [関数](#functions-helper), [ヘルパー](#helper-helper) および [演算子](#operators-helper).
+[!DNL Journey Optimizer] パーソナライゼーションエディターでは、ヘルパー関数は[関数](#functions-helper)、[ヘルパー](#helper-helper)および[演算子](#operators-helper)の 3 つのカテゴリにグループ化されます。
 
 サブカテゴリと関数にアクセスするには、カテゴリを選択します。
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizerを使用していない場合、 [ここをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}.
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}してください。
 
 >[!ENDSHADEBOX]
 
@@ -151,7 +151,7 @@ ht-degree: 97%
 * エンリッチメント用の&#x200B;**データセット**&#x200B;は（イベントタイプではなく）レコードタイプにする必要があり、システムデータセットにすることも、プロファイル用にマークすることもできません。1 GB 未満にする必要があります。
 * **エンリッチメントでは 1:1 結合をサポートしています**。つまり、エンリッチメントデータセット上で結合キーに複数の一致がある場合、システムは一致のうち 1 つを選択し、それを 1:1 結合に使用します。
 * **オーディエンスは RTCDP 宛先でアクティブ化できます**&#x200B;が、エンリッチメント属性がある場合、それらはアクティブ化できません。
-* エンリッチメント属性は、まだポリシー実施サービスと統合されていません。 したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizerのキャンペーンやジャーニーでは適用されません。
+* エンリッチメント属性は、まだポリシー適用サービスと統合されていません。したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
 
 アクティビティを設定するには、次の手順に従います。
 

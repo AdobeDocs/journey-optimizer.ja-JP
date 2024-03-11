@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 85%
 
 ## [!DNL Journey Optimizer] でのターゲットオーディエンス {#segments-in-journey-optimizer}
 
-セグメント定義、CSV ファイルのインポートまたは構成ワークフローを使用して生成された任意のオーディエンスをキャンペーンとジャーニーで選択できます。
+セグメント定義、CSV ファイルの読み込みまたはコンポジションワークフローを使用して生成されたオーディエンスをキャンペーンやジャーニーで選択できます。
 
 >[!AVAILABILITY]
 >
->現在、オーディエンス構成およびカスタムアップロード（CSV ファイル）オーディエンスからのオーディエンスおよび属性の使用は、ヘルスケアシールドまたはプライバシーとセキュリティシールドでは使用できません。 [Journey Optimizerでオーディエンスエンリッチメント属性を使用する方法を説明します。](../audience/about-audiences.md#enrichment)
+>オーディエンス構成とカスタムアップロード（CSV ファイル）オーディエンスからのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。[詳しくは、Journey Optimizer でのオーディエンスのエンリッチメント属性の使用方法を参照してください](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 
@@ -59,15 +59,15 @@ ht-degree: 85%
 
 * ジャーニーの&#x200B;**条件**&#x200B;アクティビティを使用し、オーディエンスメンバーシップに基づいて条件を作成します。[詳しくは、条件でのオーディエンスの使用方法を参照してください](../building-journeys/condition-activity.md#using-a-segment)。
 
-## Journey Optimizerでのオーディエンスエンリッチメント属性の使用 {#enrichment}
+## Journey Optimizer でのオーディエンスのエンリッチメント属性の使用 {#enrichment}
 
-合成ワークフローを使用して生成されたオーディエンスをターゲティングする場合、これらのオーディエンスのエンリッチメント属性を活用して、ジャーニーを構築し、メッセージをパーソナライズできます。
+コンポジションワークフローを使用して生成されたオーディエンスをターゲットにする場合、これらのオーディエンスからのエンリッチメント属性を活用してジャーニーを作成し、メッセージをパーソナライズできます。
 
-* ターゲットオーディエンスのエンリッチメント属性を利用するルールに基づいて、ジャーニー内に複数のパスを作成します。 これをおこなうには、 [オーディエンスの閲覧](../building-journeys/read-audience.md) アクティビティを作成してから、 [条件](../building-journeys/condition-activity.md) オーディエンスのエンリッチメント属性に基づくアクティビティ。
+* ターゲットオーディエンスのエンリッチメント属性を活用するルールに基づいて、ジャーニー内に複数のパスを作成します。これを行うには、「[オーディエンスを読み取り](../building-journeys/read-audience.md)」アクティビティを使用してオーディエンスをターゲットにし、オーディエンスのエンリッチメント属性に基づいて「[条件](../building-journeys/condition-activity.md)」アクティビティでルールを作成します。
 
   ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
 
-* 式エディターでターゲットオーディエンスからエンリッチメント属性を追加して、ジャーニーまたはキャンペーンのメッセージをパーソナライズします。 [式エディターの操作方法を説明します。](../personalization/personalization-build-expressions.md)
+* 式エディターでターゲットオーディエンスからエンリッチメント属性を追加して、ジャーニーまたはキャンペーンのメッセージをパーソナライズします。[詳しくは、式エディターの操作方法を参照してください](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 

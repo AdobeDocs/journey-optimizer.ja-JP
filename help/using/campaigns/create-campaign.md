@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->からのオーディエンスと属性の使用 [オーディエンスの構成](../audience/get-started-audience-orchestration.md) および [カスタムアップロード（CSV ファイル）オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience) は、現在、ヘルスケアシールドまたはプライバシーとセキュリティシールドで使用することはできません。
+>[オーディエンス構成](../audience/get-started-audience-orchestration.md)と[カスタムアップロード（CSV ファイル）オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)からのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。
 >
->API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを介して設定する必要があります。
+>API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。
 
 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。
 

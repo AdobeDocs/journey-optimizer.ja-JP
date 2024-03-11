@@ -9,9 +9,9 @@ level: Experienced
 keywords: 関数, 式, エディター, ジャーニー
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 | リスト | [getListItem](../functions/functiongetlistitem.md) |
 | リスト | [in](../functions/functionin.md) |
 | リスト | [intersect](../functions/functionintersect.md) |
-| リスト | [制限](../functions/functionlimit.md) |
+| リスト | [limit](../functions/functionlimit.md) |
 | リスト | [listSize](../functions/functionlistsize.md) |
 | リスト | [serializeList](../functions/functionserializelist.md) |
 | リスト | [sort](../functions/functionsort.md) |
