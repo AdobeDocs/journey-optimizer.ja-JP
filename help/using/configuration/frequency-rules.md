@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 
 [!DNL Journey Optimizer] では、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルルールを設定することで、ユーザーがメッセージを受け取ったり、ジャーニーにエントリする頻度を制御できます。
 
-例えば、ブランドの場合、顧客に月に 4 件を超えるマーケティングメッセージを送信しないというルールを設定できます。これを行うには、頻度ルールを使用して、月別のカレンダー期間に、1 つ以上のチャネルに基づいて送信されるメッセージの件数に上限を設定することができます。
+例えば、あるブランドについて、顧客に月に 4 件を超えるマーケティングメッセージを送信しないというルールを設定できます。これを行うには、頻度ルールを使用して、月別のカレンダー期間に、1 つ以上のチャネルに基づいて送信されるメッセージの件数に上限を設定することができます。
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
@@ -58,7 +58,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="ルールのキャッピングの設定"
->abstract="選択した期間内に顧客プロファイルに送信されるメッセージの最大数を指定します。 頻度キャップは、選択したカレンダー期間に基づき、対応する期間の最初にリセットされます。"
+>abstract="選択した時間枠内に顧客プロファイルに送信されるメッセージの最大数を指定します。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
@@ -85,7 +85,7 @@ ht-degree: 83%
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. このルールに使用するチャネルを選択します。 **[!UICONTROL 電子メール]**, **[!UICONTROL プッシュ通知]**, **[!UICONTROL SMS]** または **[!UICONTROL ダイレクトメール]**.
+1. このルールに使用するチャネルを「**[!UICONTROL メール]**」、「**[!UICONTROL プッシュ通知]**」、「**[!UICONTROL SMS]**」または「**[!UICONTROL ダイレクトメール]**」から選択します。
 
    ![](assets/message-rules-channels.png)
 
@@ -199,7 +199,7 @@ ht-degree: 83%
 
 1. ルールを保存して[アクティブ化](#activate-rule)します。
 
-1. [メッセージの作成](../building-journeys/journeys-message.md) を通じて通信するすべてのチャネルに対して、を選択します。 **[!UICONTROL マーケティング]** 各メッセージのカテゴリ。 [頻度ルールを適用する方法を説明します](#apply-frequency-rule)
+1. 通信したいチャネルごとに[メッセージを作成](../building-journeys/journeys-message.md)し、メッセージごとに&#x200B;**[!UICONTROL マーケティング]**&#x200B;カテゴリを選択します。[頻度ルールの適用方法を学ぶ](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
