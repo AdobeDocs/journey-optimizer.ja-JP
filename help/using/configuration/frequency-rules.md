@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 91%
+source-wordcount: '1213'
+ht-degree: 83%
 
 ---
 
@@ -77,23 +77,9 @@ ht-degree: 91%
    >
    >現在、**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが使用可能です。
 
-   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details.png)
 
-1. **[!UICONTROL 期間]**&#x200B;ドロップダウンリストから、キャッピングを適用する時間枠を選択します。
-
-   ![](assets/message-rules-capping-duration.png)
-
-   フリークエンシーキャップは、選択したカレンダーの期間に基づきます。対応する時間枠の開始時にリセットされます。
-
-   各期間のカウンターの有効期限は次のとおりです。
-
-   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
-
-   * **[!UICONTROL 毎週]**：フリークエンシーキャップは、暦週が日曜日に始まるため、その週の土曜日 23:59:59 UTC まで有効です。有効期限は、ルールの作成に関係なく設定されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
-
-   * **[!UICONTROL 毎月]**：フリークエンシーキャップは、その月の最終日の 23:59:59 UTC まで有効です。例えば、1 月の月次有効期限は 1/31 23:59:59 UTC です。
-
-   &lt;! --メモ：[バッチセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch)を扱う場合、{target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} が推奨されます。<!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+1. 次から： **[!UICONTROL 期間]** 」ドロップダウンリストから、キャッピングを適用する期間を選択します。 [詳細情報](#frequency-cap)
 
 1. ルールのキャッピングを設定します。これは、上記の選択に応じて、毎月または毎週<!--or day-->、個々のユーザープロファイルに送信できるメッセージの最大数を意味します。
 
@@ -114,6 +100,34 @@ ht-degree: 91%
 1. 「**[!UICONTROL ドラフトとして保存]**」をクリックして、ルールの作成を確定します。メッセージが&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスで、ルールリストに追加されます。
 
    ![](assets/message-rules-created.png)
+
+### 頻度キャップ {#frequency-cap}
+
+次から： **[!UICONTROL 期間]** ドロップダウンリストから、毎月または毎週制限を適用する場合に選択します。
+
+>[!NOTE]
+>
+>1 日あたりの頻度キャップは、オンデマンドでも利用できます。 [詳細情報](#daily-frequency-cap)
+
+フリークエンシーキャップは、選択したカレンダーの期間に基づきます。対応する時間枠の開始時にリセットされます。
+
+![](assets/message-rules-capping-duration.png)
+
+各期間のカウンターの有効期限は次のとおりです。
+
+* **[!UICONTROL 毎月]**：フリークエンシーキャップは、その月の最終日の 23:59:59 UTC まで有効です。例えば、1 月の月次有効期限は 1/31 23:59:59 UTC です。
+
+* **[!UICONTROL 毎週]**：フリークエンシーキャップは、暦週が日曜日に始まるため、その週の土曜日 23:59:59 UTC まで有効です。有効期限は、ルールの作成に関係なく設定されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
+
+### 1 日あたりの頻度の上限 {#daily-frequency-cap}
+
+1 か月と 1 週間に加えて、1 日の頻度キャップもオンデマンドで利用できます。 詳しくは、Adobe担当者にお問い合わせください。
+
+1 日の頻度の上限は、23 日まで有効です:59:59(UTC) に設定され、翌日の開始時に 0 にリセットされます。
+
+>[!NOTE]
+>
+>を処理する際に [バッチセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} をお勧めします。 でのオーディエンス評価方法の詳細を説明します。 [この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## ルールのアクティブ化 {#activate-rule}
 

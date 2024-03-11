@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 74%
+source-wordcount: '1146'
+ht-degree: 71%
 
 ---
 
@@ -191,8 +191,11 @@ ht-degree: 74%
 
 **頻度ルール**
 
-* **週別および日別のフリークエンシーキャップ** - 1 か月に加え、1 週間または 1 日に顧客プロファイルに送信するメッセージを指定できるようになりました。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。[詳細情報](../configuration/frequency-rules.md#create-new-rule)
+* **週別頻度キャップ** ：月に加えて、顧客プロファイルに 1 週間に送信できるメッセージの最大数を指定できるようになりました。 フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。[詳細情報](../configuration/frequency-rules.md#create-new-rule)
 
+  >[!NOTE]
+  >
+  >1 日あたりの頻度キャップは、オンデマンドでも利用できます。 担当のAdobe担当者にお問い合わせください。
 
 **意思決定管理**
 
