@@ -9,27 +9,33 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 82%
 
 ---
 
 # 同意ポリシーの使用 {#consent-management}
 
-Adobe Experience Platform では、顧客の同意設定に従ってマーケティングポリシーを簡単に採用および実施できます。同意ポリシーは、Adobe Experience Platform で定義されます。[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy)を参照してください。
+<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
-Journey Optimizer では、これらの同意ポリシーをカスタムアクションに適用できます。例えば、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外する同意ポリシーを定義できます。
+In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
->[!NOTE]
+データは、組織または法規制によって定義された使用制限の対象となる場合があります。 したがって、Journey Optimizer内のデータ操作が [データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} データに対してを実行できます。
+
+使用できるデータ使用ポリシーの 1 つのタイプは次のとおりです。 **同意ポリシー**. マーケティングポリシーを簡単に採用および実施して、顧客の同意設定に従うことができます。 [ポリシーの適用の詳細を表示します](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+
+>[!IMPORTANT]
 >
->現在、同意ポリシーは、Healthcare Shield アドオンサービスを購入した組織でのみ利用できます。
+>同意ポリシーは、現在、Adobeを購入した組織でのみ使用できます **医療用盾** または **プライバシーとセキュリティシールド** アドオンサービス。
 
-Journey Optimizer では、同意は複数のレベルで定義されます。
+例えば、次のことが可能です。 [同意ポリシーの作成](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"} 電子メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外するExperience Platform。
 
-* **カスタムアクションの設定**&#x200B;時、チャネルとマーケティングアクションを定義できます。この[節](../action/consent.md#consent-custom-action)を参照してください。
-* **ジャーニーのカスタムアクション**&#x200B;の追加時に、追加のマーケティングアクションを定義できます。この[節](../action/consent.md#consent-journey)を参照してください。
+Journey Optimizerでは、同意は複数のレベルで定義されます。 ジャーニーのカスタムアクションに同意ポリシーを適用できます。
+
+* 条件 **カスタムアクションの設定**&#x200B;に値を入力する場合、チャネルとマーケティングアクションを定義できます。 [詳細情報](#consent-custom-action)
+* を追加する場合、 **ジャーニーのカスタムアクション**&#x200B;に値を入力する場合、追加のマーケティングアクションを定義できます。 [詳細情報](#consent-journey)
 
 ## 重要な注意事項 {#important-notes}
 
