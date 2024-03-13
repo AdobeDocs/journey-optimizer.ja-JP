@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
-workflow-type: ht
-source-wordcount: '1362'
-ht-degree: 100%
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 96%
 
 ---
 
@@ -55,16 +55,6 @@ ht-degree: 100%
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * テンプレートコンテンツを編集するには、リストから目的の項目をクリックし、「**[!UICONTROL コンテンツを編集]**」を選択します。
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >テンプレートを編集または削除しても、このテンプレートを使用して作成されたコンテンツを含むキャンペーンやジャーニーは影響を受けません。
+
+### テンプレートをサムネールとして表示 {#template-thumbnails}
+
+を選択します。 **[!UICONTROL グリッド表示]** モード：各テンプレートをサムネールとして表示します。
+
+>[!AVAILABILITY]
+>
+>この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>現在、適切なサムネールは、HTMLタイプの E メールコンテンツテンプレートに対してのみ生成できます。
+
+コンテンツを更新する場合、変更がサムネールに反映されるまで、数秒待つ必要が生じる場合があります。
 
 ## コンテンツテンプレートの作成 {#create-content-templates}
 
