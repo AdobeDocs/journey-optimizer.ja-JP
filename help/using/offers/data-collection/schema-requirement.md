@@ -7,7 +7,7 @@ feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
@@ -39,7 +39,7 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 ```
 {
     "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
-    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:timestamp": "2023-09-26T15:52:25+00:00",
     "xdm:eventType": "decisioning.propositionDisplay",
     "https://ns.adobe.com/experience/decisioning/propositions":
     [
@@ -73,7 +73,7 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 ```
 {
     "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
-    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:timestamp": "2023-09-26T15:52:25+00:00",
     "xdm:eventType": "decisioning.propositionInteract",
     "https://ns.adobe.com/experience/decisioning/propositions":
     [

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: cc577989-198c-4e21-80e7-32ebb7a60606
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -68,7 +68,7 @@ curl -X GET \
 {
     "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
     "schemaNs": "https://ns.adobe.com/experience/offer-management/tag;version=0.1",
-    "requestTime": "2020-10-21T20:28:21.521267Z",
+    "requestTime": "2023-10-21T20:28:21.521267Z",
     "_embedded": {
         "results": [
             {
@@ -80,8 +80,8 @@ curl -X GET \
                     "acp"
                 ],
                 "repo:etag": 2,
-                "repo:createdDate": "2020-10-16T05:11:26.815213Z",
-                "repo:lastModifiedDate": "2020-10-16T22:20:20.190006Z",
+                "repo:createdDate": "2023-10-16T05:11:26.815213Z",
+                "repo:lastModifiedDate": "2023-10-16T22:20:20.190006Z",
                 "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
                 "repo:createdByClientId": "{CREATED_CLIENT_ID}",
@@ -107,8 +107,8 @@ curl -X GET \
                     "acp"
                 ],
                 "repo:etag": 1,
-                "repo:createdDate": "2020-09-25T18:44:02.109748Z",
-                "repo:lastModifiedDate": "2020-09-25T18:44:02.109748Z",
+                "repo:createdDate": "2023-09-25T18:44:02.109748Z",
+                "repo:lastModifiedDate": "2023-09-25T18:44:02.109748Z",
                 "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
                 "repo:createdByClientId": "{CREATED_CLIENT_ID}",

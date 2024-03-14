@@ -6,8 +6,8 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
-workflow-type: ht
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -74,8 +74,8 @@ curl -X GET \
                     "acp"
                 ],
                 "repo:etag": 2,
-                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
-                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
+                "repo:createdDate": "2023-09-16T07:54:28.319959Z",
+                "repo:lastModifiedDate": "2023-09-16T07:54:32.098139Z",
                 "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
                 "repo:createdByClientId": "{CREATED_CLIENT_ID}",

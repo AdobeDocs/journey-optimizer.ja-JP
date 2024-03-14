@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
@@ -51,7 +51,7 @@ curl -X GET \
 {
     "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
     "schemaNs": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1",
-    "requestTime": "2020-10-21T22:21:50.658080Z",
+    "requestTime": "2023-10-21T22:21:50.658080Z",
     "_embedded": {
         "results": [
             {
@@ -63,8 +63,8 @@ curl -X GET \
                     "acp"
     ],
                 "repo:etag": 3,
-                "repo:createdDate": "2020-09-17T15:18:20.657299Z",
-                "repo:lastModifiedDate": "2020-10-02T02:34:48.034583Z",
+                "repo:createdDate": "2023-09-17T15:18:20.657299Z",
+                "repo:lastModifiedDate": "2023-10-02T02:34:48.034583Z",
                 "repo:createdBy": "712B3670554A7AF17F000101@AdobeID",
                 "repo:lastModifiedBy": "68D9EA8559BC2D810A495CC2@AdobeID",
                 "repo:createdByClientId": "exc_app",

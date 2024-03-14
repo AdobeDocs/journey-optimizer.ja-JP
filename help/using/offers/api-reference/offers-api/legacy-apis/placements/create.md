@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
@@ -65,8 +65,8 @@ curl -X POST \
     "instanceId": "9aa58fd0-13d7-11eb-928b-576735ea4db8",
     "@id": "xcore:offer-placement:124e0be5699743d3",
     "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T19:57:09.837456Z",
-    "repo:lastModifiedDate": "2020-10-21T19:57:09.837456Z",
+    "repo:createdDate": "2023-10-21T19:57:09.837456Z",
+    "repo:lastModifiedDate": "2023-10-21T19:57:09.837456Z",
     "repo:createdBy": "{CREATED_BY}",
     "repo:lastModifiedBy": "{MODIFIED_BY}",
     "repo:createdByClientId": "{CREATED_CLIENT_ID}",

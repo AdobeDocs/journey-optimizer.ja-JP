@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
@@ -53,7 +53,7 @@ curl -X GET \
 {
     "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
     "schemaNs": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5",
-    "requestTime": "2020-10-21T20:59:16.238585Z",
+    "requestTime": "2023-10-21T20:59:16.238585Z",
     "_embedded": {
         "results": [
             {
@@ -65,8 +65,8 @@ curl -X GET \
                     "acp"
                 ],
                 "repo:etag": 1,
-                "repo:createdDate": "2020-10-20T20:01:02.927874Z",
-                "repo:lastModifiedDate": "2020-10-20T20:01:02.927874Z",
+                "repo:createdDate": "2023-10-20T20:01:02.927874Z",
+                "repo:lastModifiedDate": "2023-10-20T20:01:02.927874Z",
                 "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
                 "repo:createdByClientId": "{CREATED_CLIENT_ID}",
@@ -92,7 +92,7 @@ curl -X GET \
                         "xdm:priority": 1
                     },
                     "xdm:selectionConstraint": {
-                        "xdm:startDate": "2020-10-01T16:00:00Z",
+                        "xdm:startDate": "2023-10-01T16:00:00Z",
                         "xdm:endDate": "2021-12-13T16:00:00Z",
                         "xdm:eligibilityRule": "xcore:eligibility-rule:124cb4511da781fc"
                     },

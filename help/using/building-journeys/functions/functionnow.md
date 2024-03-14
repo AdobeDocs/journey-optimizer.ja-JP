@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: now，関数，式，ジャーニー
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 93%
+ht-degree: 66%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 93%
 
 `now()`
 
-2019-06-03T06:30Z を返します。
+2023-06-03T06:30Z を返します。
 
 `toString(now())`
 
-「2019-06-03T06:30Z」を返します。
+「2023-06-03T06:30Z」を返します。
 
 `now("Europe/Paris")`
 
-2019-06-03T08:30+02:00 を返します。
+2023-06-03T08:30+02:00 を返します。

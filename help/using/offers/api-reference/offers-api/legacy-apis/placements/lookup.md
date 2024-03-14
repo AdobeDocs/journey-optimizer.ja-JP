@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
@@ -49,7 +49,7 @@ curl -X GET \
 {
     "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
     "schemaNs": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4",
-    "requestTime": "2020-10-21T20:04:53.656503Z",
+    "requestTime": "2023-10-21T20:04:53.656503Z",
     "_embedded": {
         "results": [
             {
@@ -61,8 +61,8 @@ curl -X GET \
                     "acp"
     ],
                 "repo:etag": 2,
-                "repo:createdDate": "2020-10-21T19:57:09.837456Z",
-                "repo:lastModifiedDate": "2020-10-21T19:59:10.700149Z",
+                "repo:createdDate": "2023-10-21T19:57:09.837456Z",
+                "repo:lastModifiedDate": "2023-10-21T19:59:10.700149Z",
                 "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
                 "repo:createdByClientId": "{CREATED_CLIENT_ID}",

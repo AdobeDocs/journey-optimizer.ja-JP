@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
@@ -53,7 +53,7 @@ curl -X GET \
 {
     "containerId": "ab574eca-f7a9-38d0-b3d9-297376ca9ee2",
     "schemaNs": "https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1",
-    "requestTime": "2020-10-21T21:29:27.329070Z",
+    "requestTime": "2023-10-21T21:29:27.329070Z",
     "_embedded": {
         "results": [
             {
@@ -65,8 +65,8 @@ curl -X GET \
                     "acp"
     ],
                 "repo:etag": 1,
-                "repo:createdDate": "2020-10-20T02:37:11.263718Z",
-                "repo:lastModifiedDate": "2020-10-20T02:37:11.263718Z",
+                "repo:createdDate": "2023-10-20T02:37:11.263718Z",
+                "repo:lastModifiedDate": "2023-10-20T02:37:11.263718Z",
                 "repo:createdBy": "{CREATED_BY}",
                 "repo:lastModifiedBy": "{MODIFIED_BY}",
                 "repo:createdByClientId": "{CREATED_CLIENT_ID}",

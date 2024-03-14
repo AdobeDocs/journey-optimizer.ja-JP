@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -172,7 +172,7 @@ true を返します
 
 >[!NOTE]
 >
->&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
+&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
 
 結果はブール値です。
 
@@ -434,13 +434,13 @@ true を返します
 "the current time is " + (now())
 ```
 
-「現在の時刻は 2019-09-23T09:30:06.693Z です」を返します
+「現在の時刻は2023-09-23T09です:30:06.693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-「2019-09-23T09:30:06.693Z は現在の時刻です」を返します
+戻り値&quot;2023-09-23T09:30:06.693Z は現在の時刻です。
 
 ```json
 "a" + "b" + "c" + 1234
@@ -461,16 +461,16 @@ true を返します
 例：
 
 ```json
-(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
+(toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-_dateTime_ 2011-12-03T15:30:30Z を返します
+を返します。 _dateTime_ 2023-12-03T15:30:30Z
 
 ```json
-(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
+(toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-_dateTimeOnly_ 2011-12-03T15:30:30 を返します
+を返します。 _dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))

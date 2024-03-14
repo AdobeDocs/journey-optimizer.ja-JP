@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateTimeOnly，関数，式，ジャーニー
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 93%
+ht-degree: 80%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 93%
 
 ## 例
 
-`toDateTimeOnly ("2016-08-18")`
+`toDateTimeOnly ("2023-08-18")`
 
-2016-08-18T00:00:00.000 を表す日時を返します。
+は、2023-08-18T00を表す dateTime を返します:00:00.000
 
 `toDateTimeOnly(now())`
 

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: b3cb1a06b200961030ff22c2ee6f42173f83606f
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 99%
@@ -253,7 +253,7 @@ ORDER BY 1, 2 DESC;
 ```sql
 select proposedOffers.id,proposedOffers.name, po._experience.decisioning.ranking.priority, count(proposedOffers.id) as ProposedCount from (
 select explode(propositionexplode.selections) AS proposedOffers from
-(select explode(_experience.decisioning.propositionDetails) AS propositionexplode,timestamp FROM ode_decisionevents_itca_decisioning_20200925_235340_379  where date_format(timestamp, 'MM/dd/yyyy') >= date_format(DATE_ADD(CURRENT_DATE, -30), 'MM/dd/yyyy') and _experience.decisioning.propositionDetails.activity[0].id = 'xcore:offer-activity:12ae6f35a055c6f0')) a, decision_object_repository_personalized_offers po where proposedOffers.id LIKE 'xcore:personalized-offer%' and po._id=proposedOffers.id
+(select explode(_experience.decisioning.propositionDetails) AS propositionexplode,timestamp FROM ode_decisionevents_itca_decisioning_20230925_235340_379  where date_format(timestamp, 'MM/dd/yyyy') >= date_format(DATE_ADD(CURRENT_DATE, -30), 'MM/dd/yyyy') and _experience.decisioning.propositionDetails.activity[0].id = 'xcore:offer-activity:12ae6f35a055c6f0')) a, decision_object_repository_personalized_offers po where proposedOffers.id LIKE 'xcore:personalized-offer%' and po._id=proposedOffers.id
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 

@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: setDays, 関数, 式, ジャーニー
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 100%
 
 ## 例
 
-`setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
+`setDays(toDateTime('2023-12-12T01:11:00Z'), 25)`
 
-2010-12-25T01:11:00Z を返します。
+戻り値2023-12-25T01:11:00Z
 
 `setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`

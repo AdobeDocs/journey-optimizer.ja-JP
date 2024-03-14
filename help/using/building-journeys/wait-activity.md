@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## カスタム待機{#custom}
 
-このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2020 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。この[ページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式の詳細については、[このページ](expression/data-types.md)を参照してください。
+このオプションでは、イベントやデータソースのフィールドに基づく高度な式を使用して、カスタムの日付（例：2023 年 7 月 12 日午後 5 時）を定義できます。カスタムの期間（例えば 7 日など）を定義することはできません。式エディターでは、式を dateTimeOnly 形式にする必要があります。この[ページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式の詳細については、[このページ](expression/data-types.md)を参照してください。
 
 >[!NOTE]
 >
->dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例えば、toDateTimeOnly(@event{Event.offerOpened.activity.endTime}) では、イベント内のフィールドが 2016-08-12T09:46:06Z の形式になります。
+>dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例えば、toDateTimeOnly(@event{Event.offerOpened.activity.endTime}) の場合、イベントのフィールドは2023-08-12T09の形式です。:46:06Z
 >
->ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、今のところ、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（2016-08-12T09:46:06.982-05 など）をインターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
+>ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。その結果、現在、インターフェイスから完全な ISO-8601 タイムスタンプを直接指すことはできず、タイムゾーンのオフセット (2023-08-12T09など ) を含む:46:06.982-05 [このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](assets/journey57.png)
 

@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式, データ, データタイプ, ジャーニー
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 95%
 
 ---
 
@@ -165,7 +165,7 @@ toDateTimeOnly 関数でカプセル化できます。
 
 シリアル化形式：ISO-8601 拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
 
 **リテラル表現**
 
@@ -176,8 +176,8 @@ date("<dateTimeOnly in ISO-8601 format>")
 **例**
 
 ```json
-date("2021-02-19T00.00.000")
-date("2021-02-19T00.00")
+date("2024-02-19T00.00.000")
+date("2024-02-19T00.00")
 ```
 
 ## 日時 {#date-time}
@@ -186,7 +186,7 @@ date("2021-02-19T00.00")
 
 タイムゾーンも考慮した日時定数。UTC からのオフセットを持つ日時を表します。
 
-オフセットの追加情報を含んだある瞬間と見なすことができます。世界のある場所での特定の「瞬間」を表す手段になります。
+オフセットの追加情報を含んだある瞬間と見なすことができます。これは、世界のある場所で特定の「瞬間」を表す方法です。
 
 JSON 形式：文字列
 
@@ -194,9 +194,9 @@ toDateTime 関数でカプセル化できます。
 
 シリアル化形式：ISO-8601 拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
 
-エポック値を表す整数を渡すこともできます。[詳細情報](https://www.epochconverter.com)
+エポック値を表す整数を渡すこともできます。[詳細を表示](https://www.epochconverter.com){_blank}.
 
 タイムゾーンは、オフセットまたはタイムゾーンコード（例：Europe/Paris、Z は UTC を意味）で指定できます。
 
@@ -217,7 +217,7 @@ toDateTime(<integer value of an epoch in milliseconds>)
 **例**
 
 ```json
-date("2021-02-19T00.00.000Z")
+date("2024-02-19T00.00.000Z")
 ```
 
 ```json
@@ -225,19 +225,19 @@ toDateTime("1977-04-22T06:00:00Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30Z")
+toDateTime("2023-12-03T15:15:30Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123Z")
+toDateTime("2023-12-03T15:15:30.123Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123+02:00")
+toDateTime("2023-12-03T15:15:30.123+02:00")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123-00:20")
+toDateTime("2023-12-03T15:15:30.123-00:20")
 ```
 
 ```json
@@ -258,7 +258,7 @@ toDuration 関数でカプセル化する必要があります。
 
 シリアル化形式：タイムゾーン ID を逆シリアル化するには、java 関数の java.time を使用します。
 
-Duration.parse：許可される形式は、ISO-8601 期間形式 PnDTnHnMn.nS に基づいており、日は正確に 24 時間と見なされます。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse：許可される形式は、ISO-8601 期間形式 PnDTnHnMn.nS に基づいており、日は正確に 24 時間と見なされます。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
 
 **リテラル表現**
 

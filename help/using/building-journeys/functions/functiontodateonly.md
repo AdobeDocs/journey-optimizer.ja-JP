@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateOnly，関数，式，ジャーニー
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 96%
@@ -49,13 +49,13 @@ dateOnly 型の値を返します。
 
 ## 例
 
-`toDateOnly("2016-08-18")`
+`toDateOnly("2023-08-18")`
 
-`toDateOnly("2016-08-18T00:00:00.000Z")`
+`toDateOnly("2023-08-18T00:00:00.000Z")`
 
-`toDateOnly("2016-08-18T00:00:00")`
+`toDateOnly("2023-08-18T00:00:00")`
 
-すべての場合、2016-08-18 を表す dateOnly オブジェクトが返されます。
+すべての場合、2023/08/18 を表す dateOnly オブジェクトが返されます。
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 
