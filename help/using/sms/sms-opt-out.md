@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 97%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 100%
 * **ヘルプ**：HELP
 
 これらのキーワードは通常、お使いのサードパーティプロバイダーから提供される自動標準返信をトリガーします。これについては、プロバイダーまたはドキュメントサイトで直接確認してください。
+
+Infobip を使用する場合は、「Forwarding」アクションが「Pull」設定に設定されていることを確認します。
 
 キーワード応答の STOP、UNSTOP、START、QUIT、CANCEL、END および UNSUBSCRIBE が自動的に認識されるので、Adobe Journey Optimizer で SMS オプトアウト機能が機能していることを確認する手順は不要です。プロファイルのオプトアウトステータスは、Adobe Journey Optimizer でリアルタイムに更新されます。
 
