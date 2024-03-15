@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
+source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 100%
@@ -80,8 +80,6 @@ ht-degree: 100%
 * フラグメントを複製します。
 
 * 「**[!UICONTROL 参照を探索]**」オプションを使用して、使用されているジャーニー、キャンペーン、テンプレートを確認します。[詳細情報](#explore-references)
-
-<!--Copy a fragment to another sandbox.-->
 
 * フラグメントをアーカイブします。[詳細情報](#archive-fragments)
 
