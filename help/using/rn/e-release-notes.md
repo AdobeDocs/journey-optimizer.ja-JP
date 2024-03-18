@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
+source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 26%
+source-wordcount: '311'
+ht-degree: 29%
 
 ---
 
@@ -55,7 +55,11 @@ ht-degree: 26%
 
 **コンテンツテンプレート**
 
-* **サムネール** - A **サムネール表示** は、視覚的アクセスを改善するために、コンテンツテンプレートとフラグメントで使用できるようになりました。 [詳細情報](../content-management/content-templates.md#template-thumbnails)
+* **サムネール** - A **グリッド表示** コンテンツテンプレートに対してモードが使用できるようになり、サムネールを表示して視覚的なアクセスを改善できます。 現在、電子メールHTMLテンプレートのみがサポートされています。 [詳細情報](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
 
 **ジャーニー**
 
