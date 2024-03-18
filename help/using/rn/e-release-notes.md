@@ -8,16 +8,16 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
+source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 36%
+source-wordcount: '278'
+ht-degree: 27%
 
 ---
 
 # 早期リリースノート {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。[リリースノート](release-notes.md)では、すべての変更が各月の最終週にまとめられます。
+[!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、 [リリースノート](release-notes.md).
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
@@ -25,9 +25,9 @@ ht-degree: 36%
 
 **リリース日**:2024 年 3 月 19～20 日
 
-### 新機能{#e-features}
+### 新しい機能 {#e-features}
 
-このリリースでは、以下に示す新機能が導入されています。
+このリリースでは、以下に説明する新しい機能が導入されています。
 
 <table>
 <thead>
@@ -41,7 +41,7 @@ ht-degree: 36%
 <p>新しいコードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizerを使用して、Web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントでカスタマイズされたエクスペリエンスをシームレスに配信できます。</p>
 <P>主な機能は次のとおりです。</p>
 <ul><li> ユニバーサルパーソナライゼーション：すべてのタッチポイントにわたってパーソナライズされたエクスペリエンスを拡張し、統合されたカスタマイズされたユーザージャーニーを確保します。</li>
-<li>&gt; 詳細な編集精度：アプリまたは Web ページ内の個々の場所で特定のコンテンツを編集</li>
+<li>詳細な編集精度：アプリまたは Web ページ内の個々の場所で特定のコンテンツを編集します。</li>
 <li>汎用性の高い実装：開発環境とシームレスに統合するための、サーバー側、API ベース、SDK ベースの実装方法のサポート。</li></ul></p>
 <p>詳しくは、 <a href="../code-based/get-started-code-based.md">詳細なドキュメント</a>を参照してください。</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
