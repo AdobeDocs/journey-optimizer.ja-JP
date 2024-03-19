@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
->title="デリゲートされたサブドメインがここに表示されます。"
->abstract="最初のサブドメインをデリゲートします。 委任が完了すると、PTR レコードが作成され、E メールチャネルが有効になります。"
+>title="デリゲートされたサブドメインがこちらに表示されます。"
+>abstract="最初のサブドメインをデリゲートします。デリゲーションが完了すると、PTR レコードが作成され、メールチャネルが有効になります。"
 
 電子メールキャンペーン用のサブドメインを作成すると、様々なタイプのトラフィック（マーケティングと企業など）を特定の IP プールと特定のドメインに分離でき、IP ウォーミングプロセスを高速化し、配信品質を全体的に向上させます。
 
