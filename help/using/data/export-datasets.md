@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 60%
+source-wordcount: '864'
+ht-degree: 48%
 
 ---
 
@@ -67,7 +67,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 ## 前提条件 {#prerequisites}
 
-データセットを書き出すには、以下に示す[アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions)が必要です。[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja)を参照するか、製品管理者に問い合わせて必要な権限を取得してください。
+データセットを書き出すには、 [アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja){target="_blank"} または製品管理者に問い合わせて、必要な権限を取得してください。
 
 | カテゴリ | 権限 |
 |--|--|
@@ -75,15 +75,15 @@ Journey Optimizer では、データセットの内容を書き出すために�
 | データ管理 | データセットの表示 |
 | 宛先 | 宛先の表示 |
 
-## データセットを書き出す主な手順 {#main-steps}
+## データセットを書き出すための主な手順 {#main-steps}
 
 データセットをクラウドストレージの場所に書き出す主な手順を以下に示します。
 
 ![](assets/dataset-export-process.png)
 
-各手順について詳しくは、 Adobe Experience Platform のドキュメントの[クラウドストレージの宛先へのデータセットの書き出し](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja)を参照してください。
+各手順の詳細については、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target="_blank"}.
 
-1. **クラウドストレージの宛先を設定します**。まだ行っていない場合は、宛先カタログからクラウドストレージの宛先に接続します。[新しい宛先接続を作成する方法については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ja#setup)
+1. **クラウドストレージの宛先を設定します**。まだ行っていない場合は、宛先カタログからクラウドストレージの宛先に接続します。で新しい宛先接続を作成する方法を説明します。 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ja#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
    >[!NOTE]
    >
-   >Adobe Journey Optimizer をリアルタイム顧客プロファイルと共に使用している場合、宛先カードに「アクティベート」ボタンが表示され、有効にした権限に応じて、データセットの書き出しとこの宛先に対するオーディエンスのアクティブ化の両方が可能になります。
+   >Adobe Journey Optimizerをリアルタイム顧客プロファイルと共に使用している場合、宛先カードには **有効化** ボタンをクリックし、有効にした権限に応じて、データセットを書き出したり、この宛先のオーディエンスをアクティブ化したりできます。
 
 1. 選択した宛先に書き出す&#x200B;**データセットを選択**&#x200B;します。[書き出しに使用できる Journey Optimizer データセットの詳細情報](#datasets)
 
@@ -107,4 +107,4 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
    <!--![](assets/dataset-export-review.png)-->
 
-書き出しが完了すると、設定したスケジュールに従って、データセットの内容がクラウドストレージの場所に保存されます。[データセットの書き出しが成功したことを確認する方法については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja#verify)
+書き出しが完了すると、設定したスケジュールに従って、データセットの内容がクラウドストレージの場所に保存されます。[データセットの書き出しが成功したことを確認する方法を説明します。](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja#verify){target="_blank"}.
