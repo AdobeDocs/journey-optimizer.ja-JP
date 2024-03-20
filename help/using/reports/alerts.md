@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Experience Platform のアラートについて詳しくは、[Adobe Exper
 
 カスタムアクションアラートに対応する I/O イベント登録名は、**ジャーニーカスタムアクションエラー**&#x200B;です。
 
-## セグメントトリガーの読み取りに失敗 {#alert-read-audiences}
+## オーディエンス読み取りトリガー失敗 {#alert-read-audiences}
 
 このアラートは、スケジュールされた実行時間から 10 分経過しても、「**オーディエンスを読み取り**」アクティビティでプロファイルを処理されなかった場合に警告します。このエラーは、技術的な問題やオーディエンスが空であることが原因で発生する可能性があります。
 
@@ -68,3 +68,24 @@ Adobe Experience Platform のアラートについて詳しくは、[Adobe Exper
 **オーディエンスを読み取り**&#x200B;に関するアラートは、プロファイルが&#x200B;**オーディエンスを読み取り**&#x200B;ノードにエントリすると解決されます。
 
 **セグメントトリガーの読み取りに失敗**&#x200B;アラートに対応する I/O イベント購読名は、**ジャーニーのセグメントの読み取りの遅延、失敗およびエラー**&#x200B;です。
+
+## トラブルシューティング {#alert-troubleshooting}
+
+トラブルシューティングするには **オーディエンスの閲覧** アラートの場合は、Experience Platformインターフェイスでオーディエンス数を確認します。
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+トラブルシューティングするには **カスタムアクション** アラート：
+
+* 別のジャーニーでテストモードを使用してカスタムアクションを確認します。
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* ジャーニーレポートを調べて、アクションに関するエラー理由を確認します。
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* 「failureReason」に関する詳細は、ジャーニー stepEvents を確認してください。
+* カスタムアクション設定を確認し、認証が正常であることを検証します。 例えば、Postmanで手動チェックを実行します。

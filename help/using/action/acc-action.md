@@ -9,27 +9,27 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 94%
 
 ---
 
-# Adobe Campaign v7／v8 との統合 {#integrating-with-adobe-campaign-classic}
+# Adobe Campaign v7／v8 との統合 {#integrating-with-adobe-campaign-v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7／v8 のアクション"
->abstract="この統合は、Adobe Campaign Classic v7 および v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。"
+>abstract="この統合は、Adobe Campaign v7 および v8 で使用できます。 Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。"
 
-この統合は、Adobe Campaign Classic v7 リリース 7.1 以降および Adobe Campaign v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
+この統合は、7.1 リリース以降のAdobe Campaign v7/v8 およびAdobe Campaign v8 で使用できます。 Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 
 Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。
 
 エンドツーエンドの使用例については、[この節](../building-journeys/ajo-ac.md)を参照してください。
 
-設定したアクションごとに、1 つのアクションアクティビティをジャーニーデザイナーパレットで使用できます。[この節](../building-journeys/using-adobe-campaign-classic.md)を参照してください。
+設定したアクションごとに、1 つのアクションアクティビティをジャーニーデザイナーパレットで使用できます。[この節](../building-journeys/using-adobe-campaign-v7-v8.md)を参照してください。
 
 ## 重要な注意事項 {#important-notes}
 

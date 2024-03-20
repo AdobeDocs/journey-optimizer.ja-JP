@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: '1392'
+ht-degree: 83%
 
 ---
 
@@ -25,6 +25,56 @@ ht-degree: 96%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
+
+## 2024年3月リリースノート {#mar-2024}
+
+**リリース日**:2024 年 3 月 19～20 日
+
+### 新しい機能 {#mar-features}
+
+このリリースでは、以下に説明する新しい機能が導入されています。
+
+<table>
+<thead>
+<tr>
+<th><strong>コードベースのエクスペリエンス</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しいコードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizerを使用して、Web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントでカスタマイズされたエクスペリエンスをシームレスに配信できます。</p>
+<P>主な機能は次のとおりです。</p>
+<ul><li> ユニバーサルパーソナライゼーション：すべてのタッチポイントにわたってパーソナライズされたエクスペリエンスを拡張し、統合されたカスタマイズされたユーザージャーニーを確保します。</li>
+<li>詳細な編集精度：アプリまたは Web ページ内の個々の場所で特定のコンテンツを編集します。</li>
+<li>汎用性の高い実装：開発環境とシームレスに統合するための、サーバー側、API ベース、SDK ベースの実装方法のサポート。</li></ul></p>
+<p>詳しくは、 <a href="../code-based/get-started-code-based.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/code-based.gif">
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#mar-improvements}
+
+このリリースでは、以下に示す機能強化が含まれています。
+
+**コンテンツテンプレート**
+
+* **サムネール** - A **グリッド表示** コンテンツテンプレートに対してモードが使用できるようになり、サムネールを表示して視覚的なアクセスを改善できます。 現在、電子メールHTMLテンプレートのみがサポートされています。 [詳細情報](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
+
+**ジャーニー**
+
+ジャーニーオーサリングライフサイクルに、新しい中間ステータスが追加されました。
+
+* **公開** 次の間のステータス **ドラフト** ステータスと **ライブ** ステータス
+* **停止中** 次の間のステータス **ライブ** ステータスと **停止** ステータス
+* **テストモードの有効化** または **テストモードの無効化** 次の間のステータス： **ドラフト** ステータスと **ドラフト（テスト）** ステータス
+
+ジャーニーが中間状態の場合は、読み取り専用です。 [詳細情報](../building-journeys/journey-gs.md#filter)
 
 ## 2024年2月リリースノート {#feb-2024}
 

@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limit, 関数, 式, ジャーニー
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: ht
-source-wordcount: '139'
-ht-degree: 100%
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| listToProcess | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 考慮するリスト。 listObject の場合は、フィールド参照にする必要があります。 |
 | numberOfItems | 整数 | 指定されたリストから返される項目の数。 |
 | firstOrLastItems | ブール値 | このパラメーターはオプションです（デフォルトは true）。true の場合は、先頭の項目を返します。false の場合は、末尾の項目を返します。 |
 

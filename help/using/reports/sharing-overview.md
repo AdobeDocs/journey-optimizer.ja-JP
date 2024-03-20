@@ -7,10 +7,11 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 89%
 
 ---
 
@@ -26,6 +27,11 @@ ht-degree: 100%
 例えば、複数のメールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Optimizer] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。ジャーニー情報を Adobe Experience Platform のデータ（他のデジタルプロパティのデータまたはオフラインプロパティのデータ）と組み合わせて、パフォーマンスをより包括的に把握することができます。
 
 [!DNL Journey Optimizer] は、個人がジャーニーで実行するステップごとに、必要なスキーマとデータセットへのストリームを Adobe Experience Platform に対して自動的に作成します。ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを備えたジャーニーでは、3 つのステップイベントが Adobe Experience Platform に送信されます。
+
+同じノードに対して複数のイベントを作成できる場合があります。 例えば、「待機」アクティビティの場合は、次のようになります。
+
+* プロファイルが待機に入ると 1 つのイベントが生成されます（journeyNodeProcessed 属性が false に等しい）
+* プロファイルが終了すると、1 つのイベントが生成されます（journeyNodeProcessed 属性が true に等しい）。
 
 渡される XDM フィールドのリストは多岐にわたります。システムで生成されたコードを含むものもあれば、人間が理解できるわかりやすい名前を持つものもあります。例えば、ジャーニーアクティビティやステップステータスのラベルがあります。アクションがタイムアウトした回数や、エラーで終了した回数などです。
 
@@ -67,4 +73,3 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 * クロスチャネルジャーニー分析のために、このデータセットを [!DNL Customer Journey Analytics] で使用するには、[Customer Journey Analytics のドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)を参照してください{target="_blank"}。
 
 ➡️ [カスタマージャーニー分析の操作](cja-ajo.md){target="_blank"}
-

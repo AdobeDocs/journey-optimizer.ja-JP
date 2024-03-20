@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 89%
 
 ---
 
 # コードベースチャネルの基本を学ぶ {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
-
-* **[コードベースチャネルの基本を学ぶ](get-started-code-based.md)**
-* [コードベースの前提条件](code-based-prerequisites.md)
-* [コードベースの実装サンプル](code-based-implementation-samples.md)
-* [コードベースのエクスペリエンスを作成](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->現在、コードベースのエクスペリエンスチャネルは、一部のユーザーのみが利用できるベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+>現時点では、Adobeを購入した組織では、コードベースのエクスペリエンスチャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 [!DNL Journey Optimizer] を使用すると、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、音声アシスタント、IoT デバイスなど、すべてのタッチポイントで顧客に提供するエクスペリエンスをパーソナライズしてテストできます。
 
@@ -39,11 +25,15 @@ ht-degree: 100%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-[キャンペーンを作成](../campaigns/create-campaign.md#configure)する際は、アクションとして「**コードベースのエクスペリエンス（ベータ版）**」を選択し、基本設定を定義します。
+>[!CAUTION]
+>
+>現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してコードベースエクスペリエンスのみを作成できます。
+
+次の場合： [キャンペーンの作成](../campaigns/create-campaign.md#configure)を選択します。 **コードベースのエクスペリエンス** をアクションとして追加し、基本設定を定義します。
 
 >[!NOTE]
 >
->Web エクスペリエンスを初めて作成する場合は、[こちらのセクション](code-based-prerequisites.md)に記載されている前提条件を必ず満たすようにしてください。
+>コードベースのエクスペリエンスを初めて作成する場合は、 [この節](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -74,17 +64,15 @@ ht-degree: 100%
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="検証" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>コードを編集</strong></a>
+<a href="code-based-implementation-samples.md"><strong>実装サンプル</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 * また、様々なクライアントサーフェス定義に一致するワイルドカードサーフェスにすることもできます（例えば、web サイトの各ページのヒーロー画像の場所を web://mydomain.com/*#hero_image のようなサーフェス URI に変換できます）。
 
 基本的に、サーフェス URI は複数のセクションで構成されます。
-1. **タイプ**：web、mobileapp、service、kiosk、tvcd など。
-1. **プロパティ**：ドメインまたはアプリバンドル
-1. **パス**：ページ／アプリアクティビティ ± ページ／アプリアクティビティ上の場所<!--to clarify-->
+1. **タイプ**:web、ios、android、atm、kiosk、tvcd、service など。
+1. **プロパティ**：ページ URL またはアプリバンドル
+1. **コンテナ**：ページ/アプリアクティビティ上の場所
 
 次の表に、様々なデバイスのサーフェス URI 定義の例を示します。
 
+**Web およびモバイル**
+
 | タイプ | URI | 説明 |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html | Web サイトの個々のパスおよびページを表します。 |
 | Web | web://domain.com/path/page.html#element | 特定のドメインの特定のページ内の個々の要素を表します。 |
 | Web | web://domain.com/*#element | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
-| Desktop | desktop://com.vendor.bundle | 特定のデスクトップアプリケーションを表します。 |
-| Desktop | desktop://com.vendor.bundle#element | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
 | iOS アプリ | mobileapp://com.vendor.bundle | 単一のプラットフォーム向けの特定のモバイルアプリケーション（この場合は iOS アプリ）を表します。 |
 | iOS アプリ | mobileapp://com.vendor.bundle/activity | モバイルアプリケーション内の特定のアクティビティ（ビュー）を表します。 |
 | iOS アプリ | mobileapp://com.vendor.bundle/activity#element | ボタンや他のビュー要素など、アクティビティ内の特定の要素を表します。 |
 | Android アプリ | mobileapp://com.vendor.bundle | 単一のプラットフォーム向けの特定のモバイルアプリケーション（この場合は Android アプリ）を表します。 |
+
+**その他のデバイスタイプ**
+
+| タイプ | URI | 説明 |
+| --------- | ----------- | ------- | 
+| Desktop | desktop://com.vendor.bundle | 特定のデスクトップアプリケーションを表します。 |
+| Desktop | desktop://com.vendor.bundle#element | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
 | tvOS アプリ | tvos://com.vendor.bundle | 特定の tvOS アプリを表します。 |
 | TV アプリ | tvcd://com.vendor.bundle | 特定のスマート TV または TV 接続デバイスアプリ - バンドル ID を表します。 |
 | サービス | service://servicename | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
 | キオスク | kiosk://location/screen | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
 | ATM | atm://location/screen | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
+
+**ワイルドカードサーフェス**
+
+| タイプ | URI | 説明 |
+| --------- | ----------- | ------- | 
+| ワイルドカード Web | ワイルドカード:web://domain.com/`*`#element | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
+| ワイルドカード Web | ワイルドカード:web://`*`domain.com/`*`#element | ワイルドカードサーフェス — 「domain.com」で終わるすべてのドメイン下の各ページの個々の要素を表します。 |
+
+
+

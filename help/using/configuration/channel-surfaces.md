@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 100%
+source-wordcount: '1630'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >選択した IP プールが[編集中](ip-pools.md#edit-ip-pool)（**[!UICONTROL 処理中]**&#x200B;ステータス）で、選択したサブドメインに関連付けられていない場合は、サーフェスの作成を続行できません。[詳細情報](#subdomains-and-ip-pools)
+   >選択した IP プールが以下の場合は、メールの表面の作成を続行できません [版](ip-pools.md#edit-ip-pool) (**[!UICONTROL 処理中]** ステータス ) と、選択したサブドメインに関連付けられていないステータス。 [詳細情報](#subdomains-and-ip-pools)
    >
    >サーフェスをドラフトとして保存し、IP プールが&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスになるまで待機して、サーフェスの作成を再開します。
 

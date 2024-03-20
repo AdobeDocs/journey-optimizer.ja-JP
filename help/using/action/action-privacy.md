@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データ, ガバナンス, DULE, ラベル, ラベル付け, Platform, ポリシー
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Journey Optimizer では、これらのポリシーをカスタムアクショ�
 
 ## 重要な注意事項 {#important-notes}
 
-* データガバナンスは、ジャーニーのカスタムアクションにのみ適用されます。Campaign Classic と Campaign Standard のアクションはサポートされていません。
+* データガバナンスは、ジャーニーのカスタムアクションにのみ適用されます。Campaign v7/v8 とCampaign Standardアクションはサポートされていません。
 * ガバナンスポリシーは、カスタムアクションレベルでマーケティングアクション（必須または追加）が設定されている場合にのみ適用されます。
 
 ## ガバナンスポリシーの定義 {#governance-policies}

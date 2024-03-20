@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '4831'
-ht-degree: 99%
+source-wordcount: '5046'
+ht-degree: 95%
 
 ---
 
@@ -21,12 +21,24 @@ ht-degree: 99%
 
 ## 2024年3月 {#march-2024}
 
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2024 年 3 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
+* プロファイル入口管理のページが改善されました。 [詳細情報](../building-journeys/entry-management.md)
+* アラートページにトラブルシューティング情報が追加されました。 [詳細情報](../reports/alerts.md#alert-troubleshooting)
+* ジャーニーレポートのページに、待機アクティビティに関する情報が追加されました。 [詳細情報](../reports/sharing-overview.md)
+* テストモードのジャーニーの場合、次のショートカットが無効になっています。
+   * T：テストモードのオン/オフを切り替えるショートカット。
+   * E：イベントベースのジャーニーでイベントのトリガーを設定するために使用するショートカット。
+   * P:「一度に 1 つのプロファイル」オプションがオンになっている、オーディエンスベースのジャーニーでイベントをトリガーするためのショートカット。
+   * L：テストログを表示するためのショートカット。
 * メッセージ頻度ルールページが更新され、日次頻度キャップに関する新しいサブセクションが追加されました。このサブセクションは、週次キャップや月次キャップに加えて、オンデマンドで利用できます。 [詳細情報](../configuration/frequency-rules.md#daily-frequency-cap)
 * 同意ポリシーの使用ページが改善され、Experience Platformドキュメントへの便利なリンクが追加されました。 [詳細情報](../action/consent.md)
-  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
+* HTML表示モード（限定提供）でグリッドの E メールコンテンツテンプレートをサムネールとして表示できることを反映する新しい節が追加されました。 [詳細情報](../content-management/content-templates.md#template-thumbnails)
+* フィードバックループの概要とその活用方法を説明する新しい節が配信品質ページに追加されました。 [詳細情報](../reports/deliverability.md#feedback-loops)
+* 「パーソナライズされたオファーを作成」の節に、すべての表示域を含むオファーのサイズが 300 KB を超えないように指定する注記が追加されました。 [詳細情報](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## 2024年2月 {#feb-2024}
 
+* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2024 年 2 月リリースの詳細がドキュメントに記載されました。 [詳細情報](release-notes.md)
 * Journey Optimizer と Workfront の統合が統合ページに追加されました。[詳細情報](../start/ajo-integrations.md)
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
 * ガードレールページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)

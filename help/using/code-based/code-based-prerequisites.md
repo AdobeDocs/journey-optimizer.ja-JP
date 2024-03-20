@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
 # 前提条件とガードレール {#web-prerequisites}
-
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
-
-* [コードベースチャネルの基本を学ぶ](get-started-code-based.md)
-* **[コードベースの前提条件](code-based-prerequisites.md)**
-* [コードベースの実装サンプル](code-based-implementation-samples.md)
-* [コードベースのエクスペリエンスを作成](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 
@@ -37,9 +23,11 @@ ht-degree: 100%
 
 ## 注意事項 {#caution-notes-web}
 
-* 現在、コードベースのエクスペリエンスチャネルは、一部のユーザーのみが利用できるベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
-
 * 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;にコードベースエクスペリエンスのみを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)
+
+>[!AVAILABILITY]
+>
+>現時点では、Adobeを購入した組織では、コードベースのエクスペリエンスチャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 ## 実装の前提条件 {#implementation-prerequisites}
 

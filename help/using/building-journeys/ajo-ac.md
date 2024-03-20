@@ -9,27 +9,27 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
-# ユースケース：Campaign v7／v8 を使用したメッセージの送信 {#campaign-classic-use-case}
+# ユースケース：Campaign v7／v8 を使用したメッセージの送信 {#campaign-v7-v8-use-case}
 
-この使用例では、Adobe Campaign Classic v7 および Adobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順を示します。
+この使用例では、Adobe Campaign v7 およびAdobe Campaign v8 との統合を使用して E メールを送信するために必要なすべての手順を示します。
 
 >[!NOTE]
 >
->この統合を使用するには、Campaign Classic ビルド 9125 以降が必要です。
+>この統合を使用するには、Campaign v7/v8 ビルド 9125 以降が必要です。
 
 まず、Campaign でトランザクションメールテンプレートを作成します。次に、Journey Optimizer で、イベント、アクションを作成し、ジャーニーをデザインします。
 
 Campaign の統合について詳しくは、次のページを参照してください。
 
 * [Campaign アクションの作成](../action/acc-action.md)
-* [ジャーニーでのアクションの使用](../building-journeys/using-adobe-campaign-classic.md)。
+* [ジャーニーでのアクションの使用](../building-journeys/using-adobe-campaign-v7-v8.md)。
 
 **Adobe Campaign**
 

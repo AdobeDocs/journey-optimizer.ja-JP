@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
       <th>ショートカット</th>
     </tr>
   </thead>
-  <tr>
-    <td>ジャーニー、アクション、データソース、イベントのリスト</td>
-    <td>ジャーニー、アクション、データソースまたはイベントを作成する</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">ドラフトステータスのジャーニーキャンバス</td>
     <td>左側のパレットから、使用可能な最初の位置に上から下に向かってアクティビティを追加する</td>
@@ -107,23 +102,6 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
   <tr>
     <td>変更内容を破棄して設定ペインを閉じる</td>
     <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">テストモードのジャーニー</td>
-    <td>テストモードを有効または無効にする</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>イベントベースのジャーニーでイベントをトリガーする</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>**[!UICONTROL Single profile at a time]** オプションがオンになっているオーディエンスベースのジャーニーでイベントをトリガーする</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>テストログを表示する</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

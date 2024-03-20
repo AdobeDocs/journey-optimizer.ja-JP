@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '993'
+ht-degree: 94%
 
 ---
 
 # コードベースのエクスペリエンスを作成 {#create-code-based}
 
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
-
-* [コードベースチャネルの基本を学ぶ](get-started-code-based.md)
-* [コードベースの前提条件](code-based-prerequisites.md)
-* [コードベースの実装サンプル](code-based-implementation-samples.md)
-* **[コードベースのエクスペリエンスの作成](create-code-based.md)**
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->現在、コードベースのエクスペリエンスチャネルは、一部のユーザーのみが利用できるベータ版として利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+>現時点では、Adobeを購入した組織では、コードベースのエクスペリエンスチャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 ## コードベースキャンペーンの作成 {#create-code-based-campaign}
 
@@ -43,7 +29,7 @@ ht-degree: 100%
 
 1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md)
 
-1. **[!UICONTROL コードベースのエクスペリエンス（ベータ版）]**&#x200B;アクションを選択します。
+1. を選択します。 **[!UICONTROL コードベースのエクスペリエンス]** アクション。
 
 1. コードベースのエクスペリエンスサーフェスを入力します。[詳細情報](#surface-definition)
 
@@ -81,21 +67,27 @@ ht-degree: 100%
 
 1. オーサリングモードを HTML から JSON に切り替えることも、その逆も可能です。
 
+   ![](assets/code-based-campaign-code-editor.png)
+
    >[!CAUTION]
    >
    >オーサリングモードを変更すると、現在のコードがすべて失われるので、作成を開始する前にモードを切り替えてください。
 
 1. 必要に応じてコードを入力します。パーソナライゼーションおよびオーサリング機能を持つ [!DNL Journey Optimizer] 式エディターをすべて活用できます。[詳細情報](../personalization/personalization-build-expressions.md)
 
-   ![](assets/code-based-campaign-code-editor.png)
+1. 必要に応じて、HTMLまたは JSON 式フラグメントを追加できます。 [方法についてはこちらを参照](../personalization/use-expression-fragments.md)
 
-1. コードベースのキャンペーンでは、Offer Decisioning 機能を使用できます。左側のバーから&#x200B;**[!UICONTROL 決定]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定を作成]**」をクリックします。[詳細情報](../experience-decisioning/create-decision.md)
+   また、コードコンテンツの一部をフラグメントとして保存することもできます。 [方法についてはこちらを参照](../content-management/fragments.md#save-as-expression-fragment)
 
-   ![](assets/code-based-campaign-create-decision.png)
+<!--
+1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
 
-   >[!NOTE]
-   >
-   >現在、Offer Decisioning 機能は、ベータ版として一部のユーザーのみが利用できます。
+    ![](assets/code-based-campaign-create-decision.png)
+
+    >[!NOTE]
+    >
+    >The experience decisioning feature is currently available as a beta to select users only.
+-->
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして変更を確定します。
 

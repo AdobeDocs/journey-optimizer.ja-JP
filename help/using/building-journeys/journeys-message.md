@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 100%
+source-wordcount: '1167'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * Campaign と Journey Optimizer を連携させる場合は、次の節を参照してください。
 
-   * [[!DNL Journey Optimizer] と Campaign Classic v7／Campaign v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
 
 ジャーニーにメッセージを追加するには、次の手順に従います。

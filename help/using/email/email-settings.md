@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 100%
+source-wordcount: '2378'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 100%
 
 メールの作成を開始するには、メッセージに必要なすべての技術的パラメーターを定義するメールチャネルサーフェスを設定する必要があります。[詳しくは、サーフェスの作成方法を参照してください](../configuration/channel-surfaces.md)
 
-チャネルサーフェス設定の専用セクションでメール設定を定義します。
+>[!NOTE]
+>
+>レピュテーションを保持し、配信品質を向上させるには、E メールサーフェスを作成する前に E メールの送信に使用するサブドメインを設定します。 [詳細情報](../configuration/about-subdomain-delegation.md)
+
+以下に示すように、チャネルサーフェス設定の専用のセクションで E メール設定を定義します。
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ ht-degree: 100%
 
 ## サブドメインおよび IP プール {#subdomains-and-ip-pools}
 
-「**サブドメインおよび IP プール**」セクションでは、以下を実行する必要があります。
+Adobe Analytics の **サブドメインおよび IP プール** 「 」セクションで、以下の手順に従って必須フィールドに入力します。
 
-1. メールの送信に使用するサブドメインを選択します。[詳細情報](../configuration/about-subdomain-delegation.md)
+1. E メールの送信に使用するサブドメインを選択します。
+
+   ドメインのレピュテーションを保持し、IP ウォーミングプロセスを高速化し、配信品質を向上させるには、送信サブドメインをAdobeに委任します。 [詳細情報](../configuration/about-subdomain-delegation.md)
 
 1. サーフェスに関連付ける IP プールを選択します。[詳細情報](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-選択した IP プールが[編集中](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 処理中]**&#x200B;ステータス）となっており、選択したサブドメインに関連付けられていない場合は、サーフェスの作成を続行できません。それ以外の場合は、IP プール／サブドメインの関連付けの最も古いバージョンが引き続き使用されます。その場合は、サーフェスをドラフトとして保存し、IP プールが&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスになったら再試行します。
+   選択した IP プールが[編集中](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 処理中]**&#x200B;ステータス）となっており、選択したサブドメインに関連付けられていない場合は、サーフェスの作成を続行できません。それ以外の場合は、IP プール／サブドメインの関連付けの最も古いバージョンが引き続き使用されます。その場合は、サーフェスをドラフトとして保存し、IP プールが&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスになったら再試行します。
 
->[!NOTE]
->
->非実稼動環境の場合、アドビは、標準のテストサブドメインの作成や、共有送信 IP プールへのアクセスを許可しません。[独自のサブドメインをデリゲート](../configuration/delegate-subdomain.md)して、組織に割り当てられたプールの IP を使用する必要があります。
+   >[!NOTE]
+   >
+   >非実稼動環境の場合、アドビは、標準のテストサブドメインの作成や、共有送信 IP プールへのアクセスを許可しません。[独自のサブドメインをデリゲート](../configuration/delegate-subdomain.md)して、組織に割り当てられたプールの IP を使用する必要があります。
 
-IP プールが選択された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。[PTR レコードの詳細情報](../configuration/ptr-records.md)
+1. IP プールが選択された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。[PTR レコードの詳細情報](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->PTR レコードが設定されていない場合は、アドビ担当者に問い合わせてください。
+   >[!NOTE]
+   >
+   >PTR レコードが設定されていない場合は、アドビ担当者に問い合わせてください。
 
 ## List-Unsubscribe {#list-unsubscribe}
 

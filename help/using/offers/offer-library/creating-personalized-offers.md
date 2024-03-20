@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,10 @@ ht-degree: 100%
 
 1. オファーの名前とともに開始日時と終了日時を指定します。これらの日付以外では、オファーは Offer Decisioning エンジンによって選択されません。
 
+   >[!NOTE]
+   >
+   >時間を選択する場合、現在のタイムゾーンが考慮されます。
+
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
@@ -64,6 +68,10 @@ ht-degree: 100%
 1. 表示域を追加して、メッセージでオファーを表示する場所を定義します。[詳細情報](add-representations.md)
 
    ![](../assets/channel-placement.png)
+
+   >[!CAUTION]
+   >
+   >すべての表示域を含むオファーのサイズは 300 KB を超えることはできません。
 
 1. 制約を追加して、表示するオファーの条件を設定します。[詳細情報](add-constraints.md)
 

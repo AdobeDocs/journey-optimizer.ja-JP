@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 95%
 
 ---
 
 # コードベースの実装方法のサンプル {#implementation-samples}
-
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
-
-* [コードベースチャネルの基本を学ぶ](get-started-code-based.md)
-* [コードベースの前提条件](code-based-prerequisites.md)
-* **[コードベースの実装サンプル](code-based-implementation-samples.md)**
-* [コードベースのエクスペリエンスを作成](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 コードベースのエクスペリエンスは、あらゆるタイプの顧客実装をサポートします。このページでは、各実装方法のサンプルを確認できます。
 
@@ -35,7 +21,9 @@ ht-degree: 100%
 * [サーバーサイド](#server-side-implementation)
 * [ハイブリッド](#hybrid-implementation)
 
-また、[このリンク](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}を参照して、様々なパーソナライゼーションや実験のユースケースのサンプル実装を見つけることもできます。必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
+>[!IMPORTANT]
+>
+>フォロー [このリンク](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} 様々なパーソナライゼーションおよび実験の使用例に関する実装例を見つけるには、を参照してください。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
 
 ## クライアントサイドの実装 {#client-side-implementation}
 
@@ -77,6 +65,38 @@ function sendDisplayEvent(decision) {
               scopeDetails: scopeDetails,
             },
           ],
+        },
+      },
+    },
+  });
+}
+```
+
+1. コードベースのエクスペリエンスキャンペーンの場合、ユーザーがコンテンツを操作したタイミングを示すために、インタラクションイベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
+
+```javascript
+function sendInteractEvent(label, proposition) {
+  const { id, scope, scopeDetails = {} } = proposition;
+
+  alloy("sendEvent", {
+    
+    xdm: {
+      eventType: "decisioning.propositionInteract",
+      _experience: {
+        decisioning: {
+          propositions: [
+            {
+              id: id,
+              scope: scope,
+              scopeDetails: scopeDetails,
+            },
+          ],
+          propositionEventType: {
+            interact: 1
+          },
+          propositionAction: {
+            label: label
+          },
         },
       },
     },
