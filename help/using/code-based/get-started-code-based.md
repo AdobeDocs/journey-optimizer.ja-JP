@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 89%
+source-wordcount: '1138'
+ht-degree: 81%
 
 ---
 
@@ -144,37 +144,31 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 * また、様々なクライアントサーフェス定義に一致するワイルドカードサーフェスにすることもできます（例えば、web サイトの各ページのヒーロー画像の場所を web://mydomain.com/*#hero_image のようなサーフェス URI に変換できます）。
 
 基本的に、サーフェス URI は複数のセクションで構成されます。
-1. **タイプ**:web、ios、android、atm、kiosk、tvcd、service など。
+1. **タイプ**:web、mobileapp、atm、kiosk、tvcd、service など。
 1. **プロパティ**：ページ URL またはアプリバンドル
 1. **コンテナ**：ページ/アプリアクティビティ上の場所
 
 次の表に、様々なデバイスのサーフェス URI 定義の例を示します。
 
-**Web およびモバイル**
+### Web およびモバイル
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | Web サイトの個々のパスおよびページを表します。 |
-| Web | web://domain.com/path/page.html#element | 特定のドメインの特定のページ内の個々の要素を表します。 |
-| Web | web://domain.com/*#element | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
-| iOS アプリ | mobileapp://com.vendor.bundle | 単一のプラットフォーム向けの特定のモバイルアプリケーション（この場合は iOS アプリ）を表します。 |
-| iOS アプリ | mobileapp://com.vendor.bundle/activity | モバイルアプリケーション内の特定のアクティビティ（ビュー）を表します。 |
-| iOS アプリ | mobileapp://com.vendor.bundle/activity#element | ボタンや他のビュー要素など、アクティビティ内の特定の要素を表します。 |
-| Android アプリ | mobileapp://com.vendor.bundle | 単一のプラットフォーム向けの特定のモバイルアプリケーション（この場合は Android アプリ）を表します。 |
+| Web | web://domain.com/path/page.html#element | 特定のドメインの特定のページ内の個々の要素を表します。要素は、次の例のようなラベルにすることができます。 hero_banner、top_nav、menu、footer など。 |
+| iOS アプリ | mobileapp://com.vendor.bundle/activity#element | ボタンや他の表示要素など、ネイティブアプリアクティビティ内の特定の要素を表します。 |
+| Android アプリ | mobileapp://com.vendor.bundle#element | ネイティブアプリ内の特定の要素を表します。 |
 
-**その他のデバイスタイプ**
+### その他のデバイスタイプ
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle | 特定のデスクトップアプリケーションを表します。 |
 | Desktop | desktop://com.vendor.bundle#element | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
-| tvOS アプリ | tvos://com.vendor.bundle | 特定の tvOS アプリを表します。 |
-| TV アプリ | tvcd://com.vendor.bundle | 特定のスマート TV または TV 接続デバイスアプリ - バンドル ID を表します。 |
-| サービス | service://servicename | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
-| キオスク | kiosk://location/screen | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
-| ATM | atm://location/screen | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
+| TV アプリ | tvcd://com.vendor.bundle#element | スマート TV または TV 接続デバイスアプリ内の特定の要素を表します（バンドル ID）。 |
+| サービス | service://servicename#element | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
+| キオスク | kiosk://location/screen#element | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
+| ATM | atm://location/screen#element | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
 
-**ワイルドカードサーフェス**
+### ワイルドカードサーフェス
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
