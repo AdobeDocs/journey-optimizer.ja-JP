@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2月リリースを公開]
+>[!TAB 3 月のリリースが公開されました。]
 
-Adobe Journey Optimizer 24.2 リリースに含まれる新機能と機能強化を参照してください。
+Adobe Journey Optimizer 24.3 リリースに含まれる新機能と機能強化を参照してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB コードベースのエクスペリエンス]
+
+新しいコードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizerを使用して、Web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントでカスタマイズされたエクスペリエンスをシームレスに配信できます。
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Web アプリ内メッセージ]
 
@@ -33,14 +41,6 @@ Adobe Journey Optimizer 24.2 リリースに含まれる新機能と機能強化
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB マルチチャネルコンテンツテンプレート]
-
-メールに加えて、プッシュ、アプリ内、SMS およびダイレクトメールのチャネルでコンテンツテンプレートが使用できるようになりました。各チャネルには専用のテンプレートタイプがあります。メールの場合、コンテンツタイプを選択できるようになりました。これにより、件名をメールテンプレートの一部として保存できます。
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
