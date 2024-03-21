@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1983'
 ht-degree: 92%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 92%
 >id="ajo_homepage_card2"
 >title="ジャーニーを作成"
 >abstract="**Adobe Journey Optimizer** を利用すると、イベントやデータソースに格納されているコンテキストデータを使用して、リアルタイムオーケストレーションのユースケースを構築できます。"
+
+
 
 ## 前提条件{#start-prerequisites}
 
@@ -111,6 +113,8 @@ ht-degree: 92%
 ## ジャーニーをビルド{#jo-build}
 
 このステップは、**ビジネスユーザー**&#x200B;が実行します。ここでジャーニーを作成します。様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを構築します。
+
+➡️ [この機能をビデオで確認](journey.md#video)
 
 ジャーニーを介してメッセージを送信する主な手順は次のとおりです。
 

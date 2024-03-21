@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 81%
@@ -150,7 +150,7 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 次の表に、様々なデバイスのサーフェス URI 定義の例を示します。
 
-### Web およびモバイル
+**Web およびモバイル**
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 | iOS アプリ | mobileapp://com.vendor.bundle/activity#element | ボタンや他の表示要素など、ネイティブアプリアクティビティ内の特定の要素を表します。 |
 | Android アプリ | mobileapp://com.vendor.bundle#element | ネイティブアプリ内の特定の要素を表します。 |
 
-### その他のデバイスタイプ
+**その他のデバイスタイプ**
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 | キオスク | kiosk://location/screen#element | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
 | ATM | atm://location/screen#element | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
 
-### ワイルドカードサーフェス
+**ワイルドカードサーフェス**
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
