@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 このドキュメントガイドの内容は次のとおりです。
 
-* [IP ウォームアップの概要](ip-warmup-gs.md)
+* [IP ウォームアッププランの概要](ip-warmup-gs.md)
 * **[IP ウォームアップキャンペーンの作成](ip-warmup-campaign.md)**
 * [IP ウォームアッププランを作成](ip-warmup-plan.md)
 * [IP ウォームアッププランを実行](ip-warmup-execution.md)
