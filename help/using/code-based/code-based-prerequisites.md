@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 87%
+source-wordcount: '425'
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 >
 >* コードベースのエクスペリエンスチャネルは、Adobeを購入した組織では使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 >
->* では、コードベースのエクスペリエンスのみを作成できます。 **campaigns**. [詳細情報](../campaigns/create-campaign.md#configure
+>* では、コードベースのエクスペリエンスのみを作成できます。 **campaigns**. [詳細情報](../campaigns/create-campaign.md#configure)。
 
 
 ## 実装の前提条件 {#implementation-prerequisites}

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 89%
+source-wordcount: '980'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 89%
 現在の場所 [!DNL Journey Optimizer] で作成できるのは、コードベースのエクスペリエンスのみです。 **campaigns**.
 
 コードベースのエクスペリエンスに関する特定のガードレールおよび推奨事項について詳しくは、 [このページ](code-based-prerequisites.md).
-
->[!AVAILABILITY]
->
->現時点では、Adobeを購入した組織では、コードベースのエクスペリエンスチャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 ## コードベースキャンペーンの作成 {#create-code-based-campaign}
 
