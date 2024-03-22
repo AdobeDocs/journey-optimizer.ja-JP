@@ -1,15 +1,15 @@
 ---
-title: コードベースエクスペリエンスの前提条件
+title: コードベースの Experience Guardrail と前提条件
 description: Journey Optimizer のコードベースの機能を使用してアプリや web ページを編集できるようにするには、このページの前提条件に従います
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 93%
+source-wordcount: '427'
+ht-degree: 87%
 
 ---
 
@@ -17,18 +17,16 @@ ht-degree: 93%
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 
-* アプリケーションに変更を追加するには、特定の実装が必要です。[詳細情報](#implementation-prerequisites)
+* アプリケーションに変更を追加するには、特定の実装が必要です。 [詳細情報](#implementation-prerequisites)
 
 * コードベースエクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)を参照して、Adobe Experience Platform の設定を定義します。
 
-
-## 注意事項 {#caution-notes-web}
-
-* 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;にコードベースエクスペリエンスのみを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->現時点では、Adobeを購入した組織では、コードベースのエクスペリエンスチャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
+>* コードベースのエクスペリエンスチャネルは、Adobeを購入した組織では使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
+>
+>* では、コードベースのエクスペリエンスのみを作成できます。 **campaigns**. [詳細情報](../campaigns/create-campaign.md#configure
+
 
 ## 実装の前提条件 {#implementation-prerequisites}
 

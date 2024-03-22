@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 82%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 82%
 >
 >* 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してコードベースエクスペリエンスのみを作成できます。
 >
->>* コードベースのエクスペリエンスチャネルは、Adobeを購入した組織では使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
+>* コードベースのエクスペリエンスチャネルは、 **使用不可** (Adobeを購入した組織 ) **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -45,7 +45,7 @@ ht-degree: 82%
 <img alt="検証" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>前提条件</strong></a>
+<a href="code-based-prerequisites.md"><strong>ガードレールと前提条件</strong></a>
 </div>
 <p>
 </td>
