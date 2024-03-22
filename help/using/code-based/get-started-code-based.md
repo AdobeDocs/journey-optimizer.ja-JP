@@ -6,18 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 81%
+source-wordcount: '1121'
+ht-degree: 82%
 
 ---
 
 # コードベースチャネルの基本を学ぶ {#get-sarted-code-based}
-
->[!AVAILABILITY]
->
->現時点では、Adobeを購入した組織では、コードベースのエクスペリエンスチャネルを使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 [!DNL Journey Optimizer] を使用すると、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、音声アシスタント、IoT デバイスなど、すべてのタッチポイントで顧客に提供するエクスペリエンスをパーソナライズしてテストできます。
 
@@ -25,15 +21,13 @@ ht-degree: 81%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
->[!CAUTION]
->
->現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してコードベースエクスペリエンスのみを作成できます。
-
-次の場合： [キャンペーンの作成](../campaigns/create-campaign.md#configure)を選択します。 **コードベースのエクスペリエンス** をアクションとして追加し、基本設定を定義します。
-
 >[!NOTE]
 >
->コードベースのエクスペリエンスを初めて作成する場合は、 [この節](code-based-prerequisites.md).
+>* コードベースのエクスペリエンスを初めて作成する場合は、 [この節](code-based-prerequisites.md).
+>
+>* 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してコードベースエクスペリエンスのみを作成できます。
+>
+>>* コードベースのエクスペリエンスチャネルは、Adobeを購入した組織では使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 

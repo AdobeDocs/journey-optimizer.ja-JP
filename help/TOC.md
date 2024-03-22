@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 100%
+source-wordcount: '1740'
+ht-degree: 99%
 
 ---
 
@@ -244,8 +244,8 @@ ht-degree: 100%
       + [シングルページアプリケーションの作成](using/web/web-spa.md)
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
-   + [コードベースの前提条件](using/code-based/code-based-prerequisites.md)
-   + [コードベースの実装サンプル](using/code-based/code-based-implementation-samples.md)
+   + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
+   + [実装メソッドのサンプル](using/code-based/code-based-implementation-samples.md)
    + [コードベースのエクスペリエンスを作成](using/code-based/create-code-based.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)

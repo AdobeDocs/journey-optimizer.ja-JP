@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 94%
+source-wordcount: '1001'
+ht-degree: 89%
 
 ---
 
 # コードベースのエクスペリエンスを作成 {#create-code-based}
+
+現在の場所 [!DNL Journey Optimizer] で作成できるのは、コードベースのエクスペリエンスのみです。 **campaigns**.
+
+ガードレールと推奨事項について詳しくは、 [このページ](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 94%
 ## コードベースキャンペーンの作成 {#create-code-based-campaign}
 
 キャンペーンを通じてコードベースエクスペリエンスの作成を開始するには、次の手順に従います。
-
->[!CAUTION]
->
->現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してコードベースエクスペリエンスのみを作成できます。
 
 1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL 作成]**」を選択します。
 
-1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、 キャンペーンを作成する手順を完了します。
-
-   >[!NOTE]
-   >
-   >キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
+1. キャンペーンのプロパティなど、キャンペーンを作成する手順を実行します。 [audience](../audience/about-audiences.md)、および [スケジュール](../campaigns/create-campaign.md#schedule). キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 1. 式エディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
@@ -100,7 +96,7 @@ ht-degree: 94%
 >title="コードベースエクスペリエンスのプレビュー"
 >abstract="コードベースエクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
-変更したコードベースエクスペリエンスのプレビューを表示するには、次の手順に従います。テストプロファイルを選択してコンテンツをプレビューする方法について詳しくは、[コンテンツのプレビューとテスト](../content-management/preview-test.md)ページを参照してください。
+変更したコードベースエクスペリエンスのプレビューを表示するには、次の手順に従います。テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、 [コンテンツページをプレビューおよびテストします。](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

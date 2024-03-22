@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
-# 前提条件とガードレール {#web-prerequisites}
+# ガードレールと前提条件 {#web-prerequisites}
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 
 * アプリケーションに変更を追加するには、特定の実装が必要です。[詳細情報](#implementation-prerequisites)
 
 * コードベースエクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)を参照して、Adobe Experience Platform の設定を定義します。
+
 
 ## 注意事項 {#caution-notes-web}
 
