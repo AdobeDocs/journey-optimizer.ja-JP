@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 82%
+source-wordcount: '1082'
+ht-degree: 84%
 
 ---
 
@@ -21,13 +21,10 @@ ht-degree: 82%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->* コードベースのエクスペリエンスを初めて作成する場合は、 [この節](code-based-prerequisites.md).
->
->* 現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;を使用してコードベースエクスペリエンスのみを作成できます。
->
->* コードベースのエクスペリエンスチャネルは、 **使用不可** (Adobeを購入した組織 ) **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
+>コードベースのエクスペリエンスに関する特定のガードレールおよび推奨事項について詳しくは、 [このページ](code-based-prerequisites.md).
+
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
