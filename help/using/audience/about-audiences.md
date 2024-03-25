@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: eb0ba1cfca10aea7dc0c0f8d1243bb8b7e5c0e0f
 workflow-type: tm+mt
 source-wordcount: '1835'
 ht-degree: 51%
@@ -240,3 +240,4 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 さらに、オーディエンス構成オーディエンスのエンリッチメントされた属性は、前回の構成実行と同じくらい新鮮で、過去 24 時間までに適用できます。
 
 +++
+
