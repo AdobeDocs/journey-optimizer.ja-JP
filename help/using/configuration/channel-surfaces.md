@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 98%
+source-wordcount: '1651'
+ht-degree: 97%
 
 ---
 
@@ -49,6 +49,11 @@ ht-degree: 98%
 >title="チャネルサーフェスの設定"
 >abstract="ジャーニーやキャンペーンからのメールなどのアクションを作成できるようにするには、まず、メッセージに必要なすべての技術設定を定義するチャネルサーフェスを作成する必要があります。チャネルサーフェスを作成、編集、削除するには、メッセージプリセットを管理権限が必要です。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_surface_marketing_action"
+>title="マーケティングアクションを選択"
+>abstract="メッセージに同意ポリシーを関連付けるには、表面でマーケティングアクションを選択します。"
+
 チャネルサーフェスを作成するには、次の手順に従います。
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL ブランディング]**／**[!UICONTROL チャネルサーフェス]**&#x200B;メニューにアクセスし、「**[!UICONTROL チャネルサーフェスを作成]**」をクリックします。
@@ -82,6 +87,19 @@ ht-degree: 98%
    >[!NOTE]
    >
    >SMS メッセージを送信するための環境の設定方法について詳しくは、[この節](../sms/sms-configuration.md)を参照してください。
+
+<!--
+1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+
+    >[!NOTE]
+    >
+    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+    ![](assets/surface-marketing-action.png)
+
+    >[!NOTE]
+    >
+    >You can only select one marketing action.-->
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 
