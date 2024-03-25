@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '5046'
+source-wordcount: '5073'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 95%
 
 ## 2024年3月 {#march-2024}
 
+* Journey Optimizerでのオーディエンスの構成およびカスタムアップロードオーディエンスの使用に関するよくある質問に対処するための、よくある質問の節が追加されました。 [詳細情報](../audience/about-audiences.md#faq)
 * に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2024 年 3 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
 * プロファイル入口管理のページが改善されました。 [詳細情報](../building-journeys/entry-management.md)
 * アラートページにトラブルシューティング情報が追加されました。 [詳細情報](../reports/alerts.md#alert-troubleshooting)
@@ -30,8 +31,8 @@ ht-degree: 95%
    * E：イベントベースのジャーニーでイベントのトリガーを設定するために使用するショートカット。
    * P:「一度に 1 つのプロファイル」オプションがオンになっている、オーディエンスベースのジャーニーでイベントをトリガーするためのショートカット。
    * L：テストログを表示するためのショートカット。
-* メッセージ頻度ルールページが更新され、日次頻度キャップに関する新しいサブセクションが追加されました。このサブセクションは、週次キャップや月次キャップに加えて、オンデマンドで利用できます。 [詳細情報](../configuration/frequency-rules.md#daily-frequency-cap)
-* 同意ポリシーの使用ページが改善され、Experience Platformドキュメントへの便利なリンクが追加されました。 [詳細情報](../action/consent.md)
+* メッセージ頻度ルールページが更新され、毎日のフリークエンシーキャップに関する新しいサブセクションが追加されました。これは、毎週または毎月のキャッピングに加えてオンデマンドで使用可能です。[詳細情報](../configuration/frequency-rules.md#daily-frequency-cap)
+* 同意ポリシーの使用ページが改善され、Experience Platform ドキュメントへの便利なリンクが追加されて更新されました。[詳細情報](../action/consent.md)
 * HTML表示モード（限定提供）でグリッドの E メールコンテンツテンプレートをサムネールとして表示できることを反映する新しい節が追加されました。 [詳細情報](../content-management/content-templates.md#template-thumbnails)
 * フィードバックループの概要とその活用方法を説明する新しい節が配信品質ページに追加されました。 [詳細情報](../reports/deliverability.md#feedback-loops)
 * 「パーソナライズされたオファーを作成」の節に、すべての表示域を含むオファーのサイズが 300 KB を超えないように指定する注記が追加されました。 [詳細情報](../offers/offer-library/creating-personalized-offers.md#create-offer)

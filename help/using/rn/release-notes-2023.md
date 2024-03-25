@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
 source-wordcount: '4398'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -426,7 +426,7 @@ A new option is available in the email surface settings to include email address
 
 **オーディエンス**
 
-ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。オーディエンスの構成ポータルのリリースに伴い、Adobe Experience Platform と Adobe Journey Optimizer は、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用法を更新しました。
+ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。オーディエンス構成ポータルのリリースに伴い、Adobe Experience PlatformとAdobe Journey Optimizerは、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用状況を更新しました。
 
 * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
 * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
