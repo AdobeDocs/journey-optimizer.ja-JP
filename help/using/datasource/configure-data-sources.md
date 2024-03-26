@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: データ, ソース, 設定, フィールド
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '570'
 ht-degree: 100%
 
