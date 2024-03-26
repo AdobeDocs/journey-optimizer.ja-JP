@@ -10,9 +10,9 @@ level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-日付の形式は次のとおりです。 `YYYY-MM-DD HH:MM:SS`.
+日付の形式は、`YYYY-MM-DD HH:MM:SS` です。
 
 識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。[詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
 

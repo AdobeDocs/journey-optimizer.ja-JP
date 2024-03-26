@@ -8,9 +8,9 @@ level: Experienced
 keywords: updateTimeZone, 関数, 式, ジャーニー
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '62'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 88%
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-戻り値2023-08-28T17:15:30.123+02:00。
+2023-08-28T17:15:30.123+02:00 を返します。
 
 <!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 Returns "2019-08-28T17:15:30.123+02:00".-->

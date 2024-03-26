@@ -5,12 +5,12 @@ description: toDateTime 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toDateTimeOnly，関数，式，ジャーニー
+keywords: toDateTimeOnly, 関数, 式, ジャーニー
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '63'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 80%
 
 `toDateTimeOnly ("2023-08-18")`
 
-は、2023-08-18T00を表す dateTime を返します:00:00.000
+2023-08-18T00:00:00.000 を表す日時を返します
 
 `toDateTimeOnly(now())`
 

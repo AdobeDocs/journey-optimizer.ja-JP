@@ -10,9 +10,9 @@ level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -75,13 +75,13 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >次の項目のみ **[!UICONTROL マーケティング]** カテゴリが使用可能です。
+   >**[!UICONTROL マーケティング]**&#x200B;カテゴリのみが使用可能です。
 
    ![](assets/message-rules-details.png)
 
-1. 次から： **[!UICONTROL 期間]** 」ドロップダウンリストから、キャッピングを適用する期間を選択します。 [詳細情報](#frequency-cap)
+1. **[!UICONTROL 期間]**&#x200B;ドロップダウンリストから、キャッピングを適用する時間枠を選択します。[詳細情報](#frequency-cap)
 
-1. ルールのキャッピングを設定します。これは、上記の選択に応じて、毎月または毎週<!--or day-->、個々のユーザープロファイルに送信できるメッセージの最大数を意味します。
+1. ルールのキャッピングを設定します。これは、上記の選択に応じて、1 つの個別ユーザープロファイルに送信できる、1 か月または 1 週間あたり<!--or day-->のメッセージの最大数を意味します。
 
    <!--![](assets/message-rules-capping.png)-->
 
@@ -101,13 +101,13 @@ ht-degree: 90%
 
    ![](assets/message-rules-created.png)
 
-### 頻度キャップ {#frequency-cap}
+### フリークエンシーキャップ {#frequency-cap}
 
-次から： **[!UICONTROL 期間]** ドロップダウンリストから、毎月または毎週制限を適用する場合に選択します。
+**[!UICONTROL 期間]**&#x200B;ドロップダウンリストから、キャッピングを毎月に適用するか毎週に適用するかを選択します。
 
 >[!NOTE]
 >
->1 日あたりの頻度キャップは、オンデマンドでも利用できます。 [詳細情報](#daily-frequency-cap)
+>また、日別のフリークエンシーキャップは、オンデマンドでも使用可能です。[詳細情報](#daily-frequency-cap)
 
 フリークエンシーキャップは、選択したカレンダーの期間に基づきます。対応する時間枠の開始時にリセットされます。
 
@@ -119,15 +119,15 @@ ht-degree: 90%
 
 * **[!UICONTROL 毎週]**：フリークエンシーキャップは、暦週が日曜日に始まるため、その週の土曜日 23:59:59 UTC まで有効です。有効期限は、ルールの作成に関係なく設定されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
 
-### 1 日あたりの頻度の上限 {#daily-frequency-cap}
+### 日別のフリークエンシーキャップ {#daily-frequency-cap}
 
-1 か月と 1 週間に加えて、1 日の頻度キャップもオンデマンドで利用できます。 詳しくは、Adobe担当者にお問い合わせください。
+月別と週別に加えて、日別のフリークエンシーキャップもオンデマンドで使用可能です。詳しくは、アドビ担当者にお問い合わせください。
 
-1 日の頻度の上限は、23 日まで有効です:59:59(UTC) に設定され、翌日の開始時に 0 にリセットされます。
+日別のフリークエンシーキャップは、その日の 23:59:59 UTC まで有効で、翌日の開始とともに 0 にリセットされます。
 
 >[!NOTE]
 >
->を処理する際に [バッチセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} をお勧めします。 でのオーディエンス評価方法の詳細を説明します。 [この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>[バッチセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch)を扱う場合、{target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} が推奨されます。オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
 
 ## ルールのアクティブ化 {#activate-rule}
 

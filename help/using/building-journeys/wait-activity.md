@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ Select the date for the execution of the next activity.
 
 >[!NOTE]
 >
->dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例えば、toDateTimeOnly(@event{Event.offerOpened.activity.endTime}) の場合、イベントのフィールドは2023-08-12T09の形式です。:46:06Z
+>dateTimeOnly 式を利用するか、関数を使用して dateTimeOnly に変換することができます。例えば、toDateTimeOnly(@event{Event.offerOpened.activity.endTime}) では、イベント内のフィールドが 2023-08-12T09:46:06Z の形式になります。
 >
->ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。その結果、現在、インターフェイスから完全な ISO-8601 タイムスタンプを直接指すことはできず、タイムゾーンのオフセット (2023-08-12T09など ) を含む:46:06.982-05 [このページ](../building-journeys/timezone-management.md)を参照してください。
+>ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、今のところ、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（2023-08-12T09:46:06.982-05 など）をインターフェイスから直接指定することはできません。[このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![](assets/journey57.png)
 

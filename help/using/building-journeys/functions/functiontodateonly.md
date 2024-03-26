@@ -5,12 +5,12 @@ description: toDateOnly 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toDateOnly，関数，式，ジャーニー
+keywords: toDateOnly, 関数, 式, ジャーニー
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ dateOnly 型の値を返します。
 
 `toDateOnly("2023-08-18T00:00:00")`
 
-すべての場合、2023/08/18 を表す dateOnly オブジェクトが返されます。
+すべて、2023/08/18 を表す dateOnly オブジェクトを返します。
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 

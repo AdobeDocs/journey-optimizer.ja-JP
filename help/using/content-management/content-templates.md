@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1425'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 96%
 
 ### テンプレートをサムネールとして表示 {#template-thumbnails}
 
-を選択します。 **[!UICONTROL グリッド表示]** モード：各テンプレートをサムネールとして表示します。
+各テンプレートをサムネールとして表示するには、**[!UICONTROL グリッド表示]**&#x200B;モードを選択します。
 
 >[!AVAILABILITY]
 >
@@ -79,9 +79,9 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->現在、適切なサムネールは、HTMLタイプの E メールコンテンツテンプレートに対してのみ生成できます。
+>現在、適切なサムネールは HTML タイプのメールコンテンツテンプレートに対してのみ生成できます。
 
-コンテンツを更新する場合、変更がサムネールに反映されるまで、数秒待つ必要が生じる場合があります。
+コンテンツを更新する場合、変更がサムネールに反映されるまでに数秒待つ必要がある場合があります。
 
 ## コンテンツテンプレートの作成 {#create-content-templates}
 

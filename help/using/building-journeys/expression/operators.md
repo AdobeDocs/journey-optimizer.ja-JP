@@ -9,9 +9,9 @@ level: Experienced
 keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -434,13 +434,13 @@ true を返します
 "the current time is " + (now())
 ```
 
-「現在の時刻は2023-09-23T09です:30:06.693Z&quot;
+「現在の時刻は 2023-09-23T09:30:06.693Z です」を返します
 
 ```json
 (now()) + " is the current time"
 ```
 
-戻り値&quot;2023-09-23T09:30:06.693Z は現在の時刻です。
+「2023-09-23T09:30:06.693Z は現在の時刻です」を返します
 
 ```json
 "a" + "b" + "c" + 1234
@@ -464,13 +464,13 @@ true を返します
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-を返します。 _dateTime_ 2023-12-03T15:30:30Z
+_dateTime_ 2023-12-03T15:30:30Z を返します
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-を返します。 _dateTimeOnly_ 2023-12-03T15:30:30
+_dateTimeOnly_ 2023-12-03T15:30:30 を返します
 
 ```json
 (now()) + (toDuration("PT1H"))

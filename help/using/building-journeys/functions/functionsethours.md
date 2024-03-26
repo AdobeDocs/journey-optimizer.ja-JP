@@ -5,12 +5,12 @@ description: setHours 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: setHours，関数，式，ジャーニー
+keywords: setHours、関数、式、ジャーニー
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 91%
 
 `setHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-戻り値2023-12-12T04:11:00Z
+2023-12-12T04:11:00Z を返します。
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
