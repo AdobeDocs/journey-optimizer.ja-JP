@@ -12,7 +12,7 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7／v8 のアクション"
->abstract="この統合は、Adobe Campaign v7 および v8 で使用できます。 Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。"
+>abstract="この統合は、Adobe Campaign v7 および v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。"
 
 この統合は、7.1 リリース以降のAdobe Campaign v7/v8 およびAdobe Campaign v8 で使用できます。 Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI アシスタントの概要
+title: AI アシスタントの基本を学ぶ
 description: Journey Optimizer Assistant にアクセスして操作する方法を説明します
 feature: Content Assistant
 topic: Content Management
@@ -14,16 +14,16 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
-# AI アシスタントの概要 {#gs-content-assistant}
+# AI アシスタントの基本を学ぶ {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="メールコンテンツを作成"
->abstract="Adobeジャーニー最適化 AI アシスタントは、テキストや画像に対して事前にコンテンツのバリエーションを提案する機能を提供します。 メール、プッシュ、SMS および web の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。"
+>abstract="Adobe Journey Optimizer AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を提供します。メール、プッシュ、SMS および web の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。"
 
 >[!BEGINSHADEBOX]
 
