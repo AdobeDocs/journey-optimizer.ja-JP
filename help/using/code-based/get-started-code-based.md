@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1080'
 ht-degree: 84%
 
 ---
@@ -147,15 +147,15 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 | --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html#element | 特定のドメインの特定のページ内の個々の要素を表します。要素は、次の例のようなラベルにすることができます。 hero_banner、top_nav、menu、footer など。 |
 | iOS アプリ | mobileapp://com.vendor.bundle/activity#element | ボタンや他の表示要素など、ネイティブアプリアクティビティ内の特定の要素を表します。 |
-| Android アプリ | mobileapp://com.vendor.bundle#element | ネイティブアプリ内の特定の要素を表します。 |
+| Android アプリ | mobileapp://com.vendor.bundle/#element | ネイティブアプリ内の特定の要素を表します。 |
 
 **その他のデバイスタイプ**
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle#element | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
-| TV アプリ | tvcd://com.vendor.bundle#element | スマート TV または TV 接続デバイスアプリ内の特定の要素を表します（バンドル ID）。 |
-| サービス | service://servicename#element | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
+| Desktop | desktop://com.vendor.bundle/#element | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
+| TV アプリ | tvcd://com.vendor.bundle/#element | スマート TV または TV 接続デバイスアプリ内の特定の要素を表します（バンドル ID）。 |
+| サービス | service://servicename/#element | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
 | キオスク | kiosk://location/screen#element | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
 | ATM | atm://location/screen#element | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
 
@@ -163,7 +163,5 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
-| ワイルドカード Web | ワイルドカード:web://domain.com/`*`#element | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
-| ワイルドカード Web | ワイルドカード:web://`*`domain.com/`*`#element | ワイルドカードサーフェス — 「domain.com」で終わるすべてのドメイン下の各ページの個々の要素を表します。 |
-
-
+| ワイルドカード Web | `wildcard:web://domain.com/*#element` | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
+| ワイルドカード Web | `wildcard:web://*domain.com/*#element` | ワイルドカードサーフェス — 「domain.com」で終わるすべてのドメイン下の各ページの個々の要素を表します。 |

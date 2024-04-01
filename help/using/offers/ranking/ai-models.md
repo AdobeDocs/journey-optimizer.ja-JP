@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 100%
 >現時点では、Journey Optimizer が作成したチャネルでは、ランキングモデルはサポートされていません。
 
 ## AI モデルタイプ {#ai-model-types}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_type"
+>title="モデルタイプを選択"
+>abstract="作成する AI モデルのタイプを選択します。 **自動最適化** 以前のオファーのパフォーマンスに基づいてオファーを最適化する一方、 **パーソナライズされた最適化** は、オーディエンスとオファーのパフォーマンスに基づいてオファーを最適化し、パーソナライズします。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="AI モデルの作成"
 
 [!DNL Journey Optimizer] では、2 種類の AI モデルを使用できます。
 
