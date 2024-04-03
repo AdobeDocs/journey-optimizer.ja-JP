@@ -10,9 +10,9 @@ level: Experienced
 keywords: データ, ガバナンス, DULE, ラベル, ラベル付け, Platform, ポリシー
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Journey Optimizer では、これらのポリシーをカスタムアクショ�
 
 ## 重要な注意事項 {#important-notes}
 
-* データガバナンスは、ジャーニーのカスタムアクションにのみ適用されます。Campaign v7/v8 とCampaign Standardアクションはサポートされていません。
+* データガバナンスは、ジャーニーのカスタムアクションにのみ適用されます。Campaign v7/v8 と Campaign Standard のアクションはサポートされていません。
 * ガバナンスポリシーは、カスタムアクションレベルでマーケティングアクション（必須または追加）が設定されている場合にのみ適用されます。
 
 ## ガバナンスポリシーの定義 {#governance-policies}

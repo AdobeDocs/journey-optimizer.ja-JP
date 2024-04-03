@@ -10,9 +10,9 @@ level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 ## DMARC とは {#what-is-dmarc}
 
-DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、ドメイン所有者が自身のドメインを不正使用から保護できるようにするメール認証方式です。E メールプロバイダーおよびインターネットサービスプロバイダー (ISP) に対して明確なポリシーを提供することで、悪意のある関係者がドメインからの E メールを送信するのを防ぐのに役立ちます。 DMARC を実装すると、正当なメールがスパムとしてマークされたり拒否されたりするリスクが軽減され、メールの配信品質が向上します。
+DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、ドメイン所有者が自身のドメインを不正使用から保護できるようにするメール認証方式です。メールプロバイダーやインターネットサービスプロバイダー（ISP）明確なポリシーを提供することで、自分のドメインから悪意のある関係者がメールを送信するのを防ぐことができます。DMARC を実装すると、正当なメールがスパムとしてマークされたり拒否されたりするリスクが軽減され、メールの配信品質が向上します。
 
 また、DMARC では、認証に失敗したメッセージに関するレポートを提供し、DMARC 検証に合格しないメールの処理を制御できます。実装されている [DMARC ポリシー](#dmarc-policies)に応じて、これらのメールは監視、強制隔離または拒否できます。これらの機能を使用すると、潜在的なエラーを軽減し、対処するための行動をとることが可能になります。
 

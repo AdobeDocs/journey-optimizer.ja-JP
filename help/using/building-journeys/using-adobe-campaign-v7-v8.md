@@ -7,12 +7,12 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
 level: Intermediate
-keywords: ジャーニー，統合，キャンペーン， v7, v8
+keywords: ジャーニー, 統合, キャンペーン, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

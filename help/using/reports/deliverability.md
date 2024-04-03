@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 71%
 
 ## 苦情率の低減 {#reduce-complaint-rate}
 
-ISP は、通常、受け取ったメッセージをスパムとしてレポートする優れた手段を持っています。これにより、信頼性を欠くソースの特定が可能です。オプトアウト要求に迅速に対応し、自身が信頼できる送信者であることを示すことで、苦情の発生率を低減できます。[オプトアウト管理の詳細を説明します](../privacy/opt-out.md#opt-out-management)
+ISP は、通常、受け取ったメッセージをスパムとしてレポートする優れた手段を持っています。これにより、信頼性を欠くソースの特定が可能です。オプトアウト要求に迅速に対応し、自身が信頼できる送信者であることを示すことで、苦情の発生率を低減できます。[詳しくは、オプトアウト管理を参照してください](../privacy/opt-out.md#opt-out-management)
 
 原則として、オプトアウトを希望する受信者がスムーズに手続きできるよう、メールアドレスや名前などのフィールドへの入力を要求しないようにしてください。購読解除ランディングページには、確認ボタンを 1 つだけ配置してください。
 
@@ -51,7 +51,7 @@ ISP は、通常、受け取ったメッセージをスパムとしてレポー�
 
 配信品質を保護するため、受信者のアドレスが抑制リストに含まれている場合、デフォルトでは、今後のすべての配信からそのアドレスが除外されます。これらの連絡先に送信すると、評価が下がる可能性があるからです。
 
-[抑制リストの詳細を表示](suppression-list.md)
+[詳しくは、抑制リストを参照してください](suppression-list.md)
 
 ## 監視ツールの使用 {#monitoring-tools}
 
@@ -71,7 +71,7 @@ ISP は、通常、受け取ったメッセージをスパムとしてレポー�
 
 * **購読解除リンクとランディングページ**：購読解除リンクは必須です。わかりやすく、有効である必要があります。また、フォームが機能する必要があります。
 
-[E メールコンテンツのデザインの詳細を説明します](../email/get-started-email-design.md)
+[詳しくは、メールコンテンツのデザインを参照してください](../email/get-started-email-design.md)
 
 ## 送信者としての評判を確立する {#reputation}
 
@@ -81,23 +81,23 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
 ## DMARC の実装 {#dmarc}
 
-正当な E メールがスパムとしてマークまたは拒否されるリスクを軽減し、配信品質の問題を防ぐため、 [!DNL Journey Optimizer] では、Delegate にデリゲートするすべてのサブドメインに対して DMARC レコードをAdobeできます。
+正規のメールがスパムとしてマークされるか却下されるリスクを軽減し、配信品質の問題を防ぐために、[!DNL Journey Optimizer] では、アドビにデリゲートするすべてのサブドメインに対して DMARC レコードを設定できます。
 
-ドメインベースのメッセージ認証、レポート、準拠 (DMARC) は、ドメイン所有者が悪意のあるアクターによる不正使用からドメインを保護できる電子メール認証方法です。
+DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、ドメイン所有者が自身のドメインを悪意のある関係者による不正使用から保護できるようにするメール認証方式です。
 
-[DMARC レコードの詳細を表示](../configuration/dmarc-record.md)
+[詳しくは、DMARC レコードを参照してください](../configuration/dmarc-record.md)
 
 ## フィードバックループについて {#feedback-loops}
 
-フィードバックループ (FBL) は、E メールを受信したユーザーが E メールをスパム（「苦情」とも呼ばれます）としてマークした場合に E メール送信者に自動的に通知を送信できる、一部の ISP が提供するサービスです。
+フィードバックループ（FBL）は、一部の ISP が提供するサービスで、メールを受信したユーザーがメールをスパム（「スパム報告」とも呼ばれます）としてマークすることを選択した場合に、メール送信者に自動的に通知できます。
 
-エンドユーザーが苦情を生成し、ISP によってAdobeに返信された後、電子メールアドレスが自動的に [抑制リスト](../reports/suppression-list.md) 今後の配信から除外されます。 実際、スパムとマークしたユーザーに E メールを送信すると、送信者の評判に悪影響を与え、配信品質の問題が発生する可能性があります。 [スパムの苦情に関する詳細](../reports/suppression-list.md#spam-complaints)
+エンドユーザーがスパム報告を生成し、ISP によってアドビに返信されると、そのメールアドレスは自動的に[抑制リスト](../reports/suppression-list.md)に追加され、今後の配信から除外されます。実際、スパムとしてマークしたユーザーにメールを送信すると、送信者の評判に悪影響を与え、配信品質の問題が発生する場合があります。[詳しくは、スパム報告を参照してください](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >
->一部の ISP は、Gmail などの従来の FBL を提供していません。 Gmail は、個人レベルのフィードバックを提供しません。また、Google Postmaster ツール内の集計レベルのレポートに焦点を当て、個々の受信者に対するスパムの苦情を追跡するためには使用できません。 [詳細情報](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+>すべての ISP が Gmail などの従来の FBL を提供しているわけではありません。Gmail は個人レベルのフィードバックを提供しておらず、個々の受信者へのスパム報告を追跡するために使用することはできず、代わりに Google Postmaster Tools 内の集計レベルのレポートに焦点を当てています。[詳細情報](https://support.google.com/a/answer/6254652?hl=ja){target="_blank"}
 
-すべてのAdobeの顧客は、次の ISP の従来の FBL に自動的に登録されます。
+すべてのアドビのお客様は、次の ISP の従来の FBL に自動的に登録されます。
 
 * 1&amp;1
 
@@ -109,13 +109,13 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
 * Fastmail
 
-* ガンディ
+* Gandi
 
 * Italia Online
 
 * La Poste
 
-* Liberty Global （チェロ、UPC、Unity Media）
+* Liberty Global（Chello、UPC、Unity Media）
 
 * Locaweb
 
@@ -137,15 +137,15 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
 * Synacor
 
-* テレコムイタリア
+* Telecom Italia
 
-* テレネ
+* Telenet
 
 * Telenor
 
 * Telstra
 
-* テラ
+* Terra
 
 * UOL
 
@@ -153,6 +153,6 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
 * Yahoo
 
-* ジゴ
+* Ziggo
 
-Adobeは、これらの FBL を定期的に監査し、利用可能な最新の FBL が追加されていることを確認します。
+アドビでは、これらの FBL を定期的に監査して、利用可能な最新の FBL が追加されていることを確認します。

@@ -1,5 +1,5 @@
 ---
-title: コードベースの Experience Guardrail と前提条件
+title: コードベースのエクスペリエンスのガードレールと前提条件
 description: Journey Optimizer のコードベースの機能を使用してアプリや web ページを編集できるようにするには、このページの前提条件に従います
 feature: Code-based Experiences
 topic: Content Management
@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 88%
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 
-* アプリケーションに変更を追加するには、特定の実装が必要です。 [詳細情報](#implementation-prerequisites)
+* アプリケーションに変更を追加するには、特定の実装が必要です。[詳細情報](#implementation-prerequisites)
 
 * コードベースエクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)を参照して、Adobe Experience Platform の設定を定義します。
 
 >[!CAUTION]
 >
->* コードベースのエクスペリエンスチャネルは、Adobeを購入した組織では使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
+>* Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織では、コードベースのエクスペリエンスチャネルを使用できません。
 >
->* では、コードベースのエクスペリエンスのみを作成できます。 **campaigns**. [詳細情報](../campaigns/create-campaign.md#configure)。
+>* **キャンペーン**&#x200B;にコードベースのエクスペリエンスのみを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)。
 
 
 ## 実装の前提条件 {#implementation-prerequisites}

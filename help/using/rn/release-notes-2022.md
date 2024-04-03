@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -765,7 +765,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **ジャーニー**
 
 * パフォーマンスを最適化するために、1 週間トリガーされていないテストモードのすべてのジャーニーが、ドラフトステータスに戻るようになりました。[詳細情報](../building-journeys/testing-the-journey.md#important_notes)
-* Journey OptimizerとAdobe Campaign v7/v8 の統合は、パフォーマンスを向上させるために最適化されました。 上限のデフォルト設定は、4,000 呼び出し/ 5 分に変更されました。 [詳細情報](../action/acc-action.md#important-notes)
+* Journey Optimizer と Adobe Campaign v7/v8 の統合が最適化され、パフォーマンスが向上しました。キャッピングのデフォルト設定は、5 分につき呼び出し 4,000 件に変更されました。[詳細情報](../action/acc-action.md#important-notes)
 
 **レポーティング**
 

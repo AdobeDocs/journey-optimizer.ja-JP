@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 89%
 
 [!DNL Journey Optimizer] は、個人がジャーニーで実行するステップごとに、必要なスキーマとデータセットへのストリームを Adobe Experience Platform に対して自動的に作成します。ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを備えたジャーニーでは、3 つのステップイベントが Adobe Experience Platform に送信されます。
 
-同じノードに対して複数のイベントを作成できる場合があります。 例えば、「待機」アクティビティの場合は、次のようになります。
+同じノードに対して複数のイベントを作成できる場合があります。例えば、「待機」アクティビティの場合は、次のようになります。
 
-* プロファイルが待機に入ると 1 つのイベントが生成されます（journeyNodeProcessed 属性が false に等しい）
-* プロファイルが終了すると、1 つのイベントが生成されます（journeyNodeProcessed 属性が true に等しい）。
+* プロファイルが待機にエントリすると、1 つのイベントが生成される（journeyNodeProcessed 属性が false に等しい）
+* プロファイルが離脱すると、1 つのイベントが生成される（journeyNodeProcessed 属性が true に等しい）
 
 渡される XDM フィールドのリストは多岐にわたります。システムで生成されたコードを含むものもあれば、人間が理解できるわかりやすい名前を持つものもあります。例えば、ジャーニーアクティビティやステップステータスのラベルがあります。アクションがタイムアウトした回数や、エラーで終了した回数などです。
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1651'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
->title="マーケティングアクションの選択"
+>title="マーケティングアクションを選択"
 >abstract="メッセージに同意ポリシーを関連付けるには、サーフェスでマーケティングアクションを選択します。"
 
 チャネルサーフェスを作成するには、次の手順に従います。
@@ -107,7 +107,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >選択した IP プールが以下の場合は、メールの表面の作成を続行できません [版](ip-pools.md#edit-ip-pool) (**[!UICONTROL 処理中]** ステータス ) と、選択したサブドメインに関連付けられていないステータス。 [詳細情報](#subdomains-and-ip-pools)
+   >選択した IP プールが[編集中](ip-pools.md#edit-ip-pool)（**[!UICONTROL 処理中]**&#x200B;ステータス）で、選択したサブドメインに関連付けられていない場合は、メールサーフェスの作成を続行できません。[詳細情報](#subdomains-and-ip-pools)
    >
    >サーフェスをドラフトとして保存し、IP プールが&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスになるまで待機して、サーフェスの作成を再開します。
 

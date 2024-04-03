@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2378'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->レピュテーションを保持し、配信品質を向上させるには、E メールサーフェスを作成する前に E メールの送信に使用するサブドメインを設定します。 [詳細情報](../configuration/about-subdomain-delegation.md)
+>評判を保持し、配信品質を向上させるには、メールサーフェスを作成する前にメールの送信に使用するサブドメインを設定します。[詳細情報](../configuration/about-subdomain-delegation.md)
 
-以下に示すように、チャネルサーフェス設定の専用のセクションで E メール設定を定義します。
+以下で詳しく説明するように、チャネルサーフェス設定の専用セクションでメール設定を定義します。
 
 ![](assets/preset-email-settings.png)
 
@@ -55,11 +55,11 @@ ht-degree: 96%
 
 ## サブドメインおよび IP プール {#subdomains-and-ip-pools}
 
-Adobe Analytics の **サブドメインおよび IP プール** 「 」セクションで、以下の手順に従って必須フィールドに入力します。
+「**サブドメインおよび IP プール**」セクションで、以下の手順に従って必須フィールドに入力します。
 
-1. E メールの送信に使用するサブドメインを選択します。
+1. メールの送信に使用するサブドメインを選択します。
 
-   ドメインのレピュテーションを保持し、IP ウォーミングプロセスを高速化し、配信品質を向上させるには、送信サブドメインをAdobeに委任します。 [詳細情報](../configuration/about-subdomain-delegation.md)
+   ドメインのレピュテーションを保持し、IP ウォーミングプロセスを高速化し、配信品質を向上させるには、送信サブドメインをアドビにデリゲートします。[詳細情報](../configuration/about-subdomain-delegation.md)
 
 1. サーフェスに関連付ける IP プールを選択します。[詳細情報](../configuration/ip-pools.md)
 

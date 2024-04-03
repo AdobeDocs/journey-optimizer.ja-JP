@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 3 月のリリースが公開されました。]
+>[!TAB 3月リリースが公開されました。]
 
 Adobe Journey Optimizer 24.3 リリースに含まれる新機能と機能強化を参照してください。
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer 24.3 リリースに含まれる新機能と機能強化
 
 >[!TAB コードベースのエクスペリエンス]
 
-新しいコードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizerを使用して、Web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントでカスタマイズされたエクスペリエンスをシームレスに配信できます。
+新しいコードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizer を使用して、あらゆるインバウンドプロパティに対して高度なパーソナライゼーションとテストを行うことができ、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、多様なタッチポイントに合わせたエクスペリエンスをシームレスに配信できます。
 
 ![](using/rn/assets/do-not-localize/code-based.gif)
 

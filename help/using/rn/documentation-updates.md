@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5073'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,25 +21,25 @@ ht-degree: 95%
 
 ## 2024年3月 {#march-2024}
 
-* Journey Optimizerでのオーディエンスの構成およびカスタムアップロードオーディエンスの使用に関するよくある質問に対処するための、よくある質問の節が追加されました。 [詳細情報](../audience/about-audiences.md#faq)
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2024 年 3 月リリースの詳細はドキュメントに記載されています。 [詳細情報](release-notes.md)
-* プロファイル入口管理のページが改善されました。 [詳細情報](../building-journeys/entry-management.md)
-* アラートページにトラブルシューティング情報が追加されました。 [詳細情報](../reports/alerts.md#alert-troubleshooting)
-* ジャーニーレポートのページに、待機アクティビティに関する情報が追加されました。 [詳細情報](../reports/sharing-overview.md)
+* Journey Optimizer でのオーディエンス構成とカスタムアップロードオーディエンスの使用に関するよくある質問に対処するために、よくある質問の節を追加しました。[詳細情報](../audience/about-audiences.md#faq)
+* [!DNL Journey Optimizer] の 2024年3月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
+* プロファイルエントリ管理に関するページを改善しました。[詳細情報](../building-journeys/entry-management.md)
+* アラートページにトラブルシューティング情報を追加しました。[詳細情報](../reports/alerts.md#alert-troubleshooting)
+* ジャーニーレポートのページに、待機アクティビティに関する情報を追加しました。[詳細情報](../reports/sharing-overview.md)
 * テストモードのジャーニーの場合、次のショートカットが無効になっています。
-   * T：テストモードのオン/オフを切り替えるショートカット。
-   * E：イベントベースのジャーニーでイベントのトリガーを設定するために使用するショートカット。
-   * P:「一度に 1 つのプロファイル」オプションがオンになっている、オーディエンスベースのジャーニーでイベントをトリガーするためのショートカット。
+   * T：テストモードのオン／オフを切り替えるショートカット。
+   * E：イベントベースのジャーニーでイベントのトリガーに使用するショートカット。
+   * P：「一度に 1 つのプロファイル」オプションがオンになっているオーディエンスベースのジャーニーでイベントをトリガーするショートカット。
    * L：テストログを表示するためのショートカット。
 * メッセージ頻度ルールページが更新され、毎日のフリークエンシーキャップに関する新しいサブセクションが追加されました。これは、毎週または毎月のキャッピングに加えてオンデマンドで使用可能です。[詳細情報](../configuration/frequency-rules.md#daily-frequency-cap)
 * 同意ポリシーの使用ページが改善され、Experience Platform ドキュメントへの便利なリンクが追加されて更新されました。[詳細情報](../action/consent.md)
-* HTML表示モード（限定提供）でグリッドの E メールコンテンツテンプレートをサムネールとして表示できることを反映する新しい節が追加されました。 [詳細情報](../content-management/content-templates.md#template-thumbnails)
-* フィードバックループの概要とその活用方法を説明する新しい節が配信品質ページに追加されました。 [詳細情報](../reports/deliverability.md#feedback-loops)
-* 「パーソナライズされたオファーを作成」の節に、すべての表示域を含むオファーのサイズが 300 KB を超えないように指定する注記が追加されました。 [詳細情報](../offers/offer-library/creating-personalized-offers.md#create-offer)
+* グリッドビューモード（限定提供）で HTML メールコンテンツテンプレートをサムネールとして表示できることを反映した、新しい節を追加しました。[詳細情報](../content-management/content-templates.md#template-thumbnails)
+* フィードバックループの概要とその活用方法を説明する新しい節を、配信品質ページに追加しました。[詳細情報](../reports/deliverability.md#feedback-loops)
+* パーソナライズされたオファーを作成の節に、すべての表示域を含むオファーのサイズが 300 KB を超えないように指定するメモを追加しました。[詳細情報](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## 2024年2月 {#feb-2024}
 
-* に含まれるすべての新機能と改善点 [!DNL Journey Optimizer] 2024 年 2 月リリースの詳細がドキュメントに記載されました。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2024年2月リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
 * Journey Optimizer と Workfront の統合が統合ページに追加されました。[詳細情報](../start/ajo-integrations.md)
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
 * ガードレールページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)

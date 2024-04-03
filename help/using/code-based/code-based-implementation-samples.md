@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->フォロー [このリンク](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} 様々なパーソナライゼーションおよび実験の使用例に関する実装例を見つけるには、を参照してください。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
+>[このリンク](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}から、様々なパーソナライゼーションや実験のユースケースのサンプル実装を確認できます。必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
 
 ## クライアントサイドの実装 {#client-side-implementation}
 
@@ -72,7 +72,7 @@ function sendDisplayEvent(decision) {
 }
 ```
 
-1. コードベースのエクスペリエンスキャンペーンの場合、ユーザーがコンテンツを操作したタイミングを示すために、インタラクションイベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
+1. コードベースエクスペリエンスキャンペーンの場合、ユーザーがいつコンテンツを操作したかを示すために、インタラクションイベントを手動で送信する必要があります。これは、`sendEvent` コマンドを使用して行われます。
 
 ```javascript
 function sendInteractEvent(label, proposition) {

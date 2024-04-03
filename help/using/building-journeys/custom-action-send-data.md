@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AEP へのデータ送信
-description: AEP にデータを送信する方法を説明します。
+title: AEP にデータを送信
+description: AEP にデータを送信する方法を説明します
 feature: Journeys, Use Cases
 topic: Content Management
 role: User, Data Engineer
 level: Intermediate, Experienced
-keywords: ジャーニー、使用例
+keywords: ジャーニー、ユースケース
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# 使用例：カスタムアクションを作成してAdobe Experience Platformにデータを送信する{#send-data-to-aep}
+# ユースケース：カスタムアクションを作成して Adobe Experience Platform にデータを送信する{#send-data-to-aep}
 
 最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立する必要があります。そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに送られる可能性があります。IP ウォーミングを使用してメールの評判を高める方法については、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target="_blank"}を参照してください。
 

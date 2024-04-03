@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI アシスタントを使用した画像の生成
-description: AI アシスタントの概要
+title: AI アシスタントを使用した画像生成
+description: AI アシスタントの基本を学ぶ
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -12,27 +12,27 @@ hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-# AI アシスタントを使用した画像の生成 {#image-content-assistant}
+# AI アシスタントを使用した画像生成 {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **目次**
 
-* [AI アシスタントの概要](gs-generative.md)
-* [AI アシスタントを使用してテキストを生成](generative-content.md)
-* **[AI アシスタントを使用して画像を生成](generative-image.md)**
+* [AI アシスタントの基本を学ぶ](gs-generative.md)
+* [AI アシスタントを使用したテキストの生成](generative-content.md)
+* **[AI アシスタントを使用した画像の生成](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-メールや Web ページを作成してパーソナライズしたら、Journey Optimizer AI Assistant でコンテンツを次のレベルに引き上げます。 この強力なツールを使用すると、コンテンツを容易にパーソナライズおよび強化できます。
+メールまたは web ページを作成してパーソナライズしたら、Journey Optimizer AI アシスタントを使用してコンテンツを次のレベルに引き上げます。この強力なツールを使用すると、コンテンツを容易にパーソナライズおよび強化できます。
 
-以下の例では、AI Assistant を使用してアセットを更新し、改善してユーザーエクスペリエンスを向上させる方法について説明します。 次の手順に従います。
+以下の例では、AI アシスタントを使用してアセットの更新と改善を行い、ユーザーエクスペリエンスを向上させる方法について説明します。次の手順に従います。
 
 1. メッセージを作成して設定したら、「**[!UICONTROL コンテンツを作成]**」をクリックし、必要に応じてパーソナライズします。
 
@@ -44,7 +44,7 @@ ht-degree: 66%
 
 1. 結果を微調整するためのプロンプトを追加し、「**[!UICONTROL 生成]**」をクリックします。
 
-   を有効にします。 **[!UICONTROL 現在のコンテンツで拡張]** 」オプションを使用します。
+   AI アシスタントの「**[!UICONTROL 現在のコンテンツで拡充]**」オプションを有効にして、メッセージ、キャンペーン名、選択したオーディエンスに基づいて、新しいアセットをパーソナライズします。
 
    ![](assets/gen-ai-image-2.png)
 
