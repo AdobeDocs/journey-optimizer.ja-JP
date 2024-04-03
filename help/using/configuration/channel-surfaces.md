@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
->title="マーケティングアクションを選択"
->abstract="メッセージに同意ポリシーを関連付けるには、表面でマーケティングアクションを選択します。"
+>title="マーケティングアクションの選択"
+>abstract="メッセージに同意ポリシーを関連付けるには、サーフェスでマーケティングアクションを選択します。"
 
 チャネルサーフェスを作成するには、次の手順に従います。
 
