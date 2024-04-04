@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1025'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ➡️  [ビデオでこの機能を確認する](#video)
 
-## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
+## 必須ヘッダー {#required-headers}
 
 次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
@@ -34,25 +34,31 @@ ht-degree: 100%
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
+| 認証 | `Bearer {ACCESS_TOKEN}` |
+| x-gw-ims-org-id | `{IMS_ORG}` |
+| x-sandbox-name | `{SANDBOX_NAME}` |
+| x-api-key | `{API_KEY}` |
+
+* ペイロード (POST、PUT、PATCH) を含むすべてのリクエストには、content-type ヘッダーが必要です
 
 ## API リクエスト {#request}
 
 ### API 形式
 
 ```https
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
+POST /{ENDPOINT_PATH}/decisions
 ```
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ode/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ods` |
 | `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### リクエスト
 
 ```shell
 curl -X POST \
-  'https://platform.adobe.io/data/core/ode/e0bd8463-0913-4ca1-bd84-6309134ca1f6/decisions' \
+  'https://platform.adobe.io/data/core/ods/decisions' \
   -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
   -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"'
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
@@ -212,15 +218,15 @@ curl -X POST \
 | 500 | 内部サーバーエラー。サーバーで予期しない状況が発生し、リクエストを完了できません。 |
 | 503 | サーバー過負荷のため、サービスを利用できません。一時的な過負荷のため、サーバーは現在リクエストを処理できません。 |
 
-## チュートリアルビデオ {#video}
+<!-- ## Tutorial video {#video}
 
-次のビデオは、「意思決定管理」のコンポーネントの理解をサポートするためのものです。
+The following video is intended to support your understanding of the components of Decision Management.
 
 >[!NOTE]
 >
->このビデオは、Adobe Experience Platform で構築された Offer Decisioning アプリケーションサービスに当てはまります。ただし、Journey Optimizer のコンテキストでオファーを使用する際の一般的なガイダンスを提供しています。
+>This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 次の手順 {#next-steps}
 
