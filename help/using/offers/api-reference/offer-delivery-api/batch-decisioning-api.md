@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 86966bc291f10799e97490ec8c9053c17e2981c9
+source-git-commit: bb7b79286514dcc6931f7ba8dbf2542076d754fe
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -144,7 +144,6 @@ GET {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dwm` |
-| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{WORKLOAD_ID}` | 単一のワークロードを識別する意思決定管理によって生成される UUID。 | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **リクエスト**
