@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
+source-git-commit: ae0bd349b6287002f264ed716b6454fb9d8357c9
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1018'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,6 @@ POST /{ENDPOINT_PATH}/decisions
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/ods` |
-| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### リクエスト
 

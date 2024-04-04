@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
+source-git-commit: 86966bc291f10799e97490ec8c9053c17e2981c9
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
@@ -138,7 +138,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 **API 形式**
 
 ```https
-GET  {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
+GET {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
 ```
 
 | パラメーター | 説明 | 例 |
