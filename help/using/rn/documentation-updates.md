@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
+source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
 workflow-type: tm+mt
 source-wordcount: '5101'
 ht-degree: 99%
