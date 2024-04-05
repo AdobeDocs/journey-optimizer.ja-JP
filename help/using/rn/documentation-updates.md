@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5101'
+source-wordcount: '5123'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,10 @@ ht-degree: 99%
 
 ## 2024年4月 {#april-2024}
 
+* アプリ内メッセージの設定手順が詳しく説明されました。 [詳細情報](../in-app/inapp-configuration.md)
+* のドキュメント [Offer decisioningAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) および [バッチ判定 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) が更新されました。
 * Edge Decisioning API で頻度制限を使用する場合のエッジおよびハブ領域の管理に関する情報が、判定管理ドキュメントに追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## 2024年3月 {#march-2024}
 
