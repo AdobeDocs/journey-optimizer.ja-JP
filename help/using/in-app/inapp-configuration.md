@@ -6,20 +6,23 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 86%
 
 ---
 
 # 前提条件と設定 {#inapp-configuration}
 
-でアプリ内メッセージジャーニーやキャンペーンを送信できるようにする [!DNL Journey Optimizer]の場合は、次の設定手順を実行する必要があります。
+## 設定の手順 {#inapp-steps}
 
-1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+を使用してジャーニーおよびキャンペーンでアプリ内メッセージを送信するには [!DNL Journey Optimizer]の場合は、次の設定手順を実行する必要があります。
+
+1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
+にアクセスするには、特定の権限を付与する必要があります **アプリのサーフェス** メニューを使用できます。 詳しくは、[このビデオ](#video) を参照してください。
 1. Adobe Experience Platformデータ収集データストリームでAdobe Journey Optimizerを有効にし、Adobe Experience Platformでデフォルトの結合ポリシーを確認します ( [配信の前提条件](#delivery-prerequisites) 下
-1. Adobe Experience Platformデータ収集でアプリサーフェスを作成および設定します ( 詳しくは、 [この節](#channel-prerequisites). にアクセスするには、特定の権限を付与する必要があります **アプリのサーフェス** メニューを使用できます。 詳しくは、[このビデオ](#video) を参照してください。
+1. Adobe Experience Platformデータ収集でアプリサーフェスを作成および設定します ( 詳しくは、 [この節](#channel-prerequisites).
 1. コンテンツ実験を使用する場合は、 [この節](#experiment-prerequisite).
 
 完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
@@ -135,10 +138,9 @@ ht-degree: 86%
 >
 >これらのフィールドグループを追加しても、通常のデータ収集には影響しません。実験が実行されているページに対してのみ追加され、他のすべての追跡は変更されません。
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
