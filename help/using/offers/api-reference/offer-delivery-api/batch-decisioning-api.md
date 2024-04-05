@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bb7b79286514dcc6931f7ba8dbf2542076d754fe
+source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -127,7 +127,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `@id` | 単一のワークロードを識別する意思決定管理によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 組織 ID。 | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | コンテナ ID。 | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定ワークロードリクエストが作成された時間。 | `1648078924834` |
 | `ode:status` | ワークロードのステータス。 | `ode:status: "QUEUED"` |
 
@@ -174,7 +173,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | -------- | ----------- | ------- |
 | `@id` | 単一のワークロードを識別する意思決定管理によって生成される UUID。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 組織 ID | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | コンテナ ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 決定ワークロードリクエストが作成された時間。 | `1648076994405` |
 | `ode:status` | ワークロードのステータスは「待機中」で始まり、「処理中」、「取り込み中」、「完了」または「エラー」に変わります。 | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | ステータスが「処理中」または「取り込み中」の場合は、sparkJobId や batchID などの詳細が表示されます。ステータスが「エラー」の場合は、エラーの詳細が表示されます。 |  |
