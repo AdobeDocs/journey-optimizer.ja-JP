@@ -9,7 +9,7 @@ level: Experienced
 keywords: 式, 条件, ユースケース, イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 

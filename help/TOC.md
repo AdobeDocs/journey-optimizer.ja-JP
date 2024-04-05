@@ -246,8 +246,8 @@ ht-degree: 99%
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
    + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
-   + [実装メソッドのサンプル](using/code-based/code-based-implementation-samples.md)
-   + [コードベースのエクスペリエンスを作成](using/code-based/create-code-based.md)
+   + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
+   + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)

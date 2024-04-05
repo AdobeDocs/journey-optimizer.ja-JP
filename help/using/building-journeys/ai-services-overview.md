@@ -7,8 +7,9 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: 人工, AI, インテリジェント, ジャーニー, サービス
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: ht
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -29,4 +30,3 @@ Adobe Experience Platform 上に構築された [!DNL Intelligent Services] は�
 その結果、これらは Journey Optimizer の条件（最適な決定を下すためのもの）、アクション、またはセグメントの作成において、他のプロファイル属性として使用できます。
 
 ![](assets/customer-ai.png)
-

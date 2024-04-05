@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 100%
 

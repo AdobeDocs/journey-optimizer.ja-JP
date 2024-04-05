@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, イベント, 反応, トラッキング, Platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 

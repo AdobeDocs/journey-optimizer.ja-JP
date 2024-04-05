@@ -8,7 +8,7 @@ level: Experienced
 keywords: listSize, 関数, 式, ジャーニー
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合、フィールド参照である必要があります。listObject に null オブジェクトを含めることはできません。 |
+| listToProcess | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合、フィールド参照である必要があります。listObject に null オブジェクトを含めることはできません。 |
 
 ## シグネチャと戻り値のタイプ
 

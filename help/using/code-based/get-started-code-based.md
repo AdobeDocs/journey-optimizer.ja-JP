@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->コードベースのエクスペリエンスに関する特定のガードレールおよび推奨事項について詳しくは、 [このページ](code-based-prerequisites.md).
+>コードベースのエクスペリエンスに関する特定のガードレールおよびレコメンデーションについて詳しくは、[このページ](code-based-prerequisites.md)を参照してください。
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
@@ -135,9 +135,9 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 * また、様々なクライアントサーフェス定義に一致するワイルドカードサーフェスにすることもできます（例えば、web サイトの各ページのヒーロー画像の場所を web://mydomain.com/*#hero_image のようなサーフェス URI に変換できます）。
 
 基本的に、サーフェス URI は複数のセクションで構成されます。
-1. **タイプ**:web、mobileapp、atm、kiosk、tvcd、service など。
+1. **タイプ**：web、mobileapp、atm、kiosk、tvcd、service など。
 1. **プロパティ**：ページ URL またはアプリバンドル
-1. **コンテナ**：ページ/アプリアクティビティ上の場所
+1. **コンテナ**：ページ／アプリアクティビティ上の場所
 
 次の表に、様々なデバイスのサーフェス URI 定義の例を示します。
 
@@ -145,8 +145,8 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | 特定のドメインの特定のページ内の個々の要素を表します。要素は、次の例のようなラベルにすることができます。 hero_banner、top_nav、menu、footer など。 |
-| iOS アプリ | `mobileapp://com.vendor.bundle/activity#element` | ボタンや他の表示要素など、ネイティブアプリアクティビティ内の特定の要素を表します。 |
+| Web | `web://domain.com/path/page.html#element` | 特定のドメインの特定のページ内の個々の要素を表します。要素は、次の例のようなラベル（hero_banner、top_nav、menu、footer など）にすることができます。 |
+| iOS アプリ | `mobileapp://com.vendor.bundle/activity#element` | ボタンや他のビュー要素など、ネイティブアプリアクティビティ内の特定の要素を表します。 |
 | Android アプリ | `mobileapp://com.vendor.bundle/#element` | ネイティブアプリ内の特定の要素を表します。 |
 
 **その他のデバイスタイプ**
@@ -154,7 +154,7 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
 | Desktop | `desktop://com.vendor.bundle/#element` | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
-| TV アプリ | `tvcd://com.vendor.bundle/#element` | スマート TV または TV 接続デバイスアプリ内の特定の要素を表します（バンドル ID）。 |
+| TV アプリ | `tvcd://com.vendor.bundle/#element` | スマート TV または TV 接続デバイスアプリ内の特定の要素（バンドル ID）を表します。 |
 | サービス | `service://servicename/#element` | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
 | キオスク | `kiosk://location/screen#element` | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
 | ATM | `atm://location/screen#element` | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
@@ -163,5 +163,5 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 | タイプ | URI | 説明 |
 | --------- | ----------- | ------- | 
-| ワイルドカード Web | `wildcard:web://domain.com/*#element` | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
-| ワイルドカード Web | `wildcard:web://*domain.com/*#element` | ワイルドカードサーフェス — 「domain.com」で終わるすべてのドメイン下の各ページの個々の要素を表します。 |
+| ワイルドカード web | `wildcard:web://domain.com/*#element` | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
+| ワイルドカード web | `wildcard:web://*domain.com/*#element` | ワイルドカードサーフェス - 「domain.com」で終わるすべてのドメインの各ページの個々の要素を表します。 |

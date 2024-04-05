@@ -10,8 +10,8 @@ level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '431'
 ht-degree: 100%
 
 ---

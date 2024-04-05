@@ -7,7 +7,7 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
 

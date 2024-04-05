@@ -8,7 +8,7 @@ level: Experienced
 keywords: inLastYears, 関数, 式, ジャーニー
 exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%
 

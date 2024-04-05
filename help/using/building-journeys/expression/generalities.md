@@ -9,7 +9,7 @@ level: Experienced
 keywords: 構文, エディター, ジャーニー
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 

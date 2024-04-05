@@ -10,7 +10,7 @@ level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 100%
 

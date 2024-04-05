@@ -10,7 +10,7 @@ level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
 

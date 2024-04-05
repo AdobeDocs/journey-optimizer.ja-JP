@@ -9,7 +9,7 @@ level: Experienced
 keywords: 詳細, 条件, アクション, ジャーニー
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 

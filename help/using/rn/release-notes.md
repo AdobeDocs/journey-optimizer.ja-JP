@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 99%
 * **ライブ**&#x200B;ステータスと&#x200B;**停止**&#x200B;ステータスの間の&#x200B;**停止**&#x200B;ステータス
 * **ドラフト**&#x200B;ステータスと&#x200B;**ドラフト（テスト）**&#x200B;ステータスの間の&#x200B;**テストモードのアクティブ化**&#x200B;または&#x200B;**テストモードの非アクティブ化**
 
-ジャーニーが中間状態の場合は、読み取り専用です。 [詳細情報](../building-journeys/journey-gs.md#filter)
+ジャーニーが中間の状態にある場合は、読み取り専用です。[詳細情報](../building-journeys/journey-gs.md#filter)
 
 ## 2024年2月リリースノート {#feb-2024}
 

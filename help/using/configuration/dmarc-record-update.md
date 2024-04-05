@@ -8,8 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
-source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
-workflow-type: ht
+exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 

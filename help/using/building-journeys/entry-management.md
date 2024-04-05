@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 100%
 

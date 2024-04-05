@@ -10,7 +10,7 @@ level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 

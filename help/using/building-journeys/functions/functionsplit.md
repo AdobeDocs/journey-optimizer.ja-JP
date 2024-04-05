@@ -8,7 +8,7 @@ level: Experienced
 keywords: split, 関数, 式, ジャーニー
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 

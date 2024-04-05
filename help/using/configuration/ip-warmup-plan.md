@@ -13,7 +13,7 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 100%
 

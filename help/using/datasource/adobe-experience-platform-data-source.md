@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: 組み込み, ソース, データ, Platform, 統合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 

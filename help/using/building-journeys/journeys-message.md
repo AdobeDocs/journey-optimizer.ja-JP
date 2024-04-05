@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 100%
 

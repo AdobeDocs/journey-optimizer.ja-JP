@@ -8,7 +8,7 @@ level: Experienced
 keywords: toDateOnly, 関数, 式, ジャーニー
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
 

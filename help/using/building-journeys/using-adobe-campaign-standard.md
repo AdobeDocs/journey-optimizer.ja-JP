@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 統合, 標準, キャンペーン, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 

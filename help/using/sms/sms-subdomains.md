@@ -9,7 +9,7 @@ level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 100%
 
