@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '4368'
-ht-degree: 100%
+source-wordcount: '4412'
+ht-degree: 99%
 
 ---
 
@@ -54,6 +54,8 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 ![](assets/journey_performance.png)
 
 **[!UICONTROL ジャーニーパフォーマンス]**&#x200B;ウィジェットには、ターゲットプロファイルのジャーニーの進行状況が視覚的に表示されます。
+
+ノードのプロファイル数は、ノードに入ったときではなく、ノードが完了した後にのみ更新されることに注意してください。 例えば、 **待機** ノードは、指定された日付に達し、プロファイルがノードから離脱した場合にのみカウントされます。
 
 ### ジャーニーの統計 {#journey-statistics}
 
