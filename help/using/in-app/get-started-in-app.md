@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 84%
 
 ---
 
@@ -22,19 +22,19 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 
 >[!AVAILABILITY]
 >
->現時点では、Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織は、アプリ内チャネルを利用できません。
+>アプリ内チャネルは、Adobeを購入した組織では使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
 
-## 前提条件{#prerequisites-in-app}
-
-アプリ内メッセージを送信する前に、次の操作が必要です。
-
-* アプリ内チャネルを設定します。[詳細情報](inapp-configuration.md)
-
-* ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-
-完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="inapp-configuration.md">
+<img alt="検証" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>アプリ内チャネルの設定</strong></a>
+</div>
+<p>
+</td>
 <td>
 <a href="create-in-app.md">
 <img alt="リード" src="../assets/do-not-localize/inapp-create.jpeg">
@@ -57,15 +57,6 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 </a>
 <div>
 <a href="../reports/campaign-global-report.md#inapp-global"><strong>アプリ内レポートへのアクセス</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="inapp-configuration.md">
-<img alt="検証" src="../assets/do-not-localize/inapp-config.jpg">
-</a>
-<div>
-<a href="inapp-configuration.md"><strong>アプリ内チャネルの設定</strong></a>
 </div>
 <p>
 </td>

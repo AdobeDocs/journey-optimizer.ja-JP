@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 763cb17fe6be7da4107e38b26783df64472477b1
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 99%
@@ -205,7 +205,7 @@ ht-degree: 99%
       + [メールサーフェス設定の指定](using/email/email-settings.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
-   + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
+   + [前提条件と設定](using/in-app/inapp-configuration.md)
    + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
    + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
