@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -105,6 +105,10 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
 
 新しいサブドメインを設定するには、次の手順に従います。
 
+>[!NOTE]
+>
+>デフォルトでは、 [!DNL Journey Optimizer] では、合計 10 個のサブドメインをデリゲートできます（E メールチャネルと Web チャネルの両方をカバー）。 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできます。 使用権限のあるサブAdobeの数について詳しくは、ドメインの担当者にお問い合わせください。
+
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL Web 設定]**／**[!UICONTROL Web サブドメイン]**&#x200B;を選択します。
 
 1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
@@ -152,7 +156,6 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。Web チャネルのサーフェスを作成する準備が整いました。
 
    ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.

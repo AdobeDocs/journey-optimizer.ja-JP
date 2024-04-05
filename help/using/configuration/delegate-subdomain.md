@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 100%
+source-wordcount: '1816'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->デフォルトでは、[!DNL Journey Optimizer] ライセンス契約で、最大 10 個のサブドメインをデリゲートできます。この制限を引き上げる場合は、アドビの担当者にお問い合わせください。
+>デフォルトでは、 [!DNL Journey Optimizer] では、最大 10 個のサブドメインをデリゲートできます。 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできます。 使用権限のあるサブAdobeの数について詳しくは、ドメインの担当者にお問い合わせください。
 
 サブドメインを完全にデリゲートするか、CNAME を使用してアドビ固有のレコードを指すサブドメインを作成できます。
 
