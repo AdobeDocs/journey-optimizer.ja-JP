@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 100%
@@ -60,6 +60,8 @@ ht-degree: 100%
 1. メールの送信に使用するサブドメインを選択します。
 
    ドメインのレピュテーションを保持し、IP ウォーミングプロセスを高速化し、配信品質を向上させるには、送信サブドメインをアドビにデリゲートします。[詳細情報](../configuration/about-subdomain-delegation.md)
+
+<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 1. サーフェスに関連付ける IP プールを選択します。[詳細情報](../configuration/ip-pools.md)
 
@@ -112,6 +114,8 @@ ht-degree: 100%
   >メッセージコンテンツにワンクリックオプトアウトリンクを追加しない場合、ユーザーにランディングページは表示されません。
 
 メッセージにヘッダー登録解除リンクを追加する方法について詳しくは、[この節](../privacy/opt-out.md#unsubscribe-header)を参照してください。
+
+<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

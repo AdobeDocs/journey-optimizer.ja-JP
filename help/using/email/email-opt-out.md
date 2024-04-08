@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 100%
@@ -175,7 +175,7 @@ ht-degree: 100%
 >
 >メールヘッダーに購読解除リンクを表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
 
-購読解除アドレスは、対応するチャネルサーフェスに表示されるデフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。[詳細情報](../configuration/channel-surfaces.md#list-unsubscribe)。
+購読解除アドレスは、対応するチャネルサーフェスに表示されるデフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。[詳細情報](email-settings.md#list-unsubscribe)
 
 パーソナライズした購読解除 URL を設定するには、メールメッセージコンテンツにワンクリックオプトアウトリンクを挿入し、自分で選んだ URL を入力します。[詳細情報](#one-click-opt-out)
 
