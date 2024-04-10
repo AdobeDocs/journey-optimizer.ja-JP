@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: fa57bee17e5d9df99cc564bfac06bcd3f5090aab
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="リード" src="../assets/do-not-localize/push-create.jpeg">
+<img alt="リード" src="../assets/do-not-localize/push-create.jpg">
 </a>
 <div><a href="create-push.md"><strong>プッシュ通知の作成</strong>
 </div>
