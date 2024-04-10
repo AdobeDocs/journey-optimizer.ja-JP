@@ -30,8 +30,8 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"
->title="モデルタイプを選択"
->abstract="作成する AI モデルのタイプを選択します。 **自動最適化** 以前のオファーのパフォーマンスに基づいてオファーを最適化する一方、 **パーソナライズされた最適化** は、オーディエンスとオファーのパフォーマンスに基づいてオファーを最適化し、パーソナライズします。"
+>title="モデルタイプの選択"
+>abstract="作成する AI モデルのタイプを選択します。 **自動最適化** 過去のオファーのパフォーマンスに基づいてオファーを最適化する一方、 **パーソナライズされた最適化** オーディエンスとオファーのパフォーマンスに基づいて、オファーを最適化およびパーソナライズします。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="AI モデルの作成"
 
 [!DNL Journey Optimizer] では、2 種類の AI モデルを使用できます。
