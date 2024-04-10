@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 

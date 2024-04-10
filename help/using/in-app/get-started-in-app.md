@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 
 >[!AVAILABILITY]
 >
->アプリ内チャネルは、Adobeを購入した組織では使用できません **医療用盾** および **プライバシーとセキュリティシールド** アドオンサービス。
+>Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織では、アプリ内チャネルを使用できません。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

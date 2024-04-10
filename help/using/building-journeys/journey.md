@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
 ht-degree: 100%
 

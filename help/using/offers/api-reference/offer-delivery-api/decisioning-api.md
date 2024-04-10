@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: ae0bd349b6287002f264ed716b6454fb9d8357c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 | x-sandbox-name | `{SANDBOX_NAME}` |
 | x-api-key | `{API_KEY}` |
 
-* ペイロード (POST、PUT、PATCH) を含むすべてのリクエストには、content-type ヘッダーが必要です
+* ペイロード（POST、PUT、PATCH）を含むすべてのリクエストには、content-type ヘッダーが必要です
 
 ## API リクエスト {#request}
 

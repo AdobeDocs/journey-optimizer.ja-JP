@@ -10,9 +10,9 @@ level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1219'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->毎日の頻度キャップルールの正確性を確保するために、 [ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} をお勧めします。 オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
+>毎日のフリークエンシーキャップの精度を確保するために、[ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}の使用をお勧めします。オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
 
 ## ルールのアクティブ化 {#activate-rule}
 
