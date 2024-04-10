@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
 source-wordcount: '5140'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 * アプリ内メッセージの設定手順を詳しく説明しました。 [詳細情報](../in-app/inapp-configuration.md)
 * ドキュメント： [OFFER DECISIONINGAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) および [Batch Decisioning API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) が更新されました。
-* Edge Decisioning API でフリークエンシーキャップを使用する場合の、エッジとハブの地域管理に関する情報が意思決定管理ドキュメントに追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
+* Edge Decisioning API でフリークエンシーキャップを使用する場合のエッジおよびハブの地域管理に関する情報が、意思決定管理のドキュメントに追加されました。[詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 * API トリガーキャンペーンを操作する際の、カスタム名前空間を使用した ID 作成に関する情報が追加されました。 [詳細情報](../campaigns/api-triggered-campaigns.md)
 
 ## 2024年3月 {#march-2024}

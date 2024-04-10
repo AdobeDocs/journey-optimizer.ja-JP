@@ -44,7 +44,7 @@ ht-degree: 99%
       + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
-      + [ジャーニーをシミュレート](using/building-journeys/journey-simulation.md)
+      + [ジャーニーのシミュレート](using/building-journeys/journey-simulation.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + ジャーニーの管理{#manage-journey}
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
@@ -203,7 +203,7 @@ ht-degree: 99%
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
       + [メールサーフェス設定の指定](using/email/email-settings.md)
-      + [電子メールの動的サブドメインの設定](using/email/surface-personalization.md)
+      + [メールの動的サブドメインの設定](using/email/surface-personalization.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
    + [前提条件と設定](using/in-app/inapp-configuration.md)
