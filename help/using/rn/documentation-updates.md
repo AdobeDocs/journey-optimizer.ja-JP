@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '5123'
-ht-degree: 99%
+source-wordcount: '5140'
+ht-degree: 98%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 99%
 
 ## 2024年4月 {#april-2024}
 
-* アプリ内メッセージの設定手順が詳しく説明されました。 [詳細情報](../in-app/inapp-configuration.md)
-* のドキュメント [Offer decisioningAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) および [バッチ判定 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) が更新されました。
-* Edge Decisioning API で頻度制限を使用する場合のエッジおよびハブ領域の管理に関する情報が、判定管理ドキュメントに追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
-
+* アプリ内メッセージの設定手順を詳しく説明しました。 [詳細情報](../in-app/inapp-configuration.md)
+* ドキュメント： [OFFER DECISIONINGAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) および [Batch Decisioning API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) が更新されました。
+* Edge Decisioning API でフリークエンシーキャップを使用する場合の、エッジとハブの地域管理に関する情報が意思決定管理ドキュメントに追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
+* API トリガーキャンペーンを操作する際の、カスタム名前空間を使用した ID 作成に関する情報が追加されました。 [詳細情報](../campaigns/api-triggered-campaigns.md)
 
 ## 2024年3月 {#march-2024}
 
