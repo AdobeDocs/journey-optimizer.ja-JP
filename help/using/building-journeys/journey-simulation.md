@@ -10,8 +10,7 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 hide: true
 hidefromtoc: true
-exl-id: null
-source-git-commit: 64be01d97fa5736e7398822a278158a4b06a866d
+source-git-commit: f780ce38be21a53e5fbaba1cf373bdd9db9d07de
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
