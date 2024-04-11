@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 100%
+source-wordcount: '2005'
+ht-degree: 98%
 
 ---
 
@@ -146,6 +146,11 @@ ht-degree: 100%
 >id="ajo_journey_properties"
 >title="ジャーニーのプロパティ"
 >abstract="この節では、ジャーニーのプロパティについて説明します。デフォルトでは、読み取り専用のパラメーターは非表示です。使用可能な設定は、ジャーニーのステータス、権限および製品設定によって異なります。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="ジャーニー出口条件"
+>abstract="このセクションには、終了条件オプションが表示されます。 ジャーニーに 1 つまたは複数の終了条件ルールを作成できます。"
 
 ジャーニーの名前の横にある鉛筆アイコンをクリックして、そのプロパティにアクセスします。
 
