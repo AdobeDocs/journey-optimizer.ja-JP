@@ -5,7 +5,10 @@ title: 新しいジャーニーインターフェイス
 feature: Release Notes
 topic: Content Management
 description: 新しいジャーニーインターフェイス
-source-git-commit: 53b89d27d32cc285e6ad91549fb7543bf279cd1b
+hide: true
+hidefromtoc: true
+exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
+source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
