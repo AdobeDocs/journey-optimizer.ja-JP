@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 81d54c026c52fe78b1b725d67da15505907b8bb9
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1746'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
       + [2022年リリースノート](using/rn/release-notes-2022.md)
       + [2021年リリースノート](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
+   + [新しいジャーニーキャンバス](using/rn/news-canvas.md)
 + はじめに {#get-started}
    + [Journey Optimizer について](using/start/get-started.md)
    + クイックスタートガイド{#quick-start}
@@ -203,10 +204,9 @@ ht-degree: 99%
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
       + [メールサーフェス設定の指定](using/email/email-settings.md)
-      + [メールの動的サブドメインの設定](using/email/surface-personalization.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
-   + [前提条件と設定](using/in-app/inapp-configuration.md)
+   + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
    + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
    + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
    + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
