@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -31,18 +31,18 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="パーソナライゼーションを使用できません"
->abstract="このサーフェスは、パーソナライゼーション属性なしで作成されました。 パーソナライゼーションが必要な場合に解決する手順については、ドキュメントを参照してください。"
+>title="パーソナライゼーションは利用できません"
+>abstract="このサーフェスは、パーソナライゼーション属性なしで作成されました。パーソナライゼーションが必要な場合の解決手順について詳しくは、ドキュメントを参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="動的サブドメインを有効にする"
->abstract="メールサーフェスを作成する際に、式エディターを使用して定義する条件に基づいて、動的なサブドメインを設定できます。 最大 50 個の動的サブドメインを追加できます。"
+>abstract="メールサーフェスを作成する際、式エディターを使用して定義した条件に基づいて動的サブドメインを設定できます。最大 50 個の動的サブドメインを追加できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="一部のサブドメインは使用できない場合があります"
->abstract="フィードバックループ登録が保留になっているので、特定のサブドメインは現在選択できません。 この処理には、最大 10 営業日かかる場合があります。 完了したら、使用可能なすべてのサブドメインから選択できます。"
+>title="一部のサブドメインは利用できない場合があります"
+>abstract="フィードバックループ登録が保留になっているので、特定のサブドメインは現在選択できません。このプロセスには最大 10 営業日かかる場合があります。完了すると、利用可能なすべてのサブドメインから選択できます。"
 
 メールサーフェスを作成する際に、特定の条件に基づいて動的サブドメインを設定できます。
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >保留中のため、特定のサブドメインは現在選択できません [フィードバックループ](../reports/deliverability.md#feedback-loops) 登録。 この処理には、最大 10 営業日かかる場合があります。 完了したら、使用可能なすべてのサブドメインから選択できます。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >保留中のため、特定のサブドメインは現在選択できません [フィードバックループ](../reports/deliverability.md#feedback-loops) 登録。 このプロセスには最大 10 営業日かかる場合があります。完了したら、使用可能なすべてのサブドメインから選択できます。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
