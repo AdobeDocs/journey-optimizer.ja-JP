@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1053'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 99%
 
 開封数とクリック数に関するレポートは、[ライブレポート](../reports/live-report.md)と[グローバルレポート](../reports/global-report.md)で利用できます。
 
-## URL トラッキングをパーソナライズ {#url-tracking}
+## URL トラッキングのパーソナライズ {#url-tracking}
 
 通常 [URL トラッキング](email-settings.md#url-tracking)はサーフェスレベルで管理されますが、プロファイル属性はサポートされていません。現在、これを実行する唯一の方法は、E メールデザイナーで [URL をパーソナライズ](../personalization/personalization-syntax.md#perso-urls)することです。
 

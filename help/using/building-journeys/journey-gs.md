@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2005'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -149,8 +149,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="ジャーニー出口条件"
->abstract="このセクションには、終了条件オプションが表示されます。 ジャーニーに 1 つまたは複数の終了条件ルールを作成できます。"
+>title="ジャーニー終了基準"
+>abstract="このセクションには、終了基準オプションが表示されます。ジャーニーに 1 つ以上の終了基準ルールを作成できます。"
 
 ジャーニーの名前の横にある鉛筆アイコンをクリックして、そのプロパティにアクセスします。
 

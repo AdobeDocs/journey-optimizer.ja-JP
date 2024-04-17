@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ## サブドメインガードレール {#subdomain-guardrails}
 
-デフォルトでは、 [!DNL Journey Optimizer] では、合計 10 個のサブドメインをデリゲートできます（E メールチャネルと Web チャネルの両方をカバー）。
+デフォルトでは [!DNL Journey Optimizer] では、合計 10 個までのサブドメインをデリゲートできます（メールと web チャネルの両方を含む）。
 
-ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできます。 使用権限のあるサブAdobeの数について詳しくは、ドメインの担当者にお問い合わせください。
+ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
 
 ## フラグメントガードレール {#fragments-guardrails}
 
