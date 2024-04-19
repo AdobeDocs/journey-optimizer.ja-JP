@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 新しいジャーニーインターフェイス
+title: 新しいジャーニーのインターフェイス
 feature: Release Notes
 topic: Content Management
-description: 新しいジャーニーインターフェイス
+description: 新しいジャーニーのインターフェイス
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 新しいジャーニーインターフェイス {#new-canvas}
+# 新しいジャーニーのインターフェイス {#new-canvas}
 
 >[!CONTEXTUALHELP]
 >id="ajo_new_canvas"
 >title="新着情報"
->abstract="新規キャンバス"
+>abstract="新しいキャンバス"
 
 ジャーニーモデルの簡素化に取り組み、一部の内部プロセスを促進することを目的としています。 このモデルの変更自体は、次の点を除き、ユーザーに対して透過的です。ただし、この機会に、次のような新機能を導入しました。
 
