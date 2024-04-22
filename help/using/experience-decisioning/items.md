@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 97%
 
 ---
 
@@ -67,6 +67,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
    1. 名前と説明を入力します。
    1. 開始日と終了日を指定します。項目は、これらの日付内の決定エンジンによってのみ検討されます。
    1. プロファイルが複数の項目に該当する場合は、他の決定項目と比較した決定項目の「**[!UICONTROL 優先度]**」を設定します。優先度が高いと、その項目は他の項目よりも優先されます。
+   1. この **タグ** フィールドでは、Adobe Experience Platform統合タグを決定項目に割り当てることができます。 これにより、アセットを簡単に分類し、検索を改善できます。 [タグの操作方法については、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 
