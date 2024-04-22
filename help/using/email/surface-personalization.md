@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メールの動的サブドメインの設定
-description: メールのチャネルサーフェスレベルで動的サブドメインを設定する方法を学ぶ
+title: メールサーフェス設定のパーソナライズ
+description: メールチャネルサーフェスレベルで設定のパーソナライズされた値を定義する方法を説明します
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
-workflow-type: ht
-source-wordcount: '815'
-ht-degree: 100%
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 98%
 
 ---
 
