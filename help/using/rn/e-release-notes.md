@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 63dfe9a27f8a24a1c78968fa60252e16c87abebd
+source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 47%
+source-wordcount: '534'
+ht-degree: 41%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 47%
 <tr>
 <td>
 <p>Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。</p>
-<p>これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンドサーフェスにシームレスに統合されます。</p>
+<p>これらの決定項目は、新しいコードベースのエクスペリエンスチャネルを通じて様々なインバウンドサーフェスにシームレスに統合され、Journey Optimizer キャンペーン内でアクセスできるようになりました。 エクスペリエンス決定決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
 <p>Experience Decisioning は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセス権を取得するには、Adobe担当者にお問い合わせください。</p>
 </td>
 </tr>
