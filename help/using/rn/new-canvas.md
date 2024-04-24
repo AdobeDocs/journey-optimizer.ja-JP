@@ -8,7 +8,7 @@ description: 新しいジャーニーのインターフェイス
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
+source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 * A **ジャーニーキャンバスの再設計** 最新化された UI エクスペリエンス用に作成
 * A **ライブレポート** ジャーニーキャンバスで直接使用可能な UI
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >この機能のロールアウトはプログレッシブになります。 すぐに変更が表示されない場合があります。
 
