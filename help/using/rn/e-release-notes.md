@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
+source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '546'
 ht-degree: 41%
 
 ---
@@ -175,10 +175,14 @@ ht-degree: 41%
 
 ベータ版から LA 版に至るまで、改善された機能を以下に示します。
 
+<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
+    * "Items" is now "Catalogs"
+    * "Configuration" is now "Strategy setup"-->
 * 次を使用して、決定ルールでAdobe Experience Platformのコンテキストデータを活用できるようになりました **コンテキストデータ** タブ。
 * 意思決定管理リソースで、新しい「エクスペリエンス決定の管理」権限が使用できるようになりました。 Experience Decisioning に関連する権限を管理できます。
 * 1 つのオファーに対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを向上させることができます。
 * Experience Decisioning で特定の決定項目に対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを向上させることができます。
+* を使用して、Experience Decisioning キャンペーンのカスタムレポートダッシュボードを作成できるようになりました [!DNL Customer Journey Analytics].
 
 **ジャーニー**
 
