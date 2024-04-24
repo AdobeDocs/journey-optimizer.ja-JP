@@ -8,9 +8,9 @@ description: 新しいジャーニーのインターフェイス
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 1%
 
 * A **ジャーニーキャンバスの再設計** 最新化された UI エクスペリエンス用に作成
 * A **ライブレポート** ジャーニーキャンバスで直接使用可能な UI
+
+>[!AVAILABILITY]
+>
+>この機能のロールアウトはプログレッシブになります。 すぐに変更が表示されない場合があります。
 
 ## ジャーニーモデルの更新
 
@@ -74,20 +78,28 @@ v1 のすべてのジャーニーは v1 にとどまります。 引き続き編
 
 ## ジャーニーキャンバスのライブレポート
 
-ジャーニーキャンバスデザインの改善に加えて、以下を確認できる機能を導入します。 **過去 24 時間のレポート指標** （ライブレポートと呼ばれます）ジャーニーキャンバス内で直接作成します。
+ジャーニーキャンバスデザインの改善に加えて、以下を確認できる機能を導入します。 **各アクティビティ**、そのアクティビティに入ったプロファイルの数とエラーが原因で終了した数：
+
+<!--
+**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
 
 ![](assets/new-canvas6.png)
 
-新しいモデルのライブジャーニーごとに、次の 2 種類の「過去 24 時間」レポート情報を確認できます。
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
-* 次の日 **新しい挿入**&#x200B;には、以下が表示されます。
-   * オーディエンストリガージャーニー用に書き出されたプロファイルの数。 前回の書き出しジョブで使用できるプロファイルの数と、その書き出しが行われた時刻が表示されます。
-   * ジャーニーから退出したプロファイルの数
-   * エラーの割合
-     ![](assets/new-canvas7.png)
-* **各アクティビティ**に、そのアクティビティに入ったプロファイルの数と、エラーが原因で終了した数が表示されます。
-  ![](assets/new-canvas8.png)
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+-->
+
+![](assets/new-canvas8.png)
 
 ユーザーインターフェイスは、1 分ごとに自動的に更新されます。
 
-書き出されたプロファイルの数と、ジャーニーを進むプロファイルの数に違いが生じる場合があることに注意してください。 書き出されたプロファイル数は、最後に行われた書き出しジョブに関する情報のみを提供します。一方、アクティビティに入力したプロファイル数は、過去 24 時間に入力したプロファイルのみを含みます。 2 日間にデータが重複する可能性があるので、これは特に、繰り返し発生する毎日のジャーニーで表示できます。
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
