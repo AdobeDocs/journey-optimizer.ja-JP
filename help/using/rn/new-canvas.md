@@ -8,7 +8,7 @@ description: 新しいジャーニーのインターフェイス
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
+source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 1%
@@ -26,7 +26,8 @@ ht-degree: 1%
 
 を開発しました **簡略化されたジャーニーモデル** 社内プロセスの改善を目指します。 この新しいモデルはバックエンドの改善点ですが、アドビのチームは、Journey Optimizerのユーザーから見えて有益な機能を追加する機会を得ました。
 
-A **ジャーニーキャンバスの再設計** ui エクスペリエンスを最新化するために作成 **ライブレポート** ジャーニーキャンバスで直接使用可能な UI
+* A **ジャーニーキャンバスの再設計** 最新化された UI エクスペリエンス用に作成
+* A **ライブレポート** ジャーニーキャンバスで直接使用可能な UI
 
 ## ジャーニーモデルの更新
 
