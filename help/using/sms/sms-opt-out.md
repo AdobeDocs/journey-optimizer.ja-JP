@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,7 @@ Infobip を使用する場合は、転送アクションがプル設定に指定
 
 ## ブロックリスト {#sms-blocklists}
 
-Adobe Journey Optimizer 側でオプトアウトステータスに基づいて送信を停止する（Twilio や Sinch との直接統合の場合）だけでなく、ほとんどの SMS ゲートウェイプロバイダーもブロックリストを維持管理しており、オプトアウトを選択した個人に SMS メッセージが配信されないようにしています。Sinch または Twilio 以外のプロバイダーを使用していて、[カスタムチャネル](../building-journeys/using-custom-actions.md)経由で SMS を送信している場合は、この点をプロバイダーに確認する必要があります。
+Adobe Journey Optimizerがオプトアウトステータスに基づいて送信を停止する（Twilio、Infobip または Sinch との直接統合の場合）ことに加えて、ほとんどの SMS ゲートウェイプロバイダーはオプトアウトを選択した個人に SMS メッセージが配信されないようにするためのブロックリストも維持します。 Sinch または Twilio 以外のプロバイダーを使用していて、[カスタムチャネル](../building-journeys/using-custom-actions.md)経由で SMS を送信している場合は、この点をプロバイダーに確認する必要があります。
 
 
 ## ショートコード {#short-codes}
