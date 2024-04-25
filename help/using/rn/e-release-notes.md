@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
+source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 41%
+source-wordcount: '513'
+ht-degree: 43%
 
 ---
 
@@ -140,11 +140,6 @@ ht-degree: 41%
 ### 機能強化 {#e-improvements}
 
 このリリースでは、以下に示す機能強化が含まれています。
-
-**オーディエンス**
-
-* Healthcare Shield およびプライバシーとセキュリティシールドで、オーディエンスコンポジションのオーディエンスと属性を使用できるようになりました。
-* Healthcare Shield およびプライバシーとセキュリティシールドで、カスタムアップロード（CSV ファイル）を使用できるようになりました。
 
 <!--
 * **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
