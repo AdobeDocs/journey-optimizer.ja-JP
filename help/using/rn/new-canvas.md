@@ -8,9 +8,9 @@ description: 新しいジャーニーのインターフェイス
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Journey Optimizerでは、を提供するようになりました **簡略化さ
 
 アクティビティは、次の機能を持つ四角いボックスで表されるようになりました。
 
-* アクティビティタイプを表す最初の行。よりコンテキストに基づく情報（例：オーディエンスを読み取り時、選択したオーディエンスの名前を含む）によって、またはカスタムラベル（定義する場合）によって上書きされることもよくあります。
+* アクティビティタイプを表す最初の行。多くの場合、よりコンテキストに沿った情報（オーディエンスを読み取り時には、選択したオーディエンスの名前を含みます）や、カスタムラベル（定義した場合）で上書きされます。
 * 2 行目は常にアクティビティタイプを表しています。
 
 ![](assets/new-canvas4.png)
