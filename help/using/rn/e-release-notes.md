@@ -6,10 +6,10 @@ description: Journey Optimizer 早期リリースノート
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: f133a33237fccacbf800de445c27684de4f42453
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 44%
+source-wordcount: '478'
+ht-degree: 43%
 
 ---
 
@@ -166,7 +166,6 @@ ht-degree: 44%
 
 * 次を使用して、決定ルールでAdobe Experience Platformのコンテキストデータを活用できるようになりました **コンテキストデータ** タブ。
 * 意思決定管理リソースで、新しい「エクスペリエンス決定の管理」権限が使用できるようになりました。 Experience Decisioning に関連する権限を管理できます。
-* 1 つのオファーに対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを向上させることができます。
 * Experience Decisioning で特定の決定項目に対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを向上させることができます。
 * を使用して、Experience Decisioning キャンペーンのカスタムレポートダッシュボードを作成できるようになりました [!DNL Customer Journey Analytics].
 
