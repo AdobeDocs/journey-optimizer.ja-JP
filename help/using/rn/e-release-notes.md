@@ -6,10 +6,10 @@ description: Journey Optimizer 早期リリースノート
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1505c21bb66cb08d6f0d864aa92afb3a04ed3fa5
+source-git-commit: b64cb709813c479b2f126ba61a5fddaef61eecdd
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 56%
+source-wordcount: '275'
+ht-degree: 57%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 56%
 <img src="assets/new-canvas3.gif"/>
 <p>ジャーニーキャンバスデザインの改善に加えて、過去 24 時間のレポート指標をジャーニーキャンバスで直接確認できる機能を導入します。 </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>注意</strong>：この変更は徐々にロールアウトされます。 お使いの環境で変更がすぐに表示されない場合があります。</p>
+<p><strong>注意</strong>：これらの変更は、4 月のリリース以降、すべての環境に徐々にロールアウトされます。</p>
 <p>詳しくは、 <a href="new-canvas.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
