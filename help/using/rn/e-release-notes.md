@@ -6,10 +6,10 @@ description: Journey Optimizer 早期リリースノート
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f133a33237fccacbf800de445c27684de4f42453
+source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 43%
+source-wordcount: '261'
+ht-degree: 60%
 
 ---
 
@@ -42,22 +42,22 @@ ht-degree: 43%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Experience Decisioning – 限定提供</strong><br/></th>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。</p>
-<p>これらの決定項目は、新しいコードベースのエクスペリエンスチャネルを通じて様々なインバウンドサーフェスにシームレスに統合され、Journey Optimizer キャンペーン内でアクセスできるようになりました。 エクスペリエンス決定決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
-<p>Experience Decisioning は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセス権を取得するには、Adobe担当者にお問い合わせください。</p>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -85,6 +85,25 @@ ht-degree: 43%
 <td>
 <p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。当初は Sinch でのみ利用可能でしたが、MMS は Infobip と Twilio でも利用可能になりました。</p>
 <img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーデザイナーとライブレポートの改善</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>このリリースでは、ジャーニーのキャンバスユーザーインターフェイスが改善され、より直感的で効率的なユーザーエクスペリエンスが提供されます。 アクティビティは、クリック数を減らすことで、ジャーニーキャンバスをより明確に表示し、より多くの情報を提供します。</p>
+<img src="assets/new-canvas3.gif"/>
+<p>ジャーニーキャンバスデザインの改善に加えて、過去 24 時間のレポート指標をジャーニーキャンバスで直接確認できる機能を導入します。 </p>
+<img src="assets/new-canvas6bis.png"/>
+<p>詳しくは、 <a href="new-canvas.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -156,27 +175,22 @@ ht-degree: 43%
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-**意思決定管理**
+<!--
+**Decision management** 
 
-* この **変更ログ** タブを使用すると、オファーまたは決定に加えられたすべての変更が表示されます。 オファーと決定に関連する変更がに表示されるようになりました **監査** メニュー。
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
-**エクスペリエンス決定**
+**Experience decisionning**
 
-ベータ版から LA 版に、次の機能強化が追加されました。
+From beta to LA, the following improvements that have been added:
 
-* 次を使用して、決定ルールでAdobe Experience Platformのコンテキストデータを活用できるようになりました **コンテキストデータ** タブ。
-* 意思決定管理リソースで、新しい「エクスペリエンス決定の管理」権限が使用できるようになりました。 Experience Decisioning に関連する権限を管理できます。
-* Experience Decisioning で特定の決定項目に対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを向上させることができます。
-* を使用して、Experience Decisioning キャンペーンのカスタムレポートダッシュボードを作成できるようになりました [!DNL Customer Journey Analytics].
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-**ジャーニー**
 
-* **ジャーニーデザイナーの改善**
-
-   * キャンバス UI が改善され、より直感的で効率的なユーザーエクスペリエンスが提供されるようになりました。
-   * アクティビティは、クリック数を減らすことで、ジャーニーキャンバスをより明確に表示し、より多くの情報を提供します。
-
-* **新しいライブレポート**：過去 24 時間のジャーニーレポートにジャーニーキャンバスで直接アクセスできるようになりました。
 
 **設定**
 
