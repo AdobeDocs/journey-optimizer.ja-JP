@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -33,15 +33,12 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >
 >現在、Experience Decisioning 機能は、ベータ版として一部のユーザーのみが利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+>
+>決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
 
 Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
 これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
-
-**制限事項:**
-
-* 決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
-* 現時点では、Experience Decisioning ではフリークエンシーキャップを使用できません。
 
 ## Experience Decisioning の主な手順 {#steps}
 
