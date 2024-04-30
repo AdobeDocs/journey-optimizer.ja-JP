@@ -3,29 +3,24 @@ solution: Journey Optimizer
 product: journey optimizer
 title: リリースノート
 description: Journey Optimizer 早期リリースノート
-feature: Release Notes
-topic: Content Management
-exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-hide: true
-hidefromtoc: true
 source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 69%
+source-wordcount: '315'
+ht-degree: 73%
 
 ---
 
-# 早期リリースノート {#e-release-notes}
+# 早期リリースノート {#early-release-notes}
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。[リリースノート](release-notes.md)では、各月の終わりにすべての変更がまとめられます。
 
 以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2024年4月先行リリースノート {#e-2024}
+## 2024年4月先行リリースノート {#early-2024}
 
 **リリース日**: 2024 年 5 月 2 日（PT）
 
-### 新機能 {#e-features}
+### 新機能 {#early-features}
 
 このリリースでは、以下に示す新機能が導入されています。
 
@@ -157,7 +152,7 @@ ht-degree: 69%
 </tbody>
 </table-->
 
-### 機能強化 {#e-improvements}
+### 機能強化 {#early-improvements}
 
 このリリースでは、以下に示す機能強化が含まれています。
 
@@ -179,9 +174,7 @@ ht-degree: 69%
 -->
 
 <!--
-**Decision management** 
 
-* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
 **Experience decisionning**
 
@@ -193,6 +186,9 @@ From beta to LA, the following improvements that have been added:
 * You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
 -->
 
+**意思決定管理**
+
+* オファーまたは決定に対して行われたすべての変更を表示できる「**変更ログ**」タブを削除しました。オファーと決定に関連する変更は、**監査**&#x200B;メニューで確認できるようになりました。
 
 
 **設定**
