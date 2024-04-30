@@ -506,8 +506,8 @@ ht-degree: 99%
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ エクスペリエンス判定 {#experience-decisioning}
-   + [Experience Decisioning の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
++ エクスペリエンス決定 {#experience-decisioning}
+   + [エクスペリエンス決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
    + 決定項目の管理 {#decision-items}
       + [項目カタログの設定](using/experience-decisioning/catalogs.md)
       + [決定項目の作成](using/experience-decisioning/items.md)
