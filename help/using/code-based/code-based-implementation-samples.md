@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 87%
 
 ## クライアントサイドの実装 {#client-side-implementation}
 
-クライアントサイド実装がある場合、AEP クライアント SDK として AEP Web SDK または AEP Mobile SDK のいずれかを使用できます。
+クライアントサイドの実装がある場合、AEP Web SDK または AEP Mobile SDK のいずれかの AEP クライアント SDK を使用できます。
 
-* 手順 [下](#client-side-how) コードベースのエクスペリエンスキャンペーンでエッジに公開されたコンテンツを取得するプロセスをサンプルで説明します **Web SDK** パーソナライズされたコンテンツの実装と表示。
+* [以下](#client-side-how)の手順では、サンプル **Web SDK** 実装のコードベースのエクスペリエンスキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
-* を使用してコードベースのチャネルを実装する手順 **Mobile SDK** については、を参照してください。 [このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* **Mobile SDK** を使用してコードベースのチャネルを実装する手順について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}を参照してください。
 
   >[!NOTE]
   >
-  >モバイルユースケースのサンプル実装は、次の場合に使用できます [iOS アプリ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >モバイルユースケースのサンプル実装は、[iOS アプリ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}で利用できます。
 
 ### 仕組み – Web SDK {#client-side-how}
 
@@ -138,7 +138,7 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 
 ## サーバーサイド実装 {#server-side-implementation}
 
-サーバーサイド実装がある場合は、1 つの AEP Edge Network API を使用できます。
+サーバーサイド実装がある場合は、いずれかの AEP Edge Network API を使用できます。
 
 次の手順では、web ページのサンプルの Edge Network API 実装で、コードベースのエクスペリエンスキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 

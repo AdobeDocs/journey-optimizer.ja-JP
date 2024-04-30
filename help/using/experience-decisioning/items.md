@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* [エクスペリエンス決定の基本を学ぶ](gs-experience-decisioning.md)
 * 決定項目の管理：[項目カタログの設定](catalogs.md) - **[決定項目の作成](items.md)** - [項目コレクションの管理](collections.md)
 * 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
@@ -60,14 +60,14 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 決定項目を作成するには、次の手順に従います。
 
-1. **[!UICONTROL Experience Decisioning]**／**[!UICONTROL 項目]**&#x200B;に移動します。
+1. **[!UICONTROL エクスペリエンス決定]**／**[!UICONTROL 項目]**&#x200B;に移動します。
 
 1. 決定項目の標準属性を定義します。
 
    1. 名前と説明を入力します。
    1. 開始日と終了日を指定します。項目は、これらの日付内の決定エンジンによってのみ検討されます。
    1. プロファイルが複数の項目に該当する場合は、他の決定項目と比較した決定項目の「**[!UICONTROL 優先度]**」を設定します。優先度が高いと、その項目は他の項目よりも優先されます。
-   1. この **タグ** フィールドでは、Adobe Experience Platform統合タグを決定項目に割り当てることができます。 これにより、アセットを簡単に分類し、検索を改善できます。 [タグの操作方法については、こちらを参照してください](../start/search-filter-categorize.md#tags)
+   1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。これにより、簡単に分類し、検索を改善できます。[タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 

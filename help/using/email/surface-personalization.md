@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メールサーフェス設定のパーソナライズ
-description: メールチャネルサーフェスレベルで設定のパーソナライズされた値を定義する方法を説明します
+description: メールのチャネルサーフェスレベルで設定のパーソナライズされた値を定義する方法について説明します。
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 >id="ajo_surface_dynamic_subdomain_list"
 >title="一部のサブドメインは使用できない場合があります"
 >abstract="フィードバックループ登録が保留になっているので、特定のサブドメインは現在選択できません。この処理には、最大 10 営業日かかる場合があります。完了したら、使用可能なすべてのサブドメインから選択できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="サブドメインデリゲーションの基本を学ぶ"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="サブドメインデリゲーションの基本を学ぶ"
 
 メールサーフェスを作成する際に、特定の条件に基づいて動的サブドメインを設定できます。
 
