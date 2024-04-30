@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="ベータ版"
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 まず、項目を作成してコレクションにグループ化し、ルールとランキング方法を設定する必要があります。これらの要素を使用すると、選択戦略を作成できます。
 
-1. **[!UICONTROL Experience Decisioning]**／**[!UICONTROL 項目]**&#x200B;に移動し、いくつかのオファー項目を作成します。オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
+1. に移動します。 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL カタログ]** およびいくつかのオファー項目を作成します。 オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

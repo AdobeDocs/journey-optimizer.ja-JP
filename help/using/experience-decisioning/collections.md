@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* [エクスペリエンス決定の基本を学ぶ](gs-experience-decisioning.md)
 * 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - **[項目コレクションの管理](collections.md)**
 * 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
@@ -47,11 +47,11 @@ ht-degree: 100%
 
 例えば、決定項目のカタログスキーマに「カテゴリ」カスタム属性を追加したとします。これにより、「カテゴリ」属性に「ヨガ」の値を持つすべての決定項目を含むコレクションを作成できます。
 
-コレクションのリストには、**[!UICONTROL 項目]**&#x200B;メニューからアクセスします。
+コレクションのリストには、からアクセスできます **[!UICONTROL カタログ]** メニュー。
 
 コレクションを作成するには、次の手順に従います。
 
-1. **[!UICONTROL 項目]**／**[!UICONTROL コレクション]**&#x200B;に移動して、「**[!UICONTROL コレクションを作成]**」をクリックします。
+1. に移動します。 **[!UICONTROL カタログ]** > **[!UICONTROL コレクション]** をクリックして、 **[!UICONTROL コレクションを作成]**.
 1. コレクションの名前と説明を入力します。
 1. 1 つまたは複数のルールを追加して、コレクションに含める項目を決定します。その手順は次のとおりです。
 

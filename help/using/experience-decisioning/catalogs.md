@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* [エクスペリエンス決定の基本を学ぶ](gs-experience-decisioning.md)
 * 決定項目の管理：**[項目カタログの設定](catalogs.md)** - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
 * 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 エクスペリエンス判定では、カタログは、決定項目を整理するための中心的なコンテナとして機能します。各カタログは、決定項目に割り当て可能なすべての属性を含む、Adobe Experience Platform スキーマにリンクされます。
 
-現時点では、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合され、**[!UICONTROL 項目]**&#x200B;メニューからアクセスできます。
+現時点では、作成されたすべての決定項目は、からアクセスできる単一の「オファー」カタログ内に統合されます **[!UICONTROL カタログ]** メニュー。
 
 ![](assets/catalogs-list.png)
 

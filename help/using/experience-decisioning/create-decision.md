@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 89%
+source-wordcount: '1444'
+ht-degree: 88%
 
 ---
 
@@ -89,7 +89,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
    >
    >少なくとも 1 つの戦略が必要です。10 個以上の戦略を追加することはできません。
 
-1. **[!UICONTROL 戦略を追加]**&#x200B;画面から、戦略を作成することもできます。「**[!UICONTROL 選択戦略を作成]**」ボタンをクリックすると、**[!UICONTROL Experience Decisioning]**／**[!UICONTROL 設定]**&#x200B;メニューにリダイレクトされます。[詳細情報](selection-strategies.md)
+1. **[!UICONTROL 戦略を追加]**&#x200B;画面から、戦略を作成することもできます。この **[!UICONTROL 選択戦略を作成]** ボタンをクリックすると、にリダイレクトされます **[!UICONTROL Experience decisioning]** > **[!UICONTROL 戦略の設定]** メニュー。 [詳細情報](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
