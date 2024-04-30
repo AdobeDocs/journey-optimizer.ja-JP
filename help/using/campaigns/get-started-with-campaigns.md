@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 79%
 
 ---
 
@@ -46,29 +46,19 @@ Journey Optimizer キャンペーンを使用すると、様々なチャネル�
 
 Journey Optimizer で最初のキャンペーンの作成を開始する前に、次の前提条件を確認してください。
 
-1. **適切な権限が必要です**。キャンペーンは、Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど、キャンペーンに関係する&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。
+1. **適切な権限が必要です**。キャンペーンは、関連するキャンペーンへのアクセス権を持つユーザーのみが使用できます **[!UICONTROL 製品プロファイル]** campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど。キャンペーンにアクセスできない場合は、権限を拡張する必要があります。
 
-   キャンペーンにアクセスできない場合は、権限を拡張する必要があります。組織の [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} へのアクセス権を持っている場合は、次の手順に従います。そうでない場合は、Journey Optimizer 管理者に問い合わせてください。
+   +++キャンペーン関連の役割を割り当てる方法を学ぶ
 
-   キャンペーン権限の割り当て方法を説明します
+   1. でユーザーに役割を割り当てるには [!DNL Permissions] 製品、に移動します **[!UICONTROL 役割]** タブをクリックして、関連する組み込みキャンペーンのいずれかを選択します **[!UICONTROL 役割]**:Campaign 管理者、Campaign 承認者、Campaign マネージャーまたは Campaign ビューア。
 
-   対応する&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;をユーザーに割り当てるには、次の手順を実行します。
+   1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
-   1. [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} で、[!DNL Adobe Experience Platform] 製品を選択します。
+   1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-   1. 「**[!UICONTROL 製品プロファイル]**」タブを参照し、組み込みのキャンペーン関連の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;である Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアのいずれかを選択します。
+      ユーザーがまだ作成されていない場合は、を参照してください。 [ユーザー追加ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-      Journey Optimizer キャンペーンの&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;と&#x200B;**[!UICONTROL 権限]**&#x200B;について詳しくは、[こちらのページを参照してください](../administration/ootb-product-profiles.md)。
-
-      ![](assets/do-not-localize/admin_1.png)
-
-   1. 「**[!UICONTROL ユーザーを追加]**」をクリックし、選択した&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;をユーザーに割り当てます。
-
-      ![](assets/do-not-localize/admin_2.png)
-
-   1. ユーザーの名前、グループまたはメールアドレスを入力し、「**[!UICONTROL 保存]**」をクリックします。
-
-   これで、ユーザーが&#x200B;**[!UICONTROL キャンペーン]**&#x200B;にアクセスできるようになりました。
+   これにより、ユーザーをインスタンスへリダイレクトするメールが、ユーザーに送られます。
 
 +++
 

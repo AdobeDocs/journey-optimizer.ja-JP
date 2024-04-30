@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 83%
 
 ---
 
@@ -43,6 +43,28 @@ Experience Decisioning は、「決定項目」と呼ばれるマーケティン
 ## Experience Decisioning の主な手順 {#steps}
 
 Experience Decisioning を操作する主な手順は次のとおりです。
+
+1. **適切な権限の割り当て**. 決定は、Experience Decisioning 関連のアクセス権を持つユーザーのみが使用できます **[!UICONTROL 役割]** 意思決定管理者など。 決定にアクセスできない場合は、権限を拡張する必要があります。
+
+   +++決定マネージャーの役割の割り当て方法を学ぶ
+
+   1. でユーザーに役割を割り当てるには [!DNL Permissions] 製品、に移動します **[!UICONTROL 役割]** タブをクリックして、「決定マネージャー」を選択します。
+
+      ![](assets/decision_permission_1.png)
+
+   1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
+
+      ![](assets/decision_permission_2.png)
+
+   1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
+
+      ユーザーがまだ作成されていない場合は、を参照してください。 [ユーザー追加ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+      ![](assets/decision_permission_3.png)
+
+   これにより、ユーザーをインスタンスへリダイレクトするメールが、ユーザーに送られます。
+
++++
 
 1. **カスタム属性の設定**：カスタム属性をカタログのスキーマに設定して、決定項目のカタログを特定の要件に合わせます。
 
