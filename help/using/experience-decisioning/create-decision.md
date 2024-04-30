@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1443'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
 
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
+* [エクスペリエンス決定の基本を学ぶ](gs-experience-decisioning.md)
 * 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
 * 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
 * [選択戦略の作成](selection-strategies.md)
@@ -209,3 +209,15 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 1. また、式エディターで使用できる他の属性（プロファイル属性など）を追加することもできます。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+## Customer Journey Analyticsでのレポート {#cja}
+
+Customer Journey Analyticsを使用している場合は、Experience Decisioning を活用したコードベースのキャンペーン用のカスタムレポートダッシュボードを作成できます。
+
+主な手順は次のとおりです。 Customer Journey Analyticsの操作方法について詳しくは、を参照してください [Customer Journey Analyticsドキュメント](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+
+1. の作成と設定 **接続** Customer Journey Analyticsで。 これにより、レポートが必要なデータセットに接続できます。 [接続の作成方法を学ぶ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+
+1. を作成 **データビュー** 前に作成した接続に関連付けます。 が含まれる **[!UICONTROL Components]** タブをクリックし、レポートに表示する関連スキーマフィールドを選択します。 Experience Decisioning の場合、次を必ず含めてください **propositioninteract** および **propositiondisplay** フィールド。 [データビューの作成および設定方法を学ぶ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+
+1. でのデータコンポーネント、テーブルおよびビジュアライゼーションの組み合わせ **ワークスペースプロジェクト** コードベースのキャンペーンのレポートを作成および共有する方法を説明します。[ワークスペースプロジェクトの作成方法を学ぶ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
