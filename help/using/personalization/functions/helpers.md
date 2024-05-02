@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 `each` ヘルパーを使用して、配列に対して反復処理を行います。
 ヘルパーの構文は ```{{#each ArrayName}}``` YourContent {{/each}} です。
-個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、{{@index}} を使用してレンダリングできます。
+個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、次を使用してレンダリングできます {{@index}}.
 
 **構文**
 
@@ -205,5 +205,11 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 次の例では、合計が $100 以上 $1,000 未満のトランザクションで、すべての製品合計を米ドルで示します。
 
 ```sql
-{% let variable = expression %} {{variable}}
+{% let sum = 0%}
+    {{#each profile.productsInCart as |p|}}
+        {%#if p.price>100 and p.price<1000%}
+            {%let sum = sum + p.price %}
+        {%/if%}
+    {{/each}}
+{{sum}}
 ```
