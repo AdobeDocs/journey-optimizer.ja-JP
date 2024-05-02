@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 96%
+source-wordcount: '362'
+ht-degree: 90%
 
 ---
 
@@ -202,7 +202,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 **例**
 
-次の例では、合計が $100 以上 $1,000 未満のトランザクションで、すべての製品合計を米ドルで示します。
+次の例では、買い物かご内の価格が 100 ～ 1000 の商品の合計価格を計算できます。
 
 ```sql
 {% let sum = 0%}
