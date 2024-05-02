@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 100%
+source-wordcount: '1872'
+ht-degree: 99%
 
 ---
 
@@ -171,6 +171,9 @@ ht-degree: 100%
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">16 進文字列に</a></td><td>任意の数を 16 進数文字列に変換します。</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">ToInt</a></td><td>これらの型（number、double、int、long、float、short、byte、boolean、string）のいずれかを整数に変換します。</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">パーセンテージに</a></td><td>この関数は、数値をパーセンテージに変換します。</td>

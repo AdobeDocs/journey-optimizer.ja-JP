@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 98%
 
 ---
@@ -47,15 +47,15 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 | フィールド | 値 |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| パス | `The id of marketingCampaign + '/messages'` |
+| パス | `The _id + '/messages'` |
 
 連結された URL の形式は次のとおりです。
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;キャンペーン ID\>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
-### ヘッダーとクエリのパラメーター {#headers}
+### ヘッダーとクエリパラメーター {#headers}
 
 「**[!UICONTROL URL の設定]**」セクションには、動的ヘッダーフィールドとクエリパラメーターフィールドが表示されますが、定数フィールドは表示されません。動的ヘッダーおよびクエリパラメーターのフィールドは、アクション設定画面で変数として定義されます。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 100%
+source-wordcount: '1450'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
    >[!NOTE]
    >
-   >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
+   >英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。
 
 1. アクションに説明を追加します。この手順はオプションです。
 1. このアクションを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このアクションを使用するジャーニーのリストを表示できます。

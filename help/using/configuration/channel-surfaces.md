@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 100%
+source-wordcount: '1738'
+ht-degree: 95%
 
 ---
 
@@ -68,6 +68,8 @@ ht-degree: 100%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
+1. カスタムまたはコアのデータ使用ラベルをサーフェスに割り当てるには、次のオプションを選択します **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
+
 1. **[!UICONTROL メール]**&#x200B;チャネルを選択した場合は、[この節](../email/email-settings.md)の説明に従って設定を行ってください。
 
    ![](assets/preset-email.png)
@@ -80,7 +82,7 @@ ht-degree: 100%
    >
    >プッシュ通知を送信するための環境の設定方法について詳しくは、[この節](../push/push-gs.md)を参照してください。
 
-1. **[!UICONTROL SMS]** チャネルの場合は、[この節](../sms/sms-configuration.md#message-preset-sms)の説明に従って設定を定義します。
+1. **[!UICONTROL SMS]** チャネルの場合は、[この節](../sms/sms-configuration.md)の説明に従って設定を定義します。
 
    ![](assets/preset-sms.png)
 
@@ -88,18 +90,17 @@ ht-degree: 100%
    >
    >SMS メッセージを送信するための環境の設定方法について詳しくは、[この節](../sms/sms-configuration.md)を参照してください。
 
-<!--
-1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+1. を選択 **[!UICONTROL マーケティングアクション]** このサーフェスを使用してメッセージに同意ポリシーを関連付けます。 そのマーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
-    >[!NOTE]
-    >
-    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+   >[!NOTE]
+   >
+   >同意ポリシーは現在、を購入した組織でのみ利用できます **ヘルスケアシールド** および **プライバシーとセキュリティシールド** アドオン製品
 
-    ![](assets/surface-marketing-action.png)
+   ![](assets/surface-marketing-action.png)
 
-    >[!NOTE]
-    >
-    >You can only select one marketing action.-->
+   >[!NOTE]
+   >
+   >選択できるマーケティングアクションは 1 つだけです。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
 

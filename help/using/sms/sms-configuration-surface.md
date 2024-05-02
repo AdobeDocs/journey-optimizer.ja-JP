@@ -1,0 +1,90 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: SMS サーフェスの設定
+description: Journey Optimizerでテキストメッセージを送信するように SMS/MMS サーフェスを設定する方法について説明します
+feature: SMS, Channel Configuration
+role: Admin
+level: Intermediate
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '479'
+ht-degree: 89%
+
+---
+
+# SMS/MMS サーフェスの作成 {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="メッセージカテゴリの定義"
+>abstract="このサーフェスを使用するテキストメッセージのタイプを選択します（ユーザーの同意が必要なプロモーションメッセージの場合は「マーケティング」、パスワードリセットなどの非商用メッセージの場合は「トランザクション」）。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティングテキストメッセージのオプトアウト"
+
+SMS/MMS チャネルを設定したら、から SMS および MMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります **[!DNL Journey Optimizer]**.
+
+チャネルサーフェスを作成するには、次の手順に従います。
+
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL ブランディング]**／**[!UICONTROL チャネルサーフェス]**&#x200B;を選択します。「**[!UICONTROL チャネルサーフェスを作成]**」ボタンをクリックします。
+
+   ![](assets/preset-create.png)
+
+1. サーフェスの名前と説明（オプション）を入力し、SMS チャネルを選択します。
+
+   ![](assets/sms-create-surface.png)
+
+   >[!NOTE]
+   >
+   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+
+1. **SMS 設定**&#x200B;を定義します。
+
+   ![](assets/sms-surface-settings.png)
+
+   サーフェスを使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択することから開始します。
+
+   * プロモーションテキストメッセージの場合は、「**マーケティング**」を選択します。これらのメッセージにはユーザーの同意が必要です。
+   * 注文確認、パスワードリセット通知、配信情報などの非商用メッセージの場合は、「**トランザクション**」を選択します。
+
+   SMS／MMS の作成時に、選択したメッセージカテゴリに一致する有効なチャネルサーフェスを選択する必要があります。
+
+   >[!CAUTION]
+   >
+   >**トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
+
+1. **[!UICONTROL SMS 設定]**&#x200B;を選択し、サーフェスと関連付けます。
+
+   SMS メッセージを送信する環境の設定方法については、[この節](#create-api)を参照してください。
+
+1. コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
+
+1. 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
+
+1. SMS メッセージで URL 短縮機能を使用する場合は、**[!UICONTROL サブドメイン]**&#x200B;リストから項目を選択します。
+
+   >[!NOTE]
+   >
+   >サブドメインを選択するには、1 つ以上の SMS／MMS サブドメインを事前に設定していることを確認してください。[方法についてはこちらを参照](sms-subdomains.md)
+
+1. このサーフェスにを使用する&#x200B;**[!UICONTROL オプトアウト番号]**&#x200B;を入力します。この番号からオプトアウトしたプロファイルは、[!DNL Journey Optimizer] でテキストメッセージを送信する際に使用している他の番号からも、引き続きメッセージを送信できます。
+
+   >[!NOTE]
+   >
+   >[!DNL Journey Optimizer] の場合、テキストメッセージのオプトアウトはチャネルレベルで管理されなくなりました。現在は、数値に固有です。
+
+1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネルサーフェスをドラフトとして保存し、後で設定を再開することもできます。
+
+   ![](assets/sms-submit-surface.png)
+
+1. チャネルサーフェスが作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
+
+   >[!NOTE]
+   >
+   >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-channel-surfaces)を参照してください。
+
+1. チェックが正常に完了すると、チャネルサーフェスのステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
+
+   ![](assets/preset-active.png)
+
+これで、Journey Optimizer でテキストメッセージを送信する準備が整いました。
+

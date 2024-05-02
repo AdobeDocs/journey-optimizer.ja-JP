@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 86%
 
 ---
 
@@ -95,6 +95,24 @@ ht-degree: 100%
 
 ```sql
 {%= toHexString(158) %}
+```
+
+## Int に {#to-int}
+
+この `toInt` 関数は、これらの型（number、double、int、long、float、short、byte、boolean、string）のいずれかを整数に変換するために使用されます。
+
+**構文**
+
+```sql
+{%= toInt(<valueToConvert>) %}: integer
+```
+
+**例**
+
+このクエリは、42,6 （42）の整数値を返します。
+
+```sql
+{%= toInt(42.6) %}: integer
 ```
 
 ## パーセンテージに {#to-percentage}

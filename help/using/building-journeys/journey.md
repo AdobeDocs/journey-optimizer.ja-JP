@@ -8,8 +8,8 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -96,8 +96,6 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
    >新しいバージョンは、ジャーニーの最新バージョンからのみ作成できます。
 
 1. 変更を加え、「**[!UICONTROL 公開]**」をクリックして確認します。
-
-   ![](assets/journeyversions3.png)
 
 ジャーニーが公開された時点から、最新版ジャーニーに個人利用者がエントリし始めます。既に前のバージョンにエントリしている人物は、ジャーニーが終了するまで古いバージョンを継続します。後で同じジャーニーに再度エントリする場合は、最新バージョンに移行します。
 

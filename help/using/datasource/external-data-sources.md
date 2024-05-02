@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 100%
+source-wordcount: '1531'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ API 呼び出しの例を 2 つ示します。
 
    >[!NOTE]
    >
-   >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
+   >英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。
 
 1. データソースに説明を追加します。この手順はオプションです。
 1. 外部サービスの URL を追加します。この例では、_https://api.adobeweather.org/weather_ です。
@@ -87,7 +87,7 @@ API 呼び出しの例を 2 つ示します。
 
    ![](assets/journey28.png)
 
-1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを作成します。フィールドグループ名にはスペースや特殊文字を使用しないでください。この例では、パラメーターセット（city と longlat）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
+1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを作成します。フィールドグループ名には、英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。 この例では、パラメーターセット（city と longlat）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
 
 「longlat」パラメーターセットに対して、次の情報を持つフィールドグループを作成します。
 

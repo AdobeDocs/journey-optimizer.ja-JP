@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 100%
+source-wordcount: '1177'
+ht-degree: 99%
 
 ---
 
@@ -104,6 +104,10 @@ ht-degree: 100%
 >title="送信時間の最適化について"
 >abstract="Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サービスを利用）は、メールまたはプッシュメッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。"
 
+>[!NOTE]
+>
+>この機能は、デフォルトでは有効になっていません。Adobe担当者に連絡して、有効にすることができます。
+
 ### 送信時間の最適化について {#about-send-time}
 
 Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サービスを利用）は、メールまたはプッシュメッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。機械学習モデルを使用して、ユーザーごとにパーソナライズされた送信時間をスケジュールし、メッセージの開封率やクリック率を高めます。
@@ -120,10 +124,6 @@ Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サー�
 * スコアリング - トレーニング済みモデルに基づく個々のプロファイルへのスコアの適用
 
 この情報はユーザーのプロファイルと共に保存され、ジャーニーの実行時に参照されて、メッセージを送信するタイミングを Adobe Journey Optimizer に指示します。
-
->[!CAUTION]
->
->この機能はバーストモードとは互換性がありません。
 
 ### よくある質問 {#faq-send-time}
 

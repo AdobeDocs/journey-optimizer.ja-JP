@@ -5,13 +5,11 @@ title: 新しいジャーニーのインターフェイス
 feature: Release Notes
 topic: Content Management
 description: 新しいジャーニーのインターフェイス
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -68,12 +66,12 @@ Journey Optimizerでは、を提供するようになりました **簡略化さ
 
 ![](assets/new-canvas5.png)
 
-
 ## ジャーニーキャンバスのライブレポート
 
 改善されたジャーニーキャンバスレイアウトに加えて、ユーザーがからリアルタイムレポート指標を表示できる新機能が導入されています。 **過去 24 時間**&#x200B;はライブレポートと呼ばれ、ジャーニーキャンバス内で直接作成されます。
 
 新しいモデルを使用するすべてのライブジャーニー内のアクティビティごとに、次の項目にアクセスできます。
+
 
 * このアクティビティに入るプロファイルの数。
 * エラーが原因でこのアクティビティを終了するプロファイルの数。

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: ht
-source-wordcount: '5140'
-ht-degree: 100%
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '5230'
+ht-degree: 98%
 
 ---
 
@@ -19,12 +19,21 @@ ht-degree: 100%
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
 
+## 2024年5月 {#may-2024}
+
+* に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] の 2024 年 4 月リリースについて詳しくは、このドキュメントを参照してください。 [詳細情報](release-notes.md)
+
+
 ## 2024年4月 {#april-2024}
 
 * アプリ内メッセージの設定手順を詳しく説明しました。[詳細情報](../in-app/inapp-configuration.md)
 * [オファー決定支援 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) および[バッチ決定支援 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) のドキュメントが更新されました。
 * Edge Decisioning API でフリークエンシーキャップを使用する場合のエッジおよびハブの地域管理に関する情報が、意思決定管理のドキュメントに追加されました。[詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 * API トリガーキャンペーンを操作する際の、カスタム名前空間を使用した ID 作成に関する情報が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md)
+* ジャーニーキャンバスの改善を反映するように、スクリーンショットを更新しました。
+* 命名制約が次のページで更新されました。 [単一イベントの設定](../event/about-creating.md), [ビジネスイベントの設定](../event/about-creating-business.md#gs-business-events), [カスタムアクションの設定](../action/about-custom-action-configuration.md#configuration-steps), [外部データソース](../datasource/external-data-sources.md)
+* 送信時間の最適化の可用性に関するメモが追加されました。 [詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
+* カスタムアクションを作成してデータをExperience Platformに送信する方法に関する新しい技術的なユースケースが追加されました。 [詳細情報](../building-journeys/custom-action-aep.md)
 
 ## 2024年3月 {#march-2024}
 
@@ -82,6 +91,7 @@ ht-degree: 100%
 * イベントフィールドの構文が更新されました。次の構文は、非推奨（廃止予定）の `@(my_event.myfield}` で、`@event{my_event.myfield}` に置き換えられます。[詳細情報](../building-journeys/expression/field-references.md)
 * グローバルレポートガイドとライブレポートガイドの構成が変更されました。[詳細情報](../reports/campaign-global-report.md)
 
++++ 2023年
 
 ## 2023年11月 {#nov-2023}
 
@@ -206,6 +216,8 @@ ht-degree: 100%
 * オブジェクトの配列を使用したルックアップの制限に関するメモが追加されました。[詳細情報](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer] のデータ管理に関する新しいページを追加しました。[詳細情報](../data/gs-data.md)
 * Decisioning API を使用してオファーを配信する際に、応答で返される可能性のあるすべてのコードをリストした表を追加しました。 [詳細情報](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++
 
 +++ 2022
 

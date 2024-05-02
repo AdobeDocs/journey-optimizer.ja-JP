@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 100%
+source-wordcount: '1605'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >スペースや特殊文字は使用しないでください。30 文字以内にしてください。
+   >英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。
 
 1. 「**[!UICONTROL タイプ]**」フィールドで「**単一**」を選択します。
 

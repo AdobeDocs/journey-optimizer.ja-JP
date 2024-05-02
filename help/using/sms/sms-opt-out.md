@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 90%
+source-wordcount: '467'
+ht-degree: 89%
 
 ---
 
@@ -59,14 +59,6 @@ Adobe Journey Optimizerがオプトアウトステータスに基づいて送信
 英数字の送信者 ID は一方向メッセージ専用であり、受信メッセージを受信できません。その結果、Adobe Journey Optimizer の SMS STOP、START、HELP のキーワードは、アルファ送信者 ID には適用されません。英数字の送信者 ID を介して送信されたメッセージをオプトアウトできるようにするために、サポートチームに手紙を書く、サポートの電話回線に電話する、または別の電話番号またはコードをテキストメッセージで送信するなど、他の手順を指定する必要があります。
 
 ## ビデオ {#video-sms}
-
-* 次のビデオでは、ネイティブの受信キーワードのサポート（START、STOP および UNSTOP）が SMS でどのように機能するかを示します。
-
-+++ こちらのビデオをご覧ください
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * 次のビデオは、SMS のダブルオプトインを設定する方法を学ぶのに役立ちます。
 

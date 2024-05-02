@@ -3,7 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: リリースノート
 description: Journey Optimizer 早期リリースノート
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+hide: true
+hidefromtoc: true
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 73%
@@ -195,4 +197,3 @@ From beta to LA, the following improvements that have been added:
 
 * チャネルサーフェスレベルでマーケティングアクションを選択できるようになりました。サーフェスで使用すると、顧客の環境設定に従うために、そのマーケティングアクションに関連付けられたすべての同意ポリシーが活用されます。
 * チャネルサーフェスでオブジェクトレベルのアクセス制御を使用できるようになりました。
-

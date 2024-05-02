@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 100%
+source-wordcount: '1536'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 テストモードを使用するには、次の手順に従います。
 
-1. テストモードをアクティブにするには、右上隅にある「**[!UICONTROL テスト]**」切り替えスイッチをオンにします。
+1. テストモードをアクティブにするには、 **[!UICONTROL テストモード]** ボタンは、右上隅にあります。
 
    ![](assets/journeytest1.png)
 

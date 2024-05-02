@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 権限レベル
-description: ユーザーが様々な機能にアクセスできる高レベルおよび低レベルの権限について説明します。
+description: ユーザーが様々な機能にアクセスできるようにする高レベルおよび低レベルの権限について説明します。
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: 5d214812b1d7e189fe8a964f445545916d00c0a4
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 98%
@@ -291,6 +291,28 @@ ht-degree: 98%
 +++
 
 ## チャネル設定リソース {#administration-permissions}
+
+<!--
+* **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Experience decisioning entities.
+
+  +++ It includes the following low-level permissions:  
+
+  * Experience decisions specific:
+    * ranking_strategy.read
+    * offeritem.read
+    * offeritem.write
+    * offeritem.delete
+    * itemCollection.read
+    * itemCollection.write
+    * itemCollection.delete
+    * SelectionStrategy.read
+    * SelectionStrategy.write
+    * SelectionStrategy.delete
+    * Decisionpolicy.read
+    * Decisionpolicy.write
+    * Decisionpolicy.delete
+  +++
+-->
 
 * 「**[!DNL Manage file routing]**」という高レベルの権限を持つユーザーは、ファイルルーティング設定の作成、編集および削除を行うことができます。
 

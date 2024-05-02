@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '940'
 ht-degree: 100%
 
 ---
@@ -126,8 +126,6 @@ SMS コンテンツを設定するには、次の手順に従います。MMS の
 マルチメディアメッセージサービス（MMS）メッセージを送信すると、ビデオ、画像、オーディオクリップ、GIF などのメディアを共有できるようにすることで、通信を強化できます。また、MMS ではメッセージに最大 1600 文字のテキストを含めることができます。
 
 >[!NOTE]
->
->* この機能は現在、**Sinch** でのみ使用可能です。
 >
 >* MMS チャネルには、[このページ](../start/guardrails.md#sms-guardrails)にリストされているいくつかの制限があります。
 

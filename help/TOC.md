@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [早期リリースノート](using/rn/early-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
+      + [2024年リリースノート](using/rn/release-notes-2024.md)
       + [2023年リリースノート](using/rn/release-notes-2023.md)
       + [2022年リリースノート](using/rn/release-notes-2022.md)
       + [2021年リリースノート](using/rn/release-notes-2021.md)
@@ -165,6 +166,7 @@ ht-degree: 99%
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションを使用してスループットを制限する](using/building-journeys/limit-throughput.md)
+         + [カスタムアクションを使用したExperience Platform内のジャーニーイベントの記述](using/building-journeys/custom-action-aep.md)
 + キャンペーン{#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
@@ -224,12 +226,16 @@ ht-degree: 99%
       + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
 + SMS／MMS チャネル{#sms}
    + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
-   + [テキストメッセージの作成](using/sms/create-sms.md)
-   + [MMS メッセージの作成](using/sms/create-mms.md)
+   + [テキストメッセージ（SMS／MMS）の作成](using/sms/create-sms.md)
    + [テキストメッセージの確認および送信](using/sms/send-sms.md)
    + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
-   + [SMS チャネルの設定](using/sms/sms-configuration.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
+   + SMS/MMS チャネルの設定{#configure-sms}
+      + [SMS 設定の概要](using/sms/sms-configuration.md)
+      + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
+      + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
+      + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
+      + [SMS サーフェスの作成](using/sms/sms-configuration-surface.md)
 + ダイレクトメール {#direct-mail}
    + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
    + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)

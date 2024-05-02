@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 100%
+source-wordcount: '2004'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 **[!UICONTROL ステータスフィルターとバージョンフィルター]**&#x200B;では、ステータス、タイプ、バージョンおよび割り当てられているタグに従ってジャーニーをフィルタリングできます。
 
-タイプは、**[!UICONTROL 単一イベント]**、**[!UICONTROL オーディエンスの選定]**、**[!UICONTROL オーディエンスを読み取り]**、**[!UICONTROL ビジネスイベント]**、**[!UICONTROL バースト]**&#x200B;のいずれかになります。
+タイプは次のようになります。 **[!UICONTROL 単一イベント]**, **[!UICONTROL オーディエンスの選定]**, **[!UICONTROL オーディエンスを読み取り]** または **[!UICONTROL ビジネスイベント]**.
 
 ステータスには次の種類があります。
 
