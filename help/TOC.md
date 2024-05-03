@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1794'
 ht-degree: 97%
 
 ---
@@ -271,10 +271,12 @@ ht-degree: 97%
       + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
-   + コンテンツアシスタントの操作{#content-assistant}
-      + [コンテンツアシスタント入門](using/content-management/gs-generative.md)
-      + [コンテンツの生成](using/content-management/generative-content.md)
-      + [画像生成](using/content-management/generative-image.md)
+   + AI アシスタントの操作{#ai-assistant}
+      + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
+      + [メール生成](using/content-management/generative-email.md)
+      + [プッシュの生成](using/content-management/generative-push.md)
+      + [SMS の生成](using/content-management/generative-sms.md)
+      + [AI アシスタントを使用したコンテンツ実験](using/content-management/generative-experimentation.md)
    + 多言語コンテンツを操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
