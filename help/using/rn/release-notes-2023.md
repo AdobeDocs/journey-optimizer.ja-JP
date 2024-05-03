@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
 workflow-type: tm+mt
-source-wordcount: '4398'
-ht-degree: 100%
+source-wordcount: '4396'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->これらの機能は現在、Private Beta として使用可能です。
+>これらの機能は、現在、ベータ版として利用できます。
 
 <!--
 **Spam scoring for emails**
@@ -309,7 +309,7 @@ A new option is available in the email surface settings to include email address
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、Private Beta として使用可能です。[詳細情報](../action/action-response.md)。
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、ベータ版として利用できます。 [詳細情報](../action/action-response.md)。
 * 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。[詳細情報](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
