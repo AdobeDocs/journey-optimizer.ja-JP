@@ -10,9 +10,9 @@ level: Beginner
 badge: label="ベータ版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 23%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 >[!ENDSHADEBOX]
 
-メッセージを作成してパーソナライズしたら、コンテンツ実験機能を含むJourney Optimizer AI アシスタントを使用してコンテンツを強化します。 このツールを使用すると、様々なコンテンツの複数の配信処理を定義して、ターゲットオーディエンスのパフォーマンスを測定できます。
+メッセージを作成してパーソナライズしたら、コンテンツ実験機能を含むAdobe Journey Optimizerの AI アシスタントを使用してコンテンツを強化します。 このツールを使用すると、様々なコンテンツの複数の配信処理を定義して、ターゲットオーディエンスのパフォーマンスを測定できます。
 
 1. キャンペーンを作成し、AI アシスタントを使用してバリアントを生成します。
 

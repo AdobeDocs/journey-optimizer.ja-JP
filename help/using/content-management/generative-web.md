@@ -10,10 +10,10 @@ level: Beginner
 badge: label="ベータ版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fc6d1caacae3574cc7400ed9c9c634e3ff3cae5a
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 95%
+source-wordcount: '1319'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
-メールを作成してパーソナライズしたら、生成 AI を利用した Campaign の Journey Optimizer AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。
+メールを作成してパーソナライズしたら、生成 AI を活用したAdobe Journey Optimizerの AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。
 
 AI アシスタントを使用すると、オーディエンスの共感を呼ぶ可能性の高い様々なコンテンツを提案することで、配信の影響を最適化できます。
 

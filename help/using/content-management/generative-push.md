@@ -10,10 +10,10 @@ level: Beginner
 badge: label="ベータ版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 45332e96477f83cd1ae9833472a97d2c45bb6ac4
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 63%
+source-wordcount: '976'
+ht-degree: 62%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 63%
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 
-メッセージを作成してパーソナライズしたら、Journey Optimizer AI アシスタントでプッシュ通知コンテンツを次のレベルに進めます。
+メッセージを作成してパーソナライズしたら、Adobe Journey Optimizerの AI アシスタントでプッシュ通知コンテンツを次のレベルに進めます。
 
 Journey Optimizerで AI アシスタントを使用する方法については、以下のタブを参照してください。
 
