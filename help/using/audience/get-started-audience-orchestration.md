@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="コンポジションの作成"
->abstract="コンポジションワークフローを作成し、既存のAdobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。"
+>abstract="コンポジションワークフローを作成し、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。"
 
 >[!BEGINSHADEBOX]
 

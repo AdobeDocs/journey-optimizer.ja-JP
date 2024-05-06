@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -40,7 +40,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 決定項目を作成するには、に移動します。 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL カタログ]**&#x200B;を選択し、 **[!UICONTROL 項目を作成]** 次に、以下の節で説明する手順に従います。
 
-## 決定項目の属性の定義 {#attributes}
+## 決定項目の属性を定義 {#attributes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
