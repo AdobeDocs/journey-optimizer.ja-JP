@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="コンポジションの作成"
->abstract="コンポジションワークフローを作成し、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。"
+>abstract="構成ワークフローを作成し、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。"
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 90%
 
 >[!ENDSHADEBOX]
 
-オーディエンス構成を使用すると、以下を作成できます。 **コンポジションワークフロー**&#x200B;を使用すると、既存のAdobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
+オーディエンス構成を使用すると、**構成ワークフロー**&#x200B;を作成できます。このワークフローでは、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
 完了すると、**結果のオーディエンス**&#x200B;は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。[詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください](../audience/about-audiences.md#segments-in-journey-optimizer)
 

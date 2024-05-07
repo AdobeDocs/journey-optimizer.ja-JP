@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ビジネスルール
-description: ビジネスルールの作成および適用方法を説明します
+description: ビジネスルールを作成および適用する方法を説明します
 feature: Rules
 topic: Content Management
 role: User
@@ -10,11 +10,12 @@ level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 hide: true
 hidefromtoc: true
-badge: label="ベータ版"
-source-git-commit: c1eef06b0edc4e1bcd1b145f8f822295924b205c
-workflow-type: tm+mt
+badge: label="Beta"
+exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
+source-git-commit: f8d257b04d8682bb16fcccd3fd0ef9d5389a058d
+workflow-type: ht
 source-wordcount: '1426'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -22,39 +23,39 @@ ht-degree: 33%
 
 >[!AVAILABILITY]
 >
->現在、ビジネスルールは一部のユーザーのみを対象としたベータ版として利用できます。
+>ビジネスルールは現在、一部のユーザーのみを対象としたベータ版として提供されています。
 
 [!DNL Journey Optimizer] では、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルルールを設定することで、ユーザーがメッセージを受け取る頻度を制御できます。
 
-例えば、ブランドの場合、顧客に 1 か月に 4 件を超えるマーケティングメッセージを送信しないというルールを設定できます。 これを行うには、頻度ルールを使用して、月別のカレンダー期間に、1 つ以上のチャネルに基づいて送信されるメッセージの件数に上限を設定することができます。
+例えば、あるブランドについて、顧客に月に 4 件を超えるマーケティングメッセージを送信しないというルールを設定できます。これを行うには、頻度ルールを使用して、月別のカレンダー期間中に 1 つ以上のチャネルに基づいて送信されるメッセージの件数を制限することができます。
 
-精度を向上させるために、様々なルールセットを作成します。 [!DNL Journey Optimizer] を使用すると、様々なタイプのマーケティングコミュニケーションにフリークエンシーキャップを適用できます。 例えば、ルールセットを作成して、の数を制限できます **プロモーション情報** を顧客に送信し、別のルールセットを作成して数を制限します。 **ニュースレター** がを彼らに送信しました。
+精度を向上させるために、様々なルールセットを作成します。[!DNL Journey Optimizer] を使用すると、様々なタイプのマーケティングコミュニケーションにフリークエンシーキャップを適用できます。例えば、顧客に送信する&#x200B;**プロモーション情報**&#x200B;の数を制限するルールセットを作成する一方で、顧客に送信する&#x200B;**ニュースレター**&#x200B;の数を制限する別のルールセットを作成できます。
 
 >[!NOTE]
 >
->ビジネスルールは、ユーザーがブランドからのコミュニケーションの受信を登録解除できる、オプトアウト管理とは異なります。 [詳細情報](../privacy/opt-out.md#opt-out-management)
+>ビジネスルールは、ユーザーがブランドからの配信の受信を登録解除できるオプトアウト管理とは異なります。[詳細情報](../privacy/opt-out.md#opt-out-management)
 
-## ルールセットへのアクセス {#access-rule-sets}
+## アクセスルールセット {#access-rule-sets}
 
-ルールセットは、 **[!UICONTROL 管理]** > **[!UICONTROL ビジネスルール（ベータ版）]** メニュー。 すべてのルールが、作成日順に表示されます。
+ルールセットは、**[!UICONTROL 管理]**／**[!UICONTROL ビジネスルール（ベータ版）]**&#x200B;メニューから使用できます。すべてのルールが作成日順に表示されます。
 
 ![](assets/rule-sets-list.png)
 
-ルールセット名をクリックして、そのコンテンツを表示および編集します。 そのルールセットに含まれるすべてのルールが一覧表示されます。
+ルールセット名をクリックし、そのコンテンツを表示および編集します。そのルールセットに含まれるすべてのルールが一覧表示されます。
 
-右上のコンテキストメニューを使用すると、次のことが可能です。
+右上のコンテキストメニューでは、次のことが可能です。
 
-* ルールセットの名前と説明を編集
-* ルールセットをアクティブ化 –  [詳細を表示する](#activate-rule)
-* ルールセットの削除
+* ルールセットの名前と説明を編集する
+* ルールセットをアクティベートする – [詳細情報](#activate-rule)
+* ルールセットを削除する
 
 ![](assets/rule-set-example.png)
 
-ルールセットに含まれる各ルールのプロパティ **[!UICONTROL その他のアクション]** ボタンを使用すると、次のことができます。
+ルールセットに含まれるルールごとに、「**[!UICONTROL その他のアクション]**」ボタンを使用して次のことを行えます。
 
-* ルールの編集
-* ルールのアクティブ化 [詳細を表示する](#activate-rule)
-* ルールの削除
+* ルールを編集する
+* ルールをアクティベートする[詳細情報](#activate-rule)
+* ルールを定義する
 
 ![](assets/rule-set-example-rules.png)
 
@@ -68,23 +69,23 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## ルールセットを作成 {#create-rule-set}
+## ルールセットを作成する {#create-rule-set}
 
 ルールセットを作成するには、次の手順に従います。
 
-1. へのアクセス **[!UICONTROL ルールセット]** リストを選択し、 **[!UICONTROL ルールセットを作成]**.
+1. **[!UICONTROL ルールセット]**&#x200B;のリストにアクセスし、「**[!UICONTROL ルールセットを作成]**」をクリックします。
 
    ![](assets/rule-sets-create-button.png)
 
-1. ルールセット名を定義し、必要に応じて説明を追加して、 **[!UICONTROL 保存]**.
+1. ルールセット名を定義し、必要に応じて説明を追加して、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/rule-sets-create.png)
 
    >[!NOTE]
    >
-   >ルールセット名は一意である必要があります。
+   >ルールセット名は一意にする必要があります。
 
-1. 次の操作が可能になりました [ルールの定義](#create-new-rule) このルールセットに追加する操作 [アクティベート](#activate-rule) それ。
+1. これで、このルールセットに追加する[ルールを定義](#create-new-rule)して[アクティベート](#activate-rule)できるようになりました。
 
    >[!NOTE]
    >
@@ -109,7 +110,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
 ルールセットにルールを追加するには、次の手順に従います。
 
-1. 作成したルールセットで、 **[!UICONTROL ルールを追加]**.
+1. 作成したルールセットで、「**[!UICONTROL ルールを追加]**」をクリックします。
 
    ![](assets/rule-sets-create-rule-button.png)
 
@@ -117,7 +118,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
    >[!NOTE]
    >
-   >ルールセット名は一意である必要があります。
+   >ルールセット名は一意にする必要があります。
 
 1. メッセージルールカテゴリを選択します。
 
@@ -127,9 +128,9 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
 1. **[!UICONTROL 期間]**&#x200B;ドロップダウンリストから、キャッピングを適用する時間枠を選択します。[詳細情報](#frequency-cap)
 
-1. ルールにキャッピングを設定します。キャッピングは、上で選択した内容に応じて、1 か月、1 週間または 1 日に個々のユーザープロファイルに送信できるメッセージの最大数を意味します。
+1. ルールのキャッピングを設定します。これは、上記の選択に応じて、毎月、毎週または毎日、個々のユーザープロファイルに送信できるメッセージの最大数を意味します。
 
-1. このルールに使用するチャネルを選択： **[!UICONTROL 電子メール]**, **[!UICONTROL SMS]**, **[!UICONTROL プッシュ通知]** または **[!UICONTROL ダイレクトメール]**.
+1. このルールに使用するチャネルを「**[!UICONTROL メール]**」、「**[!UICONTROL SMS]**」、「**[!UICONTROL プッシュ通知]**」または「**[!UICONTROL ダイレクトメール]**」から選択します。
 
    ![](assets/rule-set-channels.png)
 
@@ -139,19 +140,19 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
 1. 選択したすべてのチャネルに対して合計数としてキャッピングを適用する場合は、複数のチャネルを選択します。
 
-   例えば、キャッピングを 5 に設定し、メールチャネルと SMS チャネルの両方を選択します。 プロファイルが既に、選択した期間の 3 つのマーケティングメールと 2 つのマーケティング SMS を受信している場合、このプロファイルは、マーケティングメールまたは SMS の次回の配信から除外されます。
+   例えば、キャップを 5 に設定し、メールチャネルと SMS チャネルの両方を選択します。プロファイルが既に 3 件のマーケティングメールと 5 件のマーケティング SMS を受信している場合、このプロファイルは、次に配信されるマーケティングメールまたは SMS の対象から除外されます。
 
-1. クリック **[!UICONTROL 保存]** をクリックして、ルールの作成を確認します。 メッセージがと共にルールセットに追加されます **[!UICONTROL ドラフト]** ステータス。
+1. 「**[!UICONTROL 保存]**」をクリックして、ルールの作成を確定します。メッセージが、**[!UICONTROL ドラフト]**&#x200B;ステータスでルールリストに追加されます。
 
    ![](assets/rule-set-rule-created.png)
 
 1. 上記の手順を繰り返して、必要な数のルールをルールセットに追加します。
 
-次に、各ルールをアクティブ化して、メッセージに適用する必要があります。 [詳細情報](#activate-rule)
+次に、メッセージに適用する前に、各ルールをアクティブ化する必要があります。[詳細情報](#activate-rule)
 
 >[!NOTE]
 >
->メッセージで選択できるように、ルールセットもアクティベートされていることを確認します。
+>また、メッセージで選択できるように、ルールセットもアクティブ化します。
 
 ### フリークエンシーキャップ {#frequency-cap}
 
@@ -160,7 +161,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 >title="メッセージルールカテゴリの選択"
 >abstract="アクティブ化してメッセージに適用すると、選択したカテゴリに一致するすべての頻度ルールがこのメッセージに自動的に適用されます。現在、マーケティングカテゴリのみが使用可能です。"
 
-から **[!UICONTROL 期間]** ドロップダウンリストで、キャッピングを毎月、毎週、毎日に適用するかどうかを選択します。
+**[!UICONTROL 期間]**&#x200B;ドロップダウンリストから、キャップを毎月、毎週、毎日のどちらの頻度で適用するかを選択します。
 
 フリークエンシーキャップは、選択したカレンダーの期間に基づきます。対応する時間枠の開始時にリセットされます。
 
@@ -172,15 +173,15 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
 * **[!UICONTROL 毎週]**：フリークエンシーキャップは、暦週が日曜日に始まるため、その週の土曜日 23:59:59 UTC まで有効です。有効期限は、ルールの作成に関係なく設定されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
 
-* **[!UICONTROL 日次]**:1 日のフリークエンシーキャップは 23 日まで有効です:59:59 UTC、次の日の開始時に 0 にリセットされます。
+* **[!UICONTROL 毎日]**：日別のフリークエンシーキャップは、その日の 23:59:59 UTC まで有効で、翌日の開始とともに 0 にリセットされます。
 
 ### 日別のフリークエンシーキャップ {#daily-frequency-cap}
 
 >[!CAUTION]
 >
->毎日のフリークエンシーキャップ ルールの精度を確保するには、を使用します。 [ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"} は必須です。 オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
+>日別のフリークエンシーキャップの精度を確保するには、[ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}の使用が必須です。オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
 
-セグメントサイズが 1 時間あたり 6,000 万メッセージの制限を超える場合<!--not clear-->キャンペーンは少なくとも 2 時間離れていることを確認してください。
+セグメントサイズが 1 時間あたり 6,000 万メッセージの制限までの場合<!--not clear-->、キャンペーンの間隔を 2 時間以上にする必要があります。
 
 
 <!-- Journey example:
@@ -195,66 +196,66 @@ Learn more about permissions in [this section](../administration/high-low-permis
    * Journey 456 (scheduled for 2 pm)
    * Journey 789 (scheduled for 4 pm)-->
 
-例えば、メールチャネルのルールセットに対して 2 日以下の日別ルールを設定し、次のキャンペーンを作成した場合です。
-* キャンペーン A （正午予定）
-* キャンペーン A （午後 3 時予定）
-* キャンペーン B （午後 1 時予定）
+例えば、メールチャネルのルールセットの下に 2 日以下の日別ルールを設定し、次のキャンペーンを作成するとします。
+* キャンペーン A（正午に予定）
+* キャンペーン A（午後 3:00 に予定）
+* キャンペーン B（午後 1:00 に予定）
 
-この設定は、次の 2 つの理由で機能しません。
-* キャンペーンは 2 時間離れていないので、1 日のフリークエンシーキャップは保証されません。
-* 毎日の上限数を利用するために、同じキャンペーンを 1 日に複数回スケジュールすることはベストプラクティスではありません。
+この設定は、次の 2 つの理由により機能しません。
+* キャンペーンは 2 時間間隔ではないので、日別のフリークエンシーキャップは保証されません。
+* 日別のキャップを利用するために、同じキャンペーンを 1 日に複数回スケジュールすることはベストプラクティスではありません。
 
-以下の例は、毎日のフリークエンシーキャップで順守される必要があります。
-* キャンペーン A （正午予定）
-* キャンペーン B （午後 2 時予定）
+以下の例では、日別のフリークエンシーキャップを適用する必要があります。
+* キャンペーン A（正午に予定）
+* キャンペーン B（午後 2 :00 に予定）
 
 <!--* To use the Daily Cap with a Journey, customers can use either an Event Triggered Journey or an Audience Qualified Journey. If customers wish to use the Daily Cap with a Read Audience Journey, they should use a Campaign instead and associate a Local Ruleset with the campaign, following the example given above.-->
 
 ## ルールおよびルールセットのアクティブ化 {#activate-rule}
 
-作成時、ルールには以下が含まれます **[!UICONTROL ドラフト]** ステータスおよびは、まだどのメッセージにも影響を与えていません。 有効にするには、 **[!UICONTROL その他のアクション]** ボタンがルールの隣に表示され、を選択します。 **[!UICONTROL Activate]**.
+作成時、ルールは&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスになり、まだメッセージには影響を与えません。ルールを有効にするには、ルールの横にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL アクティブ化]**」を選択します。
 
 ![](assets/rule-set-activate-rule.png)
 
-また、キャンペーン/ジャーニーでルールセットにアクセスしてメッセージに適用できるようにするには、ルールセットをアクティブ化する必要があります。
+また、キャンペーン／ジャーニーでルールセットにアクセスし、メッセージに適用できるようにするには、ルールセットもアクティブ化する必要があります。
 
 ![](assets/rule-set-activate-set.png)
 
-ルールセットをアクティブ化すると、次回の実行時に適用されるメッセージに影響します。 方法を学ぶ [メッセージへのルールセットの適用](#apply-rule-set).
+ルールセットをアクティブ化すると、次回の実行時に適用されるメッセージに影響します。メッセージにルールセットを適用する方法については、[こちら](#apply-rule-set)を参照してください。
 
 >[!NOTE]
 >
->ルールまたはルールセットが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。 ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開したりする必要はありません。
+>ルールまたはルールセットが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開したりする必要はありません。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
 ## ルールとルールセットの非アクティブ化 {#deactivate-rule}
 
-ルールまたはルールセットを非アクティブ化するには、 **[!UICONTROL その他のアクション]** ボタンをクリックし、目的の項目の横にあるを選択します。 **[!UICONTROL 非アクティブ化]**.
+ルールまたはルールセットを非アクティブ化するには、目的の項目の横にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 非アクティブ化]**」を選択します。
 
 ![](assets/rule-set-inactive-rule.png)
 
-ワークフローのステータスは、次のように変更されます **[!UICONTROL Inactive]** また、このルールは今後のメッセージ実行には適用されません。 現在実行中のメッセージは影響を受けません。
+ステータスは&#x200B;**[!UICONTROL 非アクティブ]**&#x200B;に変わり、今後のメッセージの実行にはルールが適用されません。現在実行中のメッセージは影響を受けません。
 
 >[!NOTE]
 >
->ルールまたはルールセットのアクティベートを解除しても、個々のプロファイルのカウントに影響したり、リセットしたりすることはありません。
+>ルールまたはルールセットを非アクティブ化しても、個々のプロファイルのカウントは影響を受けず、リセットされません。
 
 ## メッセージに頻度ルールを適用する {#apply-frequency-rule}
 
 メッセージに頻度ルールを適用するには、次の手順に従います。
 
-1. の作成時 [campaign](../campaigns/create-campaign.md)で、ルールセットに定義したチャネルの 1 つを選択し、メッセージのコンテンツを編集します。
+1. [キャンペーン](../campaigns/create-campaign.md)の作成時、ルールセットに定義したチャネルの 1 つを選択し、メッセージのコンテンツを編集します。
 
-1. コンテンツ編集画面で、 **[!UICONTROL ビジネス ルールの追加]** ボタン。
+1. コンテンツ編集画面で、「**[!UICONTROL ビジネスルールを追加]**」ボタンをクリックします。
 
-1. 「」を選択します [作成したルールセット](#create-rule-set).
+1. [作成したルールセット](#create-rule-set)を選択します。
 
    ![](assets/rule-set-campaign-add-rule-button.png)
 
    >[!NOTE]
    >
-   >のみ [有効化済み](#activate-rule) ルールセットがリストに表示されます。
+   >[アクティブ化](#activate-rule)したルールセットのみがリストに表示されます。
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
@@ -293,5 +294,4 @@ In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
-頻度ルールをテストする場合は、新規作成したを使用することをお勧めします [テストプロファイル](../audience/creating-test-profiles.md)プロファイルのフリークエンシーキャップに達すると、次の期間までカウンターをリセットする方法はないからです。 ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
-
+プロファイルのフリークエンシーキャップに達すると、次の期間までカウンターをリセットする方法はないので、頻度ルールをテストする場合は、新しく作成した[テストプロファイル](../audience/creating-test-profiles.md)を使用することをお勧めします。ルールを非アクティブ化すると、上限を設定されたプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。

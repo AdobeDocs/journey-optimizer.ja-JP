@@ -10,9 +10,9 @@ level: Experienced
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信され�
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。専用のアーカイブサポートについては、SMS ベンダー（Synch、Infobip、Twilio）と協力してください。
+>[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。専用のアーカイブサポートについては、SMS ベンダー（Synch、Infobip または Twilio）と協力してください。
 
 ## メールに BCC を使用する方法 {#bcc-email}
 

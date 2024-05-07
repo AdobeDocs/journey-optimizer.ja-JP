@@ -7,12 +7,12 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-badge: label="ベータ版"
+badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 29228a17176421ccf29598d6ebba815b800db7a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 36%
 
 決定ルールを使用すると、決定項目レベルで直接、または特定の選択戦略内で制約を適用することで、決定項目のオーディエンスを定義できます。これにより、アイテムを提示する対象を正確に制御できます。
 
-例えば、女性向けに作られたヨガ関連製品を特集した決定項目があるシナリオを考えてみましょう。決定ルールを使用すると、これらの項目は、性別が「女性」で、「ヨガ」に「目標点」を示したプロファイルにのみ表示されるように指定できます。
+例えば、女性向けに作られたヨガ関連製品を特集した決定項目があるシナリオを考えてみましょう。決定ルールを使用すると、性別が「女性」で、「ヨガ」に「興味」を示したプロファイルにのみ、これらの項目を表示するように指定できます。
 
 >[!NOTE]
 >
@@ -49,54 +49,54 @@ ht-degree: 36%
 
 決定ルールを作成するには、次の手順に従います。
 
-1. に移動します。 **[!UICONTROL 設定]** / **[!UICONTROL 決定ルール]** 次に、 **[!UICONTROL ルールを作成]** ボタン。
+1. **[!UICONTROL 設定]**／**[!UICONTROL 決定ルール]**&#x200B;に移動し、「**[!UICONTROL ルールを作成]**」ボタンをクリックします。
 
-1. 決定ルール作成画面が開きます。 ルールに名前を付け、説明を入力します。
+1. 決定ルール作成画面が開きます。ルールに名前を付け、説明を入力します。
 
-1. Adobe Experience Platform セグメントビルダーを使用して、ニーズに合った決定ルールを作成します。 これを行うには、Adobe Experience Platformから取得したプロファイル属性、オーディエンス、コンテキストデータなど、様々なデータソースを TOU で活用します。 [決定ルールでコンテキストデータを活用する方法を学ぶ](#context-data)
+1. Adobe Experience Platform セグメントビルダーを使用して、ニーズに合った決定ルールを作成します。それには、Adobe Experience Platform から取得したプロファイル属性、オーディエンス、コンテキストデータなどの様々なデータソースを活用できます。[決定ルールでコンテキストデータを活用する方法を学ぶ](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >決定ルールを作成するために用意されているセグメントビルダーは、Adobe Experience Platform Segmentation サービスで使用されるものと比較して、特異性がいくつかあります。  ただし、ドキュメントで説明されているグローバルプロセスは、決定ルールを作成する場合にも有効です。 [詳しくは、セグメント定義の作成方法を参照してください](../audience/creating-a-segment-definition.md)
+   >決定ルールを作成するために用意されているセグメントビルダーは、Adobe Experience Platform セグメント化サービスで使用されるものと比べて、特異性がいくつかあります。ただし、本ドキュメントで説明されているグローバルプロセスは、決定ルールを作成する場合にも有効です。[詳しくは、セグメント定義の作成方法を参照してください](../audience/creating-a-segment-definition.md)
 
 1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルに、オーディエンスに属する推定プロファイルに関する情報が表示されます。「**[!UICONTROL 予測を更新]**」をクリックして、データを更新します。
 
    >[!NOTE]
    >
-   >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれないデータが含まれる場合は使用できません。
+   >プロファイルの予測は、コンテキストデータなどのプロファイルにないデータがルールパラメーターに含まれている場合は使用できません。
 
-1. 決定ルールの準備が整ったら、 **[!UICONTROL 保存]**. 作成したルールはリストに表示され、決定項目や選択戦略で使用して、プロファイルに対する決定項目の表示を制御できます。
+1. 決定ルールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。作成されたルールはリストに表示され、決定項目と選択戦略で使用して、プロファイルへの決定項目の表示を制御できます。
 
 ## 決定ルールでのコンテキストデータの活用 {#context-data}
 
-Experience Decisioning ルールの作成画面では、Adobe Experience Platformで使用可能な任意の情報を活用して、決定ルールを作成できます。 例えば、現在の天気を≥80 度にする決定ルールをデザインできます。
+エクスペリエンス決定ルールの作成画面では、Adobe Experience Platform で入手可能な任意の情報を活用して、決定ルールを作成できます。例えば、現在の気温が 80 ℃以上であることを条件とする決定ルールを設計できます。
 
-それには、まず、Experience Decisioning で利用できるようにするデータを定義する必要があります。 完了すると、このデータはで Experience Decisioning にシームレスに統合されます **[!UICONTROL コンテキストデータ]** 決定ルールの作成時に使用可能なタブ。
+それには、まず、エクスペリエンス決定で使用できるようにするデータを定義する必要があります。完了すると、このデータは決定ルールの作成時に使用できる「**[!UICONTROL コンテキストデータ]**」タブでエクスペリエンス決定にシームレスに統合されます。
 
 ![](assets/decision-rules-context.png)
 
-Experience Decisioning にAdobe Experience Platform データをフィードする手順は次のとおりです。
+エクスペリエンス決定に Adobe Experience Platform データをフィードする手順は、次のとおりです。
 
-1. を作成 **エクスペリエンスイベントスキーマ**  Adobe Experience Platformおよび関連する **データセット**. [スキーマの作成方法を学ぶ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Adobe Experience Platform で&#x200B;**エクスペリエンスイベントスキーマ**&#x200B;およびそれに関連する&#x200B;**データセット**&#x200B;を作成します。[スキーマの作成方法については、こちらを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
-1. 新しいAdobe Experience Platform データストリームを作成します。
+1. 新しい Adobe Experience Platform データストリームを次の手順で作成します。
 
-   1. に移動します。 **[!UICONTROL データストリーム]** メニューと選択 **[!UICONTROL 新規データストリーム]**.
+   1. **[!UICONTROL データストリーム]**&#x200B;メニューに移動し、「**[!UICONTROL 新規データストリーム]**」を選択します。
 
-   1. が含まれる **[!UICONTROL イベントスキーマ]** ドロップダウンリストから、前に作成したエクスペリエンスイベントスキーマを選択し、「」をクリックします **[!UICONTROL 保存]**.
+   1. **[!UICONTROL イベントスキーマ]**&#x200B;ドロップダウンリストで、先ほど作成したエクスペリエンスイベントスキーマを選択し、「**[!UICONTROL 保存]**」をクリックします。
 
       ![](assets/decision-rule-context-datastream.png)
 
-   1. クリック **[!UICONTROL サービスを追加]** そして、サービスとして「Adobe Experience Platform」を選択します。 が含まれる **[!UICONTROL イベントデータセット]** ドロップダウンリストから、前に作成したイベントデータセットを選択し、 **[!UICONTROL Adobe Journey Optimizer]** オプション。
+   1. 「**[!UICONTROL サービスを追加]**」をクリックし、サービスとして「Adobe Experience Platform」を選択します。**[!UICONTROL イベントデータセット]**&#x200B;ドロップダウンリストで、先ほど作成したイベントデータセットを選択し、「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にします。
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-データストリームが保存されると、選択したデータセットの情報が自動的に取得され、Experience Decisioning に統合されます。通常、約 24 時間以内に使用可能になります。
+データストリームを保存すると、選択したデータセットの情報が自動的に取得されてエクスペリエンス決定に統合され、通常は約 24 時間以内に使用可能になります。
 
-Adobe Experience Platformの操作方法に関する詳細なガイダンスについては、次のリソースを参照してください。
+Adobe Experience Platform の操作方法に関する詳細なガイダンスについては、次のリソースを参照してください。
 
-* [エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [データセット](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [データストリーム](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [データセット](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [データストリーム](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview){target="_blank"}

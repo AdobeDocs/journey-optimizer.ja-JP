@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
    ![](assets/audiences-properties.png)
 
-1. 間に必要な数のアクティビティを追加して、コンポジションを設定します。 **[!UICONTROL 対象読者]** および **[!UICONTROL 保存]** アクティビティ。 [コンポジションキャンバスの操作方法を学ぶ](composition-canvas.md)
+1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 保存]**&#x200B;アクティビティの間に必要な数のアクティビティを追加して、コンポジションを設定します。[詳しくは、コンポジションキャンバスの操作方法を参照してください](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
