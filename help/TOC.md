@@ -559,7 +559,7 @@ ht-degree: 97%
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [頻度ルールの設定](using/configuration/frequency-rules.md)
-   + [ビジネスルールの操作](using/configuration/business-rules.md)
+   + [ビジネスルールの使用](using/configuration/business-rules.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}

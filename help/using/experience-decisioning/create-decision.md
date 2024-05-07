@@ -7,12 +7,12 @@ role: User
 level: Experienced
 hide: true
 hidefromtoc: true
-badge: label="ベータ版"
+badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -210,14 +210,14 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Customer Journey Analyticsでのレポート {#cja}
+## Customer Journey Analytics でのレポート {#cja}
 
-Customer Journey Analyticsを使用している場合は、Experience Decisioning を活用したコードベースのキャンペーン用のカスタムレポートダッシュボードを作成できます。
+Customer Journey Analytics を操作している場合は、エクスペリエンス決定を活用して、コードベースのキャンペーン用のカスタムレポートダッシュボードを作成できます。
 
-主な手順は次のとおりです。 Customer Journey Analyticsの操作方法について詳しくは、を参照してください [Customer Journey Analyticsドキュメント](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+主な手順は以下のとおりです。Customer Journey Analytics の操作方法について詳しくは、[Customer Journey Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing){target="_blank"}を参照してください。
 
-1. の作成と設定 **接続** Customer Journey Analyticsで。 これにより、レポートが必要なデータセットに接続できます。 [接続の作成方法を学ぶ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+1. Customer Journey Analytics で&#x200B;**接続**&#x200B;を作成して設定します。これにより、レポートが必要なデータセットに接続できます。[詳しくは、接続の作成方法を参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 
-1. を作成 **データビュー** 前に作成した接続に関連付けます。 が含まれる **[!UICONTROL Components]** タブをクリックし、レポートに表示する関連スキーマフィールドを選択します。 Experience Decisioning の場合、次を必ず含めてください **propositioninteract** および **propositiondisplay** フィールド。 [データビューの作成および設定方法を学ぶ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+1. **データビュー**&#x200B;を作成し、前に作成した接続に関連付けます。「**[!UICONTROL コンポーネント]**」タブで、レポートに表示する関連スキーマフィールドを選択します。エクスペリエンス決定の場合は、**propositioninteract** フィールドと **propositiondisplay** フィールドを必ず含めてください。[詳しくは、データビューの作成および設定方法を参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. でのデータコンポーネント、テーブルおよびビジュアライゼーションの組み合わせ **ワークスペースプロジェクト** コードベースのキャンペーンのレポートを作成および共有する方法を説明します。[ワークスペースプロジェクトの作成方法を学ぶ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. **ワークスペースプロジェクト**&#x200B;でデータコンポーネント、テーブル、ビジュアライゼーションを組み合わせて、コードベースのキャンペーンのレポートを作成して共有します。[詳しくは、ワークスペースプロジェクトの作成方法を参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
