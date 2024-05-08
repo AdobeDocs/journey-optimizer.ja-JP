@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="選択戦略の定義"
->abstract="選択戦略は、再利用可能な項目で、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、決定方針が選択されている場合に表示されるオファーを決定します。"
+>abstract="選択戦略は再利用可能で、実施要件制約に関連付けられたコレクションと、決定ポリシーで選択されたときに表示されるオファーを決定するためのランキング方法で構成されます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=ja" text="決定ポリシーを作成"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ja" text="オーディエンスを使用"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=ja" text="決定ルールを使用"
 
->[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
-
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
-* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
-* **[選択戦略の作成](selection-strategies.md)**
-* [決定ポリシーを作成](create-decision.md)
-
->[!ENDSHADEBOX]
-
-選択戦略は、再利用可能な項目で、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、[決定方針](create-decision.md)が選択されている場合に表示されるオファーを決定します。
+選択戦略は再利用可能で、実施要件制約に関連付けられたコレクションと、 [決定ポリシー](create-decision.md).
 
 ## 選択戦略へのアクセスと管理
 
-1. **[!UICONTROL Experience Decisioning]**／**[!UICONTROL 設定]**／**[!UICONTROL 選択戦略]**&#x200B;に移動します。
+1. に移動 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 戦略の設定]** > **[!UICONTROL 選択戦略]**.
 
 1. これまでに作成した選択戦略がすべてリストされます。ランキングメソッドに従って戦略を取得するのに役立つフィルターを使用できます。
 
@@ -77,8 +65,6 @@ ht-degree: 100%
 
 1. 検討するオファーを含む[コレクション](collections.md)を選択します。
 
-1. 検討するオファーを含むオファー[コレクション](collections.md)を選択します。
-
 1. 「**[!UICONTROL 実施要件]**」フィールドを使用して、この選択戦略のオファーの選択を制限します。
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ ht-degree: 100%
 
    * 特定の計算済みスコアを使用して配信する実施要件を満たすオファーを選択する場合は、「[数式](#ranking-formula)」または「[AI モデル](#ai-ranking)」を選択します。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。これで、[決定](create-decision.md)で使用する準備が整いました
+1. 「**[!UICONTROL 作成]**」をクリックします。これで、で使用する準備ができました [決定ポリシー](create-decision.md)
 
 ## ランキング方法を選択 {#select-ranking-method}
 
@@ -113,7 +99,7 @@ ht-degree: 100%
 
 ### オファーの優先度 {#offer-priority}
 
-決定において特定のプレースメントに対して実施要件を満たすオファーが複数ある場合、デフォルトでは、**優先度**&#x200B;が最も高いオファーが最初に顧客に配信されます。
+決定ポリシーで指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、デフォルトでは、最も高い項目 **の優先度** 最初にお客様に配信されます。
 
 ![](assets/item-priority.png)
 

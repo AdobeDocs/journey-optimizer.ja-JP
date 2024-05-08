@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1794'
-ht-degree: 97%
+source-wordcount: '1804'
+ht-degree: 96%
 
 ---
 
@@ -375,157 +375,160 @@ ht-degree: 97%
    + [アラート](using/reports/alerts.md)
    + [Customer Journey Analytics の操作](using/reports/cja-ajo.md)
    + [除外の理由](using/reports/exclusion-list.md)
-+ 意思決定管理 {#offer-decisioning}
-   + 意思決定管理の基本を学ぶ {#get-started-decision}
++ 決定 {#decisioning}
+   + 意思決定管理 {#offer-decisioning}
+      + 意思決定管理の基本を学ぶ {#get-started-decision}
 
-      + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
-      + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
-      + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
-      + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
-   + コンポーネントの作成 {#create-components}
-      + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
-      + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
-      + [コレクション修飾子の作成](using/offers/offer-library/creating-tags.md)
-   + ランキングの作成 {#rankings}
-      + [ランキングの基本を学ぶ](using/offers/ranking/get-started-rankings.md)
-      + [ランキング式](using/offers/ranking/create-ranking-formulas.md)
-      + AI モデル {#ai-models}
-         + [AI モデルについて](using/offers/ranking/ai-models.md)
-         + AI モデルタイプ {#ai-model-types}
+         + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
+         + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
+         + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
+         + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
+      + コンポーネントの作成 {#create-components}
+         + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
+         + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
+         + [コレクション修飾子の作成](using/offers/offer-library/creating-tags.md)
+      + ランキングの作成 {#rankings}
+         + [ランキングの基本を学ぶ](using/offers/ranking/get-started-rankings.md)
+         + [ランキング式](using/offers/ranking/create-ranking-formulas.md)
+         + AI モデル {#ai-models}
+            + [AI モデルについて](using/offers/ranking/ai-models.md)
+            + AI モデルタイプ {#ai-model-types}
             + [自動最適化モデル](using/offers/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/offers/ranking/personalized-optimization-model.md)
-         + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
-   + オファーの作成と管理 {#managing-offers-in-the-offer-library}
-      + オファーの設定 {#configure-offers}
-         + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
-         + [表示域を追加](using/offers/offer-library/add-representations.md)
-         + [制約を追加](using/offers/offer-library/add-constraints.md)
-      + [フォールバックオファーを作成](using/offers/offer-library/creating-fallback-offers.md)
-      + [コレクションの作成](using/offers/offer-library/creating-collections.md)
-   + 決定の作成と管理 {#create-manage-activities}
-      + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
-      + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
-      + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
-   + [Batch Decisioning の使用](using/offers/batch-delivery.md)
-   + イベントデータの収集 {#collect-event-data}
-      + [データ収集の基本を学ぶ](using/offers/data-collection/data-collection.md)
-      + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
-      + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
-   + 意思決定管理レポートの作成 {#create-reports}
-      + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
-      + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
-   + オファーカタログのエクスポート{#export-catalog}
-      + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
-      + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
-      + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
-      + [決定データセット](using/offers/export-catalog/export-decisions.md)
-      + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
-      + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
-   + API リファレンス{#api-reference}
-      + [はじめに](using/offers/api-reference/getting-started.md)
-      + API を使用したオファーの作成と管理 {#offers-api}
-         + プレースメント {#placements}
-            + [プレースメントのリスト](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [プレースメントの参照](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [プレースメントの作成](using/offers/api-reference/offers-api/placements/create.md)
-            + [プレースメントの更新](using/offers/api-reference/offers-api/placements/update.md)
-            + [プレースメントの削除](using/offers/api-reference/offers-api/placements/delete.md)
-         + 決定ルール{#decision-rules}
-            + [決定ルールのリスト](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
-            + [決定ルールの参照](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [決定ルールの作成](using/offers/api-reference/offers-api/decision-rules/create.md)
-            + [決定ルールの更新](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [決定ルールの削除](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + コレクション修飾子 {#tags}
-            + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [コレクション修飾子の参照](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [コレクション修飾子の作成](using/offers/api-reference/offers-api/tags/create.md)
-            + [コレクション修飾子の更新](using/offers/api-reference/offers-api/tags/update.md)
-            + [コレクション修飾子の削除](using/offers/api-reference/offers-api/tags/delete.md)
-         + パーソナライズされたオファー{#personalized-offers}
-            + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
-            + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-            + [パーソナライズされたオファーの作成](using/offers/api-reference/offers-api/personalized-offers/create.md)
-            + [パーソナライズされたオファーの更新](using/offers/api-reference/offers-api/personalized-offers/update.md)
-            + [パーソナライズされたオファーの削除](using/offers/api-reference/offers-api/personalized-offers/delete.md)
-         + コレクション{#collections}
-            + [コレクションのリスト](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [コレクションの参照](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [コレクションの作成](using/offers/api-reference/offers-api/collections/create.md)
-            + [コレクションの更新](using/offers/api-reference/offers-api/collections/update.md)
-            + [コレクションの削除](using/offers/api-reference/offers-api/collections/delete.md)
-         + フォールバックオファー{#fallback-offers}
-            + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-            + [フォールバックオファーの参照](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [フォールバックオファーを作成](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [フォールバックオファーの更新](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [フォールバックオファーの削除](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-         + 決定 {#decisions-api}
-            + [決定のリスト](using/offers/api-reference/activities-api/activities/activities-list.md)
-            + [決定の参照](using/offers/api-reference/activities-api/activities/lookup.md)
-            + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
-            + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
-            + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
-         + レガシー API {#legacy-api}
-            + [レガシー API について](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
+      + オファーの作成と管理 {#managing-offers-in-the-offer-library}
+         + オファーの設定 {#configure-offers}
+            + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
+            + [表示域を追加](using/offers/offer-library/add-representations.md)
+            + [制約を追加](using/offers/offer-library/add-constraints.md)
+         + [フォールバックオファーを作成](using/offers/offer-library/creating-fallback-offers.md)
+         + [コレクションの作成](using/offers/offer-library/creating-collections.md)
+      + 決定の作成と管理 {#create-manage-activities}
+         + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
+         + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
+         + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
+      + [Batch Decisioning の使用](using/offers/batch-delivery.md)
+      + イベントデータの収集 {#collect-event-data}
+         + [データ収集の基本を学ぶ](using/offers/data-collection/data-collection.md)
+         + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
+         + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
+      + 意思決定管理レポートの作成 {#create-reports}
+         + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
+         + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
+      + オファーカタログのエクスポート{#export-catalog}
+         + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
+         + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
+         + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
+         + [決定データセット](using/offers/export-catalog/export-decisions.md)
+         + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
+         + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
+      + API リファレンス{#api-reference}
+         + [はじめに](using/offers/api-reference/getting-started.md)
+         + API を使用したオファーの作成と管理 {#offers-api}
             + プレースメント {#placements}
-               + [プレースメントのリスト](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
-               + [プレースメントの参照](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
-               + [プレースメントの作成](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
-               + [プレースメントの更新](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
-               + [プレースメントの削除](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+               + [プレースメントのリスト](using/offers/api-reference/offers-api/placements/placements-list.md)
+               + [プレースメントの参照](using/offers/api-reference/offers-api/placements/lookup.md)
+               + [プレースメントの作成](using/offers/api-reference/offers-api/placements/create.md)
+               + [プレースメントの更新](using/offers/api-reference/offers-api/placements/update.md)
+               + [プレースメントの削除](using/offers/api-reference/offers-api/placements/delete.md)
             + 決定ルール{#decision-rules}
-               + [決定ルールのリスト](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
-               + [決定ルールの参照](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
-               + [決定ルールの作成](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
-               + [決定ルールの更新](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
-               + [決定ルールの削除](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+               + [決定ルールのリスト](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+               + [決定ルールの参照](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+               + [決定ルールの作成](using/offers/api-reference/offers-api/decision-rules/create.md)
+               + [決定ルールの更新](using/offers/api-reference/offers-api/decision-rules/update.md)
+               + [決定ルールの削除](using/offers/api-reference/offers-api/decision-rules/delete.md)
             + コレクション修飾子 {#tags}
-               + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
-               + [コレクション修飾子の参照](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
-               + [コレクション修飾子の作成](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
-               + [コレクション修飾子の更新](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
-               + [コレクション修飾子の削除](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+               + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/tags/tags-list.md)
+               + [コレクション修飾子の参照](using/offers/api-reference/offers-api/tags/lookup.md)
+               + [コレクション修飾子の作成](using/offers/api-reference/offers-api/tags/create.md)
+               + [コレクション修飾子の更新](using/offers/api-reference/offers-api/tags/update.md)
+               + [コレクション修飾子の削除](using/offers/api-reference/offers-api/tags/delete.md)
             + パーソナライズされたオファー{#personalized-offers}
-               + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
-               + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
-               + [パーソナライズされたオファーの作成](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
-               + [パーソナライズされたオファーの更新](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
-               + [パーソナライズされたオファーの削除](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-            + フォールバックオファー{#fallback-offers}
-               + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
-               + [フォールバックオファーの参照](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
-               + [フォールバックオファーを作成](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
-               + [フォールバックオファーの更新](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
-               + [フォールバックオファーの削除](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+               + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+               + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+               + [パーソナライズされたオファーの作成](using/offers/api-reference/offers-api/personalized-offers/create.md)
+               + [パーソナライズされたオファーの更新](using/offers/api-reference/offers-api/personalized-offers/update.md)
+               + [パーソナライズされたオファーの削除](using/offers/api-reference/offers-api/personalized-offers/delete.md)
             + コレクション{#collections}
-               + [コレクションのリスト](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
-               + [コレクションの参照](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
-               + [コレクションの作成](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
-               + [コレクションの更新](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
-               + [コレクションの削除](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+               + [コレクションのリスト](using/offers/api-reference/offers-api/collections/collections-list.md)
+               + [コレクションの参照](using/offers/api-reference/offers-api/collections/lookup.md)
+               + [コレクションの作成](using/offers/api-reference/offers-api/collections/create.md)
+               + [コレクションの更新](using/offers/api-reference/offers-api/collections/update.md)
+               + [コレクションの削除](using/offers/api-reference/offers-api/collections/delete.md)
+            + フォールバックオファー{#fallback-offers}
+               + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+               + [フォールバックオファーの参照](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+               + [フォールバックオファーを作成](using/offers/api-reference/offers-api/fallback-offers/create.md)
+               + [フォールバックオファーの更新](using/offers/api-reference/offers-api/fallback-offers/update.md)
+               + [フォールバックオファーの削除](using/offers/api-reference/offers-api/fallback-offers/delete.md)
             + 決定 {#decisions-api}
-               + [決定のリスト](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
-               + [決定の参照](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
-               + [決定の作成](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
-               + [決定の更新](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
-               + [決定の削除](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-      + API を使用したオファーの配信 {#offer-delivery-api}
-         + [オファー配信 API の基本を学ぶ](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
-         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
-         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ エクスペリエンス決定 {#experience-decisioning}
-   + [エクスペリエンス決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
-   + 決定項目の管理 {#decision-items}
-      + [項目カタログの設定](using/experience-decisioning/catalogs.md)
-      + [決定項目の作成](using/experience-decisioning/items.md)
-      + [項目コレクションの管理](using/experience-decisioning/collections.md)
-   + 項目の選択の設定 {#selection}
-      + [決定ルールの作成](using/experience-decisioning/rules.md)
-      + [ランキングメソッドの作成](using/experience-decisioning/ranking.md)
-   + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
-   + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
+               + [決定のリスト](using/offers/api-reference/activities-api/activities/activities-list.md)
+               + [決定の参照](using/offers/api-reference/activities-api/activities/lookup.md)
+               + [決定の作成](using/offers/api-reference/activities-api/activities/create.md)
+               + [決定の更新](using/offers/api-reference/activities-api/activities/update.md)
+               + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
+            + レガシー API {#legacy-api}
+               + [レガシー API について](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+               + プレースメント {#placements}
+                  + [プレースメントのリスト](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+                  + [プレースメントの参照](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+                  + [プレースメントの作成](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+                  + [プレースメントの更新](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+                  + [プレースメントの削除](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+               + 決定ルール{#decision-rules}
+                  + [決定ルールのリスト](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+                  + [決定ルールの参照](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+                  + [決定ルールの作成](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+                  + [決定ルールの更新](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+                  + [決定ルールの削除](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+               + コレクション修飾子 {#tags}
+                  + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+                  + [コレクション修飾子の参照](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+                  + [コレクション修飾子の作成](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+                  + [コレクション修飾子の更新](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+                  + [コレクション修飾子の削除](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+               + パーソナライズされたオファー{#personalized-offers}
+                  + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+                  + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+                  + [パーソナライズされたオファーの作成](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+                  + [パーソナライズされたオファーの更新](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+                  + [パーソナライズされたオファーの削除](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+               + フォールバックオファー{#fallback-offers}
+                  + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+                  + [フォールバックオファーの参照](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+                  + [フォールバックオファーを作成](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+                  + [フォールバックオファーの更新](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+                  + [フォールバックオファーの削除](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+               + コレクション{#collections}
+                  + [コレクションのリスト](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+                  + [コレクションの参照](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+                  + [コレクションの作成](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+                  + [コレクションの更新](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+                  + [コレクションの削除](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+               + 決定 {#decisions-api}
+                  + [決定のリスト](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+                  + [決定の参照](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+                  + [決定の作成](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+                  + [決定の更新](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+                  + [決定の削除](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
+         + API を使用したオファーの配信 {#offer-delivery-api}
+            + [オファー配信 API の基本を学ぶ](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+            + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+            + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+            + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+   + Experience Decisioning （LA） {#experience-decisioning}
+      + [エクスペリエンス決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
+      + 決定項目の管理 {#decision-items}
+         + [品目カタログの構成](using/experience-decisioning/catalogs.md)
+         + [決定項目の作成](using/experience-decisioning/items.md)
+         + [項目コレクションの管理](using/experience-decisioning/collections.md)
+      + 項目選択の設定 {#selection}
+         + [決定ルールの作成](using/experience-decisioning/rules.md)
+         + [ランキングメソッドの作成](using/experience-decisioning/ranking.md)
+         + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
+      + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
+      + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
+      + [Customer Journey Analytics でのレポート](using/experience-decisioning/cja-reporting.md)
 + データ管理 {#data-management}
    + [データ管理の基本を学ぶ](using/data/gs-data.md)
    + [スキーマの操作](using/data/get-started-schemas.md)

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 94%
 
 ---
 
@@ -90,8 +90,4 @@ ht-degree: 100%
 
 ## オファーと決定の変更ログ {#changes-logs}
 
-オファーライブラリを使用すると、オファーまたは決定に対して実行されたすべての変更を表示できます。すべての変更を表示するには、リストでオファーまたは決定の名前をクリックして開き、「 **[!UICONTROL 変更ログ]**」タブを選択します。
-
-加えられたすべての変更と、変更を行ったユーザーの名前がこの画面に表示されます。
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] オファーまたは決定に対して加えられたすべての変更を視覚化できます。 これを行うには、 **[!UICONTROL 監査]** 左メニューの「メニュー」。 [リソースに対するアクションを監査する方法を学ぶ](../../privacy/audit-logs.md)

@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ Journey Optimizer を使用すると、ジャーニー、メッセージ、ラ�
 
 ## 監査ログで記録されるイベントタイプ {#events}
 
-次の表に、監査ログで Journey Optimizer リソースが記録されるアクションの概要を示します。
+次の表に、監査ログでJourney Optimizer リソースが記録されるアクションの概要を示します。 監査ログで記録されるアクションの一覧については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ja#category)を参照してください。
 
 >[!NOTE]
 >
->監査ログで記録されるアクションの一覧については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ja#category)を参照してください。
+>に関連する監査ログ **意思決定管理** は、を使用してダウンロードできる CSV ファイルからのみ表示されます。 **[!UICONTROL ログをダウンロード]** ボタン。
 
 | リソース | アクション |
 |-----------|------------------|

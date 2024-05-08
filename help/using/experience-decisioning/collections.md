@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 95%
+source-wordcount: '370'
+ht-degree: 90%
 
 ---
 
@@ -33,16 +31,6 @@ ht-degree: 95%
 >title="コレクションの選択"
 >abstract="検討するオファーが含まれているコレクションを選択します。この手順は、選択戦略を作成する場合は必須です。コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。例えば、カスタム属性「カテゴリ」に「ヨガ」の値を持つすべての決定項目を含むコレクションを作成できます。"
 
->[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
-
-* [エクスペリエンス決定の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - **[項目コレクションの管理](collections.md)**
-* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
-* [選択戦略の作成](selection-strategies.md)
-* [決定ポリシーを作成](create-decision.md)
-
->[!ENDSHADEBOX]
-
 コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。これらのカテゴリは、決定項目の属性を活用するルールを策定することで作成されます。
 
 例えば、決定項目のカタログスキーマに「カテゴリ」カスタム属性を追加したとします。これにより、「カテゴリ」属性に「ヨガ」の値を持つすべての決定項目を含むコレクションを作成できます。
@@ -58,6 +46,7 @@ ht-degree: 95%
    1. 基準として使用する項目属性を選択します。属性リストには、カタログスキーマで定義されているすべての標準属性とカスタム属性が含まれます。[詳しくは、項目のカタログを参照してください](catalogs.md)
    1. 目的の演算子を選択し、フィルターに使用する値を入力します。
    1. これらの手順を、追加するルールの数だけ繰り返します。複数のルールを追加する場合、**AND** および **OR** 演算子を選択して組み合わせることができます。これを行うには、オペレーターバッジをクリックして、2 つの選択肢を切り替えます。
+   1. 「」をクリックします **[!UICONTROL コレクションをプレビュー]** ボタン：定義したルールを満たすアイテムを表示します。
 
    ![](assets/collection-create.png)
 

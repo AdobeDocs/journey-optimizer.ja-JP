@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="限定提供（LA）"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 97%
+source-wordcount: '330'
+ht-degree: 94%
 
 ---
 
 # Experience Decisioning のユースケース {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
-
-* [Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)
-* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
-* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
-* [選択戦略の作成](selection-strategies.md)
-* [決定ポリシーを作成](create-decision.md)
-
->[!ENDSHADEBOX]
 
 このユースケースでは、それぞれ異なる決定ポリシーを含んだ 2 つの配信処理を定義し、ターゲットオーディエンスに対して最もパフォーマンスが良い配信を測定します。
 
@@ -52,11 +40,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
 それぞれ異なる決定ポリシーを含んだ 2 つの配信処理を定義します。
 
-1. キャンペーンを作成し、「**[!UICONTROL コードベースエクスペリエンス（ベータ版）]**」アクションを選択します。[詳細情報](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >現在、コードベースエクスペリエンス機能は、ベータ版として一部のユーザーのみが利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+1. キャンペーンを作成して選択 **[!UICONTROL コードベースのエクスペリエンス]** アクション。 [詳細情報](../code-based/create-code-based.md)
 
 1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。[詳細情報](../campaigns/content-experiment.md)
 

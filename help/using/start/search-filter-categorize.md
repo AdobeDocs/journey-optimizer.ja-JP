@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -61,12 +61,13 @@ Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs
 
 「**[!UICONTROL タグ]**」フィールドでは、オブジェクトのタグを定義できます。タグは、次のオブジェクトで使用できます。
 
-* [ジャーニー](../building-journeys/journey-gs.md#change-properties)
 * [キャンペーン](../campaigns/create-campaign.md#create)
-* [テンプレート](../content-management/content-templates.md)
+* [決定項目](../experience-decisioning/items.md)
 * [フラグメント](../content-management/fragments.md)
-* [サブスクリプションリスト](../landing-pages/subscription-list.md)
+* [ジャーニー](../building-journeys/journey-gs.md#change-properties)
 * [ランディングページ](../landing-pages/create-lp.md)
+* [サブスクリプションリスト](../landing-pages/subscription-list.md)
+* [テンプレート](../content-management/content-templates.md)
 
 既存のタグを選択することも、新しいタグを作成することもできます。これを行うには、以下の手順に従います。
 

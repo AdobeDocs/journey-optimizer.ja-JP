@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 63%
 
 ---
 
-# Experience Decisioning の基本を学ぶ {#get-started-experience-decisioning}
-
->[!BEGINSHADEBOX 「このドキュメントガイドの内容は次のとおりです」]
-
-* **[Experience Decisioning の基本を学ぶ](gs-experience-decisioning.md)**
-* 決定項目の管理：[項目カタログの設定](catalogs.md) - [決定項目の作成](items.md) - [項目コレクションの管理](collections.md)
-* 項目の選択の設定：[決定ルールの作成](rules.md) - [ランキングメソッドの作成](ranking.md)
-* [選択戦略の作成](selection-strategies.md)
-* [決定ポリシーの作成](create-decision.md)
-
->[!ENDSHADEBOX]
-
-## Experience Decisioning とは {#about}
+# エクスペリエンス決定の基本を学ぶ {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->現在、Experience Decisioning 機能は、ベータ版として一部のユーザーのみが利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+>エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 >
->決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
+>現時点では、Adobeを購入したお客様は機能を利用できません **ヘルスケアシールド** および **プライバシーとセキュリティシールド** アドオン製品
+
+## Experience Decisioning とは {#about}
 
 Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
+これらの決定項目は、新しいコードベースのエクスペリエンスチャネルを通じて様々なインバウンドサーフェスにシームレスに統合され、Journey Optimizer キャンペーン内でアクセスできるようになりました。 エクスペリエンス決定決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
 
 ## Experience Decisioning の主な手順 {#steps}
 
 Experience Decisioning を操作する主な手順は次のとおりです。
 
-1. **適切な権限の割り当て**. 決定は、Experience Decisioning 関連のアクセス権を持つユーザーのみが使用できます **[!UICONTROL 役割]** 意思決定管理者など。 決定にアクセスできない場合は、権限を拡張する必要があります。
+1. **適切な権限の割り当て**. Experience Decisioning は、Experience Decisioning 関連のアクセス権を持つユーザーのみが使用できます **[!UICONTROL 役割]** 意思決定管理者など。 Experience Decisioning にアクセスできない場合は、権限を拡張する必要があります。
 
    +++決定マネージャーの役割の割り当て方法を学ぶ
 
@@ -66,7 +54,7 @@ Experience Decisioning を操作する主な手順は次のとおりです。
 
 +++
 
-1. **カスタム属性の設定**：カスタム属性をカタログのスキーマに設定して、決定項目のカタログを特定の要件に合わせます。
+1. **カスタム属性の設定**：カタログのスキーマにカスタム属性を設定することで、特定の要件に合わせて品目カタログをカスタマイズします。
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
