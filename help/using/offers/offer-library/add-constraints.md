@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
-workflow-type: ht
+source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+workflow-type: tm+mt
 source-wordcount: '2617'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 100%
 >id="ajo_decisioning_capping"
 >title="キャッピングの使用"
 >abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる回数の上限を定義します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=ja#capping-change-date" text="日付を変更すると、キャッピングに影響を与える場合があります"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="日付を変更すると、キャッピングに影響を与える場合があります"
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
