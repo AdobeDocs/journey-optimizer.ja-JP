@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 多言語コンテンツの基本を学ぶ
-description: Journey Optimizer での多言語コンテンツについて学ぶ
+title: 手動翻訳を使用した多言語コンテンツの作成
+description: Journey Optimizerで手動翻訳によって多言語コンテンツを作成する方法を説明します
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="ベータ版" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '665'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 **目次**
 
 * [多言語コンテンツの基本を学ぶ](multilingual-gs.md)
-* **[手動翻訳を使用した多言語コンテンツの作成](multilingual-manual.md)**
+* 手動翻訳を使用した多言語コンテンツの作成
 * [自動翻訳を使用した多言語コンテンツの作成](multilingual-automated.md)
 * [多言語キャンペーンレポート](multilingual-report.md)
 

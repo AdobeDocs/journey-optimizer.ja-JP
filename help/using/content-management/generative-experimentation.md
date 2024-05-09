@@ -7,10 +7,11 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="ベータ版" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
+exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 23%
@@ -27,7 +28,7 @@ ht-degree: 23%
 * [AI アシスタントを使用したメールの生成](generative-email.md)
 * [AI アシスタントを使用した SMS の生成](generative-sms.md)
 * [AI アシスタントによるプッシュ生成](generative-push.md)
-* **[AI アシスタントを使用したコンテンツ実験](generative-experimentation.md)**
+* AI アシスタントを使用したコンテンツ実験
 
 >[!ENDSHADEBOX]
 
