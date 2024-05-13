@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '2022'
-ht-degree: 100%
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ## フラグメントガードレール {#fragments-guardrails}
 
 * ビジュアルフラグメントは、メールチャネルでのみ使用できます。
-* 式フラグメントは、web チャネルとアプリ内チャネルでは使用できません。
+* 式フラグメントは、アプリ内チャネルでは使用できません。
 
 ## ジャーニーガードレール {#journeys-guardrails}
 

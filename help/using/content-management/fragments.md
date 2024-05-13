@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 100%
+source-wordcount: '1561'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 * ビジュアルフラグメントは、メールチャネルでのみ使用できます
 
-* 式フラグメントは、web チャネルとアプリ内チャネルでは使用できません
+* 式フラグメントはアプリ内チャネルでは使用できません
 
 ## フラグメントへのアクセスと管理 {#access-manage-fragments}
 
