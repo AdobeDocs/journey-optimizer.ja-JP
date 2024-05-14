@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 99%
 >id="ajo_admin_subdomain_sms"
 >title="SMS／MMS サブドメインのデリゲート"
 >abstract="SMS サーフェスを作成するにはこのサブドメインが必要なので、テキストメッセージで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="SMS／MMS サブドメインの選択"
 >abstract="SMS サーフェスを作成できるようにするには、少なくとも 1 つの SMS サブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
 
 SMS／MMS メッセージに追加された URL を短縮できるようにするには、[SMS サーフェスを作成](sms-configuration.md#message-preset-sms)する際に選択するサブドメインを設定する必要があります。
 
