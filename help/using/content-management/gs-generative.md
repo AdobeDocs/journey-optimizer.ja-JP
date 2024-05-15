@@ -11,9 +11,9 @@ badge: label="ベータ版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '658'
 ht-degree: 85%
 
 ---
@@ -21,9 +21,22 @@ ht-degree: 85%
 # AI アシスタントの基本を学ぶ {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
->id="ajo_content_generation"
->title="メールコンテンツの作成"
->abstract="Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツのバリエーションの提案を提供します。メール、プッシュ、SMS および web の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。"
+>id="ajo_ai_generation_settings"
+>title="AI アシスタント"
+>abstract="配信を作成しパーソナライズしたら、AI アシスタントを使用してコンテンツを強化できます。この機能を使用すると、生成する内容を記述してコンテンツを微調整できるので、パーソナライゼーションとコンテンツ改善のプロセスが簡素化されます。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_context"
+>title="AI アシスタントでコンテキストを定義"
+>abstract="選択したコンテンツをコンテンツ生成用の入力として使用するには、 **元のコンテンツを使用** 切り替えます。 また、ブランドアセットをアップロードして、ソースとして使用することもできます。選択したコンテンツを使用しない場合は、ブランドアセットのアップロードと選択が必須です。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_start"
+>title="Adobe 生成 AI の用語"
+>abstract="この機能へアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインへの同意が必要です。この機能に対して提供するプロンプト、コンテキスト、補足情報、その他の入力は、特定のコンテキストに関連付ける必要があります。これには、ブランディング資料、web サイトのコンテンツ、データ、データのスキーマ、テンプレート、その他の信頼できるドキュメントを含めることができますが、個人情報は含めないでください（個人情報には、特定の個人に関連付けることができるあらゆる情報が含まれます）。この機能からの出力が正確であるかどうかを確認し、ユースケースに適切であることを確認する必要があります。"
+>additional-url="https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
 
 >[!BEGINSHADEBOX]
 
