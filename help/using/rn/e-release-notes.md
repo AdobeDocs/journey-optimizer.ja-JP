@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 32%
+source-wordcount: '778'
+ht-degree: 31%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 32%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform データセット内のデータ値を検索して取得し、これらの値を使用してAdobe Journey Optimizerで条件を作成できるようになりました。 オブジェクトの配列内で属性を使用して関係が定義されている場合、ルックアップデータセットのデータを活用できます。 参照値は、ジャーニーの条件、カスタムアクション、メッセージのパーソナライゼーションで使用できます。</p>
+<p>Adobe Experience Platform データセット内のデータ値を検索して取得し、これらの値を使用してAdobe Journey Optimizerで条件を作成できるようになりました。 オブジェクトの配列内で属性を使用して関係が定義されている場合、ルックアップデータセットのデータを活用できます。 プロファイルが有効になっていないデータセットを参照用に指定できます。 有効にすると、指定したデータセットへの結合キーとしてプロファイル属性を使用し、パーソナライゼーション用にさらにデータを取得できます。</p>
 </td>
 </tr>
 </tbody>
