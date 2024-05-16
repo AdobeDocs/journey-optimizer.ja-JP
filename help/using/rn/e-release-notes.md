@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 35%
+source-wordcount: '764'
+ht-degree: 32%
 
 ---
 
@@ -85,33 +85,17 @@ ht-degree: 35%
 <table>
 <thead>
 <tr>
-<th><strong>ローカルルックアップのためのマルチエンティティのサポート – ベータ版</strong><br/></th>
+<th><strong>拡張されたパーソナライゼーションデータ – ベータ版</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>未定</p>
+<p>Adobe Experience Platform データセット内のデータ値を検索して取得し、これらの値を使用してAdobe Journey Optimizerで条件を作成できるようになりました。 オブジェクトの配列内で属性を使用して関係が定義されている場合、ルックアップデータセットのデータを活用できます。 参照値は、ジャーニーの条件、カスタムアクション、メッセージのパーソナライゼーションで使用できます。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### 機能強化 {#e-improvements}
 
@@ -137,7 +121,7 @@ ht-degree: 35%
 **メールチャネル**
 
 * **リスト – 登録解除**  – 一括送信者向けの最近の Gmail および Yahoo のお知らせに続いて、Journey Optimizerでは、「投稿/1 クリック」のリスト購読解除オプションをサポートしています。
-* **スパムのスコアリング**  – 専用のスパムレポートでコンテンツスパムのスコアを確認できるようになりました。 Adobe Journey Optimizerは SpamAssassin を使用してメールコンテンツをテストし、ISP プロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。 [詳細情報](../content-management/spam-report.md)
+* **スパムのスコアリング** （ベータ版） – コンテンツのスパムのスコアを専用のスパムレポートで確認できるようになりました。 Adobe Journey Optimizerは SpamAssassin を使用してメールコンテンツをテストし、ISP プロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。 [詳細情報](../content-management/spam-report.md)
 
 
 **オーディエンス**
@@ -146,10 +130,10 @@ ht-degree: 35%
 
 **パーソナライゼーション**
 
-* **参照テーブル** - オブジェクトの配列内で属性を使用して関係が定義された場合、ルックアップデータセットのデータを活用できるようになりました。 ジャーニー（条件、カスタムアクションなど）でルックアップ値を使用できるようになります メッセージのパーソナライゼーションでは、参照値は使用できません。
-* **式フラグメント** - アプリ内チャネルで式フラグメントを使用できるようになりました。
+* **式フラグメント**  – 式フラグメントを **アプリ内チャネル**. [詳細情報](../personalization/use-expression-fragments.md)
 
 **ジャーニー**
 
 * **結合ポリシー**  – 結合ポリシーを設定し、ジャーニーで使用できるようになりました。
 * **mTLS サポート** - mTLS プロトコルがJourney Optimizer API とカスタムアクションでサポートされるようになりました。
+* **イベントのルックアップテーブル** - オブジェクトの配列内で属性を使用して関係が定義された場合、ルックアップデータセットのデータを活用できるようになりました。 ジャーニー（条件、カスタムアクションなど）でルックアップ値を使用できるようになります メッセージのパーソナライゼーションでは、参照値は使用できません。
