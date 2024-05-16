@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
+source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 31%
+source-wordcount: '836'
+ht-degree: 27%
 
 ---
 
@@ -75,7 +75,9 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>詳細なフリークエンシーキャッピングルールを作成し、ルールセットを使用して様々なタイプのマーケティングコミュニケーションに適用できるようになりました。 </p>
+<p>詳細なフリークエンシーキャッピングルールを作成し、ルールセットを使用して様々なタイプのマーケティングコミュニケーションに適用できるようになりました。 この新しい機能を使用すると、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルルールを設定することで、オーディエンスがメッセージを受け取る頻度を制御できます。</p>
+<p>ビジネスルール機能は、現在、パブリックベータ版としてのみ利用できます。</p>
+<p>詳しくは、<a href="../configuration/business-rules.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -103,16 +105,16 @@ ht-degree: 31%
 
 **Experience Decisioning**
 
-ベータ版から LA まで、次の改善が追加されました。
+ベータ版からこのリリースでは、次の改善が追加されました。
 
-* **Experience Decisioning + コードベースエクスペリエンス（LA）**:Experience Decisioning 機能を活用して、コードベースのキャンペーンで決定項目を使用できるようになりました。 メモ：Adobeの Healthcare Shield およびプライバシーとセキュリティシールド アドオン機能を購入した組織では、コードベースのエクスペリエンスチャネルとエクスペリエンス決定は使用できません。 [詳細情報](../code-based/get-started-code-based.md)
-* 決定ルールとランキング式で、Adobe Experience Platformのコンテキストデータを活用できるようになりました。 [詳細情報](../experience-decisioning/context-data.md)
-* 意思決定管理リソースで、新しい「エクスペリエンス決定の管理」権限を利用できるようになりました。Experience Decisioning に関連する権限を管理できます。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
-* エクスペリエンス決定で特定の決定項目に対して、複数のキャッピングルールを追加できるようになりました。これにより、オファーの送信方法に対する制御レベルを高めることができます。 [詳細情報](../experience-decisioning/items.md#capping)
-* を使用して、Experience Decisioning キャンペーンのカスタムレポートダッシュボードを作成できるようになりました [!DNL Customer Journey Analytics]. [詳細情報](../experience-decisioning/cja-reporting.md)
+* **Experience Decisioning + コードベースエクスペリエンス（LA）** - Experience Decisioning 機能を活用して、コードベースのキャンペーンで決定項目を使用できるようになりました。 メモ：Adobeの Healthcare Shield およびプライバシーとセキュリティシールド アドオン機能を購入した組織では、コードベースのエクスペリエンスチャネルとエクスペリエンス決定は使用できません。 [詳細情報](../code-based/get-started-code-based.md)
+* **コンテキストデータ**  – 決定ルールとランキング式で、Adobe Experience Platformのコンテキストデータを活用できるようになりました。 [詳細情報](../experience-decisioning/context-data.md)
+* **新しい権限**  – 新しい「エクスペリエンス決定の管理」権限が意思決定管理リソースで使用できるようになりました。 Experience Decisioning に関連する権限を管理できます。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+* **キャッピングルール** - Experience Decisioning で特定の決定項目に対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを高めることができます。 [詳細情報](../experience-decisioning/items.md#capping)
+* **報告書**  – を使用して、エクスペリエンス決定キャンペーンのカスタムレポートダッシュボードを作成できるようになりました [!DNL Customer Journey Analytics]. [詳細情報](../experience-decisioning/cja-reporting.md)
 
 
-**Offer Decisioning**
+**意思決定管理**
 
 * **複数ルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを高めることができます。
 * **監査**  – が **変更ログ** タブを使用すると、オファーまたは決定に加えられたすべての変更が表示されます。 オファーと決定に関連する変更は、**監査**&#x200B;メニューで確認できるようになりました。
@@ -134,6 +136,6 @@ ht-degree: 31%
 
 **ジャーニー**
 
-* **結合ポリシー**  – 結合ポリシーを設定し、ジャーニーで使用できるようになりました。
+* **結合ポリシー** （限定提供） – ジャーニーで使用される結合ポリシーがジャーニー全体で表示され、一貫するようになりました。
 * **mTLS サポート** - mTLS プロトコルがJourney Optimizer API とカスタムアクションでサポートされるようになりました。
 * **イベントのルックアップテーブル** - オブジェクトの配列内で属性を使用して関係が定義された場合、ルックアップデータセットのデータを活用できるようになりました。 ジャーニー（条件、カスタムアクションなど）でルックアップ値を使用できるようになります メッセージのパーソナライゼーションでは、参照値は使用できません。
