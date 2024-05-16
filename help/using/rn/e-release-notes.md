@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b779d297769bd7a0b6913a0142ee7be7775ba04
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 37%
+source-wordcount: '699'
+ht-degree: 35%
 
 ---
 
@@ -134,9 +134,11 @@ ht-degree: 37%
 * **監査**  – が **変更ログ** タブを使用すると、オファーまたは決定に加えられたすべての変更が表示されます。 オファーと決定に関連する変更は、**監査**&#x200B;メニューで確認できるようになりました。
 
 
-**リスト – 登録解除**
+**メールチャネル**
 
-* 一括送信者向けの最近の Gmail および Yahoo のお知らせに続いて、Journey Optimizerでは、「投稿/1 クリック」のリスト購読解除オプションをサポートしています。
+* **リスト – 登録解除**  – 一括送信者向けの最近の Gmail および Yahoo のお知らせに続いて、Journey Optimizerでは、「投稿/1 クリック」のリスト購読解除オプションをサポートしています。
+* **スパムのスコアリング**  – 専用のスパムレポートでコンテンツスパムのスコアを確認できるようになりました。 Adobe Journey Optimizerは SpamAssassin を使用してメールコンテンツをテストし、ISP プロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。 [詳細情報](../content-management/spam-report.md)
+
 
 **オーディエンス**
 

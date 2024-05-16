@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -231,7 +231,7 @@ ht-degree: 96%
    + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
    + SMS/MMS チャネルの設定{#configure-sms}
-      + [SMS 設定の概要](using/sms/sms-configuration.md)
+      + [SMS 設定の基本を学ぶ](using/sms/sms-configuration.md)
       + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
       + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
       + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
@@ -322,7 +322,7 @@ ht-degree: 96%
       + [コンテンツのプレビュー](using/content-management/preview.md)
       + [メール配達確認を送信](using/content-management/proofs.md)
       + [メールのレンダリングをテスト](using/content-management/rendering.md)
-      + [スパムレポートの使用](using/content-management/spam-report.md)
+      + [E メールスパムレポート](using/content-management/spam-report.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)

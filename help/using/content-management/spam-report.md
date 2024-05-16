@@ -4,49 +4,36 @@ description: 詳しくは、スパムレポートの使用方法を参照して�
 feature: Preview
 role: User
 level: Beginner
+badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 34%
 
 ---
 
-# スパムレポートの使用 {#spam-report}
-
->[!AVAILABILITY]
->
->現在、スパムレポート機能は、ベータ版として一部のユーザーのみが利用できます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+# E メールスパムレポート {#spam-report}
 
 [!DNL Journey Optimizer] では、コンテンツがスパムフィルタリングに対してどのように実行されるかを確認し、メッセージがスパムではなく、顧客の受信ボックスに着信されることを確認できます。
 
+メールコンテンツの編集またはプレビュー時、 **[!UICONTROL スパムレポート]** オプションには、リストされている個々の項目のスコアを向上させるためのスコアリングとアドバイスが用意されています。
+
+これにより、メッセージが受信時に使用されるスパム対策ツールによってスパムと見なされるリスクを冒しているかどうかを判断し、そうでない場合はアクションを実行できます。 多くのメールインボックスプロバイダーは、スパムフィルタリングプロセスの一環としてツールを使用しています。 悪いスコアのメールを送信すると、配信品質に大きな影響を与える可能性があります。
+
+
 >[!CAUTION]
 >
->* この機能は、現在、メールチャネルでのみ使用できます。
+>* この機能は現在、プライベートベータ版としてのみ利用できます。
 >
 >* 現時点では、スパムレポート分析は英語のコンテンツに対してのみ実行できます。
-
-コンテンツを編集またはプレビューする際に、「**[!UICONTROL スパムレポート]**」オプションでは、リストされる個々の項目のスコアを改善するためのスコア付けとアドバイスを提供します。
-
-これにより、受信時に使用されるスパム対策ツールによってメッセージがスパムと見なされるリスクがあるかどうかを判断し、そうでない場合は対策を講じることができます。
-
->[!CAUTION]
 >
->スパムレポートは、表示および警告のみを提供します。スパムレポートでコンテンツがスパムと見なされた場合でも、メッセージの送信が妨げられないことに注意してください。スコアおよび推奨される改善点に基づいて行動するかどうかの判断はユーザー次第です。
+>* >
+>スパムレポートは有益で、で不正なスコアのメッセージが送信されるのを防ぐことはできません。
 
-**[!UICONTROL スパムレポート]**&#x200B;機能を使用するには、次の手順に従います。
-
-<!--For example spam scoring tool can tell that there are too many Images compared to the text. Retailers tend to do this even though the spam score gets worse because the content is more engaging.-->
-
-<!--Michael, who is a marketer with NIKE works along with Tara from testing team to ensure that the emails being sent as part of the campaign/journey don't get categorised as SPAM.
-
-They need an integration within AJO's marketing system to show how the curated content is doing against different SPAM compliance pillars like for SPAM trigger words, HTML Body content and layout, subject line etc.
-
-They should be able to get scores for each individual items as shown by market standard SPAM filtering tools like Spam Assassin, Symantec etc.
-
-They should also get suggestions on how to improve the score better to be confident that the messages don't get categorised as spam.-->
+にアクセスするには **[!UICONTROL スパムレポート]**&#x200B;は、次の手順に従います。
 
 1. **[!UICONTROL シミュレート]**&#x200B;画面で、「**[!UICONTROL スパムレポート]**」ボタンをクリックします。
 
@@ -64,11 +51,11 @@ They should also get suggestions on how to improve the score better to be confid
 
 1. 各項目のスコアと説明を確認します。
 
-   スコアが 5 を超える場合は、警告が表示されます。これは、一部のメッセージが受信時にスパム対策ツールによってブロックされたり、スパムとしてマークされたりする可能性があることを示しています。
+   スコアが低いほど、より良い。 スコアが 5 を超える場合は、警告が表示されます。これは、一部のメッセージが受信時にブロックされるか、スパムと見なされる可能性があることを示しています。
 
-1. このスコアリングに基づいて、一部の要素を改善できると考えられる場合は、[メールデザイナー](../email/content-from-scratch.md)を使用してコンテンツに移動して、必要に応じて更新を行います。
+1. このスコアリングに基づいて一部の要素が改善可能であると判断した場合は、 [電子メールデザイナー](../email/content-from-scratch.md) 必要な更新を行います。
 
-1. 変更が完了したら、**[!UICONTROL スパムレポート]**&#x200B;画面に戻り、スコアを確実に向上させます。
+1. 変更が完了したら、に戻ります **[!UICONTROL スパムレポート]** 画面を使用して、スコアが向上したことを確認します。
 
    ![](assets/spam-report-low-score.png)
 
