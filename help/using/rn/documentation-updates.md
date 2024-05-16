@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '5230'
 ht-degree: 98%
@@ -87,7 +87,7 @@ ht-degree: 98%
 * キャッシュ時間に関するカスタム認証ドキュメントが更新されます。[詳細情報] (../datasource/external-data-sources.md)
 * `<listObject>` のサポートは、複数の機能で変更されました。
 * `toString` 関数の&#x200B;**期間**&#x200B;パラメーターが更新されます。[詳細情報](../building-journeys/functions/functiontostring.md)
-* 一部の外部データソースのユースケースでは、カスタムアクションの使用をお勧めします。
+* 一部の外部データソースのユースケースでは、カスタムアクションの使用が推奨されます。
 * イベントフィールドの構文が更新されました。次の構文は、非推奨（廃止予定）の `@(my_event.myfield}` で、`@event{my_event.myfield}` に置き換えられます。[詳細情報](../building-journeys/expression/field-references.md)
 * グローバルレポートガイドとライブレポートガイドの構成が変更されました。[詳細情報](../reports/campaign-global-report.md)
 
