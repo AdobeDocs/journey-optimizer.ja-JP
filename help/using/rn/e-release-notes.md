@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
+source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 28%
+source-wordcount: '736'
+ht-degree: 27%
 
 ---
 
@@ -104,11 +104,11 @@ ht-degree: 28%
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-**Experience Decisioning**
+**Experience Decisioning** （限定提供）
 
 ベータ版からこのリリースでは、次の改善が追加されました。
 
-* **Experience Decisioning + コードベースエクスペリエンス（LA）** - Experience Decisioning 機能を活用して、コードベースのキャンペーンで決定項目を使用できるようになりました。 メモ：Adobeの Healthcare Shield およびプライバシーとセキュリティシールド アドオン機能を購入した組織では、コードベースのエクスペリエンスチャネルとエクスペリエンス決定は使用できません。 [詳細情報](../code-based/get-started-code-based.md)
+* **エクスペリエンス決定+ コードベースのエクスペリエンス** - Experience Decisioning 機能を活用して、コードベースのキャンペーンで決定項目を使用できるようになりました。 メモ：Adobeの Healthcare Shield およびプライバシーとセキュリティシールド アドオン機能を購入した組織では、コードベースのエクスペリエンスチャネルとエクスペリエンス決定は使用できません。 [詳細情報](../code-based/get-started-code-based.md)
 * **コンテキストデータ**  – 決定ルールとランキング式で、Adobe Experience Platformのコンテキストデータを活用できるようになりました。 [詳細情報](../experience-decisioning/context-data.md)
 * **新しい権限**  – 新しい「エクスペリエンス決定の管理」権限が意思決定管理リソースで使用できるようになりました。 Experience Decisioning に関連する権限を管理できます。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 * **キャッピングルール** - Experience Decisioning で特定の決定項目に対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを高めることができます。 [詳細情報](../experience-decisioning/items.md#capping)
