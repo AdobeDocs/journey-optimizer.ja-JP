@@ -6,9 +6,9 @@ description: Journey Optimizer 早期リリースノート
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a9254ea7390be02210d770f657b1abb82d9e544
+source-git-commit: 7addbcaf12611860c0dde239b68be54493b99bb9
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '716'
 ht-degree: 26%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>詳細なフリークエンシーキャッピングルールを作成し、ルールセットを使用して様々なタイプのマーケティングコミュニケーションに適用できるようになりました。 この新しい機能を使用すると、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルルールを設定することで、オーディエンスがメッセージを受け取る頻度を制御できます。</p>
-<p>ビジネスルール機能は現在、パブリックベータ版として利用できます。</p>
+<p>ビジネスルール機能は現在、ベータ版として利用できます。 ベータ版プログラムに参加するには、Adobe担当者にお問い合わせください。</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
