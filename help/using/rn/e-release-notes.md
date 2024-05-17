@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
+source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 26%
+source-wordcount: '825'
+ht-degree: 24%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>新しい IP アドレスでメールを送信している場合に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。 Adobe Journey Optimizerは、最適な配信品質を得るためのベストプラクティスに従って IP アドレスをウォームアップする、標準化された効率的な方法を提供します。</p>
-<p>詳しくは、<a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ ht-degree: 26%
 <td>
 <p>詳細なフリークエンシーキャッピングルールを作成し、ルールセットを使用して様々なタイプのマーケティングコミュニケーションに適用できるようになりました。 この新しい機能を使用すると、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルルールを設定することで、オーディエンスがメッセージを受け取る頻度を制御できます。</p>
 <p>ビジネスルール機能は現在、パブリックベータ版として利用できます。</p>
-<p>詳しくは、<a href="../configuration/business-rules.md">詳細なドキュメント</a>を参照してください。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -124,7 +124,8 @@ ht-degree: 26%
 **メールチャネル**
 
 * **リスト – 登録解除**  – 一括送信者向けの最近の Gmail および Yahoo のお知らせに続いて、Journey Optimizerでは、「投稿/1 クリック」のリスト購読解除オプションをサポートしています。
-* **スパムのスコアリング** （ベータ版） – コンテンツのスパムのスコアを専用のスパムレポートで確認できるようになりました。 Adobe Journey Optimizerは SpamAssassin を使用してメールコンテンツをテストし、ISP プロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。 [詳細情報](../content-management/spam-report.md)
+* **スパムのスコアリング** （ベータ版） – コンテンツのスパムのスコアを専用のスパムレポートで確認できるようになりました。 Adobe Journey Optimizerは SpamAssassin を使用してメールコンテンツをテストし、ISP プロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。
+  <!--[Read more](../content-management/spam-report.md)-->
 
 
 **オーディエンス**
@@ -133,10 +134,11 @@ ht-degree: 26%
 
 **パーソナライゼーション**
 
-* **式フラグメント**  – 式フラグメントを **アプリ内チャネル**. [詳細情報](../personalization/use-expression-fragments.md)
+* **式フラグメント**  – 式フラグメントを **アプリ内チャネル**.
+  <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 **ジャーニー**
 
-* **結合ポリシー** （限定提供） – ジャーニーで使用される結合ポリシーがジャーニー全体で表示され、一貫性を持つようになりました。
-* **mTLS サポート** - mTLS プロトコルがJourney Optimizer API とカスタムアクションでサポートされるようになりました。
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **mTLS サポート** - カスタムアクションで mTLS 認証がサポートされるようになりました。 カスタムアクションやジャーニーでは、mTLS を有効化するために追加の設定は必要ありません。mTLS が有効なエンドポイントが検出されると、この設定は自動的に行われます。
 * **イベントのルックアップテーブル** - オブジェクトの配列内で属性を使用して関係が定義された場合、ルックアップデータセットのデータを活用できるようになりました。 ジャーニー（条件、カスタムアクションなど）でルックアップ値を使用できるようになります メッセージのパーソナライゼーションでは、参照値は使用できません。
