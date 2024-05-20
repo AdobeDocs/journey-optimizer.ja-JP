@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="選択戦略の定義"
->abstract="選択戦略は再利用可能で、実施要件制約に関連付けられたコレクションと、決定ポリシーで選択されたときに表示されるオファーを決定するためのランキング方法で構成されます。"
+>abstract="選択戦略は再利用可能で、実施要件の制約に関連付けられたコレクションと、決定ポリシーで選択した際に表示されるオファーを決定するためのランキング方法で構成されます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="決定ポリシーを作成"
 
 >[!CONTEXTUALHELP]

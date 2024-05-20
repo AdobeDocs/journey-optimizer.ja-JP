@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="決定とは"
->abstract="決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。 決定ポリシーはキャンペーンに固有です。 目的は、プロファイルごとに最適なオファーを選択することです。一方、キャンペーンオーサリングでは、選択した決定項目の表示方法（メッセージに含める項目属性など）を指定できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Experience Decisioning について"
+>abstract="決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーは、キャンペーンに固有です。決定ポリシーの目標は各プロファイルに最適なオファーを選択することですが、キャンペーンオーサリングでは、メッセージに含める項目の属性など、選択した決定項目の表示方法を指定することができます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Experience Decisioning について"
 
 決定ポリシーは、オーディエンスに応じて配信する最適なコンテンツを選択するためにエクスペリエンス判定エンジンを活用するオファーのコンテナです。
 
-決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。 決定ポリシーはキャンペーンに固有です。 目的は、プロファイルごとに最適なオファーを選択することです。一方、キャンペーンオーサリングでは、選択した決定項目の表示方法（メッセージに含める項目属性など）を指定できます。
+決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーは、キャンペーンに固有です。決定ポリシーの目標は各プロファイルに最適なオファーを選択することですが、キャンペーンオーサリングでは、メッセージに含める項目の属性など、選択した決定項目の表示方法を指定することができます。
 
 >[!NOTE]
 >
@@ -46,8 +46,8 @@ ht-degree: 83%
 >id="ajo_code_based_strategy"
 >title="戦略とは"
 >abstract="選択戦略の順序によって、最初に評価される戦略が決まります。少なくとも 1 つの戦略が必要です。組み合わせ戦略の決定項目は、一緒に評価されます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="戦略の作成"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="評価順序"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="戦略の作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="評価順序"
 
 Web サイトやモバイルアプリで訪問者に最適な動的なオファーおよびエクスペリエンスを提示するには、コードベースキャンペーンに決定ポリシーを追加します。これを行うには、以下の手順に従います。
 
