@@ -4,12 +4,14 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer 早期リリースノート
 feature: Release Notes
+hide: true
+hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: de9aba41b6351bc7bad18f3d774612a03673f185
+source-git-commit: bd4e352378ba9f895a192b467a650013af669c4d
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 25%
+ht-degree: 37%
 
 ---
 
@@ -38,7 +40,7 @@ ht-degree: 25%
 <tr>
 <td>
 <p>Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。</p>
-<p>これらの決定項目は、新しいコードベースのエクスペリエンスチャネルを通じて様々なインバウンドサーフェスにシームレスに統合され、Journey Optimizer キャンペーン内でアクセスできるようになりました。 エクスペリエンス決定決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
+<p>これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンドサーフェスにシームレスに統合されます。Experience Decisioning 決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
 <p>エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>詳しくは、<a href="../experience-decisioning/gs-experience-decisioning.md">詳細なドキュメント</a>を参照してください。</p>
@@ -106,10 +108,10 @@ ht-degree: 25%
 
 ベータ版からこのリリースでは、次の改善が追加されました。
 
-* **エクスペリエンス決定+ コードベースのエクスペリエンス** - Experience Decisioning 機能を活用して、コードベースのキャンペーンで決定項目を使用できるようになりました。 メモ：Adobeの Healthcare Shield およびプライバシーとセキュリティシールド アドオン機能を購入した組織では、コードベースのエクスペリエンスチャネルとエクスペリエンス決定は使用できません。 [詳細情報](../code-based/get-started-code-based.md)
+* **エクスペリエンス決定+ コードベースのエクスペリエンス** - Experience Decisioning 機能を活用して、コードベースのキャンペーンで決定項目を使用できるようになりました。 メモ：Adobe Healthcare Shield および Privacy and Security Shield アドオン製品を購入した組織では、コードベースのエクスペリエンスチャネルと Experience Decisioning を使用できません。[詳細情報](../code-based/get-started-code-based.md)
 * **コンテキストデータ**  – 決定ルールとランキング式で、Adobe Experience Platformのコンテキストデータを活用できるようになりました。 [詳細情報](../experience-decisioning/context-data.md)
-* **新しい権限**  – 新しい「エクスペリエンス決定の管理」権限が意思決定管理リソースで使用できるようになりました。 Experience Decisioning に関連する権限を管理できます。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
-* **キャッピングルール** - Experience Decisioning で特定の決定項目に対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを高めることができます。 [詳細情報](../experience-decisioning/items.md#capping)
+* **新しい権限**  – 新しい「エクスペリエンス決定の管理」権限が意思決定管理リソースで使用できるようになりました。 Experience Decisioning に関連する権限を管理できます。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+* **キャッピングルール** - Experience Decisioning で特定の決定項目に対して複数のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../experience-decisioning/items.md#capping)
 * **報告書**  – を使用して、エクスペリエンス決定キャンペーンのカスタムレポートダッシュボードを作成できるようになりました [!DNL Customer Journey Analytics]. [詳細情報](../experience-decisioning/cja-reporting.md)
 
 
