@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 式，エディター
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Journey Optimizerでは、式エディターでAdobe Experience Platformのデ�
 
 1. 式エディターを開きます。このエディターは、メッセージなど、パーソナライゼーションを定義できるすべてのコンテキストで使用できます。 [式エディターの操作方法の詳細を学ぶ](../personalization/personalization-build-expressions.md)
 
-1. ヘルパー関数リストに移動し、 **MultiEntity** コードペインへのヘルパー関数。
+1. ヘルパー関数リストに移動し、 **datasetLookup** コードペインへのヘルパー関数。
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ Journey Optimizerでは、式エディターでAdobe Experience Platformのデ�
 
    * **entity.datasetId** は、操作しているデータセットの ID です。
    * **id** は、データセットでプライマリ id として使用されるフィールドです。
+
+     >[!NOTE]
+     >
+     >このフィールドに入力する値は、フィールド ID （*profile.couponValue*）、ジャーニーイベントで渡されるフィールド（*context.journey.events.event_ID.couponValue*）または静的な値（*クーポン Abcd*）に設定します。 いずれの場合も、システムでは値とデータセットへのルックアップを使用して、値がキーと一致するかどうかを確認します）。
+
    * **result** は、データセットから取得するすべてのフィールド値を参照するために指定する必要がある任意の名前です。 この値は、コードで各フィールドを呼び出すために使用されます。
 
    +++データセット ID はどこで取得できますか？

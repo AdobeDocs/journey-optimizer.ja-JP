@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 45fe3ebd3039353697acdf574d18f9409ce17639
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1811'
 ht-degree: 99%
 
 ---
@@ -289,6 +289,7 @@ ht-degree: 99%
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
+      + [パーソナライゼーションへのAdobe Experience Platform データの使用](using/personalization/lookup-aep-data.md)
       + 式エディターの操作 {#expression-editor}
          + [式エディターについて](using/personalization/personalization-build-expressions.md)
          + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
