@@ -5,12 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限定提供（LA）"
+badge: label="限定提供"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
 workflow-type: tm+mt
 source-wordcount: '1746'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 97%
 >id="ajo_exd_items"
 >title="決定項目を管理"
 >abstract="Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。現在、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合されます。この画面から、「**スキーマを編集**」ボタンを使用してカタログのスキーマにアクセスし、決定項目のカスタム属性を作成することもできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="項目カタログを設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ja" text="項目カタログの設定"
 
-Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。これらは、ニーズに正確に合致するように設計された標準属性とカスタム属性で構成されています。 さらに、決定項目を表示可能なユーザーを定義できる、プロファイル制約が組み込まれています。
+Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。これらは、ニーズに正確に合わせて設計された標準属性とカスタム属性で構成されています。さらに、決定項目を表示可能なユーザーを定義できる、プロファイル制約が組み込まれています。
 
 決定項目を表示する対象を決定する条件を設定する場合は、決定項目を作成する前に、必ず&#x200B;**決定ルール**&#x200B;を作成してください。[決定ルールを作成する方法を学ぶ](rules.md)。
 
-決定項目を作成するには、に移動します。 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL カタログ]**&#x200B;を選択し、 **[!UICONTROL 項目を作成]** 次に、以下の節で説明する手順に従います。
+決定項目を作成するには、**[!UICONTROL Experience Decisioning]**／**[!UICONTROL カタログ]**&#x200B;に移動し、「**[!UICONTROL 項目を作成]**」をクリックして、以下の節で説明する手順に従います。
 
 ## 決定項目の属性を定義 {#attributes}
 
@@ -39,7 +39,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >id="ajo_exd_item_custom_attributes"
 >title="カスタム属性を定義"
 >abstract="カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。これらは、決定項目のカタログスキーマで作成されます。このセクションは、カタログスキーマに少なくとも 1 つのカスタム属性を追加した場合にのみ表示されます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="項目カタログを設定"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ja" text="項目カタログの設定"
 
 まず、決定項目の標準属性とカスタム属性を定義します。
 
@@ -65,7 +65,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >title="オーディエンスまたは決定ルールを追加"
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ja" text="オーディエンスを使用"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="決定ルールを使用"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=ja" text="決定ルールの使用"
 
 デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルに制限できます。どちらのソリューションも様々な用途に対応します。詳しくは、以下の節を展開してください。
 
