@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 57%
+source-wordcount: '1605'
+ht-degree: 56%
 
 ---
 
@@ -157,8 +157,6 @@ ht-degree: 57%
 また、キャンペーン／ジャーニーでルールセットにアクセスし、メッセージに適用できるようにするには、ルールセットもアクティブ化する必要があります。
 
 ![](assets/rule-set-activate-set.png)
-
-ルールセットをアクティブ化すると、次回の実行時に適用されるメッセージに影響します。メッセージにルールセットを適用する方法については、[こちら](#apply-rule-set)を参照してください。
 
 >[!NOTE]
 >
