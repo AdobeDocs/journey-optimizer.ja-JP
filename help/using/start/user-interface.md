@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
+source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 97%
+source-wordcount: '1358'
+ht-degree: 94%
 
 ---
 
@@ -255,4 +255,47 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >title="タグプロパティを選択"
 >abstract="TBC"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_push_certificate_fcm"
+>title="プッシュ証明書を指定"
+>abstract="TBC"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_add"
+>title="依存関係の追加"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_import"
+>title="依存関係の読み込み"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_initialization_code"
+>title="初期化コードを追加"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance_android"
+>title="Assurance で検証"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token_android"
+>title="デバイストークンの取得"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_android_studio"
+>title="Android Studio からのアプリケーションの起動"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_load_library"
+>title="ライブラリを非同期に読み込む"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_library_code"
+>title="ドキュメントの Head タグ"
+>abstract="TBC"
