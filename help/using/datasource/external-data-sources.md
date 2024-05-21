@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 97%
+source-wordcount: '1541'
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ API 呼び出しの例を 2 つ示します。
 
    >[!NOTE]
    >
-   >英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。
+   >英数字とアンダースコアのみが使用できます。最大長は 30 文字です。
 
 1. データソースに説明を追加します。この手順はオプションです。
 1. 外部サービスの URL を追加します。この例では、_https://api.adobeweather.org/weather_ です。
@@ -87,7 +87,7 @@ API 呼び出しの例を 2 つ示します。
 
    ![](assets/journey28.png)
 
-1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを作成します。フィールドグループ名には、英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。 この例では、パラメーターセット（city と longlat）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
+1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを作成します。フィールドグループ名には、英数字とアンダースコアのみを使用できます。最大長は 30 文字です。この例では、パラメーターセット（city と longlat）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
 
 「longlat」パラメーターセットに対して、次の情報を持つフィールドグループを作成します。
 
@@ -140,7 +140,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 >
 >**この認証には 2 つの部分があります。**
 
-### アクセストークンの生成時に呼び出されるエンドポイントの定義
+### アクセストークンの生成時に呼び出されるエンドポイントの定義{#custom-authentication-endpoint}
 
 * endpoint：エンドポイントの生成に使用する URL。
 * method：エンドポイントでの HTTP リクエストのメソッド（GET または POST）。
@@ -149,7 +149,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
    * 「form」：コンテンツタイプが application/x-www-form-urlencoded（文字セット UTF-8）で、キーと値のペアが key1=value1&amp;key2=value2&amp;... のようにシリアル化されることを意味します。
    * 「json」：コンテンツタイプが application/json（文字セット UTF-8）で、キーと値のペアが JSON オブジェクトとして _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のようにシリアル化されることを意味します。
 
-### アクションの HTTP リクエストにアクセストークンを挿入する方法の定義
+### アクションの HTTP リクエストにアクセストークンを挿入する方法の定義{#custom-authentication-access-token}
 
 * authorizationType：生成されたアクセストークンを、アクションの HTTP 呼び出しに挿入する方法を定義します。使用可能な値は次のとおりです。
 
@@ -190,6 +190,10 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 }
 ```
 
+>[!NOTE]
+>
+>Encode64 は、認証ペイロードで使用できる唯一の関数です。
+
 カスタム認証データソース用のトークンのキャッシュ時間を変更できます。次に、カスタム認証ペイロードの例を示します。キャッシュ期間は、「cacheDuration」パラメーターで定義されます。キャッシュ内で生成されたトークンの保存期間を指定します。単位は、ミリ秒、秒、分、時間、日、月、年です。
 
 Bearer 認証タイプの例を次に示します。
@@ -199,7 +203,7 @@ Bearer 認証タイプの例を次に示します。
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"

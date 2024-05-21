@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 95%
 
 ---
 
@@ -87,7 +87,7 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 
 ![](assets/schema15.png)
 
-ただし、購入情報（製品 ID、製品名、価格、割引）のリストなど、オブジェクトの配列内の属性とのスキーマ関係を定義することはできません。ジャーニー（条件、カスタムアクションなど）やメッセージのパーソナライゼーションでは、参照値は使用できません。
+また、購入情報（製品 ID、製品名、価格、割引）のリストなど、オブジェクトの配列内の属性とのスキーマ関係を定義できます。 ジャーニー（条件、カスタムアクションなど）でルックアップ値を使用できるようになります メッセージのパーソナライゼーションでは、参照値は使用できません。
 
 ![](assets/schema16.png)
 

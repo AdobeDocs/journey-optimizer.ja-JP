@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '5230'
+source-wordcount: '5290'
 ht-degree: 98%
 
 ---
@@ -21,8 +21,11 @@ ht-degree: 98%
 
 ## 2024年5月 {#may-2024}
 
-* に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] の 2024 年 4 月リリースについて詳しくは、このドキュメントを参照してください。 [詳細情報](release-notes.md)
-
+* [!DNL Journey Optimizer] の 2024年4月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
+* シードリストの繰り返しジャーニーに関する節が更新されました。 [詳細情報](../configuration/seed-lists.md#use-seed-list)
+* 外部データソースの節が更新されました。 [詳細情報](../datasource/external-data-sources.md#custom-authentication-access-token)
+* グローバルジャーニーのタイムアウトである 30 日がガードレールと制限ページに追加されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+* Adobe Campaign v7 と v8 の統合に関する節が更新され、プロビジョニングに関する情報が追加されました。 [詳細情報](../action/acc-action.md#access)
 
 ## 2024年4月 {#april-2024}
 
@@ -30,10 +33,10 @@ ht-degree: 98%
 * [オファー決定支援 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) および[バッチ決定支援 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) のドキュメントが更新されました。
 * Edge Decisioning API でフリークエンシーキャップを使用する場合のエッジおよびハブの地域管理に関する情報が、意思決定管理のドキュメントに追加されました。[詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 * API トリガーキャンペーンを操作する際の、カスタム名前空間を使用した ID 作成に関する情報が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md)
-* ジャーニーキャンバスの改善を反映するように、スクリーンショットを更新しました。
-* 命名制約が次のページで更新されました。 [単一イベントの設定](../event/about-creating.md), [ビジネスイベントの設定](../event/about-creating-business.md#gs-business-events), [カスタムアクションの設定](../action/about-custom-action-configuration.md#configuration-steps), [外部データソース](../datasource/external-data-sources.md)
-* 送信時間の最適化の可用性に関するメモが追加されました。 [詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
-* カスタムアクションを作成してデータをExperience Platformに送信する方法に関する新しい技術的なユースケースが追加されました。 [詳細情報](../building-journeys/custom-action-aep.md)
+* ジャーニーキャンバスの改善を反映するように、スクリーンショットが更新されました。
+* [単一イベントの設定](../event/about-creating.md)、[ビジネスイベントの設定](../event/about-creating-business.md#gs-business-events)、[カスタムアクションの設定](../action/about-custom-action-configuration.md#configuration-steps)、[外部データソース](../datasource/external-data-sources.md)のページで命名制約が更新されました。
+* 送信時間の最適化機能の使用可否に関するメモが追加されました。[詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
+* Experience Platform にデータを送信するカスタムアクションの作成方法に関する新しい技術的なユースケースが追加されました。[詳細情報](../building-journeys/custom-action-aep.md)
 
 ## 2024年3月 {#march-2024}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 テストモードを使用するには、次の手順に従います。
 
-1. テストモードをアクティブにするには、 **[!UICONTROL テストモード]** ボタンは、右上隅にあります。
+1. テストモードをアクティブにするには、右上隅にある「**[!UICONTROL テストモード]**」ボタンをクリックします。
 
    ![](assets/journeytest1.png)
 
@@ -71,6 +71,10 @@ ht-degree: 98%
 * 分割に達すると、常に一番上の分岐を選択します。テストで別のパスを選択する場合は、分割された分岐の位置を再編成できます。
 * パフォーマンスを最適化し、古くなったリソースの使用を防ぐために、1 週間トリガーされていないテストモードのジャーニーはすべて、**ドラフト**&#x200B;ステータスに戻ります。
 * テストモードでトリガーされるイベントは、専用のデータセットに保存されます。これらのデータセットには、次のラベルが付けられます：`JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
 
 ## イベントのトリガー {#firing_events}
 

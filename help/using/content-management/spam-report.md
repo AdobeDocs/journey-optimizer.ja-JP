@@ -5,10 +5,8 @@ feature: Preview
 role: User
 level: Beginner
 badge: label="Beta"
-hide: true
-hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: d0973e623de8f26b4e9dc5809251f9705333adb9
+source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 17%

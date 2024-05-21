@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '540'
+ht-degree: 89%
 
 ---
 
@@ -25,11 +25,24 @@ ht-degree: 100%
 
 この統合は、Adobe Campaign v7/v8 リリース 7.1 以降および Adobe Campaign v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
 
-Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。
-
 エンドツーエンドの使用例については、[この節](../building-journeys/ajo-ac.md)を参照してください。
 
 設定したアクションごとに、1 つのアクションアクティビティをジャーニーデザイナーパレットで使用できます。[この節](../building-journeys/using-adobe-campaign-v7-v8.md)を参照してください。
+
+## アクセス {#access}
+
+Journey Optimizer インスタンスと Campaign インスタンスとの接続は、Adobeの指定に応じて、プロビジョニング時に設定されます。 プロビジョニング時に接続をリクエストしていない場合は、Adobe Journey Optimizer サポートに連絡して、イネーブルメントをリクエストするために次の詳細を提供してください。
+
+Adobe Journey Optimizerから：
+
+* 組織 ID （AdobeOrgID）
+* サンドボックス
+
+Adobe Campaignから：
+
+* キャンペーン URL
+* RT URL
+* Campaign のバージョン
 
 ## 重要な注意事項 {#important-notes}
 
