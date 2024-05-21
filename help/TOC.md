@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 97%
+source-wordcount: '1808'
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 97%
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションを使用してスループットを制限する](using/building-journeys/limit-throughput.md)
-         + [カスタムアクションを使用したExperience Platform内のジャーニーイベントの記述](using/building-journeys/custom-action-aep.md)
+         + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + キャンペーン{#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
    + [テキストメッセージの確認および送信](using/sms/send-sms.md)
    + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
    + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-   + SMS/MMS チャネルの設定{#configure-sms}
+   + SMS／MMS チャネルの設定{#configure-sms}
       + [SMS 設定の基本を学ぶ](using/sms/sms-configuration.md)
       + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
       + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
@@ -273,11 +273,11 @@ ht-degree: 97%
 + コンテンツ管理 {#content-management}
    + AI アシスタントの操作{#ai-assistant}
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
-      + [メール生成](using/content-management/generative-email.md)
+      + [メールの生成](using/content-management/generative-email.md)
       + [プッシュの生成](using/content-management/generative-push.md)
       + [SMS の生成](using/content-management/generative-sms.md)
       + [AI アシスタントを使用したコンテンツ実験](using/content-management/generative-experimentation.md)
-   + 多言語コンテンツを操作 {#content-multilingual}
+   + 多言語コンテンツの操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
@@ -516,15 +516,15 @@ ht-degree: 97%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning （LA） {#experience-decisioning}
+   + エクスペリエンス決定（LA）{#experience-decisioning}
       + [エクスペリエンス決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + 決定項目の管理 {#decision-items}
-         + [品目カタログの構成](using/experience-decisioning/catalogs.md)
+         + [項目カタログの設定](using/experience-decisioning/catalogs.md)
          + [決定項目の作成](using/experience-decisioning/items.md)
          + [項目コレクションの管理](using/experience-decisioning/collections.md)
-      + 項目選択の設定 {#selection}
+      + 項目の選択の設定 {#selection}
          + [決定ルールの作成](using/experience-decisioning/rules.md)
-         + [ランキングメソッドの作成](using/experience-decisioning/ranking.md)
+         + [ランキング方法の作成](using/experience-decisioning/ranking.md)
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
       + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
       + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
@@ -563,6 +563,7 @@ ht-degree: 97%
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [頻度ルールの設定](using/configuration/frequency-rules.md)
    + [ビジネスルールの使用](using/configuration/business-rules.md)
+   + [ルールセットの操作](using/configuration/rule-sets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
