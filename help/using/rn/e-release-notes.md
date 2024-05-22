@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bd4e352378ba9f895a192b467a650013af669c4d
+source-git-commit: ae9a315f6c9d2c2408788a7e4b32cdbd516f41d6
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 37%
+source-wordcount: '656'
+ht-degree: 40%
 
 ---
 
@@ -50,21 +50,21 @@ ht-degree: 37%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>IP ウォームアップワークフロー</strong><br/></th>
+<th><strong>IP Warmup Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新しい IP アドレスでメールを送信している場合に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。 Adobe Journey Optimizerは、最適な配信品質を得るためのベストプラクティスに従って IP アドレスをウォームアップする、標準化された効率的な方法を提供します。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -115,37 +115,44 @@ ht-degree: 37%
 * **報告書**  – を使用して、エクスペリエンス決定キャンペーンのカスタムレポートダッシュボードを作成できるようになりました [!DNL Customer Journey Analytics]. [詳細情報](../experience-decisioning/cja-reporting.md)
 
 
-**意思決定管理**
+<!--**Decision Management**
 
-* **複数ルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを高めることができます。
-* **監査**  – が **変更ログ** タブを使用すると、オファーまたは決定に加えられたすべての変更が表示されます。 オファーと決定に関連する変更は、**監査**&#x200B;メニューで確認できるようになりました。
+* **Multi-rule support** - You can now add up to 10 capping rules for a given offer in Decision Management. This allows you to increase the level of control over the way offers are sent.
+* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
 
 **メールチャネル**
 
-* **リスト – 登録解除**  – 一括送信者向けの最近の Gmail および Yahoo のお知らせに続いて、Journey Optimizerでは、「投稿/1 クリック」のリスト購読解除オプションをサポートしています。
-* **スパムのスコアリング** （ベータ版） – コンテンツのスパムのスコアを専用のスパムレポートで確認できるようになりました。 Adobe Journey Optimizerは SpamAssassin を使用してメールコンテンツをテストし、ISP やメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。 この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+<!--
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
+-->
 
+* **スパムのスコアリング** （ベータ版） – コンテンツのスパムのスコアを専用のスパムレポートで確認できるようになりました。 Adobe Journey Optimizerは SpamAssassin を使用してメールコンテンツをテストし、ISP やメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。 [詳細情報](../content-management/spam-report.md)
 
-<!--[Read more](../content-management/spam-report.md)-->
+  >[!AVAILABILITY]
+  >
+  >この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 <!--
 **Audiences**
 
 * The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
-**パーソナライゼーション**
+<!--**Personalization**
 
-* **式フラグメント**  – 式フラグメントを **アプリ内チャネル**.
-  <!--[Read more](../personalization/use-expression-fragments.md)-->
+* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 **ジャーニー**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **mTLS サポート** - カスタムアクションで mTLS 認証がサポートされるようになりました。 カスタムアクションやジャーニーでは、mTLS を有効化するために追加の設定は必要ありません。mTLS が有効なエンドポイントが検出されると、この設定は自動的に行われます。
-* **イベントのルックアップテーブル** - オブジェクトの配列内で属性を使用して関係が定義された場合、ルックアップデータセットのデータを活用できるようになりました。 ジャーニー（条件、カスタムアクションなど）でルックアップ値を使用できるようになります メッセージのパーソナライゼーションでは、参照値は使用できません。
-* **イベント設定の高度な式エディター** - イベントを設定する際に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。
+* **mTLS サポート** - カスタムアクションで mTLS 認証がサポートされるようになりました。 カスタムアクションやジャーニーでは、mTLS を有効化するために追加の設定は必要ありません。mTLS が有効なエンドポイントが検出されると、この設定は自動的に行われます。 [詳細情報](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **イベントのルックアップテーブル** - オブジェクトの配列内で属性を使用して関係が定義された場合、ルックアップデータセットのデータを活用できるようになりました。 ジャーニー（条件、カスタムアクションなど）でルックアップ値を使用できるようになります とメッセージのパーソナライゼーション。 [詳細情報](../event/experience-event-schema.md#relationships_limitations)
+* **イベント設定の高度な式エディター** （LA） – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 [詳細情報](../event/about-creating.md)
+* **結合ポリシー** （LA） - ジャーニーで使用される結合ポリシーが、ジャーニー全体で表示され一貫性を持つようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 [詳細情報](../building-journeys/journey-gs.md#merge-policies)
 
 **グローバル化**
 
-統一されたユーザーエクスペリエンスを提供するために継続的に取り組んでいる中で、Adobe Experience Cloudの製品やアプリで使用する用語を統一しています。 これは、オブジェクトの名前に関連する「Titel」が「Label」に変更されるドイツ語の用語に影響します。 変更は、UI とドキュメントで段階的にロールアウトされます。
+統一されたユーザーエクスペリエンスを提供するための継続的な取り組みの一環として、Adobe Experience Cloudの製品およびアプリで使用される用語を統一します。 これは、オブジェクトの名前に関連する「Titel」が「Label」に変更されるドイツ語の用語に影響します。 変更は、UI とドキュメントで段階的にロールアウトされます。
+
+
+
