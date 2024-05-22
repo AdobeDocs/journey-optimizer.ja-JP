@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI アシスタントを使用した web ページ生成
+title: AI アシスタントを使用した web ページの生成
 description: AI アシスタントで web ページコンテンツおよびアセットの生成を開始
 feature: Content Assistant
 topic: Content Management
@@ -11,13 +11,13 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# AI アシスタントを使用した web ページ生成 {#generative-web}
+# AI アシスタントを使用した web ページの生成 {#generative-web}
 
 >[!BEGINSHADEBOX]
 
@@ -26,13 +26,13 @@ ht-degree: 93%
 * [AI アシスタントの基本を学ぶ](gs-generative.md)
 * [AI アシスタントを使用したメールの生成](generative-email.md)
 * [AI アシスタントを使用した SMS の生成](generative-SMS.md)
-* [AI アシスタントによるプッシュ生成](generative-push.md)
-* AI アシスタントを使用した web ページ生成
+* [AI アシスタントを使用したプッシュの生成](generative-push.md)
+* AI アシスタントを使用した web ページの生成
 * [AI アシスタントを使用したコンテンツ実験](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
 
-メールを作成してパーソナライズしたら、生成 AI を活用したAdobe Journey Optimizerの AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。
+メールを作成してパーソナライズしたら、Adobe Journey Optimizer で生成 AI による AI アシスタントを利用し、コンテンツを次のレベルに引き上げます。
 
 AI アシスタントを使用すると、オーディエンスの共感を呼ぶ可能性の高い様々なコンテンツを提案することで、配信の影響を最適化できます。
 
@@ -58,7 +58,7 @@ AI アシスタントを使用すると、オーディエンスの共感を呼�
 
    プロンプトは、常に特定のコンテキストに関連付けられている必要があります。
 
-1. 「**[!UICONTROL プロンプト]**」フィールドに生成する内容を記述して、コンテンツを微調整します。
+1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 

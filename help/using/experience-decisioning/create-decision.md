@@ -1,16 +1,16 @@
 ---
 title: 決定ポリシーの作成
-description: 決定ポリシーを作成する方法を学ぶ
+description: 決定ポリシーの作成方法を説明します
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-badge: label="限定提供（LA）"
+badge: label="限定提供"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1481'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="決定とは"
->abstract="決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーは、キャンペーンに固有です。決定ポリシーの目標は各プロファイルに最適なオファーを選択することですが、キャンペーンオーサリングでは、メッセージに含める項目の属性など、選択した決定項目の表示方法を指定することができます。"
+>abstract="決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーはキャンペーンに固有です。目標は、各プロファイルに最適なオファーを選択することです。一方、キャンペーンのオーサリングでは、メッセージに含める項目属性など、選択した決定項目の表示方法を指定できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Experience Decisioning について"
 
-決定ポリシーは、オーディエンスに応じて配信する最適なコンテンツを選択するためにエクスペリエンス判定エンジンを活用するオファーのコンテナです。
+決定ポリシーは、配信する最適なコンテンツをオーディエンスに応じて選択するために Experience Decisioning エンジンを活用するオファーのコンテナです。
 
-決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーは、キャンペーンに固有です。決定ポリシーの目標は各プロファイルに最適なオファーを選択することですが、キャンペーンオーサリングでは、メッセージに含める項目の属性など、選択した決定項目の表示方法を指定することができます。
+決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーはキャンペーンに固有です。目標は、各プロファイルに最適なオファーを選択することです。一方、キャンペーンのオーサリングでは、メッセージに含める項目属性など、選択した決定項目の表示方法を指定できます。
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ ht-degree: 91%
 
 Web サイトやモバイルアプリで訪問者に最適な動的なオファーおよびエクスペリエンスを提示するには、コードベースキャンペーンに決定ポリシーを追加します。これを行うには、以下の手順に従います。
 
-1. キャンペーンを作成して選択 **[!UICONTROL コードベースのエクスペリエンス]** アクション。 [詳細情報](../code-based/create-code-based.md)
+1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。[詳細情報](../code-based/create-code-based.md)
 
-1. から [コードエディター](../code-based/create-code-based.md#edit-code)を選択し、 **[!UICONTROL 決定ポリシー]** アイコンとクリック **[!UICONTROL 決定ポリシーを追加]**.
+1. [コードエディター](../code-based/create-code-based.md#edit-code)から **[!UICONTROL 決定ポリシー]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。
 
    ![](assets/decision-code-based-create.png)
 
@@ -67,7 +67,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
 1. 返される項目の数を選択します。例えば、「2」を選択した場合、現在のサーフェスに対して最適な 2 つの実施要件を満たすオファーが表示されます。「**[!UICONTROL 次へ]**」をクリックします。
 
-1. 「**[!UICONTROL 戦略を追加]**」ボタンを使用して、決定ポリシーの選択戦略を定義します。各戦略は、実施要件制約に関連付けられたオファーコレクションと、表示するオファーを決定するランキング方法で構成されます。 [詳細情報](selection-strategies.md)
+1. 「**[!UICONTROL 戦略を追加]**」ボタンを使用して、決定ポリシーの選択戦略を定義します。各戦略は、実施要件制約に関連付けられたオファーコレクションと、表示されるオファーを決定するためのランキング方法で構成されます。[詳細情報](selection-strategies.md)
 
    ![](assets/decision-code-based-strategies.png)
 
@@ -75,7 +75,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
    >
    >少なくとも 1 つの戦略が必要です。10 個以上の戦略を追加することはできません。
 
-1. **[!UICONTROL 戦略を追加]**&#x200B;画面から、戦略を作成することもできます。この **[!UICONTROL 選択戦略を作成]** ボタンをクリックすると、にリダイレクトされます **[!UICONTROL Experience decisioning]** > **[!UICONTROL 戦略の設定]** メニュー。 [詳細情報](selection-strategies.md)
+1. **[!UICONTROL 戦略を追加]**&#x200B;画面から、戦略を作成することもできます。「**[!UICONTROL 選択戦略を作成]**」ボタンをクリックすると、**[!UICONTROL Experience Decisioning]**／**[!UICONTROL 戦略設定]**&#x200B;メニューにリダイレクトされます。[詳細情報](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
@@ -168,7 +168,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 >
 >コードベースのエクスペリエンスでは、[!DNL Journey Optimizer] 式エディターとそのすべてのパーソナライズおよびオーサリング機能を活用します。[詳細情報](../personalization/personalization-build-expressions.md)
 
-1. 「」をクリックします **[!UICONTROL ポリシーを挿入]** ボタン。 決定ポリシーに対応するコードが追加されます。
+1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -176,13 +176,13 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
    >
    >このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
 
-1. これで、必要なすべての決定属性をそのコード内に追加できます。 使用可能な属性は、に保存されます。 **[!UICONTROL オファー]** カタログのスキーマ カスタム属性は、**`_<imsOrg`>** フォルダーに保存され、標準属性は **`_experience`** フォルダーに保存されます。[オファーカタログのスキーマの詳細情報](catalogs.md)
+1. 必要なすべての決定属性を、そのコード内に追加できるようになりました。利用可能な属性は、**[!UICONTROL オファー]**&#x200B;カタログのスキーマに保存されます。カスタム属性は、**`_<imsOrg`>** フォルダーに保存され、標準属性は **`_experience`** フォルダーに保存されます。[オファーカタログのスキーマの詳細情報](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
    >[!NOTE]
    >
-   >決定ポリシー項目のトラッキングの場合 `trackingToken`決定ポリシーコンテンツには、属性を次のように追加する必要があります。
+   >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して次のように `trackingToken` 属性を追加する必要があります。
    >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 各フォルダーをクリックして展開します。目的の場所にマウスのカーソルを置き、追加する属性の横にある「+」アイコンをクリックします。必要な数の属性をコードに追加できます。

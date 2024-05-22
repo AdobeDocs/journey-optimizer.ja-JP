@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 `each` ヘルパーを使用して、配列に対して反復処理を行います。
 ヘルパーの構文は ```{{#each ArrayName}}``` YourContent {{/each}} です。
-個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、次を使用してレンダリングできます {{@index}}.
+個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、{{@index}} を使用してレンダリングできます。
 
 **構文**
 
@@ -202,7 +202,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 **例**
 
-次の例では、買い物かご内の価格が 100 ～ 1000 の商品の合計価格を計算できます。
+次の例では、買い物かご内の価格が 100～1000 の製品の合計価格を計算できます。
 
 ```sql
 {% let sum = 0%}

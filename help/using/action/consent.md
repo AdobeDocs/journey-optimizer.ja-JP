@@ -10,9 +10,9 @@ level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,64 +28,64 @@ ht-degree: 72%
 
 例えば、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外するために、Experience Platform で[同意ポリシーを作成](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}できます。
 
-* ネイティブのアウトバウンドチャネル（メール、プッシュ、SMS、ダイレクトメール）の場合、ロジックは次のようになります。
+* ネイティブのアウトバウンドチャネル（メール、プッシュ、SMS、ダイレクトメール）の場合、ロジックは次のとおりです。
 
-   * デフォルトでは、プロファイルがユーザーからの通信の受信をオプトアウトした場合、対応するプロファイルは以降の配信から除外されます。
+   * デフォルトでは、プロファイルがマーケティング組織からの通信の受信をオプトアウトした場合、対応するプロファイルは以降の配信から除外されます。
 
-   * Adobeがある場合 **ヘルスケアシールド** または **プライバシーとセキュリティシールド**&#x200B;デフォルトのロジックを上書きするカスタム同意ポリシーを作成できます。 例えば、オプトインしたすべての個人にメールメッセージのみを送信するポリシーを定義できます。 カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
+   * Adobe **Healthcare Shield** または **Privacy and Security Shield** を使用している場合は、デフォルトのロジックを上書きするカスタム同意ポリシーを作成できます。例えば、オプトインしたすべての個人にのみメールメッセージを送信するポリシーを定義できます。カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
 
-  カスタムポリシーを適用するには、そのポリシーでマーケティングアクションを定義し、チャネルサーフェスに関連付ける必要があります。 [詳細情報](#surface-marketing-actions)
+  カスタムポリシーを適用するには、そのポリシーにマーケティングアクションを定義して、チャネルサーフェスに関連付ける必要があります。[詳細情報](#surface-marketing-actions)
 
 ジャーニーレベルでは、同意ポリシーをカスタムアクションに適用できます。
 
 * **カスタムアクションの設定**&#x200B;時、チャネルとマーケティングアクションを定義できます。[詳細情報](#consent-custom-action)
 * **ジャーニーのカスタムアクション**&#x200B;の追加時に、追加のマーケティングアクションを定義できます。[詳細情報](#consent-journey)
 
-## チャネルサーフェスを通じた同意ポリシーの活用 {#surface-marketing-actions}
+## チャネルサーフェスを介した同意ポリシーの活用 {#surface-marketing-actions}
 
 [!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}で処理されます。
 
-同意フィールドの値を変更するには、マーケティングアクションとそのアクションが実行される条件を定義するカスタム同意ポリシーを作成します。 [マーケティングアクションの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"}
+同意フィールドの値を変更するには、マーケティングアクションとそのアクションの実行条件を定義するカスタム同意ポリシーを作成します。[マーケティングアクションの詳細情報](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"}
 
 例えば、メール通信の受信に同意したプロファイルのみをターゲットにする同意ポリシーを作成する場合は、次の手順に従います。
 
-1. Adobeを購入していることを確認します。 **ヘルスケアシールド** または **プライバシーとセキュリティシールド** アドオン製品 [詳細情報](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=ja){target="_blank"}
+1. 組織が Adobe **Healthcare Shield** または **Privacy and Security Shield** アドオン製品を購入していることを確認します。[詳細情報](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=ja){target="_blank"}
 
-1. Adobe Experience Platformで、（ **[!UICONTROL プライバシー]** > **[!UICONTROL ポリシー]** メニュー）。 [方法](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+1. Adobe Experience Platform で、（**[!UICONTROL プライバシー]**／**[!UICONTROL ポリシー]**&#x200B;メニューから）カスタムポリシーを作成します。[方法についてはこちらを参照](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-policy){target="_blank"}
 
    <!--![](assets/consent-policy-create.png)-->
 
-1. を選択します。 **[!UICONTROL 同意ポリシー]** 条件を入力して次のように設定します。 [同意ポリシーの設定方法を学ぶ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
+1. **[!UICONTROL 同意ポリシー]**&#x200B;のタイプを選択し、次のように条件を設定します。[同意ポリシーの設定方法についてはこちらを参照](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
 
-   1. の下 **[!UICONTROL 次の場合]** セクションで、 **[!UICONTROL 電子メールターゲティング]** デフォルトのマーケティングアクション。
+   1. 「**[!UICONTROL If]**」セクションで、デフォルトの&#x200B;**[!UICONTROL メールターゲティング]**&#x200B;マーケティングアクションを選択します。
 
       <!--![](assets/consent-policy-marketing-action.png)-->
 
       >[!NOTE]
       >
-      >Adobeが標準で提供するコアマーケティングアクションは、に一覧表示されます。 [このテーブル](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+      >アドビが標準で提供するコアマーケティングアクションの一覧については、[こちらの表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"}を参照してください。
 
-   1. マーケティングアクションが適用されたときの動作を選択します。 この例では、を選択します。 **[!UICONTROL メールマーケティングの同意]**.
+   1. マーケティングアクションが適用されたときの動作を選択します。この例では、「**[!UICONTROL メールマーケティングの同意]**」を選択します。
 
    ![](assets/consent-policy-then.png)
 
-1. およびを保存 [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} このポリシー。
+1. このポリシーを保存して[有効](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#enable){target="_blank"}にします。
 
-1. Journey Optimizerで、メールサーフェスを作成します。 [方法についてはこちらを参照](../configuration/channel-surfaces.md#create-channel-surface)
+1. Journey Optimizer で、メールサーフェスを作成します。[方法についてはこちらを参照](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. メールサーフェスの詳細で、 **[!UICONTROL 電子メールターゲティング]** マーケティングアクション。
+1. メールサーフェスの詳細で、「**[!UICONTROL メールターゲティング]**」マーケティングアクションを選択します。
 
    ![](assets/surface-marketing-action.png)
 
-そのマーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って自動的に活用されます。
+顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが自動的に活用されます。
 
-この例では、 [電子メール](../email/create-email.md) キャンペーンやジャーニーでそのサーフェスを使用すると、メールの受信に同意したプロファイルにのみ送信されます。 メール通信の受信に同意しないプロファイルは除外されます。
+そのため、この例では、キャンペーンまたはジャーニーでこのサーフェスを使用する[メール](../email/create-email.md)は、マーケティング組織からのメールの受信に同意したプロファイルにのみ送信されます。メール通信の受信に同意しないプロファイルは除外されます。
 
 ## カスタムアクションを介した同意ポリシーの活用 {#journey-custom-actions}
 
 ### 重要な注意事項 {#important-notes}
 
-Journey Optimizerでは、同意をカスタムアクションで利用することもできます。 組み込みメッセージ機能と共に使用する場合は、条件アクティビティを使用して、ジャーニー内の顧客をフィルタリングする必要があります。
+Journey Optimizer では、同意をカスタムアクションでも活用できます。組み込みメッセージ機能と共に使用する場合は、条件アクティビティを使用して、ジャーニー内の顧客をフィルタリングする必要があります。
 
 同意管理を使用すると、2 つのジャーニーアクティビティが分析されます。
 

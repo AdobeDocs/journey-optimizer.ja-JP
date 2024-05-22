@@ -1,16 +1,16 @@
 ---
-title: Experience Decisioning の基本を学ぶ
+title: エクスペリエンス決定の基本を学ぶ
 description: 詳しくは、Experience Decisioningを参照してください
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限定提供（LA）"
+badge: label="限定提供"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -20,23 +20,23 @@ ht-degree: 63%
 >
 >エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 >
->現時点では、Adobeを購入したお客様は機能を利用できません **ヘルスケアシールド** および **プライバシーとセキュリティシールド** アドオン製品
+>現時点では、Adobe **Healthcare Shield** および **Privacy and Security Shield** アドオン製品を購入したお客様は、この機能を使用できません。
 
 ## Experience Decisioning とは {#about}
 
 Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、新しいコードベースのエクスペリエンスチャネルを通じて様々なインバウンドサーフェスにシームレスに統合され、Journey Optimizer キャンペーン内でアクセスできるようになりました。 エクスペリエンス決定決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
+これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンドサーフェスにシームレスに統合されます。Experience Decisioning 決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
 
 ## Experience Decisioning の主な手順 {#steps}
 
 Experience Decisioning を操作する主な手順は次のとおりです。
 
-1. **適切な権限の割り当て**. Experience Decisioning は、Experience Decisioning 関連のアクセス権を持つユーザーのみが使用できます **[!UICONTROL 役割]** 意思決定管理者など。 Experience Decisioning にアクセスできない場合は、権限を拡張する必要があります。
+1. **適切な権限を割り当て**&#x200B;ます。Experience Decisioning は、決定マネージャーなど、Experience Decisioning 関連の&#x200B;**[!UICONTROL 役割]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。Experience Decisioning にアクセスできない場合は、権限を拡張する必要があります。
 
-   +++決定マネージャーの役割の割り当て方法を学ぶ
+   +++決定マネージャーの役割の割り当て方法
 
-   1. でユーザーに役割を割り当てるには [!DNL Permissions] 製品、に移動します **[!UICONTROL 役割]** タブをクリックして、「決定マネージャー」を選択します。
+   1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、決定マネージャーを選択します。
 
       ![](assets/decision_permission_1.png)
 
@@ -46,15 +46,15 @@ Experience Decisioning を操作する主な手順は次のとおりです。
 
    1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-      ユーザーがまだ作成されていない場合は、を参照してください。 [ユーザー追加ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      まだユーザーを作成していない場合は、[ユーザーの追加に関するドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users)を参照してください。
 
       ![](assets/decision_permission_3.png)
 
-   これにより、ユーザーをインスタンスへリダイレクトするメールが、ユーザーに送られます。
+   これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。
 
 +++
 
-1. **カスタム属性の設定**：カタログのスキーマにカスタム属性を設定することで、特定の要件に合わせて品目カタログをカスタマイズします。
+1. **カスタム属性の設定**：カスタム属性をカタログのスキーマに設定して、項目カタログを特定の要件に合わせます。
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 

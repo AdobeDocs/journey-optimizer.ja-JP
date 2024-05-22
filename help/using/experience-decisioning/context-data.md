@@ -5,23 +5,24 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限定提供（LA）"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+badge: label="限定提供"
+exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 # Experience Decisioning でのコンテキストデータの活用 {#context}
 
-Experience Decisioning を使用すると、Adobe Experience Platformで提供されている任意の情報を活用して、次のような様々なアクションを実行できます [決定ルール](rules.md) または [ランキング式](ranking.md). 例えば、決定リクエストを行う際に現在の天気を≥80 度にすることを要求する決定ルールをデザインできます。
+Experience Decisioning を使用すると、Adobe Experience Platform で利用可能な情報を活用して、[決定ルール](rules.md)や[ランキング式](ranking.md)の作成などの様々なアクションを実行できます。例えば、決定リクエストが行われた時点で現在の天気が 80 度以上であることを要求する決定ルールを設計できます。
 
 >[!NOTE]
 >
->コンテキストデータはAdobe Experience Platformで定義され、決定リクエストの際に送信されます。 履歴データは含まれません。
+>コンテキストデータは、Adobe Experience Platform で定義され、決定リクエスト時に送信されます。履歴データは含まれません。
 
-コンテキストデータを使用するには、まず Experience Decisioning で使用可能にするデータを定義する必要があります。 完了すると、このデータはで Experience Decisioning にシームレスに統合されます **[!UICONTROL コンテキストデータ]** 決定ルールの作成時に使用可能なタブ。 ランキング式を編集する際に、データを活用することもできます。
+コンテキストデータを使用するには、まず、Experience Decisioning で使用できるようにするデータを定義する必要があります。完了すると、このデータは決定ルールの作成時に使用できる「**[!UICONTROL コンテキストデータ]**」タブで Experience Decisioning にシームレスに統合されます。また、ランキング式を編集する際に、データを活用することもできます。
 
 ![](assets/decision-rules-context.png)
 

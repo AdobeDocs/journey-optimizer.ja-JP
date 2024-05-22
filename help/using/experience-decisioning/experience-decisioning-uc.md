@@ -1,19 +1,19 @@
 ---
-title: Experience Decisioning のユースケース
+title: エクスペリエンス決定のユースケース
 description: コードベースチャネルでの実験を使用した決定の作成方法について説明します
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-badge: label="限定提供（LA）"
+badge: label="限定提供"
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Experience Decisioning のユースケース {#experience-decisioning-uc}
+# エクスペリエンス決定のユースケース {#experience-decisioning-uc}
 
 このユースケースでは、それぞれ異なる決定ポリシーを含んだ 2 つの配信処理を定義し、ターゲットオーディエンスに対して最もパフォーマンスが良い配信を測定します。
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 まず、項目を作成してコレクションにグループ化し、ルールとランキング方法を設定する必要があります。これらの要素を使用すると、選択戦略を作成できます。
 
-1. に移動します。 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL カタログ]** およびいくつかのオファー項目を作成します。 オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
+1. **[!UICONTROL エクスペリエンス決定]**／**[!UICONTROL カタログ]**&#x200B;に移動し、いくつかのオファー項目を作成します。オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -40,7 +40,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
 それぞれ異なる決定ポリシーを含んだ 2 つの配信処理を定義します。
 
-1. キャンペーンを作成して選択 **[!UICONTROL コードベースのエクスペリエンス]** アクション。 [詳細情報](../code-based/create-code-based.md)
+1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。[詳細情報](../code-based/create-code-based.md)
 
 1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。[詳細情報](../campaigns/content-experiment.md)
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -90,4 +90,4 @@ ht-degree: 94%
 
 ## オファーと決定の変更ログ {#changes-logs}
 
-[!DNL Journey Optimizer] オファーまたは決定に対して加えられたすべての変更を視覚化できます。 これを行うには、 **[!UICONTROL 監査]** 左メニューの「メニュー」。 [リソースに対するアクションを監査する方法を学ぶ](../../privacy/audit-logs.md)
+[!DNL Journey Optimizer] を使用すると、オファーまたは決定に対して実行されたすべての変更を表示できます。これを行うには、左メニューから&#x200B;**[!UICONTROL 監査]**&#x200B;メニューにアクセスします。[リソースに対するアクションを監査する方法を説明します](../../privacy/audit-logs.md)

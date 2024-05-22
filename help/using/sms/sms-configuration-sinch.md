@@ -2,28 +2,29 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Sinch プロバイダーの設定
-description: Journey Optimizerと Sinch でテキストメッセージを送信するように環境を設定する方法を説明します
+description: Sinch を使用して Journey Optimizer でテキストメッセージを送信するように環境を設定する方法を説明します
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Sinch プロバイダーの設定 {#sms-configuration-sinch}
 
-Journey Optimizerで Sinch プロバイダーを使用する場合は、次の 2 つの異なるオプションがあります。
+Journey Optimizer で Sinch プロバイダーを使用する場合は、次の 2 つの異なる選択肢があります。
 
-* **SMS 設定**:SMS メッセージをシームレスに送信するための Sinch API 資格情報を設定します。
+* **SMS 設定**：SMS メッセージをシームレスに送信するための Sinch API 資格情報を設定します。
 
-* **MMS 設定**：マルチメディアメッセージ（MMS）用に、Sinch MMS API 資格情報を設定します。 インバウンドメッセージのトラッキングと応答は、SMS 設定で処理されます。 MMS セットアップは、MMS メッセージのアウトバウンド配信にのみ使用されます。
+* **MMS 設定**：マルチメディアメッセージ（MMS）用に Sinch MMS API 資格情報を設定します。なお、インバウンドメッセージのトラッキングと応答は、SMS 設定で処理されます。MMS セットアップは、MMS メッセージのアウトバウンド配信にのみ使用されます。
 
 ## Sinch API 資格情報{#create-api}
 
-Sinch プロバイダーを設定してJourney Optimizerで SMS メッセージと MMS を送信するには、次の手順に従います。
+Journey Optimizer で SMS メッセージと MMS を送信するように Sinch プロバイダーを設定するには、次の手順に従います。
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
@@ -53,15 +54,15 @@ Sinch プロバイダーを設定してJourney Optimizerで SMS メッセージ�
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、SMS メッセージのチャネルサーフェスを作成する必要があります。 [詳細情報](sms-configuration-surface.md)
+API 資格情報を作成し設定したら、SMS メッセージ用のチャネルサーフェスを作成する必要があります。[詳細情報](sms-configuration-surface.md)
 
 ## Sinch MMS API 資格情報 {#sinch-mms}
 
 >[!IMPORTANT]
 >
-> MMS の設定と共に、インバウンドメッセージのトラッキングと同意リクエストの管理のために特別に Sinch API 資格情報を作成する必要もあります。
+> MMS セットアップに加えて、特にインバウンドメッセージのトラッキングと同意リクエストの管理のために Sinch API 資格情報を作成する必要もあります。
 
-Sinch MMS を設定してJourney Optimizerで MMS を送信するには、次の手順に従います。
+Journey Optimizer で MMS を送信するように Sinch MMS を設定するには、次の手順に従います。
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
@@ -77,4 +78,4 @@ Sinch MMS を設定してJourney Optimizerで MMS を送信するには、次の
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、MMS メッセージのチャネルサーフェスを作成する必要があります。 [詳細情報](sms-configuration-surface.md)
+API 資格情報を作成し設定したら、MMS メッセージ用のチャネルサーフェスを作成する必要があります。[詳細情報](sms-configuration-surface.md)

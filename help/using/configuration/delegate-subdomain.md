@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1816'
 ht-degree: 100%
 

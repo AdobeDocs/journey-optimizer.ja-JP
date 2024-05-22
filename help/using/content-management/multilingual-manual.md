@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 手動翻訳を使用した多言語コンテンツの作成
-description: Journey Optimizerで手動翻訳によって多言語コンテンツを作成する方法を説明します
+description: Journey Optimizer で手動翻訳を使用した多言語コンテンツを作成する方法を説明します
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ keywords: 開始, 開始, コンテンツ, 実験
 hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="ベータ版" type="Informative"
+badge: label="Beta" type="Informative"
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

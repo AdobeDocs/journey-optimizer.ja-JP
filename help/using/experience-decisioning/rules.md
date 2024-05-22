@@ -5,12 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限定提供（LA）"
+badge: label="限定提供"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 >
 >項目および選択戦略レベルの決定ルールに加えて、キャンペーンレベルで意図したオーディエンスを定義することもできます。[詳細情報](../campaigns/create-campaign.md#audience)
 
-決定ルールのリストには、「」でアクセスできます **[!UICONTROL 戦略の設定]** メニュー。
+決定ルールのリストには、**[!UICONTROL 戦略設定]**&#x200B;メニューからアクセスできます。
 
 ![](assets/decision-rules-list.png)
 
@@ -39,11 +39,11 @@ ht-degree: 92%
 
 決定ルールを作成するには、次の手順に従います。
 
-1. に移動します。 **[!UICONTROL 戦略の設定]** / **[!UICONTROL 決定ルール]** 次に、 **[!UICONTROL ルールを作成]** ボタン。
+1. **[!UICONTROL 戦略設定]**／**[!UICONTROL 決定ルール]**&#x200B;に移動し、「**[!UICONTROL ルールを作成]**」ボタンをクリックします。
 
 1. 決定ルール作成画面が開きます。ルールに名前を付け、説明を入力します。
 
-1. Adobe Experience Platform セグメントビルダーを使用して、ニーズに合った決定ルールを作成します。それには、Adobe Experience Platform から取得したプロファイル属性、オーディエンス、コンテキストデータなどの様々なデータソースを活用できます。[コンテキストデータの活用方法を学ぶ](#context-data)
+1. Adobe Experience Platform セグメントビルダーを使用して、ニーズに合った決定ルールを作成します。それには、Adobe Experience Platform から取得したプロファイル属性、オーディエンス、コンテキストデータなどの様々なデータソースを活用できます。[コンテキストデータの活用方法について説明します](#context-data)
 
    ![](assets/decision-rules-build.png)
 

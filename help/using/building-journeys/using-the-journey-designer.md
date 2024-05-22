@@ -10,9 +10,9 @@ level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 ![](assets/journey59bis.png)
 
-ジャーニーのステータスに応じ、右上隅のボタンを使用して様々な操作を実行できます。 **[!UICONTROL 公開]**, **[!UICONTROL 複製]**, **[!UICONTROL 削除]**, **[!UICONTROL テストモード]**, **[!UICONTROL アクセスを管理]**, **[!UICONTROL アラート]**. これらのボタンは、アクティビティが選択されていないときに表示されます。ボタンの中には文脈に応じて表示されるものもあります。テストモードがアクティブになると、テストモードのログボタンが表示されます。
+ジャーニーのステータスに応じ、右上隅のボタン（**[!UICONTROL 公開]**、**[!UICONTROL 複製]**、**[!UICONTROL 削除]**、**[!UICONTROL テストモード]**、**[!UICONTROL アクセスを管理]**、**[!UICONTROL アラート]**&#x200B;など）を使用して様々なアクションを実行できます。これらのボタンは、アクティビティが選択されていないときに表示されます。ボタンの中には文脈に応じて表示されるものもあります。テストモードがアクティブになると、テストモードのログボタンが表示されます。
 
 ![](assets/journey41.png)
 

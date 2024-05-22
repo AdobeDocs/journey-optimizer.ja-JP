@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 95%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. カスタムまたはコアのデータ使用ラベルをサーフェスに割り当てるには、次のオプションを選択します **[!UICONTROL アクセスを管理]**. [オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
+1. サーフェスにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
 
 1. **[!UICONTROL メール]**&#x200B;チャネルを選択した場合は、[この節](../email/email-settings.md)の説明に従って設定を行ってください。
 
@@ -90,11 +90,11 @@ ht-degree: 95%
    >
    >SMS メッセージを送信するための環境の設定方法について詳しくは、[この節](../sms/sms-configuration.md)を参照してください。
 
-1. を選択 **[!UICONTROL マーケティングアクション]** このサーフェスを使用してメッセージに同意ポリシーを関連付けます。 そのマーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
+1. このサーフェスを使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
    >[!NOTE]
    >
-   >同意ポリシーは現在、を購入した組織でのみ利用できます **ヘルスケアシールド** および **プライバシーとセキュリティシールド** アドオン製品
+   >同意ポリシーは、現在、**Healthcare Shield** および **Privacy and Security Shield** アドオン製品を購入した組織でのみ利用できます。
 
    ![](assets/surface-marketing-action.png)
 

@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2617'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ ht-degree: 100%
 >id="ajo_decisioning_capping"
 >title="キャッピングの使用"
 >abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる回数の上限を定義します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=ja#capping-change-date" text="日付を変更すると、キャッピングに影響を与える場合があります"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=ja#capping-change-date" text="日付を変更すると、フリークエンシーキャップに影響を与える場合があります"
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。
 
@@ -297,7 +297,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="日付を変更すると、キャッピングに影響を与える場合があります"
+>title="日付を変更すると、フリークエンシーキャップに影響を与える場合があります"
 >abstract="このオファーにキャッピングが適用されている場合、開始日または終了日を変更するとオファーが影響を受ける可能性があります。"
 
 オファーの日付を変更する場合は、次の条件を満たすとキャッピングに影響を与える可能性があるので、慎重に行う必要があります。

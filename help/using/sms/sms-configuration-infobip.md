@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Infobip プロバイダーの設定
-description: Infobip を使用してJourney Optimizerでテキストメッセージや MMS を送信するように環境を設定する方法を説明します
+description: Infobip を使用して Journey Optimizer でテキストメッセージおよび MMS を送信するように環境を設定する方法を説明します
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Infobip プロバイダーの設定 {#sms-configuration-infobip}
 
-Journey Optimizer で Infobip を設定するには、次の手順に従います。
+Journey Optimizer に Infobip を設定するには、次の手順に従います。
 
-1. 左パネルで、を参照します。 **[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]** を選択し、 **[!UICONTROL API 資格情報]** メニュー。 「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
 
    ![](assets/sms_6.png)
 
-1. 以下に説明するように、API 資格情報を設定します。
+1. 以下で説明するように、API 資格情報を設定します。
 
    * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
@@ -53,4 +54,4 @@ Journey Optimizer で Infobip を設定するには、次の手順に従いま�
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、SMS および MMS メッセージ用のチャネルサーフェスを作成する必要があります。 [詳細情報](sms-configuration-surface.md)
+API 資格情報を作成し設定したら、SMS および MMS メッセージ用のチャネルサーフェスを作成する必要があります。[詳細情報](sms-configuration-surface.md)

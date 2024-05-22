@@ -1,18 +1,18 @@
 ---
 title: Customer Journey Analytics でのレポート
-description: Customer Journey Analyticsでレポートを実行する方法を説明します
+description: Customer Journey Analytics でのレポートの実行方法を説明します
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-badge: label="限定提供（LA）"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+badge: label="限定提供"
+exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # Customer Journey Analytics でのレポート {#cja}
 

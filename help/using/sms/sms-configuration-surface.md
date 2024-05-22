@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS サーフェスの設定
-description: Journey Optimizerでテキストメッセージを送信するように SMS/MMS サーフェスを設定する方法について説明します
+description: Journey Optimizer でテキストメッセージを送信するように SMS／MMS サーフェスを設定する方法を説明します
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >abstract="このサーフェスを使用するテキストメッセージのタイプを選択します（ユーザーの同意が必要なプロモーションメッセージの場合は「マーケティング」、パスワードリセットなどの非商用メッセージの場合は「トランザクション」）。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティングテキストメッセージのオプトアウト"
 
-SMS/MMS チャネルを設定したら、から SMS および MMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります **[!DNL Journey Optimizer]**.
+SMS／MMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS および MMS メッセージを送信できるように、チャネルサーフェスを作成する必要があります。
 
 チャネルサーフェスを作成するには、次の手順に従います。
 

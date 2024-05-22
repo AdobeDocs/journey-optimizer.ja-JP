@@ -10,9 +10,9 @@ level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 ## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
 
-_インターフェイスの名前：AJO メールトラッキングエクスペリエンスイベントデータセット_
+_インターフェイスの名前：AJO メールトラッキングエクスペリエンスイベントのデータセット_
 
 Journey Optimizer からメールトラッキングエクスペリエンスイベントを取り込むためのシステムデータセット。
 
@@ -72,9 +72,9 @@ limit 100;
 
 ## メッセージフィードバックイベントデータセット{#message-feedback-event-dataset}
 
-_インターフェイスの名前：AJO メッセージフィードバックイベントデータセット_
+_インターフェイスの名前：AJO メッセージフィードバックイベントのデータセット_
 
-メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むデータセット。
+メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むためのデータセット。
 
 関連するスキーマは、AJO メッセージフィードバックイベントスキーマです。
 
@@ -170,9 +170,9 @@ ORDER BY timestamp DESC;
 
 ## プッシュトラッキングエクスペリエンスイベントデータセット {#push-tracking-experience-event-dataset}
 
-_インターフェイスの名前：AJO プッシュトラッキングエクスペリエンスイベントデータセット_
+_インターフェイスの名前：AJO プッシュトラッキングエクスペリエンスイベントのデータセット_
 
-Journey Optimizer からプッシュ用のモバイルトラッキングエクスペリエンスイベントを取り込むデータセット。
+Journey Optimizer からプッシュ用のモバイルトラッキングエクスペリエンスイベントを取り込むためのデータセット。
 
 関連するスキーマは、AJO プッシュトラッキングエクスペリエンスイベントスキーマです。
 

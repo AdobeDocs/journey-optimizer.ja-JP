@@ -5,12 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限定提供（LA）"
+badge: label="限定提供"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="選択戦略の定義"
->abstract="選択戦略は再利用可能で、実施要件の制約に関連付けられたコレクションと、決定ポリシーで選択した際に表示されるオファーを決定するためのランキング方法で構成されます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="決定ポリシーを作成"
+>abstract="選択戦略は、再利用可能で、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、決定方針が選択されている場合に表示されるオファーを決定します。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=ja" text="決定ポリシーを作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="実施要件を満たすプロファイルの制限"
 >abstract="この選択戦略では、オファーの選択を制限できます。デフォルトでは、すべてのプロファイルが実施要件を満たしていますが、オーディエンスやルールを使用すると、オファーの選択を特定のプロファイルのみに制限できます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ja" text="オーディエンスを使用"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="決定ルールを使用"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=ja" text="決定ルールの使用"
 
-選択戦略は再利用可能で、実施要件制約に関連付けられたコレクションと、 [決定ポリシー](create-decision.md).
+選択戦略は、再利用可能で、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、[決定方針](create-decision.md)が選択されている場合に表示されるオファーを決定します。
 
 ## 選択戦略へのアクセスと管理
 
-1. に移動 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 戦略の設定]** > **[!UICONTROL 選択戦略]**.
+1. **[!UICONTROL エクスペリエンス決定]**／**[!UICONTROL 戦略設定]**／**[!UICONTROL 選択戦略]**&#x200B;に移動します。
 
 1. これまでに作成した選択戦略がすべてリストされます。ランキングメソッドに従って戦略を取得するのに役立つフィルターを使用できます。
 
@@ -81,15 +81,15 @@ ht-degree: 88%
 
    * 特定の計算済みスコアを使用して配信する実施要件を満たすオファーを選択する場合は、「[数式](#ranking-formula)」または「[AI モデル](#ai-ranking)」を選択します。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。これで、で使用する準備ができました [決定ポリシー](create-decision.md)
+1. 「**[!UICONTROL 作成]**」をクリックします。これで、[決定ポリシー](create-decision.md)で使用する準備が整いました
 
-## ランキング方法を選択 {#select-ranking-method}
+## ランキング方法の選択 {#select-ranking-method}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
 >title="オファーのランク付け方法の定義"
 >abstract="特定の選択戦略に対して実施要件を満たすオファーが複数ある場合、選択戦略（優先度またはランキング式）を作成する際に各プロファイルに最適なオファーを選択する方法を選べます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="決定ポリシーを作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=ja" text="決定ポリシーを作成"
 
 特定の選択戦略に対して実施要件を満たすオファーが複数ある場合、選択戦略を作成する際に各プロファイルに最適なオファーを選択する方法を選べます。オファーのランク付けは、次の基準で行えます。
 
@@ -99,7 +99,7 @@ ht-degree: 88%
 
 ### オファーの優先度 {#offer-priority}
 
-決定ポリシーで指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、デフォルトでは、最も高い項目 **の優先度** 最初にお客様に配信されます。
+決定ポリシーにおいて、特定のプレースメントに対して実施要件を満たすオファーが複数ある場合、デフォルトでは、**優先度**&#x200B;が最も高い項目が最初に顧客に配信されます。
 
 ![](assets/item-priority.png)
 

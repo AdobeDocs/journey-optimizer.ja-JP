@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャンプ, アクティビティ, ジャーニー, 分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

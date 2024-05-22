@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -97,9 +97,9 @@ ht-degree: 86%
 {%= toHexString(158) %}
 ```
 
-## Int に {#to-int}
+## ToInt {#to-int}
 
-この `toInt` 関数は、これらの型（number、double、int、long、float、short、byte、boolean、string）のいずれかを整数に変換するために使用されます。
+`toInt` 関数は、これらの型（number、double、int、long、float、short、byte、boolean、string）のいずれかを整数に変換するために使用されます。
 
 **構文**
 
@@ -109,7 +109,7 @@ ht-degree: 86%
 
 **例**
 
-このクエリは、42,6 （42）の整数値を返します。
+このクエリは、42.6 の 整数値、つまり 42 を返します。
 
 ```sql
 {%= toInt(42.6) %}: integer

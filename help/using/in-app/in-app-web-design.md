@@ -9,7 +9,7 @@ keywords: アプリ内, メッセージ, 作成, 開始
 hide: true
 hidefromtoc: true
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 

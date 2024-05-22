@@ -2,20 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Twilio プロバイダーの設定
-description: Twilio を使用してJourney Optimizerでテキストメッセージを送信するように環境を設定する方法を説明します
+description: Twilio を使用して Journey Optimizer でテキストメッセージを送信するように環境を設定する方法を説明します
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: d6f74566-c913-4727-83b9-473a798a0158
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Twilio プロバイダーの設定 {#sms-configuration-twilio}
 
-Journey Optimizerで Twilio を設定するには、Twilio に使用する新しい API 資格情報を作成する必要があります。
+Journey Optimizer に Twilio を設定するには、Twilio に使用する新しい API 資格情報を作成する必要があります。
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
@@ -31,5 +32,4 @@ Journey Optimizerで Twilio を設定するには、Twilio に使用する新し
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、SMS および MMS メッセージ用のチャネルサーフェスを作成する必要があります。 [詳細情報](sms-configuration-surface.md)
-
+API 資格情報を作成し設定したら、SMS および MMS メッセージ用のチャネルサーフェスを作成する必要があります。[詳細情報](sms-configuration-surface.md)

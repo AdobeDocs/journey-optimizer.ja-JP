@@ -10,9 +10,9 @@ level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -46,19 +46,19 @@ Journey Optimizer キャンペーンを使用すると、様々なチャネル�
 
 Journey Optimizer で最初のキャンペーンの作成を開始する前に、次の前提条件を確認してください。
 
-1. **適切な権限が必要です**。キャンペーンは、関連するキャンペーンへのアクセス権を持つユーザーのみが使用できます **[!UICONTROL 製品プロファイル]** campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど。キャンペーンにアクセスできない場合は、権限を拡張する必要があります。
+1. **適切な権限が必要です**。キャンペーンは、Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign 閲覧者など、キャンペーンに関係する&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。キャンペーンにアクセスできない場合は、権限を拡張する必要があります。
 
-   +++キャンペーン関連の役割を割り当てる方法を学ぶ
+   +++キャンペーン関連の役割の割り当て方法を説明します
 
-   1. でユーザーに役割を割り当てるには [!DNL Permissions] 製品、に移動します **[!UICONTROL 役割]** タブをクリックして、関連する組み込みキャンペーンのいずれかを選択します **[!UICONTROL 役割]**:Campaign 管理者、Campaign 承認者、Campaign マネージャーまたは Campaign ビューア。
+   1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、組み込みのキャンペーン関連の&#x200B;**[!UICONTROL 役割]**&#x200B;である Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign 閲覧者のいずれかを選択します。
 
    1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
    1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-      ユーザーがまだ作成されていない場合は、を参照してください。 [ユーザー追加ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      まだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users)を参照してください。
 
-   これにより、ユーザーをインスタンスへリダイレクトするメールが、ユーザーに送られます。
+   これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。
 
 +++
 

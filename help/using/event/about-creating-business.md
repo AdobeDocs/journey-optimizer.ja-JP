@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。
+   >英数字とアンダースコアのみが使用できます。最大長は 30 文字です。
 
 1. 「**[!UICONTROL タイプ]**」フィールドで、「**ビジネス**」を選択します。
 

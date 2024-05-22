@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->この機能は、デフォルトでは有効になっていません。Adobe担当者に連絡して、有効にすることができます。
+>この機能は、デフォルトでは有効になっていません。アクティブにするには、アドビ担当者にお問い合わせください。
 
 ### 送信時間の最適化について {#about-send-time}
 
