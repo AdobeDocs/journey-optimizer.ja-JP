@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 74%
+source-wordcount: '2513'
+ht-degree: 72%
 
 ---
 
@@ -238,7 +238,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    * [オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"}は、除外されたキャンペーンオーディエンス（存在する場合）に対して、`<warmupName>_Phase<phaseNo>-Audience Exclusion` という命名規則で作成されます。
 
-   * 除外されたドメイングループ（存在する場合）に対して別のオーディエンスが、`<warmupName>_Phase<phaseNo>-Domain Exclusion` という命名規則で作成されます。
+   * オーディエンスは、除外されたドメイングループ（存在する場合）に対して、次の命名規則で作成されます。 `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+   * 次の命名規則を使用して、（存在する場合は）除外されたジャーニーオーディエンス用に別のオーディエンスが作成されます。 `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -263,6 +265,8 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >実行ごとに新しいオーディエンス構成が作成されます。 上限が 10 の場合、公開済みのオーディエンス構成を使用して複数のキャンペーン、ジャーニー、IP ウォームアッププランを同時に実行するユーザーは、並列操作に対してこの上限内に収まるように事前に計画する必要があります。
      >
      >次の反復をアクティブ化すると、オーディエンスの構成（つまり出力オーディエンス）がクリーンアップされます。
+
+   * 出力オーディエンスは、次の命名規則で作成されます。 `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
