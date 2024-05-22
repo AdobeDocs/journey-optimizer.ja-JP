@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 99%
@@ -178,7 +178,7 @@ ht-degree: 99%
 >id="ajo_lp_subpage"
 >title="サブページ設定の定義"
 >abstract="最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="ランディングページのコンテンツのデザイン"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="ランディングページのコンテンツのデザイン"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
@@ -263,7 +263,7 @@ ht-degree: 99%
 
 次の 2 種類のアラートが発生する可能性があります。
 
-* **警告** レコメンデーションとベストプラクティスを参照してください。 <!--For example, a message will display if -->
+* **警告** 推奨事項とベストプラクティスを参照してください。 <!--For example, a message will display if -->
 
 * **エラー**&#x200B;を解決しない限り、ランディングページを公開することはできません。例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
 
