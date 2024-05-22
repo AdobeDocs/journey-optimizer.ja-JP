@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
 source-wordcount: '1811'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 99%
       + [概要](using/building-journeys/expression/expressionadvanced.md)
       + 構文 {#syntax}
          + [一般規則](using/building-journeys/expression/generalities.md)
-         + [条件付き命令](using/building-journeys/expression/conditional-instruction.md)
+         + [条件命令](using/building-journeys/expression/conditional-instruction.md)
          + [データタイプ](using/building-journeys/expression/data-types.md)
          + [フィールド参照](using/building-journeys/expression/field-references.md)
          + [コレクション管理関数](using/building-journeys/expression/collection-management-functions.md)
@@ -562,7 +562,7 @@ ht-degree: 99%
    + [シードリストの使用](using/configuration/seed-lists.md)
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
-   + [頻度ルールの設定](using/configuration/frequency-rules.md)
+   + [ビジネス・ルールの構成](using/configuration/frequency-rules.md)
    + [ルールセットの操作](using/configuration/rule-sets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
