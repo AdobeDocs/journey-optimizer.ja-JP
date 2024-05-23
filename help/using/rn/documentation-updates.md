@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5317'
-ht-degree: 98%
+source-wordcount: '5335'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## 2024年5月 {#may-2024}
 
-* [!DNL Journey Optimizer] の 2024年4月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
+* に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] 2024 年 5 月リリースについて詳しくは、ドキュメントを参照してください。 [詳細情報](release-notes.md)
 * シードリストの繰り返しジャーニーに関する節が更新されました。 [詳細情報](../configuration/seed-lists.md#use-seed-list)
 * 外部データソースの節が更新されました。 [詳細情報](../datasource/external-data-sources.md#custom-authentication-access-token)
 * グローバルジャーニーのタイムアウトである 30 日がガードレールと制限ページに追加されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
@@ -30,6 +30,7 @@ ht-degree: 98%
 
 ## 2024年4月 {#april-2024}
 
+* [!DNL Journey Optimizer] の 2024年4月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md#apr-2024)
 * アプリ内メッセージの設定手順を詳しく説明しました。[詳細情報](../in-app/inapp-configuration.md)
 * [オファー決定支援 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) および[バッチ決定支援 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) のドキュメントが更新されました。
 * Edge Decisioning API でフリークエンシーキャップを使用する場合のエッジおよびハブの地域管理に関する情報が、意思決定管理のドキュメントに追加されました。[詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -42,7 +43,7 @@ ht-degree: 98%
 ## 2024年3月 {#march-2024}
 
 * Journey Optimizer でのオーディエンス構成とカスタムアップロードオーディエンスの使用に関するよくある質問に対処するために、よくある質問の節を追加しました。[詳細情報](../audience/about-audiences.md#faq)
-* [!DNL Journey Optimizer] の 2024年3月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2024年3月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md#mar-2024)
 * プロファイルエントリ管理に関するページを改善しました。[詳細情報](../building-journeys/entry-management.md)
 * アラートページにトラブルシューティング情報を追加しました。[詳細情報](../reports/alerts.md#alert-troubleshooting)
 * ジャーニーレポートのページに、待機アクティビティに関する情報を追加しました。[詳細情報](../reports/sharing-overview.md)
@@ -59,7 +60,7 @@ ht-degree: 98%
 
 ## 2024年2月 {#feb-2024}
 
-* [!DNL Journey Optimizer] の 2024年2月リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2024年2月リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md#feb-2024)
 * Journey Optimizer と Workfront の統合が統合ページに追加されました。[詳細情報](../start/ajo-integrations.md)
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
 * ガードレールページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)
