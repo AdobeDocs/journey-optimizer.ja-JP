@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 技術的なユースケース：
 
 * [カスタムアクションを使用したコレクションの動的な受け渡し](collections.md)
-* [配信を増やす](ramp-up-deliveries-uc.md)
 * [外部データソースとカスタムアクションを使用してスループットを制限する](limit-throughput.md)
 
 ## ジャーニーのバージョン{#journey-versions}

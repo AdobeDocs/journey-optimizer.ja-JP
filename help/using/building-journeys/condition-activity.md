@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1484'
-ht-degree: 100%
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '1466'
+ht-degree: 96%
 
 ---
 
@@ -66,9 +66,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。[このページ](expression/expressionadvanced.md)を参照してください。
+>単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。 [このページ](expression/expressionadvanced.md)を参照してください。
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。この処理を続行する唯一の方法は、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスにチェックを付けることです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーは停止します。 続行するには、チェックボックスをオンにするだけです **[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**. [この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 シンプルなエディターでは、イベントカテゴリとデータソースカテゴリの下に、「ジャーニーのプロパティ」カテゴリも表示されます。このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれています。これは、ジャーニー ID や発生した特定のエラーなど、システムによってライブジャーニーから取得される情報です。[詳細情報](expression/journey-properties.md)
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 >
 >プロファイルキャップには大きな値を定義することをお勧めします。母集団が正確なキャップ数に達する精度と可能性は、キャップが増加した分だけ高まります。小さい数（キャップが 50 など）の場合、プロファイルが代替パスを取る前に制限に達しない可能性があるので、数値は常に一致するとは限りません。
 
-この条件タイプを使用すると、配信の量を増やすことができます。この[ユースケース](ramp-up-deliveries-uc.md)を参照してください。
+<!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
 デフォルトのキャップは 1000 です。
 
