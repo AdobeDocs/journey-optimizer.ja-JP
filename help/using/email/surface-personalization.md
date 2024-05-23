@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定、メール、設定、サブドメイン
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 96%
+source-wordcount: '834'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +23,7 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->現在、この機能は、一部のユーザーのみを対象としたベータ版として利用できます。<!--To join the beta program, contact Adobe Customer Care.-->
+>メールサーフェスのパーソナライゼーションは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 ## 動的サブドメインを追加 {#dynamic-subdomains}
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 47%
+source-wordcount: '768'
+ht-degree: 44%
 
 ---
 
@@ -50,6 +50,24 @@ ht-degree: 47%
 <p>エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>詳しくは、<a href="../experience-decisioning/gs-experience-decisioning.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>メールサーフェスのパーソナライゼーション – 限定提供</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メールチャネルサーフェスを作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義して、メール設定の柔軟性と制御を高めることができるようになりました。</p>
+<p>メールサーフェスのパーソナライゼーションは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +155,7 @@ ht-degree: 47%
 
   >[!AVAILABILITY]
   >
-  >この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
+  >この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。 ベータ版プログラムに参加するには、Adobe担当者にお問い合わせください。
 
 <!--
 **Audiences**
