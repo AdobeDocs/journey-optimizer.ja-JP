@@ -10,10 +10,11 @@ level: Intermediate
 keywords: 式，エディター
 hidefromtoc: true
 hide: true
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -25,9 +26,9 @@ ht-degree: 4%
 >
 >現時点では、Adobeに提供した非実稼動サンドボックスと、ベータ版にリクエストされたデータセットでのみ、テスト目的で使用できます。
 
-Journey Optimizerでは、式エディターでAdobe Experience Platformのデータを活用して、次のことができます [コンテンツのパーソナライズ](../personalization/personalize.md). 手順は、以下のとおりです。
+Journey Optimizerでは、パーソナライゼーションエディターでAdobe Experience Platformのデータを活用して、次のことができます [コンテンツのパーソナライズ](../personalization/personalize.md). 手順は次のとおりです。
 
-1. 式エディターを開きます。このエディターは、メッセージなど、パーソナライゼーションを定義できるすべてのコンテキストで使用できます。 [式エディターの操作方法の詳細を学ぶ](../personalization/personalization-build-expressions.md)
+1. パーソナライゼーションエディターを開きます。このエディターは、メッセージなど、パーソナライゼーションを定義できるすべてのコンテキストで使用できます。 [パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 
 1. ヘルパー関数リストに移動し、 **datasetLookup** コードペインへのヘルパー関数。
 

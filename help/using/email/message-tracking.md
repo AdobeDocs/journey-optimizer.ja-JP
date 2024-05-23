@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 100%
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. URL トラッキングパラメーターを追加し、式エディターから目的のプロファイル属性を選択します。
+1. URL トラッキングパラメーターを追加し、パーソナライゼーションエディターから目的のプロファイル属性を選択します。
 
    ![](assets/message-tracking-perso-parameter.png)
 

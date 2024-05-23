@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1716'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 99%
 
    ![](assets/lp_expiry-date.png)
 
-1. 「**[!UICONTROL 追加データ]**」セクションで、1 つ以上のキーと、それらに対応するパラメーター値を定義します。[式エディター](../personalization/personalization-build-expressions.md)を使用して、これらのキーをプライマリページとサブページのコンテンツで活用することができます。詳しくは、[この節](lp-content.md#use-form-component#use-additional-data)を参照してください。
+1. 「**[!UICONTROL 追加データ]**」セクションで、1 つ以上のキーと、それらに対応するパラメーター値を定義します。これらのキーをプライマリページとサブページのコンテンツで活用するには、 [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md). 詳しくは、[この節](lp-content.md#use-form-component#use-additional-data)を参照してください。
 
    ![](assets/lp_create-lp-additional-data.png)
 

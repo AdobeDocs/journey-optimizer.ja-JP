@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ API トリガー型キャンペーンを使用すると、追加のデータを 
 >
 >プロファイル対応のイベントとは異なり、REST API で渡されるコンテキストデータは、1 回限りの通信に使用され、プロファイルに対しては保存されません。プロファイルが見つからなかった場合、名前空間の詳細を最大限に使用してプロファイルが作成されます。
 
-これらのデータをキャンペーンで使用するには、データを API ペイロードに渡し、式エディターを使用してメッセージに追加する必要があります。それには、`{{context.<contextualAttribute>}}` 構文を使用します。ここで、`<contextualAttribute>` は、渡すデータを含んだ API ペイロード内の変数の名前と一致する必要があります。
+これらのデータをキャンペーンで使用するには、データを API ペイロードに渡し、パーソナライゼーションエディターを使用してメッセージに追加する必要があります。 それには、`{{context.<contextualAttribute>}}` 構文を使用します。ここで、`<contextualAttribute>` は、渡すデータを含んだ API ペイロード内の変数の名前と一致する必要があります。
 
 この `{{context.<contextualAttribute>}}` 構文は String データタイプにのみマッピングされます。
 

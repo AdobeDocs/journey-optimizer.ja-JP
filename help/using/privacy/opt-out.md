@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}で処理されます。
+>[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。このデフォルト値は、一覧表示されている値の 1 つにオンボーディングする際に変更できます [こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}.
 
 ## パーソナライゼーションの同意の実装 {#opt-out-personalization}
 
@@ -98,9 +98,9 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[データモデリング](../offers/ranking/ai-models.md)でプロファイルデータを使用するための同意は、[!DNL Journey Optimizer] ではまだサポートされていません。
 
-### 式エディターの場合 {#opt-out-expression-editor}
+### パーソナライズ機能エディターで {#opt-out-expression-editor}
 
-[式エディター](../personalization/personalization-build-expressions.md)自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
+この [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) それ自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
 
 ただし、権利ベースのアクセス制御ラベルを使用すると、パーソナライゼーションに使用できるフィールドを制限できます。[メッセージプレビュー](../content-management/preview.md)と[メールのレンダリングサービス](../content-management/rendering.md)は、機密情報で識別されるフィールドをマスクします。
 

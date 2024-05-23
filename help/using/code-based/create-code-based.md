@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、キャンペーンを作成する手順を完了します。キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
-1. 式エディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
+1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。 [詳細情報](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
@@ -47,15 +47,15 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="式エディターの使用"
+>title="パーソナライゼーションエディターの使用"
 >abstract="このコードベースのエクスペリエンスアクションの一部として配信するコードを挿入および編集します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ja" text="式エディターの基本を学ぶ"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ja" text="パーソナライゼーションエディターの基本を学ぶ"
 
 1. キャンペーンの編集画面で、「**[!UICONTROL コードを編集]**」を選択します。
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. [式エディター](../personalization/personalization-build-expressions.md)が開きます。これは、コードを作成できる非視覚的なエクスペリエンス作成インターフェイスです。
+1. この [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) が開きます。 これは、コードを作成できる非視覚的なエクスペリエンス作成インターフェイスです。
 
 1. オーサリングモードを HTML から JSON に切り替えることも、その逆も可能です。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
    >
    >オーサリングモードを変更すると、現在のコードがすべて失われるので、作成を開始する前にモードを切り替えてください。
 
-1. 必要に応じてコードを入力します。パーソナライゼーションおよびオーサリング機能を持つ [!DNL Journey Optimizer] 式エディターをすべて活用できます。[詳細情報](../personalization/personalization-build-expressions.md)
+1. 必要に応じてコードを入力します。を利用できます [!DNL Journey Optimizer] すべてのパーソナライゼーション機能とオーサリング機能を備えたパーソナライゼーションエディター。 [詳細情報](../personalization/personalization-build-expressions.md)
 
 1. 必要に応じて、HTML または JSON 式フラグメントを追加できます。[方法についてはこちらを参照](../personalization/use-expression-fragments.md)
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 >
 >どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
-1. 式エディターまたはコンテンツ編集画面で、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
+1. パーソナライゼーションエディターまたはコンテンツ編集画面で、次の項目を選択します **[!UICONTROL コンテンツをシミュレート]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

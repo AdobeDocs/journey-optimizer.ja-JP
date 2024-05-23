@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="動的サブドメインを有効にする"
->abstract="メールサーフェスを作成する際に、式エディターを使用して定義する条件に基づいて、動的サブドメインを設定できます。最大 50 個の動的サブドメインを追加できます。"
+>abstract="メールサーフェスを作成する際に、パーソナライゼーションエディターを使用して定義する条件に基づいて、動的なサブドメインを設定できます。 最大 50 個の動的サブドメインを追加できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 1. 最初の&#x200B;**[!UICONTROL 条件]**&#x200B;フィールドの横にある「編集」アイコンを選択します。
 
-1. [式エディター](../personalization/personalization-build-expressions.md)が開きます。この例では、`Country`等しい`US`のような条件を設定します。
+1. この [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) が開きます。 この例では、`Country`等しい`US`のような条件を設定します。
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. [式エディター](../personalization/personalization-build-expressions.md)が開きます。必要に応じて条件を定義し、変更を保存します。
+1. この [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) が開きます。 必要に応じて条件を定義し、変更を保存します。
 
    例えば、各受信者が自分のブランド担当者からメールを受信するなどの条件を設定します。
 
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

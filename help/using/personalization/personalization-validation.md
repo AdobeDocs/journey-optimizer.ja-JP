@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 検証, エラー, パーソナライゼーション
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 検証メカニズム {#validation-mechanisms}
 
-**式エディター**&#x200B;画面で、「**検証**」ボタンを使用して、パーソナライゼーション構文を確認します。
+が含まれる **パーソナライゼーションエディター** 画面、を使用 **Validate** ボタンをクリックして、パーソナライゼーション構文を確認します。
 
 >[!NOTE]
 > 「**追加**」をクリックしてエディターウィンドウを閉じると、検証は自動的に実行されます。
@@ -29,7 +29,7 @@ ht-degree: 100%
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> パーソナライゼーション構文が無効な場合、式エディターウィンドウを閉じることはできません。
+> パーソナライゼーション構文が無効な場合、パーソナライゼーションエディターウィンドウを閉じることはできません。
 >
 
 ## 一般的なエラー {#common-errors}
@@ -80,7 +80,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-検証は、式エディターでのパーソナライゼーションコンテンツの検証中に実行されます。
+検証は、パーソナライゼーションエディターでのパーソナライゼーションコンテンツの検証中に実行されます。
 
 <table> 
  <thead> 

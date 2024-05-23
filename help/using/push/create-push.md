@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="プッシュメッセージの作成"
->abstract="プッシュメッセージを追加し、式エディターを使用してパーソナライズを開始します。"
+>abstract="プッシュメッセージを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
 
 ## ジャーニーまたはキャンペーンでのプッシュ通知の作成 {#create}
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、プッシュ通知の「**[!UICONTROL 頻度]**」を選択します。
 
    * 1 回
-   * 毎日
+   * 日単位
    * 毎週
    * 毎月
 

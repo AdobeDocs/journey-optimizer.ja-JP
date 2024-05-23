@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="テキストメッセージの作成"
->abstract="テキストメッセージ（SMS／MMS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、式エディターでパーソナライゼーションを開始します。"
+>abstract="テキストメッセージ（SMS/MMS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
 
 Adobe Journey Optimizer を使用して、テキスト（SMS）およびマルチメディア（MMS）メッセージをデザインして送信できます。まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
@@ -78,7 +78,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）およびマル�
 1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、SMS メッセージの「**[!UICONTROL 頻度]**」を選択します。
 
    * 1 回
-   * 毎日
+   * 日単位
    * 毎週
    * 月
 
@@ -91,17 +91,17 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）およびマル�
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="SMS コンテンツの定義"
->abstract="式エディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS／MMS）をカスタマイズおよびパーソナライズします。"
+>abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS/MMS）をカスタマイズおよびパーソナライズします。"
 
 SMS コンテンツを設定するには、次の手順に従います。MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、テキストメッセージのコンテンツを設定します。
 
-1. 「**[!UICONTROL メッセージ]**」フィールドをクリックして、式エディターを開きます。
+1. 「」をクリックします **[!UICONTROL メッセージ]** フィールドでパーソナライゼーションエディターを開きます。
 
    ![](assets/sms-content.png)
 
-1. 式エディターを使用して、コンテンツの定義、パーソナライゼーションと動的コンテンツの追加を行います。プロファイル名や市区町村など、任意の属性を使用できます。また、条件ルールを定義することもできます。式エディターの[パーソナライゼーション](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)について詳しくは、次のページを参照してください。
+1. パーソナライゼーションエディターを使用して、コンテンツを定義し、パーソナライゼーションと動的コンテンツを追加します。 プロファイル名や市区町村など、任意の属性を使用できます。また、条件ルールを定義することもできます。詳しくは、次のページを参照してください [パーソナライズ機能](../personalization/personalize.md) および [動的コンテンツ](../personalization/get-started-dynamic-content.md) パーソナライゼーションエディター
 
 1. コンテンツを定義したら、追跡する URL をメッセージに追加できます。これを行うには、**[!UICONTROL ヘルパー関数]**&#x200B;メニューにアクセスし、「**[!UICONTROL ヘルパー]**」を選択します。
 

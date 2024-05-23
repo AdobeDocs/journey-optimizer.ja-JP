@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: '5317'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 98%
 * 外部データソースの節が更新されました。 [詳細情報](../datasource/external-data-sources.md#custom-authentication-access-token)
 * グローバルジャーニーのタイムアウトである 30 日がガードレールと制限ページに追加されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * Adobe Campaign v7 と v8 の統合に関する節が更新され、プロビジョニングに関する情報が追加されました。 [詳細情報](../action/acc-action.md#access)
+* コンテンツのパーソナライズに使用される式エディターは、ドキュメント内で「パーソナライゼーションエディター」という名前に変更され、 [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md). [詳細情報](../personalization/personalization-build-expressions.md)
 
 ## 2024年4月 {#april-2024}
 
@@ -63,7 +64,7 @@ ht-degree: 98%
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
 * ガードレールページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)
 * 外部データソースの基本認証タイプに関する情報が追加されました。[詳細情報](../datasource/external-data-sources.md)
-* [ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)と[パーソナライゼーションエディター](../personalization/functions/functions.md)を明確に区別するためのメモが追加されました。
+* 明確に区別するためのメモが追加されました [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md) から [パーソナライゼーションエディター](../personalization/functions/functions.md).
 * 高度な式エディターで使用できる関数のリストが更新されました。[詳細情報](../building-journeys/expression/functions.md)
 * split 関数のページが更新されました。[詳細情報](../building-journeys/functions/functioninaudience.md)
 * アプリ内メッセージに対するプッシュ通知のオプトインまたはオプトアウトの影響に関する情報が追加されました。[詳細情報](../in-app/create-in-app.md)

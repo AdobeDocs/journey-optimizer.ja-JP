@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 ![](assets/in_app_web_design_4.png)
 
-「**[!UICONTROL パーソナライゼーション]**」アイコンを使用してパーソナライゼーションを追加します。Adobe Journey Optimizer 式エディターでのパーソナライゼーションについて詳しくは、[この節](../personalization/personalize.md)を参照してください。
+「**[!UICONTROL パーソナライゼーション]**」アイコンを使用してパーソナライゼーションを追加します。Adobe Journey Optimizer パーソナライゼーションエディターでのパーソナライゼーションの詳細情報 [この節](../personalization/personalize.md).
 
 +++詳細フォーマットを使用したその他のオプション
 

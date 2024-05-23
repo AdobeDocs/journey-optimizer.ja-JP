@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 数学関数 {#math}
 
-式エディターで数学関数を使用する方法を説明します。
+パーソナライゼーションエディターで数学関数を使用する方法を説明します。
 
 ## 絶対パス {#absolute}
 

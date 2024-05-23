@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 99%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->**ビジュアルフラグメント**&#x200B;は[メールデザイナー](../email/get-started-email-design.md)で使用できますが、**式フラグメント**&#x200B;には[式エディター](../personalization/personalization-build-expressions.md)からアクセスできます。
+>**ビジュアルフラグメント** 次で使用できます [電子メールデザイナー](../email/get-started-email-design.md)それに対して **式フラグメント** からアクセスできます [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md).
 
 また、Journey Optimizer の **Content REST API** を活用すると、コンテンツフラグメントを管理できます。詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}を参照してください。
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 
 * ビジュアルフラグメントは、メールチャネルでのみ使用できます
 
-* 式フラグメントはアプリ内チャネルでは使用できません
+* 式フラグメントは、アプリ内チャネルでは使用できません
 
 ## フラグメントへのアクセスと管理 {#access-manage-fragments}
 
@@ -199,7 +199,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="式タイプの選択"
->abstract="スタンドアロン式のフラグメントを作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。式エディターを使用する場合、現在のサンドボックスで作成されたすべての式フラグメントを活用できます。"
+>abstract="スタンドアロン式のフラグメントを作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。パーソナライゼーションエディターを使用する場合、現在のサンドボックスで作成されたすべての式フラグメントを活用できます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=ja" text="式フラグメントを活用"
 
 1. **[!UICONTROL コンテンツ管理]**／左側の&#x200B;**[!UICONTROL フラグメント]**&#x200B;メニューから[フラグメントを作成](#create-from-scratch)して、**[!UICONTROL 式フラグメント]**&#x200B;タイプを選択します。
@@ -210,9 +210,9 @@ ht-degree: 99%
 
    <!--Expression fragments can be used in any channel.-->
 
-1. 「**[!UICONTROL 作成]**」をクリックします。式エディターが開きます。
+1. 「**[!UICONTROL 作成]**」をクリックします。パーソナライゼーションエディターが開きます。
 
-1. パーソナライゼーションおよびオーサリング機能がすべて備えた [!DNL Journey Optimizer] 式エディターを活用できます。[詳細情報](../personalization/personalization-build-expressions.md)
+1. を利用できます [!DNL Journey Optimizer] すべてのパーソナライゼーション機能とオーサリング機能を備えたパーソナライゼーションエディター。 [詳細情報](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ ht-degree: 99%
 
 1. 必要に応じて、フラグメント名の横にある矢印をクリックして&#x200B;**[!UICONTROL 詳細]**&#x200B;画面に戻り、フラグメントを編集します。
 
-これで、[!DNL Journey Optimizer] 式エディター内のコンテンツを構築するときに、このフラグメントを使用できるようになりました。[方法についてはこちらを参照](../personalization/use-expression-fragments.md)
+このフラグメントは、内でコンテンツを作成するときに使用できるようになりました [!DNL Journey Optimizer] パーソナライゼーションエディター。 [方法についてはこちらを参照](../personalization/use-expression-fragments.md)
 
 ## フラグメントとして保存 {#save-as-fragment}
 
@@ -265,13 +265,13 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="式フラグメントとして保存"
->abstract="[!DNL Journey Optimizer] 式エディターでは、コンテンツを式フラグメントとして保存できます。その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。"
+>abstract="この [!DNL Journey Optimizer] パーソナライゼーションエディターを使用すると、コンテンツを式フラグメントとして保存できます。 その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。"
 
-[!DNL Journey Optimizer] 式エディターでは、コンテンツを式フラグメントとして保存できます。その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。
+この [!DNL Journey Optimizer] パーソナライゼーションエディターを使用すると、コンテンツを式フラグメントとして保存できます。 その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。
 
 コンテンツを式フラグメントとして保存するには、次の手順に従います。
 
-1. [式エディター](../personalization/personalization-build-expressions.md)インターフェイスで、式を作成し、**[!UICONTROL フラグメントとして保存]**&#x200B;をクリックします。
+1. が含まれる [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) インターフェイス、式の作成およびクリック **[!UICONTROL フラグメントとして保存]**.
 
 1. 右側のパネルで式の名前と説明を入力して、式を見つけやすくします。
 

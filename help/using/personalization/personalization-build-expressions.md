@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 式エディターについて
-description: 式エディターの操作方法を説明します。
+title: パーソナライゼーションエディターについて
+description: パーソナライゼーションエディターの操作方法を説明します。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
-# 式エディターの基本を学ぶ {#build-personalization-expressions}
+# パーソナライゼーションエディターの基本を学ぶ {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="式エディターについて"
->abstract="式エディターインターフェイスを使用すると、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。"
+>title="パーソナライゼーションエディターについて"
+>abstract="パーソナライゼーションエディターを使用すると、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。"
 
-式エディターは、[!DNL Journey Optimizer] のパーソナライズ機能の中核です。メール、プッシュ、オファーなど、パーソナライゼーションを定義する必要があるすべてのコンテキストで利用できます。
+パーソナライゼーションエディターは、のパーソナライズ機能の中核です [!DNL Journey Optimizer]. メール、プッシュ、オファーなど、パーソナライゼーションを定義する必要があるすべてのコンテキストで利用できます。
 
-式エディターインターフェイスでは、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
+パーソナライゼーションエディターインターフェイスでは、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成します。
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ ht-degree: 100%
 
 ![](assets/attribute-details.png)
 
-次の例では、式エディターを使用して、本日が誕生日のプロファイルを選択し、この日に対応する特定のオファーを挿入してカスタマイズを完了します。
+次の例では、パーソナライゼーションエディターを使用して、本日が誕生日のプロファイルを選択し、この日に対応する特定のオファーを挿入してカスタマイズを完了します。
 
 ![](assets/perso_ee2.png)
 
-パーソナライズ機能の式を準備できたら、式エディターで検証する必要があります。詳しくは、[この節](personalization-validation.md)を参照してください。
+パーソナライゼーション式の準備が整ったら、パーソナライゼーションエディターで検証する必要があります。 詳しくは、[この節](personalization-validation.md)を参照してください。

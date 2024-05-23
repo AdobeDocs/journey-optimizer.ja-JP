@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -118,11 +118,11 @@ Web デザイナーを使用してページを編集する場合、**[!UICONTROL
    >
    >`<head>` セクションに `<script>` 要素および `<style>` 要素のみを追加できます。`<div>` タグなどの要素を追加すると、残りの `<head>` 要素が `<body>` に表示される場合があります。
 
-1. 「**[!UICONTROL 詳細編集オプション]**」ボタンをクリックします。式エディターが開きます。
+1. 「**[!UICONTROL 詳細編集オプション]**」ボタンをクリックします。パーソナライゼーションエディターが開きます。
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   パーソナライゼーションおよびオーサリング機能がすべて備えた [!DNL Journey Optimizer] 式エディターを活用できます。[詳細情報](../personalization/personalization-build-expressions.md)
+   を利用できます [!DNL Journey Optimizer] すべてのパーソナライゼーション機能とオーサリング機能を備えたパーソナライゼーションエディター。 [詳細情報](../personalization/personalization-build-expressions.md)
 
 #### カスタムコードの例 {#custom-code-examples}
 

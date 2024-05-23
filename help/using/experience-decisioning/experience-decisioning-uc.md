@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="限定提供"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. また、式エディターで使用できる他の属性（プロファイル属性など）を追加することもできます。
+1. また、パーソナライゼーションエディターで使用可能なその他の属性（プロファイル属性など）も追加できます。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

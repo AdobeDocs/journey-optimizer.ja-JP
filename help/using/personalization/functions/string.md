@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 文字列関数 {#string}
 
-式エディターで文字列関数を使用する方法を説明します。
+パーソナライゼーションエディターで文字列関数を使用する方法を説明します。
 
 ## キャメルケース {#camelCase}
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `STRING_1` | チェックの実行対象となる文字列です。 |
 | `STRING_2` | 最初の文字列内で検索する文字列です。 |
@@ -111,7 +111,7 @@ ht-degree: 100%
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `STRING_1` | チェックの実行対象となる文字列です。 |
 | `STRING_2` | 最初の文字列内で検索する文字列です。 |
@@ -136,7 +136,7 @@ ht-degree: 100%
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
@@ -160,7 +160,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
@@ -194,7 +194,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
@@ -219,7 +219,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= equals(STRING_1, STRING_2) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列と比較する文字列です。 |
@@ -242,7 +242,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列と比較する文字列です。 |
@@ -355,7 +355,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= indexOf(STRING_1, STRING_2) %}: integer
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初のパラメーターで検索する文字列 |
@@ -414,7 +414,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初のパラメーターで検索する文字列 |
@@ -465,7 +465,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= like(STRING_1, STRING_2) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列列と照合される式です。式の作成に使用できる特殊文字として、`%` と `_` の 2 つがサポートされています。 <ul><li>`%` は、0 個以上の文字を表すために使用されます。</li><li>`_` は、1 文字を表すために使用されます。</li></ul> |
@@ -562,7 +562,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(STRING_1, STRING_2) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列と比較する文字列です。 |
@@ -585,7 +585,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列と比較する文字列です。 |
@@ -608,7 +608,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING}` | チェックの実行対象となる文字列です。 |
 | `{EXPRESSION}` | 最初の文字列列と照合する正規表現です。 |
@@ -632,7 +632,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | 部分文字列を置き換える必要がある文字列です。 |
 | `{STRING_2}` | 置き換える部分文字列。 |
@@ -693,7 +693,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
 ```
 
-| 引数 | 説明 |
+| Argument | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |

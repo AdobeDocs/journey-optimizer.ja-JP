@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="限定提供"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -162,11 +162,11 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
 ## コードエディターでの決定ポリシーの使用 {#use-decision-policy}
 
-作成した決定ポリシーは、[式エディター](../code-based/create-code-based.md#edit-code)で使用できます。これを行うには、以下の手順に従います。
+作成した決定ポリシーは、で使用できます。 [パーソナライゼーションエディター](../code-based/create-code-based.md#edit-code). これを行うには、以下の手順に従います。
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスでは、[!DNL Journey Optimizer] 式エディターとそのすべてのパーソナライズおよびオーサリング機能を活用します。[詳細情報](../personalization/personalization-build-expressions.md)
+>コードベースのエクスペリエンスでは、 [!DNL Journey Optimizer] すべてのパーソナライゼーション機能とオーサリング機能を備えたパーソナライゼーションエディター。 [詳細情報](../personalization/personalization-build-expressions.md)
 
 1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。
 
@@ -189,7 +189,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. また、式エディターで使用できる他の属性（プロファイル属性など）を追加することもできます。
+1. また、パーソナライゼーションエディターで使用可能なその他の属性（プロファイル属性など）も追加できます。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
