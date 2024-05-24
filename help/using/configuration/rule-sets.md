@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 56%
+source-wordcount: '1593'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="ルールセット"
->abstract="ルールセットを使用して、様々なタイプのマーケティングコミュニケーションにフリークエンシーキャップを適用します。 例えば、ルールセットを作成して、の数を制限できます **プロモーション情報** を顧客に送信し、別のルールセットを作成して数を制限します。 **ニュースレター** がを彼らに送信しました。 現在、ルールセットは一部のユーザーのみを対象としたベータ版として利用できます。"
+>abstract="ルールセットを使用して、様々なタイプのマーケティングコミュニケーションにフリークエンシーキャップを適用します。 例えば、顧客に送信する&#x200B;**プロモーション情報**&#x200B;の数を制限するルールセットを作成する一方で、顧客に送信する&#x200B;**ニュースレター**&#x200B;の数を制限する別のルールセットを作成できます。"
 
 >[!AVAILABILITY]
 >
