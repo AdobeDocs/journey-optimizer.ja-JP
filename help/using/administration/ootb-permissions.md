@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 95%
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 95%
 | 意思決定管理 | **[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</br>**[!DNL Manage offers]**：すべてのオファー、コンポーネント、決定およびコレクションの読み取り、作成、編集、削除。</br>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</br>**[!DNL View decisions]**：オファーエンティティへの読み取り専用アクセス。<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | 宛先 | **[!DNL Activate destinations]**：ユーザーが既存の宛先に対してオーディエンスをアクティブ化できるようになります。</br>**[!DNL Activate segment without mapping]**：マッピング手順を表示せずに、ユーザーが既存の宛先に対してオーディエンスをアクティブ化できるようになります。ユーザーは、アクティベーションワークフローでオーディエンスを追加および削除できますが、マッピングされた属性や ID を追加または削除することはできません。</br>**[!DNL Destination authoring]**：Adobe Experience Platform Destination SDK を使用して宛先を作成します。</br>**[!DNL Manage and activate dataset destination]**：データセット書き出しフローを読み取り、作成、編集および無効化。作成済みのアクティブなデータセットに対してデータもアクティブ化する機能。</br>**[!DNL Manage destinations]**：宛先アクティブ化フローと宛先アカウントの読み取り、作成および削除。</br>**[!DNL View destinations]**：「カタログ」タブの使用可能な宛先と「参照」タブの認証済みの宛先への読み取り専用アクセス。 |
 | ID 管理 | **[!DNL Manage identity namespaces]**：ID 名前空間の読み取り、作成および編集。</br>**[!DNL Manage identity settings]**：ID 設定の読み取り、作成および編集。</br>**[!DNL View identity namespaces]**：ID 名前空間への読み取り専用アクセス。</br>**[!DNL View identity settings]**：ID 設定への読み取り専用アクセス。</br>**[!DNL View identity graph]**：ID グラフへの読み取り専用アクセス。 |
-| IP ウォームアップ設定 | **[!DNL Manage IP warmup plans]**:IP ウォームアッププランの読み取り、作成、編集。</br>**[!DNL View IP warmup plans]**:IP ウォームアッププランへの読み取り専用アクセス。</br>**[!DNL View IP warmup reports]**:IP ウォームアップレポートの読み取り、編集。 |
 | Journey Optimizer ライブラリ | **[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</br>**[!DNL Simulate content]**：プレビューおよび配達確認用に「コンテンツをシミュレート」オプションへのアクセス。 |
 | Journey Optimizer ルール | **[!DNL Manage frequency rules]**：メッセージ頻度ルールへのアクセス、作成、編集、削除。</br>**[!DNL View frequency rules]**：ルールへの読み取り専用アクセス。 |
 | ジャーニー | **[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、削除。ジャーニーにアクセスして管理するには、この権限を **[!DNL View journeys events, data sources and actions]** と組み合わせます。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL Publish journeys]**：ジャーニーの公開。</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取りと編集。</br> |
@@ -44,3 +43,5 @@ ht-degree: 95%
 | サンドボックス管理 | **[!DNL Export sandboxes]**：サンドボックスを書き出す機能。</br>**[!DNL Manage packages]**：パッケージの読み取り、作成、編集、および削除。</br>**[!DNL Manage sandboxes]**：サンドボックスの読み取り、作成、編集、削除。</br>**[!DNL View sandboxes]**：組織に属するサンドボックスへの読み取り専用アクセス。</br>**[!DNL Reset sandboxes]**：サンドボックスをリセットする機能。 |
 
 {style="table-layout:fixed"}
+
+<!--|IP warmup configurations|**[!DNL Manage IP warmup plans]**: read, create, and edit IP warmup plans.</br>**[!DNL View IP warmup plans]**: read-only access to IP warmup plans.</br>**[!DNL View IP warmup reports]**: read and edit IP Warmup reports. |-->
