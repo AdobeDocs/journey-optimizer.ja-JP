@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d1eeb72bfe5a621a5814790c785eac399534e011
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1803'
 ht-degree: 97%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 97%
    + [早期リリースノート](using/rn/early-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
-      + [2024年リリースノート](using/rn/release-notes-2024.md)
-      + [2023年リリースノート](using/rn/release-notes-2023.md)
-      + [2022年リリースノート](using/rn/release-notes-2022.md)
-      + [2021年リリースノート](using/rn/release-notes-2021.md)
+      + [2024](using/rn/release-notes-2024.md)
+      + [2023年](using/rn/release-notes-2023.md)
+      + [2022](using/rn/release-notes-2022.md)
+      + [2021年](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + [ジャーニーキャンバスの改善](using/rn/new-canvas.md)
 + はじめに {#get-started}
