@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 46d69dd422090a67c377acd6c8f44c4468e27f69
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 75%
 
 ---
 
@@ -127,3 +127,220 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
 
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_CTR"
+>title="中央"
+>abstract="CTR ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_clicks"
+>title="クリック数"
+>abstract="クリック数ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_delivered"
+>title="配信済み"
+>abstract="配信済みウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_overview"
+>title="キャンペーンの概要"
+>abstract="Campaign の概要ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_funnel"
+>title="キャンペーンファネルの結果"
+>abstract="キャンペーンファネルの結果ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_tracking_link"
+>title="追跡されたリンクラベル"
+>abstract="トラッキングされたリンクラベルウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_displays"
+>title="ディスプレイ"
+>abstract="ウィジェットを表示"
+
+<!--campaign email-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivered_click"
+>title="配信済み&amp;クリックのトレンド"
+>abstract="配信済み&amp; クリックトレンドウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivery_status"
+>title="配信ステータス"
+>abstract="配信ステータスウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_sending_statistics"
+>title="送信統計"
+>abstract="送信統計ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracking_statistics"
+>title="トラッキング統計"
+>abstract="トラッキング統計ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_domains"
+>title="メールドメイン"
+>abstract="メールドメインウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link"
+>title="追跡されたリンクラベル"
+>abstract="トラケットリンクラベルウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link_urls"
+>title="トラッキングされるリンクの URL"
+>abstract="トラッキングするリンクの URL ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_subjects"
+>title="メールの件名"
+>abstract="メール件名ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_bounce_reasons"
+>title="バウンスの理由"
+>abstract="バウンスの理由ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_exclude"
+>title="理由を除外"
+>abstract="理由を除外ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_error"
+>title="エラー理由"
+>abstract="エラー理由ウィジェット"
+
+
+<!--campaign push-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_sending_statistics"
+>title="送信統計"
+>abstract="送信統計ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracking_statistics"
+>title="トラッキング統計"
+>abstract="トラッキング統計ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link"
+>title="追跡されたリンクラベル"
+>abstract="トラケットリンクラベルウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link_urls"
+>title="トラッキングされるリンクの URL"
+>abstract="トラッキングするリンクの URL ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_bounce_reasons"
+>title="バウンスの理由"
+>abstract="バウンスの理由ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_exclude"
+>title="除外された理由"
+>abstract="除外された理由ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_email_error"
+>title="エラー理由"
+>abstract="エラー理由ウィジェット"
+
+<!--campaign inapp-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_impression"
+>title="インプレッションとクリックのトレンド"
+>abstract="インプレッションとクリックのトレンドウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_clicks"
+>title="クリック数"
+>abstract="クリック数ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_displays"
+>title="ディスプレイ"
+>abstract="ウィジェットを表示"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracking_data"
+>title="トラッキングデータ"
+>abstract="トラッキングデータウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link"
+>title="追跡されたリンクラベル"
+>abstract="トラッキングされたリンクラベルウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link_urls"
+>title="トラッキングされるリンクの URL"
+>abstract="トラッキングするリンクの URL ウィジェット"
+
+<!--campaign sms-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivered_click"
+>title="配信済み&amp;クリックのトレンド"
+>abstract="配信済み&amp; クリックトレンドウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivery_status"
+>title="配信ステータス"
+>abstract="配信ステータスウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link"
+>title="追跡されたリンクラベル"
+>abstract="トラケットリンクラベルウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link_urls"
+>title="トラッキングされるリンクの URL"
+>abstract="トラッキングするリンクの URL ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_inbound"
+>title="SMS インバウンドメッセージ"
+>abstract="SMS インバウンドメッセージウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_message_type"
+>title="SMS メッセージタイプ"
+>abstract="SMS メッセージタイプのウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_providers"
+>title="SMS プロバイダー"
+>abstract="SMS プロバイダーウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_bounce"
+>title="バウンスの理由"
+>abstract="バウンスの理由ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_exclude"
+>title="理由を除外"
+>abstract="理由を除外ウィジェット"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_error"
+>title="エラー理由"
+>abstract="エラー理由ウィジェット"
