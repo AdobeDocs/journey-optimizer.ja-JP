@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 81%
 
 ---
 
@@ -28,9 +28,9 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
-   ![](assets/sms_6.png)
-
 1. 以下で説明するように、SMS API 資格情報を設定します。
+
+   * **[!UICONTROL SMS ベンダー]**:Sinch.
 
    * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
@@ -66,15 +66,18 @@ Journey Optimizer で MMS を送信するように Sinch MMS を設定するに�
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
-   ![](assets/sms_6.png)
+1. 以下に説明するように、MMS API 資格情報を設定します。
 
-1. 以下で説明するように、SMS API 資格情報を設定します。
+   * **[!UICONTROL SMS ベンダー]**:Sinch MMS.
 
    * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-   * **[!UICONTROL プロジェクト ID]**、**[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**：Conversation API メニューから、アプリメニューで資格情報を見つけることができます。詳しくは、[Sinch のドキュメント](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}を参照してください。
+   * **[!UICONTROL プロジェクト ID]**, **[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**:MMS API 資格情報を収集するには、次の手順に従います。
 
-   * **[!UICONTROL サービスプラン ID]** および **[!UICONTROL SMS API トークン]**：**[!UICONTROL サービスプラン ID]** および **[!UICONTROL SMS API トークン]**&#x200B;は、API ページの「SMS」タブにあります。
+      * の場合 **[!UICONTROL プロジェクト ID]** および **[!UICONTROL アプリ ID]**：にアクセスします **Conversation API の概要** sinch ダッシュボードの Sinch プロジェクトのページ。
+      * の場合 **[!UICONTROL API トークン]**：を取得します **アクセスキー** sinch プロジェクト用にを生成する場合 **Base64 API トークン** out of your Sinch Project **アクセスキー**.
+
+   * **[!UICONTROL サービス プラン ID]** および **[!UICONTROL SMS API トークン]**：自分 **[!UICONTROL サービス プラン ID]** および **[!UICONTROL SMS API トークン]** は、API ページの「SMS」タブにあります。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
-workflow-type: ht
-source-wordcount: '148'
-ht-degree: 100%
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ Journey Optimizer に Twilio を設定するには、Twilio に使用する新�
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報の作成]**」ボタンをクリックします。
 
-   ![](assets/sms_6.png)
-
 1. 以下で説明するように、SMS API 資格情報を設定します。
+
+   * **[!UICONTROL SMS ベンダー]**:Twilio。
 
    * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
