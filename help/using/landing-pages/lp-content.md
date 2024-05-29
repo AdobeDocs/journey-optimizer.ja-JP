@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 99%
@@ -40,7 +40,7 @@ ht-degree: 99%
 >id="ac_lp_formfield"
 >title="フォームコンポーネントフィールドの設定"
 >abstract="受信者がランディングページから選択肢を表示して送信する方法を定義します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=ja#lp-form-styles" text="ランディングページのフォームスタイルを定義"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="ランディングページのフォームスタイルを定義"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
