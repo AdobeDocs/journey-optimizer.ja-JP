@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 46d69dd422090a67c377acd6c8f44c4468e27f69
+source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 75%
@@ -130,7 +130,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 
 >[!CONTEXTUALHELP]
->id="ajo_report_campaign_CTR"
+>id="ajo_report_campaign_ctr"
 >title="中央"
 >abstract="CTR ウィジェット"
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 97%
+source-wordcount: '1817'
+ht-degree: 96%
 
 ---
 
@@ -311,9 +311,12 @@ ht-degree: 97%
       + パーソナライズ機能のユースケース{#personalization-use-cases}
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
-   + 再利用可能なコンテンツを管理 {#reusable-content}
-      + [コンテンツテンプレートの操作](using/content-management/content-templates.md)
-      + [フラグメントの操作](using/content-management/fragments.md)
+   + [コンテンツテンプレート](using/content-management/content-templates.md)
+   + 再利用可能なコンテンツフラグメント {#fragments}
+      + [フラグメントの基本を学ぶ](using/content-management/fragments.md)
+      + [フラグメントの作成](using/content-management/create-fragments.md)
+      + [既存のコンテンツをフラグメントとして保存](using/content-management/save-fragments.md)
+      + [フラグメントの管理](using/content-management/manage-fragments.md)
    + 動的コンテンツ {#dynamic}
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
