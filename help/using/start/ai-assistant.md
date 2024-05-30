@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizerの AI アシスタントの操作
-description: AdobeジャーニーオプティマイザーでAdobe Experience Platform AI アシスタントを活用する方法を説明します。
+title: AI アシスタントの操作
+description: AI アシスタントの活用方法を学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Adobe Journey Optimizerの AI アシスタントの操作 {#ai-assistant}
+# AI アシスタントの操作 {#ai-assistant}
 
 AI アシスタントは、特定のAdobeのコンセプトをナビゲートして理解し、運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。 Adobe Journey Optimizerを含むAdobe Experience Cloud全体の複数の製品で使用できます。
 
@@ -26,7 +27,7 @@ AI アシスタントにアクセスするには、上部バーのアイコン�
 
 Adobe Journey Optimizerでは、次のユースケースにアクセスできます。
 
-* 概念に関する質問（一般提供）概念に関する質問とは、Adobe Journey Optimizerの側面に関連するAdobeの概念に関するものです。 概念に関する質問の例を次に示します。
+* 商品知識（一般提供）商品知識の質問は、Adobe Journey Optimizerの側面に関連するAdobeの概念に関するものです。 製品に関する知識に関する質問の例を次に示します。
 
    * 1 つのAdobe Journey Optimizer サンドボックスに含めることができるライブアクティビティの数
    * Adobe Journey Optimizerでキャンペーンを設定するにはどうすればよいですか？
@@ -54,4 +55,4 @@ Adobe Journey Optimizerでは、次のユースケースにアクセスできま
 
 親指を上げるか親指を下げることで、答えを評価します。
 
-AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みを参照してください。 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みについては、を参照してください。 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
