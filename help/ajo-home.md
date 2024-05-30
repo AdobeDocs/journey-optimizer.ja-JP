@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 5 月リリースが公開されました。]
+>[!TAB 5月リリースが公開されました。]
 
-Adobe Journey Optimizerの 5 月のリリースに含まれる新機能と機能強化について説明します。
+Adobe Journey Optimizer 5月リリースに含まれる新機能と機能強化を参照してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Experience decisioning]
+>[!TAB エクスペリエンス決定]
 
-Experience Decisioning は、「決定項目」と呼ばれるマーケティングオファーの一元化されたカタログと高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。
+エクスペリエンス決定は、「決定項目」と呼ばれるマーケティングオファーの一元化されたカタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。
 
 ![](using/rn/assets/do-not-localize/gif-exd.gif)
 

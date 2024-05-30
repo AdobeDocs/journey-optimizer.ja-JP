@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 93%
 
   また、「**レポート**」セクションにアクセスして、キャンペーン実験用のレポートを設定することもできます。[詳細情報](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL ビジネスルール]**  – このセクションを使用すると、ユーザーがメッセージを受信する頻度やジャーニーにエントリする頻度を制御するクロスチャネルのビジネスルールを作成できます。 [詳細情報](../configuration/frequency-rules.md)
+* **[!UICONTROL ビジネスルール]** - このセクションを使用すると、ユーザーがメッセージを受信する頻度やジャーニーにエントリする頻度を制御するクロスチャネルビジネスルールを作成できます。[詳細情報](../configuration/frequency-rules.md)
 
 * **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](../reports/alerts.md)
 
@@ -207,12 +207,12 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
->title="初期化コードを追加"
+>title="初期化コードの追加"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="Assurance で検証"
+>title="Assurance での検証"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -237,7 +237,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
->title="プッシュ証明書を指定"
+>title="プッシュ証明書の指定"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -252,12 +252,12 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="タグプロパティを選択"
+>title="タグプロパティの選択"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
->title="プッシュ証明書を指定"
+>title="プッシュ証明書の指定"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -267,17 +267,17 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
->title="依存関係の読み込み"
+>title="HTML の読み込み"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
->title="依存関係の読み込み"
+>title="HTML の読み込み"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
->title="初期化コードを追加"
+>title="初期化コードの追加"
 >abstract="TBC"
 
 
