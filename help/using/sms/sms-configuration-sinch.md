@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 81%
 
 ---
@@ -74,8 +74,8 @@ Journey Optimizer で MMS を送信するように Sinch MMS を設定するに�
 
    * **[!UICONTROL プロジェクト ID]**, **[!UICONTROL アプリ ID]** および **[!UICONTROL API トークン]**:MMS API 資格情報を収集するには、次の手順に従います。
 
-      * の場合 **[!UICONTROL プロジェクト ID]** および **[!UICONTROL アプリ ID]**：にアクセスします **Conversation API の概要** sinch ダッシュボードの Sinch プロジェクトのページ。
-      * の場合 **[!UICONTROL API トークン]**：を取得します **アクセスキー** sinch プロジェクト用にを生成する場合 **Base64 API トークン** out of your Sinch Project **アクセスキー**.
+      * の場合 **[!UICONTROL プロジェクト ID]** および **[!UICONTROL アプリ ID]**：にアクセスします [Conversation API の概要](https://dashboard.sinch.com/convapi/overview) sinch ダッシュボードの Sinch プロジェクトのページ。
+      * の場合 **[!UICONTROL API トークン]**：を取得します [アクセスキー](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) sinch プロジェクト用にを生成する場合 **Base64 API トークン** out of your Sinch Project **アクセスキー**.
 
    * **[!UICONTROL サービス プラン ID]** および **[!UICONTROL SMS API トークン]**：自分 **[!UICONTROL サービス プラン ID]** および **[!UICONTROL SMS API トークン]** は、API ページの「SMS」タブにあります。
 

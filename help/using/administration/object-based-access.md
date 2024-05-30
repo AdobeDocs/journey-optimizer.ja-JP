@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 99%
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="オブジェクトレベルのアクセス制御"
->abstract="アクセス権のないラベルを適用すると、このオブジェクトへのアクセス権が失効となります。"
+>abstract="このオブジェクトへのアクセスを維持するには、権限のあるラベルのみを適用します。"
 
 オブジェクトレベルのアクセス制御（OLAC）を使用すると、次のように選択したオブジェクトへのデータアクセスを管理する権限を定義できます。
 
