@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 97%
 ## 2024年5月 {#may-2024}
 
 * に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] 2024 年 5 月リリースについて詳しくは、ドキュメントを参照してください。 [詳細情報](release-notes.md)
-* シードリストの繰り返しジャーニーに関する節が更新されました。 [詳細情報](../configuration/seed-lists.md#use-seed-list)
-* 外部データソースの節が更新されました。 [詳細情報](../datasource/external-data-sources.md#custom-authentication-access-token)
-* グローバルジャーニーのタイムアウトである 30 日がガードレールと制限ページに追加されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-* Adobe Campaign v7 と v8 の統合に関する節が更新され、プロビジョニングに関する情報が追加されました。 [詳細情報](../action/acc-action.md#access)
+* 繰り返しジャーニーに関して、シードリスト関連の節が更新されました。[詳細情報](../configuration/seed-lists.md#use-seed-list)
+* 外部データソースの節が更新されました。[詳細情報](../datasource/external-data-sources.md#custom-authentication-access-token)
+* ガードレールと制限ページに、30 日間のグローバルジャーニーのタイムアウトが追加されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+* Adobe Campaign v7／v8 統合に関する節が、プロビジョニングに関する情報で更新されました。[詳細情報](../action/acc-action.md#access)
 * コンテンツのパーソナライズに使用される式エディターは、ドキュメント内で「パーソナライゼーションエディター」という名前に変更され、 [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md). [詳細情報](../personalization/personalization-build-expressions.md)
 
 ## 2024年4月 {#april-2024}
@@ -92,7 +92,7 @@ ht-degree: 97%
 * キャッシュ時間に関するカスタム認証ドキュメントが更新されます。[詳細情報] (../datasource/external-data-sources.md)
 * `<listObject>` のサポートは、複数の機能で変更されました。
 * `toString` 関数の&#x200B;**期間**&#x200B;パラメーターが更新されます。[詳細情報](../building-journeys/functions/functiontostring.md)
-* 一部の外部データソースのユースケースでは、カスタムアクションの使用が推奨されます。
+* 一部の外部データソースのユースケースでは、カスタムアクションの使用をお勧めします。
 * イベントフィールドの構文が更新されました。次の構文は、非推奨（廃止予定）の `@(my_event.myfield}` で、`@event{my_event.myfield}` に置き換えられます。[詳細情報](../building-journeys/expression/field-references.md)
 * グローバルレポートガイドとライブレポートガイドの構成が変更されました。[詳細情報](../reports/campaign-global-report.md)
 

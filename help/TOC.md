@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 96%
       + [概要](using/building-journeys/expression/expressionadvanced.md)
       + 構文 {#syntax}
          + [一般規則](using/building-journeys/expression/generalities.md)
-         + [条件命令](using/building-journeys/expression/conditional-instruction.md)
+         + [条件付き手順](using/building-journeys/expression/conditional-instruction.md)
          + [データタイプ](using/building-journeys/expression/data-types.md)
          + [フィールド参照](using/building-journeys/expression/field-references.md)
          + [コレクション管理関数](using/building-journeys/expression/collection-management-functions.md)
@@ -290,7 +290,7 @@ ht-degree: 96%
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-      + [パーソナライゼーションへのAdobe Experience Platform データの使用](using/personalization/lookup-aep-data.md)
+      + [パーソナライゼーションに関する Adobe Experience Platform データの使用](using/personalization/lookup-aep-data.md)
       + パーソナライゼーションエディターの操作 {#expression-editor}
          + [パーソナライゼーションエディターについて](using/personalization/personalization-build-expressions.md)
          + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
@@ -327,7 +327,7 @@ ht-degree: 96%
       + [コンテンツのプレビュー](using/content-management/preview.md)
       + [メール配達確認を送信](using/content-management/proofs.md)
       + [メールのレンダリングをテスト](using/content-management/rendering.md)
-      + [E メールスパムレポート](using/content-management/spam-report.md)
+      + [メールスパムレポート](using/content-management/spam-report.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
@@ -566,7 +566,7 @@ ht-degree: 96%
    + [シードリストの使用](using/configuration/seed-lists.md)
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
-   + [ビジネス・ルールの構成](using/configuration/frequency-rules.md)
+   + [ビジネスルールの設定](using/configuration/frequency-rules.md)
    + [ルールセットの操作](using/configuration/rule-sets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
