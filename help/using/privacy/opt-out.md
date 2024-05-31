@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 94%
@@ -30,7 +30,6 @@ ht-degree: 94%
 >[!NOTE]
 >
 >また、Journey Optimizer の **Suppression REST API** を活用すると、抑制リストと許可リストを使用して送信メッセージを制御できます。[Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
-
 
 Journey Optimizer のメールと SMS メッセージでオプトアウトを管理する方法について、以下の節で説明します。
 

@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: メール, 設定, サーフェス, サブドメイン
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -29,7 +29,6 @@ ht-degree: 100%
    ![](../configuration/assets/ip-pool-create.png)
 
 1. チャネルサーフェスを作成し、**[!UICONTROL メール]**&#x200B;チャネルを選択します。[詳細情報](../configuration/channel-surfaces.md)
-
 
    ![](../configuration/assets/preset-general.png)
 

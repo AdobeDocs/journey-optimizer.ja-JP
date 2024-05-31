@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 93%
@@ -166,8 +166,6 @@ ht-degree: 93%
 >デフォルトの結合メソッドが [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL プロファイル]** 結合ポリシーは **[!UICONTROL データセットの優先順位]**&#x200B;を有効にします。 **[!UICONTROL AJO 同意サービスデータセット]** そして、結合ポリシーで優先順位を付けます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
 >
 >このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報が含まれます。
-
-
 
 **関連トピック：**
 
