@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 96%
+source-wordcount: '979'
+ht-degree: 93%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 96%
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## オプトアウト {#opt-out}
+## オプトアウトランディングページ {#opt-out}
 
 受信者がお知らせの登録を解除止できるように、オプトアウトのランディングページへのリンクをメールに含めることができます。
 
@@ -167,6 +167,12 @@ ht-degree: 96%
 >
 >このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報が含まれます。
 
+
+
+**関連トピック：**
+
+* [ワンクリックオプトアウト](../email/email-opt-out.md#one-click-opt-out-link)
+* [メールヘッダーのオプトアウトリンク](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 
