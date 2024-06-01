@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: メール, 設定, サーフェス, サブドメイン
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 
    * ここで、メールの送信に使用するサブドメインと、サーフェスに関連付ける IP プールを選択します。[詳細情報](email-settings.md#subdomains-and-ip-pools)
 
-   ![](assets/surface-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
    * **[!UICONTROL 送信者メール]**&#x200B;および&#x200B;**[!UICONTROL エラーメール]**&#x200B;アドレスでは、現在選択されているデリゲートされたサブドメインを使用する必要があります。[詳細](email-settings.md#email-header)
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 529a8ab0bf0c0496996183a56269d9f566e48bcb
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2078'
 ht-degree: 100%
 
 ---
@@ -276,7 +276,7 @@ ht-degree: 100%
 **コンテンツデザイン**
 
 * **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+* **ワンクリックオプトアウトリンク** - メールコンテンツに新しいタイプのリンクを挿入できます。この&#x200B;**オプトアウト**&#x200B;リンクを使用すると、ユーザーがワンクリックでコミュニケーションの受信登録を解除でき、オプトアウトを確認するためにランディングページにリダイレクトされることはありません。[詳細情報](../privacy/opt-out.md#one-click-opt-out-link)
 
 **パーソナライゼーション**
 
