@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 32%
@@ -31,6 +31,7 @@ ht-degree: 32%
 * を有効にする **ワンクリックオプトアウトリンク** メールの場合。 詳しくは、[ワンクリックオプトアウト](#one-click-opt-out)を参照してください。
 
 * を挿入 **ランディングページへのリンク**. [詳しくは、オプトアウトランディングページの追加方法を参照してください](#opt-out-external-lp)
+
 
 ## ワンステップのオプトアウト {#opt-out-one-step}
 
