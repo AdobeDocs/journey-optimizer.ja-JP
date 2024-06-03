@@ -7,7 +7,8 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
+source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 83%
