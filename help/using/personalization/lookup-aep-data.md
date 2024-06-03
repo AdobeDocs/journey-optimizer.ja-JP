@@ -11,9 +11,9 @@ keywords: 式，エディター
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '571'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 >
 >この機能は現在、プライベートベータ版としてのみ利用できます。
 >
->現時点では、Adobeに提供した非実稼動サンドボックスと、ベータ版にリクエストされたデータセットでのみ、テスト目的で使用できます。
+>現時点では、次の場合にのみ使用できます **メールチャネル** また、非実稼動サンドボックスでのテスト目的で、Adobeおよびベータ版にリクエストされたデータセットに対して指定しました。
 
 Journey Optimizerでは、パーソナライゼーションエディターでAdobe Experience Platformのデータを活用して、次のことができます [コンテンツのパーソナライズ](../personalization/personalize.md). 手順は次のとおりです。
 
