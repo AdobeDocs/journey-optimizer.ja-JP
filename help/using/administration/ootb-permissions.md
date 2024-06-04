@@ -12,7 +12,7 @@ exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 | データハイジーン | **[!DNL Manage data hygiene]**：データハイジーンの読み取り、作成、編集、削除。</br>**[!DNL View data hygiene]**：データハイジーンに対する読み取り専用アクセス。 |
 | データ取り込み | **[!DNL Manage sources]**：ソースの読み取り、作成、編集、無効化。</br>**[!DNL View sources]**：「カタログ」タブでの使用可能なソースおよび「参照」タブでの認証済みのソースへの読み取り専用アクセス。 |
 | データ管理 | **[!DNL Data monitoring]**：監視データセットおよびストリームへの読み取り専用アクセス。</br>**[!DNL Manage datasets]**：データセットの読み取り、作成、編集、削除。スキーマへの読み取り専用アクセス</br>**[!DNL View datasets]**：データセットおよびスキーマに対する読み取り専用アクセス。 |
-| データモデリング | **[!DNL Manage identity metadata]**：スキーマの ID メタデータの読み取り、作成、編集、削除。</br> **[!DNL Manage relationships]**：スキーマ関係の読み取り、作成、編集、削除。</br>**[!DNL Manage schemas]**：エクスペリエンスデータモデル（XDM）スキーマの読み取り、作成、編集。</br>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。 |
+| データモデリング | **[!DNL Manage identity metadata]**：スキーマの ID メタデータの読み取り、作成、編集および削除。</br> **[!DNL Manage relationships]**：スキーマ関係の読み取り、作成、編集、削除。</br>**[!DNL Manage schemas]**：エクスペリエンスデータモデル（XDM）スキーマの読み取り、作成、編集。</br>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。 |
 | 意思決定管理 | **[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</br>**[!DNL Manage offers]**：すべてのオファー、コンポーネント、決定およびコレクションの読み取り、作成、編集、削除。</br>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</br>**[!DNL View decisions]**：オファーエンティティへの読み取り専用アクセス。<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | 宛先 | **[!DNL Activate destinations]**：ユーザーが既存の宛先に対してオーディエンスをアクティブ化できるようになります。</br>**[!DNL Activate segment without mapping]**：マッピング手順を表示せずに、ユーザーが既存の宛先に対してオーディエンスをアクティブ化できるようになります。ユーザーは、アクティベーションワークフローでオーディエンスを追加および削除できますが、マッピングされた属性や ID を追加または削除することはできません。</br>**[!DNL Destination authoring]**：Adobe Experience Platform Destination SDK を使用して宛先を作成します。</br>**[!DNL Manage and activate dataset destination]**：データセット書き出しフローを読み取り、作成、編集および無効化。作成済みのアクティブなデータセットに対してデータもアクティブ化する機能。</br>**[!DNL Manage destinations]**：宛先アクティブ化フローと宛先アカウントの読み取り、作成および削除。</br>**[!DNL View destinations]**：「カタログ」タブの使用可能な宛先と「参照」タブの認証済みの宛先への読み取り専用アクセス。 |
 | ID 管理 | **[!DNL Manage identity namespaces]**：ID 名前空間の読み取り、作成および編集。</br>**[!DNL Manage identity settings]**：ID 設定の読み取り、作成および編集。</br>**[!DNL View identity namespaces]**：ID 名前空間への読み取り専用アクセス。</br>**[!DNL View identity settings]**：ID 設定への読み取り専用アクセス。</br>**[!DNL View identity graph]**：ID グラフへの読み取り専用アクセス。 |

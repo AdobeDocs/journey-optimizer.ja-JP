@@ -178,7 +178,7 @@ ht-degree: 98%
 >id="ajo_lp_subpage"
 >title="サブページ設定の定義"
 >abstract="最大 2 つのサブページを追加できます。例えば、ユーザーがフォームを送信すると表示される「ありがとうございました」ページを作成したり、ランディングページで問題が発生した場合に呼び出されるエラーページを定義したりできます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="ランディングページのコンテンツのデザイン"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="ランディングページのコンテンツのデザイン"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
@@ -263,7 +263,7 @@ ht-degree: 98%
 
 次の 2 種類のアラートが発生する可能性があります。
 
-* **警告** 推奨事項とベストプラクティスを参照してください。 <!--For example, a message will display if -->
+* **警告**&#x200B;は、レコメンデーションとベストプラクティスを表します。<!--For example, a message will display if -->
 
 * **エラー**&#x200B;を解決しない限り、ランディングページを公開することはできません。例えば、プライマリページの URL が欠落している場合はアラートが表示されます。
 
