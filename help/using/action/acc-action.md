@@ -10,9 +10,9 @@ level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,22 +31,22 @@ ht-degree: 89%
 
 ## アクセス {#access}
 
-Journey Optimizer インスタンスと Campaign インスタンスとの接続は、Adobeの指定に応じて、プロビジョニング時に設定されます。 プロビジョニング時に接続をリクエストしていない場合は、Adobe Journey Optimizer サポートに連絡して、イネーブルメントをリクエストするために次の詳細を提供してください。
+Journey Optimizer と Campaign インスタンスとの接続は、必要に応じてプロビジョニング時にアドビによって設定されます。プロビジョニング時に接続をリクエストしていない場合は、Adobe Journey Optimizer サポートに連絡し、次の詳細を提供して有効化をリクエストしてください。
 
-Adobe Journey Optimizerから：
+Adobe Journey Optimizer から：
 
-* 組織 ID （AdobeOrgID）
+* 組織 ID（Adobe OrgID）
 * サンドボックス
 
-Adobe Campaignから：
+Adobe Campaign から：
 
 * キャンペーン URL
 * RT URL
-* Campaign のバージョン
+* キャンペーンのバージョン
 
 ## 重要な注意事項 {#important-notes}
 
-* メッセージのスロットル処理はおこなわれません。システムは現在の Campaign SLA に基づいて、送信できるメッセージ数を 5 分ごとに 4,000 件までに制限します。この理由から、Journey Optimizer は単一ユースケース（オーディエンスではなく個々のイベント）でのみ使用してください。
+* メッセージのスロットルはありません。システムは現在の Campaign SLA に基づいて、送信できるメッセージ数を 5 分ごとに 4,000 件までに制限します。この理由から、Journey Optimizer は単一ユースケース（オーディエンスではなく個々のイベント）でのみ使用してください。
 
 * 使用するテンプレートごとに、1 つのアクションをキャンバス上に設定する必要があります。Adobe Campaign から使用する各テンプレートに対して、Journey Optimizer でアクションを 1 つずつ設定する必要があります。
 
@@ -83,8 +83,8 @@ Campaign では、トランザクションメッセージとそれに関連す�
 
 Journey Optimizer では、トランザクションメッセージごとに 1 つのアクションを設定する必要があります。次の手順に従います。
 
-1. 新規アクションを作成します。[この節](../action/action.md)を参照してください。
-1. 名前と説明を入力します。
+1. 新しいアクションの作成[この節](../action/action.md)を参照してください。
+1. 名前と説明を入力
 1. 「**アクションタイプ**」フィールドで、**Adobe Campaign Classic** を選択します。
 1. 「**ペイロード**」フィールドをクリックし、 Campaign メッセージに対応する JSON ペイロードの例を貼り付けます。アドビに問い合わせて、このペイロードを取得してください。 
 1. ジャーニー キャンバスでマッピングするかどうかに応じて、さまざまなフィールドを静的または可変に調整します。メールアドレスのチャネルパラメーターやパーソナライゼーションフィールド（ctx）など、特定のフィールドは、ジャーニーのコンテキストでマッピングの変数として定義する必要があります。

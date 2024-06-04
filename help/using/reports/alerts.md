@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 Adobe Experience Platform のアラートについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}を参照してください。
 
-左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。Journey Optimizerには、2 つの事前設定済みアラートがあります。 [ジャーニーカスタムアクションエラー](#alert-custom-actions) アラートと [オーディエンスの読み取りトリガーに失敗しました](#alert-read-audiences) アラート。 次に、これらのアラートについて詳しく説明します。
+左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。Journey Optimizer では、[ジャーニーカスタムアクションエラー](#alert-custom-actions)アラートと[オーディエンスを読み取りのトリガー失敗](#alert-read-audiences)アラートの、2 つの事前設定アラートが使用可能です。次に、これらのアラートについて詳しく説明します。
 
 **アラート**&#x200B;ダッシュボードから「**購読**」オプションを選択すると、ユーザーインターフェイスから各アラートを個別に購読できます。登録解除する場合も同じ方法を使用します。
 
@@ -67,7 +67,7 @@ Adobe Experience Platform のアラートについて詳しくは、[Adobe Exper
 
 **オーディエンスを読み取り**&#x200B;に関するアラートは、プロファイルが&#x200B;**オーディエンスを読み取り**&#x200B;ノードにエントリすると解決されます。
 
-に対応する I/O イベント購読名 **オーディエンスの読み取りトリガーに失敗しました** アラートは **ジャーニー読み取りオーディエンスの遅延、失敗、エラー**.
+**オーディエンスを読み取りのトリガー失敗**&#x200B;アラートに対応する I/O イベント購読名は、**ジャーニーのオーディエンスを読み取りの遅延、失敗およびエラー**&#x200B;です。
 
 ## トラブルシューティング {#alert-troubleshooting}
 
