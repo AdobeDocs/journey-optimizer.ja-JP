@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '5334'
+source-wordcount: '5355'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 98%
 # ドキュメントの更新 {#latest-updates}
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
+
+## 2024年6月 {#june-2024}
+
+* の設定方法について説明します **待機** ジャーニーのアクティビティを再編成し、改善しました。 [詳細情報](../building-journeys/wait-activity.md)
 
 ## 2024年5月 {#may-2024}
 
