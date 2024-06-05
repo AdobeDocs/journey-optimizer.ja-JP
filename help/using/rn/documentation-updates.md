@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5334'
 ht-degree: 98%
 
 ---
@@ -391,7 +391,7 @@ ht-degree: 98%
 
 * **クイックスタート**&#x200B;ページが改善され、様々なペルソナの手順が追加されました。[詳細情報](../start/quick-start.md)
 
-* 該当する節で説明しているすべての意思決定管理機能が、Offer Decisioning アプリケーションサービスを利用する Adobe Experience Platform ユーザーにも当てはまるようになりました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
+* 該当する節で説明しているすべての意思決定管理機能が、Offer decisioningアプリケーションを利用するAdobe Experience Platform ユーザーにも当てはまるようになりました。 [詳細情報](../offers/get-started/starting-offer-decisioning.md)
 
 * 制約を適用して特定のプレースメントに対応するオファーの選択を制限する際に、オーディエンスを使用する場合と決定ルールを使用する場合の違いを明確にするための節を追加しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
