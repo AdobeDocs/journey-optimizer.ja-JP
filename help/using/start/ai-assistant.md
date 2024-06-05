@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -52,11 +52,11 @@ Adobe Journey Optimizerでは、次のユースケースにアクセスできま
 
 質問するには、画面の下部にあるフィールドに質問を入力し、Enter キーを押します。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="20%" align="left"}
 
 回答を確認し、を使用します **ソースを表示** ボタンをクリックすると、製品ドキュメントへの直接リンクと詳細情報が表示されます。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="20%" align="left"}
 
 親指を上げるか親指を下げることで、答えを評価します。
 
