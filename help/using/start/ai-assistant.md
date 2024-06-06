@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ AI アシスタントにアクセスするには、上部バーのアイコン�
 
 Adobe Journey Optimizerでは、次のユースケースにアクセスできます。
 
-* 商品知識（一般提供）商品知識の質問は、Adobe Journey Optimizerの側面に関連するAdobeの概念に関するものです。 製品に関する知識に関する質問の例を次に示します。
+* **製品に関する知識** （一般公開）
+
+  製品ナレッジの質問は、Adobe Journey Optimizerの側面に関連するAdobeコンセプトに関するものです。 製品に関する知識に関する質問の例を次に示します。
 
    * 1 つのAdobe Journey Optimizer サンドボックスに含めることができるライブアクティビティの数
    * Adobe Journey Optimizerでキャンペーンを設定するにはどうすればよいですか？
    * Adobe Journey Optimizer ジャーニーで使用するカスタムアクションを作成するにはどうすればよいですか？
 
 
-* ジャーニーでの運用インサイト（ベータ版）運用インサイトの質問は、組織のサンドボックス内のジャーニーオブジェクトに関するものです。 運用に関するインサイトの質問やプロンプトの例を次に示します。
+* **運用インサイト** ジャーニー内（ベータ版）
+
+  運用インサイトの質問は、組織のサンドボックス内のジャーニーオブジェクトに関するものです。 運用に関するインサイトの質問やプロンプトの例を次に示します。
 
    * Adobe Journey Optimizerにはライブジャーニーがいくつありますか？
    * スケジュールされたすべてのジャーニーのリストを希望
@@ -50,11 +54,11 @@ Adobe Journey Optimizerでは、次のユースケースにアクセスできま
 
 質問するには、画面の下部にあるフィールドに質問を入力し、Enter キーを押します。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 回答を確認し、を使用します **ソースを表示** ボタンをクリックすると、製品ドキュメントへの直接リンクと詳細情報が表示されます。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 親指を上げるか親指を下げることで、答えを評価します。
 
