@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 2e0c8dbe40e953ceb59df43c91bcd12a07e048e9
+source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,7 +26,7 @@ AI アシスタントにアクセスするには、上部バーのアイコン�
 
 >[!CAUTION]
 >
->AI アシスタントを使用するには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインに同意する必要があります。 契約について詳しくは、で説明します。 [このページ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+>AI アシスタントを使用するには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインに同意する必要があります。 契約について詳しくは、で説明します。 [このページ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 Adobe Journey Optimizerでは、次のユースケースにアクセスできます。
 
@@ -58,4 +58,4 @@ Adobe Journey Optimizerでは、次のユースケースにアクセスできま
 
 親指を上げるか親指を下げることで、答えを評価します。
 
-AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みについては、を参照してください。 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みについては、を参照してください。 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
