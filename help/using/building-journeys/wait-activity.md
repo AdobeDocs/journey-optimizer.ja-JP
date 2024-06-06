@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '566'
 ht-degree: 26%
 
 ---
@@ -25,10 +25,10 @@ ht-degree: 26%
 
 を使用できます。 **[!UICONTROL 待機]** アクティビティ：次のアクティビティを実行するまでの期間を定義します。  最大待ち時間はです **29 日間**.
 
-次のタイプを使用できます。
+次の 2 種類を設定できます **待機** アクティビティ：
 
-* [期間](#duration)
-* [カスタム](#custom)
+* 固定期間に基づく待機。 [詳細情報](#duration)
+* 関数を使用して計算するカスタム待機。 [詳細情報](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ ht-degree: 26%
 
 テストモードでは、 **[!UICONTROL テストの待機時間]** パラメーターを使用すると、各 **待機** アクティビティは持続します。 デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
+## 設定 {#wait-configuration}
 
-## 期間待機 {#duration}
+### 期間待機 {#duration}
 
 「」を選択します **期間** 次のアクティビティを実行するまでの待機期間を入力して設定します。 最大期間はです **29 日間**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## カスタム待機 {#custom}
+### カスタム待機 {#custom}
 
-「」を選択します **カスタム** 入力して、イベントまたはカスタムアクション応答からのフィールドに基づく高度な式を使用して、カスタムの日付を定義します。 相対期間（例：7 日）を直接定義することはできませんが、必要に応じて関数を使用して計算できます（例：購入後 2 日）。
+「」を選択します **カスタム** イベントまたはカスタムアクションの応答から取得したフィールドに基づく高度な式を使用して、カスタムの期間を定義する場合に入力します。 相対期間（例：7 日）を直接定義することはできませんが、必要に応じて関数を使用して計算できます（例：購入後 2 日）。
 
 ![式を使用したカスタム待機の定義](assets/journey57.png)
 
