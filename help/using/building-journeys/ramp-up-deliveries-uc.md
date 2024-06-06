@@ -12,7 +12,7 @@ hidefromtoc: true
 keywords: 配信品質, ジャーニー, 使用例, メール, 評価
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
 ht-degree: 100%
 
