@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -61,9 +61,9 @@ ht-degree: 100%
 > また、](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja) を開始する前に、リアルタイム顧客プロファイルデータのガードレールを認識しておく[必要があります。
 
 
-**関連トピック**
-
-* [開始の主な手順](quick-start.md)
-* [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
-* [ライブレポート](../reports/live-report.md)
-* [Journey Optimizer Security の概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）
+>[!MORELIKETHIS]
+>
+>* [開始の主な手順](quick-start.md)
+>* [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
+>* [ライブレポート](../reports/live-report.md)
+>* [Journey Optimizer Security の概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）
