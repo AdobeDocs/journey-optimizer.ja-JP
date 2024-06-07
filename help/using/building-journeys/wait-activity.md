@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
+source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '567'
 ht-degree: 26%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 26%
 
 次の 2 種類を設定できます **待機** アクティビティ：
 
-* 固定期間に基づく待機。 [詳細情報](#duration)
-* 関数を使用して計算するカスタム待機。 [詳細情報](#custom)
+* 相対的な期間に基づく待機。 [詳細情報](#duration)
+* 関数を使用して計算するカスタム日付。 [詳細情報](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -55,7 +55,7 @@ ht-degree: 26%
 
 ### 期間待機 {#duration}
 
-「」を選択します **期間** 次のアクティビティを実行するまでの待機期間を入力して設定します。 最大期間はです **29 日間**.
+「」を選択します **期間** を入力すると、次のアクティビティを実行するまでの待機の相対時間を設定できます。 最大期間はです **29 日間**.
 
 ![待機期間を定義](assets/journey55.png)
 
@@ -70,7 +70,7 @@ Select the date for the execution of the next activity.
 
 ### カスタム待機 {#custom}
 
-「」を選択します **カスタム** イベントまたはカスタムアクションの応答から取得したフィールドに基づく高度な式を使用して、カスタムの期間を定義する場合に入力します。 相対期間（例：7 日）を直接定義することはできませんが、必要に応じて関数を使用して計算できます（例：購入後 2 日）。
+「」を選択します **カスタム** 入力して、イベントまたはカスタムアクション応答からのフィールドに基づく高度な式を使用して、カスタムの日付を定義します。 相対期間（例：7 日）を直接定義することはできませんが、必要に応じて関数を使用して計算できます（例：購入後 2 日）。
 
 ![式を使用したカスタム待機の定義](assets/journey57.png)
 
