@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: ht
-source-wordcount: '820'
-ht-degree: 100%
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 85%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Experience Platform データ収集の**アプリサーフェス**&#x200B;
 
   ![](assets/inapp_config_6.png)
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"} で
+* 対象： [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}にデフォルトの結合ポリシーがあることを確認してください。 **[!UICONTROL アクティブオンエッジ結合ポリシー]** 有効なオプション。 これを行うには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}
 
@@ -47,6 +47,12 @@ Adobe Experience Platform データ収集の**アプリサーフェス**&#x200B;
   >カスタムの&#x200B;**[!UICONTROL データセット設定]**&#x200B;マージポリシーを使用する場合は、指定したマージポリシー内に&#x200B;**[!UICONTROL ジャーニーインバウンド]**&#x200B;データセットを必ず追加してください。
 
   ![](assets/inapp_config_8.png)
+
+* Journey Optimizer モバイルエクスペリエンスの配信のトラブルシューティングを行うには、を使用できます。 **エッジ配信** 内で表示 **Adobe Experience Platform Assurance**. このプラグインを使用すると、リクエスト呼び出しを詳細に調べ、期待されるエッジ呼び出しが予想どおりに発生するかどうかを確認し、ID マップ、セグメントメンバーシップ、同意設定を含むプロファイルデータを調べることができます。 さらに、リクエストが認定されたアクティビティを確認し、認定されなかったアクティビティを特定することもできます。
+
+  使用， **エッジ配信** プラグインは、インバウンド実装を効果的に理解し、トラブルシューティングを行うために必要なインサイトを得るのに役立ちます。
+
+  [エッジ配信ビューの詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## チャネル設定の前提条件 {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ Adobe Experience Platform データ収集の**アプリサーフェス**&#x200B;
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
-次の事前定義された[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}）を使用してい&#x200B;**ない**&#x200B;場合は、次のフィールドグループを追加する必要があります：`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`、`Web Details`。これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
+次の場合： **ではない** 次の事前定義済みを使用 [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} データセットスキーマの場合： `AEP Web SDK ExperienceEvent` および `Consumer Experience Event` （で定義） [このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}）を選択します。必ず次のフィールドグループを追加します。 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`、および `Web Details`. これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
 
 >[!NOTE]
 >
