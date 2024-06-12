@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: e35f6b8ddc1e7bb8a737b33be200115a3022c99c
+source-git-commit: 4f238177485ccc5ab53b48488dd1f2084d34d684
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新しいフラグメントのステータス"
->abstract="以降 **ドラフト** および **ライブ** Journey Optimizerの 6 月のリリースでステータスが導入されました。このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。 これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、その変更を関連するキャンペーンおよびジャーニーに反映する必要があります。"
+>abstract="以降 **ドラフト** および **ライブ** Journey Optimizerの 6 月のリリースでステータスが導入されました。このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。 これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、その変更を関連するキャンペーンおよびジャーニーに反映する必要があります。 また、新しいジャーニー/キャンペーンのバージョンを作成し、公開する必要があります。"
 
 フラグメントを管理するには、からフラグメントリストにアクセスします **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]** 左メニュー。
 
