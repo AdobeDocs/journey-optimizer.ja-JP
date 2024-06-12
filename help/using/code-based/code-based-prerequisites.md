@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 65%
@@ -26,7 +26,6 @@ ht-degree: 65%
 >* Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織では、コードベースのエクスペリエンスチャネルを使用できません。
 >
 >* **キャンペーン**&#x200B;にコードベースのエクスペリエンスのみを作成できます。[詳細情報](../campaigns/create-campaign.md#configure)。
-
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
