@@ -10,7 +10,7 @@ level: Experienced
 keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
