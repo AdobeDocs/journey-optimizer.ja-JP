@@ -7,15 +7,20 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
+source-git-commit: e35f6b8ddc1e7bb8a737b33be200115a3022c99c
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 94%
+source-wordcount: '518'
+ht-degree: 82%
 
 ---
 
-
 # フラグメントの管理 {#manage-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="新しいフラグメントのステータス"
+>abstract="以降 **ドラフト** および **ライブ** Journey Optimizerの 6 月のリリースでステータスが導入されました。このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。 これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、その変更を関連するキャンペーンおよびジャーニーに反映する必要があります。"
 
 フラグメントを管理するには、からフラグメントリストにアクセスします **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]** 左メニュー。
 
