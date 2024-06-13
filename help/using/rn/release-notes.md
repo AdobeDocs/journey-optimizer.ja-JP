@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 91%
+source-wordcount: '826'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 91%
 
 ## 2024 年 6 月更新
 
-Adobe Journey OptimizerでAdobe Experience Platform AI アシスタントを使用できるようになりました。 [詳細情報](../start/ai-assistant.md)
+* Adobe Journey OptimizerでAdobe Experience Platform AI アシスタントを使用できるようになりました。 [詳細情報](../start/ai-assistant.md)
+
+* **意思決定管理でのマルチルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 ## 2024年5月リリースノート {#may-2024}
 
@@ -37,7 +39,6 @@ Adobe Journey OptimizerでAdobe Experience Platform AI アシスタントを使�
 ### 新機能 {#e-features}
 
 このリリースでは、以下に示す新機能が導入されています。
-
 
 <table>
 <thead>
