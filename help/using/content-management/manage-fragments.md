@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: フラグメントの管理
-description: コンテンツフラグメントの管理方法について学ぶ
+title: フラグメントを管理
+description: コンテンツフラグメントの管理方法を説明します
 feature: Fragments
 topic: Content Management
 role: User
@@ -11,18 +11,18 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
-# フラグメントの管理 {#manage-fragments}
+# フラグメントを管理 {#manage-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新しいフラグメントのステータス"
 >abstract="以降 **ドラフト** および **ライブ** Journey Optimizerの 6 月のリリースでステータスが導入されました。このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。 これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、その変更を関連するキャンペーンおよびジャーニーに反映する必要があります。 また、新しいジャーニー/キャンペーンのバージョンを作成し、公開する必要があります。 公開にはユーザー権限が必要です。"
 
-フラグメントを管理するには、からフラグメントリストにアクセスします **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]** 左メニュー。
+フラグメントを管理するには、左側のメニューの&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL フラグメント]**&#x200B;からフラグメントリストにアクセスします。
 
 ![](assets/fragment-list.png)
 

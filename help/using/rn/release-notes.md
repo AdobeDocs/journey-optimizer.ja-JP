@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 88%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2024 年 6 月更新
+## 2024年6月の更新
 
-* Adobe Journey OptimizerでAdobe Experience Platform AI アシスタントを使用できるようになりました。 [詳細情報](../start/ai-assistant.md)
+* Adobe Journey Optimizer で Adobe Experience Platform AI アシスタントを使用できるようになりました。[詳細情報](../start/ai-assistant.md)
 
 * **意思決定管理でのマルチルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
@@ -62,14 +62,14 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>メールサーフェスのパーソナライゼーション – 限定提供</strong><br/></th>
+<th><strong>メールサーフェスのパーソナライゼーション - 限定提供</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メールチャネルサーフェスを作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義して、メール設定の柔軟性と制御を高めることができるようになりました。</p>
-<p>メールサーフェスのパーソナライゼーションは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>メール設定の柔軟性と制御を高めるために、メールチャネルサーフェスを作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義できるようになりました。</p>
+<p>メールサーフェスのパーソナライゼーションは、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ ht-degree: 88%
 
   >[!AVAILABILITY]
   >
-  >この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、Adobe担当者にお問い合わせください。
+  >この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。
 
 <!--
 **Audiences**
