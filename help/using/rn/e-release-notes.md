@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '640'
+ht-degree: 30%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 23%
 <tbody>
 <tr>
 <td>
-<p>AI アシスタントは、特定のAdobeのコンセプトをナビゲートして理解し、運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。 Adobe Journey Optimizerを含むAdobe Experience Cloud全体の複数の製品で使用できます。</p>
+<p>AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。</p>
 <p>詳しくは、 <a href="../start/ai-assistant.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -169,6 +169,9 @@ ht-degree: 23%
 * ジャーニーのグローバルタイムアウトが 30 日から 91 日に増えました。
 * Adobe Journey Optimizerで、プライバシーに関する削除/アクセスリクエストがサポートされるようになりました。
 * ジャーニーインベントリの列のサイズを変更できるようになりました。
+* **イベント設定の高度な式エディター** 一般提供を開始 – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。[詳細情報](../event/about-creating.md)
+* **結合ポリシー** 一般提供を開始 – ジャーニーで使用される結合ポリシーが、ジャーニー全体を通して表示され一貫性を持つようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。[詳細情報](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **キャンペーン**
@@ -183,7 +186,7 @@ ht-degree: 23%
 **SMS チャネル**
 
 * 単一の API 設定で、各サンドボックスに一意のショートコードを追加できるようになり、プロセスの効率と合理化が向上しました。
-* 既存の SMS 設定を変更できるようになりました。
+  <!--* You can now modify existing SMS configurations.-->
 
 **アプリ内チャネル**
 
