@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。このデフォルト値は、一覧表示されている値の 1 つにオンボーディングする際に変更できます [こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}.
+>[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値はオンボーディングの際に、[こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つに変更できます。
 
 ## パーソナライゼーションの同意の実装 {#opt-out-personalization}
 
@@ -98,9 +98,9 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[データモデリング](../offers/ranking/ai-models.md)でプロファイルデータを使用するための同意は、[!DNL Journey Optimizer] ではまだサポートされていません。
 
-### パーソナライズ機能エディターで {#opt-out-expression-editor}
+### パーソナライゼーションエディターの場合 {#opt-out-expression-editor}
 
-この [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) それ自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
+[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
 
 ただし、権利ベースのアクセス制御ラベルを使用すると、パーソナライゼーションに使用できるフィールドを制限できます。[メッセージプレビュー](../content-management/preview.md)と[メールのレンダリングサービス](../content-management/rendering.md)は、機密情報で識別されるフィールドをマスクします。
 

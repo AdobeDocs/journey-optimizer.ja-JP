@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2415'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -296,7 +296,7 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 URL トラッキングパラメーターを設定するには、目的の値を&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;フィールドに直接入力することができます。
 
-それぞれを編集することもできます **[!UICONTROL 値]** を使用したフィールド [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md). 「編集」アイコンをクリックして、エディターを開きます。ここから、利用可能なコンテキスト属性を選択したり、テキストを直接編集したりできます。
+また、[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を使用して各&#x200B;**[!UICONTROL 値]**&#x200B;フィールドを編集することもできます。「編集」アイコンをクリックして、エディターを開きます。ここから、利用可能なコンテキスト属性を選択したり、テキストを直接編集したりできます。
 
 ![](assets/preset-url-tracking-editor.png)
 
@@ -316,7 +316,7 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 
 >[!NOTE]
 >
->テキスト値の入力と、パーソナライゼーションエディターからのコンテキスト属性の使用を組み合わせることができます。 各「**[!UICONTROL 値]**」フィールドには、5 KB の制限までの文字数を含めることができます。
+>テキスト値の入力と、パーソナライゼーションエディターからのコンテキスト属性の使用を組み合わせることができます。各「**[!UICONTROL 値]**」フィールドには、5 KB の制限までの文字数を含めることができます。
 
 <!--You can drag and drop the parameters to reorder them.-->
 

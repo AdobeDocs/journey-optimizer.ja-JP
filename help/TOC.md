@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 98%
    + [早期リリースノート](using/rn/early-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
-      + [2024](using/rn/release-notes-2024.md)
+      + [2024年](using/rn/release-notes-2024.md)
       + [2023年](using/rn/release-notes-2023.md)
-      + [2022](using/rn/release-notes-2022.md)
+      + [2022年](using/rn/release-notes-2022.md)
       + [2021年](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + [ジャーニーキャンバスの改善](using/rn/new-canvas.md)
@@ -314,9 +314,9 @@ ht-degree: 98%
    + [コンテンツテンプレート](using/content-management/content-templates.md)
    + 再利用可能なコンテンツフラグメント {#fragments}
       + [フラグメントの基本を学ぶ](using/content-management/fragments.md)
-      + [フラグメントの作成](using/content-management/create-fragments.md)
+      + [フラグメントを作成](using/content-management/create-fragments.md)
       + [既存のコンテンツをフラグメントとして保存](using/content-management/save-fragments.md)
-      + [フラグメントの管理](using/content-management/manage-fragments.md)
+      + [フラグメントを管理](using/content-management/manage-fragments.md)
    + 動的コンテンツ {#dynamic}
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)

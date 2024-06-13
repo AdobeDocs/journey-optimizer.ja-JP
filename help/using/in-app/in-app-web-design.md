@@ -9,9 +9,9 @@ keywords: アプリ内, メッセージ, 作成, 開始
 hide: true
 hidefromtoc: true
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 98%
 
 ![](assets/in_app_web_design_4.png)
 
-「**[!UICONTROL パーソナライゼーション]**」アイコンを使用してパーソナライゼーションを追加します。Adobe Journey Optimizer パーソナライゼーションエディターでのパーソナライゼーションの詳細情報 [この節](../personalization/personalize.md).
+「**[!UICONTROL パーソナライゼーション]**」アイコンを使用してパーソナライゼーションを追加します。Adobe Journey Optimizer パーソナライゼーションエディターでのパーソナライゼーションについて詳しくは、[この節](../personalization/personalize.md)を参照してください。
 
 +++詳細フォーマットを使用したその他のオプション
 

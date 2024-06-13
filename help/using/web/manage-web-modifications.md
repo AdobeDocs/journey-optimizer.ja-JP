@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Web デザイナーを使用してページを編集する場合、**[!UICONTROL
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   を利用できます [!DNL Journey Optimizer] すべてのパーソナライゼーション機能とオーサリング機能を備えたパーソナライゼーションエディター。 [詳細情報](../personalization/personalization-build-expressions.md)
+   [!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用できます。[詳細情報](../personalization/personalization-build-expressions.md)
 
 #### カスタムコードの例 {#custom-code-examples}
 

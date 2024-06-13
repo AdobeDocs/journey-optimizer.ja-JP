@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 badge: label="限定提供"
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. また、パーソナライゼーションエディターで使用可能なその他の属性（プロファイル属性など）も追加できます。
+1. また、パーソナライゼーションエディターで使用できる他の属性（プロファイル属性など）を追加することもできます。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

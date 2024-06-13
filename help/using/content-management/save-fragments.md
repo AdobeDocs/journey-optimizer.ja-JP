@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツをフラグメントとして保存
-description: コンテンツをフラグメントとして保存して、Journey Optimizer キャンペーンやジャーニーでコンテンツを再利用する方法を学ぶ
+description: コンテンツをフラグメントとして保存して、Journey Optimizer のキャンペーンとジャーニーでコンテンツを再利用する方法を説明します
 feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -58,13 +58,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="式フラグメントとして保存"
->abstract="この [!DNL Journey Optimizer] パーソナライゼーションエディターを使用すると、コンテンツを式フラグメントとして保存できます。 その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。"
+>abstract="[!DNL Journey Optimizer] パーソナライゼーションエディターを使用すると、コンテンツを式フラグメントとして保存できます。その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。"
 
-この [!DNL Journey Optimizer] パーソナライゼーションエディターを使用すると、コンテンツを式フラグメントとして保存できます。 その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。
+[!DNL Journey Optimizer] パーソナライゼーションエディターを使用すると、コンテンツを式フラグメントとして保存できます。その後、これらの式を使用して、パーソナライズされたコンテンツを作成できます。
 
 コンテンツを式フラグメントとして保存するには、次の手順に従います。
 
-1. が含まれる [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) インターフェイス、式の作成およびクリック **[!UICONTROL フラグメントとして保存]**.
+1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)インターフェイスで、式を作成し、「**[!UICONTROL フラグメントとして保存]**」をクリックします。
 
 1. 右側のパネルで式の名前と説明を入力して、式を見つけやすくします。
 

@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1855'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 95%
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **メッセージのパーソナライズ** を使用し、パーソナライゼーションエディターでターゲットオーディエンスからエンリッチメント属性を追加して、ジャーニーまたはキャンペーンを作成します。 [パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
+* パーソナライゼーションエディターでターゲットオーディエンスからエンリッチメント属性を追加して、ジャーニーまたはキャンペーンの&#x200B;**メッセージをパーソナライズ**&#x200B;します。[パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 +++ エッジセグメント化
 
-エッジのセグメント化は、Adobe Experience Platform内のセグメントを即座に評価する機能です [端に](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}を使用する場合、同じページおよび次のページのパーソナライゼーションのユースケースが可能になります。 現在、エッジセグメント化で評価できるクエリタイプは、選ばれたクエリタイプのみです。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ja#query-types){target="_blank"}
+エッジセグメント化は、Adobe Experience Platform のセグメントを[エッジで](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}瞬時に評価する機能で、同じページおよび次のページのパーソナライゼーションのユースケースを可能にします。現在、エッジセグメント化で評価できるのは、選択されたクエリタイプのみです。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ja#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
   >
   >カスタムアップロードオーディエンスでは、繰り返しジャーニーで「増分読み取り」が有効になっている場合、これらのオーディエンスは固定されているので、プロファイルは最初の繰り返しでのみ取得されます。
 
-さらに、これらのオーディエンスは、パーソナライゼーションエディターで使用して、ジャーニーやキャンペーンでメッセージをパーソナライズできます。 [パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
+また、これらのオーディエンスをパーソナライゼーションエディターで使用して、ジャーニーやキャンペーンでのメッセージをパーソナライズすることもできます。[パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 
 +++
 

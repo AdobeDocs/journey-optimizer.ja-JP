@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、プッシュ通知の「**[!UICONTROL 頻度]**」を選択します。
 
    * 1 回
-   * 日単位
+   * 毎日
    * 毎週
    * 毎月
 

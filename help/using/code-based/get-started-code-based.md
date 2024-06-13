@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 88%
 
 他の [!DNL Journey Optimizer] チャネルではなく、コードベースのチャネルを使用するのはどのような場合ですか？
 
-* Web ブラウザーやモバイルアプリからデジタルプロパティにアクセスしない場合はいつでも、コードベースのエクスペリエンスの使用を検討できます。その場合は、 [!DNL Journey Optimizer] [web チャネル](../web/get-started-web.md){target="_blank"} または [!DNL Journey Optimizer] [アプリ内メッセージ](../in-app/get-started-in-app.md){target="_blank"} チャネル。
+* デジタルプロパティに web ブラウザーやモバイルアプリを通じてアクセスできない場合はいつでも、コードベースのエクスペリエンスの使用を検討してください。この場合は、[!DNL Journey Optimizer] [web チャネル](../web/get-started-web.md){target="_blank"}または [!DNL Journey Optimizer] [アプリ内メッセージング](../in-app/get-started-in-app.md){target="_blank"}チャネルを使用したほうがよいでしょう。
 
-* の代わりに、コードベースチャネルを使用できます。 [!DNL Journey Optimizer] web チャネル（web サイトをに読み込めない場合） [web デザイナー](../web/edit-web-content.md#work-with-web-designer){target="_blank"} ビジュアルエディターが使用できない場合は、 [ブラウザー拡張機能](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} web チャネルのビジュアルオーサリングを強化します。
+* [Web デザイナー](../web/edit-web-content.md#work-with-web-designer){target="_blank"}ビジュアルエディターに web サイトを読み込めない場合、またはビジュアルオーサリングを強化する[ブラウザー拡張機能](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}を使用できない場合は、[!DNL Journey Optimizer] web チャネルの代わりにコードベースチャネルを使用できます。
 
 * また、API ベース、ヘッドレス、またはサーバーサイド実装がある場合は、[!DNL Journey Optimizer] web チャネルやアプリ内チャネルの代わりにコードベースのチャネルを使用することもできます。
 
@@ -85,13 +85,13 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 **Web**
 * [Web デザイナー](../web/edit-web-content.md#work-with-web-designer){target="_blank"}ビジュアルエディターを使用してコンテンツを編集します。
-* 必要なのは、 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} の実装と [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} web ブラウザーにインストールされている拡張機能。 [詳細情報](../web/web-prerequisites.md){target="_blank"}
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装し、[Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 拡張機能を web ブラウザーにインストールしている必要があります。[詳細情報](../web/web-prerequisites.md){target="_blank"}
 * Web チャネルを使用すると、ページ上のすべての項目を変更でき、変更に使用できるアクションの事前定義済みのリストが表示されます。[詳細情報](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * 簡単に設定して、すぐに使い始めることができます。
 * マーケティング担当者向けです。
 
 **コードベースのエクスペリエンス**
-* を使用してコンテンツを編集する [パーソナライゼーションエディター](create-code-based.md#edit-code).
+* [パーソナライゼーションエディター](create-code-based.md#edit-code)を使用して、コンテンツを編集します。
 * コードベースのエクスペリエンスでは、[!DNL Journey Optimizer] によってエッジに公開されたコンテンツをサーフェスが解釈して配信できるように、実装に対する事前の開発作業が必要です。[詳細情報](#surface-definition)
 * より詳細な計画が必要で、開発者が指定した内容だけを変更できます。したがって、パーソナライゼーションやテストのために変更が必要なサーフェス上のコンポーネント（ホームバナー、ヒーロー画像、メニューバーなど）を特定し、開発チームと協力してこれらの変更処理に必要な実装を構築することが重要です。
 * JSON コードコンテンツを使用できます。
@@ -113,7 +113,7 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 1. [サーフェス](#surface-definition)を定義します。サーフェスは、基本的にコードベースのエクスペリエンスを追加する場所で、このサーフェスを使用して [!DNL Journey Optimizer] でキャンペーンを作成します。[方法についてはこちらを参照](create-code-based.md#create-code-based-campaign)
 
-1. を使用して、選択したサーフェスのコンテンツを指定することで、エクスペリエンスを作成します。 [!DNL Journey Optimizer] パーソナライゼーションエディター。 [方法についてはこちらを参照](create-code-based.md#edit-code)
+1. [!DNL Journey Optimizer] パーソナライゼーションエディターを使用して、選択したサーフェスのコンテンツを指定してエクスペリエンスを作成します。[方法についてはこちらを参照](create-code-based.md#edit-code)
 
 1. アプリ実装チームは、明示的な API または SDK 呼び出しを行って、「バナーテキスト」や「Recommendations トレイ 1」などの名前付きサーフェスや、アプリケーション内の UI 関連以外の決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。この場合、実装チームは返されたコンテンツをレンダリングするか、その他の方法で解釈し、それに基づいて行動する責任があります。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

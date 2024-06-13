@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Journey Optimizer に Twilio を設定するには、Twilio に使用する新�
 
 1. 以下で説明するように、SMS API 資格情報を設定します。
 
-   * **[!UICONTROL SMS ベンダー]**:Twilio。
+   * **[!UICONTROL SMS ベンダー]**：Twilio。
 
    * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 

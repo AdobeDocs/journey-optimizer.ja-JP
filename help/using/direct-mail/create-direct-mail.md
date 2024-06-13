@@ -8,9 +8,9 @@ level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="抽出ファイルの書式設定"
->abstract="各フィールドで、パーソナライゼーションエディターを使用して表示するラベルと情報を指定します。 <br/><br/>「<b>並べ替え基準</b>」オプションを使用すると、選択したフィールドを使用して、抽出ファイルの列を並べ替えることができます。"
+>abstract="各フィールドで、パーソナライゼーションエディターを使用して、ラベルと表示する情報を指定します。<br/><br/>「<b>並べ替え基準</b>」オプションを使用すると、選択したフィールドを使用して、抽出ファイルの列を並べ替えることができます。"
 
 1. 抽出ファイルに表示する列と情報を設定します。
 
@@ -75,7 +75,7 @@ ht-degree: 94%
 
    1. 右側に&#x200B;**[!UICONTROL フォーマット]**&#x200B;パネルが表示され、選択した列をセットアップできます。列の「**[!UICONTROL ラベル]**」を指定します。
 
-   1. が含まれる **[!UICONTROL データ]** フィールドで、表示するプロファイル属性を [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md).
+   1. 「**[!UICONTROL データ]**」フィールドで、[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を使用して、表示するプロファイル属性を選択します。
 
    1. 列を使用して抽出ファイルを並べ替えるには、列を選択し、「**[!UICONTROL 並べ替え基準]**」オプションの切替スイッチをオンにします。「**[!UICONTROL データフィールド]**」セクションで、列のラベルの横に&#x200B;**[!UICONTROL 並べ替え基準]**&#x200B;アイコンが表示されます。
 
@@ -105,7 +105,7 @@ ht-degree: 94%
 
    1. 右側に&#x200B;**[!UICONTROL フォーマット]**&#x200B;パネルが表示され、選択した列をセットアップできます。列の「**[!UICONTROL ラベル]**」を指定します。
 
-   1. が含まれる **[!UICONTROL データ]** フィールドで、表示するプロファイル属性を [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md).
+   1. 「**[!UICONTROL データ]**」フィールドで、[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を使用して、表示するプロファイル属性を選択します。
 
    1. 列を使用して抽出ファイルを並べ替えるには、列を選択し、「**[!UICONTROL 並べ替え基準]**」オプションの切替スイッチをオンにします。「**[!UICONTROL データフィールド]**」セクションで、列のラベルの横に&#x200B;**[!UICONTROL 並べ替え基準]**&#x200B;アイコンが表示されます。
 

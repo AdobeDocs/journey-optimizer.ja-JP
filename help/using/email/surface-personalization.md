@@ -7,13 +7,13 @@ feature: Surface, Subdomains
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 設定、メール、設定、サブドメイン
-badge: label="限定提供（LA）"
+keywords: 設定, メール, 設定, サブドメイン
+badge: label="限定提供"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->メールサーフェスのパーソナライゼーションは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
+>メールサーフェスのパーソナライゼーションは、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 ## 動的サブドメインを追加 {#dynamic-subdomains}
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="動的サブドメインを有効にする"
->abstract="メールサーフェスを作成する際に、パーソナライゼーションエディターを使用して定義する条件に基づいて、動的なサブドメインを設定できます。 最大 50 個の動的サブドメインを追加できます。"
+>abstract="メールサーフェスを作成する際に、パーソナライゼーションエディターを使用して定義した条件に基づいて、動的サブドメインを設定できます。最大 50 個の動的サブドメインを追加できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -63,7 +63,7 @@ ht-degree: 94%
 
 1. 最初の&#x200B;**[!UICONTROL 条件]**&#x200B;フィールドの横にある「編集」アイコンを選択します。
 
-1. この [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) が開きます。 この例では、`Country`等しい`US`のような条件を設定します。
+1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)が開きます。この例では、`Country`等しい`US`のような条件を設定します。
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -116,7 +116,7 @@ ht-degree: 94%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. この [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md) が開きます。 必要に応じて条件を定義し、変更を保存します。
+1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)が開きます。必要に応じて条件を定義し、変更を保存します。
 
    例えば、各受信者が自分のブランド担当者からメールを受信するなどの条件を設定します。
 

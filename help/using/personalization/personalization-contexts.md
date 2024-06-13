@@ -10,15 +10,15 @@ level: Intermediate
 keywords: 式, エディター, コンテキスト, パーソナライゼーション
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # パーソナライゼーションのコンテキスト{#personalization-areas}
 
-配信するメッセージの内容と表示 [!DNL Journey Optimizer] は、様々な方法でパーソナライズできます。 エディターアイコンが付いているすべてのフィールドで、パーソナライゼーションエディター（パーソナライゼーションエディターとも呼ばれます）を開き、パーソナライゼーションを定義できます。
+[!DNL Journey Optimizer] が配信するメッセージの内容や表示は、様々な方法でパーソナライズできます。エディターアイコンが付いているすべてのフィールドで、エディター（パーソナライゼーションエディターとも呼ばれます）を開き、パーソナライゼーションを定義できます。
 
 ![](assets/perso_icon.png)
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer でのコンテンツのパーソナライズ
-description: パーソナライゼーションの基本を学びます。
+description: パーソナライゼーションの基本を学ぶ
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,9 +10,9 @@ level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 86%
 
 ## 専用の構文を使用したパーソナライゼーション式の作成 {#syntax}
 
-[!DNL Journey Optimizer] ではハンドルバーに基づいた、**インライン**&#x200B;のシンプルなパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **{{}}** で囲んだ式を作成することができます。同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。[パーソナライゼーション構文の詳細情報](personalization-syntax.md).
+[!DNL Journey Optimizer] ではハンドルバーに基づいた、**インライン**&#x200B;のシンプルなパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **{{}}** で囲んだ式を作成することができます。同じコンテンツまたはフィールドに、制限なく複数の式を追加できます。[パーソナライゼーション構文の詳細情報](personalization-syntax.md)。
 
 **例：**
 
@@ -50,10 +50,10 @@ ht-degree: 86%
 
 ## パーソナライゼーションエディターの操作 {#editor}
 
-[!DNL Journey Optimizer] では、パーソナライゼーションエディターを使用すると、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。 パーソナライゼーションコンテンツの作成に役立つツール（ヘルパー関数、事前定義された式ライブラリ、お気に入りの属性など）がいくつか用意されています。
+[!DNL Journey Optimizer] では、パーソナライゼーションエディターを使用すると、すべてのデータを選択、整理、カスタマイズ、および検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。パーソナライゼーションコンテンツの作成に役立つツール（ヘルパー関数、事前定義された式ライブラリ、お気に入りの属性など）がいくつか用意されています。
 
 * [パーソナライゼーションエディターの操作方法を学ぶ](personalization-build-expressions.md)
-* [パーソナライゼーションを実行できる場所について説明します](personalization-contexts.md).
+* [パーソナライゼーションを実行できる場所について説明します](personalization-contexts.md)。
 
 ## チュートリアルビデオ{#video-perso}
 

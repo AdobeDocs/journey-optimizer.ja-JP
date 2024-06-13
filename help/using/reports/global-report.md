@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_ctr"
->title="中央"
+>title="CTR"
 >abstract="CTR ウィジェット"
 
 >[!CONTEXTUALHELP]
@@ -147,7 +147,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_overview"
 >title="キャンペーンの概要"
->abstract="Campaign の概要ウィジェット"
+>abstract="キャンペーンの概要ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_funnel"
@@ -156,20 +156,20 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_tracking_link"
->title="追跡されたリンクラベル"
->abstract="トラッキングされたリンクラベルウィジェット"
+>title="トラッキング対象リンクラベル"
+>abstract="トラッキング対象リンクラベルウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_displays"
->title="ディスプレイ"
->abstract="ウィジェットを表示"
+>title="表示"
+>abstract="表示ウィジェット"
 
 <!--campaign email-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivered_click"
->title="配信済み&amp;クリックのトレンド"
->abstract="配信済み&amp; クリックトレンドウィジェット"
+>title="配信済みとクリックのトレンド"
+>abstract="配信済みとクリックのトレンドウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivery_status"
@@ -193,18 +193,18 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link"
->title="追跡されたリンクラベル"
->abstract="トラケットリンクラベルウィジェット"
+>title="トラッキング対象リンクラベル"
+>abstract="トラッキング対象リンクラベルウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link_urls"
->title="トラッキングされるリンクの URL"
->abstract="トラッキングするリンクの URL ウィジェット"
+>title="トラッキング対象リンク URL"
+>abstract="トラッキング対象リンク URL ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_subjects"
 >title="メールの件名"
->abstract="メール件名ウィジェット"
+>abstract="メールの件名ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_bounce_reasons"
@@ -213,13 +213,13 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_exclude"
->title="理由を除外"
->abstract="理由を除外ウィジェット"
+>title="除外された理由"
+>abstract="除外された理由ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_error"
->title="エラー理由"
->abstract="エラー理由ウィジェット"
+>title="エラーの理由"
+>abstract="エラーの理由ウィジェット"
 
 
 <!--campaign push-->
@@ -236,13 +236,13 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link"
->title="追跡されたリンクラベル"
->abstract="トラケットリンクラベルウィジェット"
+>title="トラッキング対象リンクラベル"
+>abstract="トラッキング対象リンクラベルウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link_urls"
->title="トラッキングされるリンクの URL"
->abstract="トラッキングするリンクの URL ウィジェット"
+>title="トラッキング対象リンク URL"
+>abstract="トラッキング対象リンク URL ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_bounce_reasons"
@@ -256,8 +256,8 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_email_error"
->title="エラー理由"
->abstract="エラー理由ウィジェット"
+>title="エラーの理由"
+>abstract="エラーの理由ウィジェット"
 
 <!--campaign inapp-->
 
@@ -274,8 +274,8 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_displays"
->title="ディスプレイ"
->abstract="ウィジェットを表示"
+>title="表示"
+>abstract="表示ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracking_data"
@@ -284,21 +284,21 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link"
->title="追跡されたリンクラベル"
->abstract="トラッキングされたリンクラベルウィジェット"
+>title="トラッキング対象リンクラベル"
+>abstract="トラッキング対象リンクラベルウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link_urls"
->title="トラッキングされるリンクの URL"
->abstract="トラッキングするリンクの URL ウィジェット"
+>title="トラッキング対象リンク URL"
+>abstract="トラッキング対象リンク URL ウィジェット"
 
 <!--campaign sms-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivered_click"
->title="配信済み&amp;クリックのトレンド"
->abstract="配信済み&amp; クリックトレンドウィジェット"
+>title="配信済みとクリックのトレンド"
+>abstract="配信済みとクリックのトレンドウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivery_status"
@@ -307,13 +307,13 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link"
->title="追跡されたリンクラベル"
->abstract="トラケットリンクラベルウィジェット"
+>title="トラッキング対象リンクラベル"
+>abstract="トラッキング対象リンクラベルウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link_urls"
->title="トラッキングされるリンクの URL"
->abstract="トラッキングするリンクの URL ウィジェット"
+>title="トラッキング対象リンク URL"
+>abstract="トラッキング対象リンク URL ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_inbound"
@@ -323,7 +323,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_message_type"
 >title="SMS メッセージタイプ"
->abstract="SMS メッセージタイプのウィジェット"
+>abstract="SMS メッセージタイプウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_providers"
@@ -337,10 +337,10 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_exclude"
->title="理由を除外"
->abstract="理由を除外ウィジェット"
+>title="除外された理由"
+>abstract="除外された理由ウィジェット"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_error"
->title="エラー理由"
->abstract="エラー理由ウィジェット"
+>title="エラーの理由"
+>abstract="エラーの理由ウィジェット"

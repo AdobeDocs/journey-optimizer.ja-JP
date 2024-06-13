@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 86%
 >
 >この機能は現在、Private Beta のみで使用可能です。
 >
->現時点では、次の場合にのみ使用できます **メールチャネル** また、非実稼動サンドボックスでのテスト目的で、Adobeおよびベータ版にリクエストされたデータセットに対して指定しました。
+>現時点では、**メッセージチャネル**、アドビに提供した本番以外のサンドボックスでのテスト目的と、ベータ版に要求されたデータセットでのみ利用可能です。
 
-Journey Optimizerでは、パーソナライゼーションエディターでAdobe Experience Platformのデータを活用して、次のことができます [コンテンツのパーソナライズ](../personalization/personalize.md). 手順は次の通りです。
+Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。手順は次の通りです。
 
-1. パーソナライゼーションエディターを開きます。このエディターは、メッセージなど、パーソナライゼーションを定義できるすべてのコンテキストで使用できます。 [パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
+1. メッセージなどのパーソナライズ機能を定義でき、すべてのコンテキストで使用できるパーソナライゼーションエディターを開きます。[パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 
 1. ヘルパー関数リストに移動して、**datasetLookup** ヘルパー関数をコードペインへ追加します。
 

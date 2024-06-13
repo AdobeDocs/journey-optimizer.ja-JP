@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -163,9 +163,9 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->デフォルトの結合メソッドが [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL プロファイル]** 結合ポリシーは **[!UICONTROL データセットの優先順位]**&#x200B;を有効にします。 **[!UICONTROL AJO 同意サービスデータセット]** そして、結合ポリシーで優先順位を付けます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
+>デフォルトの [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL プロファイル]**&#x200B;結合ポリシーの結合方法が&#x200B;**[!UICONTROL データセットの優先順位]**&#x200B;である場合は、必ず **[!UICONTROL AJO 同意サービスデータセット]**&#x200B;を有効にし、結合ポリシーで優先順位を付けてください。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
 >
->このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報が含まれます。
+>このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報は含まれます。
 
 
 <!--

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 式フラグメントの使用
-description: で式フラグメントを使用する方法を説明します [!DNL Journey Optimizer] パーソナライゼーションエディター。
+description: ' [!DNL Journey Optimizer] パーソナライゼーションエディターで式フラグメントを使用する方法を説明します。'
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
@@ -10,15 +10,15 @@ level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # 式フラグメントを活用 {#use-expression-fragments}
 
-使用する場合 **パーソナライゼーションエディター**&#x200B;を使用すると、作成または現在のサンドボックスに保存されたすべての式フラグメントを活用できます。
+**パーソナライゼーションエディター**&#x200B;を使用すると、現在のサンドボックスに作成または保存されたすべての式フラグメントを活用できます。
 
 フラグメントを作成および管理する方法については、[この節](../content-management/fragments.md)を参照してください。
 
@@ -28,7 +28,7 @@ ht-degree: 81%
 
 コンテンツに式フラグメントを追加するには、次の手順に従います。
 
-1. を開きます [パーソナライゼーションエディター](personalization-build-expressions.md) を選択し、 **[!UICONTROL フラグメント]** ボタンをクリックします。
+1. [パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のパネルで「**[!UICONTROL フラグメント]**」ボタンを選択します。
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ ht-degree: 81%
 
    ![](assets/expression-fragment-open.png)
 
-1. その後、のすべてのパーソナライゼーション機能とオーサリング機能を使用して、コンテンツを通常どおりにカスタマイズして検証できます。 [パーソナライゼーションエディター](personalization-build-expressions.md).
+1. その後、[パーソナライゼーションエディター](personalization-build-expressions.md)のパーソナライズ機能とオーサリング機能をすべて使用して、通常どおりコンテンツをカスタマイズして検証できます。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 81%
 
 ## 継承を解除 {#break-inheritance}
 
-フラグメント ID をパーソナライゼーションエディターに追加すると、元の式フラグメントに加えられた変更が同期されます。
+パーソナライゼーションエディターにフラグメント ID を追加すると、元の式フラグメントに行った変更が同期されます。
 
 ただし、式フラグメントのコンテンツをエディターにペーストすることもできます。コンテキストメニューから「**[!UICONTROL フラグメントをペースト]**」を選択して、そのコンテンツを挿入します。
 

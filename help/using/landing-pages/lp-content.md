@@ -10,9 +10,9 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1308'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 >id="ac_lp_formfield"
 >title="フォームコンポーネントフィールドの設定"
 >abstract="受信者がランディングページから選択肢を表示して送信する方法を定義します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="ランディングページのフォームスタイルを定義"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="ランディングページのフォームスタイルを定義"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
@@ -188,7 +188,7 @@ ht-degree: 99%
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. パーソナライゼーションエディターのヘルパー関数を使用して、関連する条件を追加します。 [詳細情報](../personalization/functions/functions.md)
+1. パーソナライゼーションエディターのヘルパー関数を使用して、関連する条件を追加します。[詳細情報](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 

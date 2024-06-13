@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 式, エディター, 検証, エラー, パーソナライゼーション
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 87%
 
 ## 検証メカニズム {#validation-mechanisms}
 
-が含まれる **パーソナライゼーションエディター** 画面、を使用 **Validate** ボタンをクリックして、パーソナライゼーション構文を確認します。
+**パーソナライゼーションエディター**&#x200B;画面で、「**検証**」ボタンを使用して、パーソナライゼーション構文を確認します。
 
 >[!NOTE]
-> 「**追加**」をクリックしてエディターウィンドウを閉じると、検証は自動的に実行されます。
+> 「**追加**」をクリックしてエディターウィンドウを閉じると、検証が自動的に実行されます。
 >
 
 ![](assets/perso_validation1.png)

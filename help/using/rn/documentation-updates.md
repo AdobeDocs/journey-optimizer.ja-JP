@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 98%
 
 ## 2024年6月 {#june-2024}
 
-* の設定方法について説明します **待機** ジャーニーのアクティビティを再編成し、改善しました。 [詳細情報](../building-journeys/wait-activity.md)
+* ジャーニーで&#x200B;**待機**&#x200B;アクティビティを設定する方法に関するページが再編成され、改善されました。[詳細情報](../building-journeys/wait-activity.md)
 
 ## 2024年5月 {#may-2024}
 
-* に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] 2024 年 5 月リリースについて詳しくは、ドキュメントを参照してください。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 2024年5月リリースに含まれているすべての新機能と機能強化については、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
 * 繰り返しジャーニーに関して、シードリスト関連の節が更新されました。[詳細情報](../configuration/seed-lists.md#use-seed-list)
 * 外部データソースの節が更新されました。[詳細情報](../datasource/external-data-sources.md#custom-authentication-access-token)
 * ガードレールと制限ページに、30 日間のグローバルジャーニーのタイムアウトが追加されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * Adobe Campaign v7／v8 統合に関する節が、プロビジョニングに関する情報で更新されました。[詳細情報](../action/acc-action.md#access)
-* コンテンツのパーソナライズに使用される式エディターは、ドキュメント内で「パーソナライゼーションエディター」という名前に変更され、 [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md). [詳細情報](../personalization/personalization-build-expressions.md)
+* コンテンツのパーソナライズに使用される式エディターは、[ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)と明確に区別できるように、ドキュメント内で「パーソナライゼーションエディター」という名前に変更されました。[詳細情報](../personalization/personalization-build-expressions.md)
 
 ## 2024年4月 {#april-2024}
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
 * ガードレールページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)
 * 外部データソースの基本認証タイプに関する情報が追加されました。[詳細情報](../datasource/external-data-sources.md)
-* 明確に区別するためのメモが追加されました [ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md) から [パーソナライゼーションエディター](../personalization/functions/functions.md).
+* [ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)と[パーソナライゼーションエディター](../personalization/functions/functions.md)を明確に区別するためのメモが追加されました。
 * 高度な式エディターで使用できる関数のリストが更新されました。[詳細情報](../building-journeys/expression/functions.md)
 * split 関数のページが更新されました。[詳細情報](../building-journeys/functions/functioninaudience.md)
 * アプリ内メッセージに対するプッシュ通知のオプトインまたはオプトアウトの影響に関する情報が追加されました。[詳細情報](../in-app/create-in-app.md)
@@ -228,7 +228,7 @@ ht-degree: 98%
 
 +++
 
-+++ 2022
++++ 2022年
 
 ## 2022年12月 {#december-2022}
 
@@ -395,7 +395,7 @@ ht-degree: 98%
 
 * **クイックスタート**&#x200B;ページが改善され、様々なペルソナの手順が追加されました。[詳細情報](../start/quick-start.md)
 
-* 該当する節で説明しているすべての意思決定管理機能が、Offer decisioningアプリケーションを利用するAdobe Experience Platform ユーザーにも当てはまるようになりました。 [詳細情報](../offers/get-started/starting-offer-decisioning.md)
+* 該当する節で説明しているすべての意思決定管理機能が、Offer Decisioning アプリケーションを利用する Adobe Experience Platform ユーザーにも適用されるようになりました。[詳細情報](../offers/get-started/starting-offer-decisioning.md)
 
 * 制約を適用して特定のプレースメントに対応するオファーの選択を制限する際に、オーディエンスを使用する場合と決定ルールを使用する場合の違いを明確にするための節を追加しました。[詳細情報](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

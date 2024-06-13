@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. メッセージの件名を追加します。パーソナライゼーションエディターで件名を設定およびパーソナライズするには、 **[!UICONTROL パーソナライズ機能ダイアログを開く]** アイコン。 [詳細情報](../personalization/personalization-build-expressions.md)
+1. メッセージの件名を追加します。パーソナライゼーションエディターを使用して件名を設定およびパーソナライズするには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンをクリックします。[詳細情報](../personalization/personalization-build-expressions.md)
 
 1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてメールデザイナーにアクセスし、コンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
 
