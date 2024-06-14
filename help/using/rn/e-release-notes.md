@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
+source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 30%
+source-wordcount: '470'
+ht-degree: 41%
 
 ---
 
@@ -46,21 +46,21 @@ ht-degree: 30%
 </table>
 
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>コンテンツフラグメントのカスタマイズ</strong><br/></th>
+<th><strong>Content Fragments customization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>フラグメント内に特定のフィールドを定義できるようになりました。このフィールドは、フラグメントをキャンペーンまたはジャーニーに追加するときに編集できます。 これにより、使用時にコンテンツの部分を調整でき、コンテキスト固有の詳細でデフォルト値を柔軟に上書きできます。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 
 <table>
@@ -156,13 +156,13 @@ ht-degree: 30%
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**コンテンツフラグメント**
+<!--**Content fragments**
 
-* フラグメントを編集し、フラグメントが使用されているすべてのライブジャーニーおよびキャンペーンに変更を反映できるようになりました。
-* コンテンツフラグメントの新しいステータスが導入されました。 **ドラフト**, **ライブ**, **公開中**、および **アーカイブ済み**.
-* ジャーニーまたはキャンペーンでフラグメントを使用するには、フラグメントが次の場所にある必要があります。 **ライブ** ステータス。 フラグメント作成プロセスに新しい手順が追加され、フラグメントを公開して、ジャーニーやキャンペーンで使用できるようになりました。 フラグメントの公開には、新しい権限が必要になります。
-
-  **注意**  – 以降 **ドラフト** および **ライブ** Journey Optimizerの 6 月のリリースでステータスが導入されました。このリリースより前に作成されたすべてのフラグメントには、 **ドラフト** ステータス （ジャーニーやキャンペーンで使用されている場合を含む）。 既存のフラグメントを更新する方法については、この節を参照してください。
+* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
+* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
+* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
+   
+   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
 
 **ジャーニー**
 
