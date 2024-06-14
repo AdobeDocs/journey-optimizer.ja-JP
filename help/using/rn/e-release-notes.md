@@ -6,10 +6,10 @@ description: Journey Optimizer 早期リリースノート
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 34%
+source-wordcount: '454'
+ht-degree: 31%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 34%
 * ジャーニーのグローバルタイムアウトが 30 日から 91 日に増えました。
 * Adobe Journey Optimizerは、プライバシーの削除/アクセスリクエストと、データライフサイクル管理リクエストをサポートするようになりました。
 * ジャーニーインベントリの列のサイズを変更できるようになりました。
-* **イベント設定の高度な式エディター** 一般提供を開始 – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。[詳細情報](../event/about-creating.md)
+* **イベント設定の高度な式エディター** 一般提供を開始 – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../event/about-creating.md)-->
 * **結合ポリシー** 一般提供を開始 – ジャーニーで使用される結合ポリシーが、ジャーニー全体を通して表示され一貫性を持つようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ ht-degree: 34%
 
 **アプリ内チャネル**
 
-* **式フラグメント**  – 式フラグメントを **アプリ内チャネル**. [詳細情報](../personalization/use-expression-fragments.md)
+* **式フラグメント**  – 式フラグメントを **アプリ内チャネル**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * これで、エッジ配信プラグインを使用して、インバウンド実装を理解し、トラブルシューティングするために必要な情報を取得できます。
