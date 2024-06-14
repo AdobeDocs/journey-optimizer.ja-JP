@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 97%
+source-wordcount: '1152'
+ht-degree: 74%
 
 ---
 
@@ -26,11 +26,184 @@ ht-degree: 97%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2024年6月の更新
 
-* Adobe Journey Optimizer で Adobe Experience Platform AI アシスタントを使用できるようになりました。[詳細情報](../start/ai-assistant.md)
+## 2024 年 6 月先行リリースノート {#24-6-2024}
+
+**以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**.
+
+**リリース日**:2024 年 6 月 18～19 日
+
+### 新機能 {#june24-features}
+
+このリリースでは、以下に示す新機能が導入されています。
+
+<table>
+<thead>
+<tr>
+<th><strong>IP ウォームアップワークフロー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しい IP アドレスでメールを送信している場合に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。 Adobe Journey Optimizerは、最適な配信品質を得るためのベストプラクティスに従って IP アドレスをウォームアップする、標準化された効率的な方法を提供します。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Content Fragments customization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Journey Optimizerの AI アシスタント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。</p>
+<p>詳しくは、 <a href="../start/ai-assistant.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Reporting with Customer Journey Analytics (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer reporting is now fully integrated with Customer Journey Analytics capabilities, standardizing reporting across both platforms and improving data consistency and reliability. This seamless integration between Journey Optimizer and Customer Journey Analytics provides a clearer view of performance metrics, enabling users to make more informed decisions.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Multilingual messages in journeys and campaigns  (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Extended personalization data - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now lookup and fetch data values within Adobe Experience Platform datasets, and use these values to build conditions in Adobe Journey Optimizer. You can leverage data from a lookup dataset when a relationship has been defined using an attribute inside of an array of objects. You can specify non-profile enabled datasets for lookup. Once enabled, you can use a profile attribute as a join key to the specified dataset to retrive further data for personalization.</p>
+<p>This capability is currently available as a public beta.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### 機能強化 {#june24-improvements}
+
+このリリースでは、以下に示す機能強化が含まれています。
+
+
+**意思決定管理**
 
 * **意思決定管理でのマルチルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+
+<!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
+
+<!--**Content fragments**
+
+* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
+* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
+* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
+   
+   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
+
+**ジャーニー**
+
+* ジャーニーのグローバルタイムアウトが 30 日から 91 日に増えました。
+* Adobe Journey Optimizerは、プライバシーの削除/アクセスリクエストと、データライフサイクル管理リクエストをサポートするようになりました。
+* ジャーニーインベントリの列のサイズを変更できるようになりました。
+* **イベント設定の高度な式エディター** 一般提供を開始 – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../event/about-creating.md)-->
+* **結合ポリシー** 一般提供を開始 – ジャーニーで使用される結合ポリシーが、ジャーニー全体を通して表示され一貫性を持つようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+
+
+
+**キャンペーン**
+
+* Adobe Journey Optimizerでキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。
+
+<!--**Email channel**
+
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
+
+
+**SMS チャネル**
+
+* 単一の API 設定で、各サンドボックスに一意のショートコードを追加できるようになり、プロセスの効率と合理化が向上しました。
+  <!--* You can now modify existing SMS configurations.-->
+
+**アプリ内チャネル**
+
+* **式フラグメント**  – 式フラグメントを **アプリ内チャネル**. <!--[Read more](../personalization/use-expression-fragments.md)-->
+
+
+* これで、エッジ配信プラグインを使用して、インバウンド実装を理解し、トラブルシューティングするために必要な情報を取得できます。
+
+
 
 ## 2024年5月リリースノート {#may-2024}
 
