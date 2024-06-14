@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '1101'
+source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+workflow-type: tm+mt
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -106,7 +106,6 @@ Web キャンペーンのオーサリングを開始するには、次の手順�
    * 見出し - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
    * 段落 - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
    * リンク
-   * [オファーの決定](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -126,15 +125,11 @@ Web キャンペーンのオーサリングを開始するには、次の手順�
 
    ![](assets/web-designer-header-style.png)
 
-## パーソナライゼーションとオファーの追加
+## パーソナライゼーションの追加
 
 パーソナライゼーションを追加するには、コンテナを選択し、表示されるコンテキストメニューバーからパーソナライゼーションアイコンを選択します。 パーソナライゼーションエディターを使用して、変更を追加します。[詳細情報](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
-
-**[!UICONTROL オファーの決定]**&#x200B;コンポーネントを使用し、web ページに[オファー](../offers/get-started/starting-offer-decisioning.md)を挿入します。プロセスは、[メールへのオファーの追加](../email/add-offers-email.md)の場合と同じです。意思決定管理を活用して、顧客に提供する最適なオファーを選択します。
-
-![](assets/web-designer-offer.png)
 
 ## Web デザイナー内での移動 {#navigate-web-designer}
 
