@@ -4,14 +4,12 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer 早期リリースノート
 feature: Release Notes
-hide: true
-hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
+source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 41%
+source-wordcount: '458'
+ht-degree: 34%
 
 ---
 
@@ -39,7 +37,7 @@ ht-degree: 41%
 <tr>
 <td>
 <p>新しい IP アドレスでメールを送信している場合に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。 Adobe Journey Optimizerは、最適な配信品質を得るためのベストプラクティスに従って IP アドレスをウォームアップする、標準化された効率的な方法を提供します。</p>
-<p>詳しくは、<a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -152,7 +150,7 @@ ht-degree: 41%
 
 **意思決定管理**
 
-* **意思決定管理でのマルチルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* **意思決定管理でのマルチルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを高めることができます。 <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -170,7 +168,7 @@ ht-degree: 41%
 * Adobe Journey Optimizerは、プライバシーの削除/アクセスリクエストと、データライフサイクル管理リクエストをサポートするようになりました。
 * ジャーニーインベントリの列のサイズを変更できるようになりました。
 * **イベント設定の高度な式エディター** 一般提供を開始 – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。[詳細情報](../event/about-creating.md)
-* **結合ポリシー** 一般提供を開始 – ジャーニーで使用される結合ポリシーが、ジャーニー全体を通して表示され一貫性を持つようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。[詳細情報](../building-journeys/journey-gs.md#merge-policies)
+* **結合ポリシー** 一般提供を開始 – ジャーニーで使用される結合ポリシーが、ジャーニー全体を通して表示され一貫性を持つようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
