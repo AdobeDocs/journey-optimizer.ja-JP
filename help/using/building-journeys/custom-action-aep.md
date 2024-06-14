@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
-workflow-type: ht
-source-wordcount: '324'
-ht-degree: 100%
+source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 91%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 100%
 ```
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=1234&client_secret=5678&scope=openid,AdobeID,read_organizations,additional_info.projectedProductContext,session'
 ```
+
+>[!CAUTION]
+>
+>Adobe Developer コンソールでプロジェクトを作成したら、開発者と API に適切な権限によるアクセス制御を付与してください。 詳しくは、を参照してください [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## HTTP API インレットを使用したソースの設定
 
