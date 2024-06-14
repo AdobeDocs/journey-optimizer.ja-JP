@@ -5,10 +5,10 @@ title: リリースノート
 description: Journey Optimizer 早期リリースノート
 feature: Release Notes
 topic: Content Management
-source-git-commit: 1840e32efbea7aaff50c497d6387232a4e02d2c9
+source-git-commit: 50b0a2eb8794c79d10f09dd12fd6f996402d72ea
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 35%
+source-wordcount: '434'
+ht-degree: 36%
 
 ---
 
@@ -175,9 +175,9 @@ ht-degree: 35%
 
 * Adobe Journey Optimizerでキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。
 
-**メールチャネル**
+<!--**Email channel**
 
-* **リスト – 登録解除**  – 一括送信者向けの最近の Gmail および Yahoo のお知らせに続いて、Journey Optimizerでは、「投稿/1 クリック」のリスト購読解除オプションをサポートしています。 <!--Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
 
 
 **SMS チャネル**
