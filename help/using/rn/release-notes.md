@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+source-git-commit: 0e5d1e7a7520579b1fae7898f67cb10ee3915e1c
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 74%
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 **リリース日**:2024 年 6 月 18～19 日
 
-### 新機能 {#june24-features}
+### 新機能 {#june-24-features}
 
 このリリースでは、以下に示す新機能が導入されています。
 
@@ -114,6 +114,7 @@ ht-degree: 74%
 <tr>
 <td>
 <p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -130,6 +131,7 @@ ht-degree: 74%
 <tr>
 <td>
 <p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -174,7 +176,7 @@ ht-degree: 74%
 
 **ジャーニー**
 
-* ジャーニーのグローバルタイムアウトが 30 日から 91 日に増えました。
+* ジャーニーのグローバルタイムアウトが 30 日から 90 日に増えました。
 * Adobe Journey Optimizerは、プライバシーの削除/アクセスリクエストと、データライフサイクル管理リクエストをサポートするようになりました。
 * ジャーニーインベントリの列のサイズを変更できるようになりました。
 * **イベント設定の高度な式エディター** 一般提供を開始 – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../event/about-creating.md)-->
