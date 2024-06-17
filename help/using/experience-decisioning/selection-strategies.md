@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="選択戦略の定義"
->abstract="選択戦略は、再利用可能で、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、決定方針が選択されている場合に表示されるオファーを決定します。"
+>abstract="選択戦略は、再利用可能で、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、決定ポリシーが選択されている場合に表示されるオファーを決定します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=ja" text="決定ポリシーを作成"
 
 >[!CONTEXTUALHELP]
