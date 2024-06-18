@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 式, エディター, コンテキスト, パーソナライゼーション
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 

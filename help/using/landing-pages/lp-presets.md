@@ -74,7 +74,7 @@ ht-degree: 97%
 
    例えば、ランディングページの URL が「pages.mail.luma.com」で、トラッキング URL が「data.mail.luma.com」の場合、トラッキングサブドメインとして「pages.mail.luma.com」を使用するように選択できます。
 
-1. クリック **[!UICONTROL 送信]** をクリックして、ランディングページプリセットの作成を確定します。 <!--You can also save the preset as draft and resume its configuration later on.-->
+1. クリック **[!UICONTROL Submit]** ランディングページプリセットの作成を確認します。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 

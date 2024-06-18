@@ -1,5 +1,5 @@
 ---
-title: プレースメントの削除
+title: プレースメントを削除
 description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Decision Management, API
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
 # プレースメントの削除 {#delete-placement}
 
-場合によっては、プレースメントを削除（DELETE）する必要があります。これは、削除するプレースメントの ID を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
+場合によっては、プレースメントを取り除く（DELETEする）必要があります。 これは、削除するプレースメントの ID を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
 
 **API 形式**
 

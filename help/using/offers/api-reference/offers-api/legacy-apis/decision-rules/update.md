@@ -1,5 +1,5 @@
 ---
-title: 決定ルールの更新
+title: 決定ルールを更新
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Decision Management, API
 topic: Integrations
@@ -9,17 +9,17 @@ exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 100%
+ht-degree: 35%
 
 ---
 
 # 決定ルールの更新 {#update-decision-rule}
 
-コンテナ ID を提供しながら [!DNL Offer Library] API に POST リクエストを実行することで、フォールバックオファーを作成できます。
+に対してPOSTリクエストを実行することで、フォールバックオファーを作成できます。 [!DNL Offer Library] API、コンテナ ID を提供している間。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表に、を構成する有効な値を示します *Content-Type* および *承諾* リクエストヘッダーのフィールド :
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -60,7 +60,7 @@ curl -X PATCH \
 
 **応答**
 
-正常な応答では、決定ルールの更新された詳細（一意のインスタンス ID と決定ルール `@id` を含む）が返されます。
+応答が成功すると、更新された決定ルールの詳細（一意のインスタンス ID と決定ルールを含む）が返されます `@id`.
 
 
 ```json

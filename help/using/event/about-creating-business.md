@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
    ![](assets/jo-event3bis-business.png)
 
-1. このイベントを使用するジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。**[!UICONTROL ジャーニーを表示]**&#x200B;アイコンをクリックすると、このイベントを使用するジャーニーのリストを表示できます。
+1. このイベントを使用しているジャーニーの数は、**[!UICONTROL 使用されている場所]**&#x200B;フィールドに表示されます。「**[!UICONTROL ジャーニーを表示]**」アイコンをクリックすると、このイベントを使用しているジャーニーのリストを表示できます。
 
 1. スキーマとペイロードのフィールドを定義します。ジャーニーが受け取るイベント情報（もしくはペイロード）は、ここで選択します。この情報は、後ほどジャーニーで必要になります。[この節](../event/about-creating-business.md#define-the-payload-fields)を参照してください。
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 
    ![](assets/journey7-business.png)
 
-   これでイベントが設定され、ジャーニーに含まれる準備が整いました。イベントを受信するには、追加の設定手順が必要です。詳しくは、[このページ](../event/additional-steps-to-send-events-to-journey.md)を参照してください。
+   イベントが設定され、ジャーニーで使用できる状態になりました。イベントを受信するには追加の設定手順が必要です。詳しくは、[このページ](../event/additional-steps-to-send-events-to-journey.md)を参照してください。
 
 ## ペイロードフィールドの定義 {#define-the-payload-fields}
 

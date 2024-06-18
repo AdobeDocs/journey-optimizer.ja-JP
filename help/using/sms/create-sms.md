@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="テキストメッセージの作成"
->abstract="テキストメッセージ（SMS/MMS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
+>abstract="テキストメッセージ（SMS／MMS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターでパーソナライゼーションを開始します。"
 
 Adobe Journey Optimizer を使用して、テキスト（SMS）およびマルチメディア（MMS）メッセージをデザインして送信できます。まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
@@ -78,7 +78,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）およびマル�
 1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、SMS メッセージの「**[!UICONTROL 頻度]**」を選択します。
 
    * 1 回
-   * 日単位
+   * 毎日
    * 毎週
    * 月
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）およびマル�
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="SMS コンテンツの定義"
->abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS/MMS）をカスタマイズおよびパーソナライズします。"
+>abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS／MMS）をカスタマイズおよびパーソナライズします。"
 
 SMS コンテンツを設定するには、次の手順に従います。MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
 

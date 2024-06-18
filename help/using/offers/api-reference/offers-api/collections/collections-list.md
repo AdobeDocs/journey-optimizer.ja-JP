@@ -9,7 +9,7 @@ exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -44,11 +44,11 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections?limit=2' 
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+クエリパラメーターを使用して、リソースをリストする際に結果をページ化およびフィルタリングできます。
 
 ### ページング {#paging}
 
-ページングに最も一般的なクエリパラメーターは次のとおりです。
+ページングで最も一般的なクエリパラメーターは次のとおりです。
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
@@ -58,7 +58,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections?limit=2' 
 
 **応答**
 
-正常な応答では、アクセス可能なコンテナ内に存在するコレクションのリストが返されます。
+応答が成功すると、アクセス権を持つコンテナ内に存在するコレクションのリストが返されます。
 
 ```json
 {

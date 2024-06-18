@@ -9,19 +9,19 @@ exl-id: 759c58e7-af1e-409c-8400-996b9a647ba7
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 100%
+ht-degree: 41%
 
 ---
 
 # プレースメントの更新 {#update-placement}
 
-[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内のプレースメントを変更または更新できます。
+コンテナ内のプレースメントを変更または更新するには、に対してPATCHリクエストを行います。 [!DNL Offer Library] API です。
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表に、を構成する有効な値を示します *Content-Type* および *承諾* リクエストヘッダーのフィールド :
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`、`remove` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 
 **応答**
 
-正常な応答では、プレースメントの更新された詳細（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。
+応答が成功すると、更新されたプレースメントの詳細（一意のインスタンス ID とプレースメントを含む）が返されます `@id`.
 
 ```json
 {

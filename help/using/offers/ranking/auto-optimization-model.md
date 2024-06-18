@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 100%
+source-wordcount: '1357'
+ht-degree: 96%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 100%
 
 * **トンプソンサンプリング**：トンプソンサンプリングは、オンラインでの決定問題に対するアルゴリズムであり、既知の要素を活用して即座にパフォーマンスを最大化することと、今後のパフォーマンス向上につながる可能性のある新しい情報の蓄積に投資することの間でバランスを取りながらアクションが順次実行されます。[詳細情報](#thompson-sampling)
 
-* [**ベータ分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}: Set of continuous [probability distributions](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}。
+* [**ベータ分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}：連続のセット [確率分布](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} 間隔に定義 [0、1] [パラメーター化](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} 2 つの正によって [形状パラメータ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## トンプソンサンプリング {#thompson-sampling}
 
 自動最適化の基礎となるアルゴリズムは、**トンプソンサンプリング**&#x200B;です。この節では、トンプソンサンプリングの背景知識について説明します。
 
-[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}（ベイジアンバンディット）は、マルチアームバンディット問題に対するベイジアンアプローチです。基本的な考え方として、各オファーからの平均報酬 𝛍 を&#x200B;**ランダム変数**&#x200B;として扱い、これまでに収集したデータを使用して平均報酬に関する「信念」を更新します。この「信念」は、**事後確率分布**&#x200B;によって数学的に表されます。これは、基本的に平均報酬の値の範囲と、報酬が各オファーに対してその値を持つ妥当性（または確率）です。次に、すべての決定について、**これらの事後報酬分布のそれぞれからポイントをサンプリング**&#x200B;し、サンプリングした報酬の値が最も高いオファーを選択します。
+[トンプソンサンプリング](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}（ベイジアンバンディット）は、マルチアームバンディット問題に対するベイジアンアプローチです。基本的な考え方として、各オファーからの平均報酬 ?? を&#x200B;**ランダム変数**&#x200B;として扱い、これまでに収集したデータを使用して平均報酬に関する「信念」を更新します。この「信念」は、**事後確率分布**&#x200B;によって数学的に表されます。これは、基本的に平均報酬の値の範囲と、報酬が各オファーに対してその値を持つ妥当性（または確率）です。次に、すべての決定について、**これらの事後報酬分布のそれぞれからポイントをサンプリング**&#x200B;し、サンプリングした報酬の値が最も高いオファーを選択します。
 
 このプロセスの例を次の図に示します。ここでは 3 つの異なるオファーがあります。最初は、データからの証拠がなく、すべてのオファーには均一な事後報酬分布があると仮定しています。各オファーの事後報酬分布からサンプルを抽出します。オファー 2 の分布から選択されたサンプルの値が最も高くなります。これは&#x200B;**探索**&#x200B;の例です。オファー 2 を表示した後、潜在的な報酬（例えば、コンバージョン/非コンバージョン）を収集し、以下で説明するようにベイズ定理を使用してオファー 2 の事後分布を更新します。このプロセスを継続し、オファーを表示して報酬を収集するたびに事後分布を更新します。2 番目の図では、オファー 3 が選択されています。オファー 1 の平均報酬が最も高い（事後報酬分布が最も右側にある）にもかかわらず、各分布からサンプリングするプロセスにより、一見したところ次善のオファー 3 を選択することになりました。そうすることで、オファー 3 の真の報酬分布に関してさらに学習する機会が得られます。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-前述の尤度関数は、成功（コンバージョン）と失敗（コンバージョンなし）の二項分布でモデル化されます。q は[確率変数](https://ja.wikipedia.org/wiki/確率変数){target="_blank"} with a [beta distribution](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}です。
+前述の尤度関数は、成功（コンバージョン）と失敗（コンバージョンなし）の二項分布でモデル化されます。q は [確率変数](https://ja.wikipedia.org/wiki/確率変数){target="_blank"} （を使用） [ベータ分布](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}.
 
 事前分布はベータ分布でモデル化され、事後分布は次の形式を取ります。
 

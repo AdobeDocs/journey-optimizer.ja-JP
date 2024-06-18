@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 購読レポート
-description: サブスクリプションサービスのデータをサブスクリプショングローバルレポートで使用する方法を説明します
+description: 購読グローバルレポートで購読サービスのデータを使用する方法を学ぶ
 feature: Journeys, Subscriptions
 topic: Content Management
 role: User

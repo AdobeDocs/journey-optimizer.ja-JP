@@ -5,7 +5,7 @@ description: round 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: ラウンド，関数，式，ジャーニー
+keywords: round，関数，式，ジャーニー
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt

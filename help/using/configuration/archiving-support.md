@@ -10,7 +10,7 @@ level: Experienced
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 100%
 

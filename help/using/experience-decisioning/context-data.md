@@ -8,7 +8,7 @@ level: Intermediate
 badge: label="限定提供"
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 

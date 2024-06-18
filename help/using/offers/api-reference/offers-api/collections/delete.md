@@ -9,13 +9,13 @@ exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # コレクションの削除 {#delete-collection}
 
-場合によっては、コレクションを削除（DELETE）する必要があります。これは、削除するコレクションの `id` を使用して [!DNL Offer Library] API に対して DELETE リクエストを実行することで行います。
+場合によっては、コレクションを削除（DELETE）する必要があります。 これは、削除するコレクションの `id` を使用して [!DNL Offer Library] API に対して DELETE リクエストを実行することで行います。
 
 **API 形式**
 

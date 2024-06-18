@@ -9,7 +9,7 @@ exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表に、を構成する有効な値を示します *Content-Type* および *承諾* リクエストヘッダーのフィールド :
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |

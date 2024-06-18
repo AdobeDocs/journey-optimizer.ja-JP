@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 100%
 
 サブドメインとは、ブランドを分離したり、様々なタイプのトラフィック（トランザクションメッセージ、アドビからのお知らせなど）を分離したりするのに使用できる、ドメインの区分です。
 
-トランザクションコミュニケーションとマーケティングコミュニケーションの両方を送信するために使用される「mybrand.com」ドメインの例を見てみましょう。ここでは、2 つのサブドメインを設定します。
+例えば、トランザクションコミュニケーションとマーケティングコミュニケーションの両方を送信する「mybrand.com」ドメインを使用する場合を考えてみましょう。 この場合、次の 2 つのサブドメインを設定することができます。
 
-* トランザクションコミュニケーション（購入確認、パスワードリセットなど）用の「info.mybrand.com」サブドメイン
+* トランザクション通信（購入の確認、パスワードのリセットなど）の「info.mybrand.com」サブドメイン
 * 見込み客向けのメール送信用の「marketing.mybrand.com」サブドメイン
 
-この設定により、ドメインおよび他のサブドメインの評価を維持するのに役立ちます。例えば、配信品質が悪いために「marketing.mybrand.com」サブドメインがインターネットサービスプロバイダーによってブロックリストに追加された場合、「mybrand.com」ドメイン全体および「info.mybrand.com」サブドメインがブロックリストに追加されるのを防ぎます。
+これにより、ドメインおよび他のサブドメインの評価を維持するのに役立ちます。 例えば、「marketing.mybrand.com」サブドメインが、配信品質が低いためにインターネットサービスプロバイダーによってブロックリストに追加された場合は、「mybrand.com」サブドメインと「info.mybrand.com」サブドメイン全体がブロックリストに追加されなくなります。
 
 ソリューションを実装する場合、外部から使用するコンポーネント（追跡の対象となるリンクや web ページの設定、ミラーページの表示など）に関する要件があります。
 
@@ -68,12 +68,12 @@ ht-degree: 100%
 
 次の表に、これらの方法の仕組みと、黙示的な作業レベルの概要を示します。
 
-| 設定方法 | 仕組み | 労力のレベル |
+| 設定方法 | 仕組み | 作業レベル |
 |---|---|---|
-| **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
-| **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
+| **完全デリゲーション** | サブドメインと名前空間レコードを作成します。 次に、Adobeは、Adobe Campaignに必要なすべての DNS レコードを設定します。<br/><br/>この設定では、Adobeは、サブドメインとすべての DNS レコードの管理を完全に担当します。 | 低 |
+| **CNAME、カスタムメソッド** | サブドメインと名前空間レコードを作成します。 次に、Adobeは DNS サーバーに配置するレコードを提供し、Adobe Campaign DNS サーバーで対応する値を設定します。<br/><br/>この設定では、お客様とAdobeの両方が DNS の管理に対する責任を共有します。 | 高 |
 
-ドメイン設定に関するその他の詳細情報については、[このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ja)を参照してください。
+ドメイン設定に関するその他の詳細情報については、を参照してください [このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ja).
 
 サブドメインの設定方法について質問がある場合は、アドビにお問い合わせいただくか、最終的にはカスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 

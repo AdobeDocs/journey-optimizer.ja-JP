@@ -9,7 +9,7 @@ exl-id: 91317c46-d8b6-456e-8282-aef1169941af
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 32%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-[!DNL Offer Library] API に対してリクエストパスにコレクションの `@id` または名前を含む GET リクエストを実行することで、特定のコレクションを検索できます。
+に対してGETリクエストを実行することで、特定のコレクションを検索できます。 [!DNL Offer Library] コレクションを含む API `@id` または、リクエストパスでのコレクションの名前。
 
 **API 形式**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | コレクションに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Mobile demo` |
+| `id` | に一致させる文字列 `@id` エンティティのプロパティ。 文字列は完全に一致します。 パラメーター `id` および `name` 一緒に使用することはできません。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | エンティティの xdm:name プロパティと一致させるために使用される文字列。 文字列は大文字と小文字が完全に一致しますが、ワイルドカード文字を使用できます。 パラメーター `id` および `name` 一緒に使うことはできない | `Mobile demo` |
 
 **リクエスト**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、コレクションに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のコレクション `@id` に関する情報を含む）が返されます。
+正常な応答では、コレクションに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のコレクションに関する情報を含む）が返されます `@id`.
 
 ```json
 {

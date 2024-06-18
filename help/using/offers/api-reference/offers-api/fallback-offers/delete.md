@@ -9,14 +9,14 @@ exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 
 # フォールバックオファーの削除 {#delete-fallback-offer}
 
-場合によっては、フォールバックオファーを削除（DELETE）する必要があります。それには、削除するフォールバックオファーの ID を使用して、[!DNL Offer Library] API に対する DELETE リクエストを実行します。
+場合によっては、フォールバックオファーを削除（DELETE）する必要があります。 それには、削除するフォールバックオファーの ID を使用して、[!DNL Offer Library] API に対する DELETE リクエストを実行します。
 
 **API 形式**
 

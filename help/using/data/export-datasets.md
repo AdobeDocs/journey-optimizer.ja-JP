@@ -10,8 +10,8 @@ keywords: Platform, データレイク, 作成, レイク, データセット, �
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 ## 前提条件 {#prerequisites}
 
-データセットを書き出すには、[アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja){target="_blank"}が必要です。権限がない場合は、製品管理者に問い合わせて、必要な権限を取得してください。
+データセットを書き出すには、 [アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions){target="_blank"} 以下に示します。 を読み取る [アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja){target="_blank"} または、製品管理者に問い合わせて、必要な権限を取得してください。
 
 | カテゴリ | 権限 |
 |--|--|

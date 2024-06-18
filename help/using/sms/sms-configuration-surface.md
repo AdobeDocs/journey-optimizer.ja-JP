@@ -10,11 +10,11 @@ exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: 82c58753b0beb1c6c60b4e1a8188725b3cb83390
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# SMS/MMS サーフェスの作成 {#message-preset-sms}
+# SMS／MMS サーフェスの作成 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"

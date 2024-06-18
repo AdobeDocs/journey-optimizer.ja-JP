@@ -9,7 +9,7 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -43,11 +43,11 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+クエリパラメーターを使用して、リソースをリストする際に結果をページ化およびフィルタリングできます。
 
 ### ページング {#paging}
 
-ページングに最も一般的なクエリパラメーターは次のとおりです。
+ページングで最も一般的なクエリパラメーターは次のとおりです。
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
