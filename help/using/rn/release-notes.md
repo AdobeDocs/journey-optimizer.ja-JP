@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
+source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 74%
+source-wordcount: '1321'
+ht-degree: 65%
 
 ---
 
@@ -166,13 +166,17 @@ ht-degree: 74%
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-<!--**Content fragments**
+**コンテンツフラグメント**
 
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
+>[!AVAILABILITY]
+>
+>これらの機能強化は、最初のリリース後、数日かけて徐々に展開されることに注意してください。 すぐにアクセスできるユーザーもいれば、環境で使用できるようになるまでに遅延が発生するユーザーもいます。
+
+* フラグメントを編集し、フラグメントが使用されているすべてのライブジャーニーおよびキャンペーンに変更を反映できるようになりました。
+* コンテンツフラグメントの新しいステータスが導入されました。 **ドラフト**, **ライブ**, **公開中**、および **アーカイブ済み**.
+* ジャーニーまたはキャンペーンでフラグメントを使用するには、フラグメントが次の場所にある必要があります。 **ライブ** ステータス。 フラグメント作成プロセスに新しい手順が追加され、フラグメントを公開して、ジャーニーやキャンペーンで使用できるようになりました。 フラグメントの公開には、新しい権限が必要になります。
+
+  **注意**  – 以降 **ドラフト** および **ライブ** Journey Optimizerの 6 月のリリースでステータスが導入されました。このリリースより前に作成されたすべてのフラグメントには、 **ドラフト** ステータス （ジャーニーやキャンペーンで使用されている場合を含む）。 既存のフラグメントを更新する方法については、この節を参照してください。
 
 **ジャーニー**
 
