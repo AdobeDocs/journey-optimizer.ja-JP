@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: f24d638711c9fd755dad1553fcbfa82810eaaab6
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 >id="ajo_admin_subdomainname"
 >title="サブドメインデリゲーション"
 >abstract="Journey Optimizer を使用すると、サブドメインをアドビにデリゲートできます。サブドメインを完全にアドビにデリゲートできます。これは推奨される方法です。また、CNAME を使用してアドビ固有のレコードを指すサブドメインを作成することもできますが、この方法では、DNS レコードを独自に保持および管理する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html?lang=ja#subdomain-delegation-methods" text="サブドメインの設定方法"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="サブドメインの設定方法"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -75,7 +75,7 @@ ht-degree: 95%
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. DNS サーバーに配置するレコードのリストが表示されます。 これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインホスティングソリューションに移動して、一致する DNS レコードを生成します。
+1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
 1. ドメインをホストするソリューションに、すべての DNS レコードが生成されていることを確認してください。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにします。
 
@@ -151,7 +151,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. DNS サーバーに配置するレコードのリストが表示されます。 これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインホスティングソリューションに移動して、一致する DNS レコードを生成します。
+1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
 1. ドメインをホストするソリューションに、すべての DNS レコードが生成されていることを確認してください。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにします。
 

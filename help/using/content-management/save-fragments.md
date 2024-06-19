@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 45%
 
 ---
 
 # コンテンツをフラグメントとして保存 {#save-as-fragment}
 
-[!DNL Journey Optimizer] でコンテンツを編集する際、後で再利用するために、コンテンツのすべてまたは一部をフラグメントとして保存できます。
+でのコンテンツの編集時 [!DNL Journey Optimizer]を選択します。コンテンツのすべてまたは一部をフラグメントとして保存しておくと、後で再利用できます。 コンテンツは、フラグメントとして保存できます [電子メールデザイナーから](#save-as-visual-fragment)、または [式エディターから](#save-as-expression-fragment).
 
-## コンテンツをビジュアルフラグメントとして保存 {#save-as-visual-fragment}
+## ビジュアルフラグメントとして保存 {#save-as-visual-fragment}
 
-キャンペーンやジャーニーで[コンテンツテンプレート](content-templates.md)または[メール](../email/get-started-email-design.md)をデザインする際、コンテンツの一部をビジュアルフラグメントとして保存できます。それには、次の手順に従います。
+メールデザイナーからコンテンツをフラグメントとして保存するには、次の手順に従います。
 
 1. [E メールデザイナー](../email/get-started-email-design.md)で、画面の右上にある「...」をクリックします。
 
@@ -31,29 +31,31 @@ ht-degree: 100%
 
 1. **[!UICONTROL フラグメントとして保存]**&#x200B;画面が表示されます。パーソナライゼーションフィールドや動的コンテンツなど、フラグメントに含める要素を選択します。コンテキスト属性は、フラグメントではサポートされていません。
 
+   ![](assets/fragment-save-as-screen.png)
+
    >[!CAUTION]
    >
    >互いに隣接するセクションのみを選択できます。空の構造や別のフラグメントは選択できません。
 
-   ![](assets/fragment-save-as-screen.png)
+1. クリック **[!UICONTROL 作成]** さらに、必要に応じてフラグメント名と説明を入力します。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。フラグメントの詳細、名前や説明などを（必要に応じて）入力します。
-
-1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）についての詳細はこちらを参照してください](../administration/object-based-access.md)。
+1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、 **[!UICONTROL アクセスを管理]** ボタンをクリックします。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
 
 1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成してテンプレートを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
-1. 「**[!UICONTROL 作成]**」をもう一度クリックします。フラグメントは[フラグメントリスト](#access-manage-fragments)に保存され、[!DNL Journey Optimizer] 専用メニューからアクセスできます。
+1. 「**[!UICONTROL 作成]**」をクリックします。フラグメントがに追加されます。 [フラグメントリスト](#access-manage-fragments) （を使用） **ドラフト** ステータス。 このフラグメントは、そのリスト内の他のビジュアルフラグメントとして使用できるスタンドアロンのフラグメントになります。
 
-   このフラグメントは、そのリストの他の項目と同様に、[アクセス](#access-manage-fragments)、[編集](#edit-fragments)、[アーカイブ](#archive-fragments)できるスタンドアロンのフラグメントになります。
+   >[!NOTE]
+   >
+   >その新しいフラグメントに対する変更は、送信元のメールまたはテンプレートには生成されません。同様に、そのメールまたはテンプレート内で元のコンテンツを編集しても、新しいフラグメントは変更されません。
 
-このフラグメントは、[!DNL Journey Optimizer] 内で[メール](../email/get-started-email-design.md)または[コンテンツテンプレート](content-templates.md)を作成する際に使用できるようになりました。[方法についてはこちらを参照](../email/use-visual-fragments.md)
+1. ジャーニーとキャンペーンでフラグメントを使用するには、フラグメントをライブにする必要があります。 [フラグメントのプレビューと公開の方法を学ぶ](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->その新しいフラグメントに対する変更は、送信元のメールまたはテンプレートには生成されません。同様に、そのメールまたはテンプレート内で元のコンテンツを編集しても、新しいフラグメントは変更されません。
+>フラグメントの公開は、Journey Optimizerの 6 月のリリース後、数日かけて徐々に展開されています。 すぐにアクセスできるユーザーもいれば、環境で使用できるようになるまでに遅延が発生するユーザーもいます。 お使いの環境でこの機能強化をまだ利用できない場合は、ジャーニーやキャンペーンでフラグメントを使用するためにフラグメントを公開する必要はありません。
 
-## コンテンツを式フラグメントとして保存 {#save-as-expression-fragment}
+## 式フラグメントとして保存 {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -66,6 +68,10 @@ ht-degree: 100%
 
 1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)インターフェイスで、式を作成し、「**[!UICONTROL フラグメントとして保存]**」をクリックします。
 
+   >[!NOTE]
+   >
+   >式は 200 KB 以内にする必要があります。
+
 1. 右側のパネルで式の名前と説明を入力して、式を見つけやすくします。
 
    ![](assets/expression-fragment-save-as.png)
@@ -74,8 +80,10 @@ ht-degree: 100%
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. 式フラグメントが[フラグメントリスト](#access-manage-fragments)に追加されます。この式フラグメントを使用してパーソナライズされたコンテンツを構築することができます。
+1. フラグメントがに追加されます。 [フラグメントリスト](#access-manage-fragments) （を使用） **ドラフト** ステータス。 このフラグメントは、そのリスト内の他の式フラグメントとして使用できるスタンドアロンのフラグメントになります。
+
+1. ジャーニーとキャンペーンでフラグメントを使用するには、フラグメントをライブにする必要があります。 [フラグメントのプレビューと公開の方法を学ぶ](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->式は 200 KB 以内にする必要があります。
+>フラグメントの公開は、Journey Optimizerの 6 月のリリース後、数日かけて徐々に展開されています。 すぐにアクセスできるユーザーもいれば、環境で使用できるようになるまでに遅延が発生するユーザーもいます。 お使いの環境でこの機能強化をまだ利用できない場合は、ジャーニーやキャンペーンでフラグメントを使用するためにフラグメントを公開する必要はありません。

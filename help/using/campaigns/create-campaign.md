@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 新しいキャンペーンを作成するには、**[!UICONTROL Campaigns]** メニューにアクセスし、「**[!UICONTROL キャンペーンの作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。([詳細情報](modify-stop-campaign.md#duplicate))
 
-## キャンペーンのタイプとチャネルを選択 {#campaigntype}
+## キャンペーンタイプを選択 {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -39,25 +39,13 @@ ht-degree: 100%
 >title="キャンペーンカテゴリ"
 >abstract="スケジュール済みキャンペーンを作成している場合は、**マーケティング**&#x200B;タイプが自動的に選択されます。API トリガーのキャンペーンの場合、**マーケティング**&#x200B;メッセージ（ユーザーの同意が必要なプロモーションメッセージ）を送信するか、**トランザクション**&#x200B;メッセージ（特定のコンテキストで登録解除済みのプロファイルにも送信できる非商用メッセージ）を送信するかを選択します。"
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンを実行する方法を指定します。次の 2 種類のキャンペーンを使用できます。
+1. 実行するキャンペーンのタイプを選択します
 
-   * **[!UICONTROL スケジュール済み]**：キャンペーンを即時または指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行されます。
+   * **[!UICONTROL スケジュール済み – マーケティング]**：キャンペーンをすぐに実行するか、指定日に実行します。 スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行されます。
 
-   * **[!UICONTROL API トリガー]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照してください](api-triggered-campaigns.md)
+   * **[!UICONTROL API トリガー – マーケティング/トランザクション]**:API 呼び出しを使用したキャンペーンの実行。 API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照してください](api-triggered-campaigns.md)
 
-1. スケジュール済みキャンペーンを作成している場合は、**マーケティング**&#x200B;タイプが自動的に選択されます。API トリガーキャンペーンの場合は、**マーケティング**&#x200B;メッセージを送信するか、**トランザクション**&#x200B;メッセージを送信するかを選択します。
-
-1. 「**[!UICONTROL アクション]**」セクションで、メッセージの送信に使用するチャネルとチャネルサーフェスを選択します。
-
-   サーフェスは、[システム管理者](../start/path/administrator.md)によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
-
-   マーケティングキャンペーンタイプと互換性のあるチャネルサーフェスのみがドロップダウンリストに一覧表示されます。
-
-   ![](assets/create-campaign-action.png)
-
-   >[!NOTE]
-   >
-   >プッシュ通知キャンペーンを作成している場合、**[!UICONTROL 迅速配信モード]**&#x200B;を有効にできます。これは、大量のプッシュメッセージを非常に高速に送信できる Journey Optimizer アドオンです。[詳細情報](../push/create-push.md#rapid-delivery)
+   ![](assets/create-campaign-modal.png)
 
 1. 「**[!UICONTROL 作成]**」をクリックして、キャンペーンを作成します。
 
@@ -71,13 +59,41 @@ ht-degree: 100%
 
 1. カスタムまたはコアのデータ使用ラベルをキャンペーンに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。 [オブジェクトレベルのアクセス制御（OLA）の詳細](../administration/object-based-access.md)
 
+## キャンペーンオーディエンスの定義 {#audience}
+
+キャンペーンのターゲットとなる母集団を定義するには、次の手順に従います。
+
+>[!IMPORTANT]
+>
+>[オーディエンス構成](../audience/get-started-audience-orchestration.md)と[カスタムアップロード（CSV ファイル）オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)からのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。
+>
+>API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。
+
+1. が含まれる **対象読者** セクションで、 **[!UICONTROL オーディエンスを選択]** 使用可能なAdobe Experience Platform オーディエンスのリストを表示するボタン。 [詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
+
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。
+
+   様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
+
+   ![](assets/create-campaign-namespace.png)
+
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
 ## メッセージの作成とトラッキングの設定 {#content}
 
-「**[!UICONTROL アクション]**」セクションで、キャンペーンで送信するメッセージを作成します。
+1. が含まれる **[!UICONTROL アクション]** セクションで、メッセージの送信に使用するチャネルとサーフェスを選択します。
 
-1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メッセージコンテンツを設定およびデザインします。
+   サーフェスは、[システム管理者](../start/path/administrator.md)によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
 
-   メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
+   マーケティングキャンペーンタイプと互換性のあるチャネルサーフェスのみがドロップダウンリストに一覧表示されます。
+
+   ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >プッシュ通知キャンペーンを作成している場合、**[!UICONTROL 迅速配信モード]**&#x200B;を有効にできます。これは、大量のプッシュメッセージを非常に高速に送信できる Journey Optimizer アドオンです。[詳細情報](../push/create-push.md#rapid-delivery)
+
+1. 「」をクリックします **[!UICONTROL コンテンツを編集]** ボタンをクリックして、メッセージを作成およびデザインします。 メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -119,24 +135,6 @@ ht-degree: 100%
 1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、受信者が配信に対する反応を追跡するかどうかを指定します。クリック数や開封数を追跡できます。
 
    キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。[キャンペーンレポートについて詳しくはこちらを参照](../reports/campaign-global-report.md)
-
-## オーディエンスを定義 {#audience}
-
-「**[!UICONTROL オーディエンスを選択]**」ボタンを使用して、使用可能な Adobe Experience Platform オーディエンスのリストを表示します。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
-
->[!IMPORTANT]
->
->[オーディエンス構成](../audience/get-started-audience-orchestration.md)と[カスタムアップロード（CSV ファイル）オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)からのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。
->
->API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。
-
-「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。
-
-様々な ID の中から選択した ID（名前空間）を持たないセグメントに属する個人は、キャンペーンのターゲットになりません。[名前空間について詳しくはこちらを参照](../event/about-creating.md#select-the-namespace)
-
-![](assets/create-campaign-namespace.png)
-
-<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## キャンペーンのスケジュール {#schedule}
 
