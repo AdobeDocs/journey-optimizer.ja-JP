@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: '1005'
+ht-degree: 96%
 
 ---
 
@@ -59,6 +59,10 @@ API トリガーキャンペーンを作成するには、次の手順に従い�
 1. 「**[!UICONTROL オーディエンス]**」セクションで、個人の識別に使用する名前空間を指定します。
 
    * **トランザクション**&#x200B;タイプのキャンペーンを作成している場合は、API 呼び出しでターゲットプロファイルを定義する必要があります。「**[!UICONTROL 新規プロファイルを作成]**」オプションを使用すると、データベースに存在しないプロファイルを自動的に作成できます。[キャンペーン実行時のプロファイル作成について詳しくはこちらから](#profile-creation)
+
+     >[!NOTE]
+     >
+     >1 回の API 呼び出しで、最大 20 人の一意の受信者をサポートできます。 各受信者には一意のユーザー ID が必要です。重複したユーザー ID は使用できません。 詳しくは、を参照してください [インタラクティブメッセージ実行 API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * **マーケティング**&#x200B;タイプのキャンペーンの場合は、「**[!UICONTROL オーディエンス]**」ボタンをクリックして、ターゲットにするオーディエンスを選択します。
 
