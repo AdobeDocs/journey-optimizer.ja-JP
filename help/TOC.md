@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 100%
+source-wordcount: '1843'
+ht-degree: 99%
 
 ---
 
@@ -380,6 +380,14 @@ ht-degree: 100%
    + [アラート](using/reports/alerts.md)
    + [Customer Journey Analytics の操作](using/reports/cja-ajo.md)
    + [除外の理由](using/reports/exclusion-list.md)
++ 新しいレポートインターフェイス（ベータ版）{#channel-report}
+   + [新しいレポートインターフェイスの概要](using/reports/report-gs-cja.md)
+   + [レポートの管理](using/reports/report-cja-manage.md)
+   + [ジャーニーレポート](using/reports/journey-global-report-cja.md)
+   + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
+   + [概要レポート](using/reports/channel-report-cja.md)
+   + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
+   + [購読リストレポート](using/reports/subscription-report-global-cja.md)
 + 決定 {#decisioning}
    + 意思決定管理 {#offer-decisioning}
       + 意思決定管理の基本を学ぶ {#get-started-decision}

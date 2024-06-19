@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 93%
 
 ---
 
@@ -51,6 +51,8 @@ Journey Optimizer に Infobip を設定するには、次の手順に従いま�
    * **[!UICONTROL 有効期間]**：メッセージの有効期間を時間単位で入力します。この時間枠内にメッセージを配信できない場合は、システムは追加の再送信を試みます。デフォルトの有効期間は 48 時間に設定されています。
 
    * **[!UICONTROL コールバックデータ]**：通知 URL で送信する追加のクライアントデータを入力します。
+
+   * **[!UICONTROL インバウンド番号]**：一意のインバウンド番号を追加します。 これにより、異なるサンドボックスで同じ API 資格情報を使用し、それぞれに独自のインバウンド番号を設定できます。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 

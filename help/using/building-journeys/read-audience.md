@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 100%
+source-wordcount: '1465'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->1 回限りの「オーディエンスを読み取り」ジャーニーは、ジャーニーの実行から 30 日後に完了ステータスに移行します。スケジュールされた「オーディエンスを読み取り」の場合は、最後の実行から 30 日後になります。
+>1 回限りのオーディエンスを読み取りジャーニーはに移動します。 **完了** ステータス 91 日（[デフォルトのタイムアウト](journey-gs.md#global_timeout)）を選択します。 スケジュールされた「オーディエンスを読み取り」の場合は、最後の実行から 91 日後になります。
 
 ## ジャーニーのテストと公開 {#testing-publishing}
 

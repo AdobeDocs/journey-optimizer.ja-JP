@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 23%
 
 ---
 
@@ -26,3 +26,223 @@ Privacy Service と、プライバシーリクエストの作成および管理�
 
 * [Privacy Service の概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)
 * [Privacy Service UI でのプライバシージョブの管理](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja)
+
+
+
+## Adobe Journey Optimizerに送信できる個々のデータプライバシーリクエストの管理 {#data-privacy-requests}
+
+消費者データへのアクセスおよび削除の個々のリクエストをAdobe Journey Optimizerから送信するには、次の 2 つの方法があります。
+
+* 経由 **PRIVACY SERVICEUI**. ドキュメントを参照してください [こちら](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
+* 経由 **PRIVACY SERVICEAPI**. ドキュメントを参照してください [こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) および API 情報 [こちら](https://developer.adobe.com/experience-platform-apis/#_blank).
+
+Privacy Serviceでは、次の 2 種類のリクエストがサポートされています。 **データアクセス** および **データ削除**.
+
+>[!NOTE]
+>
+>このガイドでは、Adobe Journey Optimizerのプライバシーリクエストの作成方法についてのみ説明します。 Platform データレイクのプライバシーリクエストもおこなう予定がある場合は、こちらを参照してください [ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) このチュートリアルに加えて、 リアルタイム顧客プロファイルについては、こちらを参照してください。 [ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) id サービスについては、こちらを参照してください。 [ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). 削除リクエストおよびアクセスリクエストの場合、これらの個々のシステムを呼び出して、リクエストが各方式で処理されていることを確認する必要があります。 Adobe Journey Optimizerにプライバシーリクエストを送信しても、これらのすべてのシステムからデータが削除されるわけではありません。
+
+の場合 **アクセス要求**&#x200B;は、UI から「Adobe Journey Optimizer」（または API のプロダクトコードとして「CJM」）を指定します。
+
+の場合 **リクエストの削除**&#x200B;また、「Adobe Journey Optimizer」リクエストに加えて、削除されたデータをJourney Optimizerが再拒否するのを防ぐために、3 つのアップストリームサービスに削除リクエストを送信する必要があります。 これらのアップストリームサービスが指定されていない場合、アップストリームサービスの削除リクエストが作成されるまで、「Adobe Journey Optimizer」リクエストは「処理中」ステータスのままになります。
+
+3 つのアップストリームサービスは次のとおりです。
+
+* プロファイル（製品コード：「profileService」）
+* AEP Data Lake （製品コード：「AdobeCloudPlatform」）
+* ID （製品コード：「ID」）
+
+## アクセスリクエストと削除リクエストの作成方法
+
+### 前提条件
+
+Adobe Journey Optimizerのデータへのアクセスおよび削除をリクエストするには、次の情報が必要です。
+
+* ims 組織 ID
+* 操作の対象となるユーザーの ID 識別子と、対応する名前空間。Adobe Journey OptimizerおよびExperience Platformの ID 名前空間について詳しくは、 [id 名前空間の概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+
+### API リクエストのAdobe Journey Optimizerの必須フィールド値
+
+```json
+"companyContexts":
+    "namespace": imsOrgID
+    "value": <Your IMS Org ID Value>
+
+"users":
+    "action": either access or delete
+
+    "userIDs":
+        "namespace": e.g. email, aaid, ecid, etc.
+        "type": standard
+        "value": <Data Subject's Identity Identifier>
+
+"include":
+    CJM (which is the Adobe product code for Adobe Journey Optimizer)
+    profileService (product code for Profile)
+    AdobeCloudPlatform (product code for AEP Data Lake)
+    identity (product code for Identity)
+
+"regulation":
+    gdpr, ccpa, pdpa, lgpd_bra, or nzpa_nzl (which is the privacy regulation that applies to the request)
+```
+
+
+### GDPR アクセスリクエストの例：
+
+UI から：
+
+![](assets/accessrequest.png)
+
+API を使用：
+
+```json
+// JSON Request
+{
+   "companyContexts":[
+      {
+         "namespace":"imsOrgID",
+         "value":"745F37C35E4B776E0A49421B@AdobeOrg"
+      }
+   ],
+   "users":[
+      {
+         "action":[
+            "access"
+         ],
+         "userIDs":[
+            {
+               "namespace":"ecid",
+               "value":"38400000-8cf0-11bd-b23e-10b96e40000d",
+               "type":"standard"
+            },
+            {
+               "namespace":"email",
+               "value":"johndoe4@gmail.com",
+               "type":"standard"
+            }
+         ]
+      }
+   ],
+   "include":[
+      "CJM"
+   ],
+   "regulation":"gdpr"
+}
+```
+
+```json
+// JSON Response
+{
+    "requestId": "17163122360480365RX-705",
+    "totalRecords": 1,
+    "jobs": [
+        {
+            "jobId": "e709b1f4-1796-11ef-b422-eddd0aebc40d",
+            "customer": {
+                "user": {
+                    "key": "John Doe",
+                    "action": [
+                        "access"
+                    ],
+                    "userIDs": [
+                        {
+                            "namespace": "ecid",
+                            "value": "38400000-8cf0-11bd-b23e-10b96e40000d",
+                            "type": "standard",
+                            "namespaceId": 4,
+                            "isDeletedClientSide": false
+                        },
+                        {
+                            "namespace": "email",
+                            "value": "johndoe4@gmail.com",
+                            "type": "standard",
+                            "namespaceId": 6,
+                            "isDeletedClientSide": false
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
+```
+
+### GDPR 削除リクエストの例：
+
+UI から：
+
+![](assets/deleterequest.png)
+
+API を使用：
+
+```json
+// JSON Request
+{
+  "companyContexts": [
+    {
+      "namespace": "imsOrgID",
+      "value": "745F37C35E4B776E0A49421B@AdobeOrg"
+    }
+  ],
+  "users": [
+    {
+      "action": [
+          "delete"
+      ],
+      "userIDs": [
+        {
+          "namespace": "ecid",
+          "value": "38400000-8cf0-11bd-b23e-10b96e40000d",
+          "type": "standard"
+        },
+                {
+          "namespace": "email",
+          "value": "johndoe4@gmail.com",
+          "type": "standard"
+        }
+      ]
+    }
+  ],
+  "include": [
+    "CJM", "profileService", "AdobeCloudPlatform", "identity"
+  ],
+  "regulation": "gdpr"
+}
+```
+
+```json
+// JSON Response
+{
+    "requestId": "17163122360480365RX-705",
+    "totalRecords": 1,
+    "jobs": [
+        {
+            "jobId": "e709b1f4-1796-11ef-b422-eddd0aebc40d",
+            "customer": {
+                "user": {
+                    "key": "John Doe",
+                    "action": [
+                        "delete"
+                    ],
+                    "userIDs": [
+                        {
+                            "namespace": "ecid",
+                            "value": "38400000-8cf0-11bd-b23e-10b96e40000d",
+                            "type": "standard",
+                            "namespaceId": 4,
+                            "isDeletedClientSide": false
+                        },
+                        {
+                            "namespace": "email",
+                            "value": "johndoe4@gmail.com",
+                            "type": "standard",
+                            "namespaceId": 6,
+                            "isDeletedClientSide": false
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
+```

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '5355'
-ht-degree: 100%
+source-wordcount: '5389'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 
 ## 2024年6月 {#june-2024}
 
+* に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] 2024 年 6 月リリースについて詳しくは、ドキュメントを参照してください。 [詳細情報](release-notes.md)
+* ジャーニーでの結合ポリシーの使用に関するメモがに追加されました [このページ](../building-journeys/journey-gs.md#merge-policies).
 * ジャーニーで&#x200B;**待機**&#x200B;アクティビティを設定する方法に関するページが再編成され、改善されました。[詳細情報](../building-journeys/wait-activity.md)
 
 ## 2024年5月 {#may-2024}

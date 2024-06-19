@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
+source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '1272'
+ht-degree: 81%
 
 ---
 
@@ -58,11 +58,19 @@ ht-degree: 100%
 >title="AWS リージョンを選択"
 >abstract="ダイレクトメールファイルの書き出し先となる AWS サーバーのリージョンを選択します。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。"
 
+>[!NOTE]
+>
+>現在、[!DNL Journey Optimizer] では Amazon S3、SFTP、Azure がサポートされています。
+
 ダイレクトメールメッセージを配信するために、[!DNL Journey Optimizer] はターゲットオーディエンスデータを含むファイルを生成し、サーバーに書き出します。
 
 ダイレクトメールプロバイダーがそのファイルにアクセスして、メールの配信に使用できるように、そのサーバーの詳細を指定する必要があります。
 
 ファイルのルーティングを設定するには、次の手順に従います。
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ファイルのルーティング設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
 
@@ -70,33 +78,89 @@ ht-degree: 100%
 
 1. 設定の名前を設定します。
 
-1. ダイレクトメールファイルの書き出しに使用する&#x200B;**[!UICONTROL サーバータイプ]**&#x200B;を選択します。
+1. を選択 **Amazon S3** as the **[!UICONTROL サーバータイプ]** を使用してダイレクトメールファイルを書き出します。
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >現在、[!DNL Journey Optimizer] では Amazon S3、SFTP、Azure がサポートされています。
+1. サーバーの詳細と資格情報を入力します
 
-1. サーバーアドレス、アクセスキーなど、サーバーの詳細と資格情報を入力します。
+   * **AWS バケット名**:AWS バケット名の場所については、を参照してください。 [このページ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   ![](assets/file-routing-config-sftp-details.png)
+   * **AWS アクセスキー**:AWS アクセスキー ID の場所については、次を参照してください。 [このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-1. 「**[!UICONTROL Amazon S3]**」を選択した場合は、サーバーインフラストラクチャが配置される「**[!UICONTROL AWS リージョン]**」を選択します。
+   * **AWS秘密鍵**:AWS秘密鍵の場所については、次を参照してください。 [このページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/).
+
+   * **AWS**：を選択 **[!UICONTROL AWS]** サーバーインフラストラクチャが配置される場所。 AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-   >[!NOTE]
-   >
-   >AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
 
 1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
 1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメールサーフェス](#direct-mail-surface)で使用する準備が整いました。
 
-   >[!NOTE]
-   >
-   >「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまでサーフェスで選択することはできません。
+   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまでサーフェスで選択することはできません。
+
+>[!TAB SFTP]
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ファイルのルーティング設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 設定の名前を設定します。
+
+1. SFTP をとして選択 **[!UICONTROL サーバータイプ]** を使用してダイレクトメールファイルを書き出します。
+
+   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+
+1. サーバーの詳細と資格情報を入力します。
+
+   * **アカウント**:SFTP サーバーへの接続に使用するアカウント名。
+
+   * **サーバーアドレス**: &#x200B;SFTP サーバーの URL。
+
+   * **ポート**:FTP 接続のポート番号。
+
+   * **パスワード**:&#x200B;SFTP サーバーへの接続に使用するパスワード。
+
+   ![](assets/file-routing-config-sftp-detail.png)
+
+1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
+
+1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメールサーフェス](#direct-mail-surface)で使用する準備が整いました。
+
+   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまでサーフェスで選択することはできません。
+
+>[!TAB Azure]
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ファイルのルーティング設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 設定の名前を設定します。
+
+1. Azure を選択 **[!UICONTROL サーバータイプ]** を使用してダイレクトメールファイルを書き出します。
+
+   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+
+1. サーバーの詳細と資格情報を入力します。
+
+   * **Azure 接続文字列**：を検索します **Azure 接続文字列**&#x200B;を参照してください。 [このページ](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+
+     この **Azure 接続文字列** は、次の形式に従う必要があります。
+
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+
+   * **コンテナ名**：を検索します **コンテナ名**&#x200B;を参照してください。 [このページ](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+
+     この **コンテナ名** は、コンテナの名前のみをスラッシュなしで含める必要があります。 ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンのファイル名を目的のパスを含むように更新します。
+
+1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
+
+1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメールサーフェス](#direct-mail-surface)で使用する準備が整いました。
+
+   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまでサーフェスで選択することはできません。
+
+>[!ENDTABS]
 
 ## ダイレクトメールサーフェスの作成 {#direct-mail-surface}
 

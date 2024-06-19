@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 88%
 
 ---
 
@@ -46,9 +46,7 @@ ht-degree: 100%
 
 ## 開始する前に {#fragment-prerequisites}
 
->[!NOTE]
->
->フラグメントを作成、編集、アーカイブするには、**[!DNL Content Library Manager]** 製品プロファイルに **[!DNL Manage library items]** 権限が付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+フラグメントを作成、編集、アーカイブするには、**[!DNL Content Library Manager]** 製品プロファイルに **[!DNL Manage library items]** 権限が付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
 このバージョンでは、次の制限が適用されます。
 
@@ -62,17 +60,16 @@ ht-degree: 100%
 * **ビジュアルフラグメント**&#x200B;は、[E メールデザイナー](../email/get-started-email-design.md)または[コンテンツテンプレート](../email/use-email-templates.md)を使用して、複数のメール配信で再利用できる、事前定義されたビジュアルブロックです。
 * **式フラグメント**&#x200B;は、[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)の専用のエントリから使用できる、事前定義された式です。
 
-
-すべてのフラグメントには、左メニューの&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL フラグメント]**&#x200B;からアクセスできます。
+作成されたすべてのフラグメントには、 **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]**  左メニュー。 [フラグメントの管理方法について学ぶ](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## チュートリアルビデオ {#video-fragments}
 
-ビジュアルフラグメントを管理、作成および使用する方法については、[!DNL Journey Optimizer] を参照してください。
+を管理、作成、使用する方法を説明します **ビジュアルフラグメント** 。対象： [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-フラグメントを管理、作成および使用する方法については、[!DNL Journey Optimizer] を参照してください。
+を管理、作成、使用する方法を説明します **式フラグメント** 。対象： [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
