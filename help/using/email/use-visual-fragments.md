@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 57%
+source-wordcount: '737'
+ht-degree: 47%
 
 ---
 
@@ -74,6 +74,22 @@ ht-degree: 57%
 1. 必要に応じて、元のフラグメントの継承を解除できます。[詳細情報](#break-inheritance)
 
 1. 必要な数のフラグメントを追加し、変更内容を&#x200B;**[!UICONTROL 保存]**&#x200B;します。
+
+## 編集可能フィールドのカスタマイズ {#customize-fields}
+
+選択されているフラグメントの一部が編集可能になっている場合は、フラグメントをコンテンツに追加した後で、そのデフォルト値を上書きできます。 [フラグメントをカスタマイズ可能にする方法を学ぶ](../content-management/customizable-fragments.md)
+
+フラグメント内の編集可能フィールドをカスタマイズするには、次の手順に従います。
+
+1. コンテンツにフラグメントを追加して選択し、右側にプロパティパネルを開きます。
+
+1. フラグメント内の編集可能なフィールドはすべて **設定** タブの下 **フラグメント** セクション。
+
+   編集可能なフィールドは、右側のパネルで選択されると、プレビューウィンドウで緑でハイライト表示され、コンテンツ内の場所を簡単に特定できます。
+
+   次の例では、画像 **ソース** および **代替テキスト** 「ここをクリック」ボタンと同様に編集することができます **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## 継承を解除 {#break-inheritance}
 

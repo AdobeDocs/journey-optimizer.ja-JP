@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 62%
+source-wordcount: '750'
+ht-degree: 51%
 
 ---
 
@@ -69,6 +69,22 @@ ht-degree: 62%
 >[!NOTE]
 >
 >複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、[SMS](../sms/send-sms.md) または[プッシュ](../push/send-push.md)メッセージを送信する前に必ずテストしてください。
+
+## 編集可能フィールドのカスタマイズ {#customize-fields}
+
+式フラグメントの特定の部分が変数を使用して編集可能になっている場合は、特定の構文を使用してデフォルト値を上書きできます。 [フラグメントをカスタマイズ可能にする方法を学ぶ](../content-management/customizable-fragments.md)
+
+フィールドをカスタマイズするには、次の手順に従います。
+
+1. からコードにフラグメントを挿入します。 **フラグメント** メニュー。
+
+1. の使用 `<fieldId>="<value>"` 変数のデフォルト値を上書きする構文の最後にあるコードです。
+
+   次の例では、ID が「sports」である変数の値を「yoga」値で上書きしています。 これにより、「sport」変数が参照されているすべてのフラグメントコンテンツに「yoga」が表示されます。
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+メールの作成時に編集可能なフィールドを式フラグメントに追加し、その値を上書きする方法を示す例は、で入手できます。 [この節](../content-management/customizable-fragments.md#example).
 
 ## 継承を解除 {#break-inheritance}
 

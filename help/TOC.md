@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1849'
 ht-degree: 98%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 98%
       + [フラグメントの基本を学ぶ](using/content-management/fragments.md)
       + [フラグメントを作成](using/content-management/create-fragments.md)
       + [既存のコンテンツをフラグメントとして保存](using/content-management/save-fragments.md)
+      + [カスタマイズ可能なフラグメント](using/content-management/customizable-fragments.md)
       + [フラグメントを管理](using/content-management/manage-fragments.md)
    + 動的コンテンツ {#dynamic}
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
