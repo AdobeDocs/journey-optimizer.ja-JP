@@ -7,10 +7,11 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 topic: Content Management
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: fdfdafbecf938c300a866bdf95a8ac6492fbdcb8
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 36%
+ht-degree: 92%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 36%
 
 **以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2024 年 6 月先行リリースノート {#e-2024}
+## 2024年6月先行リリースノート {#e-2024}
 
-**リリース日**:2024 年 6 月 18～19 日
+**リリース日**：2024年6月18～19日（PT）
 
 ### 新機能 {#e-features}
 
@@ -37,7 +38,7 @@ ht-degree: 36%
 <tbody>
 <tr>
 <td>
-<p>新しい IP アドレスでメールを送信している場合に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。 Adobe Journey Optimizerは、最適な配信品質を得るためのベストプラクティスに従って IP アドレスをウォームアップする、標準化された効率的な方法を提供します。</p>
+<p>新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -65,7 +66,7 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Journey Optimizerの AI アシスタント</strong><br/></th>
+<th><strong>Adobe Journey Optimizer の AI アシスタント</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -151,7 +152,7 @@ ht-degree: 36%
 
 **意思決定管理**
 
-* **意思決定管理でのマルチルールのサポート**  – 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。 これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* **意思決定管理でのマルチルールのサポート** - 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -165,17 +166,17 @@ ht-degree: 36%
 
 **ジャーニー**
 
-* ジャーニーのグローバルタイムアウトが 30 日から 91 日に増えました。
-* Adobe Journey Optimizerは、プライバシーの削除/アクセスリクエストと、データライフサイクル管理リクエストをサポートするようになりました。
+* ジャーニーのグローバルタイムアウトが 30 日から 91 日に延長されました。
+* Adobe Journey Optimizer は、プライバシーの削除／アクセスリクエストと、データライフサイクル管理リクエストもサポートするようになりました。
 * ジャーニーインベントリの列のサイズを変更できるようになりました。
-* **イベント設定の高度な式エディター** 一般提供を開始 – イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../event/about-creating.md)-->
-* **結合ポリシー** 一般提供を開始 – ジャーニーで使用される結合ポリシーが、ジャーニー全体を通して表示され一貫性を持つようになりました。 この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* **イベント設定の高度な式エディター**（GA）- イベントを設定する際に高度な式エディターを活用できるようになり、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../event/about-creating.md)-->
+* **結合ポリシー**（GA）- ジャーニーで使用される結合ポリシーがジャーニー全体で表示され、一貫性が保たれるようになりました。この機能は、一部のお客様を対象に限定提供でリリースされています。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
 **キャンペーン**
 
-* Adobe Journey Optimizerでキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。
+* Adobe Journey Optimizer でキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。
 
 <!--**Email channel**
 
@@ -184,7 +185,7 @@ ht-degree: 36%
 
 **SMS チャネル**
 
-* 単一の API 設定で、各サンドボックスに一意のショートコードを追加できるようになり、プロセスの効率と合理化が向上しました。
+* 1 回の API 設定で各サンドボックスに一意のショートコードを追加できるようになりました。これにより、プロセスが合理化され、効率が上がります。
   <!--* You can now modify existing SMS configurations.-->
 
 **アプリ内チャネル**
@@ -192,6 +193,4 @@ ht-degree: 36%
 * **式フラグメント**  – 式フラグメントを **アプリ内チャネル**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
-* これで、エッジ配信プラグインを使用して、インバウンド実装を理解し、トラブルシューティングするために必要な情報を取得できます。
-
-
+* これで、Edge Delivery プラグインを使用して、インバウンド実装を理解し、トラブルシューティングに必要な情報を取得できます。
