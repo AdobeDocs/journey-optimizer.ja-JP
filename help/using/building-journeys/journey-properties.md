@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー，設定，プロパティ
-source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
+source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1568'
 ht-degree: 41%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 41%
 >
 >ライブジャーニーの場合、この画面には、ジャーニーを公開した日付とユーザーの名前のみが表示されます。
 
-「**技術的な詳細をコピー**」を使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。次の情報がコピーされます。 `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, &#39;lastDeployedAt.
+「**技術的な詳細をコピー**」を使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。次の情報がコピーされます。 `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 
 ## エントリと再エントリ {#entrance}
