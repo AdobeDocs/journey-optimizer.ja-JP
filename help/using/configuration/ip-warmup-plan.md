@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 100%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ IP ウォームアッププランを [!DNL Journey Optimizer] インターフェ
 
 * この計画は 6 つの&#x200B;**フェーズ**&#x200B;を通じて実行され、各フェーズには少なくとも 1 回の実行が含まれます。
 
-* 配信先のドメインに必要な数の列を含めることができます。この例では、計画は次の 6 つの列に分割されます。
+* 最大 6 列（ドメイングループの場合は 5 列、ドメイングループの場合は 1 列）を持つことができます **その他** 列）に含まれます。 この例では、計画は次の 6 つの列に分割されます。
 
    * そのうち 4 列は&#x200B;**標準のドメイングループ**&#x200B;を対応し、プランに使用します（Gmail、Microsoft、Yahoo、Orange）。
    * 1 列は、カスタムドメイングループに対応します（このグループを「[カスタムドメイングループ](#custom-domain-group-tab)」タブを使用して追加する必要があります）。
@@ -202,7 +202,7 @@ mac.com、icloud.com、apple.com、me.com
 
 「**[!UICONTROL カスタムドメイングループ]**」タブをクリックして、新しいドメイングループを定義します。各ドメインに対して、対象となるすべてのサブドメインを追加できます。<!--TBC-->
 
-各ドメインがそのドメイングループに固有であり、他のドメイングループと重複していないことを確認します。グローバルドメイングループは自動的に定義されるので、ユーザーはカスタムドメイングループを作成する際にこれを考慮する必要があります。
+この計画で使用するドメイン グループについては、各ドメインがドメイン グループに固有であり、他のドメイン グループと重複していないことを確認してください。 グローバルドメイングループは自動的に定義されるので、ユーザーはカスタムドメイングループを作成する際にこれを考慮する必要があります。
 
 例えば、カスタムドメイン Luma を追加する場合、サブドメイン（luma.com、luma.co.uk、luma.it、luma.fr、luma.de など）を含めます。
 
@@ -215,7 +215,7 @@ mac.com、icloud.com、apple.com、me.com
 * 1 つは Hotmail ドメイン専用です。
 * もう 1 つは、ドメイングループ Microsoft からの他のすべてのドメイン用です（したがって、すべての Hotmail ドメインを除く）。
 
-その他のすべてのドメインは、**[!UICONTROL その他]**&#x200B;列に集められます。
+Hotmail 以外のドメインと、ドメイン グループ Microsoftのドメインは、 **[!UICONTROL その他]** 列。
 
 1. 「**[!UICONTROL カスタムドメイングループ]**」タブで、**Hotmail** ドメイングループを作成します。
 
@@ -234,10 +234,6 @@ mac.com、icloud.com、apple.com、me.com
 1. 3 列を作成します。1 列は、**Hotmail** 用に、もう 1 列は、**Microsoft_X** 用に、そしてもう 1 列は、**その他**&#x200B;用に作成します。
 
 1. 必要に応じて、列に入力します。
-
->[!NOTE]
->
->IP ウォームアッププランが [!DNL Journey Optimizer] にアップロードされると、Microsoft ドメイングループを除外する必要はありません。
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 

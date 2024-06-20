@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 100%
+source-wordcount: '2558'
+ht-degree: 90%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="キャンペーンオーディエンスの除外"
->abstract="現在のフェーズからオーディエンスを除外するキャンペーンを選択します。これは、他のフェーズや他の IP ウォームアッププランから以前にコンタクトされたプロファイルが、再びターゲットにされるのを防ぐためです。"
+>abstract="現在のフェーズからオーディエンスを除外するキャンペーンを選択します。これにより、以前にコンタクトしたプロファイルが再度ターゲットになることを防ぎます。ジャーニーを介してコミュニケーションを受け取ったプロファイルのみが除外されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -60,7 +60,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-1. フェーズごとに、IP ウォームアッププランのこのフェーズに関連付けるキャンペーンを選択します。
+1. IP ウォームアッププランの第 1 段階に関連付けるキャンペーンを選択します。
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* 「**[!UICONTROL IP ウォームアッププランのアクティベーション]**」オプションが有効になっているキャンペーンのみを選択できます。[詳細情報](#create-ip-warmup-campaign)
    >
-   >* 現在の IP ウォームアッププランで選択したものと同じサーフェスを使用するキャンペーンを選択する必要があります。
+   >* 選択した IP ウォームアッププランと同じサーフェスを使用するキャンペーンのみを選択できます。
 
 1. 現在のフェーズでキャンペーンを選択すると、プロファイル、キャンペーンオーディエンス、ドメイングループを除外するセクションが表示されます。
 
@@ -84,7 +84,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >ドメインの除外には実行されないフェーズが必要なので、場合によっては、[実行フェーズを分割](#split-phase)して除外を追加する必要があります。
+      >ドメインの除外には未実行のフェーズが必要なので、次が必要になる場合があります。 [実行中のフェーズを分割](#split-phase) 除外を追加します。
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -117,7 +117,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >このセクションは編集できません。
 
-1. 必要に応じて、「**[!UICONTROL 置換]**」ボタンを使用してキャンペーンを置き換えることができます。また、「**[!UICONTROL クリア]**」ボタンを使用して、選択したキャンペーンをクリアすることもできます。その後、新しいキャンペーンをすぐに選択することも、後で選択することもできます。
+1. 必要に応じて、「**[!UICONTROL 置換]**」ボタンを使用してキャンペーンを置き換えることができます。以下の手順でも可能です **[!UICONTROL 消去]** を使用した選択したキャンペーン **[!UICONTROL 消去]** ボタン。 この操作を実行すると、キャンペーンがクリアされるだけでなく、ドメイングループの除外、キャンペーン、ジャーニーの除外など、その他のフェーズレベルのプロパティもクリアされます。 クリア後、すぐに新しいキャンペーンを選択することも、後で選択することもできます。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -125,7 +125,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >このアクションは、フェーズの最初の実行をアクティブ化する前にのみ可能です。実行をアクティブ化すると、新しいフェーズに[実行を分割](#split-phase)しない限り、キャンペーンを置き換えることはできません。
 
-1. 必要に応じて、フェーズを追加できます。現在の最終フェーズの後に追加されます。
+1. 必要に応じて、フェーズを追加できます。これは、最後のフェーズの後に追加されます。
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
@@ -236,9 +236,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * フェーズの最初の実行をアクティブ化する場合：
 
-   * [オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"}は、除外されたキャンペーンオーディエンス（存在する場合）に対して、`<warmupName>_Phase<phaseNo>-Audience Exclusion` という命名規則で作成されます。
+   * [オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"}は、除外されたキャンペーンオーディエンス（存在する場合）に対して、`<warmupName>-Phase<phaseNo>-Audience Exclusion ` という命名規則で作成されます。
 
-   * 除外されたドメイングループ（存在する場合）に対してオーディエンスが、`<warmupName>_Phase<phaseNo>-Domain Exclusion` という命名規則で作成されます。
+   * 除外されたドメイングループ（存在する場合）に対してオーディエンスが、`<warmupName>-Phase<phaseNo>-Domain Exclusion` という命名規則で作成されます。
 
    * 除外されたジャーニーオーディエンス（存在する場合）に対して別のオーディエンスが、`<warmupName>-Phase<phaseNo>-Journey Audience Exclusion` という命名規則で作成されます。
 
@@ -246,11 +246,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
   >
   >ウォームアッププランが完了とマークされた後、オーディエンスはクリーンアップされます。
   >
-  >後のフェーズで除外されたキャンペーンオーディエンスまたはドメイングループに変更がない場合、システムは新しいオーディエンスを作成しません。
+  >除外されたキャンペーンオーディエンス、除外されたジャーニーオーディエンスまたは後続のフェーズのドメイングループに変更がない場合、システムでは新しいオーディエンスを作成しません。
 
 * 任意の実行をアクティブ化する場合：
 
-   * 最後のエンゲージメントフィルターに対して別のオーディエンスが、`<warmupName>_Phase<phaseNo>_Run<runNo>-Engagement Filter` という命名規則で作成されます。
+   * 最後のエンゲージメントフィルターに対して別のオーディエンスが、`<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter` という命名規則で作成されます。
 
      >[!NOTE]
      >
@@ -298,9 +298,9 @@ IP ウォームアッププラン自体は、1 か所で統合レポートとし
 
 * **[!UICONTROL ドラフト]**：「[新しいプランを作成](ip-warmup-plan.md)」する際、またはユーザーインターフェイスから「[実行を追加](#define-runs)」する際、実行が作成されるたびに、その実行は&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスになります。
 * **[!UICONTROL ライブ]**：実行をアクティブ化するたびに、**[!UICONTROL ライブ]**&#x200B;ステータスが取得されます。つまり、送信が開始されたのではなく、実行スケジュールのリクエストをシステムが受け入れます。この段階で、テーブル内の「**[!UICONTROL ステータスを表示]**」ボタンをクリックすると、ライブ実行のステータスを確認できます。これにより、実際に認定された適格なプロファイルの数を追跡できます。
-* **[!UICONTROL 完了]**：この実行のキャンペーンの実行が完了しました。テーブル内の「**[!UICONTROL レポートを表示]**」ボタンをクリックすると、詳細な実行レポートにアクセスできます。このオプションを使用すると、監視を強化するためにドメイングループに固有の分類を含む、実行のメール配信ステータスを追跡できます。[詳細情報](#reports)
-* **[!UICONTROL キャンセル]**：**[!UICONTROL ライブ]**&#x200B;実行が「**[!UICONTROL 停止]**」ボタンを使用してキャンセルされたか、「**[!UICONTROL エラーが発生した場合にアクティブ化された実行をキャンセル]**」オプションを有効にしてエラーが発生しました。[詳細情報](#define-runs)
-* **[!UICONTROL 失敗]**：システムでエラーが発生したか、現在のフェーズで使用されているキャンペーンが停止されました。実行が失敗した場合は、別の実行を次の日にスケジュールできます。
+* **[!UICONTROL 完了]**：この実行のキャンペーンの実行が完了しました。テーブル内の「**[!UICONTROL レポートを表示]**」ボタンをクリックすると、詳細な実行レポートにアクセスできます。このオプションを使用すると、監視を強化するためにドメイングループに固有の分類を含む、実行のメール配信ステータスを追跡できます。関連付けられたキャンペーンは、停止済みとして設定されます。[詳細情報](#reports)
+* **[!UICONTROL キャンセル済み]**:a **[!UICONTROL ライブ]** の実行はを使用してキャンセルされました **[!UICONTROL キャンセル]** ボタン。[詳細情報](#define-runs)
+* **[!UICONTROL 失敗]**：エラーがシステムで発生したか、現在のフェーズで使用されるキャンペーンが停止されたか、有効になりました **[!UICONTROL エラーが発生した場合はアクティブ化された実行をキャンセル]** オプションとエラーが発生しました。 実行が失敗した場合は、別の実行を次の日にスケジュールできます。
 
 ### レポートを使用 {#reports}
 
@@ -363,7 +363,7 @@ IP ウォームアッププランが期待どおりに実行されない場合�
 
 ### プランを完了済みとしてマーク {#mark-as-completed}
 
-プランのパフォーマンスが不十分な場合や、プランを削除して別のプランを作成する場合は、プランを完了とマークできます。
+IP が目的の量でウォームアップされた場合、またはプランのパフォーマンスが十分でない場合、またはプランを削除して別のプランを作成したい場合は、完了としてマークできます。
 
 これを行うには、IP ウォームアッププランの右上にある「**[!UICONTROL その他]**」ボタンをクリックして、「**[!UICONTROL 完了済みとしてマーク]**」を選択します。
 
