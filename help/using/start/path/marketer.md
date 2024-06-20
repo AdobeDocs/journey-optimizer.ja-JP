@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
    * イベント、Adobe Experience Platform の情報、サードパーティの API サービスのデータなどの&#x200B;**コンテキストデータ**&#x200B;を活用できます。
 
-   * **組み込みのチャネルアクション**（メール、SMS、プッシュ）を使用して [!DNL Journey Optimizer] でデザインしたメッセージを送信したり、サードパーティのシステムを使用している場合は&#x200B;**カスタムアクション**&#x200B;を作成してメッセージを送信したりできます。
+   * の使用 **組み込みのチャネルアクション** （メール、SMS、プッシュ、アプリ内）で設計されたメッセージを送信 [!DNL Journey Optimizer] または作成 **カスタムアクション** サードパーティのシステムを使用してメッセージを送信している場合。
 
    * **ジャーニーデザイナー**&#x200B;を使用すると、エントリイベントや「オーディエンスを読み取り」アクティビティを簡単にドラッグ＆ドロップし、条件を追加して、パーソナライズされたメッセージを送信するなど、複数のステップから成るユースケースを作成できます。
 

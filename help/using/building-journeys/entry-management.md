@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 98%
@@ -36,12 +36,12 @@ ht-degree: 98%
 
 * 再エントリが有効な場合、プロファイルはジャーニーに複数回エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。
 
-* 再エントリが無効な場合、プロファイルはグローバルジャーニータイムアウト期間内に同じジャーニーに複数回エントリできません。この[節](../building-journeys/journey-gs.md#global_timeout)を参照してください。
+* 再エントリが無効な場合、プロファイルはグローバルジャーニータイムアウト期間内に同じジャーニーに複数回エントリできません。この[節](../building-journeys/journey-properties.md#global_timeout)を参照してください。
 
-デフォルトでは、ジャーニーで再エントリが許可されています。「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。期間は最大 91 日（[デフォルトのタイムアウト](journey-gs.md#global_timeout)）に設定します。
+デフォルトでは、ジャーニーで再エントリが許可されています。「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。期間は最大 91 日（[グローバルタイムアウト](journey-properties.md#global_timeout)）に設定します。
 
 <!--
-When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
+When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
 ![](assets/journey-re-entrance.png)

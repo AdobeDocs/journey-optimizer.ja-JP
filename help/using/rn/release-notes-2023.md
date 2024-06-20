@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4394'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 100%
 * 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。この改善は、待機時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。これは、以下に適用されます。
 
    * [待機アクティビティ](../building-journeys/wait-activity.md)の「**時間**」フィールド
-   * [ジャーニープロパティ](../building-journeys/journey-gs.md#entrance)の&#x200B;**再エントリ待機期間**
+   * [ジャーニープロパティ](../building-journeys/journey-properties.md#entrance)の&#x200B;**再エントリ待機期間**
    * [イベントアクティビティ](../building-journeys/general-events.md#events-specific-time)のタイムアウト定義の「**待機**」フィールド。
 
 <!--
@@ -200,7 +200,7 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* ジャーニーを複製する際に、ジャーニーのコピーの名前を定義できるようになりました。[詳細情報]（../building-journeys/journey-gs.md#uplicate-a-journey
+* ジャーニーを複製する際に、ジャーニーのコピーの名前を定義できるようになりました。[詳細情報](../building-journeys/journey-gs.md#duplicate-a-journey)
 
 * カスタムアクション応答のサポートは、現在一般提供（GA）されています。この機能により、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。また、カスタムアクションの呼び出しを自動的に制限する[新しいキャッピングガードレール](../start/guardrails.md#custom-actions-g)が追加されました。[詳細情報](../action/action-response.md)
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-gs.md#entrance)
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-properties.md#entrance)
 
 * **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。**オーディエンスを読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
 

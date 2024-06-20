@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
@@ -48,7 +48,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 ![](assets/journey39.png)
 
-カンバスの右上隅にある&#x200B;**ツールバー**&#x200B;を使用すると、グリッドの表示／非表示、ズームイン／ズームアウト、キャンバスのスクリーンショットのダウンロードを行うことができます。この[節](../building-journeys/journey-gs.md#timeout_and_error)を参照してください。
+カンバスの右上隅にある&#x200B;**ツールバー**&#x200B;を使用すると、グリッドの表示／非表示、ズームイン／ズームアウト、キャンバスのスクリーンショットのダウンロードを行うことができます。この[節](../building-journeys/journey-properties.md#timeout_and_error)を参照してください。
 
 <!--and show/hide timeout and error paths-->
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 **[!UICONTROL 条件]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;のジャーニーアクティビティで、エラーやタイムアウトが発生した場合の代替アクションを定義できます。
 
-アクティビティに代替アクションを追加するには、アクティビティプロパティで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスを選択します。アクティビティの後に別のパスが追加されます。タイムアウト時間は、管理者ユーザーが[ジャーニーのプロパティ](../building-journeys/journey-gs.md#change-properties)で定義します。例えば、メールの送信にかかる時間が長すぎたり、エラーが発生した場合にプッシュ通知の送信を決定できます。
+アクティビティに代替アクションを追加するには、アクティビティプロパティで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスを選択します。アクティビティの後に別のパスが追加されます。タイムアウト時間は、管理者ユーザーが[ジャーニーのプロパティ](../building-journeys/journey-properties.md)で定義します。例えば、メールの送信にかかる時間が長すぎたり、エラーが発生した場合にプッシュ通知の送信を決定できます。
 
 ![](assets/journey42.png)
 

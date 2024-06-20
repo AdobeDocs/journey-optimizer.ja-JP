@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ ht-degree: 99%
 ## 2024年6月 {#june-2024}
 
 * に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] 2024 年 6 月リリースについて詳しくは、ドキュメントを参照してください。 [詳細情報](release-notes.md)
-* ジャーニーでの結合ポリシーの使用に関するメモがに追加されました [このページ](../building-journeys/journey-gs.md#merge-policies).
+* ジャーニーでの結合ポリシーの使用に関するメモがに追加されました [このページ](../building-journeys/journey-properties.md#merge-policies).
 * ジャーニーで&#x200B;**待機**&#x200B;アクティビティを設定する方法に関するページが再編成され、改善されました。[詳細情報](../building-journeys/wait-activity.md)
 
 ## 2024年5月 {#may-2024}
@@ -82,7 +82,7 @@ ht-degree: 99%
 
 * [!DNL Journey Optimizer] の 2024年1月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * ジャーニーサイズに関するガードレールが追加されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-* ジャーニーのタイムアウト管理について詳しくは、[次の節](../building-journeys/journey-gs.md#global_timeout)を参照してください。
+* ジャーニーのタイムアウト管理について詳しくは、[次の節](../building-journeys/journey-properties.md#global_timeout)を参照してください。
 * Journey Optimizer [ドキュメントのホーム](../../ajo-home.md)ページのデザインが刷新されました。
 * プロファイルを更新アクティビティに関するレコメンデーションが追加されました。[詳細情報](../building-journeys/update-profiles.md)
 * ジャーニーのイベントアクティビティのタイムアウトの動作に関する情報が追加されました。指定したタイムアウト期間中にイベントが受信されなかった場合、タイムアウトパスが定義されていない限り、個人はジャーニーを続行します。[詳細情報](../building-journeys/general-events.md#events-specific-time)

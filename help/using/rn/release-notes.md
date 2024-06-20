@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 60%
@@ -183,15 +183,15 @@ ht-degree: 60%
 
 **ジャーニー**
 
-* ジャーニーのグローバルタイムアウトが 91 日に拡張されました。 [詳細情報](../building-journeys/journey-gs.md#global_timeout)
+* ジャーニーのグローバルタイムアウトが 91 日に拡張されました。 [詳細情報](../building-journeys/journey-properties.md#global_timeout)
 
-  作成された新規ジャーニーには、この新しいタイムアウトが反映されます。 こちらを参照してください [FAQ セクション](../building-journeys/journey-gs.md#timeout-faq) を参照してください。 これらの変更は、6 月中に徐々に展開されることに注意してください。
+  作成された新規ジャーニーには、この新しいタイムアウトが反映されます。 こちらを参照してください [FAQ セクション](../building-journeys/journey-properties.md#timeout-faq) を参照してください。 これらの変更は、6 月中に徐々に展開されることに注意してください。
 
 
 * Adobe Journey Optimizerは、プライバシーの削除/アクセスリクエストと、データライフサイクル管理リクエストをサポートするようになりました。 [詳細情報](../privacy/requests.md)
 * ジャーニーインベントリの列のサイズを変更できるようになりました。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **結合ポリシー**（GA）- ジャーニーで使用される結合ポリシーがジャーニー全体で表示され、一貫性が保たれるようになりました。[詳細情報](../building-journeys/journey-gs.md#merge-policies)
+* **結合ポリシー**（GA）- ジャーニーで使用される結合ポリシーがジャーニー全体で表示され、一貫性が保たれるようになりました。[詳細情報](../building-journeys/journey-properties.md#merge-policies)
 
 
 
