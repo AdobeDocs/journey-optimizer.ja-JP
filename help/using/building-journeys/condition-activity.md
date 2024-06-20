@@ -10,9 +10,9 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1466'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。 [このページ](expression/expressionadvanced.md)を参照してください。
+>単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。[このページ](expression/expressionadvanced.md)を参照してください。
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーは停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 

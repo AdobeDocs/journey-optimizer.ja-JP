@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 07c453366280b21f5546322430a90752fd996099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1157'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 79%
   >
   >AEP Web SDK のバージョンが 2.16 以降であることを確認します。
 
-* ハイブリッドモード - [AEP Edge Networkサーバー API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} パーソナライゼーションをサーバーサイドでリクエストします。応答はAdobe Experience Platform Web SDK に提供され、変更をクライアントサイドでレンダリングします。 詳しくは、Adobe Experience Platformを参照してください。 [Edge Networkサーバー API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}. ハイブリッドモードについて詳しくは、を参照し、いくつかの実装サンプルを確認してください。 [このブログ投稿](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* ハイブリッドモード - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用して、サーバーサイドでパーソナライゼーションをリクエストできます。応答は Adobe Experience Platform Web SDK に提供され、クライアントサイドで変更がレンダリングされます。詳しくは、Adobe Experience Platform [Edge Network Server API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}を参照してください。ハイブリッドモードの詳細と実装サンプルについて詳しくは、[このブログ投稿](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -91,9 +91,9 @@ Visual Editing Helper のブラウザー拡張機能をダウンロードして�
 >
 >次のいずれかの理由により、[!DNL Journey Optimizer] Web Designer で一部の web サイトが正しく開けない場合があります。
 >
-> * Web サイトには、厳密なセキュリティポリシーがあります。
-> * Web サイトは iframe 内にあります。
-> * 顧客の QA またはステージサイトが外部から利用できません（サイトは内部）。
+> * Web サイトに厳格なセキュリティポリシーがある。
+> * Web サイトが iframe 内にある。
+> * 顧客の QA またはステージサイトが外部から利用できない（サイトは内部）。
 
 ### Web サイトが読み込まれない場合のトラブルシューティング {#troubleshooting}
 
@@ -119,17 +119,17 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* 対象： [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を使用する場合は、で 1 つの結合ポリシーがあることを確認します。 **[!UICONTROL アクティブオンエッジ結合ポリシー]** 有効なオプション。 これを行うには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}で、「**[!UICONTROL Active-On-Edge 結合ポリシー]**」オプションが有効になっている結合ポリシーが 1 つあることを確認します。これを行うには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
 
-* Journey Optimizer web エクスペリエンスの配信のトラブルシューティングを行うには、を使用できます。 **エッジ配信** 内で表示 **Adobe Experience Platform Assurance**. このプラグインを使用すると、リクエスト呼び出しを詳細に調べ、期待されるエッジ呼び出しが予想どおりに発生するかどうかを確認し、ID マップ、セグメントメンバーシップ、同意設定を含むプロファイルデータを調べることができます。 さらに、リクエストが認定されたアクティビティを確認し、認定されなかったアクティビティを特定することもできます。
+* Journey Optimizer web エクスペリエンスの配信に関するトラブルシューティングを行うには、**Adobe Experience Platform Assurance** 内の **Edge Delivery** ビューを使用できます。このプラグインを使用すると、リクエスト呼び出しを詳細に検査し、期待されるエッジ呼び出しが予想どおりに発生するかどうかを確認し、ID マップ、セグメントメンバーシップ、同意設定などのプロファイルデータを調べることができます。また、リクエストが認定されたアクティビティを確認し、認定されなかったアクティビティを特定することもできます。
 
-  使用， **エッジ配信** プラグインは、インバウンド実装を効果的に理解し、トラブルシューティングを行うために必要なインサイトを得るのに役立ちます。
+  **Edge Delivery** プラグインを使用すると、インバウンド実装を効果的に理解してトラブルシューティングを行うために必要なインサイトを得ることができます。
 
-  [エッジ配信ビューの詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [Edge Delivery ビューについて詳しくはこちらを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
 ## コンテンツ実験の前提条件 {#experiment-prerequisites}
 
@@ -143,7 +143,7 @@ Web チャネルのコンテンツ実験を有効にするには、web 実装[�
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
-次の場合： **ではない** 次の事前定義済みを使用 [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} データセットスキーマの場合： `AEP Web SDK ExperienceEvent` および `Consumer Experience Event` （で定義） [このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}）を選択します。必ず次のフィールドグループを追加します。 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`、および `Web Details`. これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
+データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
 
 >[!NOTE]
 >
