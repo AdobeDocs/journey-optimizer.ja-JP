@@ -10,7 +10,7 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限定提供" type="Informative"
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 77%
@@ -30,6 +30,7 @@ Journey Optimizer を使用すると、次の 2 つの異なる方法で多言�
 * **手動翻訳**：メールデザイナーでコンテンツを直接翻訳するか、既存の多言語コンテンツを読み込みます。[詳細情報](multilingual-manual.md)
 
 * **自動翻訳**：自動翻訳用にコンテンツを優先言語プロバイダーに送信します。[詳細情報](multilingual-automated.md)
+
 
 </br>
 
