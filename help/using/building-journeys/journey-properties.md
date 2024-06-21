@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー，設定，プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 40%
+source-wordcount: '1722'
+ht-degree: 38%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="再エントリを許可"
->abstract="デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。"
+>abstract="デフォルトでは、新規ジャーニーで再エントリが許可されています。「」チェックボックスをオフにできます **再エントリを許可** オプション例えば、入店時に 1 回限りのギフトをオファーする場合に使用します。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
 
 デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。
@@ -107,7 +107,7 @@ ht-degree: 40%
 ### ジャーニーアクティビティのタイムアウトまたはエラー {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="タイムアウト"
 >abstract="タイムアウトと見なす前に、ジャーニーがアクションの実行または条件の検証を試行する時間を定義します。"
 
