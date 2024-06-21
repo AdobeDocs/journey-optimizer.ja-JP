@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2415'
-ht-degree: 100%
+source-wordcount: '2532'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 以下で詳しく説明するように、チャネルサーフェス設定の専用セクションでメール設定を定義します。
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 メールサーフェスの設定は、次のロジックに従って、通信を送信するためにピックアップされます。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 サーフェスに関連付ける IP プールを選択します。[詳細情報](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 選択した IP プールが[編集中](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 処理中]**&#x200B;ステータス）となっており、選択したサブドメインに関連付けられていない場合は、サーフェスの作成を続行できません。それ以外の場合は、IP プール／サブドメインの関連付けの最も古いバージョンが引き続き使用されます。その場合は、サーフェスをドラフトとして保存し、IP プールが&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスになったら再試行します。
 
@@ -81,41 +81,48 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 >
 >PTR レコードが設定されていない場合は、アドビ担当者に問い合わせてください。
 
-## リストの登録解除 {#list-unsubscribe}
+## リスト登録解除ヘッダー{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 リストから[サブドメインを選択](#subdomains-and-ip-pools)すると、「**[!UICONTROL List-Unsubscribe を有効にする]**」オプションが表示されます。
 
-このオプションはデフォルトで有効になっています。有効にしたままにすると、次のような登録解除リンクがメールヘッダーに自動的に含まれます。
+このオプションはデフォルトで有効になっており、次のようなワンクリック購読解除 URL をメールヘッダーに含めることができます。
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-このオプションを無効にした場合、メールヘッダーに登録解除リンクは表示されません。
+このオプションを無効にした場合、電子メールヘッダーにワンクリック購読解除 URL が表示されません。
 
-**同意レベル**&#x200B;ドロップダウンリストから同意レベルを選択できます。チャネルまたはプロファイル ID に固有のものにすることができます。この設定に基づいて、ユーザーがメールのリスト登録解除ヘッダーリンクを使用して登録解除ると、Adobe Journey Optimizer においてチャネルレベルまたは ID レベルで同意が更新されます。
+**[!UICONTROL 同意レベル]**&#x200B;ドロップダウンリストから同意レベルを選択できます。チャネルまたはプロファイル ID に固有のものにすることができます。この設定に基づいて、ユーザーがメールのヘッダーでリスト登録解除 URL を使用して登録解除すると、Adobe Journey Optimizerの同意がチャネルレベルまたは ID レベルで更新されます。
 
-登録解除リンクは、次の 2 つの要素で構成されます。
+リスト購読解除ヘッダーには、2 つの機能（以下で説明するように宛先とワンクリック購読解除 URL）があり、どちらか一方または両方の機能をオフにしない限り、デフォルトで有効になります。
 
-* すべての登録解除リクエストの送信先となる&#x200B;**登録解除メールアドレス**。
+* A **宛先（購読解除）** アドレス：登録解除リクエストが自動処理のためにルーティングされる宛先アドレスです。
 
-  [!DNL Journey Optimizer] の場合、登録解除のメールアドレスは、[選択したサブドメイン](#subdomains-and-ip-pools)に基づいてチャネルサーフェスに表示されるデフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。
+  Journey Optimizerでは、登録解除のメールアドレスがデフォルトです **宛先（購読解除）** チャネルサーフェスに表示されるアドレス（に基づく） [選択したサブドメイン](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* 購読解除後にユーザーがリダイレクトされるランディングページの URL である&#x200B;**登録解除 URL**。
 
-  [ワンクリックオプトアウトリンク](../privacy/opt-out.md#one-click-opt-out)をこのサーフェスを使用して作成されたメッセージに加える場合、登録解除 URL は、ワンクリックオプトアウトリンク用に定義された URL になります。
+* この **ワンクリック購読解除 URL**&#x200B;は、チャネルサーフェス設定で設定および指定したサブドメインに基づいて、デフォルトでワンクリックオプトインとして URL 生成されたリスト登録解除ヘッダーです。
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >メッセージコンテンツにワンクリックオプトアウトリンクを追加しない場合、ユーザーにランディングページは表示されません。
+この **[!UICONTROL 宛先（購読解除）]** 機能と **[!UICONTROL ワンクリック登録解除 URL]** 機能はオプションです。 デフォルトで生成されるワンクリック購読解除 URL を使用しない場合は、この機能のチェックを外すことができます。 以下のシナリオの場合、 **[!UICONTROL オプトアウト設定]** オプションがオンに切り替わり、 **[!UICONTROL ワンクリック登録解除 URL]** を追加すると、この機能はオフになります。 [ワンクリックオプトアウトリンク](../privacy/opt-out.md#one-click-opt-out) このサーフェスを使用して作成されたメッセージに対して、リストの購読解除ヘッダーは、メールの本文に挿入したワンクリックオプトアウトリンクを取得し、それをワンクリック購読解除 URL 値として使用します。
 
-メッセージにヘッダー登録解除リンクを追加する方法について詳しくは、[この節](../privacy/opt-out.md#unsubscribe-header)を参照してください。
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>メッセージコンテンツにワンクリックオプトアウトリンクを追加せず、チャネルサーフェス設定でデフォルトのワンクリック購読解除 URL を選択していない場合、リストの購読解除ヘッダーの一部としてメールヘッダーに渡される URL はありません。
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+メッセージでの購読解除機能の管理について詳しくは、を参照してください。 [この節](../email/email-opt-out.md#unsubscribe-header).
 
 ## ヘッダーパラメーター {#email-header}
 

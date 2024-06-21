@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
@@ -45,21 +45,20 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。[方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-  >[!IMPORTANT]
-  >
-  >ただし、CNAME の設定では、ホスティングソリューションに追加のエントリも必要です。したがって、[この節](dmarc-record.md#implement-dmarc)で説明しているアップデートを実行できるように、IT 部門と必ず調整してください。
+  ただし、CNAME の設定では、ホスティングソリューションに追加のエントリも必要です。したがって、[この節](dmarc-record.md#implement-dmarc)で説明しているアップデートを実行できるように、IT 部門と必ず調整してください。
 
-Google と Yahoo! が共有する最新のタイムラインは次のとおりです。
+<!--The most recent timelines shared by Google and Yahoo! are as follows:
 
-* Google：
+* Google:
 
-   * **2024年2月**：コンプライアンス違反の警告を提供するために設計された、一時的なバウンスが開始されます。お客様がまだ準拠していない場合、メールは少し遅れてから通常どおり配信されます。完全に準拠している場合は、一時的なバウンスは発生せず、お客様には何の影響もありません。
+    * **February 2024** – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you will not be affected.
 
-   * **2024年4月** - DMARC 要件に準拠していない送信者に対して、ブロックが開始されます。最初は準拠していないメールの一部のみがブロックされ、時間の経過と共にブロック対象の割合が増加します。
+    * **April 2024** – Blocks will begin for senders who are not in compliance with DMARC requirement. Only a portion of non-compliant email will be blocked at first, with the percentage blocked increasing over time.
 
-   * **2024年6月1日（PT）**：完全に準拠していない送信者はブロックされます。
+    * **June 1st, 2024** – Any sender not in full compliance will experience blocking.
 
-* Yahoo! は、正確な日付を指定していませんが、「適用のロールアウトは 2024年2月に開始します。適用は徐々にロールアウトされます」と発表しています。
+* Yahoo! has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+-->
 
 >[!NOTE]
 >
