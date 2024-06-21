@@ -8,29 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
-hide: true
-hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="限定提供" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 100%
+source-wordcount: '1331'
+ht-degree: 91%
 
 ---
 
 # 自動翻訳を使用した多言語コンテンツの作成 {#multilingual-automated}
 
->[!BEGINSHADEBOX]
-
-**目次**
-
-* [多言語コンテンツの基本を学ぶ](multilingual-gs.md)
-* [手動翻訳を使用した多言語コンテンツの作成](multilingual-manual.md)
-* 自動翻訳を使用した多言語コンテンツの作成
-* [多言語キャンペーンレポート](multilingual-report.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>多言語コンテンツは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 自動フローを使用して、ターゲット言語と言語プロバイダーを簡単に選択できます。その後、コンテンツは翻訳に直接送信され、完了時に最終レビューが行われます。
 
@@ -42,7 +33,7 @@ ht-degree: 100%
 
 1. [言語設定を作成](#create-language-settings).
 
-1. [多言語キャンペーンを作成](#create-a-multilingual-campaign).
+1. [多言語コンテンツの作成](#create-a-multilingual-campaign).
 
 1. [翻訳タスクをレビューします（オプション）](#review-translation-project)。
 
@@ -50,9 +41,7 @@ ht-degree: 100%
 
 [言語設定の作成](#language-settings)の節で説明しているように、言語設定を行う際に、多言語コンテンツに特定のロケールが使用できない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューを使用して必要に応じて新しいロケールを柔軟に作成できます。
 
-1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**&#x200B;にアクセスします。
-
-   翻訳メニューを使用すると、アクティブ化されたロケールのリストにアクセスできます。
+1. から **[!UICONTROL コンテンツ管理]** メニュー，アクセス **[!UICONTROL 翻訳]**.
 
 1. 「**[!UICONTROL ロケール辞書]**」タブから、「**[!UICONTROL ロケールを追加]**」をクリックします。
 
@@ -68,7 +57,7 @@ ht-degree: 100%
 
 コンテンツの特定の言語または地域を示すターゲットロケールを指定して、翻訳プロジェクトを開始します。その後、翻訳プロバイダーを選択できます。
 
-1. **[!UICONTROL コンテンツ管理]**&#x200B;の&#x200B;**[!UICONTROL 翻訳プロジェクト]**&#x200B;メニューから、「**[!UICONTROL プロジェクトを作成]**」をクリックします。
+1. から **[!UICONTROL 翻訳]** の下のメニュー **[!UICONTROL コンテンツ管理]**&#x200B;を選択し、 **[!UICONTROL プロジェクトを作成]** が含まれる **[!UICONTROL プロジェクト]** タブ。
 
    ![](assets/translation_project_1.png)
 
@@ -149,11 +138,11 @@ ht-degree: 100%
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## 多言語キャンペーンを作成 {#create-multilingual-campaign}
+## 多言語コンテンツの作成 {#create-multilingual-campaign}
 
-翻訳プロジェクトと言語の設定を行ったら、キャンペーンを作成し、様々なロケールに対してコンテンツをカスタマイズする準備が整います。
+翻訳プロジェクトと言語設定を指定したら、キャンペーンやジャーニーを作成し、様々なロケール用にコンテンツをカスタマイズする準備が整います。
 
-1. まず、要件に応じて、メール、SMS またはプッシュ通知キャンペーンを作成し、設定します。[詳細情報](../campaigns/create-campaign.md)
+1. まず、メール、SMS またはプッシュ通知を作成して設定します [campaign](../campaigns/create-campaign.md) または [ジャーニー](../building-journeys/journeys-message.md) ご要望に応じて。
 
 1. プライマリコンテンツを作成したら、「**[!UICONTROL 保存]**」をクリックし、キャンペーン設定画面に戻ります。
 
@@ -211,9 +200,7 @@ ht-degree: 100%
 
 1. キャンペーンが正しく設定されていることを確認してから、「**[!UICONTROL アクティブ化]**」をクリックします。
 
-これで、キャンペーンがアクティブ化されました。キャンペーンで設定されたメッセージは、すぐに送信されるか、指定日に送信されます。キャンペーンがライブになるとすぐ、変更できなくなります。コンテンツを再利用するには、キャンペーンを複製します。
-
-送信後は、キャンペーンレポート内でキャンペーンの影響を測定できます。
+これで、キャンペーンまたはジャーニーをアクティブ化できます。 送信後は、レポート内で多言語ジャーニーやキャンペーンの影響を測定できます。
 
 ## 社内翻訳プロジェクトの管理 {#manage-ht-project}
 

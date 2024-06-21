@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '191'
 ht-degree: 100%
 
 ---
 
 # 多言語キャンペーンレポート {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**目次**
-
-* [多言語コンテンツの基本を学ぶ](multilingual-gs.md)
-* [手動翻訳を使用した多言語コンテンツの作成](multilingual-manual.md)
-* [自動翻訳を使用した多言語コンテンツの作成](multilingual-automated.md)
-* 多言語キャンペーンレポート
-
->[!ENDSHADEBOX]
 
 「**全期間**」タブからアクセスできるグローバルレポートには、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントが表示されます。キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 

@@ -8,31 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
-hide: true
-hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="限定提供" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 78%
 
 ---
 
 # 手動翻訳を使用した多言語コンテンツの作成 {#multilingual-manual}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>多言語コンテンツは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
-**目次**
-
-* [多言語コンテンツの基本を学ぶ](multilingual-gs.md)
-* 手動翻訳を使用した多言語コンテンツの作成
-* [自動翻訳を使用した多言語コンテンツの作成](multilingual-automated.md)
-* [多言語キャンペーンレポート](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-手動フローを使用すると、多言語メッセージへの正確な制御とカスタマイズのオプションで、メール、プッシュ通知または SMS キャンペーンに直接コンテンツを簡単に翻訳できます。さらに、「HTML を読み込む」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
+手動フローを使用すると、メール、プッシュ通知、または SMS キャンペーンおよびジャーニーでコンテンツを簡単に直接翻訳でき、多言語メッセージを正確に制御し、カスタマイズするオプションが提供されます。 さらに、「HTML を読み込む」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
 
 手動翻訳を使用して多言語コンテンツを作成するには、次の手順に従います。
 
@@ -40,15 +31,13 @@ ht-degree: 100%
 
 1. [言語設定の作成](#create-language-settings).
 
-1. [多言語キャンペーンを作成](#create-a-multilingual-campaign).
+1. [多言語コンテンツの作成](#create-a-multilingual-campaign).
 
 ## ロケールの作成 {#create-locale}
 
 [言語設定の作成](#language-settings)の節で説明しているように、言語設定を行う際に、多言語コンテンツに特定のロケールが使用できない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューを使用して必要に応じて新しいロケールを柔軟に作成できます。
 
-1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**&#x200B;にアクセスします。
-
-   翻訳メニューを使用すると、アクティブ化されたロケールのリストにアクセスできます。
+1. から **[!UICONTROL コンテンツ管理]** メニュー，アクセス **[!UICONTROL 翻訳]**.
 
 1. 「**[!UICONTROL ロケール辞書]**」タブから、「**[!UICONTROL ロケールを追加]**」をクリックします。
 
@@ -104,15 +93,15 @@ ht-degree: 100%
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## 多言語キャンペーンを作成 {#create-multilingual-campaign}
+## 多言語コンテンツの作成 {#create-multilingual-campaign}
 
-多言語コンテンツを設定したら、キャンペーンを作成し、選択した各ロケールのコンテンツをカスタマイズする準備が整います。
+多言語コンテンツを設定したら、キャンペーンやジャーニーを作成し、選択した各ロケールに合わせてコンテンツをカスタマイズする準備が整います。
 
-1. まず、要件に応じて、メール、SMS またはプッシュ通知キャンペーンを作成し、設定します。[詳細情報](../campaigns/create-campaign.md)
+1. まず、メール、SMS またはプッシュ通知を作成して設定します [campaign](../campaigns/create-campaign.md) または [ジャーニー](../building-journeys/journeys-message.md) ご要望に応じて。
 
-1. **[!UICONTROL アクション]**&#x200B;メニューに移動し、「**[!UICONTROL コンテンツを編集]**」を選択します。
-
-   ![](assets/multilingual-campaign-1.png)
+   >[!AVAILABILITY]
+   >
+   >ジャーニーごとに 1 つの翻訳プロジェクトのみを含めることをお勧めします。
 
 1. 元のコンテンツを作成または読み込み、必要に応じてパーソナライズします。
 
@@ -148,11 +137,7 @@ ht-degree: 100%
 
    ![](assets/multilingual-campaign-8.png)
 
-1. キャンペーンが正しく設定されていることを確認してから、「**[!UICONTROL アクティブ化]**」をクリックします。
-
-これで、キャンペーンがアクティブ化されました。キャンペーンで設定されたメッセージは、すぐに送信されるか、指定日に送信されます。キャンペーンがライブになるとすぐ、変更できなくなります。コンテンツを再利用するには、キャンペーンを複製します。
-
-送信後は、キャンペーンレポート内でキャンペーンの影響を測定できます。
+これで、キャンペーンまたはジャーニーをアクティブ化できます。 送信後は、レポート内で多言語ジャーニーやキャンペーンの影響を測定できます。
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
