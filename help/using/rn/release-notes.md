@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eedefbe48e209d6b5aa3ec60527d9e34ced54644
+source-git-commit: b19bc2774a55df656a0652e6a148873787051c93
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 61%
+source-wordcount: '964'
+ht-degree: 58%
 
 ---
 
@@ -100,44 +100,44 @@ ht-degree: 61%
 <tr>
 <td>
 <p>AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。</p>
-<p>詳しくは、 <a href="../start/ai-assistant.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../start/ai-assistant.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns (Limited Availability)</strong><br/></th>
+<th><strong>ジャーニーとキャンペーンでの多言語メッセージ（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
-<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>1 つのキャンペーンまたはジャーニー内で複数の言語でコンテンツを簡単に作成できるようになりました。 この機能を使用すると、キャンペーンやジャーニーの編集時に言語を切り替えることができ、編集プロセス全体を合理化し、多言語コンテンツを効率的に管理する機能を向上させることができます。</p>
+<p>多言語コンテンツは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+<th><strong>ジャーニーでの実験（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
-<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Adobe Journey Optimizerは、キャンペーンで既に使用可能で、ジャーニーでの実験をサポートするようになりました。 実験はランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別のバリエーションや処理を行うことを意味します。公開後、メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
+<p>ジャーニーの実験は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 
