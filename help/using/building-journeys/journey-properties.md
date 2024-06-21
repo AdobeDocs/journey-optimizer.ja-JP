@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー，設定，プロパティ
-source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 41%
+source-wordcount: '1726'
+ht-degree: 40%
 
 ---
 
@@ -50,9 +51,25 @@ ht-degree: 41%
 
 ## エントリと再エントリ {#entrance}
 
+### 再エントリを許可  {#allow-re-entrance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_entrance"
+>title="再エントリを許可"
+>abstract="デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
+
 デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。
 
- 「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 29 日です。
+### 再エントリ待機期間  {#re-entrance-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_re-entrance_wait"
+>title="再エントリ待機期間"
+>abstract=" 単一のジャーニーでプロファイルがジャーニーに再度エントリできるようにするまでの待機時間を設定します。 これにより、選択した期間、ユーザーがジャーニーに再エントリするのを防ぎます。 最大期間：29 日"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
+
+「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 29 日です。
 
 プロファイルのエントリと再エントリの管理について詳しくは、[この節](entry-management.md)を参照してください。
 
@@ -70,6 +87,17 @@ ht-degree: 41%
 
 ## 開始日と終了日 {#dates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_start_date"
+>title="開始日"
+>abstract="ジャーニーへのエントリを開始できる日付を選択します。 開始日を指定しない場合、公開時に自動的に設定されます。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_end_date"
+>title="終了日"
+>abstract="ジャーニーの終了日を選択します。 その日付に達すると、そのジャーニーのプロファイルは自動的に終了し、新しいプロファイルはエントリできなくなります。"
+
 **開始日**&#x200B;を定義できます。 指定していない場合は、公開時に自動的に定義されます。
 
 **終了日**&#x200B;も追加できます。これにより、日付に達したプロファイルは自動的に終了します。 終了日を指定しない場合、プロファイルは[グローバルジャーニータイムアウト](#global_timeout)（通常は 91 日、Healthcare Shield アドオン機能では 7 日に短縮）まで保持されます。唯一の例外は、「**繰り返し時に再エントリを強制する**」が有効になっている繰り返しの「オーディエンスを読み取り」ジャーニーで、これは次回の実行の開始日に終了します。
@@ -77,6 +105,12 @@ ht-degree: 41%
 ## タイムアウト {#timeout}
 
 ### ジャーニーアクティビティのタイムアウトまたはエラー {#timeout_and_error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_timout"
+>title="タイムアウト"
+>abstract="タイムアウトと見なす前に、ジャーニーがアクションの実行または条件の検証を試行する時間を定義します。"
+
 
 アクションまたは条件のアクティビティを編集するときに、エラーやタイムアウトが発生した場合の代替パスを定義できます。サードパーティシステムに照会するアクティビティの処理が、で定義されたタイムアウト時間を超えた場合 **[!UICONTROL タイムアウトまたはエラー]** ジャーニーのプロパティのフィールドである 2 番目のパスが、潜在的なフォールバックアクションを実行するために選択されます。
 
@@ -221,4 +255,3 @@ Adobe Journey Optimizerの 2024 年 6 月のリリースより、ジャーニー
 ジャーニーでは、ジャーニー全体を通して使用される結合ポリシーに従います。 したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（「inAudience」関数など）、ジャーニーで使用されている結合ポリシーとの不一致が発生すると、エラーが発生し、公開がブロックされます。 ただし、一貫性のないオーディエンスがメッセージのパーソナライゼーションで使用された場合は、一貫性がないにもかかわらず、アラートは発生しません。 そのため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられている結合ポリシーを確認することを強くお勧めします。
 
 結合ポリシーの詳細については、を参照してください。 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
-
