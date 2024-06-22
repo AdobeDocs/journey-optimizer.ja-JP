@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '5371'
+source-wordcount: '5383'
 ht-degree: 99%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 99%
 * に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] 2024 年 6 月リリースについて詳しくは、ドキュメントを参照してください。 [詳細情報](release-notes.md)
 * ジャーニーでの結合ポリシーの使用に関するメモがに追加されました [このページ](../building-journeys/journey-properties.md#merge-policies).
 * ジャーニーで&#x200B;**待機**&#x200B;アクティビティを設定する方法に関するページが再編成され、改善されました。[詳細情報](../building-journeys/wait-activity.md)
+* ジャーニーのプロパティの詳細を表示する新しいページが作成されました。 [詳細情報](../building-journeys/journey-properties.md)
 
 ## 2024年5月 {#may-2024}
 
@@ -114,7 +115,7 @@ ht-degree: 99%
 ## 2023年10月 {#oct-2023}
 
 * [!DNL Journey Optimizer] の 2023年10月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* 主な機能（[コンテンツテンプレート](../content-management/content-templates.md)、[フラグメント](../content-management/fragments.md)、[計算済み属性](../audience/computed-attributes.md)、[ダイレクトメール](../direct-mail/get-started-direct-mail.md)、[タグ](../start/search-filter-categorize.md#tags)、[意思決定管理の最適化モデル](../offers/ranking/personalized-optimization-model.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)、および[コンテンツ実験](../campaigns/content-experiment.md)など）を説明する GIF を追加しました。。
+* 主な機能（[コンテンツテンプレート](../content-management/content-templates.md)、[フラグメント](../content-management/fragments.md)、[計算済み属性](../audience/computed-attributes.md)、[ダイレクトメール](../direct-mail/get-started-direct-mail.md)、[タグ](../start/search-filter-categorize.md#tags)、[意思決定管理の最適化モデル](../offers/ranking/personalized-optimization-model.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)、および[コンテンツ実験](../content-management/content-experiment.md)など）を説明する GIF を追加しました。。
 * スキーマの作成プロセスを更新し、Adobe Experience Platform 変更に伴うユーザーインターフェイスの最新の更新を反映しました。[詳細情報](../audience/creating-test-profiles.md)
 * 意思決定管理ガードレールが、ガードレールと制限のページに追加されました。[詳細情報](../start/guardrails.md#decision-management)
 * 「ヘッダーパラメーター」の節を更新し、不在通知とチャレンジレスポンスの処理方法（これらは&#x200B;**[!UICONTROL エラーメール]**&#x200B;で受信します）を反映しました。[詳細情報](../email/email-settings.md#email-header)
