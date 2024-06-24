@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="ベータ版" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 6%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 6%
 >
 > Journey Optimizerの従来のレポートに戻すには、を切り替えます **[!UICONTROL 新しいエクスペリエンスを使用]** オプション。
 
-Journey Optimizer レポートがCustomer Journey Analytics機能と完全に統合され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上しました。 Journey OptimizerとCustomer Journey Analyticsのシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。
+Journey Optimizer レポート機能は、Customer Journey Analytics機能との相互運用性が向上し、両方のプラットフォーム間でレポートを標準化し、データの一貫性と信頼性を向上させます。 Journey OptimizerとCustomer Journey Analyticsのシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。
 
 * ジャーニーまたはジャーニーのコンテキストの配信をターゲットにする場合は、 **[!UICONTROL ジャーニー]** メニューに移動し、ジャーニーにアクセスして **[!UICONTROL レポートを表示]** ボタン。
 
@@ -47,4 +48,3 @@ Journey Optimizer レポートがCustomer Journey Analytics機能と完全に統
 * Journey Optimizer内でCustomer Journey Analyticsダッシュボードにアクセスするには、 **[!UICONTROL 新しいエクスペリエンスを使用]** レポートを切り替えます。
 
   ![](assets/cja-option.png)
-

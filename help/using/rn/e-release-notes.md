@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fdfdafbecf938c300a866bdf95a8ac6492fbdcb8
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 92%
@@ -80,20 +80,7 @@ ht-degree: 92%
 </table>
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Reporting with Customer Journey Analytics (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer reporting is now fully integrated with Customer Journey Analytics capabilities, standardizing reporting across both platforms and improving data consistency and reliability. This seamless integration between Journey Optimizer and Customer Journey Analytics provides a clearer view of performance metrics, enabling users to make more informed decisions.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 <!--table>
