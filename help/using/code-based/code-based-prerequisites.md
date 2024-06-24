@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
   ![](../web/assets/web-aep-datastream-ajo.png)
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}で、「**[!UICONTROL Active-On-Edge 結合ポリシー]**」オプションが有効になっている結合ポリシーが 1 つあることを確認します。それには、**[!UICONTROL 顧客]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}で、「**[!UICONTROL Active-On-Edge 結合ポリシー]**」オプションが有効になっている結合ポリシーが 1 つあることを確認します。これを行うには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
   **Edge Delivery** プラグインを使用すると、インバウンド実装を効果的に理解してトラブルシューティングを行うために必要なインサイトを得ることができます。
 
-  [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
+  [Edge Delivery ビューについて詳しくはこちらを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
 ## コンテンツ実験の前提条件 {#experiment-prerequisites}
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 つまり、実験レポートを設定する際に、アプリデータストリームに存在しないデータセットを追加すると、アプリデータはコンテンツ実験レポートに表示されません。
 
-コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../campaigns/reporting-configuration.md#add-datasets)を参照してください。
+コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../content-management/reporting-configuration.md#add-datasets)を参照してください。
 
 >[!NOTE]
 >

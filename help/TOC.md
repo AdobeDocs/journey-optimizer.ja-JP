@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1848'
 ht-degree: 98%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 98%
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
    + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
-   + コンテンツ実験 {#content-experiment}
-      + [コンテンツ実験の基本を学ぶ](using/campaigns/get-started-experiment.md)
-      + [コンテンツ実験を作成](using/campaigns/content-experiment.md)
-      + [実験レポートの設定](using/campaigns/reporting-configuration.md)
-      + テクニカルノート {#technotes}
-         + [統計計算について](using/campaigns/experiment-calculations.md)
-         + [実験レポートの統計計算について](using/campaigns/experiment-report-calculations.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + メールチャネル {#email}
    + [メールの基本を学ぶ](using/email/get-started-email.md)
@@ -283,6 +276,13 @@ ht-degree: 98%
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
+   + コンテンツ実験の操作 {#content-experiment}
+      + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
+      + [コンテンツ実験を作成](using/content-management/content-experiment.md)
+      + [実験レポートの設定](using/content-management/reporting-configuration.md)
+      + テクニカルノート {#technotes}
+         + [統計計算について](using/content-management/experiment-calculations.md)
+         + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
    + Assets／画像 {#assets-images}
       + [Experience Manager Assets の操作](using/content-management/assets.md)
       + [Adobe Stock との連携](using/content-management/stock.md)

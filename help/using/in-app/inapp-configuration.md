@@ -6,8 +6,8 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -131,7 +131,7 @@ Adobe Experience Platform データ収集の**アプリサーフェス**&#x200B;
 
 つまり、実験レポートを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはコンテンツ実験レポートに表示されません。
 
-コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../campaigns/reporting-configuration.md#add-datasets)を参照してください。
+コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../content-management/reporting-configuration.md#add-datasets)を参照してください。
 
 >[!NOTE]
 >

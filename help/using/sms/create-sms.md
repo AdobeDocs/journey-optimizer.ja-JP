@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）およびマル�
 
    ![](assets/sms_create_5.png)
 
-1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../campaigns/content-experiment.md)
+1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../content-management/content-experiment.md)
 
 1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、SMS メッセージ内のリンクのクリックを追跡するかどうかを指定します。
 

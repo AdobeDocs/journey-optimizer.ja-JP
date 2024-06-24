@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -52,11 +52,11 @@ ht-degree: 100%
 
    ![](assets/experiment-genai-3.png)
 
-1. コンテンツ実験ウィンドウから「**[!UICONTROL 実験の設定]**」ボタンにアクセスして、実験を設定します。[コンテンツ実験の詳細情報](../campaigns/content-experiment.md)
+1. コンテンツ実験ウィンドウから「**[!UICONTROL 実験の設定]**」ボタンにアクセスして、実験を設定します。[コンテンツ実験の詳細情報](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. コンテンツ実験の準備が整ったら、キャンペーンの概要ページで「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンの概要を表示できます。パラメーターが正しくないか見つからない場合は、警告が表示されます。[詳細情報](../campaigns/content-experiment.md#treatment-experiment)
+1. コンテンツ実験の準備が整ったら、キャンペーンの概要ページで「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンの概要を表示できます。パラメーターが正しくないか見つからない場合は、警告が表示されます。[詳細情報](../content-management/content-experiment.md#treatment-experiment)
 
 1. キャンペーンを開始する前に、すべての設定が正しいことを再確認し、「**[!UICONTROL アクティブ化]**」をクリックします。
 

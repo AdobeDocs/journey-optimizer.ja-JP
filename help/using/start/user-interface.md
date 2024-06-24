@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 100%
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 設定]** - このメニューを使用すると、ジャーニーで使用する[イベント](../event/about-events.md)、[データソース](../datasource/about-data-sources.md)、[アクション](../action/action.md)を設定できます。
 
-  また、「**レポート**」セクションにアクセスして、キャンペーン実験用のレポートを設定することもできます。[詳細情報](../campaigns/reporting-configuration.md)
+  また、「**レポート**」セクションにアクセスして、キャンペーン実験用のレポートを設定することもできます。[詳細情報](../content-management/reporting-configuration.md)
 
 * **[!UICONTROL ビジネスルール]** - このセクションを使用すると、ユーザーがメッセージを受信する頻度やジャーニーにエントリする頻度を制御するクロスチャネルビジネスルールを作成できます。[詳細情報](../configuration/frequency-rules.md)
 

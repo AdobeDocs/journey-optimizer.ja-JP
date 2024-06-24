@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="ベータ版" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 15%
@@ -134,7 +135,7 @@ KPI は、キャンペーンで使用するチャネルによって異なりま�
 
 * **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
 
-* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ KPI は、キャンペーンで使用するチャネルによって異なりま�
 ![](assets/cja-experimentation-variants.png)
 
 この **[!UICONTROL インバウンドクリック数によるバリアント]** ウィジェットは、各バリアントのパフォーマンスの詳細を説明します。
-これらの結果の詳細と解釈について詳しくは、[このページ](../campaigns/get-started-experiment.md#interpret-results)を参照してください。
+これらの結果の詳細と解釈について詳しくは、[このページ](../content-management/get-started-experiment.md#interpret-results)を参照してください。
 
 +++ インバウンドクリック数指標によるバリアントの詳細を説明します
 
@@ -155,7 +156,7 @@ KPI は、キャンペーンで使用するチャネルによって異なりま�
 
 * **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
 
-* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ KPI は、キャンペーンで使用するチャネルによって異なりま�
 
 ![](assets/cja-experimentation-conversion.png)
 
-**[!UICONTROL 信頼区間]**&#x200B;グラフは、改善に関する不確実性を測定します。ベースラインと最もパフォーマンスの高い処理との間のパフォーマンス差の割合を詳細に示します。[詳細情報](../campaigns/experiment-calculations.md#confidence-intervals)
+**[!UICONTROL 信頼区間]**&#x200B;グラフは、改善に関する不確実性を測定します。ベースラインと最もパフォーマンスの高い処理との間のパフォーマンス差の割合を詳細に示します。[詳細情報](../content-management/experiment-calculations.md#confidence-intervals)
 
 ## メール {#email-global}
 
@@ -784,4 +785,3 @@ KPI は、キャンペーンで使用するチャネルによって異なりま�
 * **[!UICONTROL 一意のディスプレイ]**：メッセージが開かれた回数。1 つのプロファイルの複数のインタラクションは考慮されません。
 
 +++
-

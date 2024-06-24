@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '4394'
 ht-degree: 100%
 
@@ -513,7 +513,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Adobe Journey Optimizer でキャンペーンでの実験がサポートされるようになりました。実験はランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別のバリエーションや処理を行うことを意味します。公開後、メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<p>詳しくは、<a href="../campaigns/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
