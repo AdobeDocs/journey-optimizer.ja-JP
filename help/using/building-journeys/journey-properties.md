@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー，設定，プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 37%
+source-wordcount: '1777'
+ht-degree: 36%
 
 ---
 
@@ -49,6 +49,8 @@ ht-degree: 37%
 >ライブジャーニーの場合、この画面には、ジャーニーを公開した日付とユーザーの名前のみが表示されます。
 
 「**技術的な詳細をコピー**」を使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。次の情報がコピーされます。 `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+
+特定のプロファイルのジャーニーに関連する技術的なフィールドとその使用方法について説明します [このページ内](expression/journey-properties.md).
 
 
 ## エントリと再エントリ {#entrance}

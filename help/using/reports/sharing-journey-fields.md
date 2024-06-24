@@ -8,16 +8,22 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 100%
+source-wordcount: '78'
+ht-degree: 64%
 
 ---
 
-# ジャーニーのフィールド {#sharing-journey-fields}
+# ジャーニーフィールド {#sharing-journey-fields}
 
-このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれています。
+このフィールドグループは、 **ジャーニー** スキーマ（ **journeyStepEvent**）に設定します。 以下に示すフィールドが含まれます。
+
+
+>[!NOTE]
+>
+>ジャーニーのプロパティ属性の詳細を学ぶ [この節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## journeyID {#journeyid-field}
 

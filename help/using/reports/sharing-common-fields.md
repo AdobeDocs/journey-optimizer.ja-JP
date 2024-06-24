@@ -8,20 +8,26 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 96%
 
 ---
 
 # journeySteps イベントの共通フィールド {#sharing-common-fields}
 
-このフィールドグループは、journeyStepEvent と journeyStepProfileEvent が共有します。
+このフィールドグループは、次のイベントで共有されます。 **journeyStepEvent** および **journeyStepProfileEvent**.
 
 [!DNL Journey Optimizer] が Adobe Experience Platform に送信する一般的な XDM フィールドです。共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
 イベントのサイズを制限するため、これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。
+
+
+>[!NOTE]
+>
+>ジャーニーのプロパティ属性の詳細を学ぶ [この節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## エントリ {#entrance-field}
 
