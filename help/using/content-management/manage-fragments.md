@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 48%
+source-wordcount: '1032'
+ht-degree: 45%
 
 ---
 
@@ -69,6 +69,16 @@ ht-degree: 48%
 >**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開にはユーザー権限が必要です。
 
 ## フラグメントの編集 {#edit-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="キャンペーンでのフラグメントの更新"
+>abstract="フラグメントに対して変更を公開すると、このキャンペーンは更新されません。 フラグメント更新機能をサポートするには、新しいバージョンを公開する必要があります。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="ジャーニーでのフラグメントの更新"
+>abstract="フラグメントに変更を公開しても、このジャーニーは更新されません。 フラグメント更新機能をサポートするには、新しいバージョンを公開する必要があります。"
 
 フラグメントを編集するには、次の手順に従います。
 
