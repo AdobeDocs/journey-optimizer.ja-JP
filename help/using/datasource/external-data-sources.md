@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 100%
+source-wordcount: '1549'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、こちらを参照してください [セクション](../action/action-response.md)
 
 POST または GET を使用して JSON を返す REST API がサポートされています。API キー、基本およびカスタム認証モードがサポートされています。
 
