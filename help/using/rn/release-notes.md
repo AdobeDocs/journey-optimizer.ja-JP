@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
+source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 83%
+source-wordcount: '1050'
+ht-degree: 75%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 83%
 
 
 ## 2024年6月リリースノート {#24-6-2024}
-
-**以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。
 
 **リリース日**：2024年6月18～19日（PT）
 
@@ -53,6 +51,7 @@ ht-degree: 83%
 </tbody>
 </table-->
 
+#### コンテンツフラグメントのカスタマイズ
 
 <table>
 <thead>
@@ -72,7 +71,7 @@ ht-degree: 83%
 </table>
 
 
-
+#### Customer Journey Analyticsでのレポート
 
 <table>
 <thead>
@@ -91,6 +90,8 @@ ht-degree: 83%
 </tbody>
 </table>
 
+#### AI アシスタント
+
 <table>
 <thead>
 <tr>
@@ -106,6 +107,8 @@ ht-degree: 83%
 </tr>
 </tbody>
 </table>
+
+#### ジャーニーとキャンペーンでの多言語メッセージ
 
 <table>
 <thead>
@@ -123,6 +126,7 @@ ht-degree: 83%
 </tbody>
 </table>
 
+#### ジャーニーでの実験
 
 <table>
 <thead>
@@ -160,13 +164,13 @@ ht-degree: 83%
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-**意思決定管理**
+#### 意思決定管理
 
 * **意思決定管理でのマルチルールのサポート** - 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**コンテンツフラグメント**
+#### コンテンツフラグメント
 
 >[!AVAILABILITY]
 >
@@ -180,7 +184,7 @@ ht-degree: 83%
 
 詳しくは、[コンテンツフラグメント](../content-management/fragments.md)ドキュメントを参照してください
 
-**ジャーニー**
+#### ジャーニー
 
 * ジャーニーのグローバルタイムアウトが 91 日間に延長されました。[詳細情報](../building-journeys/journey-properties.md#global_timeout)
 
@@ -194,16 +198,17 @@ ht-degree: 83%
 
 
 
-**キャンペーン**
+#### キャンペーン
 
 * Adobe Journey Optimizer でキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。[詳細情報](../campaigns/create-campaign.md)
 
-**メールチャネル**
+#### メールチャネル
 
 * **リスト – 登録解除**  – 一括送信者向けの最近の Gmail および Yahoo のお知らせに続いて、Journey Optimizerでは、「投稿/1 クリック」のリスト購読解除オプションをサポートしています。 次のページを参照してください。 [メールオプトアウトの管理](../email/email-opt-out.md#unsubscribe-header) および [メールの設定](../email/email-settings.md#list-unsubscribe).
 
+  **メモ**  – 新規チャネルサーフェスの場合、デフォルトでは、「リストの購読解除ヘッダー」オプションがアクティブになります。 既存のサーフェスの場合、デフォルトでは、チャネルサーフェス設定のワンクリック購読解除 URL オプションはオフになっています。 以前にメールの本文でワンクリックオプトアウト URL を使用していた場合、この設定は引き続き有効です。 チャネルサーフェス設定のワンクリック購読解除 URL がオンの場合、Adobe Journey Optimizerは、代わりにチャネルサーフェス設定で生成されたデフォルトのワンクリック購読解除 URL を使用します。
 
-**SMS チャネル**
+#### SMS チャネル
 
 * 1 回の API 設定で各サンドボックスに一意のショートコードを追加できるようになりました。これにより、プロセスが合理化され、効率が上がります。[詳細情報](../sms/sms-configuration.md)
 
@@ -211,13 +216,13 @@ ht-degree: 83%
 
 <!--* You can now modify existing SMS configurations.-->
 
-**アプリ内チャネル**
+#### アプリ内チャネル
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 * これで、Edge Delivery プラグインを使用して、インバウンド実装を理解し、トラブルシューティングに必要な情報を取得できます。[詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
 
 
-**ダイレクトメールチャネル**
+#### ダイレクトメールチャネル
 
 * すべての顧客がダイレクトメールチャネルを使用できるようになりました。 [詳細情報](../direct-mail/get-started-direct-mail.md)
