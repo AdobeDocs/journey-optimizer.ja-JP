@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '959'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->バリアントはサポートされています。シードアドレスは、同じメッセージの各バリアント（[コンテンツ実験](../content-management/get-started-experiment.md)の異なる処理など）の 1 つのコピーを受信します。
+>多言語や実験のバリアントなど、バリアントがサポートされています。 各シードアドレスは、同じメッセージのすべてのバリアント（例：からのさまざまなバージョン）のコピーを 1 つ受け取ります。 [コンテンツ実験](../content-management/get-started-experiment.md). 条件付きコンテンツに対しては、個別のシードメールは送信されないことに注意してください。
 
 ## シードリストへのアクセス {#access-seed-lists}
 
