@@ -12,11 +12,11 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
-# ジャーニーのプロパティを設定 {#jo-properties}
+# ジャーニーのプロパティの設定 {#jo-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
