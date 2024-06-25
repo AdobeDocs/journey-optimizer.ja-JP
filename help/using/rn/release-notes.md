@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
+source-git-commit: 3d3714675833f685c0775be68a403f4e9de3ce27
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 75%
+source-wordcount: '1031'
+ht-degree: 76%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 75%
 </tbody>
 </table-->
 
-#### コンテンツフラグメントのカスタマイズ
 
 <table>
 <thead>
@@ -71,7 +70,6 @@ ht-degree: 75%
 </table>
 
 
-#### Customer Journey Analyticsでのレポート
 
 <table>
 <thead>
@@ -90,7 +88,6 @@ ht-degree: 75%
 </tbody>
 </table>
 
-#### AI アシスタント
 
 <table>
 <thead>
@@ -108,7 +105,6 @@ ht-degree: 75%
 </tbody>
 </table>
 
-#### ジャーニーとキャンペーンでの多言語メッセージ
 
 <table>
 <thead>
@@ -126,7 +122,6 @@ ht-degree: 75%
 </tbody>
 </table>
 
-#### ジャーニーでの実験
 
 <table>
 <thead>
