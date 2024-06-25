@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -20,13 +20,13 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 6 月リリースを公開]
+>[!TAB 6月リリースが公開されました。]
 
 Adobe Journey Optimizer 5月リリースに含まれる新機能と機能強化を参照してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Customer Journey Analyticsを使用したレポート（ベータ版）]
+>[!TAB Customer Journey Analytics を使用したレポート（ベータ版）]
 
 Journey Optimizer レポート機能は、Customer Journey Analytics機能との相互運用性が向上し、両方のプラットフォーム間でレポートを標準化し、データの一貫性と信頼性を向上させます。
 
@@ -34,7 +34,7 @@ Journey Optimizer レポート機能は、Customer Journey Analytics機能との
 
 >[!TAB AI アシスタント]
 
-AI アシスタントは、特定のAdobeのコンセプトをナビゲートして理解し、運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。
+AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 

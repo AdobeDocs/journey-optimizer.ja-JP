@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + ジャーニーの作成{#create-journey}
       + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
-      + [ジャーニーのプロパティを設定](using/building-journeys/journey-properties.md)
+      + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのシミュレート](using/building-journeys/journey-simulation.md)
@@ -382,13 +382,13 @@ ht-degree: 98%
    + [Customer Journey Analytics の操作](using/reports/cja-ajo.md)
    + [除外の理由](using/reports/exclusion-list.md)
 + 新しいレポートインターフェイス（ベータ版）{#channel-report}
-   + [新しいレポートインターフェイスの概要](using/reports/report-gs-cja.md)
+   + [新しいレポートインターフェイスの基本を学ぶ](using/reports/report-gs-cja.md)
    + [レポートの管理](using/reports/report-cja-manage.md)
    + [ジャーニーレポート](using/reports/journey-global-report-cja.md)
    + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
    + [概要レポート](using/reports/channel-report-cja.md)
    + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
-   + [購読リストレポート](using/reports/subscription-report-global-cja.md)
+   + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
 + 決定 {#decisioning}
    + 意思決定管理 {#offer-decisioning}
       + 意思決定管理の基本を学ぶ {#get-started-decision}

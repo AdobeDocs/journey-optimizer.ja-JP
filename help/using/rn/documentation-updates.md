@@ -21,8 +21,8 @@ ht-degree: 99%
 
 ## 2024年6月 {#june-2024}
 
-* に含まれているすべての新機能と機能強化 [!DNL Journey Optimizer] 2024 年 6 月リリースについて詳しくは、ドキュメントを参照してください。 [詳細情報](release-notes.md)
-* ジャーニーでの結合ポリシーの使用に関するメモがに追加されました [このページ](../building-journeys/journey-properties.md#merge-policies).
+* [!DNL Journey Optimizer] の 2024年6月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* ジャーニーでの結合ポリシーの使用に関するメモを[このページ](../building-journeys/journey-properties.md#merge-policies)に追加しました。
 * ジャーニーで&#x200B;**待機**&#x200B;アクティビティを設定する方法に関するページが再編成され、改善されました。[詳細情報](../building-journeys/wait-activity.md)
 * ジャーニーのプロパティの詳細を表示する新しいページが作成されました。 [詳細情報](../building-journeys/journey-properties.md)
 

@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## 2024年6月リリースノート {#24-6-2024}
 
-**以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**.
+**以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。
 
 **リリース日**：2024年6月18～19日（PT）
 
@@ -77,13 +77,13 @@ ht-degree: 58%
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analyticsを使用したレポート（ベータ版）</strong><br/></th>
+<th><strong>Customer Journey Analytics を使用したレポート（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer レポート機能は、Customer Journey Analytics機能との相互運用性が向上し、両方のプラットフォーム間でレポートを標準化し、データの一貫性と信頼性を向上させます。 Journey OptimizerとCustomer Journey Analyticsのシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。</p>
+<p>Journey Optimizer レポート機能は、Customer Journey Analytics機能との相互運用性が向上し、両方のプラットフォーム間でレポートを標準化し、データの一貫性と信頼性を向上させます。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより情報に基づいた意思決定を行うことができます。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>詳しくは、<a href="../reports/report-gs-cja.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -170,7 +170,7 @@ ht-degree: 58%
 
 >[!AVAILABILITY]
 >
->これらの機能強化は、最初のリリース後、数日かけて徐々に展開されることに注意してください。 すぐにアクセスできるユーザーもいれば、環境で使用できるようになるまでに遅延が発生するユーザーもいます。
+>これらの機能強化は、初回リリース後の数日間にわたって段階的にロールアウトされる予定です。即時にアクセスできるユーザーもいれば、自身の環境で使用できるようになるまでに遅延が生じるユーザーもいます。
 
 * フラグメントを編集し、フラグメントが使用されているすべてのライブジャーニーとキャンペーンに変更を反映できるようになりました。
 * コンテンツフラグメントの新しいステータス（**ドラフト**、**ライブ**、**公開**、**アーカイブ済み**）が導入されました。
@@ -178,16 +178,16 @@ ht-degree: 58%
 
   **注意** - **ドラフト**&#x200B;および&#x200B;**ライブ** ステータスは Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、**ドラフト**&#x200B;ステータスになります。既存のフラグメントを更新する方法については、この節を参照してください。
 
-詳しくは、を参照してください。 [コンテンツフラグメント](../content-management/fragments.md) ドキュメント。
+詳しくは、[コンテンツフラグメント](../content-management/fragments.md)ドキュメントを参照してください
 
 **ジャーニー**
 
-* ジャーニーのグローバルタイムアウトが 91 日に拡張されました。 [詳細情報](../building-journeys/journey-properties.md#global_timeout)
+* ジャーニーのグローバルタイムアウトが 91 日間に延長されました。[詳細情報](../building-journeys/journey-properties.md#global_timeout)
 
-  作成された新規ジャーニーには、この新しいタイムアウトが反映されます。 こちらを参照してください [FAQ セクション](../building-journeys/journey-properties.md#timeout-faq) を参照してください。 これらの変更は、6 月中に徐々に展開されることに注意してください。
+  新しく作成したジャーニーには、この新しいタイムアウトが反映されます。この [FAQ の節](../building-journeys/journey-properties.md#timeout-faq)を参照してください。これらの変更は 6 月中に段階的にロールアウトされることに注意してください。
 
 
-* Adobe Journey Optimizerは、プライバシーの削除/アクセスリクエストと、データライフサイクル管理リクエストをサポートするようになりました。 [詳細情報](../privacy/requests.md)
+* Adobe Journey Optimizer は、プライバシーの削除／アクセスリクエストと、データライフサイクル管理リクエストもサポートするようになりました。[詳細情報](../privacy/requests.md)
 * ジャーニーインベントリの列のサイズを変更できるようになりました。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **結合ポリシー**（GA）- ジャーニーで使用される結合ポリシーがジャーニー全体で表示され、一貫性が保たれるようになりました。[詳細情報](../building-journeys/journey-properties.md#merge-policies)
@@ -196,7 +196,7 @@ ht-degree: 58%
 
 **キャンペーン**
 
-* Adobe Journey Optimizerでキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。 [詳細情報](../campaigns/create-campaign.md)
+* Adobe Journey Optimizer でキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。[詳細情報](../campaigns/create-campaign.md)
 
 **メールチャネル**
 
@@ -205,9 +205,9 @@ ht-degree: 58%
 
 **SMS チャネル**
 
-* 単一の API 設定で、各サンドボックスに一意のショートコードを追加できるようになり、プロセスの効率と合理化が向上しました。 [詳細情報](../sms/sms-configuration.md)
+* 1 回の API 設定で各サンドボックスに一意のショートコードを追加できるようになりました。これにより、プロセスが合理化され、効率が上がります。[詳細情報](../sms/sms-configuration.md)
 
-* 作成後、 **API トークン** のフィールド **API 資格情報の詳細** これで、ページがマスクされました。
+* 作成後、**API 資格情報の詳細**&#x200B;ページの「**API トークン**」フィールドがマスクされます。
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ ht-degree: 58%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* これで、エッジ配信プラグインを使用して、インバウンド実装を理解し、トラブルシューティングするために必要な情報を取得できます。 [エッジ配信ビューの詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* これで、Edge Delivery プラグインを使用して、インバウンド実装を理解し、トラブルシューティングに必要な情報を取得できます。[詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
 
 
 **ダイレクトメールチャネル**
