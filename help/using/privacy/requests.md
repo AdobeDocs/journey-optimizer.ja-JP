@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -29,39 +29,39 @@ Privacy Service と、プライバシーリクエストの作成および管理�
 
 
 
-## Adobe Journey Optimizerに送信できる個々のデータプライバシーリクエストの管理 {#data-privacy-requests}
+## Adobe Journey Optimizer に送信できる個々のデータプライバシーリクエストの管理 {#data-privacy-requests}
 
-消費者データへのアクセスおよび削除の個々のリクエストをAdobe Journey Optimizerから送信するには、次の 2 つの方法があります。
+Adobe Journey Optimizer から消費者データにアクセスして削除するための個々のリクエストは、次の 2 つの方法で送信できます。
 
-* 経由 **PRIVACY SERVICEUI**. ドキュメントを参照してください [こちら](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* 経由 **PRIVACY SERVICEAPI**. ドキュメントを参照してください [こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) および API 情報 [こちら](https://developer.adobe.com/experience-platform-apis/#_blank).
+* **Privacy Service UI** を通じて。[こちら](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/ui/user-guide#_blank)のドキュメントを参照してください。
+* **Privacy Service API** を通じて。[こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank)のドキュメントと[こちら](https://developer.adobe.com/experience-platform-apis/#_blank)の API 情報を参照してください。
 
-Privacy Serviceでは、次の 2 種類のリクエストがサポートされています。 **データアクセス** および **データ削除**.
+Privacy Service では、**データアクセス**&#x200B;と&#x200B;**データ削除**&#x200B;という 2 つのタイプのリクエストがサポートされています。
 
 >[!NOTE]
 >
->このガイドでは、Adobe Journey Optimizerのプライバシーリクエストの作成方法についてのみ説明します。 Platform データレイクのプライバシーリクエストもおこなう予定がある場合は、こちらを参照してください [ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) このチュートリアルに加えて、 リアルタイム顧客プロファイルについては、こちらを参照してください。 [ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) id サービスについては、こちらを参照してください。 [ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). 削除リクエストおよびアクセスリクエストの場合、これらの個々のシステムを呼び出して、リクエストが各方式で処理されていることを確認する必要があります。 Adobe Journey Optimizerにプライバシーリクエストを送信しても、これらのすべてのシステムからデータが削除されるわけではありません。
+>このガイドでは、Adobe Journey Optimizer のプライバシーリクエストを行う方法についてのみ説明します。また、Platform データレイクのプライバシーリクエストも行う予定の場合は、このチュートリアルに加えてこの[ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/privacy)を参照してください。リアルタイム顧客プロファイルについては、この[ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy)を参照し、ID サービスについては、この[ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/privacy)を参照してください。削除リクエストとアクセスリクエストについては、これらの個々のシステムを呼び出して、各システムでリクエストが処理されていることを確認する必要があります。Adobe Journey Optimizer にプライバシーリクエストを送信しても、これらのすべてのシステムからデータが削除されるわけではありません。
 
-の場合 **アクセス要求**&#x200B;は、UI から「Adobe Journey Optimizer」（または API のプロダクトコードとして「CJM」）を指定します。
+**アクセスリクエスト**&#x200B;の場合は、UI から「Adobe Journey Optimizer」（または API で製品コードとして「CJM」）を指定します。
 
-の場合 **リクエストの削除**&#x200B;また、「Adobe Journey Optimizer」リクエストに加えて、削除されたデータをJourney Optimizerが再拒否するのを防ぐために、3 つのアップストリームサービスに削除リクエストを送信する必要があります。 これらのアップストリームサービスが指定されていない場合、アップストリームサービスの削除リクエストが作成されるまで、「Adobe Journey Optimizer」リクエストは「処理中」ステータスのままになります。
+**削除リクエスト**&#x200B;の場合は、「Adobe Journey Optimizer」リクエストに加えて、削除したデータが Journey Optimizer によって再挿入されるのを防ぐために、3 つのアップストリームサービスにも削除リクエストを送信する必要があります。これらのアップストリームサービスを指定していない場合、「Adobe Journey Optimizer」リクエストは、アップストリームサービスの削除リクエストが作成されるまで「処理中」状態のままになります。
 
 3 つのアップストリームサービスは次のとおりです。
 
 * プロファイル（製品コード：「profileService」）
-* AEP Data Lake （製品コード：「AdobeCloudPlatform」）
-* ID （製品コード：「ID」）
+* AEP データレイク（製品コード：「AdobeCloudPlatform」）
+* ID（製品コード：「ID」）
 
 ## アクセスリクエストと削除リクエストの作成方法
 
 ### 前提条件
 
-Adobe Journey Optimizerのデータへのアクセスおよび削除をリクエストするには、次の情報が必要です。
+Adobe Journey Optimizer のデータへのアクセスと削除をリクエストするには、次の項目が必要です。
 
-* ims 組織 ID
-* 操作の対象となるユーザーの ID 識別子と、対応する名前空間。Adobe Journey OptimizerおよびExperience Platformの ID 名前空間について詳しくは、 [id 名前空間の概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* IMS 組織 ID
+* 操作の対象となるユーザーの ID 識別子と、対応する名前空間。Adobe Journey Optimizer および Experience Platform の ID 名前空間について詳しくは、[ID 名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)を参照してください。
 
-### API リクエストのAdobe Journey Optimizerの必須フィールド値
+### Adobe Journey Optimizer の API リクエストの必須フィールド値
 
 ```json
 "companyContexts":
@@ -93,7 +93,7 @@ UI から：
 
 ![](assets/accessrequest.png)
 
-API を使用：
+API を通じて：
 
 ```json
 // JSON Request
@@ -173,7 +173,7 @@ UI から：
 
 ![](assets/deleterequest.png)
 
-API を使用：
+API を通じて：
 
 ```json
 // JSON Request
