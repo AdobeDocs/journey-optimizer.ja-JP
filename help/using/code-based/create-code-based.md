@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1024'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >現在、Offer Decisioning 機能は、ベータ版として一部のユーザーのみが利用できます。
+   >エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして変更を確定します。
