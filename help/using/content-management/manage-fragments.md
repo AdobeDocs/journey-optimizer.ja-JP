@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
+source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1039'
 ht-degree: 45%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 45%
 >id="ajo_fragment_statuses"
 >title="新しいフラグメントのステータス"
 >abstract="**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開にはユーザー権限が必要です。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="コンテンツフラグメントの権限の詳細情報"
 
 >[!AVAILABILITY]
 >
