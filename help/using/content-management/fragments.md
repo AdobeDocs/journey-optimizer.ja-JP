@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: 0ee93c3f3e922d0640b2867dcf5ebb83d67aa826
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '312'
 ht-degree: 88%
 
 ---
@@ -22,16 +22,6 @@ ht-degree: 88%
 >title="独自のフラグメントを定義"
 >abstract="スタンドアロンのフラグメントを作成および管理して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="フラグメントを作成"
-
->[!CONTEXTUALHELP]
->id="ajo_fragments_update_campaigns"
->title="フラグメント更新キャンペーン"
->abstract="フラグメント更新キャンペーン"
-
->[!CONTEXTUALHELP]
->id="ajo_fragments_update_journeys"
->title="フラグメント更新ジャーニー"
->abstract="フラグメント更新ジャーニー"
 
 フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメールコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に構築できます。
 
