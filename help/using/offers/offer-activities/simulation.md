@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: e213261a1c2cb3421d59ba6c44c832a5f5929cd1
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 100%
 >id="ajo_decisioning_simulation_test_profile"
 >title="テストプロファイルの追加"
 >abstract="ID 名前空間とそれに対応する ID 値を選択することで、テストプロファイルを追加できます。シミュレーションで使用するには、既に使用可能なテストプロファイルが必要です。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルの作成"
 
 まず、シミュレーションに使用するテストプロファイルを選択する必要があります。
 
