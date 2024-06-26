@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 33%
@@ -21,7 +21,7 @@ ht-degree: 33%
 >id="ajo_create_visual_fragment"
 >title="ビジュアルタイプを選択"
 >abstract="スタンドアロンのビジュアルフラグメントを作成して、ジャーニーまたはキャンペーン内のメールや、コンテンツテンプレートでコンテンツを再利用できるようにします。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=ja" text="メールへのビジュアルフラグメントの追加"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="メールへのビジュアルフラグメントの追加"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ ht-degree: 33%
 
 ## フラグメントコンテンツのデザイン {#content}
 
-フラグメントのプロパティを設定すると、作成するフラグメントのタイプに応じて、メールデザイナーまたはパーソナライゼーションエディターが開きます。
+フラグメントのプロパティを設定すると、作成するフラグメントのタイプに応じて、メールDesignerまたはパーソナライゼーションエディターが開きます。
 
 * ビジュアルフラグメントの場合は、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。 [詳細情報](../email/get-started-email-design.md)
 
@@ -81,17 +81,17 @@ ht-degree: 33%
 
 >[!NOTE]
 >
->フラグメントを公開するには、次が必要です **フラグメントを公開** 関連する権限。 [権限について詳しくはこちらを参照](../administration/ootb-permissions.md)
+>フラグメントを公開するには、次が必要です **Publish フラグメント** 関連する権限。 [権限について詳しくはこちらを参照](../administration/ootb-permissions.md)
 
 フラグメントの公開準備が整ったら、プレビューして公開し、ジャーニーやキャンペーンで利用できるようにします。 それには、次の手順に従います。
 
 1. コンテンツをデザインした後にフラグメント作成画面に戻るか、フラグメントのリストから開きます。
 
-1. フラグメントのプレビューは、次の場所で利用できます **タグ** フィールドに移動し、レンダリングを確認できます。 変更が必要な場合は、 **編集** 画面の上部セクションにある「」ボタンをクリックして、フラグメントタイプに応じてメールデザイナーまたはパーソナライゼーションエディターを開きます。
+1. フラグメントのプレビューは、次の場所で利用できます **タグ** フィールドに移動し、レンダリングを確認できます。 変更が必要な場合は、 **編集** 画面の上部セクションにある「」ボタンをクリックして、フラグメントタイプに応じてメールDesignerまたはパーソナライゼーションエディターを開きます。
 
    ![](assets/fragment-preview.png)
 
-1. 「」をクリックします **公開** 右上隅のボタンをクリックして、フラグメントを公開します。
+1. 「」をクリックします **Publish** 右上隅のボタンをクリックして、フラグメントを公開します。
 
    フラグメントがライブジャーニーまたはキャンペーンで使用されている場合は、通知するメッセージが開きます。 「」をクリックします **さらに表示** 参照先のジャーニーやキャンペーンのリストにアクセスするためのリンク。 [フラグメントの参照を探索する方法を学ぶ](../content-management/manage-fragments.md#explore-references)
 
@@ -99,7 +99,7 @@ ht-degree: 33%
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-フラグメントはになります **ライブ**、およびは、内でコンテンツを作成する際に使用できるようになります [!DNL Journey Optimizer] 電子メールデザイナーまたはパーソナライゼーションエディター：
+フラグメントはになります **ライブ**、およびは、内でコンテンツを作成する際に使用できるようになります [!DNL Journey Optimizer] メールDesignerまたはパーソナライゼーションエディター：
 
 * [ビジュアルフラグメントの使用方法を学ぶ](../email/use-visual-fragments.md)
 * [式フラグメントの使用方法を学ぶ](../personalization/use-expression-fragments.md)
