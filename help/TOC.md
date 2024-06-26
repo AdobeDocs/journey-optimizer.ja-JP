@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
-source-wordcount: '1848'
-ht-degree: 99%
+source-wordcount: '1865'
+ht-degree: 98%
 
 ---
 
@@ -311,7 +311,12 @@ ht-degree: 99%
       + パーソナライズ機能のユースケース{#personalization-use-cases}
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
-   + [コンテンツテンプレート](using/content-management/content-templates.md)
+   + コンテンツテンプレート {#content-templates}
+      + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
+      + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)
+      + [コンテンツテンプレートの作成](using/content-management/create-content-templates.md)
+      + [コンテンツテンプレートのテスト](using/content-management/test-content-templates.md)
+      + [コンテンツテンプレートの使用](using/content-management/use-content-templates.md)
    + 再利用可能なコンテンツフラグメント {#fragments}
       + [フラグメントの基本を学ぶ](using/content-management/fragments.md)
       + [フラグメントを作成](using/content-management/create-fragments.md)
