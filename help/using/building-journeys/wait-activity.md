@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 87%
@@ -39,9 +39,9 @@ ht-degree: 87%
 
 ### 複数の待機アクティビティ {#multiple-wait-activities}
 
-複数のを使用する場合 **待機** ジャーニーのアクティビティ。次のことに注意してください [グローバルタイムアウト](journey-properties.md#global_timeout) ジャーニーの場合は 90 日です。つまり、プロファイルは常に、エントリから最大 90 日後にジャーニーからドロップアウトされます。 詳しくは、[このページ](journey-properties.md#global_timeout)を参照してください。
+複数のを使用する場合 **待機** ジャーニーのアクティビティ。次のことに注意してください [グローバルタイムアウト](journey-properties.md#global_timeout) ジャーニーの場合は 91 日です。つまり、プロファイルは常に、エントリから最大 91 日後にジャーニーからドロップアウトされます。 詳しくは、[このページ](journey-properties.md#global_timeout)を参照してください。
 
-個人は、 **待機** ジャーニーのタイムアウトである 90 日より前に待機期間を完了するのに十分な時間がジャーニーに残っている場合にのみアクティビティを実行します。
+個人は、 **待機** ジャーニーのタイムアウトである 91 日より前に待機期間を完了するのに十分な時間がジャーニーに残っている場合にのみアクティビティを実行します。
 
 ### 待機と再エントリ {#wait-re-entrance}
 

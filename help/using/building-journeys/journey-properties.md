@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー，設定，プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 34%
@@ -74,7 +74,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="再エントリ待機期間"
->abstract=" 単一のジャーニーでプロファイルがジャーニーに再度エントリできるようにするまでの待機時間を設定します。 これにより、選択した期間、ユーザーがジャーニーに再エントリするのを防ぎます。 最大期間：29 日"
+>abstract=" 単一のジャーニーでプロファイルがジャーニーに再度エントリできるようにするまでの待機時間を設定します。 これにより、選択した期間、ユーザーがジャーニーに再エントリするのを防ぎます。 最大期間：90 日。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
 
 「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 90 日です。
