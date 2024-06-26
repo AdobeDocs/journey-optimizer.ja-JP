@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: 5b76b6a2129b3ef5bd39c5fe122811acf09afd23
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 99%
