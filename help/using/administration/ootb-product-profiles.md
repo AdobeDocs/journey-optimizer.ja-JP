@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fd8835b1f9bffd887758e4015171074c5dfc16c0
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 100%
+source-wordcount: '1175'
+ht-degree: 99%
 
 ---
 
@@ -142,6 +142,6 @@ ht-degree: 100%
 
 | 機能 | 権限 |
 |-|-|
-| Journey Optimizer ライブラリ | <ul><li>**[!DNL Manage library items]**：コンテンツテンプレートやフラグメントを含む、Journey Optimizer ライブラリの項目の読み取り、作成、編集、削除。</li><li>**[!DNL Manage simulate content]**：プレビューおよび配達確認用に「**[!UICONTROL コンテンツをシミュレート]**」オプションへのアクセス。</li></ul> |
+| Journey Optimizer ライブラリ | <ul><li>**[!DNL Manage library items]**：コンテンツテンプレートやフラグメントを含む、Journey Optimizer ライブラリの項目の読み取り、作成、編集、削除。</li><li>**[!DNL Manage simulate content]**：プレビューおよび配達確認用に「**[!UICONTROL コンテンツをシミュレート]**」オプションへのアクセス。</li><li>**[!DNL Publish Fragment]**：コンテンツフラグメントを公開します。</li></ul> |
 | 意思決定管理 | <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Read datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL Read schemas]**：スキーマへの読み取り専用アクセス</li><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li></ul> |
