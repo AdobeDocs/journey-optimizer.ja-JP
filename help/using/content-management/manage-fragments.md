@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 44%
+source-wordcount: '905'
+ht-degree: 50%
 
 ---
 
@@ -49,10 +49,6 @@ ht-degree: 44%
 >title="新しいフラグメントのステータス"
 >abstract="**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開するには、Publish フラグメントユーザー権限が必要です。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="コンテンツフラグメントの権限の詳細情報"
-
->[!AVAILABILITY]
->
-> フラグメントのステータスは、Journey Optimizerの 6 月のリリース以降、数日にわたって徐々にロールアウトされることに注意してください。 すぐにアクセスできるユーザーもいれば、環境で使用できるようになるまでに遅延が発生するユーザーもいます。 お使いの環境でこの機能強化がまだ利用できない場合、フラグメントはである必要はありません **ライブ** をジャーニーおよびキャンペーンで使用できるようにします。
 
 フラグメントには、次の複数のステータスがあります。
 
@@ -102,10 +98,6 @@ ht-degree: 44%
 1. 変更の準備ができたら、 **Publish** ボタンをクリックして変更をライブにします。
 
 フラグメントを編集すると、元のフラグメントの継承を解除したコンテンツを除き、そのフラグメントを使用するすべてのコンテンツ（ライブジャーニーとキャンペーンを含む）に変更が自動的に反映されます。 で継承を解除する方法を説明します [メールへのビジュアルフラグメントの追加](../email/use-visual-fragments.md#break-inheritance) および [式フラグメントの活用](../personalization/use-expression-fragments.md#break-inheritance) セクション。
-
->[!AVAILABILITY]
->
->ライブジャーニーとキャンペーンでのフラグメントの伝達の変更は、Journey Optimizerの 6 月のリリース以降、数日にわたって徐々に展開されていることに注意してください。 すぐにアクセスできるユーザーもいれば、環境で使用できるようになるまでに遅延が発生するユーザーもいます。 この機能強化がお使いの環境でまだ利用できない場合、変更内容はライブジャーニーやキャンペーンで使用されるコンテンツには生成されません。
 
 ## 参照の探索 {#explore-references}
 

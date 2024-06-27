@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 33%
+source-wordcount: '646'
+ht-degree: 36%
 
 ---
 
@@ -72,10 +72,6 @@ ht-degree: 33%
   ![](assets/fragment-expression-editor.png)
 
 コンテンツの準備が整ったら、 **保存** ボタン。 フラグメントが作成され、 **ドラフト** ステータス。 プレビューして公開すると、ジャーニーやキャンペーンで利用できるようになります。
-
->[!NOTE]
->
->フラグメントの公開は、Journey Optimizerの 6 月のリリース後、数日かけて徐々に展開されています。 すぐにアクセスできるユーザーもいれば、環境で使用できるようになるまでに遅延が発生するユーザーもいます。 お使いの環境でこの機能強化をまだ利用できない場合は、ジャーニーやキャンペーンでフラグメントを使用するためにフラグメントを公開する必要はありません。
 
 ## フラグメントのプレビューと公開 {#publish}
 
