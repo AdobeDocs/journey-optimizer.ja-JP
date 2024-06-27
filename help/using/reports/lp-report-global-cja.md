@@ -7,10 +7,11 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="ベータ版" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="限定提供" type="Informative"
+exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 4%
 
 ---
@@ -114,10 +115,3 @@ Customer Journey Analyticsワークスペースの詳細と、データをフィ
 この **[!UICONTROL クリック数上位のリンク]** 表では、訪問者が配信とやり取りする方法に関するインサイトを提供し、オーディエンスから最もエンゲージメントと注目を集めるリンクを強調表示しています。
 
 * **[!UICONTROL ランディングページクリック数]**：ランディングページでコンテンツがクリックされた回数。
-
-
-
-
-
-
-

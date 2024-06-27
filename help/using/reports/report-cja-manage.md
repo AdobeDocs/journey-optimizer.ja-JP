@@ -7,11 +7,12 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="ベータ版" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="限定提供" type="Informative"
+exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 34%
+source-wordcount: '312'
+ht-degree: 35%
 
 ---
 
@@ -70,5 +71,3 @@ ht-degree: 34%
 これで、レポートを PDF ファイルで表示、ダウンロード、共有できるようになりました。
 
 >[!ENDTABS]
-
-

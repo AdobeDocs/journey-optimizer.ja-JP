@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="ベータ版" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+badge: label="限定提供" type="Informative"
+exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 6%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 6%
 * [キャンペーン](#campaign)
 * [チャネル](#channel)
 
-Customer Journey Analyticsワークスペースの詳細と、データをフィルタリングして分析する方法については、を参照してください。 [このページ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Customer Journey AnalyticsWorkspaceの詳細と、データのフィルタリングおよび分析方法については、以下を参照してください。 [このページ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## ハイライト {#highlights}
 

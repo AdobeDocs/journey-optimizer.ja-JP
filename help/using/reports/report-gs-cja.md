@@ -7,12 +7,12 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="ベータ版" type="Informative"
+badge: label="限定提供" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 17%
+source-wordcount: '373'
+ht-degree: 13%
 
 ---
 
@@ -51,6 +51,6 @@ Journey Optimizer レポート機能は、Customer Journey Analytics機能との
 
 ## チュートリアルビデオ{#video}
 
-以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
+次のビデオでは、Customer Journey Analyticsで拡張Journey Optimizer レポートを使用する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

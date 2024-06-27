@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="ベータ版" type="Informative"
+badge: label="限定提供" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4252'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 15%
 * [ダイレクトメール](#direct-mail)
 * [Web](#web)
 
-Customer Journey Analyticsワークスペースの詳細と、データをフィルタリングして分析する方法については、を参照してください。 [このページ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Customer Journey AnalyticsWorkspaceの詳細と、データのフィルタリングおよび分析方法については、以下を参照してください。 [このページ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Campaign {#campaign-global}
 
@@ -160,6 +160,7 @@ KPI は、キャンペーンで使用するチャネルによって異なりま�
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
+
 * **[!UICONTROL Confidence Lower bound]**:
 -->
 +++
