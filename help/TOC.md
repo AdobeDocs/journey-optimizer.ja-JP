@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1873'
 ht-degree: 98%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 98%
       + [ジャーニーのシミュレート](using/building-journeys/journey-simulation.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + ジャーニーの管理{#manage-journey}
-      + [ジャーニーの終了](using/building-journeys/end-journey.md)
-      + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
       + [プロファイルエントリ管理](using/building-journeys/entry-management.md)
+      + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
+      + [ジャーニーの終了](using/building-journeys/end-journey.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
@@ -73,9 +73,9 @@ ht-degree: 98%
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルの更新](using/building-journeys/update-profiles.md)
    + 式の作成 {#building-advanced-conditions-journeys}
-      + [概要](using/building-journeys/expression/expressionadvanced.md)
+      + [高度な式エディターの操作](using/building-journeys/expression/expressionadvanced.md)
       + 構文 {#syntax}
-         + [一般規則](using/building-journeys/expression/generalities.md)
+         + [高度な式エディターの構文](using/building-journeys/expression/generalities.md)
          + [条件付き手順](using/building-journeys/expression/conditional-instruction.md)
          + [データタイプ](using/building-journeys/expression/data-types.md)
          + [フィールド参照](using/building-journeys/expression/field-references.md)

@@ -1,23 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 構文
-description: 高度な式エディターについて学ぶ
+title: 高度な式エディターの構文
+description: 高度な式エディターで使用される構文について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: 構文, エディター, ジャーニー
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 87%
 
 ---
 
 # 高度な式エディターの構文 {#syntax}
 
-## 括弧と式の優先度{#parentheses-and-expression-priority}
+を使用する際の構文の基本 [高度な式エディター](expressionadvanced.md) を以下に示します。 高度な式エディターの使用例は、次の場所で参照できます。 [このページ](advanced-editor-use-cases.md).
+
+## 括弧と式の優先度 {#parentheses-and-expression-priority}
 
 括弧を使用すると、複雑な式が読みやすくなります。_(&lt;expression>)_ は _&lt;expression>_&#x200B;と同等です。括弧を使用して、評価順序と結合規則を定義することもできます。
 
@@ -30,7 +32,7 @@ ht-degree: 100%
 | `4 + 2 * 10` | <ul><li>「*」は「+」よりも優先されます：2 * 10 の評価結果は → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>括弧によって優先度が変わります：(4 + 2) の評価結果は → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## 大文字と小文字の区別{#case-sensitivity}
+## 大文字と小文字の区別 {#case-sensitivity}
 
 大文字と小文字の区別に関する様々なルールを次に示します。
 
@@ -38,7 +40,7 @@ ht-degree: 100%
 * すべての関数名では大文字と小文字が区別されます。例：_inAudience()_ は有効なのに対して、_INAUDIENCE()_ 関数は有効ではありません。
 * フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語の組み込み要素ではなく、エンドユーザーが作成します。
 
-## 式の戻り値のタイプ{#returned-expression-type}
+## 式の戻り値のタイプ {#returned-expression-type}
 
 使用コンテキストに応じて、式エディターは異なる値を返す可能性があります。
 
