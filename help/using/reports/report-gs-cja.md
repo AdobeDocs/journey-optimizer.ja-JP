@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="ベータ版" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 6%
+source-wordcount: '374'
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >
 > Journey Optimizerの従来のレポートに戻すには、を切り替えます **[!UICONTROL 新しいエクスペリエンスを使用]** オプション。
 
-Journey Optimizer レポート機能は、Customer Journey Analytics機能との相互運用性が向上し、両方のプラットフォーム間でレポートを標準化し、データの一貫性と信頼性を向上させます。 Journey OptimizerとCustomer Journey Analyticsのシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。
+Journey Optimizer レポート機能は、Customer Journey Analytics機能との相互運用性が向上し、両方のプラットフォーム間でレポートを標準化し、データの一貫性と信頼性を向上させます。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより情報に基づいた意思決定を行うことができます。
 
 * ジャーニーまたはジャーニーのコンテキストの配信をターゲットにする場合は、 **[!UICONTROL ジャーニー]** メニューに移動し、ジャーニーにアクセスして **[!UICONTROL レポートを表示]** ボタン。
 
@@ -48,3 +48,9 @@ Journey Optimizer レポート機能は、Customer Journey Analytics機能との
 * Journey Optimizer内でCustomer Journey Analyticsダッシュボードにアクセスするには、 **[!UICONTROL 新しいエクスペリエンスを使用]** レポートを切り替えます。
 
   ![](assets/cja-option.png)
+
+## チュートリアルビデオ{#video}
+
+以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
