@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新しいフラグメントのステータス"
->abstract="**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開するには、Publish フラグメントユーザー権限が必要です。"
+>abstract="**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。<br/>公開には、次が必要です <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish フラグメント</a> ユーザー権限。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="コンテンツフラグメントの権限の詳細情報"
 
 フラグメントには、次の複数のステータスがあります。
@@ -63,7 +63,7 @@ ht-degree: 50%
 
 >[!CAUTION]
 >
->**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開には、次が必要です [Publish フラグメント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager) ユーザー権限。
+>**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、「ドラフト」ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して「ライブ」にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開には、次が必要です [Publish フラグメント](../administration/ootb-product-profiles.md#content-library-manager) ユーザー権限。
 
 ## フラグメントの編集 {#edit-fragments}
 

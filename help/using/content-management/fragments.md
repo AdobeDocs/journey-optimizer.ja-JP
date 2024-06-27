@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 0ee93c3f3e922d0640b2867dcf5ebb83d67aa826
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 88%
+source-wordcount: '315'
+ht-degree: 82%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 88%
 
 ## 開始する前に {#fragment-prerequisites}
 
-フラグメントを作成、編集、アーカイブするには、**[!DNL Content Library Manager]** 製品プロファイルに **[!DNL Manage library items]** 権限が付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+フラグメントを作成、編集、アーカイブ、公開するには、 **[!DNL Manage library items]** および **[Publish フラグメント]** に含まれている権限 **[!DNL Content Library Manager]** 製品プロファイル。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
 このバージョンでは、次の制限が適用されます。
 

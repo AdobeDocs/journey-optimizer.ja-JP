@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 36%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->フラグメントを公開するには、次が必要です **Publish フラグメント** 関連する権限。 [権限について詳しくはこちらを参照](../administration/ootb-permissions.md)
+>フラグメントを公開するには、次が必要です [Publish フラグメント](../administration/ootb-product-profiles.md#content-library-manager) ユーザー権限。
 
 フラグメントの公開準備が整ったら、プレビューして公開し、ジャーニーやキャンペーンで利用できるようにします。 それには、次の手順に従います。
 
