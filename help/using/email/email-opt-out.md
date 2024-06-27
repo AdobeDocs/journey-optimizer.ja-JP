@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 32%
 
 ## ワンステップのオプトアウト {#opt-out-one-step}
 
-### メールヘッダーのワンクリック購読解除 URL {#unsubscribe-header}
+### メールヘッダーのワンクリック登録解除 URL {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="メールヘッダーに購読解除 URL を追加"
->abstract="List-Unsubscribe ヘッダーを有効にして、メールヘッダーに購読解除 URL を追加します。 購読解除 URL を設定するには、メールのコンテンツにワンクリックオプトアウトリンクを挿入します。"
+>title="メールヘッダーに登録解除 URL を追加"
+>abstract="List-Unsubscribe ヘッダーを有効にして、メールヘッダーに登録解除 URL を追加します。購読解除 URL を設定するには、メールのコンテンツにワンクリックオプトアウトリンクを挿入します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#one-click-opt-out" text="ワンクリックオプトアウト"
 
 ワンクリックリスト登録解除 URL は、メール送信者情報の横に表示される登録解除リンクまたはボタンです。受信者はワンクリックでメーリングリストから即座にオプトアウトできます。 Adobe Journey Optimizerでは、 **リストの購読解除を有効にする** オプションをオンにすると、メール受信者がメーリングリストの購読を解除するために使用できる mailto や URL の両方がメールヘッダーにデフォルトで含まれます。

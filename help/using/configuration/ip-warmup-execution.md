@@ -15,7 +15,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
 source-wordcount: '2558'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="キャンペーンオーディエンスの除外"
->abstract="現在のフェーズからオーディエンスを除外するキャンペーンを選択します。これにより、以前にコンタクトしたプロファイルが再度ターゲットになることを防ぎます。ジャーニーを介してコミュニケーションを受け取ったプロファイルのみが除外されます。"
+>abstract="現在のフェーズからオーディエンスを除外するキャンペーンを選択します。以前にコンタクトしたプロファイルが再度ターゲットになることを防ぎます。除外されるのは、ジャーニーを介して連絡した相手のみです。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"

@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 34%
+ht-degree: 42%
 
 ---
 
@@ -64,8 +64,8 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="再エントリを許可"
->abstract="デフォルトでは、新規ジャーニーで再エントリが許可されています。「」チェックボックスをオフにできます **再エントリを許可** オプション例えば、入店時に 1 回限りのギフトをオファーする場合に使用します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
+>abstract="デフォルトでは、新規ジャーニーで再エントリが許可されています。例えば、入店時に 1 度だけギフトをオファーする場合は、この「**再エントリを許可**」オプションをオフにします。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
 
 デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。
 
@@ -74,8 +74,8 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="再エントリ待機期間"
->abstract=" 単一のジャーニーでプロファイルがジャーニーに再度エントリできるようにするまでの待機時間を設定します。 これにより、選択した期間、ユーザーがジャーニーに再エントリするのを防ぎます。 最大期間：90 日。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
+>abstract=" 単一のジャーニー内でプロファイルがジャーニーに再度エントリできるようになるまでの、待機時間を設定します。これにより、選択した期間、ユーザーはジャーニーに再エントリできなくなります。最大期間：90 日。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
 
 「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 90 日です。
 
@@ -97,13 +97,13 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="開始日"
->abstract="ジャーニーへのエントリを開始できる日付を選択します。 開始日を指定しない場合、公開時に自動的に設定されます。"
+>abstract="ジャーニーへのエントリを開始できる日付を選択します。開始日を指定しない場合、公開時に自動的に設定されます。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="終了日"
->abstract="ジャーニーの終了日を選択します。 その日付に達すると、そのジャーニーのプロファイルは自動的に終了し、新しいプロファイルはエントリできなくなります。"
+>abstract="ジャーニーの終了日を選択します。指定した日付に達すると、そのジャーニーのプロファイルは自動的に終了し、新規プロファイルがエントリできなくなります。"
 
 **開始日**&#x200B;を定義できます。 指定していない場合は、公開時に自動的に定義されます。
 
@@ -116,7 +116,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="タイムアウト"
->abstract="タイムアウトと見なす前に、ジャーニーがアクションの実行または条件の検証を試行する時間を定義します。"
+>abstract="タイムアウトと見なされる前に、ジャーニーがアクションの実行または条件の検証を試行する時間を定義します。"
 
 
 アクションまたは条件のアクティビティを編集するときに、エラーやタイムアウトが発生した場合の代替パスを定義できます。サードパーティシステムに照会するアクティビティの処理が、で定義されたタイムアウト時間を超えた場合 **[!UICONTROL タイムアウトまたはエラー]** ジャーニーのプロパティのフィールドである 2 番目のパスが、潜在的なフォールバックアクションを実行するために選択されます。
