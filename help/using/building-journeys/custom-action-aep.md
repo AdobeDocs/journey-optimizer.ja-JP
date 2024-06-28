@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer コンソールでプロジェクトを作成したら、開発者と API に適切な権限によるアクセス制御を付与してください。 詳しくは、を参照してください [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}を参照してください
 
 ## HTTP API インレットを使用したソースの設定
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Journey Optimizer に Infobip を設定するには、次の手順に従いま�
 
    * **[!UICONTROL コールバックデータ]**：通知 URL で送信する追加のクライアントデータを入力します。
 
-   * **[!UICONTROL インバウンド番号]**：一意のインバウンド番号を追加します。 これにより、異なるサンドボックスで同じ API 資格情報を使用し、それぞれに独自のインバウンド番号を設定できます。
+   * **[!UICONTROL インバウンド番号]**：ユニークなインバウンド番号を追加します。これにより、それぞれに独自のインバウンド番号を持つ異なるサンドボックス間で同じ API 資格情報を使用できます。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 

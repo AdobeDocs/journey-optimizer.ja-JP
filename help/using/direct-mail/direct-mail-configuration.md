@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1272'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -78,19 +78,19 @@ ht-degree: 81%
 
 1. 設定の名前を設定します。
 
-1. を選択 **Amazon S3** as the **[!UICONTROL サーバータイプ]** を使用してダイレクトメールファイルを書き出します。
+1. ダイレクトメールファイルの書き出しに使用する&#x200B;**[!UICONTROL サーバータイプ]**&#x200B;として「**Amazon S3**」を選択します。
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. サーバーの詳細と資格情報を入力します
 
-   * **AWS バケット名**:AWS バケット名の場所については、を参照してください。 [このページ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+   * **AWS バケット名**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)を参照してください。
 
-   * **AWS アクセスキー**:AWS アクセスキー ID の場所については、次を参照してください。 [このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+   * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
 
-   * **AWS秘密鍵**:AWS秘密鍵の場所については、次を参照してください。 [このページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/).
+   * **AWS 秘密鍵**：AWS 秘密鍵を見つける場所については、[このページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
-   * **AWS**：を選択 **[!UICONTROL AWS]** サーバーインフラストラクチャが配置される場所。 AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
+   * **AWS リージョン**：サーバーインフラストラクチャを配置する **[!UICONTROL AWS リージョン]**&#x200B;を選択します。AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
@@ -108,19 +108,19 @@ ht-degree: 81%
 
 1. 設定の名前を設定します。
 
-1. SFTP をとして選択 **[!UICONTROL サーバータイプ]** を使用してダイレクトメールファイルを書き出します。
+1. ダイレクトメールファイルの書き出しに使用する&#x200B;**[!UICONTROL サーバータイプ]**&#x200B;として「SFTP」を選択します。
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
 1. サーバーの詳細と資格情報を入力します。
 
-   * **アカウント**:SFTP サーバーへの接続に使用するアカウント名。
+   * **アカウント**：SFTP サーバーへの接続に使用するアカウント名。
 
-   * **サーバーアドレス**: &#x200B;SFTP サーバーの URL。
+   * **サーバーアドレス**：SFTP サーバーの URL。
 
-   * **ポート**:FTP 接続のポート番号。
+   * **ポート**：FTP 接続のポート番号。
 
-   * **パスワード**:&#x200B;SFTP サーバーへの接続に使用するパスワード。
+   * **パスワード**：SFTP サーバーへの接続に使用するパスワード。
 
    ![](assets/file-routing-config-sftp-detail.png)
 
@@ -138,21 +138,21 @@ ht-degree: 81%
 
 1. 設定の名前を設定します。
 
-1. Azure を選択 **[!UICONTROL サーバータイプ]** を使用してダイレクトメールファイルを書き出します。
+1. ダイレクトメールファイルの書き出しに使用する、Azure **[!UICONTROL サーバータイプ]**&#x200B;を選択します。
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
 1. サーバーの詳細と資格情報を入力します。
 
-   * **Azure 接続文字列**：を検索します **Azure 接続文字列**&#x200B;を参照してください。 [このページ](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+   * **Azure 接続文字列**：**Azure 接続文字列**&#x200B;を見つけるには、[このページ](https://learn.microsoft.com/ja-jp/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)を参照してください。
 
-     この **Azure 接続文字列** は、次の形式に従う必要があります。
+     **Azure 接続文字列**&#x200B;は、以下の形式に従う必要があります。
 
      `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-   * **コンテナ名**：を検索します **コンテナ名**&#x200B;を参照してください。 [このページ](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+   * **コンテナ名**：**コンテナ名**&#x200B;を見つけるには、[このページ](https://learn.microsoft.com/ja-jp/azure/storage/blobs/blob-containers-portal)を参照してください。
 
-     この **コンテナ名** は、コンテナの名前のみをスラッシュなしで含める必要があります。 ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンのファイル名を目的のパスを含むように更新します。
+     **コンテナ名**&#x200B;には、コンテナ名のみをスラッシュなしで含める必要があります。ファイルを保存するためのコンテナ内のパスを指定するには、ダイレクトメールキャンペーンのファイル名を更新して、目的のパスを含めます。
 
 1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 

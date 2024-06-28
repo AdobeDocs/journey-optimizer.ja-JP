@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 ジャーニーを手動でクローズすると、既にジャーニーにエントリしている顧客はパスを終了できますが、新しいユーザーはジャーニーにエントリできなくなります。（上記の理由のいずれかにより）ジャーニーをクローズした場合、ステータスは「**[!UICONTROL クローズド]**」になります。ジャーニーは、新しい個人がジャーニーにエントリするのを停止します。既にジャーニーにエントリしているユーザーは、通常どおりにジャーニーを終了できます。
 
-91 日後 [グローバルタイムアウト](journey-properties.md#timeout)オーディエンスを読み取りジャーニーはに切り替わります。 **完了** ステータス。 この動作は 91 日間のみ設定されます（例： [ジャーニーのグローバルタイムアウト値](journey-properties.md#global_timeout)）を選択します。ジャーニーにエントリしたプロファイルに関するすべての情報は、ジャーニーへのエントリから 91 日後に削除されます。 ジャーニーにまだ留まっているユーザーは、自動的に影響を受けます。91 日のタイムアウトの後にジャーニーを終了します。
+91 日間の[グローバルタイムアウト](journey-properties.md#timeout)後、オーディエンスを読み取りジャーニーは&#x200B;**完了**&#x200B;ステータスに切り替わります。ジャーニーにエントリしたプロファイルに関するすべての情報は、ジャーニーにエントリしてから 91 日後に削除されるので、この動作は 91 日間（つまり、[ジャーニーグローバルタイムアウト値](journey-properties.md#global_timeout)）にのみ設定されます。ジャーニーにまだ留まっているユーザーは、自動的に影響を受けます。91 日間のタイムアウトが経過すると、ジャーニーは終了します。
 
 この[節](../building-journeys/journey-properties.md#global_timeout)を参照してください。
 

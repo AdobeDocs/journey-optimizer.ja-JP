@@ -10,9 +10,9 @@ level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ API トリガーキャンペーンを作成するには、次の手順に従い�
 
      >[!NOTE]
      >
-     >1 回の API 呼び出しで、最大 20 人の一意の受信者をサポートできます。 各受信者には一意のユーザー ID が必要です。重複したユーザー ID は使用できません。 詳しくは、を参照してください [インタラクティブメッセージ実行 API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
+     >1 回の API 呼び出しで最大 20 人のユニーク受信者をサポートできます。各受信者は一意のユーザー ID を持つ必要があり、重複するユーザー ID は許可されていません。詳しくは、[Interactive Message Execution API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}を参照してください
 
    * **マーケティング**&#x200B;タイプのキャンペーンの場合は、「**[!UICONTROL オーディエンス]**」ボタンをクリックして、ターゲットにするオーディエンスを選択します。
 

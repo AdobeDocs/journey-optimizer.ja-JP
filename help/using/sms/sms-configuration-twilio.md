@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Journey Optimizer に Twilio を設定するには、Twilio に使用する新�
 
    * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、[Twilio のドキュメント](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}を参照してください。
 
-   * **[!UICONTROL インバウンド番号]**：一意のインバウンド番号を追加します。 これにより、異なるサンドボックスで同じ API 資格情報を使用し、それぞれに独自のインバウンド番号を設定できます。
+   * **[!UICONTROL インバウンド番号]**：ユニークインバウンド番号を追加します。これにより、それぞれに独自のインバウンド番号を持つ異なるサンドボックス間で同じ API 資格情報を使用できます。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
