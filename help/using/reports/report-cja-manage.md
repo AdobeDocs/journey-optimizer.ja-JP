@@ -12,21 +12,21 @@ exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 # レポートの管理 {#channel-cja-manage}
 
-## Customer Journey Analyticsで分析 {#analyze}
+## Customer Journey Analytics での分析 {#analyze}
 
 ![](assets/cja-analyze.png)
 
-を使用したデータ分析エクスペリエンスの向上 **[!DNL Customer Journey Analytics]** を利用したライセンス **[!UICONTROL CJA での分析]** すべてのレポートで使用できる機能。
+すべてのレポートで利用できる **[!UICONTROL CJA での分析]**&#x200B;を活用することで、**[!DNL Customer Journey Analytics]** ライセンスを使用したデータ分析エクスペリエンスを強化します。
 
-この強力なオプションにより、にシームレスにリダイレクトされます **[!DNL Customer Journey Analytics]** 環境。レポートを幅広くパーソナライズできます。 専用のCustomer Journey Analytics指標を使用してウィジェットを強化し、インサイトをまったく新しいレベルに引き上げることができます。
+この強力なオプションにより、**[!DNL Customer Journey Analytics]** 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。
 
-[Customer Journey Analyticsインターフェイスの詳細情報。](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[詳しくは、Customer Journey Analytics インターフェイスを参照してください。](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## レポート期間の定義 {#report-period}
 
@@ -34,7 +34,7 @@ ht-degree: 35%
 
 レポートにアクセスする際に、レポートの右上隅にある期間フィルターを適用できます。
 
-デフォルトでは、キャンペーンまたはジャーニーのフィルター期間は、開始日と終了日に設定されています。 終了日がない場合、フィルターはデフォルトで現在の日付になります。
+デフォルトでは、キャンペーンまたはジャーニーのフィルター期間は、開始日と終了日に設定されています。終了日がない場合、フィルターはデフォルトで現在の日付になります。
 
 フィルターを変更するには、カスタムの開始日と期間を選択するか、先週または 2 か月前などのプリセットオプションから選択します。
 
@@ -62,12 +62,12 @@ ht-degree: 35%
 
    ![](assets/export_cja_pdf.png)
 
-1. ダウンロードが要求されたら、 **[!UICONTROL Download]**.
+1. ダウンロードがリクエストされたら、「**[!UICONTROL ダウンロード]**」をクリックします。
 
    ![](assets/export_cja_pdf_2.png)
 
 1. ファイルはブラウザーで自動的に開きます。
 
-これで、レポートを PDF ファイルで表示、ダウンロード、共有できるようになりました。
+これで、レポートを PDF ファイルで表示、ダウンロードまたは共有できるようになりました。
 
 >[!ENDTABS]
