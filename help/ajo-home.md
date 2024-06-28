@@ -1,20 +1,20 @@
 ---
 keywords: Journey Optimizer;ホーム;人気のトピック
-title: Journey Optimizer 製品ドキュメント
+title: Journey Optimizer製品ドキュメント
 description: Adobe Journey Optimizer の使用方法について説明します。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
-## 新着情報
+## 最新情報
 
 Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。[ドキュメントの更新ページ](using/rn/documentation-updates.md)にアクセスして、ドキュメントの最新の変更点を常に最新の状態に保ってください。
 
