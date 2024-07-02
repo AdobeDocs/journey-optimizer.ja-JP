@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >id="ajo_create_visual_fragment"
 >title="ビジュアルタイプを選択"
 >abstract="スタンドアロンのビジュアルフラグメントを作成して、ジャーニーまたはキャンペーン内のメールや、コンテンツテンプレートでコンテンツを再利用できるようにします。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="メールへのビジュアルフラグメントの追加"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="メールへのビジュアルフラグメントの追加"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
