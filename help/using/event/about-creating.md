@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
+source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -164,7 +164,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
 ### 高度な式エディター {#adv-exp-editor}
 
-プロファイル識別子を定義する際に、高度な式エディターに切り替えて、より複雑なキーを作成できます（例えば、イベントの 2 つのフィールドを連結するなど）。
+プロファイル識別子を定義する際に、高度な式エディターに切り替えて、より複雑なキーを作成できます（例えば、イベントの 2 つのフィールドを連結）。
 
 ![](assets/journey20.png)
 
