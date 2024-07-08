@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
-workflow-type: ht
-source-wordcount: '1613'
+source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
+workflow-type: tm+mt
+source-wordcount: '1616'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 100%
    >
    >**[!UICONTROL システム生成]**&#x200B;タイプを選択した場合は、eventID タイプのフィールドを持つスキーマのみを使用できます。**[!UICONTROL ルールベース]**&#x200B;タイプを選択した場合は、すべてのエクスペリエンスイベントのスキーマを使用できます。
 
-1. ルールベースのイベントの場合は、「**[!UICONTROL イベント ID 条件]**」フィールド内でクリックします。<!--simple or advanced-->式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
+1. ルールベースのイベントの場合は、「**[!UICONTROL イベント ID 条件]**」フィールド内でクリックします。簡単で高度な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
 
 ![](assets/jo-event6.png)
 
