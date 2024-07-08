@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
+source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 98%
+source-wordcount: '1608'
+ht-degree: 97%
 
 ---
 
@@ -162,9 +162,9 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 イベントを受け取ると、キーの値によって、システムはイベントに関連付けられた人物を識別できます。キーは名前空間に関連付けられ（[この節](../event/about-creating.md#select-the-namespace)を参照）、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
-### 高度な式エディター {#adv-exp-editor}
+## 高度な式エディター {#adv-exp-editor}
 
-プロファイル識別子を定義する際に、高度な式エディターに切り替えて、より複雑なキーを作成できます（例えば、イベントの 2 つのフィールドを連結）。
+イベント ID 条件またはプロファイル識別子を定義する際に、高度な式エディターに切り替えて、より複雑なキーを作成できます（例えば、イベントの 2 つのフィールドを連結するなど）。
 
 ![](assets/journey20.png)
 
