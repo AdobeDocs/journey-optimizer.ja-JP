@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fa4bcf281e9d58f5291a0128d0d33884016f407b
+source-git-commit: 18fca9796e40d43f886ad8d53ef7d1b6b6642aa6
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 69%
+source-wordcount: '1104'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 69%
 
 **最新の更新**:2024 年 7 月 8 日（PT）
 
-**ジャーニーイベント設定の高度な式エディター** - イベントを設定する際に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 以前は限定提供（LA）でリリースされていましたが、現在はすべてのお客様がこの機能を利用できます。 [詳細情報](../event/about-creating.md#adv-exp-editor)
+**ジャーニーイベント設定の高度な式エディター** - イベントを設定する際に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 [詳細情報](../event/about-creating.md#adv-exp-editor)
 
 
 ## 2024年6月リリースノート {#24-6-2024}
