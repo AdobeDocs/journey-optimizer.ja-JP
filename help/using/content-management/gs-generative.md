@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 >
 >現在、Adobe Journey Optimizer の AI アシスタントは、一部のユーザーのみがベータ版として利用できます。
 
-Adobe Journey Optimizer の AI アシスタントは、テキストや画像に対してコンテンツのバリエーションをプロアクティブに提案する機能を提供します。メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。
+Azure OpenAI と Azure Vision を活用したAdobe Journey Optimizerの AI アシスタントは、テキストや画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。 メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。
 
 Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。Journey Optimizer のコンテンツ実験を使用すると、ターゲットオーディエンスに最適なパフォーマンスを発揮するのはどれかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
 
