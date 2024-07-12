@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 高度な式エディターの操作
-description: 高度な式の作成方法を学ぶ
+description: 高度な式の作成方法について説明します。
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -11,7 +11,7 @@ exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

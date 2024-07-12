@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="チャネルサーフェス"
->abstract="チャネルサーフェスは、システム管理者によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 "
+>abstract="チャネルサーフェスは、システム管理者によって定義された設定です。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するすべての技術的なパラメーターが含まれています。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
@@ -45,7 +45,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="デフォルトの URL"
+>title="デフォルト URL"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

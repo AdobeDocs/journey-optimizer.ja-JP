@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->フラグメントを公開するには、次が必要です [Publish フラグメント](../administration/ootb-product-profiles.md#content-library-manager) ユーザー権限。
+>フラグメントを公開するには、[フラグメントを公開](../administration/ootb-product-profiles.md#content-library-manager)するユーザー権限が必要です。
 
 フラグメントを公開する準備が整ったら、プレビューして公開し、ジャーニーとキャンペーンで使用できます。それには、次の手順に従います。
 

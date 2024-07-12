@@ -12,7 +12,7 @@ exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、こちらを参照してください [セクション](../action/action-response.md)
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。応答について詳しくは、[この節](../action/action-response.md)を参照してください。
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。フィールドグループは、データソースから取得できるフィールドのセットです。[このページ](../datasource/configure-data-sources.md#define-field-groups)を参照してください。
 

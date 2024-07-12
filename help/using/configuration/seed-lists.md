@@ -12,7 +12,7 @@ exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->多言語や実験のバリアントなど、バリアントがサポートされています。 各シードアドレスは、同じメッセージのすべてのバリアント（例：からのさまざまなバージョン）のコピーを 1 つ受け取ります。 [コンテンツ実験](../content-management/get-started-experiment.md). 条件付きコンテンツに対しては、個別のシードメールは送信されないことに注意してください。
+>多言語バリアントや実験バリアントなどのバリアントがサポートされています。各シードアドレスは、同じメッセージのすべてのバリアント（例：[コンテンツ実験](../content-management/get-started-experiment.md)から得られる様々なバージョン）のコピーを 1 つだけ受け取ります。条件付きコンテンツについては、別個のシードメールは送信されないことに注意してください。
 
 ## シードリストへのアクセス {#access-seed-lists}
 
