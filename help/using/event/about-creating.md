@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1610'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 単一イベントは、特定のプロファイルにリンクされます。ルールベースによるものと、システムで生成されるものがあります。単一イベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
-以下は、新しいイベントを設定する最初の手順です。
+新規イベントを設定する最初の手順は次のとおりです。
 
-1. 「管理」メニューセクションで、を参照します。 **[!UICONTROL 設定]**、および  **[!UICONTROL イベント]** セクションで、をクリック **[!UICONTROL 管理]**. イベントのリストが表示されます。
+1. 「管理」メニューセクションで&#x200B;**[!UICONTROL 設定]**&#x200B;に移動し、「**[!UICONTROL イベント]**」セクションで「**[!UICONTROL 管理]**」をクリックします。イベントのリストが表示されます。
 
    ![](assets/jo-event1.png)
 
