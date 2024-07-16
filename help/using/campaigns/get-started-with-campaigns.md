@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="キャンペーン"
->abstract="キャンペーンを作成して、様々なチャネルで特定のオーディエンスに 1 回限りのコンテンツを配信します。キャンペーンを作成する前に、チャネルサーフェス（例：メッセージプリセット）と Adobe Experience Platform オーディエンスが使用できる状態になっていることを確認します。"
+>abstract="キャンペーンを作成して、様々なチャネルで特定のオーディエンスに 1 回限りのコンテンツを配信します。キャンペーンを作成する前に、チャネルサーフェスとAdobe Experience Platform オーディエンスが使用できる状態になっていることを確認します。"
 
 Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションは順番に実行されます。キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。
 
