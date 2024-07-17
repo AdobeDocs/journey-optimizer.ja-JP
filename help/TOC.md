@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 98%
+source-wordcount: '1877'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
    + ジャーニーの管理{#manage-journey}
       + [プロファイルエントリ管理](using/building-journeys/entry-management.md)
-      + [タイムゾーンの管理](using/building-journeys/timezone-management.md)
+      + [タイムゾーン管理](using/building-journeys/timezone-management.md)
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
@@ -311,6 +311,7 @@ ht-degree: 98%
       + パーソナライズ機能のユースケース{#personalization-use-cases}
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
+         + [医療保険処方箋のメール](using/personalization/perso-uc-plan-prescriptions.md)
    + コンテンツテンプレート {#content-templates}
       + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
       + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)

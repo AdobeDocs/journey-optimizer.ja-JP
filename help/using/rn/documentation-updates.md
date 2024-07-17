@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
 workflow-type: tm+mt
-source-wordcount: '5383'
+source-wordcount: '5407'
 ht-degree: 99%
 
 ---
@@ -19,12 +19,16 @@ ht-degree: 99%
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
 
+## 2024年7月 {#july-2024}
+
+* 情報に関連する医療プランおよび処方箋を使用してメールをパーソナライズする方法に関する、パーソナライゼーションのユースケースが追加されました。 [詳細情報](../personalization/perso-uc-plan-prescriptions.md)
+
 ## 2024年6月 {#june-2024}
 
 * [!DNL Journey Optimizer] の 2024年6月リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
 * ジャーニーでの結合ポリシーの使用に関するメモを[このページ](../building-journeys/journey-properties.md#merge-policies)に追加しました。
 * ジャーニーで&#x200B;**待機**&#x200B;アクティビティを設定する方法に関するページが再編成され、改善されました。[詳細情報](../building-journeys/wait-activity.md)
-* ジャーニーのプロパティの詳細を表示する新しいページが作成されました。 [詳細情報](../building-journeys/journey-properties.md)
+* ジャーニーのプロパティの詳細を表示する新しいページが作成されました。[詳細情報](../building-journeys/journey-properties.md)
 
 ## 2024年5月 {#may-2024}
 
