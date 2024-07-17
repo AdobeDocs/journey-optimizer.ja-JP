@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: コンテンツテンプレートを作成
+title: コンテンツテンプレートの作成
 description: テンプレートを作成して、Journey Optimizer のキャンペーンとジャーニーでコンテンツを再利用する方法を学ぶ
 feature: Templates
 topic: Content Management
@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

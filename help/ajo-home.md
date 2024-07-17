@@ -1,6 +1,6 @@
 ---
 keywords: Journey Optimizer;ホーム;人気のトピック
-title: Journey Optimizer製品ドキュメント
+title: Journey Optimizer 製品ドキュメント
 description: Adobe Journey Optimizer の使用方法について説明します。
 solution: Journey Optimizer
 product: journey optimizer
@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer 5月リリースに含まれる新機能と機能強化�
 
 >[!TAB Customer Journey Analytics を使用したレポート（ベータ版）]
 
-Journey Optimizer レポート機能は、Customer Journey Analytics機能との相互運用性が向上し、両方のプラットフォーム間でレポートを標準化し、データの一貫性と信頼性を向上させます。
+Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 

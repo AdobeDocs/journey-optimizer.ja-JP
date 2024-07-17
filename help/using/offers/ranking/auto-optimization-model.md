@@ -33,7 +33,7 @@ ht-degree: 96%
 
 * **トンプソンサンプリング**：トンプソンサンプリングは、オンラインでの決定問題に対するアルゴリズムであり、既知の要素を活用して即座にパフォーマンスを最大化することと、今後のパフォーマンス向上につながる可能性のある新しい情報の蓄積に投資することの間でバランスを取りながらアクションが順次実行されます。[詳細情報](#thompson-sampling)
 
-* [**ベータ分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}：連続のセット [確率分布](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} 間隔に定義 [0、1] [パラメーター化](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} 2 つの正によって [形状パラメータ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
+* [**Beta分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}:2 つの正の [ 形状母数 ](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} によってパラメーター化された ] 区間 [0, 1[ で定義された連続 [ 確率分布 ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} のセット ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}。
 
 ## トンプソンサンプリング {#thompson-sampling}
 
@@ -71,7 +71,7 @@ ht-degree: 96%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-前述の尤度関数は、成功（コンバージョン）と失敗（コンバージョンなし）の二項分布でモデル化されます。q は [確率変数](https://ja.wikipedia.org/wiki/確率変数){target="_blank"} （を使用） [ベータ分布](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}.
+前述の尤度関数は、成功（コンバージョン）と失敗（コンバージョンなし）の二項分布でモデル化されます。q は [ ベータ分布 ](https://ja.wikipedia.org/wiki/確率変数){target="_blank"} の [ 確率変数 ](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"} です。
 
 事前分布はベータ分布でモデル化され、事後分布は次の形式を取ります。
 

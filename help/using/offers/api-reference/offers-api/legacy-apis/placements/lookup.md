@@ -9,13 +9,13 @@ exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # プレースメントの検索 {#look-up-placement}
 
-に対してGETリクエストを実行することで、特定のプレースメントを検索できます。 [!DNL Offer Library] プレースメントを含む API `@id` または、リクエストパス内のプレースメントの名前。
+[!DNL Offer Library] API に対してリクエストパスにプレースメントの `@id` または名前を含める GET リクエストを実行することで、特定のプレースメントを検索できます。
 
 **API 形式**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | プレースメントが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | プレースメントに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | に一致させる文字列 `@id` エンティティのプロパティ。 文字列は完全に一致します。 パラメーター `id` および `name` 一緒に使用することはできません。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | エンティティの xdm:name プロパティと一致させるために使用される文字列。 文字列は大文字と小文字が完全に一致しますが、ワイルドカード文字を使用できます。 パラメーター `id` および `name` 一緒に使うことはできない | `Sales and Promotions Placement` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-placement:124541309805b7e8` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、プレースメントに関する詳細（コンテナ ID、インスタンス ID、一意のプレースメントに関する情報を含む）が返されます `@id`.
+正常な応答では、プレースメントに関する詳細（コンテナ ID、インスタンス ID、一意のプレースメント `@id` に関する情報を含む）が返されます。
 
 ```json
 {

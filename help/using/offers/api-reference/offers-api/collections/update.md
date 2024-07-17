@@ -1,5 +1,5 @@
 ---
-title: コレクションを更新
+title: コレクションの更新
 description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # コレクションの更新 {#update-collection}
 
-コレクションを変更または更新するには、次の項目に対してPATCHリクエストを行います。 [!DNL Offer Library] API
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コレクションを変更または更新できます
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 

@@ -9,13 +9,13 @@ exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの更新 {#update-personalized-offer}
 
-に対してPATCHリクエストを行うことで、パーソナライズされたオファーを変更または更新できます。 [!DNL Offer Library] API
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、パーソナライズされたオファーを変更または更新できます
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 

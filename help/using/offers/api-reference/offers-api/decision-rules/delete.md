@@ -1,5 +1,5 @@
 ---
-title: 決定ルールを削除
+title: 決定ルールの削除
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Decision Management, API
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 決定ルールの削除 {#delete-decision-rule}
 
-場合によっては、決定ルールを削除（DELETE）する必要があります。 これは、削除する決定ルールの `id` を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
+場合によっては、決定ルールを削除（DELETE）する必要があります。これは、削除する決定ルールの `id` を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
 
 **API 形式**
 

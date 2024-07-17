@@ -1,5 +1,5 @@
 ---
-title: コレクションを更新
+title: コレクションの更新
 description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 topic: Integrations
@@ -9,19 +9,19 @@ exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # コレクションの更新 {#update-collection}
 
-コレクションを変更または更新するには、次の項目に対してPATCHリクエストを行います。 [!DNL Offer Library] API
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コレクションを変更または更新できます
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、を構成する有効な値を示します *Content-Type* および *承諾* リクエストヘッダーのフィールド :
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`、`remove` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 
 **応答**
 
-応答が成功すると、更新されたコレクションの詳細（一意のインスタンス ID とコレクションを含む）が返されます `@id`.
+正常な応答では、コレクションの更新された詳細（一意のインスタンス ID とコレクション `@id` を含む）が返されます。
 
 ```json
 {

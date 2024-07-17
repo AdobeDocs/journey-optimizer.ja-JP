@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツテンプレートの基本を学ぶ
-description: コンテンツテンプレートを操作して、Journey Optimizer キャンペーンやジャーニーでコンテンツを再利用する方法を説明します
+description: コンテンツテンプレートを操作して、Journey Optimizer のキャンペーンとジャーニーでコンテンツを再利用する方法について説明します。
 feature: Templates
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 

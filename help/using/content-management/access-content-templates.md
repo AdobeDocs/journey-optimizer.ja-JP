@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツテンプレートへのアクセスと管理
-description: コンテンツテンプレートにアクセスして管理する方法を学ぶ
+description: コンテンツテンプレートへのアクセスと管理の方法について説明します。
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 76%
 
 ## コンテンツテンプレートの編集と削除 {#edit}
 
-* テンプレートコンテンツを編集するには、リストから目的の項目をクリックし、必要な変更を行います。 テンプレート名の横にある「編集」ボタンをクリックして、コンテンツテンプレートのプロパティを編集することもできます。
+* テンプレートコンテンツを編集するには、リストから目的の項目をクリックし、必要な変更を行います。また、テンプレート名の横にある編集ボタンをクリックして、コンテンツテンプレートのプロパティを編集することもできます。
 
   ![](assets/content-template-edit.png)
 

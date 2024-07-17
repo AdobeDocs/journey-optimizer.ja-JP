@@ -1,5 +1,5 @@
 ---
-title: フォールバックオファーを参照
+title: フォールバックオファーの検索
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
 topic: Integrations
@@ -9,7 +9,7 @@ exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | フォールバックオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | に一致させる文字列 `@id` エンティティのプロパティ。 文字列は完全に一致します。 パラメーター `id` および `name` 一緒に使用することはできません。 | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | エンティティの xdm:name プロパティと一致させるために使用される文字列。 文字列は大文字と小文字が完全に一致しますが、ワイルドカード文字を使用できます。 パラメーター `id` および `name` 一緒に使うことはできない | `F1: Web fallback` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `F1: Web fallback` |
 
 **リクエスト**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、フォールバックオファーに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のフォールバックオファーに関する情報を含む）が返されます `@id`.
+正常な応答では、フォールバックオファーに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のフォールバックオファー `@id` に関する情報を含む）が返されます。
 
 ```json
 {

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 高度な式エディターの構文
-description: 高度な式エディターで使用される構文について説明します
+description: 高度な式エディターで使用される構文について説明します。
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -11,13 +11,13 @@ exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # 高度な式エディターの構文 {#syntax}
 
-を使用する際の構文の基本 [高度な式エディター](expressionadvanced.md) を以下に示します。 高度な式エディターの使用例は、次の場所で参照できます。 [このページ](advanced-editor-use-cases.md).
+[高度な式エディター](expressionadvanced.md)を使用する際の構文の基本事項を以下に示します。高度な式エディターの使用例について詳しくは、[このページ](advanced-editor-use-cases.md)を参照してください。
 
 ## 括弧と式の優先度 {#parentheses-and-expression-priority}
 

@@ -7,7 +7,7 @@ topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 100%
 

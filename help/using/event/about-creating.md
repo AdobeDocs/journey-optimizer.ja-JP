@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 100%
 

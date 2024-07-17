@@ -61,7 +61,7 @@ ht-degree: 96%
 
 ![](assets/ajo-aa_4.png)
 
-Adobe Analytics ソースコネクタについて詳しくは、を参照してください  [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"} および [チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"}.
+Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"} および [ チュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"} を参照してください。
 
 ## この設定のアクティベート {#activate-analytics-data}
 
@@ -95,7 +95,7 @@ Adobe Analytics ソースコネクタについて詳しくは、を参照して�
 
    ![](assets/ajo-aa_5.png)
 
-1. クリック **[!UICONTROL イベントを作成]**. 画面の右側にイベント設定ペインが開きます。
+1. **[!UICONTROL イベントを作成]** をクリックします。 画面の右側にイベント設定ペインが開きます。
 
 
 1. 次の&#x200B;**[!UICONTROL イベント]**&#x200B;パラメーターを入力します。

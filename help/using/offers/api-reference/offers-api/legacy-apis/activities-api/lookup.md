@@ -9,7 +9,7 @@ exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 決定に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | に一致させる文字列 `@id` エンティティのプロパティ。 文字列は完全に一致します。 パラメーター `id` および `name` 一緒に使用することはできません。 | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | エンティティの xdm:name プロパティと一致させるために使用される文字列。 文字列は大文字と小文字が完全に一致しますが、ワイルドカード文字を使用できます。 パラメーター&quot;id&quot;と&quot;name&quot;は併用できません | `LBAR` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター「id」と「name」は一緒に使用できません。 | `LBAR` |
 
 **リクエスト**
 

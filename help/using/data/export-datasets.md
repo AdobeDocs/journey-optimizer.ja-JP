@@ -67,7 +67,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 ## 前提条件 {#prerequisites}
 
-データセットを書き出すには、 [アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions){target="_blank"} 以下に示します。 を読み取る [アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja){target="_blank"} または、製品管理者に問い合わせて、必要な権限を取得してください。
+データセットを書き出すには、以下に示す [ アクセス制御権限 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions){target="_blank"} が必要です。 詳しくは、[ アクセス制御の概要 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja){target="_blank"} または製品管理者に問い合わせて、必要な権限を取得してください。
 
 | カテゴリ | 権限 |
 |--|--|

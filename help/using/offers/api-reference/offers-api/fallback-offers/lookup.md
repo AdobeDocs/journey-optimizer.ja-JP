@@ -1,5 +1,5 @@
 ---
-title: フォールバックオファーを参照
+title: フォールバックオファーの検索
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
 topic: Integrations
@@ -9,7 +9,7 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

@@ -9,13 +9,13 @@ exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの削除 {#delete-personalized-offer}
 
-場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。 それには、削除するパーソナライズされたオファーの ID を使用して、[!DNL Offer Library] API に対する DELETE リクエストを実行します。
+場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。それには、削除するパーソナライズされたオファーの ID を使用して、[!DNL Offer Library] API に対する DELETE リクエストを実行します。
 
 **API 形式**
 

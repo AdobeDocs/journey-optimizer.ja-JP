@@ -11,7 +11,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->トラブルシューティングのためには、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。 ジャーニーのプロパティ属性の詳細を学ぶ [この節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>トラブルシューティングの目的では、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。ジャーニーのプロパティ属性について詳しくは、[この節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)を参照してください。
 
 ## 基本的なユースケース／一般的なクエリ {#common-queries}
 

@@ -18,7 +18,7 @@ ht-degree: 95%
 
 # 同意ポリシーの使用 {#consent-management}
 
-データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer内のデータ操作が、に準拠していることを確認することが重要です [データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}. これらのポリシーは、以下を定義するAdobe Experience Platform ルールです [マーケティングアクション](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"} データに対してを実行できます。
+データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer内のデータ操作が、[ データ使用ポリシー ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"} に準拠していることを確認することが重要です。 これらのポリシーは、データに対して実行を許可する [ マーケティングアクション ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"} を定義するAdobe Experience Platform ルールです。
 
 使用可能なデータ使用ポリシーの 1 つのタイプは、**同意ポリシー**&#x200B;です。顧客の同意の環境設定に従ってマーケティングポリシーを簡単に採用および実施できます。[詳しくは、ポリシーの適用を参照してください](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=ja){target="_blank"}
 
@@ -63,7 +63,7 @@ ht-degree: 95%
 
       >[!NOTE]
       >
-      >Adobeが標準で提供するコアマーケティングアクションは、に一覧表示されます。 [このテーブル](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"}. カスタムマーケティングアクションを作成する手順は、次のとおりです。 [この節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"}.
+      >Adobeが標準で提供するコアマーケティングアクションは、[ この表 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"} に一覧表示されます。 カスタムマーケティングアクションを作成する手順については、[ この節 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"} を参照してください。
 
    1. マーケティングアクションが適用されたときの動作を選択します。この例では、「**[!UICONTROL メールマーケティングの同意]**」を選択します。
 

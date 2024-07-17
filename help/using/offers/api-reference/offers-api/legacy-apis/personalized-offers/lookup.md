@@ -9,7 +9,7 @@ exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | パーソナライズされたオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | に一致させる文字列 `@id` エンティティのプロパティ。 文字列は完全に一致します。 パラメータ「id」と「name」を一緒に使用することはできません。 | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | エンティティの xdm:name プロパティと一致させるために使用される文字列。 文字列は大文字と小文字が完全に一致しますが、ワイルドカード文字を使用できます。 パラメーター `id` および `name` 一緒に使うことはできない | `Discount offer` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター「id」と「name」は一緒に使用できません。 | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Discount offer` |
 
 **リクエスト**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、パーソナライズされたオファーに関するプレースメントの詳細（コンテナ ID とインスタンス ID に関する情報と一意のパーソナライズされたオファーを含む）が返されます `@id`.
+正常な応答では、パーソナライズされたオファーに関するプレースメントの詳細（コンテナ ID とインスタンス ID に関する情報と一意のパーソナライズされたオファー `@id` を含む）が返されます。
 
 ```json
 {

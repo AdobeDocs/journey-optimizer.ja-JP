@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 82%
 >abstract="スタンドアロンのフラグメントを作成および管理して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="フラグメントを作成"
 
-フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメールコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に構築できます。
+フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメールコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に作成できます。
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
@@ -36,7 +36,7 @@ ht-degree: 82%
 
 ## 開始する前に {#fragment-prerequisites}
 
-フラグメントを作成、編集、アーカイブ、公開するには、 **[!DNL Manage library items]** および **[Publish フラグメント]** に含まれている権限 **[!DNL Content Library Manager]** 製品プロファイル。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+フラグメントを作成、編集、アーカイブおよび公開するには、**[!DNL Content Library Manager]** 製品プロファイルに含まれている **[!DNL Manage library items]** および&#x200B;**[フラグメントを公開]**&#x200B;する権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
 このバージョンでは、次の制限が適用されます。
 
@@ -50,16 +50,16 @@ ht-degree: 82%
 * **ビジュアルフラグメント**&#x200B;は、[E メールデザイナー](../email/get-started-email-design.md)または[コンテンツテンプレート](../email/use-email-templates.md)を使用して、複数のメール配信で再利用できる、事前定義されたビジュアルブロックです。
 * **式フラグメント**&#x200B;は、[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)の専用のエントリから使用できる、事前定義された式です。
 
-作成されたすべてのフラグメントには、 **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]**  左メニュー。 [フラグメントの管理方法について学ぶ](../content-management/manage-fragments.md)
+作成されたすべてのフラグメントには、左メニューの&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL フラグメント]**&#x200B;からアクセスできます。[フラグメントの管理方法を学ぶ](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## チュートリアルビデオ {#video-fragments}
 
-を管理、作成、使用する方法を説明します **ビジュアルフラグメント** 。対象： [!DNL Journey Optimizer].
+[!DNL Journey Optimizer] で&#x200B;**ビジュアルフラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-を管理、作成、使用する方法を説明します **式フラグメント** 。対象： [!DNL Journey Optimizer].
+[!DNL Journey Optimizer] で&#x200B;**式フラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

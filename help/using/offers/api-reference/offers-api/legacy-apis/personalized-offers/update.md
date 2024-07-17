@@ -9,19 +9,19 @@ exl-id: 3ef785c6-06b4-40ce-a8e5-6a9d5101a408
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの更新 {#update-personalized-offer}
 
-に対してPATCHリクエストを行うことで、パーソナライズされたオファーを変更または更新できます。 [!DNL Offer Library] API
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、パーソナライズされたオファーを変更または更新できます
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
 ## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表に、を構成する有効な値を示します *Content-Type* および *承諾* リクエストヘッダーのフィールド :
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
@@ -71,7 +71,7 @@ curl -X PATCH \
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`、`remove` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 

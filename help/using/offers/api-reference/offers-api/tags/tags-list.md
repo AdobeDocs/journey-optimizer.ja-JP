@@ -9,7 +9,7 @@ exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 
 ## ページング {#paging}
 
-ページングで最も一般的なクエリパラメーターは次のとおりです。
+ページングに最も一般的なクエリパラメーターは次のとおりです。
 
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |

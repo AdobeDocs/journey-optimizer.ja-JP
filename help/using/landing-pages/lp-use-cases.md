@@ -12,7 +12,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 96%
 
 ### メールオプトアウトの設定 {#configure-opt-out}
 
-メールの受信者がランディングページを通じてお知らせなどのメッセージを登録解除できるようにするには、次の手順に従います。
+メールの受信者がランディングページを通じてコミュニケーションを登録解除するには、次の手順に従います。
 
 1. ランディングページを作成します。[詳細情報](create-lp.md)
 

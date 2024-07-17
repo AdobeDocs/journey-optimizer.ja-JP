@@ -11,18 +11,18 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# ジャーニーフィールド {#sharing-journey-fields}
+# ジャーニーのフィールド {#sharing-journey-fields}
 
-このフィールドグループは、 **ジャーニー** スキーマ（ **journeyStepEvent**）に設定します。 以下に示すフィールドが含まれます。
+このフィールドグループは、**ジャーニー**&#x200B;のスキーマで（**journeyStepEvent** と関連して）使用します。以下に示すフィールドが含まれます。
 
 
 >[!NOTE]
 >
->ジャーニーのプロパティ属性の詳細を学ぶ [この節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>ジャーニーのプロパティ属性について詳しくは、[この節](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)を参照してください。
 
 
 ## journeyID {#journeyid-field}

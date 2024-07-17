@@ -28,7 +28,7 @@ ht-degree: 97%
 
 * **[!UICONTROL 権限]**：**[!UICONTROL 役割]**&#x200B;に割り当てる許可を定義できるようにするための単一の権利。各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。[権限レベル](high-low-permissions.md)の節を参照してください。
 
-* **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。を参照してください。 [サンドボックスの使用](sandboxes.md).
+* **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[ サンドボックスの使用 ](sandboxes.md) を参照してください。
 
 ![](assets/do-not-localize/permissions_2.png)
 

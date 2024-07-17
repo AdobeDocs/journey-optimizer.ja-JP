@@ -9,13 +9,13 @@ exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # 決定の削除 {#delete-decision}
 
-場合によっては、決定ルールを削除（DELETE）する必要があります。テナントコンテナで作成した決定のみを削除できます。これを行うには、にDELETEリクエストを実行します。 [!DNL Offer Library] 削除するフォールバックオファーの$id を使用する API。
+場合によっては、決定ルールを削除（DELETE）する必要があります。テナントコンテナで作成した決定のみを削除できます。これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
 
 **API 形式**
 
