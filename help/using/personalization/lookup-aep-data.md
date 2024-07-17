@@ -11,10 +11,10 @@ keywords: 式、エディター
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
+source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 81%
 
 ---
 
@@ -40,12 +40,12 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    {{entity.datasetId="datasetId" id="key" result="store"}}
    ```
 
-   * **entity.datasetId** は作業中のデータセットの ID です。
-   * **id** はデータセットの主な ID として使用されるフィールドです。
+   * **entity.datasetId** は、操作しているデータセットの ID です。
+   * **id** は、検索データセットのプライマリ ID と結合する必要があるソース列の ID です。
 
      >[!NOTE]
      >
-     >このフィールドに入力する値は、フィールド ID（*profile.couponValue*）、ジャーニーイベントで渡されるフィールド（*context.journey.events.event_ID.couponValue*）、または静的な値（*couponAbcd*）です。いずれの場合も、システムは値を使用してデータセットを検索し、キーと一致するかどうかを確認します）。
+     >このフィールドに入力する値は、フィールド ID （*profile.couponValue*）、ジャーニーイベントで渡されるフィールド （*context.journey.events.event_ID.couponValue*）、または静的な値（*couponAbcd*）のいずれかです。 いずれの場合も、システムでは値とデータセットへのルックアップを使用して、値がキーと一致するかどうかを確認します。
 
    * **result** はデータセットから取得するすべてのフィールド値を参照するために指定する必要がある、任意の名前です。この値はコード内で各フィールドを呼び出すために使用されます。
 
@@ -57,22 +57,14 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 
 +++
 
-   +++データセット内のプライマリ ID フィールドを識別するにはどうすればよいでしょうか？
-
-   特定のデータセットのプライマリ ID として定義されたフィールドは、データセットにリンクされたスキーマ内にあります。ID フィールドの操作方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/fields/identity){target="_blank"}を参照してください。
-
-   ![](assets/aep-data-identity.png)
-
-+++
-
 1. ニーズに合わせて構文を調整します。この例では、乗客のフライトに関連するデータを取得します。構文は以下の通りです。
 
    ```
-   {{entity.datasetId="1234567890abcdtId" id="profile.personalEmail.address" result="flight"}}
+   {{entity.datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
    ```
 
    * ID が「1234567890abcdtId」のデータセットで作業しています。
-   * このデータセットでプライマリキーとして使用されるフィールドはメールアドレスです。
+   * データセットの検索で結合を行うために使用するフィールドは *profile.upcomingFlightId*、
    * 「フライト」参照の下のすべてのフィールド値を含めるようにします。
 
 1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。構文は以下の通りです。
