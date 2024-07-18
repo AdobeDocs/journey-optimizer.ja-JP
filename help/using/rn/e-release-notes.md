@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+source-git-commit: f0b08b9cb9c12f7920e5a26a565b34b4bec8c84a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 31%
+source-wordcount: '446'
+ht-degree: 32%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 31%
 
 * （利用可能：7 月 8 日（PT））イベントの設定時に高度な式エディターを利用できるようになり、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 [詳細情報](../event/about-creating.md#adv-exp-editor)
 
-* `event-id` の条件は、テストモード中に自動的に入力されるようになりました。
+<!--* The `event-id` condition is now automatically filled during test mode. -->
 
 **SMS チャネル**
 
