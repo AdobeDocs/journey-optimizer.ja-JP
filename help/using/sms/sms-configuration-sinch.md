@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
 
    * **[!UICONTROL ダブルオプトインメッセージ]**：ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。
 
-   * **[!UICONTROL インバウンド番号]**：ユニークなインバウンド番号を追加します。これにより、それぞれに独自のインバウンド番号を持つ異なるサンドボックス間で同じ API 資格情報を使用できます。
+   * **[!UICONTROL インバウンド番号]**：一意のインバウンド番号またはショートコードを追加します。 これにより、異なるサンドボックスで同じ API 認証情報を使用し、それぞれに独自のインバウンド番号またはショートコードを指定できます。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
