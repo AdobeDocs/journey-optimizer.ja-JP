@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f0b08b9cb9c12f7920e5a26a565b34b4bec8c84a
+source-git-commit: 1cbc5512fe23db22eca4fe1a2cb512a154b01844
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 32%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 32%
 <table>
 <thead>
 <tr>
-<th><strong>任意のプロバイダーを使用した SMS チャネル</strong><br/></th>
+<th><strong>任意のプロバイダーの SMS チャネル（Beta）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
