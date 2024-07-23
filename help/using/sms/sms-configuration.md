@@ -19,12 +19,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer での SMS プロバイダーの設定"
->abstract="Adobe Journey Optimizer では、SMS サービスプロバイダーを通じてテキストメッセージを送信します。プロバイダーを選択し、API 認証情報を入力します。"
+>abstract="Adobe Journey Optimizer では、SMS サービスプロバイダーを通じてテキストメッセージを送信します。プロバイダーを選択し、API 資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="Journey Optimizer での MMS プロバイダーの設定"
->abstract="Adobe Journey Optimizer では、MMS サービスプロバイダーを通じてメディアコンテンツを送信します。プロバイダーを選択し、API 認証情報を入力します。"
+>abstract="Adobe Journey Optimizer では、MMS サービスプロバイダーを通じてメディアコンテンツを送信します。プロバイダーを選択し、API 資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
