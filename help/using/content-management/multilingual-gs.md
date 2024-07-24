@@ -10,10 +10,10 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限定提供" type="Informative"
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
+source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 60%
 
 ---
 
@@ -31,10 +31,19 @@ Journey Optimizer を使用すると、次の 2 つの異なる方法で多言�
 
 * **自動翻訳**：自動翻訳用にコンテンツを優先言語プロバイダーに送信します。[詳細情報](multilingual-automated.md)
 
-
 </br>
 
 ![](assets/translation_schema.png)
+
+## 前提条件 {#prerequisites}
+
+Adobe Journey Optimizerは現在、Adobe Journey Optimizerとは独立にサードパーティの翻訳サービス（機械翻訳または人間翻訳）を提供する翻訳プロバイダーと統合されています。
+
+選択した翻訳プロバイダーを追加する前に、該当するプロバイダーのアカウントを作成する必要があります。
+
+翻訳プロバイダーの翻訳サービスを使用した場合、該当するプロバイダーが定める追加の利用条件に同意したとみなされます。  サードパーティのソリューションである翻訳サービスは、Adobe Journey Optimizer ユーザーが統合を通じて利用できます。  Adobeは、サードパーティの製品を管理しておらず、責任も負いません。
+
+翻訳に関する問題やサポートのリクエストについては、該当する翻訳プロバイダーにお問い合わせください。
 
 ## チュートリアルビデオ {#video}
 
