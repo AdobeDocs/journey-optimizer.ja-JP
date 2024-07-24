@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
+source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 51%
+source-wordcount: '237'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 51%
 
 ## 2024年7月早期リリースノート {#e-2024}
 
-**リリース日**:2024 年 7 月 30～31 日
+**リリース日**：2024年7月30～31日（PT）
 
 ### 新機能 {#e-features}
 
@@ -49,37 +49,33 @@ ht-degree: 51%
 <table>
 <thead>
 <tr>
-<th><strong>任意のプロバイダーの SMS チャネル（Beta）</strong><br/></th>
+<th><strong>任意のプロバイダーでの SMS チャネル（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>デフォルトのプロバイダーである Sinch、Infobip、Twilio に加え、Journey Optimizer内で追加の SMS プロバイダーを設定できるようになりました。</p>
+<p>デフォルトのプロバイダーである Sinch、Infobip、Twilio に加えて、Journey Optimizer 内で追加の SMS プロバイダーを設定できるようになりました。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>カスタムアクションのMarketo Engage</strong><br/></th>
+<th><strong>Marketo Engage custom action</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey OptimizerとAdobe Marketo Engageを統合して、B2B ユースケースを作成できるようになりました。 新しいカスタムアクションを使用すると、ジャーニーからMarketoにデータを取り込むことができます。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
 </td>
 </tr>
 </tbody>
-</table>
-
+</table-->
 
 <!--table>
 <thead>
@@ -126,21 +122,21 @@ ht-degree: 51%
 
 **ジャーニー**
 
-* （利用可能：7 月 8 日（PT））イベントの設定時に高度な式エディターを利用できるようになり、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 [詳細情報](../event/about-creating.md#adv-exp-editor)
+* （利用可能状況：7月8日）イベントを設定する際に高度な式エディターを活用できるようになりました。これにより、さらに複雑な式を定義したり、イベント ID 条件で関数を使用したりできます。[詳細情報](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
-**SMS チャネル**
+<!--**SMS channel**
 
-* 既存の SMS 設定を変更できるようになりました。
+* You can now modify existing SMS configurations.-->
 
 **アプリ内チャネル**
 
-* アプリ内チャネルで式フラグメントを使用できるようになりました。
+* 式フラグメントをアプリ内チャネルで使用できるようになりました。
 
 **オーディエンス**
 
-* カスタムアップロード（CSV ファイル）のオーディエンスを、プライバシーとセキュリティシールドで使用できるようになりました。
+* カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドで使用できるようになりました。
 <!--
 **Push channel**
 
