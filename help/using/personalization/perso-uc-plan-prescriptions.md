@@ -1,62 +1,62 @@
 ---
-title: テンプレートPersonalizationの例
-description: Journey Optimizer Personalizationの例
+title: テンプレートのパーソナライゼーションの例
+description: Journey Optimizer パーソナライゼーションの例
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # 医療保険処方箋のメール {#plan-prescription}
 
-1 つのプロファイルには医療プランが含まれ、各プランには処方箋が含まれる。 処方箋には、「準備完了」、「思い出す」、「拾う」など、様々な状態がある。
+プロファイルには医療保険が含まれ、各保険には処方箋が含まれます。処方箋には、「準備完了」、「リコール」、「受け取り済み」など、様々な状態があります。
 
-このユースケースでは、受け取りの準備ができているかリコールされるすべての処方箋を含め、1 通のメールを各プロファイルに送信します。 このユースケースの実装に使用する構文について詳しくは、以下の各タブをクリックしてください。
+このユースケースでは、受け取りの準備が整っている処方箋やリコールされた処方箋をすべて含めて、各プロファイルに 1 通のメールを送信します。このユースケースの実装に使用する構文について詳しくは、以下の各タブをクリックしてください。
 
 >[!BEGINTABS]
 
->[!TAB  レンダリングされたメッセージ ]
+>[!TAB レンダリングされたメッセージ]
 
 <p>こんにちは、John Doe 様、</p>
-<p>回収の準備ができている、または回収された処方箋は次のとおりです。</p>
+<p>受け取りの準備が整っている処方箋やリコールされた処方箋は次のとおりです。</p>
 
-**健康保険 A**
-
-<ul>
-
-<li>
-      <strong> 処方箋 ID:</strong> pres1<br>
-      <strong> 名前：</strong> Medication A<br>
-      <strong> 状態：</strong> 準備完了
-   </li>
-
-<li>
-      <strong> 処方箋 ID:</strong> pres2<br>
-      <strong> 名前：</strong> Medication B<br>
-      <strong> 状態：</strong> リコール
-   </li>
-
-</ul>
-
-**健康保険 B**
+**医療保険 A**
 
 <ul>
 
 <li>
-      <strong> 処方箋 ID:</strong> pres4<br>
-      <strong> 名前：</strong> Medication D<br>
-      <strong> 状態：</strong> 準備完了
+      <strong>処方箋 ID：</strong> pres1<br>
+      <strong>名前：</strong> Medication A<br>
+      <strong>状態：</strong> 準備完了
+   </li>
+
+<li>
+      <strong>処方箋 ID：</strong> pres2<br>
+      <strong>名前：</strong> Medication B<br>
+      <strong>状態：</strong> リコール
    </li>
 
 </ul>
 
->[!TAB HTMLテンプレート ]
+**医療保険 B**
+
+<ul>
+
+<li>
+      <strong> 処方箋 ID：</strong> pres4<br>
+      <strong>名前：</strong> Medication D<br>
+      <strong>状態：</strong> 準備完了
+   </li>
+
+</ul>
+
+>[!TAB HTML テンプレート]
 
 ```html
 <p>Hi {{profile.person.firstName}} {{profile.person.lastName}},</p>
@@ -77,7 +77,7 @@ ht-degree: 0%
 {{/each}}
 ```
 
->[!TAB  プロファイルデータ ]
+>[!TAB プロファイルデータ]
 
 ```javascript
 {

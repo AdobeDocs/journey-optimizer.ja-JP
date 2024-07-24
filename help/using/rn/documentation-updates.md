@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2024年7月 {#july-2024}
 
-* 情報に関連する医療プランおよび処方箋を使用してメールをパーソナライズする方法に関する、パーソナライゼーションのユースケースが追加されました。 [詳細情報](../personalization/perso-uc-plan-prescriptions.md)
+* 医療保険や処方箋に関連する情報を含むメールをパーソナライズする方法に関するパーソナライゼーションのユースケースが追加されました。[詳細情報](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024年6月 {#june-2024}
 

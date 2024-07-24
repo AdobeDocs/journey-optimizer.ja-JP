@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    {{entity.datasetId="datasetId" id="key" result="store"}}
    ```
 
-   * **entity.datasetId** は、操作しているデータセットの ID です。
-   * **id** は、検索データセットのプライマリ ID と結合する必要があるソース列の ID です。
+   * **entity.datasetId** は作業中のデータセットの ID です。
+   * **id** は、ルックアップデータセットのプライマリ ID と結合する必要があるソース列の ID です。
 
      >[!NOTE]
      >
-     >このフィールドに入力する値は、フィールド ID （*profile.couponValue*）、ジャーニーイベントで渡されるフィールド （*context.journey.events.event_ID.couponValue*）、または静的な値（*couponAbcd*）のいずれかです。 いずれの場合も、システムでは値とデータセットへのルックアップを使用して、値がキーと一致するかどうかを確認します。
+     >このフィールドに入力する値は、フィールド ID（*profile.couponValue*）、ジャーニーイベントで渡されるフィールド（*context.journey.events.event_ID.couponValue*）、または静的な値（*couponAbcd*）です。いずれの場合も、システムは値を使用してデータセットを検索し、キーと一致するかどうかを確認します。
 
    * **result** はデータセットから取得するすべてのフィールド値を参照するために指定する必要がある、任意の名前です。この値はコード内で各フィールドを呼び出すために使用されます。
 
@@ -64,7 +64,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    ```
 
    * ID が「1234567890abcdtId」のデータセットで作業しています。
-   * データセットの検索で結合を行うために使用するフィールドは *profile.upcomingFlightId*、
+   * ルックアップデータセットとの結合に使用するフィールドは、*profile.upcomingFlightId* です。
    * 「フライト」参照の下のすべてのフィールド値を含めるようにします。
 
 1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。構文は以下の通りです。

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe 生成 AI 用語"
->abstract="この機能にアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。この機能からの出力が正確かどうかを確認し、ユースケースに適していることを確認してください。"
+>abstract="この機能にアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。この機能からの出力の正確性を確認し、ユースケースに適していることを確認してください。"
 >additional-url="https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
 
 >[!BEGINSHADEBOX]
@@ -54,7 +54,7 @@ ht-degree: 93%
 >
 >現在、Adobe Journey Optimizer の AI アシスタントは、一部のユーザーのみがベータ版として利用できます。
 
-Azure OpenAI を活用したAdobe Journey Optimizerの AI アシスタントは、テキストや画像に対してプロアクティブなコンテンツバリエーションの提案を行います。 メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。
+Azure OpenAI を利用した Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。
 
 Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。Journey Optimizer のコンテンツ実験を使用すると、ターゲットオーディエンスに最適なパフォーマンスを発揮するのはどれかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
 
