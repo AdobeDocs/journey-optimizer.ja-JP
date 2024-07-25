@@ -4,11 +4,9 @@ product: journey optimizer
 title: リリースノート
 description: Journey Optimizer 早期リリースノート
 feature: Release Notes
-hide: true
-hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bb7806cea0b485fd53055d8e596513cfbc592620
+source-git-commit: 469fb402ef44ea363a8ca55e3bd4299845e0b95d
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 77%
