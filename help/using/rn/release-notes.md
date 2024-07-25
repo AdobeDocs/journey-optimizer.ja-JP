@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
+source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 91%
 
 ---
 
@@ -26,12 +26,76 @@ ht-degree: 100%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2024年7月のアップデート {#24-7-2024}
 
-**最終更新日**：2024年7月8日（PT）
+## 2024年7月早期リリースノート {#27-4-2024}
 
-**ジャーニーイベント設定の高度な式エディター** - イベントを設定する際に高度な式エディターを活用できるようになりました。これにより、さらに複雑な式を定義したり、イベント ID 条件で関数を使用したりできます。[詳細情報](../event/about-creating.md#adv-exp-editor)
+**以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
+**リリース日**：2024年7月30～31日（PT）
+
+### 新機能 {#27-4-features}
+
+このリリースでは、以下に示す新機能が導入されています。
+
+<table>
+<thead>
+<tr>
+<th><strong>IP ウォームアップワークフロー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>任意のプロバイダーでの SMS チャネル（ベータ版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>デフォルトのプロバイダーである Sinch、Infobip、Twilio に加えて、Journey Optimizer 内で追加の SMS プロバイダーを設定できるようになりました。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Federated Audience Composition （限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Federated Audience Composition がAdobe Journey Optimizerで使用できるようになりました。 これにより、企業はデータを作成して、様々なユースケースでより良く利用できます。 この新しいアプローチでは、Adobe Real-time Customer Data PlatformまたはAdobe Journey Optimizerのユーザーとして、既存のデータウェアハウスからデータセットを直接統合し、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで構築および強化できます。</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#27-4-improvements}
+
+このリリースでは、以下に示す機能強化が含まれています。
+
+**ジャーニー**
+
+* （公開日：7 月 8 日（PT）） **ジャーニーイベント設定の高度な式エディター** - イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 [詳細情報](../event/about-creating.md#adv-exp-editor)
+
+**オーディエンス**
+
+* カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドで使用できるようになりました。
 
 ## 2024年6月リリースノート {#24-6-2024}
 
