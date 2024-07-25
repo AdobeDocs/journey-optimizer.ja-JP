@@ -6,10 +6,10 @@ description: Journey Optimizer 早期リリースノート
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
+source-git-commit: ad4599874cb04b58d26a93197485818f4db1ecc4
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 77%
+source-wordcount: '294'
+ht-degree: 76%
 
 ---
 
@@ -139,16 +139,6 @@ ht-degree: 77%
 
 * （利用可能状況：7月8日）イベントを設定する際に高度な式エディターを活用できるようになりました。これにより、さらに複雑な式を定義したり、イベント ID 条件で関数を使用したりできます。[詳細情報](../event/about-creating.md#adv-exp-editor)
 
-<!--* The `event-id` condition is now automatically filled during test mode. -->
-
-<!--**SMS channel**
-
-* You can now modify existing SMS configurations.-->
-
-**アプリ内チャネル**
-
-* 式フラグメントをアプリ内チャネルで使用できるようになりました。
-
 **オーディエンス**
 
 * カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドで使用できるようになりました。
@@ -157,3 +147,13 @@ ht-degree: 77%
 
 * You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.-->
 
+<!--* The `event-id` condition is now automatically filled during test mode. -->
+
+<!--**SMS channel**
+
+* You can now modify existing SMS configurations.-->
+
+<!--
+**In-app channel**
+
+* Expression fragments are now available for the In-app channel.-->
