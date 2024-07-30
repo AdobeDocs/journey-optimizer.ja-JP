@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: ht
-source-wordcount: '1877'
-ht-degree: 100%
+source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+workflow-type: tm+mt
+source-wordcount: '1883'
+ht-degree: 99%
 
 ---
 
@@ -344,6 +344,7 @@ ht-degree: 100%
          + [コンポジションワークフローの作成](using/audience/create-compositions.md)
          + [コンポジションキャンバスの操作](using/audience/composition-canvas.md)
          + [オーディエンスへのアクセスと管理](using/audience/access-audiences.md)
+      + [Federated Audience Composition （限定提供） ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
