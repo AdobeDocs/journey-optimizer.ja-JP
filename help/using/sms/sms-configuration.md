@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
+source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '345'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ SMS または MMS を送信する前に、Adobe Journey Optimizer 環境を設�
 1. Journey Optimizer とプロバイダー設定を統合する
    * [Sinch を使用](sms-configuration-sinch.md)
    * [Infobip を使用](sms-configuration-infobip.md)
-   * [Twilio を使用](sms-configuration-twilio.md)
+   * [カスタムプロバイダーを使用](sms-configuration-custom.md)
 1. [SMS サーフェスの作成](sms-configuration-surface.md)
 
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
