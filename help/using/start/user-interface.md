@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Android Studio からのアプリケーションの起動"
 >abstract="TBC"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="優先度"
+>abstract="0 ～ 100 の範囲で、キャンペーンに優先度スコアを割り当てます。 数値が大きいほど、優先度が高くなります。 2 つのキャンペーンが同じサーフェスを使用する場合、Journey Optimizerは優先度スコアが最も高いキャンペーンを選択します。 キャンペーンのスコアが同じ場合は、最近変更されたキャンペーンが選択されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="優先度"
+>abstract="「ジャーニーに優先度スコア（0 ～ 100）を割り当てます。 数値が大きいほど、優先度が高くなります。 2 つのジャーニーが同じサーフェスを使用する場合、Journey Optimizerは、優先度スコアが最も高いジャーニーを選択します。 ジャーニーのスコアが同じ場合は、最近変更されたジャーニーが選択されます。"
