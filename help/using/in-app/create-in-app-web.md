@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
@@ -105,6 +105,7 @@ Web アプリ内チャネルを設定するには、次の手順に従います�
       |---|---|---|
       | Platform | XDM イベントタイプ | 指定されたイベントタイプに一致するとトリガーされます。 |
       | Platform | XDM 値 | 指定された XDM 値に一致するとトリガーされます。 |
+
 +++
 
       ![](assets/in_app_web_surface_9.png)
