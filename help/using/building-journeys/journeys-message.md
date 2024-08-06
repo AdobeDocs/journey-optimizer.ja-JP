@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,13 +140,13 @@ Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サー�
 +++
 
 
-+++使用可能なレポートは何ですか？
++++どのレポートの種類を使用できますか？
 
 ジャーニーにアクセスし、「**レポートを表示**」ボタンをクリックし、左側の「**ジャーニー**」タブを選択します。[詳細情報](../reports/journey-global-report.md)
 
 +++
 
-+++送信時間の最適化データは、プロファイルの豊富さにどのような影響を与えますか？
++++送信時間の最適化データは、プロファイルリッチネスにどのように影響しますか？
 
 送信時間の最適化では、各プロファイルにスコアや属性が追加されますが、新規プロファイルは作成されません。
 

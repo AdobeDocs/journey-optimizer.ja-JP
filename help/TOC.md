@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1888'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
       + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
       + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
       + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
-      + [カスタムプロバイダーの設定（Beta）](using/sms/sms-configuration-custom.md)
+      + [カスタムプロバイダーの設定（ベータ版）](using/sms/sms-configuration-custom.md)
       + [SMS サーフェスの作成](using/sms/sms-configuration-surface.md)
 + ダイレクトメール {#direct-mail}
    + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
@@ -341,11 +341,11 @@ ht-degree: 99%
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
       + [セグメント定義の作成](using/audience/creating-a-segment-definition.md)
       + オーディエンスの作成 {#audience-orchestration}
-         + [オーディエンスコンポジションの基本を学ぶ](using/audience/get-started-audience-orchestration.md)
+         + [オーディエンス構成の基本を学ぶ](using/audience/get-started-audience-orchestration.md)
          + [コンポジションワークフローの作成](using/audience/create-compositions.md)
          + [コンポジションキャンバスの操作](using/audience/composition-canvas.md)
          + [オーディエンスへのアクセスと管理](using/audience/access-audiences.md)
-      + [Federated Audience Composition （限定提供） ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
+      + [連合オーディエンス構成（限定提供）](https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home)
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)

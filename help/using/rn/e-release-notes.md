@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -65,13 +65,13 @@ ht-degree: 76%
 <table>
 <thead>
 <tr>
-<th><strong>Federated Audience Composition （限定提供）</strong><br/></th>
+<th><strong>連合オーディエンス構成（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Federated Audience Composition がAdobe Journey Optimizerで使用できるようになりました。 これにより、企業はデータを作成して、様々なユースケースでより良く利用できます。 この新しいアプローチでは、Adobe Real-time Customer Data PlatformまたはAdobe Journey Optimizerのユーザーとして、既存のデータウェアハウスからデータセットを直接統合し、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで構築および強化できます。</p>
+<p>連合オーディエンス構成が Adobe Journey Optimizer で使用できるようになりました。これを使用すると、企業は様々なユースケースでの稼動率を高めるデータを作成できます。この新しいアプローチでは、Adobe Real-time Customer Data Platform または Adobe Journey Optimizer のユーザーとして、既存のデータウェアハウスからデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで作成および強化できます。</p>
 <!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>

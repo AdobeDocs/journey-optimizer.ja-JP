@@ -7,9 +7,9 @@ topic: Content Management
 description: Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -70,14 +70,14 @@ ht-degree: 91%
 <table>
 <thead>
 <tr>
-<th><strong>Federated Audience Composition （限定提供）</strong><br/></th>
+<th><strong>連合オーディエンス構成（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Federated Audience Composition がAdobe Journey Optimizerで使用できるようになりました。 これにより、企業はデータを作成して、様々なユースケースでより良く利用できます。 この新しいアプローチでは、Adobe Real-time Customer Data PlatformまたはAdobe Journey Optimizerのユーザーとして、既存のデータウェアハウスからデータセットを直接統合し、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで構築および強化できます。</p>
-<p>詳しくは、 <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>連合オーディエンス構成が Adobe Journey Optimizer で使用できるようになりました。これを使用すると、企業は様々なユースケースでの稼動率を高めるデータを作成できます。この新しいアプローチでは、Adobe Real-time Customer Data Platform または Adobe Journey Optimizer のユーザーとして、既存のデータウェアハウスからデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで作成および強化できます。</p>
+<p>詳しくは、 <a href="https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home"  target="_blank">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ ht-degree: 91%
 
 **ジャーニー**
 
-* （公開日：7 月 8 日（PT）） **ジャーニーイベント設定の高度な式エディター** - イベントの設定時に高度な式エディターを活用して、より複雑な式を定義したり、イベント ID 条件で関数を使用したりできるようになりました。 [詳細情報](../event/about-creating.md#adv-exp-editor)
+* （提供日：7月8日（PT）**ジャーニーイベント設定の高度な式エディター** - イベントを設定する際に高度な式エディターを活用できるようになりました。これにより、さらに複雑な式を定義したり、イベント ID 条件で関数を使用したりできます。[詳細情報](../event/about-creating.md#adv-exp-editor)
 
 <!--**Audiences**
 

@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1910'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 98%
 
 * **セグメントの定義**：Adobe Experience Platform セグメント化サービスを使用して、新しいオーディエンス定義を作成します。[詳しくは、セグメント定義の作成方法を参照してください](creating-a-segment-definition.md)
 * **カスタムアップロード**：CSV ファイルを使用してオーディエンスを読み込みます。オーディエンスを読み込む方法については、Adobe Experience Platform の[セグメント化サービスに関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を参照してください。
-* **オーディエンス構成**：構成ワークフローを作成し、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。[オーディエンスコンポジションの基本を学ぶ](get-started-audience-orchestration.md)
-* **Federated Audience Composition**：既存の Data Warehouse からデータセットを直接統合して、Adobe Experience Platformのオーディエンスと属性をすべて 1 つのシステムで構築および強化します。 [Federated Audience コンポジション ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home) に関するガイドを参照してください。
+* **オーディエンス構成**：構成ワークフローを作成し、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。[オーディエンス構成の基本を学ぶ](get-started-audience-orchestration.md)
+* **連合オーディエンス構成**：既存のデータウェアハウスからデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで作成および強化できます。[連合オーディエンス構成](https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home)に関するガイドを参照してください。
 
   >[!AVAILABILITY]
   >

@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: d66ea00d62a0c1355ef509d6e33714b791a8d3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 7 月リリースが公開されました ]
+>[!TAB 7月リリースが公開されました。]
 
-Adobe Journey Optimizerの 7 月リリースに含まれる新機能と機能強化について説明します。
+Adobe Journey Optimizer 7月リリースに含まれる新機能と機能強化を参照してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
