@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 50%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 **以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2024年7月早期リリースノート {#e-2024}
+## 2024年8月早期リリースノート {#e-2024}
 
-**リリース日**：2024年7月30～31日（PT）
+**リリース日**:2024 年 8 月 20～21 日
 
 ### 新機能 {#e-features}
 
@@ -32,31 +32,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>IP ウォームアップワークフロー</strong><br/></th>
+<th><strong>Marketo Engage カスタムアクション</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>任意のプロバイダーでの SMS チャネル（ベータ版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>デフォルトのプロバイダーである Sinch、Infobip、Twilio に加えて、Journey Optimizer 内で追加の SMS プロバイダーを設定できるようになりました。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer を Adobe Marketo Engage と統合して、B2B ユースケースを作成できるようになりました。新しいカスタムアクションを使用すると、ジャーニーから Marketo にデータを取り込むことができます。</p>
 </td>
 </tr>
 </tbody>
@@ -65,55 +47,24 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>連合オーディエンス構成（限定提供）</strong><br/></th>
+<th><strong>チャネル設定の改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>連合オーディエンス構成が Adobe Journey Optimizer で使用できるようになりました。これを使用すると、企業は様々なユースケースでの稼動率を高めるデータを作成できます。この新しいアプローチでは、Adobe Real-time Customer Data Platform または Adobe Journey Optimizer のユーザーとして、既存のデータウェアハウスからデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで作成および強化できます。</p>
-<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Marketo Engage custom action</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Improved channel configurations</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels.</p>
+<p>現在のチャネルサーフェス機能が強化され、すべてのチャネルで一貫したアプローチが可能になりました。 任意のチャネルでこれらの設定を定義、管理および再利用できるようになりました。</p>
 <p><ul>
-<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
-<li>From the Channel configurations inventory you can now create reusable channel configurations for all channels, including now Web, In-app messaging, or Code-based experience</li>
-<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
-<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
+<li>チャネルサーフェスの名前が <strong> チャネル設定 </strong> に変更されました</li>
+<li>チャネル設定インベントリから、web、アプリ内メッセージ、コードベースのエクスペリエンスなど、すべてのチャネルに対して再利用可能なチャネル設定を作成できるようになりました</li>
+<li>オブジェクトレベルのアクセス制御（OLAC）がチャネル設定ごとに使用できるようになり、特定の設定を作成または使用できるユーザーを決定できるようになりました</li>
+<li>一部のチャネルでは、複数のプラットフォームをターゲットとするチャネル設定を作成できます。 例えば、web ページ、iOS アプリ、Android アプリをターゲットにできるアプリ内メッセージチャネル設定が考えられます。</li>
 </ul></p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>詳しくは、 <a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>
@@ -138,11 +89,12 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* （利用可能状況：7月8日）イベントを設定する際に高度な式エディターを活用できるようになりました。これにより、さらに複雑な式を定義したり、イベント ID 条件で関数を使用したりできます。[詳細情報](../event/about-creating.md#adv-exp-editor)
+* **条件** アクティビティでは、デフォルトで、時間条件が 00:00 から 12:00 の時間別に設定されるようになりました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
 
 **オーディエンス**
 
 * カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドで使用できるようになりました。
+
 <!--
 **Push channel**
 
