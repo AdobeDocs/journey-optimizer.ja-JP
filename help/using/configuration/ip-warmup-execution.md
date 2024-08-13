@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2530'
 ht-degree: 100%
 
 ---
 
 # IP ウォームアッププランを実行 {#ip-warmup-running}
-
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
-
-* [IP ウォームアッププランの概要](ip-warmup-gs.md)
-* [IP ウォームアップキャンペーンを作成](ip-warmup-campaign.md)
-* [IP ウォームアッププランを作成](ip-warmup-plan.md)
-* **[IP ウォームアッププランの実行](ip-warmup-execution.md)**
-
->[!ENDSHADEBOX]
 
 [IP ウォームアッププランを作成](ip-warmup-plan.md)し、配信品質コンサルタントと共に準備したファイルをアップロードしたら、プランのフェーズと実行を定義できます。
 

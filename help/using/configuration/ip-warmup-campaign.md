@@ -8,13 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: IP, プール, 配信品質
-hide: true
-hidefromtoc: true
-badge: label="ベータ版"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '423'
 ht-degree: 100%
 
 ---
@@ -26,17 +23,6 @@ ht-degree: 100%
 >title="IP ウォームアッププランオプションを有効にする"
 >abstract="このオプションを選択すると、キャンペーンを IP ウォームアッププランで使用できます。その後、キャンペーンスケジュールは、関連付けられている IP ウォームアッププランによって実行されます。"
 
->[!BEGINSHADEBOX]
-
-このドキュメントガイドの内容は次のとおりです。
-
-* [IP ウォームアッププランの概要](ip-warmup-gs.md)
-* **[IP ウォームアップキャンペーンの作成](ip-warmup-campaign.md)**
-* [IP ウォームアッププランを作成](ip-warmup-plan.md)
-* [IP ウォームアッププランを実行](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
 [!DNL Journey Optimizer] で IP ウォームアッププラン自体を作成する前に、まず IP ウォームアッププランで使用するために特別に設計された 1 つ以上のキャンペーンを作成する必要があります<!--through a dedicated option-->。
 
 IP ウォームアップキャンペーンを作成するには、次の手順に従います。
@@ -45,9 +31,9 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!NOTE]
    >
-   >[この節](../email/email-settings.md#subdomains-and-ip-pools)では、メールサーフェスで使用するドメインと IP を選択する方法について説明します。
+   >* [この節](../email/email-settings.md#subdomains-and-ip-pools)では、メールサーフェスで使用するドメインと IP を選択する方法について説明します。
    >
-   >配信品質コンサルタントと協力して、IP ウォームアッププランに使用するドメインと IP を特定します。<!--TBC-->
+   >* 配信品質コンサルタントと協力して、IP ウォームアッププランに使用するドメインと IP を特定します。<!--TBC-->
 
 1. スケジュールされたマーケティング[キャンペーン](../campaigns/create-campaign.md)を作成し、[メール](../email/create-email.md#create-email-journey-campaign)アクションを選択します。
 
@@ -71,17 +57,13 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    IP ウォームアップキャンペーンでは、ルールベースのオーディエンスを選択する必要があります。[詳細情報](../audience/creating-a-segment-definition.md)
 
-   >[!NOTE]
-   >
-   >キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
+   キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 1. キャンペーンを[アクティブ化](../campaigns/review-activate-campaign.md)します。ステータスは、「**[!UICONTROL ライブ]**」に変わります。
 
    IP ウォームアッププランではビジネスルールを使用しないでください。これらのルールを適用すると、キャンペーンのターゲットプロファイルの希望数に到達できなくなる可能性があります。
 
-   >[!NOTE]
-   >
-   >IP ウォームアッププランが有効化されたライブキャンペーンの場合、**[!UICONTROL 削除]**&#x200B;ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。プランで使用すると、キャンペーンは削除できなくなります。
+   IP ウォームアッププランが有効化されたライブキャンペーンの場合、**[!UICONTROL 削除]**&#x200B;ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。プランで使用すると、キャンペーンは削除できなくなります。
 
 1. キャンペーンが&#x200B;**[!UICONTROL キャンペーン]**&#x200B;リストに表示されます。現在のサンドボックスで作成されたすべての IP ウォームアップキャンペーンを簡単に取得するには、**[!UICONTROL IP ウォームアップ]**&#x200B;キャンペーンオプションでフィルタリングできます。
 
