@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dcf1edb654639d41472d1e1ca263020df9fb63ec
-workflow-type: ht
-source-wordcount: '2065'
-ht-degree: 100%
+source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
+workflow-type: tm+mt
+source-wordcount: '2078'
+ht-degree: 99%
 
 ---
 
@@ -165,7 +165,8 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 | API | 1 秒あたりの決定数 |
 |---------|----------|
 | Decisioning API リクエスト数 | 1 秒あたり 500 個 |
-| Edge Decisioning API リクエスト数 | 1 秒あたり 1500 個 |
+| Edge セグメント化を使用したEdge Decisioning API リクエスト | 1 秒あたり 1500 個 |
+| Edge セグメント化を使用しないEdge Decisioning API リクエスト | 1 秒あたり 5000 個 |
 
 ### 制限事項 {#offers-limitations}
 
