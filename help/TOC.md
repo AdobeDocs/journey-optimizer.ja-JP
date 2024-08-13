@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: ht
-source-wordcount: '1888'
-ht-degree: 100%
+source-git-commit: a285e39abc96159b393d430b3a5ce8aceb3b32f5
+workflow-type: tm+mt
+source-wordcount: '1892'
+ht-degree: 99%
 
 ---
 
@@ -610,6 +610,7 @@ ht-degree: 100%
          + [Adobe Campaign Standard との統合](using/action/acs-action.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
          + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
+         + [Marketo Engageとの統合](using/action/marketo-engage.md)
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
