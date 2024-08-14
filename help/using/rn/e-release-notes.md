@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 50%
+source-wordcount: '571'
+ht-degree: 26%
 
 ---
 
@@ -32,13 +32,45 @@ ht-degree: 50%
 <table>
 <thead>
 <tr>
-<th><strong>Marketo Engage カスタムアクション</strong><br/></th>
+<th><strong>カスタムアクションのMarketo Engage</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Adobe Journey Optimizer を Adobe Marketo Engage と統合して、B2B ユースケースを作成できるようになりました。新しいカスタムアクションを使用すると、ジャーニーから Marketo にデータを取り込むことができます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>ガイド付きチャネル設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ガイド付きチャネル設定を使用すると、統合されたエクスペリエンスでモバイルチャネルの設定手順を自動化して、Journey Optimizerをより迅速に開始できます。 この設定により、マーケティングチャネルの迅速な設定が容易になり、必要なすべてのリソースがExperience Platform、Journey Optimizerおよびデータ収集ですぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツカード</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>コンテンツカードは、Adobe Journey Optimizerの新しいデジタルメッセージ機能であり、パーソナライズされた魅力的なコンテンツをモバイルアプリや web サイト内で直接配信します。 従来のプッシュ通知とは異なり、コンテンツカードはユーザーインターフェイスにシームレスに統合され、ユーザーインタラクションとエクスペリエンスを向上させる、永続的で非割り込み型のアップデートを提供します。</p>
+<p>この機能を使用すると、マーケターは、関連性の高いリッチメディアコンテンツをユーザーに提示できるため、ユーザージャーニーを中断することなくエンゲージメントを向上させ、重要なメッセージを確実に確認できます。</p>
 </td>
 </tr>
 </tbody>
@@ -60,7 +92,24 @@ ht-degree: 50%
 <li>オブジェクトレベルのアクセス制御（OLAC）がチャネル設定ごとに使用できるようになり、特定の設定を作成または使用できるユーザーを決定できるようになりました</li>
 <li>一部のチャネルでは、複数のプラットフォームをターゲットとするチャネル設定を作成できます。 例えば、web ページ、iOS アプリ、Android アプリをターゲットにできるアプリ内メッセージチャネル設定が考えられます。</li>
 </ul></p>
-<p>詳しくは、 <a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツフラグメントの変数</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>フラグメントは、<a href="../personalization/use-expression-fragments.md"> 式フラグメント </a> と <a href="../email/use-visual-fragments.md"> ビジュアルフラグメント </a> の両方で入力変数を使用できるようになりました。 これらの変数を使用して、キャンペーンやジャーニーでメッセージのコンテンツやパラメーターをパーソナライズできます。</p>
+</p>
 </td>
 </tr>
 </tbody>
@@ -90,10 +139,13 @@ ht-degree: 50%
 **ジャーニー**
 
 * **条件** アクティビティでは、デフォルトで、時間条件が 00:00 から 12:00 の時間別に設定されるようになりました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
+* ジャーニーを作成する際に、キャンペーンアラートと連携して一貫したユーザーエクスペリエンスを実現するために、アラートがドロップダウンリストに表示されるようになりました。 [詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* ジャーニーツールバーのズームオプションが改善されました。ズーム率が表示され、ズーム値を 100% に簡単にリセットできるようになりました。
 
 **オーディエンス**
 
 * カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドで使用できるようになりました。
+* カスタムアップロード（CSV ファイル）オーディエンスをターゲティングする際に、キャンペーンおよびジャーニーでファイルの属性を使用できるようになりました。 これらの属性は、パーソナライゼーションエディター、メッセージのパーソナライズ、ジャーニーの高度な式エディターで使用できます。
 
 <!--
 **Push channel**
