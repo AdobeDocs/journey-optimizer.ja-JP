@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 100%
+source-wordcount: '1478'
+ht-degree: 99%
 
 ---
 
@@ -40,6 +40,9 @@ ht-degree: 100%
 * ベストプラクティスとして、バッチオーディエンスは、**オーディエンスを読み取り**&#x200B;アクティビティでのみ使用することをお勧めします。これにより、ジャーニーで使用されるオーディエンスが、高い信頼性かつ一貫してカウントされます。「オーディエンスを読み取り」は、バッチのユースケース向けに設計されています。ユースケースでリアルタイムデータが必要な場合は、**[オーディエンスの選定](audience-qualification-events.md)**&#x200B;アクティビティを使用します。
 
 * [CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスや、[コンポジションワークフロー](../audience/get-started-audience-orchestration.md)から生成されたオーディエンスは、「**オーディエンスを読み取り**」アクティビティで選択できます。これらのオーディエンスは、「**オーディエンスの選定**」アクティビティでは使用できません。
+
+**オーディエンスを読み取り** アクティビティに関連するガードレールは、[ このページ ](../start/guardrails.md#read-segment-g) に一覧表示されます。
+
 
 ## アクティビティの設定 {#configuring-segment-trigger-activity}
 

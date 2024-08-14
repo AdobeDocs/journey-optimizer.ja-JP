@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 100%
+source-wordcount: '1091'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ### 重要な注意事項{#important-notes-segment-qualification}
 
-* Adobe Experience Platform オーディエンスは、1 日に 1 回（**バッチ**&#x200B;オーディエンス）、またはリアルタイム（**ストリーム**&#x200B;オーディエンス）で計算されます（Adobe Experience Platform の「高頻度のオーディエンス」オプションを使用）。
+* Adobe Experience Platform オーディエンスは、1 日に 1 回（**バッチ** オーディエンス）またはリアルタイム（**ストリーミング** オーディエンスの場合は、Adobe Experience Platformの「高頻度のオーディエンス」オプションを使用）で計算されます。
 
    * 選択したオーディエンスがストリーミングされる場合、このオーディエンスに属する個人はリアルタイムでジャーニーにエントリする可能性があります。
    * バッチオーディエンスの場合、新たにこのオーディエンスに選定された訪問者は、オーディエンスの計算が Adobe Experience Platform で実行されるとジャーニーにエントリする可能性があります。
@@ -51,6 +51,8 @@ ht-degree: 100%
 * ジャーニーでオーディエンスの選定を使用すると、そのオーディエンスの選定アクティビティがアクティブになってオーディエンスにエントリまたは離脱するプロファイルをリッスンするのに、最大 10 分かかる場合があります。
 
 ### アクティビティの設定{#cnfigure-segment-qualification}
+
+**[!UICONTROL オーディエンスの選定]** アクティビティを設定するには、次の手順に従います。
 
 1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。
 
