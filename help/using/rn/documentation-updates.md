@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
 workflow-type: tm+mt
-source-wordcount: '5447'
+source-wordcount: '5454'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 99%
 ## 2024年8月 {#aug-2024}
 
 * 意思決定管理のパフォーマンスガードレールが更新され、Edge セグメント化の有無に関わらず、Decisioning API の配信スループットに言及するようになりました。 [詳細情報](../start/guardrails.md#decision-management)
+* ジャーニーガードレールが更新されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+
 
 ## 2024年7月 {#july-2024}
 
