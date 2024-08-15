@@ -4,12 +4,12 @@ product: journey optimizer
 title: リリースノート
 feature: Release Notes
 topic: Content Management
-description: Journey Optimizer リリースノート
+description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 98%
+source-wordcount: '1830'
+ht-degree: 74%
 
 ---
 
@@ -26,9 +26,104 @@ ht-degree: 98%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 8 月の更新 {#24-8-2024}
+## 2024年8月早期リリースノート {#e-2024}
 
-8 月にリリースされた変更は次のとおりです。
+**リリース日**:2024 年 8 月 20～21 日
+
+>[!CAUTION]
+>
+>**以下の早期リリースノートは、リリース日まで予告なく変更される場合があります**。 リンク、画面、更新されたドキュメントは、リリース日に公開されます。
+>
+
+### 新機能 {#e-features}
+
+このリリースでは、以下に示す新機能が導入されています。
+
+<table>
+<thead>
+<tr>
+<th><strong>ガイド付きチャネル設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ガイド付きチャネル設定を使用すると、統合されたエクスペリエンスでモバイルチャネルの設定手順を自動化して、Journey Optimizerをより迅速に開始できます。 この設定により、マーケティングチャネルの迅速な設定が容易になり、必要なすべてのリソースがExperience Platform、Journey Optimizerおよびデータ収集ですぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツカード</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>コンテンツカードは、Adobe Journey Optimizerの新しいデジタルメッセージ機能であり、パーソナライズされた魅力的なコンテンツをモバイルアプリや web サイト内で直接配信します。 従来のプッシュ通知とは異なり、コンテンツカードはユーザーインターフェイスにシームレスに統合され、ユーザーインタラクションとエクスペリエンスを向上させる、永続的で非割り込み型のアップデートを提供します。</p>
+<p>この機能を使用すると、マーケターは、関連性の高いリッチメディアコンテンツをユーザーに提示できるため、ユーザージャーニーを中断することなくエンゲージメントを向上させ、重要なメッセージを確実に確認できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>チャネル設定の改善</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在のチャネルサーフェス機能が強化され、すべてのチャネルで一貫したアプローチが可能になりました。 任意のチャネルでこれらの設定を定義、管理および再利用できるようになりました。</p>
+<p><ul>
+<li>チャネルサーフェスの名前が <strong> チャネル設定 </strong> に変更されました</li>
+<li>チャネル設定インベントリから、web、アプリ内メッセージ、コードベースのエクスペリエンスなど、すべてのチャネルに対して再利用可能なチャネル設定を作成できるようになりました</li>
+<li>オブジェクトレベルのアクセス制御（OLAC）がチャネル設定ごとに使用できるようになり、特定の設定を作成または使用できるユーザーを決定できるようになりました</li>
+<li>一部のチャネルでは、複数のプラットフォームをターゲットとするチャネル設定を作成できます。 例えば、web ページ、iOS アプリ、Android アプリをターゲットにできるアプリ内メッセージチャネル設定が考えられます。</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>カスタムアクションのMarketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer を Adobe Marketo Engage と統合して、B2B ユースケースを作成できるようになりました。新しいカスタムアクションを使用すると、ジャーニーから Marketo にデータを取り込むことができます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツフラグメントの変数</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>フラグメントは、<a href="../personalization/use-expression-fragments.md"> 式フラグメント </a> と <a href="../email/use-visual-fragments.md"> ビジュアルフラグメント </a> の両方で入力変数を使用できるようになりました。 これらの変数を使用して、キャンペーンやジャーニーでメッセージのコンテンツやパラメーターをパーソナライズできます。</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -46,6 +141,22 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
+
+
+### 機能強化 {#e-improvements}
+
+このリリースでは、以下に示す機能強化が行われています。
+
+**ジャーニー**
+
+* **条件** アクティビティでは、デフォルトで、時間条件が 00:00 から 12:00 の時間別に設定されるようになりました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
+* ジャーニーを作成する際に、キャンペーンアラートと連携して一貫したユーザーエクスペリエンスを実現するために、アラートがドロップダウンリストに表示されるようになりました。 [詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* ジャーニーツールバーのズームオプションが改善されました。ズーム率が表示され、ズーム値を 100% に簡単にリセットできるようになりました。
+
+**オーディエンス**
+
+* カスタムアップロード（CSV ファイル）のオーディエンスを、プライバシーとセキュリティシールドのアドオンで使用できるようになりました。
+* カスタムアップロード（CSV ファイル）オーディエンスをターゲティングする際に、キャンペーンおよびジャーニーでファイルの属性を使用できるようになりました。 これらの属性は、パーソナライゼーションエディター、メッセージのパーソナライズ、ジャーニーの高度な式エディターで使用できます。
 
 ## 2024年7月リリースノート {#24-7-2024}
 
@@ -96,8 +207,6 @@ ht-degree: 98%
 
 * （提供日：7月8日（PT）**ジャーニーイベント設定の高度な式エディター** - イベントを設定する際に高度な式エディターを活用できるようになりました。これにより、さらに複雑な式を定義したり、イベント ID 条件で関数を使用したりできます。[詳細情報](../event/about-creating.md#adv-exp-editor)
 
-
-
 ## 2024年6月リリースノート {#24-6-2024}
 
 **リリース日**：2024年6月18～19日（PT）
@@ -105,23 +214,6 @@ ht-degree: 98%
 ### 新機能 {#june-24-features}
 
 このリリースでは、以下に示す新機能が導入されています。
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
@@ -158,7 +250,6 @@ ht-degree: 98%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -174,7 +265,6 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>

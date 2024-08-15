@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 26%
+source-wordcount: '633'
+ht-degree: 33%
 
 ---
 
@@ -28,21 +28,6 @@ ht-degree: 26%
 ### 新機能 {#e-features}
 
 このリリースでは、以下に示す新機能が導入されています。
-
-<table>
-<thead>
-<tr>
-<th><strong>カスタムアクションのMarketo Engage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer を Adobe Marketo Engage と統合して、B2B ユースケースを作成できるようになりました。新しいカスタムアクションを使用すると、ジャーニーから Marketo にデータを取り込むことができます。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 <table>
@@ -102,6 +87,22 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
+<th><strong>カスタムアクションのMarketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer を Adobe Marketo Engage と統合して、B2B ユースケースを作成できるようになりました。新しいカスタムアクションを使用すると、ジャーニーから Marketo にデータを取り込むことができます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>コンテンツフラグメントの変数</strong><br/></th>
 </tr>
 </thead>
@@ -115,6 +116,22 @@ ht-degree: 26%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>IP ウォームアップワークフロー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>公開日：8 月 13 日（PT）</p>
+<p>新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。</p>
+<p>詳しくは、<a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <!--table>
 <thead>
