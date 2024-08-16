@@ -10,10 +10,10 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限定提供" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 翻訳中]**：サービスプロバイダーが翻訳に積極的に取り組んでいます。
 
-     **言語設定**&#x200B;を行う際、**社内翻訳**&#x200B;を選択した場合は、翻訳プロジェクトでコンテンツを直接翻訳できます。[詳細情報](#manage-ht-project)
+     **言語設定** の設定時に **インソーシング** を選択した場合、コンテンツを翻訳プロジェクトに直接翻訳できます。 [詳細情報](#manage-ht-project)
 
    * **[!UICONTROL レビューの準備完了]**：レビュープロセスを開始する準備が整い、翻訳にアクセスして却下または承認できます。
 
@@ -203,11 +203,11 @@ ht-degree: 100%
 
 これで、キャンペーンまたはジャーニーをアクティブ化できます。送信後は、レポート内で多言語ジャーニーまたはキャンペーンの影響を測定できます。
 
-## 社内翻訳プロジェクトの管理 {#manage-ht-project}
+## インソーシング翻訳プロジェクトの管理 {#manage-ht-project}
 
-言語設定の際に社内翻訳を選択した場合は、翻訳プロジェクトでコンテンツを直接翻訳できます。
+言語設定の設定時にインソーシングを選択した場合は、翻訳プロジェクトでコンテンツを直接翻訳できます。
 
-1. **[!UICONTROL 翻訳プロジェクト]**&#x200B;から、**[!UICONTROL その他のアクション]**&#x200B;メニューにアクセスし、「**[!UICONTROL 社内翻訳]**」を選択します。
+1. **[!UICONTROL 翻訳プロジェクト]** から、**[!UICONTROL その他のアクション]** メニューにアクセスし、**[!UICONTROL インソーシング]** を選択します。
 
    ![](assets/inhouse-translation-1.png)
 
