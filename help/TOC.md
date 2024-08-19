@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 99%
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [ジャンプ](using/building-journeys/jump.md)
-      + [プロファイルの更新](using/building-journeys/update-profiles.md)
+      + [プロファイルを更新](using/building-journeys/update-profiles.md)
    + 式の作成 {#building-advanced-conditions-journeys}
       + [高度な式エディターの操作](using/building-journeys/expression/expressionadvanced.md)
       + 構文 {#syntax}
@@ -609,7 +609,7 @@ ht-degree: 99%
          + [Adobe Campaign Standard との統合](using/action/acs-action.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
          + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
-         + [Marketo Engageとの統合](using/action/marketo-engage.md)
+         + [Marketo Engage との統合](using/action/marketo-engage.md)
    + [ソース](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
