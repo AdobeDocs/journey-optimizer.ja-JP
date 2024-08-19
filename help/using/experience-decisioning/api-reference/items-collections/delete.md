@@ -1,14 +1,14 @@
 ---
 title: アイテム コレクションの削除
-description: コレクションを使用すると、環境設定に従って決定項目を分類およびグループ化できます。
+description: グループの決定をコレクションに分類する方法を説明します。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 27%
+source-wordcount: '116'
+ht-degree: 28%
 
 ---
 

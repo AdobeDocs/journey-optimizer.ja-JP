@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '80'
 ht-degree: 16%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 16%
 # 項目コレクションの作成 {#create-decision-items}
 
 オファーライブラリ API に対してPOSTリクエストを実行することで、アイテムコレクションを作成できます。
-
-**Accept ヘッダーと Content-Type ヘッダー**
-
-次の表に、リクエストヘッダーの Content-Type フィールドを構成する有効な値を示します。
-
-| ヘッダー名 | 値 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API 形式**
 

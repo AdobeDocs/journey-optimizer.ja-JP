@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '80'
 ht-degree: 28%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 # 決定項目の参照 {#lookup-decision-items}
 
-リクエストパスに ID を含むオファーライブラリ API に対してGETリクエストを実行することで、特定の意思決定項目を検索できます。
+リクエストパスに ID を含むオファーライブラリ API に対してGETリクエストを実行し、特定の決定項目を検索します。
 
 **API 形式**
 

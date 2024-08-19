@@ -1,12 +1,14 @@
 ---
 title: アイテム コレクションの参照
+description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 34%
+source-wordcount: '85'
+ht-degree: 49%
 
 ---
 

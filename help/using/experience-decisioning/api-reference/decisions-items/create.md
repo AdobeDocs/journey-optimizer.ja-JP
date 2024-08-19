@@ -1,13 +1,13 @@
 ---
 title: 決定項目の作成
-description: 決定項目は、コレクションとカタログに作成および整理できるマーケティングオファーです。
+description: オファーライブラリ API を使用して決定項目を作成する方法について説明します。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '79'
 ht-degree: 16%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 16%
 # 決定項目の作成 {#create-decision-items}
 
 オファーライブラリ API に対して決定リクエストを実行することで、POST項目を作成できます。
-
-**Accept ヘッダーと Content-Type ヘッダー**
-
-次の表に、リクエストヘッダーの Content-Type フィールドを構成する有効な値を示します。
-
-| ヘッダー名 | 値 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API 形式**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```

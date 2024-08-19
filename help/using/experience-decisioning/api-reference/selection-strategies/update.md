@@ -1,12 +1,14 @@
 ---
 title: 選択戦略を更新
+description: 選択戦略は、制約に関連付けられたコレクションと、オファーを決定するためのランキングメソッドで構成されます。
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 56%
+source-wordcount: '127'
+ht-degree: 58%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 56%
 オファーライブラリ API に対してセレクションリクエストを実行することで、PATCH戦略を変更または更新できます。
 
 使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
-
-**Accept ヘッダーと Content-Type ヘッダー**
-
-次の表に、リクエストヘッダーの Content-Type フィールドを構成する有効な値を示します。
-
-| ヘッダー名 | 値 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API 形式**
 

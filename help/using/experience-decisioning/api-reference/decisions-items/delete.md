@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 27%
+source-wordcount: '112'
+ht-degree: 29%
 
 ---
 
 
 # 決定項目の削除 {#delete-decision-item}
 
-場合によっては、決定項目を削除（DELETE）する必要があります。 削除するには、削除するDELETE項目の ID を使用して、オファーライブラリ API に対して決定リクエストを実行します。
+決定項目を削除するには、削除する決定項目の ID を使用してオファーライブラリ API にDELETEリクエストを実行します。
 
 **API 形式**
 
