@@ -1,57 +1,57 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Marketo Engageとの統合
-description: Marketo Engageアクションの使用方法を学ぶ
+title: Marketo Engage との統合
+description: Marketo Engage アクションの使用方法を学ぶ
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-keywords: marketo、marketo engage 統合
+keywords: Marketo、Marketo Engage 統合
 source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Marketo Engageとの統合 {#integrating-with-marketo-engage}
+# Marketo Engage との統合 {#integrating-with-marketo-engage}
 
-Marketo Engageとのシームレスなデータ統合のジャーニーに乗り出します。 Journey Optimizerのこの特定のカスタムアクションは、次の 2 つの主要なデータタイプの取り込みをサポートしています。
+Marketo Engage とのシームレスなデータ統合のジャーニーを開始しましょう。Journey Optimizer のこの特定のカスタムアクションは、次の 2 つの主要なデータタイプの取り込みをサポートしています。
 
-* 人物（プロファイル）: Marketoは、プロファイルを実用的なインサイトに変換します。
+* 人物（プロファイル）：Marketo では、プロファイルを実用的なインサイトに変換します。
 * カスタムオブジェクト：製品などのカスタムオブジェクトを使用してデータをカスタマイズし、パーソナライズされたマーケティングアプローチを実現します。
 
 ## 前提条件 {#prerequisites}
 
-* Marketo Engageのお客様のインスタンスは、IMS を有効にする必要があります。
-* Marketo Engageインスタンスと AEP/AJO インスタンスは、同じ IMS 組織にある必要があります。+リンク
-* 顧客は MktoSync：取り込みサービスへのアクセス（ここに追加するメモ + リンク）をプロビジョニングする必要があります
+* Marketo Engage の顧客インスタンスは、IMS 対応である必要があります。
+* Marketo Engage インスタンスと AEP/AJO インスタンスは、同じ IMS 組織+リンク内に存在する必要があります。
+* 顧客は MktoSync 取り込みサービスアクセス（ここにメモを追加 + リンク）をプロビジョニングする必要があります
 
 ## アクションの設定 {#configure-marketo-action}
 
-* 管理/設定/アクションに移動し、「管理」をクリックします。
-* 「アクション」リストから、「アクションを作成」をクリックします。 カスタムアクションの作成について詳しくは、こちらを参照してください（+リンク）
-* 「名前」、「説明」を入力し、「アクションタイプ」として「Adobe Marketo Engage」を選択します。
+* 管理／設定／アクションに移動し、「管理」をクリックします。
+* アクションリストから、「アクションを作成」をクリックします。カスタムアクションの作成について詳しくは、こちら（+ リンク）を参照してください
+* 「名前」、「説明」を入力し、アクションタイプとして「Adobe Marketo Engage」を選択します。
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
-* **リクエスト** ペイロードと **応答** ペイロードの「ペイロードを編集」をクリックします。
-* 両方に対して、ペイロードを作成し、専用のポップアップに貼り付けます。
+* **リクエスト**&#x200B;および&#x200B;**応答**&#x200B;ペイロードの「ペイロードを編集」をクリックします。
+* どちらの場合も、ペイロードを作成し、専用のポップアップに貼り付けます。
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* ペイロード値のInspectと設定
-メモ：値を動的に渡すには、フィールドごとに **定数** を **変数** に変更します。
+* ペイロード値の検査と設定
+メモ：値を動的に渡すには、フィールドごとに**定数**&#x200B;を&#x200B;**変数**&#x200B;に変更します。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-* フィールド設定ウィンドウで **保存**」をクリックし、カスタムアクションで **保存** をクリックします。
+* フィールド設定ウィンドウで「**保存**」をクリックし、カスタムアクションで「**保存**」をクリックします。
 
-専用のキャンバスでカスタムアクションを使用できるようになりました。
+これで、専用のキャンバスでカスタムアクションを使用できるようになりました。
 
 
 ## ペイロード構文 {#payload-syntax}
@@ -65,7 +65,7 @@ Marketo Engageとのシームレスなデータ統合のジャーニーに乗り
 ![](assets/payload-customobject.png)
 
 
-**Person のペイロードの例**
+**人物のペイロードの例**
 
 ```json
 {
@@ -111,7 +111,7 @@ Marketo Engageとのシームレスなデータ統合のジャーニーに乗り
 
 ## アクションの使用 {#engage-using}
 
-* カスタムアクションをジャーニーキャンバスにドラッグします。 （カスタムアクション/リンクの使用方法を参照）
+* カスタムアクションをジャーニーキャンバスにドラッグします。（カスタムアクション／リンクの使用方法を参照）
 * リクエストパラメーターで、ペイロードに設定した動的な値を持つ各パラメーターに対して「編集」をクリックします。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
