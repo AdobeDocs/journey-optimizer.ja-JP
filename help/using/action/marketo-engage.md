@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: marketo、marketo engage 統合
-source-git-commit: 6a49f4b2e0220b1c875b42f70dcb44f3405c6ad2
+source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%
@@ -37,17 +37,17 @@ Marketo Engageとのシームレスなデータ統合のジャーニーに乗り
 * 「アクション」リストから、「アクションを作成」をクリックします。 カスタムアクションの作成について詳しくは、こちらを参照してください（+リンク）
 * 「名前」、「説明」を入力し、「アクションタイプ」として「Adobe Marketo Engage」を選択します。
 
-![](assets/engage-customaction-creation.png)
+![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
 * **リクエスト** ペイロードと **応答** ペイロードの「ペイロードを編集」をクリックします。
 * 両方に対して、ペイロードを作成し、専用のポップアップに貼り付けます。
 
-![](assets/engage-customaction-payload.png)
+![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 * ペイロード値のInspectと設定
 メモ：値を動的に渡すには、フィールドごとに **定数** を **変数** に変更します。
 
-![](assets/engage-customaction-payload-fields.png)
+![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 * フィールド設定ウィンドウで **保存**」をクリックし、カスタムアクションで **保存** をクリックします。
 
@@ -114,5 +114,5 @@ Marketo Engageとのシームレスなデータ統合のジャーニーに乗り
 * カスタムアクションをジャーニーキャンバスにドラッグします。 （カスタムアクション/リンクの使用方法を参照）
 * リクエストパラメーターで、ペイロードに設定した動的な値を持つ各パラメーターに対して「編集」をクリックします。
 
-![](assets/engage-use-canvas.png)
+![](assets/engage-use-canvas.png){width="70%" align="left"}
 
