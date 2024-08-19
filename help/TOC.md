@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f6d1026d78584e21e03d3ef5c1bc37b59168176
+source-git-commit: 0cf6fb4eaf72a1a54c7e6253a11fca66692cee84
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 97%
@@ -543,21 +543,21 @@ ht-degree: 97%
          + 決定項目 {#decision-items}
             + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [決定項目を削除](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [決定項目を参照](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [決定項目を更新](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
+            + [決定項目を削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [決定項目を参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [決定項目を更新](using/experience-decisioning/api-reference/decisions-items/update.md)
          + アイテム コレクション {#items-collections}
-            + [項目コレクションの作成](/help/using/experience-decisioning/api-reference/items-collections/create.md)
-            + [アイテム コレクションの削除](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [アイテム コレクション リスト](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [アイテム コレクションの参照](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [アイテム コレクションの更新](/help/using/experience-decisioning/api-reference/items-collections/update.md)
+            + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [アイテム コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [アイテム コレクション リスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [アイテム コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [アイテム コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
          + 選択戦略 {#selection-strategies}
-            + [選択戦略の作成](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [選択戦略を削除](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [ルックアップ選択戦略](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [選択戦略リスト](/help/using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [選択戦略を更新](/help/using/experience-decisioning/api-reference/selection-strategies/update.md)
+            + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [選択戦略を削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [ルックアップ選択戦略](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [選択戦略を更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
       + 決定項目の管理 {#decision-items}
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
          + [決定項目の作成](using/experience-decisioning/items.md)
