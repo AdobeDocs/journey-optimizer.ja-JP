@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
+source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 46%
+source-wordcount: '604'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 46%
 
 ## 2024年8月早期リリースノート {#e-2024}
 
-**リリース日**:2024 年 8 月 20～21 日
+**リリース日**：2024年8月20日～21日（PT）
 
 >[!CAUTION]
 >
@@ -39,58 +39,57 @@ ht-degree: 46%
 
 このリリースでは、以下に示す新機能が導入されています。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>ガイド付きチャネル設定</strong><br/></th>
+<th><strong>Guided Channel Setup</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ガイド付きチャネル設定を使用すると、統合されたエクスペリエンスでチャネル設定を自動化および検証でき、Journey Optimizerを使い始めるプロセスをスピードアップできます。 この新しいガイド付き設定により、迅速なチャネル設定が合理化され、必要なすべてのリソースがExperience Platform、Journey Optimizer、データ収集において容易にインストールされて機能するようになります。 これにより、マーケティング、製品、データエンジニアリングチームは、キャンペーンとジャーニーの作成をすばやく開始できます。</p>
+<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>コンテンツカード</strong><br/></th>
+<th><strong>Content Cards</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>コンテンツカードは、Adobe Journey Optimizerの新しいデジタルメッセージ機能であり、パーソナライズされた魅力的なコンテンツをモバイルアプリや web サイト内で直接配信します。 従来のプッシュ通知とは異なり、コンテンツカードはユーザーインターフェイスにシームレスに統合され、ユーザーインタラクションとエクスペリエンスを向上させる、永続的で非割り込み型のアップデートを提供します。</p>
-<p>この機能を使用すると、マーケターは、関連性の高いリッチメディアコンテンツをユーザーに提示できるため、ユーザージャーニーを中断することなくエンゲージメントを向上させ、重要なメッセージを確実に確認できます。</p>
+<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>チャネル設定の改善</strong><br/></th>
+<th><strong>Improved Channel Configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在のチャネルサーフェス機能が強化され、すべてのチャネルで一貫したアプローチが可能になりました。 これらの設定を、Web、アプリ内メッセージ、コードベースのエクスペリエンスなど、任意のチャネルに対して定義、管理および再利用できるようになりました。</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels, including Web, In-app messaging, or Code-based experience.</p>
 <p><ul>
-<li>チャネルサーフェスの名前が <strong> チャネル設定 </strong> に変更されました</li>
-<li>1 つまたは複数のマーケティングアクションを添付して、同意ポリシーとデータガバナンスポリシーを適用できます</li>
-<li>オブジェクトレベルのアクセス制御（OLAC）がチャネル設定ごとに使用できるようになり、特定の設定を作成または使用できるユーザーを決定できるようになりました</li>
-<li>一部のチャネルでは、複数のプラットフォームをターゲットとするチャネル設定を作成できます。 例えば、web ページ、iOS アプリ、Android アプリをターゲットにできるアプリ内メッセージチャネル設定が考えられます。</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>You can attach one or multiple marketing actions to enforce consent and data governance policies</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -133,7 +132,7 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>公開日：8 月 13 日（PT）</p>
+<p>公開日：8月13日（PT）</p>
 <p>新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。</p>
 <p>詳しくは、<a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -148,7 +147,7 @@ ht-degree: 46%
 
 **ジャーニー**
 
-* **条件** アクティビティでは、デフォルトで、時間条件が 00:00 から 12:00 の時間別に設定されるようになりました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
+<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
 * ジャーニーを作成する際に、キャンペーンアラートと連携して一貫したユーザーエクスペリエンスを実現するために、アラートがドロップダウンリストに表示されるようになりました。 [詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * ジャーニーツールバーのズームオプションが改善されました。ズーム率が表示され、ズーム値を 100% に簡単にリセットできるようになりました。
 
