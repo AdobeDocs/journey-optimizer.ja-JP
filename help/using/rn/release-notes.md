@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 70%
+source-wordcount: '482'
+ht-degree: 53%
 
 ---
 
@@ -26,16 +26,18 @@ ht-degree: 70%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2024年8月早期リリースノート {#e-2024}
+## 2024年8月リリースノート {#8-2024}
 
 **リリース日**：2024年8月20日～21日（PT）
 
+<!--
 >[!CAUTION]
 >
->**以下の早期リリースノートは、リリース日まで予告なく変更される場合があります**。 リンク、画面、更新されたドキュメントは、リリース日に公開されます。
+>**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
 >
+-->
 
-### 新機能 {#e-features}
+### 新機能 {#8-features}
 
 このリリースでは、以下に示す新機能が導入されています。
 
@@ -57,14 +59,16 @@ ht-degree: 70%
 <!--table>
 <thead>
 <tr>
-<th><strong>Content Cards</strong><br/></th>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
 <p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -86,6 +90,7 @@ ht-degree: 70%
 <li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
 <li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,6 +106,7 @@ ht-degree: 70%
 <tr>
 <td>
 <p>Adobe Journey Optimizer を Adobe Marketo Engage と統合して、B2B ユースケースを作成できるようになりました。新しいカスタムアクションを使用すると、ジャーニーから Marketo にデータを取り込むことができます。</p>
+<p>詳しくは、<a href="../action/marketo-engage.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +122,8 @@ ht-degree: 70%
 <tbody>
 <tr>
 <td>
-<p>フラグメントは、<a href="../personalization/use-expression-fragments.md"> 式フラグメント </a> と <a href="../email/use-visual-fragments.md"> ビジュアルフラグメント </a> の両方で入力変数を使用できるようになりました。 これらの変数を使用して、キャンペーンやジャーニーでメッセージのコンテンツやパラメーターをパーソナライズできます。</p>
+<p>フラグメントのグローバル変数は、既存のフラグメント機能を強化して、コンテンツの再利用性とスクリプトのユースケースの効率を向上させます。 フラグメントで入力変数を使用し、キャンペーンおよびジャーニーコンテンツで使用できる出力変数を作成できるようになりました。 フラグメントは、<a href="../personalization/use-expression-fragments.md"> 式フラグメント </a> と <a href="../email/use-visual-fragments.md"> ビジュアルフラグメント </a> の両方で入力変数を使用できます。 これらの変数を使用して、キャンペーンやジャーニーでメッセージのコンテンツやパラメーターをパーソナライズできます。</p>
+<p>詳しくは、<a href="../personalization/use-expression-fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </p>
 </td>
 </tr>
@@ -141,67 +148,31 @@ ht-degree: 70%
 </table>
 
 
-### 機能強化 {#e-improvements}
+### 機能強化 {#8-improvements}
 
 このリリースでは、以下に示す機能強化が行われています。
 
 **ジャーニー**
 
-<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
-* ジャーニーを作成する際に、キャンペーンアラートと連携して一貫したユーザーエクスペリエンスを実現するために、アラートがドロップダウンリストに表示されるようになりました。 [詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* ジャーニーツールバーのズームオプションが改善されました。ズーム率が表示され、ズーム値を 100% に簡単にリセットできるようになりました。
+* **条件** アクティビティでは、デフォルトで **[!UICONTROL 時間条件]** が時間単位で 00:00 から 12:00 に設定されるようになりました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
+* ジャーニーを作成する際に、他のアラートと連携して一貫性のあるユーザーエクスペリエンスを提供するために、「**アラート**」ボタンからアラートが表示されるようになりました。 [詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* ジャーニーツールバーのズームオプションが改善されました。ズーム率が表示され、ズーム値をより簡単にリセットできるようになりました。
 
-**オーディエンス**
+<!--**Audiences and Profiles**-->
 
-* カスタムアップロード（CSV ファイル）のオーディエンスを、プライバシーとセキュリティシールドのアドオンで使用できるようになりました。
-* カスタムアップロード（CSV ファイル）オーディエンスをターゲティングする際に、キャンペーンおよびジャーニーでファイルの属性を使用できるようになりました。 これらの属性は、パーソナライゼーションエディター、メッセージのパーソナライズ、ジャーニーの高度な式エディターで使用できます。
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
+<!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-## 2024年7月リリースノート {#24-7-2024}
 
-**リリース日**：2024年7月30～31日（PT）
+**プッシュチャネル**
 
-### 新機能 {#27-4-features}
+* モバイルアプリケーションのプッシュ資格情報をAdobe Journey Optimizer チャンネル設定内に追加できるようになりました。 Adobe Experience Platform Data Collection でのアプリサーフェスの作成は不要になりました。
 
-このリリースでは、以下に示す新機能が導入されています。
+### その他の変更 {#changes}
 
-<table>
-<thead>
-<tr>
-<th><strong>任意のプロバイダーでの SMS チャネル（ベータ版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>デフォルトのプロバイダーである Sinch、Infobip、Twilio に加えて、Journey Optimizer 内で追加の SMS プロバイダーを設定できるようになりました。</p>
-<img src="assets/do-not-localize/byo_sms.gif"/>
-<p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
+**レポート**
 
-<table>
-<thead>
-<tr>
-<th><strong>連合オーディエンス構成（限定提供）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>連合オーディエンス構成が Adobe Journey Optimizer で使用できるようになりました。これを使用すると、企業は様々なユースケースでの稼動率を高めるデータを作成できます。この新しいアプローチでは、Adobe Real-time Customer Data Platform または Adobe Journey Optimizer のユーザーとして、既存のデータウェアハウスからデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで作成および強化できます。</p>
-<p>詳しくは、 <a href="https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home"  target="_blank">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
+* 現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。 スムーズな移行を確実に行うために、新機能を理解しておくことをお勧めします。
 
-### 機能強化 {#27-4-improvements}
-
-このリリースでは、以下に示す機能強化が含まれています。
-
-**ジャーニー**
-
-* （提供日：7月8日（PT）**ジャーニーイベント設定の高度な式エディター** - イベントを設定する際に高度な式エディターを活用できるようになりました。これにより、さらに複雑な式を定義したり、イベント ID 条件で関数を使用したりできます。[詳細情報](../event/about-creating.md#adv-exp-editor)
-
+[Journey Optimizerの新しいレポートインターフェイスの概要](../reports/report-gs-cja.md)

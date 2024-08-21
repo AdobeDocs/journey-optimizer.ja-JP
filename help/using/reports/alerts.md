@@ -8,14 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 100%
+source-wordcount: '606'
+ht-degree: 89%
 
 ---
 
 # アラートの基本を学ぶ {#alerts}
+
+ジャーニーとキャンペーンを作成する場合は、「**アラート**」ボタンを使用してエラーを確認および解決してから、実行または公開します。 ジャーニーのトラブルシューティング方法については、[ このページ ](../building-journeys/troubleshooting.md) を参照してください。 キャンペーンのレビュー方法については、[ このページ ](../campaigns/review-activate-campaign.md) を参照してください。
+
+また、このページで説明するように、Adobe Journey Optimizer システムアラートを登録することもできます。
 
 ## アラートへのアクセスと購読 {#alerting-capabilities}
 
@@ -88,5 +92,5 @@ Adobe Experience Platform のアラートについて詳しくは、[Adobe Exper
   ![](assets/alert-troubleshooting-3.png)
 
 * ジャーニーの stepEvents で「failureReason」の詳細を確認します。
-* カスタムアクション設定を確認し、認証が正常であることを検証します。例えば、
-Postman で手動チェックを実行します。
+
+* カスタムアクション設定を確認し、認証が正常であることを検証します。例えば、Postmanを使用して手動でチェックします。

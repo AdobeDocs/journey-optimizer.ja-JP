@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 100%
+source-wordcount: '1535'
+ht-degree: 84%
 
 ---
 
@@ -103,7 +103,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 * 呼び出し時に渡すパラメーターを「**[!UICONTROL 動的な値]**」フィールドにリストします（以下の例では「identifier」）。
 * また、送信済みペイロードの本文で同じ構文を使用して指定します。そのためには、「&quot;param&quot;: &quot;パラメーター名&quot;」（以下の例では「identifier」）を追加する必要があります。次の構文に従います。
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -142,28 +142,28 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 ### アクセストークンの生成時に呼び出されるエンドポイントの定義{#custom-authentication-endpoint}
 
-* endpoint：エンドポイントの生成に使用する URL
-* エンドポイントでの HTTP リクエストのメソッド（GET または POST）
-* headers：必要に応じて、この呼び出しにヘッダーとして挿入されるキーと値のペア
-* body：メソッドが POST の場合の呼び出しの本文を記述します。bodyParams（キーと値のペア）で定義された限定的な本文構造をサポートしています。bodyType は、呼び出しでの本文の形式とエンコーディングを記述します。
-   * 「form」：コンテンツタイプが application/x-www-form-urlencoded（文字セット UTF-8）で、キーと値のペアが key1=value1&amp;key2=value2&amp;... のようにシリアル化されることを意味します。
-   * 「json」：コンテンツタイプが application/json（文字セット UTF-8）で、キーと値のペアが JSON オブジェクトとして _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_ のようにシリアル化されることを意味します。
+* `endpoint`: エンドポイントの生成に使用する URL
+* エンドポイントでの HTTP リクエストのメソッド （`GET` または `POST`）
+* `headers`：必要に応じて、この呼び出しにヘッダーとして挿入されるキーと値のペア
+* `body`：メソッドがPOSTの場合の呼び出しの本文を記述します。 bodyParams（キーと値のペア）で定義された限定的な本文構造をサポートしています。bodyType は、呼び出しでの本文の形式とエンコーディングを記述します。
+   * `form`：コンテンツタイプは application/x-www-form-urlencoded （文字セット UTF-8）になり、キーと値のペアは key1=value1&amp;key2=value2&amp;...のようにシリアル化されます。
+   * `json`：コンテンツタイプは application/json （文字セット UTF-8）になり、キーと値のペアは _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...} のように json オブジェクトとしてシリアル化されます。_
 
 ### アクションの HTTP リクエストにアクセストークンを挿入する方法の定義{#custom-authentication-access-token}
 
-* authorizationType：生成されたアクセストークンをアクションの HTTP 呼び出しに挿入する方法を定義します。使用可能な値は次のとおりです。
+* **authorizationType**：生成されたアクセストークンをアクションの HTTP 呼び出しに挿入する方法を定義します。 使用可能な値は次のとおりです。
 
-   * bearer：_Authorization: Bearer &lt;access token>_ のように、アクセストークンを Authorization ヘッダーに挿入する必要があることを示します。
-   * header：プロパティ tokenTarget で定義されたヘッダー名のヘッダーとして、アクセストークンを挿入する必要があることを示しています。例えば、tokenTarget が myHeader の場合、アクセストークンは _myHeader: &lt;access token>_ のようにヘッダーとして挿入されます。
-   * queryParam：プロパティ tokenTarget で定義されたクエリパラメーター名である queryParam として、アクセストークンを挿入する必要があることを示します。例えば、tokenTarget が myQueryParam の場合、アクション呼び出しの URL は _&lt;url>?myQueryParam=&lt;access token>_ のようになります。
+   * `bearer`：次のように、アクセストークンを Authorization ヘッダーに挿入する必要があることを示します。_Authorization: Bearer &lt; アクセストークン >_
+   * `header`: アクセストークンを、プロパティ `tokenTarget` で定義されたヘッダー名のヘッダーとして挿入する必要があることを示します。 例えば、`tokenTarget` が `myHeader` の場合、アクセストークンは _myHeader:&lt;access token> としてヘッダーとして挿入されます_
+   * `queryParam`：アクセストークンを、プロパティ tokenTarget で定義されたクエリパラメーター名である queryParam として挿入する必要があることを示します。 例えば、tokenTarget が myQueryParam の場合、アクション呼び出しの URL は _&lt;url>?myQueryParam=&lt;access token>_ のようになります。
 
-* tokenInResponse：認証呼び出しからアクセストークンを抽出する方法を示します。このプロパティには次のようなものがあります。
-   * &#39;response&#39;：HTTP 応答がアクセストークンであることを示します
-   * JSON 内のセレクター（応答が JSON であると仮定し、XML などの他の形式はサポートされません）。このセレクターの形式は _json://&lt;path to the access token property>_ です。例えば、呼び出しの応答が _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_ の場合、tokenInResponse は _json: //access_token_ のようになります。
+* **tokenInResponse**：認証呼び出しからアクセストークンを抽出する方法を示します。 このプロパティには次のようなものがあります。
+   * `response`: HTTP 応答がアクセストークンであることを示します
+   * json 内のセレクター（応答が json であると仮定し、XML などの他の形式はサポートされません）。 このセレクターの形式は _json://&lt;path to the access token property>_ です。例えば、呼び出しの応答が _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_ の場合、tokenInResponse は _json: //access_token_ のようになります。
 
 この認証の形式は次のとおりです。
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -194,15 +194,13 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 >
 >Encode64 は、認証ペイロードで使用できる唯一の関数です。
 
-カスタム認証データソース用のトークンのキャッシュ時間を変更できます。次に、カスタム認証ペイロードの例を示します。キャッシュ時間は、「cacheDuration」パラメーターで定義します。キャッシュ内の生成されたトークンの保持期間を指定します。単位はミリ秒、秒、分、時間、日、月、年です。
+カスタム認証データソース用のトークンのキャッシュ時間を変更できます。次に、カスタム認証ペイロードの例を示します。キャッシュ時間は、`cacheDuration` パラメーターで定義します。 キャッシュ内の生成されたトークンの保持期間を指定します。単位はミリ秒、秒、分、時間、日、月、年です。
 
 Bearer 認証タイプの例を次に示します。
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -221,9 +219,8 @@ Bearer 認証タイプの例を次に示します。
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -235,11 +232,9 @@ Bearer 認証タイプの例を次に示します。
 
 ヘッダー認証タイプの例を次に示します。
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -256,13 +251,15 @@ Bearer 認証タイプの例を次に示します。
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 ログイン API 呼び出しの応答の例を次に示します。
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

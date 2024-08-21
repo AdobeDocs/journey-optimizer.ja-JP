@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: ht
-source-wordcount: '2239'
-ht-degree: 100%
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 99%
 
 ---
 
@@ -44,6 +44,11 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * MMS 用のメディアファイルは、サポートされている URL を通じて含めることができます。メディアファイルは別々にアップロードしてください。
 * 現在、MMS ではメッセージのフィードバック同期を使用できません。
 * 同意の管理は、MMS の SMS チャネルレベルで動作します。
+
+### Web チャネルガードレール {#web-guardrails}
+
+[!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
+
 
 ## サブドメインガードレール {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 * アプリ内メッセージのコンテンツサイズは 2 MB に制限されています。大きな画像を含めると、公開プロセスの妨げになる場合があります。
 
-## オーディエンスガードレール {#audience}
 
-* 特定のサンドボックス内で最大 10 個のオーディエンスコンポジションを公開できます。このしきい値に達した場合、新しいコンポジションを公開するためには、コンポジションを削除してスペースを解放する必要があります。
 
 ### ジャンプアクティビティ {#jump-g}
 
@@ -188,6 +191,10 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 * Adobe Campaign アクティビティは、「オーディエンスを読み取り」アクティビティや「オーディエンスの選定」アクティビティと併用できません。
 * これらのアクティビティは、「アプリ内」アクティビティと併用できません。
+
+## オーディエンスガードレール {#audience}
+
+特定のサンドボックス内で最大 10 個のオーディエンスコンポジションを公開できます。このしきい値に達した場合、新しいコンポジションを公開するためには、コンポジションを削除してスペースを解放する必要があります。
 
 ## 意思決定管理ガードレール {#decision-management}
 

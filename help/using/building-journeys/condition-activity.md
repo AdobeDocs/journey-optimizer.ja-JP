@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 95%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 ## データソースの条件 {#data_source_condition}
 
-これにより、データソースのフィールドまたはジャーニー内で以前に配置されたイベントに基づいて条件を定義できます。式エディターの使用方法については、[この節](expression/expressionadvanced.md)を参照してください。
+**[!UICONTROL データSource条件]** を使用して、データソースのフィールドまたはジャーニー内で以前に配置されたイベントに基づいて条件を定義します。 このタイプの条件は、式エディターで定義されます。 式エディターの使用方法については、[この節](expression/expressionadvanced.md)を参照してください。
 
 例えば、構成ワークフローまたはカスタムアップロード（CSV ファイル）を使用して生成されたエンリッチメント属性を持つオーディエンスをターゲットにしている場合、これらのエンリッチメント属性を活用して条件を作成できます。
 
@@ -82,13 +82,15 @@ ht-degree: 100%
 
 ![](assets/journey50.png)
 
-## 時間条件{#time_condition}
+## 時間条件 {#time_condition}
 
-これにより、時間帯や曜日に応じて異なるアクションを実行できます。例えば、平日の夜にメールを送信し、日中にプッシュ通知を送信するように指定できます。
+**[!UICONTROL 時間条件]** を使用すると、時間帯や曜日に応じて異なるアクションを実行できます。 例えば、平日の夜にメールを送信し、日中にプッシュ通知を送信するように指定できます。
 
 >[!NOTE]
 >
->タイムゾーンは条件に固有のものではなく、ジャーニーのプロパティでジャーニーレベルで定義されます。[このページ](../building-journeys/timezone-management.md)を参照してください。
+>* タイムゾーンは条件に固有のものではなく、ジャーニーのプロパティでジャーニーレベルで定義されます。詳しくは、[このページ](../building-journeys/timezone-management.md)を参照してください。
+>
+>* デフォルトでは、**[!UICONTROL 時間条件]** は 00:00 から 12:00 の時間単位で設定されます。
 
 ![](assets/journey51.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
@@ -106,7 +106,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 アクションアクティビティから、カスタムアクションを使用して、サードパーティ製システムでメッセージを送信します。[カスタムアクションの詳細はこちらを参照してください](about-journey-activities.md#action-activities)。
 
-## 代替パスを追加{#paths}
+## 代替パスを追加 {#paths}
 
 **[!UICONTROL 条件]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;のジャーニーアクティビティで、エラーやタイムアウトが発生した場合の代替アクションを定義できます。
 

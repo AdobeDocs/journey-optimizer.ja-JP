@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 92%
 
 ---
 
 # チャネルレポートの基本を学ぶ {#channel-report-gs}
+
+>[!AVAILABILITY]
+>
+>現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。 スムーズな移行を確実に行うために、新機能を理解しておくことをお勧めします。 [Journey Optimizerの新しいレポートインターフェイスの概要 ](report-gs-cja.md)
 
 チャネルレポートは、トラフィック指標とエンゲージメント指標の包括的な概要を各チャネルの統合レポートに提供する強力なツールで、すべてのキャンペーンとジャーニーのすべてのアクションを網羅します。様々なウィジェットは分割され、それぞれがキャンペーンまたはジャーニーのパフォーマンスの特定のビューを提供します。
 

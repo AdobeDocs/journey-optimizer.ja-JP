@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 >id="ajo_landing_page_global_report"
 >title="ランディングページのグローバルレポート"
 >abstract="ランディングページグローバルレポートでは、選択した期間におけるランディングページの影響を測定できます。レポートは、ランディングページの成功とエラーの詳細を示す様々なウィジェットに分かれています。 各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
+
+>[!AVAILABILITY]
+>
+>現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。 スムーズな移行を確実に行うために、新機能を理解しておくことをお勧めします。 [Journey Optimizerの新しいレポートインターフェイスの概要 ](report-gs-cja.md)
 
 「全期間」タブからアクセスできるグローバルレポートには、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントが表示されます。これに対し、ライブレポートには、過去 24 時間以内に発生したイベントが焦点となり、イベント発生から最小 2 分の時間間隔で表示されます。
 

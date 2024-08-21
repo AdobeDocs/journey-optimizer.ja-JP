@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 70%
 
 ---
 
@@ -67,6 +67,39 @@ ht-degree: 100%
 >[!NOTE]
 >
 >複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、[SMS](../sms/send-sms.md) または[プッシュ](../push/send-push.md)メッセージを送信する前に必ずテストしてください。
+
+## 暗黙的変数の使用 {#implicit-variables}
+
+暗黙的変数は、既存のフラグメント機能を強化して、コンテンツの再利用性とスクリプトのユースケースの効率を向上させます。 フラグメントでは、入力変数を使用して、キャンペーンおよびジャーニーコンテンツで使用できる出力変数を作成できます。
+
+この機能は、例えば、現在のキャンペーンやジャーニーに基づいてメールのトラッキングパラメーターを初期化し、これらのパラメーターをメールコンテンツに追加されたパーソナライズされたリンクに使用できます。
+
+次のユースケースが考えられます。
+
+1. フラグメントでの入力変数の使用
+
+   フラグメントをキャンペーン/ジャーニーアクションコンテンツで使用すると、フラグメント外で宣言された変数を活用できます。 以下に例を示します。
+
+   ![](../personalization/assets/variable-in-a-fragment.png)
+
+   `utm_content` 変数がキャンペーンコンテンツで宣言されていることがわかります。 フラグメント **ヒーローブロック** が使用されると、`utm_content` パラメーター値が追加されるリンクが表示されます。 最終的な結果は `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping` です。
+
+1. フラグメントの出力変数の使用
+
+   フラグメント内で計算または定義された変数は、コンテンツ内で使用できます。 次の例では、フラグメント **F1** によって、一連の変数が宣言されています。
+
+   ![](../personalization/assets/personalize-with-variables.png)
+
+   メールコンテンツでは、次のパーソナライズ機能を使用できます。
+
+   ![](../personalization/assets/use-fragment-variable.png)
+
+   フラグメント F1 は、変数 `utm_campaign` および `utm_content` を初期化します。 次に、メッセージコンテンツ内のリンクに、これらのパラメーターが追加されます。 最終的な結果は `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping` です。
+
+>[!NOTE]
+>
+>実行時に、システムはフラグメント内を展開し、パーソナライゼーションコードを上から下に解釈します。 このことを念頭に置くと、より複雑なユースケースを実現できます。 例えば、以下に配置された別のフラグメント F2 に変数を渡すフラグメント F1 を作成できます。 また、ネストされた式フラグメント F2 に変数を渡すビジュアルフラグメント F1 を用意することもできます。
+
 
 ## 編集可能フィールドのカスタマイズ {#customize-fields}
 
