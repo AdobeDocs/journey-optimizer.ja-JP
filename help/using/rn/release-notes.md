@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 068714fc2cae501fcc13a7f3112e5c1f3a3470bb
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 53%
+source-wordcount: '450'
+ht-degree: 57%
 
 ---
 
@@ -162,12 +162,12 @@ ht-degree: 53%
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
 <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
+<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)
 
+**Push channel**
 
-**プッシュチャネル**
-
-* モバイルアプリケーションのプッシュ資格情報をAdobe Journey Optimizer チャンネル設定内に追加できるようになりました。 Adobe Experience Platform Data Collection でのアプリサーフェスの作成は不要になりました。
+* You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.
+-->
 
 ### その他の変更 {#changes}
 
