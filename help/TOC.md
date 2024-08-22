@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3c41154f54fb7d93fc6eb2f4c84957db517686c8
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1950'
 ht-degree: 97%
 
 ---
@@ -241,6 +241,7 @@ ht-degree: 97%
    + Web チャネルを設定 {#configure-web-channel}
       + [Web チャネルの前提条件](using/web/web-prerequisites.md)
       + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
+      + [Web チャネル設定の作成](using/web/web-configuration.md)
    + [Web エクスペリエンスの作成](using/web/create-web.md)
    + Web ページの作成 {#author-web-pages}
       + [Web ページコンテンツの編集](using/web/edit-web-content.md)
@@ -250,6 +251,7 @@ ht-degree: 97%
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
    + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
+   + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
    + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
    + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
 + ランディングページ {#landing-pages}

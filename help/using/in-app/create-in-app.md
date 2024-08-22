@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 100%
+source-wordcount: '2009'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. メッセージの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
-1. 使用する[アプリ内サーフェス](inapp-configuration.md)を選択します。
+1. 使用する [ アプリ内設定 ](inapp-configuration.md#channel-prerequisites) を選択します。
 
    ![](assets/in_app_journey_2.png)
 
@@ -125,13 +125,11 @@ ht-degree: 100%
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの実行タイプ（スケジュール済みまたは API トリガー）を選択します。キャンペーンのタイプについて詳しくは、[このページ](../campaigns/create-campaign.md#campaigntype)を参照してください。
+1. 実施するキャンペーンのタイプを選択します。
 
-1. 「**[!UICONTROL アクション]**」セクションで、**[!UICONTROL アプリ内メッセージ]**&#x200B;と、アプリ内メッセージにあらかじめ設定されている&#x200B;**[!UICONTROL アプリサーフェス]**&#x200B;を選択します。次に、「**[!UICONTROL 作成]**」をクリックします。
+   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、マーケティング メッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行されます。
 
-   アプリ内設定について詳しくは、[このページ](inapp-configuration.md)を参照してください。
-
-   ![](assets/in_app_create_1.png)
+   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、マーケティング メッセージまたはトランザクション メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;の説明を入力します。
 
@@ -142,6 +140,12 @@ ht-degree: 100%
    ![](assets/in_app_create_2.png)
 
 1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
+
+1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アプリ内メッセージ]** を選択し、新しい設定を選択または作成します。
+
+   アプリ内設定について詳しくは、[このページ](inapp-configuration.md)を参照してください。
+
+   ![](assets/in_app_create_1.png)
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../content-management/content-experiment.md)
 

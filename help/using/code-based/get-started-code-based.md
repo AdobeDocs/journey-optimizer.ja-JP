@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 **コードベースのエクスペリエンス**&#x200B;機能を使用すると、シンプルで直感的な非ビジュアルエディターを使用して、インバウンドエクスペリエンスを定義できます。これにより、コンテンツ全体に変更を適用する代わりに、アプリケーションの種類に関係なく、アプリや web ページの個別のより詳細な場所で、特定の要素を挿入および編集できます。
 
-<!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
+<!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound device in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
 >[!IMPORTANT]
 >
@@ -84,6 +84,7 @@ ht-degree: 100%
 Web の使用例を実行するには、web チャネルまたはコードベースのエクスペリエンスを使用できますが、コンテキストに応じて、どちらか一方が適切です。いつ何を使用するかを十分な情報に基づいて決定できるように、主な違いを以下に示します。
 
 **Web**
+
 * [Web デザイナー](../web/edit-web-content.md#work-with-web-designer){target="_blank"}ビジュアルエディターを使用してコンテンツを編集します。
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装し、[Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 拡張機能を web ブラウザーにインストールしている必要があります。[詳細情報](../web/web-prerequisites.md){target="_blank"}
 * Web チャネルを使用すると、ページ上のすべての項目を変更でき、変更に使用できるアクションの事前定義済みのリストが表示されます。[詳細情報](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
@@ -91,9 +92,10 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 * マーケティング担当者向けです。
 
 **コードベースのエクスペリエンス**
+
 * [パーソナライゼーションエディター](create-code-based.md#edit-code)を使用して、コンテンツを編集します。
-* コードベースのエクスペリエンスでは、[!DNL Journey Optimizer] によってエッジに公開されたコンテンツをサーフェスが解釈して配信できるように、実装に対する事前の開発作業が必要です。[詳細情報](#surface-definition)
-* より詳細な計画が必要で、開発者が指定した内容だけを変更できます。したがって、パーソナライゼーションやテストのために変更が必要なサーフェス上のコンポーネント（ホームバナー、ヒーロー画像、メニューバーなど）を特定し、開発チームと協力してこれらの変更処理に必要な実装を構築することが重要です。
+* コードベースのエクスペリエンスでは、これらの場所に対して [!DNL Journey Optimizer] を実行することで、アプリケーションがエッジで公開されたコンテンツを解釈して配信できることを確認するために、実装に関する以前の開発作業が必要です。 [詳細情報](code-based-configuration.md#surface-definition)
+* より詳細な計画が必要で、開発者が指定した内容だけを変更できます。したがって、パーソナライゼーションやテストのために変更が必要なサーフェス上のコンポーネント（ホームバナー、ヒーロー画像、メニューバーなど）を特定し、をパーソナライゼーションやテスト用に変更する必要があるアプリケーションで使用し、開発チームと協力してこれらの変更を処理するために必要な実装を構築します。
 * JSON コードコンテンツを使用できます。
 * 開発担当者向けです。
 
@@ -103,65 +105,16 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 >
 >この機能は、開発担当者や経験豊富なユーザー向けです。サーフェス実装と初期設定が開発チームで処理される限り、ある程度のコード作成スキルを持つマーケターでも使用できます。
 
-[!DNL Journey Optimizer] コードベースのエクスペリエンス機能を使用してコンテンツを編集するには、ページやアプリを実装する必要があります。これを行うには、コンテンツを挿入または置換する特定の個々の場所（「[サーフェス](#surface-definition)」と呼ばれる）を事前に宣言する必要があります<!--HOW??-->。
+[!DNL Journey Optimizer] コードベースのエクスペリエンス機能を使用してコンテンツを編集するには、ページやアプリを実装する必要があります。これを行うには、コンテンツを挿入または置換する特定の個々の場所（「[サーフェス](code-based-configuration.md#surface-definition)」と呼ばれる）を事前に宣言する必要があります<!--HOW??-->。
 
 >[!NOTE]
 >
->現在、サーフェスに関連付けられているコンテンツは、HTMLまたは JSON のみです。<!--WILL COME LATER: text, image or another format depending on the application-->
+>現在、設定に関連付けられているコンテンツは、HTMLまたは JSON のみです。<!--WILL COME LATER: text, image or another format depending on the application-->
 
 コードベースのキャンペーンを実装するための主な手順を以下に示します。
 
-1. [サーフェス](#surface-definition)を定義します。サーフェスは、基本的にコードベースのエクスペリエンスを追加する場所で、このサーフェスを使用して [!DNL Journey Optimizer] でキャンペーンを作成します。[方法についてはこちらを参照](create-code-based.md#create-code-based-campaign)
+1. アプリケーション実装で [ サーフェス ](code-based-configuration.md#surface-definition) を定義します。これは基本的に、コードベースのエクスペリエンスを追加する場所です。次に、その場所を参照するコードベースのエクスペリエンスチャネル設定を作成し、この設定を使用して [!DNL Journey Optimizer] でキャンペーンを作成します。 [方法についてはこちらを参照](create-code-based.md#create-code-based-campaign)
 
-1. [!DNL Journey Optimizer] パーソナライゼーションエディターを使用して、選択したサーフェスのコンテンツを指定してエクスペリエンスを作成します。[方法についてはこちらを参照](create-code-based.md#edit-code)
+1. [!DNL Journey Optimizer] パーソナライゼーションエディターを使用して、選択した設定のコンテンツを指定することで、エクスペリエンスを作成します。 [方法についてはこちらを参照](create-code-based.md#edit-code)
 
 1. アプリ実装チームは、明示的な API または SDK 呼び出しを行って、「バナーテキスト」や「Recommendations トレイ 1」などの名前付きサーフェスや、アプリケーション内の UI 関連以外の決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。この場合、実装チームは返されたコンテンツをレンダリングするか、その他の方法で解釈し、それに基づいて行動する責任があります。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
-
-## サーフェスとは {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_code_based_surface"
->title="コードベースのエクスペリエンスサーフェスを定義"
->abstract="コードベースのサーフェスとは、ユーザーやシステムの操作用に設計されたエンティティで、URI によって一意に識別されます。"
-
-**コードベースのエクスペリエンスサーフェス**&#x200B;とは、ユーザーやシステムの操作用に設計されたエンティティで<!--ask Robert to explain further-->、**URI** によって一意に識別されます。
-
-つまり、サーフェスは、エンティティ（タッチポイント）が存在する階層の任意のレベルのコンテナと見なすことができます。<!--good idea to illustrate how it can be seen, but to clarify-->
-
-* Web ページ、モバイルアプリ、デスクトップアプリ、大きなエンティティ内の特定のコンテンツの場所（`div` など）または非標準の表示パターン（キオスクやデスクトップアプリのバナーなど）が考えられます。<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* また、非表示または抽象された表示を目的として、コンテンツ コンテナの特定の部分に拡張することもできます（サービスに配信される JSON BLOB など）。
-
-* また、様々なクライアントサーフェス定義に一致するワイルドカードサーフェスにすることもできます（例えば、web サイトの各ページのヒーロー画像の場所を web://mydomain.com/*#hero_image のようなサーフェス URI に変換できます）。
-
-基本的に、サーフェス URI は複数のセクションで構成されます。
-1. **タイプ**：web、mobileapp、atm、kiosk、tvcd、service など。
-1. **プロパティ**：ページ URL またはアプリバンドル
-1. **コンテナ**：ページ／アプリアクティビティ上の場所
-
-次の表に、様々なデバイスのサーフェス URI 定義の例を示します。
-
-**Web およびモバイル**
-
-| タイプ | URI | 説明 |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | 特定のドメインの特定のページ内の個々の要素を表します。要素は、次の例のようなラベル（hero_banner、top_nav、menu、footer など）にすることができます。 |
-| iOS アプリ | `mobileapp://com.vendor.bundle/activity#element` | ボタンや他のビュー要素など、ネイティブアプリアクティビティ内の特定の要素を表します。 |
-| Android アプリ | `mobileapp://com.vendor.bundle/#element` | ネイティブアプリ内の特定の要素を表します。 |
-
-**その他のデバイスタイプ**
-
-| タイプ | URI | 説明 |
-| --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
-| TV アプリ | `tvcd://com.vendor.bundle/#element` | スマート TV または TV 接続デバイスアプリ内の特定の要素（バンドル ID）を表します。 |
-| サービス | `service://servicename/#element` | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
-| キオスク | `kiosk://location/screen#element` | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
-| ATM | `atm://location/screen#element` | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
-
-**ワイルドカードサーフェス**
-
-| タイプ | URI | 説明 |
-| --------- | ----------- | ------- | 
-| ワイルドカード web | `wildcard:web://domain.com/*#element` | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
-| ワイルドカード web | `wildcard:web://*domain.com/*#element` | ワイルドカードサーフェス - 「domain.com」で終わるすべてのドメインの各ページの個々の要素を表します。 |

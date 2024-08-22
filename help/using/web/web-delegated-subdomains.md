@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
 
 ## Web サブドメインへのアクセスと管理 {#access-web-subdomains}
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューに移動して、**[!UICONTROL Web 設定]**／**[!UICONTROL Web サブドメイン]**&#x200B;を選択します。現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]** メニューに移動し、**[!UICONTROL Web 設定]**/**[!UICONTROL Web サブドメイン]** を選択します。 現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
 
    ![](assets/web-access-subdomains.png)
 
@@ -68,7 +68,7 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
 
 既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL Web 設定]**／**[!UICONTROL Web サブドメイン]**&#x200B;を選択します。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]** メニューにアクセスして、**[!UICONTROL Web 設定]**/**[!UICONTROL Web サブドメイン]** を選択します。
 
 1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
 
@@ -109,7 +109,7 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
 >
 >デフォルトでは [!DNL Journey Optimizer] では、合計 10 個までのサブドメインをデリゲートできます（メールと web チャネルの両方を含む）。ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL Web 設定]**／**[!UICONTROL Web サブドメイン]**&#x200B;を選択します。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]** メニューにアクセスして、**[!UICONTROL Web 設定]**/**[!UICONTROL Web サブドメイン]** を選択します。
 
 1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
 
@@ -153,7 +153,7 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
    >
    >そのサブドメインを使用して web メッセージを送信できるようにするには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。
 
-1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。Web チャネルのサーフェスを作成する準備が整いました。
+1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。Web チャネル設定の作成に使用する準備が整いました。
 
    ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
 

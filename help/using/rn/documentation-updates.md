@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '5454'
 ht-degree: 99%
@@ -21,13 +21,13 @@ ht-degree: 99%
 
 ## 2024年8月 {#aug-2024}
 
-* 意思決定管理のパフォーマンスガードレールが更新され、Edge セグメント化の有無に関わらず、Decisioning API の配信スループットに言及するようになりました。 [詳細情報](../start/guardrails.md#decision-management)
+* 意思決定管理のパフォーマンスガードレールが更新され、エッジセグメント化の有無に関わらず、Decisioning API の配信スループットが示されています。[詳細情報](../start/guardrails.md#decision-management)
 * ジャーニーガードレールが更新されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## 2024年7月 {#july-2024}
 
-* [!DNL Journey Optimizer] の 7月24日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 7月24日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
 * 医療保険や処方箋に関連する情報を含むメールをパーソナライズする方法に関するパーソナライゼーションのユースケースが追加されました。[詳細情報](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024年6月 {#june-2024}
@@ -205,7 +205,7 @@ ht-degree: 99%
 * ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があることを示すメモを追加しました。[詳細情報](../building-journeys/publishing-the-journey.md)
 * キャッピングカウンターでイベントが正しく考慮されていることを確認する方法は、意思決定管理&#x200B;**キャッピングイベント**&#x200B;の節で明確に説明されています。[詳細情報](../offers/offer-library/add-constraints.md#capping-event)
 * **実行アドレスの変更**&#x200B;ページに新しい節が追加されました。ジャーニーの高度なパラメーターで、グローバルに設定された実行フィールドを上書きできるように指定しますが、メールアドレスの上書きは特定の使用例にのみ使用する必要があります。 ほとんどの場合、**実行フィールド**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があります。[詳細情報](../configuration/primary-email-addresses.md#journey-parameters)
-* **URL トラッキング**&#x200B;の節に、メールチャネルサーフェスでの URL トラッキング用に設定できるすべてのコンテキスト属性のリストと説明が表示されるようになりました。 [詳細情報](../email/email-settings.md#url-tracking)
+* **URL トラッキング** の節に、メールチャネル設定での URL トラッキング用に設定できるすべてのコンテキスト属性のリストと説明が表示されるようになりました。 [詳細情報](../email/email-settings.md#url-tracking)
 
 ## 2023年3月 {#march-2023}
 
@@ -296,7 +296,7 @@ ht-degree: 99%
 ## 2022年7月 {#july-2022}
 
 * [!DNL Journey Optimizer] の 7月22日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* **チャネルサーフェスの設定**&#x200B;の節が更新され、より明確になり、SMS チャネルの設定方法を説明するページへのリンクが追加されました。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
+* **チャネル設定のセットアップ** の節が更新され、より明確になり、SMS チャネルの設定方法を説明するページへのリンクが追加されました。 [詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 * ジャーニーのプロパティの「**プロファイルのタイムゾーン**」オプションが、デフォルトで無効になりました。 [詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **待機**&#x200B;アクティビティで、「**固定日付**」オプションは使用できなくなりました。 [詳細情報](../building-journeys/wait-activity.md)
 * **オーディエンスを読み取り**&#x200B;アクティビティに「**増分読み取り**」オプションに関する詳細情報を追加しました。[詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

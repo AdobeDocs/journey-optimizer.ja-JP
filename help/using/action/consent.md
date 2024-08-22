@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 95%
 
    * Adobe **Healthcare Shield** または **Privacy and Security Shield** を使用している場合は、デフォルトのロジックを上書きするカスタム同意ポリシーを作成できます。例えば、オプトインしたすべての個人にのみメールメッセージを送信するポリシーを定義できます。カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
 
-  カスタムポリシーを適用するには、そのポリシーにマーケティングアクションを定義して、チャネルサーフェスに関連付ける必要があります。[詳細情報](#surface-marketing-actions)
+  カスタムポリシーを適用するには、そのポリシーでマーケティングアクションを定義し、チャネル設定に関連付ける必要があります。 [詳細情報](#surface-marketing-actions)
 
 ジャーニーレベルでは、同意ポリシーをカスタムアクションに適用できます。
 
 * **カスタムアクションの設定**&#x200B;時、チャネルとマーケティングアクションを定義できます。[詳細情報](#consent-custom-action)
 * **ジャーニーのカスタムアクション**&#x200B;の追加時に、追加のマーケティングアクションを定義できます。[詳細情報](#consent-journey)
 
-## チャネルサーフェスを介した同意ポリシーの活用 {#surface-marketing-actions}
+## チャネル設定による同意ポリシーの活用 {#surface-marketing-actions}
 
 [!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値はオンボーディングの際に、[こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つに変更できます。
 
@@ -73,13 +73,13 @@ ht-degree: 95%
 
 1. Journey Optimizer で、メールサーフェスを作成します。[方法についてはこちらを参照](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. メールサーフェスの詳細で、「**[!UICONTROL メールターゲティング]**」マーケティングアクションを選択します。
+1. メール設定の詳細で、「**[!UICONTROL メールターゲティング]**」マーケティングアクションを選択します。
 
    ![](assets/surface-marketing-action.png)
 
 顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが自動的に活用されます。
 
-そのため、この例では、キャンペーンまたはジャーニーでこのサーフェスを使用する[メール](../email/create-email.md)は、マーケティング組織からのメールの受信に同意したプロファイルにのみ送信されます。メール通信の受信に同意しないプロファイルは除外されます。
+したがって、この例では、キャンペーンやジャーニーでその設定を使用する [ メール ](../email/create-email.md) は、メールの受信に同意したプロファイルにのみ送信されます。 メール通信の受信に同意しないプロファイルは除外されます。
 
 ## カスタムアクションを介した同意ポリシーの活用 {#journey-custom-actions}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '3352'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>エクスペリエンス決定は、「決定項目」と呼ばれるマーケティングオファーの一元化されたカタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。</p>
-<p>これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンドサーフェスにシームレスに統合されます。エクスペリエンス決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
+<p>これらの決定項目は、新しいコードベースのエクスペリエンスチャネルを通じて様々なインバウンド設定にシームレスに統合され、Journey Optimizer キャンペーン内でアクセスできるようになりました。 エクスペリエンス決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
 <p>エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>詳しくは、<a href="../experience-decisioning/gs-experience-decisioning.md">詳細なドキュメント</a>を参照してください。</p>
@@ -278,14 +278,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>メールサーフェスのパーソナライゼーション - 限定提供</strong><br/></th>
+<th><strong>メール設定のパーソナライゼーション – 限定提供</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メール設定の柔軟性と制御を高めるために、メールチャネルサーフェスを作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義できるようになりました。</p>
-<p>メールサーフェスのパーソナライゼーションは、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>メールチャネル設定を作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義して、メール設定の柔軟性と制御を高めることができるようになりました。</p>
+<p>メール設定のパーソナライゼーションは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -468,7 +468,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel configurations, for increased flexibility and control over your email settings.</p>
 </td>
 </tr>
 </tbody>
@@ -484,7 +484,7 @@ ht-degree: 100%
 
 
 <!--
-* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+* **DULE for AJO channel configuration**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel configuration through marketing actions.
 -->
 
 
@@ -494,9 +494,9 @@ ht-degree: 100%
 
 **設定**
 
-* チャネルサーフェスレベルでマーケティングアクションを選択できるようになりました。サーフェスで使用すると、顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
-* チャネルサーフェスでオブジェクトレベルのアクセス制御を使用できるようになりました。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
-* チャネルサーフェスでリストの登録解除を有効にする際に、他のすべてのソースからの同意を管理する方法に合わせて同意レベルを定義できるようになりました。[詳細情報](../email/email-settings.md#list-unsubscribe)
+* チャネル設定レベルでマーケティングアクションを選択できるようになりました。 設定で使用すると、顧客の環境設定に従って、そのマーケティングアクションに関連するすべての同意ポリシーが活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
+* チャネル設定でオブジェクトレベルのアクセス制御を使用できるようになりました。 [詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
+* チャネル設定でリストの購読解除を有効にする際に、他のすべてのソースからの同意の管理方法に合わせて同意レベルを定義できるようになりました。 [詳細情報](../email/email-settings.md#list-unsubscribe)
 
 **コンテンツ管理**
 

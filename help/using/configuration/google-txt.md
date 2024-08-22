@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, google, txt, レコード, gmail, 配信品質
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 
 サブドメインに Google TXT レコードを追加するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]**／**[!UICONTROL サブドメイン]**&#x200B;メニューからサブドメインを開きます。
+1. **[!UICONTROL チャネル]**/**[!UICONTROL メール設定]**/**[!UICONTROL サブドメイン]** メニューからサブドメインを開きます。
 
 1. 「**[!UICONTROL Google txt レコード]**」セクションで、[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> から生成された確認コードを入力し、「**[!UICONTROL 保存]**」をクリックします。
 

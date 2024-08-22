@@ -10,10 +10,10 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="限定提供" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 98%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 100%
 
 この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます
 
-1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**&#x200B;にアクセスします。
+1. **[!UICONTROL 管理]** メニューから **[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]** にアクセスします。
 
 1. **[!UICONTROL 言語設定]**&#x200B;メニューで、「**[!UICONTROL 言語設定を作成]**」をクリックします。
 
-   ![](assets/multilingual-settings-1.png)
+   ![](assets/language_settings_1.png)
 
 1. **[!UICONTROL 言語設定]**&#x200B;の名前を入力します。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 送信]**」をクリックして、**[!UICONTROL 言語設定]**&#x200B;を作成します。
 
 <!--
-1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
+1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
 
 
 1. In the **[!UICONTROL Header parameters]** section, select the **[!UICONTROL Enable multilingual]** option.

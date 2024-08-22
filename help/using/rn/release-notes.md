@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 068714fc2cae501fcc13a7f3112e5c1f3a3470bb
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '615'
 ht-degree: 57%
 
 ---
@@ -74,27 +74,27 @@ ht-degree: 57%
 </tbody>
 </table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Improved Channel Configurations</strong><br/></th>
+<th><strong>チャネル設定の改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels, including Web, In-app messaging, or Code-based experience.</p>
+<p>現在のチャネルサーフェス機能が強化され、すべてのチャネルで一貫したアプローチが可能になりました。これらの設定を、Web、アプリ内メッセージ、コードベースのエクスペリエンスなど、任意のチャネルに対して定義、管理および再利用できるようになりました。</p>
 <p><ul>
-<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
-<li>You can attach one or multiple marketing actions to enforce consent and data governance policies</li>
-<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
-<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
+<li>チャネルサーフェスの名前が「<strong>チャネル設定</strong>」に変更されました</li>
+<li>1 つまたは複数のマーケティングアクションを添付して、同意ポリシーとデータガバナンスポリシーを適用できます</li>
+<li>オブジェクトレベルのアクセス制御（OLAC）がチャネル設定ごとに使用できるようになり、特定の設定を作成または使用できるユーザーを決定できるようになりました</li>
+<li>一部のチャネルでは、複数のプラットフォームを対象とするチャネル設定を作成できます。例えば、web ページ、iOS アプリ、Android アプリを対象にできるアプリ内メッセージチャネル設定などがあります。</li>
 </ul></p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>詳しくは、<a href="../configuration/channel-surfaces.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
@@ -162,12 +162,12 @@ ht-degree: 57%
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
 <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)
+<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-**Push channel**
+**プッシュチャネル**
 
-* You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.
--->
+* モバイルアプリケーションのプッシュ資格情報をAdobe Journey Optimizer チャンネル設定内に追加できるようになりました。 Adobe Experience Platform Data Collection でのアプリサーフェスの作成は不要になりました。
+
 
 ### その他の変更 {#changes}
 

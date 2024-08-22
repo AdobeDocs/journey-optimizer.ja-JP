@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 100%
+source-wordcount: '1083'
+ht-degree: 91%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 100%
 
 キャンペーンを通じてコードベースエクスペリエンスの作成を開始するには、次の手順に従います。
 
-1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md)
+1. **[!UICONTROL キャンペーン]** メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。 [詳細情報](../campaigns/create-campaign.md)
+
+1. 実施するキャンペーンのタイプを選択します。
+
+   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、マーケティング メッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行されます。
+
+   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、マーケティング メッセージまたはトランザクション メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。
+
+1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、キャンペーンを作成する手順を完了します。キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 1. **[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。
 
-1. コードベースのエクスペリエンスサーフェスを入力します。[詳細情報](#surface-definition)
+1. コードベースのエクスペリエンス設定を選択または作成します。 [詳細情報](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
-
-   >[!CAUTION]
-   >
-   >コードベースのキャンペーンで使用されるサーフェス URI が、独自の実装で使用される URI と一致していることを確認します。一致していない場合、変更は実行されません。
-
-1. 「**[!UICONTROL 作成]**」を選択します。
-
-1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、キャンペーンを作成する手順を完了します。キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして変更を確定します。
 
-開発者が API または SDK 呼び出しを実行して、選択したサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
+チャネル設定で定義されたサーフェスのコンテンツを取得するための API または SDK 呼び出しを開発者が実行するとすぐに、変更が web ページまたはアプリに適用されます。
 
 ## コードベースキャンペーンのテスト {#test-code-based-campaign}
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
    ![](assets/code-based-campaign-review.png)
 
-1. コンテンツ、プロパティ、サーフェス、オーディエンス、スケジュールを必要に応じて確認および編集します。
+1. コンテンツ、プロパティ、設定、オーディエンス、スケジュールを必要に応じて確認および編集します。
 
 1. 「**[!UICONTROL アクティブ化]**」を選択します。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '681'
+ht-degree: 77%
 
 ---
 
@@ -110,3 +110,49 @@ ht-degree: 100%
 
    ![](assets/configure_web_inapp_14.png)
 
+## アプリ内 Web 設定の作成 {#in-app-config}
+
+1. **[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]**/**[!UICONTROL チャネル設定]** メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
+
+   ![](assets/in-app-web-config-1.png)
+
+1. 設定の名前と説明（オプション）を入力し、設定するチャネルを選択します。
+
+   >[!NOTE]
+   >
+   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+
+1. 設定にカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
+
+1. **[!UICONTROL マーケティングアクション]** を選択し、この設定を使用してメッセージに同意ポリシーを関連付けます。 マーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
+
+1. **アプリ内メッセージ** チャネルを選択します。
+
+1. アプリ設定を定義します。 変更を行うには、次の 2 つのオプションがあります。
+
+   * **[!UICONTROL ページ URL]** を入力して、特定のページに変更を適用できます。
+
+   * 同じパターンに従う複数の URL をターゲットにするルールを作成できます。
+
++++ ページ一致ルールを作成する方法。
+
+      1. **[!UICONTROL ルールに一致するページ]** をアプリ設定として選択し、**[!UICONTROL ページ URL]** を入力します。
+
+      1. **[!UICONTROL 設定ルールを編集]** ウィンドウで、「**[!UICONTROL ドメイン]**」および「**[!UICONTROL ページ]**」フィールドの条件を定義します。
+      1. 条件ドロップダウンから、条件をさらにパーソナライズします。
+
+         例えば、Luma web サイトのすべての販売製品ページに表示される要素を編集する場合は、ドメイン／次で始まる／Luma およびページ／次を含む／販売を選択します。
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. 必要に応じて、「**[!UICONTROL 別のページルールを追加]**」をクリックして別のルールを作成します。
+
+      1. **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を選択します。
+
+      1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
+
++++
+
+1. アプリ内 web 設定を送信します。
+
+キャンペーン内で [web アプリ内を作成 ](../in-app/create-in-app-web.md) できるようになりました。

@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 1. Apple の APNs および Google FCM プッシュメッセージのメッセージサービスを使用したブランドモバイルアプリ（Android または iOS）の登録
 1. メッセージサービスがプッシュトークンを生成します。プッシュトークンは、[!DNL Adobe Journey Optimizer] で特定のデバイスをプッシュ通知のターゲットとするために使用される識別子です。
 1. 生成済みのプッシュトークンが Adobe Experience Platform に渡され、リアルタイム顧客プロファイルと同期されます。これは、統合しやすいクライアント SDK を使用して標準で実行されます。
-1. プッシュメッセージは、[!DNL Adobe Journey Optimizer] で、チャネルサーフェス（メッセージプリセットなど）に対して作成されます
+1. プッシュメッセージは、[!DNL Adobe Journey Optimizer] で、チャネル設定（メッセージプリセットなど）に対して作成されます
 1. プッシュメッセージは、ジャーニーのオーケストレーションキャンバスに含めることができます
 1. ジャーニーを公開すると、ジャーニー条件に基づく顧客プロファイルがプッシュ通知を受信する資格を得ます。プッシュメッセージペイロードは、この手順でパーソナライズされます。
 1. パーソナライズされたプッシュペイロードは、内部のプッシュメッセージ配信サービスに転送されます

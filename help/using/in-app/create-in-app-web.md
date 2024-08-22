@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 93%
 
 ---
 
@@ -24,43 +24,19 @@ Web アプリ内チャネルを設定するには、次の手順に従います�
 
 * トリガーをカスタマイズします。Web アプリ内メッセージは、プラットフォームへのデータの送信トリガーと手動トリガーの 2 種類のトリガーをサポートします。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=ja)
 
+* Web アプリ内設定を作成します。 [詳細情報](inapp-configuration.md)
+
 ## Web アプリ内メッセージキャンペーンの作成 {#create-inapp-web-campaign}
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの実行タイプ（スケジュール済みまたは API トリガー）を選択します。キャンペーンのタイプについて詳しくは、[このページ](../campaigns/create-campaign.md#campaigntype)を参照してください。
+1. キャンペーンの実行タイプ（スケジュール済みまたは API トリガー）を選択します。 キャンペーンのタイプについて詳しくは、[このページ](../campaigns/create-campaign.md#campaigntype)を参照してください。
 
-1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アプリ内メッセージ]**」を選択します。**[!UICONTROL 送信先]**&#x200B;ドロップダウンから「Web」を選択します。
+1. **[!UICONTROL アクション]** ドロップダウンから「**[!UICONTROL アプリ内メッセージ]**」を選択します。
 
    ![](assets/in_app_web_surface_1.png)
 
-1. アプリサーフェスを定義します。変更を行うには、次の 2 つのオプションがあります。
-
-   * **[!UICONTROL ページ URL]** を入力して、特定のページに変更を適用できます。
-
-   * 同じパターンに従う複数の URL をターゲットにするルールを作成できます。
-
-+++ ページ一致ルールを作成する方法。
-
-      1. アプリサーフェスとして「**[!UICONTROL ページ一致ルール]**」を選択します。
-      1. 「**[!UICONTROL ルールを作成]**」をクリックします。
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. **[!UICONTROL サーフェスルールを編集]**&#x200B;ウィンドウで、「**[!UICONTROL ドメイン]**」フィールドと「**[!UICONTROL ページ]**」フィールドの条件を定義します。
-      1. 条件ドロップダウンから、条件をさらにパーソナライズします。
-
-         例えば、Luma web サイトのすべての販売製品ページに表示される要素を編集する場合は、ドメイン／次で始まる／Luma およびページ／次を含む／販売を選択します。
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. アプリサーフェスを選択して設定したら、「**[!UICONTROL 作成]**」をクリックします。
+1. アプリ設定を選択または作成します。 [詳細情報](inapp-configuration.md#channel-prerequisites)
 
 ## Web アプリ内メッセージキャンペーンの定義 {#configure-inapp}
 
@@ -74,7 +50,7 @@ Web アプリ内チャネルを設定するには、次の手順に従います�
 
 1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
 
-1. **[!UICONTROL アクション]**&#x200B;メニューには、**[!UICONTROL アプリサーフェス]**&#x200B;として以前に設定した設定が表示されます。必要に応じて、ここで変更を行うか、「**[!UICONTROL ルールを編集]**」をクリックしてルールを更新できます。
+1. **[!UICONTROL アクション]** メニューに、以前 **[!UICONTROL アプリ設定]** として設定された設定を見つけることができます。 必要に応じて、ここで変更を行うか、「**[!UICONTROL ルールを編集]**」をクリックしてルールを更新できます。
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../content-management/content-experiment.md)
 

@@ -9,7 +9,7 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 * オファー
 * 静的なオファーコレクション
 * オファーの決定
-* チャネルサーフェス
+* チャネル設定
 * IP ウォームアッププラン
 
 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることを目的としています。

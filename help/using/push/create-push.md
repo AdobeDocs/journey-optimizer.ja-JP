@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
    ![](assets/push_create_1.png)
 
-1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力したあと、使用するメッセージサーフェスを選択します。**[!UICONTROL サーフェス]**&#x200B;フィールドはデフォルトで、ユーザーがチャネルで最後に使用したサーフェスで事前入力されます。
+1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力したあと、使用するメッセージ設定を選択します。
 
    ![](assets/push_create_2.png)
 
@@ -54,21 +54,25 @@ ht-degree: 100%
 
 >[!TAB キャンペーンへのプッシュの追加]
 
-1. スケジュール済みまたは API トリガーキャンペーンを新しく作成し、アクションとして「**[!UICONTROL プッシュ通知]**」を選択し、使用する&#x200B;**[!UICONTROL アプリサーフェス]**&#x200B;を選択します。 [詳しくは、プッシュ設定を参照してください](push-configuration.md)。
+1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-   ![](assets/push_create_3.png)
+1. 実施するキャンペーンのタイプを選択します。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、マーケティング メッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行されます。
+
+   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、マーケティング メッセージまたはトランザクション メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
-
-   ![](assets/push_create_4.png)
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)
 
 1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/push_create_5.png)
+1. 「**[!UICONTROL アクション]**」セクションで、**[!UICONTROL プッシュ通知]** を選択し、新しい設定を選択または作成します。
+
+   プッシュ設定について詳しくは、[ このページ ](push-configuration.md) を参照してください。
+
+   ![](assets/push_create_3.png)
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../content-management/content-experiment.md)
 
@@ -122,7 +126,7 @@ ht-degree: 100%
 
 1. プッシュ通知キャンペーンを作成し、「**[!UICONTROL 迅速配信]**」オプションをオンに切り替えます。
 
-![](assets/create-campaign-burst.png)
+   ![](assets/create-campaign-burst.png)
 
 1. メッセージコンテンツを設定し、ターゲットにするオーディエンスを選択します。[キャンペーンの作成方法について学ぶ](#create)
 

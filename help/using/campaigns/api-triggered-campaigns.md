@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ API トリガーキャンペーンを作成するには、次の手順に従い�
 
 1. 送信する通信のタイプに応じて、**[!UICONTROL マーケティング]**&#x200B;カテゴリまたは&#x200B;**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択します。
 
-1. メッセージの送信に使用するサポート対象チャネルの 1 つとそれに関連するチャネルサーフェスを選択し、「**[!UICONTROL 作成]**」をクリックします。
+1. メッセージの送信に使用するサポート対象チャネルの 1 つとそれに関連するチャネル設定を選択し、「**[!UICONTROL 作成]**」をクリックします。
 
    ![](assets/api-triggered-type.png)
 

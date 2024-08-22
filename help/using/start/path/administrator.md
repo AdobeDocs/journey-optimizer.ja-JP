@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
-ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]**&#x200B;メニューを参照し、メッセージとチャネルサーフェス（メッセージプリセットなど）を設定します。
+ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]** メニューを参照し、メッセージとチャネル設定（メッセージプリセットなど）を設定します。
 
 >[!NOTE]
 >**システム管理者**&#x200B;として、[!DNL Journey Optimizer] に&#x200B;**[!UICONTROL チャネル]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){target="_blank"} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
@@ -50,11 +50,11 @@ ht-degree: 100%
 
 以下の手順に従います。
 
-1. **メッセージとチャネルを設定**：サーフェスを定義し、メール、SMS およびプッシュメッセージの設定を調整しカスタマイズします
+1. **メッセージとチャネルの設定**：設定を定義し、メール、SMS およびプッシュメッセージの設定を調整しカスタマイズします
 
    * [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方で、**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../push/push-gs.md)
 
-   * **チャネルサーフェス**（メッセージプリセットなど）を作成して、メール、SMS およびプッシュ通知メッセージに必要なすべての技術パラメーターを設定します。[詳細情報](../../configuration/channel-surfaces.md)
+   * **チャネル設定** （メッセージプリセットなど）を作成して、メール、SMS およびプッシュ通知に必要なすべての技術パラメーターを設定します。 [詳細情報](../../configuration/channel-surfaces.md)
 
    * **SMS チャネル**&#x200B;で、SMS に必要なすべての技術パラメーターを設定します。[詳細情報](../../sms/sms-configuration.md)
 

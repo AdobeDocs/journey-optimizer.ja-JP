@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## シードリストへのアクセス {#access-seed-lists}
 
-作成済みのシードリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;に移動し、「**[!UICONTROL シードリスト]**」を選択します。
+作成済みのシードリストにアクセスするには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]** に移動し、「**[!UICONTROL シードリスト]**」を選択します。
 
 <!--
 >[!CAUTION]
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->アクティブな[キャンペーン](../campaigns/review-activate-campaign.md)や[ジャーニー](../building-journeys/publishing-the-journey.md)で使用されているシードリストは削除できません。キャンペーン／ジャーニーを非アクティブ化するか、シードリストが選択されていない別のサーフェスを使用するように編集する必要があります。[詳しくは、シードリストの使用を参照してください](#use-seed-list)
+>アクティブな[キャンペーン](../campaigns/review-activate-campaign.md)や[ジャーニー](../building-journeys/publishing-the-journey.md)で使用されているシードリストは削除できません。キャンペーン/ジャーニーをディアクティベートするか、シードリストが選択されていない別の設定を使用するように編集する必要があります。 [詳しくは、シードリストの使用を参照してください](#use-seed-list)
 
 シードリスト名をクリックすると、編集できます。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 シードリストを作成するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL シードリスト]**&#x200B;メニューにアクセスします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]**/**[!UICONTROL シードリスト]** メニューにアクセスします。
 
 1. 「**[!UICONTROL シードリストを作成]**」ボタンを選択します。
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 >
 >シードアドレスに送信されたメッセージは、ジャーニーレポートやキャンペーンレポートに含まれません。
 
-1. チャネルサーフェスを作成し、**[!UICONTROL メール]**&#x200B;チャネルを選択します。[詳細情報](../email/email-settings.md)
+1. 設定を作成し、「**[!UICONTROL メール]**」チャネルを選択します。 [詳細情報](../email/email-settings.md)
 
 1. 目的のシードリストを[対応するセクション](../email/email-settings.md#seed-list)で選択します。
 
@@ -142,11 +142,11 @@ ht-degree: 100%
 
    ![](assets/seed-list-surface.png)
 
-1. サーフェスを送信します。
+1. 設定を送信します。
 
 1. [キャンペーン](../campaigns/create-campaign.md)または[ジャーニー](../building-journeys/journey-gs.md)を作成します。
 
-1. **[!UICONTROL メール]**&#x200B;アクションを選択し、シードリストを含む[サーフェス](channel-surfaces.md)を選択します。
+1. **[!UICONTROL メール]** アクションを選択し、関連するシードリストを含む [ 設定 ](channel-surfaces.md) を選択します。
 
    ![](assets/seed-list-campaign-email.png)
 

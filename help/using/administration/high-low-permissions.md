@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 5d214812b1d7e189fe8a964f445545916d00c0a4
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -364,7 +364,7 @@ ht-degree: 100%
 
 +++
 
-* 「**[!DNL Manage messages presets]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネルサーフェスの読み取り、作成、編集および削除をサンドボックスレベルで行うことができます。
+* 「」という高レベルの権限を持つユーザー **[!DNL Manage messages presets]**、チャネルをまたぐチャネル設定の読み取り、作成、編集、削除をサンドボックスレベルで行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
 
@@ -482,9 +482,9 @@ ht-degree: 100%
 +++
 
 <!--
-### [!DNL View channel surface] permission {#view-channel-surface}
+### [!DNL View channel configuration] permission {#view-channel-surface}
 
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
   +++ It includes the following low-level permissions:  
 
 * messages_presets.read

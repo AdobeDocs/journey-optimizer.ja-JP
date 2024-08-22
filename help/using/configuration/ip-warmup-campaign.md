@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
-workflow-type: ht
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 IP ウォームアップキャンペーンを作成するには、次の手順に従います。
 
-1. ウォームアッププランで特定したドメインおよび IP の[メール](../email/email-settings.md)チャネル[サーフェス](channel-surfaces.md)を作成します。
+1. ドメインの [ メール ](../email/email-settings.md) チャネル [ 設定 ](channel-surfaces.md) と、ウォームアッププランのために識別した IP を作成します。
 
    >[!NOTE]
    >
-   >* [この節](../email/email-settings.md#subdomains-and-ip-pools)では、メールサーフェスで使用するドメインと IP を選択する方法について説明します。
+   >メール設定で使用するドメインと IP を選択する方法については、[ この節 ](../email/email-settings.md#subdomains-and-ip-pools) を参照してください。
    >
    >* 配信品質コンサルタントと協力して、IP ウォームアッププランに使用するドメインと IP を特定します。<!--TBC-->
 
@@ -39,11 +39,11 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
-1. IP ウォームアップ用に作成したサーフェスを選択します。
+1. IP ウォームアップ用に作成した設定を選択します。
 
    ![](assets/ip-warmup-campaign-surface.png)
 
-   <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
+   <!--You must use the same configuration as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 

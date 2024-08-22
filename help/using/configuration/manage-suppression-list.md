@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 抑制リストへのアクセス {#access-suppression-list}
 
-除外されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;を参照し、「**[!UICONTROL 抑制リスト]**」を選択します。
+除外されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]** を参照し、「**[!UICONTROL 抑制リスト]**」を選択します。
 
 
 ![](assets/suppression-list-access.png)
@@ -66,8 +66,6 @@ ht-degree: 100%
 * **手動**：手動エラーは手動で抑制リストに追加されたものです。[詳細情報](#add-addresses-and-domains)
 
 リストに登録されているメールアドレスごとに、**[!UICONTROL タイプ]**（メールまたはドメイン）、除外する&#x200B;**[!UICONTROL 理由]**、追加したユーザーおよび抑制リストに追加された日時を確認することもできます。
-
-![](assets/suppression-list.png)
 
 配信エラーの理由として考えられるものは次のとおりです。
 
@@ -230,8 +228,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 影響を受けるメールアドレスが特定されたら、抑制リストをフィルタリングしてそれらを表示します。 例えば、**test.com** ドメインで 2022年11月11日から 2022年11月13日まで ISP のサービス停止が発生した場合は、その期間に抑制リストに追加されたアドレスを次のように抜き出します。
 
-![](assets/remove-from-supp-list.png)
-
 その後、「**[!UICONTROL 削除]**」ボタンを使用して、強制隔離されたメールアドレスを抑制リストから削除できます。
 
 ## 抑制リストのダウンロード {#download-suppression-list}
@@ -250,8 +246,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
    ![](assets/suppression-list-download-csv.png)
 
 1. ファイルが生成されるまで待ちます。
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

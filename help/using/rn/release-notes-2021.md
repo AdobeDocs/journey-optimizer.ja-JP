@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -285,7 +285,7 @@ ht-degree: 100%
 **メール設定**
 
 * **許可リスト** - API 呼び出しを通じて、実稼動以外のサンドボックスで許可リストを有効および無効にできるようになりました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
-* **ナビゲーション** - 抑制リストは&#x200B;**管理／チャネル／メール設定／一般**&#x200B;メニューでアクセス可能でしたが、新しい&#x200B;**抑制リスト**&#x200B;サブメニューに移動しました。このサブメニューには、関連するすべての機能が集約されているので、アクセスしやすくなっています。[詳細情報](../configuration/manage-suppression-list.md#access-suppression-list)
+* **ナビゲーション** – 抑制リストは **管理/チャネル/メール設定/一般** メニューでアクセス可能でしたが、新しい **抑制リスト** サブメニューに移動しました。このサブメニューには、関連するすべての機能が集約されているので、アクセスしやすくなっています。 [詳細情報](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **意思決定管理**
 

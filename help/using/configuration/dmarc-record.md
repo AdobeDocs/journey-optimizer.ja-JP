@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1355'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 [!DNL Journey Optimizer] で委任したすべてのサブドメインに対して DMARC レコードが設定されていることを確認するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL サブドメイン]**&#x200B;メニューにアクセスし、「**[!UICONTROL サブドメインの設定]**」をクリックします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]**/**[!UICONTROL サブドメイン]** メニューにアクセスし、「**[!UICONTROL サブドメインの設定]**」をクリックします。
 
 1. 委任されたサブドメインごとに、**[!UICONTROL DMARC レコード]**&#x200B;列を確認します。指定のサブドメインのレコードが見つからなかった場合は、アラートが表示されます。
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '803'
+ht-degree: 90%
 
 ---
 
@@ -28,18 +28,20 @@ ht-degree: 100%
 >ダイレクトメールメッセージを作成する前に、次の設定が完了していることを確認します。
 >
 >1. [ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration)：抽出ファイルをアップロードして保存するサーバーを指定します。
->1. [ダイレクトメールメッセージサーフェス](../direct-mail/direct-mail-configuration.md#direct-mail-surface)：ファイルのルーティング設定を参照します。
+>1. [ ダイレクトメールメッセージ設定 ](../direct-mail/direct-mail-configuration.md#direct-mail-surface) ファイルのルーティング設定を参照します。
 
 
 ## ダイレクトメールキャンペーンの作成{#create-dm-campaign}
 
 ダイレクトメールキャンペーンを作成するには、次の手順に従います。
 
-1. 新しいスケジュール済みキャンペーンを作成し、アクションとして「**[!UICONTROL ダイレクトメール]**」を選択します。
+1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-1. 使用する&#x200B;**[!UICONTROL ダイレクトメールサーフェス]**&#x200B;を選択し、「**[!UICONTROL 作成]**」をクリックします。[ダイレクトメールサーフェスの作成方法についてはこちらを参照](direct-mail-configuration.md#direct-mail-surface)
+1. 実施するキャンペーンのタイプを選択します。
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、マーケティング メッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行されます。
+
+   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、マーケティング メッセージまたはトランザクション メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
@@ -51,7 +53,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンス内の個人を識別するために適した名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
+1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL ダイレクトメール]**」を選択します。
+
+1. 使用する **[!UICONTROL ダイレクトメール設定]** の新しい設定を選択または作成します。 [ ダイレクトメール設定の作成方法を説明します ](direct-mail-configuration.md#direct-mail-surface)。
+
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. キャンペーンは特定の日付にスケジュールすることも、定期的に繰り返すように設定することもできます。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
@@ -78,12 +84,6 @@ ht-degree: 100%
    1. 「**[!UICONTROL データ]**」フィールドで、[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を使用して、表示するプロファイル属性を選択します。
 
    1. 列を使用して抽出ファイルを並べ替えるには、列を選択し、「**[!UICONTROL 並べ替え基準]**」オプションの切替スイッチをオンにします。「**[!UICONTROL データフィールド]**」セクションで、列のラベルの横に&#x200B;**[!UICONTROL 並べ替え基準]**&#x200B;アイコンが表示されます。
-
-
-
-
-
-
 
 抽出ファイルは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要です。抽出ファイルの設定を定義するには、次の手順に従います。
 

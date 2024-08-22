@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: メール, 設定, サーフェス, サブドメイン
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 100%
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. チャネルサーフェスを作成し、**[!UICONTROL メール]**&#x200B;チャネルを選択します。[詳細情報](../configuration/channel-surfaces.md)
+1. チャネル設定を作成し、「**[!UICONTROL メール]**」チャネルを選択します。 [詳細情報](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. 各メールチャネルサーフェスで、メールの配信に必要なすべての技術的パラメーターを設定します。[詳細情報](email-settings.md)
+1. 各メールチャネル設定で、メールの配信に必要なすべての技術パラメーターを設定します。 [詳細情報](email-settings.md)
 
-   * ここで、メールの送信に使用するサブドメインと、サーフェスに関連付ける IP プールを選択します。[詳細情報](email-settings.md#subdomains-and-ip-pools)
+   * ここで、メールの送信に使用するサブドメインと、設定に関連付ける IP プールを選択します。 [詳細情報](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

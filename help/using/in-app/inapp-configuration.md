@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 79%
 
 ---
 
@@ -19,10 +19,9 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] を使用してジャーニーとキャンペーンでアプリ内メッセージを送信するには、次の設定手順を実行する必要があります。
 
-1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
-Adobe Experience Platform データ収集の**アプリサーフェス**&#x200B;メニューにアクセスするには、特定の権限を付与する必要があります。詳しくは、[このビデオ](#video)を参照してください。
+1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 1. Adobe Experience Platform データ収集データストリームで Adobe Journey Optimizer を有効にし、Adobe Experience Platform のデフォルトの結合ポリシーを確認します。詳細は、[配信の前提条件](#delivery-prerequisites)で詳しく説明しています。
-1. Adobe Experience Platform データ収集でのアプリサーフェスの作成と設定について詳しくは、[この節](#channel-prerequisites)を参照してください。
+1. [ この節 ](#channel-prerequisites) で説明しているように、管理/ チャネル / チャネル設定でアプリ内メッセージチャネル設定を作成します。
 1. コンテンツ実験を使用している場合は、[この節](#experiment-prerequisite)に記載されている要件に従ってください。
 
 完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
@@ -53,77 +52,62 @@ Adobe Experience Platform データ収集の**アプリサーフェス**&#x200B;
 
   [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
-## チャネル設定の前提条件 {#channel-prerequisites}
+## アプリ内設定の作成 {#channel-prerequisites}
 
-1. 次に、**[!UICONTROL アプリサーフェス]**&#x200B;メニューにアクセスして、「**[!UICONTROL アプリサーフェスを作成]**」をクリックします。
+1. **[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]**/**[!UICONTROL チャネル設定]** メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
-1. **[!UICONTROL アプリサーフェス]**&#x200B;に名前を追加します。
+   ![](assets/inapp_config_1.png)
 
-   ![](assets/inapp_config_2b.png)
+1. 設定の名前と説明（オプション）を入力し、設定するチャネルを選択します。
 
-1. **[!UICONTROL Apple iOS]** ドロップダウンから、Apple iOS 用のモバイルアプリケーションを設定します。
+   >[!NOTE]
+   >
+   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-+++ 詳細情報
+1. 設定にカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
 
-   1. **[!UICONTROL iOS バンドル ID]**&#x200B;を入力します。**バンドル ID** について詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)を参照してください。
+1. **[!UICONTROL マーケティングアクション]** を選択し、この設定を使用してメッセージに同意ポリシーを関連付けます。 マーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
-   1. （オプション）プッシュ通知の送信元となる「**[!UICONTROL サンドボックス]**」を選択します。特定のサンドボックスを選択するには、必要なアクセス権限が必要であることに注意してください。
+1. **アプリ内メッセージ** チャネルを選択します。
 
-      サンドボックス管理について詳しくは、[こちらのページ](../administration/sandboxes.md#assign-sandboxes)を参照してください。
+   ![](assets/inapp_config_9.png)
 
-   1. 「**[!UICONTROL プッシュ資格情報]**」オプションを有効にして、必要に応じて .p8 auth キーファイルをドラッグ＆ドロップします。
+1. アプリ内メッセージを適用するプラットフォームを選択します。
 
-      また、「**[!UICONTROL プッシュ資格情報を手動で入力]**」オプションを有効にして、APNS 認証キーを直接コピー＆ペーストできます。
+   ![](assets/inapp_config_10.png)
 
-   1. **[!UICONTROL キー ID]** および **[!UICONTROL チーム ID]** を入力します。
+1. Web 用：
 
-      ![](assets/inapp_config_2.png)
+   * **[!UICONTROL ページ URL]** を入力して、特定のページに変更を適用できます。
+
+   * 同じパターンに従う複数の URL をターゲットにするルールを作成できます。
+
++++ ページ一致ルールを作成する方法。
+
+      1. **[!UICONTROL ルールに一致するページ]** をアプリ設定として選択し、**[!UICONTROL ページ URL]** を入力します。
+
+      1. **[!UICONTROL 設定ルールを編集]** ウィンドウで、「**[!UICONTROL ドメイン]**」および「**[!UICONTROL ページ]**」フィールドの条件を定義します。
+      1. 条件ドロップダウンから、条件をさらにパーソナライズします。
+
+         例えば、Luma web サイトのすべての販売製品ページに表示される要素を編集する場合は、ドメイン／次で始まる／Luma およびページ／次を含む／販売を選択します。
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. 必要に応じて、「**[!UICONTROL 別のページルールを追加]**」をクリックして別のルールを作成します。
+
+      1. **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を選択します。
+
+      1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
 
 +++
 
-1. **[!UICONTROL Android]**&#x200B;ドロップダウンから、Android 用のモバイルアプリケーションを設定します。
+1. iOSおよびAndroidの場合：
 
-+++ 詳細情報
+   * **[!UICONTROL アプリ ID]** を入力します。
 
-   1. **[!UICONTROL Android パッケージ名]**&#x200B;を入力します。**パッケージ名**&#x200B;について詳しくは、[Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=ja#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores)を参照してください。
+1. 変更内容を送信します。
 
-   1. （オプション）プッシュ通知の送信元となる「**[!UICONTROL サンドボックス]**」を選択します。特定のサンドボックスを選択するには、必要なアクセス権限が必要であることに注意してください。
-
-      サンドボックス管理について詳しくは、[こちらのページ](../administration/sandboxes.md#assign-sandboxes)を参照してください。
-
-   1. 「**[!UICONTROL プッシュ資格情報]**」オプションを有効にして、必要に応じて.json 秘密鍵ファイルをドラッグ＆ドロップします。
-
-      また、「**[!UICONTROL プッシュ資格情報を手動で入力]**」オプションを有効して、FCM 秘密鍵を直接コピー＆ペーストすることもできます。
-
-      ![](assets/inapp_config_7.png)
-
-1. **[!UICONTROL アプリサーフェス]**&#x200B;の設定が完了したら、「**[!UICONTROL 保存]**」をクリックします。
-
-   ![](assets/inapp_config_3.png)
-
-   アプリ内メッセージを含む新しいキャンペーンを作成する際に、**[!UICONTROL アプリサーフェス]**&#x200B;を使用できるようになりました。 [詳細情報](create-in-app.md)
-
-1. アプリサーフェスを作成したら、モバイルプロパティを作成する必要があります。
-
-   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ja#for-mobile)を参照してください。
-
-   ![](assets/inapp_config_4.png)
-
-1. 新しく作成したプロパティの拡張機能メニューから、次の拡張機能をインストールします。
-
-   * Adobe Experience Platform Edge Network
-   * Adobe Journey Optimizer
-   * AEP Assurance
-   * 同意
-   * ID
-   * Mobile Core
-   * プロファイル
-
-   詳しい手順は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja#add-a-new-extension)を参照してください。
-
-   ![](assets/inapp_config_5.png)
-
-アプリ内チャネルが設定されました。 ユーザーへのアプリ内メッセージの送信を開始できます。
+アプリ内メッセージを作成する際に、設定を選択できるようになりました。
 
 ## コンテンツ実験の前提条件 {#experiment-prerequisites}
 
@@ -142,13 +126,6 @@ Adobe Experience Platform データ収集の**アプリサーフェス**&#x200B;
 >[!NOTE]
 >
 >これらのフィールドグループを追加しても、通常のデータ収集には影響しません。実験が実行されているページに対してのみ追加され、他のすべての追跡は変更されません。
-
-## チュートリアルビデオ{#video}
-
-以下のビデオでは、アプリサーフェスメニューにアクセスするための&#x200B;**アプリ設定を管理**&#x200B;権限を割り当てる方法を示します。
-
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
-
 
 **関連トピック：**
 
