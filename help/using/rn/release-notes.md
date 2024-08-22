@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 57%
@@ -147,7 +147,6 @@ ht-degree: 57%
 </tbody>
 </table>
 
-
 ### 機能強化 {#8-improvements}
 
 このリリースでは、以下に示す機能強化が行われています。
@@ -167,7 +166,6 @@ ht-degree: 57%
 **プッシュチャネル**
 
 * モバイルアプリケーションのプッシュ資格情報をAdobe Journey Optimizer チャンネル設定内に追加できるようになりました。 Adobe Experience Platform Data Collection でのアプリサーフェスの作成は不要になりました。
-
 
 ### その他の変更 {#changes}
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 97%
+source-wordcount: '1949'
+ht-degree: 96%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 97%
    + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
-      + [メールサーフェス設定の指定](using/email/email-settings.md)
-      + [メールサーフェス設定のパーソナライズ](using/email/surface-personalization.md)
+      + [メール設定を指定](using/email/email-settings.md)
+      + [メール設定のパーソナライズ](using/email/surface-personalization.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
    + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
       + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
       + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
       + [カスタムプロバイダーの設定（ベータ版）](using/sms/sms-configuration-custom.md)
-      + [SMS サーフェスの作成](using/sms/sms-configuration-surface.md)
+      + [SMS 設定の作成](using/sms/sms-configuration-surface.md)
 + ダイレクトメール {#direct-mail}
    + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
    + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
@@ -582,7 +582,7 @@ ht-degree: 97%
    + [クエリ](using/data/get-started-queries.md)
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
-   + [チャネルサーフェスの設定](using/configuration/channel-surfaces.md)
+   + [チャネル設定の指定](using/configuration/channel-surfaces.md)
    + メールサブドメインのデリゲート {#delegate-subdomains}
       + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
       + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
