@@ -7,13 +7,11 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: Marketo、Marketo Engage 統合
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 76%
 
 ---
 
@@ -28,13 +26,13 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 ## 前提条件 {#prerequisites}
 
 * Marketo Engage の顧客インスタンスは、IMS 対応である必要があります。
-* Marketo Engage インスタンスと AEP/AJO インスタンスは、同じ IMS 組織+リンク内に存在する必要があります。
-* 顧客は MktoSync 取り込みサービスアクセス（ここにメモを追加 + リンク）をプロビジョニングする必要があります
+* Marketo Engageインスタンスと AEP/AJO インスタンスは、同じ IMS 組織にある必要があります。
+* 顧客には **MktoSync：取り込みサービスへのアクセス** をプロビジョニングする必要があります
 
 ## アクションの設定 {#configure-marketo-action}
 
 * 管理／設定／アクションに移動し、「管理」をクリックします。
-* アクションリストから、「アクションを作成」をクリックします。カスタムアクションの作成について詳しくは、こちら（+ リンク）を参照してください
+* アクションリストから、「アクションを作成」をクリックします。詳しくは、[ カスタムアクション ](../building-journeys/using-custom-actions.md){target="_blank"} を参照してください。
 * 「名前」、「説明」を入力し、アクションタイプとして「Adobe Marketo Engage」を選択します。
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 
 ## アクションの使用 {#engage-using}
 
-* カスタムアクションをジャーニーキャンバスにドラッグします。（カスタムアクション／リンクの使用方法を参照）
-* リクエストパラメーターで、ペイロードに設定した動的な値を持つ各パラメーターに対して「編集」をクリックします。
+* カスタムアクションをジャーニーキャンバスにドラッグします。
+* 「**リクエストパラメーター**」セクションで、ペイロードに設定した動的な値を持つ各パラメーターに対して、「編集」をクリックします。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
