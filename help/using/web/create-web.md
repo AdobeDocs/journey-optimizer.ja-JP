@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '747'
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Web サーフェスの定義"
->abstract="Web サーフェスは、単一のページ URL または複数のページを一致させることができるので、1 つまたは複数の web ページにわたってコンテンツの変更を配信できます。"
+>title="Web 設定の定義"
+>abstract="Web 設定は、単一のページ URL または複数のページを一致させることができるので、1 つまたは複数の web ページにわたってコンテンツの変更を配信できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -41,39 +41,20 @@ ht-degree: 100%
 >
 >Web エクスペリエンスを初めて作成する場合は、[こちらのセクション](web-prerequisites.md)に記載されている前提条件を必ず満たすようにしてください。
 
-1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md)
+1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。[詳細情報](../campaigns/create-campaign.md)
+
+
+1. 実施するキャンペーンのタイプを選択します。
+
+   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、マーケティング メッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行されます。
+
+   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、マーケティング メッセージまたはトランザクション メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。
+
+1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、web キャンペーンを作成する手順を完了します。
 
 1. **[!UICONTROL Web]**&#x200B;アクションを選択します。
 
-1. Web サーフェスを定義します。
-
-   >[!NOTE]
-   >
-   >Web サーフェスは、コンテンツが配信される URL で識別される web プロパティです。単一ページの URL または複数のページを一致させることができるので、1 つまたは複数の web ページをまたいで変更を配信できます。
-
-   単一ページのみに変更を適用する場合は、**[!UICONTROL ページ URL]** を入力します。
-
-   ![](assets/web-campaign-surface.png)
-
-1. または、**[!UICONTROL ルールに一致するページ]**&#x200B;を作成して、同じルールに一致する複数の URL をターゲットにすることもできます。例えば、変更を web サイト全体のヒーローバナーに適用したり、web サイトのすべての製品ページに表示されるトップ画像を追加したりする場合です。
-
-   これを行うには、「**[!UICONTROL ルールに一致するページ]**」を選択し、「**[!UICONTROL ルールを作成]**」をクリックします。
-
-   ![](assets/web-campaign-matching-rule.png)
-
-1. 「**[!UICONTROL ドメイン]**」フィールドと「**[!UICONTROL ページ]**」フィールドの条件を定義します。
-
-   例えば、Luma web サイトのすべての女性向け製品ページに表示される要素を編集する場合は、**[!UICONTROL ドメイン]**／**[!UICONTROL 次で始まる]**／`luma` および&#x200B;**[!UICONTROL ページ]**／**[!UICONTROL 次を含む]**／`women` を選択します。
-
-   ![](assets/web-pages-matching-rule.png)
-
-1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
-
-   ![](assets/web-pages-matching-rule-example.png)
-
-1. Web サーフェスを定義したら、「**[!UICONTROL 作成]**」を選択します。
-
-1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、web キャンペーンを作成する手順を完了します。
+1. 選択するか、新しい設定を作成します。 [Web 設定について詳しくはこちらを参照 ](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -111,7 +92,7 @@ Web デザイナーを使用して [web エクスペリエンスを作成](edit-
 
 1. Web キャンペーンから、「**[!UICONTROL アクティブ化するレビュー]**」を選択します。
 
-1. コンテンツ、プロパティ、サーフェス、オーディエンス、スケジュールを必要に応じて確認および編集します。
+1. コンテンツ、プロパティ、設定、オーディエンス、スケジュールを必要に応じて確認および編集します。
 
 1. 「**[!UICONTROL アクティブ化]**」を選択します。
 

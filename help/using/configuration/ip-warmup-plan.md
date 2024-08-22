@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
-workflow-type: ht
-source-wordcount: '1665'
-ht-degree: 100%
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
+source-wordcount: '1669'
+ht-degree: 93%
 
 ---
 
 # IP ウォームアッププランを作成 {#ip-warmup}
 
-専用のサーフェスと対応するオプションを有効にして、1 つ以上の [IP ウォームアップキャンペーン](ip-warmup-campaign.md)を作成したら、IP ウォームアッププランの作成を開始できます。
+専用設定を持ち、対応するオプションを有効にした 1 つ以上の [IP ウォームアップキャンペーン ](ip-warmup-campaign.md) を作成したら、IP ウォームアッププランの作成を開始できます。
 
 IP ウォームアッププランへのアクセス、作成、編集および削除には、**[!UICONTROL 配信品質コンサルタント]**&#x200B;の役割または IP ウォームアッププラン関連の権限が必要です。
 
@@ -238,7 +238,7 @@ Hotmail 以外のドメインとドメイングループ Microsoft からのド�
 
 ## IP ウォームアッププランへのアクセスと管理 {#manage-ip-warmup-plans}
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL IP ウォームアッププラン]**&#x200B;メニューにアクセスします。これまでに作成した IP ウォームアッププランがすべて表示されます。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]**/**[!UICONTROL IP ウォームアッププラン]** メニューにアクセスします。 これまでに作成した IP ウォームアッププランがすべて表示されます。
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Hotmail 以外のドメインとドメイングループ Microsoft からのド�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="マーケティングサーフェスを選択"
->abstract="IP ウォームアッププランに関連付けるキャンペーンで選択したサーフェスと同じサーフェスを選択する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ja" text="チャネルサーフェスの設定"
+>title="マーケティング設定を選択"
+>abstract="IP ウォームアッププランに関連付けるキャンペーンで選択した設定と同じ設定を選択する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ja" text="チャネル設定の指定"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ja" text="IP ウォームアップキャンペーンを作成"
 
 IP ウォームアッププランを作成するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL IP ウォームアッププラン]**&#x200B;メニューにアクセスし、「**[!UICONTROL IP ウォームアッププランを作成]**」をクリックします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]**/**[!UICONTROL IP ウォームアッププラン]** メニューにアクセスし、「**[!UICONTROL IP ウォームアッププランを作成]**」をクリックします。
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -286,11 +286,11 @@ IP ウォームアッププランを作成するには、次の手順に従い�
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. ウォームアップする[サーフェス](channel-surfaces.md)を選択します。選択できるのはマーケティングサーフェスのみです。[メールのタイプの詳細情報](../email/email-settings.md#email-type)
+1. ウォームアップする [ 設定 ](channel-surfaces.md) を選択します。 マーケティング設定のみを選択できます。 [メールのタイプの詳細情報](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >IP ウォームアッププランに関連付けるキャンペーンは、同じサーフェスを使用する必要があります。[IP ウォームアップキャンペーンの作成方法を学ぶ](ip-warmup-campaign.md)
+   >IP ウォームアッププランに関連付けるキャンペーンは、同じ設定を使用する必要があります。 [IP ウォームアップキャンペーンの作成方法を学ぶ](ip-warmup-campaign.md)
 
 1. IP ウォームアッププランを含む Excel ファイルをアップロードします。[詳細情報](#prepare-file)
 

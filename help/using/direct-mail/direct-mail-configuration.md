@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
    >
    >ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** 組み込みの権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)。
 
-1. [ダイレクトメールサーフェス](#direct-mail-surface)：ファイルのルーティング設定を参照します。ファイルのルーティングオプションを設定していない場合は、ダイレクトメールサーフェスを作成できません。
+1. ファイルのルーティング設定を参照する [ ダイレクトメール設定 ](#direct-mail-configuration)。 ファイルのルーティングオプションを設定していない場合は、ダイレクトメール設定を作成できません。
 
 ## ファイルのルーティングを設定 {#file-routing-configuration}
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 >[!TAB Amazon S3]
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ファイルのルーティング設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL ダイレクトメール設定]**/**[!UICONTROL ファイルのルーティング]** メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -96,13 +96,13 @@ ht-degree: 100%
 
 1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
-1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメールサーフェス](#direct-mail-surface)で使用する準備が整いました。
+1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ ダイレクトメール設定 ](#direct-mail-surface) で使用する準備が整いました。
 
-   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまでサーフェスで選択することはできません。
+   **[!UICONTROL ドラフトとして保存]** を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]** になるまで設定で選択することはできません。
 
 >[!TAB SFTP]
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ファイルのルーティング設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL ダイレクトメール設定]**/**[!UICONTROL ファイルのルーティング]** メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -126,13 +126,13 @@ ht-degree: 100%
 
 1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
-1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメールサーフェス](#direct-mail-surface)で使用する準備が整いました。
+1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ ダイレクトメール設定 ](#direct-mail-surface) で使用する準備が整いました。
 
-   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまでサーフェスで選択することはできません。
+   **[!UICONTROL ドラフトとして保存]** を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]** になるまで設定で選択することはできません。
 
 >[!TAB Azure]
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ファイルのルーティング設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL ダイレクトメール設定]**/**[!UICONTROL ファイルのルーティング]** メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -156,18 +156,18 @@ ht-degree: 100%
 
 1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
-1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメールサーフェス](#direct-mail-surface)で使用する準備が整いました。
+1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ ダイレクトメール設定 ](#direct-mail-surface) で使用する準備が整いました。
 
-   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまでサーフェスで選択することはできません。
+   **[!UICONTROL ドラフトとして保存]** を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]** になるまで設定で選択することはできません。
 
 >[!ENDTABS]
 
-## ダイレクトメールサーフェスの作成 {#direct-mail-surface}
+## ダイレクトメール設定の作成 {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="ダイレクトメール設定を定義します。"
->abstract="ダイレクトメールサーフェスには、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。また、ファイルのルーティング設定を選択して、ファイルの書き出し先を定義する必要があります。"
+>abstract="ダイレクトメール設定には、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。 また、ファイルのルーティング設定を選択して、ファイルの書き出し先を定義する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=ja#file-routing-configuration" text="ファイルのルーティングを設定"
 
 <!--
@@ -181,17 +181,29 @@ ht-degree: 100%
 >title="ファイル分割しきい値の定義"
 >abstract="オーディエンスデータを含む各ファイルの最大レコード数を設定する必要があります。1 ～ 200,000 件のレコードを選択できます。指定したしきい値に達すると、残りのレコードに別のファイルが作成されます。"
 
-[!DNL Journey Optimizer] でダイレクトメールを配信できるようにするには、チャネルサーフェスを作成して、メールプロバイダーが使用するファイルの書式設定の設定を定義する必要があります。
+[!DNL Journey Optimizer] でダイレクトメールを配信できるようにするには、チャネル設定を作成して、メールプロバイダーが使用するファイルの書式設定の設定を定義する必要があります。
 
-ダイレクトメールサーフェスには、ダイレクトメールファイルの書き出し先となるサーバーを定義するファイルのルーティング設定も含める必要があります。
+ダイレクトメール設定には、ダイレクトメールファイルの書き出し先となるサーバーを定義するファイルのルーティング設定も含める必要があります。
 
-1. チャネルサーフェスを作成します。 [詳細情報](../configuration/channel-surfaces.md)
+1. 左側のパネルで、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]** を参照し、**[!UICONTROL 一般設定]**/**[!UICONTROL チャネル設定]** を選択します。 「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。 [詳細情報](../configuration/channel-surfaces.md)
+
+   ![](assets/direct-mail-config-1.png)
+
+1. 設定の名前と説明（オプション）を入力し、設定するチャネルを選択します。
+
+   >[!NOTE]
+   >
+   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+
+1. 設定にカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL ダイレクトメール]**」チャネルを選択します。
 
-   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
+   ![](assets/direct-mail-config-2.png)
 
-1. チャネルサーフェス設定の専用セクションでダイレクトメール設定を定義します。
+1. **[!UICONTROL マーケティングアクション]** を選択し、この設定を使用してメッセージに同意ポリシーを関連付けます。 マーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
+
+1. チャネル設定の専用セクションでダイレクトメール設定を定義します。
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
@@ -207,13 +219,13 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >ファイルのルーティングオプションを設定していない場合は、ダイレクトメールサーフェスを作成できません。[詳細情報](#file-routing-configuration)
+   >ファイルのルーティングオプションを設定していない場合は、ダイレクトメール設定を作成できません。 [詳細情報](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. ダイレクトメールサーフェスを送信します。
+1. ダイレクトメール設定を送信します。
 
 キャンペーン内で[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)を行うことができるようになりました。キャンペーンが開始されると、ターゲットオーディエンスデータを含んだファイルが、定義したサーバーに自動的に書き出されます。その後、ダイレクトメールプロバイダーは、そのファイルを取得して、ダイレクトメール配信を続行できます。
 
