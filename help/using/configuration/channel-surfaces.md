@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 38%
+source-wordcount: '1721'
+ht-degree: 37%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 38%
 > * チャネル設定を作成する前に、[ メール設定 ](../email/get-started-email-config.md)、[ プッシュ設定 ](../push/push-configuration.md)、[SMS 設定 ](../sms/sms-configuration.md)、[ アプリ内設定 ](../in-app/inapp-configuration.md)、[ コードベースの設定 ](../code-based/code-based-configuration.md)、[web 設定 ](../web/web-configuration.md)、[ ダイレクトメール設定 ](../direct-mail/direct-mail-configuration.md) の手順を実行する必要があります。
 
 チャネル設定を行うと、ジャーニーまたはキャンペーンからメッセージを作成する際にチャネル設定を選択できるようになります。
+
+また、ガイド付きチャネル設定を使用して、統合されたエクスペリエンスでチャネル設定を自動化および検証し、Journey Optimizerを使い始めるプロセスを高速化することもできます。 [詳細情報](set-mobile-config.md)
 
 <!--
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)

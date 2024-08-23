@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 99%
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -194,111 +194,3 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 * 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
   ![](assets/select-language.png)
 
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_name"
->title="モバイルと web の設定名"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="依存関係の追加"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="初期化コードの追加"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance"
->title="Assurance での検証"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_code"
->title="JavaScript コード"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="サイトの起動と検証"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token"
->title="デバイストークンの取得"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_xcode"
->title="Xcode からのアプリケーションの起動"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_certificate"
->title="プッシュ証明書の指定"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_key_id"
->title="キー ID"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_team_id"
->title="チーム ID"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_inapp_tag_property"
->title="タグプロパティの選択"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_push_certificate_fcm"
->title="プッシュ証明書の指定"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="依存関係の追加"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="HTML の読み込み"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="HTML の読み込み"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="初期化コードの追加"
->abstract="TBC"
-
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="デバイストークンの取得"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Android Studio からのアプリケーションの起動"
->abstract="TBC"
-
-<!-- priority scores-->
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="優先度"
->abstract="0～100 の範囲で、キャンペーンに優先度スコアを割り当てます。数値が大きいほど、優先度が高くなります。2 つのキャンペーンが同じサーフェスを使用する場合、Journey Optimizer は優先度スコアが最も高いキャンペーンを選択します。キャンペーンのスコアが同じ場合は、最近変更したキャンペーンが選択されます。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="優先度"
->abstract="0～100 の範囲で、ジャーニーに優先度スコアを割り当てます。数値が大きいほど、優先度が高くなります。2 つのジャーニーが同じサーフェスを使用する場合、Journey Optimizer は優先度スコアが最も高いジャーニーを選択します。ジャーニーのスコアが同じ場合は、最近変更したジャーニーが選択されます。"
