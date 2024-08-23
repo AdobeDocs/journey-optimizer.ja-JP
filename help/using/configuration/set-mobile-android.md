@@ -10,10 +10,10 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 6%
+source-wordcount: '1042'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="初期化コードの追加"
->abstract="TBC"
+>abstract="初期化コードをアプリケーションの **onCreate （）** メソッドに統合します。 このメソッドはアプリケーションが最初に作成されたときに実行され、初期セットアップ段階でコードが確実に実行されます。 ここでコードを適切に配置することは、後続の操作が実行される前にアプリケーションを正しく設定および初期化するために重要です。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
@@ -206,10 +206,12 @@ ht-degree: 6%
 
 ## アプリ内チャネルの設定 {#inapp-channel}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="タグプロパティの選択"
+>title="Choose your tag property"
 >abstract="TBC"
+-->
 
 アプリ内チャネルでは、追加の設定は必要ありません。 設定が正確であることを確認するには、アシュランス機能を使用してテストメッセージを簡単に送信できます。 これにより、アプリ内メッセージを効果的に配信するためのシステムの準備状況に関するフィードバックが即座に提供されます。
 
@@ -229,7 +231,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Xcode からのアプリケーションの起動"
->abstract="TBC"
+>abstract="プッシュトークンを取得するには、まず Xcode を使用してアプリケーションを起動します。 アプリケーションが起動したら、アプリケーションを再起動して、検証プロセスが完了していることを確認します。 その後、Adobeは検証結果の一部としてプッシュトークンを提供します。 このトークンは、プッシュ通知を有効にするために必須であり、設定が正常に検証されると表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
