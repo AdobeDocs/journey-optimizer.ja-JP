@@ -22,7 +22,7 @@ ht-degree: 99%
 ## 2024年8月 {#aug-2024}
 
 * 意思決定管理のパフォーマンスガードレールが更新され、エッジセグメント化の有無に関わらず、Decisioning API の配信スループットが示されています。[詳細情報](../start/guardrails.md#decision-management)
-* ジャーニーガードレールが更新されました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+* ジャーニーガードレールが更新されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## 2024年7月 {#july-2024}

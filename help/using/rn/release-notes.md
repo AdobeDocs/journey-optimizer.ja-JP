@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 57%
 <table>
 <thead>
 <tr>
-<th><strong>カスタムアクションのMarketo Engage</strong><br/></th>
+<th><strong>Marketo Engage カスタムアクション</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -125,7 +125,7 @@ ht-degree: 57%
 <tbody>
 <tr>
 <td>
-<p>フラグメントのグローバル変数は、既存のフラグメント機能を強化して、コンテンツの再利用性とスクリプトのユースケースの効率を向上させます。 フラグメントで入力変数を使用し、キャンペーンおよびジャーニーコンテンツで使用できる出力変数を作成できるようになりました。 フラグメントは、<a href="../personalization/use-expression-fragments.md"> 式フラグメント </a> と <a href="../email/use-visual-fragments.md"> ビジュアルフラグメント </a> の両方で入力変数を使用できます。 これらの変数を使用して、キャンペーンやジャーニーでメッセージのコンテンツやパラメーターをパーソナライズできます。</p>
+<p>フラグメントのグローバル変数は、既存のフラグメント機能を強化して、コンテンツの再利用性とスクリプトのユースケースの効率を向上させます。 フラグメントで入力変数を使用し、キャンペーンおよびジャーニーコンテンツで使用できる出力変数を作成できるようになりました。 フラグメントは、<a href="../personalization/use-expression-fragments.md"> 式フラグメント </a> と <a href="../email/use-visual-fragments.md"> ビジュアルフラグメント </a> の両方で入力変数を使用できます。 これらの変数を使用すると、キャンペーンとジャーニーで、メッセージのコンテンツとパラメーターをパーソナライズできます。</p>
 <p>詳しくは、<a href="../personalization/use-expression-fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </p>
 </td>
@@ -152,7 +152,7 @@ ht-degree: 57%
 
 ### 機能強化 {#8-improvements}
 
-このリリースでは、以下に示す機能強化が行われています。
+このリリースでは、以下に示す機能強化が導入されています。
 
 **ジャーニー**
 
