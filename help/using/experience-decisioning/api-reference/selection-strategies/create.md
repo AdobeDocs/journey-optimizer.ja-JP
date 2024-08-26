@@ -1,21 +1,21 @@
 ---
 title: 選択戦略の作成
-description: 選択戦略は、制約に関連付けられたコレクションと、オファーを決定するためのランキングメソッドで構成されます。
+description: 選択戦略は、オファーを決定するための制約とランキング方法に関連付けられたコレクションで構成されます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # 選択戦略の作成 {#create-selection-strategy}
 
-オファーライブラリ API に対してセレクションリクエストを実行することで、POST戦略を作成できます。
+オファーライブラリ API に対して POST リクエストを実行することで、選択戦略を作成できます。
 
 **API 形式**
 
@@ -57,7 +57,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/selection-strategies' \
 
 **応答**
 
-応答が成功すると、ID など、新しく作成した選択戦略の詳細が返されます。 後の手順で、この ID を使用して選択戦略を更新または削除できます。
+応答が成功すると、ID を含む新規作成した選択戦略の詳細が返されます。後の手順で ID を使用して、選択戦略を更新または削除できます。
 
 ```json
 {

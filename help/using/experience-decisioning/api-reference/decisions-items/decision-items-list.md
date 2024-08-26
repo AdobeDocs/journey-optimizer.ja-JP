@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。これらは、ニーズに正確に合わせて設計された標準属性とカスタム属性で構成されています。さらに、決定項目を表示可能なユーザーを定義できる、プロファイル制約が組み込まれています。
 
-オファーライブラリ API に対してGETリクエストを 1 回送信すると、すべての決定項目のリストを表示できます。
+オファーライブラリ API に対して単一の GET リクエストを実行することで、すべての決定項目のリストを表示できます。
 
 **API 形式**
 
@@ -58,7 +58,7 @@ curl -X GET '<https://platform.adobe.io/data/core/dps/offer-items?limit=2>' \
 
 **応答**
 
-応答が成功すると、アクセス権のあるオファー項目のリストが返されます。 `_<imsOrg>` ノードには、カスタムの決定項目属性が格納されます。
+応答が成功すると、自身がアクセス権を持っているオファー項目のリストが返されます。`_<imsOrg>` ノードには、カスタムの決定項目属性が格納されています。
 
 ```json
 {

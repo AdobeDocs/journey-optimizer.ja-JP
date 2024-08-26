@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 
 # 決定項目の更新 {#update-decision-items}
 
-オファーライブラリ API に対して決定リクエストを実行することで、PATCH項目を変更または更新できます。
+オファーライブラリ API に対して PATCH リクエストを実行することで、決定項目を変更または更新できます。
 
-使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
+使用可能な操作など、JSON パッチについて詳しくは、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
 
 **API 形式**
 
@@ -58,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | パラメーターの更新に使用する新しい値。 |
 | `path` | 更新するパラメーターのパス。 |
-| `op` | 実行する操作のタイプ。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 実行する操作のタイプ。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 
 **応答**
 
-応答が成功すると、ID を含む、更新された項目の詳細が返されます。 後の手順で、この ID を使用して決定項目を更新または削除できます。
+応答が成功すると、ID を含む更新した項目の詳細が返されます。後の手順で ID を使用して、決定項目を更新または削除できます。
 
 ```json
 {

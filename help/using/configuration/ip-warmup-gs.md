@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、配信品質
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
 ht-degree: 100%
 

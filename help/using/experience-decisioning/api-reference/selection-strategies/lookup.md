@@ -1,21 +1,21 @@
 ---
 title: 選択戦略の参照
-description: 選択戦略は、制約に関連付けられたコレクションと、オファーを決定するためのランキングメソッドで構成されます。
+description: 選択戦略は、オファーを決定するための制約とランキング方法に関連付けられたコレクションで構成されます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
 # 選択戦略の参照 {#list-selection-strategy}
 
-リクエストパスに ID を含むオファーライブラリ API に対してGETリクエストを実行することで、特定のセレクション戦略を検索できます。
+リクエストパスに ID を含む GET リクエストをオファーライブラリ API に対して実行することで、特定の選択戦略を参照できます。
 
 **API 形式**
 

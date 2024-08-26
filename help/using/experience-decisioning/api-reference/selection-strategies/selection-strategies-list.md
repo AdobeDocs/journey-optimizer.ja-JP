@@ -1,23 +1,23 @@
 ---
-title: リスト選択戦略
-description: 選択戦略は、制約に関連付けられたコレクションと、オファーを決定するためのランキングメソッドで構成されます。
+title: 選択戦略のリスト
+description: 選択戦略は、オファーを決定するための制約とランキング方法に関連付けられたコレクションで構成されます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 
-# リスト選択戦略 {#list-selection-strategies}
+# 選択戦略のリスト {#list-selection-strategies}
 
-選択戦略は、実施要件制約に関連付けられたコレクションと、[ 決定ポリシー ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision) で選択されたときに表示されるオファーを決定するためのランキング方法で構成されます。
+選択戦略は、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、[決定ポリシー](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)が選択されている場合に表示されるオファーを決定します。
 
-オファーライブラリ API に対してGETリクエストを 1 回送信すると、すべての選択戦略のリストを表示できます。
+オファーライブラリ API に対して単一の GET リクエストを実行することで、すべての選択戦略のリストを表示できます。
 
 **API 形式**
 
@@ -57,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/selection-strategies?limit=
 
 **応答**
 
-応答が成功すると、アクセス権のある選択戦略のリストが返されます。
+応答が成功すると、自身がアクセス権を持っている選択戦略のリストが返されます。
 
 ```json
 {

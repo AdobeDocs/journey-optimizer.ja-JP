@@ -1,21 +1,21 @@
 ---
-title: アイテム コレクションの参照
+title: 項目コレクションの参照
 description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 
-# アイテム コレクションの参照 {#lookup-item-collection}
+# 項目コレクションの参照 {#lookup-item-collection}
 
-リクエストパスに ID を含むオファーライブラリ API に対してGETリクエストを実行することで、特定のアイテムコレクションを検索できます。
+リクエストパスに ID を含む GET リクエストをオファーライブラリ API に対して実行することで、特定の項目コレクションを参照できます。
 
 **API 形式**
 

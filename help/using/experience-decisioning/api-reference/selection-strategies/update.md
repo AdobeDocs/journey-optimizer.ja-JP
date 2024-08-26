@@ -1,23 +1,23 @@
 ---
-title: 選択戦略を更新
-description: 選択戦略は、制約に関連付けられたコレクションと、オファーを決定するためのランキングメソッドで構成されます。
+title: 選択戦略の更新
+description: 選択戦略は、オファーを決定するための制約とランキング方法に関連付けられたコレクションで構成されます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 
 # 選択戦略の更新 {#update-selection-strategy}
 
-オファーライブラリ API に対してセレクションリクエストを実行することで、PATCH戦略を変更または更新できます。
+オファーライブラリ API に対して PATCH リクエストを実行することで、選択戦略を変更または更新できます。
 
-使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
+使用可能な操作など、JSON パッチについて詳しくは、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
 
 **API 形式**
 
@@ -57,11 +57,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/selection-strategies/sele
 | --------- | ----------- |
 | `value` | パラメーターの更新に使用する新しい値。 |
 | `path` | 更新するパラメーターのパス。 |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 
 **応答**
 
-応答が成功すると、ID など、選択戦略の更新された詳細が返されます。
+応答が成功すると、ID を含む、選択戦略の更新した詳細が返されます。
 
 ```json
 {

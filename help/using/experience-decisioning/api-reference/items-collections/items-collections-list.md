@@ -1,23 +1,23 @@
 ---
 title: 項目コレクションのリスト
-description: コレクションを使用すると、環境設定に従って決定項目を分類およびグループ化できます。
+description: コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
 # 項目コレクションのリスト {#list-decision-items}
 
-コレクション（項目コレクションとも呼ばれます）を使用すると、環境設定に従って決定項目を分類およびグループ化できます。 これらのカテゴリは、決定項目の属性を活用するルールを策定することで作成されます。
+コレクション（項目コレクションとも呼ばれる）を使用すると、好みに応じて決定項目を分類およびグループ化できます。これらのカテゴリは、決定項目の属性を活用するルールを策定することで作成されます。
 
-オファーライブラリ API に対してGETリクエストを 1 回送信すると、すべての項目コレクションのリストを表示できます。
+オファーライブラリ API に対して単一の GET リクエストを実行することで、すべての項目コレクションのリストを表示できます。
 
 **API 形式**
 
@@ -57,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/item-collections?limit=2' \
 
 **応答**
 
-応答が成功すると、アクセス権のある項目コレクションのリストが返されます。
+応答が成功すると、自身がアクセス権を持っている項目コレクションのリストが返されます。
 
 ```json
 {

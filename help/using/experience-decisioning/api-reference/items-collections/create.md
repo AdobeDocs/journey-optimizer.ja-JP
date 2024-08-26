@@ -1,21 +1,21 @@
 ---
 title: 項目コレクションの作成
-description: コレクションを使用すると、環境設定に従って決定項目を分類およびグループ化できます。
+description: コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
 # 項目コレクションの作成 {#create-decision-items}
 
-オファーライブラリ API に対してPOSTリクエストを実行することで、アイテムコレクションを作成できます。
+オファーライブラリ API に対して POST リクエストを実行することで、項目コレクションを作成できます。
 
 **API 形式**
 
@@ -50,7 +50,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/item-collections' \
 
 **応答**
 
-応答が成功すると、ID など、新しく作成された決定項目の詳細が返されます。 後の手順で、この ID を使用して決定項目を更新または削除できます。
+応答が成功すると、ID を含む新規作成した決定項目の詳細が返されます。後の手順で ID を使用して、決定項目を更新または削除できます。
 
 ```json
 {

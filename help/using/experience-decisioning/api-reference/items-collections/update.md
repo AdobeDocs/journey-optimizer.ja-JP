@@ -1,23 +1,23 @@
 ---
-title: アイテム コレクションの更新
+title: 項目コレクションの更新
 description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
-# アイテム コレクションの更新 {#update-item-collection}
+# 項目コレクションの更新 {#update-item-collection}
 
-オファーライブラリ API に対してPATCHリクエストを実行することで、アイテムコレクションを変更または更新できます。
+オファーライブラリ API に対して PATCH リクエストを実行することで、項目コレクションを変更または更新できます。
 
-使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
+使用可能な操作など、JSON パッチについて詳しくは、[JSON パッチの公式ドキュメント](http://jsonpatch.com/)を参照してください。
 
 **API 形式**
 
@@ -57,11 +57,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/item-collections/itemColl
 | --------- | ----------- |
 | `value` | パラメーターの更新に使用する新しい値。 |
 | `path` | 更新するパラメーターのパス。 |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 
 **応答**
 
-応答が成功すると、`id` など、項目コレクションの更新された詳細が返されます。
+正常な応答の場合は、`id` など、項目コレクションの最新の詳細が返されます。
 
 ```json
 {

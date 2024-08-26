@@ -1,21 +1,21 @@
 ---
-title: アイテム コレクションの削除
-description: グループの決定をコレクションに分類する方法を説明します。
+title: 項目コレクションの削除
+description: グループの決定をコレクションに分類する方法について説明します。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
-# アイテム コレクションの削除 {#delete-decision-item}
+# 項目コレクションの削除 {#delete-decision-item}
 
-場合によっては、項目のコレクションを削除（DELETE）する必要があります。 削除するには、削除する項目コレクションの ID を使用して、オファーライブラリ API に対してDELETEリクエストを実行します。
+場合によっては、項目コレクションを削除（DELETE）する必要があります。これを行うには、削除する項目コレクションの ID を使用して、オファーライブラリ API に対して DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/item-collections/itemCol
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-削除を確認するには、項目コレクションに対して検索（GET）リクエストを試みます。 項目コレクションが削除されているので、HTTP ステータス 404 （見つかりません）が返されます。
+項目コレクションに対して参照（GET）リクエストを実行することで、削除を確認できます。項目コレクションが削除されたので、HTTP ステータス 404（見つかりません）が表示されます。

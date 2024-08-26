@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 
 # 決定項目の削除 {#delete-decision-item}
 
-決定項目を削除するには、削除する決定項目の ID を使用してオファーライブラリ API にDELETEリクエストを実行します。
+決定項目を削除するには、削除する決定項目の ID を使用して、オファーライブラリ API に対する DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-決定項目に対して検索（GET）リクエストを実行することで、削除を確認できます。 決定項目が削除されているので、HTTP ステータス 404 （見つかりません）が返されます。
+決定項目に対して参照（GET）リクエストを試行することで、削除を確認できます。決定項目が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。
