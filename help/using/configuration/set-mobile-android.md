@@ -10,10 +10,10 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 5%
+source-wordcount: '934'
+ht-degree: 4%
 
 ---
 
@@ -29,34 +29,6 @@ ht-degree: 5%
 このAndroidの設定により、マーケティングチャネルのクイックコンフィギュレーションが合理化され、必要なすべてのリソースにExperience Platform、Journey Optimizerおよび Data Collection アプリ内で簡単にアクセスできるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成を迅速に開始できます。
 
 ## 新しいAndroid設定の作成 {#new-setup-android}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="初期化コードの追加"
->abstract="初期化コードをアプリケーションの **onCreate （）** メソッドに統合します。 このメソッドはアプリケーションが最初に作成されたときに実行され、初期セットアップ段階でコードが確実に実行されます。 ここでコードを適切に配置することは、後続の操作が実行される前にアプリケーションを正しく設定および初期化するために重要です。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="依存関係の追加"
->abstract="アプリの Gradle ファイルを使用してプロジェクトにコア、アシュランス、Edge、Edge ID およびメッセージングのライブラリを追加する必要があります。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="HTML の読み込み"
->abstract="アプリのアプリケーションクラスに、Mobile Core、Assurance、Edge、Edge Identity、Messaging のパッケージをインポートします。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="データ収集ドキュメントを参照してください。"
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="Retrieve the device token"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Launch the application from Android Studio"
->abstract="TBC"
--->
 
 1. Journey Optimizer ホームページで、「**[!UICONTROL モバイルと web チャネルの設定]** カードから **[!UICONTROL 開始]** をクリックします。
 

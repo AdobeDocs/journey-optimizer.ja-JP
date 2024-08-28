@@ -10,10 +10,10 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 6%
+source-wordcount: '479'
+ht-degree: 14%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript コード"
->abstract="`<head>` タグには、web ページのメインコンテンツの前に読み込まれる必須のメタデータとリソースが含まれています。 このセクションにコードを配置することで、コードが早い段階で適切に初期化および実行され、web ページの読み込みと機能が効率的になります。 `<head>` セクションにコードを追加すると、サイトの構造、パフォーマンス、および全体的なユーザーエクスペリエンスを向上させることができます。"
+>abstract="「 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> タグには、web ページのメインコンテンツの前に読み込まれる必須のメタデータとリソースが含まれています。 このセクションにコードを配置することで、コードが早い段階で適切に初期化および実行され、web ページの読み込みと機能が効率的になります。 にコードを追加する <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> セクションは、サイトの構造、パフォーマンス、全体的なユーザーエクスペリエンスの向上に役立ちます。"
 
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="サイトの起動と検証"
->abstract="コードが正常に実装され、web サイトに公開されたら、ベース URL を指定します。 必要に応じて、後でこのページに戻って再検証し、設定が期待どおりに機能していることを確認できます。"
-
-この設定により、マーケティングチャネルの迅速な設定が容易になり、必要なすべてのリソースがExperience Platform、Journey Optimizerおよびデータ収集ですぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。
+この設定により、マーケティングチャネルの迅速な設定が容易になり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。
 
 ## 新しい Web 設定の作成 {#new-setup}
 

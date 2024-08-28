@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '958'
 ht-degree: 5%
 
 ---
@@ -29,23 +29,6 @@ ht-degree: 5%
 このiOSの設定により、マーケティングチャネルの迅速な設定が簡単になり、すべての重要なリソースがExperience Platform、Journey Optimizerおよび Data Collection アプリで容易に使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすばやく開始できます。
 
 ## 新しいiOS設定の作成 {#new-setup-ios}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="依存関係の追加"
->abstract="Xcode で、アシュランスパッケージを追加し、アプリでデータ収集とエクスペリエンスを検査、配達確認、シミュレートおよび検証します。 また、AEP メッセージを追加してプッシュ通知トークンとクリックスルーフィードバックをAdobe Experience Platformに送信することもできます。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#swift-package-manager" text="データ収集ドキュメントを参照してください。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="初期化コードの追加"
->abstract="アプリを適切に初期化するには、指定された初期化コードを AppDelegate ファイルの **didFinishLaunchingWithOptions** メソッドに挿入します。 これにより、アプリの起動プロセス中の適切なタイミングで実行されます。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="HTML の読み込み"
->abstract="アプリケーションの **AppDelegate** クラスで、次の依存関係（AEPCore、AEPAssurrance、AEPEdge、AEPEdgeIdentity、AEPMessaging）を読み込みます。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="データ収集ドキュメントを参照してください。"
 
 1. Journey Optimizer ホームページで、「**[!UICONTROL モバイルと web チャネルの設定]** カードから **[!UICONTROL 開始]** をクリックします。
 

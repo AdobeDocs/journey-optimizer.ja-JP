@@ -10,10 +10,10 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 10%
+source-wordcount: '261'
+ht-degree: 25%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Assurance での検証"
->abstract="Assurance を使用してモバイルアプリのデータ収集とユーザーエクスペリエンスの品質を確保します。 このツールは、詳細な分析、検証、最適化を提供します。 さらに、アプリを直接接続して、正確な SDK 統合を検証できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance" text="Assurance ドキュメントを参照してください"
+>abstract="Adobe Experience Platform Assurance は、SDK 実装を調べたり、アプリケーションイベントをシミュレートおよび検証したりするのに役立つように、このワークフローに組み込まれています。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance の概要"
 
 
-この設定により、マーケティングチャネルの迅速な設定が容易になり、必要なすべてのリソースがExperience Platform、Journey Optimizerおよびデータ収集ですぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。
+この設定により、マーケティングチャネルの迅速な設定が容易になり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。
 
 これを効果的に実装するには、web サイトやモバイルコードを変更する権限と技術的能力を持つ組織のメンバーが、設定を監督する必要があります。
 
