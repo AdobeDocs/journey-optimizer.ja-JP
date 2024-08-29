@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1376'
 ht-degree: 98%
 
 ---
@@ -194,3 +194,14 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 * 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
   ![](assets/select-language.png)
 
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="優先度"
+>abstract="0～100 の範囲で、ジャーニーに優先度スコアを割り当てます。数値が大きいほど、優先度が高くなります。2 つのジャーニーが同じサーフェスを使用する場合、Journey Optimizer は優先度スコアが最も高いジャーニーを選択します。ジャーニーのスコアが同じ場合は、最近変更したジャーニーが選択されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="優先度"
+>abstract="0～100 の範囲で、キャンペーンに優先度スコアを割り当てます。数値が大きいほど、優先度が高くなります。2 つのキャンペーンが同じサーフェスを使用する場合、Journey Optimizer は優先度スコアが最も高いキャンペーンを選択します。キャンペーンのスコアが同じ場合は、最近変更したキャンペーンが選択されます。"
