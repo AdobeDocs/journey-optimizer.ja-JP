@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 63%
+source-wordcount: '665'
+ht-degree: 59%
 
 ---
 
@@ -177,3 +177,11 @@ ht-degree: 63%
 * 現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。 スムーズな移行を確実に行うために、新機能を理解しておくことをお勧めします。
 
 [Journey Optimizerの新しいレポートインターフェイスの概要](../reports/report-gs-cja.md)
+
+* 新しいレポートエクスペリエンスに新しいユースケースが追加されました。
+
+   * レポート内で直接カスタム計算指標を作成します。
+   * レポートデータからオーディエンスを作成します。
+   * 探索的分析ツールを使用すると、選択した **[!UICONTROL Dimension]** および **[!UICONTROL 指標]** からテーブルやビジュアライゼーションを簡単に作成できます。
+
+  詳しくは、[詳細なドキュメント](../reports/report-cja-manage.md)を参照してください。
