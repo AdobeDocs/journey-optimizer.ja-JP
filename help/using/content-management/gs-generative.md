@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Journey Optimizer の AI アシスタントを使用して、様々なメイン�
 * アップロードされるブランドアセットの最大サイズは 50 MB です。サイズの大きいファイルや多数の画像を処理できますが、処理時間は長くなります。
 * Adobe Campaign で作成したメールテンプレート（[ビルトインのメールテンプレート](../email/use-email-templates.md)、ブランド固有のテンプレート、またはカスタムテンプレートをお勧めします）を使用して、メールコンテンツを作成します。最大 8〜10 個の画像を含むメールテンプレートをお勧めします。
 * バリアントを選択する際は、サムアップ、サムダウンまたはフラグのアイコンを使用して、問題のある出力を報告する必要があります。
-* AI アシスタントの使用には、Adobe Experience Cloud 生成 AI ユーザーガイドラインが適用されます。[詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* AI アシスタントの使用には、Adobe Experience Cloud 生成 AI ユーザーガイドラインが適用されます。[詳細情報](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 Journey Optimizer の AI アシスタントには、次の制限が適用されます。
 
