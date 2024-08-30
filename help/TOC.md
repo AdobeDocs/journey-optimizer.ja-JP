@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 97%
+source-wordcount: '1963'
+ht-degree: 98%
 
 ---
 
@@ -585,9 +585,7 @@ ht-degree: 97%
    + [チャネル設定の指定](using/configuration/channel-surfaces.md)
    + ガイド付きチャネル設定 {#guided-setup}
       + [ガイド付きチャネル設定の基本を学ぶ](using/configuration/set-mobile-config.md)
-      + [Android モバイルチャネルの設定](using/configuration/set-mobile-android.md)
-      + [iOS モバイルチャネルの設定](using/configuration/set-mobile-ios.md)
-      + [Web チャネルの設定](using/configuration/set-mobile-web.md)
+      + [チャネル設定の作成](using/configuration/create-channel-set-up.md)
    + メールサブドメインのデリゲート {#delegate-subdomains}
       + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
       + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
