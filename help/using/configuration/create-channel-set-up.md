@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript コード"
->abstract="「 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> タグには、web ページのメインコンテンツの前に読み込まれる必須のメタデータとリソースが含まれています。 このセクションにコードを配置することで、コードが早い段階で適切に初期化および実行され、web ページの読み込みと機能が効率的になります。 にコードを追加する <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> セクションは、サイトの構造、パフォーマンス、全体的なユーザーエクスペリエンスの向上に役立ちます。"
+>abstract="head タグには、web ページのメインコンテンツの前に読み込まれる必須のメタデータとリソースが含まれています。 このセクションにコードを配置することで、コードが早い段階で適切に初期化および実行され、web ページの読み込みと機能が効率的になります。 head セクションにコードを追加すると、サイトの構造、パフォーマンス、および全体的なユーザーエクスペリエンスを向上させることができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
