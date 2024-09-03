@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 36%
@@ -78,7 +79,7 @@ ht-degree: 36%
 
    * **[!UICONTROL アプリ ID]** と **[!UICONTROL アプリ内の場所またはパス]** を入力します。
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. 実装が Web、iOS、Android以外の場合や、特定の URI をターゲットにする必要がある場合は、プラットフォームとして「その他」を選択します。 複数のプラットフォームを選択する場合や、複数の URI を追加する場合、コンテンツは選択したすべてのページまたはアプリに配信されます。
 
@@ -174,4 +175,3 @@ ht-degree: 36%
 | --------- | ----------- | ------- | 
 | ワイルドカード web | `wildcard:web://domain.com/*#element` | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
 | ワイルドカード web | `wildcard:web://*domain.com/*#element` | ワイルドカードサーフェス - 「domain.com」で終わるすべてのドメインの各ページの個々の要素を表します。 |
-
