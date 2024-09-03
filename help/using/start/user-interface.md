@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 96%
 
 ---
 
@@ -196,6 +196,8 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="優先度"
@@ -205,3 +207,33 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >id="ajo_campaigns_campaign_priority"
 >title="優先度"
 >abstract="0～100 の範囲で、キャンペーンに優先度スコアを割り当てます。数値が大きいほど、優先度が高くなります。2 つのキャンペーンが同じサーフェスを使用する場合、Journey Optimizer は優先度スコアが最も高いキャンペーンを選択します。キャンペーンのスコアが同じ場合は、最近変更したキャンペーンが選択されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="キャンペーンの競合ビューア"
+>abstract="キャンペーンの競合ビューア"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="ジャーニーの設定ビューア"
+>abstract="ジャーニーの設定ビューア"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="オブジェクトタイプ"
+>abstract="オブジェクトタイプ"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="ジャーニーへのルールセットの適用"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="キャンペーンへのルールセットの適用"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="優先順位付けの要因"
+>abstract="未定"
