@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 4%
@@ -51,6 +51,7 @@ ht-degree: 4%
 >id="ajo_mobile_web_setup_push_team_id"
 >title="チーム ID"
 >abstract="チーム ID は、チームを識別するために使用される文字列値で、開発者アカウントの **メンバーシップ** タブに配置できます。"
+
 
 この設定により、マーケティングチャネルの迅速な設定が簡単になり、すべての重要なリソースがExperience Platform、Journey Optimizerおよびデータ収集アプリで容易に使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすばやく開始できます。
 

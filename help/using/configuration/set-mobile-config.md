@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 17%
@@ -48,6 +48,7 @@ ht-degree: 17%
    * モバイルプッシュメッセージ
 
    * Web Basic
+
 
 設定するプラットフォームごとに、個別の設定を作成する必要があります。 これは、各アプリが一意のチャネル設定を必要とし、これにより各プラットフォームに必要なチャネルを柔軟に決定できるためです。
 
