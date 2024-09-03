@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
+source-git-commit: 6fc3e27f11fa95d9ee705c8a3aff8649f66dc44d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 59%
+source-wordcount: '744'
+ht-degree: 54%
 
 ---
 
@@ -26,6 +26,26 @@ ht-degree: 59%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
+## 9 月の更新 {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>ガイド付きチャネル設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ガイド付きチャネル設定を使用すると、統合されたエクスペリエンスでチャネル設定を自動化および検証でき、Journey Optimizerを使い始めるプロセスをスピードアップできます。 この新しいガイド付き設定により、迅速なチャネル設定が合理化され、必要なすべてのリソースがExperience Platform、Journey Optimizer、データ収集において容易にインストールされて機能するようになります。 これにより、マーケティング、製品、データエンジニアリングチームは、キャンペーンとジャーニーの作成をすばやく開始できます。</p>
+<p>詳しくは、<a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
+</br>
+<img src="assets/do-not-localize/guided-setup.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2024年8月リリースノート {#8-2024}
 
 **リリース日**：2024年8月20日～21日（PT）
@@ -41,24 +61,7 @@ ht-degree: 59%
 
 このリリースでは、以下に示す新機能が導入されています。
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Guided Channel Setup</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
-<p>For more information, refer to the <a href="../configuration/set-mobile-config.md">detailed documentation</a>.</p>
-</br>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
+<!--
 <table>
 <thead>
 <tr>
