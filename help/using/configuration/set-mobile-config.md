@@ -8,10 +8,8 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
-hide: true
-hidefromtoc: true
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: 549efb9e12dccedb27335553194e09deab09a35f
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 17%
