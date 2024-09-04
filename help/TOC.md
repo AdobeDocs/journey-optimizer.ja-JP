@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
 source-wordcount: '1963'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -200,7 +200,7 @@ ht-degree: 98%
    + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + メールチャネルの設定 {#configure-email}
       + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
-      + [メール設定を指定](using/email/email-settings.md)
+      + [メール設定の指定](using/email/email-settings.md)
       + [メール設定のパーソナライズ](using/email/surface-personalization.md)
 + アプリ内チャネル{#in-app}
    + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
@@ -583,7 +583,7 @@ ht-degree: 98%
 + 設定 {#configuration}
    + [Journey Optimizer の設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + [チャネル設定の指定](using/configuration/channel-surfaces.md)
-   + ガイド付きチャネル設定 {#guided-setup}
+   + ガイド付きチャネル設定{#guided-setup}
       + [ガイド付きチャネル設定の基本を学ぶ](using/configuration/set-mobile-config.md)
       + [チャネル設定の作成](using/configuration/create-channel-set-up.md)
    + メールサブドメインのデリゲート {#delegate-subdomains}

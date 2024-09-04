@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: モバイルと Web の設定
+title: モバイルと web の設定
 description: モバイルチャネルと web チャネルを設定および監視する方法について説明します
 feature: Surface, Channel Configuration
 topic: Administration
@@ -12,7 +12,7 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 17%
+ht-degree: 49%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="モバイルと web の設定名"
->abstract="モバイルまたは web 設定の名前を入力します。 この名前は、ガイド付きチャネルの設定で自動的に作成されたすべてのリソースで使用されます。"
+>abstract="モバイルまたは web 設定の名前を入力します。この名前は、ガイド付きチャネル設定で自動的に作成されるすべてのリソースに使用されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Assurance での検証"
 >abstract="Adobe Experience Platform Assurance は、SDK 実装を調べたり、アプリケーションイベントをシミュレートおよび検証したりするのに役立つように、このワークフローに組み込まれています。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance の概要"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance の概要"
 
 この設定により、マーケティングチャネルの迅速な設定が容易になり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成から開始できます。
 
@@ -54,9 +54,9 @@ ht-degree: 17%
 
 ## 前提条件 {#prereq}
 
-* これを効果的に実装するには、web サイトやモバイルコードを変更する権限と技術的能力を持つ組織のメンバーが、設定を監督する必要があります。
+* これを効果的に実装するには、web サイトまたはモバイルコードを変更する権限と技術的能力を持つ組織のメンバーが設定を監視することが不可欠です。
 
-  ガイド付きチャネルのセットアップを実行するために必要な権限は次のとおりです。
+  ガイド付きチャネル設定を実行するために必要な権限を以下に示します。
 
 +++ 必要な権限
 
@@ -74,8 +74,8 @@ ht-degree: 17%
         </td>
         <td>
           <ul>
-            <li>会社権限/ プロパティ</li>
-            <li>プロパティ権限：拡張機能と環境を開発、公開、管理します</li>
+            <li>会社権限／プロパティ</li>
+            <li>プロパティ権限：拡張機能と環境の開発、公開、管理</li>
             <li>アプリサーフェス：アプリ設定の管理</li>
          </ul>
         </td>
@@ -87,12 +87,12 @@ ht-degree: 17%
         <td>
         <ul>
             <li>データ収集：データストリームの管理</li>
-           <li>サンドボックス：サンドボックスへのアクセスの許可</li>
-            <li>セグメントの管理：セグメント定義の読み取り、作成、編集、削除をおこなう</li>
-            <li>プロファイルの管理：プロファイルを読み取り、作成、編集、削除する</li>
-            <li>データセットの読み取り：データセットの読み取り専用アクセス権</li>
-            <li>スキーマの読み取り：スキーマの読み取り専用アクセス権</li>
-            <li>ID 名前空間の読み取り：ID 名前空間の読み取り専用アクセス権</li>
+           <li>サンドボックス：サンドボックスへのアクセス権の付与</li>
+            <li>セグメントを管理：セグメント定義の読み取り、作成、編集、削除</li>
+            <li>プロファイルを管理：プロファイルの読み取り、作成、編集、削除</li>
+            <li>データセットを読み取り：データセットに対する読み取り専用アクセス</li>
+            <li>スキーマを読み取り：スキーマに対する読み取り専用アクセス</li>
+            <li>ID 名前空間を読み取り：ID 名前空間に対する読み取り専用アクセス</li>
           </ul>
         </td>
       </tr>
@@ -164,8 +164,8 @@ ht-degree: 17%
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
-  <li>同意（デフォルトの同意ポリシーを有効にした場合）</li>
-  <li>ID （デフォルトの ECID とデフォルトのステッチルール）</li>
+  <li>同意（デフォルトの同意ポリシーを有効にする場合）</li>
+  <li>ID（デフォルトの ECID とデフォルトのステッチルールを使用する場合）</li>
   <li>Mobile Core</li>
   </ul>
   </td>
@@ -175,7 +175,7 @@ ht-degree: 17%
   <p>Assurance</p>
   </td>
   <td>
-  <p>アシュランスセッション</p>
+  <p>Assurance セッション</p>
   </td>
   </tr>
   <tr>
@@ -259,8 +259,8 @@ ht-degree: 17%
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
-  <li>同意（デフォルトの同意ポリシーを有効にした場合）</li>
-  <li>ID （デフォルトの ECID とデフォルトのステッチルール）</li>
+  <li>同意（デフォルトの同意ポリシーを有効にする場合）</li>
+  <li>ID（デフォルトの ECID とデフォルトのステッチルールを使用する場合）</li>
   <li>Mobile Core</li>
   </ul>
   </td>
@@ -270,7 +270,7 @@ ht-degree: 17%
   <p>Assurance</p>
   </td>
   <td>
-  <p>アシュランスセッション</p>
+  <p>Assurance セッション</p>
   </td>
   </tr>
   <tr>
@@ -354,8 +354,8 @@ ht-degree: 17%
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
-  <li>同意（デフォルトの同意ポリシーを有効にした場合）</li>
-  <li>ID （デフォルトの ECID とデフォルトのステッチルール）</li>
+  <li>同意（デフォルトの同意ポリシーを有効にする場合）</li>
+  <li>ID（デフォルトの ECID とデフォルトのステッチルールを使用する場合）</li>
   <li>Mobile Core</li>
   </ul>
   </td>
@@ -365,7 +365,7 @@ ht-degree: 17%
   <p>Assurance</p>
   </td>
   <td>
-  <p>アシュランスセッション</p>
+  <p>Assurance セッション</p>
   </td>
   </tr>
   <tr>

@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
 source-wordcount: '1412'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 96%
 
 * **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。このセクションを参照して、サンドボックスを管理します。[詳細情報](../administration/sandboxes.md)
 
-* **[!UICONTROL チャネル]** – このセクションを使用すると、サブドメイン、設定、配信品質の設定などのチャネルを設定できます。 [詳細情報](../configuration/get-started-configuration.md)
+* **[!UICONTROL チャネル]**：このセクションを使用すると、サブドメイン、設定、配信品質の設定などのチャネルを設定できます。[詳細情報](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL タグ]** - 統合タグを使用すると、ジャーニーやキャンペーンを簡単に分類し、リストからの検索を改善できます。[詳細情報](../start/search-filter-categorize.md#work-with-unified-tags)
 
