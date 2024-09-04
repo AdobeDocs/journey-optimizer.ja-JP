@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 98%
 
 * 許可リストをアクティブ化または非アクティブ化すると、新しい警告が表示され、各アクションの影響の詳細を確認できるようになりました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * チャネル設定の作成、IP プールの作成、抑制リストと許可リストの管理、SMS チャネルの設定を行うためのユーザーインターフェイスが更新されました。
-* 特定のサブドメインに対して最初のチャネル設定を作成する場合、処理時間は 10 分から 10 日かかり、そのサブドメインを使用する後続のサーフェスに対しては最大 3 時間かかります。 [詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
+* 指定したサブドメインに対して最初のチャネル設定を作成する場合、処理時間は 10 分から 10 日かかり、そのサブドメインを使用する後続のサーフェスに対しては最大 3 時間かかります。[詳細情報](../configuration/channel-surfaces.md#create-channel-surface)
 * ランディングページプリセットとランディングページサブドメインの作成を行うためのユーザーインターフェイスが更新されました。[詳細情報](../landing-pages/lp-subdomains.md)
 
 **監査制御**
@@ -399,7 +399,7 @@ ht-degree: 98%
 
 **メッセージ**
 
-* メッセージプリセットは **チャネル設定** になりました。 [詳細情報](../configuration/channel-surfaces.md)
+* メッセージプリセットは&#x200B;**チャネル設定**&#x200B;になりました。[詳細情報](../configuration/channel-surfaces.md)
 
 **管理**
 

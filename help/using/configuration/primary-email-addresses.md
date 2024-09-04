@@ -10,9 +10,9 @@ level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 その場合、[!DNL Journey Optimizer] は&#x200B;**[!UICONTROL 実行フィールド]**&#x200B;を使用して、優先してプロファイルサービスから使用するメールアドレスまたは電話番号を決定します。
 
-現在デフォルトで使用されているフィールドを確認するには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]**/**[!UICONTROL 実行フィールド]** メニューにアクセスします。
+現在デフォルトで使用されているフィールドを確認するには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL 実行フィールド]**&#x200B;メニューにアクセスします。
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,7 +46,7 @@ ht-degree: 93%
 
 サンドボックスレベルで実行フィールドをグローバルに変更するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]**/**[!UICONTROL 実行フィールド]** メニューにアクセスします。
+1. **[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL 実行フィールド]**&#x200B;メニューにアクセスします。
 
 1. デフォルト値を変更する場合は「**[!UICONTROL 編集]**」をクリックします。
 

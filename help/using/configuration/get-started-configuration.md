@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
    * **SMS** チャネルの場合は、プロバイダー設定を [!DNL Journey Optimizer] と統合するなど、SMS を送信するようにインスタンスを設定する必要があります。[詳細情報](../sms/sms-configuration.md)
 
-1. 完了したら、**チャネル設定** を作成して、メッセージの配信に必要なすべての技術的パラメーターを設定する必要があります。 [詳細情報](channel-surfaces.md)
+1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術的パラメーターを設定する必要があります。[詳細情報](channel-surfaces.md)
 
 1. 以下を行うこともできます。
 

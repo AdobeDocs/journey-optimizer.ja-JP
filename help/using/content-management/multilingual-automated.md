@@ -11,9 +11,9 @@ keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限定提供" type="Informative"
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1328'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 99%
 
 この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます。
 
-1. **[!UICONTROL 管理]** メニューから **[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]** にアクセスします。
+1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**&#x200B;にアクセスします。
 
 1. **[!UICONTROL 言語設定]**&#x200B;メニューで、「**[!UICONTROL 言語設定を作成]**」をクリックします。
 

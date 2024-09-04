@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -75,9 +75,9 @@ ht-degree: 93%
 
 ## 暗黙的変数の使用 {#implicit-variables-in-fragments}
 
-暗黙的変数は、既存のフラグメント機能を強化して、コンテンツの再利用性とスクリプトのユースケースの効率を向上させます。 フラグメントでは、入力変数を使用して、キャンペーンおよびジャーニーコンテンツで使用可能な出力変数を作成できます。
+暗黙的変数は、既存のフラグメント機能を強化して、コンテンツの再利用性とスクリプトのユースケースの効率を向上させます。フラグメントでは入力変数を使用し、キャンペーンおよびジャーニーコンテンツで使用可能な出力変数を作成できます。
 
-[ この節 ](../personalization/use-expression-fragments.md#implicit-variables) で暗黙的変数を使用する方法を説明します。
+暗黙的変数の使用方法については、[この節](../personalization/use-expression-fragments.md#implicit-variables)を参照してください。
 
 ## 編集可能フィールドのカスタマイズ {#customize-fields}
 

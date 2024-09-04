@@ -10,9 +10,9 @@ level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 ## サブドメインの PTR レコードへのアクセス {#access-ptr-records}
 
-[!DNL Journey Optimizer] で最初のサブドメインをアドビに[デリゲート](delegate-subdomain.md)すると、IP に対して PTR レコードが自動作成されます。**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]**/**[!UICONTROL PTR レコード]** メニューからアクセスできます。
+[!DNL Journey Optimizer] で最初のサブドメインをアドビに[デリゲート](delegate-subdomain.md)すると、IP に対して PTR レコードが自動作成されます。**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL PTR レコード]**&#x200B;メニューからアクセスできます。
 
 ![](assets/ptr-records.png)
 

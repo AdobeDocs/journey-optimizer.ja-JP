@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 
   >[!NOTE]
   >
-  >[Adobe Experience Platform Web SDK のバージョン ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"} が 2.16 以上であることを確認してください。
+  >[Adobe Experience Platform Web SDK のバージョン](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/release-notes){target="_blank"}が 2.16 以降であることを確認します。
 
 * ハイブリッドモード - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用して、サーバーサイドでパーソナライゼーションをリクエストできます。応答は Adobe Experience Platform Web SDK に提供され、クライアントサイドで変更がレンダリングされます。詳しくは、Adobe Experience Platform [Edge Network Server API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}を参照してください。ハイブリッドモードの詳細と実装サンプルについて詳しくは、[このブログ投稿](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}を参照してください。
 

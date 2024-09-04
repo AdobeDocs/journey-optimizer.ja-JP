@@ -8,9 +8,9 @@ level: Experienced
 badge: label="限定提供"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1481'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="返される項目の数の定義"
->abstract="返される決定項目の数を選択します。例えば、2 を選択した場合、現在の設定に最適な 2 つの実施要件を満たすオファーが表示されます。"
+>abstract="返される決定項目の数を選択します。例えば、「2」を選択した場合、現在の設定に対して最適な 2 つの実施要件を満たすオファーが表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -65,7 +65,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-details.png)
 
-1. 返される項目の数を選択します。例えば、2 を選択した場合、現在の設定に最適な 2 つの実施要件を満たすオファーが表示されます。 「**[!UICONTROL 次へ]**」をクリックします。
+1. 返される項目の数を選択します。例えば、「2」を選択した場合、現在の設定に対して最適な 2 つの実施要件を満たすオファーが表示されます。「**[!UICONTROL 次へ]**」をクリックします。
 
 1. 「**[!UICONTROL 戦略を追加]**」ボタンを使用して、決定ポリシーの選択戦略を定義します。各戦略は、実施要件制約に関連付けられたオファーコレクションと、表示されるオファーを決定するためのランキング方法で構成されます。[詳細情報](selection-strategies.md)
 

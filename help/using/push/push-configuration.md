@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL アプリ設定の管理]**
    * **[!UICONTROL プロパティの管理]**
 
-   モバイルアプリ開発者が **Adobe Journey Optimizer データ収集でプッシュ資格情報を設定し****Adobe Experience Platform} でプッシュ通知チャネル設定（メッセージプリセット）を定義するには、これらの権限が必要** す。
+   モバイルアプリ開発者が **Adobe Experience Platform データ収集**&#x200B;でプッシュ資格情報を設定し、**Adobe Journey Optimizer** でプッシュ通知チャネル設定（メッセージプリセット）を定義するには、これらの権限が必要です。
 
    ![](assets/push_product_5.png)
 
@@ -112,7 +112,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### アプリの設定 {#configure-app}
 
-技術的な設定は、アプリ開発者とビジネス管理者の緊密な共同作業を伴います。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、プッシュ資格情報とプッシュチャネル設定をAdobe Journey Optimizerで作成し、モバイルアプリをAdobe Experience Platform Mobile SDK と統合する必要があります。
+技術的な設定は、アプリ開発者とビジネス管理者の緊密な共同作業を伴います。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、Adobe Journey Optimizer でプッシュ資格情報とプッシュチャネル設定を作成し、モバイルアプリを Adobe Experience Platform Mobile SDK と統合する必要があります。
 
 以下のリンクに記載されている実装手順に従ってください。
 
@@ -126,27 +126,27 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
 
 
-## 手順 1:Journey Optimizerにアプリのプッシュ資格情報を追加する {#push-credentials-launch}
+## 手順 1：Journey Optimizer でのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
 
-正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ認証情報をJourney Optimizerに追加する必要があります。
+正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ資格情報を Journey Optimizer に追加する必要があります。
 
 モバイルアプリのプッシュ資格情報の登録は、自分の代わりに Adobe がプッシュ通知を送信することを承認するために必要です。以下に説明する手順を参照してください。
 
-1. **[!UICONTROL チャネル]**/**[!UICONTROL プッシュ設定]**/**[!UICONTROL プッシュ資格情報]** メニューにアクセスします。
+1. **[!UICONTROL チャネル]**／**[!UICONTROL プッシュ設定]**／**[!UICONTROL プッシュ資格情報]**&#x200B;メニューにアクセスします。
 
 1. 「**[!UICONTROL プッシュ認証情報を作成]**」をクリックします。
 
-1. **[!UICONTROL プラットフォーム]** ドロップダウンから、オペレーティングシステムを選択します。
+1. **[!UICONTROL プラットフォーム]**&#x200B;ドロップダウンから、次のオペレーティングシステムを選択します。
 
    * **iOS の場合**
 
      ![](assets/add-app-config-ios.png)
 
-      1. モバイルアプリ **[!UICONTROL アプリ ID]** を入力します。
+      1. モバイルアプリの&#x200B;**[!UICONTROL アプリ ID]** を入力します。
 
-      1. 「**[!UICONTROL すべてのサンドボックスに適用]** オプションを有効にして、これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにします。 特定のサンドボックスが同じ Platform とアプリ ID のペアに対して独自の資格情報を持っている場合、それらのサンドボックス固有の資格情報が優先されます。
+      1. これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにするには、「**[!UICONTROL すべてのサンドボックスに適用]**」オプションを有効にします。特定のサンドボックスに同じプラットフォームとアプリ ID のペアに対する独自の資格情報がある場合、これらのサンドボックス固有の資格情報が優先されます。
 
-      1. 「**[!UICONTROL プッシュ認証情報を手動で入力]** ボタンをオンにして、認証情報を追加します。
+      1. 資格情報を追加するには、「**[!UICONTROL プッシュ資格情報を手動で入力]**」ボタンをオンにします。
 
       1. .p8 Apple Push Notification Authentication Key ファイルをドラッグ＆ドロップします。このキーは、**証明書**、**識別子**、**プロファイル**&#x200B;ページから取得できます。
 
@@ -160,9 +160,9 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
       1. **[!UICONTROL アプリ ID]** を指定します。通常、パッケージ名は `build.gradle` ファイル内のアプリ ID です。
 
-      1. 「**[!UICONTROL すべてのサンドボックスに適用]** オプションを有効にして、これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにします。 特定のサンドボックスが同じ Platform とアプリ ID のペアに対して独自の資格情報を持っている場合、それらのサンドボックス固有の資格情報が優先されます。
+      1. これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにするには、「**[!UICONTROL すべてのサンドボックスに適用]**」オプションを有効にします。特定のサンドボックスに同じプラットフォームとアプリ ID のペアに対する独自の資格情報がある場合、これらのサンドボックス固有の資格情報が優先されます。
 
-      1. 「**[!UICONTROL プッシュ認証情報を手動で入力]** ボタンをオンにして、認証情報を追加します。
+      1. 資格情報を追加するには、「**[!UICONTROL プッシュ資格情報を手動で入力]**」ボタンをオンにします。
 
       1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください
 
@@ -191,7 +191,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 プッシュ資格情報を作成したら、**[!DNL Journey Optimizer]** からプッシュ通知を送信できるように、設定を作成する必要があります。
 
-1. **[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]**/**[!UICONTROL チャネル設定]** メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
+1. **[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
    ![](assets/push-config-9.png)
 
@@ -202,17 +202,17 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 
-1. 設定にカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
 
-1. **プッシュ** チャネルを選択します。
+1. **プッシュ**&#x200B;チャネルを選択します。
 
    ![](assets/push-config-10.png)
 
-1. **[!UICONTROL マーケティングアクション]** を選択し、この設定を使用してメッセージに同意ポリシーを関連付けます。 マーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
-1. **[!UICONTROL Platform]** を選択します。
+1. **[!UICONTROL プラットフォーム]**&#x200B;を選択します。
 
-1. 上記で設定した **[!UICONTROL プッシュ資格情報]** と同じ [ アプリ ID](#push-credentials-launch) を選択します。
+1. 上記で設定した[プッシュ資格情報](#push-credentials-launch)と同じ&#x200B;**[!UICONTROL アプリ ID]** を選択します。
 
 1. 変更を保存します。
 
@@ -289,7 +289,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 手順 4：イベントでモバイルアプリをテストする {#mobile-app-test}
+## 手順 4：イベントでモバイルアプリのテスト {#mobile-app-test}
 
 Adobe Experience Platform と [!DNL Adobe Experience Platform Data Collection] の両方でモバイルアプリを設定した後、プッシュ通知をテストしてからプロファイルに送信できるようになりました。このユースケースでは、モバイルアプリをターゲットにするジャーニーを作成し、プッシュ通知をトリガーするイベントを設定します。
 

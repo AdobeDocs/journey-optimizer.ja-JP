@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->新しいキャンペーンを作成する前に、チャネル設定（メッセージサーフェス）とAdobe Experience Platform オーディエンスが使用できる状態になっていることを確認します。 詳しくは、以下の節を参照してください。
+>新しいキャンペーンを作成する前に、チャネル設定（メッセージサーフェス）と Adobe Experience Platform オーディエンスが使用できる状態になっていることを確認します。詳しくは、以下の節を参照してください。
 >
->* [ チャネル設定の作成 ](../configuration/channel-surfaces.md)
+>* [チャネル設定の作成](../configuration/channel-surfaces.md)
 >* [オーディエンスの基本を学ぶ](../audience/about-audiences.md)
 
 新しいキャンペーンを作成するには、**[!UICONTROL Campaigns]** メニューにアクセスし、「**[!UICONTROL キャンペーンの作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。([詳細情報](modify-stop-campaign.md#duplicate))
@@ -83,7 +83,7 @@ ht-degree: 93%
 
 1. 「**[!UICONTROL アクション]**」セクションで、新しい設定を選択または作成します。
 
-   設定は、[ システム管理者 ](../start/path/administrator.md) によって定義されます。 ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
+   設定は、[システム管理者](../start/path/administrator.md)によって定義されます。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [詳細情報](../configuration/channel-surfaces.md)。
 
    マーケティングキャンペーンタイプと互換性のあるチャネル設定のみがドロップダウンリストに一覧表示されます。
 

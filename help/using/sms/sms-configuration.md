@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="Journey Optimizer での SMS／MMS プロバイダーの設定"
->abstract="テキストメッセージ（SMS／MMS）を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。完了したら、SMS/MMS 設定を作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
+>abstract="テキストメッセージ（SMS／MMS）を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。完了したら、SMS／MMS 設定を作成する必要があります。これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS チャネル設定の作成"
 
 >[!CONTEXTUALHELP]

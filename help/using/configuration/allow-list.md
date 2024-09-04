@@ -10,9 +10,9 @@ level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1143'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 ## 許可リストへのアクセス {#access-allowed-list}
 
-許可されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]** に移動し、「**[!UICONTROL 許可リスト]**」を選択します。
+許可されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;に移動し、「**[!UICONTROL 許可リスト]**」を選択します。
 
 ![](assets/allow-list-access.png)
 
@@ -146,7 +146,7 @@ ht-degree: 98%
 
 ### API 呼び出しを使用したエンティティの追加 {#api-call-allowed-list}
 
-許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。以下に例を示します。
+許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。例：
 
 ![](assets/allow-list-api.png)
 

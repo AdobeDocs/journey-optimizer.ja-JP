@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4394'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS チャネル**
 
-* SMS チャネル設定を指定する際に、Infobip がベンダープロバイダーとして追加されました。 [詳細情報](../sms/sms-configuration.md)
+* SMS チャネル設定を指定する際に、Infobip がベンダープロバイダーとして追加されました。[詳細情報](../sms/sms-configuration.md)
 * Twillio - API 資格情報のセットアップに、Twillio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。[詳細情報](../sms/sms-configuration.md)
 
 **アプリ内チャネル**
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **IP プール**&#x200B;の作成または編集時に、関連付けられている PTR レコードが IP リストに表示され、選択した IP アドレスにカーソルを合わせると表示されるようになりました。[詳細情報](../configuration/ip-pools.md#create-ip-pool)
 
-* チャネル設定で IP プールが選択された後、IP アドレスにカーソルを合わせると、PTR レコード情報が表示されるようになりました。 [詳細情報](../email/email-settings.md#subdomains-and-ip-pools)
+* チャネル設定で IP プールが選択された後、IP アドレスにカーソルを合わせると、PTR レコード情報が表示されるようになりました。[詳細情報](../email/email-settings.md#subdomains-and-ip-pools)
 
 * [PTR レコード](../configuration/ptr-records.md#edit-ptr-record)および[実行フィールド](../configuration/primary-email-addresses.md)編集用のユーザーインターフェイスが更新されました。 
 

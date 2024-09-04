@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 86%
 
 1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力します。
 
-1. [ メール設定 ](email-settings.md) を選択または作成します。
+1. [メール設定](email-settings.md)を選択または作成します。
 
    ![](assets/email_journey.png)
 
-   フィールドには、ユーザーがチャネルで最後に使用した設定がデフォルトで事前入力されます。
+   フィールドには、ユーザーがチャネルで使用した最後の設定がデフォルトで事前入力されます。
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ ht-degree: 86%
 
    ![](assets/email_campaign_steps.png)
 
-1. **[!UICONTROL メール]** アクションを選択します。
+1. **[!UICONTROL メール]**&#x200B;アクションを選択します。
 
-1. メール設定を選択または作成します。 [詳細情報](email-settings.md)
+1. メール設定を選択または作成します。[詳細情報](email-settings.md)
 
    ![](assets/email_campaign.png)
 
@@ -84,7 +84,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   **[!UICONTROL コンテンツを編集]** 画面の **[!UICONTROL ヘッダー]** セクションで、**[!UICONTROL 送信者名]**、**[!UICONTROL 送信元メール]**、**[!UICONTROL BCC]** フィールドが、選択したメール設定で設定されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
+   **[!UICONTROL コンテンツを編集]**&#x200B;画面の「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 差出人名]**」、「**[!UICONTROL 差出人メールアドレス]**」、「**[!UICONTROL BCC]**」の各フィールドは、選択したメール設定で設定されます。[詳細情報](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -122,7 +122,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
      >[!NOTE]
      >
-     >マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**）は、[ チャネル設定 ](email-settings.md#email-type) レベルで、ジャーニーまたはキャンペーンから [ メッセージを作成 ](#create-email-journey-campaign) するときに定義されます。
+     >マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、[チャネル設定](email-settings.md#email-type)レベルで、ジャーニーまたはキャンペーンから[メッセージの作成](#create-email-journey-campaign)時に定義されます。
 
    * **[!UICONTROL HTML のテキストバージョンが空です]**：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。テキストバージョンの作成方法については、[この節](text-version-email.md)を参照してください。
 
@@ -138,7 +138,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL メッセージの電子メールバージョンが空です]**：このエラーは、電子メールのコンテンツが設定されていない場合に表示されます。メールコンテンツの設計方法については、[この節](get-started-email-design.md)を参照してください。
 
-   * **[!UICONTROL 設定が存在しません]**：選択した設定がメッセージの作成後に削除された場合は、メッセージを使用できません。 このエラーが発生した場合は、メッセージで別の設定を選択します **[!UICONTROL プロパティ]**。 チャネル設定について詳しくは、[ この節 ](../configuration/channel-surfaces.md) を参照してください。
+   * **[!UICONTROL 設定が存在しません]**：選択した設定がメッセージの作成後に削除された場合は、メッセージを使用できません。このエラーが発生した場合は、メッセージ&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別の設定を選択します。チャネル設定について詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
 
 >[!CAUTION]
 >

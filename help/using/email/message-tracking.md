@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1053'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]** または **[!UICONTROL トランザクション]**）は、メッセージの作成時に [ チャネル設定 ](../configuration/channel-surfaces.md#email-type) で定義されます。
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](../configuration/channel-surfaces.md#email-type)に定義されます。
 
 ## リンクを調整 {#adjust-links}
 
@@ -165,7 +165,7 @@ ht-degree: 97%
 
 ## URL トラッキングのパーソナライズ {#url-tracking}
 
-通常 [URL トラッキング ](email-settings.md#url-tracking) は設定レベルで管理されますが、プロファイル属性はサポートされていません。 現在、これを実行する唯一の方法は、E メールデザイナーで [URL をパーソナライズ](../personalization/personalization-syntax.md#perso-urls)することです。
+通常 [URL トラッキング](email-settings.md#url-tracking)は設定レベルで管理されますが、プロファイル属性はサポートされていません。現在、これを実行する唯一の方法は、E メールデザイナーで [URL をパーソナライズ](../personalization/personalization-syntax.md#perso-urls)することです。
 
 パーソナライズした URL トラッキングパラメーターをリンクに追加するには、次の手順に従います。
 

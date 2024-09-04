@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 >
 >* サンドボックスの作成
 >* ユーザー権限の設定
->* メール、プッシュ、SMS 通知用のJourney Optimizer チャネル設定
+>* メール、プッシュおよび SMS 通知用の Journey Optimizer チャネル設定の指定
 
 ユースケースプレイブックは、Adobe Experience Platform と Journey Optimizer を使用して実行できる一般的なユースケースに対処する事前定義済みのワークフローです。
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -56,4 +56,4 @@ Journey Optimizer に Infobip を設定するには、次の手順に従いま�
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、SMS および MMS メッセージのチャネル設定を作成する必要があります。 [詳細情報](sms-configuration-surface.md)
+API 資格情報を作成して設定したら、SMS および MMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)

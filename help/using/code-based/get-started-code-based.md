@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 **コードベースのエクスペリエンス**
 
 * [パーソナライゼーションエディター](create-code-based.md#edit-code)を使用して、コンテンツを編集します。
-* コードベースのエクスペリエンスでは、これらの場所に対して [!DNL Journey Optimizer] を実行することで、アプリケーションがエッジで公開されたコンテンツを解釈して配信できることを確認するために、実装に関する以前の開発作業が必要です。 [詳細情報](code-based-configuration.md#surface-definition)
-* より詳細な計画が必要で、開発者が指定した内容だけを変更できます。したがって、パーソナライゼーションやテストのために変更が必要なサーフェス上のコンポーネント（ホームバナー、ヒーロー画像、メニューバーなど）を特定し、をパーソナライゼーションやテスト用に変更する必要があるアプリケーションで使用し、開発チームと協力してこれらの変更を処理するために必要な実装を構築します。
+* コードベースのエクスペリエンスでは、アプリケーションがこれらの場所の [!DNL Journey Optimizer] によってエッジに公開されたコンテンツを解釈して配信できるように、実装に対する事前の開発作業が必要です。[詳細情報](code-based-configuration.md#surface-definition)
+* より詳細な計画が必要で、開発者が指定した内容だけを変更できます。したがって、パーソナライゼーションやテストのために変更が必要なサーフェス上のコンポーネント（ホームバナー、ヒーロー画像、メニューバーなど）を特定し、開発チームと協力してこれらの変更処理に必要な実装を構築することが重要です。
 * JSON コードコンテンツを使用できます。
 * 開発担当者向けです。
 
@@ -109,12 +109,12 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 >[!NOTE]
 >
->現在、設定に関連付けられているコンテンツは、HTMLまたは JSON のみです。<!--WILL COME LATER: text, image or another format depending on the application-->
+>現在、設定に関連付けられているコンテンツは、HTML または JSON のみです。<!--WILL COME LATER: text, image or another format depending on the application-->
 
-コードベースのキャンペーンを実装するための主な手順を以下に示します。
+コードベースのキャンペーンを実装する主な手順を次に示します。
 
-1. アプリケーション実装で [ サーフェス ](code-based-configuration.md#surface-definition) を定義します。これは基本的に、コードベースのエクスペリエンスを追加する場所です。次に、その場所を参照するコードベースのエクスペリエンスチャネル設定を作成し、この設定を使用して [!DNL Journey Optimizer] でキャンペーンを作成します。 [方法についてはこちらを参照](create-code-based.md#create-code-based-campaign)
+1. アプリケーション実装で[サーフェス](code-based-configuration.md#surface-definition)を定義します。サーフェスは、基本的にコードベースのエクスペリエンスを追加する場所で、その場所を参照するコードベースのエクスペリエンスチャネル設定を作成し、この設定を使用して [!DNL Journey Optimizer] でキャンペーンを作成します。[方法について詳しくは、こちらを参照してください](create-code-based.md#create-code-based-campaign)
 
-1. [!DNL Journey Optimizer] パーソナライゼーションエディターを使用して、選択した設定のコンテンツを指定することで、エクスペリエンスを作成します。 [方法についてはこちらを参照](create-code-based.md#edit-code)
+1. [!DNL Journey Optimizer] パーソナライゼーションエディターを使用して、選択した設定のコンテンツを指定してエクスペリエンスを作成します。[方法についてはこちらを参照](create-code-based.md#edit-code)
 
 1. アプリ実装チームは、明示的な API または SDK 呼び出しを行って、「バナーテキスト」や「Recommendations トレイ 1」などの名前付きサーフェスや、アプリケーション内の UI 関連以外の決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。この場合、実装チームは返されたコンテンツをレンダリングするか、その他の方法で解釈し、それに基づいて行動する責任があります。<!--TBC with Robert - should link to a new section with API/SDK call samples-->

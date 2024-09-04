@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 89%
 | DomainNotAllowed | 050106 | メール | 除外イベントは、許可リストが有効になっていて、ターゲットメールのドメインが許可リストから除外される場合に生成されます。 |
 | EmailNoSubscriberIdFoundInProfile | 050025 | メール | 除外イベントは、購読メールのプロファイルに subscriberId が見つからない場合に生成されます。 |
 | EmailNoAddressFoundInProfile | 050020 | メール | 除外イベントは、実行アドレスにメールアドレスが見つからない場合に生成されます。 |
-| EmailNoAddressDefinedInPreset | 050021 | メール | 除外イベントは、実行アドレスが設定で定義されていない場合に生成されます。 |
+| EmailNoAddressDefinedInPreset | 050021 | メール | 除外イベントは、設定で実行アドレスが定義されていない場合に生成されます。 |
 | EmailNoVariantDefined | 050026 | メール | 除外イベントは、メールメッセージでバリアントが定義されていない場合に生成されます。 |
 | EmailNoMessageFoundForTreatment | 050027 | メール | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | EmailMalformedAddress | 050024 | メール | 除外イベントは、メールに不正なアドレスが含まれている場合に生成されます。 |
 | InAppNoVariantDefined | 050041 | アプリ内 | 除外イベントは、アプリ内メッセージのバリアントが定義されていない場合に生成されます。 |
 | InAppNoMessageFoundForTreatment | 050042 | アプリ内 | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | PushNoTokenFoundInProfile | 050030 | プッシュ | 除外イベントは、プロファイルにプッシュトークンがない場合に生成されます。 |
-| PushNoValidTokenFoundForApps | 050031 | プッシュ | 除外イベントは、設定内のターゲットアプリに対して有効なトークンが見つからない場合に生成されます。 |
+| PushNoValidTokenFoundForApps | 050031 | プッシュ | 除外イベントは、設定でターゲットアプリの有効なトークンが見つからない場合に生成されます。 |
 | PushMalformedProfile | 050034 | プッシュ | 除外イベントは、プロファイルの pushNotificationDetails の形式が正しくない場合に生成されます。 |
 | PushNoConsent | 050111 | プッシュ | 除外イベントは、ユーザーがマーケティングプッシュ通知をオプトアウトした場合に生成されます。 |
-| PushNoApplicationDefinedInPreset | 050033 | プッシュ | 除外イベントは、設定にターゲットにするアプリケーションが含まれていない場合に生成されます。 |
+| PushNoApplicationDefinedInPreset | 050033 | プッシュ | 除外イベントは、設定にターゲットとなるアプリケーションが含まれていない場合に生成されます。 |
 | PushNoVariantDefined | 050035 | プッシュ | 除外イベントは、バリアントが定義されていない場合に生成されます。 |
 | PushNoMessageFoundForTreatment | 050036 | プッシュ | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | SMSNoConsent | 050104 | SMS | 除外イベントは、ユーザーがマーケティング SMS をオプトアウトした場合に生成されます。 |
-| SMSFromNumberNotDefinedInPreset | 050152 | SMS | 除外イベントは、「FromNumber」が設定で定義されていない場合に生成されます。 |
-| SMSNoToNumberDefinedInProfile | 050153 | SMS | 除外イベントは、「ToNumber」が設定で定義されていない場合に生成されます。 |
+| SMSFromNumberNotDefinedInPreset | 050152 | SMS | 除外イベントは、設定で「FromNumber」が定義されていない場合に生成されます。 |
+| SMSNoToNumberDefinedInProfile | 050153 | SMS | 除外イベントは、設定で「ToNumber」が定義されていない場合に生成されます。 |
 | SMSNoVariantDefined | 050154 | SMS | 除外イベントは、バリアントが定義されていない場合に生成されます。 |
 | SMSNoMessageFoundForTreatment | 050155 | SMS | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | WebNoVariantDefined | 050041 | Web | 除外イベントは、web メッセージのバリアントが定義されていない場合に生成されます。 |

@@ -7,9 +7,9 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 79%
 
 [!DNL Journey Optimizer] を使用してジャーニーとキャンペーンでアプリ内メッセージを送信するには、次の設定手順を実行する必要があります。
 
-1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-1. Adobe Experience Platform データ収集データストリームで Adobe Journey Optimizer を有効にし、Adobe Experience Platform のデフォルトの結合ポリシーを確認します。詳細は、[配信の前提条件](#delivery-prerequisites)で詳しく説明しています。
-1. [ この節 ](#channel-prerequisites) で説明しているように、管理/ チャネル / チャネル設定でアプリ内メッセージチャネル設定を作成します。
+1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。キャンペーン権限は引き続き必要です。[詳細情報](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
+1. Adobe Experience Platform データ収集データストリームで Adobe Journey Optimizer を有効にし、Adobe Experience Platform のデフォルトの結合ポリシーを確認します。詳しくは、以下の[配信の前提](#delivery-prerequisites)を参照してください。
+1. 管理／チャネル／チャネル設定でアプリ内メッセージチャネル設定を作成する方法について詳しくは、[この節](#channel-prerequisites)を参照してください。
 1. コンテンツ実験を使用している場合は、[この節](#experiment-prerequisite)に記載されている要件に従ってください。
 
 完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
@@ -54,7 +54,7 @@ ht-degree: 79%
 
 ## アプリ内設定の作成 {#channel-prerequisites}
 
-1. **[!UICONTROL チャネル]**/**[!UICONTROL 一般設定]**/**[!UICONTROL チャネル設定]** メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
+1. **[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
    ![](assets/inapp_config_1.png)
 
@@ -64,11 +64,11 @@ ht-degree: 79%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 設定にカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
 
-1. **[!UICONTROL マーケティングアクション]** を選択し、この設定を使用してメッセージに同意ポリシーを関連付けます。 マーケティングアクションに関連するすべての同意ポリシーは、顧客の環境設定に従って活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、「**[!UICONTROL マーケティングアクション]**」を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
-1. **アプリ内メッセージ** チャネルを選択します。
+1. **アプリ内メッセージ**&#x200B;チャネルを選択します。
 
    ![](assets/inapp_config_9.png)
 
@@ -76,7 +76,7 @@ ht-degree: 79%
 
    ![](assets/inapp_config_10.png)
 
-1. Web 用：
+1. Web の場合：
 
    * **[!UICONTROL ページ URL]** を入力して、特定のページに変更を適用できます。
 
@@ -84,16 +84,16 @@ ht-degree: 79%
 
 +++ ページ一致ルールを作成する方法。
 
-      1. **[!UICONTROL ルールに一致するページ]** をアプリ設定として選択し、**[!UICONTROL ページ URL]** を入力します。
+      1. アプリ設定として「**[!UICONTROL ページ一致ルール]**」を選択し、**[!UICONTROL ページ URL]** を入力します。
 
-      1. **[!UICONTROL 設定ルールを編集]** ウィンドウで、「**[!UICONTROL ドメイン]**」および「**[!UICONTROL ページ]**」フィールドの条件を定義します。
+      1. **[!UICONTROL 設定ルールを編集]**&#x200B;ウィンドウで、「**[!UICONTROL ドメイン]**」フィールドと「**[!UICONTROL ページ]**」フィールドの条件を定義します。
       1. 条件ドロップダウンから、条件をさらにパーソナライズします。
 
          例えば、Luma web サイトのすべての販売製品ページに表示される要素を編集する場合は、ドメイン／次で始まる／Luma およびページ／次を含む／販売を選択します。
 
          ![](assets/in_app_web_surface_4.png)
 
-      1. 必要に応じて、「**[!UICONTROL 別のページルールを追加]**」をクリックして別のルールを作成します。
+      1. 必要に応じて、「**[!UICONTROL 別のページルールを追加]**」をクリックして、別のルールを作成します。
 
       1. **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を選択します。
 
@@ -101,11 +101,11 @@ ht-degree: 79%
 
 +++
 
-1. iOSおよびAndroidの場合：
+1. iOS および Android の場合：
 
    * **[!UICONTROL アプリ ID]** を入力します。
 
-1. 変更内容を送信します。
+1. 変更を送信します。
 
 アプリ内メッセージを作成する際に、設定を選択できるようになりました。
 

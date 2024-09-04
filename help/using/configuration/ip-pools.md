@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, プール, グループ, サブドメイン, 配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 78%
 
 IP プールを作成するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL メール設定]**/**[!UICONTROL IP プール]** メニューにアクセスし、**[!UICONTROL IP プールの作成]** をクリックします。
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL IP プール]**&#x200B;メニューにアクセスし、「**[!UICONTROL IP プールを作成]**」をクリックします。
 
    ![](assets/ip-pool-create.png)
 
@@ -74,7 +74,7 @@ IP プールが作成された後、IP プールのドロップダウンリス�
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-IP プールが作成され、リストに表示されるようになりました。選択してプロパティにアクセスし、関連するチャネル設定（メッセージプリセットなど）を表示することができます。 チャネル設定を IP プールに関連付ける方法について詳しくは、[ この節 ](channel-surfaces.md) を参照してください。
+IP プールが作成され、リストに表示されるようになりました。選択してプロパティにアクセスし、関連するチャネル設定（メッセージプリセットなど）を表示することができます。チャネル設定と IP プールを関連付ける方法について詳しくは、[この節](channel-surfaces.md)を参照してください。
 
 ## IP プールの編集 {#edit-ip-pool}
 
@@ -96,14 +96,14 @@ IP プールを編集するには、次の手順に従います。
 
 1. 変更を保存します。
 
-更新は、IP プールが [ チャネル設定 ](channel-surfaces.md) に関連付けられているかどうかに応じて、直ちにまたは非同期に有効になります。
+更新は、IP プールが[チャネル設定](channel-surfaces.md)に関連付けられているかどうかに応じて、直ちにまたは非同期に有効になります。
 
-* IP プールがチャネル設定に関連付けられて **いない** 場合、更新は直ちに行われます（**[!UICONTROL 成功]** ステータス）。
-* IP プール **が** チャネル設定に関連付けられている場合、更新には最大 3 時間かかることがあります（**[!UICONTROL 処理中]** ステータス）。
+* IP プールがチャネル設定に関連付けられて&#x200B;**いない**&#x200B;場合、更新は直ちに行われます（**[!UICONTROL 成功]**&#x200B;ステータス）。
+* IP プールがチャネル設定に関連付けられて&#x200B;**いる**&#x200B;場合、更新には最大 3 時間かかることがあります（**[!UICONTROL 処理中]**&#x200B;ステータス）。
 
 >[!NOTE]
 >
->[ チャネル設定の作成 ](channel-surfaces.md#create-channel-surface) 時、編集中の IP プール（**[!UICONTROL 処理中]** ステータス）を選択しており、その設定用に選択されたサブドメインに関連付けられていない場合は、設定の作成を続行できません。 [詳細情報](channel-surfaces.md#subdomains-and-ip-pools)
+>[チャネル設定の作成](channel-surfaces.md#create-channel-surface)時、編集中の IP プール（**[!UICONTROL 処理中]**&#x200B;ステータス）を選択しており、その設定用に選択されたサブドメインに関連付けられていない場合は、設定の作成を続行できません。[詳細情報](channel-surfaces.md#subdomains-and-ip-pools)
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。
 

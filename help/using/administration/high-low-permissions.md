@@ -10,9 +10,9 @@ level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -364,7 +364,7 @@ ht-degree: 98%
 
 +++
 
-* 「」という高レベルの権限を持つユーザー **[!DNL Manage messages presets]**、チャネルをまたぐチャネル設定の読み取り、作成、編集、削除をサンドボックスレベルで行うことができます。
+* 「**[!DNL Manage messages presets]**」という高レベルの権限を持つユーザーは、チャネルをまたぐチャネル設定の読み取り、作成、編集および削除をサンドボックスレベルで行うことができます。
 
 +++ これには、次の低レベル権限が含まれます。
 

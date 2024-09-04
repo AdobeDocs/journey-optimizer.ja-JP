@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。 スムーズな移行を確実に行うために、新機能を理解しておくことをお勧めします。 [Journey Optimizerの新しいレポートインターフェイスの概要 ](report-gs-cja.md)
+>現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。[Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ。](report-gs-cja.md)
 
 次の表に、レポートで使用される指標のリストと、配信タイプに応じた定義を示します。
 

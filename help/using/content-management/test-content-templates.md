@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 90%
 
    * これを行うには、「**[!UICONTROL 配達確認を送信]**」ボタンをクリックし、[この節](../content-management/proofs.md)で説明されている手順に従います。
 
-   * 配達確認を送信する前に、コンテンツのテストに使用する [ メール設定 ](../configuration/channel-surfaces.md) を選択する必要があります。
+   * 配達確認を送信する前に、コンテンツのテストに使用する[メール設定](../configuration/channel-surfaces.md)を選択する必要があります。
 
      ![](assets/content-template-stimulate-proof-surface.png)
 

@@ -10,15 +10,15 @@ level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1388'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 同意ポリシーの使用 {#consent-management}
 
-データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer内のデータ操作が、[ データ使用ポリシー ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"} に準拠していることを確認することが重要です。 これらのポリシーは、データに対して実行を許可する [ マーケティングアクション ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"} を定義するAdobe Experience Platform ルールです。
+データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer 内のデータ操作が、[データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}に準拠していることを確認することが重要です。これらのポリシーは、データに対して実行できる[マーケティングアクション](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"}を定義する Adobe Experience Platform ルールです。
 
 使用可能なデータ使用ポリシーの 1 つのタイプは、**同意ポリシー**&#x200B;です。顧客の同意の環境設定に従ってマーケティングポリシーを簡単に採用および実施できます。[詳しくは、ポリシーの適用を参照してください](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=ja){target="_blank"}
 
@@ -34,14 +34,14 @@ ht-degree: 90%
 
    * Adobe **Healthcare Shield** または **Privacy and Security Shield** を使用している場合は、デフォルトのロジックを上書きするカスタム同意ポリシーを作成できます。例えば、オプトインしたすべての個人にのみメールメッセージを送信するポリシーを定義できます。カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
 
-  カスタムポリシーを適用するには、そのポリシーでマーケティングアクションを定義し、チャネル設定に関連付ける必要があります。 [詳細情報](#surface-marketing-actions)
+  カスタムポリシーを適用するには、そのポリシーにマーケティングアクションを定義して、チャネル設定に関連付ける必要があります。[詳細情報](#surface-marketing-actions)
 
 ジャーニーレベルでは、同意ポリシーをカスタムアクションに適用できます。
 
 * **カスタムアクションの設定**&#x200B;時、チャネルとマーケティングアクションを定義できます。[詳細情報](#consent-custom-action)
 * **ジャーニーのカスタムアクション**&#x200B;の追加時に、追加のマーケティングアクションを定義できます。[詳細情報](#consent-journey)
 
-## チャネル設定による同意ポリシーの活用 {#surface-marketing-actions}
+## チャネル設定を介した同意ポリシーの活用 {#surface-marketing-actions}
 
 [!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値はオンボーディングの際に、[こちら](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つに変更できます。
 
@@ -63,7 +63,7 @@ ht-degree: 90%
 
       >[!NOTE]
       >
-      >Adobeが標準で提供するコアマーケティングアクションは、[ この表 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"} に一覧表示されます。 カスタムマーケティングアクションを作成する手順については、[ この節 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"} を参照してください。
+      >アドビが標準で提供するコアマーケティングアクションの一覧については、[この表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"}を参照してください。カスタムマーケティングアクションを作成する手順について詳しくは、[この節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"}を参照してください。
 
    1. マーケティングアクションが適用されたときの動作を選択します。この例では、「**[!UICONTROL メールマーケティングの同意]**」を選択します。
 
@@ -79,7 +79,7 @@ ht-degree: 90%
 
 顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが自動的に活用されます。
 
-したがって、この例では、キャンペーンやジャーニーでその設定を使用する [ メール ](../email/create-email.md) は、メールの受信に同意したプロファイルにのみ送信されます。 メール通信の受信に同意しないプロファイルは除外されます。
+そのため、この例では、キャンペーンまたはジャーニーでこの設定を使用する[メール](../email/create-email.md)は、マーケティング組織からのメールの受信に同意したプロファイルにのみ送信されます。メール通信の受信に同意しないプロファイルは除外されます。
 
 ## カスタムアクションを介した同意ポリシーの活用 {#journey-custom-actions}
 

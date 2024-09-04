@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="編集する URL の確認"
->abstract="上記で定義した web 設定に適用されるコンテンツの編集に使用する特定の web ページの URL を確認します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
+>abstract="上記で定義した web 設定に適用されるコンテンツの編集に使用する特定の web ページの URL を確認します。Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="詳細情報"
 
 >[!CONTEXTUALHELP]
@@ -152,13 +152,13 @@ Web キャンペーンのオーサリングを開始するには、次の手順�
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="参照モードの使用"
->abstract="このモードでは、パーソナライズする設定を選択して、該当するページに移動できます。"
+>abstract="このモードでは、パーソナライズする選択した設定から該当するページに移動できます。"
 
 専用ボタンを使用して、デフォルトの&#x200B;**[!UICONTROL デザイン]**&#x200B;モードから&#x200B;**[!UICONTROL 参照]**&#x200B;モードにスワップします。
 
 ![](assets/web-designer-browse-mode.png)
 
-**[!UICONTROL 参照]** モードでは、パーソナライズする選択した設定から該当するページに移動できます。
+**[!UICONTROL 参照]**&#x200B;モードでは、パーソナライズする選択した設定から該当するページに移動できます。
 
 これは、認証の後のページや、特定の URL で最初から使用できないページを処理する場合に特に便利です。例えば、認証を行い、アカウントページや買い物かごページに移動して、**[!UICONTROL デザイン]**&#x200B;モードに戻り、目的のページで変更を実行できます。
 
