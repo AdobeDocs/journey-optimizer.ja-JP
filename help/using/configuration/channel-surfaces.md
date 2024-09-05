@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
-workflow-type: ht
-source-wordcount: '1721'
-ht-degree: 100%
+source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+workflow-type: tm+mt
+source-wordcount: '1737'
+ht-degree: 99%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 100%
    >
    >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](#monitor-channel-surfaces)を参照してください。
 
-1. チェックが正常に完了すると、チャネル設定のステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;になります。メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
    ![](assets/preset-active.png)
 
@@ -271,10 +271,9 @@ ht-degree: 100%
 
 ![](assets/preset-activate.png)
 
-<!--
-## How-to video{#video-presets}
 
-Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
+## チュートリアルビデオ{#video-presets}
 
->[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
--->
+チャネル設定の概要とAdobe Journey Optimizerでの使用方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
