@@ -11,7 +11,7 @@ keywords: 設定, メール, 設定, サブドメイン
 badge: label="限定提供"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
