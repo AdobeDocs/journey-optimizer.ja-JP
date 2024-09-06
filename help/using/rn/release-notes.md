@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
+source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 85%
@@ -39,6 +39,7 @@ ht-degree: 85%
 <td>
 <p>ガイド付きチャネル設定を使用すると、統合されたエクスペリエンスでチャネル設定を自動化および検証でき、Journey Optimizerを使い始めるプロセスをスピードアップできます。 この新しいガイド付き設定により、迅速なチャネル設定が合理化され、必要なすべてのリソースがExperience Platform、Journey Optimizer、データ収集において容易にインストールされて機能するようになります。 これにより、マーケティング、製品、データエンジニアリングチームは、キャンペーンとジャーニーの作成をすばやく開始できます。</p>
 <p>詳しくは、<a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
 </td>
 </tr>
