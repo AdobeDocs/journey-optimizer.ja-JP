@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
+source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 93%
+source-wordcount: '1520'
+ht-degree: 91%
 
 ---
 
@@ -286,3 +286,45 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >id="ajo_data_governance_policy_violation"
 >title="データガバナンスポリシー違反"
 >abstract="データガバナンスポリシー違反"
+
+<!--APPROVAL POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="承認ポリシー"
+>abstract="承認ポリシー"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="承認をリクエスト"
+>abstract="リクエストの承認（2 つの異なる ID）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="変更を要求"
+>abstract="変更をリクエスト（2 つの異なる ID）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_edit_disabled
+>title="無効な編集"
+>abstract="無効な（キャンペーン）を編集"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_edit_disabled
+>title="無効な編集"
+>abstract="無効な（ジャーニー）を編集"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_approval_status"
+>title="承認ステータス"
+>abstract="承認ステータス（2 つの異なる ID）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_approve"
+>title="承認"
+>abstract="承認（キャンペーン）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_approve"
+>title="承認"
+>abstract="承認（ジャーニー）"
