@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
+source-git-commit: b729bcddda9258fa72999654c094b63fad1be628
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 91%
@@ -305,7 +305,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >abstract="変更をリクエスト（2 つの異なる ID）"
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_edit_disabled
+>id="ajo_campaigns_edit_disabled"
 >title="無効な編集"
 >abstract="無効な（キャンペーン）を編集"
 
