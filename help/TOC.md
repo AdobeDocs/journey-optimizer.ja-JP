@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+workflow-type: tm+mt
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 100%
    + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
++ 配信のテスト {#test}
+   + コンテンツのプレビューとテスト {#preview-test}
+      + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
+      + [テストプロファイルを選択](using/content-management/test-profiles.md)
+      + [コンテンツのプレビュー](using/content-management/preview.md)
+      + [メール配達確認を送信](using/content-management/proofs.md)
+      + [メールのレンダリングをテスト](using/content-management/rendering.md)
+      + [メールスパムレポート](using/content-management/spam-report.md)
 + メールチャネル {#email}
    + [メールの基本を学ぶ](using/email/get-started-email.md)
    + [メールの作成](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 100%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
-   + コンテンツのプレビューとテスト {#preview-test}
-      + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
-      + [テストプロファイルを選択](using/content-management/test-profiles.md)
-      + [コンテンツのプレビュー](using/content-management/preview.md)
-      + [メール配達確認を送信](using/content-management/proofs.md)
-      + [メールのレンダリングをテスト](using/content-management/rendering.md)
-      + [メールスパムレポート](using/content-management/spam-report.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
