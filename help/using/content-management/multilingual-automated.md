@@ -10,14 +10,24 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限定提供" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1328'
-ht-degree: 100%
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 82%
 
 ---
 
 # 自動翻訳を使用した多言語コンテンツの作成 {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="プロバイダーを追加"
+>abstract="必要に応じて、翻訳プロバイダーとロケールを追加します。 これにより、プロジェクトに対してアクティブなプロバイダーとロケールを管理でき、現在の要件とプロジェクトの範囲に基づいてリソースを調整し、オーディエンスをターゲットにする柔軟性が得られます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="プロバイダーを編集"
+>abstract="既存の翻訳プロバイダーを変更し、必要に応じてロケールを追加します。 この機能を使用すると、プロジェクトに対してアクティブになるプロバイダーとロケールを制御でき、現在のニーズとプロジェクトの目標に従って、リソースを調整し、特定のオーディエンスをターゲットにする柔軟性が得られます。"
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ ht-degree: 100%
 
 ## ロケールの作成 {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="ロケールを追加"
+>abstract="言語の環境設定を設定する際に、多言語コンテンツで目的のロケールを使用できない場合は、追加のロケールを作成するオプションがあります。"
+
 [言語設定の作成](#language-settings)の節で説明しているように、言語設定を行う際に、多言語コンテンツに特定のロケールが使用できない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューを使用して必要に応じて新しいロケールを柔軟に作成できます。
 
 1. **[!UICONTROL コンテンツ管理]**&#x200B;メニューから、**[!UICONTROL 翻訳]**&#x200B;にアクセスします。
@@ -54,6 +69,16 @@ ht-degree: 100%
    ![](assets/locale_2.png)
 
 ## 翻訳プロジェクトを作成 {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="プロジェクトを作成"
+>abstract="多言語コンテンツの作成を開始するには、ターゲットロケールを特定し、オーディエンスに適した言語または地域の方言を選択して、翻訳プロジェクトを開始します。 その後、プロジェクトのニーズに合った翻訳プロバイダーを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="プロジェクトを編集"
+>abstract="追加のロケールを組み込むように翻訳プロジェクトを更新して、コンテンツを拡張してより多くのオーディエンスにリーチできるようにします。"
 
 コンテンツの特定の言語または地域を示すターゲットロケールを指定して、翻訳プロジェクトを開始します。その後、翻訳プロバイダーを選択できます。
 
@@ -205,6 +230,11 @@ ht-degree: 100%
 
 ## インソーシング翻訳プロジェクトの管理 {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="翻訳プロジェクトのインソーシング"
+>abstract="翻訳プロジェクトのインソーシングを使用すると、翻訳を管理および翻訳プロジェクト内で直接実行できるので、プロセスが合理化され、翻訳の品質と一貫性をより詳細に制御できます。"
+
 言語設定を指定する際にインソーシングを選択した場合は、翻訳プロジェクトでコンテンツを直接翻訳できます。
 
 1. **[!UICONTROL 翻訳プロジェクト]**&#x200B;から、**[!UICONTROL その他のアクション]**&#x200B;メニューにアクセスし、「**[!UICONTROL インソーシング]**」を選択します。
@@ -222,6 +252,16 @@ ht-degree: 100%
 1. 翻訳したテキストを公開する準備が整ったら、「**[!UICONTROL 完了]**」をクリックします。
 
 ## 翻訳プロジェクトのレビュー {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="翻訳プロジェクトのレビュー"
+>abstract="選択した翻訳プロバイダーが翻訳を完了したら、Journey Optimizer内で直接結果を確認できます。 これにより、翻訳の正確性と品質を評価し、最終処理を行う前に、期待やプロジェクト要件に合わせることができます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="翻訳プロジェクトのプレビュー"
+>abstract="プレビューウィンドウを使用すると、翻訳済みコンテンツが各言語でどのように表示されるかを確認できます。 この機能を使用すると、レンダリングを調べ、選択したすべての言語でコンテンツが正しく効果的に表示されていることを確認できます。"
 
 **[!UICONTROL 翻訳プロジェクト]**&#x200B;で「**[!UICONTROL レビューワークフローを有効にする]**」を選択した場合は、選択した翻訳プロバイダーによる翻訳の完了後に、Journey Optimizer で翻訳を直接レビューできます。
 
