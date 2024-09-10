@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9c6e4647b1c3f0b39ebfaa1711c5c87d0c7168e5
+source-git-commit: ba519e940feb35bc7f708f432a05b20948c487ee
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 91%
+source-wordcount: '1511'
+ht-degree: 92%
 
 ---
 
@@ -297,12 +297,12 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
 >title="承認をリクエスト"
->abstract="リクエストの承認（2 つの異なる ID）"
+>abstract="承認をリクエスト"
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_change"
 >title="変更を要求"
->abstract="変更をリクエスト（2 つの異なる ID）"
+>abstract="変更を要求"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_edit_disabled"
@@ -317,7 +317,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_approval_status"
 >title="承認ステータス"
->abstract="承認ステータス（2 つの異なる ID）"
+>abstract="承認ステータス"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_approve"
