@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -74,59 +74,59 @@ ht-degree: 36%
 
 ## シンプルな指標の作成 {#create-simple-metric}
 
-カスタム計算指標をレポート内に直接作成できます。 特定のレポートニーズに合わせて 2 つの既存の指標を組み合わせることで、よりカスタマイズされたインサイトを生成し、データをより適切に分析できます。
+カスタム計算指標をレポート内に直接作成できます。特定のレポートニーズに合わせて 2 つの既存の指標を組み合わせることで、よりカスタマイズされたインサイトを生成し、データをより適切に分析できます。
 
 1. まず、新しい指標を追加するレポートにアクセスします。
 
-1. レポート内のテーブルで、`Shift` キーまたは `CTRL/CMD` キーを押しながらクリックすることで、目的の指標を選択します。 次に、右クリックして「**[!UICONTROL 選択から指標を作成]**」を選択します。
+1. レポート内のテーブルで、`Shift` キーまたは `CTRL/CMD` キーを押しながらクリックして、必要な指標を選択します。次に、右クリックして「**[!UICONTROL 選択から指標を作成]**」を選択します。
 
-   2 つ以上の指標を選択した場合、最初の 2 つのみが指標ビルダーで使用されます。
+   2 つ以上の指標を選択した場合、指標ビルダーでは最初の 2 つのみが使用されます。
 
    ![](assets/cja-create-metric_2.png)
 
-1. 計算指標ビルダーで、「**[!UICONTROL タイトル]** フィールドにと入力して、新しい指標に名前を付けます。 **[!UICONTROL 説明]** を追加することもできます。
+1. 計算指標ビルダーから、「**[!UICONTROL タイトル]**」フィールドに入力して、新しい指標に名前を付けます。また、**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
    >[!NOTE]
    >
-   >Customer Journey Analyticsを所有している場合は、さらにオプションを追加して、指標をパーソナライズできます。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Customer Journey Analytics を所有する場合は、追加オプションを使用して、指標をさらにパーソナライズできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
-1. 適切な **[!UICONTROL 小数点以下の桁数]** を選択し、指標の表示方法に基づいて **[!UICONTROL 形式]** （小数、時間、パーセント、通貨）を選択します。
+1. 適切な&#x200B;**[!UICONTROL 小数点以下の桁数]**&#x200B;を選択し、目的の指標の表示方法に応じて、**[!UICONTROL 形式]**（小数、時間、割合、通貨）を選択します。
 
-1. 指標の計算方法を決定する演算子（加算、減算、乗算、除算など）を選択します。
+1. 指標の計算方法を決定する加算、減算、乗算、除算などの演算子を選択します。
 
    ![](assets/cja-create-metric.png)
 
 1. 必要に応じて、コンポーネントを並べ替えることができます。
 
-1. 設定に問題がなければ、「**[!UICONTROL 適用]**」をクリックして新しい指標を最終決定します。
+1. 設定に問題がなければ、「**[!UICONTROL 適用]**」をクリックして、新しい指標を確定します。
 
 1. 新しい指標は、レポートの元の指標の横に表示されます。
 
    ![](assets/cja-create-metric_3.png)
 
-新しく作成した指標は、レポートをPDFまたは CSV として書き出す際に含まれます。 ただし、終了するとレポートから削除されます。
+新しく作成した指標は、レポートを PDF または CSV として書き出す際に含まれます。ただし、終了すると、レポートから削除されます。
 
-## 探索的分析によるデータの調査 {#exploratory}
+## 探索的分析によるデータの探索 {#exploratory}
 
-探索的分析ツールを使用すると、選択した **[!UICONTROL Dimension]** および **[!UICONTROL 指標]** からテーブルやビジュアライゼーションを簡単に作成できます。 このツールは、データの調査を合理化し、情報を自動的にカスタマイズして簡単に分析できるようにします。 詳しくは、[このドキュメント](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
+探索的分析ツールを使用すると、選択した&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;からテーブルとビジュアライゼーションを簡単に作成できます。このツールは、データの探索を効率化し、情報を自動的にカスタマイズして、簡単に分析できるようにします。詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
 
 1. まず、探索的分析を使用するレポートにアクセスします。
 
-1. 左側のパネルメニューから「探索的分析」メニューを選択します。
+1. 左側のパネルメニューから探索的分析メニューを選択します。
 
    ![](assets/exploratory_analysis_1.png)
 
-1. ドロップダウンメニューを使用して **[!UICONTROL Dimension]** および **[!UICONTROL 指標]** を選択して、クエリを作成します。 必要に応じて、「**[!UICONTROL セグメント]** を選択することもできます。
+1. ドロップダウンメニューを使用して&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;を選択して、クエリを作成します。必要に応じて、**[!UICONTROL セグメント]**&#x200B;を選択することもできます。
 
    ![](assets/exploratory_analysis_2.png)
 
-1. 分析の日付範囲を定義して、フォーカスする期間を指定します。 デフォルトでは、日付範囲はレポートパネルで使用される日付範囲に設定されます。
+1. 分析の日付範囲を定義して、焦点を当てる期間を指定します。デフォルトでは、日付範囲はレポートパネルで使用される範囲に設定されます。
 
-1. 追加のディメンションを含めるには **[!UICONTROL 分類を追加]** または **[!UICONTROL 指標を追加]** オプションを使用し、より詳細なデータ分類を行うことができます。
+1. 「**[!UICONTROL 分類を追加]**」オプションまたは「**[!UICONTROL 指標を追加]**」オプションを使用して追加のディメンションを含めると、より詳細なデータの分類ができるようになります。
 
-   追加できる **[!UICONTROL 指標、]** Dimension ]**および**[!UICONTROL  セグメント ]**は最大 3 つまでであることに注意して**[!UICONTROL  ださい。
+   追加できる&#x200B;**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**、**[!UICONTROL セグメント]**&#x200B;は最大 3 つまでです。
 
-カスタマイズされたテーブルとビジュアライゼーションツールを使用して、データを分析できるようになりました。
+カスタマイズされたテーブルとビジュアライゼーションツールを使用してデータを分析できるようになりました。
 
 <!--## Create a down-funnel metric {#down-funnel}
 
@@ -143,25 +143,25 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->各組織は、25 人のオーディエンスを公開するように制限されています。 さらに、ユーザーは、1 時間あたり最大 5 人のオーディエンス、1 日あたり最大 20 人のオーディエンスを公開できます
+>各組織では、オーディエンスの公開が 25 個に制限されています。また、ユーザーは 1 時間あたり最大 5 個、1 日あたり最大 20 個のオーディエンスを公開できます。
 
-テーブル内の特定のデータを選択し、これらの選択からオーディエンスを直接作成できるので、オーディエンス作成プロセスを合理化および簡素化できます。
+テーブル内の特定のデータを選択し、これらの選択からオーディエンスを直接作成できるので、オーディエンス作成プロセスが効率化および簡素化されました。
 
 1. まず、オーディエンスに変換するデータを含むレポートテーブルに移動します。
 
 1. 目的のセルを右クリックし、「**[!UICONTROL オーディエンスを作成]**」を選択します。
 
-   または、**[!UICONTROL ジャーニーキャンバス]** ウィジェットからノードを選択して右クリックし、オーディエンスの作成を開始できます。
+   または、ノードを選択して右クリックし、**[!UICONTROL ジャーニーキャンバス]**&#x200B;ウィジェットからオーディエンスの作成を開始することもできます。
 
-1. **[!UICONTROL オーディエンスを作成]** ウィンドウで、**[!UICONTROL 名前]** を入力し、公開するオーディエンスの **[!UICONTROL 1 回限りの日付範囲]** を設定します。
+1. **[!UICONTROL オーディエンスを作成]**&#x200B;ウィンドウで、公開する予定のオーディエンスの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力し、**[!UICONTROL 1 回限りの日付範囲]**&#x200B;を設定します。
 
    >[!NOTE]
    >
-   >Customer Journey Analyticsを所有している場合は、さらにオプションを追加して、指標をパーソナライズできます。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Customer Journey Analytics を所有する場合は、追加オプションを使用して、指標をさらにパーソナライズできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
-1. **[!UICONTROL 作成]** ボタンをクリックして、オーディエンスの作成を最終決定します。 このプロセスは、完了するまでに時間がかかる場合があります。
+1. 「**[!UICONTROL 作成]**」ボタンをクリックして、オーディエンスの作成を完了します。このプロセスは、完了するまでに時間がかかる場合があります。
 
-これで、新しく作成したオーディエンスをジャーニーまたはキャンペーンで使用できます。
+新しく作成したオーディエンスをジャーニーまたはキャンペーンで使用できるようになりました。
 

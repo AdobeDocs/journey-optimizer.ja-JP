@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -26,31 +26,31 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Assurance での検証"
->abstract="Adobe Experience Platform Assurance は、SDK 実装を調べたり、アプリケーションイベントをシミュレートおよび検証したりするのに役立つように、このワークフローに組み込まれています。"
+>abstract="Adobe Experience Platform Assurance は、このワークフローに組み込まれており、SDK 実装の検査や、アプリケーションイベントのシミュレートと検証に役立ちます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance の概要"
 
-この設定により、マーケティングチャネルの迅速な設定が容易になり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成から開始できます。
+この設定により、マーケティングチャネルの迅速な設定が容易になり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
 
-ガイド付きチャネルの設定は、次のプラットフォームとチャネルをサポートしています。
+ガイド付きチャネル設定は、次のプラットフォームとチャネルをサポートしています。
 
-* プラットフォームと SDK:
+* プラットフォームと SDK：
 
-   * スウィフト バイ Apple iOS
+   * Apple の Swift、iOS
 
-   * Android・コトリン
+   * Kotlin、Android
 
-   * Javascript, Web
+   * JavaScript、Web
 
 * チャネル：
 
-   * モバイルのアプリ内
+   * モバイルアプリ内
 
    * モバイルプッシュメッセージ
 
-   * Web Basic
+   * Web 基本
 
 
-設定するプラットフォームごとに、個別の設定を作成する必要があります。 これは、各アプリが一意のチャネル設定を必要とし、これにより各プラットフォームに必要なチャネルを柔軟に決定できるためです。
+設定するプラットフォームごとに、個別の設定を作成する必要があります。これは、各アプリに一意のチャネル設定が必要であり、これにより各プラットフォームに必要なチャネルを柔軟に決定できるからです。
 
 ## 前提条件 {#prereq}
 
@@ -109,29 +109,29 @@ ht-degree: 49%
 
 +++
 
-* 「既存の設定」オプションを使用している場合は、次のAdobe Experience Platform Mobile SDK 拡張機能バージョンを使用していることを確認してください。 必要な依存関係や初期化コードなど、SDK 設定の詳細については、[ 次のドキュメント ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=en) を参照してください。
+* 既存の設定オプションを使用している場合は、次の Adobe Experience Platform Mobile SDK 拡張機能バージョンを使用していることを確認してください。必要な依存関係や初期化コードを含む SDK 設定について詳しくは、[次のドキュメント](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)を参照してください。
 
-  Android用
+  Android の場合
 
    * Mobile Core v3.1.0 以降
    * Adobe Journey Optimizer v3.1.0 以降
 
-  iOS用
+  iOS の場合
 
    * Mobile Core v5.2.0 以降
    * Adobe Journey Optimizer v5.1.1 以降
 
 ## 自動作成されたリソース {#auto-create-resources}
 
-ガイド付きチャネルの設定は、マーケティングチャネルの迅速な設定を簡素化し、すべての重要なリソースをExperience Platform、Journey Optimizerおよび Data Collection アプリで簡単に使用できるようにします。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすばやく開始できます。 自動生成され、ガイド付きチャネル設定の一部として設定されるリソースのリストを以下に示します。
+ガイド付きチャネル設定により、マーケティングチャネルの迅速な設定が簡単になり、Experience Platform、Journey Optimizer およびデータ収集アプリですべての重要なリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。ガイド付きチャネル設定の一部として自動生成および設定されるリソースのリストを以下に示します。
 
-以下のタブを参照して、自動生成されるすべてのリソースの包括的なリストにアクセスします。
+自動生成されるすべてのリソースの包括的なリストにアクセスするには、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB iOS]
 
-**初期設定** については、「**リソースの自動作成**」をクリックすると **設定の詳細** 画面に作成されるすべてのリソースの一覧を以下に示します。
+**初期設定**&#x200B;の場合、「**リソースを自動作成**」をクリックした際に&#x200B;**設定の詳細**&#x200B;画面で作成されるすべてのリソースの包括的なリストを以下に示します。
 
 <table>
   <thead>
@@ -200,7 +200,7 @@ ht-degree: 49%
   </tbody>
   </table>
 
-**チャネル設定** の場合、**チャネルを追加** 画面で作成されたすべてのリソースの包括的なリストを以下に示します。
+**チャネル設定**&#x200B;の場合、**チャネルを追加**&#x200B;画面で作成されるすべてのリソースの包括的なリストを以下に示します。
 
 <table>
   <thead>
@@ -217,7 +217,7 @@ ht-degree: 49%
   <td>
   <ul>
   <li>チャネル設定</li>
-  <li>プッシュ資格情報のアップロード（モバイルプッシュメッセージのみ）</li>
+  <li>プッシュ資格情報をアップロード（モバイルプッシュメッセージのみ）</li>
   </ul>
   </td>
   </tr>
@@ -226,7 +226,7 @@ ht-degree: 49%
 
 >[!TAB Android]
 
-**初期設定** については、「**リソースの自動作成**」をクリックすると **設定の詳細** 画面に作成されるすべてのリソースの一覧を以下に示します。
+**初期設定**&#x200B;の場合、「**リソースを自動作成**」をクリックした際に&#x200B;**設定の詳細**&#x200B;画面で作成されるすべてのリソースの包括的なリストを以下に示します。
 
 <table>
   <thead>
@@ -295,7 +295,7 @@ ht-degree: 49%
   </tbody>
   </table>
 
-**チャネル設定** の場合、**チャネルを追加** 画面で作成されたすべてのリソースの包括的なリストを以下に示します。
+**チャネル設定**&#x200B;の場合、**チャネルを追加**&#x200B;画面で作成されるすべてのリソースの包括的なリストを以下に示します。
 
 <table>
   <thead>
@@ -312,7 +312,7 @@ ht-degree: 49%
   <td>
   <ul>
   <li>チャネル設定</li>
-  <li>プッシュ資格情報のアップロード（モバイルプッシュメッセージのみ）</li>
+  <li>プッシュ資格情報をアップロード（モバイルプッシュメッセージのみ）</li>
   </ul>
   </td>
   </tr>
@@ -321,7 +321,7 @@ ht-degree: 49%
 
 >[!TAB Web]
 
-**初期設定** については、「**リソースの自動作成**」をクリックすると **設定の詳細** 画面に作成されるすべてのリソースの一覧を以下に示します。
+**初期設定**&#x200B;の場合、「**リソースを自動作成**」をクリックした際に&#x200B;**設定の詳細**&#x200B;画面で作成されるすべてのリソースの包括的なリストを以下に示します。
 
 <table>
   <thead>

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1724'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criteria"
->title="ジャーニー終了条件"
+>title="ジャーニー終了基準"
 >abstract="このセクションには、終了基準オプションが表示されます。ジャーニーに 1 つ以上の終了基準ルールを作成できます。"
 
 

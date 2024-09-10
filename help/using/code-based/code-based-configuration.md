@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
 >title="プレビュー URL"
->abstract="このフィールドは、アプリケーション内のデバイスで直接コンテンツのシミュレーションとプレビューを有効にするために不可欠です。"
+>abstract="このフィールドは、アプリケーション内のデバイスでコンテンツのシミュレーションとプレビューを直接有効にするのに不可欠です。"
 
 ## チャネル設定の作成 {#reatte-code-based-configuration}
 
@@ -89,34 +89,34 @@ ht-degree: 82%
    >
    >コードベースのキャンペーンで使用されるサーフェス URI が、独自の実装で使用される URI と一致していることを確認します。一致していない場合、変更は実行されません。
 
-1. **[!UICONTROL プレビュー URL]** フィールドに入力して、オンデバイスプレビューを有効にします。 この URL は、プレビューのトリガー時に使用する特定の URL をプレビューサービスに通知します。
+1. デバイスでのプレビューを有効にするには、「**[!UICONTROL プレビュー URL]**」フィールドに入力します。この URL は、プレビューをトリガーする際に使用する特定の URL をプレビューサービスに通知します。
 
    * Web の場合：
 
       * 単一ページの URL を入力した場合は、その URL がプレビューに使用されます。
-      * ルールに一致するページを選択した場合、ブラウザーでエクスペリエンスのプレビューに使用されるデフォルトのプレビュー URL を入力する必要があります。
+      * ページ一致ルールを選択した場合は、ブラウザーでエクスペリエンスをプレビューするのに使用されるデフォルトのプレビュー URL を入力する必要があります。
 
-   * モバイルプラットフォームの場合（iOS/Android）:
+   * モバイルプラットフォームの場合（iOS／Android）：
 
-      * プレビュー URL は、アプリ内でアプリ開発者が設定したディープリンクです。 これにより、ディープリンクスキームに一致する URL は、モバイル web ブラウザーではなく、アプリ内で開かれます。 アプリ開発者に問い合わせて、アプリに設定されているディープリンクスキームを取得します。
+      * プレビュー URL は、アプリ開発者がアプリ内で設定するディープリンクです。これにより、ディープリンクスキームに一致する URL がモバイル web ブラウザーではなくアプリ内で開かれます。アプリに設定されているディープリンクスキームを取得するには、アプリ開発者にお問い合わせください。
 
-+++  アプリ実装のディープリンクを設定する際には、次のリソースが役立ちます
++++  アプリ実装のディープリンクを設定する際には、次のリソースが役立ちます。
 
-      * Android用：
+      * Android の場合：
 
-         * [ アプリコンテキストへのディープリンクの作成 ](https://developer.android.com/training/app-links/deep-linking)
+         * [アプリコンテキストへのディープリンクの作成](https://developer.android.com/training/app-links/deep-linking)
 
-      * iOS用：
+      * iOS の場合：
 
-         * [ アプリのカスタム URL スキームの定義 ](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+         * [アプリのカスタム URL スキームの定義](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-         * [ アプリ内のユニバーサルリンクのサポート ](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+         * [アプリのユニバーサルリンクのサポート](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
 +++
 
    >[!NOTE]
    >
-   >エクスペリエンスのプレビュー中に問題が発生した場合は、[ このドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link) を参照してください。
+   >エクスペリエンスのプレビュー中に問題が発生した場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)を参照してください。
 
 1. 特定の場所でアプリケーションで想定される形式を選択します。これは、キャンペーンやジャーニーでコードベースのエクスペリエンスを作成する際に使用されます。
 

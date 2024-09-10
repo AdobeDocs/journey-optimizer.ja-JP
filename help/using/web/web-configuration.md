@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -113,13 +113,13 @@ Web 設定は、コンテンツが配信される URL で識別される web プ
     </tr>
     <tr>
         <td>ワイルドカード一致</td>
-        <td>「ワイルドカード一致」演算子を使用すると、パス内に内部ワイルドカード（「/products/*/detail」など）を定義できます。パス ** コンポーネント内のワイルドカード文字 * は、最初の / 文字が検出されるまでの任意の文字シーケンスと一致します。  /*/任意の文字シーケンス （サブパスを含む）に一致</td>
-        <td>例：「Wildcard matching: /products/*/detail」：次のようなすべてのパスに一致します。 <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>例：「次と一致します：/prod*/detail、次のようなすべてのパスと一致します。 <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>次のようなパスと一致しません： <ul><li>example.com/products/yoga/detail</li></ul></td>
+        <td>「ワイルドカード一致」演算子を使用すると、ユーザーは「/products/*/detail」のようにパス内に内部ワイルドカードを定義できます。パス ** コンポーネント内のワイルドカード文字 * は、最初の / 文字が検出されるまでの任意の文字シーケンスと一致します。/*/ は任意の文字列（サブパスを含む）に一致します。</td>
+        <td>例：「Wildcard matching: /products/*/detail」は、次のようなすべてのパスと一致します。<ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>例：「Matches: /prod*/detail」は、次のようなすべてのパスと一致します。<ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>次のようなパスとは一致しません。 <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>次を含む</td>
         <td>「次を含む」は「文字列」のようなワイルドカードに変換され、この文字シーケンスを含むすべてのパスに一致します。</td>
-        <td>例：「Contains: product」。次のように、文字列「product」を含むすべてのパスに一致します。 <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
+        <td>例：「Contains: product」は、次のような文字列「product」を含むすべてのパスと一致します。<ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>
     </tbody>
 </table>
