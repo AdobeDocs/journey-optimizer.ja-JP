@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
+source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,16 @@ ht-degree: 0%
 <p>ガイド付きチャネル設定を使用すると、統合エクスペリエンスでチャネル設定を自動化および検証し、Journey Optimizer の使用を開始するプロセスを高速化できます。この新しいガイド付き設定により、迅速なチャネル設定が効率化され、必要なすべてのリソースがすぐにインストールされ、Experience Platform、Journey Optimizer およびデータ収集内で機能するようになります。これにより、マーケティング、製品、データエンジニアリングの各チームは、キャンペーンとジャーニーの作成をすぐに開始できます。</p>
 <p>詳しくは、<a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
+<p>公開日：9 月 3 日（PT）</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+**ジャーニー**
+
+（公開日：9 月 10 日（PT）） **再試行機能** - エクスポートジョブを取得する際、オーディエンストリガーのジャーニー（**オーディエンスを読み取り** または **ビジネスイベント** で始まる）で、再試行がデフォルトで適用されるようになりました。 エクスポートジョブの作成中にエラーが発生した場合は、10 mn ごとに最大 1 時間の再試行が行われます。 その後は失敗と考えます。 したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。 [詳細情報](../building-journeys/read-audience.md#retries)
 
 ## 2024年8月リリースノート {#8-2024}
 
