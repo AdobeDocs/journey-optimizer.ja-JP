@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 85%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 9 月の更新 {#9-2024}
+## 9月のアップデート {#9-2024}
 
 <table>
 <thead>
@@ -37,7 +37,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>ガイド付きチャネル設定を使用すると、統合されたエクスペリエンスでチャネル設定を自動化および検証でき、Journey Optimizerを使い始めるプロセスをスピードアップできます。 この新しいガイド付き設定により、迅速なチャネル設定が合理化され、必要なすべてのリソースがExperience Platform、Journey Optimizer、データ収集において容易にインストールされて機能するようになります。 これにより、マーケティング、製品、データエンジニアリングチームは、キャンペーンとジャーニーの作成をすばやく開始できます。</p>
+<p>ガイド付きチャネル設定を使用すると、統合エクスペリエンスでチャネル設定を自動化および検証し、Journey Optimizer の使用を開始するプロセスを高速化できます。この新しいガイド付き設定により、迅速なチャネル設定が効率化され、必要なすべてのリソースがすぐにインストールされ、Experience Platform、Journey Optimizer およびデータ収集内で機能するようになります。これにより、マーケティング、製品、データエンジニアリングの各チームは、キャンペーンとジャーニーの作成をすぐに開始できます。</p>
 <p>詳しくは、<a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
@@ -181,10 +181,10 @@ ht-degree: 85%
 
 [Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ](../reports/report-gs-cja.md)
 
-* 新しいレポートエクスペリエンスに新しいユースケースが追加されました。
+* 新しいレポートエクスペリエンスに次の新しいユースケースが追加されました。
 
-   * レポート内で直接カスタム計算指標を作成します。
-   * レポートデータからオーディエンスを作成します。
-   * 探索的分析ツールを使用すると、選択した **[!UICONTROL Dimension]** および **[!UICONTROL 指標]** からテーブルやビジュアライゼーションを簡単に作成できます。
+   * レポート内でカスタム計算指標を直接作成。
+   * レポートデータからオーディエンスを作成。
+   * 探索的分析ツールを使用すると、選択した&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;からテーブルとビジュアライゼーションを簡単に作成できます。
 
   詳しくは、[詳細なドキュメント](../reports/report-cja-manage.md)を参照してください。

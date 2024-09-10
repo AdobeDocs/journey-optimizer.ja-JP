@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,8 +215,8 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="ジャーニーの設定ビューア"
->abstract="ジャーニーの設定ビューア"
+>title="ジャーニーの競合ビューア"
+>abstract="ジャーニーの競合ビューア"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -230,7 +230,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rule_set"
->title="キャンペーンへのルールセットの適用"
+>title="キャンペーンにルールセットを適用"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
@@ -263,12 +263,12 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
 >title="コンポーネントで特定のロックを使用"
->abstract="コンポーネントでの特定ロックの使用"
+>abstract="コンポーネントで特定のロックを使用"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
 >title="編集可能な領域をハイライト表示"
->abstract="編集可能な領域をハイライト"
+>abstract="編集可能な領域をハイライト表示"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
