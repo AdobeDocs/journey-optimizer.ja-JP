@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '376'
-ht-degree: 100%
+source-git-commit: 0bf1b65787eaf4d66964430bf89488fe4f930bfc
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 90%
 
 ---
 
@@ -20,23 +20,16 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 8月リリースが公開されました。]
+>[!TAB ジャーニー最適化ツールの AI アシスタント – コンテンツアクセラレーター ]
 
-Adobe Journey Optimizer 8月リリースに含まれる新機能と機能強化を参照してください。
-
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+機能を直接調べて機能を完全に理解できるように設計されたライブ機能プレビューで、実践的な体験に身を浸してください。
+[![ 詳細情報 ](using/assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB Customer Journey Analytics を使用したレポート（ベータ版）]
 
 Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
-
->[!TAB AI アシスタント]
-
-AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。
-
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
 >[!TAB コンテンツフラグメント]
 

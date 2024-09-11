@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 上位, 下位, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1040'
-ht-degree: 100%
+source-git-commit: a3a0a1515823995e16865bfee9757f995b97c821
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 97%
 
 ---
 
@@ -515,3 +515,13 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
   +++ It includes the following low-level permissions: 
 -->
 
+## AI 支援リソース {#ai-permissions}
+
+* 「」という高レベル **[!DNL Generate content]** 権限を持つユーザーは、Journey Optimizerの AI アシスタントにアクセスしてコンテンツを高速化できます。
+
++++ これには、次の低レベル権限が含まれます。
+
+   * Journey Optimizer 固有：
+      * ai-assistant-generated-content.generate
+
++++
