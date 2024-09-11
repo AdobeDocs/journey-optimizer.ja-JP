@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
+source-git-commit: 15fd327db3753dfec608bd39344d86cabd5df994
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 97%
+source-wordcount: '1531'
+ht-degree: 96%
 
 ---
 
@@ -219,24 +219,38 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >abstract="ジャーニーの競合ビューア"
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_object_type"
+>id="ajo_rule_set_domain"
 >title="オブジェクトタイプ"
 >abstract="オブジェクトタイプ"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_rule_set"
+>id="ajo_journey_capping_rule"
 >title="ジャーニーにルールセットを適用"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_rule_set"
+>id="ajo_rule_set_rule_type"
+>title="ルールタイプ"
+>abstract="ルールタイプ"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="優先順位付けの先読み"
+>abstract="優先順位付けの先読み"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_capping_rule"
 >title="キャンペーンにルールセットを適用"
 >abstract="未定"
+
+<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
 >title="優先順位付けの要因"
 >abstract="未定"
+
+<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
