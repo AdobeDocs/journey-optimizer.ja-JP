@@ -10,7 +10,7 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限定提供" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 60%
@@ -58,7 +58,9 @@ Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立した�
 
    ![](assets/multi-troubleshoot.png)
 
-1. 管理者は、左側のサイドバーの **[!UICONTROL 翻訳]** メニューに移動する必要があります。 翻訳機能が自動的に有効になります。
+1. 管理者は、左側のサイドバーの **[!UICONTROL 翻訳]** メニューに移動する必要があります。
+
+   翻訳機能が自動的に有効になります。
 
 1. この機能が正常に有効になると、「プロジェクト ]**」、「**[!UICONTROL  プロバイダー **[!UICONTROL 、「****ロケール]** の各タブと共に **[!UICONTROL 翻訳]** ページにアクセスできるようになります。
 
