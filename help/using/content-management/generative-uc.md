@@ -7,14 +7,14 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: adfc4b8a4af44486f6df0d7e3dc6922f6d6214fc
+source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 10%
 
 ---
 
-# コンテンツアクセラレーターのユースケース用 AI アシスタント{#generative-uc}
+# コンテンツアクセラレーターのユースケース用 AI アシスタント {#generative-uc}
 
 >[!NOTE]
 >
