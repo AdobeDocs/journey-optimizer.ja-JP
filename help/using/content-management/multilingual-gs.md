@@ -10,7 +10,7 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限定提供" type="Informative"
-source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 60%
@@ -39,7 +39,7 @@ Journey Optimizer を使用すると、次の 2 つの異なる方法で多言�
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
->title="翻訳エラー
+>title="翻訳エラー"
 >abstract="翻訳ページにアクセスできない場合は、翻訳機能が有効になっていないことが原因である可能性があります。 この問題を解決するには、組織とサンドボックス管理者が翻訳機能をアクティベートする必要があります。"
 
 Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立したサードパーティの翻訳サービス（機械翻訳または人間による翻訳）を提供する、翻訳プロバイダーと統合されています。
