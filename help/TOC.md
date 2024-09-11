@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: 17b05590d1518b5cc6aa33a45619c96d6bd4a78e
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1979'
 ht-degree: 98%
 
 ---
@@ -278,11 +278,11 @@ ht-degree: 98%
 + コンテンツ管理 {#content-management}
    + AI アシスタントの操作{#ai-assistant}
       + [AI アシスタントの基本を学ぶ – コンテンツ アクセラレータ](using/content-management/gs-generative.md)
-      + [メールの生成](using/content-management/generative-email.md)
-      + [プッシュの生成](using/content-management/generative-push.md)
-      + [SMS の生成](using/content-management/generative-sms.md)
-      + [Web 生成](using/content-management/generative-web.md)
-      + [AI アシスタントを使用したコンテンツ実験](using/content-management/generative-experimentation.md)
+      + [AI を使用したメール生成](using/content-management/generative-email.md)
+      + [AI を使用したプッシュ生成](using/content-management/generative-push.md)
+      + [AI を使用した SMS 生成](using/content-management/generative-sms.md)
+      + [AI を使用した web 生成](using/content-management/generative-web.md)
+      + [AI を使用したコンテンツ実験](using/content-management/generative-experimentation.md)
       + [AI アシスタントのユースケース ](using/content-management/generative-uc.md)
    + 多言語コンテンツの操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
