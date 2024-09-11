@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
 

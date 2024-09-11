@@ -8,8 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: ht
+exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
+source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -104,4 +105,3 @@ ht-degree: 100%
    ![](assets/guided-setup-config-ios-11.png){zoomable="yes"}
 
 1. これで、必要に応じて設定を更新できます。
-

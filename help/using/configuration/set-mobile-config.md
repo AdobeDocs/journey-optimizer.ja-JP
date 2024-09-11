@@ -10,7 +10,7 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
