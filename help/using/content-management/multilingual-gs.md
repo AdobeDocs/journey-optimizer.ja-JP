@@ -10,10 +10,10 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限定提供" type="Informative"
-source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 60%
 
 ---
 
@@ -37,6 +37,11 @@ Journey Optimizer を使用すると、次の 2 つの異なる方法で多言�
 
 ## 前提条件 {#prerequisites}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_error"
+>title="翻訳エラー
+>abstract="翻訳ページにアクセスできない場合は、翻訳機能が有効になっていないことが原因である可能性があります。 この問題を解決するには、組織とサンドボックス管理者が翻訳機能をアクティベートする必要があります。"
+
 Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立したサードパーティの翻訳サービス（機械翻訳または人間による翻訳）を提供する、翻訳プロバイダーと統合されています。
 
 選択した翻訳プロバイダーを追加する前に、該当するプロバイダーでアカウントを作成する必要があります。
@@ -44,6 +49,22 @@ Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立した�
 翻訳プロバイダーの翻訳サービスを使用した場合、該当するプロバイダーが定める追加の利用条件に同意したと見なされます。Adobe Journey Optimizer ユーザーは、サードパーティソリューションとして、統合を通じて翻訳サービスを利用できます。サードパーティ製品について、アドビは一切関係せず、責任も負いません。
 
 翻訳に関する問題やサポートのリクエストについては、該当する翻訳プロバイダーにお問い合わせください。
+
+翻訳ページにアクセスできない場合は、翻訳機能を有効にする必要があります。
+
++++ 翻訳機能を有効にする方法を説明します
+
+1. 次のエラーページが表示される場合は、**[!UICONTROL 翻訳]** 機能がまだ有効になっていないことを示しています。 組織およびサンドボックス管理者にお問い合わせください。 アクセスをリクエストします。
+
+   ![](assets/multi-troubleshoot.png)
+
+1. 管理者は、左側のサイドバーの **[!UICONTROL 翻訳]** メニューに移動する必要があります。 翻訳機能が自動的に有効になります。
+
+1. この機能が正常に有効になると、「プロジェクト ]**」、「**[!UICONTROL  プロバイダー **[!UICONTROL 、「****ロケール]** の各タブと共に **[!UICONTROL 翻訳]** ページにアクセスできるようになります。
+
+1. この手順が失敗した場合でも、同じエラーページが表示されます。 その場合は、Adobe担当者にお問い合わせください。
+
++++
 
 ## チュートリアルビデオ {#video}
 
