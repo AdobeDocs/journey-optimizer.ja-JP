@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
-workflow-type: ht
-source-wordcount: '1177'
-ht-degree: 100%
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,9 @@ ht-degree: 100%
 
 1. パレットの「**アクション**」セクションで、**メール**、**アプリ内**、**SMS** または **プッシュ**&#x200B;アクティビティをキャンバスに追加します。
 
-1. アクティビティを設定します。 メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
+1. アクティビティを設定します。
+
+   メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ ht-degree: 100%
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>各インバウンドメッセージアクティビティ（アプリ内メッセージ、コードベースのエクスペリエンスまたはカード）には、3 日間 **待機** アクティビティが付属しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## ライブコンテンツの更新{#update-live-content}
 
