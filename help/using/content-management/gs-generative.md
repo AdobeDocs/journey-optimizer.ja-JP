@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '884'
 ht-degree: 44%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 44%
 
 >[!INFO]
 >
->その機能を直接探索し、その機能を完全に理解できるように設計された [ インタラクティブなデモ ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} を使用して、実践的な体験に浸ってください。
+>機能を直接探索して機能を完全に理解できるように設計された [ ライブ機能プレビュー ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} を使用して、実践的な体験に浸ってください。
 
 
 Microsoft Azure OpenAI とAdobe Fireflyを活用したAdobe Journey Optimizerのコンテンツアクセラレーション用 AI アシスタントは、テキストや画像に対するプロアクティブなコンテンツバリエーションの提案を行います。 メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。
