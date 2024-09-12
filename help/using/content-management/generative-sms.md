@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 24561293e744c048dd3f895360a487c8598b0765
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 72%
 
 ---
 
-# Journey Optimizerの AI アシスタントを使用した SMS 生成 – コンテンツアクセラレーター  {#generative-sms}
+# Journey Optimizer コンテンツアクセラレーターの AI アシスタントを使用した SMS 生成  {#generative-sms}
 
 >[!IMPORTANT]
 >

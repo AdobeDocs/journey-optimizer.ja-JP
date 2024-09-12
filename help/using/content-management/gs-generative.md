@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizerの AI アシスタントの基本を学ぶ – コンテンツアクセラレーター
-description: Journey Optimizerの AI アシスタントにアクセスして操作する方法 – コンテンツアクセラレーター
+title: Journey Optimizer コンテンツアクセラレーターにおける AI アシスタントの基本を学ぶ
+description: Journey Optimizer コンテンツアクセラレーターで AI アシスタントにアクセスして操作する方法を学ぶ
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 44%
 
 ---
 
-# AI アシスタントの基本を学ぶ – コンテンツ アクセラレータ {#gs-content-assistant}
+# AI アシスタント コンテンツ アクセラレータの基本を学ぶ {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
