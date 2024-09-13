@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 15fd327db3753dfec608bd39344d86cabd5df994
+source-git-commit: 1637d7616fd504a0b97dba15a93f402fd5528937
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 96%
 
 ---
@@ -354,3 +354,10 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >id="ajo_multi_fallback"
 >title="フォールバック環境設定"
 >abstract="フォールバック環境設定"
+
+<!-- ExD in email-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_enable_experience_decisioning"
+>title="Experience Decisioning の有効化"
+>abstract="Experience Decisioning の有効化"
