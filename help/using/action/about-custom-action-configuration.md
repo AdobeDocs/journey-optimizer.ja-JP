@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 067c990f7f82594418d59c3b1587a62a04799c09
+source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,10 +150,6 @@ Mutual Transport Layer Security（mTLS）を使用して、Adobe Journey Optimiz
 1. 「**[!UICONTROL リクエスト]**」セクションに、外部サービスに送信する JSON ペイロードの例をペーストします。このフィールドはオプションで、POST および PUT 呼び出しメソッドでのみ使用できます。
 
 1. 「**[!UICONTROL 応答]**」セクションに、呼び出しで返されたペイロードの例をペーストします。このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
-
->[!NOTE]
->
->現在、応答機能はベータ版で利用できます。
 
 ![](assets/action-response2bis.png){width="70%" align="left"}
 
