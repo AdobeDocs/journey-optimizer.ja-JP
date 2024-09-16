@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 98%
+source-wordcount: '2010'
+ht-degree: 96%
 
 ---
 
@@ -262,6 +262,14 @@ ht-degree: 98%
    + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
    + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
    + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
++ コンテンツカード（LA） {#content-card}
+   + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
+   + コンテンツカードチャネル {#configure} の設定
+      + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
+      + [Journey Optimizerでのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
+   + [コンテンツカードの作成](using/content-card/create-content-card.md)
+   + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
+   + [コンテンツカードレポート](using/content-card/content-card-report.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
