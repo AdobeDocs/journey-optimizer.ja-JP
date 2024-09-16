@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 83%
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
 ## 9月のアップデート {#9-2024}
+
+>[!IMPORTANT]
+>
+>現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。
+> [Journey Optimizerの新しいレポートインターフェイスの概要 ](../reports/report-gs-cja.md)
 
 <table>
 <thead>
@@ -200,10 +205,6 @@ ht-degree: 83%
 ### その他の変更 {#changes}
 
 **レポート**
-
-* 現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。
-
-[Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ](../reports/report-gs-cja.md)
 
 * 新しいレポートエクスペリエンスに次の新しいユースケースが追加されました。
 
