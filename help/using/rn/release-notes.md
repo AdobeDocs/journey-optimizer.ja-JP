@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
+source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 82%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -71,9 +71,15 @@ ht-degree: 82%
 </tbody>
 </table>
 
+**オーディエンス**
+
+（公開日：9 月 17 日（PT）） **ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。 [詳細情報](../audience/license-usage.md)
+
 **ジャーニー**
 
 （公開日：9 月 10 日（PT）） **再試行機能** - エクスポートジョブを取得する際、オーディエンストリガーのジャーニー（**オーディエンスを読み取り** または **ビジネスイベント** で始まる）で、再試行がデフォルトで適用されるようになりました。 エクスポートジョブの作成中にエラーが発生した場合は、10 mn ごとに最大 1 時間の再試行が行われます。 その後は失敗と考えます。 したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。 [詳細情報](../building-journeys/read-audience.md#retries)
+
+
 
 ## 2024年8月リリースノート {#8-2024}
 
