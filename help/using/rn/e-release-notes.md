@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2d4667d9d2297004905d77f2a8f03fd6758f90f
+source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 41%
+source-wordcount: '1264'
+ht-degree: 40%
 
 ---
 
@@ -187,9 +187,9 @@ ht-degree: 41%
 
 **API**
 
-* [Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) はインタラクティブになりました。 ドキュメントページから直接 API エンドポイントを調べて、すぐにフィードバックを取得し、技術実装を高速化します。
+* [Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} はインタラクティブになりました。 ドキュメントページから直接 API エンドポイントを調べて、すぐにフィードバックを取得し、技術実装を高速化します。
 
-  すべての API リファレンスページに、ドキュメント web サイトページで API 呼び出しを直接テストするために使用できる **試す** 機能が追加されました。 [ 必要な認証資格情報を取得 ](/help/landing/api-authentication.md) し、機能の使用を開始して API エンドポイントを探索します。
+  すべての API リファレンスページに、ドキュメント web サイトページで API 呼び出しを直接テストするために使用できる **試す** 機能が追加されました。 [ 必要な認証資格情報を取得 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} し、機能の使用を開始して API エンドポイントを探索します。
 
   この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即座にフィードバックを取得し、技術実装を高速化します。
 
@@ -198,5 +198,5 @@ ht-degree: 41%
   >ドキュメントページでインタラクティブ API 機能を使用すると、エンドポイントに対して実際の API 呼び出しを行うことになります。 実稼動用サンドボックスを使用して実験する際は、このことに注意してください。
 
 
-* **Campaign Simulation API** – この API を使用して、キャンペーンのプルーフジョブをトリガーします。 キャンペーンの配達確認の送信は非同期プロセスであり、API は proofJobId を返します。これを使用して、配達確認のステータスを確認できます。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)
+* **Campaign Simulation API** – この API を使用して、キャンペーンのプルーフジョブをトリガーします。 キャンペーンの配達確認の送信は非同期プロセスであり、API は proofJobId を返します。これを使用して、配達確認のステータスを確認できます。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
