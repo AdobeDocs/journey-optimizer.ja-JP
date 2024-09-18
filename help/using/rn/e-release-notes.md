@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
+source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 40%
 
 * [Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} はインタラクティブになりました。 ドキュメントページから直接 API エンドポイントを調べて、すぐにフィードバックを取得し、技術実装を高速化します。
 
-  すべての API リファレンスページに、ドキュメント web サイトページで API 呼び出しを直接テストするために使用できる **試す** 機能が追加されました。 [ 必要な認証資格情報を取得 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} し、機能の使用を開始して API エンドポイントを探索します。
+  すべての API リファレンスページに、ドキュメント web サイトページで API 呼び出しを直接テストするために使用できる **試す** 機能が追加されました。 [ 必要な認証資格情報を取得 ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} し、機能の使用を開始して API エンドポイントを探索します。
 
   この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即座にフィードバックを取得し、技術実装を高速化します。
 
