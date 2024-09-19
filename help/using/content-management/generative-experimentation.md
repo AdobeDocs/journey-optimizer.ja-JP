@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer コンテンツアクセラレーターの AI アシスタントを使用したコンテンツ実験
-description: コンテンツを高速化するために、Journey Optimizerの AI アシスタントを使用してコンテンツを実験
+description: コンテンツアクセラレーションに対する Journey Optimizer の AI アシスタントによるコンテンツ実験
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 64%
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 64%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->コンテンツアクセラレーションのためにJourney Optimizerで AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>コンテンツアクセラレーションに対して Journey Optimizer の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-メッセージを作成してパーソナライズしたら、コンテンツ実験機能を含む、Adobe Journey Optimizerのコンテンツアクセラレーション用 AI アシスタントを使用してコンテンツを強化します。 このツールを使用すると、コンテンツを変えて複数の配信処理を定義して、ターゲットオーディエンスのパフォーマンスを測定できます。
+メッセージを作成しパーソナライズしたら、コンテンツ実験機能を含むコンテンツアクセラレーションに Adobe Journey Optimizer の AI アシスタントを使用してコンテンツを強化します。このツールを使用すると、コンテンツを変えて複数の配信処理を定義して、ターゲットオーディエンスのパフォーマンスを測定できます。
 
-1. キャンペーンを作成し、コンテンツアクセラレーション用 AI アシスタントを使用してバリアントを生成します。
+1. キャンペーンを作成し、コンテンツアクセラレーションに AI アシスタントを使用してバリアントを生成します。
 
    この例では、プロモーションコードを含んだ購読確認メールを生成しました。
 
@@ -40,7 +40,7 @@ ht-degree: 64%
 
 1. 実験に含めるバリエーションを選択します。
 
-1. **実験に追加** をクリックします。
+1. 「**実験に追加**」をクリックします。
 
    ![](assets/experiment-genai-3.png)
 

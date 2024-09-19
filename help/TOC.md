@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -291,7 +291,7 @@ ht-degree: 96%
       + [AI を使用した SMS 生成](using/content-management/generative-sms.md)
       + [AI を使用した web 生成](using/content-management/generative-web.md)
       + [AI を使用したコンテンツ実験](using/content-management/generative-experimentation.md)
-      + [AI アシスタントのユースケース ](using/content-management/generative-uc.md)
+      + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
    + 多言語コンテンツの操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)

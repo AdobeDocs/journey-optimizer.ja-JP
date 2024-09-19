@@ -24,7 +24,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 ✨ [AI アシスタント コンテンツ アクセラレータ ](../help/using/content-management/gs-generative.md) の機能を直接調べて、その機能を完全に理解できるように設計されたライブ機能のプレビューで、実践的な体験に身を浸してください。
 
-[![ 詳細情報 ](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Customer Journey Analytics を使用したレポート（ベータ版）]
 
