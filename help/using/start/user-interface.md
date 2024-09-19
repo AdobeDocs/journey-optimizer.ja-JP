@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1591'
 ht-degree: 95%
 
 ---
@@ -299,7 +299,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="データガバナンスポリシー違反"
->abstract="データガバナンスポリシー違反"
+>abstract="制限されたフィールドがジャーニー/キャンペーンやカスタムアクションで特定されると、エラーが表示され、公開できません。 このダイアログのデータ系列図を使用して、ジャーニーまたはキャンペーンをアクティブ化する前に行う必要がある他の設定変更を理解します。"
 
 <!--APPROVAL POLICIES-->
 
@@ -315,17 +315,17 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_change"
->title="変更を要求"
->abstract="変更を要求"
+>title="変更をリクエスト"
+>abstract="変更をリクエスト"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_edit_disabled"
->title="無効な編集"
+>title="無効化を編集"
 >abstract="無効な（キャンペーン）を編集"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_edit_disabled"
->title="無効な編集"
+>title="無効化を編集"
 >abstract="無効な（ジャーニー）を編集"
 
 >[!CONTEXTUALHELP]
