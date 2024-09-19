@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 41%
+source-wordcount: '907'
+ht-degree: 45%
 
 ---
 
@@ -29,23 +29,21 @@ ht-degree: 41%
 
 このリリースでは、以下に示す新機能が導入されています。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>モバイルアプリおよび web サイトのコンテンツカード</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>コンテンツカードは、Adobe Journey Optimizerの新しいデジタルメッセージ機能で、パーソナライズされた魅力的なコンテンツをモバイルアプリや web サイト内で直接配信します。 従来のプッシュ通知とは異なり、コンテンツカードはユーザーインターフェイスにシームレスに統合され、ユーザーのインタラクションとエクスペリエンスを向上させる、永続的で非割り込み型の更新を提供します。</p>
-<p>この機能により、マーケターは、関連性の高いリッチメディアコンテンツをユーザーに提示し、エンゲージメントを向上させ、ユーザージャーニーを中断することなく重要なメッセージを確実に確認できるようにします。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ ht-degree: 41%
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーでのコードベースのエクスペリエンス</strong><br/></th>
+<th><strong>ジャーニーのグローバル終了条件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>コードベースのエクスペリエンスチャネルを使用すると、Adobe Journey Optimizerは、任意のインバウンドプロパティに対して高度なパーソナライズとテストを行い、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、テレビ接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントにわたってカスタマイズされたエクスペリエンスをシームレスに配信できます。 コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
-<p>詳しくは、<a href="../code-based/get-started-code-based.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ジャーニーの終了条件ルールを定義して組み合わせることができるようになりました。</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ ht-degree: 41%
 **オーディエンス**
 
 * カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドアドオンで使用できるようになりました。
-* カスタムアップロード（CSV ファイル）オーディエンスをターゲティングする際に、キャンペーンとジャーニーでファイルの属性を使用できるようになりました。これらの属性は、メッセージをパーソナライズするためのパーソナライゼーションエディターと、ジャーニーの高度な式エディターで使用できます。
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * （公開日：9 月 17 日（PT）） **ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。 [詳細情報](../audience/license-usage.md)
 
 **データガバナンス**
 
 * ジャーニー内のカスタムアクションに加えて、Journey Optimizer チャネルにデータガバナンスポリシーを適用できるようになりました。 この機能強化により、マーケティングアクションをチャネル設定内に直接適用することで、コミュニケーションでの機密フィールドの使用を防ぐことができます。
 
+<!--
+**Frequency and priority management**
 
-**頻度・優先度管理**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **キャンペーンまたはジャーニー別のフリークエンシーキャップ** - ジャーニーに適用する頻度ルールを作成できるようになりました。1 日、1 週間または 1 か月あたりのジャーニー数を制限し、同時に実行する同時ジャーニーの数を制御できます。
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **優先度スコア** - キャンペーンまたはジャーニーに 0 ～ 100 の範囲で優先度スコアを割り当てることができるようになりました。 数値が大きいほど、優先度が高くなります。2 つのキャンペーンまたはジャーニーが同じサーフェスを使用する場合、Journey Optimizerは優先度スコアが最も高いキャンペーンまたはジャーニーを選択します。 キャンペーンのスコアが同じ場合は、最近変更されたキャンペーンが選択されます。 優先度スコアは、キャンペーンのすべてのインバウンドチャネルと、ジャーニーのアプリ内チャネルで使用できます。
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **競合の表示** - ジャーニーとキャンペーンの新しい **競合の表示** ボタンでは、開始日、ターゲットオーディエンス、選択したチャネル設定など、他のジャーニーやキャンペーンと重複する可能性がある場合はいつでも確認できるようになりました。
 
 **ジャーニー**
-
-* **グローバル終了条件** - ジャーニーの終了条件ルールを定義し、組み合わせることができるようになりました。
 
 * **ライブジャーニーの最大数** - Journey Optimizerには、100 個ではなく 500 個のライブジャーニーのガードレールが実稼動サンドボックスに追加されました。 ライブジャーニーの数は、ジャーニーキャンバスに表示されます。
 
