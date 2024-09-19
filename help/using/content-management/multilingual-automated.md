@@ -11,7 +11,7 @@ keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限定提供" type="Informative"
 source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
 ht-degree: 100%
 
