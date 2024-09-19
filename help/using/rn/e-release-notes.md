@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 45%
+source-wordcount: '956'
+ht-degree: 47%
 
 ---
 
@@ -193,6 +193,7 @@ ht-degree: 45%
 **メールチャネル**
 
 * **BCC メッセージヘッダー** – すべてのメールメッセージに新しいヘッダーが追加されました。 このヘッダーの値は、送信された各メールと、対応する BCC メールコピーに対して一意です。 このヘッダーは、メッセージおよび BCC フィードバックデータセットにも保存され、BCC コピーと対応する送信済みメール情報を調整できます。
+* **スパムのスコア付け** （GA） – 専用のスパムレポートでコンテンツスパムのスコア付けを確認できるようになりました。 Adobe Journey Optimizer では、SpamAssassin を使用してメールコンテンツをテストし、ISP またはメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。[詳細情報](../content-management/spam-report.md)
 
 **SMS チャネル**
 
