@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
+source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '696'
+ht-degree: 86%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 <listExpression>.all(<condition>)
 ```
 
-例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
+例えば、すべてのアプリユーザーの中から、IOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。 この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
 「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
 
@@ -236,10 +236,14 @@ _`<listExpression>`.at(`<index>`)_
 
 **その他の例**
 
+この式は、SKU 値に基づいて製品名を返します。 これらの製品のリストはイベントリストに含まれ、条件はイベント ID になります。
+
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
+
+この式は、イベントタイプが「productListAdds」で、合計価格が 150 以上である、コマースイベントの製品リスト内の最後の製品名を取得します。
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
