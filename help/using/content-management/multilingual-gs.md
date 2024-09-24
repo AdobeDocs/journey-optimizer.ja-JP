@@ -10,14 +10,19 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限定提供" type="Informative"
-source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 92%
 
 ---
 
 # 多言語コンテンツの基本を学ぶ {#multilingual-gs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_homepage"
+>title="翻訳"
+>abstract="多言語機能を使用すると、1 つのキャンペーンまたはジャーニー内で、複数の言語のコンテンツを簡単に作成できます。 翻訳ページでは、プロジェクトを設定したり、翻訳プロバイダーを選択したり、ロケール固有の辞書を管理したりできます"
 
 >[!AVAILABILITY]
 >
