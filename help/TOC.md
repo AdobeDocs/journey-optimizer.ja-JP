@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2020'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 96%
 + 配信のテスト {#test}
    + [競合管理と優先順位付け](using/test-approve/conflict-prioritization.md)
    + コンテンツのプレビューとテスト {#preview-test}
-      + [カスタムプロファイルを使用したコンテンツのテスト](using/test-approve/test-custom-profiles.md)
+      + [サンプル入力データを使用したコンテンツのテスト](using/test-approve/simulate-sample-input.md)
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
       + [テストプロファイルを選択](using/content-management/test-profiles.md)
       + [コンテンツのプレビュー](using/content-management/preview.md)
