@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="ベータ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 854a1398e1619f75c201b79e957088a1b6fef0d2
+source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="サンプル入力を使用してシミュレート"
->abstract="この画面では、CSV テンプレート（CSV をダウンロード）を使用してパーソナライゼーションフィールドの値を指定するか、値を手動で入力することで、メールコンテンツの様々なバリアントをテストできます。
+>abstract="この画面では、CSV テンプレート（CSV をダウンロード）を使用してパーソナライゼーションフィールドの値を指定するか、値を手動で入力することで、メールコンテンツの様々なバリアントをテストできます。"
 
 >[!AVAILABILITY]
 >
