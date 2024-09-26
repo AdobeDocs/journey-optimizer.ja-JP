@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -339,5 +339,5 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Experience Decisioning の有効化"
->abstract="Experience Decisioning の有効化"
+>title="エクスペリエンス決定を有効化"
+>abstract="エクスペリエンス決定を有効化"
