@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 53b33a97a8361d1d9579ccd2111e02a263a0aa37
+source-git-commit: b89bb9791d8b8e34a598b1044c495a439f6107b4
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 66%
@@ -104,7 +104,6 @@ ht-degree: 66%
 <td>
 <p>次に、ジャーニーレベルで終了条件を定義します。 終了条件を追加すると、イベント（例：購入）が発生した直後やオーディエンスに適合した直後に、プロファイルをジャーニーから離脱させることができます。 これにより、ユーザーはジャーニーからそれ以上の通信を受け取ることができません。</p>
 <p>詳しくは、<a href="../building-journeys/journey-properties.md">詳細なドキュメント</a>を参照してください。</p>
-<img src="assets/do-not-localize/ai-content.gif" /-->
 </td>
 </tr>
 </tbody>
