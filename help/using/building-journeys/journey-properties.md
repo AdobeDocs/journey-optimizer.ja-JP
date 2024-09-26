@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 78%
@@ -66,7 +66,7 @@ ht-degree: 78%
 ### 再エントリ待機期間  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_reentrance_wait"
+>id="ajo_journey_properties_re-entrance_wait"
 >title="再エントリ待機期間"
 >abstract="単一のジャーニー内でプロファイルがジャーニーに再度エントリできるようになるまでの、待機時間を設定します。 これにより、選択した期間、ユーザーがジャーニーに再エントリするのを防ぎます。 最大期間：90 日。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
