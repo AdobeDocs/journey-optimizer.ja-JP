@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: サンプル入力データを使用したコンテンツのテスト
-description: サンプル入力を使用してメールコンテンツをプレビューし、配達確認を送信する方法を説明します。
+description: サンプルの入力データを使用して、メールコンテンツをプレビューし、配達確認を送信する方法を説明します。
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="ベータ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -50,9 +50,6 @@ ht-degree: 1%
 * 現在のエクスペリエンスでは、受信ボックスレンダリング、スパムレポート、多言語コンテンツ、コンテンツ実験の機能は使用できません。 これらの機能を使用するには、コンテンツから「**[!UICONTROL コンテンツをシミュレート]**」ボタンを選択して、以前のユーザーインターフェイスにアクセスします。
 * 現在、プロファイル属性のみがサポートされています。 コンテンツでパーソナライゼーションにコンテキスト属性が使用されている場合、これらの属性を使用してコンテンツをテストすることはできません。
 * バリアントのデータを入力する際には、数値（整数および小数）、文字列、ブール、日付タイプのデータタイプのみがサポートされます。 その他のデータタイプの場合は、エラーが表示されます。
-
-
-acrite からではない
 
 ## バリアントを追加 {#profiles}
 
