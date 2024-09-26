@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 64%
+source-wordcount: '1571'
+ht-degree: 66%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 64%
 
 **ジャーニー**
 
-* **ライブジャーニーの最大数** - Journey Optimizerには、100 個ではなく 500 個のライブジャーニーのガードレールが実稼動サンドボックスに追加されました。 ライブジャーニーの数は、ジャーニーキャンバスに表示されます。 ジャーニーガードレールについて詳しくは、[ このページ ](../start/guardrails.md#journeys-guardrails) を参照してください
+<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
 * **ライブレポートの機能強化** - ライブレポートは、過去 24 時間のジャーニーのパフォーマンスに関するインサイトを提供します。 新しい指標（誤ってエントリ、離脱、破棄されたプロファイルやプロファイル）を追加することで機能強化を行い、ジャーニーキャンバスから直接、ユーザーの行動やパフォーマンスをより深く理解できるようになりました。 [詳細情報](../building-journeys/report-journey.md)
 
