@@ -5,30 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="限定提供" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 71%
+source-wordcount: '595'
+ht-degree: 74%
 
 ---
 
 # コンテンツカードの設定 {#content-card-configuration}
-
->[!BEGINSHADEBOX]
-
-**目次**
-
-* [コンテンツカードの基本を学ぶ](get-started-content-card.md)
-* [コンテンツカードの前提条件](content-card-configuration-prereq.md)
-* **コンテンツカードチャネルの設定**
-* [コンテンツカードの作成](create-content-card.md)
-* [コンテンツカードのデザイン](design-content-card.md)
-* [コンテンツカードレポート](content-card-report.md)
-
->[!ENDSHADEBOX]
 
 ## 設定とは {#surface-definition}
 

@@ -4,34 +4,14 @@ description: コンテンツカードのコンテンツをデザインする方�
 topic: Content Management
 role: User
 level: Beginner
-badge: label="限定提供" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 18%
+source-wordcount: '511'
+ht-degree: 17%
 
 ---
 
 # コンテンツカードのコンテンツのデザイン {#design-content-card}
-
->[!BEGINSHADEBOX]
-
-**目次**
-
-* [コンテンツカードの基本を学ぶ](get-started-content-card.md)
-* [コンテンツカードの前提条件](content-card-configuration-prereq.md)
-* [Journey Optimizerでのコンテンツカードチャネルの設定](content-card-configuration.md)
-* [コンテンツカードの作成](create-content-card.md)
-* **コンテンツカードのデザイン**
-* [コンテンツカードレポート](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->コンテンツカードは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 カードのオーサリング構造は、マーケターに基本入力を提供するフォームベースのオーサリングエクスペリエンスを提供します。この入力は開発者がレンダリングするために使用できます。
 

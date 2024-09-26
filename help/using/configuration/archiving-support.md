@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1132'
-ht-degree: 100%
+source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 84%
 
 ---
 
@@ -119,9 +119,9 @@ GDPR などの規制では、データ主体はいつでも同意を変更でき
 
 BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。ただし、その情報は、**[!UICONTROL AJO BCC フィードバックイベントデータセット]**&#x200B;と呼ばれるシステムデータセットに保存されます。このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
 
-このデータセットには、ユーザーインターフェイスからアクセスできます。**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択し、フィルターの「**[!UICONTROL システムデータセットを表示]**」トグルを有効にして、システム生成データセットを表示します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)で説明しています。
+ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**/**[!UICONTROL データセット]**/**[!UICONTROL 参照]** を選択します。 データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)で説明しています。
 
-![](assets/preset-bcc-dataset.png)
+<!--![](assets/preset-bcc-dataset.png)-->
 
 このデータセットに対してクエリを実行するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}で提供されるクエリエディターを使用することができます。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
 
@@ -223,3 +223,65 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```
+
+### メッセージヘッダーを使用して BCC のコピーと送信済みメール情報を紐付け {#bcc-header}
+
+例えば、メールの BCC コピーが外部システムにアーカイブされている場合、メッセージに含まれるヘッダーを使用して、対応する送信済みメールに関する情報を取得できます。
+
+すべてのメールメッセージに、`x-message-profile-id` というヘッダーが含まれるようになりました。 このヘッダーの値は、プロファイルごとに異なります。これは、送信された各メールと、対応する BCC メールコピーに対して一意です。
+
+また、`x-message-profile-id` ヘッダーは、[AJO メッセージフィードバックイベントデータセット ](../data/datasets-query-examples.md#message-feedback-event-dataset) （送信済みメール）および [AJO BCC フィードバックイベントデータセット ](#bcc-reporting) （BCC コピー）のシステムデータセットにも保存されます。 これらのデータセットに対してクエリを実行して、BCC コピーと対応する実際のメールを紐付けることができます。
+
+* ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**/**[!UICONTROL データセット]**/**[!UICONTROL 参照]** を選択します。 データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)で説明しています。
+
+* [Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} で提供されるクエリエディターを使用します。 これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
+
+以下に、BCC コピーに対応する情報を取得するために実行できるサンプルクエリを示します。
+
+**クエリ 1**
+
+BCC イベントを、キャンペーンアクションの詳細を含む実際のメールに対応するフィードバックイベントに関連付けるには：
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignID AS CampaignID,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignActionID AS CampaignActionID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```
+
+**クエリ 2**
+
+BCC イベントを、ジャーニーアクションの詳細を含む実際のメールに対応するフィードバックイベントに関連付けるには：
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionInstanceID AS JourneyVersionInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```

@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -50,9 +50,14 @@ Adobe Journey Optimizer は、ID サービスを利用してプロファイル�
 
 * ジャーニーを公開すると、最大のスループットと安定性を確保するために、Journey Optimizer により自動的にスケールと調整が行われます。サンドボックス内で一度に 100 個のライブジャーニーのマイルストーンに近づくと、この達成に関するインターフェイスにオレンジ色のオーバーレイと警告記号が表示されます。この通知が表示され、一度に 100 のライブジャーニーを超えてジャーニーを拡張する必要がある場合は、カスタマーケアのチケットを作成してください。アドビが目標の達成をお手伝いします。
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 採用できるベストプラクティスは数多くありますが、これはガードレール内に留まり、システムを効率的に使用するのに役立ちます。
 
-* ライブジャーニーの制限に近づいている場合は、最初に実行できる手順は&#x200B;**ジャーニー**&#x200B;の下にある「**概要**」タブに移動して、過去 24 時間以内にアクティブであったジャーニ（アクティブなプロファイルを持つジャーニー）の数を確認することです。このセクションでは、ジャーニーにエントリまたは離脱するプロファイル数を確認して判断できます。
+* ライブジャーニーの制限に近づいている場合、最初に実行できる手順は、**ジャーニーの** 概要 **タブに移動して、アクティブなプロファイルを持つ過去 24 時間のジャーニー内でアクティブだったジャーニーの数を確認することです。** このセクションでは、ジャーニーにエントリまたは離脱するプロファイル数を確認して判断できます。
 
   ![](assets/journey-guardrails2.png)
 

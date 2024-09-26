@@ -5,21 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="限定提供" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 4%
+source-wordcount: '485'
+ht-degree: 2%
 
 ---
 
 # Web SDK でのコンテンツカードのサポートの設定 {#content-card-configuration-sdk}
-
->[!AVAILABILITY]
->
->コンテンツカードは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 このサンプルでは、Adobe Experience Platformを使用してAdobe Journey Optimizer（AJO）からコンテンツカードを取得する方法を示します。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) を利用すると、パーソナライゼーションコンテンツが取得され、完全にクライアントサイドでレンダリングされます。
 

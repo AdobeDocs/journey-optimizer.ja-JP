@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b86a459681cda66596e0658b9f703185821aceea
+source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 92%
+source-wordcount: '1566'
+ht-degree: 89%
 
 ---
 
@@ -149,7 +149,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 以下に説明するように、ペイロードパラメーターを定義できます。
 
-1. 「**[!UICONTROL リクエスト]**」セクションに、外部サービスに送信する JSON ペイロードの例をペーストします。このフィールドはオプションで、POST および PUT 呼び出しメソッドでのみ使用できます。
+1. 「**[!UICONTROL リクエスト]**」セクションに、外部サービスに送信する JSON ペイロードの例をペーストします。このフィールドはオプションで、POSTおよびPUT呼び出しメソッドでのみ使用できます。<!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
 
 1. 「**[!UICONTROL 応答]**」セクションに、呼び出しで返されたペイロードの例をペーストします。このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
 
@@ -157,7 +157,8 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 >[!NOTE]
 >
->ペイロード例に null 値を含めることはできません。ペイロード内のフィールド名に「.」を含めることはできません。文字。文字「$」で始めることはできません。
+>ペイロード内のフィールド名に「.」を含めることはできません。文字。文字「$」で始めることはできません。
+>
 
 ![](assets/customactionpayloadmessage2.png)
 
@@ -171,3 +172,9 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
    * **変数**&#x200B;は、パラメーターの値が変化することを意味します。ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値をどこから取得するか（例：イベント、Adobe Experience Platformなど）を指定したりすることが自由にできます。 この場合、定数／変数トグルの右側にあるフィールドは、マーケターがこのパラメーターに名前を付ける際にジャーニーで表示されるラベルです。
 
+<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+
+>[!NOTE]
+>
+>Null 値を許可しながらオプションパラメーターを設定すると、ジャーニー実務担当者によって入力されなかったパラメーターは Null として送信されます。
+>

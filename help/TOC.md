@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 96%
+source-wordcount: '2042'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 96%
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのシミュレート](using/building-journeys/journey-simulation.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
+      + [ジャーニーのライブレポート](using/building-journeys/report-journey.md)
    + ジャーニーの管理{#manage-journey}
       + [プロファイルエントリ管理](using/building-journeys/entry-management.md)
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
@@ -174,7 +175,7 @@ ht-degree: 96%
    + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
-+ 配信のテスト {#test}
++ {#test} のテストと承認
    + [競合管理と優先順位付け](using/test-approve/conflict-prioritization.md)
    + コンテンツのプレビューとテスト {#preview-test}
       + [サンプル入力データを使用したコンテンツのテスト](using/test-approve/simulate-sample-input.md)
@@ -184,6 +185,11 @@ ht-degree: 96%
       + [メール配達確認を送信](using/content-management/proofs.md)
       + [メールのレンダリングをテスト](using/content-management/rendering.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
+   + ジャーニーとキャンペーンの承認 {#approve}
+      + [承認の概要](using/test-approve/gs-approval.md)
+      + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
+      + [承認をリクエスト](using/test-approve/request-approval.md)
+      + [リクエストを承認](using/test-approve/review-approve-request.md)
 + メールチャネル {#email}
    + [メールの基本を学ぶ](using/email/get-started-email.md)
    + [メールの作成](using/email/create-email.md)
@@ -264,14 +270,13 @@ ht-degree: 96%
    + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
    + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
    + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
-+ コンテンツカード（LA） {#content-card}
++ コンテンツカード {#content-card}
    + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
    + コンテンツカードチャネル {#configure} の設定
       + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
       + [Journey Optimizerでのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
    + [コンテンツカードの作成](using/content-card/create-content-card.md)
    + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
-   + [コンテンツカードレポート](using/content-card/content-card-report.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
@@ -287,7 +292,7 @@ ht-degree: 96%
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
    + AI アシスタントの操作{#ai-assistant}
-      + [AI アシスタント コンテンツ アクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
+      + [AI アシスタントコンテンツアクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI を使用したメール生成](using/content-management/generative-email.md)
       + [AI を使用したプッシュ生成](using/content-management/generative-push.md)
       + [AI を使用した SMS 生成](using/content-management/generative-sms.md)
@@ -648,6 +653,7 @@ ht-degree: 96%
          + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
          + [Marketo Engage との統合](using/action/marketo-engage.md)
    + [ソース](using/start/get-started-sources.md)
+   + [別のサンドボックスへのオブジェクトの書き出し](using/configuration/copy-objects-to-sandbox.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
       + [ユーザー管理の基本を学ぶ](using/administration/permissions-overview.md)

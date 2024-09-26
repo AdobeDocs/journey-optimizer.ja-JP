@@ -6,13 +6,13 @@ description: コンテンツテンプレートへのアクセスと管理の方�
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 75%
 
 ---
-
 
 # コンテンツテンプレートへのアクセスと管理 {#access-manage-templates}
 
@@ -63,3 +63,9 @@ ht-degree: 100%
 >現在、適切なサムネールは HTML タイプのメールコンテンツテンプレートに対してのみ生成できます。
 
 コンテンツを更新する場合、変更がサムネールに反映されるまでに数秒待つ必要がある場合があります。
+
+## 別のサンドボックスへのコンテンツテンプレートの書き出し {#export}
+
+Journey Optimizerを使用すると、コンテンツテンプレートをサンドボックス間でコピーできます。 例えば、ステージサンドボックス環境から実稼動サンドボックスにテンプレートをコピーできます。
+
+コピープロセスは、ソースサンドボックスとターゲットサンドボックスの間で **パッケージのエクスポートとインポート** を介して実行されます。 オブジェクトを書き出してターゲットサンドボックスに読み込む方法について詳しくは、この節を参照してください。[ 別のサンドボックスにオブジェクトをコピーする ](../configuration/copy-objects-to-sandbox.md)

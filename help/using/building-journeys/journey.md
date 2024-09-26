@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 >[!NOTE]
 >
->通常、プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、そのジャーニーの以前のインスタンスから完全に離脱するまでは再エントリできません。[詳細情報](end-journey.md)。
+>通常、プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。 [詳細情報](end-journey.md)。
 
 ライブジャーニーを変更する必要がある場合は、ジャーニーの新しいバージョンを作成します。
 

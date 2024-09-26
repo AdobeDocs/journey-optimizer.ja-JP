@@ -4,12 +4,11 @@ description: 詳しくは、メールスパムレポートの使用方法を参�
 feature: Preview
 role: User
 level: Beginner
-badge: label="ベータ版"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 93%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 100%
 >abstract="スパムレポートを使用すると、メールコンテンツのスパムスコアを確認できます。このスコアは、ISP またはメールボックスプロバイダーがメッセージをスパムと見なすかどうかを示します。スコアが低いほど、より良い結果が得られます。メールコンテンツスコアが 2 を超える場合は、テストが失敗する原因である問題の修正を検討する必要があります。"
 
 専用のスパムレポートで、メールコンテンツのスパムスコアを確認できます。[SpamAssassin](https://spamassassin.apache.org/){target="_blank"} を使用すると、Adobe Journey Optimizer は、メールの内容をテストし、ISP またはメールボックスプロバイダーがそれをスパムと見なすかどうかを示すスコアを提示します。
-
->[!AVAILABILITY]
->
->この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。
 
 メールの内容を編集またはプレビューする際に、「**[!UICONTROL スパムレポート]**」オプションでは、リストされる個々の項目のスコアを向上させるために、スコアリングとアドバイスを提供します。
 
@@ -49,6 +44,11 @@ ht-degree: 100%
 1. 各項目のスコアと説明を確認します。
 
    スコアが低いほど、より良い結果が得られます。スコアが 5 以上の場合、警告が表示されます。これは、一部のメッセージが受信時にブロックされるか、スパムとしてマークされる可能性があることを示します。ベストプラクティスは、スコアを 2 未満にすることです。
+
+   >[!NOTE]
+   >
+   >スパムスコアは [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} によって得られ、ルールはAdobeが所有していません。 これらのルールについて詳しくは、SpamAssassin ドキュメントを参照してください。
+   >
 
 1. このスコアリングに基づいて、一部の要素を改善できると考えられる場合は、[E メールデザイナー](../email/content-from-scratch.md)でコンテンツを編集し、必要な更新を行ってください。
 

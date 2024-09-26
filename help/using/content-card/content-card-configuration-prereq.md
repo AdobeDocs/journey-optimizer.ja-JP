@@ -5,40 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="限定提供" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 19%
+source-wordcount: '265'
+ht-degree: 17%
 
 ---
 
 # コンテンツカードの前提条件 {#content-card-configuration-prereq}
 
->[!BEGINSHADEBOX]
-
-**目次**
-
-* [コンテンツカードの基本を学ぶ](get-started-content-card.md)
-* **コンテンツカードの前提条件**
-* [Journey Optimizerでのコンテンツカードチャネルの設定](content-card-configuration.md)
-* [コンテンツカードの作成](create-content-card.md)
-* [コンテンツカードのデザイン](design-content-card.md)
-* [コンテンツカードレポート](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->コンテンツカードは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
-
 Adobe Journey Optimizerでコンテンツカードを正しく表示するには、次のAdobe Experience Platformを設定する必要があります。
 
 * **Adobe Experience Platform データ収集**
 
-  [ データストリームを作成 ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) および [Experience Platformサービスを追加 ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep) します。 「**[!UICONTROL Edgeのセグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にします。 これにより、Journey Optimizer イベントがAdobe Experience Platform Edge Networkで処理されます。 データストリームの設定方法について詳しくは、[ データストリームのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) を参照してください。
+  [ データストリームを作成 ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) および [Experience Platformサービスを追加 ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep) します。 「**[!UICONTROL Edgeのセグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にします。 これにより、Journey Optimizer イベントがAdobe Experience Platform Edge Networkで処理されます。
+**エクスペリエンスイベント – 提案インタラクション** フィールドグループをデータセットに追加して、このデータをレポートに含めます。 [ 詳しくは、データストリームを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 92%
 
 ---
 
-# ユースケース：カスタムアクションを使用して Experience Platform にジャーニーイベントを書き込む{#custom-action-aep}
+# ユースケース：カスタムアクションを使用して Experience Platform にジャーニーイベントを書き込む {#custom-action-aep}
 
 このユースケースでは、カスタムアクションと認証済みの呼び出しを使用して、ジャーニーから Adobe Experience Platform にカスタムイベントを書き込む方法について説明します。
 
-## IO プロジェクトの設定
+## IO プロジェクトの設定 {#custom-action-aep-IO}
 
 1. Adobe Developer Console で、「**プロジェクト**」をクリックし、IO プロジェクトを開きます。
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## カスタムアクションの設定
+## カスタムアクションの設定 {#custom-action-config}
+
+カスタムアクションの設定について詳しくは、[ このページ ](../action/about-custom-action-configuration.md) を参照してください。
+
+この例では、次の手順に従います。
 
 1. Adobe Journey Optimizer を開き、左メニューの&#x200B;**管理**&#x200B;の下にある「**設定**」をクリックします。**アクション**&#x200B;で、「**管理**」をクリックし、「**アクションを作成**」をクリックします。
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### 認証の設定
+### 認証の設定 {#custom-action-aep-authentication}
 
 1. 次のペイロードを持つ&#x200B;**カスタム**&#x200B;として&#x200B;**タイプ**&#x200B;を選択します。
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### ペイロードの設定
+### ペイロードの設定 {#custom-action-aep-payload}
 
 1. 「**リクエスト**」フィールドと「**応答**」フィールドに、先ほど使用したソース接続からのペイロードを貼り付けます。
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 動的に入力されるフィールドのフィールド設定を、**定数**&#x200B;から&#x200B;**変数**&#x200B;に変更します。カスタムアクションを保存します。
+1. 動的に入力されるフィールドの設定を **定数** から **変数** に変更します。
+
+1. カスタムアクションを保存します。
 
 ## ジャーニー
 

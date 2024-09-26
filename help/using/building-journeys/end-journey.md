@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 * その人物がアクティビティの最後のパスに到達した。
 * その人物が&#x200B;**条件**&#x200B;アクティビティ（または条件を含む&#x200B;**待機**&#x200B;アクティビティ）に到達したが、どの条件にも一致しない。
 
-再エントリが許可されているジャーニーの場合、その人物は再度エントリすることができます。[このページ](../building-journeys/journey-properties.md#entrance)を参照してください。
+再エントリが許可されているジャーニーの場合、その人物は再エントリすることができます。 [このページ](../building-journeys/journey-properties.md#entrance)を参照してください。
 
 ライブジャーニーを終了するには、ジャーニーをクローズすることをお勧めします。そうすると、ジャーニーでの新規顧客のエントリはブロックされます。既にジャーニーにエントリしている顧客は最後までジャーニーを進めることができます。[この節](../building-journeys/journey.md#close-journey)を参照してください
 

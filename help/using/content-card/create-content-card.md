@@ -4,34 +4,14 @@ description: Journey Optimizerでコンテンツカードを作成し、その�
 topic: Content Management
 role: User
 level: Beginner
-badge: label="限定提供" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 68%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
 # コンテンツカードの作成 {#create-content-card}
-
->[!BEGINSHADEBOX]
-
-**目次**
-
-* [コンテンツカードの基本を学ぶ](get-started-content-card.md)
-* [コンテンツカードの前提条件](content-card-configuration-prereq.md)
-* [Journey Optimizerでのコンテンツカードチャネルの設定](content-card-configuration.md)
-* **コンテンツカードの作成**
-* [コンテンツカードのデザイン](design-content-card.md)
-* [コンテンツカードレポート](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->コンテンツカードは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 >[!BEGINTABS]
 

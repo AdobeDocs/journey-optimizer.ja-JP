@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 **ジャーニーの処理中にビジネスイベントを受信した場合の動作を教えてください。**
 
-ビジネスイベントは、単一イベントの場合と同じように再エントリルールに従います。ジャーニーが再エントリを許可する場合は、次のビジネスイベントが処理されます。
+ビジネスイベントは、単一イベントの場合と同じように再エントリルールに従います。 ジャーニーが再エントリを許可する場合は、次のビジネスイベントが処理されます。
 
 **具体化されたオーディエンスの過負荷を避けるためのガードレールとは何ですか？**
 
