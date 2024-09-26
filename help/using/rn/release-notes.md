@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 1e4bff3e69cd70fd1f6e13cb582de4700bddd6d1
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 66%
@@ -223,7 +223,7 @@ ht-degree: 66%
 
 * **送信済みメールのメッセージヘッダーと BCC コピー** – すべてのメールメッセージに新しいヘッダーが追加されました。 このヘッダーの値は、送信された各メールと、対応する BCC メールコピーに対して一意です。 このヘッダーは、メッセージおよび BCC フィードバックデータセットにも保存され、BCC コピーと対応する送信済みメール情報を調整できます。 [詳細情報](../configuration/archiving-support.md#bcc-header)
 
-* **スパムのスコア付け** （GA） – 専用のスパムレポートでコンテンツスパムのスコア付けを確認できるようになりました。 Adobe Journey Optimizer では、SpamAssassin を使用してメールコンテンツをテストし、ISP またはメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。[詳細情報](../content-management/spam-report.md)
+* **スパムのスコア付け** （GA） – 専用の **スパムレポート** で、コンテンツスパムのスコア付けを確認できるようになりました。 Adobe Journey Optimizer では、SpamAssassin を使用してメールコンテンツをテストし、ISP またはメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。[詳細情報](../content-management/spam-report.md)
 
 **SMS チャネル**
 
