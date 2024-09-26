@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inLastDays, 関数, 式, ジャーニー
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: e0a942f4dc84b41882b3c12dd47f5931a8a34a2b
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 100%
+source-wordcount: '46'
+ht-degree: 71%
 
 ---
 
 # inLastDays {#inLastDays}
 
-指定された日付または日時が現在の日時とその delta 日前の間にある場合、true を返します。
+指定された日時が現在の日時とその delta 日前の間にある場合、true を返します。
 
 ## カテゴリ
 
