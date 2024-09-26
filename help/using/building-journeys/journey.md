@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
