@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,10 @@ ht-degree: 2%
 
 ## サンプルの実行 {#run-sample}
 
-前提条件：node と npm をインストールする必要があります。 [ このドキュメントを参照してください ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>[!PREREQUISITES]
+>
+>node と npm をインストールする必要があります。 [ このドキュメントを参照してください ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 
 1. HTTPS 用のローカル SSL 証明書を設定します。 これらのサンプルでは、HTTPS 経由でコンテンツを提供するために、ローカルに署名された SSL 証明書が必要です。
 
