@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+source-git-commit: c4101f03862a8bd7fd531c80e6ecc62932aa94c6
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 49%
@@ -246,4 +246,4 @@ ht-degree: 49%
 
 **設定**
 
-* IP ウォームアッププラン – この機能は、Adobe **Healthcare Shield** または **Privacy and Security Shield** アドオン機能を購入した組織を含むすべてのお客様が利用できるようになりました。 [詳細情報](../configuration/ip-warmup-gs.md)
+* **IP ウォームアッププラン** – この機能は、Adobe **Healthcare Shield** または **プライバシーとセキュリティシールド** アドオン機能を購入した組織を含むすべてのお客様が利用できるようになりました。 [詳細情報](../configuration/ip-warmup-gs.md)
