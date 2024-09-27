@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,6 @@ ht-degree: 100%
 アプリ内メッセージとは、特定の目標地点に向かって、アプリ内でユーザーに送信できる通知です。これらの通知は、新機能の宣伝、特別オファーの提示、ユーザーのオンボーディングの促進など、様々な目的に使用できます。アプリ内メッセージを活用することで、オーディエンスと効果的に関わり、アプリケーションの重要な側面に向けることができます。
 
 Journey Optimizer を使用すると、アプリ内通知を作成し、メッセージのレイアウトと表示、テキスト、ボタンオプションなどのエクスペリエンスオプションを設定できます。
-
->[!AVAILABILITY]
->
->Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織では、アプリ内チャネルを使用できません。
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
