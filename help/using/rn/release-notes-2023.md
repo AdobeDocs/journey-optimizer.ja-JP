@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 * 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。この改善は、待機時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。これは、以下に適用されます。
 
    * [待機アクティビティ](../building-journeys/wait-activity.md)の「**時間**」フィールド
-   * [ジャーニープロパティ](../building-journeys/journey-properties.md#entrance)の&#x200B;**再エントリ待機期間**
+   * **ジャーニープロパティ** の [ 再エントリ待機期間 ](../building-journeys/journey-properties.md#entrance)
    * [イベントアクティビティ](../building-journeys/general-events.md#events-specific-time)のタイムアウト定義の「**待機**」フィールド。
 
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-properties.md#entrance)
+* **再エントリ待機期間** フィールドがジャーニープロパティに追加されました。 このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-properties.md#entrance)
 
 * **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。**オーディエンスを読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
 
