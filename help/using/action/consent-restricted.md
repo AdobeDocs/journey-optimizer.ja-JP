@@ -11,7 +11,7 @@ keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shiel
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: b783832bc43e6a12d97b210e7d4441381eac63a2
+source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 77%
