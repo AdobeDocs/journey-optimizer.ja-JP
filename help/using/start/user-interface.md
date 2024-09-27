@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 90%
+source-wordcount: '1504'
+ht-degree: 93%
 
 ---
 
@@ -273,13 +273,6 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >id="ajo_email_locking_read_only"
 >title="読み取り専用"
 >abstract="このコンテンツは読み取り専用で、変更できません。"
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="データガバナンスポリシー違反"
->abstract="制限されたフィールドがジャーニー/キャンペーンやカスタムアクションで特定されると、エラーが表示され、公開できません。 このダイアログのデータ系列図を使用して、ジャーニーまたはキャンペーンをアクティブ化する前に行う必要がある他の設定変更を理解します。"
 
 <!--APPROVAL POLICIES-->
 
