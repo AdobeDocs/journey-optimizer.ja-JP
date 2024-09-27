@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 68cf533bb459f33d2ebf951624b9a05910003fbb
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 90%
+source-wordcount: '392'
+ht-degree: 83%
 
 ---
 
@@ -20,13 +20,19 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB AI アシスタント コンテンツ アクセラレータ ]
+>[!TAB 9 月リリース ]
+
+9 月リリースがリリースされました。モバイルアプリおよび web サイトのコンテンツカード、ジャーニーおよびキャンペーン（LA）の承認ポリシー、ジャーニーのグローバル終了条件などが含まれます。
+
+[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB AI アシスタント]
 
 ✨ [AI アシスタント コンテンツ アクセラレータ ](../help/using/content-management/gs-generative.md) の機能を直接調べて、その機能を完全に理解できるように設計されたライブ機能のプレビューで、実践的な体験に身を浸してください。
 
 [![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Customer Journey Analytics を使用したレポート（ベータ版）]
+>[!TAB Customer Journey Analyticsを使用したレポート ]
 
 Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。
 

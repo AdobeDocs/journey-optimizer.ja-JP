@@ -8,16 +8,144 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 95%
+source-wordcount: '3850'
+ht-degree: 96%
 
 ---
 
 # リリースノート 2024 {#release-notes-2024}
 
 このページでは、2024年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
+
+
+## 2024年8月リリースノート {#8-2024}
+
+**リリース日**：2024年8月20日～21日（PT）
+
+### 新機能 {#8-features}
+
+このリリースでは、以下に示す新機能が導入されています。
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>チャネル設定の改善</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在のチャネルサーフェス機能が強化され、すべてのチャネルで一貫したアプローチが可能になりました。これで、Web、アプリ内メッセージ、コードベースのエクスペリエンスなど、任意のチャネルに対してこれらの設定を定義、管理、再利用できます。</p>
+<p><ul>
+<li>チャネルサーフェスの名前が「<strong>チャネル設定</strong>」に変更されました</li>
+<li>1 つまたは複数のマーケティングアクションを添付して、同意ポリシーとデータガバナンスポリシーを適用できます。</li>
+<li>オブジェクトレベルのアクセス制御（OLAC）がチャネル設定ごとに使用できるようになり、特定の設定を作成または使用できるユーザーを決定できるようになりました</li>
+<li>一部のチャネルでは、複数のプラットフォームを対象とするチャネル設定を作成できます。例えば、web ページ、iOS アプリ、Android アプリを対象にできるアプリ内メッセージチャネル設定などがあります。</li>
+</ul></p>
+<p>詳しくは、<a href="../configuration/channel-surfaces.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Marketo Engage カスタムアクション</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer を Adobe Marketo Engage と統合して、B2B ユースケースを作成できるようになりました。新しいカスタムアクションを使用すると、ジャーニーから Marketo にデータを取り込むことができます。</p>
+<p>詳しくは、<a href="../action/marketo-engage.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツフラグメントの変数</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>フラグメントグローバル変数は、既存のフラグメント機能を強化し、コンテンツの再利用性とスクリプトのユースケースの効率を向上させます。フラグメントは、入力変数を使用し、キャンペーンとジャーニーコンテンツで使用できる出力変数を作成できるようになりました。フラグメントは、<a href="../personalization/use-expression-fragments.md">式フラグメント</a>と<a href="../email/use-visual-fragments.md">ビジュアルフラグメント</a>の両方で入力変数を使用できます。これらの変数を使用すると、キャンペーンとジャーニーで、メッセージのコンテンツとパラメーターをパーソナライズできます。</p>
+<p>詳しくは、<a href="../personalization/use-expression-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>IP ウォームアップワークフロー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>公開日：8月13日（PT）</p>
+<p>新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。</p>
+<p>詳しくは、<a href="../configuration/ip-warmup-gs.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#8-improvements}
+
+このリリースでは、以下に示す機能強化が導入されています。
+
+**ジャーニー**
+
+* 「**条件**」アクティビティでは、デフォルトで、**[!UICONTROL 時間条件]**&#x200B;が 00:00 から 12:00 までの時間単位で設定されるようになりました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
+* ジャーニーを作成する際に、「**アラート**」ボタンからアラートが表示されるようになり、他のアラートに合わせて一貫したユーザー エクスペリエンスを実現します。[詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* ジャーニーツールバーのズームオプションが改善されました。ズームの割合が表示され、ズーム値をより簡単にリセットできるようになりました。
+
+**プッシュチャネル**
+
+* Adobe Journey Optimizer チャネル設定内でモバイルアプリケーションプッシュ資格情報を追加できるようになりました。Adobe Experience Platform データ収集でのアプリサーフェスの作成は不要になりました。
+
+### その他の変更 {#changes}
+
+**レポート**
+
+* 新しいレポートエクスペリエンスに次の新しいユースケースが追加されました。
+
+   * レポート内でカスタム計算指標を直接作成。
+   * レポートデータからオーディエンスを作成。
+   * 探索的分析ツールを使用すると、選択した&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;からテーブルとビジュアライゼーションを簡単に作成できます。
+
+  詳しくは、[詳細なドキュメント](../reports/report-cja-manage.md)を参照してください。
+
 
 
 ## 2024年7月リリースノート {#24-7-2024}
@@ -285,7 +413,7 @@ ht-degree: 95%
 <tr>
 <td>
 <p>メールチャネル設定を作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義して、メール設定の柔軟性と制御を高めることができるようになりました。</p>
-<p>メール設定のパーソナライゼーションは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>メール設定のパーソナライゼーションは、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
