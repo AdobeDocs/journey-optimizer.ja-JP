@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データ, ガバナンス, DULE, ラベル, ラベル付け, Platform, ポリシー
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
