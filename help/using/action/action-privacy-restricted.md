@@ -11,7 +11,7 @@ keywords: データ, ガバナンス, DULE, ラベル, ラベル付け, Platform
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 30%
@@ -90,7 +90,7 @@ Journey Optimizerでデータガバナンスポリシーを適用するには、
 
 制限されたフィールドが識別されると、エラーが表示され、ジャーニーやキャンペーンを公開できません。 [ ガバナンスポリシー違反を検出する方法を学ぶ ](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *ジャーニーとキャンペーンのポリシー違反分析手順*
 
@@ -126,7 +126,7 @@ Journey Optimizerでデータガバナンスポリシーを適用するには、
 
 _ePHI1_ とラベル付けされたいずれかのフィールド（この例では、血液タイプフィールド）がアクションパラメーターで検出された場合、エラーが表示され、ジャーニーを公開できません。 [ ガバナンスポリシー違反を検出する方法を学ぶ ](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *ジャーニーのカスタムアクションのポリシー違反分析手順*
 
