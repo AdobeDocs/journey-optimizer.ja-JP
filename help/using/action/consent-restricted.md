@@ -11,10 +11,10 @@ keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shiel
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: b783832bc43e6a12d97b210e7d4441381eac63a2
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 79%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -128,21 +128,6 @@ There are two types of latency regarding the use of consent policies:
 カスタムアクションを設定するその他の手順について詳しくは、[この節](../action/about-custom-action-configuration.md#consent-management)を参照してください。
 
 ### ジャーニーにカスタムアクションを追加する際の同意ポリシーの活用 {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="必須のマーケティングアクション"
->abstract="必須のマーケティングアクションは、カスタムアクションの作成時に定義されます。この必須マーケティングアクションは、アクションから削除したり、変更したりすることはできません。"
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="追加のマーケティングアクション"
->abstract="必須のマーケティングアクションに加えて、別のマーケティングアクションを追加します。両方のマーケティングアクションに関連する同意ポリシーが適用されます。"
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="実行時に適用される同意ポリシーの視覚化"
->abstract="マーケティングアクションは、アクションパラメーターと個々のプロファイルの同意値を組み合わせて、ユーザーを除外する同意ポリシーを取り込みます。更新するボタンをクリックして、これらのポリシーの最新の定義を取得します。"
 
 カスタムアクションをジャーニーに追加する場合、いくつかのオプションで同意を管理できます。「**読み取り専用フィールドを表示**」をクリックして、すべてのパラメーターを表示します。
 
