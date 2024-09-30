@@ -13,7 +13,7 @@ badge: label="限定提供" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="翻訳"
->abstract="多言語機能を使用すると、1 つのキャンペーンまたはジャーニー内で、複数の言語のコンテンツを簡単に作成できます。 翻訳ページでは、プロジェクトを設定したり、翻訳プロバイダーを選択したり、ロケール固有の辞書を管理したりできます"
+>abstract="多言語機能を使用すると、単一のキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できます。翻訳ページでは、プロジェクトの設定、翻訳プロバイダーの選択、ロケール固有の辞書の管理を行うことができます"
 
 >[!AVAILABILITY]
 >

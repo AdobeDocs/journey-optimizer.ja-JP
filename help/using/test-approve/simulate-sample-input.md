@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
->title="サンプル入力を使用してシミュレート"
->abstract="この画面では、CSV テンプレート（CSV をダウンロード）を使用してパーソナライゼーションフィールドの値を指定するか、値を手動で入力することで、メールコンテンツの様々なバリアントをテストできます。"
+>title="サンプル入力を使用したシミュレート"
+>abstract="この画面では、CSV テンプレート（CSV をダウンロード）を通じてパーソナライゼーションフィールドに値を指定するか、手動で値を入力することで、メールコンテンツの様々なバリアントをテストできます。"
 
 >[!AVAILABILITY]
 >

@@ -14,7 +14,7 @@ badgePrivateBeta: label="Private Beta" type="Informative"
 source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 30%
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="データガバナンスポリシー違反"
->abstract="制限されたフィールドがジャーニー/キャンペーンやカスタムアクションで特定されると、エラーが表示され、公開できません。 このダイアログのデータ系列図を使用して、ジャーニーまたはキャンペーンをアクティブ化する前に行う必要がある他の設定変更を理解します。"
+>abstract="システムがジャーニー／キャンペーン内の制限されたフィールドや、カスタムアクションを識別した場合、エラーが表示され、公開できなくなります。このダイアログのデータ系統図を使用して、ジャーニーまたはキャンペーンをアクティブ化する前に他に行う必要がある他の設定変更を理解します。"
 
 >[!AVAILABILITY]
 >
