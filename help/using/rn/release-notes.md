@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4101f03862a8bd7fd531c80e6ecc62932aa94c6
+source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 49%
@@ -71,6 +71,7 @@ ht-degree: 49%
 <p>承認ポリシーを使用すると、Journey Optimizer内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーを運用開始前に適切な関係者が審査し、サインオフすることができます。</p>
 <p>承認ポリシーは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
 </tbody>
