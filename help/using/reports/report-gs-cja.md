@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 86%
 
 ---
 
@@ -42,9 +42,18 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
 ## 前提条件 {#prerequisites}
 
-* Customer Journey Analytics を所有して&#x200B;**いない**&#x200B;場合、または所有しているが Customer Journey Analytics 製品プロファイルにアクセス&#x200B;**できない**&#x200B;場合、Journey Optimizer で権限が管理されています。この場合、必要なのは&#x200B;**[!UICONTROL チャネルレポートを表示]**&#x200B;権限または関連する役割です。[Journey Optimizer の権限の詳細情報](../administration/permissions.md)
-* Customer Journey Analytics を所有していて、Customer Journey Analytics 製品プロファイルにアクセスできる場合は、標準の Customer Journey Analytics の権限が適用されます。Customer Journey Analytics 管理者は、適切なユーザーアクセスを維持する責任があります。[Customer Journey Analytics の権限の詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/access-control)
+* Customer Journey Analytics を所有して&#x200B;**いない**&#x200B;場合、または所有しているが Customer Journey Analytics 製品プロファイルにアクセス&#x200B;**できない**&#x200B;場合、Journey Optimizer で権限が管理されています。この場合、次が必要です。
+
+   * **[!UICONTROL チャネルレポート]** 権限または関連する役割の表示 [詳細情報](../administration/permissions.md)
+
+* Customer Journey Analyticsを **所有** し、Customer Journey Analyticsの製品プロファイルにアクセスできる場合は、次のものが必要になります。
+
+   * Customer Journey Analyticsの **[!UICONTROL オーディエンスの作成]** 権限および **[!UICONTROL オーディエンスビュー]** 権限。 [詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/access-control)
+
+   * Adobe Journey Optimizerの **[!UICONTROL プロファイルの管理]** 権限。 [詳細情報](../administration/permissions.md)
+
 * Customer Journey Analytics データビューは、次の設定（**Adobe Journey Optimizer のデフォルトデータビューとして設定**）で行う必要があります。[データビューの詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview)
+
 * Journey Optimizer 内で Customer Journey Analytics ダッシュボードにアクセスするには、レポートの&#x200B;**[!UICONTROL 新しいエクスペリエンスを使用]**&#x200B;トグルを有効にするだけです。
 
   ![](assets/cja-option.png)
