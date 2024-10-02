@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー，メッセージ，プッシュ，sms, メール，アプリ内，web, コンテンツカード，コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 77%
@@ -116,7 +116,7 @@ ht-degree: 77%
      >
      >各インバウンドメッセージアクティビティには、3 日間の **待機** アクティビティが付属しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
-### レコメンデーション {#recommendation}
+## レコメンデーション {#recommendation}
 
 [!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。
 ただし、カスタムアクションを使用すると、サードパーティシステムの接続を設定して、メッセージや API 呼び出しを送信できます。
