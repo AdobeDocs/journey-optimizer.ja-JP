@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 81%
+source-wordcount: '1239'
+ht-degree: 74%
 
 ---
 
@@ -25,6 +25,46 @@ ht-degree: 81%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
+
+## 2024 年 10 月更新 {#24-10-rn}
+
+**リリース日**：2024年10月1日（PT）
+
+### 新機能 {#24-9-features}
+
+この更新により、以下に説明する新機能が提供されます。
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーでのコードベースのエクスペリエンス</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>コードベースのエクスペリエンスチャネルを使用すると、Adobe Journey Optimizerは、任意のインバウンドプロパティに対して高度なパーソナライズとテストを行い、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、テレビ接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントにわたってカスタマイズされたエクスペリエンスをシームレスに配信できます。 コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
+<p>詳しくは、<a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーでの web エクスペリエンス</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Web チャネルを使用すると、Adobe Journey Optimizerでは、インバウンド web ジャーニーを通じて、顧客に提供する web エクスペリエンスをパーソナライズできます。 Web チャネルをジャーニーキャンバスで使用できるようになりました。</p>
+<p>詳しくは、<a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+</tr>
+</tbody>
+</table>
 
 ## 2024年9月リリースノート {#24-9-rn}
 

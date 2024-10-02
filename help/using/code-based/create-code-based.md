@@ -6,30 +6,66 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 96%
+source-wordcount: '1172'
+ht-degree: 52%
 
 ---
 
 # コードベースエクスペリエンスを作成 {#create-code-based}
 
-現在、[!DNL Journey Optimizer] では、**キャンペーン**&#x200B;にコードベースのエクスペリエンスのみを作成できます。
+[!DNL Journey Optimizer] では、ジャーニーまたはキャンペーンでコードベースのエクスペリエンスを作成できます。
 
 コードベースのエクスペリエンスに関する特定のガードレールおよびレコメンデーションについて詳しくは、[このページ](code-based-prerequisites.md)を参照してください。
 
-## コードベースキャンペーンの作成 {#create-code-based-campaign}
+## ジャーニーまたはキャンペーンを通じてコードベースのエクスペリエンスを追加 {#create-code-based-experience}
 
-キャンペーンを通じてコードベースエクスペリエンスの作成を開始するには、次の手順に従います。
+ジャーニーまたはキャンペーンを通じてコードベースのエクスペリエンスの作成を開始するには、次の手順に従います。
 
-1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。[詳細情報](../campaigns/create-campaign.md)
+>[!BEGINTABS]
+
+>[!TAB  コードベースのエクスペリエンスをジャーニーに追加する ]
+
+**コードベースのエクスペリエンス** アクティビティをジャーニーに追加するには、次の手順に従います。
+
+1. [ ジャーニーを作成 ](../building-journeys/journey-gs.md) します。
+
+1. ジャーニーを[イベント](../building-journeys/general-events.md)または[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティで開始します。
+
+1. パレットの **[!UICONTROL アクション]** セクションから **[!UICONTROL コードベースのエクスペリエンス]** アクティビティをドラッグ&amp;ドロップします。
+
+   ![](assets/code-based-activity-journey.png)
+
+   >[!NOTE]
+   >
+   >**コードベースのエクスペリエンス** はインバウンドメッセージアクティビティなので、3 日間 **待機** アクティビティが付属しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+
+1. メッセージの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
+
+1. 使用する [ コードベースのエクスペリエンス設定 ](code-based-configuration.md) を選択または作成します。
+
+   ![](assets/code-based-activity-config.png)
+
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、パーソナライゼーションエディターを使用して必要に応じてコンテンツを編集します。 [詳細情報](#edit-code)
+
+1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+
+1. コードベースエクスペリエンスの準備が整ったら、設定を完了し、ジャーニーを公開してアクティブ化します。 [詳細情報](../building-journeys/publishing-the-journey.md)
+
+ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
+
+>[!TAB コードベースのエクスペリエンスキャンペーンの作成]
+
+キャンペーンを通じて **コードベースのエクスペリエンス** の作成を開始するには、次の手順に従います。
+
+1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md)
 
 1. 実施するキャンペーンのタイプを選択します。
 
-   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、マーケティングメッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行されます。
+   * **[!UICONTROL Scheduled - Marketing]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行されます。
 
-   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、マーケティングメッセージまたはトランザクションメッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。
+   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照してください](../campaigns/api-triggered-campaigns.md)
 
 1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、キャンペーンを作成する手順を完了します。キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
@@ -41,7 +77,11 @@ ht-degree: 96%
 
 1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
-   ![](assets/code-based-campaign-edit-content.png)
+   <!--![](assets/code-based-campaign-edit-content.png)-->
+
+キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
+
+>[!ENDTABS]
 
 ## コードコンテンツの編集 {#edit-code}
 
@@ -51,7 +91,7 @@ ht-degree: 96%
 >abstract="このコードベースのエクスペリエンスアクションの一部として配信するコードを挿入および編集します。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ja" text="パーソナライゼーションエディターの基本を学ぶ"
 
-1. キャンペーンの編集画面で、「**[!UICONTROL コードを編集]**」を選択します。
+1. ジャーニーアクティビティまたはキャンペーン編集画面から、「**[!UICONTROL コードを編集]**」を選択します。
 
    ![](assets/code-based-campaign-edit-code.png)
 
@@ -71,7 +111,7 @@ ht-degree: 96%
 
    また、コードコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](../content-management/fragments.md#save-as-expression-fragment)
 
-1. コードベースのキャンペーンでは、Offer Decisioning 機能を使用できます。左側のバーから&#x200B;**[!UICONTROL 決定]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定を作成]**」をクリックします。[詳細情報](../experience-decisioning/create-decision.md)
+1. コードベースのエクスペリエンスでは、エクスペリエンス判定機能を使用できます。 左側のバーから **[!UICONTROL 決定ポリシー]** アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。 [詳細情報](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -84,7 +124,7 @@ ht-degree: 96%
 
 開発者が API または SDK 呼び出しを実行して、チャネル設定で定義されたサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
 
-## コードベースキャンペーンのテスト {#test-code-based-campaign}
+## コードベースのエクスペリエンスのテスト {#test-code-based-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
@@ -97,7 +137,7 @@ ht-degree: 96%
 >
 >どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
-1. パーソナライゼーションエディターまたはコンテンツ編集画面で、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
+1. ジャーニーまたはキャンペーンで、パーソナライゼーションエディターまたはコンテンツ編集画面から、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
 
    ![](assets/code-based-campaign-simulate.png)
 
@@ -112,17 +152,43 @@ ht-degree: 96%
 
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
-## コードベースキャンペーンのアクティブ化 {#activate-code-based-campaign}
+## コードベースのエクスペリエンスをライブにする {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
 >9 月のリリース以降、新しいキャンペーンとジャーニーのアクティブ化エクスペリエンスを使用すると、承認プロセス全体を管理し、キャンペーンとジャーニーが運用開始前に適切な関係者によって徹底的にレビューおよび承認されるようになります。 この機能は、限定提供（LA）で利用できます。 [詳細情報](../test-approve/gs-approval.md)
 
-コードベースのキャンペーンを定義し、必要に応じて[コードベースのエディター](#edit-code)を使用してコンテンツを編集したら、確認してアクティブ化することができます。次の手順に従います。
+コードベースのエクスペリエンスを定義し、[ コードベースのエディター ](#edit-code) を使用して必要に応じてコンテンツを編集したら、ジャーニーまたはキャンペーンをアクティブ化して、変更をオーディエンスに表示できます。
+
+また、運用開始前にコードベースのエクスペリエンスコンテンツをプレビューすることもできます。 [詳細情報](#test-code-based-experience)
 
 >[!NOTE]
 >
->アクティブ化する前にキャンペーンのコンテンツをプレビューすることもできます。[詳細情報](#test-code-based-campaign)
+>既に実行中の別のジャーニーまたはキャンペーンと同じページに影響を与えるコードベースのジャーニーまたはキャンペーンをアクティブ化すると、すべての変更がコンテンツに適用されます。
+>
+>複数のコードベースのジャーニーまたはキャンペーンがコンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー/キャンペーンが優先されます。
+
+### コードベースのジャーニーのPublish {#publish-code-based-journey}
+
+コードベースのエクスペリエンスをジャーニーからライブにするには、次の手順に従います。
+
+1. ジャーニーが有効で、エラーがないことを確認します。 [詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+
+1. ジャーニーから、右上のドロップダウンメニューにある「**[!UICONTROL Publish]**」オプションを選択します。
+
+   ![](assets/code-based-journey-publish.png)
+
+   >[!NOTE]
+   >
+   >ジャーニーの公開について詳しくは、[ この節 ](../building-journeys/publishing-the-journey.md) を参照してください。
+
+コードベースのジャーニーは **[!UICONTROL ライブ]** ステータスになり、選択したオーディエンスに対して表示されるようになりました。 ジャーニーの各受信者には、変更を表示できます。
+
+>[!NOTE]
+>
+>**[!UICONTROL Publish]** をクリックした後、変更内容が有効になるまで最大 15 分かかる場合があります。
+
+### コードベースキャンペーンのアクティブ化 {#activate-code-based-campaign}
 
 1. コードベースキャンペーンから、「**[!UICONTROL アクティブ化するレビュー]**」を選択します。
 
@@ -136,83 +202,94 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL アクティブ化]**」をクリックした後、コードベースキャンペーンの変更が対象の場所でライブになるまでに最大 1 分かかる場合があります。
+   >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-コードベースキャンペーンのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。キャンペーンの各受信者に、変更内容が表示されます。
+コードベースキャンペーンのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。キャンペーンの各受信者は、コンテンツに追加した変更を表示できます。
 
 >[!NOTE]
 >
->コードベースキャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**&#x200B;ステータスになります。
+>**[!UICONTROL アクティブ化]** をクリックした後、変更がライブになるまでに最大 15 分かかる場合があります。
 >
->既に実行中の別のキャンペーンと同じページに影響を与えるコードベースのキャンペーンをアクティブ化すると、すべての変更が対象の場所で適用されます。
+>コードベースキャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**&#x200B;ステータスになります。
 
-キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
+## コードベースのジャーニーまたはキャンペーンを停止 {#stop-code-based-experience}
 
-## コードベースキャンペーンの停止 {#stop-code-based-campaign}
+コードベースのエクスペリエンスがライブの場合、それを停止して、オーディエンスに変更が表示されないようにすることができます。 次の手順に従います。
 
-コードベースキャンペーンがライブの場合、オーディエンスに変更が表示されないように停止することができます。次の手順に従います。
+1. それぞれのリストからライブジャーニーまたはキャンペーンを選択します。
 
-1. リストからライブキャンペーンを選択します。
+1. 必要に応じて、関連するアクションを実行します。
 
-1. 上部のメニューから、「**[!UICONTROL キャンペーンを停止]**」を選択します。
+   * キャンペーンのトップメニューから、「**[!UICONTROL キャンペーンを停止]**」を選択します。
 
-   ![](assets/code-based-campaign-stop.png)
+     ![](assets/code-based-campaign-stop.png)
+
+   * ジャーニーのトップメニューで、「**[!UICONTROL 詳細]**」ボタンをクリックし、「**[!UICONTROL 停止]**」を選択します。
+
+     ![](assets/code-based-journey-stop.png)
 
 1. 追加した変更は、定義したオーディエンスには表示されなくなります。
 
 >[!NOTE]
 >
->コードベースキャンペーンが停止されると、再び編集またはアクティブ化することはできません。キャンペーンを複製し、複製したものをアクティブ化することのみ可能です。
+>コードベースのジャーニーまたはキャンペーンが停止した後は、再度編集またはアクティブ化することはできません。 複製し、複製したジャーニー/キャンペーンをアクティブ化することのみ可能です。
 
-## コードベースキャンペーンのレポート
+<!--Reporting TBC
 
-キャンペーンの概要画面から、コードベースキャンペーンのレポートにアクセスできます。
+## Check the code-based experience reports {#check-code-based-reports}
 
-グローバルレポートでは、少なくとも 2 時間前に発生したイベントを表示し、選択した期間のイベントを含めて表示します。これに対し、ライブレポートには、過去 24 時間以内に発生したイベントが焦点となり、イベント発生から最小 2 分の時間間隔で表示されます。
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
 
-### コードベースのライブレポート {#live-report-code-based}
+<!--## Code-based reports
 
-キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL コードベースエクスペリエンス]**」タブには、web ページに関連する主な情報の詳細が表示されます。[詳しくは、ライブレポートを参照してください](../reports/campaign-live-report.md)
+You can access code-based journey or campaign reports from the summary screen.
 
-+++ 詳しくは、コードベースエクスペリエンスのレポートで使用できる様々な指標およびウィジェットを参照してください。
+Global reports display events that occurred at least two hours ago and cover events over a selected time period. In comparison, Live reports focus on events that took place within the past 24 hours, with a minimum time interval of two minutes from the event occurrence.
 
-**[!UICONTROL コードベースエクスペリエンスのパフォーマンス]** KPI では、次のようなコードベースエクスペリエンスに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
+### Code-based live report {#live-report-code-based}
 
-* **[!UICONTROL インプレッション数]**：すべてのユーザーに配信された エクスペリエンスの合計数。
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
 
-* **[!UICONTROL インタラクション数]**：アプリやページに対するエンゲージメントの合計数。これには、クリックやその他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
++++Learn more on the different metrics and widgets available for the Code-based experience report.
 
-**[!UICONTROL コードベースエクスペリエンスの概要]**&#x200B;グラフでは、過去 24 時間のエクスペリエンス（インプレッション数、ユニークインプレッション数、インタラクション数）の変化を確認できます。
+The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
-<!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.-->
+* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
+
+* **[!UICONTROL Interactions]**:  total number of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
+
+The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (impressions, unique impressions and interactions) for the last 24 hours.
+
+TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.
 +++
 
-### コードベースのグローバルレポート {#global-report-code-based}
+### Code-based global report {#global-report-code-based}
 
-コードベースキャンペーンのグローバルレポートは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。[詳しくは、グローバルレポートを参照してください](../reports/campaign-global-report.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report.md)
 
-キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;の「**[!UICONTROL コードベースエクスペリエンス]**」タブには、アプリや web ページに関連する主な情報の詳細が表示されます。
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
 ![](assets/code-based-campaign-global-report.png)
 
-<!--image-->
+Add image TBC
 
-+++ 詳しくは、コードベースエクスペリエンスのレポートで使用できる様々な指標およびウィジェットを参照してください。
++++Learn more on the different metrics and widgets available for the Code-based experience report.
 
-**[!UICONTROL コードベースエクスペリエンスのパフォーマンス]** KPI では、次のようなエクスペリエンスに対する訪問者のエンゲージメントに関する主な情報を詳しく示します。
+The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 
-* **[!UICONTROL ユニークインプレッション数]**： エクスペリエンスが配信されたユニークユーザーの数。
+* **[!UICONTROL Unique impressions]**: number of unique users to whom the experience was delivered.
 
-* **[!UICONTROL インプレッション数]**：すべてのユーザーに配信された エクスペリエンスの合計数。
+* **[!UICONTROL Impressions]**: total number of experiences delivered to all users.
 
-* **[!UICONTROL インタラクション数]**：アプリやページを使用したエンゲージメントの割合。これには、クリックやその他のインタラクションなど、ユーザーが実行したすべてのアクションが含まれます。
+* **[!UICONTROL Interactions]**: percentage of engagements with your app/page. This includes any actions taken by the users, such as clicks or any other interactions.
 
-**[!UICONTROL コードベースエクスペリエンスの概要]**&#x200B;グラフでは、該当する期間のエクスペリエンス（インプレッション数、ユニークインプレッション数、インタラクション数）の変化を確認できます。
+The **[!UICONTROL Code-based experience summary]** graph shows the evolution of your experiences (unique impressions, impressions and interactions) for the concerned period.
 
-<!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.-->
+TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
 
-<!--
+TBC video if existing
+
 ## How-to video{#video}
 
 The video below shows how to create a code-based campaign, configure its properties, review, and publish it.

@@ -1,98 +1,138 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーでのメッセージの追加
-description: ジャーニーにメッセージを追加する方法を説明します
+title: ジャーニーへの組み込みチャネルアクションの追加
+description: ジャーニーに組み込みのチャネルアクションを追加する方法を学ぶ
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内
+keywords: ジャーニー，メッセージ，プッシュ，sms, メール，アプリ内，web, コンテンツカード，コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
-workflow-type: ht
-source-wordcount: '1195'
-ht-degree: 100%
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 77%
 
 ---
 
-# メール、アプリ内、プッシュおよびテキストメッセージの送信 {#add-a-message-in-a-journey}
+# 組み込みのチャネルアクションの使用 {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="メッセージアクティビティ"
->abstract="Journey Optimizer には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、テキストメッセージ（SMS／MMS）、アプリ内またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。"
+>title="組み込みのチャネルアクション"
+>abstract="Journey Optimizerには、チャネルアクション機能が組み込まれています。 アウトバウンド（メール、テキストメッセージ（SMS/MMS）、プッシュ）またはインバウンド（アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）アクティビティをジャーニーに追加し、設定とコンテンツを定義するだけです。 その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。"
 
-[!DNL Journey Optimizer] には、メッセージ機能が組み込まれています。ジャーニーにプッシュ、SMS／MMS、アプリ内またはメールのメッセージアクティビティを追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます.
+[!DNL Journey Optimizer] には、チャネルアクション機能が組み込まれています。 アウトバウンド（メール、テキストメッセージ（SMS/MMS）、プッシュ）またはインバウンド（アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）アクティビティをジャーニーに追加し、設定とコンテンツを定義するだけです。 その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。
 
-また、メッセージを送信する特定のアクションを設定することもできます。
+>[!NOTE]
+>
+>また、メッセージを送信する特定のアクションを設定することもできます。 [詳細情報](#recommendation)
 
-* サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。詳しくは、[この節](../action/action.md)を参照してください。
+組み込みのチャネルアクションをジャーニーに追加するには、次の手順に従います。
+
+1. ジャーニーを[イベント](general-events.md)または[オーディエンスを読み取り](read-audience.md)アクティビティで開始します。
+
+1. パレットの「**アクション**」セクションで、アウトバウンド（**メール**、**プッシュ**、**SMS**）またはインバウンド（**アプリ内**、**web**、**コードベースのエクスペリエンス**、**コンテンツカード**）アクティビティをキャンバスに追加します。
+
+   ![](assets/journey-web-activity.png)
+
+1. アクティビティを設定します。
+
+   * メッセージコンテンツを作成する詳細な手順を次に示します。
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="リード" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>メールの作成</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>プッシュ通知の作成<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="検証" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>テキストメッセージ（SMS／MMS）の作成</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * インバウンドアクションを作成する詳細な手順を次に示します。
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="リード" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>アプリ内メッセージの作成</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="リード" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Web エクスペリエンスの作成</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="リード" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong> コンテンツカードの作成 </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="低頻度" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>コードベースのエクスペリエンスの作成<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+     >[!NOTE]
+     >
+     >各インバウンドメッセージアクティビティには、3 日間の **待機** アクティビティが付属しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+
+### レコメンデーション {#recommendation}
+
+[!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。
+ただし、カスタムアクションを使用すると、サードパーティシステムの接続を設定して、メッセージや API 呼び出しを送信できます。
+
+* サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../action/action.md)
 
 * Campaign と Journey Optimizer を連携させる場合は、次の節を参照してください。
 
    * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
 
-ジャーニーにメッセージを追加するには、次の手順に従います。
-
-1. ジャーニーを[イベント](general-events.md)または[オーディエンスを読み取り](read-audience.md)アクティビティで開始します。
-
-1. パレットの「**アクション**」セクションで、**メール**、**アプリ内**、**SMS** または **プッシュ**&#x200B;アクティビティをキャンバスに追加します。
-
-1. アクティビティを設定します。
-
-   メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
-
-   <table style="table-layout:fixed">
-   <tr style="border: 0;">
-   <td>
-   <a href="../email/create-email.md">
-   <img alt="リード" src="../assets/do-not-localize/email.jpg">
-   </a>
-   <div><a href="../email/create-email.md"><strong>メールの作成</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../in-app/create-in-app.md">
-   <img alt="リード" src="../assets/do-not-localize/in-app.jpg">
-   </a>
-   <div><a href="../in-app/create-in-app.md"><strong>アプリ内メッセージの作成</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../push/create-push.md">
-   <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
-   </a>
-   <div>
-   <a href="../push/create-push.md"><strong>プッシュ通知の作成<strong></a>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../sms/create-sms.md">
-   <img alt="検証" src="../assets/do-not-localize/sms.jpg">
-   </a>
-   <div>
-   <a href="../sms/create-sms.md"><strong>テキストメッセージ（SMS／MMS）の作成</strong></a>
-   </div>
-   <p>
-   </td>
-   </tr>
-   </table>
-
->[!NOTE]
->
->各インバウンドメッセージアクティビティ（アプリ内メッセージ、コードベースのエクスペリエンスまたはカード）には、3 日間の&#x200B;**待機**&#x200B;アクティビティが付随しています。[詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
->
-
 ## ライブコンテンツの更新{#update-live-content}
 
-ライブジャーニーでメッセージ（メール、アプリ内、SMS、プッシュ）のコンテンツを更新できます。
+ライブジャーニーで、組み込みのチャネルアクションのコンテンツを更新できます。
 
-それには、ライブジャーニーを開き、メッセージアクティビティを選択して、「**コンテンツを編集**」をクリックします。
+それには、ライブジャーニーを開き、チャネルアクティビティを選択して、「**コンテンツを編集**」をクリックします。
 
 ![](assets/add-a-message2.png)
 
@@ -114,10 +154,12 @@ ht-degree: 100%
 >[!NOTE]
 >
 >この機能は、デフォルトでは有効になっていません。アクティブにするには、アドビ担当者にお問い合わせください。
+>
+>送信時間の最適化機能は、メールチャネルとプッシュチャネルにのみ適用されます。
 
 ### 送信時間の最適化について {#about-send-time}
 
-Adobe Journey Optimizer の送信時間最適化機能（アドビの AI サービスを利用）は、メールまたはプッシュメッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。機械学習モデルを使用して、ユーザーごとにパーソナライズされた送信時間をスケジュールし、メッセージの開封率やクリック率を高めます。
+Adobeの AI サービスを活用したAdobe Journey Optimizerの送信時間最適化機能を使用すると、**メール** または **プッシュメッセージ** の送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。 機械学習モデルを使用して、ユーザーごとにパーソナライズされた送信時間をスケジュールし、メッセージの開封率やクリック率を高めます。
 
 送信時間最適化モデルは、Adobe Journey Optimizer のデータを取り込み、ユーザーレベルの開封率（メールとプッシュの場合）およびクリック率（メールの場合）を調べて、顧客がメッセージングに関与する可能性が最も高いタイミングを判断します。送信時間の最適化では、情報に基づいたレコメンデーションを行うために、1 か月以上のメッセージトラッキングデータが必要です。ユーザーごとに、次のスコアを使用して最適な時間が自動的に選択されます。
 

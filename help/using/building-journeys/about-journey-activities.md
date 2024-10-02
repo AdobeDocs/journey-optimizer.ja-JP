@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 画面左側にあるパレットの「**[!UICONTROL イベント]**」と「**[!UICONTROL オーケストレーション]**」の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。次のアクションアクティビティを使用できます。
 
-* [メール、SMS、プッシュ](../building-journeys/journeys-message.md)
+* [組み込みのチャネルアクション](../building-journeys/journeys-message.md)
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
 * [ジャンプ](../building-journeys/jump.md)
 
@@ -62,7 +62,16 @@ ht-degree: 100%
 
 これらのアクティビティは、様々な通信チャネルを表します。これらを組み合わせて、クロスチャネルシナリオを作成できます。
 
-カスタムアクションを設定している場合は、こちらにも表示されます。[詳細情報](../building-journeys/using-custom-actions.md)）。
+<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
+
+また、メッセージを送信する特定のアクションを設定することもできます。
+
+* サードパーティシステムを使用してメッセージを送信する場合は、特定のカスタムアクションを作成できます。 [詳細情報](../action/action.md)
+
+* Campaign と Journey Optimizer を連携させる場合は、次の節を参照してください。
+
+   * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
 
 ## ベストプラクティス {#best-practices}
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 98%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
       + [条件](using/building-journeys/condition-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
-      + [メール, アプリ内, プッシュ, SMS](using/building-journeys/journeys-message.md)
+      + [組み込みのチャネルアクション](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -262,7 +262,7 @@ ht-degree: 98%
    + Web ページの作成 {#author-web-pages}
       + [Web ページコンテンツの編集](using/web/edit-web-content.md)
       + [変更の管理](using/web/manage-web-modifications.md)
-      + [Web キャンペーンの監視](using/web/monitor-web-campaigns.md)
+      + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
       + [シングルページアプリケーションの作成](using/web/web-spa.md)
 + コードベースのエクスペリエンス {#code-based-experience}
    + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
