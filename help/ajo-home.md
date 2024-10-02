@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!TAB AI アシスタント]
 
-✨ [AI アシスタント コンテンツ アクセラレータ ](../help/using/content-management/gs-generative.md) の機能を直接調べて、その機能を完全に理解できるように設計されたライブ機能のプレビューで、実践的な体験に身を浸してください。
+✨ [AI アシスタントコンテンツアクセラレータ](../help/using/content-management/gs-generative.md)ライブ機能プレビューで実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 [![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

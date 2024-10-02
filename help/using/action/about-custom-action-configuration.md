@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -141,13 +141,13 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 ## mTLS プロトコルのサポート {#mtls-protocol-support}
 
-相互トランスポート層セキュリティ（mTLS）を使用して、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化できます。 mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
+Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化します。mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
 
 カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。[詳細情報](https://experienceleague.adobe.com//docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
 
 ## ペイロードパラメーターの定義 {#define-the-message-parameters}
 
-以下に説明するように、ペイロードパラメーターを定義できます。
+以下で説明するように、ペイロードパラメーターを定義できます。
 
 1. 「**[!UICONTROL リクエスト]**」セクションに、外部サービスに送信する JSON ペイロードの例をペーストします。このフィールドはオプションで、POSTおよびPUT呼び出しメソッドでのみ使用できます。<!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
 
@@ -164,13 +164,13 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 フィールド設定では、以下を行う必要があります。
 
-* パラメーターのタイプ（例：文字列、整数など）を選択します。
+* パラメーターのタイプ（例：文字列、整数など）を選択
 
-* 定数または変数パラメータを定義します。
+* 定数または変数パラメーターを定義
 
-   * **定数**&#x200B;は、パラメーターの値が、技術担当者によって「アクション設定」ペインで定義されることを意味します。この値は、ジャーニーをまたいで常に同じになります。ジャーニーでカスタムアクションを使用する場合、この値は変わらず、マーケターには表示されません。 例えば、サードパーティのシステムが予期する ID を指定できます。この場合、定数値は、定数/変数トグルの右側にあるフィールドに設定されます。
+   * **定数**&#x200B;は、パラメーターの値が、技術担当者によって「アクション設定」ペインで定義されることを意味します。この値は、ジャーニーをまたいで常に同じになります。ジャーニーでカスタムアクションを使用する場合、この値は変わらず、マーケターは確認できません。例えば、サードパーティのシステムが予期する ID を指定できます。この場合、「定数／変数」トグルの右側にあるフィールドに定数値が設定されます。
 
-   * **変数**&#x200B;は、パラメーターの値が変化することを意味します。ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値をどこから取得するか（例：イベント、Adobe Experience Platformなど）を指定したりすることが自由にできます。 この場合、定数／変数トグルの右側にあるフィールドは、マーケターがこのパラメーターに名前を付ける際にジャーニーで表示されるラベルです。
+   * **変数**&#x200B;は、パラメーターの値が変化することを意味します。ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値をどこから取得するか（例：イベント、Adobe Experience Platform など）を指定したりすることが自由にできます。この場合、定数／変数トグルの右側にあるフィールドは、マーケターがこのパラメーターに名前を付ける際にジャーニーで表示されるラベルです。
 
 <!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
 

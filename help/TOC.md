@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -272,9 +272,9 @@ ht-degree: 95%
    + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
 + コンテンツカード {#content-card}
    + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
-   + コンテンツカードチャネル {#configure} の設定
+   + コンテンツカードチャネルの設定 {#configure}
       + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
-      + [Journey Optimizerでのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
+      + [Journey Optimizer でのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
       + [Web SDK でのコンテンツカードのサポートの設定](using/content-card/content-card-configuration-sdk.md)
    + [コンテンツカードの作成](using/content-card/create-content-card.md)
    + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
@@ -293,12 +293,12 @@ ht-degree: 95%
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
    + AI アシスタントの操作{#ai-assistant}
-      + [AI アシスタントコンテンツアクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
-      + [AI を使用したメール生成](using/content-management/generative-email.md)
-      + [AI を使用したプッシュ生成](using/content-management/generative-push.md)
-      + [AI を使用した SMS 生成](using/content-management/generative-sms.md)
-      + [AI を使用した web 生成](using/content-management/generative-web.md)
-      + [AI を使用したコンテンツ実験](using/content-management/generative-experimentation.md)
+      + [AI アシスタントのコンテンツアクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
+      + [AI によるメール生成](using/content-management/generative-email.md)
+      + [AI によるプッシュ生成](using/content-management/generative-push.md)
+      + [AI による SMS 生成](using/content-management/generative-sms.md)
+      + [AI による web 生成](using/content-management/generative-web.md)
+      + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
    + 多言語コンテンツの操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)

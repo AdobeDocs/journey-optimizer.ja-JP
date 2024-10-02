@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 49%
+ht-degree: 81%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 49%
 >
 -->
 
-**リリース日**:2024 年 9 月 24～26 日
+**リリース日**：2024年9月24～26日（PT）
 
 ### 新機能 {#24-9-features}
 
@@ -68,7 +68,7 @@ ht-degree: 49%
 <tbody>
 <tr>
 <td>
-<p>承認ポリシーを使用すると、Journey Optimizer内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーを運用開始前に適切な関係者が審査し、サインオフすることができます。</p>
+<p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
 <p>承認ポリシーは現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/approval.gif"/>
@@ -97,13 +97,13 @@ ht-degree: 49%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーのグローバル終了条件</strong><br/></th>
+<th><strong>ジャーニーにおけるグローバル終了条件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>次に、ジャーニーレベルで終了条件を定義します。 終了条件を追加すると、イベント（例：購入）が発生した直後やオーディエンスに適合した直後に、プロファイルをジャーニーから離脱させることができます。 これにより、ユーザーはジャーニーからそれ以上の通信を受け取ることができません。</p>
+<p>次に、ジャーニーレベルでの終了条件を定義します。終了条件を追加して、イベント（例：購買）が発生した直後やオーディエンスに適合した直後に、プロファイルによってジャーニーを終了させます。これにより、ユーザーはジャーニーからそれ以降の通信を受信できなくなります。</p>
 <p>詳しくは、<a href="../building-journeys/journey-properties.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -192,7 +192,7 @@ ht-degree: 49%
 **オーディエンス**
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* （公開日：9 月 17 日（PT）） **ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。 [詳細情報](../audience/license-usage.md)
+* （公開日：9月17日（PT））**ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。[詳細情報](../audience/license-usage.md)
 
 **コンテンツ管理**
 
@@ -214,36 +214,36 @@ ht-degree: 49%
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **ライブレポートの機能強化** - ライブレポートは、過去 24 時間のジャーニーのパフォーマンスに関するインサイトを提供します。 新しい指標（誤ってエントリ、離脱、破棄されたプロファイルやプロファイル）を追加することで機能強化を行い、ジャーニーキャンバスから直接、ユーザーの行動やパフォーマンスをより深く理解できるようになりました。 [詳細情報](../building-journeys/report-journey.md)
+* **ライブレポートの機能強化** - ライブレポートでは、過去 24 時間のジャーニーのパフォーマンスに関するインサイトを提供します。新しい指標（誤ってエントリ、離脱、破棄されたプロファイルやプロファイル）を追加することで機能強化を行い、ジャーニーキャンバスから直接、ユーザーの行動やパフォーマンスをより深く理解できるようになりました。 [詳細情報](../building-journeys/report-journey.md)
 
 <!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
-* （公開日：9 月 10 日（PT）） **オーディエンスを読み取りの自動再試行** – 書き出しジョブを取得する際に、（オーディエンスを読み取り **または** ビジネスイベント **** で始まる）オーディエンストリガージャーニーで再試行がデフォルトで適用されるようになりました。 書き出しジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。[詳細情報](../building-journeys/read-audience.md#retries)
+* （公開日：9月10日（PT））**「オーディエンスを読み取り」の自動再試行** - 書き込みジョブの取得中に、オーディエンスによってトリガーされるジャーニー（「**オーディエンスを読み取り**」または「**ビジネスイベント**」から開始）に再試行がデフォルトで適用されるようになりました。書き出しジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。[詳細情報](../building-journeys/read-audience.md#retries)
 
 **メールチャネル**
 
-* **送信済みメールのメッセージヘッダーと BCC コピー** – すべてのメールメッセージに新しいヘッダーが追加されました。 このヘッダーの値は、送信された各メールと、対応する BCC メールコピーに対して一意です。 このヘッダーは、メッセージおよび BCC フィードバックデータセットにも保存され、BCC コピーと対応する送信済みメール情報を調整できます。 [詳細情報](../configuration/archiving-support.md#bcc-header)
+* **送信済みメールのメッセージヘッダーと BCC コピー** – すべてのメールメッセージに新しいヘッダーが追加されました。 このヘッダーの値は、送信された各メールと、対応する BCC メールコピーに対して一意です。このヘッダーは、メッセージおよび BCC フィードバックデータセットにも保存され、BCC コピーと対応する送信済みメール情報を調整できます。 [詳細情報](../configuration/archiving-support.md#bcc-header)
 
 * **スパムのスコア付け** （GA） – 専用の **スパムレポート** で、コンテンツスパムのスコア付けを確認できるようになりました。 Adobe Journey Optimizer では、SpamAssassin を使用してメールコンテンツをテストし、ISP またはメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。[詳細情報](../content-management/spam-report.md)
 
 **SMS チャネル**
 
-* **API 資格情報の編集** - オプトイン/オプトアウトキーワードや返信の更新など、SMS API 資格情報の設定を編集できるようになりました。
+* **API 資格情報を編集** - オプトイン／オプトアウトキーワードや返信の更新など、SMS API 資格情報の設定を編集できるようになりました。
 
 **API**
 
-* **Campaign Simulation API** – この API を使用して、キャンペーンのプルーフジョブをトリガーします。 キャンペーンの配達確認の送信は非同期プロセスであり、API は proofJobId を返します。これを使用して、配達確認のステータスを確認できます。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **Campaign Simulation API** - この API を使用して、キャンペーンの配達確認ジョブをトリガーします。キャンペーンの配達確認の送信は非同期プロセスで、API は配達確認のステータスを確認するために使用できる配達確認ジョブ ID を返します。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* （公開日：9 月 10 日（PT）） [Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} がインタラクティブになりました。 ドキュメントページから直接 API エンドポイントを調べて、すぐにフィードバックを取得し、技術実装を高速化します。
+* （公開日：9 月 10 日（PT）） [Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} がインタラクティブになりました。 ドキュメントページから直接 API エンドポイントを調べて、即時のフィードバックを取得し、技術的な実装を高速化します。
 
 
-  すべての API リファレンスページに、ドキュメント web サイトページで API 呼び出しを直接テストするために使用できる **試す** 機能が追加されました。 [ 必要な認証資格情報を取得 ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} し、機能の使用を開始して API エンドポイントを探索します。
+  すべての API リファレンスページに&#x200B;**試す**&#x200B;機能が追加され、ドキュメントの web サイトページで直接 API 呼び出しをテストできるようになりました。[必要な認証資格情報を取得し](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}、API エンドポイントを探索する機能の使用を開始します。
 
-  この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即座にフィードバックを取得し、技術実装を高速化します。
+  この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即時のフィードバックを取得し、技術的な実装を高速化します。
 
   >[!CAUTION]
   >
-  >ドキュメントページでインタラクティブ API 機能を使用すると、エンドポイントに対して実際の API 呼び出しを行うことになります。 実稼動用サンドボックスを使用して実験する際は、このことに注意してください。
+  >ドキュメントページのインタラクティブ API 機能を使用すると、エンドポイントに対して実際の API 呼び出しを行うことができます。実稼動サンドボックスを使用して実験する際は、この点に留意してください。
 
 **設定**
 
