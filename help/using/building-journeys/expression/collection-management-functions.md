@@ -9,9 +9,9 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 また、式言語にも、コレクションをクエリするための一連の関数が導入されています。
 
-これらの関数について以下で説明します。次の例では、コレクションを含んだイベントペイロードを使用します。
+これらの関数について以下で説明します。次の例では、コレクションを含むイベントペイロードを使用します。
 
 ```json
                 { 
@@ -69,7 +69,7 @@ ht-degree: 86%
 <listExpression>.all(<condition>)
 ```
 
-例えば、すべてのアプリユーザーの中から、IOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。 この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
+例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
 「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
 
@@ -236,7 +236,7 @@ _`<listExpression>`.at(`<index>`)_
 
 **その他の例**
 
-この式は、SKU 値に基づいて製品名を返します。 これらの製品のリストはイベントリストに含まれ、条件はイベント ID になります。
+この式は、SKU 値に基づいて製品名を返します。これらの製品のリストはイベントリストに含まれ、条件はイベント ID になります。
 
 ```json
 #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 

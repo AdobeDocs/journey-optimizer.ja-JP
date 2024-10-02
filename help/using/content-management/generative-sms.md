@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer コンテンツアクセラレーターの AI アシスタントを使用した SMS 生成  {#generative-sms}
+# Journey Optimizer コンテンツアクセラレータでの AI アシスタントによる SMS 生成  {#generative-sms}
 
 >[!IMPORTANT]
 >

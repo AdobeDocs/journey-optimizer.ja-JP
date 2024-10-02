@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer コンテンツアクセラレーターの AI アシスタントを使用したコンテンツ実験
-description: コンテンツアクセラレーションに対する Journey Optimizer の AI アシスタントによるコンテンツ実験
+title: Journey Optimizer コンテンツアクセラレータの AI アシスタントによるコンテンツ実験
+description: コンテンツアクセラレーションのための Journey Optimizer における AI アシスタントによるコンテンツ実験
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# AI Assistant コンテンツアクセラレーターを使用したコンテンツ実験 {#generative-experimentation}
+# AI アシスタントコンテンツアクセラレータによるコンテンツ実験 {#generative-experimentation}
 
 >[!IMPORTANT]
 >

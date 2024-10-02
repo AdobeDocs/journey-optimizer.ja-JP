@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer コンテンツアクセラレーターにおける AI アシスタントの基本を学ぶ
-description: Journey Optimizer コンテンツアクセラレーターで AI アシスタントにアクセスして操作する方法を学ぶ
+title: Journey Optimizer コンテンツアクセラレータでの AI アシスタントの基本を学ぶ
+description: Journey Optimizer コンテンツアクセラレータでの AI アシスタントのアクセスおよび操作方法を学ぶ
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# AI アシスタントコンテンツアクセラレータの基本を学ぶ {#gs-content-assistant}
+# AI アシスタントのコンテンツアクセラレータの基本を学ぶ {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->機能を直接探索して機能を完全に理解できるように設計された [ ライブ機能プレビュー ](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} を使用して、実践的な体験に浸ってください。
+>[ライブ機能プレビュー](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}で実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 
 Microsoft Azure OpenAI と Adobe Firefly を利用した コンテンツアクセラレーションのための Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。

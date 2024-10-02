@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1497'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# AI Assistant コンテンツアクセラレーターによるプッシュ生成  {#generative-push}
+# AI アシスタントコンテンツアクセラレータによるプッシュ生成  {#generative-push}
 
 >[!IMPORTANT]
 >

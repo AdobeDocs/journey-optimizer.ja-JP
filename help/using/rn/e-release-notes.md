@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 ## 2024年9月早期リリースノート {#e-2024}
 
-**リリース日**:2024 年 9 月 24～25 日
+**リリース日**：2024年9月24～25日（PT）
 
 ### 新機能 {#e-features}
 
@@ -54,7 +54,7 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>承認ポリシーを使用すると、Journey Optimizer内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーを運用開始前に適切な関係者が審査し、サインオフすることができます。</p>
+<p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -66,13 +66,13 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>E メールコンテンツのロック</strong><br/></th>
+<th><strong>メールコンテンツのロック</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでは、テンプレート全体または特定の構造とコンポーネントをロックすることで、メールテンプレートのコンテンツをロックできるようになりました。 これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより詳細に制御して、メールキャンペーンの効率と信頼性を向上させることができます。</p>
+<p>Journey Optimizer では、テンプレート全体をロックするか、特定の構造とコンポーネントをロックして、メールテンプレート内のコンテンツをロックできるようになりました。これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより細かく制御して、メールキャンペーンの効率と信頼性を向上させることができます。</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -83,13 +83,13 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーのグローバル終了条件</strong><br/></th>
+<th><strong>ジャーニーにおけるグローバル終了条件</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>次に、ジャーニーレベルで終了条件を定義します。 終了条件を追加すると、イベント（例：購入）が発生した直後やオーディエンスに適合した直後に、プロファイルをジャーニーから離脱させることができます。 これにより、ユーザーはジャーニーからそれ以上の通信を受け取ることができません。</p>
+<p>次に、ジャーニーレベルでの終了条件を定義します。終了条件を追加して、イベント（例：購買）が発生した直後やオーディエンスに適合した直後に、プロファイルによってジャーニーを終了させます。これにより、ユーザーはジャーニーからそれ以降の通信を受信できなくなります。</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -116,7 +116,7 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタント コンテンツ アクセラレータ </strong><br/></th>
+<th><strong>AI アシスタントコンテンツアクセラレータ </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -154,7 +154,7 @@ ht-degree: 41%
 >[!IMPORTANT]
 >
 >現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。
-> [Journey Optimizerの新しいレポートインターフェイスの概要 ](../reports/report-gs-cja.md)
+> [Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ](../reports/report-gs-cja.md)
 
 
 ### 機能強化 {#e-improvements}
@@ -165,11 +165,11 @@ ht-degree: 41%
 
 * カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドアドオンで使用できるようになりました。
   <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* （公開日：9 月 17 日（PT）） **ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。 [詳細情報](../audience/license-usage.md)
+* （公開日：9月17日（PT））**ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。[詳細情報](../audience/license-usage.md)
 
 **データガバナンス**
 
-* ジャーニー内のカスタムアクションに加えて、Journey Optimizer チャネルにデータガバナンスポリシーを適用できるようになりました。 この機能強化により、マーケティングアクションをチャネル設定内に直接適用することで、コミュニケーションでの機密フィールドの使用を防ぐことができます。
+* Journey Optimizer チャネルに、ジャーニー内のカスタムアクションに加えて、データガバナンスポリシーを適用できるようになりました。この機能強化により、チャネル設定内でマーケティングアクションを直接適用することで、通信における機密フィールドの使用を防ぐことができます。
 
 <!--
 **Frequency and priority management**
@@ -184,35 +184,35 @@ ht-degree: 41%
 
 **ジャーニー**
 
-* **ライブジャーニーの最大数** - Journey Optimizerには、100 個ではなく 500 個のライブジャーニーのガードレールが実稼動サンドボックスに追加されました。 ライブジャーニーの数は、ジャーニーキャンバスに表示されます。
+* **ライブジャーニーの最大数** - Journey Optimizer では、実稼動サンドボックスでのライブジャーニーのガードレールが 100 個ではなく 500 個になりました。ライブジャーニーの数は、ジャーニーキャンバスに表示されます。
 
-* **ライブレポートの機能強化** - ライブレポートは、過去 24 時間のジャーニーのパフォーマンスに関するインサイトを提供します。 新しい指標（誤ってエントリ、離脱、破棄されたプロファイルやプロファイル）を追加することで機能強化を行い、ジャーニーキャンバスから直接、ユーザーの行動やパフォーマンスをより深く理解できるようになりました。
+* **ライブレポートの機能強化** - ライブレポートでは、過去 24 時間のジャーニーのパフォーマンスに関するインサイトを提供します。新しい指標（エントリ済み、終了、破棄されたプロファイルやエラーのあるプロファイル）を追加することで機能強化を行い、ジャーニーキャンバスから直接、ユーザーの行動とパフォーマンスをより深く理解できるようになりました。
 
 * **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。
 
-* （公開日：9 月 10 日（PT）） **オーディエンスを読み取りの自動再試行** – 書き出しジョブを取得する際に、（オーディエンスを読み取り **または** ビジネスイベント **** で始まる）オーディエンストリガージャーニーで再試行がデフォルトで適用されるようになりました。 書き出しジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。[詳細情報](../building-journeys/read-audience.md#retries)
+* （公開日：9月10日（PT））**「オーディエンスを読み取り」の自動再試行** - 書き込みジョブの取得中に、オーディエンスによってトリガーされるジャーニー（「**オーディエンスを読み取り**」または「**ビジネスイベント**」から開始）に再試行がデフォルトで適用されるようになりました。書き出しジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。[詳細情報](../building-journeys/read-audience.md#retries)
 
 **メールチャネル**
 
-* **BCC メッセージヘッダー** – すべてのメールメッセージに新しいヘッダーが追加されました。 このヘッダーの値は、送信された各メールと、対応する BCC メールコピーに対して一意です。 このヘッダーは、メッセージおよび BCC フィードバックデータセットにも保存され、BCC コピーと対応する送信済みメール情報を調整できます。
-* **スパムのスコア付け** （GA） – 専用のスパムレポートでコンテンツスパムのスコア付けを確認できるようになりました。 Adobe Journey Optimizer では、SpamAssassin を使用してメールコンテンツをテストし、ISP またはメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。[詳細情報](../content-management/spam-report.md)
+* **BCC メッセージヘッダー** - すべてのメールメッセージに新しいヘッダーが追加されました。このヘッダーの値は、送信された各メールと、対応する BCC メールコピーに対して一意です。また、このヘッダーは、メッセージと BCC フィードバックデータセットにも保存され、BCC コピーと対応する送信済みメール情報を調整できます。
+* **スパムのスコアリング**（GA）- 専用のスパムレポートでコンテンツのスパムのスコアを確認できるようになりました。Adobe Journey Optimizer では、SpamAssassin を使用してメールコンテンツをテストし、ISP またはメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。[詳細情報](../content-management/spam-report.md)
 
 **SMS チャネル**
 
-* 既存の SMS 設定を変更できるようになりました
+* 既存の SMS 設定を変更できるようになりました。
 
 **API**
 
-* [Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} はインタラクティブになりました。 ドキュメントページから直接 API エンドポイントを調べて、すぐにフィードバックを取得し、技術実装を高速化します。
+* [Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}がインタラクティブになりました。ドキュメントページから直接 API エンドポイントを調べて、即時のフィードバックを取得し、技術的な実装を高速化します。
 
-  すべての API リファレンスページに、ドキュメント web サイトページで API 呼び出しを直接テストするために使用できる **試す** 機能が追加されました。 [ 必要な認証資格情報を取得 ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} し、機能の使用を開始して API エンドポイントを探索します。
+  すべての API リファレンスページに&#x200B;**試す**&#x200B;機能が追加され、ドキュメントの web サイトページで直接 API 呼び出しをテストできるようになりました。[必要な認証資格情報を取得し](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}、API エンドポイントを探索する機能の使用を開始します。
 
-  この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即座にフィードバックを取得し、技術実装を高速化します。
+  この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即時のフィードバックを取得し、技術的な実装を高速化します。
 
   >[!CAUTION]
   >
-  >ドキュメントページでインタラクティブ API 機能を使用すると、エンドポイントに対して実際の API 呼び出しを行うことになります。 実稼動用サンドボックスを使用して実験する際は、このことに注意してください。
+  >ドキュメントページのインタラクティブ API 機能を使用すると、エンドポイントに対して実際の API 呼び出しを行うことができます。実稼動サンドボックスを使用して実験する際は、この点に留意してください。
 
 
-* **Campaign Simulation API** – この API を使用して、キャンペーンのプルーフジョブをトリガーします。 キャンペーンの配達確認の送信は非同期プロセスであり、API は proofJobId を返します。これを使用して、配達確認のステータスを確認できます。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **Campaign Simulation API** - この API を使用して、キャンペーンの配達確認ジョブをトリガーします。キャンペーンの配達確認の送信は非同期プロセスで、API は配達確認のステータスを確認するために使用できる配達確認ジョブ ID を返します。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 

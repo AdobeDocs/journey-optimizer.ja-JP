@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer コンテンツアクセラレーターの AI アシスタントを使用したメール生成
+title: Journey Optimizer コンテンツアクセラレータでの AI アシスタントによるメール生成
 description: コンテンツアクセラレーションに Journey Optimizer の AI アシスタントを使用して、メールコンテンツとアセットの生成を開始します。
 feature: Content Assistant
 topic: Content Management
@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# AI Assistant コンテンツアクセラレーターによる電子メール生成 {#generative-email}
+# AI アシスタントコンテンツアクセラレータによるメール生成 {#generative-email}
 
 >[!IMPORTANT]
 >
