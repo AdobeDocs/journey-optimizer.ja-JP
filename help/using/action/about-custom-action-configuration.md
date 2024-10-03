@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
+source-git-commit: 9059e3192170681293816a78703e39a60127a112
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 91%
@@ -153,7 +153,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    「**[!UICONTROL NULL 値を許可]**」オプションを有効にして、外部呼び出しで Null 値を保持します。 整数、文字列などの配列を送信する点に注意してください。 内に Null 値を含むは完全にはサポートされていません。 例えば、次の整数の配列 `[1, null, 2, 3]` は、このオプションがオンになっていても `[1, 2, 3]` として送信されます。 さらに、そのような配列が null の場合は、空の配列として送信されます。
 
-   ![](assets/null-values.png)
+   ![](assets/null-values.png){width="70%" align="left"}
 
 1. 「**[!UICONTROL 応答]**」セクションに、呼び出しで返されたペイロードの例をペーストします。このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
 
