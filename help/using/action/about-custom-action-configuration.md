@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 97%
+source-wordcount: '1671'
+ht-degree: 91%
 
 ---
 
@@ -149,7 +149,9 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
 以下で説明するように、ペイロードパラメーターを定義できます。
 
-1. 「**[!UICONTROL リクエスト]**」セクションに、外部サービスに送信する JSON ペイロードの例をペーストします。このフィールドはオプションで、POSTおよびPUT呼び出しメソッドでのみ使用できます。<!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
+1. 「**[!UICONTROL リクエスト]**」セクションに、外部サービスに送信する JSON ペイロードの例をペーストします。このフィールドはオプションで、POST および PUT 呼び出しメソッドでのみ使用できます。
+
+   「**[!UICONTROL NULL 値を許可]**」オプションを有効にして、外部呼び出しで Null 値を保持します。 整数、文字列などの配列を送信する点に注意してください。 内に Null 値を含むは完全にはサポートされていません。 例えば、次の整数の配列 `[1, null, 2, 3]` は、このオプションがオンになっていても `[1, 2, 3]` として送信されます。 さらに、そのような配列が null の場合は、空の配列として送信されます。
 
 1. 「**[!UICONTROL 応答]**」セクションに、呼び出しで返されたペイロードの例をペーストします。このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
 
@@ -170,9 +172,9 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    * **定数**&#x200B;は、パラメーターの値が、技術担当者によって「アクション設定」ペインで定義されることを意味します。この値は、ジャーニーをまたいで常に同じになります。ジャーニーでカスタムアクションを使用する場合、この値は変わらず、マーケターは確認できません。例えば、サードパーティのシステムが予期する ID を指定できます。この場合、「定数／変数」トグルの右側にあるフィールドに定数値が設定されます。
 
-   * **変数**&#x200B;は、パラメーターの値が変化することを意味します。ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値をどこから取得するか（例：イベント、Adobe Experience Platform など）を指定したりすることが自由にできます。この場合、定数／変数トグルの右側にあるフィールドは、マーケターがこのパラメーターに名前を付ける際にジャーニーで表示されるラベルです。
+   * **変数** は、パラメーターの値が変化する可能性があることを意味します。 ジャーニーでこのカスタムアクションを使用するマーケターは、必要な値を渡したり、このパラメーターの値をどこから取得するか（例：イベント、Adobe Experience Platform など）を指定したりすることが自由にできます。この場合、定数／変数トグルの右側にあるフィールドは、マーケターがこのパラメーターに名前を付ける際にジャーニーで表示されるラベルです。
 
-<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+  オプションのパラメーターについては、行の最後にある **[!UICONTROL オプションです]** オプションを有効にします。 このオプションをオンにすると、パラメーターが非必須としてマークされ、ジャーニー担当者はジャーニーでそのカスタムアクションをオーサリングする際に、そのパラメーターを入力するかどうかを選択できます。
 
 >[!NOTE]
 >

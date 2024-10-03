@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 74%
 <p>コードベースのエクスペリエンスチャネルを使用すると、Adobe Journey Optimizerは、任意のインバウンドプロパティに対して高度なパーソナライズとテストを行い、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、テレビ接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントにわたってカスタマイズされたエクスペリエンスをシームレスに配信できます。 コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>公開日：10 月 1 日</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ ht-degree: 74%
 <p>Web チャネルを使用すると、Adobe Journey Optimizerでは、インバウンド web ジャーニーを通じて、顧客に提供する web エクスペリエンスをパーソナライズできます。 Web チャネルをジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>公開日：10 月 1 日</p>
 </tr>
 </tbody>
 </table>
+
+
+**ジャーニーの向上**
+
+* （公開日：10 月 3 日（PT）） **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## 2024年9月リリースノート {#24-9-rn}
 
@@ -256,7 +265,6 @@ ht-degree: 74%
 
 * **ライブレポートの機能強化** - ライブレポートでは、過去 24 時間のジャーニーのパフォーマンスに関するインサイトを提供します。新しい指標（誤ってエントリ、離脱、破棄されたプロファイルやプロファイル）を追加することで機能強化を行い、ジャーニーキャンバスから直接、ユーザーの行動やパフォーマンスをより深く理解できるようになりました。 [詳細情報](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * （公開日：9月10日（PT））**「オーディエンスを読み取り」の自動再試行** - 書き込みジョブの取得中に、オーディエンスによってトリガーされるジャーニー（「**オーディエンスを読み取り**」または「**ビジネスイベント**」から開始）に再試行がデフォルトで適用されるようになりました。書き出しジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。[詳細情報](../building-journeys/read-audience.md#retries)
 
