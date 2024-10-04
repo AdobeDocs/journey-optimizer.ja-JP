@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 94%
+source-wordcount: '4540'
+ht-degree: 95%
 
 ---
 
@@ -844,14 +844,3 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 
 +++
 
-### トラッキング対象リンク URL {#tracked-link-url}
-
-**[!UICONTROL トラッキングされるリンク URL]** テーブルには、最も高い訪問者トラフィックを引き付けるコンテンツカード内の URL の包括的な概要が表示されます。 これにより、最も人気のあるリンクを特定して優先順位を付け、コンテンツカード内の特定のコンテンツに対するプロファイルエンゲージメントの理解を深めることができます。
-
-+++ トラッキング対象リンク URL 指標の詳細情報
-
-* **[!UICONTROL ユニーククリック数]**：コンテンツカードのコンテンツをクリックしたプロファイルの数。
-
-* **[!UICONTROL クリック数]**：コンテンツカードでコンテンツがクリックされた回数。
-
-+++
