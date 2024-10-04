@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
@@ -60,7 +60,7 @@ ht-degree: 100%
 * **[!UICONTROL ランディングページ]** - ランディングページを作成、設計、テストおよび公開します。オンラインフォームへのリンクをユーザーに送信することで、ユーザーは、通信の受信をオプトインまたはオプトアウトしたり、特定のサービスを購読したりできます。[詳細情報](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL 意思決定管理] {#left-nav-offers}
+### [!UICONTROL 意思決定管理] {#left-nav-decision}
 
 このセクションでは、オファーとコンポーネントを作成します。
 
