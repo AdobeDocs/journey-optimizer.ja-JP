@@ -3,8 +3,9 @@ title: 承認ポリシーの作成と管理
 description: 承認ポリシーを作成および管理する方法について説明します。
 role: User
 level: Beginner
+feature: Approval
 badge: label="限定提供" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
