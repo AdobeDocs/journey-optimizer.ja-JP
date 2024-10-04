@@ -5,9 +5,9 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
+source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 91%
 
 ---
@@ -20,7 +20,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 9 月リリース ]
+>[!TAB 2024 年 9 月リリース ]
 
 9 月リリースがリリースされました。モバイルアプリおよび web サイトのコンテンツカード、ジャーニーおよびキャンペーン（LA）の承認ポリシー、ジャーニーのグローバル終了条件などが含まれます。
 
