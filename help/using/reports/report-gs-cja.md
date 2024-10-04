@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 86%
+source-wordcount: '389'
+ht-degree: 81%
 
 ---
 
 # 新しいレポートインターフェイスの基本を学ぶ {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Journey Optimizer の従来のレポートに戻すには、「**[!UICONTROL 新しいエクスペリエンスを使用]**」オプションを切り替えるだけです。
+>Adobe Journey Optimizerのレポートは現在、UTC に標準化されています。 レポートタイムゾーンをカスタマイズする機能は、今後のリリースで導入される予定です。
 
 Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。
 
@@ -39,6 +39,10 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 * 環境内のすべてのキャンペーンとジャーニーの指標をターゲットにする場合は、「**[!UICONTROL ジャーニー管理]**」セクション内の&#x200B;**[!UICONTROL レポート]**&#x200B;メニューに移動して、**概要**&#x200B;レポートにアクセスします。[概要レポートの詳細情報](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Journey Optimizer の従来のレポートに戻すには、「**[!UICONTROL 新しいエクスペリエンスを使用]**」オプションを切り替えるだけです。
 
 ## 前提条件 {#prerequisites}
 
