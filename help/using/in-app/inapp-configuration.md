@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 91%
 
 ---
 
@@ -109,19 +109,21 @@ ht-degree: 100%
 
 アプリ内メッセージを作成する際に、設定を選択できるようになりました。
 
-## コンテンツ実験の前提条件 {#experiment-prerequisites}
-
-アプリ内チャネルのコンテンツ実験を有効にするには、レポート設定に、アプリ内実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)も含まれていることを確認する必要があります。
-
-つまり、実験レポートを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはコンテンツ実験レポートに表示されません。
-
-コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../content-management/reporting-configuration.md#add-datasets)を参照してください。
+## レポートの前提条件 {#experiment-prerequisites}
 
 >[!NOTE]
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
+アプリ内チャネルのレポートを有効にするには、アプリ内実装 [ データストリーム ](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。
+
+つまり、レポートを設定する際に、アプリのデータストリームに存在しないデータセットを追加すると、アプリのデータはレポートに表示されません。
+
+レポート用にデータセットを追加する方法については、[ この節 ](../reports/reporting-configuration.md#add-datasets) を参照してください。
+
 データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
+
+[レポート設定の詳細情報](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

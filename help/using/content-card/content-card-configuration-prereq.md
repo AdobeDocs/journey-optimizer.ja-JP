@@ -5,10 +5,10 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -45,4 +45,4 @@ Adobe Journey Optimizerでコンテンツカードを正しく表示するには
 
   アプリの [ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank) で使用されるデータセットが、コンテンツ実験レポート設定にも含まれていることを確認します。 データセットが一致しない場合、アプリデータはレポートに表示されません。
 
-  コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../content-management/reporting-configuration.md)を参照してください。
+  コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../reports/reporting-configuration.md)を参照してください。

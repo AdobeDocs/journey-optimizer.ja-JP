@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 88%
 
 ---
 
@@ -57,15 +57,15 @@ ht-degree: 100%
 
   **Edge Delivery** プラグインを使用すると、インバウンド実装を効果的に理解してトラブルシューティングを行うために必要なインサイトを得ることができます。
 
-  [Edge Delivery ビューについて詳しくはこちらを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
+  [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
-## コンテンツ実験の前提条件 {#experiment-prerequisites}
+## レポートの前提条件 {#experiment-prerequisites}
 
-コードベースチャネルのコンテンツ実験を有効にするには、アプリ実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用される[データセット](../data/get-started-datasets.md)もレポート設定に含まれていることを確認する必要があります。
+コードベースチャネルのレポートを有効にするには、アプリ実装 [datastream](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。
 
-つまり、実験レポートを設定する際に、アプリデータストリームに存在しないデータセットを追加すると、アプリデータはコンテンツ実験レポートに表示されません。
+つまり、レポートを設定する際に、アプリのデータストリームに存在しないデータセットを追加すると、アプリのデータはレポートに表示されません。
 
-コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../content-management/reporting-configuration.md#add-datasets)を参照してください。
+レポート用にデータセットを追加する方法については、[ この節 ](../reports/reporting-configuration.md#add-datasets) を参照してください。
 
 >[!NOTE]
 >

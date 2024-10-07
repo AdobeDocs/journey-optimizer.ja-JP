@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->コンテンツ実験を開始する前に、レポート設定がカスタムデータセットに対応するよう設定されていることを確認します。詳しくは、[この節](reporting-configuration.md)を参照してください。
+>コンテンツ実験を開始する前に、レポート設定がカスタムデータセットに対応するよう設定されていることを確認します。詳しくは、[この節](../reports/reporting-configuration.md)を参照してください。
 
 Journey Optimizer のコンテンツ実験を使用すると、複数の配信処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信を測定できます。配信コンテンツ、件名または送信者を変更できます。関心のあるオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 100%
+source-wordcount: '1134'
+ht-degree: 93%
 
 ---
 
@@ -125,21 +125,23 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 
   **Edge Delivery** プラグインを使用すると、インバウンド実装を効果的に理解してトラブルシューティングを行うために必要なインサイトを得ることができます。
 
-  [Edge Delivery ビューについて詳しくはこちらを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
+  [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
-## コンテンツ実験の前提条件 {#experiment-prerequisites}
+## レポートの前提条件 {#experiment-prerequisites}
 
-Web チャネルのコンテンツ実験を有効にするには、web 実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用するデータセットも[レポート設定](../data/get-started-datasets.md)に含まれていることを確認する必要があります。
+Web チャネルのレポートを有効にするには、web 実装 [ データストリーム ](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。
 
-つまり、実験レポートを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはコンテンツ実験レポートに表示されません。
+つまり、レポートを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはレポートに表示されません。
 
-コンテンツ実験のレポート用にデータセットを追加する方法については、[この節](../content-management/reporting-configuration.md#add-datasets)を参照してください。
+レポート用にデータセットを追加する方法については、[ この節 ](../reports/reporting-configuration.md#add-datasets) を参照してください。
 
 >[!NOTE]
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
 データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、[!DNL Journey Optimizer] のコンテンツ実験レポートで、各プロファイル参加している実験と処理を追跡するために必要です。
+
+[レポート設定の詳細情報](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+workflow-type: tm+mt
+source-wordcount: '918'
+ht-degree: 95%
 
 ---
 
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->各組織では、オーディエンスの公開が 25 個に制限されています。また、ユーザーは 1 時間あたり最大 5 個、1 日あたり最大 20 個のオーディエンスを公開できます。
+>各組織では、オーディエンスの公開が 25 個に制限されています。さらに、ユーザーは、1 時間あたり最大 5 人のオーディエンス、1 日あたり最大 20 人のオーディエンスを公開できます。
+> 1 回限りのオーディエンスの有効期間は 48 時間です。 したがって、その期間内に 25 個のオーディエンスが公開された場合、追加のオーディエンスは、48 時間が経過した後でのみ公開できます。
 
 テーブル内の特定のデータを選択し、これらの選択からオーディエンスを直接作成できるので、オーディエンス作成プロセスが効率化および簡素化されました。
 

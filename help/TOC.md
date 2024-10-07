@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 97%
 
 ---
@@ -307,7 +307,6 @@ ht-degree: 97%
    + コンテンツ実験の操作 {#content-experiment}
       + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
       + [コンテンツ実験を作成](using/content-management/content-experiment.md)
-      + [実験レポートの設定](using/content-management/reporting-configuration.md)
       + テクニカルノート {#technotes}
          + [統計計算について](using/content-management/experiment-calculations.md)
          + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
@@ -411,6 +410,7 @@ ht-degree: 97%
    + [除外の理由](using/reports/exclusion-list.md)
 + 新しいレポートインターフェイス（LA）{#channel-report}
    + [新しいレポートインターフェイスの基本を学ぶ](using/reports/report-gs-cja.md)
+   + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
    + [レポートの管理](using/reports/report-cja-manage.md)
    + [ジャーニーレポート](using/reports/journey-global-report-cja.md)
    + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
