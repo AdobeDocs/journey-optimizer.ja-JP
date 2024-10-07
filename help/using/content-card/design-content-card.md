@@ -4,10 +4,10 @@ description: コンテンツカードのコンテンツをデザインする方�
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 17%
+source-wordcount: '418'
+ht-degree: 6%
 
 ---
 
@@ -39,17 +39,19 @@ ht-degree: 17%
 
 ![](assets/content-card-design-2.png)
 
-+++詳細フォーマットを使用したその他のオプション
-
-**[!UICONTROL 詳細フォーマットモード]**&#x200B;がオンになっている場合は、**[!UICONTROL ヘッダー]**&#x200B;と&#x200B;**[!UICONTROL 本文]**&#x200B;を選択できます。
-
-* **[!UICONTROL フォント]**
-* **[!UICONTROL Pt サイズ]**
-* **[!UICONTROL フォントカラー]**
-* **[!UICONTROL 整列]**
-+++
-
 メッセージをさらにカスタマイズする場合は、「**[!UICONTROL Personalization]**」アイコンを使用して、パーソナライズされた要素を追加します。 パーソナライズ機能の使用方法について詳しくは、[ この節 ](../personalization/personalize.md) を参照してください。
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
++++
+-->
 
 ### メディア {#add-media}
 
@@ -59,11 +61,13 @@ ht-degree: 17%
 
 メディアを含めるには、使用するメディアの URL を入力するか、「**[!UICONTROL Assetsを選択]**」アイコンをクリックして、Assets ライブラリに保存されているアセットから選択します。 [アセット管理の詳細情報](../content-management/assets.md)。
 
-+++詳細フォーマットを使用したその他のオプション
+<!--
++++More options with advanced formatting
 
-**[!UICONTROL 詳細フォーマットモード]** がオンになっている場合は、画面読み取りアプリケーション用の **[!UICONTROL 代替テキスト]** と別のアセットを「**[!UICONTROL ダークモードメディア URL]**」フィールドに追加できます。
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### ボタン {#add-buttons}
 
@@ -79,16 +83,18 @@ ht-degree: 17%
 
 1. 「**[!UICONTROL ターゲット]**」フィールドに、ユーザーがボタンを操作した後に向けられる web URL またはディープリンクを入力します。
 
-+++詳細フォーマットを使用したその他のオプション
+<!--
++++More options with advanced formatting
 
-**[!UICONTROL 詳細フォーマットモード]**&#x200B;がオンになっている場合は、**[!UICONTROL ボタン]**&#x200B;の次のオプションを選択できます。
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
-* **[!UICONTROL フォント]**
-* **[!UICONTROL Pt サイズ]**
-* **[!UICONTROL フォントカラー]**
-* **[!UICONTROL 整列]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### クリック時の動作
 
