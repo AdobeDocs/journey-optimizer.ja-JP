@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1277'
 ht-degree: 72%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 72%
 
 ## 2024 年 10 月更新 {#24-10-rn}
 
+### 新機能 {#24-10-features}
+
 Adobe Journey Optimizerで利用可能な最新の機能を以下に示します。
 
 <table>
@@ -39,6 +41,7 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 <tbody>
 <tr>
 <td>
+<p>公開日：10 月 1 日</p>
 <p>コードベースのエクスペリエンスチャネルを使用すると、Adobe Journey Optimizerは、任意のインバウンドプロパティに対して高度なパーソナライズとテストを行い、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、テレビ接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントにわたってカスタマイズされたエクスペリエンスをシームレスに配信できます。 コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 <tbody>
 <tr>
 <td>
+<p>公開日：10 月 1 日</p>
 <p>Web チャネルを使用すると、Adobe Journey Optimizerでは、インバウンド web ジャーニーを通じて、顧客に提供する web エクスペリエンスをパーソナライズできます。 Web チャネルをジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 </tbody>
 </table>
 
+### 機能強化 {#24-10-improvements}
 
-**ジャーニーの向上**
+**ジャーニー**
 
 * （公開日：10 月 3 日（PT）） **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
