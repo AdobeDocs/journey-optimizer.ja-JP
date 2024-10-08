@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -58,17 +58,17 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="再エントリを許可"
->abstract="デフォルトでは、新規ジャーニーで再エントリが許可されています。 「**再エントリを許可**」オプションをオフにできます。例えば、入店時に 1 回限りのギフトをオファーする場合などに使用します。"
+>abstract="デフォルトでは、新規ジャーニーで再エントリが許可されています。例えば、入店時に 1 度だけギフトをオファーする場合は、この「**再エントリを許可**」オプションをオフにします。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
 
-デフォルトでは、新規ジャーニーで再エントリが許可されています。 「1 回限り **のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「再エントリを許可**」オプションをオフにします。
+デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り **のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「再エントリを許可**」オプションをオフにします。
 
 ### 再エントリ待機期間  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="再エントリ待機期間"
->abstract="単一のジャーニー内でプロファイルがジャーニーに再度エントリできるようになるまでの、待機時間を設定します。 これにより、選択した期間、ユーザーがジャーニーに再エントリするのを防ぎます。 最大期間：90 日。"
+>abstract="単一のジャーニー内でプロファイルがジャーニーに再度エントリできるようになるまでの、待機時間を設定します。これにより、選択した期間、ユーザーはジャーニーに再エントリできなくなります。最大期間：90 日。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="プロファイルエントリ管理"
 
 「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。 このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 90 日です。
