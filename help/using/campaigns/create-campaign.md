@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[オーディエンス構成](../audience/get-started-audience-orchestration.md)と[カスタムアップロード（CSV ファイル）オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)からのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。
+>[ オーディエンス構成 ](../audience/get-started-audience-orchestration.md) のオーディエンスおよび属性は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。
 >
 >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->オーディエンス構成とカスタムアップロードオーディエンスからのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。
+>オーディエンス構成からのオーディエンスおよび属性の使用は、現在、Healthcare Shield またはプライバシーとセキュリティシールドで使用することはできません。
 >
 >エンリッチメント属性は、まだポリシー適用サービスと統合されていません。したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
 

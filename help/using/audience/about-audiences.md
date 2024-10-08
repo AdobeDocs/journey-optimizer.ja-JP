@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '2272'
-ht-degree: 78%
+source-wordcount: '2266'
+ht-degree: 77%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 78%
 
 >[!AVAILABILITY]
 >
->オーディエンス構成とカスタムアップロード（CSV ファイル）オーディエンスからのオーディエンスと属性の使用は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。[詳しくは、Journey Optimizer でのオーディエンスのエンリッチメント属性の使用方法を参照してください](../audience/about-audiences.md#enrichment)
+>オーディエンス構成からのオーディエンスおよび属性の使用は、現在、Healthcare Shield またはプライバシーとセキュリティシールドで使用することはできません。 [詳しくは、Journey Optimizer でのオーディエンスのエンリッチメント属性の使用方法を参照してください](../audience/about-audiences.md#enrichment)
 
 **[!DNL Journey Optimizer]** でオーディエンスを活用するには、次のように様々な方法があります。
 

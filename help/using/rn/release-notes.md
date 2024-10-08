@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 70%
+source-wordcount: '1329'
+ht-degree: 69%
 
 ---
 
@@ -77,6 +77,8 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 **オーディエンス**
 
 * CSV ファイルオーディエンスをターゲティングする際に、パーソナライゼーションエディターや、ジャーニーおよびキャンペーンのルールビルダーで、ファイルの属性を使用できるようになりました。 [詳細情報](../audience/about-audiences.md)
+
+* カスタムアップロード（CSV ファイル）のオーディエンスと属性を、Healthcare Shield またはプライバシーとセキュリティシールドで使用できるようになりました。
 
 ## 2024年9月リリースノート {#24-9-rn}
 
