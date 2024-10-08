@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -35,15 +35,24 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>2024 年 11 月 1 日（PT）より、Journey Optimizer システム生成データセットに対して、次のような Time-to-Live （TTL）ガードレールが適用されます。
+>
+>* プロファイルストアのデータについては 90 日
+>* データレイクのデータの場合は 13 か月
+>
+>さらに、その時点で、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとオープンイベントの使用をサポートしなくなりました。
+
+
+
 データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 
 Adobe Journey Optimizer のシステムデータセットを以下に示します。
 
-
 >[!CAUTION]
 >
 > システムデータセットは&#x200B;**変更できません**。製品が更新されるたびに、変更は自動的に元に戻されます。
->
 
 **レポート**
 
