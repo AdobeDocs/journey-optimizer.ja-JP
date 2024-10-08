@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 81%
 
 ---
@@ -278,18 +278,15 @@ Adobe Journey Optimizer 2024年6月リリース以降、ジャーニーのグロ
 終了条件を **作成** するには、次の手順に従います。
 
 1. ジャーニーを開きます。
+
 1. ジャーニーキャンバスの右上のセクションにある「**[!UICONTROL 終了条件を表示]**」アイコンをクリックします。
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. 「**[!UICONTROL 終了条件を追加]**」ボタンをクリックします。
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. **ラベル** を入力し、終了条件をイベントまたはオーディエンスに基づいているかどうかを選択します。
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. **ラベル** を入力し、終了条件を **イベント** または **オーディエンス** のどちらに基づいているかを選択します。
 
 * イベントに基づく終了条件の場合は、単一イベントのみを選択します。
-* 「オーディエンスに基づく終了条件」で、オーディエンスを選択します。 メモ：オーディエンスを使用した終了条件は、動作するまでに最大 10 分かかる場合があります。
+* 「オーディエンスに基づく終了条件」で、オーディエンスを選択します。 メモ：オーディエンスを使用した終了条件が有効になるまで、最大 10 分かかる場合があります。
 
 複数の終了条件を追加できます。
 
