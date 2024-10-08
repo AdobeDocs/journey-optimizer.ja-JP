@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="限定提供" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%
@@ -85,6 +85,6 @@ Journey Optimizerでは、マーケティングチームが、キャンペーン
 
 ## 承認要求の監視 {#monitor}
 
-特定のジャーニーまたはキャンペーンに対して送信されたすべての承認および変更リクエストを監視できます。 これを行うには、ジャーニーキャンバスまたはキャンペーンレビュー画面の右上セクションにある「**[!UICONTROL 監査記録を表示]**」ボタンをクリックします。
+特定のジャーニーまたはキャンペーンに対して送信されたすべての承認および変更リクエストを監視できます。 これを行うには、ジャーニーキャンバスまたはキャンペーンレビュー画面の右上のセクションにある「**[!UICONTROL 監査記録を表示]**」アイコンをクリックします。
 
 ![](assets/monitor-requests.png)
