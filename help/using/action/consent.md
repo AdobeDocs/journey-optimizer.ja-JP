@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
+source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 99%
 
 ---
 
@@ -172,3 +172,9 @@ The following data is taken into account for consent:
 -->
 
 ジャーニーでカスタムアクションを設定するその他の手順について詳しくは、[この節](../building-journeys/using-custom-actions.md)を参照してください。
+
+## チュートリアルビデオ {#video}
+
+Journey Optimizer チャネルでデータ使用ラベルが適用される方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)
