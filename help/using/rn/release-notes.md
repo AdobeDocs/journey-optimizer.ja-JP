@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1333'
 ht-degree: 69%
 
 ---
@@ -74,7 +74,7 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 
 * （公開日：10 月 3 日（PT）） **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**オーディエンス**
+**オーディエンス** – 公開日：10 月 8 日
 
 * CSV ファイルオーディエンスをターゲティングする際に、パーソナライゼーションエディターや、ジャーニーおよびキャンペーンのルールビルダーで、ファイルの属性を使用できるようになりました。 [詳細情報](../audience/about-audiences.md)
 
