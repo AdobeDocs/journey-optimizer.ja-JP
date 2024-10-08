@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
 source-wordcount: '2272'
 ht-degree: 78%
@@ -93,7 +93,7 @@ ht-degree: 78%
 >
 1. 「管理」／「設定」／「データソース」に移動します。
 1. 「Experience Platform」を選択し、フィールドグループを作成または編集します。
-2. スキーマセレクターで、適切なスキーマを選択します。 スキーマの名前は、「Schema for audienceId:」 + オーディエンス ID の形式になります。 オーディエンスの ID は、オーディエンスインベントリのオーディエンスの詳細画面で確認できます。
+1. スキーマセレクターで、適切なスキーマを選択します。 スキーマの名前は、「Schema for audienceId:」 + オーディエンス ID の形式になります。 オーディエンスの ID は、オーディエンスインベントリのオーディエンスの詳細画面で確認できます。
 1. フィールドセレクターを開き、追加するエンリッチメント属性を見つけて、その横にあるチェックボックスをオンにします。
 1. 変更を保存します。
 1. エンリッチメント属性がフィールドグループに追加されたら、上記の場所でJourney Optimizerで活用できます。
