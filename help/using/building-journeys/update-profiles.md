@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: プロファイル, 更新, ジャーニー, アクティビティ
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
+source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 81%
+source-wordcount: '630'
+ht-degree: 78%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 81%
 * 「**プロファイルを更新**」アクションを使用して、購入などのエクスペリエンスイベントを生成することはできません。
 * 他のアクションのように、エラーやタイムアウトの場合の代替パスを定義できます。また、2 つのアクションを並行して配置することはできません。
 * Adobe Experience Platform に送信される更新リクエストは、即時もしくは 1 秒以内です。通常は数秒かかりますが、もっと時間がかかる場合もあり、保証はありません。そのため、例えば、アクションが、その直前に配置された「**プロファイルを更新**」アクションによって更新された「フィールド 1」を使用している場合、「フィールド 1」がアクションで更新されるとは限りません。
-* この&#x200B;**プロファイルを更新**&#x200B;アクティビティは、定義済みリストとして定義された XDM フィールドをサポートしていません。
+* この **プロファイルを更新** アクティビティは、列挙または推奨値として定義された XDM フィールドをサポートしていません。
 * **[!UICONTROL プロファイルを更新]**&#x200B;アクティビティでは、[プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}のみが更新され、データレイクは更新されません。
 
 ## データセットの選択 {#dataset-selection}
