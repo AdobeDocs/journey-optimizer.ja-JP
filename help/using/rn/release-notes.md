@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
+source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 69%
+source-wordcount: '1331'
+ht-degree: 67%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 69%
 
 ![ニュースレター](../assets/do-not-localize/nl-icon.png) 今すぐ [Adobe Journey Optimizer 季刊ニュースレター](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}に登録すると、最新の製品アップデート、面白い顧客事例、ユースケース、ヒントなどが、四半期ごとに直接配信されます。
 
-## 2024 年 10 月更新 {#24-10-rn}
+## 2024 年 10 月の更新 {#24-10-rn}
 
 ### 新機能 {#24-10-features}
 
-Adobe Journey Optimizerで利用可能な最新の機能を以下に示します。
+Adobe Journey Optimizerで利用できる新機能を以下に示します。
 
 <table>
 <thead>
@@ -41,11 +41,10 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 <tbody>
 <tr>
 <td>
-<p>公開日：10 月 1 日</p>
 <p>コードベースのエクスペリエンスチャネルを使用すると、Adobe Journey Optimizerは、任意のインバウンドプロパティに対して高度なパーソナライズとテストを行い、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、テレビ接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、様々なタッチポイントにわたってカスタマイズされたエクスペリエンスをシームレスに配信できます。 コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>公開日：10 月 1 日</p>
+<p>公開日：2024 年 10 月 1 日（PT）</p>
 </tr>
 </tbody>
 </table>
@@ -59,28 +58,27 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 <tbody>
 <tr>
 <td>
-<p>公開日：10 月 1 日</p>
 <p>Web チャネルを使用すると、Adobe Journey Optimizerでは、インバウンド web ジャーニーを通じて、顧客に提供する web エクスペリエンスをパーソナライズできます。 Web チャネルをジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>公開日：10 月 1 日</p>
+<p>公開日：2024 年 10 月 1 日（PT）</p>
 </tr>
 </tbody>
 </table>
 
 ### 機能強化 {#24-10-improvements}
 
-**ジャーニー**
+**ジャーニー** – 公開日：2024 年 10 月 3 日（PT）
 
-* （公開日：10 月 3 日（PT）） **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**オーディエンス** – 公開日：10 月 8 日
+**オーディエンス** – 公開日：2024 年 10 月 8 日（PT）
 
 * CSV ファイルオーディエンスをターゲティングする際に、パーソナライゼーションエディターや、ジャーニーおよびキャンペーンのルールビルダーで、ファイルの属性を使用できるようになりました。 [詳細情報](../audience/about-audiences.md)
 
 * カスタムアップロード（CSV ファイル）のオーディエンスと属性を、Healthcare Shield またはプライバシーとセキュリティシールドで使用できるようになりました。
 
-## 2024年9月リリースノート {#24-9-rn}
+## 2024 年 9 月リリース {#24-9-rn}
 
 <!--
 >[!CAUTION]
@@ -164,36 +162,6 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
@@ -207,7 +175,7 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>で実際のエクスペリエンスに浸ってください。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../content-management/gs-generative.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>公開日：9月12日（PT）</p>
+<p>公開日：2024 年 9 月 12 日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +193,7 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 <p>ガイド付きチャネル設定を使用すると、統合エクスペリエンスでチャネル設定を自動化および検証し、Journey Optimizer の使用を開始するプロセスを高速化できます。この新しいガイド付き設定により、迅速なチャネル設定が効率化され、必要なすべてのリソースがすぐにインストールされ、Experience Platform、Journey Optimizer およびデータ収集内で機能するようになります。これにより、マーケティング、製品、データエンジニアリングの各チームは、キャンペーンとジャーニーの作成をすぐに開始できます。</p>
 <p>詳しくは、<a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>公開日：9月3日（PT）</p>
+<p>公開日：2024 年 9 月 3 日（PT）</p>
 </br>
 </td>
 </tr>
@@ -243,10 +211,10 @@ Adobe Journey Optimizerで利用可能な最新の機能を以下に示します
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-**オーディエンス**
+**オーディエンス** – 公開日：2024 年 9 月 17 日（PT）
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* （公開日：9月17日（PT））**ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。[詳細情報](../audience/license-usage.md)
+* **ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。 [詳細情報](../audience/license-usage.md)
 
 **コンテンツ管理**
 
