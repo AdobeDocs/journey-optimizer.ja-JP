@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '4394'
-ht-degree: 99%
+source-wordcount: '4384'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 このページでは、2023年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
 
 
-## 2023年10月リリースノート {#oct-rn-2023}
+## 2023 年 10 月リリース {#oct-rn-2023}
 
 ### 新機能{#oct-2023-features}
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 
 
-## 2023年9月リリースノート {#sept-rn-2023}
+## 2023 年 9 月リリース {#sept-rn-2023}
 
 ### 新機能{#sept-2023-features}
 
@@ -233,7 +233,7 @@ ht-degree: 99%
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## 2023年8月リリースノート {#aug-rn-2023}
+## 2023 年 8 月リリース {#aug-rn-2023}
 
 ### 新機能{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023年7月リリースノート {#july-rn-2023}
+## 2023 年 7 月リリース {#july-rn-2023}
 
 ### 新機能{#july-2023-features}
 
@@ -446,7 +446,7 @@ Adobe Journey Optimizer API 認証用のアクセストークンを生成する 
 
 
 
-## 2023年6月リリースノート {#june-rn-2023}
+## 2023 年 6 月リリース {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## 2023年5月リリースノート {#may-rn-2023}
+## 2023 年 5 月リリース {#may-rn-2023}
 
 ### 新機能{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * アプリ内メッセージ - キャンペーンのスケジュールがメッセージの頻度設定と競合していた問題を修正しました。
 
 
-## 2023年4月リリースノート {#apr-rn-2023}
+## 2023 年 4 月リリース {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## 2023年3月リリースノート {#mar-2023}
+## 2023 年 3 月リリース {#mar-2023}
 
 ### 新機能{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/global-report.md#modify-dashboard)を参照してください。
 
-## 2023年2月リリースノート {#feb-2023}
+## 2023 年 2 月リリース {#feb-2023}
 
 ### 新機能{#feb-2023-features}
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL のパーソナライゼーション** - オファーの表示域にコンテンツとして URL を追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。[詳細情報](../offers/offer-library/add-representations.md)
 
-## 2023年1月リリースノート{#jan-2023-release}
+## 2023 年 1 月リリース {#jan-2023-release}
 
 ### 新機能{#jan-2023-features}
 

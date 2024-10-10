@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 96%
+source-wordcount: '3842'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 このページでは、2024年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
 
 
-## 2024年8月リリースノート {#8-2024}
+## 2024 年 8 月リリース {#8-2024}
 
 **リリース日**：2024年8月20日～21日（PT）
 
@@ -148,7 +148,7 @@ ht-degree: 96%
 
 
 
-## 2024年7月リリースノート {#24-7-2024}
+## 2024 年 7 月リリース {#24-7-2024}
 
 **リリース日**：2024年7月30～31日（PT）
 
@@ -199,7 +199,7 @@ ht-degree: 96%
 
 
 
-## 2024年6月リリースノート {#24-6-2024}
+## 2024 年 6 月リリース {#24-6-2024}
 
 **リリース日**：2024年6月18～19日（PT）
 
@@ -344,7 +344,6 @@ ht-degree: 96%
 * **結合ポリシー**（GA）- ジャーニーで使用される結合ポリシーがジャーニー全体で表示され、一貫性が保たれるようになりました。[詳細情報](../building-journeys/journey-properties.md#merge-policies)
 
 
-
 #### キャンペーン
 
 * Adobe Journey Optimizer でキャンペーンを作成する際、新しいモーダルでキャンペーンのタイプ（スケジュール済みまたはトリガー済み）を選択できるようになりました。[詳細情報](../campaigns/create-campaign.md)
@@ -376,7 +375,7 @@ ht-degree: 96%
 
 
 
-## 2024年5月リリースノート {#may-2024}
+## 2024 年 5 月リリース {#may-2024}
 
 **リリース日**：2024年5月21～22日（PT）
 
@@ -525,9 +524,7 @@ ht-degree: 96%
 統一されたユーザーエクスペリエンスを提供するための継続的な取り組みの一環として、Adobe Experience Cloud 製品とアプリで使用される用語を統一します。これは、ドイツ語の用語「Titel」（オブジェクトの名前に関連する場合は「ラベル」に変更される）に影響します。変更は、UI とドキュメントで段階的にロールアウトされます。
 
 
-
-
-## 2024年4月リリースノート {#apr-2024}
+## 2024 年 4 月リリース {#apr-2024}
 
 **リリース日**：2024年5月2日（PT）
 
@@ -636,7 +633,7 @@ ht-degree: 96%
 
 
 
-## 2024年3月リリースノート {#mar-2024}
+## 2024 年 3 月リリース {#mar-2024}
 
 **リリース日**：2024年3月19～20日（PT）
 
@@ -686,7 +683,7 @@ ht-degree: 96%
 
 ジャーニーが中間の状態にある場合は、読み取り専用です。[詳細情報](../building-journeys/journey-gs.md#filter)
 
-## 2024年2月リリースノート {#feb-2024}
+## 2024 年 2 月リリース {#feb-2024}
 
 **リリース日**：2024年2月21～22日（PT）
 
@@ -772,7 +769,7 @@ ht-degree: 96%
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## 2024年1月リリースノート {#jan-2024}
+## 2024 年 1 月リリース {#jan-2024}
 
 **リリース日**：2024年1月30～31日（PT）
 
