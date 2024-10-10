@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
-source-wordcount: '5454'
-ht-degree: 99%
+source-wordcount: '5555'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,18 @@ ht-degree: 99%
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
 
+## 2024年9月 {#sept-2024}
+
+* の 2024 年 9 月リリースに含まれているすべて [!DNL Journey Optimizer] 新機能と機能強化について、ドキュメントで詳しく説明しました。 [詳細情報](release-notes.md)
+* ジャーニーの再試行管理に関する節を追加しました。 [詳細情報](../building-journeys/read-audience.md#read-audience-retry)
+* カスタムアクションのキャッピング/スロットルルールに関する FAQ が更新され、デフォルトのキャッピングルールに言及するようになりました。 [詳細情報](../configuration/external-systems.md#faq)
+* 「制御アクセス」の節が更新されて、AI Assistant Content Generator に関連する権限が追加されました。 [詳細情報](../administration/high-low-permissions.md#ai-permission)
+* AI Assistant Content Generator fir のメール生成に関するビデオが追加されました。 [詳細情報](../content-management/generative-email.md#video)
+
+
 ## 2024年8月 {#aug-2024}
 
+*  [!DNL Journey Optimizer] の 8月24日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
 * 意思決定管理のパフォーマンスガードレールが更新され、エッジセグメント化の有無に関わらず、Decisioning API の配信スループットが示されています。[詳細情報](../start/guardrails.md#decision-management)
 * ジャーニーガードレールが更新されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
