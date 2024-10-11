@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 93%
@@ -43,8 +43,6 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 >* データレイクのデータの場合は 13 か月
 >
 >さらに、その時点で、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとオープンイベントの使用をサポートしなくなりました。
-
-
 
 データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 

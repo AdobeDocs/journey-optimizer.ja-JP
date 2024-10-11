@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1505'
 ht-degree: 98%
 
 ---
@@ -214,16 +214,14 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >abstract="ルールタイプ"
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="ルールキャッピング"
+>abstract="ルールキャッピング"
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="優先順位付けの先読み"
 >abstract=" ここで指定した期間内に、優先度の高いジャーニーがスケジュールされている場合、顧客はこのジャーニーにエントリできなくなります。ジャーニーを先着順でエントリさせる場合は、毎日の先行表示期間を選択し、その日の他のジャーニーの優先度スコアがそのジャーニーの優先度スコアよりも低くなるようにすることをお勧めします。また、ジャーニーに優先度スコア 100 を指定すると、ジャーニーへのエントリが確実になります。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_capping_rule"
->title="キャンペーンにルールセットを適用"
->abstract="未定"
-
-<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
