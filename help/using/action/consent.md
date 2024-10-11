@@ -8,38 +8,35 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
-exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 99%
+source-wordcount: '1242'
+ht-degree: 79%
 
 ---
 
 # 同意ポリシーの使用 {#consent-management}
 
-データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer 内のデータ操作が、[データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}に準拠していることを確認することが重要です。これらのポリシーは、データに対して実行できる[マーケティングアクション](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"}を定義する Adobe Experience Platform ルールです。
+データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer 内のデータ操作が、[データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}に準拠していることを確認することが重要です。これらのポリシーは、データに対して実行できるマーケティングアクションを定義するAdobe Experience Platform ルールです。
 
-使用可能なデータ使用ポリシーの 1 つのタイプは、**同意ポリシー**&#x200B;です。顧客の同意の環境設定に従ってマーケティングポリシーを簡単に採用および実施できます。[詳しくは、ポリシーの適用を参照してください](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=ja){target="_blank"}
+デフォルトでは、プロファイルがユーザーからの通信の受信をオプトアウトした場合、対応するプロファイルは以降の配信から除外されます。 このデフォルトのロジックを上書きする **同意ポリシー** を作成できます。 例えば、Experience Platformで同意ポリシーを作成して、特定のチャネルで通信の受信に同意しない顧客を除外できます。 カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
 
 >[!IMPORTANT]
 >
 >同意ポリシーは、現在、Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織でのみ利用できます。
 
-例えば、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外するために、Experience Platform で[同意ポリシーを作成](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}できます。
+同意ポリシーを適用する主な手順は次のとおりです。
 
-* ネイティブのアウトバウンドチャネル（メール、プッシュ、SMS、ダイレクトメール）の場合、ロジックは次のとおりです。
+1. 関連付けられたマーケティングアクションと同意ポリシーをAdobe Experience Platformで作成します。 [ 同意ポリシーの作成方法を説明します ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
 
-   * デフォルトでは、プロファイルがマーケティング組織からの通信の受信をオプトアウトした場合、対応するプロファイルは以降の配信から除外されます。
+2. チャネル設定またはジャーニーのカスタムアクションを使用して、Adobe Journey Optimizerで同意ポリシーを適用します。
 
-   * Adobe **Healthcare Shield** または **Privacy and Security Shield** を使用している場合は、デフォルトのロジックを上書きするカスタム同意ポリシーを作成できます。例えば、オプトインしたすべての個人にのみメールメッセージを送信するポリシーを定義できます。カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
+   * 関連付けられたマーケティングアクションでチャネル設定を作成します。 チャネル設定を使用して通信を作成すると、関連付けられているマーケティングアクションが継承され、Adobe Experience Platformで定義されている、対応する同意ポリシーが適用されます。 [ チャネル設定を通じて同意ポリシーを活用する方法を説明します ](#surface-marketing-actions)
 
-  カスタムポリシーを適用するには、そのポリシーにマーケティングアクションを定義して、チャネル設定に関連付ける必要があります。[詳細情報](#surface-marketing-actions)
+   * ジャーニーレベルでは、次のいずれかを実行できます。
 
-ジャーニーレベルでは、同意ポリシーをカスタムアクションに適用できます。
-
-* **カスタムアクションの設定**&#x200B;時、チャネルとマーケティングアクションを定義できます。[詳細情報](#consent-custom-action)
-* **ジャーニーのカスタムアクション**&#x200B;の追加時に、追加のマーケティングアクションを定義できます。[詳細情報](#consent-journey)
+      * カスタムアクションを設定する際に、チャネルとマーケティングアクションをカスタムアクションに関連付けます。 [ カスタムアクションを設定する際に同意ポリシーを活用する方法を説明します ](#consent-custom-action)
+      * ジャーニーでカスタムアクションを追加する際に、追加のマーケティングアクションを定義します。 [ ジャーニーでカスタムアクションを追加する際に同意ポリシーを活用する方法を説明します ](#consent-journey)
 
 ## チャネル設定を介した同意ポリシーの活用 {#surface-marketing-actions}
 
@@ -107,16 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### カスタムアクションの設定 {#consent-custom-action}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action"
->title="必須のマーケティングアクションの定義"
->abstract="必須のマーケティングアクションを使用すると、カスタムアクションに関連するマーケティングアクションを定義できます。例えば、このカスタムアクションを使用してメールを送信する場合は、メールのターゲティングを選択できます。ジャーニーで使用すると、そのマーケティングアクションに関連するすべての同意ポリシーが取得され、活用されます。これはキャンバス上では変更できません。"
+### カスタムアクションを設定する際の同意ポリシーの活用{#consent-custom-action}
 
 カスタムアクションを設定する場合、2 つのフィールドを同意管理に使用できます。
 
-「**チャネル**」フィールドでは、**メール**、**SMS** または&#x200B;**プッシュ通知**&#x200B;などの、このカスタムアクションに関連するチャネルを選択できます。これにより、「**必須のマーケティングアクション**」フィールドに、選択したチャネルのデフォルトのマーケティングアクションが事前に入力されます。**その他**&#x200B;を選択した場合、デフォルトでマーケティングアクションは定義されません。
+「**チャネル**」フィールドでは、このカスタムアクションに関連するチャネルを選択できます。 これにより、「**必須のマーケティングアクション**」フィールドに、選択したチャネルのデフォルトのマーケティングアクションが事前に入力されます。**その他**&#x200B;を選択した場合、デフォルトでマーケティングアクションは定義されません。
 
 ![](assets/consent1.png)
 
@@ -128,22 +120,7 @@ There are two types of latency regarding the use of consent policies:
 
 カスタムアクションを設定するその他の手順について詳しくは、[この節](../action/about-custom-action-configuration.md#consent-management)を参照してください。
 
-### ジャーニーの構築 {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="必須のマーケティングアクション"
->abstract="必須のマーケティングアクションは、カスタムアクションの作成時に定義されます。この必須マーケティングアクションは、アクションから削除したり、変更したりすることはできません。"
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="追加のマーケティングアクション"
->abstract="必須のマーケティングアクションに加えて、別のマーケティングアクションを追加します。両方のマーケティングアクションに関連する同意ポリシーが適用されます。"
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="実行時に適用される同意ポリシーの視覚化"
->abstract="マーケティングアクションは、アクションパラメーターと個々のプロファイルの同意値を組み合わせて、ユーザーを除外する同意ポリシーを取り込みます。更新するボタンをクリックして、これらのポリシーの最新の定義を取得します。"
+### ジャーニーにカスタムアクションを追加する際の同意ポリシーの活用 {#consent-journey}
 
 カスタムアクションをジャーニーに追加する場合、いくつかのオプションで同意を管理できます。「**読み取り専用フィールドを表示**」をクリックして、すべてのパラメーターを表示します。
 
@@ -172,9 +149,3 @@ The following data is taken into account for consent:
 -->
 
 ジャーニーでカスタムアクションを設定するその他の手順について詳しくは、[この節](../building-journeys/using-custom-actions.md)を参照してください。
-
-## チュートリアルビデオ {#video}
-
-Journey Optimizer チャネルでデータ使用ラベルが適用される方法を説明します。
-
->[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)

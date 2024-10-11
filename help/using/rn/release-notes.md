@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ Adobe Journey Optimizerで利用できる新機能を以下に示します。
 **ジャーニー** – 公開日：2024 年 10 月 3 日（PT）
 
 * **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**データガバナンスおよび同意ポリシー** – 公開日：2024 年 10 月 7 日（PT）
+
+* **データガバナンスポリシー** の適用は、Journey Optimizerのすべてのチャネルで行われるようになりました。 Adobe Experience Platformでポリシーを作成したお客様の場合、これらはチャネル設定のセットアップの一環としてマーケティングアクションに適用されます。 設定を使用してコンテンツを作成すると、すべてのパーソナライゼーションフィールドのデータガバナンス違反が確認されます。 違反が見つかった場合、ジャーニーまたはキャンペーンを公開することはできません。 [詳細情報](../action/action-privacy.md)
+
+* **カスタム同意ポリシー** がすべてのJourney Optimizer チャネルに適用されるようになりました。 メッセージの送信やインバウンドエクスペリエンスの配信の前に適用される際に、ユーザーが受信するコンテンツでパーソナライゼーションフィールドを使用することに同意しているかどうかが確認されます。 同意が得られない場合、エクスペリエンスは表示されません。 [詳細情報](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >同意ポリシーは、現在、Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織でのみ利用できます。
 
 **オーディエンス** – 公開日：2024 年 10 月 8 日（PT）
 
