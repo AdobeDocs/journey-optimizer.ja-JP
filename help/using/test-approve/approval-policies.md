@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="限定提供" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 ## 承認ポリシーの作成 {#create-policies}
 
-1. **[!UICONTROL 管理]** メニューから、**[!UICONTROL 権限]****[!UICONTROL ポリシー]** にアクセスします。
+1. Journey Optimizerの **[!UICONTROL 管理]** メニューから、**[!UICONTROL 権限]****[!UICONTROL ポリシー]** にアクセスします。
 
    ![](assets/policy_create_1.png)
 
