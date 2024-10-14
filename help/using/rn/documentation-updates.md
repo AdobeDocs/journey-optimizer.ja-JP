@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
 workflow-type: tm+mt
-source-wordcount: '5610'
+source-wordcount: '5626'
 ht-degree: 97%
 
 ---
@@ -21,9 +21,10 @@ ht-degree: 97%
 
 ## 2024年10月 {#oct-2024}
 
-* コードベースのエクスペリエンスの設定ページが改善され、サーフェス URI について説明する節など、プロセスがより明確になりました。 [詳細情報](../code-based/code-based-configuration.md)
+* **コードベースのエクスペリエンスの設定** ページが改善され、サーフェス URI について説明する節など、プロセスがより明確になりました。 [詳細情報](../code-based/code-based-configuration.md)
+* **Web チャネル設定の作成** ページが更新され、ルールに一致するページを作成する手順が明確になりました。このルールは、コードベースのエクスペリエンス設定にも適用されます。 [詳細情報](../web/web-configuration.md#web-page-matching-rule)
+* システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。 [詳細情報](../data/get-started-datasets.md)
 
-* Web チャネル設定の作成ページが更新され、ルールに一致するページを作成する手順が明確になりました。これは、コードベースのエクスペリエンス設定にも適用されます。 [詳細情報](../web/web-configuration.md#web-page-matching-rule)
 
 ## 2024年9月 {#sept-2024}
 
@@ -31,7 +32,7 @@ ht-degree: 97%
 * ジャーニーの再試行管理に関する節を追加しました。 [詳細情報](../building-journeys/read-audience.md#read-audience-retry)
 * カスタムアクションのキャッピング/スロットルルールに関する FAQ が更新され、デフォルトのキャッピングルールに言及するようになりました。 [詳細情報](../configuration/external-systems.md#faq)
 * 「制御アクセス」の節が更新されて、AI Assistant Content Generator に関連する権限が追加されました。 [詳細情報](../administration/high-low-permissions.md#ai-permission)
-* AI Assistant Content Generator fir のメール生成に関するビデオが追加されました。 [詳細情報](../content-management/generative-email.md#video)
+* メール生成用 AI Assistant コンテンツジェネレーターに関するビデオが追加されました。 [詳細情報](../content-management/generative-email.md#video)
 
 
 ## 2024年8月 {#aug-2024}
