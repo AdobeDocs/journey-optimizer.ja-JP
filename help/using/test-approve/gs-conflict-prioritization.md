@@ -1,15 +1,15 @@
 ---
 title: 競合管理と優先順位付け
-description: xxxx の方法を説明します。
+description: Journey Optimizerの競合ツールと優先順位付けツールを活用する方法を説明します。
 role: User
 level: Beginner
 badge: label="限定提供"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 3438a5edceacab13c7241e18454d84228579ebc4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 6%
+source-wordcount: '351'
+ht-degree: 5%
 
 ---
 
