@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="ブランドアセットのアップロード"
+>title="ブランドアセットをアップロード"
 >abstract="ブランドアセットをアップロードメニューを使用すると、コンテンツアクセラレーションに Journey Optimizer の AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択することができます。このオプションにより、AI アシスタントは機能と関連性を高めるために必要なすべての資料にアクセスできます。"
 
 >[!CONTEXTUALHELP]
