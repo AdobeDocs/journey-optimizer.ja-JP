@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 97%
+source-wordcount: '2067'
+ht-degree: 96%
 
 ---
 
@@ -177,6 +177,11 @@ ht-degree: 97%
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + {#test} のテストと承認
    + [競合管理と優先順位付け](using/test-approve/conflict-prioritization.md)
+   + 競合管理と優先順位付け {#conflict-prioritization}
+      + [競合管理と優先順位付けの概要](using/test-approve/gs-conflict-prioritization.md)
+      + [潜在的な競合の特定](using/test-approve/conflicts.md)
+      + [優先度スコアの割り当て](using/test-approve/priority-scores.md)
+      + [ジャーニーのキャッピングと判別](using/test-approve/journey-capping.md)
    + コンテンツのプレビューとテスト {#preview-test}
       + [サンプル入力データを使用したコンテンツのテスト](using/test-approve/simulate-sample-input.md)
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
