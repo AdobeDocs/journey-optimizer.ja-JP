@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 52%
+source-wordcount: '1215'
+ht-degree: 50%
 
 ---
 
@@ -167,6 +167,8 @@ ht-degree: 52%
 >既に実行中の別のジャーニーまたはキャンペーンと同じページに影響を与えるコードベースのジャーニーまたはキャンペーンをアクティブ化すると、すべての変更がコンテンツに適用されます。
 >
 >複数のコードベースのジャーニーまたはキャンペーンがコンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー/キャンペーンが優先されます。
+
+コードベースのジャーニーまたはキャンペーンがライブになると、アプリ実装チームは、選択した [ コードベースのエクスペリエンス設定 ](code-based-configuration.md) で定義されたサーフェスのコンテンツを取得するための明示的な API または SDK 呼び出しを行います。 お客様による様々な実装について詳しくは、[ この節 ](code-based-implementation-samples.md) を参照してください。
 
 ### コードベースのジャーニーのPublish {#publish-code-based-journey}
 

@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '5555'
-ht-degree: 98%
+source-wordcount: '5610'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
+
+## 2024年10月 {#oct-2024}
+
+* コードベースのエクスペリエンスの設定ページが改善され、サーフェス URI について説明する節など、プロセスがより明確になりました。 [詳細情報](../code-based/code-based-configuration.md)
+
+* Web チャネル設定の作成ページが更新され、ルールに一致するページを作成する手順が明確になりました。これは、コードベースのエクスペリエンス設定にも適用されます。 [詳細情報](../web/web-configuration.md#web-page-matching-rule)
 
 ## 2024年9月 {#sept-2024}
 

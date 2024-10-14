@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '720'
+ht-degree: 83%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 * また、API ベース、ヘッドレス、またはサーバーサイド実装がある場合は、[!DNL Journey Optimizer] web チャネルやアプリ内チャネルの代わりにコードベースのチャネルを使用することもできます。
 
-### コードベースのチャネルと web チャネルの比較
+### コードベースのチャネルと web チャネルの比較 {#code-based-vs-web}
 
 Web の使用例を実行するには、web チャネルまたはコードベースのエクスペリエンスを使用できますが、コンテキストに応じて、どちらか一方が適切です。いつ何を使用するかを十分な情報に基づいて決定できるように、主な違いを以下に示します。
 
@@ -103,18 +103,20 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 >[!CAUTION]
 >
->この機能は、開発担当者や経験豊富なユーザー向けです。サーフェス実装と初期設定が開発チームで処理される限り、ある程度のコード作成スキルを持つマーケターでも使用できます。
+>この機能は、開発担当者や経験豊富なユーザー向けです。チャネル設定と初期設定が開発チームによって処理されている限り、コード作成のスキルを持つマーケターが使用できます。
 
-[!DNL Journey Optimizer] コードベースのエクスペリエンス機能を使用してコンテンツを編集するには、ページやアプリを実装する必要があります。これを行うには、コンテンツを挿入または置換する特定の個々の場所（「[サーフェス](code-based-configuration.md#surface-definition)」と呼ばれる）を事前に宣言する必要があります<!--HOW??-->。
+[!DNL Journey Optimizer] コードベースのエクスペリエンス機能を使用してコンテンツを編集するには、ページやアプリを実装する必要があります。これを行うには、コンテンツを挿入または置換する特定の個々の場所（「[ サーフェス ](code-based-configuration.md#surface-definition)」と呼ばれます）を事前に宣言する必要があります。
 
 >[!NOTE]
 >
->現在、設定に関連付けられているコンテンツは、HTML または JSON のみです。<!--WILL COME LATER: text, image or another format depending on the application-->
+>現在、設定に関連付けられているコンテンツは、HTMLまたは JSON のみです。
 
 コードベースのキャンペーンを実装する主な手順を次に示します。
 
-1. アプリケーション実装で[サーフェス](code-based-configuration.md#surface-definition)を定義します。サーフェスは、基本的にコードベースのエクスペリエンスを追加する場所で、その場所を参照するコードベースのエクスペリエンスチャネル設定を作成し、この設定を使用して [!DNL Journey Optimizer] でキャンペーンを作成します。[方法について詳しくは、こちらを参照してください](create-code-based.md#create-code-based-campaign)
+1. アプリケーション実装に [ サーフェス ](code-based-configuration.md#surface-definition) を定義します。これは、基本的にコードベースのエクスペリエンスを追加する場所です。そして、その場所を参照するコードベースのエクスペリエンスチャネル設定を作成します。 [方法について詳しくは、こちらを参照してください](code-based-configuration.md#create-code-based-configuration)
+
+1. この設定を使用して、[!DNL Journey Optimizer] でジャーニーまたはキャンペーンを作成します。 [方法について詳しくは、こちらを参照してください](create-code-based.md#create-code-based-campaign)
 
 1. [!DNL Journey Optimizer] パーソナライゼーションエディターを使用して、選択した設定のコンテンツを指定してエクスペリエンスを作成します。[方法についてはこちらを参照](create-code-based.md#edit-code)
 
-1. アプリ実装チームは、明示的な API または SDK 呼び出しを行って、「バナーテキスト」や「Recommendations トレイ 1」などの名前付きサーフェスや、アプリケーション内の UI 関連以外の決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。この場合、実装チームは返されたコンテンツをレンダリングするか、その他の方法で解釈し、それに基づいて行動する責任があります。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
+1. アプリ実装チームは、明示的な API または SDK 呼び出しを行って、「バナーテキスト」や「Recommendations トレイ 1」などの名前付きサーフェスや、アプリケーション内の UI 関連以外の決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。この場合、実装チームは、返されたコンテンツのレンダリングまたはその他の方法で解釈および操作する責任を負います。 [詳細情報](code-based-implementation-samples.md)
