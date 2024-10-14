@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2073'
 ht-degree: 96%
 
 ---
@@ -429,6 +429,7 @@ ht-degree: 96%
          + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
          + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
          + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
+         + [意思決定へのカスタムアップロードオーディエンスの活用](using/offers/custom-upload-decisioning.md)
          + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
       + コンポーネントの作成 {#create-components}
          + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
