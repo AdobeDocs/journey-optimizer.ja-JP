@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}で確認することができます。
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}で確認することができます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
