@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
+source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 91%
+source-wordcount: '1155'
+ht-degree: 86%
 
 ---
 
@@ -23,9 +23,10 @@ ht-degree: 91%
 
 * Web エクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)に詳しく記載されている Adobe Experience Platform の設定を定義します。
 
-## 注意事項 {#caution-notes-web}
-
-* [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。 各パッケージのライセンス指標は、[Journey Optimizerの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ページにリストされています。 エンゲージメント可能なプロファイルの数は、[ ライセンス使用状況ダッシュボード ](../audience/license-usage.md) で確認できます。
+>
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
