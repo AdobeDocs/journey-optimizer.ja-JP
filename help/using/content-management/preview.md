@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 86%
 
 ---
 
-# コンテンツのプレビュー {#preview}
+# コンテンツを確認 {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 [テストプロファイル](test-profiles.md)を選択すると、コンテンツをプレビューできます。次の手順に従います。
 
@@ -37,3 +39,8 @@ ht-degree: 100%
    ![](../email/assets/preview-test-profile.png)
 
 1. メッセージの各バリエーションに対してメールをプレビューするには、他のテストプロファイルを選択します。
+
+>[!NOTE]
+>
+>コードベースのエクスペリエンスを作成する場合、ブラウザーまたはモバイルデバイスでパーソナライズされたコンテンツをプレビューして、実際のシミュレーションを行うことができます。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
+

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5626'
-ht-degree: 97%
+source-wordcount: '5667'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 97%
 * **Web チャネル設定の作成** ページが更新され、ルールに一致するページを作成する手順が明確になりました。このルールは、コードベースのエクスペリエンス設定にも適用されます。 [詳細情報](../web/web-configuration.md#web-page-matching-rule)
 * システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。 [詳細情報](../data/get-started-datasets.md)
 
+
+* ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
 
 ## 2024年9月 {#sept-2024}
 

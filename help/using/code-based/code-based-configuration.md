@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 42%
 
 ---
@@ -104,7 +104,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 1. プレビュー URL には、次の項目が適用されます。
 
    * 単一ページの URL を入力した場合は、その URL がプレビューに使用されます。別の URL を入力する必要はありません。
-   * [ ルールに一致するページ ](../web/web-configuration.md#web-page-matching-rule) が選択されている場合、ブラウザーでエクスペリエンスをプレビューするために使用される **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力する必要があります。
+   * [ ルールに一致するページ ](../web/web-configuration.md#web-page-matching-rule) が選択されている場合、ブラウザーでエクスペリエンスをプレビューするために使用される **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力する必要があります。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +132,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
    ![](assets/code_config_3.png){width="500"}
 
-1. デバイスでのプレビューを有効にするには、「**[!UICONTROL プレビュー URL]**」フィールドに入力します。この URL は、プレビュー <!--on device. Learn more--> をトリガーする際に使用する特定の URL をプレビューサービスに通知します。
+1. デバイスでのプレビューを有効にするには、「**[!UICONTROL プレビュー URL]**」フィールドに入力します。この URL は、デバイスでプレビューをトリガーする際に使用する特定の URL をプレビューサービスに通知します。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
 
    プレビュー URL は、アプリ内でアプリ開発者が設定したディープリンクです。 これにより、ディープリンクスキームに一致する URL が、モバイル web ブラウザーではなくアプリ内で開くようになります。 アプリに設定されているディープリンクスキームを取得するには、アプリ開発者に問い合わせてください。
 

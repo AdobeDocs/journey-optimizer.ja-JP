@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 50%
+source-wordcount: '1729'
+ht-degree: 35%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 50%
 
    また、コードコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](../content-management/fragments.md#save-as-expression-fragment)
 
-1. コードベースのエクスペリエンスでは、エクスペリエンス判定機能を使用できます。 左側のバーから **[!UICONTROL 決定ポリシー]** アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。 [詳細情報](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. コードベースのエクスペリエンスでは、エクスペリエンス判定機能を使用できます。 左側のバーから **[!UICONTROL 決定ポリシー]** アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。 [詳細情報](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ ht-degree: 50%
 >title="コードベースエクスペリエンスのプレビュー"
 >abstract="コードベースエクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
-変更したコードベースエクスペリエンスのプレビューを表示するには、次の手順に従います。テストプロファイルを選択してコンテンツをプレビューする方法について詳しくは、[コンテンツのプレビューとテスト](../content-management/preview-test.md)ページを参照してください。
+変更したコードベースエクスペリエンスのプレビューを表示するには、次の手順に従います。
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ ht-degree: 50%
 
 1. 変更したコードベースエクスペリエンスのプレビューが表示されます。
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+テストプロファイルを選択し、コンテンツをプレビューする方法について詳しくは、[ この節 ](../content-management/preview.md) を参照してください。
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### デバイスでのプレビュー {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="実際のデバイスでコードベースのエクスペリエンスをプレビューする"
+>abstract="ブラウザーまたはモバイルデバイスでパーソナライズされたエクスペリエンスのプレビューを取得して、実際のデバイスでの外観を確認します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="デバイスでコードベースの web エクスペリエンスをプレビューする"
+>abstract="QR コードをスキャンするか、リンクをコピーしてデバイスでプレビューします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="デバイスでコードベースのモバイルエクスペリエンスをプレビューする"
+>abstract="QR コードをスキャンするか、リンクをコピーしてデバイスでプレビューします。 接続したら、デバイスのピンを入力します。 プレビューリンクを更新するたびに変更を確認するには、アプリを再起動する必要がある場合があります。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="プレビューリンクを更新して、現在のビューを反映します"
+>abstract="オンデバイスプレビューには、プレビューリンクを作成または更新した時点のコンテンツが表示されます。 コンテンツを変更した場合、または別のテストプロファイルや処理を選択した場合は、プレビューを更新して、現在の表示を反映させます。"
+
+Web ページやモバイルアプリ用のコードベースのエクスペリエンスを作成する場合、ブラウザーまたはモバイルデバイスでパーソナライズされたエクスペリエンスをプレビューし、実際のデバイスでのエクスペリエンスの外観を確認できます。
+
+>[!WARNING]
+>
+>[ 決定ポリシー ](../experience-decisioning/create-decision.md) または [ パーソナライゼーション ](../personalization/personalization-build-expressions.md) コンテキスト属性を使用している場合、デバイスでプレビューを使用できません。
+
+1. **[!UICONTROL シミュレート]** 画面から、「**[!UICONTROL プレビューオプションを開く]** ボタンをクリックします。 プレビューオプションは、[ コードベースの設定 ](code-based-configuration.md#create-code-based-configuration) で選択したプラットフォームによって異なります。
+
+1. コードベースの設定で [Web プラットフォーム ](code-based-configuration.md#web) を使用している場合、「**[!UICONTROL デバイスプレビュー URL]**」読み取り専用フィールドには、現在のチャネル設定で入力された URL が事前に入力されています。
+
+   ![](assets/preview-on-device-web.png)
+
+   以下のいずれかを実行できます。
+
+   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択し、ブラウザータブにリンクを貼り付けます。 また、チームや関係者とリンクを共有することもできます。関係者は、変更が有効になる前に任意のブラウザーで新しいエクスペリエンスをプレビューできます。
+
+   * **[!UICONTROL 新しいタブで開く]** をクリックして、現在のブラウザーでリンクを開きます。
+
+   * モバイルデバイスで QR コードをスキャンして、モバイルブラウザーでプレビューリンクを開きます。
+
+1. コードベースの設定で [ モバイルプラットフォーム ](code-based-configuration.md#mobile) （iOS/Android）を使用している場合、「**[!UICONTROL ディープリンク]**」読み取り専用フィールドには、選択したプラットフォームのチャネル設定で入力された **[!UICONTROL プレビュー URL]** 値が事前に入力されています。
+
+   「**[!UICONTROL iOS]**」タブと「**[!DNL Android]**」タブを切り替えて、選択したプラットフォームのエクスペリエンスをプレビューします。
+
+   ![](assets/preview-on-device-mobile.png)
+
+   以下のいずれかを実行できます。
+
+   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択して、チームや関係者とリンクを共有します。関係者は、変更が有効になる前にモバイルブラウザーで新しいエクスペリエンスをプレビューできます。
+
+   * モバイルデバイスで QR コードをスキャンして、モバイルアプリケーションで直接プレビューリンクを開きます。 [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} セッションを確立するには、デバイスで PIN を入力する必要があります。
+
+     >[!NOTE]
+     >
+     >**Adobe Experience Platform Assurance** は、モバイルアプリでデータを収集したりエクスペリエンスを提供したりする方法の検査、配達確認、シミュレーション、検証に役立つ、Adobe Experience Cloudの製品です。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home){target="_blank"}
+
+1. 選択したテストプロファイルと、ジャーニーまたはキャンペーンで [ コンテンツ実験 ](../content-management/content-experiment.md) を使用している場合は、選択した処理のプレビューリンクが生成されます。
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   別のテストプロファイルや処理を選択すると、プレビューリンクが変わるので、各テストプロファイルや処理のリンクを作成し、エクスペリエンスを比較できます。
 
 ## コードベースのエクスペリエンスをライブにする {#code-based-experience-live}
 
@@ -168,7 +231,7 @@ ht-degree: 50%
 >
 >複数のコードベースのジャーニーまたはキャンペーンがコンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー/キャンペーンが優先されます。
 
-コードベースのジャーニーまたはキャンペーンがライブになると、アプリ実装チームは、選択した [ コードベースのエクスペリエンス設定 ](code-based-configuration.md) で定義されたサーフェスのコンテンツを取得するための明示的な API または SDK 呼び出しを行います。 お客様による様々な実装について詳しくは、[ この節 ](code-based-implementation-samples.md) を参照してください。
+コードベースのジャーニーまたはキャンペーンがライブになったら、アプリ実装チームは、選択した [ コードベースのエクスペリエンス設定 ](code-based-configuration.md) で定義されたサーフェスのコンテンツを取得するための明示的な API または SDK 呼び出しを行います。 お客様による様々な実装について詳しくは、[ この節 ](code-based-implementation-samples.md) を参照してください。
 
 ### コードベースのジャーニーのPublish {#publish-code-based-journey}
 
