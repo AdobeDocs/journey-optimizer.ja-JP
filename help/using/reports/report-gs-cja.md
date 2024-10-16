@@ -2,17 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 新しい UI のレポート
-description: 新しいインターフェイスのレポートの基本を学ぶ
+description: CJA レポートの概要
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="限定提供" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +29,7 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
   ![](assets/gs-cja-report-3.png)
 
-* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]**&#x200B;メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタンをクリックします。
+* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]** メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタンをクリックしてから、「**[!UICONTROL すべての時間レポートを表示]** をクリックします。
 
   既存のキャンペーンのリストから、選択したキャンペーンの詳細メニューの「**[!UICONTROL レポート]**」を選択することもできます。[キャンペーンレポートの詳細情報](campaign-global-report-cja.md)
 
@@ -39,10 +38,6 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 * 環境内のすべてのキャンペーンとジャーニーの指標をターゲットにする場合は、「**[!UICONTROL ジャーニー管理]**」セクション内の&#x200B;**[!UICONTROL レポート]**&#x200B;メニューに移動して、**概要**&#x200B;レポートにアクセスします。[概要レポートの詳細情報](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
-
->[!NOTE]
->
-> Journey Optimizer の従来のレポートに戻すには、「**[!UICONTROL 新しいエクスペリエンスを使用]**」オプションを切り替えるだけです。
 
 ## 前提条件 {#prerequisites}
 
@@ -57,10 +52,6 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
    * Adobe Journey Optimizerの **[!UICONTROL プロファイルの管理]** 権限。 [詳細情報](../administration/permissions.md)
 
 * Customer Journey Analytics データビューは、次の設定（**Adobe Journey Optimizer のデフォルトデータビューとして設定**）で行う必要があります。[データビューの詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview)
-
-* Journey Optimizer 内で Customer Journey Analytics ダッシュボードにアクセスするには、レポートの&#x200B;**[!UICONTROL 新しいエクスペリエンスを使用]**&#x200B;トグルを有効にするだけです。
-
-  ![](assets/cja-option.png)
 
 ## チュートリアルビデオ{#video}
 

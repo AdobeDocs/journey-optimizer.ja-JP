@@ -8,33 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 87%
 
 ---
 
 # ライブレポートの概要 {#live-report}
 
->[!AVAILABILITY]
->
->現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。[Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ。](report-gs-cja.md)
-
 **[!UICONTROL ライブレポート]**を使用し、ビルトインダッシュボードで、ジャーニーとメッセージの影響とパフォーマンスをリアルタイムで測定および視覚化します。
 配信が送信されるか、「**[!UICONTROL 過去 24 時間]**」タブからジャーニーが実行されるとすぐに、**[!UICONTROL ライブレポート]**&#x200B;でデータを入手できます。
 
-* ジャーニーのコンテキストでジャーニーをターゲットにする場合は、**[!UICONTROL ジャーニー]**&#x200B;メニューからジャーニーにアクセスし、「**[!UICONTROL レポートを表示]**」ボタンをクリックします。
+* ジャーニーのコンテキストでジャーニーをターゲットにする場合は、**[!UICONTROL アクション]** メニューからジャーニーの **[!UICONTROL その他のジャーニー]** メニューにアクセスし、「**[!UICONTROL 過去 24 時間のレポートを表示]**」ボタンをクリックします。
 
   ![](assets/report_journey.png)
 
-* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]**&#x200B;メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタンをクリックします。
+* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]** メニューからキャンペーンにアクセスし、**[!UICONTROL レポート]** ボタンをクリックしてから、**[!UICONTROL 過去 24 時間のレポートを表示]** をクリックします。
 
   ![](assets/report_campaign.png)
-
-* 配信を&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;から&#x200B;**[!UICONTROL ライブレポート]**&#x200B;に切り替える場合は、タブ切り替えボタンで「**[!UICONTROL 過去 24 時間]**」をクリックします。
-
-  ![](assets/report_3.png)
 
 Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](#list-of-components-live)を参照してください。
 
@@ -96,7 +88,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
    ![](assets/export_4.png)
 
-1. 特定のウィジェットからデータを書き出すこともできます。選択したウィジェットの横にある「**[!UICONTROL ウィジェットデータを CSV に書き出し]**」をクリックします。
+1. 特定のウィジェットからデータを書き出すこともできます。選択したウィジェットの横にある「**[!UICONTROL CSV ファイルをダウンロード]**」をクリックします。
 
    ![](assets/export_5.png)
 
