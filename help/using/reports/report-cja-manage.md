@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 92%
+source-wordcount: '1089'
+ht-degree: 78%
 
 ---
 
@@ -72,51 +72,51 @@ ht-degree: 92%
 
 >[!ENDTABS]
 
-<!--
-## Schedule exports {#schedule-export}
 
-The **Schedule export** lets you automate the delivery of up to 10 reports at weekly, monthly or yearly intervals. You can also easily manage your scheduled reports, with options to update, edit, cancel, or delete any of your scheduled exports.
+## 書き出しのスケジュール {#schedule-export}
 
-1. From your report, click **[!UICONTROL Share]** and select **[!UICONTROL Schedule export]**.
+**スケジュールの書き出し** を使用すると、最大 10 件のレポートを毎週、毎月、毎年の間隔で自動的に配信できます。 また、スケジュール済み書き出しを更新、編集、キャンセル、削除するオプションを使用して、予定レポートを簡単に管理することもできます。
+
+1. レポートで「**[!UICONTROL 共有]**」をクリックし、「**[!UICONTROL 書き出しをスケジュール]**」を選択します。
 
    ![](assets/export-schedule-1.png)
 
-1. Choose your **[!UICONTROL File type]** between CSV and PDF.
+1. CSV とPDFの間で **[!UICONTROL ファイルタイプ]** を選択します。
 
-1. If needed, you can add a **[!UICONTROL Description]** to your export.
+1. 必要に応じて、**[!UICONTROL 説明]** を書き出しに追加できます。
 
-1. Enter the name of the recipients who will receive this automated delivery.
+1. この自動配信を受信する受信者の名前を入力します。
 
    ![](assets/export-schedule-2.png)
 
-1. Choose the **[!UICONTROL Frequency]**.
+1. 「**[!UICONTROL 頻度]**」を選択します。
 
-1. Based on the selected frequency, provide the relevant scheduling details, such as:
+1. 選択した頻度に基づいて、次のような関連するスケジュールの詳細を指定します。
 
-   * Start and end dates
-   
-   * Interval (e.g., every few weeks)
+   * 開始日と終了日
 
-   * Specific day of the week
-   
-   * Week within the month
+   * 間隔（例：数週間ごと）
 
-   * Day within the month
-   
-   * Month of the year
+   * 特定の曜日
 
-1. Click **[!UICONTROL Send on schedule]**.
+   * 月内の週
 
-1. To edit previously created scheduled export, click **[!UICONTROL Share]** and select **[!UICONTROL Manage schedules]**.
+   * 月の中の日
+
+   * 月
+
+1. **[!UICONTROL スケジュールに従って送信]** をクリックします。
+
+1. 以前に作成したスケジュール済み書き出しを編集するには、「**[!UICONTROL 共有]**」をクリックし、「**[!UICONTROL スケジュールを管理]**」を選択します。
 
    ![](assets/export-schedule-3.png)
 
-1. From the list of scheduled exports, choose the one you want to update and make the necessary changes.
+1. スケジュールされた書き出しのリストから、更新する書き出しを選択し、必要な変更を加えます。
 
-1. To delete a scheduled report, select one from the managed schedules list and click **[!UICONTROL Delete]**.
+1. スケジュール済みレポートを削除するには、「管理スケジュール」リストからスケジュールを 1 つ選択し、「**[!UICONTROL 削除]**」をクリックします。
 
    ![](assets/export-schedule-4.png)
--->
+
 
 ## シンプルな指標の作成 {#create-simple-metric}
 
