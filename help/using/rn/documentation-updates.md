@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5667'
+source-wordcount: '5672'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,8 @@ ht-degree: 96%
 * **コードベースのエクスペリエンスの設定** ページが改善され、サーフェス URI について説明する節など、プロセスがより明確になりました。 [詳細情報](../code-based/code-based-configuration.md)
 * **Web チャネル設定の作成** ページが更新され、ルールに一致するページを作成する手順が明確になりました。このルールは、コードベースのエクスペリエンス設定にも適用されます。 [詳細情報](../web/web-configuration.md#web-page-matching-rule)
 * システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。 [詳細情報](../data/get-started-datasets.md)
-
-
 * ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
+* カスタムアップロードオーディエンスを意思決定に活用する方法に関する新しいページが追加されました。 [詳細情報](../offers/custom-upload-decisioning.md)
 
 ## 2024年9月 {#sept-2024}
 
@@ -131,7 +130,6 @@ ht-degree: 96%
 * `toString` 関数の&#x200B;**期間**&#x200B;パラメーターが更新されます。[詳細情報](../building-journeys/functions/functiontostring.md)
 * 一部の外部データソースのユースケースでは、カスタムアクションの使用をお勧めします。
 * イベントフィールドの構文が更新されました。次の構文は、非推奨（廃止予定）の `@(my_event.myfield}` で、`@event{my_event.myfield}` に置き換えられます。[詳細情報](../building-journeys/expression/field-references.md)
-* グローバルレポートガイドとライブレポートガイドの構成が変更されました。[詳細情報](../reports/campaign-global-report.md)
 
 +++ 2023年
 
@@ -179,7 +177,7 @@ ht-degree: 96%
 * ジャーニーの&#x200B;**認証キャッシュ管理**&#x200B;に関するメモを更新し、トークンは異なるジャーニー間で共有されないことを説明しました。[詳細情報](../datasource/external-data-sources.md#custom-authentication-mode)
 * 動作を明確にするために、ジャーニーに関する&#x200B;**エントリ管理**&#x200B;ページを更新しました。[詳細情報](../building-journeys/entry-management.md)
 * Offer Decisioning の&#x200B;**データセットを書き出し**&#x200B;が、デフォルトで有効になりました。以前の動作に関するメモを削除しました。[詳細情報](../offers/export-catalog/get-started-export.md)
-* 様々な&#x200B;**キャンペーンレポート指標**&#x200B;の名前を、ライブレポートとグローバルレポートの両方で変更しました。[詳細情報](../reports/campaign-global-report.md)
+* 様々な&#x200B;**キャンペーンレポート指標**&#x200B;の名前を、ライブレポートとグローバルレポートの両方で変更しました。[詳細情報](../reports/campaign-live-report.md)
 * Web チャネルのコンテンツ実験の前提条件に関する新しい節を追加しました。[詳細情報](../web/web-prerequisites.md#experiment-prerequisites)
 * メールコンテンツテンプレートのテスト時に現在追跡がサポートされていないことを示す警告を、**コンテンツテンプレートの操作**&#x200B;ページに追加しました。追跡をテストするには、メールでコンテンツテンプレートを使用し、配達確認を送信する必要があります。[詳細情報](../content-management/content-templates.md#test-template)
 * 公開済みのページであっても、ページの作成時に定義した URL を web ブラウザーにコピー＆ペーストするだけでランディングページにアクセスすることはできないことを指定する、いくつかの警告を&#x200B;**ランディングページの作成と公開**&#x200B;の節に追加しました。代わりに、プレビュー機能を使用してテストできます。[詳細情報](../landing-pages/create-lp.md)
@@ -297,9 +295,9 @@ ht-degree: 96%
 * [toDateOnly](../building-journeys/functions/functiontodateonly.md) および [toString](../building-journeys/functions/functiontostring.md) 関数に関するページを更新しました。
 * 時間条件パラメーターの詳細を追加しました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
 * 組み込みデータセットに関する情報を追加しました。[詳細情報](../data/get-started-datasets.md#access-datasets)
-* グローバルレポートとライブレポートの節を改善し、構成を変更しました。[詳細情報](../reports/global-report.md)
+* グローバルレポートとライブレポートの節を改善し、構成を変更しました。[詳細情報](../reports/report-gs-cja.md)
 * Adobe Journey Optimizer で使用できるすべてのレポート指標のリストを追加しました。
-  [詳細情報](../reports/global-report.md#email-and-sms-metrics)
+  [詳細情報](../reports/report-gs-cja.md#email-and-sms-metrics)
 * BCC メールの節を新しいアーカイブのサポートページに移動しました。[詳細情報](../configuration/archiving-support.md)
 
 ## 2022年8月 {#august-2022}
@@ -445,7 +443,7 @@ ht-degree: 96%
 * カスタムアクションの設定手順に動的 URL パスと動的ヘッダーを反映しました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 * アクセシビリティ機能とショートカットに関する節を追加しました。[詳細情報](../start/user-interface.md#accessibility)
 * オーディエンス評価方法に関する節を追加しました。[詳細情報](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/global-report.md)
+* 抑制リスト、許可リストおよびメールのグローバル／ライブレポートの各節にメモを追加し、「抑制」および「許可されていない」のステータスを持つプロファイルがメールレポートの「送信済み」指標から除外されることを明記しました。[詳細情報](../reports/report-gs-cja.md)
 * 許可リストに登録されていなかったので送信から除外されたメールアドレスまたはドメインを取得する方法を説明する新しい節を追加しました。[詳細情報](../configuration/allow-list.md#reporting)
 * 「許可リストの有効化」の節を更新しました。[詳細情報](../configuration/allow-list.md#enable-allow-list)
 * 「メッセージプリセットの監視」の節を更新して、プリセット作成失敗の考えられる理由と、そうしたエラーの詳細を追加しました。[詳細情報](../configuration/channel-surfaces.md#monitor-channel-surfaces)
