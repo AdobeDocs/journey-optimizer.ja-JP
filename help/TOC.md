@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
-   + グローバルレポート {#global-report}
-      + [グローバルレポートの基本を学ぶ](using/reports/global-report.md)
-      + [コンポーネントのリスト](using/reports/global-report-components.md)
-      + [ジャーニーのグローバルレポート](using/reports/journey-global-report.md)
-      + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
-      + [目標レポート](using/reports/objective-report.md)
-      + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
-      + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
-   + チャネルレポート {#channel-report}
-      + [チャネルレポートの基本を学ぶ](using/reports/channel-report-gs.md)
-      + [チャネルレポート](using/reports/channel-report.md)
+   + Customer Journey Analyticsレポート {#channel-report}
+      + [Customer Journey Analyticsレポートの基本を学ぶ](using/reports/report-gs-cja.md)
+      + [Customer Journey Analyticsを手動で設定](using/reports/cja-ajo.md)
+      + [レポートの管理](using/reports/report-cja-manage.md)
+      + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
+      + キャンペーンレポート {#reporting}
+         + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
+         + [コードベースのキャンペーンレポート](using/reports/campaign-global-report-cja-code.md)
+         + [コンテンツカードキャンペーンレポート](using/reports/campaign-global-report-cja-content.md)
+         + [ダイレクトメールキャンペーンレポート](using/reports/campaign-global-report-cja-direct.md)
+         + [メールキャンペーンレポート](using/reports/campaign-global-report-cja-email.md)
+         + [実験キャンペーンレポート](using/reports/campaign-global-report-cja-experimentation.md)
+         + [アプリ内キャンペーンレポート](using/reports/campaign-global-report-cja-inapp.md)
+         + [プッシュ通知キャンペーンレポート](using/reports/campaign-global-report-cja-push.md)
+         + [SMS キャンペーンレポート](using/reports/campaign-global-report-cja-sms.md)
+         + [Web キャンペーンレポート](using/reports/campaign-global-report-cja-web.md)
+      + ジャーニーレポート {#reporting}
+         + [ジャーニーレポート](using/reports/journey-global-report-cja.md)
+         + [コードベースのジャーニーレポート](using/reports/journey-global-report-cja-code.md)
+         + [コンテンツカードのジャーニーレポート](using/reports/journey-global-report-cja-content.md)
+         + [ダイレクトメールジャーニーレポート](using/reports/journey-global-report-cja-direct.md)
+         + [メールジャーニーレポート](using/reports/journey-global-report-cja-email.md)
+         + [アプリ内ジャーニーレポート](using/reports/journey-global-report-cja-inapp.md)
+         + [プッシュジャーニーレポート](using/reports/journey-global-report-cja-push.md)
+         + [SMS ジャーニーレポート](using/reports/journey-global-report-cja-sms.md)
+         + [Web ジャーニーレポート](using/reports/journey-global-report-cja-web.md)
+      + [概要レポート](using/reports/channel-report-cja.md)
+      + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
+      + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
+   + 以前のレポートダッシュボード {#reports}
+      + グローバルレポート {#global-report}
+         + [グローバルレポートの基本を学ぶ](using/reports/global-report.md)
+         + [コンポーネントのリスト](using/reports/global-report-components.md)
+         + [ジャーニーのグローバルレポート](using/reports/journey-global-report.md)
+         + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
+         + [目標レポート](using/reports/objective-report.md)
+         + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
+         + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
+      + チャネルレポート {#channel-report}
+         + [チャネルレポートの基本を学ぶ](using/reports/channel-report-gs.md)
+         + [チャネルレポート](using/reports/channel-report.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドのリスト](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 96%
       + [抑制リストについて](using/reports/suppression-list.md)
       + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
    + [アラート](using/reports/alerts.md)
-   + [Customer Journey Analytics の操作](using/reports/cja-ajo.md)
    + [除外の理由](using/reports/exclusion-list.md)
-+ 新しいレポートインターフェイス（LA）{#channel-report}
-   + [新しいレポートインターフェイスの基本を学ぶ](using/reports/report-gs-cja.md)
-   + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
-   + [レポートの管理](using/reports/report-cja-manage.md)
-   + [ジャーニーレポート](using/reports/journey-global-report-cja.md)
-   + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
-   + [概要レポート](using/reports/channel-report-cja.md)
-   + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
-   + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
 + 決定 {#decisioning}
    + 意思決定管理 {#offer-decisioning}
       + 意思決定管理の基本を学ぶ {#get-started-decision}
