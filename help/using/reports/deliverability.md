@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '987'
 ht-degree: 100%
 
 ---
@@ -88,6 +88,12 @@ DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、
 [詳しくは、DMARC レコードを参照してください](../configuration/dmarc-record.md)
 
 ## フィードバックループについて {#feedback-loops}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_subdomain_list"
+>title="一部のサブドメインは使用できない場合があります"
+>abstract="フィードバックループ登録が保留になっているので、特定のサブドメインは現在選択できません。この処理には、最大 10 営業日かかる場合があります。完了したら、使用可能なすべてのサブドメインから選択できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="サブドメインデリゲーションの基本を学ぶ"
 
 フィードバックループ（FBL）は、一部の ISP が提供するサービスで、メールを受信したユーザーがメールをスパム（「スパム報告」とも呼ばれます）としてマークすることを選択した場合に、メール送信者に自動的に通知できます。
 

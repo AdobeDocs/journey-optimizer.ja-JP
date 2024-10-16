@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 badge: label="限定提供"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -36,12 +36,6 @@ ht-degree: 100%
 >id="ajo_surface_dynamic_subdomain"
 >title="動的サブドメインを有効にする"
 >abstract="メール設定を作成する際に、パーソナライゼーションエディターを使用して定義した条件に基づいて、動的サブドメインを設定できます。最大 50 個の動的サブドメインを追加できます。"
-
->[!CONTEXTUALHELP]
->id="ajo_surface_dynamic_subdomain_list"
->title="一部のサブドメインは使用できない場合があります"
->abstract="フィードバックループ登録が保留になっているので、特定のサブドメインは現在選択できません。この処理には、最大 10 営業日かかる場合があります。完了したら、使用可能なすべてのサブドメインから選択できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="サブドメインデリゲーションの基本を学ぶ"
 
 メール設定を作成する際に、特定の条件に基づいて動的サブドメインを設定できます。
 
