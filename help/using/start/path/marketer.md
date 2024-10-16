@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -48,4 +48,4 @@ ht-degree: 100%
 
    ジャーニーを設計して実行する方法については、[この節](../../building-journeys/journey-gs.md)を参照してください。
 
-1. **メッセージとジャーニーを監視**&#x200B;します。メッセージが正常に実行、送信および配信されていることを確認するため、[!DNL Journey Optimizer] では、現在公開およびトリガーされているメッセージを監視する機能を提供しています。パフォーマンス監視の方法については、[この節](../../reports/global-report.md)を参照してください。
+1. **メッセージとジャーニーを監視**&#x200B;します。メッセージが正常に実行、送信および配信されていることを確認するため、[!DNL Journey Optimizer] では、現在公開およびトリガーされているメッセージを監視する機能を提供しています。パフォーマンス監視の方法については、[この節](../../reports/report-gs-cja.md)を参照してください。

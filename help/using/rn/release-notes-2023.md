@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4377'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 98%
 <p>チャネルレポート機能は、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要をアナリストやマーケターに提供します。</p>
 <p><b>レポート</b>メニューにアクセスするには、<b>チャネルレポートを表示</b>する権限が必要です。</p>
 <img src="assets/channel-reports.png"/>
-<p>詳しくは、<a href="../reports/channel-report.md">詳細なドキュメント</a>と<a href="../reports/channel-report.md#channel-report-video">チュートリアルビデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../reports/channel-report-cja.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -223,7 +223,7 @@ ht-degree: 98%
 
 **レポート**
 
-* Journey Optimizer レポートを CSV ファイルとして書き出せるようになりました。詳しくは、[詳細なドキュメント](../reports/global-report.md#export-reports)と[ハウツービデオ](../reports/global-report.md#video-csv)を参照してください。
+* Journey Optimizer レポートを CSV ファイルとして書き出せるようになりました。詳しくは、[詳細なドキュメント](../reports/report-gs-cja.md)を参照してください。
 
 **Assets**
 
@@ -531,7 +531,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/campaign-global-report-cja.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -722,7 +722,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **レポート**
 
-* Journey Optimizer レポートを PDF として書き出せるようになりました。[詳細情報](../reports/global-report.md#export-reports)
+* Journey Optimizer レポートを PDF として書き出せるようになりました。[詳細情報](../reports/report-gs-cja.md)
 
 **コンテンツデザイナー**
 
@@ -824,7 +824,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * レポートウィジェットの機能が改善され、ユーザーによるデータの表示方法をカスタマイズできるようになりました。この改善により、グラフ、表、ドーナツグラフなど、複数のビジュアライゼーションオプションの中から選択できるようになりました。
 
-  最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/global-report.md#modify-dashboard)を参照してください。
+  最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/report-gs-cja.md)を参照してください。
 
 ## 2023 年 2 月リリース {#feb-2023}
 

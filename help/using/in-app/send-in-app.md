@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 89%
@@ -64,11 +64,11 @@ ht-degree: 89%
 
 これで、キャンペーンがアクティブ化されました。キャンペーンで設定されたアプリ内通知は、すぐに送信されるか、指定日に送信されます。
 
-送信したら、キャンペーンまたはジャーニーレポート内でアプリ内メッセージの影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report.md#inapp-report)を参照してください。
+送信したら、キャンペーンまたはジャーニーレポート内でアプリ内メッセージの影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report-cja-inapp.md)を参照してください。
 
 **関連トピック：**
 
 * [アプリ内メッセージの作成 ](create-in-app.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
-* [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
+* [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)
 * [アプリ内設定](inapp-configuration.md)

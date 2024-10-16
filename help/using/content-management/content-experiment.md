@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,10 +45,6 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 ## コンテンツの作成 {#campaign-experiment}
 
 1. まず、要件に応じて、メール、SMS またはプッシュ通知の[キャンペーン](../campaigns/create-campaign.md)や[ジャーニー](../building-journeys/journeys-message.md)を作成し、設定します。
-
-   >[!AVAILABILITY]
-   >
-   >ジャーニーの実験は現在、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 1. **[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから、処理 A のパーソナライズを開始します。
 
@@ -128,4 +124,4 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
 1. メッセージコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして配信のレンダリングを制御したり、テストプロファイルでパーソナライズ設定を確認したります。[詳細情報](../content-management/preview-test.md)
 
-実験を設定したら、レポートを使用して、問題なく配信できたかどうかを追跡できます。[詳細情報](../reports/campaign-global-report.md#experimentation-report)
+実験を設定したら、レポートを使用して、問題なく配信できたかどうかを追跡できます。[詳細情報](../reports/campaign-global-report-cja-experimentation.md)

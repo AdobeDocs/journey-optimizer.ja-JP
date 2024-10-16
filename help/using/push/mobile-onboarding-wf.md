@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 badge: label="ベータ版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,5 +75,5 @@ ht-degree: 100%
 * [プッシュ通知の基本を学ぶ](get-started-push.md)
 * [プッシュ通知のデータフローとコンポーネント](push-gs.md)
 * [プッシュチャネルの設定](push-configuration.md)
-* [プッシュ通知レポート](../reports/journey-global-report.md#push-global)
+* [プッシュ通知レポート](../reports/journey-global-report-cja-push.md#push-global)
 * [プッシュ通知の作成](create-push.md)

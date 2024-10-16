@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 100%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 100%
    >
    >**[!UICONTROL トランザクション]**&#x200B;カテゴリを選択したメッセージは、頻度ルールに照らして評価されません。
 
-1. [グローバルレポート](../reports/global-report.md)および[ライブレポート](../reports/live-report.md)では、配信から除外されたプロファイルの数を確認でき、配信から除外されたユーザーの理由として考えられるビジネスルールが一覧表示されます。
+1. 配信から除外されたプロファイルの数を [Customer Journey Analyticsレポート ](../reports/report-gs-cja.md) および [ ライブレポート ](../reports/live-report.md) で確認でき、配信から除外されたユーザーの理由として考えられるビジネスルールが一覧表示されます。
 
 >[!NOTE]
 >

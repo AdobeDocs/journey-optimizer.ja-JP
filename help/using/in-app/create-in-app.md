@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '2009'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -256,5 +256,5 @@ ht-degree: 100%
 
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内メッセージのテストおよび送信](send-in-app.md)
-* [アプリ内レポート](../reports/campaign-global-report.md#inapp-report)
+* [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)
 * [アプリ内設定](inapp-configuration.md)

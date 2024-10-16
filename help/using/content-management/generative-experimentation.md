@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 100%
 
 1. キャンペーンを開始する前に、すべての設定が正しいことを再確認し、「**[!UICONTROL アクティブ化]**」をクリックします。
 
-キャンペーンを正常に設定しパーソナライズしたら、キャンペーンレポートでキャンペーンを追跡できます。[詳細情報](../reports/campaign-global-report.md)
+キャンペーンを正常に設定しパーソナライズしたら、キャンペーンレポートでキャンペーンを追跡できます。[詳細情報](../reports/campaign-global-report-cja.md)

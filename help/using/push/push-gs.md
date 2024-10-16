@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 1. パーソナライズされたプッシュペイロードは、内部のプッシュメッセージ配信サービスに転送されます
 1. 次に、この内部サービスは、メッセージに関連付けられたアプリの資格情報を検証し、
 1. 最終配信用に Apple および Google のメッセージサービスにメッセージを送信します
-1. メッセージサービスからのフィードバックは記録され、エラーと成功はジャーニーのライブおよびグローバルレポートに記録されます
+1. メッセージサービスからのフィードバックは記録され、エラーと成功はジャーニーライブおよびCustomer Journey Analyticsレポートに記録されます
 1. プッシュ通知はエンドユーザーのデバイスに配信されます
 1. エンドユーザーのプッシュ通知インタラクションは、SDK 統合を介して、エンドユーザークライアントからエクスペリエンスのイベントとして送信されます
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 **関連トピック**
 
 * [プッシュチャネルの設定](push-configuration.md)
-* [プッシュ通知レポート](../reports/journey-global-report.md#push-global)
+* [プッシュ通知レポート](../reports/journey-global-report-cja-push.md)
 * [プッシュ通知の作成](create-push.md)
 * [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)
