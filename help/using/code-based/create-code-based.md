@@ -124,7 +124,7 @@ ht-degree: 35%
 
 開発者が API または SDK 呼び出しを実行して、チャネル設定で定義されたサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
 
-## コードベースのエクスペリエンスのテスト {#test-code-based-experience}
+## コードベースエクスペリエンスのテスト {#test-code-based-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
