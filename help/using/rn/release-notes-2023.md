@@ -11,7 +11,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 このページでは、2023年にリリースされた [!DNL Journey Optimizer] の機能と改善点をすべて一覧表示しています。
 
 
-## 2023 年 10 月リリース {#oct-rn-2023}
+## 2023年10月リリース {#oct-rn-2023}
 
 ### 新機能{#oct-2023-features}
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 * 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。この改善は、待機時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。これは、以下に適用されます。
 
    * [待機アクティビティ](../building-journeys/wait-activity.md)の「**時間**」フィールド
-   * **ジャーニープロパティ** の [ 再エントリ待機期間 ](../building-journeys/journey-properties.md#entrance)
+   * [ジャーニープロパティ](../building-journeys/journey-properties.md#entrance)の&#x200B;**再エントリ待機期間**
    * [イベントアクティビティ](../building-journeys/general-events.md#events-specific-time)のタイムアウト定義の「**待機**」フィールド。
 
 <!--
@@ -101,7 +101,7 @@ ht-degree: 98%
 
 
 
-## 2023 年 9 月リリース {#sept-rn-2023}
+## 2023年9月リリース {#sept-rn-2023}
 
 ### 新機能{#sept-2023-features}
 
@@ -233,7 +233,7 @@ ht-degree: 98%
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## 2023 年 8 月リリース {#aug-rn-2023}
+## 2023年8月リリース {#aug-rn-2023}
 
 ### 新機能{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023 年 7 月リリース {#july-rn-2023}
+## 2023年7月リリース {#july-rn-2023}
 
 ### 新機能{#july-2023-features}
 
@@ -446,7 +446,7 @@ Adobe Journey Optimizer API 認証用のアクセストークンを生成する 
 
 
 
-## 2023 年 6 月リリース {#june-rn-2023}
+## 2023年6月リリース {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## 2023 年 5 月リリース {#may-rn-2023}
+## 2023年5月リリース {#may-rn-2023}
 
 ### 新機能{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * アプリ内メッセージ - キャンペーンのスケジュールがメッセージの頻度設定と競合していた問題を修正しました。
 
 
-## 2023 年 4 月リリース {#apr-rn-2023}
+## 2023年4月リリース {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## 2023 年 3 月リリース {#mar-2023}
+## 2023年3月リリース {#mar-2023}
 
 ### 新機能{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/report-gs-cja.md)を参照してください。
 
-## 2023 年 2 月リリース {#feb-2023}
+## 2023年2月リリース {#feb-2023}
 
 ### 新機能{#feb-2023-features}
 
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* **再エントリ待機期間** フィールドがジャーニープロパティに追加されました。 このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-properties.md#entrance)
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-properties.md#entrance)
 
 * **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。**オーディエンスを読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL のパーソナライゼーション** - オファーの表示域にコンテンツとして URL を追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。[詳細情報](../offers/offer-library/add-representations.md)
 
-## 2023 年 1 月リリース {#jan-2023-release}
+## 2023年1月リリース {#jan-2023-release}
 
 ### 新機能{#jan-2023-features}
 

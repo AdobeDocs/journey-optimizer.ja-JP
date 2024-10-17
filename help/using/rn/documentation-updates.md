@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
 source-wordcount: '5672'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 96%
 
 ## 2024年9月 {#sept-2024}
 
-* の 2024 年 9 月リリースに含まれているすべて [!DNL Journey Optimizer] 新機能と機能強化について、ドキュメントで詳しく説明しました。 [詳細情報](release-notes.md)
-* ジャーニーの再試行管理に関する節を追加しました。 [詳細情報](../building-journeys/read-audience.md#read-audience-retry)
-* カスタムアクションのキャッピング/スロットルルールに関する FAQ が更新され、デフォルトのキャッピングルールに言及するようになりました。 [詳細情報](../configuration/external-systems.md#faq)
-* 「制御アクセス」の節が更新されて、AI Assistant Content Generator に関連する権限が追加されました。 [詳細情報](../administration/high-low-permissions.md#ai-permission)
+* [!DNL Journey Optimizer] の 9月24日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
+* ジャーニーの再エントリ管理に関する節を追加しました。[詳細情報](../building-journeys/read-audience.md#read-audience-retry)
+* カスタムアクションのキャッピング／スロットルルールに関する FAQ が更新され、デフォルトのキャッピングルールに言及するようになりました。[詳細情報](../configuration/external-systems.md#faq)
+* 「制御アクセス」の節が更新されて、AI アシスタントコンテンツジェネレーターに関連する権限が追加されました。[詳細情報](../administration/high-low-permissions.md#ai-permission)
 * メール生成用 AI Assistant コンテンツジェネレーターに関するビデオが追加されました。 [詳細情報](../content-management/generative-email.md#video)
 
 
 ## 2024年8月 {#aug-2024}
 
-*  [!DNL Journey Optimizer] の 8月24日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] の 8月24日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
 * 意思決定管理のパフォーマンスガードレールが更新され、エッジセグメント化の有無に関わらず、Decisioning API の配信スループットが示されています。[詳細情報](../start/guardrails.md#decision-management)
 * ジャーニーガードレールが更新されました。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
@@ -186,7 +186,7 @@ ht-degree: 96%
 ## 2023年7月 {#july-2023}
 
 * [!DNL Journey Optimizer] の 7月23日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しました。[詳細情報](release-notes.md)
-* 待機アクティビティのドキュメントページが改善され、グローバルタイムアウトと再エントリの使用に関する追加情報とベストプラクティスが追加されました。 [詳細情報](../building-journeys/wait-activity.md)
+* 待機アクティビティのドキュメントページを改善し、グローバルタイムアウトと再エントリの使用に関連する追加情報とベストプラクティスを追加しました。[詳細情報](../building-journeys/wait-activity.md)
 * エントリ管理に関するページを改善しました。[詳細情報](../building-journeys/entry-management.md)
 * 「オーディエンスを読み取り」アクティビティのドキュメントに、スロットルレートに関する情報を追加しました。[詳細情報](../building-journeys/read-audience.md)
 * 再試行に関する追加情報が追加されました。[詳細情報](../start/guardrails.md#general-actions-g)

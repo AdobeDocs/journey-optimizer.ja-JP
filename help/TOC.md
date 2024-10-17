@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
 source-wordcount: '2136'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -190,11 +190,11 @@ ht-degree: 93%
       + [メール配達確認を送信](using/content-management/proofs.md)
       + [メールのレンダリングをテスト](using/content-management/rendering.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
-   + ジャーニーとキャンペーンの承認 {#approve}
-      + [承認の概要](using/test-approve/gs-approval.md)
+   + ジャーニーとキャンペーンの承認{#approve}
+      + [承認の基本を学ぶ](using/test-approve/gs-approval.md)
       + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
       + [承認をリクエスト](using/test-approve/request-approval.md)
-      + [リクエストを承認](using/test-approve/review-approve-request.md)
+      + [リクエストの承認](using/test-approve/review-approve-request.md)
 + メールチャネル {#email}
    + [メールの基本を学ぶ](using/email/get-started-email.md)
    + [メールの作成](using/email/create-email.md)
@@ -275,12 +275,12 @@ ht-degree: 93%
    + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
    + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
    + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
-+ コンテンツカード {#content-card}
++ コンテンツカード{#content-card}
    + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
    + コンテンツカードチャネルの設定 {#configure}
       + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
       + [Journey Optimizer でのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
-      + [Web SDK でのコンテンツカードのサポートの設定](using/content-card/content-card-configuration-sdk.md)
+      + [Web SDK でのコンテンツカードのサポート設定](using/content-card/content-card-configuration-sdk.md)
    + [コンテンツカードの作成](using/content-card/create-content-card.md)
    + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
 + ランディングページ {#landing-pages}
