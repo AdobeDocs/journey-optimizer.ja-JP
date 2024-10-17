@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2024 年 9 月リリース ]
+>[!TAB 2024年9月リリース]
 
-9 月リリースがリリースされました。モバイルアプリおよび web サイトのコンテンツカード、ジャーニーおよびキャンペーン（LA）の承認ポリシー、ジャーニーのグローバル終了条件などが含まれます。
+9月リリースが公開されました。モバイルアプリおよび web サイトのコンテンツカード、ジャーニーおよびキャンペーン（LA）の承認ポリシー、ジャーニーのグローバル終了条件などが含まれます。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -32,7 +32,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 [![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB CJA を使用したレポート ]
+>[!TAB CJA でのレポート]
 
 Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。
 

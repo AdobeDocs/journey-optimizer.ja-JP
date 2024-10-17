@@ -9,17 +9,17 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 同意ポリシーの使用 {#consent-management}
 
-データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer 内のデータ操作が、[データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}に準拠していることを確認することが重要です。これらのポリシーは、データに対して実行できるマーケティングアクションを定義するAdobe Experience Platform ルールです。
+データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer 内のデータ操作が、[データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}に準拠していることを確認することが重要です。これらのポリシーは、データに対して実行できるマーケティングアクションを定義する Adobe Experience Platform ルールです。
 
-デフォルトでは、プロファイルがユーザーからの通信の受信をオプトアウトした場合、対応するプロファイルは以降の配信から除外されます。 このデフォルトのロジックを上書きする **同意ポリシー** を作成できます。 例えば、Experience Platformで同意ポリシーを作成して、特定のチャネルで通信の受信に同意しない顧客を除外できます。 カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
+デフォルトでは、プロファイルがマーケティング組織からの通信の受信をオプトアウトした場合、対応するプロファイルは以降の配信から除外されます。このデフォルトのロジックを上書きする&#x200B;**同意ポリシー**&#x200B;を作成できます。例えば、Experience Platform で同意ポリシーを作成して、特定のチャネルのコミュニケーションの受信に対してまだ同意をしていない顧客を除外できます。カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
 
 >[!IMPORTANT]
 >
@@ -27,16 +27,16 @@ ht-degree: 79%
 
 同意ポリシーを適用する主な手順は次のとおりです。
 
-1. 関連付けられたマーケティングアクションと同意ポリシーをAdobe Experience Platformで作成します。 [ 同意ポリシーの作成方法を説明します ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
+1. Adobe Experience Platform で、関連付けられたマーケティングアクションと同意ポリシーを作成します。[詳しくは、同意ポリシーの作成方法を参照してください。](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
 
-2. チャネル設定またはジャーニーのカスタムアクションを使用して、Adobe Journey Optimizerで同意ポリシーを適用します。
+2. チャネル設定またはジャーニーのカスタムアクションを使用して、Adobe Journey Optimizer で同意ポリシーを適用します。
 
-   * 関連付けられたマーケティングアクションでチャネル設定を作成します。 チャネル設定を使用して通信を作成すると、関連付けられているマーケティングアクションが継承され、Adobe Experience Platformで定義されている、対応する同意ポリシーが適用されます。 [ チャネル設定を通じて同意ポリシーを活用する方法を説明します ](#surface-marketing-actions)
+   * 関連付けられたマーケティングアクションでチャネル設定を作成します。チャネル設定を使用して通信を作成すると、関連付けられているマーケティングアクションが継承され、Adobe Experience Platform で定義されている、対応する同意ポリシーが適用されます。[詳しくは、チャネル設定を通じて同意ポリシーを活用する方法を参照してください。](#surface-marketing-actions)
 
    * ジャーニーレベルでは、次のいずれかを実行できます。
 
-      * カスタムアクションを設定する際に、チャネルとマーケティングアクションをカスタムアクションに関連付けます。 [ カスタムアクションを設定する際に同意ポリシーを活用する方法を説明します ](#consent-custom-action)
-      * ジャーニーでカスタムアクションを追加する際に、追加のマーケティングアクションを定義します。 [ ジャーニーでカスタムアクションを追加する際に同意ポリシーを活用する方法を説明します ](#consent-journey)
+      * カスタムアクションを設定する際に、チャネルとマーケティングアクションをカスタムアクションに関連付けます。[詳しくは、カスタムアクションを設定する際の同意ポリシーを活用する方法を参照してください。](#consent-custom-action)
+      * ジャーニーでカスタムアクションを追加する際に、追加のマーケティングアクションを定義します。[詳しくは、ジャーニーでカスタムアクションを追加する際の同意ポリシーを活用する方法を参照してください。](#consent-journey)
 
 ## チャネル設定を介した同意ポリシーの活用 {#surface-marketing-actions}
 
@@ -106,9 +106,9 @@ There are two types of latency regarding the use of consent policies:
 
 ### カスタムアクションを設定する際の同意ポリシーの活用{#consent-custom-action}
 
-カスタムアクションを設定する場合、2 つのフィールドを同意管理に使用できます。
+カスタムアクションを設定する際には、2 つのフィールドを同意管理に使用できます。
 
-「**チャネル**」フィールドでは、このカスタムアクションに関連するチャネルを選択できます。 これにより、「**必須のマーケティングアクション**」フィールドに、選択したチャネルのデフォルトのマーケティングアクションが事前に入力されます。**その他**&#x200B;を選択した場合、デフォルトでマーケティングアクションは定義されません。
+「**チャネル**」フィールドでは、このカスタムアクションに関連するチャネルを選択できます。これにより、「**必須のマーケティングアクション**」フィールドに、選択したチャネルのデフォルトのマーケティングアクションが事前に入力されます。**その他**&#x200B;を選択した場合、デフォルトでマーケティングアクションは定義されません。
 
 ![](assets/consent1.png)
 
@@ -120,7 +120,7 @@ There are two types of latency regarding the use of consent policies:
 
 カスタムアクションを設定するその他の手順について詳しくは、[この節](../action/about-custom-action-configuration.md#consent-management)を参照してください。
 
-### ジャーニーにカスタムアクションを追加する際の同意ポリシーの活用 {#consent-journey}
+### ジャーニーでカスタムアクションを追加する際の同意ポリシーの活用 {#consent-journey}
 
 カスタムアクションをジャーニーに追加する場合、いくつかのオプションで同意を管理できます。「**読み取り専用フィールドを表示**」をクリックして、すべてのパラメーターを表示します。
 
