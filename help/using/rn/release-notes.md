@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ac2e0eb18e21c79ba44a76eb6bd1258eccaaa10c
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 59%
+source-wordcount: '1603'
+ht-degree: 57%
 
 ---
 
@@ -29,6 +29,24 @@ ht-degree: 59%
 以下に示す [ 機能 ](#24-10-features) および [ 改善点 ](#24-10-improvements) は、今月リリースされました。
 
 ### 新機能 {#24-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analyticsレポート（一般公開）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer レポートが一般提供（GA）され、Customer Journey Analytics機能との相互運用性が向上したことで、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上しました。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。</p>
+<p>一般提供になると、4 つの新機能が導入されます。シンプルな指標を作成する機能、オーディエンスを作成および公開する機能、Insight Builder を使用してアドホックな質問をする機能、主要な受信者に自動的にメールが送信されるレポートをスケジュールする機能です。</p>
+<p>詳しくは、<a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/ajo-cja.gif">
+<p>公開日：2024 年 10 月 1 日（PT）</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

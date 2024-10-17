@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '3750'
+source-wordcount: '3705'
 ht-degree: 99%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 99%
 >id="ajo_journey_live_report"
 >title="ジャーニーライブレポート"
 >abstract="ジャーニーのライブレポートでは、過去 24 時間のみのジャーニーの影響とパフォーマンスをリアルタイムで測定および視覚化できます。レポートは、ジャーニーの成功とエラーの詳細を示す様々なウィジェットに分かれています。各レポートダッシュボードは、ウィジェットのサイズ変更や削除を行うことで変更できます。"
-
->[!AVAILABILITY]
->
->現在のレポートエクスペリエンスは、10 月リリースの時点で廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。[Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ。](report-gs-cja.md)
 
 「過去 24 時間」タブからアクセスできるライブレポートには、過去 24 時間以内に発生したイベントが、イベント発生から最小 2 分の時間間隔で表示されます。これに対し、Customer Journey Analyticsレポートでは、少なくとも 2 時間前に発生したイベントに焦点を当て、選択した期間のイベントが表示されます。
 
