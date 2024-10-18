@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: AI アシスタントを使用した SMS の生成
-description: コンテンツアクセラレーションのための Journey Optimizer の AI アシスタントを使用して、SMS コンテンツの生成を開始します
+description: Journey Optimizerで AI Assistant コンテンツアクセラレーターを使用して SMS コンテンツの生成を開始
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: ht
-source-wordcount: '909'
-ht-degree: 100%
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->コンテンツアクセラレーションに対して Journey Optimizer の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Journey Optimizerで AI アシスタントコンテンツアクセラレーターを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-オーディエンスの環境設定に合わせて SMS メッセージを作成して調整したら、コンテンツアクセラレーションのための Journey Optimizer の AI アシスタントを使用してコミュニケーションを強化します。
+オーディエンスの好みに合わせて SMS メッセージを作成しカスタマイズしたら、Journey Optimizerの AI アシスタントコンテンツアクセラレーターを使用してコミュニケーションを高めます。
 
 このリソースは、コンテンツを微調整するためのインサイトに満ちたレコメンデーションを提供し、共感を呼ぶメッセージの作成や、最大限のエンゲージメントを促すのに役立ちます。
 
-コンテンツアクセラレーションに Journey Optimizer の AI アシスタントを使用する方法について詳しくは、以下のタブを参照してください。
+Journey Optimizerで AI Assistant コンテンツアクセラレーターを使用する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. コンテンツアクセラレーションに対して AI アシスタントの「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて、新しいコンテンツをパーソナライズします。
+1. AI Assistant コンテンツ アクセラレータの [**[!UICONTROL 参照コンテンツを使用]**] オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 

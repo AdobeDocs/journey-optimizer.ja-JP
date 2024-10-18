@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="コンテンツアクセラレーションに対する Journey Optimizer の AI アシスタント"
->abstract="配信を作成してパーソナライズしたら、コンテンツアクセラレーションに Journey Optimizer の AI アシスタントを使用してコンテンツを強化できます。この機能により、何を生成するかを記述することで、コンテンツを微調整できるので、パーソナライゼーションとコンテンツの改善のプロセスが簡素化されます。"
+>title="Journey Optimizerの AI Assistant コンテンツアクセラレーター"
+>abstract="配信を作成してパーソナライズしたら、Journey Optimizerの AI アシスタントコンテンツアクセラレーターを使用してコンテンツを強化できます。 この機能により、何を生成するかを記述することで、コンテンツを微調整できるので、パーソナライゼーションとコンテンツの改善のプロセスが簡素化されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="ブランドアセットをアップロード"
->abstract="ブランドアセットをアップロードメニューを使用すると、コンテンツアクセラレーションに Journey Optimizer の AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択することができます。このオプションにより、AI アシスタントは機能と関連性を高めるために必要なすべての資料にアクセスできます。"
+>abstract="「ブランドアセットをアップロード」メニューを使用すると、コンテンツを含んだ任意のブランドアセットを追加できます。コンテンツは、Journey Optimizerの AI アシスタントコンテンツアクセラレーターのコンテキストを追加したり、以前にアップロードしたアセットを選択したりできます。 このオプションにより、AI アシスタントは機能と関連性を高めるために必要なすべての資料にアクセスできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -38,20 +38,20 @@ ht-degree: 100%
 >[ライブ機能プレビュー](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}で実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 
-Microsoft Azure OpenAI と Adobe Firefly を利用した コンテンツアクセラレーションのための Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。
+Adobe Journey Optimizerの AI Assistant Content Accelerator は、Microsoft Azure OpenAI とAdobe Fireflyを活用し、テキストおよび画像に対してプロアクティブなコンテンツバリエーションの提案を行います。 メール、プッシュ、SMS の各チャネルで使用できます。この新しい機能は、プロンプトベースのテキストおよび画像の生成を提供します。画像の生成は、Adobe Firefly で管理されます。
 
-コンテンツアクセラレーションに Adobe Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。Journey Optimizer のコンテンツ実験を使用すると、ターゲットオーディエンスに最適なパフォーマンスを発揮するのはどれかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
+Adobe Journey Optimizerの AI Assistant コンテンツアクセラレーターを使用すると、様々なメインタイトルや画像を試して、メッセージの影響を最適化することができます。 複数のバリアントを生成し、それらを比較する実験を作成します。Journey Optimizer のコンテンツ実験を使用すると、ターゲットオーディエンスに最適なパフォーマンスを発揮するのはどれかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
 
 >[!IMPORTANT]
 >
 >* この機能の使用を開始する前に、関連する[ガードレールと制限](#generative-guardrails)のトピックに目を通してください。
 >
 >
->* コンテンツアクセラレーションに対して Adobe Journey Optimizer の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>* Adobe Journey Optimizerで AI アシスタントコンテンツアクセラレーターを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 ## AI アシスタントのコンテンツアクセラレータへのアクセス {#generative-access}
 
-コンテンツアクセラレーションの目的で Adobe Journey Optimizer の AI アシスタント機能にアクセスするには、ユーザーに&#x200B;**コンテンツを生成**&#x200B;する権限を付与する必要があります。[詳細情報](../administration/permissions.md)
+Adobe Journey Optimizerの AI Assistant コンテンツアクセラレーター機能にアクセスするには、**コンテンツを生成** 権限が必要です。 [詳細情報](../administration/permissions.md)
 
 +++  コンテンツ生成関連の権限を割り当てる方法について説明します。
 
@@ -59,7 +59,7 @@ Microsoft Azure OpenAI と Adobe Firefly を利用した コンテンツアク�
 
 1. 「**編集**」をクリックして、権限を変更します。
 
-1. **AI アシスタント**&#x200B;のリソースを追加し、ドロップダウンメニューから「**コンテンツを生成**」を選択します。
+1. **AI アシスタント** リソースを追加し、ドロップダウンメニューから **コンテンツを生成** を選択します。
 
    ![](assets/gen-ai-role.png){zoomable="yes"}
 
@@ -79,17 +79,17 @@ Microsoft Azure OpenAI と Adobe Firefly を利用した コンテンツアク�
 
 ## ガードレールと制限 {#generative-guardrails}
 
-メール生成でのコンテンツアクセラレーションに Adobe Journey Optimizer の AI アシスタントを使用する際の一般的なガイドラインは次のとおりです。
+Adobe Journey Optimizerの AI Assistant Content Accelerator を電子メール生成に使用する際の一般的なガイドラインを次に示します。
 
 * 生成されるコンテンツの品質は、定義したマーケティング目標／プロンプトに強く影響されます。生成 AI モデルが正確に解釈できるように、明確に定義されたプロンプトを使用します。 
 * 正確な情報が得られるように、ブランドコンテンツでブランドアセットをアップロードします。それ以外の場合、コンテンツは、公開されている情報に基づきます。アップロードされるコンテンツの形式は、PDF、JPEG、PNG、ZIP ファイル（サポートされているファイル形式を含む）のいずれかです。
 * アップロードされるブランドアセットの最大サイズは 50 MB です。サイズの大きいファイルや多数の画像を処理できますが、処理時間は長くなります。
-* ブランド固有またはカスタムテンプレートを使用して、コンテンツアクセラレーションのための Adobe Journey Optimizer の AI アシスタントを使用してメールコンテンツを作成します。最大 8〜10 個の画像を含むメールテンプレートをお勧めします。
+* ブランド固有またはカスタムテンプレートを使用して、Adobe Journey Optimizerの AI アシスタントコンテンツアクセラレーターでメールコンテンツを作成します。 最大 8〜10 個の画像を含むメールテンプレートをお勧めします。
 * バリアントを選択する際は、サムアップ、サムダウンまたはフラグのアイコンを使用して、問題のある出力を報告する必要があります。
-* AI アシスタントの使用には、Adobe Experience Cloud 生成 AI ユーザーガイドラインが適用されます。[詳細情報](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* AI アシスタントの使用には、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインが適用されます。 [詳細情報](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * メディア作成で生成 AI ツールを使用する際の透明性を促進するアドビの取り組みの一環として、アドビは、Firefly 生成アセットを含むコンテンツまたはプロジェクトのダウンロードまたは書き出し時に、コンテンツ認証情報を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
 
-コンテンツアクセラレーションのための Adobe Journey Optimizer の AI アシスタントには、次の制限が適用されます。
+Adobe Journey Optimizerの AI Assistant コンテンツアクセラレーターには次の制限があります。
 
 * サポート対象の言語は英語のみです。英語以外の入力では、一貫性のない結果や誤った結果が生成される可能性があります。英語以外の応答によって生じる問題については、現時点では対処または改善の予定はありません。
 * メール、プッシュ、web、SMS チャネルでのみ使用できます。

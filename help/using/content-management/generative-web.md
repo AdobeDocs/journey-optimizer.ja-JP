@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: AI アシスタントを使用した web ページの生成
-description: コンテンツアクセラレーションに Journey Optimizer の AI アシスタントを使用して、web ページコンテンツとアセットの生成を開始します。
+description: Journey Optimizerの AI Assistant コンテンツアクセラレーターを使用して、web ページコンテンツとアセットの生成を開始します。
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: ht
-source-wordcount: '1007'
-ht-degree: 100%
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 82%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->コンテンツアクセラレーションに対して Journey Optimizer の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Journey Optimizerで AI アシスタントコンテンツアクセラレーターを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-Web ページを作成してパーソナライズしたら、生成 AI によって実行するコンテンツアクセラレーションに Journey Optimizer の AI アシスタントを利用し、コンテンツを次のレベルに引き上げます。
+Web ページを作成してパーソナライズしたら、生成 AI を活用したJourney Optimizerの AI Assistant コンテンツアクセラレーターを使用して、コンテンツを次のレベルに引き上げます。
 
-コンテンツアクセラレーションに Journey Optimizer の AI アシスタントを使用すると、オーディエンスの共感を呼ぶ可能性の高い様々なコンテンツを提案し、配信の影響を最適化できます。
+Journey Optimizerの AI アシスタントコンテンツアクセラレーターを使用すると、オーディエンスの共感を得られる可能性の高い様々なコンテンツを提案することで、配信の影響を最適化するのに役立ちます。
 
 >[!BEGINTABS]
 
@@ -39,7 +39,7 @@ Web ページを作成してパーソナライズしたら、生成 AI によっ
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. コンテンツアクセラレーションに対して AI アシスタントの「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて、新しいコンテンツをパーソナライズします。
+1. AI アシスタントのコンテンツ アクセラレータで **[!UICONTROL 元のコンテンツを使用]** オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 
@@ -87,19 +87,19 @@ Web キャンペーンの設定を定義し、web デザイナーを使用して
 
 >[!TAB Web ページの画像生成]
 
-以下の例では、コンテンツアクセラレーションに Journey Optimizer の AI アシスタントを活用してアセットの最適化と改善を行い、より使いやすいエクスペリエンスを実現する方法について説明します。
+次の例では、Journey Optimizerで AI アシスタントコンテンツアクセラレーターを活用して、アセットを最適化および改善し、より使いやすいエクスペリエンスを確保する方法を説明します。
 
 1. Web ページを作成および設定したら、「**[!UICONTROL Web ページを編集]**」をクリックします。
 
    Web ページの設定方法について詳しくは、[このページ](../web/create-web.md)を参照してください。
 
-1. コンテンツアクセラレーションに対して AI アシスタントを使用して変更するアセットを選択します。
+1. AI Assistant コンテンツアクセラレーターで変更するアセットを選択します。
 
 1. 右側のメニューから、「**[!UICONTROL AI アシスタントを表示]**」を選択します。
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-1. コンテンツアクセラレーションに対して AI アシスタントの「**[!UICONTROL 参照スタイル]**」オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします。また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
+1. AI Assistant コンテンツアクセラレーターの **[!UICONTROL 参照スタイル]** オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 
