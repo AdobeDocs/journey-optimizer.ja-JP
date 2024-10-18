@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 47%
@@ -176,7 +176,7 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>レポートエクスペリエンスの更新（一般公開）</strong><br/></th>
+<th><strong> 更新されたレポートエクスペリエンス（一般提供） </strong><br/>2024 年 10 月 16 日（PT）から使用可能<br/></th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +186,6 @@ ht-degree: 47%
 <p>一般提供になると、4 つの新機能が導入されます。シンプルな指標を作成する機能、オーディエンスを作成および公開する機能、Insight Builder を使用してアドホックな質問をする機能、主要な受信者に自動的にメールが送信されるレポートをスケジュールする機能です。</p>
 <p>詳しくは、<a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>公開日：2024 年 10 月 16 日（PT）</p>
 </tr>
 </tbody>
 </table>
