@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 96%
+source-wordcount: '799'
+ht-degree: 75%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 クライアントサイドの実装がある場合、AEP Web SDK または AEP Mobile SDK のいずれかの AEP クライアント SDK を使用できます。
 
-* [以下](#client-side-how)の手順では、サンプル **Web SDK** 実装のコードベースのエクスペリエンスキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
+* 手順 [ 以下 ](#client-side-how) では、サンプルの **Web SDK** 実装で、コードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
 * **Mobile SDK** を使用してコードベースのチャネルを実装する手順について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}を参照してください。
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 
 1. コードベースのエクスペリエンス項目は、実装コード（[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} メソッドを使用）により手動で適用され、決定に基づいて DOM を更新する必要があります。
 
-1. コードベースのエクスペリエンスキャンペーンの場合、コンテンツがいつ表示されたかを示すために、表示イベントを手動で送信する必要があります。これは、`sendEvent` コマンドを使用して行われます。
+1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合、コンテンツがいつ表示されたかを示すには、表示イベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ ht-degree: 96%
    }
    ```
 
-1. コードベースエクスペリエンスキャンペーンの場合、ユーザーがいつコンテンツを操作したかを示すために、インタラクションイベントを手動で送信する必要があります。これは、`sendEvent` コマンドを使用して行われます。
+1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合は、ユーザーがコンテンツを操作したタイミングを示すために、インタラクションイベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 
 サーバーサイド実装がある場合は、いずれかの AEP Edge Network API を使用できます。
 
-次の手順では、web ページのサンプルの Edge Network API 実装で、コードベースのエクスペリエンスキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
+次の手順では、web ページ用のサンプルEdge NetworkAPI 実装で、コードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
 ### 仕組み
 
@@ -226,8 +226,9 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
    ).then((res) => res.json());
    ```
 
-1. コードベースのエクスペリエンスキャンペーンの JSON エクスペリエンスは、応答から読み取られ、HTML 応答の生成時に使用されます。
-1. コードベースのエクスペリエンスキャンペーンの場合、キャンペーンコンテンツがいつ表示されたかを示すために、実装内で表示イベントを手動で送信する必要があります。この例では、通知はリクエストのライフサイクル中にサーバーサイドで送信されます。
+1. コードベースのエクスペリエンスジャーニーおよびキャンペーンからの JSON エクスペリエンスは、応答から読み取られ、HTML応答の生成時に使用されます。
+
+1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合は、ジャーニーまたはキャンペーンのコンテンツが表示されたことを示すために、実装時に表示イベントを手動で送信する必要があります。 この例では、通知はリクエストのライフサイクル中にサーバーサイドで送信されます。
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 42%
+source-wordcount: '1558'
+ht-degree: 41%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 42%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="特定の場所を入力"
->abstract="このフィールドでは、ユーザーがアクセスするページ上またはアプリ内の正確な宛先を指定します。 これは、ナビゲーション構造内の特定のセクションまたはページの深さである可能性があります。"
+>title="ページまたはアプリ内の特定の場所を示します"
+>abstract="このフィールドは、ページ内またはユーザーがアクセスするアプリ内の正確な宛先を指定します。 Web ページ内の特定のセクションになるか、アプリのナビゲーション構造内の深いページになります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. **[!UICONTROL ページ上の場所]** フィールドでは、ユーザーがアクセスする web サイト内の正確な宛先を指定します。 これは、サイトのナビゲーション構造内の深い特定のセクションやページである可能性があります。
+1. **[!UICONTROL ページ上の場所]** フィールドは、ユーザーがアクセスするページ内の正確な宛先を指定します。 サイトのナビゲーション構造内のページの特定のセクションにすることができます（「hero-banner」や「product-rail」など）。
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
 1. **[!UICONTROL アプリ ID]** を入力します。 これにより、アプリの運用環境内で正確な識別と設定が可能になり、シームレスな統合と機能が保証されます。
 
-1. **[!UICONTROL アプリ内の場所またはパス]** を指定します。 このフィールドは、ユーザーがアクセスする、アプリ内の正確な宛先を指定します。 これは、アプリのナビゲーション構造内の深い部分にある特定のセクションまたはページである可能性があります。
+1. **[!UICONTROL アプリ内の場所またはパス]** を指定します。 このフィールドは、ユーザーがアクセスする、アプリ内の正確な宛先を指定します。 「ヒーローバナー」や「製品レール」など、アプリのナビゲーション構造内の深い特定のセクションまたはページを指定できます。
 
    ![](assets/code_config_3.png){width="500"}
 
