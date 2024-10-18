@@ -5,7 +5,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
@@ -26,9 +26,9 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform オ�
 
 ジョブリクエストを設定する前に、以下が作成されていることを確認します。
 
-* Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)を参照してください。
+* Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja)を参照してください。
 
-* Adobe Experience Platform の&#x200B;**オーディエンス**。オーディエンスは、評価してから更新してください。オーディエンスメンバーシップの評価を更新する方法については、[セグメント化サービスのドキュメント](http://www.adobe.com/go/segmentation-overview-en_jp)を参照してください
+* Adobe Experience Platform の&#x200B;**オーディエンス**。オーディエンスは、評価してから更新してください。オーディエンスメンバーシップの評価を更新する方法については、[セグメント化サービスのドキュメント](https://www.adobe.com/go/segmentation-overview-en_jp)を参照してください
 
   >[!NOTE]
   >

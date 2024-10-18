@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 41%
@@ -130,7 +130,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
 1. **[!UICONTROL アプリ内の場所またはパス]** を指定します。 このフィールドは、ユーザーがアクセスする、アプリ内の正確な宛先を指定します。 「ヒーローバナー」や「製品レール」など、アプリのナビゲーション構造内の深い特定のセクションまたはページを指定できます。
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. デバイスでのプレビューを有効にするには、「**[!UICONTROL プレビュー URL]**」フィールドに入力します。この URL は、デバイスでプレビューをトリガーする際に使用する特定の URL をプレビューサービスに通知します。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
 
