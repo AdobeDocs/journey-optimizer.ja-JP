@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2135'
 ht-degree: 95%
 
 ---
@@ -384,8 +384,8 @@ ht-degree: 95%
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
-   + Customer Journey Analyticsレポート {#channel-report}
-      + [Customer Journey Analyticsレポートの基本を学ぶ](using/reports/report-gs-cja.md)
+   + レポートエクスペリエンス {#channel-report} 更新
+      + [更新されたレポートエクスペリエンスの概要](using/reports/report-gs-cja.md)
       + [Customer Journey Analyticsを手動で設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
       + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
@@ -413,7 +413,7 @@ ht-degree: 95%
       + [概要レポート](using/reports/channel-report-cja.md)
       + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
       + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
-   + 以前のレポートダッシュボード {#reports}
+   + 以前のレポートエクスペリエンス {#reports}
       + グローバルレポート {#global-report}
          + [グローバルレポートの基本を学ぶ](using/reports/global-report.md)
          + [コンポーネントのリスト](using/reports/global-report-components.md)

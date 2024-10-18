@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Customer Journey Analyticsレポート
-description: CJA レポートの概要
+title: レポートエクスペリエンスの更新
+description: 更新されたレポートエクスペリエンスの概要
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 68%
 
 ---
 
-# Customer Journey Analyticsレポートの基本を学ぶ {#channel-report-gs-cja}
+# 更新されたレポートエクスペリエンスの概要 {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >

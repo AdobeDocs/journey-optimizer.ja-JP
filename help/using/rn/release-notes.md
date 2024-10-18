@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1602'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analyticsレポート（一般公開）</strong><br/></th>
+<th><strong>レポートエクスペリエンスの更新（一般公開）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -43,7 +43,7 @@ ht-degree: 92%
 <p>一般提供になると、4 つの新機能が導入されます。シンプルな指標を作成する機能、オーディエンスを作成および公開する機能、Insight Builder を使用してアドホックな質問をする機能、主要な受信者に自動的にメールが送信されるレポートをスケジュールする機能です。</p>
 <p>詳しくは、<a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>公開日：2024年10月1日（PT）</p>
+<p>公開日：2024 年 10 月 16 日（PT）</p>
 </tr>
 </tbody>
 </table>
