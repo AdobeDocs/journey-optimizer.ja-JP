@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 95%
+source-wordcount: '1671'
+ht-degree: 47%
 
 ---
 
@@ -21,47 +21,13 @@ ht-degree: 95%
 
 **以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
-## 2024年9月早期リリースノート {#e-2024}
+## 2024年10月先行リリースノート {#e-2024}
 
-**リリース日**：2024年9月24～25日（PT）
+**リリース日**:2024 年 10 月 29～30 日
 
 ### 新機能 {#e-features}
 
 このリリースでは、以下に示す新機能が導入されています。
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーとキャンペーンでの承認</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -80,53 +46,38 @@ ht-degree: 95%
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーにおけるグローバル終了条件</strong><br/></th>
+<th><strong>ジャーニーとキャンペーンの承認（一般提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>次に、ジャーニーレベルでの終了条件を定義します。終了条件を追加して、イベント（例：購買）が発生した直後やオーディエンスに適合した直後に、プロファイルによってジャーニーを終了させます。これにより、ユーザーはジャーニーからそれ以降の通信を受信できなくなります。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
+<p>以前は一連の組織（LA）で使用できましたが、すべてのユーザーが承認ポリシーを使用できるようになりました（GA）。</p>
+<p>詳しくは、<a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントコンテンツアクセラレータ </strong><br/></th>
+<th><strong>メール設定のパーソナライゼーション（一般提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成してパーソナライズしたら、Journey Optimizerの AI アシスタントコンテンツアクセラレーターを使用してコンテンツを次のレベルに引き上げます。 AI アシスタントを使用して、様々なメインタイトルや画像で実験することで、メッセージの影響を最適化できるようになりました。 各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
-<p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>で実際のエクスペリエンスに浸ってください。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
-<p>詳しくは、<a href="../content-management/gs-generative.md">詳細なドキュメント</a>を参照してください。</p>
-<img src="assets/do-not-localize/ai-content.gif"/>
-<p>公開日：9月12日（PT）</p>
+<p>メール設定の柔軟性と制御を高めるために、メールチャネル設定を作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義できるようになりました。</p>
+<p>以前は複数の組織（LA）で使用できましたが、現在は、すべてのユーザー（GA）がメール設定を使用できます。</p>
+<p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -135,78 +86,214 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>ガイド付きチャネル設定</strong><br/></th>
+<th><strong>Web デザイナーの非ビジュアル編集モード</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ガイド付きチャネル設定を使用すると、統合エクスペリエンスでチャネル設定を自動化および検証し、Journey Optimizer の使用を開始するプロセスを高速化できます。この新しいガイド付き設定により、迅速なチャネル設定が効率化され、必要なすべてのリソースがすぐにインストールされ、Experience Platform、Journey Optimizer およびデータ収集内で機能するようになります。これにより、マーケティング、製品、データエンジニアリングの各チームは、キャンペーンとジャーニーの作成をすぐに開始できます。</p>
-<p>詳しくは、<a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-<p>公開日：9月3日（PT）</p>
-</br>
+<p>Journey Optimizerの web デザイナーの代わりに、非ビジュアルエディターを使用して web サイトに変更を追加できるようになりました。 これにより、ビジュアルエディターでページを開かずに、手動で変更を入力できます。
+この非視覚編集モードは、web デザイナーでページを読み込むために必要なAdobe Experience Cloud Visual Helper などのブラウザー拡張機能をインストールできない場合に役立ちます。</p>
+<!--p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>可動インクとAdobe Journey Optimizerの統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Movable Ink Da Vinci とAdobe Journey Optimizerを統合できるようになりました。 この新しい統合により、以下が可能になります。 </p>
+<p><ul><li>Movable Ink の Da Vinci 製品の強力な機能を活用して、バッチキャンペーン用のメールバリエーションを組み立て、パーソナライズします</li>
+<li>オーサリングに Da Vinci を、最適化と配信にAJOを使用することで、Journey Optimizerのお客様向けの実践者ワークフローを高速化します</li>
+<li>Adobeデータを使用してダヴィンチモデルを最適化します。</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーでの実験（一般提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer は、キャンペーンで既に使用可能で、ジャーニーでの実験をサポートするようになりました。実験はランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別のバリエーションや処理を行うことを意味します。公開後、メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
+<p>以前は一連の組織（LA）で使用できましたが、ジャーニー内の実験をすべてのユーザーが使用できるようになりました（GA）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>ビジネス・ルール（一般公開）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>詳細なフリークエンシーキャッピングルールを作成し、ルールセットを使用して様々なタイプのマーケティングコミュニケーションに適用できるようになりました。 この新しい機能を使用すると、過剰に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルルールを設定することで、オーディエンスがメッセージを受け取る頻度を制御できます。</p>
+<p>以前は一連の組織（LA）で使用できましたが、現在はすべてのユーザー（GA）がルールセットを使用できるようになりました。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーとキャンペーンでの多言語メッセージ（一般提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>1 つのキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できるようになりました。この機能を使用すると、キャンペーンやジャーニーを編集する際に言語を切り替え、編集プロセス全体を効率化し、多言語コンテンツを効率的に管理する機能を向上させることができます。</p>
+<p>以前は複数の組織（LA）で使用できましたが、多言語メッセージをすべてのユーザーが使用できるようになりました（GA）。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>レポートエクスペリエンスの更新（一般公開）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer レポートが一般提供（GA）され、Customer Journey Analytics機能との相互運用性が向上したことで、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上しました。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。</p>
+<p>一般提供になると、4 つの新機能が導入されます。シンプルな指標を作成する機能、オーディエンスを作成および公開する機能、Insight Builder を使用してアドホックな質問をする機能、主要な受信者に自動的にメールが送信されるレポートをスケジュールする機能です。</p>
+<p>詳しくは、<a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/ajo-cja.gif">
+<p>公開日：2024 年 10 月 16 日（PT）</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーでのコードベースのエクスペリエンス</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>コードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizer を使用して、あらゆるインバウンドプロパティに対して高度なパーソナライゼーションとテストを行うことができ、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、多様なタッチポイントに合わせたエクスペリエンスをシームレスに配信できます。コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
+<p>詳しくは、<a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>公開日：2024年10月1日（PT）</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーでの web エクスペリエンス</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Web チャネルを使用すると、Adobe Journey Optimizer では、インバウンド web ジャーニーを通じて顧客に提供する web エクスペリエンスをパーソナライズできます。Web チャネルをジャーニーキャンバスで使用できるようになりました。</p>
+<p>詳しくは、<a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+<p>公開日：2024年10月1日（PT）</p>
+</tr>
+</tbody>
+</table>
+
+>[!IMPORTANT]
+>
+>現在のレポートエクスペリエンスは、2025 年 1 月をもって廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。
+>
+> [Journey Optimizer の新しいレポートインターフェイスの使用を開始する方法を学ぶ](../reports/report-gs-cja.md)
+
 
 ### 機能強化 {#e-improvements}
 
 このリリースでは、以下に示す機能強化が含まれています。
 
-**オーディエンス**
+**SMS チャネル**
 
-* カスタムアップロード（CSV ファイル）からのオーディエンスを、プライバシーとセキュリティシールドアドオンで使用できるようになりました。
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* （公開日：9月17日（PT））**ライセンス使用状況** - ライセンス使用状況ダッシュボードに、エンゲージメント可能なオーディエンスではなく、エンゲージメント可能なプロファイルが表示されるようになりました。[詳細情報](../audience/license-usage.md)
+メッセージング機能を向上させるために、SMS の機能強化が導入されました。
 
-**データガバナンス**
+* SMS キャンペーンおよびジャーニーに固有のキーワードを定義および管理して、よりパーソナライズされた効率的な通信を可能にできます。
+* キーワードが認識されない場合は、デフォルトの SMS メッセージを作成して配信できます。
 
-* Journey Optimizer チャネルに、ジャーニー内のカスタムアクションに加えて、データガバナンスポリシーを適用できるようになりました。この機能強化により、チャネル設定内でマーケティングアクションを直接適用することで、通信における機密フィールドの使用を防ぐことができます。
+**頻度・優先度管理**
 
-<!--
-**Frequency and priority management**
+* **キャンペーンまたはジャーニー別のフリークエンシーキャップ** - ジャーニーに適用する頻度ルールを作成できるようになりました。1 日、1 週間または 1 か月あたりのジャーニー数を制限し、同時に実行する同時ジャーニーの数を制御できます。
 
-* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
+* **優先度スコア** - キャンペーンまたはジャーニーに 0 ～ 100 の範囲で優先度スコアを割り当てることができるようになりました。 数値が大きいほど、優先度が高くなります。2 つのキャンペーンまたはジャーニーが同じサーフェスを使用する場合、Journey Optimizerは優先度スコアが最も高いキャンペーンまたはジャーニーを選択します。 キャンペーンのスコアが同じ場合は、最近変更されたキャンペーンが選択されます。 優先度スコアは、キャンペーンのすべてのインバウンドチャネルと、ジャーニーのアプリ内チャネルで使用できます。
 
-* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
+* **競合の表示** - ジャーニーとキャンペーンの新しい **競合の表示** ボタンでは、開始日、ターゲットオーディエンス、選択したチャネル設定など、他のジャーニーやキャンペーンと重複する可能性がある場合はいつでも確認できるようになりました。
 
-* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
--->
+**意思決定管理**
 
+* **監査** - 「**変更ログ**」タブ。オファーに加えられたすべての変更や、決定が削除されたことを確認できます。 オファーと決定に関連する変更は、**監査**&#x200B;メニューで確認できるようになりました。
+
+
+**設定**
+
+* **サーフェスのパーソナライゼーション** - キャンペーンやジャーニーでパーソナライズされた設定を使用する場合、メールコンテンツをプレビューして、定義した動的設定で潜在的なエラーを確認できるようになりました。
 
 **ジャーニー**
 
-* **ライブジャーニーの最大数** - Journey Optimizer では、実稼動サンドボックスでのライブジャーニーのガードレールが 100 個ではなく 500 個になりました。ライブジャーニーの数は、ジャーニーキャンバスに表示されます。
+* **ジャーニーでのパス実験** - ジャーニーパス実験では、ジャーニーパスの主要指標を定義および追跡できるようになり、アクティビティの影響を測定し、パフォーマンスに対するより明確なインサイトを提供できます。
 
-* **ライブレポートの機能強化** - ライブレポートでは、過去 24 時間のジャーニーのパフォーマンスに関するインサイトを提供します。新しい指標（エントリ済み、終了、破棄されたプロファイルやエラーのあるプロファイル）を追加することで機能強化を行い、ジャーニーキャンバスから直接、ユーザーの行動とパフォーマンスをより深く理解できるようになりました。
+* **ライブジャーニーの最大数** - Journey Optimizer では、実稼動サンドボックスでのライブジャーニーのガードレールが 100 個ではなく 500 個になりました。ライブジャーニーの数は、ジャーニーキャンバスに表示されます。<!-- DOCAC-10977-->
 
-* **カスタムアクションのパラメーター** - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。
+* **有効期間ガードレール** - 2024 年 11 月 1 日（PT）より、Journey Optimizer システム生成データセットに次のような有効期間（TTL）ガードレールが適用されます。
 
-* （公開日：9月10日（PT））**「オーディエンスを読み取り」の自動再試行** - 書き込みジョブの取得中に、オーディエンスによってトリガーされるジャーニー（「**オーディエンスを読み取り**」または「**ビジネスイベント**」から開始）に再試行がデフォルトで適用されるようになりました。書き出しジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。[詳細情報](../building-journeys/read-audience.md#retries)
+   * プロファイルストアのデータについては 90 日
+   * データレイクのデータの場合は 13 か月
 
-**メールチャネル**
+さらに、その時点で、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとフィードバックイベントの使用をサポートしなくなりました。 これらのイベントをしばらくストリーミングセグメント化に使用しないことをお勧めしてきましたが、今後は完全に無効にします。
 
-* **BCC メッセージヘッダー** - すべてのメールメッセージに新しいヘッダーが追加されました。このヘッダーの値は、送信された各メールと、対応する BCC メールコピーに対して一意です。また、このヘッダーは、メッセージと BCC フィードバックデータセットにも保存され、BCC コピーと対応する送信済みメール情報を調整できます。
-* **スパムのスコアリング**（GA）- 専用のスパムレポートでコンテンツのスパムのスコアを確認できるようになりました。Adobe Journey Optimizer では、SpamAssassin を使用してメールコンテンツをテストし、ISP またはメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できるようになりました。[詳細情報](../content-management/spam-report.md)
+* この変更により、ストリーミングセグメント化での送信/開封イベントの使用のみが制限されます。クリックイベントは、ストリーミングセグメントでも使用できます。 また、送信/オープンイベントは、バッチセグメントで引き続き使用できます。
+* トラッキングデータは引き続き収集されます。 この変更はトラッキングには影響しません。 誰にメールが送信され、誰がメールをクリックしたかを追跡できます。
+* ジャーニーの反応イベントは、この変更による影響を受けません。
 
-**SMS チャネル**
+* **カスタムアクションのパラメーター** （公開日：2024 年 10 月 3 日（PT）） – カスタムアクションで NULL およびオプションのパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-* 既存の SMS 設定を変更できるようになりました。
+**データガバナンスおよび同意ポリシー** - 公開日：2024年10月7日（PT）
 
-**API**
+* **データガバナンスポリシー**&#x200B;が、Journey Optimizer のすべてのチャネルで運用されるようになりました。Adobe Experience Platform でポリシーを作成したお客様の場合、これらはチャネル設定のセットアップの一環としてマーケティングアクションに適用されます。設定を使用してコンテンツを作成すると、すべてのパーソナライゼーションフィールドでデータガバナンス違反がないかを確認します。違反が見つかった場合、ジャーニーまたはキャンペーンを公開することはできません。[詳細情報](../action/action-privacy.md)
 
-* [Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}がインタラクティブになりました。ドキュメントページから直接 API エンドポイントを調べて、即時のフィードバックを取得し、技術的な実装を高速化します。
+* **カスタム同意ポリシー**&#x200B;がすべての Journey Optimizer チャネルに適用されるようになりました。メッセージの送信やインバウンドエクスペリエンスの配信の前に適用されると、ユーザーが受信するコンテンツでパーソナライゼーションフィールドを使用することに同意しているかどうかが確認されます。同意が得られない場合、エクスペリエンスは表示されません。[詳細情報](../action/consent.md)
 
-  すべての API リファレンスページに&#x200B;**試す**&#x200B;機能が追加され、ドキュメントの web サイトページで直接 API 呼び出しをテストできるようになりました。[必要な認証資格情報を取得し](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}、API エンドポイントを探索する機能の使用を開始します。
-
-  この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即時のフィードバックを取得し、技術的な実装を高速化します。
-
-  >[!CAUTION]
+  >[!NOTE]
   >
-  >ドキュメントページのインタラクティブ API 機能を使用すると、エンドポイントに対して実際の API 呼び出しを行うことができます。実稼動サンドボックスを使用して実験する際は、この点に留意してください。
+  >同意ポリシーは、現在、Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織でのみ利用できます。
+
+**オーディエンス** - 公開日：2024年10月8日（PT）
+
+* CSV ファイルオーディエンスをターゲティングする場合、パーソナライゼーションエディターや、ジャーニーおよびキャンペーンのルールビルダーで、ファイルの属性を使用できるようになりました。[詳細情報](../audience/about-audiences.md)
+
+* カスタムアップロード（CSV ファイル）からのオーディエンスおよび属性を、Healthcare Shield またはプライバシーとセキュリティシールドで使用できるようになりました。
 
 
-* **Campaign Simulation API** - この API を使用して、キャンペーンの配達確認ジョブをトリガーします。キャンペーンの配達確認の送信は非同期プロセスで、API は配達確認のステータスを確認するために使用できる配達確認ジョブ ID を返します。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
