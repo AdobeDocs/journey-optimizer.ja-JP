@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1672'
 ht-degree: 47%
 
 ---
@@ -100,26 +100,6 @@ ht-degree: 47%
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>可動インクとAdobe Journey Optimizerの統合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Movable Ink Da Vinci とAdobe Journey Optimizerを統合できるようになりました。 この新しい統合により、以下が可能になります。 </p>
-<p><ul><li>Movable Ink の Da Vinci 製品の強力な機能を活用して、バッチキャンペーン用のメールバリエーションを組み立て、パーソナライズします</li>
-<li>オーサリングに Da Vinci を、最適化と配信にAJOを使用することで、Journey Optimizerのお客様向けの実践者ワークフローを高速化します</li>
-<li>Adobeデータを使用してダヴィンチモデルを最適化します。</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ ht-degree: 47%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong> 更新されたレポートエクスペリエンス（一般提供） </strong><br/>2024 年 10 月 16 日（PT）から使用可能<br/></th>
+<th><strong>可動インクとAdobe Journey Optimizerの統合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Movable Ink Da Vinci とAdobe Journey Optimizerを統合できるようになりました。 この新しい統合により、以下が可能になります。 </p>
+<p><ul><li>Movable Ink の Da Vinci 製品の強力な機能を活用して、バッチキャンペーン用のメールバリエーションを組み立て、パーソナライズします</li>
+<li>オーサリングに Da Vinci を、最適化と配信にAJOを使用することで、Journey Optimizerのお客様向けの実践者ワークフローを高速化します</li>
+<li>Adobeデータを使用してダヴィンチモデルを最適化します。</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>レポートエクスペリエンスの更新（一般公開）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>2024 年 10 月 16 日（PT）以降に使用可能</p>
 <p>Journey Optimizer レポートが一般提供（GA）され、Customer Journey Analytics機能との相互運用性が向上したことで、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上しました。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標をより明確に把握でき、より十分な情報に基づいた意思決定が可能になります。</p>
 <p>一般提供になると、4 つの新機能が導入されます。シンプルな指標を作成する機能、オーディエンスを作成および公開する機能、Insight Builder を使用してアドホックな質問をする機能、主要な受信者に自動的にメールが送信されるレポートをスケジュールする機能です。</p>
 <p>詳しくは、<a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>重要：現在のレポートエクスペリエンスは、2025 年 1 月をもって廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。<a href="../reports/report-gs-cja.md">Journey Optimizer の新しいレポートインターフェイスの使用を開始する方法を学ぶ</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
+<p>2024 年 10 月 1 日（PT）から使用可能</p>
 <p>コードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizer を使用して、あらゆるインバウンドプロパティに対して高度なパーソナライゼーションとテストを行うことができ、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、多様なタッチポイントに合わせたエクスペリエンスをシームレスに配信できます。コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>公開日：2024年10月1日（PT）</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
+<p>2024 年 10 月 1 日（PT）から使用可能</p>
 <p>Web チャネルを使用すると、Adobe Journey Optimizer では、インバウンド web ジャーニーを通じて顧客に提供する web エクスペリエンスをパーソナライズできます。Web チャネルをジャーニーキャンバスで使用できるようになりました。</p>
 <p>詳しくは、<a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>公開日：2024年10月1日（PT）</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->現在のレポートエクスペリエンスは、2025 年 1 月をもって廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。
->
-> [Journey Optimizer の新しいレポートインターフェイスの使用を開始する方法を学ぶ](../reports/report-gs-cja.md)
-
 
 ### 機能強化 {#e-improvements}
 
@@ -270,11 +262,11 @@ ht-degree: 47%
    * プロファイルストアのデータについては 90 日
    * データレイクのデータの場合は 13 か月
 
-さらに、その時点で、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとフィードバックイベントの使用をサポートしなくなりました。 これらのイベントをしばらくストリーミングセグメント化に使用しないことをお勧めしてきましたが、今後は完全に無効にします。
+  さらに、その時点で、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとフィードバックイベントの使用をサポートしなくなりました。 これらのイベントをしばらくストリーミングセグメント化に使用しないことをお勧めしてきましたが、今後は完全に無効にします。
 
-* この変更により、ストリーミングセグメント化での送信/開封イベントの使用のみが制限されます。クリックイベントは、ストリーミングセグメントでも使用できます。 また、送信/オープンイベントは、バッチセグメントで引き続き使用できます。
-* トラッキングデータは引き続き収集されます。 この変更はトラッキングには影響しません。 誰にメールが送信され、誰がメールをクリックしたかを追跡できます。
-* ジャーニーの反応イベントは、この変更による影響を受けません。
+   * この変更により、ストリーミングセグメント化での送信/開封イベントの使用のみが制限されます。クリックイベントは、ストリーミングセグメントでも使用できます。 また、送信/オープンイベントは、バッチセグメントで引き続き使用できます。
+   * トラッキングデータは引き続き収集されます。 この変更はトラッキングには影響しません。 誰にメールが送信され、誰がメールをクリックしたかを追跡できます。
+   * ジャーニーの反応イベントは、この変更による影響を受けません。
 
 * **カスタムアクションのパラメーター** （公開日：2024 年 10 月 3 日（PT）） – カスタムアクションで NULL およびオプションのパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
