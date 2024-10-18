@@ -7,11 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="限定提供" type="Informative"
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 100%
 
 ---

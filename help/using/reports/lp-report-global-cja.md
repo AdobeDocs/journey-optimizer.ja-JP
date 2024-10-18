@@ -7,11 +7,10 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="限定提供" type="Informative"
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '789'
 ht-degree: 100%
 
 ---
