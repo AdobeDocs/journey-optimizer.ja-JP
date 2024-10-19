@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '860'
-ht-degree: 100%
+source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 95%
 
 ---
 
@@ -37,12 +37,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 >[!NOTE]
 >
->2024年11月1日（PT）より、Journey Optimizer システム生成データセットに対して、次のような有効期間（TTL）ガードレールが適用されます。
->
->* プロファイルストアのデータの場合は 90 日
->* データレイクのデータの場合は 13 か月
->
->さらに、その時点で、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとオープンイベントの使用をサポートしなくなります。
+>2024 年 11 月 1 日（PT）より、Journey Optimizer システム生成データセットに Time-to-Live （TTL）ガードレールが適用されます。 さらに、その時点で、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとオープンイベントの使用をサポートしなくなりました。 [詳細情報](datasets-ttl.md)
 
 データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 
