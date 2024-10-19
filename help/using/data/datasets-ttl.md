@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 新しい有効期間（TTL）ガードレールについて
-description: Adobe Journey Optimizerの新しい有効期間（TTL）ガードレール
+title: Time-to-Live （TTL）とストリーミングセグメント化の変更について
+description: Adobe Journey Optimizerでの Time-to-Live とストリーミングセグメント化の変更
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 7%
 
 ---
 
 
-# Time-to-Live （TTL）とストリーミングセグメント化の更新 {#ttl-guardrail}
+# 有効期間とストリーミングセグメント化の変更 {#ttl-guardrail}
 
 ## 有効期間（TTL）ガードレール {#ttl}
 
@@ -49,7 +49,7 @@ CJA のデータは、Experience Platformと同期が維持されます。 し�
 
 ## ストリーミングセグメント化の更新 {#segmentation-update}
 
-さらに 11 月 1 日（PT）をもって、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとフィードバックイベントの使用がサポートされなくなります。 この慣行が過去に推奨されていない理由については、[ こちら ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) を参照してください。
+さらに 11 月 1 日（PT）をもって、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとフィードバックイベントの使用がサポートされなくなります。  この慣行が過去に推奨されていない理由については、[ こちら ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) を参照してください。
 
 
 **よくある質問**
