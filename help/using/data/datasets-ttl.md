@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '401'
 ht-degree: 7%
 
 ---
@@ -49,8 +49,7 @@ CJA のデータは、Experience Platformと同期が維持されます。 し�
 
 ## ストリーミングセグメント化の更新 {#segmentation-update}
 
-さらに 11 月 1 日（PT）をもって、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとフィードバックイベントの使用がサポートされなくなります。  この慣行が過去に推奨されていない理由については、[ こちら ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) を参照してください。
-
+さらに 11 月 1 日（PT）をもって、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントとフィードバックイベントの使用がサポートされなくなります。  この慣行が過去に推奨されていない理由については、[ こちら ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) を参照してください。 この変更は、そのときのすべての顧客サンドボックスおよび組織に適用されます。
 
 **よくある質問**
 
