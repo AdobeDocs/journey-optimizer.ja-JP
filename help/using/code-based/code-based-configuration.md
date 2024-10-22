@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 41%
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 41%
 
 コードベースのエクスペリエンス設定では、サーフェス（基本的には変更をレンダリングする場所）を参照する必要があります。 選択したプラットフォームに応じて、場所/パスまたはフルサーフェス URI を入力する必要があります。 [詳細情報](#surface-definition)
 
-## コードベースのエクスペリエンス設定を作成する {#create-code-based-configuration}
+## コードベースのエクスペリエンス設定の作成 {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
@@ -112,16 +112,16 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
    ![](assets/code_config_location_on_page.png)
 
-### モバイルプラットフォーム（iOSおよびAndroid） {#mobile}
+### モバイルプラットフォーム（iOS および Android） {#mobile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="アプリ ID を入力"
->abstract="アプリ ID を入力して、アプリケーションの運用環境内で正確に識別および設定し、シームレスな統合と機能を確保します。"
+>abstract="アプリケーションの運用環境内での正確な識別と設定用にアプリ ID を入力し、シームレスな統合と機能を実現します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="コンテンツのプレビュー用 URL を入力"
+>title="コンテンツをプレビューする URL を入力"
 >abstract="このフィールドは、アプリケーション内のデバイスでコンテンツのシミュレーションとプレビューを直接有効にするのに不可欠です。"
 
 モバイルプラットフォーム用にコードベースのエクスペリエンス設定を定義するには、次の手順に従います。
@@ -178,9 +178,9 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="コンポーネントのサーフェス URI の追加"
->abstract="実装が Web、iOS、Android向けでない場合、または特定の URI をターゲットにする必要がある場合は、サーフェス URI を入力します。これは、エクスペリエンスを配信するエンティティを指す一意の ID です。 独自の実装で使用する URI と一致するサーフェス URI を入力していることを確認してください。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="他のプラットフォーム用にコードベースのエクスペリエンス設定を作成する"
+>title="コンポーネント用のサーフェス URI を追加"
+>abstract="実装が web、iOS、Android 向けでない場合、または特定の URI をターゲットにする必要がある場合は、サーフェス URI を入力します。これは、エクスペリエンスを配信するエンティティを指す一意の ID です。独自の実装で使用する URI と一致するサーフェス URI を入力していることを確認してください。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
 
 コードベースのエクスペリエンス **サーフェス** は、ユーザーまたはシステムインタラクション用に設計された任意のエンティティで、**URI** によって一意に識別されます。 サーフェスは、アプリケーション実装で指定され、コードベースのエクスペリエンスチャネル設定で参照されるサーフェスと一致する必要があります。
 
