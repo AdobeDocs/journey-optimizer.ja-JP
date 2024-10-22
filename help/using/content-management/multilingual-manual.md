@@ -10,10 +10,10 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="限定提供" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 95%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->9 月のリリース以降、新しいキャンペーンとジャーニーのアクティブ化エクスペリエンスを使用すると、承認プロセス全体を管理し、キャンペーンとジャーニーが運用開始前に適切な関係者によって徹底的にレビューおよび承認されるようになります。 この機能は、限定提供（LA）で利用できます。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンに承認ポリシーが適用される場合、多言語キャンペーンまたはジャーニーを送信できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

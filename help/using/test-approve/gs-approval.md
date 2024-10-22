@@ -4,20 +4,15 @@ description: ジャーニーとキャンペーンの承認プロセスを設定�
 role: User
 level: Beginner
 feature: Approval
-badge: label="限定提供" type="Informative"
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: ht
-source-wordcount: '583'
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
 
 # ジャーニーとキャンペーンの承認の基本を学ぶ {#send-proofs}
-
->[!AVAILABILITY]
->
-> 承認ポリシーは現在、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 ## 承認ポリシーの基本を学ぶ {#gs}
 

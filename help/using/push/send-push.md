@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 89%
+source-wordcount: '383'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->9 月のリリース以降、新しいキャンペーンとジャーニーのアクティブ化エクスペリエンスを使用すると、承認プロセス全体を管理し、キャンペーンとジャーニーが運用開始前に適切な関係者によって徹底的にレビューおよび承認されるようになります。 この機能は、限定提供（LA）で利用できます。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンに承認ポリシーが適用される場合、プッシュ通知を送信するには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 プッシュメッセージの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)の設定を完了して送信します。
 

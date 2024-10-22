@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 47%
+source-wordcount: '1150'
+ht-degree: 49%
 
 ---
 
@@ -122,7 +122,7 @@ Web デザイナーを使用して [web エクスペリエンスを作成](edit-
 
 >[!IMPORTANT]
 >
->9 月のリリース以降、新しいキャンペーンとジャーニーのアクティブ化エクスペリエンスを使用すると、承認プロセス全体を管理し、キャンペーンとジャーニーが運用開始前に適切な関係者によって徹底的にレビューおよび承認されるようになります。 この機能は、限定提供（LA）で利用できます。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンに承認ポリシーが適用される場合、web エクスペリエンスをアクティブ化できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 Web エクスペリエンスを定義し、[web デザイナー ](edit-web-content.md#work-with-web-designer) を使用して必要に応じてコンテンツを編集したら、ジャーニーまたはキャンペーンをアクティブ化して、変更をオーディエンスに表示できます。
 

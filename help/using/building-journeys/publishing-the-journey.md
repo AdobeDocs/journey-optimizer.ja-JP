@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,13 @@ ht-degree: 100%
 ジャーニーを停止すると、そのジャーニーは完全に停止します。ジャーニーを進むすべての人は完全に停止し、ジャーニーは新規エントリの許可を停止します。ジャーニーを再び使用する必要がある場合は、複製して公開する必要があります。
 
 1. ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。また、公開前にジャーニーをテストすることもお勧めします。[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+
 1. ジャーニーを公開するには、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションをクリックします。
+
+   >[!NOTE]
+   >
+   > ジャーニーに承認ポリシーが適用される場合は、ジャーニーを公開するために承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+
 
    ![](assets/journeyuc1_18.png)
 
