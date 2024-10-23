@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
+source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 44%
+source-wordcount: '1793'
+ht-degree: 43%
 
 ---
 
@@ -273,6 +273,10 @@ ht-degree: 44%
    * ジャーニーの反応イベントは、この変更による影響を受けません。
 
 * **カスタムアクションのパラメーター** （公開日：2024 年 10 月 3 日（PT）） – カスタムアクションで NULL およびオプションのパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**レポート**
+
+* **Experience Decisioning レポート** が使用できるようになりました。訪問者がエクスペリエンスとやり取りする方法に関する基本的なインサイトが提供されます。
 
 **データガバナンスおよび同意ポリシー** - 公開日：2024年10月7日（PT）
 
