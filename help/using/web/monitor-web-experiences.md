@@ -9,7 +9,7 @@ exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 77%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 ## Web レポートの確認 {#check-web-reports}
 
-Web エクスペリエンスが実稼働したら、[ジャーニーレポート **[!UICONTROL および]** キャンペーンレポート ](../reports/campaign-global-report-cja-web.md) の「Web](../reports/journey-global-report-cja-web.md) [」タブを確認して、インプレッション数、クリック率、web ページとのエンゲージメント数などの要素を比較できます。
+Web エクスペリエンスがライブになったら、[ジャーニーリポート](../reports/journey-global-report-cja-web.md)と[キャンペーンレポート](../reports/campaign-global-report-cja-web.md)の「**[!UICONTROL Web]**」タブを確認して、インプレッション数、クリック率、web ページでのエンゲージメント数などの要素を比較できます。
 
 <!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 

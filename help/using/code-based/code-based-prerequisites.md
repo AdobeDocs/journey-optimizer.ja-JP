@@ -9,7 +9,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -55,13 +55,13 @@ ht-degree: 88%
 
   [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
-## レポートの前提条件 {#experiment-prerequisites}
+## レポーティングの前提条件 {#experiment-prerequisites}
 
-コードベースチャネルのレポートを有効にするには、アプリ実装 [datastream](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。
+コードベースチャネルのレポーティングを有効にするには、アプリ実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)もレポーティング設定に含まれていることを確認する必要があります。
 
-つまり、レポートを設定する際に、アプリのデータストリームに存在しないデータセットを追加すると、アプリのデータはレポートに表示されません。
+つまり、レポーティングを設定する際に、アプリデータストリームに存在しないデータセットを追加すると、アプリデータはレポートに表示されません。
 
-レポート用にデータセットを追加する方法については、[ この節 ](../reports/reporting-configuration.md#add-datasets) を参照してください。
+レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
 >[!NOTE]
 >

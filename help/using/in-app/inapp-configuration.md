@@ -9,7 +9,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -109,21 +109,21 @@ ht-degree: 87%
 
 アプリ内メッセージを作成する際に、設定を選択できるようになりました。
 
-## レポートの前提条件 {#experiment-prerequisites}
+## レポーティングの前提条件 {#experiment-prerequisites}
 
 >[!NOTE]
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
-アプリ内チャネルのレポートを有効にするには、アプリ内実装 [ データストリーム ](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。
+アプリ内チャネルのレポーティングを有効にするには、レポーティング設定に、アプリ内実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)も含まれていることを確認する必要があります。
 
-つまり、レポートを設定する際に、アプリのデータストリームに存在しないデータセットを追加すると、アプリのデータはレポートに表示されません。
+つまり、レポーティングを設定する際に、アプリデータストリームに存在しないデータセットを追加すると、アプリデータはレポートに表示されません。
 
-レポート用にデータセットを追加する方法については、[ この節 ](../reports/reporting-configuration.md#add-datasets) を参照してください。
+レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
 データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、各プロファイルが参加するキャンペーンやジャーニーを追跡するので、[!DNL Journey Optimizer] レポートで必要になります。
 
-[レポート設定の詳細情報](../reports/reporting-configuration.md)
+[詳しくは、「レポーティング設定」を参照してください。](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

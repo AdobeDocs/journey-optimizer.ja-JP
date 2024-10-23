@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->[ オーディエンス構成 ](../audience/get-started-audience-orchestration.md) のオーディエンスおよび属性は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。
+>[オーディエンス構成](../audience/get-started-audience-orchestration.md)からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。
 >
 >API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。
 

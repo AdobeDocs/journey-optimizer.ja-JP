@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信され�
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。専用のアーカイブサポートについては、SMS ベンダー（Sinch、Infobip または Twilio）と協力してください。
+>[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。専用のアーカイブサポートについては、SMS ベンダー（Synch、Infobip または Twilio）と協力してください。
 
 ## メールに BCC を使用する方法 {#bcc-email}
 
@@ -119,7 +119,7 @@ GDPR などの規制では、データ主体はいつでも同意を変更でき
 
 BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。ただし、その情報は、**[!UICONTROL AJO BCC フィードバックイベントデータセット]**&#x200B;と呼ばれるシステムデータセットに保存されます。このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
 
-ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**/**[!UICONTROL データセット]**/**[!UICONTROL 参照]** を選択します。 データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)で説明しています。
+ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)で説明しています。
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -228,15 +228,15 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
 例えば、メールの BCC コピーが外部システムにアーカイブされている場合、メッセージに含まれるヘッダーを使用して、対応する送信済みメールに関する情報を取得できます。
 
-すべてのメールメッセージに、`x-message-profile-id` というヘッダーが含まれるようになりました。 このヘッダーの値は、プロファイルごとに異なります。これは、送信された各メールと、対応する BCC メールコピーに対して一意です。
+すべてのメールメッセージに、`x-message-profile-id` というヘッダーが含まれるようになりました。このヘッダーの値は各プロファイルで異なり、送信された各メールとそれに対応する BCC メールコピーに固有です。
 
-また、`x-message-profile-id` ヘッダーは、[AJO メッセージフィードバックイベントデータセット ](../data/datasets-query-examples.md#message-feedback-event-dataset) （送信済みメール）および [AJO BCC フィードバックイベントデータセット ](#bcc-reporting) （BCC コピー）のシステムデータセットにも保存されます。 これらのデータセットに対してクエリを実行して、BCC コピーと対応する実際のメールを紐付けることができます。
+また、`x-message-profile-id` ヘッダーは、[AJO メッセージフィードバックイベントデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)（送信済みメール）および [AJO BCC フィードバックイベントデータセット](#bcc-reporting)（BCC コピー）のシステムデータセットにも保存されます。これらのデータセットに対してクエリを実行して、BCC コピーと対応する実際のメールを紐付けることができます。
 
-* ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**/**[!UICONTROL データセット]**/**[!UICONTROL 参照]** を選択します。 データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)で説明しています。
+* ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。詳しくは、データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 
-* [Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} で提供されるクエリエディターを使用します。 これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
+* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} で提供されるクエリエディターを使用します。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
 
-以下に、BCC コピーに対応する情報を取得するために実行できるサンプルクエリを示します。
+以下に、BCC コピーに対応する情報の取得に実行できるサンプルクエリを示します。
 
 **クエリ 1**
 

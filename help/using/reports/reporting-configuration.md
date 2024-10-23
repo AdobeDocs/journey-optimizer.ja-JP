@@ -12,11 +12,11 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
-# レポートと実験の前提条件 {#reporting-configuration}
+# レポーティングと実験の前提条件 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -30,13 +30,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->レポートの設定は、技術ユーザーが実行する必要があります。
+>レポーティングの設定は、技術ユーザーが実行する必要があります。
 
-レポートデータソース設定では、レポートで使用する追加情報を取得するためにシステムへの接続を定義できます。
+レポートデータソース設定では、レポートで使用する追加情報を取得することを目的にシステムへの接続を定義できます。
 
 この設定の場合は、レポートに使用する追加の要素を含む 1 つ以上のデータセットを追加する必要があります。 これをおこなうには、[以下](#add-datasets)の手順に従います。
 
-Web、コードベース、アプリ内チャネルの場合は、データ収集用に設定した [ データセット ](../data/get-started-datasets.md) もこのレポート設定に追加されていることを確認する必要があります。 追加していない場合、web データとアプリ内データがコンテンツ実験レポートに表示されません。
+Web チャネル、コードベースチャネル、アプリ内チャネルの場合、データ収集用に設定された[データセット](../data/get-started-datasets.md)もこのレポーティング設定に追加していることを確認する必要があります。追加していない場合、web データとアプリ内データがコンテンツ実験レポートに表示されません。
 
 ## 前提条件
 
@@ -82,7 +82,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 >
 >新しく作成されたデータセットは、Customer Journey Analyticsレポートでのみ使用できます。
 
-1. **[!UICONTROL 管理]** メニューから「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL レポート]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
+1. **[!UICONTROL 管理]**&#x200B;メニューで、「**[!UICONTROL 設定]**」を選択します。「**[!UICONTROL レポート]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
 
    ![](assets/reporting-config-menu.png)
 

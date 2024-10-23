@@ -9,7 +9,7 @@ exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -128,13 +128,13 @@ Web エクスペリエンスが正しく配信されるようにするには、�
 
   [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
-## レポートの前提条件 {#experiment-prerequisites}
+## レポーティングの前提条件 {#experiment-prerequisites}
 
-Web チャネルのレポートを有効にするには、web 実装 [ データストリーム ](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。
+Web チャネルのレポーティングを有効にするには、web 実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)もレポーティング設定に含まれていることを確認する必要があります。
 
-つまり、レポートを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはレポートに表示されません。
+つまり、レポーティングを設定する際に、web データストリームに存在しないデータセットを追加すると、web データはレポートに表示されません。
 
-レポート用にデータセットを追加する方法については、[ この節 ](../reports/reporting-configuration.md#add-datasets) を参照してください。
+レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Web チャネルのレポートを有効にするには、web 実装 [ データ
 
 データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、各プロファイルが参加するキャンペーンやジャーニーを追跡するので、[!DNL Journey Optimizer] レポートで必要になります。
 
-[レポート設定の詳細情報](../reports/reporting-configuration.md)
+[詳しくは、「レポーティング設定」を参照してください。](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

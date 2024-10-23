@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: キャンペーンのレビューとアクティブ化
+title: キャンペーンのレビューとアクティベーション
 description: Journey Optimizer でキャンペーンをレビューおよびアクティブ化する方法について学ぶ
 feature: Campaigns
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ---
 
-# キャンペーンのレビューとアクティブ化 {#review-activate}
+# キャンペーンのレビューとアクティベーション {#review-activate}
 
 >[!IMPORTANT]
 >

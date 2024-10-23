@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL ジャーニーキャンバス]** ウィジェットを使用すると、ターゲットプロファイルがジャーニーを進む際に、そのプロファイルの軌道を視覚的に追跡できます。 [ 詳しくは、Customer Journey Analyticsドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL ジャーニーキャンバス]**&#x200B;ウィジェットには、ターゲットプロファイルのジャーニーの進行状況が視覚的に表示されます。[詳しくは、Customer Journey Analytics ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 次のオプションを使用して、キャンバスのカスタマイズを強化します。
 
