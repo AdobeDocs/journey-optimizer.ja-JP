@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2147'
 ht-degree: 94%
 
 ---
@@ -195,94 +195,96 @@ ht-degree: 94%
       + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
       + [承認をリクエスト](using/test-approve/request-approval.md)
       + [リクエストの承認](using/test-approve/review-approve-request.md)
-+ メールチャネル {#email}
-   + [メールの基本を学ぶ](using/email/get-started-email.md)
-   + [メールの作成](using/email/create-email.md)
-   + メールコンテンツのデザイン {#design-email}
-      + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
-      + コンテンツ作成の開始 {#start-creating-content}
-         + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
-         + [コンテンツの読み込み](using/email/existing-content.md)
-         + [コンテンツを独自にコーディング](using/email/code-content.md)
-         + [メールテンプレートを使用](using/email/use-email-templates.md)
-      + コンテンツのデザイン {#add-content}
-         + [コンテンツコンポーネントの使用](using/email/content-components.md)
-         + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
-         + [リンクの追加とメッセージの追跡](using/email/message-tracking.md)
-         + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
-         + [テキストバージョンの生成](using/email/text-version-email.md)
-         + [プリヘッダーを追加](using/email/preheader.md)
-      + スタイルの編集 {#edit-style}
-         + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
-         + [背景設定の編集](using/email/backgrounds.md)
-         + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
-         + [インラインのスタイル属性の追加](using/email/inline-styling.md)
-   + [Experience Manager テンプレートの使用](using/email/aem-templates.md)
-   + [メールオプトアウトの管理](using/email/email-opt-out.md)
-   + メールチャネルの設定 {#configure-email}
-      + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
-      + [メール設定の指定](using/email/email-settings.md)
-      + [メール設定のパーソナライズ](using/email/surface-personalization.md)
-+ アプリ内チャネル{#in-app}
-   + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
-   + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
-   + [モバイルのアプリ内メッセージの作成](using/in-app/create-in-app.md)
-   + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
-   + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
-   + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
-+ プッシュ通知チャネル{#push}
-   + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
-   + [プッシュ通知の作成](using/push/create-push.md)
-   + [プッシュ通知のデザイン](using/push/design-push.md)
-   + [プッシュ通知の確認と送信](using/push/send-push.md)
-   + プッシュ通知の設定{#push-config}
-      + [プッシュ通知フロー](using/push/push-gs.md)
-      + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
-      + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-+ SMS／MMS チャネル{#sms}
-   + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
-   + [テキストメッセージ（SMS／MMS）の作成](using/sms/create-sms.md)
-   + [テキストメッセージの確認および送信](using/sms/send-sms.md)
-   + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
-   + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-   + SMS／MMS チャネルの設定{#configure-sms}
-      + [SMS 設定の基本を学ぶ](using/sms/sms-configuration.md)
-      + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
-      + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
-      + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
-      + [カスタムプロバイダーの設定（ベータ版）](using/sms/sms-configuration-custom.md)
-      + [SMS 設定の作成](using/sms/sms-configuration-surface.md)
-+ ダイレクトメール {#direct-mail}
-   + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
-   + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
-   + [ダイレクトメールメッセージの確認と送信](using/direct-mail/test-send-direct-mail.md)
-   + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
-+ Web チャネル {#web}
-   + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
-   + Web チャネルを設定 {#configure-web-channel}
-      + [Web チャネルの前提条件](using/web/web-prerequisites.md)
-      + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
-      + [Web チャネル設定の作成](using/web/web-configuration.md)
-   + [Web エクスペリエンスの作成](using/web/create-web.md)
-   + Web ページの作成 {#author-web-pages}
-      + [Web ページコンテンツの編集](using/web/edit-web-content.md)
-      + [変更の管理](using/web/manage-web-modifications.md)
-      + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
-      + [シングルページアプリケーションの作成](using/web/web-spa.md)
-+ コードベースのエクスペリエンス {#code-based-experience}
-   + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
-   + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
-   + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
-   + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
-   + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
-+ コンテンツカード{#content-card}
-   + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
-   + コンテンツカードチャネルの設定 {#configure}
-      + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
-      + [Journey Optimizer でのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
-      + [Web SDK でのコンテンツカードのサポート設定](using/content-card/content-card-configuration-sdk.md)
-   + [コンテンツカードの作成](using/content-card/create-content-card.md)
-   + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
++ 通信チャネル {#communication-channels}
+   + [通信チャネルの基本を学ぶ](using/channels/gs-channels.md)
+   + メールチャネル {#email}
+      + [メールの基本を学ぶ](using/email/get-started-email.md)
+      + [メールの作成](using/email/create-email.md)
+      + メールコンテンツのデザイン {#design-email}
+         + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
+         + コンテンツ作成の開始 {#start-creating-content}
+            + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
+            + [コンテンツの読み込み](using/email/existing-content.md)
+            + [コンテンツを独自にコーディング](using/email/code-content.md)
+            + [メールテンプレートを使用](using/email/use-email-templates.md)
+         + コンテンツのデザイン {#add-content}
+            + [コンテンツコンポーネントの使用](using/email/content-components.md)
+            + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
+            + [リンクの追加とメッセージの追跡](using/email/message-tracking.md)
+            + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
+            + [テキストバージョンの生成](using/email/text-version-email.md)
+            + [プリヘッダーを追加](using/email/preheader.md)
+         + スタイルの編集 {#edit-style}
+            + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
+            + [背景設定の編集](using/email/backgrounds.md)
+            + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
+            + [インラインのスタイル属性の追加](using/email/inline-styling.md)
+      + [Experience Manager テンプレートの使用](using/email/aem-templates.md)
+      + [メールオプトアウトの管理](using/email/email-opt-out.md)
+      + メールチャネルの設定 {#configure-email}
+         + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
+         + [メール設定の指定](using/email/email-settings.md)
+         + [メール設定のパーソナライズ](using/email/surface-personalization.md)
+   + アプリ内チャネル{#in-app}
+      + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
+      + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
+      + [モバイルのアプリ内メッセージの作成](using/in-app/create-in-app.md)
+      + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
+      + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
+      + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
+   + プッシュ通知チャネル{#push}
+      + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
+      + [プッシュ通知の作成](using/push/create-push.md)
+      + [プッシュ通知のデザイン](using/push/design-push.md)
+      + [プッシュ通知の確認と送信](using/push/send-push.md)
+      + プッシュ通知の設定{#push-config}
+         + [プッシュ通知フロー](using/push/push-gs.md)
+         + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
+         + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
+   + SMS／MMS チャネル{#sms}
+      + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
+      + [テキストメッセージ（SMS／MMS）の作成](using/sms/create-sms.md)
+      + [テキストメッセージの確認および送信](using/sms/send-sms.md)
+      + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
+      + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
+      + SMS／MMS チャネルの設定{#configure-sms}
+         + [SMS 設定の基本を学ぶ](using/sms/sms-configuration.md)
+         + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
+         + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
+         + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
+         + [カスタムプロバイダーの設定（ベータ版）](using/sms/sms-configuration-custom.md)
+         + [SMS 設定の作成](using/sms/sms-configuration-surface.md)
+   + ダイレクトメール {#direct-mail}
+      + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
+      + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
+      + [ダイレクトメールメッセージの確認と送信](using/direct-mail/test-send-direct-mail.md)
+      + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
+   + Web チャネル {#web}
+      + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
+      + Web チャネルを設定 {#configure-web-channel}
+         + [Web チャネルの前提条件](using/web/web-prerequisites.md)
+         + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
+         + [Web チャネル設定の作成](using/web/web-configuration.md)
+      + [Web エクスペリエンスの作成](using/web/create-web.md)
+      + Web ページの作成 {#author-web-pages}
+         + [Web ページコンテンツの編集](using/web/edit-web-content.md)
+         + [変更の管理](using/web/manage-web-modifications.md)
+         + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
+         + [シングルページアプリケーションの作成](using/web/web-spa.md)
+   + コードベースのエクスペリエンス {#code-based-experience}
+      + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
+      + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
+      + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
+      + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
+      + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
+   + コンテンツカード{#content-card}
+      + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
+      + コンテンツカードチャネルの設定 {#configure}
+         + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
+         + [Journey Optimizer でのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
+         + [Web SDK でのコンテンツカードのサポート設定](using/content-card/content-card-configuration-sdk.md)
+      + [コンテンツカードの作成](using/content-card/create-content-card.md)
+      + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
@@ -702,3 +704,4 @@ ht-degree: 94%
       + [同意ポリシーの使用](using/action/consent.md)
    + [データガバナンス](using/action/action-privacy.md)
    + [顧客管理キーの設定と管理](using/privacy/cmk.md)
+
