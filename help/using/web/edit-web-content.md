@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Web コンテンツの編集 {#edit-web-content}
 
-ジャーニーまたはキャンペーンに [web エクスペリエンスを追加 ](create-web.md#create-web-experience) すると、web デザイナーでサイトのコンテンツを編集できるようになります。
+ジャーニーまたはキャンペーンに [web エクスペリエンスを追加](create-web.md#create-web-experience)すると、web デザイナーでサイトのコンテンツを編集できるようになります。
 
 [このビデオで web キャンペーンの作成方法について学ぶ](#video)
 
@@ -45,9 +45,9 @@ ht-degree: 95%
 >abstract="ルールに一致するすべてのページに適用されるコンテンツの編集に使用する特定の web ページの URL を入力します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="詳細情報"
 
-Web エクスペリエンスの作成を開始するには、次の手順に従います。
+Web エクスペリエンスのオーサリングを開始するには、次の手順に従います。
 
-1. キャンペーンまたはジャーニーの web エクスペリエンスアクティビティの「**[!UICONTROL アクション]**」タブで「**[!UICONTROL コンテンツを編集]**」を選択します。<!--change screen with rule-->
+1. キャンペーンの「**[!UICONTROL アクション]**」タブまたはジャーニーの web エクスペリエンスアクティビティで「**[!UICONTROL コンテンツを編集]**」を選択します。<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

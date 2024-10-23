@@ -8,15 +8,15 @@ level: Experienced
 keywords: inLastDays, 関数, 式, ジャーニー
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 source-git-commit: e0a942f4dc84b41882b3c12dd47f5931a8a34a2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # inLastDays {#inLastDays}
 
-指定された日時が現在の日時とその delta 日前の間にある場合、true を返します。
+指定された dateTime が現在の日時とその delta 日前の間にある場合、true を返します。
 
 ## カテゴリ
 

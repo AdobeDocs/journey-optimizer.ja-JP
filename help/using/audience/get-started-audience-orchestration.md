@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->オーディエンス構成からのオーディエンスおよび属性の使用は、現在、Healthcare Shield またはプライバシーとセキュリティシールドで使用することはできません。
+>オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。
 >
 >エンリッチメント属性は、まだポリシー適用サービスと統合されていません。したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
 

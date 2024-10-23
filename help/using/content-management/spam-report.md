@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >スパムスコアは [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} によって得られ、ルールはAdobeが所有していません。 これらのルールについて詳しくは、SpamAssassin ドキュメントを参照してください。
+   >スパムスコアは [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} によって得られ、ルールは Adobe の所有ではありません。これらのルールについて詳しくは、SpamAssassin ドキュメントを参照してください。
    >
 
 1. このスコアリングに基づいて、一部の要素を改善できると考えられる場合は、[E メールデザイナー](../email/content-from-scratch.md)でコンテンツを編集し、必要な更新を行ってください。

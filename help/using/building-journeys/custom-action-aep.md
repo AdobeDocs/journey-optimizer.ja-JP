@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## カスタムアクションの設定 {#custom-action-config}
 
-カスタムアクションの設定について詳しくは、[ このページ ](../action/about-custom-action-configuration.md) を参照してください。
+カスタムアクションの設定について詳しくは、[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
 この例では、次の手順に従います。
 
@@ -171,7 +171,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 動的に入力されるフィールドの設定を **定数** から **変数** に変更します。
+1. 動的に入力されるフィールドのフィールド設定を、**定数**&#x200B;から&#x200B;**変数**&#x200B;に変更します。
 
 1. カスタムアクションを保存します。
 

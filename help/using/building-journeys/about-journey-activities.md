@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,9 +66,9 @@ ht-degree: 96%
 
 また、メッセージを送信する特定のアクションを設定することもできます。
 
-* サードパーティシステムを使用してメッセージを送信する場合は、特定のカスタムアクションを作成できます。 [詳細情報](../action/action.md)
+* サードパーティシステムを使用してメッセージを送信する場合は、特定のカスタムアクションを作成できます。[詳細情報](../action/action.md)
 
-* Campaign と Journey Optimizer を連携させる場合は、次の節を参照してください。
+* Campaign と Journey Optimizer の連携について詳しくは、次の節を参照してください。
 
    * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)

@@ -6,12 +6,12 @@ description: プロファイルエントリの管理方法について説明し�
 feature: Journeys, Profiles
 role: User
 level: Intermediate
-keywords: 再エントリ，ジャーニー，プロファイル，定期的な
+keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 83%
 
 ## 単一イベントおよびオーディエンスの選定ジャーニー{#entry-unitary}
 
-**単一イベント** ジャーニーおよび **オーディエンスの選定** ジャーニーでは、再エントリを有効または無効にできます。
+**単一イベント**&#x200B;および&#x200B;**オーディエンスの選定**&#x200B;ジャーニーでは、再エントリを有効または無効にできます。
 
 * 再エントリが有効な場合、プロファイルはジャーニーに複数回エントリできますが、以前のジャーニーインスタンスから完全に離脱するまでは実行できません。
 
-* 再エントリが無効な場合、プロファイルは、グローバルジャーニーのタイムアウト期間内に、同じジャーニーに複数回エントリできません。 この[節](../building-journeys/journey-properties.md#global_timeout)を参照してください。
+* 再エントリが無効な場合、プロファイルはグローバルジャーニータイムアウト期間内に同じジャーニーに複数回エントリできません。詳しくは、この[節](../building-journeys/journey-properties.md#global_timeout)を参照してください。
 
-デフォルトでは、ジャーニーは再エントリを許可します。 「**再エントリを許可**」オプションがアクティベートされると、「**再エントリ待機期間**」フィールドが表示されます。 プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 91 日間（[グローバルタイムアウト](journey-properties.md#global_timeout)）です。
+デフォルトでは、ジャーニーで再エントリが許可されています。「**再エントリを許可**」オプションがアクティブ化されると、「**再エントリ待機期間**」フィールドが表示されます。プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。最大期間は 91 日間（[グローバルタイムアウト](journey-properties.md#global_timeout)）です。
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -46,7 +46,7 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 
 ![](assets/journey-re-entrance.png)
 
-再エントリ期間の後、プロファイルはジャーニーに再エントリできます。 これを回避し、これらのプロファイルの再エントリを完全に無効にするには、プロファイルまたはオーディエンスデータを使用して、プロファイルが既に入力されているかどうかをテストする条件を追加します。
+再エントリ期間を過ぎると、プロファイルはジャーニーに再エントリできます。これを回避し、これらのプロファイルの再エントリを完全に無効にするには、プロファイルまたはオーディエンスデータを使用して、プロファイルが既にエントリされているかどうかをテストする条件を追加できます。
 
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->

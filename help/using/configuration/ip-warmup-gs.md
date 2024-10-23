@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、配信品質
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 IP ウォームアッププラン機能を使用すると、送信量を徐々に増やすことができ、スパムとしてマークされないようにできます。**[!UICONTROL 管理]**&#x200B;メニュー内のこの新しいオプションを使用すると、複雑な毎日のジャーニーを作成するのではなく、統合された方法でより簡単に実行できます。
 
-➡️ [IP ウォームアッププランの作成および実行方法については、このビデオをご覧ください](#video)
+➡️ [IP ウォームアッププランの作成および実行方法について詳しくは、このビデオを参照してください。](#video)
 
 >[!AVAILABILITY]
 >

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 95%
 
 個人が&#x200B;**待機**&#x200B;アクティビティにエントリできるのは、91 日のジャーニータイムアウトより前に待機期間を完了できる、十分な時間がジャーニーに残っている場合のみです。
 
-### 待機して再エントリ {#wait-reentrance}
+### 待機と再エントリ {#wait-reentrance}
 
-**待機** アクティビティを使用して再エントリをブロックしないことのベストプラクティス。 代わりに、ジャーニープロパティレベルで **再エントリを許可** オプションを使用します。 詳しくは、[このページ](../building-journeys/journey-properties.md#entrance)を参照してください。
+ベストプラクティスとして、**待機**&#x200B;アクティビティを使用して、再エントリをブロックすることは避けてください。代わりに、ジャーニープロパティレベルで「**再エントリを許可**」オプションを使用します。詳しくは、[このページ](../building-journeys/journey-properties.md#entrance)を参照してください。
 
 ### 待機とテストモード {#wait-test-modd}
 
