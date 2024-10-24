@@ -10,20 +10,16 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 badge: label="限定提供"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 68%
 
 ---
 
 # メール設定のパーソナライズ {#surface-personalization}
 
 メール設定の柔軟性と制御を高めるために、[!DNL Journey Optimizer] では、メール設定の作成時にサブドメインおよびヘッダー <!--and URL tracking parameters--> に、パーソナライズされた値を定義できます。
-
->[!AVAILABILITY]
->
->メール設定のパーソナライゼーションは、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 ## 動的サブドメインを追加 {#dynamic-subdomains}
 
@@ -112,11 +108,17 @@ ht-degree: 100%
 
 1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)が開きます。必要に応じて条件を定義し、変更を保存します。
 
-   例えば、各受信者が自分のブランド担当者からメールを受信するなどの条件を設定します。
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >選択できるのは、**[!UICONTROL プロファイル属性]**&#x200B;と&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
+
+   例えば、営業アシスタントに代わって送信される動的なメールを処理する場合、営業アシスタントはイベントまたはキャンペーンのコンテキストパラメーターから取得されます。 例：
+
+   * [ ジャーニー ](../building-journeys/journey-gs.md) では、購入イベントが特定の店舗の営業アシスタントにリンクされている場合、イベント属性から取得した営業アシスタントパラメーターを使用して、メールヘッダー（送信者名、送信者のメール、返信先のアドレス）をパーソナライズできます。
+
+   * [API トリガー型キャンペーン ](../campaigns/api-triggered-campaigns.md) は、営業アシスタントによって外部から開始され、トリガーされたメールを営業アシスタントに代わって送信したり、キャンペーンコンテキストパラメーターから取得したヘッダーパーソナライゼーション値を送信したりできます。
 
 1. パーソナライゼーションを追加する各パラメーターに対して、上記の手順を繰り返します。
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 設定の詳細の表示 {#view-surface-details}
 
-キャンペーンまたは設定でパーソナライズされた設定を持つ設定を使用する際、キャンペーンまたは設定内で設定の詳細を直接表示できます。次の手順に従います。
+キャンペーンやジャーニーでパーソナライズされた設定で設定を使用する際に、キャンペーンまたはジャーニー内に設定の詳細を直接表示できます。 次の手順に従います。
 
 1. メールの[キャンペーン](../campaigns/create-campaign.md)または[ジャーニー](../building-journeys/journey-gs.md)を作成します。
 
@@ -157,3 +159,33 @@ Now when the email is sent out, this parameter will be automatically appended to
 1. 「**[!UICONTROL 展開]**」を選択して、動的サブドメインの詳細を表示します。
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## 設定を確認します {#check-configuration}
+
+キャンペーンやジャーニーでパーソナライズされた設定を使用する場合は、メールコンテンツをプレビューし、定義した動的設定で潜在的なエラーを確認できます。 次の手順に従います。
+
+1. メッセージのコンテンツを編集画面またはメールDesignerで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。 [詳細情報](../content-management/preview.md)
+
+1. [ テストプロファイル ](../content-management/test-profiles.md) を選択します。
+
+1. エラーが表示された場合は、「**[!UICONTROL 設定の詳細を表示]**」ボタンをクリックします。
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. エラーの詳細については、**[!UICONTROL 配信設定]** 画面を確認してください。
+
+   ![](assets/campaign-simulate-config-details.png)
+
+考えられるエラーは次のとおりです。
+
+* 選択したテストプロファイルの **サブドメイン** が解決されませんでした。 例えば、設定で、異なる国に対応する複数の送信サブドメインを使用しているにもかかわらず、選択したプロファイルに `Country` 属性の値が定義されていないか、属性が `France` に設定されているにもかかわらず、この値は設定のサブドメインに関連付けられていません。
+
+* 選択したプロファイルには、1 つ以上の **ヘッダーパラメーター** に関連付けられた値がありません。
+
+これらのエラーのいずれも、選択したテストプロファイルにメールが送信されることはありません。
+
+このタイプのエラーを回避するには、定義したヘッダーパラメーターで、ほとんどのプロファイルに対して、パーソナライズされた属性と値を使用してください。 値が見つからない場合、メールの配信品質に影響を与える可能性があります。
+
+>[!NOTE]
+>
+>配信品質について詳しくは、[ この節 ](../reports/deliverability.md) を参照してください

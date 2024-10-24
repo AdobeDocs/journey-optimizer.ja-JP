@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 57%
+source-wordcount: '3162'
+ht-degree: 56%
 
 ---
 
@@ -51,6 +51,25 @@ ht-degree: 57%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>メール設定のパーソナライゼーション（一般提供） </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メール設定の柔軟性と制御を高めるために、メールチャネル設定を作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義できます。
+</p>
+<p>以前は複数の組織（LA）で使用できましたが、現在は、すべてのユーザー（GA）がメール設定を使用できます。</p>
+<p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>公開日：2024 年 10 月 23 日（PT）</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ ht-degree: 57%
 
 * カスタムアップロード（CSV ファイル）からのオーディエンスおよび属性を、Healthcare Shield またはプライバシーとセキュリティシールドで使用できるようになりました。
 
-**コードベースチャネル**
+**設定** – 公開日：2024 年 10 月 23 日（PT）
+
+* キャンペーンやジャーニーでパーソナライズされた設定を使用する際に、メールコンテンツをプレビューして、定義した動的設定で潜在的なエラーを確認できるようになりました。 [詳細情報](../email/surface-personalization.md#check-configuration)
+  **コードベースチャネル**
 
 * コンテンツテンプレートが使用できるようになりました。 開発者が作成したコンテンツテンプレートから始まる、コードベースのエクスペリエンスのオーサリングを高速化できます。 コンテンツテンプレートを使用すると、マーケターは、HTML全体や JSON コンテンツペイロードを構成するのではなく、一部の値やフィールドを修正するだけで済みます。
 

@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 86%
+source-wordcount: '213'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 <!--## Preview your content {#preview-content}-->
 
-[テストプロファイル](test-profiles.md)を選択すると、コンテンツをプレビューできます。次の手順に従います。
+[ テストプロファイル ](test-profiles.md) を定義すると、コンテンツをプレビューできます。 次の手順に従います。
 
 1. メッセージのコンテンツを編集画面またはメールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
@@ -42,5 +42,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスを作成する場合、ブラウザーまたはモバイルデバイスでパーソナライズされたコンテンツをプレビューして、実際のシミュレーションを行うことができます。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
+>設定の詳細にエラーがある場合は、「**[!UICONTROL 設定の詳細を表示]**」ボタンをクリックします。 [詳細情報](../email/surface-personalization.md#check-configuration)
+
+コードベースのエクスペリエンスを作成する場合、ブラウザーまたはモバイルデバイスでパーソナライズされたコンテンツをプレビューして、実際のシミュレーションを行うことができます。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
 
