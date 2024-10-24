@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -82,6 +82,12 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 * **[!UICONTROL パーセンテージ値]**&#x200B;を調整して、様々なジャーニーパス間のフローの配分を決定します。
 * **[!UICONTROL 矢印設定]**&#x200B;をカスタマイズして、ラベルや条件を含めるか、クリーンな表示を選択します。
 * 「**[!UICONTROL フォールアウトを表示]**」オプションを有効にし、ジャーニーを退出したプロファイルをキャンバス上で直接視覚化します。
+
+**[!UICONTROL ノードタイプ]** フィルタリングを使用する場合、次のルールが適用されます。
+
+* ノードでセグメントを作成する場合、**[!UICONTROL ノードタイプ]** フィルターで除外されたノードであっても、ジャーニーの初期のステージのノードが含まれます。
+
+* ジャーニーの以前のステージのノードが **[!UICONTROL ノードタイプ]** フィルターで除外されている場合、矢印から形成されたセグメントを作成することはできません。 この場合、これらの矢印で右クリック機能が無効になります。
 
 ## アクションパフォーマンス {#action-performance}
 
