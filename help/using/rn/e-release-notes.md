@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 42%
 
 ---
@@ -206,7 +206,7 @@ ht-degree: 42%
 <tr>
 <td>
 <p>1 つのキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できるようになりました。この機能を使用すると、キャンペーンやジャーニーを編集する際に言語を切り替え、編集プロセス全体を効率化し、多言語コンテンツを効率的に管理する機能を向上させることができます。</p>
-<p>以前は複数の組織（LA）で使用できましたが、多言語メッセージをすべてのユーザーが使用できるようになりました（GA）。</p>
+<p>一般公開により、すべてのチャネルで多言語コンテンツにアクセスできるようになりました。 </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ ht-degree: 42%
 メッセージング機能を向上させるために、SMS の機能強化が導入されました。
 
 * SMS キャンペーンおよびジャーニーに固有のキーワードを定義および管理して、よりパーソナライズされた効率的な通信を可能にできます。
+
 * キーワードが認識されない場合は、デフォルトの SMS メッセージを作成して配信できます。
+
+* SMS API チャネル設定を編集または削除できるようになりました。
 
 <!--**Journeys**-->
 
