@@ -6,10 +6,10 @@ level: Beginner
 badge: label="限定提供"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 2%
 * **同時実行キャッピング** は、プロファイルを同時に登録できるジャーニーの数を制限します。
 
 どちらのタイプのジャーニーキャッピングも、優先度スコアを利用してエントリを調停します。
+
+➡️ [この機能をビデオで確認](#video)
 
 ## ジャーニーキャッピングルールの作成 {#create-rule}
 
@@ -115,3 +117,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >ジャーニーがすぐにアクティブ化された場合、システムが顧客の抑制を開始するまで最大 15 分かかる場合があります。 この可能性を防ぐために、少なくとも 15 分後にジャーニーを開始するようにスケジュールできます。
+
+## チュートリアルビデオ {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
