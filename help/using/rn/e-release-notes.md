@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
+source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 42%
+source-wordcount: '1990'
+ht-degree: 41%
 
 ---
 
@@ -341,5 +341,6 @@ ht-degree: 42%
 
 * コンテンツテンプレートが使用できるようになりました。 開発者が作成したコンテンツテンプレートから始まる、コードベースのエクスペリエンスのオーサリングを高速化できます。 コンテンツテンプレートを使用すると、マーケターは、HTML全体や JSON コンテンツペイロードを構成するのではなく、一部の値やフィールドを修正するだけで済みます。
 
+**判定**
 
-
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) Decisioning （旧称：Experience Decisioning）で AI モデルを設定する際に、最適化するカスタムモデルを選択できるようになりました。 これにより、例えば、クリックスルー率などの定義済みの制約ではなく、カスタムの「購入」テーブルを最適化できます。
