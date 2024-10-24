@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2152'
 ht-degree: 94%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 94%
       + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
       + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)
       + [コンテンツテンプレートの作成](using/content-management/create-content-templates.md)
+      + [E メールテンプレート内のコンテンツのロック](using/content-management/content-locking.md)
       + [コンテンツテンプレートのテスト](using/content-management/test-content-templates.md)
       + [コンテンツテンプレートの使用](using/content-management/use-content-templates.md)
    + 再利用可能なコンテンツフラグメント {#fragments}
@@ -390,7 +391,7 @@ ht-degree: 94%
       + [更新されたレポートエクスペリエンスの概要](using/reports/report-gs-cja.md)
       + [Customer Journey Analyticsを手動で設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
-      + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
+      + [レポーティングと実験の前提条件](using/reports/reporting-configuration.md)
       + キャンペーンレポート {#reporting}
          + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
          + [コードベースのキャンペーンレポート](using/reports/campaign-global-report-cja-code.md)
