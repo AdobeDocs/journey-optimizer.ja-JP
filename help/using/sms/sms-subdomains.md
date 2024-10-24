@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 100%
 >id="ajo_admin_subdomain_sms"
 >title="SMS／MMS サブドメインのデリゲート"
 >abstract="SMS 設定を作成するにはこのサブドメインが必要なので、テキストメッセージで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="SMS／MMS サブドメインの選択"
 >abstract="SMS 設定を作成できるようにするには、少なくとも 1 つの SMS サブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/sms/configure-sms/sms-configuration-surface" text="SMS サーフェスの作成"
 
 SMS／MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定を作成](sms-configuration.md#message-preset-sms)する際に選択するサブドメインを設定する必要があります。
 
