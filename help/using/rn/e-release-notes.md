@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1971'
 ht-degree: 42%
 
 ---
@@ -78,6 +78,24 @@ ht-degree: 42%
 <p>メール設定の柔軟性と制御を高めるために、メールチャネル設定を作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義できるようになりました。</p><p>キャンペーンやジャーニーでパーソナライズされた設定を使用すると、メールコンテンツをプレビューし、定義した動的設定で潜在的なエラーを確認できます。</p>
 <p>以前は複数の組織（LA）で使用できましたが、現在は、すべてのユーザー（GA）がメール設定を使用できます。</p>
 <p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>サンプル入力データを使用したコンテンツのテスト（Beta）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーオプティマイザーで、CSV ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューと配達確認の送信を行うことで、メールコンテンツの様々なバリアントをテストできるようになりました。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
+<p>この機能は、現在、ベータ版として利用できます。</p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
