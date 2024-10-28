@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 99%
@@ -22,7 +22,7 @@ ht-degree: 99%
 >id="ac_lp_components"
 >title="コンテンツコンポーネントの使用"
 >abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。ユーザーがオプションを選択して送信できる特定のコンテンツを定義するには、フォームコンポーネントを使用します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/email/design-email/add-content/content-components#add-content-components" text="コンテンツコンポーネントの追加"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="コンテンツコンポーネントの追加"
 
 ランディングページのコンテンツをデザインするには、メールと同じコンポーネントを使用できます。[詳細情報](../email/content-components.md#add-content-components)
 

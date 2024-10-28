@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 49%
+ht-degree: 52%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="ページまたはアプリ内の特定の場所を示します"
->abstract="このフィールドは、ページ内またはユーザーがアクセスするアプリ内の正確な宛先を指定します。 Web ページ内の特定のセクションになるか、アプリのナビゲーション構造内の深いページになります。"
+>abstract="このフィールドでは、ユーザーがアクセスするページ内またはアプリ内の正確な宛先を指定します。web ページ内の特定のセクション、またはアプリのナビゲーション構造内の深いページである可能性があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -180,7 +180,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 >id="ajo_admin_surface_uri"
 >title="コンポーネント用のサーフェス URI を追加"
 >abstract="実装が web、iOS、Android 向けでない場合、または特定の URI をターゲットにする必要がある場合は、サーフェス URI を入力します。これは、エクスペリエンスを配信するエンティティを指す一意の ID です。独自の実装で使用する URI と一致するサーフェス URI を入力していることを確認してください。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
 
 コードベースのエクスペリエンス **サーフェス** は、ユーザーまたはシステムインタラクション用に設計された任意のエンティティで、**URI** によって一意に識別されます。 サーフェスは、アプリケーション実装で指定され、コードベースのエクスペリエンスチャネル設定で参照されるサーフェスと一致する必要があります。
 
