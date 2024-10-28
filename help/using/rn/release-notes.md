@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3104'
 ht-degree: 58%
 
 ---
@@ -117,8 +117,8 @@ ht-degree: 58%
 <tbody>
 <tr>
 <td>
-<p>ジャーニーオプティマイザーで、CSV ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューと配達確認の送信を行うことで、メールコンテンツの様々なバリアントをテストできるようになりました。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
-<p>この機能は、現在、ベータ版として利用できます。</p>
+<p>ジャーニーオプティマイザーを使用すると、ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューと配達確認の送信を行うことで、メールコンテンツの様々なバリアントをテストできるようになりました。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
+<p>この機能は、現在、パブリックベータ版としてすべてのお客様が利用できます。</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
