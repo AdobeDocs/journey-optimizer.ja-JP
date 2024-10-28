@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: b6705059782a872939fa51fd51d335b1386a3e91
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 94%
@@ -195,7 +195,7 @@ ht-degree: 94%
       + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
       + [承認をリクエスト](using/test-approve/request-approval.md)
       + [リクエストの承認](using/test-approve/review-approve-request.md)
-+ 通信チャネル {#communication-channels}
++ 通信チャネル {#channels}
    + [通信チャネルの基本を学ぶ](using/channels/gs-channels.md)
    + メールチャネル {#email}
       + [メールの基本を学ぶ](using/email/get-started-email.md)
