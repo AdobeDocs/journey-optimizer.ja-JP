@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3101'
 ht-degree: 58%
 
 ---
@@ -309,14 +309,14 @@ ht-degree: 58%
 
 **データセット**
 
-* **有効期間ガードレール** - 2024 年 11 月 1 日（PT）より、有効期間（TTL）ガードレールが、新しいサンドボックスと新しい組織のJourney Optimizer システム生成データセットに次のようにロールアウトされます。
+* **送信イベントとオープンイベント** - 2024 年 11 月 1 日（PT）以降、ストリーミングセグメント化では、Journey Optimizerのトラッキングデータセットおよびフィードバックデータセットからの送信イベントとオープンイベントの使用をサポートしなくなります。 この変更は、すべての顧客サンドボックスおよび組織に適用されます。 [詳細情報](../data/datasets-ttl.md#segmentation-update)
+
+* **データセットの有効期間（TTL）** - 2025 年 2 月以降、有効期間（TTL）ガードレールが、新しいサンドボックスと新しい組織のJourney Optimizer システム生成データセットに次のようにロールアウトされます。
 
    * プロファイルストアのデータの場合は 90 日
    * データレイクのデータの場合は 13 か月
 
-  この変更は、次の第 2 フェーズで既存の顧客サンドボックスにロールアウトされます。
-
-  さらに 11 月 1 日（PT）以降、ストリーミングセグメント化では、トラッキングデータセットとフィードバックデータセットからの送信イベントと開始イベントの使用をサポートしなくなります。 この変更は、そのときのすべての顧客サンドボックスおよび組織に適用されます。 [詳細情報](../data/datasets-ttl.md)
+  この変更は、後続フェーズで既存の顧客サンドボックスにロールアウトされます。 [詳細情報](../data/datasets-ttl.md#ttl)
 
 * **カスタムアクションのパラメーター** （公開日：2024 年 10 月 3 日（PT）） – カスタムアクションで NULL およびオプションのパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
