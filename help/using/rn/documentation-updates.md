@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
-source-wordcount: '5672'
+source-wordcount: '5707'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 97%
 
 ## 2024年10月 {#oct-2024}
 
+* の 2024 年 10 月リリースに含まれているすべて [!DNL Journey Optimizer] 新機能と機能強化について、ドキュメントで詳しく説明しました。 [詳細情報](release-notes.md)
+* [!DNL Journey Optimizer] で使用可能なすべての通信チャネルが、ドキュメントの専用セクションにグループ化されました。 [詳細情報](../channels/gs-channels.md)
 * **コードベースのエクスペリエンスの設定** ページが改善され、サーフェス URI について説明する節など、プロセスがより明確になりました。 [詳細情報](../code-based/code-based-configuration.md)
 * **Web チャネル設定の作成** ページが更新され、ルールに一致するページを作成する手順が明確になりました。このルールは、コードベースのエクスペリエンス設定にも適用されます。 [詳細情報](../web/web-configuration.md#web-page-matching-rule)
 * システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。 [詳細情報](../data/get-started-datasets.md)
