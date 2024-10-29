@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 81%
 
 ---
 
@@ -21,10 +21,9 @@ ht-degree: 100%
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-
 既にメール、SMS、プッシュ通知などのアウトバウンドチャネルを使用している場合は、インバウンド web チャネルを活用して、すべてのチャネルにわたって真にパーソナライズされたエクスペリエンスを提供できるようになりました。
 
-キャンペーンを作成したら、アクションとして「**Web**」を選択し、基本設定を定義します。キャンペーンの設定方法について詳しくは、この[ページ](../campaigns/create-campaign.md#configure)を参照してください。
+ジャーニーまたはキャンペーンを作成したら、アクションとして **Web** を選択し、基本設定を定義します。 ジャーニー/キャンペーンの設定方法について詳しくは、この [ ページ ](create-web.md#create-web-experience) を参照してください。
 
 >[!NOTE]
 >
@@ -50,11 +49,11 @@ Web キャンペーンを作成する詳細な手順については、[こちら
 </div>
 <p></td>
 <td>
-<a href="edit-web-content.md">
+<a href="web-visual-editor.md">
 <img alt="検証" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="edit-web-content.md"><strong>Web ページの作成</strong></a>
+<a href="web-visual-editor.md"><strong>Web ページの作成</strong></a>
 </div>
 <p>
 </td>

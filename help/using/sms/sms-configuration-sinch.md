@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 81%
 
 ---
 
@@ -54,7 +54,15 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
 
    * **[!UICONTROL インバウンド番号]**：ユニークなインバウンド番号またはショートコードを追加します。これにより、それぞれに独自のインバウンド番号またはショートコードを持つ異なるサンドボックス間で同じ API 資格情報を使用できます。
 
+   * **[!UICONTROL カスタム受信キーワード]**：特定のアクションに対して一意のキーワードを定義します（割引、オファー、登録など）。 これらのキーワードは取得され、プロファイルに属性として保存されるので、ユーザーはジャーニー内でストリーミングセグメントの選定をトリガー設定し、カスタマイズされた応答やアクションを提供できます。
+
+   * **[!UICONTROL デフォルトのインバウンド返信メッセージ]**：定義されたキーワードのいずれにも一致しないインバウンド SMS をエンドユーザーが送信したときに送信されるデフォルトの返信を入力します。
+
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+
+1. **[!UICONTROL API 資格情報]** メニューで、bin アイコンをクリックして、API 資格情報を削除します。
+
+1. 既存の資格情報を変更するには、目的の API 資格情報を見つけ、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を加えます。
 
 API 資格情報を作成し設定したら、SMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)
 
@@ -82,5 +90,9 @@ Journey Optimizer で MMS を送信するように Sinch MMS を設定するに�
    * **[!UICONTROL サービスプラン ID]** および **[!UICONTROL SMS API トークン]**：**[!UICONTROL サービスプラン ID]** および **[!UICONTROL SMS API トークン]**&#x200B;は、API ページの「SMS」タブにあります。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+
+1. **[!UICONTROL API 資格情報]** メニューで、bin アイコンをクリックして、API 資格情報を削除します。
+
+1. 既存の資格情報を変更するには、目的の API 資格情報を見つけ、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を加えます。
 
 API 資格情報を作成し設定したら、MMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)

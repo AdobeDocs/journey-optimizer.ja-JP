@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 2a7707f5538a8d01a7b0d7e531d94d9ef922097a
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 73%
+source-wordcount: '1804'
+ht-degree: 70%
 
 ---
 
@@ -49,6 +49,8 @@ ht-degree: 73%
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、パーソナライゼーションエディターを使用して必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
+   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。 選択可能なテンプレートは、事前に選択したチャネル設定に基づいてHTMLまたは JSON のいずれかにスコープ設定されます。 [ コンテンツテンプレートの使用方法を学ぶ ](../content-management/use-content-templates.md)
+
 1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
 1. コードベースのエクスペリエンスの準備が整ったら、設定を完了し、ジャーニーを公開してアクティブ化します。[詳細情報](../building-journeys/publishing-the-journey.md)
@@ -76,6 +78,8 @@ ht-degree: 73%
    ![](assets/code-based-campaign-surface.png)
 
 1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
+
+   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。 選択可能なテンプレートは、事前に選択したチャネル設定に基づいてHTMLまたは JSON のいずれかにスコープ設定されます。 [ コンテンツテンプレートの使用方法を学ぶ ](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 

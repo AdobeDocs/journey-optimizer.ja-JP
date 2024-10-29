@@ -6,10 +6,11 @@ description: カスタムプロバイダーを使用して Journey Optimizer で
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+exl-id: fd713864-96b9-4687-91bd-84e3533273ff
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 88%
 
 ---
 
@@ -50,6 +51,10 @@ ht-degree: 100%
      ペイロードに `{{toNumber}}`、`{{fromNumber}}`、`{{message}}` が含まれていることを確認します。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+
+1. **[!UICONTROL API 資格情報]** メニューで、bin アイコンをクリックして、API 資格情報を削除します。
+
+1. 既存の資格情報を変更するには、目的の API 資格情報を見つけ、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を加えます。
 
 API 資格情報を作成し設定したら、SMS メッセージ用のチャネルサーフェスを作成する必要があります。[詳細情報](sms-configuration-surface.md)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 87%
@@ -80,7 +80,7 @@ Visual Editing Helper のブラウザー拡張機能をダウンロードして�
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-[!DNL Journey Optimizer] [Web Designer](edit-web-content.md#work-with-web-designer) で web サイトを開くと、Adobe Experience Cloud Visual Editing Helper が自動的に有効になり、製作が強化されます。
+[!DNL Journey Optimizer] [Web Designer](web-visual-editor.md) で web サイトを開くと、Adobe Experience Cloud Visual Editing Helper が自動的に有効になり、製作が強化されます。
 
 この拡張機能には条件付きの設定はなく、SameSite Cookie の設定を含むすべての設定を自動処理します。
 

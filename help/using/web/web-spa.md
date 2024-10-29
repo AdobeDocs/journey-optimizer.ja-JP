@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -41,13 +41,13 @@ XDM ビューを Adobe [!DNL Journey Optimizer] で活用すると、マーケ�
 
 Adobe Experience Platform Web SDK の実装で SPA の設定が完了したら、変更を適用する web サイトのすべてのビューに移動する必要があります。次の手順に従います。
 
-1. [Web キャンペーンを作成](create-web.md)して、[web デザイナー](edit-web-content.md)にアクセスします。
+1. [Web ジャーニーまたはキャンペーンを作成 ](create-web.md) し、[Web デザイナー ](web-visual-editor.md) にアクセスします。
 
    現在表示中のビューは左上に表示されます。
 
    ![](assets/web-designer-view-home.png)
 
-1. **[!UICONTROL 参照]**&#x200B;モードにスワップします。[詳細情報](../web/edit-web-content.md#browse-mode)
+1. **[!UICONTROL 参照]**&#x200B;モードにスワップします。[詳細情報](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

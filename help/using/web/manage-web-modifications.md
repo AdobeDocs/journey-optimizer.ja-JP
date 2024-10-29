@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '971'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,8 @@ Web ページに追加したすべてのコンポーネント、調整および�
    >[!CAUTION]
    >
    >アクションを削除する場合は後続のアクションに影響する可能性があるので、慎重に作業を進めてください。
+
+1. [ 単一ページアプリケーション ](web-spa.md) をオーサリングしている場合は、他のビューに変更を適用できます。 [詳細情報](web-spa.md#apply-modifications-views)
 
 1. 複数の変更を同時に削除するには、**[!UICONTROL 変更]**&#x200B;ウィンドウ上部の「**[!UICONTROL 選択]**」ボタンをクリックして、変更内容を確認し、**[!UICONTROL 削除]**&#x200B;アイコンをクリックします。
 

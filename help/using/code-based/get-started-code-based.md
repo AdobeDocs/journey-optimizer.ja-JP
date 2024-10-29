@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 83%
@@ -75,7 +75,7 @@ ht-degree: 83%
 
 * デジタルプロパティに web ブラウザーやモバイルアプリを通じてアクセスできない場合はいつでも、コードベースのエクスペリエンスの使用を検討してください。この場合は、[!DNL Journey Optimizer] [web チャネル](../web/get-started-web.md){target="_blank"}または [!DNL Journey Optimizer] [アプリ内メッセージング](../in-app/get-started-in-app.md){target="_blank"}チャネルを使用したほうがよいでしょう。
 
-* [Web デザイナー](../web/edit-web-content.md#work-with-web-designer){target="_blank"}ビジュアルエディターに web サイトを読み込めない場合、またはビジュアルオーサリングを強化する[ブラウザー拡張機能](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}を使用できない場合は、[!DNL Journey Optimizer] web チャネルの代わりにコードベースチャネルを使用できます。
+* [Web デザイナー](../web/web-visual-editor.md){target="_blank"}ビジュアルエディターに web サイトを読み込めない場合、またはビジュアルオーサリングを強化する[ブラウザー拡張機能](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}を使用できない場合は、[!DNL Journey Optimizer] web チャネルの代わりにコードベースチャネルを使用できます。
 
 * また、API ベース、ヘッドレス、またはサーバーサイド実装がある場合は、[!DNL Journey Optimizer] web チャネルやアプリ内チャネルの代わりにコードベースのチャネルを使用することもできます。
 
@@ -85,9 +85,9 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 **Web**
 
-* [Web デザイナー](../web/edit-web-content.md#work-with-web-designer){target="_blank"}ビジュアルエディターを使用してコンテンツを編集します。
+* [Web デザイナー](../web/web-visual-editor.md){target="_blank"}ビジュアルエディターを使用してコンテンツを編集します。
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装し、[Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 拡張機能を web ブラウザーにインストールしている必要があります。[詳細情報](../web/web-prerequisites.md){target="_blank"}
-* Web チャネルを使用すると、ページ上のすべての項目を変更でき、変更に使用できるアクションの事前定義済みのリストが表示されます。[詳細情報](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* Web チャネルを使用すると、ページ上のすべての項目を変更でき、変更に使用できるアクションの事前定義済みのリストが表示されます。[詳細情報](../web/web-visual-editor.md){target="_blank"}
 * 簡単に設定して、すぐに使い始めることができます。
 * マーケティング担当者向けです。
 

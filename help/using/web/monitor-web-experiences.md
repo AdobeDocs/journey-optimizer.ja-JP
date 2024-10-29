@@ -1,19 +1,19 @@
 ---
-title: Web キャンペーンの監視
-description: Journey Optimizer での web キャンペーンの監視方法を学ぶ
+title: Web エクスペリエンスの監視
+description: Journey Optimizerで web エクスペリエンスを監視する方法について説明します
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
-# Web キャンペーンの監視 {#monitor-web-experiences}
+# Web エクスペリエンスの監視 {#monitor-web-experiences}
 
 ## Web レポートの確認 {#check-web-reports}
 
@@ -23,7 +23,7 @@ Web エクスペリエンスがライブになったら、[ジャーニーリポ
 
 Web エクスペリエンスの監視をさらに強化するには、web サイトの特定の要素に対するクリック数を追跡することもできます。これにより、web レポートにその要素のクリック数を表示できます。[方法についてはこちらを参照](#use-click-tracing)
 
-## クリックの追跡を使用 {#use-click-tracing}
+## クリックの追跡を使用 {#use-click-tracking}
 
 Web デザイナーを使用すると、web サイトの任意の要素を選択し、その要素に対するクリック数をトラックできます。
 

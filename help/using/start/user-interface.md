@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1446'
 ht-degree: 100%
 
 ---
@@ -232,45 +232,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 <!--CONTENT LOCKING-->
 
->[!CONTEXTUALHELP]
->id="ajo_locking_governance"
->title="ガバナンス"
->abstract="ガバナンス"
 
->[!CONTEXTUALHELP]
->id="ajo_locking_mode"
->title="モード"
->abstract="モード"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_content_addition"
->title="コンテンツ追加を有効にする"
->abstract="コンテンツ追加を有効にする"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_structure"
->title="構造でのコンテンツのロック"
->abstract="構造でのコンテンツのロック"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_component"
->title="コンポーネントで特定のロックを使用"
->abstract="コンポーネントで特定のロックを使用"
-
->[!CONTEXTUALHELP]
->id="ajo_email_editable_areas"
->title="編集可能な領域をハイライト表示"
->abstract="編集可能な領域をハイライト表示"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_activated"
->title="ガバナンスが有効になりました"
->abstract="コンテンツのロックがアクティブ化され、変更ができなくなります。"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_read_only"
->title="読み取り専用"
->abstract="このコンテンツは読み取り専用で、変更できません。"
 
 <!--APPROVAL POLICIES-->
 
