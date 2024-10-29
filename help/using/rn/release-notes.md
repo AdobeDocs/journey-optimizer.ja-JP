@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 92dbfedcd4dbc94674f0fb89c6dee3fdb082c918
+source-git-commit: 2fb8113f4ae85b661a3ea967327e6a0b532fc48f
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 49%
+source-wordcount: '1428'
+ht-degree: 48%
 
 ---
 
@@ -284,6 +284,8 @@ ht-degree: 49%
 
 * SMS API チャネル設定を編集または削除できるようになりました。
 
+これらの改善点について詳しくは、[Infobip](../sms/sms-configuration-infobip.md) および [Sinch](../sms/sms-configuration-sinch.md) の SMS 設定ドキュメントを参照してください。
+
 <!--**Journeys**-->
 
 <!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
@@ -292,7 +294,7 @@ ht-degree: 49%
 
 **Web チャネル**
 
-* **Web デザイナーの非視覚編集モード** - Journey Optimizer Web デザイナーの代わりに、非視覚編集を使用して web サイトに変更を加えられるようになりました。 これにより、ビジュアルエディターでページを開かずに、手動で変更を入力できます。 この非視覚編集モードは、web デザイナーでページを読み込むために必要なAdobe Experience Cloud Visual Helper などのブラウザー拡張機能をインストールできない場合に役立ちます。
+* **Web デザイナーの非視覚編集モード** - Journey Optimizer Web デザイナーの代わりに、非視覚編集を使用して web サイトに変更を加えられるようになりました。 これにより、ビジュアルエディターでページを開かずに、手動で変更を入力できます。 この非視覚編集モードは、web デザイナーでページを読み込むために必要なAdobe Experience Cloud Visual Helper などのブラウザー拡張機能をインストールできない場合に役立ちます。 [詳細情報](../web/web-non-visual-editor.md)
 
 
 **データセット**
@@ -310,7 +312,7 @@ ht-degree: 49%
 
 **レポート**
 
-* **Experience Decisioning レポート** が使用できるようになりました。訪問者がエクスペリエンスとやり取りする方法に関する基本的なインサイトが提供されます。
+* **Experience Decisioning レポート** が使用できるようになりました。訪問者がエクスペリエンスとやり取りする方法に関する基本的なインサイトが提供されます。 [詳細情報](../reports/campaign-global-report-cja-code.md##decisioning-kpis)
 
 **データガバナンスおよび同意ポリシー** - 公開日：2024年10月7日（PT）
 
