@@ -5,14 +5,16 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 72959e1079b59d51042cdf6843f1a9fb7dd37f9c
+source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 83%
 
 ---
 
+
 # Web デザイナーの操作 {#work-with-web-designer}
+
 <!--
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
