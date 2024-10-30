@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ルールセットの操作
+title: ルールセットの操作（LA）
 description: ルールセットを作成および適用する方法を学ぶ
 feature: Rules
 topic: Content Management
@@ -12,10 +12,10 @@ badge: label="ベータ版"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
-ht-degree: 74%
+source-wordcount: '1988'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 
 >[!AVAILABILITY]
 >
->ルールセットは現在、一部のユーザーのみを対象としたベータ版として提供されています。ベータ版に参加するには、アドビの担当者にお問い合わせください。
+>ルールセットは現在、一部のお客様のグループに対して限定提供で利用できます。 この機能は、今後、より多くのユーザーに徐々に展開される予定です。 キャンセル待ちに追加することに関心がある場合は、アカウントチームにお問い合わせください。
 
 ## ルールセットの基本を学ぶ {#gs}
 
@@ -167,7 +167,7 @@ ht-degree: 74%
    * **[!UICONTROL ジャーニーエントリの上限]**: プロファイルに対して指定された期間にジャーニーにエントリするエントリ数を制限します。
    * **[!UICONTROL ジャーニー同時実行性の上限]**：プロファイルを同時に登録できるジャーニーの数を制限します。
 
-1. ジャーニーのキャッピングルールを設定する方法について詳しくは、[ジャーニーのキャッピングと判別 ](../test-approve/journey-capping.md) の節を参照してください。
+1. ジャーニーのキャッピングルールを設定する方法について詳しくは、[ジャーニーのキャッピングと判別 ](../conflict-prioritization/journey-capping.md) の節を参照してください。
 
 +++
 
@@ -306,7 +306,7 @@ In this scenario, an individual profile:
 
 キャッピングルールをジャーニーに適用するには、ジャーニーにアクセスしてプロパティを開きます。 **[!UICONTROL キャッピングルール]** ドロップダウンで、関連するルールセットを選択します。
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

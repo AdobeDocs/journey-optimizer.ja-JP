@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 93%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 93%
    + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
++ 競合管理と優先順位付け {#conflict-prioritization}
+   + [競合管理と優先順位付けの概要](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
+   + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
+   + [ジャーニーのキャッピングと判別](using/conflict-prioritization/journey-capping.md)
 + {#test} のテストと承認
-   + [競合管理と優先順位付け](using/test-approve/conflict-prioritization.md)
-   + 競合管理と優先順位付け {#conflict-prioritization}
-      + [競合管理と優先順位付けの概要](using/test-approve/gs-conflict-prioritization.md)
-      + [潜在的な競合の特定](using/test-approve/conflicts.md)
-      + [優先度スコアの割り当て](using/test-approve/priority-scores.md)
-      + [ジャーニーのキャッピングと判別](using/test-approve/journey-capping.md)
    + コンテンツのプレビューとテスト {#preview-test}
       + [サンプル入力データを使用したコンテンツのテスト](using/test-approve/simulate-sample-input.md)
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
@@ -659,7 +658,7 @@ ht-degree: 93%
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [ビジネスルールの設定](using/configuration/frequency-rules.md)
-   + [ルールセットの操作](using/configuration/rule-sets.md)
+   + [ルールセットの操作（LA）](using/configuration/rule-sets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
