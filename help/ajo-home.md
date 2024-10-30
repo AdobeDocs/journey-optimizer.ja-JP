@@ -5,9 +5,9 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c2403c04d1e881d3da7528aa3460bae47f001c36
+source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 86%
 
 ---
@@ -22,7 +22,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!TAB 2024 年 10 月リリース ]
 
-10 月リリースがリリースされました。これには、メールコンテンツのロック、可動インクとの統合、ジャーニーでのコードベースおよび web エクスペリエンスが含まれます。 以前は限定提供（LA）でしたが、メール設定のパーソナライゼーション、承認ポリシー、ジャーニーでのコンテンツ実験、レポートエクスペリエンスの向上などの機能を、すべてのお客様が利用できるようになりました。
+10 月リリースがリリースされました。これには、メールコンテンツのロック、可動インクとの統合、ジャーニーでのコードベースおよび web エクスペリエンスが含まれます。 以前は限定提供（LA）でしたが、メール設定のパーソナライゼーション、承認ポリシー、コンテンツの実験、レポートエクスペリエンスの向上、多言語コンテンツなど、すべてのユーザーが利用できる機能を追加しました。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
