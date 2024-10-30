@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="限定提供"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1746'
-ht-degree: 100%
+source-wordcount: '1745'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 決定項目を表示する対象を決定する条件を設定する場合は、決定項目を作成する前に、必ず&#x200B;**決定ルール**&#x200B;を作成してください。[決定ルールを作成する方法を学ぶ](rules.md)。
 
-決定項目を作成するには、**[!UICONTROL Experience Decisioning]**／**[!UICONTROL カタログ]**&#x200B;に移動し、「**[!UICONTROL 項目を作成]**」をクリックして、以下の節で説明する手順に従います。
+決定項目を作成するには、**[!UICONTROL 決定]**/**[!UICONTROL カタログ]** に移動し、「**[!UICONTROL 項目を作成]**」をクリックして、以下の節で説明している手順に従います。
 
 ## 決定項目の属性を定義 {#attributes}
 

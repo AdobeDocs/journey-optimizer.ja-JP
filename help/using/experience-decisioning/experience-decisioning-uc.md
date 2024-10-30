@@ -1,19 +1,19 @@
 ---
-title: エクスペリエンス決定のユースケース
+title: 決定のユースケース
 description: コードベースチャネルでの実験を使用した決定の作成方法について説明します
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="限定提供"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 95%
 
 ---
 
-# エクスペリエンス決定のユースケース {#experience-decisioning-uc}
+# 決定のユースケース {#experience-decisioning-uc}
 
 このユースケースでは、それぞれ異なる決定ポリシーを含んだ 2 つの配信処理を定義し、ターゲットオーディエンスに対して最もパフォーマンスが良い配信を測定します。
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 まず、項目を作成してコレクションにグループ化し、ルールとランキング方法を設定する必要があります。これらの要素を使用すると、選択戦略を作成できます。
 
-1. **[!UICONTROL エクスペリエンス決定]**／**[!UICONTROL カタログ]**&#x200B;に移動し、いくつかのオファー項目を作成します。オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
+1. **[!UICONTROL 決定]**/**[!UICONTROL カタログに移動し]** 複数のオファー項目を作成します。 オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

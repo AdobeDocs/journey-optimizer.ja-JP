@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2156'
 ht-degree: 94%
 
 ---
@@ -446,7 +446,7 @@ ht-degree: 94%
       + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
    + [アラート](using/reports/alerts.md)
    + [除外の理由](using/reports/exclusion-list.md)
-+ 決定 {#decisioning}
++ 決定機能 {#decisioning}
    + 意思決定管理 {#offer-decisioning}
       + 意思決定管理の基本を学ぶ {#get-started-decision}
 
@@ -588,8 +588,8 @@ ht-degree: 94%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + エクスペリエンス決定（LA）{#experience-decisioning}
-      + [エクスペリエンス決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
+   + Decisioning （LA） {#experience-decisioning}
+      + [意思決定の概要](using/experience-decisioning/gs-experience-decisioning.md)
       + API リファレンス{#api-reference}
          + 決定項目{#decision-items}
             + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)

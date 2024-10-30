@@ -1,39 +1,39 @@
 ---
-title: エクスペリエンス決定の基本を学ぶ
-description: 詳しくは、Experience Decisioningを参照してください
+title: 意思決定の概要
+description: 決定の詳細情報
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="限定提供"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 75%
 
 ---
 
-# エクスペリエンス決定の基本を学ぶ {#get-started-experience-decisioning}
+# 意思決定の概要 {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
+>決定は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 >
 >現時点では、Adobe **Healthcare Shield** および **Privacy and Security Shield** アドオン製品を購入したお客様は、この機能を使用できません。
 
-## Experience Decisioning とは {#about}
+## 決定とは {#about}
 
-エクスペリエンス決定は、「決定項目」と呼ばれるマーケティングオファーの一元化されたカタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
+意思決定は、「決定項目」と呼ばれるマーケティングオファーの一元化されたカタログと高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。 このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった[新しいコードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。Experience Decisioning 決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
+これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった[新しいコードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。意思決定決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
 
 
-## Experience Decisioning の主な手順 {#steps}
+## 決定の主な手順 {#steps}
 
-Experience Decisioning を操作する主な手順は次のとおりです。
+Decisioning を使用する主な手順は次のとおりです。
 
-1. **適切な権限を割り当て**&#x200B;ます。Experience Decisioning は、決定マネージャーなど、Experience Decisioning 関連の&#x200B;**[!UICONTROL 役割]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。Experience Decisioning にアクセスできない場合は、権限を拡張する必要があります。
+1. **適切な権限を割り当て**&#x200B;ます。決定は、決定マネージャーなど、決定に関連する **[!UICONTROL 役割]** へのアクセス権を持つユーザーのみが使用できます。 Decisioning にアクセスできない場合は、権限を拡張する必要があります。
 
    +++決定マネージャーの役割の割り当て方法
 

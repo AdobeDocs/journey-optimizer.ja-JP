@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '1999'
 ht-degree: 40%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 40%
 
 **レポート**
 
-* **Experience Decisioning レポート** が使用できるようになりました。訪問者がエクスペリエンスとやり取りする方法に関する基本的なインサイトが提供されます。
+* **意思決定レポート** が使用できるようになり、訪問者がエクスペリエンスとやり取りする方法に関する基本的なインサイトが提供されます。
 
 **データガバナンスおよび同意ポリシー** - 公開日：2024年10月7日（PT）
 

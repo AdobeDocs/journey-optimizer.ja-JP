@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 badge: label="限定提供"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 90%
 
 ---
 
 # 項目カタログ {#catalog}
 
-エクスペリエンス判定では、カタログは、決定項目を整理するための中心的なコンテナとして機能します。各カタログは、決定項目に割り当て可能なすべての属性を含む、Adobe Experience Platform スキーマにリンクされます。
+Decisioning では、カタログは、決定項目を整理するための一元的なコンテナとして機能します。 各カタログは、決定項目に割り当て可能なすべての属性を含む、Adobe Experience Platform スキーマにリンクされます。
 
 現時点では、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合され、**[!UICONTROL カタログ]**&#x200B;メニューからアクセスできます。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >現時点では、Experience Decisioning は、文字列、整数、ブール値、日付、日時、決定アセットの各データタイプのみをサポートしています。これらのデータタイプに該当しないフィールドは、決定項目やカタログの作成時には使用できません。
+   >現時点では、Decisioning は、文字列、整数、ブール値、日付、日時、Decisioning アセットの各データタイプを排他的にサポートしています。 これらのデータタイプに該当しないフィールドは、決定項目やカタログの作成時には使用できません。
 
    決定アセット属性を持つ属性に入力される値はパブリック URL です。ほとんどの場合、これは画像を指します。
 
