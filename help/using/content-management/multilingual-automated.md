@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="限定提供" type="Informative"
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 98%
+source-wordcount: '2041'
+ht-degree: 68%
 
 ---
 
@@ -29,44 +28,25 @@ ht-degree: 98%
 >title="プロバイダーを編集"
 >abstract="必要に応じて、既存の翻訳プロバイダーを変更し、ロケールを追加します。この機能を使用すると、プロジェクトに対してアクティブなプロバイダーとロケールを制御でき、現在のニーズとプロジェクトの目標に応じてリソースを調整し、特定のオーディエンスをターゲットにする柔軟性が得られます。"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->多言語コンテンツは現在、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
+>自動フローを行うには、ユーザーが **[!UICONTROL 翻訳サービス]** 機能に関連する権限が必要となります。 [詳しくは、権限を参照してください](../administration/permissions.md)
 
 自動フローを使用して、ターゲット言語と言語プロバイダーを簡単に選択できます。その後、コンテンツは翻訳に直接送信され、完了時に最終レビューが行われます。
 
 自動翻訳を使用して多言語コンテンツを作成するには、次の手順に従います。
 
-1. [ロケールを作成します](#create-locale)。
+1. [プロバイダーの追加](multilingual-provider.md)
 
-1. [言語プロジェクトを作成します](#create-translation-project)。
+1. [ロケールを追加（オプション）](multilingual-locale.md)
 
-1. [言語設定を作成](#create-language-settings).
+1. [言語プロジェクトの作成](#create-translation-project)
 
-1. [多言語コンテンツを作成します](#create-a-multilingual-campaign)。
+1. [言語設定の作成](#create-language-settings)
 
-1. [翻訳タスクをレビューします（オプション）](#review-translation-project)。
+1. [多言語コンテンツの作成](#create-a-multilingual-campaign)
 
-## ロケールの作成 {#create-locale}
-
->[!CONTEXTUALHELP]
->id="ajo_multi_add_locale"
->title="ロケールの追加"
->abstract="言語の環境設定を設定する際に、多言語コンテンツで目的のロケールを使用できない場合は、追加のロケールを作成するオプションがあります。"
-
-[言語設定の作成](#language-settings)の節で説明しているように、言語設定を行う際に、多言語コンテンツに特定のロケールが使用できない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューを使用して必要に応じて新しいロケールを柔軟に作成できます。
-
-1. **[!UICONTROL コンテンツ管理]**&#x200B;メニューから、**[!UICONTROL 翻訳]**&#x200B;にアクセスします。
-
-1. 「**[!UICONTROL ロケール辞書]**」タブから、「**[!UICONTROL ロケールを追加]**」をクリックします。
-
-   ![](assets/locale_1.png)
-
-1. **[!UICONTROL 言語]**&#x200B;リストと関連する&#x200B;**[!UICONTROL 地域]**&#x200B;からロケールコードを選択します。
-
-1. 「**[!UICONTROL 保存]**」をクリックしてロケールを作成します。
-
-   ![](assets/locale_2.png)
+1. [翻訳タスクのレビュー（オプション）](#review-translation-project)
 
 ## 翻訳プロジェクトを作成 {#translation-project}
 
@@ -125,7 +105,17 @@ ht-degree: 98%
 
 ## 言語設定の作成 {#language-settings}
 
-この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます。
+>[!CONTEXTUALHELP]
+>id="ajo_multi_custom_conditional"
+>title="カスタム条件付き設定"
+>abstract="カスタム条件付き設定は、特定の条件に基づいてコンテンツを表示するロケールを決定するルールセットです。 これらの設定を使用すると、ユーザーの場所、言語の環境設定、その他のコンテキスト要素などの要因に基づいて、コンテンツの表示を制御できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_fallback"
+>title="フォールバック環境設定"
+>abstract="フォールバック環境設定の選択は、ユーザーエクスペリエンスを向上させるために重要です。 フォールバックが選択されておらず、プロファイルが必要な要件を満たさない場合、コンテンツは配信されません。 適切なフォールバックを選択することで、プロファイルが初期条件に一致しない場合でも、一貫したコンテンツ配信を確保できます。"
+
+このセクションでは、多言語コンテンツを管理するための様々なロケールを設定できます。 また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます。
 
 1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**&#x200B;にアクセスします。
 
@@ -133,27 +123,86 @@ ht-degree: 98%
 
    ![](assets/language_settings_1.png)
 
-1. **[!UICONTROL 言語設定]**&#x200B;の名前を入力します。
-
-1. 「**[!UICONTROL 翻訳プロジェクト]**」オプションを選択します。
+1. **[!UICONTROL 言語設定]** の名前を入力し、「**[!UICONTROL 翻訳プロジェクト]**」を選択します。
 
 1. 「**[!UICONTROL 翻訳プロジェクト]**」フィールドから、「**[!UICONTROL 編集]**」をクリックし、以前に作成した&#x200B;**[!UICONTROL 翻訳プロジェクト]**&#x200B;を選択します。
 
-   以前に設定したロケールが自動的に読み込まれます。
+   以前に設定した **[!UICONTROL ロケール]** が自動的に読み込まれます。
+
+1. プロファイルがコンテンツ配信に必要な条件を満たさない場合のバックアップオプションを定義する **[!UICONTROL フォールバック環境設定]** を選択します。
+
+   フォールバックオプションが選択されていない場合、キャンペーンやジャーニーは送信されません。
 
    ![](assets/language_settings_2.png)
 
-1. **[!UICONTROL 送信環境設定]**&#x200B;メニューから、プロファイル言語に関する情報を見つけるために検索する属性を選択します。
+1. 次のオプションから送信設定を選択します。
 
-1. **[!UICONTROL ロケール]**&#x200B;の横にある「**[!UICONTROL 編集]**」をクリックしてさらにパーソナライズし、**[!UICONTROL プロファイル環境設定]**&#x200B;を追加します。
+   * **[!UICONTROL プロファイル言語の環境設定属性の選択]**
+   * **[!UICONTROL カスタム条件付きルールの作成]**
+
+1. **[!UICONTROL プロファイル言語プリファレンス属性を選択]** を選択した場合は、**[!UICONTROL プロファイル言語プリファレンス属性]** メニューから関連属性を選択して、プロファイル言語情報を検索します。
+
+   ![](assets/multilingual-settings-3.png)
+
+1. **[!UICONTROL カスタム条件付きルールの作成]** を選択した場合は、条件を作成するロケールを選択します。 次に、ユーザーの場所、言語の環境設定、その他のコンテキスト要素などの要因に基づいてルールを作成します。
 
    ![](assets/language_settings_3.png)
 
-1. **[!UICONTROL 翻訳プロジェクト]**&#x200B;を更新する場合は、「**[!UICONTROL 更新]**」をクリックして、**[!UICONTROL 言語設定]**&#x200B;にこれらの変更を反映します。
+1. 属性、イベントまたはオーディエンスを追加してターゲットグループを定義することで、条件の作成を開始します。
 
-   ![](assets/language_settings_4.png)
+   >[!IMPORTANT]
+   >
+   >コンテキストデータは、Web、アプリ内、コードベースのエクスペリエンスおよびコンテンツカードの各チャネルでのみ使用できます。 メール、SMS、プッシュ通知、ダイレクトメールチャネルに使用すると、追加属性なしで、キャンペーンまたはジャーニーがリストの最初のオプションの言語で送信されます。
+
+   ![](assets/multilingual-settings-6.png)
+
+   +++条件でコンテキストイベントを使用するための前提条件
+
+   ユーザーがコンテンツを表示すると、パーソナライゼーションリクエストがエクスペリエンスイベントと共に送信されます。 条件でコンテキストデータを活用するには、パーソナライゼーションリクエストペイロードに追加データを添付する必要があります。 これを行うには、Adobe Experience Platform Data Collection でルールを作成して、パーソナライゼーションリクエストが送信された場合は、スキーマの言語フィールドと一致する属性を定義して、リクエストに追加データを添付する必要があります。
+
+   >[!NOTE]
+   >
+   >これらの前提条件は、アプリ内チャネルとコンテンツカード チャネルにのみ必要です。
+
+   1. Adobe Experience Platform Data Collection で、**[!UICONTROL ルール]** メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[ データ収集ドキュメント [!DNL Adobe Experience Platform] 参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+
+   2. ルールの **[!UICONTROL IF]** セクションで、次のように設定されたイベントを追加します。
+
+      ![](assets/multilingual-experience-events-rule-if.png)
+
+      * 使用している **[!UICONTROL 拡張機能]** を選択します。
+      * 「**[!UICONTROL イベントタイプ]**」フィールドで「AEP リクエストイベント」を選択します。
+      * 右側のパネルで、「XDM イベントタイプが personalization.request と等しい」を選択します。
+      * 「**[!UICONTROL 変更を保持]**」ボタンをクリックして確定します。
+
+   3. ルールの「**[!UICONTROL THEN]**」セクションで、次のように設定されたアクションを追加します。
+
+      ![](assets/multilingual-experience-events-rule-then.png)
+
+      * 使用している **[!UICONTROL 拡張機能]** を選択します。
+      * **[!UICONTROL アクションタイプ]** フィールドで「データを添付」を選択します。
+      * 「JSON ペイロード」セクションで、使用する言語を取得するために使用する属性（以下の例では「language」）が、データ収集データストリームが送られるスキーマで指定された属性の名前と一致することを確認します。
+
+        ```JSON
+        {
+            "xdm":{
+                "application":{
+                    "_dc":{
+                        "language":"{%%Language%%}"
+                    }
+                }
+            }
+        }
+        ```
+      * 「**[!UICONTROL 変更を保持]**」ボタンをクリックして、ルールを確認して保存します。
+
++++
+
+1. ロケールをドラッグ&amp;ドロップして並べ替え、リスト内の優先度を管理します。
 
 1. 「**[!UICONTROL 送信]**」をクリックして、**[!UICONTROL 言語設定]**&#x200B;を作成します。
+
+言語の環境設定を行った後は、それらを編集するオプションは表示されなくなります。
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -165,6 +214,10 @@ ht-degree: 98%
 -->
 
 ## 多言語コンテンツの作成 {#create-multilingual-campaign}
+
+>[!AVAILABILITY]
+>
+> コードベースのエクスペリエンスおよびコンテンツカードのコンテンツのプレビューは、現在、自動フローでは使用できません。
 
 翻訳プロジェクトと言語の設定を行ったら、キャンペーンまたはジャーニーを作成し、様々なロケールに対してコンテンツをカスタマイズする準備が整います。
 

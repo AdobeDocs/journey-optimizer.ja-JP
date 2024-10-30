@@ -9,49 +9,34 @@ role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="限定提供" type="Informative"
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 95%
+source-wordcount: '949'
+ht-degree: 34%
 
 ---
 
 # 手動翻訳を使用した多言語コンテンツの作成 {#multilingual-manual}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->多言語コンテンツは現在、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
+>手動フローの場合、ユーザーに **[!UICONTROL 言語設定の管理]** 権限を付与する必要があります。
 
-手動フローを使用すると、多言語メッセージへの正確な制御とカスタマイズのオプションで、メール、プッシュ通知または SMS キャンペーンおよびジャーニーに直接コンテンツを簡単に翻訳できます。さらに、「HTML を読み込む」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
+手動フローを使用すると、キャンペーンやジャーニーで直接コンテンツを簡単に翻訳でき、多言語メッセージを正確に制御しカスタマイズするためのオプションが提供されます。 さらに、「HTML を読み込む」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
 
 手動翻訳を使用して多言語コンテンツを作成するには、次の手順に従います。
 
-1. [ロケールを作成します](#create-locale)。
+1. [プロバイダーを追加（オプション）](multilingual-provider.md)
 
-1. [言語設定の作成](#create-language-settings).
+1. [ロケールを追加（オプション）](multilingual-locale.md)
 
-1. [多言語コンテンツを作成](#create-a-multilingual-campaign)します。
+1. [言語設定の作成](#create-language-settings)
 
-## ロケールの作成 {#create-locale}
-
-[言語設定の作成](#language-settings)の節で説明しているように、言語設定を行う際に、多言語コンテンツに特定のロケールが使用できない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューを使用して必要に応じて新しいロケールを柔軟に作成できます。
-
-1. **[!UICONTROL コンテンツ管理]**&#x200B;メニューから、**[!UICONTROL 翻訳]**&#x200B;にアクセスします。
-
-1. 「**[!UICONTROL ロケール辞書]**」タブから、「**[!UICONTROL ロケールを追加]**」をクリックします。
-
-   ![](assets/locale_1.png)
-
-1. **[!UICONTROL 言語]**&#x200B;リストと関連する&#x200B;**[!UICONTROL 地域]**&#x200B;からロケールコードを選択します。
-
-1. 「**[!UICONTROL 保存]**」をクリックしてロケールを作成します。
-
-   ![](assets/locale_2.png)
+1. [多言語コンテンツの作成](#create-a-multilingual-campaign)
 
 ## 言語設定の作成 {#language-settings}
 
-この節では、多言語コンテンツを管理するためのプライマリ言語とそれに関連するロケールを設定できます。また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます
+このセクションでは、多言語コンテンツを管理するための様々なロケールを設定できます。 また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます
 
 1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**&#x200B;にアクセスします。
 
@@ -59,7 +44,7 @@ ht-degree: 95%
 
    ![](assets/language_settings_1.png)
 
-1. **[!UICONTROL 言語設定]**&#x200B;の名前を入力します。
+1. **[!UICONTROL 言語設定]** の名前を入力し、「**[!UICONTROL 手動翻訳]**」を選択します。
 
 1. この設定に関連付けられている&#x200B;**[!UICONTROL ロケール]**&#x200B;を選択します。最大 50 個のロケールを追加できます。
 
@@ -67,23 +52,83 @@ ht-degree: 95%
 
    ![](assets/multilingual-settings-2.png)
 
-1. **[!UICONTROL 送信環境設定]**&#x200B;メニューから、プロファイル言語に関する情報を見つけるために検索する属性を選択します。
+1. プロファイルがコンテンツ配信に必要な条件を満たさない場合のバックアップオプションを定義する **[!UICONTROL フォールバック環境設定]** を選択します。
+
+   フォールバックオプションが選択されていない場合、キャンペーンやジャーニーは送信されません。
+
+1. 次のオプションから送信設定を選択します。
+
+   * **[!UICONTROL プロファイル言語の環境設定属性の選択]**
+   * **[!UICONTROL カスタム条件付きルールの作成]**
+
+1. **[!UICONTROL プロファイル言語プリファレンス属性を選択]** を選択した場合は、**[!UICONTROL プロファイル言語プリファレンス属性]** メニューから関連属性を選択して、プロファイル言語情報を検索します。
 
    ![](assets/multilingual-settings-3.png)
 
-1. **[!UICONTROL ロケール]**&#x200B;の横にある「**[!UICONTROL 編集]**」をクリックしてさらにパーソナライズし、**[!UICONTROL プロファイル環境設定]**&#x200B;を追加します。
+1. **[!UICONTROL カスタム条件付きルールの作成]** を選択した場合は、条件を作成するロケールを選択します。 次に、ユーザーの場所、言語の環境設定、その他のコンテキスト要素などの要因に基づいてルールを作成します。
 
    ![](assets/multilingual-settings-4.png)
 
-1. プロファイル環境設定ドロップダウンから他の&#x200B;**[!UICONTROL ロケール]**&#x200B;を選択し、「**[!UICONTROL プロファイルを追加]**」をクリックします。
+1. 属性、イベントまたはオーディエンスを追加してターゲットグループを定義することで、条件の作成を開始します。
 
-1. **[!UICONTROL ロケール]**&#x200B;の詳細メニューにアクセスして、**[!UICONTROL プライマリロケール]**（プロファイル属性を指定していない場合のデフォルト言語）を定義します。
+   >[!IMPORTANT]
+   >
+   >コンテキストデータは、Web、アプリ内、コードベースのエクスペリエンスおよびコンテンツカードの各チャネルでのみ使用できます。 メール、SMS、プッシュ通知、ダイレクトメールチャネルに使用すると、追加属性なしで、キャンペーンまたはジャーニーがリストの最初のオプションの言語で送信されます。
 
-   また、この詳細メニューからロケールを削除することもできます。
+   ![](assets/multilingual-settings-6.png)
+
+   +++条件でコンテキストイベントを使用するための前提条件
+
+   ユーザーがコンテンツを表示すると、パーソナライゼーションリクエストがエクスペリエンスイベントと共に送信されます。 条件でコンテキストデータを活用するには、パーソナライゼーションリクエストペイロードに追加データを添付する必要があります。 これを行うには、Adobe Experience Platform Data Collection でルールを作成して、パーソナライゼーションリクエストが送信された場合は、スキーマの言語フィールドと一致する属性を定義して、リクエストに追加データを添付する必要があります。
+
+   >[!NOTE]
+   >
+   >これらの前提条件は、アプリ内チャネルとコンテンツカード チャネルにのみ必要です。
+
+   1. Adobe Experience Platform Data Collection で、**[!UICONTROL ルール]** メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[ データ収集ドキュメント [!DNL Adobe Experience Platform] 参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+
+   2. ルールの **[!UICONTROL IF]** セクションで、次のように設定されたイベントを追加します。
+
+      ![](assets/multilingual-experience-events-rule-if.png)
+
+      * 使用している **[!UICONTROL 拡張機能]** を選択します。
+      * 「**[!UICONTROL イベントタイプ]**」フィールドで「AEP リクエストイベント」を選択します。
+      * 右側のパネルで、「XDM イベントタイプが personalization.request と等しい」を選択します。
+      * 「**[!UICONTROL 変更を保持]**」ボタンをクリックして確定します。
+
+   3. ルールの「**[!UICONTROL THEN]**」セクションで、次のように設定されたアクションを追加します。
+
+      ![](assets/multilingual-experience-events-rule-then.png)
+
+      * 使用している **[!UICONTROL 拡張機能]** を選択します。
+      * **[!UICONTROL アクションタイプ]** フィールドで「データを添付」を選択します。
+      * 「JSON ペイロード」セクションで、使用する言語を取得するために使用する属性（以下の例では「language」）が、データ収集データストリームが送られるスキーマで指定された属性の名前と一致することを確認します。
+
+        ```JSON
+        {
+            "xdm":{
+                "application":{
+                    "_dc":{
+                        "language":"{%%Language%%}"
+                    }
+                }
+            }
+        }
+        ```
+
+      * 「**[!UICONTROL 変更を保持]**」ボタンをクリックして、ルールを確認して保存します。
+
++++
+
+1. ロケールをドラッグ&amp;ドロップして並べ替え、リスト内の優先度を管理します。
+
+1. ロケールを削除するには、bin アイコンをクリックします。
 
    ![](assets/multilingual-settings-5.png)
 
 1. 「**[!UICONTROL 送信]**」をクリックして、**[!UICONTROL 言語設定]**&#x200B;を作成します。
+
+言語の環境設定を行った後は、それらを編集するオプションは表示されなくなります。
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -100,13 +145,13 @@ ht-degree: 95%
 
 1. まず、要件に応じて、メール、SMS またはプッシュ通知[キャンペーン](../campaigns/create-campaign.md)や[ジャーニー](../building-journeys/journeys-message.md)を作成し、設定します。
 
-   >[!AVAILABILITY]
+   >[!IMPORTANT]
    >
    >ジャーニーごとに 1 つの翻訳プロジェクトのみを含めることをお勧めします。
 
 1. 元のコンテンツを作成または読み込み、必要に応じてパーソナライズします。
 
-1. プライマリコンテンツを作成したら、「**[!UICONTROL 保存]**」をクリックし、キャンペーン設定画面に戻ります。
+1. コンテンツを作成したら、「**[!UICONTROL 保存]** をクリックして、キャンペーン設定画面に戻ります。
 
    ![](assets/multilingual-campaign-2.png)
 
@@ -114,11 +159,13 @@ ht-degree: 95%
 
    ![](assets/multilingual-campaign-3.png)
 
-1. **[!UICONTROL ロケール]**&#x200B;メニューの詳細設定にアクセスし、「**[!UICONTROL プライマリをすべてのロケールにコピー]**」を選択します。
+1. ドロップダウンメニューから目的のロケールを選択して、既存の作成したコンテンツに適用します。
+
+1. **[!UICONTROL ロケール]** メニューの詳細設定にアクセスし、「**[!UICONTROL すべてのロケールにコピー]**」を選択します。
 
    ![](assets/multilingual-campaign-4.png)
 
-1. これで、選択した&#x200B;**[!UICONTROL ロケール]**&#x200B;全体にプライマリコンテンツが複製されました。各ロケールにアクセスし、「**[!UICONTROL メール本文を編集]**」をクリックしてコンテンツを翻訳します。
+1. 選択した **[!UICONTROL ロケール]** 全体でコンテンツが複製されるので、各ロケールにアクセスし、**[!UICONTROL メール本文を編集]** をクリックしてコンテンツを翻訳します。
 
    ![](assets/multilingual-campaign-5.png)
 

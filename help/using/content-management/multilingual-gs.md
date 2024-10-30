@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="限定提供" type="Informative"
-source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +23,10 @@ ht-degree: 100%
 >title="翻訳"
 >abstract="多言語機能を使用すると、1 つのキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できます。翻訳ページでは、プロジェクトの設定、翻訳プロバイダーの選択、ロケール固有の辞書の管理を行うことができます"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->多言語コンテンツは現在、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
+>多言語コンテンツの作成を開始するには、ユーザーに **[!UICONTROL 言語設定の管理]** 権限を付与する必要があります。
+>自動フローの場合、ユーザーには **[!UICONTROL 翻訳サービス]** 機能に関連する権限も必要です。 [詳しくは、権限を参照してください](../administration/permissions.md)
 
 多言語機能を使用すると、単一のキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できます。この機能を使用すると、キャンペーンの編集時に言語を切り替えることができるので、編集プロセス全体が合理化され、多言語コンテンツを効率的に管理する機能が向上します。
 
@@ -55,7 +55,9 @@ Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立した�
 
 翻訳に関する問題やサポートのリクエストについては、該当する翻訳プロバイダーにお問い合わせください。
 
-翻訳ページにアクセスできない場合は、翻訳機能を有効にする必要があります。
+Journey Optimizerで翻訳機能を使用するには、API を対応するロールに割り当てる必要があります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+翻訳ページにアクセスできない場合は、翻訳機能を有効にし、**[!UICONTROL 翻訳サービス]** 関連の権限を付与される必要があります。 [詳細情報](../administration/ootb-permissions.md)
 
 +++ 翻訳機能を有効にする方法について説明します。
 

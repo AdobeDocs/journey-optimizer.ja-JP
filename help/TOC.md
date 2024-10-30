@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 94%
+source-wordcount: '2163'
+ht-degree: 93%
 
 ---
 
@@ -310,6 +310,8 @@ ht-degree: 94%
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
    + 多言語コンテンツの操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
+      + [ロケールの作成](using/content-management/multilingual-locale.md)
+      + [言語プロバイダーの作成](using/content-management/multilingual-provider.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
    + コンテンツ実験の操作 {#content-experiment}
