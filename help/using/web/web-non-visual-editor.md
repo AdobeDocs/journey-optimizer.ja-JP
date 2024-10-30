@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
+source-git-commit: d51e28261908018824bcf65180534ced836b3765
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 7%
@@ -51,7 +51,7 @@ ht-degree: 7%
 
    変更の横にある **[!UICONTROL その他のアクション]** ボタンをクリックし、「**[!UICONTROL 情報]**」を選択して詳細を表示します。 必要に応じて、**[!UICONTROL 変更を削除]** することもできます。
 
-   ![](assets/web-non-visual-editor-ex-more.png)
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ ht-degree: 7%
 
 1. さらに、web サイトの任意の要素を選択し、その要素に対するクリック数を追跡できます。 クリックの追跡を有効にし、追跡するアクションを定義するには、次に示すように、左側のパネルの 2 番目のアイコンをクリックします。
 
-   ![](assets/web-campaign-click.png)
+   ![](assets/web-campaign-click.png){width="50%" align="left"}
 
    **コンポーネントを追加** ボタンを使用して、追跡する新しいアクションを選択します。 クリックの使用状況のトラッキングについて詳しくは、[ この節 ](monitor-web-experiences.md#use-click-tracking) を参照してください。
 
