@@ -5,9 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '401'
 ht-degree: 11%
 
 ---
@@ -66,8 +66,8 @@ ht-degree: 11%
    必要に応じて、web デザイナーに切り替えることもできます。 すべての変更が保持されます。
 
 
-1. クリックの追跡を有効にし、左パネルの 2 番目のアイコンから追跡するアクションを定義できます（下図を参照）。
+1. Web サイトの任意の要素を選択し、その要素に対するクリック数を追跡できます。 クリックの追跡を有効にし、追跡するアクションを定義するには、次に示すように、左側のパネルの 2 番目のアイコンをクリックします。
 
    ![](assets/web-campaign-click.png)
 
-   **コンポーネントを追加** ボタンをクリックして、追跡する新しいアクションを選択します。
+   **コンポーネントを追加** ボタンを使用して、追跡する新しいアクションを選択します。 クリックの使用状況のトラッキングについて詳しくは、[ この節 ](monitor-web-experiences.md#use-click-tracking) を参照してください。
