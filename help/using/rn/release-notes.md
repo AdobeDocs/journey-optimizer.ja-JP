@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 43%
+source-wordcount: '1910'
+ht-degree: 42%
 
 ---
 
@@ -275,15 +275,16 @@ ht-degree: 43%
 
 **SMS チャネル**
 
-メッセージング機能を向上させるために、SMS の機能強化が導入されました。
-
-* SMS キャンペーンおよびジャーニーに固有のキーワードを定義および管理して、よりパーソナライズされた効率的な通信を可能にできます。
-
-* キーワードが認識されない場合は、デフォルトの SMS メッセージを作成して配信できます。
-
 * SMS API チャネル設定を編集または削除できるようになりました。
 
-これらの改善点について詳しくは、[Infobip](../sms/sms-configuration-infobip.md) および [Sinch](../sms/sms-configuration-sinch.md) の SMS 設定ドキュメントを参照してください。
+* Infobip および Sinch を使用して SMS メッセージ機能を改善するための次の機能強化が導入されました。
+
+   * SMS キャンペーンおよびジャーニーに固有のキーワードを定義および管理して、よりパーソナライズされた効率的な通信を可能にできます。
+
+   * キーワードが認識されない場合は、デフォルトの SMS メッセージを作成して配信できます。
+
+  これらの改善点について詳しくは、[Infobip](../sms/sms-configuration-infobip.md) および [Sinch](../sms/sms-configuration-sinch.md) の SMS 設定ドキュメントを参照してください。
+
 
 <!--**Journeys**-->
 
@@ -307,7 +308,7 @@ ht-degree: 43%
 
   この変更は、後続フェーズで既存の顧客サンドボックスにロールアウトされます。 [詳細情報](../data/datasets-ttl.md#ttl)
 
-* **カスタムアクションのパラメーター** （公開日：2024 年 10 月 3 日（PT）） – カスタムアクションで NULL およびオプションのパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **カスタムアクションのパラメーター** – 公開日：2024 年 10 月 3 日（PT） – カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **レポート**
 
