@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1904'
 ht-degree: 43%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 43%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer では、過剰な数のインタラクションで顧客が圧倒されるのを避けるために、キャンペーンとジャーニーの量とタイミングを管理することが不可欠です。Journey Optimizerには、競合の管理と優先順位付けのためのいくつかのツールが用意されるようになりました。 <p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p></p><p><ul><li><b>ジャーニーのフリークエンシーキャップ </b>：ジャーニーに適用するルールセットを作成できるようになりました。1 日、1 週間または 1 か月あたりのプロファイルのジャーニー数を制限し、同時に実行される同時ジャーニーの数を制御できます。</li>
+<p>Journey Optimizer では、過剰な数のインタラクションで顧客が圧倒されるのを避けるために、キャンペーンとジャーニーの量とタイミングを管理することが不可欠です。Journey Optimizerには、競合の管理と優先順位付けのためのいくつかのツールが用意されるようになりました。 <p>詳しくは、<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細なドキュメント</a>を参照してください。</p></p><p><ul><li><b>ジャーニーのフリークエンシーキャップ </b>：ジャーニーに適用するルールセットを作成できるようになりました。1 日、1 週間または 1 か月あたりのプロファイルのジャーニー数を制限し、同時に実行される同時ジャーニーの数を制御できます。</li>
 <li><b> 優先度スコア </b>：キャンペーンまたはジャーニーに 0 ～ 100 の範囲で優先度スコアを割り当てることができるようになりました。 数値が大きいほど、優先度が高くなります。2 つのキャンペーンまたはジャーニーアクションが同じチャネル設定を使用する場合、Journey Optimizerは優先度スコアが最も高いキャンペーンまたはジャーニーアクションを選択します。 キャンペーンのスコアが同じ場合は、最近変更が最も少なかったキャンペーンが選択されます。</li>
 <li><b> 潜在的な競合の表示 </b>：ジャーニーとキャンペーンの新しい「潜在的な競合の表示」ボタンで、開始日、ターゲットオーディエンス、選択したチャネル設定など、他のジャーニーやキャンペーンとの重複を特定できるようになりました。</li>
 <li><b>ジャーニーの判別 </b>：この新機能を使用すると、顧客にとって最も重要なジャーニーに優先順位を付けることができます。 顧客が今後予定されている優先度の高いジャーニーの対象になったときに、優先度の低いジャーニーへのエントリを抑制するルールを作成できます。</li>
@@ -233,25 +233,24 @@ ht-degree: 43%
 </tbody>
 </table>
 
-
-<!--The following capabilities are available to all customers in public beta:
-
 <table>
 <thead>
 <tr>
-<th><strong>Test your content using sample input data (Beta)</strong><br/></th>
+<th><strong>サンプル入力データを使用したコンテンツのテスト（Beta）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey optimizer now allows you to test different variants of your email content by previewing it and sending proofs using sample input data uploaded from a file or added manually. All the profiles attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>
+<p>ジャーニーオプティマイザーを使用すると、ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、配達確認を送信することで、テストできるようになりました。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
+<p>この機能は、現在、すべてのお客様がメール、SMS およびプッシュ通知チャネルのパブリックベータ版として利用できます。</p>
+<p>詳しくは、 <a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+
+<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
