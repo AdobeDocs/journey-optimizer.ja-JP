@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
-badge: label="ベータ版"
-hide: true
-hidefromtoc: true
+badge: label="限定提供"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1989'
 ht-degree: 72%
 
 ---
