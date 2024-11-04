@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="限定提供"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 55%
 
 ---
 
@@ -46,6 +46,31 @@ ht-degree: 100%
    * [ランキング式](../offers/ranking/create-ranking-formulas.md)
    * [AI モデル](../offers/ranking/ai-models.md)
 
++++ カスタム [!DNL Customer Journey Analytics] 指標でのモデルの最適化
+
+>[!NOTE]
+>
+>この機能は、管理者権限を持つ [!DNL Customer Journey Analytics] 顧客のみが使用できます。
+>
+>開始する前に、Journey Optimizer データセットをデフォルトのデータビューに書き出すために、Journey OptimizerとCustomer Journey Analyticsが統合されていることを確認してください。 [ でデータを活用する方法  [!DNL Journey Optmizer]  学ぶ  [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
+
+パーソナライズされた最適化モデルは、ビジネス目標を定義し、顧客データを活用して、パーソナライズされたオファーを提供し、KPI を最大化するためのビジネス指向モデルをトレーニングできる AI モデルの一種です。 パーソナライズされた AI モデルを作成する方法について詳しくは、[ 意思決定管理ドキュメント ](../offers/ranking/personalized-optimization-model.md) を参照してください。
+
+デフォルトでは、パーソナライズされた最適化モデルは、最適化指標として **オファークリック数** を使用します。 [!DNL Customer Journey Analytics] を使用している場合は、独自のカスタム指標 [!DNL Decisioning] 活用してモデルを最適化できます。
+
+これを行うには、パーソナライズされた AI モデル作成画面にアクセスし、「**[!UICONTROL コンバージョンイベント]**」ドロップダウンを展開します。 デフォルトの [!DNL Customer Journey Analytics] データビュー [ のすべての指標 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} リストに表示されます。 モデルを最適化する指標を選択し、通常どおり AI モデルの作成を完了します。
+
+![](assets/ai-ranking-custom-metrics.png)
+
+>[!NOTE]
+>
+>デフォルトでは、[!DNL Customer Journey Analytics] の指標は「ラストタッチ」アトリビューションモデルを使用し、コンバージョンの直前に発生したタッチポイントにクレジットの 100% を割り当てます。
+>
+>アトリビューションモデルは変更できますが、すべてのアトリビューションモデルが AI モデルの最適化に最適とは限りません。 モデルの精度とパフォーマンスを確保するために、最適化目標に合ったアトリビューションモデルを慎重に選択することをお勧めします。
+>
+>使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"} を参照してください。
+
++++
 
 ## 数式での決定項目属性の活用 {#items}
 
