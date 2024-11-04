@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: サンプル入力データを使用したコンテンツのテスト（Beta）
-description: コンテンツをプレビューし、サンプル入力データを使用してメール配達確認を送信する方法を説明します。
-feature: Overview, Get Started
+description: CSV または JSON ファイルからのサンプル入力データまたは手動で追加したサンプル入力データを使用して、コンテンツをプレビューし、メールの配達確認を送信する方法を説明します。
+feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="ベータ版"
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 50%
+source-wordcount: '896'
+ht-degree: 49%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 50%
 >
 >この機能は、現在、パブリックベータ版としてすべてのお客様が利用できます。
 
-ジャーニーオプティマイザーを使用すると、コンテンツの様々なバリアントをプレビューし、ファイルからアップロードされたサンプル入力データまたは手動で追加されたサンプル入力データを使用して配達確認を送信することで、テストできます。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。
+ジャーニーオプティマイザーを使用すると、コンテンツの様々なバリアントをプレビューし、CSV または JSON ファイルからアップロードされたサンプル入力データを使用するか手動で追加して、配達確認を送信することで、テストできます。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。
 
 >[!NOTE]
 >
