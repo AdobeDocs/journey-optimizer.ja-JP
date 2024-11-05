@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 >id="ajo_dm_file_routing_details"
 >title="ファイルのルーティング設定を定義"
 >abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーに書き出されます。ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="ダイレクトメールメッセージの作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="ダイレクトメールメッセージの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ ht-degree: 99%
 >id="ajo_dm_surface_settings"
 >title="ダイレクトメール設定を定義します。"
 >abstract="ダイレクトメール設定には、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。また、ファイルのルーティング設定を選択して、ファイルの書き出し先を定義する必要があります。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="ファイルのルーティングを設定"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="ファイルのルーティングを設定"
 
 <!--
 >[!CONTEXTUALHELP]
