@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: サンプル入力データを使用したコンテンツのテスト（Beta）
+title: サンプル入力データを使用したコンテンツのテスト（ベータ版）
 description: CSV または JSON ファイルからのサンプル入力データまたは手動で追加したサンプル入力データを使用して、コンテンツをプレビューし、メールの配達確認を送信する方法を説明します。
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -11,12 +11,12 @@ badge: label="ベータ版"
 source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
 
-# サンプル入力データを使用したコンテンツのテスト（Beta） {#custom-profiles}
+# サンプル入力データを使用したコンテンツのテスト（ベータ版） {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

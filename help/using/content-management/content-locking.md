@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: E メールテンプレート内のコンテンツのロック
+title: メールテンプレートのコンテンツのロック
 description: メールテンプレートのコンテンツをロックする方法を説明します。
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ level: Beginner, Intermediate
 source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# E メールテンプレート内のコンテンツのロック {#lock-content-email-templates}
+# メールテンプレートのコンテンツのロック {#lock-content-email-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
