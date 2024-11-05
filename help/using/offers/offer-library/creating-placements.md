@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 100%
 >id="ajo_decisioning_placement"
 >title="プレースメント"
 >abstract="プレースメントは、オファーの紹介に使用されるコンテナです。プレースメントを使用すると、メッセージ内の適切な場所にふさわしいオファーコンテンツが表示されます。プレースメントは、「コンポーネント」メニューから作成します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="リクエスト設定"
+>abstract="「**[!UICONTROL プレースメント間での重複を許可]** オプションを有効にして、複数のプレースメントに対して同じオファーをシステムが考慮するようにします。 **[!UICONTROL オファーをリクエスト]** フィールドを使用して、返されるオファーの数を調整します。 例えば、「2」を選択した場合、選択した決定範囲に最適な 2 つのオファーが表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="応答形式"
+>abstract="「**[!UICONTROL コンテンツを含める]**」および「**[!UICONTROL メタデータを含める]**」オプションを使用すると、オファーのコンテンツとメタデータを API 応答で返す必要があるかどうかを指定できます。 すべてのメタデータまたは特定のフィールドのみを含めることができます。デフォルトでは、Include メタデータの値は true に設定されています。"
 
 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 
@@ -46,7 +56,6 @@ ht-degree: 100%
    * **[!UICONTROL 説明]**：プレースメントの説明（オプション）。
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. 「**[!UICONTROL リクエスト設定]**」セクションと「**[!UICONTROL 応答の形式]**」セクションには、追加のパラメーターが用意されています。
 

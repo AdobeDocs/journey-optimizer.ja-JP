@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 100%
+source-wordcount: '2511'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 100%
 
 ## 決定の作成 {#create-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="オファーの決定の詳細"
+>abstract="決定の名前を指定し、必要に応じて開始日時と終了日時を定義します。 決定にカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。"
+
 1. 決定リストにアクセスし、「**[!UICONTROL 決定を作成]**」をクリックします。
 
 1. 決定の名前を指定します。
@@ -43,6 +48,21 @@ ht-degree: 100%
 1. 決定にカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../../administration/object-based-access.md)
 
 ## 決定範囲の定義 {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="決定範囲"
+>abstract="オファーの決定に対して 1 つまたは複数の範囲を設定し、表示するオファーを決定します。 そのためには、プレースメントと、このプレースメントに関連する評価条件を選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="プレースメント"
+>abstract="オファーの配信先となるプレースメントを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="評価条件"
+>abstract="評価条件は、実施要件制約に関連付けられたオファーコレクションと、プレースメントに表示されるオファーを決定するためのランキング方法で構成されます。 評価条件のシーケンスは、最初に評価されるコレクションを決定します。 少なくとも 1 つの評価基準が必要です。"
 
 1. ドロップダウンリストからプレースメントを選択します。これは、決定の最初の決定範囲に追加されます。
 
@@ -285,6 +305,11 @@ ht-degree: 100%
 +++
 
 ## フォールバックオファーの追加 {#add-fallback}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="ファクトバックオファーの追加"
+>abstract="決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客への最後の手段として提示されるフォールバックオファーを定義します。"
 
 決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客への最後の手段として提示されるフォールバックオファーを定義します。
 

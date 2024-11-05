@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,26 @@ ht-degree: 100%
 >id="ajo_decisioning_decision_collection"
 >title="オファーコレクションについて"
 >abstract="オファーコレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic"
+>title="動的コレクション"
+>abstract="コレクション修飾子を使用して、コレクションに対してオファーを動的に選定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static"
+>title="静的コレクション"
+>abstract="ステータス、コレクション修飾子、日付、チャネルなどの条件を使用して、オファーを手動で選択してグループ化します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static_select"
+>title="静的コレクションのプレビュー"
+>abstract="静的コレクションは、コレクションに含める個々のオファーを手動で選択して作成します。 コレクションにオファーを手動で追加した場合にのみ、コレクションを更新できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic_select"
+>title="動的コレクションのプレビュー"
+>abstract="動的コレクションは、コレクション修飾子に基づいてオファーを収集します。 これらのコレクションは自動的に更新されます。例えば、「sports」コレクション修飾子で新しいオファーが作成された場合、対応するコレクションに自動的に追加されます。"
 
 コレクションを使用すると、オファーを選択したカテゴリに再グループ化して整理できます。例えば、スポーツ関連のオファーのみを含む「スポーツ」コレクションを作成できます。
 

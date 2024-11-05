@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,16 @@ ht-degree: 100%
 >id="ajo_decisioning_offer_attributes"
 >title="オファー属性"
 >abstract="オファー属性を使用すると、レポートおよび分析を目的としてキーと値のペアをオファーに関連付けることができます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="パーソナライズされたオファー"
+>abstract="パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるメッセージです。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="フォールバックオファー"
+>abstract="フォールバックオファーは、エンドユーザーがパーソナライズされたオファーの対象でない場合に表示されるデフォルトのオファーです。"
 
 **オファー**&#x200B;を作成するには、次の手順に従います。
 

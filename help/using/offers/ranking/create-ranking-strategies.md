@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 90%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 >AI モデルを作成、編集または削除するには、**ランキング戦略を管理**&#x200B;する権限が必要です。[詳細情報](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## AI モデルの作成 {#create-ranking-strategy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_metric"
+>title="最適化指標"
+>abstract="[!DNL Journey Optimizer] は&#x200B;**コンバージョン率**&#x200B;に基づいてオファーをランク付けします（コンバージョン率 = コンバージョンイベントの合計数／インプレッションイベントの合計数）。コンバージョン率は、**インプレッションイベント** （表示されるオファー）と **コンバージョンイベント** （メールまたは web でのクリックにつながるオファー）の 2 種類の指標を使用して計算されます。 これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。"
 
 AI モデルを作成するには、次の手順を行います。
 
