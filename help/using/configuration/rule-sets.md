@@ -10,34 +10,19 @@ level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 badge: label="限定提供"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 71%
+source-wordcount: '1950'
+ht-degree: 67%
 
 ---
 
 # ルールセットの操作 {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="オブジェクトタイプ"
->abstract="オブジェクトタイプ"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="ルールタイプ"
->abstract="ルールタイプ"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="ルールのキャッピング"
->abstract="ルールのキャッピング"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="ルールセット"
->abstract="ルール セットを使用して、様々な種類のアドビからのお知らせにフリークエンシーキャップを適用します。例えば、顧客に送信する&#x200B;**プロモーション情報**&#x200B;の数を制限するルールセットを作成する一方で、顧客に送信する&#x200B;**ニュースレター**&#x200B;の数を制限する別のルールセットを作成できます。"
+>abstract="ルール セットを使用して、様々な種類のアドビからのお知らせにフリークエンシーキャップを適用します。また、フリークエンシーキャッピングルールに基づいて、オーディエンスの一部に対してジャーニーを除外するルールセットを作成することもできます。"
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ ht-degree: 71%
 
 ### チャネルとジャーニーのキャッピングルール {#domain}
 
-ルールセットを作成する際に、ルールセット内のルールが通信チャネルまたはジャーニーに固有のキャッピングルールを適用するかどうかを指定する必要があります。  そのためには、ルールセットの作成時にチャネルまたはジャーニードメインを選択します。 [ ルールセットの作成方法を学ぶ ](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="ルールセットドメイン"
+>abstract="ルールセットを作成する際に、ルールセット内のルールが通信チャネルまたはジャーニーに固有のキャッピングルールを適用するかどうかを指定する必要があります。"
+
+ルールセットを作成する際に、ルールセット内のルールが通信チャネルまたはジャーニーに固有のキャッピングルールを適用するかどうかを指定する必要があります。 そのためには、ルールセットの作成時にチャネルまたはジャーニードメインを選択します。 [ ルールセットの作成方法を学ぶ ](#create)
 
 * **チャネル** ドメイン：通信チャネルのキャッピングルールを適用します。 例えば、1 日に 1 件を超えるメールまたは SMS 通信を送信しないでください。
 * **ジャーニー** ドメイン：ジャーニーにエントリキャッピングルールと同時実行キャッピングルールを適用します。 例えば、プロファイルを複数のジャーニーに同時に入力しないでください。
@@ -101,10 +91,11 @@ ht-degree: 71%
 >title="メッセージルールカテゴリの選択"
 >abstract="アクティブ化してメッセージに適用すると、選択したカテゴリに一致するすべての頻度ルールがこのメッセージに自動的に適用されます。現在、マーケティングカテゴリのみが使用可能です。"
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="ルールのキャッピングの設定"
->abstract="選択した時間枠内に顧客プロファイルに送信されるメッセージの最大数を指定します。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。"
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ ht-degree: 71%
 >id="ajo_rule_sets_duration"
 >title="メッセージルールカテゴリの選択"
 >abstract="アクティブ化してメッセージに適用すると、選択したカテゴリに一致するすべての頻度ルールがこのメッセージに自動的に適用されます。現在、マーケティングカテゴリのみが使用可能です。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="ルールのキャッピング"
+>abstract="ルールのキャッピングを設定します。 ルールセットドメインと「ルールタイプ」フィールドでの選択に応じて、このフィールドでは、プロファイルに送信できるメッセージの最大数や、プロファイルが入力または同時に登録できるジャーニーの最大数を定義できます。"
 
 ルールセットにルールを追加するには、ルールセットにアクセスして、「**[!UICONTROL ルールを追加]**」をクリックします。
 

@@ -4,30 +4,15 @@ description: ジャーニーのキャッピングルールを作成する方法�
 role: User
 level: Beginner
 badge: label="限定提供"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # ジャーニーのキャッピングと判別 {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="ジャーニーにルールセットを適用"
->abstract="ルールセットを適用して、フリークエンシーキャップルールに基づいて一部のオーディエンスに対するこのジャーニーを除外します。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="優先順位付けの先読み"
->abstract=" ここで指定した期間内に、優先度の高いジャーニーがスケジュールされている場合、顧客はこのジャーニーにエントリできなくなります。ジャーニーを先着順でエントリさせる場合は、毎日の先行表示期間を選択し、その日の他のジャーニーの優先度スコアがそのジャーニーの優先度スコアよりも低くなるようにすることをお勧めします。また、ジャーニーに優先度スコア 100 を指定すると、ジャーニーへのエントリが確実になります。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="優先順位付けの要因"
->abstract="未定"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ ht-degree: 19%
 ➡️ [この機能をビデオで確認](#video)
 
 ## ジャーニーキャッピングルールの作成 {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="優先順位付けの先読み"
+>abstract=" ここで指定した期間内に、優先度の高いジャーニーがスケジュールされている場合、顧客はこのジャーニーにエントリできなくなります。ジャーニーを先着順でエントリさせる場合は、毎日の先行表示期間を選択し、その日の他のジャーニーの優先度スコアがそのジャーニーの優先度スコアよりも低くなるようにすることをお勧めします。また、ジャーニーに優先度スコア 100 を指定すると、ジャーニーへのエントリが確実になります。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="ルールタイプ"
+>abstract="ルールのキャッピングのタイプを指定します。 **[!UICONTROL ジャーニーのエントリキャップ]** は、プロファイルに対して指定された期間のジャーニーへのエントリ数を制限し、**[!UICONTROL ジャーニーの同時実行のキャップ]** は、プロファイルが同時に登録できるジャーニーの数を制限します。"
 
 ジャーニーキャッピングルールを作成するには、次の手順に従います。
 
@@ -109,6 +104,11 @@ ht-degree: 19%
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## ジャーニーへのキャッピングルールの適用 {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="ジャーニーにルールセットを適用"
+>abstract="ルールセットを適用して、フリークエンシーキャップルールに基づいて一部のオーディエンスに対するこのジャーニーを除外します。"
 
 キャッピングルールをジャーニーに適用するには、ジャーニーにアクセスしてプロパティを開きます。 **[!UICONTROL キャッピングルール]** ドロップダウンで、関連するルールセットを選択します。 ジャーニーがアクティブ化されると、ルールセットで定義されたキャッピングルールが有効になります。
 
