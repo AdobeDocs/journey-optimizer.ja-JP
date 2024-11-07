@@ -4,10 +4,10 @@ description: ジャーニーとキャンペーンに優先度スコアを割り�
 role: User
 level: Beginner
 badge: label="限定提供"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 76%
+source-wordcount: '438'
+ht-degree: 72%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer では、ジャーニーまたはキャンペーンに優先�
 
 >[!NOTE]
 >
->優先度スコアは、インバウンドチャネル（web、アプリ内およびコードベースのチャネル）で使用できます。ジャーニーでは、優先度スコアは&#x200B;**アプリ内**&#x200B;および&#x200B;**コードベース**&#x200B;チャネルでのみ使用できます。
+>キャンペーンでは、優先度スコアは web、アプリ内、コードベースのインバウンドチャネルでのみ使用できます。
 
 ➡️ [この機能をビデオで確認](#video)
 
