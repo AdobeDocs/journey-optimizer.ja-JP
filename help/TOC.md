@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2166'
 ht-degree: 98%
 
 ---
@@ -368,6 +368,7 @@ ht-degree: 98%
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
+      + [カスタムアップロード（CSV）と Federated Audience Composition](using/audience/custom-upload-fac.md)
       + [セグメント定義の作成](using/audience/creating-a-segment-definition.md)
       + オーディエンスの作成 {#audience-orchestration}
          + [オーディエンス構成の基本を学ぶ](using/audience/get-started-audience-orchestration.md)
