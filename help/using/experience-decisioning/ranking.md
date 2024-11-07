@@ -5,11 +5,10 @@ feature: Experience Decisioning, Ranking
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="限定提供"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '556'
 ht-degree: 55%
 
 ---

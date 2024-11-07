@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 93%
+source-wordcount: '2160'
+ht-degree: 98%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 93%
    + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
    + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
 + 競合管理と優先順位付け {#conflict-prioritization}
-   + [競合管理と優先順位付けの概要](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
    + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
    + [ジャーニーのキャッピングと判別](using/conflict-prioritization/journey-capping.md)
@@ -227,7 +227,7 @@ ht-degree: 93%
    + アプリ内チャネル{#in-app}
       + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
       + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
-      + [モバイルのアプリ内メッセージの作成](using/in-app/create-in-app.md)
+      + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
       + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
       + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
       + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
@@ -299,7 +299,7 @@ ht-degree: 93%
       + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
-   + AI アシスタントの操作 {#ai-assistant}
+   + AI アシスタントの操作{#ai-assistant}
       + [AI アシスタントのコンテンツアクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI によるメール生成](using/content-management/generative-email.md)
       + [AI によるプッシュ生成](using/content-management/generative-push.md)
@@ -352,7 +352,7 @@ ht-degree: 93%
       + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
       + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)
       + [コンテンツテンプレートの作成](using/content-management/create-content-templates.md)
-      + [E メールテンプレート内のコンテンツのロック](using/content-management/content-locking.md)
+      + [メールテンプレートのコンテンツのロック](using/content-management/content-locking.md)
       + [コンテンツテンプレートのテスト](using/content-management/test-content-templates.md)
       + [コンテンツテンプレートの使用](using/content-management/use-content-templates.md)
    + 再利用可能なコンテンツフラグメント {#fragments}
@@ -389,12 +389,12 @@ ht-degree: 93%
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
-   + レポートエクスペリエンス {#channel-report} 更新
-      + [更新されたレポートエクスペリエンスの概要](using/reports/report-gs-cja.md)
-      + [Customer Journey Analyticsを手動で設定](using/reports/cja-ajo.md)
+   + 更新済みレポートエクスペリエンス{#channel-report}
+      + [更新済みレポートエクスペリエンスの基本を学ぶ](using/reports/report-gs-cja.md)
+      + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
       + [レポーティングと実験の前提条件](using/reports/reporting-configuration.md)
-      + キャンペーンレポート {#reporting}
+      + キャンペーンレポート{#reporting}
          + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
          + [コードベースのキャンペーンレポート](using/reports/campaign-global-report-cja-code.md)
          + [コンテンツカードキャンペーンレポート](using/reports/campaign-global-report-cja-content.md)
@@ -405,10 +405,10 @@ ht-degree: 93%
          + [プッシュ通知キャンペーンレポート](using/reports/campaign-global-report-cja-push.md)
          + [SMS キャンペーンレポート](using/reports/campaign-global-report-cja-sms.md)
          + [Web キャンペーンレポート](using/reports/campaign-global-report-cja-web.md)
-      + ジャーニーレポート {#reporting}
+      + ジャーニーレポート{#reporting}
          + [ジャーニーレポート](using/reports/journey-global-report-cja.md)
          + [コードベースのジャーニーレポート](using/reports/journey-global-report-cja-code.md)
-         + [コンテンツカードのジャーニーレポート](using/reports/journey-global-report-cja-content.md)
+         + [コンテンツカードジャーニーレポート](using/reports/journey-global-report-cja-content.md)
          + [ダイレクトメールジャーニーレポート](using/reports/journey-global-report-cja-direct.md)
          + [メールジャーニーレポート](using/reports/journey-global-report-cja-email.md)
          + [アプリ内ジャーニーレポート](using/reports/journey-global-report-cja-inapp.md)
@@ -448,13 +448,45 @@ ht-degree: 93%
    + [アラート](using/reports/alerts.md)
    + [除外の理由](using/reports/exclusion-list.md)
 + 決定機能 {#decisioning}
+   + 決定 {#experience-decisioning}
+      + [意思決定の概要](using/experience-decisioning/gs-experience-decisioning.md)
+      + API リファレンス{#api-reference}
+         + 決定項目{#decision-items}
+            + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + 項目コレクション{#items-collections}
+            + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
+         + 選択戦略{#selection-strategies}
+            + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
+      + 決定項目の管理 {#decision-items}
+         + [項目カタログの設定](using/experience-decisioning/catalogs.md)
+         + [決定項目の作成](using/experience-decisioning/items.md)
+         + [項目コレクションの管理](using/experience-decisioning/collections.md)
+      + 項目の選択の設定 {#selection}
+         + [決定ルールの作成](using/experience-decisioning/rules.md)
+         + [ランキング方法の作成](using/experience-decisioning/ranking.md)
+         + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
+      + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
+      + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
+      + [Customer Journey Analytics でのレポート](using/experience-decisioning/cja-reporting.md)
    + 意思決定管理 {#offer-decisioning}
       + 意思決定管理の基本を学ぶ {#get-started-decision}
 
          + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
          + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
          + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
-         + [意思決定へのカスタムアップロードオーディエンスの活用](using/offers/custom-upload-decisioning.md)
+         + [決定のカスタムアップロードオーディエンスの活用](using/offers/custom-upload-decisioning.md)
          + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
       + コンポーネントの作成 {#create-components}
          + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
@@ -589,38 +621,6 @@ ht-degree: 93%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Decisioning （LA） {#experience-decisioning}
-      + [意思決定の概要](using/experience-decisioning/gs-experience-decisioning.md)
-      + API リファレンス{#api-reference}
-         + 決定項目{#decision-items}
-            + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + 項目コレクション{#items-collections}
-            + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
-         + 選択戦略{#selection-strategies}
-            + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
-      + 決定項目の管理 {#decision-items}
-         + [項目カタログの設定](using/experience-decisioning/catalogs.md)
-         + [決定項目の作成](using/experience-decisioning/items.md)
-         + [項目コレクションの管理](using/experience-decisioning/collections.md)
-      + 項目の選択の設定 {#selection}
-         + [決定ルールの作成](using/experience-decisioning/rules.md)
-         + [ランキング方法の作成](using/experience-decisioning/ranking.md)
-         + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
-      + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
-      + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
-      + [Customer Journey Analytics でのレポート](using/experience-decisioning/cja-reporting.md)
 + データ管理 {#data-management}
    + [データ管理の基本を学ぶ](using/data/gs-data.md)
    + [スキーマの操作](using/data/get-started-schemas.md)
