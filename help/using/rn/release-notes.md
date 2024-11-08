@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 80%
+source-wordcount: '2135'
+ht-degree: 78%
 
 ---
 
@@ -249,7 +249,7 @@ ht-degree: 80%
 <td>
 <p>ジャーニーオプティマイザーを使用すると、ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、メール配達確認を送信することで、テストできるようになりました。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
 <p>この機能は、現在、すべてのお客様がメール、SMS およびプッシュ通知チャネルのパブリックベータ版として利用できます。</p>
-<p>詳しくは、 <a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
@@ -257,22 +257,22 @@ ht-degree: 80%
 </table>
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Use Adobe Experience Platform data for personalization (Beta)</strong><br/></th>
+<th><strong>パーソナライゼーションへのAdobe Experience Platform データの使用（Beta）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Leverage data from Adobe Experience Platform in the personalization editor to personalize your content. To do this, datasets needed for lookup personalization must first be enabled through an API call. Once done, you can use their data to personalize your content into [!DNL Journey Optimizer].</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../personalization/lookup-aep-data.md"</a>.</p>
+<p>パーソナライゼーションエディターのAdobe Experience Platformのデータを活用して、コンテンツをパーソナライズします。 これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。 完了したら、そのデータを使用して、コンテンツを [!DNL Journey Optimizer] にパーソナライズできます。</p>
+<p>この機能は現在、パブリックベータ版としてすべてのお客様に対して使用可能です。</p>
+<p>詳しくは、 <a href="../personalization/lookup-aep-data.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### 機能強化 {#24-10-improvements}
 

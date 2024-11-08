@@ -1,32 +1,82 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform データをパーソナライズ機能に活用（Beta）
+title: パーソナライゼーションへのAdobe Experience Platform データの使用（Beta）
 description: Adobe Experience Platform データをパーソナライズ機能に使用する方法を説明します。
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 式、エディター
-hidefromtoc: true
-hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+workflow-type: tm+mt
+source-wordcount: '1015'
+ht-degree: 39%
 
 ---
 
-# Adobe Experience Platform データをパーソナライズ機能に活用（Beta） {#aep-data}
+# パーソナライゼーションへのAdobe Experience Platform データの使用（Beta） {#aep-data}
 
 >[!AVAILABILITY]
 >
->この機能は現在、Private Beta のみで使用可能です。
+>この機能は、現在、パブリックベータ版としてすべてのお客様が利用できます。
 >
->現時点では、**メッセージチャネル**、アドビに提供した本番以外のサンドボックスでのテスト目的と、ベータ版に要求されたデータセットでのみ利用可能です。
+>この機能を使用するには、まず、パーソナライゼーションエディターで新しい「datasetLookup」ヘルパー関数を追加する際に表示される、組織のベータ版の用語に同意する必要があります。
 
-Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。手順は次の通りです。
+Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。これを行うには、以下に説明するように、最初に API 呼び出しを通じて、参照パーソナライゼーションに必要なデータセットを有効にする必要があります。 完了したら、そのデータを使用して、コンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
+
+## Betaの制限事項とガイドライン {#guidelines}
+
+開始する前に、次の制限事項とガイドラインを確認してください。
+
+### データセットの有効化 {#enablement}
+
+* **データセットサイズ** は、実稼動データセットの場合は 5 GB までに制限され、開発サンドボックスデータセットの場合は 1 GB までに制限されます
+* 組織ごとのルックアップでは、**最大 50 個のデータセットを有効にでき** す。
+* **レコード数** は、実稼動データセットでは 5,000 万件、開発サンドボックスデータセットでは 1,000 万件に制限されています。
+* **データ使用のラベル付けと適用** は、現時点では、参照が有効なデータセットには適用されていません。
+* **参照が有効になっているデータセットやパーソナライゼーションで使用されているデータセットは、削除から保護されません**。 パーソナライゼーションにどのデータセットが使用されているかを追跡し、データセットが削除または削除されていないことを確認するのは、お客様次第です。
+
+### [!DNL Adobe Experience Platform] data を使用したPersonalization {#perso}
+
+* **サポートされているチャネル**：現時点では、この機能は、メール、SMS、プッシュおよびダイレクトメールチャネル内での使用でのみ使用できます。
+* **データ使用のラベル付けと適用** は、現時点では、参照が有効なデータセットには適用されていません。
+* **式フラグメント**：現時点では、データセット参照のパーソナライゼーションを式フラグメント内に配置できません。
+
+## データルックアップ用データセットの有効化 {#enable}
+
+データセットのデータをパーソナライゼーションに活用するには、API 呼び出しを使用してそのステータスを取得し、ルックアップサービスを有効にする必要があります。
+
+### 前提条件 {#prerequisites-enable}
+
+* [ このドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) で説明されている手順に従って、API コマンドを送信するように環境を設定します。
+* 開発者プロジェクトには、Adobe Journey Optimizer API とAdobe Experience Platform API が追加されている必要があります。
+
+  ![](assets/aep-data-api.png)
+
+* 役割の一部としてデータセットの管理権限が必要です。
+* データセットの基となるスキーマには、ルックアップキーとして機能する **プライマリ ID** が含まれている必要があります。
+
+### API 呼び出し構造 {#call}
+
+```
+curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}"
+```
+
+ここで、
+
+* **URL** is `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
+* **データセット ID** は、有効にするデータセットです。
+* **アクション** は、有効または無効です。
+* **アクセストークン** は、開発者コンソールから取得できます。
+* **API キー** は、開発者コンソールから取得できます。
+* **IMS 組織 ID** はAdobe IMS組織です。
+* **サンドボックス名** は、データセットが含まれるサンドボックス名です（例：実稼動、開発など）。
+
+## パーソナライゼーションへのデータセットの活用 {#leverage}
+
+API 呼び出しを使用してデータセットで参照パーソナライゼーションを有効にしたら、そのデータを使用してコンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
 
 1. メッセージなどのパーソナライズ機能を定義でき、すべてのコンテキストで使用できるパーソナライゼーションエディターを開きます。[パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 
@@ -37,17 +87,21 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 1. この関数は、Adobe Experience Platform データセットからフィールドを呼び出すことができる、定義済みの構文を提供します。構文は以下の通りです。
 
    ```
-   {{entity.datasetId="datasetId" id="key" result="store"}}
+   {{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
    ```
 
-   * **entity.datasetId** は作業中のデータセットの ID です。
+   * **datasetId** は、操作しているデータセットの ID です。
    * **id** は、ルックアップデータセットのプライマリ ID と結合する必要があるソース列の ID です。
 
      >[!NOTE]
      >
-     >このフィールドに入力する値は、フィールド ID（*profile.couponValue*）、ジャーニーイベントで渡されるフィールド（*context.journey.events.event_ID.couponValue*）、または静的な値（*couponAbcd*）です。いずれの場合も、システムは値を使用してデータセットを検索し、キーと一致するかどうかを確認します。
+     >このフィールドに入力する値は、フィールド ID （*profile.packages.packageSKU*）、ジャーニーイベントで渡されたフィールド（*context.journey.events.event_ID.productSKU*）、または静的な値（*sku007653*）のいずれかです。 いずれの場合も、システムでは値とデータセットへのルックアップを使用して、値がキーと一致するかどうかを確認します。
+     >
+     >キーにリテラル文字列値を使用する場合は、テキストを引用符で囲みます。 例：`{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`。 属性値を動的キーとして使用する場合は、引用符を削除します。 例：`{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
    * **result** はデータセットから取得するすべてのフィールド値を参照するために指定する必要がある、任意の名前です。この値はコード内で各フィールドを呼び出すために使用されます。
+
+   * **required=false**: required が TRUE に設定されている場合、一致するキーが見つかった場合にのみメッセージが配信されます。 false に設定した場合は、一致するキーは必要なく、メッセージを配信できます。 false に設定した場合、メッセージコンテンツのフォールバックまたはデフォルト値を考慮することをお勧めします。
 
    +++データセット ID はどこで取得できますか？
 
@@ -60,7 +114,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 1. ニーズに合わせて構文を調整します。この例では、乗客のフライトに関連するデータを取得します。構文は以下の通りです。
 
    ```
-   {{entity.datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
+   {{datasetLookup datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
    ```
 
    * ID が「1234567890abcdtId」のデータセットで作業しています。
@@ -73,8 +127,12 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    {{result.fieldId}}
    ```
 
+   >[!NOTE]
+   >
+   >データセットフィールドを参照する場合は、スキーマ内で定義されている完全なフィールドパスと一致することを確認してください。
+
    * **result** は **MultiEntity** ヘルパー関数で **result** パラメーターに割り当てた値です。この例では「フライト」です。
-   * **fieldID** は取得するフィールドの ID です。この ID は、データセットを参照するときに Adobe Experience Platform ユーザーインターフェイスに表示されます。以下のセクションを展開して例を表示します。
+   * **fieldID** は取得するフィールドの ID です。この ID は、データセットに関連 [!DNL Adobe Experience Platform] るレコードスキーマを参照する際に、ユーザーインターフェイスに表示されます。
 
      +++フィールド ID はどこで取得できますか？
 
