@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーレポート
-description: ジャーニーレポートのメールデータの使用方法を説明します
+description: ジャーニーレポートからメールデータを使用する方法について説明します
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

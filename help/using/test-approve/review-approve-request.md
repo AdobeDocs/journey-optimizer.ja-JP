@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ ht-degree: 93%
 
 >[!NOTE]
 >
-> メールで承認通知を受信しない場合は、Experience Cloudプロファイルの購読設定を更新する必要があります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)
+> メールを通じて承認通知を受信していない場合は、Experience Cloud プロファイルの購読環境設定を更新する必要があります。[詳細情報](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences)

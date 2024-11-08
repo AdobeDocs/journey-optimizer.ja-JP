@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンレポート
-description: キャンペーンレポートから実験データを使用する方法を説明します
+description: キャンペーンレポートから実験データを使用する方法について説明します
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

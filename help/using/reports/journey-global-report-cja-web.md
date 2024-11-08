@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーレポート
-description: ジャーニーレポートの web データの使用方法を学ぶ
+description: ジャーニーレポートから web データを使用する方法について説明します
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 87%
 
 ![](assets/cja-web-displays.png)
 
-**[!UICONTROL ディスプレイ]** グラフは、コードベースのエクスペリエンスがオープンになった全体的なリーチと、それに関与する一意のプロファイルの数の両方を理解するのに役立ちます。
+**[!UICONTROL 表示数]**&#x200B;グラフは、コードベースのエクスペリエンスが開かれた全体的なリーチと、それを利用した固有のプロファイルの数の両方を理解するのに役立ちます。
 
 +++ 表示指標の詳細情報
 
-* **[!UICONTROL 表示]**：コードベースのエクスペリエンスが開かれた回数。
+* **[!UICONTROL 表示数]**：コードベースエクスペリエンスが開かれた回数。
 
-* **[!UICONTROL ユニーク表示]**：コードベースのエクスペリエンスが開かれた回数。1 つのプロファイルの複数のインタラクションは考慮されません。
+* **[!UICONTROL ユニーク表示数]**：コードベースエクスペリエンスが開かれた回数。1 つのプロファイルによる複数回のインタラクションは考慮されません。
 
 +++
 

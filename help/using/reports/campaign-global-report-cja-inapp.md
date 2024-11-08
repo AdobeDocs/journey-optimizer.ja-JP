@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンレポート
-description: キャンペーンレポートからアプリ内データを使用する方法を学ぶ
+description: キャンペーンレポートからアプリ内データを使用する方法について説明します
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

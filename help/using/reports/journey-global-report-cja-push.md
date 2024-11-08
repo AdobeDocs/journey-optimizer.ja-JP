@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーレポート
-description: ジャーニーレポートからプッシュ通知データを使用する方法を説明します
+description: ジャーニーレポートからプッシュ通知データを使用する方法について説明します
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# プッシュ通知のジャーニーレポート {#journey-global-report}
+# プッシュ通知ジャーニーレポート {#journey-global-report}
 
 ## 送信統計 {#sending-statistics-push}
 

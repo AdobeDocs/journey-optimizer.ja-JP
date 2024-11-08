@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->承認ポリシーを作成するには、Adobe Experience Platformのシステム管理者権限または製品管理者権限が必要です。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+>承認ポリシーを作成するには、Adobe Experience Platform のシステム管理者権限または製品管理者権限が必要です。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)
 
 承認ポリシーを使用すると、管理者はジャーニーとキャンペーンの検証プロセスを確立できます。このシステムは、ジャーニーまたはキャンペーンが承認を必要とするかどうかを決定する特定の条件の概要を示します。これらのポリシーは、単純にすべてのキャンペーンを特定のユーザーまたはチームによるレビューが必要となることから、キャンペーンの作成者に基づいて条件を設定することまで、複雑さが異なる場合があります。
 
 ## 承認ポリシーの作成 {#create-policies}
 
-1. Journey Optimizerの **[!UICONTROL 管理]** メニューから、**[!UICONTROL 権限]****[!UICONTROL ポリシー]** にアクセスします。
+1. Journey Optimizer の&#x200B;**[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL 権限]**／**[!UICONTROL ポリシー]**&#x200B;にアクセスします。
 
    ![](assets/policy_create_1.png)
 
