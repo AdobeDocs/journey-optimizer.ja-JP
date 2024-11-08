@@ -12,7 +12,7 @@ exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '2041'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -282,7 +282,7 @@ ht-degree: 68%
 
    >[!IMPORTANT]
    >
-   > キャンペーンに承認ポリシーが適用される場合、多言語キャンペーンを送信できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+   > キャンペーンが承認ポリシーの対象となっている場合、多言語キャンペーンを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 これで、キャンペーンまたはジャーニーをアクティブ化できます。送信後は、レポート内で多言語ジャーニーまたはキャンペーンの影響を測定できます。
 

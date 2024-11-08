@@ -12,7 +12,7 @@ exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
-> キャンペーンに承認ポリシーが適用される場合、多言語キャンペーンまたはジャーニーを送信できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、多言語キャンペーンまたはジャーニーを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

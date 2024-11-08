@@ -12,7 +12,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -515,7 +515,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## AI アシスタントリソース {#ai-permissions}
 
-* 「」という高レベル **[!DNL Generate content]** 権限を持つユーザーは、Journey Optimizerの AI Assistant コンテンツアクセラレーターにアクセスできます。
+* **[!DNL Generate content]** の高レベルの権限により、ユーザーは Journey Optimizer の AI アシスタントコンテンツアクセラレータにアクセスできます。
 
 +++ これには、次の下位レベルの権限が含まれます。
 

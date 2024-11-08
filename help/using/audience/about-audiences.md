@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 * **セグメントの定義**：Adobe Experience Platform セグメント化サービスを使用して、新しいオーディエンス定義を作成します。[詳しくは、セグメント定義の作成方法を参照してください](creating-a-segment-definition.md)
 
-* **カスタムアップロード**：CSV ファイルを使用してオーディエンスを読み込みます。オーディエンスを読み込む方法については、Adobe Experience Platform の[セグメント化サービスに関するドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}を参照してください。
+* **カスタムアップロード**：CSV ファイルを使用してオーディエンスを読み込みます。オーディエンスを読み込む方法については、Adobe Experience Platform の[セグメント化サービスに関するドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}を参照してください。
 
 * **オーディエンス構成**：構成ワークフローを作成し、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。[オーディエンス構成の基本を学ぶ](get-started-audience-orchestration.md)
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 
 ## [!DNL Journey Optimizer] でのターゲットオーディエンス {#segments-in-journey-optimizer}
 
-キャンペーンおよびジャーニーで、セグメント定義、カスタムアップロード、コンポジションワークフローまたは Federated Audience Composition を使用して生成されたオーディエンスを選択できます。
+セグメント定義、カスタムアップロード、コンポジションワークフローまたは連合オーディエンス構成を使用して、生成されたオーディエンスをキャンペーンやジャーニーで選択できます。
 
 >[!AVAILABILITY]
 >
@@ -68,11 +68,11 @@ ht-degree: 95%
 
   >[!NOTE]
   >
-  >コンポジションワークフロー、カスタムアップロード、または Federated Audience Composition を使用して作成されたオーディエンスのバッチの性質により、「オーディエンスの選定」アクティビティでこれらのオーディエンスをターゲットにすることはできません。 このアクティビティでは、セグメント定義を使用して作成されたオーディエンスのみを利用できます。
+  >コンポジションワークフロー、カスタムアップロード、連合オーディエンス構成を使用して作成されたオーディエンスのバッチ特性により、「オーディエンスの選定」アクティビティでこれらのオーディエンスをターゲットにすることはできません。このアクティビティでは、セグメント定義を使用して作成されたオーディエンスのみを利用できます。
 
 ## オーディエンスエンリッチメント属性の使用 {#enrichment}
 
-コンポジションワークフロー、カスタム（CSV ファイル）オーディエンス、または Federated Audience Composition を使用して生成されたオーディエンスをターゲティングする場合は、これらのオーディエンスのエンリッチメント属性を活用して、ジャーニーを作成し、メッセージをパーソナライズできます。
+構成ワークフロー、カスタム（CSV ファイル）オーディエンスまたは連合オーディエンス構成を使用して生成されたオーディエンスをターゲットにする場合、これらのオーディエンスからのエンリッチメント属性を活用してジャーニーを作成し、メッセージをパーソナライズできます。
 
 >[!NOTE]
 >
