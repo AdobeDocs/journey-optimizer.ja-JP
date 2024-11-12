@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: レポートエクスペリエンスの更新
-description: 更新されたレポートエクスペリエンスの概要
+title: 更新済みレポートエクスペリエンス
+description: 更新済みレポートエクスペリエンスの基本を学ぶ
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# 更新されたレポートエクスペリエンスの概要 {#channel-report-gs-cja}
+# 更新済みレポートエクスペリエンスの基本を学ぶ {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
   ![](assets/gs-cja-report-3.png)
 
-* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]** メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタンをクリックしてから、「**[!UICONTROL すべての時間レポートを表示]** をクリックします。
+* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]**&#x200B;メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタン、「**[!UICONTROL 全期間のレポートを表示]**」の順にクリックします。
 
   既存のキャンペーンのリストから、選択したキャンペーンの詳細メニューの「**[!UICONTROL レポート]**」を選択することもできます。[キャンペーンレポートの詳細情報](campaign-global-report-cja.md)
 

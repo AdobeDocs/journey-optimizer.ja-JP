@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
-> キャンペーンに承認ポリシーが適用される場合、アプリ内通知を送信するには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、アプリ内通知を送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。
 

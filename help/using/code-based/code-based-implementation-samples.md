@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -29,19 +29,19 @@ ht-degree: 75%
 
 クライアントサイドの実装がある場合、AEP Web SDK または AEP Mobile SDK のいずれかの AEP クライアント SDK を使用できます。
 
-* 手順 [ 以下 ](#client-side-how) では、サンプルの **Web SDK** 実装で、コードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
+* [以下](#client-side-how)の手順では、サンプル **Web SDK** 実装のコードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
 * **Mobile SDK** を使用してコードベースのチャネルを実装する手順について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}を参照してください。
 
   >[!NOTE]
   >
-  >モバイルユースケースのサンプル実装は、[iOS アプリ ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} および [Android アプリ ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} で利用できます。
+  >モバイルユースケースのサンプル実装は、[iOS アプリ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}と [Android アプリ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}で利用できます。
 
 ### 仕組み – Web SDK {#client-side-how}
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} がページに含まれています。
 
-1. パーソナライゼーションコンテンツを取得するには、`sendEvent` コマンドを使用して [ サーフェス URI](code-based-configuration.md#surface-definition)<!--( or location/path)--> を指定する必要があります。
+1. `sendEvent` コマンドを使用して[サーフェス URI](code-based-configuration.md#surface-definition)<!--( or location/path)--> を指定し、パーソナライゼーションコンテンツを取得する必要があります。
 
    ```javascript
    alloy("sendEvent", {
@@ -54,7 +54,7 @@ ht-degree: 75%
 
 1. コードベースのエクスペリエンス項目は、実装コード（[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} メソッドを使用）により手動で適用され、決定に基づいて DOM を更新する必要があります。
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合、コンテンツがいつ表示されたかを示すには、表示イベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの場合、コンテンツがいつ表示されたかを示すために、表示イベントを手動で送信する必要があります。これは、`sendEvent` コマンドを使用して行われます。
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ ht-degree: 75%
    }
    ```
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合は、ユーザーがコンテンツを操作したタイミングを示すために、インタラクションイベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの場合、ユーザーがいつコンテンツを操作したかを示すために、インタラクションイベントを手動で送信する必要があります。これは、`sendEvent` コマンドを使用して行われます。
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 
 サーバーサイド実装がある場合は、いずれかの AEP Edge Network API を使用できます。
 
-次の手順では、web ページ用のサンプルEdge NetworkAPI 実装で、コードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
+次の手順では、web ページのサンプルの Edge Network API 実装で、コードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
 ### 仕組み
 
@@ -226,9 +226,9 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
    ).then((res) => res.json());
    ```
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンからの JSON エクスペリエンスは、応答から読み取られ、HTML応答の生成時に使用されます。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの JSON エクスペリエンスは、応答から読み取られ、HTML 応答の生成時に使用されます。
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合は、ジャーニーまたはキャンペーンのコンテンツが表示されたことを示すために、実装時に表示イベントを手動で送信する必要があります。 この例では、通知はリクエストのライフサイクル中にサーバーサイドで送信されます。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの場合、ジャーニーまたはキャンペーンのコンテンツがいつ表示されたかを示すために、実装内で表示イベントを手動で送信する必要があります。この例では、通知はリクエストのライフサイクル中にサーバーサイドで送信されます。
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {

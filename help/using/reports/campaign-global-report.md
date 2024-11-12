@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->現在のレポートエクスペリエンスは、2025 年 1 月をもって廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。[Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ。](report-gs-cja.md)
+>現在のレポートエクスペリエンスは、2025年1月の時点で廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。[Journey Optimizer の新しいレポートインターフェイスの基本を学ぶ。](report-gs-cja.md)
 
 「**全期間**」タブからアクセスできるグローバルレポートには、少なくとも 2 時間前に発生したイベントと、選択した期間のイベントが表示されます。これに対し、ライブレポートには、過去 24 時間以内に発生したイベントが焦点となり、イベント発生から最小 2 分の時間間隔で表示されます。
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 >[!NOTE]
 >
->実験レポートは、Customer Journey Analyticsレポートからのみアクセスできます。 [詳細情報](campaign-global-report-cja-experimentation.md)
+>実験レポートには、Customer Journey Analytics レポート内でのみアクセスできます。[詳細情報](campaign-global-report-cja-experimentation.md)
 
 ### 配信 {#delivery-global}
 

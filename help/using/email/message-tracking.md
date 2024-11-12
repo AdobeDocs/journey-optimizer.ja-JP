@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 98%
    * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
    * **[!UICONTROL なし]**：この URL のトラッキングを有効化しません。
 
-開封数とクリック数に関するレポートは、[ ライブレポート ](../reports/live-report.md) および [Customer Journey Analyticsレポート ](../reports/report-gs-cja.md) で利用できます。
+開封数とクリック数に関するレポートは、[ライブレポート](../reports/live-report.md)と[Customer Journey Analytics レポート](../reports/report-gs-cja.md)で利用できます。
 
 ## URL トラッキングのパーソナライズ {#url-tracking}
 

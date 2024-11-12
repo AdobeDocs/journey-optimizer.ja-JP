@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
-> キャンペーンに承認ポリシーが適用される場合、プッシュ通知を送信するには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、プッシュ通知を送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 プッシュメッセージの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)の設定を完了して送信します。
 

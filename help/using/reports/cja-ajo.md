@@ -9,23 +9,23 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # [!DNL Customer Journey Analytics] の手動設定 {#cja-ajo}
 
-[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] の 統合は、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
+[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] の 統合により、自動レポート配信とデータのカスタムビジュアライゼーションですべてのジャーニーの総合的なビューを確認できるようになります。
 
-次の節では、Customer Journey Analytics内で詳細に分析するためにJourney Optimizerで生成されたデータを手動で活用する方法について概説します。 この統合は自動的に設定できます。 [詳細情報](report-gs-cja.md)
+次の節では、Journey Optimizer で生成されたデータを手動で活用して、Customer Journey Analytics 内で詳細な分析を行う方法について概説します。この統合は自動的に設定できます。[詳細情報](report-gs-cja.md)
 
 ![](assets/cja.png)
 
 [!DNL Journey Optimizer] でジャーニーを作成した後、[!DNL Customer Journey Analytics] に顧客データを読み込んでレポートを開始し、ジャーニーにおける顧客のインタラクションが与える影響を把握できます。
 
-➡️ [Customer Journey Analytics の概要を確認する](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [Customer Journey Analytics の概要を確認する](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >

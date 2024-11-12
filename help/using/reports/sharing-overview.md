@@ -9,15 +9,15 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # ジャーニーレポートの作成 {#design-jo-reports}
 
-[ リアルタイムレポート ](live-report.md) 組み込み [ レポート機能 ](report-gs-cja.md) に加え、[!DNL Journey Optimizer] は、ジャーニーのパフォーマンスデータをAdobe Experience Platformに自動的に送信でき、他のデータと組み合わて分析できるようになります。
+[!DNL Journey Optimizer] を使用すると、[リアルタイムレポート](live-report.md)やビルトインの[レポート機能](report-gs-cja.md)に加え、ジャーニーのパフォーマンスデータを Adobe Experience Platform に自動的に送信し、他のデータと組み合わせて分析できるようになります。
 
 >[!NOTE]
 >

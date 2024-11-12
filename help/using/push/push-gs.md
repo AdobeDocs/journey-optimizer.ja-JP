@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 1. パーソナライズされたプッシュペイロードは、内部のプッシュメッセージ配信サービスに転送されます
 1. 次に、この内部サービスは、メッセージに関連付けられたアプリの資格情報を検証し、
 1. 最終配信用に Apple および Google のメッセージサービスにメッセージを送信します
-1. メッセージサービスからのフィードバックは記録され、エラーと成功はジャーニーライブおよびCustomer Journey Analyticsレポートに記録されます
+1. メッセージサービスからのフィードバックは記録され、エラーと成功はジャーニーライブレポートおよび Customer Journey Analytics レポートに記録されます
 1. プッシュ通知はエンドユーザーのデバイスに配信されます
 1. エンドユーザーのプッシュ通知インタラクションは、SDK 統合を介して、エンドユーザークライアントからエクスペリエンスのイベントとして送信されます
 

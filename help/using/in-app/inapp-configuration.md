@@ -7,9 +7,9 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -121,13 +121,13 @@ ht-degree: 95%
 
 レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
-データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、各プロファイルが参加するキャンペーンやジャーニーを追跡するので、[!DNL Journey Optimizer] レポートで必要になります。
+データセットのスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、[!DNL Journey Optimizer] レポーティングで必要とされるもので、各プロファイルが参加しているキャンペーンとジャーニーを追跡します。
 
 [詳しくは、「レポーティング設定」を参照してください。](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->これらのフィールドグループを追加しても、通常のデータ収集には影響しません。これは、キャンペーンまたはジャーニーが実行中のページにのみ追加され、他のすべてのトラッキングはそのまま残ります
+>これらのフィールドグループを追加しても、通常のデータ収集には影響しません。キャンペーンまたはジャーニーが実行されているページに対してのみ追加され、他のすべてのトラッキングは変更されません
 
 **関連トピック：**
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: キャンペーン, レビュー, 検証, アクティブ化, アクティブ化, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
-> キャンペーンに承認ポリシーが適用される場合、キャンペーンを送信するには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、キャンペーンを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 キャンペーンを設定したら、アクティブ化する前にそのパラメーターとコンテンツをレビューする必要があります。それには、次の手順に従います。
 

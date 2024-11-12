@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   > ジャーニーに承認ポリシーが適用される場合は、ジャーニーを公開するために承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+   > ジャーニーが承認ポリシーの対象となっている場合、ジャーニーを公開できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)

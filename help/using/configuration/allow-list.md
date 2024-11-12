@@ -10,9 +10,9 @@ level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1145'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -201,7 +201,7 @@ API 呼び出しについて詳しくは、 [Adobe Experience Platform API](http
 >
 >「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journeys-message.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->[ ライブレポート ](../reports/live-report.md) と [Customer Journey Analyticsレポート ](../reports/report-gs-cja.md) について説明します。
+>詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。
 
 許可リストが[無効化](#deactivate-allow-list)されると、現在のサンドボックスから送信しているすべてのメールが、実際の顧客アドレスを含むすべての受信者（その受信者が抑制リストにない場合）に送信されます。
 

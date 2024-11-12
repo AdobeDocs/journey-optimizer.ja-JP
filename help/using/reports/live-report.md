@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 87%
 **[!UICONTROL ライブレポート]**を使用し、ビルトインダッシュボードで、ジャーニーとメッセージの影響とパフォーマンスをリアルタイムで測定および視覚化します。
 配信が送信されるか、「**[!UICONTROL 過去 24 時間]**」タブからジャーニーが実行されるとすぐに、**[!UICONTROL ライブレポート]**&#x200B;でデータを入手できます。
 
-* ジャーニーのコンテキストでジャーニーをターゲットにする場合は、**[!UICONTROL アクション]** メニューからジャーニーの **[!UICONTROL その他のジャーニー]** メニューにアクセスし、「**[!UICONTROL 過去 24 時間のレポートを表示]**」ボタンをクリックします。
+* ジャーニーのコンテキストでジャーニーをターゲットにする場合は、**[!UICONTROL ジャーニー]**&#x200B;メニューからジャーニーの&#x200B;**[!UICONTROL その他のアクション]**&#x200B;メニューにアクセスし、「**[!UICONTROL 過去 24 時間のレポートを表示]**」ボタンをクリックします。
 
   ![](assets/report_journey.png)
 
-* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]** メニューからキャンペーンにアクセスし、**[!UICONTROL レポート]** ボタンをクリックしてから、**[!UICONTROL 過去 24 時間のレポートを表示]** をクリックします。
+* キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]**&#x200B;メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタン、「**[!UICONTROL 過去 24 時間のレポートを表示]**」の順にクリックします。
 
   ![](assets/report_campaign.png)
 

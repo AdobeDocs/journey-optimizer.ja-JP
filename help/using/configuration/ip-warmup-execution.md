@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -290,7 +290,7 @@ IP ウォームアッププラン自体は、1 か所で統合レポートとし
 
 ### レポートを使用 {#reports}
 
-より一般的に、プランの影響を測定するには、[!DNL Journey Optimizer] キャンペーンレポートを使用して IP ウォームアップキャンペーンのパフォーマンスを確認できます。これを行うには、完了した実行ごとに、「**[!UICONTROL レポートを表示]**」ボタンをクリックします。キャンペーンのメール [ ライブレポート ](../reports/campaign-live-report.md#email-live) および [Customer Journey Analyticsレポート ](../reports/campaign-global-report-cja-email.md) について説明します。
+より一般的に、プランの影響を測定するには、[!DNL Journey Optimizer] キャンペーンレポートを使用して IP ウォームアップキャンペーンのパフォーマンスを確認できます。これを行うには、完了した実行ごとに、「**[!UICONTROL レポートを表示]**」ボタンをクリックします。キャンペーンメールについて詳しくは、[ライブレポート](../reports/campaign-live-report.md#email-live)と[Customer Journey Analytics レポート](../reports/campaign-global-report-cja-email.md)を参照してください。
 
 ![](assets/ip-warmup-plan-reports.png)
 

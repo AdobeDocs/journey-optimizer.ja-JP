@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 6a416ccbf658d128feb417ac2ab9ac79a0951a5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 94%
 
 1. [決定を設定します](../offer-activities/create-offer-activities.md#add-decision-scopes)。そのためには、プレースメントを選択し、各プレースメントに対してコレクションとフォールバックを選択します。
 
-1. 必要に応じて、決定を設定する際に、プレースメントに [ ランキング式の割り当て ](../offer-activities/configure-offer-selection.md#assign-ranking-formula) または [AI ランキング ](../offer-activities/configure-offer-selection.md#use-ranking-strategy) を割り当てることができます。
+1. 必要に応じて、決定を設定する際に、プレースメントに[ランキング式](../offer-activities/configure-offer-selection.md#assign-ranking-formula)または [AI ランキング](../offer-activities/configure-offer-selection.md#use-ranking-strategy)を割り当てることができます。
 
 <!--
 <table style="table-layout:fixed">

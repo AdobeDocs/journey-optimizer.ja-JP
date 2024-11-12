@@ -1,18 +1,18 @@
 ---
-title: Batch Decisioning
+title: バッチ決定
 description: 特定の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルにオファーの決定を配信する方法を説明します。
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
 ht-degree: 100%
 
 ---
 
-# Batch Decisioning {#deliver}
+# バッチ決定 {#deliver}
 
 ## Batch Decisioning の基本を学ぶ {#start}
 

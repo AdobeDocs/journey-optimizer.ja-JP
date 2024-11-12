@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
-> キャンペーンに承認ポリシーが適用される場合、テキストメッセージを送信するには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、テキストメッセージを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 テキストメッセージの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)の設定を完了して送信します。
 
