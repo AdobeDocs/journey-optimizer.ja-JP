@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2103'
 ht-degree: 78%
 
 ---
@@ -295,7 +295,7 @@ ht-degree: 78%
 
 <!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-&lt;!--* **ライブジャーニーの最大数** - Journey Optimizer では、実稼動サンドボックスでのライブジャーニーのガードレールが 100 個ではなく 500 個になりました。ライブジャーニーの数は、ジャーニーキャンバスに表示されます。<!-- DOCAC-10977-->
+<!--* **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas. (DOCAC-10977) -->
 
 **Web チャネル**
 
