@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +37,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 +++ ジャーニーの KPI 指標の詳細情報
 
-* **[!UICONTROL ジャーニーのエンゲージメント]**：ジャーニーから送信されたメッセージとやり取りした個人の合計数
+* **[!UICONTROL ジャーニーエンゲージメント]**: ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表します。
 
 * **[!UICONTROL ジャーニーのエントリ数]**：ジャーニーのエントリイベントに到達した個人の合計数。
 
@@ -54,7 +55,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 +++ ジャーニーの統計指標の詳細情報
 
-* **[!UICONTROL ジャーニーのエンゲージメント]**：ジャーニーから送信されたメッセージとやり取りした個人の合計数。
+* **[!UICONTROL ジャーニーエンゲージメント]**: ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表します。
 
 * **[!UICONTROL ジャーニーのエントリ数]**：ジャーニーのエントリイベントに到達した個人の合計数。
 
