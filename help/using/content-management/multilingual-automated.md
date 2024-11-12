@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 70%
+source-wordcount: '2053'
+ht-degree: 69%
 
 ---
 
@@ -31,6 +31,11 @@ ht-degree: 70%
 >[!IMPORTANT]
 >
 >自動フローを行うには、ユーザーが **[!UICONTROL 翻訳サービス]** 機能に関連する権限が必要となります。 [詳しくは、権限を参照してください](../administration/permissions.md)
+
+>[!AVAILABILITY]
+>
+> 自動フローは、EMEA 地域のユーザーは一時的に利用できません。
+
 
 自動フローを使用して、ターゲット言語と言語プロバイダーを簡単に選択できます。その後、コンテンツは翻訳に直接送信され、完了時に最終レビューが行われます。
 
