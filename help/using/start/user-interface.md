@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -250,3 +250,18 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >id="ajo_email_enable_experience_decisioning"
 >title="決定を有効にする"
 >abstract="決定を有効にする"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="カタログから決定属性を選択"
+>abstract="決定属性はカタログのスキーマに保存されます。 選択したカタログから、ここで使用する属性を選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="決定ポリシー"
+>abstract="決定ポリシーを使用すると、決定エンジンから最適な項目を選択し、各オーディエンスに配信できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="プレースメント"
+>abstract="プレースメント"
