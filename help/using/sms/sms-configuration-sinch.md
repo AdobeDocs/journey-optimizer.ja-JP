@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: a196a27fd22a03915838ab4a9bb6139f85242f6b
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 81%
+source-wordcount: '705'
+ht-degree: 80%
 
 ---
 
@@ -86,8 +86,6 @@ Journey Optimizer で MMS を送信するように Sinch MMS を設定するに�
 
       * **[!UICONTROL プロジェクト ID]** および&#x200B;**[!UICONTROL アプリ ID]** の場合：Sinch ダッシュボードで Sinch プロジェクトの [Conversation API の概要](https://dashboard.sinch.com/convapi/overview)ページにアクセスします。
       * **[!UICONTROL API トークン]**&#x200B;の場合：Sinch プロジェクトの[アクセスキー](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638)を取得し、Sinch プロジェクトの&#x200B;**アクセスキー**&#x200B;から **Base64 API トークン**&#x200B;を取得します。
-
-   * **[!UICONTROL サービスプラン ID]** および **[!UICONTROL SMS API トークン]**：**[!UICONTROL サービスプラン ID]** および **[!UICONTROL SMS API トークン]**&#x200B;は、API ページの「SMS」タブにあります。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
