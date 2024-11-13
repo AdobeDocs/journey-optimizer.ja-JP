@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 99%
+source-wordcount: '2032'
+ht-degree: 98%
 
 ---
 
@@ -218,10 +218,9 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 +++
 
-+++ オーディエンス構成またはカスタムアップロードのオーディエンスを公開してから、どのくらいで Journey Optimizer でそれを使用できるようになりますか？
++++ オーディエンスコンポジションからオーディエンスを公開した後、どれくらいしたらJourney Optimizerで使用できますか？
 
-* **オーディエンス構成**&#x200B;のオーディエンスは毎日実行されるので、Journey Optimizer で使用するには、場合によっては最大 24 時間待つ必要があります。
-* **カスタムアップロード**&#x200B;のオーディエンスは、公開から約 2 時間後に Journey Optimizer で使用できるようになります。
+**オーディエンス構成**&#x200B;のオーディエンスは毎日実行されるので、Journey Optimizer で使用するには、場合によっては最大 24 時間待つ必要があります。
 
 +++
 
