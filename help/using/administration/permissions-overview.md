@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 97%
+source-wordcount: '149'
+ht-degree: 96%
 
 ---
 
@@ -32,8 +32,10 @@ ht-degree: 97%
 
 ![](assets/do-not-localize/permissions_2.png)
 
-## チュートリアルビデオ{#video}
+<!--
+## How-to video{#video}
 
-Adobe Journey Optimizer でのアクセス制御システムとカスタムの役割について詳しく説明します。役割と権限を管理する方法と、ユーザーを追加および管理する方法を説明します。
+Learn more about access control system and custom proles in Adobe Journey Optimizer. Learn how to manage roles and permissions and how to add and manage users.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
+-->
