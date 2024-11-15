@@ -1,20 +1,31 @@
 ---
-title: Customer Journey Analytics でのレポート
-description: Customer Journey Analytics でのレポートの実行方法を説明します
+title: 決定に関するレポート
+description: 決定に関するレポート方法を説明します。
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="限定提供"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 81%
+source-wordcount: '221'
+ht-degree: 55%
 
 ---
 
-# Customer Journey Analytics でのレポート {#cja}
+
+# 決定に関するレポート {#decisioning-report}
+
+## コードベースのキャンペーンレポート {#campaigns}
+
+コードベースのエクスペリエンスが公開されると、専用のレポートにアクセスして、包括的なダッシュボードとして主要業績評価指標（KPI）を監視し、キャンペーンに関連する重要な指標の分析を提供できます。
+
+これには、決定項目のパフォーマンスに関する詳細と、ユーザーによる決定項目の操作の方法が含まれます。 [ コードベースのエクスペリエンスレポートの操作方法を学ぶ ](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Customer Journey Analytics でのレポート {#cja}
 
 Customer Journey Analyticsを使用している場合は、Decisioning を活用したコードベースのキャンペーン用のカスタムレポートダッシュボードを作成できます。
 
