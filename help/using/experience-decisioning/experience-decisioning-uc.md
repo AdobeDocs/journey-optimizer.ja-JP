@@ -5,22 +5,22 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 95%
+source-wordcount: '342'
+ht-degree: 75%
 
 ---
 
 # 決定のユースケース {#experience-decisioning-uc}
 
-このユースケースでは、それぞれ異なる決定ポリシーを含んだ 2 つの配信処理を定義し、ターゲットオーディエンスに対して最もパフォーマンスが良い配信を測定します。
+このユースケースでは、2 つの配信処理を定義してキャンペーンを作成します。それぞれに異なる決定ポリシーを含めることで、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信を測定します。
 
-## 項目と戦略の作成
+## 決定項目と選択戦略の作成
 
 まず、項目を作成してコレクションにグループ化し、ルールとランキング方法を設定する必要があります。これらの要素を使用すると、選択戦略を作成できます。
 
-1. **[!UICONTROL 決定]**/**[!UICONTROL カタログに移動し]** 複数のオファー項目を作成します。 オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
+1. **[!UICONTROL 決定]**/**[!UICONTROL カタログに移動し]** 複数の決定項目を作成します。 オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -37,11 +37,11 @@ ht-degree: 95%
 
 Web サイトやモバイルアプリで訪問者に最適な動的なオファーおよびエクスペリエンスを提示するには、コードベースキャンペーンに決定ポリシーを追加します。
 
-それぞれ異なる決定ポリシーを含んだ 2 つの配信処理を定義します。
+<!--Define two delivery treatments each containing a different decision policy.-->
 
-1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。[詳細情報](../code-based/create-code-based.md)
+1. キャンペーンを作成し、「**[!UICONTROL コードベースのエクスペリエンス]**」アクションを選択します。 [詳細情報](../code-based/create-code-based.md)
 
-1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。[詳細情報](../content-management/content-experiment.md)
+1. **[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから、処理 A のパーソナライズを開始します。
 
 1. **[!UICONTROL 決定]**&#x200B;アイコンを選択して、「**[!UICONTROL 決定を作成]**」をクリックし、決定の詳細を入力します。[詳細情報](create-decision.md)
 
@@ -61,7 +61,9 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. 処理 B を作成し、上記の手順を繰り返して別の決定を作成します。
+1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。[詳細情報](../content-management/content-experiment.md)
+
+1. **[!UICONTROL コンテンツを編集]** ウィンドウで、処理 B を選択してコンテンツを変更し、上記の手順を繰り返して別の決定を作成します。
 
 1. コンテンツを保存します。
 
