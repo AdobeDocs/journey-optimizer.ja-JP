@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
 workflow-type: tm+mt
-source-wordcount: '5707'
-ht-degree: 97%
+source-wordcount: '5724'
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,12 @@ ht-degree: 97%
 
 * の 2024 年 10 月リリースに含まれているすべて [!DNL Journey Optimizer] 新機能と機能強化について、ドキュメントで詳しく説明しました。 [詳細情報](release-notes.md)
 * [!DNL Journey Optimizer] で使用可能なすべての通信チャネルが、ドキュメントの専用セクションにグループ化されました。 [詳細情報](../channels/gs-channels.md)
-* **コードベースのエクスペリエンスの設定** ページが改善され、サーフェス URI について説明する節など、プロセスがより明確になりました。 [詳細情報](../code-based/code-based-configuration.md)
-* **Web チャネル設定の作成** ページが更新され、ルールに一致するページを作成する手順が明確になりました。このルールは、コードベースのエクスペリエンス設定にも適用されます。 [詳細情報](../web/web-configuration.md#web-page-matching-rule)
-* システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。 [詳細情報](../data/get-started-datasets.md)
-* ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。 [詳細情報](../code-based/create-code-based.md#preview-on-device)
-* カスタムアップロードオーディエンスを意思決定に活用する方法に関する新しいページが追加されました。 [詳細情報](../offers/custom-upload-decisioning.md)
+* **コードベースのエクスペリエンスの設定**&#x200B;ページが改善され、サーフェス URI の概要を説明する節など、プロセスがより明確になりました。[詳細情報](../code-based/code-based-configuration.md)
+* **Web チャネル設定の作成**&#x200B;ページが更新され、コードベースのエクスペリエンス設定にも適用されるページ一致ルールを作成する手順が明確になりました。[詳細情報](../web/web-configuration.md#web-page-matching-rule)
+* システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。[詳細情報](../data/get-started-datasets.md)
+* ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。[詳細情報](../code-based/create-code-based.md#preview-on-device)
+* 決定のカスタムアップロードオーディエンスの活用方法に関する新しいページが追加されました。[詳細情報](../offers/custom-upload-decisioning.md)
+* Journey Optimizerで利用できる意思決定機能を紹介する新しいページが追加されました。 [詳細情報](../experience-decisioning/gs-decision.md)
 
 ## 2024年9月 {#sept-2024}
 
@@ -35,7 +36,7 @@ ht-degree: 97%
 * ジャーニーの再エントリ管理に関する節を追加しました。[詳細情報](../building-journeys/read-audience.md#read-audience-retry)
 * カスタムアクションのキャッピング／スロットルルールに関する FAQ が更新され、デフォルトのキャッピングルールに言及するようになりました。[詳細情報](../configuration/external-systems.md#faq)
 * 「制御アクセス」の節が更新されて、AI アシスタントコンテンツジェネレーターに関連する権限が追加されました。[詳細情報](../administration/high-low-permissions.md#ai-permission)
-* メール生成用 AI Assistant コンテンツジェネレーターに関するビデオが追加されました。 [詳細情報](../content-management/generative-email.md#video)
+* メール生成用の AI アシスタントコンテンツジェネレーターに関するビデオが追加されました。[詳細情報](../content-management/generative-email.md#video)
 
 
 ## 2024年8月 {#aug-2024}
