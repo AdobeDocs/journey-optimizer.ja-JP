@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
+source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2168'
 ht-degree: 97%
 
 ---
@@ -449,6 +449,7 @@ ht-degree: 97%
    + [アラート](using/reports/alerts.md)
    + [除外の理由](using/reports/exclusion-list.md)
 + 決定機能 {#decisioning}
+   + [意思決定機能の概要](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
       + [意思決定の概要](using/experience-decisioning/gs-experience-decisioning.md)
       + API リファレンス{#api-reference}
