@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '5724'
+source-wordcount: '5736'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 99%
 * ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。[詳細情報](../code-based/create-code-based.md#preview-on-device)
 * 決定のカスタムアップロードオーディエンスの活用方法に関する新しいページが追加されました。[詳細情報](../offers/custom-upload-decisioning.md)
 * Journey Optimizerで利用できる意思決定機能を紹介する新しいページが追加されました。 [詳細情報](../experience-decisioning/gs-decision.md)
+* ガードレールと制限が決定ドキュメントに追加されました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024年9月 {#sept-2024}
 
