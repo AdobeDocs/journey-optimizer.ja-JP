@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -449,7 +449,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock と Adobe Journey Optimizer E メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。</br> 新しい「<b>類似のストックフォトを検索</b>」オプションを使用すると、画像の内容、カラーおよび構成に一致するストックフォトを見つけることもできます。 </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>詳しくは、<a href="../content-management/stock.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>BCC（ブラインドカーボンコピー）でメールを送信機能を使用して、Adobe Journey Optimizer から送信されたメールを保存できるようになりました。メールプリセットでこのオプションを有効にして、送信されたすべてのメールが BCC アドレスにブラインドコピーされるようにします。</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>詳しくは、<a href="../configuration/archiving-support.md#bcc-email">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>過度に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルのビジネスルールを設定できるようになりました。</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>詳しくは、<a href="../configuration/frequency-rules.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>意思決定管理で、トレーニング済みモデルシステムを使用できるようになりました。この新しい機能は、特定のプロファイルに対して表示するオファーをランク付けします。</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>詳しくは、<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Journey Optimizer リソースでユーザーが実行したアクションを監視できるようになりました。</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>詳しくは、 <a href="../privacy/audit-logs.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>

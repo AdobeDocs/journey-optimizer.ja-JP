@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 69%
+ht-degree: 94%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 69%
 
 1. 変更したコードベースエクスペリエンスのプレビューが表示されます。
 
-テストプロファイルを選択し、コンテンツをプレビューする方法について詳しくは、[ この節 ](../content-management/preview.md) を参照してください。
+テストプロファイルの選択およびコンテンツのプレビュー方法に関する情報について詳しくは、[この節](../content-management/preview.md)を参照してください。
 
 ### デバイスでのプレビュー {#preview-on-device}
 
@@ -168,43 +168,43 @@ ht-degree: 69%
 >title="プレビューリンクを更新して、現在のビューを反映"
 >abstract="オンデバイスプレビューには、プレビューリンクを作成または更新した時点のコンテンツが表示されます。コンテンツを変更した場合、または別のテストプロファイルや処理を選択した場合は、プレビューを更新して、現在の表示を反映させます。"
 
-Web ページやモバイルアプリ用のコードベースのエクスペリエンスを作成する場合、ブラウザーまたはモバイルデバイスでパーソナライズされたエクスペリエンスをプレビューし、実際のデバイスでのエクスペリエンスの外観を確認できます。
+Web ページやモバイルアプリのコードベースのエクスペリエンスを作成する際、ブラウザーまたはモバイルデバイスでパーソナライズされたエクスペリエンスをプレビューして、実際のデバイスでこれらのエクスペリエンスがどのように表示されるかを確認できます。
 
 >[!WARNING]
 >
->[ 決定ポリシー ](../experience-decisioning/create-decision.md) または [ パーソナライゼーション ](../personalization/personalization-build-expressions.md) コンテキスト属性を使用している場合、デバイスでプレビューを使用できません。
+>[決定ポリシー](../experience-decisioning/create-decision.md)または[パーソナライゼーション](../personalization/personalization-build-expressions.md)のコンテキスト属性を使用する際、デバイスでのプレビューは使用できません。
 
-1. **[!UICONTROL シミュレート]** 画面から、「**[!UICONTROL プレビューオプションを開く]** ボタンをクリックします。 プレビューオプションは、[ コードベースの設定 ](code-based-configuration.md#create-code-based-configuration) で選択したプラットフォームによって異なります。
+1. **[!UICONTROL シミュレート]**&#x200B;画面で、「**[!UICONTROL プレビューオプションを開く]**」ボタンをクリックします。プレビューオプションは、[コードベースの設定](code-based-configuration.md#create-code-based-configuration)で選択したプラットフォームによって異なります。
 
-1. コードベースの設定で [Web プラットフォーム ](code-based-configuration.md#web) を使用している場合、「**[!UICONTROL デバイスプレビュー URL]**」読み取り専用フィールドには、現在のチャネル設定で入力された URL が事前に入力されています。
+1. コードベースの設定で [web プラットフォーム](code-based-configuration.md#web)を使用している場合、「**[!UICONTROL デバイスのプレビュー URL]**」読み取り専用フィールドには、現在のチャネル設定に入力した URL が事前に入力されます。
 
    ![](assets/preview-on-device-web.png)
 
    以下のいずれかを実行できます。
 
-   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択し、ブラウザータブにリンクを貼り付けます。 また、チームや関係者とリンクを共有することもできます。関係者は、変更が有効になる前に任意のブラウザーで新しいエクスペリエンスをプレビューできます。
+   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択し、リンクをブラウザーのタブにペーストします。また、変更の実施前に任意のブラウザーで新しいエクスペリエンスをプレビューできるチームや関係者とリンクを共有することもできます。
 
-   * **[!UICONTROL 新しいタブで開く]** をクリックして、現在のブラウザーでリンクを開きます。
+   * 「**[!UICONTROL 新しいタブで開く]**」をクリックして、現在のブラウザーでリンクを開きます。
 
-   * モバイルデバイスで QR コードをスキャンして、モバイルブラウザーでプレビューリンクを開きます。
+   * モバイルデバイスで QR コードをスキャンし、モバイルブラウザーでプレビューリンクを開きます。
 
-1. コードベースの設定で [ モバイルプラットフォーム ](code-based-configuration.md#mobile) （iOS/Android）を使用している場合、「**[!UICONTROL ディープリンク]**」読み取り専用フィールドには、選択したプラットフォームのチャネル設定で入力された **[!UICONTROL プレビュー URL]** 値が事前に入力されています。
+1. コードベースの設定で[モバイルプラットフォーム](code-based-configuration.md#mobile)（iOS／Android）を使用している場合、「**[!UICONTROL ディープリンク]**」読み取り専用フィールドには、選択したプラットフォームのチャネル設定で入力した&#x200B;**[!UICONTROL プレビュー URL]** の値が事前に入力されます。
 
-   「**[!UICONTROL iOS]**」タブと「**[!DNL Android]**」タブを切り替えて、選択したプラットフォームのエクスペリエンスをプレビューします。
+   「**[!UICONTROL iOS]**」タブと「**[!DNL Android]**」タブを切り替えて、選択したプラットフォームでのエクスペリエンスをプレビューします。
 
    ![](assets/preview-on-device-mobile.png)
 
    以下のいずれかを実行できます。
 
-   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択して、チームや関係者とリンクを共有します。関係者は、変更が有効になる前にモバイルブラウザーで新しいエクスペリエンスをプレビューできます。
+   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択して、変更の実施前に任意のモバイルブラウザーで新しいエクスペリエンスをプレビューできるチームや関係者とリンクを共有します。
 
-   * モバイルデバイスで QR コードをスキャンして、モバイルアプリケーションで直接プレビューリンクを開きます。 [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} セッションを確立するには、デバイスで PIN を入力する必要があります。
+   * モバイルデバイスで QR コードをスキャンし、モバイルアプリケーションでプレビューリンクを直接開きます。[Assurance](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} セッションを確立するには、デバイスに PIN を入力する必要があります。
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance** は、モバイルアプリでデータを収集したりエクスペリエンスを提供したりする方法の検査、配達確認、シミュレーション、検証に役立つ、Adobe Experience Cloudの製品です。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance** は、モバイルアプリでデータを収集したりエクスペリエンスを提供したりする方法を検査、配達確認、シミュレーション、検証できる Adobe Experience Cloud の製品です。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home){target="_blank"}
 
-1. 選択したテストプロファイルと、ジャーニーまたはキャンペーンで [ コンテンツ実験 ](../content-management/content-experiment.md) を使用している場合は、選択した処理のプレビューリンクが生成されます。
+1. プレビューリンクは、選択したテストプロファイルに対して生成され、ジャーニーまたはキャンペーンで[コンテンツ実験](../content-management/content-experiment.md)を使用している場合は、選択した処理に対して生成されます。
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
@@ -212,13 +212,13 @@ Web ページやモバイルアプリ用のコードベースのエクスペリ�
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   コンテンツを更新する際、または別のテストプロファイルや処理を選択する際に、プレビューリンクが自動的に更新されます。 リンクを様々なブラウザータブにコピーして、エクスペリエンスを比較できます。
+   コンテンツを更新する際や、別のテストプロファイルや処理を選択する際に、プレビューリンクが自動的に更新されます。リンクを様々なブラウザータブにコピーして、エクスペリエンスを比較できます。
 
-## コードベースのエクスペリエンスを公開する {#code-based-experience-live}
+## コードベースのエクスペリエンスを公開 {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
-> キャンペーンに承認ポリシーが適用される場合、コードベースのエクスペリエンスをアクティブ化できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、コードベースのエクスペリエンスをアクティベートできるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
 コードベースのエクスペリエンスを定義し、[コードベースのエディター](#edit-code)を使用して必要に応じてコンテンツを編集したら、ジャーニーまたはキャンペーンをアクティブ化して、変更をオーディエンスに表示できます。
 
@@ -230,7 +230,7 @@ Web ページやモバイルアプリ用のコードベースのエクスペリ�
 >
 >複数のコードベースのジャーニーまたはキャンペーンが、コンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー／キャンペーンが優先されます。
 
-コードベースのジャーニーまたはキャンペーンがライブになったら、アプリ実装チームは、選択した [ コードベースのエクスペリエンス設定 ](code-based-configuration.md) で定義されたサーフェスのコンテンツを取得するための明示的な API または SDK 呼び出しを行います。 お客様による様々な実装について詳しくは、[ この節 ](code-based-implementation-samples.md) を参照してください。
+コードベースのジャーニーまたはキャンペーンを公開すると、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択した[コードベースのエクスペリエンス設定](code-based-configuration.md)で定義されたサーフェスのコンテンツを取得する責任があります。様々な顧客の実装について詳しくは、[この節](code-based-implementation-samples.md)を参照してください。
 
 ### コードベースのジャーニーの公開 {#publish-code-based-journey}
 
@@ -332,8 +332,6 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
-
-![](assets/code-based-campaign-global-report.png)
 
 Add image TBC
 
