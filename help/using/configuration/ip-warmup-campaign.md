@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!NOTE]
    >
-   >[この節](../email/email-settings.md#subdomains-and-ip-pools)では、メール設定で使用するドメインと IP を選択する方法について説明します。
+   >* [この節](../email/email-settings.md#subdomains-and-ip-pools)では、メール設定で使用するドメインと IP を選択する方法について説明します。
    >
    >* 配信品質コンサルタントと協力して、IP ウォームアッププランに使用するドメインと IP を特定します。<!--TBC-->
 
@@ -55,13 +55,17 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
 1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->、[コンテンツ](../email/get-started-email-design.md#key-steps)など、メールキャンペーンを作成する手順を完了します。
 
-   IP ウォームアップキャンペーンでは、ルールベースのオーディエンスを選択する必要があります。[詳細情報](../audience/creating-a-segment-definition.md)
+   >[!IMPORTANT]
+   >
+   >IP ウォームアップキャンペーンで許可されるオーディエンスは、[ セグメントベース ](../audience/creating-a-segment-definition.md) で、[ デフォルトの結合ポリシー ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} を使用して作成する必要があります。
 
    キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 1. キャンペーンを[アクティブ化](../campaigns/review-activate-campaign.md)します。ステータスは、「**[!UICONTROL ライブ]**」に変わります。
 
-   IP ウォームアッププランではビジネスルールを使用しないでください。これらのルールを適用すると、キャンペーンのターゲットプロファイルの希望数に到達できなくなる可能性があります。
+   >[!NOTE]
+   >
+   >[ ビジネスルール ](rule-sets.md#apply-frequency-rule) は、IP ウォームアッププランでは使用しないでください。 これらのルールを適用すると、キャンペーンのターゲットプロファイルの希望数に到達できなくなる可能性があります。
 
    IP ウォームアッププランが有効化されたライブキャンペーンの場合、**[!UICONTROL 削除]**&#x200B;ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。プランで使用すると、キャンペーンは削除できなくなります。
 

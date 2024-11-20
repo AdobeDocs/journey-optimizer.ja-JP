@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 100%
+source-wordcount: '1760'
+ht-degree: 82%
 
 ---
 
@@ -92,108 +92,108 @@ IP ウォームアッププランを [!DNL Journey Optimizer] インターフェ
 
 ![](assets/ip-warmup-sample-file.png)
 
-### 「IP ウォームアッププラン」タブ {#ip-warmup-plan-tab}
+### 「ウォームアッププラン」タブ {#ip-warmup-plan-tab}
 
-* この例では、100 万を超えるプロファイルのターゲットボリュームを達成するために、17 日間にわたるプラン（「**実行**」と呼ばれる）を準備しました。
+IP ウォームアッププランを作成するには、最初のタブに、プランにフィードする必要があるデータを入力します。
+
+* 上記の例では、100 万を超えるプロファイルのターゲットボリュームに到達するために、17 日間（「**実行**」と呼ばれます）にわたるプランが準備されています。
 
 * この計画は 6 つの&#x200B;**フェーズ**&#x200B;を通じて実行され、各フェーズには少なくとも 1 回の実行が含まれます。
 
 * 最大 6 列（ドメイングループに 4 列、**その他**&#x200B;の列に 1 列、 **エンゲージメント日数**&#x200B;の列に 1 列）を含めることができます。この例のプランでは、次の 6 列に分割されます。
 
-   * そのうち 3 列は&#x200B;**標準のドメイングループ**&#x200B;に対応し、プランに使用します（Gmail、Microsoft、Orange）。
-   * 1 列は、カスタムドメイングループに対応します（このグループを「[カスタムドメイングループ](#custom-domain-group-tab)」タブを使用して追加する必要があります）。
+   * そのうち 3 つは、プランで使用する **標準のドメイングループ** Gmail、Yahoo、Microsoft）に対応しています。 標準のドメイングループはすべて「[OOTB ドメイングループ ](#ootb-domain-groups-tab)」タブに一覧表示されます。
+   * 1 つの列は、カスタムドメイングループに対応します（「[ カスタムドメイングループ ](#custom-domain-group-tab)」タブを使用して追加する必要があります）。
    * 5 列目の&#x200B;**その他**&#x200B;には、プランで明示的に適用されない他のドメインの残りすべてのアドレスが含まれます。この列はオプションです。省略した場合、メールは指定したドメインにのみ送信されます。
    * 最後の列の&#x200B;**エンゲージメント日数**&#x200B;では、エンゲージメントを追跡または評価する日数を指定できます。
 
 このアイデアでは、各フェーズの実行数を減らしながら、各実行でターゲットアドレスの数を徐々に増やしていきます。
 
-プランに追加できる標準のメインドメイングループを以下に示します。
+### 「カスタムドメイングループ」タブ {#custom-domain-group-tab}
 
-<!--
-* Gmail
-* Adobe
-* WP
-* Comcast
-* Yahoo
-* Bigpond
-* Orange
-* Softbank
-* Docomo
-* United Internet
-* Microsoft
-* KDDI
-* Italia Online
-* La Poste
-* Apple
--->
+また、カスタムドメイングループを含めることで、プランに列を追加することもできます。
+
+「**[!UICONTROL カスタムドメイングループ]**」タブをクリックして、新しいドメイングループを定義します。ドメインごとに、対象となるすべてのサブドメインを追加できます。
+
+>[!IMPORTANT]
+>
+>各ドメインがドメイングループに固有であり、他のドメイングループや [ 標準のドメイングループ ](#ootb-domain-groups-tab) と重複していないことを確認します。
+
+例えば、カスタムドメイン Roadrunner を追加する場合に、次のサブドメイン（roadrunner.com、nc.rr.com、tampabay.rr.com、rochester.rr.comなど）を含める必要があります。
+
+![](assets/ip-warmup-sample-file-custom.png)
+
+>[!NOTE]
+>
+>カスタムドメインが必要ない場合は、「**[!UICONTROL カスタムドメイングループ]**」タブを空のままにします。
+
+### 「OOTB ドメイングループ」タブ {#ootb-domain-groups-tab}
+
+IP ウォームアッププランテンプレートの **OOTB ドメイングループ** タブには、プランに追加できるすべての標準提供のメインドメイングループが含まれています。
+
+![](assets/ip-warmup-sample-file-ootb.png)
+
+>[!NOTE]
+>
+>ドメイングループがこのタブに表示されない場合は、対応するタブでカスタムドメイングループを作成する必要があります。 [詳細情報](#custom-domain-group-tab)
+
+標準提供のメインドメイングループを以下に示します。
 
 +++ Gmail
 gmail.com、google.com、googlemail.com、googlemail.co.uk
-+++
-
-+++WP
-wp.pl;o2.pl
-+++
-
-+++Comcast
-comcast.net
-+++
-
-+++Yahoo
-aol.fi、games.com、cs.com、yahoo.com.in、y7mail.com、yahoo.co.uk、yahoo.hu、yahoo.co.hu、yahoo.cn、yahoogroups.com.sg、yahoogroups.com.au、aol.es、yahoo.com.au、yahoo.com.vn、yahoo.ca、aol.hk、aol.co.nz、yahoo.com.br、aolpoland.pl、aolnorge.no、yahoo.ne.jp、yahoo.fi、ymail.com、netscape.com、yahoo.com.pe、yahoo.hr、aol.cz、yahoo.ee、aol.be、aolcom.tr、yahoo.si、yahoo.co.id、aol.it、citlink.net、wmconnect.com、yahoo.es、yahoo.dk、yahoogroups.ca、yahoo.com.jp、yahoo.com.hk、aol.kr、yahoo.ie、aol.jp、aol.com.br、yahoo.lt、yahoo.co.kr、aol.nl、yahoo.com.ar、yahoo.bg、ygm.com、yahoo.co.nz、aol.se、aol.com、yahoo.de、goowy.com、rocketmail.com、frontiernet.net、aim.com、yahoo.nl、yahoogroups.co.in、aol.dk、netscape.net、aol.cl、luckymail.com、yahoo.no、yahoo.co.jp、yahoo.com.kr、yahoo.cz、yahoo.co.za、yahoo.sk、verizon.net、yahoogroups.de、yahoo.gr、aol.com.ve、aol.com.ar、yahoo.ro、aol.com.co、wild4music.com、yahoo.at、yahoogroups.com.cn、yahoo.com.co、wow.com、aol.fr、yahoo.in、aol.in、yahoo.com、yahoo.rs、aol.de、yahooxtra.co.nz、yahoo.com.mx、yahoo.com.ph、sky.com、aol.com.mx、aol.com.au、yahoo.se、myaol.jp、aolchina.com、yahoo.pt、yahoo.com.net、yahoo.com.tw、yahoogrupper.dk、yahoo.fr、talk21.com、compuserve.com、aol.pl、yahoo.com.sg、yahoogroups.com.tw、aol.ch、yahoo.it、frontier.com、yahoo.co.in、aolpolcka.pl、yahoo.co.il、verizon.net.in、yahoogruppi.it、yahoo.com.tr、yahoo.cl、yahoogroups.com.hk、yahoogroups.co.uk、yahoo.com.biz、yahoo.com.hr、yahoo.be、aol.co.uk、ybb.ne.jp、aol.tw、yahoogroups.co.kr、yahoo.com.my、rogers.com、gte.net、yahoogroups.com、yahoo.co.th、yahoo.com.cn、love.com、bellatlantic.net、aol.ru、yahoo.com.ve、yahoo.com.ua、yahoo.lv、aolpolska.pl、aol.at、yahoo.pl
-+++
-
-+++Bigpond
-bigpond.com、bigpond.com.au、bigpond.net、telstra.com、bigpond.net.au
-+++
-
-+++Orange
-voila.com、francetelecom.com、orange.com、orange.fr、wanadoo.fr、voila.fr
-+++
-
-+++Softbank
-c.vodafone.ne.jp、jp-h.ne.jp、k.vodafone.ne.jp、jp-d.ne.jp、jp-c.ne.jp、t.vodafone.ne.jp、h.vodafone.ne.jp、r.vodafone.ne.jp、q.vodafone.ne.jp、jp-t.ne.jp、jp-q.ne.jp、s.vodafone.ne.jp、jp-s.ne.jp、jp-r.ne.jp、jp-k.ne.jp、n.vodafone.ne.jp、d.vodafone.ne.jp、softbank.ne.jp、jp-n.ne.jp
-+++
-
-+++Docomo
-docomo.ne.jp
-+++
-
-+++United Internet
-gmx.de、1and1.com、gmx.fr、mail.com、1und1.de、gmx.com、gmx.net、gmx.at、web.de、gmx.ch
 +++
 
 +++Microsoft
 hotmail.com.tr、live.de、live.ru、live.nl、windowslive.com、live.jp、mts.net、xbox.com、hotmail.fr、hotmail.cl、hotmail.jp、live.cl、live.at、live.com.au、hotmail.co.th、live.hk、hotmail.com.au、hotmail.com、live.com.my、hotmail.co.kr、live.ie、outlook.com.br、hotmail.co.il、hotmail.dk、live.co.kr、live.co.uk、live.com.mx、outlook.ie、live.cn、hotmail.co.uk、live.com.sg、hotmail.es、live.fr、live.no、live.dk、hotmail.it、msn.com、live.se、hotmail.co.jp、live.be、live.co.za、live.in、hotmail.se、live.com.pt、hotmail.ch、outlook.com、live.com、hotmail.gr、live.it、live.com.ar、hotmail.ca、hotmail.com.br、hotmail.com.ar、live.ca、hotmail.de
 +++
 
-+++KDDI
-au.com、ezweb.ne.jp、uqmobile.jp
-+++
-
-+++Italia Online
-inwind.it、blu.it、virgilio.it、giallo.it、iol.it、libero.it
-+++
-
-+++La Poste
-laposte.net
++++Yahoo
+aol.fi、games.com、cs.com、yahoo.com.in、y7mail.com、yahoo.co.uk、yahoo.hu、yahoo.co.hu、yahoo.cn、yahoogroups.com.sg、yahoogroups.com.au、aol.es、yahoo.com.au、yahoo.com.vn、yahoo.ca、aol.hk、aol.co.nz、yahoo.com.br、aolpoland.pl、aolnorge.no、yahoo.ne.jp、yahoo.fi、ymail.com、netscape.com、yahoo.com.pe、yahoo.hr、aol.cz、yahoo.ee、aol.be、aolcom.tr、yahoo.si、yahoo.co.id、aol.it、citlink.net、wmconnect.com、yahoo.es、yahoo.dk、yahoogroups.ca、yahoo.com.jp、yahoo.com.hk、aol.kr、yahoo.ie、aol.jp、aol.com.br、yahoo.lt、yahoo.co.kr、aol.nl、yahoo.com.ar、yahoo.bg、ygm.com、yahoo.co.nz、aol.se、aol.com、yahoo.de、goowy.com、rocketmail.com、frontiernet.net、aim.com、yahoo.nl、yahoogroups.co.in、aol.dk、netscape.net、aol.cl、luckymail.com、yahoo.no、yahoo.co.jp、yahoo.com.kr、yahoo.cz、yahoo.co.za、yahoo.sk、verizon.net、yahoogroups.de、yahoo.gr、aol.com.ve、aol.com.ar、yahoo.ro、aol.com.co、wild4music.com、yahoo.at、yahoogroups.com.cn、yahoo.com.co、wow.com、aol.fr、yahoo.in、aol.in、yahoo.com、yahoo.rs、aol.de、yahooxtra.co.nz、yahoo.com.mx、yahoo.com.ph、sky.com、aol.com.mx、aol.com.au、yahoo.se、myaol.jp、aolchina.com、yahoo.pt、yahoo.com.net、yahoo.com.tw、yahoogrupper.dk、yahoo.fr、talk21.com、compuserve.com、aol.pl、yahoo.com.sg、yahoogroups.com.tw、aol.ch、yahoo.it、frontier.com、yahoo.co.in、aolpolcka.pl、yahoo.co.il、verizon.net.in、yahoogruppi.it、yahoo.com.tr、yahoo.cl、yahoogroups.com.hk、yahoogroups.co.uk、yahoo.com.biz、yahoo.com.hr、yahoo.be、aol.co.uk、ybb.ne.jp、aol.tw、yahoogroups.co.kr、yahoo.com.my、rogers.com、gte.net、yahoogroups.com、yahoo.co.th、yahoo.com.cn、love.com、bellatlantic.net、aol.ru、yahoo.com.ve、yahoo.com.ua、yahoo.lv、aolpolska.pl、aol.at、yahoo.pl
 +++
 
 +++Apple
 mac.com、icloud.com、apple.com、me.com
 +++
 
-### 「カスタムドメイングループ」タブ {#custom-domain-group-tab}
++++Comcast
+comcast.net
++++
 
-また、カスタムドメイングループを含めることで、プランに列を追加することもできます。
++++Orange
+voila.com、francetelecom.com、orange.com、orange.fr、wanadoo.fr、voila.fr
++++
 
-「**[!UICONTROL カスタムドメイングループ]**」タブをクリックして、新しいドメイングループを定義します。各ドメインに対して、対象となるすべてのサブドメインを追加できます。<!--TBC-->
++++La Poste
+laposte.net
++++
 
-上記のプランで使用されるドメイングループについては、各ドメインがそのドメイングループに固有であり、他のドメイングループと重複していないことを確認します。グローバルドメイングループは自動的に定義されるので、ユーザーはカスタムドメイングループを作成する際にこれを考慮する必要があります。
++++Italia Online
+inwind.it、blu.it、virgilio.it、giallo.it、iol.it、libero.it
++++
 
-例えば、カスタムドメイン Luma を追加する場合、サブドメイン（luma.com、luma.co.uk、luma.it、luma.fr、luma.de など）を含めます。
++++WP
+wp.pl;o2.pl
++++
 
-![](assets/ip-warmup-sample-file-custom.png)
++++United Internet
+gmx.de、1and1.com、gmx.fr、mail.com、1und1.de、gmx.com、gmx.net、gmx.at、web.de、gmx.ch
++++
+
++++Bigpond
+bigpond.com、bigpond.com.au、bigpond.net、telstra.com、bigpond.net.au
++++
+
++++Docomo
+docomo.ne.jp
++++
+
++++Softbank
+c.vodafone.ne.jp、jp-h.ne.jp、k.vodafone.ne.jp、jp-d.ne.jp、jp-c.ne.jp、t.vodafone.ne.jp、h.vodafone.ne.jp、r.vodafone.ne.jp、q.vodafone.ne.jp、jp-t.ne.jp、jp-q.ne.jp、s.vodafone.ne.jp、jp-s.ne.jp、jp-r.ne.jp、jp-k.ne.jp、n.vodafone.ne.jp、d.vodafone.ne.jp、softbank.ne.jp、jp-n.ne.jp
++++
+
++++KDDI
+au.com、ezweb.ne.jp、uqmobile.jp
++++
 
 ### 例 {#example}
 
@@ -208,13 +208,13 @@ Hotmail 以外のドメインとドメイングループ Microsoft からのド�
 
 1. 同じ行にすべての Hotmail ドメインを追加します。
 
-   [「IP ウォームアッププラン」タブ](#ip-warmup-plan-tab)のセクションにリストされる Hotmail のすべてのドメインを[コピーして貼り付け](#copy-paste)ます。
+   [OOTB ドメイン グループ ](#copy-paste) のセクションに一覧表示されているすべての Hotmail ドメインを [ コピーして貼り付け ](#ootb-domain-groups-tab) ことができます。
 
 1. 別の行を追加します。
 
 1. **Microsoft_X** ドメイングループを作成します。
 
-1. Hotmail 以外の Microsoft ドメインをすべて同じ行に追加します。同様に、上のリストからコピーして貼り付けることができます。[詳細情報](#copy-paste)
+1. Hotmail 以外の Microsoft ドメインをすべて同じ行に追加します。同様に、上記のリストから [ コピーして貼り付け ](#copy-paste) ことができます。
 
 1. 「**[!UICONTROL IP ウォームアッププラン]**」タブに戻ります。
 
@@ -226,7 +226,7 @@ Hotmail 以外のドメインとドメイングループ Microsoft からのド�
 
 ### デフォルトのドメインをコピー＆ペースト {#copy-paste}
 
-例えば、すべての Hotmail ドメインを含むカスタムドメイングループを作成する場合は、[上記の](#ip-warmup-plan-tab)デフォルトのリストからドメインをコピーして貼り付けることができます。
+例えば、すべての Hotmail ドメインを含んだカスタムドメイングループを作成する場合は、**IP ウォームアッププランテンプレート** の「[OOTB ドメイングループ ](assets/IPWarmupPlan-Template.xlsx)」タブ、または [ 上記 ](#ip-warmup-plan-tab) で提供されたリストからドメインをコピーして貼り付けることができます。
 
 次に、Excel コンバージョンツールを使用して、テキストを列に変換します。
 

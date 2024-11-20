@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '2532'
-ht-degree: 100%
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+workflow-type: tm+mt
+source-wordcount: '2628'
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >このセクションは編集できません。
 
-1. 必要に応じて、「**[!UICONTROL 置換]**」ボタンを使用してキャンペーンを置き換えることができます。また、「**[!UICONTROL クリア]**」ボタンを使用して、選択したキャンペーンを&#x200B;**[!UICONTROL クリア]**&#x200B;することもできます。このアクションにより、キャンペーンだけでなく、ドメイングループの除外、キャンペーン、ジャーニーの除外など、その他のフェーズレベルのプロパティもクリアされます。クリア後、新しいキャンペーンをすぐに選択することも、後で選択することもできます。
+1. 必要に応じて、「**[!UICONTROL 置換]**」ボタンを使用してキャンペーンを置き換えることができます。また、「**[!UICONTROL クリア]**」ボタンを使用して、選択したキャンペーンを&#x200B;**[!UICONTROL クリア]**&#x200B;することもできます。これにより、キャンペーンがクリアされるだけでなく、他のフェーズレベルのプロパティ（ドメイングループの除外、キャンペーン、ジャーニーの除外など）もクリアされます。 クリア後、新しいキャンペーンをすぐに選択することも、後で選択することもできます。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. オーディエンスの実行を評価した後で、適格なプロファイルがターゲットのプロファイルよりも小さい場合に実行をキャンセルするには、「**[!UICONTROL エラーが発生した場合にアクティブ化された実行をキャンセル]**」オプションを選択します。その場合、実行は&#x200B;**[!UICONTROL 失敗]**&#x200B;ステータスになります。
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   認定プロファイルの数がターゲットプロファイルの数と一致しない場合（例えば、実行でターゲットにする Gmail アドレスは 1500 個ですが、認定される Gmail プロファイルは 700 個のみです）:
+
+   * このオプションが有効になっている場合は、実行が失敗します。 その後、次の実行でターゲットにするプロファイルを減らすか、新しいフェーズに [ 実行を分割 ](#split-phase) して新しいフェーズの新しいキャンペーンを選択して、同じプロファイルを再度ターゲットにすることができます。
+
+   * このオプションが有効になっていない場合、実行は実行されますが、ターゲットになるのは使用可能なプロファイルの数のみです。
 
 1. 実行を&#x200B;**[!UICONTROL アクティブ化]**&#x200B;します。[詳細情報](#activate-run)
 
