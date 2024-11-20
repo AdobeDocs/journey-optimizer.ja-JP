@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 95%
 
 ---
 
@@ -50,3 +50,7 @@ ht-degree: 100%
    ![](assets/collection-create.png)
 
 1. コレクションルールを定義したら、「**[!UICONTROL 作成]**」をクリックします。コレクションがリストに表示されます。
+
+>[!NOTE]
+>
+>各項目コレクションには、最大 500 個のオファー項目を含めることができます。 [ 決定ガードレールと制限の詳細を説明します ](gs-experience-decisioning.md#guardrails)。

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 90%
+source-wordcount: '320'
+ht-degree: 80%
 
 ---
 
@@ -46,4 +46,8 @@ Decisioning では、カタログは、決定項目を整理するための一�
 
    Adobe Experience Platform スキーマの操作方法について詳しくは、[XDM システムドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja)を参照してください。
 
-1. 目的のカスタム属性を追加したら、スキーマを保存します。新しいフィールドは「**[!UICONTROL カスタム属性]** 」セクション内の決定項目作成画面で使用可能になりました。
+1. 目的のカスタム属性を追加したら、スキーマを保存します。新しいフィールドが、決定項目作成画面の「**[!UICONTROL カスタム属性]** セクションで使用できるようになりました。
+
+>[!NOTE]
+>
+>決定項目には、最大 100 個のカスタム属性を含めることができます。 [ 決定ガードレールと制限の詳細を説明します ](gs-experience-decisioning.md#guardrails)。

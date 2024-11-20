@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 55%
+source-wordcount: '639'
+ht-degree: 47%
 
 ---
 
@@ -44,6 +44,12 @@ ht-degree: 55%
 
    * [ランキング式](../offers/ranking/create-ranking-formulas.md)
    * [AI モデル](../offers/ranking/ai-models.md)
+
+   >[!NOTE]
+   >
+   >ランキング式のネスト深度は 30 レベルに制限されています。 これは、PQL文字列内の `)` の閉じ丸括弧をカウントすることによって測定されます。 UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 8 KB になります。 これは、8,000 文字の ASCII 文字（各 1 バイト）、または 2,000～4,000 文字の非 ASCII 文字（各 2～4 バイト）に相当します。 [ 決定ガードレールと制限の詳細を説明します ](gs-experience-decisioning.md#guardrails)。
+
+決定ポリシーでは、最大 10 個の選択戦略と決定項目を組み合わせてサポートします。 [ 決定ガードレールと制限の詳細を説明します ](gs-experience-decisioning.md#guardrails)。
 
 +++ カスタム [!DNL Customer Journey Analytics] 指標でのモデルの最適化
 
