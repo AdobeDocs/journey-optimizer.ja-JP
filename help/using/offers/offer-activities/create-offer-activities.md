@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 95%
@@ -308,7 +308,7 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="ファクトバックオファーの追加"
+>title="フォールバックオファーの追加"
 >abstract="決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客への最後の手段として提示されるフォールバックオファーを定義します。"
 
 決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客への最後の手段として提示されるフォールバックオファーを定義します。
