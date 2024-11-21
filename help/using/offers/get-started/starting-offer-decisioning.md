@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 96%
 
 ---
 
@@ -35,10 +35,11 @@ ht-degree: 100%
 
 ➡️ [意思決定管理について詳しくは、これらのビデオをご覧ください](#video)
 
+## 必読 {#must-read}
 
->[!NOTE]
->
->**Offer Decisioning** アプリケーションサを利用する [ Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
+* 現時点では、意思決定管理は、オブジェクトレベルのアクセス制御、フィールドレベルのアクセス制御、同意ポリシーの適用サービスの機能をサポートしていません。 これらの指標を使用する場合は、Journey Optimizer[Decisioning](../../experience-decisioning/gs-experience-decisioning.md) 機能の使用を検討してください。
+
+* **Offer Decisioning** アプリケーションサを利用する [ Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 
