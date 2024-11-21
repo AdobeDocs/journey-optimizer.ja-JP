@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 61%
+source-wordcount: '460'
+ht-degree: 60%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 61%
 >title="アクセス管理ラベル"
 >abstract="アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。 アクセス制限を追加するには、このページの上部にある **アクセスを管理** ボタンを参照します。 権限のあるラベルのみを選択してください。"
 
-オブジェクトレベルのアクセス制御（OLAC）を使用すると、次のように選択したオブジェクトへのデータアクセスを管理する権限を定義できます。
+オブジェクトレベルのアクセス制御（OLAC）機能を使用すると、選択したオブジェクトへのデータアクセスを管理する権限を定義できます。
 
 * ジャーニー
 * キャンペーン
@@ -36,15 +36,13 @@ ht-degree: 61%
 * チャネル設定
 * IP ウォームアッププラン
 
-標準化されたラベルを使用すると、ガバナンスおよびアクセス制御ポリシーに従ってオーディエンスを分類できます。 例えば、オーディエンスラベルを使用して、ブランドがオンサイト広告で特定のオーディエンスのメンバーをターゲティングしないようにすることができます。
-
 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることを目的としています。
 
 ## 前提条件 {#prereq-labels}
 
 [ ラベルを作成 ](#create-labels) するには、**[!UICONTROL 使用状況ラベルの管理]** 権限を持つ役割に属している必要があります。
 
-[ ラベルの割り当て ](#assign-labels) を実行するには、[!DNL Manage journeys]、[!DNL Manage Campaigns]、[!DNL Manage decisions] など、**管理** 権限を持つ役割に属している必要があります。 この権限がない場合は、「**[!UICONTROL アクセスを管理]**」ボタンが灰色表示になります。
+[ ラベルの割り当て ](#assign-labels) を実行するには、[!DNL Manage journeys]、[!DNL Manage Campaigns]、[!DNL Manage decisions] など、**管理** 権限を持つ役割に属している必要があります。 この権限がない場合は、「**[!UICONTROL アクセスを管理]** ボタンが灰色表示になります。
 
 権限について詳しくは、[この節](../administration/permissions.md)を参照してください。
 
