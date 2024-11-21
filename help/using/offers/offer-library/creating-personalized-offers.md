@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="フォールバックオファー"
->abstract="フォールバックオファーは、エンドユーザーがパーソナライズされたオファーの対象でない場合に表示されるデフォルトのオファーです。"
+>abstract="フォールバックオファーは、エンドユーザーが任意のパーソナライズされたオファーを受ける資格がない場合に表示されるデフォルトのオファーです。"
 
 **オファー**&#x200B;を作成するには、次の手順に従います。
 

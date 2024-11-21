@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="ベータ版"
-source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
+exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
-
 
 # サンプル入力データを使用したコンテンツのテスト（ベータ版） {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="サンプル入力を使用したシミュレート"
->abstract="この画面では、CSV または JSON テンプレートを通じてパーソナライゼーションフィールドの値を指定するか、値を手動で入力することで、コンテンツの様々なバリアントをテストできます。"
+>abstract="この画面では、CSV または JSON テンプレートを通じてパーソナライゼーションフィールドに値を指定するか、手動で値を入力することで、コンテンツの様々なバリアントをテストできます。"
 
 >[!AVAILABILITY]
 >
