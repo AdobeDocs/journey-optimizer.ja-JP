@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ Adobe Journey Optimizer インターフェイスのどこからでも、上部�
 >title="タグ"
 >abstract="このフィールドを使用すると、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができます。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。"
 
-Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ja)を使用すると、Journey Optimizer のジャーニーやキャンペーンを簡単に分類し、リストからの検索を改善できます。
+Adobe Experience Platform[ 統合タグ ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ja) を使用すると、Journey Optimizer オブジェクトを簡単に分類し、リストからの検索を改善できます。
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+Journey Optimizerでオーディエンスに意味のあるタグを追加すると、後でフィルタリングおよび検索して、オーディエンスをより簡単に見つけることができます。 さらに、タグを使用して、オーディエンスを関連性の高い検索可能なフォルダーに整理し、パーソナライズされたオファーとエクスペリエンスを作成し、エクスペリエンス決定ルールで使用することもできます。
 
-### オブジェクトへのタグの追加
+### オブジェクトへのタグの追加 {#add-tags}
 
 「**[!UICONTROL タグ]**」フィールドでは、オブジェクトのタグを定義できます。タグは、次のオブジェクトで使用できます。
 
@@ -79,7 +80,7 @@ Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs
    >
    > タグでは大文字と小文字が区別されません。
 
-1. 検索しているタグが使用できない場合は、「**[!UICONTROL 「[タグ名]」を作成]**」をクリックして新しいタグを定義します。タグは現在のオブジェクトに自動的に追加され、他のすべてのオブジェクトで使用できるようになります。
+1. 検索中のタグが使用できない場合は、「**[!UICONTROL 作成」「」]** をクリックして新しいタグを定義します。このタグは現在のオブジェクトに自動的に追加され、他のすべてのオブジェクトで使用できるようになります。
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs
 > 
 > オブジェクトの新しいバージョンを複製または作成した場合、タグは保持されます。
 
-### タグに関するフィルタリング
+### タグに関するフィルタリング {#filter-on-tags}
 
 各オブジェクトリストには専用の列が表示されるので、タグを簡単に視覚化できます。
 
@@ -101,7 +102,7 @@ Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs
 
 ![](assets/tags3.png)
 
-### タグの管理
+### タグの管理 {#manage-tags}
 
 管理者は、「**[!UICONTROL 管理]**」の下の&#x200B;**[!UICONTROL タグ]**&#x200B;メニューを使用して、タグを削除し、カテゴリ別に整理できます。タグの管理について詳しくは、[統合タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ja)を参照してください。
 
