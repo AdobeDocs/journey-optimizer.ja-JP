@@ -1,11 +1,12 @@
 ---
 title: 意思決定機能  [!DNL Journey Optimizer]  概要
 description: 意思決定機能の操作方法  [!DNL Journey Optimizer]  説明します。
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 20%

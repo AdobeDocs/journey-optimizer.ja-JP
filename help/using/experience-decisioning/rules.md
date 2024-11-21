@@ -1,12 +1,12 @@
 ---
 title: 決定ルール
 description: 決定ルールの操作方法を学ぶ
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 85%

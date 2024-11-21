@@ -1,12 +1,12 @@
 ---
 title: ランキング方法
 description: ランキング方法の使用方法を学ぶ
-feature: Experience Decisioning, Ranking
+feature: Decisioning, Ranking
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 47%

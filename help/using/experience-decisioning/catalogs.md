@@ -1,12 +1,12 @@
 ---
 title: 項目カタログ
 description: 項目カタログの使用方法を説明します
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 80%

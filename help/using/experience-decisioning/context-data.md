@@ -1,12 +1,12 @@
 ---
 title: 決定でのコンテキストデータの活用
 description: Decisioning でコンテキストデータを活用する方法を説明します
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 59%

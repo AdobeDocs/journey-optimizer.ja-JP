@@ -1,12 +1,12 @@
 ---
 title: 意思決定の概要
 description: 決定の詳細情報
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 45%

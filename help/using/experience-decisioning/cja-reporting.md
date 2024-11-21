@@ -1,13 +1,13 @@
 ---
 title: 決定に関するレポート
 description: 決定に関するレポート方法を説明します。
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="限定提供"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 55%
