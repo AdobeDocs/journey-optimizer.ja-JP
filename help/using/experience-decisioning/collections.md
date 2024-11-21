@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 95%
 
 例えば、決定項目のカタログスキーマに「カテゴリ」カスタム属性を追加したとします。これにより、「カテゴリ」属性に「ヨガ」の値を持つすべての決定項目を含むコレクションを作成できます。
 
-コレクションのリストには、**[!UICONTROL カタログ]**&#x200B;メニューからアクセスできます。
+コレクションのリストには、**[!UICONTROL カタログ]** メニューからアクセスできます。
 
 コレクションを作成するには、次の手順に従います。
 
-1. **[!UICONTROL カタログ]**／**[!UICONTROL コレクション]**&#x200B;に移動して、「**[!UICONTROL コレクションを作成]**」をクリックします。
+1. **[!UICONTROL カタログ]**/**[!UICONTROL コレクション]** に移動し、「**[!UICONTROL コレクションを作成]**」をクリックします。
 1. コレクションの名前と説明を入力します。
 1. 1 つまたは複数のルールを追加して、コレクションに含める項目を決定します。その手順は次のとおりです。
 
