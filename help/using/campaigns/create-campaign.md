@@ -9,23 +9,18 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 46%
+source-wordcount: '1221'
+ht-degree: 40%
 
 ---
 
 # キャンペーンの作成 {#create-campaign}
 
-新しいキャンペーンを作成するには、**[!UICONTROL Campaigns]** メニューにアクセスし、「**[!UICONTROL キャンペーンの作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。([詳細情報](modify-stop-campaign.md#duplicate))
+新しいキャンペーンを作成するには、左側のパネルで **[!UICONTROL キャンペーン]** メニューを参照し、「**[!UICONTROL キャンペーンを作成]**」をクリックします。 また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。[ 詳細を表示する ](modify-stop-campaign.md#duplicate)。
 
->[!NOTE]
->
->新しいキャンペーンを作成する前に、チャネル設定（メッセージサーフェス）と Adobe Experience Platform オーディエンスが使用できる状態になっていることを確認します。詳しくは、以下の節を参照してください。
->
->* [チャネル設定の作成](../configuration/channel-surfaces.md)
->* [オーディエンスの基本を学ぶ](../audience/about-audiences.md)
+開始する前に、[ このページ ](get-started-with-campaigns.md#before-starting-campaign-prerequisites) でキャンペーンの前提条件を確認してください。
 
 ## キャンペーンタイプを選択 {#campaigntype}
 
@@ -82,10 +77,9 @@ ht-degree: 46%
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 
+## チャネルを選択 {#channel}
 
-## メッセージの作成とトラッキングの設定 {#content}
-
-メッセージのコンテンツを定義できるようになりました。 次の手順に従います。
+これで、チャネルとその設定を選択できます。 次の手順に従います。
 
 1. 「**[!UICONTROL アクション]**」セクションで、通信チャネルを選択します。
 
@@ -103,42 +97,40 @@ ht-degree: 46%
    >
    >プッシュ通知キャンペーンを作成している場合、**[!UICONTROL 迅速配信モード]**&#x200B;を有効にできます。これは、大量のプッシュメッセージを非常に高速に送信できる Journey Optimizer アドオンです。[詳細情報](../push/create-push.md#rapid-delivery)
 
-1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メッセージを設定およびデザインします。メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
+## コンテンツの編集 {#content}
 
-   <table style="table-layout:fixed">
-    <tr style="border: 0;">
-    <td>
-    <a href="../email/create-email.md">
-    <img alt="リード" src="../assets/do-not-localize/email.jpg">
-    </a>
-    <div><a href="../email/create-email.md"><strong>メールの作成</strong>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../push/create-push.md">
-      <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
-    </a>
-    <div>
-    <a href="../push/create-push.md"><strong>プッシュ通知の作成</strong></a>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../sms/create-sms.md">
-      <img alt="検証" src="../assets/do-not-localize/sms.jpg">
-    </a>
-    <div>
-    <a href="../sms/create-sms.md"><strong>SMS メッセージの作成</strong></a>
-    </div>
-    <p>
-    </td>
-    </tr>
-    </table>
+**[!UICONTROL コンテンツを編集]** ボタンからメッセージのコンテンツを定義できるようになりました。 コンテンツの作成プロセスは、選択したチャネルによって異なります。
 
-   コンテンツを定義したら、**[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンを使用して、テストプロファイルを使用してコンテンツをプレビューおよびテストします[詳細情報](../content-management/preview-test.md)。キャンペーンの作成画面に戻るには、左矢印をクリックします。
+メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
-   ![](assets/create-campaign-design.png)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="メール" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong>メール</strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="プッシュ" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong> プッシュ通知 </strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="ダイレクトメール" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>ダイレクトメール</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="アプリ内" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong> アプリ内 </strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="コードベースのエクスペリエンス" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong>コードベースのエクスペリエンス</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="コンテンツカード" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong> コンテンツカード </strong></a></div></td>
+</tr></table>
+
+コンテンツを定義したら、**[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンを使用して、テストプロファイルを使用してコンテンツをプレビューおよびテストします[詳細情報](../content-management/preview-test.md)。キャンペーンの作成画面に戻るには、左矢印をクリックします。
+
+![](assets/create-campaign-design.png)
+
+メッセージコンテンツ自体に加えて、次の設定を行うことができます。
 
 1. （オプション）「**[!UICONTROL コンテンツ実験]**」セクションでは、「**[!UICONTROL 実験を作成]**」ボタンを使用して、どのコンテンツがより効果的かをテストできます。 コンテンツ実験機能について詳しくは、[ この節 ](../content-management/content-experiment.md) を参照してください。
 
