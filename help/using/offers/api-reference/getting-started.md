@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}：[!DNL Experience Platform] が、カスタマーエクスペリエンスデータを整理する際に使用する、標準化されたフレームワーク。
    * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"}：XDM スキーマの基本的な構成要素について説明します。
-* [ 意思決定管理 ](../../../using/offers/get-started/starting-offer-decisioning.md)：意思決定全般、特に意思決定管理に使用される概念とコンポーネントについて説明します。 顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
+* [意思決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：決定全般、特に意思決定管理に使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target="_blank"}：PQL は XDM インスタンス上で式を書くための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
 ## API 呼び出し例の読み取り {#reading-sample-api-calls}

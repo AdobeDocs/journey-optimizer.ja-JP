@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 88%
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-1. **[!UICONTROL API 資格情報]** メニューで、bin アイコンをクリックして、API 資格情報を削除します。
+1. **[!UICONTROL API 資格情報]**&#x200B;メニューで、ごみ箱アイコンをクリックして、API 資格情報を削除します。
 
-1. 既存の資格情報を変更するには、目的の API 資格情報を見つけ、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を加えます。
+1. 既存の資格情報を変更するには、目的の API 資格情報を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
 
 API 資格情報を作成し設定したら、SMS メッセージ用のチャネルサーフェスを作成する必要があります。[詳細情報](sms-configuration-surface.md)
 

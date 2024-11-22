@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1363'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 83%
 
    ![](assets/web-activity-configuration.png)
 
-1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを編集します。 [詳細情報](#edit-web-content)
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを編集します。[詳細情報](#edit-web-content)
 
 1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
@@ -87,7 +87,7 @@ ht-degree: 83%
 
    ![](assets/web-campaign-steps.png)
 
-1. **[!UICONTROL コンテンツを編集]** ボタンをクリックして、必要に応じてコンテンツを編集します。 [詳細情報](#edit-web-content)
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックし、必要に応じてコンテンツを編集します。[詳細情報](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -111,24 +111,24 @@ ht-degree: 83%
 >abstract="ルールに一致するすべてのページに適用されるコンテンツの編集に使用する特定の web ページの URL を入力します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="詳細情報"
 
-ジャーニーまたはキャンペーンに [web アクションを追加 ](#create-web-experience) すると、次のいずれかを使用してサイトのコンテンツを編集できます。
+ジャーニーまたはキャンペーンに [web アクションを追加](#create-web-experience)すると、次のいずれかでサイトのコンテンツを編集できるようになります。
 
-* ビジュアルエディターを使用してエクスペリエンスを作成するための [web デザイナー ](web-visual-editor.md)。
-* または [ 非視覚的エディター ](web-non-visual-editor.md) です。
+* ビジュアルエディターを使用してエクスペリエンスを作成する [web デザイナー](web-visual-editor.md)、
+* または[非ビジュアルエディター](web-non-visual-editor.md)を使用します。
 
 Web エクスペリエンスのオーサリングを開始するには、次の手順に従います。
 
-1. キャンペーンまたはジャーニーの **[!UICONTROL web]** アクティビティの **[!UICONTROL アクション]** タブで、「**[!UICONTROL コンテンツを編集]**」を選択します。
+1. キャンペーンの「**[!UICONTROL アクション]**」タブまたはジャーニーの **[!UICONTROL web]** アクティビティで「**[!UICONTROL コンテンツを編集]**」を選択します。
 
    ![](assets/web-campaign-edit-content.png)
 
-1. 編集画面が表示されます。 以下のいずれかを実行できます。
+1. 編集画面が表示されます。以下のいずれかを実行できます。
 
-   * **[!UICONTROL Web ページを編集]** ボタンをクリックして、ビジュアルエクスペリエンスのために Web デザイナーを使用してコンテンツのオーサリングを開始します。 [詳細情報](web-visual-editor.md)
+   * 「**[!UICONTROL Web ページを編集]**」ボタンをクリックして、web デザイナーでコンテンツを作成し視覚的なエクスペリエンスを開始します。[詳細情報](web-visual-editor.md)
 
      ![](assets/web-campaign-edit-web-page.png)
 
-   * **[!UICONTROL ビジュアルエディター]** オプションの選択を解除して、代わりに非ビジュアル編集モードを使用し、**[!UICONTROL 変更を追加]** をクリックして、ビジュアルエディターを読み込まずに web コンテンツの編集を開始します。 [詳細情報](web-non-visual-editor.md)
+   * 「**[!UICONTROL ビジュアルエディター]**」オプションの選択を解除して、代わりに非ビジュアル編集モードを使用し、「**[!UICONTROL 変更を追加]**」をクリックして、ビジュアルエディターを読み込まずに web コンテンツの編集を開始します。[詳細情報](web-non-visual-editor.md)
 
      ![](assets/web-campaign-add-modification.png)
 
@@ -157,9 +157,9 @@ Web デザイナーを使用して [web エクスペリエンスを作成](web-v
 
 >[!IMPORTANT]
 >
-> キャンペーンに承認ポリシーが適用される場合、web エクスペリエンスをアクティブ化できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、web エクスペリエンスをアクティベートできるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
-Web エクスペリエンスを定義し、必要に応じてコンテンツを編集したら、ジャーニーまたはキャンペーンをアクティブ化して、変更内容をオーディエンスに表示できます。
+Web エクスペリエンスを定義し、必要に応じてコンテンツを編集したら、ジャーニーまたはキャンペーンをアクティブ化して、変更をオーディエンスに表示できます。
 
 公開する前に web エクスペリエンスのコンテンツをプレビューすることもできます。[詳細情報](#test-web-experience)
 
@@ -191,7 +191,7 @@ Web ジャーニーが「**[!UICONTROL ライブ]**」ステータスになり�
 
 ### Web キャンペーンのアクティブ化 {#activate-web-campaign}
 
-Web キャンペーンの設定を定義し、必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。 次の手順に従います。
+Web キャンペーンの設定を定義し、必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。次の手順に従います。
 
 1. Web キャンペーンから、「**[!UICONTROL アクティブ化するレビュー]**」を選択します。
 
@@ -213,7 +213,7 @@ Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;ステータ�
 >
 >Web キャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**&#x200B;ステータスになります。
 
-エクスペリエンスが公開されたら、web ジャーニーとキャンペーンを監視できます。 [詳細情報](monitor-web-experiences.md)
+エクスペリエンスが公開されたら、web ジャーニーとキャンペーンを監視できます。[詳細情報](monitor-web-experiences.md)
 
 ## Web ジャーニーまたはキャンペーンの停止 {#stop-web-experience}
 

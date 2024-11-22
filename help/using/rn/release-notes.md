@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2103'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 ### 新機能 {#24-10-features}
 
-このリリースでは、以下に説明する新機能が提供されています。
+このリリースでは、以下に示す新機能が導入されています。
 
 <table>
 <thead>
@@ -42,7 +42,7 @@ ht-degree: 78%
 <p>Journey Optimizer では、テンプレート全体をロックするか、特定の構造とコンポーネントをロックして、メールテンプレート内のコンテンツをロックできるようになりました。これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより細かく制御して、メールキャンペーンの効率と信頼性を向上させることができます。</p>
 <p>詳しくは、<a href="../content-management/content-locking.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/gif-content-locking.gif">
-<p>2024 年 10 月 24 日（PT）以降に使用可能</p>
+<p>公開日：2024年10月24日（PT）以降</p>
 </td>
 </tr>
 </tbody>
@@ -119,14 +119,14 @@ ht-degree: 78%
 <td>
 <p>Movable Ink Da Vinci と Adobe Journey Optimizer を統合できるようになりました。この新しい統合により、次のことができます。 </p>
 <p><ul><li>Movable Ink の Da Vinci 製品の強力な機能を活用して、バッチキャンペーン用のメールバリエーションを組み立て、パーソナライズします</li>
-<li>オーサリングに Da Vinci を、最適化と配信にAdobe Journey Optimizerを使用することで、Journey Optimizerのお客様向けの実践者ワークフローを高速化します</li>
+<li>Da Vinci によるオーサリングと Adobe Journey Optimizer による最適化と配信を使用して、Journey Optimizer のお客様の実践者ワークフローを高速化します。</li>
 <li>アドビのデータを使用して Da Vinci モデルを最適化します。</li></ul></p>
-<p>詳しくは、<a href="https://movableink.com/adobe-and-movable-ink">Movable Ink Da Vinci のドキュメント </a> を参照してください。</p>
+<p>詳しくは、<a href="https://movableink.com/adobe-and-movable-ink">Movable Ink Da Vinci のドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
 
-以前は一連の組織（LA）で使用できましたが、現在は、すべてのユーザー（GA）が次の機能を使用できます。
+以前は一連の組織（LA）に対して提供されていましたが、次の機能はすべてのユーザー（GA）に対して提供されるようになりました。
 
 <table>
 <thead>
@@ -141,7 +141,7 @@ ht-degree: 78%
 </p>
 <p>詳しくは、<a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/surface-perso.gif"/>
-<p>2024 年 10 月 23 日（PT）以降に使用可能</p>
+<p>公開日：2024年10月23日（PT）以降</p>
 </tr>
 </tbody>
 </table>
@@ -159,7 +159,7 @@ ht-degree: 78%
 <p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
 <p>詳しくは、<a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/approval.gif"/>
-<p>2024 年 10 月 22 日（PT）以降に使用可能</p>
+<p>公開日：2024年10月22日（PT）以降</p>
 </td>
 </tr>
 </tbody>
@@ -227,10 +227,10 @@ ht-degree: 78%
 <tr>
 <td>
 <p>Journey Optimizer レポートは現在一般公開（GA）され、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。</p>
-<p>一般提供になると、4 つの新機能が導入されます。シンプルな指標を作成する機能、オーディエンスを作成および公開する機能、Insight Builder を使用してアドホックな質問をする機能、主要な受信者に自動的にメールが送信されるレポートをスケジュールする機能です。</p>
+<p>一般公開では、シンプルな指標を作成する機能、オーディエンスを作成して公開する機能、インサイトビルダーを使用してアドホックな質問をする機能、主要な受信者にレポートを自動的にメールで送信するようにスケジュールする機能など、4 つの新機能が導入されています。</p>
 <p>詳しくは、<a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>重要：現在のレポートエクスペリエンスは、2025 年 1 月をもって廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。<a href="../reports/report-gs-cja.md">Journey Optimizer の新しいレポートインターフェイスの使用を開始する方法を学ぶ</a></p>
+<p>重要：現在のレポートエクスペリエンスは、2025年1月に廃止されます。この日以降、新しいレポートエクスペリエンスが標準となります。スムーズに移行できるように、新機能を理解しておくことをお勧めします。<a href="../reports/report-gs-cja.md">Journey Optimizer の新しいレポートインターフェイスの使用を開始する方法を学ぶ</a></p>
 <p>公開日：2024年10月16日（PT）以降</p>
 </tr>
 </tbody>
@@ -247,8 +247,8 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>ジャーニーオプティマイザーを使用すると、ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、メール配達確認を送信することで、テストできるようになりました。 パーソナリゼーションのコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
-<p>この機能は、現在、すべてのお客様がメール、SMS およびプッシュ通知チャネルのパブリックベータ版として利用できます。</p>
+<p>Journey Optimizer を使用すると、ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューしメールの配達確認を送信することで、コンテンツの様々なバリアントをテストできるようになりました。パーソナライズ機能のコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
+<p>この機能は、現在、パブリックベータ版としてすべてのお客様がメール、SMS、プッシュ通知チャネルで使用できます。</p>
 <p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
@@ -260,13 +260,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>パーソナライゼーションへのAdobe Experience Platform データの使用（Beta）</strong><br/></th>
+<th><strong>Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>パーソナライゼーションエディターのAdobe Experience Platformのデータを活用して、コンテンツをパーソナライズします。 これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。 完了したら、そのデータを使用して、コンテンツを [!DNL Journey Optimizer] にパーソナライズできます。</p>
+<p>パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、コンテンツをパーソナライズします。これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを使用して、コンテンツを [!DNL Journey Optimizer] にパーソナライズできます。</p>
 <p>この機能は現在、パブリックベータ版としてすべてのお客様に対して使用可能です。</p>
 <p>詳しくは、 <a href="../personalization/lookup-aep-data.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -280,15 +280,15 @@ ht-degree: 78%
 
 **SMS チャネル**
 
-* SMS API チャネル設定を編集または削除できるようになりました。 [詳細情報](../sms/sms-configuration.md)
+* SMS API チャネル設定を編集または削除できるようになりました。[詳細情報](../sms/sms-configuration.md)
 
-* Infobip および Sinch を使用して SMS メッセージ機能を改善するための次の機能強化が導入されました。
+* Infobip や Sinch を使用して SMS メッセージ機能を改善する次の機能強化が導入されました。
 
    * SMS キャンペーンとジャーニーに一意のキーワードを定義および管理して、よりパーソナライズされた効率的な通信を可能にできます。
 
    * キーワードが認識されない場合は、デフォルトの SMS メッセージを作成して配信できます。
 
-  これらの改善点について詳しくは、[Infobip](../sms/sms-configuration-infobip.md) および [Sinch](../sms/sms-configuration-sinch.md) の SMS 設定ドキュメントを参照してください。
+  これらの改善点について詳しくは、[Infobip](../sms/sms-configuration-infobip.md) と [Sinch](../sms/sms-configuration-sinch.md) の SMS 設定ドキュメントを参照してください。
 
 
 <!--**Journeys**-->
@@ -299,7 +299,7 @@ ht-degree: 78%
 
 **Web チャネル**
 
-* **Web デザイナーの非視覚編集モード** - Journey Optimizer Web デザイナーの代わりに、非視覚編集を使用して web サイトに変更を加えられるようになりました。 これにより、ビジュアルエディターでページを開かずに、手動で変更を入力できます。 この非視覚編集モードは、web デザイナーでページを読み込むために必要なAdobe Experience Cloud Visual Helper などのブラウザー拡張機能をインストールできない場合に役立ちます。 [詳細情報](../web/web-non-visual-editor.md)
+* **Web デザイナー向けの非ビジュアル編集モード** - Journey Optimizer の web デザイナーの代わりに、非ビジュアルエディターを使用して web サイトに変更を追加できるようになりました。これにより、ビジュアルエディターでページを開かなくても、手動で変更を入力できます。この非ビジュアル編集モードは、web デザイナーでページを読み込むのに必要な Adobe Experience Cloud Visual Helper などのブラウザー拡張機能をインストールできない場合に役立ちます。[詳細情報](../web/web-non-visual-editor.md)
 
 
 **データセット**
@@ -313,15 +313,15 @@ ht-degree: 78%
 
   この変更は、後続のフェーズで既存のお客様のサンドボックスにロールアウトされます。[詳細情報](../data/datasets-ttl.md#ttl)
 
-* **カスタムアクションのパラメーター** – 公開日：2024 年 10 月 3 日（PT） – カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **カスタムアクションのパラメーター** - 公開日：2024年10月3日（PT） - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。[詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **レポート**
 
-* **意思決定レポート** が使用できるようになり、訪問者がエクスペリエンスとやり取りする方法に関する基本的なインサイトが提供されます。 [詳細情報](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* **決定レポート**&#x200B;が使用できるようになりました。訪問者がエクスペリエンスとやり取りする方法に関する基本的なインサイトが提供されます。[詳細情報](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **データガバナンスおよび同意ポリシー** - 公開日：2024年10月7日（PT）
 
-* **データガバナンスポリシー**&#x200B;が、Journey Optimizer のすべてのチャネルで運用されるようになりました。Adobe Experience Platformでポリシーを作成したお客様の場合、これらはチャネル設定のセットアップの一環としてマーケティングアクションに適用されます。 設定を使用してコンテンツを作成すると、すべてのパーソナライゼーションフィールドでデータガバナンス違反がないかを確認します。違反が見つかった場合、ジャーニーまたはキャンペーンを公開することはできません。[詳細情報](../action/action-privacy.md)
+* **データガバナンスポリシー**&#x200B;が、Journey Optimizer のすべてのチャネルで運用されるようになりました。Adobe Experience Platform でポリシーを作成したお客様の場合、これらはチャネル設定のセットアップの一環としてマーケティングアクションに適用されます。設定を使用してコンテンツを作成すると、すべてのパーソナライゼーションフィールドでデータガバナンス違反がないかを確認します。違反が見つかった場合、ジャーニーまたはキャンペーンを公開することはできません。[詳細情報](../action/action-privacy.md)
 
 * **カスタム同意ポリシー**&#x200B;がすべての Journey Optimizer チャネルに適用されるようになりました。メッセージの送信やインバウンドエクスペリエンスの配信の前に適用されると、ユーザーが受信するコンテンツでパーソナライゼーションフィールドを使用することに同意しているかどうかが確認されます。同意が得られない場合、エクスペリエンスは表示されません。[詳細情報](../action/consent.md)
 
@@ -341,10 +341,10 @@ ht-degree: 78%
 
 **コードベースのチャネル**
 
-* コンテンツテンプレートが使用できるようになりました。開発者が作成したコンテンツ テンプレートから始めることで、コードベースのエクスペリエンスの作成を高速化できます。コンテンツテンプレートを使用すると、マーケターは、HTML全体や JSON コンテンツペイロードを構成するのではなく、一部の値やフィールドを修正するだけで済みます。 [詳細情報](../content-management/content-templates.md)
+* コンテンツテンプレートが使用できるようになりました。開発者が作成したコンテンツ テンプレートから始めることで、コードベースのエクスペリエンスの作成を高速化できます。コンテンツテンプレートを使用すると、マーケターは HTML または JSON コンテンツペイロード全体を作成するのではなく、一部の値やフィールドを変更するだけで済みます。[詳細情報](../content-management/content-templates.md)
 
 **決定**
 
-* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) ユーザーは、決定（旧称エクスペリエンス決定）で AI モデルを設定する際に、最適化するカスタムモデルを選択できるようになりました。これにより、例えば、クリックスルー率などの定義済みの制約ではなく、カスタムの「購入」テーブルを最適化できます。 [詳細情報](../experience-decisioning/ranking.md)
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) ユーザーは、決定（旧称エクスペリエンス決定）で AI モデルを設定する際に、最適化するカスタムモデルを選択できるようになりました。これにより、例えば、クリックスルー率などの定義済みの制約ではなく、カスタムの「購入数」テーブルを最適化できます。[詳細情報](../experience-decisioning/ranking.md)
 
-* Decisioning を使用してコードベースのキャンペーンに決定ポリシーを追加する際に、選択戦略に加えて、単一の決定項目を手動で選択できるようになりました。 さらに、複数のフォールバックオファーを選択できるようになりました。これにより、一定数の決定項目が返されることが保証されます。[詳細情報](../experience-decisioning/create-decision.md)
+* 決定を使用してコードベースのキャンペーンに決定ポリシーを追加する際に、選択戦略に加えて、単一の決定項目を手動で選択できるようになりました。さらに、複数のフォールバックオファーを選択できるようになりました。これにより、一定数の決定項目が返されることが保証されます。[詳細情報](../experience-decisioning/create-decision.md)

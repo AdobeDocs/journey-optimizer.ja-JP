@@ -1,15 +1,15 @@
 ---
 title: Web エクスペリエンスの監視
-description: Journey Optimizerで web エクスペリエンスを監視する方法について説明します
+description: Journey Optimizer での web エクスペリエンスの監視方法を学ぶ
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ Web デザイナーを使用すると、web サイトの任意の要素を選択
 
 1. 要素でのクリックの追跡を削除するには、対応する削除アイコンを選択します。
 
-キャンペーンがライブになると、キャンペーン web [ ライブレポート ](../reports/campaign-live-report.md#web-tab) および [Customer Journey Analyticsレポート ](../reports/campaign-global-report-cja-web.md) で各要素のクリック数を確認できます。
+キャンペーンがライブになったら、キャンペーン web [ライブレポート](../reports/campaign-live-report.md#web-tab)および [Customer Journey Analytics レポート](../reports/campaign-global-report-cja-web.md)で各要素のクリック数を確認できます。

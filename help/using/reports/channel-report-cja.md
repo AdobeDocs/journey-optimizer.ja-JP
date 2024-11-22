@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 +++ ハイライト指標の詳細情報
 
-* **[!UICONTROL ジャーニーエンゲージメント]**: ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表します。
+* **[!UICONTROL ジャーニーのエンゲージメント]**：ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表す、ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。
 
 * **[!UICONTROL ジャーニーのエントリ数]**：ジャーニーのエントリイベントに到達した個人の合計数。
 

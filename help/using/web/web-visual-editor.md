@@ -1,17 +1,17 @@
 ---
 title: Web デザイナーを使用したコンテンツの編集
-description: Journey Optimizer web エディターを使用して web ページを作成し、そのコンテンツを編集する方法について説明します
+description: Journey Optimizer の web エディターを使用して、web ページを作成し、そのコンテンツを編集する方法について説明します。
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
-workflow-type: tm+mt
+exl-id: 98e99978-8538-40b4-92ac-7184864017eb
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
-
 
 # Web デザイナーの操作 {#work-with-web-designer}
 
@@ -29,21 +29,21 @@ ht-degree: 83%
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
-[!DNL Journey Optimizer] では、ビジュアル web オーサリングは、**Adobe Experience Cloud Visual Helper** Chrome ブラウザー拡張機能によって動作します。 [詳細情報](web-prerequisites.md#visual-authoring-prerequisites)
+[!DNL Journey Optimizer] のビジュアル web オーサリングには、**Adobe Experience Cloud Visual Helper** の Chrome ブラウザー拡張機能が利用されています。[詳細情報](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
 >[!DNL Journey Optimizer] ユーザーインターフェイスで web ページへのアクセスや web ページを作成するには、[こちらのセクション](web-prerequisites.md)に記載されている前提条件を必ず満たすようにしてください。
 
-## Web エクスペリエンスの作成を開始
+## Web エクスペリエンスの作成の開始
 
 ビジュアル web デザイナーを使用して web エクスペリエンスの作成を開始するには、次の手順に従います。
 
 >[!CAUTION]
 >
->Web ページには ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}0}Adobe Experience Platform Web SDK} を含める必要があります。 [[詳細情報](web-prerequisites.md#implementation-prerequisites)
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を web ページに含める必要があります。[詳細情報](web-prerequisites.md#implementation-prerequisites)
 
-1. **[!UICONTROL コンテンツを編集]** 画面から、「**[!UICONTROL Web ページを編集]**」をクリックして Web デザイナーを開きます。
+1. **[!UICONTROL コンテンツを編集]**&#x200B;画面から、「**[!UICONTROL Web ページを編集]**」をクリックして web デザイナーを開きます。
 
    ![](assets/web-campaign-edit-web-page.png)
 
@@ -53,9 +53,9 @@ ht-degree: 83%
    >
    >読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper のブラウザー拡張機能](#install-visual-editing-helper)のインストールを勧めるメッセージが表示されます。トラブルシューティングのヒントについては、[こちらのセクション](web-prerequisites.md#troubleshooting)をご覧ください。
    >
-   >また、ビジュアルエディターを読み込まずに、web コンテンツを編集することもできます。 これを行うには、「**[!UICONTROL ビジュアルエディター]**」オプションの選択を解除して、代わりに非視覚的な編集モードを使用します。 [詳細情報](web-non-visual-editor.md)
+   >また、ビジュアルエディターを読み込まずに、web コンテンツを編集することもできます。これを行うには、「**[!UICONTROL ビジュアルエディター]**」オプションの選択を解除して、代わりに非ビジュアル編集モードを使用します。[詳細情報](web-non-visual-editor.md)
 
-1. Web デザイナーで、画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど、キャンバスから任意の要素を選択します。 [詳細情報](#content-components)
+1. Web デザイナーに入ったら、キャンバスから要素（画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど）を選択します。[詳細情報](#content-components)
 
 1. 要素を編集するには、以下を使用します。
 
@@ -75,7 +75,7 @@ ht-degree: 83%
 >
 >Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 
-Web コンテンツを編集したら、変更を管理できます。 [詳細情報](manage-web-modifications.md)
+Web コンテンツを編集したら、変更を管理できます。[詳細情報](manage-web-modifications.md)
 
 ## コンポーネントの使用 {#content-components}
 

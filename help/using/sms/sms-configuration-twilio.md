@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Journey Optimizer に Twilio を設定するには、Twilio に使用する新�
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-1. **[!UICONTROL API 資格情報]** メニューで、bin アイコンをクリックして、API 資格情報を削除します。
+1. **[!UICONTROL API 資格情報]**&#x200B;メニューで、ごみ箱アイコンをクリックして、API 資格情報を削除します。
 
-1. 既存の資格情報を変更するには、目的の API 資格情報を見つけ、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を加えます。
+1. 既存の資格情報を変更するには、目的の API 資格情報を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
 
 API 資格情報を作成して設定したら、SMS および MMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)

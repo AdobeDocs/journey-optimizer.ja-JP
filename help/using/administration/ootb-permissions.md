@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 93%
 | レポート | **[!DNL View channel reports]**：チャネルレポートの読み取り、編集。 |
 | サンドボックス管理 | **[!DNL Export sandboxes]**：サンドボックスを書き出す機能。</br>**[!DNL Manage packages]**：パッケージの読み取り、作成、編集、および削除。</br>**[!DNL Manage sandboxes]**：サンドボックスの読み取り、作成、編集、削除。</br>**[!DNL View sandboxes]**：組織に属するサンドボックスへの読み取り専用アクセス。</br>**[!DNL Reset sandboxes]**：サンドボックスをリセットする機能。 |
 | サンドボックス管理 | **[!DNL Export sandboxes]**：サンドボックスを書き出す機能。</br>**[!DNL Manage packages]**：パッケージの読み取り、作成、編集、および削除。</br>**[!DNL Manage sandboxes]**：サンドボックスの読み取り、作成、編集、削除。</br>**[!DNL View sandboxes]**：組織に属するサンドボックスへの読み取り専用アクセス。</br>**[!DNL Reset sandboxes]**：サンドボックスをリセットする機能。 |
-| 翻訳サービス | **[!DNL Manage translation projects]**：翻訳プロジェクトの読み取り、作成、編集、削除。</br>**[!DNL View translation projects]**：翻訳プロジェクトへの読み取り専用アクセス。</br>**[!DNL Manage translation tasks]**：翻訳タスクの読み取り、作成、編集、削除。</br>**[!DNL View translation tasks]**：翻訳タスクの読み取り専用アクセス。</br> **[!DNL Manage translation reviews]**：翻訳レビューの読み取り、作成、編集、削除。</br>**[!DNL View translation reviews]**：翻訳レビューへの読み取り専用アクセス。</br>**[!DNL Manage translation in house]**：翻訳を社内で読み取り、作成、編集、削除する。</br>**[!DNL View translation in house]**：社内での翻訳の読み取り専用アクセス。</br>**[!DNL Manage translation settings]**：翻訳設定の読み取り、作成、編集、削除。 |
+| 翻訳サービス | **[!DNL Manage translation projects]**：翻訳プロジェクトの読み取り、作成、編集、削除。</br>**[!DNL View translation projects]**：翻訳プロジェクトへの読み取り専用アクセス。</br>**[!DNL Manage translation tasks]**：翻訳タスクの読み取り、作成、編集、削除。</br>**[!DNL View translation tasks]**：翻訳タスクへの読み取り専用アクセス。</br> **[!DNL Manage translation reviews]**：翻訳レビューの読み取り、作成、編集、削除。</br>**[!DNL View translation reviews]**：翻訳レビューへの読み取り専用アクセス。</br>**[!DNL Manage translation in house]**：社内翻訳の読み取り、作成、編集、削除。</br>**[!DNL View translation in house]**：社内翻訳への読み取り専用アクセス。</br>**[!DNL Manage translation settings]**：翻訳設定の読み取り、作成、編集、削除。 |
 
 {style="table-layout:fixed"}
 

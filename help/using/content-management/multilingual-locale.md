@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ロケールの作成
-description: Journey Optimizerで多言語コンテンツのロケールを作成する方法を説明します
+description: Journey Optimizer で多言語コンテンツのロケールを作成する方法を学ぶ
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: 開始, 開始, コンテンツ, 実験
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: tm+mt
+keywords: 概要, 開始, コンテンツ, 実験
+exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +36,3 @@ ht-degree: 90%
 1. 「**[!UICONTROL 保存]**」をクリックしてロケールを作成します。
 
    ![](assets/locale_2.png)
-

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 81%
 
 既にメール、SMS、プッシュ通知などのアウトバウンドチャネルを使用している場合は、インバウンド web チャネルを活用して、すべてのチャネルにわたって真にパーソナライズされたエクスペリエンスを提供できるようになりました。
 
-ジャーニーまたはキャンペーンを作成したら、アクションとして **Web** を選択し、基本設定を定義します。 ジャーニー/キャンペーンの設定方法について詳しくは、この [ ページ ](create-web.md#create-web-experience) を参照してください。
+ジャーニーまたはキャンペーンを作成したら、アクションとして「**Web**」を選択し、基本設定を定義します。ジャーニー／キャンペーンの設定方法について詳しくは、この[ページ](create-web.md#create-web-experience)を参照してください。
 
 >[!NOTE]
 >

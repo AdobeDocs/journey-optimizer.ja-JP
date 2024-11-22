@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -23,17 +23,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic"
 >title="動的コレクション"
->abstract="コレクション修飾子を使用して、コレクションに対してオファーを動的に選定します。"
+>abstract="コレクション修飾子を使用して、コレクションの対象となるオファーを動的に限定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static"
 >title="静的コレクション"
->abstract="ステータス、コレクション修飾子、日付、チャネルなどの条件を使用して、オファーを手動で選択してグループ化します。"
+>abstract="ステータス、コレクション修飾子、日付、チャネルなどの条件を使用して、オファーを手動で洗濯してグループ化します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
 >title="静的コレクションのプレビュー"
->abstract="静的コレクションは、コレクションに含める個々のオファーを手動で選択して作成されます。コレクションにオファーを手動で追加した場合にのみ、コレクションを更新できます。"
+>abstract="静的コレクションは、コレクションに含める個々のオファーを手動で選択して作成されています。コレクションにオファーを手動で追加した場合にのみ、コレクションを更新できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"
