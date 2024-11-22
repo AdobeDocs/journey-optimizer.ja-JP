@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 * **連合オーディエンス構成**：既存のデータウェアハウスからデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで作成および強化できます。[連合オーディエンス構成](https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home)に関するガイドを参照してください。
 
-[!DNL Journey Optimizer] でのカスタムアップロードおよび Federated Audience Composition オーディエンスの使用について詳しくは、[ この節 ](custom-upload-fac.md) を参照してください。
+[!DNL Journey Optimizer] でのカスタムアップロードおよび連合オーディエンス構成オーディエンスの使用について詳しくは、[この節](custom-upload-fac.md)を参照してください。
 
 ## [!DNL Journey Optimizer] でのターゲットオーディエンス {#segments-in-journey-optimizer}
 

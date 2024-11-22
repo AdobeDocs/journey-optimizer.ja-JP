@@ -1,6 +1,6 @@
 ---
 title: 決定でのコンテキストデータの活用
-description: Decisioning でコンテキストデータを活用する方法を説明します
+description: 決定でコンテキストデータを活用する方法を学ぶ
 feature: Decisioning
 topic: Integrations
 role: User
@@ -8,24 +8,24 @@ level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 決定でのコンテキストデータの活用 {#context}
 
-Decisioning を使用すると、Adobe Experience Platformで提供されている任意の情報を活用して、[ 決定ルール ](rules.md) または [ ランキング式 ](ranking.md) の作成などの様々なアクションを実行できます。 例えば、決定リクエストが行われた時点で現在の天気が 80 度以上であることを要求する決定ルールを設計できます。
+決定を使用すると、Adobe Experience Platform で利用可能な情報を活用して、[決定ルール](rules.md)や[ランキング式](ranking.md)の作成などの様々なアクションを実行できます。例えば、決定リクエストが行われた時点で現在の天気が 80 度以上であることを要求する決定ルールを設計できます。
 
 >[!NOTE]
 >
 >コンテキストデータは、Adobe Experience Platform で定義され、決定リクエスト時に送信されます。履歴データは含まれません。
 
-コンテキストデータを使用するには、まず Decisioning で使用可能にするデータを定義する必要があります。 完了すると、このデータは、決定ルールの作成時に使用できる「**[!UICONTROL コンテキストデータ]**」タブの決定にシームレスに統合されます。 また、ランキング式を編集する際に、データを活用することもできます。
+コンテキストデータを使用するには、まず、決定で使用できるようにするデータを定義する必要があります。完了すると、このデータは決定ルールの作成時に使用できる「**[!UICONTROL コンテキストデータ]**」タブで決定にシームレスに統合されます。また、ランキング式を編集する際に、データを活用することもできます。
 
 ![](assets/decision-rules-context.png)
 
-Decisioning にAdobe Experience Platform データをフィードする手順は次のとおりです。
+決定に Adobe Experience Platform データをフィードする手順は、次のとおりです。
 
 1. Adobe Experience Platform で&#x200B;**エクスペリエンスイベントスキーマ**&#x200B;およびそれに関連する&#x200B;**データセット**&#x200B;を作成します。[スキーマの作成方法については、こちらを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
@@ -41,7 +41,7 @@ Decisioning にAdobe Experience Platform データをフィードする手順は
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-データストリームが保存されると、選択されたデータセットの情報が自動的に取得され、Decisioning に統合されます。通常、約 24 時間以内に使用可能になります。
+データストリームを保存すると、選択したデータセットの情報が自動的に取得されて決定に統合され、通常は約 24 時間以内に使用できるようになります。
 
 Adobe Experience Platform の操作方法に関する詳細なガイダンスについては、次のリソースを参照してください。
 

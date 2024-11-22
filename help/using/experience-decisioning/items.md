@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 決定項目を表示する対象を決定する条件を設定する場合は、決定項目を作成する前に、必ず&#x200B;**決定ルール**&#x200B;を作成してください。[決定ルールを作成する方法を学ぶ](rules.md)。
 
-決定項目を作成するには、**[!UICONTROL 決定]**/**[!UICONTROL カタログ]** に移動し、「**[!UICONTROL 項目を作成]**」をクリックして、以下の節で説明している手順に従います。
+決定項目を作成するには、**[!UICONTROL 決定]**／**[!UICONTROL カタログ]**&#x200B;に移動し、「**[!UICONTROL 項目を作成]**」をクリックして、以下の節で説明する手順に従います。
 
 ## 決定項目の属性を定義 {#attributes}
 

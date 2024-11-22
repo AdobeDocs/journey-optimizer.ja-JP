@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、パーソナライゼーションエディターを使用して必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
-   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。 選択可能なテンプレートは、事前に選択したチャネル設定に基づいてHTMLまたは JSON のいずれかにスコープ設定されます。 [ コンテンツテンプレートの使用方法を学ぶ ](../content-management/use-content-templates.md)
+   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。選択可能なテンプレートは、事前に選択したチャネル設定に基づいて、HTML または JSON のいずれかに限定されます。[詳しくは、コンテンツテンプレートの使用方法を参照してください。](../content-management/use-content-templates.md)
 
 1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
@@ -79,7 +79,7 @@ ht-degree: 94%
 
 1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
-   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。 選択可能なテンプレートは、事前に選択したチャネル設定に基づいてHTMLまたは JSON のいずれかにスコープ設定されます。 [ コンテンツテンプレートの使用方法を学ぶ ](../content-management/use-content-templates.md)
+   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。選択可能なテンプレートは、事前に選択したチャネル設定に基づいて、HTML または JSON のいずれかに限定されます。[詳しくは、コンテンツテンプレートの使用方法を参照してください。](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
@@ -115,7 +115,7 @@ ht-degree: 94%
 
    また、コードコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](../content-management/fragments.md#save-as-expression-fragment)
 
-1. コードベースのエクスペリエンスでは、判定機能を使用できます。 左側のバーから&#x200B;**[!UICONTROL 決定ポリシー]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。[詳細情報](../experience-decisioning/create-decision.md)
+1. コードベースのエクスペリエンスでは、決定機能を使用できます。左側のバーから&#x200B;**[!UICONTROL 決定ポリシー]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。[詳細情報](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 

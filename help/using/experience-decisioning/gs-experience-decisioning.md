@@ -1,5 +1,5 @@
 ---
-title: 意思決定の概要
+title: 決定の基本を学ぶ
 description: 決定の詳細情報
 feature: Decisioning
 topic: Integrations
@@ -9,17 +9,17 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 45%
+ht-degree: 56%
 
 ---
 
-# 意思決定の概要 {#get-started-experience-decisioning}
+# 決定の基本を学ぶ {#get-started-experience-decisioning}
 
 ## 決定とは {#about}
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった[新しいコードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。意思決定決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
+これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった[新しいコードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。決定の決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
 
 ## ガードレールと制限 {#guardrails}
 
@@ -43,9 +43,9 @@ ht-degree: 45%
 
 ## 決定の主な手順 {#steps}
 
-Decisioning を使用する主な手順は次のとおりです。
+決定を操作する主な手順は次のとおりです。
 
-1. **適切な権限を割り当て**&#x200B;ます。決定は、決定マネージャーなど、決定に関連する **[!UICONTROL 役割]** へのアクセス権を持つユーザーのみが使用できます。 Decisioning にアクセスできない場合は、権限を拡張する必要があります。
+1. **適切な権限を割り当て**&#x200B;ます。決定は、決定マネージャーなど、決定関連の&#x200B;**[!UICONTROL 役割]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。決定にアクセスできない場合は、権限を拡張する必要があります。
 
    +++決定マネージャーの役割の割り当て方法
 

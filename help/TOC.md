@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 97%
       + [コンテンツのプレビュー](using/content-management/preview.md)
       + [メール配達確認を送信](using/content-management/proofs.md)
       + [メールのレンダリングをテスト](using/content-management/rendering.md)
-      + [サンプル入力データを使用したコンテンツのテスト（Beta）](using/test-approve/simulate-sample-input.md)
+      + [サンプル入力データを使用したコンテンツのテスト（ベータ版）](using/test-approve/simulate-sample-input.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
    + ジャーニーとキャンペーンの承認{#approve}
       + [承認の基本を学ぶ](using/test-approve/gs-approval.md)
@@ -267,7 +267,7 @@ ht-degree: 97%
       + [Web エクスペリエンスの作成](using/web/create-web.md)
       + Web ページの作成 {#author-web-pages}
          + [Web デザイナーの操作](using/web/web-visual-editor.md)
-         + [非視覚的なエディターの使用](using/web/web-non-visual-editor.md)
+         + [非ビジュアルエディターの使用](using/web/web-non-visual-editor.md)
          + [変更の管理](using/web/manage-web-modifications.md)
          + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
          + [シングルページアプリケーションの作成](using/web/web-spa.md)
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-      + [パーソナライゼーションへのAdobe Experience Platform データの使用（Beta）](using/personalization/lookup-aep-data.md)
+      + [Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）](using/personalization/lookup-aep-data.md)
       + パーソナライゼーションエディターの操作 {#expression-editor}
          + [パーソナライゼーションエディターについて](using/personalization/personalization-build-expressions.md)
          + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
@@ -368,7 +368,7 @@ ht-degree: 97%
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
-      + [カスタムアップロード（CSV）と Federated Audience Composition](using/audience/custom-upload-fac.md)
+      + [カスタムアップロード（CSV）と連合オーディエンス構成](using/audience/custom-upload-fac.md)
       + [セグメント定義の作成](using/audience/creating-a-segment-definition.md)
       + オーディエンスの作成 {#audience-orchestration}
          + [オーディエンス構成の基本を学ぶ](using/audience/get-started-audience-orchestration.md)
@@ -451,7 +451,7 @@ ht-degree: 97%
 + 決定機能 {#decisioning}
    + [意思決定機能の概要](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
-      + [意思決定の概要](using/experience-decisioning/gs-experience-decisioning.md)
+      + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + API リファレンス{#api-reference}
          + 決定項目{#decision-items}
             + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)

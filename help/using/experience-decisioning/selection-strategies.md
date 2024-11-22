@@ -9,7 +9,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 ## 選択戦略へのアクセスと管理
 
-1. **[!UICONTROL 決定]**/**[!UICONTROL 戦略設定]**/**[!UICONTROL 選択戦略]** に移動します。
+1. **[!UICONTROL 決定]**／**[!UICONTROL 戦略設定]**／**[!UICONTROL 選択戦略]**&#x200B;に移動します。
 
 1. これまでに作成した選択戦略がすべてリストされます。ランキングメソッドに従って戦略を取得するのに役立つフィルターを使用できます。
 

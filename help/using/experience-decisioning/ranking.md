@@ -9,7 +9,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 47%
+ht-degree: 87%
 
 ---
 
@@ -55,25 +55,25 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->この機能は、管理者権限を持つ [!DNL Customer Journey Analytics] 顧客のみが使用できます。
+>この機能は、管理者権限を持つ [!DNL Customer Journey Analytics] のお客様のみが使用可能です。
 >
->開始する前に、Journey Optimizer データセットをデフォルトのデータビューに書き出すために、Journey OptimizerとCustomer Journey Analyticsが統合されていることを確認してください。 [ でデータを活用する方法  [!DNL Journey Optmizer]  学ぶ  [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
+>開始する前に、Journey Optimizer データセットをデフォルトのデータビューに書き出すために、Journey Optimizer と Customer Journey Analytics が統合済みであることを確認してください。[詳しくは、 [!DNL Customer Journey Analytics]](../reports/cja-ajo.md) で  [!DNL Journey Optmizer]  データを活用する方法を参照してください
 
-パーソナライズされた最適化モデルは、ビジネス目標を定義し、顧客データを活用して、パーソナライズされたオファーを提供し、KPI を最大化するためのビジネス指向モデルをトレーニングできる AI モデルの一種です。 パーソナライズされた AI モデルを作成する方法について詳しくは、[ 意思決定管理ドキュメント ](../offers/ranking/personalized-optimization-model.md) を参照してください。
+パーソナライズされた最適化モデルは、ビジネス目標を定義し、顧客データを活用して、パーソナライズされたオファーを提供し、KPI を最大化するためのビジネス指向モデルをトレーニングできる AI モデルのタイプです。パーソナライズされた AI モデルを作成する方法について詳しくは、[意思決定管理ドキュメント](../offers/ranking/personalized-optimization-model.md)を参照してください。
 
-デフォルトでは、パーソナライズされた最適化モデルは、最適化指標として **オファークリック数** を使用します。 [!DNL Customer Journey Analytics] を使用している場合は、独自のカスタム指標 [!DNL Decisioning] 活用してモデルを最適化できます。
+デフォルトでは、パーソナライズされた最適化モデルは、最適化指標として&#x200B;**オファーのクリック数**&#x200B;を使用します。[!DNL Customer Journey Analytics] を操作している場合、[!DNL Decisioning] を使用すると、独自のカスタム指標を活用して、モデルを最適化できます。
 
-これを行うには、パーソナライズされた AI モデル作成画面にアクセスし、「**[!UICONTROL コンバージョンイベント]**」ドロップダウンを展開します。 デフォルトの [!DNL Customer Journey Analytics] データビュー [ のすべての指標 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} リストに表示されます。 モデルを最適化する指標を選択し、通常どおり AI モデルの作成を完了します。
+これを行うには、パーソナライズされた AI モデル作成画面にアクセスし、**[!UICONTROL コンバージョンイベント]**&#x200B;ドロップダウンを展開します。デフォルトの [!DNL Customer Journey Analytics] [データビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}のすべての指標がリストに表示されます。モデルを最適化する指標を選択し、通常どおり AI モデルの作成を完了します。
 
 ![](assets/ai-ranking-custom-metrics.png)
 
 >[!NOTE]
 >
->デフォルトでは、[!DNL Customer Journey Analytics] の指標は「ラストタッチ」アトリビューションモデルを使用し、コンバージョンの直前に発生したタッチポイントにクレジットの 100% を割り当てます。
+>デフォルトでは、[!DNL Customer Journey Analytics] の指標には「ラストタッチ」アトリビューションモデルを使用します。このモデルでは、コンバージョンの直前に発生したタッチポイントに 100％のクレジットが割り当てられます。
 >
->アトリビューションモデルは変更できますが、すべてのアトリビューションモデルが AI モデルの最適化に最適とは限りません。 モデルの精度とパフォーマンスを確保するために、最適化目標に合ったアトリビューションモデルを慎重に選択することをお勧めします。
+>アトリビューションモデルを変更することは可能ですが、すべてのアトリビューションモデルが AI モデルの最適化に最適であるわけではありません。モデルの精度とパフォーマンスを確保するために、最適化目標に合ったアトリビューションモデルを慎重に選択することをお勧めします。
 >
->使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"} を参照してください。
+>使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}を参照してください。
 
 +++
 
