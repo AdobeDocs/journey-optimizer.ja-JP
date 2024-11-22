@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 71%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 ## テキストメッセージのプレビュー {#preview-sms}
 
-メッセージコンテンツを定義したら、テストプロファイルを使用してコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+メッセージコンテンツを定義したら、CSV/JSON ファイルからアップロードされたテストプロファイルやサンプル入力データを使用したり、手動で追加してコンテンツをプレビューしたりできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを確認できます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
 
-これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加し、テストプロファイルデータを使用してメッセージを確認します。
+それには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルデータを使用してメッセージを確認します。
 
 ![](assets/sms_preview_2.png)
 
-テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
+コンテンツのプレビューおよびテスト方法について詳しくは、「[ コンテンツ管理 ](../content-management/preview-test.md)」セクションを参照してください。
 
 ## コンテンツの検証 {#sms-validate}
 

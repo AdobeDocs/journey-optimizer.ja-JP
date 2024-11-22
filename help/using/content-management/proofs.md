@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,11 @@ ht-degree: 100%
 
 配達確認は、メッセージをメインオーディエンスに送信する前にテストできる、特定のメッセージです。配達確認の受信者は、メッセージのレンダリング、コンテンツ、パーソナライゼーションの設定、構成などを確認します。
 
-[テストプロファイル](test-profiles.md)を選択すると、配達確認を送信できるようになります。
+>[!NOTE]
+>
+>[!DNL Journey optimizer] た、CSV/JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、配達確認を送信することで、テストすることもできます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
+
+[ テストプロファイル ](test-profiles.md) を選択した後にメール配達確認を送信するには、次の手順に従います。
 
 1. **[!UICONTROL シミュレート]**&#x200B;画面で、「**[!UICONTROL 配達確認を送信]**」ボタンをクリックします。
 

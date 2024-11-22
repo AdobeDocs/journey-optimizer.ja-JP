@@ -9,16 +9,20 @@ role: User, Data Engineer
 level: Intermediate
 keywords: テストプロファイル, テスト, テスト, ジャーニー
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 100%
+source-wordcount: '1367'
+ht-degree: 97%
 
 ---
 
 # テストプロファイルの作成 {#create-test-profiles}
 
 ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../content-management/preview-test.md)には、テストプロファイルが必要です。
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer] た、CSV/JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、配達確認を送信することで、テストすることもできます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 

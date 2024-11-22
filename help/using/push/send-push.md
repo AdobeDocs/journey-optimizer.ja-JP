@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 ## プッシュ通知のプレビュー {#preview-push}
 
-メッセージコンテンツを定義したら、テストプロファイルを使用してコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+メッセージコンテンツを定義したら、CSV/JSON ファイルからアップロードされたテストプロファイルやサンプル入力データを使用したり、手動で追加してコンテンツをプレビューしたりできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを確認できます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
 
-これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加します。コンテンツをプレビューするデバイスの種類を **[!UICONTROL iOS]** または **[!UICONTROL Android]** から選択します。
+それには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。 コンテンツをプレビューするデバイスの種類を **[!UICONTROL iOS]** または **[!UICONTROL Android]** から選択します。
 
 ![](assets/push_preview_3.png)
 
-テストプロファイルの選択およびコンテンツのプレビュー方法に関する詳細な情報は、「[コンテンツ管理](../content-management/preview-test.md)」セクションに表示されます。
+コンテンツのプレビューおよびテスト方法について詳しくは、「[ コンテンツ管理 ](../content-management/preview-test.md)」セクションを参照してください。
 
 ## プッシュ通知の検証 {#push-validate}
 

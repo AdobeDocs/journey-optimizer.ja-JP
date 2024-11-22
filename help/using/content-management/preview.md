@@ -5,18 +5,24 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
-workflow-type: ht
-source-wordcount: '213'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 75%
 
 ---
 
-# コンテンツの確認 {#preview}
+# テストプロファイルを使用したコンテンツのプレビュー {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-[テストプロファイル](test-profiles.md)を定義すると、コンテンツをプレビューできます。次の手順に従います。
+[ テストプロファイル ](test-profiles.md) を定義すると、コンテンツをプレビューできます。
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer] た、CSV/JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、配達確認を送信することで、テストすることもできます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
+
+テストプロファイルを使用してコンテンツをプレビューするには、次の手順に従います。
 
 1. メッセージのコンテンツを編集画面または E メールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 

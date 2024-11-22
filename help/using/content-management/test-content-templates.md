@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 82%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->現在、メールコンテンツテンプレートをテストする際の追跡はサポートされていません。つまり、テンプレートから送信される配達確認で、イベント、UTM パラメーター、ランディングページリンクの追跡が有効になりません。追跡をテストするには、メールで[コンテンツテンプレートを使用](../email/use-email-templates.md)し、[配達確認を送信](../content-management/preview-test.md#send-proofs)します。
+>現在、メールコンテンツテンプレートをテストする際の追跡はサポートされていません。つまり、テンプレートから送信される配達確認で、イベント、UTM パラメーター、ランディングページリンクの追跡が有効になりません。トラッキングをテストするには、メールで [ コンテンツテンプレートを使用 ](../email/use-email-templates.md) し、テストプロファイルまたは CSV/JSON ファイルからアップロードされたサンプル入力データを使用して配達確認を送信するか、手動で追加します。 [ コンテンツのプレビューとテストの方法を学ぶ ](../content-management/preview-test.md)

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 40%
+source-wordcount: '1235'
+ht-degree: 38%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 40%
 <div align="center"><a href="../content-card/create-content-card.md"><strong> コンテンツカード </strong></a></div></td>
 </tr></table>
 
-コンテンツを定義したら、**[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンを使用して、テストプロファイルを使用してコンテンツをプレビューおよびテストします[詳細情報](../content-management/preview-test.md)。キャンペーンの作成画面に戻るには、左矢印をクリックします。
+コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、テストプロファイルや CSV/JSON ファイルからアップロードしたサンプル入力データまたは手動で追加したサンプル入力データで、コンテンツをプレビューおよびテストします。 [詳細情報](../content-management/preview-test.md)。キャンペーンの作成画面に戻るには、左矢印をクリックします。
 
 ![](assets/create-campaign-design.png)
 
