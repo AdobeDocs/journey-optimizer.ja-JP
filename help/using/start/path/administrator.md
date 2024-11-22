@@ -7,35 +7,33 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 68%
 
 ---
 
 # システム管理者向けの基礎知識 {#get-started-sys-admins}
 
-[!DNL Adobe Journey Optimizer] の使用を開始する前に、環境の準備にいくつかの手順が必要です。[データエンジニア](data-engineer.md)と[ジャーニー実務担当者](marketer.md)が [!DNL Adobe Journey Optimizer] で作業を開始できるように、これらの手順を実行する必要があります。
+[!DNL Adobe Journey Optimizer] の使用を開始する前に、環境の準備にいくつかの手順が必要です。[ データエンジニア ](data-engineer.md) と [ジャーニー実務担当者 ](marketer.md) が [!DNL Adobe Journey Optimizer] の作業を開始できるように、これらの手順を実行する必要があります。
 
+**システム管理者** は、サンドボックス管理とチャネル設定のために **役割について理解し、権限を割り当てる** 必要があります。 また、サンドボックスをセットアップし、使用可能な役割のためにそれらを管理する必要があります。 その後、チームメンバーを役割に割り当てることができます。
 
-**システム管理者**&#x200B;は、サンドボックス管理とチャネル設定のために&#x200B;**製品プロファイルを把握し権限を割り当てる**&#x200B;必要があります。また、サンドボックスをセットアップし、使用可能な製品プロファイル用にサンドボックスを管理する必要もあります。その後で、チームメンバーを製品プロファイルに割り当てることができます。
-
-これらの機能は、Admin Console にアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。[Adobe Admin Console の詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html){target="_blank"}。
+これらの機能は、権限製品にアクセスできる **[!UICONTROL 製品管理者]** が管理できます。 [ 権限の詳細情報 ](../../administration/permissions.md){target="_blank"}。
 
 アクセス管理については、次のページを参照してください。
 
 1. **サンドボックスを作成**&#x200B;して、インスタンスを個別の独立した仮想環境に分割します。**サンドボックス** は、[!DNL Journey Optimizer] で作成します。詳しくは、[サンドボックス](../../administration/sandboxes.md)の節を参照してください。
 
    >[!NOTE]
-   >**システム管理者**&#x200B;として、[!DNL Journey Optimizer] に&#x200B;**[!UICONTROL サンドボックス]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){target="_blank"} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
-   >
+   >**システム管理者** の [!DNL Journey Optimizer] に **[!UICONTROL サンドボックス]** メニューが表示されない場合は、権限を更新する必要があります。 役割を更新する方法については、[ このページ ](../../administration/permissions.md#edit-product-profile) を参照してください。
 
-1. **製品プロファイルを把握**&#x200B;します。製品プロファイルは、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできるようにするための単一権限のセットです。詳しくは、[標準の製品プロファイル](../../administration/ootb-product-profiles.md)の節を参照してください。
+1. **役割について**。 役割は、インターフェイス内の特定の機能やオブジェクトへユーザーがアクセスできる単一権限のセットです。 詳しくは、[ 標準の役割 ](../../administration/ootb-product-profiles.md) の節を参照してください。
 
-1. **サンドボックス**&#x200B;を含む製品プロファイルの&#x200B;**権限を設定**&#x200B;します。次に、チームメンバーを様々な製品プロファイルに割り当てることで、それらの製品プロファイルへのアクセス権をチームメンバーに付与します。この手順は、[Admin Console](https://adminconsole.adobe.com/){target="_blank"} で実行します。権限は、**[!UICONTROL 製品プロファイル]**&#x200B;に割り当てる許可を定義できる単一の権利です。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
+1. **サンドボックス** などの役割の **権限を設定** し、チームメンバーを様々な役割に割り当てることで、それらの役割へのアクセス権をチームメンバーに付与します。 権限は、（役割 **[!UICONTROL に割り当てる許可を定義できる単一の権利]** す。 各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
 
-さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials Consumer Users** または／および **Assets Essentials Users** の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
+さらに、Assets Essentialsへのアクセスを必要とするユーザーを **Assets Essentialsコンシューマーユーザー** または **Assets Essentialsユーザー** の役割に追加する必要があります。 詳しくは、[Assets Essentials のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
 
 >[!NOTE]
 >2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}の節をご覧ください。
@@ -45,7 +43,7 @@ ht-degree: 100%
 ジャーニーを作成しメッセージを送信できるようにするには、**管理**&#x200B;メニューにアクセスします。**[!UICONTROL チャネル]**&#x200B;メニューを参照し、メッセージとチャネル設定（メッセージプリセットなど）を設定します。
 
 >[!NOTE]
->**システム管理者**&#x200B;として、[!DNL Journey Optimizer] に&#x200B;**[!UICONTROL チャネル]**&#x200B;メニューが表示されない場合は、[Admin Console](https://adminconsole.adobe.com/){target="_blank"} で権限を更新してください。製品プロファイルを更新する方法については、[このページ](../../administration/permissions.md#edit-product-profile)を参照してください。
+>**システム管理者** の [!DNL Journey Optimizer] に **[!UICONTROL チャネル]** メニューが表示されない場合は、[ 権限 ](../../administration/permissions.md){target="_blank"} 製品で権限を更新してください。
 >
 
 以下の手順に従います。
