@@ -11,7 +11,7 @@ keywords: メッセージ, 頻度, ルール, プレッシャー
 badge: label="限定提供"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
