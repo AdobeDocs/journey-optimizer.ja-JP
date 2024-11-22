@@ -5,7 +5,7 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 56%
@@ -20,7 +20,7 @@ ht-degree: 56%
 >id="ajo_admin_surface_uri"
 >title="コンポーネント用のサーフェス URI を追加"
 >abstract="実装が web、iOS、Android 向けでない場合、または特定の URI をターゲットにする必要がある場合は、サーフェス URI を入力します。これは、エクスペリエンスを配信するエンティティを指す一意の ID です。独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
 
 コードベースのエクスペリエンス **サーフェス** は、ユーザーまたはシステムインタラクション用に設計された任意のエンティティで、[URI](#surface-uri) によって一意に識別されます。 サーフェスは、[ アプリケーション実装 ](code-based-prerequisites.md#implementation-prerequisites) で指定され、[ コードベースのエクスペリエンスチャネル設定 ](code-based-configuration.md) で参照されるサーフェスと一致する必要があります。
 
