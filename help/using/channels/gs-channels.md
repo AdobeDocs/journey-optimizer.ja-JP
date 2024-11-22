@@ -5,17 +5,15 @@ title: ' [!DNL Adobe Journey Optimizer] の通信チャネルの基本を学ぶ'
 description: ' [!DNL Adobe Journey Optimizer]  通信チャネルの操作方法を説明します。'
 role: User
 level: Beginner
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
+source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
 
-
 # [!DNL Adobe Journey Optimizer] 通信チャネルの基本を学ぶ {#get-started-email}
-
-## [!DNL Adobe Journey Optimizer] チャネル {#overview}
 
 今日の動的なマーケティング環境では、永続的な関係を構築しエンゲージメントを促進するために、様々なプラットフォームをまたいで効果的にオーディエンスにリーチすることが不可欠です。 この節では、[!DNL Adobe Journey Optimizer] で使用可能なコミュニケーションチャネルの包括的な概要を説明します。各チャネルをマーケティング戦略で効果的に活用する方法を理解するのに役立ちます。
 
