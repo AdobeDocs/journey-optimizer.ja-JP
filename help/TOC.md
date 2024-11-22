@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 99%
+source-wordcount: '2185'
+ht-degree: 98%
 
 ---
 
@@ -273,10 +273,15 @@ ht-degree: 99%
          + [シングルページアプリケーションの作成](using/web/web-spa.md)
    + コードベースのエクスペリエンス {#code-based-experience}
       + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
-      + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
-      + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
-      + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
-      + [コードベースエクスペリエンスを作成](using/code-based/create-code-based.md)
+      + コードベースのチャネルリク {#configure-code-based-channel} ストの設定
+         + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
+         + [コードベースのエクスペリエンスサーフェス](using/code-based/code-based-surface.md)
+         + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
+         + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
+      + でのコードベースのエクスペリエンス {#create-code-based-experiences} 作成
+         + [コードベースのエクスペリエンスの作成と作成](using/code-based/create-code-based.md)
+         + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
+         + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
    + コンテンツカード{#content-card}
       + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
       + コンテンツカードチャネルの設定 {#configure}

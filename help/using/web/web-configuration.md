@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
-workflow-type: ht
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -67,7 +67,11 @@ Web または[コードベースのエクスペリエンス](../code-based/get-s
 
 1. [Web](#web-configuration) または[コードベースのエクスペリエンス](../code-based/code-based-configuration.md)を設定する際は、「**[!UICONTROL ルールに一致するページ]**」を選択します。
 
-1. 「**[!UICONTROL ドメイン]**」フィールドと「**[!UICONTROL ページ]**」フィールドの条件を定義します。使用可能な演算子について詳しくは、[この節](#available-operators)を参照してください。
+1. 「**[!UICONTROL ドメイン]**」フィールドと「**[!UICONTROL ページ]**」フィールドの条件を定義します。
+
+   >[!NOTE]
+   >
+   >使用可能な演算子について詳しくは、[この節](#available-operators)を参照してください。
 
    例えば、Luma web サイトのすべての女性向け製品ページに表示される要素を編集する場合は、**[!UICONTROL ドメイン]**／**[!UICONTROL 次で始まる]**／`luma` および&#x200B;**[!UICONTROL ページ]**／**[!UICONTROL 次を含む]**／`women` を選択します。
 

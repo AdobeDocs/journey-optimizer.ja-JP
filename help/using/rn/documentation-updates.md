@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '5736'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
 * **コードベースのエクスペリエンスの設定**&#x200B;ページが改善され、サーフェス URI の概要を説明する節など、プロセスがより明確になりました。[詳細情報](../code-based/code-based-configuration.md)
 * **Web チャネル設定の作成**&#x200B;ページが更新され、コードベースのエクスペリエンス設定にも適用されるページ一致ルールを作成する手順が明確になりました。[詳細情報](../web/web-configuration.md#web-page-matching-rule)
 * システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。[詳細情報](../data/get-started-datasets.md)
-* ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。[詳細情報](../code-based/create-code-based.md#preview-on-device)
+* ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。[詳細情報](../code-based/test-code-based.md#preview-on-device)
 * 決定のカスタムアップロードオーディエンスの活用方法に関する新しいページが追加されました。[詳細情報](../offers/custom-upload-decisioning.md)
 * Journey Optimizerで利用できる意思決定機能を紹介する新しいページが追加されました。 [詳細情報](../experience-decisioning/gs-decision.md)
 * ガードレールと制限が決定ドキュメントに追加されました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md#guardrails)

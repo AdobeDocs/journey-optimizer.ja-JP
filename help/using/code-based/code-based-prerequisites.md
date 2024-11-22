@@ -6,14 +6,14 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 83%
 
 ---
 
-# ガードレールと前提条件 {#web-prerequisites}
+# ガードレールと前提条件 {#code-based-prerequisites}
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 
@@ -21,11 +21,15 @@ ht-degree: 100%
 
 * コードベースエクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)を参照して、Adobe Experience Platform の設定を定義します。
 
+* コードベースのエクスペリエンスレポートにデータを表示できるようにするには、必ず次の [ レポートの前提条件 ](#reporting-prerequisites) に従ってください。
+
+* [ コードベースのエクスペリエンスチャネル設定 ](code-based-configuration.md) を作成する場合は、独自の実装で宣言されたものと一致する文字列/パスまたはサーフェス URI を入力してください。 これにより、指定したアプリまたはページ内の目的の場所にコンテンツが配信されます。 そうしないと、変更を配信できません。 [詳細情報](code-based-surface.md)
+
 ## 実装の前提条件 {#implementation-prerequisites}
 
 コードベースのエクスペリエンスは、以下のオプションに示すように、あらゆるタイプの顧客実装をサポートします。プロパティには、クライアントサイド、サーバーサイドまたはハイブリッド実装のいずれかの方法を使用できます。
 
-* クライアントサイドのみ - web ページやモバイルアプリに変更を追加するには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を web サイトに実装するか、[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} をモバイルアプリに実装する必要があります。
+* クライアントサイドのみ – web ページやモバイルアプリに変更を加えるには、web サイトに [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装するか、モバイルアプリに [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} を実装する必要があります。
 
 * ハイブリッドモード - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用して、サーバーサイドでパーソナライゼーションをリクエストできます。応答は Adobe Experience Platform Web SDK に提供され、クライアントサイドで変更がレンダリングされます。詳しくは、Adobe Experience Platform [Edge Network Server API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}を参照してください。ハイブリッドモードの詳細と実装サンプルについて詳しくは、[このブログ投稿](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}を参照してください。
 
@@ -55,7 +59,7 @@ ht-degree: 100%
 
   [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
-## レポーティングの前提条件 {#experiment-prerequisites}
+## レポーティングの前提条件 {#reporting-prerequisites}
 
 コードベースチャネルのレポーティングを有効にするには、アプリ実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)もレポーティング設定に含まれていることを確認する必要があります。
 

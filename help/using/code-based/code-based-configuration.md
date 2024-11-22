@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
+source-wordcount: '1073'
+ht-degree: 93%
 
 ---
 
@@ -104,11 +104,15 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 1. プレビュー URL には、次の内容が適用されます。
 
    * 単一ページの URL を入力した場合は、その URL がプレビューに使用されます。別の URL を入力する必要はありません。
-   * [ルールに一致するページ](../web/web-configuration.md#web-page-matching-rule)を選択した場合は、ブラウザーでエクスペリエンスをプレビューするのに使用される&#x200B;**[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力する必要があります。[詳細情報](../code-based/create-code-based.md#preview-on-device)
+   * [ ルールに一致するページ ](../web/web-configuration.md#web-page-matching-rule) が選択されている場合、ブラウザーでエクスペリエンスをプレビューするために使用される **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力する必要があります。 [詳細情報](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
 1. 「**[!UICONTROL ページ上の場所]**」フィールドでは、ユーザーのアクセスを許可するページ内の正確な宛先を指定します。これは、「ヒーローバナー」や「製品パネル」など、サイトのナビゲーション構造内のページ上の特定のセクションである場合があります。
+
+   >[!CAUTION]
+   >
+   >このフィールドに入力する文字列またはパスは、アプリまたはページの実装で宣言されたものと一致する必要があります。 これにより、指定したアプリまたはページ内の目的の場所にコンテンツが配信されます。 [詳細情報](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -132,7 +136,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
    ![](assets/code_config_3.png)
 
-1. デバイスでのプレビューを有効にするには、「**[!UICONTROL プレビュー URL]**」フィールドに入力します。この URL は、デバイスでプレビューをトリガーする際に使用する特定の URL をプレビューサービスに通知します。[詳細情報](../code-based/create-code-based.md#preview-on-device)
+1. デバイスでのプレビューを有効にするには、「**[!UICONTROL プレビュー URL]**」フィールドに入力します。この URL は、デバイスでプレビューをトリガーする際に使用する特定の URL をプレビューサービスに通知します。[詳細情報](test-code-based.md#preview-on-device)
 
    プレビュー URL は、アプリ開発者がアプリ内で設定するディープリンクです。これにより、ディープリンクスキームに一致する URL がモバイル web ブラウザーではなくアプリ内で開かれます。アプリに設定されているディープリンクスキームを取得するには、アプリ開発者にお問い合わせください。
 
@@ -160,73 +164,16 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
 1. 実装が web、iOS、または Android 向けではない場合や、特定の URI をターゲットにする必要がある場合は、プラットフォームとして「**[!UICONTROL その他]**」を選択します。
 
-1. **[!UICONTROL サーフェス URI]** を入力します。サーフェス URI は、エクスペリエンスを配信するエンティティに対応する一意の ID です。[詳細情報](#surface-definition)
+1. **[!UICONTROL サーフェス URI]** を入力します。サーフェス URI は、エクスペリエンスを配信するエンティティに対応する一意の ID です。[詳細情報](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。それ以外の場合は、変更を配信できません。
+   >独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。そうしないと、変更を配信できません。 [詳細情報](code-based-surface.md#uri-composition)
 
 1. 必要に応じて、**[!UICONTROL 別のサーフェス URI を追加します]**。最大 10 個の URI を追加できます。
 
    >[!NOTE]
    >
    >複数の URI を追加すると、リストされたすべてのコンポーネントにコンテンツが配信されます。
-
-## サーフェスとは {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="コンポーネント用のサーフェス URI を追加"
->abstract="実装が web、iOS、Android 向けでない場合、または特定の URI をターゲットにする必要がある場合は、サーフェス URI を入力します。これは、エクスペリエンスを配信するエンティティを指す一意の ID です。独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
-
-コードベースのエクスペリエンス&#x200B;**サーフェス**&#x200B;とは、ユーザーやシステムの操作用に設計されたエンティティで、**URI** によって一意に識別されます。サーフェスは、アプリケーション実装で指定され、コードベースのエクスペリエンスチャネル設定で参照されるサーフェスと一致する必要があります。
-
-サーフェスは、エンティティ（タッチポイント）が存在する階層の任意のレベルのコンテナと見なすことができます。
-
-* Web ページ、モバイルアプリ、デスクトップアプリ、大きなエンティティ内の特定のコンテンツの場所（`div` など）または非標準の表示パターン（キオスクやデスクトップアプリのバナーなど）が考えられます。<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* また、非表示または抽象された表示を目的として、コンテンツ コンテナの特定の部分に拡張することもできます（サービスに配信される JSON BLOB など）。
-
-* また、様々なクライアントサーフェス定義に一致するワイルドカードサーフェスにすることもできます（例えば、web サイトの各ページのヒーロー画像の場所を web://mydomain.com/*#hero_image のようなサーフェス URI に変換できます）。
-
-コードベースのエクスペリエンスチャネル設定を作成する際、選択したプラットフォームに応じてサーフェスを指定するには、次の 2 つの方法があります。
-
-* **[!UICONTROL Web]**、**[!UICONTROL iOS]**、**[!UICONTROL Android]** プラットフォームの場合、サーフェスを構成するには、**場所またはパス**&#x200B;を入力する必要があります。
-
-* プラットフォームが&#x200B;**[!UICONTROL その他]**&#x200B;の場合は、以下の例のように、完全な&#x200B;**サーフェス URI** を入力する必要があります。
-
-サーフェス URI は、アプリケーション内の個別のユーザーインターフェイス要素またはコンポーネントを指す正確な識別子として機能します。基本的に、サーフェス URI は複数のセクションで構成されます。
-
-1. **タイプ**：web、mobileapp、atm、kiosk、tvcd、service など。
-1. **プロパティ**：ページ URL またはアプリバンドル
-1. **コンテナ**：ページ／アプリアクティビティ上の場所
-
-次の表に、様々なデバイスのサーフェス URI 定義の例を示します。
-
-**Web およびモバイル**
-
-| タイプ | URI | 説明 |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | 特定のドメインの特定のページ内の個々の要素を表します。要素は、次の例のようなラベル（hero_banner、top_nav、menu、footer など）にすることができます。 |
-| iOS アプリ | `mobileapp://com.vendor.bundle/activity#element` | ボタンや他のビュー要素など、ネイティブアプリアクティビティ内の特定の要素を表します。 |
-| Android アプリ | `mobileapp://com.vendor.bundle/#element` | ネイティブアプリ内の特定の要素を表します。 |
-
-**その他のデバイスタイプ**
-
-| タイプ | URI | 説明 |
-| --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | ボタン、メニュー、ヒーローバナーなど、アプリケーション内の特定の要素を表します。 |
-| TV アプリ | `tvcd://com.vendor.bundle/#element` | スマート TV または TV 接続デバイスアプリ内の特定の要素（バンドル ID）を表します。 |
-| サービス | `service://servicename/#element` | サーバーサイドのプロセスまたは他の手動エンティティを表します。 |
-| キオスク | `kiosk://location/screen#element` | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
-| ATM | `atm://location/screen#element` | 容易に追加できる、潜在的な追加サーフェスタイプの例。 |
-
-**ワイルドカードサーフェス**
-
-| タイプ | URI | 説明 |
-| --------- | ----------- | ------- | 
-| ワイルドカード web | `wildcard:web://domain.com/*#element` | ワイルドカードサーフェス - 特定のドメインの下の各ページの個々の要素を表します。 |
-| ワイルドカード web | `wildcard:web://*domain.com/*#element` | ワイルドカードサーフェス - 「domain.com」で終わるすべてのドメインの各ページの個々の要素を表します。 |
