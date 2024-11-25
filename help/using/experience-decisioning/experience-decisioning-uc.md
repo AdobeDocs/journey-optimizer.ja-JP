@@ -5,7 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+hide: true
+hidefromtoc: true
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 77%
@@ -20,7 +22,7 @@ ht-degree: 77%
 
 まず、項目を作成してコレクションにグループ化し、ルールとランキング方法を設定する必要があります。これらの要素を使用すると、選択戦略を作成できます。
 
-1. **[!UICONTROL 決定]**/**[!UICONTROL カタログに移動し]** 複数の決定項目を作成します。 オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
+1. **[!UICONTROL 決定]**/**[!UICONTROL カタログ]** に移動し、複数の決定項目を作成します。 オーディエンスまたはルールを使用して制約を設定することで、各項目を特定のプロファイルのみに制限します。[詳細情報](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
