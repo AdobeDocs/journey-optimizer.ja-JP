@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
-workflow-type: ht
-source-wordcount: '1705'
-ht-degree: 100%
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 94%
 
 ---
 
@@ -30,29 +30,33 @@ ht-degree: 100%
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
-ランディングページのリストにアクセスするには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
+ランディングページのリストにアクセスするには、左のメニューから **[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]** を選択します。
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL ランディングページ]**&#x200B;のリストには、作成されたすべての項目が表示されます。ステータスや変更日に基づいてフィルター処理できます。
+**[!UICONTROL ランディングページ]**&#x200B;のリストには、作成されたすべての項目が表示されます。ステータス、変更日、タグに基づいてフィルター処理できます。
 
 ![](assets/lp_access-list-filter.png)
 
-このリストから、公開済みの項目の[ランディングページのライブレポート](../reports/lp-report-live.md)または[ランディングページのレポート](../reports/lp-report-global-cja.md)にアクセスできます。
-
-ランディングページの削除、複製および非公開も行えます。
-
->[!CAUTION]
->
->メッセージで参照されているランディングページを非公開にした場合、そのランディングページへのリンクが壊れ、エラーページが表示されます。
-
-ランディングページの横にある「...」をクリックして、目的のアクションを選択します。
+このリストから、様々なアクションにアクセスできます。 ランディングページの横にある「。..」をクリックし、目的のアクションを選択します。
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->[公開済み](#publish-landing-page)のランディングページは削除できません。削除するには、まず非公開にする必要があります。
+* 公開済みの項目については、[ ランディングページレポート ](../reports/lp-report-global-cja.md) または [ 過去 24 時間のライブレポート ](../reports/lp-report-live.md) にアクセスできます。
+
+* ランディングページは削除または複製できます。
+
+  >[!NOTE]
+  >
+  >[公開済み](#publish-landing-page)のランディングページは削除できません。削除するには、まず非公開にする必要があります。
+
+* 公開済みのランディングページを非公開にすることができます。
+
+  >[!CAUTION]
+  >
+  >メッセージで参照されているランディングページを非公開にした場合、そのランディングページへのリンクが壊れ、エラーページが表示されます。
+
+* ランディングページに関連付けられている [ タグ ](../start/search-filter-categorize.md#tags) を編集することもできます。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -279,11 +283,6 @@ ht-degree: 100%
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## ランディングページの公開 {#publish-landing-page}
