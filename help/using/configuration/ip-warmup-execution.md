@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 95%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >実行にエンゲージメント期間を適用しない場合は、「**[!UICONTROL 前回のエンゲージメント]**」フィールドに 0 を入力します。
 
-1. オーディエンスの実行を評価した後で、適格なプロファイルがターゲットのプロファイルよりも小さい場合に実行をキャンセルするには、「**[!UICONTROL エラーが発生した場合にアクティブ化された実行をキャンセル]**」オプションを選択します。その場合、実行は&#x200B;**[!UICONTROL 失敗]**&#x200B;ステータスになります。
+1. 「**[!UICONTROL エラーが発生した場合はアクティブ化された実行をキャンセル]**」オプションを選択して、オーディエンスがその実行で評価された後に適格プロファイルがターゲットプロファイルよりも少ない場合に実行をキャンセルします。
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   認定プロファイルの数がターゲットプロファイルの数と一致しない場合（例えば、実行でターゲットにする Gmail アドレスは 1500 個ですが、認定される Gmail プロファイルは 700 個のみです）:
+   認定プロファイルの数がターゲットプロファイルの数と一致しない場合（例えば、実行でターゲットにする Gmail アドレスは 1500 個ですが、認定された Gmail プロファイルは 700 個のみです）:
 
-   * このオプションが有効になっている場合は、実行が失敗します。 その後、次の実行でターゲットにするプロファイルを減らすか、新しいフェーズに [ 実行を分割 ](#split-phase) して新しいフェーズの新しいキャンペーンを選択して、同じプロファイルを再度ターゲットにすることができます。
+   * このオプションが有効な場合、実行は失敗し、実行は **[!UICONTROL 失敗]** ステータスになります。<!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * このオプションが有効になっていない場合、実行は実行されますが、ターゲットになるのは使用可能なプロファイルの数のみです。
 
