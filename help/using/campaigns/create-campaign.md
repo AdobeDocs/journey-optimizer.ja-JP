@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 38%
 
 開始する前に、[ このページ ](get-started-with-campaigns.md#before-starting-campaign-prerequisites) でキャンペーンの前提条件を確認してください。
 
-## キャンペーンタイプを選択 {#campaigntype}
+## キャンペーンタイプの選択 {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -49,7 +49,7 @@ ht-degree: 38%
 
 1. （オプション）「**タグ**」フィールドを使用して、Adobe Experience Platform統合タグをキャンペーンに割り当てます。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。[ タグの操作方法については、こちらを参照してください ](../start/search-filter-categorize.md#tags)。
 
-1. （任意）アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。 アクセス制限を追加するには、このページの上部にある **[!UICONTROL アクセスを管理]** ボタンを参照します。 権限のあるラベルのみを選択してください。 [ オブジェクトレベルのアクセス制御の詳細情報 ](../administration/object-based-access.md)。
+1. （任意）アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。 アクセス制限を追加するには、このページの上部にある「**[!UICONTROL アクセスを管理]**」ボタンを参照します。権限のあるラベルのみを選択してください。 [ オブジェクトレベルのアクセス制御の詳細情報 ](../administration/object-based-access.md)。
 
 ## キャンペーンオーディエンスの定義 {#audience}
 
@@ -143,7 +143,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="キャンペーンスケジュール"
->abstract="デフォルトでは、キャンペーンは手動によるアクティブ化で開始し、メッセージが 1 回送信された直後に終了します。 メッセージを送信する特定の日時を柔軟に設定できます。 さらに、繰り返しキャンペーンまたは API トリガーキャンペーンの終了日を指定できます。アクショントリガーでは、環境設定に応じてメッセージ送信頻度を設定することもできます。"
+>abstract="デフォルトでは、キャンペーンは手動でアクティブ化すると開始され、メッセージが 1 回送信されるとすぐに終了します。メッセージを送信する特定の日時を柔軟に設定できます。さらに、繰り返しキャンペーンまたは API トリガーキャンペーンの終了日を指定できます。アクショントリガーでは、環境設定に応じてメッセージ送信頻度を設定することもできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

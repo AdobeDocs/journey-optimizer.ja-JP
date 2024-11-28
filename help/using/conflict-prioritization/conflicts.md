@@ -1,18 +1,18 @@
 ---
 title: ジャーニーとキャンペーンの潜在的な競合の特定
-description: ジャーニーとキャンペーンで潜在的な競合を特定する方法を説明します。
+description: ジャーニーとキャンペーンの潜在的な競合の特定方法について説明します。
 role: User
 level: Beginner
 badge: label="限定提供"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
-
-# ジャーニーとキャンペーンで発生する可能性のある競合を検出 {#conflict}
+# ジャーニーとキャンペーンの潜在的な競合の検出 {#conflict}
 
 >[!AVAILABILITY]
 >
@@ -48,13 +48,13 @@ Journey Optimizer でキャンペーンとジャーニーの量を増やすに�
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
->title="潜在的な競合を表示"
->abstract="他のキャンペーンと重複する可能性があるかどうかを常に確認します。 競合は、ライブキャンペーンとスケジュール済みキャンペーンでのみ表示されます。 ボタンは、**[!UICONTROL 開始日/終了日]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL チャネル]**、**[!UICONTROL チャネル設定]**、**[!UICONTROL ルールセット]** のいずれかを割り当てるとすぐに使用できるようになります。"
+>title="潜在的な競合の表示"
+>abstract="他のキャンペーンと重複する可能性があるかどうかを常に確認します。競合は、ライブキャンペーンとスケジュール済みキャンペーンに対してのみ表示されます。ボタンは、**[!UICONTROL 開始日／終了日]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL チャネル]**、**[!UICONTROL チャネル設定]**、**[!UICONTROL ルールセット]**&#x200B;のいずれかの設定を割り当てるとすぐに使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="潜在的な競合を表示"
->abstract="他のジャーニーと重複する可能性があるかどうかを常に確認します。 競合は、ライブジャーニーとスケジュールされたジャーニーでのみ表示されます。 ボタンは、**[!UICONTROL 開始日/終了日]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL チャネル]**、**[!UICONTROL チャネル設定]**、**[!UICONTROL ルールセット]** のいずれかを割り当てるとすぐに使用できるようになります。"
+>title="潜在的な競合の表示"
+>abstract="他のジャーニーと重複する可能性があるかどうかを常に確認します。競合は、ライブジャーニーとスケジュール済みジャーニーに対してのみ表示されます。ボタンは、**[!UICONTROL 開始日／終了日]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL チャネル]**、**[!UICONTROL チャネル設定]**、**[!UICONTROL ルールセット]**&#x200B;のいずれかの設定を割り当てるとすぐに使用できます。"
 
 Journey Optimizer では、ジャーニーやキャンペーンをオーサリングする際、他のジャーニーやキャンペーンと重複する可能性があるかどうかを常に確認できます。それには、次の手順に従います。
 

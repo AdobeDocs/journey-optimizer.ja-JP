@@ -8,7 +8,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="ルールタイプ"
->abstract="ルールのキャッピングのタイプを指定します。 **[!UICONTROL ジャーニーのエントリキャップ]** は、プロファイルに対して指定された期間のジャーニーへのエントリ数を制限し、**[!UICONTROL ジャーニーの同時実行のキャップ]** は、プロファイルが同時に登録できるジャーニーの数を制限します。"
+>abstract="ルールのキャッピングのタイプを指定します。**[!UICONTROL ジャーニーのエントリキャップ]**&#x200B;は、プロファイルの特定の期間におけるジャーニーへのエントリ数を制限し、**[!UICONTROL ジャーニーの同時実行キャップ]**&#x200B;は、プロファイルを同時に登録できるジャーニーの数を制限します。"
 
 ジャーニーのキャッピングルールを作成するには、次の手順に従います。
 
