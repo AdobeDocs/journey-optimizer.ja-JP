@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 42%
@@ -60,7 +60,6 @@ ht-degree: 42%
 >* [オーディエンス構成](../audience/get-started-audience-orchestration.md)からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。
 >
 >* API トリガーキャンペーンの場合、オーディエンスは API 呼び出しを使用して設定する必要があります。
-
 
 スケジュールされたマーケティングキャンペーンのターゲットとなる母集団を定義するには、次の手順に従います。
 

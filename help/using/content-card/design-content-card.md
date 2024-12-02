@@ -1,11 +1,12 @@
 ---
 title: コンテンツカードのデザイン
 description: コンテンツカードコンテンツのデザイン方法について説明します。
-topic: Content Management
+topic: Content Management, Content Cards
 role: User
 level: Beginner
-source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
-workflow-type: ht
+exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 
