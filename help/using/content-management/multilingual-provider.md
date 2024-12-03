@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,10 @@ Adobe Journey Optimizer は、Adobe Journey Optimizer から独立して、機�
    ![](assets/provider_1.png)
 
 1. **[!UICONTROL プロバイダー]**&#x200B;ドロップダウンリストから、目的のプロバイダーを選択します。
+
+   >[!NOTE]
+   >
+   >リストにプロバイダーを追加するには、[ このドキュメント ](https://developer.adobe.com/gcs/partner/) に記載されている手順に従ってオンボーディングプロセスを完了するようにプロバイダーに依頼します。
 
    ![](assets/provider_2.png)
 
