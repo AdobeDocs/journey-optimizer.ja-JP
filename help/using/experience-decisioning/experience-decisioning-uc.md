@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 77%
+source-wordcount: '393'
+ht-degree: 67%
 
 ---
 
 # 決定のユースケース {#experience-decisioning-uc}
 
+特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうかは不明です。
+
 このユースケースでは、2 つの配信処理を定義してキャンペーンを作成します。それぞれに異なる決定ポリシーを含めることで、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信を測定します。
+
+次のように実験を設定します。
+
+* 最初の処理には、ランキング方法として優先される 1 つの選択戦略が含まれます。
+* 第 2 の処理は、式がランキング方法である異なる選択戦略を含む。
+
 
 ## 決定項目と選択戦略の作成
 
@@ -68,5 +77,3 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 1. **[!UICONTROL コンテンツを編集]** ウィンドウで、処理 B を選択してコンテンツを変更し、上記の手順を繰り返して別の決定を作成します。
 
 1. コンテンツを保存します。
-
-
