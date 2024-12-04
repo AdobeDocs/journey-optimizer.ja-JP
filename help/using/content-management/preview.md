@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 75%
 
 <!--## Preview your content {#preview-content}-->
 
-[ テストプロファイル ](test-profiles.md) を定義すると、コンテンツをプレビューできます。
+[テストプロファイル](test-profiles.md)を定義すると、コンテンツをプレビューできます。
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] た、CSV/JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、配達確認を送信することで、テストすることもできます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
+>また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを使用してコンテンツをプレビューするには、次の手順に従います。
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 91%
 
 例えば、決定項目のカタログスキーマに「カテゴリ」カスタム属性を追加したとします。これにより、「カテゴリ」属性に「ヨガ」の値を持つすべての決定項目を含むコレクションを作成できます。
 
-コレクションのリストには、**[!UICONTROL カタログ]** メニューからアクセスできます。
+コレクションのリストには、**[!UICONTROL カタログ]**&#x200B;メニューからアクセスできます。
 
 コレクションを作成するには、次の手順に従います。
 
-1. **[!UICONTROL カタログ]**/**[!UICONTROL コレクション]** に移動し、「**[!UICONTROL コレクションを作成]**」をクリックします。
+1. **[!UICONTROL カタログ]**／**[!UICONTROL コレクション]**&#x200B;に移動して、「**[!UICONTROL コレクションを作成]**」をクリックします。
 1. コレクションの名前と説明を入力します。
 1. 1 つまたは複数のルールを追加して、コレクションに含める項目を決定します。その手順は次のとおりです。
 
@@ -53,4 +53,4 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->各項目コレクションには、最大 500 個のオファー項目を含めることができます。 [ 決定ガードレールと制限の詳細を説明します ](gs-experience-decisioning.md#guardrails)。
+>各項目コレクションには、最大 500 個のオファー項目を含めることができます。[詳しくは、決定ガードレールと制限を参照してください](gs-experience-decisioning.md#guardrails)

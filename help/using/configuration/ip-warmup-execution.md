@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2589'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >このセクションは編集できません。
 
-1. 必要に応じて、「**[!UICONTROL 置換]**」ボタンを使用してキャンペーンを置き換えることができます。また、「**[!UICONTROL クリア]**」ボタンを使用して、選択したキャンペーンを&#x200B;**[!UICONTROL クリア]**&#x200B;することもできます。これにより、キャンペーンがクリアされるだけでなく、他のフェーズレベルのプロパティ（ドメイングループの除外、キャンペーン、ジャーニーの除外など）もクリアされます。 クリア後、新しいキャンペーンをすぐに選択することも、後で選択することもできます。
+1. 必要に応じて、「**[!UICONTROL 置換]**」ボタンを使用してキャンペーンを置き換えることができます。また、「**[!UICONTROL クリア]**」ボタンを使用して、選択したキャンペーンを&#x200B;**[!UICONTROL クリア]**&#x200B;することもできます。このアクションにより、キャンペーンだけでなく、ドメイングループの除外、キャンペーン、ジャーニーの除外など、その他のフェーズレベルのプロパティもクリアされます。クリア後、新しいキャンペーンをすぐに選択することも、後で選択することもできます。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -184,15 +184,15 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >実行にエンゲージメント期間を適用しない場合は、「**[!UICONTROL 前回のエンゲージメント]**」フィールドに 0 を入力します。
 
-1. 「**[!UICONTROL エラーが発生した場合はアクティブ化された実行をキャンセル]**」オプションを選択して、オーディエンスがその実行で評価された後に適格プロファイルがターゲットプロファイルよりも少ない場合に実行をキャンセルします。
+1. オーディエンスの実行を評価した後で、適格なプロファイルがターゲットプロファイルよりも小さい場合に実行をキャンセルするには、「**[!UICONTROL エラーが発生した場合にアクティブ化された実行をキャンセル]**」オプションを選択します。
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   認定プロファイルの数がターゲットプロファイルの数と一致しない場合（例えば、実行でターゲットにする Gmail アドレスは 1500 個ですが、認定された Gmail プロファイルは 700 個のみです）:
+   認定プロファイルの数がターゲットプロファイルの数と一致しない場合（例えば、実行でターゲットにする Gmail アドレスは 1500 個であるが、認定された Gmail プロファイルが 700 個しかない場合）：
 
-   * このオプションが有効な場合、実行は失敗し、実行は **[!UICONTROL 失敗]** ステータスになります。<!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
+   * このオプションを有効にすると、実行が失敗し、実行のステータスは&#x200B;**[!UICONTROL 失敗]**&#x200B;になります。<!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
-   * このオプションが有効になっていない場合、実行は実行されますが、ターゲットになるのは使用可能なプロファイルの数のみです。
+   * オプションが有効になっていない場合、実行は行われますが、ターゲットになるのは使用可能なプロファイルの数のみです。
 
 1. 実行を&#x200B;**[!UICONTROL アクティブ化]**&#x200B;します。[詳細情報](#activate-run)
 

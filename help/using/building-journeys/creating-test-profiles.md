@@ -10,9 +10,9 @@ level: Intermediate
 keywords: テストプロファイル, テスト, テスト, ジャーニー
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] た、CSV/JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、コンテンツの様々なバリアントをプレビューし、配達確認を送信することで、テストすることもできます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
+>また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 

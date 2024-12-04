@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 
 決定では、カタログは、決定項目を整理する中心的なコンテナとして機能します。各カタログは、決定項目に割り当て可能なすべての属性を含む、Adobe Experience Platform スキーマにリンクされます。
 
-現時点では、作成されたすべての決定項目は、「カタログ ]**メニューからアクセスできる単一の**[!UICONTROL  オファー」カタログ内に統合されます。
+現時点では、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合され、**[!UICONTROL カタログ]**&#x200B;メニューからアクセスできます。
 
 ![](assets/catalogs-list.png)
 
@@ -46,8 +46,8 @@ ht-degree: 83%
 
    Adobe Experience Platform スキーマの操作方法について詳しくは、[XDM システムドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja)を参照してください。
 
-1. 目的のカスタム属性を追加したら、スキーマを保存します。新しいフィールドが、決定項目作成画面の「**[!UICONTROL カスタム属性]** セクションで使用できるようになりました。
+1. 目的のカスタム属性を追加したら、スキーマを保存します。新しいフィールドを「**[!UICONTROL カスタム属性]**」セクション内の決定項目作成画面で使用できるようになりました。
 
 >[!NOTE]
 >
->決定項目には、最大 100 個のカスタム属性を含めることができます。 [ 決定ガードレールと制限の詳細を説明します ](gs-experience-decisioning.md#guardrails)。
+>決定項目には、最大 100 個のカスタム属性を含めることができます。[詳しくは、決定ガードレールと制限を参照してください](gs-experience-decisioning.md#guardrails)

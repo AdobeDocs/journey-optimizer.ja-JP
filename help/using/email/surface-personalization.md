@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -161,11 +161,11 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 設定を確認 {#check-configuration}
 
-キャンペーンやジャーニーでパーソナライズされた設定を使用する際に、テストプロファイルを使用してメールコンテンツをプレビューし、定義した動的設定で潜在的なエラーを確認できます。 次の手順に従います。
+キャンペーンやジャーニーでパーソナライズされた設定を使用する際に、テストプロファイルを使用してメールコンテンツをプレビューし、定義した動的設定で潜在的なエラーを確認できます。次の手順に従います。
 
 >[!NOTE]
 >
->テストプロファイルに加えて、[!DNL Journey optimizer] では、コンテンツの様々なバリアントをプレビューし、CSV/JSON ファイルからアップロードされたサンプル入力データを使用して配達確認を送信するか、手動で追加することで、テストすることもできます。 [ サンプル入力データを使用してコンテンツをテストする方法を説明します ](../test-approve/simulate-sample-input.md)
+>テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを使用してコンテンツをプレビューするには、次の手順に従います。
 

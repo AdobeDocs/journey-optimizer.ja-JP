@@ -1,5 +1,5 @@
 ---
-title: 決定管理の概要
+title: 意思決定管理の概要
 description: Adobe Journey Optimizer が、的確なオファーを適切なタイミングで顧客に送信する方法を説明します
 feature: Decision Management
 topic: Integrations
@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 96%
 
 ## 必読 {#must-read}
 
-* 現時点では、意思決定管理は、オブジェクトレベルのアクセス制御、フィールドレベルのアクセス制御、同意ポリシーの適用サービスの機能をサポートしていません。 これらの指標を使用する場合は、Journey Optimizer[Decisioning](../../experience-decisioning/gs-experience-decisioning.md) 機能の使用を検討してください。
+* 現時点では、意思決定管理は、オブジェクトレベルのアクセス制御、フィールドレベルのアクセス制御、同意ポリシーの適用サービスの機能をサポートしていません。これらのいずれかを使用する場合は、Journey Optimizer の[決定](../../experience-decisioning/gs-experience-decisioning.md)機能の使用を検討してください。
 
 * **Offer Decisioning** アプリケーションサを利用する [ Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
 

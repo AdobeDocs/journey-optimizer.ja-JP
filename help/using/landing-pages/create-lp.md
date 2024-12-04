@@ -10,9 +10,9 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1729'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ ht-degree: 94%
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
-ランディングページのリストにアクセスするには、左のメニューから **[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]** を選択します。
+ランディングページのリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL ランディングページ]**&#x200B;のリストには、作成されたすべての項目が表示されます。ステータス、変更日、タグに基づいてフィルター処理できます。
+**[!UICONTROL ランディングページ]**&#x200B;のリストには、作成されたすべての項目が表示されます。ステータス、変更日、タグに基づいてフィルタリングできます。
 
 ![](assets/lp_access-list-filter.png)
 
-このリストから、様々なアクションにアクセスできます。 ランディングページの横にある「。..」をクリックし、目的のアクションを選択します。
+このリストから、様々なアクションにアクセスできます。ランディングページの横にある「...」をクリックして、目的のアクションを選択します。
 
 ![](assets/lp_access-list-actions.png)
 
-* 公開済みの項目については、[ ランディングページレポート ](../reports/lp-report-global-cja.md) または [ 過去 24 時間のライブレポート ](../reports/lp-report-live.md) にアクセスできます。
+* 公開済みの項目については、[ランディングページのレポート](../reports/lp-report-global-cja.md)または[過去 24 時間のライブレポート](../reports/lp-report-live.md)にアクセスできます。
 
 * ランディングページは削除または複製できます。
 
@@ -50,13 +50,13 @@ ht-degree: 94%
   >
   >[公開済み](#publish-landing-page)のランディングページは削除できません。削除するには、まず非公開にする必要があります。
 
-* 公開済みのランディングページを非公開にすることができます。
+* 公開済みランディングページを非公開にすることができます。
 
   >[!CAUTION]
   >
   >メッセージで参照されているランディングページを非公開にした場合、そのランディングページへのリンクが壊れ、エラーページが表示されます。
 
-* ランディングページに関連付けられている [ タグ ](../start/search-filter-categorize.md#tags) を編集することもできます。
+* また、ランディングページに関連付けられた[タグ](../start/search-filter-categorize.md#tags)を編集することもできます。
 
 ## ランディングページの作成 {#create-landing-page}
 

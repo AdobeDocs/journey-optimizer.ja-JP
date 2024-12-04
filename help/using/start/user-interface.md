@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
 ht-degree: 100%
 
@@ -264,4 +264,4 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
 >title="プレースメント"
->abstract="プレースメントにより、決定エンジンから返された項目がメッセージ内のどこに表示されるかが決まります。レポートでは、様々なプレースメントにわたるパフォーマンスを追跡できます。"
+>abstract="プレースメントにより、決定エンジンから返された項目がメッセージ内に表示される場所が決まります。レポートでは、様々なプレースメントにわたるパフォーマンスを追跡できます。"

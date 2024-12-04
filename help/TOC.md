@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,13 +273,13 @@ ht-degree: 98%
          + [シングルページアプリケーションの作成](using/web/web-spa.md)
    + コードベースのエクスペリエンス {#code-based-experience}
       + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
-      + コードベースのチャネルリク {#configure-code-based-channel} ストの設定
+      + コードベースのチャネルの設定 {#configure-code-based-channel}
          + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
          + [コードベースのエクスペリエンスサーフェス](using/code-based/code-based-surface.md)
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
-      + でのコードベースのエクスペリエンス {#create-code-based-experiences} 作成
-         + [コードベースのエクスペリエンスの作成と作成](using/code-based/create-code-based.md)
+      + コードベースのエクスペリエンスの作成 {#create-code-based-experiences}
+         + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
          + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
          + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
    + コンテンツカード{#content-card}
@@ -380,7 +380,7 @@ ht-degree: 98%
          + [コンポジションワークフローの作成](using/audience/create-compositions.md)
          + [コンポジションキャンバスの操作](using/audience/composition-canvas.md)
          + [オーディエンスへのアクセスと管理](using/audience/access-audiences.md)
-      + [Federated Audience の構成 ](https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home)
+      + [連合オーディエンス構成](https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home)
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
@@ -454,7 +454,7 @@ ht-degree: 98%
    + [アラート](using/reports/alerts.md)
    + [除外の理由](using/reports/exclusion-list.md)
 + 決定機能 {#decisioning}
-   + [意思決定機能の概要](using/experience-decisioning/gs-decision.md)
+   + [決定機能の基本を学ぶ](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + API リファレンス{#api-reference}

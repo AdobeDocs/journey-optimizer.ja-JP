@@ -1,24 +1,25 @@
 ---
 title: コードベースのエクスペリエンスのテスト
-description: Journey Optimizerでコードベースのエクスペリエンスをテストする方法を説明します
+description: Journey Optimizer でコードベースのエクスペリエンスをテストする方法を学ぶ
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # コードベースのエクスペリエンスのテスト {#test-code-based}
 
-## コードベースエクスペリエンスのプレビュー {#preview-code-based}
+## コードベースのエクスペリエンスのプレビュー {#preview-code-based}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="コードベースエクスペリエンスのプレビュー"
+>title="コードベースのエクスペリエンスのプレビュー"
 >abstract="コードベースエクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
 変更したコードベースエクスペリエンスのプレビューを表示するには、次の手順に従います。
@@ -106,4 +107,3 @@ Web ページやモバイルアプリのコードベースのエクスペリエ�
    >[!TIP]
    >
    >コンテンツを更新する際や、別のテストプロファイルや処理を選択する際に、プレビューリンクが自動的に更新されます。リンクを様々なブラウザータブにコピーして、エクスペリエンスを比較できます。
-

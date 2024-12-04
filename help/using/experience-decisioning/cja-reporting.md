@@ -1,6 +1,6 @@
 ---
 title: 決定に関するレポート
-description: 決定に関するレポート方法を説明します。
+description: 決定に関するレポート方法について説明します。
 feature: Decisioning
 topic: Integrations
 role: User
@@ -8,9 +8,9 @@ level: Experienced
 badge: label="限定提供"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 69%
 
 ## コードベースのキャンペーンレポート {#campaigns}
 
-コードベースのエクスペリエンスが公開されると、専用のレポートにアクセスして、包括的なダッシュボードとして主要業績評価指標（KPI）を監視し、キャンペーンに関連する重要な指標の分析を提供できます。
+コードベースのエクスペリエンスが公開されると、包括的なダッシュボードとして主要業績評価指標（KPI）を監視するための専用レポートにアクセスして、キャンペーンに関連する重要な指標の分析を提供できます。
 
-これには、決定項目のパフォーマンスに関する詳細と、ユーザーによる決定項目の操作の方法が含まれます。 [ コードベースのエクスペリエンスレポートの操作方法を学ぶ ](../reports/campaign-global-report-cja-code.md)
+これには、決定項目のパフォーマンスと、ユーザーが決定項目をどのように操作したかに関する詳細が含まれます。[詳しくは、コードベースのエクスペリエンスレポートの操作方法を参照してください](../reports/campaign-global-report-cja-code.md)
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
 

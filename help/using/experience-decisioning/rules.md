@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -60,4 +60,4 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >実施要件ルールのネスト深さは 30 レベルに制限されています。 これは、PQL文字列内の `)` の閉じ丸括弧をカウントすることによって測定されます。 UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 15 KB になります。 これは、15,000 文字の ASCII 文字（各 1 バイト）、または 3,750～7,500 文字の非 ASCII 文字（各 2～4 バイト）に相当します。 [ 決定ガードレールと制限の詳細を説明します ](gs-experience-decisioning.md#guardrails)。
+   >実施要件ルールのネスト深度は 30 レベルに制限されています。これは、PQL 文字列内の `)` の閉じ丸括弧をカウントすることによって測定されます。UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 15 KB になります。これは、15,000 個の ASCII 文字（各 1 バイト）、または 3,750～7,500 個の非 ASCII 文字（各 2～4 バイト）に相当します。[詳しくは、決定ガードレールと制限を参照してください](gs-experience-decisioning.md#guardrails)

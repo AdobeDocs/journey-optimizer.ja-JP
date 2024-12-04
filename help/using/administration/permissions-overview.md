@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 権限]**：**[!UICONTROL 役割]**&#x200B;に割り当てる許可を定義できるようにするための単一の権利。各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。[権限レベル](high-low-permissions.md)の節を参照してください。
 
-* **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[ サンドボックスの使用 ](sandboxes.md) を参照してください。
+* **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。[サンドボックスの使用](sandboxes.md)を参照してください。
 
 ![](assets/do-not-localize/permissions_2.png)
 

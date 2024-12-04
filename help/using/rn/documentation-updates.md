@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 99%
 * システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。[詳細情報](../data/get-started-datasets.md)
 * ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。[詳細情報](../code-based/test-code-based.md#preview-on-device)
 * 決定のカスタムアップロードオーディエンスの活用方法に関する新しいページが追加されました。[詳細情報](../offers/custom-upload-decisioning.md)
-* Journey Optimizerで利用できる意思決定機能を紹介する新しいページが追加されました。 [詳細情報](../experience-decisioning/gs-decision.md)
-* ガードレールと制限が決定ドキュメントに追加されました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* Journey Optimizer で使用可能な決定機能を紹介する新しいページが追加されました。[詳細情報](../experience-decisioning/gs-decision.md)
+* ガードレールと制限が決定ドキュメントに追加されました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024年9月 {#sept-2024}
 

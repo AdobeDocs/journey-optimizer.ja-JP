@@ -10,15 +10,15 @@ level: Intermediate
 keywords: abac, 属性, 認証, データ, アクセス, 機密, アセット
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1023'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 属性ベースのアクセス制御 {#attribute-based-access}
 
-属性ベースのアクセス制御（ABAC）機能を使用すると、特定のチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることを目的としています。
+属性ベースのアクセス制御（ABAC）機能を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を強化することを目的としています。
 
 Adobe Journey Optimizer では、ABAC を使用することで、データを保護し、Experience Data Model（XDM）スキーマ、プロファイル属性、オーディエンスなどの特定のフィールド要素に対する特定のアクセス権を付与できます。
 

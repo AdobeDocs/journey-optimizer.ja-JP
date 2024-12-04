@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Adobe Journey Optimizer インターフェイスのどこからでも、上部�
 >title="タグ"
 >abstract="このフィールドを使用すると、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができます。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。"
 
-Adobe Experience Platform[ 統合タグ ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ja) を使用すると、Journey Optimizer オブジェクトを簡単に分類し、リストからの検索を改善できます。
+Adobe Experience Platform [統合タグ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=ja)を使用すると、Journey Optimizer のオブジェクトを簡単に分類し、リストからの検索を改善できます。
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
-Journey Optimizerでオーディエンスに意味のあるタグを追加すると、後でフィルタリングおよび検索して、オーディエンスをより簡単に見つけることができます。 さらに、タグを使用して、オーディエンスを関連性の高い検索可能なフォルダーに整理し、パーソナライズされたオファーとエクスペリエンスを作成し、エクスペリエンス決定ルールで使用することもできます。
+Journey Optimizer でオーディエンスに意味のあるタグを追加すると、後でフィルタリングや検索を行って、オーディエンスをより簡単に見つけることができます。さらに、タグを使用すると、関連性のある検索可能なフォルダーでオーディエンスを整理したり、パーソナライズされたオファーやエクスペリエンスを作成したり、エクスペリエンス決定ルールで使用したりすることもできます。
 
 ### オブジェクトへのタグの追加 {#add-tags}
 
@@ -78,9 +78,9 @@ Journey Optimizerでオーディエンスに意味のあるタグを追加する
 
    >[!NOTE]
    >
-   > タグでは大文字と小文字が区別されません。
+   > タグでは大文字と小文字を区別しません。
 
-1. 検索中のタグが使用できない場合は、「**[!UICONTROL 作成」「」]** をクリックして新しいタグを定義します。このタグは現在のオブジェクトに自動的に追加され、他のすべてのオブジェクトで使用できるようになります。
+1. 検索しているタグが使用できない場合は、「**[!UICONTROL 「[タグ名]」を作成]**」をクリックして新しいタグを定義します。新しいタグは現在のオブジェクトに自動的に追加され、他のすべてのオブジェクトで使用できるようになります。
 
    ![](assets/tags4.png)
 

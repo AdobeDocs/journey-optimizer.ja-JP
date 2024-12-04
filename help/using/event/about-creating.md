@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1638'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -74,9 +74,9 @@ ht-degree: 81%
    >
    >イベントの作成後に新しい列挙値でスキーマを変更する場合、次の手順に従って既存のイベントに変更を適用する必要があります。イベントフィールドの列挙フィールドの選択を解除し、選択を確認して、列挙フィールドを再度選択します。これで、新しい列挙値が表示されます。
 
-1. ID タイプを追加します。 この手順はオプションですが、ID タイプを追加すると、リアルタイム顧客プロファイルサービスに保存された情報を活用できるので、お勧めします。 イベントのキーのタイプを定義します。詳しくは、[この節](../event/about-creating.md#select-the-namespace)を参照してください。
+1. ID タイプを追加します。この手順はオプションですが、ID タイプを追加すると、リアルタイム顧客プロファイルサービスに保存されている情報を活用できるため、推奨されています。イベントのキーのタイプを定義します。詳しくは、[この節](../event/about-creating.md#select-the-namespace)を参照してください。
 
-1. プロファイル識別子を定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する式を定義します。ID タイプを選択すると、このキーは自動的に設定されます（ただし、編集は可能）。 ジャーニーは ID タイプに対応するキーを選択します（例えば、メール ID タイプを選択した場合、メールのキーが選択されます）。 詳しくは、[この節](../event/about-creating.md#define-the-event-key)を参照してください。
+1. プロファイル識別子を定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する式を定義します。このキーは、ID タイプを選択すると自動的に設定されます（編集は可能）。ジャーニーは ID タイプに対応するキーを選択します（例えば、メール ID タイプを選択すると、メールのキーが選択されます）。詳しくは、[この節](../event/about-creating.md#define-the-event-key)を参照してください。
 
    ![](assets/jo-event7.png)
 
@@ -119,11 +119,11 @@ ht-degree: 81%
 >title="ID タイプ"
 >abstract="イベントに関連付けられた顧客プロファイルを識別するためのキーを選択します。"
 
-ID タイプ（旧称「名前空間」）を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。 設定は必須ではありません。ジャーニーで、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}から得られる追加情報を取得する場合には必須です。カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合、ID タイプ定義は必要ありません。
+ID タイプ（旧称「名前空間」）を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。ジャーニーで、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}から得られる追加情報を取得する場合には必須です。カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、ID タイプは必要ありません。
 
-既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。 詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"} を参照してください。
+既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}を参照してください。
 
-メイン ID を持つスキーマを選択した場合は、「**[!UICONTROL プロファイラー識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドに事前入力します。 ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、_identityMap > id_ を使用して（**[!UICONTROL ID タイプ]** フィールドの下）事前入力されます。
+プライマリ ID を持つスキーマを選択した場合は、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、_identityMap／ID_ を使用して（**[!UICONTROL ID タイプ]**&#x200B;フィールドの下に）事前入力されます。
 
 フィールドを選択すると、プライマリ ID フィールドにタグ付けされます。
 
@@ -133,11 +133,11 @@ ID タイプ（旧称「名前空間」）を使用すると、イベントに�
 
 ![](assets/journey17.png)
 
-1 つのジャーニーで使用できる ID タイプは 1 つだけです。 同じジャーニーで複数のイベントを使用する場合は、同じ ID タイプを使用する必要があります。 詳しくは、[このページ](../building-journeys/journey.md)を参照してください。
+1 つのジャーニーで使用できる ID タイプは 1 つだけです。同じジャーニーで複数のイベントを使用する場合は、同じ ID タイプを使用する必要があります。詳しくは、[このページ](../building-journeys/journey.md)を参照してください。
 
 >[!NOTE]
 >
->ユーザーベースの ID タイプのみを選択できます。 参照テーブルの ID タイプを定義した場合（例：製品参照用の製品 ID ID タイプ）、「**ID タイプ**」ドロップダウンリストでは使用できません。
+>ユーザーベースの ID タイプのみ選択できます。ID タイプをルックアップテーブルに対して定義した場合（例：製品ルックアップ対して ProductID ID タイプを定義した場合）、その ID タイプを **ID タイプ**&#x200B;ドロップダウンリストで使用することはできません。
 
 ## プロファイル識別子の定義 {#define-the-event-key}
 
@@ -145,7 +145,7 @@ ID タイプ（旧称「名前空間」）を使用すると、イベントに�
 
 アドビのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーが、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}でプロファイル ID として定義した情報である必要があります。
 
-これにより、プロファイル識別子はイベントと個人プロファイルの間の紐付けを実行できます。メイン ID を持つスキーマを選択した場合、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドはあらかじめ入力されます。 ID を定義していない場合は、_identityMap／ID_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、自動的に _identityMap > id_ を使用して事前入力されます。
+これにより、プロファイル識別子はイベントと個人プロファイルの間の紐付けを実行できます。プライマリ ID を持つスキーマを選択した場合は、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap／ID_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、_identityMap／ID_ を使用して自動的に事前入力されます。
 
 フィールドを選択すると、プライマリ ID フィールドにタグ付けされます。
 
@@ -159,7 +159,7 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
 1. 「ペイロード」フィールドのリストでキーとして指定したフィールドを選択します。
 
-イベントを受け取ると、キーの値によって、システムはイベントに関連付けられた人物を識別できます。キーは [ID タイプ ](../event/about-creating.md#select-the-namespace) に関連付けられ、Adobe Experience Platformでクエリの実行に使用できます。 [このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
+イベントを受け取ると、キーの値によって、システムはイベントに関連付けられた人物を識別できます。キーは [ID タイプ](../event/about-creating.md#select-the-namespace)に関連付けられ、Adobe Experience Platform でクエリの実行に使用できます。[このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
 このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
 
 ## 高度な式エディター {#adv-exp-editor}

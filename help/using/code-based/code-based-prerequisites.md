@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 83%
 
 * コードベースエクスペリエンスが正しく配信されるように、[こちら](#delivery-prerequisites)を参照して、Adobe Experience Platform の設定を定義します。
 
-* コードベースのエクスペリエンスレポートにデータを表示できるようにするには、必ず次の [ レポートの前提条件 ](#reporting-prerequisites) に従ってください。
+* コードベースのエクスペリエンスレポートに表示するデータを有効にするには、以下の[レポーティングの前提条件](#reporting-prerequisites)に従います。
 
-* [ コードベースのエクスペリエンスチャネル設定 ](code-based-configuration.md) を作成する場合は、独自の実装で宣言されたものと一致する文字列/パスまたはサーフェス URI を入力してください。 これにより、指定したアプリまたはページ内の目的の場所にコンテンツが配信されます。 そうしないと、変更を配信できません。 [詳細情報](code-based-surface.md)
+* [コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)を作成する際、独自の実装で宣言されたものと一致する文字列／パスまたはサーフェス URI を入力します。これにより、指定したアプリまたはページ内の目的の場所にコンテンツが配信されます。それ以外の場合は、変更を配信できません。[詳細情報](code-based-surface.md)
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
 コードベースのエクスペリエンスは、以下のオプションに示すように、あらゆるタイプの顧客実装をサポートします。プロパティには、クライアントサイド、サーバーサイドまたはハイブリッド実装のいずれかの方法を使用できます。
 
-* クライアントサイドのみ – web ページやモバイルアプリに変更を加えるには、web サイトに [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を実装するか、モバイルアプリに [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} を実装する必要があります。
+* クライアントサイドのみ - web ページやモバイルアプリに変更を追加するには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を web サイトに実装するか、[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} をモバイルアプリに実装する必要があります。
 
 * ハイブリッドモード - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用して、サーバーサイドでパーソナライゼーションをリクエストできます。応答は Adobe Experience Platform Web SDK に提供され、クライアントサイドで変更がレンダリングされます。詳しくは、Adobe Experience Platform [Edge Network Server API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja){target="_blank"}を参照してください。ハイブリッドモードの詳細と実装サンプルについて詳しくは、[このブログ投稿](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}を参照してください。
 

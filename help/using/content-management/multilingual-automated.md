@@ -10,9 +10,9 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2041'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 98%
 
    1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [データ収集ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください。
 
-   2. ルールの **[!UICONTROL IF]** セクションで、次のように設定されたイベントを追加します。
+   2. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
       ![](assets/multilingual-experience-events-rule-if.png)
 

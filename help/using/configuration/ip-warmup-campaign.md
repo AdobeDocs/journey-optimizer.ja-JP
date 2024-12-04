@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!IMPORTANT]
    >
-   >IP ウォームアップキャンペーンで許可されるオーディエンスは、[ セグメントベース ](../audience/creating-a-segment-definition.md) で、[ デフォルトの結合ポリシー ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} を使用して作成する必要があります。
+   >IP ウォームアップキャンペーンで許可されるオーディエンスは、[セグメントベース](../audience/creating-a-segment-definition.md)であり、[デフォルトの結合ポリシー](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}を使用して作成する必要があります。
 
    キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
@@ -65,7 +65,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!NOTE]
    >
-   >[ ビジネスルール ](rule-sets.md#apply-frequency-rule) は、IP ウォームアッププランでは使用しないでください。 これらのルールを適用すると、キャンペーンのターゲットプロファイルの希望数に到達できなくなる可能性があります。
+   >IP ウォームアッププランでは[ビジネスルール](rule-sets.md#apply-frequency-rule)を使用しないでください。これらのルールを適用すると、キャンペーンのターゲットプロファイルの希望数に到達できなくなる可能性があります。
 
    IP ウォームアッププランが有効化されたライブキャンペーンの場合、**[!UICONTROL 削除]**&#x200B;ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。プランで使用すると、キャンペーンは削除できなくなります。
 

@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 1. プレビュー URL には、次の内容が適用されます。
 
    * 単一ページの URL を入力した場合は、その URL がプレビューに使用されます。別の URL を入力する必要はありません。
-   * [ ルールに一致するページ ](../web/web-configuration.md#web-page-matching-rule) が選択されている場合、ブラウザーでエクスペリエンスをプレビューするために使用される **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力する必要があります。 [詳細情報](test-code-based.md#preview-on-device)
+   * [ルールに一致するページ](../web/web-configuration.md#web-page-matching-rule)を選択した場合は、ブラウザーでエクスペリエンスをプレビューするのに使用される&#x200B;**[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を入力する必要があります。[詳細情報](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -112,7 +112,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
    >[!CAUTION]
    >
-   >このフィールドに入力する文字列またはパスは、アプリまたはページの実装で宣言されたものと一致する必要があります。 これにより、指定したアプリまたはページ内の目的の場所にコンテンツが配信されます。 [詳細情報](code-based-surface.md#uri-composition)
+   >このフィールドに入力した文字列またはパスは、アプリまたはページの実装で宣言されたものと一致する必要があります。これにより、指定したアプリまたはページ内の目的の場所にコンテンツが配信されます。[詳細情報](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -170,7 +170,7 @@ Web プラットフォームのコードベースのエクスペリエンス設�
 
    >[!CAUTION]
    >
-   >独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。そうしないと、変更を配信できません。 [詳細情報](code-based-surface.md#uri-composition)
+   >独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。それ以外の場合は、変更を配信できません。[詳細情報](code-based-surface.md#uri-composition)
 
 1. 必要に応じて、**[!UICONTROL 別のサーフェス URI を追加します]**。最大 10 個の URI を追加できます。
 
