@@ -10,7 +10,7 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: f706a7b2511d6d0314e3b6df4cd08d44abf29a5e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 100%
 
@@ -143,7 +143,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化します。mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
 
-カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。[詳細情報](https://experienceleague.adobe.com//docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
+カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
 
 ## ペイロードパラメーターの定義 {#define-the-message-parameters}
 
