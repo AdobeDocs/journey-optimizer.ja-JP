@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式、エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
-workflow-type: ht
-source-wordcount: '1015'
-ht-degree: 100%
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 
 ### [!DNL Adobe Experience Platform] データを使用したパーソナライゼーション {#perso}
 
-* **サポートされているチャネル**：現時点では、この機能は、メール、SMS、プッシュおよびダイレクトメールチャネル内でのみ使用できます。
+* **サポートされているチャネル**：現時点では、この機能は、メール、SMS、ダイレクトメールチャネル内でのみ使用できます。
 * **データ使用のラベル付けと適用**&#x200B;は、現時点では、参照が有効なデータセットには適用されていません。
 * **式フラグメント**：現時点では、データセット参照のパーソナライゼーションを式フラグメント内に配置できません。
 
@@ -73,6 +73,17 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **API キー**&#x200B;は、Developer Console から取得できます。
 * **IMS 組織 ID** は Adobe IMS 組織です。
 * **サンドボックス名**&#x200B;は、データセットが含まれるサンドボックス名です（実稼動、開発など）。
+
+>[!NOTE]
+>
+>データセットを有効にするための API 呼び出しで以下のエラーが発生した場合は、Developer Console プロジェクトからAdobe Journey Optimizer API を削除してから、再度追加してみてください。
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## パーソナライゼーションへのデータセットの活用 {#leverage}
 
