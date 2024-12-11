@@ -10,9 +10,9 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
 source-git-commit: e2b35cfb2cdaf0dac002ff74a11b2fe98206cd6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer は、Adobe Journey Optimizer から独立して、機�
 
    >[!NOTE]
    >
-   >新しい **プロバイダー** をリストに追加するには、**このドキュメント ](https://developer.adobe.com/gcs/partner/) に記載されている手順に従ってオンボーディングプロセスを完了するように [ プロバイダー** に依頼します。
+   >新しい&#x200B;**プロバイダー**&#x200B;をリストに追加するには、[このドキュメント](https://developer.adobe.com/gcs/partner/)に記載されている手順に従ってオンボーディングプロセスを完了するように&#x200B;**プロバイダー**&#x200B;に依頼します。
 
    ![](assets/provider_2.png)
 

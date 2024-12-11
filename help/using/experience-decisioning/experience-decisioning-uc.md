@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 87%
 
 次のように実験を設定します。
 
-* 最初の処理には、ランキング方法として優先される 1 つの選択戦略が含まれます。
-* 第 2 の処理は、式がランキング方法である異なる選択戦略を含む。
+* 最初の処理には、ランキング方法として優先度を持つ 1 つの選択戦略が含まれます。
+* 2 番目の処理には、式をランキング方法とする異なる選択戦略が含まれます。
 
 
 ## 決定項目と選択戦略の作成
