@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
 ## コンテンツの作成 {#campaign-experiment}
 
-1. まず、要件に応じて、メール、SMS またはプッシュ通知の[キャンペーン](../campaigns/create-campaign.md)や[ジャーニー](../building-journeys/journeys-message.md)を作成し、設定します。
+1. まず、要件に従って [ キャンペーン ](../campaigns/create-campaign.md) または [ ジャーニー ](../building-journeys/journeys-message.md) を作成および設定します。
 
 1. **[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウから、処理 A のパーソナライズを開始します。
 
