@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: ht
-source-wordcount: '2188'
-ht-degree: 100%
+source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+workflow-type: tm+mt
+source-wordcount: '2193'
+ht-degree: 99%
 
 ---
 
@@ -304,6 +304,7 @@ ht-degree: 100%
       + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
+   + [Adobe Experience Manager コンテンツフラグメント](using/content-management/aem-fragments.md)
    + AI アシスタントの操作{#ai-assistant}
       + [AI アシスタントのコンテンツアクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI によるメール生成](using/content-management/generative-email.md)
