@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2024年12月 {#nov-2024}
 
-* Adobe Experience Platform データを使用してパーソナライゼーション用のデータセットを有効にするための API 呼び出しを行う際に、潜在的なエラーメッセージのトラブルシューティングに役立つメモが追加されました。 [詳細情報](../personalization/lookup-aep-data.md)
+* Adobe Experience Platform データを使用してデータセットのパーソナライズ機能を有効にする API 呼び出しを行う際に発生する可能性がある、エラーメッセージのトラブルシューティングに役立つメモが追加されました。[詳細情報](../personalization/lookup-aep-data.md)
 
 ## 2024年10月 {#oct-2024}
 

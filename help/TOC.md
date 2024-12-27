@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
