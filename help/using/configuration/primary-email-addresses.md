@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 88%
 
 ---
 
@@ -66,7 +66,15 @@ ht-degree: 100%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## ジャーニーパラメーターの値の上書き {#journey-parameters}
+## デフォルト値の上書き {#override-default-execution-address}
+
+### メール設定で
+
+メールチャネル設定を定義する際に、サンドボックスレベルで設定されたデフォルトの実行フィールドを変更できます。 [詳細情報](../email/email-settings.md#execution-address)
+
+設定レベルで実行アドレスが定義されると、そのアドレスがプライマリアドレスとして使用され、サンドボックスレベルの一般設定よりも優先されます。
+
+### ジャーニーパラメーター内 {#journey-parameters}
 
 特定の使用例に限り、グローバルに設定された実行フィールドを上書きし、特にメールチャネルに対してジャーニーレベルで異なる値を定義できます。
 
@@ -84,3 +92,4 @@ ht-degree: 100%
 
 * メールのテスト。自分のメールアドレスを追加できる：ジャーニーを公開するとメールが届きます。
 * リストのサブスクライバーにメールを送信します。詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
+

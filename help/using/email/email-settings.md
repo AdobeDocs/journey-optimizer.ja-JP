@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '2530'
-ht-degree: 100%
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+workflow-type: tm+mt
+source-wordcount: '2687'
+ht-degree: 96%
 
 ---
 
@@ -340,3 +340,26 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 >[!NOTE]
 >
 >また、メールコンテンツ内に存在するリンクに動的にパーソナライズされたトラッキングパラメーターを追加することもできますが、設定レベルでは追加できません。これは、E メールデザイナーを使用してメッセージを作成する際に行う必要があります。[詳細情報](message-tracking.md#url-tracking)
+
+## 実行アドレス {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="使用するアドレスを定義"
+>abstract="複数のメールアドレスまたは電話番号がデータベースで使用可能な場合 (個人用、仕事用など)、送信で優先するものを選択できます。"
+
+プロファイルをターゲットにする場合、データベースで複数のメールアドレス（プロのメールアドレス、個人のメールアドレスなど）を使用できる場合があります。
+
+その場合、[!DNL Journey Optimizer] は、サンドボックスレベルで **[!UICONTROL 実行フィールド]** に指定されたアドレスを使用して、優先してプロファイルサービスから使用するメールアドレスを決定します。 [詳細情報](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>現在デフォルトで使用されているフィールドを確認するには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL 実行フィールド]**&#x200B;メニューにアクセスします。
+
+ただし、このデフォルトの実行フィールドは、メールチャネルの設定レベルで変更できます。
+
+これを行うには、「**[!UICONTROL 配信アドレス]**」フィールドを編集し、使用可能なメールタイプの XDM フィールドのリストから項目を選択します。
+
+![](assets/email-config-delivery-address.png)
+
+実行フィールドが更新され、プライマリアドレスとして使用されます。 サンドボックスレベルの一般設定よりも優先されます。
