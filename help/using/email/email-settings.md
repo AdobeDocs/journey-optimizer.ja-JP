@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
-ht-degree: 93%
+source-wordcount: '2724'
+ht-degree: 86%
 
 ---
 
@@ -63,9 +63,7 @@ ht-degree: 93%
 
 ドメインのレピュテーションを保持し、IP ウォーミングプロセスを高速化し、配信品質を向上させるには、送信サブドメインをアドビにデリゲートします。[詳細情報](../configuration/about-subdomain-delegation.md)
 
-
 ## IP プールの詳細 {#ip-pools}
-
 
 設定に関連付ける IP プールを選択します。[詳細情報](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 >
 >PTR レコードが設定されていない場合は、アドビ担当者に問い合わせてください。
 
-## リスト登録解除ヘッダー{#list-unsubscribe}
+## リストの購読解除{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 リストから[サブドメインを選択](#subdomains-and-ip-pools)すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。
 
@@ -94,20 +91,23 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-このオプションを無効にした場合、メールヘッダーにワンクリック購読解除 URL は表示されません。
+>[!NOTE]
+>
+>このオプションを無効にした場合、メールヘッダーにワンクリック購読解除 URL は表示されません。
 
-**[!UICONTROL 同意レベル]**&#x200B;ドロップダウンリストから同意レベルを選択できます。チャネルまたはプロファイル ID に固有のものにすることができます。この設定に基づいて、ユーザーがメールのヘッダーにあるリスト登録解除 URL を使用して登録解除すると、Adobe Journey Optimizer においてチャネルレベルまたは ID レベルで同意が更新されます。
+同意レベルは、「**[!UICONTROL 同意レベル]**」ドロップダウンリストから選択できます。 チャネルまたはプロファイル ID に固有のものにすることができます。この設定に基づいて、ユーザーがメールのヘッダーにあるリスト登録解除 URL を使用して登録解除すると、Adobe Journey Optimizer においてチャネルレベルまたは ID レベルで同意が更新されます。
 
-リスト登録解除ヘッダーには 、2 つの機能（以下で説明するように、宛先とワンクリック登録解除 URL）があり、いずれかまたは両方の機能をオフにしない限り、デフォルトで有効になります。
+リスト登録解除ヘッダーには 2 つの機能があり、どちらか一方または両方の機能をオフにしない限り、デフォルトで有効になっています。
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * **宛先（登録解除）**&#x200B;アドレスは、登録解除リクエストが自動処理にルーティングされる宛先アドレスです。
 
   Journey Optimizer の場合、登録解除のメールアドレスは、[選択したサブドメイン](#subdomains-and-ip-pools)に基づいてチャネル設定に表示されるデフォルトの&#x200B;**宛先（登録解除）**&#x200B;アドレスです。
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* **ワンクリック登録解除 URL**&#x200B;は、デフォルトでは、チャネル設定を行ったサブドメインに基づいて、ワンクリックで選択する、URL で生成されたリスト登録解除ヘッダーです。
+* **ワンクリック登録解除 URL**：デフォルトでは、ワンクリックオプトアウト URL で生成されるリスト登録解除ヘッダーです。リスト登録解除ヘッダーは、チャネル設定で設定および指定するサブドメインに基づいています。
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ IP プールが選択された後、IP プールのドロップダウンリス�
     >
 -->
 
-**[!UICONTROL 宛先（登録解除）]**&#x200B;機能と&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** 機能はオプションです。デフォルトで生成されたワンクリック登録解除 URL を使用しない場合は、この機能をオフにできます。「**[!UICONTROL オプトアウト設定]**」オプションがオンに切り替わり、**[!UICONTROL ワンクリック登録解除 URL]** 機能がオフになっているシナリオで、この設定を使用して作成されたメッセージに[ワンクリックオプトアウトリンク](../privacy/opt-out.md#one-click-opt-out)を追加する場合、リスト登録解除ヘッダーは、メールの本文に挿入したワンクリックオプトアウトリンクをピックアップし、それをワンクリック登録解除 URL 値として使用します。
+**[!UICONTROL 宛先（登録解除）]** 機能と **[!UICONTROL ワンクリック登録解除 URL]** 機能はオプションです。
+
+デフォルトで生成されたワンクリック登録解除 URL を使用しない場合は、この機能をオフにできます。**[!UICONTROL List-Unsubscribe を有効にする]** オプションがオンになり、**[!UICONTROL ワンクリック登録解除 URL]** 機能がオフになっているシナリオで、この設定を使用して作成されたメッセージに [ ワンクリックオプトアウトリンク ](../privacy/opt-out.md#one-click-opt-out) を追加すると、リスト登録解除ヘッダーは、メールの本文に挿入したワンクリックオプトアウトリンクを取得し、ワンクリック登録解除 URL の値として使用します。
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->メッセージコンテンツにワンクリックオプトアウトリンクを追加せず、チャネル設定でデフォルトのワンクリック登録解除 URL をオンにしていない場合、メールヘッダーにリスト登録解除ヘッダーの一部として URL が渡されることはありません。
+>メッセージコンテンツにワンクリックオプトアウトリンクを追加せず、チャネル設定でデフォルトのワンクリック購読解除 URL がオフになっている場合、リストの購読解除ヘッダーの一部としてメールヘッダーに渡される URL はありません。
 
 メッセージにおける登録解除機能の管理について詳しくは、[この節](../email/email-opt-out.md#unsubscribe-header)を参照してください。
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## ヘッダーパラメーター {#email-header}
 
@@ -146,7 +150,7 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 >
 >**[!UICONTROL 送信者メール]**&#x200B;および&#x200B;**[!UICONTROL エラーメール]**&#x200B;アドレスでは、現在選択されている[デリゲートされたサブドメイン](../configuration/about-subdomain-delegation.md)を使用する必要があります。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合は、*contact@marketing.luma.com* と *error@marketing.luma.com* を使用できます。
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 「**[!UICONTROL シードリスト]**」セクションで、自分に関連するリストを選択します。シードリストの作成方法については、[この節](../configuration/seed-lists.md#create-seed-list)を参照してください。
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 URL トラッキングパラメーターを設定するには、目的の値を&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 値]**&#x200B;フィールドに直接入力することができます。
 

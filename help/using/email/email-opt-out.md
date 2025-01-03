@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 メールコンテンツに購読解除リンクを挿入するには、次の操作を実行します。
 
-* ワンクリック登録解除 URL をメールヘッダーに追加します。チャネル設定レベルで「**[!UICONTROL リスト登録解除ヘッダー]**」オプションを有効にすると、メールヘッダーにオプトアウトリンクが追加されます。[詳しくは、メールヘッダーのオプトアウトを参照してください](#unsubscribe-header)
+* ワンクリック登録解除 URL をメールヘッダーに追加します。チャネル設定レベルの **[!UICONTROL List-Unsubscribe を有効にする]** オプションを選択すると、メールヘッダーにオプトアウトリンクが追加されます。 [詳しくは、メールヘッダーのオプトアウトを参照してください](#unsubscribe-header)
 
 * メールの&#x200B;**ワンクリックオプトアウトリンク**&#x200B;を有効にします。[詳しくは、ワンクリックオプトアウトリンクを追加する方法を参照してください](#one-click-opt-out)
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="メールヘッダーに登録解除 URL を追加"
->abstract="List-Unsubscribe ヘッダーを有効にして、メールヘッダーに登録解除 URL を追加します。 登録解除 URL を設定するには、メールのコンテンツにワンクリックオプトアウトリンクを挿入します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#one-click-opt-out" text="ワンクリックオプトアウト"
+>title="メールヘッダーへの購読解除 URL の追加"
+>abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除 URL を追加します。 メッセージに購読解除 URL を設定するには、メールコンテンツにワンクリックオプトアウトリンクを挿入します。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メールコンテンツからのワンクリックオプトアウト"
 
 ワンクリックリスト登録解除 URL は、メールの送信者情報の横に表示される登録解除リンクまたはボタンであり、受信者は 1 回のクリックでメーリングリストから即座にオプトアウトできます。Adobe Journey Optimizer では、「**リスト登録解除を有効にする**」オプションをオンにすると、メールヘッダーには、受信者がメーリングリストから登録解除に使用できる宛先と URL の両方がデフォルトで含まれます。
 
