@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 95%
+source-wordcount: '2737'
+ht-degree: 93%
 
 ---
 
@@ -351,8 +351,8 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="使用するアドレスを定義"
->abstract="複数のメールアドレスまたは電話番号がデータベースで使用可能な場合 (個人用、仕事用など)、送信で優先するものを選択できます。"
+>title="使用するデフォルトの実行アドレスを上書き"
+>abstract="複数のメールアドレスがデータベースで使用可能な場合（個人用、仕事用など）、送信で優先順位を付けるメールアドレスを選択できます。 プライマリアドレスはサンドボックスレベルで定義されますが、ここでは、この特定のメール設定のデフォルト設定を上書きできます。"
 
 プロファイルをターゲットにする場合、データベースで複数のメールアドレス（プロのメールアドレス、個人のメールアドレスなど）を使用できる場合があります。
 
