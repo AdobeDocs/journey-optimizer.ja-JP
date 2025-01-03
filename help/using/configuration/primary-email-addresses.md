@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 88%
+source-wordcount: '483'
+ht-degree: 78%
 
 ---
 
@@ -66,17 +66,17 @@ ht-degree: 88%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## デフォルト値の上書き {#override-default-execution-address}
+## デフォルトの実行フィールドを上書き {#override-default-execution-address}
+
+特定の使用例では、グローバルに設定された実行フィールドを上書きし、メール設定レベルまたはジャーニーレベルで異なる値を定義できます。
 
 ### メール設定で
 
-メールチャネル設定を定義する際に、サンドボックスレベルで設定されたデフォルトの実行フィールドを変更できます。 [詳細情報](../email/email-settings.md#execution-address)
+メールチャネルの設定を定義する際に、[ 一般設定 ](#admin-settings) で設定されたデフォルトの実行フィールドを変更できます。 [詳細情報](../email/email-settings.md#execution-address)
 
-設定レベルで実行アドレスが定義されると、そのアドレスがプライマリアドレスとして使用され、サンドボックスレベルの一般設定よりも優先されます。
+メール設定で実行アドレスが定義されると、そのアドレスがプライマリアドレスとして使用され、サンドボックスレベルで一般設定を上書きします。
 
 ### ジャーニーパラメーター内 {#journey-parameters}
-
-特定の使用例に限り、グローバルに設定された実行フィールドを上書きし、特にメールチャネルに対してジャーニーレベルで異なる値を定義できます。
 
 **[!UICONTROL メール]**&#x200B;アクションを[ジャーニー](../email/create-email.md#create-email-journey-campaign)に追加すると、プライマリメールアドレスがジャーニーの詳細設定パラメーターの下に表示されます。
 
@@ -90,6 +90,6 @@ ht-degree: 88%
 
 この値の上書きは、例えば次のような場合に便利です。
 
-* メールのテスト。自分のメールアドレスを追加できる：ジャーニーを公開するとメールが届きます。
+* メールのテスト。独自のメールアドレスを追加できます。ジャーニーを公開すると、メールが送信されます。
 * リストのサブスクライバーにメールを送信します。詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
 
