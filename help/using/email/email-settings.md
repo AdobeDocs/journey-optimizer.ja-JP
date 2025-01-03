@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
-ht-degree: 96%
+source-wordcount: '2716'
+ht-degree: 95%
 
 ---
 
@@ -57,9 +57,11 @@ ht-degree: 96%
 
 メールの送信に使用するサブドメインを選択します。
 
-ドメインのレピュテーションを保持し、IP ウォーミングプロセスを高速化し、配信品質を向上させるには、送信サブドメインをアドビにデリゲートします。[詳細情報](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>メール設定をより詳細に制御するために、動的サブドメインを定義できます。 [詳細情報](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+ドメインのレピュテーションを保持し、IP ウォーミングプロセスを高速化し、配信品質を向上させるには、送信サブドメインをアドビにデリゲートします。[詳細情報](../configuration/about-subdomain-delegation.md)
 
 
 ## IP プールの詳細 {#ip-pools}
@@ -127,6 +129,10 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 ## ヘッダーパラメーター {#email-header}
 
 「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、その設定を使用して送信されるメールのタイプに関連付けられた送信者の名前とメールアドレスを入力します。
+
+>[!NOTE]
+>
+>メール設定をより詳細に制御するために、ヘッダーパラメーターをパーソナライズできます。 [詳細情報](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 * **[!UICONTROL 送信者のメール]**：コミュニケーションに使用するメールアドレス。
