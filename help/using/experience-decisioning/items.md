@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: ht
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 100%
 
@@ -47,11 +47,12 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 1. 名前と説明を入力します。
 1. 開始日と終了日を指定します。項目は、これらの日付内の決定エンジンによってのみ検討されます。
 1. プロファイルが複数の項目に該当する場合は、他の決定項目と比較した決定項目の「**[!UICONTROL 優先度]**」を設定します。優先度が高いと、その項目は他の項目よりも優先されます。
-1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。これにより、簡単に分類し、検索を改善できます。[タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
    >[!NOTE]
    >
    >優先度は、整数データタイプです。整数データタイプであるすべての属性には、整数値（小数は含まない）を含める必要があります。
+
+1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。これにより、簡単に分類し、検索を改善できます。[タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
 1. カスタム属性を指定します（オプション）。カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。これらは、決定項目のカタログスキーマで定義されます。[カタログの操作方法を学ぶ](catalogs.md)
 
