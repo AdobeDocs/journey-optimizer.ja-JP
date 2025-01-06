@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 94%
 
 ---
 
@@ -113,11 +113,11 @@ ht-degree: 100%
    >
    >選択できるのは、**[!UICONTROL プロファイル属性]**&#x200B;と&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
 
-   例えば、営業アシスタントに代わって送信される動的なメールを処理する場合、イベントまたはキャンペーンのコンテキストパラメーターから営業アシスタントを取得します。例：
+   例えば、関係マネージャーの代わりに送信される動的なメールを処理するとします。この場合、詳細は顧客プロファイルに保存され、すべての顧客が関係マネージャーにリンクされます。 [ ジャーニー ](../building-journeys/journey-gs.md) では、プロファイル属性から取得した関係マネージャーのパラメーターを使用して、メールヘッダー（送信者名、送信者メール、返信先アドレス）をパーソナライズできます。
 
-   * [ジャーニー](../building-journeys/journey-gs.md)では、購入イベントが特定の店舗の営業アシスタントにリンクされている場合、イベント属性から取得した営業アシスタントパラメーターを使用して、メールのヘッダー（送信者名、送信者のメール、返信先のアドレス）をパーソナライズできます。
-
-   * 営業アシスタントが外部から開始する [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)では、トリガーされたメールを営業アシスタントに代わって送信したり、キャンペーンコンテキストパラメーターから取得したヘッダーパーソナライゼーション値を送信したりできます。
+   <!--The examples below use event parameters, which are currently not available.
+    
+    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.-->
 
 1. パーソナライゼーションを追加する各パラメーターに対して、上記の手順を繰り返します。
 

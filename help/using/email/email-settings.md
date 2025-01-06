@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 86%
 
 ---
@@ -366,7 +366,7 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 >
 >現在デフォルトで使用されているフィールドを確認するには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL 実行フィールド]**&#x200B;メニューにアクセスします。
 
-ただし、このデフォルトの実行フィールドは、メールチャネルの設定レベルで変更できます。
+ただし、このデフォルトの実行フィールドは、メールチャネルの設定レベルで変更できます。 その後、この設定を特定のキャンペーンやジャーニーに適用できます。
 
 これを行うには、「**[!UICONTROL 配信アドレス]**」フィールドを編集し、使用可能なメールタイプの XDM フィールドのリストから項目を選択します。
 
