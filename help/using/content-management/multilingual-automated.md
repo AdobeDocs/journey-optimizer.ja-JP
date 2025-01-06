@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
+source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 99%
@@ -164,11 +164,11 @@ ht-degree: 99%
    >
    >これらの前提条件は、アプリ内およびコンテンツカードチャネルにのみ必要です。
 
-   1. Adobe Experience Platform Data Collection で、タグのプロパティにアクセスします。
+   1. データコレクションAdobe Experience Platform、タグプロパティにアクセスします。
 
-   1. **[!UICONTROL ルール]** メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [データ収集ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください。
+   1. **[!UICONTROL ルール]** メニューにアクセスして、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [データ収集ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください。
 
-   2. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
+   1. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -177,7 +177,7 @@ ht-degree: 99%
       * 右側のパネルで、「XDM イベントタイプが personalization.request と等しい」を選択します。
       * 「**[!UICONTROL 変更を保存]**」ボタンをクリックして、確定します。
 
-   3. ルールの「**[!UICONTROL THEN]**」セクションで、次のように設定されたアクションを追加します。
+   1. ルールの「**[!UICONTROL THEN]**」セクションで、次のように設定されたアクションを追加します。
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
