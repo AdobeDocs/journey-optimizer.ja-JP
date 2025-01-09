@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
+source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 28%
+source-wordcount: '640'
+ht-degree: 22%
 
 ---
 
@@ -19,16 +19,12 @@ ht-degree: 28%
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースのチャネルで Decisioning を使用するために必要なすべての手順を示します。
 
-<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
-
-このユースケースでは、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうかは不明です。
+この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうかは不明です。
 
 ターゲットオーディエンスに最適なパフォーマンスを測定するには、[ コンテンツ実験 ](../content-management/content-experiment.md) を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
 
-<!--Set up the experiment such that:-->
-
-* 最初の処理には、ランキング方法として優先度を持つ 1 つの選択戦略が含まれます。
-* 2 番目の処理には、式をランキング方法とする異なる選択戦略が含まれます。
+* 最初の処理では、ランキング方法として優先度を使用します。
+* 2 番目の処理では、ランキング方法として式を使用します。
 
 ## 選択戦略の作成
 
@@ -36,7 +32,7 @@ ht-degree: 28%
 
 ### 最初の選択戦略を作成
 
-最初の選択戦略で、ランキング方法として「優先度」を選択します。 次の手順に従います。
+ランキング方法として優先度の高い最初の選択戦略を作成するには、次の手順に従います。
 
 1. 決定項目を作成します。 [方法について詳しくは、こちらを参照してください](items.md)
 
@@ -60,19 +56,17 @@ ht-degree: 28%
 
 1. [ 選択戦略 ](selection-strategies.md#create-selection-strategy) を作成し、考慮するオファーを含んだ [ コレクション ](collections.md) を選択します。
 
-1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。
-
-   この場合、**[!UICONTROL オファーの優先度]** を選択します。この戦略に対して実施要件を満たすオファーが複数ある場合、決定エンジンはオファーで **[!UICONTROL 優先度]** として設定された値を使用します。 [詳細情報](selection-strategies.md#offer-priority)
+1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。 この場合、**[!UICONTROL オファーの優先度]** を選択します。この戦略に対して実施要件を満たすオファーが複数ある場合、決定エンジンはオファーで **[!UICONTROL 優先度]** として設定された値を使用します。 [詳細情報](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
 
 ### 2 つ目の選択戦略を作成する
 
-2 番目の選択戦略で、ランキング方法として式を選択します。 次の手順に従います。
+ランキング方法として「式を選択」を使用して 2 つ目の選択戦略を作成するには、次の手順に従います。
 
 1. 決定項目を作成します。 [方法について詳しくは、こちらを参照してください](items.md)
 
-<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
 1. 決定項目の実施要件を設定します。
 
@@ -86,9 +80,7 @@ ht-degree: 28%
 
 1. [ 選択戦略 ](selection-strategies.md#create-selection-strategy) を作成し、考慮するオファーを含んだ [ コレクション ](collections.md) を選択します。
 
-1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。
-
-   この場合、特定の計算済みスコアを使用して実施要件を満たす配信対象オファーを選択するには、「**[!UICONTROL 式]**」を選択します。 [詳細情報](selection-strategies.md#ranking-formula)
+1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。 この場合、特定の計算済みスコアを使用して実施要件を満たす配信対象オファーを決定するには、「**[!UICONTROL 式]**」を選択します。 [詳細情報](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
@@ -106,7 +98,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-create-experiment.png)
 
-1. 「**[!UICONTROL コンテンツを編集]**」をクリックします。
+1. キャンペーンの概要ページで、コードベースの設定を選択または作成し、「**[!UICONTROL コンテンツを編集]**」をクリックします。
+
+   ![](assets/exd-uc-edit-cbe-content.png)
 
 <!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
 
