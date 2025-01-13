@@ -11,13 +11,13 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 14%
+ht-degree: 60%
 
 ---
 
 # 決定のユースケース {#experience-decisioning-uc}
 
-このユースケースでは、[!DNL Journey Optimizer] コードベースのチャネルで Decisioning を使用するために必要なすべての手順を示します。
+このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 
 この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうかは不明です。 ターゲットオーディエンスに最適なパフォーマンスを測定するには、[ コンテンツ実験 ](../content-management/content-experiment.md) を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 ## 選択戦略の作成
 
-まず、ランキング方法として優先度を持つ戦略と、ランキング方法として式を持つ戦略の 2 つの選択戦略を構築する必要があります。
+まず、ランキング方法として優先度を使用する選択戦略と、ランキング方法として式を使用する選択戦略の 2 つを作成する必要があります。
 
 >[!NOTE]
 >
@@ -34,11 +34,11 @@ ht-degree: 14%
 
 ### 優先度を使用した戦略の作成
 
-ランキング方法として優先度の高い最初の選択戦略を作成するには、次の手順に従います。
+ランキング方法として優先度を使用する最初の選択戦略を作成するには、次の手順に従います。
 
-1. 決定項目を作成します。 [方法について詳しくは、こちらを参照してください](items.md)
+1. 決定項目を作成します。[方法について詳しくは、こちらを参照してください](items.md)
 
-1. 他の項目と比較して、決定項目の **[!UICONTROL 優先度]** を設定します。 プロファイルが複数の項目の対象となる場合は、優先度を高くすると、その項目の優先度が他の項目よりも優先されます。
+1. 他の決定項目と比較した決定項目の&#x200B;**[!UICONTROL 優先度]**&#x200B;を設定します。プロファイルが複数の項目に該当する場合、優先度の高い項目が他の項目よりも優先されます。
 
    ![](assets/exd-uc-item-priority.png){width="90%"}
 
@@ -48,41 +48,41 @@ ht-degree: 14%
 
 1. 決定項目の実施要件を設定します。
 
-   * オーディエンスまたはルールを定義して、項目を特定のプロファイルのみに制限します。 [詳細情報](items.md#eligibility)
+   * オーディエンスまたはルールを定義して、項目を特定のプロファイルのみに制限します。[詳細情報](items.md#eligibility)
 
-   * キャッピングルールを設定して、オファーを提示できる最大回数を定義します。 [詳細情報](items.md#capping)
+   * キャッピングルールを設定し、オファーを提示できる最大回数を定義します。[詳細情報](items.md#capping)
 
 1. 必要に応じて、上記の手順を繰り返して、追加の決定項目を作成します。
 
-1. 決定項目を組み込む **コレクション** を作成します。 [詳細情報](collections.md)
+1. 決定項目が含まれる&#x200B;**コレクション**&#x200B;を作成します。[詳細情報](collections.md)
 
-1. [ 選択戦略 ](selection-strategies.md#create-selection-strategy) を作成し、考慮するオファーを含んだ [ コレクション ](collections.md) を選択します。
+1. [選択戦略](selection-strategies.md#create-selection-strategy)を作成し、検討するオファーを含む[コレクション](collections.md)を選択します。
 
-1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。 この場合、**[!UICONTROL オファーの優先度]** を選択します。この戦略に対して実施要件を満たすオファーが複数ある場合、決定エンジンはオファーで **[!UICONTROL 優先度]** として設定された値を使用します。 [詳細情報](selection-strategies.md#offer-priority)
+1. [ランキング方法を選択](#select-ranking-method)し、プロファイルごとに最適なオファーを選択するのに使用します。この場合、「**[!UICONTROL オファーの優先度]**」を選択します。複数のオファーがこの戦略の実施要件を満たす場合、決定エンジンはオファーの&#x200B;**[!UICONTROL 優先度]**&#x200B;として設定された値を使用します。[詳細情報](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### 式を使用して別の戦略を作成する
 
-ランキング方法として「式を選択」を使用して 2 つ目の選択戦略を作成するには、次の手順に従います。
+ランキング方法として式を使用する 2 番目の選択戦略を作成するには、次の手順に従います。
 
-1. 決定項目を作成します。 [方法について詳しくは、こちらを参照してください](items.md)
+1. 決定項目を作成します。[方法について詳しくは、こちらを参照してください](items.md)
 
    <!--Do you need to set the same **[!UICONTROL Priority]** as for the first decision item, or it won't be considered at all?-->
 
 1. 決定項目の実施要件を設定します。
 
-   * オーディエンスまたはルールを定義して、項目を特定のプロファイルのみに制限します。 [詳細情報](items.md#eligibility)
+   * オーディエンスまたはルールを定義して、項目を特定のプロファイルのみに制限します。[詳細情報](items.md#eligibility)
 
-   * キャッピングルールを設定して、オファーを提示できる最大回数を定義します。 [詳細情報](items.md#capping)
+   * キャッピングルールを設定し、オファーを提示できる最大回数を定義します。[詳細情報](items.md#capping)
 
 1. 必要に応じて、上記の手順を繰り返して、追加の決定項目を作成します。
 
-1. 決定項目を組み込む **コレクション** を作成します。 [詳細情報](collections.md)
+1. 決定項目が含まれる&#x200B;**コレクション**&#x200B;を作成します。[詳細情報](collections.md)
 
-1. [ 選択戦略 ](selection-strategies.md#create-selection-strategy) を作成し、考慮するオファーを含んだ [ コレクション ](collections.md) を選択します。
+1. [選択戦略](selection-strategies.md#create-selection-strategy)を作成し、検討するオファーを含む[コレクション](collections.md)を選択します。
 
-1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。 この場合、特定の計算済みスコアを使用して実施要件を満たす配信対象オファーを決定するには、「**[!UICONTROL 式]**」を選択します。 [詳細情報](selection-strategies.md#ranking-formula)
+1. プロファイルごとに最適なオファーを選択するのに使用する[ランキング方法を選択](#select-ranking-method)します。この場合、「**[!UICONTROL 式]**」を選択し、特定の計算済みスコアを使用して、配信する実施要件を満たすオファーを決定します。[詳細情報](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
