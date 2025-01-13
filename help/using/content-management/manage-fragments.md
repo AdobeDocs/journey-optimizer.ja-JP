@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+workflow-type: tm+mt
+source-wordcount: '979'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >式フラグメントを編集する際、パーソナライゼーションフィールドは削除できますが、フラグメントコンテンツに新しいフィールドを追加することはできません。パーソナライゼーションフィールドを追加する場合は、フラグメントを複製して新しいフィールドを作成します。
+   >フラグメントの編集時に、パーソナライゼーションフィールドを削除できますが、フラグメントコンテンツに新しいフィールドを追加することはできません。 パーソナライゼーションフィールドを追加する場合は、フラグメントを複製して新しいフィールドを作成します。
 
    また、「**エクスプローラー参照**」オプションを選択することで、フラグメントが現在使用されているジャーニー、キャンペーン、コンテンツテンプレートのリストを確認することもできます。[詳細情報](#explore-references)
 
