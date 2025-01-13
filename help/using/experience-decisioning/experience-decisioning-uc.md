@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
+source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 14%
@@ -40,7 +40,7 @@ ht-degree: 14%
 
 1. 他の項目と比較して、決定項目の **[!UICONTROL 優先度]** を設定します。 プロファイルが複数の項目の対象となる場合は、優先度を高くすると、その項目の優先度が他の項目よりも優先されます。
 
-   ![](assets/exd-uc-item-priority.png){width="80%"}
+   ![](assets/exd-uc-item-priority.png){width="90%"}
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ ht-degree: 14%
 
 1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。 この場合、**[!UICONTROL オファーの優先度]** を選択します。この戦略に対して実施要件を満たすオファーが複数ある場合、決定エンジンはオファーで **[!UICONTROL 優先度]** として設定された値を使用します。 [詳細情報](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### 式を使用して別の戦略を作成する
 
@@ -84,7 +84,7 @@ ht-degree: 14%
 
 1. [ ランキング方法を選択 ](#select-ranking-method) して、各プロファイルに最適なオファーを選択します。 この場合、特定の計算済みスコアを使用して実施要件を満たす配信対象オファーを決定するには、「**[!UICONTROL 式]**」を選択します。 [詳細情報](selection-strategies.md#ranking-formula)
 
-   ![](assets/exd-uc-strategy-formula.png)
+   ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
 ## コードベースのエクスペリエンスキャンペーンの作成
 
@@ -98,19 +98,19 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。[詳細情報](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png){width="80%"}
+   ![](assets/exd-uc-create-experiment.png){width="90%"}
 
 1. キャンペーンの概要ページで、コードベースの設定を選択し、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
-   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
+   ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
 1. コンテンツ編集ウィンドウで、**処理 A** のパーソナライズを開始するには、「**[!UICONTROL コードを編集]**」をクリックします。
 
-   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
 1. [ コードエディター ](../code-based/create-code-based.md#edit-code) から「**[!UICONTROL 決定ポリシー]**」を選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックして、決定の詳細を入力します。 [詳細情報](create-decision.md#add)
 
-   ![](assets/decision-code-based-create.png)
+   ![](assets/decision-code-based-create.png){width="90%"}
 
 1. 「**[!UICONTROL 戦略シーケンス]**」セクションで、「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 選択戦略]**」を選択します。 [詳細情報](create-decision.md#select)
 
@@ -122,19 +122,19 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 最初に作成した戦略を選択します。
 
-   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
 1. 変更を保存し、「**[!UICONTROL 作成]**」をクリックします。 新しい決定が **[!UICONTROL 決定ポリシー]** の下に追加されます。
 
 1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。次に、プロファイル属性を含む、コードに必要なすべての属性を追加します。 [詳細情報](create-decision.md#use-decision-policy)
 
-   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
+   ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
 1. 変更を保存します。
 
 1. コンテンツ編集ウィンドウに戻り、「+」ボタンを選択して **処理 B** を追加して選択し、「**[!UICONTROL コードを編集]**」をクリックします。
 
-   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
 1. 上記の手順を繰り返して、別の決定ポリシーを作成し、作成した 2 番目の選択戦略を選択します。<!--Do you need to create exactly the same content to compare only the ranking method?-->
 
