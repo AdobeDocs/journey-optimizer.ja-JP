@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 83%
 
 IP ウォームアップキャンペーンを作成するには、次の手順に従います。
 
-1. ウォームアッププラン用に識別したドメインと IP のメールチャネル [ 設定 ](channel-surfaces.md) を作成します。
+1. ウォームアッププランで特定したドメインおよび IP のメールチャネル[設定](channel-surfaces.md)を作成します。
 
-   配信品質コンサルタントと協力して、使用するドメインと IP を特定します。 メール設定でそれらを選択する方法については、[ この節 ](../email/email-settings.md#subdomains-and-ip-pools) を参照してください。
+   配信品質コンサルタントと協力して、使用するドメインと IP を特定します。[この節](../email/email-settings.md#subdomains-and-ip-pools)では、メール設定でこれらを選択する方法について説明します。
 
    >[!NOTE]
    >
-   >IP ウォームアップキャンペーンの場合は、メール設定で [ 実行アドレス ](../email/email-settings.md#execution-address) を変更した場合でも、サンドボックスレベルで設定されたデフォルトのフィールドが引き続き使用されます。 [詳細情報](primary-email-addresses.md)
+   >IP ウォームアップキャンペーンの場合、メール設定で[実行アドレス](../email/email-settings.md#execution-address)を変更しても、サンドボックスレベルで設定されたデフォルトフィールドが引き続き使用されます。[詳細情報](primary-email-addresses.md)
 
 1. スケジュールされたマーケティング[キャンペーン](../campaigns/create-campaign.md)を作成し、[メール](../email/create-email.md#create-email-journey-campaign)アクションを選択します。
 

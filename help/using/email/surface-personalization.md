@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 94%
    >
    >選択できるのは、**[!UICONTROL プロファイル属性]**&#x200B;と&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;のみです。
 
-   例えば、関係マネージャーの代わりに送信される動的なメールを処理するとします。この場合、詳細は顧客プロファイルに保存され、すべての顧客が関係マネージャーにリンクされます。 [ ジャーニー ](../building-journeys/journey-gs.md) では、プロファイル属性から取得した関係マネージャーのパラメーターを使用して、メールヘッダー（送信者名、送信者メール、返信先アドレス）をパーソナライズできます。
+   例えば、顧客プロファイルに詳細が保存される関係マネージャーに代わって送信されたメールを動的に処理し、すべての顧客が関係マネージャーにリンクされるようにするとします。[ジャーニー](../building-journeys/journey-gs.md)では、プロファイル属性から取得した関係マネージャーパラメーターを使用して、メールのヘッダー（送信者名、送信者のメール、返信先のアドレス）をパーソナライズできます。
 
    <!--The examples below use event parameters, which are currently not available.
     

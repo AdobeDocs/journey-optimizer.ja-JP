@@ -10,9 +10,9 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
 source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer は、Adobe Journey Optimizer から独立して、機�
 
 1. Microsoft Translator をプロバイダーとして使用する場合は、**[!UICONTROL サブスクリプションキー]**&#x200B;と&#x200B;**[!UICONTROL エンドポイント URL]** を入力します。
 
-   「**[!UICONTROL 認証情報を検証]**」をクリックして接続をテストします。
+   「**[!UICONTROL 資格情報を検証]**」をクリックして、接続をテストします。
 
    ![](assets/provider_3.png)
 

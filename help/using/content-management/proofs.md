@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 83%
 
 >[!PREREQUISITES]
 >
->配達確認を送信するには、ユーザーは、メールに関連付けられた特定のリソース、キャンペーンまたはジャーニーに対する **承認して公開** 権限を持っている必要があります。 [権限の詳細情報](../administration/ootb-permissions.md)
+>配達確認を送信するには、ユーザーはメールに関連付けられた特定のリソース、キャンペーンまたはジャーニーに対する&#x200B;**承認および公開**&#x200B;権限を持っている必要があります。[権限の詳細情報](../administration/ootb-permissions.md)
 
 配達確認は、メッセージをメインオーディエンスに送信する前にテストできる、特定のメッセージです。配達確認の受信者は、メッセージのレンダリング、コンテンツ、パーソナライゼーションの設定、構成などを確認します。
 
-また、[!DNL Journey optimizer] では、コンテンツの様々なバリアントをプレビューし、CSV/JSON ファイルからアップロードされたサンプル入力データを使用して配達確認を送信するか、手動で追加することで、テストすることもできます。 [詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
+また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
 
 [テストプロファイル](test-profiles.md)を選択した後にメール配達確認を送信するには、次の手順に従います。
 
