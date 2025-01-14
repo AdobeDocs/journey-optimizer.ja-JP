@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: ht
-source-wordcount: '2193'
-ht-degree: 100%
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 100%
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
-   + 更新済みレポートエクスペリエンス{#channel-report}
-      + [更新済みレポートエクスペリエンスの基本を学ぶ](using/reports/report-gs-cja.md)
+   + すべての時間レポート {#channel-report}
+      + [すべての時間レポートの基本を学ぶ](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
       + [レポーティングと実験の前提条件](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 100%
       + [概要レポート](using/reports/channel-report-cja.md)
       + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
       + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
-   + 以前のレポートエクスペリエンス {#reports}
-      + グローバルレポート {#global-report}
-         + [グローバルレポートの基本を学ぶ](using/reports/global-report.md)
-         + [コンポーネントのリスト](using/reports/global-report-components.md)
-         + [ジャーニーのグローバルレポート](using/reports/journey-global-report.md)
-         + [キャンペーンのグローバルレポート](using/reports/campaign-global-report.md)
-         + [目標レポート](using/reports/objective-report.md)
-         + [ランディングページグローバルレポート](using/reports/lp-report-global.md)
-         + [購読リストグローバルレポート](using/reports/subscription-report-global.md)
-      + チャネルレポート {#channel-report}
-         + [チャネルレポートの基本を学ぶ](using/reports/channel-report-gs.md)
-         + [チャネルレポート](using/reports/channel-report.md)
    + ジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドのリスト](using/reports/sharing-field-list.md)
