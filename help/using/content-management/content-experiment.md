@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
-workflow-type: ht
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -76,7 +76,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
    ![](assets/content_experiment_11.png)
 
-1. アプリ内または web チャネルを使用して実験をセットアップし、「**[!UICONTROL インバウンドクリック数]**」、「**[!UICONTROL ユニークインバウンドクリック数]**」、「**[!UICONTROL ページビュー数]**」、「**[!UICONTROL ユニークページビュー数]**」のいずれかの指標を選択する場合、**[!UICONTROL クリックアクション]**&#x200B;ドロップダウンで、特定のページのクリック数とビュー数を正確に追跡および監視できます。
+1. アプリ内チャネルまたは web チャネルを使用して実験を設定し、**[!UICONTROL インバウンドクリック数]**、**[!UICONTROL ユニークインバウンドクリック数]**、**[!UICONTROL ページビュー数]** または **[!UICONTROL ユニークページビュー数]** の指標を選択する場合、**[!UICONTROL クリックアクション]** ドロップダウンを使用すると、特定のページでのクリック数とビュー数を正確に追跡および監視できます。
 
    ![](assets/content_experiment_20.png)
 

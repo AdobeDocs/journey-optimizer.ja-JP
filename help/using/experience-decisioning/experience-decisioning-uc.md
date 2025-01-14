@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 60%
+source-wordcount: '789'
+ht-degree: 54%
 
 ---
 
@@ -96,7 +96,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。[詳細情報](../code-based/create-code-based.md)
 
-1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始します。[詳細情報](../content-management/content-experiment.md)
+1. キャンペーンの概要ページで、「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験を設定します。 [方法について詳しくは、こちらを参照してください](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 変更を保存し [ コードベースのエクスペリエンスキャンペーンを公開 ](../code-based/publish-code-based.md) します。
 
-[ 実験キャンペーンレポート ](../reports/campaign-global-report-cja-experimentation.md) および [ 決定に関するレポート ](cja-reporting.md) を使用して、キャンペーンのパフォーマンスを追跡できます。<!--TBC how to check which treatment performs best-->
+エクスペリエンスを実行した後、[ 実験キャンペーンレポート ](../reports/campaign-global-report-cja-experimentation.md) を使用してキャンペーン処理のパフォーマンスを追跡します。<!-- and [report on decisioning](cja-reporting.md).--> その後、実験の結果を解釈できます。 [方法について詳しくは、こちらを参照してください](../content-management/get-started-experiment.md#interpret-results)
+
+実験の結果が決定的な場合は、すべての顧客に最もパフォーマンスの高いランキングで処理をプッシュできます。 または、最もパフォーマンスの高いランキング方法がレプリケートされる選択戦略を使用して、新しいキャンペーンを作成できます。
