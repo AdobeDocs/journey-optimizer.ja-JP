@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
-workflow-type: ht
-source-wordcount: '987'
-ht-degree: 100%
+source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 93%
 
 ---
 
@@ -55,11 +55,14 @@ ISP には通常、受信したメッセージをスパムとしてレポート�
 
 ## 監視ツールの使用 {#monitoring-tools}
 
-[!DNL Journey Optimizer] が提供する機能を使用して、配信品質を監視します。
+[!DNL Journey Optimizer] が提供するレポート機能を使用して、配信品質を監視します。
 
-メッセージリストの「**[!UICONTROL 実行]**」タブを使用すると、一連のリアルタイムインジケーターを使用して、配信のパフォーマンスを確認できます。このタブには次の項目も表示されます。
+キャンペーンレポートとジャーニーレポートを使用すると、一連のリアルタイムインジケーターを使用して、配信のパフォーマンスを確認できます。 これらのプロパティには次の項目も表示されます。
+
 * 正常に実行、送信および配信されたメッセージの数。
 * 開封されたメッセージの数と、クリックされたメッセージやリンクの数。
+
+[ ライブレポート ](../reports/live-report.md) および [ 全期間レポート ](../reports/report-gs-cja.md) について説明します
 
 ## メッセージコンテンツの調整 {#adapt-message-content}
 
@@ -76,6 +79,12 @@ ISP には通常、受信したメッセージをスパムとしてレポート�
 ## 送信者としての評判を確立する {#reputation}
 
 最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立する必要があります。そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに送られる可能性があります。
+
+新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。
+
+Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。
+
+[IP ウォームアッププランの詳細情報](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
