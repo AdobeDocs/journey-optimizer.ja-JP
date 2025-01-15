@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
-workflow-type: ht
-source-wordcount: '1083'
-ht-degree: 100%
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+workflow-type: tm+mt
+source-wordcount: '1353'
+ht-degree: 80%
 
 ---
 
 # レポートの管理 {#channel-cja-manage}
 
 ## Customer Journey Analytics での分析 {#analyze}
+
+>[!AVAILABILITY]
+>
+> **CJA で分析** 機能は、[!DNL Customer Journey Analytics] ライセンスを持つユーザーのみが使用できます。
 
 ![](assets/cja-analyze.png)
 
@@ -211,3 +215,47 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 新しく作成したオーディエンスをジャーニーまたはキャンペーンで使用できるようになりました。
 
+## テンプレートの管理 {#cja-template}
+
+>[!AVAILABILITY]
+>
+> **テンプレート** 機能は段階的にロールアウトされ、1 月末までに完全な一般提供が予定されています。これは、[!DNL Customer Journey Analytics] ライセンスを持つユーザーのみが利用できます。
+
+Customer Journey Analyticsテンプレートを活用して、Journey Optimizer レポートを強化するオプションが追加されました。 [ 詳しくは、Customer Journey Analyticsテンプレートを参照してください ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+
+レポートにアクセスする際は、「**[!UICONTROL テンプレートを選択]**」ドロップダウンから 2 つのテンプレートタイプを選択できます。
+
+* Adobe提供のデフォルトテンプレート
+* 顧客が生成したテンプレート
+
+![](assets/cja_template_5.png)
+
+テンプレートが作成されていない場合、「**[!UICONTROL テンプレートを選択]**」ドロップダウンがレポートインターフェイスに表示されません。
+
+テンプレートを作成するには、次の手順に従います。
+
+1. [!DNL Customer Journey Analytics] で、**[!UICONTROL Workspace]** メニューに移動し、**[!UICONTROL Adobeテンプレート]** を選択します。 [ 使用可能なテンプレートの詳細情報 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+
+1. 使用可能な事前定義済みテンプレートを参照し、「**[!UICONTROL テンプレートを使用]**」をクリックして選択します。
+
+   ![](assets/cja_template_1.png)
+
+1. ニーズに合わせてレポートを調整します。 [Customer Journey Analyticsドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home) を参照してください。
+
+1. カスタムテンプレートが完成したら、**[!UICONTROL プロジェクト]** メニューにアクセスし、**[!UICONTROL テンプレートとして保存]** を選択します。
+
+   ![](assets/cja_template_2.png)
+
+1. テンプレートに必要な詳細を入力します。 詳しくは、[Customer Journey Analyticsドキュメント ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) を参照してください。
+
+   >[!IMPORTANT]
+   >
+   > 必ず **[!UICONTROL ユースケース]** の下の **Journey Optimizer** を選択し、対応する **Journey Optimizerアクティビティタイプ** と **アクティビティ** を指定してください。 これにより、レポートをJourney Optimizerに表示できます。
+
+   ![](assets/cja_template_3.png)
+
+1. ま [!DNL Journey Optimizer]、レポートからレポートにアクセスし、**[!UICONTROL テンプレートを選択]** ドロップダウンから以前に作成したテンプレートを選択します。
+
+   ![](assets/cja_template_4.png)
+
+ジャーニーオプティマイザーレポートからテンプレートを直接作成するには、キャンペーンまたはジャーニーレポートにアクセスし、「**[!UICONTROL CJA で分析]**」を選択し、上記の手順に従ってデフォルトテンプレートをカスタマイズします。
