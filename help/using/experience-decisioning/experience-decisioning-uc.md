@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 54%
+source-wordcount: '786'
+ht-degree: 55%
 
 ---
 
@@ -140,6 +140,6 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 変更を保存し [ コードベースのエクスペリエンスキャンペーンを公開 ](../code-based/publish-code-based.md) します。
 
-エクスペリエンスを実行した後、[ 実験キャンペーンレポート ](../reports/campaign-global-report-cja-experimentation.md) を使用してキャンペーン処理のパフォーマンスを追跡します。<!-- and [report on decisioning](cja-reporting.md).--> その後、実験の結果を解釈できます。 [方法について詳しくは、こちらを参照してください](../content-management/get-started-experiment.md#interpret-results)
+実験を実行した後、[ 実験キャンペーンレポート ](../reports/campaign-global-report-cja-experimentation.md) を使用してキャンペーン処理のパフォーマンスを追跡します。<!-- and [report on decisioning](cja-reporting.md).--> その後、実験の結果を解釈できます。 [方法について詳しくは、こちらを参照してください](../content-management/get-started-experiment.md#interpret-results)
 
-実験の結果が決定的な場合は、すべての顧客に最もパフォーマンスの高いランキングで処理をプッシュできます。 または、最もパフォーマンスの高いランキング方法がレプリケートされる選択戦略を使用して、新しいキャンペーンを作成できます。
+結果が最終的な場合は、最もパフォーマンスの高いランキングで処理をすべての顧客にプッシュできます。 または、最もパフォーマンスの高いランキング方法がレプリケートされる選択戦略を使用して、新しいキャンペーンを作成できます。
