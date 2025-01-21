@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 97%
 
 ---
 
@@ -102,13 +102,14 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 値は、オーディエンスの一意の ID を含んだ配列です。値を 1 つだけ含めることができます。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | 決定の一意の ID。 |
 | `xdm:dataSetId` | 決定イベントを書き込むことができる出力データセット。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | `placementId` および `activityId` を含むラッパー |  |
-| `xdm:activityId` | 決定の一意の ID。 | `xcore:offer-activity:1410cdcda196707b` |
-| `xdm:placementId` | 一意のプレースメント ID。 | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | 決定範囲に対してリクエストされたオプションなどの項目数を示すオプションのフィールドです。デフォルトでは、API は範囲ごとに 1 つのオプションを返しますが、このフィールドを指定することで、より多くのオプションを明示的に求めることができます。1 つの範囲につき、最低 1 個、最大 30 個のオプションをリクエストできます。 | `1` |
+| `xdm:enrichedAudience` | CSV オーディエンスをターゲットにする場合は、このパラメーターを追加して「true」に設定します | `true` |
 | `xdm:includeContent` | これはオプションのフィールドで、デフォルトでは `false` です。`true` の場合、オファーのコンテンツは、データセットの決定イベントに含まれます。 | `false` |
+| `xdm:itemCount` | 決定範囲に対してリクエストされたオプションなどの項目数を示すオプションのフィールドです。デフォルトでは、API は範囲ごとに 1 つのオプションを返しますが、このフィールドを指定することで、より多くのオプションを明示的に求めることができます。1 つの範囲につき、最低 1 個、最大 30 個のオプションをリクエストできます。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | 一意のプレースメント ID。 | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:propositionRequests` | `placementId` および `activityId` を含むラッパー |
+| `xdm:segmentIds` | 値は、オーディエンスの一意の ID を含んだ配列です。値を 1 つだけ含めることができます。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 詳しくは、[意志決定管理ドキュメント](../../get-started/starting-offer-decisioning.md)で、主な概念とプロパティの概要を参照してください。
 
