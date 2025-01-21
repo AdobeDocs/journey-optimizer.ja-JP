@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 55%
+source-wordcount: '817'
+ht-degree: 51%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 55%
 
 この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうかは不明です。 ターゲットオーディエンスに最適なパフォーマンスを測定するには、[ コンテンツ実験 ](../content-management/content-experiment.md) を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
 
-* 最初の処理では、ランキング方法として優先度を使用します。
-* 2 番目の処理では、ランキング方法として式を使用します。
+* 最初の処理では、ランキングメソッドとして **priority** を使用します。
+* 2 番目の処理では、ランキング方法として **式** を使用します。
 
 ## 選択戦略の作成
 
@@ -120,7 +120,7 @@ Define two delivery treatments each containing a different decision policy.-->
    >
    >**[!UICONTROL 決定項目]** を選択して、選択戦略を実行せずに 1 つの項目を追加することもできます。 各項目に設定された優先度が適用されます。
 
-1. 最初に作成した戦略を選択します。
+1. 最初に作成した戦略（ランキング方法として優先度が高い戦略）を選択します。
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,10 +136,17 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. 上記の手順を繰り返して、別の決定ポリシーを作成し、作成した 2 番目の選択戦略を選択します。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. 上記の手順 5 と 6 を繰り返して、別の決定ポリシーを作成し、作成した 2 番目の選択戦略（ランキング方法として式を使用する戦略）を選択します。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+   ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
+
+1. 必要に応じて決定ポリシーを編集します（上記の手順 8 および 9 を参照）。
 
 1. 変更を保存し [ コードベースのエクスペリエンスキャンペーンを公開 ](../code-based/publish-code-based.md) します。
 
 実験を実行した後、[ 実験キャンペーンレポート ](../reports/campaign-global-report-cja-experimentation.md) を使用してキャンペーン処理のパフォーマンスを追跡します。<!-- and [report on decisioning](cja-reporting.md).--> その後、実験の結果を解釈できます。 [方法について詳しくは、こちらを参照してください](../content-management/get-started-experiment.md#interpret-results)
 
-結果が最終的な場合は、最もパフォーマンスの高いランキングで処理をすべての顧客にプッシュできます。 または、最もパフォーマンスの高いランキング方法がレプリケートされる選択戦略を使用して、新しいキャンペーンを作成できます。
+結果が最終的な場合：
+
+* すべての顧客に対して、最もパフォーマンスの高いランキングで処理をプッシュできます。
+* または、最もパフォーマンスの高いランキング方法がレプリケートされる選択戦略を使用して、新しいキャンペーンを作成できます。
