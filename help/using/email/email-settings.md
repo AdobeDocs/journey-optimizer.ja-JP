@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 100%
+source-wordcount: '2804'
+ht-degree: 97%
 
 ---
 
@@ -84,6 +84,11 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 ## リスト登録解除{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="メールヘッダーに登録解除 URL を追加します"
+>abstract="Adobe外で同意を管理している場合は、「**顧客管理**」オプションを選択して、カスタム購読解除メールアドレスと独自のワンクリック購読解除 URL を入力します。 この場合、Adobeには登録解除情報が保存されないことに注意してください。 顧客の同意情報の所有者は、同意データを管理し、Journey Optimizerにプッシュする責任を負います。"
 
 リストから[サブドメインを選択](#subdomains-and-ip-pools)すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。
 
