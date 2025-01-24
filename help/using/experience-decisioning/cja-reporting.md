@@ -8,9 +8,9 @@ level: Experienced
 badge: label="限定提供"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +35,4 @@ Customer Journey Analytics を操作している場合は、決定を活用し�
 
 1. **データビュー**&#x200B;を作成し、前に作成した接続に関連付けます。「**[!UICONTROL コンポーネント]**」タブで、レポートに表示する関連スキーマフィールドを選択します。決定の場合は、「**propositioninteract**」フィールドと「**propositiondisplay**」フィールドを必ず含めてください。[詳しくは、データビューの作成および設定方法を参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. **ワークスペースプロジェクト** のデータコンポーネント、テーブル、ビジュアライゼーションを組み合わせて、コードベースのキャンペーン用のレポートを作成および共有します。 [詳しくは、ワークスペースプロジェクトの作成方法を参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. **ワークスペースプロジェクト**&#x200B;でデータコンポーネント、テーブル、ビジュアライゼーションを組み合わせて、コードベースのキャンペーンのレポートを作成して共有します。[詳しくは、ワークスペースプロジェクトの作成方法を参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

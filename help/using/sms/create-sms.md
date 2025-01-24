@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ SMS コンテンツを設定するには、次の手順に従います。MMS の
 
    >[!CAUTION]
    >
-   > 短い URL の有効期間は 15 日に設定されています。 この期間が経過すると、これらの短い URL にはアクセスできなくなり、次のメッセージが表示されます：`404 short-code not found`。
+   > 短縮 URL の有効期間は 15 日に設定されています。この期間が経過すると、これらの短縮 URL にはアクセスできなくなり、`404 short-code not found` というメッセージが表示されます。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。メッセージのコンテンツをテストして確認するには、[この節](#sms-mms-test)を参照してください。
 

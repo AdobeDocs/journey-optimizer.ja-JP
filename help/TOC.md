@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer を使用して、連続性があり�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -390,14 +390,14 @@ ht-degree: 99%
    + [ライセンス使用状況](using/audience/license-usage.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
-      + [ライブレポートの概要](using/reports/live-report.md)
+      + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
       + [コンポーネントのリスト](using/reports/live-report-components.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストライブレポート](using/reports/subscription-report-live.md)
-   + すべての時間レポート {#channel-report}
-      + [すべての時間レポートの基本を学ぶ](using/reports/report-gs-cja.md)
+   + 全期間のレポート{#channel-report}
+      + [全期間のレポートの基本を学ぶ](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
       + [レポーティングと実験の前提条件](using/reports/reporting-configuration.md)

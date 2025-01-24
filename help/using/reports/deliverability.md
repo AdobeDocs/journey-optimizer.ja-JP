@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ ISP には通常、受信したメッセージをスパムとしてレポート�
 
 [!DNL Journey Optimizer] が提供するレポート機能を使用して、配信品質を監視します。
 
-キャンペーンレポートとジャーニーレポートを使用すると、一連のリアルタイムインジケーターを使用して、配信のパフォーマンスを確認できます。 これらのプロパティには次の項目も表示されます。
+キャンペーンとジャーニーのレポートを使用すると、一連のリアルタイムインジケーターを使用して、配信のパフォーマンスを確認できます。次の項目も表示されます。
 
 * 正常に実行、送信および配信されたメッセージの数。
 * 開封されたメッセージの数と、クリックされたメッセージやリンクの数。
 
-[ ライブレポート ](../reports/live-report.md) および [ 全期間レポート ](../reports/report-gs-cja.md) について説明します
+詳しくは、[ライブレポート](../reports/live-report.md)と[全期間のレポート](../reports/report-gs-cja.md)を参照してください。
 
 ## メッセージコンテンツの調整 {#adapt-message-content}
 
@@ -82,9 +82,9 @@ ISP には通常、受信したメッセージをスパムとしてレポート�
 
 新しい IP アドレスでメールを送信する際に、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できるようになりました。
 
-Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスをウォームアップします。
+Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスのウォームアップを行います。
 
-[IP ウォームアッププランの詳細情報](../configuration/ip-warmup-gs.md)
+[詳しくは、IP ウォームアッププランを参照してください](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
