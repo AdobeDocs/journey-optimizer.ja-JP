@@ -11,7 +11,7 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 51%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 
-この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうかは不明です。 ターゲットオーディエンスに最適なパフォーマンスを測定するには、[ コンテンツ実験 ](../content-management/content-experiment.md) を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
+この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうか確信が持てません。ターゲットオーディエンスに最適なパフォーマンスを測定するには、[ コンテンツ実験 ](../content-management/content-experiment.md) を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
 
 * 最初の処理では、ランキングメソッドとして **priority** を使用します。
 * 2 番目の処理では、ランキング方法として **式** を使用します。
@@ -30,7 +30,7 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->選択戦略を実行しなくても、1 つの決定項目を作成できます。 各項目に設定された優先度が適用されます。
+>また、選択戦略を介さずに 1 つの決定項目を作成することもできます。各項目に設定されている優先度が適用されます。
 
 ### 優先度を使用した戦略の作成
 
@@ -62,7 +62,7 @@ ht-degree: 51%
 
    ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
-### 式を使用して別の戦略を作成する
+### 式を使用した別の戦略の作成
 
 ランキング方法として式を使用する 2 番目の選択戦略を作成するには、次の手順に従います。
 
@@ -92,11 +92,11 @@ ht-degree: 51%
 
 Define two delivery treatments each containing a different decision policy.-->
 
-2 つの選択戦略を設定したら、コードベースのエクスペリエンスキャンペーンを作成します。このキャンペーンでは、パフォーマンスが最も高い戦略を比較するために、戦略ごとに異なる処理を定義します。
+2 つの選択戦略を設定したら、最も高パフォーマンスの戦略を比較するために、戦略ごとに異なる処理を定義するコードベースのエクスペリエンスキャンペーンを作成します。
 
 1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。[詳細情報](../code-based/create-code-based.md)
 
-1. キャンペーンの概要ページで、「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験を設定します。 [方法について詳しくは、こちらを参照してください](../content-management/content-experiment.md)
+1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験を設定します。[方法について詳しくは、こちらを参照してください](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -104,35 +104,35 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
-1. コンテンツ編集ウィンドウで、**処理 A** のパーソナライズを開始するには、「**[!UICONTROL コードを編集]**」をクリックします。
+1. コンテンツ編集ウィンドウから、**処理 A** のパーソナライズを開始するには、「**[!UICONTROL コードを編集]**」をクリックします。
 
    ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
-1. [ コードエディター ](../code-based/create-code-based.md#edit-code) から「**[!UICONTROL 決定ポリシー]**」を選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックして、決定の詳細を入力します。 [詳細情報](create-decision.md#add)
+1. [コードエディター](../code-based/create-code-based.md#edit-code)から「**[!UICONTROL 決定ポリシー]**」を選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックして、決定の詳細を入力します。[詳細情報](create-decision.md#add)
 
    ![](assets/decision-code-based-create.png){width="90%"}
 
-1. 「**[!UICONTROL 戦略シーケンス]**」セクションで、「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 選択戦略]**」を選択します。 [詳細情報](create-decision.md#select)
+1. 「**[!UICONTROL 戦略シーケンス]**」セクションで、「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 選択戦略]**」を選択します。[詳細情報](create-decision.md#select)
 
    ![](assets/decision-code-based-strategy-sequence.png){width="80%"}
 
    >[!NOTE]
    >
-   >**[!UICONTROL 決定項目]** を選択して、選択戦略を実行せずに 1 つの項目を追加することもできます。 各項目に設定された優先度が適用されます。
+   >また、「**[!UICONTROL 決定項目]**」を選択して、選択戦略を介さずに 1 つの項目を追加することもできます。各項目に設定されている優先度が適用されます。
 
 1. 最初に作成した戦略（ランキング方法として優先度が高い戦略）を選択します。
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. 変更を保存し、「**[!UICONTROL 作成]**」をクリックします。 新しい決定が **[!UICONTROL 決定ポリシー]** の下に追加されます。
+1. 変更を保存し、「**[!UICONTROL 作成]**」をクリックします。**[!UICONTROL 決定ポリシー]**&#x200B;の下に新しい決定が追加されます。
 
-1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。次に、プロファイル属性を含む、コードに必要なすべての属性を追加します。 [詳細情報](create-decision.md#use-decision-policy)
+1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。次に、必要なすべての属性（プロファイル属性を含む）をコードに追加します。[詳細情報](create-decision.md#use-decision-policy)
 
    ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
 1. 変更を保存します。
 
-1. コンテンツ編集ウィンドウに戻り、「+」ボタンを選択して **処理 B** を追加して選択し、「**[!UICONTROL コードを編集]**」をクリックします。
+1. コンテンツ編集ウィンドウに戻り、「+」ボタンを選択して&#x200B;**処理 B** を追加し、これを選択して「**[!UICONTROL コードを編集]**」をクリックします。
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
@@ -142,11 +142,11 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 必要に応じて決定ポリシーを編集します（上記の手順 8 および 9 を参照）。
 
-1. 変更を保存し [ コードベースのエクスペリエンスキャンペーンを公開 ](../code-based/publish-code-based.md) します。
+1. 変更を保存し、[コードベースのエクスペリエンスキャンペーンを公開](../code-based/publish-code-based.md)します。
 
-実験を実行した後、[ 実験キャンペーンレポート ](../reports/campaign-global-report-cja-experimentation.md) を使用してキャンペーン処理のパフォーマンスを追跡します。<!-- and [report on decisioning](cja-reporting.md).--> その後、実験の結果を解釈できます。 [方法について詳しくは、こちらを参照してください](../content-management/get-started-experiment.md#interpret-results)
+実験を実行した後、[実験キャンペーンレポート](../reports/campaign-global-report-cja-experimentation.md)を使用して、キャンペーン処理のパフォーマンスを追跡します。<!-- and [report on decisioning](cja-reporting.md).-->その後、実験の結果を解釈できます。[方法について詳しくは、こちらを参照してください](../content-management/get-started-experiment.md#interpret-results)
 
 結果が最終的な場合：
 
 * すべての顧客に対して、最もパフォーマンスの高いランキングで処理をプッシュできます。
-* または、最もパフォーマンスの高いランキング方法がレプリケートされる選択戦略を使用して、新しいキャンペーンを作成できます。
+* または、最もパフォーマンスの高いランキング方法を複製する選択戦略を使用して、新しいキャンペーンを作成することもできます。
