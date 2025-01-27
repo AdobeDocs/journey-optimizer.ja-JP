@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
+source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
-source-wordcount: '2804'
-ht-degree: 97%
+source-wordcount: '2801'
+ht-degree: 96%
 
 ---
 
@@ -83,12 +83,12 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 ## リスト登録解除{#list-unsubscribe}
 
-<!--Do not modify - Legal Review Done -->
-
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="メールヘッダーに登録解除 URL を追加します"
+>title="カスタムのリスト – 登録解除エンドポイントを入力"
 >abstract="Adobe外で同意を管理している場合は、「**顧客管理**」オプションを選択して、カスタム購読解除メールアドレスと独自のワンクリック購読解除 URL を入力します。 この場合、Adobeには登録解除情報が保存されないことに注意してください。 顧客の同意情報の所有者は、同意データを管理し、Journey Optimizerにプッシュする責任を負います。"
+
+<!--Do not modify - Legal Review Done -->
 
 リストから[サブドメインを選択](#subdomains-and-ip-pools)すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。
 
@@ -123,13 +123,13 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 **[!UICONTROL 宛先（登録解除）]**&#x200B;機能と&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** 機能はオプションです。
 
-デフォルトで生成されたワンクリック登録解除 URL を使用しない場合は、この機能をオフにできます。「**[!UICONTROL リスト登録解除を有効にする]**」オプションがオンに切り替わり、**[!UICONTROL ワンクリック登録解除 URL]** 機能がオフになっているシナリオで、この設定を使用して作成されたメッセージに[ワンクリックオプトアウトリンク](../privacy/opt-out.md#one-click-opt-out)を追加する場合、リスト登録解除ヘッダーは、メールの本文に挿入したワンクリックオプトアウトリンクをピックアップし、それをワンクリック登録解除 URL 値として使用します。
+デフォルトで生成されたワンクリック登録解除 URL を使用しない場合は、この機能をオフにできます。「**[!UICONTROL リスト登録解除を有効にする]**」オプションがオンに切り替わり、**[!UICONTROL ワンクリック登録解除 URL]** 機能がオフになっているシナリオで、この設定を使用して作成されたメッセージに[ワンクリックオプトアウトリンク](../email/email-opt-out.md#one-click-opt-out)を追加する場合、リスト登録解除ヘッダーは、メールの本文に挿入したワンクリックオプトアウトリンクをピックアップし、それをワンクリック登録解除 URL 値として使用します。
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->メッセージコンテンツにワンクリックオプトアウトリンクを追加せず、チャネル設定でデフォルトのワンクリック登録解除 URL をオンにしていない場合、メールヘッダーにリスト登録解除ヘッダーの一部として URL が渡されることはありません。
+>メッセージコンテンツにワンクリックオプトアウトリンクを追加せず、チャネル設定でデフォルトの **[!UICONTROL ワンクリック購読解除 URL]** がオフになっている場合、リストの購読解除ヘッダーの一部としてメールヘッダーに渡される URL はありません。
 
 メッセージにおける登録解除機能の管理について詳しくは、[この節](../email/email-opt-out.md#unsubscribe-header)を参照してください。
 
