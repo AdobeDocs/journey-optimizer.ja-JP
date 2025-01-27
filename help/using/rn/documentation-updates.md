@@ -8,16 +8,28 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: ht
-source-wordcount: '5767'
-ht-degree: 100%
+source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+workflow-type: tm+mt
+source-wordcount: '5888'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
+
+## 2025年1月 {#jan-2025}
+
+* メール設定の **[!UICONTROL 実行アドレス]** オプションに関する新しい節が追加されました。 プライマリアドレスはサンドボックスレベルで定義されますが、特定のメール設定に対してデフォルト設定を上書きできます。 [詳細情報](../email/email-settings.md#execution-address)
+
+* **配信品質の概要** ページが更新され、ユーザーインターフェイスから直接 IP ウォームアップワークフローを作成できるようになりました。 [詳細情報](../reports/deliverability.md#reputation)
+
+* **ヘッダーパラメーター** の節が更新され、ユーザーインターフェイスの新しいラベルと変更が反映されました。 [詳細情報](../email/email-settings.md#email-header)
+
+* 「**転送メール**」セクションが更新され、**送信者メール** アドレスに送信されたすべてのメールが転送メールアドレスに転送されるように指定されました。 転送メールが指定されていない場合、これらのメールは破棄されます。 [詳細情報](../email/email-settings.md##forward-email)
+
+<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
 ## 2024年12月 {#nov-2024}
 
@@ -30,7 +42,7 @@ ht-degree: 100%
 * **コードベースのエクスペリエンスの設定**&#x200B;ページが改善され、サーフェス URI の概要を説明する節など、プロセスがより明確になりました。[詳細情報](../code-based/code-based-configuration.md)
 * **Web チャネル設定の作成**&#x200B;ページが更新され、コードベースのエクスペリエンス設定にも適用されるページ一致ルールを作成する手順が明確になりました。[詳細情報](../web/web-configuration.md#web-page-matching-rule)
 * システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。[詳細情報](../data/get-started-datasets.md)
-* ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「デバイスでプレビュー」オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。[詳細情報](../code-based/test-code-based.md#preview-on-device)
+* ジャーニーやキャンペーンでコンテンツをシミュレートする際に、「**デバイスでプレビュー** オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。 [詳細情報](../code-based/test-code-based.md#preview-on-device)
 * 決定のカスタムアップロードオーディエンスの活用方法に関する新しいページが追加されました。[詳細情報](../offers/custom-upload-decisioning.md)
 * Journey Optimizer で使用可能な決定機能を紹介する新しいページが追加されました。[詳細情報](../experience-decisioning/gs-decision.md)
 * ガードレールと制限が決定ドキュメントに追加されました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md#guardrails)
