@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
 workflow-type: tm+mt
 source-wordcount: '5888'
 ht-degree: 97%
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 * **ヘッダーパラメーター** の節が更新され、ユーザーインターフェイスの新しいラベルと変更が反映されました。 [詳細情報](../email/email-settings.md#email-header)
 
-* 「**転送メール**」セクションが更新され、**送信者メール** アドレスに送信されたすべてのメールが転送メールアドレスに転送されるように指定されました。 転送メールが指定されていない場合、これらのメールは破棄されます。 [詳細情報](../email/email-settings.md##forward-email)
+* 「**転送メール**」セクションが更新され、**送信者メール** アドレスに送信されたすべてのメールが転送メールアドレスに転送されるように指定されました。 転送メールが指定されていない場合、これらのメールは破棄されます。 [詳細情報](../email/email-settings.md#forward-email)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
