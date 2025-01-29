@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 8c7fca7789931fbae6ac5d4821bc051ff9eb0923
+source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 100%
@@ -68,8 +68,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 -d '{
     "xdm:propositionRequests": [
         {
-            "xdm:activityId": "xcore:offer-activity:15ded04b1786ea27",
-            "xdm:placementId": "xcore:offer-placement:15d9bc01d35e1238"
+            "xdm:activityId": "dps:offer-activity:15ded04b1786ea27",
+            "xdm:placementId": "dps:offer-placement:15d9bc01d35e1238"
         }
     ],
     "xdm:profiles": [
@@ -108,8 +108,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
 | `xdm:propositionRequests` | このオブジェクトには、プレースメント ID と決定 ID が含まれています。 |
-| `xdm:propositionRequests.xdm:placementId` | 一意のプレースメント ID。 | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | 一意の決定 ID。 | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests.xdm:placementId` | 一意のプレースメント ID。 | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | 一意の決定 ID。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 返されるオファーの数。最大値は 30 です。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | このオブジェクトは、決定がリクエストされるプロファイルに関する情報を保持します。API リクエストの場合は、プロファイルが 1 つ含まれます。 |
 | `xdm:profiles.xdm:identityMap` | このオブジェクトは、ID の名前空間統合コードに基づく一連のエンドユーザー ID を保持します。ID マップには各名前空間の複数の ID を保持できます。名前空間の詳細については、[このページ](../../../audience/get-started-identity.md)を参照してください。 | `Email: [{"xdm:id": "123@abc.com"}]` |
@@ -135,22 +135,22 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
   "xdm:propositions": [
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0456",
+        "xdm:id": "dps:placement:ffed0456",
         "repo:etag": 1
       },
       "xdm:options": [
         {
-          "xdm:id": "xcore:personalized-option:ccc0111",
+          "xdm:id": "dps:personalized-option:ccc0111",
           "repo:etag": 3,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>some html</html>"
         },
         {
-          "xdm:id": "xcore:personalized-option:ccc0222",
+          "xdm:id": "dps:personalized-option:ccc0222",
           "repo:etag": 5,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>hello, world</html>",
@@ -160,15 +160,15 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
     },
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0789",
+        "xdm:id": "dps:placement:ffed0789",
         "repo:etag": 2
       },
       "xdm:fallback": {
-        "xdm:id": "xcore:fallback:ccc0222",
+        "xdm:id": "dps:fallback:ccc0222",
         "repo:etag": 5,
         "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
         "dc:format": "image/png",
@@ -185,13 +185,13 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | XDM DecisionEvent に関連付けられた提案エンティティの一意の ID。 | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
 | `xdm:propositions` | このオブジェクトには、決定の提案が 1 つ含まれています。決定に対して複数のオプションが返されることもあります。オプションが見つからない場合は、決定のフォールバックオファーが返されます。1 つの決定の提案には、`options` プロパティまたは `fallback` プロパティが常に含まれています。`options` プロパティは（存在する場合）、空にすることはできません。 |
-| `xdm:propositions.xdm:activity` | このオブジェクトには、決定の一意の ID が含まれます。 | `"xdm:id": "xcore:activity:ffed0123"` |
-| `xdm:propositions.xdm:placement` | このオブジェクトには、オファープレースメントの一意の ID が含まれます。 | `"xdm:id": "xcore:placement:ffed0456"` |
-| `xdm:propositions.xdm:options` | このオブジェクトには、単一のオプションが含まれます（一意の ID を含む）。指定する場合、このオブジェクトを空にすることはできません。 | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:activity` | このオブジェクトには、決定の一意の ID が含まれます。 | `"xdm:id": "dps:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | このオブジェクトには、オファープレースメントの一意の ID が含まれます。 | `"xdm:id": "dps:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | このオブジェクトには、単一のオプションが含まれます（一意の ID を含む）。指定する場合、このオブジェクトを空にすることはできません。 | `xdm:id": "dps:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | コンポーネントのタイプを定義します。`@type` は、クライアントの処理契約の役割を果たします。エクスペリエンスがアセンブルされると、コンポーザーは特定のタイプを持つコンポーネントを探します。 | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
 | `xdm:propositions.xdm:content` | 応答コンテンツの形式。 | 応答コンテンツは、`text`、`html block`、または `image link` です。 |
 | `xdm:score` | オプションのスコア。オプションのスコアは、オプションまたは決定に関連付けられたランキング関数の計算結果です。ランク付けの際にオファーのスコアの決定にランキング関数が関与する場合、このフィールドは API から返されます。 | `"xdm:score": 45.65` |
-| `xdm:propositions.xdm:fallback` | このオブジェクトには、単一のフォールバックオファーが含まれます（一意の ID を含む）。 | `"xdm:id": "xcore:fallback:ccc0222"` |
+| `xdm:propositions.xdm:fallback` | このオブジェクトには、単一のフォールバックオファーが含まれます（一意の ID を含む）。 | `"xdm:id": "dps:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | リソースの物理的またはデジタル的な表示。通常、形式にはリソースのメディアタイプを含める必要があります。形式は、リソースを表示または操作するのに必要なソフトウェア、ハードウェア、または他の機器を決定するために使用できます。コンピューターメディア形式を定義する[インターネットメディアタイプ](https://www.iana.org/assignments/media-types/)のリストなど、制御された用語から値を選択することをお勧めします。 | `"dc:format": "image/png"` または `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | コンテンツ配信ネットワークまたはサービスエンドポイントからアセットを読み取るためのオプションの URL。この URL は、ユーザーエージェントからアセットに公開でアクセスするために使用されます。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 決定応答メッセージが作成された時間。これはエポック時間として表されます。 | `"ode:createDate": 1566497582038` |
