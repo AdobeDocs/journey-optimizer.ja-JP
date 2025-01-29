@@ -6,10 +6,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 72%
 
 ---
 
@@ -25,6 +25,10 @@ Journey Optimizer を使用すると、オファーカタログを Adobe Experie
 * 決定
 
 オファーライブラリでこれらのオブジェクトの 1 つが変更されるたびに、新しい書き出しジョブが自動的に実行され、データセットが更新されます。
+
+>[!NOTE]
+>
+>この機能はデフォルトで有効になっています。 追加のアクティベーション手順を行わずに使用を開始できます。 有効にすると、書き出しジョブが自動化され、顧客側でのアクションは必要なくなります。
 
 <!--
 >[!NOTE]
