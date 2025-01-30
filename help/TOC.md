@@ -5,8 +5,8 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: ht
+source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
+workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 100%
 
@@ -304,7 +304,6 @@ ht-degree: 100%
       + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
-   + [Adobe Experience Manager コンテンツフラグメント](using/content-management/aem-fragments.md)
    + AI アシスタントの操作{#ai-assistant}
       + [AI アシスタントのコンテンツアクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI によるメール生成](using/content-management/generative-email.md)
@@ -371,6 +370,7 @@ ht-degree: 100%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
+   + [Adobe Experience Manager コンテンツフラグメント](using/content-management/aem-fragments.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
