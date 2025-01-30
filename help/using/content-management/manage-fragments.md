@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 56%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 56%
 各フラグメントの横にある「**[!UICONTROL その他のアクション]**」ボタンから、次の操作を実行できます。
 
 * エクスポート用にパッケージに追加します。 [詳細情報](#export)
-* フラグメントがライブの場合は、ドラフトバージョンを開いて編集します。 [詳細情報](#edit-fragments)
+* ライブフラグメントが編集されている場合は、そのフラグメントのドラフトバージョンを開きます。 [詳細情報](#edit-fragments)
 * フラグメントを複製します。
 * 「**[!UICONTROL 参照を探索]**」オプションを使用して、使用されているジャーニー、キャンペーン、テンプレートを確認します。[詳細情報](#explore-references)
 * フラグメントをアーカイブします。 [詳細情報](#archive-fragments)

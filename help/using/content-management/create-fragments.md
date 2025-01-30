@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 87%
+source-wordcount: '639'
+ht-degree: 82%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 87%
 
 1. コンテンツをデザインした後にフラグメントの作成画面に戻るか、フラグメントのリストから開きます。
 
-1. フラグメントのプレビューは、「**[!UICONTROL タグ]**」フィールドで利用でき、レンダリングを確認できます。変更を行う必要がある場合は、画面の上部セクションで「**[!UICONTROL 編集]**」ボタンをクリックして、フラグメントのタイプに応じてE メールデザイナーまたはパーソナライゼーションエディターを開きます。
+1. フラグメントのプレビューは、「**[!UICONTROL タグ]**」フィールドで利用でき、レンダリングを確認できます。変更が必要な場合は、画面の上部セクションにある「**[!UICONTROL 編集]**」ボタンをクリックし、フラグメントタイプに応じて、メールDesignerまたはパーソナライゼーションエディターを開きます。 [詳細情報](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
