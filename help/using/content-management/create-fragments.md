@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '626'
 ht-degree: 87%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 87%
 
 1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してフラグメントを分類し、検索の向上を図ります。[詳しくは、統合タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)
 
-1. フラグメントタイプ（**ビジュアルフラグメント**&#x200B;または&#x200B;**式フラグメント**）を選択します。[詳しくは、ビジュアルフラグメントと式フラグメントを参照してください](../content-management/fragments.md#visual-expression)
+1. フラグメントタイプ（**ビジュアルフラグメント**&#x200B;または&#x200B;**式フラグメント**）を選択します。[詳細情報](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
