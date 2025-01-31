@@ -8,9 +8,9 @@ level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -81,11 +81,11 @@ ht-degree: 94%
 
 1. 次のように、抽出ファイルのプロパティを調整します。
 
-   1. **[!UICONTROL ファイル名]** フィールドに、抽出ファイルの名前を指定します。
+   1. 「**[!UICONTROL ファイル名]**」フィールドで、抽出ファイルの名前を指定します。
 
       >[!NOTE]
       >
-      >デフォルトでは、ファイルはルートディレクトリに書き込まれます。 **[!UICONTROL ファイル名]** フィールドには、「/your/path/here/Filename.csv」の形式を使用できます。指定したパスは、選択したサーバー上のターゲットディレクトリです。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >デフォルトでは、ファイルはルートディレクトリに書き込まれます。「**[!UICONTROL ファイル名]**」フィールドでは、「/your/path/here/Filename.csv」という形式が受け入れられます。指定したパスは、選択したサーバー上のターゲットディレクトリです。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. 指定したファイル名に自動タイムスタンプを付加する場合は、「**[!UICONTROL 書き出しファイル名にタイムスタンプを追加]**」オプションを有効にします。
 

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -96,13 +96,13 @@ Web ページやモバイルアプリのコードベースのエクスペリエ�
      >
      >**Adobe Experience Platform Assurance** は、モバイルアプリでデータを収集したりエクスペリエンスを提供したりする方法を検査、配達確認、シミュレーション、検証できる Adobe Experience Cloud の製品です。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home){target="_blank"}
 
-1. コードベースの設定で任意の [ その他のプラットフォーム ](code-based-configuration.md#other) を使用している場合は、プレビューする [ サーフェス URI](code-based-surface.md#surface-uri) をドロップダウンリストから選択します。
+1. コードベースの設定で[他のプラットフォーム](code-based-configuration.md#other)を使用している場合は、ドロップダウンリストからプレビューする[サーフェス URI](code-based-surface.md#surface-uri) を選択します。
 
    ![](assets/preview-on-device-other.png)
 
-   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択して、リンクをブラウザータブに貼り付けたり、チームや関係者とリンクを共有したりします。
+   * 「**[!UICONTROL リンクをコピー]**」ボタンを選択して、リンクをブラウザーのタブにペーストしたり、チームや関係者とリンクを共有したりします。
 
-   * 複数の URI を設定に追加した場合（最大 10 個）、任意の URI を選択してプレビューできます。
+   * 設定に複数の URI（最大 10 個）を追加した場合は、そのいずれかを選択してプレビューできます。
 
 1. プレビューリンクは、選択したテストプロファイルに対して生成され、ジャーニーまたはキャンペーンで[コンテンツ実験](../content-management/content-experiment.md)を使用している場合は、選択した処理に対して生成されます。
 

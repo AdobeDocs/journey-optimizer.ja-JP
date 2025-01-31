@@ -10,9 +10,9 @@ level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -35,24 +35,24 @@ ht-degree: 71%
 
 ## ワンステップオプトアウト {#opt-out-one-step}
 
-[!DNL Adobe Journey Optimizer] を使用すると、自動生成されたワンクリック購読解除 URL と宛先アドレスをメールヘッダーに含めて [ メール設定 ](email-settings.md#list-unsubscribe) を設定したり、メール本文にワンクリックオプトアウト URL を含めたりできます。
+[!DNL Adobe Journey Optimizer] を使用すると、メールヘッダーに自動生成されたワンクリック登録解除 URL と宛先アドレスを使用して[メール設定](email-settings.md#list-unsubscribe)を行ったり、メール本文にワンクリックオプトアウト URL を含めたりすることができます。
 
-受信者がワンクリックオプトアウトリンクをクリックすると、受信者の登録解除リクエストが適切に処理されます。
+受信者がワンクリックオプトアウトリンクをクリックすると、受信者の登録解除リクエストがそれに応じて処理されます。
 
-### メールヘッダーのワンクリック購読解除 URL {#unsubscribe-header}
+### メールヘッダーのワンクリック登録解除 URL {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="メールへの購読解除 URL の追加"
->abstract="List-Unsubscribe を有効にして、メールヘッダーに購読解除 URL を自動的に追加します。 また、ワンクリックオプトアウトリンクをメールコンテンツに挿入することで、メッセージに購読解除 URL を設定することもできます。"
+>title="メールへの登録解除 URL の追加"
+>abstract="リスト登録解除を有効にすると、メールヘッダーに登録解除 URL が自動的に追加されます。また、メールのコンテンツにワンクリックオプトアウトリンクを挿入することで、メッセージに登録解除 URL を設定することもできます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メールコンテンツからのワンクリックオプトアウト"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メール設定で List-Unsubscribe を有効にします"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メール設定でのリスト登録解除の有効化"
 
-ワンクリックリスト登録解除 URL は、メール送信者情報の横に表示される登録解除リンクまたはボタンです。受信者はワンクリックでメーリングリストから即座にオプトアウトできます。
+ワンクリックリスト登録解除 URL は、メールの送信者情報の横に表示される登録解除リンクまたはボタンであり、受信者は 1 回のクリックでメーリングリストから即座にオプトアウトできます。
 
-ま [!DNL Adobe Journey Optimizer]、**List-Unsubscribe を有効にする** オプションがオンになっている場合、メールヘッダーには、デフォルトで受信者がメーリングリストから購読解除するために使用できる mailto や URL の両方が含まれます。
+[!DNL Adobe Journey Optimizer] では、「**リスト登録解除を有効にする**」オプションをオンにすると、メールヘッダーには、受信者がメーリングリストから登録解除に使用できる宛先と URL の両方がデフォルトで含まれます。
 
 この設定を使用するメールのメールヘッダーにワンクリック登録解除 URL が含まれるようにするには、チャネル設定レベルで[リスト登録解除を有効にする](email-settings.md#list-unsubscribe)切替スイッチをアクティブ化する必要があります。
 
@@ -61,7 +61,7 @@ ht-degree: 71%
 >メールヘッダーにワンクリック登録解除 URL を表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
 
 
-例えば、ワンクリック購読解除 URL は、Gmail で以下のような購読解除リンクを表示します。
+例えば、ワンクリック登録解除 URL は、Gmail で次のような登録解除リンクが表示されます。
 
 ![](assets/unsubscribe-header.png)
 
@@ -77,14 +77,14 @@ ht-degree: 71%
 
 メールクライアントと[メール設定の登録解除設定](email-settings.md#list-unsubscribe)に応じて、メールヘッダーの登録解除リンクをクリックすると、次のような影響を受ける可能性があります。
 
-* **宛先（登録解除）** 機能が有効な場合、登録解除リクエストは、設定したサブドメインに基づいてデフォルトの登録解除アドレスに送信されます。
-* **ワンクリック購読解除 URL** 機能が有効な場合、またはメール本文コンテンツに購読解除 URL を挿入した場合、受信者がワンクリック購読解除 URL （設定したサブドメインに基づく）をクリックすると、チャネルレベルまたは ID レベル（同意の設定方法による）で直接オプトアウトされます。
+* **宛先（登録解除）**&#x200B;機能を有効にすると、登録解除リクエストは、設定したサブドメインに基づいてデフォルトの登録解除アドレスに送信されます。
+* **ワンクリック登録解除 URL** 機能が有効になっている場合や、メール本文コンテンツに登録解除 URL を挿入した場合、受信者が、（設定したサブドメインに基づく）ワンクリック登録解除 URL をクリックすると、チャネルレベルまたは ID レベル（同意の設定方法によって異なる）で直接オプトアウトされます。
 
 ![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
 
 どちらの場合も、受信者の対応するプロファイルは直ちにオプトアウトされ、この選択が Experience Platform で更新されます。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
-[ メール設定 ](email-settings.md#list-unsubscribe) で「**[!UICONTROL リスト – 購読解除を有効にする]**」オプションをオンにした場合、「**宛先（購読解除）**」と「**ワンクリック購読解除 URL** の両方のメソッドを有効にすることをお勧めします。 すべてのメールクライアントが HTTP メソッドをサポートしているわけではありません。宛先のリスト – 購読解除機能を使用して代わりの受信者を選択すると、送信者の評判を保護し、すべての受信者が購読解除機能を使用できるようになります。 [詳細情報](email-settings.md#list-unsubscribe)
+[メール設定](email-settings.md#list-unsubscribe)で「**[!UICONTROL リスト登録解除を有効にする]**」オプションをオンにしている場合は、**宛先（登録解除）**&#x200B;と&#x200B;**ワンクリック登録解除 URL** の両方の方法を有効にすることをお勧めします。すべてのメールクライアントが HTTP メソッドをサポートしているわけではありません。代替方法を選択できるように提供されている宛先リスト登録解除機能を使用すると、送信者の評判をより適切に保護でき、すべての受信者が登録解除機能を使用できます。[詳細情報](email-settings.md#list-unsubscribe)
 
 
 ### メールコンテンツからのワンクリックオプトアウト {#one-click-opt-out}
@@ -100,13 +100,13 @@ ht-degree: 71%
 
    >[!NOTE]
    >
-   >[ チャネル設定レベル ](email-settings.md#list-unsubscribe) で **[!UICONTROL List-Unsubscribe]** オプションを有効にし、デフォルトの **[!UICONTROL ワンクリック購読解除 URL]** オプションをオフにした場合、このランディングページ URL は、ユーザーがメールヘッダーの購読解除リンクをクリックした際にも使用されます。 [詳細情報](#unsubscribe-header)
+   >「**[!UICONTROL リスト登録解除]**」オプションを[チャネル設定レベル](email-settings.md#list-unsubscribe)で有効にし、デフォルトの「**[!UICONTROL ワンクリック登録解除 URL]**」オプションをオフにした場合は、ユーザーがメールヘッダーの登録解除リンクをクリックしたときにも、このランディングページ URL が使用されます。[詳細情報](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    リンクをパーソナライズできます。パーソナライズされた URL について詳しくは、[この節](../personalization/personalization-syntax.md)を参照してください。
 
-1. オプトアウトを適用する方法として、チャネルまたは ID レベルを選択します。
+1. オプトアウトを適用する方法として、チャネルレベルまたは ID レベルを選択します。
 
    ![](assets/message-tracking-opt-out-level.png)
 

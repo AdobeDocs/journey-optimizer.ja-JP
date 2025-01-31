@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >ファイルを保存するサーバー上のパスを指定するには、ダイレクトメールキャンペーンの **[!UICONTROL ファイル名]** フィールドを更新して、目的のパスを含めます。 [詳細情報](create-direct-mail.md#extraction-file)
+   >ファイルを保存するサーバー上のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
 
 1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
@@ -156,7 +156,7 @@ ht-degree: 96%
 
    * **コンテナ名**：**コンテナ名**&#x200B;を見つけるには、[このページ](https://learn.microsoft.com/ja-jp/azure/storage/blobs/blob-containers-portal)を参照してください。
 
-     **コンテナ名**&#x200B;には、コンテナ名のみをスラッシュなしで含める必要があります。ファイルを保存するためのコンテナ内のパスを指定するには、ダイレクトメールキャンペーンの **[!UICONTROL ファイル名]** フィールドを更新して、目的のパスを含めます。 [詳細情報](create-direct-mail.md#extraction-file)
+     **コンテナ名**&#x200B;には、コンテナ名のみをスラッシュなしで含める必要があります。ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
 
 1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 

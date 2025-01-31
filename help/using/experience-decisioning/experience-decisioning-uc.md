@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 85%
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 
-この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうか確信が持てません。ターゲットオーディエンスに最適なパフォーマンスを測定するには、[ コンテンツ実験 ](../content-management/content-experiment.md) を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
+この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうか確信が持てません。ターゲットオーディエンスに最適なパフォーマンスを測定するには、[コンテンツ実験](../content-management/content-experiment.md)を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
 
-* 最初の処理では、ランキングメソッドとして **priority** を使用します。
-* 2 番目の処理では、ランキング方法として **式** を使用します。
+* 最初の処理では、ランキング方法として&#x200B;**優先度**&#x200B;を使用します。
+* 2 番目の処理では、ランキング方法として&#x200B;**式**&#x200B;を使用します。
 
 ## 選択戦略の作成
 
@@ -120,7 +120,7 @@ Define two delivery treatments each containing a different decision policy.-->
    >
    >また、「**[!UICONTROL 決定項目]**」を選択して、選択戦略を介さずに 1 つの項目を追加することもできます。各項目に設定されている優先度が適用されます。
 
-1. 最初に作成した戦略（ランキング方法として優先度が高い戦略）を選択します。
+1. 作成した最初の戦略（ランキング方法として優先度を使用する戦略）を選択します。
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,7 +136,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. 上記の手順 5 と 6 を繰り返して、別の決定ポリシーを作成し、作成した 2 番目の選択戦略（ランキング方法として式を使用する戦略）を選択します。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. 上記の手順 5 と 6 を繰り返して別の決定ポリシーを作成し、作成した 2 番目の選択戦略（ランキング方法として式を使用する戦略）を選択します。<!--Do you need to create exactly the same content to compare only the ranking method?-->
 
    ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
 
@@ -148,5 +148,5 @@ Define two delivery treatments each containing a different decision policy.-->
 
 結果が最終的な場合：
 
-* すべての顧客に対して、最もパフォーマンスの高いランキングで処理をプッシュできます。
+* 最もパフォーマンスの高いランキングで処理をすべてのお客様にプッシュできます。
 * または、最もパフォーマンスの高いランキング方法を複製する選択戦略を使用して、新しいキャンペーンを作成することもできます。
