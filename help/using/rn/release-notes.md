@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: ht
-source-wordcount: '2172'
-ht-degree: 100%
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 99%
 
 ---
 
@@ -40,6 +40,14 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
+### 機能強化 {#25-01-improvements}
+
+このリリースでは、以下に示す機能強化が含まれています。
+
+**決定**
+
+* 決定では、項目カタログのスキーマを編集する際に、オブジェクトデータタイプをサポートするようになりました。 [詳細情報](../experience-decisioning/catalogs.md)
 
 ## 2024年10月リリース {#24-10-rn}
 
