@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
-workflow-type: ht
-source-wordcount: '2854'
-ht-degree: 100%
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
+workflow-type: tm+mt
+source-wordcount: '2834'
+ht-degree: 98%
 
 ---
 
@@ -85,8 +85,8 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="カスタムリスト登録解除エンドポイントの入力"
->abstract="アドビの外部で同意を管理している場合は、「**顧客管理**」オプションを選択して、カスタムの登録解除メールアドレスと独自のワンクリック登録解除 URL を入力します。この場合、アドビでは登録解除情報を保存していません。顧客の同意情報の所有者は、顧客の同意データを管理し、Journey Optimizer にプッシュバックする責任があります。"
+>title="購読解除データの管理方法を定義"
+>abstract="**Adobe管理**：同意データは、Adobeシステム内でユーザーによって管理されます。<br>**顧客管理**：同意データは外部システムでユーザーによって管理され、ユーザーによって開始されない限り、同意データのAdobeは同期システムで更新されません。"
 
 <!--Do not modify - Legal Review Done -->
 
