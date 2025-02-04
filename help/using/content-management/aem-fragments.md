@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 3d0576983854b5cc33d8dc956c601b638164a813
-workflow-type: ht
-source-wordcount: '405'
-ht-degree: 100%
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 85%
 
 ---
 
@@ -67,16 +67,9 @@ AEM コンテンツフラグメントについて詳しくは、[Experience Mana
 
 1. 使用可能なリストから&#x200B;**[!UICONTROL コンテンツフラグメント]**&#x200B;を選択して、Journey Optimizer コンテンツに読み込みます。
 
-   >[!IMPORTANT]
-   >
-   >公開済みの&#x200B;**[!UICONTROL コンテンツフラグメント]**&#x200B;のみを使用できます。
-
 1. 「**[!UICONTROL フィルターを表示]**」をクリックして、コンテンツフラグメントリストを微調整します。
 
-   コンテンツフラグメントセレクターには事前設定済みのフィルターが含まれています。
-
-   * **[!UICONTROL ステータス]**：公開済み、変更済み
-   * **[!UICONTROL タグ]**：Journey Optimizer 環境（組織 ID とサンドボックス）に基づいて自動的に定義されます
+   デフォルトでは、コンテンツフラグメントフィルターは、承認済みのコンテンツのみを表示するようにプリセットされています。
 
    ![](assets/aem_campaign_4.png)
 
@@ -84,7 +77,9 @@ AEM コンテンツフラグメントについて詳しくは、[Experience Mana
 
    ![](assets/aem_campaign_5.png)
 
-1. **[!UICONTROL コンテンツフラグメント]**&#x200B;から目的のフィールドを選択して、コンテンツに追加します。
+1. **[!UICONTROL コンテンツフラグメント]** から目的のフィールドを選択して、コンテンツに追加します。 コンテンツを追加するか、その値をコピーできます。
+
+   値のコピーを選択した場合、**[!UICONTROL コンテンツフラグメント]** に対するそれ以降の更新は、キャンペーンやジャーニーには反映されません。
 
    ![](assets/aem_campaign_6.png)
 
