@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 90%
 
 ---
 
 # Web ジャーニーレポート {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+ユーザーは一度に複数のジャーニーに関与できるので、ジャーニーレポートには複数のジャーニーの情報が同時に表示される場合があります。 その結果、同時にアクティブなジャーニーに参加しているユーザーに対してインバウンド通信（アプリ内、web およびコードベース）がトリガーされた場合、複数のジャーニーに表示され、データが重なってしまう可能性があります。
+
+>[!ENDSHADEBOX]
 
 ## インプレッションとクリックのトレンド {#impressions-web}
 
@@ -115,4 +122,3 @@ ht-degree: 100%
 * **[!UICONTROL ユニーク表示数]**：メッセージが開封された回数。1 つのプロファイルによる複数回のインタラクションは考慮されません。
 
 +++
-
