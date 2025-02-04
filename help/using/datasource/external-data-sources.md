@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 89%
@@ -91,7 +91,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
    * **[!UICONTROL 値]**：&quot;1234&quot;（API キーの値）
    * **[!UICONTROL 位置]**：「クエリパラメーター」（API キーは URL 内にあります）
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを追加します。フィールドグループ名には、英数字とアンダースコアのみを使用できます。最大長は 30 文字です。この例では、各パラメーターセット（都市と経度／緯度）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
 
