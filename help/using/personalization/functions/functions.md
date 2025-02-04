@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 100%
+source-wordcount: '2390'
+ht-degree: 85%
 
 ---
 
@@ -102,7 +102,37 @@ ht-degree: 100%
 
 <table>
     <tr>
+        <td><a href="dates.md#add-days">日数を追加</a></td><td>この関数は、正の値を増分、負の値を減分して、指定した日付を指定した日数だけ調整します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-hours">時間数を追加</a></td><td>この関数は、指定された日付を指定された時間数で調整します。増分には正の値を使用し、減分には負の値を使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-minutes">分数を追加</a></td><td>この関数は、指定された日付を指定された分数で調整します。増分には正の値、減分には負の値を使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-months">月数を追加</a></td><td>この関数は、指定された日付を指定された月数で調整し、正の値を増分に、負の値を減分に使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-seconds">秒数を追加</a></td><td>この関数は、指定された日付を指定された秒数で調整します。増分には正の値を使用し、減分には負の値を使用します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-years">年数を追加</a></td><td>この関数は、指定された日付を指定された年数で調整します。増分には正の値、減分には負の値を使用します。</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#age">年齢</a></td><td>この関数は、指定された日付からの経過時間を取得します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-days">日数</a></td><td>この関数は、指定された日付の年齢を日数で計算します。つまり、指定された日付から現在の日付までの経過日数、将来の日付の場合はマイナス、過去の日付の場合はプラスになります。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-months">月数</a></td><td>この関数は、指定された日付の年齢を月単位で計算します。つまり、指定された日付から現在の日付までの経過月数を、将来の日付の場合は負の値、過去の日付の場合は正の値で計算します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#compare-dates">日付を比較</a></td><td>この関数は、最初の入力日付を他の入力日付と比較します。date1 が date2 と等しい場合は 0 を返し、date1 が date2 より前の場合は -1 を返し、date1 が date2 より後の場合は 1 を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime を変換</a></td><td>この関数は、日時を指定のタイムゾーンに変換します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#current">現在の時刻 (ミリ秒)</a></td><td>この関数は、現在の時刻をエポックミリ秒で取得します。</td>
@@ -111,10 +141,28 @@ ht-degree: 100%
         <td><a href="dates.md#date-diff">日付の差異</a></td><td>この関数は、2 つの日付間の差異を日数単位で取得します。</td>
     </tr>
     <tr>
+        <td><a href="dates.md#day-month">月の日</a></td><td>この関数は、その月の日付を表す数値を返します。</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#day-week">曜日</a></td><td>この関数は、曜日を取得します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">通日</a></td><td>この関数は、通日（1月1日からの通算日数）を取得します。</td>
+        <td><a href="dates.md#day-year">通日</a></td><td>この関数は、通日（1 月 1 日からの通算日数）を取得します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-seconds">秒数の差異</a></td><td>この関数は、秒数単位で 2 つの日付間の差異を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-hours">時間数を抽出</a></td><td>この関数は、指定されたタイムスタンプから時間コンポーネントを抽出します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-minutes">分数を抽出</a></td><td>この関数は、指定されたタイムスタンプから分コンポーネントを抽出します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-months">月数を抽出</a></td><td>この関数は、指定されたタイムスタンプから月コンポーネントを抽出します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-seconds">秒数を抽出</a></td><td>この関数は、指定されたタイムスタンプから秒コンポーネントを抽出します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">日付をフォーマット</a></td><td>この関数は、日時値を書式設定します。</td>
@@ -123,16 +171,47 @@ ht-degree: 100%
         <td><a href="dates.md#format-date-locale">日付をロケールサポートの形式にする</a></td><td>この関数は、日付と時刻の値を、目的のロケールなどの対応する言語に依存する表現にフォーマットします。</td>
     </tr>
     <tr>
+        <td><a href="dates.md#get-current-zoned-date-time">CurrentZonedDateTime を取得</a></td><td>この関数は、タイムゾーン情報を含む現在の日時を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#hours-difference">時間数の差異</a></td><td>この関数は、2 つの日付間の差異を時間で返します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-minutes">分数の差異</a></td><td>この関数は、2 つの日付間の差異を分単位で返します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#months-difference">月数の差異</a></td><td>この関数は、2 つの日付間の差異を月数で返します。</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#set-days">日数を設定</a></td><td>この関数は、指定された日時の日付を設定します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">時間を設定</a></td><td>この関数は、日時の時を設定します。</td>
+        <td><a href="dates.md#set-hours">時間を設定</a></td><td>この関数は、日時の時間を設定します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換します。 無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">UTC に</a></td><td>この関数は、日時を UTC に変換します。</td>
     </tr>
     <tr>
+        <td><a href="dates.md#truncate-day">開始日に切り捨て</a></td><td>この関数は、指定された日時を、その日の始まり (時刻 : 00:00) に設定して変更します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>この関数は、日付と時刻を四半期の最初の日（1 月 1 日、4 月 1 日、7 月 1 日、10 月 1 日）の 00:00 に切り捨てます。
+</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>この関数は、指定された日時を、週の始まり (月曜日の 00:00) に設定して変更します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>この関数は、指定された日時を、年の最初の日 (1月1日) の 00:00 に切り捨てて変更します。</td>
+    </tr>
+    <tr>
         <td><a href="dates.md#week-of-year">年間通算週</a></td><td>この関数は、年の週番号（何週目か）を返します。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-years">年数の差異</a></td><td>この関数は、2 つの日付間の差異を年単位で返します。</td>
     </tr>
 </table>
 </table>

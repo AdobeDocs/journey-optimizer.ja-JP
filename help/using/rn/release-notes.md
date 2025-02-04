@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 99%
+source-wordcount: '2212'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 99%
 **決定**
 
 * 決定では、項目カタログのスキーマを編集する際に、オブジェクトデータタイプをサポートするようになりました。 [詳細情報](../experience-decisioning/catalogs.md)
+
+**パーソナライゼーション**
+
+* 新しい日付/時間ヘルパー関数を、パーソナライゼーションエディターで使用できるようになりました。 [詳細情報](../personalization/functions/dates.md)
 
 ## 2024年10月リリース {#24-10-rn}
 
