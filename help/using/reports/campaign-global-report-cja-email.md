@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
+source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
+workflow-type: tm+mt
+source-wordcount: '1062'
+ht-degree: 92%
 
 ---
 
 # メールキャンペーンレポート {#campaign-global-report-cja-email}
+
+>[!BEGINSHADEBOX]
+
+Appleでは、メールプライバシー保護など、ネイティブのメールアプリに新しいプライバシー保護機能が導入されたため、送信者は、Appleのメールプライバシー保護を有効にしているプロファイルのデータを収集するためにトラッキングピクセルを使用することができなくなりました。 その結果、トラッキングピクセルを使用してメールの開封数を追跡するAdobe Journey Optimizer機能に影響が及ぶ場合があります。 [ 詳細情報 ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780):Apple iOSのプライバシー変更がメールマーケティングに与える影響について
+
+より正確なインサイトを得るには、開封率ではなくクリック数とコンバージョン指標に焦点を当てることをお勧めします。
+
+>[!ENDSHADEBOX]
 
 ## 配信済みとクリックのトレンド {#delivered-click}
 

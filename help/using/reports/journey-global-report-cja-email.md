@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '955'
-ht-degree: 100%
+exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
+source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 92%
 
 ---
 
 # メールジャーニーレポート {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Appleでは、メールプライバシー保護など、ネイティブのメールアプリに新しいプライバシー保護機能が導入されたため、送信者は、Appleのメールプライバシー保護を有効にしているプロファイルのデータを収集するためにトラッキングピクセルを使用することができなくなりました。 その結果、トラッキングピクセルを使用してメールの開封数を追跡するAdobe Journey Optimizer機能に影響が及ぶ場合があります。 [ 詳細情報 ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780):Apple iOSのプライバシー変更がメールマーケティングに与える影響について
+
+より正確なインサイトを得るには、開封率ではなくクリック数とコンバージョン指標に焦点を当てることをお勧めします。
+
+>[!ENDSHADEBOX]
 
 ## 配信済みとクリックのトレンド {#delivered-click}
 
