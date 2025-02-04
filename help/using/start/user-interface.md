@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
-workflow-type: ht
-source-wordcount: '1374'
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+workflow-type: tm+mt
+source-wordcount: '1370'
 ht-degree: 100%
 
 ---
@@ -245,11 +245,6 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >abstract="承認（ジャーニー）"
 
 <!-- ExD in email-->
-
->[!CONTEXTUALHELP]
->id="ajo_email_enable_experience_decisioning"
->title="決定を有効にする"
->abstract="決定を有効にする"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"

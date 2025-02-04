@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
 # 決定の基本を学ぶ {#get-started-experience-decisioning}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_enable_experience_decisioning"
+>title="決定とは何ですか？"
+>abstract="意思決定は、意思決定管理の他に、意思決定エンジンから最適な項目を選択し、各個人に配信する新しいツールです。 使用するには、追加の設定が必要です。"
 
 ## 決定とは {#about}
 
