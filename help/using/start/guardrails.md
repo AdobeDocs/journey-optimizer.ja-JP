@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 98%
+source-wordcount: '2421'
+ht-degree: 95%
 
 ---
 
 # ガードレールと制限 {#limitations}
 
+[!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
+
 使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
 また、開始する前に、[ リアルタイム顧客プロファイルデータのガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} を認識しておく必要があります。
 
-[!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
+
+>[!NOTE]
+>
+>まれに、特定の地域で一時的に停止が発生すると、有効なプロファイルがジャーニーから除外されたり、誤ってバウンスとマークされたメールが送信されたりする場合があります。 サービスが復元されたら、ジャーニーログを再確認し、同意プロファイルフィールドを確認し、必要に応じてジャーニーを再公開します。 ISP のサービスが停止した場合は、抑制リストからプロファイルを削除する方法を [ この節 ](../configuration/manage-suppression-list.md#remove-from-suppression-list) で説明します。
+>
 
 ## サポートされているブラウザー {#browsers}
 
