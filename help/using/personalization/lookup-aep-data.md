@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式、エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+workflow-type: tm+mt
+source-wordcount: '1043'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **アクション**&#x200B;は、有効または無効です。
 * **アクセストークン**&#x200B;は、Developer Console から取得できます。
 * **API キー**&#x200B;は、Developer Console から取得できます。
-* **IMS 組織 ID** は Adobe IMS 組織です。
+* **IMS 組織 ID** はAdobe組織です。
 * **サンドボックス名**&#x200B;は、データセットが含まれるサンドボックス名です（実稼動、開発など）。
 
 >[!NOTE]

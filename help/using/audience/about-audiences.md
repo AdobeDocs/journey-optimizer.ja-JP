@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
-workflow-type: ht
-source-wordcount: '2011'
-ht-degree: 100%
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+workflow-type: tm+mt
+source-wordcount: '2162'
+ht-degree: 92%
 
 ---
 
@@ -90,21 +90,21 @@ ht-degree: 100%
 >
 >構成ワークフローを使用して作成されたオーディエンスからのエンリッチメント属性を使用するには、それらが「ExperiencePlatform」データソース内のフィールドグループに追加されていることを確認します。
 >
->+++ エンリッチメント属性をフィールドグループに追加する方法を学ぶ>
++++ エンリッチメント属性をフィールドグループに追加する方法を学ぶ>
 >
->1. 「管理」／「設定」／「データソース」に移動します。
->1. 「Experience Platform」を選択し、フィールドグループを作成または編集します。
->1. スキーマセレクターで、適切なスキーマを選択します。スキーマの名前は、「Schema for audienceId:」 + オーディエンス ID の形式になります。オーディエンスの ID は、オーディエンスインベントリのオーディエンスの詳細画面で確認できます。
->1. フィールドセレクターを開き、追加するエンリッチメント属性を見つけて、その横にあるチェックボックスをオンにします。
->1. 変更を保存します。
->1. エンリッチメント属性がフィールドグループに追加されたら、上記の場所で Journey Optimizer で活用できます。
+1. 「管理」／「設定」／「データソース」に移動します。
+1. 「Experience Platform」を選択し、フィールドグループを作成または編集します。
+1. スキーマセレクターで、適切なスキーマを選択します。スキーマの名前は、「Schema for audienceId:」 + オーディエンス ID の形式になります。オーディエンスの ID は、オーディエンスインベントリのオーディエンスの詳細画面で確認できます。
+1. フィールドセレクターを開き、追加するエンリッチメント属性を見つけて、その横にあるチェックボックスをオンにします。
+1. 変更を保存します。
+1. エンリッチメント属性がフィールドグループに追加されたら、上記の場所で Journey Optimizer で活用できます。
 >
->データソースについて詳しくは、次の節を参照してください。
+データソースについて詳しくは、次の節を参照してください。
 >
->* [Adobe Experience Platform データソースの操作](../datasource/adobe-experience-platform-data-source.md)
->* [データソースの設定](../datasource/configure-data-sources.md)
+* [Adobe Experience Platform データソースの操作](../datasource/adobe-experience-platform-data-source.md)
+* [データソースの設定](../datasource/configure-data-sources.md)
 >
->+++
++++
 
 ## オーディエンスの評価方法 {#evaluation-method-in-journey-optimizer}
 
@@ -118,7 +118,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 >[!NOTE]
 >
->ストリーミングセグメント化条件として適切なイベントを使用するようにしてください。[詳細情報](#streaming-segmentation-events-guardrails)
+ストリーミングセグメント化条件として適切なイベントを使用するようにしてください。[詳細情報](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -152,9 +152,26 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
 
+### [!BADGE  限定提供 ]{type=Informative} 柔軟なオーディエンス評価（限定提供） {#flexible}
+
+>[!AVAILABILITY]
+>
+柔軟なオーディエンス評価は、一連の組織（使用制限あり）でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
+
+Adobe Experience Platform Audience ポータルを使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行し、Journey Optimizerのジャーニーやキャンペーンにターゲティングする前に常に最新のオーディエンスデータを入手することができます。
+
+柔軟なオーディエンス評価を使用すると、次のことが可能です。
+
+1. 最新のデータに基づいて、新しいセグメントを作成します。
+1. オーディエンスをリアルタイムで評価して、精度を確保します。 それには、評価するオーディエンスを選択し、特定の条件（ユーザーベース、セグメント化サービスオリジンなど）を満たす場合は「オーディエンスを評価」を選択します。
+1. Adobe Journey Optimizerでの評価済みオーディエンスの使用
+正確なターゲティングのためのキャンペーンまたはジャーニー。
+
+一度に最大 20 個のオーディエンスを評価できます。不適格なオーディエンスは自動的に除外されます。 詳しくは、[Audience Portal ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation) を参照してください。
+
 ### ストリーミングセグメント化によるイベントの使用 {#streaming-segmentation-events-guardrails}
 
-ストリーミングセグメント化は、価値の高いユースケースでのリアルタイムのパーソナライゼーションに役立ちます。ただし、セグメント化条件として使用する適切な[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}を選択することが重要です。
+ストリーミングセグメント化は、価値の高いユースケースでのリアルタイムのパーソナライゼーションに役立ちます。ただし、適切な [ イベント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events) を選択することが重要です{target="_blank"}
 
 したがって、ストリーミングセグメント化の最適なパフォーマンスを得るには、次のイベントを使用しないでください。
 
@@ -168,7 +185,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 >[!NOTE]
 >
->**開封済みメッセージ**&#x200B;および&#x200B;**送信済みメッセージ**&#x200B;イベントは、パフォーマンスを問題とすることなくバッチセグメント化で使用できます。
+**開封済みメッセージ**&#x200B;および&#x200B;**送信済みメッセージ**&#x200B;イベントは、パフォーマンスを問題とすることなくバッチセグメント化で使用できます。
 
 ## オーディエンス構成とカスタムアップロードに関するよくある質問 {#faq}
 
@@ -184,7 +201,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
   >[!NOTE]
   >
-  >カスタムアップロードオーディエンスでは、繰り返しジャーニーで「増分読み取り」が有効になっている場合、これらのオーディエンスは固定されているので、プロファイルは最初の繰り返しでのみ取得されます。
+  カスタムアップロードオーディエンスでは、繰り返しジャーニーで「増分読み取り」が有効になっている場合、これらのオーディエンスは固定されているので、プロファイルは最初の繰り返しでのみ取得されます。
 
 また、これらのオーディエンスをパーソナライゼーションエディターで使用して、ジャーニーやキャンペーンでのメッセージをパーソナライズすることもできます。[パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 

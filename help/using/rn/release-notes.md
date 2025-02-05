@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 98%
+source-wordcount: '2278'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,22 @@ ht-degree: 98%
 </p>
 <p>詳しくは、<a href="../reports/report-cja-manage.md#cja-template">詳細なドキュメント</a>を参照してください。</p>
 <p> <b>テンプレート</b>機能は段階的にロールアウトされ、1月末までに完全な一般公開が予定されています。</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>柔軟なオーディエンス評価（限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>柔軟なオーディエンス評価を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行し、Journey Optimizerのジャーニーやキャンペーンにターゲティングする前にオーディエンスデータを常に最新の状態に保つことができます。</p>
+<p>詳しくは、<a href="../audience/about-audiences.md#flexible">詳細なドキュメント</a>を参照してください。</p>
+<p> 柔軟なオーディエンス評価は、一連の組織（使用制限あり）でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 </tr>
 </tbody>
 </table>

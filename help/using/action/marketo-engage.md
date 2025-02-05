@@ -8,13 +8,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo、Marketo Engage 統合
-source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 93%
 
 ---
-
 
 # Marketo Engage との統合 {#integrating-with-marketo-engage}
 
@@ -26,7 +26,7 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 ## 前提条件 {#prerequisites}
 
 * Marketo Engage の顧客インスタンスは、IMS 対応である必要があります。
-* Marketo Engage インスタンスと AEP/AJO インスタンスは、同じ IMS 組織内に存在する必要があります。
+* Marketo EngageインスタンスとAdobe Experience Platform/Journey Optimizer インスタンスは同じ組織内にある必要があります。
 * 顧客は **MktoSync：取り込みサービスへのアクセス**&#x200B;をプロビジョニングする必要があります
 
 ## アクションの設定 {#configure-marketo-action}
@@ -113,4 +113,3 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 * 「**リクエストパラメーター**」セクションで、ペイロードに設定した動的な値を持つ各パラメーターに対して「編集」をクリックします。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
-
