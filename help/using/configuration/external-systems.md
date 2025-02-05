@@ -8,8 +8,8 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
-workflow-type: ht
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 データソースやアクションを設定する際は、システムへの接続を確立して、ジャーニーで使用する追加情報を取得するか、メッセージや API 呼び出しを送信します。
 
-ジャーニー API では 1 秒あたり最大 5000 イベントをサポートしていますが、一部の外部システムや API は同等のスループットを持たない場合があります。これらのシステムの過負荷を防ぐために、**Capping** API と **Throttling** API を使用して、1 秒あたりに送信されるイベントの数を制限できます。
+ジャーニー API では 1 秒あたり最大 5,000 イベントをサポートしていますが、一部の外部システムや API は同等のスループットを持たない場合があります。これらのシステムの過負荷を防ぐために、**Capping** API と **Throttling** API を使用して、1 秒あたりに送信されるイベントの数を制限できます。
 
 API 呼び出しがジャーニーによって実行されるたびに、API エンジンを通過します。API で設定された制限に達すると、Capping API を使用している場合は呼び出しが拒否され、Throttling API を使用している場合は最大 6 時間キューに入れられ、受信した順序でできるだけ早く処理されます。
 

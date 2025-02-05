@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f706a7b2511d6d0314e3b6df4cd08d44abf29a5e
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 100%

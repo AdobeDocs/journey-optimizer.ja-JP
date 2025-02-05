@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 93%
