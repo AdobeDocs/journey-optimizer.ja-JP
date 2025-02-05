@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
 workflow-type: tm+mt
-source-wordcount: '5907'
-ht-degree: 97%
+source-wordcount: '5938'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 97%
 * 「**転送メール**」セクションが更新され、**送信者メール** アドレスに送信されたすべてのメールが転送メールアドレスに転送されるように指定されました。 転送メールが指定されていない場合、これらのメールは破棄されます。 [詳細情報](../email/email-settings.md#forward-email)
 
 * API トリガーのキャンペーンリクエストに渡されるコンテキスト属性の最大サイズが 200 KB に更新されました。 [詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
+
+* **フラグメントの管理** ページに、ライブのフラグメントに新しい属性を追加する方法を説明する新しい節が追加されました。 ページ全体も改善されました。 [詳細情報](../content-management/manage-fragments.md#adding-new-attributes)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
