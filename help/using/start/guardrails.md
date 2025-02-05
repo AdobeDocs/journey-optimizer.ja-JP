@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2476'
 ht-degree: 95%
 
 ---
@@ -38,6 +38,15 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
 * [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
 
+## データセットガードレール {#datasets-guardrails}
+
+2025年2月以降、**新しいサンドボックスと新しい組織**&#x200B;の Journey Optimizer システム生成データセットに、次のように有効期間（TTL）ガードレールがロールアウトされます。
+
+* プロファイルストアのデータの場合は 90 日
+* データレイクのデータの場合は 13 か月
+
+これらのガードレールの詳細については、[ よくある質問 ](../data/datasets-ttl.md#ttl) の節を参照してください。
+
 ## ランディングページガードレール {#lp-guardrails}
 
 * 単一のプライマリページで使用できる&#x200B;**フォーム**&#x200B;コンポーネントは 1 つだけです。
@@ -54,7 +63,6 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ### Web チャネルのガードレール {#web-guardrails}
 
 [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
-
 
 ## サブドメインガードレール {#subdomain-guardrails}
 

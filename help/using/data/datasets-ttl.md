@@ -7,13 +7,13 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
-workflow-type: ht
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # 有効期間とストリーミングセグメント化の変更 {#ttl-guardrail}
 
@@ -41,13 +41,11 @@ ht-degree: 100%
 
 +++
 
-
 +++ この変更により、反応イベントは影響を受けますか？
 
 この変更は、ジャーニーの反応イベントには影響しません。
 
 +++
-
 
 +++ この変更は、本番サンドボックスにのみ適用されますか？それとも開発サンドボックスにも適用されますか？
 
