@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 92%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 100%
 
 ライブジャーニーの場合は、次にアクセスできます。
 
-* **[!UICONTROL エントリ済みプロファイル]**：ジャーニーから退出した個人の合計数（エラーを含む）。
-* **[!UICONTROL 退出済みプロファイル]**：終了条件が原因でジャーニーをそのアクティビティから退出した個人の合計数。
+* **[!UICONTROL エントリしたプロファイル]**：ジャーニーにエントリした個人の合計数。
+* **[!UICONTROL 退出したプロファイル]**：ジャーニーから退出した個人の合計数（エラーを含む）。
 * **[!UICONTROL エラーのあるプロファイル]**：ジャーニー中にエラーが発生した個人の合計数。
 * **[!UICONTROL 破棄されたプロファイル]**：次のいずれかの理由でジャーニーから破棄された個人の合計数。
 
