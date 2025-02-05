@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
+source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
-source-wordcount: '5938'
+source-wordcount: '5954'
 ht-degree: 96%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 96%
 * API トリガーのキャンペーンリクエストに渡されるコンテキスト属性の最大サイズが 200 KB に更新されました。 [詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
 
 * **フラグメントの管理** ページに、ライブのフラグメントに新しい属性を追加する方法を説明する新しい節が追加されました。 ページ全体も改善されました。 [詳細情報](../content-management/manage-fragments.md#adding-new-attributes)
+
+* 競合管理および優先順位付けツールのドキュメントに、「ガードレールと制限」の節が追加されました。 [詳細情報](../conflict-prioritization/gs-conflict-prioritization.md)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
