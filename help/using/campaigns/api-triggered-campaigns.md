@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
-workflow-type: ht
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -110,7 +110,7 @@ API トリガー型キャンペーンを使用すると、追加のデータを 
 
 >[!IMPORTANT]
 >
->リクエストに渡すコンテキスト属性は 50 KB を超えることはできず、常に文字列タイプと見なされます。
+>リクエストに渡すコンテキスト属性は 200 KB を超えることはできず、常に文字列タイプと見なされます。
 >
 >`context.system` 構文はアドビ内部での使用のみに制限されているので、コンテキスト属性を渡すために使用しないでください。
 
