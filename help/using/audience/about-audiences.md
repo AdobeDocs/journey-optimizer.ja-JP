@@ -7,11 +7,10 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2160'
 ht-degree: 92%
 
 ---
@@ -152,7 +151,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
 
-### [!BADGE  限定提供 ]{type=Informative} 柔軟なオーディエンス評価（限定提供） {#flexible}
+### [!BADGE  限定提供 ]{type=Informative} 柔軟なオーディエンス評価 {#flexible}
 
 >[!AVAILABILITY]
 >
