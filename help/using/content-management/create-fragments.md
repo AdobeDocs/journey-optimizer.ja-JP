@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 フラグメントは、左側のメニューの&#x200B;**[!UICONTROL フラグメント]**&#x200B;からゼロから作成できます。さらに、コンテンツをデザインする際に、既存のコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](#save-as-fragment)
 
-保存すると、フラグメントをジャーニー、キャンペーンまたはテンプレートで使用できるようになります。このフラグメントは、ジャーニーとキャンペーン内でコンテンツを作成する際に使用できます。[ ビジュアルフラグメントの追加 ](../email/use-visual-fragments.md) および [ 式フラグメントの活用 ](../personalization/use-expression-fragments.md) を参照してください。
+保存すると、フラグメントをジャーニー、キャンペーンまたはテンプレートで使用できるようになります。このフラグメントは、ジャーニーとキャンペーン内でコンテンツを作成する際に使用できます。[ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください。
 
 フラグメントを作成するには、次の手順に従います。
 
@@ -49,7 +49,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >現在、ビジュアルフラグメントは、**メール** チャネルでのみ使用できます。
+   >現時点では、ビジュアルフラグメントは、**メール**&#x200B;チャネルでのみ使用できます。
 
 1. 式フラグメントを作成する場合は、使用するコードのタイプを **[!UICONTROL HTML]**、**[!UICONTROL JSON]** または&#x200B;**[!UICONTROL テキスト]**&#x200B;から選択します。
 
@@ -79,23 +79,23 @@ ht-degree: 82%
 >
 >フラグメントを公開するには、[フラグメントを公開](../administration/ootb-product-profiles.md#content-library-manager)するユーザー権限が必要です。
 
-フラグメントの運用開始準備が整ったら、プレビューして公開し、ジャーニーやキャンペーンで利用できるようにします。 これを行うには、以下の手順に従います。
+フラグメントを公開する準備が整ったら、プレビューして公開し、ジャーニーやキャンペーンで使用できます。これを行うには、以下の手順に従います。
 
 1. コンテンツをデザインした後にフラグメントの作成画面に戻るか、フラグメントのリストから開きます。
 
-1. フラグメントのプレビューは、「**[!UICONTROL タグ]**」フィールドで利用でき、レンダリングを確認できます。変更が必要な場合は、画面の上部セクションにある「**[!UICONTROL 編集]**」ボタンをクリックし、フラグメントタイプに応じて、メールDesignerまたはパーソナライゼーションエディターを開きます。 [詳細情報](manage-fragments.md#edit-fragments)
+1. フラグメントのプレビューは、「**[!UICONTROL タグ]**」フィールドで利用でき、レンダリングを確認できます。変更を行う必要がある場合は、画面の上部セクションで「**[!UICONTROL 編集]**」ボタンをクリックして、フラグメントのタイプに応じて E メールデザイナーまたはパーソナライゼーションエディターを開きます。[詳細情報](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
 1. 右上隅の「**[!UICONTROL 公開]**」ボタンをクリックして、フラグメントを公開します。
 
-1. フラグメントがライブジャーニーまたはキャンペーンで使用されている場合は、通知するメッセージが開きます。 「**[!UICONTROL さらに表示]**」リンクをクリックすると、参照先のジャーニーやキャンペーンのリストにアクセスできます。[詳しくは、フラグメントの参照の探索方法を参照してください](../content-management/manage-fragments.md#explore-references)
+1. フラグメントがライブジャーニーまたはキャンペーンで使用されている場合は、通知するメッセージが開きます。「**[!UICONTROL さらに表示]**」リンクをクリックすると、参照先のジャーニーやキャンペーンのリストにアクセスできます。[詳しくは、フラグメントの参照の探索方法を参照してください](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
    「**[!UICONTROL 確認]**」をクリックしてフラグメントを公開し、使用しているライブジャーニー／キャンペーンで更新します。
 
-フラグメントは **[!UICONTROL ライブ]** になり、[!DNL Journey Optimizer] メールDesignerまたはパーソナライゼーションエディター内でコンテンツを作成する際に使用できるようになります。
+フラグメントは&#x200B;**[!UICONTROL ライブ]**&#x200B;に変わり、[!DNL Journey Optimizer] E メールデザイナーまたはパーソナライゼーションエディター内でコンテンツを作成する際に使用できるようになります。
 
 * [ビジュアルフラグメントの使用方法を学ぶ](../email/use-visual-fragments.md)
 * [式フラグメントの使用方法を学ぶ](../personalization/use-expression-fragments.md)

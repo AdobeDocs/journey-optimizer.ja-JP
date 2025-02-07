@@ -7,9 +7,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer を使用すると、オファーカタログを Adobe Experie
 
 >[!NOTE]
 >
->この機能はデフォルトで有効になっています。 追加のアクティベーション手順を行わずに使用を開始できます。 有効にすると、書き出しジョブが自動化され、顧客側でのアクションは必要なくなります。
+>この機能は、デフォルトで有効になっています。追加のアクティベーション手順を行わずに使用を開始できます。有効化されると、書き出しジョブは自動化され、ユーザー側からのアクションは不要になります。
 
 <!--
 >[!NOTE]
