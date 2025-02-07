@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
 source-wordcount: '5954'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 96%
 
 ## 2025年1月 {#jan-2025}
 
-* メール設定の **[!UICONTROL 実行アドレス]** オプションに関する新しい節が追加されました。 プライマリアドレスはサンドボックスレベルで定義されますが、特定のメール設定に対してデフォルト設定を上書きできます。 [詳細情報](../email/email-settings.md#execution-address)
+* メール設定の「**[!UICONTROL 実行アドレス]**」オプションに関する新しい節が追加されました。プライマリアドレスはサンドボックスレベルで定義されますが、特定のメール設定のデフォルト設定を上書きできます。[詳細情報](../email/email-settings.md#execution-address)
 
-* **配信品質の概要** ページが更新され、ユーザーインターフェイスから直接 IP ウォームアップワークフローを作成できるようになりました。 [詳細情報](../reports/deliverability.md#reputation)
+* **配信品質の基本を学ぶ**&#x200B;ページが更新され、ユーザーインターフェイスから IP ウォームアップワークフローを直接作成できるようになりました。[詳細情報](../reports/deliverability.md#reputation)
 
-* **ヘッダーパラメーター** の節が更新され、ユーザーインターフェイスの新しいラベルと変更が反映されました。 [詳細情報](../email/email-settings.md#email-header)
+* **ヘッダーパラメーター**&#x200B;の節が更新され、新しいラベルとユーザーインターフェイスの変更が反映されました。[詳細情報](../email/email-settings.md#email-header)
 
-* 「**転送メール**」セクションが更新され、**送信者メール** アドレスに送信されたすべてのメールが転送メールアドレスに転送されるように指定されました。 転送メールが指定されていない場合、これらのメールは破棄されます。 [詳細情報](../email/email-settings.md#forward-email)
+* **メールの転送**&#x200B;の節が更新されました。**送信元メール**&#x200B;アドレスに送信されたすべてのメールは、転送メールアドレスに転送されるよう指定されます。転送メールが指定されていない場合、これらのメールは破棄されます。[詳細情報](../email/email-settings.md#forward-email)
 
 * API トリガーのキャンペーンリクエストに渡されるコンテキスト属性の最大サイズが 200 KB に更新されました。 [詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 * **コードベースのエクスペリエンスの設定**&#x200B;ページが改善され、サーフェス URI の概要を説明する節など、プロセスがより明確になりました。[詳細情報](../code-based/code-based-configuration.md)
 * **Web チャネル設定の作成**&#x200B;ページが更新され、コードベースのエクスペリエンス設定にも適用されるページ一致ルールを作成する手順が明確になりました。[詳細情報](../web/web-configuration.md#web-page-matching-rule)
 * システム生成データセットの今後の有効期間（TTL）ガードレールに関するメモが追加されました。[詳細情報](../data/get-started-datasets.md)
-* ジャーニーやキャンペーンでコンテンツをシミュレートする際に、「**デバイスでプレビュー** オプションを使用して、ブラウザーまたはモバイルデバイスでコードベースのパーソナライズされたエクスペリエンスをプレビューする方法について説明する新しい節が追加されました。 [詳細情報](../code-based/test-code-based.md#preview-on-device)
+* ジャーニーやキャンペーンのコンテンツをシミュレートする際に、「**デバイスでプレビュー**」オプションを使用して、コードベースのパーソナライズされたエクスペリエンスをブラウザーまたはモバイルデバイスでプレビューする方法について説明する、新しい節が追加されました。[詳細情報](../code-based/test-code-based.md#preview-on-device)
 * 決定のカスタムアップロードオーディエンスの活用方法に関する新しいページが追加されました。[詳細情報](../offers/custom-upload-decisioning.md)
 * Journey Optimizer で使用可能な決定機能を紹介する新しいページが追加されました。[詳細情報](../experience-decisioning/gs-decision.md)
 * ガードレールと制限が決定ドキュメントに追加されました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md#guardrails)
