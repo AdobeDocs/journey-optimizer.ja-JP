@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 94%
+source-wordcount: '668'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 94%
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった[新しいコードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。決定の決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
+これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった [ 新しいコードベースのエクスペリエンスチャネル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based) を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
+
+>[!IMPORTANT]
+>
+>決定の決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
+
+➡️コードベースのエクスペリエンスチャネルを使用したコンテンツ実験で決定を作成して使用する方法を示すエンドツーエンドのユースケースについては、[ この節 ](experience-decisioning-uc.md) を参照してください。
 
 ## ガードレールと制限 {#guardrails}
 

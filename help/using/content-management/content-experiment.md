@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,8 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 ここでの目標は、受信した実験に応じて、受信者がメールとやり取りするかどうかを確認することです。 そのため、このコンテンツ実験の主な目標指標として「**[!UICONTROL メール開封数]**」を選択します。
 
 ![](assets/content_experiment.png)
+
+➡️ コンテンツ実験を使用して、決定をコードベースのエクスペリエンスチャネルと比較する方法については、[ このユースケース ](experience-decisioning-uc.md) を参照してください。
 
 ## コンテンツの作成 {#campaign-experiment}
 
@@ -125,3 +127,4 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 1. メッセージコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして配信のレンダリングを制御したり、テストプロファイルでパーソナライズ設定を確認したります。[詳細情報](../content-management/preview-test.md)
 
 実験を設定したら、レポートを使用して、問題なく配信できたかどうかを追跡できます。[詳細情報](../reports/campaign-global-report-cja-experimentation.md)
+

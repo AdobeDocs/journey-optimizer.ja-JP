@@ -1,21 +1,19 @@
 ---
 title: 決定のユースケース
-description: コードベースチャネルでの実験を使用した決定の作成方法について説明します。
+description: コードベースのエクスペリエンスチャネルを使用して、決定を作成し、コンテンツ実験で使用する方法を説明します
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
-workflow-type: ht
-source-wordcount: '817'
-ht-degree: 100%
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 96%
 
 ---
 
-# 決定のユースケース {#experience-decisioning-uc}
+# コンテンツ実験を伴うコードベースのエクスペリエンスでの意思決定の使用 {#experience-decisioning-uc}
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 
