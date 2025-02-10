@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 100%
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
+
+➡️ コンテンツ実験を使用して決定をコードベースのエクスペリエンスチャネルと比較する方法を示すエンドツーエンドのユースケースについては、[ この節 ](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
 
 ## コードベースのチャネルと他のチャネルを使用する場合 {#code-based-vs-other-channels}
 
@@ -136,6 +138,4 @@ Web の使用例を実行するには、web チャネルまたはコードベー
    >[!INFO]
    >
    >これを確実に行うために、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、「バナーテキスト」や「Recommendations トレイ 1」などのコードベースの設定で定義したサーフェスのコンテンツや、アプリケーション内の UI に関連しない決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。<!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [詳細情報](code-based-implementation-samples.md)
-
-
 
