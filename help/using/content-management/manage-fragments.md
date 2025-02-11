@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、**ドラフト**&#x200B;ステータスになります。これらのフラグメントに変更を加えた場合は、関連するキャンペーンとジャーニーに変更を反映させるには、それらを公開して&#x200B;**ライブ**&#x200B;にする必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開には、[フラグメントを公開](../administration/ootb-product-profiles.md#content-library-manager)するユーザー権限が必要です。
+>**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、**ドラフト**&#x200B;ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して&#x200B;**ライブ**&#x200B;にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。公開には、[フラグメントを公開](../administration/ootb-product-profiles.md#content-library-manager)するユーザー権限が必要です。
 
 ## フラグメントの編集 {#edit-fragments}
 
