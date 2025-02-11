@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
+source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2270'
 ht-degree: 96%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 96%
 <p>Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。この新しい機能を使用すると、分析のニーズに合わせて事前に設計されたテンプレートを使用して、レポートプロセスを効率化できます。
 </p>
 <p>詳しくは、<a href="../reports/report-cja-manage.md#cja-template">詳細なドキュメント</a>を参照してください。</p>
-<p> <b>テンプレート</b>機能は段階的にロールアウトされ、1月末までに完全な一般公開が予定されています。</p>
+<p>公開日：2025 年 1 月 15 日（PT）より</p>
 </tr>
 </tbody>
 </table>
@@ -54,6 +54,7 @@ ht-degree: 96%
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>詳しくは、<a href="../audience/about-audiences.md#flexible">詳細なドキュメント</a>を参照してください。</p>
 <p> 柔軟なオーディエンス評価は、一連の組織（使用制限あり）でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>公開日：2025 年 1 月 28 日（PT）</p>
 </tr>
 </tbody>
 </table>
