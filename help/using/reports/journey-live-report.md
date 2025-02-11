@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
-workflow-type: ht
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 100%
 
@@ -357,7 +357,7 @@ Adobe Journey Optimizer で使用可能なすべての指標の詳細なリス�
 
 >[!NOTE]
 >
->**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL 最適化と非最適化の比較]**&#x200B;ウィジェットは、配信で送信時間の最適化オプションが有効になっている場合にのみ使用できます。送信時間の最適化について詳しくは、[このページ](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>**[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL 最適化と非最適化の比較]**&#x200B;ウィジェットは、配信で送信時間の最適化オプションが有効になっている場合にのみ使用できます。送信時間の最適化について詳しくは、[このページ](../building-journeys/send-time-optimization.md)を参照してください。
 
 **[!UICONTROL 送信時間の最適化]**&#x200B;ウィジェットと&#x200B;**[!UICONTROL 最適化と非最適化の比較]**&#x200B;ウィジェットは、送信方法（最適化または通常）に応じてメールの成功状況を詳しく示します。
 

@@ -9,8 +9,8 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->「送信時間の最適化」オプションを使用すると、メッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。詳しくは、[送信時間の最適化](../building-journeys/journeys-message.md#send-time-optimization)を参照してください。
+>「送信時間の最適化」オプションを使用すると、メッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。詳しくは、[送信時間の最適化](../building-journeys/send-time-optimization.md)を参照してください。
 
 ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5981'
+source-wordcount: '6014'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 98%
 # ドキュメントの更新 {#latest-updates}
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
+
+
+## 2025年2月 {#feb-2025}
+
+* **[!UICONTROL 送信時間の最適化]** に関するドキュメントと関連 FAQ が更新、改善され、新しい専用ページに移動しました。 [詳細情報](../building-journeys/send-time-optimization.md)
+* ジャーニーイベント用の新しいガードレールが追加されました。 [詳細情報](../start/guardrails.md#events-g)
 
 ## 2025年1月 {#jan-2025}
 
@@ -99,7 +105,7 @@ ht-degree: 98%
 * API トリガーキャンペーンを操作する際の、カスタム名前空間を使用した ID 作成に関する情報が追加されました。[詳細情報](../campaigns/api-triggered-campaigns.md)
 * ジャーニーキャンバスの改善を反映するように、スクリーンショットが更新されました。
 * [単一イベントの設定](../event/about-creating.md)、[ビジネスイベントの設定](../event/about-creating-business.md#gs-business-events)、[カスタムアクションの設定](../action/about-custom-action-configuration.md#configuration-steps)、[外部データソース](../datasource/external-data-sources.md)のページで命名制約が更新されました。
-* 送信時間の最適化機能の使用可否に関するメモが追加されました。[詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
+* 送信時間の最適化機能の使用可否に関するメモが追加されました。[詳細情報](../building-journeys/send-time-optimization.md)
 * Experience Platform にデータを送信するカスタムアクションの作成方法に関する新しい技術的なユースケースが追加されました。[詳細情報](../building-journeys/custom-action-aep.md)
 
 ## 2024年3月 {#march-2024}
@@ -358,7 +364,7 @@ ht-degree: 98%
 * 許可リストページが「設定」セクションに移動しました。[詳細情報](../configuration/allow-list.md)
 * 抑制リストページが更新され、ASCII コードが 32～126 のすべての ASCII 文字が抑制フィールドの理由で使用できることなど、一部の情報が明確になりました。[詳細情報](../configuration/manage-suppression-list.md)
 * 意思決定管理のガードレールおよび静的制限へのリンクが追加されました。[詳細情報](../start/guardrails.md)
-* すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../building-journeys/journeys-message.md#send-time-optimization)
+* すべてのお客様が送信時間の最適化を利用できるようになりました。ベータ版のメンションは削除されました。[詳細情報](../building-journeys/send-time-optimization.md)
 * パーソナライズされたオファーを配信するために、Batch Decisioning API が使用可能な API のリストに追加されました。 [詳細情報](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022年5月 {#may-2022}

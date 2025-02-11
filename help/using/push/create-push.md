@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ジャーニーからプッシュ通知を送信する場合、Adobe Journey Optimizer の送信時間の最適化機能を利用して、メッセージ送信の最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。[送信時間の最適化の操作方法を学ぶ](../building-journeys/journeys-message.md#send-time-optimization)
+   >ジャーニーからプッシュ通知を送信する場合、Adobe Journey Optimizer の送信時間の最適化機能を利用して、メッセージ送信の最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。[送信時間の最適化の操作方法を学ぶ](../building-journeys/send-time-optimization.md)
 
    ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 

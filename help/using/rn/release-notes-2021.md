@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2035'
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 <td>
 <p>Adobe Journey Optimizer とのエンゲージメントの対象となる顧客ごとに、最適なタイミングでプッシュ通知またはメールを自動的に送信します。アドビの AI サービスを活用した送信時間最適化により、メールまたはプッシュメッセージの送信に最適な時間を標準で予測して、過去の開封率やクリック率に基づいてエンゲージメントを最大化できます。</p>
 <p>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
-<p>詳しくは、<a href="../building-journeys/journeys-message.md#send-time-optimization">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/send-time-optimization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
