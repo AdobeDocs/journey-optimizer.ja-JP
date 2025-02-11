@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
+source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
 workflow-type: tm+mt
-source-wordcount: '2476'
-ht-degree: 97%
+source-wordcount: '2505'
+ht-degree: 95%
 
 ---
 
@@ -80,6 +80,8 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ### 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
 * ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。アクティビティの数は、ジャーニーキャンバスの左上に表示されます。これは、読みやすさ、QA およびトラブルシューティングに役立ちます。
+* Journey Optimizerでは、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートしています。
+* イベントトリガージャーニーは、ジャーニーの最初のアクションを処理するのに最大 5 分かかる場合があります。
 * ジャーニーを公開すると、最大のスループットと安定性を確保するために自動的にスケールと調整が行われます。一度に 100 のライブジャーニーというマイルストーンに近づくと、この達成に関する通知が UI に表示されるのがわかります。この通知が表示され、一度に 100 のライブジャーニーを超えてジャーニーを拡張する必要がある場合は、カスタマーケアのチケットを作成してください。アドビが目標の達成をお手伝いします。
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * ジャーニーでオーディエンスの選定を使用すると、そのオーディエンスの選定アクティビティがアクティブになってオーディエンスにエントリまたは離脱するプロファイルをリッスンするのに、最大 10 分かかる場合があります。
