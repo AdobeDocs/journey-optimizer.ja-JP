@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
+source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
 workflow-type: tm+mt
 source-wordcount: '2505'
 ht-degree: 95%
@@ -80,8 +80,6 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ### 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
 * ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。アクティビティの数は、ジャーニーキャンバスの左上に表示されます。これは、読みやすさ、QA およびトラブルシューティングに役立ちます。
-* Journey Optimizerでは、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートしています。
-* イベントトリガージャーニーは、ジャーニーの最初のアクションを処理するのに最大 5 分かかる場合があります。
 * ジャーニーを公開すると、最大のスループットと安定性を確保するために自動的にスケールと調整が行われます。一度に 100 のライブジャーニーというマイルストーンに近づくと、この達成に関する通知が UI に表示されるのがわかります。この通知が表示され、一度に 100 のライブジャーニーを超えてジャーニーを拡張する必要がある場合は、カスタマーケアのチケットを作成してください。アドビが目標の達成をお手伝いします。
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * ジャーニーでオーディエンスの選定を使用すると、そのオーディエンスの選定アクティビティがアクティブになってオーディエンスにエントリまたは離脱するプロファイルをリッスンするのに、最大 10 分かかる場合があります。
@@ -122,6 +120,8 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### イベント {#events-g}
 
+* Journey Optimizerでは、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートしています。
+* イベントトリガージャーニーは、ジャーニーの最初のアクションを処理するのに最大 5 分かかる場合があります。
 * システム生成イベントの場合、まず Journey Optimizer 内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
 * ビジネスイベントは、単一イベントやオーディエンスの選定アクティビティと組み合わせて使用することはできません。
 * （イベントまたはオーディエンスの選定で始まる）単一ジャーニーには、同じイベントに対してジャーニーが誤って複数回トリガーされるのを防ぐガードレールが含まれています。プロファイルの再エントリは、デフォルトで 5 分間一時的にブロックされます。例えば、あるイベントが特定のプロファイルのジャーニーを 12:01 にトリガーし、12:03 に別のイベントが到着した場合（それが同じイベントであっても、同じジャーニーをトリガーする別のイベントであっても）、このプロファイルのジャーニーが再び開始されることはありません。
