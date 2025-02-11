@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
 workflow-type: tm+mt
 source-wordcount: '2278'
 ht-degree: 96%
@@ -51,6 +51,7 @@ ht-degree: 96%
 <tr>
 <td>
 <p>柔軟なオーディエンス評価を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行し、Journey Optimizerのジャーニーやキャンペーンにターゲティングする前にオーディエンスデータを常に最新の状態に保つことができます。</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
 <p>詳しくは、<a href="../audience/about-audiences.md#flexible">詳細なドキュメント</a>を参照してください。</p>
 <p> 柔軟なオーディエンス評価は、一連の組織（使用制限あり）でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 </tr>

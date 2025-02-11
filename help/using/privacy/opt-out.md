@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
-1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/access-audiences.md)を作成し、**[!UICONTROL コンテンツをパーソナライズ = はい（オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
+1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/about-audiences.md)を作成し、**[!UICONTROL コンテンツをパーソナライズ = はい（オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成できます。
 
-1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/access-audiences.md)を作成します。
+1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/about-audiences.md)を作成します。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,13 +137,13 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 分割アクティビティをコンポジションワークフローに追加することで、パーソナライゼーション同意チェックをオーディエンスに追加することもできます。
 
-1. 「**[!UICONTROL オーディエンスを作成]**」オプションを使用して、オーディエンスを作成します。詳しくは、[コンポジションワークフローの作成](../audience/create-compositions.md)を参照してください。
+1. 「**[!UICONTROL オーディエンスを作成]**」オプションを使用して、オーディエンスを作成します。詳しくは、[コンポジションワークフローの作成](../audience/get-started-audience-orchestration.md)を参照してください。
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. 右側の専用ボタンを使用して、開始オーディエンスを追加します。
 
-1. 「**+**」アイコンをクリックし、「**[!UICONTROL 分割]**」アクティビティを選択して、分割オーディエンスを作成します。詳しくは、[分割アクティビティ](../audience/composition-canvas.md#split)を参照してください。
+1. **+** アイコンをクリックし、**[!UICONTROL 分割]** アクティビティを選択して、分割オーディエンスを作成します。
 
    ![](assets/perso-consent-audience-split.png)
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -374,14 +374,13 @@ ht-degree: 100%
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
-      + [カスタムアップロード（CSV）と連合オーディエンス構成](using/audience/custom-upload-fac.md)
-      + [セグメント定義の作成](using/audience/creating-a-segment-definition.md)
-      + オーディエンスの作成 {#audience-orchestration}
-         + [オーディエンス構成の基本を学ぶ](using/audience/get-started-audience-orchestration.md)
-         + [コンポジションワークフローの作成](using/audience/create-compositions.md)
-         + [コンポジションキャンバスの操作](using/audience/composition-canvas.md)
-         + [オーディエンスへのアクセスと管理](using/audience/access-audiences.md)
-      + [連合オーディエンス構成](https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home)
+      + オーディエンスの作成 {#create}
+         + [セグメント定義](using/audience/creating-a-segment-definition.md)
+         + [オーディエンス構成](using/audience/get-started-audience-orchestration.md)
+         + [カスタムアップロード](using/audience/custom-upload.md)
+         + [Federated Audience Composition （限定提供）](using/audience/federated-audience-composition.md)
+      + [キャンペーンとジャーニーでのオーディエンスアクティベーション](using/audience/target-audiences.md)
+      + [エンリッチメント属性の活用](using/audience/enrichment-attributes.md)
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
