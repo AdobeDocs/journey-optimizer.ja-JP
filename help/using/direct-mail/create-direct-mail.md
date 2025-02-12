@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 95%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
       >[!NOTE]
       >
-      >デフォルトでは、ファイルはルートディレクトリに書き込まれます。「**[!UICONTROL ファイル名]**」フィールドでは、「/your/path/here/Filename.csv」という形式が受け入れられます。指定したパスは、選択したサーバー上のターゲットディレクトリです。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >デフォルトでは、ファイルはサーバーのルートディレクトリに書き込まれます。 **[!UICONTROL ファイル名]** フィールドには、「/your/path/here/Filename.csv」の形式も指定できます。指定されたパスは、選択されたサーバー上のターゲットディレクトリです。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. 指定したファイル名に自動タイムスタンプを付加する場合は、「**[!UICONTROL 書き出しファイル名にタイムスタンプを追加]**」オプションを有効にします。
 
