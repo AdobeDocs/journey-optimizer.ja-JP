@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 99%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 99%
    + [アクセシビリティ](using/start/accessibility.md)
    + [ユースケースプレイブック](using/start/playbooks.md)
    + [AI アシスタントの操作](using/start/ai-assistant.md)
-   + [統合](using/start/ajo-integrations.md)
    + [ガードレール](using/start/guardrails.md)
    + [ベストプラクティス](using/start/best-practices.md)
 + ジャーニー {#orchestrate-journeys}
@@ -219,7 +218,6 @@ ht-degree: 99%
             + [背景設定の編集](using/email/backgrounds.md)
             + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
             + [インラインのスタイル属性の追加](using/email/inline-styling.md)
-      + [Experience Manager テンプレートの使用](using/email/aem-templates.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
          + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
@@ -326,9 +324,6 @@ ht-degree: 99%
       + テクニカルノート {#technotes}
          + [統計計算について](using/content-management/experiment-calculations.md)
          + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
-   + Assets／画像 {#assets-images}
-      + [Experience Manager Assets の操作](using/content-management/assets.md)
-      + [Adobe Stock との連携](using/content-management/stock.md)
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
@@ -372,7 +367,6 @@ ht-degree: 99%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
-   + [Adobe Experience Manager コンテンツフラグメント](using/content-management/aem-fragments.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
@@ -389,6 +383,13 @@ ht-degree: 99%
       + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
++ 統合 {#assets-images}
+   + [その他のソリューションとの統合](using/integrations/ajo-integrations.md)
+   + [Experience Manager Assets の操作](using/integrations/assets.md)
+   + [Adobe Stock との連携](using/integrations/stock.md)
+   + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
+   + [Experience Manager コンテンツフラグメントの使用](using/integrations/aem-fragments.md)
+   + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)

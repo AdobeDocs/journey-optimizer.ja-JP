@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -227,7 +227,7 @@ ht-degree: 100%
 
 **Assets**
 
-* Assets の新しいオプションを使用すると、Journey Optimizer でアセットのリポジトリを選択できます。このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。[詳細情報](../content-management/assets.md)
+* Assets の新しいオプションを使用すると、Journey Optimizer でアセットのリポジトリを選択できます。このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。[詳細情報](../integrations/assets.md)
 
 <!--**Decision management**
 

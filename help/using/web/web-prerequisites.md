@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 100%
 
@@ -150,4 +150,4 @@ Web チャネルのレポーティングを有効にするには、web 実装[�
 
 ## アセットのブランドドメイン {#branded-domains-for-assets}
 
-Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../content-management/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。[詳細情報](web-delegated-subdomains.md)
+Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../integrations/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。[詳細情報](web-delegated-subdomains.md)

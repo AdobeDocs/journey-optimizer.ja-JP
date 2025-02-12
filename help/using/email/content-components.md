@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 ## テキスト {#text}
 
-**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用してメールにテキストを挿入し、スタイル（境界線、サイズ、パディングなど）を「**[!UICONTROL スタイル]**」タブを使用して調整します。
+**[!UICONTROL テキスト]** コンポーネントを使用してメールにテキストを挿入し、「**[!UICONTROL スタイル]** タブを使用してスタイル（境界線、サイズ、パディングなど）を
 
 ![](assets/email_designer_text_component.png)
 
@@ -121,7 +121,7 @@ ht-degree: 100%
    * **フォントサイズ**：テキストのフォントサイズをピクセル単位で選択します。
    * **[!UICONTROL フォントカラーを変更]**：フォントの色を選択します。
    * **[!UICONTROL リンクを挿入]**：コンテンツに任意のタイプのリンクを追加します。
-   * **[!UICONTROL 画像の編集]**：テキストコンポーネントに画像またはアセットを追加します。[詳しくは、アセット管理を参照してください](../content-management/assets.md)
+   * **[!UICONTROL 画像の編集]**：テキストコンポーネントに画像またはアセットを追加します。[詳しくは、アセット管理を参照してください](../integrations/assets.md)
    * **[!UICONTROL フォントカラーを変更]**：フォントの色を選択します。
    * **[!UICONTROL パーソナライゼーションを追加]**：パーソナライゼーションフィールドを追加し、プロファイルデータを使用してコンテンツをカスタマイズできます。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
    * **[!UICONTROL ソースコードの表示]**：テキストのソースコードを表示します。変更はできません。
@@ -184,7 +184,7 @@ ht-degree: 100%
 
    ![](assets/email_designer_10.png)
 
-1. また、「**[!UICONTROL 類似のストックフォトを検索]**」を選択することもできます。[詳細情報](../content-management/stock.md)
+1. また、「**[!UICONTROL 類似のストックフォトを検索]**」を選択することもできます。[詳細情報](../integrations/stock.md)
 
 1. 「**[!UICONTROL スタイル]**」タブから、余白、境界線などの他のスタイル属性を調整します。または、別のコンテンツにオーディエンスをリダイレクトするためのリンクを&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインで追加します。
 

@@ -8,8 +8,8 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Web サブドメインの設定"
 >abstract="アドビにデリゲートされているサブドメインのリストからサブドメインを選択します。この web サブドメインをデフォルトのサブドメインとして設定できますが、一度に使用できるデフォルトのサブドメインは 1 つだけです。"
 
-Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../content-management/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
+Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../integrations/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
 
@@ -111,7 +111,7 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL web 設定]**／**[!UICONTROL web サブドメイン]**&#x200B;を選択します。
 
-1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
+1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
 
 1. 「 **[!UICONTROL 設定タイプ]** 」セクションから「**[!UICONTROL 独自のドメインを追加]**」を選択します。
 

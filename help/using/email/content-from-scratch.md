@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
@@ -92,7 +92,7 @@ Adobe Journey Optimizer Designer を使用して、コンテンツの構造を�
 
    ![](assets/email_designer_structure_component.png)
 
-1. **[!UICONTROL アセットピッカー]**&#x200B;から、**[!UICONTROL Assets ライブラリ]**&#x200B;に保存されたアセットを直接選択できます。[詳しくは、アセット管理を参照してください](../content-management/assets.md)
+1. **[!UICONTROL アセットピッカー]**&#x200B;から、**[!UICONTROL Assets ライブラリ]**&#x200B;に保存されたアセットを直接選択できます。[詳しくは、アセット管理を参照してください](../integrations/assets.md)
 
    アセットを含むフォルダーをダブルクリックします。それらを構造コンポーネントにドラッグ＆ドロップします。
 

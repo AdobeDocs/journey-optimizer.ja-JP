@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 このセクションでは、コンテンツを作成および管理します。
 
-* **[!UICONTROL アセット]**：[!DNL Adobe Experience Manager Assets] は、メッセージへの入力に使用できるアセットの一元的リポジトリーです。[詳細情報](../content-management/assets.md)
+* **[!UICONTROL アセット]**：[!DNL Adobe Experience Manager Assets] は、メッセージへの入力に使用できるアセットの一元的リポジトリーです。[詳細情報](../integrations/assets.md)
 
 * **[!UICONTROL コンテンツテンプレート]** - 改善されて高速化した設計プロセスを実現するために、スタンドアロンテンプレートを作成して、Journey Optimizer キャンペーンやジャーニー全体でカスタムコンテンツを簡単に再利用できます。[詳細情報](../content-management/content-templates.md)
 

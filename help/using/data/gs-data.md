@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: データ, 管理, プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
     <div><img alt="宛先" src="assets/do-not-localize/dest.png" /> 
     <br>他の宛先で利用可能 -  [!DNL Adobe Journey Optimizer] は、高度にパーソナライズされたカスタマーエクスペリエンスのためにデータを相乗的に統合しますが、データを活用する他の方法を探す一方で、テクノロジー環境全体における他のシステムでも、このデータを使用する必要があります。
     <div>
-     <a href="../start/ajo-integrations.md">詳細情報</a></div>
+     <a href="../integrations/ajo-integrations.md">詳細情報</a></div>
     </div>
     <br>
   </td>
@@ -70,7 +70,7 @@ ht-degree: 100%
   ジャーニーやキャンペーンで使用されるコンテンツは、上記の API または宛先メソッドを介して抽出できません。
 
 <!--
-* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
+* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
   Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->

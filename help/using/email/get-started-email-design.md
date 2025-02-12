@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * [!DNL Journey Optimizer] **メールデザイン機能**&#x200B;を使用して、レスポンシブなメールのデザインや読み込みを行います。[詳細情報](content-from-scratch.md)
 
-* **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](../content-management/assets.md)
+* **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](../integrations/assets.md)
 
-* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。[詳細情報](../content-management/stock.md)
+* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。[詳細情報](../integrations/stock.md)
 
 * プロファイル属性に基づいてパーソナライズされたメッセージと動的メッセージを作成し、カスタマーエクスペリエンスを強化します。[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. E メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
-   * メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、 [Adobe Experience Manager Assets](../content-management/assets.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
+   * メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、 [Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
 
    * E メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
 

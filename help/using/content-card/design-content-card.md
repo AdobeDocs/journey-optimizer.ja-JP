@@ -6,8 +6,8 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 7e5dbd6106b8a5ffd9bee8b1364a7bf5b995668c
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-3.png)
 
-メディアを含めるには、使用するメディアの URL を入力するか、**[!UICONTROL アセットを選択]**&#x200B;アイコンをクリックして、アセットライブラリに保存されているアセットから選択します。[アセット管理の詳細情報](../content-management/assets.md)。
+メディアを含めるには、使用するメディアの URL を入力するか、**[!UICONTROL アセットを選択]**&#x200B;アイコンをクリックして、アセットライブラリに保存されているアセットから選択します。[アセット管理の詳細情報](../integrations/assets.md)。
 
 <!--
 +++More options with advanced formatting

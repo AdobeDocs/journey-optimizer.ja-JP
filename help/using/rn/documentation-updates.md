@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6024'
 ht-degree: 98%
@@ -130,7 +130,7 @@ ht-degree: 98%
 ## 2024年2月 {#feb-2024}
 
 * [!DNL Journey Optimizer] の 2024年2月リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md#feb-2024)
-* Journey Optimizer と Workfront の統合が統合ページに追加されました。[詳細情報](../start/ajo-integrations.md)
+* Journey Optimizer と Workfront の統合が統合ページに追加されました。[詳細情報](../integrations/ajo-integrations.md)
 * コンテキストデータに基づいてオファーの表示域をパーソナライズする方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-representations.md#context-data)
 * ガードレールページが更新され、リクエストまたは応答ペイロードを使用する場合にのみ JSON 形式をサポートするカスタムアクションに関するメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)
 * 外部データソースの基本認証タイプに関する情報が追加されました。[詳細情報](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ ht-degree: 98%
 * 組み込みのアクションを削除できないことを示すメモが追加されました。[詳細情報](../start/guardrails.md#custom-actions-g)
 * serviceEvents に関する情報と、serviceEvent の詳細を確認するクエリの例が追加されました。[詳細情報](../reports/query-examples.md#common-queries)
 * 時系列に対してクエリを実行できないことを示すメモが追加されました。[詳細情報](../building-journeys/condition-activity.md)
-* Adobe Experience Manager Assets Essentials と Adobe Stock をマルチソリューション統合ページに追加しました。[詳細情報](../start/ajo-integrations.md)
+* Adobe Experience Manager Assets Essentials と Adobe Stock をマルチソリューション統合ページに追加しました。[詳細情報](../integrations/ajo-integrations.md)
 * 複数レベルのメールサブドメインがサポートされるようになったので、許可されていないという警告を削除しました。[詳細情報](../configuration/delegate-subdomain.md)
 * ジャーニーのメッセージで使用されるオファーの決定に変更が加えられた場合は、ジャーニーを非公開にして、再公開する必要があることを示すメモを追加しました。[詳細情報](../building-journeys/publishing-the-journey.md)
 * キャッピングカウンターでイベントが正しく考慮されていることを確認する方法は、意思決定管理&#x200B;**キャッピングイベント**&#x200B;の節で明確に説明されています。[詳細情報](../offers/offer-library/add-constraints.md#capping-event)
@@ -306,7 +306,7 @@ ht-degree: 98%
 
 ## 2022年11月 {#november-2022}
 
-* Journey Optimizer の統合に関する新しいページを追加しました。[詳細情報](../start/ajo-integrations.md)
+* Journey Optimizer の統合に関する新しいページを追加しました。[詳細情報](../integrations/ajo-integrations.md)
 * ミラーページの URL の長さに関するレコメンデーションを追加しました。[詳細情報](../email/message-tracking.md)
 * 適切な返信管理を確保するためのレコメンデーションを含む、メール設定の新しい節をメールアドレスへの返信に追加しました。[詳細情報](../email/email-settings.md#reply-to-email)
 * ライブジャーニーでメッセージのコンテンツを変更する方法に関する節を追加しました。[詳細情報](../building-journeys/journeys-message.md#update-live-content)

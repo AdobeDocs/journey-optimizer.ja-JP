@@ -7,8 +7,8 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **アセットを作成し管理**&#x200B;します。[!DNL Adobe Experience Manager Assets] は、メッセージへの入力に使用できるアセットの一元的な集中リポジトリを提供します。詳しくは、[この節](../../content-management/assets.md)を参照してください。
+1. **アセットを作成し管理**&#x200B;します。[!DNL Adobe Experience Manager Assets] は、メッセージへの入力に使用できるアセットの一元的な集中リポジトリを提供します。詳しくは、[この節](../../integrations/assets.md)を参照してください。
 
 1. **オファーを追加**&#x200B;します。[!DNL Journey Optimizer] を使用すると、顧客に最適なオファーとエクスペリエンスをすべてのタッチポイントにわたって適切なタイミングで提供できます。設計を終えたら、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定します。意思決定管理について詳しくは、[この節](../../offers/get-started/starting-offer-decisioning.md)を参照してください。
 
