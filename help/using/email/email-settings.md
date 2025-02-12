@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -182,16 +182,6 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 再試行の詳細については、[この節](../configuration/retries.md)を参照してください。
 
 ## URL トラッキング {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="URL トラッキングパラメーターの定義"
->abstract="このセクションを使用すると、メールコンテンツに存在する URL にトラッキングパラメーターを自動的に追加できます。この機能はオプションです。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="URL トラッキングパラメーターのプレビュー"
->abstract="メールコンテンツに存在する URL にトラッキングパラメーターを追加する方法を確認します。"
 
 **[!UICONTROL URL トラッキングパラメーター]**&#x200B;を使用し、チャネルをまたいでマーケティング活動の有効性を測定することができます。[詳細情報](url-tracking.md)
 
