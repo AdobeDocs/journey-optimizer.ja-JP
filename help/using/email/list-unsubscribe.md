@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 32%
@@ -76,7 +76,7 @@ Adobe以外で同意を管理している場合は、「**[!UICONTROL 顧客管�
 >
 >**[!UICONTROL 顧客が管理]** オプションを使用している場合、Adobeには、登録解除データや同意データは保存されません。 **[!UICONTROL 顧客が管理]** オプションを使用すると、組織は外部システムの使用を選択し、そのような外部システムで同意データを管理する責任を負います。 外部システムと [!DNL Journey Optimizer] の間では、同意データの自動同期はありません。 [!DNL Journey Optimizer] でユーザーの同意データを更新するために外部システムから提供される同意データの同期は、同意データを [!DNL Journey Optimizer] にプッシュし直すデータ転送として、組織が開始する必要があります。
 
-## 復号化 API の設定 {#configure-decrypt-api}
+### 復号化 API の設定 {#configure-decrypt-api}
 
 **[!UICONTROL 顧客管理]** オプションを選択した状態で、カスタムエンドポイントを入力してキャンペーンやジャーニーで使用する場合、受信者が登録解除リンクをクリックす [!DNL Journey Optimizer] と、同意更新イベントにデフォルトのプロファイル固有のパラメーターが追加されます <!--sent to the custom endpoint -->。
 
