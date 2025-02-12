@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 以下の改善点は、2 月のアップデートに伴うものです。
 
-**メール設定** – 公開日：2025 年 2 月 10 日（PT）
+**メール設定** – 公開日：2025 年 2 月 12 日（PT）
 
 * Adobe以外で同意を管理している場合は、メールチャネルの設定の一部として、カスタム購読解除メールアドレスとカスタムワンクリック購読解除 URL を設定できるようになりました。 [ 詳細を表示 ](../email/list-unsubscribe.md#custom-managed)
 
