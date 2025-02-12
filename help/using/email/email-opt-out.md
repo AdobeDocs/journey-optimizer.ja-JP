@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] を使用すると、メールヘッダーに自動生成されたワンクリック登録解除 URL と宛先アドレスを使用して[メール設定](email-settings.md#list-unsubscribe)を行ったり、メール本文にワンクリックオプトアウト URL を含めたりすることができます。
 
-受信者がワンクリックオプトアウトリンクをクリックすると、受信者の登録解除リクエストがそれに応じて処理されます。
+受信者がワンクリックオプトアウトリンクをクリックすると、その受信者の購読解除リクエストが適切に処理されます。
 
 ### メールヘッダーのワンクリック登録解除 URL {#unsubscribe-header}
 
@@ -145,7 +145,7 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 * **params**：暗号化されたペイロードが格納されています
 * **pid**：暗号化されたプロファイル ID
 
-次の 3 つのパラメーターが、受信者に送信されるサードパーティのランディングページ URL に含まれます。
+次の 2 つのパラメーターが、受信者に送信されるサードパーティのランディングページ URL に含まれます。
 
 ![](assets/opt-out-parameters.png)
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2834'
+source-wordcount: '2484'
 ht-degree: 98%
 
 ---
@@ -81,59 +81,11 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 >
 >PTR レコードが設定されていない場合は、アドビ担当者に問い合わせてください。
 
-## リスト登録解除{#list-unsubscribe}
+## リストの登録解除 {#list-unsubscribe}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_unsubscribe_custom"
->title="購読解除データの管理方法を定義"
->abstract="**Adobe管理**：同意データは、Adobe システム内でユーザーによって管理されます。<br>**顧客管理**：同意データは外部システムでユーザーによって管理され、ユーザーによって開始されない限り、同意データの同期はAdobe システムで更新されません。"
+リストのサブドメインの中から選択すると、「**[!UICONTROL List-Unsubscribe を有効にする]**」オプションが表示されます。 このモードはデフォルトで有効になっています。
 
-<!--Do not modify - Legal Review Done -->
-
-リストから[サブドメインを選択](#subdomains-and-ip-pools)すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。
-
-このオプションはデフォルトで有効になっており、次のようなワンクリック登録解除 URL がメールヘッダーに含まれます。
-
-![](assets/preset-list-unsubscribe-header.png)
-
->[!NOTE]
->
->このオプションを無効にした場合、メールヘッダーにワンクリック購読解除 URL は表示されません。
-
-**[!UICONTROL 同意レベル]**&#x200B;ドロップダウンリストから同意レベルを選択できます。チャネルまたはプロファイル ID に固有のものにすることができます。この設定に基づいて、ユーザーがメールのヘッダーにあるリスト登録解除 URL を使用して登録解除すると、Adobe Journey Optimizer においてチャネルレベルまたは ID レベルで同意が更新されます。
-
-リスト登録解除ヘッダーには 、2 つの機能があり、いずれかまたは両方の機能をオフにしない限り、デフォルトで有効になります。
-
-![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
-
-* **宛先（登録解除）**&#x200B;アドレスは、登録解除リクエストが自動処理にルーティングされる宛先アドレスです。
-
-  Journey Optimizer の場合、登録解除のメールアドレスは、[選択したサブドメイン](#subdomains-and-ip-pools)に基づいてチャネル設定に表示されるデフォルトの&#x200B;**宛先（登録解除）**&#x200B;アドレスです。
-
-* **ワンクリック登録解除 URL**&#x200B;は、デフォルトでは、チャネル設定を行ったサブドメインに基づいて、ワンクリックオプトアウト URL で生成されたリスト登録解除ヘッダーです。
-
-<!--
-    >[!AVAILABILITY]
-    >
-    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
-    >
--->
-
-**[!UICONTROL 宛先（登録解除）]**&#x200B;機能と&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** 機能はオプションです。
-
-デフォルトで生成されたワンクリック登録解除 URL を使用しない場合は、この機能をオフにできます。「**[!UICONTROL リスト登録解除を有効にする]**」オプションがオンに切り替わり、**[!UICONTROL ワンクリック登録解除 URL]** 機能がオフになっているシナリオで、この設定を使用して作成されたメッセージに[ワンクリックオプトアウトリンク](../email/email-opt-out.md#one-click-opt-out)を追加する場合、リスト登録解除ヘッダーは、メールの本文に挿入したワンクリックオプトアウトリンクをピックアップし、それをワンクリック登録解除 URL 値として使用します。
-
-![](assets/preset-list-unsubscribe-opt-out-url.png)
-
->[!NOTE]
->
->メッセージコンテンツにワンクリックオプトアウトリンクを追加せず、チャネル設定でデフォルトの&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** をオンにしていない場合、メールヘッダーにリスト登録解除ヘッダーの一部として URL が渡されることはありません。
-
-メッセージにおける登録解除機能の管理について詳しくは、[この節](../email/email-opt-out.md#unsubscribe-header)を参照してください。
-
-<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
+ワンクリックの購読解除 URL をメールヘッダーに含めることができます。 [詳細情報](list-unsubscribe.md)
 
 ## ヘッダーパラメーター {#email-header}
 

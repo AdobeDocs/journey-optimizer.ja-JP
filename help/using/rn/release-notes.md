@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025年1月の更新 {#25-01-rn}
+## 2025 年の最新の更新 {#25-01-rn}
+
+### 2 月の改善 {#25-02-improvements}
+
+以下の改善点は、2 月のアップデートに伴うものです。
+
+**メール設定** – 公開日：2025 年 2 月 10 日（PT）
+
+* Adobe以外で同意を管理している場合は、メールチャネルの設定の一部として、カスタム購読解除メールアドレスとカスタムワンクリック購読解除 URL を設定できるようになりました。 [ 詳細を表示 ](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
+
+### 新機能 {#25-01-features}
+
+1 月にリリースされた新機能について、以下で詳しく説明します。
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### 機能強化 {#25-01-improvements}
+### 1 月の改善点 {#25-01-improvements}
 
-このリリースでは、以下に示す機能強化が含まれています。
+1 月にリリースされた機能強化を以下に示します。
 
 **決定**
 
