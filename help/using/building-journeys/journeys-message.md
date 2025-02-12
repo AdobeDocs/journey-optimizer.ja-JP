@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 58%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 >[!NOTE]
 >
->メッセージを送信するカスタムアクションを設定することもできます。 [詳細情報](#recommendation)
+>また、[!DNL Journey Optimizer] でメッセージを送信するカスタムアクションを設定することもできます。 [詳細情報](#recommendation)
 
 ## ジャーニーでのメッセージの追加  {#add-msg-in-journey}
 
