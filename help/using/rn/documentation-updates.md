@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
 workflow-type: tm+mt
-source-wordcount: '6014'
+source-wordcount: '6024'
 ht-degree: 98%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 98%
 
 ## 2025年2月 {#feb-2025}
 
-* **[!UICONTROL 送信時間の最適化]** に関するドキュメントと関連 FAQ が更新、改善され、新しい専用ページに移動しました。 [詳細情報](../building-journeys/send-time-optimization.md)
+* **[!UICONTROL 送信時間の最適化]** に関するドキュメントと関連 FAQ が更新、改善され、新しい専用ページに移動されました。 [詳細情報](../building-journeys/send-time-optimization.md)
 * ジャーニーイベント用の新しいガードレールが追加されました。 [詳細情報](../start/guardrails.md#events-g)
+* 組み込みのチャネルアクションページが再編成されました。 [詳細情報](../building-journeys/journeys-message.md)
 
 ## 2025年1月 {#jan-2025}
 
