@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6024'
-ht-degree: 98%
+source-wordcount: '6051'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,8 @@ ht-degree: 98%
 * 競合管理および優先順位付けツールのドキュメントに、「ガードレールと制限」の節が追加されました。 [詳細情報](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * [!DNL Journey Optimizer] しいコードベースのエクスペリエンスチャネルを使用したコンテンツ実験で意思決定を使用するために必要なすべての手順を示すために、新しいエンドツーエンドのユースケースが追加されました。 [詳細情報](../experience-decisioning/experience-decisioning-uc.md)
+
+* **メール設定の指定** ページは、読みやすさを向上させるために、複数のサブページに分割されました。これには、[ リストの購読解除 ](../email/list-unsubscribe.md)、[ ヘッダーパラメーター ](../email/header-parameters.md) および [URL トラッキング ](../email/url-tracking.md) 専用の新しいスタンドアロンページが含まれます。
 
 ## 2024年12月 {#nov-2024}
 
