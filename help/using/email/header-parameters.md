@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ ht-degree: 93%
 >
 >アドレスは、文字（A ～ Z）で始まる必要があり、英数字のみを使用できます。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-### メールへの返信 {#reply-to-email}
+## メールへの返信 {#reply-to-email}
 
 **[!UICONTROL 返信先メール]**&#x200B;アドレスを定義する場合、有効なアドレスで、正しい形式でタイプミスがない限り、任意のメールアドレスを指定できます。
 
@@ -66,7 +66,7 @@ ht-degree: 93%
 >
 >入力したアドレスのサブドメインがアドビに[完全にデリゲート](../configuration/delegate-subdomain.md#full-subdomain-delegation)されたドメインである場合は、アドビアカウント担当者にお問い合わせください。
 
-### メールの転送 {#forward-email}
+## メールの転送 {#forward-email}
 
 デリゲートされたサブドメインの [!DNL Journey Optimizer] で受信したすべてのメールを特定のメールアドレスに転送するには、アドビカスタマーケアにお問い合わせください。
 
