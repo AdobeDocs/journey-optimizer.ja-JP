@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 83%
 
 ---
 
@@ -72,6 +72,10 @@ ht-degree: 100%
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >メールおよびプッシュ通知の場合、送信時間の最適化を有効にできます。 [詳細情報](send-time-optimization.md)
+
    * インバウンドアクションを作成する方法を次に説明します。
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ ht-degree: 100%
 
      >[!NOTE]
      >
-     >各インバウンドメッセージアクティビティには、3 日間の&#x200B;**待機**&#x200B;アクティビティが付属しています。[詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+     >各インバウンドメッセージアクティビティには、3 日間の&#x200B;**待機**&#x200B;アクティビティが付属しています。[詳細情報](wait-activity.md#auto-wait-node)
 
-## レコメンデーション {#recommendation}
 
-[!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。ただし、カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。
-
-* サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../action/action.md)
-
-* Campaign と Journey Optimizer の連携について詳しくは、次の節を参照してください。
-
-   * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
-
-## ライブコンテンツの更新{#update-live-content}
+## ライブコンテンツの更新 {#update-live-content}
 
 ライブジャーニーで組み込みのチャネルアクションのコンテンツを更新できます。
 
@@ -137,8 +131,19 @@ ht-degree: 100%
 
 ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更できません。
 
-コンテキストデータを変更すると、次のエラーメッセージが表示されます：ERR_AUTHORING_JOURNEYVERSION_201
+コンテキストデータを変更すると、次のエラーメッセージが表示されます。`ERR_AUTHORING_JOURNEYVERSION_201`
 
-プロファイル属性を変更すると、次のエラーメッセージが表示されます：ERR_AUTHORING_JOURNEYVERSION_202
+プロファイル属性を変更すると、次のエラーメッセージが表示されます。`ERR_AUTHORING_JOURNEYVERSION_202`
 
 アプリ内アクティビティの場合、ジャーニーのライブ中にコンテンツを変更できますが、アプリ内トリガーは変更できません。
+
+## カスタムアクションを使用して送信 {#recommendation}
+
+組み込みのメッセージ機能を使用する代わりに、カスタムアクションを使用して、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。
+
+* サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../action/action.md)
+
+* Adobe Campaignを使用する場合は、次の節を参照してください。
+
+   * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
