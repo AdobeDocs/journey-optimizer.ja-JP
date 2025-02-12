@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: チャネル設定の作成
 description: チャネル設定の作成方法について説明します。
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
-workflow-type: ht
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 

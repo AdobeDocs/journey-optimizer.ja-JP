@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メール設定のパーソナライズ
 description: メールのチャネル設定レベルで設定のパーソナライズされた値を定義する方法について説明します。
-feature: Surface, Subdomains
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
-workflow-type: ht
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 100%
 

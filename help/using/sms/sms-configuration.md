@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
-workflow-type: ht
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ SMS または MMS を送信する前に、Adobe Journey Optimizer 環境を設�
    * [Sinch を使用](sms-configuration-sinch.md)
    * [Infobip を使用](sms-configuration-infobip.md)
    * [カスタムプロバイダーを使用](sms-configuration-custom.md)
-1. [SMS サーフェスの作成](sms-configuration-surface.md)
+1. [SMS 設定の作成](sms-configuration-surface.md)
 
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
 
