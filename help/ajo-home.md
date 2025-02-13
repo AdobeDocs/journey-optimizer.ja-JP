@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!TAB AI アシスタント]
 
-✨ [AI アシスタントコンテンツアクセラレータ](../help/using/content-management/gs-generative.md)ライブ機能プレビューで実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
+✨ [AI アシスタント ](../help/using/content-management/gs-generative.md) の機能を直接調べて、その機能を完全に理解できるように設計されたライブ機能プレビューで、実践的な体験に浸ってください。
 
 [![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

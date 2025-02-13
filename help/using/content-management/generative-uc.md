@@ -1,20 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: コンテンツアクセラレーターのユースケース用 AI アシスタント
-description: コンテンツアクセラレーターに AI アシスタントを使用する方法をユースケースから学ぶ
+title: AI アシスタントのユースケース
+description: ユースケースを通して AI アシスタントの使用方法を学ぶ
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 87%
 
 ---
 
-# コンテンツアクセラレーターのユースケース用 AI アシスタント {#generative-uc}
+# AI アシスタントのユースケース {#generative-uc}
 
 >[!NOTE]
 >
@@ -28,7 +29,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL AI アシスタント]**」セクションを開きます。
 
-1. コンテンツアクセラレーター用 AI アシスタントの&#x200B;**[!UICONTROL オリジナルコンテンツを使用]**&#x200B;機能をオンにして、キャンペーン名やターゲットオーディエンスなど、キャンペーンの詳細に応じて新しいコンテンツをカスタマイズします。
+1. AI アシスタント内の **[!UICONTROL オリジナルコンテンツを使用]** 機能をオンにして、キャンペーン名やターゲットオーディエンスなど、キャンペーンの詳細に応じて新しいコンテンツをカスタマイズします。
 
 1. **[!UICONTROL プロンプト]**&#x200B;ボックスでリクエストを指定してコンテンツを調整し、必要に応じて設定をカスタマイズします。
 
@@ -94,11 +95,11 @@ ht-degree: 100%
 
 1. メールキャンペーンを設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
-1. コンテンツアクセラレーター用の AI アシスタントを使用して、変更するアセットを選択します。
+1. AI アシスタントを使用して、変更するアセットを選択します。
 
 1. 右側のパネルのメニューから、「**[!UICONTROL AI アシスタント]**」を選択します。
 
-1. 「**[!UICONTROL 参照スタイル]**」オプションをオンにすると、コンテンツアクセラレーター用の AI アシスタントで参照素材を使用して新しいコンテンツを生成できます。
+1. **[!UICONTROL 参照スタイル]** オプションをオンにすると、AI アシスタントは参照資料を使用して新しいコンテンツを生成できます。
 
 1. 「**[!UICONTROL 画像をアップロード]**」をクリックして、バリエーションにコンテキストを追加する画像を含めます。
 

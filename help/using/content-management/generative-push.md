@@ -1,38 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer の AI アシスタントコンテンツアクセラレータによるプッシュ生成
-description: Journey Optimizer の AI アシスタントコンテンツアクセラレータを使用してプッシュコンテンツの生成を開始します
+title: Journey Optimizerの AI アシスタントによるプッシュジェネレーション
+description: Journey Optimizerの AI アシスタントでプッシュコンテンツの生成を開始
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
-workflow-type: ht
-source-wordcount: '1487'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 90%
 
 ---
 
-# AI アシスタントコンテンツアクセラレータによるプッシュ生成  {#generative-push}
+# AI アシスタントを使用したプッシュの生成 {#generative-push}
 
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Journey Optimizer で AI アシスタントコンテンツアクセラレータを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Journey Optimizerで AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-メッセージを作成してパーソナライズしたら、Journey Optimizer の AI アシスタントコンテンツアクセラレータを使用して、プッシュ通知コンテンツを次のレベルに引き上げます。
+メッセージを作成してパーソナライズしたら、Journey Optimizerの AI アシスタントでプッシュ通知コンテンツを次のレベルに進めます。
 
-Journey Optimizer で AI アシスタントコンテンツアクセラレータを使用する方法については、以下のタブを参照してください。
+Journey Optimizer で AI アシスタントを使用する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB 完全なプッシュの生成]
 
-この例では、Journey Optimizer の AI アシスタントコンテンツアクセラレータを使用して魅力的なプッシュ通知を送信する方法について説明します。
+この特定の例では、Journey Optimizerの AI アシスタントを使用して魅力的なプッシュ通知を送信する方法を説明します。
 
 次の手順に従います。
 
@@ -48,7 +48,7 @@ Journey Optimizer で AI アシスタントコンテンツアクセラレータ�
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. AI アシスタントコンテンツアクセラレータの「**[!UICONTROL オリジナルコンテンツを使用]**」オプションを有効にすると、選択したコンテンツに基づいて新しいコンテンツオプションがパーソナライズされます。
+1. AI アシスタントの「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 
@@ -105,7 +105,7 @@ Journey Optimizer で AI アシスタントコンテンツアクセラレータ�
 
 >[!TAB テキストのみの生成]
 
-この例では、特定のコンテンツに対して Journey Optimizer の AI アシスタントコンテンツアクセラレータを使用する方法について説明します。次の手順に従います。
+この特定の例では、特定のコンテンツに対してJourney Optimizerで AI アシスタントを使用する方法を説明します。 次の手順に従います。
 
 1. プッシュ通知キャンペーンを作成し設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
@@ -119,7 +119,7 @@ Journey Optimizer で AI アシスタントコンテンツアクセラレータ�
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. AI アシスタントコンテンツアクセラレータの「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にすると、選択したコンテンツに基づいて新しいコンテンツがパーソナライズされます。
+1. AI アシスタントの「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 
@@ -179,7 +179,7 @@ Journey Optimizer で AI アシスタントコンテンツアクセラレータ�
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. AI アシスタントコンテンツアクセラレータの「**[!UICONTROL 参照スタイル]**」オプションを有効にすると、参照コンテンツに基づいて新しいコンテンツがパーソナライズされます。また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
+1. AI アシスタントの「**[!UICONTROL 参照スタイル]**」オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします。また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 

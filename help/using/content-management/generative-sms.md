@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: AI アシスタントを使用した SMS の生成
-description: Journey Optimizer で AI アシスタントコンテンツアクセラレータを使用して SMS コンテンツの生成を開始
+description: Journey Optimizerの AI アシスタントで SMS コンテンツの生成を開始
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
-workflow-type: ht
-source-wordcount: '904'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 93%
 
 ---
 
-# Journey Optimizer コンテンツアクセラレータでの AI アシスタントによる SMS 生成  {#generative-sms}
+# Journey Optimizerの AI アシスタントを使用した SMS 生成 {#generative-sms}
 
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Journey Optimizer で AI アシスタントコンテンツアクセラレータを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Journey Optimizerで AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-オーディエンスの環境設定に合わせて SMS メッセージを作成して調整したら、Journey Optimizer で AI アシスタントコンテンツアクセラレータを使用してコミュニケーションを強化します。
+オーディエンスの環境設定に合わせて SMS メッセージを作成して調整したら、Journey Optimizer の AI アシスタントを使用してコミュニケーションを強化します。
 
-このリソースは、コンテンツを微調整するためのインサイトに満ちたレコメンデーションを提供し、共感を呼ぶメッセージの作成やエンゲージメントの最大化に役立ちます。
+このリソースは、コンテンツを微調整するためのインサイトに満ちたレコメンデーションを提供し、メッセージの共感を呼び、エンゲージメントを最大限に推進するのに役立ちます。
 
-Journey Optimizer で AI アシスタントコンテンツアクセラレータを使用する方法については、以下のタブを参照してください。
+Journey Optimizer で AI アシスタントを使用する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ Journey Optimizer で AI アシスタントコンテンツアクセラレータ�
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. AI アシスタントコンテンツアクセラレータに対して「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて、新しいコンテンツをパーソナライズします。
+1. AI アシスタントの「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2158'
 ht-degree: 98%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 98%
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
 + コンテンツ管理 {#content-management}
    + AI アシスタントの操作{#ai-assistant}
-      + [AI アシスタントのコンテンツアクセラレータの基本を学ぶ](using/content-management/gs-generative.md)
+      + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI によるメール生成](using/content-management/generative-email.md)
       + [AI によるプッシュ生成](using/content-management/generative-push.md)
       + [AI による SMS 生成](using/content-management/generative-sms.md)

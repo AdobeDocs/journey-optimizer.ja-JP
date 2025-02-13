@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
-workflow-type: ht
-source-wordcount: '4776'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '4772'
+ht-degree: 99%
 
 ---
 
@@ -106,13 +106,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントコンテンツアクセラレータ </strong><br/></th>
+<th><strong>AI アシスタント</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成してパーソナライズしたら、Journey Optimizer の AI アシスタントコンテンツアクセラレータを使用してコンテンツをレベルアップさせます。AI アシスタントを使用して様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
+<p>メッセージを作成してパーソナライズしたら、Journey Optimizerの AI アシスタントでコンテンツを次のレベルに進めます。 AI アシスタントを使用して様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>で実際のエクスペリエンスに浸ってください。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../content-management/gs-generative.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
