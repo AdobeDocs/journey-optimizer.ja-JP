@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
+source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -53,6 +53,7 @@ ht-degree: 93%
 <td>
 <p>Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。この新しい機能を使用すると、分析のニーズに合わせて事前に設計されたテンプレートを使用して、レポートプロセスを効率化できます。
 </p>
+<img src="assets/do-not-localize/cja-templates.gif">
 <p>詳しくは、<a href="../reports/report-cja-manage.md#cja-template">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 1 月 15 日（PT）より</p>
 </tr>
