@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メール設定の指定
-description: チャネル設定レベルで List-Unsubscribe を設定する方法を説明します
+title: リストの購読解除の設定
+description: チャネル設定を行う際に、メールのヘッダーにワンクリック購読解除 URL を含める方法を説明します
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
-source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
+exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 32%
+source-wordcount: '779'
+ht-degree: 31%
 
 ---
 
