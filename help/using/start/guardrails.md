@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2505'
-ht-degree: 95%
+source-wordcount: '2513'
+ht-degree: 93%
 
 ---
 
@@ -40,12 +40,12 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ## データセットガードレール {#datasets-guardrails}
 
-2025年2月以降、**新しいサンドボックスと新しい組織**&#x200B;の Journey Optimizer システム生成データセットに、次のように有効期間（TTL）ガードレールがロールアウトされます。
+2025 年 2 月から、Time-to-Live （TTL）ガードレールが、（新しいサンドボックスと新しい組織 **のJourney Optimizer システム生成データセットに次のようにロールアウトされ** す。
 
-* プロファイルストアのデータの場合は 90 日
-* データレイクのデータの場合は 13 か月
+* プロファイルストアのデータの場合は 90 日間。
+* データレイクのデータの場合は 13 か月。
 
-これらのガードレールの詳細については、[ よくある質問 ](../data/datasets-ttl.md#ttl) の節を参照してください。
+この変更は、次のフェーズで **既存の顧客サンドボックス** にロールアウトされます。 [ データセットの Time-To-Leave （TTL）ガードレールの詳細 ](../data/datasets-ttl.md)
 
 ## ランディングページガードレール {#lp-guardrails}
 

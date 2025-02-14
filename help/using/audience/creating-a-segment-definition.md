@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 72%
+source-wordcount: '981'
+ht-degree: 63%
 
 ---
 
@@ -79,9 +79,14 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 ストリーミングセグメント化は、ユーザーのアクティビティに応じてオーディエンスを更新する継続的なデータ選択プロセスです。セグメント定義を作成して、結果のオーディエンスを保存すると、Journey Optimizer への受信データに対してセグメント定義が適用されます。つまり、個人は、プロファイルデータの変更に応じてオーディエンスに追加またはオーディエンスから削除され、ターゲットオーディエンスが常に関連性の高いものとなります。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->ストリーミングセグメント化条件として適切なイベントを使用するようにしてください。[詳細情報](#streaming-segmentation-events-guardrails)
+>2024 年 11 月 1 日（PT）をもって、ストリーミングセグメント化では、Journey Optimizerのトラッキングデータセットおよびフィードバックデータセットからの **send** および **open** イベントの使用がサポートされなくなりました。
+>* この変更は、すべての顧客サンドボックスおよび組織に適用されます。
+>* 影響を受けるのは、送信イベントとオープンイベントのみです。クリックやその他のトラッキングイベントは、ストリーミングセグメント化でも引き続き使用できます。
+>* この変更は、ストリーミングセグメント化にのみ適用されます。 送信イベントと開始イベントは、バッチセグメントでも使用できますが、ストリーミングセグメントに含まれる場合は、バッチ方法で評価されます。 さらに、送信イベントから生じる除外イベントとバウンス/遅延イベントも、この変更の影響を受けます。
+>* トラッキングデータ収集は影響を受けません。 送信および開封イベントは、引き続き通常どおり収集されます。
+>* ジャーニー内の反応イベントは、この変更の影響を受けません。
 
 +++
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2158'
-ht-degree: 98%
+source-wordcount: '2157'
+ht-degree: 97%
 
 ---
 
@@ -627,7 +627,7 @@ ht-degree: 98%
    + [スキーマの操作](using/data/get-started-schemas.md)
    + Journey Optimizer データセット {#datasets}
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
-      + [有効期間とストリーミングセグメント化の更新](using/data/datasets-ttl.md)
+      + [データセットの有効期間（TTL）ガードレール](using/data/datasets-ttl.md)
       + [Journey Optimizer データセットの書き出し](using/data/export-datasets.md)
       + [クエリの例](using/data/datasets-query-examples.md)
       + [ビルトインスキーマ／](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
