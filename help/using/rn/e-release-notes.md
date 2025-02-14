@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
+source-git-commit: c226e8458aecdd32ed14c3529d19d845cf9d946b
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '714'
 ht-degree: 21%
 
 ---
@@ -49,22 +49,6 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>SMS の複数地域サポート</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>配信、フィードバック、受信、コールバックの URL を上書きすることで、複数の地域のエンドポイントからの SMS メッセージ配信を管理できるようになりました。 これをサポートするために、新しい「フィールドオーバーライド URL」が API 資格情報設定に追加されました。 この変更は、Sinch プロバイダーでのみ使用できます。</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>AI アシスタントでランディングページを生成</strong><br/></th>
 </tr>
 </thead>
@@ -72,8 +56,8 @@ ht-degree: 21%
 <tr>
 <td>
 <p>AI アシスタントを使用して、完全なページデザイン、パーソナライズされたテキスト、カスタマイズされたビジュアルなど、ランディングページに魅力的なコンテンツを作成できるようになりました。</p>
-<!--img src="assets/do-not-localize/ai-lp.gif">
-<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -90,7 +74,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>独自のブランドガイドラインを設定して、ブランドの視覚的および言語的 ID を定義できるようになりました。 ブランド機能はプライベートベータ版としてリリースされ、今後のリリースですべてのユーザーが段階的に利用できるようになります。</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -158,6 +142,8 @@ ht-degree: 21%
 
 * **ダイレクトメール** – 新しいサーバータイプであるデータランディングゾーンが、ダイレクトメールチャネル設定でのファイルルーティングでサポートされるようになりました。
 
+**SMS** – 配信、フィードバック、受信、コールバックの URL を上書きすることで、複数の地域のエンドポイントからの SMS メッセージ配信を管理できるようになりました。 これをサポートするために、新しい「フィールドオーバーライド URL」が API 資格情報設定に追加されました。 この変更は、Sinch プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration-sinch.md)
+
 **パーソナライゼーション**
 
 <!--
@@ -174,3 +160,4 @@ ht-degree: 21%
 **決定** – 公開日：2025 年 1 月 28 日（PT）
 
 * 決定では、項目カタログのスキーマを編集する際に、オブジェクトデータタイプをサポートするようになりました。 [詳細情報](../experience-decisioning/catalogs.md)
+
