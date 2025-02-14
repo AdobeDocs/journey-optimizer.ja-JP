@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>ビジネスルール</strong><br/></th>
+<th><strong>ビジネス・ルールの作成と管理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ ht-degree: 24%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics テンプレート</strong><br/></th>
+<th><strong>AI アシスタントでランディングページを生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。この新しい機能を使用すると、分析のニーズに合わせて事前に設計されたテンプレートを使用して、レポートプロセスを効率化できます。
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>詳しくは、<a href="../reports/report-cja-manage.md#cja-template">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 1 月 15 日（PT）より</p>
+<p>ランディングページ配信で AI アシスタントが使用できるようになり、テキストや画像の生成、または完全なページレイアウトの生成が可能になりました。</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>ブランドガイドライン（ベータ版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>独自のブランドガイドラインを設定して、ブランドの視覚的および言語的 ID を定義できるようになりました。 ブランド機能はプライベートベータ版としてリリースされ、今後のリリースですべてのユーザーが段階的に利用できるようになります。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ ht-degree: 24%
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics テンプレート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。この新しい機能を使用すると、分析のニーズに合わせて事前に設計されたテンプレートを使用して、レポートプロセスを効率化できます。
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>詳しくは、<a href="../reports/report-cja-manage.md#cja-template">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 1 月 15 日（PT）より</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### 機能強化 {#25-02-improvements}
 
 以下の改善点は、2 月のアップデートに伴うものです。
 
-* **ジャーニー** – 管理ユーザーインターフェイスからの API 呼び出しを送信することで、ジャーニーのカスタムアクションをテストできるようになりました。 この新しい機能は、カスタムアクションのトラブルシューティングに役立ちます。
+* **ジャーニー** – 管理セクションから API 呼び出しを送信することで、カスタムアクションをテストできるようになりました。 この新しい機能は、ジャーニーで使用する前にカスタムアクションのトラブルシューティングを行うのに役立ちます。
 
 * **データセットの有効期間（TTL）** – 今月から、新しいサンドボックスと新しい組織のJourney Optimizer システム生成データセットに、有効期間（TTL）ガードレールが次のようにロールアウトされます。
 
