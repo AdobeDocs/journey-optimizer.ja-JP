@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
+source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '715'
 ht-degree: 21%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>ランディングページ配信で AI アシスタントが使用できるようになり、テキストや画像の生成、または完全なページレイアウトの生成が可能になりました。</p>
+<p>AI アシスタントを使用して、完全なページデザイン、パーソナライズされたテキスト、カスタマイズされたビジュアルなど、ランディングページに魅力的なコンテンツを作成できるようになりました。</p>
 <!--img src="assets/do-not-localize/ai-lp.gif">
 <p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
