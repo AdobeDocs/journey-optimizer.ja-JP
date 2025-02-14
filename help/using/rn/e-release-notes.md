@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
+source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 25%
+source-wordcount: '637'
+ht-degree: 26%
 
 ---
 
@@ -113,13 +113,14 @@ ht-degree: 25%
 
   この変更は、後続フェーズで既存の顧客サンドボックスにロールアウトされます。
 
-* **プレイブック** - Journey Optimizerで独自のユースケースプレイブックを作成して公開できるようになりました。
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **ダイレクトメール** - DLZ （DAta ランディングゾーン）が、ダイレクトメール設定でのファイルルーティング用のサーバータイプとしてサポートされるようになりました。
 
 **パーソナライゼーション**
 
-* パーソナライゼーションエディターが強化され、オートコンプリート、検索、フィルタリングオプションなどの新機能が追加されました。 また、非推奨（廃止予定）の属性を表示または非表示にすることもできます。
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 * 公開日：2025 年 1 月 29 日（PT） – パーソナライゼーションエディターで新しい日付/時間ヘルパー関数を使用できます。 [詳細情報](../personalization/functions/dates.md)
 
