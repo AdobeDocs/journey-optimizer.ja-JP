@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
+source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 26%
+source-wordcount: '632'
+ht-degree: 24%
 
 ---
 
@@ -113,6 +113,8 @@ ht-degree: 26%
 
   この変更は、後続フェーズで既存の顧客サンドボックスにロールアウトされます。
 
+  この更新について詳しくは、[ この専用 FAQ](../data/datasets-ttl.md#frequently-asked-questions) を参照してください。
+
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **ダイレクトメール** - DLZ （DAta ランディングゾーン）が、ダイレクトメール設定でのファイルルーティング用のサーバータイプとしてサポートされるようになりました。
@@ -129,10 +131,6 @@ ht-degree: 26%
 * Adobe以外で同意を管理している場合は、メールチャネルの設定の一部として、カスタム購読解除メールアドレスとカスタムワンクリック購読解除 URL を設定できるようになりました。 [ 詳細を表示 ](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-  >[!AVAILABILITY]
-  >
-  >この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
 
 **決定** – 公開日：2025 年 1 月 28 日（PT）
 
