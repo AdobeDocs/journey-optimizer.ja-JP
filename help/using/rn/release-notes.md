@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
+source-git-commit: 9b7e7a908f7f38570d35d8727a42cbcc216a1387
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 78%
+source-wordcount: '2795'
+ht-degree: 77%
 
 ---
 
@@ -127,48 +127,41 @@ ht-degree: 78%
 
 以下の改善点は、2 月のアップデートに伴うものです。
 
-* **ジャーニー** – 管理セクションから API 呼び出しを送信することで、カスタムアクションをテストできるようになりました。 この新しい機能は、ジャーニーで使用する前にカスタムアクションのトラブルシューティングを行うのに役立ちます。
+**ジャーニー** – 管理セクションから API 呼び出しを送信することで、カスタムアクションをテストできるようになりました。 この新しい機能は、ジャーニーで使用する前または後にカスタムアクションをトラブルシューティングするのに役立ちます。
 
-* **データセットの有効期間（TTL）** – 今月から、新しいサンドボックスと新しい組織のJourney Optimizer システム生成データセットに、有効期間（TTL）ガードレールが次のようにロールアウトされます。
+**データセットの有効期間（TTL）** – 今月から、新しいサンドボックスと新しい組織のJourney Optimizer システム生成データセットに、有効期間（TTL）ガードレールが次のようにロールアウトされます。
 
-   * プロファイルストアのデータの場合は 90 日
-   * データレイクのデータの場合は 13 か月
-
-  この変更は、後続フェーズで既存の顧客サンドボックスにロールアウトされます。
-
-  この更新について詳しくは、[ この専用 FAQ](../data/datasets-ttl.md#frequently-asked-questions) を参照してください。
+    * プロファイルストアのデータで 90 日 
+    * データレイクのデータで 13 か月 
+    
+     この変更は、後続フェーズで既存の顧客サンドボックスにロールアウトされます。
+    
+     この更新について詳しくは、[ この専用 FAQ] （../data/datasets-ttl.md#frequently-asked-questions）を参照してください。
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **ダイレクトメール** – 新しいサーバータイプであるデータランディングゾーンが、ダイレクトメールチャネル設定でのファイルルーティングでサポートされるようになりました。
+**ダイレクトメール** – 新しいサーバータイプであるデータランディングゾーンが、ダイレクトメールチャネル設定でのファイルルーティングでサポートされるようになりました。
 
 **SMS** – 配信、フィードバック、受信、コールバックの URL を上書きすることで、複数の地域のエンドポイントからの SMS メッセージ配信を管理できるようになりました。 これをサポートするために、新しい「フィールドオーバーライド URL」が API 資格情報設定に追加されました。 この変更は、Sinch プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration-sinch.md)
 
-**パーソナライゼーション**
+**Personalization** （公開日：2025 年 1 月 29 日（PT）） – 新しい日付/時間ヘルパー関数を、パーソナライゼーションエディターで使用できます。 [詳細情報](../personalization/functions/dates.md)
+
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
-* 公開日：2025 年 1 月 29 日（PT） – パーソナライゼーションエディターで新しい日付/時間ヘルパー関数を使用できます。 [詳細情報](../personalization/functions/dates.md)
 
-
-**メール設定** – 公開日：2025 年 2 月 12 日（PT）
+**メール設定** （公開日：2025 年 2 月 12 日（PT））
 
 * Adobe以外で同意を管理している場合は、メールチャネルの設定の一部として、カスタム購読解除メールアドレスとカスタムワンクリック購読解除 URL を設定できるようになりました。 [ 詳細を表示 ](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-  >[!AVAILABILITY]
-  >
-  >この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
-
 * Adobe以外で同意を管理している場合は、メールチャネルの設定の一部として、カスタム購読解除メールアドレスとカスタムワンクリック購読解除 URL を設定できるようになりました。 [ 詳細を表示 ](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-**決定** – 公開日：2025 年 1 月 28 日（PT）
-
-* 決定では、項目カタログのスキーマを編集する際に、オブジェクトデータタイプをサポートするようになりました。 [詳細情報](../experience-decisioning/catalogs.md)
+**決定** （公開日：2025 年 1 月 28 日（PT）） – 決定で、項目カタログのスキーマを編集する際に、オブジェクトデータタイプがサポートされるようになりました。 [詳細情報](../experience-decisioning/catalogs.md)
 
 
 ## 2024年10月リリース {#24-10-rn}
