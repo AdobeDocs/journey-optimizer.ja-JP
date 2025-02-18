@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 77a3980b2c18f14d6b7cf0461541d0b9721dab84
+source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '764'
 ht-degree: 22%
 
 ---
@@ -74,13 +74,13 @@ ht-degree: 22%
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントを使用したブランドガイドライン（Beta）</strong><br/></th>
+<th><strong>AI アシスタントを使用したブランド（Beta）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>独自のブランドガイドラインを設定して、ブランドの視覚的および言語的 ID を定義できるようになりました。 </p>
+<p>独自のブランドを設定して、ブランドの視覚的および言語的 ID を定義できるようになりました。 </p>
 <p>この機能は、一部のお客様にプライベートベータ版としてリリースされています。 今後のリリースで、すべてのお客様が段階的に利用できるようになります。</p>
 <p>詳しくは、<a href="../content-management/brands.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
