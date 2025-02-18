@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '766'
 ht-degree: 22%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 22%
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **ダイレクトメール** – 新しいサーバータイプであるデータランディングゾーンが、ダイレクトメールチャネル設定でのファイルルーティングでサポートされるようになりました。
+* **ダイレクトメール** – 新しいサーバータイプであるデータランディングゾーンが、ダイレクトメールチャネル設定でのファイルルーティングでサポートされるようになりました。 [詳細情報](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 * **SMS** – 配信、フィードバック、受信、コールバックの URL を上書きすることで、複数の地域のエンドポイントからの SMS メッセージ配信を管理できるようになりました。 これをサポートするために、新しい「フィールドオーバーライド URL」が API 資格情報設定に追加されました。 この変更は、Sinch プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration-sinch.md)
 
