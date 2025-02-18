@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 98%
+source-wordcount: '1529'
+ht-degree: 93%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 98%
 
 1. 設定の名前を設定します。
 
-1. ダイレクトメールファイルの書き出しに使用する&#x200B;**[!UICONTROL サーバータイプ]**&#x200B;として「SFTP」を選択します。
+1. ダイレクトメールファイルの書き出しに使用する **[!UICONTROL サーバータイプ]** として、「SFTP」を選択します。
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
@@ -142,7 +142,7 @@ ht-degree: 98%
 
 1. 設定の名前を設定します。
 
-1. ダイレクトメールファイルの書き出しに使用する、Azure **[!UICONTROL サーバータイプ]**&#x200B;を選択します。
+1. ダイレクトメールファイルの書き出しに使用する **[!UICONTROL サーバータイプ]** として、「Azure」を選択します。
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ ht-degree: 98%
 1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
 
    「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまで設定で選択することはできません。
+
+>[!TAB  データランディングゾーン ]
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ダイレクトメール設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ルーティング設定を作成]**」をクリックします。
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 設定の名前を設定します。
+
+1. ダイレクトメールファイルの書き出しに使用する **[!UICONTROL サーバータイプ]** として、データランディングゾーンを選択します。
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. ファイルを暗号化するには、暗号化キーを **[!UICONTROL PGP/GPG 暗号化キー]** フィールドにコピー&amp;ペーストします。<!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. 「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
+
+   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまで設定で選択することはできません。
+
+データランディングゾーンについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} を参照してください。
 
 >[!ENDTABS]
 

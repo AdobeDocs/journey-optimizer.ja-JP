@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="限定提供"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 93%
+source-wordcount: '920'
+ht-degree: 91%
 
 ---
 
@@ -70,6 +70,10 @@ ht-degree: 93%
 
       1. 「**[!UICONTROL キャッピング]**」フィールドで、プロファイルが入力できるジャーニーの最大数を設定します。
       1. 「**[!UICONTROL 期間]**」フィールドで、考慮する期間を定義します。期間は UTC タイムゾーンに基づきます。例えば、日別のキャップは午前 0 時（UTC）にリセットされます。
+
+     >[!AVAILABILITY]
+     >
+     >「毎日」の期間は、オンデマンドでのみ使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
 
      この例では、プロファイルが 1 か月に「5」を超えるジャーニーにエントリできないように制限します。
 

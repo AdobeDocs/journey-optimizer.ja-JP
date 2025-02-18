@@ -3,20 +3,21 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）
 description: Adobe Experience Platform データをパーソナライズ機能に使用する方法を説明します。
+badge: label="ベータ版" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 式、エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 99%
 
 ---
 
-# Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版） {#aep-data}
+# パーソナライゼーションに関する Adobe Experience Platform データの使用{#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -71,7 +72,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **アクション**&#x200B;は、有効または無効です。
 * **アクセストークン**&#x200B;は、Developer Console から取得できます。
 * **API キー**&#x200B;は、Developer Console から取得できます。
-* **IMS 組織 ID** はAdobe組織です。
+* **IMS 組織 ID** はAdobeの組織です。
 * **サンドボックス名**&#x200B;は、データセットが含まれるサンドボックス名です（実稼動、開発など）。
 
 >[!NOTE]

@@ -8,17 +8,17 @@ topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: ht
-source-wordcount: '1074'
-ht-degree: 100%
+exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+workflow-type: tm+mt
+source-wordcount: '1070'
+ht-degree: 98%
 
 ---
 
+# 別のサンドボックスへのオブジェクトの書き出し {#copy-to-sandbox}
 
-# 別のサンドボックスへの Journey Optimizer オブジェクトのコピー {#copy-to-sandbox}
-
-サンドボックスツールを使用すると、パッケージの書き出しと読み込みを活用して、複数のサンドボックス間でジャーニー、コンテンツテンプレート、フラグメントなどのオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。
+パッケージの書き出しおよび読み込み機能を使用して、ジャーニー、コンテンツテンプレート、フラグメントなどのオブジェクトを複数のサンドボックス間でコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。
 
 このページでは、Journey Optimizer のコンテキストにおけるサンドボックスツールのユースケースについて説明します。機能自体について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ja)を参照してください。
 

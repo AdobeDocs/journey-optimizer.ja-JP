@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ビジネスルール
-description: 頻度ルールの定義方法を学ぶ
+title: ビジネス・ルールの構成
+description: ビジネス頻度ルールの定義方法を学ぶ
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '1264'
-ht-degree: 100%
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+workflow-type: tm+mt
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
-# ビジネスルール {#frequency-rules}
+# ビジネスルールの設定 {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"

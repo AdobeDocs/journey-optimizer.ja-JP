@@ -1,19 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ルールセットの操作（LA）
+title: ルールセットの操作
 description: ルールセットを作成および適用する方法を学ぶ
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
-badge: label="限定提供"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 100%
+source-wordcount: '1933'
+ht-degree: 97%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 100%
 >id="ajo_business_rules_rule_sets"
 >title="ルールセット"
 >abstract="ルール セットを使用して、様々な種類のアドビからのお知らせにフリークエンシーキャップを適用します。また、フリークエンシーキャップルールに基づいて、オーディエンスの一部に対してジャーニーを除外するルールセットを作成することもできます。"
-
->[!AVAILABILITY]
->
->ルールセットは、現在一部のお客様のグループに対して限定で提供されています。この機能は、今後、より多くのユーザーに段階的にロールアウトされる予定です。待機リストへの追加をご希望の場合は、アカウントチームにお問い合わせください。
 
 ## ルールセットの基本を学ぶ {#gs}
 
@@ -68,7 +63,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->最大 3 つのカスタムルールセットを作成できます。
+>チャネルドメインのローカルルールセットを最大 3 つ、ジャーニードメインのローカルルールセットを最大 5 つ作成できます。
 
 1. **[!UICONTROL ルールセット]**&#x200B;のリストにアクセスし、「**[!UICONTROL ルールセットを作成]**」をクリックします。
 
@@ -127,6 +122,10 @@ ht-degree: 100%
 1. **[!UICONTROL 期間]**&#x200B;ドロップダウンリストから、キャッピングを毎月、毎週、毎日のいずれの頻度で適用するかを選択します。フリークエンシーキャップは、選択したカレンダーの期間に基づきます。対応する時間枠の開始時にリセットされます。
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >「毎日」の期間は、オンデマンドでのみ使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
 
    各期間のカウンターの有効期限は次のとおりです。
 
@@ -193,7 +192,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ルールまたはルールセットが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開したりする必要はありません。
+>ルールまたはルールセットが完全にアクティブ化されるまでに、最大 20 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開したりする必要はありません。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 

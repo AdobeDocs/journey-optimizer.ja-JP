@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 94%
 
 ---
 
@@ -48,19 +48,19 @@ ht-degree: 100%
 >
 >テンプレートを編集または削除しても、このテンプレートを使用して作成されたコンテンツを含むキャンペーンやジャーニーは影響を受けません。
 
-## テンプレートをサムネールとして表示 {#template-thumbnails}
+## [!BADGE  限定提供 ]{type=Informative} ディスプレイテンプレートをサムネールとして表示 {#template-thumbnails}
 
 各テンプレートをサムネールとして表示するには、**[!UICONTROL グリッド表示]**&#x200B;モードを選択します。
 
 >[!AVAILABILITY]
 >
->この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
+この機能は、少数の顧客向けに限定提供（LA）でリリースされています。
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->現在、適切なサムネールは HTML タイプのメールコンテンツテンプレートに対してのみ生成できます。
+現在、適切なサムネールは、HTML タイプに対してのみ生成できます email コンテンツテンプレート。
 
 コンテンツを更新する場合、変更がサムネールに反映されるまでに数秒待つ必要がある場合があります。
 

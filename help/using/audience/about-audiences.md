@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 34%
@@ -30,14 +30,16 @@ ht-degree: 34%
 
 オーディエンスは、類似の行動や特徴を共有する人々の集まりです。 Adobe Experience Platform Segmentation Service を使用すると、Adobe Experience Platform上で一元的に設定および管理され、Journey Optimizer内から簡単にアクセスしてジャーニーやキャンペーンでアクティブ化できます。
 
-Adobe Journey Optimizerには、オーディエンスを作成、管理および強化してマーケティング活動を強化するための堅牢なツールが用意されています。 Journey OptimizerをAdobe Real-time Customer Data Platformと組み合わせると、オーディエンスをレイヤー化してより複雑なセグメント化を行い、オーディエンスを他のAdobe Experience Cloud ソリューションと双方向に共有できます。
+Adobe Journey Optimizerには、オーディエンスを作成、管理および強化してマーケティング活動を強化するための堅牢なツールが用意されています。 Journey OptimizerをAdobe Real-Time Customer Data Platformと組み合わせると、オーディエンスをレイヤー化してより複雑なセグメント化を行い、オーディエンスを他のAdobe Experience Cloud ソリューションと双方向に共有できます。
 
 リアルタイムデータストリームまたはバッチアップロードの際、データセットは更新され、Journey Optimizerは、個人をオーディエンスおよびジャーニーからリアルタイムで動的に出入りさせます。
 
 >[!BEGINSHADEBOX]
 
 このドキュメントでは、[!DNL Adobe Journey Optimizer] 内でオーディエンスを使用する方法について説明します。 オーディエンスポータルとオーディエンスについて詳しくは、Adobe Experience Platform セグメント化サービスのドキュメントを参照してください。 詳しくは、次の節を参照してください。
+
 * [ セグメント化サービス UI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+
 * [ セグメント化サービス – よくある質問 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]

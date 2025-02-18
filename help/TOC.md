@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2167'
 ht-degree: 97%
 
 ---
@@ -222,7 +222,7 @@ ht-degree: 97%
       + メールチャネルの設定 {#configure-email}
          + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
          + [メール設定の定義](using/email/email-settings.md)
-         + [リストの購読解除を有効にする](using/email/list-unsubscribe.md)
+         + [リスト登録解除を有効にする](using/email/list-unsubscribe.md)
          + [ヘッダーパラメーター](using/email/header-parameters.md)
          + [URL トラッキング](using/email/url-tracking.md)
          + [メール設定のパーソナライズ](using/email/surface-personalization.md)
@@ -313,7 +313,9 @@ ht-degree: 97%
       + [AI による SMS 生成](using/content-management/generative-sms.md)
       + [AI による web 生成](using/content-management/generative-web.md)
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
+      + [AI を使用したランディングページ](using/content-management/generative-lp.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
+      + [ブランドを作成および管理（Beta）](using/content-management/brands.md)
    + 多言語コンテンツの操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [ロケールの作成](using/content-management/multilingual-locale.md)
@@ -376,7 +378,7 @@ ht-degree: 97%
          + [セグメント定義](using/audience/creating-a-segment-definition.md)
          + [オーディエンス構成](using/audience/get-started-audience-orchestration.md)
          + [カスタムアップロード](using/audience/custom-upload.md)
-         + [Federated Audience Composition （限定提供）](using/audience/federated-audience-composition.md)
+         + [連合オーディエンス構成](using/audience/federated-audience-composition.md)
       + [キャンペーンとジャーニーでのオーディエンスアクティベーション](using/audience/target-audiences.md)
       + [エンリッチメント属性の活用](using/audience/enrichment-attributes.md)
    + プロファイル{#profiles}
@@ -659,7 +661,7 @@ ht-degree: 97%
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [ビジネスルールの設定](using/configuration/frequency-rules.md)
-   + [ルールセットの操作（LA）](using/configuration/rule-sets.md)
+   + [ルールセットの操作](using/configuration/rule-sets.md)
    + ジャーニーの設定 {#configure-journeys}
       + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
@@ -682,6 +684,7 @@ ht-degree: 97%
       + アクション設定 {#action-journeys}
          + [アクションについて](using/action/action.md)
          + [アクションの設定](using/action/about-custom-action-configuration.md)
+         + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
          + [Adobe Campaign Standard との統合](using/action/acs-action.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
          + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)

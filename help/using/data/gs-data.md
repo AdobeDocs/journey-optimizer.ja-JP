@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer におけるデータの基本を学ぶ
+title: Journey Optimizerのデータ管理の基本を学ぶ
 description: Journey Optimizer でデータを操作する方法を学ぶ
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: データ, 管理, プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# [!DNL Journey Optimizer] のデータ管理の基本を学ぶ {#about-data}
+# データ管理の基本を学ぶ {#about-data}
 
 カスタマーエクスペリエンスソリューションの強みと成功は、エンドカスタマーデータの充実度とカバレッジによって定義されます。また、このデータは貴重であり、特定の顧客にとって最高の価値があります。データ管理機能の評価が厳しくなり、テクノロジーの選択が本質的に組み込まれるようになりました。
 

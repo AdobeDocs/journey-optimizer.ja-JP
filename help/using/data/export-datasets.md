@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 97%
+source-wordcount: '870'
+ht-degree: 95%
 
 ---
 
@@ -27,43 +27,15 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 ![](assets/dataset-export-setup.png)
 
-
 各宛先について詳しくは、 Adobe Experience Platform のドキュメントを参照してください。
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=ja)
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=ja)
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=ja)
-* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ja)
-* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ja)
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ja)
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=ja){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=ja){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=ja){target="_blank"}
+* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ja){target="_blank"}
+* [Google クラウドストレージ ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ja){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ja){target="_blank"}。
 
-## 書き出しに使用できるデータセット {#datasets}
-
-以下の表から、書き出す Journey Optimizer データセットについて理解します。
-
-| データセット | 説明 |
-| ------- | ------- | 
-| AJO BCC フィードバックイベントデータセット | AJO BCC フィードバックイベントデータセット |
-| AJO 分類データセット | メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むデータセット。SDK を通じて作成。 |
-| AJO 同意サービスデータセット | プロファイルの同意情報を保存。 |
-| AJO メールトラッキングエクスペリエンスイベントデータセット | レポートやオーディエンス作成のために使用されるメールチャネルのインタラクションログ。  |
-| AJO エンティティデータセット | エンドユーザーに送信されるメッセージのエンティティメタデータを保存するデータセット。  |
-| AJO 受信アクティビティイベントデータセット | 配信およびインタラクションイベント用の Journey Optimizer web およびアプリ内チャネルのデータセット。 |
-| AJO インタラクティブメッセージプロファイルデータセット | API トリガーキャンペーンをサポートするために作成されたプロファイルを保存します |
-| AJO メッセージフィードバックイベントデータセット | メッセージ配信ログ。レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。 |
-| AJO プロファイルカウンター拡張機能 | counter_id でキー指定された counter_value と expiryDate を含むオブジェクトのマップを保持します |
-| AJO プッシュプロファイルデータセット | プロファイルのプッシュトークンを保存します。 |
-| AJO プッシュトラッキングエクスペリエンスイベントデータセット | レポートやオーディエンス作成のために使用されるプッシュチャネルのインタラクションログ。  |
-| AJO サーフェスデータセット | Journey Optimizer Inbound Surfaces スキーマに関連する空のデータセット |
-| AOOutputForUPSDataset | UPS にライトバックする AO オーディエンスメンバーシップをすべて含む |
-| オーディエンスオーケストレーションプロファイルデータセット | オーディエンス構成オーディエンス用のオーディエンス構成によって生成されます。すべてのオーディエンス構成オーディエンス、その属性、エンリッチメントデータを含みます |
-| 決定オブジェクトリポジトリ - アクティビティ | ユーザーインターフェイスでは「決定」とも呼ばれます。ただし、これらはユーザーが作成するオブジェクトで、決定ロジックを含むすべての構成要素をまとめたものです。例えば、特定のプレースメント（場所）について、考慮する必要があるオファー（オファーのコレクション）と、それらのオファーで使用するランキング方法などです。 |
-| 決定オブジェクトリポジトリ - フォールバックオファー | これは、ユーザーが作成する、別のタイプのオファーのリポジトリです。具体的には、パーソナライズされたオファーを閲覧する資格がなく、何かを見る必要がある場合でも、少なくともフォールバックオファーは表示されます。このデータセットには、このタイプのオファーの属性が含まれます |
-| 決定オブジェクトリポジトリ - パーソナライズされたオファー | これは、ユーザーが作成するタイプのオファーのリポジトリです。したがって、このデータセットには、このタイプのオファーに関する属性が含まれます | Ultimate |
-| 決定オブジェクトリポジトリ - プレースメント | これは、オファーを表示する場所を定義するオブジェクトのリポジトリです。 |
-| ジャーニーステップイベント | Journey Optimizer から生成され、レポートなどのサービスで使用されるすべてのジャーニーステップエクスペリエンスイベントをキャプチャします。 |
-| ジャーニー | ジャーニーの各ステップの情報を格納するメタデータのデータセット |
-| ODE DecisionEvents - 製品決定 | リクエストに基づいて決定を下すたびに、それを決定イベントとしてカウントします |
 
 ## 前提条件 {#prerequisites}
 
@@ -108,3 +80,31 @@ Journey Optimizer では、データセットの内容を書き出すために�
    <!--![](assets/dataset-export-review.png)-->
 
 書き出しが完了すると、設定したスケジュールに従って、データセットの内容がクラウドストレージの場所に保存されます。[データセットの書き出しが成功したことを確認する方法については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja#verify){target="_blank"}。
+
+## 書き出しに使用できるデータセット {#datasets}
+
+以下の表から、書き出す Journey Optimizer データセットについて理解します。
+
+| データセット | 説明 |
+| ------- | ------- | 
+| AJO BCC フィードバックイベントデータセット | AJO BCC フィードバックイベントデータセット |
+| AJO 分類データセット | メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むデータセット。SDK を通じて作成。 |
+| AJO 同意サービスデータセット | プロファイルの同意情報を保存。 |
+| AJO メールトラッキングエクスペリエンスイベントデータセット | レポートやオーディエンス作成のために使用されるメールチャネルのインタラクションログ。  |
+| AJO エンティティデータセット | エンドユーザーに送信されるメッセージのエンティティメタデータを保存するデータセット。  |
+| AJO 受信アクティビティイベントデータセット | 配信およびインタラクションイベント用の Journey Optimizer web およびアプリ内チャネルのデータセット。 |
+| AJO インタラクティブメッセージプロファイルデータセット | API トリガーキャンペーンをサポートするために作成されたプロファイルを保存します |
+| AJO メッセージフィードバックイベントデータセット | メッセージ配信ログ。レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。 |
+| AJO プロファイルカウンター拡張機能 | counter_id でキー指定された counter_value と expiryDate を含むオブジェクトのマップを保持します |
+| AJO プッシュプロファイルデータセット | プロファイルのプッシュトークンを保存します。 |
+| AJO プッシュトラッキングエクスペリエンスイベントデータセット | レポートやオーディエンス作成のために使用されるプッシュチャネルのインタラクションログ。  |
+| AJO サーフェスデータセット | Journey Optimizer Inbound Surfaces スキーマに関連する空のデータセット |
+| AOOutputForUPSDataset | UPS にライトバックする AO オーディエンスメンバーシップをすべて含む |
+| オーディエンスオーケストレーションプロファイルデータセット | オーディエンス構成オーディエンス用のオーディエンス構成によって生成されます。すべてのオーディエンス構成オーディエンス、その属性、エンリッチメントデータを含みます |
+| 決定オブジェクトリポジトリ - アクティビティ | ユーザーインターフェイスでは「決定」とも呼ばれます。ただし、これらはユーザーが作成するオブジェクトで、決定ロジックを含むすべての構成要素をまとめたものです。例えば、特定のプレースメント（場所）について、考慮する必要があるオファー（オファーのコレクション）と、それらのオファーで使用するランキング方法などです。 |
+| 決定オブジェクトリポジトリ - フォールバックオファー | これは、ユーザーが作成する、別のタイプのオファーのリポジトリです。具体的には、パーソナライズされたオファーを閲覧する資格がなく、何かを見る必要がある場合でも、少なくともフォールバックオファーは表示されます。このデータセットには、このタイプのオファーの属性が含まれます |
+| 決定オブジェクトリポジトリ - パーソナライズされたオファー | これは、ユーザーが作成するタイプのオファーのリポジトリです。したがって、このデータセットには、このタイプのオファーに関する属性が含まれます |
+| 決定オブジェクトリポジトリ - プレースメント | これは、オファーを表示する場所を定義するオブジェクトのリポジトリです。 |
+| ジャーニーステップイベント | Journey Optimizer から生成され、レポートなどのサービスで使用されるすべてのジャーニーステップエクスペリエンスイベントをキャプチャします。 |
+| ジャーニー | ジャーニーの各ステップの情報を格納するメタデータのデータセット |
+| ODE DecisionEvents - 製品決定 | リクエストに基づいて決定を下すたびに、それを決定イベントとしてカウントします |

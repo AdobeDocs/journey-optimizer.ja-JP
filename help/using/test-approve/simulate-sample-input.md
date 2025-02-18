@@ -7,16 +7,16 @@ feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="ベータ版"
+badge: label="ベータ版" type="Informative"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
-workflow-type: ht
-source-wordcount: '933'
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+workflow-type: tm+mt
+source-wordcount: '932'
 ht-degree: 100%
 
 ---
 
-# サンプル入力データを使用したコンテンツのテスト（ベータ版） {#custom-profiles}
+# サンプル入力データを使用したコンテンツのテスト{#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
