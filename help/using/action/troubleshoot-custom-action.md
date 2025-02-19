@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 3%
 
 ---
@@ -48,11 +48,9 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 カスタムアクションをテストするには、次の手順に従います。
 
-1. **カスタムアクション** 設定画面に移動し、カスタムアクションを選択します。
+1. **アクション** 設定画面に移動し、カスタムアクションを選択します。
 1. アクション設定画面の下部にある「**[!UICONTROL テストリクエストを送信]**」ボタンをクリックします。
-
-![ アクション設定パネルの「テストリクエストを送信」ボタン ](assets/test-request.png){width="70%" align="left"}
-
+   ![ アクション設定パネルの「テストリクエストを送信」ボタン ](assets/test-request.png){width="70%" align="left"}
 1. ポップアップウィンドウで、リクエストパラメーターを指定できます。
 
    * **カスタムアクションメソッドがGET** の場合、ペイロードは必要ありません。
