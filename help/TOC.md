@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 97%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 97%
    + [決定機能の基本を学ぶ](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
+      + [意思決定のガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
       + API リファレンス{#api-reference}
          + 決定項目{#decision-items}
             + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -487,6 +488,7 @@ ht-degree: 97%
       + 意思決定管理の基本を学ぶ {#get-started-decision}
 
          + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
+         + [意思決定管理のガードレールと制限](using/offers/decision-management-guardrails.md)
          + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
          + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
          + [決定のカスタムアップロードオーディエンスの活用](using/offers/custom-upload-decisioning.md)
