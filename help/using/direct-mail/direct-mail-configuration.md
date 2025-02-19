@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
+source-git-commit: 850b78afc8f833e503b6ebe2ca5e8b47a0e8ff7a
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 84%
@@ -80,87 +80,87 @@ ht-degree: 84%
 
 1. 以下のタブに記載されているように、各サーバータイプに固有のフィールドに入力します。
 
-   >[!BEGINTABS]
+>[!BEGINTABS]
 
-   >[!TAB Amazon S3]
+>[!TAB Amazon S3]
 
-   **[!UICONTROL Server type]** として **[!UICONTROL Amazon S3]** を選択した場合：
+**[!UICONTROL Server type]** として **[!UICONTROL Amazon S3]** を選択した場合：
 
-   1. サーバーの詳細と資格情報を入力します
+1. サーバーの詳細と資格情報を入力します
 
-      * **AWS バケット名**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)を参照してください。
+   * **AWS バケット名**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)を参照してください。
 
-      * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
+   * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
 
-      * **AWS 秘密鍵**：AWS 秘密鍵を見つける場所については、[このページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
+   * **AWS 秘密鍵**：AWS 秘密鍵を見つける場所については、[このページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
-      * **AWS リージョン**：サーバーインフラストラクチャを配置する **[!UICONTROL AWS リージョン]**&#x200B;を選択します。AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
+   * **AWS リージョン**：サーバーインフラストラクチャを配置する **[!UICONTROL AWS リージョン]**&#x200B;を選択します。AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
 
-      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
+1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
-   >[!TAB SFTP]
+>[!TAB SFTP]
 
-   **[!UICONTROL サーバータイプ]** として **[!UICONTROL SFTP]** を選択した場合：
+**[!UICONTROL サーバータイプ]** として **[!UICONTROL SFTP]** を選択した場合：
 
-   1. サーバーの詳細と資格情報を入力します。
+1. サーバーの詳細と資格情報を入力します。
 
-      * **アカウント**：SFTP サーバーへの接続に使用するアカウント名。
+   * **アカウント**：SFTP サーバーへの接続に使用するアカウント名。
 
-      * **サーバーアドレス**：SFTP サーバーの URL。
+   * **サーバーアドレス**：SFTP サーバーの URL。
 
-      * **ポート**：FTP 接続のポート番号。
+   * **ポート**：FTP 接続のポート番号。
 
-      * **パスワード**：SFTP サーバーへの接続に使用するパスワード。
+   * **パスワード**：SFTP サーバーへの接続に使用するパスワード。
 
-      ![](assets/file-routing-config-sftp-detail.png)
+   ![](assets/file-routing-config-sftp-detail.png)
 
-      >[!NOTE]
-      >
-      >ファイルを保存するサーバー上のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
+   >[!NOTE]
+   >
+   >ファイルを保存するサーバー上のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
 
-   1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
+1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
-   >[!TAB Azure]
+>[!TAB Azure]
 
-   **[!UICONTROL サーバータイプ]** として **[!UICONTROL Azure]** を選択した場合：
+**[!UICONTROL サーバータイプ]** として **[!UICONTROL Azure]** を選択した場合：
 
-   1. サーバーの詳細と資格情報を入力します。
+1. サーバーの詳細と資格情報を入力します。
 
-      * **Azure 接続文字列**：**Azure 接続文字列**&#x200B;を見つけるには、[このページ](https://learn.microsoft.com/ja-jp/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)を参照してください。
+   * **Azure 接続文字列**：**Azure 接続文字列**&#x200B;を見つけるには、[このページ](https://learn.microsoft.com/ja-jp/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)を参照してください。
 
-        **Azure 接続文字列**&#x200B;は、以下の形式に従う必要があります。
+     **Azure 接続文字列**&#x200B;は、以下の形式に従う必要があります。
 
-        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-      * **コンテナ名**：**コンテナ名**&#x200B;を見つけるには、[このページ](https://learn.microsoft.com/ja-jp/azure/storage/blobs/blob-containers-portal)を参照してください。
+   * **コンテナ名**：**コンテナ名**&#x200B;を見つけるには、[このページ](https://learn.microsoft.com/ja-jp/azure/storage/blobs/blob-containers-portal)を参照してください。
 
-        **コンテナ名** には、コンテナの名前のみをスラッシュなしで含める必要があります。
+     **コンテナ名** には、コンテナの名前のみをスラッシュなしで含める必要があります。
 
-        >[!NOTE]
-        >
-        >ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
+     >[!NOTE]
+     >
+     >ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
 
-        ![](assets/file-routing-config-azure-detail.png)
+     ![](assets/file-routing-config-azure-detail.png)
 
-   1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
+1. ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
-   >[!TAB Data Landing Zone]
+>[!TAB Data Landing Zone]
 
-   **[!UICONTROL サーバータイプ]** として **[!UICONTROL データランディングゾーン]** を選択した場合、特定の詳細は必要ありません。
+**[!UICONTROL サーバータイプ]** として **[!UICONTROL データランディングゾーン]** を選択した場合、特定の詳細は必要ありません。
 
-   ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
+ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
-   ![](assets/file-routing-config-dlz-detail.png)
+![](assets/file-routing-config-dlz-detail.png)
 
-   [!DNL Adobe Experience Platform] のすべての顧客は、サンドボックスごとに 1 つのデータランディングゾーンコンテナを使用してプロビジョニングされます。 データランディングゾーンについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} を参照してください。
+[!DNL Adobe Experience Platform] のすべての顧客は、サンドボックスごとに 1 つのデータランディングゾーンコンテナを使用してプロビジョニングされます。 データランディングゾーンについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} を参照してください。
 
-   >[!ENDTABS]
+>[!ENDTABS]
 
-1. サーバータイプの詳細を入力したら、「**[!UICONTROL 送信]**」を選択します。 ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
+サーバータイプの詳細を入力したら、「**[!UICONTROL 送信]**」を選択します。 ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
 
-   「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまで設定で選択することはできません。
+「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまで設定で選択することはできません。
 
 ## ダイレクトメール設定の作成 {#direct-mail-surface}
 
