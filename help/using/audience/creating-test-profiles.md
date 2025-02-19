@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
+source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1362'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 100%
 # テストプロファイルの作成 {#create-test-profiles}
 
 ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../content-management/preview-test.md)には、テストプロファイルが必要です。
+
+
+>[!NOTE]
+>
+>また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 
