@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="決定とは何ですか？"
->abstract="意思決定は、意思決定管理の他に、意思決定エンジンから最適な項目を選択し、各個人に配信する新しいツールです。 使用するには、追加の設定が必要です。"
+>title="決定とは?"
+>abstract="決定とは、決定エンジンから最適な項目を選択して各個人に配信するための、意思決定管理以外の新しいツールです。使用するには、追加の設定が必要です。"
 
 ## 決定とは {#about}
 
