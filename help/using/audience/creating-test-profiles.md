@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 100%
@@ -175,9 +175,12 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
    ![](assets/test-profiles-21.png)
 
 テストプロファイルが追加され、ジャーニーのテストで使用できるようになりました。[この節](../building-journeys/testing-the-journey.md)を参照してください。
+
+
 >[!NOTE]
 >
 > CSV の読み込みについて詳しくは、[データ取り込みドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja#tutorials){target="_blank"}を参照してください。
+
 
 ## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
