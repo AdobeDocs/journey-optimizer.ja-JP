@@ -5,11 +5,12 @@ feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 66%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 100%
 
 1. 式の名前、説明、式を指定します。
 
-   この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、**contextData.weather=hot** を判定の呼び出し時に渡しています。
+   この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。これを行うために、**contextData.weather=hot** が判定呼び出しで渡されました。 [ コンテキストデータの操作方法を学ぶ ](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -105,42 +106,6 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### コンテキストデータに基づいた特定のオファー属性を持つオファーのブースト
-
-決定の呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げます。例えば、決定の呼び出しで `contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
-
-**ランキング式：**
-
-```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
-```
-
-決定 API を使用する場合は、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
-
-**リクエスト本文から抜粋したコード：**
-
-```
-"xdm:profiles": [
-{
-    "xdm:identityMap": {
-        "crmid": [
-            {
-            "xdm:id": "CRMID1"
-            }
-        ]
-    },
-    "xdm:contextData": [
-        {
-            "@type":"_xdm.context.additionalParameters;version=1",
-            "xdm:data":{
-                "xdm:weather":"hot"
-            }
-        }
-    ]
- }],
-```
-
 ### オファーされる製品を顧客が購入する傾向に基づいたオファーのブースト
 
 顧客の傾向スコアに基づいて、オファーのスコアを上げることができます。
@@ -169,14 +134,100 @@ and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;ver
 }
 ```
 
-オファーには、スコアのカテゴリに一致する *propensityType* の属性が含まれています。
+### コンテキストデータに基づくオファーのブースト {#context-data}
 
-![](../assets/ranking-example-propensityType.png)
+[!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。 例えば、`contextData.weather=hot` を渡す場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。 **Edge Decisioning** および **Decisioning** API を使用してコンテキストデータを渡す方法について詳しくは、[ この節 ](../context-data.md) を参照してください。
 
-この場合、ランキング式では、その *propensityType* の顧客 *propensityScore* と同じになるように各オファーの優先度を設定できます。スコアが見つからない場合は、オファーに設定された静的な優先度を使用します。
+**Decisioning** API を使用する場合、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
 
 ```
-let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
-in if(score.isNotNull(), score, offer.rank.priority)
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+    
+}],
 ```
+
+ランキング式でコンテキストデータを使用してオファーの優先度を上げる方法を示す例を次に示します。 各セクションを展開すると、ランキング式の構文の詳細が表示されます。
+
+>[!NOTE]
+>
+>Edge Decisioning API の例では、`<OrgID>` を組織のテナント ID に置き換えます。
+
++++コンテキストデータのチャネルが顧客の優先チャネルと一致する場合は、オファーの優先度を 10 上げる
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.channel.isNotNull() and xEvent.<OrgID>.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++呼び出しで「contextData.weather=hot」が渡された場合、「attribute=hot」を含むすべてのオファーの優先度を上げます。
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.get("weather")=xEvent.<OrgID>.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++コンテンツ接触チャネルのブースト
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.contentorigin.isNotNull() and offer.characteristics.contentorigin=xEvent.<OrgID>.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++気象ブースト
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.weather=xEvent.<OrgID>.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++

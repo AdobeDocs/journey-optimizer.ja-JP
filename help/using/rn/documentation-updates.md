@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,10 @@ ht-degree: 96%
 * **[!UICONTROL 送信時間の最適化]** に関するドキュメントと関連 FAQ が更新、改善され、新しい専用ページに移動されました。 [詳細情報](../building-journeys/send-time-optimization.md)
 * ジャーニーイベント用の新しいガードレールが追加されました。 [詳細情報](../start/guardrails.md#events-g)
 * 組み込みのチャネルアクションページが再編成されました。 [詳細情報](../building-journeys/journeys-message.md)
-* ガードレールと制限が「決定と意思決定管理」の節に追加されました。
+* 意思決定と意思決定管理の節にガードレールと制限が追加されました。
    * [意思決定のガードレールと制限](../experience-decisioning/decisioning-guardrails.md)
    * [意思決定管理のガードレールと制限](../offers/decision-management-guardrails.md)
+* 意思決定管理ドキュメントに、コンテキストデータに関する新しい節が追加されました。 決定エンジンでコンテキストデータを活用する方法に関する情報を提供します。例えば、決定リクエストを行う際に現在の天気を≥80 度にする必要がある決定ルールを設計する場合などに使用できます。 [詳細情報](../offers/context-data.md)
 
 ## 2025年1月 {#jan-2025}
 

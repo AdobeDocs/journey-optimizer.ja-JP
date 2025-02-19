@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 97%
+source-wordcount: '2191'
+ht-degree: 96%
 
 ---
 
@@ -522,6 +522,10 @@ ht-degree: 97%
          + [データ収集の基本を学ぶ](using/offers/data-collection/data-collection.md)
          + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
          + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
+      + コンテキストデータ {#context-data} ースの活用
+         + [コンテキストデータの基本を学ぶ](using/offers/context-data.md)
+         + [コンテキストデータとEdge Decisioning リクエスト](using/offers/context-data-edge.md)
+         + [コンテキストデータと決定リクエスト](using/offers/context-data-decisioning.md)
       + 意思決定管理レポートの作成 {#create-reports}
          + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
          + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
