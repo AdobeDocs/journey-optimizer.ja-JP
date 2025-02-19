@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '583'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 ## 前提条件 {#troubleshoot-custom-action-prereq}
 
-**[!UICONTROL テスト要求の送信]** 機能を使用するには、URL、ヘッダー、認証設定を使用した **カスタムアクション** を事前設定する必要があります。
+**[!UICONTROL テストリクエストを送信]** 機能を使用するには、URL、ヘッダー、認証設定を使用して **カスタムアクション** を事前設定する必要があります。
 
 管理者がこの機能を使用するには、次の権限が必要です。
 
@@ -48,8 +48,11 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 カスタムアクションをテストするには、次の手順に従います。
 
-1. **カスタムアクション** 設定画面に移動します。
-1. 「**[!UICONTROL テストリクエストを送信]**」ボタンをクリックします。
+1. **カスタムアクション** 設定画面に移動し、カスタムアクションを選択します。
+1. アクション設定画面の下部にある「**[!UICONTROL テストリクエストを送信]**」ボタンをクリックします。
+
+![ アクション設定パネルの「テストリクエストを送信」ボタン ](assets/test-request.png){width="70%" align="left"}
+
 1. ポップアップウィンドウで、リクエストパラメーターを指定できます。
 
    * **カスタムアクションメソッドがGET** の場合、ペイロードは必要ありません。
