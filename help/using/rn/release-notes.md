@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 22%
 
 ---
@@ -129,7 +129,7 @@ ht-degree: 22%
 
 以下の改善点は、2 月のアップデートに伴うものです。
 
-* **ジャーニー** – 管理セクションから API 呼び出しを送信することで、カスタムアクションをテストできるようになりました。 この新しい機能は、ジャーニーで使用する前または後にカスタムアクションをトラブルシューティングするのに役立ちます。
+* **ジャーニー** – 管理セクションから API 呼び出しを送信することで、カスタムアクションをテストできるようになりました。 この新しい機能は、ジャーニーで使用する前または後にカスタムアクションをトラブルシューティングするのに役立ちます。 [詳細情報](../action/troubleshoot-custom-action.md)
 
 * **データセットの有効期間（TTL）** – 今月から、新しいサンドボックスと新しい組織のJourney Optimizer システム生成データセットに、有効期間（TTL）ガードレールが次のようにロールアウトされます。
 
