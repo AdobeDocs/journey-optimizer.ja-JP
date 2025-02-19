@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 97%
    * E：イベントベースのジャーニーでイベントのトリガーに使用するショートカット。
    * P：「一度に 1 つのプロファイル」オプションがオンになっているオーディエンスベースのジャーニーでイベントをトリガーするショートカット。
    * L：テストログを表示するためのショートカット。
-* メッセージ頻度ルールページが更新され、毎日のフリークエンシーキャップに関する新しいサブセクションが追加されました。これは、毎週または毎月のキャッピングに加えてオンデマンドで使用可能です。[詳細情報](../configuration/frequency-rules.md#daily-frequency-cap)
+* メッセージ頻度ルール ページが更新され、毎日のフリークエンシーキャップに関する新しいサブセクションが追加されました。フリークエンシーキャップは、毎週または毎月のキャッピングに加えて、オンデマンドで利用できます。
 * 同意ポリシーの使用ページが改善され、Experience Platform ドキュメントへの便利なリンクが追加されて更新されました。[詳細情報](../action/consent.md)
 * グリッドビューモード（限定提供）で HTML メールコンテンツテンプレートをサムネールとして表示できることを反映した、新しい節を追加しました。[詳細情報](../content-management/content-templates.md#template-thumbnails)
 * フィードバックループの概要とその活用方法を説明する新しい節を、配信品質ページに追加しました。[詳細情報](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ ht-degree: 97%
 * 高度な式エディターで使用できる関数のリストが更新されました。[詳細情報](../building-journeys/expression/functions.md)
 * split 関数のページが更新されました。[詳細情報](../building-journeys/functions/functioninaudience.md)
 * アプリ内メッセージに対するプッシュ通知のオプトインまたはオプトアウトの影響に関する情報が追加されました。[詳細情報](../in-app/create-in-app.md)
-* メッセージ頻度ルールページが更新され、ユーザーインターフェイスで使用できる「期間」オプション（週別または月別）が反映されました。[詳細情報](../configuration/frequency-rules.md)
+* メッセージ頻度ルール ページが更新され、ユーザーインターフェイスで使用できる期間（毎週または毎月）オプションが反映されました。
 * PTR レコードの編集の節が更新され、PTR レコードは手動で作成できないことと、PTR レコードを編集して新しいサブドメインを割り当てる必要があることが明確になりました。[詳細情報](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024年1月 {#jan-2024}
@@ -338,7 +338,7 @@ ht-degree: 97%
 ## 2022年8月 {#august-2022}
 
 *  [!DNL Journey Optimizer] の 8月22日（PT）リリースに含まれているすべての新機能と機能強化については、ドキュメントに詳しく記載されています。[詳細情報](release-notes.md)
-* 頻度ルールのセクションが更新され、新しいインラインメッセージフローが反映されました。[詳細情報](../configuration/frequency-rules.md#apply-frequency-rule)
+* 頻度ルールの節が更新され、新しいインラインメッセージフローが反映されました。
 * サブスクリプションの設定とランディングページの作成方法を示すビデオが、ランディングページの概要のセクションで参照できるようになりました。[詳細情報](../landing-pages/get-started-lp.md#video)
 * 「オーディエンスを読み取り」アクティビティを使用するジャーニーの制限事項が追加されました。[詳細情報](../building-journeys/read-audience.md)
 * 式エディターの演算子ページが改善されました。[詳細情報](../building-journeys/expression/operators.md)
