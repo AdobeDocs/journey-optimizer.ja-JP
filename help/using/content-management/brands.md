@@ -7,10 +7,10 @@ badge: label="ベータ版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 22%
 
 ブランドガイドラインは、ブランドの視覚的および言語的なアイデンティティを確立する詳細な一連のルールおよび基準です。 マーケティングプラットフォームとコミュニケーションプラットフォーム全体で一貫したブランド表現を維持するための参照として機能します。
 
-[!DNL Journey Optimizer] では、ブランドの詳細を手動で入力および整理したり、自動情報抽出用にブランドガイドラインドキュメントをアップロードしたりできるようになりました。
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## ブランドへのアクセス {#generative-access}
 
@@ -36,7 +38,7 @@ ht-degree: 22%
 
 1. **AI アシスタント** リソースを追加し、ドロップダウンメニューから **Managed Brand kit** または **[!UICONTROL AI アシスタントを有効にする]** を選択します。
 
-   **[!UICONTROL Ai アシスタントを有効にする]** 権限では、ブランドメニューへの読み取り専用アクセスのみが提供されます。
+   **[!UICONTROL Ai アシスタントを有効にする]** 権限では、**[!UICONTROL ブランド]** メニューへの読み取り専用アクセスのみが提供されることに注意してください。
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -52,9 +54,13 @@ ht-degree: 22%
 
 +++
 
-## ブランドの作成 {#create-brand-kit}
+## ブランドを作成 {#create-brand-kit}
 
-ブランドガイドラインを作成および管理するには、詳細を自分で入力するか、ブランドガイドラインドキュメントをアップロードして、情報を自動的に抽出します。
+ブランドガイドラインを作成および管理するには、次の手順に従います。
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. **[!UICONTROL ブランド]** メニューで、「**[!UICONTROL ブランドを作成]**」をクリックします。
 
@@ -64,9 +70,7 @@ ht-degree: 22%
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ ht-degree: 22%
 
 -->
 
-1. 「**[!UICONTROL ライティングスタイル]**」タブで、「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックしてガイドラインまたは除外を追加します。 例を追加することもできます。
+1. 「**[!UICONTROL ライティングスタイル]**」タブで「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックし、例を含むガイドラインや除外を追加します。
 
    ![](assets/brands-3.png)
 
 1. **[!UICONTROL ビジュアルコンテンツ]** タブで、![](assets/do-not-localize/Smock_Add_18_N.svg) をクリックして、別のガイドラインまたは除外を追加します。
 
-1. 画像の例を追加するには、「**[!UICONTROL 画像を選択]**」をクリックします。 また、除外の例として、誤った使用法を示す画像を追加することもできます。
+1. 正しい使用方法を示す画像を追加するには、「例 **[!UICONTROL を選択し]** 「**[!UICONTROL 画像を選択]**」をクリックします。 また、除外の例として、誤った使用法を示す画像を追加することもできます。
 
    ![](assets/brands-4.png)
 
-1. 設定が完了したら、「**[!UICONTROL 保存]**」をクリックしてから「**[!UICONTROL 公開]** をクリックし、AI アシスタントでブランドガイドラインを使用できるようにします。
+1. 設定が完了したら、**[!UICONTROL 保存]** をクリックしてから **[!UICONTROL 公開]** をクリックして、ブランドガイドラインを AI アシスタントで使用できるようにします。
 
-1. 公開済みのブランドに変更を加えるには、「**[!UICONTROL ブランドを編集]**」をクリックします。 これにより、編集モードで一時コピーが作成され、公開後にライブバージョンに置き換えられます。
+1. 公開済みのブランドに変更を加えるには、「**[!UICONTROL ブランドを編集]**」をクリックします。
+
+   >[!NOTE]
+   >
+   >これにより、編集モードで一時コピーが作成され、公開後にライブバージョンが置き換えられます。
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ ht-degree: 22%
 
    ![](assets/brands-6.png)
 
-ブランドガイドラインに AI アシスタントメニューのブランド ドロップダウンからアクセスできるようになり、仕様に合ったコンテンツとアセットを生成できるようになりました。 [ 詳しくは、AI アシスタントを参照してください ](gs-generative.md)
+ブランドガイドラインに AI アシスタントメニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになり、仕様に合ったコンテンツとアセットを生成できるようになりました。 [ 詳しくは、AI アシスタントを参照してください ](gs-generative.md)
 
 ![](assets/brands-7.png)
