@@ -7,10 +7,10 @@ badge: label="ベータ版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4919c8c749f9216be526bab2437a815da0136df5
+source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 19%
+source-wordcount: '427'
+ht-degree: 22%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 19%
 >[!AVAILABILITY]
 >
 >この機能は、プライベートベータ版としてリリースされます。 今後のリリースで、すべてのお客様が段階的に利用できるようになります。
->
 
 ブランドガイドラインは、ブランドの視覚的および言語的なアイデンティティを確立する詳細な一連のルールおよび基準です。 マーケティングプラットフォームとコミュニケーションプラットフォーム全体で一貫したブランド表現を維持するための参照として機能します。
 
-Journey Optimizerでは、ブランドの詳細を手動で入力および整理するか、ブランドガイドラインドキュメントをアップロードして自動情報抽出をおこなうことができます。
+[!DNL Journey Optimizer] では、ブランドの詳細を手動で入力および整理したり、自動情報抽出用にブランドガイドラインドキュメントをアップロードしたりできるようになりました。
 
 ## ブランドへのアクセス {#generative-access}
 
-Adobe Journey Optimizerのブランドメニューにアクセスするには、**Managed Brand Kit** または **[!UICONTROL AI アシスタントを有効にする]** 権限を付与されている必要があります。 [詳細情報](../administration/permissions.md)
+[!DNL Adobe Journey Optimizer] で **[!UICONTROL ブランド]** メニューにアクセスするには、ユーザーに **[!UICONTROL Managed Brand kit]** または **[!UICONTROL AI アシスタントを有効にする]** 権限を付与する必要があります。 [詳細情報](../administration/permissions.md)
 
 +++  ブランド関連の権限の割り当て方法を学ぶ
 
@@ -51,34 +50,41 @@ Adobe Journey Optimizerのブランドメニューにアクセスするには、
 
 1. まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。
 
-
 +++
 
 ## ブランドの作成 {#create-brand-kit}
 
 ブランドガイドラインを作成および管理するには、詳細を自分で入力するか、ブランドガイドラインドキュメントをアップロードして、情報を自動的に抽出します。
 
-1. **[!UICONTROL ブランド]** メニューで、「**[!UICONTROL ブランドを追加]**」をクリックします。
+1. **[!UICONTROL ブランド]** メニューで、「**[!UICONTROL ブランドを作成]**」をクリックします。
 
    ![](assets/brands-1.png)
 
-1. ブランドガイドラインに **[!UICONTROL 名前]** と **[!UICONTROL 説明]** を入力します。
+1. ブランドの **[!UICONTROL 名前]** を入力します <!--and a **[!UICONTROL Description]** to your brand guideline-->。
 
-1. ファイルをドラッグ&amp;ドロップまたは選択してブランドガイドラインをアップロードし、自動的に関連するブランド情報を抽出します。 **[!UICONTROL ブランドを追加]** をクリックします。
+   ![](assets/brands-2-temp.png)
 
-   情報の抽出プロセスが開始されます。 完了するまでに数分かかる場合があります。
+<!--
 
-   ![](assets/brands-2.png)
+[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
 
-1. コンテンツとビジュアル作成標準が自動的に入力されるようになりました。 様々なタブを参照して、必要に応じて情報を調整します。
+1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
-1. **[!UICONTROL コンテンツ作成標準]** から、「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックして別のガイドライン（例：または除外）を追加します。
+    The information extraction process now begins. Note that it may take several minutes to complete.
+
+    ![](assets/brands-2.png)
+
+1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
+
+-->
+
+1. 「**[!UICONTROL ライティングスタイル]**」タブで、「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックしてガイドラインまたは除外を追加します。 例を追加することもできます。
 
    ![](assets/brands-3.png)
 
-1. **[!UICONTROL ビジュアル作成標準]** から、「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックして別のガイドライン（例：または除外）を追加します。
+1. **[!UICONTROL ビジュアルコンテンツ]** タブで、![](assets/do-not-localize/Smock_Add_18_N.svg) をクリックして、別のガイドラインまたは除外を追加します。
 
-1. 画像の例を追加するには、「**[!UICONTROL 画像を選択]**」をクリックします。 また、識別された誤ったインサイトを追加することもできます。
+1. 画像の例を追加するには、「**[!UICONTROL 画像を選択]**」をクリックします。 また、除外の例として、誤った使用法を示す画像を追加することもできます。
 
    ![](assets/brands-4.png)
 
