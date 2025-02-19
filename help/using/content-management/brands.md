@@ -7,7 +7,7 @@ badge: label="ベータ版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
+source-git-commit: 6c99d733b973efd790f8727bf867fbf0a952f6d9
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 24%
