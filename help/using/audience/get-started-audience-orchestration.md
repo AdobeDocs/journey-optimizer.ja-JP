@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 89%
+source-wordcount: '1062'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,87 @@ ht-degree: 89%
 >title="コンポジションの作成"
 >abstract="構成ワークフローを作成し、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。"
 
->[!BEGINSHADEBOX]
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="オーディエンスの公開"
+>abstract="コンポジションを公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_audience"
+>title="オーディエンスアクティビティ"
+>abstract="オーディエンスアクティビティを使用すると、既存オーディエンスに属する追加のプロファイルをコンポジションに含めることができます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="結合タイプ"
+>abstract="選択したオーディエンスのプロファイルを結合する方法を指定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude_type"
+>title="除外タイプ"
+>abstract="除外オーディエンスタイプを使用して、既存オーディエンスに属するプロファイルを除外します。属性タイプを使用した除外では、特定の属性に基づいたプロファイルを除外できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_exclude"
+>title="除外アクティビティ"
+>abstract="除外アクティビティを使用すると、既存オーディエンスを選択するかルールを使用して、コンポジションからプロファイルを除外できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="エンリッチメントアクティビティ"
+>abstract="エンリッチメントアクティビティを使用すると、Adobe Experience Platform データセットから取得した追加の属性でオーディエンスを強化できます。例えば、購入した製品に関する名前、価格、製造元 ID などの情報を追加し、これらの情報を活用して、オーディエンスに送信する配信をパーソナライズできます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="エンリッチメントデータセット"
+>abstract="オーディエンスに関連付けるデータを含むエンリッチメントデータセットを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="エンリッチメント条件"
+>abstract="ソースデータセット（オーディエンスとエンリッチメントデータセット）間の紐付けキーとして使用するフィールドを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="エンリッチメント属性"
+>abstract="オーディエンスに関連付ける 1 つ以上の属性をエンリッチメントデータセットから選択します。 コンポジションが公開されると、これらの属性がオーディエンスに関連付けられ、Journey Optimizer キャンペーンで配信をパーソナライズするために利用できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_ranking"
+>title="ランクアクティビティ"
+>abstract="ランクアクティビティを使用すると、特定の属性に基づいてプロファイルをランク付けし、コンポジションに含めることができます。例えば、最大量のロイヤルティポイントを持つ 50 件のプロファイルを含めます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="プロファイル制限を追加"
+>abstract="このオプションをオンにして、コンポジションに含めるプロファイルの最大数を指定します。"
+
+<!-- [!CONTEXTUALHELP]
+>id="ajo_ao_control_group_text"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split"
+>title="分割アクティビティ"
+>abstract="分割アクティビティを使用すると、コンポジションを複数のパスに分割できます。コンポジションを公開すると、パスごとに 1 つのオーディエンスが Adobe Experience Platform に保存されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_type"
+>title="分割タイプ"
+>abstract="プロファイルを複数のパスにランダムに分割するには、「パーセント」分割タイプを使用します。「属性」分割タイプを使用すると、特定の属性に基づいてプロファイルを分割できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="その他のプロファイル"
+>abstract="他のパスで指定された条件に一致しない残りのプロファイルを含む追加のパスを作成する場合は、このオプションを切り替えてオンにします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="オーディエンスの公開"
+>abstract="コンポジションを公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
+>
+[!BEGINSHADEBOX]
 
 このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください{target="_blank"}。
 
