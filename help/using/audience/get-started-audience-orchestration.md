@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 93%
 
 ---
@@ -97,13 +97,6 @@ ht-degree: 93%
 >title="その他のプロファイル"
 >abstract="他のパスで指定された条件に一致しない残りのプロファイルを含む追加のパスを作成する場合は、このオプションを切り替えてオンにします。"
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="オーディエンスの公開"
->abstract="コンポジションを公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
->
-[!BEGINSHADEBOX]
-
 このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください{target="_blank"}。
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ ht-degree: 93%
 >**オーディエンスコンポジション** のオーディエンスは毎日実行されるので、Journey Optimizerで使用するには最大 24 時間待つ必要がある場合があります。 オーディエンスコンポジションオーディエンスのエンリッチメントされた属性は、前回のコンポジション実行と同じくらい新しくなります（最大 24 時間前になる可能性があります）。
 
 ## コンポジションへのアクセス {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="オーディエンスの公開"
->abstract="コンポジションを公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
 
 「**[!UICONTROL コンポジション]**」タブから作成したすべてのコンポジションにアクセスできます。リストの省略記号ボタンを使用して、既存のコンポジションをいつでも複製または削除できます。
 
