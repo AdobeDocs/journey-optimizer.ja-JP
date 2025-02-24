@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: bc4ce563fe9af30373ba11279d886b598e1fcdcd
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 93%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 100%
 >id="ajo_perso_editor"
 >title="パーソナライゼーションエディターについて"
 >abstract="パーソナライゼーションエディターを使用すると、すべてのデータを選択、整理、カスタマイズ、検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_perso_editor_autocomplete"
+>title="オートコンプリート"
+>abstract="このオプションをオンにすると、式を入力している間、コードが自動的に入力され、提案が行われます。 このオプションは、HTMLとテキスト形式でのみ使用できます。
+"
 
 パーソナライゼーションエディターは、[!DNL Journey Optimizer] のパーソナライズ機能の中核です。メール、プッシュ、オファーなど、パーソナライゼーションを定義する必要があるすべてのコンテキストで利用できます。
 
