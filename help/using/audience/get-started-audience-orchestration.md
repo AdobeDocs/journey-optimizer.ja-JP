@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 93%
 
 オーディエンス構成を使用すると、**構成ワークフロー**&#x200B;を作成できます。このワークフローでは、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
-完了すると、**結果のオーディエンス**は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。Journey Optimizerでオーディエンスをターゲットにする方法を学ぶ
+完了すると、**結果のオーディエンス**は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください。
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -138,17 +138,17 @@ ht-degree: 93%
 
    * **[!UICONTROL 保存]**：コンポジションの最後の手順。このアクティビティを使用すると、ワークフローの結果を新しいオーディエンスに保存できます。
 
-1. コンポジションプロパティを開き、タイトルと説明を指定します。
+1. 構成プロパティを開き、タイトルと説明を指定します。
 
    プロパティでタイトルが定義されていない場合、コンポジションのラベルが「コンポジション」に設定された後に、作成日時が続きます。
 
    ![](assets/audiences-properties.png)
 
-1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 保存]**&#x200B;アクティビティの間に必要な数のアクティビティを追加して、コンポジションを設定します。コンポジションの作成方法について詳しくは、[ オーディエンス コンポジションのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition) を参照してください。
+1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 保存]**&#x200B;アクティビティの間に必要な数のアクティビティを追加して、コンポジションを設定します。コンポジションの作成方法について詳しくは、[オーディエンス構成のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)を参照してください。
 
    ![](assets/audiences-publish.png)
 
-1. コンポジションの準備ができたら、「**[!UICONTROL 公開]**」ボタンをクリックして、コンポジションを公開し、結果のオーディエンスを Adobe Experience Platform に保存します。
+1. 構成の準備が整ったら、「**[!UICONTROL 公開]**」ボタンをクリックして、コンポジションを公開し、結果のオーディエンスを Adobe Experience Platform に保存します。
 
    >[!IMPORTANT]
    >
@@ -162,7 +162,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**オーディエンスコンポジション** のオーディエンスは毎日実行されるので、Journey Optimizerで使用するには最大 24 時間待つ必要がある場合があります。 オーディエンスコンポジションオーディエンスのエンリッチメントされた属性は、前回のコンポジション実行と同じくらい新しくなります（最大 24 時間前になる可能性があります）。
+>**オーディエンス構成**&#x200B;のオーディエンスは毎日実行されるので、Journey Optimizer で使用するには、場合によっては最大 24 時間待つ必要があります。オーディエンス構成オーディエンスの強化された属性は、最後の構成実行と同様に鮮度が高く、過去 24 時間まで遡ることができます。
 
 ## コンポジションへのアクセス {#access}
 

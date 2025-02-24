@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="決定とは?"
->abstract="決定とは、決定エンジンから最適な項目を選択して各個人に配信するための、意思決定管理以外の新しいツールです。使用するには、追加の設定が必要です。"
+>title="決定とは"
+>abstract="決定とは、決定エンジンから最適な項目を選択して各個人に配信する、意思決定管理以外の新しいツールです。使用するには、追加の設定が必要です。"
 
 ## 決定とは {#about}
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった [ 新しいコードベースのエクスペリエンスチャネル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based) を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
+これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった[新しいコードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
 
 >[!IMPORTANT]
 >
 >決定の決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
 
-➡️コードベースのエクスペリエンスチャネルを使用したコンテンツ実験で決定を作成して使用する方法を示すエンドツーエンドのユースケースについては、[ この節 ](experience-decisioning-uc.md) を参照してください。
+➡️ コードベースのエクスペリエンスチャネルを使用して決定を作成し、コンテンツ実験で使用する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](experience-decisioning-uc.md)を参照してください。
 
 ## 決定の主な手順 {#steps}
 

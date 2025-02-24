@@ -13,7 +13,7 @@ exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **アクション**&#x200B;は、有効または無効です。
 * **アクセストークン**&#x200B;は、Developer Console から取得できます。
 * **API キー**&#x200B;は、Developer Console から取得できます。
-* **IMS 組織 ID** はAdobeの組織です。
+* **IMS 組織 ID** は Adobe 組織です。
 * **サンドボックス名**&#x200B;は、データセットが含まれるサンドボックス名です（実稼動、開発など）。
 
 >[!NOTE]

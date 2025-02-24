@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 95%
 
 ## 2025年2月 {#feb-2025}
 
-* **[!UICONTROL 送信時間の最適化]** に関するドキュメントと関連 FAQ が更新、改善され、新しい専用ページに移動されました。 [詳細情報](../building-journeys/send-time-optimization.md)
-* ジャーニーイベント用の新しいガードレールが追加されました。 [詳細情報](../start/guardrails.md#events-g)
-* 組み込みのチャネルアクションページが再編成されました。 [詳細情報](../building-journeys/journeys-message.md)
+* **[!UICONTROL 送信時間の最適化]**&#x200B;に関するドキュメントと関連する FAQ が更新、改善され、新しい専用ページに移動されました。[詳細情報](../building-journeys/send-time-optimization.md)
+* ジャーニーイベントに新しいガードレールが追加されました。[詳細情報](../start/guardrails.md#events-g)
+* 組み込みのチャネルアクションページが再編成されました。[詳細情報](../building-journeys/journeys-message.md)
 * 意思決定と意思決定管理の節にガードレールと制限が追加されました。
    * [意思決定のガードレールと制限](../experience-decisioning/decisioning-guardrails.md)
    * [意思決定管理のガードレールと制限](../offers/decision-management-guardrails.md)
@@ -40,15 +40,15 @@ ht-degree: 95%
 
 * **メールの転送**&#x200B;の節が更新されました。**送信元メール**&#x200B;アドレスに送信されたすべてのメールは、転送メールアドレスに転送されるよう指定されます。転送メールが指定されていない場合、これらのメールは破棄されます。[詳細情報](../email/email-settings.md#forward-email)
 
-* API トリガーのキャンペーンリクエストに渡されるコンテキスト属性の最大サイズが 200 KB に更新されました。 [詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
+* API トリガーキャンペーンリクエストに渡されるコンテキスト属性の最大サイズが 200 KB に更新されました。[詳細情報](../campaigns/api-triggered-campaigns.md#contextual)
 
-* **フラグメントの管理** ページに、ライブのフラグメントに新しい属性を追加する方法を説明する新しい節が追加されました。 ページ全体も改善されました。 [詳細情報](../content-management/manage-fragments.md#adding-new-attributes)
+* **フラグメントの管理**&#x200B;ページに、ライブフラグメントに新しい属性を追加する方法について説明する新しい節が追加されました。また、ページ全体も改善されました。[詳細情報](../content-management/manage-fragments.md#adding-new-attributes)
 
-* 競合管理および優先順位付けツールのドキュメントに、「ガードレールと制限」の節が追加されました。 [詳細情報](../conflict-prioritization/gs-conflict-prioritization.md)
+* 競合管理と優先順位付けツールのドキュメントに「ガードレールと制限」の節が追加されました。[詳細情報](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* [!DNL Journey Optimizer] しいコードベースのエクスペリエンスチャネルを使用したコンテンツ実験で意思決定を使用するために必要なすべての手順を示すために、新しいエンドツーエンドのユースケースが追加されました。 [詳細情報](../experience-decisioning/experience-decisioning-uc.md)
+* [!DNL Journey Optimizer] コードベースのエクスペリエンスチャネルを使用したコンテンツ実験で決定の使用に必要なすべての手順を示す、新しいエンドツーエンドのユースケースが追加されました。[詳細情報](../experience-decisioning/experience-decisioning-uc.md)
 
-* **メール設定の指定** ページは、読みやすさを向上させるために、複数のサブページに分割されました。これには、[ リストの購読解除 ](../email/list-unsubscribe.md)、[ ヘッダーパラメーター ](../email/header-parameters.md) および [URL トラッキング ](../email/url-tracking.md) 専用の新しいスタンドアロンページが含まれます。
+* **メール設定の指定**&#x200B;ページは、読みやすさを向上させる複数のサブページに分割されされました。これには、[リスト登録解除](../email/list-unsubscribe.md)、[ヘッダーパラメーター](../email/header-parameters.md)および [URL トラッキング](../email/url-tracking.md)専用の新しいスタンドアロンページが含まれます。
 
 ## 2024年12月 {#nov-2024}
 
