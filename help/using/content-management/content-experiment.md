@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
 ![](assets/content_experiment.png)
 
-➡️ コンテンツ実験を使用して、決定をコードベースのエクスペリエンスチャネルと比較する方法については、[ このユースケース ](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
+➡️ コンテンツ実験を使用して、コードベースのエクスペリエンスチャネルで決定を比較する方法について詳しくは、[このユースケース](../experience-decisioning/experience-decisioning-uc.md)を参照してください。
 
 ## コンテンツの作成 {#campaign-experiment}
 

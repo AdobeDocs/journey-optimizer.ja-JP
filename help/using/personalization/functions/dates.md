@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 
 ## 日数を追加 {#add-days}
 
-`addDays` 関数は、指定された日付を指定された日数で調整し、正の値を増分に、負の値を減分に使用します。
+`addDays` 関数は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された日数で調整します。
 
 **構文**
 
@@ -29,14 +29,14 @@ ht-degree: 46%
 
 +++例
 
-* 必要情報：`{%= addDays(stringToDate("2024-11-01T17:19:51Z"),10) %}`
+* 入力：`{%= addDays(stringToDate("2024-11-01T17:19:51Z"),10) %}`
 * 出力：`2024-11-11T17:19:51Z`
 
 +++
 
 ## 時間数を追加 {#add-hours}
 
-`addHours` 関数は、指定された日付を指定された時間数で調整し、正の値を増分、負の値を減分します。
+`addHours` 関数は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された時間数で調整します。
 
 **構文**
 
@@ -46,14 +46,14 @@ ht-degree: 46%
 
 +++例
 
-* 必要情報：`{%= addHours(stringToDate("2024-11-01T17:19:51Z"),1) %}`
+* 入力：`{%= addHours(stringToDate("2024-11-01T17:19:51Z"),1) %}`
 * 出力：`2024-11-01T18:19:51Z`
 
 +++
 
 ## 分数を追加 {#add-minutes}
 
-`addMinutes` 関数は、指定された日付を指定された分数で調整します。増分には正の値を使用し、減分には負の値を使用します
+`addMinutes` 関数は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された分数で調整します
 
 **構文**
 
@@ -63,14 +63,14 @@ ht-degree: 46%
 
 +++例
 
-* 必要情報：`{%= addMinutes(stringToDate("2024-11-01T17:59:51Z"),10) %}`
+* 入力：`{%= addMinutes(stringToDate("2024-11-01T17:59:51Z"),10) %}`
 * 出力：`2024-11-01T18:09:51Z`
 
 +++
 
 ## 月数を追加 {#add-months}
 
-`addMonths` 関数は、指定された日付を指定された月数で調整し、正の値を増分に、負の値を減分に使用します。
+`addMonths` 関数は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された月数で調整します。
 
 **構文**
 
@@ -80,14 +80,14 @@ ht-degree: 46%
 
 +++例
 
-* 必要情報：`{%= addMonths(stringToDate("2024-11-01T17:19:51Z"),2) %}`
+* 入力：`{%= addMonths(stringToDate("2024-11-01T17:19:51Z"),2) %}`
 * 出力：`2025-01-01T17:19:51Z`
 
 +++
 
 ## 秒数を追加 {#add-seconds}
 
-`addSeconds` は、指定された日付を指定された秒数で調整します。増分には正の値を使用し、減分には負の値を使用します。
+`addSeconds` は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された秒数で調整します。
 
 **構文**
 
@@ -97,14 +97,14 @@ ht-degree: 46%
 
 +++例
 
-* 必要情報：`{%= addSeconds(stringToDate("2024-11-01T17:19:51Z"),10) %}`
+* 入力：`{%= addSeconds(stringToDate("2024-11-01T17:19:51Z"),10) %}`
 * 出力：`2024-11-01T17:20:01Z`
 
 +++
 
 ## 年数を追加 {#add-years}
 
-`addYears` は、指定された日付を指定された年数で調整します。増分には正の値を使用し、減分には負の値を使用します。
+`addYears` は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された年数で調整します。
 
 **構文**
 
@@ -114,12 +114,12 @@ ht-degree: 46%
 
 +++例
 
-* 必要情報：`{%= addYears(stringToDate("2024-11-01T17:19:51Z"),2) %}`
+* 入力：`{%= addYears(stringToDate("2024-11-01T17:19:51Z"),2) %}`
 * 出力：`2026-11-01T17:19:51Z`
 
 +++
 
-## 年齢{#age}
+## 経過時間{#age}
 
 `age` 関数を使用すると、指定された日付からの経過時間を取得できます。
 
@@ -141,7 +141,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## 日数 {#age-days}
 
-`ageInDays` 関数は、指定された日付の年齢を日数で計算します。つまり、指定された日付から現在の日付までの経過日数、将来の日付の場合はマイナス、過去の日付の場合はプラスになります。
+`ageInDays` 関数は、指定された日付を日数で、つまり指定された日付と現在の日付の間の経過日数を計算します。将来の日付の場合は負の数、過去の日付の場合は正の数になります。
 
 **構文**
 
@@ -151,16 +151,16 @@ The following operation gets the value of the identity map for the key `example@
 
 +++例
 
-currentDate = 2025-01-07T12:17:10.720122+05:30 （アジア/コルカタ）
+currentDate = 2025-01-07T12:17:10.720122+05:30（アジア／コルカタ）
 
-* 必要情報：`{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
+* 入力：`{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * 出力：`5`
 
 +++
 
 ## 月数 {#age-months}
 
-`ageInMonths` 関数は、指定された日付の年齢を月単位で計算します。つまり、指定された日付から現在の日付までの経過月数を、将来の日付の場合はマイナスで、過去の日付の場合はプラスで計算します。
+`ageInMonths` 関数は、指定された日付を月数で、つまり指定された日付と現在の日付の間の経過月数を計算します。将来の日付の場合は負の数、過去の日付の場合は正の数になります。
 
 **構文**
 
@@ -170,16 +170,16 @@ currentDate = 2025-01-07T12:17:10.720122+05:30 （アジア/コルカタ）
 
 +++例
 
-currentDate = 2025-01-07T12:22:46.993748+05:30 （アジア/コルカタ）
+currentDate = 2025-01-07T12:22:46.993748+05:30（アジア／コルカタ）
 
-* 必要情報：`{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
+* 入力：`{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * 出力：`12`
 
 +++
 
 ## 日付を比較 {#compare-dates}
 
-`compareDates` 関数は、最初の入力日付をもう一方の入力日付と比較します。 date1 が date2 と等しい場合は 0、date1 が date2 より前の場合は–1、date1 が date2 より後の場合は 1 を返します。
+`compareDates` 関数は、最初の入力日付を他の入力日付と比較します。date1 が date2 と等しい場合は 0 を返し、date1 が date2 より前の場合は -1 を返し、date1 が date2 より後の場合は 1 を返します。
 
 **構文**
 
@@ -189,14 +189,14 @@ currentDate = 2025-01-07T12:22:46.993748+05:30 （アジア/コルカタ）
 
 +++例
 
-* 必要情報：`{%=compareDates(stringToDate("2024-12-02T00:00:00Z"), stringToDate("2024-12-03T00:00:00Z"))%}`
+* 入力：`{%=compareDates(stringToDate("2024-12-02T00:00:00Z"), stringToDate("2024-12-03T00:00:00Z"))%}`
 * 出力：`-1`
 
 +++
 
 ## ZonedDateTime を変換 {#convert-zoned-date-time}
 
-`convertZonedDateTime` 関数は、日時を指定のタイムゾーンに変換します。
+`convertZonedDateTime` 関数は、日時を指定されたタイムゾーンに変換します。
 
 **構文**
 
@@ -206,12 +206,12 @@ currentDate = 2025-01-07T12:22:46.993748+05:30 （アジア/コルカタ）
 
 +++例
 
-* 必要情報：`{%=convertZonedDateTime(stringToDate("2019-02-19T08:09:00Z"), "Asia/Tehran")%}`
+* 入力：`{%=convertZonedDateTime(stringToDate("2019-02-19T08:09:00Z"), "Asia/Tehran")%}`
 * 出力：`2019-02-19T11:39+03:30[Asia/Tehran]`
 
 +++
 
-## 現在の時刻 (ミリ秒){#current-time}
+## 現在の時刻（ミリ秒）{#current-time}
 
 `currentTimeInMillis` 関数を使用すると、現在の時刻をエポックミリ秒単位で取得できます。
 
@@ -231,7 +231,7 @@ The following operation gets all the keys for the map `identityMap`.
 ```
 -->
 
-## 日付の差異{#date-diff}
+## 日数の差異{#date-diff}
 
 `dateDiff` 関数を使用すると、2 つの日付間の差異を日数単位で取得できます。
 
@@ -251,9 +251,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 月の日 {#day-month}
+## ある月の日付 {#day-month}
 
-`dayOfWeek` は、日付を表す数値を返します。
+`dayOfWeek` は、その月の日付を表す数値を返します。
 
 **構文**
 
@@ -263,7 +263,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%= dayOfMonth(stringToDate("2024-11-05T17:19:51Z")) %}`
+* 入力：`{%= dayOfMonth(stringToDate("2024-11-05T17:19:51Z")) %}`
 * 出力：`5`
 
 +++
@@ -289,7 +289,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 通日{#day-year}
+## 年間通算日{#day-year}
 
 `dayOfYear` 関数を使用すると、通日（1月1日からの通算日数）を取得できます。
 
@@ -311,7 +311,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 秒数の差異 {#diff-seconds}
 
-`diffInSeconds` 関数は、2 つの日付間の差異を秒単位で返します。
+`diffInSeconds` 関数は、秒数単位で 2 つの日付間の差異を返します。
 
 **構文**
 
@@ -321,7 +321,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=diffInSeconds(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T17:19:01Z"))%}`
+* 入力：`{%=diffInSeconds(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T17:19:01Z"))%}`
 * 出力：`50`
 
 +++
@@ -338,7 +338,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%= extractHours(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 入力：`{%= extractHours(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 出力：`17`
 
 +++
@@ -355,7 +355,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 入力：`{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 出力：`19`
 
 +++
@@ -372,14 +372,14 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=extractMonth(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 入力：`{%=extractMonth(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 出力：`11`
 
 +++
 
 ## 秒数を抽出 {#extract-seconds}
 
-`extractSeconds` 関数は、指定されたタイムスタンプから 2 番目のコンポーネントを抽出します。
+`extractSeconds` 関数は、指定されたタイムスタンプから秒コンポーネントを抽出します。
 
 **構文**
 
@@ -389,12 +389,12 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=extractSeconds(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 入力：`{%=extractSeconds(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 出力：`51`
 
 +++
 
-## 日付をフォーマット{#format-date}
+## 日付を書式設定{#format-date}
 
 `formatDate` 関数を使用すると、日時値を書式設定できます。書式は、有効な Java DateTimeFormat パターンである必要があります。
 
@@ -450,7 +450,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## CurrentZonedDateTime を取得 {#get-current-zoned-date-time}
 
-`getCurrentZonedDateTime` 関数は、現在の日時をタイムゾーン情報と共に返します。
+`getCurrentZonedDateTime` 関数は、タイムゾーン情報を含む現在の日時を返します。
 
 **構文**
 
@@ -460,14 +460,14 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%= getCurrentZonedDateTime() %}`
+* 入力：`{%= getCurrentZonedDateTime() %}`
 * 出力：`2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]`
 
 +++
 
 ## 時間数の差異 {#hours-difference}
 
-`diffInHours` 関数は、2 つの日付間の差異を時間で返します。
+`diffInHours` 関数は、時間数単位で 2 つの日付間の差異を返します。
 
 **構文**
 
@@ -477,14 +477,14 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%= diffInHours(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T07:19:51Z"))%}`
+* 入力：`{%= diffInHours(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T07:19:51Z"))%}`
 * 出力：`10`
 
 +++
 
 ## 分数の差異{#diff-minutes}
 
-`diffInMinutes` 関数は、2 つの日付間の差異を分単位で返すために使用されます。
+`diffInMinutes` 関数を使用すると、分数単位で 2 つの日付間の差異を返すことができます。
 
 **構文**
 
@@ -494,14 +494,14 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%= diffInMinutes(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T16:19:51Z"))%}`
+* 入力：`{%= diffInMinutes(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T16:19:51Z"))%}`
 * 出力：`60`
 
 +++
 
 ## 月数の差異 {#months-difference}
 
-`diffInMonths` 関数は、2 つの日付間の差異を月数で返します。
+`diffInMonths` 関数は、月数単位で 2 つの日付間の差異を返します
 
 **構文**
 
@@ -511,7 +511,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=diffInMonths(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-08-01T17:19:51Z"))%}`
+* 入力：`{%=diffInMonths(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-08-01T17:19:51Z"))%}`
 * 出力：`3`
 
 +++
@@ -558,7 +558,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 日時に {#to-date-time}
 
-`ToDateTime` 関数は、文字列を日付に変換します。 無効な入力に対する出力として、エポック日付を返します。
+`ToDateTime` 関数は、文字列を日付に変換します。無効な入力に対する出力として、エポック日付を返します。
 
 **構文**
 
@@ -568,7 +568,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=toDateTime("2024-11-01T17:19:51Z")%}`
+* 入力：`{%=toDateTime("2024-11-01T17:19:51Z")%}`
 * 出力：`2024-11-01T17:19:51Z`
 
 +++
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 開始日に切り捨て {#truncate-day}
 
-`truncateToStartOfDay` 関数を使用すると、指定された日時を、時刻を 00:00 に設定した日の始めに設定して変更できます。
+`truncateToStartOfDay` 関数を使用すると、指定された日時を、その日の始まり（時刻：00:00）に設定して変更できます。
 
 **構文**
 
@@ -605,14 +605,14 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%= truncateToStartOfDay(stringToDate("2024-11-01T17:19:51Z")) %}`
+* 入力：`{%= truncateToStartOfDay(stringToDate("2024-11-01T17:19:51Z")) %}`
 * 出力：`2024-11-01T00:00Z`
 
 +++
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-`truncateToStartOfQuarter` 関数は、日付と時刻を四半期の最初の日（1 月 1 日、4 月 1 日、7 月 1 日、10 月 1 日）の 00:00 に切り捨てるために使用されます。
+`truncateToStartOfQuarter` 関数を使用すると、日時を四半期の最初の日（例：1月1日、4月1日、7月1日、10月1日）の 00:00 に切り捨てることができます。
 
 **構文**
 
@@ -622,14 +622,14 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=truncateToStartOfQuarter(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 入力：`{%=truncateToStartOfQuarter(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 出力：`2024-10-01T00:00Z`
 
 +++
 
 ## truncateToStartOfWeek {#truncate-week}
 
-`truncateToStartOfWeek` 関数は、指定された日時を週の開始日（月曜日の 00:00）に設定して変更します。
+`truncateToStartOfWeek` 関数は、指定された日時を、週の始まり（月曜日の 00:00）に設定して変更します。
 
 **構文**
 
@@ -639,14 +639,14 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* 入力：`truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * 出力：`2024-11-18T00:00Z // monday`
 
 +++
 
 ## truncateToStartOfYear {#truncate-year}
 
-`truncateToStartOfYear` 関数は、指定された日時を 00:00 の年の最初の日（1 月 1 日）に切り捨てて変更するために使用されます。
+`truncateToStartOfYear` 関数を使用すると、指定された日時を、年の最初の日（1月1日）の 00:00 に切り捨てて変更できます。
 
 **構文**
 
@@ -656,7 +656,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=truncateToStartOfYear(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 入力：`{%=truncateToStartOfYear(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 出力：`2024-01-01T00:00Z`
 
 +++
@@ -683,7 +683,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 年数の差異 {#diff-years}
 
-`diffInYears` 関数は、2 つの日付間の差異を年単位で返すために使用されます。
+`diffInYears` 関数を使用すると、年数単位で 2 つの日付間の差異を返すことができます。
 
 **構文**
 
@@ -693,7 +693,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 必要情報：`{%=diffInYears(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2019-10-01T17:19:51Z"))%}`
+* 入力：`{%=diffInYears(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2019-10-01T17:19:51Z"))%}`
 * 出力：`5`
 
 +++

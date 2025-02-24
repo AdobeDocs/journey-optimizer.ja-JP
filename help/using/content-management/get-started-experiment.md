@@ -10,9 +10,9 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2004'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 実験は一連のランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別の処理を行うことを意味します。メッセージを送信した後、メールの開封数やクリック数など、興味のある結果指標を測定できます。
 
-➡️ コンテンツ実験を使用して決定をコードベースのエクスペリエンスチャネルと比較する方法を示すエンドツーエンドのユースケースについては、[ この節 ](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
+➡️コンテンツ実験を使用してコードベースのエクスペリエンスチャネルと決定を比較する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](../experience-decisioning/experience-decisioning-uc.md)を参照してください。
 
 ## 実験を実行する理由
 

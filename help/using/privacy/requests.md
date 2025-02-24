@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Privacy Service では、**データアクセス**&#x200B;と&#x200B;**データ
 
 Adobe Journey Optimizer のデータへのアクセスと削除をリクエストするには、次の項目が必要です。
 
-* Adobe組織 ID
+* Adobe 組織 ID
 * 操作の対象となるユーザーの ID 識別子と、対応する名前空間。Adobe Journey Optimizer および Experience Platform の ID 名前空間について詳しくは、[ID 名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)を参照してください。
 
 ### Adobe Journey Optimizer の API リクエストの必須フィールド値

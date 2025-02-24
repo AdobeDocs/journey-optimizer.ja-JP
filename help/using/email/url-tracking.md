@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: URL トラッキングの設定
-description: メールチャネル設定レベルで URL トラッキングを設定する方法を説明します
+description: メールのチャネル設定レベルで URL トラッキングを設定する方法について説明します。
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 84%
 >title="URL トラッキングパラメーターのプレビュー"
 >abstract="メールコンテンツに存在する URL にトラッキングパラメーターを追加する方法を確認します。"
 
-新しい [ メールチャネル設定 ](email-settings.md) を設定する際に、**[!UICONTROL URL トラッキングパラメーター]** を定義して、チャネルをまたいでマーケティング活動の有効性を測定することができます。
+新しい[メールチャネル設定](email-settings.md)を指定する際に、**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を定義し、チャネルをまたいでマーケティング活動の有効性を測定できます。
 
 >[!NOTE]
 >
 >この機能はオプションです。
 
-対応するセクションで定義されたパラメーターは、メールメッセージコンテンツに含まれる URL の末尾に追加されます。 その後、これらのパラメーターを Adobe Analytics や Google Analytics などの web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
+対応する節で定義したパラメーターは、メールメッセージコンテンツに含まれる URL の末尾に追加されます。その後、これらのパラメーターを Adobe Analytics や Google Analytics などの web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
 
 「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
 

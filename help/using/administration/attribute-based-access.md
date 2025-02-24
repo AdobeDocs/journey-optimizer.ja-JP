@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 属性ベースのアクセス制御
-description: 属性ベースのアクセス制御を使用すると、特定のチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。
+description: 属性ベースのアクセス制御を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。
 feature: Access Management
 topic: Administration
 role: Admin,Leader
@@ -10,19 +10,19 @@ level: Intermediate
 keywords: abac, 属性, 認証, データ, アクセス, 機密, アセット
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 属性ベースのアクセス制御 {#attribute-based-access}
 
-属性ベースのアクセス制御機能を使用すると、特定のチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を強化することを目的としています。
+属性ベースのアクセス制御機能を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を強化することを目的としています。
 
-Adobe Journey Optimizerの属性ベースのアクセス制御を使用して、データを保護し、エクスペリエンスデータモデル（XDM）スキーマ、プロファイル属性、オーディエンスなどの特定のフィールド要素に対する特定のアクセス権を付与します。
+Adobe Journey Optimizer の属性ベースのアクセス制御を使用して、データを保護し、Experience Data Model（XDM）スキーマ、プロファイル属性、オーディエンスなどの特定のフィールド要素に対する特定のアクセス権を付与します。
 
-属性ベースのアクセス制御で使用される用語の詳細なリストについては、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=ja){target="_blank"} を参照してください。
+属性ベースのアクセス制御で使用される用語のリストについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=ja){target="_blank"}を参照してください。
 
 この例では、**国籍**&#x200B;スキーマフィールドにラベルを追加して、権限のないユーザーによる使用を制限します。 これを実現するには、次の手順を実行する必要があります。
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizerの属性ベースのアクセス制御を使用して、
 
 なお、**[!UICONTROL ラベル]**&#x200B;は、**[!UICONTROL スキーマ]**、**[!UICONTROL データセット]**&#x200B;および&#x200B;**[!UICONTROL オーディエンス]**&#x200B;にも追加できます。
 
-1. **[!UICONTROL スキーマ]**&#x200B;を作成します。詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"} を参照してください。
+1. **[!UICONTROL スキーマ]**&#x200B;を作成します。詳しくは、[こちらのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"}を参照してください。
 
    ![](assets/label_1.png)
 
@@ -104,11 +104,11 @@ Adobe Journey Optimizerの属性ベースのアクセス制御を使用して、
 
    ![](assets/label_3.png)
 
-1. 対応する&#x200B;**[!UICONTROL ラベル]**（このケースでは C2）を選択します。データをサードパーティにエクスポートすることはできません。使用可能なラベルの詳細なリストについては、[ このページ ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ja#contract-labels){target="_blank"} を参照してください。
+1. 対応する&#x200B;**[!UICONTROL ラベル]**（このケースでは C2）を選択します。データをサードパーティにエクスポートすることはできません。使用可能なラベルのリストについて詳しくは、[こちらのページ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ja#contract-labels){target="_blank"}を参照してください。
 
    ![](assets/label_4.png)
 
-1. 必要に応じてスキーマをさらにパーソナライズし、有効にします。スキーマを有効にする方法に関する詳細な手順については、この [ ページ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=jal#profile){target="_blank"} を参照してください。
+1. 必要に応じてスキーマをさらにパーソナライズし、有効にします。スキーマを有効にする方法に関する手順について詳しくは、こちらの[ページ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=jal#profile){target="_blank"}を参照してください。
 
 これで、スキーマのフィールドが表示され、使用できるのは、C2 ラベルで設定されたロールの一部であるユーザーのみになります。
 **[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL フィールド名]**&#x200B;に適用することで、作成されるすべてのスキーマで&#x200B;**[!UICONTROL ラベル]**&#x200B;が自動的に&#x200B;**国籍**&#x200B;フィールドに適用されることに注意してください。

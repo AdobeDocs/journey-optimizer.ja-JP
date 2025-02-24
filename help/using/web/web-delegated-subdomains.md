@@ -9,7 +9,7 @@ level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
 ht-degree: 100%
 

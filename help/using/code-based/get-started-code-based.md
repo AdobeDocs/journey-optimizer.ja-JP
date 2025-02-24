@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 96%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ コンテンツ実験を使用して決定をコードベースのエクスペリエンスチャネルと比較する方法を示すエンドツーエンドのユースケースについては、[ この節 ](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
+➡️ コンテンツ実験を使用してコードベースのエクスペリエンスチャネルと決定を比較する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](../experience-decisioning/experience-decisioning-uc.md)を参照してください。
 
 ## コードベースのチャネルと他のチャネルを使用する場合 {#code-based-vs-other-channels}
 

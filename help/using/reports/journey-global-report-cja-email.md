@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
 source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-Appleでは、メールプライバシー保護など、ネイティブのメールアプリに新しいプライバシー保護機能が導入されたため、送信者は、Appleのメールプライバシー保護を有効にしているプロファイルのデータを収集するためにトラッキングピクセルを使用することができなくなりました。 その結果、トラッキングピクセルを使用してメールの開封数を追跡するAdobe Journey Optimizer機能に影響が及ぶ場合があります。 [ 詳細情報 ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780):Apple iOSのプライバシー変更がメールマーケティングに与える影響について
+Apple ではメールプライバシー保護を含むネイティブのメールアプリに新しいプライバシー保護機能を導入したので、送信者はトラッキングピクセルを使用して、Apple のメールプライバシー保護を有効にしているプロファイルに関するデータを収集できなくなりました。その結果、トラッキングピクセルを使用してメールの開封数を追跡する Adobe Journey Optimizer の機能に影響を与える場合があります。Apple iOS のプライバシー変更がメールマーケティングに与える影響について詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ja)を参照してください。
 
 より正確なインサイトを得るには、開封率ではなくクリック数とコンバージョン指標に焦点を当てることをお勧めします。
 

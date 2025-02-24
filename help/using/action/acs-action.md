@@ -10,9 +10,9 @@ level: Intermediate
 keywords: キャンペーン, Standard, 統合, キャッピング, アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Journey Optimizer で使用するには、Campaign Standard トランザクシ�
 
 ## 重要な注意事項 {#important-notes}
 
-* Adobe Campaign Standard のアクションに対して、5 分あたり 4,000 回の呼び出しのキャッピングルールが自動的に定義されます。これは、Adobe Campaign Standard トランザクションメッセージの公式な規模に対応しています。トランザクションメッセージ SLA の詳細については、[Adobe Campaign Standard製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html){target="_blank"} を参照してください。
+* Adobe Campaign Standard のアクションに対して、5 分あたり 4,000 回の呼び出しのキャッピングルールが自動的に定義されます。これは、Adobe Campaign Standard トランザクションメッセージの公式な規模に対応しています。トランザクションメッセージ SLA について詳しくは、[Adobe Campaign Standard 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html){target="_blank"}を参照してください。
 
 * Adobe Campaign Standard 統合は、アクションリストの専用組み込みアクションを使用して設定されます。これは、サンドボックスごとに設定する必要があります。
 

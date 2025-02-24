@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 98%
 
 ## テキスト {#text}
 
-**[!UICONTROL テキスト]** コンポーネントを使用してメールにテキストを挿入し、「**[!UICONTROL スタイル]** タブを使用してスタイル（境界線、サイズ、パディングなど）を
+**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用してメールにテキストを挿入し、スタイル（境界線、サイズ、パディングなど）を「**[!UICONTROL スタイル]**」タブを使用して調整します。
 
 ![](assets/email_designer_text_component.png)
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -81,15 +81,15 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 >
 >PTR レコードが設定されていない場合は、アドビ担当者に問い合わせてください。
 
-## リストの登録解除 {#list-unsubscribe}
+## リスト登録解除 {#list-unsubscribe}
 
-リストのサブドメインの中から選択すると、「**[!UICONTROL List-Unsubscribe を有効にする]**」オプションが表示されます。 このモードはデフォルトで有効になっています。
+リストからサブドメインを選択すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。これは、デフォルトで有効です。
 
-ワンクリックの購読解除 URL をメールヘッダーに含めることができます。 [詳細情報](list-unsubscribe.md)
+ワンクリック登録解除 URL をメールヘッダーに含めることができます。[詳細情報](list-unsubscribe.md)
 
 ## ヘッダーパラメーター {#email-header}
 
-「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、その設定を使用して送信されるメールのタイプに関連付けられた送信者の名前とメールアドレスを入力します。 [詳細情報](header-parameters.md)
+「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、その設定を使用して送信されるメールのタイプに関連付けられた送信者の名前とメールアドレスを入力します。[詳細情報](header-parameters.md)
 
 ## BCC メール {#bcc-email}
 
@@ -183,7 +183,7 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 ## URL トラッキング {#url-tracking}
 
-**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を使用し、チャネルをまたいでマーケティング活動の有効性を測定することができます。[詳細情報](url-tracking.md)
+**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を使用し、チャネルをまたいでマーケティング活動の有効性を測定できます。[詳細情報](url-tracking.md)
 
 ## 実行アドレス {#execution-address}
 

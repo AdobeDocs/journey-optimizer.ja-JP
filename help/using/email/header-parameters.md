@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メールヘッダーパラメーターの設定
-description: チャネル設定レベルでメールヘッダーパラメーターを設定する方法を説明します
+description: チャネル設定レベルでメールヘッダーパラメーターを設定する方法について説明します。
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # ヘッダーパラメーター {#email-header}
 
-新しい [ メールチャネル設定 ](email-settings.md) を設定する際に、「**[!UICONTROL ヘッダーパラメーター]**」セクションで、その設定を使用して送信されるメールのタイプに関連付けられた送信者の名前とメールアドレスを入力します。
+新しい[メールチャネル設定](email-settings.md)を指定する際に、「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、その設定を使用して送信されるメールのタイプに関連付けられた送信者の名前とメールアドレスを入力します。
 
 >[!NOTE]
 >

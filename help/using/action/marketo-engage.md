@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 ## 前提条件 {#prerequisites}
 
 * Marketo Engage の顧客インスタンスは、IMS 対応である必要があります。
-* Marketo EngageインスタンスとAdobe Experience Platform/Journey Optimizer インスタンスは同じ組織内にある必要があります。
+* Marketo Engage インスタンスと Adobe Experience Platform／Journey Optimizer インスタンスは、同じ組織内に存在する必要があります。
 * 顧客は **MktoSync：取り込みサービスへのアクセス**&#x200B;をプロビジョニングする必要があります
 
 ## アクションの設定 {#configure-marketo-action}

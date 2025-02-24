@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 source-git-commit: 691474e332e9c62dd1be8b8b044e0d02781805ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# [!DNL Journey Optimizer] での Audience Activation {#segments-in-journey-optimizer}
+# [!DNL Journey Optimizer] のオーディエンスアクティベーション {#segments-in-journey-optimizer}
 
 セグメント定義、カスタムアップロード、コンポジションワークフローまたは連合オーディエンス構成を使用して、生成されたオーディエンスをキャンペーンやジャーニーで選択できます。
 
@@ -23,13 +23,13 @@ ht-degree: 91%
 >
 >オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。[詳しくは、Journey Optimizer でのオーディエンスのエンリッチメント属性の使用方法を参照してください](../audience/about-audiences.md#enrichment)
 
-## オーディエンスのアクティベーションの遅延 {#activation}
+## オーディエンスアクティベーションの遅延 {#activation}
 
-オーディエンスは、取り込みが完了するとすぐに、Journey Optimizer で使用できるようになります。これは通常 1 時間以内ですが、何らかの変動が生じる可能性があります。 コンポジションから生成されたオーディエンスは、公開から 24 時間後に使用可能になります。
+オーディエンスは、取り込みが完了するとすぐに、Journey Optimizer で使用できるようになります。これは通常 1 時間以内ですが、何らかの変動が生じる可能性があります。構成から生成されたオーディエンスは、公開後 24 時間以内に使用できます。
 
-## カスタムアップロードと Federated Audience Composition
+## カスタムアップロードと連合オーディエンス構成
 
-カスタムアップロードおよび Federated Audience Composition オーディエンスの場合は、次のガードレールに注意してください。
+カスタムアップロードと連合オーディエンス構成オーディエンスの場合は、次のガードレールに注意してください。
 
 * **プレビューと配達確認のサポート：**&#x200B;現在、CSV アップロードまたは連合オーディエンス構成を使用して作成されたオーディエンスでは、プレビューと配達確認はサポートされていません。キャンペーンを計画する際には、次の点に注意してください。
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
 ht-degree: 100%
 
