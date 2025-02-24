@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
+source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -55,7 +55,7 @@ Adobe Experience Manager as a Cloud Serviceから Dynamic Media をJourney Optim
 
 コンテンツに dynamic media が含まれるようになりました。 Experience Managerで行った更新は、Journey Optimizerに自動的に表示されます。
 
-## テキストオーバーレイを使用したPersonalization
+## テキストオーバーレイをパーソナライズ
 
 既存のテキストオーバーレイを選択した新しいテキストに置き換えることで、Dynamic Media を簡単にカスタマイズし、シームレスな更新とパーソナライゼーションを可能にします。
 
