@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 88%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 100%
 >id="ajo_multi_translation_homepage"
 >title="翻訳"
 >abstract="多言語機能を使用すると、1 つのキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できます。翻訳ページでは、プロジェクトの設定、翻訳プロバイダーの選択、ロケール固有の辞書の管理を行うことができます"
-
->[!IMPORTANT]
->
->多言語コンテンツの作成を開始するには、ユーザーに&#x200B;**[!UICONTROL 言語設定の管理]**権限を付与する必要があります。
->自動フローの場合、ユーザーには&#x200B;**[!UICONTROL 翻訳サービス]**&#x200B;機能に関連する権限も必要です。[詳しくは、権限を参照してください。](../administration/permissions.md)
 
 多言語機能を使用すると、単一のキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できます。この機能を使用すると、キャンペーンの編集時に言語を切り替えることができるので、編集プロセス全体が合理化され、多言語コンテンツを効率的に管理する機能が向上します。
 
@@ -55,23 +50,49 @@ Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立した�
 
 翻訳に関する問題やサポートのリクエストについては、該当する翻訳プロバイダーにお問い合わせください。
 
-Journey Optimizer で翻訳機能を使用するには、API を対応する役割に割り当てる必要があります。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+多言語コンテンツの場合は、次の設定を定義する必要があります。
 
-翻訳ページにアクセスできない場合は、翻訳機能を有効にし、**[!UICONTROL 翻訳サービス]**&#x200B;関連の権限を付与される必要があります。[詳細情報](../administration/ootb-permissions.md)
+* Journey Optimizer で翻訳機能を使用するには、API を対応する役割に割り当てる必要があります。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+* 多言語コンテンツの作成を開始するには、ユーザーに **[!UICONTROL 言語設定の管理]** 権限を付与する必要があります。 自動フローを行うには、**[!UICONTROL 翻訳サービス]** の機能に関連する権限も必要です。 [権限の詳細情報](../administration/permissions.md)
+
++++ 多言語関連の権限を割り当てる方法を説明します
+
+   1. **権限**&#x200B;付きの製品で、「**役割**」タブに移動し、目的の「**役割**」を選択します。
+
+   1. 「**編集**」をクリックして、権限を変更します。
+
+   1. **翻訳サービス** リソースを追加して、ドロップダウンメニューから適切な多言語権限を選択します。
+
+      ![](assets/multilingual-permission.png){zoomable="yes"}
+
+   1. 「**保存**」をクリックして、変更を適用します。
+
+      この役割に既に割り当てられているユーザーの権限は、自動的に更新されます。
+
+   1. この役割を新しいユーザーに割り当てるには、**役割**&#x200B;ダッシュボード内の「**ユーザー**」タブに移動し、「**ユーザーを追加**」をクリックします。
+
+   1. ユーザーの名前、メールアドレスを入力するか、リストから選択して、「**保存**」をクリックします。
+
+   1. まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。
+
++++
+
+* 翻訳ページにアクセスできない場合は、翻訳機能を有効にし、**[!UICONTROL 翻訳サービス]**&#x200B;関連の権限を付与される必要があります。[詳細情報](../administration/ootb-permissions.md)
 
 +++ 翻訳機能を有効にする方法について説明します。
 
-1. 次のエラーページが表示される場合は、**[!UICONTROL 翻訳]**&#x200B;機能がまだ有効になっていないことを示しています。組織およびサンドボックス管理者にお問い合わせて、アクセスをリクエストしてください。
+   1. 次のエラーページが表示される場合は、**[!UICONTROL 翻訳]**&#x200B;機能がまだ有効になっていないことを示しています。組織およびサンドボックス管理者に連絡して、アクセス権をリクエストしてください。
 
-   ![](assets/multi-troubleshoot.png)
+  ![](assets/multi-troubleshoot.png)
 
-1. 管理者は、左側のサイドバーの&#x200B;**[!UICONTROL 翻訳]**&#x200B;メニューに移動する必要があります。
+   1. 管理者は、左側のサイドバーの&#x200B;**[!UICONTROL 翻訳]**&#x200B;メニューに移動する必要があります。
 
-   システムで翻訳機能が自動的に有効になります。
+      システムで翻訳機能が自動的に有効になります。
 
-1. この機能が正常に有効になると、「**[!UICONTROL プロジェクト]**」、「**[!UICONTROL プロバイダー]**、「**[!UICONTROL ロケール]**」の各タブと共に、**[!UICONTROL 翻訳]**&#x200B;ページにアクセスできるようになります。
+   1. この機能が正常に有効になると、「**[!UICONTROL プロジェクト]**」、「**[!UICONTROL プロバイダー]**、「**[!UICONTROL ロケール]**」の各タブと共に、**[!UICONTROL 翻訳]**&#x200B;ページにアクセスできるようになります。
 
-1. この手順が失敗した場合、同じエラーページが表示されます。その場合は、アドビ担当者にお問い合わせください。
+   1. この手順が失敗した場合、同じエラーページが表示されます。その場合は、アドビ担当者にお問い合わせください。
 
 +++
 
