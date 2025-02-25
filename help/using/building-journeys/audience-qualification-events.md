@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
-workflow-type: ht
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 * ジャーニーでオーディエンスの選定を使用すると、そのオーディエンスの選定アクティビティがアクティブになってオーディエンスにエントリまたは離脱するプロファイルをリッスンするのに、最大 10 分かかる場合があります。
 
-### アクティビティの設定{#cnfigure-segment-qualification}
+### アクティビティの設定 {#configure-segment-qualification}
 
 **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティを設定するには、次の手順に従います。
 

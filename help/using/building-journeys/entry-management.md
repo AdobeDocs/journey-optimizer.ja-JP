@@ -8,17 +8,21 @@ role: User
 level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
-workflow-type: ht
-source-wordcount: '699'
-ht-degree: 100%
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 98%
 
 ---
 
 
 # プロファイルエントリ管理 {#entry-management}
 
-プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。Adobe Journey Optimizer では、次のタイプのジャーニーを使用できます。
+プロファイルのエントリ管理は、ジャーニーのタイプに応じて異なります。
+
+## ジャーニーのタイプ {#types-of-journeys}
+
+Adobe Journey Optimizer では、次のタイプのジャーニーを使用できます。
 
 * **単一イベント**&#x200B;ジャーニー：単一イベントから開始するジャーニーです。イベントを受信すると、関連付けられたプロファイルがジャーニーにエントリします。[詳細情報](#entry-unitary)
 
