@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,12 @@ You can also create audience-based campaigns to send messages.-->
 
 * **インテリジェント決定とパーソナライズ機能**：ブランドは、一元的な決定を適用し、人工知能と機械学習を組み込んで、顧客体験全体で予測インサイトを設定できます。これにより、意思決定の自動化や、規模に合わせたエクスペリエンスの最適化が容易になります。オファー決定では、[!DNL Adobe Journey Optimizer] を通じ、複数のチャネルをまたぐ大規模な一元的なオファーを支援します。
 
+
+>[!NOTE]
+>
+> お使いの環境で使用できるコンポーネントと機能は、[ 権限 ](../administration/permissions.md) および [ ライセンスパッケージ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。 ご不明な点は、Adobe カスタマーサクセスマネージャーまたはAdobe担当者にお問い合わせください。
+
+
 ## アーキテクチャ {#architecture}
 
 下の図で、[!DNL Adobe Journey Optimizer] の基本的なアーキテクチャ、統合のポイントおよび [!DNL Journey Optimizer] と [!DNL Experience Platform] との関係について説明します。
@@ -63,7 +69,7 @@ You can also create audience-based campaigns to send messages.-->
 >[!NOTE]
 >
 > Adobe Experience Cloud の一般的なプライバシーに関するガイドラインと手順は [!DNL Journey Optimizer] に適用されます。[Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html)。
-> また、](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja) を開始する前に、リアルタイム顧客プロファイルデータのガードレールを認識しておく[必要があります。
+>
 
 
 >[!MORELIKETHIS]
