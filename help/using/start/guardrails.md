@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -60,9 +60,11 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * 現在、MMS ではメッセージのフィードバック同期を使用できません。
 * 同意の管理は、MMS の SMS チャネルレベルで動作します。
 
-### Web チャネルのガードレール {#web-guardrails}
+## Web チャネルのガードレール {#web-guardrails}
 
-[!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
+[!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
+
+各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
 
 ### コードベースのチャネルガードレール {#code-based-guardrails}
 
