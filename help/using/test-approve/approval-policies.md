@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 85%
+source-wordcount: '509'
+ht-degree: 82%
 
 ---
 
@@ -140,6 +140,8 @@ ht-degree: 85%
 これで、承認ポリシーをアクティブ化して適用できるようになりました。
 
 ## 承認ポリシーのアクティブ化と管理 {#activate-policies}
+
+承認ポリシーを適用するには、そのポリシーをアクティブにする必要があります。 これを実行するには、次の手順に従います。
 
 1. 「**[!UICONTROL 承認ポリシー]**」にアクセスします。
 

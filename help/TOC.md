@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 96%
+source-wordcount: '2196'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 96%
    + [ベストプラクティス](using/start/best-practices.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
+   + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
    + ジャーニーの作成{#create-journey}
       + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
@@ -379,7 +380,7 @@ ht-degree: 96%
          + [オーディエンス構成](using/audience/get-started-audience-orchestration.md)
          + [カスタムアップロード](using/audience/custom-upload.md)
          + [連合オーディエンス構成](using/audience/federated-audience-composition.md)
-      + [キャンペーンとジャーニーでのオーディエンスアクティベーション](using/audience/target-audiences.md)
+      + [キャンペーンとジャーニーのオーディエンスアクティベーション](using/audience/target-audiences.md)
       + [エンリッチメント属性の活用](using/audience/enrichment-attributes.md)
    + プロファイル{#profiles}
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
@@ -387,12 +388,12 @@ ht-degree: 96%
       + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
-+ 統合 {#assets-images}
-   + [その他のソリューションとの統合](using/integrations/ajo-integrations.md)
++ 統合{#assets-images}
+   + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
    + [Experience Manager Assets の操作](using/integrations/assets.md)
    + [Adobe Stock との連携](using/integrations/stock.md)
    + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
-   + [Experience Manager コンテンツフラグメントの使用](using/integrations/aem-fragments.md)
+   + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
    + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
 + トラッキングとモニタリング {#reporting}
    + ライブレポート {#live-report}

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6152'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 97%
 
 ## 2025年2月 {#feb-2025}
 
+* 最初のジャーニーを作成する手順が詳しく説明され、ドキュメントへのリンクの節が追加されました。 [詳細情報](../building-journeys/journey-gs.md)
+* ジャーニー管理ユーザーインターフェイスのジャーニーの詳細を説明する新しいページが使用できるようになりました。 [詳細情報](../building-journeys/journey-ui.md)
 * **[!UICONTROL 送信時間の最適化]**&#x200B;に関するドキュメントと関連する FAQ が更新、改善され、新しい専用ページに移動されました。[詳細情報](../building-journeys/send-time-optimization.md)
 * ジャーニーイベントに新しいガードレールが追加されました。[詳細情報](../start/guardrails.md#events-g)
 * 組み込みのチャネルアクションページが再編成されました。[詳細情報](../building-journeys/journeys-message.md)

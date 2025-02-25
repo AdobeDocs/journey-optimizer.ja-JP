@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,9 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 ## ジャーニーを開始 {#start-your-journey}
 
-ジャーニーをデザインする際に最初に考えるのは、プロファイルがどのようにしてジャーニーにエントリするかです。次の 2 つの方法が考えられます。
+ジャーニーをデザインする際に最初に考えるのは、プロファイルがどのようにしてジャーニーにエントリするかです。
+
+次の 2 つの方法が考えられます。
 
 1. **イベントで開始**：イベントをリッスンするようにジャーニーを設定している場合、個人は&#x200B;**単独で**&#x200B;ジャーニーにエントリします。ジャーニーに含まれるメッセージは、現在ジャーニーを開始している人物に送信されます。[イベントの詳細情報](../event/about-events.md)
 

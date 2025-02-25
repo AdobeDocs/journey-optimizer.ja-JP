@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
@@ -24,6 +24,11 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer] は、[!DNL Adobe Experience Platform] でネイティブに構築され、統合されたリアルタイム顧客プロファイル、API ファーストのオープンフレームワーク、一元化されたオファー決定支援、人工知能（AI）と機械学習（ML）を組み合わせて、パーソナライゼーションと最適化を実現します。Journey Optimizer を使用すると、カスタマージャーニー全体を通じて、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。[!DNL Adobe Journey Optimizer] を使用すると、企業は、スケジュールに沿ったマーケティングキャンペーン（小売店向けの週別プロモーションなど）と、カスタマイズされた個々のコミュニケーション（ロイヤルティアプリの顧客が以前表示し、在庫切れだった品目のプッシュ通知など）の両方を同じアプリ内で作成して配信できます。
 
 ➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target="_blank"}（ビデオ）
+
+
+<!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
+
+You can also create audience-based campaigns to send messages.-->
 
 
 ## ユースケース {#use-cases}
