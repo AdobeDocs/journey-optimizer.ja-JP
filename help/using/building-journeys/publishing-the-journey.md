@@ -9,22 +9,25 @@ role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 42%
+source-wordcount: '305'
+ht-degree: 39%
 
 ---
 
 # ジャーニーの公開 {#publishing-the-journey}
 
-ジャーニーを公開してアクティブ化し、新しいプロファイルが入力できるようにする必要があります。 ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。 ジャーニーのテスト方法については、[ このページ ](testing-the-journey.md) を参照してください。
+ジャーニーを公開してアクティブ化し、新しいプロファイルが入力できるようにする必要があります。 ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。
 
 ➡️ [この機能をビデオで確認](#video)
 
 ジャーニーを公開する手順は次のとおりです。
 
-1. ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。ジャーニーのトラブルシューティング方法については、[ この節 ](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) を参照してください。
+1. ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。
+
+   * ジャーニーのテスト方法については、[ このページ ](testing-the-journey.md) を参照してください。
+   * ジャーニーエラーのトラブルシューティング方法については、[ この節 ](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) を参照してください。
 
 1. ジャーニーを公開するには、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションをクリックします。
 
