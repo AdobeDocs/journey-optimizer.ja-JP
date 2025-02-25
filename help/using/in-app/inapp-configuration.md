@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
-workflow-type: ht
-source-wordcount: '866'
-ht-degree: 100%
+source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
+workflow-type: tm+mt
+source-wordcount: '921'
+ht-degree: 92%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 100%
 
 ## アプリ内設定の作成 {#channel-prerequisites}
 
+
 1. **[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
    ![](assets/inapp_config_1.png)
@@ -72,7 +73,11 @@ ht-degree: 100%
 
    ![](assets/inapp_config_9.png)
 
-1. アプリ内メッセージを適用するプラットフォームを選択します。
+1. 設定を定義するプラットフォームを選択します。 これにより、各プラットフォームに対してターゲットアプリを指定し、複数のプラットフォーム間で一貫したコンテンツ配信を確保できます。
+
+   >[!NOTE]
+   >
+   >iOSおよびAndroidのプラットフォームの場合、配信はアプリ ID のみに基づきます。 両方のアプリが同じアプリ ID を共有する場合、**[!UICONTROL チャネル設定]** で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
 
    ![](assets/inapp_config_10.png)
 
@@ -121,7 +126,7 @@ ht-degree: 100%
 
 レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
-データセットのスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、[!DNL Journey Optimizer] レポーティングで必要とされるもので、各プロファイルが参加しているキャンペーンとジャーニーを追跡します。
+データセットのスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
 
 [詳しくは、「レポーティング設定」を参照してください。](../reports/reporting-configuration.md)
 
