@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
 workflow-type: tm+mt
 source-wordcount: '2168'
 ht-degree: 93%
@@ -42,7 +42,6 @@ ht-degree: 93%
    + [ベストプラクティス](using/start/best-practices.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
-   + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
    + ジャーニーの作成{#create-journey}
       + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
@@ -52,6 +51,7 @@ ht-degree: 93%
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [ジャーニーのライブレポート](using/building-journeys/report-journey.md)
    + ジャーニーの管理{#manage-journey}
+      + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
       + [プロファイルエントリ管理](using/building-journeys/entry-management.md)
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
       + [送信時間の最適化](using/building-journeys/send-time-optimization.md)
