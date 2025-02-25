@@ -4,15 +4,27 @@ description: 承認ポリシーを作成および管理する方法について�
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 85%
 
 ---
 
-
 # 承認ポリシーの作成と管理 {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="承認をリクエスト"
+>abstract="承認をリクエスト"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="変更をリクエスト"
+>abstract="変更をリクエスト"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 100%
 承認ポリシーを使用すると、管理者はジャーニーとキャンペーンの検証プロセスを確立できます。このシステムは、ジャーニーまたはキャンペーンが承認を必要とするかどうかを決定する特定の条件の概要を示します。これらのポリシーは、単純にすべてのキャンペーンを特定のユーザーまたはチームによるレビューが必要となることから、キャンペーンの作成者に基づいて条件を設定することまで、複雑さが異なる場合があります。
 
 ## 承認ポリシーの作成 {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="新規承認ポリシー"
+>abstract="この画面で、名前を入力して承認ポリシーのコンテキストを選択し、条件を作成して、承認リクエストを開始できるユーザーと検証できるユーザーを決定します。"
+
+承認ポリシーを作成するには、次の手順に従います。
 
 1. Journey Optimizer の&#x200B;**[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL 権限]**／**[!UICONTROL ポリシー]**&#x200B;にアクセスします。
 
@@ -34,9 +53,11 @@ ht-degree: 100%
 
    ![](assets/policy_create_2.png)
 
-条件を調整して、承認リクエストを開始するユーザーと検証するユーザーを指定できるようになりました。
+条件を調整して、承認リクエストを開始できるユーザーと検証できるユーザーを指定できるようになりました。
 
 ## 承認ポリシーの条件を設定 {#conditions}
+
+承認ポリシーに関連付ける条件を定義するには、次の手順に従います。
 
 1. **[!UICONTROL 承認ポリシー]**&#x200B;にアクセスします。
 
@@ -133,4 +154,3 @@ ht-degree: 100%
 1. **[!UICONTROL ポリシー]**&#x200B;メニューから、必要に応じてポリシーの詳細オプションを開いて&#x200B;**[!UICONTROL 編集]**、**[!UICONTROL 非アクティブ化]**、**[!UICONTROL 複製]**&#x200B;を実行します。
 
    ![](assets/policy_activate_2.png)
-
