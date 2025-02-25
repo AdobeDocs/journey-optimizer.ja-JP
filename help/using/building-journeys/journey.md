@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Journey Optimizer Journey Designer は、マーケターやジャーニー実務
 * **ジャーニーデザイナー**&#x200B;を使用すると、エントリイベントや「オーディエンスを読み取り」アクティビティを簡単にドラッグ＆ドロップして、条件を追加し、パーソナライズされたメッセージを送信するなど、複数のステップから成るユースケースを作成できます。
 
 初めてのジャーニーの作成およびデザイン方法については、[ このページ ](journey-gs.md) を参照してください。
+
+➡️ [ ビデオでJourney Optimizerを確認する ](#video)
 
 ## ユースケース{#uc-journey}
 
