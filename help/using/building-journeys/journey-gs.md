@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 64%
+source-wordcount: '761'
+ht-degree: 65%
 
 ---
 
@@ -112,4 +112,6 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 ジャーニーレポートについて詳しくは、この [ 節 ](../reports/live-report.md) を参照してください。
 
-既存のジャーニーを複製したり、ジャーニーの新しいバージョンを作成したりできます。 詳しくは、[ このページ ](journey-ui.md) を参照してください。
+>[!NOTE]
+>
+>**ライブ** ジャーニーを変更する必要がある場合は、ジャーニーの [ 新しいバージョンを作成 ](journey-ui.md#journey-versions) します。
