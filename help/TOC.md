@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 97%
+source-wordcount: '2168'
+ht-degree: 93%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 97%
       + テクニカルユースケース{#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [外部データソースとカスタムアクションを使用してスループットを制限する](using/building-journeys/limit-throughput.md)
+         + [外部データソースとカスタムアクションを使用してスループットを制限](using/building-journeys/limit-throughput.md)
          + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + キャンペーン{#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
@@ -217,7 +217,7 @@ ht-degree: 97%
          + スタイルの編集 {#edit-style}
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)
-            + [垂直方向の整列とパディングを調整する](using/email/alignment-and-padding.md)
+            + [垂直方向の整列とパディングを調整](using/email/alignment-and-padding.md)
             + [インラインのスタイル属性の追加](using/email/inline-styling.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
@@ -233,7 +233,7 @@ ht-degree: 97%
       + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
       + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
       + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
-      + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
+      + [アプリ内通知の確認と送信](using/in-app/send-in-app.md)
    + プッシュ通知チャネル{#push}
       + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
       + [プッシュ通知の作成](using/push/create-push.md)
@@ -246,7 +246,7 @@ ht-degree: 97%
    + SMS／MMS チャネル{#sms}
       + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
       + [テキストメッセージ（SMS／MMS）の作成](using/sms/create-sms.md)
-      + [テキストメッセージの確認および送信](using/sms/send-sms.md)
+      + [テキストメッセージの確認と送信](using/sms/send-sms.md)
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
       + SMS／MMS チャネルの設定{#configure-sms}
@@ -259,7 +259,7 @@ ht-degree: 97%
    + ダイレクトメール {#direct-mail}
       + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
       + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
-      + [ダイレクトメールメッセージの確認と送信](using/direct-mail/test-send-direct-mail.md)
+      + [ダイレクトメールメッセージの確認および送信](using/direct-mail/test-send-direct-mail.md)
       + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
    + Web チャネル {#web}
       + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
@@ -282,7 +282,7 @@ ht-degree: 97%
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
       + コードベースのエクスペリエンスの作成 {#create-code-based-experiences}
-         + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
+         + [コードベースのエクスペリエンスの作成](using/code-based/create-code-based.md)
          + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
          + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
    + コンテンツカード{#content-card}
@@ -343,7 +343,7 @@ ht-degree: 97%
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
-         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
+         + [配列とリスト関数](using/personalization/functions/arrays-list.md)
          + [日付関数](using/personalization/functions/dates.md)
          + [ブール関数と比較関数](using/personalization/functions/operators.md)
          + [ヘルパー](using/personalization/functions/helpers.md)
@@ -395,7 +395,7 @@ ht-degree: 97%
    + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
    + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
    + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
-+ トラッキングとモニタリング {#reporting}
++ {#reporting} のトラッキングと監視
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
       + [コンポーネントのリスト](using/reports/live-report-components.md)
@@ -407,7 +407,7 @@ ht-degree: 97%
       + [全期間のレポートの基本を学ぶ](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
-      + [レポーティングと実験の前提条件](using/reports/reporting-configuration.md)
+      + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
       + キャンペーンレポート{#reporting}
          + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
          + [コードベースのキャンペーンレポート](using/reports/campaign-global-report-cja-code.md)
@@ -507,14 +507,14 @@ ht-degree: 97%
             + [自動最適化モデル](using/offers/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/offers/ranking/personalized-optimization-model.md)
             + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
-      + オファーの作成と管理 {#managing-offers-in-the-offer-library}
+      + オファー {#managing-offers-in-the-offer-library} ージの作成と管理
          + オファーの設定 {#configure-offers}
             + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
             + [表示域を追加](using/offers/offer-library/add-representations.md)
             + [制約を追加](using/offers/offer-library/add-constraints.md)
          + [フォールバックオファーを作成](using/offers/offer-library/creating-fallback-offers.md)
          + [コレクションの作成](using/offers/offer-library/creating-collections.md)
-      + 決定の作成と管理 {#create-manage-activities}
+      + での決定の作成 {#create-manage-activities} 管理
          + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
          + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
          + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
@@ -539,7 +539,7 @@ ht-degree: 97%
          + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
       + API リファレンス{#api-reference}
          + [はじめに](using/offers/api-reference/getting-started.md)
-         + API を使用したオファーの作成と管理 {#offers-api}
+         + の API を使用したオファーの作成と管理 {#offers-api}
             + プレースメント {#placements}
                + [プレースメントのリスト](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [プレースメントの参照](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -670,7 +670,7 @@ ht-degree: 97%
    + [ビジネスルールの設定](using/configuration/frequency-rules.md)
    + [ルールセットの操作](using/configuration/rule-sets.md)
    + ジャーニーの設定 {#configure-journeys}
-      + [データソース、イベント、アクションについて](using/configuration/about-data-sources-events-actions.md)
+      + [データソース、イベント、アクションの設定](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
          + [ジャーニーと外部システムとの統合](using/configuration/external-systems.md)
          + [Capping API](using/configuration/capping.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
 
+### コードベースのチャネルガードレール {#code-based-guardrails}
+
+[!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[ このページ ](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
+
 ## サブドメインガードレール {#subdomain-guardrails}
 
 デフォルトでは [!DNL Journey Optimizer] では、合計 10 個までのサブドメインをデリゲートできます（メールと web チャネルの両方を含む）。
@@ -85,6 +89,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 * [意思決定のガードレールと制限](../experience-decisioning/decisioning-guardrails.md)
 * [意思決定管理のガードレールと制限](../offers/decision-management-guardrails.md)
+
 
 ## ジャーニーガードレール {#journeys-guardrails}
 

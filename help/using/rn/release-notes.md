@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 22%
+source-wordcount: '767'
+ht-degree: 27%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 <table>
 <thead>
 <tr>
-<th><strong>ビジネス・ルールの作成と管理</strong><br/></th>
+<th><strong>ビジネス ルールの作成と管理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -114,11 +114,11 @@ ht-degree: 22%
 <tbody>
 <tr>
 <td>
-<p>柔軟なオーディエンス評価を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行し、Journey Optimizerのジャーニーやキャンペーンにターゲティングする前にオーディエンスデータを常に最新の状態に保つことができます。</p>
+<p>柔軟なオーディエンス評価を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行できるので、Journey Optimizer のジャーニーやキャンペーンにオーディエンスをターゲティングする前に、常に最新のオーディエンスデータを確保できます。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>詳しくは、<a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
 <p>この機能は、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
-<p>公開日：2025 年 1 月 28 日（PT）</p>
+<p>リリース日：2025年1月28日（PT）</p>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ ht-degree: 22%
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **メール設定** - Adobe外で同意を管理している場合は、メールチャネルの設定の一部として、カスタム購読解除メールアドレスとカスタムワンクリック購読解除 URL を設定できるようになりました。 [ 詳細を表示 ](../email/list-unsubscribe.md#custom-managed)
+* **メール設定** - Adobe外で同意を管理している場合は、メールチャネルの設定の一部として、カスタム購読解除メールアドレスとカスタムワンクリック購読解除 URL を設定できるようになりました。[詳細情報](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

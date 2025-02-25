@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 99%
 
 ---
 
-# PTR レコード {#ptr-records}
+# PTR レコードの作成と編集 {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"

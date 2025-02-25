@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 垂直方向の位置揃え, 電子メールエディター, パディング
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 97%
 
 ---
 
-# 垂直方向の整列とパディングを調整する {#alignment-and-padding}
+# 垂直方向の整列とパディングを調整 {#alignment-and-padding}
 
 この例では、3 つの列で構成される構造コンポーネント内のパディングと垂直方向の整列を調整します。
 
