@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2335'
 ht-degree: 93%
 
 ---
@@ -33,11 +33,6 @@ ht-degree: 93%
 
 Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージョンの Google Chrome で最適に動作するようにデザインされています。古いバージョンや他のブラウザーでは、特定の機能を使用すると問題が発生する場合があります。
 
-## メッセージガードレール {#message-guardrails}
-
-* [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
-* [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
-
 ## データセットガードレール {#datasets-guardrails}
 
 2025 年 2 月から、Time-to-Live （TTL）ガードレールが、（新しいサンドボックスと新しい組織 **のJourney Optimizer システム生成データセットに次のようにロールアウトされ** す。
@@ -47,20 +42,20 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 この変更は、次のフェーズで **既存の顧客サンドボックス** にロールアウトされます。 [ データセットの Time-To-Leave （TTL）ガードレールの詳細 ](../data/datasets-ttl.md)
 
-## ランディングページガードレール {#lp-guardrails}
+## チャネルガードレール {#channel-guardrails}
 
-* 単一のプライマリページで使用できる&#x200B;**フォーム**&#x200B;コンポーネントは 1 つだけです。
-* **フォーム**&#x200B;コンポーネントはサブページでは使用できません。
-* ランディングページにプリヘッダーを追加することはできません。
-* ランディングプライマリページをデザインするときに、「**独自のコード**」オプションを選択することはできません。
+### メールガードレール {#message-guardrails}
 
-## SMS ガードレール {#sms-guardrails}
+* [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
+* [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
+
+### SMS ガードレール {#sms-guardrails}
 
 * MMS 用のメディアファイルは、サポートされている URL を通じて含めることができます。メディアファイルは別々にアップロードしてください。
 * 現在、MMS ではメッセージのフィードバック同期を使用できません。
 * 同意の管理は、MMS の SMS チャネルレベルで動作します。
 
-## Web チャネルのガードレール {#web-guardrails}
+### Web チャネルのガードレール {#web-guardrails}
 
 [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
@@ -69,6 +64,13 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ### コードベースのチャネルガードレール {#code-based-guardrails}
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[ このページ ](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
+
+## ランディングページガードレール {#lp-guardrails}
+
+* 単一のプライマリページで使用できる&#x200B;**フォーム**&#x200B;コンポーネントは 1 つだけです。
+* **フォーム**&#x200B;コンポーネントはサブページでは使用できません。
+* ランディングページにプリヘッダーを追加することはできません。
+* ランディングプライマリページをデザインするときに、「**独自のコード**」オプションを選択することはできません。
 
 ## サブドメインガードレール {#subdomain-guardrails}
 
@@ -85,7 +87,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 特定のサンドボックス内で最大 10 個のオーディエンスコンポジションを公開できます。このしきい値に達した場合、新しいコンポジションを公開するためには、コンポジションを削除してスペースを解放する必要があります。
 
-## 意思決定および意思決定管理のガードレール {#decisioning}
+## 意思決定および意思決定管理のガードレール {#decisioning-guardrails}
 
 意思決定または意思決定管理を使用する際に留意すべきガードレールと制限について詳しくは、意思決定と意思決定管理の節を参照してください。
 
