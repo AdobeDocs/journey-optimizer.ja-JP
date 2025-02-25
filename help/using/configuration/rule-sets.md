@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 97%
@@ -311,7 +311,7 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->ジャーニーがすぐにアクティベートされた場合、システムが顧客の抑制を開始するまで最大 15 分かかることがあります。これを防ぐには、少なくとも 15 分後にジャーニーを開始するようにスケジュールを設定できます。
+>ジャーニーがすぐにアクティベートされた場合、システムが顧客の抑制を開始するまで最大 20 分かかることがあります。これを防ぐには、少なくとも 20 分後にジャーニーを開始するようにスケジュールを設定できます。
 
 +++
 
