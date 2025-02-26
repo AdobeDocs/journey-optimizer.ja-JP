@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, Plaform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 100%
 
 データソースには次の 2 種類があります。
 
-* リアルタイム顧客プロファイルサービスへの接続を定義する、事前設定済みの Adobe Experience Platform データソース。これはビルトインのデータソースです。[このページ](../datasource/adobe-experience-platform-data-source.md)を参照してください。
-* 外部システムへの接続を定義できる外部データソース。これは作成可能なデータソースです。[このページ](../datasource/external-data-sources.md)を参照してください。
+* リアルタイム顧客プロファイルサービスへの接続を定義する **事前設定済み** Adobe Experience Platform データソース。 これはビルトインのデータソースです。[このページ](../datasource/adobe-experience-platform-data-source.md)を参照してください。
+* 外部システムへの接続を定義できる **外部** データソース。 これは作成可能なデータソースです。[このページ](../datasource/external-data-sources.md)を参照してください。
 
 >[!NOTE]
 >
