@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+workflow-type: tm+mt
+source-wordcount: '746'
+ht-degree: 95%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="コンテンツ実験"
->abstract="複数の処理を定義してオーディエンスに最適な組み合わせを決定するために、メッセージのコンテンツ、件名、送信者を変更することを選択できます。"
+>abstract="複数の処理を定義してオーディエンスに最適な組み合わせを決定するために、メッセージのコンテンツや件名を変更することを選択できます。"
 
 >[!NOTE]
 >
 >コンテンツ実験を開始する前に、レポート設定がカスタムデータセットに対応するよう設定されていることを確認します。詳しくは、[この節](../reports/reporting-configuration.md)を参照してください。
 
-Journey Optimizer のコンテンツ実験を使用すると、複数の配信処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信を測定できます。配信コンテンツ、件名または送信者を変更できます。関心のあるオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。
+Journey Optimizer のコンテンツ実験を使用すると、複数の配信処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信を測定できます。配信コンテンツまたは件名を変更できます。 関心のあるオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。
 
 ![](../rn/assets/do-not-localize/experiment.gif)
 
