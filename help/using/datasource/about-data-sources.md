@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: データソースについて
-description: データソースの設定方法を学ぶ
+title: データソースの基本を学ぶ
+description: データソースの基本を学ぶ
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, Plaform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 90%
+source-wordcount: '344'
+ht-degree: 85%
 
 ---
 
-# データソースについて {#about-data-sources}
+# データソースの基本を学ぶ {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

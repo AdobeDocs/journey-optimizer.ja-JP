@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 93%
+source-wordcount: '2175'
+ht-degree: 92%
 
 ---
 
@@ -168,8 +168,8 @@ ht-degree: 93%
       + テクニカルユースケース{#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [外部データソースとカスタムアクションを使用してスループットを制限](using/building-journeys/limit-throughput.md)
-         + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
+         + [外部データソースとカスタムアクションを使用してスループットを制限する](using/building-journeys/limit-throughput.md)
+         + [カスタムアクションを使用したExperience Platformでのジャーニーイベントの記述](using/building-journeys/custom-action-aep.md)
 + キャンペーン{#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
@@ -684,17 +684,17 @@ ht-degree: 93%
          + [ビジネスイベントの設定](using/event/about-creating-business.md)
          + [イベントを送信するための手順](using/event/additional-steps-to-send-events-to-journey.md)
       + データソース設定{#data-source-journeys}
-         + [データソースについて](using/datasource/about-data-sources.md)
+         + [データソースの基本を学ぶ](using/datasource/about-data-sources.md)
          + [データソースの設定](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform のデータソース](using/datasource/adobe-experience-platform-data-source.md)
          + [外部データソース](using/datasource/external-data-sources.md)
       + アクション設定 {#action-journeys}
-         + [アクションについて](using/action/action.md)
-         + [アクションの設定](using/action/about-custom-action-configuration.md)
+         + [カスタムアクションの基本を学ぶ](using/action/action.md)
+         + [カスタムアクションの設定](using/action/about-custom-action-configuration.md)
          + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
+         + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
          + [Adobe Campaign Standard との統合](using/action/acs-action.md)
          + [Adobe Campaign v7／v8 との統合](using/action/acc-action.md)
-         + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
          + [Marketo Engage との統合](using/action/marketo-engage.md)
    + [ソース](using/start/get-started-sources.md)
    + [別のサンドボックスへのオブジェクトの書き出し](using/configuration/copy-objects-to-sandbox.md)
