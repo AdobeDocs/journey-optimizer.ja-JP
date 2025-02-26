@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
-
 
 # URL トラッキング {#url-tracking}
 
@@ -28,11 +28,7 @@ ht-degree: 100%
 >title="URL トラッキングパラメーターのプレビュー"
 >abstract="メールコンテンツに存在する URL にトラッキングパラメーターを追加する方法を確認します。"
 
-新しい[メールチャネル設定](email-settings.md)を指定する際に、**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を定義し、チャネルをまたいでマーケティング活動の有効性を測定できます。
-
->[!NOTE]
->
->この機能はオプションです。
+新しい [ メールチャネル設定 ](email-settings.md) を設定する際に、**[!UICONTROL URL トラッキングパラメーター]** を定義して、チャネルをまたいでマーケティング活動の有効性を測定することができます。 この機能の有効化はオプションです。
 
 対応する節で定義したパラメーターは、メールメッセージコンテンツに含まれる URL の末尾に追加されます。その後、これらのパラメーターを Adobe Analytics や Google Analytics などの web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
 
