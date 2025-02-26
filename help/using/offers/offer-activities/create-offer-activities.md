@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
-workflow-type: ht
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -264,7 +264,7 @@ ht-degree: 100%
 
 **重複がオンの場合**
 
-プレースメント間での重複が許可されている場合は、異なるプレースメント間で同じオファーを何度も提案できます。重複を有効にすると、システムは複数のプレースメントに対して同じオファーを検討します。[詳しくは、重複パラメーターを参照してください](../offer-library/creating-placements.md)
+すべてのプレースメントで重複が許可されている場合、異なるプレースメント間で同じオファーを複数回提案できます。 重複を有効にすると、システムは複数のプレースメントに対して同じオファーを検討します。[詳しくは、重複パラメーターを参照してください](../offer-library/creating-placements.md)
 
 上記と同じ例で、次のような 2 つの決定範囲を追加した場合を見てみましょう。
 
