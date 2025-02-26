@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 45%
@@ -42,19 +42,19 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 * イベントを受信したときにジャーニーをまとめてトリガーにする場合は、**イベントを設定** する必要があります。 想定する情報とその情報の処理方法を定義します。[詳細情報](../event/about-events.md)。
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * 指定した一連のプロファイルにメッセージを一括送信するため、ジャーニーでAdobe Experience Platform オーディエンスをリッスンすることもできます。 この場合、**オーディエンスを作成** する必要があります。 [詳細情報](../audience/about-audiences.md)。
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * ジャーニーで使用する追加情報（条件など）を取得するために、システムへの接続を定義します。 この接続は、**データソース** に基づいています。 [詳細情報](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizerには [ メッセージ機能が組み込まれ ](../building-journeys/journeys-message.md) います。 サードパーティのシステムを使用してメッセージを送信する場合は、**カスタムアクションの作成** を実行できます。 詳しくは、[この節](../action/action.md)を参照してください。
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 データエンジニアとして、データソース、イベント、アクションを含むジャーニーを設定する手順について詳しくは、[この節](../configuration/about-data-sources-events-actions.md)を参照してください。

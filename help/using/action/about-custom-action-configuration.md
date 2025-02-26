@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: ht
-source-wordcount: '1651'
-ht-degree: 100%
+source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
+workflow-type: tm+mt
+source-wordcount: '1692'
+ht-degree: 97%
 
 ---
 
@@ -139,7 +139,13 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
    >
    >ヘッダーは、フィールド解析ルールに従って検証されます。詳しくは、[このドキュメント](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank} を参照してください。
 
-## mTLS プロトコルのサポート {#mtls-protocol-support}
+## トランスポートセキュリティレイヤー {#tls}
+
+### TLS プロトコルのサポート {#tls-protocol-support}
+
+Adobe Journey Optimizerは、カスタムアクションに対して TLS 1.3 をデフォルトでサポートします。 クライアントが TLS 1.3 もサポートしている場合、通信は TLS 1.3 を使用して行われます。そうしないと、TLS ネゴシエーションプロセスが TLS 1.2 にフォールバックする可能性があります。
+
+### mTLS プロトコルのサポート {#mtls-protocol-support}
 
 Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化します。mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
 
