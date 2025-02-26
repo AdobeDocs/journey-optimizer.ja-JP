@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, リスト, 購読, サービス
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 62%
+source-wordcount: '673'
+ht-degree: 61%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 62%
 
 ## 購読リストの監視 {#monitor-subscription-lists}
 
-専用のレポートを通じて、購読リストの影響を監視できます。 以下にアクセスできます。
+専用のレポートを通じて、購読リストの影響を監視できます。 次の 2 種類のレポートにアクセスできます。
 
 * 購読リストライブレポート
 
