@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 100%
 >title="カスタムアクション"
 >abstract="カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを使用した REST API を介して呼び出すことができる、任意のプロバイダーの任意のサービスで設定できます。"
 
-カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを使用した REST API を介して呼び出すことができる、任意のプロバイダーの任意のサービスで設定できます。
+カスタムアクションを使用して、サードパーティシステムへの接続を有効にし、メッセージまたは API 呼び出しを送信します。 アクションは、JSON 形式のペイロードを使用した REST API を介して呼び出すことができる、任意のプロバイダーの任意のサービスで設定できます。
+
+カスタムアクションについて詳しくは、[ この節 ](../action/action.md) を参照してください。
+
+カスタムアクションを作成して設定する方法については、[ このページ ](../action/about-custom-action-configuration.md) を参照してください。
 
 ## 同意とデータガバナンス {#privacy}
 
@@ -67,6 +71,3 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 「**[!UICONTROL アクションパラメーター]**」セクションには、_「変数」_&#x200B;として定義されたメッセージパラメーターが表示されます。これらのパラメーターについては、この情報の取得先（例：イベント、データソース）を定義したり、値を手動で渡したり、高度なユースケースに高度な式エディターを使用したりできます。高度なユースケースとしては、データ操作などの関数の使用が考えられます。この[ページ](expression/expressionadvanced.md)を参照してください。
 
-**関連トピック**
-
-[アクションの設定](../action/about-custom-action-configuration.md)
