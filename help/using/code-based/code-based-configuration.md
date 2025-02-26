@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: ht
+source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
+workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
    >
    >複数のプラットフォームを選択できます。複数のプラットフォームを選択すると、選択したすべてのページまたはアプリにコンテンツが配信されます。
 
-1. この特定の場所でアプリケーションで想定される形式を選択します。これは、キャンペーンやジャーニーでコードベースのエクスペリエンスを作成する際に使用されます。
+1. この特定の場所でアプリケーションで想定される形式を選択します。これは、キャンペーンやジャーニーでコードベースのエクスペリエンスをオーサリングする際に使用されます。
 
    ![](assets/code_config_4.png)
 
