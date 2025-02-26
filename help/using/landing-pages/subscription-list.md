@@ -11,8 +11,8 @@ keywords: ランディング, ランディングページ, リスト, 購読, �
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: a5bcd26ff735fc9656814c0df28fb58db5b3ae37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 100%
 
 ---
 
