@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式、エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 100%
+source-wordcount: '1044'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 
 * **サポートされているチャネル**：現時点では、この機能は、メール、SMS およびダイレクトメールチャネル内でのみ使用できます。
 * **データ使用のラベル付けと適用**&#x200B;は、現時点では、参照が有効なデータセットには適用されていません。
-* **式フラグメント**：現時点では、データセット参照のパーソナライゼーションを式フラグメント内に配置できません。
+* **フラグメント**：現時点では、データセット参照のパーソナライゼーションを式またはビジュアルフラグメント内に配置できません。
 
 ## データ参照用データセットの有効化 {#enable}
 
