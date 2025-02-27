@@ -1,19 +1,19 @@
 ---
-title: コードベースのエクスペリエンスのガードレールと前提条件
+title: コードベースエクスペリエンスの前提条件
 description: Journey Optimizer のコードベースの機能を使用してアプリや web ページを編集できるようにするには、このページの前提条件に従います
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 99%
+source-wordcount: '638'
+ht-degree: 100%
 
 ---
 
-# ガードレールと前提条件 {#code-based-prerequisites}
+# コードベースエクスペリエンスの前提条件 {#code-based-prerequisites}
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 
