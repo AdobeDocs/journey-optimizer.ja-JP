@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
-
 
 # カスタムアクションのトラブルシューティング {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 * **基本認証：** ユーザーは *パスワード* を指定する必要があります。
 * **API キー認証：** ユーザーは、API キー *値* を入力する必要があります。
-* **カスタム認証：** ユーザーは、リクエスト *bodyParam* で認証パラメーターを指定する必要があります。 この場合、完了する必要がある 2 つのセクションを追加します。**認証リクエスト** と **認証応答** です。
+* **カスタム認証：** ユーザーは、リクエスト *bodyParam* で認証パラメーターを指定する必要があります。 この場合、**認証要求** と **認証応答** の 2 つの節が追加されます。
 
 ## 主なメリット {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ Journey Optimizerの管理者は、外部ツール（Postmanなど）を使用�
 * リクエストメソッド（GETと POST）および対応するペイロード。
 * カスタムアクションで定義される API エンドポイントとヘッダー。
 * 応答データを使用して、潜在的な設定ミスを特定します。
-
