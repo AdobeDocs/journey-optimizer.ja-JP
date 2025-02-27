@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
+source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
@@ -54,11 +54,11 @@ Adobe Journey Optimizer では、次のユースケースにアクセスでき�
 
 質問するには、画面の下部にあるフィールドに質問を入力し、Enter キーを押します。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
 回答を確認し、「**ソースを表示**」ボタンを使用して製品ドキュメントへの直接リンクを取得し、詳細を確認してください。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
 サムアップまたはサムダウンを使用して回答を評価します。
 
