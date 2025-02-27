@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1091'
 ht-degree: 100%
 
