@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 97%
+source-wordcount: '934'
+ht-degree: 94%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 97%
 | Journey Optimizer ライブラリ | **[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</br>**[!DNL Simulate content]**：プレビューおよび配達確認用に「コンテンツをシミュレート」オプションへのアクセス。</br>**[!DNL Publish fragments]**：コンテンツフラグメントを公開します。 |
 | Journey Optimizer ルール | **[!DNL Manage frequency rules]**：メッセージ頻度ルールへのアクセス、作成、編集、削除。</br>**[!DNL View frequency rules]**：ルールへの読み取り専用アクセス。 |
 | ジャーニー | **[!DNL Approve & publish Journeys]**：ポリシーが適用された際にジャーニーを承認および公開する権限。</br> **[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、削除。ジャーニーにアクセスして管理するには、この権限を **[!DNL View journeys events, data sources and actions]** と組み合わせます。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL Publish journeys]**：ジャーニーの公開。</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取りと編集。</br> |
+| メッセージ | **[!DNL Manage messages]**：メッセージの読み取り、作成、編集、削除。 </br>**[!DNL Manage messages preview and test]**：ポリシーが適用されたときにメッセージを承認および公開する権限。</br>**[!DNL Publish messages]**：メッセージを公開する権限。</br>**[!DNL View messages]**：メッセージへの読み取り専用アクセス。</br>**[!DNL View messages report]**：メッセージレポートの読み取り、編集。 |
 | プロファイル管理 | **[!DNL Evaluate a segment to an audience]**：セグメント定義を評価して、オーディエンスのプロファイルを生成します。</br>**[!DNL Export audience segments]**：評価済みのデータセットセグメントをオーディエンスセットに書き出します。</br>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</br>**[!DNL Manage profiles]**：顧客プロファイルに使用するデータセットへの読み取り、作成、編集、削除。使用可能なプロファイルへの読み取り専用アクセス</br>**[!DNL View merge policies]**：使用可能な結合ポリシーへの読み取り専用アクセス。</br>**[!DNL View profiles]**：使用可能なプロファイルへの読み取り専用アクセス。</br>**[!DNL View segments]**：使用可能なオーディエンスへの読み取り専用アクセス。 |
 | クエリサービス | **[!DNL Manage queries]**：Platform データの構造化 SQL クエリの読み取り、作成、編集、削除。</br>**[!DNL Manage query service integration]**：クエリサービスアクセスの有効期限が切れていない資格情報を作成、更新および削除。 |
 | レポート | **[!DNL View channel reports]**：チャネルレポートの読み取り、編集。 |
