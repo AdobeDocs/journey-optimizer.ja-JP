@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 97%
 
 * **[!UICONTROL 監査]** - このセクションを参照して、アクティビティログを確認します。[詳細情報](../privacy/audit-logs.md)
 
-* **[!UICONTROL データハイジーン]** - このセクションでは、データハイジーン操作を設定およびスケジュールして、レコードが適切に保持されるようにします。[詳細情報](../privacy/data-hygiene.md)
+* **[!UICONTROL データライフサイクル]** – このセクションでは、データライフサイクルの操作を設定およびスケジュールして、レコードが適切に維持されるようにします。 [詳細情報](../privacy/data-hygiene.md)
 
 ### [!UICONTROL 管理] {#left-nav-admin}
 

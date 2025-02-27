@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 | ダッシュボード | **[!DNL View license usage dashboards]**：[ライセンス使用状況ダッシュボード](../audience/license-usage.md)を表示する読み取り専用アクセス。</br>**[!DNL Manage custom dashboards]**：新しいダッシュボードの作成と、既存のダッシュボードの編集の許可。</br>**[!DNL Manage standard dashboards]**：カスタムウィジェットを作成し、ウィジェットライブラリを介したウィジェットスキーマを編集できます。</br>**[!DNL View custom dashboards]**：ユーザー定義ダッシュボードへの読み取り専用アクセス。</br>**[!DNL View standard dashboards]**：プロファイル、宛先、オーディエンスの各ダッシュボードへの読み取り専用アクセス。 |
 | データ収集 | **[!DNL Manage datastream]**：データストリームの読み取り、作成、編集。</br>**[!DNL View datastream]**：データストリームへの読み取り専用アクセス。 |
 | データガバナンス | **[!DNL Manage usage labels]**：ラベルの読み取り、作成、編集、削除。</br>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</br>**[!DNL View data usage policies]**：組織に属するデータ使用ポリシーに対する読み取り専用アクセス。</br>**[!DNL View user activity log]**：Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。 |
-| データハイジーン | **[!DNL Manage data hygiene]**：データハイジーンの読み取り、作成、編集、削除。</br>**[!DNL View data hygiene]**：データハイジーンに対する読み取り専用アクセス。 |
+| データのライフサイクル | **[!DNL Manage data lifecycle]**：データのライフサイクルの読み取り、作成、編集、削除。</br>**[!DNL View data lifecycle]**: データ ライフサイクルの読み取り専用アクセス |
 | データ取り込み | **[!DNL Manage sources]**：ソースの読み取り、作成、編集、無効化。</br>**[!DNL View sources]**：「カタログ」タブでの使用可能なソースおよび「参照」タブでの認証済みのソースへの読み取り専用アクセス。 |
 | データ管理 | **[!DNL Data monitoring]**：監視データセットおよびストリームへの読み取り専用アクセス。</br>**[!DNL Manage datasets]**：データセットの読み取り、作成、編集、削除。スキーマへの読み取り専用アクセス</br>**[!DNL View datasets]**：データセットおよびスキーマに対する読み取り専用アクセス。 |
 | データモデリング | **[!DNL Manage identity metadata]**：スキーマの ID メタデータの読み取り、作成、編集および削除。</br> **[!DNL Manage relationships]**：スキーマ関係の読み取り、作成、編集、削除。</br>**[!DNL Manage schemas]**：エクスペリエンスデータモデル（XDM）スキーマの読み取り、作成、編集。</br>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。 |

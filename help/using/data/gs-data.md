@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: データ, 管理, プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 * **パージとアーカイブのメカニズム**：データのパージとアーカイブは、[!DNL Adobe Journey Optimizer] で自由に定義および自動化して、データ保持ポリシーを自動化できます。異なるデータエンティティに対して様々なエージング戦略を定義できます。また、古いデータをパージまたはアーカイブする前に自動的にエクスポートするように、エクスポートメカニズムを定義することもできます。
 
-  データハイジーンワークスペースを使用すると、様々なデータハイジーンタスク（消費者 ID の削除やデータセット有効期限のスケジュール設定など）を作成および監視できます。このワークスペースは、セキュリティとプライバシーのシールドとヘルスケアのシールドで利用できます。詳しくは、[このページ](../privacy/data-hygiene.md)を参照してください。
+  データライフサイクルワークスペースを使用すると、様々なデータライフサイクルタスク（消費者 ID の削除やデータセット有効期限のスケジュール設定など）を作成および監視できます。 このワークスペースは、セキュリティとプライバシーのシールドとヘルスケアのシールドで利用できます。詳しくは、[このページ](../privacy/data-hygiene.md)を参照してください。
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
