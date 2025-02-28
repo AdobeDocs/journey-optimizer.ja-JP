@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
-workflow-type: ht
-source-wordcount: '2390'
-ht-degree: 100%
+source-git-commit: 9fa5330d766aa6fb1998e668a08d769d3fd1b2cc
+workflow-type: tm+mt
+source-wordcount: '2388'
+ht-degree: 99%
 
 ---
 
@@ -301,7 +301,7 @@ ht-degree: 100%
         <td><a href="string.md#doesNotStartWith">次で始まらない</a></td><td>文字列の先頭が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">エンコード 64</a></td><td>文字列のエンコードまたはデコードに使用します。</td>
+        <td><a href="string.md#encode64">エンコード 64</a></td><td>文字列のエンコードに使用します。</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">次で終わる</a></td><td>文字列の末尾が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
