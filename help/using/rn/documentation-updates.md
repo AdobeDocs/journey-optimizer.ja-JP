@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a35b8005592aa84dc9a3ac674129064d012e3a56
+source-git-commit: c5873b9ec8cf8302e3af0598245facf571513925
 workflow-type: tm+mt
-source-wordcount: '6153'
+source-wordcount: '6164'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 97%
 
 ## 2025年2月 {#feb-2025}
 
+* Campaign アクティビティを使用する際のジャーニーガードレールが更新されました。 [詳細情報](../start/guardrails.md#ac-g)
 * 最初のジャーニーを作成する手順が詳しく説明され、ドキュメントへのリンクの節が追加されました。 [詳細情報](../building-journeys/journey-gs.md)
 * ジャーニーダッシュボードとフィルタリングユーザーインターフェイスの詳細を説明する新しいページが使用できるようになりました。 [詳細情報](../building-journeys/journey-ui.md)
 * **[!UICONTROL 送信時間の最適化]**&#x200B;に関するドキュメントと関連する FAQ が更新、改善され、新しい専用ページに移動されました。[詳細情報](../building-journeys/send-time-optimization.md)
