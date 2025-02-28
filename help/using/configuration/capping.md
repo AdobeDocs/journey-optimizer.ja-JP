@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 24e6d2baf3470df402550a031d26ba33887f4fb9
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 98%
 
 ---
 
@@ -153,6 +153,10 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 1. 削除、forceDelete パラメーターを使用
 
 ユースケース n°5：**既にデプロイされているキャッピング設定の更新**
+
+>[!NOTE]
+>
+>既にデプロイされている設定を更新する場合は、再デプロイする必要があります。
 
 1. list
 1. get
