@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
-workflow-type: ht
-source-wordcount: '1635'
-ht-degree: 100%
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+workflow-type: tm+mt
+source-wordcount: '1633'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >オーディエンスの参加ステータスが&#x200B;**適合**&#x200B;および&#x200B;**既存**&#x200B;の個人のみが、ジャーニーにエントリします。オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >オーディエンス参加の **実現** ステータスを持つ個人のみがジャーニーにエントリします。 オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 名前空間]**」フィールドで、個人の識別に使用する名前空間を選択します。デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。 [名前空間の詳細情報](../event/about-creating.md#select-the-namespace)。
 

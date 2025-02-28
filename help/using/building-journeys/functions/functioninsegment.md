@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment，関数，式，ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 97%
+source-wordcount: '183'
+ht-degree: 78%
 
 ---
 
@@ -26,13 +26,12 @@ ht-degree: 97%
 
 オーディエンスは [Adobe Experience Platform](https://platform.adobe.com/audience/overview) で定義されます。式エディターには、自動入力されたオーディエンスリストが表示されます。
 
-オーディエンスには次の 3 つのステータスがあります。
+オーディエンスには、次の 2 つのステータスがあります。
 
-* 既存：エンティティが引き続きオーディエンス内に存在します。
-* 適合：エンティティがオーディエンスにエントリします。
-* 離脱：エンティティがオーディエンスから離脱します。
+* 実現：エンティティがセグメント定義の対象になります。
+* 離脱：エンティティがセグメント定義から離脱します。
 
-オーディエンスの参加ステータスが「**適合**」および「**既存**」の個人のみが、オーディエンスのメンバーと見なされます。オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
+オーディエンス参加ステータスが **実現済み** の個人のみが、オーディエンスのメンバーと見なされます。 オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
 `IF inSegment('segmentName') == true` は、セグメントメンバーシップがエントリまたは既存のステータスになっていることを意味します。
 
