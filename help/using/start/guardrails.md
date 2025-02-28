@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * プロファイルストアのデータの場合は 90 日間。
 * データレイクのデータの場合は 13 か月。
 
-この変更は、次のフェーズで **既存の顧客サンドボックス** にロールアウトされます。 [ データセットの Time-To-Leave （TTL）ガードレールの詳細 ](../data/datasets-ttl.md)
+この変更は、次のフェーズで **既存の顧客サンドボックス** にロールアウトされます。 [ データセットの有効期間（TTL）ガードレールの詳細 ](../data/datasets-ttl.md)
 
 ## チャネルガードレール {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 次のガードレールは、**[!UICONTROL Campaign v7/v8]** および **[!UICONTROL Campaign Standard]** アクティビティに適用されます。
 
 * Adobe Campaign アクティビティは、「オーディエンスを読み取り」アクティビティや「オーディエンスの選定」アクティビティと併用できません。
-* これらのアクティビティは、「アプリ内」アクティビティと併用できません。
+* Campaign アクティビティは、他のチャネルアクティビティ（カード、コードベースのエクスペリエンス、メール、プッシュ、SMS、アプリ内メッセージ、web）と一緒には使用できません。
