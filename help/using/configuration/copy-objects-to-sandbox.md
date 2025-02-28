@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 98%
+source-wordcount: '1042'
+ht-degree: 97%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 98%
 
 1. パッケージとして書き出すオブジェクトをソースサンドボックスに追加します。
 1. パッケージをターゲットサンドボックスに書き出します。
-
-また、Journey Optimizer の **Object Copy Service REST API** を活用すると、サンドボックスのオブジェクトを管理できます。[Object Copy Service REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 書き出したオブジェクトとベストプラクティス {#objects}
 
