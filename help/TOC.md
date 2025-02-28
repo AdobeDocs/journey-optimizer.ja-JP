@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 92%
+source-wordcount: '2187'
+ht-degree: 91%
 
 ---
 
@@ -455,24 +455,26 @@ ht-degree: 92%
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + [意思決定のガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
       + API リファレンス{#api-reference}
-         + 決定項目{#decision-items}
-            + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + 項目コレクション{#items-collections}
-            + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
-         + 選択戦略{#selection-strategies}
-            + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + オファー項目の作成と管理 {#create-manage}
+            + 決定項目{#decision-items}
+               + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
+               + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+               + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
+               + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+               + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
+            + 項目コレクション{#items-collections}
+               + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
+               + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
+               + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+               + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
+               + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
+            + 選択戦略{#selection-strategies}
+               + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
+               + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+               + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+               + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+               + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + [コードベースのエクスペリエンスチャネルを使用したオファーの配信](using/experience-decisioning/api-reference/deliver.md)
       + 決定項目の管理 {#decision-items}
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
          + [決定項目の作成](using/experience-decisioning/items.md)
