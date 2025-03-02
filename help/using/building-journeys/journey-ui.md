@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 73%
@@ -68,7 +68,7 @@ ht-degree: 73%
 
 * **[!UICONTROL 単一イベント]** – 単一イベントジャーニーは、特定のプロファイルにリンクされます。 イベントは、人物の行動や、人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）に関連しています。 [詳細情報](../event/about-events.md)
 * **[!UICONTROL ビジネスイベント]**。 ビジネスイベントジャーニーは、プロファイルに関連しないイベントで開始します。 イベントの設定は技術ユーザーが実行し、編集できません。 [詳細情報](../event/about-events.md)
-* **[!UICONTROL オーディエンスの選定]** - オーディエンスの選定ジャーニーは、個人をジャーニーにエントリさせたり、ジャーニーを進行させたりするために、Adobe Experience Platform オーディエンスでプロファイルのエントリや離脱をリッスンします。 [詳細情報](audience-qualification-events.md)
+* **[!UICONTROL オーディエンスの選定]** - オーディエンスの選定ジャーニーは、個人をジャーニーにエントリさせたり、ジャーニーを進めたりするために、Adobe Experience Platform オーディエンスのプロファイルのエントリや離脱をリッスンします。 [詳細情報](audience-qualification-events.md)
 * **[!UICONTROL オーディエンスを読み取り]** - オーディエンスを読み取りジャーニーでは、オーディエンス内のすべての個人がジャーニーにエントリし、ジャーニーに含まれるメッセージを受け取ります。  [詳細情報](read-audience.md)
 
 
