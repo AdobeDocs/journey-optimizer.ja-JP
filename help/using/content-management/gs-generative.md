@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 75%
+ht-degree: 82%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Journey Optimizerの AI アシスタント"
->abstract="配信を作成してパーソナライズしたら、Journey Optimizerの AI アシスタントを使用してコンテンツを強化できます。 この機能により、何を生成するかを記述することで、コンテンツを微調整できるので、パーソナライゼーションとコンテンツの改善のプロセスが簡素化されます。"
+>title="Journey Optimizer の AI アシスタント"
+>abstract="配信を作成してパーソナライズしたら、Journey Optimizer で AI アシスタントを使用してコンテンツを強化できます。この機能により、何を生成するかを記述することで、コンテンツを微調整できるので、パーソナライゼーションとコンテンツの改善のプロセスが簡素化されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="ブランドアセットをアップロード"
->abstract="「ブランドアセットをアップロード」メニューを使用すると、Journey Optimizerの AI アシスタントのコンテキストを追加できるコンテンツを含んだ任意のブランドアセットを追加したり、以前にアップロードしたアセットを選択したりできます。 このオプションにより、AI アシスタントは機能と関連性を高めるために必要なすべての資料にアクセスできます。"
+>abstract="ブランドアセットをアップロードメニューを使用すると、Journey Optimizer の AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択することができます。このオプションにより、AI アシスタントは機能と関連性を高めるために必要なすべての資料にアクセスできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
