@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 24%
+source-wordcount: '445'
+ht-degree: 21%
 
 ---
 
 # ブランドの作成と管理 {#brands}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_overview"
+>title="ブランド"
+>abstract="独自のブランドを作成およびカスタマイズして、独自の視覚的および言語的アイデンティティを定義すると同時に、ブランドのスタイルや声に合ったコンテンツを簡単に生成できるようにします。"
 
 >[!AVAILABILITY]
 >
@@ -56,6 +61,11 @@ In [!DNL Journey Optimizer], you now have the option to manually input and organ
 +++
 
 ## ブランドを作成 {#create-brand-kit}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_create"
+>title="ブランドを作成"
+>abstract="ブランド名を入力し、ブランドガイドラインファイルをアップロードします。 このツールは重要な詳細を自動的に抽出するので、ブランドのアイデンティティを維持しやすくなります。"
 
 ブランドガイドラインを作成および管理するには、次の手順に従います。
 
