@@ -3,26 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: カスタムアクションのトラブルシューティング
 description: カスタムアクションのトラブルシューティング方法を学ぶ
-badge: label="限定提供"
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
 # カスタムアクションのトラブルシューティング {#troubleshoot-a-custom-action}
-
->[!AVAILABILITY]
->
->この機能は、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
->
 
 Journey Optimizer ユーザーインターフェイスの管理セクションから API 呼び出しを送信することで、カスタムアクションをテストできます。 この機能は、ジャーニーでカスタムアクションを使用する前または後にカスタムアクションのトラブルシューティングを行うのに役立ちます。
 

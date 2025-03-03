@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '6180'
+source-wordcount: '6193'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 96%
 ## 2025年3月 {#mar-2025}
 
 * オーディエンスの選定イベントに関するページが更新され、新しい推奨事項が追加されました。 [詳細情報](../building-journeys/audience-qualification-events.md)
+* カスタムアクションのトラブルシューティング機能を、すべてのお客様が利用できるようになりました（GA）。 [詳細情報](../action/troubleshoot-custom-action.md)
 
 ## 2025年2月 {#feb-2025}
 
