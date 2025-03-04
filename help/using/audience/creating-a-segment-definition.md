@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -129,8 +129,7 @@ Adobe Experience Platform オーディエンスポータルを使用すると、
 
 1. 最新のデータに基づいて、新しいセグメントを作成する。
 1. 精度を確保することを目的に、オーディエンスをリアルタイムで評価する。これを行うには、評価するオーディエンスを選択し、特定の条件（人物ベース、セグメント化サービスのオリジンなど）を満たしている場合は、「オーディエンスを評価」を選択します。
-1. 正確なターゲティングを行う目的で、Adobe Journey Optimizer 
-キャンペーンまたはジャーニーで評価されたオーディエンスを使用する。
+1. 正確なターゲティングのために、評価済みのオーディエンスをAdobe Journey Optimizer キャンペーンまたはジャーニーで使用します。
 
 一度に最大 20 個のオーディエンスを評価でき、不適格なオーディエンスは自動的に除外されます。詳しくは、[オーディエンスポータルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)を参照してください。
 
