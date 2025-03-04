@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 30%
+source-wordcount: '655'
+ht-degree: 27%
 
 ---
 
@@ -46,13 +46,6 @@ ht-degree: 30%
 | 決定オブジェクトリポジトリ - プレースメント | 13 ヶ月 | 該当なし |
 | 決定オブジェクトリポジトリ - アクティビティ | 13 ヶ月 | 該当なし |
 | ODE DecisionEvents - 製品決定 | 13 ヶ月 | 該当なし |
-| AJO 同意サービスデータセット | 該当なし | 90 日 |
-| AJO インタラクティブメッセージプロファイルデータセット | 該当なし | 90 日 |
-| AJO プロファイルカウンター拡張機能 | 該当なし | 90 日 |
-| AJO プッシュプロファイルデータセット | 該当なし | 90 日 |
-| AJO エンゲージメント可能なプロファイルデータセット | 該当なし | 90 日 |
-
-
 
 ## よくある質問 {#faq}
 
