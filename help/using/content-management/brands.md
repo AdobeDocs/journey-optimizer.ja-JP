@@ -8,19 +8,30 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
+source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 21%
+source-wordcount: '497'
+ht-degree: 19%
 
 ---
 
 # ブランドの作成と管理 {#brands}
 
 >[!CONTEXTUALHELP]
->id="ajo_brands_overview"
->title="ブランド"
+>id="ajo_brand_overview"
+>title="ブランドの基本を学ぶ"
 >abstract="独自のブランドを作成およびカスタマイズして、独自の視覚的および言語的アイデンティティを定義すると同時に、ブランドのスタイルや声に合ったコンテンツを簡単に生成できるようにします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_ai_menu"
+>title="ブランドを選択"
+>abstract="ブランドを選択して、AI で生成されたすべてのコンテンツがブランドの仕様とガイドラインに合わせて調整されるようにします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_score"
+>title="ブランド調整スコア"
+>abstract="ブランドの調整スコアは、AI で生成されたコンテンツがブランドのガイドラインにどれだけ準拠しているかを測定し、色、フォント、ロゴ、画像、書き方の一貫性を確保します。"
+
 
 >[!AVAILABILITY]
 >
