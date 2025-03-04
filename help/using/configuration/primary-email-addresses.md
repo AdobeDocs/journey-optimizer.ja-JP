@@ -9,8 +9,8 @@ role: Admin
 level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
-workflow-type: ht
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -70,6 +70,11 @@ ht-degree: 100%
 
 特定のユースケースでは、グローバルに設定された実行フィールドを上書きし、メール設定レベルまたはジャーニーレベルで異なる値を定義できます。
 
+この値の上書きは、例えば次のような場合に便利です。
+
+* メールのテスト。自分のメールアドレスを追加できる：ジャーニーを公開するとメールが届きます。
+* リストのサブスクライバーにメールを送信します。詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
+
 ### メール設定内
 
 メールチャネル設定を定義する際に、[一般設定](#admin-settings)で設定されたデフォルトの実行フィールドを変更できます。[詳細情報](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ ht-degree: 100%
 >
 >メールアドレスの上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。
 
-この値の上書きは、例えば次のような場合に便利です。
-
-* メールのテスト。自分のメールアドレスを追加できる：ジャーニーを公開するとメールが届きます。
-* リストのサブスクライバーにメールを送信します。詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
 
