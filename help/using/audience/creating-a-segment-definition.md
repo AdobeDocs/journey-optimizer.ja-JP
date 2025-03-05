@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 81%
+source-wordcount: '1041'
+ht-degree: 79%
 
 ---
 
@@ -93,7 +93,9 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 オーディエンスのプロファイルリストが 24 時間ごとに評価されます。
 
-バッチセグメント化は、ストリーミングセグメント化の代わりに使用でき、セグメント定義を通じてすべてのプロファイルデータを一度に処理します。 これにより、オーディエンスのスナップショットが作成され、保存して使用するために書き出すことができます。 ただし、ストリーミングセグメント化とは異なり、バッチセグメント化ではオーディエンスリストがリアルタイムで継続的に更新されることはなく、バッチ処理後に取り込まれる新しいデータは次のバッチ処理までオーディエンスに反映されません。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメントを参照してください ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch){target="_blank"}
+バッチセグメント化は、ストリーミングセグメント化の代わりに使用でき、セグメント定義を通じてすべてのプロファイルデータを一度に処理します。 これにより、オーディエンスのスナップショットが作成され、保存して使用するために書き出すことができます。 ただし、ストリーミングセグメント化とは異なり、バッチセグメント化ではオーディエンスリストがリアルタイムで継続的に更新されることはなく、バッチ処理後に取り込まれる新しいデータは次のバッチ処理までオーディエンスに反映されません。即時更新を強制しようとしても、毎日のサイクルは上書きされません。 増分更新を即座に行う場合は、ストリーミングまたはオンデマンドのセグメント化オプションの使用を検討してください。
+
+詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメントを参照してください ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch){target="_blank"}
 
 +++
 

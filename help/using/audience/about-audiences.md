@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 87%
 
 ---
 
@@ -60,7 +60,13 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 
 オーディエンスは、様々な方法で生成できます。
 
-* **セグメントの定義**：Adobe Experience Platform セグメント化サービスを使用して、新しいオーディエンス定義を作成します。[詳しくは、セグメント定義の作成方法を参照してください](creating-a-segment-definition.md)
+* **セグメントの定義**：Adobe Experience Platform セグメント化サービスを使用して、新しいオーディエンス定義を作成します。オーディエンスは、セグメント定義から生成され、評価タイプに応じて様々なタイミングで更新されます。
+
+   * ストリーミングセグメント化：新しいデータが流入すると、オーディエンスがリアルタイムで更新されるので、ユーザーアクティビティに基づいて継続的に関連性を保つことができます。
+   * バッチセグメント化：オーディエンスは 24 時間ごとに更新され、一定の間隔でプロファイルのスナップショットが取得されます。
+   * Edgeのセグメント化：オーディエンスはエッジ上で即座に評価され、リアルタイムのパーソナライゼーションが可能になります。
+
+[詳しくは、セグメント定義の作成方法を参照してください](creating-a-segment-definition.md)
 
 * **カスタムアップロード**：CSV ファイルを使用してオーディエンスを読み込みます。[詳しくは、カスタムアップロードオーディエンスの作成方法を参照してください](custom-upload.md)
 
