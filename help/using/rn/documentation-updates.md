@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 96%
 
 ## 2025年2月 {#feb-2025}
 
+* 「オーディエンスを読み取り」アクティビティのガードレールが更新され、1 つのジャーニーで使用できるアクティビティと、ターゲットにできるオーディエンスが 1 つのみであることが指定されました。 [詳細情報](../building-journeys/read-audience.md)
 * Campaign アクティビティを使用する際のジャーニーガードレールが更新されました。 [詳細情報](../start/guardrails.md#ac-g)
 * 最初のジャーニーを作成する手順が詳しく説明され、ドキュメントへのリンクの節が追加されました。 [詳細情報](../building-journeys/journey-gs.md)
 * ジャーニーダッシュボードとフィルタリングユーザーインターフェイスの詳細を説明する新しいページが使用できるようになりました。 [詳細情報](../building-journeys/journey-ui.md)
