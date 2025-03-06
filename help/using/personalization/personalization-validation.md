@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 検証, エラー, パーソナライゼーション
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
+source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -24,11 +24,13 @@ ht-degree: 100%
 
 >[!NOTE]
 > 「**追加**」をクリックしてエディターウィンドウを閉じると、検証が自動的に実行されます。
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > パーソナライゼーション構文が無効な場合、パーソナライゼーションエディターウィンドウを閉じることはできません。
+>
 
 ## 一般的なエラー {#common-errors}
 
