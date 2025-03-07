@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
-workflow-type: ht
-source-wordcount: '1235'
-ht-degree: 100%
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 96%
 
 ---
 
@@ -166,6 +166,10 @@ ht-degree: 100%
 ![](assets/create-campaign-schedule.png)
 
 メール、SMS、プッシュ通知の各キャンペーンでは、キャンペーンのメッセージを送信する頻度を定義できます。これを行うには、キャンペーン作成画面にある「**[!UICONTROL アクショントリガー]**」オプションを使用して、キャンペーンの実行頻度を日単位、週単位または月単位のいずれにするかを指定します。
+
+>[!NOTE]
+>
+>[!DNL Adobe Journey Optimizer] でキャンペーンをスケジュールする場合は、開始日時が目的の最初の配信に合っていることを確認します。 繰り返しキャンペーンの場合、最初のスケジュール時間が既に過ぎている場合、キャンペーンは、繰り返しルールに従って、次に使用可能な時間枠にロールオーバーされます。
 
 ## その他の設定 {#settings}
 
