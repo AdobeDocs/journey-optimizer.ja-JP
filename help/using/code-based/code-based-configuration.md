@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
+source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 98%
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 [エクスペリエンスの構築](create-code-based.md)の前に、アプリケーション内でコンテンツを配信する場所と使用する場所を定義する、コードベースのエクスペリエンス設定を作成する必要があります。
 
-コードベースのエクスペリエンス設定では、サーフェス（基本的には変更をレンダリングする場所）を参照する必要があります。選択したプラットフォームに応じて、場所／パスまたはフルサーフェス URI を入力する必要があります。[詳細情報](#surface-definition)
+コードベースのエクスペリエンス設定では、サーフェス（基本的には変更をレンダリングする場所）を参照する必要があります。選択したプラットフォームに応じて、場所／パスまたはフルサーフェス URI を入力する必要があります。[詳細情報](code-based-surface.md)
 
 ## コードベースのエクスペリエンス設定を作成 {#create-code-based-configuration}
 
