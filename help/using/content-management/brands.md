@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
+source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 16%
+source-wordcount: '618'
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 16%
 >abstract="ブランドを選択して、AI で生成されたすべてのコンテンツがブランドの仕様とガイドラインに合わせて調整されるようにします。"
 
 >[!CONTEXTUALHELP]
+>id="ajo_brand_score_overview"
+>title="ブランドの選択"
+>abstract="ブランドを選択して、コンテンツが特定のガイドライン、標準および ID に従って作成され、一貫性とブランドの整合性が維持されるようにします。"
+
+>[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="ブランド調整スコア"
->abstract="ブランドの調整スコアは、AI で生成されたコンテンツがブランドのガイドラインにどれだけ準拠しているかを測定し、色、フォント、ロゴ、画像、書き方の一貫性を確保します。"
+>abstract="ブランドの調整スコアは、コンテンツがブランドのガイドラインにどれだけ準拠しているかを測定し、色、フォント、ロゴ、画像、書き方の一貫性を確保します。"
 
 
 >[!AVAILABILITY]
