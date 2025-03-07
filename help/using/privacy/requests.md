@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 45%
 
 ---
@@ -69,7 +69,7 @@ Adobe Journey Optimizer のデータへのアクセスと削除をリクエス�
 
 >[!IMPORTANT]
 >
->プライバシーリクエストを送信する際は、アクセスまたは削除する必要があるプロファイルデータに関連付けられたターゲットの製品名および **すべての ID 名前空間** 例えば、「メール」、「ECID」、「ロイヤルティ ID」）を&#39;[!DNL '**Adobe Journey Optimizer**]&#39;として指定していることを確認してください。 特に、削除リクエストの場合、製品名と適用可能なすべての名前空間を明示的に含めないと、データは [!DNL Adobe Journey Optimizer] に残ります。
+>プライバシーリクエストを送信する際は、アクセスまたは削除する必要があるプロファイルデータに関連付けられたターゲットの製品名および **すべての ID 名前空間** 例えば、「メール」、「ECID」、「ロイヤルティ ID」）を&#39;[!DNL '**Adobe Journey Optimizer**]&#39;として指定していることを確認してください。 特に、削除リクエストの場合、製品名と適用可能なすべての名前空間を明示的に含めないと、データは [!DNL Adobe Journey Optimizer] から削除されません。
 
 ### API リクエストのJourney Optimizerの必須フィールド値
 
