@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
+source-git-commit: 5d51554d9d18f517e1ca3a3d02592a45f341110c
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 99%
 
 ---
 
@@ -61,11 +61,7 @@ ht-degree: 100%
 
 1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md)
 
-1. 実施するキャンペーンのタイプを選択します。
-
-   * **[!UICONTROL Scheduled - Marketing]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行します。
-
-   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照してください](../campaigns/api-triggered-campaigns.md)
+1. **スケジュール型 – マーケティング** キャンペーンタイプを選択します。
 
 1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、キャンペーンを作成する手順を完了します。キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
