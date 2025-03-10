@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1198'
 ht-degree: 69%
 
 ---
 
-# リンクの追加とメッセージの追跡 {#tracking}
+# リンクの追加とメッセージのトラッキング {#tracking}
 
 [!DNL Journey Optimizer] を使用すると、受信者の行動を監視するために、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることができます。
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizerで生成されるミラーページには、すべての
 
 1. リンクが挿入された&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントで、リンクを選択します。
 
-1. 「**[!UICONTROL 設定]**」タブで、「**[!UICONTROL ターゲット]**」ドロップダウンでリンクを開く場所を選択します。
+1. 「**[!UICONTROL 設定]**」タブで、「**[!UICONTROL ターゲット]**」ドロップダウンでリンクを開く場所を選択します。 使用可能な値を次に示します。
 
    * **[!UICONTROL なし]**：クリックしたフレームと同じフレームでリンクを開きます（デフォルト）。
    * **[!UICONTROL 空白]**：リンクを新しいウィンドウまたは新しいタブで開きます。
