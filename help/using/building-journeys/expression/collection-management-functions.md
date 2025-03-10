@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
-workflow-type: ht
+source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
+workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 また、式言語にも、コレクションをクエリするための一連の関数が導入されています。
 
-これらの関数について以下で説明します。次の例では、コレクションを含むイベントペイロードを使用します。
+これらの関数について以下で説明します。次の例では、コレクションを含んだイベントペイロードを使用します。
 
 ```json
                 { 
