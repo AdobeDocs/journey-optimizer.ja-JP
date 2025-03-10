@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 Adobe Experience Manager as a Cloud Serviceの Dynamic Media について詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media) を参照してください。
 
-## Dynamic Media の追加と管理
+## Dynamic Media の追加と管理 {#dynamic-media}
 
 Adobe Experience Manager as a Cloud Serviceから Dynamic Media をJourney Optimizer コンテンツに直接挿入することで、あらゆる画面やブラウザーに対してコンテンツを強化および最適化します。  その後、必要に応じてサイズ変更、切り抜き、拡大およびその他の調整を行うことができます。
 
@@ -55,7 +55,7 @@ Adobe Experience Manager as a Cloud Serviceから Dynamic Media をJourney Optim
 
 コンテンツに dynamic media が含まれるようになりました。 Experience Managerで行った更新は、Journey Optimizerに自動的に表示されます。
 
-## テキストオーバーレイをパーソナライズ
+## テキストオーバーレイをパーソナライズ {#text-overlay}
 
 既存のテキストオーバーレイを選択した新しいテキストに置き換えることで、Dynamic Media を簡単にカスタマイズし、シームレスな更新とパーソナライゼーションを可能にします。
 
@@ -96,13 +96,13 @@ Adobe Experience Manager as a Cloud Serviceから Dynamic Media をJourney Optim
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Dynamic Media テンプレートの追加と管理
+## Dynamic Media テンプレートの追加と管理 {#dynamic-media-template}
 
 Journey Optimizerで Dynamic Media テンプレートを簡単に追加し、必要に応じてメディアコンテンツを更新できます。 パーソナライゼーションフィールドをメディアに組み込むことができるようになり、Journey Optimizer内で、よりカスタマイズされた魅力的なコンテンツを作成できるようになりました。
 
 詳しくは、[Dynamic Media テンプレート ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics) を参照してください。
 
-### 画像コンポーネントを使用
+### 画像コンポーネントを使用 {#image-component}
 
 画像コンポーネントを使用して、動的テンプレートをコンテンツに直接挿入できます。
 
@@ -136,7 +136,7 @@ Journey Optimizerで Dynamic Media テンプレートを簡単に追加し、必
 
 テストを実行し、コンテンツを検証したら、メッセージをオーディエンスに送信できます。
 
-### HTML コンポーネントの使用
+### HTML コンポーネントの使用 {#html-component}
 
 HTML コンポーネントを使用して、動的テンプレートをコンテンツに直接挿入できます。
 
