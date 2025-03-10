@@ -5,10 +5,10 @@ title: 複数手順キャンペーンの基本を学ぶ
 description: 複数手順キャンペーンの開始方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 27%
+source-wordcount: '419'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,12 @@ ht-degree: 27%
 
 **目次**
 
-* 複数手順キャンペーンの基本を学ぶ
-* [主な原則](gs-campaign-creation.md)
-* [ガードレールと制限](guardrails.md)
-* [キャンペーンの作成](create-ms-campaign.md)
-* [アクティビティを調整](orchestrate-activities.md)
-* [キャンペーン設定を指定](ms-campaign-settings.md)
+* [ 主な原則 ](gs-campaign-creation.md) - [ ガードレールと制限 ](guardrails.md)
+* [ キャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定を指定 ](ms-campaign-settings.md)
 * [キャンペーンの開始と監視](start-monitor-campaigns.md)
-* [複数手順キャンペーンのイベント変数](event-variables.md)
-* 複数ステップのキャンペーンアクティビティの操作
-   * [アクティビティの概要](activities/about-activities.md)
-   * アクティビティのリスト：[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) オーディエンスの保存
+* [イベント変数](event-variables.md)
+* [ アクティビティの基本を学ぶ ](activities/about-activities.md) - [ アクティビティの調整 ](orchestrate-activities.md)
+* アクティビティのリスト：[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) オーディエンスの保存
 
 >[!ENDSHADEBOX]
 
