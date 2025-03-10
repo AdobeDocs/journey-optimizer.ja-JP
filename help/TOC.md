@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 96%
+source-wordcount: '2266'
+ht-degree: 95%
 
 ---
 
@@ -359,15 +359,11 @@ ht-degree: 96%
          + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
    + パーソナライズ機能 {#personalization}
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
-      + [パーソナライゼーションのコンテキスト](using/personalization/personalization-contexts.md)
+      + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-      + [Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）](using/personalization/lookup-aep-data.md)
-      + パーソナライゼーションエディターの操作 {#expression-editor}
-         + [パーソナライゼーションエディターについて](using/personalization/personalization-build-expressions.md)
-         + [お気に入りに属性を追加](using/personalization/personalization-favorites.md)
-         + [式フラグメントを使用](using/personalization/use-expression-fragments.md)
-         + [パーソナライゼーションの検証](using/personalization/personalization-validation.md)
-      + ヘルパー関数{#functions}
+      + [ 式フラグメントの再利用 ](using/personalization/use-expression-fragments.md)
+      + [Adobe Experience Platform データをパーソナライゼーションに使用（Beta） ](using/personalization/lookup-aep-data.md)
+      + ヘルパー関数のリスト {#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
