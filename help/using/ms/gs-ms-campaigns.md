@@ -5,56 +5,40 @@ title: 複数手順キャンペーンの基本を学ぶ
 description: 複数手順キャンペーンの開始方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 32%
+source-wordcount: '434'
+ht-degree: 27%
 
 ---
 
 
 # 複数手順キャンペーンの基本を学ぶ {#ms-camp}
 
+複数ステップのキャンペーンは、ブランド主導の堅牢なバッチキャンペーン機能を導入することでAdobe Journey Optimizerを強化し、高度なセグメント化戦略を使用してクロスチャネルキャンペーンの計画と調整を行えるようにします。
 
 >[!BEGINSHADEBOX]
 
-**この節**
+**目次**
 
-* 最初の複数手順キャンペーンを作成して実行します
-   * [主な原則](gs-campaign-creation.md)
-   * [ガードレールと制限](guardrails.md)
-   * [キャンペーンの作成](create-ms-campaign.md)
-   * [アクティビティを調整](orchestrate-activities.md)
-   * [キャンペーン設定を指定](ms-campaign-settings.md)
-   * [キャンペーンの開始と監視](start-monitor-campaigns.md)
-   * [複数手順キャンペーンのイベント変数](event-variables.md)
+* 複数手順キャンペーンの基本を学ぶ
+* [主な原則](gs-campaign-creation.md)
+* [ガードレールと制限](guardrails.md)
+* [キャンペーンの作成](create-ms-campaign.md)
+* [アクティビティを調整](orchestrate-activities.md)
+* [キャンペーン設定を指定](ms-campaign-settings.md)
+* [キャンペーンの開始と監視](start-monitor-campaigns.md)
+* [複数手順キャンペーンのイベント変数](event-variables.md)
 * 複数ステップのキャンペーンアクティビティの操作
-   * [複数ステップのキャンペーンアクティビティについて](activities/about-activities.md)
-   * [AND 結合](activities/and-join.md)
-   * [オーディエンスを作成](activities/build-audience.md)
-   * [ディメンションを変更](activities/change-dimension.md)
-   * [結合](activities/combine.md)
-   * [重複の除外](activities/deduplication.md)
-   * [チャネルアクション](activities/channels.md)
-   * [エンリッチメント](activities/enrichment.md)
-   * [分岐](activities/fork.md)
-   * [ファイルを読み込み](activities/load-file.md)
-   * [紐付け](activities/reconciliation.md)
-   * [オーディエンスを保存](activities/save-audience.md)
-   * [スケジューラー](activities/scheduler.md)
-   * [分割](activities/split.md)
-   * [テスト](activities/test.md)
-   * [データを更新](activities/update-data.md)
-   * [待機](activities/wait.md)
+   * [アクティビティの概要](activities/about-activities.md)
+   * アクティビティのリスト：[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) オーディエンスの保存
 
 >[!ENDSHADEBOX]
 
 
 ## 複数手順キャンペーンとは
 
-クロスチャネルマーケティングは、顧客に効果的にリーチすることを目指すあらゆるビジネスにとって不可欠です。Adobe Journey Optimizerは、マーケティングキャンペーンを簡単に管理するのに役立つ複雑なプロセスを設定できる包括的なグラフィカル環境を提供します。
-
-複数ステップのキャンペーンを使用すると、あらゆるプロセスとタスクを調整し、セグメントの作成やメッセージの準備から配信に至るまでの、マーケティングキャンペーンのあらゆる側面でスピードと規模を改善できます。 さらに、キャンペーンオーケストレーション用の使いやすい単一のインターフェイスでチャネルを同期させることができます。
+クロスチャネルマーケティングは、顧客に効果的にリーチすることを目指すあらゆるビジネスにとって不可欠です。Adobe Journey Optimizerは、マーケティングキャンペーンを簡単に管理するのに役立つ複雑なプロセスを設定できる包括的なグラフィカル環境を提供します。 複数ステップのキャンペーンを使用すると、あらゆるプロセスとタスクを調整し、セグメントの作成やメッセージの準備から配信に至るまでの、マーケティングキャンペーンのあらゆる側面でスピードと規模を改善できます。 さらに、キャンペーンオーケストレーション用の使いやすい単一のインターフェイスでチャネルを同期させることができます。
 
 マルチステップキャンペーンの最も大きな利点の 1 つは、あらゆるチャネルにわたってパーソナライズされたコンテンツを簡単に顧客に配信できる点です。 顧客がメールやモバイルでのメッセージの受信を好む場合でも、Adobe Journey Optimizerでは、あらゆるチャネルで一貫したコンテキストに沿ったエクスペリエンスを提供し、すべての顧客のジャーニーを独自のエクスペリエンスに変換できます。
 
