@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 167d42f51bd76d42118b340fe6a1f41962ef9c51
+source-git-commit: b7cd42f89ea6fb4c0359b2be6c75202d5e1ea001
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
@@ -27,8 +27,7 @@ ht-degree: 100%
 >id="ajo_create_expression_fragment"
 >title="式タイプの選択"
 >abstract="スタンドアロン式のフラグメントを作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。パーソナライゼーションエディターを使用すると、現在のサンドボックスで作成されたすべての式フラグメントを活用できます。"
-<!--
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
+
 
 フラグメントは、左側のメニューの&#x200B;**[!UICONTROL フラグメント]**&#x200B;からゼロから作成できます。さらに、コンテンツをデザインする際に、既存のコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](#save-as-fragment)
 
