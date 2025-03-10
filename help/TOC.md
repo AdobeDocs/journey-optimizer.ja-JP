@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 91%
+source-wordcount: '2251'
+ht-degree: 90%
 
 ---
 
@@ -170,7 +170,35 @@ ht-degree: 91%
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションを使用してスループットを制限する](using/building-journeys/limit-throughput.md)
          + [カスタムアクションを使用したExperience Platformでのジャーニーイベントの記述](using/building-journeys/custom-action-aep.md)
-+ キャンペーン{#campaigns}
++ マルチステップキャンペーン {#ms-campaigns}
+   + [複数手順キャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
+   + 最初の複数手順キャンペーン {#create-ms-campaign} ールの作成
+      + [主な原則](using/ms/gs-campaign-creation.md)
+      + [ガードレールと制限](using/ms/guardrails.md)
+      + [キャンペーンの作成](using/ms/create-ms-campaign.md)
+      + [アクティビティを調整](using/ms/orchestrate-activities.md)
+      + [キャンペーン設定を指定](using/ms/ms-campaign-settings.md)
+      + [キャンペーンの開始と監視](using/ms/start-monitor-campaigns.md)
+      + [複数手順キャンペーンのイベント変数](using/ms/event-variables.md)
+   + での複数手順のキャンペーンアクティビティ {#design-campaigns}
+      + [複数ステップのキャンペーンアクティビティについて](using/ms/activities/about-activities.md)
+      + [AND 結合](using/ms/activities/and-join.md)
+      + [オーディエンスを作成](using/ms/activities/build-audience.md)
+      + [ディメンションを変更](using/ms/activities/change-dimension.md)
+      + [結合](using/ms/activities/combine.md)
+      + [重複の除外](using/ms/activities/deduplication.md)
+      + [チャネルアクション](using/ms/activities/channels.md)
+      + [エンリッチメント](using/ms/activities/enrichment.md)
+      + [分岐](using/ms/activities/fork.md)
+      + [ファイルを読み込み](using/ms/activities/load-file.md)
+      + [紐付け](using/ms/activities/reconciliation.md)
+      + [オーディエンスを保存](using/ms/activities/save-audience.md)
+      + [スケジューラー](using/ms/activities/scheduler.md)
+      + [分割](using/ms/activities/split.md)
+      + [テスト](using/ms/activities/test.md)
+      + [データを更新](using/ms/activities/update-data.md)
+      + [待機](using/ms/activities/wait.md)
++ キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
    + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
