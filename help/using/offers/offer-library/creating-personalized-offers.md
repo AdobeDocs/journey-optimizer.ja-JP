@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: f30b7c72e98d3676be0885162101c1e9a5eedeaf
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="オファーの詳細"
->abstract="オファーの名前、開始日および終了日を入力します。 これらの日付以外では、オファーは Offer Decisioning エンジンによって選択されません。"
+>abstract="オファーの名前、開始日および終了日を入力します。これらの日付以外では、オファーは決定エンジンによって選択されません。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -60,7 +60,7 @@ ht-degree: 98%
 
    ![](../assets/create_offer.png)
 
-1. オファーの名前とともに開始日時と終了日時を指定します。これらの日付以外では、オファーは Offer Decisioning エンジンによって選択されません。
+1. オファーの名前とともに開始日時と終了日時を指定します。これらの日付以外では、オファーは決定エンジンによって選択されません。
 
    >[!NOTE]
    >
