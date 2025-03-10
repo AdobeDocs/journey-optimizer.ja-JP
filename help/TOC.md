@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
+source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
 workflow-type: tm+mt
-source-wordcount: '2251'
-ht-degree: 90%
+source-wordcount: '2285'
+ht-degree: 96%
 
 ---
 
@@ -168,8 +168,8 @@ ht-degree: 90%
       + テクニカルユースケース{#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [外部データソースとカスタムアクションを使用してスループットを制限する](using/building-journeys/limit-throughput.md)
-         + [カスタムアクションを使用したExperience Platformでのジャーニーイベントの記述](using/building-journeys/custom-action-aep.md)
+         + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
+         + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + マルチステップキャンペーン {#ms-campaigns}
    + [複数手順キャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
    + 最初の複数手順キャンペーン {#create-ms-campaign} ールの作成
@@ -238,14 +238,14 @@ ht-degree: 90%
          + コンテンツのデザイン {#add-content}
             + [コンテンツコンポーネントの使用](using/email/content-components.md)
             + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
-            + [リンクの追加とメッセージの追跡](using/email/message-tracking.md)
+            + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
             + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
             + [テキストバージョンの生成](using/email/text-version-email.md)
             + [プリヘッダーを追加](using/email/preheader.md)
          + スタイルの編集 {#edit-style}
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)
-            + [垂直方向の整列とパディングを調整](using/email/alignment-and-padding.md)
+            + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
             + [インラインのスタイル属性の追加](using/email/inline-styling.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
@@ -261,7 +261,7 @@ ht-degree: 90%
       + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
       + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
       + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
-      + [アプリ内通知の確認と送信](using/in-app/send-in-app.md)
+      + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
    + プッシュ通知チャネル{#push}
       + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
       + [プッシュ通知の作成](using/push/create-push.md)
@@ -274,7 +274,7 @@ ht-degree: 90%
    + SMS／MMS チャネル{#sms}
       + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
       + [テキストメッセージ（SMS／MMS）の作成](using/sms/create-sms.md)
-      + [テキストメッセージの確認と送信](using/sms/send-sms.md)
+      + [テキストメッセージの確認および送信](using/sms/send-sms.md)
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
       + SMS／MMS チャネルの設定{#configure-sms}
@@ -310,7 +310,7 @@ ht-degree: 90%
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
       + コードベースのエクスペリエンスの作成 {#create-code-based-experiences}
-         + [コードベースのエクスペリエンスの作成](using/code-based/create-code-based.md)
+         + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
          + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
          + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
    + コンテンツカード{#content-card}
@@ -342,9 +342,9 @@ ht-degree: 90%
       + [AI による SMS 生成](using/content-management/generative-sms.md)
       + [AI による web 生成](using/content-management/generative-web.md)
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
-      + [AI を使用したランディングページ](using/content-management/generative-lp.md)
+      + [AI によるランディングページ](using/content-management/generative-lp.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
-      + [ブランドを作成および管理（Beta）](using/content-management/brands.md)
+      + [ブランドの作成と管理（ベータ版）](using/content-management/brands.md)
    + 多言語コンテンツの操作 {#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [ロケールの作成](using/content-management/multilingual-locale.md)
@@ -371,7 +371,7 @@ ht-degree: 90%
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
-         + [配列とリスト関数](using/personalization/functions/arrays-list.md)
+         + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
          + [日付関数](using/personalization/functions/dates.md)
          + [ブール関数と比較関数](using/personalization/functions/operators.md)
          + [ヘルパー](using/personalization/functions/helpers.md)
@@ -423,14 +423,14 @@ ht-degree: 90%
    + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
    + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
    + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
-+ {#reporting} のトラッキングと監視
++ トラッキングと監視 {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
       + [コンポーネントのリスト](using/reports/live-report-components.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
-      + [購読リストライブレポート](using/reports/subscription-report-live.md)
+      + [購読リストのライブレポート](using/reports/subscription-report-live.md)
    + 全期間のレポート{#channel-report}
       + [全期間のレポートの基本を学ぶ](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
@@ -481,27 +481,39 @@ ht-degree: 90%
    + [決定機能の基本を学ぶ](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
-      + [意思決定のガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
+      + [決定ガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
       + API リファレンス{#api-reference}
          + オファー項目の作成と管理 {#create-manage}
-            + 決定項目{#decision-items}
-               + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
-               + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-               + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
-               + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-               + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + 項目コレクション{#items-collections}
-               + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
-               + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
-               + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-               + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
-               + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
-            + 選択戦略{#selection-strategies}
-               + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
-               + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-               + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-               + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-               + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + 決定項目{#decision-items}
+            + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + 項目コレクション{#items-collections}
+            + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
+         + 選択戦略{#selection-strategies}
+            + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + ランキング式 {#ranking-formulas}
+            + [ランキング式の作成](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [ランキング式の削除](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [ランキング式を参照](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [選択ランキング式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [ランキング式を更新](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + 実施要件ルール {#eligibility-rules}
+            + [実施要件ルールの作成](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+            + [実施要件ルールを削除](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+            + [実施要件ルールを参照](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+            + [実施要件ルールリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+            + [実施要件ルールを更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [コードベースのエクスペリエンスチャネルを使用したオファーの配信](using/experience-decisioning/api-reference/deliver.md)
       + 決定項目の管理 {#decision-items}
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
@@ -519,9 +531,9 @@ ht-degree: 90%
       + 意思決定管理の基本を学ぶ {#get-started-decision}
 
          + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
-         + [意思決定管理のガードレールと制限](using/offers/decision-management-guardrails.md)
+         + [意思決定管理ガードレールと制限](using/offers/decision-management-guardrails.md)
          + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
-         + [オファーを作成および管理するための主な手順](using/offers/offer-library/key-steps.md)
+         + [オファーを作成および管理する主要ステップ](using/offers/offer-library/key-steps.md)
          + [決定のカスタムアップロードオーディエンスの活用](using/offers/custom-upload-decisioning.md)
          + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
       + コンポーネントの作成 {#create-components}
@@ -537,14 +549,14 @@ ht-degree: 90%
             + [自動最適化モデル](using/offers/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/offers/ranking/personalized-optimization-model.md)
             + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
-      + オファー {#managing-offers-in-the-offer-library} ージの作成と管理
+      + オファーの作成と管理 {#managing-offers-in-the-offer-library}
          + オファーの設定 {#configure-offers}
             + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
             + [表示域を追加](using/offers/offer-library/add-representations.md)
             + [制約を追加](using/offers/offer-library/add-constraints.md)
          + [フォールバックオファーを作成](using/offers/offer-library/creating-fallback-offers.md)
          + [コレクションの作成](using/offers/offer-library/creating-collections.md)
-      + での決定の作成 {#create-manage-activities} 管理
+      + 決定の作成と管理 {#create-manage-activities}
          + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
          + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
          + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
@@ -553,9 +565,9 @@ ht-degree: 90%
          + [データ収集の基本を学ぶ](using/offers/data-collection/data-collection.md)
          + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
          + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
-      + コンテキストデータ {#context-data} ースの活用
+      + コンテキストデータの活用 {#context-data}
          + [コンテキストデータの基本を学ぶ](using/offers/context-data.md)
-         + [コンテキストデータとEdge Decisioning リクエスト](using/offers/context-data-edge.md)
+         + [コンテキストデータと Edge 決定リクエスト](using/offers/context-data-edge.md)
          + [コンテキストデータと決定リクエスト](using/offers/context-data-decisioning.md)
       + 意思決定管理レポートの作成 {#create-reports}
          + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
@@ -569,7 +581,7 @@ ht-degree: 90%
          + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
       + API リファレンス{#api-reference}
          + [はじめに](using/offers/api-reference/getting-started.md)
-         + の API を使用したオファーの作成と管理 {#offers-api}
+         + API を使用したオファーの作成と管理 {#offers-api}
             + プレースメント {#placements}
                + [プレースメントのリスト](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [プレースメントの参照](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -700,7 +712,7 @@ ht-degree: 90%
    + [ビジネスルールの設定](using/configuration/frequency-rules.md)
    + [ルールセットの操作](using/configuration/rule-sets.md)
    + ジャーニーの設定 {#configure-journeys}
-      + [データソース、イベント、アクションの設定](using/configuration/about-data-sources-events-actions.md)
+      + [データソース、イベントおよびアクションの設定](using/configuration/about-data-sources-events-actions.md)
       + 外部システムとの統合 {#external-systems}
          + [ジャーニーと外部システムとの統合](using/configuration/external-systems.md)
          + [Capping API](using/configuration/capping.md)
