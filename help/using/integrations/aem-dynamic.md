@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
+source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: '755'
+ht-degree: 1%
 
 ---
 
@@ -95,6 +95,72 @@ Adobe Experience Manager as a Cloud Serviceから Dynamic Media をJourney Optim
 これで、更新されたテキストオーバーレイがコンテンツに含まれます。
 
 ![](assets/dynamic-media-layout-3.png)
+
+## Dynamic Media テンプレートの追加と管理
+
+Journey Optimizerで Dynamic Media テンプレートを簡単に追加し、必要に応じてメディアコンテンツを更新できます。 パーソナライゼーションフィールドをメディアに組み込むことができるようになり、Journey Optimizer内で、よりカスタマイズされた魅力的なコンテンツを作成できるようになりました。
+
+詳しくは、[Dynamic Media テンプレート ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics) を参照してください。
+
+### 画像コンポーネントを使用
+
+画像コンポーネントを使用して、動的テンプレートをコンテンツに直接挿入できます。
+
+1. キャンペーンまたはジャーニーを開き、コンテンツにアクセスします。
+
+1. **画像コンポーネント** をレイアウトにドラッグ&amp;ドロップします。
+
+   画像コンポーネントについて詳しくは、[ このページ ](../email/content-components.md) を参照してください。
+
+   ![](assets/dynamic-media-template-1.png)
+
+1. AEM アセットを参照し、コンテンツに追加する Dynamic Media テンプレートを選択します。
+
+   ![](assets/dynamic-media-template-2.png)
+
+1. **画像設定** で、Dynamic Media テンプレートのパラメーターに移動します。
+
+   使用可能なフィールドは、Adobe Experience Managerでの [ テンプレートの作成 ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) 時に追加されたパラメーターによって異なります。
+
+   ![](assets/dynamic-media-template-3.png)
+
+1. 様々なフィールドに入力し、パーソナライゼーションエディターを使用してパーソナライズされたコンテンツを追加します。 プロファイル名、市区町村、その他の関連する詳細など、任意の属性を使用して、よりカスタマイズされたエクスペリエンスを作成できます。
+
+   パーソナライゼーションの詳細については、[ このページ ](../personalization/personalize.md) を参照してください。
+
+   ![](assets/do-not-localize/dynamic_media_template.gif)
+
+1. 条件付きコンテンツを Dynamic Media コンポーネントに適用して、コンテンツの様々なバリアントを生成できます。 [詳細情報](../personalization/dynamic-content.md)
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+テストを実行し、コンテンツを検証したら、メッセージをオーディエンスに送信できます。
+
+### HTML コンポーネントの使用
+
+HTML コンポーネントを使用して、動的テンプレートをコンテンツに直接挿入できます。
+
+1. キャンペーンまたはジャーニーを開き、コンテンツにアクセスします。
+
+1. **HTML コンポーネント** をレイアウトにドラッグ&amp;ドロップします。
+
+   ![](assets/dynamic-media-template-4.png)
+
+1. **[!UICONTROL ソースコードを表示]** を選択します。
+
+   ![](assets/dynamic-media-template-5.png)
+
+1. **[!UICONTROL HTMLを編集]** メニューから、**[!UICONTROL Assetsにアクセスし]** その後 **[!UICONTROL アセットセレクターを開く]** をクリックします。
+
+   アセットの URL をコピーして貼り付けることもできます。
+
+1. 必要に応じて、アセット要件に合わせて画像テキストパラメーターを調整します。
+
+   ![](assets/do-not-localize/dynamic_media_template_html.gif)
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+テストを実行し、コンテンツを検証したら、メッセージをオーディエンスに送信できます。
 
 <!--
 ## Personalization with Text Overlay
