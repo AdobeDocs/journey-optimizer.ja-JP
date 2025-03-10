@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5d51554d9d18f517e1ca3a3d02592a45f341110c
+source-git-commit: 167d42f51bd76d42118b340fe6a1f41962ef9c51
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '617'
 ht-degree: 99%
 
 ---
@@ -89,7 +89,8 @@ ht-degree: 99%
 >id="ajo_code_based_experience"
 >title="パーソナライゼーションエディターの使用"
 >abstract="このコードベースのエクスペリエンスアクションの一部として配信するコードを挿入および編集します。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=ja" text="パーソナライゼーションエディターの基本を学ぶ"
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Get started with the personalization editor"-->
 
 1. ジャーニーアクティビティまたはキャンペーン編集画面から、「**[!UICONTROL コードを編集]**」を選択します。
 
