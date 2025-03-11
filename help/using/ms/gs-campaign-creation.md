@@ -6,14 +6,14 @@ description: Adobe Journey Optimizerを使用した複数手順キャンペー�
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '461'
 ht-degree: 25%
 
 ---
 
-# 調整されたキャンペーンの主な原則 {#ms-campaign-creation}
+# 主な原則 {#ms-campaign-creation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
