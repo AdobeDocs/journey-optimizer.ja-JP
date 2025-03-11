@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 複数ステップのキャンペーンイベント変数
+title: 複数手順キャンペーンでのイベント変数の操作
 description: 複数手順のキャンペーンでイベント変数を活用する方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 64%
 
 ---
 
-# 複数ステップのキャンペーンイベント変数 {#event-variables}
+# イベント変数の操作 {#event-variables}
 
 一部の複数ステップのキャンペーンアクティビティでは、式エディターでスクリプトを編集して、以前のアクティビティからのデータの取得、条件の作成、イベント変数に基づくファイル名の計算などの特定のアクションを実行できます。
 

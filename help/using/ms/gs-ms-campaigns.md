@@ -6,30 +6,28 @@ description: 複数手順キャンペーンの開始方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 26%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
 # 複数手順キャンペーンの基本を学ぶ {#ms-camp}
 
-複数ステップのキャンペーンは、ブランド主導の堅牢なバッチキャンペーン機能を導入することでAdobe Journey Optimizerを強化し、高度なセグメント化戦略を使用してクロスチャネルキャンペーンの計画と調整を行えるようにします。
-
 >[!BEGINSHADEBOX]
 
 **目次**
 
-* [ 主な原則 ](gs-campaign-creation.md) - [ ガードレールと制限 ](guardrails.md)
-* [ キャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定を指定 ](ms-campaign-settings.md)
-* [キャンペーンの開始と監視](start-monitor-campaigns.md)
-* [イベント変数](event-variables.md)
-* [ アクティビティの基本を学ぶ ](activities/about-activities.md) - [ アクティビティの調整 ](orchestrate-activities.md)
+* 複数手順キャンペーンの基本を学ぶ
+* [ 主要な原則 ](gs-campaign-creation.md) - [ ガードレールと制限事項 ](guardrails.md)
+* 設定：[ スキーマの操作 ](ms-schemas.md) - [ イベント変数の操作 ](event-variables.md)
+* 開始：[ オーケストレーションされたキャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定の指定 ](ms-campaign-settings.md) - [ キャンペーンの開始と監視 ](start-monitor-campaigns.md) - [ アクティビティの開始 ](activities/about-activities.md) - [ アクティビティのオーケストレーション ](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * アクティビティのリスト：[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) オーディエンスの保存
 
 >[!ENDSHADEBOX]
 
+複数ステップのキャンペーンは、ブランド主導の堅牢なバッチキャンペーン機能を導入することでAdobe Journey Optimizerを強化し、高度なセグメント化戦略を使用してクロスチャネルキャンペーンの計画と調整を行えるようにします。
 
 ## 複数手順キャンペーンとは
 
@@ -41,12 +39,10 @@ ht-degree: 26%
 
 包括的なグラフィカル環境を使用すると、セグメント化、キャンペーン実行、ファイル処理などのプロセスを設計できます。 また、複数ステップのキャンペーンでは、タスクを割り当てたり、実行されたタスクを承認したりすることで、ユーザーを参加させることもできます。これにより、チームの作業を容易に管理し、すべてが正しく実行されるようになります。
 
-以下に、Adobe Journey Optimizer内で複数手順のキャンペーンを使用する方法の例を示します。
 
-* 非アクティブな顧客のフォローアップキャンペーンを開始する。
-* サービスの新規サブスクライバー全員にウェルカムメールを送信する。
-* 顧客のロイヤルティプログラムのステータスまたは目標地点に基づいて、クロスチャネル配信をパーソナライズする。
+## ジャーニーオーケストレーションとキャンペーンオーケストレーション
 
+ジャーニーとキャンペーン – 違い、ユースケース、ベストプラクティスについて説明します
 
 ## さらに深く掘り下げましょう
 

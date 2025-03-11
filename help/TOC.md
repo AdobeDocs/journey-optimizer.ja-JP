@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 95%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 95%
          + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + マルチステップキャンペーン {#ms-campaigns}
    + [複数手順キャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
+   + [主な原則](using/ms/gs-campaign-creation.md)
+   + [ガードレールと制限](using/ms/guardrails.md)
+   + 設定 {#ms-config}
+      + [スキーマ](using/ms/ms-schemas.md)
+      + [イベント変数の操作](using/ms/event-variables.md)
    + 最初の複数手順キャンペーン {#create-ms-campaign} ールの作成
-      + [主な原則](using/ms/gs-campaign-creation.md)
-      + [ガードレールと制限](using/ms/guardrails.md)
-      + [キャンペーンの作成](using/ms/create-ms-campaign.md)
+      + [オーケストレーションされたキャンペーンの作成](using/ms/create-ms-campaign.md)
       + [アクティビティを調整](using/ms/orchestrate-activities.md)
       + [キャンペーン設定を指定](using/ms/ms-campaign-settings.md)
       + [キャンペーンの開始と監視](using/ms/start-monitor-campaigns.md)
-      + [複数手順キャンペーンのイベント変数](using/ms/event-variables.md)
+      + [ パーソナライゼーションの管理 ](using/ms/ms-personalization.md)
    + での複数手順のキャンペーンアクティビティ {#design-campaigns}
       + [複数ステップのキャンペーンアクティビティについて](using/ms/activities/about-activities.md)
       + [AND 結合](using/ms/activities/and-join.md)

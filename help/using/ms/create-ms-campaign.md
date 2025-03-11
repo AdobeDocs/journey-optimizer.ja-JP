@@ -5,21 +5,31 @@ title: Journey Optimizerを使用した複数手順キャンペーンの作成
 description: Adobe Journey Optimizerを使用して複数手順のキャンペーンを作成する方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 12%
+source-wordcount: '706'
+ht-degree: 13%
 
 ---
 
-
-# 複数手順キャンペーンの作成 {#create-first-campaign}
+# オーケストレーションされたキャンペーンの作成 {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="複数手順キャンペーンのリスト"
 >abstract="**複数手順** タブには、すべての複数手順キャンペーンがリストされます。 複数手順キャンペーンの名前をクリックして編集します。 **複数手順キャンペーンを作成** ボタンを使用して、新しい複数手順キャンペーンを追加します。"
 
+## 前提条件
+
+### 権限
+
+### 設定
+
+新しい管理設定の概要/スキーマ、実行フィールド、結合ポリシー。 [詳細情報](ms-schemas.md)
+
+
+## 作成ステップ
 
 複数手順のキャンペーンを作成するには、次の手順に従います。
 

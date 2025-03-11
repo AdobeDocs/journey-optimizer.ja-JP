@@ -5,21 +5,25 @@ title: 複数手順キャンペーン作成の主な原則
 description: Adobe Journey Optimizerを使用した複数手順キャンペーンの主な原則を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 36%
+source-wordcount: '266'
+ht-degree: 28%
 
 ---
 
-
-# 複数手順キャンペーン作成の主な原則 {#ms-campaign-creation}
+# 調整されたキャンペーンの主な原則 {#ms-campaign-creation}
 
 Adobe Journey Optimizerを使用すると、複数の手順から成るキャンペーンを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
 
+## クエリの作成
+
+## Personalization ガイドライン
+
 ## 複数手順キャンペーンの内容は何ですか？ {#gs-ms-campaign-inside}
 
-複数ステップのキャンペーン図は、実行される処理を表したものです。 これは、実行される様々なタスクと、タスク同士の関係を示すものです。
+複数手順のキャンペーンキャンバスは、実行される処理を表したものです。 これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
 ![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
@@ -38,4 +42,14 @@ Adobe Journey Optimizerを使用すると、複数の手順から成るキャン
 複数手順キャンペーンを作成するための主な手順は次のとおりです。
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
+
+## ステータスとライフサイクル
+
+キャンペーンには複数のステータスがあります。
+
+* **[!UICONTROL ドラフト]**：複数手順のキャンペーンが作成され、保存されました。
+* **[!UICONTROL 処理中]**：複数手順キャンペーンは現在実行中です。
+* **[!UICONTROL 完了]**：複数ステップのキャンペーン実行が完了しました。
+* **[!UICONTROL 一時停止]**：複数ステップのキャンペーンが一時停止されました。
+* **[!UICONTROL エラー]**：複数ステップキャンペーンでエラーが発生しました。 複数手順キャンペーンを開き、ログとタスクにアクセスしてエラーを特定し解決します。
 
