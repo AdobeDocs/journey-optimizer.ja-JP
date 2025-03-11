@@ -9,8 +9,8 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
-workflow-type: ht
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 1. [ロケールの追加（オプション）](multilingual-locale.md)
 
-1. [言語設定の作成](#create-language-settings)
+1. [言語設定の作成](#language-settings)
 
-1. [多言語コンテンツの作成](#create-a-multilingual-campaign)
+1. [多言語コンテンツの作成](#create-multilingual-campaign)
 
 ## 言語設定の作成 {#language-settings}
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 1. この設定に関連付けられている&#x200B;**[!UICONTROL ロケール]**&#x200B;を選択します。最大 50 個のロケールを追加できます。
 
-   **[!UICONTROL ロケール]**&#x200B;が見つからない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューから、または API を使用して、事前に手動で作成できます。[新しいロケールの作成](#create-locale)を参照してください。
+   **[!UICONTROL ロケール]**&#x200B;が見つからない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューから、または API を使用して、事前に手動で作成できます。[新しいロケールの作成](multilingual-locale.md)を参照してください。
 
    ![](assets/multilingual-settings-2.png)
 
@@ -61,11 +61,11 @@ ht-degree: 100%
    * **[!UICONTROL プロファイル言語設定の属性の選択]**
    * **[!UICONTROL カスタム条件付きルールの作成]**
 
-1. **[!UICONTROL プロファイル言語設定の属性の選択]**&#x200B;を選択した場合は、**[!UICONTROL プロファイル言語設定の属性]**&#x200B;メニューから関連属性を選択して、プロファイル言語情報を検索します。
+1. 「**[!UICONTROL プロファイル言語設定の属性]**」を選択した場合は、**[!UICONTROL プロファイル言語設定の属性]**&#x200B;メニューから関連属性を選択して、プロファイル言語情報を検索します。
 
    ![](assets/multilingual-settings-3.png)
 
-1. **[!UICONTROL カスタム条件付きルールの作成]**&#x200B;を選択した場合は、条件を作成するロケールを選択します。次に、ユーザーの場所、言語設定、その他のコンテキスト要素などの要因に基づいてルールを作成します。
+1. 「**[!UICONTROL カスタムイベントルールを作成]**」を選択した場合は、条件を作成するロケールを選択します。次に、ユーザーの場所、言語設定、その他のコンテキスト要素などの要因に基づいてルールを作成します。
 
    ![](assets/multilingual-settings-4.png)
 
@@ -85,13 +85,13 @@ ht-degree: 100%
    >
    >これらの前提条件は、アプリ内およびコンテンツカードチャネルにのみ必要です。
 
-   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [データ収集ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
+   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [データ収集ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください。
 
    2. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
-      * 対象の&#x200B;**[!UICONTROL 拡張機能]**&#x200B;を選択します。
+      * 使用している&#x200B;**[!UICONTROL 拡張機能]**&#x200B;を選択します。
       * 「**[!UICONTROL イベントタイプ]**」フィールドで「AEP リクエストイベント」を選択します。
       * 右側のパネルで、「XDM イベントタイプが personalization.request と等しい」を選択します。
       * 「**[!UICONTROL 変更を保存]**」ボタンをクリックして、確定します。
@@ -100,7 +100,7 @@ ht-degree: 100%
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
-      * 対象の&#x200B;**[!UICONTROL 拡張機能]**&#x200B;を選択します。
+      * 使用している&#x200B;**[!UICONTROL 拡張機能]**&#x200B;を選択します。
       * 「**[!UICONTROL アクションタイプ]**」フィールドで「データを添付」を選択します。
       * 「JSON ペイロード」セクションで、使用する言語を取得するのに使用する属性（以下の例では「language」）が、データ収集データストリームが送られるスキーマで指定された属性名と一致することを確認します。
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
    ![](assets/multilingual-campaign-2.png)
 
-1. 「**[!UICONTROL 言語を追加]**」をクリックし、以前に作成した&#x200B;**[!UICONTROL 言語設定]**&#x200B;を選択します。[詳細情報](#create-language-settings)
+1. 「**[!UICONTROL 言語を追加]**」をクリックし、以前に作成した&#x200B;**[!UICONTROL 言語設定]**&#x200B;を選択します。[詳細情報](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
