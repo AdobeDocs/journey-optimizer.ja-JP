@@ -7,9 +7,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 5884a7d6307e1abf421cc41c1286ac3b538263a2
+source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 47%
