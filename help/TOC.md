@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2269'
 ht-degree: 95%
 
 ---
@@ -440,6 +440,7 @@ ht-degree: 95%
          + [コンテンツカードキャンペーンレポート](using/reports/campaign-global-report-cja-content.md)
          + [ダイレクトメールキャンペーンレポート](using/reports/campaign-global-report-cja-direct.md)
          + [メールキャンペーンレポート](using/reports/campaign-global-report-cja-email.md)
+         + [目標レポート](using/reports/objective-report.md)
          + [実験キャンペーンレポート](using/reports/campaign-global-report-cja-experimentation.md)
          + [アプリ内キャンペーンレポート](using/reports/campaign-global-report-cja-inapp.md)
          + [プッシュ通知キャンペーンレポート](using/reports/campaign-global-report-cja-push.md)

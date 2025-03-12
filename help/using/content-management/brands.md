@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 60%
+source-wordcount: '640'
+ht-degree: 58%
 
 ---
 
@@ -37,6 +37,30 @@ ht-degree: 60%
 >title="ブランド調整スコア"
 >abstract="ブランドの調整スコアは、コンテンツがブランドのガイドラインにどれだけ準拠しているかを測定し、色、フォント、ロゴ、画像、書き方の一貫性を確保します。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="色のスコア"
+>abstract="色のスコア"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="フォントスコア"
+>abstract="フォントスコア"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="ロゴスコア"
+>abstract="ロゴスコア"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="画像スコア"
+>abstract="画像スコア"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="ライティングスタイルスコア"
+>abstract="ライティングスタイルスコア"
 
 >[!AVAILABILITY]
 >
