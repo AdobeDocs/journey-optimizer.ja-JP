@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
 source-wordcount: '2346'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -35,12 +35,12 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ## データセットガードレール {#datasets-guardrails}
 
-2025 年 2 月から、Time-to-Live （TTL）ガードレールが、（新しいサンドボックスと新しい組織 **のJourney Optimizer システム生成データセットに次のようにロールアウトされ** す。
+2025年2月現在、**新しいサンドボックスと新しい組織**&#x200B;の Journey Optimizer システム生成データセットに、次のように有効期間（TTL）ガードレールがロールアウトされます。
 
-* プロファイルストアのデータの場合は 90 日間。
-* データレイクのデータの場合は 13 か月。
+* プロファイルストアのデータの場合は 90 日
+* データレイクのデータの場合は 13 か月
 
-この変更は、次のフェーズで **既存の顧客サンドボックス** にロールアウトされます。 [ データセットの有効期間（TTL）ガードレールの詳細 ](../data/datasets-ttl.md)
+この変更は、後続のフェーズで&#x200B;**既存顧客のサンドボックス**&#x200B;にロールアウトされます。[ データセットの有効期間（TTL）ガードレールの詳細 ](../data/datasets-ttl.md)
 
 ## チャネルガードレール {#channel-guardrails}
 
@@ -61,9 +61,9 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
 
-### コードベースのチャネルガードレール {#code-based-guardrails}
+### コードベースチャネルガードレール {#code-based-guardrails}
 
-[!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[ このページ ](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
+[!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
 
 ## ランディングページガードレール {#lp-guardrails}
 
@@ -87,12 +87,12 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 特定のサンドボックス内で最大 10 個のオーディエンスコンポジションを公開できます。このしきい値に達した場合、新しいコンポジションを公開するためには、コンポジションを削除してスペースを解放する必要があります。
 
-## 意思決定および意思決定管理のガードレール {#decisioning-guardrails}
+## 決定と意思決定管理ガードレール {#decisioning-guardrails}
 
-意思決定または意思決定管理を使用する際に留意すべきガードレールと制限について詳しくは、意思決定と意思決定管理の節を参照してください。
+決定または意思決定管理を使用する際に留意すべきガードレールと制限について詳しくは、次の決定と意思決定管理の節を参照してください。
 
-* [意思決定のガードレールと制限](../experience-decisioning/decisioning-guardrails.md)
-* [意思決定管理のガードレールと制限](../offers/decision-management-guardrails.md)
+* [決定ガードレールと制限](../experience-decisioning/decisioning-guardrails.md)
+* [意思決定管理ガードレールと制限](../offers/decision-management-guardrails.md)
 
 
 ## ジャーニーガードレール {#journeys-guardrails}
@@ -220,4 +220,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 次のガードレールは、**[!UICONTROL Campaign v7/v8]** および **[!UICONTROL Campaign Standard]** アクティビティに適用されます。
 
 * Adobe Campaign アクティビティは、「オーディエンスを読み取り」アクティビティや「オーディエンスの選定」アクティビティと併用できません。
-* Campaign アクティビティは、他のチャネルアクティビティ（カード、コードベースのエクスペリエンス、メール、プッシュ、SMS、アプリ内メッセージ、web）と一緒には使用できません。
+* キャンペーンアクティビティは、カード、コードベースのエクスペリエンス、メール、プッシュ、SMS、アプリ内メッセージ、web などの他のチャネルアクティビティと併用できません。

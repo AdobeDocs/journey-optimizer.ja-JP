@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->* お使いの環境で使用できるコンポーネントと機能は、[ 権限 ](../administration/permissions.md) および [ ライセンスパッケージ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。 ご不明な点は、Adobe カスタマーサクセスマネージャーまたはAdobe担当者にお問い合わせください。
+>* 環境で使用できるコンポーネントと機能は、付与されている[権限](../administration/permissions.md)と、使用している[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
 >
 >* このドキュメントは、製品のユーザーインターフェイスの最新の変更を反映して、頻繁に更新されます。ただし、一部のスクリーンショットは、ユーザーインターフェイスと少し異なる場合があります。
 >
@@ -122,7 +122,7 @@ ht-degree: 95%
 
 * **[!UICONTROL 監査]** - このセクションを参照して、アクティビティログを確認します。[詳細情報](../privacy/audit-logs.md)
 
-* **[!UICONTROL データライフサイクル]** – このセクションでは、データライフサイクルの操作を設定およびスケジュールして、レコードが適切に維持されるようにします。 [詳細情報](../privacy/data-hygiene.md)
+* **[!UICONTROL データライフサイクル]** - このセクションでは、データライフサイクル操作を設定およびスケジュールして、レコードが適切に保持されるようにします。[詳細情報](../privacy/data-hygiene.md)
 
 ### [!UICONTROL 管理] {#left-nav-admin}
 
