@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13bf2bca3997ff85aca619c8b610aaa0be9142f8
+source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 86%
+source-wordcount: '853'
+ht-degree: 82%
 
 ---
 
@@ -114,7 +114,7 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer から直接実際の API 呼び出しを行って、カスタムアクション設定を検証できるようになりました。 </p>
+<p>Adobe Journey Optimizerから直接、実際の API 呼び出しを行うことで、カスタムアクション設定を検証できるようになりました。 この新しい機能は、ジャーニーで使用する前または後にカスタムアクションをトラブルシューティングするのに役立ちます。 </p>
 <p>詳しくは、<a href="../action/troubleshoot-custom-action.md">詳細なドキュメント</a>を参照してください。</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -145,8 +145,6 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 ### 機能強化 {#25-02-improvements}
 
 2月の更新では、以下の機能強化が行われます。
-
-* **ジャーニー** - 管理セクションから API 呼び出しを送信して、カスタムアクションをテストできるようになりました。この新しい機能は、ジャーニーでカスタムアクションを使用する前または使用した後に、カスタムアクションのトラブルシューティングを行うのに役立ちます。[詳細情報](../action/troubleshoot-custom-action.md)
 
 * **データセットの有効期間（TTL）** - 今月以降、新しいサンドボックスと新しい組織の Journey Optimizer システム生成データセットに、次のように有効期間（TTL）ガードレールがロールアウトされます。
 
