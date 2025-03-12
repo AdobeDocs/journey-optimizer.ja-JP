@@ -8,9 +8,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 66%
 
 1. 式の名前、説明、式を指定します。
 
-   この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。これを行うために、**contextData.weather=hot** が判定呼び出しで渡されました。 [ コンテキストデータの操作方法を学ぶ ](../context-data.md)
+   この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、決定の呼び出し時に **contextData.weather=hot** を渡しています。[詳しくは、コンテキストデータの操作方法を参照してください](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -134,11 +134,11 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 }
 ```
 
-### コンテキストデータに基づくオファーのブースト {#context-data}
+### コンテキストデータに基づいてオファーの優先度を上げる {#context-data}
 
-[!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。 例えば、`contextData.weather=hot` を渡す場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。 **Edge Decisioning** および **Decisioning** API を使用してコンテキストデータを渡す方法について詳しくは、[ この節 ](../context-data.md) を参照してください。
+[!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。例えば、`contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。**Edge Decisioning** API および **Decisioning** API を使用してコンテキストデータを渡す方法について詳しくは、[この節](../context-data.md)を参照してください。
 
-**Decisioning** API を使用する場合、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
+**Decisioning** API を使用する場合は、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
 
 ```
 "xdm:profiles": [
@@ -162,11 +162,11 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 }],
 ```
 
-ランキング式でコンテキストデータを使用してオファーの優先度を上げる方法を示す例を次に示します。 各セクションを展開すると、ランキング式の構文の詳細が表示されます。
+ランキング式でコンテキストデータを使用してオファーの優先度を上げる方法を示す例を次に示します。各セクションを展開すると、ランキング式の構文の詳細が表示されます。
 
 >[!NOTE]
 >
->Edge Decisioning API の例では、`<OrgID>` を組織のテナント ID に置き換えます。
+>Edge Decision API の例では、`<OrgID>` を組織のテナント ID に置き換えます。
 
 +++コンテキストデータのチャネルが顧客の優先チャネルと一致する場合は、オファーの優先度を 10 上げる
 
@@ -184,7 +184,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++呼び出しで「contextData.weather=hot」が渡された場合、「attribute=hot」を含むすべてのオファーの優先度を上げます。
++++呼び出しで「contextData.weather=hot」が渡された場合、「attribute=hot」を含むすべてのオファーの優先度を上げる。
 
 >[!BEGINTABS]
 
@@ -200,7 +200,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++コンテンツ接触チャネルのブースト
++++コンテンツ接触チャネルの優先度を上げる
 
 >[!BEGINTABS]
 
@@ -216,7 +216,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++気象ブースト
++++天気の優先度を上げる
 
 >[!BEGINTABS]
 

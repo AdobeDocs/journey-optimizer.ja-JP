@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!CAUTION]
       >
-      >IP ウォームアッププランが実行された後、IP ウォームアップキャンペーンで使用されるメールチャネル [ 設定 ](../email/email-settings.md#execution-address) の [ 実行アドレス ](channel-surfaces.md) を更新すると、ドメインの除外が失敗する可能性があります。 IP ウォームアッププランの開始後は、メールチャネル設定を編集しないでください。
+      >IP ウォームアッププランの実行後に、IP ウォームアップキャンペーンで使用されるメールチャネル[設定](channel-surfaces.md)の[実行アドレス](../email/email-settings.md#execution-address)を更新すると、ドメインの除外が失敗する可能性があります。IP ウォームアッププランの開始後は、メールチャネル設定を編集しないでください。
 
    1. 「**[!UICONTROL プロファイルの除外に対応するキャンペーン]**」セクションで、現在のフェーズから除外するオーディエンスを含むキャンペーンを選択します。
 

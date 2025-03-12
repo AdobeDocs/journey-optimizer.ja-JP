@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

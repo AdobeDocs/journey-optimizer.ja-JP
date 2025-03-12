@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ You can also create audience-based campaigns to send messages.-->
 
 >[!NOTE]
 >
-> お使いの環境で使用できるコンポーネントと機能は、[ 権限 ](../administration/permissions.md) および [ ライセンスパッケージ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。 ご不明な点は、Adobe カスタマーサクセスマネージャーまたはAdobe担当者にお問い合わせください。
+> 環境で使用できるコンポーネントと機能は、付与されている[権限](../administration/permissions.md)と、使用している[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
 
 
 ## アーキテクチャ {#architecture}

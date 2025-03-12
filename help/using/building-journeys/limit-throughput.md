@@ -9,9 +9,9 @@ level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

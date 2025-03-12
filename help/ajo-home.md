@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 8b0dc1ba58c856cc3a0864e408415c87e10801cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2025 年 2 月リリース ]
+>[!TAB 2025年2月リリース]
 
-2 月リリースが公開されました。 新機能や改善点については、リリースノートを確認してください。
+2月リリースが公開されました。リリースノートを参照して、新機能および機能強化を確認してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB AI アシスタント]
 
-✨ [AI アシスタント ](../help/using/content-management/gs-generative.md) の機能を直接調べて、その機能を完全に理解できるように設計されたライブ機能プレビューで、実践的な体験に浸ってください。
+✨ [AI アシスタント](../help/using/content-management/gs-generative.md)ライブ機能プレビューで実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 [![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

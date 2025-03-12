@@ -6,12 +6,12 @@ description: Adobe Experience Platform クラウドストレージの宛先を�
 feature: Datasets
 role: User
 level: Beginner
-keywords: Platform, データレイク, 作成, レイク, データセット, プロファイル
+keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,19 +27,19 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 ![](assets/dataset-export-setup.png)
 
-各宛先について詳しくは、 Adobe Experience Platform のドキュメントを参照してください。
+各宛先について詳しくは、Adobe Experience Platform のドキュメントを参照してください。
 
 * [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=ja){target="_blank"}
 * [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=ja){target="_blank"}
 * [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=ja){target="_blank"}
 * [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ja){target="_blank"}
-* [Google クラウドストレージ ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ja){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ja){target="_blank"}。
+* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ja){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ja){target="_blank"}
 
 
 ## 前提条件 {#prerequisites}
 
-データセットを書き出すには、以下に示す [ アクセス制御権限 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions){target="_blank"} が必要です。 詳しくは、[ アクセス制御の概要 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja){target="_blank"} または製品管理者に問い合わせて、必要な権限を取得してください。
+データセットを書き出すには、以下に示す[アクセス制御権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja#permissions){target="_blank"}が必要です。[アクセス制御の概要](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ja){target="_blank"}を参照するか、製品管理者に問い合わせて必要な権限を取得してください。
 
 | カテゴリ | 権限 |
 |--|--|

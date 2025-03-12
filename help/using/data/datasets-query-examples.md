@@ -10,7 +10,7 @@ level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
 ht-degree: 100%
 

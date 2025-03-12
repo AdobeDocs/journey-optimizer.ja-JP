@@ -1,70 +1,70 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: コンテキストデータとEdge Decisioning リクエスト
-description: Edge Decisioning リクエストでコンテキストデータを渡す方法を説明します。
+title: コンテキストデータと Edge 決定リクエスト
+description: Edge 決定リクエストでコンテキストデータを渡す方法について説明します。
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# コンテキストデータと Edge 決定リクエスト {#edge}
 
-# コンテキストデータとEdge Decisioning リクエスト {#edge}
-
-この節では、Edge Decisioning リクエストでコンテキストデータを渡し、それらを実施要件ルールで使用する方法について説明します。 顧客が使用しているデバイスのタイプに基づいてパーソナライズされたオファーを配信する方法を示す、エンドツーエンドのユースケースを見ていきます。
+この節では、Edge 決定リクエストでコンテキストデータを渡し、実施要件ルールで使用する方法について説明します。お客様が使用しているデバイスのタイプに基づいてパーソナライズされたオファーを提供する方法を示すエンドツーエンドのユースケースを検討します。
 
 このユースケースには、いくつかの重要な手順が含まれます。
 
-1. [ 前提条件の設定 ](#prerequisites)：リクエストでコンテキストデータを渡すために必要なすべての手順が完了していることを確認します。
-1. [ 実施要件ルールの UEE コンテキストデータ ](#rule): ユーザーのデバイスタイプに基づいて表示するオファーを決定するルールを作成します。
-1. [ デバイス固有のオファーの設計 ](#offers)：デバイスタイプごとにカスタマイズされたオファーを作成し、対応するルールにリンクします。
-1. [ オファーコレクションの作成 ](#collection)：すべてのオファーを静的なコレクションにグループ化します。
-1. [ 決定の設定 ](#decision)：オファー決定エンジンを活用する新しい決定を作成し、デバイスタイプに基づいて、ユーザーに提示する最適なオファーを選択します。
-1. [Edge Decisioning リクエストでコンテキストデータを渡す ](#request):API リクエストを通じてコンテキストデータを渡し、適切なオファーを取得してユーザーに提示します。
+1. [前提条件を設定](#prerequisites)：リクエストでコンテキストデータを渡すのに必要なすべての手順が完了していることを確認します。
+1. [実施要件ルールでコンテキストデータを使用](#rule)：ユーザーのデバイスタイプに基づいて表示するオファーを決定するルールを作成します。
+1. [デバイス固有のオファーを設計](#offers)：デバイスタイプごとにカスタマイズされたオファーを作成し、対応するルールにリンクします。
+1. [オファーコレクションを作成](#collection)：すべてのオファーを静的コレクションにグループ化します。
+1. [決定を設定](#decision)：オファーの決定エンジンを活用して、デバイスタイプに基づいてユーザーに提示する最適なオファーを選択する新しい決定を作成します。
+1. [Edge 決定リクエストでコンテキストデータを渡す](#request)：API リクエストを通じてコンテキストデータを渡して、適切なオファーを取得してユーザーに提示します。
 
 >[!BEGINSHADEBOX]
 
-さらに進むには、コンテキストデータを **ランキング式** に活用するか、動的に **オファー表示域をパーソナライズ** することもできます。 例えば、1 つのオファーを作成し、パーソナライゼーションフィールドを使用して、コンテキストデータに基づいて表示域を適応させることができます。 例えば、ユーザーが iphone を使用している場合は特定の画像を表示し、ipad ユーザー用には別の画像を表示します。 詳しくは、次の節を参照してください。
+さらに、コンテキストデータを&#x200B;**ランキング式**&#x200B;に活用したり、動的に&#x200B;**オファー表示域をパーソナライズ**&#x200B;したりすることもできます。例えば、単一のオファーを作成し、パーソナライゼーションフィールドを使用して、コンテキストデータに基づいてその表示域を適応させることができます。例えば、ユーザーが iPhone を使用している場合は特定の画像を表示し、iPad ユーザーの場合は別の画像を表示します。詳しくは、次の節を参照してください。
 
-* [ランキング式 – コンテキストデータに基づいてオファーをブースト](../offers/ranking/create-ranking-formulas.md#context-data)
+* [ランキング式 - コンテキストデータに基づいてオファーの優先度を上げる](../offers/ranking/create-ranking-formulas.md#context-data)
 * [コンテキストデータに基づいた表示域のパーソナライズ](../offers/offer-library/add-representations.md#context-data)
 
 >[!ENDSHADEBOX]
 
-## Edge Decisioning リクエストでコンテキストデータを渡すための前提条件 {#prerequisites}
+## Edge 決定リクエストでコンテキストデータを渡す前提条件 {#prerequisites}
 
-Decisioning API を使用してかなり自由なフォーマットでコンテキストを渡すのではなく、Edge Decisioning コンテキストペイロードは XDM Experience Event に準拠している必要があります。 これを行うには、データ収集に使用される「XDM エクスペリエンスイベント」の一部としてコンテキストを定義する必要があります。
+Decisioning API を使用して自由な形式でコンテキストを渡すのではなく、Edge 決定コンテキストペイロードは XDM エクスペリエンスイベントに準拠する必要があります。これを行うには、データ収集に使用される「XDM エクスペリエンスイベント」の一部としてコンテキストを定義する必要があります。
 
-1. エクスペリエンスイベントスキーマを定義します。 このユースケースでは、「オファーコンテキスト」スキーマが作成され、オファーコンテキストフィールドが「オファーコンテキスト」フィールドグループの一部になります。 実際には、フィールドグループは、「Edge Collection Network」データストリームに関連付けられたデータ収集に使用されるエクスペリエンスイベントスキーマに追加されます。
+1. エクスペリエンスイベントスキーマを定義します。このユースケースの目的で、「オファーコンテキスト」スキーマが作成され、オファーコンテキストフィールドは「オファーコンテキスト」フィールドグループの一部になります。実際には、フィールドグループは、「Edge Collection Network」データストリームに関連付けられたデータ収集に使用されるエクスペリエンスイベントスキーマに追加されます。
 
    >[!NOTE]
    >
    >オファーコンテキストエクスペリエンスイベントスキーマは、プライマリ ID として「CUSTOMER_ID」フィールドを使用する、プロファイルの一部である必要があります。
 
-   この例では、「Offer Context」フィールドグループには、language と deviceType の 2 つのプロパティがあります。 これらのプロパティは、オファーのランキングと実施要件ルールで使用されます。
+   この例では、「オファーコンテキスト」フィールドグループに language と deviceType という 2 つのプロパティがあります。これらのプロパティは、オファーのランキングと実施要件ルールで使用されます。
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Adobe Experience Platform [Experience Data Model （XDM）ガイド）でスキーマの操作方法を説明し ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"} す。
+   スキーマの操作方法について詳しくは、Adobe Experience Platform [エクスペリエンスデータモデル（XDM）ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}を参照してください。
 
 1. データセット（ここでは「オファーコンテキスト」）を作成し、プロファイルに対して有効になっていることを確認します。
 
-1. **[!UICONTROL データ収集]**/ **[!UICONTROL データストリーム]** メニューから新しいデータストリームを作成します。 Adobe Experience Platformでデータストリームを作成および設定する方法を学ぶ [ データストリームガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
+1. **[!UICONTROL データ収集]**／**[!UICONTROL データストリーム]**&#x200B;メニューから新しいデータストリームを作成します。データストリームを作成および設定する方法について詳しくは、Adobe Experience Platform [データストリームガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}を参照してください。
 
-   ここでは、「オファーコンテンツ」イベントスキーマを選択した「オファーコンテキスト」データストリームを作成しました。
+   ここでは、「オファーコンテンツ」イベントスキーマを選択して、「オファーコンテキスト」データストリームを作成しました。
 
    ![](assets/context-edge-datastream.png)
 
-1. 新しく作成したデータストリームを編集し、サービスとして「Adobe Experience Platform」、イベントデータセットとして「オファーコンテキスト」を選択します。
+1. 新しく作成したデータストリームを編集し、サービスとして「Adobe Experience Platform」を選択し、イベントデータセットとして「オファーコンテキスト」を選択します。
 
    ![](assets/context-edge-datastream-new.png)
 
-1. データストリームを保存し、その ID をコピーします。 この ID は、API リクエストエンドポイントで使用されます。 [API 呼び出しの作成方法を学ぶ ](#request)
+1. データストリームを保存し、その ID をコピーします。この ID は、API リクエストエンドポイントで使用されます。[詳しくは、API 呼び出しの作成方法を参照してください。](#request)
 
    ![](assets/context-edge-datastream-copy.png)
 
@@ -74,21 +74,21 @@ Decisioning API を使用してかなり自由なフォーマットでコンテ�
 
 ![](assets/context-edge-device.png)
 
-* iphone デバイスルール：
+* iPhone デバイスのルール：
 
-   * ルール名：「Edge Context Rule - iphone」
+   * ルール名：「Edge コンテキストルール - iPhone」
    * 設定：deviceType = &#39;iphone&#39;
-   * PQL構文：
+   * PQL 構文：
 
      ```
      select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
      ```
 
-* ipad デバイスの規則：
+* iPad デバイスのルール：
 
-   * 規則名：「Edge Context Rule - ipad」
+   * ルール名：「Edge コンテキストルール - iPad」
    * 設定：deviceType = &#39;ipad&#39;
-   * PQL構文
+   * PQL 構文
 
      ```
      select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
@@ -96,50 +96,50 @@ Decisioning API を使用してかなり自由なフォーマットでコンテ�
 
 ## オファーの作成 {#offers}
 
-デバイスタイプごとにオファーを作成し、前に作成した対応する実施要件ルールにリンクします。
+デバイスタイプごとにオファーを作成し、以前に作成した対応する実施要件ルールにリンクします。
 
-* iphone ユーザー向けオファー：
+* iPhone ユーザー向けオファー：
 
    * オファー名：「Edge コンテキスト - iPhone オファーコンテンツ」
-   * 関連するルール：「Edge コンテキストルール - iphone」
+   * 関連ルール：「Edge コンテキストルール - iPhone」
 
-* ipad ユーザー向けオファー：
+* iPad ユーザー向けオファー：
 
-   * オファー名：Edge コンテキスト - iPad オファーコンテンツ :
-   * 関連するルール：「Edge コンテキストルール - ipad」
+   * オファー名：Edge コンテキスト - iPad オファーコンテンツ：
+   * 関連ルール：「Edge コンテキストルール - iPad」
 
-さらに、フォールバックオファー（ここでは「コンテキストフォールバックコンテンツ」）を作成して、特定のデバイス条件を満たさない場合に表示します。
+さらに、特定のデバイス条件が満たされない場合に表示するフォールバックオファー（ここでは「コンテキストフォールバックコンテンツ」）を作成します。
 
 ## コレクションへのオファーの追加 {#collection}
 
-作成済みのオファーを、ここに「Edge Device Context」という名前の静的コレクションに追加します。 このコレクションは、オファーの決定が、顧客に提示する実施要件を満たすオファーを選択する場所になります。
+以前に作成したオファーを、ここでは「Edge デバイスコンテキスト」という名前の静的コレクションに追加します。このコレクションでは、オファーの決定によって実施要件を満たすオファーが選択され、お客様に提示されます。
 
 ![](assets/context-edge-collection.png)
 
-## オファーの決定を作成 {#decision}
+## オファーの決定の作成 {#decision}
 
-フォールバックオファーとして選択した「コンテキストフォールバック」オファーを使用し、オファー決定エンジンを活用して、デバイスタイプに応じてユーザーに提示する最適なオファーを選択する新しい決定を作成します。
+オファーの決定エンジンを活用して、フォールバックオファーとして「コンテキストフォールバック」オファーを選択し、デバイスタイプに基づいてユーザーに提示する最適なオファーを選択する新しい決定を作成します。
 
 ![](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
->さらに先に進むには、コンテキストデータをランキング式に活用して、それらを決定に割り当てます。 情報を追加
+>さらに進んで、コンテキストデータをランキング式に活用し、決定に割り当てることができます。その他の情報
 
-## Edge Decisioning リクエストでコンテキストデータを渡す {#request}
+## Edge 決定リクエストでコンテキストデータを渡す {#request}
 
 ### エンドポイント
 
-エンドポイントでは、以前に作成した [datastream](#prerequisites) の ID を使用します。
+エンドポイントでは、以前に作成した[データストリーム](#prerequisites)の ID を使用します。
 
 `https://edge.adobedc.net/ee/irl1/v1/interact?configId=f3c47f2a-c484-4908-87a5-a82b55039e22`
 
 ### ペイロード
 
-次に、コンテキストデータを渡すリクエストの例を示します。
+コンテキストデータを渡すリクエストの例を次に示します。
 
 * デバイスのタイプに関する情報は、`xdm:ContextData` ノードに渡されます。
-* `decisionScopes` ノードで、以前に設定した [ オファーの決定 ](#decision) の決定範囲をコピーして貼り付けます。
+* `decisionScopes` ノードで、以前に設定した[オファーの決定](#decision)の決定範囲をコピー＆ペーストします。
 
   +++決定範囲の取得先
 

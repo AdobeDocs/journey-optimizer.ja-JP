@@ -8,13 +8,13 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# アプリ内通知の確認と送信 {#create-in-app}
+# アプリ内通知の確認および送信 {#create-in-app}
 
 ## デバイスでのプレビュー {#preview-device}
 

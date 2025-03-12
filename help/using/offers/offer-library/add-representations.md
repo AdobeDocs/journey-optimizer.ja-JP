@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 97%
 
 [Edge 決定](../api-reference/offer-delivery-api/edge-decisioning-api.md)呼び出しでコンテキストデータが渡されると、これらのデータを活用して表示域を動的にパーソナライズできます。例えば、決定が行われた時点の現在の気象状況などのリアルタイムの要因に基づいて、オファーの表示域を調整できます。
 
-オファー表示域でコンテキストデータを使用するには、`profile.timeSeriesEvents.` 名前空間を使用して、表示域のコンテンツ内にコンテキストデータ変数を直接組み込みます。
+オファー表示域でコンテキストデータを使用するには、`profile.timeSeriesEvents.` 名前空間を使用して、コンテキストデータ変数を表示域コンテンツ内に直接組み込みます。
 
 ユーザーのオペレーティングシステムに基づいてオファーの表示域をパーソナライズするために使用される構文の例を以下に示します。
 

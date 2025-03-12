@@ -10,9 +10,9 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -139,11 +139,11 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
    >
    >ヘッダーは、フィールド解析ルールに従って検証されます。詳しくは、[このドキュメント](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank} を参照してください。
 
-## トランスポートセキュリティレイヤー {#tls}
+## Transport Security Layer {#tls}
 
 ### TLS プロトコルのサポート {#tls-protocol-support}
 
-Adobe Journey Optimizerは、カスタムアクションに対して TLS 1.3 をデフォルトでサポートします。 クライアントが TLS 1.3 もサポートしている場合、通信は TLS 1.3 を使用して行われます。そうしないと、TLS ネゴシエーションプロセスが TLS 1.2 にフォールバックする可能性があります。
+Adobe Journey Optimizer は、カスタムアクションに対してデフォルトで TLS 1.3 をサポートしています。クライアントも TLS 1.3 をサポートしている場合、通信は TLS 1.3 経由で行われます。そうでない場合、TLS ネゴシエーションプロセスは TLS 1.2 にフォールバックする可能性があります。
 
 ### mTLS プロトコルのサポート {#mtls-protocol-support}
 

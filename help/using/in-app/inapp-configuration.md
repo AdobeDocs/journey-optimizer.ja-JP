@@ -7,9 +7,9 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -73,11 +73,11 @@ ht-degree: 92%
 
    ![](assets/inapp_config_9.png)
 
-1. 設定を定義するプラットフォームを選択します。 これにより、各プラットフォームに対してターゲットアプリを指定し、複数のプラットフォーム間で一貫したコンテンツ配信を確保できます。
+1. 設定を定義するプラットフォームを選択します。これにより、各プラットフォームに対してターゲットアプリを指定し、複数のプラットフォームをまたいで一貫したコンテンツ配信を確保できます。
 
    >[!NOTE]
    >
-   >iOSおよびAndroidのプラットフォームの場合、配信はアプリ ID のみに基づきます。 両方のアプリが同じアプリ ID を共有する場合、**[!UICONTROL チャネル設定]** で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
+   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
 
    ![](assets/inapp_config_10.png)
 

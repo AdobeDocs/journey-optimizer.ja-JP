@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: AI アシスタントのユースケース
-description: ユースケースを通して AI アシスタントの使用方法を学ぶ
+description: AI アシスタントを使用する方法について、ユースケースを通じて説明します。
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 87%
 
 1. 「**[!UICONTROL AI アシスタント]**」セクションを開きます。
 
-1. AI アシスタント内の **[!UICONTROL オリジナルコンテンツを使用]** 機能をオンにして、キャンペーン名やターゲットオーディエンスなど、キャンペーンの詳細に応じて新しいコンテンツをカスタマイズします。
+1. AI アシスタントの&#x200B;**[!UICONTROL オリジナルコンテンツを使用]**&#x200B;機能をオンにして、キャンペーン名やターゲットオーディエンスなど、キャンペーンの詳細に応じて新しいコンテンツをカスタマイズします。
 
 1. **[!UICONTROL プロンプト]**&#x200B;ボックスでリクエストを指定してコンテンツを調整し、必要に応じて設定をカスタマイズします。
 
@@ -99,7 +99,7 @@ ht-degree: 87%
 
 1. 右側のパネルのメニューから、「**[!UICONTROL AI アシスタント]**」を選択します。
 
-1. **[!UICONTROL 参照スタイル]** オプションをオンにすると、AI アシスタントは参照資料を使用して新しいコンテンツを生成できます。
+1. 「**[!UICONTROL 参照スタイル]**」オプションをオンにすると、AI アシスタントで参照素材を使用して新しいコンテンツを生成できます。
 
 1. 「**[!UICONTROL 画像をアップロード]**」をクリックして、バリエーションにコンテキストを追加する画像を含めます。
 

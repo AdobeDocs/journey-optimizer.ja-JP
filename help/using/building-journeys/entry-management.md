@@ -9,16 +9,16 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # プロファイルエントリ管理 {#entry-management}
 
-プロファイルのエントリ管理は、ジャーニーのタイプに応じて異なります。
+プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。
 
 ## ジャーニーのタイプ {#types-of-journeys}
 

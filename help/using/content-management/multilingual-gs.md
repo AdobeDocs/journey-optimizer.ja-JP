@@ -10,9 +10,9 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -50,19 +50,19 @@ Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立した�
 
 翻訳に関する問題やサポートのリクエストについては、該当する翻訳プロバイダーにお問い合わせください。
 
-多言語コンテンツの場合は、次の設定を定義する必要があります。
+多言語コンテンツについては、次の設定を定義する必要があります。
 
 * Journey Optimizer で翻訳機能を使用するには、API を対応する役割に割り当てる必要があります。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-* 多言語コンテンツの作成を開始するには、ユーザーに **[!UICONTROL 言語設定の管理]** 権限を付与する必要があります。 自動フローを行うには、**[!UICONTROL 翻訳サービス]** の機能に関連する権限も必要です。 [権限の詳細情報](../administration/permissions.md)
+* 多言語コンテンツの作成を開始するには、ユーザーに&#x200B;**[!UICONTROL 言語設定の管理]**&#x200B;権限を付与する必要があります。自動フローの場合、ユーザーには&#x200B;**[!UICONTROL 翻訳サービス]**&#x200B;機能に関連する権限も必要です。[権限の詳細情報](../administration/permissions.md)
 
-+++ 多言語関連の権限を割り当てる方法を説明します
++++ 多言語関連の権限を割り当てる方法について説明します。
 
    1. **権限**&#x200B;付きの製品で、「**役割**」タブに移動し、目的の「**役割**」を選択します。
 
    1. 「**編集**」をクリックして、権限を変更します。
 
-   1. **翻訳サービス** リソースを追加して、ドロップダウンメニューから適切な多言語権限を選択します。
+   1. **翻訳サービス**&#x200B;リソースを追加し、ドロップダウンメニューから適切な多言語権限を選択します。
 
       ![](assets/multilingual-permission.png){zoomable="yes"}
 

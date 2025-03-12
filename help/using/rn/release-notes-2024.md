@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -441,7 +441,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成してパーソナライズしたら、Journey Optimizerの AI アシスタントでコンテンツを次のレベルに進めます。 AI アシスタントを使用して様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
+<p>メッセージを作成してパーソナライズしたら、Journey Optimizer の AI アシスタントを使用してコンテンツを次のレベルに引き上げます。AI アシスタントを使用して様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>で実際のエクスペリエンスに浸ってください。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../content-management/gs-generative.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>

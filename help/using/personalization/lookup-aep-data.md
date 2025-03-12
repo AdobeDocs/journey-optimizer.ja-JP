@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）
-description: Adobe Experience Platform データをパーソナライズ機能に使用する方法を説明します。
+description: Adobe Experience Platform データをパーソナライゼーションに使用する方法を説明します。
 badge: label="ベータ版" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 式、エディター
+keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# パーソナライゼーションに関する Adobe Experience Platform データの使用{#aep-data}
+# Adobe Experience Platform データをパーソナライゼーションに使用する{#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -43,7 +43,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 
 * **サポートされているチャネル**：現時点では、この機能は、メール、SMS およびダイレクトメールチャネル内でのみ使用できます。
 * **データ使用のラベル付けと適用**&#x200B;は、現時点では、参照が有効なデータセットには適用されていません。
-* **フラグメント**：現時点では、データセット参照のパーソナライゼーションを式またはビジュアルフラグメント内に配置できません。
+* **フラグメント**：現時点では、データセット参照のパーソナライゼーションを式フラグメントやビジュアルフラグメント内に配置できません。
 
 ## データ参照用データセットの有効化 {#enable}
 

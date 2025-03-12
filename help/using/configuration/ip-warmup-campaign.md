@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!CAUTION]
    >
-   >IP ウォームアッププランが [ 開始 ](ip-warmup-execution.md) された後は、メールチャネル設定を編集しないでください。
+   >IP ウォームアッププランの[開始](ip-warmup-execution.md)後は、メールチャネル設定を編集しないでください。
 
 1. スケジュールされたマーケティング[キャンペーン](../campaigns/create-campaign.md)を作成し、[メール](../email/create-email.md#create-email-journey-campaign)アクションを選択します。
 

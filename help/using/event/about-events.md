@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '986'
 ht-degree: 100%
 

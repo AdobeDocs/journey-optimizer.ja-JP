@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: データソースの基本を学ぶ
-description: データソースの基本を学ぶ
+description: データソースの開始方法について学ぶ
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, Plaform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 85%
 
 データソースには次の 2 種類があります。
 
-* リアルタイム顧客プロファイルサービスへの接続を定義する **事前設定済み** Adobe Experience Platform データソース。 これはビルトインのデータソースです。[このページ](../datasource/adobe-experience-platform-data-source.md)を参照してください。
-* 外部システムへの接続を定義できる **外部** データソース。 これは作成可能なデータソースです。[このページ](../datasource/external-data-sources.md)を参照してください。
+* リアルタイム顧客プロファイルサービスへの接続を定義する、**事前設定済み**&#x200B;の Adobe Experience Platform データソース。これはビルトインのデータソースです。[このページ](../datasource/adobe-experience-platform-data-source.md)を参照してください。
+* 外部システムへの接続を定義できる&#x200B;**外部**&#x200B;データソース。これは作成可能なデータソースです。[このページ](../datasource/external-data-sources.md)を参照してください。
 
 >[!NOTE]
 >

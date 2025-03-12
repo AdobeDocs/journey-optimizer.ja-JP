@@ -8,9 +8,9 @@ role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer、[Healthcare Shield](https://www.adobe.com/trust/compli
 
 Journey Optimizer の設定プロセスには、Adobe Experience Platform と Customer Journey Analytics（CJA）の両方のテクノロジーを活用する、次の 2 つの部分が含まれます。
 
-* [Adobe Experience Platform の顧客管理キー](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html)ドキュメントに記載されている手順に従います。
+* [Adobe Experience Platform の顧客管理キー](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ja)ドキュメントに記載されている手順に従います。
 * [Customer Journey Analytics の顧客管理キー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=ja)ドキュメントに記載されている手順に従います。
 
   Customer Journey Analytics（CJA）の特定のコンポーネントがバックグラウンドで使用されるので、CJA を購入していない場合でも、この設定プロセスを完了する必要があります。

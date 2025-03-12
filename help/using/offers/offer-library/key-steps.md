@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# オファーを作成および管理するための主な手順 {#key-steps-to-manage-offers}
+# オファーを作成および管理する主要ステップ {#key-steps-to-manage-offers}
 
 オファーを作成、設定、管理し、決定に使用するための主な手順を以下に示します。
 

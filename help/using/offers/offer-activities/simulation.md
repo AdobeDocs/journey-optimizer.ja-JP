@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -132,13 +132,13 @@ ht-degree: 95%
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 「**[!UICONTROL 重複排除]**」セクションでは、決定やプレースメントをまたいだ重複オファーを許可するように選択できます。 つまり、複数の決定や配置に同じオファーを割り当てることができます。
+1. 「**[!UICONTROL 重複排除]**」セクションで、決定や配置をまたいだ重複オファーを許可するように選択できます。つまり、複数の決定や配置に同じオファーを割り当てることができます。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンで重複が許可されているため、複数の決定や配置で同じ提案を行うことができます。 [!DNL Decisioning] API リクエストのプロパティについて詳しくは、[この節](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
+   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているので、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisioning] API リクエストのプロパティについて詳しくは、[この節](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
 
 1. 「**[!UICONTROL 応答の形式]**」セクションで、コードビューにメタデータを含めるように選択できます。対応するオプションのチェックをオンにし、目的のメタデータを選択します。これらは、「**[!UICONTROL コードを表示]**」を選択すると、リクエストペイロードと応答ペイロードに表示されます。詳しくは、「[シミュレーション結果の表示](#simulation-results) 」セクションを参照してください。
 

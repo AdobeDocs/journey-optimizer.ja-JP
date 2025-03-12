@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ビジネス・ルールの構成
-description: ビジネス頻度ルールの定義方法を学ぶ
+title: ビジネスルールの設定
+description: ビジネス頻度ルールを定義する方法について説明します
 feature: Rules
 topic: Content Management
 role: User
@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
