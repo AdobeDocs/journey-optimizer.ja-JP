@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 97%
+source-wordcount: '1134'
+ht-degree: 96%
 
 ---
 
@@ -20,8 +20,12 @@ ht-degree: 97%
 
 ## ジャーニーダッシュボード {#dashboard-jo}
 
-「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。「**[!UICONTROL 概要]**」と「**[!UICONTROL 参照]**」の 2 つのタブが使用できます。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="ジャーニーテーブルおよびタイムライン表示"
+>abstract="ジャーニーテーブルおよびタイムライン表示"
 
+「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。「**[!UICONTROL 概要]**」と「**[!UICONTROL 参照]**」の 2 つのタブが使用できます。
 
 * 「**[!UICONTROL 概要]**」タブには、ジャーニーに関連する主要指標を含むダッシュボードが表示されます。
 
@@ -35,7 +39,6 @@ ht-degree: 97%
   >[!NOTE]
   >
   >このダッシュボードでは、過去 24 時間のトラフィックを含むジャーニーが考慮されます。アクセス可能なジャーニーのみが表示されます。指標は、30 分ごとに、新しいデータが使用可能になった場合にのみ更新されます。
-
 
 * 「**[!UICONTROL 参照]**」タブには、既存のジャーニーのリストが表示されます。ジャーニーを検索し、フィルターを使用して、各要素に対して基本的なアクションを実行できます。例えば、項目の複製や削除が可能です。
 
