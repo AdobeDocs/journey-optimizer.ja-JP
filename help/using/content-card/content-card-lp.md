@@ -5,16 +5,15 @@ topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
+exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
-# Web SDK でのコンテンツカードのサポートの設定 {#content-card-lp}
+# Mobile SDKでのコンテンツカードのサポートの設定 {#content-card-lp}
 
 コンテンツカードは、Adobe Experience Platform Mobile SDK を使用して、Adobe Journey Optimizerから取得し、モバイルアプリケーションでレンダリングすることができます。これにより、モバイルアプリケーションでのエンドツーエンドのエンゲージメントを強化します。 メッセージングSDKは、Adobe Journey Optimizerで作成されたコンテンツカードを取得するためのシンプルで使いやすい API を提供し、アプリで簡単に使用したり、アプリのテーマに合わせてカスタマイズしたりできる、これらのカード用のネイティブモバイルビューを構築します。 また、表示されたコンテンツカードを使用したすべてのアプリユーザーのインタラクションを自動的に追跡し、Journey Optimizer上のキャンペーンに対する正確なレポートを確保します。
 
@@ -48,4 +47,3 @@ ht-degree: 7%
 <p>
 </td>
 </tr></table>
-
