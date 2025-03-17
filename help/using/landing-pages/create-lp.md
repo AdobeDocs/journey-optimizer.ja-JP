@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
-workflow-type: ht
-source-wordcount: '1723'
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
+workflow-type: tm+mt
+source-wordcount: '1682'
 ht-degree: 100%
 
 ---
@@ -157,9 +157,9 @@ ht-degree: 100%
 
    ![](assets/lp_expiry-date.png)
 
-1. 「**[!UICONTROL 追加データ]**」セクションで、1 つ以上のキーと、それらに対応するパラメーター値を定義します。[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を使用して、これらのキーをプライマリページとサブページのコンテンツで活用することができます。詳しくは、[この節](lp-content.md#use-form-component#use-additional-data)を参照してください。
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. [プライマリページのデザイン時に](design-lp.md) 1 つ以上の購読リストを選択した場合、「**[!UICONTROL 購読リスト]**」セクションに表示されます。
 
