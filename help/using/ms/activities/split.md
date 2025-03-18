@@ -5,10 +5,11 @@ title: 分割アクティビティの使用
 description: 複数ステップのキャンペーンでの分割アクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割アクティビティのセグメント"
->abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 複数手順のキャンペーンを開始する前に、矢印ボタンを使用して、ニーズに合った順序でサブセットを並べ替えていることを確認します。"
+>abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 マルチステップキャンペーンを開始する前に、矢印ボタンを使用して、必要に応じてサブセットを順番に並べ替えておきます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

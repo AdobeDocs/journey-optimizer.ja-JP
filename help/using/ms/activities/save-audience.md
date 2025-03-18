@@ -5,10 +5,11 @@ title: オーディエンスを保存アクティビティの使用
 description: 複数手順キャンペーンでの分岐アクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="オーディエンスの保存"
->abstract="このアクティビティを使用して、既存のオーディエンスを更新するか、複数手順キャンペーンでアップストリームで計算された母集団から新しいオーディエンスを作成します。 作成したオーディエンスはオーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できます。"
+>abstract="このアクティビティを使用すると、既存のオーディエンスを更新したり、マルチステップキャンペーンの上流で計算された母集団から新しいオーディエンスを作成したりすることができます。作成したオーディエンスはオーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"

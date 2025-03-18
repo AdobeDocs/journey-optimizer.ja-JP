@@ -5,10 +5,11 @@ title: 紐付けアクティビティの使用
 description: 複数手順キャンペーンでの紐付けアクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="**紐付け** アクティビティは、Adobe Journey Optimizerとワークテーブル内のデータとのリンクを定義できる **ターゲティング** アクティビティです。"
+>abstract="**紐付け**&#x200B;アクティビティは、Adobe Journey Optimizer と作業用テーブル内のデータ間のリンクを定義できる&#x200B;**ターゲティング**&#x200B;アクティビティです。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -121,4 +122,3 @@ ht-degree: 71%
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
 * 「[オーディエンスを保存](save-audience.md)」アクティビティ：これらの更新に基づいて新しいオーディエンスを作成します。また、特定のオーディエンスを作成または更新する必要がない場合は、「**オーディエンスを保存**」アクティビティを「**終了**」アクティビティに置き換えることもできます。複数ステップのキャンペーンを実行すると、受信者プロファイルは常に更新されます。
-

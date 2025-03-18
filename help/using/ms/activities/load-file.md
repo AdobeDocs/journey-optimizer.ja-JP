@@ -5,10 +5,11 @@ title: ファイルを読み込みアクティビティの使用
 description: 複数ステップのキャンペーンでファイルを読み込みアクティビティを使用する方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -105,7 +106,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetdb"
 >title="ターゲットデータベース"
->abstract="既に設定されている **[!UICONTROL ファイルを読み込み]** アクティビティにアクセスする場合、ファイルを外部データベースにアップロードするようにアクティビティを設定すると、追加の **[!UICONTROL ターゲットデータベース]** セクションが表示されます。"
+>abstract="既に設定されている&#x200B;**[!UICONTROL ファイルを読み込み]**&#x200B;アクティビティにアクセスしている場合、ファイルを外部データベースにアップロードするようにアクティビティを設定すると、追加の「**[!UICONTROL ターゲットデータベース]**」セクションが使用可能になります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_command"

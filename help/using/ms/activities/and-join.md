@@ -5,10 +5,11 @@ title: AND 結合アクティビティの使用
 description: 複数手順キャンペーンでの AND 結合アクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 66%
+ht-degree: 78%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="「AND 結合」アクティビティ"
->abstract="**AND 結合** アクティビティを使用すると、複数手順キャンペーンの複数の実行分岐を同期できます。 先行するアクティビティがすべて完了すると、トリガーされます。これにより、複数手順のキャンペーンを続行する前に、特定のアクティビティを確実に完了させることができます。"
+>abstract="**AND 結合**&#x200B;アクティビティを使用すると、マルチステップキャンペーンの複数の実行分岐を同期させることができます。先行するアクティビティがすべて完了すると、トリガーされます。これにより、マルチステップキャンペーンの実行を続ける前に、特定のアクティビティを確実に完了させることができます。"
 
 **AND 結合**&#x200B;アクティビティは、**フロー制御**&#x200B;アクティビティです。複数手順キャンペーンの複数の実行分岐を同期できます。
 

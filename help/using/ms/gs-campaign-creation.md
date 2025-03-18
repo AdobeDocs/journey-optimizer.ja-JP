@@ -9,7 +9,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="複数ステップのキャンペーン"
->abstract="この画面では、複数手順キャンペーンの完全なリストにアクセスし、現在のステータス、最後/次回の実行日を確認して、新しい複数手順キャンペーンを作成できます。"
+>title="マルチステップキャンペーン"
+>abstract="この画面では、マルチステップキャンペーンの完全なリストにアクセスし、現在のステータス、前回／次回の実行日を確認して、新しいマルチステップキャンペーンを作成できます。"
 
 Adobe Journey Optimizerを使用すると、複数の手順から成るキャンペーンを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
 

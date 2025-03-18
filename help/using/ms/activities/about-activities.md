@@ -5,13 +5,13 @@ title: 複数ステップのキャンペーンアクティビティの操作
 description: 複数の手順から成るキャンペーンアクティビティの作成方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 55%
+ht-degree: 58%
 
 ---
-
 
 # 複数ステップのキャンペーンアクティビティについて {#ms-campaign-activities}
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="終了アクティビティ"
->abstract="**終了** アクティビティを使用すると、複数手順のキャンペーンの終了を視覚的に示すことができます。 このアクティビティは、機能上の影響はないので、省略可能です。"
+>abstract="**終了**&#x200B;アクティビティを使用すると、マルチステップキャンペーンの終了をグラフィカルにマークできます。このアクティビティは、機能上の影響はないので、省略可能です。"
 
 次のアクティビティは、複数手順のキャンペーンの整理と実行に固有です。 主なタスクは、他のアクティビティの調整です。
 
