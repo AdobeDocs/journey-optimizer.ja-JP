@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '6222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 99%
 
 ## 2025年3月 {#mar-2025}
 
-* オーディエンスの選定イベントに関するページが更新され、新しい推奨事項が追加されました。 [詳細情報](../building-journeys/audience-qualification-events.md)
-* カスタムアクションのトラブルシューティング機能を、すべてのお客様が利用できるようになりました（GA）。 [詳細情報](../action/troubleshoot-custom-action.md)
+* オーディエンスの選定イベントに関するページが更新され、新しいレコメンデーションが追加されました。[詳細情報](../building-journeys/audience-qualification-events.md)
+* カスタムアクションのトラブルシューティング機能を、すべてのお客様が利用できるようになりました（GA）。[詳細情報](../action/troubleshoot-custom-action.md)
 
 ## 2025年2月 {#feb-2025}
 
-* 「オーディエンスを読み取り」アクティビティのガードレールが更新され、1 つのジャーニーで使用できるアクティビティと、ターゲットにできるオーディエンスが 1 つのみであることが指定されました。 [詳細情報](../building-journeys/read-audience.md)
+* 「オーディエンスを読み取り」アクティビティのガードレールが更新され、ジャーニーで 1 つのアクティビティのみを使用できることと、1 つのオーディエンスのみをターゲットにできることが指定されました。[詳細情報](../building-journeys/read-audience.md)
 * Campaign アクティビティを使用する際のジャーニーガードレールが更新されました。[詳細情報](../start/guardrails.md#ac-g)
 * 最初のジャーニーを作成する手順が詳しく説明され、ドキュメントの節へのリンクが追加されました。[詳細情報](../building-journeys/journey-gs.md)
 * ジャーニーダッシュボードとフィルタリングユーザーインターフェイスの詳細を説明する新しいページが使用できるようになりました。[詳細情報](../building-journeys/journey-ui.md)

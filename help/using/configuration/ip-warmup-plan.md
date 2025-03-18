@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 100%
 

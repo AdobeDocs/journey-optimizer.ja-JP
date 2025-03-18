@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 96%
 
 ## ガードレールとベストプラクティス {#must-read}
 
-* ジャーニーで使用できる **[!UICONTROL オーディエンスを読み取り]** アクティビティは 1 つだけで、キャンバスの最初のアクティビティにする必要があります。
+* ジャーニーで使用できる&#x200B;**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティは 1 つだけで、それをキャンバスの最初のアクティビティにする必要があります。
 
-* **[!UICONTROL オーディエンスを読み取り]** アクティビティのターゲットにできるオーディエンスは 1 つだけです。 複数のオーディエンスが必要な場合は、使用前に、それらのオーディエンスを 1 つのオーディエンスに結合することを検討してください。 [ コンポジションワークフローを使用してオーディエンスを組み合わせる方法を説明します ](../audience/get-started-audience-orchestration.md)
+* **[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティのターゲットにできるオーディエンスは 1 つだけです。複数のオーディエンスが必要な場合は、使用前に、それらのオーディエンスを 1 つのオーディエンスに結合することを検討してください。[構成ワークフローを使用してオーディエンスを結合する方法については、こちらを参照してください](../audience/get-started-audience-orchestration.md)
 
 * **オーディエンスを読み取り**&#x200B;アクティビティを使用するジャーニーの場合、同時に開始できるジャーニーの最大数が決まっています。再試行はシステムによって実行されますが、5 つを超えるジャーニー（**オーディエンスを読み取り**、スケジュール済み、または「できるだけ早く」開始）が同時に開始されることは避けてください。ベストプラクティスは、時間の経過と共に、5 分から 10 分の間隔で分散することです。
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >オーディエンス参加の **実現** ステータスを持つ個人のみがジャーニーにエントリします。 オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >オーディエンスの参加ステータスが&#x200B;**適合**&#x200B;の個人のみが、ジャーニーにエントリします。オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 名前空間]**」フィールドで、個人の識別に使用する名前空間を選択します。デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。 [名前空間の詳細情報](../event/about-creating.md#select-the-namespace)。
 

@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 100%
 

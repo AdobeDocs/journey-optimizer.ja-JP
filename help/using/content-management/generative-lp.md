@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
 source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Journey Optimizer で AI アシスタントを使用する方法について詳�
 
    ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
-1. AI アシスタントの「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
+1. 「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、AI アシスタントで、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 

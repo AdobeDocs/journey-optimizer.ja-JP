@@ -10,7 +10,7 @@ level: Intermediate
 keywords: データ, 管理, プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 

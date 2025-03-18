@@ -5,7 +5,8 @@ title: 分岐アクティビティの使用
 description: 複数手順キャンペーンでの分岐アクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 88%

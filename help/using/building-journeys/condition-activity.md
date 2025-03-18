@@ -12,7 +12,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -167,4 +167,4 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >オーディエンス参加ステータスが **実現** の個人のみが、オーディエンスのメンバーと見なされます。 オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >なお、オーディエンスの参加ステータスが「**適合**」の個人のみが、オーディエンスのメンバーと見なされます。オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。

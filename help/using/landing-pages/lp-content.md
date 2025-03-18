@@ -10,7 +10,7 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 100%
 

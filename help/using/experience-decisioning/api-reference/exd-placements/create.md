@@ -1,6 +1,6 @@
 ---
-title: Exd プレースメントの作成
-description: Exd 戦略は、オファーを決定するための制約とランキングメソッドに関連付けられたコレクションで構成されます。
+title: ExD プレースメントの作成
+description: ExD 戦略は、オファーを決定する制約とランキング方法に関連付けられたコレクションで構成されます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
@@ -8,17 +8,17 @@ level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
-# Exd プレースメントの作成 {#create-exd-placement}
+# ExD プレースメントの作成 {#create-exd-placement}
 
-オファーライブラリ API に対して POST リクエストを実行することで、拡張プレースメントを作成できます。
+オファーライブラリ API に対して POST リクエストを実行することで、ExD プレースメントを作成できます。
 
 **Accept ヘッダーと Content-Type ヘッダー**
 
-次の表に、リクエストヘッダーの Content-Type フィールドを構成する有効な値を示します。
+リクエストヘッダーの Content-Type フィールドを構成する有効な値を次の表に示します。
 
 | パラメーター | 説明 |
 | --------- | ----------- |
@@ -55,7 +55,7 @@ curl --location 'https://platform-stage.adobe.io/data/core/dps/exd-placements' \
 
 **応答**
 
-正常な応答では、ID を含む新しく作成された exd プレースメントの詳細が返されます。 後の手順で、この ID を使用して拡張プレースメントを更新または削除できます。
+応答が成功すると、ID を含む新規作成した ExD プレースメントの詳細が返されます。後の手順で ID を使用して、ExD プレースメントを更新または削除できます。
 
 ```json
 {

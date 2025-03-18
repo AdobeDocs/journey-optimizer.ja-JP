@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
 source-wordcount: '2346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * プロファイルストアのデータの場合は 90 日
 * データレイクのデータの場合は 13 か月
 
-この変更は、後続のフェーズで&#x200B;**既存顧客のサンドボックス**&#x200B;にロールアウトされます。[ データセットの有効期間（TTL）ガードレールの詳細 ](../data/datasets-ttl.md)
+この変更は、後続のフェーズで&#x200B;**既存顧客のサンドボックス**&#x200B;にロールアウトされます。[詳しくは、データセットの有効期間（TTL）ガードレールを参照してください。](../data/datasets-ttl.md)
 
 ## チャネルガードレール {#channel-guardrails}
 

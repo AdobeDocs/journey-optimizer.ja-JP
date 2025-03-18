@@ -1,20 +1,21 @@
 ---
 title: 実施要件ルールの参照
-description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにしたい項目に基づいて実施要件を満たす候補を定義できます。
+description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにする項目に基づいて実施要件を満たす候補を定義できます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: a74f4c87-0b89-4583-97f5-df8e2a30a19b
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # 実施要件ルールの参照 {#list-eligibility-rule}
 
-リクエストパスに ID を含むオファーライブラリ API に対してGET リクエストを実行することで、特定の実施要件ルールを検索できます。
+リクエストパスに ID を含む GET リクエストをオファーライブラリ API に対して実行することで、特定の実施要件ルールを参照できます。
 
 **API 形式**
 
@@ -25,7 +26,7 @@ GET /{ENDPOINT_PATH}/offer-rules/{ID}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | 検索するエンティティの ID。 | `rule1234` |
+| `{ID}` | 参照するエンティティの ID。 | `rule1234` |
 
 **リクエスト**
 

@@ -5,7 +5,8 @@ title: Adobe Journey Optimizerを使用した複数手順キャンペーンの�
 description: Adobe Journey Optimizerを使用して複数手順のキャンペーンを作成する方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 63%

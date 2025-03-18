@@ -1,20 +1,21 @@
 ---
 title: 実施要件ルールの削除
-description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにしたい項目に基づいて実施要件を満たす候補を定義できます。
+description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにする項目に基づいて実施要件を満たす候補を定義できます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 19baf888-23b7-46de-9d3c-9a0fa8ab2297
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 # 実施要件ルールの削除 {#delete-eligibility-rule}
 
-場合によっては、（DELETE）実施要件ルールを削除する必要があります。 削除するには、削除する実施要件ルールの ID を使用して、オファーライブラリ API に対してDELETE リクエストを実行します。
+場合によっては、実施要件ルールを削除（DELETE）する必要があります。これを行うには、削除する実施要件ルールの ID を使用して、オファーライブラリ API に対して DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -42,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-ルールに対して検索（GET）リクエストを実行することで、削除を確認できます。 ルールが削除されているので、HTTP ステータス 404 （見つかりません）が返されます。
+ルールに対して参照（GET）リクエストを実行することで、削除を確認できます。ルールが削除されたので、HTTP ステータス 404（見つかりません）が表示されます。

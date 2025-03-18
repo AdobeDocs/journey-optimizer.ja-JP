@@ -5,16 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: f048b2d1-d26b-4987-8acb-3558df506ec2
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# ルックアップ a  {#list-ranking-formula}
+# ランキング式の参照  {#list-ranking-formula}
 
-リクエストパスに ID を含むオファーライブラリ API に対してGET リクエストを実行することで、特定のランキング式を検索できます。
+リクエストパスに ID を含む GET リクエストをOffer Library API に対して実行することで、特定のランキング式を参照できます。
 
 **API 形式**
 
@@ -25,7 +26,7 @@ GET /{ENDPOINT_PATH}/ranking-formulas/{ID}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | 検索するエンティティの ID。 | `rankingFormula1234` |
+| `{ID}` | 参照するエンティティの ID。 | `rankingFormula1234` |
 
 **リクエスト**
 

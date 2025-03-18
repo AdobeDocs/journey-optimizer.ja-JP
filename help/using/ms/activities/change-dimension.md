@@ -5,7 +5,8 @@ title: ディメンションを変更アクティビティの使用
 description: ディメンションの変更アクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 67%

@@ -14,7 +14,7 @@ googlebot: noindex
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 100%
 

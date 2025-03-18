@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Journey Optimizer で AI アシスタントを使用する方法について詳�
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. AI アシスタントの「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
+1. 「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、AI アシスタントで、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. **[!UICONTROL ブランド]**&#x200B;を選択して、AI で生成されたコンテンツがブランドの仕様と一致していることを確認します。ブランドについて詳しくは、[こちら](brands.md)を参照してください。
 

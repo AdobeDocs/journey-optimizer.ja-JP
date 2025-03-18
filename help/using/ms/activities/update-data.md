@@ -5,7 +5,8 @@ title: 複数手順キャンペーンでのデータを更新アクティビテ�
 description: データ更新アクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 85%

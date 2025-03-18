@@ -10,7 +10,7 @@ level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
 

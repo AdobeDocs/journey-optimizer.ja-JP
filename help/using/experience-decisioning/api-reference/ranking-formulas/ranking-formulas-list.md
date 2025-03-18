@@ -5,10 +5,11 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 8b07be08-b37c-4535-82d8-3304340cbcad
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 62%
 
 ランキング式は、ランク付け方法を定義するランキング関数で構成されています。
 
-オファーライブラリ API に対してGET リクエストを 1 回送信すると、すべてのランキング式のリストを表示できます。
+Offer Library API に対して GET リクエストを 1 回実行することで、すべてのランキング式のリストを表示できます。
 
 **API 形式**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/ranking-formulas?{QUERY_PARAMS}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | exdFunction. | `property=exdFunction%3D%3Dtrue` |
+| `{QUERY_PARAMS}` | exdFunction。 | `property=exdFunction%3D%3Dtrue` |
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
@@ -56,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/ranking-formulas?property=e
 
 **応答**
 
-応答が成功すると、アクセス権のあるランキング式のリストが返されます。
+応答が成功すると、自身がアクセス権を持っているランキング式のリストが返されます。
 
 ```json
 {

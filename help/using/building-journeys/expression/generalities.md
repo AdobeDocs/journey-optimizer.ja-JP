@@ -11,7 +11,7 @@ exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 大文字と小文字の区別に関する様々なルールを次に示します。
 
-* すべての演算子（and、or など）は、小文字で記述する必要があります。例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
+* すべての演算子（and、or など）は小文字で記述する必要があります。 例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
 * すべての関数名では大文字と小文字が区別されます。例：_inAudience()_ は有効なのに対して、_INAUDIENCE()_ 関数は有効ではありません。
 * フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語の組み込み要素ではなく、エンドユーザーが作成します。
 

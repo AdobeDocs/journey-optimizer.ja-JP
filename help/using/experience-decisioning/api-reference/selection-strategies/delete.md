@@ -5,13 +5,13 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: ht
+exl-id: 774f3773-bc39-46c4-b32c-143abbd45696
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
 ---
-
 
 # 選択戦略の削除 {#delete-selection-strategy}
 

@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 
 | パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 | `path` | 更新するパラメーターのパス。 |
 | `value` | パラメーターの更新に使用する新しい値。 |
 

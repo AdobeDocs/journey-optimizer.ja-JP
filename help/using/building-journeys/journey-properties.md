@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
 source-wordcount: '2259'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -279,7 +279,7 @@ Adobe Journey Optimizer 2024年6月リリース以降、ジャーニーのグロ
 
 1. ジャーニーを開きます。
 
-1. ジャーニーキャンバスの右上のセクションにある「![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg)**[!UICONTROL 終了条件を表示]**」アイコンをクリックします。
+1. ジャーニーキャンバスの右上のセクションにある ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 終了条件を表示]**&#x200B;アイコンをクリックします。
 
 1. 「**[!UICONTROL 終了条件を追加]**」を選択します。
 

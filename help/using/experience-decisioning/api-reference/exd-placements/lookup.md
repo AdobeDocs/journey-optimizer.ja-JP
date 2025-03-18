@@ -1,6 +1,6 @@
 ---
-title: exd プレースメントの参照
-description: 拡張プレースメントは、オファーを決定するための制約とランキングメソッドに関連付けられたコレクションで構成されます。
+title: ExD プレースメントの参照
+description: ExD プレースメントは、オファーを決定するための制約とランキング方法に関連付けられたコレクションで構成されます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
-# exd プレースメントの参照 {#list-exd-placement}
+# ExD プレースメントの参照 {#list-exd-placement}
 
-リクエストパスに ID を含むオファーライブラリ API に対してGET リクエストを実行することで、特定の式を検索できます。
+リクエストパスに ID を含む GET リクエストを Offer Library API に対して実行することで、特定の ExD プレースメントを参照できます。
 
 **API 形式**
 
@@ -40,7 +40,7 @@ curl --location 'https://platform-stage.adobe.io/data/core/dps/exd-placements/dp
 
 **応答**
 
-応答が成功すると、拡張プレースメントの詳細が返されます。
+応答が成功すると、ExD プレースメントの詳細が返されます。
 
 ```json
 {

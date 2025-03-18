@@ -10,7 +10,7 @@ level: Intermediate
 keywords: abac, 属性, 認証, データ, アクセス, 機密, アセット
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 100%
 

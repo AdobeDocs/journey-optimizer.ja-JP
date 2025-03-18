@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
-workflow-type: ht
+source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
+workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%
 

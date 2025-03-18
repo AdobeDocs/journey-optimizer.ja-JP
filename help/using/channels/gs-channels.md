@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -60,18 +60,18 @@ Adobe Journey Optimizerでは、次の 2 つの主要なコンテキストで通
 <td><a href="../sms/get-started-sms.md"><img alt="SMS" src="assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/get-started-sms.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/get-started-push.md"><img alt="プッシュ" src="assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../push/get-started-push.md"><strong> プッシュ通知 </strong></a></div></td>
+<div align="center"><a href="../push/get-started-push.md"><strong>プッシュ通知</strong></a></div></td>
 <td><a href="../direct-mail/get-started-direct-mail.md"><img alt="ダイレクトメール" src="assets/do-not-localize/direct-mail.jpg"></a>
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>ダイレクトメール</strong></a></div></td>
 </tr></table>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="アプリ内" src="assets/do-not-localize/inapp.jpg"></a>
-<div align="center"><a href="../in-app/get-started-in-app.md"><strong> アプリ内 </strong></a></div></td>
-<td><a href="../web/get-started-web.md"><img alt="web" src="assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../in-app/get-started-in-app.md"><strong>アプリ内</strong></a></div></td>
+<td><a href="../web/get-started-web.md"><img alt="Web" src="assets/do-not-localize/web.jpg"></a>
 <div align="center"><a href="../web/get-started-web.md"><strong>Web</strong></a></div></td>
 <td><a href="../code-based/get-started-code-based.md"><img alt="コードベースのエクスペリエンス" src="assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/get-started-code-based.md"><strong>コードベースのエクスペリエンス</strong></a></div></td>
 <td><a href="../content-card/get-started-content-card.md"><img alt="コンテンツカード" src="assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/get-started-content-card.md"><strong> コンテンツカード </strong></a></div></td>
+<div align="center"><a href="../content-card/get-started-content-card.md"><strong>コンテンツカード</strong></a></div></td>
 </tr></table>

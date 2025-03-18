@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -171,19 +171,19 @@ ht-degree: 94%
          + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
          + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + マルチステップキャンペーン {#ms-campaigns}
-   + [複数手順キャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
+   + [マルチステップキャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
    + [主な原則](using/ms/gs-campaign-creation.md)
    + 設定 {#ms-config}
       + [スキーマ](using/ms/ms-schemas.md)
       + [イベント変数の操作](using/ms/event-variables.md)
-   + 最初の複数手順キャンペーン {#create-ms-campaign} ールの作成
-      + [オーケストレーションされたキャンペーンの作成](using/ms/create-ms-campaign.md)
-      + [アクティビティを調整](using/ms/orchestrate-activities.md)
-      + [キャンペーン設定を指定](using/ms/ms-campaign-settings.md)
+   + 最初のマルチステップキャンペーンの作成 {#create-ms-campaign}
+      + [調整されたキャンペーンの作成](using/ms/create-ms-campaign.md)
+      + [アクティビティの調整](using/ms/orchestrate-activities.md)
+      + [キャンペーン設定の指定](using/ms/ms-campaign-settings.md)
       + [キャンペーンの開始と監視](using/ms/start-monitor-campaigns.md)
-      + [ パーソナライゼーションの管理 ](using/ms/ms-personalization.md)
-   + での複数手順のキャンペーンアクティビティ {#design-campaigns}
-      + [複数ステップのキャンペーンアクティビティについて](using/ms/activities/about-activities.md)
+      + [パーソナライゼーションの管理](using/ms/ms-personalization.md)
+   + マルチステップキャンペーンアクティビティ {#design-campaigns}
+      + [マルチステップキャンペーンアクティビティについて](using/ms/activities/about-activities.md)
       + [AND 結合](using/ms/activities/and-join.md)
       + [オーディエンスを作成](using/ms/activities/build-audience.md)
       + [ディメンションを変更](using/ms/activities/change-dimension.md)
@@ -364,9 +364,9 @@ ht-degree: 94%
       + [パーソナライゼーションの基本を学ぶ](using/personalization/personalize.md)
       + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-      + [ 式フラグメントの再利用 ](using/personalization/use-expression-fragments.md)
-      + [Adobe Experience Platform データをパーソナライゼーションに使用（Beta） ](using/personalization/lookup-aep-data.md)
-      + ヘルパー関数のリスト {#functions}
+      + [式フラグメントの再利用](using/personalization/use-expression-fragments.md)
+      + [パーソナライゼーションへの Adobe Experience Platform データの使用（ベータ版）](using/personalization/lookup-aep-data.md)
+      + ヘルパー関数リスト {#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
@@ -504,15 +504,15 @@ ht-degree: 94%
             + ランキング式 {#ranking-formulas}
                + [ランキング式の作成](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [ランキング式の削除](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [ランキング式を参照](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [ランキング式の参照](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
                + [選択ランキング式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [ランキング式を更新](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+               + [ランキング式の更新](using/experience-decisioning/api-reference/ranking-formulas/update.md)
             + 実施要件ルール {#eligibility-rules}
                + [実施要件ルールの作成](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [実施要件ルールを削除](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [実施要件ルールを参照](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [実施要件ルールリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [実施要件ルールを更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+               + [実施要件ルールの削除](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+               + [実施要件ルールの参照](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+               + [実施要件ルールのリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+               + [実施要件ルールの更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [コードベースのエクスペリエンスチャネルを使用したオファーの配信](using/experience-decisioning/api-reference/deliver.md)
       + 決定項目の管理 {#decision-items}
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)

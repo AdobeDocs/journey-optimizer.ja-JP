@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,5 +84,5 @@ ht-degree: 95%
 
 1. **決定ポリシーを作成し、コードベースのキャンペーンに埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
 
-   ➡️ [ 決定ポリシーの操作方法を説明します ](create-decision.md)
-➡️コードベースチャネルを使用してオファーを正常に配信するには、[ この節 ](../code-based/code-based-implementation-samples.md) に記載されている実装手順に従います
+   ➡️ [詳しくは、決定ポリシーの操作方法を参照してください](create-decision.md)
+➡️ コードベースのチャネルを通じてオファーを正常に配信するには、[この節](../code-based/code-based-implementation-samples.md)の実装手順に従ってください

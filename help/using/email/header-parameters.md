@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: ht
+exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
+source-git-commit: 2bb24061d05bc4cabc8565d35cd49be5314c056a
+workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 100%
 
 ---
-
 
 # ヘッダーパラメーター {#email-header}
 

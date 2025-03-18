@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="ベータ版" type="Informative"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 100%
 

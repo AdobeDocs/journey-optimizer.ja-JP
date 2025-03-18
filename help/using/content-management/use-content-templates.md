@@ -7,13 +7,13 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: f5508708-0f09-4fde-8057-d2637f5679c7
+source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツテンプレートの使用 {#use-content-templates}
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 100%
 

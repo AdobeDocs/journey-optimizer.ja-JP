@@ -1,22 +1,23 @@
 ---
 title: 実施要件ルールのリスト
-description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにしたい項目に基づいて実施要件を満たす候補を定義できます。
+description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにする項目に基づいて実施要件を満たす候補を定義できます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: c8f88954-a721-4d18-9137-035ee9dc1bcf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # 実施要件ルールのリスト {#list-eligibilit-rules}
 
-実施要件ルールは、実施要件の定義方法を定義するPQL ルール式で構成されます。
+実施要件ルールは、実施要件の定義方法を定義するPQL ルール式で構成されています。
 
-オファーライブラリ API に対してGET リクエストを 1 回送信すると、すべての実施要件ルールのリストを表示できます。
+オファーライブラリ API に対して単一の GET リクエストを実行することで、すべての実施要件ルールのリストを表示できます。
 
 **API 形式**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | exdRule. | `property=exdRule%3D%3Dtrue` |
+| `{QUERY_PARAMS}` | exdRule。 | `property=exdRule%3D%3Dtrue` |
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
@@ -56,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules?property=exdRul
 
 **応答**
 
-応答が成功すると、アクセス権のある実施要件ルールのリストが返されます。
+応答が成功すると、自身がアクセス権を持っている実施要件ルールのリストが返されます。
 
 ```json
 {

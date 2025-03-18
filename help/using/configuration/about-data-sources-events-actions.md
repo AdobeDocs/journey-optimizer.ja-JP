@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 設定, ジャーニー, ダッシュボード, データソース, イベント, アクション
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 

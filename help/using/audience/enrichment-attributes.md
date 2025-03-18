@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -39,21 +39,21 @@ ht-degree: 100%
 >
 >構成ワークフローを使用して作成されたオーディエンスからのエンリッチメント属性を使用するには、それらが「ExperiencePlatform」データソース内のフィールドグループに追加されていることを確認します。
 >
->+++ エンリッチメント属性をフィールドグループに追加する方法を学ぶ>
++++ エンリッチメント属性をフィールドグループに追加する方法を学ぶ>
 >
->1. 「管理」／「設定」／「データソース」に移動します。
->1. 「Experience Platform」を選択し、フィールドグループを作成または編集します。
->1. スキーマセレクターで、適切なスキーマを選択します。スキーマの名前は、「Schema for audienceId:」 + オーディエンス ID の形式になります。オーディエンスの ID は、オーディエンスインベントリのオーディエンスの詳細画面で確認できます。
->1. フィールドセレクターを開き、追加するエンリッチメント属性を見つけて、その横にあるチェックボックスをオンにします。
->1. 変更を保存します。
->1. エンリッチメント属性がフィールドグループに追加されたら、上記の場所で Journey Optimizer で活用できます。
+1. 「管理」／「設定」／「データソース」に移動します。
+1. 「Experience Platform」を選択し、フィールドグループを作成または編集します。
+1. スキーマセレクターで、適切なスキーマを選択します。スキーマの名前は、「Schema for audienceId:」 + オーディエンス ID の形式になります。オーディエンスの ID は、オーディエンスインベントリのオーディエンスの詳細画面で確認できます。
+1. フィールドセレクターを開き、追加するエンリッチメント属性を見つけて、その横にあるチェックボックスをオンにします。
+1. 変更を保存します。
+1. エンリッチメント属性がフィールドグループに追加されたら、上記の場所で Journey Optimizer で活用できます。
 >
->データソースについて詳しくは、次の節を参照してください。
+データソースについて詳しくは、次の節を参照してください。
 >
->* [Adobe Experience Platform データソースの操作](../datasource/adobe-experience-platform-data-source.md)
->* [データソースの設定](../datasource/configure-data-sources.md)
+* [Adobe Experience Platform データソースの操作](../datasource/adobe-experience-platform-data-source.md)
+* [データソースの設定](../datasource/configure-data-sources.md)
 >
->+++
++++
 
 
 

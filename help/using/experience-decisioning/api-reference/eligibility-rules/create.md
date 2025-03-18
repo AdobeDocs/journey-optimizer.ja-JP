@@ -1,14 +1,15 @@
 ---
 title: 実施要件ルールの作成
-description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにしたい項目に基づいて実施要件を満たす候補を定義できます。
+description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにする項目に基づいて実施要件を満たす候補を定義できます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 39c6e82e-c1b1-4dda-a941-3db6324cef37
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +51,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **応答**
 
-応答が成功すると、ID など、新しく作成された実施要件ルールの詳細が返されます。 後の手順で、この ID を使用して実施要件ルールを更新または削除できます。
+応答が成功すると、ID を含む新規作成した実施要件ルールの詳細が返されます。後の手順で ID を使用して、実施要件ルールを更新または削除できます。
 
 ```json
 {

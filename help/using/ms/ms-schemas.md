@@ -5,13 +5,13 @@ title: 複数手順キャンペーンでのスキーマの操作
 description: 複数手順キャンペーンでスキーマを作成および管理する方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
+source-git-commit: 26be6552343b50575b491a49d93d0280071e0eaa
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 5%
 
 ---
-
 
 # スキーマの操作 {#ms-schemas}
 
