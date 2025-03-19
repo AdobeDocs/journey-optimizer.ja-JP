@@ -176,7 +176,7 @@ true を返します
 
 >[!NOTE]
 >
-&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
+>&lt;expression1> と &lt;expression2> には、データタイプコントロールはありません。
 
 結果はブール値です。
 
