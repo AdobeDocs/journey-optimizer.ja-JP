@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: c8f88954-a721-4d18-9137-035ee9dc1bcf
 source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
 
 ### ページング {#paging}
 

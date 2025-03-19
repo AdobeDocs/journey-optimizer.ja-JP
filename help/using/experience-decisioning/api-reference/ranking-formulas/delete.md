@@ -5,16 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 # ランキング式の削除 {#delete-selection-strategy}
 
-ランキング式を（DELETE）削除する必要が生じる場合があります。 これをおこなうには、削除するランキング式の ID を使用してオファーライブラリ API に対してDELETE リクエストを実行します。
+場合によっては、ランキング式を削除（DELETE）する必要があります。これを行うには、削除するランキング式の ID を使用して、オファーライブラリ API に対して DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -42,5 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-ランキング式に対して検索（GET）リクエストを試みることで、削除を確認できます。 ランキング式が削除されているので、HTTP ステータス 404 （見つかりません）が返されます。
-
+ランキング式に対して参照（GET）リクエストを実行することで、削除を確認できます。ランキング式が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。

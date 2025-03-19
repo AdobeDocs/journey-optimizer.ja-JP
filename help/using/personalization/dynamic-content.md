@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 式, エディター, 動的, コンテンツ
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer では、ライブラリで作成した条件付きル�
 
 E メールデザイナーでコンテンツコンポーネントのバリアントを作成する手順は次のとおりです。
 
-1. [メールデザイナー](../email/content-from-scratch.md)で、コンテンツコンポーネントを選択し、「**[!UICONTROL 条件付きコンテンツの有効化]**」をクリックします。
+1. [E メールデザイナー](../email/content-from-scratch.md)で、コンテンツコンポーネントを選択し、「**[!UICONTROL 条件付きコンテンツの有効化]**」をクリックします。
 
    ![](assets/conditions-enable-conditional.png)
 

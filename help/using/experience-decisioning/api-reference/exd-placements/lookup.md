@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ GET /{ENDPOINT_PATH}/exd-placements/{ID}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | 検索するエンティティの ID。 | `placement1234` |
+| `{ID}` | 参照するエンティティの ID。 | `placement1234` |
 
 **リクエスト**
 

@@ -5,20 +5,21 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # ランキング式の作成 {#create-ranking-formula}
 
-オファーライブラリ API に対して POST リクエストを実行することで、ランキング式を作成できます。
+Offer Library API に対して POST リクエストを実行することで、ランキング式を作成できます。
 
 **Accept ヘッダーと Content-Type ヘッダー**
 
-次の表に、リクエストヘッダーの Content-Type フィールドを構成する有効な値を示します。
+リクエストヘッダーの Content-Type フィールドを構成する有効な値を次の表に示します。
 
 | ヘッダー名 | 値 |
 | --------- | ----------- | 
@@ -74,7 +75,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/ranking-formulas' \
 
 **応答**
 
-応答が成功すると、`id` を含む、新しく作成されたランキング式の詳細が返されます。 後の手順で、この `id` を使用してランキング式を更新または削除できます。
+応答が成功すると、`id` を含む、新規作成したランキング式の詳細が返されます。後の手順で `id` を使用して、ランキング式を更新または削除できます。
 
 ```json
 {

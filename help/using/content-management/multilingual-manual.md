@@ -10,7 +10,7 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
 ht-degree: 100%
 

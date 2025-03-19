@@ -1,26 +1,27 @@
 ---
-title: 実施要件ルールを更新
-description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにしたい項目に基づいて実施要件を満たす候補を定義できます。
+title: 実施要件ルールの更新
+description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにする項目に基づいて実施要件を満たす候補を定義できます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # 実施要件ルールの更新 {#update-eligibility-rule}
 
-オファーライブラリ API に対してPUT リクエストを実行することで、ルールを変更または更新できます。
+オファーライブラリ API に対して PUT リクエストを実行することで、ルールを変更または更新できます。
 
-使用可能な操作など、JSON PUTについて詳しくは、公式の [JSON PUT ドキュメント ](https://jsonpatch.com/) を参照してください。
+使用可能な操作など、JSON PUT について詳しくは、[JSON PUT の公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
 **Accept ヘッダーと Content-Type ヘッダー**
 
-次の表に、リクエストヘッダーの Content-Type フィールドを構成する有効な値を示します。
+リクエストヘッダーの Content-Type フィールドを構成する有効な値を次の表に示します。
 
 | ヘッダー名 | 値 |
 | --------- | ----------- | 
@@ -88,7 +89,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 
 **応答**
 
-応答が成功すると、ID など、実施要件ルールの更新された詳細が返されます。
+正常な応答では、ID など、実施要件ルールの更新された詳細が返されます。
 
 ```json
 {

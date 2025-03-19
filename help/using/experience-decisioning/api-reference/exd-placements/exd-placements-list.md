@@ -1,20 +1,20 @@
 ---
-title: List exd placements
-description: 拡張プレースメントは、オファーを決定するための制約とランキングメソッドに関連付けられたコレクションで構成されます。
+title: ExD プレースメントのリスト
+description: ExD プレースメントは、オファーを決定するための制約とランキング方法に関連付けられたコレクションで構成されます。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# List exd placements {#list-exd-placements}
+# ExD プレースメントのリスト {#list-exd-placements}
 
-オファーライブラリ API に対してGET リクエストを 1 回送信すると、すべての拡張プレースメントのリストを表示できます。
+Offer Library API に対して GET リクエストを 1 回実行することで、すべての ExD プレースメントのリストを表示できます。
 
 **API 形式**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/exd-placements?{QUERY_PARAMS}
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-クエリパラメーターを使用して、リソースをリストする際に結果をページ化およびフィルタリングできます。 ステータス、チャネル、チャネル設定でフィルタリングできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。ステータス、チャネル、channelConfiguration でフィルタリングできます。
 
 ### ページング {#paging}
 
@@ -54,7 +54,7 @@ curl --location --request GET 'https://platform-stage.adobe.io/data/core/dps/exd
 
 **応答**
 
-応答が成功すると、アクセス権のある Exd プレースメントのリストが返されます。
+応答が成功すると、自身がアクセス権を持っている ExD プレースメントのリストが返されます。
 
 ```json
 {

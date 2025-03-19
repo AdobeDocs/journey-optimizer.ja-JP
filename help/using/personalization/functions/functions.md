@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -299,7 +299,7 @@ ht-degree: 99%
         <td><a href="string.md#doesNotStartWith">次で始まらない</a></td><td>文字列の先頭が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">エンコード 64</a></td><td>文字列のエンコードに使用します。</td>
+        <td><a href="string.md#encode64">エンコード 64</a></td><td>この関数は、文字列をエンコードするために使用されます</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">次で終わる</a></td><td>文字列の末尾が指定の部分文字列になっていないかどうかを判定するために使用します。</td>
