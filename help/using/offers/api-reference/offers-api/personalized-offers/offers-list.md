@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 72%
 
 ---
 
@@ -44,7 +44,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
 
 ### ページング {#paging}
 
@@ -123,6 +123,76 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
         "self": {
             "href": "/offers?offer-type=personalized&href={SELF_HREF}",
             "type": "application/json"
+        }
+    }
+}
+```
+
+応答に複数のパーソナライズされたオファーがない場合、ページネーションを実行します。
+
+**応答**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {
+        "href": "/offers?orderby=-modified&limit=2&offer-type=PERSONALIZED",
+        "type": "application/json"
+        },
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+    }
+```
+
+| 指標 | 説明 |
+|---------|-------------|
+| `total` | パーソナライズされたオファーの数。 |
+| `count` | この応答で返されるオファーの数。 |
+
+`/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED` などの `_links.next.href` からエンドポイントを取得し、API に追加します。
+
+**API 形式**
+
+```http
+GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
+```
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+}
+```
+
+同様に、最初のページではなく、パーソナライズされたオファーの以前のページを取得する必要がある場合は、`_links.prev` から `href` 値を使用します。 次の例に示すように、URL にリクエストを実行して、以前の結果セットを取得します。
+
+**応答**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {...},
+        "prev": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
         }
     }
 }
