@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1badd589ee3722b28e9a404a9ffbe53eb0ae7c69
+source-git-commit: 636c1f6e03017f166da70707d03835feceab1a00
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 57%
+source-wordcount: '659'
+ht-degree: 40%
 
 ---
 
@@ -50,6 +50,48 @@ ht-degree: 57%
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーのカレンダービュー（限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>カレンダー表示で、すべてのジャーニーのアクティベーションを視覚化できるようになりました。 この機能は、一部のお客様に対する限定提供としてリリースされています。<p>
+<p>この変更は、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Dynamic Media との統合（限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic Media アセットをJourney Optimizerで直接使用およびアクセスできるようになりました。 この統合により、次のことが可能になります。
+<ul>
+<li>リアルタイムのアップデートによるアセットの一元管理</li>
+<li>幅や高さなどのアセット設定を即座に変更</li>
+<li>テキストオーバーレイを使用した画像を使用してコンテンツをパーソナライズします</li>
+<li>コンテンツを更新し、パーソナライゼーションフィールドを追加して、Dynamic Media テンプレートをカスタマイズします</li>
+</ul>
+<p>
+<p>この統合は、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 <table>
@@ -103,3 +145,25 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 ![Personalization エディターの新機能を示すビデオ ](assets/do-not-localize/personalization-editor.gif)
 
 詳しくは、[詳細なドキュメント](../personalization/personalization-build-expressions.md)を参照してください。
+
+
+**キャンペーン**
+
+* キャンペーンリストでキャンペーンを選択すると、詳細を表示するパネルが開くようになりました。
+* サンドボックスから別のサンドボックスにキャンペーンをコピーできるようになりました。
+
+**パーソナライゼーション**
+
+パーソナライゼーションエディターに新しい「ピル」ボタンが追加されました。 有効にすると、プロファイルとコンテキストの属性が錠剤として表示され、コードの読みやすさが向上します。
+
+**承認**
+
+承認ポリシーの条件を定義する際に、タグまたはオブジェクトカテゴリ（あるいはその両方）でフィルタリングできるようになりました。
+
+**チャネル設定**
+
+Adobe Experience Platform統合タグをチャネル設定に割り当てることができるようになりました。 これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。
+
+**配信品質**
+
+親側から管理されるDMARCでサブドメインをデリゲートできるようになりました。
