@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2039ce0efdefaa0708a790135599d2ce97e48f1
+source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 40%
+source-wordcount: '713'
+ht-degree: 37%
 
 ---
 
@@ -167,3 +167,7 @@ Adobe Experience Platform統合タグをチャネル設定に割り当てるこ�
 **配信品質**
 
 親側から管理されるDMARCでサブドメインをデリゲートできるようになりました。
+
+**業務方法書**
+
+バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。 毎日のフリークエンシーキャッピングルールの精度を確保するには、キャンペーンまたはジャーニーのオーサリング時に、最も優先度の高い名前空間を選択してください。 名前空間の優先度について詳しくは、[Platform ID サービスガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} を参照してください
