@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: ht
-source-wordcount: '6222'
-ht-degree: 100%
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
+source-wordcount: '6333'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,19 @@ ht-degree: 100%
 
 * オーディエンスの選定イベントに関するページが更新され、新しいレコメンデーションが追加されました。[詳細情報](../building-journeys/audience-qualification-events.md)
 * カスタムアクションのトラブルシューティング機能を、すべてのお客様が利用できるようになりました（GA）。[詳細情報](../action/troubleshoot-custom-action.md)
+* データハイジーンは、製品ユーザーインターフェイスのデータライフサイクルになりました。 この変更を反映してドキュメントが更新されました。 [詳細情報](../privacy/data-hygiene.md)
+* 不足しているランディングページの組み込み権限がドキュメントに追加されました。 [詳細情報](../administration/ootb-permissions.md)
+* 繰り返しキャンペーンのスケジュールに関するメモが追加されました。 [詳細情報](../campaigns/create-campaign.md)
+* リンクの挿入とメールメッセージでのトラッキングの有効化に関する節が更新および再編成されました。 [詳細情報](../email/message-tracking.md)
+* Adobe Journey Optimizerへのパーソナライズ機能に関する節を再編成し、改善しました。 [詳細情報](../personalization/personalize.md)
+* パーソナライズされたオファーをリストする意思決定管理 API がサンプルで更新され、応答に複数のパーソナライズされたオファーがない場合にページネーションを実行するようになりました。 [詳細情報](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## 2025年2月 {#feb-2025}
 
-* 「オーディエンスを読み取り」アクティビティのガードレールが更新され、ジャーニーで 1 つのアクティビティのみを使用できることと、1 つのオーディエンスのみをターゲットにできることが指定されました。[詳細情報](../building-journeys/read-audience.md)
-* Campaign アクティビティを使用する際のジャーニーガードレールが更新されました。[詳細情報](../start/guardrails.md#ac-g)
+* オーディエンスを読み取りアクティビティのガードレールが更新され、1 つのジャーニーで使用できるアクティビティと、ターゲットにできるオーディエンスが 1 つのみであることが指定されました。 [詳細情報](../building-journeys/read-audience.md)
+* Adobe Campaign アクティビティを使用する際のジャーニーガードレールが更新されました。 [詳細情報](../start/guardrails.md#ac-g)
 * 最初のジャーニーを作成する手順が詳しく説明され、ドキュメントの節へのリンクが追加されました。[詳細情報](../building-journeys/journey-gs.md)
 * ジャーニーダッシュボードとフィルタリングユーザーインターフェイスの詳細を説明する新しいページが使用できるようになりました。[詳細情報](../building-journeys/journey-ui.md)
 * **[!UICONTROL 送信時間の最適化]**&#x200B;に関するドキュメントと関連する FAQ が更新、改善され、新しい専用ページに移動されました。[詳細情報](../building-journeys/send-time-optimization.md)
