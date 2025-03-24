@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 90%
@@ -30,17 +30,19 @@ ht-degree: 90%
 
 また、テストと検証のために特定の受信者または購読者にメールメッセージのテスト配信を送信したり、一般的なデスクトップ、モバイル、web ベースのクライアントでレンダリングを確認したりすることもできます。
 
+これらのアクションはすべて、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。このボタンには、メッセージのコンテンツ編集画面からアクセスするか、メールチャネルのメールデザイナーや web チャネルの web デザイナーからアクセスできます。
+
+![](../email/assets/email-preview-button.png)
+
+**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+
+
 >[!CAUTION]
 >
 >* メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。[こちらのユースケース](../personalization/personalization-use-case.md)では、パーソナライゼーションのテスト方法を説明します。
 >
 >* 複数の条件付きバリアントを含むメールの配達確認をシミュレートまたはレンダリングする場合、Journey Optimizerには、より多くの処理時間が必要になる場合があります。 タイムアウトやエラーメッセージが発生した場合は、バリアントの合計数を減らすか、条件付きルールを簡素化することを検討してください。 条件付きコンテンツについて詳しくは、[ このページ ](../personalization/dynamic-content.md) を参照してください。
 
-これらのアクションはすべて、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。このボタンには、メッセージのコンテンツ編集画面からアクセスするか、メールチャネルのメールデザイナーや web チャネルの web デザイナーからアクセスできます。
-
-![](../email/assets/email-preview-button.png)
-
-**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## テストプロファイルまたはサンプル入力データを使用したテスト {#methods}
 
