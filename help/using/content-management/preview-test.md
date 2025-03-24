@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。[こちらのユースケース](../personalization/personalization-use-case.md)では、パーソナライゼーションのテスト方法を説明します。
+>* メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。[こちらのユースケース](../personalization/personalization-use-case.md)では、パーソナライゼーションのテスト方法を説明します。
+>
+>* 複数の条件付きバリアントを含むメールの配達確認をシミュレートまたはレンダリングする場合、Journey Optimizerには、より多くの処理時間が必要になる場合があります。 タイムアウトやエラーメッセージが発生した場合は、バリアントの合計数を減らすか、条件付きルールを簡素化することを検討してください。 条件付きコンテンツについて詳しくは、[ このページ ](../personalization/dynamic-content.md) を参照してください。
 
 これらのアクションはすべて、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。このボタンには、メッセージのコンテンツ編集画面からアクセスするか、メールチャネルのメールデザイナーや web チャネルの web デザイナーからアクセスできます。
 
