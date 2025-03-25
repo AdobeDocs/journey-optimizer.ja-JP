@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2030'
 ht-degree: 94%
 
 ---
@@ -32,6 +32,15 @@ ht-degree: 94%
 例えば、顧客に送信する&#x200B;**プロモーション情報**&#x200B;の数を制限するルールセットを作成したり、顧客に送信する&#x200B;**ニュースレター**&#x200B;の数を制限する別のルールセットを作成したりできます。作成するキャンペーンの種類に応じて、プロモーション情報またはニュースレターのルールセットのいずれかを適用することを選択できます。
 
 ➡️ [この機能をビデオで確認](#video)
+
+### 権限 {#permissions-frequency-rules}
+
+ビジネス・ルールを使用するには、次の権限が必要です。
+
+* **[!UICONTROL 頻度ルールの表示]**: ビジネスルールにアクセスして表示します。
+* **[!UICONTROL 頻度ルールの管理]**：ビジネスルールを作成、編集または削除する。
+
+権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
 
 ### グローバルおよびカスタムルールセット {#global-custom}
 
@@ -66,8 +75,6 @@ ht-degree: 94%
 ルールセットを作成するには、次の手順に従います。
 
 >[!NOTE]
->
->ルールセットを作成するには、`Manage Messages Presets` 権限が必要です。 [ ユーザー管理の詳細情報 ](../administration/permissions-overview.md)
 >
 >チャネルドメインのローカルルールセットは最大 3 つ、ジャーニードメインのローカルルールセットは最大 5 つ作成できます。
 
@@ -237,16 +244,6 @@ ht-degree: 94%
 * ルールを定義する
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## メッセージまたはジャーニーにルールセットを適用する {#apply-frequency-rule}
 
