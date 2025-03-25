@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="限定提供"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 90%
+source-wordcount: '944'
+ht-degree: 89%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 90%
 
      >[!AVAILABILITY]
      >
-     >「毎日」の期間は、オンデマンドでのみ使用できます。アクセスするには、アドビ担当者にお問い合わせください。
+     >「毎日」の期間は、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
      この例では、プロファイルが 1 か月に「5」を超えるジャーニーにエントリできないように制限します。
 
