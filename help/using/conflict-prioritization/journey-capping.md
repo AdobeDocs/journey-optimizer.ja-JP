@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="限定提供"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
+source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 89%

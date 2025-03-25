@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
+source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
 workflow-type: tm+mt
-source-wordcount: '2036'
-ht-degree: 90%
+source-wordcount: '2066'
+ht-degree: 89%
 
 ---
 
@@ -155,6 +155,8 @@ ht-degree: 90%
      >[!CAUTION]
      >
      >日別のフリークエンシーキャップの精度を確保するには、[ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}の使用が必須です。オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
+     >
+     >また、キャンペーンやジャーニーのオーサリング時には、最も優先度の高い名前空間を選択する必要があります。 名前空間の優先度について詳しくは、[Platform ID サービスガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} を参照してください
 
    通信が配信されると、プロファイルカウンターの値が更新されることに注意してください。大量の通信を送信する場合は、スループットに応じて、通信の開始から数分または数時間後に受信者にメールが届く可能性があるので（同時に数百万の通信を送信する場合）、この点に注意してください。
 
