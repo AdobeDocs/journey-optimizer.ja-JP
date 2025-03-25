@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 62%
+source-wordcount: '1441'
+ht-degree: 61%
 
 ---
 
@@ -160,13 +160,11 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 承認ポリシーの条件を定義する際に、タグまたはオブジェクトカテゴリ（あるいはその両方）でフィルタリングできるようになりました。
 
-**チャネル設定**
+**設定**
 
-Adobe Experience Platform統合タグをチャネル設定に割り当てることができるようになりました。 これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。
+* Adobe Experience Platform統合タグをチャネル設定に割り当てることができるようになりました。 これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。
 
-**配信品質**
-
-親側から管理されるDMARCでサブドメインをデリゲートできるようになりました。
+* Journey Optimizerでメールサブドメインを設定または編集する際に、関連するDMARC レコードを親ドメインで利用できる場合、自分で管理できるようになりました。
 
 **業務方法書**
 
