@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: 80376fda31f1e24ed3443e6ae1c5bde7ca700311
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 36%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -45,6 +45,22 @@ ht-degree: 36%
 <tr>
 <td>
 <p>Adobe Journey OptimizerのAdobe Express統合により、コンテンツの作成時に直接Adobe Expressの編集ツールを使用して、アセットのサイズ変更、背景の削除、切り抜き、JPEGまたは PNG への変換を行うことができます。<p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニー指標</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニー指標を使用すると、ビジネスにとって最も重要な指標全体でのアクティビティの影響を測定し、パフォーマンスに対するより明確なインサイトを提供できます。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
