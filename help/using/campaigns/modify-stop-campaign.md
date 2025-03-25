@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="キャンペーンのテーブル表示とタイムライン表示"
->abstract="キャンペーンテーブルとタイムラインのビュー"
+>title="キャンペーンテーブルとタイムラインの表示"
+>abstract="キャンペーンテーブルとタイムラインの表示"
 
 キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。
 

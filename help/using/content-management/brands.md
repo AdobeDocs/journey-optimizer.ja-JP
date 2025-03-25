@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,23 +44,23 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_fonts"
->title="フォントスコア"
->abstract="フォントスコア"
+>title="フォントのスコア"
+>abstract="フォントのスコア"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_logos"
->title="ロゴスコア"
->abstract="ロゴスコア"
+>title="ロゴのスコア"
+>abstract="ロゴのスコア"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
->title="画像スコア"
->abstract="画像スコア"
+>title="画像のスコア"
+>abstract="画像のスコア"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="ライティングスタイルスコア"
->abstract="ライティングスタイルスコア"
+>title="書き込みのスタイルのスコア"
+>abstract="書き込みのスタイルのスコア"
 
 >[!AVAILABILITY]
 >
