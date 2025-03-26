@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 100%
+source-wordcount: '1150'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,9 @@ ht-degree: 100%
 新しいバージョンのジャーニーを公開すると、前のバージョンが自動的に終了し、**クローズ**&#x200B;ステータスに切り替わります。このジャーニーにはエントリできません。最新バージョンを停止しても、以前のバージョンはクローズのままとなります。
 
 
+>[!NOTE]
+>
+>ジャーニーのバージョン管理には、特定のガードレールと制限が適用されます。 詳しくは、[このページ](../start/guardrails.md#journey-versions-journey-versions-g)を参照してください。
 
 ## ジャーニーの複製 {#duplicate-a-journey}
 
