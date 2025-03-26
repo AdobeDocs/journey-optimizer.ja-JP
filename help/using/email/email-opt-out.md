@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 95%
 
 ---
 
@@ -41,51 +41,7 @@ ht-degree: 100%
 
 ### メールヘッダーのワンクリック登録解除 URL {#unsubscribe-header}
 
-<!--Do not modify - Legal Review Done -->
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_unsubscribe"
->title="メールへの登録解除 URL の追加"
->abstract="リスト登録解除を有効にすると、メールヘッダーに登録解除 URL が自動的に追加されます。また、メールのコンテンツにワンクリックオプトアウトリンクを挿入することで、メッセージに登録解除 URL を設定することもできます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メールコンテンツからのワンクリックオプトアウト"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メール設定でのリスト登録解除の有効化"
-
-ワンクリックリスト登録解除 URL は、メールの送信者情報の横に表示される登録解除リンクまたはボタンであり、受信者は 1 回のクリックでメーリングリストから即座にオプトアウトできます。
-
-[!DNL Adobe Journey Optimizer] では、「**リスト登録解除を有効にする**」オプションをオンにすると、メールヘッダーには、受信者がメーリングリストから登録解除に使用できる宛先と URL の両方がデフォルトで含まれます。
-
-この設定を使用するメールのメールヘッダーにワンクリック登録解除 URL が含まれるようにするには、チャネル設定レベルで[リスト登録解除を有効にする](email-settings.md#list-unsubscribe)切替スイッチをアクティブ化する必要があります。
-
->[!NOTE]
->
->メールヘッダーにワンクリック登録解除 URL を表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
-
-
-例えば、ワンクリック登録解除 URL は、Gmail で次のような登録解除リンクが表示されます。
-
-![](assets/unsubscribe-header.png)
-
-
-<!--With Adobe Journey Optimizer, you can configure your email configuration settings with an auto-generated one-click unsubscribe URL and mailto address in the email header, or include a one-click opt-out URL in your email body: when a recipient clicks the one-click opt-out link, recipient's unsubscribe request is processed accordingly.-->
-
-<!--
->[!AVAILABILITY]
->
->One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
->
--->
-
-メールクライアントと[メール設定の登録解除設定](email-settings.md#list-unsubscribe)に応じて、メールヘッダーの登録解除リンクをクリックすると、次のような影響を受ける可能性があります。
-
-* **宛先（登録解除）**&#x200B;機能を有効にすると、登録解除リクエストは、設定したサブドメインに基づいてデフォルトの登録解除アドレスに送信されます。
-* **ワンクリック登録解除 URL** 機能が有効になっている場合や、メール本文コンテンツに登録解除 URL を挿入した場合、受信者が、（設定したサブドメインに基づく）ワンクリック登録解除 URL をクリックすると、チャネルレベルまたは ID レベル（同意の設定方法によって異なる）で直接オプトアウトされます。
-
-![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-どちらの場合も、受信者の対応するプロファイルは直ちにオプトアウトされ、この選択が Experience Platform で更新されます。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
-
-[メール設定](email-settings.md#list-unsubscribe)で「**[!UICONTROL リスト登録解除を有効にする]**」オプションをオンにしている場合は、**宛先（登録解除）**&#x200B;と&#x200B;**ワンクリック登録解除 URL** の両方の方法を有効にすることをお勧めします。すべてのメールクライアントが HTTP メソッドをサポートしているわけではありません。代替方法を選択できるように提供されている宛先リスト登録解除機能を使用すると、送信者の評判をより適切に保護でき、すべての受信者が登録解除機能を使用できます。[詳細情報](email-settings.md#list-unsubscribe)
-
+ワンクリックリスト登録解除 URL は、メール送信者情報の横に表示される登録解除リンクまたはボタンです。受信者はワンクリックでメーリングリストから即座にオプトアウトできます。 **[!UICONTROL リスト登録解除]** オプションを管理する方法については、[ この節 ](list-unsubscribe.md) を参照してください。
 
 ### メールコンテンツからのワンクリックオプトアウト {#one-click-opt-out}
 
@@ -100,7 +56,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL リスト登録解除]**」オプションを[チャネル設定レベル](email-settings.md#list-unsubscribe)で有効にし、デフォルトの「**[!UICONTROL ワンクリック登録解除 URL]**」オプションをオフにした場合は、ユーザーがメールヘッダーの登録解除リンクをクリックしたときにも、このランディングページ URL が使用されます。[詳細情報](#unsubscribe-header)
+   >「**[!UICONTROL リスト登録解除]**」オプションを[チャネル設定レベル](email-settings.md#list-unsubscribe)で有効にし、デフォルトの「**[!UICONTROL ワンクリック登録解除 URL]**」オプションをオフにした場合は、ユーザーがメールヘッダーの登録解除リンクをクリックしたときにも、このランディングページ URL が使用されます。[詳細情報](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -134,7 +90,7 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 
 +++ オプトアウト API 呼び出しの実装方法について説明します。
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com){target="_blank"} を使用して&#x200B;**Subscription API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com/){target="_blank"} を使用して&#x200B;**Subscription API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
 この POST 呼び出しは次の通りです。
 
