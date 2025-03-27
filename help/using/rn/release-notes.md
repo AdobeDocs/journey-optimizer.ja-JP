@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
+source-git-commit: e10ffbbe553495b1f9d7a2aeafc3d10e54561389
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 61%
+source-wordcount: '1389'
+ht-degree: 63%
 
 ---
 
@@ -146,15 +146,6 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 ![Personalization エディターの新機能を示すビデオ ](assets/do-not-localize/personalization-editor.gif)
 
 詳しくは、[詳細なドキュメント](../personalization/personalization-build-expressions.md)を参照してください。
-
-**キャンペーン**
-
-* キャンペーンリストでキャンペーンを選択すると、詳細を表示するパネルが開くようになりました。
-* サンドボックスから別のサンドボックスにキャンペーンをコピーできるようになりました。
-
-**パーソナライゼーション**
-
-パーソナライゼーションエディターに新しい「ピル」ボタンが追加されました。 有効にすると、プロファイルとコンテキストの属性が錠剤として表示され、コードの読みやすさが向上します。
 
 **承認**
 
