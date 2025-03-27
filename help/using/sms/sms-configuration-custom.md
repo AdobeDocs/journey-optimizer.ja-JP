@@ -8,14 +8,34 @@ badge: label="ベータ版" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 76%
 
 ---
 
 # カスタムプロバイダーの設定 {#sms-configuration-custom}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_url"
+>title="プロバイダー URL"
+>abstract="接続する外部 API の URL を指定します。 この URL は、API の機能にアクセスするためのエンドポイントとして機能します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_auth_type"
+>title="認証タイプ"
+>abstract="API へのアクセスに必要な認証方法（OAuth トークン、ベアラートークンなど）を指定します。 これにより、外部サービスとの安全で承認済みの通信が確保されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_header_parameters"
+>title="ヘッダーパラメーター"
+>abstract="追加ヘッダーのラベル、タイプ、値を指定して、適切な認証、コンテンツのフォーマット、有効な API 通信を有効にします。 "
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_payload"
+>title="プロバイダーペイロード"
+>abstract="リクエストペイロードを指定して、処理および応答生成のために正しいデータが送信されるようにします。"
 
 >[!AVAILABILITY]
 >
