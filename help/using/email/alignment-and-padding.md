@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 垂直方向の位置揃え, 電子メールエディター, パディング
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 73%
 
 ---
 
@@ -41,3 +41,7 @@ ht-degree: 100%
 1. 同じようにして、他の列の位置揃えとパディングを調整します。
 
 1. 変更を保存します。
+
+>[!TIP]
+>
+>Android デバイスで Gmail 用のメールコンテンツをデザインする場合は、画像や分割線で、大きな固定マージンではなく、列のパディングが使用されていることを確認します。 Android上の Gmail では、多くの場合、画像や余白のサイズを誤ってレンダリングするので、レイアウトがオーバーフローしたり、ディバイダーの行が減ったりします。 画像の幅を小さくするか、列ベースのパディングに依存して一貫性のある表示を行います。

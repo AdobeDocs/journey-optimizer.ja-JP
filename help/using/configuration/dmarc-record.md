@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 100%
+source-wordcount: '1482'
+ht-degree: 85%
 
 ---
 
@@ -94,17 +94,21 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 1. DMARC レコードが関連付けられていないサブドメインを選択し、組織の要件に応じて **[!UICONTROL DMARC レコード]**&#x200B;セクションに入力します。DMARC レコードフィールドに値を入力する手順について詳しくは、[この節](#implement-dmarc)を参照してください。
 
-1. 次の 2 つのオプションを検討します。
+   <!--![](assets/dmarc-record-edit-full.png)-->
 
-   * [CNAME](delegate-subdomain.md#cname-subdomain-delegation) で設定されたサブドメインを編集している場合は、DMARC の DNS レコードをホスティング ソリューションにコピーして、一致する DNS レコードを生成する必要があります。
+   >[!NOTE]
+   >
+   >親ドメインと共にDMARC レコードが見つかったかどうかに応じて、親ドメインの値を使用するか、AdobeでDMARC レコードを管理するかを選択できます。 [詳細情報](#implement-dmarc)
+
+1. サブドメインを編集する場合：
+
+   * Adobeに [ 完全にデリゲート ](delegate-subdomain.md#full-subdomain-delegation) されているため、それ以上のアクションは必要ありません。
+
+   * [CNAME](delegate-subdomain.md#cname-subdomain-delegation) で設定した場合、DMARCの DNS レコードをホスティングソリューションにコピーして、一致する DNS レコードを生成する必要があります。
 
      ![](assets/dmarc-record-edit-cname.png)
 
      DNS レコードがドメインホスティングソリューションに生成されていることを確認し、「...確認します」チェックボックスをオンにします。
-
-   * アドビに[完全に委任](delegate-subdomain.md#full-subdomain-delegation)されたサブドメインを編集している場合は、[このセクション](#implement-dmarc)で説明されている **[!UICONTROL DMARC レコード]**&#x200B;フィールドに入力するだけです。追加のアクションは不要です。
-
-     ![](assets/dmarc-record-edit-full.png)
 
 1. 変更を保存します。
 
@@ -122,13 +126,33 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 1. 「**[!UICONTROL DMARC レコード]**」セクションに移動します。
 
-   サブドメインに DMARC レコードがすでに存在する場合、および [!DNL Journey Optimizer] で取得される場合、インターフェイスで強調表示されているのと同じ値を使用したり、必要に応じて値を変更したりできます。
+1. サブドメインに関連付けられた親ドメインでDMARC レコードが使用可能な場合は、次の 2 つのオプションが表示されます。
 
    ![](assets/dmarc-record-found.png)
 
-   >[!NOTE]
-   >
-   >値を追加しない場合は、事前に入力されたデフォルト値が使用されます。
+   * **[!UICONTROL Adobeで管理]**：サブドメインのDMARC レコードをAdobeで管理することができます。 [ この節 ](#manage-dmarc-with-adobe) で説明されている手順に従います。
+
+   * **[!UICONTROL 自分で管理]**: <!--This option is selected by default.--> このオプションを使用すると、親ドメインの値を使用して、[!DNL Journey Optimizer] 外でDMARC レコードを管理できます。 これらの値はインターフェイスに表示されますが、編集することはできません。
+
+     ![](assets/dmarc-record-found-own.png){width="80%"}
+
+1. 親ドメインでDMARC レコードが見つからない場合は、「**[!UICONTROL Adobeで管理]** オプションのみ使用できます。 サブドメインのDMARC レコードを設定するには、[ 以下 ](#manage-dmarc-with-adobe) の手順に従います。
+
+   ![](assets/dmarc-record-not-found.png){width="80%"}
+
+### AdobeでDMARC レコードを管理する {#manage-dmarc-with-adobe}
+
+AdobeでDMARC レコードを管理するには、「Adobeで管理 **[!UICONTROL オプションを選択し]** 次の手順に従います。
+
+>[!NOTE]
+>
+>[!DNL Journey Optimizer] で取得した場合は、インターフェイスでハイライト表示されているのと同じ値を使用したり、必要に応じて変更したりできます。
+
+![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
+
+>[!NOTE]
+>
+>値を追加しない場合は、事前に入力されたデフォルト値が使用されます。
 
 1. DMARC が失敗した場合に受信者サーバーが実行するアクションを定義します。適用したい [DMARC ポリシー](#dmarc-policies)に応じて、次の 3 つのオプションのいずれかを選択します。
 
@@ -167,12 +191,11 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 1. **レポート間隔**&#x200B;を 24 時間から 168 時間の間で選択します。これにより、ドメイン所有者はメール認証結果に関する最新情報を定期的に受け取り、メールのセキュリティを向上させるために必要な措置を講じることができます。
 
-   <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+<!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-    The default value (24 hours) is generally the email providers' expectation.-->
+The default value (24 hours) is generally the email providers' expectation.
 
-
-<!--
+**********
 
 Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 

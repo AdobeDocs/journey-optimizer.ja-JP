@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 99%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
    + ジャーニーの作成{#create-journey}
       + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
+      + [ジャーニー指標の設定と追跡](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのシミュレート](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 99%
          + [Web SDK でのコンテンツカードのサポート設定](using/content-card/content-card-configuration-sdk.md)
       + [コンテンツカードの作成](using/content-card/create-content-card.md)
       + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
+   + Whatsapp{#whatsapp}
+      + [WhatsApp メッセージの基本を学ぶ](using/whatsapp/get-started-whatsapp.md)
+      + [Journey Optimizerでの WhatsApp チャネルの設定](using/whatsapp/whatsapp-configuration.md)
+      + [WhatsApp メッセージの作成](using/whatsapp/create-whatsapp.md)
+      + [WhatsApp メッセージをチェックして送信する](using/whatsapp/send-whatsapp.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 99%
    + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
    + [Experience Manager Assets の操作](using/integrations/assets.md)
    + [Adobe Stock との連携](using/integrations/stock.md)
+   + [Adobe Expressの操作](using/integrations/express.md)
    + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
    + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
    + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
+   + [GenStudioの操作](using/integrations/genstudio.md)
 + トラッキングと監視 {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)

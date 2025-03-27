@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 100%
+source-wordcount: '1800'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,19 @@ ht-degree: 100%
 
 ![](assets/preset-activate.png)
 
+## チャネル設定へのタグの追加 {#channel-config-tags}
+
+1. チャネル設定リストにアクセスします。
+
+1. 対象となるアクティブな設定で、「**[!UICONTROL その他のアクション]**」ボタンをクリックします。
+
+1. **[!UICONTROL タグを編集]** をクリックします。
+
+1. リストからAdobe Experience Platform タグを選択してチャネル設定を分類し、検索を改善します。 [詳しくは、統合タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. チャネル設定にタグを割り当てたら、タグでタグを [ フィルタリング ](../start/search-filter-categorize.md#filter-on-tags) できます。
 
 ## チュートリアルビデオ{#video-presets}
 

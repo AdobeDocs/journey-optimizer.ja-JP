@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 97%
 
 ---
 
@@ -109,6 +109,14 @@ ht-degree: 100%
     </tr>
     <tr>
     <td>コンテンツカード</td>
+    </tr>
+    <tr>
+    <td>タグ</td>
+    <td>オーディエンスを整理するために使用されるタグの名前。 </td>
+    </tr>
+    <tr>
+    <td>オブジェクト名</td>
+    <td>オブジェクトの名前</td>
     </tr>
     <tr>
     <td>依頼者のユーザー名</td>

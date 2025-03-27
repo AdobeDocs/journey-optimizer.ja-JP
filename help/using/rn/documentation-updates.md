@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65aed24e1df7bf2cfa2d8afbddbadb14a353da38
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 84%
+source-wordcount: '916'
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 * リンクの挿入とメールメッセージでのトラッキングの有効化に関する節が更新および再編成されました。 [詳細情報](../email/message-tracking.md)
 * Adobe Journey Optimizerへのパーソナライズ機能に関する節を再編成し、改善しました。 [詳細情報](../personalization/personalize.md)
 * パーソナライズされたオファーをリストする意思決定管理 API がサンプルで更新され、応答に複数のパーソナライズされたオファーがない場合にページネーションを実行するようになりました。 [詳細情報](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-
+* リストの購読解除機能に関するすべての情報を収集する新しいページが作成され、わかりやすくなりました。 [詳細情報](../email/list-unsubscribe.md)
 
 
 ## 2025年2月 {#feb-2025}

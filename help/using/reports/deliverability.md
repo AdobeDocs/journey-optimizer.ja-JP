@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 91%
 
 ---
 
@@ -171,3 +171,13 @@ DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、
 * Ziggo
 
 アドビでは、これらの FBL を定期的に監査して、利用可能な最新の FBL が追加されていることを確認します。
+
+## SMTP リレーを使用 {#smtp-relay}
+
+[!DNL Journey Optimizer] は、Adobeが所有するメール転送エージェント（MTA）と IP を使用して、メールをインターネットサービスプロバイダー（ISP）に配信します。 ただし、場合によっては、最終的なメール配信を独自の MTA や IP を通じてルーティングしたり、メールを受信者に送信する前に最終的な検証を実行したりする必要があります。
+
+この場合、Journey Optimizerから ISP に直接送信されるのではなく、組織がホストする SMTP サーバーにメールを中継するように選択できます。
+
+>[!AVAILABILITY]
+>
+>SMTP リレー容量はオンデマンドで利用できます。Adobe担当者にお問い合わせください。
