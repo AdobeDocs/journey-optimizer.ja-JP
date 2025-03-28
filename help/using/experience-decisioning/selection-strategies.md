@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 98%
 
 ---
 
@@ -114,6 +114,11 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 ### AI ランキング {#ai-ranking}
 
-AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](ranking.md)を参照してください。
+AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](../offers/ranking/ai-models.md)を参照してください。
 
 AI モデルが作成されたら、そのモデルを選択戦略で使用できます。複数のオファーが実施要件を満たす場合、トレーニング済みモデルシステムは、この選択戦略に対して最初に提示するオファーを決定します。
+
+>[!NOTE]
+>
+>現在、[ リフト測定 ](../offers/ranking/auto-optimization-model.md#lift) レポートは、[ パーソナライズされた最適化 ](../offers/ranking/personalized-optimization-model.md)AI モデルでのみ使用できます。
+

@@ -7,10 +7,10 @@ feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 このユースケースには、いくつかの重要な手順が含まれます。
 
 1. [前提条件を設定](#prerequisites)：リクエストでコンテキストデータを渡すのに必要なすべての手順が完了していることを確認します。
-1. [実施要件ルールでコンテキストデータを使用](#rule)：ユーザーのデバイスタイプに基づいて表示するオファーを決定するルールを作成します。
+1. [ 実施要件ルールでのコンテキストデータの使用 ](#rules): ユーザーのデバイスタイプに基づいて表示するオファーを決定するルールを作成します。
 1. [デバイス固有のオファーを設計](#offers)：デバイスタイプごとにカスタマイズされたオファーを作成し、対応するルールにリンクします。
 1. [オファーコレクションを作成](#collection)：すべてのオファーを静的コレクションにグループ化します。
 1. [決定を設定](#decision)：オファーの決定エンジンを活用して、デバイスタイプに基づいてユーザーに提示する最適なオファーを選択する新しい決定を作成します。
@@ -149,33 +149,33 @@ Decisioning API を使用して自由な形式でコンテキストを渡すの�
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 
