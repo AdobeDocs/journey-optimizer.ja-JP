@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
+source-git-commit: 1e35c2ea2b0a6c8edd5b870311bb32b4b4b58e9a
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 12%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 12%
 
 ## 前提条件 {#prerequisites}
 
-ジャーニー指標を使用する前に、`Commerce Details` [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} を含むデータセットを追加する必要があります。
+ジャーニー指標を使用する前に、`Commerce Details`、`Web` および `Mobile` [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} を含むデータセットを追加する必要があります。
 
 ## 使用可能な指標 {#metrics}
 
