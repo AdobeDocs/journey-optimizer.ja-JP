@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b7e3edff9191d1dab15376c70839f6e2b5a318aa
+source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 80%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 80%
 * Adobe Journey Optimizerへのパーソナライズ機能に関する節を再編成し、改善しました。 [詳細情報](../personalization/personalize.md)
 * パーソナライズされたオファーをリストする意思決定管理 API がサンプルで更新され、応答に複数のパーソナライズされたオファーがない場合にページネーションを実行するようになりました。 [詳細情報](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * リストの購読解除機能に関するすべての情報を収集する新しいページが作成され、わかりやすくなりました。 [詳細情報](../email/list-unsubscribe.md)
-* フリークエンシーキャップの節が更新され、Edge Decisioning API に加えて、Decisioning API と Batch Decisioning API のフリークエンシーキャッピングカウンターを更新する方法に関する情報が追加されました。
-
+* フリークエンシーキャップの節が更新され、Edge Decisioning API に加えて、Decisioning API と Batch Decisioning API のフリークエンシーキャッピングカウンターを更新する方法に関する情報が追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025年2月 {#feb-2025}
 
