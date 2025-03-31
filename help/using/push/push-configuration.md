@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 100%
+source-wordcount: '1839'
+ht-degree: 92%
 
 ---
 
@@ -23,19 +23,7 @@ ht-degree: 100%
 >新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;が利用できるようになりました。この新しい製品機能を使用すると、Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、モバイルプッシュ通知を送信できます。この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。[詳細情報](mobile-onboarding-wf.md)
 >
 
-
-## 開始する前に {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## 開始する前に {#start-push}
 
 ### 権限の設定 {#setup-permissions}
 
@@ -109,6 +97,25 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/push_product_7.png)
+
+
+### データセットの確認 {#push-datasets}
+
+プッシュ通知チャネルでは、次のスキーマとデータセットを使用できます。
+
+| スキーマ <br> データセット | フィールドのグループ | 操作 |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM プッシュプロファイルスキーマ <br>CJM プッシュプロファイルデータセット | プッシュ通知の詳細 <br>Adobe CJM ExperienceEvent - メッセージプロファイルの詳細 <br>Adobe CJM ExperienceEvent - メッセージ実行の詳細 <br> アプリケーションの詳細 <br> 環境の詳細 | プッシュトークンを登録 |
+| CJM プッシュトラッキングエクスペリエンスイベントスキーマ <br>CJM プッシュトラッキングエクスペリエンスイベントデータセット | プッシュ通知トラッキング | インタラクションのトラッキングとレポート UI へのデータの提供 |
+
+
+>[!NOTE]
+>
+>プッシュトラッキングイベントが CJM プッシュトラッキングエクスペリエンスイベントデータセットに取り込まれる場合、データが部分的に正常に取り込まれていても、一部のエラーが発生する可能性があります。 これは、受信イベントにマッピングの一部のフィールドが存在しない場合に発生する可能性があります。システムは警告をログに記録しますが、データの有効な部分の取り込みは防ぎません。 これらの警告は、バッチステータスでは「失敗」として表示されますが、部分的な取り込みの成功を反映しています。
+>
+>各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
+
+
 
 ### アプリの設定 {#configure-app}
 
