@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 95%
+source-wordcount: '991'
+ht-degree: 88%
 
 ---
 
@@ -32,12 +32,19 @@ ht-degree: 95%
 
 * **ランディングページへのリンク**&#x200B;を挿入します。[詳しくは、オプトアウトランディングページの追加方法を参照してください](#opt-out-external-lp)
 
+受信者がオプトアウトリンクをクリックすると、それに応じて購読解除リクエストが処理されます。
+
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platformに移動して [ そのプロファイルを参照 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab) します。 「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}を参照してください。
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>場合によっては、ダウンストリームデータ処理が原因で、登録解除イベントがプロファイルレベルで反映されるまでに時間がかかることがあります。 システムが更新されるまでしばらく待ちます。
 
 ## ワンステップオプトアウト {#opt-out-one-step}
 
 [!DNL Adobe Journey Optimizer] を使用すると、メールヘッダーに自動生成されたワンクリック登録解除 URL と宛先アドレスを使用して[メール設定](email-settings.md#list-unsubscribe)を行ったり、メール本文にワンクリックオプトアウト URL を含めたりすることができます。
-
-受信者がワンクリックオプトアウトリンクをクリックすると、その受信者の登録解除リクエストがそれに応じて処理されます。
 
 ### メールヘッダーのワンクリック登録解除 URL {#unsubscribe-header}
 
@@ -90,7 +97,7 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 
 +++ オプトアウト API 呼び出しの実装方法について説明します。
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com/){target="_blank"} を使用して&#x200B;**Subscription API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com){target="_blank"} を使用して&#x200B;**Subscription API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
 この POST 呼び出しは次の通りです。
 
@@ -170,10 +177,4 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
    ![](assets/opt-out-confirmation-example.png)
 
    その結果、購読を再度登録しない限り、このユーザーはブランドから連絡を受けることはありません。
-
-1. 対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
-
-   ![](assets/opt-out-profile-choice.png)
-
-   「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。
 
