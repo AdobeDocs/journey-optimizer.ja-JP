@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 3de7826ae4a7efc2837288779fb444fa15688d3f
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 59%
@@ -292,6 +292,7 @@ ht-degree: 59%
 -->
 
 ## アプリ内指標 {#inapp-metrics}
+
 <table> 
  <thead> 
   <tr> 
