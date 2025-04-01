@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 59%
 
 ---
 
@@ -21,7 +21,9 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/)を参照してください。
 
-## Capping API の説明
+## Capping API の説明とPostman コレクション {#description}
+
+次の表に、キャッピング API で使用できるコマンドを示します。 リクエストサンプル、パラメーター、応答形式など、詳しくは、[Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/) を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|
@@ -36,6 +38,15 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 設定を作成または更新すると、ペイロードの構文と整合性を保証するチェックが自動的に実行されます。
 問題が発生した場合は、設定を修正するのに役立つ警告またはエラーが返されます。
+
+さらに、テスト設定に役立つPostman コレクションを [ こちら ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) から使用できます。
+
+このコレクションは、__[Adobe I/O コンソールの統合 ](https://console.adobe.io/integrations) /試す/Postman用にダウンロード__ を通じて生成されたPostman変数コレクションを共有するように設定されています。これにより、選択された統合値を使用してPostman環境ファイルが生成されます。
+
+ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
+* `{JO_HOST}`：ゲ [!DNL Journey Optimizer] トウェイ URL。
+* `{BASE_PATH}`：API のエントリポイント。
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
 
 ## エンドポイントの設定
 
@@ -66,7 +77,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 >
 >キャッピング設定をデプロイする際に、「maxHttpConnection」値を指定しない場合、デプロイ済みの設定にデフォルトの「maxHttpConnection = -1」が追加されます。つまり、Journey Optimizer はデフォルトのシステム値を使用します。
 
-### 例：
+例：
 
 ```
 `{
@@ -112,55 +123,66 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 ## ユースケース
 
-この節では、[!DNL Journey Optimizer] でキャッピング設定を管理するために実行できる 5 つの主なユースケースを示します。
+この節では、[!DNL Journey Optimizer] でキャッピング設定を管理するための主なユースケースと、ユースケースの実装に必要な関連 API コマンドについて説明します。
 
-テストと設定に役立つように、[こちら](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)で Postman コレクションを使用できます。
+各 API コマンドについて詳しくは、[API の説明とPostman コレクション ](#description) を参照してください。
 
-この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を使用して生成された Postman 変数コレクションを共有するようにセットアップされています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
++++新しいキャッピング設定の作成とデプロイ
 
-ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
-* `{JO_HOST}` : [!DNL Journey Optimizer] ゲートウェイ URL
-* `{BASE_PATH}`：API のエントリポイント。
-* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
+使用する API 呼び出し：
 
-以下の節では、ユースケースを実行するための Rest API 呼び出し順序付きリストを見つけます。
+1. **`list`** – 既存の設定を取得します。
+1. **`create`** – 新しい設定を作成します。
+1. **`candeploy`** – 設定をデプロイできるかどうかを確認します。
+1. **`deploy`** – 設定をデプロイします。
 
-ユースケース n°1：**新しいキャッピング設定の作成とデプロイ**
++++
 
-1. list
-1. create
-1. candeploy
-1. デプロイ
++++キャッピング設定の更新とデプロイ（まだデプロイされていません）
 
-ユースケース n°2：**まだデプロイされていないキャッピング設定の更新とデプロイ**
+使用する API 呼び出し：
 
-1. list
-1. get
-1. update
-1. candeploy
-1. デプロイ
+1. **`list`** – 既存の設定を取得します。
+1. **`get`** – 特定の設定の詳細を取得します。
+1. **`update`** – 設定を変更します。
+1. **`candeploy`** - デプロイメントの実施要件をチェックします。
+1. **`deploy`** – 設定をデプロイします。
 
-ユースケース n°3：**デプロイ済みのキャッピング設定のデプロイ解除と削除**
++++
 
-1. list
-1. undeploy
-1. delete
++++デプロイ済みのキャッピング設定のデプロイ解除と削除
 
-ユースケース n°4：**デプロイ済みのキャッピング設定の削除**
+使用する API 呼び出し：
 
-1 回の API 呼び出しで、 forceDelete パラメーターを使用して、設定をデプロイ解除および削除できます。
-1. list
-1. 削除、forceDelete パラメーターを使用
+1. **`list`** – 既存の設定を取得します。
+1. **`undeploy`** – 設定をデプロイ解除します。
+1. **`delete`** – 設定を削除します。
 
-ユースケース n°5：**既にデプロイされているキャッピング設定の更新**
++++
+
++++デプロイ済みのキャッピング設定を 1 つの手順で削除する
+
+1 回の API 呼び出しで、`forceDelete` パラメーターを使用して、設定をデプロイ解除および削除できます。
+
+使用する API 呼び出し：
+
+1. **`list`** – 既存の設定を取得します。
+1. **`delete`（パラメーター `forceDelete` 使用）** - デプロイ済みの設定の削除を 1 つの手順で強制的に行います。
+
++++
+
++++既にデプロイされているキャッピング設定の更新
 
 >[!NOTE]
 >
->既にデプロイされている設定を更新する場合は、再デプロイする必要があります。
+>既にデプロイされている設定を更新した後は、再デプロイが必要です。
 
-1. list
-1. get
-1. update
-1. undeploy
-1. candeploy
-1. デプロイ
+使用する API 呼び出し：
+1. **`list`** – 既存の設定を取得します。
+1. **`get`** – 特定の設定の詳細を取得します。
+1. **`update`** – 設定を変更します。
+1. **`undeploy`** – 変更を適用する前に設定をデプロイ解除します。
+1. **`candeploy`** - デプロイメントの実施要件をチェックします。
+1. **`deploy`** – 更新された設定をデプロイします。
+
++++

@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '880'
+ht-degree: 69%
 
 ---
 
@@ -29,7 +29,9 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 >
 >API で設定された制限に達すると、以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
 
-## Throttling API の説明 {#description}
+## Throttling API の説明とPostman コレクション {#description}
+
+次の表に、Throttling API で使用できるコマンドを示します。 リクエストサンプル、パラメーター、応答形式など、詳しくは、[Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/) を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|
@@ -41,6 +43,15 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | スロットル設定を更新します |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | スロットル設定を取得します |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | スロットル設定を削除します |
+
+さらに、テスト設定に役立つPostman コレクションを [ こちら ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) から使用できます。
+
+このコレクションは、__[Adobe I/O コンソールの統合 ](https://console.adobe.io/integrations) /試す/Postman用にダウンロード__ を通じて生成されたPostman変数コレクションを共有するように設定されています。これにより、選択された統合値を使用してPostman環境ファイルが生成されます。
+
+ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
+* `{JO_HOST}`：ゲ [!DNL Journey Optimizer] トウェイ URL。
+* `{BASE_PATH}`：API のエントリポイント。
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
 
 ## スロットル設定{#configuration}
 
@@ -134,57 +145,6 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
     "requestId": "A7ezT8JhOQT4WIAf1Fv7K2wCDA8281qM"
 }
 ```
-
-## ユースケース {#uc}
-
-テストと設定に役立つ Postman コレクションを[こちら](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)から使用できます。
-
-この Postman コレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;を使用して生成された Postman 変数コレクションを共有するようにセットアップされています。これにより、選択した統合値を使用して Postman 環境ファイルが生成されます。
-
-ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
-* `{JO_HOST}` : [!DNL Journey Optimizer] ゲートウェイ URL
-* `{BASE_PATH}`：API のエントリポイント。
-* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
-
-次の節では、ユースケースを実行するための Rest API 呼び出しの順序付きリストを示します。
-
-ユースケース n°1：**新しいスロットル設定の作成とデプロイ**
-
-1. list
-1. create
-1. candeploy
-1. deploy
-
-ユースケース n°2：**まだデプロイされていないスロットル設定の更新とデプロイ**
-
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
-
-ユースケース n°3：**デプロイ済みのスロットル設定のデプロイ解除と削除**
-
-1. list
-1. undeploy
-1. delete
-
-ユースケース n°4：**デプロイ済みのスロットル設定の削除**
-
-forceDelete パラメーターを使用すると、1 回の API 呼び出しで設定をデプロイ解除および削除できます。
-
-1. list
-1. delete（forceDelete パラメーターを使用）
-
-ユースケース n°5：**既にデプロイされているスロットル設定の更新**
-
->[!NOTE]
->
->更新前に設定のデプロイを解除する必要はありません
-
-1. list
-1. get
-1. update
 
 ## ランタイムレベルでの設定のライフサイクル {#config}
 
@@ -338,3 +298,67 @@ forceDelete パラメーターを使用すると、1 回の API 呼び出しで�
     }
 }
 ```
+
+## ユースケース {#uc}
+
+この節では、[!DNL Journey Optimizer] でスロットル設定を管理するための主なユースケースと、ユースケースの実装に必要な関連 API コマンドについて説明します。
+
+各 API コマンドについて詳しくは、[API の説明とPostman コレクション ](#description) を参照してください。
+
++++新しいスロットル設定の作成とデプロイ
+
+使用する API 呼び出し：
+
+1. **`list`** – 既存の設定を取得します。
+1. **`create`** – 新しい設定を作成します。
+1. **`candeploy`** – 設定をデプロイできるかどうかを確認します。
+1. **`deploy`** – 設定をデプロイします。
+
++++
+
++++スロットル設定の更新とデプロイ（まだデプロイされていません）
+
+使用する API 呼び出し：
+
+1. **`list`** – 既存の設定を取得します。
+1. **`get`** – 特定の設定の詳細を取得します。
+1. **`update`** – 設定を変更します。
+1. **`candeploy`** - デプロイメントの実施要件をチェックします。
+1. **`deploy`** – 設定をデプロイします。
+
++++
+
++++デプロイ済みのスロットル設定のデプロイ解除と削除
+
+使用する API 呼び出し：
+
+1. **`list`** – 既存の設定を取得します。
+1. **`undeploy`** – 設定をデプロイ解除します。
+1. **`delete`** – 設定を削除します。
+
++++
+
++++デプロイ済みのスロットル設定の削除
+
+1 回の API 呼び出しで、`forceDelete` パラメーターを使用して、設定をデプロイ解除および削除できます。
+
+使用する API 呼び出し：
+
+1. **`list`** – 既存の設定を取得します。
+1. **`delete`（パラメーター `forceDelete` 使用）** - デプロイ済みの設定の削除を 1 つの手順で強制的に行います。
+
++++
+
++++既にデプロイされているスロットル設定の更新
+
+>[!NOTE]
+>
+>更新前に設定のデプロイを解除する必要はありません
+
+使用する API 呼び出し：
+
+1. **`list`** – 既存の設定を取得します。
+1. **`get`** – 特定の設定の詳細を取得します。
+1. **`update`** – 設定を変更します。
+
++++
