@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 17%
@@ -69,6 +69,7 @@ WhatsApp とJourney Optimizerの統合には、以下が必要です。
 * **応答メッセージ**：自動または事前定義済みの応答メッセージは、このバージョンではサポートされません。
 
 ## チュートリアルビデオ {#video}
+
 
 次のビデオでは、WhatsApp アクションを使用してジャーニーを作成する方法を確認できます。
 
