@@ -8,8 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
+hide: true
+hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 1e35c2ea2b0a6c8edd5b870311bb32b4b4b58e9a
+source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 12%

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 40%
+source-wordcount: '643'
+ht-degree: 41%
 
 ---
 
@@ -50,22 +50,22 @@ ht-degree: 40%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>ジャーニー指標</strong><br/></th>
+<th><strong>Journey metrics</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニー指標を使用できるようになりました。これにより、ビジネスの主要指標におけるアクティビティの影響を測定し、パフォーマンスに関するより明確なインサイトを提供できます。</p>
-<p>詳しくは、<a href="../building-journeys/success-metrics.md">詳細なドキュメント</a>を参照してください。</p>
+<p>Journey metrics are now available, allowing you to measure the impact of your activities across the key metrics of your business and to provide clearer insights into your performance.</p>
+<p>For more information, refer to the <a href="../building-journeys/success-metrics.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!-- table>
 <thead>
