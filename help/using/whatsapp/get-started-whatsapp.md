@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 21%
+source-wordcount: '293'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +43,22 @@ Journey Optimizerを介して WhatsApp メッセージを直接送信できる�
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## 制限事項 {#limitations}
+## 前提条件 {#prereq}
+
+WhatsApp とJourney Optimizerの統合には、以下が必要です。
+
+* Meta Business Manager アカウント
+* WhatsApp ビジネス アカウント
+* WhatsApp の電話番号
+
+統合を進める前に、次のことにも注意する必要があります。
+
+* [WhatsApp コンテンツルール ](https://www.whatsapp.com/legal/messaging-guidelines)
+* [ メタポリシーの遵守 ](https://www.whatsapp.com/legal)
+* [24 時間の会話の制限 ](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [ 承認済みのメタテンプレート ](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+
+## Betaの制限 {#limitations}
 
 次の機能は、このベータ版には含まれません。
 
@@ -51,3 +67,13 @@ Journey Optimizerを介して WhatsApp メッセージを直接送信できる�
 * **オプトイン/オプトアウトキーワード**：この段階では、ユーザーは特定のキーワードを使用して購読または購読解除するオプションはありません。
 
 * **応答メッセージ**：自動または事前定義済みの応答メッセージは、このバージョンではサポートされません。
+
+## チュートリアルビデオ {#video}
+
+次のビデオでは、Whatsapp アクションを使用してジャーニーを作成する方法を確認できます。
+
++++ こちらのビデオをご覧ください
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+
++++

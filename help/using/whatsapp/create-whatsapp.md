@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 35%
+source-wordcount: '613'
+ht-degree: 31%
 
 ---
 
@@ -31,8 +32,6 @@ ht-degree: 35%
 >[!ENDSHADEBOX]
 
 Adobe Journey Optimizerを使用すると、WhatsApp で魅力的なメッセージをデザインして送信できます。 ジャーニーまたはキャンペーンに WhatsApp アクションを追加し、以下に説明するようにメッセージコンテンツを作成するだけです。 また、Adobe Journey Optimizerでは、WhatsApp メッセージを送信する前にテストし、完全なレンダリング、正確なパーソナライゼーション、およびすべての設定の適切な設定を保証できます。
-
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
 ## WhatsApp メッセージの追加 {#create-whatsapp-journey-campaign}
 
@@ -76,7 +75,7 @@ Adobe Journey Optimizerを使用すると、WhatsApp で魅力的なメッセー
 
 1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
-1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、SMS メッセージの「**[!UICONTROL 頻度]**」を選択します。
+1. **[!UICONTROL アクショントリガー]** メニューから、WhatsApp メッセージの **[!UICONTROL 頻度]** を選択します。
 
    * 1 回
    * 毎日
@@ -89,9 +88,13 @@ Adobe Journey Optimizerを使用すると、WhatsApp で魅力的なメッセー
 
 ## WhatsApp コンテンツの定義{#whatsapp-content}
 
->[!IMPORTANT]
->
->Journey Optimizerで WhatsApp メッセージをデザインする前に、まず Meta でテンプレートを作成する必要があります。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+>[!BEGINSHADEBOX]
+
+Journey Optimizerで WhatsApp メッセージをデザインする前に、まず Meta でテンプレートを作成およびデザインする必要があります。 Journey Optimizerでは、送信メッセージ要素のみがサポートされます。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+
+WhatsApp テンプレートをJourney Optimizerで使用するには、まず Meta が承認する必要があります。 この処理には通常数時間かかりますが、最長で 24 時間かかる場合があります。 [詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+
+>[!ENDSHADEBOX]
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、WhatsApp メッセージコンテンツを設定します。
 

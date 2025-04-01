@@ -9,10 +9,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 46%
+source-wordcount: '461'
+ht-degree: 45%
 
 ---
 
@@ -42,7 +43,7 @@ WhatsApp のメッセージを送る前に、WhatsApp のアカウントに関�
 
 1. 以下に説明するように、API 資格情報を設定します。
 
-   * **API トークン**:https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **API トークン**:API トークンを入力します。 詳しくは、[Meta ドキュメント ](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/) を参照してください。
    * **ビジネスアカウント ID**：ビジネスポートフォリオに関連する一意の番号を入力します。 詳しくは、[Meta ドキュメント ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347) を参照してください。
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の�
 
 1. 「**[!UICONTROL マーケティングアクション]**」を選択し、この設定を使用してメッセージに同意ポリシーを関連付けます。 顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。詳細情報
 
-1. 以前に作成した **[!UICONTROL WhatsApp 設定]** を選択します。
+1. 作成済みの **[!UICONTROL WhatsApp API 設定]** を選択します。
 
    ![](assets/whatsapp-config-3.png)
 
