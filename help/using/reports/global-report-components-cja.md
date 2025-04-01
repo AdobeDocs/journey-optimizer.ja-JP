@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: コンポーネントのリスト
-description: グローバルレポートのデータの使い方を学ぶ
+description: レポートのデータの使用方法を学ぶ
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 100%
+source-wordcount: '1109'
+ht-degree: 99%
 
 ---
 

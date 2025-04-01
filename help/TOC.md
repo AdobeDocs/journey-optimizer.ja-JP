@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 97%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 97%
 + トラッキングと監視 {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
-      + [コンポーネントのリスト](using/reports/live-report-components.md)
+      + [指標のリスト](using/reports/live-report-components.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストのライブレポート](using/reports/subscription-report-live.md)
    + 全期間のレポート{#channel-report}
       + [全期間のレポートの基本を学ぶ](using/reports/report-gs-cja.md)
+      + [指標のリスト](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
       + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
