@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 94%
 
 ---
 
@@ -83,11 +83,10 @@ ht-degree: 100%
 
 * **[!UICONTROL 送信数]**：アプリ内メッセージ用の送信の合計数。
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL インバウンドトリガー]**：ユーザーのインタラクションまたは事前定義済みイベントによってアプリ内メッセージがトリガーされた回数。
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL インバウンド却下]**：ユーザーがアプリ内メッセージを操作せずに却下した回数。
+
 +++
 
 ## トラッキング対象リンクラベル {#track-link-label-inapp}

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 100%
@@ -18,6 +18,8 @@ ht-degree: 100%
 # SMS キャンペーンレポート {#campaign-global-report-cja-sms}
 
 ## 配信済みとクリックのトレンド {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 **[!UICONTROL 配信済みとクリックのトレンド]**&#x200B;のグラフには、プロファイルのメールへのエンゲージメントに関する詳細な分析が表示され、プロファイルがコンテンツとどのようにやり取りするかに関する貴重なインサイトを得ることができます。
 
@@ -30,6 +32,8 @@ ht-degree: 100%
 +++
 
 ## 配信ステータス {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 **[!UICONTROL 配信ステータス]**&#x200B;のテーブルには、SMS キャンペーンに関連するプロファイルアクティビティの詳細なアカウントが表示されます。これには、配信済み、クリック数、その他の関連するエンゲージメント指標など、プロファイルが SMS コンテンツとどのようにやり取りするかを包括的に示す指標が含まれます。
 

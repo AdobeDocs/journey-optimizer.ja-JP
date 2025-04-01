@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 94%
 
 ---
 
@@ -24,15 +25,13 @@ ht-degree: 100%
 
 +++ 送信統計指標の詳細情報
 
-* **[!UICONTROL ユーザー]**：プッシュ通知のターゲットプロファイルとして適合するユーザープロファイルの数。
-
 * **[!UICONTROL ターゲット]**：分析中に処理されたプッシュ通知の合計数。
 
 * **[!UICONTROL 送信数]**：プッシュ通知送信の合計数。
 
 * **[!UICONTROL 配信済み]**：送信されたプッシュ通知の合計数に対する、正常に送信されたプッシュ通知の数。
 
-* **[!UICONTROL アウトバウンドチャネルのバウンス数]**：プッシュ通知の合計数に対する、送信プロセス中および自動返信処理中に累積したエラーの合計数。
+* **[!UICONTROL ユニーク配信済み]**:1 つ以上のプッシュ通知を正常に受信したプロファイルの数。
 
 * **[!UICONTROL アウトバウンドエラー数]**：プロファイルにメッセージを送信できなかったエラーの合計数。
 
@@ -50,18 +49,15 @@ ht-degree: 100%
 
 * **[!UICONTROL クリックスルー率（CTR）]**：プッシュ通知に対して何らかのアクションを起こしたユーザーの割合。
 
-* **[!UICONTROL クリックスルー開封率（CTOR）]**：プッシュ通知が開封された回数。
-
 * **[!UICONTROL クリック数]**：プッシュ通知のコンテンツがクリックされた回数。
 
 * **[!UICONTROL ユニーククリック数]**：のコンテンツをクリックしたプロファイルの数。
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL プッシュカスタムアクション]**：プッシュ通知に応答してプロファイルが実行したカスタムアクションの数。
+
 +++
 
-## トラッキング対象リンクラベル {#track-link-label-push}
+## 追跡されたラベル {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 

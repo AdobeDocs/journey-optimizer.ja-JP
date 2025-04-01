@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 89%
 
 ---
 
@@ -43,8 +43,6 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 * **[!UICONTROL ジャーニーの退出数]**：ジャーニーから退出した個人の合計数。
 
-* **[!UICONTROL ジャーニーの失敗数]**：正常に実行されなかった個人のジャーニーの合計数。
-
 +++
 
 ### ジャーニーの統計 {#journey-stats}
@@ -54,6 +52,8 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 **[!UICONTROL ジャーニーの統計]**&#x200B;テーブルには、ジャーニーに関する重要なデータの詳細な概要が表示されます。これには、失敗数や成功エントリ数などの主要な指標が含まれ、メールやジャーニーのパフォーマンスとリーチに関する貴重なインサイトを提供します。
 
 +++ ジャーニーの統計指標の詳細情報
+
+* **[!UICONTROL ジャーニーの除外]**：定義済みの条件または抑制ルールによってジャーニーから除外された個人の合計数。
 
 * **[!UICONTROL ジャーニーのエンゲージメント]**：ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表す、ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。
 
@@ -70,6 +70,16 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 * **[!UICONTROL ユニークジャーニーの失敗数]**：正常に実行されなかった個人のジャーニーの合計数。1 つのプロファイルによる複数回のインタラクションは考慮されません。
 
 +++
+
+## ジャーニーの除外 {#journey-exclusion}
+
+**[!UICONTROL ジャーニーの除外]** テーブルには、ユーザープロファイルの除外につながった様々な要因を包括的に示します。
+
+## アクションエラー {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+**[!UICONTROL アクションエラー]** ウィジェットは、ジャーニーのアクションで発生した様々なエラーの詳細を表示します。
 
 ## ジャーニーキャンバス {#journey-canvas}
 
@@ -106,9 +116,11 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 +++ アクションの概要指標の詳細情報
 
-* **[!UICONTROL 人物]**：アクションのターゲットプロファイルに適格な、ユーザープロファイルの数。
+* **[!UICONTROL ノード入力]**：ジャーニー内の特定のノードに入力した個人の合計数。
 
-* **[!UICONTROL クリックスルー率]**：アクションに対して何らかのアクションを起こしたユーザーの割合。
+* **[!UICONTROL ジャーニーエラー]**：正常に実行されなかった個人のジャーニーの合計数。
+
+* **[!UICONTROL クリックスルー率]**：アクションに対してアクションを実行したユーザーの割合。
 
 * **[!UICONTROL クリック数]**：アクションでコンテンツがクリックされた回数。
 

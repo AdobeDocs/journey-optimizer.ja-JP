@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '540'
+ht-degree: 94%
 
 ---
 
 # アプリ内キャンペーンレポート {#campaign-global-report-cja-inapp}
 
-## インプレッションとクリックのトレンド {#impression-click-trend}
+## 表示してクリックのトレンド {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 
 ## クリック数 {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 **[!UICONTROL クリック数]**&#x200B;のグラフには、アプリ内クリック指標と、コンテンツのクリック総数と、コンテンツをクリックした固有のプロファイル数の両方が表示されます。
 
 +++ クリック数指標の詳細情報
@@ -46,6 +48,8 @@ ht-degree: 100%
 
 ## 表示 {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 **[!UICONTROL 表示数]**&#x200B;グラフは、メッセージの全体的なリーチと、メッセージに対して何らかのインタラクションを行ったユニークプロファイルの数の両方を理解するのに役立ちます。
 
 +++ 表示指標の詳細情報
@@ -57,6 +61,8 @@ ht-degree: 100%
 +++
 
 ## トラッキングデータ {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 **[!UICONTROL プッシュ - トラッキング統計]**&#x200B;のテーブルには、アプリ内メッセージと結びつけられたプロファイルアクティビティの詳細なスナップショットが表示され、エンゲージメントとアプリ内メッセージの効果に関する重要なインサイトを得ることができます。
 
@@ -78,11 +84,11 @@ ht-degree: 100%
 
 * **[!UICONTROL 送信数]**：アプリ内メッセージ用の送信の合計数。
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL インバウンドトリガー]**：ユーザーのインタラクションまたは事前定義済みイベントによってアプリ内メッセージがトリガーされた回数。
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL インバウンド却下]**：ユーザーがアプリ内メッセージを操作せずに却下した回数。
+
+
 +++
 
 ## トラッキング対象リンクラベル {#track-link-label-inapp}
