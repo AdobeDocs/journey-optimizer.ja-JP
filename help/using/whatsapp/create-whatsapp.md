@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 31%
@@ -99,7 +99,7 @@ WhatsApp テンプレートをJourney Optimizerで使用するには、まず Me
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、WhatsApp メッセージコンテンツを設定します。
 
 <!--
-1. Select **[!UICONTROL Template message]**.
+1. Select **[!UICONTROL Template message]**. 
 -->
 
 1. **テンプレートカテゴリ** を選択します。

@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 45%
@@ -106,3 +106,4 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の�
 1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
 これで、Journey Optimizerで WhatsApp メッセージを送信する準備が整いました。
+

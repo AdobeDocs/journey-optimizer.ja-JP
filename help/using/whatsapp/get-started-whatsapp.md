@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 17%
@@ -70,7 +70,7 @@ WhatsApp とJourney Optimizerの統合には、以下が必要です。
 
 ## チュートリアルビデオ {#video}
 
-次のビデオでは、Whatsapp アクションを使用してジャーニーを作成する方法を確認できます。
+次のビデオでは、WhatsApp アクションを使用してジャーニーを作成する方法を確認できます。
 
 +++ こちらのビデオをご覧ください
 
