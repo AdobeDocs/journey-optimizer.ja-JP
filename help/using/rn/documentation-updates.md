@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 80%
 
 * オーディエンスの選定イベントに関するページが更新され、新しいレコメンデーションが追加されました。[詳細情報](../building-journeys/audience-qualification-events.md)
 * カスタムアクションのトラブルシューティング機能を、すべてのお客様が利用できるようになりました（GA）。[詳細情報](../action/troubleshoot-custom-action.md)
-* データハイジーンは、製品ユーザーインターフェイスのデータライフサイクルになりました。 この変更を反映してドキュメントが更新されました。 [詳細情報](../privacy/data-hygiene.md)
-* 不足しているランディングページの組み込み権限がドキュメントに追加されました。 [詳細情報](../administration/ootb-permissions.md)
-* 繰り返しキャンペーンのスケジュールに関するメモが追加されました。 [詳細情報](../campaigns/create-campaign.md)
-* リンクの挿入とメールメッセージでのトラッキングの有効化に関する節が更新および再編成されました。 [詳細情報](../email/message-tracking.md)
-* Adobe Journey Optimizerへのパーソナライズ機能に関する節を再編成し、改善しました。 [詳細情報](../personalization/personalize.md)
-* パーソナライズされたオファーをリストする意思決定管理 API がサンプルで更新され、応答に複数のパーソナライズされたオファーがない場合にページネーションを実行するようになりました。 [詳細情報](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* 製品ユーザーインターフェイスでは、データハイジーンはデータライフサイクルになりました。この変更を反映するのにドキュメントが更新されました。[詳細情報](../privacy/data-hygiene.md)
+* 欠落しているランディングページの組み込み権限がドキュメントに追加されました。[詳細情報](../administration/ootb-permissions.md)
+* 繰り返しキャンペーンのスケジュールに関するメモが追加されました。[詳細情報](../campaigns/create-campaign.md)
+* メールメッセージにリンクを挿入してトラッキングを有効にする方法に関する節が更新され、再編成されました。[詳細情報](../email/message-tracking.md)
+* Adobe Journey Optimizer のパーソナライゼーション機能に関する節が再編成され、改善されました。[詳細情報](../personalization/personalize.md)
+* パーソナライズされたオファーをリストする Decision Management API が更新され、応答に複数のパーソナライズされたオファーがない場合にページネーションを実行するサンプルが追加されました。[詳細情報](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * リストの購読解除機能に関するすべての情報を収集する新しいページが作成され、わかりやすくなりました。 [詳細情報](../email/list-unsubscribe.md)
 * フリークエンシーキャップの節が更新され、Edge Decisioning API に加えて、Decisioning API と Batch Decisioning API のフリークエンシーキャッピングカウンターを更新する方法に関する情報が追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025年2月 {#feb-2025}
 
-* オーディエンスを読み取りアクティビティのガードレールが更新され、1 つのジャーニーで使用できるアクティビティと、ターゲットにできるオーディエンスが 1 つのみであることが指定されました。 [詳細情報](../building-journeys/read-audience.md)
-* Adobe Campaign アクティビティを使用する際のジャーニーガードレールが更新されました。 [詳細情報](../start/guardrails.md#ac-g)
+* オーディエンスを読み取りアクティビティのガードレールが更新され、ジャーニーで 1 つのアクティビティのみを使用できることと、1 つのオーディエンスのみをターゲットにできることが指定されました。[詳細情報](../building-journeys/read-audience.md)
+* Adobe Campaign アクティビティを使用する際のジャーニーガードレールが更新されました。[詳細情報](../start/guardrails.md#ac-g)
 * 最初のジャーニーを作成する手順が詳しく説明され、ドキュメントの節へのリンクが追加されました。[詳細情報](../building-journeys/journey-gs.md)
 * ジャーニーダッシュボードとフィルタリングユーザーインターフェイスの詳細を説明する新しいページが使用できるようになりました。[詳細情報](../building-journeys/journey-ui.md)
 * **[!UICONTROL 送信時間の最適化]**&#x200B;に関するドキュメントと関連する FAQ が更新、改善され、新しい専用ページに移動されました。[詳細情報](../building-journeys/send-time-optimization.md)

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + コンテンツカードチャネルの設定 {#configure}
          + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
          + [Journey Optimizer でのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
-         + [Mobile SDKでのコンテンツカードのサポートの設定](using/content-card/content-card-lp.md)
+         + [Mobile SDK でのコンテンツカードのサポートの設定](using/content-card/content-card-lp.md)
          + [Web SDK でのコンテンツカードのサポート設定](using/content-card/content-card-configuration-sdk.md)
       + [コンテンツカードの作成](using/content-card/create-content-card.md)
       + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
@@ -492,7 +492,7 @@ ht-degree: 97%
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + [決定ガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
       + API リファレンス{#api-reference}
-         + オファー項目の作成と管理 {#create-manage}
+         + オファー項目の作成と管理{#create-manage}
             + 決定項目{#decision-items}
                + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
