@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -153,9 +153,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
 | 指標 | 説明 |
 |---------|-------------|
 | `total` | パーソナライズされたオファーの数。 |
-| `count` | この応答で返されるオファーの数。 |
+| `count` | この応答で返されたオファーの数。 |
 
-`/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED` などの `_links.next.href` からエンドポイントを取得し、API に追加します。
+`/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED` などのエンドポイントを `_links.next.href` から取得し、API に追加します。
 
 **API 形式**
 
@@ -178,7 +178,7 @@ GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-ty
 }
 ```
 
-同様に、最初のページではなく、パーソナライズされたオファーの以前のページを取得する必要がある場合は、`_links.prev` から `href` 値を使用します。 次の例に示すように、URL にリクエストを実行して、以前の結果セットを取得します。
+同様に、最初のページではなく、パーソナライズされたオファーの前のページを取得する必要がある場合は、`_links.prev` の `href` 値を使用します。次の例に示すように、URL にリクエストを送信して、以前の結果セットを取得します。
 
 **応答**
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="メールの作成"
->abstract="メールの件名を定義し、メールデザイナーを開いてメールのコンテンツを作成します。"
+>abstract="メールの件名を定義し、E メールデザイナーを開いてメールのコンテンツを作成します。"
 
 ## メールアクションの追加 {#email-action}
 
@@ -94,9 +94,9 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    >
    >* 件名は必須です。
    >
-   >* 件名に改行を含めないでください。
+   >* 件名に改行を含めることはできません。
 
-1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてメールデザイナーにアクセスし、コンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
+1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてE メールデザイナーにアクセスし、コンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
