@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: オーディエンスコンポジションの基本を学ぶ
+title: オーディエンス構成の基本を学ぶ
 description: オーディエンス構成の詳細を学ぶ
 feature: Audiences, Profiles
 topic: Content Management
@@ -15,22 +15,22 @@ ht-degree: 100%
 
 ---
 
-# オーディエンスコンポジションの基本を学ぶ {#get-start-audience-composition}
+# オーディエンス構成の基本を学ぶ {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
->title="コンポジションの作成"
+>title="構成の作成"
 >abstract="構成ワークフローを作成し、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
 >title="オーディエンスの公開"
->abstract="コンポジションを公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
+>abstract="構成を公開して、結果のオーディエンスを Adobe Experience Platform に保存します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="オーディエンスアクティビティ"
->abstract="オーディエンスアクティビティを使用すると、既存オーディエンスに属する追加のプロファイルをコンポジションに含めることができます。"
+>abstract="オーディエンスアクティビティを使用すると、既存オーディエンスに属する追加のプロファイルを構成に含めることができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
@@ -45,7 +45,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="除外アクティビティ"
->abstract="除外アクティビティを使用すると、既存オーディエンスを選択するかルールを使用して、コンポジションからプロファイルを除外できます。"
+>abstract="除外アクティビティを使用すると、既存オーディエンスを選択するかルールを使用して、構成からプロファイルを除外できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -65,17 +65,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="エンリッチメント属性"
->abstract="オーディエンスに関連付ける 1 つ以上の属性をエンリッチメントデータセットから選択します。 コンポジションが公開されると、これらの属性がオーディエンスに関連付けられ、Journey Optimizer キャンペーンで配信をパーソナライズするために利用できます。"
+>abstract="オーディエンスに関連付ける 1 つ以上の属性をエンリッチメントデータセットから選択します。 構成が公開されると、これらの属性がオーディエンスに関連付けられ、Journey Optimizer キャンペーンで配信をパーソナライズするために利用できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="ランクアクティビティ"
->abstract="ランクアクティビティを使用すると、特定の属性に基づいてプロファイルをランク付けし、コンポジションに含めることができます。例えば、最大量のロイヤルティポイントを持つ 50 件のプロファイルを含めます。"
+>abstract="ランクアクティビティを使用すると、特定の属性に基づいてプロファイルをランク付けし、構成に含めることができます。例えば、最大量のロイヤルティポイントを持つ 50 件のプロファイルを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="プロファイル制限を追加"
->abstract="このオプションをオンにして、コンポジションに含めるプロファイルの最大数を指定します。"
+>abstract="このオプションをオンにして、構成に含めるプロファイルの最大数を指定します。"
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -85,7 +85,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="分割アクティビティ"
->abstract="分割アクティビティを使用すると、コンポジションを複数のパスに分割できます。コンポジションを公開すると、パスごとに 1 つのオーディエンスが Adobe Experience Platform に保存されます。"
+>abstract="分割アクティビティを使用すると、構成を複数のパスに分割できます。構成を公開すると、パスごとに 1 つのオーディエンスが Adobe Experience Platform に保存されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -114,7 +114,7 @@ ht-degree: 100%
 >
 >* エンリッチメント属性は、まだポリシー適用サービスと統合されていません。したがって、エンリッチメント属性に適用するデータ使用ラベルは、Journey Optimizer キャンペーンでは適用されません。
 
-オーディエンスコンポジションには、Adobe Journey Optimizer の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
+オーディエンス構成には、Adobe Journey Optimizer の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
 
 ![](assets/audiences-browse.png)
 
@@ -122,11 +122,11 @@ ht-degree: 100%
 
 * 「**[!UICONTROL 参照]**」タブには、Adobe Experience Platform に保存されている既存のオーディエンスがすべて表示されます。
 
-* 「**[!UICONTROL コンポジション]**」タブを使用すると、オーディエンスを組み合わせて新しいオーディエンスを作成するコンポジションワークフローを作成できます。
+* 「**[!UICONTROL 構成]**」タブを使用すると、オーディエンスを組み合わせて新しいオーディエンスを作成する構成ワークフローを作成できます。
 
-## コンポジションワークフローの作成 {#create}
+## 構成ワークフローの作成 {#create}
 
-コンポジションワークフローを作成するには、次の手順に従います。
+構成ワークフローを作成するには、次の手順に従います。
 
 1. **[!UICONTROL オーディエンス]**&#x200B;メニューにアクセスし、「**[!UICONTROL オーディエンスを作成]**」を選択します。
 
@@ -134,19 +134,19 @@ ht-degree: 100%
 
    ![](assets/audiences-create.png)
 
-1. コンポジションキャンバスには、次の 2 つのデフォルトアクティビティが表示されます。
+1. 構成キャンバスには、次の 2 つのデフォルトアクティビティが表示されます。
 
-   * **[!UICONTROL オーディエンス]**：コンポジションの出発点。このアクティビティを使用すると、ワークフローの基礎として 1 つ以上のオーディエンスを選択できます。
+   * **[!UICONTROL オーディエンス]**：構成の出発点。このアクティビティを使用すると、ワークフローの基礎として 1 つ以上のオーディエンスを選択できます。
 
-   * **[!UICONTROL 保存]**：コンポジションの最後の手順。このアクティビティを使用すると、ワークフローの結果を新しいオーディエンスに保存できます。
+   * **[!UICONTROL 保存]**：構成の最後の手順。このアクティビティを使用すると、ワークフローの結果を新しいオーディエンスに保存できます。
 
 1. 構成プロパティを開き、タイトルと説明を指定します。
 
-   プロパティでタイトルが定義されていない場合、コンポジションのラベルが「コンポジション」に設定された後に、作成日時が続きます。
+   プロパティでタイトルが定義されていない場合、構成のラベルが「構成」に設定された後に、作成日時が続きます。
 
    ![](assets/audiences-properties.png)
 
-1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 保存]**&#x200B;アクティビティの間に必要な数のアクティビティを追加して、コンポジションを設定します。コンポジションの作成方法について詳しくは、[オーディエンス構成のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)を参照してください。
+1. **[!UICONTROL オーディエンス]**&#x200B;アクティビティおよび&#x200B;**[!UICONTROL 保存]**&#x200B;アクティビティの間に必要な数のアクティビティを追加して、構成を設定します。コンポジションの作成方法について詳しくは、[オーディエンス構成のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)を参照してください。
 
    ![](assets/audiences-publish.png)
 
@@ -154,13 +154,13 @@ ht-degree: 100%
 
    >[!IMPORTANT]
    >
-   >特定のサンドボックス内で最大 10 個のコンポジションを公開できます。このしきい値に達した場合、新しいコンポジションを公開するためには、コンポジションを削除してスペースを解放する必要があります。
+   >特定のサンドボックス内で最大 10 個の構成を公開できます。このしきい値に達した場合、新しい構成を公開するためには、構成を削除してスペースを解放する必要があります。
 
    公開中にエラーが発生した場合は、問題の解決方法に関する情報と共にアラートが表示されます。
 
    ![](assets/audiences-alerts.png)
 
-1. コンポジションが公開されます。 結果のオーディエンスは Adobe Experience Platform に保存され、Journey Optimizer でターゲットにする準備が整います。[詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください](../audience/about-audiences.md#segments-in-journey-optimizer)
+1. 構成が公開されます。結果のオーディエンスは Adobe Experience Platform に保存され、Journey Optimizer でターゲットにする準備が整います。[詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 >[!NOTE]
 >
@@ -168,15 +168,15 @@ ht-degree: 100%
 
 ## 構成へのアクセス {#access}
 
-「**[!UICONTROL 構成]**」タブから作成したすべてのコンポジションにアクセスできます。リストの省略記号ボタンを使用して、既存のコンポジションをいつでも複製または削除できます。
+「**[!UICONTROL 構成]**」タブから作成したすべてのコンポジションにアクセスできます。リストの省略記号ボタンを使用して、既存の構成をいつでも複製または削除できます。
 
-コンポジションには複数のステータスがあります。
+構成には複数のステータスがあります。
 
-* **[!UICONTROL ドラフト]**：コンポジションは進行中で、公開されていません。
-* **[!UICONTROL 公開済み]**：コンポジションが公開され、結果オーディエンスが保存され、使用できるようになりました。
+* **[!UICONTROL ドラフト]**：構成は進行中で、公開されていません。
+* **[!UICONTROL 公開済み]**：構成が公開され、結果オーディエンスが保存され、使用できるようになりました。
 
 ![](assets/audiences-compositions.png)
 
 >[!NOTE]
 >
->現在、オーディエンスコンポジションはサンドボックスのリセット機能と統合されていません。サンドボックスのリセットを開始する前に、コンポジションを手動で削除して、関連するオーディエンスデータが適切にクリーンアップされていることを確認する必要があります。詳しくは、Adobe Experience Platform [サンドボックスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja#delete-audience-compositions)を参照してください。
+>現在、オーディエンス構成はサンドボックスのリセット機能と統合されていません。サンドボックスのリセットを開始する前に、構成を手動で削除して、関連するオーディエンスデータが適切にクリーンアップされていることを確認する必要があります。詳しくは、Adobe Experience Platform [サンドボックスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja#delete-audience-compositions)を参照してください。
