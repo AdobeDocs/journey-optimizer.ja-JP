@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 45%
+source-wordcount: '613'
+ht-degree: 79%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 45%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
+
+## 2025 年 4 月の更新
+
+### 機能強化 {#25-04-improv}
+
+**コンテンツ管理**
+
+コンテンツテンプレートとフラグメントを簡単に管理するために、フォルダーを使用して、より効果的に構造化された階層に整理できるようになりました。
+
+詳しくは、[ コンテンツテンプレート ](../content-management/access-content-templates.md#folders) および [ フラグメント ](../content-management/manage-fragments.md#folders) の節を参照してください。
+
+>[!AVAILABILITY]
+>
+>この機能強化は、一連の組織でのみ使用できます（使用制限あり）。
 
 ## 2025 年 3 月リリースノート {#25-3-rn}
 
@@ -93,14 +107,14 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media アセットをJourney Optimizerで直接使用およびアクセスできるようになりました。 この統合により、次のことが可能になります。
+<p>Dynamic Media アセットが Journey Optimizer で直接使用可能になり、アクセスできるようになりました。この統合により、次のことを実行できます。
 <ul>
-<li>リアルタイムのアップデートによるアセットの一元管理</li>
+<li>リアルタイム更新でアセットを一元管理</li>
 <li>幅や高さなどのアセット設定を即座に変更</li>
-<li>コンテンツを更新し、パーソナライゼーションフィールドを追加して、Dynamic Media テンプレートをカスタマイズします</li>
+<li>コンテンツを更新し、パーソナライゼーションフィールドを追加して、Dynamic Media テンプレートをカスタマイズ</li>
 </ul>
 <p>
-<p>この統合は、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>この統合は、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../integrations/aem-dynamic.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -112,14 +126,14 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe GenStudioとの統合（限定提供）</strong><br/></th>
+<th><strong>Adobe GenStudio との統合（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>GenStudio for Performance MarketingのエクスペリエンスをJourney Optimizerとシームレスに統合して、マーケティング効率を高め、ブランドの一貫性を保つことができるようになりました。 これにより、GenStudioの高度なオーケストレーション機能と共に、Journey Optimizerの AI 機能を活用してコンテンツを作成できます。<p>
-<p>Journey OptimizerのGenStudio統合は、現在、Healthcare Shield または Privacy and Security Shield （限定提供）で使用できません。</p>
+<p>マーケティング効率を高め、ブランドの一貫性を維持するために、パフォーマンスマーケティングエクスペリエンス用の GenStudio を Journey Optimizer とシームレスに統合できるようになりました。これにより、GenStudio の AI を活用したコンテンツ作成と Journey Optimizer の高度なオーケストレーション機能を活用できるようになります。<p>
+<p>Journey Optimizer での GenStudio 統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールド（限定提供）では使用できません。</p>
 <p>詳しくは、 <a href="../integrations/genstudio.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
@@ -148,7 +162,7 @@ ht-degree: 45%
 
 ### 機能強化 {#25-03-improv}
 
-**Personalization エディター** （公開日：3 月 12 日（PT））
+**パーソナライゼーションエディター**（公開日：3月12日（PT））
 
 Journey Optimizer パーソナライゼーションエディターが更新され、新しい機能が追加されました。
 * **コードエディターのデザインの更新** - 操作性と焦点を向上させる、よりクリーンで最新のインターフェイス。
@@ -159,35 +173,31 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 * **プロファイル属性とコンテキスト属性のオートコンプリート** - コンテンツ作成を効率化するスマートな候補を表示します。
 * **構文のハイライト表示の強化** - コード構造をより視覚的に区別することで、読みやすさを向上します。
 
-![Personalization エディターの新機能を示すビデオ ](assets/do-not-localize/personalization-editor.gif)
+![パーソナライゼーションエディターの新機能を示すビデオ](assets/do-not-localize/personalization-editor.gif)
 
 詳しくは、[詳細なドキュメント](../personalization/personalization-build-expressions.md)を参照してください。
 
 **承認**
 
-承認ポリシーの条件を定義する際に、タグまたはオブジェクトカテゴリ（あるいはその両方）でフィルタリングできるようになりました。
+承認ポリシーの条件を定義する際に、タグやオブジェクトカテゴリでフィルタリングするオプションが追加されました。
 
 詳しくは、[詳細なドキュメント](../test-approve/approval-policies.md)を参照してください。
 
 **設定**
 
-* Adobe Experience Platform統合タグをチャネル設定に割り当てることができるようになりました。 これにより、アセットを簡単に分類し、すべてのリストで検索とナビゲーションを改善できます。 [詳細情報](../configuration/channel-surfaces.md#channel-config-tags)
+* Adobe Experience Platform 統合タグをチャネル設定に割り当てることができるようになりました。これにより、アセットを簡単に分類し、すべてのリストで検索とナビゲーションを改善できます。 [詳細情報](../configuration/channel-surfaces.md#channel-config-tags)
 
 * Journey Optimizerでメールサブドメインを設定または編集する際に、関連するDMARC レコードを親ドメインで利用できる場合、自分で管理できるようになりました。 [詳細情報](../configuration/dmarc-record.md#set-up-dmarc)
 
-**業務方法書**
+**ビジネスルール**
 
-バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。 毎日のフリークエンシーキャッピングルールの精度を確保するには、キャンペーンまたはジャーニーのオーサリング時に、最も優先度の高い名前空間を選択してください。 名前空間の優先度について詳しくは、[Platform ID サービスガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} を参照してください
+バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください。
 
 ルールセットの 1 日のフリークエンシーキャップは、一連の組織（使用制限あり）でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
 
 ビジネスルールについて詳しくは、[ 詳細ドキュメント ](../configuration/rule-sets.md) を参照してください。
 
-<!--**Content management**
-
-To easily manage your fragments and your content templates, you can now use folders to organize them more effectively into a structured hierarchy. This improvement is only available for a set of organizations (Limited Availability). <!--To gain access, contact your Adobe representative.
-
-**Deliverability**
+<!--**Deliverability**
 
 You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
 

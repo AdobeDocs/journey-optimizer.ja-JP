@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1469'
+ht-degree: 78%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 100%
 フラグメントを管理するには、左側のメニューの&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL フラグメント]**&#x200B;からフラグメントリストにアクセスします。
 
 現在のサンドボックスで作成されたすべてのフラグメント（[**[!UICONTROL フラグメント]**&#x200B;メニューから](#create-fragments)か、「[フラグメントとして保存](#save-as-fragment)」オプションを使用して）が表示されます。
+
+左側のパネルを使用すると、フラグメントをフォルダーに整理できます。 デフォルトでは、すべてのフラグメントが表示されます。 フォルダーを選択すると、選択したフォルダーに含まれるフラグメントとフォルダーのみが表示されます。 [詳細情報](#folders)
+
+>[!NOTE]
+>
+>フラグメントフォルダーは一連の組織（使用制限あり）でのみ使用でき、より多くのユーザーに徐々にロールアウトされます。
+
+![](assets/fragment-list-folders.png)
+
+特定の項目を検索するには、検索フィールドに名前を入力します。 [ フォルダー ](#folders) を選択すると、そのフォルダーの最初の階層レベルにあるすべてのフラグメントまたはフォルダーが検索の対象となり <!--(not nested items)--> す。
 
 次の項目でフラグメントをフィルタリングできます。
 
@@ -43,10 +53,54 @@ ht-degree: 100%
 * 「**[!UICONTROL 参照を探索]**」オプションを使用して、使用されているジャーニー、キャンペーン、テンプレートを確認します。[詳細情報](#explore-references)
 * フラグメントをアーカイブします。[詳細情報](#archive-fragments)
 * フラグメントのタグを編集します。[詳しくは、統合タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)
+* フラグメントをフォルダーに移動します。 [詳細情報](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## フラグメントのステータス
+## フォルダーを使用したフラグメントの管理 {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="フラグメントをフォルダーに整理します"
+>abstract="フォルダーを使用すると、組織のニーズに応じてフラグメントを分類および管理できます。"
+
+>[!AVAILABILITY]
+>
+>フラグメントフォルダーは一連の組織（使用制限あり）でのみ使用でき、より多くのユーザーに徐々にロールアウトされます。
+
+フラグメント内を簡単に移動するには、フォルダーを使用して、より効果的に構造化された階層に整理することができます。 これにより、組織のニーズに応じて項目を分類および管理できます。
+
+![](assets/fragment-folders.png)
+
+1. 「**[!UICONTROL すべてのフラグメント]**」ボタンをクリックすると、フォルダーグループ化を使用せずに以前に作成したすべての項目が表示されます。
+
+1. **[!UICONTROL ルート]** フォルダーをクリックすると、作成されたすべてのフォルダーが表示されます。
+
+   >[!NOTE]
+   >
+   >フォルダーをまだ作成していない場合は、すべてのフラグメントが表示されます。
+
+1. **[!UICONTROL ルート]** フォルダー内の任意のフォルダーをクリックして、そのコンテンツを表示します。
+
+1. **[!UICONTROL ルート]** フォルダーまたはその他のフォルダーをクリックすると、「**[!DNL Create folder]**」ボタンが表示されます。 選択します。
+
+   ![](assets/fragment-create-folder.png)
+
+1. 新しいフォルダーの名前を入力し、「**[!UICONTROL 保存]**」をクリックします。 新しいフォルダーは、フラグメントリストの上（**[!UICONTROL ルート]** フォルダー内）、または現在選択されているフォルダー内に表示されます。
+
+1. **[!UICONTROL その他のアクション]** ボタンをクリックして、フォルダーの名前を変更または削除できます。
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. **[!UICONTROL その他のアクション]** ボタンを使用して、フラグメントを別の既存のフォルダーに移動することもできます。
+
+   ![](assets/fragment-folder-moved.png)
+
+1. これで、作成したフォルダーに移動できます。 ここで [ 作成 ](create-fragments.md) した新しいフラグメントはそれぞれ、現在のフォルダーに保存されます。
+
+   ![](assets/fragment-folder-create.png)
+
+## フラグメントのステータス {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
