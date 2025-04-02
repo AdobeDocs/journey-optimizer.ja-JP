@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 93%
 
 ---
 
 # プッシュ通知ジャーニーレポート {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+ジャーニー内の「**[!UICONTROL レポートを表示]**」ボタンをクリックすると、プッシュ通知ジャーニーレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 送信統計 {#sending-statistics-push}
 
@@ -56,9 +65,7 @@ ht-degree: 100%
 
 * **[!UICONTROL ユニーククリック数]**：プッシュ通知のコンテンツをクリックしたプロファイルの数。
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL プッシュカスタムアクション]**：プッシュ通知に応答してプロファイルが実行したカスタムアクションの数。
 +++
 
 ## トラッキング対象リンクラベル {#track-link-label-push}

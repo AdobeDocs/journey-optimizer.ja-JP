@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '346'
-ht-degree: 100%
+exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 94%
 
 ---
 
 # ダイレクトメールキャンペーンレポート {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+キャンペーンから「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL すべての時間レポートを表示]**」を選択して、ダイレクトメールキャンペーンレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 送信統計 {#sending-statistics-directmail}
 

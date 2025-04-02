@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 95%
 
 ---
 
 # ダイレクトメールジャーニーレポート {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+ジャーニー内の「**[!UICONTROL レポートを表示]**」ボタンをクリックして、ダイレクトメールジャーニーレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 送信統計 {#sending-statistics-directmail}
 

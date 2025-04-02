@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
-workflow-type: ht
-source-wordcount: '644'
-ht-degree: 100%
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,11 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 * **[!UICONTROL 人物]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
+* **[!UICONTROL クリックスルー率（CTR）]**：メッセージ内のクリックの割合。
+
 * **[!UICONTROL 送信数]**：各キャンペーン用の送信の合計数。
+
+* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
 * **[!UICONTROL 表示数]**：メッセージが開封された回数。
 
@@ -107,9 +111,9 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 * **[!UICONTROL 人物]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
-* **[!UICONTROL クリックスルー率]**：メッセージでのクリック数の割合。
+* **[!UICONTROL クリックスルー率（CTR）]**：メッセージ内のクリックの割合。
 
-* **[!UICONTROL 送信数]**：各キャンペーン用の送信の合計数。
+* **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
 * **[!UICONTROL 表示数]**：メッセージが開封された回数。
 

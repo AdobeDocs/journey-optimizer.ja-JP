@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 97%
 
 ---
 
 # SMS ジャーニーレポート{#sms}
+
+>[!BEGINSHADEBOX]
+
+ジャーニー内の「**[!UICONTROL レポートを表示]**」ボタンをクリックして、SMS ジャーニーレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 配信済みとクリックのトレンド {#delivered-click-sms}
 

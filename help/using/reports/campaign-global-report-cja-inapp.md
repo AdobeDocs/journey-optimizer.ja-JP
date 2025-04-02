@@ -9,14 +9,22 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 94%
+source-wordcount: '563'
+ht-degree: 90%
 
 ---
 
 # アプリ内キャンペーンレポート {#campaign-global-report-cja-inapp}
+
+>[!BEGINSHADEBOX]
+
+キャンペーンから「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL すべての時間レポートを表示]**」を選択して、アプリ内キャンペーンレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 表示してクリックのトレンド {#impression-click-trend}
 

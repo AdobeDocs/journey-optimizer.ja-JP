@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
 # Web キャンペーンレポート {#campaign-global-report-cja-web}
+
+>[!BEGINSHADEBOX]
+
+キャンペーンから「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL すべての時間レポートを表示]**」を選択して、web キャンペーンレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## インプレッションとクリックのトレンド {#impressions-web}
 

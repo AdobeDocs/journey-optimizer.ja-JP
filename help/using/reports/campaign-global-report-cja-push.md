@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 94%
+source-wordcount: '519'
+ht-degree: 90%
 
 ---
 
 # プッシュ通知キャンペーンレポート {#campaign-global-report-cja-push}
+
+>[!BEGINSHADEBOX]
+
+キャンペーンから「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL すべての時間レポートを表示]**」を選択すると、プッシュ通知キャンペーンレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 送信統計 {#sending-statistics-push}
 

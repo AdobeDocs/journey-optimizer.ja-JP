@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1603a696-33cc-42d8-a52a-623d85f61584
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 93%
 
 ---
 
 # コンテンツカードキャンペーンレポート {#campaign-global-report-cja-content}
+
+>[!BEGINSHADEBOX]
+
+キャンペーンから「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL すべての時間レポートを表示]**」を選択すると、コンテンツカードキャンペーンレポートにアクセスできます。 [詳細情報](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 表示してクリックのトレンド {#display-click}
 
