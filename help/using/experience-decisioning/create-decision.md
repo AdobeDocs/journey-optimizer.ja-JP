@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 100%
+source-wordcount: '1761'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 決定ポリシーは、配信する最適なコンテンツをオーディエンスに応じて選択することを目的に、決定エンジンを活用するオファーのコンテナです。
 
-決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーはキャンペーンに固有です。目標は、各プロファイルに最適なオファーを選択することです。一方、キャンペーンのオーサリングでは、メッセージに含める項目属性など、選択した決定項目の表示方法を指定できます。
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->目的はプロファイルごとに最適なオファーを選択することです。一方、キャンペーン/ジャーニーオーサリングでは、選択した決定項目の表示方法（メッセージに含める項目属性など）を指定できます。
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ ht-degree: 100%
 
 コードベースのキャンペーンに決定ポリシーを活用する主な手順を次に示します。
 
-1. [コードベースのキャンペーンに決定ポリシーを作成します](#add-decision)
-1. [コードベースのキャンペーンに決定ポリシーを使用します](#use-decision-policy)
-1. [カスタム Customer Journey Analytics レポートダッシュボードを作成します](#cja)
+1. [コードベースのエクスペリエンスに決定ポリシーを追加する](#add-decision)
+1. [決定ポリシーの使用](#use-decision-policy)
+1. [カスタム Customer Journey Analytics レポートダッシュボードを作成します](cja-reporting.md)
 
-## コードベースのキャンペーンへの決定ポリシーの追加 {#add-decision}
+## コードベースのエクスペリエンスに決定ポリシーを追加する {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -54,7 +54,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="戦略の作成"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="評価順序"
 
-Web サイトやモバイルアプリで訪問者に最適な動的なオファーおよびエクスペリエンスを提示するには、コードベースキャンペーンに決定ポリシーを追加します。これを行うには、以下の手順に従います。
+Web サイトまたはモバイルアプリで訪問者に最適な動的なオファーとエクスペリエンスを提示するには、コードベースのキャンペーンまたはジャーニーに決定ポリシーを追加します。 これを行うには、以下の手順に従います。
 
 ### 決定ポリシーの作成 {#add}
 
@@ -221,3 +221,33 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
+1. 「**[!UICONTROL 保存して閉じる]**」をクリックして変更を確定します。
+
+## コードベースのエクスペリエンスのテストと公開 {#test-and-publish}
+
+次の手順に従って、コードベースのエクスペリエンスを完成させ、変更をライブにします。
+
+1. 公開する前に、コードベースのエクスペリエンスのプレビューを表示してテストします。
+
+   >[!CAUTION]
+   >
+   >現在、ユーザーインターフェイスから、決定を使用して [ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンまたはジャーニーでコンテンツをシミュレートすることはできません。
+
+   意思決定をテストするには、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加します。
+
+   ```
+   {
+   "data": {
+       "__adobe": {
+       "ajo":
+   {         "dryRun": true       }
+       }
+   }
+   }
+   ```
+
+1. コードベースのエクスペリエンスキャンペーンまたはジャーニーをレビューして公開します。 [方法について詳しくは、こちらを参照してください](../code-based/publish-code-based.md)
+
+   開発者が API または SDK 呼び出しを実行して、チャネル設定で定義されたサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
+
+1. 決定のパフォーマンスを確認するために、カスタム [Customer Journey Analytics レポートダッシュボード ](cja-reporting.md) を作成できるようになりました。

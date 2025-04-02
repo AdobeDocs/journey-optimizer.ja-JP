@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,11 @@ ht-degree: 100%
 1. 変更したコードベースエクスペリエンスのプレビューが表示されます。
 
 テストプロファイルの選択およびコンテンツのプレビュー方法に関する情報について詳しくは、[この節](../content-management/preview.md)を参照してください。
+
+>[!NOTE]
+>
+>現在、[Decisioning](../experience-decisioning/gs-experience-decisioning.md) を使用して、コードベースのエクスペリエンスキャンペーンやジャーニーのユーザーインターフェイスからコンテンツをシミュレートすることはできません。 回避策が [ この節 ](../experience-decisioning/create-decision.md) で利用できます。
+
 
 ## デバイスでのプレビュー {#preview-on-device}
 

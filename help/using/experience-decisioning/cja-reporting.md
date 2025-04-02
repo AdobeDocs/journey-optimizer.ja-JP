@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="限定提供"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
-workflow-type: ht
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## コードベースのキャンペーンレポート {#campaigns}
 
-コードベースのエクスペリエンスが公開されると、包括的なダッシュボードとして主要業績評価指標（KPI）を監視するための専用レポートにアクセスして、キャンペーンに関連する重要な指標の分析を提供できます。
+コードベースのエクスペリエンスが公開されると、専用のレポートにアクセスして、包括的なダッシュボードとして主要業績評価指標（KPI）を監視し、キャンペーンに関連する重要な指標の分析を提供できます。
 
 これには、決定項目のパフォーマンスと、ユーザーが決定項目をどのように操作したかに関する詳細が含まれます。[詳しくは、コードベースのエクスペリエンスレポートの操作方法を参照してください](../reports/campaign-global-report-cja-code.md)
 
