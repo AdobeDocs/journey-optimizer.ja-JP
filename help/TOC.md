@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
+source-git-commit: 8675df765f2b45ac101d814777a5013e996db4c6
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 98%
@@ -422,7 +422,7 @@ ht-degree: 98%
       + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
-+ 統合{#assets-images}
++ 統合{#integrations}
    + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
    + [Experience Manager Assets の操作](using/integrations/assets.md)
    + [Adobe Stock との連携](using/integrations/stock.md)
