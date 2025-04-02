@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 89%
+source-wordcount: '1756'
+ht-degree: 90%
 
 ---
 
@@ -227,27 +227,26 @@ Web サイトまたはモバイルアプリで訪問者に最適な動的なオ�
 
 次の手順に従って、コードベースのエクスペリエンスを完成させ、変更をライブにします。
 
-1. 公開する前に、コードベースのエクスペリエンスのプレビューを表示してテストします。
-
-   >[!CAUTION]
-   >
-   >現在、ユーザーインターフェイスから、決定を使用して [ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンまたはジャーニーでコンテンツをシミュレートすることはできません。
-
-   意思決定をテストするには、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加します。
-
-   ```
-   {
-   "data": {
-       "__adobe": {
-       "ajo":
-   {         "dryRun": true       }
-       }
-   }
-   }
-   ```
-
 1. コードベースのエクスペリエンスキャンペーンまたはジャーニーをレビューして公開します。 [方法について詳しくは、こちらを参照してください](../code-based/publish-code-based.md)
 
    開発者が API または SDK 呼び出しを実行して、チャネル設定で定義されたサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
 
+1. 現在、ユーザーインターフェイスから、決定を使用して [ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンまたはジャーニーでコンテンツをシミュレートすることはできません。
+
+   回避策として、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加することで、キャンペーンを公開した後に決定をテストできます。
+
+   ```
+   {
+       "data": {
+           "__adobe": {
+               "ajo": {
+                   "dryRun": true
+               }
+           }
+       }
+   }
+   ```
+
 1. 決定のパフォーマンスを確認するために、カスタム [Customer Journey Analytics レポートダッシュボード ](cja-reporting.md) を作成できるようになりました。
+
+
