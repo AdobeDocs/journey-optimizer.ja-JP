@@ -6,16 +6,24 @@ description: Adobe Journey Optimizerを使用して複数手順のキャンペ�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 49%
+source-wordcount: '579'
+ht-degree: 43%
 
 ---
 
-# 複数手順のキャンペーンの開始と監視 {#start-monitor}
+# 調整したキャンペーンの開始と監視 {#start-monitor}
 
-ワークフローを作成し、キャンバスで実行するタスクを設計したら、ワークフローを起動して、その実行状況を監視できます。
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">お使いのブラウザーはオーディオ要素をサポートしていません。</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="調整されたキャンペーンを公開"
+>abstract="キャンペーンを開始するには、これを公開する必要があります。 公開する前に、すべての警告がクリアされていることを確認します。"
+
+
+キャンバスで実行するタスクを調整および設計して作成したら、そのタスクを公開し、実行方法を監視できます。
 
 ## 複数ステップのキャンペーンの開始 {#start}
 
