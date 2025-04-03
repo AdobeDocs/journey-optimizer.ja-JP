@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 75%
+source-wordcount: '699'
+ht-degree: 70%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 75%
 ## 2025 年 4 月の更新
 
 ### 機能強化 {#25-04-improv}
+
+**サンドボックスツール**
+
+パッケージのエクスポート機能とインポート機能を使用して、複数のサンドボックスにわたってキャンペーンをコピーできるようになりました。 キャンペーンが、プロファイル、オーディエンス、スキーマ、インラインメッセージおよび依存オブジェクトに関連するすべての項目と共にコピーされます。 決定項目、データ使用ラベル、言語設定など、一部の項目はコピーされません。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
 
 **パーソナライゼーション**
 

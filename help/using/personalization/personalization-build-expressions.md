@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 96%
@@ -107,7 +107,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 >[!NOTE]
 >
->デフォルトでは、属性ペインには入力された属性のみが表示されます。 すべての属性を表示するには、検索フィールドの上にある「![](assets/do-not-localize/settings-icon.svg)」ボタンを選択し、「**[!UICONTROL 入力された属性のみを表示]**」オプションを切り替えます。
+>デフォルトでは、属性ペインには入力された属性のみが表示されます。 すべての属性を表示するには、検索フィールドの上にある「![](assets/do-not-localize/settings-icon.svg)」ボタンを選択し、「**[!UICONTROL 入力された属性のみを表示]**」オプションをオフにします。
 
 さらに、文字列タイプのプロファイル属性が空の場合に表示されるデフォルトの代替テキストを定義できます。これを行うには、属性の横にある省略記号ボタンをクリックし、「**[!UICONTROL 代替テキストで挿入]**」を選択します。プロファイルの属性の値が空の場合にデフォルトで表示するテキストを書き込み、「**[!UICONTROL 追加]**」をクリックします。
 
