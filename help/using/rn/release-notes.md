@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 79%
+source-wordcount: '647'
+ht-degree: 75%
 
 ---
 
@@ -22,10 +22,13 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-
 ## 2025 年 4 月の更新
 
 ### 機能強化 {#25-04-improv}
+
+**パーソナライゼーション**
+
+パーソナライゼーションエディターの属性ペインに、デフォルトで入力された属性のみが表示されるようになりました。 すべての属性を表示するには、「設定」ボタンを使用して「**[!UICONTROL 入力された属性のみを表示]**」オプションをオフにします。 [詳細情報](../personalization/personalization-build-expressions.md)
 
 **コンテンツ管理**
 
