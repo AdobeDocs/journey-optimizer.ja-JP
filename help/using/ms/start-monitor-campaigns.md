@@ -6,16 +6,17 @@ description: Adobe Journey Optimizerを使用して複数手順のキャンペ�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
+source-git-commit: 990d49202a790b5a117a7da665ed32f52f27b554
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '571'
 ht-degree: 43%
 
 ---
 
 # 調整したキャンペーンの開始と監視 {#start-monitor}
 
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">お使いのブラウザーはオーディオ要素をサポートしていません。</audio>
+<!--
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
