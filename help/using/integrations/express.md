@@ -14,7 +14,7 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
 >title="Adobe Express の統合"
->abstract="Adobe Express統合を使用してアセットのパーソナライズを開始します。 この機能を使用すると、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットのJPEGまたは PNG への変換を行うことができます。"
+>abstract="Adobe Express の統合を使用してアセットのパーソナライゼーションを開始します。この機能を使用すると、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換を行うことができます。"
 
 >[!AVAILABILITY]
 >
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 Adobe Journey OptimizerのAdobe Express統合により、コンテンツを作成しながら、Adobe Expressの強力な編集ツールに簡単にアクセスできます。 この統合により、ソリューションを切り替える必要なく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、JPEGまたは PNG へのアセットの変換を行うことができます。
 
-Adobe Expressについて詳しくは、[ このドキュメント ](https://helpx.adobe.com/express/user-guide.html) を参照してください。
+Adobe Express について詳しくは、[このドキュメント](https://helpx.adobe.com/jp/express/user-guide.html)を参照してください。
 
 **[!DNL Adobe Express]** メニューにアクセスするには、電子メールデザイナーから **画像設定** にアクセスし、**[!UICONTROL Adobe Expressで編集]** をクリックします。
 

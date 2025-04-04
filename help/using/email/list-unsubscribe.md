@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,7 @@ E メールクライアントや E メール設定の購読解除設定によっ
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="メールへの登録解除 URL の追加"
->abstract="メールヘッダーに登録解除 URL を自動的に追加するには、このオプションを有効にします。 また、メールのコンテンツにワンクリックオプトアウトリンクを挿入することで、メッセージに登録解除 URL を設定することもできます。"
+>abstract="このオプションを有効にすると、メールヘッダーに登録解除 URL が自動的に追加されます。また、メールのコンテンツにワンクリックオプトアウトリンクを挿入することで、メッセージに登録解除 URL を設定することもできます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メールコンテンツからのワンクリックオプトアウトの設定"
 
 「**[!UICONTROL List-Unsubscribe を有効にする]**」オプションが有効になっている場合、受信者のメールクライアントでサポートされている場合、メールヘッダーには、デフォルトで受信者がメーリングリストから購読解除するために使用できる mailto や URL の両方が含まれます。
@@ -106,7 +106,7 @@ E メールクライアントや E メール設定の購読解除設定によっ
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom_url"
->title="独自のワンクリック購読解除 URL を入力"
+>title="独自のワンクリック登録解除 URL の入力"
 >abstract="**ワンクリック登録解除 URL** では、POST リクエストメソッドを使用する必要があります。"
 
 アドビの外部で同意を管理している場合は、「**[!UICONTROL 顧客管理]**」オプションを選択して、カスタムの登録解除メールアドレスと独自のワンクリック登録解除 URL を入力します。

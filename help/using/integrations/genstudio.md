@@ -11,16 +11,16 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# GenStudio統合の基本を学ぶ {#gs-genstudio}
+# GenStudio の統合の基本を学ぶ {#gs-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
->title="GenStudioで作成されたテンプレートを使用"
->abstract="Adobeとのシームレスな統合により、Adobe GenStudio for Performance Marketing AI テクノロジーで強化されたGenStudio テンプレートを簡単に読み込むことができます。"
+>title="GenStudio で作成したテンプレートの使用"
+>abstract="GenStudio for Performance Marketing とのシームレスな統合により、Adobe AI テクノロジーで強化された GenStudio テンプレートを簡単に読み込むことができます。"
 
 >[!AVAILABILITY]
 >
