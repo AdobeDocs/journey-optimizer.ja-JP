@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 70%
 
 ---
@@ -34,11 +34,9 @@ ht-degree: 70%
 
 パーソナライゼーションエディターの属性ペインに、デフォルトで入力された属性のみが表示されるようになりました。 すべての属性を表示するには、「設定」ボタンを使用して「**[!UICONTROL 入力された属性のみを表示]**」オプションをオフにします。 [詳細情報](../personalization/personalization-build-expressions.md)
 
-**コンテンツ管理**
+**コンテンツ管理** – 公開日：2025 年 4 月 2 日（PT）
 
-コンテンツテンプレートとフラグメントを簡単に管理するために、フォルダーを使用して、より効果的に構造化された階層に整理できるようになりました。
-
-詳しくは、[ コンテンツテンプレート ](../content-management/access-content-templates.md#folders) および [ フラグメント ](../content-management/manage-fragments.md#folders) の節を参照してください。
+コンテンツテンプレートとフラグメントを簡単に管理するために、フォルダーを使用して、より効果的に構造化された階層に整理できるようになりました。 詳しくは、[ コンテンツテンプレート ](../content-management/access-content-templates.md#folders) および [ フラグメント ](../content-management/manage-fragments.md#folders) の節を参照してください。
 
 >[!AVAILABILITY]
 >
