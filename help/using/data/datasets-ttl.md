@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ TTL 拡張機能は、現在サポートされていません。ただし、2025
 
 +++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？
 
-TTL 拡張機能は、現在サポートされていません。Real-Time CDP の使用権限を持つお客様は、宛先を通じてデータを書き出し、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target="_blank}
+TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータを書き出し、より長いデータを保持できます。 [ 詳細情報 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target="_blank}。 さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
 
 +++
 
