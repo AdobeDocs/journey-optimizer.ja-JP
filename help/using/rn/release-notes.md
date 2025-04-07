@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
+source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 69%
+source-wordcount: '758'
+ht-degree: 65%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 69%
 ## 2025 年 4 月の更新
 
 ### 機能強化 {#25-04-improv}
+
+**E メールデザイナー**
+
+Journey Optimizerのアクセシビリティを強化するために、メールDesignerで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<title>` 要素および `<html>` 要素の `lang` 属性に対応しています。 これらの設定は、「**[!UICONTROL プリヘッダー]**」フィールドに加えて、「メール **[!UICONTROL 本文]**」セクションで定義できます。 [詳細情報](../email/email-metadata.md)
 
 **サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
 
