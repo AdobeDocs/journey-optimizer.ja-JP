@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -61,8 +61,8 @@ Journey Optimizer で最初のキャンペーンの作成を開始する前に�
 
 +++
 
-1. **オーディエンスが必要です**。キャンペーンを作成するには、まずオーディエンスを使用可能にする必要があります。オーディエンスについて詳しくは、[このページ](../audience/about-audiences.md)を参照してください。
-1. **チャネル設定が必要です**。チャンネルを選択できるようにするには、対応するチャネル設定（例：プリセット）を作成し、使用可能にする必要があります。チャネル設定について詳しくは、[こちらのページ](../configuration/channel-surfaces.md)を参照してください。
+1. **オーディエンスが必要です**。キャンペーンを作成するには、まずオーディエンスを使用可能にする必要があります。オーディエンスについて詳しくは [ このページを参照 ](../audience/about-audiences.md)。
+1. **チャネル設定が必要です**。チャンネルを選択できるようにするには、対応するチャネル設定（例：プリセット）を作成し、使用可能にする必要があります。チャネル設定について詳しくは [ このページを参照 ](../configuration/channel-surfaces.md)。
 
 ## チュートリアルビデオ {#video}
 
