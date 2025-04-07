@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -91,7 +91,7 @@ E メールクライアントや E メール設定の購読解除設定によっ
 
   >[!NOTE]
   >
-  >メッセージ内の登録解除機能の管理について詳しくは、[この節](../email/email-opt-out.md#unsubscribe-header)を参照してください。
+  >メッセージ内での購読解除機能の管理について詳しくは、[ この節 ](../email/email-opt-out.md#unsubscribe-header) を参照してください。
 
 [!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、リストに記載されている値の 1 つにオンボーディングする際に [ ここ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} して変更したり、[ 同意ポリシー ](../action/consent.md) を使用してデフォルトロジックを上書きしたりできます。
 

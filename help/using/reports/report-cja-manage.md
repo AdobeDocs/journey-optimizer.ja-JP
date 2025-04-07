@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 この強力なオプションにより、**[!DNL Customer Journey Analytics]** 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。
 
-[詳しくは、Customer Journey Analytics インターフェイスを参照してください。](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Customer Journey Analytics インターフェイスの詳細情報 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-getting-started)。
 
 ## レポート期間の定義 {#report-period}
 
@@ -179,7 +179,7 @@ ht-degree: 100%
 
 <!--## Create a down-funnel metric {#down-funnel}
 
-1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 
 1. On the canvas editor, select the option to "add a metric".
 
@@ -221,7 +221,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >
 > **テンプレート**&#x200B;機能は段階的にロールアウト中で、1月末までに完全な一般公開が予定されています。[!DNL Customer Journey Analytics] ライセンスを持つユーザーのみが使用できます。
 
-Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。[詳しくは、Customer Journey Analytics テンプレートを参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。[Customer Journey Analytics テンプレートの詳細情報 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 レポートにアクセスする際は、**[!UICONTROL テンプレートを選択]**&#x200B;ドロップダウンから次の 2 つのテンプレートタイプを選択できます。
 

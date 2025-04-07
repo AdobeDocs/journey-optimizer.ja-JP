@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: プライバシーの基本を学ぶ
-description: Adobe Journey Optimizer と Adobe Experience Platform のプライバシーについて説明します。
+description: Adobe Journey OptimizerとAdobe Experience Platformのプライバシーについて詳しく説明します。
 feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 

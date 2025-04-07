@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 >[!NOTE]
 >
->オブジェクトレベルのアクセス制御（OLAC）について詳しくは、[この節](../administration/object-based-access.md)を参照してください。
+>オブジェクトレベルのアクセス制御（OLAC）について詳しくは、[ この節 ](../administration/object-based-access.md) を参照してください。
 
 [!DNL Journey Optimizer] キャンペーンでは、同意ポリシーは次のように適用されます。
 
@@ -133,11 +133,11 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 これで、このオーディエンスを使用して、パーソナライゼーションに同意していないプロファイルをキャンペーンから除外できます。
 
-### コンポジションワークフローでの分割アクティビティの使用
+### 構成ワークフローでの分割アクティビティの使用
 
-分割アクティビティをコンポジションワークフローに追加することで、パーソナライゼーション同意チェックをオーディエンスに追加することもできます。
+分割アクティビティを構成ワークフローに追加することで、パーソナライゼーション同意チェックをオーディエンスに追加することもできます。
 
-1. 「**[!UICONTROL オーディエンスを作成]**」オプションを使用して、オーディエンスを作成します。詳しくは、[コンポジションワークフローの作成](../audience/get-started-audience-orchestration.md)を参照してください。
+1. 「**[!UICONTROL オーディエンスを作成]**」オプションを使用して、オーディエンスを作成します。[ コンポジションワークフローの作成の詳細情報 ](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
@@ -169,7 +169,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 1. 完了したら、パスごとに「**[!UICONTROL オーディエンスを保存]**」をクリックして、ワークフローの結果を新しいオーディエンスに保存します。パスごとに 1 つのオーディエンスが Adobe Experience Platform に保存されます。
 
-1. 完了したら、コンポジションワークフローを公開します。
+1. 完了したら、構成ワークフローを公開します。
 
 これで、このオーディエンスを使用して、パーソナライゼーションに同意していないプロファイルをキャンペーンから除外できます。
 

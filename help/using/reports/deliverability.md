@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -62,7 +62,7 @@ ISP には通常、受信したメッセージをスパムとしてレポート�
 * 正常に実行、送信および配信されたメッセージの数。
 * 開封されたメッセージの数と、クリックされたメッセージやリンクの数。
 
-詳しくは、[ライブレポート](../reports/live-report.md)と[全期間のレポート](../reports/report-gs-cja.md)を参照してください。
+[ ライブレポート ](../reports/live-report.md) および [ 全期間レポート ](../reports/report-gs-cja.md) の詳細情報
 
 ## メッセージコンテンツの調整 {#adapt-message-content}
 
@@ -84,7 +84,7 @@ ISP には通常、受信したメッセージをスパムとしてレポート�
 
 Adobe Journey Optimizer は、標準化された効率的な方法で、最適な配信品質を実現するためのベストプラクティスに従って IP アドレスのウォームアップを行います。
 
-[詳しくは、IP ウォームアッププランを参照してください](../configuration/ip-warmup-gs.md)
+[IP ウォームアッププランの詳細情報](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
@@ -94,7 +94,7 @@ Adobe Journey Optimizer は、標準化された効率的な方法で、最適�
 
 DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、ドメイン所有者が自身のドメインを悪意のある関係者による不正使用から保護できるようにするメール認証方式です。
 
-[詳しくは、DMARC レコードを参照してください](../configuration/dmarc-record.md)
+[DMARC レコードの詳細情報](../configuration/dmarc-record.md)
 
 ## フィードバックループについて {#feedback-loops}
 
@@ -106,7 +106,7 @@ DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、
 
 フィードバックループ（FBL）は、一部の ISP が提供するサービスで、メールを受信したユーザーがメールをスパム（「スパム報告」とも呼ばれます）としてマークすることを選択した場合に、メール送信者に自動的に通知できます。
 
-エンドユーザーがスパム報告を生成し、ISP によってアドビに返信されると、そのメールアドレスは自動的に[抑制リスト](../reports/suppression-list.md)に追加され、今後の配信から除外されます。実際、スパムとしてマークしたユーザーにメールを送信すると、送信者の評判に悪影響を与え、配信品質の問題が発生する場合があります。[詳しくは、スパム報告を参照してください](../reports/suppression-list.md#spam-complaints)
+エンドユーザーがスパム報告を生成し、ISP によってアドビに返信されると、そのメールアドレスは自動的に[抑制リスト](../reports/suppression-list.md)に追加され、今後の配信から除外されます。実際、スパムとしてマークしたユーザーにメールを送信すると、送信者の評判に悪影響を与え、配信品質の問題が発生する場合があります。[ スパム報告についての詳細 ](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1436'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -145,7 +145,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 ![](assets/perso-features.png)
 
-* **[!UICONTROL ヘルパー関数]**：ヘルパー関数を使用すると、データに対する操作（計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など）を実行できます。[使用可能なヘルパー関数について詳しくはこちらを参照](functions/functions.md)
+* **[!UICONTROL ヘルパー関数]**：ヘルパー関数を使用すると、データに対する操作（計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など）を実行できます。[ 使用可能なヘルパー関数の詳細情報 ](functions/functions.md)
 
 * **[!UICONTROL お気に入り]** - お気に入りに追加した属性がこのリストに表示されます。これにより、最も頻繁に使用する項目にすばやくアクセスできます。属性をお気に入りに追加するには、省略記号メニューをクリックし、「**[!UICONTROL お気に入りに追加]**」を選択します。
 

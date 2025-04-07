@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
    ![](../assets/fallback_details.png)
 
-1. オファーにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）の詳細情報](../../administration/object-based-access.md)
+1. オファーにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../../administration/object-based-access.md)
 
 1. フォールバックオファーの 1 つまたは複数の表示域を作成します。パーソナライズされたオファーを作成する場合などに、これを行うには、左側のペインからプレースメントをドラッグ&amp;ドロップします。
 [パーソナライズされたオファーの作成](../offer-library/creating-personalized-offers.md)を参照してください。

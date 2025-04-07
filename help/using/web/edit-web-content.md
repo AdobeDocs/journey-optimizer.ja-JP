@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1068'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
 >[!NOTE]
 >
->Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳細は[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳細情報 [ コンテンツのデザイン  [!DNL Journey Optimizer]](../email/get-started-email-design.md)。
 
 ## コンポーネントの使用 {#content-components}
 

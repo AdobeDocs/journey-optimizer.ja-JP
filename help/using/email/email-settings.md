@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 >
 >非実稼動環境の場合、アドビは、標準のテストサブドメインの作成や、共有送信 IP プールへのアクセスを許可しません。[独自のサブドメインをデリゲート](../configuration/delegate-subdomain.md)して、組織に割り当てられたプールの IP を使用する必要があります。
 
-IP プールが選択された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。[PTR レコードの詳細情報](../configuration/ptr-records.md)
+IP プールが選択された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。[PTR レコードの詳細情報 ](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 * トランザクションメールの場合、再試行期間の下限は 10 分です。
 * どちらのメールタイプでも、再試行期間の上限は 84 時間（5040 分）です。
 
-再試行の詳細については、[この節](../configuration/retries.md)を参照してください。
+再試行について詳しくは、[この節](../configuration/retries.md)を参照してください。
 
 ## URL トラッキング {#url-tracking}
 

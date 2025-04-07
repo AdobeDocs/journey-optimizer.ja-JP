@@ -13,10 +13,10 @@ robots: noindex
 googlebot: noindex
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 毎月]**：フリークエンシーキャップは、その月の最終日の 23:59:59 UTC まで有効です。例えば、1 月の月次有効期限は 1/31 23:59:59 UTC です。
 
-* **[!UICONTROL 毎週]**：フリークエンシーキャップは、暦週が日曜日に始まるため、その週の土曜日 23:59:59 UTC まで有効です。有効期限は、ルールの作成に関係なく設定されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
+* **[!UICONTROL 毎週]**：フリークエンシーキャップは、暦週が日曜日に始まるので、その週の土曜日 23:59:59 UTC まで有効です。有効期限は、ルールの作成に関係なく設定されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
 
 ### 日別のフリークエンシーキャップ {#daily-frequency-cap}
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->毎日のフリークエンシーキャップの精度を確保するために、[ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}の使用をお勧めします。オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
+>毎日のフリークエンシーキャップの精度を確保するために、[ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}の使用をお勧めします。オーディエンスの評価方法について詳しくは、[ この節 ](../audience/about-audiences.md#evaluation-method-in-journey-optimizer) を参照してください。
 
 ## ビジネスルールをアクティブ化 {#activate-rule}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
    メッセージの各バリエーションに対してメールの内容をプレビューするには、他のテストプロファイルを選択します。メッセージコンテンツに、選択したテストプロファイル（現在は男性）に対応するオファーが表示されます。
 
-メッセージのプレビューを確認する詳細な手順については、[こちらのセクション](#preview-your-messages)を参照してください。
+メッセージのプレビューを確認する詳細な手順については、[ この節 ](#preview-your-messages) を参照してください。
 
 ## チュートリアルビデオ{#video-offers}
 

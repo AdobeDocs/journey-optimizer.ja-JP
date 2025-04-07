@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
    ![](assets/lp_create-lp-details.png)
 
-1. ランディングページにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../administration/object-based-access.md)
+1. ランディングページにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)
 
 1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してランディングページを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 

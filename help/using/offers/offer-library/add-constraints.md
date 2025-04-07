@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->**オーディエンス**&#x200B;と&#x200B;**決定ルール**&#x200B;の使用上の違いについて詳しくは、[この節](#segments-vs-decision-rules)を参照してください。
+>**オーディエンス** と **決定ルール** の使用上の違いについて詳しくは、[ この節 ](#segments-vs-decision-rules) を参照してください。
 
 * デフォルトでは、「**[!UICONTROL すべての訪問者]**」オプションが選択されています。つまり、すべてのプロファイルがオファーを提示される資格があります。
 
@@ -129,7 +129,7 @@ ht-degree: 96%
 
   一方、決定ルールは、Adobe Experience Platform で使用可能なデータに基づいており、オファーを誰に表示できるかを決定します。特定のプレースメントのオファーまたは決定でルールが選択されると、決定が行われるたびにそのルールが実行されるので、各プロファイルが最新かつ最適なオファーを確実に取得できます。
 
-  決定ルールについて詳しくは、[この節](creating-decision-rules.md)を参照してください。
+  決定ルールについて詳しくは、[ この節 ](creating-decision-rules.md) を参照してください。
 
 ## キャッピング {#capping}
 

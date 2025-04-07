@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は、[!DNL Decisioning] API への単一のリクエストをシミュレートします。詳しくは、[Decisioning API を使用したオファーの配信](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
+>この機能は、[!DNL Decisioning] API への単一のリクエストをシミュレートします。詳しくは、[Decisioning API を使用したオファーの配信 ](../api-reference/offer-delivery-api/decisioning-api.md) を参照してください。
 
 この機能にアクセスするには、**[!UICONTROL 意思決定管理]**／**[!UICONTROL オファー]**&#x200B;メニューから「**[!UICONTROL シミュレーション]**」タブを選択します。
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 1. 使用可能な決定が表示されます。
 
    * 検索フィールドを使用して、選択を絞り込むことができます。
-   * 「**[!UICONTROL オファー決定を開く]**」リンクをクリックして、作成したすべての決定のリストを開きます。詳しくは、[決定の作成](create-offer-activities.md)を参照してください。
+   * 「**[!UICONTROL オファー決定を開く]**」リンクをクリックして、作成したすべての決定のリストを開きます。詳しくは、[ 決定 ](create-offer-activities.md) を参照してください。
 
    任意の決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているので、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisioning] API リクエストのプロパティについて詳しくは、[この節](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
+   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているので、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisioning] API リクエストのプロパティについて詳しくは、[ この節 ](../api-reference/offer-delivery-api/decisioning-api.md) を参照してください。
 
 1. 「**[!UICONTROL 応答の形式]**」セクションで、コードビューにメタデータを含めるように選択できます。対応するオプションのチェックをオンにし、目的のメタデータを選択します。これらは、「**[!UICONTROL コードを表示]**」を選択すると、リクエストペイロードと応答ペイロードに表示されます。詳しくは、「[シミュレーション結果の表示](#simulation-results) 」セクションを参照してください。
 

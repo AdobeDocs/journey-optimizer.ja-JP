@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, 設定, 環境, サブドメイン, プリセット
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
    選択したサブドメインに対応する設定が表示されます。
 
-1. トラッキング URL のランディングページサブドメインを選択する場合は、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。[トラッキングの詳細情報](../email/message-tracking.md)
+1. トラッキング URL のランディングページサブドメインを選択する場合は、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。[ トラッキングの詳細情報 ](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

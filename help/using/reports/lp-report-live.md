@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ランディングページの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、配信の成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。この機能について詳しくは、この[節](live-report.md)を参照してください。
 
-+++ランディングページのライブレポートで使用できる様々な指標およびウィジェットの詳細を説明します。
++++ランディングページのライブレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
 **[!UICONTROL ランディングページのパフォーマンス]**&#x200B;ウィジェットは、過去 24 時間のメッセージに関する主な情報の詳細を、KPI を通じて示します。
 

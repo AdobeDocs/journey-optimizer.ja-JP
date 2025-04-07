@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1760'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -286,7 +286,7 @@ IP ウォームアッププランを作成するには、次の手順に従い�
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. ウォームアップする[設定](channel-surfaces.md)を選択します。選択できるのはマーケティング設定のみです。[メールのタイプの詳細情報](../email/email-settings.md#email-type)
+1. ウォームアップする[設定](channel-surfaces.md)を選択します。選択できるのはマーケティング設定のみです。[ メールタイプの詳細情報 ](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >

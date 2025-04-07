@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 >
 >複数のコードベースのジャーニーまたはキャンペーンが、コンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー／キャンペーンが優先されます。
 
-コードベースのジャーニーまたはキャンペーンを公開すると、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択した[コードベースのエクスペリエンス設定](code-based-configuration.md)で定義されたサーフェスのコンテンツを取得する責任があります。様々な顧客の実装について詳しくは、[この節](code-based-implementation-samples.md)を参照してください。
+コードベースのジャーニーまたはキャンペーンを公開すると、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択した[コードベースのエクスペリエンス設定](code-based-configuration.md)で定義されたサーフェスのコンテンツを取得する責任があります。お客様による様々な実装について詳しくは、[ この節 ](code-based-implementation-samples.md) を参照してください。
 
 ### コードベースのジャーニーの公開 {#publish-code-based-journey}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ジャーニーの公開について詳しくは、[この節](../building-journeys/publishing-the-journey.md)を参照してください。
+   >ジャーニーの公開について詳しくは、[ この節 ](../building-journeys/publishing-the-journey.md) を参照してください。
 
 コードベースのジャーニーのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。ジャーニーの各受信者に、変更内容が表示されます。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
+   >キャンペーンのアクティブ化について詳しくは、[ この節 ](../campaigns/review-activate-campaign.md) を参照してください。
 
 コードベースキャンペーンのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
 
@@ -113,9 +113,9 @@ Global reports display events that occurred at least two hours ago and cover eve
 
 ### Code-based live report {#live-report-code-based}
 
-From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more about live report](../reports/campaign-live-report.md)
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
@@ -130,7 +130,7 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 
 ### Code-based global report {#global-report-code-based}
 
-Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more about global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
@@ -138,7 +138,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based 
 
 Add image TBC
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 

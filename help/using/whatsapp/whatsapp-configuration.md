@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 45%
@@ -63,7 +63,7 @@ WhatsApp のメッセージを送る前に、WhatsApp のアカウントに関�
       * 黄：Mediumの画質
       * 赤：低画質
 
-     [ 品質評価 ](https://www.facebook.com/business/help/766346674749731#) の詳細情報
+     詳細情報 [ 品質評価 ](https://www.facebook.com/business/help/766346674749731#)
 
    * **スループット**：電話番号がメッセージを送信できる割合を示します。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -144,7 +144,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL メッセージの電子メールバージョンが空です]**：このエラーは、電子メールのコンテンツが設定されていない場合に表示されます。メールコンテンツの設計方法については、[この節](get-started-email-design.md)を参照してください。
 
-   * **[!UICONTROL 設定が存在しません]**：選択した設定がメッセージの作成後に削除された場合は、メッセージを使用できません。このエラーが発生した場合は、メッセージ&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別の設定を選択します。チャネル設定について詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
+   * **[!UICONTROL 設定が存在しません]**：選択した設定がメッセージの作成後に削除された場合は、メッセージを使用できません。このエラーが発生した場合は、メッセージ&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別の設定を選択します。チャネル設定について詳しくは、[ この節 ](../configuration/channel-surfaces.md) を参照してください。
 
 >[!CAUTION]
 >

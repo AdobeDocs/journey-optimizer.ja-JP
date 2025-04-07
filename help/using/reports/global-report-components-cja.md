@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: ff722dd9f727a70fa3788f5e47a49e7a2fa7e952
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1829'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 39%
   </tr>
   <tr> 
    <td> エラー理由<br/> </td> 
-   <td> エラーの特定の元の原因名。<a href="exclusion-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="exclusion-list.md"> エラー理由の詳細 </a>.<br/> </td> 
   </tr>
   <tr> 
    <td> オファークリック率<br/> </td> 
@@ -408,7 +408,7 @@ ht-degree: 39%
 </tr>
   <tr> 
    <td> エラー理由<br/> </td> 
-   <td> エラーの特定の元の原因名。<a href="exclusion-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="exclusion-list.md"> エラー理由の詳細 </a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 除外済み<br/> </td> 

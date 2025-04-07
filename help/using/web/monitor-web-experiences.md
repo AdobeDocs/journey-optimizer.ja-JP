@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Web エクスペリエンスがライブになったら、[ジャーニーリポート](../reports/journey-global-report-cja-web.md)と[キャンペーンレポート](../reports/campaign-global-report-cja-web.md)の「**[!UICONTROL Web]**」タブを確認して、インプレッション数、クリック率、web ページでのエンゲージメント数などの要素を比較できます。
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 Web エクスペリエンスの監視をさらに強化するには、web サイトの特定の要素に対するクリック数を追跡することもできます。これにより、web レポートにその要素のクリック数を表示できます。[方法についてはこちらを参照](#use-click-tracing)
 

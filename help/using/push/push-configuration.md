@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1839'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -209,7 +209,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)。
 
 1. **プッシュ**&#x200B;チャネルを選択します。
 

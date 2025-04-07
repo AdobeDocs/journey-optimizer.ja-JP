@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -96,7 +96,7 @@ Web サイトまたはモバイルアプリで訪問者に最適な動的なオ�
 
    >[!NOTE]
    >
-   >決定ポリシーでは、最大 10 個の選択戦略と決定項目を組み合わせてサポートします。[詳しくは、決定ガードレールと制限を参照してください](gs-experience-decisioning.md#guardrails)
+   >決定ポリシーでは、最大 10 個の選択戦略と決定項目を組み合わせてサポートします。[ 意思決定ガードレールと制限事項の詳細 ](gs-experience-decisioning.md#guardrails)
 
 1. 複数の決定項目や戦略を追加した場合、それらは特定の順序で評価されます。シーケンスに最初に追加されたオブジェクトから順に評価されます。
 
@@ -204,7 +204,7 @@ Web サイトまたはモバイルアプリで訪問者に最適な動的なオ�
    >
    >このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
 
-1. 必要なすべての決定属性を、そのコード内に追加できるようになりました。利用可能な属性は、**[!UICONTROL オファー]**&#x200B;カタログのスキーマに保存されます。カスタム属性は、**`_<imsOrg`>** フォルダーに保存され、標準属性は **`_experience`** フォルダーに保存されます。[オファーカタログのスキーマの詳細情報](catalogs.md)
+1. 必要なすべての決定属性を、そのコード内に追加できるようになりました。利用可能な属性は、**[!UICONTROL オファー]**&#x200B;カタログのスキーマに保存されます。カスタム属性は、**`_<imsOrg`>** フォルダーに保存され、標準属性は **`_experience`** フォルダーに保存されます。[ オファーカタログのスキーマの詳細情報 ](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->実装の前提条件について詳しくは、[この節](code-based-prerequisites.md#implementation-prerequisites)を参照してください。
+>実装の前提条件について詳しくは、[ この節 ](code-based-prerequisites.md#implementation-prerequisites) を参照してください。
 
 コードベースのエクスペリエンスを使用すると、[サーフェス URI](#surface-uri) を使用して [!DNL Journey Optimizer] によって一意に識別される詳細な場所<!--(such as a specific location on a page, or inside a mobile native app)-->のコンテンツを変更できます。
 
@@ -89,6 +89,6 @@ ht-degree: 100%
 
 このため、[コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)を作成する際、選択したプラットフォームに応じてサーフェスを指定するには、次の 2 つの方法があります。
 
-* **[!UICONTROL Web]**、**[!UICONTROL iOS]**、**[!UICONTROL Android]** プラットフォームの場合、サーフェスを構成するには、**URL／アプリ ID** と&#x200B;**場所またはパス**&#x200B;を入力する必要があります。Web プラットフォームおよびモバイルプラットフォーム用のコードベースのエクスペリエンスの設定について詳しくは、[web](code-based-configuration.md#web) プラットフォームおよび[モバイル](code-based-configuration.md#mobile)プラットフォームを参照してください。
+* **[!UICONTROL Web]**、**[!UICONTROL iOS]**、**[!UICONTROL Android]** プラットフォームの場合、サーフェスを構成するには、**URL／アプリ ID** と&#x200B;**場所またはパス**&#x200B;を入力する必要があります。[web](code-based-configuration.md#web) および [ モバイル ](code-based-configuration.md#mobile) プラットフォーム用のコードベースのエクスペリエンス設定について詳しくは、こちらを参照してください
 
-* プラットフォームが&#x200B;**[!UICONTROL その他]**&#x200B;の場合は、[上記](#surface-uri)の例のように、完全な&#x200B;**サーフェス URI** を入力する必要があります。その他のプラットフォーム用のコードベースのエクスペリエンスの設定について詳しくは、[その他](code-based-configuration.md#other)のプラットフォームを参照してください。
+* プラットフォームが&#x200B;**[!UICONTROL その他]**&#x200B;の場合は、[上記](#surface-uri)の例のように、完全な&#x200B;**サーフェス URI** を入力する必要があります。[other](code-based-configuration.md#other) プラットフォーム用のコードベースのエクスペリエンスの設定についての詳細情報

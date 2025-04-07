@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -41,25 +41,25 @@ ht-degree: 94%
 
 アドレスは、次のように抑制リストに追加されます。
 
-* すべての&#x200B;**ハードバウンス**&#x200B;および&#x200B;**スパム報告**&#x200B;は、1 回発生した後、対応するアドレスを抑制リストに自動的に送信します。スパム報告について詳しくは、[この節](#spam-complaints)を参照してください。
+* すべての&#x200B;**ハードバウンス**&#x200B;および&#x200B;**スパム報告**&#x200B;は、1 回発生した後、対応するアドレスを抑制リストに自動的に送信します。スパム通報について詳しくは、[ この節 ](#spam-complaints) を参照してください。
 
 * **ソフトバウンス**&#x200B;では、アドレスが直ちに抑制リストに送られることはありませんが、エラーカウンターが増加します。その後、数回の[再試行](../configuration/retries.md)が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。
 
 * また、アドレスやドメイン](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;[**手動で**&#x200B;追加することもできます。
 
-ハードバウンスとソフトバウンスについて詳しくは、[この節](#delivery-failures)を参照してください。
+ハードバウンスとソフトバウンスについて詳しくは、[ この節 ](#delivery-failures) を参照してください。
 
 >[!NOTE]
 >
->購読を解除したユーザーのアドレスは、[!DNL Journey Optimizer] からのメールを受信していないので、抑制リストに送信できません。選択は、Experience Platform レベルで処理されます。詳しくは、[オプトアウト](../privacy/opt-out.md)を参照してください。
+>購読を解除したユーザーのアドレスは、[!DNL Journey Optimizer] からのメールを受信していないので、抑制リストに送信できません。選択は、Experience Platform レベルで処理されます。詳細情報 [ オプトアウト ](../privacy/opt-out.md)。
 
-アドレスごとに、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど）が抑制リストに表示されます。 抑制リストへのアクセスと管理について詳しくは、[この節](../configuration/manage-suppression-list.md)を参照してください。
+アドレスごとに、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど）が抑制リストに表示されます。 抑制リストへのアクセスと管理について詳しくは、[ この節 ](../configuration/manage-suppression-list.md) を参照してください。
 
 >[!NOTE]
 >
 >「**[!UICONTROL 抑制]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journeys-message.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
+>[ ライブレポート ](../reports/live-report.md) および [Customer Journey Analytics レポート ](../reports/report-gs-cja.md) の詳細情報。 すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
 
 ### 配信の失敗 {#delivery-failures}
 

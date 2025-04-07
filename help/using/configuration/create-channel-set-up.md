@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. 設定プロセスを効率化するために、開始に役立つ必要なリソースが自動的に作成されます。これには、新しい&#x200B;**[!UICONTROL モバイルタグプロパティ]**&#x200B;の作成と拡張機能のインストールが含まれます。
 
-[詳しくは、自動生成されたリソースを参照してください。](set-mobile-config.md#auto-create-resources)
+[自動生成されたリソースの詳細](set-mobile-config.md#auto-create-resources)
 
 1. リソースの生成が完了したら、ユーザーインターフェイスの指示に従って、SDK とチャネルを設定および検証します。
 

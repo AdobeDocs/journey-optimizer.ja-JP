@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ Journey Optimizer でオーディエンスに意味のあるタグを追加す�
 
 ### タグの管理 {#manage-tags}
 
-管理者は、「**[!UICONTROL 管理]**」の下の&#x200B;**[!UICONTROL タグ]**&#x200B;メニューを使用して、タグを削除し、カテゴリ別に整理できます。タグの管理について詳しくは、[統合タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ja)を参照してください。
+管理者は、「**[!UICONTROL 管理]**」の下の&#x200B;**[!UICONTROL タグ]**&#x200B;メニューを使用して、タグを削除し、カテゴリ別に整理できます。タグの管理について詳しくは、[ 統合タグのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=ja) を参照してください。
 
 >[!NOTE]
 >

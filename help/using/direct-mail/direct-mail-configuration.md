@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 100%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform] のすべてのお客様には、サンドボックスごとに 1 つの Data Landing Zone コンテナがプロビジョニングされます。Data Landing Zone について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}を参照してください。
+[!DNL Adobe Experience Platform] のすべてのお客様には、サンドボックスごとに 1 つの Data Landing Zone コンテナがプロビジョニングされます。データランディングゾーンについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} を参照してください。
 
 >[!ENDTABS]
 
@@ -183,7 +183,7 @@ ht-degree: 100%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL ダイレクトメール]**」チャネルを選択します。
 

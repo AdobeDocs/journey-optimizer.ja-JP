@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
@@ -200,7 +200,7 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 **ビジネスルール**
 
-バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください。
+バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} を参照してください
 
 ルールセットの 1 日のフリークエンシーキャップは、一連の組織（使用制限あり）でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
 

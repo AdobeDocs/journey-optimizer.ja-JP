@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 * ワークフローの向上：マーケティングチームは、複数の配信やキャンペーンを作成するのではなく、配信を 1 件だけ作成し、テンプレートの様々な部分のオファーを変えることで、ワークフローを改善することができる。
 * キャンペーンや顧客にオファーを表示する回数を制御できる。
 
-➡️ [意思決定管理について詳しくは、これらのビデオをご覧ください](#video)
+➡️ [ 意思決定管理の詳細については、次のビデオを参照してください ](#video)
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 意思決定管理機能へのアクセス権限および使用権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target="_blank"} で管理します。
 
-意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。[!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
+意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。[!DNL Journey Optimizer] ユーザーと権限の管理について詳しくは、[ この節 ](../../administration/permissions.md) を参照してください。
 
 意思決定管理に特有の権限の一覧については、[この節](../../administration/high-low-permissions.md#decisions-permissions)を参照してください。
 

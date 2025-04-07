@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 このようなメールアドレスは、Journey Optimizer の&#x200B;**抑制リスト**&#x200B;に自動的に収集されます。抑制リストは、オーディエンスから除外するアドレスとドメインで構成されます。単一のクライアント環境（サンドボックス ID に関連付けられた組織 ID に固有の環境）におけるすべてのメール送信で抑制されるメールアドレスとドメインが収集されます。
 
-抑制リストの概念と使用方法について詳しくは、[この節](../reports/suppression-list.md)を参照してください。
+抑制リストの概念と使用方法について詳しくは、[ この節 ](../reports/suppression-list.md) を参照してください。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->抑制リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>抑制リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[ この節 ](../administration/permissions-overview.md) を参照してください。
 
 
 リストの参照に役立つフィルターを使用できます。
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->購読を解除したユーザーは [!DNL Journey Optimizer] からのメールを受信しないので、そのメールアドレスを抑制リストに送信することはできません。選択は、Experience Platform レベルで処理されます。[オプトアウトの詳細情報](../privacy/opt-out.md)
+>購読を解除したユーザーは [!DNL Journey Optimizer] からのメールを受信しないので、そのメールアドレスを抑制リストに送信することはできません。選択は、Experience Platform レベルで処理されます。[ オプトアウトの詳細情報 ](../privacy/opt-out.md)
 
 
 ### 抑制ルール  {#suppression-rules}

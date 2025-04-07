@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,6 @@ Adobe [!DNL Journey Optimizer] で使用できる連合オーディエンス構�
 
 詳しくは、[連合オーディエンス構成](https://experienceleague.adobe.com/ja/docs/federated-audience-composition/using/home){target="_blank"}に関するガイドを参照してください。
 
-連合オーディエンス構成について詳しくは、次のビデオを参照してください。
+Federated Audience Composition について詳しくは、次のビデオを参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)

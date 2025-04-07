@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
   **Edge Delivery** プラグインを使用すると、インバウンド実装を効果的に理解してトラブルシューティングを行うために必要なインサイトを得ることができます。
 
-  [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
+  [Edge Delivery ビューの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
 ## レポーティングの前提条件 {#reporting-prerequisites}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立した�
 
 * Journey Optimizer で翻訳機能を使用するには、API を対応する役割に割り当てる必要があります。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-* 多言語コンテンツの作成を開始するには、ユーザーに&#x200B;**[!UICONTROL 言語設定の管理]**&#x200B;権限を付与する必要があります。自動フローの場合、ユーザーには&#x200B;**[!UICONTROL 翻訳サービス]**&#x200B;機能に関連する権限も必要です。[権限の詳細情報](../administration/permissions.md)
+* 多言語コンテンツの作成を開始するには、ユーザーに&#x200B;**[!UICONTROL 言語設定の管理]**&#x200B;権限を付与する必要があります。自動フローの場合、ユーザーには&#x200B;**[!UICONTROL 翻訳サービス]**&#x200B;機能に関連する権限も必要です。[ 権限の詳細 ](../administration/permissions.md)
 
 +++ 多言語関連の権限を割り当てる方法について説明します。
 

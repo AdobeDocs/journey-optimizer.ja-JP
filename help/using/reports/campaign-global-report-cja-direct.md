@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 **[!UICONTROL 送信統計]**&#x200B;のテーブルには、ダイレクトメールキャンペーンに関する重要なデータの包括的な概要が表示されます。ターゲットオーディエンスのサイズや正常に配信されたダイレクトメールの数などの主要指標の詳細を説明し、ダイレクトメールの効果とリーチに関する有益なインサイトを提供します。
 
-+++ 送信統計指標の詳細情報
++++ 送信統計指標の詳細を説明します
 
 * **[!UICONTROL 人物]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 

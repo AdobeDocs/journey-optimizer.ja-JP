@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
    >
    >Adobe Journey Optimizer をリアルタイム顧客プロファイルと共に使用している場合、宛先カードに&#x200B;**「アクティベート」**&#x200B;ボタンが表示され、有効にした権限に応じて、データセットの書き出しとこの宛先に対するオーディエンスのアクティベートの両方が可能になります。
 
-1. 選択した宛先に書き出す&#x200B;**データセットを選択**&#x200B;します。[書き出しに使用できる Journey Optimizer データセットの詳細情報](#datasets)
+1. 選択した宛先に書き出す&#x200B;**データセットを選択**&#x200B;します。[ 書き出し可能なJourney Optimizer データセットの詳細 ](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

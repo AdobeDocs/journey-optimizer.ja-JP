@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 開始, 開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] を使用すると、ランディングページを作成およびデザインして、ユーザーはオンラインフォームにアクセスし、コミュニケーションのオプトインやオプトアウトを行ったり、ニュースレターなどの特定のサービスを購読したりできます。
 
-➡️ [サブスクリプションの設定とランディングページの作成について詳しくは、このビデオを参照してください](#video)
+➡️ [ サブスクリプションの設定とランディングページの作成について詳しくは、このビデオを参照してください ](#video)
 
 * [!DNL Journey Optimizer]のコンテンツデザイン機能を活用すると、**レスポンシブランディングページ**&#x200B;を簡単に作成できます。
 * **オプトインおよびオプトアウトフロー**&#x200B;を迅速かつシームレスに設定します。

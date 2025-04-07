@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 * **Adobe Experience Platform のデータ収集**
 
   [データストリームを作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)し、[Experience Platform サービスを追加](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#aep)します。「**[!UICONTROL Edge のセグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にします。これにより、Journey Optimizer イベントが Adobe Experience Platform Edge Network で正しく処理されます。
-「**エクスペリエンスイベント - 提案インタラクション**」フィールドグループをデータセットに追加して、このデータをレポートに含めます。[データストリームの詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
+「**エクスペリエンスイベント - 提案インタラクション**」フィールドグループをデータセットに追加して、このデータをレポートに含めます。[ データストリームの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

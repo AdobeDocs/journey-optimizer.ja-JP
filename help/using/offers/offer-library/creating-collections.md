@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
    >
    >静的コレクションは自動的には更新されません。静的コレクションにオファーを追加するには、コレクションを編集し、手動で追加する必要があります。
 
-1. カスタムデータ使用ラベルまたはコアデータ使用ラベルを静的コレクションに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくはこちらから](../../administration/object-based-access.md)
+1. カスタムデータ使用ラベルまたはコアデータ使用ラベルを静的コレクションに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../../administration/object-based-access.md)
 
    >[!NOTE]
    >

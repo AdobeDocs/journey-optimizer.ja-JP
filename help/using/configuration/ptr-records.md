@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -118,7 +118,7 @@ PTR レコードの編集を確認すると、リスト内の PTR レコード�
 >
 >[更新処理](#processing)には 3 時間かかる場合があります。
 
-PTR レコードの更新の詳細を確認するには、その横にあるアイコンをクリックします。様々なアイコンに関連付けられたステータスについて詳しくは、[この節](#ptr-record-update-statuses)を参照してください。
+PTR レコードの更新の詳細を確認するには、その横にあるアイコンをクリックします。様々なアイコンに関連付けられたステータスについて詳しくは、[ この節 ](#ptr-record-update-statuses) を参照してください。
 
 ![](assets/ptr-record-recent-update.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,6 @@ ht-degree: 100%
 
    ![](assets/brands-6.png)
 
-これで、AI アシスタントメニューの&#x200B;**[!UICONTROL ブランド]**&#x200B;ドロップダウンからブランドガイドラインにアクセスできるようになり、仕様に合わせたコンテンツとアセットを生成できます。[詳しくは、AI アシスタントを参照してください](gs-generative.md)。
+これで、AI アシスタントメニューの&#x200B;**[!UICONTROL ブランド]**&#x200B;ドロップダウンからブランドガイドラインにアクセスできるようになり、仕様に合わせたコンテンツとアセットを生成できます。[AI アシスタントの詳細情報 ](gs-generative.md)
 
 ![](assets/brands-7.png)

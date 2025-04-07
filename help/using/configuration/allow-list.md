@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 例えば、ミスが発生する可能性がある非実稼働インスタンスでは、許可リストにより、不要なメッセージを実際の顧客アドレスに送信するリスクがなくなり、テスト目的で安全な環境が提供されます。
 
-また、許可リストがアクティブでも空の場合は、メールは送信されません。 したがって、何らかの重大な問題が発生した場合、この機能を使用して、問題が解決するまで [!DNL Journey Optimizer] からのすべての発信を停止できます。詳しくは、[許可リスト論理](#logic)を参照してください。
+また、許可リストがアクティブでも空の場合は、メールは送信されません。 したがって、何らかの重大な問題が発生した場合、この機能を使用して、問題が解決するまで [!DNL Journey Optimizer] からのすべての発信を停止できます。[許可リストロジック ](#logic) の詳細をご覧ください。
 
 また、Journey Optimizer の **Suppression REST API** を活用して、抑制リストと許可リストを使用して送信メッセージを制御できます。[Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->許可リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>許可リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[ この節 ](../administration/permissions-overview.md) を参照してください。
 
 許可リストを CSV ファイルとしてエクスポートするには、「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。
 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 「**追加**」、「**削除**」および「**取得**」の操作を実行できます。
 
-API 呼び出しについて詳しくは、 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target="_blank"} リファレンスドキュメントを参照してください。
+API 呼び出しについて詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ja){target="_blank"} リファレンスドキュメントを参照してください。
 
 ## 許可リストのダウンロード {#download-allowed-list}
 
@@ -201,7 +201,7 @@ API 呼び出しについて詳しくは、 [Adobe Experience Platform API](http
 >
 >「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journeys-message.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。
+>[ ライブレポート ](../reports/live-report.md) および [Customer Journey Analytics レポート ](../reports/report-gs-cja.md) の詳細情報。
 
 許可リストが[無効化](#deactivate-allow-list)されると、現在のサンドボックスから送信しているすべてのメールが、実際の顧客アドレスを含むすべての受信者（その受信者が抑制リストにない場合）に送信されます。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL 購読リスト]**：プロファイルがこのチェックボックスを選択した場合に更新される購読リストを選択する必要があります。詳しくは、[購読リスト](subscription-list.md)を参照してください。
+   * **[!UICONTROL 購読リスト]**：プロファイルがこのチェックボックスを選択した場合に更新される購読リストを選択する必要があります。詳細情報 [ 購読リスト ](subscription-list.md)。
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   マウスポインターを置いたときにボタンのラベルの色などの設定の一部をプレビューするには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用します。ランディングページのテストについては、[こちら](create-lp.md#test-landing-page)を参照してください。
+   マウスポインターを置いたときにボタンのラベルの色などの設定の一部をプレビューするには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用します。ランディングページのテストについて詳しくは [ こちら ](create-lp.md#test-landing-page) を参照してください。
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 

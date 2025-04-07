@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    ![](assets/experiment-genai-3.png)
 
-1. コンテンツ実験ウィンドウから「**[!UICONTROL 実験の設定]**」ボタンにアクセスして、実験を設定します。[コンテンツ実験の詳細情報](../content-management/content-experiment.md)
+1. コンテンツ実験ウィンドウから「**[!UICONTROL 実験の設定]**」ボタンにアクセスして、実験を設定します。[ コンテンツ実験の詳細情報 ](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 

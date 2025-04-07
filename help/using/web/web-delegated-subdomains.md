@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../integrations/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
 
-既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
+既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
 
 >[!CAUTION]
 >

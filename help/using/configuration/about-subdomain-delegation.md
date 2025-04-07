@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, Optimizer, デリゲーション
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,9 +56,9 @@ ht-degree: 100%
 
 サブドメイン設定を使用すると、Adobe Campaign 用にドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。使用可能な設定方法を次に示します。
 
-* **Adobe への完全なサブドメインデリゲーション**（推奨）：サブドメインはアドビに完全にデリゲートされます。アドビは、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理できます。[完全なサブドメインデリゲーションの詳細情報](delegate-subdomain.md#full-subdomain-delegation)
+* **Adobe への完全なサブドメインデリゲーション**（推奨）：サブドメインはアドビに完全にデリゲートされます。アドビは、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理できます。[ 完全なサブドメインデリゲーションの詳細情報 ](delegate-subdomain.md#full-subdomain-delegation)
 
-* **CNAME の使用**：サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定します。この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。[CNAME サブドメインのデリゲーションの詳細情報](delegate-subdomain.md#cname-subdomain-delegation)
+* **CNAME の使用**：サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定します。この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。[CNAME サブドメインのデリゲーションの詳細情報 ](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >

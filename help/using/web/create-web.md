@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL Web]** アクションを選択します。
 
-1. Web 設定を選択または作成します。[詳しくは、web 設定を参照してください。](web-configuration.md)
+1. Web 設定を選択または作成します。[Web 設定の詳細情報 ](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -181,7 +181,7 @@ Web エクスペリエンスを定義し、必要に応じてコンテンツを�
 
    >[!NOTE]
    >
-   >ジャーニーの公開について詳しくは、[このセクション](../building-journeys/publishing-the-journey.md)を参照してください。
+   >ジャーニーの公開について詳しくは、[ この節 ](../building-journeys/publishing-the-journey.md) を参照してください。
 
 Web ジャーニーが「**[!UICONTROL ライブ]**」ステータスになり、読み取り専用になります。ジャーニーの各受信者は、web サイトに追加した変更を表示できます。
 
@@ -203,7 +203,7 @@ Web キャンペーンの設定を定義し、必要に応じてコンテンツ�
 
    >[!NOTE]
    >
-   >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
+   >キャンペーンのアクティブ化について詳しくは、[ この節 ](../campaigns/review-activate-campaign.md) を参照してください。
 
 Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;ステータスになり、選択したオーディエンスに対して表示されるようになりました。キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
 

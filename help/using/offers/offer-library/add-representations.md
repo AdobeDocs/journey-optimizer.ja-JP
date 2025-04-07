@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、組織に [!DNL Assets Essentials] をデプロイし、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、組織に [!DNL Assets Essentials] をデプロイし、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"} を参照してください。
 
 1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
-パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
+パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳細情報 [ パーソナライゼーション ](../../personalization/personalize.md#use-expression-editor)。
 
 ![](../assets/offer-content-url.png)
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 
    ![](../assets/offer-text-content.png)
 
-   パーソナライゼーションエディターを使用して、コンテンツをパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
+   パーソナライゼーションエディターを使用して、コンテンツをパーソナライズできます。詳細情報 [ パーソナライゼーション ](../../personalization/personalize.md#use-expression-editor)。
 
    ![](../assets/offer-personalization.png)
 

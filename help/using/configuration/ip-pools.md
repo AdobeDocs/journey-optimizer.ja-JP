@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, プール, グループ, サブドメイン, 配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ IP プールを作成するには、次の手順に従います。
    >
    >インスタンスでプロビジョニングされた IP アドレスがすべてリストに表示されます。
 
-IP を選択すると、IP に関連付けられた PTR レコードがリストから表示されます。 これにより、IP プールを作成する際に各 IP のブランディング情報を検証し、例えば同じブランディング情報を持つ IP を選択できます。 [PTR レコードの詳細情報](ptr-records.md)
+IP を選択すると、IP に関連付けられた PTR レコードがリストから表示されます。 これにより、IP プールを作成する際に各 IP のブランディング情報を検証し、例えば同じブランディング情報を持つ IP を選択できます。 [PTR レコードの詳細情報 ](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 

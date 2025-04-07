@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 1. ルールセットに一意の名前を定義し、説明を追加します。
 
-1. ルールセットのドメインを選択します。ドメインを使用すると、通信チャネルまたはジャーニーに固有のキャッピングルールをルールセットに含めるかどうかを指定できます。[チャネルとジャーニーのキャッピングルールの詳細情報](#domain)
+1. ルールセットのドメインを選択します。ドメインを使用すると、通信チャネルまたはジャーニーに固有のキャッピングルールをルールセットに含めるかどうかを指定できます。[ チャネルとジャーニーのキャッピングルールの詳細情報 ](#domain)
 
    ![](assets/rule-sets-create.png)
 
@@ -154,7 +154,7 @@ ht-degree: 100%
 
      >[!CAUTION]
      > 
-     >毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください。
+     >毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} を参照してください
 
    通信が配信されると、プロファイルカウンターの値が更新されることに注意してください。大量の通信を送信する場合は、スループットに応じて、通信の開始から数分または数時間後に受信者にメールが届く可能性があるので（同時に数百万の通信を送信する場合）、この点に注意してください。
 

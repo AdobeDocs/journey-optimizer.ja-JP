@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 SMS／MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定を作成](sms-configuration.md#message-preset-sms)する際に選択するサブドメインを設定する必要があります。
 
-既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)で説明します。
+既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
 
 >[!CAUTION]
 >
