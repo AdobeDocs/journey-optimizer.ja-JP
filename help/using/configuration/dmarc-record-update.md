@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="必須の DMARC アップデートの詳細を学ぶ"
+>title="必須のDMARC更新の詳細"
 >abstract="Google と Yahoo は、業界のベストプラクティス実施の一環として、**2024年2月1日（PT）**&#x200B;から、メールを送信する際に使用するすべてのドメインに対して **DMARC レコード**&#x200B;を設定することを要求します。<br>したがって、Journey Optimizer でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認する必要があります。"
 
 Domain-based Message Authentication、Reporting、および Conformance（DMARC）は、ドメイン所有者が自身のドメインを不正使用から保護するメール認証方法です。メールプロバイダーや ISP に明確なポリシーを提供することで、自分のドメインから悪意のある関係者がメールを送信するのを防ぐことができます。DMARC を実装すると、正当なメールがスパムとしてマークまたは拒否されるリスクが軽減され、メールの配信品質が向上します。
