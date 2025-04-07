@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 **[!UICONTROL 詳細フォーマット]**&#x200B;の切り替えにより、エクスペリエンスをカスタマイズするための追加オプションがアクティブになります。
 
-アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。その後、キャンペーンスケジュールに従って通知が送信されます。詳しくは、[このページ](send-in-app.md)を参照してください。
+アプリ内メッセージを作成し、そのコンテンツを定義してパーソナライズしたら、そのメッセージをレビューしてアクティブ化できます。その後、キャンペーンスケジュールに従って通知が送信されます。詳しくは、[ このページ ](send-in-app.md) を参照してください。
 
 ## メッセージのレイアウト {#message-layout}
 

@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 17%
 
 Journey Optimizerを介して WhatsApp メッセージを直接送信できるようになりました。 この機能により、WhatsApp をジャーニーやキャンペーンにシームレスに統合し、受信者とのコミュニケーションとエンゲージメントを強化できます。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、**WhatsApp** アクティビティを追加し、基本設定を定義したあと、右側の **[!UICONTROL アクション：WhatsApp]** パネルを参照して、WhatsApp メッセージのコンテンツを作成します。 ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
+* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、**WhatsApp** アクティビティを追加し、基本設定を定義したあと、右側の **[!UICONTROL アクション：WhatsApp]** パネルを参照して、WhatsApp メッセージのコンテンツを作成します。 ジャーニーの作成方法については、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして **WhatsApp** を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する WhatsApp メッセージを定義します。 キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして **WhatsApp** を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する WhatsApp メッセージを定義します。 キャンペーンを作成する方法については、[ このページ ](../campaigns/create-campaign.md#configure) を参照してください。
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

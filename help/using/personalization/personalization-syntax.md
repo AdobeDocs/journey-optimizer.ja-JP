@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
   決定 API とオファー表示域について詳しくは、[このページ](../offers/api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
 
-  すべての参照は、[このページ](../personalization/personalization-build-expressions.md)で説明されている検証メカニズムを使用して、オファースキーマに対して検証されます。
+  すべての参照は、オファースキーマに照らして検証されます。このときの検証メカニズムについては、[ このページ ](../personalization/personalization-build-expressions.md) を参照してください。
 
   +++参照の例
 

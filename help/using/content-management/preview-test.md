@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >* メッセージをプレビューしたり、配達確認を送信したりすると、プロファイルのパーソナライゼーションデータのみが表示されます。イベント情報などのコンテキストデータに基づくパーソナライゼーションは、ジャーニーのコンテキストでのみテストできます。[こちらのユースケース](../personalization/personalization-use-case.md)では、パーソナライゼーションのテスト方法を説明します。
 >
->* 複数の条件付きバリアントを含むメールの配達確認をシミュレートまたはレンダリングする際、Journey Optimizer ではより多くの処理時間が必要になる場合があります。タイムアウトやエラーメッセージが発生した場合は、バリアントの合計数を減らすか、条件ルールを簡素化することを考慮します。条件付きコンテンツについて詳しくは、[このページ](../personalization/dynamic-content.md)を参照してください。
+>* 複数の条件付きバリアントを含むメールの配達確認をシミュレートまたはレンダリングする際、Journey Optimizer ではより多くの処理時間が必要になる場合があります。タイムアウトやエラーメッセージが発生した場合は、バリアントの合計数を減らすか、条件ルールを簡素化することを考慮します。の条件付きコンテンツについて詳しくは、[ このページ ](../personalization/dynamic-content.md) を参照してください。
 
 
 ## テストプロファイルまたはサンプル入力データを使用したテスト {#methods}

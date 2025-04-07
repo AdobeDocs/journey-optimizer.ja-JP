@@ -8,10 +8,10 @@ role: User
 level: Beginner
 badge: label="限定提供" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->この統合は、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
+>この統合は、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 アセットセレクターで Dynamic Media がサポートされるようになり、Journey Optimizer内で承認済みの Dynamic Media レンディションをシームレスに選択して使用できるようになりました。 Adobe Experience Managerでアセットに加えた変更は、Journey Optimizer コンテンツに即座に反映され、手動で更新することなく、常に最新のバージョンを使用できます。
 
@@ -209,7 +209,7 @@ Enable conditional content in your dynamic media to better target your audience 
 
 1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
 
-    [Learn more on conditions](../personalization/create-conditions.md)
+    [Learn more about conditions](../personalization/create-conditions.md)
 
 1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
 

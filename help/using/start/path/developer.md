@@ -7,10 +7,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリ、および [!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] で設定と統合がおこなわれていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](../../push/push-gs.md)を参照してください。
 
-プッシュ通知チャネルを設定しモバイルアプリ統合をテストする手順について詳しくは、[このページ](../../push/push-configuration.md)を参照してください。
+プッシュ通知チャネルを設定しモバイルアプリ統合をテストする手順について詳しくは、[ このページ ](../../push/push-configuration.md) を参照してください。
 
 ## API の操作 {#work-apis}
 

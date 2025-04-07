@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 テキストメッセージは、ジャーニーまたはキャンペーンで作成して送信できます。MMS と SMS の場合は、SMS アクションを使用します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：SMS]**&#x200B;パネルを参照して SMS／MMS メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
+* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：SMS]**&#x200B;パネルを参照して SMS／MMS メッセージのコンテンツを作成します。ジャーニーの作成方法については、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する SMS／MMS メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する SMS／MMS メッセージを定義します。キャンペーンを作成する方法については、[ このページ ](../campaigns/create-campaign.md#configure) を参照してください。
 
 Adobe Journey Optimizer では、SMS サービスプロバイダー（または SMS ゲートウェイプロバイダー）を通じてテキストメッセージを送信します。SMS／MMS メッセージを作成する前に、Journey Optimizer を使用してテキストメッセージ用にサービスプロバイダーを設定します。[詳細情報](sms-configuration.md)。
 

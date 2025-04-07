@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 99%
 * **[!UICONTROL オーディエンスを読み取り]** - オーディエンスを読み取りジャーニーでは、オーディエンス内のすべての個人がジャーニーにエントリし、ジャーニーに含まれるメッセージを受け取ります。[詳細情報](read-audience.md)
 
 
-ジャーニーのタイプと関連するエントリの管理について詳しくは、[このページ](entry-management.md)を参照してください。
+ジャーニーのタイプと関連するエントリ管理について詳しくは、[ このページ ](entry-management.md) を参照してください。
 
 ## ジャーニーのステータス {#journey-statuses}
 
@@ -128,7 +128,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->ジャーニーのバージョン管理には、特定のガードレールと制限が適用されます。 詳しくは、[このページ](../start/guardrails.md#journey-versions-journey-versions-g)を参照してください。
+>ジャーニーのバージョン管理には、特定のガードレールと制限が適用されます。 詳しくは、[ このページ ](../start/guardrails.md#journey-versions-journey-versions-g) を参照してください。
 
 ## ジャーニーの複製 {#duplicate-a-journey}
 

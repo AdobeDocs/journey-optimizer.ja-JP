@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
   **Edge Delivery** プラグインを使用すると、インバウンド実装を効果的に理解してトラブルシューティングを行うために必要なインサイトを得ることができます。
 
-  [詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
+  [Edge Delivery ビューの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery)
 
 ## アプリ内設定の作成 {#channel-prerequisites}
 
@@ -65,9 +65,9 @@ ht-degree: 100%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）について詳しくは、こちらを参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)。
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、「**[!UICONTROL マーケティングアクション]**」を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. **アプリ内メッセージ**&#x200B;チャネルを選択します。
 
@@ -126,9 +126,9 @@ ht-degree: 100%
 
 レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
-データセットのスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
+データセットスキーマに事前定義済みの [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}`AEP Web SDK ExperienceEvent` および `Consumer Experience Event` （[ このページ ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"} で定義したもの）を使用 **ない** 場合は、フィールドグループとして `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`、`Web Details` を必ず追加してください。 これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
 
-[詳しくは、「レポーティング設定」を参照してください。](../reports/reporting-configuration.md)
+[レポート設定の詳細情報](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

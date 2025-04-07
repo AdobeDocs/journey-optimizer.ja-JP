@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 Journey Optimizer ジャーニーデザイナーには、マーケターやジャーニー担当者がチャネルをまたいで複数の手順から成る 1:1 ジャーニーを調整するのに必要なすべての機能が用意されています。これには、直感的なドラッグ＆ドロップキャンバスが含まれており、ジャーニーの各手順を調整し、ターゲットオーディエンスを定義し、行動、コンテキストデータ、ビジネスイベントに基づいてターゲットオーディエンスメンバーに表示されるチャネルをまたいでメッセージ、オファーおよびコンテンツを含めることができます。
 
-最初のジャーニーを作成して設計する方法について詳しくは、[このページ](journey-gs.md)を参照してください。
+初めてのジャーニーの作成およびデザイン方法については、[ このページ ](journey-gs.md) を参照してください。
 
 ➡️ [Journey Optimizer をビデオで確認](#video)
 
@@ -50,7 +50,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 >[!NOTE]
 >
->ジャーニーのガードレールと制限について詳しくは、[こちらのページ](../start/guardrails.md)を参照してください。
+>ジャーニーガードレールと制限について詳しくは、[ このページ ](../start/guardrails.md) を参照してください
 
 ## チュートリアルビデオ {#video}
 

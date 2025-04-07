@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Web アプリ内チャネルを設定するには、次の手順に従います�
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-1. キャンペーンの実行タイプ（スケジュール済みまたは API トリガー）を選択します。キャンペーンのタイプについて詳しくは、[このページ](../campaigns/create-campaign.md#campaigntype)を参照してください。
+1. キャンペーンの実行タイプ（スケジュール済みまたは API トリガー）を選択します。キャンペーンのタイプについて詳しくは、[ このページ ](../campaigns/create-campaign.md#campaigntype) を参照してください。
 
 1. **[!UICONTROL アクション]**&#x200B;ドロップダウンから、「**[!UICONTROL アプリ内メッセージ]**」を選択します。
 

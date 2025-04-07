@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## カスタムアクションの設定 {#custom-action-config}
 
-カスタムアクションの設定について詳しくは、[このページ](../action/about-custom-action-configuration.md)を参照してください。
+カスタムアクションの設定について詳しくは、[ このページ ](../action/about-custom-action-configuration.md) を参照してください。
 
 この例では、次の手順に従います。
 

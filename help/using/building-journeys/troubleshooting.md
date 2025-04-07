@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # ジャーニーのトラブルシューティング {#troubleshooting}
 
-この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法について説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。レコメンデーションは、テストモードで以下のすべてのチェックを行い、公開に進むことです。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法について説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。レコメンデーションは、テストモードで以下のすべてのチェックを行い、公開に進むことです。テストモードについて詳しくは、[ このページ ](../building-journeys/testing-the-journey.md) を参照してください。
 
-また、管理者は、ユーザーインターフェイスから直接実際の API 呼び出しを行って、カスタムアクション設定をテストすることもできます。詳しくは、[このページ](../action/troubleshoot-custom-action.md)を参照してください。
+また、管理者は、ユーザーインターフェイスから直接実際の API 呼び出しを行って、カスタムアクション設定をテストすることもできます。詳しくは、[ このページ ](../action/troubleshoot-custom-action.md) を参照してください。
 
 ## テスト前のエラーチェック {#checking-for-errors-before-testing}
 

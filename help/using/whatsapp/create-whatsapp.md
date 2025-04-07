@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 31%
+source-wordcount: '809'
+ht-degree: 23%
 
 ---
 
@@ -32,6 +32,35 @@ ht-degree: 31%
 >[!ENDSHADEBOX]
 
 Adobe Journey Optimizerを使用すると、WhatsApp で魅力的なメッセージをデザインして送信できます。 ジャーニーまたはキャンペーンに WhatsApp アクションを追加し、以下に説明するようにメッセージコンテンツを作成するだけです。 また、Adobe Journey Optimizerでは、WhatsApp メッセージを送信する前にテストし、完全なレンダリング、正確なパーソナライゼーション、およびすべての設定の適切な設定を保証できます。
+
+なお、Journey Optimizerでは、送信メッセージ要素のみがサポートされています。
+
++++ サポートされるメッセージ要素とアクションの呼び出しについて説明します
+
+WhatsApp では、次のメッセージタイプがサポートされています。
+
+| メッセージ機能 | 説明 |
+|-|-|
+| ヘッダー | メッセージの本文の上に表示するオプションのテキスト。 |
+| テキスト | パラメーターによる動的コンテンツのサポート。 |
+| 画像（JPEG、PNG） | 8 ビット RGBまたは RGBA フォーマットで、サイズが 5 MB 未満である必要があります。 |
+| ビデオ | 16 MB 以下の 3GPP または MP4 で、URL を介してホストされている必要があります。 |
+| オーディオ | 応答メッセージでのみ使用できます。 AAC、AMR、MP3、MP4 オーディオまたは OGG 形式で、URL でホストされ、16 MB 未満である必要があります。 |
+| ドキュメント | 100 MB 未満で、URL にホストされ、.txt、.xls/.xlsx、.doc/.docx、.ppt/.pptx または.pdf のいずれかの形式である必要があります。 |
+| 本文 | パラメーターによる動的コンテンツのサポート。 |
+| フッターテキスト | パラメーターによる動的コンテンツのサポート。 |
+
+次のコールトゥアクションオプションは、WhatsApp メッセージで使用できます。
+
+| コールトゥアクション | 説明 |
+|-|-|
+| 電話番号に電話する | メッセージテンプレートでのみ使用できます。 1 つのボタンに制限されています。 |
+| カスタム クイック返信ボタン | 最大 3 つのボタンをサポートします。 |
+| マーケティングのオプトアウトボタン | 購読ステータスを自動的に更新しません。 |
+| クーポンコードのメッセージテンプレート | メッセージテンプレートでのみ使用できます。 |
+| CTAの応答メッセージ | コールトゥアクションボタンを応答メッセージに含めることができます。 |
+
++++
 
 ## WhatsApp メッセージの追加 {#create-whatsapp-journey-campaign}
 
@@ -90,7 +119,7 @@ Adobe Journey Optimizerを使用すると、WhatsApp で魅力的なメッセー
 
 >[!BEGINSHADEBOX]
 
-Journey Optimizerで WhatsApp メッセージをデザインする前に、まず Meta でテンプレートを作成およびデザインする必要があります。 Journey Optimizerでは、送信メッセージ要素のみがサポートされます。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Journey Optimizerで WhatsApp メッセージをデザインする前に、まず Meta でテンプレートを作成およびデザインする必要があります。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 WhatsApp テンプレートをJourney Optimizerで使用するには、まず Meta が承認する必要があります。 この処理には通常数時間かかりますが、最長で 24 時間かかる場合があります。 [詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
@@ -108,7 +137,7 @@ WhatsApp テンプレートをJourney Optimizerで使用するには、まず Me
    * ユーティリティ
    * 認証
 
-   [ テンプレートカテゴリについて詳しくはこちらから ](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [ テンプレートカテゴリの詳細情報 ](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
 1. **WhatsApp テンプレート** ドロップダウンから、Meta で設計された以前に作成したテンプレートを選択します。
 
@@ -120,7 +149,7 @@ WhatsApp テンプレートをJourney Optimizerで使用するには、まず Me
 
 1. **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、WhatsApp メッセージコンテンツ、短縮 URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
 
-テストを実行してコンテンツを検証したら、WhatsApp メッセージをオーディエンスに送信できます。 これらの手順について詳しくは、[このページ](send-whatsapp.md)を参照してください。
+テストを実行してコンテンツを検証したら、WhatsApp メッセージをオーディエンスに送信できます。 これらの手順について詳しくは、[ このページ ](send-whatsapp.md) を参照してください。
 
 
 <!--
@@ -144,7 +173,7 @@ WhatsApp テンプレートをJourney Optimizerで使用するには、まず Me
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!TAB Response message]
 
@@ -158,7 +187,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!ENDTABS]
 -->

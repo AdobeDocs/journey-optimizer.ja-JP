@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 89%
@@ -94,7 +94,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->* タイムゾーンは条件に固有のものではなく、ジャーニーのプロパティでジャーニーレベルで定義されます。詳しくは、[このページ](../building-journeys/timezone-management.md)を参照してください。
+>* タイムゾーンは条件に固有のものではなく、ジャーニーのプロパティでジャーニーレベルで定義されます。詳しくは、[ このページ ](../building-journeys/timezone-management.md) を参照してください。
 >
 >* デフォルトでは、**[!UICONTROL 時間条件]**&#x200B;は 00:00 から 12:00 までの時間単位で設定されます。
 

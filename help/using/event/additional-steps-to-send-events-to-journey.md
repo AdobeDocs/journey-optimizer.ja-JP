@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 手順, 設定, ジャーニー, イベント, ストリーム, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 イベントを&#x200B;**[!UICONTROL ストリーミング取り込み API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
 
 1. Adobe Experience Platform API からインレット URL を取得します。詳しくは、[treaming Ingestion API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}を参照してください。
-1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。
+1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[ このページ ](../event/about-creating.md#define-the-payload-fields) を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。
 

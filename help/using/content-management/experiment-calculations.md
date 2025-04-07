@@ -9,10 +9,10 @@ role: User
 level: Experienced
 keywords: コンテンツ, 実験, 統計, 計算
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 この記事では、実験の仕組みを説明し、アドビの&#x200B;**常に有効な信頼性シーケンス**&#x200B;について分かりやすく紹介します。
 
-エキスパートユーザー向けの技術的な詳細と参照について詳しくは、[このページ](../content-management/assets/confidence_sequence_technical_details.pdf)を参照してください。
+エキスパートユーザー向けの技術的な詳細と参照について詳しくは、[ このページ ](../content-management/assets/confidence_sequence_technical_details.pdf) を参照してください。
 
 ## 統計テストとエラーの制御 {#statistical-testing}
 

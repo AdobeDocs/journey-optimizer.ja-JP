@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ AI アシスタントにアクセスするには、上部バーのアイコン�
 
 >[!CAUTION]
 >
->AI アシスタントを使用するには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。この契約について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}を参照してください。
+>AI アシスタントを使用するには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。契約について詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} を参照してください。
 
 Adobe Journey Optimizer では、次のユースケースにアクセスできます。
 

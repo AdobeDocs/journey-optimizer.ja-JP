@@ -9,16 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '934'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 組み込みの権限 {#ootb-permissions}
 
-組み込みの権限は、「**[!UICONTROL 役割]**」に割り当てることができる様々な権限を表します。これにより、Journey Optimizer へのユーザーアクセスを微調整します。高レベルの権限には、[このページ](high-low-permissions.md)で詳しく説明されている低レベルの権限が含まれます。
+組み込みの権限は、「**[!UICONTROL 役割]**」に割り当てることができる様々な権限を表します。これにより、Journey Optimizer へのユーザーアクセスを微調整します。高レベル権限には、低レベル権限が含まれます。詳しくは、[ このページ ](high-low-permissions.md) を参照してください。
 
 | 機能 | 権限 |
 |-|-|

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1595'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* 外部システムを操作する際のガードレールについては、[このページ](../configuration/external-systems.md)を参照してください。
+>* 外部システムを操作する際のガードレールについては、[ このページ ](../configuration/external-systems.md) を参照してください。
 >
 >* 応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。応答について詳しくは、この[節](../action/action-response.md)を参照してください。
 

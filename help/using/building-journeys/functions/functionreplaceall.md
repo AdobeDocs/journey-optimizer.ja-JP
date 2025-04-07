@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: replaceAll，関数，式，ジャーニー
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 94%
+ht-degree: 88%
 
 ---
 
@@ -48,4 +48,4 @@ ht-degree: 94%
 
 「Hexxo Worxd」を返します。
 
-ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。例については、[このページ](../functions/functionreplace.md#example_2)を参照してください。
+ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。[ このページ ](../functions/functionreplace.md#example_2) の例を参照してください。

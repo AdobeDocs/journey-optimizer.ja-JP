@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 94%
@@ -107,7 +107,7 @@ ht-degree: 94%
 ## June 2024 {#june-2024}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] June '24 release have been detailed in the documentation. [Read more](release-notes.md)
-* A note about the usage of merge policies in journeys has been added in [this page](../building-journeys/journey-properties.md#merge-policies).
+* A note about the usage of merge policies in journeys has been added on [this page](../building-journeys/journey-properties.md#merge-policies).
 * The page about how to configure a **Wait** activity in a journey has been reorganized and improved. [Read more](../building-journeys/wait-activity.md)
 * A new page has been created to detail journey's properties. [Read more](../building-journeys/journey-properties.md)
 

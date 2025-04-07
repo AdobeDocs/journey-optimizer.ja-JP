@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 100%
 
 ### 複数の待機アクティビティ {#multiple-wait-activities}
 
-ジャーニーの[グローバルタイムアウト](journey-properties.md#global_timeout)が 91 日なので（つまり、プロファイルはジャーニーにエントリしてから最大 91 日後に必ずジャーニーからドロップアウトするので）、1 つのジャーニーで複数の&#x200B;**待機**&#x200B;アクティビティを使用する場合は注意が必要です。詳しくは、[このページ](journey-properties.md#global_timeout)を参照してください。
+ジャーニーの[グローバルタイムアウト](journey-properties.md#global_timeout)が 91 日なので（つまり、プロファイルはジャーニーにエントリしてから最大 91 日後に必ずジャーニーからドロップアウトするので）、1 つのジャーニーで複数の&#x200B;**待機**&#x200B;アクティビティを使用する場合は注意が必要です。詳しくは、[ このページ ](journey-properties.md#global_timeout) を参照してください。
 
 個人が&#x200B;**待機**&#x200B;アクティビティにエントリできるのは、91 日のジャーニータイムアウトより前に待機期間を完了できる、十分な時間がジャーニーに残っている場合のみです。
 
 ### 待機と再エントリ {#wait-reentrance}
 
-ベストプラクティスとして、**待機**&#x200B;アクティビティを使用して、再エントリをブロックすることは避けてください。代わりに、ジャーニープロパティレベルで「**再エントリを許可**」オプションを使用します。詳しくは、[このページ](../building-journeys/journey-properties.md#entrance)を参照してください。
+ベストプラクティスとして、**待機**&#x200B;アクティビティを使用して、再エントリをブロックすることは避けてください。代わりに、ジャーニープロパティレベルで「**再エントリを許可**」オプションを使用します。詳しくは、[ このページ ](../building-journeys/journey-properties.md#entrance) を参照してください。
 
 ### 待機とテストモード {#wait-test-modd}
 
-テストモードでは、**[!UICONTROL テストの待機時間]**&#x200B;パラメーターを使用して、各&#x200B;**待機**&#x200B;アクティビティの持続時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
+テストモードでは、**[!UICONTROL テストの待機時間]**&#x200B;パラメーターを使用して、各&#x200B;**待機**&#x200B;アクティビティの持続時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。詳しくは、[ このページ ](../building-journeys/testing-the-journey.md) を参照してください。
 
 ## 設定 {#wait-configuration}
 
