@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
+source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 70%
+source-wordcount: '708'
+ht-degree: 69%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 70%
 
 ### 機能強化 {#25-04-improv}
 
-**サンドボックスツール**
+**サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
 
 パッケージのエクスポート機能とインポート機能を使用して、複数のサンドボックスにわたってキャンペーンをコピーできるようになりました。 キャンペーンが、プロファイル、オーディエンス、スキーマ、インラインメッセージおよび依存オブジェクトに関連するすべての項目と共にコピーされます。 決定項目、データ使用ラベル、言語設定など、一部の項目はコピーされません。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
 
-**パーソナライゼーション**
+**Personalization** – 公開日：2025 年 4 月 2 日（PT）
 
 パーソナライゼーションエディターの属性ペインに、デフォルトで入力された属性のみが表示されるようになりました。 すべての属性を表示するには、「設定」ボタンを使用して「**[!UICONTROL 入力された属性のみを表示]**」オプションをオフにします。 [詳細情報](../personalization/personalization-build-expressions.md)
 
