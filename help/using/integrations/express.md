@@ -11,10 +11,10 @@ keywords: アセット、統合
 hide: true
 hidefromtoc: true
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 Adobe Journey OptimizerのAdobe Express統合により、コンテンツを作成しながら、Adobe Expressの強力な編集ツールに簡単にアクセスできます。 この統合により、ソリューションを切り替える必要なく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、JPEGまたは PNG へのアセットの変換を行うことができます。
 
-Adobe Express について詳しくは、[このドキュメント](https://helpx.adobe.com/jp/express/user-guide.html)を参照してください。
+Adobe Expressについて詳しくは、[ このドキュメント ](https://helpx.adobe.com/jp/express/user-guide.html) を参照してください。
 
 **[!DNL Adobe Express]** メニューにアクセスするには、電子メールデザイナーから **画像設定** にアクセスし、**[!UICONTROL Adobe Expressで編集]** をクリックします。
 

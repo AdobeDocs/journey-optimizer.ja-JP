@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 89%
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 ![](assets/gs-cja-report-3.png)
 
-Customer Journey Analytics ワークスペースの詳細と、データのフィルタリングおよび分析方法については、[このページ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)を参照してください。
+Customer Journey Analytics Workspaceの詳細と、データのフィルタリングおよび分析方法については、[ このページ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home) を参照してください。
 
 ## ジャーニーの概要 {#journey-global}
 
@@ -35,7 +35,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 **[!UICONTROL ジャーニー]**&#x200B;の主要業績評価指標（KPI）は包括的なダッシュボードとして機能し、ジャーニーに関連する重要な指標の分析を提供します。これには、入力されたプロファイルの数や失敗した個々のジャーニーのインスタンスなどの詳細が含まれ、ジャーニーの効果とエンゲージメントのレベルを包括的に把握できます。
 
-+++ ジャーニーの KPI 指標の詳細情報
++++ ジャーニーKPI 指標の詳細を説明します
 
 * **[!UICONTROL ジャーニーのエンゲージメント]**：ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表す、ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。
 
@@ -51,7 +51,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 **[!UICONTROL ジャーニーの統計]**&#x200B;テーブルには、ジャーニーに関する重要なデータの詳細な概要が表示されます。これには、失敗数や成功エントリ数などの主要な指標が含まれ、メールやジャーニーのパフォーマンスとリーチに関する貴重なインサイトを提供します。
 
-+++ ジャーニーの統計指標の詳細情報
++++ ジャーニー統計指標の詳細を説明します
 
 * **[!UICONTROL ジャーニーの除外]**：定義済みの条件または抑制ルールによってジャーニーから除外された個人の合計数。
 
@@ -114,7 +114,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 **[!UICONTROL アクションの概要]**&#x200B;テーブルは、包括的なダッシュボードとして機能し、ジャーニーのアクションに関連する主要指標の分析を提供します。これには、インタラクション数やクリックスルー率などの重要な詳細が含まれます
 
-+++ アクションの概要指標の詳細情報
++++ アクションの概要指標の詳細を学ぶ
 
 * **[!UICONTROL ノード入力]**：ジャーニー内の特定のノードに入力した個人の合計数。
 
@@ -142,7 +142,7 @@ Customer Journey Analytics ワークスペースの詳細と、データのフ�
 
 **[!UICONTROL イベントの概要]**&#x200B;テーブルには、イベント条件を満たすプロファイルの数の推移が表示されます。このツールは、選定率のパターンを識別してイベント戦略を絞り込むのに役立ちます。
 
-+++ ジャーニーの統計指標の詳細情報
++++ ジャーニー統計指標の詳細を説明します
 
 * **[!UICONTROL 人物]**：イベントのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
