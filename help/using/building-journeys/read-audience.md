@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,41 @@ ht-degree: 99%
 >id="ajo_journey_read_segment"
 >title="「オーディエンスを読み取り」アクティビティ"
 >abstract="「オーディエンスを読み取り」アクティビティを使用すると、Adobe Experience Platform オーディエンスに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回限りと定期的のいずれも可能です。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="開始日/時刻"
+>abstract="このジャーニーをトリガーにする日時を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="繰り返しの期限"
+>abstract="繰り返しの終了日を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="リピート間隔"
+>abstract="スケジューラーの呼び出し頻度を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="増分読み取り"
+>abstract="前回の読み取り以降の新しいプロファイルのみがジャーニーにエントリできるようにします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="再エントリを強制"
+>abstract="各オーディエンスが読み取られる前に、すべてのジャーニー参加者をドロップします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="ジャーニー実行とオーディエンスエクスポートの同期"
+>abstract="オーディエンスの新しい書き出しが使用可能になったら、このオプションをオンにしてジャーニーをトリガーにします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="ジャーニー実行とオーディエンスエクスポートの同期"
+>abstract="オーディエンスの新しい書き出しが使用可能であることを確認するために、ジャーニーが待機する期間を指定します。"
 
 **オーディエンスを読み取り**&#x200B;アクティビティを使用すると、オーディエンスのすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回限りと定期的のいずれも可能です。
 
@@ -46,7 +81,7 @@ ht-degree: 99%
 * [CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスや、[構成ワークフロー](../audience/get-started-audience-orchestration.md)から生成されたオーディエンスは、「**オーディエンスを読み取り**」アクティビティで選択できます。これらのオーディエンスは、「**オーディエンスの選定**」アクティビティでは使用できません。
 
 
-**オーディエンスを読み取り** アクティビティに関連するガードレールは、[ このページ ](../start/guardrails.md#read-segment-g) に一覧表示されます。
+「**オーディエンスを読み取り**」アクティビティに関連するガードレールについては、[このページ](../start/guardrails.md#read-segment-g)を参照してください。
 
 
 ## アクティビティの設定 {#configuring-segment-trigger-activity}
@@ -63,7 +98,7 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >また、[オーディエンスの構成](../audience/get-started-audience-orchestration.md)または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を使用して作成された Adobe Experience Platform オーディエンスをターゲットにすることもできます。
+   >さらに、[ オーディエンスコンポジション ](../audience/get-started-audience-orchestration.md) または [CSV ファイルからアップロード ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} を使用して作成されたAdobe Experience Platform オーディエンスをターゲットにすることもできます。
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 
