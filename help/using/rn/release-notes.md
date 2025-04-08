@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 63%
+source-wordcount: '761'
+ht-degree: 61%
 
 ---
 
@@ -20,31 +20,33 @@ ht-degree: 63%
 >title="新着情報"
 >abstract="**Adobe Journey Optimizer** は、新機能、既存機能の強化およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。"
 
-[!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"} を参照してください。
 
 ## 2025 年 4 月の更新
 
 ### 機能強化 {#25-04-improv}
 
-**E メールデザイナー**
 
-Journey Optimizerのアクセシビリティを強化するために、メールDesignerで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<title>` 要素および `<html>` 要素の `lang` 属性に対応しています。 これらの設定は、「**[!UICONTROL プリヘッダー]**」フィールドに加えて、「メール **[!UICONTROL 本文]**」セクションで定義できます。 [詳細情報](../email/email-metadata.md)
+* **サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
 
-**サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
+  パッケージのエクスポート機能とインポート機能を使用して、複数のサンドボックスにわたってキャンペーンをコピーできるようになりました。 キャンペーンが、プロファイル、オーディエンス、スキーマ、インラインメッセージおよび依存オブジェクトに関連するすべての項目と共にコピーされます。 決定項目、データ使用ラベル、言語設定など、一部の項目はコピーされません。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
 
-パッケージのエクスポート機能とインポート機能を使用して、複数のサンドボックスにわたってキャンペーンをコピーできるようになりました。 キャンペーンが、プロファイル、オーディエンス、スキーマ、インラインメッセージおよび依存オブジェクトに関連するすべての項目と共にコピーされます。 決定項目、データ使用ラベル、言語設定など、一部の項目はコピーされません。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
+* **Personalization** – 公開日：2025 年 4 月 2 日（PT）
 
-**Personalization** – 公開日：2025 年 4 月 2 日（PT）
+  パーソナライゼーションエディターの属性ペインに、デフォルトで入力された属性のみが表示されるようになりました。 すべての属性を表示するには、「設定」ボタンを使用して「**[!UICONTROL 入力された属性のみを表示]**」オプションをオフにします。 [詳細情報](../personalization/personalization-build-expressions.md)
 
-パーソナライゼーションエディターの属性ペインに、デフォルトで入力された属性のみが表示されるようになりました。 すべての属性を表示するには、「設定」ボタンを使用して「**[!UICONTROL 入力された属性のみを表示]**」オプションをオフにします。 [詳細情報](../personalization/personalization-build-expressions.md)
+* **コンテンツ管理** – 公開日：2025 年 4 月 2 日（PT）
 
-**コンテンツ管理** – 公開日：2025 年 4 月 2 日（PT）
+  コンテンツテンプレートとフラグメントを簡単に管理するために、フォルダーを使用して、より効果的に構造化された階層に整理できるようになりました。 詳しくは、[ コンテンツテンプレート ](../content-management/access-content-templates.md#folders) および [ フラグメント ](../content-management/manage-fragments.md#folders) の節を参照してください。
 
-コンテンツテンプレートとフラグメントを簡単に管理するために、フォルダーを使用して、より効果的に構造化された階層に整理できるようになりました。 詳しくは、[ コンテンツテンプレート ](../content-management/access-content-templates.md#folders) および [ フラグメント ](../content-management/manage-fragments.md#folders) の節を参照してください。
+  >[!AVAILABILITY]
+  >
+  >この機能強化は、一連の組織でのみ使用できます（使用制限あり）。
 
->[!AVAILABILITY]
->
->この機能強化は、一連の組織でのみ使用できます（使用制限あり）。
+* **メールDesigner** – 公開日：2025 年 4 月 1 日（PT）
+
+  Journey Optimizerのアクセシビリティを強化するために、メールDesignerで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<title>` 要素および `<html>` 要素の `lang` 属性に対応しています。 これらの設定は、「**[!UICONTROL プリヘッダー]**」フィールドに加えて、「メール **[!UICONTROL 本文]**」セクションで定義できます。 [詳細情報](../email/email-metadata.md)
+
 
 ## 2025 年 3 月リリースノート {#25-3-rn}
 
