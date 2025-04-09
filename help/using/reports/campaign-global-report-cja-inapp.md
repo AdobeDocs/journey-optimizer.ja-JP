@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 84%
+source-wordcount: '584'
+ht-degree: 81%
 
 ---
 
 # アプリ内キャンペーンレポート {#campaign-global-report-cja-inapp}
+
+>[!IMPORTANT]
+>
+>アプリ内キャンペーンおよびジャーニーについてレポートする前に、[ このページ ](../in-app/inapp-configuration.md#experiment-prerequisites) に記載されているレポートの前提条件を必ず満たすようにしてください。
 
 >[!BEGINSHADEBOX]
 
