@@ -9,19 +9,19 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 990d49202a790b5a117a7da665ed32f52f27b554
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
-# 調整したキャンペーンの開始と監視 {#start-monitor}
+# 調整されたキャンペーンの開始と監視 {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="調整されたキャンペーンを公開"
->abstract="キャンペーンを開始するには、これを公開する必要があります。 公開する前に、すべての警告がクリアされていることを確認します。"
+>title="調整されたキャンペーンの公開"
+>abstract="キャンペーンを開始するには、公開する必要があります。公開前に、すべての警告がクリアされていることを確認します。"
 
 
 キャンバスで実行するタスクを調整および設計して作成したら、そのタスクを公開し、実行方法を監視できます。

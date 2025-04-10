@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 89%
 
 コードベースのキャンペーンに決定ポリシーを活用する主な手順を次に示します。
 
-1. [コードベースのエクスペリエンスに決定ポリシーを追加する](#add-decision)
+1. [コードベースのエクスペリエンスへの決定ポリシーの追加](#add-decision)
 1. [決定ポリシーの使用](#use-decision-policy)
 1. [カスタム Customer Journey Analytics レポートダッシュボードを作成します](cja-reporting.md)
 
-## コードベースのエクスペリエンスに決定ポリシーを追加する {#add-decision}
+## コードベースのエクスペリエンスへの決定ポリシーの追加 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
