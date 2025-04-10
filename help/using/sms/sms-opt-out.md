@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 89%
+source-wordcount: '568'
+ht-degree: 81%
 
 ---
 
@@ -43,6 +43,12 @@ Infobip を使用する場合は、転送アクションがプル設定に指定
 キーワード応答の STOP、UNSTOP、START、QUIT、CANCEL、END および UNSUBSCRIBE が自動的に認識されるので、Adobe Journey Optimizer で SMS オプトアウト機能が機能していることを確認する手順は不要です。プロファイルのオプトアウトステータスは、Adobe Journey Optimizer でリアルタイムに更新されます。
 
 顧客がテキストメッセージに対して STOP 応答を行った場合、プロバイダーは、トランザクションメッセージを含め、その特定の送信者 ID （ショートコードまたはロング番号）からの以降のすべての SMS をブロックすることに注意してください。 トランザクション SMS の配信が中断されないようにするには、まだオプトアウトされていない別の送信者 ID を使用します。
+
+
+>[!NOTE]
+>
+>双方向 SMS （STOP で返信、QUIT など）を使用する予定がある場合は、まず 1 つ以上の一方向の SMS を送信して、電話番号をプロファイルマッピングに確立していることを確認します。 プロバイダーの資格情報の有効期限が切れているか、設定が正しくないと、受信キーワードによるユーザープロファイルの更新が妨げられ、オプトアウトレコードが見つからないか、遅延します。
+
 
 ## ブロックリスト {#sms-blocklists}
 
