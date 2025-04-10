@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 99%
 
 ---
 
@@ -120,11 +120,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 まずオーディエンスを定義した後、プロファイルは認定されるたびにオーディエンスに追加されます。以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
 
-## [!BADGE 限定提供] {type=Informative} 柔軟なオーディエンス評価 {#flexible}
-
->[!AVAILABILITY]
->
-柔軟なオーディエンス評価は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
+## 柔軟なオーディエンス評価 {#flexible}
 
 Adobe Experience Platform オーディエンスポータルを使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行できるので、Journey Optimizer のジャーニーやキャンペーンにオーディエンスをターゲティングする前に、常に最新のオーディエンスデータを確保できます。
 
