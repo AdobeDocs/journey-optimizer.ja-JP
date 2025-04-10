@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 97%
+source-wordcount: '445'
+ht-degree: 95%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
 
 ダイレクトメールキャンペーンの準備が整ったら、「**[!UICONTROL アクティブ化]**」ボタンをクリックします。キャンペーンが開始すると、抽出ファイルが自動的に生成され、[ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md)で指定されているサーバーに書き出されます。
 
-送信後は、キャンペーンレポート内でダイレクトメールキャンペーンの影響を測定できます。レポートについて詳しくは、この節を参照してください。
+送信後は、キャンペーンレポート内でダイレクトメールキャンペーンの影響を測定できます。ダイレクトメールレポートについて詳しくは、[ この節 ](../reports/campaign-global-report-cja-direct.md) を参照してください。
 
 ## ダイレクトメールの同意の管理 {#dm-consent-management}
 

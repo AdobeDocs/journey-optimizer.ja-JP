@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 98%
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +24,14 @@ ht-degree: 98%
 
 1. [ファイルのルーティング設定](#file-routing-configuration)：ファイルの書き出し先となるサーバーを指定し、必要に応じてファイルを暗号化します。
 
-   >[!CAUTION]
-   >
-   >ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** 組み込みの権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [ダイレクトメール設定](#direct-mail-configuration)：ファイルのルーティング設定を参照します。ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
+
+
+>[!CAUTION]
+>
+>* ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** 組み込みの権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* ダイレクトメールファイルは、エクスポート時にのみ生成されます。古いエクスポートは無期限には保存されません。 より長いバックアップまたは永続的なバックアップの場合は、ファイルのルーティングオプション（SFTP またはクラウドストレージ）を設定します。
 
 ## ファイルのルーティングを設定 {#file-routing-configuration}
 
