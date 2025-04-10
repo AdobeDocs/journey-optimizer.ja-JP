@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 71%
+source-wordcount: '867'
+ht-degree: 69%
 
 ---
 
@@ -24,8 +24,28 @@ ht-degree: 71%
 
 ## 2025年4月の更新
 
-### 機能強化 {#25-04-improv}
+### 新機能 {#25-04-feature}
 
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニー指標</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニー指標を使用できるようになりました。これにより、ビジネスの主要指標におけるアクティビティの影響を測定し、パフォーマンスに関するより明確なインサイトを提供できます。</p>
+<p>詳しくは、<a href="../building-journeys/success-metrics.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 4 月 9 日（PT）</p>
+</br>
+<img src="assets/do-not-localize/success-metric.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#25-04-improv}
 
 * **サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
 
