@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 61%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"} を参照してください。
 
-## 2025 年 4 月の更新
+## 2025年4月の更新
 
 ### 機能強化 {#25-04-improv}
 
@@ -37,18 +37,18 @@ ht-degree: 61%
 
 * **コンテンツ管理** – 公開日：2025 年 4 月 2 日（PT）
 
-  コンテンツテンプレートとフラグメントを簡単に管理するために、フォルダーを使用して、より効果的に構造化された階層に整理できるようになりました。 詳しくは、[ コンテンツテンプレート ](../content-management/access-content-templates.md#folders) および [ フラグメント ](../content-management/manage-fragments.md#folders) の節を参照してください。
+  コンテンツテンプレートとフラグメントを簡単に管理するために、フォルダーを使用して、より効果的に構造化された階層に整理できるようになりました。 詳しくは、[コンテンツテンプレート](../content-management/access-content-templates.md#folders)および[フラグメント](../content-management/manage-fragments.md#folders)の節を参照してください。
 
   >[!AVAILABILITY]
   >
-  >この機能強化は、一連の組織でのみ使用できます（使用制限あり）。
+  >この機能強化は、一連の組織のみが使用できます（限定提供）。
 
 * **メールDesigner** – 公開日：2025 年 4 月 1 日（PT）
 
   Journey Optimizerのアクセシビリティを強化するために、メールDesignerで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<title>` 要素および `<html>` 要素の `lang` 属性に対応しています。 これらの設定は、「**[!UICONTROL プリヘッダー]**」フィールドに加えて、「メール **[!UICONTROL 本文]**」セクションで定義できます。 [詳細情報](../email/email-metadata.md)
 
 
-## 2025 年 3 月リリースノート {#25-3-rn}
+## 2025年3月リリースノート {#25-3-rn}
 
 
 ### 新機能 {#25-03-features}
@@ -196,17 +196,17 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 **設定**
 
-* Adobe Experience Platform 統合タグをチャネル設定に割り当てることができるようになりました。これにより、アセットを簡単に分類し、すべてのリストで検索とナビゲーションを改善できます。 [詳細情報](../configuration/channel-surfaces.md#channel-config-tags)
+* Adobe Experience Platform 統合タグをチャネル設定に割り当てることができるようになりました。これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。[詳細情報](../configuration/channel-surfaces.md#channel-config-tags)
 
-* Journey Optimizerでメールサブドメインを設定または編集する際に、関連するDMARC レコードを親ドメインで利用できる場合、自分で管理できるようになりました。 [詳細情報](../configuration/dmarc-record.md#set-up-dmarc)
+* Journey Optimizer でメールサブドメインを設定または編集する際に、親ドメインで使用可能な場合は、関連付けられた DMARC レコードを独自に管理することを選択できるようになりました。[詳細情報](../configuration/dmarc-record.md#set-up-dmarc)
 
 **ビジネスルール**
 
 バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} を参照してください
 
-ルールセットの 1 日のフリークエンシーキャップは、一連の組織（使用制限あり）でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
+ルールセットでの毎日のフリークエンシーキャップは、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
-ビジネスルールについて詳しくは、[ 詳細ドキュメント ](../configuration/rule-sets.md) を参照してください。
+ビジネスルールについて詳しくは、[詳細なドキュメント](../configuration/rule-sets.md)を参照してください。
 
 <!--**Deliverability**
 

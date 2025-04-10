@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 95%
 
   >[!CAUTION]
   >
-  >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
+  >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[ イベント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events) に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
 
 オーディエンスまたは決定ルールを選択すると、推定される認定プロファイルに関する情報が表示されます。「**[!UICONTROL 更新]**」をクリックして、データを更新します。
 
@@ -191,7 +191,7 @@ ht-degree: 95%
   >
   >インプレッションをキャッピングイベントとして使用できるのは、**インバウンドチャネル**&#x200B;のみです。
 
-* **[!UICONTROL カスタムイベント]**：送信されるオファーの数の制限に使用するカスタムイベントを定義できます。 例えば、引き換え回数が 10000 になるまで、または特定のプロファイルが 1 回引き換えられるまでに引き換え回数を制限できます。これを行うには、[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
+* **[!UICONTROL カスタムイベント]**：送信されるオファーの数の制限に使用するカスタムイベントを定義できます。 例えば、引き換え回数が 10000 になるまで、または特定のプロファイルが 1 回引き換えられるまでに引き換え回数を制限できます。これを行うには、[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja) スキーマを使用してカスタムイベントルールを作成します。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
@@ -258,9 +258,9 @@ ht-degree: 95%
 >
 >オファーを公開した後は、頻度に選択した期間（毎月、毎週、毎日）を変更できなくなります。オファーのステータスが&#x200B;**[!UICONTROL ドラフト]**&#x200B;で、これまでにフリークエンシーキャップを有効にして公開したことがない場合であれば、フリークエンシーキャップを編集できます。
 
-+++ **必読：フリークエンシーキャップ API と意思決定管理 API**
++++ **必読：Frequency capping API と Decision management API**
 
-フリークエンシーキャップ カウンターが更新され、[Edge Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) の決定で 3 秒未満で利用できるようになります。
+フリークエンシーキャップカウンターは 3 秒以内に更新され、[Edge Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) の決定で使用できます。
 
 各ハブ地域は、1 つ以上のエッジリージョンに関連付けられています。フリークエンシーキャップルールが生成され、各ハブリージョンから関連するエッジリージョンに書き出されます。Edge Decisioning API を使用して決定が行われるたびに、システムは同じエッジリージョンで使用可能なルールを適用します。
 
@@ -271,15 +271,15 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->カウンターがエッジからハブに、またはハブからエッジ領域に伝播されると、数分の遅延が発生する場合があります。
+>カウンターがエッジリージョンからハブリージョンに、またはハブリージョンからエッジリージョンに生成される場合、数分の遅延が発生することがあります。
 
 組織に関連付けられているハブとエッジのリージョンについて詳しくは、アドビ担当者にお問い合わせください。
 
-他の API では、フリークエンシーキャップ カウンターは次のように更新されます。
+他の API では、フリークエンシーキャップカウンターは次のように更新されます。
 
-* [Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning) 決定では、トラフィックに応じて、フリークエンシーキャッピングカウンターを数分遅延させて更新する場合があります。
+* [Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning) の決定では、トラフィックに応じて、フリークエンシーキャップカウンターが数分遅れて更新される場合があります。
 
-* [Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md) の決定では、フリークエンシーキャッピングカウンターが固定されている場所でスナップショットが使用されます。 同じスナップショットを使用する限り、カウンターは変更されません。
+* [Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md) の決定では、フリークエンシーキャップカウンターが固定されたままのスナップショットが使用されます。同じスナップショットを使用する限り、カウンターは変更されません。
 
 +++
 

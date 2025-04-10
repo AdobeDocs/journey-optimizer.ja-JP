@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -32,15 +32,15 @@ ht-degree: 84%
 
 * **ランディングページへのリンク**&#x200B;を挿入します。[詳しくは、オプトアウトランディングページの追加方法を参照してください](#opt-out-external-lp)
 
-受信者がオプトアウトリンクをクリックすると、それに応じて購読解除リクエストが処理されます。
+受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platformに移動して [ そのプロファイルを参照 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab) します。 「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}を参照してください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動して、[そのプロファイルを参照](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#attributes-tab)します。「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}を参照してください。
 
 ![](assets/opt-out-profile-choice.png)
 
 >[!NOTE]
 >
->場合によっては、ダウンストリームデータ処理が原因で、登録解除イベントがプロファイルレベルで反映されるまでに時間がかかることがあります。 システムが更新されるまでしばらく待ちます。
+>場合によっては、ダウンストリームのデータ処理により、登録解除イベントがプロファイルレベルで反映されるまでに時間がかかることがあります。システムの更新に多少時間がかかる場合があります。
 
 ## ワンステップオプトアウト {#opt-out-one-step}
 
@@ -48,7 +48,7 @@ ht-degree: 84%
 
 ### メールヘッダーのワンクリック登録解除 URL {#unsubscribe-header}
 
-ワンクリックリスト登録解除 URL は、メール送信者情報の横に表示される登録解除リンクまたはボタンです。受信者はワンクリックでメーリングリストから即座にオプトアウトできます。 **[!UICONTROL リスト登録解除]** オプションを管理する方法については、[ この節 ](list-unsubscribe.md) を参照してください。
+ワンクリックリスト登録解除 URL は、メールの送信者情報の横に表示される登録解除リンクまたはボタンであり、受信者は 1 回のクリックでメーリングリストから即座にオプトアウトできます。「**[!UICONTROL リスト登録解除]**」オプションを管理する方法について詳しくは、[この節](list-unsubscribe.md)を参照してください。
 
 ### メールコンテンツからのワンクリックオプトアウト {#one-click-opt-out}
 
@@ -97,7 +97,7 @@ Adobe Journey Optimizerでランディングページを作成して、[ この�
 
 +++ オプトアウト API 呼び出しの実装方法について説明します。
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com){target="_blank"} を使用して&#x200B;**Subscription API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com){target="_blank"} を使用して **購読 API 呼び出し** を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
 この POST 呼び出しは次の通りです。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizerでランディングページを作成して、[ この�
 }
 ```
 
-[!DNL Journey Optimizer] では、これらのパラメーターを使用して、[Adobe Developer](https://developer.adobe.com){target="_blank"} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
+[!DNL Journey Optimizer] はこれらのパラメーターを使用し、[Adobe Developer](https://developer.adobe.com){target="_blank"} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
 
 +++
 

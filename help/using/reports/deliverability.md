@@ -11,7 +11,7 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 [!DNL Journey Optimizer] エクスペリエンスの配信品質を最適化するには、この節に示すベストプラクティスを使用することをお勧めします。配信品質の問題は通常、インターネットサービスプロバイダー（ISP）およびメールサーバー管理者が実行するスパム対策に関係しています。
 
-配信品質の概要と、配信品質の主要な用語、概念、アプローチについて詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}を参照してください。
+配信品質とは何か、配信品質の主要な用語、概念およびアプローチの詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}を参照してください
 
 ## 苦情率の低減 {#reduce-complaint-rate}
 
@@ -172,12 +172,12 @@ DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、
 
 アドビでは、これらの FBL を定期的に監査して、利用可能な最新の FBL が追加されていることを確認します。
 
-## SMTP リレーを使用 {#smtp-relay}
+## SMTP リレーの使用 {#smtp-relay}
 
-[!DNL Journey Optimizer] は、Adobeが所有するメール転送エージェント（MTA）と IP を使用して、メールをインターネットサービスプロバイダー（ISP）に配信します。 ただし、場合によっては、最終的なメール配信を独自の MTA や IP を通じてルーティングしたり、メールを受信者に送信する前に最終的な検証を実行したりする必要があります。
+[!DNL Journey Optimizer] は、アドビが所有するメール転送エージェント（MTA）と IP を使用して、メールをインターネットサービスプロバイダー（ISP）に配信します。ただし、場合によっては、最終的なメール配信を独自の MTA と IP を通じてルーティングしたり、受信者に送信する前にメールの最終的な検証を実行したりする必要があることもあります。
 
-この場合、Journey Optimizerから ISP に直接送信されるのではなく、組織がホストする SMTP サーバーにメールを中継するように選択できます。
+この場合、メールを Journey Optimizer から ISP に直接送信する代わりに、組織がホストする SMTP サーバーにリレーすることを選択できます。
 
 >[!AVAILABILITY]
 >
->SMTP リレー容量はオンデマンドで利用できます。Adobe担当者にお問い合わせください。
+>SMTP リレー容量はオンデマンドで使用できます。アドビ担当者にお問い合わせください。

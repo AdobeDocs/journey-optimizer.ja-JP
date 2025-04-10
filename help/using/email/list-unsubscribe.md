@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 60%
+ht-degree: 93%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 60%
 
 <!--Do not modify - Legal Review Done -->
 
-ま [!DNL Adobe Journey Optimizer]、新しいメールチャネル設定を設定する際に、リストから [ サブドメインの選択 ](email-settings.md#subdomains-and-ip-pools) を行うと、「**[!UICONTROL List-Unsubscribe を有効にする]** オプションが表示されます。 これは、デフォルトで有効です。
+[!DNL Adobe Journey Optimizer] で、新しいメールチャネル設定を指定する際に、リストから[サブドメインを選択](email-settings.md#subdomains-and-ip-pools)すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。これは、デフォルトで有効です。
 
 ![](assets/preset-list-unsubscribe.png)
 
-ワンクリックリスト登録解除 URL は、メール送信者情報の横に表示される登録解除リンクまたはボタンです。受信者はワンクリックでメーリングリストから即座にオプトアウトできます。
+ワンクリックリスト登録解除 URL は、メールの送信者情報の横に表示される登録解除リンクまたはボタンであり、受信者は 1 回のクリックでメーリングリストから即座にオプトアウトできます。
 
-例えば、ワンクリック購読解除 URL には、Gmail 内に次のようなリンクが表示されます。
+例えば、ワンクリック登録解除 URL は、Gmail で次のようなリンクが表示されます。
 
 ![](assets/preset-list-unsubscribe-header.png)
 
@@ -34,20 +34,20 @@ ht-degree: 60%
 >
 >メールヘッダーにワンクリック登録解除 URL を表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
 
-E メールクライアントや E メール設定の購読解除設定によっては、E メールヘッダーの購読解除リンクをクリックすると、次のような影響が出ることがあります。
+メールクライアントとメール設定の登録解除設定に応じて、メールヘッダーの登録解除リンクをクリックすると、次のような影響を受ける可能性があります。
 
 * **宛先（登録解除）**&#x200B;機能を有効にすると、登録解除リクエストは、設定したサブドメインに基づいてデフォルトの登録解除アドレスに送信されます。
 * **ワンクリック登録解除 URL** 機能が有効になっている場合や、メール本文コンテンツに登録解除 URL を挿入した場合、受信者が、（設定したサブドメインに基づく）ワンクリック登録解除 URL をクリックすると、チャネルレベルまたは ID レベル（同意の設定方法によって異なる）で直接オプトアウトされます。
 
 >[!NOTE]
 >
->購読解除設定を管理する方法については、以下の [ この節 ](#enable-list-unsubscribe) を参照してください。
+>登録解除設定を管理する方法について詳しくは、以下の[この節](#enable-list-unsubscribe)を参照してください。
 
-どちらの場合も、受信者がオプトアウトリンクをクリックすると、購読解除リクエストが適切に処理されます。 対応するプロファイルはすぐにオプトアウトされ、この選択は ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}0}Experience Platform} で更新されます。[
+どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}0}Experience Platform} で更新されます。[
 
 >[!NOTE]
 >
->場合によっては、ダウンストリームデータ処理が原因で、登録解除イベントがプロファイルレベルで反映されるまでに時間がかかることがあります。 システムが更新されるまでしばらく待ちます。
+>場合によっては、ダウンストリームのデータ処理により、登録解除イベントがプロファイルレベルで反映されるまでに時間がかかることがあります。システムの更新に多少時間がかかる場合があります。
 
 ## リスト登録解除を有効にする {#enable-list-unsubscribe}
 
@@ -57,7 +57,7 @@ E メールクライアントや E メール設定の購読解除設定によっ
 >abstract="このオプションを有効にすると、メールヘッダーに登録解除 URL が自動的に追加されます。また、メールのコンテンツにワンクリックオプトアウトリンクを挿入することで、メッセージに登録解除 URL を設定することもできます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メールコンテンツからのワンクリックオプトアウトの設定"
 
-「**[!UICONTROL List-Unsubscribe を有効にする]**」オプションが有効になっている場合、受信者のメールクライアントでサポートされている場合、メールヘッダーには、デフォルトで受信者がメーリングリストから購読解除するために使用できる mailto や URL の両方が含まれます。
+「**[!UICONTROL リスト登録解除を有効にする]**」オプションが有効になっている場合、受信者のメールクライアントでサポートされている場合は、メールヘッダーに、受信者がメーリングリストから登録解除に使用できる宛先と URL の両方がデフォルトで含まれます。
 
 >[!NOTE]
 >
@@ -67,21 +67,21 @@ E メールクライアントや E メール設定の購読解除設定によっ
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* **[!UICONTROL 宛先（登録解除）]** アドレス。登録解除リクエストが自動処理のためにルーティングされる宛先アドレスです。 [!DNL Journey Optimizer] の場合、登録解除のメールアドレスは、（選択したサブドメイン **** に基づいてチャネル設定に表示されるデフォルトの [ 宛先（登録解除 ](email-settings.md#subdomains) アドレスです。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
+* **[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスは、自動処理で登録解除リクエストがルーティングされる宛先アドレスです。[!DNL Journey Optimizer] の場合、登録解除のメールアドレスは、[選択したサブドメイン](email-settings.md#subdomains)に基づいてチャネル設定に表示される、デフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-* **[!UICONTROL ワンクリック購読解除 URL]** は、デフォルトでワンクリックオプトアウト URL により生成されるリスト購読解除ヘッダーです。リストは、[ 選択されたサブドメイン ](email-settings.md#subdomains) に基づいて作成されます。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+* **[!UICONTROL ワンクリック登録解除 URL]** は、デフォルトでは、[選択したサブドメイン](email-settings.md#subdomains)に基づいてワンクリックオプトアウト URL で生成された、リスト登録解除ヘッダーです。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 対応するドロップダウンリストから&#x200B;**[!UICONTROL 同意レベル]**&#x200B;を選択できます。チャネルまたはプロファイル ID に固有のものにすることができます。この設定に基づいて、ユーザーがメールのヘッダーにあるリスト登録解除 URL を使用して登録解除すると、[!DNL Adobe Journey Optimizer] においてチャネルレベルまたは ID レベルで同意が更新されます。
 
 ## ガードレールとレコメンデーション {#list-unsubscribe-guardrails}
 
-ワンクリストリスト登録解除 URL 機能を使用すると、受信者はコミュニケーションから簡単にオプトアウトできます。 ただし、すべてのメールクライアントがメールヘッダーでこのリンクをサポートしているわけではないので、Adobeではメールの本文に [ ワンクリックオプトアウトリンク ](email-opt-out.md#one-click-opt-out) または [ 登録解除リンク ](email-opt-out.md#add-unsubscribe-link) を追加することをお勧めします。
+ワンクリックリスト登録解除 URL 機能を使用すると、受信者は簡単に通信をオプトアウトできます。ただし、すべてのメールクライアントがメールヘッダーのこのリンクをサポートしているわけではないので、アドビでは、メールの本文に[ワンクリックオプトアウトリンク](email-opt-out.md#one-click-opt-out)または[登録解除リンク](email-opt-out.md#add-unsubscribe-link)も追加することをお勧めします。
 
 **[!UICONTROL 宛先（登録解除）]**&#x200B;機能と&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** 機能はオプションです。
 
-* [メール設定](email-settings.md)で「**[!UICONTROL リスト登録解除を有効にする]**」オプションをオンにしている場合は、**宛先（登録解除）**&#x200B;と&#x200B;**ワンクリック登録解除 URL** の両方の方法を有効にすることをお勧めします。すべてのメールクライアントが HTTP メソッドをサポートしているわけではありません。宛先のリスト – 購読解除機能を使用して代わりの受信者を選択すると、送信者の評判を保護し、すべての受信者が購読解除機能を使用できるようになります。
+* [メール設定](email-settings.md)で「**[!UICONTROL リスト登録解除を有効にする]**」オプションをオンにしている場合は、**宛先（登録解除）**&#x200B;と&#x200B;**ワンクリック登録解除 URL** の両方の方法を有効にすることをお勧めします。すべてのメールクライアントが HTTP メソッドをサポートしているわけではありません。代替手段を選択できる宛先リスト登録解除機能を使用すると、送信者の評判をより適切に保護でき、すべての受信者が登録解除機能を使用できます。
 
-* デフォルトで生成されるワンクリック購読解除 URL を使用しない場合は、この機能のチェックを外すことができます。
+* デフォルトで生成されたワンクリック登録解除 URL を使用しない場合は、この機能をオフにできます。
 
    * 「**[!UICONTROL リスト登録解除を有効にする]**」オプションがオンに切り替わり、**[!UICONTROL ワンクリック登録解除 URL]** 機能がオフになっているシナリオで、この設定を使用して作成されたメッセージに[ワンクリックオプトアウトリンク](../email/email-opt-out.md#one-click-opt-out)を追加する場合、リスト登録解除ヘッダーは、メールの本文に挿入したワンクリックオプトアウトリンクをピックアップし、それをワンクリック登録解除 URL 値として使用します。
 
@@ -93,9 +93,9 @@ E メールクライアントや E メール設定の購読解除設定によっ
   >
   >メッセージ内での購読解除機能の管理について詳しくは、[ この節 ](../email/email-opt-out.md#unsubscribe-header) を参照してください。
 
-[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、リストに記載されている値の 1 つにオンボーディングする際に [ ここ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} して変更したり、[ 同意ポリシー ](../action/consent.md) を使用してデフォルトロジックを上書きしたりできます。
+ま [!DNL Journey Optimizer]、同意はExperience Platform [ 同意スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"} で処理されます。 デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、リストに記載されている値の 1 つにオンボーディングする際に [ ここ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} して変更したり、[ 同意ポリシー ](../action/consent.md) を使用してデフォルトロジックを上書きしたりできます。
 
-現在、[!DNL Journey Optimizer] は、リストの購読解除機能によってトリガーされる購読解除イベントに、特定のタグを追加しません。 リストの登録解除クリックを他の登録解除アクションと区別する必要がある場合は、外部でカスタムタグ付けを実装するか、トラッキング用に外部ランディングページを活用する必要があります。
+現在、[!DNL Journey Optimizer] は、リスト登録解除機能によってトリガーされる登録解除イベントに特定のタグを追加しません。リスト登録解除クリックを他の登録解除アクションと区別する必要がある場合は、外部でカスタムタグ付けを実装するか、トラッキング用に外部ランディングページを活用する必要があります。
 
 ## 外部での登録解除データ管理 {#custom-managed}
 
@@ -121,9 +121,9 @@ E メールクライアントや E メール設定の購読解除設定によっ
 
 ### 復号化 API の設定 {#configure-decrypt-api}
 
-**[!UICONTROL 顧客管理]** オプションを選択した状態で、カスタムエンドポイントを入力してキャンペーンやジャーニーで使用する場合、受信者が登録解除リンクをクリックす [!DNL Journey Optimizer] と <!--sent to the custom endpoint -->、同意更新イベントにデフォルトのプロファイル固有のパラメーターが追加されます。
+「**[!UICONTROL 顧客管理]**」オプションを選択した場合、カスタムエンドポイントを入力してキャンペーンやジャーニーで使用すると、受信者が登録解除リンクをクリックした際に、[!DNL Journey Optimizer] によって、同意更新イベント<!--sent to the custom endpoint -->にいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-これらのパラメーターは、暗号化された形式でエンドポイントに送信されます。したがって、外部の同意システムは、アドビから送信されたパラメーターを復号化することを目的に、[Adobe Developer](https://developer.adobe.com){target="_blank"} を通じて特定の API を実装する必要があります。
+これらのパラメーターは、暗号化された形式でエンドポイントに送信されます。したがって、外部同意システムでは、Adobeから送信されるパラメーターを復号化するために ](https://developer.adobe.com){target="_blank"}0}Adobe Developer} を介して特定の API を実装する必要があります。[
 
 これらのパラメーターを取得する GET 呼び出しは、使用しているリスト登録解除オプション（**[!UICONTROL ワンクリック登録解除 URL]** または&#x200B;**[!UICONTROL 宛先（登録解除）]**）によって異なります。
 
@@ -152,10 +152,10 @@ GET 呼び出しは次のとおりです。
 
 サンプルパラメーターと同意応答を次に示します。
 
-| クエリーパラメーター | サンプルペイロード |
+| クエリパラメーター | サンプルペイロード |
 |---------|----------|
-| pid | {<br>&quot;pid&quot; : &quot;5142733041546020095851529937068211571&quot;,<br>&quot;pns&quot; : &quot;CRMID&quot;,<br>&quot;e&quot;    : &quot;john@google.com&quot;,<br>&quot;ens&quot; : &quot;Email&quot;,<br>} |
-| params | {<br>&quot;m&quot; : &quot;messageExecutionId&quot;,<br>&quot;ci&quot; : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;s&quot; : &quot;sandboxId&quot;,<br>&quot;us&quot; : &quot;unsubscribeScope&quot;<br>} |
+| pid | {<br>&quot;pid&quot;  : &quot;5142733041546020095851529937068211571&quot;,<br>&quot;pns&quot;  : &quot;CRMID&quot;,<br>&quot;e&quot;    : &quot;john@google.com&quot;,<br>&quot;ens&quot;  : &quot;Email&quot;,<br>} |
+| params | {<br>&quot;m&quot;  : &quot;messageExecutionId&quot;,<br>&quot;ci&quot;  : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;s&quot;  : &quot;sandboxId&quot;,<br>&quot;us&quot; : &quot;unsubscribeScope&quot;<br>} |
 
 同意応答：
 
@@ -196,9 +196,9 @@ GET 呼び出しは次のとおりです。
 
 サンプルパラメーターと同意応答を次に示します。
 
-| クエリーパラメーター | サンプルペイロード |
+| クエリパラメーター | サンプルペイロード |
 |---------|----------|
-| emailParams | {<br>&quot;p&quot; : &quot;profileId&quot;,<br>&quot;pn&quot; : &quot;profileNamespace&quot;,<br>&quot;en&quot; : &quot;emailNamespace&quot;,<br>&quot;ci&quot; : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;si&quot; : &quot;sandboxId&quot;,<br>&quot;us&quot;: &quot;unsubscribeScope&quot;<br>} |
+| emailParams | {<br>&quot;p&quot;  : &quot;profileId&quot;,<br>&quot;pn&quot;  : &quot;profileNamespace&quot;,<br>&quot;en&quot;  : &quot;emailNamespace&quot;,<br>&quot;ci&quot;  : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;si&quot;  : &quot;sandboxId&quot;,<br>&quot;us&quot;: &quot;unsubscribeScope&quot;<br>} |
 
 同意応答：
 

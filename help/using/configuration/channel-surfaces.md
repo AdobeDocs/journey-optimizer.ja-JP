@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 95%
 
 チャネル設定の作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にご連絡ください。
+これらのエラーのいずれかが発生した場合は、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} にご連絡ください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
@@ -277,13 +277,13 @@ ht-degree: 95%
 
 1. 対象となるアクティブな設定で、「**[!UICONTROL その他のアクション]**」ボタンをクリックします。
 
-1. **[!UICONTROL タグを編集]** をクリックします。
+1. 「**[!UICONTROL タグを編集]**」をクリックします。
 
-1. リストからAdobe Experience Platform タグを選択してチャネル設定を分類し、検索を改善します。 [詳しくは、統合タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)
+1. リストから Adobe Experience Platform タグを選択して、チャネル設定を分類し、検索の向上を図ります。[詳しくは、統合タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)
 
    ![](assets/config-edit-tags.png)
 
-1. チャネル設定にタグを割り当てたら、タグでタグを [ フィルタリング ](../start/search-filter-categorize.md#filter-on-tags) できます。
+1. チャネル設定にタグを割り当てたら、タグに基づいて[フィルタリング](../start/search-filter-categorize.md#filter-on-tags)できます。
 
 ## チュートリアルビデオ{#video-presets}
 

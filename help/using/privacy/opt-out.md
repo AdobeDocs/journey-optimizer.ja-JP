@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件であり、この選択を確実に行うためにも必要です。これらの規制に準拠できないと、ブランドに法規制上のリスクが生じます。この機能を使用すると、未承諾の通信を受信者に送信して、メッセージがスパムと見なされたり、ブランドの評判が損なわれたりする危険性を避けることができます。
 
-適用される法律について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
+該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
 
 ## ジャーニーとキャンペーンでの購読解除の管理 {#opt-out-ajo}
 
@@ -55,7 +55,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、リストに記載されている値の 1 つにオンボーディングする際に [ ここ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} して変更したり、[ 同意ポリシー ](../action/consent.md) を使用してデフォルトロジックを上書きしたりできます。
+>ま [!DNL Journey Optimizer]、同意はExperience Platform [ 同意スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"} で処理されます。 デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、リストに記載されている値の 1 つにオンボーディングする際に [ ここ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} して変更したり、[ 同意ポリシー ](../action/consent.md) を使用してデフォルトロジックを上書きしたりできます。
 
 ## パーソナライゼーションの同意の実装 {#opt-out-personalization}
 
@@ -69,7 +69,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
-1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/about-audiences.md)を作成し、**[!UICONTROL コンテンツをパーソナライズ = はい（オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
+1. [ セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"} を使用して [Adobe Experience Platform オーディエンス ](../audience/about-audiences.md) を作成し、**[!UICONTROL コンテンツをパーソナライズ =はい（オプトイン）]** などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成できます。
 
-1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/about-audiences.md)を作成します。
+1. [ セグメント化サービス ](../audience/about-audiences.md) を使用して [Adobe Experience Platform オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"} を作成します。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -159,7 +159,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。関連するラベルを選択します。
 
-1. この[リスト](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}から適切な値を選択します。
+1. この [ リスト ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} から適切な値を選択します。
 
    この場合、`n` を使用して、ユーザーがパーソナライゼーションに対するデータの使用に同意していないことを示します。
 

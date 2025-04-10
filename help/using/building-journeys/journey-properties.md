@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2298'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 95%
 
 「**技術的な詳細をコピー**」を使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt` の情報がコピーされます。
 
-特定のプロファイルのジャーニーに関連する技術的なフィールドと、その使用方法について詳しくは [ このページを参照 ](expression/journey-properties.md) してください。
+特定のプロファイルのジャーニーに関連する技術分野の詳細と、それらの使用方法 [このページについて](expression/journey-properties.md)をご覧ください。
 
 ## エントリと再エントリ {#entrance}
 
 プロファイルエントリモードは、右側の設定パネルのジャーニーレベルで定義されます。設定は次のとおりです。
 
-プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリおよび再エントリ管理について詳しくは、[ このページ ](entry-management.md) を参照してください。
+プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイル入室と再入室の管理の詳細については、 [このページ](entry-management.md)をご覧ください。
 
-### 再エントリを許可  {#allow-reentrance}
+### 再エントリを許可 {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
@@ -63,7 +63,7 @@ ht-degree: 95%
 
 デフォルトでは、新規ジャーニーで再エントリが許可されています。「1 回限り」のジャーニー（例：入店時に 1 度だけギフトをオファーするなど）を作成するには、この「**再エントリを許可**」オプションをオフにします。
 
-### 再エントリ待機期間  {#reentrance-wait}
+### 再エントリ待機期間 {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
@@ -76,7 +76,7 @@ ht-degree: 95%
 
 ## アクセスの管理 {#manage-access}
 
-カスタムデータ使用ラベルまたはコアデータ使用ラベルをジャーニーに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)
+カスタムデータ使用ラベルまたはコアデータ使用ラベルをジャーニーに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[オブジェクトレベルアクセス制御(OLAC)の詳細](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)
 
@@ -243,19 +243,19 @@ Adobe Journey Optimizer 2024年6月リリース以降、ジャーニーのグロ
 
 ## 結合ポリシー {#merge-policies}
 
-Adobe Journey Optimizerは、Adobe Experience Platformからプロファイルデータを取得する際に結合ポリシーを使用します。 ジャーニータイプに応じて、異なる結合ポリシーが使用されます。
+Adobe Journey Optimizer は、Adobe Experience Platform からプロファイルデータを取得する際に結合ポリシーを使用します。ジャーニータイプに応じて、異なる結合ポリシーが使用されます。
 
 * オーディエンスを読み取りジャーニーまたはオーディエンスの選定ジャーニーの場合：オーディエンスからの結合ポリシーが使用されます
 * 単一イベントジャーニーの場合：デフォルトの結合ポリシーが使用されます
 * ビジネスイベントジャーニーの場合：次の「オーディエンスを読み取り」アクティビティのターゲットオーディエンスからの結合ポリシーが使用されます
 
-Adobe Journey Optimizerは、ジャーニー全体を通して使用される結合ポリシーを適用します。 したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：「inAudience」関数内）、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
+Adobe Journey Optimizer は、ジャーニー全体を通じて使用される結合ポリシーを適用します。したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：「inAudience」関数内）、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
 
-結合ポリシーについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
+結合ポリシーについて詳しくは、 [Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)を参照してください。
 
 >[!NOTE]
 >
->オーディエンス結合ポリシーを更新する場合は、そのオーディエンスを参照するアクティブなジャーニーを再公開（または複製）する必要があります。 結合ポリシーを変更すると、進行中のジャーニーがアクセスできない「新しい」オーディエンスが効果的に作成され、データの一貫性が確保されます。
+>オーディエンスの結合ポリシーを更新する際、このオーディエンスを参照するアクティブなジャーニーを再公開（または複製）する必要があります。結合ポリシーを変更すると、進行中のジャーニーではアクセスできない「新しい」オーディエンスが効果的に作成され、データの一貫性が確保されます。
 
 ## 終了条件 {#exit-criteria}
 
@@ -293,7 +293,7 @@ Adobe Journey Optimizerは、ジャーニー全体を通して使用される結
 
 複数の終了条件を追加できます。
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png)
 
 ### ガードレールと制限 {#exit-criteria-guardrails}
 

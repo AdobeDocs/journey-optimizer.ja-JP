@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 91%
 
 [!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
 
-使用権限、製品の制限事項、パフォーマンスガードレールの一覧について詳しくは、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
-また、開始する前に、[リアルタイム顧客プロファイルデータのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}も認識しておく必要があります。
+また、開始する前に、[ リアルタイム顧客プロファイルデータのガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} を認識しておく必要があります。
 
 ## サポートされているブラウザー {#browsers}
 
@@ -45,14 +45,14 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### メールガードレール {#message-guardrails}
 
-次のガードレールが [ メールチャネル ](../email/get-started-email.md) に適用されます。
+次のガードレールが[メールチャネル](../email/get-started-email.md)に適用されます。
 
 * [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
 * [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
 
 ### SMS ガードレール {#sms-guardrails}
 
-次のガードレールが [SMS チャネル ](../sms/get-started-sms.md) に適用されます。
+次のガードレールが [SMS チャネル](../sms/get-started-sms.md)に適用されます。
 
 * MMS 用のメディアファイルは、サポートされている URL を通じて含めることができます。メディアファイルは別々にアップロードしてください。
 * 現在、MMS ではメッセージのフィードバック同期を使用できません。
@@ -60,9 +60,9 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### Web チャネルのガードレール {#web-guardrails}
 
-[!DNL Journey Optimizer] [web キャンペーン ](../web/get-started-web.md) は、他のチャネルでこれまで関わってこなかった新しいプロファイルをターゲットにします。 これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
+[!DNL Journey Optimizer] [web キャンペーン](../web/get-started-web.md)は、以前の他のチャネルで関与したことのない新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
-各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
+各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
 
 ### コードベースチャネルガードレール {#code-based-guardrails}
 
@@ -70,7 +70,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ## ランディングページガードレール {#lp-guardrails}
 
-次のガードレールが [ ランディングページ ](../landing-pages/get-started-lp.md) に適用されます。
+次のガードレールが[ランディングページ](../landing-pages/get-started-lp.md)に適用されます。
 
 * 単一のプライマリページで使用できる&#x200B;**フォーム**&#x200B;コンポーネントは 1 つだけです。
 * **フォーム**&#x200B;コンポーネントはサブページでは使用できません。
@@ -87,7 +87,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ## フラグメントガードレール {#fragments-guardrails}
 
-次のガードレールが [ フラグメント ](../content-management/fragments.md) に適用されます。
+次のガードレールが[フラグメント](../content-management/fragments.md)に適用されます。
 
 * ビジュアルフラグメントは、メールチャネルでのみ使用できます。
 * 式フラグメントは、アプリ内チャネルでは使用できません。
@@ -119,7 +119,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### 一般的なアクション {#general-actions-g}
 
-ジャーニーの [ アクション ](../building-journeys/about-journey-activities.md) には、次のガードレールが適用されます。
+次のガードレールがジャーニーの[アクション](../building-journeys/about-journey-activities.md)に適用されます。
 
 * エラーが発生した場合は、手順に従って 3 回再試行されます。受け取ったエラーメッセージに応じて、再試行回数を調整することはできません。再試行は、HTTP 401、403 および 404 を除くすべての HTTP エラーに対して実行されます。
 * 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに対応できます。詳しくは、[ このページ ](../building-journeys/reaction-events.md) を参照してください。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
@@ -128,7 +128,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### ジャーニーのバージョン {#journey-versions-g}
 
-次のガードレールは、[ジャーニーのバージョン ](../start/user-interface.md) に適用されます。
+次のガードレールが[ジャーニーのバージョン](../start/user-interface.md)に適用されます。
 
 * v1 でジャーニーをイベントアクティビティで開始した場合、それ以降のバージョンをイベント以外で開始することはできません。**オーディエンスの選定**&#x200B;イベントでジャーニーを開始することはできません。
 * ジャーニーが v1 の&#x200B;**オーディエンスの選定**&#x200B;アクティビティで開始した場合、それ以降のバージョンも必ず&#x200B;**オーディエンスの選定**&#x200B;で開始する必要があります。
@@ -139,7 +139,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### カスタムアクション {#custom-actions-g}
 
-次のガードレールは、ジャーニーの [ カスタムアクション ](../action/action.md) に適用されます。
+次のガードレールがジャーニーの[カスタムアクション](../action/action.md)に適用されます。
 
 * すべてのカスタムアクションには、各ホストおよび各サンドボックスに、1 分間で 300,000 件の呼び出しというキャッピングが定義されています。[このページ](../action/about-custom-action-configuration.md)を参照してください。この制限は、カスタムアクションの対象となる外部エンドポイントを保護することを目的に、顧客の使用状況に基づいて設定されています。適切な読み取り率（カスタムアクションを使用する場合は 1 秒あたり 5,000 件のプロファイル）を定義して、オーディエンスベースのジャーニーでこの点を考慮する必要があります。必要に応じて、キャッピング／スロットリング API で上限またはスロットル制限を大きく定義することで、この設定を上書きできます。[このページ](../configuration/external-systems.md)を参照してください。
 * カスタムアクションの URL は動的パラメーターをサポートしていません。
@@ -156,7 +156,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### イベント {#events-g}
 
-ジャーニーの [ イベント ](../event/about-events.md) には、次のガードレールが適用されます。
+次のガードレールがジャーニーの[イベント](../event/about-events.md)に適用されます。
 
 * Journey Optimizer では、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートします。
 * イベントトリガージャーニーでは、ジャーニーの最初のアクションを処理するのに最大 5 分かかる場合があります。
@@ -167,7 +167,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### データソース {#data-sources-g}
 
-ジャーニーの [ データソース ](../datasource/about-data-sources.md) には、次のガードレールが適用されます。
+次のガードレールがジャーニーの[データソース](../datasource/about-data-sources.md)に適用されます。
 
 * 外部データソースを利用すると、カスタマージャーニー内でリアルタイムに外部データを参照できます。それらのソースは、REST API 経由で使用でき、JSON をサポートし、リクエストのボリューム量を処理できる必要があります。
 * 内部 Adobe アドレス（`.adobe.*`）は、URL および API では使用できません。
@@ -194,7 +194,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### オーディエンスを読み取り {#read-segment-g}
 
-[ オーディエンスを読み取り ](../building-journeys/read-audience.md) ジャーニーアクティビティには、次のガードレールが適用されます。
+次のガードレールが[オーディエンスを読み取り](../building-journeys/read-audience.md)ジャーニーアクティビティに適用されます。
 
 * ストリーミングオーディエンスは常に最新の状態になりますが、バッチオーディエンスは取得時に計算されません。毎日のバッチ評価時にのみ評価されます。
 * **オーディエンスを読み取り**&#x200B;アクティビティを使用するジャーニーの場合、同時に開始できるジャーニーの最大数が決まっています。再試行はシステムによって実行されますが、例えば、5～10 分間隔で時間を分散させて、（**オーディエンスを読み取り**&#x200B;スケジュール設定、または「できるだけ早く」開始を使用して）5 つを超えるジャーニーを同時に開始することは避けてください。
@@ -206,19 +206,19 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### オーディエンスの選定 {#audience-qualif-g}
 
-次のガードレールは、[ オーディエンスの選定 ](../building-journeys/audience-qualification-events.md) ジャーニーアクティビティに適用されます。
+次のガードレールが[オーディエンスの選定](../building-journeys/audience-qualification-events.md)ジャーニーアクティビティに適用されます。
 
 * 「オーディエンスの選定」アクティビティは、Adobe Campaign アクティビティと併用できません。
 
 ### 式エディター {#expression-editor}
 
-次のガードレールは、[ ジャーニー式エディター ](../building-journeys/expression/expressionadvanced.md) に適用されます。
+次のガードレールが[ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)に適用されます。
 
 * エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。新しいオーディエンスを作成し、ジャーニーで inaudience 条件を使用する必要があります。
 
 ### 「アプリ内」アクティビティ {#in-app-activity-limitations}
 
-次のガードレールは **[!UICONTROL アプリ内メッセージ]** アクションに適用されます。 アプリ内メッセージについて詳しくは、[ このページ ](../in-app/create-in-app.md) を参照してください。
+次のガードレールが&#x200B;**[!UICONTROL アプリ内メッセージ]**&#x200B;アクションに適用されます。アプリ内メッセージについて詳しくは、[ このページ ](../in-app/create-in-app.md) を参照してください。
 
 * この機能は、現在、ヘルスケアのお客様は利用できません。
 

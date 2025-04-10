@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -112,11 +112,11 @@ ht-degree: 95%
     </tr>
     <tr>
     <td>タグ</td>
-    <td>オーディエンスを整理するために使用されるタグの名前。 </td>
+    <td>オーディエンスを整理するのに使用されるタグの名前。 </td>
     </tr>
     <tr>
     <td>オブジェクト名</td>
-    <td>オブジェクトの名前</td>
+    <td>オブジェクトの名前。</td>
     </tr>
     <tr>
     <td>依頼者のユーザー名</td>

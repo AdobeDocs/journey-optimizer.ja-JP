@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 94%
 * メールメッセージにリンクを挿入してトラッキングを有効にする方法に関する節が更新され、再編成されました。[詳細情報](../email/message-tracking.md)
 * Adobe Journey Optimizer のパーソナライゼーション機能に関する節が再編成され、改善されました。[詳細情報](../personalization/personalize.md)
 * パーソナライズされたオファーをリストする Decision Management API が更新され、応答に複数のパーソナライズされたオファーがない場合にページネーションを実行するサンプルが追加されました。[詳細情報](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* リストの購読解除機能に関するすべての情報を収集する新しいページが作成され、わかりやすくなりました。 [詳細情報](../email/list-unsubscribe.md)
-* フリークエンシーキャップの節が更新され、Edge Decisioning API に加えて、Decisioning API と Batch Decisioning API のフリークエンシーキャッピングカウンターを更新する方法に関する情報が追加されました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
+* 明確さを向上させることを目的に、リスト登録解除機能に関するすべての情報を収集した新しいページが作成されました。[詳細情報](../email/list-unsubscribe.md)
+* フリークエンシーキャップに関する節が更新され、Edge Decisioning API に加えて、Decisioning API と Batch Decisioning API のフリークエンシーキャップカウンターの更新方法に関する情報が追加されました。[詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025年2月 {#feb-2025}
 
