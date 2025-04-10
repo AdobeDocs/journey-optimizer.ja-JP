@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, 関数, 式, ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 67%
 
 ---
 
@@ -63,4 +63,9 @@ Adobe Experience Platform
 
 説明：
 
-ジャーニーインスタンス内の個人が「men over 50」という名前の Adobe Experience Platform オーディエンスに属している場合、この関数は **[!UICONTROL true]** を返します。それ以外の場合は **[!UICONTROL false]** を返します。
+ジャーニーインスタンス内の個人が「men over 50 ]**という名前のAdobe Experience Platform オーディエンスに属している場合、この関数は**[!UICONTROL  true **[!UICONTROL を返します。それ以外の場合は]** false を返します。
+
+
+>[!CAUTION]
+>
+>既存のオーディエンスの名前を変更しても、ジャーニー式のそのオーディエンスへの参照は自動的には更新されません。 条件ノードで inAudience （&#39;oldAudienceName&#39;）を使用する場合は、新しい名前を使用するように式を手動で編集する必要があります。 ジャーニーを変更しないと、ジャーニーの条件が壊れます。
