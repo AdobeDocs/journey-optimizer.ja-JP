@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 98%
+source-wordcount: '1057'
+ht-degree: 95%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 98%
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
 イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"}で Streaming ingestion API のトラブルシューティングを参照してください。
+
+ジャーニーでエラー `ERR_MODEL_RULES_16` ードを使用したテストモードを有効にできない場合は、チャネルアクションを使用する際に、使用するイベントに [ID 名前空間 ](../audience/get-started-identity.md) が含まれていることを確認してください。
+
+ID 名前空間は、テストプロファイルを一意に識別するために使用されます。 例えば、メールを使用してテストプロファイルを識別する場合は、ID 名前空間の&#x200B;**メール**&#x200B;を選択する必要があります。一意の識別子が電話番号の場合は、ID 名前空間の&#x200B;**電話**&#x200B;を選択する必要があります。
 
 ## ジャーニーへのエントリを確認 {#checking-if-people-enter-the-journey}
 
