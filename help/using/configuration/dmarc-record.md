@@ -10,9 +10,9 @@ level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1482'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,13 +98,13 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
    >[!NOTE]
    >
-   >親ドメインと共にDMARC レコードが見つかったかどうかに応じて、親ドメインの値を使用するか、AdobeでDMARC レコードを管理するかを選択できます。 [詳細情報](#implement-dmarc)
+   >親ドメインで DMARC レコードが見つかるかどうかに応じて、親ドメインの値を使用するか、アドビに DMARC レコードを管理させるかを選択できます。[詳細情報](#implement-dmarc)
 
 1. サブドメインを編集する場合：
 
-   * Adobeに [ 完全にデリゲート ](delegate-subdomain.md#full-subdomain-delegation) されているため、それ以上のアクションは必要ありません。
+   * アドビに[完全にデリゲート](delegate-subdomain.md#full-subdomain-delegation)されているので、それ以上のアクションは必要ありません。
 
-   * [CNAME](delegate-subdomain.md#cname-subdomain-delegation) で設定した場合、DMARCの DNS レコードをホスティングソリューションにコピーして、一致する DNS レコードを生成する必要があります。
+   * [CNAME](delegate-subdomain.md#cname-subdomain-delegation) を使用して設定する場合、一致する DNS レコードを生成するには、DMARC の DNS レコードをホストするソリューションにコピーする必要があります。
 
      ![](assets/dmarc-record-edit-cname.png)
 
@@ -126,23 +126,23 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 1. 「**[!UICONTROL DMARC レコード]**」セクションに移動します。
 
-1. サブドメインに関連付けられた親ドメインでDMARC レコードが使用可能な場合は、次の 2 つのオプションが表示されます。
+1. サブドメインに関連付けられた親ドメインで DMARC レコードが使用可能な場合は、次の 2 つのオプションが表示されます。
 
    ![](assets/dmarc-record-found.png)
 
-   * **[!UICONTROL Adobeで管理]**：サブドメインのDMARC レコードをAdobeで管理することができます。 [ この節 ](#manage-dmarc-with-adobe) で説明されている手順に従います。
+   * **[!UICONTROL アドビで管理]**：サブドメインの DMARC レコードをアドビに管理させることができます。[この節](#manage-dmarc-with-adobe)で説明する手順に従います。
 
-   * **[!UICONTROL 自分で管理]**: <!--This option is selected by default.--> このオプションを使用すると、親ドメインの値を使用して、[!DNL Journey Optimizer] 外でDMARC レコードを管理できます。 これらの値はインターフェイスに表示されますが、編集することはできません。
+   * **[!UICONTROL 独自に管理]**：<!--This option is selected by default.-->このオプションを使用すると、親ドメインの値を使用して、[!DNL Journey Optimizer] の外部で DMARC レコードを管理できます。これらの値はインターフェイスに表示されますが、編集できません。
 
      ![](assets/dmarc-record-found-own.png){width="80%"}
 
-1. 親ドメインでDMARC レコードが見つからない場合は、「**[!UICONTROL Adobeで管理]** オプションのみ使用できます。 サブドメインのDMARC レコードを設定するには、[ 以下 ](#manage-dmarc-with-adobe) の手順に従います。
+1. 親ドメインに DMARC レコードが見つからない場合は、「**[!UICONTROL アドビで管理]**」オプションのみが使用できます。サブドメインの DMARC レコードを設定するには、[以下](#manage-dmarc-with-adobe)の手順に従います。
 
    ![](assets/dmarc-record-not-found.png){width="80%"}
 
-### AdobeでDMARC レコードを管理する {#manage-dmarc-with-adobe}
+### アドビでの DMARC レコードの管理 {#manage-dmarc-with-adobe}
 
-AdobeでDMARC レコードを管理するには、「Adobeで管理 **[!UICONTROL オプションを選択し]** 次の手順に従います。
+アドビに DMARC レコードを管理させるには、「**[!UICONTROL アドビで管理]**」オプションを選択し、以下の手順に従います。
 
 >[!NOTE]
 >

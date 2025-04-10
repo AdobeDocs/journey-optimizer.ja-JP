@@ -9,9 +9,9 @@ level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 >
 >API で設定された制限に達すると、以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
 
-## Throttling API の説明とPostman コレクション {#description}
+## スロットル API の説明とPostman コレクション {#description}
 
-次の表に、Throttling API で使用できるコマンドを示します。 リクエストサンプル、パラメーター、応答形式など、詳しくは、[Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/) を参照してください。
+次の表に、スロットル API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|
@@ -44,12 +44,12 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 | [!DNL GET] | /throttlingConfigs/`{uid}` | スロットル設定を取得します |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | スロットル設定を削除します |
 
-さらに、テスト設定に役立つPostman コレクションを [ こちら ](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) から使用できます。
+また、テスト設定に役立つ Postman コレクションについて詳しくは、[こちら](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)を参照してください。
 
-このコレクションは、__[Adobe I/O コンソールの統合 ](https://console.adobe.io/integrations) /試す/Postman用にダウンロード__ を通じて生成されたPostman変数コレクションを共有するように設定されています。これにより、選択された統合値を使用してPostman環境ファイルが生成されます。
+このコレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;経由で生成された Postman 変数コレクションを共有するように設定されています。これにより、選択した統合値を含む Postman 環境ファイルが生成されます。
 
 ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
-* `{JO_HOST}`：ゲ [!DNL Journey Optimizer] トウェイ URL。
+* `{JO_HOST}`：[!DNL Journey Optimizer]ゲートウェイ URL。
 * `{BASE_PATH}`：API のエントリポイント。
 * `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
 
@@ -301,18 +301,18 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 ## ユースケース {#uc}
 
-この節では、[!DNL Journey Optimizer] でスロットル設定を管理するための主なユースケースと、ユースケースの実装に必要な関連 API コマンドについて説明します。
+この節では、[!DNL Journey Optimizer] でスロットル設定を管理するための主なユースケースと、そのユースケースを実装するために必要な関連 API コマンドについて説明します。
 
-各 API コマンドについて詳しくは、[API の説明とPostman コレクション ](#description) を参照してください。
+各 API コマンドについて詳しくは、[API の説明と Postman コレクション](#description)を参照してください。
 
 +++新しいスロットル設定の作成とデプロイ
 
 使用する API 呼び出し：
 
-1. **`list`** – 既存の設定を取得します。
-1. **`create`** – 新しい設定を作成します。
-1. **`candeploy`** – 設定をデプロイできるかどうかを確認します。
-1. **`deploy`** – 設定をデプロイします。
+1. **`list`** - 既存の設定を取得します。
+1. **`create`** - 新しい設定を作成します。
+1. **`candeploy`** - 設定をデプロイできるかどうかを確認します。
+1. **`deploy`** - 設定をデプロイします。
 
 +++
 
@@ -320,11 +320,11 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 使用する API 呼び出し：
 
-1. **`list`** – 既存の設定を取得します。
-1. **`get`** – 特定の設定の詳細を取得します。
-1. **`update`** – 設定を変更します。
-1. **`candeploy`** - デプロイメントの実施要件をチェックします。
-1. **`deploy`** – 設定をデプロイします。
+1. **`list`** - 既存の設定を取得します。
+1. **`get`** - 特定の設定の詳細を取得します。
+1. **`update`** - 設定を変更します。
+1. **`candeploy`** - デプロイメントの実施要件を確認します。
+1. **`deploy`** - 設定をデプロイします。
 
 +++
 
@@ -332,24 +332,24 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 使用する API 呼び出し：
 
-1. **`list`** – 既存の設定を取得します。
-1. **`undeploy`** – 設定をデプロイ解除します。
-1. **`delete`** – 設定を削除します。
+1. **`list`** - 既存の設定を取得します。
+1. **`undeploy`** - 設定をデプロイ解除します。
+1. **`delete`** - 設定を削除します。
 
 +++
 
 +++デプロイ済みのスロットル設定の削除
 
-1 回の API 呼び出しで、`forceDelete` パラメーターを使用して、設定をデプロイ解除および削除できます。
+1 回の API 呼び出しのみで、`forceDelete` パラメーターを使用して設定をデプロイ解除および削除できます。
 
 使用する API 呼び出し：
 
-1. **`list`** – 既存の設定を取得します。
-1. **`delete`（パラメーター `forceDelete` 使用）** - デプロイ済みの設定の削除を 1 つの手順で強制的に行います。
+1. **`list`** - 既存の設定を取得します。
+1. **`delete`（`forceDelete` パラメーターを使用）**- デプロイ済みの設定を 1 つの手順で強制的に削除します。
 
 +++
 
-+++既にデプロイされているスロットル設定の更新
++++既にデプロイ済みのスロットル設定の更新
 
 >[!NOTE]
 >
@@ -357,8 +357,8 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 使用する API 呼び出し：
 
-1. **`list`** – 既存の設定を取得します。
-1. **`get`** – 特定の設定の詳細を取得します。
-1. **`update`** – 設定を変更します。
+1. **`list`** - 既存の設定を取得します。
+1. **`get`** - 特定の設定の詳細を取得します。
+1. **`update`** - 設定を変更します。
 
 +++

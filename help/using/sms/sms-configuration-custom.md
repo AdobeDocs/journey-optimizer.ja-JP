@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="プロバイダーペイロード"
->abstract="処理と応答の生成用の正しいデータの送信を確保するために、リクエストペイロードを指定します。"
+>abstract="処理と応答の生成用に正しいデータの送信を確保するために、リクエストペイロードを指定します。"
 
 >[!AVAILABILITY]
 >
