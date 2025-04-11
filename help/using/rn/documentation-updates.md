@@ -8,16 +8,26 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 88%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページには、[!DNL Journey Optimizer] ドキュメントの最新の更新がすべてリストされています。
+
+
+## 2025年4月 {#apr-2025}
+
+* ダイレクトメール設定ページに、出力ファイルの一時的な保存に関するメモを追加しました。 [詳細情報](../direct-mail/direct-mail-configuration.md)
+* ジャーニーの高度な式エディターの節に、条件形式のガイドラインに関するヒントを追加しました。 [詳細情報](../building-journeys/expression/expressionadvanced.md)
+* オーディエンス名を変更した場合の影響とベストプラクティスに関する注意事項を `inAudience` 関数の節に追加しました。 [詳細情報](../building-journeys/functions/functioninaudience.md)
+* 双方向 SMS を使用する場合のネイティブキーワードの使用に関する推奨事項を追加しました。 [詳細情報](../sms/sms-opt-out.md)
+* ジャーニーテストページを更新し、使用するイベントに ID 名前空間を含める必要があることに関するメモを追加しました。 [詳細情報](../building-journeys/testing-the-journey.md)
+* 現在、[!UICONTROL Journey Optimizer] ユーザーインターフェイスを使用してサブドメインのデリゲートを解除することはできません。Adobe担当者にお問い合わせください。 メール、ランディングページ、SMS および web サブドメインの節を更新し、この情報と、Adobeにアクセスする前に実行する手順を追加しました。 [詳細情報](../configuration/delegate-subdomain.md#undelegate-subdomain)
 
 ## 2025年3月 {#mar-2025}
 

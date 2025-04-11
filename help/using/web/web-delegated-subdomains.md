@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 98%
+source-wordcount: '1076'
+ht-degree: 82%
 
 ---
 
@@ -161,3 +161,37 @@ Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](..
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 -->
+
+## サブドメインのデリゲート解除 {#undelegate-subdomain}
+
+Web サブドメインのデリゲートを解除する場合は、Adobe担当者にお問い合わせください。
+
+ただし、Adobeにアクセスする前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
+
+>[!NOTE]
+>
+>**[!UICONTROL 成功]** ステータスのサブドメインのみをデリゲート解除できます。 **[!UICONTROL ドラフト]** および **[!UICONTROL 失敗]** ステータスのサブドメインは、ユーザーインターフェイスから削除できます。
+
+まず、[!DNL Journey Optimizer] で次の手順を実行します。
+
+1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法について詳しくは、こちらを参照してください](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+
+1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法について詳しくは、こちらを参照してください](../campaigns/modify-stop-campaign.md#stop)
+
+1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法について詳しくは、こちらを参照してください](../building-journeys/end-journey.md#stop-journey)
+
+1. Web サブドメインが [ 新しいデリゲートサブドメイン ](#web-configure-new-subdomain) だった場合は、そのサブドメインに関連付けられている DNS エントリを削除します。
+
+完了したら、デリゲート解除するサブドメインをAdobe担当者に連絡します。
+
+リクエストがAdobeによって処理されると、デリゲートされていないドメインはサブドメインインベントリページに表示されなくなります。
+
+>[!CAUTION]
+>
+>サブドメインがデリゲート解除された後：
+>
+>   * そのサブドメインを使用していたチャネル設定を再アクティブ化することはできません。
+>   * ユーザーインターフェイスを使用して正確なサブドメインを再度デリゲートすることはできません。 その場合は、Adobeの担当者にお問い合わせください。

@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 98%
+source-wordcount: '968'
+ht-degree: 83%
 
 ---
 
@@ -144,3 +144,38 @@ ht-degree: 98%
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
 
    ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
+
+## サブドメインのデリゲート解除 {#undelegate-subdomain}
+
+ランディングページのサブドメインのデリゲートを解除する場合は、Adobe担当者にお問い合わせください。
+
+ただし、Adobeにアクセスする前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
+
+>[!NOTE]
+>
+>**[!UICONTROL 成功]** ステータスのサブドメインのみをデリゲート解除できます。 **[!UICONTROL ドラフト]** および **[!UICONTROL 失敗]** ステータスのサブドメインは、ユーザーインターフェイスから削除できます。
+
+まず、[!DNL Journey Optimizer] で次の手順を実行します。
+
+1. サブドメインに関連付けられているすべてのランディングページを非公開にします。 [方法について詳しくは、こちらを参照してください](create-lp.md#access-landing-pages)
+
+1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法について詳しくは、こちらを参照してください](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
+
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
+
+完了したら、デリゲート解除するサブドメインをAdobe担当者に連絡します。
+
+リクエストがAdobeによって処理されると、デリゲートされていないドメインはサブドメインインベントリページに表示されなくなります。
+
+>[!CAUTION]
+>
+>サブドメインがデリゲート解除された後：
+>
+>   * そのサブドメインを使用していたチャネル設定を再アクティブ化することはできません。
+>   * ユーザーインターフェイスを使用して正確なサブドメインを再度デリゲートすることはできません。 その場合は、Adobeの担当者にお問い合わせください。

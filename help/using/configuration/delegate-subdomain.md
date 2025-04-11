@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 97%
+source-wordcount: '2039'
+ht-degree: 87%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 >
 >サブドメインの設定は、すべての環境で共通です。したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
 
-## 完全なサブドメインデリゲーション {#full-subdomain-delegation}
+## サブドメインをAdobeに完全にデリゲート {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ ht-degree: 97%
 >
 >サブドメインの並列実行は、現在 [!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
 
-## CNAME サブドメインの設定 {#cname-subdomain-delegation}
+## CNAME を使用したサブドメインの設定 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 1. **転送 DNS の作成**：これが最初にデリゲートするサブドメインである場合は、PTR レコードの作成に必要な転送 DNS をアドビが IP ごとに 1 つ作成します。
 
 1. **PTR レコードの作成**：TR レコード（リバース DNS レコードとも呼ばれます）は、メールをスパムとしてマークしないようにするために ISP に必要になるものです。Gmail では、IP ごとに PTR レコードを用意することも推奨しています。アドビは、サブドメインを初めてデリゲートするときにのみ PTR レコードを作成します（IP ごとに 1 つずつ、すべての IP がそのサブドメインを指します）。例えば、IP が *192.1.2.1* で、サブドメインが *email.example.com* の場合、PTR レコードは *192.1.2.1PTR r1.email.example.com* のようになります。 後から PTR レコードを更新して、新しいデリゲートドメインを指すようにすることができます。[PTR レコードの詳細情報 ](ptr-records.md)
+
+## サブドメインのデリゲート解除 {#undelegate-subdomain}
+
+サブドメインのデリゲートを解除する場合は、Adobe担当者にお問い合わせください。
+
+ただし、Adobeにアクセスする前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
+
+>[!NOTE]
+>
+>**[!UICONTROL 成功]** ステータスのサブドメインのみをデリゲート解除できます。 **[!UICONTROL ドラフト]** および **[!UICONTROL 失敗]** ステータスのサブドメインは、ユーザーインターフェイスから削除できます。
+
+まず、[!DNL Journey Optimizer] で次の手順を実行します。
+
+1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法について詳しくは、こちらを参照してください](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. ランディングページのサブドメイン、SMS サブドメイン、およびこのサブドメインに関連付けられた web サブドメインのデリゲートを解除します。
+
+   >[!NOTE]
+   >
+   >[ ランディングページ ](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[SMS](../sms/sms-subdomains.md#undelegate-subdomain) または [web サブドメイン ](../web/web-delegated-subdomains.md#undelegate-subdomain) ごとに専用のリクエストを生成する必要があります。
+
+1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法について詳しくは、こちらを参照してください](../campaigns/modify-stop-campaign.md#stop)
+
+1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法について詳しくは、こちらを参照してください](../building-journeys/end-journey.md#stop-journey)
+
+1. サブドメインにリンクされた [PTR レコード ](ptr-records.md#edit-ptr-record) を別のサブドメインに指定します。
+
+   >[!NOTE]
+   >
+   >これが唯一のデリゲートされたサブドメインである場合、この手順をスキップできます。
+
+完了したら、デリゲート解除するサブドメインをAdobe担当者に連絡します。
+
+リクエストがAdobeによって処理されると、デリゲートされていないドメインはサブドメインインベントリページに表示されなくなります。
+
+>[!CAUTION]
+>
+>サブドメインがデリゲート解除された後：
+>
+>   * そのサブドメインを使用していたチャネル設定を再アクティブ化することはできません。
+>   * ユーザーインターフェイスを使用して正確なサブドメインを再度デリゲートすることはできません。 その場合は、Adobeの担当者にお問い合わせください。
 
 ## チュートリアルビデオ{#video}
 

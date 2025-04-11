@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, Optimizer, デリゲーション
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 98%
@@ -104,3 +104,4 @@ ht-degree: 98%
 >[!CAUTION]
 >
 >サブドメインの設定は、すべての環境で共通です。したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
+
