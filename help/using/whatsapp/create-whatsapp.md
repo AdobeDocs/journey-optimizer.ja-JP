@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: WhatsApp メッセージの作成
-description: Journey Optimizerで WhatsApp メッセージを作成する方法を学ぶ
+description: Journey Manager で WhatsApp メッセージを作成する方法を学びます。
 feature: Whatsapp
 topic: Content Management
 role: User
@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 23%
+source-wordcount: '768'
+ht-degree: 27%
 
 ---
 
@@ -25,52 +25,49 @@ ht-degree: 23%
 **目次**
 
 * [WhatsApp メッセージの基本を学ぶ](get-started-whatsapp.md)
-* [WhatsApp 設定の基本を学ぶ](whatsapp-configuration.md)
-* **[WhatsApp メッセージの作成](create-whatsapp.md)**
-* [WhatsApp メッセージをチェックして送信する](send-whatsapp.md)
+* [WhatsAppの設定を開始する](whatsapp-configuration.md)
+* **[WhatsApp メッセージ作成](create-whatsapp.md)**
+* [WhatsApp メッセージの確認および送信](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizerを使用すると、WhatsApp で魅力的なメッセージをデザインして送信できます。 ジャーニーまたはキャンペーンに WhatsApp アクションを追加し、以下に説明するようにメッセージコンテンツを作成するだけです。 また、Adobe Journey Optimizerでは、WhatsApp メッセージを送信する前にテストし、完全なレンダリング、正確なパーソナライゼーション、およびすべての設定の適切な設定を保証できます。
+Adobe Systemsジャーニーオプティマイザーを使用すると、WhatsAppで魅力的なメッセージをデザインして送信できます。 WhatsAppアクションをジャーニーまたはキャンペーンに追加し、以下に詳述するようにメッセージ内容を作成するだけです。 Adobe Systemsジャーニーオプティマイザーを使用すると、WhatsAppメッセージを送信する前にテストして、完璧なレンダリング、正確なパーソナライズ機能、およびすべての設定の適切な構成を確保することもできます。
 
-なお、Journey Optimizerでは、送信メッセージ要素のみがサポートされています。
+Journey Optimizer でサポートされているのはアウトバウンドメッセージ要素のみであることに注意してください。
 
-+++ サポートされるメッセージ要素とアクションの呼び出しについて説明します
++++ 詳しくは、サポートされているメッセージ要素と行動喚起についての記事をご覧ください。
 
 WhatsApp では、次のメッセージタイプがサポートされています。
 
 | メッセージ機能 | 説明 |
 |-|-|
 | ヘッダー | メッセージの本文の上に表示するオプションのテキスト。 |
-| テキスト | パラメーターによる動的コンテンツのサポート。 |
-| 画像（JPEG、PNG） | 8 ビット RGBまたは RGBA フォーマットで、サイズが 5 MB 未満である必要があります。 |
-| ビデオ | 16 MB 以下の 3GPP または MP4 で、URL を介してホストされている必要があります。 |
-| オーディオ | 応答メッセージでのみ使用できます。 AAC、AMR、MP3、MP4 オーディオまたは OGG 形式で、URL でホストされ、16 MB 未満である必要があります。 |
-| ドキュメント | 100 MB 未満で、URL にホストされ、.txt、.xls/.xlsx、.doc/.docx、.ppt/.pptx または.pdf のいずれかの形式である必要があります。 |
-| 本文 | パラメーターによる動的コンテンツのサポート。 |
-| フッターテキスト | パラメーターによる動的コンテンツのサポート。 |
+| テキスト | パラメーターによる動的コンテンツをサポートします。 |
+| 画像(JPEG、PNG) | サイズは 8 ビットRGBまたは RGBA 形式 で、サイズは 5 MB 以下である必要があります。 |
+| ビデオ | 3GPP または MP4、16 MB 未満で、URL 経由でホストされている必要があります。 |
+| オーディオ | 応答メッセージでのみ使用できます。 AAC、AMR、MP3、MP4 オーディオ、または OGG 形式で、URL でホストされており、16 MB 以下である必要があります。 |
+| ドキュメント | 100 MB 未満で、URL でホストされ、.txt、.xls/.xlsx、.doc/.docx、.ppt/.pptx、または .pdf のいずれかの形式である必要があります。 |
+| 本文 | パラメーターによる動的コンテンツをサポートします。 |
+| フッターテキスト | パラメーターによる動的コンテンツをサポートします。 |
 
-次のコールトゥアクションオプションは、WhatsApp メッセージで使用できます。
+WhatsAppメッセージには、次の召喚状オプションを使用できます。
 
 | コールトゥアクション | 説明 |
 |-|-|
-| 電話番号に電話する | メッセージテンプレートでのみ使用できます。 1 つのボタンに制限されています。 |
-| カスタム クイック返信ボタン | 最大 3 つのボタンをサポートします。 |
-| マーケティングのオプトアウトボタン | 購読ステータスを自動的に更新しません。 |
-| クーポンコードのメッセージテンプレート | メッセージテンプレートでのみ使用できます。 |
-| CTAの応答メッセージ | コールトゥアクションボタンを応答メッセージに含めることができます。 |
+| 公式ウェブサイト | 許可されるボタンは 1 つだけで、変数パラメーターが含まれています。 |
+
 
 +++
 
-## WhatsApp メッセージの追加 {#create-whatsapp-journey-campaign}
+## WhatsApp メッセージ追加 {#create-whatsapp-journey-campaign}
 
-キャンペーンまたはジャーニーに WhatsApp メッセージを追加する方法については、以下のタブを参照してください。
+以下のタブ参照、キャンペーンまたはジャーニーにWhatsAppメッセージを追加する方法を学習してください。
 
 >[!BEGINTABS]
 
->[!TAB ジャーニーへの WhatsApp メッセージの追加 ]
+>[!TAB ジャーニーへの WhatsApp メッセージの追加]
 
-1. ジャーニーを開いて、パレットの **アクション** セクションから **WhatsApp アクティビティ** をドラッグ&amp;ドロップします。
+1. ジャーニー開く、パレットの&#x200B;**アクション**&#x200B;セクションから&#x200B;**WhatsAppアクティビティ**&#x200B;をドラッグアンドドロップします。
 
    ![](assets/whatsapp-create-jo.png)
 
@@ -80,9 +77,9 @@ WhatsApp では、次のメッセージタイプがサポートされていま�
 
    **[!UICONTROL 設定]**&#x200B;フィールドはデフォルトで、ユーザーがチャネルで最後に使用した設定で事前入力されます。
 
-これで、以下に説明するように、**[!UICONTROL コンテンツを編集]** ボタンから WhatsApp メッセージのコンテンツのデザインを開始できます。
+以下で詳しく説明するように、WhatsAppメッセージの内容を **[!UICONTROL 編集内容]** ボタンから設計開始できるようになりました。
 
->[!TAB  キャンペーンへの WhatsApp メッセージの追加 ]
+>[!TAB WhatsAppメッセージをキャンペーンに追加]
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
@@ -94,62 +91,70 @@ WhatsApp では、次のメッセージタイプがサポートされていま�
 
 1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
 
-1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL WhatsApp]**」を選択し、新しい設定を選択または作成します。
+1. 「 **[!UICONTROL アクション]** 」セクションで、「 **[!UICONTROL WhatsApp]** を選択し、新しい設定を選択または作成します。
 
-   WhatsApp 設定について詳しくは、[ このページ ](whatsapp-configuration.md) を参照してください。
+   WhatsApp の設定について詳しくは [this ページ](whatsapp-configuration.md)を参照してください。
+
+   ![](assets/whatsapp-campaign-1.png)
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../content-management/content-experiment.md)
 
-1. 「**[!UICONTROL アクショントラッキング]**」セクションで、WhatsApp メッセージ内のリンクのクリックを追跡するかどうかを指定します。
+1. [ **[!UICONTROL アクショントラッキング]** セクションで、WhatsAppメッセージ内のリンクのクリックを追跡するかどうかを指定します。
 
 1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
-1. **[!UICONTROL アクショントリガー]** メニューから、WhatsApp メッセージの **[!UICONTROL 頻度]** を選択します。
+1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、WhatsAppメッセージの&#x200B;**[!UICONTROL 頻度]**&#x200B;を選択します。
 
    * 1 回
    * 毎日
    * 毎週
    * 月
 
-これで、以下に説明するように、**[!UICONTROL コンテンツを編集]** ボタンから WhatsApp メッセージのコンテンツのデザインを開始できます。
+以下で詳しく説明するように、WhatsAppメッセージの内容を **[!UICONTROL 編集内容]** ボタンから設計開始できるようになりました。
 
 >[!ENDTABS]
 
-## WhatsApp コンテンツの定義{#whatsapp-content}
+## WhatsApp 内容の定義{#whatsapp-content}
 
 >[!BEGINSHADEBOX]
 
-Journey Optimizerで WhatsApp メッセージをデザインする前に、まず Meta でテンプレートを作成およびデザインする必要があります。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+ジャーニーオプティマイザーでWhatsAppメッセージをデザインする前に、まずメタでテンプレートを作成してデザインする必要があります。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-WhatsApp テンプレートをJourney Optimizerで使用するには、まず Meta が承認する必要があります。 この処理には通常数時間かかりますが、最長で 24 時間かかる場合があります。 [詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+WhatsApp テンプレートを Journey Manager で使用する前に、Meta の承認を受ける必要があります。 このプロセスには通常数時間かかりますが、最大24時間かかる場合があります。 [詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
 >[!ENDSHADEBOX]
 
-1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、WhatsApp メッセージコンテンツを設定します。
+1. ジャーニーまたはキャンペーン構成画面で、 **[!UICONTROL 編集内容]** ボタンをクリックして、WhatsAppメッセージ内容を構成します。
 
 <!--
 1. Select **[!UICONTROL Template message]**.
 -->
 
-1. **テンプレートカテゴリ** を選択します。
+1. **テンプレート カテゴリ** を選択します。
 
    * マーケティング
-   * ユーティリティ
+   * 効用
    * 認証
 
-   [ テンプレートカテゴリの詳細情報 ](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [詳しくは、テンプレートカテゴリについての記事をご覧ください。](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
-1. **WhatsApp テンプレート** ドロップダウンから、Meta で設計された以前に作成したテンプレートを選択します。
+   ![](assets/whatsapp-design-1.png)
 
-   [Whatsapp テンプレートの作成方法の詳細を説明します ](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+1. [ **WhatsApp テンプレート** ]ドロップダウンから、メタでデザインした以前に作成したテンプレートを選択します。
 
-1. パーソナライゼーションエディターを使用して、テンプレートにパーソナライゼーションを追加します。 プロファイル名や市区町村など、任意の属性を使用できます。
+   [Whatsappテンプレートを作成する方法の詳細をご覧ください](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-   詳しくは、次のページを参照してください [ パーソナライゼーション ](../personalization/personalize.md)。
+   ![](assets/whatsapp-design-2.png)
 
-1. **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、WhatsApp メッセージコンテンツ、短縮 URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
+1. パーソナライズ機能編集者を使用して、パーソナライズ機能テンプレートに追加します。 プロファイル名や市区町村など、任意の属性を使用できます。
 
-テストを実行してコンテンツを検証したら、WhatsApp メッセージをオーディエンスに送信できます。 これらの手順について詳しくは、[ このページ ](send-whatsapp.md) を参照してください。
+   [パーソナライズ機能](../personalization/personalize.md)の詳細については、以下のページを参照してください。
+
+   ![](assets/whatsapp-design-3.png)
+
+1. **[!UICONTROL シミュレート内容]**&#x200B;ボタンを使用して、WhatsAppメッセージ内容、短縮URL、およびパーソナライズされた内容プレビューします。[詳細情報](send-whatsapp.md)
+
+テストを実行して内容を検証したら、WhatsAppメッセージをオーディエンスに送信できます。 これらの手順について詳しくは、 [このページを参照してください](send-whatsapp.md)
 
 
 <!--
