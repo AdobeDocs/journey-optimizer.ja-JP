@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, 関数, 式, ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 67%
+source-wordcount: '229'
+ht-degree: 68%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 67%
 `inAudience('audienceName') == true` は、セグメントメンバーシップがエントリ済みになっていることを意味します。
 
 `inAudience('audienceName') == false` は、離脱ステータスのセグメントメンバーシップがあることを意味します。
+
+
+>[!IMPORTANT]
+>
+>既存のオーディエンスの名前を変更しても、ジャーニー式のそのオーディエンスへの参照は自動的には更新されません。 条件ノードで `inAudience('oldAudienceName')` を使用する場合は、新しい名前を使用するように式を手動で編集する必要があります。 ジャーニーを変更しないと、ジャーニーの条件が壊れます。
 
 ## カテゴリ
 
@@ -65,7 +70,3 @@ Adobe Experience Platform
 
 ジャーニーインスタンス内の個人が「men over 50 ]**という名前のAdobe Experience Platform オーディエンスに属している場合、この関数は**[!UICONTROL  true **[!UICONTROL を返します。それ以外の場合は]** false を返します。
 
-
->[!CAUTION]
->
->既存のオーディエンスの名前を変更しても、ジャーニー式のそのオーディエンスへの参照は自動的には更新されません。 条件ノードで inAudience （&#39;oldAudienceName&#39;）を使用する場合は、新しい名前を使用するように式を手動で編集する必要があります。 ジャーニーを変更しないと、ジャーニーの条件が壊れます。
