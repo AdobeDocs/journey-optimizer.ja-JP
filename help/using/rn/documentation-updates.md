@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1114'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 88%
 * 双方向 SMS を使用する場合のネイティブキーワードの使用に関する推奨事項を追加しました。 [詳細情報](../sms/sms-opt-out.md)
 * ジャーニーテストページを更新し、使用するイベントに ID 名前空間を含める必要があることに関するメモを追加しました。 [詳細情報](../building-journeys/testing-the-journey.md)
 * 現在、[!UICONTROL Journey Optimizer] ユーザーインターフェイスを使用してサブドメインのデリゲートを解除することはできません。Adobe担当者にお問い合わせください。 メール、ランディングページ、SMS および web サブドメインの節を更新し、この情報と、Adobeにアクセスする前に実行する手順を追加しました。 [詳細情報](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* 同じエンドポイントに対するスロットル設定と共に使用する方法のガイダンスなど、ジャーニー Capping API のオプションの `maxHttpConnections` パラメーターに関する説明を追加しました。 [詳細情報](../configuration/throttling.md)
 
 ## 2025年3月 {#mar-2025}
 

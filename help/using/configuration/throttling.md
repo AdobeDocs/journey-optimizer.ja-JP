@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
-workflow-type: ht
-source-wordcount: '880'
-ht-degree: 100%
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+workflow-type: tm+mt
+source-wordcount: '1014'
+ht-degree: 82%
 
 ---
 
@@ -21,13 +21,14 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/)を参照してください。
 
->[!IMPORTANT]
->
->現在、1 つの組織につき 1 つの設定のみを使用できます。 設定は、（ヘッダーの x-sandbox-name を通じて指定される）実稼動サンドボックスで定義する必要があります。
->
->設定は、組織レベルで適用されます。
->
->API で設定された制限に達すると、以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
+## 必読
+
+* **組織ごとに 1 つの設定：** 現在、組織ごとに 1 つの設定のみが許可されています。 設定は、（ヘッダーの `x-sandbox-name` を通じて指定される）実稼動サンドボックスで定義する必要があります。
+* **組織レベルのアプリケーション：** 設定は組織レベルで適用されます。
+* **API 制限処理：** API で設定された制限に達すると、以降のイベントは最大 6 時間キューに入れられます。 この値は変更できません。
+* **`maxHttpConnections`パラメーター：** 「maxHttpConnections」パラメーターは、キャッピング API で使用できるオプションのパラメーターで、Journey Optimizerが外部システムに対して開く接続数を制限することができます。 [Capping API の使用方法を学ぶ ](../configuration/capping.md)
+
+  接続数を制限するだけでなく、これらの外部呼び出しをスロットルする場合は、同じエンドポイントに、スロットルとキャッピングの 2 つの設定を設定できます。 1 つのエンドポイントに対して、両方の設定を共存させることができます。 スロットルされたエンドポイントに「maxHttpConnections」を設定するには、Throttling API を使用してスロットルしきい値を設定し、Capping API を使用して「maxHttpConnections」を設定します。 Capping API を呼び出す際に、キャッピングルールが実質的に有効にならないように、キャッピングしきい値をスロットルしきい値よりも大きく設定できます。
 
 ## スロットル API の説明とPostman コレクション {#description}
 
