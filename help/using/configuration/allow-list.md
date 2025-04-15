@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 96%
+source-wordcount: '1179'
+ht-degree: 87%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >許可リストをアクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 5 分の待ち時間がかかります。
+   >許可リストをアクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延があります。 同様に、許可リストリストと抑制リストの両方を更新すると、反映されるまで最大 10 分かかる場合があります。
 
 許可リストのロジックは、この機能がアクティブな場合に適用されます。詳しくは、[この節](#logic)を参照してください。
 
@@ -90,7 +90,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >許可リストを非アクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 5 分の待ち時間がかかります。
+   >許可リストを非アクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延があります。 同様に、許可リストリストと抑制リストの両方を更新すると、反映されるまで最大 10 分かかる場合があります。
 
 許可リストロジックは、機能が非アクティブ化された場合は適用されません。詳しくは、[この節](#logic)を参照してください。
 
@@ -140,7 +140,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}で確認することができます。
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば [ このページ ](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"} で確認することができます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
