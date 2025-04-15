@@ -1,39 +1,58 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Journey Optimizer]  設定の概要'
-description: ' [!DNL Journey Optimizer]  設定について説明します。'
+title: チャネル設定  [!DNL Journey Optimizer]  基本を学ぶ
+description: チャネル設定  [!DNL Journey Optimizer]  詳細情報
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 64%
 
 ---
 
 
-# [!DNL Journey Optimizer] 設定の基本を学ぶ {#start-optimizer-configuration}
+# チャネル設定の基本を学ぶ {#start-optimizer-configuration}
 
-[!DNL Journey Optimizer]に初めてアクセスする際には、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
+[!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
-ジャーニーを作成しメッセージを送信するには、次の設定手順を完了する必要があります。
 
-## メッセージとチャネルの設定
+メッセージを送信するには、次の設定手順を実行する必要があります。
 
-1. メッセージを作成して送信するには、チャネルに応じて特定の設定を行う必要があります。
+1. [Adobe Journey Optimizer システム管理者 ](../start/path/administrator.md) として、チャネル設定を定義します。 これらの設定を行う方法については、次のページを参照してください。
 
-   * **メール**&#x200B;チャネルの場合は、サブドメインをアドビにデリゲートし、IP プールを作成して IP アドレスをグループ化する必要があります。[詳細情報](../email/get-started-email-config.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/get-started-email-config.md"><img alt="メール" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/get-started-email-config.md"><strong>メール</strong></a></div></td>
+<td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/push-configuration.md"><img alt="プッシュ" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/push-configuration.md"><strong>プッシュ通知</strong></a></div></td>
+<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="ダイレクトメール" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>ダイレクトメール</strong></a></div></td>
+</tr></table>
 
-   * **プッシュ**&#x200B;チャネルの場合は、[!DNL Adobe Experience Platform] と [!DNL Adobe Experience Platform Launch] の両方でプッシュ通知設定を定義する必要があります。[詳細情報](../push/push-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/inapp-configuration.mdd"><img alt="アプリ内" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/inapp-configuration.md"><strong>アプリ内</strong></a></div></td>
+<td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/code-based-configuration.md"><img alt="コードベースのエクスペリエンス" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/code-based-configuration.md"><strong>コードベースのエクスペリエンス</strong></a></div></td>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="コンテンツカード" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>コンテンツカード</strong></a></div></td>
+</tr></table>
 
-   * **SMS** チャネルの場合は、プロバイダー設定を [!DNL Journey Optimizer] と統合するなど、SMS を送信するようにインスタンスを設定する必要があります。[詳細情報](../sms/sms-configuration.md)
+>[!NOTE]
+>
+>モバイルチャネルの場合、[ ガイド付きチャネルの設定 ](set-mobile-config.md) を使用すると、マーケティングチャネルを迅速に設定でき、必要なすべてのリソースをExperience Platform、Journey Optimizerおよび Data Collection 内ですぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
 
-1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術的パラメーターを設定する必要があります。[詳細情報](channel-surfaces.md)
+1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術的パラメーターを設定する必要があります。[ チャネル設定の詳細情報 ](channel-surfaces.md)
 
 1. 以下を行うこともできます。
 
@@ -44,21 +63,3 @@ ht-degree: 100%
    * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。[詳細情報](../configuration/rule-sets.md)
 
    * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。[詳細情報](primary-email-addresses.md)
-
-<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
-
->[!NOTE]
->
->これらの手順は、[Adobe Journey Optimizer システム管理者](../start/path/administrator.md)が実行する必要があります。
-
-## ジャーニーの設定
-
-ジャーニーを作成するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;を設定する必要があります。[詳細情報](about-data-sources-events-actions.md)
-
-![](assets/admin-menu.png)
-
-* **データソース**&#x200B;設定では、ジャーニーで使用する追加情報を取得するためにシステムへの接続を定義できます。[詳細情報](../datasource/about-data-sources.md)
-
-* **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで想定されるイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取り込み API から取り込みます。[詳細](../event/about-events.md)
-
-* [!DNL Journey Optimizer] には、コンテンツのデザインと送信を可能にするメッセージ機能が組み込まれています。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。[詳細情報](../action/action.md)
