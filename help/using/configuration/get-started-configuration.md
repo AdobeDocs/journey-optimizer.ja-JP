@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: e052cf9bcd42cecbaaeb9047990ed603dd0730a0
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 64%
@@ -38,7 +38,7 @@ ht-degree: 64%
 </tr></table>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/inapp-configuration.mdd"><img alt="アプリ内" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<td><a href="../in-app/inapp-configuration.md"><img alt="アプリ内" src="../channels/assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/inapp-configuration.md"><strong>アプリ内</strong></a></div></td>
 <td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
 <div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
