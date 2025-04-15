@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式エディター, データ, ジャーニー
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 96%
+source-wordcount: '734'
+ht-degree: 90%
 
 ---
 
@@ -69,6 +69,11 @@ ht-degree: 96%
 画面の左側には、使用可能なフィールドと関数が表示されます。
 
 * **[!UICONTROL イベント]**：インバウンドイベントから受信したフィールドの 1 つを選択します。表示されるイベントフィールドリストは状況に応じて異なり、ジャーニーに追加されるイベントに応じて変化します。[詳細情報](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >ジャーニー式/条件でのエクスペリエンスイベントの利用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、[ 計算属性 ](../../audience/computed-attributes.md) などの代替方法を検討するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式に組み込みま ](../../building-journeys/functions/functioninaudience.md)。
+
 * **[!UICONTROL オーディエンス]**：**[!UICONTROL オーディエンスの選定]**&#x200B;イベントをドロップした場合は、式で使用するオーディエンスを選択します。[詳細情報](../condition-activity.md#using-a-segment)
 * **[!UICONTROL データソース]**：データソースのフィールドグループにあるフィールドリストから選択します。[詳細情報](../../datasource/about-data-sources.md)
 * **[!UICONTROL ジャーニーのプロパティ]**：このセクションでは、特定のプロファイルのジャーニーに関連するテクニカルフィールドが再グループ化されます。[詳細情報](journey-properties.md)

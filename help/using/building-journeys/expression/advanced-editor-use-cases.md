@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式, 条件, ユースケース, イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 92%
 
 ---
 
@@ -19,13 +19,18 @@ ht-degree: 100%
 
 高度な式エディターを使用すると、ジャーニーでユーザーをフィルタリングできる条件を作成できます。これらの条件を使用すると、時刻、日付、場所、期間またはアクション（買い物かごの購入や放棄など）に基づいてユーザーをターゲットに設定して、ジャーニーでユーザーを再ターゲット化できるようになります。
 
->[!NOTE]
+>[!CAUTION]
 >
->イベントは @ で始まり、データソースは # で始まります。
+>ジャーニー式/条件でのエクスペリエンスイベントの利用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、[ 計算属性 ](../../audience/computed-attributes.md) などの代替方法を検討するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式に組み込みま ](../../building-journeys/functions/functioninaudience.md)。
+
 
 ## エクスペリエンスイベントに関する条件の作成
 
 高度な式エディターは、購入のリストやメッセージに対する過去のクリックなどの時系列に対してクエリを実行する場合に必須です。このようなクエリは、単純なエディターでは実行できません。
+
+>[!NOTE]
+>
+>イベントは @ で始まり、データソースは # で始まります。
 
 エクスペリエンスイベントは、Adobe Experience Platform からコレクションとして新しい順に取得されます。したがって、次のようになります。
 
@@ -40,7 +45,7 @@ ht-degree: 100%
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **この式は、過去 7 日間に指定された、このユーザーのすべてのイベントを検索します。**
 

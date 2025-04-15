@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
-workflow-type: ht
-source-wordcount: '696'
-ht-degree: 100%
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 94%
 
 ---
 
@@ -72,6 +72,13 @@ ht-degree: 100%
 例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
 「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
+
+
+## 例
+
+>[!CAUTION]
+>
+>ジャーニー式/条件でのエクスペリエンスイベントの利用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、[ 計算属性 ](../../audience/computed-attributes.md) などの代替方法を検討するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式に組み込みま ](../../building-journeys/functions/functioninaudience.md)。
 
 **例 1：**
 
