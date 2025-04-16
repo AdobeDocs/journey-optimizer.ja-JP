@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2009'
 ht-degree: 81%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 81%
 >title="サブドメインデリゲーション"
 >abstract="メールの送信を開始するには、サブドメインをアドビにデリゲートします。完了すると、DNS レコード、受信ボックス、送信者、返信先、バウンスアドレスが設定されます。"
 
+## Get started with email subdomains {#gs-delegate-subdomain}
+
 ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。[ サブドメインデリゲーション ](about-subdomain-delegation.md) の詳細情報
 
 デフォルトで [!DNL Journey Optimizer]、を使用すると **最大 10 個のサブドメイン** をデリゲートできます。 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
@@ -41,7 +43,7 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
->サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。 別のサブドメインのステータスが **[!UICONTROL 処理中]** となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
+>サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。 If you try to submit a subdomain for delegation when another one is in the **[!UICONTROL Processing]** status, you get an error message.
 
 ## サブドメインをAdobeに完全にデリゲート {#full-subdomain-delegation}
 

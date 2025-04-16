@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 75%
+source-wordcount: '1089'
+ht-degree: 72%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 75%
 >title="Web サブドメインの設定"
 >abstract="アドビにデリゲートされているサブドメインのリストからサブドメインを選択します。この web サブドメインをデフォルトのサブドメインとして設定できますが、一度に使用できるデフォルトのサブドメインは 1 つだけです。"
 
+## Get started with web subdomains {#gs-web-subdomains}
+
 Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../integrations/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
@@ -46,7 +48,9 @@ Web サブドメインの設定は **すべての環境に共通** です。 し
 
 ## Web サブドメインへのアクセスと管理 {#access-web-subdomains}
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューに移動して、**[!UICONTROL web 設定]**／**[!UICONTROL web サブドメイン]**&#x200B;を選択します。現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
+To access subdomains for web experiences, follow these steps:
+
+1. Browse to the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]**. 現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
 
    ![](assets/web-access-subdomains.png)
 
@@ -62,7 +66,7 @@ Web サブドメインの設定は **すべての環境に共通** です。 し
 
 ## 既存のサブドメインを使用 {#web-use-existing-subdomain}
 
-既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
+既にAdobeにデリゲートされているサブドメインを使用するには、次の手順に従います。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL web 設定]**／**[!UICONTROL web サブドメイン]**&#x200B;を選択します。
 
@@ -94,7 +98,6 @@ Web サブドメインの設定は **すべての環境に共通** です。 し
 >id="ajo_admin_web_subdomain_dns"
 >title="一致する DNS レコードを生成"
 >abstract="新しい web サブドメインを設定するには、Journey Optimizer インターフェイスに表示されるアドビのネームサーバー情報をコピーし、お使いのドメインホスティングソリューションにペーストして、一致する DNS レコードを生成する必要があります。チェックが正常に完了すると、サブドメインを使用して、Adobe Experience Manager Assets ライブラリからのコンテンツを公開できるようになります。"
-
 
 デフォルトでは、[!DNL Journey Optimizer] を使用すると、合計 **最大 10 個のサブドメイン** をデリゲートできます（メールと web チャネルの両方をカバー）。 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
 
