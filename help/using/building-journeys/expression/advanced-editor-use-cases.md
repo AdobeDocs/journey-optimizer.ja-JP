@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式, 条件, ユースケース, イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 92%
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->ジャーニー式/条件でのエクスペリエンスイベントの利用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、[ 計算属性 ](../../audience/computed-attributes.md) などの代替方法を検討するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式に組み込みま ](../../building-journeys/functions/functioninaudience.md)。
+>ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、[ 計算属性 ](../../audience/computed-attributes.md) などの代替方法を検討するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式に組み込みま ](../../building-journeys/functions/functioninaudience.md)。
 
 
 ## エクスペリエンスイベントに関する条件の作成

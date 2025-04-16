@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 最新情報
 
-Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。[ドキュメントの更新ページ](using/rn/documentation-updates.md)にアクセスして、ドキュメントの最新の変更点を常に最新の状態に保ってください。
+Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。製品ドキュメントの最新の変更点については、[ ドキュメントの更新ページ ](using/rn/documentation-updates.md) を参照してください。
 
 >[!BEGINTABS]
 
@@ -30,7 +30,7 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 ✨ [AI アシスタント](../help/using/content-management/gs-generative.md)ライブ機能プレビューで実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
-[![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ 詳細情報 ](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB CJA でのレポート]
 

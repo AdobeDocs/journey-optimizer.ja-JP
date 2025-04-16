@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 86%
 
 ## 2025年4月 {#apr-2025}
 
+* 設定の章は、{ チャンネル設定 [、[ジャーニー設定 ](../configuration/get-started-configuration.md)、{ システムの接続 ](../configuration/about-data-sources-events-actions.md)[ の 3 つの章に分かれ ](../configuration/ajo-apis.md) います。
+* ジャーニー式と条件でエクスペリエンスイベントを使用する際の注意を追加しました。 [詳細情報](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* サブドメインのデリゲートを解除する手順が、[ メール ](../configuration/delegate-subdomain.md#undelegate-subdomain)、[SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)、[web エクスペリエンス ](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)、[ ランディングページ ](../landing-pages/lp-subdomains.md#undelegate-subdomain) で詳細に説明されるようになりました。
 * ダイレクトメール設定ページに、出力ファイルの一時的な保存に関するメモを追加しました。 [詳細情報](../direct-mail/direct-mail-configuration.md)
 * ジャーニーの高度な式エディターの節に、条件形式のガイドラインに関するヒントを追加しました。 [詳細情報](../building-journeys/expression/expressionadvanced.md)
 * オーディエンス名を変更した場合の影響とベストプラクティスに関する注意事項を `inAudience` 関数の節に追加しました。 [詳細情報](../building-journeys/functions/functioninaudience.md)
