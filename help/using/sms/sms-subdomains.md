@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 74%
+source-wordcount: '928'
+ht-degree: 69%
 
 ---
 
@@ -34,14 +34,15 @@ ht-degree: 74%
 >abstract="SMS 設定を作成できるようにするには、少なくとも 1 つの SMS サブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 設定の作成"
 
+## SMS サブドメインの基本を学ぶ {#gs-sms-mms-subdomains}
+
 SMS/MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定の作成 ](sms-configuration.md#message-preset-sms) 時に選択するサブドメインを設定する必要があります。
 
-既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
+既にAdobeにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。 サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
 
 SMS サブドメインの設定は **すべての環境間で共有** されます。 したがって、SMS サブドメインを変更すると、他の実稼動サンドボックスにも影響します。
 
 SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
-
 
 ## 既存のサブドメインを使用 {#sms-use-existing-subdomain}
 
@@ -79,9 +80,7 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 
 1. 送信されると、サブドメインは&#x200B;**[!UICONTROL 処理中]**&#x200B;ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（最大で 4 時間かかることがあります）。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがAdobeで実行されるまで待つ必要があります **最大 4 時間**。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。SMS チャネル設定を作成する準備が整いました。
 
