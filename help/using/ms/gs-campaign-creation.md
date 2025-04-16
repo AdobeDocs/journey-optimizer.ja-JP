@@ -18,7 +18,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="調整されたキャンペーン"
->abstract="In this screen, you can access the full list of orchestrated campaigns, check their current status, last/next execution dates, and create a new orchestrated campaign."
+>abstract="この画面では、オーケストレーションされたキャンペーンの完全なリストにアクセスし、現在のステータス、最後/次回の実行日を確認して、新しいオーケストレーションされたキャンペーンを作成できます。"
 
 Adobe Journey Optimizerを使用すると、調整されたキャンペーンを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizerを使用すると、調整されたキャンペーンを
 
 * **トランジション**：トランジションは、ソースアクティビティを宛先アクティビティにリンクし、そのシーケンスを定義します。
 
-* **作業用テーブル**：作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。調整されたキャンペーンごとに、複数のワークテーブルが使用されます。 The data conveyed in these tables can be used throughout the orchestrated campaign&#39;s life cycle.
+* **作業用テーブル**：作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。調整されたキャンペーンごとに、複数のワークテーブルが使用されます。 これらのテーブルで伝達されたデータは、調整されたキャンペーンのライフサイクルを通じて使用できます。
 
 ## 調整されたキャンペーンを作成するための主な手順 {#gs-ms-campaign-steps}
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerを使用すると、調整されたキャンペーンを
 >
 >オーケストレーションされたキャンペーンが進行中の場合、そのキャンペーンは複製できますが、削除することはできません。
 
-## Statuses and lifecycle {#status}
+## ステータスとライフサイクル {#status}
 
 キャンペーンには複数のステータスがあります。
 

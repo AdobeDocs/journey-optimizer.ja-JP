@@ -41,7 +41,7 @@ ht-degree: 22%
 
 これらのプロパティは次のとおりです。
 
-* The **[!UICONTROL Label]** of the orchestrated campaign that displays in the list.
+* リストに表示されるオーケストレーションされたキャンペーンの **[!UICONTROL ラベル]**。
 * オーケストレーションされたキャンペーンの **[!UICONTROL 内部名]**。
 * オーケストレーションされたキャンペーンを保存する **[!UICONTROL フォルダー]**。
 * オーケストレーションされたすべてのキャンペーンのアクティビティで使用されるデフォルトの **[!UICONTROL タイムゾーン]**。 デフォルトでは、オーケストレーションされたキャンペーンのタイムゾーンは、現在の Campaign オペレーターに対して定義されたタイムゾーンになります。
@@ -71,7 +71,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="実行設定"
->abstract="In this section, you can configure settings related to the execution of the worklow, such the number of days the orchestrated campaign history is kept."
+>abstract="このセクションでは、オーケストレーションされたキャンペーン履歴を保持する日数など、ワークフローの実行に関する設定を指定できます。"
 
 * **[!UICONTROL 履歴（日数）]**：履歴をパージする必要があるまでの日数を指定します。履歴には、ログ、タスク、イベント（オーケストレーションされたキャンペーン操作にリンクされた技術的なオブジェクト）など、オーケストレーションされたキャンペーンに関連する要素が含まれます。 標準のオーケストレーションされたキャンペーンテンプレートのデフォルト値は 30 日です。 履歴のパージは、デフォルトで毎日実行されるデータベースクリーンアップテクニカルオーケストレートキャンペーンによって実行されます
 
