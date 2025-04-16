@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 79%
+source-wordcount: '924'
+ht-degree: 74%
 
 ---
 
@@ -34,16 +34,14 @@ ht-degree: 79%
 >abstract="SMS 設定を作成できるようにするには、少なくとも 1 つの SMS サブドメインを、サブドメイン名リストから選択するように事前に設定しておく必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 設定の作成"
 
-SMS／MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定を作成](sms-configuration.md#message-preset-sms)する際に選択するサブドメインを設定する必要があります。
+SMS/MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定の作成 ](sms-configuration.md#message-preset-sms) 時に選択するサブドメインを設定する必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
 
->[!CAUTION]
->
->* SMS サブドメインの設定は、すべての環境間で共有されます。したがって、SMS サブドメインを変更すると、他の実稼動サンドボックスにも影響します。
->
->* SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
->
+SMS サブドメインの設定は **すべての環境間で共有** されます。 したがって、SMS サブドメインを変更すると、他の実稼動サンドボックスにも影響します。
+
+SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
+
 
 ## 既存のサブドメインを使用 {#sms-use-existing-subdomain}
 
@@ -61,15 +59,11 @@ SMS／MMS メッセージに追加された URL を短縮できるようにす�
 
 1. SMS の URL に表示するプレフィックスを入力します。
 
-   >[!NOTE]
-   >
-   >英数字とハイフンのみが使用できます。
+   英数字とハイフンのみが使用できます。
 
 1. リストからデリゲートされたサブドメインを選択します。
 
-   >[!NOTE]
-   >
-   >既に SMS サブドメインとして使用されているサブドメインは選択できません。
+   既に SMS サブドメインとして使用されているサブドメインは選択できません。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -120,9 +114,7 @@ SMS／MMS メッセージに追加された URL を短縮できるようにす�
 
    無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
 
-   >[!NOTE]
-   >
-   >（同じ親ドメインの）複数レベルのサブドメインがサポートされます。例えば、「sms.marketing.yourcompany.com」を使用できます。
+   （同じ親ドメインの）複数レベルのサブドメインがサポートされます。例えば、「sms.marketing.yourcompany.com」を使用できます。
 
 1. DNS サーバーに配置するレコードが表示されます。このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインをホストするソリューションに移動し、一致する DNS レコードを生成します。
 
@@ -130,9 +122,7 @@ SMS／MMS メッセージに追加された URL を短縮できるようにす�
 
    ![](assets/sms_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >新しい SMS サブドメインを設定すると、常に CNAME レコードを指すようになります。
+   新しい SMS サブドメインを設定すると、常に CNAME レコードを指すようになります。
 
 1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
