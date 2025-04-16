@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
@@ -20,11 +20,9 @@ ht-degree: 97%
 
 ## サンドボックスの使用 {#using-sandbox}
 
-[!DNL Journey Optimizer] では、インスタンスをサンドボックスと呼ばれる個別の仮想環境に分割できます。
-サンドボックスは、権限の役割を通じて割り当てられます。[サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
+[!DNL Journey Optimizer] を使用すると、インスタンスを、サンドボックスと呼ばれる別個の仮想環境に分割できます。 サンドボックスは、権限の役割を通じて割り当てられます。[サンドボックスの割り当て方法を学ぶ](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer] は、特定の組織用に作成された Adobe Experience Platform サンドボックスを反映します。
-Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳しくは、サンドボックスユーザーガイドを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}。
+[!DNL Journey Optimizer] は、特定の組織用に作成されたAdobe Experience Platform サンドボックスを反映します。 Adobe Experience Platform サンドボックスは、Adobe Experience Platform インスタンスから作成またはリセットできます。[詳しくは、サンドボックスユーザーガイドを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}。
 
 画面の右上の組織名の横に、サンドボックス切り替えコントロールがあります。サンドボックスを切り替えるには、切り替えボタンで現在アクティブなサンドボックスをクリックし、ドロップダウンリストから別のサンドボックスを選択します。
 

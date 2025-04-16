@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 96%
+source-wordcount: '1343'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 1. [ファイルのルーティング設定](#file-routing-configuration)：ファイルの書き出し先となるサーバーを指定し、必要に応じてファイルを暗号化します。
 
-1. [ダイレクトメール設定](#direct-mail-configuration)：ファイルのルーティング設定を参照します。ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
+1. [ ダイレクトメール設定 ](#direct-mail-configuration)：ファイルのルーティング設定を参照します。 ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
 
 
 >[!CAUTION]

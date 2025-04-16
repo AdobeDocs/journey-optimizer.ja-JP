@@ -9,16 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
 # Adobe Analytics データの操作 {#analytics-data}
 
-ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化するために、Adobe Analytics、Web SDK、Adobe Experience Platform へのストリーミング を通じて既に取得しているあらゆる web 行動イベントデータを活用できます。
+ジャーニーをトリガー化し顧客向けのエクスペリエンスを自動化するために、Adobe Analytics、Web SDK、Adobe Experience Platformへのストリーミングを通じて既に取得しているあらゆる web 行動イベントデータを活用できます。
 
 これを Adobe Analytics で操作するには、次の手順に従う必要があります。
 
@@ -61,7 +61,7 @@ ht-degree: 96%
 
 ![](assets/ajo-aa_4.png)
 
-Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"} および [ チュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"} を参照してください。
+Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja){target="_blank"}と[チュートリアル](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja){target="_blank"}を参照してください。
 
 ## この設定のアクティベート {#activate-analytics-data}
 
