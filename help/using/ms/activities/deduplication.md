@@ -6,7 +6,7 @@ description: 重複排除 - 重複アクティビティの使用方法につい�
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 98%
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 ![](../assets/workflow-deduplication.png)
 
-1. 複数手順キャンペーンに **重複排除** アクティビティを追加します。
+1. 調整したキャンペーンに **重複排除** アクティビティを追加します。
 
 1. 「**重複を識別するためのフィールド**」セクションで、「**属性を追加**」ボタンをクリックして、メールアドレス、名、姓など、同一の値によって重複を識別できるフィールドを指定します。 フィールドの順序によって、最初に処理するフィールドを指定できます。
 

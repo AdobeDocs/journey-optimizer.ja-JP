@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 分岐アクティビティの使用
-description: 複数手順キャンペーンでの分岐アクティビティの使用方法を説明します
+description: 調整されたキャンペーンで「分岐」アクティビティを使用する方法を説明します
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 88%
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 ![](../assets/workflow-fork.png)
 
-1. **分岐** アクティビティを複数ステップのキャンペーンに追加します。
+1. **分岐** アクティビティをオーケストレーションされたキャンペーンに追加します。
 1. **トランジションを追加**&#x200B;をクリックし、新しいアウトバウンドトランジションを追加します。デフォルトでは、2 つのトランジションが定義されています。
 1. 各トランジションにラベルを追加します。
 

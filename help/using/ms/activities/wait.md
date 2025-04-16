@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 複数手順キャンペーンでの待機アクティビティの使用
-description: 複数手順キャンペーンでの待機アクティビティの使用方法を学ぶ
+title: 調整されたキャンペーンでの待機アクティビティの使用
+description: 調整されたキャンペーンで待機アクティビティを使用する方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 85%
@@ -26,7 +26,7 @@ ht-degree: 85%
 
 **待機**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-1. **待機** アクティビティを複数手順キャンペーンに追加します。
+1. **待機** アクティビティを、調整したキャンペーンに追加します。
 
 1. インバウンドトランジションとアウトバウンドトランジションの間の待機&#x200B;**期間**&#x200B;を指定します。
 

@@ -6,7 +6,7 @@ description: ディメンションの変更アクティビティの使用方法�
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 67%
@@ -25,9 +25,9 @@ ht-degree: 67%
 >title="ディメンションを変更アクティビティ"
 >abstract="このアクティビティを使用すると、オーディエンスの作成時にターゲティングディメンションを変更できます。 データテンプレートと入力ディメンションに応じて軸を移動します。 例えば、「契約」ディメンションから「クライアント」ディメンションに切り替えることができます。"
 
-**ディメンションを変更**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、複数手順のキャンペーンを作成する際に、ターゲティングディメンションを変更できます。 データテンプレートと入力ディメンションに応じて軸を移動します。
+**ディメンションを変更**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。This activity allows you to change the targeting dimension as you are building your orchestrated campaign. データテンプレートと入力ディメンションに応じて軸を移動します。
 
-例えば、複数手順キャンペーンのターゲティングディメンションを「受信者」から「購読者のアプリケーション」に切り替えて、プッシュ通知をターゲットの受信者に送信することができます。
+For example, you can switch an orchestrated campaign&#39;s targeting dimension from &quot;Recipients&quot; to &quot;Subscribers application&quot; in order to send push notifications to the targeted recipients.
 
 >[!IMPORTANT]
 >
@@ -37,18 +37,18 @@ ht-degree: 67%
 
 **ディメンションを変更**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-1. 複数手順のキャンペーンに **ディメンションを変更** アクティビティを追加します。
+1. Add a **Change dimension** activity to your orchestrated campaign.
 
    ![](../assets/workflow-change-dimension.png)
 
 1. **新しいターゲットディメンション**&#x200B;を定義します。ディメンションの変更時に、すべてのレコードが保持されます。その他のオプションはまだ利用できません。
 
-1. 複数手順キャンペーンを実行して、結果を表示します。 ディメンションの変更アクティビティの前後でテーブル内のデータを比較し、複数ステップのキャンペーンテーブルの構造を比較します。
+1. Execute the orchestrated campaign to view the result. Compare the data in the tables before and after the change dimension activity, and compare the structure of the orchestrated campaign tables.
 
 ## 例 {#example}
 
 この例では、購入を行ったすべてのプロファイルに SMS 配信を送信します。これを行うには、まず、カスタムの「購入」ターゲティングディメンションにリンクされた&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用して、発生したすべての購入をターゲットにします。
 
-次に、「**[!UICONTROL ディメンションを変更]** アクティビティを使用して、複数手順のキャンペーンターゲティングディメンションを「受信者」に切り替えます。 これにより、クエリに一致する受信者をターゲットにすることができます。
+We then use a **[!UICONTROL Change dimension]** activity to switch the orchestrated campaign targeting dimension to &quot;Recipients&quot;. これにより、クエリに一致する受信者をターゲットにすることができます。
 
 ![](../assets/workflow-change-dimension-example.png)

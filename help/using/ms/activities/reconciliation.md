@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 紐付けアクティビティの使用
-description: 複数手順キャンペーンでの紐付けアクティビティの使用方法を説明します
+description: Learn how to use the Reconciliation activity in an orchestrated campaign
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 75%
@@ -35,11 +35,11 @@ ht-degree: 75%
 >title="紐付けで補集合を生成"
 >abstract="紐付けで補集合を生成"
 
-**紐付け** アクティビティは、Adobe Journey Optimizer内のデータと作業表内のデータとのリンクを定義できる **ターゲティング** アクティビティです。このリンクには、外部ファイルから読み込まれるデータなどが含まれます。
+The **Reconciliation** activity is a **Targeting** activity which allows you to define the link between the data in Adobe Journey Optimizer and the data in a work table, for example data loaded from an external file.
 
 ## ベストプラクティス {#reconciliation-best-practices}
 
-**エンリッチメント** アクティビティでは、複数手順のキャンペーンで処理する追加データを定義できますが（**エンリッチメント** アクティビティを使用すると、複数のセットからのデータを組み合わせたり、一時的なリソースへのリンクを作成したりできます）、**紐付け** アクティビティを使用すると、未識別データを既存のリソースにリンクできます。
+While the **Enrichment** activity allows you to define additional data to process in your orchestrated campaign (you can use an **Enrichment** activity to combine data coming from multiple sets, or to create links to a temporary resource), the **Reconciliation** activity allows you to link unidentified data to existing resources.
 
 >[!NOTE]
 >紐付け操作は、リンクされたディメンションのデータが既にデータベースに存在することを意味します。例えば、購入された商品、購入時間、商品を購入したクライアントなどを示す購入ファイルを読み込む場合、商品とクライアントはデータベースに既に存在している必要があります。
@@ -75,9 +75,9 @@ ht-degree: 75%
 
 **紐付け**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-1. **紐付け** アクティビティを複数手順キャンペーンに追加します。
+1. Add a **Reconciliation** activity into your orchestrated campaign.
 
-1. 新しいターゲティングディメンションを選択します。 ディメンションを使用すると、受信者、アプリの購読者、オペレーター、購読者などのターゲット母集団を定義できます。
+1. 新しいターゲティングディメンションを選択します。 A dimension lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc.
 
 1. 紐付けに使用するフィールドを選択します。1 つまたは複数の紐付け条件を使用できます。
 
@@ -87,7 +87,7 @@ ht-degree: 75%
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. 他の属性を使用してデータを紐付けするには、「**高度な紐付け条件**」オプションを選択します。その後、クエリモデラーを使用して、独自の紐付け条件を作成できます。
+   1. 他の属性を使用してデータを紐付けするには、「**高度な紐付け条件**」オプションを選択します。You can then create your own reconciliation condition using the query modeler.
 
 1. 「**フィルターを作成**」ボタンを使用して、データをフィルタリングして紐付けできます。これにより、クエリモデラーを使用してカスタム条件を作成できます。
 
@@ -95,9 +95,9 @@ ht-degree: 75%
 
 ## 例 {#reconciliation-example}
 
-次の例は、新しいクライアントを含むインポートされたファイルからプロファイルのオーディエンスを直接作成する複数手順のキャンペーンを示しています。 このワークフローは、次のアクティビティで構成されています。
+The following example demonstrates an orchestrated campaign that creates an audience of profiles directly from an imported file containing new clients. このワークフローは、次のアクティビティで構成されています。
 
-マルチステップキャンペーンは次のように設計されます。
+The orchestrated campaign is designed as follows:
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
@@ -121,4 +121,4 @@ ht-degree: 75%
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* 「[オーディエンスを保存](save-audience.md)」アクティビティ：これらの更新に基づいて新しいオーディエンスを作成します。また、特定のオーディエンスを作成または更新する必要がない場合は、「**オーディエンスを保存**」アクティビティを「**終了**」アクティビティに置き換えることもできます。複数ステップのキャンペーンを実行すると、受信者プロファイルは常に更新されます。
+* 「[オーディエンスを保存](save-audience.md)」アクティビティ：これらの更新に基づいて新しいオーディエンスを作成します。また、特定のオーディエンスを作成または更新する必要がない場合は、「**オーディエンスを保存**」アクティビティを「**終了**」アクティビティに置き換えることもできます。Recipient profiles are updated in any case when you run the orchestrated campaign.
