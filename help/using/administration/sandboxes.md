@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: サンドボックス管理
+title: サンドボックスの使用と割り当て
 description: サンドボックスの管理方法について学ぶ
 feature: Sandboxes
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 90%
+source-wordcount: '329'
+ht-degree: 87%
 
 ---
 
-# サンドボックス管理 {#sandboxes}
+# サンドボックスの使用と割り当て {#sandboxes}
 
 ## サンドボックスの使用 {#using-sandbox}
 
@@ -64,7 +64,7 @@ ht-degree: 90%
 
 コンテンツを正しいサンドボックスと同期させるには、サンドボックスと同じ構文に従う必要があります。例えば、サンドボックスの名前が「開発」の場合、共有フォルダーも同じ名前にする必要があります。
 
-[共有フォルダーの管理方法を学ぶ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}。
+[共有フォルダーの管理方法を学ぶ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/adobe-asset-link.ug.html){target="_blank"}。
 
 ## チュートリアルビデオ{#video}
 

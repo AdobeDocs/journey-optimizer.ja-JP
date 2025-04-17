@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 80%
+source-wordcount: '1251'
+ht-degree: 77%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 80%
 * 現在、[!UICONTROL Journey Optimizer] ユーザーインターフェイスを使用してサブドメインのデリゲートを解除することはできません。Adobe担当者にお問い合わせください。 メール、ランディングページ、SMS および web サブドメインの節を更新し、この情報と、Adobeにアクセスする前に実行する手順を追加しました。 [詳細情報](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * 同じエンドポイントに対するスロットル設定と共に使用する方法のガイダンスなど、ジャーニー Capping API のオプションの `maxHttpConnections` パラメーターに関する説明を追加しました。 [詳細情報](../configuration/throttling.md)
 * 「エクスペリエンスの決定」セクションで、承認されたオファー項目がコレクションまたは決定で使用されている場合は削除できないことを説明するガイダンスを追加しました。 「承認を取り消し **[!UICONTROL オプションを使用してステータスを「ドラフト」に変更する手順が含まれまし]**。 [詳細情報](../experience-decisioning/items.md#manage)
+* サンドボックスに関する情報は、新しい「サンドボックス管理」セクションにグループ化されました。 この新しい節では、サンドボックスの使用方法と割り当て方法、およびパッケージの書き出し機能と読み込み機能を使用して、ジャーニー、コンテンツテンプレート、フラグメントなどのオブジェクトを複数のサンドボックスにわたってコピーする方法について説明します。 [詳細情報](../administration/sandboxes.md)
 
 ## 2025年3月 {#mar-2025}
 

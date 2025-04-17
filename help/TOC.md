@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 91%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 91%
       + [カスタムアクションの設定](using/action/about-custom-action-configuration.md)
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
       + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
-+ システムを {#connect-systems} に接続」
++ システムと環境の接続 {#connect-systems}
    + [Journey Optimizer API の操作](using/configuration/ajo-apis.md)
    + ジャーニーと外部システムの統合 {#external-systems}
       + [外部システムとのジャーニーの統合](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 91%
       + [Campaign Standardとのジャーニーの統合](using/action/acs-action.md)
       + [Campaign v7/v8 とのジャーニーの統合](using/action/acc-action.md)
       + [Marketo Engageとのジャーニーの統合](using/action/marketo-engage.md)
+   + サンドボックス管理 {#sandbox}
+      + [サンドボックスの使用と割り当て](using/administration/sandboxes.md)
+      + [別のサンドボックスへのオブジェクトの書き出し](using/configuration/copy-objects-to-sandbox.md)
    + [ソースコネクタの設定](using/start/get-started-sources.md)
-   + [別のサンドボックスへのオブジェクトの書き出し](using/configuration/copy-objects-to-sandbox.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
       + [ユーザー管理の基本を学ぶ](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 91%
    + [ユーザーと役割の管理](using/administration/permissions.md)
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
-   + [サンドボックス管理](using/administration/sandboxes.md)
 + プライバシー {#privacy}
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)

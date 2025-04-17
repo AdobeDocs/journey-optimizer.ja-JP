@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 94%
 
 * **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](../reports/alerts.md)
 
-* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。このセクションを参照して、サンドボックスを管理します。[詳細情報](../administration/sandboxes.md)
+* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。さらに、パッケージの書 [!DNL Journey Optimizer] 出し機能と読み込み機能を使用して、複数のサンドボックス間でジャーニー、コンテンツテンプレート、フラグメントなどのオブジェクトをコピーできます。 [詳細情報](../administration/sandboxes.md)
 
 * **[!UICONTROL チャネル]**：このセクションを使用すると、サブドメイン、設定、配信品質の設定などのチャネルを設定できます。[詳細情報](../configuration/get-started-configuration.md)
 
