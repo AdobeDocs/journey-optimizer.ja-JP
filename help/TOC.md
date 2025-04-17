@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2330'
 ht-degree: 91%
 
 ---
@@ -739,14 +739,14 @@ ht-degree: 91%
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
       + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
 + システムを {#connect-systems} に接続」
-   + [Adobe Journey Optimizerの API](using/configuration/ajo-apis.md)
-   + ジャーニー API の操作 {#external-systems}
-      + [ジャーニーと外部システムとの統合](using/configuration/external-systems.md)
+   + [Journey Optimizer API の操作](using/configuration/ajo-apis.md)
+   + ジャーニーと外部システムの統合 {#external-systems}
+      + [外部システムとのジャーニーの統合](using/configuration/external-systems.md)
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + Adobe ソリューションを使用して送信 {#adobe-solutions}
-      + [Adobe Campaign Standardとのジャーニーの統合](using/action/acs-action.md)
-      + [Adobe Campaign v7/v8 とのジャーニーの統合](using/action/acc-action.md)
+      + [Campaign Standardとのジャーニーの統合](using/action/acs-action.md)
+      + [Campaign v7/v8 とのジャーニーの統合](using/action/acc-action.md)
       + [Marketo Engageとのジャーニーの統合](using/action/marketo-engage.md)
    + [ソースコネクタの設定](using/start/get-started-sources.md)
    + [別のサンドボックスへのオブジェクトの書き出し](using/configuration/copy-objects-to-sandbox.md)
