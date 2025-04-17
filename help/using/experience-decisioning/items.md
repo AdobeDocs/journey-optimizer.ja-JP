@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 99%
+source-wordcount: '1752'
+ht-degree: 96%
 
 ---
 
@@ -163,6 +163,10 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   >[!IMPORTANT]
   >
-  >削除すると、決定項目とそのコンテンツにアクセスできなくなります。このアクションは取り消せません。決定項目がコレクションまたは決定で使用されている場合は、削除できません。まず、決定項目をオブジェクトから削除する必要があります。
+  >削除すると、決定項目とそのコンテンツにアクセスできなくなります。このアクションは取り消せません。
+
+  承認されたオファー項目は、コレクションまたは決定で使用されている場合、削除できません。 これらを削除するには、ステータスを「ドラフト」に変更します。 これを行うには、「。..」ボタンをクリックし、「**[!UICONTROL 承認を取り消し]**」を選択します。
+
+  ![](assets/item-undo.png)
 
 * **[!UICONTROL アーカイブ]**：決定のステータスを&#x200B;**[!UICONTROL アーカイブ済み]**&#x200B;に設定します。決定項目は引き続きリストから利用できますが、ステータスを&#x200B;**[!UICONTROL ドラフト]**&#x200B;または&#x200B;**[!UICONTROL 承認済み]**&#x200B;に戻すことはできません。複製または削除のみ可能です。
