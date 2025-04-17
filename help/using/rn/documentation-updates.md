@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 83%
 * ジャーニーテストページを更新し、使用するイベントに ID 名前空間を含める必要があることに関するメモを追加しました。 [詳細情報](../building-journeys/testing-the-journey.md)
 * 現在、[!UICONTROL Journey Optimizer] ユーザーインターフェイスを使用してサブドメインのデリゲートを解除することはできません。Adobe担当者にお問い合わせください。 メール、ランディングページ、SMS および web サブドメインの節を更新し、この情報と、Adobeにアクセスする前に実行する手順を追加しました。 [詳細情報](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * 同じエンドポイントに対するスロットル設定と共に使用する方法のガイダンスなど、ジャーニー Capping API のオプションの `maxHttpConnections` パラメーターに関する説明を追加しました。 [詳細情報](../configuration/throttling.md)
+* 「エクスペリエンスの決定」セクションで、承認されたオファー項目がコレクションまたは決定で使用されている場合は削除できないことを説明するガイダンスを追加しました。 「承認を取り消し **[!UICONTROL オプションを使用してステータスを「ドラフト」に変更する手順が含まれまし]**。 [詳細情報](../experience-decisioning/items.md#manage)
 
 ## 2025年3月 {#mar-2025}
 
