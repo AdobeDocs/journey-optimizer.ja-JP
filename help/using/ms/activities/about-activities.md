@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 55%
+source-wordcount: '445'
+ht-degree: 56%
 
 ---
 
@@ -62,6 +62,5 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * [AND 結合 ](and-join.md)：調整されたキャンペーンの複数の実行分岐を同期します。
 * **終了**：オーケストレーションされたキャンペーンの終了を視覚的に示します。 このアクティビティは、機能上の影響はないので、省略可能です。
 * [分岐](fork.md)：アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始します。
-* [ スケジューラー ](scheduler.md)：調整されたキャンペーンが開始するタイミングをスケジュールします。
 * [テスト](test.md)：指定した条件に基づいてトランジションを有効にします。
 * [ 待機 ](wait.md)：オーケストレーションされたキャンペーンの一部の実行を一時的に一時停止します。
