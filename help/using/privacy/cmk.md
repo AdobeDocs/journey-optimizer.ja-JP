@@ -7,7 +7,7 @@ feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: f9e1ae68fcfb9ecc12e0b80a067ca29186fc01f7
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->[!DNL Customer Managed Keys] 機能は、現在、[Healthcare Shield またはプライバシーとセキュリティシールド](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=ja)アドオン製品を購入した組織でのみ利用できます。
+>[!DNL Customer Managed Keys] 機能は、現在、[Healthcare Shield またはプライバシーとセキュリティシールド](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=ja){target="_blank"}アドオン製品を購入した組織でのみ利用できます。
 
-Adobe Journey Optimizer、[Healthcare Shield](https://www.adobe.com/trust/compliance/hipaa-ready.html) およびプライバシーとセキュリティシールドを使用すると、お客様は Azure 顧客管理キー（CMK）を活用してデータに適用できるようになります。
+Adobe Journey Optimizer、[Healthcare Shield](https://www.adobe.com/trust/compliance/hipaa-ready.html){target="_blank"} およびプライバシーとセキュリティシールドを使用すると、お客様は Azure 顧客管理キー（CMK）を活用してデータに適用できるようになります。
 
 Journey Optimizer の設定プロセスには、Adobe Experience Platform と Customer Journey Analytics（CJA）の両方のテクノロジーを活用する、次の 2 つの部分が含まれます。
 
-* [Adobe Experience Platform の顧客管理キー](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ja)ドキュメントに記載されている手順に従います。
-* [Customer Journey Analytics の顧客管理キー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=ja)ドキュメントに記載されている手順に従います。
+* [Adobe Experience Platform の顧客管理キー](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=ja){target="_blank"}ドキュメントに記載されている手順に従います。
+* [Customer Journey Analytics の顧客管理キー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=ja){target="_blank"}ドキュメントに記載されている手順に従います。
 
   Customer Journey Analytics（CJA）の特定のコンポーネントがバックグラウンドで使用されるので、CJA を購入していない場合でも、この設定プロセスを完了する必要があります。
 
-設定プロセスを実行するには、[Adobe Experience Platform の顧客管理キー](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ja)ドキュメントの詳細手順を順を追って参照してください。
+設定プロセスを実行するには、[Adobe Experience Platform の顧客管理キー](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ja){target="_blank"}ドキュメントの詳細手順を順を追って参照してください。
 
 Adobe Experience Platform と顧客管理キーはどちらも、転送中および保存中のデータを暗号化することでデータのセキュリティを確保します。顧客管理キーを使用するかどうかに関係なく、データは引き続き保護されます。
 
-Adobe Experience Platform でのデータ暗号化について詳しくは、データ暗号化に関する[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ja)を参照してください。
+Adobe Experience Platform でのデータ暗号化について詳しくは、データ暗号化に関する[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ja){target="_blank"}を参照してください。
