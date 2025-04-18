@@ -7,7 +7,7 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 17%
@@ -30,7 +30,7 @@ ht-degree: 17%
    * [キャンペーン設定の指定](ms-campaign-settings.md)
    * [アクティビティの概要](activities/about-activities.md)
    * [アクティビティの調整](orchestrate-activities.md)
-* [ メッセージのパーソナライズ ](ms-personalization.md)*
+* [メッセージのパーソナライズ](ms-personalization.md)
 * [クエリの作成](ms-query-modeler.md)
 * [メッセージのテストと検証](ms-proofs.md)
 * [キャンペーンのスケジュール設定と開始](start-monitor-campaigns.md)
