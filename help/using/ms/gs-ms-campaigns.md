@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 18%
+source-wordcount: '535'
+ht-degree: 17%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 18%
    * [キャンペーン設定の指定](ms-campaign-settings.md)
    * [アクティビティの概要](activities/about-activities.md)
    * [アクティビティの調整](orchestrate-activities.md)
-* [パーソナライズ機能](ms-personalization.md)
+* [ メッセージのパーソナライズ ](ms-personalization.md)*
+* [クエリの作成](ms-query-modeler.md)
 * [メッセージのテストと検証](ms-proofs.md)
 * [キャンペーンのスケジュール設定と開始](start-monitor-campaigns.md)
 * アクティビティのリスト :[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [ 紐付け ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md)

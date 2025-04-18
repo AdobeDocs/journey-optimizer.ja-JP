@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2342'
 ht-degree: 90%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 90%
       + [調整されたキャンペーンの作成](using/ms/create-ms-campaign.md)
       + [アクティビティの調整](using/ms/orchestrate-activities.md)
       + [キャンペーン設定の指定](using/ms/ms-campaign-settings.md)
+      + [メッセージのテストと検証](using/ms/ms-proofs.md)
       + [キャンペーンのスケジュール設定と開始](using/ms/start-monitor-campaigns.md)
       + [調整されたキャンペーンレポート](using/ms/reporting-campaigns.md)
       + [パーソナライゼーションの管理](using/ms/ms-personalization.md)
