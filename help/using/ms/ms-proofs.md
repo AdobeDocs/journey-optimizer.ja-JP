@@ -6,8 +6,7 @@ description: Adobe Journey Optimizerで調整されたキャンペーンで、�
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
-exl-id: f148440d-1c45-408f-8c00-080c1700fc91
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: ce5a2a1df964bef5015ba127b4523c52466767ea
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 1%
