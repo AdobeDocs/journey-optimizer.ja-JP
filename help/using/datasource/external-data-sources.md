@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 99%
+source-wordcount: '1626'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,9 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 
 呼び出しにはメイン URL（_https://api.adobeweather.org/weather_）、2 つのパラメーターセット（都市の場合は「city」、緯度と経度の場合は「lat/long」）、および API キー（appid）が含まれます。
 
+>[!TIP]
+>
+>有効期限の不一致と 401 エラーを避けるために、外部 API のトークンの有効期限とJourney Optimizer [`cacheDuration` 設定の間 ](#custom-authentication-access-token) 特にワークロードが多い場合）に少なくとも 1 分のバッファーを残すことをお勧めします。
 
 ## 外部データソースの作成と設定 {#create-ext-data-sources}
 
@@ -60,9 +63,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 
 1. データソースの名前を入力します。
 
-   >[!NOTE]
-   >
-   >英数字とアンダースコアのみが使用できます。最大長は 30 文字です。
+英数字とアンダースコアのみが使用できます。最大長は 30 文字です。
 
 1. データソースに説明を追加します。この手順はオプションです。
 1. 外部サービスの URL を追加します。この例では、次のようになります。_https://api.adobeweather.org/weather_。
