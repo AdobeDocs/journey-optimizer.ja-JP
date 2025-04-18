@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 100%
+source-wordcount: '1374'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,11 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 1. キャッピングルールまたはスロットルルールの適用。処理数の上限に達すると、残りの呼び出しは破棄されるかキューに入れられます。
 
-2. タイムアウトと再試行：キャッピングルールまたはスロットルルールが適用された場合、Journey Optimizer はタイムアウト期間が終了するまで呼び出しを実行しようとします。
+1. タイムアウトと再試行：キャッピングルールまたはスロットルルールが適用された場合、Journey Optimizer はタイムアウト期間が終了するまで呼び出しを実行しようとします。
+
+>[!TIP]
+>
+>有効期限の不一致と 401 エラーを避けるために、外部 API のトークンの有効期限とJourney Optimizer [`cacheDuration` 設定の間 ](../datasource/external-data-sources.md#custom-authentication-access-token) 特にワークロードが多い場合）に少なくとも 1 分のバッファーを残すことをお勧めします。
 
 ## Capping API と Throttling API {#capping}
 
