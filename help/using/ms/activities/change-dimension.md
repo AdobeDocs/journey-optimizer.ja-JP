@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 68%
+source-wordcount: '288'
+ht-degree: 60%
 
 ---
 
@@ -28,11 +28,12 @@ ht-degree: 68%
 
 **ディメンションを変更**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、オーケストレーションされたキャンペーンを作成する際に、ターゲティングディメンションを変更できます。 データテンプレートと入力ディメンションに応じて軸を移動します。
 
-例えば、オーケストレーションされたキャンペーンのターゲティングディメンションを「受信者」から「購読者のアプリケーション」に切り替えて、ターゲットの受信者にプッシュ通知を送信することができます。
+例えば、オーケストレーションされたキャンペーンのターゲティングディメンションを「プロファイル」から「契約」に切り替えて、ターゲットの契約所有者にメッセージを送信できます。
 
+<!--
 >[!IMPORTANT]
 >
->「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 つの行に追加しないでください。両方のアクティビティを連続して使用する必要がある場合は、これらの間に「**[!UICONTROL エンリッチメント]**」アクティビティを含める必要があります。これにより適切な実行が保証され、潜在的な競合やエラーが回避されます。
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## ディメンションを変更アクティビティの設定 {#configure}
 
@@ -40,9 +41,9 @@ ht-degree: 68%
 
 1. **ディメンションを変更** アクティビティをオーケストレーションされたキャンペーンに追加します。
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. **新しいターゲットディメンション**&#x200B;を定義します。ディメンションの変更時に、すべてのレコードが保持されます。その他のオプションはまだ利用できません。
+1. **新しいターゲットディメンション**&#x200B;を定義します。ディメンションの変更時には、すべてのレコードが保持されます。
 
 1. 調整したキャンペーンを実行して、結果を表示します。 ディメンションの変更アクティビティの前後でテーブル内のデータを比較し、調整されたキャンペーンテーブルの構造を比較します。
 
@@ -52,4 +53,4 @@ ht-degree: 68%
 
 次に、「**[!UICONTROL ディメンションを変更]** アクティビティを使用して、オーケストレーションされたキャンペーンのターゲティングディメンションを「受信者」に切り替えます。 これにより、クエリに一致する受信者をターゲットにすることができます。
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
