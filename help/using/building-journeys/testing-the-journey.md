@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 97%
+source-wordcount: '1768'
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 97%
 * パフォーマンスを最適化し、古くなったリソースの使用を防ぐために、1 週間トリガーされていないテストモードのジャーニーはすべて、**ドラフト**&#x200B;ステータスに戻ります。
 * テストモードでトリガーされるイベントは、専用のデータセットに保存されます。これらのデータセットには、次のラベルが付けられます：`JOtestmode - <schema of your event>`
 * 複数のイベントを含むジャーニーをテストする場合は、各イベントを順番にトリガーする必要があります。イベントの送信が早すぎる（最初の待機ノードが終了する前）または遅すぎる（設定されたタイムアウトの後）場合、イベントは破棄され、プロファイルがタイムアウトパスに送信されます。定義したウィンドウ内にペイロードを送信して、イベントペイロードフィールドへの参照が有効なままであることを常に確認します。
-
+* ジャーニーで設定した [ 開始日と終了日/時間 ](journey-properties.md#dates) を選択するウィンドウに、テストモードを開始する際の現在の時間が含まれていることを確認します。 それ以外の場合は、トリガーされたテストイベントはサイレントに破棄されます。
 
 <!--
 * Fields from related entities are hidden from the test mode.
