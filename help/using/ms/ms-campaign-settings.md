@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 20%
 
 ---
 
@@ -104,6 +104,4 @@ ht-degree: 22%
 
 * **[!UICONTROL 連続エラー]**：このフィールドは、「**[!UICONTROL エラーの場合]**」フィールドで「**[!UICONTROL 無視]**」の値が選択されたときに有効になります。プロセスを停止するまでに無視するエラーの数を指定できます。この数に達すると、オーケストレーションされたキャンペーンのステータスが **[!UICONTROL 失敗]** に変わります。 このフィールドの値が 0 の場合、エラーの数にかかわらず、オーケストレーションされたキャンペーンは停止しません。
 
-## 初期化スクリプト {#initialization-script}
 
-**初期化スクリプト**&#x200B;では、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、調整されたキャンペーンの実行時に呼び出されます。 詳しくは、[イベント変数](event-variables.md)に関連する節を参照してください。
