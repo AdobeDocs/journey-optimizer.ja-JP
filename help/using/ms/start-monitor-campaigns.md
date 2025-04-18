@@ -6,10 +6,10 @@ description: Adobe Journey Optimizerで調整されたキャンペーンをス�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 36%
+source-wordcount: '1124'
+ht-degree: 35%
 
 ---
 
@@ -127,9 +127,15 @@ ht-degree: 36%
 
 ## ログとタスクを監視 {#logs-tasks}
 
-ワークフローのログとタスクの監視は、調整されたキャンペーンを分析し、それらが正しく実行されていることを確認するための重要な手順です。 これらには、アクションツールバーと各アクティビティのプロパティパネルにある「**[!UICONTROL ログ]**」アイコンからアクセスできます。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="ログとタスク"
+>abstract="**ログとタスク** 画面には、調整されたキャンペーンの実行履歴が表示され、すべてのユーザーのアクションと発生したエラーが記録されます。"
+
+ログとタスクの監視は、調整されたキャンペーンを分析し、それらが正しく実行されていることを確認するための重要な手順です。 これらには、アクションツールバーと各アクティビティのプロパティパネルにある「**[!UICONTROL ログ]**」アイコンからアクセスできます。
 
 **[!UICONTROL ログとタスク]** メニューには、オーケストレーションされたキャンペーンの実行履歴が表示され、すべてのユーザーのアクションと発生したエラーが記録されます。
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 次の 2 種類の情報を使用できます。
