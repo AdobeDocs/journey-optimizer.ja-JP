@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 97%
+source-wordcount: '649'
+ht-degree: 89%
 
 ---
 
@@ -47,9 +47,13 @@ ht-degree: 97%
 
 ベストプラクティスとして、**待機**&#x200B;アクティビティを使用して、再エントリをブロックすることは避けてください。代わりに、ジャーニープロパティレベルで「**再エントリを許可**」オプションを使用します。詳しくは、[ このページ ](../building-journeys/journey-properties.md#entrance) を参照してください。
 
-### 待機とテストモード {#wait-test-modd}
+### 待機とテストモード {#wait-test-mode}
 
 テストモードでは、**[!UICONTROL テストの待機時間]**&#x200B;パラメーターを使用して、各&#x200B;**待機**&#x200B;アクティビティの持続時間を定義できます。デフォルト時間は 10 秒です。これにより、テスト結果を迅速に取得できます。詳しくは、[ このページ ](../building-journeys/testing-the-journey.md) を参照してください。
+
+### 待機チャネルとモバイルチャネル {#wait-mobile-channels}
+
+[ プッシュ通知 ](../push/get-started-push.md) を送信した直後に [ アプリ内メッセージ ](../in-app/create-in-app.md) を表示する場合は、**待機** アクティビティを使用して、アプリ内メッセージのペイロード時間を反映させます。 通常は 5～15 分の待機をお勧めしますが、正確な時間はペイロードの複雑さやパーソナライゼーションのニーズに応じて異なる場合があります。
 
 ## 設定 {#wait-configuration}
 

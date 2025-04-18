@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 99%
+source-wordcount: '2056'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,10 @@ ht-degree: 99%
 1. アプリ内メッセージの準備が整ったら、設定を完了し、ジャーニーを公開してアクティブ化します。
 
 ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
+
+>[!NOTE]
+>
+>プッシュ通知を送信した直後にアプリ内メッセージを表示する場合は、**待機** アクティビティを使用して、アプリ内メッセージのペイロード時間を反映させます。 通常は 5～15 分の待機をお勧めしますが、正確な時間はペイロードの複雑さやパーソナライゼーションのニーズに応じて異なる場合があります。
 
 >[!TAB キャンペーンへのアプリ内メッセージの追加]
 
