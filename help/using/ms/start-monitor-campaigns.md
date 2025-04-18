@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizerを使用した調整されたキャンペーンの開始と監視
-description: Adobe Journey Optimizerでオーケストレーションされたキャンペーンを開始および監視する方法について説明します。
+title: Adobe Journey Optimizerで調整されたキャンペーンをスケジュールして開始
+description: Adobe Journey Optimizerで調整されたキャンペーンをスケジュールおよび開始する方法について説明します
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
-# 調整されたキャンペーンの開始と監視 {#start-monitor}
+# 調整したキャンペーンをスケジュールして開始 {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -22,7 +22,6 @@ ht-degree: 47%
 >id="ajo_campaign_publication"
 >title="調整されたキャンペーンの公開"
 >abstract="キャンペーンを開始するには、公開する必要があります。公開前に、すべての警告がクリアされていることを確認します。"
-
 
 キャンバスで実行するタスクを調整および設計して作成したら、そのタスクを公開し、実行方法を監視できます。
 

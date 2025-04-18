@@ -6,9 +6,9 @@ description: 調整されたキャンペーンを開始する方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '529'
 ht-degree: 14%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 14%
 
 * 調整されたキャンペーンの基本を学ぶ – [ 主要な原則 ](gs-campaign-creation.md)
 * 設定：[ 調整したキャンペーンの設定 ](gs-campaign-config.md)- [ スキーマの操作 ](ms-schemas.md)- [ イベント変数の操作 ](event-variables.md)
-* 開始：[ オーケストレーションされたキャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定の指定 ](ms-campaign-settings.md) - [ キャンペーンのスケジュールと開始 ](start-monitor-campaigns.md) - [ アクティビティの開始 ](activities/about-activities.md) - [ アクティビティのオーケストレーション ](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* はじめに：[ オーケストレーションされたキャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定の指定 ](ms-campaign-settings.md) - [ アクティビティの基本を学ぶ ](activities/about-activities.md) - [ アクティビティのオーケストレーション ](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * アクティビティのリスト：[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) オーディエンスの保存
+* [キャンペーンのスケジュール設定と開始](start-monitor-campaigns.md)
+* [監視とレポート](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
