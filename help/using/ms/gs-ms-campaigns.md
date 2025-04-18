@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 調整されたキャンペーンの基本を学ぶ
 description: 調整されたキャンペーンを開始する方法を学ぶ
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 18%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **目次**
 
-* 調整されたキャンペーンの基本を学ぶ – [ 主要な原則 ](gs-campaign-creation.md)
-* 設定：[ 調整したキャンペーンの設定 ](gs-campaign-config.md)- [ スキーマの操作 ](ms-schemas.md)- [ イベント変数の操作 ](event-variables.md)
-* はじめに：[ オーケストレーションされたキャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定の指定 ](ms-campaign-settings.md) - [ アクティビティの基本を学ぶ ](activities/about-activities.md) - [ アクティビティのオーケストレーション ](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* アクティビティのリスト：[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) オーディエンスの保存
+* 調整されたキャンペーンの基本を学ぶ
+* 設定
+   * [ オーケストレートキャンペーンの設定 ](gs-campaign-config.md)
+   * [リレーショナルスキーマの作成](ms-schemas.md)
+* 最初のオーケストレーション済みキャンペーンを作成
+   * [主要な原則](gs-campaign-creation.md)
+   * [調整されたキャンペーンの作成](create-ms-campaign.md)
+   * [キャンペーン設定の指定](ms-campaign-settings.md)
+   * [アクティビティの概要](activities/about-activities.md)
+   * [アクティビティの調整](orchestrate-activities.md)
+* [パーソナライズ機能](ms-personalization.md)
+* [メッセージのテストと検証](ms-proofs.md)
 * [キャンペーンのスケジュール設定と開始](start-monitor-campaigns.md)
-* [監視とレポート](reporting-campaigns.md)
+* アクティビティのリスト :[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [ 紐付け ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md)
+* [レポート](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

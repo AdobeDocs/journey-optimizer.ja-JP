@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 調整されたキャンペーンアクティビティの操作
 description: キャンペーンアクティビティを調整する方法を学ぶ
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '453'
 ht-degree: 55%
 
 ---

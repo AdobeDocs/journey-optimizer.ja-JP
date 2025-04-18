@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizerを使用したオーケストレートキャンペーンの監視
-description: Adobe Journey Optimizerを使用して、オーケストレートキャンペーンに関するレポートを監視し、アクセスする方法について説明します
+title: Adobe Journey Optimizerで調整されたキャンペーンのレポート
+description: Adobe Journey Optimizerを使用してオーケストレートキャンペーンに関するレポートにアクセスする方法を説明します
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 0%
+source-wordcount: '24'
+ht-degree: 4%
 
 ---
 
-# 調整されたキャンペーンのレポートと監視 {#report-ms}
+# 調整されたキャンペーンレポート {#report-ms}

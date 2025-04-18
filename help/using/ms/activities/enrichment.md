@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: エンリッチメントアクティビティの使用
 description: エンリッチメントアクティビティの使用方法について説明します
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2050'
 ht-degree: 83%
 
 ---

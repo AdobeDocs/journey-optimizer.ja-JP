@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizerでオーケストレートキャンペーンを作成
 description: Adobe Journey Optimizerでオーケストレーションされたキャンペーンを作成する方法を学ぶ
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 13%
+source-wordcount: '707'
+ht-degree: 14%
 
 ---
 

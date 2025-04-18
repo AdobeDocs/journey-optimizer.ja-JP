@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2337'
 ht-degree: 90%
 
 ---
@@ -174,12 +174,11 @@ ht-degree: 90%
          + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
-   + [主な原則](using/ms/gs-campaign-creation.md)
    + 設定 {#ms-config}
       + [設定の手順](using/ms/gs-campaign-config.md)
       + [リレーショナルスキーマの作成](using/ms/ms-schemas.md)
-      + [イベント変数の操作](using/ms/event-variables.md)
    + 最初のオーケストレーション済みキャンペーンを作成 {#create-ms-campaign}
+      + [主な原則](using/ms/gs-campaign-creation.md)
       + [調整されたキャンペーンの作成](using/ms/create-ms-campaign.md)
       + [アクティビティの調整](using/ms/orchestrate-activities.md)
       + [キャンペーン設定の指定](using/ms/ms-campaign-settings.md)
@@ -199,7 +198,6 @@ ht-degree: 90%
       + [ファイルを読み込み](using/ms/activities/load-file.md)
       + [紐付け](using/ms/activities/reconciliation.md)
       + [オーディエンスを保存](using/ms/activities/save-audience.md)
-      + [スケジューラー](using/ms/activities/scheduler.md)
       + [分割](using/ms/activities/split.md)
       + [テスト](using/ms/activities/test.md)
       + [データを更新](using/ms/activities/update-data.md)

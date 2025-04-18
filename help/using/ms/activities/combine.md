@@ -3,11 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 結合アクティビティの使用
 description: 結合アクティビティの使用方法について説明します
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1045'
 ht-degree: 100%
 
 ---

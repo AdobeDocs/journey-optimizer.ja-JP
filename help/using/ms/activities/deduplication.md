@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 重複排除 - 重複アクティビティの使用
 description: 重複排除 - 重複アクティビティの使用方法について説明します
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 98%
 
 ---

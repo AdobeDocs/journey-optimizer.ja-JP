@@ -1,14 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Use the Load file activity
-description: Learn how to use the Load file activity in an orchestrated campaign
+title: ファイルを読み込みアクティビティの使用
+description: 調整されたキャンペーンで「ファイルを読み込み」アクティビティを使用する方法を学ぶ
+badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1179'
 ht-degree: 88%
 
 ---
@@ -63,7 +64,7 @@ ht-degree: 88%
 
 目的のファイル構造の定義に使用するサンプルファイルを設定するには、次の手順に従います。
 
-1. Add a **Load file** activity into your orchestrated campaign.
+1. **ファイルを読み込み** アクティビティを調整したキャンペーンに追加します。
 
 1. 目的のファイル構造を定義するために使用するサンプルファイルを選択します。これを行うには、「**[!UICONTROL サンプルファイル]**」セクションの「**ファイルを選択**」ボタンをクリックし、使用するローカルファイルを選択します。
 
@@ -83,7 +84,7 @@ ht-degree: 88%
    * **[!UICONTROL データ変換]**（文字列データタイプ）：列に含まれる値に変換を適用します。
    * **[!UICONTROL スペースの管理]**（文字列データタイプ）：列に含まれるスペースの管理方法を指定します。
    * **[!UICONTROL 区切り記号]**（日付、時刻、整数、数値のデータタイプ）*：区切り記号として使用する文字を指定します。
-   * **[!UICONTROL Allow NULLs]**: Specify how to manage empty values in the column.
+   * **[!UICONTROL NULL を許可]**：列の空の値の管理方法を指定します。
    * **[!UICONTROL エラー処理]**（文字列データタイプ）：いずれかの行にエラーが発生した場合の動作を指定します。
    * **[!UICONTROL 値の再マッピング]**：このオプションを使用すると、特定の値を新しい値にマッピングできます。例えば、列に「True」／「False」値が含まれる場合、値を「0」/「1」文字に自動的に置き換えるマッピングを追加できます。
 
@@ -115,7 +116,7 @@ ht-degree: 88%
 
 >[!CAUTION]
 >
->ターゲットファイルを読み込む前に、サンプルファイルの書式設定に従っていることを確認します。Any discrepancies in the file format, column structure, or number of columns may lead to errors during orchestrated campaign execution.
+>ターゲットファイルを読み込む前に、サンプルファイルの書式設定に従っていることを確認します。ファイル形式、列の構造、列の数に不一致があると、調整されたキャンペーンの実行中にエラーが発生する場合があります。
 
 アップロードするターゲットファイルを定義するには、次の手順に従います。
 
@@ -150,13 +151,13 @@ ht-degree: 88%
 
 1. 「**却下管理**」セクションで、エラーが発生した場合のアクティビティの動作を指定します。
 
-   * 「**[!UICONTROL 許容されるエラー数]**」フィールドに、読み込むファイルの処理時に許可されるエラーの最大数を指定します。For example, if the value is set to &quot;20&quot;, the orchestrated campaign execution will fail if there are more than 20 errors when loading the file.
+   * 「**[!UICONTROL 許容されるエラー数]**」フィールドに、読み込むファイルの処理時に許可されるエラーの最大数を指定します。例えば、値が「20」に設定されている場合、ファイルの読み込み時にエラーが 20 を超えると、オーケストレーションされたキャンペーンの実行は失敗します。
 
    * ファイルの読み込み時に発生したエラーを保持するには、「**[!UICONTROL ファイルに却下を保持]**」オプションをオンに切り替え、「**[!UICONTROL 却下ファイル]**」フィールドにファイルの目的の名前を指定します。
 
      このオプションをアクティブにすると、「補集合」という名前の追加の出力トランジションがアクティビティの後に追加されます。インポート中に発生するエラーは、サーバー上の指定したファイルに保存されます。
 
-1. To delete the uploaded file from the server after the orchestrated campaign has been executed, toggle the **[!UICONTROL Delete file after import]** option.
+1. オーケストレートキャンペーンの実行後に、アップロードしたファイルをサーバーから削除するには、「インポート後にファイルを削除 **[!UICONTROL オプションを切り替え]** す。
 
    ![](../assets/workflow-load-file-options.png)
 
