@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2339'
 ht-degree: 91%
 
 ---
@@ -172,10 +172,12 @@ ht-degree: 91%
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
          + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
-+ 調整されたキャンペーン {#ms-campaigns}
++ 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
+   + [設定の手順](using/ms/gs-campaign-config.md)
    + [主な原則](using/ms/gs-campaign-creation.md)
    + 設定 {#ms-config}
+      + [設定の手順](using/ms/gs-campaign-config.md)
       + [スキーマ](using/ms/ms-schemas.md)
       + [イベント変数の操作](using/ms/event-variables.md)
    + 最初のオーケストレーション済みキャンペーンを作成 {#create-ms-campaign}

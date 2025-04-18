@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Work with schemas in orchestrated campaigns
-description: Learn how to create and manage schemas in your orchestrated campaigns
+title: 調整されたキャンペーンでのスキーマの操作
+description: 調整されたキャンペーンでスキーマを作成および管理する方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 5%
@@ -15,6 +15,8 @@ ht-degree: 5%
 
 # スキーマの操作 {#ms-schemas}
 
-Explain core principles of TYPE II relational store from data schema modeling to data ingestion highlighting the interplay between UPS and relational model
-Show path to create relational schemas
-Show path to ingest data in relational schemas
+UPS とリレーショナルモデルの相互作用を強調表示した、データスキーマモデリングからデータ取り込みまで、タイプ II リレーショナルストアの中心原則について説明します
+
+リレーショナルスキーマを作成するためのパスを表示
+
+リレーショナルスキーマにデータを取り込むパスを表示

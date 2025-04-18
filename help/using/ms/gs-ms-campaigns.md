@@ -6,10 +6,10 @@ description: 調整されたキャンペーンを開始する方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 18%
 **目次**
 
 * 調整されたキャンペーンの基本を学ぶ – [ 主要な原則 ](gs-campaign-creation.md)
-* 設定：[ スキーマの操作 ](ms-schemas.md) - [ イベント変数の操作 ](event-variables.md)
-* 開始：[ オーケストレーションされたキャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定の指定 ](ms-campaign-settings.md) - [ キャンペーンの開始と監視 ](start-monitor-campaigns.md) - [ アクティビティの開始 ](activities/about-activities.md) - [ アクティビティのオーケストレーション ](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* 設定：[ 調整したキャンペーンの設定 ](gs-campaign-config.md)- [ スキーマの操作 ](ms-schemas.md)- [ イベント変数の操作 ](event-variables.md)
+* 開始：[ オーケストレーションされたキャンペーンの作成 ](create-ms-campaign.md) - [ キャンペーン設定の指定 ](ms-campaign-settings.md) - [ キャンペーンのスケジュールと開始 ](start-monitor-campaigns.md) - [ アクティビティの開始 ](activities/about-activities.md) - [ アクティビティのオーケストレーション ](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * アクティビティのリスト：[And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ ファイルを読み込み ](activities/load-file.md) - [ 紐付け ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) オーディエンスの保存
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ ht-degree: 18%
 
 ## ジャーニーオーケストレーションとキャンペーンオーケストレーション
 
-ジャーニーとキャンペーン – 違い、ユースケース、ベストプラクティスについて説明します
+Campaign オーケストレーションは、ブランドコミュニケーションを大規模に設計、送信、追跡するための主要なモジュールです。 プロファイルエンティティとプロファイル以外のエンティティを組み合わせることで、既存のデータセグメントを活用して効果的なパーソナライゼーションを行い、ターゲットオーディエンスに対するマーケティングメッセージの自動配信を可能にします。 キャンペーン主導のアウトリーチに最適な Campaign オーケストレーションは、多くの場合、事前にスケジュールされた、一貫性のある効率的なメッセージ配信を確保して、顧客エンゲージメントを促進し、主要なマーケティング目標をサポートします。
 
+Campaign Orchestration は、Adobe Journey Optimizerにマルチエンティティを有効化することでオーディエンスのセグメント化を再定義し、特定のステータス、イベント、契約、予約などに基づいてターゲットメッセージングを容易にします。 プロファイル以外のエンティティにコミュニケーションを送信したり、任意のエンティティに対してクエリを作成したりできるので、全体像を把握し、幅広いインサイトを取得してオーディエンスを構築できます。
+
+データに基づく意思決定を可能にする Campaign オーケストレーションでは、動的にエンリッチメントされたデータセットに対して複数のソースを活用します。
 
 
 ## さらに深く掘り下げましょう
@@ -55,7 +58,7 @@ ht-degree: 18%
 <img alt="ワークフローへのアクセスと管理" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong> 主な原則 </strong></a>
+<a href="gs-campaign-creation.md"><strong>設定の手順</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ ht-degree: 18%
 <a href="create-ms-campaign.md">
 <img alt="リード" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong> 複数ステップのキャンペーンの作成 </strong>
+<div><a href="create-ms-campaign.md"><strong> オーケストレーションされたキャンペーンの作成 </strong>
 </div>
 <p>
 </td>
