@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 54%
+source-wordcount: '401'
+ht-degree: 51%
 
 ---
 
@@ -38,12 +38,6 @@ ht-degree: 54%
 * [ 紐付け ](reconciliation.md):Journey Optimizer データのデータと作業用テーブル内のデータの間のリンクを定義します（外部ファイルから読み込まれたデータなど）。
 * [ オーディエンスを保存 ](save-audience.md)：既存のオーディエンスを更新するか、オーケストレーションされたキャンペーンのアップストリームで計算された母集団から新しいオーディエンスを作成します。
 * [分割](split.md)：入力母集団を複数のサブセットにセグメント化します。
-
-## データ管理アクティビティ {#data}
-
-これらのアクティビティは、母集団データの操作およびエンリッチメントに固有です。
-
-* [ファイルを読み込み](load-file.md)：外部ファイルに保存されたプロファイルとデータを操作します。
 
 ## チャネルアクティビティ {#channel}
 

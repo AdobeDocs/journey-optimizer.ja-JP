@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 75%
+source-wordcount: '560'
+ht-degree: 76%
 
 ---
 
@@ -93,33 +93,3 @@ ht-degree: 75%
 1. 「**フィルターを作成**」ボタンを使用して、データをフィルタリングして紐付けできます。これにより、クエリモデラーを使用してカスタム条件を作成できます。
 
 デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。
-
-## 例 {#reconciliation-example}
-
-次の例は、新しいクライアントを含むインポートされたファイルからプロファイルのオーディエンスを直接作成する、オーケストレーションされたキャンペーンを示しています。 このワークフローは、次のアクティビティで構成されています。
-
-調整されたキャンペーンは次のように設計されます。
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-これは、次のアクティビティを使用して作成されます。
-
-* 「[ファイル読み込み](load-file.md)」アクティビティは、外部ツールから抽出されたプロファイルデータが含まれるファイルをアップロードします。
-
-  例：
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* 「**紐付け**」アクティビティ：紐付け条件として「**メール**」フィールドと「**生年月日**」フィールドを使用して、受信データをプロファイルとして識別します。
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* 「[オーディエンスを保存](save-audience.md)」アクティビティ：これらの更新に基づいて新しいオーディエンスを作成します。また、特定のオーディエンスを作成または更新する必要がない場合は、「**オーディエンスを保存**」アクティビティを「**終了**」アクティビティに置き換えることもできます。受信者プロファイルは、調整されたキャンペーンを実行すると、どのような場合でも更新されます。
