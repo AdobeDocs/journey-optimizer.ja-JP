@@ -7,7 +7,7 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 51%
@@ -24,13 +24,13 @@ ht-degree: 51%
 * [チャネルアクティビティ](#channel)
 * [フロー制御アクティビティ](#flow-control)
 
-![ キャンバスで使用可能なアクティビティのリスト ](../assets/workflow-activities.png){width="70%" align="left"}
+![ キャンバスで使用可能なアクティビティのリスト ](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## ターゲティングアクティビティ {#targeting}
 
 これらのアクティビティは、ターゲティングに固有です。オーディエンスを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 
-![ ターゲティングアクティビティのリスト ](../assets/targeting-activities.png){width="50%" align="left"}
+![ ターゲティングアクティビティのリスト ](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [オーディエンスを作成](build-audience.md)：ターゲット母集団を定義します。既存のオーディエンスを選択するか、クエリモデラーを使用して独自のクエリを定義できます。
 * [ ディメンションの変更 ](change-dimension.md)：調整されたキャンペーンを作成する際に、ターゲティングディメンションを変更します。
@@ -51,7 +51,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 >title="終了アクティビティ"
 >abstract="**終了** アクティビティを使用すると、オーケストレーションされたキャンペーンの終了を視覚的に示すことができます。 このアクティビティは、機能上の影響はないので、省略可能です。"
 
-![ フロー制御アクティビティのリスト ](../assets/flow-control-activities.png){width="50%" align="left"}
+![ フロー制御アクティビティのリスト ](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 次のアクティビティは、オーケストレーションされたキャンペーンの整理と実行に固有です。 主なタスクは、他のアクティビティの調整です。
