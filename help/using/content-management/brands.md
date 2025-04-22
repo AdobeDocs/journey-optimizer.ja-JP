@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 92%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 99%
 
    ![](assets/brands-4.png)
 
-1. 設定が完了したら、「**[!UICONTROL 保存]**」、「**[!UICONTROL 公開]**」の順にクリックして、ブランドガイドラインを AI アシスタントで使用できるようにします。
+1. 設定が完了したら、**[!UICONTROL 保存]**/**[!UICONTROL 公開]** をクリックして、ブランドガイドラインを AI アシスタントで使用できるようにします。
 
 1. 公開したブランドの変更を行うには、「**[!UICONTROL ブランドを編集]**」をクリックします。
 
@@ -152,6 +152,6 @@ ht-degree: 99%
 
    ![](assets/brands-6.png)
 
-これで、AI アシスタントメニューの&#x200B;**[!UICONTROL ブランド]**&#x200B;ドロップダウンからブランドガイドラインにアクセスできるようになり、仕様に合わせたコンテンツとアセットを生成できます。[AI アシスタントの詳細情報 ](gs-generative.md)
+ブランドガイドラインに AI アシスタント メニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになり、仕様に合ったコンテンツやアセットを生成できるようになりました。 [AI アシスタントの詳細 ](gs-generative.md)
 
 ![](assets/brands-7.png)

@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 89%
+source-wordcount: '674'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +40,7 @@ ht-degree: 89%
 <p>ルールセットを使用して、ビジネスルールを作成できるようになりました。ルールセットは、チャネルをまたいでキャンペーンやジャーニーアクション内で送信されるメッセージを制限し、ジャーニーへのプロファイルエントリを制御するのに役立つルールのグループです。<p>
 <p><ul><li>チャネルルールセットを作成して、1 つまたは複数のチャネルをまたいで送信されるメッセージの数を制限します。これらをキャンペーンまたはジャーニーアクションに適用して、ルールセットで定義されたルールを適用します。チャネルルールセットを使用すると、通信タイプに基づいてキャッピングルールを適用できます。例えば、「プロモーションメッセージ」を制限するルールセットと、「ニュースレター」を制限するルールセットを設定します。送信する通信のタイプに応じて、キャンペーンまたはジャーニーアクションに適切なルールセットを適用します。</li>
 <li> ジャーニールールセットを作成して、ジャーニーへのプロファイルエントリを制御します。プロファイルが特定の期間内にジャーニーにエントリできる頻度や、プロファイルが同時に登録できるジャーニーの数を制限します。これらをジャーニーレベルで適用して、適切なエントリ管理を確保します。</li></ul></p>
-<p>以前は一連の組織（LA）で使用できましたが、現在はすべてのユーザー（GA）がビジネス・ルールを使用できます。 ジャーニードメインのビジネスルールは、引き続き一部の組織（LA）でのみ使用できます。</p>
+<p>以前は一連の組織（LA）に対して提供されていましたが、ビジネスルールはすべてのユーザー（GA）に対して提供されるようになりました。ジャーニードメインのビジネスルールは、引き続き一部の組織（LA）でのみ使用できます。</p>
 <p>詳しくは、<a href="../configuration/rule-sets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -49,13 +50,13 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントを使用したランディングページの生成</strong><br/></th>
+<th><strong>AI アシスタントでランディングページを生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI アシスタントを使用して、完全なページデザイン、パーソナライズされたテキスト、カスタマイズされたビジュアルなど、ランディングページ用の魅力的なコンテンツを作成できるようになりました。</p>
+<p>AI アシスタントを使用して、完全なページデザイン、パーソナライズされたテキスト、カスタマイズされたビジュアルなど、ランディングページに魅力的なコンテンツを作成できるようになりました。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>詳しくは、<a href="../content-management/generative-lp.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -67,7 +68,7 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントを使用したブランド（ベータ版）</strong><br/></th>
+<th><strong>AI アシスタントを使用したブランド（Beta）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,7 +91,7 @@ ht-degree: 89%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerから直接、実際の API 呼び出しを行うことで、カスタムアクション設定を検証できるようになりました。 この新しい機能は、ジャーニーで使用する前または後にカスタムアクションをトラブルシューティングするのに役立ちます。 </p>
+<p>Adobe Journey Optimizer から直接実際の API 呼び出しを行って、カスタムアクション設定を検証できるようになりました。この新しい機能は、ジャーニーでカスタムアクションを使用する前または使用した後に、カスタムアクションのトラブルシューティングを行うのに役立ちます。 </p>
 <p>詳しくは、<a href="../action/troubleshoot-custom-action.md">詳細なドキュメント</a>を参照してください。</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -149,4 +150,3 @@ ht-degree: 89%
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 * **決定**（公開日：2025年1月28日（PT））- 決定では、項目カタログのスキーマを編集する際に、オブジェクトデータタイプがサポートされるようになりました。[詳細情報](../experience-decisioning/catalogs.md)
-

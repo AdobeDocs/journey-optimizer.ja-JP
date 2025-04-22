@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Journey Optimizer] のGenStudio統合は、現在、**Healthcare Shield** または **Privacy and Security Shield** アドオン機能では使用できません。
+>[!DNL Adobe Journey Optimizer] での GenStudio 統合は、現在、**Healthcare Shield** または&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン製品では使用できません。
 >
 >この機能は、メールチャネルでのみ使用できます。
 
@@ -50,7 +50,7 @@ ht-degree: 9%
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
-See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for the AI Assistant can apply.
+See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 

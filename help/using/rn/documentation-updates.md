@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 77%
+source-wordcount: '1249'
+ht-degree: 75%
 
 ---
 
@@ -103,8 +103,8 @@ ht-degree: 77%
 * [!DNL Journey Optimizer] の 9月24日（PT）リリースに含まれているすべての新機能と機能強化について、ドキュメントで詳しく説明しています。[詳細情報](release-notes.md)
 * ジャーニーの再エントリ管理に関する節を追加しました。[詳細情報](../building-journeys/read-audience.md#read-audience-retry)
 * カスタムアクションのキャッピング／スロットルルールに関する FAQ が更新され、デフォルトのキャッピングルールに言及するようになりました。[詳細情報](../configuration/external-systems.md#faq)
-* 「制御アクセス」の節が更新されて、AI アシスタントコンテンツジェネレーターに関連する権限が追加されました。[詳細情報](../administration/high-low-permissions.md#ai-permission)
-* メール生成用の AI アシスタントコンテンツジェネレーターに関するビデオが追加されました。[詳細情報](../content-management/generative-email.md#video)
+* 「制御アクセス」の節が更新されて、AI Assistant Content Generator に関連する権限が追加されました。 [詳細情報](../administration/high-low-permissions.md#ai-permission)
+* メール生成用 AI Assistant コンテンツジェネレーターの動画を追加しました。 [詳細情報](../content-management/generative-email.md#video)
 
 <!--
 
