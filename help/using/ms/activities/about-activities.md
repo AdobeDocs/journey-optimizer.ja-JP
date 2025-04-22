@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 56%
+source-wordcount: '426'
+ht-degree: 54%
 
 ---
 
@@ -44,7 +44,6 @@ ht-degree: 56%
 これらのアクティビティは、母集団データの操作およびエンリッチメントに固有です。
 
 * [ファイルを読み込み](load-file.md)：外部ファイルに保存されたプロファイルとデータを操作します。
-* [データを更新](update-data.md)：データベースのフィールドに対して一括更新を実行します。データ更新は、いくつかのオプションを使用してパーソナライズすることができます。
 
 ## チャネルアクティビティ {#channel}
 

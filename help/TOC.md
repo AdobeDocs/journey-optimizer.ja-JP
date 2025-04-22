@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2342'
 ht-degree: 90%
 
 ---
@@ -202,7 +202,6 @@ ht-degree: 90%
       + [オーディエンスを保存](using/ms/activities/save-audience.md)
       + [分割](using/ms/activities/split.md)
       + [テスト](using/ms/activities/test.md)
-      + [データを更新](using/ms/activities/update-data.md)
       + [待機](using/ms/activities/wait.md)
 + キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
