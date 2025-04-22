@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1783'
 ht-degree: 93%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="ジャーニー実行とオーディエンスエクスポートの同期"
->abstract="オーディエンスの新しい書き出しが使用可能になったら、このオプションをオンにしてジャーニーをトリガーにします。"
+>title="バッチオーディエンス評価後のトリガー"
+>abstract="バッチオーディエンスを新たに評価した後にジャーニーをトリガーするには、このオプションをオンに切り替えます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="ジャーニー実行とオーディエンスエクスポートの同期"
->abstract="オーディエンスの新しい書き出しが使用可能であることを確認するために、ジャーニーが待機する期間を指定します。"
+>title="新しいオーディエンス評価の待機時間"
+>abstract="バッチオーディエンスが新たに評価されるまでジャーニーが待機する時間を指定します。"
 
 **オーディエンスを読み取り**&#x200B;アクティビティを使用すると、オーディエンスのすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回限りと定期的のいずれも可能です。
 
