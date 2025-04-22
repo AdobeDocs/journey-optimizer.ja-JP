@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
+source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 51%
+source-wordcount: '389'
+ht-degree: 50%
 
 ---
 
@@ -53,11 +53,12 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 ![ フロー制御アクティビティのリスト ](../assets/flow-control-activities.png){width="30%" align="left"}
 
-
 次のアクティビティは、オーケストレーションされたキャンペーンの整理と実行に固有です。 主なタスクは、他のアクティビティの調整です。
 
 * [AND 結合 ](and-join.md)：調整されたキャンペーンの複数の実行分岐を同期します。
-* **終了**：オーケストレーションされたキャンペーンの終了を視覚的に示します。 このアクティビティは、機能上の影響はないので、省略可能です。
 * [分岐](fork.md)：アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始します。
-* [テスト](test.md)：指定した条件に基づいてトランジションを有効にします。
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [ 待機 ](wait.md)：オーケストレーションされたキャンペーンの一部の実行を一時的に一時停止します。
+
+>[!NOTE]
+>**終了** アクティビティは、調整されたキャンペーンの終了を視覚的に示します。 このアクティビティは、機能上の影響はないので、省略可能です。
