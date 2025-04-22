@@ -7,9 +7,9 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 408e2264056c52c1d73bcd412e7a73f25812c224
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '529'
 ht-degree: 18%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 18%
 * [クエリの作成](ms-query-modeler.md)
 * [メッセージのテストと検証](ms-proofs.md)
 * [キャンペーンのスケジュール設定と開始](start-monitor-campaigns.md)
-* アクティビティのリスト : [And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ オーディエンスを保存 ](activities/save-audience.md) - [ オーディエンスを変更 ](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) -
+* アクティビティのリスト : [And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) -
 * [レポート](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
