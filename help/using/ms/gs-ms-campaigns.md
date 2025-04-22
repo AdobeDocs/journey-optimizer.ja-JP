@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 18%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -20,22 +20,19 @@ ht-degree: 18%
 
 **目次**
 
-* 調整されたキャンペーンの基本を学ぶ
-* 設定
-   * [ オーケストレートキャンペーンの設定 ](gs-campaign-config.md)
-   * [リレーショナルスキーマの作成](ms-schemas.md)
-* 最初のオーケストレーション済みキャンペーンを作成
-   * [主要な原則](gs-campaign-creation.md)
-   * [調整されたキャンペーンの作成](create-ms-campaign.md)
-   * [キャンペーン設定の指定](ms-campaign-settings.md)
-   * [アクティビティの概要](activities/about-activities.md)
-   * [アクティビティの調整](orchestrate-activities.md)
+* 設定：[ オーケストレーションされたキャンペーンを設定 ](gs-campaign-config.md)
+* 設定：[ リレーショナルスキーマの作成 ](ms-schemas.md)
+* 最初のオーケストレーション済みキャンペーンを作成：[ 主要な原則 ](gs-campaign-creation.md)
+* [調整されたキャンペーンの作成](create-ms-campaign.md)
+* [キャンペーン設定の指定](ms-campaign-settings.md)
 * [メッセージのパーソナライズ](ms-personalization.md)
 * [クエリの作成](ms-query-modeler.md)
 * [メッセージのテストと検証](ms-proofs.md)
 * [キャンペーンのスケジュール設定と開始](start-monitor-campaigns.md)
-* アクティビティのリスト : [And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) -
-* [レポート](reporting-campaigns.md)
+* アクティビティ：[ アクティビティの概要 ](activities/about-activities.md)
+* [アクティビティの調整](orchestrate-activities.md)
+* [And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) - &lt;!—[Test](activities/test.md) —> [Wait](activities/wait.md)
+* 監視：[ レポート ](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
