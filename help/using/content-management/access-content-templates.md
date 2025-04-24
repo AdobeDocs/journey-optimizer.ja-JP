@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 98%
+source-wordcount: '647'
+ht-degree: 94%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 98%
 また、自分が作成または変更した項目のみを表示するように選択することもできます。
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>2025 年 3 月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。 [!DNL Journey Optimizer] で以前に作成した既存のHTML コンテンツテンプレートに引き続きアクセスできます。
 
 ## フォルダーを使用したコンテンツテンプレートの管理 {#folders}
 

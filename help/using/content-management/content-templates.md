@@ -8,15 +8,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 90%
 
 ---
 
 
 # コンテンツテンプレートの基本を学ぶ {#content-templates}
+
+>[!NOTE]
+>
+>2025 年 3 月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。 [!DNL Journey Optimizer] で以前に作成した既存のHTML コンテンツテンプレートを引き続き使用できます。
 
 高速で改善された設計プロセスを実現するために、スタンドアロンテンプレートを作成して、[!DNL Journey Optimizer] キャンペーンやジャーニー全体でカスタムコンテンツを簡単に再利用できます。
 

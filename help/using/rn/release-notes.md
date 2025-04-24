@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 08b9c2daa61a13de2d0f1ce6174c80a16459b8b1
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 69%
+source-wordcount: '894'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >title="新着情報"
 >abstract="**Adobe Journey Optimizer** は、新機能、既存機能の強化およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。"
 
-[!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"} を参照してください。
 
 ## 2025年4月の更新
 
@@ -243,6 +243,11 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 ルールセットでの毎日のフリークエンシーキャップは、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 ビジネスルールについて詳しくは、[詳細なドキュメント](../configuration/rule-sets.md)を参照してください。
+
+**コンテンツテンプレート**
+
+HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。 なお、[!DNL Journey Optimizer] で以前に作成した既存のHTML コンテンツテンプレートは、引き続き使用できます。 [ 詳しくは、コンテンツテンプレートを参照してください ](../content-management/content-templates.md)
+
 
 <!--**Deliverability**
 

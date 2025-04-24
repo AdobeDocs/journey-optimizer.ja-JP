@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 98%
+source-wordcount: '633'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 コンテンツテンプレートを作成する方法は 2 つあります。
 
-* 左パネルの「**[!UICONTROL コンテンツテンプレート]**」メニューを使用して、ゼロからコンテンツテンプレートを作成する。[方法についてはこちらを参照](#create-template-from-scratch)
+* 左側のパネルの&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューを使用して、コンテンツテンプレートをゼロから作成します。[方法について詳しくは、こちらを参照してください](#create-template-from-scratch)
 
 * キャンペーンまたはジャーニー内でコンテンツをデザインする際に、テンプレートとして保存する。[方法についてはこちらを参照](#save-as-template)
 
@@ -37,6 +37,10 @@ ht-degree: 98%
 >* 同様に、キャンペーンやジャーニーでテンプレートを使用する場合、キャンペーンやジャーニーのコンテンツにを編集しても、以前に使用したコンテンツテンプレートには影響しません。
 
 ## テンプレートをゼロから作成 {#create-template-from-scratch}
+
+>[!NOTE]
+>
+>2025 年 3 月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。 [!DNL Journey Optimizer] で以前に作成した既存のHTML コンテンツテンプレートを引き続き使用できます。
 
 コンテンツテンプレートをゼロから作成するには、次の手順に従います。
 
@@ -51,14 +55,6 @@ ht-degree: 98%
    >[!NOTE]
    >
    >現在、web を除くすべてのチャネルを使用できます。
-
-1. 選択したチャネルの&#x200B;**[!UICONTROL タイプ]**&#x200B;を選択します。
-
-   ![](assets/content-template-type.png)
-
-   * **[!UICONTROL メール]**&#x200B;の場合、「**[!UICONTROL コンテンツ]**」を選択すると、[件名](../email/create-email.md#define-email-content)をテンプレートの一部として定義できます。「**[!UICONTROL HTML]**」を選択すると、メール本文のコンテンツのみを定義できます。
-
-   * **[!UICONTROL SMS]**、**[!UICONTROL プッシュ]**、**[!UICONTROL アプリ内]**&#x200B;および&#x200B;**[!UICONTROL ダイレクトメール]**&#x200B;の場合、現在のチャネルに使用できるのはデフォルトのタイプのみですが、選択は行う必要があります。
 
 1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してテンプレートを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ ht-degree: 98%
    * [ダイレクトメールコンテンツの定義](../direct-mail/create-direct-mail.md)
    * [アプリ内コンテンツの定義](../in-app/design-in-app.md)
 
-1. **[!UICONTROL HTML]** タイプで&#x200B;**[!UICONTROL メール]**&#x200B;テンプレートを作成している場合は、コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
+1. コンテンツをテストできます。 [方法についてはこちらを参照](#test-template)
 
 1. テンプレートの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -110,7 +106,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >現在のチャネルとタイプは自動的に入力され、編集できません。[メールデザイナー](../email/get-started-email-design.md)から作成したメールテンプレートの場合、**[!UICONTROL HTML]** タイプが自動的に選択されます。
+   >現在のチャネルは自動的に入力されており、編集できません。
 
 1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成して、テンプレートを分類します。[詳細情報](../start/search-filter-categorize.md#tags)
 
