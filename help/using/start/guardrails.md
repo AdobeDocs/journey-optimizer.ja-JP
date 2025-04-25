@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2471'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
 
-使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧について詳しくは、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
-また、開始する前に、[ リアルタイム顧客プロファイルデータのガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} を認識しておく必要があります。
+また、開始する前に、[リアルタイム顧客プロファイルデータのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}も認識しておく必要があります。
 
 ## サポートされているブラウザー {#browsers}
 
@@ -34,7 +34,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * プロファイルストアのデータの場合は 90 日
 * データレイクのデータの場合は 13 か月
 
-この変更は、後続のフェーズで&#x200B;**既存顧客のサンドボックス**&#x200B;にロールアウトされます。[ データセットの Time-To-Live （TTL）ガードレールの詳細情報 ](../data/datasets-ttl.md)
+この変更は、後続のフェーズで&#x200B;**既存顧客のサンドボックス**&#x200B;にロールアウトされます。[詳しくは、データセットの有効期間（TTL）ガードレールを参照してください](../data/datasets-ttl.md)
 
 ## チャネルガードレール {#channel-guardrails}
 
@@ -62,11 +62,11 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 [!DNL Journey Optimizer] [web キャンペーン](../web/get-started-web.md)は、以前の他のチャネルで関与したことのない新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
-各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
+各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
 
 ### コードベースチャネルガードレール {#code-based-guardrails}
 
-[!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[ このページ ](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
+[!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
 
 ## ランディングページガードレール {#lp-guardrails}
 
@@ -83,7 +83,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
 
-ドメインデリゲーションについて詳しくは、[ このページ ](../configuration/delegate-subdomain.md) を参照してください。
+ドメインのデリゲーションについて詳しくは、[このページ](../configuration/delegate-subdomain.md)を参照してください。
 
 ## フラグメントガードレール {#fragments-guardrails}
 
@@ -96,7 +96,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 特定のサンドボックス内で最大 10 個のオーディエンス構成を公開できます。このしきい値に達した場合、新しい構成を公開するためには、構成を削除してスペースを解放する必要があります。
 
-オーディエンスコンポジションについて詳しくは、[ このページ ](../audience/get-started-audience-orchestration.md) を参照してください。
+オーディエンス構成について詳しくは、[このページ](../audience/get-started-audience-orchestration.md)を参照してください。
 
 ## 決定と意思決定管理ガードレール {#decisioning-guardrails}
 
@@ -122,7 +122,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 次のガードレールがジャーニーの[アクション](../building-journeys/about-journey-activities.md)に適用されます。
 
 * エラーが発生した場合は、手順に従って 3 回再試行されます。受け取ったエラーメッセージに応じて、再試行回数を調整することはできません。再試行は、HTTP 401、403 および 404 を除くすべての HTTP エラーに対して実行されます。
-* 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに対応できます。詳しくは、[ このページ ](../building-journeys/reaction-events.md) を参照してください。 カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
+* 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに反応できます。詳しくは、[このページ](../building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
 * プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、再エントリできるのは以前のジャーニーインスタンスから完全に離脱した後のみになります。[詳細情報](../building-journeys/end-journey.md)
 
@@ -190,7 +190,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### プロファイルを更新 {#update-profile-g}
 
-特定のガードレールが「**[!UICONTROL プロファイルを更新]**」アクティビティに適用されます。これらは [ このページ ](../building-journeys/update-profiles.md) に一覧表示されます。
+特定のガードレールが「**[!UICONTROL プロファイルを更新]**」アクティビティに適用されます。詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
 
 ### オーディエンスを読み取り {#read-segment-g}
 
@@ -201,7 +201,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 * 「**オーディエンスを読み取り**」アクティビティは、Adobe Campaign アクティビティと併用できません。
 * 「**オーディエンスを読み取り**」アクティビティは、ジャーニーの最初のアクティビティ（ビジネスイベントアクティビティの後）としてのみ使用できます。
 * ジャーニーでは、「**オーディエンスを読み取り**」アクティビティを 1 つのみ使用できます。
-* [ このページ ](../building-journeys/read-audience.md) で **オーディエンスを読み取り** アクティビティを使用する方法に関する推奨事項も参照してください。
+* また、**オーディエンスを読み取り**&#x200B;アクティビティの使用方法に関するレコメンデーションについて詳しくは、[このページ](../building-journeys/read-audience.md)を参照してください。
 * 再試行は、書き出しジョブの取得中に、オーディエンストリガージャーニー（**オーディエンスを読み取り**&#x200B;または&#x200B;**ビジネスイベント**&#x200B;で始まる）にデフォルトで適用されます。書き出しジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。
 
 ### オーディエンスの選定 {#audience-qualif-g}
@@ -218,7 +218,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### 「アプリ内」アクティビティ {#in-app-activity-limitations}
 
-次のガードレールが&#x200B;**[!UICONTROL アプリ内メッセージ]**&#x200B;アクションに適用されます。アプリ内メッセージについて詳しくは、[ このページ ](../in-app/create-in-app.md) を参照してください。
+次のガードレールが&#x200B;**[!UICONTROL アプリ内メッセージ]**&#x200B;アクションに適用されます。アプリ内メッセージについて詳しくは、[このページ](../in-app/create-in-app.md)を参照してください。
 
 * この機能は、現在、ヘルスケアのお客様は利用できません。
 
@@ -238,7 +238,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### ジャンプアクティビティ {#jump-g}
 
-特定のガードレールが&#x200B;**[!UICONTROL ジャンプ]**&#x200B;アクティビティに適用されます。これらは [ このページ ](../building-journeys/jump.md#jump-limitations) に一覧表示されます。
+特定のガードレールが&#x200B;**[!UICONTROL ジャンプ]**&#x200B;アクティビティに適用されます。詳しくは、[このページ](../building-journeys/jump.md#jump-limitations)を参照してください。
 
 ### キャンペーンアクティビティ {#ac-g}
 

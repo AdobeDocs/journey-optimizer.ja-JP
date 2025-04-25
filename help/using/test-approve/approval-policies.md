@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 
    ![](assets/policy_condition_1.png)
 
-+++ 利用可能なカテゴリとオプションの詳細を学ぶ
++++ 詳しくは、使用可能なカテゴリとオプションを参照してください
    <table>
     <tr>
       <th>カテゴリ</th>

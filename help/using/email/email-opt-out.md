@@ -10,15 +10,15 @@ level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # メールオプトアウトの管理 {#email-opt-out}
 
-ジャーニーやキャンペーンからメッセージを送信する場合は、顧客が今後の通信を登録解除できるようにする必要があります。購読を解除すると、プロファイルは、今後のマーケティングメッセージのオーディエンスから自動的に削除されます。[ 詳しくは、プライバシーとオプトアウト管理を参照してください ](../privacy/opt-out.md)
+ジャーニーやキャンペーンからメッセージを送信する場合は、顧客が今後の通信を登録解除できるようにする必要があります。購読を解除すると、プロファイルは、今後のマーケティングメッセージのオーディエンスから自動的に削除されます。[プライバシーおよびオプトアウト管理についての詳細情報](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 メールコンテンツに購読解除リンクを挿入するには、次の操作を実行します。
 
-* ワンクリック登録解除 URL をメールヘッダーに追加します。チャネル設定レベルの「**[!UICONTROL リスト登録解除を有効にする]**」オプションにより、メールヘッダーにオプトアウトリンクが追加されます。[ メールヘッダーのオプトアウトの詳細情報 ](#unsubscribe-header)
+* ワンクリック登録解除 URL をメールヘッダーに追加します。チャネル設定レベルの「**[!UICONTROL リスト登録解除を有効にする]**」オプションにより、メールヘッダーにオプトアウトリンクが追加されます。[詳しくは、メールヘッダーのオプトアウトを参照してください](#unsubscribe-header)
 
 * メールの&#x200B;**ワンクリックオプトアウトリンク**&#x200B;を有効にします。[詳しくは、ワンクリックオプトアウトリンクを追加する方法を参照してください](#one-click-opt-out)
 
@@ -67,7 +67,7 @@ ht-degree: 91%
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   リンクをパーソナライズできます。パーソナライズされた URL について詳しくは、[ この節 ](../personalization/personalization-syntax.md) を参照してください。
+   リンクをパーソナライズできます。パーソナライズされた URL について詳しくは、[この節](../personalization/personalization-syntax.md)を参照してください。
 
 1. オプトアウトを適用する方法として、チャネルレベルまたは ID レベルを選択します。
 
@@ -91,13 +91,13 @@ ht-degree: 91%
 
 2 つの手順のオプトアウトメカニズムを設定するには、独自の購読解除ランディングページを作成する必要があります。最初のランディングページはメッセージからリンクされ、コールトゥアクションボタンを含める必要があります。ユーザーがボタンをクリックすると、確認メッセージが表示されます。
 
-Adobe Journey Optimizerでランディングページを作成して、[ このページ ](../landing-pages/lp-use-cases.md#opt-out) の購読解除を管理する方法を説明します。
+Adobe Journey Optimizer でランディングページを作成して購読解除を管理する方法について詳しくは、[このページ](../landing-pages/lp-use-cases.md#opt-out)を参照してください。
 
 また、外部のランディングページを使用することもできます。その場合は、受信者が登録解除したときに Adobe Journey Optimizer に情報を送信するように API を設定します。
 
 +++ オプトアウト API 呼び出しの実装方法について説明します。
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com){target="_blank"} を使用して **購読 API 呼び出し** を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com){target="_blank"} を使用して&#x200B;**Subscription API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
 この POST 呼び出しは次の通りです。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizerでランディングページを作成して、[ この�
 }
 ```
 
-[!DNL Journey Optimizer] はこれらのパラメーターを使用し、[Adobe Developer](https://developer.adobe.com){target="_blank"} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
+[!DNL Journey Optimizer] では、これらのパラメーターを使用して、[Adobe Developer](https://developer.adobe.com){target="_blank"} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
 
 +++
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >この例では、優先度スコアのみを使用します。[ 実施要件ルールと制約 ](../../using/offers/offer-library/creating-personalized-offers.md#eligibility) の詳細を説明します。
+   >この例では、優先度スコアのみを使用します。詳しくは、[実施要件ルールと制約](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)を参照してください。
 
 ## オファーの設定 {#configure-offers}
 
@@ -129,7 +129,7 @@ ht-degree: 97%
    >
    >オファーをメッセージ内の様々な場所に表示し、様々なプレースメントのコンテキストでオファーを使用する機会を増やすことができます。
 
-   表示域について詳しくは、[ この節 ](../../using/offers/offer-library/creating-personalized-offers.md#representations) を参照してください。
+   表示域について詳しくは、[この節](../../using/offers/offer-library/creating-personalized-offers.md#representations)を参照してください。
 
 1. 最初の 2 つのプレースメントに適切な画像を選択します。「*非デジタル - テキスト*」プレースメントのカスタムテキストを入力します。
 
@@ -227,6 +227,6 @@ ht-degree: 97%
 
 ## メールへの決定の挿入 {#insert-decision-in-email}
 
-これで決定が有効になったので、メールメッセージに挿入できます。それには、[ このページ ](../../using/email/add-offers-email.md) で詳細に説明されている手順に従ってください。
+これで決定が有効になったので、メールメッセージに挿入できます。それには、[このページ](../../using/email/add-offers-email.md)で詳細に説明されている手順に従ってください。
 
 ![](assets/offers-e2e-offers-displayed.png)

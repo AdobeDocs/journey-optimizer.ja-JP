@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 ジャーニー実験パネルには、実験の個々の処理に対する「常に有効な」信頼区間（信頼性シーケンス）が表示されます。
 
-個々のバリアント `ν` の信頼性シーケンスは、アドビが使用する統計手法の中心です。その定義は、[ このページ ](https://doi.org/10.48550/arXiv.2103.06476) で確認できます（[Waudby-Smith et al.]）から転載）。
+個々のバリアント `ν` の信頼性シーケンスは、アドビが使用する統計手法の中心です。その定義について詳しくは、[このページ](https://doi.org/10.48550/arXiv.2103.06476)（[Waudby-Smith et al.] から転載）を参照してください。
 
 実験でのバリアントのコンバージョン率などのターゲットパラメーター `ψ` の推定に興味がある場合、一連の「固定時間」信頼区間（CI）と時間一様信頼性シーケンス（CS）との間の二分法は、次のように要約できます。
 

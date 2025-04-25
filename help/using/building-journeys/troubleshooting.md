@@ -10,17 +10,17 @@ level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # ジャーニーのトラブルシューティング {#troubleshooting}
 
-この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法について説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。レコメンデーションは、テストモードで以下のすべてのチェックを行い、公開に進むことです。テストモードについて詳しくは、[ このページ ](../building-journeys/testing-the-journey.md) を参照してください。
+この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法について説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。レコメンデーションは、テストモードで以下のすべてのチェックを行い、公開に進むことです。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
-また、管理者は、ユーザーインターフェイスから直接実際の API 呼び出しを行って、カスタムアクション設定をテストすることもできます。詳しくは、[ このページ ](../action/troubleshoot-custom-action.md) を参照してください。
+また、管理者は、ユーザーインターフェイスから直接実際の API 呼び出しを行って、カスタムアクション設定をテストすることもできます。詳しくは、[このページ](../action/troubleshoot-custom-action.md)を参照してください。
 
 ## テスト前のエラーチェック {#checking-for-errors-before-testing}
 
@@ -66,9 +66,9 @@ ht-degree: 95%
 
 イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"}で Streaming ingestion API のトラブルシューティングを参照してください。
 
-ジャーニーでエラー `ERR_MODEL_RULES_16` ードを使用したテストモードを有効にできない場合は、チャネルアクションを使用する際に、使用するイベントに [ID 名前空間 ](../audience/get-started-identity.md) が含まれていることを確認してください。
+ジャーニーでエラー `ERR_MODEL_RULES_16` が発生してテストモードを有効にできない場合は、チャネルアクションを使用する際に、使用するイベントに [ID 名前空間](../audience/get-started-identity.md)が含まれていることを確認してください。
 
-ID 名前空間は、テストプロファイルを一意に識別するために使用されます。 例えば、メールを使用してテストプロファイルを識別する場合は、ID 名前空間の&#x200B;**メール**&#x200B;を選択する必要があります。一意の識別子が電話番号の場合は、ID 名前空間の&#x200B;**電話**&#x200B;を選択する必要があります。
+ID 名前空間は、テストプロファイルを一意に識別するために使用されます。例えば、メールを使用してテストプロファイルを識別する場合は、ID 名前空間の&#x200B;**メール**&#x200B;を選択する必要があります。一意の識別子が電話番号の場合は、ID 名前空間の&#x200B;**電話**&#x200B;を選択する必要があります。
 
 ## ジャーニーへのエントリを確認 {#checking-if-people-enter-the-journey}
 

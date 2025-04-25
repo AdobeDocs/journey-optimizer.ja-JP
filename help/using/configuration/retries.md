@@ -10,9 +10,9 @@ level: Experienced
 keywords: 再試行, バウンス, ソフト, Optimizer, エラー
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->エラーのタイプについて詳しくは、[ 配信失敗のタイプ ](../reports/suppression-list.md#delivery-failures) の節を参照してください。
+>エラーのタイプについて詳しくは、[配信エラーのタイプ](../reports/suppression-list.md#delivery-failures)の節を参照してください。
 
 デフォルト設定では、しきい値は 5 回のエラーに設定されています。
 
@@ -64,7 +64,7 @@ ht-degree: 97%
 
    >[!CAUTION]
    >
-   >値が 10 を超えると、配信品質の評価の問題や、IP スロットル、ISP によるブロックリストへの登録などにつながる可能性があります。[ 配信品質の詳細 ](../reports/deliverability.md)
+   >値が 10 を超えると、配信品質の評価の問題や、IP スロットル、ISP によるブロックリストへの登録などにつながる可能性があります。[詳しくは、配信品質を参照してください](../reports/deliverability.md)
 
 ## 再試行期間 {#retry-duration}
 

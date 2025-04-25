@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 ## オーディエンスの選定イベントについて{#about-segment-qualification}
 
-このアクティビティを使用すると、ジャーニーは Adobe Experience Platform オーディエンスへのプロファイルのエントリや離脱をリッスンして、個人をジャーニーにエントリさせたりジャーニー内で進行させたりすることができます。オーディエンスの作成について詳しくは、この [ 節 ](../audience/about-audiences.md) を参照してください。
+このアクティビティを使用すると、ジャーニーは Adobe Experience Platform オーディエンスへのプロファイルのエントリや離脱をリッスンして、個人をジャーニーにエントリさせたりジャーニー内で進行させたりすることができます。オーディエンスの作成について詳しくは、この[節](../audience/about-audiences.md)を参照してください。
 
 「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、新しいシルバーの顧客全員をジャーニーにエントリさせ、パーソナライズされた一連のメッセージを送ることができます。
 

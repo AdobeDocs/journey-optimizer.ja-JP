@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Experience Platform では、あるデータセットを別のデータセ
 
 >[!NOTE]
 >
->スキーマ間の関係について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja) を参照してください。
+>スキーマ間の関係について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja)を参照してください。
 
 Journey Optimizer では、リンクされたテーブルのすべてのフィールドを次の場合に活用できます。
 
@@ -87,7 +87,7 @@ Journey Optimizer では、リンクされたテーブルのすべてのフィ�
 
 ![](assets/schema15.png)
 
-ただし、購入情報（製品 ID、製品名、価格、ディスカウント）のリストなど、オブジェクトの配列内の属性とのスキーマ関係を定義することはできません。ルックアップ値は、ジャーニー（条件、カスタムアクションなど）やメッセージのパーソナライゼーションで使用できます。
+ただし、購入情報（製品 ID、製品名、価格、ディスカウント）のリストなど、オブジェクトの配列内の属性とのスキーマ関係を定義することはできません。ルックアップ値はジャーニー（条件、カスタムアクションなど）とメッセージのパーソナライゼーションで利用できるようになります。
 
 ![](assets/schema16.png)
 

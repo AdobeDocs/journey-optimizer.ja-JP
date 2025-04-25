@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->毎日のフリークエンシーキャップの精度を確保するために、[ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}の使用をお勧めします。オーディエンスの評価方法について詳しくは、[ この節 ](../audience/about-audiences.md#evaluation-method-in-journey-optimizer) を参照してください。
+>毎日のフリークエンシーキャップの精度を確保するために、[ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}の使用をお勧めします。オーディエンスの評価方法について詳しくは、[この節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)を参照してください。
 
 ## ビジネスルールをアクティブ化 {#activate-rule}
 

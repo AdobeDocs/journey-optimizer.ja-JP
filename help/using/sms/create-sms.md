@@ -9,18 +9,18 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# テキストメッセージ (SMS/MMS) の作成 {#create-sms}
+# テキストメッセージ（SMS／MMS）の作成 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="テキストメッセージの作成"
->abstract="テキストメッセージ (SMS/MMS) を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターでパーソナライズを開始します。"
+>abstract="テキストメッセージ（SMS／MMS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターでパーソナライズを開始します。"
 
 Adobe Journey Optimizer を使用して、テキスト（SMS）およびマルチメディア（MMS）メッセージをデザインして送信できます。まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）およびマル�
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL SMS]**」を選択し、新しい設定を選択または作成します。
 
-   SMS 設定について詳しくは、[ このページ ](sms-configuration.md) を参照してください。
+   SMS 設定について詳しくは、[このページ](sms-configuration.md)を参照してください。
 
    ![](assets/sms_create_3.png)
 
@@ -135,7 +135,7 @@ SMS コンテンツを設定するには、次の手順に従います。MMS の
 
 >[!NOTE]
 >
-> MMS チャネルには、[ このページ ](../start/guardrails.md#sms-guardrails) に一覧表示されるいくつかの制限事項が伴います。
+> MMS チャネルには、[このページ](../start/guardrails.md#sms-guardrails)にリストされているいくつかの制限があります。
 
 MMS コンテンツを作成するには、次の手順に従います。
 
@@ -161,7 +161,7 @@ MMS コンテンツを作成するには、次の手順に従います。
 
 ![](assets/sms-content-preview.png)
 
-テストを実行してコンテンツを検証したら、テキストメッセージをオーディエンスに送信できます。これらの手順について詳しくは、[ このページ ](send-sms.md) を参照してください。
+テストを実行してコンテンツを検証したら、テキストメッセージをオーディエンスに送信できます。これらの手順について詳しくは、[このページ](send-sms.md)を参照してください。
 
 送信したら、キャンペーンまたはジャーニーレポート内で SMS の影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report-cja-sms.md)を参照してください。
 

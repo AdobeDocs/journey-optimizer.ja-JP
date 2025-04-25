@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 決定ポリシーは、配信する最適なコンテンツをオーディエンスに応じて選択することを目的に、決定エンジンを活用するオファーのコンテナです。
 
-<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->目的はプロファイルごとに最適なオファーを選択することです。一方、キャンペーン/ジャーニーオーサリングでは、選択した決定項目の表示方法（メッセージに含める項目属性など）を指定できます。
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->目標は、各プロファイルに最適なオファーを選択することです。一方、キャンペーン／ジャーニーのオーサリングでは、メッセージに含める項目属性など、選択した決定項目の表示方法を指定できます。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 90%
 
 1. [コードベースのエクスペリエンスへの決定ポリシーの追加](#add-decision)
 1. [決定ポリシーの使用](#use-decision-policy)
-1. [カスタム Customer Journey Analytics レポートダッシュボードを作成します](cja-reporting.md)
+1. [カスタム Customer Journey Analytics レポートダッシュボードを作成します。](cja-reporting.md)
 
 ## コードベースのエクスペリエンスへの決定ポリシーの追加 {#add-decision}
 
@@ -54,7 +54,7 @@ ht-degree: 90%
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="戦略の作成"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="評価順序"
 
-Web サイトまたはモバイルアプリで訪問者に最適な動的なオファーとエクスペリエンスを提示するには、コードベースのキャンペーンまたはジャーニーに決定ポリシーを追加します。 これを行うには、以下の手順に従います。
+Web サイトやモバイルアプリで訪問者に最適な動的なオファーおよびエクスペリエンスを提示するには、コードベースのキャンペーンまたはジャーニーに決定ポリシーを追加します。これを行うには、以下の手順に従います。
 
 ### 決定ポリシーの作成 {#add}
 
@@ -96,7 +96,7 @@ Web サイトまたはモバイルアプリで訪問者に最適な動的なオ�
 
    >[!NOTE]
    >
-   >決定ポリシーでは、最大 10 個の選択戦略と決定項目を組み合わせてサポートします。[ 意思決定ガードレールと制限事項の詳細 ](gs-experience-decisioning.md#guardrails)
+   >決定ポリシーでは、最大 10 個の選択戦略と決定項目を組み合わせてサポートします。[詳しくは、決定ガードレールと制限を参照してください。](gs-experience-decisioning.md#guardrails)
 
 1. 複数の決定項目や戦略を追加した場合、それらは特定の順序で評価されます。シーケンスに最初に追加されたオブジェクトから順に評価されます。
 
@@ -204,7 +204,7 @@ Web サイトまたはモバイルアプリで訪問者に最適な動的なオ�
    >
    >このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
 
-1. 必要なすべての決定属性を、そのコード内に追加できるようになりました。利用可能な属性は、**[!UICONTROL オファー]**&#x200B;カタログのスキーマに保存されます。カスタム属性は、**`_<imsOrg`>** フォルダーに保存され、標準属性は **`_experience`** フォルダーに保存されます。[ オファーカタログのスキーマの詳細情報 ](catalogs.md)
+1. 必要なすべての決定属性を、そのコード内に追加できるようになりました。利用可能な属性は、**[!UICONTROL オファー]**&#x200B;カタログのスキーマに保存されます。カスタム属性は、**`_<imsOrg`>** フォルダーに保存され、標準属性は **`_experience`** フォルダーに保存されます。[オファーカタログのスキーマの詳細情報](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
@@ -227,11 +227,11 @@ Web サイトまたはモバイルアプリで訪問者に最適な動的なオ�
 
 次の手順に従って、コードベースのエクスペリエンスを完成させ、変更をライブにします。
 
-1. コードベースのエクスペリエンスキャンペーンまたはジャーニーをレビューして公開します。 [方法について詳しくは、こちらを参照してください](../code-based/publish-code-based.md)
+1. コードベースのエクスペリエンスキャンペーンまたはジャーニーをレビューして公開します。[方法についてはこちらを参照](../code-based/publish-code-based.md)
 
    開発者が API または SDK 呼び出しを実行して、チャネル設定で定義されたサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
 
-1. 現在、ユーザーインターフェイスから、決定を使用して [ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンまたはジャーニーでコンテンツをシミュレートすることはできません。
+1. 現在、決定を使用して、[コードベースのエクスペリエンス](../code-based/create-code-based.md)キャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。
 
    回避策として、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加することで、キャンペーンを公開した後に決定をテストできます。
 
@@ -247,6 +247,6 @@ Web サイトまたはモバイルアプリで訪問者に最適な動的なオ�
    }
    ```
 
-1. 決定のパフォーマンスを確認するために、カスタム [Customer Journey Analytics レポートダッシュボード ](cja-reporting.md) を作成できるようになりました。
+1. 決定のパフォーマンスを確認するために、カスタムの [Customer Journey Analytics レポートダッシュボード](cja-reporting.md)を作成できるようになりました。
 
 

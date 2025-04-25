@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 99%
 
    * ブランドからのコミュニケーションの受信に同意するリンクを挿入する場合は、「**[!UICONTROL 外部オプトイン / 購読]**」を選択します。
 
-   * ブランドからのコミュニケーションの受信を解除するリンクを挿入する場合は、「**[!UICONTROL 外部オプトアウト / 登録解除]**」を選択します。オプトアウト管理の詳細については、[ この節 ](email-opt-out.md#opt-out-management) を参照してください。
+   * ブランドからのコミュニケーションの受信を解除するリンクを挿入する場合は、「**[!UICONTROL 外部オプトアウト / 登録解除]**」を選択します。オプトアウト管理について詳しくは、[この節](email-opt-out.md#opt-out-management)を参照してください。
 
    * メールのミラーページへのリンクを追加する場合は、「**[!UICONTROL ミラーページ]**」を選択します。[詳細情報](#mirror-page)
 

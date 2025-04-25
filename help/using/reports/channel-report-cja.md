@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 * [キャンペーン](#campaign)
 * [チャネル](#channel)
 
-Customer Journey Analytics Workspaceの詳細と、データのフィルタリングおよび分析方法については、[ このページ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home) を参照してください。
+Customer Journey Analytics ワークスペースと、データのフィルタリングおよび分析方法について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)を参照してください。
 
 ## ハイライト {#highlights}
 
@@ -35,7 +35,7 @@ Customer Journey Analytics Workspaceの詳細と、データのフィルタリ�
 
 **[!UICONTROL ハイライト]**&#x200B;の KPI は、環境内のすべてのキャンペーンとジャーニーの主要指標の詳細な分類を提供、およびパフォーマンスを迅速に評価して改善領域を特定する、包括的なダッシュボードとして機能します。
 
-+++ 指標のハイライトについて学ぶ
++++ 詳しくは、ハイライト指標を参照してください
 
 * **[!UICONTROL ジャーニーのエンゲージメント]**：ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表す、ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。
 
@@ -65,7 +65,7 @@ Customer Journey Analytics Workspaceの詳細と、データのフィルタリ�
 
 このテーブルにリストされているジャーニーの名前をクリックすると、各ジャーニーを個別に簡単に調べ、新しいタブでその包括的なレポートにすぐにアクセスできます。
 
-+++ ジャーニー指標の詳細
++++ 詳しくは、ジャーニー指標を参照してください
 
 * **[!UICONTROL ジャーニーのエントリ数]**：ジャーニーのエントリイベントに到達した個人の合計数。
 
@@ -83,13 +83,13 @@ Customer Journey Analytics Workspaceの詳細と、データのフィルタリ�
 
 このテーブルにリストされているキャンペーンの名前をクリックすると、各キャンペーンを個別に簡単に調べることができ、新しいタブでその包括的なレポートにすぐにアクセスできます。
 
-+++ Campaign 指標の詳細
++++ 詳しくは、キャンペーン指標を参照してください
 
 * **[!UICONTROL ユーザー]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
-* **[!UICONTROL クリックスルー率（CTR）]**：メッセージ内のクリックの割合。
+* **[!UICONTROL クリックスルー率（CTR）]**：メッセージでのクリック数の割合。
 
-* **[!UICONTROL 送信数]**：各キャンペーン用の送信の合計数。
+* **[!UICONTROL 送信数]**：各キャンペーンの送信の合計数。
 
 * **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 
@@ -107,11 +107,11 @@ Customer Journey Analytics Workspaceの詳細と、データのフィルタリ�
 
 **[!UICONTROL チャネル]**&#x200B;のテーブルには、チャネルレベルでのメッセージに対するプロファイルのエンゲージメントの詳細な分類が表示されます。これにより、様々なチャネルのパフォーマンスに関するより深いインサイトを得ることができます。
 
-+++ チャネル指標の詳細
++++ 詳しくは、チャネル指標を参照してください
 
 * **[!UICONTROL ユーザー]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
-* **[!UICONTROL クリックスルー率（CTR）]**：メッセージ内のクリックの割合。
+* **[!UICONTROL クリックスルー率（CTR）]**：メッセージでのクリック数の割合。
 
 * **[!UICONTROL 配信済み]**：正常に送信されたメッセージ数。
 

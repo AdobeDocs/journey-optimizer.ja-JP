@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 99%
 
 **監査制御**
 
-* Journey Optimizer を使用すると、キャンペーン、ジャーニー、メッセージ、ランディングページなど、様々なサービスや機能に対してシステム内のユーザーが実行したアクションを識別できます。監査ログリソースには、その他の様々なアクションに対する変更が含まれるようになり、アクティビティが発生すると自動的に記録されます。詳しくは [ このページ ](../privacy/audit-logs.md) を参照してください。
+* Journey Optimizer を使用すると、キャンペーン、ジャーニー、メッセージ、ランディングページなど、様々なサービスや機能に対してシステム内のユーザーが実行したアクションを識別できます。監査ログリソースには、その他の様々なアクションに対する変更が含まれるようになり、アクティビティが発生すると自動的に記録されます。詳しくは、[このページ](../privacy/audit-logs.md)を参照してください。
 
 **アーカイブのサポート**
 

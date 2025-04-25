@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->現在、[Decisioning](../experience-decisioning/gs-experience-decisioning.md) を使用して、コードベースのエクスペリエンスキャンペーンやジャーニーのユーザーインターフェイスからコンテンツをシミュレートすることはできません。 回避策が [ この節 ](../experience-decisioning/create-decision.md#test-and-publish) で利用できます。
+>現在、[決定](../experience-decisioning/gs-experience-decisioning.md)を使用して、コードベースのエクスペリエンスキャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。回避策について詳しくは、[この節](../experience-decisioning/create-decision.md#test-and-publish)を参照してください。
 
 
 ## デバイスでのプレビュー {#preview-on-device}

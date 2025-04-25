@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1829'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 99%
   </tr>
   <tr> 
    <td> エラー理由<br/> </td> 
-   <td> エラーの特定の元の原因名。<a href="exclusion-list.md"> エラー理由の詳細 </a>.<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="exclusion-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
   </tr>
   <tr> 
    <td> オファークリック率<br/> </td> 
@@ -408,7 +408,7 @@ ht-degree: 99%
 </tr>
   <tr> 
    <td> エラー理由<br/> </td> 
-   <td> エラーの特定の元の原因名。<a href="exclusion-list.md"> エラー理由の詳細 </a>.<br/> </td> 
+   <td> エラーの特定の元の原因名。<a href="exclusion-list.md">詳しくは、エラー理由を参照してください</a>。<br/> </td> 
 </tr>
   <tr> 
    <td> 除外済み<br/> </td> 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
 * ジャーニー、またはジャーニーのコンテキストの配信をターゲットに設定する場合は、**[!UICONTROL ジャーニー]**&#x200B;メニューからジャーニーにアクセスし、「**[!UICONTROL レポートを表示]**」ボタンをクリックします。
 
-  既存のジャーニーのリストから、選択したジャーニーの詳細メニューの「**[!UICONTROL レポート]**」を選択することもできます。[ジャーニーレポートの詳細情報 ](journey-global-report-cja.md)
+  既存のジャーニーのリストから、選択したジャーニーの詳細メニューの「**[!UICONTROL レポート]**」を選択することもできます。[詳しくは、ジャーニーレポートを参照してください](journey-global-report-cja.md)
 
   ![](assets/gs-cja-report-3.png)
 
 * キャンペーンをターゲットにする場合は、**[!UICONTROL キャンペーン]**&#x200B;メニューからキャンペーンにアクセスし、「**[!UICONTROL レポート]**」ボタン、「**[!UICONTROL 全期間のレポートを表示]**」の順にクリックします。
 
-  既存のキャンペーンのリストから、選択したキャンペーンの詳細メニューの「**[!UICONTROL レポート]**」を選択することもできます。[ キャンペーンレポートの詳細情報 ](campaign-global-report-cja.md)
+  既存のキャンペーンのリストから、選択したキャンペーンの詳細メニューの「**[!UICONTROL レポート]**」を選択することもできます。[詳しくは、キャンペーンレポートを参照してください](campaign-global-report-cja.md)
 
   ![](assets/gs-cja-report-2.png)
 
-* 環境内のすべてのキャンペーンとジャーニーの指標をターゲットにする場合は、「**[!UICONTROL ジャーニー管理]**」セクション内の&#x200B;**[!UICONTROL レポート]**&#x200B;メニューに移動して、**概要**&#x200B;レポートにアクセスします。[ 概要レポートの詳細情報 ](channel-report-cja.md)
+* 環境内のすべてのキャンペーンとジャーニーの指標をターゲットにする場合は、「**[!UICONTROL ジャーニー管理]**」セクション内の&#x200B;**[!UICONTROL レポート]**&#x200B;メニューに移動して、**概要**&#x200B;レポートにアクセスします。[詳しくは、概要レポートを参照してください](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
@@ -51,7 +51,7 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
    * Adobe Journey Optimizer の&#x200B;**[!UICONTROL プロファイルの管理]**&#x200B;権限。[詳細情報](../administration/permissions.md)
 
-* Customer Journey Analytics データビューは、次の設定（**Adobe Journey Optimizer のデフォルトデータビューとして設定**）で行う必要があります。[ データビューの詳細情報 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* Customer Journey Analytics データビューは、次の設定（**Adobe Journey Optimizer のデフォルトデータビューとして設定**）で行う必要があります。[詳しくは、データビューを参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## チュートリアルビデオ{#video}
 

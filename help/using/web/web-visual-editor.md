@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳細情報 [ コンテンツのデザイン  [!DNL Journey Optimizer]](../email/get-started-email-design.md)。
+>Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 
 Web コンテンツを編集したら、変更を管理できます。[詳細情報](manage-web-modifications.md)
 

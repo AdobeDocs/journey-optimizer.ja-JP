@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
 **具体化されたオーディエンスの過負荷を避けるためのガードレールとは何ですか？**
 
-1 回限りのビジネスイベントの場合、特定のジャーニーについて、最初のイベントジョブによってプッシュされたデータが 1 時間の時間枠で再利用されます。スケジュールされたジャーニーの場合、ガードレールはありません。オーディエンスについて詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja) を参照してください。
+1 回限りのビジネスイベントの場合、特定のジャーニーについて、最初のイベントジョブによってプッシュされたデータが 1 時間の時間枠で再利用されます。スケジュールされたジャーニーの場合、ガードレールはありません。オーディエンスについて詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
 
 ## ビジネスイベントの概要 {#gs-business-events}
 
@@ -107,7 +107,7 @@ ht-degree: 98%
 
    ![](assets/journey7-business.png)
 
-   イベントが設定され、ジャーニーで使用できる状態になりました。イベントを受信するには追加の設定手順が必要です。詳しくは、[ このページ ](../event/additional-steps-to-send-events-to-journey.md) を参照してください。
+   イベントが設定され、ジャーニーで使用できる状態になりました。イベントを受信するには追加の設定手順が必要です。詳しくは、[このページ](../event/additional-steps-to-send-events-to-journey.md)を参照してください。
 
 ## ペイロードフィールドの定義 {#define-the-payload-fields}
 

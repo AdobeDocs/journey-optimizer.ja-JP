@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 98%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)
 
 1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
@@ -76,7 +76,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択したコードベースのエクスペリエンス設定で定義されたサーフェスのコンテンツを取得する責任があります。お客様による様々な実装について詳しくは、[ この節 ](code-based-implementation-samples.md) を参照してください。
+>アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択したコードベースのエクスペリエンス設定で定義されたサーフェスのコンテンツを取得する責任があります。様々な顧客の実装について詳しくは、[この節](code-based-implementation-samples.md)を参照してください。
 
 ### Web プラットフォーム {#web}
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1800'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 96%
    >
    > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）の詳細情報を参照してください](../administration/object-based-access.md)。
 
 1. チャネルを選択します。
 
@@ -143,7 +143,7 @@ ht-degree: 96%
 
 チャネル設定の作成に失敗した場合、考えられる各エラー理由の詳細は次のとおりです。
 
-これらのエラーのいずれかが発生した場合は、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} にご連絡ください。
+これらのエラーのいずれかが発生した場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にご連絡ください。
 
 * **SPF 検証に失敗しました**：SPF（Sender Policy Framework）はメール認証プロトコルで、特定のサブドメインからメールを送信できる承認済み IP を指定できます。SPF 検証エラーは、SPF レコードの IP アドレスが、メールボックスプロバイダーへのメール送信に使用される IP アドレスと一致しないことを意味します。
 
@@ -219,7 +219,7 @@ ht-degree: 96%
 >
 >編集するフィールドが「**[!UICONTROL 説明]**」、「**[!UICONTROL メールタイプ]**」または「**[!UICONTROL メールの再試行パラメーター]**」のみの場合、更新は即時に行われます。
 
-処理時間は、最大で **3 時間**&#x200B;かかる場合があります。検証サイクルで実行されるチェックについて詳しくは、[ この節 ](#create-channel-surface) を参照してください。
+処理時間は、最大で **3 時間**&#x200B;かかる場合があります。検証サイクル中に実行されるチェックについて詳しくは、[この節](#create-channel-surface)を参照してください。
 
 既にアクティブになっている設定を編集する場合：
 
@@ -243,7 +243,7 @@ ht-degree: 96%
 
 検証プロセスが失敗した場合は、古いバージョンの設定が引き続き使用されます。
 
-考えられる失敗理由について詳しくは、[ この節 ](#monitor-channel-surfaces) を参照してください。
+考えられる失敗理由について詳しくは、[この節](#monitor-channel-surfaces)を参照してください。
 
 更新が失敗すると、設定が再び編集可能になります。サーフェスの名前をクリックし、修正する必要のある設定を更新できます。
 
@@ -253,7 +253,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->更新の処理中にチャネル設定を非アクティブ化することはできません。更新が正常に完了するか失敗するまで待つ必要があります。詳しくは、[ チャネル設定の編集 ](#edit-channel-surface) および [ 更新ステータス ](#update-statuses) を参照してください。
+>更新の処理中にチャネル設定を非アクティブ化することはできません。更新が正常に完了するか失敗するまで待つ必要があります。詳しくは、[チャネル設定の編集](#edit-channel-surface)およびその中の[更新ステータス](#update-statuses)を参照してください。
 
 1. チャネル設定リストにアクセスします。
 

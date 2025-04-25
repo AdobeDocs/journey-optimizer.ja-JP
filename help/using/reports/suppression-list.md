@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 89%
 
 ## 抑制リストを使用する理由 {#why-suppression-list}
 
-インボックスの所有者が受信するメールメッセージを制御し、希望するメッセージだけを受信できるようにするために、インターネットサービスプロバイダー（ISP）と商用スパムフィルターは、メール送信者が使用する IP アドレスと送信ドメインに基づいて、メール送信者の全体的な評判を追跡する独自のアルゴリズムを持っています。
+インボックスの所有者が受信するメールメッセージを制御し、希望するメッセージだけを受信できるようにするために、インターネットサービスプロバイダー（ISP）と商用スパムフィルターには、メール送信者が使用する IP アドレスと送信ドメインに基づいて、メール送信者の全体的なレピュテーションを追跡する独自のアルゴリズムがあります。
 
-フィードバック（スパムの苦情やバウンスなど）を考慮に入れない場合、評価は下がります。 抑制リストは、ISP のフィードバックを尊重するのに役立ちます。
+フィードバック（スパム苦情やバウンスなど）を考慮しなければ、レピュテーションは下がります。抑制リストは、ISP のフィードバックを尊重するのに役立ちます。
 
 メールアドレスが抑制されている受信者は、メッセージ配信から自動的に除外されます。エラー率は配信速度に大きな影響を与えるため、こうすることで配信が迅速になります。
 
@@ -41,25 +41,25 @@ ht-degree: 89%
 
 アドレスは、次のように抑制リストに追加されます。
 
-* すべての&#x200B;**ハードバウンス**&#x200B;および&#x200B;**スパム報告**&#x200B;は、1 回発生した後、対応するアドレスを抑制リストに自動的に送信します。スパム通報について詳しくは、[ この節 ](#spam-complaints) を参照してください。
+* すべての&#x200B;**ハードバウンス**&#x200B;および&#x200B;**スパム報告**&#x200B;は、1 回発生した後、対応するアドレスを抑制リストに自動的に送信します。スパム苦情について詳しくは、[この節](#spam-complaints)を参照してください。
 
 * **ソフトバウンス**&#x200B;では、アドレスが直ちに抑制リストに送られることはありませんが、エラーカウンターが増加します。その後、数回の[再試行](../configuration/retries.md)が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。
 
 * また、アドレスやドメイン](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;[**手動で**&#x200B;追加することもできます。
 
-ハードバウンスとソフトバウンスについて詳しくは、[ この節 ](#delivery-failures) を参照してください。
+ハードバウンスとソフトバウンスについて詳しくは、[この節](#delivery-failures)を参照してください。
 
 >[!NOTE]
 >
->購読を解除したユーザーのアドレスは、[!DNL Journey Optimizer] からのメールを受信していないので、抑制リストに送信できません。選択は、Experience Platform レベルで処理されます。詳細情報 [ オプトアウト ](../privacy/opt-out.md)。
+>購読を解除したユーザーのアドレスは、[!DNL Journey Optimizer] からのメールを受信していないので、抑制リストに送信できません。選択は、Experience Platform レベルで処理されます。詳しくは、[オプトアウト](../privacy/opt-out.md)を参照してください。
 
-アドレスごとに、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど）が抑制リストに表示されます。 抑制リストへのアクセスと管理について詳しくは、[ この節 ](../configuration/manage-suppression-list.md) を参照してください。
+各アドレスについて、抑制される基本的な理由と抑制カテゴリ（ソフト、ハードなど）が抑制リストに表示されます。抑制リストへのアクセスと管理について詳しくは、[この節](../configuration/manage-suppression-list.md)を参照してください。
 
 >[!NOTE]
 >
->「**[!UICONTROL 抑制]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journeys-message.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
+>「**[!UICONTROL 抑制]**」ステータスのプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journeys-message.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->[ ライブレポート ](../reports/live-report.md) および [Customer Journey Analytics レポート ](../reports/report-gs-cja.md) の詳細情報。 すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
+>詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
 
 ### 配信の失敗 {#delivery-failures}
 

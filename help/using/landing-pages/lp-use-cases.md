@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,11 +90,11 @@ ht-degree: 98%
 
 ## オプトアウトランディングページ {#opt-out}
 
-受信者がお知らせの登録を解除止できるように、オプトアウトのランディングページへのリンクをメールに含めることができます。
+受信者がコミュニケーションの登録を解除するには、オプトアウトランディングページへのリンクをメールに含めます。
 
 >[!NOTE]
 >
->[ この節 ](../privacy/opt-out.md) では、受信者の同意の管理と、これが重要である理由について説明します。
+>受信者の同意の管理と、これが重要である理由について詳しくは、[この節](../privacy/opt-out.md)を参照してください。
 
 ### オプトアウト管理 {#opt-out-management}
 
@@ -159,7 +159,7 @@ ht-degree: 98%
 
 「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。
 
-オプトアウト情報は、**同意サービスデータセット**&#x200B;に保存されます。[ データセットの詳細情報 ](../data/get-started-datasets.md)
+オプトアウト情報は、**同意サービスデータセット**&#x200B;に保存されます。[詳しくは、データセットを参照してください](../data/get-started-datasets.md)
 
 >[!NOTE]
 >

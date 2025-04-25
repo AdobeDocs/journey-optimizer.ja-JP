@@ -8,9 +8,9 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 95%
 
 ダイレクトメールキャンペーンの準備が整ったら、「**[!UICONTROL アクティブ化]**」ボタンをクリックします。キャンペーンが開始すると、抽出ファイルが自動的に生成され、[ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md)で指定されているサーバーに書き出されます。
 
-送信後は、キャンペーンレポート内でダイレクトメールキャンペーンの影響を測定できます。ダイレクトメールレポートについて詳しくは、[ この節 ](../reports/campaign-global-report-cja-direct.md) を参照してください。
+送信後は、キャンペーンレポート内でダイレクトメールキャンペーンの影響を測定できます。ダイレクトメールレポートについて詳しくは、[この節](../reports/campaign-global-report-cja-direct.md)を参照してください。
 
 ## ダイレクトメールの同意の管理 {#dm-consent-management}
 
@@ -56,4 +56,4 @@ ht-degree: 95%
 
 プロファイルの属性を管理するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択して、プロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
-Journey Optimizerのオプトアウト管理について詳しくは、[ この節 ](../privacy/opt-out.md) を参照してください。
+Journey Optimizer でのオプトアウトの管理について詳しくは、[この節](../privacy/opt-out.md)を参照してください。

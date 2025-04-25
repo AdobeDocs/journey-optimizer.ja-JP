@@ -5,12 +5,12 @@ description: replaceAll 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: replaceAll，関数，式，ジャーニー
+keywords: replaceAll, 関数, 式, ジャーニー
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -48,4 +48,4 @@ ht-degree: 88%
 
 「Hexxo Worxd」を返します。
 
-ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。[ このページ ](../functions/functionreplace.md#example_2) の例を参照してください。
+ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。例について詳しくは、[このページ](../functions/functionreplace.md#example_2)を参照してください。

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
   Journey Optimizer ライセンスと Customer Journey Analytics ライセンスの両方を使用すると、特定のアトリビューション設定を使用してカスタム指標を作成したり、組み込み指標のアトリビューションを変更したりできます。
 
-  詳細情報 [ アトリビューションモデル ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  詳しくは、[アトリビューションモデル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)を参照してください。
 
 ## ジャーニー指標の割り当て {#assign}
 
@@ -76,7 +76,7 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
 1. **[!UICONTROL ジャーニー]**&#x200B;メニューから、「**[!UICONTROL ジャーニーを作成]**」をクリックします。
 
-1. ジャーニーの設定パネルを編集して、ジャーニーの名前を定義し、そのプロパティを設定します。ジャーニーのプロパティを設定する方法については、[ このページ ](../building-journeys/journey-properties.md) を参照してください。
+1. ジャーニーの設定パネルを編集して、ジャーニーの名前を定義し、そのプロパティを設定します。ジャーニーのプロパティを設定する方法について詳しくは、[このページ](../building-journeys/journey-properties.md)を参照してください。
 
 1. ジャーニーの効果を測定するために使用する&#x200B;**[!UICONTROL ジャーニー指標]**&#x200B;を選択します。
 

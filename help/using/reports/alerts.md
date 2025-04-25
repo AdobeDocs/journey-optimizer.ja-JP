@@ -9,17 +9,17 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # アラートの基本を学ぶ {#alerts}
 
-ジャーニーとキャンペーンを作成する場合は、「**アラート**」ボタンを使用してエラーを確認および解決してから、実行または公開します。ジャーニーのトラブルシューティング方法については、[ このページ ](../building-journeys/troubleshooting.md) を参照してください。 キャンペーンのレビュー方法については、[ このページ ](../campaigns/review-activate-campaign.md) を参照してください。
+ジャーニーとキャンペーンを作成する場合は、「**アラート**」ボタンを使用してエラーを確認および解決してから、実行または公開します。ジャーニーをトラブルシューティングする方法について詳しくは、[このページ](../building-journeys/troubleshooting.md)を参照してください。キャンペーンをレビューする方法について詳しくは、[このページ](../campaigns/review-activate-campaign.md)を参照してください。
 
-また、このページで詳しく説明するように、Adobe Journey Optimizer システムアラートを登録することもできます。
+また、このページで詳しく説明されているように、Adobe Journey Optimizer システムアラートを購読することもできます。
 
 ## アラートへのアクセスと購読 {#alerting-capabilities}
 

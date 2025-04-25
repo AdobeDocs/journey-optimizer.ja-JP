@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
    ![](assets/surface-email-edit-condition.png)
 
-1. この条件に関連付けるサブドメインを選択します。[ サブドメインの詳細情報 ](../configuration/about-subdomain-delegation.md)
+1. この条件に関連付けるサブドメインを選択します。[詳しくは、サブドメインを参照してください。](../configuration/about-subdomain-delegation.md)
 
    >[!NOTE]
    >
@@ -193,4 +193,4 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 >[!NOTE]
 >
->配信品質について詳しくは、[ この節 ](../reports/deliverability.md) を参照してください。
+>配信品質について詳しくは、[この節](../reports/deliverability.md)を参照してください。

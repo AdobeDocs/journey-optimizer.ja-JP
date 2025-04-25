@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 ![](assets/cja-sub-access.png)
 
-Customer Journey Analytics Workspace の詳細と、データのフィルタリングおよび分析方法については、[ このページ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home) を参照してください。
+Customer Journey Analytics ワークスペースと、データのフィルタリングおよび分析方法について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)を参照してください。
 
 ## 購読リストの追加
 

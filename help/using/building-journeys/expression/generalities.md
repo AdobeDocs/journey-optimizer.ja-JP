@@ -9,15 +9,15 @@ level: Experienced
 keywords: 構文, エディター, ジャーニー
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 高度な式エディターの構文 {#syntax}
 
-[高度な式エディター](expressionadvanced.md)を使用する際の構文の基本事項を以下に示します。高度な式エディターの使用例は、[ このページ ](advanced-editor-use-cases.md) で確認できます。
+[高度な式エディター](expressionadvanced.md)を使用する際の構文の基本事項を以下に示します。高度な式エディターの使用例について詳しくは、[このページ](advanced-editor-use-cases.md)を参照してください。
 
 ## 括弧と式の優先度 {#parentheses-and-expression-priority}
 
@@ -36,7 +36,7 @@ ht-degree: 91%
 
 大文字と小文字の区別に関する様々なルールを次に示します。
 
-* すべての演算子（and、or など）は小文字で記述する必要があります。 例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
+* すべての演算子（and、or など）は小文字で記述する必要があります。例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
 * すべての関数名では大文字と小文字が区別されます。例：_inAudience()_ は有効なのに対して、_INAUDIENCE()_ 関数は有効ではありません。
 * フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語の組み込み要素ではなく、エンドユーザーが作成します。
 

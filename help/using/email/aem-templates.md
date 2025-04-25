@@ -12,9 +12,9 @@ level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
 
    ![](assets/aem_ajo_2.png)
 
-1. **[!UICONTROL テンプレートのプロパティ]**&#x200B;ウィンドウで、「**[!UICONTROL アクセスを管理]**」ボタンを使用して、カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てます。 [ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)
+1. **[!UICONTROL テンプレートのプロパティ]**&#x200B;ウィンドウで、「**[!UICONTROL アクセスを管理]**」ボタンを使用して、カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てます。 [詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)
 
 1. Experience Manager テンプレートをさらにパーソナライズし、コンテンツにカスタムパーソナライゼーションを追加するには、「**[!UICONTROL コンテンツを編集]**」をクリックします。こうすることで、簡単に変更を加えたり、特定のニーズに合わせてテンプレートを調整したりできます。[詳細情報](../email/get-started-email-design.md)
 
@@ -109,7 +109,7 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
 
 1. パーソナライズしたコンテンツを Experience Manager のテンプレートに追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを使用して、メッセージでの表示をプレビューします。
 
-[プレビューおよびテストプロファイルの詳細情報](../content-management/preview-test.md)
+[詳しくは、プレビューとテストプロファイルを参照してください](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

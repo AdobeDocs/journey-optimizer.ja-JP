@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,5 +25,5 @@ ht-degree: 94%
 
 様々な実装方法について詳しくは、コードベースのチャネルガイドを参照してください。このガイドでは、各実装方法の詳細と、様々なパーソナライゼーションおよび実験のユースケースのサンプル実装について説明します。
 
-➡️ [ コードベースの実装方法の詳細については、こちらを参照してください ](../../code-based/code-based-implementation-samples.md)
+➡️ [詳しくは、コードベースの実装方法を参照してください。](../../code-based/code-based-implementation-samples.md)
 

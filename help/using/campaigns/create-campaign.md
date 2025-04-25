@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1277'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 新しいキャンペーンを作成するには、左側のパネルの&#x200B;**[!UICONTROL キャンペーン]**&#x200B;メニューを参照し、「**[!UICONTROL キャンペーンを作成]**」をクリックします。また、既存のライブキャンペーンを複製して新しいキャンペーンを作成することもできます。[方法についてはこちらを参照してください](modify-stop-campaign.md#duplicate)。
 
-開始する前に、キャンペーンの前提条件を [ このページ ](get-started-with-campaigns.md#before-starting-campaign-prerequisites) で確認してください。
+開始する前に、キャンペーンの前提条件について詳しくは、[このページ](get-started-with-campaigns.md#before-starting-campaign-prerequisites)を参照してください。
 
 ## キャンペーンタイプの選択 {#campaigntype}
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 
 1. （オプション）「**タグ**」フィールドを使用して、Adobe Experience Platform 統合タグをキャンペーンに割り当てます。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。[詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
 
-1. （オプション）アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。アクセス制限を追加するには、このページの上部にある「**[!UICONTROL アクセスを管理]**」ボタンを参照します。権限のあるラベルのみを選択します。[ オブジェクトレベルのアクセス制御の詳細情報 ](../administration/object-based-access.md)。
+1. （オプション）アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。アクセス制限を追加するには、このページの上部にある「**[!UICONTROL アクセスを管理]**」ボタンを参照します。権限のあるラベルのみを選択します。[詳しくは、オブジェクトレベルのアクセス制御を参照してください](../administration/object-based-access.md)。
 
 ## キャンペーンオーディエンスの定義 {#audience}
 
@@ -65,7 +65,7 @@ ht-degree: 97%
 
 1. 「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストを表示します。オーディエンスについて詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
-1. 「**[!UICONTROL ID タイプ]**」フィールドで、選択したオーディエンスから個人を識別するために使用するキーのタイプを選択します。既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。標準 ID 名前空間については、[ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} を参照してください。
+1. 「**[!UICONTROL ID タイプ]**」フィールドで、選択したオーディエンスから個人を識別するために使用するキーのタイプを選択します。既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。標準 ID 名前空間について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}を参照してください。
 
    1 つのキャンペーンで使用できる ID タイプは 1 つだけです。様々な ID の中から選択した ID タイプを持たないセグメントに属する個人は、キャンペーンのターゲットにすることができません。
 
@@ -135,7 +135,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL アクショントラッキング]**」セクションで、配信に対する受信者の反応を追跡するかどうかを指定します。クリック数や開封数を追跡できます。
 
-   キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。[ キャンペーンレポートの詳細情報 ](../reports/campaign-global-report-cja.md)
+   キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。[詳しくは、キャンペーンレポートを参照してください](../reports/campaign-global-report-cja.md)
 
 ## キャンペーンのスケジュール {#schedule}
 

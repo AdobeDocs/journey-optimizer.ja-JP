@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1362'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 
 * 「**[!UICONTROL メディアを追加]**」ボタンを使用して、**[!DNL Adobe Experience Manager Assets]** 内のアセットを選択します。
 
-  **[!DNL Adobe Experience Manager Assets]** の使用方法については、[ このページ ](../integrations/assets.md) を参照してください。
+  **[!DNL Adobe Experience Manager Assets]** の使用方法について詳しくは、[このページ](../integrations/assets.md)を参照してください。
 
 * または、「**[!UICONTROL メディアを追加]**」フィールドにメディアの URL を入力します。この場合、パーソナライズ機能を URL に追加できます。
 
@@ -107,7 +107,7 @@ iOS バージョンでは、通知カテゴリ識別子が指定されます。�
 >title="プッシュ通知のカスタムデータを設定します。"
 >abstract="モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加します。"
 
-**[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。Adobe Experience Platformでのプッシュ通知の設定方法の詳細については、[ この節 ](push-gs.md) を参照してください。
+**[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。Adobe Experience Platform でのプッシュ通知の設定方法について詳しくは、[この節](push-gs.md)を参照してください
 
 ## 詳細オプション {#advanced-options-push}
 

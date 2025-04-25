@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2719'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->**オーディエンス** と **決定ルール** の使用上の違いについて詳しくは、[ この節 ](#segments-vs-decision-rules) を参照してください。
+>**オーディエンス**&#x200B;と&#x200B;**決定ルール**&#x200B;の使用上の違いについて詳しくは、[この節](#segments-vs-decision-rules)を参照してください。
 
 * デフォルトでは、「**[!UICONTROL すべての訪問者]**」オプションが選択されています。つまり、すべてのプロファイルがオファーを提示される資格があります。
 
@@ -103,7 +103,7 @@ ht-degree: 97%
 
   >[!CAUTION]
   >
-  >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[ イベント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events) に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
+  >イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
 
 オーディエンスまたは決定ルールを選択すると、推定される認定プロファイルに関する情報が表示されます。「**[!UICONTROL 更新]**」をクリックして、データを更新します。
 
@@ -129,7 +129,7 @@ ht-degree: 97%
 
   一方、決定ルールは、Adobe Experience Platform で使用可能なデータに基づいており、オファーを誰に表示できるかを決定します。特定のプレースメントのオファーまたは決定でルールが選択されると、決定が行われるたびにそのルールが実行されるので、各プロファイルが最新かつ最適なオファーを確実に取得できます。
 
-  決定ルールについて詳しくは、[ この節 ](creating-decision-rules.md) を参照してください。
+  決定ルールについて詳しくは、[この節](creating-decision-rules.md)を参照してください。
 
 ## キャッピング {#capping}
 
@@ -191,7 +191,7 @@ ht-degree: 97%
   >
   >インプレッションをキャッピングイベントとして使用できるのは、**インバウンドチャネル**&#x200B;のみです。
 
-* **[!UICONTROL カスタムイベント]**：送信されるオファーの数の制限に使用するカスタムイベントを定義できます。 例えば、引き換え回数が 10000 になるまで、または特定のプロファイルが 1 回引き換えられるまでに引き換え回数を制限できます。これを行うには、[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja) スキーマを使用してカスタムイベントルールを作成します。
+* **[!UICONTROL カスタムイベント]**：送信されるオファーの数の制限に使用するカスタムイベントを定義できます。 例えば、引き換え回数が 10000 になるまで、または特定のプロファイルが 1 回引き換えられるまでに引き換え回数を制限できます。これを行うには、[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 

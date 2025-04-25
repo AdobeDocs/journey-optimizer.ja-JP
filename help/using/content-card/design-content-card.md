@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 カードのオーサリング構造は、フォームベースのオーサリングエクスペリエンスを提供し、マーケターが基本入力を提供できるようにします。この入力は開発者がレンダリングするのに使用できます。
 
-コンテンツを定義し、パーソナライズしたら、レビューしてアクティブ化できます。設定したスケジュールに従ってキャンペーンが送信されます。[ 詳しくは、このページを参照してください ](../campaigns/review-activate-campaign.md)。
+コンテンツを定義し、パーソナライズしたら、レビューしてアクティブ化できます。設定したスケジュールに従ってキャンペーンが送信されます。[詳しくは、このページを参照してください](../campaigns/review-activate-campaign.md)。
 
 ## 「コンテンツ」タブ {#content-tab}
 

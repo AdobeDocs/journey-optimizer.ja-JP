@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 94%
 >
 >複数のコードベースのジャーニーまたはキャンペーンが、コンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー／キャンペーンが優先されます。
 
-コードベースのジャーニーまたはキャンペーンを公開すると、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択した[コードベースのエクスペリエンス設定](code-based-configuration.md)で定義されたサーフェスのコンテンツを取得する責任があります。お客様による様々な実装について詳しくは、[ この節 ](code-based-implementation-samples.md) を参照してください。
+コードベースのジャーニーまたはキャンペーンを公開すると、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択した[コードベースのエクスペリエンス設定](code-based-configuration.md)で定義されたサーフェスのコンテンツを取得する責任があります。様々な顧客の実装について詳しくは、[この節](code-based-implementation-samples.md)を参照してください。
 
 ### コードベースのジャーニーの公開 {#publish-code-based-journey}
 
@@ -45,7 +45,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >ジャーニーの公開について詳しくは、[ この節 ](../building-journeys/publishing-the-journey.md) を参照してください。
+   >ジャーニーの公開について詳しくは、[この節](../building-journeys/publishing-the-journey.md)を参照してください。
 
 コードベースのジャーニーのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。ジャーニーの各受信者に、変更内容が表示されます。
 
@@ -67,7 +67,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >キャンペーンのアクティブ化について詳しくは、[ この節 ](../campaigns/review-activate-campaign.md) を参照してください。
+   >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
 コードベースキャンペーンのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
 

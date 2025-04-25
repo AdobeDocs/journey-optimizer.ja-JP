@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ AI モデルを作成するには、次の手順を行います。
    >* **インプレッションイベント**（表示されるオファー）
    >* **コンバージョンイベント**（メールまたは web でのクリックにつながるオファー）
    >
-   >これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。詳しくは、[Adobe Experience Platform web SDKの概要 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を参照してください。
+   >これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。詳しくは、[Adobe Experience Platform Web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
 
 1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。そのようなデータセットを作成する方法については、[こちらの節](../data-collection/create-dataset.md)を参照してください。 <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 

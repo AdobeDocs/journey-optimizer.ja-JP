@@ -10,9 +10,9 @@ level: Experienced
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -113,13 +113,13 @@ GDPR などの規制では、データ主体はいつでも同意を変更でき
 
 >[!NOTE]
 >
->プライバシーの管理と適用される法規制について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} を参照してください。
+>プライバシーの管理と適用される規制について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"}を参照してください。
 
 ### BCC レポートデータ {#bcc-reporting}
 
 BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。ただし、その情報は、**[!UICONTROL AJO BCC フィードバックイベントデータセット]**&#x200B;と呼ばれるシステムデータセットに保存されます。このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
 
-ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[ この節 ](../data/get-started-datasets.md#access-datasets) を参照してください。
+ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -232,7 +232,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
 また、`x-message-profile-id` ヘッダーは、[AJO メッセージフィードバックイベントデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)（送信済みメール）および [AJO BCC フィードバックイベントデータセット](#bcc-reporting)（BCC コピー）のシステムデータセットにも保存されます。これらのデータセットに対してクエリを実行して、BCC コピーと対応する実際のメールを紐付けることができます。
 
-* ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[ この節 ](../data/get-started-datasets.md#access-datasets) を参照してください。
+* ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 
 * [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} で提供されるクエリエディターを使用します。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
 
