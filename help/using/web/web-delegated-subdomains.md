@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 72%
 >title="Web サブドメインの設定"
 >abstract="アドビにデリゲートされているサブドメインのリストからサブドメインを選択します。この web サブドメインをデフォルトのサブドメインとして設定できますが、一度に使用できるデフォルトのサブドメインは 1 つだけです。"
 
-## Get started with web subdomains {#gs-web-subdomains}
+## Web サブドメインの基本を学ぶ {#gs-web-subdomains}
 
 Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../integrations/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。
 
-既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
+既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 
 Web サブドメインの設定は **すべての環境に共通** です。 したがって、
 
@@ -48,9 +48,9 @@ Web サブドメインの設定は **すべての環境に共通** です。 し
 
 ## Web サブドメインへのアクセスと管理 {#access-web-subdomains}
 
-To access subdomains for web experiences, follow these steps:
+Web エクスペリエンスのサブドメインにアクセスするには、次の手順に従います。
 
-1. Browse to the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]**. 現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]** メニューを参照し、**[!UICONTROL Web 設定]**/**[!UICONTROL Web サブドメイン]** を選択します。 現在のサンドボックスで設定されているすべてのサブドメインが表示されます。
 
    ![](assets/web-access-subdomains.png)
 
@@ -162,14 +162,14 @@ Web サブドメインのデリゲートを解除する場合は、Adobe担当�
 
 まず、[!DNL Journey Optimizer] で次の手順を実行します。
 
-1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法について詳しくは、こちらを参照してください](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 <!--
 1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 
-1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法について詳しくは、こちらを参照してください](../campaigns/modify-stop-campaign.md#stop)
+1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法についてはこちらを参照](../campaigns/modify-stop-campaign.md#stop)
 
-1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法について詳しくは、こちらを参照してください](../building-journeys/end-journey.md#stop-journey)
+1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法についてはこちらを参照](../building-journeys/end-journey.md#stop-journey)
 
 1. Web サブドメインが [ 新しいデリゲートサブドメイン ](#web-configure-new-subdomain) だった場合は、そのサブドメインに関連付けられている DNS エントリを削除します。
 

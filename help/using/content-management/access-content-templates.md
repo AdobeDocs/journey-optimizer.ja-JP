@@ -10,7 +10,7 @@ exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 * タイプ
 * チャネル
 * 作成日または変更日
-* タグ - [ タグの詳細 ](../start/search-filter-categorize.md#tags)
+* タグ - [詳しくは、タグを参照してください](../start/search-filter-categorize.md#tags)
 
 また、自分が作成または変更した項目のみを表示するように選択することもできます。
 

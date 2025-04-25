@@ -11,7 +11,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 56%
 >title="ランディングページプリセットの作成"
 >abstract="ランディングページを構築して Journey Optimizer 全体で利用するには、使用するサブドメインを含むランディングページプリセットを作成する必要があります。"
 
-## Get started with landing page presets {#gs-lp-presets}
+## ランディングページプリセットの基本を学ぶ {#gs-lp-presets}
 
-When [creating a landing page](../landing-pages/create-lp.md#create-a-lp), you must select a landing page preset to be able to build the landing page and leverage it through **[!DNL Journey Optimizer]**. The preset includes the subdomain to use for the landing pages based on this preset.
+[ ランディングページの作成 ](../landing-pages/create-lp.md#create-a-lp) を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を通じて活用できるように、ランディングページプリセットを選択する必要があります。 プリセットには、このプリセットに基づいてランディングページに使用するサブドメインが含まれています。
 
-Before creating a preset, ensure you have previously configured at least one landing page subdomain. [Learn how to create a landing page subdomain](lp-subdomains.md).
+プリセットを作成する前に、少なくとも 1 つのランディングページサブドメインを事前に設定していることを確認してください。 [ ランディングページのサブドメインの作成方法を説明します ](lp-subdomains.md)。
 
 ## ランディングページプリセットへのアクセス {#access-lp-presets}
 
-To access landing page presets, follow the steps below:
+ランディングページプリセットにアクセスするには、次の手順に従います。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスします。
 
@@ -44,9 +44,9 @@ To access landing page presets, follow the steps below:
 
 ## ランディングページプリセットの作成 {#lp-create-preset}
 
-To create a landing page preset, follow the steps below:
+ランディングページプリセットを作成するには、次の手順に従います。
 
-1. Browse the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, then select **[!UICONTROL Landing page settings]** > **[!UICONTROL Landing page presets]**.
+1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]** メニューを参照し、**[!UICONTROL ランディングページ設定]**/**[!UICONTROL ランディングページプリセット]** を選択します。
 
 1. 「**[!UICONTROL ランディングページプリセットを作成]**」を選択します。
 
@@ -54,17 +54,17 @@ To create a landing page preset, follow the steps below:
 
 1. プリセットの名前と説明を入力します。
 
-   Names must begin with a letter (A-Z), and only contain alpha-numeric characters, underscore `_`, dot`.` and hyphen `-` characters.
+   名前は、文字（A ～ Z）で始め、英数字、アンダースコア `_`、ドット `.` ハイフン `-` 文字のみを含める必要があります。
 
 1. ドロップダウンリストからランディングページのサブドメインを選択します。
 
    ![](assets/lp_preset-subdomain.png)
 
-   To be able to select a subdomain, ensure you have previously configured at least one landing page subdomain. [方法](#lp-subdomains)
+   サブドメインを選択するには、少なくとも 1 つのランディングページサブドメインを事前に設定していることを確認してください。 [方法](#lp-subdomains)
 
    選択したサブドメインに対応する設定が表示されます。
 
-1. You can select the landing page subdomain for the tracking URL by checking the **[!UICONTROL Same as landing page subdomain]** option. [ トラッキングの詳細情報 ](../email/message-tracking.md)
+1. トラッキング URL のランディングページサブドメインを選択するには、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

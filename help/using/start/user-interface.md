@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -254,7 +254,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="ジャーニーのドライラン"
->abstract="ジャーニーを設計したら、ドライランを実行して、ジャーニーが機能し、手順が正しいことを確認します。 この公開モードを使用すると、通信をプロファイルに送信せずに、ジャーニーをスモークテストできます。"
+>abstract="ジャーニーを設計したら、ドライランを実行して、ジャーニーが機能し、手順が正しいことを確認します。この公開モードを使用すると、通信をプロファイルに送信せずに、ジャーニーをスモークテストできます。"
 
 
 

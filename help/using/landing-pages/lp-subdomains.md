@@ -11,7 +11,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 69%
 
 [ ランディングページプリセットの作成 ](lp-presets.md) を可能にするには、ランディングページに使用するサブドメインをセットアップする必要があります。
 
-既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
+既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 
 ランディングページのサブドメイン設定は **すべての環境に共通** です。 したがって、
 
@@ -145,9 +145,9 @@ ht-degree: 69%
 
 まず、[!DNL Journey Optimizer] で次の手順を実行します。
 
-1. サブドメインに関連付けられているすべてのランディングページを非公開にします。 [方法について詳しくは、こちらを参照してください](create-lp.md#access-landing-pages)
+1. サブドメインに関連付けられているすべてのランディングページを非公開にします。 [方法についてはこちらを参照](create-lp.md#access-landing-pages)
 
-1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法について詳しくは、こちらを参照してください](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 <!--
 1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)

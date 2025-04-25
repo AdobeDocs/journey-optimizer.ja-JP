@@ -1,6 +1,6 @@
 ---
 title: 決定ガードレールと制限
-description: 意思決定のガードレールと制限について詳しく説明します。
+description: 決定ガードレールと制限について説明します。
 feature: Decisioning
 role: User
 level: Intermediate
@@ -8,7 +8,7 @@ exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 

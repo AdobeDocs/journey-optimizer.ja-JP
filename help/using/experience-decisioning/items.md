@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
 source-wordcount: '1752'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -79,9 +79,9 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 +++
 
-* 決定項目の表示を 1 つまたは複数の Adobe Experience Platform オーディエンスのメンバーに制限するには、「**[!UICONTROL 1 つまたは複数のオーディエンスに分類される訪問者]**」オプションを選択し、左側のパネルから 1 つ以上のオーディエンスを追加し、**[!UICONTROL And]**／**[!UICONTROL Or]** 論理演算子を使用して結合します。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
+* 決定項目の表示を 1 つまたは複数の Adobe Experience Platform オーディエンスのメンバーに制限するには、「**[!UICONTROL 1 つまたは複数のオーディエンスに分類される訪問者]**」オプションを選択し、左側のパネルから 1 つ以上のオーディエンスを追加し、**[!UICONTROL And]**／**[!UICONTROL Or]** 論理演算子を使用して結合します。[オーディエンスの詳細情報を参照してください](../audience/about-audiences.md)。
 
-* 特定の決定ルールを決定項目に関連付けるには、「**[!UICONTROL ルール別]**」を選択し、目的のルールを左側のパネルから中央の領域にドラッグします。[ 決定ルールの詳細情報 ](rules.md)。
+* 特定の決定ルールを決定項目に関連付けるには、「**[!UICONTROL ルール別]**」を選択し、目的のルールを左側のパネルから中央の領域にドラッグします。[決定ルールの詳細情報を参照してください](rules.md)。
 
 ![](assets/item-constraints.png)
 

@@ -244,7 +244,7 @@ ht-degree: 89%
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
             + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
             + [テキストバージョンの生成](using/email/text-version-email.md)
-            + [メタデータを追加](using/email/email-metadata.md)
+            + [メタデータの追加](using/email/email-metadata.md)
          + スタイルを編集 {#edit-style}
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)

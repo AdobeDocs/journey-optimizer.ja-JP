@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 96%
 
 「**技術的な詳細をコピー**」を使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt` の情報がコピーされます。
 
-特定のプロファイルのジャーニーに関連する技術的なフィールドと、その使用方法について詳しくは [ このページを参照 ](expression/journey-properties.md) してください。
+特定のプロファイルのジャーニーに関連する技術的なフィールドとその使用方法について詳しくは、[このページ](expression/journey-properties.md)を参照してください。
 
 ## エントリと再エントリ {#entrance}
 
 プロファイルエントリモードは、右側の設定パネルのジャーニーレベルで定義されます。設定は次のとおりです。
 
-プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリおよび再エントリ管理について詳しくは、[ このページ ](entry-management.md) を参照してください。
+プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリと再エントリの管理について詳しくは、[このページ](entry-management.md)を参照してください。
 
 ### 再エントリを許可  {#allow-reentrance}
 
@@ -76,7 +76,7 @@ ht-degree: 96%
 
 ## アクセスの管理 {#manage-access}
 
-カスタムデータ使用ラベルまたはコアデータ使用ラベルをジャーニーに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[ オブジェクトレベルのアクセス制御（OLAC）の詳細情報 ](../administration/object-based-access.md)
+カスタムデータ使用ラベルまたはコアデータ使用ラベルをジャーニーに割り当てるには、「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)
 

@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
->title="開始日/時刻"
+>title="開始日時"
 >abstract="このジャーニーをトリガーにする日時を定義します。"
 
 >[!CONTEXTUALHELP]
@@ -37,8 +37,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
->title="リピート間隔"
->abstract="スケジューラーの呼び出し頻度を定義します。"
+>title="繰り返し間隔"
+>abstract="スケジューラーの繰り返し頻度を定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -47,7 +47,7 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="再エントリを強制"
+>title="再エントリを強制する"
 >abstract="各オーディエンスが読み取られる前に、すべてのジャーニー参加者をドロップします。"
 
 >[!CONTEXTUALHELP]

@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 81%
+ht-degree: 83%
 
 ---
 
@@ -29,21 +29,21 @@ ht-degree: 81%
 >title="サブドメインデリゲーション"
 >abstract="メールの送信を開始するには、サブドメインをアドビにデリゲートします。完了すると、DNS レコード、受信ボックス、送信者、返信先、バウンスアドレスが設定されます。"
 
-## Get started with email subdomains {#gs-delegate-subdomain}
+## メールサブドメインの基本を学ぶ {#gs-delegate-subdomain}
 
-ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。[ サブドメインデリゲーション ](about-subdomain-delegation.md) の詳細情報
+ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。詳しくは、[サブドメインデリゲーション](about-subdomain-delegation.md)を参照してください
 
 デフォルトで [!DNL Journey Optimizer]、を使用すると **最大 10 個のサブドメイン** をデリゲートできます。 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
 
 サブドメインを完全にデリゲートするか、CNAME を使用してアドビ固有のレコードを指すサブドメインを作成できます。
 
-完全なサブドメインデリゲーションは、推奨される方法です。両方の [ サブドメイン設定方法 ](about-subdomain-delegation.md#subdomain-delegation-methods) の違いの詳細。
+完全なサブドメインデリゲーションは、推奨される方法です。詳しくは、両方の[サブドメイン設定方法](about-subdomain-delegation.md#subdomain-delegation-methods)の違いを参照してください。
 
 サブドメインの設定は **すべての環境に共通** です。 したがって、サブドメインを変更すると、実稼動サンドボックスにも影響します。
 
 >[!CAUTION]
 >
->サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。 If you try to submit a subdomain for delegation when another one is in the **[!UICONTROL Processing]** status, you get an error message.
+>サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。 別のサブドメインのステータスが **[!UICONTROL 処理中]** となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
 
 ## サブドメインをAdobeに完全にデリゲート {#full-subdomain-delegation}
 
@@ -209,7 +209,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 1. **転送 DNS の作成**：これが最初にデリゲートするサブドメインである場合は、PTR レコードの作成に必要な転送 DNS をアドビが IP ごとに 1 つ作成します。
 
-1. **PTR レコードの作成**：TR レコード（リバース DNS レコードとも呼ばれます）は、メールをスパムとしてマークしないようにするために ISP に必要になるものです。Gmail では、IP ごとに PTR レコードを用意することも推奨しています。アドビは、サブドメインを初めてデリゲートするときにのみ PTR レコードを作成します（IP ごとに 1 つずつ、すべての IP がそのサブドメインを指します）。例えば、IP が *192.1.2.1* で、サブドメインが *email.example.com* の場合、PTR レコードは *192.1.2.1PTR r1.email.example.com* のようになります。 後から PTR レコードを更新して、新しいデリゲートドメインを指すようにすることができます。[PTR レコードの詳細情報 ](ptr-records.md)
+1. **PTR レコードの作成**：TR レコード（リバース DNS レコードとも呼ばれます）は、メールをスパムとしてマークしないようにするために ISP に必要になるものです。Gmail では、IP ごとに PTR レコードを用意することも推奨しています。アドビは、サブドメインを初めてデリゲートするときにのみ PTR レコードを作成します（IP ごとに 1 つずつ、すべての IP がそのサブドメインを指します）。例えば、IP が *192.1.2.1* で、サブドメインが *email.example.com* の場合、PTR レコードは *192.1.2.1PTR r1.email.example.com* のようになります。後から PTR レコードを更新して、新しいデリゲートドメインを指すようにすることができます。[PTR レコードについての詳細情報](ptr-records.md)
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
@@ -223,15 +223,15 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 まず、[!DNL Journey Optimizer] で次の手順を実行します。
 
-1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法について詳しくは、こちらを参照してください](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 1. ランディングページのサブドメイン、SMS サブドメイン、およびこのサブドメインに関連付けられた web サブドメインのデリゲートを解除します。
 
    [ ランディングページ ](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[SMS](../sms/sms-subdomains.md#undelegate-subdomain) または [web サブドメイン ](../web/web-delegated-subdomains.md#undelegate-subdomain) ごとに専用のリクエストを生成する必要があります。
 
-1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法について詳しくは、こちらを参照してください](../campaigns/modify-stop-campaign.md#stop)
+1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法についてはこちらを参照](../campaigns/modify-stop-campaign.md#stop)
 
-1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法について詳しくは、こちらを参照してください](../building-journeys/end-journey.md#stop-journey)
+1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法についてはこちらを参照](../building-journeys/end-journey.md#stop-journey)
 
 1. サブドメインにリンクされた [PTR レコード ](ptr-records.md#edit-ptr-record) を別のサブドメインに指定します。
 

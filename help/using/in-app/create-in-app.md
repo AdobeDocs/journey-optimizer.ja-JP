@@ -147,7 +147,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アプリ内メッセージ]**」を選択し、新しい設定を選択または作成します。
 
-   アプリ内設定について詳しくは、[ このページ ](inapp-configuration.md) を参照してください。
+   アプリ内設定について詳しくは、[このページ](inapp-configuration.md)を参照してください。
 
    ![](assets/in_app_create_1.png)
 

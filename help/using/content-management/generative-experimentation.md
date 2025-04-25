@@ -11,7 +11,7 @@ exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 69%
+ht-degree: 71%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 69%
 
    ![](assets/experiment-genai-3.png)
 
-1. コンテンツ実験ウィンドウから「**[!UICONTROL 実験の設定]**」ボタンにアクセスして、実験を設定します。[ コンテンツ実験の詳細情報 ](../content-management/content-experiment.md)
+1. コンテンツ実験ウィンドウから「**[!UICONTROL 実験の設定]**」ボタンにアクセスして、実験を設定します。[コンテンツ実験についての詳細情報](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 

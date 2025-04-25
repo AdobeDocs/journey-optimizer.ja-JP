@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 69%
 
 SMS/MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定の作成 ](sms-configuration.md#message-preset-sms) 時に選択するサブドメインを設定する必要があります。
 
-既にAdobeにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。 サブドメインのAdobeへのデリゲートについて詳しくは、[ この節 ](../configuration/delegate-subdomain.md) を参照してください。
+既にAdobeにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。 サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 
 SMS サブドメインの設定は **すべての環境間で共有** されます。 したがって、SMS サブドメインを変更すると、他の実稼動サンドボックスにも影響します。
 
@@ -141,14 +141,14 @@ SMS サブドメインのデリゲートを解除する場合は、Adobe担当�
 
 まず、[!DNL Journey Optimizer] で次の手順を実行します。
 
-1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法について詳しくは、こちらを参照してください](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 <!--
 1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 
-1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法について詳しくは、こちらを参照してください](../campaigns/modify-stop-campaign.md#stop)
+1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法についてはこちらを参照](../campaigns/modify-stop-campaign.md#stop)
 
-1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法について詳しくは、こちらを参照してください](../building-journeys/end-journey.md#stop-journey)
+1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法についてはこちらを参照](../building-journeys/end-journey.md#stop-journey)
 
 1. SMS サブドメインが [ 新しいデリゲートサブドメイン ](#sms-configure-new-subdomain) だった場合は、そのサブドメインに関連付けられている DNS エントリを削除します。
 

@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ IP プールを作成するには、次の手順に従います。
    >
    >インスタンスでプロビジョニングされた IP アドレスがすべてリストに表示されます。
 
-IP を選択すると、IP に関連付けられた PTR レコードがリストから表示されます。 これにより、IP プールを作成する際に各 IP のブランディング情報を検証し、例えば同じブランディング情報を持つ IP を選択できます。 [PTR レコードの詳細情報 ](ptr-records.md)
+IP を選択すると、IP に関連付けられた PTR レコードがリストから表示されます。 これにより、IP プールを作成する際に各 IP のブランディング情報を検証し、例えば同じブランディング情報を持つ IP を選択できます。 [PTR レコードについての詳細情報](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 

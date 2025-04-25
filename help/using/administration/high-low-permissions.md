@@ -23,7 +23,7 @@ ht-degree: 98%
 各役割は、ユーザーが様々な機能にアクセスできる権限で構成されています。
 権限は次の 2 つのタイプに分けることができます。
 
-* **上位の権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、**[!UICONTROL 役割]**&#x200B;に割り当てることができる様々な権限を表します。上位の権限は、下位のレベル権限を含みます。高レベルの権限について詳しくは、[ このページ ](ootb-permissions.md) を参照してください。
+* **上位の権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、**[!UICONTROL 役割]**&#x200B;に割り当てることができる様々な権限を表します。上位の権限は、下位のレベル権限を含みます。上位の権限について詳しくは、[このページ](ootb-permissions.md)を参照してください。
 
 * **下位の権限**：上位の権限から取得される様々な権限を表します。
 
