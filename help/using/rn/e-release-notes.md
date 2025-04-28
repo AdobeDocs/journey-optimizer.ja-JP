@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 12%
 
 ---
 
@@ -22,30 +22,28 @@ ht-degree: 100%
 **以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
 
-## 2025年3月早期リリースノート {#25-3-rn}
+## 2025 年 4 月先行リリースノート {#25-4-rn}
 
 
 **以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日に公開されます。
 
-**リリース日**：2025年3月26～27日（PT）
+**リリース日**:2025 年 4 月 29～30 日
 
 
-### 新機能 {#25-03-features}
+### 新機能 {#25-04-features}
 
 このリリースに含まれる新機能を以下に示します。
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express との統合</strong><br/></th>
+<th><strong>Adobe Expressの統合（LA）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer の Adobe Express 統合により、コンテンツ作成中に Adobe Express の編集ツールを直接使用できます。これにより、アセットのサイズ変更、背景の削除、切り抜き、JPEG または PNG への変換が可能になります。<p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey OptimizerはAdobe Expressと統合され、ユーザーはクリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。 この統合により、キャンペーン全体でパーソナライズされたコンテンツを設計およびデプロイするプロセスが簡素化されます。 この機能は現在、限定提供（LA）になっています。</p>
 </td>
 </tr>
 </tbody>
@@ -54,14 +52,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー指標</strong><br/></th>
+<th><strong>キャンペーンおよびジャーニーインベントリ（LA）のカレンダー表示</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ジャーニー指標を使用すると、ビジネスにとって最も重要な指標をまたいでアクティビティの影響を測定し、パフォーマンスに関するより明確なインサイトを得ることができます。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>キャンペーンとジャーニーのアクティベーションで新しいカレンダー表示が使用できるようになりました。 この機能は、スケジュールされたアクティビティを視覚的に表現し、ユーザーがキャンペーンとジャーニーをより効果的に表示および管理できるようにします。 カレンダー項目を選択すると、詳細情報を含む右パネルが開きます。 この機能は現在、限定提供（LA）になっています。</p>
 </td>
 </tr>
 </tbody>
@@ -70,15 +67,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーのカレンダー表示（限定提供）</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Serviceの統合（GA）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>カレンダー表示では、すべてのジャーニーのアクティベーションを視覚化できるようになりました。この機能は、一部の顧客グループに限定提供としてリリースされています。<p>
-<p>この変更は、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey OptimizerとAdobe Experience Manager as a Cloud Service間の統合の一般提供。 この統合により、パーソナライズされたカスタマージャーニーに対するシームレスなコンテンツのソーシングと管理が可能になります。</p>
 </td>
 </tr>
 </tbody>
@@ -87,107 +82,220 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic Media との統合（限定提供）</strong><br/></th>
+<th><strong>Experience LeagueのPersonalizationプレイグラウンド</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media アセットが Journey Optimizer で直接使用可能になり、アクセスできるようになりました。この統合により、次のことを実行できます。
+<p>Experience Leagueは、インタラクティブなPersonalization Playground を提供するようになりました。 この機能を使用すると、Adobe Journey Optimizer内のパーソナライゼーション機能を調べて練習できます。 ユーザーは、パーソナライゼーションコードを記述し、サンプルペイロードを使用してテストし、実際のシナリオをシミュレートして、学習体験を強化できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>バッチオーディエンス評価（LA）後のトリガージャーニーの実行</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ユーザーは、オーディエンスを読み取りノードで、バッチオーディエンスの新しい評価を待機する時間枠を指定できるようになりました。 ウィンドウ内で評価が完了した場合はジャーニーがトリガーされ、それ以外の場合はスキップされます。 この機能は、バッチセグメント化ジョブの遅延に対応するもので、現在、限定提供（LA）になっています。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>次世代のプルーフ（一般公開）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>次世代のプルーフ機能が一般公開されました。 この機能強化により、コンテキスト属性、多言語コンテンツ、実験およびコンテンツテンプレートがサポートされるようになり、より堅牢で柔軟なプルーフエクスペリエンスが提供されます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>独自の SMS プロバイダーの使用（GA）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerでカスタム SMS プロバイダーがサポートされるようになり、好みの SMS サービスを統合して、通信の柔軟性を高めることができます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Integration with Adobe Express</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A calendar view is now allows you to visualize all journeys activations. This capability is released as a Limited Availability to a select group of customers.<p>
+<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration with Dynamic Media (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:
 <ul>
-<li>リアルタイム更新でアセットを一元管理</li>
-<li>幅や高さなどのアセット設定を即座に変更</li>
-<li>テキストオーバーレイ付きの画像を使用してコンテンツをパーソナライズ</li>
-<li>コンテンツを更新し、パーソナライゼーションフィールドを追加して、Dynamic Media テンプレートをカスタマイズ</li>
+<li>Centrally manage assets with real-time updates</li>
+<li>Modify your assets settings such as width and height instantly</li>
+<li>Personalize your content using images with text overlays</li>
+<li>Customize Dynamic Media templates by updating your content and adding personalization fields</li>
 </ul>
 <p>
-<p>この統合は、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>This integration is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Adobe GenStudio との統合（限定提供）</strong><br/></th>
+<th><strong>LINE channel (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>マーケティング効率を高め、ブランドの一貫性を維持するために、パフォーマンスマーケティングエクスペリエンス用の GenStudio を Journey Optimizer とシームレスに統合できるようになりました。これにより、GenStudio の AI を活用したコンテンツ作成と Journey Optimizer の高度なオーケストレーション機能を活用できるようになります。<p>
-<p>Journey Optimizer での GenStudio 統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールド（限定提供）では使用できません。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
-<thead>
-<tr>
-<th><strong>LINE チャネル（限定提供）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer では、クロスチャネル機能を拡張し、LINE チャネルのサポートを含めました。この機能強化により、LINE エクスペリエンスを作成、編集、プレビューできます。これにより、よりパーソナライズされた魅力的なインタラクションが可能になります。LINE を使用すると、より多くのお客様とつながり、関連性の高いコンテンツを送信し、エンゲージメントを向上させることができます。<p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
+### 機能強化 {#25-04-improv}
 
-### 機能強化 {#25-03-improv}
+**オーディエンス**
 
-**パーソナライゼーションエディター**（公開日：3月12日（PT））
+- **エンリッチメント属性の制限を削除**
 
-Journey Optimizer パーソナライゼーションエディターが更新され、新しい機能が追加されました。
+  ヘルスケアおよびプライバシーシールドを持つお客様は、Adobe Journey Optimizer チャネルでオーディエンス構成エンリッチメント属性を使用して、データ使用機能を強化できるようになりました。
 
-* **コードエディターのデザインの更新** - 操作性と焦点を向上させる、よりクリーンで最新のインターフェイス。
-* **検索と置換** - エディター内でコンテンツをすばやく検索して置換する機能が追加されました。
-* **取り消しとやり直しのサポート** - 変更を簡単に元に戻したり、再適用したりできます。
-* **カスタマイズ可能なフォントサイズ** - 読みやすくなるように、エディターのフォントサイズを調整できます。
-* **インライン JSON 検証** - エラー検出を高速化するには、JSON コンテンツに対してリアルタイムのクライアントサイド検証を提供します。
-* **プロファイル属性とコンテキスト属性のオートコンプリート** - コンテンツ作成を効率化するスマートな候補を表示します。
-* **構文のハイライト表示の強化** - コード構造をより視覚的に区別することで、読みやすさを向上します。
+**メールチャネル**
 
-![パーソナライゼーションエディターの新機能を示すビデオ](assets/do-not-localize/personalization-editor.gif)
+- **アクセシビリティをサポートするための追加フィールド**
 
-詳しくは、[詳細なドキュメント](../personalization/personalization-build-expressions.md)を参照してください。
+  アクセシビリティをサポートするために、メールエディターに 2 つの新しいフィールドが追加されました。ドキュメントタイトルの `<title>` 要素と、`<html>` タグの言語仕様の `lang` 属性です。
+
+- **メールサーフェスPersonalizationの機能強化 – URL トラッキング**
+
+  E メールのパーソナライゼーションの URL トラッキングが強化され、より詳細なトラッキングとレポートが可能になりました。 更新には、パーソナライズされたメール設定のための改善された設定オプションが含まれています。
 
 
-**キャンペーン**
+- **[Beta] メールエディターのテーマに関する改善点**
 
-* キャンペーンリストでキャンペーンを選択すると、詳細を表示するパネルが開くようになりました。
-* サンドボックスから別のサンドボックスにキャンペーンをコピーできるようになりました。
+  新しいベータ版機能では、メールエディターにテーマが導入されました。これにより、マーケターは再利用可能なスタイルを定義し、事前設定済みのモジュールを使用してメールを迅速に作成できます。
+
+**サンドボックスツール**
+
+- **決定サンドボックスコピー**
+
+  サンドボックス間で決定オブジェクトをコピーできるようになり、テストおよびデプロイメントワークフローを合理化します。 意思決定オブジェクト専用のサブセクションがドキュメントに追加されます。
+
+- **カスタムアクション用のサンドボックスツール**
+
+  カスタムアクションが、サンドボックスツール機能を使用してコピーできるAdobe Journey Optimizer オブジェクトのリストに含まれるようになりました。これにより、テストとデプロイメントを合理化できます。
+
+- **キャンペーン用サンドボックスツール**
+
+  サンドボックスツール機能を使用してキャンペーンをコピーできるようになり、環境間のキャンペーンオブジェクトの移行がシンプルになりました。
 
 **パーソナライゼーション**
 
-パーソナライゼーションエディターに新しい「ピル」ボタンが追加されました。有効にすると、プロファイルとコンテキスト属性がピルとして表示され、コードの読みやすさが向上します。
+- **Personalization エディター – 錠剤の有効化**
 
-**承認**
+  パーソナライゼーションエディターの新しいボタンを使用すると、ユーザーはピルのオン/オフを切り替えることができます。 この機能により、エディターの内容が明確になり、dynamic media の画像パラメーターとプロファイル属性を容易に編集できるようになります。
 
-承認ポリシーの条件を定義する際に、タグやオブジェクトカテゴリでフィルタリングするオプションが追加されました。
+- **Personalization - Observable Schema**
 
-**チャネル設定**
+  パーソナライゼーションエディターに観察可能なスキーマのサポートが追加され、スキーマベースの属性を動的に更新できるようになりました。
 
-Adobe Experience Platform 統合タグをチャネル設定に割り当てることができるようになりました。これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。
+- **新しいシステムコンテキスト変数**
+
+  ターゲットプロファイルに送信される各メッセージを一意に識別する新しいシステムコンテキスト変数が導入されました。 この変数は、トラッキングとパーソナライゼーションの目的で使用できます。
+
+
+
+**決定**
+
+- **AI モデル – ランキングの統一 – 新しい式ビルダー**
+
+  マーケターは、新しい式ビルダーを使用して、Adobe Decisioning AI モデルのリアルタイムスコアを調整できるようになりました。 この機能は、優先度とモデルスコアのランキング調整を一元化します。
+
+**ナビゲーション**
+
+- **フォルダー – ランディングページ**
+
+  UI の変更、フロー、API の更新など、Adobe Journey Optimizerのランディングページのフォルダー管理を強化しました。
+
+- **フォルダー – テンプレートとフラグメント**
+
+  テンプレートやフラグメントのフォルダーに対する限定提供のメンションが削除され、この機能が一般公開されたことを示しました。
+
+- **キャンペーンリストの右側のパネル**
+
+  キャンペーン リストに右側のパネルが追加され、キャンペーンを選択すると詳細情報が提供されます。
+
+
 
 **配信品質**
 
-親側から管理されている DMARC を使用してサブドメインをデリゲートできるようになりました。
+- **IP の追加とデリゲートされたサブドメインの削除のワークフローが改善されました**
 
-**ビジネスルール**
+  追加 IP とデリゲートされたサブドメインの管理ワークフローが改善され、ユーザーのプロセスが簡素化されました。
 
-**バッチ**&#x200B;セグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください
+**プレイブック**
 
-**コンテンツ管理**
+- **[Beta] 独自のプレイブックを作成**
 
-フラグメントとコンテンツテンプレートを簡単に管理するには、フォルダーを使用して、構造化された階層により効果的に整理できるようになりました。
+  Adobe Journey Optimizerで独自のプレイブックを作成し、ジャーニー計画のカスタマイズと柔軟性を高めることができるようになりました。
