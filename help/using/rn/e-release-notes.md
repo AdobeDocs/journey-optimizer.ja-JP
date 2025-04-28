@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>キャンペーンおよびジャーニーインベントリのカレンダー表示（限定提供）</strong><br/></th>
+<th><strong>キャンペーンおよびジャーニー在庫用のカレンダー表示（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>Experience LeagueのPersonalizationプレイグラウンド</strong><br/></th>
+<th><strong>Experience LeagueのPersonalization遊び場</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ ht-degree: 16%
 
 **オーディエンス**
 
-- **エンリッチメント属性の制限を削除**
+- **オーディエンス構成エンリッチメント属性の制限を削除**
 
   オーディエンスコンポジションのオーディエンスと属性を、Healthcare Shield またはプライバシーとセキュリティシールドで使用できるようになりました。
 
@@ -233,7 +233,7 @@ ht-degree: 16%
 
 **サンドボックスツール**
 
-- **決定サンドボックスコピー**
+- **決定サンドボックスのコピー**
 
   サンドボックス間で決定オブジェクトをコピーできるようになり、テストおよびデプロイメントワークフローを合理化します。
 
@@ -241,17 +241,17 @@ ht-degree: 16%
 
   カスタムアクションが、サンドボックスツール機能を使用してコピーできるAdobe Journey Optimizer オブジェクトのリストに含まれるようになりました。これにより、テストとデプロイメントを合理化できます。
 
-- **キャンペーン用サンドボックスツール**
+- **キャンペーンのサンドボックスツール**
 
   サンドボックスツール機能を使用してキャンペーンをコピーできるようになり、環境間のキャンペーンオブジェクトの移行がシンプルになりました。
 
 **パーソナライゼーション**
 
-- **Personalization エディター – 錠剤の有効化**
+- **錠剤の有効化**
 
   パーソナライゼーションエディターに新しい「ピル」ボタンが追加されました。有効にすると、プロファイルとコンテキスト属性がピルとして表示され、コードの読みやすさが向上します。
 
-- **Personalization - Observable Schema**
+- **属性ペインで入力された属性**
 
   パーソナライゼーションエディターの属性パネルには、デフォルトで入力した属性のみが表示されるようになりました。すべての属性を表示するには、「設定」ボタンを使用して、「入力された属性のみを表示」オプションをオフにします。
 
