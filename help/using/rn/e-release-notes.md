@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
+source-git-commit: da76f1ba5717083791e894a545428b5ac71e7715
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 16%
@@ -89,6 +89,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>Experience Leagueは、インタラクティブなPersonalization Playground を提供するようになりました。 この機能を使用すると、Adobe Journey Optimizer内でパーソナライゼーション機能を調査し、練習できます。 パーソナライゼーションコードを記述し、サンプルペイロードを使用してテストし、実際のシナリオをシミュレートして、学習体験を強化できます。</p>
+<img src="assets/do-not-localize/templating-playground.gif">
 </td>
 </tr>
 </tbody>
