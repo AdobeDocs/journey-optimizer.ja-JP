@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>以前はベータ版で利用できましたが、現在は、コンテンツバリエーションシミュレーションが一般提供（GA）されています。 CSV または JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、様々なバリエーションのコンテンツをプレビューできます。 パーソナライゼーションのためにコンテンツで使用されるすべての属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するために使用できます。</p>
+<p>一般提供リリースで、この機能に多言語コンテンツとコンテンツ実験のサポートが含まれるようになり、様々な言語や処理でのバリエーションをテストできるようになりました。 さらに、（プロファイル属性に加えて）コンテキスト属性がサポートされるようになり、状況に応じたさらに動的なコンテンツテストが可能になりました。</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ ht-degree: 16%
 
 ### 機能強化 {#25-04-improv}
 
-**オーディエンス**
+<!--**Audiences**
 
-- **オーディエンス構成エンリッチメント属性の制限を削除**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  オーディエンスコンポジションのオーディエンスと属性を、Healthcare Shield またはプライバシーとセキュリティシールドで使用できるようになりました。
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **メールチャネル**
 
