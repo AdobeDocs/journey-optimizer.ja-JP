@@ -1,12 +1,11 @@
 ---
 title: ブランド一致
 description: ブランドスコアを使用してオンブランドコンテンツを作成、検証および管理する方法について説明します。
-feature: Content Management
 badge: label="ベータ版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 5a30f898dda1297b7d754af431d9d1803c0b48b8
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 14%
