@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 52%
@@ -240,11 +240,11 @@ ht-degree: 52%
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-- **カスタムアクション用のサンドボックスツール**
+* **カスタムアクション用のサンドボックスツール**
 
   カスタムアクションが、サンドボックスツール機能を使用してコピーできるAdobe Journey Optimizer オブジェクトのリストに含まれるようになりました。これにより、テストとデプロイメントを合理化できます。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
 
-- **キャンペーン用サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
+* **キャンペーン用サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
 
   パッケージのエクスポート機能とインポート機能を使用して、複数のサンドボックス間でキャンペーンをコピーできるようになりました。キャンペーンは、プロファイル、オーディエンス、スキーマ、インラインメッセージおよび依存オブジェクトに関連するすべての項目と共にコピーされます。決定項目、データ使用ラベル、言語設定など、一部の項目はコピーされません。[詳細情報](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -254,12 +254,12 @@ ht-degree: 52%
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
-- **属性ペインに表示される属性** – 公開日：2025 年 4 月 2 日（PT）
+* **属性ペインに表示される属性** – 公開日：2025 年 4 月 2 日（PT）
 
   パーソナライゼーションエディターの属性パネルには、デフォルトで入力した属性のみが表示されるようになりました。すべての属性を表示するには、設定ボタンを使用して「**[!UICONTROL 入力した属性のみを表示]**」オプションをオフに切り替えます。[詳細情報](../personalization/personalization-build-expressions.md)
 
 
-- **新しいコンテキスト属性**
+* **新しいコンテキスト属性**
 
   新しいコンテキスト属性 **メッセージプロファイル ID** が、パーソナライゼーションエディターから選択できるようになりました。 これは、配信内の各ターゲットプロファイルに送信される各メッセージを一意に識別するメッセージ指向属性です。 この一意の識別子は、例えば、受信者が開いた、またはクリックした各リンクを区別するための URL トラッキングパラメーターとして使用できます。
 
