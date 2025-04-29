@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
 workflow-type: tm+mt
-source-wordcount: '2336'
+source-wordcount: '2358'
 ht-degree: 89%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 89%
    + [検索、フィルター、分類](using/start/search-filter-categorize.md)
    + [アクセシビリティ](using/start/accessibility.md)
    + [ユースケースプレイブック](using/start/playbooks.md)
-   + [AI アシスタントを使用する](using/start/ai-assistant.md)
+   + [AI アシスタントの操作](using/start/ai-assistant.md)
    + [ガードレール](using/start/guardrails.md)
    + [ベストプラクティス](using/start/best-practices.md)
 + ジャーニー {#orchestrate-journeys}
@@ -330,6 +330,11 @@ ht-degree: 89%
       + [Journey Optimizer での WhatsApp チャネルの設定](using/whatsapp/whatsapp-configuration.md)
       + [WhatsApp メッセージの作成](using/whatsapp/create-whatsapp.md)
       + [WhatsApp メッセージの確認および送信](using/whatsapp/send-whatsapp.md)
+   + LINE {#line}
+      + [LINE チャネルの基本を学ぶ](using/line/get-started-line.md)
+      + [Journey Optimizerでの LINE チャネルの設定](using/line/line-configuration.md)
+      + [LINE メッセージの作成](using/line/create-line.md)
+      + [LINE メッセージの確認と送信](using/line/send-line.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
    + [ランディングページの作成](using/landing-pages/create-lp.md)
