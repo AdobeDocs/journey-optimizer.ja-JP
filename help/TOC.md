@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 89%
+source-wordcount: '2364'
+ht-degree: 88%
 
 ---
 
@@ -358,7 +358,9 @@ ht-degree: 89%
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
       + [AI によるランディングページ](using/content-management/generative-lp.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
-      + [ブランドの作成と管理（ベータ版）](using/content-management/brands.md)
+      + ブランド（ベータ版）{#brands}
+         + [ブランドの作成と管理](using/content-management/brands.md)
+         + [ブランドの整合性スコアの評価](using/content-management/brands-score.md)
    + 多言語コンテンツの操作{#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [ロケールの作成](using/content-management/multilingual-locale.md)

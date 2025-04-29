@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -20,11 +20,17 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2025年3月リリース]
+>[!TAB 2025 年 4 月リリース ]
 
-3月リリースが公開されました。リリースノートを参照して、新機能、変更点および機能強化を確認してください。
+4 月リリースが公開されました。 リリースノートを参照して、新機能、変更点および機能強化を確認してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Adobe Expressの統合 ]
+
+dobe Journey OptimizerがAdobe Expressと統合され、クリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。
+
+[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI アシスタント]
 
@@ -38,11 +44,6 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB ジャーニーでの web エクスペリエンス]
-
-Web チャネルを使用すると、Adobe Journey Optimizer では、インバウンド web ジャーニーを通じて顧客に提供する web エクスペリエンスをパーソナライズできます。Web チャネルをジャーニーキャンバスで使用できるようになりました。
-
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: プリヘッダー, エディター, 概要, メール
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
-workflow-type: ht
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="プリヘッダーを追加"
+>title="プリヘッダーの定義"
 >abstract="プリヘッダーは、メールクライアントでメールを閲覧するときに、件名の後に表示される短い概要テキストです。多くの場合、メールの短い概要を提供し、通常は 1 文の長さです。"
 
 メールをデザインする際に、コンテンツの追加のメタ属性を定義することで、読みやすさとアクセシビリティを向上させることができます。[!DNL Journey Optimizer] [E メールデザイナー](get-started-email-design.md)を使用すると、次の要素を指定できます。

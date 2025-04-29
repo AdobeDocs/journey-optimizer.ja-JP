@@ -8,10 +8,8 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: アセット、統合
-hide: true
-hidefromtoc: true
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 8%

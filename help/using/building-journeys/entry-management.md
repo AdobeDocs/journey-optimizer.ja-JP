@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 92%
+source-wordcount: '566'
+ht-degree: 87%
 
 ---
 
@@ -79,19 +79,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 * 繰り返しジャーニーの場合：デフォルトでは、オーディエンスに属するすべてのプロファイルが、繰り返しのたびにジャーニーにエントリします。プロファイルは、別のオカレンスに再エントリする前に、ジャーニーを終了する必要があります。
 
-繰り返しの「オーディエンスを読み取り」ジャーニーには、2 つのオプションがあります。
-
-* 「**増分読み取り**」オプション：繰り返しの&#x200B;**オーディエンスを読み取り**&#x200B;を含んだジャーニーが初めて実行されると、オーディエンス内のすべてのプロファイルがジャーニーにエントリします。このオプションを使用すると、最初の実行後、ジャーニーの前回の実行以降にオーディエンスにエントリした個人のみをターゲットにすることができます。
-
-  >[!NOTE]
-  >
-  >ジャーニーで[カスタムアップロードオーディエンス](../audience/about-audiences.md#segments-in-journey-optimizer)をターゲティングする場合、繰り返しジャーニーでこのオプションを有効にすると、これらのオーディエンスは固定なので、プロファイルは最初の繰り返し時にのみ取得されます。
-
-* **繰り返し時に再エントリを強制**：このオプションを使用すると、ジャーニーにまだ存在するすべてのプロファイルを、次の実行時に自動的に終了させることができます。このジャーニーでのプロファイルの存続期間が繰り返し頻度よりも長くなる可能性がある場合（例えば、待機アクティビティを使用する場合）は、プロファイルがジャーニーを終了できるようにするために、このオプションをアクティブ化しないでください。
-
-![](assets/read-audience-options.png)
-
-詳しくは、この[節](../building-journeys/read-audience.md#configuring-segment-trigger-activity)を参照してください。
+繰り返しのオーディエンスを読み取りジャーニーには複数のオプションを使用できます。 詳しくは、[ ジャーニーでのオーディエンスの使用 ](../building-journeys/read-audience.md) の節を参照してください。
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

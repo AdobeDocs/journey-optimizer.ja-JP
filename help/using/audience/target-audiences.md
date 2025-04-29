@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 ## オーディエンスアクティベーションの遅延 {#activation}
 
 オーディエンスは、取り込みが完了するとすぐに、Journey Optimizer で使用できるようになります。これは通常 1 時間以内ですが、何らかの変動が生じる可能性があります。構成から生成されたオーディエンスは、公開後 24 時間以内に使用できます。
+
+バッチセグメント化ジョブが原因のオーディエンスの場合、バッチ取り込みの変動によりアクティベーションが遅延する場合があります。 毎日スケジュールされたオーディエンスを読み取りジャーニーの場合、ジャーニーのプロパティで時間枠を定義することにより、ジャーニーの実行前に新しいオーディエンスデータを使用できるようにします。 定義された期間内にセグメント化ジョブが完了しない場合、ジャーニーは次に発生するまでスキップされます。 [ オーディエンスを読み取りジャーニーをスケジュールする方法を学ぶ ](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>バッチオーディエンス評価後の **[!UICONTROL トリガー]** オプションは、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 ## カスタムアップロードと連合オーディエンス構成
 
