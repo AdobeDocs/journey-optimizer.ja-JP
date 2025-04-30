@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d87dde2cbc172affa17610b28e092a0da0d7d38f
+source-git-commit: 50fb18210bd589f551efdaf161844251b5bef758
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 56%
+source-wordcount: '824'
+ht-degree: 54%
 
 ---
 
@@ -25,62 +25,11 @@ ht-degree: 56%
 
 ## 2025 年 4 月リリースノート {#25-4-rn}
 
-
 **リリース日**:2025 年 4 月 29～30 日
-
 
 ### 新機能 {#25-04-features}
 
 このリリースに含まれる新機能を以下に示します。
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Expressの統合（限定提供）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey OptimizerはAdobe Expressと統合され、クリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。 この統合により、キャンペーン全体でパーソナライズされたコンテンツを設計およびデプロイするプロセスが簡素化されます。 </p>
-<p>この機能は現在、限定提供（LA）になっています。</p>
-<img src="assets/do-not-localize/express_resize.gif">
-<p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
-<img src="assets/do-not-localize/calendar.gif">
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager as a Cloud Serviceの統合（一般公開）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey OptimizerとAdobe Experience Manager as a Cloud Service間の統合の一般提供。 この統合により、パーソナライズされたカスタマージャーニーに対するシームレスなコンテンツのソーシングと管理が可能になります。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -100,19 +49,17 @@ ht-degree: 56%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>トリガーの毎日のジャーニーがバッチセグメント化の完了後に実行される（使用制限あり）</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Serviceの統合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>毎日スケジュールされたジャーニーの場合、新しいオプションを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する最大 6 時間の時間枠を定義でき、ジャーニーが最新のデータで実行されるか、準備ができていない場合はスキップされるようになります。 「バッチオーディエンス評価後にトリガー」オプションは、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>Adobe Journey OptimizerとAdobe Experience Manager as a Cloud Serviceの統合が一般提供（GA）でリリースされました。 この統合により、パーソナライズされたカスタマージャーニーに対するシームレスなコンテンツのソーシングと管理が可能になります。</p>
+<p>詳しくは、<a href="../integrations/aem-templates.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -134,22 +81,6 @@ ht-degree: 56%
 </tr>
 </tbody>
 </table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>ブランドの整合性スコア（Beta）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ブランドのアラインメントスコア機能は、電子メールデザイナーで直接フィードバックを明確に提供し、コンテンツがブランドのトーン、スタイル、ガイドラインに従っているかどうかを確認するのに役立ちます。</p>
-<p>詳しくは、<a href="../content-management/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -194,10 +125,95 @@ ht-degree: 56%
 <tr>
 <td>
 <p>ジャーニー指標が使用可能になり、ビジネスの主要指標をまたいでアクティビティの影響を測定し、パフォーマンスに関するより明確なインサイトを得ることができるようになりました。</p>
-<p>詳しくは、<a href="../building-journeys/success-metrics.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025年4月9日（PT）</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
+<p>詳しくは、<a href="../building-journeys/success-metrics.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年4月9日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
+<img src="assets/do-not-localize/calendar.gif">
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Expressの統合（限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey OptimizerはAdobe Expressと統合され、クリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。 この統合により、キャンペーン全体でパーソナライズされたコンテンツを設計およびデプロイするプロセスが簡素化されます。 </p>
+<p>この統合は、一連の組織でのみ使用できます（使用制限あり）。 アクセス権を取得するには、Adobe担当者にお問い合わせください</p>
+<img src="assets/do-not-localize/express_resize.gif">
+<p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>トリガーの毎日のジャーニーがバッチセグメント化の完了後に実行される（使用制限あり）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>毎日スケジュールされたジャーニーの場合、新しいオプションを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する最大 6 時間の時間枠を定義でき、ジャーニーが最新のデータで実行されるか、準備ができていない場合はスキップされるようになります。 「バッチオーディエンス評価後にトリガー」オプションは、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
+<p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>ブランドの整合性スコア（Beta）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ブランドのアラインメントスコア機能は、電子メールデザイナーで直接フィードバックを明確に提供し、コンテンツがブランドのトーン、スタイル、ガイドラインに従っているかどうかを確認するのに役立ちます。 この機能は、Betaで使用できます。</p>
+<p>詳しくは、 <a href="../content-management/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -222,19 +238,6 @@ ht-degree: 56%
 
 ### 機能強化 {#25-04-improv}
 
-**メールチャネル**
-
-<!--* **Personalized URL tracking**
-
-  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
-
-* **E メールデザイナー** - 公開日：2025年4月1日（PT）
-
-  Journey Optimizer のアクセシビリティを強化するために、E メールデザイナーで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<html>` 要素の `<title>` 要素と `lang` 属性に対応しています。これらの設定は、メールの「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL プリヘッダー]**」フィールドに加えて定義できます。[詳細情報](../email/email-metadata.md)
-
-<!--- **Email designer themes** (Beta) - Availability date: May 5, 2025
-
-  You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams. -->
 
 **サンドボックスツール**
 
@@ -256,14 +259,25 @@ ht-degree: 56%
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
+* **新しいコンテキスト属性**
+
+  新しいコンテキスト属性 **メッセージプロファイル ID** が、パーソナライゼーションエディターから選択できるようになりました。 これは、配信内の各ターゲットプロファイルに送信される各メッセージを一意に識別するメッセージ指向属性です。 この一意の識別子は、例えば、受信者が開いた、またはクリックした各リンクを区別するための URL トラッキングパラメーターとして使用できます。
+
 * **属性ペインに表示される属性** – 公開日：2025 年 4 月 2 日（PT）
 
   パーソナライゼーションエディターの属性パネルには、デフォルトで入力した属性のみが表示されるようになりました。すべての属性を表示するには、設定ボタンを使用して「**[!UICONTROL 入力した属性のみを表示]**」オプションをオフに切り替えます。[詳細情報](../personalization/personalization-build-expressions.md)
 
+**メールチャネル**
 
-* **新しいコンテキスト属性**
+<!--* **Personalized URL tracking**
 
-  新しいコンテキスト属性 **メッセージプロファイル ID** が、パーソナライゼーションエディターから選択できるようになりました。 これは、配信内の各ターゲットプロファイルに送信される各メッセージを一意に識別するメッセージ指向属性です。 この一意の識別子は、例えば、受信者が開いた、またはクリックした各リンクを区別するための URL トラッキングパラメーターとして使用できます。
+  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
+
+* **E メールデザイナー** - 公開日：2025年4月1日（PT）
+
+  Journey Optimizer のアクセシビリティを強化するために、E メールデザイナーで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<html>` 要素の `<title>` 要素と `lang` 属性に対応しています。これらの設定は、メールの「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL プリヘッダー]**」フィールドに加えて定義できます。[詳細情報](../email/email-metadata.md)
+
+
 
 **ナビゲーション**
 
