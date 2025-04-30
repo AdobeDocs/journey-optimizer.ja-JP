@@ -7,10 +7,10 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
+source-git-commit: edd012bc8f2b840d211658782239003749e06df8
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 23%
+source-wordcount: '182'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->リクエストに応じて、Adobe Journey Optimizerのお客様は LINE チャネルを有効にすることができます。 組織でこの機能を有効にするには、アドビカスタマーケアまたはアドビ担当者にお問い合わせください。
+>リクエストに応じて、Adobe Journey Optimizerのお客様は LINE チャネルを有効にすることができます。 組織用に機能を有効化する場合は、Adobe担当者にお問い合わせください。
 
 LINE メッセージは、ジャーニーまたはキャンペーンで作成して送信できます。
 
