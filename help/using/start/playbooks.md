@@ -8,22 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 69%
 
 ---
 
 # ユースケースプレイブック {#playbooks}
 
->[!PREREQUISITES]
->
->ユースケースプレイブックを使用する前に、次の設定手順が必要です。各手順について詳しくは、ユースケースハンドブックのドキュメントの[基本を学ぶ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=ja){target="_blank"}ページを参照してください。
->
->* サンドボックスの作成
->* ユーザー権限の設定
->* メール、プッシュおよび SMS 通知用の Journey Optimizer チャネル設定の指定
+## ユースケースプレイブックとは {#gs}
 
 ユースケースプレイブックは、Adobe Experience Platform と Journey Optimizer を使用して実行できる一般的なユースケースに対処する事前定義済みのワークフローです。
 
@@ -33,7 +27,17 @@ ht-degree: 100%
 
 ![プレイブックを検出ビューに表示された、放棄された買い物かごプレイブック](assets/playbooks-detail.png){width="85%"}
 
-プレイブックにアクセスするには、左側のナビゲーションパネルにある&#x200B;**[!UICONTROL プレイブック]**&#x200B;メニューに移動します。ライブラリには、Adobe Journey Optimizer を使用して実装されたいくつかのプレイブックが含まれます。簡単にアクセスするには、検索バーの横にあるフィルターを使用します。Journey Optimizer プレイブックの包括的なリストは、[ユースケースプレイブックドキュメント](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ja){target="_blank"}で参照できます。
+## 前提条件 {#prerequisites}
+
+ユースケースプレイブックを使用する前に、次の設定手順が必要です。各手順の詳細については、ユース ケース プレイブックのドキュメント [はじめに](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=ja){target="_blank"} ページを参照してください。
+
+* サンドボックスの作成
+* ユーザー権限の設定
+* メール、プッシュおよび SMS 通知用の Journey Optimizer チャネル設定の指定
+
+## プレイブックへのアクセスと有効化 {#access}
+
+プレイブックにアクセスするには、左側のナビゲーションパネルにある&#x200B;**[!UICONTROL プレイブック]**&#x200B;メニューに移動します。ライブラリには、Adobe Journey Optimizer を使用して実装されたいくつかのプレイブックが含まれます。簡単にアクセスするには、検索バーの横にあるフィルターを使用します。ジャーニーオプティマイザープレイブックの包括的なリストは、 [ユースケースプレイブックドキュメント](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ja){target="_blank"}にあります。
 
 ![フィルターパネルを開いたプレイブックリスト](assets/playbooks-filter.png){width="85%"}
 
@@ -45,4 +49,16 @@ ht-degree: 100%
 
 ユースケースを実装するには、各オブジェクトに移動し、ニーズに合わせて適応させることができます。また、プレイブックインスタンスページの URL をチーム間で共有して、ユースケースの実装に関する共同作業を行うこともできます。
 
-さらに、プレイブックアセットを他のサンドボックスに読み込むこともできます。これにより、独自のスキーマ、フィールドおよびフィールドグループを既に設定している場合、生成されたアセットを既存のアセットに合わせ、データとの互換性を確保できます。これらの手順について詳しくは、[ユースケースプレイブックドキュメント](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=ja){target="_blank"}を参照してください。
+さらに、プレイブックアセットを他のサンドボックスに読み込むこともできます。これにより、独自のスキーマ、フィールドおよびフィールドグループを既に設定している場合、生成されたアセットを既存のアセットに合わせ、データとの互換性を確保できます。これらの手順は、ユースケースプレイブックのドキュメントで詳しく説明されています: プレイブックで生成されたアセットを他のサンドボックスに [Publish](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=ja){target="_blank"}。
+
+## 独自のプレイブック作成 (ベータ版) {#create}
+
+>[!AVAILABILITY]
+>
+>ユースケースプレイブックの作成は、現在、すべてのお客様がパブリックベータ版として利用できます。
+
+定義済みのプレイブックを活用するだけでなく、Adobe Experience Platform内で独自のプレイブックを作成して共有できます。
+
+AI アシスタンスまたは手動入力を使用してメタデータを定義し、スキーマ、セグメントなどの技術アセットを関連付け、さまざまな IMS 組織間でプレイブックを共有できます。
+
+プレイブックを作成して共有する方法の詳細については、ユース ケース プレイブックのドキュメント「AI アシスタントを使用して独自のプレイブックを [著者および共有する](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}」を参照してください。

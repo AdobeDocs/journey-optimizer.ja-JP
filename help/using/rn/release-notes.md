@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2816b5aefaa184949471c6b0d2ee1c6ec6de0ed0
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 51%
+source-wordcount: '906'
+ht-degree: 49%
 
 ---
 
@@ -277,7 +277,9 @@ ht-degree: 51%
 
   Journey Optimizer のアクセシビリティを強化するために、E メールデザイナーで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<html>` 要素の `<title>` 要素と `lang` 属性に対応しています。これらの設定は、メールの「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL プリヘッダー]**」フィールドに加えて定義できます。[詳細情報](../email/email-metadata.md)
 
+**ユースケースプレイブック**
 
+* **プレイブックのオーサリングと共有（Beta）** – 独自のユースケースプレイブックを作成、管理、共有できるようになりました。 この機能は、現在、パブリックベータ版としてすべてのお客様が利用できます。 [詳細情報](../start/playbooks.md)
 
 **ナビゲーション**
 
