@@ -6,9 +6,7 @@ description: Journey Optimizerで LINE メッセージを送信するための�
 feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 42%

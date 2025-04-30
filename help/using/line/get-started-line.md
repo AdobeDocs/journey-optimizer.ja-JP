@@ -7,12 +7,10 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 18%
+source-wordcount: '186'
+ht-degree: 23%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] を使用すると、顧客の LINE アプリに LINE メッセージを送信できます。 LINE エディターでメッセージの作成、パーソナライズ、プレビューを行うことができます。
 
+[!AVAILABILITY]
+>>
+リクエストに応じて、Adobe Journey Optimizerのお客様は LINE チャネルを有効にすることができます。 組織でこの機能を有効にするには、アドビカスタマーケアまたはアドビ担当者にお問い合わせください。
+>
 LINE メッセージは、ジャーニーまたはキャンペーンで作成して送信できます。
 
 * **ジャーニー**&#x200B;の場合：ジャーニーを作成し、LINE アクティビティを追加し、基本設定を定義したあと、右側の **[!UICONTROL アクション : LINE]** パネルを参照して LINE メッセージのコンテンツを作成します。 ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。

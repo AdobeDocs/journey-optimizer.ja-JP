@@ -6,10 +6,9 @@ description: Journey Optimizerで LINE メッセージを作成する方法を�
 feature: Line
 topic: Content Management
 role: User
-hide: true
-hidefromtoc: true
 level: Beginner
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
+source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 71%
@@ -94,4 +93,3 @@ LINE コンテンツを設定するには、次の手順に従います。
 テストを実行してコンテンツを検証したら、LINE メッセージをオーディエンスに送信できます。 これらの手順について詳しくは、[このページ](send-line.md)を参照してください。
 
 送信したら、キャンペーンまたはジャーニーレポート内で LINE の影響を測定できます。 レポートについて詳しくは、[この節](../reports/campaign-global-report-cja.md)を参照してください。
-
