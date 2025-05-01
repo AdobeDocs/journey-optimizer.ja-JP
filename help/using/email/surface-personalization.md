@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1069'
-ht-degree: 100%
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+workflow-type: tm+mt
+source-wordcount: '1170'
+ht-degree: 92%
 
 ---
 
@@ -98,7 +98,6 @@ ht-degree: 100%
 >
 >「**[!UICONTROL エラーメールのプレフィックス]**」フィールドを除く、すべての「**[!UICONTROL ヘッダーパラメーター]**」フィールドをパーソナライズできます。
 
-
 1. 通常どおりにヘッダーパラメーターを定義します。[方法についてはこちらを参照](email-settings.md#email-header)
 
 1. 各フィールドに対して、編集アイコンを選択します。
@@ -125,17 +124,19 @@ ht-degree: 100%
 >
 >1 つ以上の動的サブドメインを設定に追加した場合、**送信元メール**&#x200B;と&#x200B;**エラーメール**&#x200B;のサフィックスは、解決された[動的サブドメイン](#dynamic-subdomains)に基づいて入力されます。
 
-<!--
-## Use personalized URL tracking {#personalize-url-tracking}
+## パーソナライズされた URL トラッキングの使用 {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+パーソナライズした URL トラッキングパラメーターを使用するには、次の手順に従います。
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. メールチャネル設定の **[!UICONTROL URL トラッキングパラメーター]** セクションに移動します。
 
-1. Repeat the steps above for each tracking parameter you want to personalize.
+1. 各フィールドの横にある「編集」アイコンをクリックします。 コンテキスト属性に加え、プロファイル属性を選択できます。
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+1. [ パーソナライゼーションエディター ](../personalization/personalization-build-expressions.md) から、目的のプロファイル属性を選択します。
+
+1. パーソナライズするトラッキングパラメーターごとに、上記の手順を繰り返します。
+
+メールを送信すると、パーソナライズされたパラメーターが URL の末尾に自動的に追加されるようになりました。 その後、このパラメーターを web 分析ツールまたはパフォーマンスレポートで取得できます。
 
 ## 設定の詳細の表示 {#view-surface-details}
 

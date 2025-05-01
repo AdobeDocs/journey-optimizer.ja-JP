@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1198'
-ht-degree: 100%
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+workflow-type: tm+mt
+source-wordcount: '1200'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >URL を解釈する場合、[!DNL Journey Optimizer] は URI 構文（[RFC 3986 標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}）に準拠しており、URL 内の一部の特殊な国際文字が無効になります。配達確認またはメールを送信しようとした際に、コンテンツに追加された URL に関するエラーが返された場合は、回避策として文字列を URL エンコードできます。
+   >URL を解釈する場合、[!DNL Journey Optimizer] は URI 構文（[RFC 3986 標準 ](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}）に準拠しており、URL 内の一部の特殊な国際文字が無効になります。 配達確認またはメールを送信しようとした際に、コンテンツに追加された URL に関するエラーが返された場合は、回避策として文字列を URL エンコードできます。
 
 1. リンクをパーソナライズできます。[詳細情報](../personalization/personalization-syntax.md#perso-urls)
 
@@ -172,9 +172,9 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
 ## URL トラッキングのパーソナライズ {#url-tracking}
 
-通常 [URL トラッキング](email-settings.md#url-tracking)は設定レベルで管理されますが、プロファイル属性はサポートされていません。現在、これを実行する唯一の方法は、E メールデザイナーで [URL をパーソナライズ](../personalization/personalization-syntax.md#perso-urls)することです。
+[URL トラッキング ](email-settings.md#url-tracking) は設定レベルで管理され、メッセージコンテンツに含まれるすべての URL に適用されます。
 
-パーソナライズした URL トラッキングパラメーターをリンクに追加するには、次の手順に従います。
+また、電子メールデザイナーで [ 個々の URL をパーソナライズ ](../personalization/personalization-syntax.md#perso-urls) することもできます。 パーソナライズした URL トラッキングパラメーターをコンテンツ内の単一のリンクに追加するには、次の手順に従います。
 
 1. リンクを選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックします。
 
