@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a425ecf446ba7a7a56a3cd1fd8ee2d396d8b6db7
+source-git-commit: e114024afd94333b6c3ac08d62a27cb13693ced6
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 49%
@@ -232,6 +232,7 @@ ht-degree: 49%
 <tr>
 <td>
 <p>You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Ranking formulas allow you to define rules that will determine which decision items should be presented first, rather than taking into account the priority scores.</p>
+<img src="assets/do-not-localize/formula-builder.gif">
 <p>Availability date: May 5, 2025</p>
 </td>
 </tr>
