@@ -74,7 +74,7 @@ ht-degree: 98%
 >id="od_offer_eligibility"
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
->additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
+>additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="デモビデオを見る"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
