@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1436'
-ht-degree: 100%
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+workflow-type: tm+mt
+source-wordcount: '1458'
+ht-degree: 97%
 
 ---
 
@@ -79,12 +79,18 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 +++
 
++++メール設定
+
+メールチャネル設定を作成する際に、サブドメイン、ヘッダー、URL トラッキングパラメーターのパーソナライズされた値を定義できます。 [詳細情報](../email/surface-personalization.md)
+
++++
+
 ## パーソナライゼーションのソース {#sources}
 
 ナビゲーションパネルでは、パーソナライゼーションのソースを選択できます。利用可能なソースは次のとおりです。
 
-* **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}に記載のプロファイルスキーマに関連付けられているすべての参照をリストします。
-* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。セグメント化について詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL プロファイル属性]** :[Adobe Experience Platform データモデル（XDM）ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} に記載のプロファイルスキーマに関連付けられているすべての参照をリストします。
+* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。セグメント化の詳細については、[ここ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 * **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）をジャーニーまたはキャンペーンで使用する場合、イベントやプロパティに関連するコンテキスト属性をパーソナライズに使用できます。コンテキスト属性を活用したパーソナライゼーションの例については、[この節](personalization-use-case.md)を参照してください。
 
@@ -187,7 +193,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 {{/each}}
 ```
 
-* **ハンドルバー構文が無効です。`‘[XYZ}}’`** が見つかりました
+* **ハンドルバー構文が無効です。`'[XYZ}}'`** が見つかりました
 
 無効なハンドルバー構文が使用される場合。
 
