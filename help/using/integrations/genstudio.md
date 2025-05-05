@@ -76,13 +76,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >HTML テンプレートを [!DNL GenStudio] にアップロードする方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} の専用セクションを参照してください。
+   >HTML テンプレートを [!DNL GenStudio] にアップロードする方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} の専用セクションを参照してください。
 
 1. GenStudioでは、このテンプレートを使用して、AI プロンプトで複数のメールのバリエーションを作成し、保存します。
 
    >[!NOTE]
    >
-   >メールエクスペリエンスを作成する方法については、GenStudio専用の [ 節 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} を参照してください。
+   >メールエクスペリエンスを作成する方法については、GenStudio専用の [ 節 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} を参照してください。
 
 ### Journey OptimizerでのGenStudio エクスペリエンスの活用 {#leverage-genstudio-experiences}
 

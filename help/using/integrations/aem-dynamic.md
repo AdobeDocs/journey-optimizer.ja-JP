@@ -25,7 +25,7 @@ ht-degree: 4%
 
 この統合は、Dynamic Media Manager as a Cloud Serviceを使用しているお客様のみが利用できます。
 
-Adobe Experience Manager as a Cloud Serviceの Dynamic Media について詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"} を参照してください。
+Adobe Experience Manager as a Cloud Serviceの Dynamic Media について詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"} を参照してください。
 
 ## Dynamic Media の追加と管理 {#dynamic-media}
 
@@ -47,7 +47,7 @@ Adobe Experience Manager as a Cloud Serviceから Dynamic Media をJourney Optim
 
 1. 必要に応じて、アセット要件に合わせて画像パラメーター（高さ、幅、回転、反転、明るさ、色相など）を調整します。
 
-   URL に追加できる画像パラメーターの包括的なリストについては、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference) を参照してください。
+   URL に追加できる画像パラメーターの包括的なリストについては、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/ja/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference) を参照してください。
 
    ![](assets/dynamic-media-3.png)
 
@@ -100,7 +100,7 @@ Adobe Experience Manager as a Cloud Serviceから Dynamic Media をJourney Optim
 
 Journey Optimizerで Dynamic Media テンプレートを簡単に追加し、必要に応じてメディアコンテンツを更新できます。 パーソナライゼーションフィールドをメディアに組み込むことができるようになり、Journey Optimizer内で、よりカスタマイズされた魅力的なコンテンツを作成できるようになりました。
 
-詳しくは、[Dynamic Media テンプレート ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics) を参照してください。
+詳しくは、[Dynamic Media テンプレート ](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics) を参照してください。
 
 ### 画像コンポーネントを使用 {#image-component}
 
@@ -120,7 +120,7 @@ Journey Optimizerで Dynamic Media テンプレートを簡単に追加し、必
 
 1. **画像設定** で、Dynamic Media テンプレートのパラメーターに移動します。
 
-   使用可能なフィールドは、Adobe Experience Managerでの [ テンプレートの作成 ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) 時に追加されたパラメーターによって異なります。
+   使用可能なフィールドは、Adobe Experience Managerでの [ テンプレートの作成 ](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) 時に追加されたパラメーターによって異なります。
 
    ![](assets/dynamic-media-template-3.png)
 

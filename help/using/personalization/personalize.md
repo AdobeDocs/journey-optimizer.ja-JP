@@ -51,7 +51,7 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ![ パーソナライゼーションプレイグラウンド ](assets/playground.png)
 
-➡️ [ パーソナライゼーションプレイグラウンドへのアクセス ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [ パーソナライゼーションプレイグラウンドへのアクセス ](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## さらに深く掘り下げましょう
 
