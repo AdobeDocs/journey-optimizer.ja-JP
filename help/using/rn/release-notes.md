@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e114024afd94333b6c3ac08d62a27cb13693ced6
+source-git-commit: 6b7ec8d97a9b8156c615adf19774dab70d2b7451
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 49%
@@ -199,6 +199,7 @@ ht-degree: 49%
 <p>You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
 <p>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
 <p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/themes.gif">
 <p>Availability date: May 5, 2025</p>
 </td>
 </tr>
@@ -225,13 +226,14 @@ ht-degree: 49%
 <table>
 <thead>
 <tr>
-<th><strong>Decisioning - New ranking formula builder</strong><br/></th>
+<th><strong>Decisioning - New AI formula builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Ranking formulas allow you to define rules that will determine which decision items should be presented first, rather than taking into account the priority scores.</p>
+<p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
 <p>Availability date: May 5, 2025</p>
 </td>
