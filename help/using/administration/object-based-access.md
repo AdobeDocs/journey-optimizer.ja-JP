@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '472'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="アクセス管理ラベル"
->abstract="アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。アクセス制限を追加するには、このページの上部にある「**アクセスを管理**」ボタンを参照します。権限のあるラベルのみを選択します。"
+>abstract="アクセスラベルに基づいて、オブジェクトへのアクセスを制限できます。 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を向上させることを目的としています。 **権限のあるラベルのみを選択してください。**"
+
+アクセスラベルに基づいて、オブジェクトへのアクセスを制限できます。 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を強化することを目的としています。
 
 オブジェクトレベルのアクセス制御（OLAC）機能を使用すると、次のように選択したオブジェクトへのデータアクセスを管理する権限を定義できます。
 
@@ -36,7 +38,6 @@ ht-degree: 100%
 * チャネル設定
 * IP ウォームアッププラン
 
-機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を強化することを目的としています。
 
 ## 前提条件 {#prereq-labels}
 
@@ -94,4 +95,4 @@ ht-degree: 100%
 このオブジェクトにアクセスするには、ユーザーは特定の&#x200B;**[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL 役割]**に含める必要があります。
 例えば、C1 ラベルを持つユーザーは、C1 ラベル付きオブジェクトまたはラベル付けされていないオブジェクトにのみアクセスできます。
 
-**[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL 役割]**&#x200B;に割り当てる方法について詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=ja#manage-labels-for-a-role){target="_blank"}を参照してください。
+**[!UICONTROL ラベル]**&#x200B;を&#x200B;**[!UICONTROL 役割]**&#x200B;に割り当てる方法の詳細については、[このページ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=ja#manage-labels-for-a-role){target="_blank"}を参照してください。

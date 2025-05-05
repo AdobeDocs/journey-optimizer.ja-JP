@@ -2,32 +2,31 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの公開
-description: 選択したジャーニー指標を報告する方法について説明します
+description: ジャーニー指標のレポート方法を学ぶ
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 72%
 
 ---
 
-# ジャーニー指標の設定とトラッキング {#success-metrics}
+# ジャーニー指標の設定とトラック {#success-metrics}
 
-ジャーニー指標を使用すると、定義済みの指標に対してアクティビティのパフォーマンスを追跡することで、アクティビティの影響を効果的に測定できます。
-これらの指標を追跡することで、ジャーニーのパフォーマンスを確認し、改善すべき領域を特定し、情報に基づいた決定を行って顧客エンゲージメントを強化できます。
+ジャーニー指標を使用して、カスタマージャーニーの有効性を明確に可視化します。 この機能を使用すると、定義済みの KPI に対するパフォーマンスを追跡し、何が機能しているのかに関するインサイトを引き出し、最適化すべき領域を特定できます。 影響をリアルタイムで測定することで、継続的な改善を推進し、顧客エンゲージメントを高めるデータに基づいた意思決定を行うことができます。
 
 ## 前提条件 {#prerequisites}
 
-ジャーニー指標を使用する前に、`Commerce Details`、`Web` および `Mobile` の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を含むデータセットを追加する必要があります。
+ジャーニー指標を使用する前に、`Commerce Details`、`Web`、`Mobile` [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} を含むデータセットを追加する必要があります。
 
 ## 使用可能な指標 {#metrics}
 
-指標のリストは、データセットに含まれる[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}によって異なります。
+指標のリストは、データセットに含まれる [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} によって異なります。
 
 データセットが設定されていない場合は、**[!UICONTROL クリック]**、**[!UICONTROL ユニーククリック]**、**[!UICONTROL クリックスルー率]**&#x200B;および&#x200B;**[!UICONTROL 開封率]**&#x200B;の指標のみが使用可能になります。
 
@@ -72,7 +71,7 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
 ## ジャーニー指標の割り当て {#assign}
 
-ジャーニー指標のトラッキングを開始するには、次の手順に従います。
+ジャーニー指標の追跡を開始するには、次に示す手順に従います。
 
 1. **[!UICONTROL ジャーニー]**&#x200B;メニューから、「**[!UICONTROL ジャーニーを作成]**」をクリックします。
 
