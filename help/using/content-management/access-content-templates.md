@@ -100,7 +100,7 @@ ht-degree: 95%
 >
 >テンプレートを編集または削除しても、このテンプレートを使用して作成されたコンテンツを含むキャンペーンやジャーニーは影響を受けません。
 
-## [!BADGE  限定提供 ]{type=Informative} 表示テンプレートをサムネール {#template-thumbnails}
+## [!BADGE &#x200B; 限定提供 &#x200B;]{type=Informative} 表示テンプレートをサムネール {#template-thumbnails}
 
 各テンプレートをサムネールとして表示するには、**[!UICONTROL グリッド表示]**&#x200B;モードを選択します。
 

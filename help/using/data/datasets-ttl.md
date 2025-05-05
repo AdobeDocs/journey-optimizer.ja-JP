@@ -75,13 +75,13 @@ TTL 拡張機能は、現在サポートされていません。ただし、2025
 
 >[!NOTE]
 >
->プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[ 詳細情報 ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=&quot;_blank}
+>プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[ 詳細情報 ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=_blank}
 
 +++
 
 +++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？
 
-TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[ 詳細情報 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}。 さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
+TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[ 詳細情報 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}。 さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
 
 +++
 

@@ -22,7 +22,7 @@ ht-degree: 75%
 
 ## 2025年4月 {#apr-2025}
 
-* 設定の章は、{ チャンネル設定 [、[ジャーニー設定 ](../configuration/get-started-configuration.md)、{ システムの接続 ](../configuration/about-data-sources-events-actions.md)[ の 3 つの章に分かれ ](../configuration/ajo-apis.md) います。
+* 設定の章は、&lbrace; チャンネル設定 [&#128279;](../configuration/about-data-sources-events-actions.md)、[ジャーニー設定 ](../configuration/get-started-configuration.md)、&lbrace; システムの接続 [ の 3 つの章に分かれ ](../configuration/ajo-apis.md) います。
 * ジャーニー式と条件でエクスペリエンスイベントを使用する際の注意を追加しました。 [詳細情報](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * サブドメインのデリゲートを解除する手順が、[ メール ](../configuration/delegate-subdomain.md#undelegate-subdomain)、[SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)、[web エクスペリエンス ](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)、[ ランディングページ ](../landing-pages/lp-subdomains.md#undelegate-subdomain) で詳細に説明されるようになりました。
 * ダイレクトメール設定ページに、出力ファイルの一時的な保存に関するメモを追加しました。 [詳細情報](../direct-mail/direct-mail-configuration.md)

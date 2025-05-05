@@ -33,7 +33,7 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
 * **Experience Manager 設定**
 
-  この機能は、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ja) で使用できます{target="_blank"}。
+  この機能は、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ja){target="_blank"} で使用できます。
 
   ベータ版プログラムの一環として、クラウドサービス設定は、Adobe Experience Manager でアドビが Adobe Journey Optimizer に接続するために実行します。
 

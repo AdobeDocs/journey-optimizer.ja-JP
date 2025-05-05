@@ -67,7 +67,7 @@ ht-degree: 97%
       | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
       | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
-+++
+      +++
 
    1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 条件を追加]**」をクリックします。
 
@@ -99,7 +99,7 @@ ht-degree: 97%
       | Places | 最後にエントリした POI | 顧客が最後にエントリした目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
       | Places | 前回離脱した POI | 顧客が前回離脱した目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ ht-degree: 97%
       | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
       | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
-+++
+      +++
 
    1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 条件を追加]**」をクリックします。
 
@@ -205,7 +205,7 @@ ht-degree: 97%
       | Places | 最後にエントリした POI | 顧客が最後にエントリした目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
       | Places | 前回離脱した POI | 顧客が前回離脱した目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ ht-degree: 97%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * 以下のビデオでは、アプリ内メッセージの A/B テストを行うためのコンテンツ実験を設定および分析する方法を示しています。
 
@@ -246,7 +246,7 @@ ht-degree: 97%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * 以下のビデオでは、ジャーニーでアプリ内メッセージを作成する方法と、ジャーニーをテストして公開する方法を示しています。
 
@@ -254,7 +254,7 @@ ht-degree: 97%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **関連トピック：**
 
