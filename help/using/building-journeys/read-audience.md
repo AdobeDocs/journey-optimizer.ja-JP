@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
 ht-degree: 67%
@@ -24,41 +24,6 @@ ht-degree: 67%
 >id="ajo_journey_read_segment"
 >title="「オーディエンスを読み取り」アクティビティ"
 >abstract="「オーディエンスを読み取り」アクティビティを使用すると、Adobe Experience Platform オーディエンスに属するすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回限りと定期的のいずれも可能です。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="開始日時"
->abstract="このジャーニーをトリガーにする日時を定義します。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="繰り返しの期限"
->abstract="繰り返しの終了日を定義します。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="繰り返し間隔"
->abstract="繰り返しスケジューラーの頻度を定義します。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="増分読み取り"
->abstract="前回の読み取り以降の新しいプロファイルのみがジャーニーにエントリできるようにします。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="再エントリを強制する"
->abstract="各オーディエンスが読み取られる前に、すべてのジャーニー参加者をドロップします。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="バッチオーディエンス評価後のトリガー"
->abstract="バッチオーディエンスを新たに評価した後にジャーニーをトリガーするには、このオプションをオンに切り替えます。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="新しいオーディエンス評価の待機時間"
->abstract="バッチオーディエンスが新たに評価されるまでジャーニーが待機する時間を指定します。 待機期間は整数値に制限されています。分または時間で指定でき、1 ～ 6 時間の範囲で指定する必要があります。"
 
 **オーディエンスを読み取り**&#x200B;アクティビティを使用すると、オーディエンスのすべての個人をジャーニーにエントリさせることができます。ジャーニーへのエントリは、1 回限りと定期的のいずれも可能です。
 
@@ -131,6 +96,41 @@ ht-degree: 67%
 >サンドボックスあたりの全体的な読み取り率は、1 秒あたり 20,000 プロファイルに設定されています。したがって、同じサンドボックスで同時に実行されるすべての「オーディエンスを読み取り」の読み取り率は、合計で 1 秒あたり最大 20,000 プロファイルになります。この上限は変更できません。
 
 ### ジャーニーのスケジュール {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="開始日時"
+>abstract="このジャーニーをトリガーにする日時を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="繰り返しの期限"
+>abstract="繰り返しの終了日を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="繰り返し間隔"
+>abstract="繰り返しスケジューラーの頻度を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="増分読み取り"
+>abstract="前回の読み取り以降の新しいプロファイルのみがジャーニーにエントリできるようにします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="再エントリを強制する"
+>abstract="各オーディエンスが読み取られる前に、すべてのジャーニー参加者をドロップします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="バッチオーディエンス評価後のトリガー"
+>abstract="バッチオーディエンスを新たに評価した後にジャーニーをトリガーするには、このオプションをオンに切り替えます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="新しいオーディエンス評価の待機時間"
+>abstract="バッチオーディエンスが新たに評価されるまでジャーニーが待機する時間を指定します。 待機期間は整数値に制限されています。分または時間で指定でき、1 ～ 6 時間の範囲で指定する必要があります。"
 
 デフォルトでは、ジャーニーは 1 回実行されるように設定されています。 ジャーニーを実行する特定の日時および頻度を定義するには、次の手順に従います。
 
