@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1173'
 ht-degree: 90%
 
 ---
 
 # メール設定のパーソナライズ {#surface-personalization}
 
-メール設定の柔軟性と制御を高め [!DNL Journey Optimizer] ために、では、メール設定を作成する際に、サブドメインとヘッダーのパーソナライズされた値と URL トラッキングパラメーターを定義できます。
+メール設定の柔軟性と制御を高め [!DNL Journey Optimizer] ために、では、メール設定を作成する際にサブドメイン、ヘッダー、URL トラッキングパラメーターのパーソナライズされた値を定義できます。
 
 ## 動的サブドメインを追加 {#dynamic-subdomains}
 
