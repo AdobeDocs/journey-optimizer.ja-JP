@@ -138,4 +138,4 @@ API トリガー型キャンペーンを使用すると、追加のデータを 
 
 インタラクティブメッセージ実行 REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452726?quality=12&captions=jpn)

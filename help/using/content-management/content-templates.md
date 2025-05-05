@@ -48,4 +48,4 @@ ht-degree: 90%
 
 [!DNL Journey Optimizer] でコンテンツテンプレートを作成、編集、使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3418587/?quality=12&captions=jpn)

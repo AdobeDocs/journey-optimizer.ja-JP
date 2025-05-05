@@ -80,8 +80,8 @@ ht-degree: 100%
 
 イベントの設定方法と、ストリーミングエンドポイントとイベントのペイロードの指定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3431517?quality=12&captions=jpn)
 
 ビジネスイベントに適用できる使用例を理解します。ビジネスイベントを使用したジャーニーの構築方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416427?quality=12&captions=jpn)

@@ -170,4 +170,4 @@ Web デザイナーのディスプレイのデバイスサイズは、**[!UICONT
 
 次のビデオでは、[!DNL Journey Optimizer] キャンペーンで Web デザイナーを使用して web エクスペリエンスを作成する方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452636/?quality=12&learn=on&captions=jpn)

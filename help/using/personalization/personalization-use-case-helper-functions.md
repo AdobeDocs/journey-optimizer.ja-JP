@@ -344,4 +344,4 @@ ht-degree: 100%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416781?quality=12&captions=jpn)

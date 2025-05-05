@@ -239,4 +239,4 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 ビジネスルールを作成、アクティブ化、テストおよびレポートする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3411124?quality=12&captions=jpn)

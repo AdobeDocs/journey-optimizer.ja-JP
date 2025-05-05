@@ -71,6 +71,6 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
 +++ こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440273/?learn=on&captions=jpn)
 
 +++

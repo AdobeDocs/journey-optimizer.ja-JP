@@ -83,4 +83,4 @@ API 資格情報を作成し設定したら、SMS メッセージ用のチャネ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443607?captions=jpn)

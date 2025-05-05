@@ -70,7 +70,7 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3422696?learn=on&captions=jpn)
 
 +++
 
@@ -79,6 +79,6 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3430376?quality=12&learn=on&captions=jpn)
 
 +++
