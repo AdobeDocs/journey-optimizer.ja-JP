@@ -7,7 +7,8 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: edd012bc8f2b840d211658782239003749e06df8
+exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
+source-git-commit: 8f0b53a4a07feffda4d28bb9e321596503293b03
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 15%
@@ -48,11 +49,10 @@ LINE メッセージを作成する前に、Journey Optimizerで LINE チャネ�
 <p></td>
 <td>
 <a href="line-configuration.md">
-<img alt="低頻度" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="低頻度" src="../assets/do-not-localize/inapp-config.jpg">
 <div>
 <a href="line-configuration.md"><strong>LINE チャネルの設定 </strong>
 </a>
 </div>
 </td>
 </tr></table>
-
