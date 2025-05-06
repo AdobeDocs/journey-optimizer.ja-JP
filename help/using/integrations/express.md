@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: アセット、統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: '517'
+ht-degree: 7%
 
 ---
 
@@ -34,6 +34,25 @@ Adobe Expressについて詳しくは、[ このドキュメント ](https://hel
 **[!DNL Adobe Express]** メニューにアクセスするには、電子メールデザイナーから **画像設定** にアクセスし、**[!UICONTROL Adobe Expressで編集]** をクリックします。
 
 ![](assets/express_1.png)
+
+## Adobe Express Enterprise ライセンス {#licence}
+
+以下の節で説明する機能には、Adobe Express Enterprise ライセンスを持たないユーザーがアクセスできます。
+
+Enterprise ライセンスを使用すると、Adobe Express エディターにフルアクセスでき、色、明るさ、シャープネス、コントラスト、寸法などを調整して画像を編集できます。
+
+![](assets/express-licence.png)
+
++++Adobe Expressの Enterprise ライセンスを使用するユーザーが利用できるユースケース
+
+* [ 背景の削除 ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [ オブジェクトを削除 ](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [ 消去 ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [ オブジェクトの挿入 ](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [ トリミング ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [ エフェクト ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+
++++
 
 ## 画像のサイズ変更 {#resize}
 
